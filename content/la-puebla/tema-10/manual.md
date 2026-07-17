@@ -1,8 +1,9 @@
 # La Puebla de Montalbán · Tema 10 · Manual reconstruido
 
-**Estado:** EN REVISIÓN DEL USUARIO  
-**No publicado como tema aprobado.**  
-**Fecha de revisión normativa:** 17 de julio de 2026.
+**Estado:** APROBADO POR EL USUARIO  
+**Publicado tras aprobación expresa.**  
+**Fecha de revisión normativa:** 17 de julio de 2026.  
+**Aprobado por el usuario:** 17 de julio de 2026.
 
 > **Tema 10. Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.**
 
@@ -1163,8 +1164,8 @@ El artículo 140 impide una segunda regularización del mismo objeto salvo hecho
 - LGT artículos 117–140: procedimientos de gestión desarrollados.
 - Solapamiento con temas 11 y 12: delimitado.
 - Preguntas trazables: no creadas todavía.
-- Revisión del usuario: pendiente.
-- Tema cerrado: **NO**.
-- Publicación como aprobado: **NO**.
+- Revisión del usuario: aprobada el 17 de julio de 2026.
+- Tema cerrado: **SÍ, aprobado por el usuario**.
+- Publicación como aprobado: **SÍ**.
 
-El tema solo cambiará a `APROBADO_USUARIO` tras la respuesta expresa **«Tema 10 aprobado»**.
+El usuario aprobó expresamente el tema con la respuesta **«Tema 10 aprobado»**.

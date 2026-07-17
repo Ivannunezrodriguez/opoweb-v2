@@ -13,9 +13,9 @@ const index = read('index.html');
 const packageJson = json('package.json');
 
 assert.equal(programme.project, 'opoweb-v2');
-assert.equal(programme.version, '0.9.0');
-assert.equal(packageJson.version, '0.9.0');
-assert.ok(index.includes('v0.9.0'));
+assert.equal(programme.version, '0.10.0');
+assert.equal(packageJson.version, '0.10.0');
+assert.ok(index.includes('v0.10.0'));
 assert.equal(programme.temas.length, 19);
 assert.deepEqual(
   programme.temas.map(item => item.numero),
@@ -26,13 +26,13 @@ const approved = programme.temas.filter(item => item.estado === 'APROBADO_USUARI
 const inReview = programme.temas.filter(item => item.estado === 'EN_REVISION_USUARIO');
 const pending = programme.temas.filter(item => item.estado === 'PENDIENTE_RECONSTRUCCION');
 
-assert.deepEqual(approved.map(item => item.numero), [1, 2, 3, 4, 5, 6, 7, 8, 9]);
+assert.deepEqual(approved.map(item => item.numero), [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]);
 assert.ok(approved.every(item => item.aprobadoEl === '2026-07-17'));
-assert.deepEqual(inReview.map(item => item.numero), [10]);
+assert.deepEqual(inReview, []);
 assert.equal(pending.length, 9, 'Los temas 11-19 deben permanecer pendientes');
 assert.ok(programme.temas.slice(10).every(item => !item.manual && !item.preguntas));
 
-const expectedRows = { 1: 6, 2: 5, 3: 9, 4: 7, 5: 8, 6: 6, 7: 7, 8: 8, 9: 8 };
+const expectedRows = { 1: 6, 2: 5, 3: 9, 4: 7, 5: 8, 6: 6, 7: 7, 8: 8, 9: 8, 10: 8 };
 
 for (const theme of approved) {
   const folder = `tema-${String(theme.numero).padStart(2, '0')}`;
@@ -130,35 +130,36 @@ const base10 = 'content/la-puebla/tema-10';
 const manual10 = read(`${base10}/manual.md`);
 const matrix10 = json(`${base10}/matriz.json`);
 const questions10 = json(`${base10}/preguntas.json`);
-const feedback10 = read(`${base10}/feedback.md`);
+const approval10 = read(`${base10}/aprobacion.md`);
 const articles10 = read(`${base10}/articulos.md`);
 
-assert.equal(theme10.estado, 'EN_REVISION_USUARIO');
+assert.equal(theme10.estado, 'APROBADO_USUARIO');
+assert.equal(theme10.aprobadoEl, '2026-07-17');
 assert.equal(theme10.manual, `${base10}/manual.md`);
 assert.equal(theme10.matriz, `${base10}/matriz.json`);
-assert.equal(theme10.feedback, `${base10}/feedback.md`);
+assert.equal(theme10.aprobacion, `${base10}/aprobacion.md`);
 assert.equal(theme10.preguntas, `${base10}/preguntas.json`);
 assert.equal(theme10.trazabilidad, `${base10}/articulos.md`);
 assert.equal(matrix10.tema, 10);
-assert.equal(matrix10.estado, 'EN_REVISION_USUARIO');
+assert.equal(matrix10.estado, 'APROBADO_USUARIO');
+assert.equal(matrix10.aprobadoEl, '2026-07-17');
 assert.equal(matrix10.cobertura.length, 8);
 assert.equal(matrix10.trazabilidadArticuloPorArticulo, `${base10}/articulos.md`);
-assert.equal(questions10.estado, 'NO_CREADAS_HASTA_APROBACION_TEORICA');
+assert.equal(questions10.estado, 'PENDIENTE_REVISION_POST_APROBACION');
 assert.deepEqual(questions10.preguntas, []);
-assert.ok(manual10.includes('**Estado:** EN REVISIÓN DEL USUARIO'));
-assert.ok(manual10.includes('Tema cerrado: **NO**'));
-assert.ok(manual10.includes('Publicación como aprobado: **NO**'));
-assert.ok(!manual10.includes('**Estado:** APROBADO POR EL USUARIO'));
+assert.ok(approval10.includes('«Tema 10 aprobado»'));
+assert.ok(approval10.includes('17 de julio de 2026'));
+assert.ok(manual10.includes('**Estado:** APROBADO POR EL USUARIO'));
+assert.ok(manual10.includes('Tema cerrado: **SÍ, aprobado por el usuario**'));
+assert.ok(manual10.includes('Publicación como aprobado: **SÍ**'));
 assert.ok(manual10.split('\n').length > 500, 'El manual del tema 10 parece truncado');
-assert.ok(feedback10.includes('`EN_REVISION_USUARIO`'));
-assert.ok(feedback10.includes('Tema 10 aprobado'));
-assert.ok(articles10.includes('**Estado:** EN REVISIÓN DEL USUARIO'));
+assert.ok(articles10.includes('**Estado:** APROBADO POR EL USUARIO'));
 
 for (let article = 6; article <= 12; article += 1) {
   assert.ok(articles10.includes(`| ${article} |`), `Falta TRLRHL ${article}`);
 }
-for (const [start, end] of [[17, 48], [58, 76], [117, 140]]) {
-  for (let article = start; article <= end; article += 1) {
+for (const [rangeStart, rangeEnd] of [[17, 48], [58, 76], [117, 140]]) {
+  for (let article = rangeStart; article <= rangeEnd; article += 1) {
     assert.ok(articles10.includes(`| ${article} |`), `Falta trazabilidad LGT ${article}`);
   }
 }
@@ -183,9 +184,9 @@ for (const marker of [
 ]) {
   assert.ok(manual10.toLowerCase().includes(marker.toLowerCase()), `Falta contenido crítico del tema 10: ${marker}`);
 }
+assert.ok(serviceWorker.includes('./content/la-puebla/tema-10/articulos.md'));
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.9.0'"));
-assert.ok(!serviceWorker.includes('tema-10/manual.md'), 'El tema 10 en revisión no debe precargarse en la PWA');
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.10.0'"));
 assert.ok(rules.includes('Te prometí un manual y publiqué resúmenes inflados por métricas'));
 assert.ok(rules.includes('Un tema solo cambia a `APROBADO_USUARIO`'));
 assert.ok(app.includes("const PROGRAM_URL = 'data/programa.json'"));
@@ -214,5 +215,5 @@ console.log(JSON.stringify({
   pendingThemes: pending.length,
   theme10Questions: questions10.preguntas.length,
   theme10ManualLines: manual10.split('\n').length,
-  status: 'TEMA_10_EN_REVISION_VALIDADO'
+  status: 'TEMA_10_APROBADO_VALIDADO'
 }, null, 2));
