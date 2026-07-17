@@ -1,6 +1,6 @@
 # Tema 12 · Bloque 4 · Impuesto sobre Vehículos de Tracción Mecánica
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 El bloque se divide en dos secciones:
 
