@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "updatedAt": "2026-07-17",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -34,10 +34,11 @@
     {
       "numero": 2,
       "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Los interesados en el procedimiento. Actividad de las Administraciones Públicas: Normas generales de actuación. Términos y plazos.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-02/manual.md",
       "matriz": "content/la-puebla/tema-02/matriz.json",
-      "feedback": "content/la-puebla/tema-02/feedback.md",
+      "aprobacion": "content/la-puebla/tema-02/aprobacion.md",
       "preguntas": "content/la-puebla/tema-02/preguntas.json"
     },
     {
