@@ -10,11 +10,11 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.6.0**.
+- Versión: **0.7.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
-- Temas 1–6: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 7–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 1–7: `APROBADO_USUARIO` el 17 de julio de 2026.
+- Temas 8–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -40,7 +40,8 @@ opoweb-v2/
 │     ├─ tema-03/
 │     ├─ tema-04/
 │     ├─ tema-05/
-│     └─ tema-06/
+│     ├─ tema-06/
+│     └─ tema-07/
 │        ├─ manual.md
 │        ├─ matriz.json
 │        ├─ aprobacion.md
@@ -84,7 +85,11 @@ Municipio, organización y funcionamiento, provincia, competencias y régimen el
 
 Ley 4/2011 de empleo público de Castilla-La Mancha: clases de personal, OEP, selección, carrera, promoción interna y provisión. Incluye la modificación vigente del artículo 70.2 efectuada por la Ley 2/2026.
 
-Los bancos de preguntas de los seis temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 7
+
+Ley 31/1995 de Prevención de Riesgos Laborales: derechos y obligaciones, servicios preventivos, consulta, Delegados de Prevención, Comité de Seguridad y Salud y colaboración inspectora. Incluye el desarrollo funcional de los artículos 10–22 bis del Real Decreto 39/1997.
+
+Los bancos de preguntas de los siete temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -104,4 +109,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente seis temas aprobados, que los otros trece no contienen teoría heredada y que los manuales aprobados no están truncados.
+La validación confirma que existen exactamente siete temas aprobados, que los otros doce no contienen teoría heredada y que los manuales aprobados no están truncados.
