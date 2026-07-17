@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "updatedAt": "2026-07-17",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -105,7 +105,13 @@
     {
       "numero": 9,
       "titulo": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-09/manual.md",
+      "matriz": "content/la-puebla/tema-09/matriz.json",
+      "aprobacion": "content/la-puebla/tema-09/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-09/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-09/articulos.md"
     },
     {
       "numero": 10,
