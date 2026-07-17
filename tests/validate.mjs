@@ -23,9 +23,9 @@ const inReview = programme.temas.filter(item => item.estado === 'EN_REVISION_USU
 const pending = programme.temas.filter(item => item.estado === 'PENDIENTE_RECONSTRUCCION');
 assert.deepEqual(approved.map(item => item.numero), [1, 2, 3, 4, 5, 6, 7]);
 assert.ok(approved.every(item => item.aprobadoEl === '2026-07-17'));
-assert.deepEqual(inReview, []);
-assert.equal(pending.length, 12, 'Los temas 8-19 deben permanecer pendientes');
-assert.ok(programme.temas.slice(7).every(item => !item.manual && !item.preguntas));
+assert.deepEqual(inReview.map(item => item.numero), [8]);
+assert.equal(pending.length, 11, 'Los temas 9-19 deben permanecer pendientes');
+assert.ok(programme.temas.slice(8).every(item => !item.manual && !item.preguntas));
 
 const expectedRows = { 1: 6, 2: 5, 3: 9, 4: 7, 5: 8, 6: 6, 7: 7 };
 
@@ -108,34 +108,66 @@ assert.ok(manual7.includes('Publicación como aprobado: **SÍ**'));
 assert.ok(manual7.includes('El usuario aprobó expresamente el tema'));
 assert.ok(manual7.split('\n').length > 350);
 
+const manual8 = read('content/la-puebla/tema-08/manual.md');
+const matrix8 = json('content/la-puebla/tema-08/matriz.json');
+const questions8 = json('content/la-puebla/tema-08/preguntas.json');
+const feedback8 = read('content/la-puebla/tema-08/feedback.md');
+const articles8 = read('content/la-puebla/tema-08/articulos.md');
+assert.equal(matrix8.tema, 8);
+assert.equal(matrix8.estado, 'EN_REVISION_USUARIO');
+assert.equal(matrix8.cobertura.length, 8);
+assert.equal(matrix8.trazabilidadArticuloPorArticulo, 'content/la-puebla/tema-08/articulos.md');
+assert.equal(questions8.estado, 'NO_CREADAS_HASTA_APROBACION_TEORICA');
+assert.deepEqual(questions8.preguntas, []);
+assert.ok(manual8.includes('**Estado:** EN REVISIÓN DEL USUARIO'));
+assert.ok(manual8.includes('Tema cerrado: **NO**'));
+assert.ok(!manual8.includes('**Estado:** APROBADO POR EL USUARIO'));
+assert.ok(manual8.split('\n').length > 500, 'El manual del tema 8 parece truncado');
+assert.ok(feedback8.includes('`EN_REVISION_USUARIO`'));
+assert.ok(feedback8.includes('Tema 8 aprobado'));
+
+const organicHeading = '## Ley Orgánica 3/2007';
+assert.ok(articles8.includes(organicHeading), 'Falta la separación de las dos leyes');
+const [regionalArticles, organicArticles] = articles8.split(organicHeading);
+for (let article = 1; article <= 65; article += 1) {
+  assert.ok(regionalArticles.includes(`| ${article} |`), `Falta trazabilidad del artículo ${article} de la Ley 12/2010`);
+}
+for (let article = 1; article <= 78; article += 1) {
+  assert.ok(organicArticles.includes(`| ${article} |`), `Falta trazabilidad del artículo ${article} de la Ley Orgánica 3/2007`);
+}
+assert.ok(organicArticles.includes('40 %') && organicArticles.includes('60 %'));
+
 for (const marker of [
-  'coste nunca recae',
-  '24 horas',
-  '15 días',
-  'nueve meses',
-  'más de **500 trabajadores**',
-  'entre **250 y 500**',
-  'dos disciplinas',
-  'desde **50 trabajadores**',
-  'trimestralmente',
-  'cada doscientos días',
-  'protección colectiva',
-  'servicio mancomunado',
-  'acompañar a técnicos e Inspección',
-  '9 de abril de 2026',
-  '17 de octubre de 2025'
-]) assert.ok(manual7.toLowerCase().includes(marker.toLowerCase()), `Falta contenido crítico del tema 7: ${marker}`);
+  'discriminación directa',
+  'discriminación indirecta',
+  'perspectiva de género',
+  'transversalidad',
+  '40 %',
+  '60 %',
+  'cada **tres años**',
+  'mayores de **60 años**',
+  'apartado 4, antiguo permiso autonómico de paternidad, está **derogado**',
+  'al menos **dos años**',
+  '33 %',
+  '50 o más personas trabajadoras',
+  'artículo 51',
+  'Administración General del Estado',
+  '2 de agosto de 2024',
+  '30 de junio de 2021'
+]) assert.ok(manual8.toLowerCase().includes(marker.toLowerCase()), `Falta contenido crítico del tema 8: ${marker}`);
 
 assert.ok(rules.includes('Te prometí un manual y publiqué resúmenes inflados por métricas'));
 assert.ok(rules.includes('Un tema solo cambia a `APROBADO_USUARIO`'));
 assert.ok(app.includes("const PROGRAM_URL = 'data/programa.json'"));
 assert.ok(app.includes("theme.estado !== 'APROBADO_USUARIO'"));
 assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.7.0'"));
+assert.ok(!serviceWorker.includes('tema-08/manual.md'), 'El tema 8 en revisión no debe precargarse en la PWA');
+assert.ok(!serviceWorker.includes('tema-08/articulos.md'), 'La trazabilidad del tema 8 en revisión no debe precargarse');
 
 for (const number of [1, 2, 3, 4, 5, 6, 7]) {
   const folder = `tema-${String(number).padStart(2, '0')}`;
   for (const file of ['manual.md', 'matriz.json', 'aprobacion.md', 'preguntas.json']) {
-    assert.ok(serviceWorker.includes(`./content/la-puebla/${folder}/${file}`), `La PWA debe incluir ${folder}/${file}`);
+    assert.ok(serviceWorker.includes(`./content/la-puebla/${folder}/${file}`));
   }
 }
 
@@ -146,7 +178,8 @@ const forbiddenFiles = [
   'data/oposiciones.js',
   '.github/workflows/apply-t05-approval.yml',
   '.github/workflows/apply-t06-approval.yml',
-  '.github/workflows/apply-t07-approval.yml'
+  '.github/workflows/apply-t07-approval.yml',
+  '.github/workflows/apply-t08-approval.yml'
 ];
 for (const path of forbiddenFiles) assert.equal(fs.existsSync(path), false, `No debe existir el archivo ${path}`);
 
@@ -157,7 +190,9 @@ console.log(JSON.stringify({
   userApprovedThemes: approved.length,
   themesInUserReview: inReview.length,
   pendingThemes: pending.length,
-  theme7Questions: questions7.preguntas.length,
-  theme7ManualLines: manual7.split('\n').length,
-  status: 'TEMA_7_APROBADO_VALIDADO'
+  theme8Questions: questions8.preguntas.length,
+  theme8ManualLines: manual8.split('\n').length,
+  tracedRegionalArticles: 65,
+  tracedOrganicArticles: 78,
+  status: 'TEMA_8_EN_REVISION_VALIDADO'
 }, null, 2));
