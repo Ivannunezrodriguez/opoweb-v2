@@ -1,16 +1,16 @@
-# Tema 10 · Informe para revisión del usuario
+# Tema 10 · Informe de cierre
 
 ## Estado
 
-`EN_REVISION_USUARIO`
+`APROBADO_USUARIO`
 
-El tema no está publicado como aprobado y el banco de preguntas permanece vacío.
+El usuario aprobó expresamente el tema mediante la respuesta **«Tema 10 aprobado»** el 17 de julio de 2026. La publicación queda autorizada y el banco de preguntas permanece vacío hasta una revisión específica y trazable.
 
 ## Epígrafe oficial
 
 > Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.
 
-## Cobertura incorporada
+## Cobertura aprobada
 
 ### Tributación local
 
@@ -63,7 +63,7 @@ El tema no está publicado como aprobado y el banco de preguntas permanece vací
 - comprobación de valores;
 - comprobación limitada.
 
-## Correcciones y diferencias importantes
+## Correcciones y diferencias consolidadas
 
 1. Una ordenanza no puede inventar beneficios fiscales sin habilitación legal.
 2. Delegación y colaboración no son equivalentes.
@@ -81,25 +81,9 @@ El tema no está publicado como aprobado y el banco de preguntas permanece vací
 - TRLRHL consultado hasta la actualización publicada el 3 de junio de 2026.
 - LGT consultada hasta la actualización publicada el 21 de diciembre de 2024.
 
-## Comprobaciones solicitadas
-
-Revisa especialmente:
-
-- si se distinguen los principios constitucionales de los límites territoriales locales;
-- si delegación, colaboración y compensación están claras;
-- si beneficio obligatorio, potestativo, rogado y de oficio no se confunden;
-- si obligación, deuda, recargo y sanción quedan separados;
-- si contribuyente, sustituto, responsable y representante se entienden;
-- si prescripción, compensación, condonación e insolvencia se diferencian;
-- si los cinco procedimientos del artículo 123 están suficientemente desarrollados;
-- si queda claro el límite entre gestión, inspección y recaudación;
-- si algún bloque todavía parece demasiado resumido.
-
 ## Cierre
 
-La respuesta debe ser una de estas:
-
-- **«Tema 10 aprobado»**
-- **«Tema 10: cambia o amplía…»**
-
-No se fusionará mientras permanezca en `EN_REVISION_USUARIO`.
+- Revisión humana: finalizada.
+- Tema cerrado: **SÍ**.
+- Publicación: **AUTORIZADA**.
+- Preguntas: pendientes de elaboración y revisión artículo por artículo.
