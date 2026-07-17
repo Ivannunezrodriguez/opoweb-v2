@@ -1,25 +1,24 @@
-name: Validar y publicar aprobación del tema 9
+name: Diagnosticar publicación del tema 9
 
 on:
   pull_request:
     branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
-  approve-and-validate:
+  diagnose:
     if: github.head_ref == 'rebuild/puebla-tema-09-v1'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: rebuild/puebla-tema-09-v1
-          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Corregir generador y aplicar aprobación
+      - name: Corregir generador y aplicar cambios temporales
         run: |
           python - <<'PY'
           from pathlib import Path
@@ -32,43 +31,19 @@ jobs:
           path.write_text(text.replace(old, new, 1), encoding='utf-8')
           PY
           python scripts/approve-t09.py
-      - name: Restaurar flujo normal y eliminar mecanismos temporales
-        run: |
-          cat > .github/workflows/validate.yml <<'EOF'
-          name: Validar OpoWeb v2
-
-          on:
-            pull_request:
-              branches: [main]
-            push:
-              branches: [main]
-
-          permissions:
-            contents: read
-
-          jobs:
-            validate:
-              runs-on: ubuntu-latest
-              steps:
-                - uses: actions/checkout@v4
-                - uses: actions/setup-node@v4
-                  with:
-                    node-version: 24
-                - name: Comprobar sintaxis
-                  run: node --check assets/app.js
-                - name: Validar programa, estados y manual aprobado
-                  run: npm test
-          EOF
           rm -f .github/workflows/apply-t09-approval.yml
           rm -f scripts/approve-t09.py
-      - name: Comprobar sintaxis
-        run: node --check assets/app.js
-      - name: Validar resultado final
-        run: npm test
-      - name: Guardar publicación validada
+      - name: Ejecutar pruebas y guardar salida
         run: |
-          git config user.name github-actions[bot]
-          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
-          git add -A
-          git commit -m "Publicar tema 9 aprobado"
-          git push origin HEAD:rebuild/puebla-tema-09-v1
+          set +e
+          npm test > test-output.txt 2>&1
+          echo $? > test-status.txt
+          exit 0
+      - uses: actions/upload-artifact@v4
+        with:
+          name: tema-09-test-output-2
+          path: |
+            test-output.txt
+            test-status.txt
+      - name: Marcar fallo si procede
+        run: test "$(cat test-status.txt)" = "0"
