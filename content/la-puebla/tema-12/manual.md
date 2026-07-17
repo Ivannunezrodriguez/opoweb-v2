@@ -1,7 +1,7 @@
 # La Puebla de Montalbán · Tema 12 · Manual modular
 
-**Estado:** EN REVISIÓN DEL USUARIO  
-**No publicado como tema aprobado.**  
+**Estado:** APROBADO POR EL USUARIO  
+**Publicado como tema aprobado.**  
 **Fecha de revisión normativa:** 18 de julio de 2026.
 
 > **Tema 12. Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.**
@@ -86,12 +86,12 @@ No siempre coinciden. En el IBI puede ser sujeto el concesionario, superficiario
 
 ## Estado real
 
-- Manual modular: creado.
-- Cinco bloques jurídicos: preparados.
-- Matriz y trazabilidad: documentos separados.
-- Banco de preguntas: vacío.
-- Revisión del usuario: pendiente.
-- Tema cerrado: **NO**.
-- Publicación como aprobado: **NO**.
+- Manual modular: aprobado.
+- Cinco bloques jurídicos: aprobados.
+- Matriz y trazabilidad: incorporadas.
+- Banco de preguntas: vacío y pendiente de revisión trazable.
+- Revisión del usuario: aprobada el 18 de julio de 2026.
+- Tema cerrado: **SÍ, aprobado por el usuario**.
+- Publicación como aprobado: **SÍ**.
 
-El tema solo cambiará a `APROBADO_USUARIO` tras la respuesta expresa **«Tema 12 aprobado»**.
+Frase de aprobación registrada: **«Tema 12 aprobado»**.
