@@ -10,10 +10,12 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
+- Versión: **0.2.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
 - Tema 1: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 2–19: `PENDIENTE_RECONSTRUCCION`.
+- Tema 2: `APROBADO_USUARIO` el 17 de julio de 2026.
+- Temas 3–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -34,10 +36,16 @@ opoweb-v2/
 │  └─ styles.css
 ├─ content/
 │  └─ la-puebla/
-│     └─ tema-01/
+│     ├─ tema-01/
+│     │  ├─ manual.md
+│     │  ├─ matriz.json
+│     │  ├─ aprobacion.md
+│     │  └─ preguntas.json
+│     └─ tema-02/
 │        ├─ manual.md
 │        ├─ matriz.json
 │        ├─ aprobacion.md
+│        ├─ feedback.md
 │        └─ preguntas.json
 ├─ data/
 │  └─ programa.json
@@ -50,6 +58,18 @@ opoweb-v2/
 ```
 
 No existen manifiestos con centenares de scripts, módulos versionados superpuestos ni parches de interfaz. La aplicación lee directamente datos y contenido declarativo.
+
+## Temas aprobados
+
+### Tema 1
+
+Constitución española de 1978: estructura, reforma constitucional, derechos y deberes fundamentales, garantías y suspensión. Cobertura principal de los artículos 10–55 y 166–169 de la Constitución.
+
+### Tema 2
+
+Ley 39/2015: disposiciones generales, interesados, identificación y firma, normas generales de actuación y términos y plazos. Cobertura de los artículos 1–33.
+
+Los bancos de preguntas de ambos temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -69,4 +89,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que solo existe un tema aprobado, que los otros dieciocho no contienen teoría heredada y que el manual aprobado no está truncado.
+La validación confirma que existen exactamente dos temas aprobados, que los otros diecisiete no contienen teoría heredada y que los manuales aprobados no están truncados.
