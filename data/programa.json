@@ -127,7 +127,26 @@
     {
       "numero": 11,
       "titulo": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "EN_REVISION_USUARIO",
+      "manual": "content/la-puebla/tema-11/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-11/bloque-01-voluntaria.md",
+        "content/la-puebla/tema-11/bloque-02-aplazamiento-compensacion.md",
+        "content/la-puebla/tema-11/bloque-03a-devoluciones-regimen.md",
+        "content/la-puebla/tema-11/bloque-03b-devoluciones-procedimiento.md",
+        "content/la-puebla/tema-11/bloque-04a-ejecutiva-providencia.md",
+        "content/la-puebla/tema-11/bloque-05-embargo.md"
+      ],
+      "matriz": "content/la-puebla/tema-11/matriz.json",
+      "feedback": "content/la-puebla/tema-11/feedback.md",
+      "preguntas": "content/la-puebla/tema-11/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-11/articulos.md",
+      "trazabilidadDetallada": [
+        "content/la-puebla/tema-11/articulos-lgt.md",
+        "content/la-puebla/tema-11/articulos-rgr.md",
+        "content/la-puebla/tema-11/articulos-rgr-deuda.md",
+        "content/la-puebla/tema-11/articulos-rgr-apremio.md"
+      ]
     },
     {
       "numero": 12,
