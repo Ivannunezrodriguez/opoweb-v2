@@ -86,7 +86,7 @@ for (const marker of [
   'quince días',
   'diez días',
   'treinta días',
-  'cincuenta mil euros',
+  '50.000 euros',
   'dos meses',
   'veinte días',
   'reducciones de al menos el **20 %**',
@@ -95,7 +95,7 @@ for (const marker of [
   'multa coercitiva',
   'compulsión sobre las personas',
   'declaración responsable',
-  'silencio desestimatorio'
+  'silencio es desestimatorio'
 ]) assert.ok(manual3.toLowerCase().includes(marker.toLowerCase()), `Falta contenido crítico del tema 3: ${marker}`);
 
 assert.ok(rules.includes('Te prometí un manual y publiqué resúmenes inflados por métricas'));
