@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "updatedAt": "2026-07-17",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -84,7 +84,12 @@
     {
       "numero": 7,
       "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos laborales: Derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-07/manual.md",
+      "matriz": "content/la-puebla/tema-07/matriz.json",
+      "aprobacion": "content/la-puebla/tema-07/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-07/preguntas.json"
     },
     {
       "numero": 8,
