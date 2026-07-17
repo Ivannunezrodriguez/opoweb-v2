@@ -23,9 +23,9 @@ const inReview = programme.temas.filter(item => item.estado === 'EN_REVISION_USU
 const pending = programme.temas.filter(item => item.estado === 'PENDIENTE_RECONSTRUCCION');
 assert.deepEqual(approved.map(item => item.numero), [1, 2, 3, 4, 5]);
 assert.ok(approved.every(item => item.aprobadoEl === '2026-07-17'));
-assert.deepEqual(inReview, []);
-assert.equal(pending.length, 14, 'Los temas 6-19 deben permanecer pendientes');
-assert.ok(programme.temas.slice(5).every(item => !item.manual && !item.preguntas), 'Los temas 6-19 no deben heredar teoría ni preguntas');
+assert.deepEqual(inReview.map(item => item.numero), [6]);
+assert.equal(pending.length, 13, 'Los temas 7-19 deben permanecer pendientes');
+assert.ok(programme.temas.slice(6).every(item => !item.manual && !item.preguntas), 'Los temas 7-19 no deben heredar teoría ni preguntas');
 
 const expected = {
   1: { range: [10, 55], extra: [166, 167, 168, 169], matrixRows: 6 },
@@ -104,28 +104,16 @@ for (const article of [137, 140, 141, 142]) {
   assert.ok(manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`), `Falta el artículo constitucional ${article}`);
 }
 for (let article = 11; article <= 41; article += 1) {
-  assert.ok(
-    manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`),
-    `Falta el artículo ${article} de régimen local en el tema 5`
-  );
+  assert.ok(manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`), `Falta el artículo ${article} de régimen local en el tema 5`);
 }
 for (let article = 46; article <= 54; article += 1) {
-  assert.ok(
-    manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`),
-    `Falta el artículo ${article} de funcionamiento local en el tema 5`
-  );
+  assert.ok(manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`), `Falta el artículo ${article} de funcionamiento local en el tema 5`);
 }
 for (let article = 176; article <= 200; article += 1) {
-  assert.ok(
-    manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`),
-    `Falta el artículo electoral municipal ${article}`
-  );
+  assert.ok(manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`), `Falta el artículo electoral municipal ${article}`);
 }
 for (let article = 202; article <= 209; article += 1) {
-  assert.ok(
-    manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`),
-    `Falta el artículo electoral provincial ${article}`
-  );
+  assert.ok(manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`), `Falta el artículo electoral provincial ${article}`);
 }
 
 for (const marker of [
@@ -146,11 +134,58 @@ for (const marker of [
   'cuadragésimo día'
 ]) assert.ok(manual5.toLowerCase().includes(marker.toLowerCase()), `Falta contenido crítico del tema 5: ${marker}`);
 
+const matrix6 = json('content/la-puebla/tema-06/matriz.json');
+const questions6 = json('content/la-puebla/tema-06/preguntas.json');
+const manual6 = read('content/la-puebla/tema-06/manual.md');
+const feedback6 = read('content/la-puebla/tema-06/feedback.md');
+assert.equal(matrix6.tema, 6);
+assert.equal(matrix6.estado, 'EN_REVISION_USUARIO');
+assert.equal(matrix6.cobertura.length, 6);
+assert.equal(questions6.estado, 'NO_CREADAS_HASTA_APROBACION_TEORICA');
+assert.deepEqual(questions6.preguntas, []);
+assert.ok(manual6.includes('**Estado:** EN REVISIÓN DEL USUARIO'));
+assert.ok(manual6.includes('Tema cerrado: **NO**'));
+assert.ok(manual6.includes('Materia deliberadamente excluida del núcleo'));
+assert.ok(feedback6.includes('`EN_REVISION_USUARIO`'));
+assert.ok(feedback6.includes('Tema 6 aprobado'));
+assert.ok(!manual6.includes('**Estado:** APROBADO POR EL USUARIO'));
+assert.ok(manual6.split('\n').length > 650, 'El manual del tema 6 parece truncado');
+
+for (const [start, end] of [[4, 15], [37, 55], [62, 82]]) {
+  for (let article = start; article <= end; article += 1) {
+    assert.ok(
+      manual6.includes(`Artículo ${article} `) || manual6.includes(`Artículo ${article} ·`) || manual6.includes(`Artículo ${article}.`),
+      `Falta el artículo ${article} de empleo público en el tema 6`
+    );
+  }
+}
+assert.ok(manual6.includes('Artículo 19 '), 'Falta el artículo 19 sobre oferta de empleo público');
+
+for (const marker of [
+  'cuatro años',
+  'seis meses dentro de un periodo de doce meses',
+  'diez por ciento adicional',
+  'plazo improrrogable de **tres años**',
+  'siete por ciento',
+  'dos por ciento',
+  'número impar',
+  'al menos cinco miembros',
+  'dos años de servicio activo',
+  'concurso-oposición',
+  'tres y cinco tramos',
+  'Ley 2/2026',
+  '6 de mayo de 2026',
+  'artículo 70.2',
+  'violencia de género',
+  'movilidad voluntaria entre Administraciones'
+]) assert.ok(manual6.toLowerCase().includes(marker.toLowerCase()), `Falta contenido crítico del tema 6: ${marker}`);
+
 assert.ok(rules.includes('Te prometí un manual y publiqué resúmenes inflados por métricas'));
 assert.ok(rules.includes('Un tema solo cambia a `APROBADO_USUARIO`'));
 assert.ok(app.includes("const PROGRAM_URL = 'data/programa.json'"));
 assert.ok(app.includes("theme.estado !== 'APROBADO_USUARIO'"));
 assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.5.0'"));
+assert.ok(!serviceWorker.includes('tema-06/manual.md'), 'El tema 6 en revisión no debe precargarse en la PWA');
 
 for (const number of [1, 2, 3, 4, 5]) {
   const folder = `tema-${String(number).padStart(2, '0')}`;
@@ -175,7 +210,7 @@ console.log(JSON.stringify({
   userApprovedThemes: approved.length,
   themesInUserReview: inReview.length,
   pendingThemes: pending.length,
-  theme5Questions: questions5.preguntas.length,
-  theme5ManualLines: manual5.split('\n').length,
-  status: 'TEMA_5_APROBADO_VALIDADO'
+  theme6Questions: questions6.preguntas.length,
+  theme6ManualLines: manual6.split('\n').length,
+  status: 'TEMA_6_EN_REVISION_VALIDADO'
 }, null, 2));
