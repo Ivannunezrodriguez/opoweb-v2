@@ -1,6 +1,6 @@
 # Tema 11 · Trazabilidad del Reglamento General de Recaudación
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 La cobertura reglamentaria se divide en dos tablas:
 
