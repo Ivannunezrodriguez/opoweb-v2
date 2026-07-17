@@ -1,6 +1,6 @@
 # Tema 11 · Trazabilidad normativa
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 La trazabilidad se divide para evitar ocultar el alcance real bajo una tabla única demasiado extensa:
 
