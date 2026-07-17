@@ -1,16 +1,16 @@
-# Tema 5 · Informe para revisión del usuario
+# Tema 5 · Informe de cierre
 
 ## Estado
 
-`EN_REVISION_USUARIO`
+`APROBADO_USUARIO`
 
-El manual no está publicado como aprobado y el banco de preguntas permanece vacío.
+El usuario aprobó expresamente el manual mediante la respuesta **«Tema 5 aprobado»** el 17 de julio de 2026.
 
 ## Epígrafe oficial
 
 > El municipio. Organización y funcionamiento. La Provincia. Organización provincial. Competencias. El Régimen electoral de las Entidades Locales.
 
-## Cobertura incorporada
+## Cobertura aprobada
 
 ### Fundamento constitucional
 
@@ -69,7 +69,7 @@ El manual no está publicado como aprobado y el banco de preguntas permanece vac
 
 ## Corrección jurídica relevante
 
-El manual no aplica como vigentes los incrementos automáticos de mayoría del artículo 197.1.a de la LOREG declarados inconstitucionales. Se advierte expresamente que deben atenderse las notas de nulidad incorporadas al texto consolidado.
+El manual no aplica como vigentes los incrementos automáticos de mayoría del artículo 197.1.a de la LOREG declarados inconstitucionales. Se atiende a las notas de nulidad incorporadas al texto consolidado.
 
 ## Contenido excluido
 
@@ -79,32 +79,14 @@ El manual no aplica como vigentes los incrementos automáticos de mayoría del a
 - elecciones insulares y europeas;
 - normativa autonómica no exigida literalmente.
 
-## Decisiones de alcance que debes comprobar
+## Estado de publicación
 
-1. El ROF se utiliza únicamente para detalle operativo, subordinado a la Ley 7/1985.
-2. El régimen de municipios de gran población no se desarrolla porque el epígrafe no lo solicita.
-3. Los gastos y subvenciones electorales se explican estructuralmente, sin memorizar cuantías actualizables.
-4. Los artículos 176–200 y 202–209 se explican uno por uno, pero los trámites generales del Título I de la LOREG no se reproducen completos.
-5. La legislación autonómica de Castilla-La Mancha no se incorpora como bloque porque el enunciado exige el régimen general de municipio, provincia y elecciones locales.
+- Manual: aprobado.
+- Matriz normativa: aprobada.
+- PWA: incorporada para consulta sin conexión.
+- Preguntas: vacías hasta revisión específica y trazable.
+- Temas 6–19: pendientes de reconstrucción.
 
-## Lista de revisión
+## Regla permanente
 
-Comprueba especialmente:
-
-- si las atribuciones de Alcalde, Pleno, Presidente y Pleno provincial están suficientemente diferenciadas;
-- si la tabla de servicios mínimos resulta clara;
-- si las sesiones y mayorías tienen suficiente detalle;
-- si necesitas más desarrollo del ROF sobre debates, votaciones y actas;
-- si la elección de Alcalde y Diputados Provinciales se entiende desde cero;
-- si la corrección del artículo 197 queda clara;
-- si sobra contenido electoral accesorio o falta alguna regla esencial;
-- si algún apartado parece todavía un resumen y no un manual.
-
-## Cierre
-
-La respuesta debe ser una de estas:
-
-- **«Tema 5 aprobado»**
-- **«Tema 5: cambia o amplía…»**
-
-No se fusionará mientras permanezca en `EN_REVISION_USUARIO`.
+> Te prometí un manual y publiqué resúmenes inflados por métricas. La reconstrucción tendrá que empezar por el contenido real de cada epígrafe, artículo por artículo; no por añadir más palabras, tests o etiquetas de “completo”.
