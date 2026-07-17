@@ -1,40 +1,74 @@
-name: Diagnosticar aprobación del tema 9
+name: Validar y publicar aprobación del tema 9
 
 on:
   pull_request:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  diagnose:
+  approve-and-validate:
     if: github.head_ref == 'rebuild/puebla-tema-09-v1'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
         with:
           ref: rebuild/puebla-tema-09-v1
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Aplicar cambios en el entorno temporal
+      - name: Corregir generador y aplicar aprobación
         run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('scripts/approve-t09.py')
+          text = path.read_text(encoding='utf-8')
+          old = r"assert.ok(manual9.split('\n').length > 350"
+          new = r"assert.ok(manual9.split('\\n').length > 350"
+          if old not in text:
+              raise SystemExit('No se encontró el escape que debía corregirse')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
           python scripts/approve-t09.py
+      - name: Restaurar flujo normal y eliminar mecanismos temporales
+        run: |
+          cat > .github/workflows/validate.yml <<'EOF'
+          name: Validar OpoWeb v2
+
+          on:
+            pull_request:
+              branches: [main]
+            push:
+              branches: [main]
+
+          permissions:
+            contents: read
+
+          jobs:
+            validate:
+              runs-on: ubuntu-latest
+              steps:
+                - uses: actions/checkout@v4
+                - uses: actions/setup-node@v4
+                  with:
+                    node-version: 24
+                - name: Comprobar sintaxis
+                  run: node --check assets/app.js
+                - name: Validar programa, estados y manual aprobado
+                  run: npm test
+          EOF
           rm -f .github/workflows/apply-t09-approval.yml
           rm -f scripts/approve-t09.py
-      - name: Ejecutar pruebas y guardar salida
+      - name: Comprobar sintaxis
+        run: node --check assets/app.js
+      - name: Validar resultado final
+        run: npm test
+      - name: Guardar publicación validada
         run: |
-          set +e
-          npm test > test-output.txt 2>&1
-          echo $? > test-status.txt
-          exit 0
-      - uses: actions/upload-artifact@v4
-        with:
-          name: tema-09-test-output
-          path: |
-            test-output.txt
-            test-status.txt
-      - name: Marcar fallo si procede
-        run: |
-          test "$(cat test-status.txt)" = "0"
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -A
+          git commit -m "Publicar tema 9 aprobado"
+          git push origin HEAD:rebuild/puebla-tema-09-v1
