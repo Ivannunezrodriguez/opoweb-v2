@@ -10,11 +10,11 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.5.0**.
+- Versión: **0.6.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
-- Temas 1–5: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 6–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 1–6: `APROBADO_USUARIO` el 17 de julio de 2026.
+- Temas 7–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -39,7 +39,8 @@ opoweb-v2/
 │     ├─ tema-02/
 │     ├─ tema-03/
 │     ├─ tema-04/
-│     └─ tema-05/
+│     ├─ tema-05/
+│     └─ tema-06/
 │        ├─ manual.md
 │        ├─ matriz.json
 │        ├─ aprobacion.md
@@ -77,9 +78,13 @@ Ley 39/2015: revisión de oficio y recursos administrativos, artículos 106–12
 
 ### Tema 5
 
-Municipio, organización y funcionamiento, provincia, competencias y régimen electoral local. Incluye los artículos 137, 140, 141 y 142 de la Constitución; los artículos 7, 11–41 y 46–54 de la Ley 7/1985; el ROF como complemento operativo; y los artículos 176–200 y 202–209 de la LOREG. Incorpora la jurisprudencia constitucional que afecta al artículo 197.
+Municipio, organización y funcionamiento, provincia, competencias y régimen electoral local. Incluye Constitución, Ley 7/1985, ROF y LOREG, con la jurisprudencia constitucional relevante sobre el artículo 197.
 
-Los bancos de preguntas de los cinco temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 6
+
+Ley 4/2011 de empleo público de Castilla-La Mancha: clases de personal, OEP, selección, carrera, promoción interna y provisión. Incluye la modificación vigente del artículo 70.2 efectuada por la Ley 2/2026.
+
+Los bancos de preguntas de los seis temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -99,4 +104,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente cinco temas aprobados, que los otros catorce no contienen teoría heredada y que los manuales aprobados no están truncados.
+La validación confirma que existen exactamente seis temas aprobados, que los otros trece no contienen teoría heredada y que los manuales aprobados no están truncados.
