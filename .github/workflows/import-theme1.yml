@@ -1,0 +1,51 @@
+name: Importar manual aprobado del tema 1
+
+on:
+  push:
+    branches: [bootstrap/v2-clean]
+    paths:
+      - bootstrap/import-theme1.txt
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: bootstrap/v2-clean
+      - name: Descargar copia exacta del manual aprobado
+        run: |
+          mkdir -p content/la-puebla/tema-01
+          curl --fail --location --silent --show-error \
+            'https://raw.githubusercontent.com/Ivannunezrodriguez/opoweb/rebuild/puebla-t01-manual/docs/rebuild/puebla/TEMA_01_MANUAL_BORRADOR.md' \
+            --output content/la-puebla/tema-01/manual.md
+      - name: Cambiar únicamente las marcas de estado
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('content/la-puebla/tema-01/manual.md')
+          text = path.read_text(encoding='utf-8')
+          text = text.replace('**Estado:** BORRADOR PARA REVISIÓN DEL USUARIO', '**Estado:** APROBADO POR EL USUARIO')
+          text = text.replace('**No publicado en OpoWeb. No fusionar sin aprobación expresa.**', '**Migrado a OpoWeb v2 tras aprobación expresa del usuario.**')
+          text = text.replace('Revisión pedagógica humana: **pendiente del usuario**.', 'Revisión pedagógica humana: **aprobada por el usuario el 17 de julio de 2026**.')
+          text = text.replace('Preguntas trazables nuevas: pendiente hasta aprobar la teoría.', 'Preguntas trazables nuevas: no migradas automáticamente; requieren revisión separada.')
+          text = text.replace('Integración en OpoWeb: no realizada.', 'Integración en OpoWeb v2: realizada mediante copia exacta controlada.')
+          text = text.replace('Tema cerrado: **NO**.', 'Tema cerrado: **SÍ, aprobado por el usuario**.')
+          path.write_text(text, encoding='utf-8')
+          PY
+      - name: Verificar huella mínima
+        run: |
+          grep -q 'Artículo 10 · dignidad e interpretación' content/la-puebla/tema-01/manual.md
+          grep -q 'Artículo 55.2 · suspensión individual' content/la-puebla/tema-01/manual.md
+          grep -q 'Artículo 169 · límite temporal' content/la-puebla/tema-01/manual.md
+          test "$(wc -l < content/la-puebla/tema-01/manual.md)" -ge 800
+      - name: Confirmar la migración en la rama
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/la-puebla/tema-01/manual.md
+          git commit -m 'Migrar copia exacta del manual aprobado del tema 1'
+          git push origin HEAD:bootstrap/v2-clean

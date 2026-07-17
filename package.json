@@ -1,0 +1,10 @@
+{
+  "name": "opoweb-v2",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Manual de oposiciones reconstruido y aprobado tema por tema",
+  "scripts": {
+    "test": "node tests/validate.mjs"
+  }
+}
