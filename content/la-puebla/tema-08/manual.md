@@ -1,7 +1,7 @@
 # La Puebla de Montalbán · Tema 8 · Manual reconstruido
 
-**Estado:** EN REVISIÓN DEL USUARIO  
-**No publicado como tema aprobado.**  
+**Estado:** APROBADO POR EL USUARIO  
+**Publicado en OpoWeb v2 tras aprobación expresa del usuario.**  
 **Fecha de revisión normativa:** 17 de julio de 2026.
 
 > **Regla del proyecto:** «Te prometí un manual y publiqué resúmenes inflados por métricas. La reconstrucción tendrá que empezar por el contenido real de cada epígrafe, artículo por artículo; no por añadir más palabras, tests o etiquetas de “completo”.»
@@ -640,8 +640,8 @@ La Administración local castellano-manchega está incluida en la Ley 12/2010 y 
 - Modificaciones autonómicas relevantes: incorporadas.
 - Diferencia AGE/Ayuntamiento: señalada.
 - Preguntas trazables: no creadas todavía.
-- Revisión del usuario: pendiente.
-- Tema cerrado: **NO**.
-- Publicación como aprobado: **NO**.
+- Revisión del usuario: **aprobada el 17 de julio de 2026**.
+- Tema cerrado: **SÍ, aprobado por el usuario**.
+- Publicación como aprobado: **SÍ**.
 
-El tema solo cambiará a `APROBADO_USUARIO` tras la respuesta expresa **«Tema 8 aprobado»**.
+El usuario aprobó expresamente el tema mediante la respuesta **«Tema 8 aprobado»** el 17 de julio de 2026.
