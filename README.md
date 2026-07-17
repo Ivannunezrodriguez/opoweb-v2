@@ -10,11 +10,11 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.4.0**.
+- Versión: **0.5.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
-- Temas 1, 2, 3 y 4: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 5–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 1–5: `APROBADO_USUARIO` el 17 de julio de 2026.
+- Temas 6–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -38,7 +38,8 @@ opoweb-v2/
 │     ├─ tema-01/
 │     ├─ tema-02/
 │     ├─ tema-03/
-│     └─ tema-04/
+│     ├─ tema-04/
+│     └─ tema-05/
 │        ├─ manual.md
 │        ├─ matriz.json
 │        ├─ aprobacion.md
@@ -74,7 +75,11 @@ Ley 39/2015: derechos del interesado, iniciación, ordenación, instrucción, fi
 
 Ley 39/2015: revisión de oficio y recursos administrativos, artículos 106–126. Incluye la aplicación local de los artículos 52–53 de la Ley 7/1985 y la competencia del Pleno para declarar la lesividad.
 
-Los bancos de preguntas de los cuatro temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 5
+
+Municipio, organización y funcionamiento, provincia, competencias y régimen electoral local. Incluye los artículos 137, 140, 141 y 142 de la Constitución; los artículos 7, 11–41 y 46–54 de la Ley 7/1985; el ROF como complemento operativo; y los artículos 176–200 y 202–209 de la LOREG. Incorpora la jurisprudencia constitucional que afecta al artículo 197.
+
+Los bancos de preguntas de los cinco temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -94,4 +99,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente cuatro temas aprobados, que los otros quince no contienen teoría heredada y que los manuales aprobados no están truncados.
+La validación confirma que existen exactamente cinco temas aprobados, que los otros catorce no contienen teoría heredada y que los manuales aprobados no están truncados.
