@@ -66,6 +66,7 @@ for (const theme of approved) {
 }
 
 const manual3 = read('content/la-puebla/tema-03/manual.md');
+const feedback3 = read('content/la-puebla/tema-03/feedback.md');
 for (const marker of [
   'Derechos adicionales en el procedimiento sancionador',
   'La denuncia, por sí sola, **no confiere la condición de interesado**',
@@ -78,6 +79,8 @@ for (const marker of [
   '50.000 euros',
   'seis meses'
 ]) assert.ok(manual3.toLowerCase().includes(marker.toLowerCase()), `Falta contenido crítico del tema 3: ${marker}`);
+assert.ok(feedback3.includes('`APROBADO_USUARIO`'));
+assert.ok(feedback3.includes('«Tema 3 aprobado»'));
 
 assert.ok(rules.includes('Te prometí un manual y publiqué resúmenes inflados por métricas'));
 assert.ok(rules.includes('Un tema solo cambia a `APROBADO_USUARIO`'));
