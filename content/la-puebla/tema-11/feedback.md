@@ -1,10 +1,10 @@
-# Tema 11 · Informe para revisión del usuario
+# Tema 11 · Informe de revisión cerrado
 
 ## Estado
 
-`EN_REVISION_USUARIO`
+`APROBADO_USUARIO`
 
-El tema no está publicado como aprobado. El banco de preguntas permanece vacío.
+El tema ha sido aprobado expresamente. El banco de preguntas permanece vacío hasta su revisión específica.
 
 ## Epígrafe oficial
 
@@ -89,29 +89,22 @@ La división modular responde a la extensión real del epígrafe y permite consu
 
 No se repiten los procedimientos de gestión del tema 10 ni se anticipa la estructura de los impuestos concretos del tema 12. Tampoco se desarrolla de manera completa la inspección, el régimen sancionador, la revisión tributaria general ni la normativa concursal.
 
-## Comprobaciones solicitadas
+## Resultado de la revisión
 
-Revisa especialmente:
+Se consideran aprobados:
 
-1. si se distingue claramente periodo voluntario, periodo ejecutivo y apremio;
-2. si no se confunden los plazos de la liquidación con los de la providencia;
-3. si los efectos de solicitar aplazamiento o compensación en voluntaria y ejecutiva quedan claros;
-4. si la garantía, los intereses y el incumplimiento del fraccionamiento se entienden;
-5. si queda claro que una factura pendiente no equivale necesariamente a crédito reconocido;
-6. si se diferencian devolución normativa e ingreso indebido;
-7. si se entiende qué hacer ante acto firme o autoliquidación errónea;
-8. si providencia y diligencia de embargo, con sus motivos de oposición, no se confunden;
-9. si el orden del embargo, la proporcionalidad y los límites salariales son suficientes;
-10. si fallido, crédito incobrable y condonación están bien separados;
-11. si tercería de dominio y de mejor derecho quedan claras;
-12. si la estructura modular es cómoda para estudiar desde móvil o tablet;
-13. si algún capítulo todavía parece demasiado resumido.
+1. la diferencia entre periodo voluntario, periodo ejecutivo y apremio;
+2. las dos tablas de plazos;
+3. los efectos de las solicitudes en voluntaria y ejecutiva;
+4. las garantías y el incumplimiento del fraccionamiento;
+5. la compensación y el requisito de crédito reconocido;
+6. la diferencia entre devolución normativa e ingreso indebido;
+7. la providencia y la diligencia de embargo;
+8. el orden y los límites del embargo;
+9. la diferencia entre fallido, crédito incobrable y condonación;
+10. las tercerías;
+11. la estructura modular para móvil y tablet.
 
 ## Cierre
 
-La respuesta debe ser una de estas:
-
-- **«Tema 11 aprobado»**
-- **«Tema 11: cambia o amplía…»**
-
-No se fusionará mientras permanezca en `EN_REVISION_USUARIO`.
+Aprobación registrada: **«Tema 11 aprobado»**, 17 de julio de 2026.
