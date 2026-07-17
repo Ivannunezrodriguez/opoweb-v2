@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.2.0';
+const CACHE = 'opoweb-v2-0.3.0';
 const ASSETS = [
   './',
   './index.html',
@@ -14,7 +14,11 @@ const ASSETS = [
   './content/la-puebla/tema-02/manual.md',
   './content/la-puebla/tema-02/matriz.json',
   './content/la-puebla/tema-02/aprobacion.md',
-  './content/la-puebla/tema-02/preguntas.json'
+  './content/la-puebla/tema-02/preguntas.json',
+  './content/la-puebla/tema-03/manual.md',
+  './content/la-puebla/tema-03/matriz.json',
+  './content/la-puebla/tema-03/aprobacion.md',
+  './content/la-puebla/tema-03/preguntas.json'
 ];
 
 self.addEventListener('install', event => {

@@ -10,12 +10,11 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.2.0**.
+- Versión: **0.3.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
-- Tema 1: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Tema 2: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 3–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 1, 2 y 3: `APROBADO_USUARIO` el 17 de julio de 2026.
+- Temas 4–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -41,7 +40,13 @@ opoweb-v2/
 │     │  ├─ matriz.json
 │     │  ├─ aprobacion.md
 │     │  └─ preguntas.json
-│     └─ tema-02/
+│     ├─ tema-02/
+│     │  ├─ manual.md
+│     │  ├─ matriz.json
+│     │  ├─ aprobacion.md
+│     │  ├─ feedback.md
+│     │  └─ preguntas.json
+│     └─ tema-03/
 │        ├─ manual.md
 │        ├─ matriz.json
 │        ├─ aprobacion.md
@@ -69,7 +74,11 @@ Constitución española de 1978: estructura, reforma constitucional, derechos y 
 
 Ley 39/2015: disposiciones generales, interesados, identificación y firma, normas generales de actuación y términos y plazos. Cobertura de los artículos 1–33.
 
-Los bancos de preguntas de ambos temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 3
+
+Ley 39/2015: derechos del interesado, iniciación, ordenación, instrucción, finalización, tramitación simplificada y ejecución. Cobertura de los artículos 53–105, con las especialidades sancionadoras y de responsabilidad patrimonial integradas en los artículos correspondientes.
+
+Los bancos de preguntas de los tres temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -89,4 +98,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente dos temas aprobados, que los otros diecisiete no contienen teoría heredada y que los manuales aprobados no están truncados.
+La validación confirma que existen exactamente tres temas aprobados, que los otros dieciséis no contienen teoría heredada y que los manuales aprobados no están truncados.
