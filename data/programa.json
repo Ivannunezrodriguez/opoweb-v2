@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "updatedAt": "2026-07-17",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -74,10 +74,11 @@
     {
       "numero": 6,
       "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: El Personal al servicio de las Administraciones Públicas. Provisión de puestos de trabajo. La carrera administrativa. Promoción interna. La selección del personal y la oferta pública de Empleo.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-06/manual.md",
       "matriz": "content/la-puebla/tema-06/matriz.json",
-      "feedback": "content/la-puebla/tema-06/feedback.md",
+      "aprobacion": "content/la-puebla/tema-06/aprobacion.md",
       "preguntas": "content/la-puebla/tema-06/preguntas.json"
     },
     {
