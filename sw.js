@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.11.0';
+const CACHE = 'opoweb-v2-0.12.0';
 const ASSETS = [
   './',
   './index.html',
@@ -64,7 +64,21 @@ const ASSETS = [
   './content/la-puebla/tema-11/articulos-lgt.md',
   './content/la-puebla/tema-11/articulos-rgr.md',
   './content/la-puebla/tema-11/articulos-rgr-deuda.md',
-  './content/la-puebla/tema-11/articulos-rgr-apremio.md'
+  './content/la-puebla/tema-11/articulos-rgr-apremio.md',
+  './content/la-puebla/tema-12/manual.md',
+  './content/la-puebla/tema-12/matriz.json',
+  './content/la-puebla/tema-12/aprobacion.md',
+  './content/la-puebla/tema-12/preguntas.json',
+  './content/la-puebla/tema-12/articulos.md',
+  './content/la-puebla/tema-12/bloque-01-normas-generales.md',
+  './content/la-puebla/tema-12/bloque-02-ibi.md',
+  './content/la-puebla/tema-12/bloque-03-iae.md',
+  './content/la-puebla/tema-12/bloque-04-ivtm.md',
+  './content/la-puebla/tema-12/bloque-04a-ivtm-hecho.md',
+  './content/la-puebla/tema-12/bloque-04b-ivtm-sujeto.md',
+  './content/la-puebla/tema-12/bloque-05-iivtnu.md',
+  './content/la-puebla/tema-12/bloque-05a-iivtnu-hecho.md',
+  './content/la-puebla/tema-12/bloque-05b-iivtnu-sujetos.md'
 ];
 
 self.addEventListener('install', event => {

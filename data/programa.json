@@ -1,7 +1,7 @@
 {
   "project": "opoweb-v2",
-  "version": "0.11.0",
-  "updatedAt": "2026-07-17",
+  "version": "0.12.0",
+  "updatedAt": "2026-07-18",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
     "nombre": "La Puebla de Montalbán · Auxiliar Administrativo",
@@ -152,7 +152,26 @@
     {
       "numero": 12,
       "titulo": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-18",
+      "manual": "content/la-puebla/tema-12/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-12/bloque-01-normas-generales.md",
+        "content/la-puebla/tema-12/bloque-02-ibi.md",
+        "content/la-puebla/tema-12/bloque-03-iae.md",
+        "content/la-puebla/tema-12/bloque-04-ivtm.md",
+        "content/la-puebla/tema-12/bloque-05-iivtnu.md"
+      ],
+      "subcapitulos": [
+        "content/la-puebla/tema-12/bloque-04a-ivtm-hecho.md",
+        "content/la-puebla/tema-12/bloque-04b-ivtm-sujeto.md",
+        "content/la-puebla/tema-12/bloque-05a-iivtnu-hecho.md",
+        "content/la-puebla/tema-12/bloque-05b-iivtnu-sujetos.md"
+      ],
+      "matriz": "content/la-puebla/tema-12/matriz.json",
+      "aprobacion": "content/la-puebla/tema-12/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-12/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-12/articulos.md"
     },
     {
       "numero": 13,

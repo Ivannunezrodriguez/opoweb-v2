@@ -10,11 +10,12 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.11.0**.
+- Versión: **0.12.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
 - Temas 1–11: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 12–19: `PENDIENTE_RECONSTRUCCION`.
+- Tema 12: `APROBADO_USUARIO` el 18 de julio de 2026.
+- Temas 13–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -45,12 +46,13 @@ opoweb-v2/
 │     ├─ tema-08/
 │     ├─ tema-09/
 │     ├─ tema-10/
-│     └─ tema-11/
+│     ├─ tema-11/
+│     └─ tema-12/
 │        ├─ manual.md
-│        ├─ seis capítulos modulares
+│        ├─ cinco capítulos y cuatro subcapítulos
 │        ├─ matriz.json
 │        ├─ aprobacion.md
-│        ├─ cinco documentos de trazabilidad
+│        ├─ articulos.md
 │        └─ preguntas.json
 ├─ data/
 │  └─ programa.json
@@ -110,7 +112,11 @@ Principios de tributación local, delegación, colaboración, beneficios fiscale
 
 Recaudación de tributos locales: periodo voluntario, aplazamiento, fraccionamiento, compensación, devoluciones, periodo ejecutivo y procedimiento de apremio. Manual modular en seis capítulos, con trazabilidad del TRLRHL, la LGT, el Reglamento General de Recaudación y el RD 520/2005.
 
-Los bancos de preguntas de los once temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 12
+
+Tributos municipales y ordenanzas fiscales; naturaleza, hecho imponible, no sujeción y sujetos pasivos del IBI, IAE, IVTM e IIVTNU. Incluye los artículos 15–19, 56–64, 78–83, 92–94 y 104–106 del TRLRHL, con las exenciones imprescindibles para distinguirlas de la no sujeción.
+
+Los bancos de preguntas de los doce temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -130,4 +136,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente once temas aprobados, que los otros ocho no contienen teoría heredada y que el manual modular del tema 11 conserva todos sus capítulos y documentos de trazabilidad.
+La validación confirma que existen exactamente doce temas aprobados, siete pendientes y que los archivos modulares de los temas 11 y 12 permanecen enlazados y disponibles sin conexión.

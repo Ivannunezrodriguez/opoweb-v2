@@ -1,0 +1,94 @@
+{
+  "tema": 12,
+  "estado": "APROBADO_USUARIO",
+  "aprobadoEl": "2026-07-18",
+  "epigrafeOficial": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.",
+  "fechaRevisionNormativa": "2026-07-18",
+  "norma": {
+    "titulo": "Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales",
+    "referencia": "BOE-A-2004-4214",
+    "textoConsolidadoConsultado": "Última actualización publicada el 03/06/2026"
+  },
+  "manual": "content/la-puebla/tema-12/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-12/bloque-01-normas-generales.md",
+    "content/la-puebla/tema-12/bloque-02-ibi.md",
+    "content/la-puebla/tema-12/bloque-03-iae.md",
+    "content/la-puebla/tema-12/bloque-04-ivtm.md",
+    "content/la-puebla/tema-12/bloque-05-iivtnu.md"
+  ],
+  "subcapitulos": [
+    "content/la-puebla/tema-12/bloque-04a-ivtm-hecho.md",
+    "content/la-puebla/tema-12/bloque-04b-ivtm-sujeto.md",
+    "content/la-puebla/tema-12/bloque-05a-iivtnu-hecho.md",
+    "content/la-puebla/tema-12/bloque-05b-iivtnu-sujetos.md"
+  ],
+  "trazabilidad": "content/la-puebla/tema-12/articulos.md",
+  "cobertura": [
+    {
+      "inciso": "Tributos locales y normas generales",
+      "articulos": "TRLRHL 15-19 y 56-59",
+      "contenidoExigible": [
+        "tasas, contribuciones especiales e impuestos",
+        "impuestos obligatorios y potestativos",
+        "imposición y ordenanzas fiscales",
+        "contenido, exposición, reclamaciones y publicación",
+        "recurso contencioso-administrativo"
+      ]
+    },
+    {
+      "inciso": "Impuesto sobre Bienes Inmuebles",
+      "articulos": "TRLRHL 60-64",
+      "contenidoExigible": [
+        "naturaleza directa y real",
+        "prelación concesión-superficie-usufructo-propiedad",
+        "clases de inmuebles",
+        "supuestos de no sujeción",
+        "titular del derecho como contribuyente"
+      ]
+    },
+    {
+      "inciso": "Impuesto sobre Actividades Económicas",
+      "articulos": "TRLRHL 78-83",
+      "contenidoExigible": [
+        "mero ejercicio de actividad",
+        "ordenación por cuenta propia",
+        "actividades excluidas",
+        "no sujeción y exenciones esenciales",
+        "quien realiza la actividad como sujeto pasivo"
+      ]
+    },
+    {
+      "inciso": "Impuesto sobre Vehículos de Tracción Mecánica",
+      "articulos": "TRLRHL 92-94",
+      "contenidoExigible": [
+        "titularidad de vehículo apto",
+        "matriculación, permisos temporales y baja",
+        "remolques hasta 750 kilogramos",
+        "exenciones esenciales",
+        "titular del permiso de circulación"
+      ]
+    },
+    {
+      "inciso": "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+      "articulos": "TRLRHL 104-106",
+      "contenidoExigible": [
+        "carácter potestativo",
+        "incremento de terreno urbano manifestado por transmisión o derecho real",
+        "terrenos rústicos y operaciones no sujetas",
+        "inexistencia de incremento y prueba",
+        "adquirente en lucrativas y transmitente en onerosas",
+        "sustituto en transmisión onerosa por persona física no residente"
+      ]
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "bases imponibles y liquidables completas",
+    "tipos, cuotas y bonificaciones completas",
+    "devengo y periodo impositivo salvo referencias necesarias",
+    "gestión catastral y censal completa",
+    "coeficientes anuales del IIVTNU",
+    "recaudación e inspección ya tratadas en los temas 10 y 11"
+  ],
+  "criterioDeCierre": "Aprobado expresamente por el usuario mediante la frase Tema 12 aprobado el 18 de julio de 2026."
+}
