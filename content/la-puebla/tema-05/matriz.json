@@ -1,0 +1,122 @@
+{
+  "tema": 5,
+  "estado": "EN_REVISION_USUARIO",
+  "epigrafeOficial": "El municipio. Organización y funcionamiento. La Provincia. Organización provincial. Competencias. El Régimen electoral de las Entidades Locales.",
+  "fechaRevisionNormativa": "2026-07-17",
+  "normas": [
+    {
+      "titulo": "Constitución Española",
+      "referencia": "BOE-A-1978-31229",
+      "articulos": "137, 140, 141 y 142"
+    },
+    {
+      "titulo": "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local",
+      "referencia": "BOE-A-1985-5392",
+      "textoConsolidadoConsultado": "Última actualización publicada el 03/06/2026"
+    },
+    {
+      "titulo": "Real Decreto 2568/1986, de 28 de noviembre, Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales",
+      "referencia": "BOE-A-1986-33252",
+      "alcance": "Detalle reglamentario de órganos, sesiones, debates, votaciones y actas"
+    },
+    {
+      "titulo": "Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General",
+      "referencia": "BOE-A-1985-11672",
+      "textoConsolidadoConsultado": "Última actualización publicada el 02/07/2026"
+    }
+  ],
+  "cobertura": [
+    {
+      "inciso": "El municipio",
+      "articulos": "Constitución 137 y 140; Ley 7/1985, artículos 11-18 y 29-30",
+      "contenidoExigible": [
+        "concepto, personalidad, capacidad y elementos",
+        "término municipal, población y padrón",
+        "derechos y deberes de los vecinos",
+        "concejo abierto y regímenes especiales"
+      ]
+    },
+    {
+      "inciso": "Organización municipal",
+      "articulos": "Ley 7/1985, artículos 19-24 bis; ROF, artículos 35-53",
+      "contenidoExigible": [
+        "Ayuntamiento, Alcalde y Concejales",
+        "Pleno, Junta de Gobierno Local y Tenientes de Alcalde",
+        "comisiones y órganos complementarios",
+        "atribuciones esenciales y reglas de delegación"
+      ]
+    },
+    {
+      "inciso": "Funcionamiento",
+      "articulos": "Ley 7/1985, artículos 46-54; ROF, régimen de sesiones, debates, votaciones y actas",
+      "contenidoExigible": [
+        "sesiones ordinarias, extraordinarias y urgentes",
+        "convocatoria, orden del día y documentación",
+        "quórum, publicidad, debate y votación",
+        "mayoría simple y mayoría absoluta legal"
+      ]
+    },
+    {
+      "inciso": "Competencias municipales",
+      "articulos": "Ley 7/1985, artículos 7 y 25-28",
+      "contenidoExigible": [
+        "competencias propias, delegadas y distintas",
+        "materias del artículo 25",
+        "servicios mínimos del artículo 26",
+        "condiciones de la delegación del artículo 27",
+        "derogación del artículo 28"
+      ]
+    },
+    {
+      "inciso": "La provincia y organización provincial",
+      "articulos": "Constitución 141; Ley 7/1985, artículos 31-35 y 38-41",
+      "contenidoExigible": [
+        "concepto, fines y personalidad",
+        "Diputación Provincial",
+        "Presidente, Vicepresidentes, Pleno y Junta de Gobierno",
+        "órganos complementarios y regímenes especiales"
+      ]
+    },
+    {
+      "inciso": "Competencias provinciales",
+      "articulos": "Ley 7/1985, artículos 36-37",
+      "contenidoExigible": [
+        "coordinación de servicios municipales",
+        "asistencia jurídica, económica y técnica",
+        "servicios supramunicipales",
+        "cooperación y competencias delegadas"
+      ]
+    },
+    {
+      "inciso": "Régimen electoral municipal",
+      "articulos": "LOREG, artículos 176-200",
+      "contenidoExigible": [
+        "sufragio activo y pasivo",
+        "número y elección de concejales",
+        "barrera del cinco por ciento",
+        "mandato y constitución del Ayuntamiento",
+        "elección, censura y confianza del Alcalde",
+        "efectos de las SSTC 151/2017 y 134/2025 sobre el artículo 197"
+      ]
+    },
+    {
+      "inciso": "Régimen electoral provincial",
+      "articulos": "LOREG, artículos 202-209",
+      "contenidoExigible": [
+        "inelegibilidades e incompatibilidades",
+        "número de diputados provinciales",
+        "reparto por partidos judiciales",
+        "elección indirecta por concejales",
+        "elección del Presidente y cobertura de vacantes"
+      ]
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "régimen completo de municipios de gran población de los artículos 121-138 de la Ley 7/1985",
+    "haciendas locales, personal, bienes, contratación y servicios públicos salvo referencias imprescindibles",
+    "procedimiento electoral común completo del Título I de la LOREG",
+    "elecciones a cabildos, consejos insulares, Parlamento Europeo y entidades locales menores salvo mención contextual",
+    "legislación autonómica de régimen local no exigida literalmente por el epígrafe"
+  ],
+  "criterioDeCierre": "No podrá aprobarse por extensión, cantidad de artículos o controles automáticos. Requiere revisión del usuario y la expresión Tema 5 aprobado."
+}
