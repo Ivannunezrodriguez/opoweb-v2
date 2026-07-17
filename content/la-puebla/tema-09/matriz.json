@@ -1,6 +1,6 @@
 {
   "tema": 9,
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "APROBADO_USUARIO",
   "epigrafeOficial": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
   "fechaRevisionNormativa": "2026-07-17",
   "trazabilidadArticuloPorArticulo": "content/la-puebla/tema-09/articulos.md",
@@ -17,14 +17,97 @@
     }
   ],
   "cobertura": [
-    {"inciso":"Disposiciones generales y principios","articulos":"1-10","contenidoExigible":["objeto y ámbito","fallecidos","exactitud y confidencialidad","consentimiento y menores","bases públicas","categorías especiales y datos penales"]},
-    {"inciso":"Información y derechos","articulos":"11-18","contenidoExigible":["información por capas","acceso","rectificación","supresión","limitación","portabilidad","oposición"]},
-    {"inciso":"Tratamientos concretos","articulos":"19-27","contenidoExigible":["contacto profesional","solvencia","videovigilancia","exclusión publicitaria","canales internos","estadística, archivo e infracciones"]},
-    {"inciso":"Responsabilidad y delegado","articulos":"28-39","contenidoExigible":["responsabilidad proactiva","bloqueo","encargado","DPD","reclamación previa"]},
-    {"inciso":"Transferencias y autoridades","articulos":"40-62 y 53 bis","contenidoExigible":["transferencias internacionales","AEPD","investigación","autoridades autonómicas y coordinación"]},
-    {"inciso":"Procedimientos","articulos":"63-69","contenidoExigible":["admisión","investigación","procedimientos","medidas provisionales","resolución"]},
-    {"inciso":"Infracciones y sanciones","articulos":"70-78","contenidoExigible":["sujetos","prescripción","clasificación","sanciones","régimen de Administraciones públicas"]},
-    {"inciso":"Derechos digitales","articulos":"79-97","contenidoExigible":["acceso y seguridad","educación y menores","derechos laborales","olvido y portabilidad","testamento y políticas digitales"]}
+    {
+      "inciso": "Disposiciones generales y principios",
+      "articulos": "1-10",
+      "contenidoExigible": [
+        "objeto y ámbito",
+        "fallecidos",
+        "exactitud y confidencialidad",
+        "consentimiento y menores",
+        "bases públicas",
+        "categorías especiales y datos penales"
+      ]
+    },
+    {
+      "inciso": "Información y derechos",
+      "articulos": "11-18",
+      "contenidoExigible": [
+        "información por capas",
+        "acceso",
+        "rectificación",
+        "supresión",
+        "limitación",
+        "portabilidad",
+        "oposición"
+      ]
+    },
+    {
+      "inciso": "Tratamientos concretos",
+      "articulos": "19-27",
+      "contenidoExigible": [
+        "contacto profesional",
+        "solvencia",
+        "videovigilancia",
+        "exclusión publicitaria",
+        "canales internos",
+        "estadística, archivo e infracciones"
+      ]
+    },
+    {
+      "inciso": "Responsabilidad y delegado",
+      "articulos": "28-39",
+      "contenidoExigible": [
+        "responsabilidad proactiva",
+        "bloqueo",
+        "encargado",
+        "DPD",
+        "reclamación previa"
+      ]
+    },
+    {
+      "inciso": "Transferencias y autoridades",
+      "articulos": "40-62 y 53 bis",
+      "contenidoExigible": [
+        "transferencias internacionales",
+        "AEPD",
+        "investigación",
+        "autoridades autonómicas y coordinación"
+      ]
+    },
+    {
+      "inciso": "Procedimientos",
+      "articulos": "63-69",
+      "contenidoExigible": [
+        "admisión",
+        "investigación",
+        "procedimientos",
+        "medidas provisionales",
+        "resolución"
+      ]
+    },
+    {
+      "inciso": "Infracciones y sanciones",
+      "articulos": "70-78",
+      "contenidoExigible": [
+        "sujetos",
+        "prescripción",
+        "clasificación",
+        "sanciones",
+        "régimen de Administraciones públicas"
+      ]
+    },
+    {
+      "inciso": "Derechos digitales",
+      "articulos": "79-97",
+      "contenidoExigible": [
+        "acceso y seguridad",
+        "educación y menores",
+        "derechos laborales",
+        "olvido y portabilidad",
+        "testamento y políticas digitales"
+      ]
+    }
   ],
   "advertencias": [
     "La LOPDGDD no sustituye al RGPD.",
@@ -34,5 +117,6 @@
     "El artículo 53 bis forma parte de la redacción vigente.",
     "La consolidación oficial consultada está actualizada a 27/12/2025."
   ],
-  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 9 aprobado."
+  "criterioDeCierre": "Aprobado expresamente por el usuario mediante la respuesta Tema 9 aprobado.",
+  "aprobadoEl": "2026-07-17"
 }

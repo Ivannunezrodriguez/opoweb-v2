@@ -1,7 +1,7 @@
 # La Puebla de Montalbán · Tema 9 · Manual reconstruido
 
-**Estado:** EN REVISIÓN DEL USUARIO  
-**No publicado como tema aprobado.**  
+**Estado:** APROBADO POR EL USUARIO  
+**Publicado en OpoWeb v2 tras aprobación expresa del usuario.**  
 **Fecha de revisión normativa:** 17 de julio de 2026.
 
 > **Tema 9. La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.**
@@ -362,8 +362,8 @@ La evaluación de impacto es obligatoria cuando el tratamiento puede generar alt
 - Complemento RGPD imprescindible: incorporado.
 - Aplicación municipal: explicada.
 - Preguntas trazables: no creadas todavía.
-- Revisión del usuario: pendiente.
-- Tema cerrado: **NO**.
-- Publicación como aprobado: **NO**.
+- Revisión del usuario: **aprobada el 17 de julio de 2026**.
+- Tema cerrado: **SÍ, aprobado por el usuario**.
+- Publicación como aprobado: **SÍ**.
 
-El tema solo cambiará a `APROBADO_USUARIO` tras la respuesta expresa **«Tema 9 aprobado»**.
+El usuario aprobó expresamente el tema mediante la respuesta **«Tema 9 aprobado»** el 17 de julio de 2026.

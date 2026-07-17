@@ -1,6 +1,6 @@
 # Tema 9 · Trazabilidad artículo por artículo
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## Ley Orgánica 3/2018
 

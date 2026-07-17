@@ -10,11 +10,11 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.8.0**.
+- Versión: **0.9.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
-- Temas 1–8: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 9–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 1–9: `APROBADO_USUARIO` el 17 de julio de 2026.
+- Temas 10–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -42,7 +42,8 @@ opoweb-v2/
 │     ├─ tema-05/
 │     ├─ tema-06/
 │     ├─ tema-07/
-│     └─ tema-08/
+│     ├─ tema-08/
+│     └─ tema-09/
 │        ├─ manual.md
 │        ├─ matriz.json
 │        ├─ aprobacion.md
@@ -95,7 +96,11 @@ Ley 31/1995 de Prevención de Riesgos Laborales: derechos y obligaciones, servic
 
 Ley 12/2010 de Igualdad entre Mujeres y Hombres de Castilla-La Mancha y Ley Orgánica 3/2007 para la igualdad efectiva: conceptos antidiscriminatorios, transversalidad, empleo público y privado, planes, acoso, representación equilibrada y políticas sectoriales. Incluye trazabilidad individual de los 65 artículos autonómicos y los 78 artículos de la Ley Orgánica.
 
-Los bancos de preguntas de los ocho temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 9
+
+Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derechos digitales: principios, bases jurídicas, derechos, tratamientos específicos, responsable, encargado, DPD, AEPD, procedimientos, infracciones, régimen de las Administraciones públicas y derechos digitales. Incluye el RGPD como complemento imprescindible y trazabilidad de los artículos 1–97 y 53 bis.
+
+Los bancos de preguntas de los nueve temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -115,4 +120,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente ocho temas aprobados, que los otros once no contienen teoría heredada y que los manuales aprobados no están truncados.
+La validación confirma que existen exactamente nueve temas aprobados, que los otros diez no contienen teoría heredada y que los manuales aprobados no están truncados.
