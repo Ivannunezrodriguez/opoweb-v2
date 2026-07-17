@@ -1,7 +1,7 @@
 # La Puebla de Montalbán · Tema 4 · Manual reconstruido
 
-**Estado:** EN REVISIÓN DEL USUARIO  
-**No publicado como tema aprobado.**  
+**Estado:** APROBADO POR EL USUARIO  
+**Publicado en OpoWeb v2 tras aprobación expresa del usuario.**  
 **Fecha de revisión normativa:** 17 de julio de 2026.
 
 > **Regla del proyecto:** «Te prometí un manual y publiqué resúmenes inflados por métricas. La reconstrucción tendrá que empezar por el contenido real de cada epígrafe, artículo por artículo; no por añadir más palabras, tests o etiquetas de “completo”.»
@@ -1084,8 +1084,8 @@ Responder sin consultar:
 - Especialidad local: incorporada.
 - Plazos, órganos, silencios y excepciones: desarrollados.
 - Preguntas trazables: no creadas todavía.
-- Revisión del usuario: pendiente.
-- Tema cerrado: **NO**.
-- Publicación como aprobado: **NO**.
+- Revisión del usuario: **aprobada el 17 de julio de 2026**.
+- Tema cerrado: **SÍ, aprobado por el usuario**.
+- Publicación como aprobado: **SÍ**.
 
-El tema solo cambiará a `APROBADO_USUARIO` tras una respuesta expresa: **«Tema 4 aprobado»**.
+El usuario aprobó expresamente el tema mediante la respuesta **«Tema 4 aprobado»** el 17 de julio de 2026.
