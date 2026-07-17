@@ -176,7 +176,19 @@
     {
       "numero": 13,
       "titulo": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "EN_REVISION_USUARIO",
+      "manual": "content/la-puebla/tema-13/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-13/bloque-01-conceptos-usos.md",
+        "content/la-puebla/tema-13/bloque-02-tipos-certificados.md",
+        "content/la-puebla/tema-13/bloque-03-soportes.md",
+        "content/la-puebla/tema-13/bloque-04-prestadores-servicios.md",
+        "content/la-puebla/tema-13/bloque-05-administraciones.md"
+      ],
+      "matriz": "content/la-puebla/tema-13/matriz.json",
+      "feedback": "content/la-puebla/tema-13/feedback.md",
+      "preguntas": "content/la-puebla/tema-13/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-13/articulos.md"
     },
     {
       "numero": 14,
