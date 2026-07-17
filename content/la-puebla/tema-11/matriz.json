@@ -1,0 +1,132 @@
+{
+  "tema": 11,
+  "estado": "APROBADO_USUARIO",
+  "aprobadoEl": "2026-07-17",
+  "epigrafeOficial": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.",
+  "fechaRevisionNormativa": "2026-07-17",
+  "manual": "content/la-puebla/tema-11/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-11/bloque-01-voluntaria.md",
+    "content/la-puebla/tema-11/bloque-02-aplazamiento-compensacion.md",
+    "content/la-puebla/tema-11/bloque-03a-devoluciones-regimen.md",
+    "content/la-puebla/tema-11/bloque-03b-devoluciones-procedimiento.md",
+    "content/la-puebla/tema-11/bloque-04a-ejecutiva-providencia.md",
+    "content/la-puebla/tema-11/bloque-05-embargo.md"
+  ],
+  "trazabilidad": [
+    "content/la-puebla/tema-11/articulos.md",
+    "content/la-puebla/tema-11/articulos-lgt.md",
+    "content/la-puebla/tema-11/articulos-rgr.md",
+    "content/la-puebla/tema-11/articulos-rgr-deuda.md",
+    "content/la-puebla/tema-11/articulos-rgr-apremio.md"
+  ],
+  "normas": [
+    {
+      "titulo": "Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales",
+      "referencia": "BOE-A-2004-4214",
+      "textoConsolidadoConsultado": "Última actualización publicada el 03/06/2026"
+    },
+    {
+      "titulo": "Ley 58/2003, de 17 de diciembre, General Tributaria",
+      "referencia": "BOE-A-2003-23186",
+      "textoConsolidadoConsultado": "Última actualización publicada el 21/12/2024"
+    },
+    {
+      "titulo": "Real Decreto 939/2005, de 29 de julio, Reglamento General de Recaudación",
+      "referencia": "BOE-A-2005-14803",
+      "textoConsolidadoConsultado": "Última actualización publicada el 31/01/2024"
+    },
+    {
+      "titulo": "Real Decreto 520/2005, de 13 de mayo, Reglamento de revisión en vía administrativa",
+      "referencia": "BOE-A-2005-8662",
+      "textoConsolidadoConsultado": "Última actualización publicada el 05/04/2023"
+    }
+  ],
+  "cobertura": [
+    {
+      "inciso": "Recaudación de los tributos locales",
+      "articulos": "TRLRHL 2.2 y 12; LGT 160-162",
+      "contenidoExigible": [
+        "prerrogativas de cobro local",
+        "normativa estatal aplicable",
+        "concepto de recaudación",
+        "diferencia entre voluntaria, ejecutiva y apremio"
+      ]
+    },
+    {
+      "inciso": "Recaudación en periodo voluntario",
+      "articulos": "LGT 60-64; RGR 32-43 y 68",
+      "contenidoExigible": [
+        "formas y momento del pago",
+        "plazos de liquidaciones y providencias",
+        "imputación y consignación",
+        "justificantes y pago parcial"
+      ]
+    },
+    {
+      "inciso": "Aplazamiento y fraccionamiento",
+      "articulos": "LGT 65 y 82; RGR 44-54",
+      "contenidoExigible": [
+        "dificultad transitoria",
+        "efectos según el periodo de solicitud",
+        "deudas excluidas",
+        "garantías y cobertura",
+        "resolución e incumplimiento"
+      ]
+    },
+    {
+      "inciso": "Compensación",
+      "articulos": "LGT 71-74; RGR 55-60",
+      "contenidoExigible": [
+        "crédito reconocido",
+        "solicitud en voluntaria o ejecutiva",
+        "compensación de oficio",
+        "efectos extintivos",
+        "deducción sobre transferencias"
+      ]
+    },
+    {
+      "inciso": "Devolución de ingresos",
+      "articulos": "LGT 31, 32 y 221; RD 520/2005 14-20",
+      "contenidoExigible": [
+        "devolución normativa e ingreso indebido",
+        "supuestos del artículo 221",
+        "acto firme y rectificación de autoliquidación",
+        "legitimación, intereses y costas",
+        "plazo de seis meses y ejecución"
+      ]
+    },
+    {
+      "inciso": "Recaudación ejecutiva y providencia",
+      "articulos": "LGT 28 y 161-168; RGR 69-74",
+      "contenidoExigible": [
+        "inicio del periodo ejecutivo",
+        "recargos del cinco, diez y veinte por ciento",
+        "suspensión",
+        "providencia y motivos de oposición",
+        "ejecución de garantías"
+      ]
+    },
+    {
+      "inciso": "Embargo, enajenación y terminación",
+      "articulos": "LGT 169-177; RGR 75-122",
+      "contenidoExigible": [
+        "orden y proporcionalidad del embargo",
+        "diligencia y motivos de oposición",
+        "cuentas, salarios e inmuebles",
+        "valoración, subasta y adjudicación",
+        "costas, fallido, incobrable, responsables y sucesores",
+        "tercerías de dominio y mejor derecho"
+      ]
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "procedimientos de gestión tributaria ya desarrollados en el tema 10",
+    "inspección y procedimiento sancionador",
+    "estructura sustantiva de los impuestos locales del tema 12",
+    "revisión tributaria completa distinta de la devolución de ingresos indebidos",
+    "normativa concursal en toda su extensión",
+    "detalle técnico exhaustivo de cada modalidad de subasta"
+  ],
+  "criterioDeCierre": "El tema fue aprobado expresamente por el usuario. La modularidad, la trazabilidad y la validación automática no sustituyen la revisión independiente de las preguntas futuras."
+}

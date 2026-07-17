@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.10.0';
+const CACHE = 'opoweb-v2-0.11.0';
 const ASSETS = [
   './',
   './index.html',
@@ -49,7 +49,22 @@ const ASSETS = [
   './content/la-puebla/tema-10/matriz.json',
   './content/la-puebla/tema-10/aprobacion.md',
   './content/la-puebla/tema-10/preguntas.json',
-  './content/la-puebla/tema-10/articulos.md'
+  './content/la-puebla/tema-10/articulos.md',
+  './content/la-puebla/tema-11/manual.md',
+  './content/la-puebla/tema-11/matriz.json',
+  './content/la-puebla/tema-11/aprobacion.md',
+  './content/la-puebla/tema-11/preguntas.json',
+  './content/la-puebla/tema-11/bloque-01-voluntaria.md',
+  './content/la-puebla/tema-11/bloque-02-aplazamiento-compensacion.md',
+  './content/la-puebla/tema-11/bloque-03a-devoluciones-regimen.md',
+  './content/la-puebla/tema-11/bloque-03b-devoluciones-procedimiento.md',
+  './content/la-puebla/tema-11/bloque-04a-ejecutiva-providencia.md',
+  './content/la-puebla/tema-11/bloque-05-embargo.md',
+  './content/la-puebla/tema-11/articulos.md',
+  './content/la-puebla/tema-11/articulos-lgt.md',
+  './content/la-puebla/tema-11/articulos-rgr.md',
+  './content/la-puebla/tema-11/articulos-rgr-deuda.md',
+  './content/la-puebla/tema-11/articulos-rgr-apremio.md'
 ];
 
 self.addEventListener('install', event => {

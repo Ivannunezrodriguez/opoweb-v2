@@ -10,11 +10,11 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.10.0**.
+- Versión: **0.11.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
-- Temas 1–10: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 11–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 1–11: `APROBADO_USUARIO` el 17 de julio de 2026.
+- Temas 12–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -44,12 +44,13 @@ opoweb-v2/
 │     ├─ tema-07/
 │     ├─ tema-08/
 │     ├─ tema-09/
-│     └─ tema-10/
+│     ├─ tema-10/
+│     └─ tema-11/
 │        ├─ manual.md
+│        ├─ seis capítulos modulares
 │        ├─ matriz.json
 │        ├─ aprobacion.md
-│        ├─ feedback.md
-│        ├─ articulos.md
+│        ├─ cinco documentos de trazabilidad
 │        └─ preguntas.json
 ├─ data/
 │  └─ programa.json
@@ -105,7 +106,11 @@ Ley Orgánica 3/2018 de Protección de Datos Personales y garantía de los derec
 
 Principios de tributación local, delegación, colaboración, beneficios fiscales y compensación; obligaciones y obligados tributarios; deuda, extinción y procedimientos de gestión. Incluye los artículos 6–12 del TRLRHL y los bloques 17–48, 58–76 y 117–140 de la LGT, con trazabilidad individual y delimitación respecto de recaudación y tributos locales concretos.
 
-Los bancos de preguntas de los diez temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 11
+
+Recaudación de tributos locales: periodo voluntario, aplazamiento, fraccionamiento, compensación, devoluciones, periodo ejecutivo y procedimiento de apremio. Manual modular en seis capítulos, con trazabilidad del TRLRHL, la LGT, el Reglamento General de Recaudación y el RD 520/2005.
+
+Los bancos de preguntas de los once temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -125,4 +130,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente diez temas aprobados, que los otros nueve no contienen teoría heredada y que los manuales aprobados no están truncados.
+La validación confirma que existen exactamente once temas aprobados, que los otros ocho no contienen teoría heredada y que el manual modular del tema 11 conserva todos sus capítulos y documentos de trazabilidad.
