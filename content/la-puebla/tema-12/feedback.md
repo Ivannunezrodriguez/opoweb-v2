@@ -1,10 +1,10 @@
-# Tema 12 · Informe para revisión del usuario
+# Tema 12 · Informe de revisión y aprobación
 
 ## Estado
 
-`EN_REVISION_USUARIO`
+`APROBADO_USUARIO`
 
-El tema no está publicado como aprobado. El banco de preguntas permanece vacío.
+El tema fue aprobado expresamente el 18 de julio de 2026. El banco de preguntas permanece vacío hasta su revisión específica y trazable.
 
 ## Epígrafe oficial
 
@@ -70,30 +70,25 @@ La modificación de 2026 afecta a otros preceptos del texto refundido, pero no a
 
 No se desarrollan íntegramente bases, cuotas, tipos, bonificaciones, devengo, gestión catastral, matrícula del IAE ni coeficientes del IIVTNU. Se añaden exenciones únicamente para distinguirlas de la no sujeción.
 
-## Comprobaciones solicitadas
+## Comprobaciones realizadas
 
-Revisa especialmente:
+La revisión se centró en:
 
-1. si distingues tributos obligatorios y potestativos;
-2. si la tramitación de ordenanzas queda clara;
-3. si recuerdas los treinta días de exposición;
-4. si en IBI respetas la prelación concesión-superficie-usufructo-propiedad;
-5. si no confundes propietario, arrendatario y sujeto pasivo del IBI;
-6. si en IAE distingues actividad no sujeta de sujeto exento;
-7. si entiendes que la persona física realiza el hecho imponible aunque esté exenta;
-8. si en IVTM manda el permiso de circulación;
-9. si aplicas correctamente el límite de 750 kg;
-10. si en IIVTNU diferencias terreno y construcción;
-11. si sabes acreditar inexistencia de incremento;
-12. si recuerdas lucrativa-adquirente y onerosa-transmitente;
-13. si distingues contribuyente y sustituto del no residente;
-14. si algún bloque parece todavía demasiado resumido.
+1. tributos obligatorios y potestativos;
+2. tramitación de ordenanzas y treinta días de exposición;
+3. prelación concesión-superficie-usufructo-propiedad en IBI;
+4. actividad no sujeta y sujeto exento en IAE;
+5. titularidad del permiso de circulación en IVTM;
+6. límite de 750 kg para remolques y semirremolques;
+7. terreno, inexistencia de incremento y prueba en IIVTNU;
+8. lucrativa-adquirente y onerosa-transmitente;
+9. contribuyente y sustituto del transmitente no residente;
+10. delimitación frente a bases, cuotas, bonificaciones y gestión completa.
 
 ## Cierre
 
-La respuesta debe ser una de estas:
+Aprobación registrada mediante la frase:
 
-- **«Tema 12 aprobado»**
-- **«Tema 12: cambia o amplía…»**
+> **«Tema 12 aprobado»**
 
-No se fusionará mientras permanezca en `EN_REVISION_USUARIO`.
+El tema queda cerrado y publicado como `APROBADO_USUARIO`.
