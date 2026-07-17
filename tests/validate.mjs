@@ -23,9 +23,9 @@ const inReview = programme.temas.filter(item => item.estado === 'EN_REVISION_USU
 const pending = programme.temas.filter(item => item.estado === 'PENDIENTE_RECONSTRUCCION');
 assert.deepEqual(approved.map(item => item.numero), [1, 2, 3, 4]);
 assert.ok(approved.every(item => item.aprobadoEl === '2026-07-17'));
-assert.deepEqual(inReview, []);
-assert.equal(pending.length, 15, 'Los temas 5-19 deben permanecer pendientes');
-assert.ok(programme.temas.slice(4).every(item => !item.manual && !item.preguntas), 'Los temas 5-19 no deben heredar teoría ni preguntas');
+assert.deepEqual(inReview.map(item => item.numero), [5]);
+assert.equal(pending.length, 14, 'Los temas 6-19 deben permanecer pendientes');
+assert.ok(programme.temas.slice(5).every(item => !item.manual && !item.preguntas), 'Los temas 6-19 no deben heredar teoría ni preguntas');
 
 const expected = {
   1: { range: [10, 55], extra: [166, 167, 168, 169], matrixRows: 6 },
@@ -80,11 +80,75 @@ for (const marker of [
   'Ley 7/1985'
 ]) assert.ok(manual4.toLowerCase().includes(marker.toLowerCase()), `Falta contenido crítico del tema 4: ${marker}`);
 
+const matrix5 = json('content/la-puebla/tema-05/matriz.json');
+const questions5 = json('content/la-puebla/tema-05/preguntas.json');
+const manual5 = read('content/la-puebla/tema-05/manual.md');
+const feedback5 = read('content/la-puebla/tema-05/feedback.md');
+assert.equal(matrix5.tema, 5);
+assert.equal(matrix5.estado, 'EN_REVISION_USUARIO');
+assert.equal(matrix5.cobertura.length, 8);
+assert.equal(questions5.estado, 'NO_CREADAS_HASTA_APROBACION_TEORICA');
+assert.deepEqual(questions5.preguntas, []);
+assert.ok(manual5.includes('**Estado:** EN REVISIÓN DEL USUARIO'));
+assert.ok(manual5.includes('Tema cerrado: **NO**'));
+assert.ok(manual5.includes('Materia deliberadamente excluida del núcleo'));
+assert.ok(feedback5.includes('`EN_REVISION_USUARIO`'));
+assert.ok(feedback5.includes('Tema 5 aprobado'));
+assert.ok(!manual5.includes('**Estado:** APROBADO POR EL USUARIO'));
+assert.ok(manual5.split('\n').length > 800, 'El manual del tema 5 parece truncado');
+
+for (const article of [137, 140, 141, 142]) {
+  assert.ok(manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`), `Falta el artículo constitucional ${article}`);
+}
+for (let article = 11; article <= 41; article += 1) {
+  assert.ok(
+    manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`),
+    `Falta el artículo ${article} de régimen local en el tema 5`
+  );
+}
+for (let article = 46; article <= 54; article += 1) {
+  assert.ok(
+    manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`),
+    `Falta el artículo ${article} de funcionamiento local en el tema 5`
+  );
+}
+for (let article = 176; article <= 200; article += 1) {
+  assert.ok(
+    manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`),
+    `Falta el artículo electoral municipal ${article}`
+  );
+}
+for (let article = 202; article <= 209; article += 1) {
+  assert.ok(
+    manual5.includes(`Artículo ${article} `) || manual5.includes(`Artículo ${article} ·`) || manual5.includes(`Artículo ${article}.`),
+    `Falta el artículo electoral provincial ${article}`
+  );
+}
+
+for (const marker of [
+  'Artículo 24 bis',
+  'Artículo 187 bis',
+  'Artículo 197 bis',
+  'artículo 28 está derogado',
+  'barrera electoral municipal',
+  'cinco por ciento',
+  'mayoría absoluta del número legal',
+  'Comisión Especial de Cuentas',
+  'Concejo Abierto',
+  'Junta de Gobierno Local',
+  'elección indirecta',
+  'Tribunal Constitucional',
+  'tres quintos del total',
+  'vigésimo día',
+  'cuadragésimo día'
+]) assert.ok(manual5.toLowerCase().includes(marker.toLowerCase()), `Falta contenido crítico del tema 5: ${marker}`);
+
 assert.ok(rules.includes('Te prometí un manual y publiqué resúmenes inflados por métricas'));
 assert.ok(rules.includes('Un tema solo cambia a `APROBADO_USUARIO`'));
 assert.ok(app.includes("const PROGRAM_URL = 'data/programa.json'"));
 assert.ok(app.includes("theme.estado !== 'APROBADO_USUARIO'"));
 assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.4.0'"));
+assert.ok(!serviceWorker.includes('tema-05/manual.md'), 'El tema 5 en revisión no debe precargarse en la PWA');
 
 for (const number of [1, 2, 3, 4]) {
   const folder = `tema-${String(number).padStart(2, '0')}`;
@@ -108,7 +172,7 @@ console.log(JSON.stringify({
   userApprovedThemes: approved.length,
   themesInUserReview: inReview.length,
   pendingThemes: pending.length,
-  theme4Questions: json('content/la-puebla/tema-04/preguntas.json').preguntas.length,
-  theme4ManualLines: manual4.split('\n').length,
-  status: 'TEMA_4_APROBADO_VALIDADO'
+  theme5Questions: questions5.preguntas.length,
+  theme5ManualLines: manual5.split('\n').length,
+  status: 'TEMA_5_EN_REVISION_VALIDADO'
 }, null, 2));
