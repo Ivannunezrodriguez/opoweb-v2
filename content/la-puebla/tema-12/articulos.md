@@ -1,6 +1,6 @@
 # Tema 12 · Trazabilidad artículo por artículo
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## Normas generales
 
@@ -62,3 +62,5 @@
 ## Delimitación
 
 La presencia de los artículos de exenciones o de afección real no amplía el epígrafe a la regulación completa de cada impuesto. Se incorporan únicamente para distinguir correctamente hecho imponible, no sujeción, exención y sujeto pasivo.
+
+Aprobación registrada el 18 de julio de 2026 mediante la frase **«Tema 12 aprobado»**.
