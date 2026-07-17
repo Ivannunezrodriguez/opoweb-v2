@@ -10,11 +10,11 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.7.0**.
+- Versión: **0.8.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
-- Temas 1–7: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 8–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 1–8: `APROBADO_USUARIO` el 17 de julio de 2026.
+- Temas 9–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -41,11 +41,13 @@ opoweb-v2/
 │     ├─ tema-04/
 │     ├─ tema-05/
 │     ├─ tema-06/
-│     └─ tema-07/
+│     ├─ tema-07/
+│     └─ tema-08/
 │        ├─ manual.md
 │        ├─ matriz.json
 │        ├─ aprobacion.md
 │        ├─ feedback.md
+│        ├─ articulos.md
 │        └─ preguntas.json
 ├─ data/
 │  └─ programa.json
@@ -89,7 +91,11 @@ Ley 4/2011 de empleo público de Castilla-La Mancha: clases de personal, OEP, se
 
 Ley 31/1995 de Prevención de Riesgos Laborales: derechos y obligaciones, servicios preventivos, consulta, Delegados de Prevención, Comité de Seguridad y Salud y colaboración inspectora. Incluye el desarrollo funcional de los artículos 10–22 bis del Real Decreto 39/1997.
 
-Los bancos de preguntas de los siete temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 8
+
+Ley 12/2010 de Igualdad entre Mujeres y Hombres de Castilla-La Mancha y Ley Orgánica 3/2007 para la igualdad efectiva: conceptos antidiscriminatorios, transversalidad, empleo público y privado, planes, acoso, representación equilibrada y políticas sectoriales. Incluye trazabilidad individual de los 65 artículos autonómicos y los 78 artículos de la Ley Orgánica.
+
+Los bancos de preguntas de los ocho temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -109,4 +115,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente siete temas aprobados, que los otros doce no contienen teoría heredada y que los manuales aprobados no están truncados.
+La validación confirma que existen exactamente ocho temas aprobados, que los otros once no contienen teoría heredada y que los manuales aprobados no están truncados.
