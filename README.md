@@ -10,11 +10,11 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.3.0**.
+- Versión: **0.4.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
-- Temas 1, 2 y 3: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 4–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 1, 2, 3 y 4: `APROBADO_USUARIO` el 17 de julio de 2026.
+- Temas 5–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -36,17 +36,9 @@ opoweb-v2/
 ├─ content/
 │  └─ la-puebla/
 │     ├─ tema-01/
-│     │  ├─ manual.md
-│     │  ├─ matriz.json
-│     │  ├─ aprobacion.md
-│     │  └─ preguntas.json
 │     ├─ tema-02/
-│     │  ├─ manual.md
-│     │  ├─ matriz.json
-│     │  ├─ aprobacion.md
-│     │  ├─ feedback.md
-│     │  └─ preguntas.json
-│     └─ tema-03/
+│     ├─ tema-03/
+│     └─ tema-04/
 │        ├─ manual.md
 │        ├─ matriz.json
 │        ├─ aprobacion.md
@@ -76,9 +68,13 @@ Ley 39/2015: disposiciones generales, interesados, identificación y firma, norm
 
 ### Tema 3
 
-Ley 39/2015: derechos del interesado, iniciación, ordenación, instrucción, finalización, tramitación simplificada y ejecución. Cobertura de los artículos 53–105, con las especialidades sancionadoras y de responsabilidad patrimonial integradas en los artículos correspondientes.
+Ley 39/2015: derechos del interesado, iniciación, ordenación, instrucción, finalización, tramitación simplificada y ejecución. Cobertura de los artículos 53–105, con las especialidades sancionadoras y de responsabilidad patrimonial integradas.
 
-Los bancos de preguntas de los tres temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 4
+
+Ley 39/2015: revisión de oficio y recursos administrativos, artículos 106–126. Incluye la aplicación local de los artículos 52–53 de la Ley 7/1985 y la competencia del Pleno para declarar la lesividad.
+
+Los bancos de preguntas de los cuatro temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -98,4 +94,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente tres temas aprobados, que los otros dieciséis no contienen teoría heredada y que los manuales aprobados no están truncados.
+La validación confirma que existen exactamente cuatro temas aprobados, que los otros quince no contienen teoría heredada y que los manuales aprobados no están truncados.
