@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "updatedAt": "2026-07-17",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -94,11 +94,13 @@
     {
       "numero": 8,
       "titulo": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-08/manual.md",
       "matriz": "content/la-puebla/tema-08/matriz.json",
-      "feedback": "content/la-puebla/tema-08/feedback.md",
-      "preguntas": "content/la-puebla/tema-08/preguntas.json"
+      "aprobacion": "content/la-puebla/tema-08/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-08/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-08/articulos.md"
     },
     {
       "numero": 9,
