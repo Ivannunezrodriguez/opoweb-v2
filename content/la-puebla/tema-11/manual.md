@@ -19,11 +19,12 @@ Fuente: BOP de Toledo número 82, de 5 de mayo de 2026, código `2026.00001965`.
 
 1. [Recaudación local, pago y periodo voluntario](bloque-01-voluntaria.md)
 2. [Aplazamiento, fraccionamiento y compensación](bloque-02-aplazamiento-compensacion.md)
-3. [Devolución de ingresos](bloque-03-devoluciones.md)
-4. [Periodo ejecutivo y procedimiento de apremio](bloque-04-apremio.md)
-5. [Embargo, enajenación, tercerías y supuestos](bloque-05-embargo.md)
-6. [Trazabilidad artículo por artículo](articulos.md)
-7. [Informe de revisión](feedback.md)
+3. [Devoluciones: régimen legal](bloque-03a-devoluciones-regimen.md)
+4. [Devoluciones: procedimiento](bloque-03b-devoluciones-procedimiento.md)
+5. [Periodo ejecutivo y providencia de apremio](bloque-04a-ejecutiva-providencia.md)
+6. [Embargo, enajenación, terminación y tercerías](bloque-05-embargo.md)
+7. [Trazabilidad artículo por artículo](articulos.md)
+8. [Informe de revisión](feedback.md)
 
 ## Mapa normativo
 
@@ -74,8 +75,8 @@ El tema 10 ya desarrolla obligaciones, obligados, deuda y procedimientos de gest
 ## Estado real
 
 - Manual modular: creado.
-- Desarrollo artículo por artículo: distribuido en cinco capítulos.
-- Matriz y trazabilidad: preparadas en documentos separados.
+- Desarrollo artículo por artículo: distribuido en seis capítulos.
+- Matriz y trazabilidad: documentos separados.
 - Banco de preguntas: vacío.
 - Revisión del usuario: pendiente.
 - Tema cerrado: **NO**.
