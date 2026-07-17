@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "updatedAt": "2026-07-17",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -54,7 +54,12 @@
     {
       "numero": 4,
       "titulo": "Revisión de los actos administrativos en vía administrativa. Los recursos administrativos. La revisión de oficio.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-04/manual.md",
+      "matriz": "content/la-puebla/tema-04/matriz.json",
+      "aprobacion": "content/la-puebla/tema-04/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-04/preguntas.json"
     },
     {
       "numero": 5,
