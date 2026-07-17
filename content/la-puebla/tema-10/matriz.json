@@ -1,0 +1,128 @@
+{
+  "tema": 10,
+  "estado": "APROBADO_USUARIO",
+  "epigrafeOficial": "Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.",
+  "fechaRevisionNormativa": "2026-07-17",
+  "trazabilidadArticuloPorArticulo": "content/la-puebla/tema-10/articulos.md",
+  "normas": [
+    {
+      "titulo": "Constitución española",
+      "articulos": "31.1 y 133"
+    },
+    {
+      "titulo": "Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales",
+      "referencia": "BOE-A-2004-4214",
+      "textoConsolidadoConsultado": "Última actualización publicada el 03/06/2026"
+    },
+    {
+      "titulo": "Ley 58/2003, de 17 de diciembre, General Tributaria",
+      "referencia": "BOE-A-2003-23186",
+      "textoConsolidadoConsultado": "Última actualización publicada el 21/12/2024"
+    }
+  ],
+  "cobertura": [
+    {
+      "inciso": "Principios de tributación local",
+      "articulos": "CE 31.1 y 133; LGT 3; TRLRHL 6",
+      "contenidoExigible": [
+        "capacidad económica, igualdad, progresividad y no confiscatoriedad",
+        "potestad tributaria local dentro de la ley",
+        "límites territoriales",
+        "libre circulación"
+      ]
+    },
+    {
+      "inciso": "Delegación",
+      "articulos": "TRLRHL 7",
+      "contenidoExigible": [
+        "entidades destinatarias",
+        "facultades delegables",
+        "acuerdo plenario",
+        "aceptación y publicación",
+        "régimen de ejercicio e impugnación"
+      ]
+    },
+    {
+      "inciso": "Colaboración",
+      "articulos": "TRLRHL 8",
+      "contenidoExigible": [
+        "intercambio de información",
+        "asistencia recíproca",
+        "planes coordinados",
+        "actuaciones fuera del territorio",
+        "diferencia respecto de la delegación"
+      ]
+    },
+    {
+      "inciso": "Beneficios fiscales y compensación",
+      "articulos": "TRLRHL 9-12",
+      "contenidoExigible": [
+        "reserva legal",
+        "beneficios obligatorios y potestativos",
+        "bonificación máxima del cinco por ciento",
+        "compensación estatal",
+        "aplicación local de la LGT"
+      ]
+    },
+    {
+      "inciso": "Obligaciones tributarias",
+      "articulos": "LGT 17-34",
+      "contenidoExigible": [
+        "relación jurídico-tributaria",
+        "obligación principal, a cuenta, entre particulares y accesorias",
+        "interés y recargos",
+        "obligaciones formales",
+        "obligaciones de la Administración",
+        "derechos y garantías"
+      ]
+    },
+    {
+      "inciso": "Obligados tributarios",
+      "articulos": "LGT 35-48",
+      "contenidoExigible": [
+        "contribuyente y sustituto",
+        "pagos a cuenta",
+        "sucesores",
+        "responsables solidarios y subsidiarios",
+        "capacidad y representación",
+        "domicilio fiscal"
+      ]
+    },
+    {
+      "inciso": "Extinción de la deuda",
+      "articulos": "LGT 58-76",
+      "contenidoExigible": [
+        "composición de la deuda",
+        "pago",
+        "prescripción",
+        "compensación",
+        "condonación",
+        "baja provisional por insolvencia"
+      ]
+    },
+    {
+      "inciso": "Procedimientos de gestión tributaria",
+      "articulos": "LGT 117-140",
+      "contenidoExigible": [
+        "funciones y formas de inicio",
+        "declaración, autoliquidación y comunicación",
+        "devolución",
+        "procedimiento iniciado por declaración",
+        "verificación de datos",
+        "comprobación de valores",
+        "comprobación limitada"
+      ]
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "recaudación voluntaria y ejecutiva desarrollada en profundidad",
+    "procedimiento de apremio",
+    "inspección tributaria completa",
+    "procedimiento sancionador",
+    "revisión tributaria",
+    "aprobación de ordenanzas fiscales",
+    "estructura sustantiva completa de cada impuesto local"
+  ],
+  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 10 aprobado. La longitud, la trazabilidad y la validación automática no acreditan por sí solas suficiencia pedagógica.",
+  "aprobadoEl": "2026-07-17"
+}

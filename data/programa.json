@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "updatedAt": "2026-07-17",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -116,7 +116,13 @@
     {
       "numero": 10,
       "titulo": "Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "APROBADO_USUARIO",
+      "manual": "content/la-puebla/tema-10/manual.md",
+      "matriz": "content/la-puebla/tema-10/matriz.json",
+      "preguntas": "content/la-puebla/tema-10/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-10/articulos.md",
+      "aprobadoEl": "2026-07-17",
+      "aprobacion": "content/la-puebla/tema-10/aprobacion.md"
     },
     {
       "numero": 11,
