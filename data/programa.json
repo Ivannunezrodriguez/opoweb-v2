@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "updatedAt": "2026-07-17",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -44,10 +44,11 @@
     {
       "numero": 3,
       "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. El procedimiento administrativo común: Derechos del interesado; Iniciación; Ordenación; Instrucción; Finalización y Ejecución. Especialidades en los procedimientos de naturaleza sancionadora y de responsabilidad patrimonial. Tramitación simplificada del procedimiento administrativo común.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-03/manual.md",
       "matriz": "content/la-puebla/tema-03/matriz.json",
-      "feedback": "content/la-puebla/tema-03/feedback.md",
+      "aprobacion": "content/la-puebla/tema-03/aprobacion.md",
       "preguntas": "content/la-puebla/tema-03/preguntas.json"
     },
     {
