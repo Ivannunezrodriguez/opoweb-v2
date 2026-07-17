@@ -1,0 +1,31 @@
+name: Restaurar manual completo del tema 3
+
+on:
+  push:
+    branches: [rebuild/puebla-tema-03]
+
+permissions:
+  contents: write
+
+jobs:
+  restore:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: rebuild/puebla-tema-03
+          fetch-depth: 0
+      - name: Restaurar versión completa aprobada
+        run: |
+          git show 54b0fbf4775b21d46f949d3efc39df7066f67177:content/la-puebla/tema-03/manual.md > content/la-puebla/tema-03/manual.md
+          test $(wc -l < content/la-puebla/tema-03/manual.md) -gt 900
+          grep -q 'APROBADO POR EL USUARIO' content/la-puebla/tema-03/manual.md
+          grep -q 'Artículo 105' content/la-puebla/tema-03/manual.md
+      - name: Guardar restauración
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add content/la-puebla/tema-03/manual.md
+          git commit -m "Restaurar manual completo del tema 3 [skip ci]"
+          git push origin HEAD:rebuild/puebla-tema-03
