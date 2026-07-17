@@ -1,0 +1,125 @@
+{
+  "project": "opoweb-v2",
+  "version": "0.1.0",
+  "updatedAt": "2026-07-17",
+  "convocatoria": {
+    "id": "la-puebla-auxiliar-administrativo-2026",
+    "nombre": "La Puebla de Montalbán · Auxiliar Administrativo",
+    "plazas": 4,
+    "subgrupo": "C2",
+    "sistema": "concurso-oposición libre",
+    "fuentePrograma": {
+      "publicacion": "BOP de Toledo número 82, de 5 de mayo de 2026",
+      "codigoVerificacion": "2026.00001965"
+    }
+  },
+  "estadosPermitidos": [
+    "PENDIENTE_RECONSTRUCCION",
+    "BORRADOR",
+    "EN_REVISION_USUARIO",
+    "APROBADO_USUARIO",
+    "PUBLICADO"
+  ],
+  "temas": [
+    {
+      "numero": 1,
+      "titulo": "La Constitución española de 1978. Estructura. La reforma constitucional. Derechos y deberes fundamentales de los españoles. Garantía y suspensión.",
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-01/manual.md",
+      "matriz": "content/la-puebla/tema-01/matriz.json",
+      "aprobacion": "content/la-puebla/tema-01/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-01/preguntas.json"
+    },
+    {
+      "numero": 2,
+      "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Los interesados en el procedimiento. Actividad de las Administraciones Públicas: Normas generales de actuación. Términos y plazos.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 3,
+      "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. El procedimiento administrativo común: Derechos del interesado; Iniciación; Ordenación; Instrucción; Finalización y Ejecución. Especialidades en los procedimientos de naturaleza sancionadora y de responsabilidad patrimonial. Tramitación simplificada del procedimiento administrativo común.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 4,
+      "titulo": "Revisión de los actos administrativos en vía administrativa. Los recursos administrativos. La revisión de oficio.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 5,
+      "titulo": "El municipio. Organización y funcionamiento. La Provincia. Organización provincial. Competencias. El Régimen electoral de las Entidades Locales.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 6,
+      "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: El Personal al servicio de las Administraciones Públicas. Provisión de puestos de trabajo. La carrera administrativa. Promoción interna. La selección del personal y la oferta pública de Empleo.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 7,
+      "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos laborales: Derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 8,
+      "titulo": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 9,
+      "titulo": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 10,
+      "titulo": "Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 11,
+      "titulo": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 12,
+      "titulo": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 13,
+      "titulo": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 14,
+      "titulo": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 15,
+      "titulo": "Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 16,
+      "titulo": "Microsoft Windows II. Navegación por Internet con Microsoft Internet Explorer y Microsoft Edge.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 17,
+      "titulo": "LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 18,
+      "titulo": "LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 19,
+      "titulo": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    }
+  ]
+}
