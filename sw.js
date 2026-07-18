@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.20.1';
+const CACHE = 'opoweb-v2-0.20.2';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -8,7 +8,8 @@ const CORE_ASSETS = [
   './assets/icon.svg',
   './data/programa.json',
   './data/seguimiento-la-puebla.json',
-  './content/la-puebla/supuestos-practicos.json'
+  './content/la-puebla/supuestos-practicos.json',
+  './content/la-puebla/simulacros.json'
 ];
 
 async function themeAssets() {
