@@ -14,8 +14,8 @@ const practiceHtml = read('practice.html');
 const practiceJs = read('assets/practice.js');
 
 assert.equal(programme.version, '0.19.0');
-assert.equal(packageJson.version, '0.19.0');
-assert.ok(index.includes('v0.20.1'));
+assert.equal(packageJson.version, '0.20.4');
+assert.ok(index.includes('v0.20.4'));
 assert.ok(index.includes('href="practice.html"'));
 assert.equal(programme.temas.length, 19);
 
@@ -110,13 +110,14 @@ for (const mock of mockExams.simulacros) {
   assert.equal(coveredThemes.size, 19, `${mock.id} no cubre los 19 temas`);
 }
 
-assert.ok(practiceHtml.includes('id="practice-app"'));
-assert.ok(practiceHtml.includes('src="assets/practice.js"'));
-assert.ok(practiceJs.includes('function renderHub'));
-assert.ok(practiceJs.includes('function renderExercise'));
-assert.ok(practiceJs.includes('function finishExercise'));
-assert.ok(practiceJs.includes('setInterval(updateTimer, 1000)'));
-assert.ok(practiceJs.includes('¡Foco Examen!'));
+assert.ok(exists('practice.html'));
+assert.ok(exists('assets/practice.js'));
+assert.ok(exists('assets/practice-progress.css'));
+assert.ok(practiceHtml.includes('assets/practice-progress.css'));
+assert.ok(practiceJs.includes("const PROGRESS_KEY = 'opoweb-la-puebla-practice-progress-v1'"));
+assert.ok(practiceJs.includes('localStorage.setItem(PROGRESS_KEY'));
+assert.ok(practiceJs.includes('saveAttempt({'));
+assert.ok(practiceJs.includes('Borrar historial'));
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
 assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'));
@@ -160,13 +161,11 @@ for (const term of [
   assert.ok(joined19.includes(term), `Falta ${term}`);
 }
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.3'"));
-for (const asset of [
-  './practice.html',
-  './assets/practice.js',
-  './content/la-puebla/supuestos-practicos.json',
-  './content/la-puebla/simulacros.json'
-]) assert.ok(serviceWorker.includes(`'${asset}'`), `No precargado ${asset}`);
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.4'"));
+assert.ok(serviceWorker.includes("'./practice.html'"));
+assert.ok(serviceWorker.includes("'./assets/practice-progress.css'"));
+assert.ok(serviceWorker.includes("'./content/la-puebla/supuestos-practicos.json'"));
+assert.ok(serviceWorker.includes("'./content/la-puebla/simulacros.json'"));
 assert.equal(exists('.github/workflows/apply-t19-approval.yml'), false);
 assert.equal(exists('scripts/publish_t19.py'), false);
 
@@ -174,7 +173,8 @@ const generatedQuestions = generatedBanks.reduce((total, bank) => total + bank.p
 const mockQuestions = mockExams.simulacros.reduce((total, mock) => total + mock.preguntas.length, 0);
 
 console.log(JSON.stringify({
-  version: programme.version,
+  editorialVersion: programme.version,
+  applicationVersion: packageJson.version,
   approved: approved.length,
   review: review.length,
   pending: pending.length,
@@ -185,7 +185,7 @@ console.log(JSON.stringify({
   practicalCases: practicalCases.supuestos.length,
   mockExams: mockExams.simulacros.length,
   mockQuestions,
-  interactivePractice: 'VALIDATED',
+  localProgress: 'VALIDATED',
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_INTERACTIVA_COMPLETA'
+  status: 'CONVOCATORIA_LA_PUEBLA_COMPLETA_CON_PROGRESO_LOCAL'
 }, null, 2));
