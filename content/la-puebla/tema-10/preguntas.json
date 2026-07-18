@@ -1,6 +1,183 @@
 {
   "tema": 10,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual está aprobado. El banco permanece vacío hasta crear y revisar preguntas trazables a artículos concretos del TRLRHL o de la LGT."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T10-001",
+      "enunciado": "Según el artículo 31.1 de la Constitución, el sistema tributario justo se inspira en los principios de:",
+      "opciones": [
+        "Capacidad económica, igualdad, progresividad y no confiscatoriedad",
+        "Proporcionalidad, eficacia, jerarquía y descentralización",
+        "Legalidad, publicidad, economía y celeridad",
+        "Igualdad, mérito, capacidad y objetividad"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 31.1 CE vincula la contribución al sostenimiento de los gastos públicos con la capacidad económica y con un sistema inspirado en igualdad y progresividad, que en ningún caso tendrá alcance confiscatorio.",
+      "trampaExamen": "La progresividad se predica del sistema tributario en su conjunto, no necesariamente de cada tributo aislado.",
+      "referencia": "manual.md · apartado 3 · Artículo 31.1 CE"
+    },
+    {
+      "id": "LP-T10-002",
+      "enunciado": "¿Qué órgano debe acordar la delegación de facultades de gestión, liquidación, inspección o recaudación de tributos locales?",
+      "opciones": [
+        "El Alcalde",
+        "La Junta de Gobierno Local",
+        "El Pleno de la corporación",
+        "La Intervención municipal"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 7 TRLRHL exige acuerdo del Pleno de la corporación delegante, determinación del alcance, aceptación por el ente delegado y publicación oficial.",
+      "trampaExamen": "La delegación tributaria no se presume ni puede formalizarse solo mediante convenio sin acuerdo plenario.",
+      "referencia": "manual.md · apartado 6 · Artículo 7 TRLRHL"
+    },
+    {
+      "id": "LP-T10-003",
+      "enunciado": "La colaboración entre Administraciones en materia tributaria local se diferencia de la delegación en que:",
+      "opciones": [
+        "Transfiere la titularidad del tributo",
+        "Cada Administración conserva sus facultades y coopera mediante asistencia o intercambio de información",
+        "Solo puede recaer sobre sanciones",
+        "No puede incluir actuaciones de inspección"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "En la colaboración cada Administración mantiene sus competencias y coopera técnica, material o informativamente; en la delegación otra entidad ejerce facultades concretas de la entidad local.",
+      "trampaExamen": "Ni la colaboración ni la delegación cambian la titularidad local del ingreso.",
+      "referencia": "manual.md · apartado 7 · Artículo 8 TRLRHL"
+    },
+    {
+      "id": "LP-T10-004",
+      "enunciado": "Una ordenanza fiscal local puede reconocer una exención no prevista en ninguna ley cuando exista interés social suficiente:",
+      "opciones": [
+        "Sí, por acuerdo del Pleno",
+        "Sí, si la cuantía no supera el 5 %",
+        "No, salvo habilitación legal expresa o tratado internacional",
+        "Sí, si se aplica solo durante un ejercicio"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 9 TRLRHL impide crear beneficios fiscales sin cobertura legal. La ordenanza solo puede establecerlos cuando una ley lo autoriza expresamente y dentro de sus límites.",
+      "trampaExamen": "La autonomía local no elimina la reserva de ley en materia de beneficios fiscales.",
+      "referencia": "manual.md · apartado 8 · Artículo 9 TRLRHL"
+    },
+    {
+      "id": "LP-T10-005",
+      "enunciado": "La bonificación por domiciliación, anticipación de pagos o colaboración recaudatoria puede alcanzar como máximo:",
+      "opciones": [
+        "El 2 % de la deuda",
+        "El 5 % de la cuota",
+        "El 10 % de la cuota",
+        "El 15 % de la deuda"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La ordenanza fiscal puede prever una bonificación de hasta el 5 % de la cuota para actuaciones de colaboración recaudatoria, siempre dentro de la habilitación legal.",
+      "trampaExamen": "El máximo se refiere a la cuota y exige previsión expresa en ordenanza.",
+      "referencia": "manual.md · apartado 10 · Bonificación por colaboración recaudatoria"
+    },
+    {
+      "id": "LP-T10-006",
+      "enunciado": "¿Cuál es la diferencia correcta entre devengo y exigibilidad?",
+      "opciones": [
+        "El devengo extingue la deuda y la exigibilidad la liquida",
+        "El devengo determina cuándo nace la obligación y la exigibilidad cuándo puede reclamarse el pago",
+        "Son siempre el mismo momento",
+        "La exigibilidad precede necesariamente al hecho imponible"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El devengo es el momento en que se entiende realizado el hecho imponible y nace la obligación principal; la exigibilidad indica desde cuándo puede reclamarse el pago y ambos momentos pueden no coincidir.",
+      "trampaExamen": "No debe identificarse automáticamente nacimiento de la obligación con inicio del plazo de pago.",
+      "referencia": "manual.md · apartado 15 · Artículo 21 LGT"
+    },
+    {
+      "id": "LP-T10-007",
+      "enunciado": "En una declaración extemporánea presentada sin requerimiento previo, el sistema vigente aplica durante los primeros doce meses:",
+      "opciones": [
+        "Un recargo fijo del 20 %",
+        "Una sanción mínima del 50 %",
+        "Un 1 % más otro 1 % por cada mes completo de retraso",
+        "Interés de demora sin recargo"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 27 LGT establece un recargo del 1 % más otro 1 % por cada mes completo de retraso hasta doce meses; superado ese periodo, el recargo es del 15 % con intereses desde el día siguiente a los doce meses.",
+      "trampaExamen": "La presentación espontánea sin requerimiento genera recargo, no sanción por la mera extemporaneidad.",
+      "referencia": "manual.md · apartado 18 · Artículo 27 LGT"
+    },
+    {
+      "id": "LP-T10-008",
+      "enunciado": "¿Cuál de los siguientes recargos del período ejecutivo es compatible con intereses de demora?",
+      "opciones": [
+        "El recargo ejecutivo del 5 %",
+        "El recargo de apremio reducido del 10 %",
+        "El recargo de apremio ordinario del 20 %",
+        "Ninguno de ellos"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El recargo de apremio ordinario del 20 % es compatible con intereses de demora. El ejecutivo del 5 % y el reducido del 10 % no lo son.",
+      "trampaExamen": "Los recargos ejecutivo, reducido y ordinario no se acumulan entre sí.",
+      "referencia": "manual.md · apartado 18 · Artículo 28 LGT"
+    },
+    {
+      "id": "LP-T10-009",
+      "enunciado": "La responsabilidad tributaria es, con carácter general:",
+      "opciones": [
+        "Solidaria",
+        "Subsidiaria, salvo que la ley la declare solidaria",
+        "Mancomunada",
+        "Personalísima e intransmisible"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La LGT establece como regla la responsabilidad subsidiaria, salvo que una norma con rango legal declare expresamente la responsabilidad solidaria.",
+      "trampaExamen": "El responsable solidario puede ser exigido sin previa declaración de fallido del deudor principal; el subsidiario normalmente no.",
+      "referencia": "manual.md · apartado 27 · Artículos 41 a 43 LGT"
+    },
+    {
+      "id": "LP-T10-010",
+      "enunciado": "¿Cuál de los siguientes conceptos no forma parte de la deuda tributaria?",
+      "opciones": [
+        "La cuota",
+        "El interés de demora",
+        "El recargo ejecutivo",
+        "La sanción tributaria"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La deuda tributaria incluye cuota, intereses y recargos legalmente exigibles, pero las sanciones quedan expresamente fuera de su composición.",
+      "trampaExamen": "Que la sanción pueda exigirse junto con la deuda no significa que forme parte de ella.",
+      "referencia": "manual.md · apartado 30 · Artículo 58 LGT"
+    },
+    {
+      "id": "LP-T10-011",
+      "enunciado": "El plazo general de prescripción tributaria es de:",
+      "opciones": [
+        "Dos años",
+        "Tres años",
+        "Cuatro años",
+        "Cinco años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La LGT fija en cuatro años el plazo general para determinar la deuda, exigir el pago y ejercer los derechos de devolución en los términos legales.",
+      "trampaExamen": "Una actuación interruptiva reinicia el cómputo del plazo, con las especialidades previstas legalmente.",
+      "referencia": "manual.md · apartado 33 · Artículos 66 a 70 LGT"
+    },
+    {
+      "id": "LP-T10-012",
+      "enunciado": "En una autoliquidación, el obligado tributario:",
+      "opciones": [
+        "Solo comunica hechos y espera siempre una liquidación administrativa",
+        "Comunica datos, los califica jurídicamente y determina la cantidad a ingresar, devolver o compensar",
+        "Solicita exclusivamente una devolución",
+        "Reconoce de forma irrevocable la procedencia de la obligación"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La autoliquidación combina comunicación de datos, calificación jurídica y cuantificación por el propio obligado. No equivale a una mera declaración ni impide su rectificación cuando proceda.",
+      "trampaExamen": "En la declaración el obligado comunica hechos; en la autoliquidación además calcula el resultado.",
+      "referencia": "manual.md · apartado 38 · Artículos 119 a 122 LGT"
+    }
+  ]
 }
