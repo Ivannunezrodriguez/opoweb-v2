@@ -1,6 +1,182 @@
 {
   "tema": 19,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual está aprobado. El banco continúa vacío hasta redactar y revisar preguntas vinculadas a funciones concretas y fuentes oficiales o técnicas identificadas."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "respuestaUnica": true,
+    "trazabilidad": "Cada pregunta referencia el manual auditado del Tema 19.",
+    "controlCalidad": "Preguntas independientes, justificadas y con trampa de examen explícita."
+  },
+  "preguntas": [
+    {
+      "id": "LP-T19-001",
+      "enunciado": "¿Qué afirmación distingue correctamente la memoria RAM del almacenamiento SSD o HDD?",
+      "opciones": [
+        "La RAM conserva los datos sin alimentación y el SSD no",
+        "La RAM es memoria de trabajo volátil y el SSD o HDD conserva datos sin alimentación",
+        "La RAM solo sirve para guardar copias de seguridad",
+        "El SSD ejecuta instrucciones y la RAM conecta periféricos"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La RAM mantiene temporalmente datos e instrucciones mientras el equipo está funcionando; SSD y HDD son medios de almacenamiento no volátil.",
+      "trampaExamen": "La capacidad de la RAM no debe confundirse con el espacio permanente del disco.",
+      "referencia": "manual.md, apartados 2, 5 y 6; bloque-01-ordenador-componentes.md"
+    },
+    {
+      "id": "LP-T19-002",
+      "enunciado": "¿Cuál es la función principal de la CPU?",
+      "opciones": [
+        "Ejecutar instrucciones y procesar datos",
+        "Almacenar permanentemente todos los archivos",
+        "Imprimir documentos pendientes",
+        "Convertir imágenes escaneadas en texto"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La CPU interpreta y ejecuta instrucciones, realiza operaciones y coordina el procesamiento; no sustituye al almacenamiento ni a los periféricos.",
+      "trampaExamen": "La CPU no es la placa base: esta conecta y coordina físicamente los componentes.",
+      "referencia": "manual.md, apartados 2 y 6; bloque-01-ordenador-componentes.md"
+    },
+    {
+      "id": "LP-T19-003",
+      "enunciado": "Respecto de USB-C, ¿qué afirmación es correcta?",
+      "opciones": [
+        "USB-C garantiza siempre velocidad USB4",
+        "USB-C identifica principalmente una forma de conector, no una velocidad concreta",
+        "USB-C solo puede utilizarse para alimentación eléctrica",
+        "USB-C es un sistema de archivos"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "USB-C describe el conector físico reversible. Las prestaciones dependen del protocolo, versión, cable, puerto y modos admitidos.",
+      "trampaExamen": "No deben equipararse forma del conector y versión o velocidad del estándar USB.",
+      "referencia": "manual.md, apartados 1, 5 y 6; bloque-04-almacenamiento-externo-usb.md"
+    },
+    {
+      "id": "LP-T19-004",
+      "enunciado": "¿Qué relación puede existir entre un disco físico y la unidad C:?",
+      "opciones": [
+        "Siempre son exactamente el mismo objeto",
+        "Un disco físico puede contener varias particiones o volúmenes y varias letras de unidad",
+        "La unidad C: siempre es un recurso de red",
+        "Cada partición requiere necesariamente un disco físico distinto"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Un único disco físico puede dividirse en particiones o volúmenes, y Windows puede asignar letras distintas a varias unidades lógicas.",
+      "trampaExamen": "La letra de unidad identifica una unidad lógica, no necesariamente un disco físico completo.",
+      "referencia": "manual.md, apartados 5 y 6; bloque-04-almacenamiento-externo-usb.md"
+    },
+    {
+      "id": "LP-T19-005",
+      "enunciado": "¿Qué diferencia existe entre una impresora y la cola de impresión?",
+      "opciones": [
+        "La cola es el dispositivo físico y la impresora es un archivo",
+        "La impresora produce la salida y la cola administra los trabajos pendientes",
+        "Ambas expresiones designan siempre el mismo controlador",
+        "La cola solo existe en impresoras de inyección"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La impresora es el periférico físico o lógico de salida, mientras que la cola mantiene y gestiona trabajos enviados, pausados o pendientes.",
+      "trampaExamen": "Reenviar un trabajo atascado puede duplicar impresiones; primero debe revisarse la cola.",
+      "referencia": "manual.md, apartados 4, 5 y 6; bloque-02-perifericos-impresoras.md"
+    },
+    {
+      "id": "LP-T19-006",
+      "enunciado": "¿Cuál es una diferencia característica entre una impresora láser y una de inyección de tinta?",
+      "opciones": [
+        "La láser utiliza normalmente tóner y la de inyección utiliza tinta líquida",
+        "La láser solo puede imprimir en blanco y negro",
+        "La de inyección no necesita consumibles",
+        "La de inyección siempre es más rápida en grandes volúmenes"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las impresoras láser emplean habitualmente tóner y proceso electrofotográfico; las de inyección depositan gotas de tinta líquida.",
+      "trampaExamen": "La tecnología no determina por sí sola color, calidad o velocidad en todos los modelos.",
+      "referencia": "manual.md, apartado 5; bloque-02-perifericos-impresoras.md"
+    },
+    {
+      "id": "LP-T19-007",
+      "enunciado": "¿Qué función cumple un alimentador automático de documentos o ADF en un escáner?",
+      "opciones": [
+        "Reconocer automáticamente el texto mediante OCR",
+        "Alimentar sucesivamente varias hojas para digitalizarlas",
+        "Aumentar la capacidad del disco duro",
+        "Convertir cualquier imagen en PDF editable"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El ADF introduce varias hojas de forma sucesiva, facilitando la digitalización de documentos multipágina sin colocarlas una a una.",
+      "trampaExamen": "ADF es alimentación física de hojas; no equivale a OCR ni garantiza texto editable.",
+      "referencia": "manual.md, apartados 4 y 5; bloque-03-escaneres.md"
+    },
+    {
+      "id": "LP-T19-008",
+      "enunciado": "¿Qué diferencia hay entre escanear un documento y aplicar OCR?",
+      "opciones": [
+        "Escanear obtiene una imagen y el OCR intenta reconocer texto dentro de ella",
+        "El OCR obtiene la imagen y el escáner comprime el texto",
+        "Son exactamente la misma operación",
+        "El OCR solo sirve para imprimir"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El escáner captura el original como imagen digital. El OCR analiza esa imagen para identificar caracteres y generar texto utilizable o buscable.",
+      "trampaExamen": "Una digitalización puede ser solo imagen aunque visualmente contenga texto perfectamente legible.",
+      "referencia": "manual.md, apartados 1, 5 y 6; bloque-03-escaneres.md"
+    },
+    {
+      "id": "LP-T19-009",
+      "enunciado": "¿Por qué se recomienda expulsar de forma segura una memoria USB antes de desconectarla?",
+      "opciones": [
+        "Para aumentar su capacidad nominal",
+        "Para finalizar escrituras pendientes y reducir el riesgo de corrupción de datos",
+        "Para convertir automáticamente FAT32 en NTFS",
+        "Para borrar el historial del dispositivo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El sistema puede mantener operaciones o caché de escritura pendientes. La expulsión segura comprueba y cierra esas operaciones antes de retirar el soporte.",
+      "trampaExamen": "Que una copia parezca terminada en pantalla no garantiza que todas las escrituras hayan concluido.",
+      "referencia": "manual.md, apartados 5 y 7; bloque-04-almacenamiento-externo-usb.md"
+    },
+    {
+      "id": "LP-T19-010",
+      "enunciado": "¿Qué sistema de archivos suele ser adecuado para una unidad extraíble que debe admitir archivos de más de 4 GB y utilizarse en distintos sistemas actuales?",
+      "opciones": [
+        "FAT12",
+        "exFAT",
+        "ISO 9660 de solo lectura",
+        "CDA"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "exFAT está orientado a almacenamiento extraíble, admite archivos grandes y ofrece amplia compatibilidad en sistemas actuales, según el entorno.",
+      "trampaExamen": "FAT32 presenta el conocido límite aproximado de 4 GB por archivo, aunque la unidad tenga más capacidad.",
+      "referencia": "manual.md, apartados 5 y 6; bloque-04-almacenamiento-externo-usb.md"
+    },
+    {
+      "id": "LP-T19-011",
+      "enunciado": "¿Cuál de los siguientes soportes ópticos puede borrarse y grabarse de nuevo?",
+      "opciones": [
+        "CD-ROM",
+        "CD-R",
+        "CD-RW",
+        "DVD-ROM"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "CD-RW es un soporte regrabable. CD-ROM y DVD-ROM son de solo lectura, y CD-R permite grabación, pero no borrado y regrabación ordinarios.",
+      "trampaExamen": "La R significa grabable una vez; la combinación RW identifica el soporte regrabable.",
+      "referencia": "manual.md, apartados 5 y 6; bloque-05-opticos.md"
+    },
+    {
+      "id": "LP-T19-012",
+      "enunciado": "¿Qué afirmación describe correctamente una copia de seguridad?",
+      "opciones": [
+        "Mover el único original a una memoria USB",
+        "Mantener una copia adicional verificable y separada del original",
+        "Crear un acceso directo al archivo original",
+        "Renombrar el archivo sin duplicarlo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Una copia de seguridad debe ser una copia adicional recuperable. Si el soporte externo contiene la única copia, no existe redundancia frente a pérdida o avería.",
+      "trampaExamen": "Trasladar el original a un USB no crea respaldo; solo cambia la ubicación de la única copia.",
+      "referencia": "manual.md, apartados 6 y 7; bloque-04-almacenamiento-externo-usb.md"
+    }
+  ]
 }
