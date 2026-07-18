@@ -1,11 +1,13 @@
-.history-summary {
+.history-summary,
+.smart-summary {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: .75rem;
   margin: 1rem 0;
 }
 
-.history-summary > div {
+.history-summary > div,
+.smart-summary > div {
   display: grid;
   gap: .25rem;
   padding: .9rem;
@@ -15,21 +17,26 @@
 }
 
 .history-summary span,
-.history-item span {
+.smart-summary span,
+.history-item span,
+.weak-theme small {
   color: var(--muted);
   font-size: .84rem;
 }
 
-.history-summary strong {
-  font-size: 1.45rem;
+.history-summary strong,
+.smart-summary strong {
+  font-size: 1.35rem;
 }
 
-.history-list {
+.history-list,
+.weak-theme-list {
   display: grid;
   gap: .6rem;
 }
 
-.history-item {
+.history-item,
+.weak-theme {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +46,8 @@
   border-radius: 10px;
 }
 
-.history-item > div {
+.history-item > div,
+.weak-theme > span {
   display: grid;
   gap: .25rem;
   min-width: 0;
@@ -49,12 +57,29 @@
   overflow-wrap: anywhere;
 }
 
-.history-item b {
+.history-item b,
+.weak-theme b {
   white-space: nowrap;
   color: var(--primary);
 }
 
+.weak-theme {
+  width: 100%;
+  color: var(--text);
+  background: var(--surface);
+  text-align: left;
+  cursor: pointer;
+}
+
+.weak-theme:hover,
+.weak-theme:focus-visible {
+  border-color: var(--primary);
+  outline: 3px solid color-mix(in srgb, var(--primary) 24%, transparent);
+}
+
 @media (max-width: 620px) {
-  .history-summary { grid-template-columns: 1fr; }
-  .history-item { align-items: flex-start; }
+  .history-summary,
+  .smart-summary { grid-template-columns: 1fr; }
+  .history-item,
+  .weak-theme { align-items: flex-start; }
 }
