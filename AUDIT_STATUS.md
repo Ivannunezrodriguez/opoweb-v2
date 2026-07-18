@@ -9,9 +9,9 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 
 ## Resultado global
 
-**Auditoría de contenido completada: 19 de 19 temas.**
+**Auditoría y remediación completadas: 19 de 19 temas.**
 
-Queda una remediación obligatoria antes de declarar el temario totalmente limpio: corregir en el manual del **Tema 6** el plazo de los programas temporales de personal funcionario interino, que es de **2 años** y no de **4 años**, y revisar cualquier pregunta asociada.
+El temario base queda declarado `AUDITADO_Y_CORREGIDO` para iniciar la fase de tests, supuestos prácticos y simulacros. La corrección sustantiva pendiente del **Tema 6** ya se ha aplicado materialmente: el nombramiento de personal funcionario interino para programas temporales tiene una duración máxima total de **2 años**, no de **4 años**.
 
 ## Estado por bloques
 
@@ -20,7 +20,7 @@ Queda una remediación obligatoria antes de declarar el temario totalmente limpi
 | Constitución | 1 | `AUDITADO_NORMA_VIGENTE` | Constitución consolidada y reforma del artículo **69.3** publicada el **20 de mayo de 2026** |
 | Procedimiento administrativo | 2–4 | `AUDITADO_NORMA_VIGENTE` | Ley 39/2015: plazos, silencio, caducidad, revisión y recursos |
 | Régimen local | 5 | `AUDITADO_NORMA_VIGENTE` | Órganos, competencias, mayorías, funcionamiento y elecciones locales |
-| Empleo público | 6 | `AUDITADO_CON_CORRECCION_OBLIGATORIA` | Pendiente sustituir **4 años** por **2 años** en interinidad por programa temporal |
+| Empleo público | 6 | `AUDITADO_Y_CORREGIDO_NORMA_VIGENTE` | Corregido el máximo del programa temporal a **2 años** e incorporado bloque `¡Foco Examen!` |
 | Prevención de riesgos laborales | 7 | `AUDITADO_NORMA_VIGENTE` | Derechos, obligaciones, servicios de prevención, Delegados y Comité |
 | Igualdad | 8 | `AUDITADO_NORMA_VIGENTE` | Ley 12/2010 de Castilla-La Mancha y Ley Orgánica 3/2007 |
 | Protección de datos | 9 | `AUDITADO_NORMA_VIGENTE` | LOPDGDD y RGPD: derechos, videovigilancia, DPD, brechas y AEPD |
@@ -44,7 +44,7 @@ Queda una remediación obligatoria antes de declarar el temario totalmente limpi
 | 3 | Revisados los artículos **53–105** de la Ley 39/2015. | `content/la-puebla/tema-03/auditoria-2026-07-18.md` |
 | 4 | Revisados los artículos **106–126** y la competencia local. | `content/la-puebla/tema-04/auditoria-2026-07-18.md` |
 | 5 | Verificados municipio, provincia, organización, competencias y elecciones locales. | `content/la-puebla/tema-05/auditoria-2026-07-18.md` |
-| 6 | Corrección sustantiva pendiente: máximo de **2 años**, no **4**, para programa temporal. | `content/la-puebla/tema-06/auditoria-2026-07-18.md` |
+| 6 | Corregido el programa temporal a un máximo total de **2 años**; actualizados desarrollo, tabla de cifras y bloque de examen. | `content/la-puebla/tema-06/auditoria-2026-07-18.md` |
 | 7 | Confirmados **24 horas**, **15 días**, umbral de **50 trabajadores** y reunión **trimestral**. | `content/la-puebla/tema-07/auditoria-2026-07-18.md` |
 | 8 | Confirmados criterio **40/60**, periodicidad de **tres años** y **33 %** de discapacidad. | `content/la-puebla/tema-08/auditoria-2026-07-18.md` |
 | 9 | Confirmados **14 años**, **1+2 meses**, **1 mes**, **10 días** y **72 horas**. | `content/la-puebla/tema-09/auditoria-2026-07-18.md` |
@@ -70,11 +70,11 @@ Queda una remediación obligatoria antes de declarar el temario totalmente limpi
 | Historial y control de versiones Git | Activo |
 | Catálogo de documentos oficiales | En preparación |
 | Copias oficiales verificables | Pendiente, solo para documentos públicos |
-| Tests y supuestos trazables | Pendiente tras cerrar la corrección del Tema 6 |
+| Tests y supuestos trazables | Listos para iniciar sobre contenido auditado |
 
 ## Orden de trabajo
 
-1. Corregir materialmente el manual del **Tema 6** y revisar sus preguntas asociadas.
-2. Ejecutar una comprobación final de enlaces, navegación y visualización responsive.
-3. Generar tests, supuestos y simulacros con trazabilidad al contenido auditado.
+1. Ejecutar una comprobación final de enlaces, navegación y visualización responsive.
+2. Generar **12 preguntas por tema**, con solución razonada y referencia al apartado correspondiente.
+3. Generar **20 supuestos prácticos**, tres simulacros transversales y sus soluciones agrupadas.
 4. Construir la matriz de equivalencias con Carranque, Las Ventas con Peña Aguilera y futuras convocatorias.
