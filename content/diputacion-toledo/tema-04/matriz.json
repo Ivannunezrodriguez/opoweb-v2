@@ -1,0 +1,27 @@
+{
+  "tema": 4,
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "estado": "EN_REVISION_USUARIO",
+  "generacion": "DESDE_CERO",
+  "epigrafe": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público. La Administración Pública. Los órganos de las Administraciones Públicas. La competencia administrativa. Las relaciones administrativas.",
+  "cobertura": [
+    {"bloque":"Objeto, ámbito y principios de la Ley 40/2015","estado":"CUBIERTO"},
+    {"bloque":"Administración Pública","estado":"CUBIERTO"},
+    {"bloque":"Órganos administrativos","estado":"CUBIERTO"},
+    {"bloque":"Competencia administrativa","estado":"CUBIERTO"},
+    {"bloque":"Delegación, avocación, encomienda, firma, suplencia y desconcentración","estado":"CUBIERTO"},
+    {"bloque":"Órganos colegiados","estado":"CUBIERTO"},
+    {"bloque":"Abstención y recusación","estado":"CUBIERTO"},
+    {"bloque":"Relaciones interadministrativas","estado":"CUBIERTO"}
+  ],
+  "datosTest": [
+    "competencia irrenunciable",
+    "delegación no altera titularidad",
+    "avocación mediante acuerdo motivado",
+    "encomienda limitada a actividades materiales o técnicas",
+    "constitución de órgano colegiado con presidente, secretario y al menos la mitad de miembros",
+    "recusación resoluble en tres días"
+  ],
+  "fuentes": ["BOE-A-2015-10566"],
+  "prohibidoAprobarAutomaticamente": true
+}
