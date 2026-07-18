@@ -195,7 +195,19 @@
     {
       "numero": 14,
       "titulo": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "EN_REVISION_USUARIO",
+      "manual": "content/la-puebla/tema-14/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-14/bloque-01-organos-competencia.md",
+        "content/la-puebla/tema-14/bloque-02-colegiados-abstencion.md",
+        "content/la-puebla/tema-14/bloque-03-age-estructura-ministerios.md",
+        "content/la-puebla/tema-14/bloque-04-age-organos-ministeriales.md",
+        "content/la-puebla/tema-14/bloque-05-age-territorial-exterior.md"
+      ],
+      "matriz": "content/la-puebla/tema-14/matriz.json",
+      "feedback": "content/la-puebla/tema-14/feedback.md",
+      "preguntas": "content/la-puebla/tema-14/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-14/articulos.md"
     },
     {
       "numero": 15,
