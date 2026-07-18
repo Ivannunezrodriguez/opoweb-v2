@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.12.0",
+  "version": "0.13.0",
   "updatedAt": "2026-07-18",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -176,7 +176,21 @@
     {
       "numero": 13,
       "titulo": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-18",
+      "manual": "content/la-puebla/tema-13/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-13/bloque-01-conceptos-usos.md",
+        "content/la-puebla/tema-13/bloque-02-tipos-certificados.md",
+        "content/la-puebla/tema-13/bloque-03-soportes.md",
+        "content/la-puebla/tema-13/bloque-04-prestadores-servicios.md",
+        "content/la-puebla/tema-13/bloque-05-administraciones.md"
+      ],
+      "matriz": "content/la-puebla/tema-13/matriz.json",
+      "feedback": "content/la-puebla/tema-13/feedback.md",
+      "aprobacion": "content/la-puebla/tema-13/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-13/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-13/articulos.md"
     },
     {
       "numero": 14,

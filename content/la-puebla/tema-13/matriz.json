@@ -1,0 +1,133 @@
+{
+  "tema": 13,
+  "estado": "APROBADO_USUARIO",
+  "aprobadoEl": "2026-07-18",
+  "epigrafeOficial": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
+  "fechaRevisionNormativa": "2026-07-18",
+  "manual": "content/la-puebla/tema-13/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-13/bloque-01-conceptos-usos.md",
+    "content/la-puebla/tema-13/bloque-02-tipos-certificados.md",
+    "content/la-puebla/tema-13/bloque-03-soportes.md",
+    "content/la-puebla/tema-13/bloque-04-prestadores-servicios.md",
+    "content/la-puebla/tema-13/bloque-05-administraciones.md"
+  ],
+  "trazabilidad": "content/la-puebla/tema-13/articulos.md",
+  "normas": [
+    {
+      "referencia": "Reglamento (UE) 910/2014",
+      "estado": "Modificado por Reglamento (UE) 2024/1183",
+      "bloques": "Definiciones, prestadores, firmas, sellos, certificados, sellos de tiempo, entrega, autenticación web y nuevos servicios"
+    },
+    {
+      "referencia": "Ley 6/2020",
+      "boe": "BOE-A-2020-14046",
+      "textoConsolidado": "Última actualización publicada el 09/05/2023",
+      "bloques": "Certificados, identidad, vigencia, revocación, prestadores y supervisión"
+    },
+    {
+      "referencia": "Ley 39/2015",
+      "articulos": "9-12, 14 y 16",
+      "bloques": "Identificación, firma y usos en el procedimiento"
+    },
+    {
+      "referencia": "Ley 40/2015",
+      "articulos": "38 y 40-43",
+      "bloques": "Sede, sello, actuación automatizada y firma de personal"
+    },
+    {
+      "referencia": "Real Decreto 203/2021",
+      "articulos": "15-21",
+      "bloques": "Sistemas, verificación y certificados públicos"
+    }
+  ],
+  "cobertura": [
+    {
+      "inciso": "Usos del certificado electrónico en la administración electrónica",
+      "contenidoExigible": [
+        "identificación y firma diferenciadas",
+        "trámites que exigen firma",
+        "representación",
+        "sede electrónica",
+        "registro, copias, documentos y actuación automatizada",
+        "validación y conservación"
+      ]
+    },
+    {
+      "inciso": "Tipos de certificado electrónico",
+      "contenidoExigible": [
+        "firma de persona física",
+        "representante",
+        "empleado público",
+        "sello electrónico",
+        "autenticación de sitio web",
+        "DNI electrónico y certificados de componente",
+        "cualificado y no cualificado"
+      ]
+    },
+    {
+      "inciso": "Soportes del certificado",
+      "contenidoExigible": [
+        "archivo software y almacén",
+        "tarjeta criptográfica y DNIe",
+        "token USB",
+        "móvil y elemento seguro",
+        "firma remota o en la nube",
+        "HSM",
+        "custodia, copia y revocación"
+      ]
+    },
+    {
+      "inciso": "Autoridades certificadoras",
+      "contenidoExigible": [
+        "prestador cualificado y no cualificado",
+        "autoridad raíz y subordinada",
+        "autoridad de registro",
+        "organismo de evaluación",
+        "organismo de supervisión",
+        "lista de confianza"
+      ]
+    },
+    {
+      "inciso": "Servicios que prestan",
+      "contenidoExigible": [
+        "expedición de certificados",
+        "consulta de estado y revocación",
+        "validación",
+        "sellado de tiempo",
+        "entrega electrónica certificada",
+        "conservación",
+        "autenticación web",
+        "gestión remota",
+        "archivo, atributos y libros mayores como ampliación vigente"
+      ]
+    }
+  ],
+  "cifras": [
+    {
+      "materia": "Vigencia máxima de certificado cualificado en España",
+      "valor": "5 años"
+    },
+    {
+      "materia": "Conservación de información del servicio cualificado",
+      "valor": "15 años"
+    },
+    {
+      "materia": "Auditoría ordinaria del prestador cualificado",
+      "valor": "24 meses"
+    },
+    {
+      "materia": "Publicación de revocación cualificada",
+      "valor": "24 horas desde la solicitud"
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "criptografía matemática completa",
+    "formatos y perfiles técnicos completos de XAdES, PAdES y CAdES",
+    "cartera europea de identidad digital completa",
+    "Esquema Nacional de Seguridad",
+    "régimen sancionador íntegro",
+    "prueba procesal y contratación privada completas"
+  ],
+  "criterioDeCierre": "Aprobado expresamente por el usuario mediante la frase Tema 13 aprobado el 18 de julio de 2026."
+}
