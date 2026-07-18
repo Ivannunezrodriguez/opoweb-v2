@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.13.0';
+const CACHE = 'opoweb-v2-0.14.0';
 const ASSETS = [
   './',
   './index.html',
@@ -88,7 +88,18 @@ const ASSETS = [
   './content/la-puebla/tema-13/bloque-02-tipos-certificados.md',
   './content/la-puebla/tema-13/bloque-03-soportes.md',
   './content/la-puebla/tema-13/bloque-04-prestadores-servicios.md',
-  './content/la-puebla/tema-13/bloque-05-administraciones.md'
+  './content/la-puebla/tema-13/bloque-05-administraciones.md',
+  './content/la-puebla/tema-14/manual.md',
+  './content/la-puebla/tema-14/matriz.json',
+  './content/la-puebla/tema-14/aprobacion.md',
+  './content/la-puebla/tema-14/preguntas.json',
+  './content/la-puebla/tema-14/articulos.md',
+  './content/la-puebla/tema-14/feedback.md',
+  './content/la-puebla/tema-14/bloque-01-organos-competencia.md',
+  './content/la-puebla/tema-14/bloque-02-colegiados-abstencion.md',
+  './content/la-puebla/tema-14/bloque-03-age-estructura-ministerios.md',
+  './content/la-puebla/tema-14/bloque-04-age-organos-ministeriales.md',
+  './content/la-puebla/tema-14/bloque-05-age-territorial-exterior.md'
 ];
 
 self.addEventListener('install', event => {

@@ -10,12 +10,12 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.13.0**.
+- Versión: **0.14.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
 - Temas 1–11: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 12–13: `APROBADO_USUARIO` el 18 de julio de 2026.
-- Temas 14–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 12–14: `APROBADO_USUARIO` el 18 de julio de 2026.
+- Temas 15–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -48,7 +48,8 @@ opoweb-v2/
 │     ├─ tema-10/
 │     ├─ tema-11/
 │     ├─ tema-12/
-│     └─ tema-13/
+│     ├─ tema-13/
+│     └─ tema-14/
 │        ├─ manual.md
 │        ├─ cinco capítulos
 │        ├─ matriz.json
@@ -121,7 +122,11 @@ Tributos municipales y ordenanzas fiscales; naturaleza, hecho imponible, no suje
 
 Administración electrónica y certificados: identificación frente a firma; firma simple, avanzada y cualificada; sellos; tipos y soportes de certificado; prestadores, autoridades raíz y de registro; listas de confianza; validación, revocación, sellado de tiempo, entrega, conservación y sistemas propios de las Administraciones públicas. Incluye eIDAS actualizado, Ley 6/2020, Leyes 39/2015 y 40/2015 y Real Decreto 203/2021.
 
-Los bancos de preguntas de los trece temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 14
+
+Ley 40/2015: órganos administrativos, competencia, órganos colegiados, abstención y recusación; estructura central, ministerial, territorial y exterior de la Administración General del Estado. Incluye los artículos 5–24 y 54–80, el artículo 55 bis sobre presencia equilibrada y la delimitación respecto del sector público institucional.
+
+Los bancos de preguntas de los catorce temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -141,4 +146,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente trece temas aprobados, seis pendientes y que los archivos modulares de los temas 11, 12 y 13 permanecen enlazados y disponibles sin conexión.
+La validación confirma que existen exactamente catorce temas aprobados, cinco pendientes y que los archivos modulares de los temas 11, 12, 13 y 14 permanecen enlazados y disponibles sin conexión.
