@@ -1,6 +1,183 @@
 {
   "tema": 13,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "La teoría fue aprobada por el usuario el 18 de julio de 2026. El banco continúa vacío hasta crear y revisar cada pregunta con vinculación a un precepto concreto de eIDAS, Ley 6/2020, Ley 39/2015, Ley 40/2015 o Real Decreto 203/2021."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T13-001",
+      "enunciado": "¿Cuál de las siguientes afirmaciones distingue correctamente certificado electrónico y firma electrónica?",
+      "opciones": [
+        "El certificado es la manifestación de voluntad y la firma solo identifica",
+        "El certificado vincula datos de validación con una identidad; la firma acredita autoría, voluntad e integridad",
+        "Certificado y firma son jurídicamente equivalentes",
+        "La firma solo puede existir si el certificado está en una tarjeta física"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El certificado vincula una clave pública u otros datos de validación con una identidad. La firma se crea con los datos de firma y permite acreditar autoría, voluntad e integridad.",
+      "trampaExamen": "No confundir el medio de acreditación de identidad con el acto electrónico de firmar.",
+      "referencia": "manual.md · apartados 3 y 4.1"
+    },
+    {
+      "id": "LP-T13-002",
+      "enunciado": "Según el artículo 11.2 de la Ley 39/2015, ¿para cuál de estas actuaciones se exige con carácter general firma?",
+      "opciones": [
+        "Consultar el estado de tramitación",
+        "Acceder a una sede electrónica",
+        "Interponer un recurso administrativo",
+        "Recibir información general"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La firma se exige, con carácter general, para solicitudes, declaraciones responsables o comunicaciones, recursos, desistimientos y renuncias.",
+      "trampaExamen": "La identificación basta para muchas actuaciones; no todo acceso electrónico requiere firma.",
+      "referencia": "manual.md · apartado 4.1 · Ley 39/2015, artículo 11.2"
+    },
+    {
+      "id": "LP-T13-003",
+      "enunciado": "¿Qué afirmación sobre firma y sello electrónico es correcta?",
+      "opciones": [
+        "La firma corresponde exclusivamente a personas jurídicas",
+        "El sello corresponde exclusivamente a personas físicas",
+        "La firma se vincula a una persona física y el sello garantiza origen e integridad de documentos de una persona jurídica u órgano",
+        "Firma y sello tienen idéntica función y titularidad"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La firma electrónica se asocia a una persona física. El sello electrónico sirve para garantizar origen e integridad en documentos emitidos por personas jurídicas, Administraciones u órganos.",
+      "trampaExamen": "Una persona jurídica actúa mediante representante o mediante sello, no mediante una supuesta firma personal propia.",
+      "referencia": "manual.md · apartado 4.2"
+    },
+    {
+      "id": "LP-T13-004",
+      "enunciado": "Para que un certificado tenga la condición de cualificado no basta con que:",
+      "opciones": [
+        "Lo expida un prestador cualificado",
+        "Cumpla los requisitos del anexo aplicable de eIDAS",
+        "El servicio figure como cualificado en la lista de confianza",
+        "El proveedor se anuncie comercialmente como autoridad certificadora"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La cualificación exige prestador cualificado, cumplimiento de requisitos técnicos y jurídicos y constancia del servicio en la lista de confianza.",
+      "trampaExamen": "La denominación comercial del proveedor no otorga por sí sola condición cualificada.",
+      "referencia": "manual.md · apartado 4.3"
+    },
+    {
+      "id": "LP-T13-005",
+      "enunciado": "¿Cuál de estas afirmaciones sobre el soporte de un certificado es correcta?",
+      "opciones": [
+        "Todo certificado en tarjeta criptográfica genera firma cualificada",
+        "Todo certificado software genera firma no válida",
+        "El soporte no determina por sí solo que una firma sea cualificada",
+        "Solo el DNI electrónico admite certificados válidos"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La cualificación depende del certificado, del dispositivo cualificado cuando sea exigible y del cumplimiento de los requisitos legales, no solo del soporte físico o software.",
+      "trampaExamen": "Tarjeta, token o nube describen el soporte, no la categoría jurídica automática de la firma.",
+      "referencia": "manual.md · apartado 4.4"
+    },
+    {
+      "id": "LP-T13-006",
+      "enunciado": "En una infraestructura de clave pública, ¿qué función corresponde principalmente a una autoridad u oficina de registro?",
+      "opciones": [
+        "Emitir y firmar necesariamente todos los certificados raíz",
+        "Comprobar identidad y atributos y tramitar la solicitud",
+        "Sustituir al titular en el uso de la clave privada",
+        "Determinar judicialmente la validez de una firma"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La autoridad de registro verifica la identidad y los atributos del solicitante y tramita la petición. La autoridad de certificación emite y firma el certificado.",
+      "trampaExamen": "Registro y certificación pueden pertenecer a la misma organización, pero sus funciones no son idénticas.",
+      "referencia": "manual.md · apartado 6"
+    },
+    {
+      "id": "LP-T13-007",
+      "enunciado": "La vigencia máxima de un certificado cualificado conforme a la Ley 6/2020 es de:",
+      "opciones": [
+        "Dos años",
+        "Tres años",
+        "Cinco años",
+        "Diez años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Ley 6/2020 establece una vigencia máxima de cinco años para los certificados cualificados.",
+      "trampaExamen": "No confundir la vigencia del certificado con los plazos de conservación de información por el prestador.",
+      "referencia": "manual.md · apartados 7 y 11"
+    },
+    {
+      "id": "LP-T13-008",
+      "enunciado": "¿Qué efecto tiene la revocación de un certificado?",
+      "opciones": [
+        "Suspende temporalmente su uso y permite reactivarlo siempre",
+        "Extingue su vigencia y evita su uso para nuevas firmas",
+        "Prorroga automáticamente su vigencia",
+        "Solo cambia el soporte físico"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La revocación extingue la vigencia del certificado. La suspensión, en cambio, es temporal.",
+      "trampaExamen": "Suspensión y revocación no son sinónimos: una es temporal y la otra extingue la vigencia.",
+      "referencia": "manual.md · apartado 7"
+    },
+    {
+      "id": "LP-T13-009",
+      "enunciado": "Para validar correctamente una firma electrónica no basta con:",
+      "opciones": [
+        "Comprobar integridad y correspondencia con los datos firmados",
+        "Verificar la cadena de confianza y el estado de revocación",
+        "Comprobar que visualmente aparece una imagen de firma",
+        "Examinar la vigencia del certificado en el momento relevante"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La validación exige controles técnicos y jurídicos sobre integridad, certificado, vigencia, revocación, cadena de confianza y política de uso. Una imagen visible no acredita validez.",
+      "trampaExamen": "Una firma puede verse en el PDF y ser inválida, o ser válida sin mostrar una rúbrica gráfica.",
+      "referencia": "manual.md · apartado 8"
+    },
+    {
+      "id": "LP-T13-010",
+      "enunciado": "¿Qué describe correctamente la lista de confianza o TSL?",
+      "opciones": [
+        "Un catálogo general de cualquier empresa tecnológica",
+        "Una relación de prestadores y servicios concretos con condición cualificada",
+        "Un registro de todos los certificados personales expedidos",
+        "Una lista de empleados públicos autorizados para firmar"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La TSL identifica prestadores cualificados y, sobre todo, los servicios concretos que tienen reconocida la condición cualificada.",
+      "trampaExamen": "Un mismo prestador puede ofrecer servicios cualificados y no cualificados simultáneamente.",
+      "referencia": "manual.md · apartado 9"
+    },
+    {
+      "id": "LP-T13-011",
+      "enunciado": "¿Cuál de los siguientes es un servicio electrónico de confianza reconocido en el marco eIDAS?",
+      "opciones": [
+        "Emisión de sellos de tiempo electrónicos",
+        "Concesión de licencias urbanísticas",
+        "Aprobación de ordenanzas fiscales",
+        "Gestión del padrón municipal"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los sellos de tiempo, certificados, validación, entrega electrónica certificada, conservación y otros servicios enumerados por eIDAS son servicios electrónicos de confianza.",
+      "trampaExamen": "No confundir un servicio administrativo electrónico con un servicio electrónico de confianza en sentido jurídico.",
+      "referencia": "manual.md · apartado 10"
+    },
+    {
+      "id": "LP-T13-012",
+      "enunciado": "¿Con qué frecuencia mínima ordinaria debe auditarse un prestador cualificado de servicios electrónicos de confianza?",
+      "opciones": [
+        "Cada 12 meses",
+        "Cada 18 meses",
+        "Al menos cada 24 meses",
+        "Cada 5 años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La auditoría ordinaria del prestador cualificado debe realizarse al menos cada veinticuatro meses.",
+      "trampaExamen": "No confundir el plazo de auditoría de 24 meses con la vigencia máxima de 5 años del certificado.",
+      "referencia": "manual.md · apartado 11"
+    }
+  ]
 }
