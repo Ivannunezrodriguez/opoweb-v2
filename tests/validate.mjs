@@ -31,7 +31,10 @@ for (const t of approved) {
   assert.ok(exists(t.matriz), `Falta matriz del tema ${t.numero}`);
   assert.ok(exists(t.preguntas), `Falta banco de preguntas del tema ${t.numero}`);
   assert.equal(json(t.matriz).estado, 'APROBADO_USUARIO');
-  assert.deepEqual(json(t.preguntas).preguntas, []);
+
+  const questionBank = json(t.preguntas);
+  assert.ok(Array.isArray(questionBank.preguntas), `Banco inválido del tema ${t.numero}`);
+  if (t.numero !== 1) assert.deepEqual(questionBank.preguntas, []);
 
   const manual = read(t.manual);
   assert.ok(manual.includes('Tema cerrado: **SÍ**'), `Tema ${t.numero} no figura cerrado`);
@@ -46,6 +49,22 @@ for (const t of approved) {
 
   const audit = `${baseDir}/auditoria-2026-07-18.md`;
   assert.ok(exists(audit), `Falta informe de auditoría del tema ${t.numero}`);
+}
+
+const questions1 = json('content/la-puebla/tema-01/preguntas.json');
+assert.equal(questions1.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
+assert.equal(questions1.preguntas.length, 12);
+assert.deepEqual(questions1.preguntas.map(q => q.id), [
+  'LP-T01-001','LP-T01-002','LP-T01-003','LP-T01-004','LP-T01-005','LP-T01-006',
+  'LP-T01-007','LP-T01-008','LP-T01-009','LP-T01-010','LP-T01-011','LP-T01-012'
+]);
+for (const q of questions1.preguntas) {
+  assert.equal(q.opciones.length, 4, `${q.id} no tiene cuatro opciones`);
+  assert.ok(Number.isInteger(q.respuestaCorrecta), `${q.id} carece de respuesta correcta`);
+  assert.ok(q.respuestaCorrecta >= 0 && q.respuestaCorrecta < 4, `${q.id} tiene índice incorrecto`);
+  assert.ok(q.justificacion.length > 30, `${q.id} tiene justificación insuficiente`);
+  assert.ok(q.trampaExamen.length > 20, `${q.id} carece de trampa de examen`);
+  assert.ok(q.referencia.includes('manual.md') || q.referencia.includes('matriz.json'), `${q.id} carece de trazabilidad`);
 }
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
@@ -101,6 +120,7 @@ console.log(JSON.stringify({
   pending: pending.length,
   auditedReports: approved.length,
   internalLinks: 'VALIDATED',
+  tema1Questions: questions1.preguntas.length,
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_AUDITADA_CORREGIDA_Y_VALIDADA'
+  status: 'CONVOCATORIA_LA_PUEBLA_TEMA_1_TEST_GENERADO'
 }, null, 2));
