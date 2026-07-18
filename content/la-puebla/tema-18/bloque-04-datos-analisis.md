@@ -1,6 +1,6 @@
 # Tema 18 · Bloque 4 · Ordenación, filtros, análisis, subtotales y tablas dinámicas
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Estructura de una lista de datos
 

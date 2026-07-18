@@ -1,6 +1,6 @@
 # Tema 18 · Fuentes oficiales y trazabilidad
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Criterio
 

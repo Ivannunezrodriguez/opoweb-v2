@@ -9,16 +9,16 @@ const packageJson = json('package.json');
 const serviceWorker = read('sw.js');
 const index = read('index.html');
 
-assert.equal(programme.version, '0.17.0');
-assert.equal(packageJson.version, '0.17.0');
-assert.ok(index.includes('v0.17.0'));
+assert.equal(programme.version, '0.18.0');
+assert.equal(packageJson.version, '0.18.0');
+assert.ok(index.includes('v0.18.0'));
 assert.equal(programme.temas.length, 19);
 
 const approved = programme.temas.filter(t => t.estado === 'APROBADO_USUARIO');
 const review = programme.temas.filter(t => t.estado === 'EN_REVISION_USUARIO');
 const pending = programme.temas.filter(t => t.estado === 'PENDIENTE_RECONSTRUCCION');
-assert.deepEqual(approved.map(t => t.numero), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]);
-assert.deepEqual(review.map(t => t.numero), [18]);
+assert.deepEqual(approved.map(t => t.numero), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]);
+assert.equal(review.length, 0);
 assert.deepEqual(pending.map(t => t.numero), [19]);
 assert.ok(!programme.temas[18].manual);
 
@@ -30,43 +30,34 @@ for (const t of approved) {
   assert.deepEqual(json(t.preguntas).preguntas, []);
 }
 
-const t17 = programme.temas[16];
-const base17 = 'content/la-puebla/tema-17';
-const matrix17 = json(`${base17}/matriz.json`);
-const questions17 = json(`${base17}/preguntas.json`);
-assert.equal(t17.capitulos.length, 5);
-assert.equal(t17.aprobadoEl, '2026-07-18');
-assert.equal(t17.aprobacion, `${base17}/aprobacion.md`);
-assert.equal(matrix17.estado, 'APROBADO_USUARIO');
-assert.equal(matrix17.aprobadoEl, '2026-07-18');
-assert.equal(questions17.estado, 'PENDIENTE_REVISION_POST_APROBACION');
-assert.deepEqual(questions17.preguntas, []);
-assert.ok(read(`${base17}/manual.md`).includes('Tema cerrado: **SÍ**'));
-assert.ok(read(`${base17}/aprobacion.md`).includes('Tema 17 aprobado'));
-
 const t18 = programme.temas[17];
 const base18 = 'content/la-puebla/tema-18';
 const matrix18 = json(`${base18}/matriz.json`);
 const questions18 = json(`${base18}/preguntas.json`);
 assert.equal(t18.capitulos.length, 5);
-assert.equal(matrix18.estado, 'EN_REVISION_USUARIO');
+assert.equal(t18.aprobadoEl, '2026-07-18');
+assert.equal(t18.aprobacion, `${base18}/aprobacion.md`);
+assert.equal(matrix18.estado, 'APROBADO_USUARIO');
+assert.equal(matrix18.aprobadoEl, '2026-07-18');
 assert.equal(matrix18.cobertura.length, 5);
 assert.equal(matrix18.atajosComparados.length, 12);
 assert.equal(matrix18.diferenciasClave.length, 5);
-assert.equal(questions18.estado, 'NO_CREADAS_HASTA_APROBACION_TEORICA');
+assert.equal(questions18.estado, 'PENDIENTE_REVISION_POST_APROBACION');
 assert.deepEqual(questions18.preguntas, []);
-assert.ok(read(`${base18}/manual.md`).includes('Tema cerrado: **NO**'));
-assert.ok(read(`${base18}/feedback.md`).includes('Tema 18 aprobado'));
+assert.ok(read(`${base18}/manual.md`).includes('Tema cerrado: **SÍ**'));
+assert.ok(read(`${base18}/aprobacion.md`).includes('Tema 18 aprobado'));
+assert.ok(read(`${base18}/feedback.md`).includes('APROBADO_USUARIO'));
+assert.ok(read(`${base18}/fuentes.md`).includes('APROBADO POR EL USUARIO'));
 
 const files18 = [
-  'manual.md','matriz.json','feedback.md','preguntas.json','fuentes.md',
+  'manual.md','matriz.json','aprobacion.md','feedback.md','preguntas.json','fuentes.md',
   'bloque-01-entorno-datos-formatos.md','bloque-02-formulas-funciones.md',
   'bloque-03-formato-validacion.md','bloque-04-datos-analisis.md',
   'bloque-05-graficos-salida.md'
 ];
 for (const file of files18) {
   assert.ok(exists(`${base18}/${file}`), `Falta ${file}`);
-  assert.ok(!serviceWorker.includes(`./${base18}/${file}`), `Tema 18 no debe estar precargado antes de aprobarse: ${file}`);
+  assert.ok(serviceWorker.includes(`./${base18}/${file}`), `No precargado ${file}`);
 }
 
 const joined18 = files18.filter(f => f.endsWith('.md')).map(f => read(`${base18}/${f}`)).join('\n').toLowerCase();
@@ -86,9 +77,9 @@ for (const source of [
   assert.ok(read(`${base18}/fuentes.md`).includes(source), `Falta fuente ${source}`);
 }
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.17.0'"));
-assert.equal(exists('.github/workflows/apply-t18-review.yml'), false);
-assert.equal(exists('scripts/apply_t18_review.py'), false);
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.18.0'"));
+assert.equal(exists('.github/workflows/apply-t18-approval.yml'), false);
+assert.equal(exists('scripts/publish_t18.py'), false);
 
 console.log(JSON.stringify({
   version: programme.version,
@@ -96,5 +87,5 @@ console.log(JSON.stringify({
   review: review.length,
   pending: pending.length,
   theme18Questions: questions18.preguntas.length,
-  status: 'TEMA_18_EN_REVISION_VALIDADO'
+  status: 'TEMA_18_APROBADO_VALIDADO'
 }, null, 2));

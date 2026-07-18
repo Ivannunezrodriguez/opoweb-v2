@@ -1,6 +1,6 @@
 # Tema 18 · Bloque 3 · Formato, estilos, tablas, validación y organización visual
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Formato de celdas
 

@@ -1,6 +1,6 @@
 # Tema 18 · Bloque 5 · Gráficos, impresión, PDF, revisión, protección y accesibilidad
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Gráficos
 

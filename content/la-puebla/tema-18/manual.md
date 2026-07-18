@@ -1,7 +1,7 @@
 # La Puebla de Montalbán · Tema 18 · Manual modular
 
-**Estado:** EN REVISIÓN DEL USUARIO  
-**No publicado como tema aprobado.**  
+**Estado:** APROBADO POR EL USUARIO  
+**Publicado como tema aprobado.**  
 **Fecha de revisión técnica:** 18 de julio de 2026.
 
 > **Tema 18. LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.**
@@ -105,8 +105,8 @@ Los nombres de funciones, separadores de argumentos y atajos pueden variar con e
 - Fuentes oficiales de Microsoft y LibreOffice: trazadas.
 - Comparación Excel/Calc: integrada.
 - Banco de preguntas: vacío.
-- Revisión del usuario: pendiente.
-- Tema cerrado: **NO**.
-- Publicación como aprobado: **NO**.
+- Revisión del usuario: completada el 18 de julio de 2026.
+- Tema cerrado: **SÍ**.
+- Publicación como aprobado: **SÍ**.
 
-El tema solo cambiará a `APROBADO_USUARIO` tras la respuesta expresa **«Tema 18 aprobado»**.
+El usuario aprobó expresamente el tema mediante la frase **«Tema 18 aprobado»** el 18 de julio de 2026.

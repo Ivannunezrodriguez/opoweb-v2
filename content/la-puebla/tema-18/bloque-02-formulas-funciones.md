@@ -1,6 +1,6 @@
 # Tema 18 · Bloque 2 · Fórmulas, operadores, referencias, funciones y errores
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Fórmulas
 

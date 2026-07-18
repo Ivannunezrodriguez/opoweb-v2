@@ -1,6 +1,6 @@
 # Tema 18 · Bloque 1 · Entorno, libros, hojas, celdas, datos y formatos
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Entorno de trabajo
 

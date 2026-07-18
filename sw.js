@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.17.0';
+const CACHE = 'opoweb-v2-0.18.0';
 const ASSETS = [
   './',
   './index.html',
@@ -132,7 +132,18 @@ const ASSETS = [
   './content/la-puebla/tema-17/bloque-02-edicion-busqueda.md',
   './content/la-puebla/tema-17/bloque-03-formato-estilos.md',
   './content/la-puebla/tema-17/bloque-04-paginas-objetos.md',
-  './content/la-puebla/tema-17/bloque-05-revision-salida.md'
+  './content/la-puebla/tema-17/bloque-05-revision-salida.md',
+  './content/la-puebla/tema-18/manual.md',
+  './content/la-puebla/tema-18/matriz.json',
+  './content/la-puebla/tema-18/aprobacion.md',
+  './content/la-puebla/tema-18/preguntas.json',
+  './content/la-puebla/tema-18/fuentes.md',
+  './content/la-puebla/tema-18/feedback.md',
+  './content/la-puebla/tema-18/bloque-01-entorno-datos-formatos.md',
+  './content/la-puebla/tema-18/bloque-02-formulas-funciones.md',
+  './content/la-puebla/tema-18/bloque-03-formato-validacion.md',
+  './content/la-puebla/tema-18/bloque-04-datos-analisis.md',
+  './content/la-puebla/tema-18/bloque-05-graficos-salida.md'
 ];
 
 self.addEventListener('install', event => {
