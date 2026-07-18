@@ -252,7 +252,19 @@
     {
       "numero": 17,
       "titulo": "LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "EN_REVISION_USUARIO",
+      "manual": "content/la-puebla/tema-17/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-17/bloque-01-entorno-formatos.md",
+        "content/la-puebla/tema-17/bloque-02-edicion-busqueda.md",
+        "content/la-puebla/tema-17/bloque-03-formato-estilos.md",
+        "content/la-puebla/tema-17/bloque-04-paginas-objetos.md",
+        "content/la-puebla/tema-17/bloque-05-revision-salida.md"
+      ],
+      "matriz": "content/la-puebla/tema-17/matriz.json",
+      "feedback": "content/la-puebla/tema-17/feedback.md",
+      "preguntas": "content/la-puebla/tema-17/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-17/fuentes.md"
     },
     {
       "numero": 18,
