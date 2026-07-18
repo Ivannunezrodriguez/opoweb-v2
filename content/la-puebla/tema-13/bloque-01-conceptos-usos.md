@@ -1,6 +1,6 @@
 # Tema 13 · Bloque 1 · Conceptos y usos administrativos
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Certificado, firma e identificación
 
