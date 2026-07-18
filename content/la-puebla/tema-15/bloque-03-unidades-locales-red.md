@@ -1,6 +1,6 @@
 # Tema 15 · Bloque 3 · Unidades locales y de red
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Conceptos previos
 

@@ -1,6 +1,6 @@
 # Tema 15 · Bloque 2 · Creación, copiado, movimiento, renombrado y borrado
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Crear carpetas
 
