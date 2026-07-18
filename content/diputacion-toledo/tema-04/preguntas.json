@@ -1,0 +1,114 @@
+{
+  "tema": 4,
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "preguntas": [
+    {
+      "id": "DIP-T04-001",
+      "pregunta": "¿Cuál de las siguientes materias regula principalmente la Ley 40/2015?",
+      "opciones": ["El procedimiento administrativo común", "El régimen jurídico del sector público", "La jurisdicción contencioso-administrativa", "La contratación pública"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley 40/2015 regula las bases del régimen jurídico de las Administraciones Públicas, la organización del sector público y las relaciones interadministrativas.",
+      "trampaExamen": "No confundirla con la Ley 39/2015, centrada en el procedimiento administrativo común.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#1-objeto-y-ámbito-de-la-ley-402015"
+    },
+    {
+      "id": "DIP-T04-002",
+      "pregunta": "La competencia administrativa es, como regla general:",
+      "opciones": ["Renunciable", "Delegable en su titularidad", "Irrenunciable", "Disponible por acuerdo entre órganos"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La competencia es irrenunciable y debe ejercerse por el órgano que la tenga atribuida, salvo los supuestos legales de delegación o avocación.",
+      "trampaExamen": "Que pueda desplazarse su ejercicio no significa que la competencia deje de ser irrenunciable.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#51-regla-general"
+    },
+    {
+      "id": "DIP-T04-003",
+      "pregunta": "¿Cuál de estas técnicas puede alterar la titularidad y el ejercicio de la competencia?",
+      "opciones": ["Delegación de firma", "Suplencia", "Desconcentración", "Encomienda de gestión"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La desconcentración puede trasladar titularidad y ejercicio a órganos jerárquicamente dependientes conforme a la norma de atribución.",
+      "trampaExamen": "Delegación, encomienda, firma y suplencia no alteran la titularidad.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#52-desconcentración"
+    },
+    {
+      "id": "DIP-T04-004",
+      "pregunta": "¿Cuál de las siguientes materias no puede ser objeto de delegación?",
+      "opciones": ["La adopción de disposiciones de carácter general", "La firma de actos de trámite", "La instrucción de expedientes", "La gestión material de archivos"],
+      "respuestaCorrecta": 0,
+      "justificacion": "La Ley 40/2015 excluye de la delegación, entre otras materias, la adopción de disposiciones de carácter general.",
+      "trampaExamen": "La prohibición afecta a dictar disposiciones generales, no a cualquier actuación administrativa de carácter general.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#53-delegación-de-competencias"
+    },
+    {
+      "id": "DIP-T04-005",
+      "pregunta": "La avocación debe formalizarse mediante:",
+      "opciones": ["Orden verbal", "Acuerdo motivado", "Convenio", "Encomienda de gestión"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La avocación requiere acuerdo motivado y notificación a los interesados antes o simultáneamente a la resolución final.",
+      "trampaExamen": "No cabe recurso autónomo contra la avocación, pero puede cuestionarse al impugnar la resolución final.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#54-avocación"
+    },
+    {
+      "id": "DIP-T04-006",
+      "pregunta": "La encomienda de gestión puede tener por objeto:",
+      "opciones": ["La titularidad de una competencia", "La aprobación de reglamentos", "Actividades materiales o técnicas", "La resolución de recursos administrativos"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La encomienda se limita a actividades materiales o técnicas por razones de eficacia o falta de medios idóneos.",
+      "trampaExamen": "No cede la titularidad ni los elementos sustantivos del ejercicio de la competencia.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#55-encomienda-de-gestión"
+    },
+    {
+      "id": "DIP-T04-007",
+      "pregunta": "La delegación de firma:",
+      "opciones": ["Altera la competencia", "Altera la titularidad", "No altera la competencia", "Solo cabe entre Administraciones distintas"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La delegación de firma permite que otro titular firme actos o resoluciones sin alterar la competencia del órgano delegante.",
+      "trampaExamen": "Delegar la firma no equivale a delegar la competencia.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#56-delegación-de-firma"
+    },
+    {
+      "id": "DIP-T04-008",
+      "pregunta": "¿Cuál es un supuesto típico de suplencia?",
+      "opciones": ["Vacante, ausencia o enfermedad", "Discrepancia jurídica", "Delegación normativa", "Cambio de personalidad jurídica"],
+      "respuestaCorrecta": 0,
+      "justificacion": "La suplencia opera temporalmente en casos de vacante, ausencia, enfermedad, abstención o recusación.",
+      "trampaExamen": "La suplencia sustituye temporalmente al titular, pero no modifica la competencia.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#57-suplencia"
+    },
+    {
+      "id": "DIP-T04-009",
+      "pregunta": "Para la válida constitución ordinaria de un órgano colegiado se requiere:",
+      "opciones": ["Solo la mitad de sus miembros", "Presidente, secretario y al menos la mitad de sus miembros", "Todos sus miembros", "Dos tercios de sus miembros"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La constitución válida exige la presencia del presidente y secretario, o quienes les suplan, y al menos la mitad de los miembros.",
+      "trampaExamen": "La mitad de miembros no basta sin presidente y secretario o sus suplentes.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#62-convocatoria-y-constitución"
+    },
+    {
+      "id": "DIP-T04-010",
+      "pregunta": "¿En qué plazo resuelve el superior la recusación?",
+      "opciones": ["Dos días", "Tres días", "Cinco días", "Diez días"],
+      "respuestaCorrecta": 1,
+      "justificacion": "El superior resolverá la recusación en el plazo de tres días, previos los informes y comprobaciones oportunos.",
+      "trampaExamen": "El plazo test es de **tres días**, no de cinco ni diez.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#7-abstención-y-recusación"
+    },
+    {
+      "id": "DIP-T04-011",
+      "pregunta": "La cooperación interadministrativa se caracteriza principalmente por ser:",
+      "opciones": ["Voluntaria y acordada", "Jerárquica", "Sancionadora", "Una transferencia de titularidad"],
+      "respuestaCorrecta": 0,
+      "justificacion": "La cooperación implica una actuación voluntaria y acordada entre Administraciones para alcanzar objetivos comunes.",
+      "trampaExamen": "No confundir cooperación con coordinación, que puede responder a una competencia específica de integración.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#82-colaboración-cooperación-y-coordinación"
+    },
+    {
+      "id": "DIP-T04-012",
+      "pregunta": "¿Cuál de los siguientes es un órgano de cooperación?",
+      "opciones": ["La conferencia sectorial", "La mesa de contratación", "El tribunal calificador", "La junta de personal"],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las conferencias sectoriales son órganos de cooperación multilateral entre Administraciones Públicas.",
+      "trampaExamen": "No todo órgano colegiado es un órgano de cooperación interadministrativa.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#85-órganos-de-cooperación"
+    }
+  ]
+}
