@@ -1,6 +1,183 @@
 {
   "tema": 4,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual ha sido aprobado por el usuario. Las preguntas no se crean para aumentar métricas: se incorporarán en una revisión independiente y cada una deberá vincularse a un artículo concreto de la Ley 39/2015 o, cuando proceda, de la Ley 7/1985."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T04-001",
+      "enunciado": "La revisión de oficio de un acto administrativo nulo de pleno derecho puede iniciarse:",
+      "opciones": [
+        "Solo de oficio y dentro de cuatro años",
+        "De oficio o a solicitud del interesado, en cualquier momento",
+        "Solo a solicitud del interesado y dentro de un mes",
+        "Únicamente por orden judicial"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 106 permite revisar actos nulos en cualquier momento, por iniciativa propia o a solicitud del interesado, siempre que concurra una causa de nulidad y exista dictamen favorable del órgano consultivo.",
+      "trampaExamen": "La revisión de actos nulos no está sometida al plazo de cuatro años propio de la declaración de lesividad.",
+      "referencia": "manual.md · apartado 7.1 · Artículo 106"
+    },
+    {
+      "id": "LP-T04-002",
+      "enunciado": "En un procedimiento de revisión de oficio iniciado de oficio, el transcurso de seis meses sin resolución produce:",
+      "opciones": [
+        "Estimación por silencio",
+        "Desestimación por silencio",
+        "Caducidad",
+        "Suspensión automática"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Cuando la revisión de oficio se inicia de oficio, el plazo máximo es de seis meses y su incumplimiento produce caducidad. Si se inició a solicitud, el silencio es desestimatorio.",
+      "trampaExamen": "El efecto depende de quién inicia el procedimiento, aunque el plazo sea el mismo.",
+      "referencia": "manual.md · apartado 7.5 · Artículo 106"
+    },
+    {
+      "id": "LP-T04-003",
+      "enunciado": "Para impugnar judicialmente un acto favorable anulable, la Administración debe previamente:",
+      "opciones": [
+        "Revocarlo directamente",
+        "Rectificarlo como error material",
+        "Declararlo lesivo para el interés público",
+        "Interponer recurso de alzada"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los actos favorables anulables no pueden eliminarse mediante revocación ordinaria. La Administración debe declarar su lesividad y acudir después a la jurisdicción contencioso-administrativa.",
+      "trampaExamen": "La lesividad se refiere a actos favorables anulables, no a actos nulos de pleno derecho.",
+      "referencia": "manual.md · apartado 8 · Artículo 107"
+    },
+    {
+      "id": "LP-T04-004",
+      "enunciado": "¿Cuál es el plazo máximo para declarar lesivo un acto anulable favorable?",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Cuatro años",
+        "Cinco años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La declaración de lesividad no puede adoptarse una vez transcurridos cuatro años desde que se dictó el acto.",
+      "trampaExamen": "No confundir los cuatro años para declarar lesividad con los seis meses para tramitar el procedimiento una vez iniciado.",
+      "referencia": "manual.md · apartado 8.1 · Artículo 107"
+    },
+    {
+      "id": "LP-T04-005",
+      "enunciado": "En las entidades locales, la competencia para declarar lesivo un acto corresponde, con carácter general, a:",
+      "opciones": [
+        "La Alcaldía",
+        "La Junta de Gobierno Local",
+        "El Pleno de la Corporación",
+        "La Secretaría municipal"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 107.5 atribuye en las entidades locales la declaración de lesividad al Pleno de la Corporación o, si no existiera, al órgano colegiado superior.",
+      "trampaExamen": "La competencia no se desplaza automáticamente a la Alcaldía por ser el órgano ejecutivo municipal.",
+      "referencia": "manual.md · apartado 8.5 · Artículo 107"
+    },
+    {
+      "id": "LP-T04-006",
+      "enunciado": "La rectificación del artículo 109.2 permite corregir:",
+      "opciones": [
+        "Errores materiales, de hecho o aritméticos",
+        "Cualquier error jurídico de interpretación",
+        "Actos favorables anulables sin declaración de lesividad",
+        "Disposiciones generales contrarias a la ley"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La Administración puede rectificar en cualquier momento errores materiales, de hecho o aritméticos, pero no utilizar esta vía para revisar el fondo jurídico de una decisión.",
+      "trampaExamen": "Una interpretación incorrecta de una norma es un error jurídico, no un error material corregible por simple rectificación.",
+      "referencia": "manual.md · apartado 10.2 · Artículo 109"
+    },
+    {
+      "id": "LP-T04-007",
+      "enunciado": "¿Cuál de los siguientes actos de trámite es recurrible separadamente?",
+      "opciones": [
+        "El que no produce ningún efecto jurídico",
+        "El que causa indefensión",
+        "Cualquier informe facultativo",
+        "Toda diligencia interna"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Son recurribles los actos de trámite cualificados, entre ellos los que causan indefensión, deciden directa o indirectamente el fondo, impiden continuar o causan perjuicio irreparable.",
+      "trampaExamen": "Los actos de trámite ordinarios no se recurren por separado; su oposición se plantea al recurrir la resolución final.",
+      "referencia": "manual.md · apartado 13.1 · Artículo 112"
+    },
+    {
+      "id": "LP-T04-008",
+      "enunciado": "La interposición de un recurso administrativo:",
+      "opciones": [
+        "Suspende siempre la ejecución del acto",
+        "No suspende por regla general la ejecución del acto",
+        "Anula provisionalmente el acto",
+        "Impide toda medida cautelar"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La regla del artículo 117 es que la interposición no suspende la ejecución, salvo previsión legal o acuerdo expreso de suspensión tras ponderar los intereses afectados.",
+      "trampaExamen": "Recurrir y solicitar suspensión son actuaciones distintas.",
+      "referencia": "manual.md · apartado 18 · Artículo 117"
+    },
+    {
+      "id": "LP-T04-009",
+      "enunciado": "La ejecución se entiende suspendida automáticamente si la solicitud de suspensión no se resuelve y notifica en el plazo de:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Un mes",
+        "Tres meses"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Si transcurre un mes desde la entrada de la solicitud de suspensión en el registro competente sin resolución expresa y notificada, la ejecución se entiende suspendida.",
+      "trampaExamen": "La suspensión automática exige una solicitud específica; no nace por la mera presentación del recurso.",
+      "referencia": "manual.md · apartado 18 · Artículo 117"
+    },
+    {
+      "id": "LP-T04-010",
+      "enunciado": "El recurso de alzada procede contra actos que:",
+      "opciones": [
+        "Ponen fin a la vía administrativa",
+        "No ponen fin a la vía administrativa",
+        "Son firmes en vía administrativa",
+        "Son disposiciones generales"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La alzada se interpone contra resoluciones y actos de trámite cualificados que no ponen fin a la vía administrativa, y la resuelve el superior jerárquico.",
+      "trampaExamen": "Los actos que ponen fin a la vía se impugnan mediante reposición potestativa o directamente en vía contenciosa.",
+      "referencia": "manual.md · apartado 22 · Artículo 121"
+    },
+    {
+      "id": "LP-T04-011",
+      "enunciado": "¿Cuál es el plazo máximo para resolver y notificar un recurso de alzada?",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El recurso de alzada debe resolverse y notificarse en un plazo máximo de tres meses. Como regla, el silencio es desestimatorio, con la excepción legal del doble silencio.",
+      "trampaExamen": "El plazo de resolución de la reposición es un mes; el de alzada es tres meses.",
+      "referencia": "manual.md · apartado 23 · Artículo 122"
+    },
+    {
+      "id": "LP-T04-012",
+      "enunciado": "En el recurso extraordinario de revisión, la causa basada en error de hecho resultante de los documentos del expediente puede invocarse dentro de:",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Un año",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La causa de error de hecho dispone de cuatro años desde la notificación de la resolución. Las restantes causas tasadas tienen, con carácter general, un plazo de tres meses desde el conocimiento o firmeza correspondiente.",
+      "trampaExamen": "El error de hecho tiene un plazo distinto y más amplio que las otras causas del extraordinario de revisión.",
+      "referencia": "manual.md · apartado 26 · Artículo 125"
+    }
+  ]
 }
