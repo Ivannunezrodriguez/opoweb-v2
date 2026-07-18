@@ -1,6 +1,183 @@
 {
   "tema": 12,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "La teoría fue aprobada por el usuario el 18 de julio de 2026. El banco continúa vacío hasta crear y revisar cada pregunta con vinculación a un artículo concreto del TRLRHL."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T12-001",
+      "enunciado": "¿Cuál de los siguientes impuestos municipales tiene carácter potestativo?",
+      "opciones": [
+        "El Impuesto sobre Bienes Inmuebles",
+        "El Impuesto sobre Actividades Económicas",
+        "El Impuesto sobre Vehículos de Tracción Mecánica",
+        "El Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El IBI, el IAE y el IVTM son impuestos municipales de exacción obligatoria. El IIVTNU es potestativo y solo puede exigirse cuando el Ayuntamiento acuerda su imposición y aprueba la ordenanza fiscal correspondiente.",
+      "trampaExamen": "No confundir impuesto municipal con impuesto obligatorio: el IIVTNU es municipal, pero potestativo.",
+      "referencia": "manual.md · apartado Impuesto obligatorio y potestativo"
+    },
+    {
+      "id": "LP-T12-002",
+      "enunciado": "En el IBI, si sobre una vivienda existe un derecho real de usufructo, ¿quién realiza con carácter preferente el hecho imponible?",
+      "opciones": [
+        "El propietario",
+        "El arrendatario",
+        "El usufructuario",
+        "El ocupante efectivo"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 61 establece un orden de prelación: concesión administrativa, superficie, usufructo y propiedad. Existiendo usufructo, su titular realiza el hecho imponible antes que el propietario.",
+      "trampaExamen": "En el IBI no tributa siempre el propietario; debe respetarse el orden legal de derechos.",
+      "referencia": "bloque-02-ibi.md · artículo 61.1 y orden de prelación"
+    },
+    {
+      "id": "LP-T12-003",
+      "enunciado": "¿Cuál de las siguientes situaciones constituye un supuesto de no sujeción al IBI?",
+      "opciones": [
+        "Un inmueble de la Cruz Roja",
+        "Un camino de aprovechamiento público y gratuito",
+        "Un centro docente concertado que cumple los requisitos legales",
+        "Un inmueble declarado monumento histórico que cumple los requisitos de exención"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Las carreteras, caminos y demás vías terrestres de aprovechamiento público y gratuito no están sujetos al IBI. Los restantes supuestos propuestos son ejemplos de exenciones, no de no sujeción.",
+      "trampaExamen": "La no sujeción impide que nazca el hecho imponible; la exención presupone que sí se ha realizado.",
+      "referencia": "bloque-02-ibi.md · artículos 61.5 y 62"
+    },
+    {
+      "id": "LP-T12-004",
+      "enunciado": "El hecho imponible del IAE está constituido por:",
+      "opciones": [
+        "La obtención efectiva de beneficios empresariales",
+        "El mero ejercicio en territorio nacional de actividades empresariales, profesionales o artísticas",
+        "La titularidad de un establecimiento abierto al público",
+        "La inscripción previa en las tarifas del impuesto"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El IAE grava el mero ejercicio de actividades empresariales, profesionales o artísticas en territorio nacional, con independencia de que exista local, beneficio o mención expresa en las tarifas.",
+      "trampaExamen": "No se exige beneficio, local ni alta correcta para que pueda existir el hecho imponible.",
+      "referencia": "bloque-03-iae.md · artículo 78"
+    },
+    {
+      "id": "LP-T12-005",
+      "enunciado": "Una persona física que ejerce por cuenta propia una actividad profesional está, respecto del IAE:",
+      "opciones": [
+        "No sujeta",
+        "Sujeta y no exenta",
+        "Sujeta, pero exenta",
+        "Exenta únicamente durante el primer periodo impositivo"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La persona física realiza el hecho imponible y es sujeto pasivo del IAE, pero el artículo 82 reconoce la exención a las personas físicas. La exención no elimina la sujeción.",
+      "trampaExamen": "Persona física exenta no equivale a actividad no sujeta.",
+      "referencia": "bloque-03-iae.md · artículos 82 y 83"
+    },
+    {
+      "id": "LP-T12-006",
+      "enunciado": "¿Cuál es el umbral general de cifra de negocios por debajo del cual determinadas sociedades y entidades pueden estar exentas del IAE?",
+      "opciones": [
+        "500.000 euros",
+        "750.000 euros",
+        "1.000.000 de euros",
+        "2.000.000 de euros"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Determinados sujetos están exentos cuando su importe neto de la cifra de negocios es inferior a 1.000.000 de euros, siempre que se cumplan los requisitos legales.",
+      "trampaExamen": "El umbral se refiere al importe neto de la cifra de negocios, no al beneficio neto.",
+      "referencia": "bloque-03-iae.md · artículo 82 · cifra de negocios"
+    },
+    {
+      "id": "LP-T12-007",
+      "enunciado": "A efectos del IVTM, un vehículo se considera apto para circular cuando:",
+      "opciones": [
+        "Se utiliza al menos una vez al año",
+        "Está matriculado y no ha causado baja, aunque permanezca averiado",
+        "Ha superado la ITV durante el ejercicio",
+        "Su propietario dispone de permiso de conducir vigente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Se considera apto el vehículo matriculado mientras no haya causado baja, así como el provisto de permiso temporal o matrícula turística. El uso real, la avería o los kilómetros recorridos no determinan por sí solos la sujeción.",
+      "trampaExamen": "El IVTM grava la titularidad registral de un vehículo apto, no su utilización efectiva.",
+      "referencia": "bloque-04a-ivtm-hecho.md · artículo 92"
+    },
+    {
+      "id": "LP-T12-008",
+      "enunciado": "¿Qué remolque o semirremolque queda no sujeto al IVTM por razón de su carga útil?",
+      "opciones": [
+        "El de 750 kilogramos exactos",
+        "El de 751 kilogramos",
+        "El de 1.000 kilogramos",
+        "Todos, con independencia de su carga útil"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "No están sujetos los remolques y semirremolques cuya carga útil no sea superior a 750 kilogramos. Por ello, el límite exacto de 750 kilogramos queda incluido en la no sujeción.",
+      "trampaExamen": "La expresión legal es «no superior a 750 kg»; 750 exactos no tributa por este concepto.",
+      "referencia": "bloque-04a-ivtm-hecho.md · artículo 92 · no sujeción"
+    },
+    {
+      "id": "LP-T12-009",
+      "enunciado": "¿Quién es sujeto pasivo del IVTM?",
+      "opciones": [
+        "La persona que conduce habitualmente el vehículo",
+        "Quien haya pagado el precio de adquisición",
+        "La persona o entidad a cuyo nombre consta el vehículo en el permiso de circulación",
+        "Quien figure como tomador del seguro"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 94 establece una regla registral: es sujeto pasivo quien figure en el permiso de circulación, con independencia del conductor habitual, del pagador o de pactos privados no actualizados.",
+      "trampaExamen": "Una venta no comunicada a Tráfico puede mantener como sujeto pasivo al titular registral anterior.",
+      "referencia": "bloque-04b-ivtm-sujeto.md · artículo 94"
+    },
+    {
+      "id": "LP-T12-010",
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el IIVTNU es correcta?",
+      "opciones": [
+        "Grava el valor total de la construcción y del terreno",
+        "Grava siempre toda transmisión de un inmueble urbano",
+        "Grava el incremento de valor del terreno urbano manifestado mediante transmisión o constitución o transmisión de un derecho real de goce",
+        "Grava también el incremento de los terrenos rústicos"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El IIVTNU grava el incremento de valor correspondiente al terreno urbano cuando se manifiesta mediante transmisión o constitución o transmisión de un derecho real de goce limitativo del dominio. No grava la construcción ni los terrenos rústicos.",
+      "trampaExamen": "El objeto del impuesto es el incremento del terreno, no el valor total del inmueble.",
+      "referencia": "bloque-05a-iivtnu-hecho.md · artículo 104.1"
+    },
+    {
+      "id": "LP-T12-011",
+      "enunciado": "En una donación de un terreno urbano sujeta al IIVTNU, el contribuyente es:",
+      "opciones": [
+        "El donante",
+        "El donatario o adquirente",
+        "El Ayuntamiento",
+        "El notario autorizante"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "En las transmisiones lucrativas, como donaciones y herencias, es contribuyente quien adquiere el terreno o recibe el derecho real. La regla de memoria es: lucrativa, adquirente.",
+      "trampaExamen": "No aplicar a una donación la regla propia de la compraventa onerosa.",
+      "referencia": "bloque-05b-iivtnu-sujetos.md · artículo 106 · transmisiones lucrativas"
+    },
+    {
+      "id": "LP-T12-012",
+      "enunciado": "En una compraventa de terreno urbano realizada por una persona física no residente en España, ¿qué posición ocupa el adquirente en el IIVTNU?",
+      "opciones": [
+        "Contribuyente",
+        "Sustituto del contribuyente",
+        "Responsable subsidiario",
+        "Retenedor"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "En una transmisión onerosa el transmitente es contribuyente. Cuando este es una persona física no residente en España, el adquirente actúa como sustituto del contribuyente por mandato legal.",
+      "trampaExamen": "El comprador no se convierte en contribuyente: ocupa la posición de sustituto.",
+      "referencia": "bloque-05b-iivtnu-sujetos.md · artículo 106 · transmitente no residente"
+    }
+  ]
 }
