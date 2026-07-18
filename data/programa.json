@@ -233,7 +233,19 @@
     {
       "numero": 16,
       "titulo": "Microsoft Windows II. Navegación por Internet con Microsoft Internet Explorer y Microsoft Edge.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "EN_REVISION_USUARIO",
+      "manual": "content/la-puebla/tema-16/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-16/bloque-01-conceptos-navegacion.md",
+        "content/la-puebla/tema-16/bloque-02-pestanas-favoritos-historial-descargas.md",
+        "content/la-puebla/tema-16/bloque-03-privacidad-seguridad.md",
+        "content/la-puebla/tema-16/bloque-04-edge-configuracion-herramientas.md",
+        "content/la-puebla/tema-16/bloque-05-ie-modo-ie.md"
+      ],
+      "matriz": "content/la-puebla/tema-16/matriz.json",
+      "feedback": "content/la-puebla/tema-16/feedback.md",
+      "preguntas": "content/la-puebla/tema-16/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-16/fuentes.md"
     },
     {
       "numero": 17,
