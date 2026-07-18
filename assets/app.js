@@ -133,7 +133,7 @@ function renderProgramme(programme) {
   app.innerHTML = `
     <section class="panel intro">
       <h2>Estado real del manual</h2>
-      <p>Solo se publica como manual lo que ha sido reconstruido y aprobado expresamente. No se han importado resúmenes ni bancos de preguntas del repositorio antiguo.</p>
+      <p>Solo se publica como manual lo que ha sido reconstruido y aprobado expresamente. Los bancos de preguntas se publican mediante una revisión independiente y trazable.</p>
       <div class="summary-grid">
         <div class="summary-card"><strong>${programme.temas.length}</strong><span>temas oficiales</span></div>
         <div class="summary-card"><strong>${approved}</strong><span>temas aprobados</span></div>
@@ -156,6 +156,96 @@ function renderProgramme(programme) {
   document.querySelectorAll('[data-theme]').forEach(button => {
     button.addEventListener('click', () => openTheme(programme, Number(button.dataset.theme)));
   });
+}
+
+function questionSource(source) {
+  if (!source) return '';
+  const parts = [source.norma, source.articulos, source.manual].filter(Boolean);
+  return parts.map(escapeHtml).join(' · ');
+}
+
+function renderQuestionnaire(theme, bank) {
+  const test = document.querySelector('#test');
+  test.innerHTML = `
+    <div class="test-heading">
+      <div>
+        <span class="badge approved">Banco aprobado</span>
+        <h2>Test del Tema ${theme.numero}</h2>
+        <p>${bank.preguntas.length} preguntas · una respuesta correcta · sin penalización.</p>
+      </div>
+    </div>
+    <div id="test-result" class="test-result" role="status" aria-live="polite"></div>
+    <form id="test-form">
+      ${bank.preguntas.map((question, index) => `
+        <fieldset class="question-card" data-question="${escapeHtml(question.id)}">
+          <legend><span class="question-number">${index + 1}</span>${escapeHtml(question.enunciado)}</legend>
+          <div class="option-list">
+            ${question.opciones.map(option => `
+              <label class="test-option" data-option="${escapeHtml(option.id)}">
+                <input type="radio" name="${escapeHtml(question.id)}" value="${escapeHtml(option.id)}">
+                <span class="option-letter">${escapeHtml(option.id)}</span>
+                <span>${escapeHtml(option.texto)}</span>
+              </label>
+            `).join('')}
+          </div>
+          <div class="question-feedback" hidden></div>
+        </fieldset>
+      `).join('')}
+      <div class="test-actions">
+        <button id="correct-test" class="btn" type="submit">Corregir test</button>
+        <button id="reset-test" class="btn secondary" type="button">Reiniciar</button>
+      </div>
+    </form>`;
+
+  const form = document.querySelector('#test-form');
+  form.addEventListener('submit', event => {
+    event.preventDefault();
+    correctQuestionnaire(bank);
+  });
+  document.querySelector('#reset-test').addEventListener('click', () => renderQuestionnaire(theme, bank));
+}
+
+function correctQuestionnaire(bank) {
+  let correct = 0;
+  let answered = 0;
+
+  bank.preguntas.forEach(question => {
+    const fieldset = document.querySelector(`[data-question="${CSS.escape(question.id)}"]`);
+    const selected = fieldset.querySelector('input:checked')?.value;
+    const feedback = fieldset.querySelector('.question-feedback');
+    const correctOption = question.opciones.find(option => option.id === question.correcta);
+
+    if (selected) answered += 1;
+    if (selected === question.correcta) correct += 1;
+
+    fieldset.querySelectorAll('.test-option').forEach(label => {
+      label.classList.remove('correct', 'incorrect');
+      const optionId = label.dataset.option;
+      if (optionId === question.correcta) label.classList.add('correct');
+      if (selected && optionId === selected && selected !== question.correcta) label.classList.add('incorrect');
+    });
+    fieldset.querySelectorAll('input').forEach(input => { input.disabled = true; });
+
+    const outcome = !selected
+      ? '<strong>Sin responder.</strong>'
+      : selected === question.correcta
+        ? '<strong>Respuesta correcta.</strong>'
+        : `<strong>Respuesta incorrecta.</strong> La opción correcta es ${escapeHtml(question.correcta)}: ${escapeHtml(correctOption?.texto ?? '')}`;
+
+    feedback.hidden = false;
+    feedback.innerHTML = `
+      <p>${outcome}</p>
+      <p>${escapeHtml(question.justificacion)}</p>
+      <p class="question-source"><strong>Fuente:</strong> ${questionSource(question.fuente)}</p>`;
+  });
+
+  const percentage = Math.round((correct / bank.preguntas.length) * 100);
+  const unanswered = bank.preguntas.length - answered;
+  const result = document.querySelector('#test-result');
+  result.className = `test-result ${percentage >= 70 ? 'passed' : 'needs-review'}`;
+  result.innerHTML = `<strong>${correct} de ${bank.preguntas.length} correctas (${percentage} %).</strong>${unanswered ? ` ${unanswered} sin responder.` : ''}`;
+  document.querySelector('#correct-test').disabled = true;
+  result.scrollIntoView({ behavior: 'smooth', block: 'center' });
 }
 
 async function openTheme(programme, number) {
@@ -184,21 +274,58 @@ async function openTheme(programme, number) {
       ${badge(theme.estado)}
       <h2>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h2>
       <p class="notice">Aprobado expresamente el ${escapeHtml(theme.aprobadoEl)}. El manual procede de la reconstrucción revisada por el usuario.</p>
+      <div class="toolbar theme-tabs" aria-label="Contenido del tema">
+        <button id="show-manual" class="btn" type="button" aria-pressed="true">Manual</button>
+        <button id="show-test" class="btn secondary" type="button" aria-pressed="false" disabled>Test pendiente</button>
+      </div>
     </section>
-    <article id="manual" class="panel manual"><p>Cargando manual aprobado…</p></article>`;
+    <article id="manual" class="panel manual"><p>Cargando manual aprobado…</p></article>
+    <section id="test" class="panel test-panel" hidden></section>`;
 
   document.querySelector('#back').addEventListener('click', () => {
     history.replaceState(null, '', location.pathname);
     renderProgramme(programme);
   });
 
+  const manualPanel = document.querySelector('#manual');
+  const testPanel = document.querySelector('#test');
+  const manualButton = document.querySelector('#show-manual');
+  const testButton = document.querySelector('#show-test');
+
+  const showView = view => {
+    const testVisible = view === 'test';
+    manualPanel.hidden = testVisible;
+    testPanel.hidden = !testVisible;
+    manualButton.classList.toggle('secondary', testVisible);
+    testButton.classList.toggle('secondary', !testVisible);
+    manualButton.setAttribute('aria-pressed', String(!testVisible));
+    testButton.setAttribute('aria-pressed', String(testVisible));
+  };
+  manualButton.addEventListener('click', () => showView('manual'));
+
   try {
     const response = await fetch(theme.manual, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const markdown = await response.text();
-    document.querySelector('#manual').innerHTML = renderMarkdown(markdown);
+    manualPanel.innerHTML = renderMarkdown(markdown);
   } catch (error) {
-    document.querySelector('#manual').innerHTML = `<p class="notice warning">No se ha podido cargar el manual aprobado: ${escapeHtml(error.message)}.</p>`;
+    manualPanel.innerHTML = `<p class="notice warning">No se ha podido cargar el manual aprobado: ${escapeHtml(error.message)}.</p>`;
+  }
+
+  try {
+    const response = await fetch(theme.preguntas, { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const bank = await response.json();
+    if (bank.estado === 'APROBADO_USUARIO' && Array.isArray(bank.preguntas) && bank.preguntas.length) {
+      testButton.disabled = false;
+      testButton.textContent = `Test · ${bank.preguntas.length} preguntas`;
+      renderQuestionnaire(theme, bank);
+      testButton.addEventListener('click', () => showView('test'));
+    } else if (bank.estado === 'EN_REVISION_USUARIO') {
+      testButton.textContent = 'Test en revisión';
+    }
+  } catch {
+    testButton.textContent = 'Test no disponible';
   }
 }
 
