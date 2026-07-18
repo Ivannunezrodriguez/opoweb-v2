@@ -1,6 +1,122 @@
 {
   "tema": 17,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual está aprobado. El banco continúa vacío hasta redactar y revisar preguntas vinculadas a operaciones concretas y fuentes oficiales de Microsoft o LibreOffice."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "respuestaUnica": true,
+    "trazabilidad": "Cada pregunta referencia el manual auditado del Tema 17.",
+    "controlCalidad": "Preguntas independientes, justificadas y con trampa de examen explícita."
+  },
+  "preguntas": [
+    {
+      "id": "LP-T17-001",
+      "enunciado": "¿Cuál es el formato nativo habitual de LibreOffice Writer?",
+      "opciones": [".docx", ".odt", ".dotx", ".ott"],
+      "respuestaCorrecta": 1,
+      "justificacion": "LibreOffice Writer utiliza habitualmente el formato OpenDocument Text, cuya extensión es .odt; Word emplea normalmente .docx.",
+      "trampaExamen": "No debe confundirse el formato de documento .odt con la plantilla de Writer, cuya extensión habitual es .ott.",
+      "referencia": "manual.md, apartado 5 · Diferencias esenciales"
+    },
+    {
+      "id": "LP-T17-002",
+      "enunciado": "En Microsoft Word, ¿qué recurso permite aplicar de forma uniforme formato y estructura a títulos y párrafos?",
+      "opciones": ["Los estilos", "El Portapapeles", "La vista preliminar", "Las marcas no imprimibles"],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los estilos agrupan propiedades de formato y estructura, permiten mantener uniformidad y facilitan la navegación y las tablas de contenido.",
+      "trampaExamen": "El formato directo puede cambiar la apariencia, pero no aporta la misma coherencia estructural que los estilos.",
+      "referencia": "manual.md, apartados 2 y 7 · Estructura documental y calidad"
+    },
+    {
+      "id": "LP-T17-003",
+      "enunciado": "¿Qué combinación inserta un salto de página manual tanto en Word como en Writer?",
+      "opciones": ["Mayús + Intro", "Ctrl + Intro", "Alt + Intro", "Ctrl + Mayús + Intro"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Ctrl + Intro inserta un salto de página manual en ambos procesadores, evitando crear páginas mediante párrafos vacíos repetidos.",
+      "trampaExamen": "Mayús + Intro crea un salto de línea dentro del mismo párrafo, no un salto de página.",
+      "referencia": "bloque-02-edicion-busqueda.md, apartado 4 · Párrafo, salto de línea y salto de página"
+    },
+    {
+      "id": "LP-T17-004",
+      "enunciado": "¿Qué efecto produce Mayús + Intro en un procesador de textos?",
+      "opciones": ["Crea un nuevo párrafo", "Inserta un salto de página", "Inserta un salto de línea dentro del mismo párrafo", "Abre un documento nuevo"],
+      "respuestaCorrecta": 2,
+      "justificacion": "Mayús + Intro introduce un salto de línea sin finalizar el párrafo actual, por lo que conserva su estructura de párrafo.",
+      "trampaExamen": "Intro y Mayús + Intro no son equivalentes: el primero crea un nuevo párrafo y el segundo no.",
+      "referencia": "bloque-02-edicion-busqueda.md, apartado 4 · Párrafo, salto de línea y salto de página"
+    },
+    {
+      "id": "LP-T17-005",
+      "enunciado": "¿Para qué sirve principalmente la opción Pegar solo texto?",
+      "opciones": ["Para conservar todos los estilos de origen", "Para insertar el contenido sin formatos ni enlaces no deseados", "Para convertir el texto en imagen", "Para crear automáticamente una tabla"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Pegar solo texto inserta el contenido textual sin trasladar estilos, enlaces u otros formatos procedentes del origen.",
+      "trampaExamen": "Pegado especial no significa necesariamente pegar como imagen; ofrece varias modalidades, incluida solo texto.",
+      "referencia": "bloque-02-edicion-busqueda.md, apartado 5 · Pegado especial"
+    },
+    {
+      "id": "LP-T17-006",
+      "enunciado": "¿Qué afirmación sobre las marcas no imprimibles es correcta?",
+      "opciones": ["Siempre aparecen en el documento impreso", "Permiten diagnosticar espacios, tabulaciones y saltos", "Eliminan automáticamente los párrafos vacíos", "Sustituyen a la revisión ortográfica"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Las marcas no imprimibles muestran elementos estructurales como párrafos, espacios, tabulaciones y saltos para facilitar su revisión.",
+      "trampaExamen": "Que una marca se vea en pantalla no implica que vaya a imprimirse en el documento final.",
+      "referencia": "bloque-02-edicion-busqueda.md, apartado 3 · Marcas no imprimibles"
+    },
+    {
+      "id": "LP-T17-007",
+      "enunciado": "¿Qué riesgo presenta usar Reemplazar todo sin revisar previamente las coincidencias?",
+      "opciones": ["Que solo se modifique la primera coincidencia", "Que se alteren partes del documento no previstas", "Que el documento se convierta automáticamente a PDF", "Que se desactive el corrector ortográfico"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Reemplazar todo actúa sobre todas las coincidencias que cumplan el criterio y puede modificar contenido que no se pretendía cambiar.",
+      "trampaExamen": "La rapidez de Reemplazar todo no elimina la necesidad de revisar criterios y resultados o trabajar sobre una copia.",
+      "referencia": "bloque-02-edicion-busqueda.md, apartado 9 · Reemplazar"
+    },
+    {
+      "id": "LP-T17-008",
+      "enunciado": "En la configuración española habitual indicada en el manual, ¿qué atajo selecciona todo en LibreOffice Writer?",
+      "opciones": ["Ctrl + A", "Ctrl + E", "Ctrl + G", "Ctrl + T"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La ayuda española de LibreOffice Writer identifica Ctrl + E como atajo para seleccionar todo, mientras Word para Windows utiliza Ctrl + A.",
+      "trampaExamen": "Los atajos dependen del programa y del idioma; no debe trasladarse automáticamente Ctrl + A de Word a Writer.",
+      "referencia": "manual.md, apartado 5, y bloque-02-edicion-busqueda.md, apartado 15"
+    },
+    {
+      "id": "LP-T17-009",
+      "enunciado": "En la configuración española habitual indicada, ¿qué atajo guarda un documento en LibreOffice Writer?",
+      "opciones": ["Ctrl + S", "Ctrl + G", "Ctrl + E", "Ctrl + D"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La ayuda española de LibreOffice Writer documenta Ctrl + G para guardar; Word utiliza habitualmente Ctrl + S.",
+      "trampaExamen": "Ctrl + G en Writer no debe confundirse con el atajo de guardado de Word, que es Ctrl + S en la documentación actual.",
+      "referencia": "manual.md, apartado 5, y bloque-02-edicion-busqueda.md, apartado 15"
+    },
+    {
+      "id": "LP-T17-010",
+      "enunciado": "¿Qué diferencia estructural existe entre Word y Writer para organizar páginas con configuraciones distintas?",
+      "opciones": ["Word usa saltos de sección y Writer estilos de página", "Word usa exclusivamente tablas y Writer columnas", "Word usa favoritos y Writer marcadores", "No existe ninguna diferencia"],
+      "respuestaCorrecta": 0,
+      "justificacion": "Word organiza cambios de configuración mediante saltos de sección, mientras Writer se apoya en estilos de página aplicados mediante saltos.",
+      "trampaExamen": "No debe buscarse en Writer una equivalencia literal de las secciones de Word; la lógica principal son los estilos de página.",
+      "referencia": "manual.md, apartado 5 · Diferencias esenciales"
+    },
+    {
+      "id": "LP-T17-011",
+      "enunciado": "¿Qué afirmación sobre la corrección ortográfica es correcta?",
+      "opciones": ["Toda palabra subrayada es necesariamente incorrecta", "Agregar una palabra al diccionario siempre la corrige", "El idioma asignado al texto influye en la revisión", "La revisión depende únicamente del idioma de la interfaz"],
+      "respuestaCorrecta": 2,
+      "justificacion": "El idioma asignado al texto determina los diccionarios y reglas de revisión; una palabra subrayada puede ser un nombre propio o estar en otro idioma.",
+      "trampaExamen": "Agregar al diccionario una palabra mal escrita no la corrige: consolida el error para futuras revisiones.",
+      "referencia": "bloque-02-edicion-busqueda.md, apartados 11 y 12 · Ortografía e idioma"
+    },
+    {
+      "id": "LP-T17-012",
+      "enunciado": "¿Cuál es la práctica adecuada para obtener una salida estable destinada a envío o registro?",
+      "opciones": ["Renombrar el archivo .docx como .pdf", "Conservar el editable y generar un PDF verificado", "Eliminar el documento editable", "Sustituir todos los saltos por párrafos vacíos"],
+      "respuestaCorrecta": 1,
+      "justificacion": "El flujo recomendado conserva el documento editable en su formato nativo y genera después un PDF, comprobando el archivo final antes de enviarlo.",
+      "trampaExamen": "Guardar, Guardar como, Exportar e Imprimir son operaciones distintas; cambiar la extensión no convierte el formato.",
+      "referencia": "manual.md, apartados 6 y 7 · Flujo de trabajo y calidad documental"
+    }
+  ]
 }
