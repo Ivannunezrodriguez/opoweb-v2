@@ -1,73 +1,32 @@
 {
   "version": "2026-07-18",
-  "convocatoriaDestino": "diputacion-toledo-administrativo-c1-2026",
-  "fuenteBase": "la-puebla-auxiliar-2026",
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "politicaEditorial": "GENERACION_INTEGRA_DESDE_CERO",
+  "decisionUsuario": "No reutilizar ni adaptar temarios de otras convocatorias para evitar inconsistencias de alcance, nivel, estructura o versión normativa.",
   "criterios": {
-    "REUTILIZACION_ALTA": "El contenido auditado de La Puebla cubre el núcleo del epígrafe, pero debe reordenarse y cotejarse con el alcance exacto de Diputación.",
-    "REUTILIZACION_PARCIAL": "Existe contenido común aprovechable, pero faltan bloques sustantivos o un enfoque específico de Diputación.",
-    "NUEVO": "La materia no está desarrollada de forma suficiente en La Puebla y requiere redacción autónoma desde fuentes oficiales.",
-    "BLOQUEADO": "No se genera ni publica hasta disponer de la fuente oficial específica íntegra y vigente."
+    "GENERACION_DESDE_CERO": "El tema se redacta íntegramente a partir de su epígrafe oficial y de fuentes oficiales vigentes, sin copiar ni adaptar manuales de La Puebla, Carranque u otras oposiciones.",
+    "BLOQUEADO_POR_FUENTE_OFICIAL": "El tema no se redacta ni se publica hasta disponer de la fuente oficial específica, íntegra y vigente exigida por el programa."
   },
   "resumen": {
     "temas": 40,
-    "reutilizacionAlta": 19,
-    "reutilizacionParcial": 14,
-    "nuevos": 6,
-    "bloqueados": 1,
-    "porcentajeConBaseReutilizable": 82.5
+    "generacionDesdeCero": 39,
+    "bloqueadosPorFuenteOficial": 1,
+    "temasReutilizados": 0
   },
-  "prioridadProduccion": [
-    {"fase":1,"descripcion":"Adaptar y auditar los temas con reutilización alta","temas":[1,5,6,8,17,18,19,23,24,25,26,29,30,31,32,35,36,39,40]},
-    {"fase":2,"descripcion":"Completar los temas con reutilización parcial","temas":[2,3,4,7,9,10,11,12,13,14,15,28,33,34]},
-    {"fase":3,"descripcion":"Redactar desde cero los temas específicos no cubiertos","temas":[16,20,21,27,37,38]},
-    {"fase":4,"descripcion":"Cerrar el tema 22 únicamente con documentación oficial específica","temas":[22]}
+  "ordenProduccion": {
+    "metodo": "secuencial",
+    "temas": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,22],
+    "nota": "El tema 22 se cierra al final cuando estén incorporados el Acuerdo Regulador y los Estatutos oficiales vigentes del OAPGT."
+  },
+  "reglasObligatorias": [
+    "Extraer literalmente el epígrafe oficial antes de redactar.",
+    "Diseñar un índice propio que cubra todos los términos del epígrafe y ninguno ajeno.",
+    "Consultar únicamente legislación, diarios oficiales y documentación institucional primaria vigente a julio de 2026.",
+    "Resaltar en negrita plazos, fechas, mayorías, cuantías y órganos competentes.",
+    "Añadir tablas comparativas y bloques exactos de ¡Foco Examen!.",
+    "Generar banco propio de preguntas y trazabilidad independiente para cada tema.",
+    "No usar el contenido de La Puebla como fuente editorial; solo podrá emplearse después como control externo para detectar contradicciones.",
+    "No declarar ningún tema aprobado sin revisión expresa del usuario."
   ],
-  "mapeo": [
-    {"temaDiputacion":1,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[1],"accion":"Reordenar Constitución, Tribunal Constitucional y reforma; ampliar valor normativo y principios generales."},
-    {"temaDiputacion":2,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[1],"accion":"Reutilizar derechos, garantías y suspensión; redactar íntegramente fuentes del Derecho administrativo, ley y reglamento."},
-    {"temaDiputacion":3,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[1],"accion":"Ampliar Corona, Cortes, organización territorial, Defensor del Pueblo y Tribunal de Cuentas."},
-    {"temaDiputacion":4,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[14],"accion":"Reutilizar órganos y competencia; ampliar Administración Pública y relaciones administrativas conforme a Ley 40/2015."},
-    {"temaDiputacion":5,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[2],"accion":"Adaptar disposiciones generales, interesados, actuación administrativa y cómputo de términos y plazos."},
-    {"temaDiputacion":6,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[3],"accion":"Separar y ampliar procedimiento común, sancionador, responsabilidad patrimonial y tramitación simplificada."},
-    {"temaDiputacion":7,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[3,4],"accion":"Consolidar en un tema autónomo concepto, clases, elementos, requisitos, eficacia, nulidad y anulabilidad del acto."},
-    {"temaDiputacion":8,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[4],"accion":"Reutilizar revisión de oficio, recursos y revisión administrativa con adaptación de estructura."},
-    {"temaDiputacion":9,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[2,13],"accion":"Integrar derechos electrónicos, sede, identificación, firma y tramitación electrónica."},
-    {"temaDiputacion":10,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[3],"accion":"Extraer responsabilidad patrimonial y añadir responsabilidad de autoridades y empleados públicos."},
-    {"temaDiputacion":11,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[2,3],"accion":"Añadir especialidades locales, registro de entrada y salida, requisitos documentales, comunicaciones y notificaciones."},
-    {"temaDiputacion":12,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[5],"accion":"Desdoblar principios constitucionales, regulación y concepto de Administración Local."},
-    {"temaDiputacion":13,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[5],"accion":"Reutilizar municipio, población, organización y competencias; incorporar empadronamiento y presupuesto local."},
-    {"temaDiputacion":14,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[5],"accion":"Ampliar provincia y régimen electoral; desarrollar específicamente organización, funcionamiento y competencias de la Diputación de Toledo."},
-    {"temaDiputacion":15,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[5],"accion":"Desarrollar de forma autónoma mancomunidades, comarcas, áreas metropolitanas y entidades inframunicipales."},
-    {"temaDiputacion":16,"clasificacion":"NUEVO","temasLaPuebla":[],"accion":"Redactar contratación local completa desde la LCSP vigente: selección, garantías, ejecución, modificación, suspensión, precios, invalidez y extinción."},
-    {"temaDiputacion":17,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[6],"accion":"Adaptar personal, acceso y pérdida de la relación de servicio a un tema autónomo."},
-    {"temaDiputacion":18,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[6],"accion":"Ampliar carrera, provisión, movilidad, derechos, deberes y situaciones administrativas."},
-    {"temaDiputacion":19,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[6],"accion":"Extraer y ampliar el régimen disciplinario de la Ley 4/2011."},
-    {"temaDiputacion":20,"clasificacion":"NUEVO","temasLaPuebla":[],"accion":"Redactar contenido, modificación, suspensión y extinción del contrato de trabajo desde Estatuto de los Trabajadores vigente."},
-    {"temaDiputacion":21,"clasificacion":"NUEVO","temasLaPuebla":[],"accion":"Redactar modalidades contractuales y Régimen General de Seguridad Social: afiliación, altas, bajas, cotización y recaudación."},
-    {"temaDiputacion":22,"clasificacion":"BLOQUEADO","temasLaPuebla":[],"accion":"Esperar Acuerdo Regulador íntegro y Estatutos oficiales vigentes del OAPGT; prohibida la reconstrucción por inferencia."},
-    {"temaDiputacion":23,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[7],"accion":"Adaptar PRL, derechos, obligaciones, servicios de prevención, consulta y participación."},
-    {"temaDiputacion":24,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[8],"accion":"Reutilizar y ampliar igualdad estatal y autonómica con literalidad jurídica."},
-    {"temaDiputacion":25,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[10],"accion":"Ampliar obligación tributaria, elementos cuantitativos y procedimientos tributarios de revisión."},
-    {"temaDiputacion":26,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[11],"accion":"Ampliar recaudación voluntaria y ejecutiva y revisión de actos de aplicación tributaria."},
-    {"temaDiputacion":27,"clasificacion":"NUEVO","temasLaPuebla":[],"accion":"Redactar presupuesto general local, bases de ejecución, elaboración, aprobación y prórroga desde TRLRHL y normativa presupuestaria."},
-    {"temaDiputacion":28,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[9],"accion":"Reutilizar protección de datos; incorporar AEPD, transparencia, obligación de suministro y buen gobierno."},
-    {"temaDiputacion":29,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[12],"accion":"Profundizar IBI e IAE: exenciones, bonificaciones, bases, cuotas, tarifas, devengo y periodo impositivo."},
-    {"temaDiputacion":30,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[12],"accion":"Profundizar IVTM e IIVTNU e incorporar régimen completo de tasas."},
-    {"temaDiputacion":31,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[13],"accion":"Actualizar a Ley 6/2020 y ampliar firma, certificados, prestadores y servicios de confianza."},
-    {"temaDiputacion":32,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[15],"accion":"Actualizar y adaptar archivos, carpetas y unidades a Windows 11 Pro."},
-    {"temaDiputacion":33,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[16],"accion":"Reutilizar Edge y navegación; generar desde cero correo electrónico con Micro Focus GroupWise 24."},
-    {"temaDiputacion":34,"clasificacion":"REUTILIZACION_PARCIAL","temasLaPuebla":[15,19],"accion":"Integrar impresión, colas, controladores, escaneado, OCR y configuración en Windows 11."},
-    {"temaDiputacion":35,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[17],"accion":"Adaptar íntegramente a LibreOffice 24 Writer, eliminando dependencias innecesarias de Microsoft Word."},
-    {"temaDiputacion":36,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[18],"accion":"Adaptar íntegramente a LibreOffice 24 Calc y ampliar funciones prácticas."},
-    {"temaDiputacion":37,"clasificacion":"NUEVO","temasLaPuebla":[],"accion":"Redactar LibreOffice 24 Base: tablas, relaciones, consultas, formularios, informes, claves e integridad."},
-    {"temaDiputacion":38,"clasificacion":"NUEVO","temasLaPuebla":[],"accion":"Redactar LibreOffice 24 Impress: diapositivas, diseños, patrones, transiciones, animaciones, multimedia, presentación e impresión."},
-    {"temaDiputacion":39,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[19],"accion":"Separar componentes internos, hardware, software, firmware, CPU, RAM, placa, almacenamiento y puertos."},
-    {"temaDiputacion":40,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[19],"accion":"Separar periféricos, impresoras, escáneres, almacenamiento externo, medios ópticos y memorias USB."}
-  ],
-  "reglasEditoriales": [
-    "La reutilización nunca equivale a copiar sin cotejo: cada tema se auditará contra su epígrafe exacto y la normativa vigente a julio de 2026.",
-    "Los temas de Diputación conservarán numeración, alcance, preguntas y progreso independientes.",
-    "No se publicará el tema 22 como completo mientras falte la documentación oficial específica del OAPGT.",
-    "Los contenidos comunes se mantendrán en una única fuente editorial cuando la arquitectura multioposición esté activa."
-  ]
+  "estado": "POLITICA_APROBADA_POR_USUARIO"
 }
