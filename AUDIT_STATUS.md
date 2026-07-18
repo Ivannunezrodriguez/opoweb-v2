@@ -12,9 +12,8 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 | Bloque | Temas | Estado | Trabajo principal |
 |---|---:|---|---|
 | Constitución | 1 | `AUDITADO_NORMA_VIGENTE` | Cotejado con la Constitución consolidada y la reforma del artículo **69.3** publicada el **20 de mayo de 2026** |
-| Procedimiento administrativo | 2 | `AUDITADO_NORMA_VIGENTE` | Cotejados los artículos **1–33** de la Ley 39/2015; plazos y silencio revisados |
-| Procedimiento administrativo | 3–4 | `EN_AUDITORIA` | Iniciación, instrucción, finalización, revisión y recursos de la Ley 39/2015 |
-| Régimen local y empleo público | 5–8 | `PENDIENTE_AUDITORIA` | Órganos, competencias, mayorías, LOREG, Ley 4/2011, PRL e igualdad |
+| Procedimiento administrativo | 2–4 | `AUDITADO_NORMA_VIGENTE` | Cotejados los artículos **1–126** de la Ley 39/2015; plazos, silencio, caducidad, revisión y recursos revisados |
+| Régimen local y empleo público | 5–8 | `EN_AUDITORIA` | Órganos, competencias, mayorías, LOREG, Ley 4/2011, PRL e igualdad |
 | Protección de datos y tributación | 9–12 | `PENDIENTE_AUDITORIA` | RGPD/LOPDGDD, LGT, TRLRHL, recaudación e impuestos municipales |
 | Administración electrónica | 13–14 | `PENDIENTE_AUDITORIA` | eIDAS, certificados, Ley 40/2015 y AGE |
 | Ofimática y microinformática | 15–19 | `PENDIENTE_AUDITORIA` | Windows 11, Edge, Word/Writer, Excel/Calc y hardware |
@@ -25,6 +24,8 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 |---:|---|---|
 | 1 | Sin errores de plazo, mayoría o cifra detectados. Confirmadas las **cuatro reformas constitucionales** vigentes hasta julio de 2026. | `content/la-puebla/tema-01/auditoria-2026-07-18.md` |
 | 2 | Plazos nucleares correctos. Detectada una corrección editorial: donde decía «tres condiciones acumulativas» deben ser **cuatro**. | `content/la-puebla/tema-02/auditoria-2026-07-18.md` |
+| 3 | Revisados los artículos **53–105**. Confirmados los plazos de iniciación, prueba, audiencia, información pública, tramitación simplificada y ejecución. | `content/la-puebla/tema-03/auditoria-2026-07-18.md` |
+| 4 | Revisados los artículos **106–126** y la competencia local. Confirmados los plazos de revisión, lesividad, alzada, reposición y revisión extraordinaria. | `content/la-puebla/tema-04/auditoria-2026-07-18.md` |
 
 ## Criterios aplicados a cada tema
 
@@ -52,7 +53,7 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 
 ## Orden de trabajo
 
-1. Auditar y corregir los **temas 3–4**.
-2. Continuar con **5–8**, **9–12**, **13–14** y **15–19**.
+1. Auditar y corregir los **temas 5–8**.
+2. Continuar con **9–12**, **13–14** y **15–19**.
 3. Generar preguntas y supuestos únicamente después de que el contenido base esté auditado.
 4. Reutilizar los temas comunes en Carranque, Las Ventas con Peña Aguilera y futuras convocatorias mediante una matriz de equivalencias, sin duplicar versiones contradictorias.
