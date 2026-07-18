@@ -1,0 +1,37 @@
+{
+  "tema": 6,
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "estado": "EN_REVISION_USUARIO",
+  "metodo": "GENERACION_DESDE_CERO",
+  "epigrafeOficial": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. El procedimiento administrativo común: derechos del interesado; iniciación; ordenación; instrucción; finalización y ejecución. Especialidades en los procedimientos de naturaleza sancionadora y de responsabilidad patrimonial. Tramitación simplificada.",
+  "cobertura": [
+    {"bloque": "Derechos del interesado", "articulos": [53], "cubierto": true},
+    {"bloque": "Iniciación general", "articulos": [54,55,56,57], "cubierto": true},
+    {"bloque": "Iniciación de oficio", "articulos": [58,59,60,61,62,63,64,65], "cubierto": true},
+    {"bloque": "Iniciación a solicitud", "articulos": [66,67,68,69], "cubierto": true},
+    {"bloque": "Ordenación", "articulos": [70,71,72,73,74], "cubierto": true},
+    {"bloque": "Instrucción", "articulos": [75,76,77,78,79,80,81,82,83], "cubierto": true},
+    {"bloque": "Finalización", "articulos": [84,85,86,87,88,89,90,91,92,93,94,95], "cubierto": true},
+    {"bloque": "Ejecución", "articulos": [97,98,99,100,101,102,103,104,105], "cubierto": true},
+    {"bloque": "Especialidades sancionadoras", "articulos": [63,64,85,89,90], "cubierto": true},
+    {"bloque": "Responsabilidad patrimonial", "articulos": [65,67,81,91,92], "cubierto": true},
+    {"bloque": "Tramitación simplificada", "articulos": [96], "cubierto": true}
+  ],
+  "plazosClave": [
+    "15 días para confirmar medidas provisionales previas",
+    "10 días para subsanar",
+    "10 a 30 días para prueba",
+    "10 a 15 días para audiencia",
+    "mínimo 20 días para información pública",
+    "3 meses para caducidad por paralización imputable",
+    "1 año para reclamar responsabilidad patrimonial",
+    "6 meses para silencio en responsabilidad patrimonial",
+    "30 días para tramitación simplificada"
+  ],
+  "controlCalidad": {
+    "fuenteOficial": "BOE-A-2015-10565",
+    "fechaCorte": "2026-07",
+    "preguntasPrevistas": 12,
+    "prohibidoMarcarAprobadoSinUsuario": true
+  }
+}
