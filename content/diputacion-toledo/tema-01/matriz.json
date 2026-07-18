@@ -1,0 +1,56 @@
+{
+  "convocatoria": "Diputación Provincial de Toledo · Administrativo C1",
+  "tema": 1,
+  "version": "2026-07-18",
+  "estado": "EN_REVISION_USUARIO",
+  "metodo": "GENERACION_INTEGRA_DESDE_CERO",
+  "epigrafeOficial": "La Constitución española de 1978: significado y estructura, principios generales y valor normativo. El Tribunal Constitucional. La reforma constitucional.",
+  "cobertura": [
+    {
+      "apartado": "Significado de la Constitución",
+      "estado": "CUBIERTO",
+      "contenido": ["concepto", "dimensiones política, jurídica, organizativa y garantista", "fechas constitucionales", "caracteres"]
+    },
+    {
+      "apartado": "Estructura",
+      "estado": "CUBIERTO",
+      "contenido": ["Preámbulo", "Título Preliminar", "Títulos I-X", "169 artículos", "disposiciones", "parte dogmática y orgánica"]
+    },
+    {
+      "apartado": "Principios generales",
+      "estado": "CUBIERTO",
+      "contenido": ["Estado social y democrático de Derecho", "valores superiores", "soberanía", "Monarquía parlamentaria", "unidad, autonomía y solidaridad", "lenguas", "bandera", "capital", "partidos", "sindicatos", "Fuerzas Armadas", "artículo 9"]
+    },
+    {
+      "apartado": "Valor normativo",
+      "estado": "CUBIERTO",
+      "contenido": ["supremacía", "vinculación", "eficacia directa", "derogación", "interpretación conforme", "artículo 10.2"]
+    },
+    {
+      "apartado": "Tribunal Constitucional",
+      "estado": "CUBIERTO",
+      "contenido": ["naturaleza", "composición", "nombramiento", "mandato", "renovación", "Presidencia", "incompatibilidades", "competencias", "recurso", "cuestión", "amparo", "sentencias"]
+    },
+    {
+      "apartado": "Reforma constitucional",
+      "estado": "CUBIERTO",
+      "contenido": ["iniciativa", "artículo 167", "artículo 168", "límites temporales", "reformas de 1992, 2011 y 2024"]
+    }
+  ],
+  "controlesTest": [
+    "Fechas de aprobación, referéndum, sanción, publicación y entrada en vigor",
+    "Valores superiores frente a principios del artículo 9.3",
+    "Estructura y numeración de títulos",
+    "12 magistrados, 9 años, renovación por tercios cada 3 años",
+    "50 diputados o 50 senadores",
+    "Mayorías y referéndum de los artículos 167 y 168",
+    "Tres reformas constitucionales hasta julio de 2026"
+  ],
+  "fuentes": [
+    "BOE-A-1978-31229",
+    "BOE-A-1979-23709",
+    "BOP Toledo 118/2026 · código 2026.00002934"
+  ],
+  "reutilizacionOtrosTemarios": false,
+  "aprobadoPorUsuario": false
+}
