@@ -15,8 +15,8 @@ const practiceJs = read('assets/practice.js');
 const themeTestLinkJs = read('assets/theme-test-link.js');
 
 assert.equal(programme.version, '0.19.0');
-assert.equal(packageJson.version, '0.20.5');
-assert.ok(index.includes('v0.20.5'));
+assert.equal(packageJson.version, '0.20.6');
+assert.ok(index.includes('v0.20.6'));
 assert.ok(index.includes('href="practice.html"'));
 assert.ok(index.includes('assets/theme-test-link.js'));
 assert.equal(programme.temas.length, 19);
@@ -117,14 +117,21 @@ assert.ok(exists('assets/practice.js'));
 assert.ok(exists('assets/practice-progress.css'));
 assert.ok(exists('assets/theme-test-link.js'));
 assert.ok(practiceHtml.includes('assets/practice-progress.css'));
-assert.ok(practiceJs.includes("const PROGRESS_KEY = 'opoweb-la-puebla-practice-progress-v1'"));
+assert.ok(practiceJs.includes("const PROGRESS_KEY = 'opoweb-la-puebla-practice-progress-v2'"));
+assert.ok(practiceJs.includes("const LEGACY_PROGRESS_KEY = 'opoweb-la-puebla-practice-progress-v1'"));
 assert.ok(practiceJs.includes('localStorage.setItem(PROGRESS_KEY'));
 assert.ok(practiceJs.includes('saveAttempt({'));
 assert.ok(practiceJs.includes('Borrar historial'));
 assert.ok(practiceJs.includes('Test por tema'));
 assert.ok(practiceJs.includes('data-theme-test'));
-assert.ok(practiceJs.includes('practice.html?tema='));
+assert.ok(practiceJs.includes('new URLSearchParams(location.search).get'));
 assert.ok(practiceJs.includes("type: metadata.type"));
+assert.ok(practiceJs.includes('Repasar ${errorEntries.length} fallo(s)'));
+assert.ok(practiceJs.includes('Fallos y temas débiles'));
+assert.ok(practiceJs.includes('themeStats'));
+assert.ok(practiceJs.includes('failedQuestionIds'));
+assert.ok(practiceJs.includes('data-weak-theme'));
+assert.ok(practiceJs.includes("renderExercise(questions, 'Repaso de preguntas falladas'"));
 assert.ok(themeTestLinkJs.includes('Hacer test del tema'));
 assert.ok(themeTestLinkJs.includes('practice.html?tema=${number}'));
 
@@ -170,7 +177,7 @@ for (const term of [
   assert.ok(joined19.includes(term), `Falta ${term}`);
 }
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.5'"));
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.6'"));
 assert.ok(serviceWorker.includes("'./practice.html'"));
 assert.ok(serviceWorker.includes("'./assets/theme-test-link.js'"));
 assert.ok(serviceWorker.includes("'./assets/practice-progress.css'"));
@@ -197,6 +204,8 @@ console.log(JSON.stringify({
   mockQuestions,
   thematicTests: programme.temas.length,
   localProgress: 'VALIDATED',
+  errorTraining: 'VALIDATED',
+  weakThemes: 'VALIDATED',
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_COMPLETA_CON_TESTS_POR_TEMA'
+  status: 'CONVOCATORIA_LA_PUEBLA_COMPLETA_CON_ENTRENAMIENTO_INTELIGENTE'
 }, null, 2));
