@@ -1,0 +1,38 @@
+{
+  "tema": 14,
+  "convocatoria": "Diputación Provincial de Toledo · Administrativo C1 · 2026",
+  "epigrafeOficial": "La provincia. Organización provincial. Competencias. La Diputación Provincial de Toledo: organización, funcionamiento y competencias. El Régimen electoral de las Entidades Locales.",
+  "estado": "EN_REVISION_USUARIO",
+  "modo": "GENERACION_DESDE_CERO",
+  "fuentesPrincipales": [
+    "Constitución Española, arts. 137, 141 y 142",
+    "Ley 7/1985, arts. 31 a 38, 46 y 47",
+    "Ley Orgánica 5/1985, régimen electoral local y provincial",
+    "Portal institucional y de transparencia de la Diputación Provincial de Toledo"
+  ],
+  "bloques": [
+    {"id":"T14-B01","titulo":"Concepto constitucional y legal de provincia","cubierto":true},
+    {"id":"T14-B02","titulo":"Fines y competencias provinciales","cubierto":true},
+    {"id":"T14-B03","titulo":"Organización provincial","cubierto":true},
+    {"id":"T14-B04","titulo":"Funcionamiento de la Diputación","cubierto":true},
+    {"id":"T14-B05","titulo":"Diputación Provincial de Toledo","cubierto":true},
+    {"id":"T14-B06","titulo":"Régimen electoral municipal","cubierto":true},
+    {"id":"T14-B07","titulo":"Elección de diputados provinciales y Presidencia","cubierto":true}
+  ],
+  "datosTest": [
+    "Alteración de límites provinciales: ley orgánica",
+    "Junta de Gobierno: máximo un tercio del número legal de diputados",
+    "Toledo: 27 diputados provinciales en la legislatura 2023-2027",
+    "Partido judicial: al menos un diputado y máximo tres quintos del total",
+    "Presidencia provincial: mayoría absoluta en primera votación y simple en segunda"
+  ],
+  "controlCalidad": {
+    "literalidadJuridica": true,
+    "plazosMayoríasOrganosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "preguntasPropias": 12,
+    "reutilizacionDeOtrosTemarios": false,
+    "revisionVigencia": "2026-07"
+  }
+}
