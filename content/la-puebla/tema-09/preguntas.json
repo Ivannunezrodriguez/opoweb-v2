@@ -1,6 +1,183 @@
 {
   "tema": 9,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual está aprobado. Las preguntas siguen vacías hasta una revisión específica y trazable por artículo."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T09-001",
+      "enunciado": "La Ley Orgánica 3/2018 tiene por objeto principal:",
+      "opciones": [
+        "Sustituir íntegramente al RGPD en España",
+        "Adaptar el ordenamiento español al RGPD y garantizar los derechos digitales",
+        "Regular únicamente los tratamientos realizados por Administraciones públicas",
+        "Regular exclusivamente la videovigilancia y las comunicaciones electrónicas"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley Orgánica 3/2018 adapta el Derecho español al Reglamento General de Protección de Datos, completa sus previsiones y garantiza los derechos digitales. El RGPD continúa siendo directamente aplicable.",
+      "trampaExamen": "La Ley Orgánica no sustituye al RGPD ni limita su ámbito a las Administraciones públicas.",
+      "referencia": "manual.md · apartado 3 · Artículos 1–3"
+    },
+    {
+      "id": "LP-T09-002",
+      "enunciado": "Con carácter general, un menor puede prestar por sí mismo consentimiento para el tratamiento de sus datos personales desde los:",
+      "opciones": [
+        "12 años",
+        "13 años",
+        "14 años",
+        "16 años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Ley Orgánica 3/2018 fija en catorce años la edad general para que el menor pueda consentir por sí mismo, salvo supuestos en que una ley exija asistencia de quienes ejercen patria potestad o tutela.",
+      "trampaExamen": "El RGPD permite a los Estados fijar la edad entre 13 y 16 años; España la establece en 14.",
+      "referencia": "manual.md · apartado 4 · Artículos 4–10"
+    },
+    {
+      "id": "LP-T09-003",
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el consentimiento es correcta?",
+      "opciones": [
+        "Puede deducirse del silencio del interesado",
+        "Debe ser libre, específico, informado e inequívoco",
+        "Es siempre la base jurídica adecuada para los tratamientos municipales",
+        "Permite tratar cualquier categoría especial sin más requisitos"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El consentimiento válido exige una manifestación libre, específica, informada e inequívoca mediante declaración o acción afirmativa clara. El consentimiento tácito no es válido.",
+      "trampaExamen": "En un Ayuntamiento, muchos tratamientos se basan en obligación legal o misión de interés público, no en consentimiento.",
+      "referencia": "manual.md · apartado 4 · Artículos 4–10"
+    },
+    {
+      "id": "LP-T09-004",
+      "enunciado": "El plazo general para responder al ejercicio de derechos en materia de protección de datos es de:",
+      "opciones": [
+        "Diez días, sin posibilidad de ampliación",
+        "Un mes, ampliable otros dos meses por complejidad o número de solicitudes",
+        "Dos meses, ampliables otros dos",
+        "Tres meses en todo caso"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El RGPD establece un plazo general de un mes, ampliable otros dos cuando sea necesario por la complejidad o el número de solicitudes, informando al interesado dentro del primer mes.",
+      "trampaExamen": "La ampliación máxima no es automática: debe justificarse y comunicarse dentro del primer mes.",
+      "referencia": "manual.md · apartado 6 · Artículos 12–18"
+    },
+    {
+      "id": "LP-T09-005",
+      "enunciado": "El derecho de portabilidad se aplica, con carácter general, cuando el tratamiento es automatizado y se basa en:",
+      "opciones": [
+        "Consentimiento o contrato",
+        "Obligación legal o potestad sancionadora",
+        "Interés público o ejercicio de poderes públicos",
+        "Cualquier base jurídica sin excepción"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La portabilidad opera cuando el tratamiento se realiza por medios automatizados y se basa en consentimiento o contrato. No suele aplicarse a tratamientos necesarios para una misión de interés público o ejercicio de poderes públicos.",
+      "trampaExamen": "No debe confundirse portabilidad con acceso: el acceso tiene un ámbito mucho más amplio.",
+      "referencia": "manual.md · apartado 6 · Artículos 12–18"
+    },
+    {
+      "id": "LP-T09-006",
+      "enunciado": "Las imágenes obtenidas mediante videovigilancia se conservarán ordinariamente durante un plazo máximo de:",
+      "opciones": [
+        "Quince días",
+        "Un mes",
+        "Tres meses",
+        "Un año"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La regla general de la Ley Orgánica 3/2018 limita la conservación de las imágenes de videovigilancia a un mes, salvo que deban conservarse por estar relacionadas con hechos relevantes.",
+      "trampaExamen": "El plazo de un mes no autoriza a conservar imágenes indefinidamente por mera comodidad administrativa.",
+      "referencia": "manual.md · apartado 8 · Artículo 22"
+    },
+    {
+      "id": "LP-T09-007",
+      "enunciado": "Cuando unas imágenes de videovigilancia recogen un posible delito o infracción, deben ponerse a disposición de la autoridad competente en un plazo máximo de:",
+      "opciones": [
+        "24 horas desde la grabación",
+        "48 horas desde la grabación",
+        "72 horas desde que se conoce la existencia de la grabación",
+        "Un mes desde que se instala la cámara"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Las imágenes relacionadas con delitos o infracciones deben ponerse a disposición de la autoridad competente dentro de las setenta y dos horas siguientes a tener conocimiento de su existencia.",
+      "trampaExamen": "El cómputo no se vincula necesariamente al momento de grabación, sino al conocimiento de la existencia de las imágenes relevantes.",
+      "referencia": "manual.md · apartado 8 · Artículo 22"
+    },
+    {
+      "id": "LP-T09-008",
+      "enunciado": "En protección de datos, el responsable del tratamiento es quien:",
+      "opciones": [
+        "Trata datos por cuenta de otro siguiendo instrucciones",
+        "Decide los fines y los medios del tratamiento",
+        "Supervisa externamente a todas las Administraciones públicas",
+        "Actúa siempre como Delegado de Protección de Datos"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El responsable determina los fines y medios del tratamiento. El encargado trata los datos por cuenta del responsable con arreglo a un contrato u otro acto jurídico.",
+      "trampaExamen": "Un encargado que utiliza los datos para fines propios puede convertirse en responsable respecto de ese tratamiento.",
+      "referencia": "manual.md · apartado 10 · Artículos 28–32"
+    },
+    {
+      "id": "LP-T09-009",
+      "enunciado": "La designación o el cese del Delegado de Protección de Datos debe comunicarse a la autoridad de control en el plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Un mes",
+        "Tres meses"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley Orgánica 3/2018 exige comunicar a la autoridad de control la designación, nombramiento y cese del Delegado de Protección de Datos dentro de los diez días siguientes.",
+      "trampaExamen": "No confundir este plazo de diez días con los plazos de uno o dos meses para responder determinadas reclamaciones.",
+      "referencia": "manual.md · apartado 11 · Artículos 34–39"
+    },
+    {
+      "id": "LP-T09-010",
+      "enunciado": "Una brecha de seguridad debe notificarse a la autoridad de control, cuando proceda:",
+      "opciones": [
+        "En todo caso dentro de 24 horas",
+        "Sin dilación indebida y, de ser posible, en 72 horas desde que se tenga constancia",
+        "Únicamente cuando lo solicite el afectado",
+        "Dentro de un mes desde el cierre de la investigación interna"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El RGPD exige notificar la violación de seguridad sin dilación indebida y, cuando sea posible, dentro de las setenta y dos horas desde que el responsable tenga constancia, salvo que sea improbable que entrañe riesgo para los derechos y libertades.",
+      "trampaExamen": "No toda brecha se comunica al afectado: esa comunicación se reserva, en general, para supuestos de alto riesgo.",
+      "referencia": "manual.md · apartado 22 · Seguridad, brechas y evaluación de impacto"
+    },
+    {
+      "id": "LP-T09-011",
+      "enunciado": "En los tratamientos realizados por una autoridad pública en ejercicio de sus funciones, la base jurídica que no debe utilizarse como regla es:",
+      "opciones": [
+        "Obligación legal",
+        "Misión de interés público",
+        "Ejercicio de poderes públicos",
+        "Interés legítimo"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El RGPD excluye el interés legítimo como base para tratamientos realizados por autoridades públicas en el ejercicio de sus funciones. En esos casos suelen operar obligación legal, interés público o poderes públicos.",
+      "trampaExamen": "La exclusión afecta al ejercicio de funciones públicas, no a cualquier actuación imaginable de una entidad pública.",
+      "referencia": "manual.md · apartado 21 · Bases jurídicas"
+    },
+    {
+      "id": "LP-T09-012",
+      "enunciado": "Respecto de las infracciones cometidas por una Administración pública, la regla del artículo 77 de la Ley Orgánica 3/2018 es que:",
+      "opciones": [
+        "Nunca existe responsabilidad",
+        "Se impone siempre la misma multa que a una empresa privada",
+        "La autoridad declara la infracción, ordena medidas correctoras y puede promover actuaciones disciplinarias",
+        "Únicamente cabe una advertencia informal sin publicación"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "En el sector público la regla no es la multa administrativa ordinaria, sino la declaración de infracción, la adopción de medidas correctoras, la posible propuesta de actuaciones disciplinarias y la publicación de la resolución.",
+      "trampaExamen": "La ausencia de multa ordinaria no equivale a impunidad ni a inexistencia de responsabilidad.",
+      "referencia": "manual.md · apartado 15 · Artículos 70–78"
+    }
+  ]
 }
