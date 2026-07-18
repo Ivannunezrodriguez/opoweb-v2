@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.16.0",
+  "version": "0.17.0",
   "updatedAt": "2026-07-18",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -252,7 +252,21 @@
     {
       "numero": 17,
       "titulo": "LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "APROBADO_USUARIO",
+      "manual": "content/la-puebla/tema-17/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-17/bloque-01-entorno-formatos.md",
+        "content/la-puebla/tema-17/bloque-02-edicion-busqueda.md",
+        "content/la-puebla/tema-17/bloque-03-formato-estilos.md",
+        "content/la-puebla/tema-17/bloque-04-paginas-objetos.md",
+        "content/la-puebla/tema-17/bloque-05-revision-salida.md"
+      ],
+      "matriz": "content/la-puebla/tema-17/matriz.json",
+      "feedback": "content/la-puebla/tema-17/feedback.md",
+      "preguntas": "content/la-puebla/tema-17/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-17/fuentes.md",
+      "aprobadoEl": "2026-07-18",
+      "aprobacion": "content/la-puebla/tema-17/aprobacion.md"
     },
     {
       "numero": 18,

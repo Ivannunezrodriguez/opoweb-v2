@@ -1,0 +1,210 @@
+{
+  "tema": 17,
+  "estado": "APROBADO_USUARIO",
+  "epigrafeOficial": "LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.",
+  "fechaRevisionTecnica": "2026-07-18",
+  "referenciasPrincipales": [
+    "Microsoft Word para Microsoft 365 y Word 2024",
+    "LibreOffice Writer, ayuda oficial vigente"
+  ],
+  "manual": "content/la-puebla/tema-17/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-17/bloque-01-entorno-formatos.md",
+    "content/la-puebla/tema-17/bloque-02-edicion-busqueda.md",
+    "content/la-puebla/tema-17/bloque-03-formato-estilos.md",
+    "content/la-puebla/tema-17/bloque-04-paginas-objetos.md",
+    "content/la-puebla/tema-17/bloque-05-revision-salida.md"
+  ],
+  "trazabilidad": "content/la-puebla/tema-17/fuentes.md",
+  "cobertura": [
+    {
+      "inciso": "LibreOffice y Microsoft Office",
+      "fuentes": [
+        "Ayuda y aprendizaje de Word",
+        "Ayuda de LibreOffice Writer"
+      ],
+      "secciones": [
+        "interfaz",
+        "Word",
+        "Writer",
+        "documentos",
+        "formatos",
+        "compatibilidad"
+      ],
+      "contenidoExigible": [
+        "identificar programas",
+        "crear y abrir",
+        "guardar y exportar",
+        "distinguir DOCX y ODT"
+      ]
+    },
+    {
+      "inciso": "Edición y navegación",
+      "fuentes": [
+        "Métodos abreviados de teclado de Word",
+        "Atajos de teclado para LibreOffice Writer",
+        "Navegador de Writer"
+      ],
+      "secciones": [
+        "selección",
+        "Portapapeles",
+        "saltos",
+        "buscar",
+        "reemplazar",
+        "ortografía"
+      ],
+      "contenidoExigible": [
+        "editar texto",
+        "usar búsqueda",
+        "corregir",
+        "navegar en documentos largos"
+      ]
+    },
+    {
+      "inciso": "Formato y estilos",
+      "fuentes": [
+        "Ayuda de Word",
+        "Formato de LibreOffice",
+        "Writer Guide"
+      ],
+      "secciones": [
+        "carácter",
+        "párrafo",
+        "sangrías",
+        "estilos",
+        "listas",
+        "plantillas"
+      ],
+      "contenidoExigible": [
+        "distinguir formato directo y estilos",
+        "aplicar jerarquía",
+        "crear listas",
+        "mantener uniformidad"
+      ]
+    },
+    {
+      "inciso": "Diseño de página y objetos",
+      "fuentes": [
+        "Encabezados y pies por secciones en Word",
+        "Writer Guide"
+      ],
+      "secciones": [
+        "márgenes",
+        "orientación",
+        "secciones",
+        "estilos de página",
+        "tablas",
+        "imágenes"
+      ],
+      "contenidoExigible": [
+        "configurar páginas",
+        "diferenciar sección y estilo de página",
+        "trabajar con tablas e imágenes"
+      ]
+    },
+    {
+      "inciso": "Revisión y salida",
+      "fuentes": [
+        "Modos de documento en Word",
+        "Combinar revisiones",
+        "Combinar correspondencia",
+        "Exportar a PDF"
+      ],
+      "secciones": [
+        "comentarios",
+        "control de cambios",
+        "coautoría",
+        "combinación",
+        "impresión",
+        "PDF"
+      ],
+      "contenidoExigible": [
+        "revisar",
+        "combinar datos",
+        "imprimir",
+        "exportar y comprobar salida"
+      ]
+    }
+  ],
+  "atajosComparados": [
+    {
+      "accion": "cortar",
+      "word": "Ctrl + X",
+      "writer": "Ctrl + X"
+    },
+    {
+      "accion": "copiar",
+      "word": "Ctrl + C",
+      "writer": "Ctrl + C"
+    },
+    {
+      "accion": "pegar",
+      "word": "Ctrl + V",
+      "writer": "Ctrl + V"
+    },
+    {
+      "accion": "deshacer",
+      "word": "Ctrl + Z",
+      "writer": "Ctrl + Z"
+    },
+    {
+      "accion": "buscar y reemplazar",
+      "word": "Ctrl + H",
+      "writer": "Ctrl + H"
+    },
+    {
+      "accion": "salto de página",
+      "word": "Ctrl + Intro",
+      "writer": "Ctrl + Intro"
+    },
+    {
+      "accion": "ortografía",
+      "word": "F7",
+      "writer": "F7"
+    },
+    {
+      "accion": "seleccionar todo, ayuda española",
+      "word": "Ctrl + A",
+      "writer": "Ctrl + E"
+    },
+    {
+      "accion": "guardar, ayuda española",
+      "word": "Ctrl + S",
+      "writer": "Ctrl + G"
+    },
+    {
+      "accion": "justificar",
+      "word": "Ctrl + J",
+      "writer": "Ctrl + J"
+    },
+    {
+      "accion": "centrar, ayuda española",
+      "word": "Ctrl + E",
+      "writer": "Ctrl + T"
+    },
+    {
+      "accion": "Navegador o navegación",
+      "word": "panel Navegación",
+      "writer": "F5"
+    }
+  ],
+  "diferenciasClave": [
+    "DOCX frente a ODT",
+    "cinta y Backstage frente a menús, barras y barra lateral",
+    "secciones de Word frente a estilos de página de Writer",
+    "atajos localizados diferentes",
+    "exportación y compatibilidad entre formatos"
+  ],
+  "exclusionesDelNucleo": [
+    "programación VBA",
+    "LibreOffice Basic",
+    "macros avanzadas",
+    "maquetación profesional",
+    "administración Microsoft 365",
+    "XML interno de formatos",
+    "bibliografías avanzadas",
+    "firma electrónica avanzada"
+  ],
+  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 17 aprobado. No se aprueba por extensión ni validación técnica.",
+  "aprobadoEl": "2026-07-18"
+}
