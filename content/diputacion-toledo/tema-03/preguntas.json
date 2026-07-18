@@ -1,0 +1,114 @@
+{
+  "tema": 3,
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "preguntas": [
+    {
+      "id": "DIP-T03-001",
+      "pregunta": "¿En quién reside la soberanía nacional según la Constitución Española?",
+      "opciones": ["En las Cortes Generales", "En el Rey", "En el pueblo español", "En el Gobierno"],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 1.2 de la Constitución establece que la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.",
+      "trampaExamen": "No debe confundirse el órgano que representa al pueblo, las Cortes Generales, con el titular de la soberanía, que es el pueblo español.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#2-organización-constitucional-del-estado"
+    },
+    {
+      "id": "DIP-T03-002",
+      "pregunta": "¿Cuál es la forma política del Estado español?",
+      "opciones": ["República parlamentaria", "Monarquía constitucional", "Monarquía parlamentaria", "Monarquía federal"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Constitución define expresamente la forma política del Estado español como Monarquía parlamentaria, no como mera monarquía constitucional.",
+      "trampaExamen": "La expresión literal exigible es Monarquía parlamentaria; otras fórmulas próximas suelen utilizarse como distractores.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#2-organización-constitucional-del-estado"
+    },
+    {
+      "id": "DIP-T03-003",
+      "pregunta": "¿Qué entidades integran la organización territorial del Estado del artículo 137?",
+      "opciones": ["Municipios, provincias y comunidades autónomas", "Municipios, comarcas y provincias", "Provincias, islas y regiones", "Municipios, diputaciones y comunidades autónomas"],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 137 organiza territorialmente el Estado en municipios, provincias y comunidades autónomas que se constituyan, todas con autonomía para gestionar sus intereses.",
+      "trampaExamen": "Las diputaciones son órganos de gobierno provincial, pero no aparecen como categoría territorial autónoma en el artículo 137.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#4-organización-territorial-del-estado"
+    },
+    {
+      "id": "DIP-T03-004",
+      "pregunta": "¿Quién asume la responsabilidad de los actos del Rey que requieren refrendo?",
+      "opciones": ["El propio Rey", "Las Cortes Generales", "Quien los refrenda", "El Tribunal Constitucional"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La persona del Rey es inviolable y no está sujeta a responsabilidad; la responsabilidad de sus actos recae en quienes los refrendan.",
+      "trampaExamen": "El refrendo no es una formalidad vacía: desplaza la responsabilidad política y jurídica al órgano refrendante.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#52-inviolabilidad-y-refrendo"
+    },
+    {
+      "id": "DIP-T03-005",
+      "pregunta": "¿Cuál de las siguientes funciones corresponde al Rey?",
+      "opciones": ["Aprobar definitivamente los Presupuestos", "Sancionar y promulgar las leyes", "Ejercer la potestad legislativa", "Nombrar libremente a los ministros"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Corresponde al Rey sancionar y promulgar las leyes. Los ministros son nombrados y separados por el Rey a propuesta del Presidente del Gobierno.",
+      "trampaExamen": "El Rey nombra a los ministros, pero no libremente: necesita la propuesta del Presidente del Gobierno.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#55-funciones-del-rey"
+    },
+    {
+      "id": "DIP-T03-006",
+      "pregunta": "¿Cuál es el número constitucional de diputados del Congreso?",
+      "opciones": ["Entre 250 y 350", "Exactamente 350", "Entre 300 y 400", "Entre 350 y 450"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Constitución fija que el Congreso se compone de un mínimo de 300 y un máximo de 400 diputados, aunque la legislación electoral concreta actualmente 350.",
+      "trampaExamen": "No confundir el rango constitucional de 300 a 400 con la cifra legal vigente de 350 diputados.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#62-congreso-de-los-diputados"
+    },
+    {
+      "id": "DIP-T03-007",
+      "pregunta": "¿Cuántos senadores se eligen en cada provincia peninsular?",
+      "opciones": ["Dos", "Tres", "Cuatro", "Cinco"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La regla general constitucional es la elección de cuatro senadores por cada provincia, con especialidades para islas, Ceuta y Melilla.",
+      "trampaExamen": "La cifra de cuatro es la regla provincial general; los territorios insulares y las ciudades autónomas tienen reglas específicas.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#63-senado"
+    },
+    {
+      "id": "DIP-T03-008",
+      "pregunta": "¿Qué garantía parlamentaria impide detener a un diputado o senador salvo en caso de flagrante delito?",
+      "opciones": ["Inviolabilidad", "Inmunidad", "Aforamiento", "Independencia"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La inmunidad parlamentaria protege frente a la detención, salvo flagrante delito. La inviolabilidad se refiere a opiniones manifestadas en el ejercicio de las funciones.",
+      "trampaExamen": "Inviolabilidad protege opiniones; inmunidad limita detención y procesamiento. Son conceptos distintos y muy preguntados.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#64-inviolabilidad-inmunidad-y-aforamiento"
+    },
+    {
+      "id": "DIP-T03-009",
+      "pregunta": "¿Cuál es el mínimo de miembros de cada Diputación Permanente?",
+      "opciones": ["15", "20", "21", "25"],
+      "respuestaCorrecta": 2,
+      "justificacion": "Cada Cámara dispone de una Diputación Permanente compuesta por un mínimo de 21 miembros, representativos de los grupos parlamentarios.",
+      "trampaExamen": "La Constitución fija un mínimo de 21 miembros, no una composición cerrada de exactamente 21.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#66-diputación-permanente"
+    },
+    {
+      "id": "DIP-T03-010",
+      "pregunta": "¿Qué mayoría se exige para elegir al Defensor del Pueblo?",
+      "opciones": ["Mayoría absoluta del Congreso y simple del Senado", "Tres quintos del Congreso y tres quintos del Senado", "Dos tercios de ambas Cámaras", "Mayoría simple de ambas Cámaras"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La elección requiere mayoría de tres quintos del Congreso y posterior ratificación por mayoría de tres quintos del Senado.",
+      "trampaExamen": "La mayoría es idéntica en ambas Cámaras: tres quintos. No se sustituye por mayoría absoluta en ninguna fase ordinaria.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#7-defensor-del-pueblo"
+    },
+    {
+      "id": "DIP-T03-011",
+      "pregunta": "¿Cuánto dura el mandato del Defensor del Pueblo?",
+      "opciones": ["Tres años", "Cuatro años", "Cinco años", "Nueve años"],
+      "respuestaCorrecta": 2,
+      "justificacion": "El Defensor del Pueblo es elegido por las Cortes Generales para un periodo de cinco años, independiente de la duración ordinaria de las legislaturas.",
+      "trampaExamen": "No confundir los cinco años del Defensor con los cuatro años de Congreso y Senado ni con los nueve de los consejeros de Cuentas.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#7-defensor-del-pueblo"
+    },
+    {
+      "id": "DIP-T03-012",
+      "pregunta": "¿Cuál es la composición del Tribunal de Cuentas?",
+      "opciones": ["10 consejeros por seis años", "12 consejeros por nueve años", "12 magistrados por cinco años", "15 consejeros por nueve años"],
+      "respuestaCorrecta": 1,
+      "justificacion": "El Tribunal de Cuentas está integrado por 12 consejeros, seis designados por cada Cámara, por mayoría de tres quintos y para nueve años.",
+      "trampaExamen": "El mandato de los consejeros es de nueve años, mientras que el Presidente del Tribunal lo es por tres años.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#8-tribunal-de-cuentas"
+    }
+  ]
+}
