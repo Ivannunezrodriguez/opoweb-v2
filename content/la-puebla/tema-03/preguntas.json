@@ -1,6 +1,183 @@
 {
   "tema": 3,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual está aprobado, pero las preguntas no se crean para inflar métricas. Cada pregunta deberá revisarse y vincularse a un artículo concreto de la Ley 39/2015 antes de publicarse."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T03-001",
+      "enunciado": "¿Cuál de los siguientes derechos corresponde específicamente al interesado en un procedimiento conforme al artículo 53 de la Ley 39/2015?",
+      "opciones": [
+        "Conocer en cualquier momento el estado de la tramitación",
+        "Exigir siempre que el procedimiento sea presencial",
+        "Obtener una resolución favorable",
+        "Elegir libremente el órgano competente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 53 reconoce al interesado el derecho a conocer el estado de la tramitación, el sentido del silencio, los actos de trámite y el órgano competente, entre otros.",
+      "trampaExamen": "El artículo 53 reconoce derechos procedimentales, no garantiza un resultado favorable.",
+      "referencia": "manual.md · apartado 3 · Artículo 53"
+    },
+    {
+      "id": "LP-T03-002",
+      "enunciado": "Las medidas provisionales adoptadas antes de iniciar formalmente el procedimiento deben confirmarse, modificarse o levantarse en el acuerdo de iniciación dictado dentro de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Un mes"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Las medidas previas a la iniciación deben ser objeto de confirmación, modificación o levantamiento en el acuerdo de iniciación, que debe dictarse dentro de los quince días siguientes.",
+      "trampaExamen": "Si no se inicia el procedimiento en ese plazo o el acuerdo no se pronuncia expresamente, las medidas quedan sin efecto.",
+      "referencia": "manual.md · apartado 6 · Artículo 56"
+    },
+    {
+      "id": "LP-T03-003",
+      "enunciado": "¿Cuál de las siguientes formas de iniciación de oficio vincula necesariamente al órgano competente para iniciar?",
+      "opciones": [
+        "La denuncia",
+        "La petición razonada de otro órgano",
+        "La orden superior",
+        "Ninguna de las anteriores vincula siempre en los mismos términos"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La orden superior procede de un órgano jerárquicamente superior. La petición razonada no vincula y la denuncia tampoco obliga por sí sola a iniciar.",
+      "trampaExamen": "Petición razonada y denuncia pueden provocar valoración, pero no sustituyen el acuerdo del órgano competente.",
+      "referencia": "manual.md · apartados 8 a 12 · Artículos 58 a 62"
+    },
+    {
+      "id": "LP-T03-004",
+      "enunciado": "La presentación de una denuncia confiere por sí sola al denunciante la condición de interesado:",
+      "opciones": [
+        "Siempre",
+        "Solo en procedimientos sancionadores",
+        "Solo cuando identifica al presunto responsable",
+        "No"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 62 establece que la denuncia, por sí sola, no confiere la condición de interesado en el procedimiento.",
+      "trampaExamen": "Comunicar hechos a la Administración no equivale automáticamente a ser titular de un derecho o interés legítimo afectado.",
+      "referencia": "manual.md · apartado 12 · Artículo 62"
+    },
+    {
+      "id": "LP-T03-005",
+      "enunciado": "En una solicitud de responsabilidad patrimonial, el derecho a reclamar prescribe con carácter general al:",
+      "opciones": [
+        "Mes",
+        "Año",
+        "Dos años",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 67 fija con carácter general un plazo de un año, cuyo inicio depende del tipo de daño, su manifestación, la curación o la resolución correspondiente.",
+      "trampaExamen": "No todos los daños comienzan a computarse desde el mismo momento.",
+      "referencia": "manual.md · apartado 17 · Artículo 67"
+    },
+    {
+      "id": "LP-T03-006",
+      "enunciado": "Si una solicitud no reúne los requisitos exigidos, el plazo general de subsanación es de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Veinte días"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 68 concede diez días para subsanar, con posible ampliación de hasta cinco días cuando existan dificultades especiales y no se trate de procedimientos selectivos o competitivos.",
+      "trampaExamen": "La ampliación adicional de cinco días no es automática ni procede en todos los procedimientos.",
+      "referencia": "manual.md · apartado 18 · Artículo 68"
+    },
+    {
+      "id": "LP-T03-007",
+      "enunciado": "El período ordinario de prueba debe tener una duración:",
+      "opciones": [
+        "Entre cinco y quince días",
+        "Entre diez y treinta días",
+        "Entre quince y cuarenta días",
+        "Máxima de diez días"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 77 establece un período de prueba no inferior a diez días ni superior a treinta, con posible período extraordinario máximo de diez días a petición del interesado.",
+      "trampaExamen": "El plazo extraordinario de diez días no sustituye al período ordinario de diez a treinta días.",
+      "referencia": "manual.md · apartado 27 · Artículo 77"
+    },
+    {
+      "id": "LP-T03-008",
+      "enunciado": "Salvo disposición expresa en contrario, los informes administrativos son:",
+      "opciones": [
+        "Preceptivos y vinculantes",
+        "Facultativos y no vinculantes",
+        "Preceptivos y no vinculantes",
+        "Facultativos y vinculantes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Como regla general, los informes son facultativos y no vinculantes y deben emitirse electrónicamente en diez días, salvo que otra norma disponga algo distinto.",
+      "trampaExamen": "Que un informe sea solicitado no lo convierte automáticamente en preceptivo ni vinculante.",
+      "referencia": "manual.md · apartado 30 · Artículo 80"
+    },
+    {
+      "id": "LP-T03-009",
+      "enunciado": "El trámite de audiencia concede a los interesados un plazo para alegar y aportar documentos de:",
+      "opciones": [
+        "Cinco a diez días",
+        "Diez a quince días",
+        "Quince a veinte días",
+        "Al menos veinte días"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 82 fija un plazo no inferior a diez días ni superior a quince días para formular alegaciones y presentar documentos.",
+      "trampaExamen": "El plazo mínimo de veinte días corresponde a la información pública, no a la audiencia.",
+      "referencia": "manual.md · apartado 32 · Artículo 82"
+    },
+    {
+      "id": "LP-T03-010",
+      "enunciado": "En un procedimiento sancionador con sanción únicamente pecuniaria, las reducciones por reconocimiento de responsabilidad y pago voluntario serán, cada una, de al menos:",
+      "opciones": [
+        "10 %",
+        "15 %",
+        "20 %",
+        "25 %"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 85 establece reducciones de al menos el veinte por ciento por reconocimiento y por pago voluntario, acumulables entre sí y condicionadas a desistir o renunciar a recursos administrativos.",
+      "trampaExamen": "Las reducciones son acumulables, pero requieren las condiciones previstas en la notificación de iniciación.",
+      "referencia": "manual.md · apartado 35 · Artículo 85"
+    },
+    {
+      "id": "LP-T03-011",
+      "enunciado": "La tramitación simplificada debe resolverse, con carácter general, en:",
+      "opciones": [
+        "Quince días",
+        "Veinte días",
+        "Treinta días",
+        "Tres meses"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 96 fija un plazo general de treinta días, salvo que reste menos para finalizar el procedimiento por la vía ordinaria.",
+      "trampaExamen": "La solicitud del interesado para tramitar de forma simplificada se entiende desestimada si no se resuelve en cinco días.",
+      "referencia": "manual.md · apartado 46 · Artículo 96"
+    },
+    {
+      "id": "LP-T03-012",
+      "enunciado": "¿Cuál de los siguientes no es un medio de ejecución forzosa del artículo 100?",
+      "opciones": [
+        "Apremio sobre el patrimonio",
+        "Ejecución subsidiaria",
+        "Multa coercitiva",
+        "Recurso de alzada"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Los medios de ejecución forzosa son apremio sobre el patrimonio, ejecución subsidiaria, multa coercitiva y compulsión sobre las personas.",
+      "trampaExamen": "La multa coercitiva no es una sanción; es un medio de ejecución compatible con sanciones.",
+      "referencia": "manual.md · apartado 50 · Artículo 100"
+    }
+  ]
 }
