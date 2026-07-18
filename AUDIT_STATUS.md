@@ -20,8 +20,8 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 | Protección de datos | 9 | `AUDITADO_NORMA_VIGENTE` | Verificados LOPDGDD y RGPD: derechos, videovigilancia, DPD, brechas, AEPD y derechos digitales |
 | Tributación local | 10 | `AUDITADO_NORMA_VIGENTE` | Verificados principios, delegación, beneficios fiscales, obligaciones, obligados, deuda y gestión tributaria |
 | Recaudación local | 11 | `AUDITADO_NORMA_VIGENTE` | Verificados periodo voluntario, aplazamiento, compensación, devoluciones, ejecutiva, providencia, embargo y tercerías |
-| Impuestos locales | 12 | `EN_AUDITORIA` | IBI, IAE, IVTM, ICIO e IIVTNU |
-| Administración electrónica | 13–14 | `PENDIENTE_AUDITORIA` | eIDAS, certificados, Ley 40/2015 y AGE |
+| Impuestos locales | 12 | `AUDITADO_NORMA_VIGENTE` | Verificados IBI, IAE, IVTM e IIVTNU. Corregido el seguimiento: el ICIO no forma parte del epígrafe oficial |
+| Administración electrónica | 13–14 | `EN_AUDITORIA` | eIDAS, certificados, Ley 40/2015 y AGE |
 | Ofimática y microinformática | 15–19 | `PENDIENTE_AUDITORIA` | Windows 11, Edge, Word/Writer, Excel/Calc y hardware |
 
 ## Temas auditados
@@ -39,6 +39,7 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 | 9 | Revisados los artículos **1–97 y 53 bis** de la LOPDGDD junto con el RGPD. Confirmados **14 años**, **1+2 meses**, **1 mes**, **10 días**, **72 horas** y el régimen especial de las Administraciones públicas. | `content/la-puebla/tema-09/auditoria-2026-07-18.md` |
 | 10 | Revisados TRLRHL y LGT: principios, delegación, colaboración, beneficios, obligaciones, obligados, deuda y gestión. Confirmados **5 %**, recargos **1/15 %**, **5/10/20 %**, prescripción de **4 años** y duración general de **6 meses**. | `content/la-puebla/tema-10/auditoria-2026-07-18.md` |
 | 11 | Revisadas recaudación voluntaria y ejecutiva, aplazamiento, compensación, devoluciones, providencia, embargo y tercerías. Confirmados plazos de pago, recargos **5/10/20 %**, prescripción de **4 años** y devolución en **6 meses**. | `content/la-puebla/tema-11/auditoria-2026-07-18.md` |
+| 12 | Revisados IBI, IAE, IVTM e IIVTNU: naturaleza, hecho imponible, no sujeción, exenciones esenciales y sujetos pasivos. Confirmados **1.000.000 €**, **2 periodos impositivos** y **750 kg**. Eliminada la referencia incorrecta al ICIO. | `content/la-puebla/tema-12/auditoria-2026-07-18.md` |
 
 ## Criterios aplicados a cada tema
 
@@ -67,7 +68,7 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 ## Orden de trabajo
 
 1. Corregir en el manual del **tema 6** el plazo del artículo **8.1.c)** y revisar sus preguntas asociadas.
-2. Auditar y corregir el **tema 12**.
-3. Continuar con **13–14** y **15–19**.
+2. Auditar y corregir los **temas 13–14**.
+3. Continuar con **15–19**.
 4. Generar preguntas y supuestos únicamente después de que el contenido base esté auditado.
 5. Reutilizar los temas comunes en Carranque, Las Ventas con Peña Aguilera y futuras convocatorias mediante una matriz de equivalencias, sin duplicar versiones contradictorias.
