@@ -23,7 +23,8 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 | Impuestos locales | 12 | `AUDITADO_NORMA_VIGENTE` | Verificados IBI, IAE, IVTM e IIVTNU. Corregido el seguimiento: el ICIO no forma parte del epígrafe oficial |
 | Certificado electrónico | 13 | `GENERADO_Y_AUDITADO_NORMA_VIGENTE` | Generado desde cero: eIDAS, Ley 6/2020, tipos, soportes, prestadores, cualificación y servicios de confianza |
 | Ley 40/2015 y AGE | 14 | `AUDITADO_NORMA_VIGENTE` | Verificados artículos **5–24** y **54–80**, incluido el artículo **55 bis**, órganos, competencia y estructura estatal |
-| Ofimática y microinformática | 15–19 | `EN_AUDITORIA` | Windows 11, Edge, Word/Writer, Excel/Calc y hardware |
+| Windows I | 15 | `AUDITADO_TECNICA_VIGENTE` | Explorador, archivos, carpetas, unidades locales y de red, impresión y digitalización en Windows 11 |
+| Navegación, ofimática y hardware | 16–19 | `EN_AUDITORIA` | Edge, Word/Writer, Excel/Calc y microinformática |
 
 ## Temas auditados
 
@@ -43,6 +44,7 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 | 12 | Revisados IBI, IAE, IVTM e IIVTNU: naturaleza, hecho imponible, no sujeción, exenciones esenciales y sujetos pasivos. Confirmados **1.000.000 €**, **2 periodos impositivos** y **750 kg**. Eliminada la referencia incorrecta al ICIO. | `content/la-puebla/tema-12/auditoria-2026-07-18.md` |
 | 13 | Tema generado desde cero. Incorporados eIDAS modificado en **2024**, Reglamento de Ejecución **2026/248**, Ley 6/2020, firma cualificada, certificados, soportes, prestadores y listas de confianza. | `content/la-puebla/tema-13/auditoria-2026-07-18.md` |
 | 14 | Revisados los artículos **5–24** y **54–80** de la Ley 40/2015. Confirmados quórum de **la mitad**, parentesco de **4.º/2.º grado**, recusación en **1/3 días** y presencia equilibrada **40/60**. | `content/la-puebla/tema-14/auditoria-2026-07-18.md` |
+| 15 | Revisados Explorador, operaciones con archivos, Papelera, unidades locales y UNC, impresión y escaneado. Confirmados `Windows + E`, `Mayús + Supr`, Print to PDF y destino habitual **Imágenes/Digitalizaciones**. | `content/la-puebla/tema-15/auditoria-2026-07-18.md` |
 
 ## Criterios aplicados a cada tema
 
@@ -71,6 +73,6 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 ## Orden de trabajo
 
 1. Corregir en el manual del **tema 6** el plazo del artículo **8.1.c)** y revisar sus preguntas asociadas.
-2. Auditar y corregir los **temas 15–19**.
+2. Auditar y corregir los **temas 16–19**.
 3. Generar preguntas y supuestos únicamente después de que el contenido base esté auditado.
 4. Reutilizar los temas comunes en Carranque, Las Ventas con Peña Aguilera y futuras convocatorias mediante una matriz de equivalencias, sin duplicar versiones contradictorias.
