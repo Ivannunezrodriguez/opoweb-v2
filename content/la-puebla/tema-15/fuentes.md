@@ -1,6 +1,6 @@
 # Tema 15 · Trazabilidad de fuentes oficiales
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 Este tema no contiene un bloque jurídico articulado. La trazabilidad sustituye `norma → artículo` por `inciso oficial → documentación primaria de Microsoft → operación exigible`.
 
@@ -69,3 +69,5 @@ No forman parte central del epígrafe:
 - perfiles de color profesionales;
 - normativa de documento electrónico y copia auténtica;
 - firma electrónica y certificado, tratados en el tema 13.
+
+La trazabilidad fue aprobada junto con el manual mediante la expresión **«Tema 15 aprobado»** el 18 de julio de 2026.
