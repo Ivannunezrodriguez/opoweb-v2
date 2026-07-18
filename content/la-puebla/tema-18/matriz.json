@@ -1,0 +1,226 @@
+{
+  "tema": 18,
+  "estado": "APROBADO_USUARIO",
+  "epigrafeOficial": "LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.",
+  "fechaRevisionTecnica": "2026-07-18",
+  "referenciasPrincipales": [
+    "Microsoft Excel para Microsoft 365 y Excel 2024",
+    "LibreOffice Calc, ayuda oficial vigente"
+  ],
+  "manual": "content/la-puebla/tema-18/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-18/bloque-01-entorno-datos-formatos.md",
+    "content/la-puebla/tema-18/bloque-02-formulas-funciones.md",
+    "content/la-puebla/tema-18/bloque-03-formato-validacion.md",
+    "content/la-puebla/tema-18/bloque-04-datos-analisis.md",
+    "content/la-puebla/tema-18/bloque-05-graficos-salida.md"
+  ],
+  "trazabilidad": "content/la-puebla/tema-18/fuentes.md",
+  "cobertura": [
+    {
+      "inciso": "LibreOffice y Microsoft Office",
+      "fuentes": [
+        "Ayuda y formación de Excel",
+        "Funcionalidades de LibreOffice Calc"
+      ],
+      "secciones": [
+        "interfaz",
+        "libro",
+        "hoja",
+        "celda",
+        "rango",
+        "formatos",
+        "compatibilidad"
+      ],
+      "contenidoExigible": [
+        "identificar Excel y Calc",
+        "distinguir libro y hoja",
+        "usar formatos nativos",
+        "comprender CSV y PDF"
+      ]
+    },
+    {
+      "inciso": "Elaboración de hojas de cálculo",
+      "fuentes": [
+        "Tareas básicas en Excel",
+        "Calc Guide 24.2"
+      ],
+      "secciones": [
+        "entrada de datos",
+        "autorrelleno",
+        "edición",
+        "hojas",
+        "formato"
+      ],
+      "contenidoExigible": [
+        "crear y guardar",
+        "introducir y editar datos",
+        "organizar hojas",
+        "aplicar formatos"
+      ]
+    },
+    {
+      "inciso": "Fórmulas y funciones",
+      "fuentes": [
+        "Información general sobre fórmulas en Excel",
+        "Direcciones y referencias, absolutas y relativas"
+      ],
+      "secciones": [
+        "operadores",
+        "referencias relativas",
+        "referencias absolutas",
+        "funciones",
+        "errores"
+      ],
+      "contenidoExigible": [
+        "escribir fórmulas",
+        "copiar referencias correctamente",
+        "usar funciones básicas",
+        "interpretar errores"
+      ]
+    },
+    {
+      "inciso": "Uso y análisis de datos",
+      "fuentes": [
+        "Ordenar datos en un rango o tabla",
+        "Datos: ordenar, filtrar, subtotales y tabla dinámica"
+      ],
+      "secciones": [
+        "validación",
+        "ordenación",
+        "filtros",
+        "subtotales",
+        "tablas dinámicas",
+        "CSV"
+      ],
+      "contenidoExigible": [
+        "mantener integridad de registros",
+        "filtrar sin eliminar",
+        "validar entradas",
+        "resumir datos"
+      ]
+    },
+    {
+      "inciso": "Representación y salida",
+      "fuentes": [
+        "Información general sobre tablas dinámicas y gráficos dinámicos",
+        "Calc Guide 24.2 · Gráficos",
+        "Imprimir detalles de hojas"
+      ],
+      "secciones": [
+        "gráficos",
+        "configuración de página",
+        "impresión",
+        "PDF",
+        "protección",
+        "accesibilidad"
+      ],
+      "contenidoExigible": [
+        "elegir gráfico adecuado",
+        "configurar impresión",
+        "exportar a PDF",
+        "distinguir protección y cifrado"
+      ]
+    }
+  ],
+  "atajosComparados": [
+    {
+      "accion": "guardar",
+      "excel": "Ctrl + G o Ctrl + S según localización y documentación",
+      "calc": "Ctrl + G en configuración española habitual"
+    },
+    {
+      "accion": "copiar",
+      "excel": "Ctrl + C",
+      "calc": "Ctrl + C"
+    },
+    {
+      "accion": "cortar",
+      "excel": "Ctrl + X",
+      "calc": "Ctrl + X"
+    },
+    {
+      "accion": "pegar",
+      "excel": "Ctrl + V",
+      "calc": "Ctrl + V"
+    },
+    {
+      "accion": "deshacer",
+      "excel": "Ctrl + Z",
+      "calc": "Ctrl + Z"
+    },
+    {
+      "accion": "rehacer",
+      "excel": "Ctrl + Y",
+      "calc": "Ctrl + Y"
+    },
+    {
+      "accion": "buscar",
+      "excel": "Ctrl + B o Ctrl + F según localización y contexto",
+      "calc": "Ctrl + B en configuración española habitual"
+    },
+    {
+      "accion": "editar celda",
+      "excel": "F2",
+      "calc": "F2"
+    },
+    {
+      "accion": "alternar referencias",
+      "excel": "F4 durante edición",
+      "calc": "F4 durante edición"
+    },
+    {
+      "accion": "formato de celdas",
+      "excel": "Ctrl + 1",
+      "calc": "Ctrl + 1"
+    },
+    {
+      "accion": "insertar fecha actual",
+      "excel": "Ctrl + ;",
+      "calc": "Ctrl + ; según configuración"
+    },
+    {
+      "accion": "mostrar fórmulas",
+      "excel": "Ctrl + ` según teclado",
+      "calc": "Ctrl + ` o configuración equivalente según entorno"
+    }
+  ],
+  "diferenciasClave": [
+    {
+      "materia": "formato nativo",
+      "excel": ".xlsx",
+      "calc": ".ods"
+    },
+    {
+      "materia": "referencia entre hojas",
+      "excel": "Hoja2!A1",
+      "calc": "Hoja2.A1"
+    },
+    {
+      "materia": "tabla estructurada",
+      "excel": "objeto Tabla",
+      "calc": "intervalos y rangos de datos no idénticos"
+    },
+    {
+      "materia": "tabla dinámica",
+      "excel": "Tabla dinámica",
+      "calc": "Tabla dinámica, históricamente DataPilot"
+    },
+    {
+      "materia": "macros",
+      "excel": "VBA y .xlsm",
+      "calc": "LibreOffice Basic y compatibilidad no equivalente"
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "VBA, Office Scripts y LibreOffice Basic",
+    "Power Query avanzado",
+    "Power Pivot y DAX",
+    "Solver y estadística avanzada",
+    "conexiones profesionales a bases de datos",
+    "funciones exhaustivas",
+    "cuadros de mando profesionales"
+  ],
+  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 18 aprobado. No se aprueba por extensión, número de funciones ni validación técnica.",
+  "aprobadoEl": "2026-07-18"
+}

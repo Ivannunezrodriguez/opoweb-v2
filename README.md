@@ -10,12 +10,12 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.17.0**.
+- Versión: **0.18.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
 - Temas 1–11: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 12–17: `APROBADO_USUARIO` el 18 de julio de 2026.
-- Temas 18–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 12–18: `APROBADO_USUARIO` el 18 de julio de 2026.
+- Tema 19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -52,7 +52,8 @@ opoweb-v2/
 │     ├─ tema-14/
 │     ├─ tema-15/
 │     ├─ tema-16/
-│     └─ tema-17/
+│     ├─ tema-17/
+│     └─ tema-18/
 │        ├─ manual.md
 │        ├─ cinco capítulos
 │        ├─ matriz.json
@@ -141,7 +142,11 @@ Microsoft Windows II: conceptos de Internet y web; navegación, pestañas, favor
 
 LibreOffice y Microsoft Office I: procesamiento de textos con Microsoft Word y LibreOffice Writer; entorno y formatos DOCX/ODT; edición, búsqueda y corrección; formato directo, párrafos, estilos y listas; páginas, secciones, encabezados, tablas e imágenes; comentarios, control de cambios, combinación de correspondencia, impresión, PDF y accesibilidad. Incluye las diferencias operativas esenciales entre Word y Writer.
 
-Los bancos de preguntas de los diecisiete temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 18
+
+LibreOffice y Microsoft Office II: hojas de cálculo con Microsoft Excel y LibreOffice Calc; libros, hojas, celdas, rangos y formatos XLSX/ODS/CSV; fórmulas, operadores, referencias y funciones; formato condicional, tablas, validación y protección; ordenación, filtros, subtotales y tablas dinámicas; gráficos, impresión, PDF y accesibilidad. Incluye las diferencias operativas esenciales entre Excel y Calc.
+
+Los bancos de preguntas de los dieciocho temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -161,4 +166,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente diecisiete temas aprobados, dos pendientes y que los archivos modulares de los temas 11, 12, 13, 14, 15, 16 y 17 permanecen enlazados y disponibles sin conexión.
+La validación confirma que existen exactamente dieciocho temas aprobados, un tema pendiente y que los archivos modulares de los temas 11, 12, 13, 14, 15, 16, 17 y 18 permanecen enlazados y disponibles sin conexión.
