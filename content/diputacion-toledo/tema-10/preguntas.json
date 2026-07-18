@@ -1,0 +1,114 @@
+{
+  "tema": 10,
+  "titulo": "Responsabilidad patrimonial de la Administración",
+  "preguntas": [
+    {
+      "id": "DIP-T10-001",
+      "pregunta": "Según el artículo 106.2 de la Constitución, ¿qué circunstancia excluye expresamente la indemnización?",
+      "opciones": ["El caso fortuito", "La fuerza mayor", "El funcionamiento normal", "La ausencia de culpa"],
+      "correcta": 1,
+      "justificacion": "La Constitución excluye los casos de fuerza mayor.",
+      "trampa": "No confundir fuerza mayor con caso fortuito.",
+      "referencia": "manual.md#1-fundamento-constitucional"
+    },
+    {
+      "id": "DIP-T10-002",
+      "pregunta": "El daño indemnizable debe ser:",
+      "opciones": ["Hipotético, general y futuro", "Efectivo, evaluable económicamente e individualizado", "Culpable, directo y contractual", "Exclusivamente material"],
+      "correcta": 1,
+      "justificacion": "Son los tres caracteres legales del daño indemnizable.",
+      "trampa": "La lesión también debe ser antijurídica, pero eso no sustituye estos tres requisitos.",
+      "referencia": "manual.md#32-daño-efectivo-evaluable-e-individualizado"
+    },
+    {
+      "id": "DIP-T10-003",
+      "pregunta": "La responsabilidad patrimonial puede derivar de un funcionamiento:",
+      "opciones": ["Solo anormal", "Solo normal", "Normal o anormal", "Únicamente ilícito"],
+      "correcta": 2,
+      "justificacion": "La Ley 40/2015 contempla el funcionamiento normal o anormal de los servicios públicos.",
+      "trampa": "La responsabilidad objetiva no exige funcionamiento ilícito.",
+      "referencia": "manual.md#34-funcionamiento-normal-o-anormal"
+    },
+    {
+      "id": "DIP-T10-004",
+      "pregunta": "Con carácter general, el derecho a reclamar prescribe al:",
+      "opciones": ["Mes", "Año", "Dos años", "Cuatro años"],
+      "correcta": 1,
+      "justificacion": "El plazo general de prescripción es de un año.",
+      "trampa": "No confundir con los cuatro años de la declaración de lesividad.",
+      "referencia": "manual.md#81-iniciación"
+    },
+    {
+      "id": "DIP-T10-005",
+      "pregunta": "En daños físicos o psíquicos, el plazo para reclamar comienza:",
+      "opciones": ["Siempre el día del accidente", "Al presentar el alta laboral", "Desde la curación o determinación del alcance de las secuelas", "Desde el primer informe médico"],
+      "correcta": 2,
+      "justificacion": "La Ley 39/2015 fija ese dies a quo específico.",
+      "trampa": "No siempre coincide con la fecha del hecho causante.",
+      "referencia": "manual.md#81-iniciación"
+    },
+    {
+      "id": "DIP-T10-006",
+      "pregunta": "El informe del servicio cuyo funcionamiento causó la lesión debe emitirse, como máximo, en:",
+      "opciones": ["5 días", "10 días", "15 días", "1 mes"],
+      "correcta": 1,
+      "justificacion": "El plazo máximo es de diez días.",
+      "trampa": "No confundir con el trámite de audiencia.",
+      "referencia": "manual.md#83-informe-del-servicio"
+    },
+    {
+      "id": "DIP-T10-007",
+      "pregunta": "En la normativa estatal, el dictamen consultivo es preceptivo cuando la indemnización reclamada sea igual o superior a:",
+      "opciones": ["30.000 euros", "50.000 euros", "100.000 euros", "No existe umbral"],
+      "correcta": 1,
+      "justificacion": "El umbral estatal es de 50.000 euros, sin perjuicio de la cuantía autonómica aplicable.",
+      "trampa": "La legislación autonómica puede establecer otra cuantía.",
+      "referencia": "manual.md#84-dictamen-consultivo"
+    },
+    {
+      "id": "DIP-T10-008",
+      "pregunta": "Transcurridos seis meses sin resolver una reclamación de responsabilidad patrimonial, esta se entiende:",
+      "opciones": ["Estimada", "Desestimada", "Caducada", "Suspendida"],
+      "correcta": 1,
+      "justificacion": "El silencio es desestimatorio.",
+      "trampa": "La regla no es silencio positivo.",
+      "referencia": "manual.md#86-resolución-y-silencio"
+    },
+    {
+      "id": "DIP-T10-009",
+      "pregunta": "El procedimiento simplificado de responsabilidad patrimonial debe resolverse en:",
+      "opciones": ["15 días", "20 días", "30 días", "3 meses"],
+      "correcta": 2,
+      "justificacion": "La tramitación simplificada debe resolverse en treinta días.",
+      "trampa": "No confundir con el plazo general de seis meses.",
+      "referencia": "manual.md#9-procedimiento-simplificado"
+    },
+    {
+      "id": "DIP-T10-010",
+      "pregunta": "El particular perjudicado por la actuación de un empleado público debe reclamar directamente:",
+      "opciones": ["Al empleado", "Al superior jerárquico", "A la Administración correspondiente", "Al Ministerio Fiscal"],
+      "correcta": 2,
+      "justificacion": "La reclamación del particular se dirige directamente contra la Administración.",
+      "trampa": "La acción contra el empleado es interna y posterior.",
+      "referencia": "manual.md#101-reclamación-del-perjudicado"
+    },
+    {
+      "id": "DIP-T10-011",
+      "pregunta": "La Administración ejercerá acción de regreso contra su autoridad o empleado cuando concurra:",
+      "opciones": ["Cualquier error", "Dolo, culpa grave o negligencia grave", "Solo dolo", "Culpa leve"],
+      "correcta": 1,
+      "justificacion": "La Ley exige dolo o culpa/negligencia graves.",
+      "trampa": "La culpa leve no basta.",
+      "referencia": "manual.md#102-acción-de-regreso"
+    },
+    {
+      "id": "DIP-T10-012",
+      "pregunta": "Cuando varias Administraciones actúan conjuntamente mediante fórmulas colegiadas, la responsabilidad frente al particular será, como regla general:",
+      "opciones": ["Mancomunada", "Subsidiaria", "Solidaria", "Inexistente"],
+      "correcta": 2,
+      "justificacion": "La responsabilidad frente al particular es solidaria en estos casos.",
+      "trampa": "La distribución interna entre Administraciones no perjudica al particular.",
+      "referencia": "manual.md#6-responsabilidad-concurrente-de-varias-administraciones"
+    }
+  ]
+}
