@@ -1,5 +1,5 @@
-const CACHE = 'opoweb-v2-0.19.0';
-const ASSETS = [
+const CACHE = 'opoweb-v2-0.20.1';
+const CORE_ASSETS = [
   './',
   './index.html',
   './manifest.json',
@@ -7,158 +7,36 @@ const ASSETS = [
   './assets/app.js',
   './assets/icon.svg',
   './data/programa.json',
-  './content/la-puebla/tema-01/manual.md',
-  './content/la-puebla/tema-01/matriz.json',
-  './content/la-puebla/tema-01/aprobacion.md',
-  './content/la-puebla/tema-01/preguntas.json',
-  './content/la-puebla/tema-02/manual.md',
-  './content/la-puebla/tema-02/matriz.json',
-  './content/la-puebla/tema-02/aprobacion.md',
-  './content/la-puebla/tema-02/preguntas.json',
-  './content/la-puebla/tema-03/manual.md',
-  './content/la-puebla/tema-03/matriz.json',
-  './content/la-puebla/tema-03/aprobacion.md',
-  './content/la-puebla/tema-03/preguntas.json',
-  './content/la-puebla/tema-04/manual.md',
-  './content/la-puebla/tema-04/matriz.json',
-  './content/la-puebla/tema-04/aprobacion.md',
-  './content/la-puebla/tema-04/preguntas.json',
-  './content/la-puebla/tema-05/manual.md',
-  './content/la-puebla/tema-05/matriz.json',
-  './content/la-puebla/tema-05/aprobacion.md',
-  './content/la-puebla/tema-05/preguntas.json',
-  './content/la-puebla/tema-06/manual.md',
-  './content/la-puebla/tema-06/matriz.json',
-  './content/la-puebla/tema-06/aprobacion.md',
-  './content/la-puebla/tema-06/preguntas.json',
-  './content/la-puebla/tema-07/manual.md',
-  './content/la-puebla/tema-07/matriz.json',
-  './content/la-puebla/tema-07/aprobacion.md',
-  './content/la-puebla/tema-07/preguntas.json',
-  './content/la-puebla/tema-08/manual.md',
-  './content/la-puebla/tema-08/matriz.json',
-  './content/la-puebla/tema-08/aprobacion.md',
-  './content/la-puebla/tema-08/preguntas.json',
-  './content/la-puebla/tema-08/articulos.md',
-  './content/la-puebla/tema-09/manual.md',
-  './content/la-puebla/tema-09/matriz.json',
-  './content/la-puebla/tema-09/aprobacion.md',
-  './content/la-puebla/tema-09/preguntas.json',
-  './content/la-puebla/tema-09/articulos.md',
-  './content/la-puebla/tema-10/manual.md',
-  './content/la-puebla/tema-10/matriz.json',
-  './content/la-puebla/tema-10/aprobacion.md',
-  './content/la-puebla/tema-10/preguntas.json',
-  './content/la-puebla/tema-10/articulos.md',
-  './content/la-puebla/tema-11/manual.md',
-  './content/la-puebla/tema-11/matriz.json',
-  './content/la-puebla/tema-11/aprobacion.md',
-  './content/la-puebla/tema-11/preguntas.json',
-  './content/la-puebla/tema-11/bloque-01-voluntaria.md',
-  './content/la-puebla/tema-11/bloque-02-aplazamiento-compensacion.md',
-  './content/la-puebla/tema-11/bloque-03a-devoluciones-regimen.md',
-  './content/la-puebla/tema-11/bloque-03b-devoluciones-procedimiento.md',
-  './content/la-puebla/tema-11/bloque-04a-ejecutiva-providencia.md',
-  './content/la-puebla/tema-11/bloque-05-embargo.md',
-  './content/la-puebla/tema-11/articulos.md',
-  './content/la-puebla/tema-11/articulos-lgt.md',
-  './content/la-puebla/tema-11/articulos-rgr.md',
-  './content/la-puebla/tema-11/articulos-rgr-deuda.md',
-  './content/la-puebla/tema-11/articulos-rgr-apremio.md',
-  './content/la-puebla/tema-12/manual.md',
-  './content/la-puebla/tema-12/matriz.json',
-  './content/la-puebla/tema-12/aprobacion.md',
-  './content/la-puebla/tema-12/preguntas.json',
-  './content/la-puebla/tema-12/articulos.md',
-  './content/la-puebla/tema-12/bloque-01-normas-generales.md',
-  './content/la-puebla/tema-12/bloque-02-ibi.md',
-  './content/la-puebla/tema-12/bloque-03-iae.md',
-  './content/la-puebla/tema-12/bloque-04-ivtm.md',
-  './content/la-puebla/tema-12/bloque-04a-ivtm-hecho.md',
-  './content/la-puebla/tema-12/bloque-04b-ivtm-sujeto.md',
-  './content/la-puebla/tema-12/bloque-05-iivtnu.md',
-  './content/la-puebla/tema-12/bloque-05a-iivtnu-hecho.md',
-  './content/la-puebla/tema-12/bloque-05b-iivtnu-sujetos.md',
-  './content/la-puebla/tema-13/manual.md',
-  './content/la-puebla/tema-13/matriz.json',
-  './content/la-puebla/tema-13/aprobacion.md',
-  './content/la-puebla/tema-13/preguntas.json',
-  './content/la-puebla/tema-13/articulos.md',
-  './content/la-puebla/tema-13/bloque-01-conceptos-usos.md',
-  './content/la-puebla/tema-13/bloque-02-tipos-certificados.md',
-  './content/la-puebla/tema-13/bloque-03-soportes.md',
-  './content/la-puebla/tema-13/bloque-04-prestadores-servicios.md',
-  './content/la-puebla/tema-13/bloque-05-administraciones.md',
-  './content/la-puebla/tema-14/manual.md',
-  './content/la-puebla/tema-14/matriz.json',
-  './content/la-puebla/tema-14/aprobacion.md',
-  './content/la-puebla/tema-14/preguntas.json',
-  './content/la-puebla/tema-14/articulos.md',
-  './content/la-puebla/tema-14/feedback.md',
-  './content/la-puebla/tema-14/bloque-01-organos-competencia.md',
-  './content/la-puebla/tema-14/bloque-02-colegiados-abstencion.md',
-  './content/la-puebla/tema-14/bloque-03-age-estructura-ministerios.md',
-  './content/la-puebla/tema-14/bloque-04-age-organos-ministeriales.md',
-  './content/la-puebla/tema-14/bloque-05-age-territorial-exterior.md',
-  './content/la-puebla/tema-15/manual.md',
-  './content/la-puebla/tema-15/matriz.json',
-  './content/la-puebla/tema-15/aprobacion.md',
-  './content/la-puebla/tema-15/preguntas.json',
-  './content/la-puebla/tema-15/fuentes.md',
-  './content/la-puebla/tema-15/feedback.md',
-  './content/la-puebla/tema-15/bloque-01-explorador-rutas.md',
-  './content/la-puebla/tema-15/bloque-02-operaciones-archivos.md',
-  './content/la-puebla/tema-15/bloque-03-unidades-locales-red.md',
-  './content/la-puebla/tema-15/bloque-04-impresion.md',
-  './content/la-puebla/tema-15/bloque-05-digitalizacion.md',
-  './content/la-puebla/tema-16/manual.md',
-  './content/la-puebla/tema-16/matriz.json',
-  './content/la-puebla/tema-16/aprobacion.md',
-  './content/la-puebla/tema-16/preguntas.json',
-  './content/la-puebla/tema-16/fuentes.md',
-  './content/la-puebla/tema-16/feedback.md',
-  './content/la-puebla/tema-16/bloque-01-conceptos-navegacion.md',
-  './content/la-puebla/tema-16/bloque-02-pestanas-favoritos-historial-descargas.md',
-  './content/la-puebla/tema-16/bloque-03-privacidad-seguridad.md',
-  './content/la-puebla/tema-16/bloque-04-edge-configuracion-herramientas.md',
-  './content/la-puebla/tema-16/bloque-05-ie-modo-ie.md',
-  './content/la-puebla/tema-17/manual.md',
-  './content/la-puebla/tema-17/matriz.json',
-  './content/la-puebla/tema-17/aprobacion.md',
-  './content/la-puebla/tema-17/preguntas.json',
-  './content/la-puebla/tema-17/fuentes.md',
-  './content/la-puebla/tema-17/feedback.md',
-  './content/la-puebla/tema-17/bloque-01-entorno-formatos.md',
-  './content/la-puebla/tema-17/bloque-02-edicion-busqueda.md',
-  './content/la-puebla/tema-17/bloque-03-formato-estilos.md',
-  './content/la-puebla/tema-17/bloque-04-paginas-objetos.md',
-  './content/la-puebla/tema-17/bloque-05-revision-salida.md',
-  './content/la-puebla/tema-18/manual.md',
-  './content/la-puebla/tema-18/matriz.json',
-  './content/la-puebla/tema-18/aprobacion.md',
-  './content/la-puebla/tema-18/preguntas.json',
-  './content/la-puebla/tema-18/fuentes.md',
-  './content/la-puebla/tema-18/feedback.md',
-  './content/la-puebla/tema-18/bloque-01-entorno-datos-formatos.md',
-  './content/la-puebla/tema-18/bloque-02-formulas-funciones.md',
-  './content/la-puebla/tema-18/bloque-03-formato-validacion.md',
-  './content/la-puebla/tema-18/bloque-04-datos-analisis.md',
-  './content/la-puebla/tema-18/bloque-05-graficos-salida.md',
-  './content/la-puebla/tema-19/manual.md',
-  './content/la-puebla/tema-19/matriz.json',
-  './content/la-puebla/tema-19/aprobacion.md',
-  './content/la-puebla/tema-19/feedback.md',
-  './content/la-puebla/tema-19/preguntas.json',
-  './content/la-puebla/tema-19/fuentes.md',
-  './content/la-puebla/tema-19/bloque-01-ordenador-componentes.md',
-  './content/la-puebla/tema-19/bloque-02-perifericos-impresoras.md',
-  './content/la-puebla/tema-19/bloque-03-escaneres.md',
-  './content/la-puebla/tema-19/bloque-04-almacenamiento-externo-usb.md',
-  './content/la-puebla/tema-19/bloque-05-opticos.md'
+  './data/seguimiento-la-puebla.json'
 ];
 
+async function themeAssets() {
+  try {
+    const response = await fetch('./data/programa.json', { cache: 'no-cache' });
+    if (!response.ok) return [];
+    const programme = await response.json();
+    const paths = new Set();
+    programme.temas.forEach(theme => {
+      ['manual', 'matriz', 'aprobacion', 'preguntas', 'trazabilidad', 'feedback', 'fuentes'].forEach(key => {
+        if (theme[key]) paths.add(`./${theme[key]}`);
+      });
+      ['capitulos', 'subcapitulos', 'trazabilidadDetallada'].forEach(key => {
+        (theme[key] || []).forEach(path => paths.add(`./${path}`));
+      });
+    });
+    return [...paths];
+  } catch (_) {
+    return [];
+  }
+}
+
 self.addEventListener('install', event => {
-  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(ASSETS)));
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE);
+    await cache.addAll(CORE_ASSETS);
+    const optionalAssets = await themeAssets();
+    await Promise.allSettled(optionalAssets.map(path => cache.add(path)));
+  })());
   self.skipWaiting();
 });
 
@@ -171,11 +49,17 @@ self.addEventListener('activate', event => {
 
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
-  event.respondWith(
-    caches.match(event.request).then(cached => cached || fetch(event.request).then(response => {
-      const copy = response.clone();
-      caches.open(CACHE).then(cache => cache.put(event.request, copy));
+  event.respondWith((async () => {
+    const cached = await caches.match(event.request);
+    try {
+      const response = await fetch(event.request);
+      if (response.ok) {
+        const cache = await caches.open(CACHE);
+        cache.put(event.request, response.clone());
+      }
       return response;
-    }).catch(() => caches.match('./index.html')))
-  );
+    } catch (_) {
+      return cached || caches.match('./index.html');
+    }
+  })());
 });
