@@ -11,11 +11,18 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 
 | Bloque | Temas | Estado | Trabajo principal |
 |---|---:|---|---|
-| Constitución y procedimiento | 1–4 | `EN_AUDITORIA` | Literalidad constitucional; plazos, silencio, revisión y recursos de la Ley 39/2015 |
+| Constitución | 1 | `AUDITADO_NORMA_VIGENTE` | Cotejado con la Constitución consolidada y la reforma del artículo **69.3** publicada el **20 de mayo de 2026** |
+| Procedimiento administrativo | 2–4 | `EN_AUDITORIA` | Plazos, silencio, revisión y recursos de la Ley 39/2015 |
 | Régimen local y empleo público | 5–8 | `PENDIENTE_AUDITORIA` | Órganos, competencias, mayorías, LOREG, Ley 4/2011, PRL e igualdad |
 | Protección de datos y tributación | 9–12 | `PENDIENTE_AUDITORIA` | RGPD/LOPDGDD, LGT, TRLRHL, recaudación e impuestos municipales |
 | Administración electrónica | 13–14 | `PENDIENTE_AUDITORIA` | eIDAS, certificados, Ley 40/2015 y AGE |
 | Ofimática y microinformática | 15–19 | `PENDIENTE_AUDITORIA` | Windows 11, Edge, Word/Writer, Excel/Calc y hardware |
+
+## Temas auditados
+
+| Tema | Resultado | Informe |
+|---:|---|---|
+| 1 | Sin errores de plazo, mayoría o cifra detectados. Confirmadas las **cuatro reformas constitucionales** vigentes hasta julio de 2026. | `content/la-puebla/tema-01/auditoria-2026-07-18.md` |
 
 ## Criterios aplicados a cada tema
 
@@ -32,9 +39,10 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 
 | Mejora | Estado |
 |---|---|
-| Modo claro/oscuro persistente | Implementado en rama de auditoría |
-| Diseño para móvil y tableta | Implementado en rama de auditoría |
-| Buscador sobre títulos y contenido | Implementado en rama de auditoría |
+| Modo claro/oscuro persistente | Implementado |
+| Diseño para móvil y tableta | Implementado |
+| Buscador sobre títulos y contenido | Implementado |
+| Apartado de plazos y estado personal de la OPE | Implementado |
 | Historial y control de versiones Git | Activo |
 | Catálogo de documentos oficiales | En preparación |
 | Alojamiento de copias oficiales verificables | Pendiente de incorporar únicamente documentos públicos, nunca documentación personal |
@@ -42,7 +50,7 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 
 ## Orden de trabajo
 
-1. Auditar y corregir los **temas 1–4**.
+1. Auditar y corregir los **temas 2–4**.
 2. Continuar con **5–8**, **9–12**, **13–14** y **15–19**.
 3. Generar preguntas y supuestos únicamente después de que el contenido base esté auditado.
 4. Reutilizar los temas comunes en Carranque, Las Ventas con Peña Aguilera y futuras convocatorias mediante una matriz de equivalencias, sin duplicar versiones contradictorias.
