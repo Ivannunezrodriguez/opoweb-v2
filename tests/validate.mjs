@@ -34,7 +34,7 @@ for (const t of approved) {
 
   const questionBank = json(t.preguntas);
   assert.ok(Array.isArray(questionBank.preguntas), `Banco inválido del tema ${t.numero}`);
-  if (t.numero > 14) assert.deepEqual(questionBank.preguntas, []);
+  if (t.numero > 15) assert.deepEqual(questionBank.preguntas, []);
 
   const manual = read(t.manual);
   assert.ok(manual.includes('Tema cerrado: **SÍ**'), `Tema ${t.numero} no figura cerrado`);
@@ -67,7 +67,7 @@ const validateQuestionBank = (tema, prefix) => {
   return bank;
 };
 
-const generatedBanks = Array.from({ length: 14 }, (_, index) => {
+const generatedBanks = Array.from({ length: 15 }, (_, index) => {
   const tema = index + 1;
   return validateQuestionBank(tema, `LP-T${String(tema).padStart(2, '0')}`);
 });
@@ -130,5 +130,5 @@ console.log(JSON.stringify({
   generatedThemes: generatedBanks.length,
   generatedQuestions,
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_14_TEST_GENERADOS'
+  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_15_TEST_GENERADOS'
 }, null, 2));
