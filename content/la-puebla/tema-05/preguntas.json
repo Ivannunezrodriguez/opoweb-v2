@@ -1,6 +1,183 @@
 {
   "tema": 5,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual fue aprobado por el usuario el 17 de julio de 2026. El banco permanece vacío hasta una revisión específica y trazable; cada pregunta deberá vincularse a un artículo concreto de la Constitución, la Ley 7/1985, el ROF o la LOREG."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T05-001",
+      "enunciado": "Según el artículo 11 de la Ley 7/1985, ¿cuáles son los elementos del municipio?",
+      "opciones": [
+        "Alcalde, Pleno y Junta de Gobierno Local",
+        "Territorio, población y organización",
+        "Término municipal, padrón y presupuesto",
+        "Vecinos, servicios y competencias"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El municipio es la entidad local básica y sus tres elementos legales son el territorio, la población y la organización.",
+      "trampaExamen": "Los órganos municipales no deben confundirse con los elementos constitutivos del municipio.",
+      "referencia": "manual.md · apartado 8 · Artículo 11 LRBRL"
+    },
+    {
+      "id": "LP-T05-002",
+      "enunciado": "La alteración de los límites provinciales debe aprobarse mediante:",
+      "opciones": [
+        "Ley ordinaria de la comunidad autónoma",
+        "Real decreto del Consejo de Ministros",
+        "Ley orgánica de las Cortes Generales",
+        "Acuerdo de las Diputaciones afectadas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 141 de la Constitución exige ley orgánica de las Cortes Generales para cualquier alteración de los límites provinciales.",
+      "trampaExamen": "La legislación autonómica regula alteraciones municipales, pero no puede modificar por sí misma límites provinciales.",
+      "referencia": "manual.md · apartado 6 · Artículo 141 CE"
+    },
+    {
+      "id": "LP-T05-003",
+      "enunciado": "¿En qué municipios existe obligatoriamente Junta de Gobierno Local?",
+      "opciones": [
+        "En todos los municipios",
+        "Solo en municipios de más de 20.000 habitantes",
+        "En municipios de más de 5.000 habitantes y en los menores cuando lo disponga el reglamento orgánico o lo acuerde el Pleno",
+        "Únicamente en capitales de provincia"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Junta de Gobierno Local existe necesariamente en municipios con más de 5.000 habitantes; en los de menor población puede existir por reglamento orgánico o acuerdo del Pleno.",
+      "trampaExamen": "La Comisión Especial de Cuentas sí existe en todos los municipios; la Junta de Gobierno Local no.",
+      "referencia": "manual.md · apartado 17 · Artículo 20 LRBRL"
+    },
+    {
+      "id": "LP-T05-004",
+      "enunciado": "La Junta de Gobierno Local municipal puede estar integrada, además del Alcalde, por un número de Concejales no superior a:",
+      "opciones": [
+        "La mitad del número legal de miembros",
+        "Un tercio del número legal de miembros",
+        "Dos tercios del número legal de miembros",
+        "Cinco Concejales en todo caso"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 23 fija como máximo un tercio del número legal de miembros de la corporación, además del Alcalde.",
+      "trampaExamen": "El límite se calcula sobre el número legal de miembros, no sobre los Concejales presentes ni sobre los grupos políticos.",
+      "referencia": "manual.md · apartado 20 · Artículo 23 LRBRL"
+    },
+    {
+      "id": "LP-T05-005",
+      "enunciado": "¿Cuál de los siguientes servicios es obligatorio en todos los municipios?",
+      "opciones": [
+        "Biblioteca pública",
+        "Parque público",
+        "Transporte colectivo urbano",
+        "Alumbrado público"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El alumbrado público forma parte de los servicios mínimos exigibles en todos los municipios, junto con cementerio, residuos, limpieza viaria, agua, alcantarillado, accesos y pavimentación.",
+      "trampaExamen": "Biblioteca, parque y tratamiento de residuos se añaden a partir de más de 5.000 habitantes.",
+      "referencia": "manual.md · apartado 25 · Artículo 26 LRBRL"
+    },
+    {
+      "id": "LP-T05-006",
+      "enunciado": "En los municipios de más de 50.000 habitantes son además servicios mínimos obligatorios:",
+      "opciones": [
+        "Biblioteca pública y tratamiento de residuos",
+        "Protección civil e instalaciones deportivas",
+        "Transporte colectivo urbano de viajeros y medio ambiente urbano",
+        "Cementerio y limpieza viaria"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los municipios de más de 50.000 habitantes deben prestar, además de los servicios de tramos inferiores, transporte colectivo urbano de viajeros y medio ambiente urbano.",
+      "trampaExamen": "Los umbrales de 5.000, 20.000 y 50.000 habitantes acumulan servicios, no los sustituyen.",
+      "referencia": "manual.md · apartado 25 · Artículo 26 LRBRL"
+    },
+    {
+      "id": "LP-T05-007",
+      "enunciado": "¿Con qué periodicidad mínima debe celebrar sesión ordinaria el Pleno de un municipio de 5.001 a 20.000 habitantes?",
+      "opciones": [
+        "Cada mes",
+        "Cada dos meses",
+        "Cada tres meses",
+        "Cada seis meses"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "En los municipios de 5.001 a 20.000 habitantes el Pleno debe celebrar sesión ordinaria al menos cada dos meses.",
+      "trampaExamen": "La periodicidad mensual corresponde a Diputaciones y municipios de más de 20.000 habitantes.",
+      "referencia": "manual.md · apartado 42 · Artículo 46 LRBRL"
+    },
+    {
+      "id": "LP-T05-008",
+      "enunciado": "El quórum general de constitución válida del Pleno exige:",
+      "opciones": [
+        "La mitad del número legal de miembros y nunca menos de cinco",
+        "Un tercio del número legal de miembros y nunca menos de tres, con Presidente y Secretario",
+        "Mayoría absoluta de los miembros presentes",
+        "Dos tercios del número legal de miembros"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La regla general exige un tercio del número legal de miembros, nunca menos de tres, y la asistencia del Presidente y del Secretario o de quienes legalmente los sustituyan.",
+      "trampaExamen": "El quórum de constitución no equivale a la mayoría necesaria para adoptar acuerdos.",
+      "referencia": "manual.md · apartado 42 · Artículo 46 LRBRL"
+    },
+    {
+      "id": "LP-T05-009",
+      "enunciado": "Como regla general, los acuerdos de las corporaciones locales se adoptan por:",
+      "opciones": [
+        "Mayoría absoluta del número legal de miembros",
+        "Mayoría de dos tercios de los presentes",
+        "Mayoría simple de los miembros presentes",
+        "Unanimidad"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La regla general del artículo 47 es la mayoría simple de los miembros presentes, que existe cuando los votos afirmativos superan los negativos.",
+      "trampaExamen": "La mayoría absoluta del número legal se reserva para materias expresamente enumeradas por la ley.",
+      "referencia": "manual.md · apartado 43 · Artículo 47 LRBRL"
+    },
+    {
+      "id": "LP-T05-010",
+      "enunciado": "En el procedimiento de aprobación de ordenanzas locales, la información pública y audiencia debe durar como mínimo:",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Veinte días",
+        "Treinta días"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Tras la aprobación inicial por el Pleno, el artículo 49 exige información pública y audiencia por un plazo mínimo de treinta días.",
+      "trampaExamen": "Si no se presentan reclamaciones ni sugerencias, el acuerdo inicial se entiende definitivamente adoptado.",
+      "referencia": "manual.md · apartado 45 · Artículo 49 LRBRL"
+    },
+    {
+      "id": "LP-T05-011",
+      "enunciado": "En las elecciones municipales, no se tienen en cuenta para atribuir Concejales las candidaturas que no alcancen al menos:",
+      "opciones": [
+        "El 3 % de los votos válidos",
+        "El 5 % de los votos válidos",
+        "El 7 % de los votos emitidos",
+        "El 10 % de los votos válidos"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 180 LOREG excluye del reparto de puestos a las candidaturas que no alcancen al menos el 5 % de los votos válidos emitidos en la circunscripción.",
+      "trampaExamen": "El umbral municipal es del 5 % de votos válidos, no del censo ni de todos los votos emitidos sin distinción.",
+      "referencia": "manual.md · apartado 57 · Artículo 180 LOREG"
+    },
+    {
+      "id": "LP-T05-012",
+      "enunciado": "En la sesión constitutiva del Ayuntamiento, si ningún candidato obtiene mayoría absoluta de los votos de los Concejales, será proclamado Alcalde:",
+      "opciones": [
+        "El Concejal de mayor edad",
+        "El candidato designado por la Junta Electoral de Zona",
+        "El cabeza de la lista más votada por los electores",
+        "El cabeza de la segunda lista más votada"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Pueden ser candidatos quienes encabecen sus listas. Si ninguno obtiene mayoría absoluta de los Concejales, se proclama al cabeza de la lista más votada por los electores; el empate se resuelve por sorteo.",
+      "trampaExamen": "La Mesa de Edad dirige la constitución, pero no atribuye automáticamente la Alcaldía al miembro de mayor edad.",
+      "referencia": "manual.md · apartado 74 · Artículo 196 LOREG"
+    }
+  ]
 }
