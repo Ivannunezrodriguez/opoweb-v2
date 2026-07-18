@@ -1,16 +1,16 @@
-# Tema 15 · Informe para revisión del usuario
+# Tema 15 · Informe de aprobación del usuario
 
 ## Estado
 
-`EN_REVISION_USUARIO`
+`APROBADO_USUARIO`
 
-El tema no está publicado como aprobado. La versión pública continúa en `0.14.0` y el banco de preguntas permanece vacío.
+El tema ha sido aprobado expresamente el 18 de julio de 2026. La versión de publicación pasa a `0.15.0` y el banco de preguntas permanece vacío hasta su revisión específica.
 
 ## Epígrafe oficial
 
 > Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.
 
-## Cobertura incorporada
+## Cobertura aprobada
 
 ### Explorador y estructura
 
@@ -72,31 +72,17 @@ No se desarrolla íntegramente:
 - copia auténtica o expediente electrónico;
 - firma electrónica.
 
-## Comprobaciones solicitadas
+## Resultado de la revisión
 
-Revisa especialmente:
+La aprobación confirma que la cobertura es suficiente para el epígrafe oficial y adecuada para un examen C2. Se mantienen como posibles desarrollos posteriores:
 
-1. si queda clara la diferencia entre archivo, carpeta y acceso directo;
-2. si distingues copiar, mover y arrastrar;
-3. si comprendes cuándo puede no utilizarse la Papelera;
-4. si los conflictos de nombre y reemplazo están suficientemente explicados;
-5. si distingues disco físico, volumen y unidad;
-6. si interpretas rutas locales, UNC y unidades asignadas;
-7. si queda clara la diferencia entre compartir y asignar;
-8. si los permisos y errores de red resultan prácticos;
-9. si la impresión cubre vista previa, páginas, dúplex y cola;
-10. si queda clara la diferencia entre imprimir a PDF y escanear;
-11. si la digitalización cubre origen, resolución, color y formato;
-12. si distingues digitalización, OCR y firma;
-13. si el nivel es adecuado para un examen C2;
-14. si algún bloque necesita capturas o ejercicios prácticos posteriores;
-15. si falta una operación habitual de Windows.
+- capturas o ejercicios prácticos;
+- banco de preguntas trazable;
+- supuestos sobre conflictos de archivos, impresión y digitalización.
 
 ## Cierre
 
-La respuesta debe ser una de estas:
-
-- **«Tema 15 aprobado»**
-- **«Tema 15: cambia o amplía…»**
-
-No se fusionará mientras permanezca en `EN_REVISION_USUARIO`.
+- Expresión registrada: **«Tema 15 aprobado»**.
+- Tema cerrado: **SÍ**.
+- Publicación como aprobado: **SÍ**.
+- Banco de preguntas: **vacío**.
