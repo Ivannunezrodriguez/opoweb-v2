@@ -1,0 +1,36 @@
+name: Aplicar revisión Tema 16
+
+on:
+  push:
+    branches:
+      - rebuild/puebla-tema-16
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.event.head_commit.message != 'Aplicar revisión Tema 16'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: rebuild/puebla-tema-16
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Aplicar cambios declarativos
+        run: python scripts/apply_t16_review.py
+
+      - name: Publicar cambios en la rama
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Aplicar revisión Tema 16"
+          git push origin HEAD:rebuild/puebla-tema-16
