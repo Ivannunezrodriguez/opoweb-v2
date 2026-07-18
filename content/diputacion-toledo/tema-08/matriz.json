@@ -1,0 +1,34 @@
+{
+  "tema": 8,
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "epigrafeOficial": "Revisión de los actos administrativos en vía administrativa. Los recursos administrativos. La revisión de oficio.",
+  "estado": "REVISION_USUARIO",
+  "generacion": "DESDE_CERO",
+  "fuentePrincipal": "Ley 39/2015, Título V, artículos 106 a 126",
+  "cobertura": [
+    {"bloque":"Revisión de actos nulos","articulos":[106],"cubierto":true},
+    {"bloque":"Declaración de lesividad","articulos":[107],"cubierto":true},
+    {"bloque":"Suspensión, revocación, rectificación y límites","articulos":[108,109,110],"cubierto":true},
+    {"bloque":"Principios generales de los recursos","articulos":[112,113,114,115,116,117,118,119,120],"cubierto":true},
+    {"bloque":"Recurso de alzada","articulos":[121,122],"cubierto":true},
+    {"bloque":"Recurso potestativo de reposición","articulos":[123,124],"cubierto":true},
+    {"bloque":"Recurso extraordinario de revisión","articulos":[125,126],"cubierto":true}
+  ],
+  "datosTest": {
+    "revisionOficioResolucionMeses": 6,
+    "lesividadLimiteAnios": 4,
+    "lesividadCaducidadMeses": 6,
+    "suspensionSilencioMeses": 1,
+    "audienciaMinDias": 10,
+    "audienciaMaxDias": 15,
+    "alzadaInterposicionMeses": 1,
+    "alzadaResolucionMeses": 3,
+    "reposicionInterposicionMeses": 1,
+    "reposicionResolucionMeses": 1,
+    "extraordinarioErrorHechoAnios": 4,
+    "extraordinarioRestoMeses": 3,
+    "extraordinarioResolucionMeses": 3
+  },
+  "preguntasPrevistas": 12,
+  "aprobado": false
+}
