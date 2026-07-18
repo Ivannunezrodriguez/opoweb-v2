@@ -1,5 +1,6 @@
 const app = document.querySelector('#practice-app');
 const THEME_KEY = 'opoweb-theme';
+const PROGRESS_KEY = 'opoweb-la-puebla-practice-progress-v1';
 const SUPUESTOS_URL = 'content/la-puebla/supuestos-practicos.json';
 const SIMULACROS_URL = 'content/la-puebla/simulacros.json';
 
@@ -23,6 +24,37 @@ function initTheme() {
   });
 }
 
+function readProgress() {
+  try {
+    const value = JSON.parse(localStorage.getItem(PROGRESS_KEY) || '{"attempts":[]}');
+    return { attempts: Array.isArray(value.attempts) ? value.attempts : [] };
+  } catch (_) {
+    return { attempts: [] };
+  }
+}
+
+function saveAttempt(attempt) {
+  const progress = readProgress();
+  progress.attempts.unshift(attempt);
+  progress.attempts = progress.attempts.slice(0, 100);
+  localStorage.setItem(PROGRESS_KEY, JSON.stringify(progress));
+}
+
+function progressSummary() {
+  const attempts = readProgress().attempts;
+  const average = attempts.length
+    ? Math.round(attempts.reduce((sum, item) => sum + item.percentage, 0) / attempts.length)
+    : 0;
+  const best = attempts.length ? Math.max(...attempts.map(item => item.percentage)) : 0;
+  return { attempts, average, best };
+}
+
+function formatAttemptDate(value) {
+  return new Intl.DateTimeFormat('es-ES', {
+    day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit'
+  }).format(new Date(value));
+}
+
 async function loadQuestionBanks() {
   const banks = await Promise.all(Array.from({ length: 19 }, async (_, index) => {
     const tema = index + 1;
@@ -33,7 +65,28 @@ async function loadQuestionBanks() {
   return new Map(banks.flatMap(bank => bank.preguntas.map(question => [question.id, question])));
 }
 
+function renderHistory() {
+  const { attempts, average, best } = progressSummary();
+  if (!attempts.length) {
+    return '<p class="empty-state">Todavía no hay ejercicios corregidos en este dispositivo.</p>';
+  }
+  return `
+    <div class="history-summary">
+      <div><span>Intentos</span><strong>${attempts.length}</strong></div>
+      <div><span>Media</span><strong>${average}%</strong></div>
+      <div><span>Mejor resultado</span><strong>${best}%</strong></div>
+    </div>
+    <div class="history-list">
+      ${attempts.slice(0, 8).map(item => `
+        <article class="history-item">
+          <div><strong>${escapeHtml(item.title)}</strong><span>${formatAttemptDate(item.completedAt)}</span></div>
+          <b>${item.correct}/${item.total} · ${item.percentage}%</b>
+        </article>`).join('')}
+    </div>`;
+}
+
 function renderHub(supuestos, simulacros, questionMap) {
+  const progress = progressSummary();
   app.innerHTML = `
     <section class="panel intro">
       <div class="intro-row">
@@ -45,8 +98,15 @@ function renderHub(supuestos, simulacros, questionMap) {
       <div class="summary-grid">
         <div class="summary-card"><strong>${supuestos.supuestos.length}</strong><span>supuestos prácticos</span></div>
         <div class="summary-card"><strong>${simulacros.simulacros.length}</strong><span>simulacros</span></div>
-        <div class="summary-card"><strong>${questionMap.size}</strong><span>preguntas auditadas</span></div>
+        <div class="summary-card"><strong>${progress.attempts.length}</strong><span>intentos guardados</span></div>
       </div>
+    </section>
+    <section class="panel">
+      <div class="section-heading">
+        <div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador.</p></div>
+        ${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}
+      </div>
+      ${renderHistory()}
     </section>
     <section class="panel">
       <h2>Supuestos prácticos</h2>
@@ -72,22 +132,28 @@ function renderHub(supuestos, simulacros, questionMap) {
       </div>
     </section>`;
 
+  document.querySelector('#reset-progress')?.addEventListener('click', () => {
+    if (confirm('¿Borrar todo el historial de resultados guardado en este dispositivo?')) {
+      localStorage.removeItem(PROGRESS_KEY);
+      renderHub(supuestos, simulacros, questionMap);
+    }
+  });
   document.querySelectorAll('[data-case]').forEach(button => {
     button.addEventListener('click', () => {
       const selected = supuestos.supuestos.find(item => item.id === button.dataset.case);
-      renderExercise([selected], 'Supuesto práctico', () => renderHub(supuestos, simulacros, questionMap));
+      renderExercise([selected], selected.titulo, selected.id, 'supuesto', () => renderHub(supuestos, simulacros, questionMap));
     });
   });
   document.querySelectorAll('[data-sim]').forEach(button => {
     button.addEventListener('click', () => {
       const sim = simulacros.simulacros.find(item => item.id === button.dataset.sim);
       const questions = sim.preguntas.map(id => ({ ...questionMap.get(id), titulo: id, temas: [Number(id.slice(4, 6))] }));
-      renderExercise(questions, sim.titulo, () => renderHub(supuestos, simulacros, questionMap), sim.duracionMinutos);
+      renderExercise(questions, sim.titulo, sim.id, 'simulacro', () => renderHub(supuestos, simulacros, questionMap), sim.duracionMinutos);
     });
   });
 }
 
-function renderExercise(items, title, onBack, durationMinutes = null) {
+function renderExercise(items, title, exerciseId, type, onBack, durationMinutes = null) {
   let remaining = durationMinutes ? durationMinutes * 60 : null;
   let timerId = null;
   app.innerHTML = `
@@ -104,12 +170,11 @@ function renderExercise(items, title, onBack, durationMinutes = null) {
       ${items.map((item, index) => renderQuestion(item, index)).join('')}
     </form>`;
 
-  const back = document.querySelector('#practice-back');
-  back.addEventListener('click', () => {
+  document.querySelector('#practice-back').addEventListener('click', () => {
     if (timerId) clearInterval(timerId);
     onBack();
   });
-  document.querySelector('#finish').addEventListener('click', () => finishExercise(items, timerId));
+  document.querySelector('#finish').addEventListener('click', () => finishExercise(items, timerId, { exerciseId, title, type }));
 
   if (durationMinutes) {
     const timer = document.querySelector('#timer');
@@ -120,7 +185,8 @@ function renderExercise(items, title, onBack, durationMinutes = null) {
       if (remaining <= 300) timer.classList.add('timer-warning');
       if (remaining <= 0) {
         clearInterval(timerId);
-        finishExercise(items, null);
+        finishExercise(items, null, { exerciseId, title, type });
+        return;
       }
       remaining -= 1;
     };
@@ -148,7 +214,8 @@ function renderQuestion(item, index) {
     </fieldset>`;
 }
 
-function finishExercise(items, timerId) {
+function finishExercise(items, timerId, metadata) {
+  if (document.querySelector('#finish')?.disabled) return;
   if (timerId) clearInterval(timerId);
   let correct = 0;
   let answered = 0;
@@ -174,11 +241,21 @@ function finishExercise(items, timerId) {
   });
 
   const percentage = Math.round((correct / items.length) * 100);
+  saveAttempt({
+    id: metadata.exerciseId,
+    type: metadata.type,
+    title: metadata.title,
+    correct,
+    answered,
+    total: items.length,
+    percentage,
+    completedAt: new Date().toISOString()
+  });
   const result = document.createElement('section');
   result.className = 'panel result-panel';
   result.innerHTML = `
     <h2>Resultado: ${correct}/${items.length} · ${percentage}%</h2>
-    <p>Respondidas: ${answered}. En blanco: ${items.length - answered}.</p>
+    <p>Respondidas: ${answered}. En blanco: ${items.length - answered}. Resultado guardado en este dispositivo.</p>
     <div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
   document.querySelector('#exercise-form').prepend(result);
   document.querySelector('#finish').disabled = true;
