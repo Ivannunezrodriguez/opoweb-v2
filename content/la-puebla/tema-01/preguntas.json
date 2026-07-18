@@ -1,6 +1,231 @@
 {
   "tema": 1,
-  "estado": "PENDIENTE_REVISION",
-  "nota": "No se migran automáticamente bancos de preguntas del repositorio legado. Las preguntas se incorporarán tras revisión específica de trazabilidad y calidad.",
-  "preguntas": []
+  "tipo": "TEST_TEMA",
+  "estado": "EN_REVISION_USUARIO",
+  "fechaRevision": "2026-07-18",
+  "reglas": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "penalizacion": false
+  },
+  "nota": "Banco nuevo, no migrado del repositorio legado. Cada pregunta está vinculada a un precepto constitucional y al manual aprobado del Tema 1.",
+  "preguntas": [
+    {
+      "id": "LP-T01-001",
+      "dificultad": "basica",
+      "enunciado": "¿Cuál es la estructura formal correcta de la Constitución española de 1978?",
+      "opciones": [
+        { "id": "A", "texto": "Preámbulo, Título Preliminar, diez títulos numerados, cuatro disposiciones adicionales, nueve transitorias, una derogatoria y una final; 169 artículos." },
+        { "id": "B", "texto": "Preámbulo, once títulos numerados, cuatro disposiciones adicionales, ocho transitorias y 170 artículos." },
+        { "id": "C", "texto": "Título Preliminar, nueve títulos numerados, cinco disposiciones adicionales y 169 artículos, sin preámbulo." },
+        { "id": "D", "texto": "Preámbulo, Título Preliminar, diez títulos numerados y 168 artículos, sin disposiciones transitorias." }
+      ],
+      "correcta": "A",
+      "justificacion": "La Constitución contiene un Preámbulo, el Título Preliminar, los Títulos I a X, cuatro disposiciones adicionales, nueve transitorias, una derogatoria y una final, con 169 artículos.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "Estructura completa del texto constitucional, artículos 1 a 169",
+        "manual": "Tema 1, apartado 4: Estructura formal completa"
+      }
+    },
+    {
+      "id": "LP-T01-002",
+      "dificultad": "intermedia",
+      "enunciado": "¿Quién NO puede promover directamente una reforma constitucional conforme al artículo 166 de la Constitución?",
+      "opciones": [
+        { "id": "A", "texto": "El Gobierno." },
+        { "id": "B", "texto": "El Senado." },
+        { "id": "C", "texto": "Las Asambleas de las Comunidades Autónomas, en los términos del artículo 87.2." },
+        { "id": "D", "texto": "La ciudadanía mediante iniciativa legislativa popular." }
+      ],
+      "correcta": "D",
+      "justificacion": "El artículo 166 remite únicamente a los apartados 1 y 2 del artículo 87. No remite al artículo 87.3, que regula la iniciativa legislativa popular.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "166 y 87.1-87.2",
+        "manual": "Tema 1, apartado 5: Artículo 166 · iniciativa de reforma"
+      }
+    },
+    {
+      "id": "LP-T01-003",
+      "dificultad": "basica",
+      "enunciado": "Como regla general, ¿qué mayoría exige el artículo 167.1 para aprobar una reforma constitucional ordinaria?",
+      "opciones": [
+        { "id": "A", "texto": "Mayoría absoluta del Congreso y mayoría simple del Senado." },
+        { "id": "B", "texto": "Tres quintos de cada Cámara." },
+        { "id": "C", "texto": "Dos tercios del Congreso, sin intervención del Senado." },
+        { "id": "D", "texto": "Mayoría simple de ambas Cámaras en una sesión conjunta." }
+      ],
+      "correcta": "B",
+      "justificacion": "El artículo 167.1 establece como regla principal la aprobación por tres quintos de cada una de las Cámaras.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "167.1",
+        "manual": "Tema 1, apartado 6.1: Regla principal"
+      }
+    },
+    {
+      "id": "LP-T01-004",
+      "dificultad": "alta",
+      "enunciado": "Si no se alcanza el acuerdo de tres quintos entre Congreso y Senado en el procedimiento del artículo 167, ¿qué combinación permite aprobar subsidiariamente la reforma?",
+      "opciones": [
+        { "id": "A", "texto": "Mayoría simple del Senado y tres quintos del Congreso." },
+        { "id": "B", "texto": "Mayoría absoluta del Congreso y dos tercios del Senado." },
+        { "id": "C", "texto": "Mayoría absoluta del Senado y dos tercios del Congreso." },
+        { "id": "D", "texto": "Dos tercios de ambas Cámaras, seguidos de disolución automática." }
+      ],
+      "correcta": "C",
+      "justificacion": "Tras el intento de texto común de la comisión paritaria, la vía subsidiaria exige voto favorable de la mayoría absoluta del Senado y aprobación por dos tercios del Congreso.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "167.2",
+        "manual": "Tema 1, apartados 6.2 y 6.3"
+      }
+    },
+    {
+      "id": "LP-T01-005",
+      "dificultad": "intermedia",
+      "enunciado": "En una reforma aprobada por el procedimiento ordinario del artículo 167, ¿cuándo se celebra referéndum?",
+      "opciones": [
+        { "id": "A", "texto": "Siempre, dentro de los treinta días siguientes." },
+        { "id": "B", "texto": "Solo si lo solicita una décima parte de los miembros de cualquiera de las Cámaras dentro de los quince días siguientes a la aprobación." },
+        { "id": "C", "texto": "Solo si lo solicita el Gobierno antes de la votación final." },
+        { "id": "D", "texto": "Nunca; el referéndum únicamente existe en el procedimiento agravado." }
+      ],
+      "correcta": "B",
+      "justificacion": "En el artículo 167 el referéndum es facultativo: debe solicitarlo, en los quince días siguientes, una décima parte de cualquiera de las Cámaras.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "167.3",
+        "manual": "Tema 1, apartado 6.4: Referéndum"
+      }
+    },
+    {
+      "id": "LP-T01-006",
+      "dificultad": "intermedia",
+      "enunciado": "¿Cuál de estas reformas queda sometida al procedimiento agravado del artículo 168 por razón de la materia?",
+      "opciones": [
+        { "id": "A", "texto": "Una reforma parcial del artículo 14." },
+        { "id": "B", "texto": "Una reforma parcial del artículo 31." },
+        { "id": "C", "texto": "Una reforma parcial del artículo 20, incluido en la Sección 1.ª del Capítulo II del Título I." },
+        { "id": "D", "texto": "Cualquier reforma de un artículo situado en el Título I." }
+      ],
+      "correcta": "C",
+      "justificacion": "El artículo 168 comprende la revisión total y las reformas parciales que afecten al Título Preliminar, a la Sección 1.ª del Capítulo II del Título I —artículos 15 a 29— o al Título II. El artículo 14 queda fuera de esa sección.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "168.1",
+        "manual": "Tema 1, apartado 7: Artículo 168 · procedimiento agravado"
+      }
+    },
+    {
+      "id": "LP-T01-007",
+      "dificultad": "intermedia",
+      "enunciado": "¿Qué secuencia caracteriza al procedimiento agravado de reforma constitucional?",
+      "opciones": [
+        { "id": "A", "texto": "Tres quintos de cada Cámara, comisión paritaria y referéndum facultativo." },
+        { "id": "B", "texto": "Dos tercios de cada Cámara, disolución inmediata de las Cortes, ratificación y aprobación por las nuevas Cámaras por dos tercios, y referéndum obligatorio." },
+        { "id": "C", "texto": "Mayoría absoluta del Senado, dos tercios del Congreso y referéndum facultativo." },
+        { "id": "D", "texto": "Aprobación por el Congreso, sanción del Rey y consulta no vinculante al Senado." }
+      ],
+      "correcta": "B",
+      "justificacion": "El artículo 168 exige dos tercios de cada Cámara para aprobar el principio de reforma, disolución inmediata, intervención de nuevas Cámaras, nueva aprobación por dos tercios y referéndum obligatorio.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "168.1-168.3",
+        "manual": "Tema 1, apartados 7.1 a 7.3"
+      }
+    },
+    {
+      "id": "LP-T01-008",
+      "dificultad": "basica",
+      "enunciado": "Según el artículo 17.2, ¿cuál es la regla constitucional sobre la duración de la detención preventiva?",
+      "opciones": [
+        { "id": "A", "texto": "Puede durar libremente hasta setenta y dos horas en todo caso." },
+        { "id": "B", "texto": "Debe durar solo el tiempo estrictamente necesario y, en todo caso, como máximo setenta y dos horas antes de la puesta en libertad o a disposición judicial." },
+        { "id": "C", "texto": "Su duración máxima es de cuarenta y ocho horas, sin excepciones." },
+        { "id": "D", "texto": "La Constitución no fija ningún límite temporal." }
+      ],
+      "correcta": "B",
+      "justificacion": "La detención preventiva no puede prolongarse más del tiempo estrictamente necesario y tiene un máximo constitucional de setenta y dos horas para liberar al detenido o ponerlo a disposición judicial.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "17.2",
+        "manual": "Tema 1, artículo 17: libertad y seguridad"
+      }
+    },
+    {
+      "id": "LP-T01-009",
+      "dificultad": "intermedia",
+      "enunciado": "Respecto de las reuniones en lugares de tránsito público y las manifestaciones, la Constitución exige:",
+      "opciones": [
+        { "id": "A", "texto": "Autorización judicial previa." },
+        { "id": "B", "texto": "Autorización gubernativa previa en todos los casos." },
+        { "id": "C", "texto": "Comunicación previa a la autoridad, que solo puede prohibirlas por razones fundadas de alteración del orden público con peligro para personas o bienes." },
+        { "id": "D", "texto": "La inscripción previa de los organizadores en un registro público." }
+      ],
+      "correcta": "C",
+      "justificacion": "El artículo 21.2 establece comunicación previa, no autorización. La prohibición requiere razones fundadas de alteración del orden público con peligro para personas o bienes.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "21.2",
+        "manual": "Tema 1, artículo 21: reunión y manifestación"
+      }
+    },
+    {
+      "id": "LP-T01-010",
+      "dificultad": "alta",
+      "enunciado": "¿Qué derechos pueden acceder al recurso de amparo constitucional conforme al sistema del artículo 53.2?",
+      "opciones": [
+        { "id": "A", "texto": "Todos los derechos y principios del Título I sin excepción." },
+        { "id": "B", "texto": "Solo los artículos 15 a 29." },
+        { "id": "C", "texto": "El artículo 14, los derechos de los artículos 15 a 29 y la objeción de conciencia del artículo 30.2." },
+        { "id": "D", "texto": "Exclusivamente los derechos regulados por ley orgánica." }
+      ],
+      "correcta": "C",
+      "justificacion": "El amparo protege el artículo 14 y la Sección 1.ª del Capítulo II —artículos 15 a 29—; además, el artículo 53.2 incluye la objeción de conciencia reconocida en el artículo 30.2.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "53.2 y 30.2",
+        "manual": "Tema 1, apartados 53 y 60: garantías y máxima protección"
+      }
+    },
+    {
+      "id": "LP-T01-011",
+      "dificultad": "intermedia",
+      "enunciado": "¿Qué efecto atribuye el artículo 53.3 a los principios rectores de los artículos 39 a 52?",
+      "opciones": [
+        { "id": "A", "texto": "Son directamente recurribles en amparo en todo caso." },
+        { "id": "B", "texto": "Solo vinculan al Gobierno, pero no a los tribunales." },
+        { "id": "C", "texto": "Informan la legislación positiva, la práctica judicial y la actuación de los poderes públicos, y solo pueden alegarse ante la jurisdicción ordinaria según las leyes que los desarrollen." },
+        { "id": "D", "texto": "Carecen de cualquier eficacia jurídica hasta que se reforme la Constitución." }
+      ],
+      "correcta": "C",
+      "justificacion": "Los principios rectores orientan la legislación, la práctica judicial y la actuación pública. Su alegación ante los tribunales depende de lo dispuesto en las leyes que los desarrollen.",
+      "fuente": {
+        "norma": "Constitución Española",
+        "articulos": "53.3 y 39-52",
+        "manual": "Tema 1, apartados 53 y 60: principios rectores"
+      }
+    },
+    {
+      "id": "LP-T01-012",
+      "dificultad": "intermedia",
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre la suspensión de derechos es correcta?",
+      "opciones": [
+        { "id": "A", "texto": "El estado de alarma activa automáticamente la suspensión general del artículo 55.1." },
+        { "id": "B", "texto": "La suspensión individual del artículo 55.2 puede afectar a cualquier derecho del Título I sin intervención judicial." },
+        { "id": "C", "texto": "En los estados de excepción o sitio pueden suspenderse determinados derechos del artículo 55.1; además, el artículo 17.3 no puede suspenderse durante el estado de excepción." },
+        { "id": "D", "texto": "El derecho de huelga del artículo 28.2 nunca puede suspenderse." }
+      ],
+      "correcta": "C",
+      "justificacion": "El artículo 55.1 permite suspender derechos concretos durante excepción o sitio. El estado de alarma no suspende derechos y, durante la excepción, se mantiene la garantía del artículo 17.3.",
+      "fuente": {
+        "norma": "Constitución Española y Ley Orgánica 4/1981",
+        "articulos": "55.1 CE; estados de excepción y sitio",
+        "manual": "Tema 1, apartados 55 a 59: suspensión"
+      }
+    }
+  ]
 }
