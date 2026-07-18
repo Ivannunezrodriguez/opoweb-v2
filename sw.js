@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.20.4';
+const CACHE = 'opoweb-v2-0.20.5';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -7,6 +7,7 @@ const CORE_ASSETS = [
   './assets/styles.css',
   './assets/practice-progress.css',
   './assets/app.js',
+  './assets/theme-test-link.js',
   './assets/practice.js',
   './assets/icon.svg',
   './data/programa.json',
