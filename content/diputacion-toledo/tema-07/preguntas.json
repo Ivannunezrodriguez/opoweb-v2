@@ -1,0 +1,114 @@
+{
+  "tema": 7,
+  "total": 12,
+  "preguntas": [
+    {
+      "id": "DIP-T07-001",
+      "pregunta": "¿Cuál de las siguientes notas distingue al acto administrativo del reglamento?",
+      "opciones": ["El acto administrativo siempre tiene destinatario único", "El acto administrativo produce efectos jurídicos concretos y no tiene carácter normativo general", "El reglamento carece de efectos jurídicos", "El acto administrativo solo puede ser favorable"],
+      "respuestaCorrecta": 1,
+      "justificacion": "El acto administrativo aplica el ordenamiento a un supuesto concreto, mientras que el reglamento contiene una norma general y abstracta.",
+      "trampaExamen": "Confundir acto general con reglamento: un acto puede dirigirse a una pluralidad, pero sigue sin tener carácter normativo.",
+      "referencia": "Manual, apartado 1"
+    },
+    {
+      "id": "DIP-T07-002",
+      "pregunta": "¿Qué acto de trámite puede recurrirse separadamente?",
+      "opciones": ["Cualquiera que se dicte antes de la resolución", "Solo el que sea favorable", "El que produzca indefensión o perjuicio irreparable", "Ningún acto de trámite"],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los actos de trámite cualificados son recurribles cuando deciden el fondo, impiden continuar, producen indefensión o perjuicio irreparable.",
+      "trampaExamen": "No todos los actos de trámite son recurribles autónomamente.",
+      "referencia": "Manual, apartado 2"
+    },
+    {
+      "id": "DIP-T07-003",
+      "pregunta": "La incompetencia manifiesta que determina nulidad de pleno derecho debe ser por razón de:",
+      "opciones": ["Jerarquía o cuantía", "Materia o territorio", "Firma o forma", "Tiempo o oportunidad"],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 47.1.b de la Ley 39/2015 exige incompetencia manifiesta por razón de la materia o del territorio.",
+      "trampaExamen": "La incompetencia jerárquica no aparece en esta causa de nulidad.",
+      "referencia": "Manual, apartados 3.1 y 7"
+    },
+    {
+      "id": "DIP-T07-004",
+      "pregunta": "¿Cuál de estos actos debe motivarse?",
+      "opciones": ["Solo los reglados", "Los que limiten derechos subjetivos o intereses legítimos", "Únicamente los favorables", "Ninguno si se dicta electrónicamente"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley 39/2015 exige motivación, entre otros, para los actos que limiten derechos subjetivos o intereses legítimos.",
+      "trampaExamen": "La motivación no depende de que el acto sea electrónico.",
+      "referencia": "Manual, apartado 4.2"
+    },
+    {
+      "id": "DIP-T07-005",
+      "pregunta": "Como regla general, los actos administrativos producen efectos:",
+      "opciones": ["Desde su publicación en todo caso", "Desde la fecha en que se dicten, salvo que dispongan otra cosa", "Desde que transcurran 10 días", "Desde que sean firmes"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los actos se presumen válidos y producen efectos desde la fecha en que se dictan, salvo previsión distinta o eficacia demorada.",
+      "trampaExamen": "Validez, eficacia y firmeza son conceptos distintos.",
+      "referencia": "Manual, apartado 5.1"
+    },
+    {
+      "id": "DIP-T07-006",
+      "pregunta": "¿En qué supuesto puede otorgarse eficacia retroactiva favorable?",
+      "opciones": ["Siempre que lo pida el interesado", "Cuando existieran ya los presupuestos de hecho y no se lesionen derechos de terceros", "Solo en actos sancionadores", "Nunca"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La retroactividad favorable exige hechos preexistentes y ausencia de lesión a derechos o intereses legítimos de otras personas.",
+      "trampaExamen": "La retroactividad favorable no es automática.",
+      "referencia": "Manual, apartado 5.2"
+    },
+    {
+      "id": "DIP-T07-007",
+      "pregunta": "¿Dentro de qué plazo debe cursarse toda notificación desde que se dicta el acto?",
+      "opciones": ["5 días", "10 días", "15 días", "1 mes"],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 40.2 de la Ley 39/2015 establece un plazo de 10 días para cursar la notificación.",
+      "trampaExamen": "Ese plazo no es el plazo para recurrir.",
+      "referencia": "Manual, apartado 6"
+    },
+    {
+      "id": "DIP-T07-008",
+      "pregunta": "Un acto de contenido imposible es:",
+      "opciones": ["Irregular no invalidante", "Anulable", "Nulo de pleno derecho", "Convalidable automáticamente"],
+      "respuestaCorrecta": 2,
+      "justificacion": "El contenido imposible constituye una causa expresa de nulidad de pleno derecho.",
+      "trampaExamen": "No se trata de mera anulabilidad.",
+      "referencia": "Manual, apartado 7"
+    },
+    {
+      "id": "DIP-T07-009",
+      "pregunta": "La desviación de poder determina:",
+      "opciones": ["Nulidad de pleno derecho", "Anulabilidad", "Inexistencia jurídica", "Conservación obligatoria"],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 48 incluye expresamente la desviación de poder entre las causas de anulabilidad.",
+      "trampaExamen": "No confundir desviación de poder con incompetencia manifiesta.",
+      "referencia": "Manual, apartado 8"
+    },
+    {
+      "id": "DIP-T07-010",
+      "pregunta": "¿Cuándo produce anulabilidad un defecto de forma?",
+      "opciones": ["Siempre", "Nunca", "Cuando falten requisitos formales indispensables o se produzca indefensión", "Solo cuando falte firma manuscrita"],
+      "respuestaCorrecta": 2,
+      "justificacion": "El defecto formal solo invalida en esos dos supuestos.",
+      "trampaExamen": "No todo defecto de forma anula el acto.",
+      "referencia": "Manual, apartado 8"
+    },
+    {
+      "id": "DIP-T07-011",
+      "pregunta": "¿Qué figura permite subsanar los vicios de un acto anulable?",
+      "opciones": ["Conversión", "Conservación", "Convalidación", "Revocación automática"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Administración puede convalidar los actos anulables subsanando sus vicios.",
+      "trampaExamen": "Los actos nulos de pleno derecho no son convalidables.",
+      "referencia": "Manual, apartado 10.4"
+    },
+    {
+      "id": "DIP-T07-012",
+      "pregunta": "La nulidad de un acto administrativo implica necesariamente la nulidad de todos los actos posteriores del procedimiento:",
+      "opciones": ["Sí, siempre", "Solo si los actos posteriores no son independientes del primero", "No, nunca", "Solo si lo pide el interesado"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La nulidad no se extiende a los actos sucesivos independientes del acto viciado.",
+      "trampaExamen": "La invalidez no se propaga automáticamente a todo el procedimiento.",
+      "referencia": "Manual, apartado 10.1"
+    }
+  ]
+}
