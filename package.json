@@ -1,9 +1,9 @@
 {
   "name": "opoweb-v2",
-  "version": "0.19.0",
+  "version": "0.20.4",
   "private": true,
   "type": "module",
-  "description": "Manual de oposiciones reconstruido y aprobado tema por tema",
+  "description": "Manual, bancos de preguntas, supuestos y simulacros interactivos de oposiciones",
   "scripts": {
     "test": "node tests/validate.mjs"
   }
