@@ -194,9 +194,11 @@ Puede sustituirse:
 
 Debe tratarse de actividades no habituales o lanzamiento de una nueva actividad.
 
-Duración máxima del programa: **cuatro años**.
+Duración máxima del programa: **dos años**.
 
 Puede prorrogarse sin superar ese máximo total.
+
+> ⚠️ **¡Foco Examen!:** El nombramiento por programa temporal puede prorrogarse cuando el inicial sea inferior, pero la duración total nunca puede superar **dos años**.
 
 ### D. Exceso o acumulación de tareas
 
@@ -1006,7 +1008,7 @@ Las Administraciones pueden adoptar medidas y convenios para facilitar esta movi
 
 | Concepto | Cifra |
 |---|---:|
-| Programa temporal de interino | Máximo 4 años |
+| Programa temporal de interino | Máximo 2 años |
 | Acumulación de tareas | 6 meses en 12 |
 | Reserva discapacidad | Mínimo 7 % |
 | Discapacidad intelectual | Al menos 2 % de plazas ofertadas |
