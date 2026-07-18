@@ -1,6 +1,176 @@
 {
   "tema": 15,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual está aprobado. El banco continúa vacío hasta redactar y revisar preguntas vinculadas a operaciones concretas y fuentes oficiales de Microsoft o conceptos técnicos expresamente delimitados."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterio": "Doce preguntas con cuatro opciones, una única respuesta correcta, justificación, trampa de examen y referencia al manual aprobado.",
+  "preguntas": [
+    {
+      "id": "LP-T15-001",
+      "enunciado": "¿Qué efecto produce normalmente la operación Copiar y pegar sobre un archivo en Windows?",
+      "opciones": [
+        "Traslada el archivo y elimina el original",
+        "Crea otro ejemplar y conserva el original",
+        "Crea únicamente un acceso directo",
+        "Cambia la extensión del archivo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Copiar y pegar duplica el elemento en la ubicación de destino y mantiene intacto el archivo original.",
+      "trampaExamen": "Copiar no equivale a mover ni a crear un acceso directo; son operaciones diferentes.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartados 6 y 8"
+    },
+    {
+      "id": "LP-T15-002",
+      "enunciado": "¿Qué hace normalmente el atajo Ctrl + Mayús + N en el Explorador de archivos?",
+      "opciones": [
+        "Crea una carpeta nueva",
+        "Abre las propiedades del elemento",
+        "Elimina sin pasar por la Papelera",
+        "Selecciona todos los archivos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Ctrl + Mayús + N crea una carpeta nueva en la ubicación activa del Explorador de archivos.",
+      "trampaExamen": "No debe confundirse con Ctrl + N de algunas aplicaciones ni con Mayús + Supr.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartado 7"
+    },
+    {
+      "id": "LP-T15-003",
+      "enunciado": "Al arrastrar un archivo desde una unidad local a otra unidad distinta, ¿qué operación realiza Windows normalmente?",
+      "opciones": [
+        "Lo mueve",
+        "Lo copia",
+        "Lo elimina",
+        "Crea siempre un acceso directo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Entre unidades diferentes, el arrastre normalmente copia el archivo, aunque los modificadores pueden forzar otra acción.",
+      "trampaExamen": "Dentro de la misma unidad suele mover; hacia otra unidad suele copiar. La regla depende del destino.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartado 8"
+    },
+    {
+      "id": "LP-T15-004",
+      "enunciado": "¿Qué modificador fuerza normalmente la creación de un acceso directo al arrastrar un elemento?",
+      "opciones": [
+        "Ctrl",
+        "Mayús",
+        "Alt",
+        "Tab"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Durante el arrastre, Alt fuerza normalmente la creación de un acceso directo al elemento original.",
+      "trampaExamen": "Ctrl fuerza copia y Mayús fuerza movimiento; Alt es el modificador del acceso directo.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartado 8"
+    },
+    {
+      "id": "LP-T15-005",
+      "enunciado": "¿Qué consecuencia tiene cambiar manualmente la extensión .jpg de un archivo por .pdf?",
+      "opciones": [
+        "Convierte siempre la imagen en un PDF válido",
+        "Cambia el nombre, pero no transforma realmente el formato",
+        "Comprime automáticamente el archivo",
+        "Digitaliza el documento"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Modificar la extensión cambia el nombre y puede alterar la asociación, pero no convierte el contenido al nuevo formato.",
+      "trampaExamen": "Extensión y formato no son equivalentes; renombrar no realiza una conversión de archivo.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartados 4 y 13"
+    },
+    {
+      "id": "LP-T15-006",
+      "enunciado": "¿Qué acción solicita normalmente Mayús + Supr sobre un archivo?",
+      "opciones": [
+        "Moverlo a la Papelera",
+        "Eliminarlo sin pasar por la Papelera",
+        "Restaurarlo",
+        "Renombrarlo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Mayús + Supr solicita la eliminación directa del elemento sin enviarlo previamente a la Papelera.",
+      "trampaExamen": "Supr suele enviar a Papelera cuando procede; Mayús + Supr evita ese paso.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartados 6 y 7"
+    },
+    {
+      "id": "LP-T15-007",
+      "enunciado": "¿Cuál de las siguientes es una ruta UNC válida de red?",
+      "opciones": [
+        "C:\\Usuarios\\Ana\\Documentos",
+        "Z:\\expedientes",
+        "\\\\servidor\\recurso\\expedientes",
+        "https://servidor/recurso"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Una ruta UNC identifica directamente un recurso compartido mediante dos barras invertidas, servidor y recurso.",
+      "trampaExamen": "Z: puede ser una unidad de red asignada, pero no es la forma UNC del recurso.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartados 4 y 10"
+    },
+    {
+      "id": "LP-T15-008",
+      "enunciado": "Asignar el recurso compartido \\\\servidor\\documentos a la letra Z: significa que:",
+      "opciones": [
+        "Se convierte físicamente en un disco local",
+        "Sigue siendo un recurso remoto dependiente de red y permisos",
+        "Se copia automáticamente todo su contenido al equipo",
+        "Deja de necesitar credenciales"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La asignación facilita el acceso mediante una letra, pero el recurso sigue alojado en red y sujeto a conexión, servidor, credenciales y permisos.",
+      "trampaExamen": "La letra de unidad no demuestra que el almacenamiento sea local ni que exista una copia offline.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartado 10"
+    },
+    {
+      "id": "LP-T15-009",
+      "enunciado": "¿Qué función cumple Microsoft Print to PDF?",
+      "opciones": [
+        "Digitaliza un documento físico",
+        "Genera un archivo PDF mediante una impresora virtual",
+        "Reconoce texto mediante OCR",
+        "Envía el documento obligatoriamente a una impresora de papel"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Microsoft Print to PDF actúa como impresora virtual y crea un archivo PDF a partir del documento enviado a imprimir.",
+      "trampaExamen": "Imprimir en PDF no es escanear ni aplicar OCR a un documento físico.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartado 11"
+    },
+    {
+      "id": "LP-T15-010",
+      "enunciado": "Si un trabajo no sale por la impresora, ¿qué actuación es más adecuada antes de reenviarlo varias veces?",
+      "opciones": [
+        "Revisar la cola de impresión",
+        "Cambiar la extensión del documento",
+        "Eliminar el controlador sin comprobar nada",
+        "Digitalizar el documento"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La cola permite comprobar si el trabajo está pausado, bloqueado, duplicado o pendiente antes de generar nuevas copias.",
+      "trampaExamen": "Reenviar repetidamente un trabajo atascado puede provocar impresiones duplicadas cuando se resuelva el bloqueo.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartados 11 y 13"
+    },
+    {
+      "id": "LP-T15-011",
+      "enunciado": "¿Qué proceso convierte un original físico en un archivo digital mediante un escáner?",
+      "opciones": [
+        "Impresión virtual",
+        "Digitalización",
+        "Compresión",
+        "Asignación de unidad"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La digitalización captura el original físico mediante un escáner o equipo multifunción y genera un archivo digital.",
+      "trampaExamen": "Digitalizar no es imprimir en PDF, aunque ambas operaciones puedan terminar en un archivo PDF.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartado 12"
+    },
+    {
+      "id": "LP-T15-012",
+      "enunciado": "Tras escanear una página como imagen, ¿qué afirmación es correcta respecto al OCR?",
+      "opciones": [
+        "La digitalización convierte siempre el texto en editable",
+        "El OCR es un proceso distinto que reconoce texto dentro de la imagen",
+        "El OCR solo sirve para imprimir",
+        "El OCR sustituye al escáner físico"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El OCR analiza la imagen digitalizada para reconocer caracteres; el simple escaneo no garantiza texto editable o buscable.",
+      "trampaExamen": "Escanear crea una imagen o archivo digital, pero el reconocimiento de texto requiere OCR.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartado 12"
+    }
+  ]
 }
