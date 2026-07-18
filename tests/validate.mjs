@@ -34,7 +34,7 @@ for (const t of approved) {
 
   const questionBank = json(t.preguntas);
   assert.ok(Array.isArray(questionBank.preguntas), `Banco inválido del tema ${t.numero}`);
-  if (t.numero > 2) assert.deepEqual(questionBank.preguntas, []);
+  if (t.numero > 3) assert.deepEqual(questionBank.preguntas, []);
 
   const manual = read(t.manual);
   assert.ok(manual.includes('Tema cerrado: **SÍ**'), `Tema ${t.numero} no figura cerrado`);
@@ -69,6 +69,7 @@ const validateQuestionBank = (tema, prefix) => {
 
 const questions1 = validateQuestionBank(1, 'LP-T01');
 const questions2 = validateQuestionBank(2, 'LP-T02');
+const questions3 = validateQuestionBank(3, 'LP-T03');
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
 assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'));
@@ -125,7 +126,8 @@ console.log(JSON.stringify({
   internalLinks: 'VALIDATED',
   tema1Questions: questions1.preguntas.length,
   tema2Questions: questions2.preguntas.length,
-  generatedQuestions: questions1.preguntas.length + questions2.preguntas.length,
+  tema3Questions: questions3.preguntas.length,
+  generatedQuestions: questions1.preguntas.length + questions2.preguntas.length + questions3.preguntas.length,
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_Y_2_TEST_GENERADOS'
+  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_3_TEST_GENERADOS'
 }, null, 2));
