@@ -1,0 +1,236 @@
+from pathlib import Path
+import json
+import textwrap
+
+DATE = "2026-07-18"
+VERSION = "0.13.0"
+BASE = Path("content/la-puebla/tema-13")
+
+
+def write_json(path: Path, data: object) -> None:
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+# Cerrar el estado de todos los documentos teóricos revisados.
+for path in BASE.glob("*.md"):
+    text = path.read_text(encoding="utf-8")
+    text = text.replace("**Estado:** EN REVISIÓN DEL USUARIO", "**Estado:** APROBADO POR EL USUARIO")
+    path.write_text(text, encoding="utf-8")
+
+manual_path = BASE / "manual.md"
+manual = manual_path.read_text(encoding="utf-8")
+manual = manual.replace("**No publicado como tema aprobado.**", "**Publicado como tema aprobado.**")
+manual = manual.replace("- Revisión del usuario: pendiente.", "- Revisión del usuario: aprobada el 18 de julio de 2026.")
+manual = manual.replace("- Tema cerrado: **NO**.", "- Tema cerrado: **SÍ, aprobado por el usuario**.")
+manual = manual.replace("- Publicación como aprobado: **NO**.", "- Publicación como aprobado: **SÍ**.")
+manual = manual.replace(
+    "El tema solo cambiará a `APROBADO_USUARIO` tras la respuesta expresa **«Tema 13 aprobado»**.",
+    "Frase de aprobación registrada: **«Tema 13 aprobado»**.",
+)
+manual_path.write_text(manual, encoding="utf-8")
+
+feedback_path = BASE / "feedback.md"
+feedback = feedback_path.read_text(encoding="utf-8")
+feedback = feedback.replace("# Tema 13 · Informe para revisión del usuario", "# Tema 13 · Informe de revisión cerrado")
+feedback = feedback.replace("`EN_REVISION_USUARIO`", "`APROBADO_USUARIO`")
+feedback = feedback.replace(
+    "El tema no está publicado como aprobado. El banco de preguntas permanece vacío.",
+    "El tema está aprobado y publicado. El banco de preguntas permanece vacío hasta una revisión específica y trazable.",
+)
+cierre = textwrap.dedent(
+    """
+    ## Cierre
+
+    Aprobación registrada el **18 de julio de 2026** mediante la frase:
+
+    > **«Tema 13 aprobado»**
+
+    El tema queda cerrado y publicado como `APROBADO_USUARIO`.
+    """
+).strip() + "\n"
+if "## Cierre" in feedback:
+    feedback = feedback.split("## Cierre", 1)[0].rstrip() + "\n\n" + cierre
+feedback_path.write_text(feedback, encoding="utf-8")
+
+matrix_path = BASE / "matriz.json"
+matrix = json.loads(matrix_path.read_text(encoding="utf-8"))
+matrix["estado"] = "APROBADO_USUARIO"
+matrix["aprobadoEl"] = DATE
+matrix["criterioDeCierre"] = (
+    "Aprobado expresamente por el usuario mediante la frase Tema 13 aprobado el 18 de julio de 2026."
+)
+write_json(matrix_path, matrix)
+
+questions_path = BASE / "preguntas.json"
+questions = json.loads(questions_path.read_text(encoding="utf-8"))
+questions["estado"] = "PENDIENTE_REVISION_POST_APROBACION"
+questions["nota"] = (
+    "La teoría fue aprobada por el usuario el 18 de julio de 2026. El banco continúa vacío hasta crear y revisar "
+    "cada pregunta con vinculación a un precepto concreto de eIDAS, Ley 6/2020, Ley 39/2015, Ley 40/2015 o "
+    "Real Decreto 203/2021."
+)
+write_json(questions_path, questions)
+
+(BASE / "aprobacion.md").write_text(
+    textwrap.dedent(
+        """
+        # Aprobación del Tema 13
+
+        El usuario aprobó expresamente el contenido teórico del tema 13 el **18 de julio de 2026** mediante la frase:
+
+        > **«Tema 13 aprobado»**
+
+        Esta aprobación permite cambiar el estado del tema a `APROBADO_USUARIO` y publicarlo en OpoWeb v2.
+
+        La aprobación no autoriza a generar preguntas por volumen. El banco continuará vacío hasta que cada pregunta se redacte, revise y vincule a una fuente normativa concreta.
+        """
+    ).lstrip(),
+    encoding="utf-8",
+)
+
+programme_path = Path("data/programa.json")
+programme = json.loads(programme_path.read_text(encoding="utf-8"))
+programme["version"] = VERSION
+programme["updatedAt"] = DATE
+theme13 = next(t for t in programme["temas"] if t["numero"] == 13)
+theme13["estado"] = "APROBADO_USUARIO"
+theme13["aprobadoEl"] = DATE
+theme13["aprobacion"] = "content/la-puebla/tema-13/aprobacion.md"
+write_json(programme_path, programme)
+
+package_path = Path("package.json")
+package = json.loads(package_path.read_text(encoding="utf-8"))
+package["version"] = VERSION
+write_json(package_path, package)
+
+index_path = Path("index.html")
+index_path.write_text(index_path.read_text(encoding="utf-8").replace("v0.12.0", "v0.13.0"), encoding="utf-8")
+
+readme_path = Path("README.md")
+readme = readme_path.read_text(encoding="utf-8")
+readme = readme.replace("- Versión: **0.12.0**.", "- Versión: **0.13.0**.")
+readme = readme.replace(
+    "- Temas 13–19: `PENDIENTE_RECONSTRUCCION`.",
+    "- Tema 13: `APROBADO_USUARIO` el 18 de julio de 2026.\n- Temas 14–19: `PENDIENTE_RECONSTRUCCION`.",
+)
+readme = readme.replace(
+    "│     ├─ tema-11/\n│     └─ tema-12/\n│        ├─ manual.md\n│        ├─ cinco capítulos y cuatro subcapítulos\n│        ├─ matriz.json\n│        ├─ aprobacion.md\n│        ├─ articulos.md\n│        └─ preguntas.json",
+    "│     ├─ tema-11/\n│     ├─ tema-12/\n│     └─ tema-13/\n│        ├─ manual.md\n│        ├─ cinco capítulos\n│        ├─ matriz.json\n│        ├─ aprobacion.md\n│        ├─ articulos.md\n│        └─ preguntas.json",
+)
+t13_section = textwrap.dedent(
+    """
+    ### Tema 13
+
+    Administración electrónica y certificados: identificación frente a firma; firma simple, avanzada y cualificada; sellos; tipos y soportes de certificado; prestadores, autoridades raíz y de registro; listas de confianza; validación, revocación, sellado de tiempo, entrega, conservación y sistemas propios de las Administraciones públicas. Incluye eIDAS actualizado, Ley 6/2020, Leyes 39/2015 y 40/2015 y Real Decreto 203/2021.
+
+    """
+)
+marker = (
+    "Los bancos de preguntas de los doce temas permanecen vacíos hasta realizar una revisión específica y trazable. "
+    "La aprobación del manual no autoriza a rellenarlos automáticamente."
+)
+if "### Tema 13" not in readme:
+    readme = readme.replace(
+        marker,
+        t13_section
+        + "Los bancos de preguntas de los trece temas permanecen vacíos hasta realizar una revisión específica y trazable. "
+        "La aprobación del manual no autoriza a rellenarlos automáticamente.",
+    )
+else:
+    readme = readme.replace("Los bancos de preguntas de los doce temas", "Los bancos de preguntas de los trece temas")
+readme = readme.replace(
+    "exactamente doce temas aprobados, siete pendientes y que los archivos modulares de los temas 11 y 12",
+    "exactamente trece temas aprobados, seis pendientes y que los archivos modulares de los temas 11, 12 y 13",
+)
+readme_path.write_text(readme, encoding="utf-8")
+
+sw_path = Path("sw.js")
+sw = sw_path.read_text(encoding="utf-8").replace(
+    "const CACHE = 'opoweb-v2-0.12.0';", "const CACHE = 'opoweb-v2-0.13.0';"
+)
+old_last = "  './content/la-puebla/tema-12/bloque-05b-iivtnu-sujetos.md'\n];"
+assets13 = """  './content/la-puebla/tema-12/bloque-05b-iivtnu-sujetos.md',
+  './content/la-puebla/tema-13/manual.md',
+  './content/la-puebla/tema-13/matriz.json',
+  './content/la-puebla/tema-13/aprobacion.md',
+  './content/la-puebla/tema-13/preguntas.json',
+  './content/la-puebla/tema-13/articulos.md',
+  './content/la-puebla/tema-13/bloque-01-conceptos-usos.md',
+  './content/la-puebla/tema-13/bloque-02-tipos-certificados.md',
+  './content/la-puebla/tema-13/bloque-03-soportes.md',
+  './content/la-puebla/tema-13/bloque-04-prestadores-servicios.md',
+  './content/la-puebla/tema-13/bloque-05-administraciones.md'
+];"""
+if old_last not in sw:
+    raise RuntimeError("No se encontró el punto de inserción de Tema 13 en sw.js")
+sw_path.write_text(sw.replace(old_last, assets13), encoding="utf-8")
+
+tests = textwrap.dedent(
+    """
+    import fs from 'node:fs';
+    import assert from 'node:assert/strict';
+    const read = p => fs.readFileSync(p, 'utf8');
+    const json = p => JSON.parse(read(p));
+    const exists = p => fs.existsSync(p);
+
+    const programme = json('data/programa.json');
+    const packageJson = json('package.json');
+    const serviceWorker = read('sw.js');
+    const index = read('index.html');
+
+    assert.equal(programme.version, '0.13.0');
+    assert.equal(packageJson.version, '0.13.0');
+    assert.ok(index.includes('v0.13.0'));
+    assert.equal(programme.temas.length, 19);
+
+    const approved = programme.temas.filter(t => t.estado === 'APROBADO_USUARIO');
+    const review = programme.temas.filter(t => t.estado === 'EN_REVISION_USUARIO');
+    const pending = programme.temas.filter(t => t.estado === 'PENDIENTE_RECONSTRUCCION');
+    assert.deepEqual(approved.map(t => t.numero), [1,2,3,4,5,6,7,8,9,10,11,12,13]);
+    assert.equal(review.length, 0);
+    assert.deepEqual(pending.map(t => t.numero), [14,15,16,17,18,19]);
+    assert.ok(programme.temas.slice(13).every(t => !t.manual));
+
+    for (const t of approved) {
+      assert.ok(exists(t.manual));
+      assert.ok(exists(t.matriz));
+      assert.ok(exists(t.preguntas));
+      assert.equal(json(t.matriz).estado, 'APROBADO_USUARIO');
+      assert.deepEqual(json(t.preguntas).preguntas, []);
+    }
+
+    const t13 = programme.temas[12];
+    const base13 = 'content/la-puebla/tema-13';
+    const matrix13 = json(`${base13}/matriz.json`);
+    const questions13 = json(`${base13}/preguntas.json`);
+    assert.equal(t13.capitulos.length, 5);
+    assert.equal(t13.aprobadoEl, '2026-07-18');
+    assert.equal(matrix13.estado, 'APROBADO_USUARIO');
+    assert.equal(matrix13.cobertura.length, 5);
+    assert.equal(matrix13.cifras.length, 4);
+    assert.equal(questions13.estado, 'PENDIENTE_REVISION_POST_APROBACION');
+    assert.deepEqual(questions13.preguntas, []);
+    assert.ok(read(`${base13}/manual.md`).includes('Tema cerrado: **SÍ'));
+    assert.ok(read(`${base13}/aprobacion.md`).includes('Tema 13 aprobado'));
+
+    const files13 = ['manual.md','matriz.json','aprobacion.md','preguntas.json','articulos.md','bloque-01-conceptos-usos.md','bloque-02-tipos-certificados.md','bloque-03-soportes.md','bloque-04-prestadores-servicios.md','bloque-05-administraciones.md'];
+    for (const file of files13) {
+      assert.ok(exists(`${base13}/${file}`), `Falta ${file}`);
+      assert.ok(serviceWorker.includes(`./${base13}/${file}`), `No precargado ${file}`);
+    }
+
+    const joined = files13.filter(f => f.endsWith('.md')).map(f => read(`${base13}/${f}`)).join('\n').toLowerCase();
+    for (const term of ['firma electrónica cualificada','sello electrónico','autoridad de registro','lista de confianza','firma remota','cinco años','quince años','código seguro de verificación']) assert.ok(joined.includes(term), `Falta ${term}`);
+    for (const term of ['Art. 3','Art. 20','Art. 24','Art. 25','Art. 45','Anexo I','Anexo III','Anexo IV']) assert.ok(read(`${base13}/articulos.md`).includes(term));
+    assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.13.0'"));
+    assert.equal(exists('.github/workflows/apply-t13-approval.yml'), false);
+    assert.equal(exists('scripts/publish_t13.py'), false);
+    console.log(JSON.stringify({version: programme.version, approved: approved.length, review: review.length, pending: pending.length, theme13Questions: questions13.preguntas.length, status: 'TEMA_13_APROBADO_VALIDADO'}, null, 2));
+    """
+).lstrip()
+Path("tests/validate.mjs").write_text(tests, encoding="utf-8")
+
+# El automatismo es de un solo uso.
+for temporary in [Path(".github/workflows/apply-t13-approval.yml"), Path("scripts/publish_t13.py")]:
+    if temporary.exists():
+        temporary.unlink()
