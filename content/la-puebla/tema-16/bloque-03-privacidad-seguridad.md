@@ -1,6 +1,6 @@
 # Tema 16 · Bloque 3 · Privacidad, cookies, permisos y seguridad
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Datos de navegación
 

@@ -1,6 +1,6 @@
 # Tema 16 · Bloque 2 · Pestañas, favoritos, historial, búsqueda y descargas
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Gestión de pestañas
 

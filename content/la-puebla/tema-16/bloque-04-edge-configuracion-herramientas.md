@@ -1,6 +1,6 @@
 # Tema 16 · Bloque 4 · Microsoft Edge: configuración, perfiles y herramientas
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Interfaz esencial de Edge
 

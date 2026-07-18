@@ -1,6 +1,6 @@
 # Tema 16 · Trazabilidad de fuentes oficiales
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 Este tema no se apoya en una norma articulada. La trazabilidad se organiza como `inciso oficial → documentación primaria de Microsoft → operación exigible`.
 

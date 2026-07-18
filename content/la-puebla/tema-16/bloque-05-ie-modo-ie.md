@@ -1,6 +1,6 @@
 # Tema 16 · Bloque 5 · Internet Explorer 11 y modo Internet Explorer
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Situación actual de Internet Explorer
 

@@ -1,6 +1,6 @@
 # Tema 16 · Bloque 1 · Conceptos de Internet, web, navegador y navegación
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Internet, web y navegador
 
