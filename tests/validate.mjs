@@ -34,7 +34,7 @@ for (const t of approved) {
 
   const questionBank = json(t.preguntas);
   assert.ok(Array.isArray(questionBank.preguntas), `Banco inválido del tema ${t.numero}`);
-  if (t.numero !== 1) assert.deepEqual(questionBank.preguntas, []);
+  if (t.numero > 2) assert.deepEqual(questionBank.preguntas, []);
 
   const manual = read(t.manual);
   assert.ok(manual.includes('Tema cerrado: **SÍ**'), `Tema ${t.numero} no figura cerrado`);
@@ -51,21 +51,24 @@ for (const t of approved) {
   assert.ok(exists(audit), `Falta informe de auditoría del tema ${t.numero}`);
 }
 
-const questions1 = json('content/la-puebla/tema-01/preguntas.json');
-assert.equal(questions1.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
-assert.equal(questions1.preguntas.length, 12);
-assert.deepEqual(questions1.preguntas.map(q => q.id), [
-  'LP-T01-001','LP-T01-002','LP-T01-003','LP-T01-004','LP-T01-005','LP-T01-006',
-  'LP-T01-007','LP-T01-008','LP-T01-009','LP-T01-010','LP-T01-011','LP-T01-012'
-]);
-for (const q of questions1.preguntas) {
-  assert.equal(q.opciones.length, 4, `${q.id} no tiene cuatro opciones`);
-  assert.ok(Number.isInteger(q.respuestaCorrecta), `${q.id} carece de respuesta correcta`);
-  assert.ok(q.respuestaCorrecta >= 0 && q.respuestaCorrecta < 4, `${q.id} tiene índice incorrecto`);
-  assert.ok(q.justificacion.length > 30, `${q.id} tiene justificación insuficiente`);
-  assert.ok(q.trampaExamen.length > 20, `${q.id} carece de trampa de examen`);
-  assert.ok(q.referencia.includes('manual.md') || q.referencia.includes('matriz.json'), `${q.id} carece de trazabilidad`);
-}
+const validateQuestionBank = (tema, prefix) => {
+  const bank = json(`content/la-puebla/tema-${String(tema).padStart(2, '0')}/preguntas.json`);
+  assert.equal(bank.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
+  assert.equal(bank.preguntas.length, 12);
+  assert.deepEqual(bank.preguntas.map(q => q.id), Array.from({ length: 12 }, (_, i) => `${prefix}-${String(i + 1).padStart(3, '0')}`));
+  for (const q of bank.preguntas) {
+    assert.equal(q.opciones.length, 4, `${q.id} no tiene cuatro opciones`);
+    assert.ok(Number.isInteger(q.respuestaCorrecta), `${q.id} carece de respuesta correcta`);
+    assert.ok(q.respuestaCorrecta >= 0 && q.respuestaCorrecta < 4, `${q.id} tiene índice incorrecto`);
+    assert.ok(q.justificacion.length > 30, `${q.id} tiene justificación insuficiente`);
+    assert.ok(q.trampaExamen.length > 20, `${q.id} carece de trampa de examen`);
+    assert.ok(q.referencia.includes('manual.md') || q.referencia.includes('matriz.json'), `${q.id} carece de trazabilidad`);
+  }
+  return bank;
+};
+
+const questions1 = validateQuestionBank(1, 'LP-T01');
+const questions2 = validateQuestionBank(2, 'LP-T02');
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
 assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'));
@@ -121,6 +124,8 @@ console.log(JSON.stringify({
   auditedReports: approved.length,
   internalLinks: 'VALIDATED',
   tema1Questions: questions1.preguntas.length,
+  tema2Questions: questions2.preguntas.length,
+  generatedQuestions: questions1.preguntas.length + questions2.preguntas.length,
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_TEMA_1_TEST_GENERADO'
+  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_Y_2_TEST_GENERADOS'
 }, null, 2));
