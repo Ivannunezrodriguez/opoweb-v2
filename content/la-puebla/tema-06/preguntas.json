@@ -1,6 +1,183 @@
 {
   "tema": 6,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "La teoría fue aprobada el 17 de julio de 2026. Las preguntas se crearán después con referencia normativa individual."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T06-001",
+      "enunciado": "¿Cuál de las siguientes NO constituye una clase general de personal empleado público enumerada en el artículo 4.2 de la Ley 4/2011?",
+      "opciones": [
+        "Personal funcionario de carrera",
+        "Personal funcionario interino",
+        "Personal directivo profesional",
+        "Personal eventual"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 4.2 enumera personal funcionario de carrera, interino, laboral y eventual. El personal directivo profesional se regula separadamente en los artículos 13 a 15.",
+      "trampaExamen": "Que la ley regule al personal directivo no significa que lo configure como una quinta clase general equivalente.",
+      "referencia": "manual.md · apartado 7 · Artículo 4"
+    },
+    {
+      "id": "LP-T06-002",
+      "enunciado": "El nombramiento de personal funcionario interino para ejecutar un programa temporal puede tener una duración máxima total de:",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Dos años",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 8 permite el nombramiento por programa temporal por un máximo total de dos años, incluida cualquier prórroga.",
+      "trampaExamen": "La duración vigente en Castilla-La Mancha es de dos años; cuatro años es una referencia incorrecta y desactualizada.",
+      "referencia": "manual.md · apartado 11.C · Artículo 8"
+    },
+    {
+      "id": "LP-T06-003",
+      "enunciado": "Por exceso o acumulación de tareas, el nombramiento de personal funcionario interino puede durar como máximo:",
+      "opciones": [
+        "Tres meses dentro de seis meses",
+        "Seis meses dentro de un periodo de doce meses",
+        "Nueve meses dentro de dieciocho meses",
+        "Doce meses dentro de dos años"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley 4/2011 fija un máximo de seis meses dentro de un periodo de doce meses para el exceso o acumulación de tareas.",
+      "trampaExamen": "No confundir este supuesto con el programa temporal, cuyo límite máximo total es de dos años.",
+      "referencia": "manual.md · apartado 11.D · Artículo 8"
+    },
+    {
+      "id": "LP-T06-004",
+      "enunciado": "La oferta de empleo público debe ejecutarse totalmente en el plazo improrrogable de:",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Tres años",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La ejecución total de la oferta debe desarrollarse en el plazo improrrogable de tres años desde el día siguiente a su publicación.",
+      "trampaExamen": "La oferta no equivale a convocatoria, pero obliga a convocar y ejecutar dentro del plazo legal.",
+      "referencia": "manual.md · apartado 20 · Artículo 19"
+    },
+    {
+      "id": "LP-T06-005",
+      "enunciado": "La oferta de empleo público puede comprometer la convocatoria de plazas adicionales hasta un máximo de:",
+      "opciones": [
+        "Cinco por ciento",
+        "Diez por ciento",
+        "Quince por ciento",
+        "Veinte por ciento"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La aprobación de la oferta comporta la obligación de convocar las plazas comprometidas y hasta un diez por ciento adicional.",
+      "trampaExamen": "El porcentaje adicional no convierte automáticamente esas plazas en convocadas; debe existir convocatoria posterior.",
+      "referencia": "manual.md · apartado 20 · Artículo 19"
+    },
+    {
+      "id": "LP-T06-006",
+      "enunciado": "El cupo de reserva para personas con discapacidad en la oferta de empleo público no puede ser inferior al:",
+      "opciones": [
+        "Cinco por ciento",
+        "Siete por ciento",
+        "Diez por ciento",
+        "Doce por ciento"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La oferta debe reservar un cupo no inferior al siete por ciento de las vacantes, destinando al menos un dos por ciento a discapacidad intelectual.",
+      "trampaExamen": "El dos por ciento no es el cupo total, sino la parte mínima reservada dentro del siete por ciento.",
+      "referencia": "manual.md · apartado 25 · Artículo 41"
+    },
+    {
+      "id": "LP-T06-007",
+      "enunciado": "¿Cuál es el sistema ordinario de ingreso del personal funcionario de carrera?",
+      "opciones": [
+        "Concurso puro",
+        "Libre designación",
+        "Oposición o concurso-oposición",
+        "Entrevista curricular"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los sistemas generales son oposición y concurso-oposición. El concurso puro solo procede en supuestos excepcionales legalmente previstos.",
+      "trampaExamen": "El concurso es el procedimiento normal de provisión de puestos, pero no el sistema ordinario de ingreso de funcionarios de carrera.",
+      "referencia": "manual.md · apartados 30 y 31 · Artículos 46 y 47"
+    },
+    {
+      "id": "LP-T06-008",
+      "enunciado": "Los órganos de selección deben estar integrados, con carácter general, por:",
+      "opciones": [
+        "Un número par y al menos cuatro miembros",
+        "Un número impar y al menos cinco miembros",
+        "Tres miembros designados políticamente",
+        "Cinco miembros, incluidos interinos y eventuales"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los órganos de selección son colegiados técnicos, deben tener número impar y al menos cinco miembros, con los requisitos profesionales y de titulación establecidos.",
+      "trampaExamen": "No pueden formar parte cargos políticos, interinos, laborales temporales ni personal eventual.",
+      "referencia": "manual.md · apartado 33 · Artículo 49"
+    },
+    {
+      "id": "LP-T06-009",
+      "enunciado": "Para participar en un proceso de promoción interna, el funcionario de carrera debe haber prestado servicio activo en el cuerpo o escala de origen durante al menos:",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Tres años",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La promoción interna exige cumplir los requisitos del cuerpo o escala de destino y acreditar al menos dos años de servicio activo en el de origen.",
+      "trampaExamen": "Los cuatro años corresponden, con carácter general, al ascenso de tramo en carrera horizontal, no a promoción interna.",
+      "referencia": "manual.md · apartado 43 · Artículo 65"
+    },
+    {
+      "id": "LP-T06-010",
+      "enunciado": "¿Qué modalidad de carrera permite progresar de tramo sin cambiar de puesto?",
+      "opciones": [
+        "Carrera vertical",
+        "Carrera horizontal",
+        "Promoción interna vertical",
+        "Libre designación"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La carrera horizontal consiste en la progresión por tramos sin necesidad de cambiar de puesto y requiere evaluación objetiva del desempeño.",
+      "trampaExamen": "La carrera vertical implica obtener puestos de mayor nivel o responsabilidad mediante procedimientos de provisión.",
+      "referencia": "manual.md · apartado 42 · Artículo 64"
+    },
+    {
+      "id": "LP-T06-011",
+      "enunciado": "¿Cuál es el procedimiento normal de provisión de puestos de trabajo?",
+      "opciones": [
+        "La libre designación",
+        "El concurso",
+        "La comisión de servicios",
+        "La adscripción provisional"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 67 establece como formas ordinarias el concurso y la libre designación con convocatoria pública, siendo el concurso el procedimiento normal.",
+      "trampaExamen": "La libre designación también exige convocatoria pública; no equivale a nombramiento sin publicidad.",
+      "referencia": "manual.md · apartado 45 · Artículo 67"
+    },
+    {
+      "id": "LP-T06-012",
+      "enunciado": "Mientras un puesto cubierto en comisión de servicios no se provea definitivamente, debe convocarse como máximo cada:",
+      "opciones": [
+        "Un año si es de concurso y dos si es de libre designación",
+        "Dos años si es de concurso y un año si es de libre designación",
+        "Tres años en ambos casos",
+        "Seis meses en ambos casos"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley fija una convocatoria máxima cada dos años para puestos de concurso y cada año para los de libre designación mientras subsista la cobertura provisional.",
+      "trampaExamen": "Los plazos se invierten con facilidad: concurso, dos años; libre designación, un año.",
+      "referencia": "manual.md · apartado 52 · Artículo 74"
+    }
+  ]
 }
