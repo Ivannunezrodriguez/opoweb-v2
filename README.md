@@ -10,12 +10,12 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.18.0**.
+- Versión: **0.19.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
 - Temas 1–11: `APROBADO_USUARIO` el 17 de julio de 2026.
 - Temas 12–18: `APROBADO_USUARIO` el 18 de julio de 2026.
-- Tema 19: `PENDIENTE_RECONSTRUCCION`.
+- Tema 19: `APROBADO_USUARIO` el 18 de julio de 2026.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -53,7 +53,8 @@ opoweb-v2/
 │     ├─ tema-15/
 │     ├─ tema-16/
 │     ├─ tema-17/
-│     └─ tema-18/
+│     ├─ tema-18/
+│     └─ tema-19/
 │        ├─ manual.md
 │        ├─ cinco capítulos
 │        ├─ matriz.json
@@ -146,7 +147,11 @@ LibreOffice y Microsoft Office I: procesamiento de textos con Microsoft Word y L
 
 LibreOffice y Microsoft Office II: hojas de cálculo con Microsoft Excel y LibreOffice Calc; libros, hojas, celdas, rangos y formatos XLSX/ODS/CSV; fórmulas, operadores, referencias y funciones; formato condicional, tablas, validación y protección; ordenación, filtros, subtotales y tablas dinámicas; gráficos, impresión, PDF y accesibilidad. Incluye las diferencias operativas esenciales entre Excel y Calc.
 
-Los bancos de preguntas de los dieciocho temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 19
+
+Conceptos generales del ordenador personal: hardware, software, firmware y controladores; placa base, CPU, RAM, HDD, SSD, GPU, alimentación, refrigeración y UEFI; periféricos; impresoras y colas; escáneres y OCR; discos externos, memorias USB, sistemas de archivos y expulsión segura; lectores y grabadores de CD y DVD. Incluye las diferencias esenciales entre RAM y almacenamiento, USB-C y versión USB, disco físico y volumen, impresora y cola, escáner y OCR, lector y grabador.
+
+Los bancos de preguntas de los diecinueve temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación de los manuales no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -166,4 +171,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente dieciocho temas aprobados, un tema pendiente y que los archivos modulares de los temas 11, 12, 13, 14, 15, 16, 17 y 18 permanecen enlazados y disponibles sin conexión.
+La validación confirma que los diecinueve temas están aprobados individualmente y que todos sus archivos modulares permanecen enlazados y disponibles sin conexión.
