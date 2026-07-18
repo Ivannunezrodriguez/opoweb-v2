@@ -1,0 +1,50 @@
+{
+  "actualizadoEl": "2026-07-18",
+  "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará. Las convocatorias descartadas no reciben desarrollo editorial ni mantenimiento activo.",
+  "convocatorias": [
+    {
+      "id": "la-puebla-auxiliar-2026",
+      "nombre": "La Puebla de Montalbán · Auxiliar Administrativo C2",
+      "estadoUsuario": "INSCRITO",
+      "prioridad": 1,
+      "estadoEditorial": "COMPLETA",
+      "temas": 19,
+      "ruta": "./"
+    },
+    {
+      "id": "diputacion-toledo-administrativo-c1-2026",
+      "nombre": "Diputación Provincial de Toledo · Administrativo C1",
+      "estadoUsuario": "INSCRITO",
+      "prioridad": 2,
+      "estadoEditorial": "EN_DESARROLLO_PRIORITARIO",
+      "temas": 40,
+      "fuentePrincipal": "BOP de Toledo número 118, de 25 de junio de 2026, código 2026.00002934",
+      "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22"
+    },
+    {
+      "id": "uc3m-auxiliar-c2-2026",
+      "nombre": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
+      "estadoUsuario": "INSCRITO",
+      "prioridad": 3,
+      "estadoEditorial": "EN_DESARROLLO_PRIORITARIO",
+      "temas": 20,
+      "plazas": 34,
+      "fuentePrincipal": "Resolución de 30 de junio de 2026 y anuncio en BOCM de 8 de julio de 2026"
+    },
+    {
+      "id": "carranque-auxiliar-2026",
+      "nombre": "Carranque · Auxiliar Administrativo",
+      "estadoUsuario": "INSCRITO",
+      "prioridad": 4,
+      "estadoEditorial": "MANTENIMIENTO"
+    },
+    {
+      "id": "las-ventas-auxiliar-2026",
+      "nombre": "Las Ventas con Peña Aguilera · Auxiliar Administrativo",
+      "estadoUsuario": "DESCARTADO",
+      "prioridad": null,
+      "estadoEditorial": "ARCHIVADA_SIN_DESARROLLO",
+      "motivo": "El usuario ha confirmado que no se presentará"
+    }
+  ]
+}
