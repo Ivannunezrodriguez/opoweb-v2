@@ -1,6 +1,6 @@
 # Tema 14 · Bloque 1 · Órganos administrativos y competencia
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Artículo 5 · órgano administrativo
 

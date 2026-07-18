@@ -1,6 +1,6 @@
 # Tema 14 · Trazabilidad artículo por artículo
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## Órganos de las Administraciones Públicas
 

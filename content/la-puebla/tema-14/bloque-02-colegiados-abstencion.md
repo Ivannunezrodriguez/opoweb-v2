@@ -1,6 +1,6 @@
 # Tema 14 · Bloque 2 · Órganos colegiados, abstención y recusación
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Artículo 15 · régimen común
 

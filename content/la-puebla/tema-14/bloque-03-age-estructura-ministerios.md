@@ -1,6 +1,6 @@
 # Tema 14 · Bloque 3 · Estructura de la AGE y Ministerios
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Artículo 54 · principios y competencia organizativa
 

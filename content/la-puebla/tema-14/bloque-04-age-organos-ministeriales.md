@@ -1,6 +1,6 @@
 # Tema 14 · Bloque 4 · Órganos superiores y directivos ministeriales
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Artículo 61 · Ministros
 

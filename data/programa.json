@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "updatedAt": "2026-07-18",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -195,7 +195,7 @@
     {
       "numero": 14,
       "titulo": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "APROBADO_USUARIO",
       "manual": "content/la-puebla/tema-14/manual.md",
       "capitulos": [
         "content/la-puebla/tema-14/bloque-01-organos-competencia.md",
@@ -207,7 +207,9 @@
       "matriz": "content/la-puebla/tema-14/matriz.json",
       "feedback": "content/la-puebla/tema-14/feedback.md",
       "preguntas": "content/la-puebla/tema-14/preguntas.json",
-      "trazabilidad": "content/la-puebla/tema-14/articulos.md"
+      "trazabilidad": "content/la-puebla/tema-14/articulos.md",
+      "aprobadoEl": "2026-07-18",
+      "aprobacion": "content/la-puebla/tema-14/aprobacion.md"
     },
     {
       "numero": 15,

@@ -1,6 +1,6 @@
 # Tema 14 · Bloque 5 · Organización territorial y exterior de la AGE
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Artículo 69 · Delegaciones y Subdelegaciones
 
