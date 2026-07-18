@@ -34,7 +34,6 @@ for (const t of approved) {
 
   const questionBank = json(t.preguntas);
   assert.ok(Array.isArray(questionBank.preguntas), `Banco inválido del tema ${t.numero}`);
-  if (t.numero > 18) assert.deepEqual(questionBank.preguntas, []);
 
   const manual = read(t.manual);
   assert.ok(manual.includes('Tema cerrado: **SÍ**'), `Tema ${t.numero} no figura cerrado`);
@@ -67,7 +66,7 @@ const validateQuestionBank = (tema, prefix) => {
   return bank;
 };
 
-const generatedBanks = Array.from({ length: 18 }, (_, index) => {
+const generatedBanks = Array.from({ length: 19 }, (_, index) => {
   const tema = index + 1;
   return validateQuestionBank(tema, `LP-T${String(tema).padStart(2, '0')}`);
 });
@@ -90,8 +89,8 @@ assert.equal(matrix19.estado, 'APROBADO_USUARIO');
 assert.equal(matrix19.aprobadoEl, '2026-07-18');
 assert.equal(matrix19.cobertura.length, 5);
 assert.equal(matrix19.diferenciasClave.length, 6);
-assert.equal(questions19.estado, 'PENDIENTE_REVISION_POST_APROBACION');
-assert.deepEqual(questions19.preguntas, []);
+assert.equal(questions19.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
+assert.equal(questions19.preguntas.length, 12);
 
 const files19 = [
   'manual.md','matriz.json','aprobacion.md','feedback.md','preguntas.json','fuentes.md',
@@ -130,5 +129,5 @@ console.log(JSON.stringify({
   generatedThemes: generatedBanks.length,
   generatedQuestions,
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_18_TEST_GENERADOS'
+  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_19_TEST_GENERADOS'
 }, null, 2));
