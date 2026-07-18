@@ -1,10 +1,12 @@
-const CACHE = 'opoweb-v2-0.20.2';
+const CACHE = 'opoweb-v2-0.20.3';
 const CORE_ASSETS = [
   './',
   './index.html',
+  './practice.html',
   './manifest.json',
   './assets/styles.css',
   './assets/app.js',
+  './assets/practice.js',
   './assets/icon.svg',
   './data/programa.json',
   './data/seguimiento-la-puebla.json',
