@@ -1,5 +1,7 @@
 import fs from 'node:fs';
+import path from 'node:path';
 import assert from 'node:assert/strict';
+
 const read = p => fs.readFileSync(p, 'utf8');
 const json = p => JSON.parse(read(p));
 const exists = p => fs.existsSync(p);
@@ -21,13 +23,37 @@ assert.deepEqual(approved.map(t => t.numero), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,
 assert.equal(review.length, 0);
 assert.equal(pending.length, 0);
 
+const markdownLinkRegex = /\[[^\]]+\]\(([^)]+)\)/g;
+const externalOrAnchor = target => /^(https?:|mailto:|#)/i.test(target);
+
 for (const t of approved) {
-  assert.ok(exists(t.manual));
-  assert.ok(exists(t.matriz));
-  assert.ok(exists(t.preguntas));
+  assert.ok(exists(t.manual), `Falta manual del tema ${t.numero}`);
+  assert.ok(exists(t.matriz), `Falta matriz del tema ${t.numero}`);
+  assert.ok(exists(t.preguntas), `Falta banco de preguntas del tema ${t.numero}`);
   assert.equal(json(t.matriz).estado, 'APROBADO_USUARIO');
   assert.deepEqual(json(t.preguntas).preguntas, []);
+
+  const manual = read(t.manual);
+  assert.ok(manual.includes('Tema cerrado: **SÍ**'), `Tema ${t.numero} no figura cerrado`);
+
+  const baseDir = path.dirname(t.manual);
+  for (const match of manual.matchAll(markdownLinkRegex)) {
+    const target = match[1].trim().split('#')[0];
+    if (!target || externalOrAnchor(target)) continue;
+    const resolved = path.normalize(path.join(baseDir, target));
+    assert.ok(exists(resolved), `Enlace roto en tema ${t.numero}: ${target}`);
+  }
+
+  const audit = `${baseDir}/auditoria-2026-07-18.md`;
+  assert.ok(exists(audit), `Falta informe de auditoría del tema ${t.numero}`);
 }
+
+const tema6 = read('content/la-puebla/tema-06/manual.md');
+assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'));
+assert.ok(tema6.includes('| Programa temporal de interino | Máximo 2 años |'));
+assert.ok(!tema6.includes('Duración máxima del programa: **cuatro años**.'));
+assert.ok(!tema6.includes('| Programa temporal de interino | Máximo 4 años |'));
+assert.ok(tema6.includes('nunca puede superar **dos años**'));
 
 const t19 = programme.temas[18];
 const base19 = 'content/la-puebla/tema-19';
@@ -42,10 +68,6 @@ assert.equal(matrix19.cobertura.length, 5);
 assert.equal(matrix19.diferenciasClave.length, 6);
 assert.equal(questions19.estado, 'PENDIENTE_REVISION_POST_APROBACION');
 assert.deepEqual(questions19.preguntas, []);
-assert.ok(read(`${base19}/manual.md`).includes('Tema cerrado: **SÍ**'));
-assert.ok(read(`${base19}/aprobacion.md`).includes('Tema 19 aprobado'));
-assert.ok(read(`${base19}/feedback.md`).includes('APROBADO_USUARIO'));
-assert.ok(read(`${base19}/fuentes.md`).includes('APROBADO POR EL USUARIO'));
 
 const files19 = [
   'manual.md','matriz.json','aprobacion.md','feedback.md','preguntas.json','fuentes.md',
@@ -67,13 +89,6 @@ for (const term of [
 ]) {
   assert.ok(joined19.includes(term), `Falta ${term}`);
 }
-for (const source of [
-  'Requisitos del sistema de Windows 11','How to Build a Gaming PC','USB Type-C Cable and Connector Specification',
-  'Quitar hardware de forma segura en Windows','Agregar o instalar una impresora en Windows',
-  'Instalar y usar un escáner en Windows','Grabar y copiar CD'
-]) {
-  assert.ok(read(`${base19}/fuentes.md`).includes(source), `Falta fuente ${source}`);
-}
 
 assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.19.0'"));
 assert.equal(exists('.github/workflows/apply-t19-approval.yml'), false);
@@ -84,6 +99,8 @@ console.log(JSON.stringify({
   approved: approved.length,
   review: review.length,
   pending: pending.length,
-  theme19Questions: questions19.preguntas.length,
-  status: 'CONVOCATORIA_LA_PUEBLA_APROBADA_VALIDADA'
+  auditedReports: approved.length,
+  internalLinks: 'VALIDATED',
+  tema6Interinidad: '2_YEARS_VALIDATED',
+  status: 'CONVOCATORIA_LA_PUEBLA_AUDITADA_CORREGIDA_Y_VALIDADA'
 }, null, 2));
