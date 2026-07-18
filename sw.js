@@ -7,7 +7,8 @@ const CORE_ASSETS = [
   './assets/app.js',
   './assets/icon.svg',
   './data/programa.json',
-  './data/seguimiento-la-puebla.json'
+  './data/seguimiento-la-puebla.json',
+  './content/la-puebla/supuestos-practicos.json'
 ];
 
 async function themeAssets() {
