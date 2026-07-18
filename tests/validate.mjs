@@ -34,7 +34,7 @@ for (const t of approved) {
 
   const questionBank = json(t.preguntas);
   assert.ok(Array.isArray(questionBank.preguntas), `Banco inválido del tema ${t.numero}`);
-  if (t.numero > 10) assert.deepEqual(questionBank.preguntas, []);
+  if (t.numero > 11) assert.deepEqual(questionBank.preguntas, []);
 
   const manual = read(t.manual);
   assert.ok(manual.includes('Tema cerrado: **SÍ**'), `Tema ${t.numero} no figura cerrado`);
@@ -62,12 +62,12 @@ const validateQuestionBank = (tema, prefix) => {
     assert.ok(q.respuestaCorrecta >= 0 && q.respuestaCorrecta < 4, `${q.id} tiene índice incorrecto`);
     assert.ok(q.justificacion.length > 30, `${q.id} tiene justificación insuficiente`);
     assert.ok(q.trampaExamen.length > 20, `${q.id} carece de trampa de examen`);
-    assert.ok(q.referencia.includes('manual.md') || q.referencia.includes('matriz.json'), `${q.id} carece de trazabilidad`);
+    assert.ok(q.referencia.includes('manual.md') || q.referencia.includes('matriz.json') || q.referencia.includes('bloque-'), `${q.id} carece de trazabilidad`);
   }
   return bank;
 };
 
-const generatedBanks = Array.from({ length: 10 }, (_, index) => {
+const generatedBanks = Array.from({ length: 11 }, (_, index) => {
   const tema = index + 1;
   return validateQuestionBank(tema, `LP-T${String(tema).padStart(2, '0')}`);
 });
@@ -130,5 +130,5 @@ console.log(JSON.stringify({
   generatedThemes: generatedBanks.length,
   generatedQuestions,
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_10_TEST_GENERADOS'
+  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_11_TEST_GENERADOS'
 }, null, 2));
