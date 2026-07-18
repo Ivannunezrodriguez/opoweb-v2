@@ -1,6 +1,6 @@
 # Tema 17 · Bloque 5 · Revisión, combinación, impresión, exportación y comparación
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Comentarios
 

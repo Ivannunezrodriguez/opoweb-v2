@@ -1,6 +1,6 @@
 # Tema 17 · Bloque 3 · Formato de caracteres, párrafos, estilos y listas
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Contenido y formato
 

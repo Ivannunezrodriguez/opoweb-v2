@@ -1,6 +1,6 @@
 # Tema 17 · Bloque 1 · Entorno, documentos, formatos y compatibilidad
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Procesador de textos, documento y archivo
 

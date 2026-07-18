@@ -1,6 +1,6 @@
 # Tema 17 · Bloque 4 · Páginas, secciones, encabezados, tablas e imágenes
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Formato de página
 

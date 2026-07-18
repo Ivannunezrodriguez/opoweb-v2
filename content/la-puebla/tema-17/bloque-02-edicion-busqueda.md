@@ -1,6 +1,6 @@
 # Tema 17 · Bloque 2 · Edición, selección, navegación, búsqueda y corrección
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Punto de inserción y selección
 
