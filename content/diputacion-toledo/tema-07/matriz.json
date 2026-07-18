@@ -1,0 +1,29 @@
+{
+  "tema": 7,
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "estado": "REVISION_USUARIO",
+  "generacion": "DESDE_CERO",
+  "epigrafeOficial": "El acto administrativo: concepto, clases y elementos. Requisitos. Eficacia. Nulidad y anulabilidad.",
+  "fuentePrincipal": "Ley 39/2015, de 1 de octubre, artículos 34 a 52",
+  "cobertura": [
+    {"bloque":"Concepto","estado":"CUBIERTO"},
+    {"bloque":"Clases","estado":"CUBIERTO"},
+    {"bloque":"Elementos","estado":"CUBIERTO"},
+    {"bloque":"Requisitos","estado":"CUBIERTO"},
+    {"bloque":"Motivación y forma","estado":"CUBIERTO"},
+    {"bloque":"Eficacia, retroactividad y ejecutividad","estado":"CUBIERTO"},
+    {"bloque":"Notificación y publicación","estado":"CUBIERTO"},
+    {"bloque":"Nulidad de pleno derecho","estado":"CUBIERTO"},
+    {"bloque":"Anulabilidad","estado":"CUBIERTO"},
+    {"bloque":"Límites, conversión, conservación y convalidación","estado":"CUBIERTO"}
+  ],
+  "datosTest": [
+    "Notificación cursada dentro de 10 días",
+    "Incompetencia manifiesta por materia o territorio: nulidad",
+    "Desviación de poder: anulabilidad",
+    "Defecto de forma: solo invalida si es indispensable o causa indefensión",
+    "Convalidación posible solo para actos anulables"
+  ],
+  "preguntas": 12,
+  "aprobado": false
+}
