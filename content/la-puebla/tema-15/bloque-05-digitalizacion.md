@@ -1,6 +1,6 @@
 # Tema 15 · Bloque 5 · Digitalización de documentos
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Concepto
 

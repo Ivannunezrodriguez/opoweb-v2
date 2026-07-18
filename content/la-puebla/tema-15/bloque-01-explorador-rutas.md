@@ -1,6 +1,6 @@
 # Tema 15 · Bloque 1 · Explorador, archivos, carpetas, rutas y selección
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Explorador de archivos
 
