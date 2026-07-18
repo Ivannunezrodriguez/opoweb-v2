@@ -1,6 +1,183 @@
 {
   "tema": 7,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual fue aprobado por el usuario el 17 de julio de 2026. Cada pregunta deberá crearse y revisarse de forma independiente, vinculada a un artículo concreto de la Ley 31/1995 o del Real Decreto 39/1997."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T07-001",
+      "enunciado": "Según el artículo 14 de la Ley 31/1995, el coste de las medidas relativas a la seguridad y salud en el trabajo:",
+      "opciones": [
+        "Puede repercutirse parcialmente al trabajador",
+        "Puede descontarse de la nómina si lo prevé el convenio",
+        "No debe recaer en modo alguno sobre el trabajador",
+        "Solo puede repercutirse cuando se trate de equipos de protección individual"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El deber de protección corresponde al empresario o Administración empleadora, y el coste de las medidas preventivas nunca puede recaer sobre el trabajador.",
+      "trampaExamen": "La participación del trabajador en prevención no implica asumir económicamente EPI, formación o medidas de seguridad.",
+      "referencia": "manual.md · apartado 8 · Artículo 14"
+    },
+    {
+      "id": "LP-T07-002",
+      "enunciado": "¿Qué principio preventivo debe aplicarse con preferencia cuando sea posible?",
+      "opciones": [
+        "Anteponer la protección individual a la colectiva",
+        "Anteponer la protección colectiva a la individual",
+        "Sustituir la evaluación por instrucciones generales",
+        "Priorizar siempre la reparación del daño"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 15 establece que debe anteponerse la protección colectiva a la individual, junto con evitar riesgos, combatirlos en origen y adaptar el trabajo a la persona.",
+      "trampaExamen": "El EPI es una última barrera, no la primera opción preventiva cuando existen medidas colectivas eficaces.",
+      "referencia": "manual.md · apartado 9 · Artículo 15"
+    },
+    {
+      "id": "LP-T07-003",
+      "enunciado": "En materia preventiva, ¿qué instrumento fija medidas, plazos, responsables, medios y recursos económicos?",
+      "opciones": [
+        "El plan de prevención",
+        "La evaluación de riesgos",
+        "La planificación de la actividad preventiva",
+        "El registro de accidentes"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El plan integra la prevención en la gestión, la evaluación identifica y valora riesgos, y la planificación concreta medidas, plazos, responsables y recursos.",
+      "trampaExamen": "Plan, evaluación y planificación son instrumentos distintos y no deben utilizarse como sinónimos.",
+      "referencia": "manual.md · apartado 10 · Artículo 16"
+    },
+    {
+      "id": "LP-T07-004",
+      "enunciado": "La formación preventiva obligatoria impartida fuera de la jornada laboral:",
+      "opciones": [
+        "No genera compensación alguna",
+        "Debe pagarse por el trabajador",
+        "Debe descontarse posteriormente de la jornada de trabajo",
+        "Solo se compensa cuando supera cinco horas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La formación debe realizarse, siempre que sea posible, dentro de la jornada. Si se imparte fuera, el tiempo invertido debe descontarse de la jornada y su coste no corresponde al trabajador.",
+      "trampaExamen": "Que la formación se imparta fuera del horario no la convierte en tiempo gratuito para la Administración.",
+      "referencia": "manual.md · apartado 13 · Artículo 19"
+    },
+    {
+      "id": "LP-T07-005",
+      "enunciado": "Adoptada la paralización de trabajos por riesgo grave e inminente, la autoridad laboral debe confirmar o anular la decisión en:",
+      "opciones": [
+        "12 horas",
+        "24 horas",
+        "48 horas",
+        "3 días hábiles"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La paralización se comunica a la empresa y a la autoridad laboral, que debe confirmarla o anularla en el plazo de veinticuatro horas.",
+      "trampaExamen": "El plazo es de 24 horas, no de un día hábil ni de 48 horas.",
+      "referencia": "manual.md · apartado 15 · Artículo 21"
+    },
+    {
+      "id": "LP-T07-006",
+      "enunciado": "La vigilancia de la salud de los trabajadores es, con carácter general:",
+      "opciones": [
+        "Obligatoria en todo caso",
+        "Voluntaria, salvo excepciones legalmente justificadas",
+        "Obligatoria solo en el sector público",
+        "Voluntaria únicamente para contratos temporales"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La regla general es la voluntariedad. Puede imponerse excepcionalmente, previo informe de los representantes, cuando resulte imprescindible para evaluar efectos, proteger a la persona o a terceros, o lo exija una norma específica.",
+      "trampaExamen": "El reconocimiento médico no puede imponerse por mera conveniencia organizativa.",
+      "referencia": "manual.md · apartado 16 · Artículo 22"
+    },
+    {
+      "id": "LP-T07-007",
+      "enunciado": "¿Qué información puede recibir el empleador tras la vigilancia de la salud?",
+      "opciones": [
+        "El diagnóstico clínico completo",
+        "La historia médica íntegra",
+        "Las conclusiones sobre aptitud y medidas preventivas necesarias",
+        "Todos los resultados analíticos individuales"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los datos clínicos son confidenciales y quedan en manos del personal sanitario. El empleador solo recibe conclusiones sobre aptitud y medidas preventivas aplicables.",
+      "trampaExamen": "Aptitud no equivale a acceso libre a diagnósticos, pruebas o historia clínica.",
+      "referencia": "manual.md · apartado 16 · Artículo 22"
+    },
+    {
+      "id": "LP-T07-008",
+      "enunciado": "¿Cuándo debe constituirse obligatoriamente un servicio de prevención propio por razón del número de trabajadores?",
+      "opciones": [
+        "Con 50 o más trabajadores",
+        "Con más de 250 trabajadores en cualquier actividad",
+        "Con más de 500 trabajadores",
+        "Con 1.000 o más trabajadores"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El Reglamento exige servicio propio en empresas de más de 500 trabajadores y también entre 250 y 500 cuando desarrollen actividades del anexo I.",
+      "trampaExamen": "El umbral general es más de 500; entre 250 y 500 solo opera automáticamente si existen actividades del anexo I.",
+      "referencia": "manual.md · apartado 31 · Reglamento, artículo 14"
+    },
+    {
+      "id": "LP-T07-009",
+      "enunciado": "En una plantilla de 101 a 500 trabajadores corresponden:",
+      "opciones": [
+        "Dos Delegados de Prevención",
+        "Tres Delegados de Prevención",
+        "Cuatro Delegados de Prevención",
+        "Cinco Delegados de Prevención"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La escala del artículo 35 asigna tres Delegados de Prevención a plantillas comprendidas entre 101 y 500 trabajadores.",
+      "trampaExamen": "No confundir la escala de Delegados de Prevención con el umbral de constitución del Comité.",
+      "referencia": "manual.md · apartado 38 · Artículo 35"
+    },
+    {
+      "id": "LP-T07-010",
+      "enunciado": "El informe de los Delegados de Prevención sobre las materias sometidas a consulta debe emitirse, con carácter general, en:",
+      "opciones": [
+        "5 días",
+        "10 días",
+        "15 días",
+        "30 días"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los Delegados disponen de quince días para emitir informe, salvo riesgo inminente, en cuyo caso debe emitirse en el tiempo imprescindible.",
+      "trampaExamen": "El plazo de 15 días no se aplica rígidamente cuando existe riesgo grave e inminente.",
+      "referencia": "manual.md · apartado 39 · Artículo 36"
+    },
+    {
+      "id": "LP-T07-011",
+      "enunciado": "El Comité de Seguridad y Salud es obligatorio en centros o empresas que cuenten con:",
+      "opciones": [
+        "25 o más trabajadores",
+        "30 o más trabajadores",
+        "50 o más trabajadores",
+        "100 o más trabajadores"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El Comité es un órgano paritario y colegiado de consulta periódica obligatorio desde cincuenta trabajadores.",
+      "trampaExamen": "En centros con menos de 50 trabajadores no hay Comité obligatorio; los Delegados asumen sus competencias.",
+      "referencia": "manual.md · apartado 41 · Artículo 38"
+    },
+    {
+      "id": "LP-T07-012",
+      "enunciado": "¿Con qué periodicidad ordinaria se reúne el Comité de Seguridad y Salud?",
+      "opciones": [
+        "Mensualmente",
+        "Bimestralmente",
+        "Trimestralmente",
+        "Semestralmente"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El Comité se reúne trimestralmente y también cuando lo solicite alguna de las representaciones que lo integran.",
+      "trampaExamen": "La reunión trimestral es la periodicidad mínima ordinaria, sin impedir reuniones adicionales.",
+      "referencia": "manual.md · apartado 41 · Artículo 38"
+    }
+  ]
 }
