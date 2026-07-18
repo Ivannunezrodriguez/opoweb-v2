@@ -63,6 +63,8 @@ Ejemplo: si el tipo de IVA está en `F1`, una fórmula copiada puede usar `=B2*$
 
 ### Mixta
 
+Una **referencia mixta** fija solo la columna o solo la fila:
+
 - `$A1`: columna fija y fila variable;
 - `A$1`: columna variable y fila fija.
 
