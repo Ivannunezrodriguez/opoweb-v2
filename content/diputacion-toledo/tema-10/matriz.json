@@ -1,0 +1,33 @@
+{
+  "tema": 10,
+  "estado": "REVISION_USUARIO",
+  "generacion": "DESDE_CERO",
+  "epigrafeOficial": "La responsabilidad patrimonial de la Administración Pública. Responsabilidad de las autoridades y funcionarios al servicio de las administraciones públicas.",
+  "bloques": [
+    {"id":"fundamento","cubierto":true},
+    {"id":"caracteres","cubierto":true},
+    {"id":"requisitos","cubierto":true},
+    {"id":"estado-legislador","cubierto":true},
+    {"id":"administracion-justicia","cubierto":true},
+    {"id":"concurrencia-administraciones","cubierto":true},
+    {"id":"indemnizacion","cubierto":true},
+    {"id":"procedimiento","cubierto":true},
+    {"id":"tramitacion-simplificada","cubierto":true},
+    {"id":"autoridades-personal","cubierto":true},
+    {"id":"derecho-privado","cubierto":true}
+  ],
+  "datosTest": {
+    "prescripcion": "1 año",
+    "informeServicio": "10 días",
+    "dictamen": "2 meses",
+    "umbralDictamen": "50.000 euros",
+    "silencio": "desestimatorio a los 6 meses",
+    "simplificado": "30 días",
+    "danosLegislador": "5 años anteriores, salvo disposición distinta"
+  },
+  "fuentesPrincipales": [
+    "Constitución Española, artículo 106.2",
+    "Ley 40/2015, artículos 32 a 37",
+    "Ley 39/2015, artículos 65, 67, 81, 82, 86, 91 y 96"
+  ]
+}
