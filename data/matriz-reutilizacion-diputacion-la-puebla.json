@@ -10,33 +10,17 @@
   },
   "resumen": {
     "temas": 40,
-    "reutilizacionAlta": 18,
+    "reutilizacionAlta": 19,
     "reutilizacionParcial": 14,
-    "nuevos": 7,
+    "nuevos": 6,
     "bloqueados": 1,
-    "porcentajeConBaseReutilizable": 80
+    "porcentajeConBaseReutilizable": 82.5
   },
   "prioridadProduccion": [
-    {
-      "fase": 1,
-      "descripcion": "Adaptar y auditar los temas con reutilización alta",
-      "temas": [1,5,6,8,17,18,19,23,24,25,26,29,30,31,32,35,36,39,40]
-    },
-    {
-      "fase": 2,
-      "descripcion": "Completar los temas con reutilización parcial",
-      "temas": [2,3,4,7,9,10,11,12,13,14,15,28,33,34]
-    },
-    {
-      "fase": 3,
-      "descripcion": "Redactar desde cero los temas específicos no cubiertos",
-      "temas": [16,20,21,27,37,38]
-    },
-    {
-      "fase": 4,
-      "descripcion": "Cerrar el tema 22 únicamente con documentación oficial específica",
-      "temas": [22]
-    }
+    {"fase":1,"descripcion":"Adaptar y auditar los temas con reutilización alta","temas":[1,5,6,8,17,18,19,23,24,25,26,29,30,31,32,35,36,39,40]},
+    {"fase":2,"descripcion":"Completar los temas con reutilización parcial","temas":[2,3,4,7,9,10,11,12,13,14,15,28,33,34]},
+    {"fase":3,"descripcion":"Redactar desde cero los temas específicos no cubiertos","temas":[16,20,21,27,37,38]},
+    {"fase":4,"descripcion":"Cerrar el tema 22 únicamente con documentación oficial específica","temas":[22]}
   ],
   "mapeo": [
     {"temaDiputacion":1,"clasificacion":"REUTILIZACION_ALTA","temasLaPuebla":[1],"accion":"Reordenar Constitución, Tribunal Constitucional y reforma; ampliar valor normativo y principios generales."},
