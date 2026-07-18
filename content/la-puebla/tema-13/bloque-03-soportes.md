@@ -1,6 +1,6 @@
 # Tema 13 · Bloque 3 · Soportes, claves y custodia
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Soporte lógico o software
 
