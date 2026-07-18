@@ -1,0 +1,40 @@
+name: Validar OpoWeb
+
+on:
+  push:
+    paths:
+      - 'content/**'
+      - 'data/**'
+      - 'tests/**'
+      - 'index.html'
+      - 'sw.js'
+      - 'package.json'
+      - '.github/workflows/validate-content.yml'
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'data/**'
+      - 'tests/**'
+      - 'index.html'
+      - 'sw.js'
+      - 'package.json'
+      - '.github/workflows/validate-content.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Obtener repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Ejecutar validación integral
+        run: npm test
