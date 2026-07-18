@@ -18,180 +18,181 @@
     {
       "inciso": "Navegación por Internet",
       "fuentes": [
-        "Métodos abreviados de teclado en Microsoft Edge",
-        "Cambiar a Microsoft Edge"
-      ],
-      "secciones": [
-        "Internet y Web",
-        "navegador y buscador",
-        "URL",
-        "barra de direcciones",
-        "enlaces",
-        "atrás",
-        "adelante",
-        "recargar",
-        "buscar en página"
-      ],
-      "contenidoExigible": [
-        "distinguir conceptos",
-        "interpretar URL",
-        "navegar por pestañas y ventanas",
-        "resolver errores básicos"
-      ]
-    },
-    {
-      "inciso": "Gestión de contenidos y datos de navegación",
-      "fuentes": [
-        "Agregar un sitio a favoritos",
-        "Ver y eliminar el historial de exploración",
+        "Microsoft Edge help & learning",
         "Métodos abreviados de teclado en Microsoft Edge"
       ],
       "secciones": [
+        "Internet y web",
+        "navegador",
+        "URL",
+        "dominio",
+        "protocolo",
+        "enlace",
+        "barra de direcciones",
+        "motor de búsqueda"
+      ],
+      "contenidoExigible": [
+        "distinguir Internet, web, navegador y buscador",
+        "interpretar una URL",
+        "navegar hacia atrás, adelante, recargar e inicio",
+        "buscar desde la barra de direcciones"
+      ]
+    },
+    {
+      "inciso": "Pestañas, favoritos, historial y descargas",
+      "fuentes": [
+        "Métodos abreviados de teclado en Microsoft Edge",
+        "Ver y eliminar el historial del explorador en Microsoft Edge",
+        "Buscar las descargas de Microsoft Edge"
+      ],
+      "secciones": [
+        "pestañas",
+        "ventanas",
         "favoritos",
         "historial",
         "descargas",
-        "cookies",
-        "caché",
-        "impresión",
-        "PDF"
+        "buscar en página",
+        "impresión"
       ],
       "contenidoExigible": [
-        "organizar favoritos",
-        "gestionar historial",
-        "distinguir lista y archivo descargado",
-        "conocer efectos del borrado"
+        "abrir, cerrar y recuperar pestañas",
+        "organizar y usar favoritos",
+        "distinguir historial de navegación e historial de descargas",
+        "localizar archivos descargados"
       ]
     },
     {
       "inciso": "Privacidad y seguridad",
       "fuentes": [
-        "Explorar InPrivate",
-        "Microsoft Edge, datos de exploración y privacidad",
-        "SmartScreen de Microsoft Defender"
+        "Explorar InPrivate en Microsoft Edge",
+        "SmartScreen de Microsoft Defender en Edge",
+        "Eliminar cookies en Microsoft Edge"
       ],
       "secciones": [
-        "InPrivate",
         "cookies",
+        "caché",
+        "contraseñas",
         "permisos",
         "HTTPS",
         "certificados",
         "SmartScreen",
-        "phishing"
+        "InPrivate"
       ],
       "contenidoExigible": [
-        "conocer límites de InPrivate",
-        "administrar permisos",
-        "interpretar advertencias",
-        "proteger descargas y credenciales"
+        "distinguir cookies y caché",
+        "comprender límites de InPrivate",
+        "interpretar indicadores HTTPS y advertencias",
+        "gestionar permisos y datos del sitio"
       ]
     },
     {
       "inciso": "Microsoft Edge",
       "fuentes": [
-        "Métodos abreviados de teclado en Microsoft Edge",
-        "Iniciar sesión para sincronizar Edge"
+        "Microsoft Edge help & learning",
+        "Iniciar sesión para sincronizar Microsoft Edge entre dispositivos",
+        "Agregar, desactivar o quitar extensiones en Microsoft Edge"
       ],
       "secciones": [
-        "interfaz",
         "configuración",
         "perfiles",
         "sincronización",
         "extensiones",
-        "lector PDF",
-        "actualizaciones"
+        "PDF",
+        "accesibilidad",
+        "página de inicio",
+        "motor de búsqueda"
       ],
       "contenidoExigible": [
-        "configurar opciones básicas",
-        "distinguir perfil y sesión",
-        "gestionar extensiones",
-        "usar herramientas del navegador"
+        "distinguir perfil, cuenta y sincronización",
+        "configurar inicio y búsqueda",
+        "gestionar extensiones y permisos",
+        "usar el lector PDF y herramientas de impresión"
       ]
     },
     {
-      "inciso": "Microsoft Internet Explorer",
+      "inciso": "Internet Explorer y modo Internet Explorer",
       "fuentes": [
-        "Preguntas frecuentes del ciclo de vida",
-        "Fin de soporte de IE11",
-        "Qué es el modo Internet Explorer",
-        "Métodos abreviados de IE11"
+        "Preguntas frecuentes del ciclo de vida de Internet Explorer y Edge",
+        "Qué es el modo Internet Explorer"
       ],
       "secciones": [
-        "interfaz clásica",
-        "funciones históricas",
-        "fin de soporte",
+        "IE11",
+        "retirada",
+        "deshabilitación",
         "modo IE",
-        "motores",
-        "limitaciones",
-        "compatibilidad"
+        "Chromium",
+        "Trident/MSHTML",
+        "listas de sitios",
+        "soporte hasta 2029"
       ],
       "contenidoExigible": [
-        "distinguir IE11, Edge y modo IE",
-        "recordar atajos diferenciales",
-        "comprender compatibilidad heredada",
-        "evitar respuestas desactualizadas"
+        "conocer la situación heredada de IE11",
+        "distinguir IE clásico y modo IE de Edge",
+        "comprender el uso organizativo del modo IE",
+        "evitar presentar IE como navegador general vigente"
       ]
     }
   ],
   "atajos": [
     {
+      "teclas": "Ctrl + L o Alt + D",
+      "accion": "seleccionar la barra de direcciones"
+    },
+    {
       "teclas": "Ctrl + T",
-      "accion": "nueva pestaña"
+      "accion": "abrir pestaña nueva"
+    },
+    {
+      "teclas": "Ctrl + W",
+      "accion": "cerrar pestaña actual"
+    },
+    {
+      "teclas": "Ctrl + Mayús + T",
+      "accion": "reabrir la última pestaña cerrada"
+    },
+    {
+      "teclas": "Ctrl + Tab",
+      "accion": "pestaña siguiente"
+    },
+    {
+      "teclas": "Ctrl + Mayús + Tab",
+      "accion": "pestaña anterior"
     },
     {
       "teclas": "Ctrl + N",
-      "accion": "nueva ventana"
+      "accion": "ventana nueva"
     },
     {
       "teclas": "Ctrl + Mayús + N",
       "accion": "ventana InPrivate en Edge"
     },
     {
-      "teclas": "Ctrl + Mayús + P",
-      "accion": "InPrivate en IE11; impresión del sistema en Edge"
-    },
-    {
-      "teclas": "Ctrl + W",
-      "accion": "cerrar pestaña"
-    },
-    {
-      "teclas": "Ctrl + Mayús + T",
-      "accion": "reabrir pestaña cerrada"
-    },
-    {
-      "teclas": "Ctrl + L",
-      "accion": "seleccionar barra de direcciones"
-    },
-    {
-      "teclas": "Ctrl + R o F5",
-      "accion": "recargar"
-    },
-    {
-      "teclas": "Ctrl + F",
-      "accion": "buscar en página"
-    },
-    {
       "teclas": "Ctrl + D",
-      "accion": "guardar favorito"
-    },
-    {
-      "teclas": "Ctrl + Mayús + O",
-      "accion": "abrir favoritos en Edge"
+      "accion": "agregar la página actual a favoritos"
     },
     {
       "teclas": "Ctrl + H",
-      "accion": "historial"
+      "accion": "abrir historial"
     },
     {
       "teclas": "Ctrl + J",
-      "accion": "descargas"
+      "accion": "abrir descargas"
+    },
+    {
+      "teclas": "Ctrl + F",
+      "accion": "buscar texto en la página"
     },
     {
       "teclas": "Ctrl + P",
       "accion": "imprimir"
     },
     {
-      "teclas": "Ctrl + Mayús + Supr",
-      "accion": "borrar datos de navegación"
+      "teclas": "Ctrl + R o F5",
+      "accion": "recargar la página"
+    },
+    {
+      "teclas": "F11",
+      "accion": "alternar pantalla completa"
     }
   ],
   "cifrasTemporales": [
@@ -200,25 +201,24 @@
       "significado": "fin de soporte de la aplicación de escritorio IE11 en determinadas versiones de Windows 10"
     },
     {
-      "dato": "al menos hasta 2029",
-      "significado": "compromiso de soporte del modo IE en sistemas compatibles"
+      "dato": "14 de febrero de 2023",
+      "significado": "deshabilitación permanente de IE11 en determinadas versiones mediante actualización de Edge"
     },
     {
-      "dato": "un año",
-      "significado": "preaviso mínimo anunciado antes de retirar el modo IE"
+      "dato": "al menos hasta 2029",
+      "significado": "compromiso anunciado para el soporte del modo Internet Explorer de Edge"
     }
   ],
   "exclusionesDelNucleo": [
+    "administración avanzada de redes",
+    "protocolos de encaminamiento",
     "desarrollo web",
-    "configuración avanzada de red",
-    "administración empresarial completa de Edge",
-    "directivas de grupo exhaustivas",
-    "herramientas de desarrollador",
-    "programación de extensiones",
+    "JavaScript y herramientas de desarrollador",
+    "gestión avanzada por directivas",
+    "despliegue empresarial de Edge",
     "arquitectura interna de Chromium",
-    "administración avanzada de certificados",
-    "instalación forzada de Internet Explorer"
+    "forzar la instalación de Internet Explorer retirado"
   ],
-  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 16 aprobado. No se aprueba por extensión, número de atajos ni validación técnica.",
+  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 16 aprobado. No se aprueba por extensión, número de atajos o validación técnica.",
   "aprobadoEl": "2026-07-18"
 }
