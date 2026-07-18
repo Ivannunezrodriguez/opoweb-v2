@@ -26,7 +26,8 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 | Windows I | 15 | `AUDITADO_TECNICA_VIGENTE` | Explorador, archivos, carpetas, unidades locales y de red, impresión y digitalización en Windows 11 |
 | Navegación web | 16 | `AUDITADO_TECNOLOGIA_VIGENTE` | Edge, Internet Explorer heredado, modo IE, privacidad, seguridad, historial, descargas y navegación InPrivate |
 | Word y Writer | 17 | `AUDITADO_TECNICA_VIGENTE` | Procesamiento de textos, estilos, páginas, revisión, combinación, compatibilidad y PDF |
-| Hoja de cálculo y hardware | 18–19 | `EN_AUDITORIA` | Excel/Calc y microinformática |
+| Excel y Calc | 18 | `AUDITADO_TECNICA_VIGENTE` | Libros, hojas, fórmulas, referencias, funciones, tablas, filtros, análisis, gráficos, impresión y compatibilidad |
+| Microinformática | 19 | `EN_AUDITORIA` | Hardware, almacenamiento, periféricos, redes y seguridad básica |
 
 ## Temas auditados
 
@@ -49,6 +50,7 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 | 15 | Revisados Explorador, operaciones con archivos, Papelera, unidades locales y UNC, impresión y escaneado. Confirmados `Windows + E`, `Mayús + Supr`, Print to PDF y destino habitual **Imágenes/Digitalizaciones**. | `content/la-puebla/tema-15/auditoria-2026-07-18.md` |
 | 16 | Revisados Edge e Internet Explorer 11. Confirmados InPrivate, historial, cookies, caché, descargas, SmartScreen y soporte del modo IE **al menos hasta 2029**, con aviso previo mínimo de **un año**. | `content/la-puebla/tema-16/auditoria-2026-07-18.md` |
 | 17 | Revisados Word para Microsoft 365, Word 2024 y LibreOffice Writer. Confirmados formatos `.docx/.odt`, plantillas `.dotx/.ott`, secciones frente a estilos de página, revisión, combinación y exportación PDF. | `content/la-puebla/tema-17/auditoria-2026-07-18.md` |
+| 18 | Revisados Excel para Microsoft 365, Excel 2024 y LibreOffice Calc. Confirmados formatos `.xlsx/.ods`, referencias relativas, absolutas y mixtas, tablas estructuradas, filtros, análisis y límites de **1.048.576 filas** y **16.384 columnas** en Excel. | `content/la-puebla/tema-18/auditoria-2026-07-18.md` |
 
 ## Criterios aplicados a cada tema
 
@@ -77,6 +79,6 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 ## Orden de trabajo
 
 1. Corregir en el manual del **tema 6** el plazo del artículo **8.1.c)** y revisar sus preguntas asociadas.
-2. Auditar y corregir los **temas 18–19**.
+2. Auditar y corregir el **tema 19**.
 3. Generar preguntas y supuestos únicamente después de que el contenido base esté auditado.
 4. Reutilizar los temas comunes en Carranque, Las Ventas con Peña Aguilera y futuras convocatorias mediante una matriz de equivalencias, sin duplicar versiones contradictorias.
