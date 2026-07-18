@@ -1,6 +1,6 @@
 # Tema 13 · Bloque 5 · Certificados y sistemas de las Administraciones públicas
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Sistemas de identificación y firma del interesado
 
