@@ -271,7 +271,19 @@
     {
       "numero": 18,
       "titulo": "LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "EN_REVISION_USUARIO",
+      "manual": "content/la-puebla/tema-18/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-18/bloque-01-entorno-datos-formatos.md",
+        "content/la-puebla/tema-18/bloque-02-formulas-funciones.md",
+        "content/la-puebla/tema-18/bloque-03-formato-validacion.md",
+        "content/la-puebla/tema-18/bloque-04-datos-analisis.md",
+        "content/la-puebla/tema-18/bloque-05-graficos-salida.md"
+      ],
+      "matriz": "content/la-puebla/tema-18/matriz.json",
+      "feedback": "content/la-puebla/tema-18/feedback.md",
+      "preguntas": "content/la-puebla/tema-18/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-18/fuentes.md"
     },
     {
       "numero": 19,
