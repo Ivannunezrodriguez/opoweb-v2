@@ -10,12 +10,12 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.15.0**.
+- Versión: **0.16.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
 - Temas 1–11: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 12–15: `APROBADO_USUARIO` el 18 de julio de 2026.
-- Temas 16–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 12–16: `APROBADO_USUARIO` el 18 de julio de 2026.
+- Temas 17–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -50,7 +50,8 @@ opoweb-v2/
 │     ├─ tema-12/
 │     ├─ tema-13/
 │     ├─ tema-14/
-│     └─ tema-15/
+│     ├─ tema-15/
+│     └─ tema-16/
 │        ├─ manual.md
 │        ├─ cinco capítulos
 │        ├─ matriz.json
@@ -131,7 +132,11 @@ Ley 40/2015: órganos administrativos, competencia, órganos colegiados, abstenc
 
 Microsoft Windows I: Explorador de archivos; creación, copiado, movimiento, renombrado y borrado; Papelera; unidades locales y de red; rutas UNC y unidades asignadas; impresión, cola y Microsoft Print to PDF; digitalización, resolución, formatos y OCR. Windows 11 es la referencia principal y la trazabilidad se apoya en documentación oficial de Microsoft Support y Microsoft Learn.
 
-Los bancos de preguntas de los quince temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 16
+
+Microsoft Windows II: conceptos de Internet y web; navegación, pestañas, favoritos, historial y descargas; cookies, caché, privacidad, HTTPS, certificados, SmartScreen e InPrivate; configuración, perfiles, sincronización, extensiones y lector PDF de Microsoft Edge; situación heredada de Internet Explorer 11 y compatibilidad mediante el modo Internet Explorer de Edge.
+
+Los bancos de preguntas de los dieciséis temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
@@ -151,4 +156,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente quince temas aprobados, cuatro pendientes y que los archivos modulares de los temas 11, 12, 13, 14 y 15 permanecen enlazados y disponibles sin conexión.
+La validación confirma que existen exactamente dieciséis temas aprobados, tres pendientes y que los archivos modulares de los temas 11, 12, 13, 14, 15 y 16 permanecen enlazados y disponibles sin conexión.

@@ -1,0 +1,224 @@
+{
+  "tema": 16,
+  "estado": "APROBADO_USUARIO",
+  "epigrafeOficial": "Microsoft Windows II. Navegación por Internet con Microsoft Internet Explorer y Microsoft Edge.",
+  "fechaRevisionTecnica": "2026-07-18",
+  "referenciaPrincipal": "Microsoft Edge",
+  "criterioTemporal": "Internet Explorer 11 se trata como producto heredado; Edge y el modo IE reflejan la situación vigente.",
+  "manual": "content/la-puebla/tema-16/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-16/bloque-01-conceptos-navegacion.md",
+    "content/la-puebla/tema-16/bloque-02-pestanas-favoritos-historial-descargas.md",
+    "content/la-puebla/tema-16/bloque-03-privacidad-seguridad.md",
+    "content/la-puebla/tema-16/bloque-04-edge-configuracion-herramientas.md",
+    "content/la-puebla/tema-16/bloque-05-ie-modo-ie.md"
+  ],
+  "trazabilidad": "content/la-puebla/tema-16/fuentes.md",
+  "cobertura": [
+    {
+      "inciso": "Navegación por Internet",
+      "fuentes": [
+        "Métodos abreviados de teclado en Microsoft Edge",
+        "Cambiar a Microsoft Edge"
+      ],
+      "secciones": [
+        "Internet y Web",
+        "navegador y buscador",
+        "URL",
+        "barra de direcciones",
+        "enlaces",
+        "atrás",
+        "adelante",
+        "recargar",
+        "buscar en página"
+      ],
+      "contenidoExigible": [
+        "distinguir conceptos",
+        "interpretar URL",
+        "navegar por pestañas y ventanas",
+        "resolver errores básicos"
+      ]
+    },
+    {
+      "inciso": "Gestión de contenidos y datos de navegación",
+      "fuentes": [
+        "Agregar un sitio a favoritos",
+        "Ver y eliminar el historial de exploración",
+        "Métodos abreviados de teclado en Microsoft Edge"
+      ],
+      "secciones": [
+        "favoritos",
+        "historial",
+        "descargas",
+        "cookies",
+        "caché",
+        "impresión",
+        "PDF"
+      ],
+      "contenidoExigible": [
+        "organizar favoritos",
+        "gestionar historial",
+        "distinguir lista y archivo descargado",
+        "conocer efectos del borrado"
+      ]
+    },
+    {
+      "inciso": "Privacidad y seguridad",
+      "fuentes": [
+        "Explorar InPrivate",
+        "Microsoft Edge, datos de exploración y privacidad",
+        "SmartScreen de Microsoft Defender"
+      ],
+      "secciones": [
+        "InPrivate",
+        "cookies",
+        "permisos",
+        "HTTPS",
+        "certificados",
+        "SmartScreen",
+        "phishing"
+      ],
+      "contenidoExigible": [
+        "conocer límites de InPrivate",
+        "administrar permisos",
+        "interpretar advertencias",
+        "proteger descargas y credenciales"
+      ]
+    },
+    {
+      "inciso": "Microsoft Edge",
+      "fuentes": [
+        "Métodos abreviados de teclado en Microsoft Edge",
+        "Iniciar sesión para sincronizar Edge"
+      ],
+      "secciones": [
+        "interfaz",
+        "configuración",
+        "perfiles",
+        "sincronización",
+        "extensiones",
+        "lector PDF",
+        "actualizaciones"
+      ],
+      "contenidoExigible": [
+        "configurar opciones básicas",
+        "distinguir perfil y sesión",
+        "gestionar extensiones",
+        "usar herramientas del navegador"
+      ]
+    },
+    {
+      "inciso": "Microsoft Internet Explorer",
+      "fuentes": [
+        "Preguntas frecuentes del ciclo de vida",
+        "Fin de soporte de IE11",
+        "Qué es el modo Internet Explorer",
+        "Métodos abreviados de IE11"
+      ],
+      "secciones": [
+        "interfaz clásica",
+        "funciones históricas",
+        "fin de soporte",
+        "modo IE",
+        "motores",
+        "limitaciones",
+        "compatibilidad"
+      ],
+      "contenidoExigible": [
+        "distinguir IE11, Edge y modo IE",
+        "recordar atajos diferenciales",
+        "comprender compatibilidad heredada",
+        "evitar respuestas desactualizadas"
+      ]
+    }
+  ],
+  "atajos": [
+    {
+      "teclas": "Ctrl + T",
+      "accion": "nueva pestaña"
+    },
+    {
+      "teclas": "Ctrl + N",
+      "accion": "nueva ventana"
+    },
+    {
+      "teclas": "Ctrl + Mayús + N",
+      "accion": "ventana InPrivate en Edge"
+    },
+    {
+      "teclas": "Ctrl + Mayús + P",
+      "accion": "InPrivate en IE11; impresión del sistema en Edge"
+    },
+    {
+      "teclas": "Ctrl + W",
+      "accion": "cerrar pestaña"
+    },
+    {
+      "teclas": "Ctrl + Mayús + T",
+      "accion": "reabrir pestaña cerrada"
+    },
+    {
+      "teclas": "Ctrl + L",
+      "accion": "seleccionar barra de direcciones"
+    },
+    {
+      "teclas": "Ctrl + R o F5",
+      "accion": "recargar"
+    },
+    {
+      "teclas": "Ctrl + F",
+      "accion": "buscar en página"
+    },
+    {
+      "teclas": "Ctrl + D",
+      "accion": "guardar favorito"
+    },
+    {
+      "teclas": "Ctrl + Mayús + O",
+      "accion": "abrir favoritos en Edge"
+    },
+    {
+      "teclas": "Ctrl + H",
+      "accion": "historial"
+    },
+    {
+      "teclas": "Ctrl + J",
+      "accion": "descargas"
+    },
+    {
+      "teclas": "Ctrl + P",
+      "accion": "imprimir"
+    },
+    {
+      "teclas": "Ctrl + Mayús + Supr",
+      "accion": "borrar datos de navegación"
+    }
+  ],
+  "cifrasTemporales": [
+    {
+      "dato": "15 de junio de 2022",
+      "significado": "fin de soporte de la aplicación de escritorio IE11 en determinadas versiones de Windows 10"
+    },
+    {
+      "dato": "al menos hasta 2029",
+      "significado": "compromiso de soporte del modo IE en sistemas compatibles"
+    },
+    {
+      "dato": "un año",
+      "significado": "preaviso mínimo anunciado antes de retirar el modo IE"
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "desarrollo web",
+    "configuración avanzada de red",
+    "administración empresarial completa de Edge",
+    "directivas de grupo exhaustivas",
+    "herramientas de desarrollador",
+    "programación de extensiones",
+    "arquitectura interna de Chromium",
+    "administración avanzada de certificados",
+    "instalación forzada de Internet Explorer"
+  ],
+  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 16 aprobado. No se aprueba por extensión, número de atajos ni validación técnica.",
+  "aprobadoEl": "2026-07-18"
+}
