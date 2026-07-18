@@ -1,0 +1,114 @@
+{
+  "tema": 11,
+  "titulo": "Especialidades del procedimiento administrativo local, registro, presentación, comunicaciones y notificaciones",
+  "preguntas": [
+    {
+      "id": "DIP-T11-001",
+      "enunciado": "¿Cuál es la norma básica general aplicable al procedimiento administrativo de las entidades locales?",
+      "opciones": ["La Ley 39/2015", "Exclusivamente el ROF de 1986", "La Ley de Enjuiciamiento Civil", "El Código de Comercio"],
+      "correcta": 0,
+      "justificacion": "El procedimiento administrativo local se rige con carácter básico por la Ley 39/2015, sin perjuicio de las especialidades de régimen local.",
+      "trampa": "El ROF contiene especialidades, pero no sustituye a la Ley 39/2015.",
+      "referencia": "Manual, apartado 1"
+    },
+    {
+      "id": "DIP-T11-002",
+      "enunciado": "El registro electrónico general permite presentar documentos:",
+      "opciones": ["Solo en horario de oficina", "Las 24 horas de todos los días del año", "Solo en días hábiles", "Hasta las 15:00 horas"],
+      "correcta": 1,
+      "justificacion": "El registro electrónico está disponible las 24 horas de todos los días del año.",
+      "trampa": "La disponibilidad permanente no significa que todos los días sean hábiles a efectos de cómputo.",
+      "referencia": "Manual, apartado 3.4"
+    },
+    {
+      "id": "DIP-T11-003",
+      "enunciado": "Una presentación efectuada en día inhábil en el registro electrónico se entiende realizada, con carácter general:",
+      "opciones": ["El mismo día", "El día hábil anterior", "En la primera hora del primer día hábil siguiente", "Cuando la revise un funcionario"],
+      "correcta": 2,
+      "justificacion": "La Ley 39/2015 desplaza la presentación al primer día hábil siguiente a efectos de cómputo, salvo previsión normativa específica.",
+      "trampa": "El sistema recibe el documento, pero el efecto temporal se traslada.",
+      "referencia": "Manual, apartado 3.4"
+    },
+    {
+      "id": "DIP-T11-004",
+      "enunciado": "El plazo ordinario para subsanar una solicitud incompleta es de:",
+      "opciones": ["5 días", "10 días", "15 días", "1 mes"],
+      "correcta": 1,
+      "justificacion": "La subsanación ordinaria se concede por 10 días.",
+      "trampa": "Los 5 días son una posible ampliación excepcional, no el plazo inicial.",
+      "referencia": "Manual, apartado 4.3"
+    },
+    {
+      "id": "DIP-T11-005",
+      "enunciado": "Cuando un sujeto obligado a relacionarse electrónicamente presenta presencialmente una solicitud, la fecha válida de presentación será:",
+      "opciones": ["La de la presentación presencial", "La del requerimiento", "La de la subsanación electrónica", "La de la resolución"],
+      "correcta": 2,
+      "justificacion": "La presentación se considera realizada en la fecha en que el obligado subsana electrónicamente.",
+      "trampa": "La fecha inicial en papel no se conserva.",
+      "referencia": "Manual, apartado 4.3"
+    },
+    {
+      "id": "DIP-T11-006",
+      "enunciado": "Toda notificación debe cursarse dentro del plazo de:",
+      "opciones": ["5 días desde la iniciación", "10 días desde que el acto fue dictado", "15 días desde la firma", "1 mes desde la resolución"],
+      "correcta": 1,
+      "justificacion": "El artículo 40.2 de la Ley 39/2015 establece 10 días desde que el acto haya sido dictado.",
+      "trampa": "Este plazo no es el mismo que el de rechazo de la notificación electrónica.",
+      "referencia": "Manual, apartado 6.1"
+    },
+    {
+      "id": "DIP-T11-007",
+      "enunciado": "Una notificación electrónica puesta a disposición y no abierta se entiende rechazada, con carácter general, tras:",
+      "opciones": ["5 días hábiles", "10 días hábiles", "10 días naturales", "15 días naturales"],
+      "correcta": 2,
+      "justificacion": "El rechazo se produce transcurridos 10 días naturales desde la puesta a disposición sin acceso.",
+      "trampa": "La Ley dice naturales, no hábiles.",
+      "referencia": "Manual, apartado 6.2"
+    },
+    {
+      "id": "DIP-T11-008",
+      "enunciado": "En una notificación en papel en el domicilio, puede hacerse cargo otra persona que se encuentre allí si es mayor de:",
+      "opciones": ["12 años", "14 años", "16 años", "18 años"],
+      "correcta": 1,
+      "justificacion": "Puede recibirla cualquier persona mayor de 14 años que se encuentre en el domicilio y haga constar su identidad.",
+      "trampa": "No se exige mayoría de edad.",
+      "referencia": "Manual, apartado 6.3"
+    },
+    {
+      "id": "DIP-T11-009",
+      "enunciado": "Si el primer intento de notificación en papel resulta fallido, el segundo intento debe realizarse:",
+      "opciones": ["Dentro de los 3 días siguientes", "Dentro de los 10 días siguientes", "Al mes siguiente", "No procede un segundo intento"],
+      "correcta": 0,
+      "justificacion": "Debe repetirse por una sola vez en una hora distinta dentro de los tres días siguientes.",
+      "trampa": "No son 10 días; ese plazo corresponde a otras reglas de notificación.",
+      "referencia": "Manual, apartado 6.3"
+    },
+    {
+      "id": "DIP-T11-010",
+      "enunciado": "Cuando se desconoce a los interesados o no puede practicarse la notificación, el anuncio obligatorio se publica en:",
+      "opciones": ["El tablón municipal exclusivamente", "El boletín provincial exclusivamente", "El Boletín Oficial del Estado", "Un periódico local"],
+      "correcta": 2,
+      "justificacion": "La notificación infructuosa se practica mediante anuncio en el BOE.",
+      "trampa": "Otros medios pueden ser complementarios, pero no sustituyen al anuncio en el BOE.",
+      "referencia": "Manual, apartado 6.4"
+    },
+    {
+      "id": "DIP-T11-011",
+      "enunciado": "La ausencia del aviso enviado al correo electrónico o dispositivo móvil sobre una notificación electrónica:",
+      "opciones": ["Invalida siempre la notificación", "Suspende automáticamente el plazo", "No invalida la notificación", "Convierte la notificación en papel"],
+      "correcta": 2,
+      "justificacion": "El aviso es accesorio; su falta no afecta a la validez de la notificación puesta a disposición.",
+      "trampa": "No confundir aviso con notificación.",
+      "referencia": "Manual, apartado 5"
+    },
+    {
+      "id": "DIP-T11-012",
+      "enunciado": "Las copias auténticas expedidas por una Administración pública:",
+      "opciones": ["Carecen de valor fuera del órgano que las expide", "Tienen la misma validez y eficacia que los originales", "Solo sirven durante 10 días", "Deben compulsarse de nuevo"],
+      "correcta": 1,
+      "justificacion": "Las copias auténticas tienen la misma validez y eficacia que los documentos originales.",
+      "trampa": "No deben confundirse con simples fotocopias.",
+      "referencia": "Manual, apartado 4.4"
+    }
+  ]
+}
