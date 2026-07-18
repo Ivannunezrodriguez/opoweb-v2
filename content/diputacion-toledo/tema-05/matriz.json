@@ -1,0 +1,37 @@
+{
+  "tema": 5,
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "estado": "EN_REVISION_USUARIO",
+  "metodo": "GENERACION_DESDE_CERO",
+  "epigrafeOficial": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; actividad de las Administraciones Públicas; normas generales de actuación; términos y plazos.",
+  "fuentePrincipal": "BOE-A-2015-10565",
+  "actualizacionFuente": "2024-11-06",
+  "cobertura": [
+    {"bloque":"Disposiciones generales","articulos":"1-2","estado":"CUBIERTO"},
+    {"bloque":"Capacidad, interesado y representación","articulos":"3-8","estado":"CUBIERTO"},
+    {"bloque":"Identificación y firma","articulos":"9-12","estado":"CUBIERTO"},
+    {"bloque":"Derechos y relación electrónica","articulos":"13-14","estado":"CUBIERTO"},
+    {"bloque":"Lengua, registros y archivo","articulos":"15-17","estado":"CUBIERTO"},
+    {"bloque":"Colaboración, comparecencia y responsabilidad","articulos":"18-20","estado":"CUBIERTO"},
+    {"bloque":"Obligación de resolver y silencio","articulos":"21-25","estado":"CUBIERTO"},
+    {"bloque":"Documentos y copias","articulos":"26-28","estado":"CUBIERTO_SINTESIS"},
+    {"bloque":"Términos y plazos","articulos":"29-33","estado":"CUBIERTO"}
+  ],
+  "datosTest": [
+    "Subsanación de representación: 10 días",
+    "Validez máxima del poder inscrito: 5 años",
+    "Plazo supletorio para resolver: 3 meses",
+    "Máximo general reglamentario: 6 meses",
+    "Suspensión por informe preceptivo: máximo 3 meses",
+    "Certificado de silencio: 15 días",
+    "Plazo por horas: máximo 24 horas",
+    "Ampliación ordinaria: máximo la mitad",
+    "Urgencia: mitad salvo solicitudes y recursos"
+  ],
+  "archivos": {
+    "manual": "content/diputacion-toledo/tema-05/manual.md",
+    "fuentes": "content/diputacion-toledo/tema-05/fuentes.md",
+    "preguntas": "content/diputacion-toledo/tema-05/preguntas.json"
+  },
+  "prohibidoPublicarComoAprobado": true
+}
