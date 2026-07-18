@@ -1,6 +1,122 @@
 {
   "tema": 18,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual está aprobado. El banco continúa vacío hasta redactar y revisar preguntas vinculadas a operaciones concretas y fuentes oficiales de Microsoft o LibreOffice."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "respuestaUnica": true,
+    "trazabilidad": "Cada pregunta referencia el manual auditado del Tema 18.",
+    "controlCalidad": "Preguntas independientes, justificadas y con trampa de examen explícita."
+  },
+  "preguntas": [
+    {
+      "id": "LP-T18-001",
+      "enunciado": "¿Cuál es el formato nativo habitual de un libro de Microsoft Excel?",
+      "opciones": [".xlsx", ".ods", ".odt", ".xlt"],
+      "respuestaCorrecta": 0,
+      "justificacion": "El formato nativo habitual de Excel es .xlsx, mientras que LibreOffice Calc utiliza normalmente .ods.",
+      "trampaExamen": "No debe confundirse el formato de libro de Excel con el formato nativo de Calc.",
+      "referencia": "manual.md, apartado 5 · Diferencias esenciales"
+    },
+    {
+      "id": "LP-T18-002",
+      "enunciado": "¿Qué representa la referencia A1:C10 en una hoja de cálculo?",
+      "opciones": ["Un rango contiguo de celdas", "Una fórmula matricial", "Una hoja completa", "Una referencia absoluta"],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los dos puntos delimitan habitualmente un rango contiguo comprendido entre la primera y la última celda indicadas.",
+      "trampaExamen": "Un rango no es una fórmula ni implica por sí mismo que las referencias sean absolutas.",
+      "referencia": "manual.md, apartado 2 · Elementos básicos"
+    },
+    {
+      "id": "LP-T18-003",
+      "enunciado": "Al copiar una fórmula, ¿qué ocurre normalmente con una referencia relativa como A1?",
+      "opciones": ["Se ajusta según el desplazamiento", "Permanece siempre fija", "Se convierte automáticamente en $A$1", "Se elimina de la fórmula"],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las referencias relativas cambian de fila o columna al copiarse conforme al desplazamiento de la fórmula.",
+      "trampaExamen": "La referencia relativa no permanece fija; para ello debe emplearse una referencia absoluta o mixta.",
+      "referencia": "bloque-02-formulas-funciones.md, apartado 4 · Referencias relativas"
+    },
+    {
+      "id": "LP-T18-004",
+      "enunciado": "¿Qué indica la referencia $A$1?",
+      "opciones": ["Columna y fila absolutas", "Solo columna absoluta", "Solo fila absoluta", "Referencia a otra hoja"],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los signos $ delante de la columna y de la fila fijan ambas dimensiones cuando se copia la fórmula.",
+      "trampaExamen": "$A1 y A$1 son referencias mixtas; únicamente $A$1 fija columna y fila.",
+      "referencia": "bloque-02-formulas-funciones.md, apartado 4 · Referencia absoluta"
+    },
+    {
+      "id": "LP-T18-005",
+      "enunciado": "¿Qué función cuenta únicamente celdas que contienen valores numéricos?",
+      "opciones": ["CONTAR", "CONTARA", "SUMA", "PROMEDIO"],
+      "respuestaCorrecta": 0,
+      "justificacion": "CONTAR cuenta celdas numéricas, mientras que CONTARA cuenta celdas no vacías con independencia del tipo de contenido.",
+      "trampaExamen": "CONTAR y CONTARA no son equivalentes: la segunda también contabiliza texto y otros valores no vacíos.",
+      "referencia": "bloque-02-formulas-funciones.md, apartado 7 · Funciones básicas"
+    },
+    {
+      "id": "LP-T18-006",
+      "enunciado": "¿Qué diferencia existe entre aplicar formato de dos decimales y utilizar la función REDONDEAR?",
+      "opciones": ["El formato cambia la apariencia; REDONDEAR cambia el resultado calculado", "Ambos modifican siempre el valor almacenado", "El formato elimina decimales del cálculo", "REDONDEAR solo cambia la apariencia"],
+      "respuestaCorrecta": 0,
+      "justificacion": "El formato numérico modifica la visualización, mientras que REDONDEAR devuelve un valor calculado con el número de decimales indicado.",
+      "trampaExamen": "Mostrar menos decimales no significa que el valor real utilizado en los cálculos haya cambiado.",
+      "referencia": "bloque-02-formulas-funciones.md, apartado 7 · Matemáticas y fechas"
+    },
+    {
+      "id": "LP-T18-007",
+      "enunciado": "¿Qué suele significar el error #¡DIV/0!?",
+      "opciones": ["División entre cero o divisor vacío", "Referencia eliminada", "Nombre de función desconocido", "Columna demasiado estrecha"],
+      "respuestaCorrecta": 0,
+      "justificacion": "El error #¡DIV/0! aparece cuando una fórmula intenta dividir entre cero o utiliza como divisor una celda vacía equivalente.",
+      "trampaExamen": "Una columna estrecha suele mostrar #####, no el error #¡DIV/0!.",
+      "referencia": "bloque-02-formulas-funciones.md, apartado 10 · Errores de fórmula"
+    },
+    {
+      "id": "LP-T18-008",
+      "enunciado": "La aparición de ##### en una celda indica necesariamente que la fórmula es incorrecta?",
+      "opciones": ["No; puede deberse a que la columna es demasiado estrecha", "Sí; siempre es un error de referencia", "Sí; siempre existe división entre cero", "No; indica que la celda está protegida"],
+      "respuestaCorrecta": 0,
+      "justificacion": "##### suele indicar que el ancho no permite mostrar el número o la fecha, aunque también puede existir un valor temporal no representable.",
+      "trampaExamen": "No debe equipararse ##### a un error de fórmula como #¡VALOR! o #¡REF!.",
+      "referencia": "bloque-02-formulas-funciones.md, apartado 10 · #####"
+    },
+    {
+      "id": "LP-T18-009",
+      "enunciado": "¿Qué riesgo existe al ordenar solo una columna de una tabla de registros?",
+      "opciones": ["Romper la correspondencia entre los datos de cada fila", "Convertir las fórmulas en valores", "Eliminar automáticamente los duplicados", "Bloquear el libro"],
+      "respuestaCorrecta": 0,
+      "justificacion": "Ordenar una columna aislada puede desalinear sus valores respecto de los demás campos pertenecientes al mismo registro.",
+      "trampaExamen": "La ordenación debe aplicarse al conjunto de la tabla, no a un campo aislado sin ampliar la selección.",
+      "referencia": "manual.md, apartado 6 · Flujo de trabajo administrativo"
+    },
+    {
+      "id": "LP-T18-010",
+      "enunciado": "¿Cuál es la diferencia correcta entre filtrar y eliminar datos?",
+      "opciones": ["Filtrar oculta temporalmente filas que no cumplen el criterio; eliminar borra contenido o registros", "Ambas acciones borran definitivamente", "Filtrar cambia el valor de las celdas", "Eliminar solo modifica la vista"],
+      "respuestaCorrecta": 0,
+      "justificacion": "El filtro modifica la visualización de los registros sin borrarlos, mientras que eliminar sí suprime datos o estructuras seleccionadas.",
+      "trampaExamen": "Ocultar, filtrar y eliminar son operaciones distintas y no deben tratarse como sinónimos.",
+      "referencia": "manual.md, apartado 7 · Principios de calidad"
+    },
+    {
+      "id": "LP-T18-011",
+      "enunciado": "¿Qué afirmación es correcta sobre una tabla dinámica?",
+      "opciones": ["Resume y reorganiza datos sin sustituir necesariamente a la tabla de origen", "Convierte automáticamente el libro en PDF", "Solo existe en Excel", "Elimina los datos originales al actualizarse"],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las tablas dinámicas permiten resumir y analizar información a partir de un origen de datos que permanece separado.",
+      "trampaExamen": "Calc también dispone de tabla dinámica, denominada históricamente Piloto de datos o DataPilot.",
+      "referencia": "manual.md, apartado 5 · Diferencias esenciales"
+    },
+    {
+      "id": "LP-T18-012",
+      "enunciado": "¿Cuál es la naturaleza correcta de un archivo CSV respecto de una hoja de cálculo?",
+      "opciones": ["Es texto tabular de una sola hoja y no un libro completo", "Puede almacenar varias hojas y gráficos", "Conserva todas las fórmulas y formatos", "Es el formato nativo de Calc"],
+      "respuestaCorrecta": 0,
+      "justificacion": "CSV es un formato de texto delimitado destinado a datos tabulares y no conserva la estructura completa de un libro con múltiples hojas.",
+      "trampaExamen": "Guardar como CSV puede perder fórmulas, formatos, gráficos y hojas adicionales.",
+      "referencia": "manual.md, apartado 7 · Principios de calidad"
+    }
+  ]
 }
