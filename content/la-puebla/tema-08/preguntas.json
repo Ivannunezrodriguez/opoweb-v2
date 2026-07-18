@@ -1,6 +1,183 @@
 {
   "tema": 8,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "Teoría aprobada el 17 de julio de 2026. Las preguntas se prepararán después y deberán ser trazables por ley y artículo."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T08-001",
+      "enunciado": "Existe presencia equilibrada de mujeres y hombres cuando las personas de cada sexo:",
+      "opciones": [
+        "Representan exactamente el 50 %",
+        "No superan el 60 % ni son menos del 40 %",
+        "No superan el 70 % ni son menos del 30 %",
+        "Representan al menos un tercio"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La disposición adicional primera de la Ley Orgánica 3/2007 y la normativa autonómica utilizan la regla 40/60: ningún sexo supera el 60 % ni queda por debajo del 40 %.",
+      "trampaExamen": "Presencia equilibrada no equivale necesariamente a paridad matemática del 50 %.",
+      "referencia": "manual.md · apartados 6 y 108 · presencia equilibrada"
+    },
+    {
+      "id": "LP-T08-002",
+      "enunciado": "Una disposición aparentemente neutra que ocasiona una desventaja particular a personas de un sexo puede constituir:",
+      "opciones": [
+        "Discriminación directa exclusivamente",
+        "Discriminación indirecta, salvo justificación objetiva y proporcionada",
+        "Acoso sexual",
+        "Acción positiva"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La discriminación indirecta aparece cuando una regla aparentemente neutra provoca una desventaja particular para un sexo, salvo que responda a una finalidad legítima y los medios sean adecuados y necesarios.",
+      "trampaExamen": "No se exige intención discriminatoria para que exista discriminación indirecta.",
+      "referencia": "manual.md · apartados 5 y 74 · discriminación directa e indirecta"
+    },
+    {
+      "id": "LP-T08-003",
+      "enunciado": "Según la Ley Orgánica 3/2007, todo trato desfavorable relacionado con el embarazo o la maternidad constituye:",
+      "opciones": [
+        "Discriminación indirecta",
+        "Discriminación directa por razón de sexo",
+        "Acoso por razón de sexo únicamente si es reiterado",
+        "Una diferencia de trato siempre justificada"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 8 califica expresamente como discriminación directa por razón de sexo cualquier trato desfavorable relacionado con el embarazo o la maternidad.",
+      "trampaExamen": "No hace falta una comparación real con un trabajador varón en idéntica situación.",
+      "referencia": "manual.md · apartado 75 · artículos 7 a 9 LO 3/2007"
+    },
+    {
+      "id": "LP-T08-004",
+      "enunciado": "La Ley 12/2010 de Castilla-La Mancha se aplica expresamente a:",
+      "opciones": [
+        "Solo la Administración de la Junta de Comunidades",
+        "La Junta, las entidades locales, universidades y demás sujetos previstos legalmente",
+        "Únicamente empresas privadas de más de 50 trabajadores",
+        "Solo órganos autonómicos con competencias de igualdad"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 3 incluye a la Junta y su sector público, entidades locales y dependientes, universidades y personas físicas o jurídicas en los términos de la Ley.",
+      "trampaExamen": "El Ayuntamiento está incluido directamente; no es una aplicación meramente supletoria.",
+      "referencia": "manual.md · apartado 10 · artículo 3 Ley 12/2010"
+    },
+    {
+      "id": "LP-T08-005",
+      "enunciado": "El informe de aplicación de la Ley 12/2010 que elabora el Instituto de la Mujer para las Cortes regionales debe emitirse:",
+      "opciones": [
+        "Cada año",
+        "Cada dos años",
+        "Cada tres años",
+        "Al final de cada legislatura"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 13 establece que el Instituto de la Mujer debe elaborar cada tres años un informe sobre la aplicación de la Ley para las Cortes de Castilla-La Mancha.",
+      "trampaExamen": "No confundir este informe trienal con evaluaciones anuales de otros planes u órganos.",
+      "referencia": "manual.md · apartado 20 · artículo 13 Ley 12/2010"
+    },
+    {
+      "id": "LP-T08-006",
+      "enunciado": "La redacción vigente del artículo 34 de la Ley 12/2010 establece que el Consejo Escolar de Castilla-La Mancha informe sobre igualdad:",
+      "opciones": [
+        "Mensualmente",
+        "Anualmente",
+        "Cada dos años",
+        "Cada tres años"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La redacción vigente sustituyó la periodicidad anual por una periodicidad de cada tres años.",
+      "trampaExamen": "Muchas versiones antiguas siguen reflejando erróneamente un informe anual.",
+      "referencia": "manual.md · apartado 41 · artículo 34 Ley 12/2010"
+    },
+    {
+      "id": "LP-T08-007",
+      "enunciado": "Para obtener el Distintivo de Excelencia autonómico, las medidas o el plan implantado deben haberse aplicado durante al menos:",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Dos años",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La redacción vigente del artículo 44 exige una implantación durante al menos dos años, además de la vinculación territorial y restantes condiciones legales.",
+      "trampaExamen": "No debe estudiarse la redacción histórica anterior del distintivo.",
+      "referencia": "manual.md · apartado 51 · artículo 44 Ley 12/2010"
+    },
+    {
+      "id": "LP-T08-008",
+      "enunciado": "¿A partir de qué dimensión de plantilla es obligatorio, con carácter general, que una empresa disponga de un plan de igualdad?",
+      "opciones": [
+        "25 personas trabajadoras",
+        "50 personas trabajadoras",
+        "100 personas trabajadoras",
+        "250 personas trabajadoras"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 45 de la Ley Orgánica 3/2007 obliga a disponer de plan de igualdad a las empresas de 50 o más personas trabajadoras, además de los supuestos establecidos por convenio o sanción.",
+      "trampaExamen": "El umbral vigente general ya no es 250 trabajadores.",
+      "referencia": "manual.md · apartado 93 · artículo 45 LO 3/2007"
+    },
+    {
+      "id": "LP-T08-009",
+      "enunciado": "¿Cuál de las siguientes materias forma parte del contenido mínimo del diagnóstico de un plan de igualdad empresarial?",
+      "opciones": [
+        "Auditoría salarial entre mujeres y hombres",
+        "Plan de inversiones financieras",
+        "Política de dividendos",
+        "Regulación de vacaciones municipales"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 46 incluye, entre otras materias, condiciones de trabajo y auditoría salarial, selección, clasificación, formación, promoción, corresponsabilidad, infrarrepresentación, retribuciones y prevención del acoso.",
+      "trampaExamen": "El plan debe partir de diagnóstico negociado y no puede reducirse a una declaración genérica de buenas intenciones.",
+      "referencia": "manual.md · apartado 94 · artículo 46 LO 3/2007"
+    },
+    {
+      "id": "LP-T08-010",
+      "enunciado": "Los artículos 52 a 54 de la Ley Orgánica 3/2007 sobre presencia equilibrada en órganos directivos, tribunales y órganos de selección se refieren específicamente a:",
+      "opciones": [
+        "Todas las entidades locales",
+        "La Administración General del Estado",
+        "Exclusivamente las empresas privadas",
+        "Las universidades de Castilla-La Mancha"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Esos artículos contienen reglas específicas para la Administración General del Estado. Las entidades locales se rigen por el artículo 51 y por la normativa autonómica y local aplicable.",
+      "trampaExamen": "No debe citarse el artículo 53 como si su ámbito literal alcanzara directamente a cualquier Ayuntamiento.",
+      "referencia": "manual.md · apartado 97 · artículos 52 a 54 LO 3/2007"
+    },
+    {
+      "id": "LP-T08-011",
+      "enunciado": "En determinados cursos de formación de la Administración General del Estado, el artículo 60 prevé reservar para empleadas que cumplan los requisitos al menos:",
+      "opciones": [
+        "El 25 % de las plazas",
+        "El 33 % de las plazas",
+        "El 40 % de las plazas",
+        "El 50 % de las plazas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 60 establece una reserva mínima del 40 % de las plazas en determinados cursos para empleadas que reúnan los requisitos.",
+      "trampaExamen": "Es una regla específica de formación en el empleo público estatal, no una cuota general para todos los cursos municipales.",
+      "referencia": "manual.md · apartado 99 · artículo 60 LO 3/2007"
+    },
+    {
+      "id": "LP-T08-012",
+      "enunciado": "Perjudicar a una persona por haber presentado una queja o denuncia frente a una discriminación por razón de sexo constituye:",
+      "opciones": [
+        "Una actuación neutral",
+        "Una represalia prohibida",
+        "Discriminación indirecta solo si existe sentencia previa",
+        "Una acción positiva"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 9 de la Ley Orgánica 3/2007 prohíbe cualquier trato adverso o efecto negativo derivado de presentar quejas, reclamaciones, denuncias, demandas o recursos para impedir discriminaciones.",
+      "trampaExamen": "La garantía frente a represalias protege incluso antes de que exista una sentencia estimatoria.",
+      "referencia": "manual.md · apartado 75 · artículo 9 LO 3/2007"
+    }
+  ]
 }
