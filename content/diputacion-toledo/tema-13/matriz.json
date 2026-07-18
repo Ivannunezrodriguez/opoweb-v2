@@ -1,0 +1,30 @@
+{
+  "tema": 13,
+  "epigrafeOficial": "El municipio: concepto y elementos. El término municipal. La población: referencia al empadronamiento. Organización municipal. Competencias. El presupuesto de las entidades locales.",
+  "estado": "GENERACION_DESDE_CERO",
+  "cobertura": [
+    {"apartado": "Concepto y elementos del municipio", "estado": "CUBIERTO", "referencias": ["LBRL arts. 11-12"]},
+    {"apartado": "Término municipal", "estado": "CUBIERTO", "referencias": ["LBRL arts. 12-14"]},
+    {"apartado": "Población y empadronamiento", "estado": "CUBIERTO", "referencias": ["LBRL arts. 15-18", "RD 1690/1986"]},
+    {"apartado": "Organización municipal", "estado": "CUBIERTO", "referencias": ["LBRL arts. 20-23"]},
+    {"apartado": "Competencias", "estado": "CUBIERTO", "referencias": ["LBRL arts. 25-27"]},
+    {"apartado": "Servicios mínimos", "estado": "CUBIERTO", "referencias": ["LBRL art. 26"]},
+    {"apartado": "Presupuesto local", "estado": "CUBIERTO", "referencias": ["TRLRHL arts. 162-171"]}
+  ],
+  "datosTestAuditados": {
+    "minimoNuevoMunicipio": "4.000 habitantes",
+    "juntaGobiernoLocal": "obligatoria en municipios de más de 5.000 habitantes",
+    "renovacionPadronExtranjeros": "2 años en el supuesto legal específico",
+    "remisionPresupuestoPleno": "antes del 15 de octubre",
+    "informacionPublicaPresupuesto": "15 días",
+    "resolucionReclamaciones": "1 mes",
+    "aprobacionDefinitiva": "antes del 31 de diciembre"
+  },
+  "control": {
+    "fuentesOficiales": true,
+    "reutilizacion": false,
+    "focoExamen": true,
+    "tablasComparativas": true,
+    "preguntasPropias": 12
+  }
+}
