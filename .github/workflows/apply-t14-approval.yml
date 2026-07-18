@@ -1,0 +1,40 @@
+name: Aplicar aprobación Tema 14
+
+on:
+  push:
+    branches:
+      - rebuild/puebla-tema-14
+    paths:
+      - .github/workflows/apply-t14-approval.yml
+
+permissions:
+  contents: write
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar rama
+        uses: actions/checkout@v4
+        with:
+          ref: rebuild/puebla-tema-14
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Aplicar publicación
+        run: python scripts/publish_t14.py
+
+      - name: Validar
+        run: npm test
+
+      - name: Registrar publicación
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Publicar Tema 14 aprobado por el usuario"
+          git push origin HEAD:rebuild/puebla-tema-14
