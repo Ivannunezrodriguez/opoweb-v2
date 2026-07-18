@@ -1,6 +1,6 @@
 # Tema 19 · Bloque 3 · Escáneres y digitalización
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Función del escáner
 

@@ -9,16 +9,16 @@ const packageJson = json('package.json');
 const serviceWorker = read('sw.js');
 const index = read('index.html');
 
-assert.equal(programme.version, '0.18.0');
-assert.equal(packageJson.version, '0.18.0');
-assert.ok(index.includes('v0.18.0'));
+assert.equal(programme.version, '0.19.0');
+assert.equal(packageJson.version, '0.19.0');
+assert.ok(index.includes('v0.19.0'));
 assert.equal(programme.temas.length, 19);
 
 const approved = programme.temas.filter(t => t.estado === 'APROBADO_USUARIO');
 const review = programme.temas.filter(t => t.estado === 'EN_REVISION_USUARIO');
 const pending = programme.temas.filter(t => t.estado === 'PENDIENTE_RECONSTRUCCION');
-assert.deepEqual(approved.map(t => t.numero), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]);
-assert.deepEqual(review.map(t => t.numero), [19]);
+assert.deepEqual(approved.map(t => t.numero), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
+assert.equal(review.length, 0);
 assert.equal(pending.length, 0);
 
 for (const t of approved) {
@@ -34,23 +34,28 @@ const base19 = 'content/la-puebla/tema-19';
 const matrix19 = json(`${base19}/matriz.json`);
 const questions19 = json(`${base19}/preguntas.json`);
 assert.equal(t19.capitulos.length, 5);
-assert.equal(matrix19.estado, 'EN_REVISION_USUARIO');
+assert.equal(t19.aprobadoEl, '2026-07-18');
+assert.equal(t19.aprobacion, `${base19}/aprobacion.md`);
+assert.equal(matrix19.estado, 'APROBADO_USUARIO');
+assert.equal(matrix19.aprobadoEl, '2026-07-18');
 assert.equal(matrix19.cobertura.length, 5);
 assert.equal(matrix19.diferenciasClave.length, 6);
-assert.equal(questions19.estado, 'NO_CREADAS_HASTA_APROBACION_TEORICA');
+assert.equal(questions19.estado, 'PENDIENTE_REVISION_POST_APROBACION');
 assert.deepEqual(questions19.preguntas, []);
-assert.ok(read(`${base19}/manual.md`).includes('Tema cerrado: **NO**'));
-assert.ok(read(`${base19}/feedback.md`).includes('Tema 19 aprobado'));
+assert.ok(read(`${base19}/manual.md`).includes('Tema cerrado: **SÍ**'));
+assert.ok(read(`${base19}/aprobacion.md`).includes('Tema 19 aprobado'));
+assert.ok(read(`${base19}/feedback.md`).includes('APROBADO_USUARIO'));
+assert.ok(read(`${base19}/fuentes.md`).includes('APROBADO POR EL USUARIO'));
 
 const files19 = [
-  'manual.md','matriz.json','feedback.md','preguntas.json','fuentes.md',
+  'manual.md','matriz.json','aprobacion.md','feedback.md','preguntas.json','fuentes.md',
   'bloque-01-ordenador-componentes.md','bloque-02-perifericos-impresoras.md',
   'bloque-03-escaneres.md','bloque-04-almacenamiento-externo-usb.md',
   'bloque-05-opticos.md'
 ];
 for (const file of files19) {
   assert.ok(exists(`${base19}/${file}`), `Falta ${file}`);
-  assert.ok(!serviceWorker.includes(`./${base19}/${file}`), `Tema 19 no debe estar precargado antes de aprobarse: ${file}`);
+  assert.ok(serviceWorker.includes(`./${base19}/${file}`), `No precargado ${file}`);
 }
 
 const joined19 = files19.filter(f => f.endsWith('.md')).map(f => read(`${base19}/${f}`)).join('\n').toLowerCase();
@@ -70,9 +75,9 @@ for (const source of [
   assert.ok(read(`${base19}/fuentes.md`).includes(source), `Falta fuente ${source}`);
 }
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.18.0'"));
-assert.equal(exists('.github/workflows/apply-t19-review.yml'), false);
-assert.equal(exists('scripts/apply_t19_review.py'), false);
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.19.0'"));
+assert.equal(exists('.github/workflows/apply-t19-approval.yml'), false);
+assert.equal(exists('scripts/publish_t19.py'), false);
 
 console.log(JSON.stringify({
   version: programme.version,
@@ -80,5 +85,5 @@ console.log(JSON.stringify({
   review: review.length,
   pending: pending.length,
   theme19Questions: questions19.preguntas.length,
-  status: 'TEMA_19_EN_REVISION_VALIDADO'
+  status: 'CONVOCATORIA_LA_PUEBLA_APROBADA_VALIDADA'
 }, null, 2));

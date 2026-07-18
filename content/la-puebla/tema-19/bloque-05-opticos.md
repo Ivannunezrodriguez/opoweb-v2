@@ -1,6 +1,6 @@
 # Tema 19 · Bloque 5 · Lectores y grabadores de CD y DVD
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Vigencia del contenido
 

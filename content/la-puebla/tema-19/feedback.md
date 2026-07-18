@@ -2,9 +2,9 @@
 
 ## Estado
 
-`EN_REVISION_USUARIO`
+`APROBADO_USUARIO`
 
-El tema no está publicado como aprobado. La versión pública continúa en `0.18.0` y el banco de preguntas permanece vacío.
+El tema está aprobado y publicado en la versión `0.19.0`. El banco de preguntas permanece vacío hasta su revisión individual y trazable.
 
 ## Epígrafe oficial
 
@@ -84,9 +84,6 @@ Revisa especialmente:
 
 ## Cierre
 
-La respuesta debe ser una de estas:
+Aprobación registrada: **«Tema 19 aprobado»**, el 18 de julio de 2026.
 
-- **«Tema 19 aprobado»**
-- **«Tema 19: cambia o amplía…»**
-
-No se fusionará mientras permanezca en `EN_REVISION_USUARIO`.
+Estado final: `APROBADO_USUARIO`.

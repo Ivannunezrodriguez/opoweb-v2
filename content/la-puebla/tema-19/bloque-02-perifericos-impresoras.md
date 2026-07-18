@@ -1,6 +1,6 @@
 # Tema 19 · Bloque 2 · Periféricos e impresoras
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Concepto de periférico
 

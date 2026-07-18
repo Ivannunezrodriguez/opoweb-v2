@@ -1,6 +1,6 @@
 # Tema 19 · Bloque 1 · Ordenador personal y componentes habituales
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Ordenador personal
 

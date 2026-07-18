@@ -1,6 +1,6 @@
 # Tema 19 · Fuentes oficiales y trazabilidad
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 **Última comprobación:** 18 de julio de 2026.
 

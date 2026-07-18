@@ -1,6 +1,6 @@
 # Tema 19 · Bloque 4 · Discos duros externos y memorias USB
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Almacenamiento externo
 
