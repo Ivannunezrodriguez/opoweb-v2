@@ -1,7 +1,7 @@
 # La Puebla de Montalbán · Tema 15 · Manual modular
 
-**Estado:** EN REVISIÓN DEL USUARIO  
-**No publicado como tema aprobado.**  
+**Estado:** APROBADO POR EL USUARIO  
+**Publicado tras aprobación expresa del usuario.**  
 **Fecha de revisión técnica:** 18 de julio de 2026.
 
 > **Tema 15. Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.**
@@ -28,7 +28,8 @@ El examen puede formular operaciones de forma genérica o mostrar interfaces dis
 4. [Impresión de documentos](bloque-04-impresion.md)
 5. [Digitalización de documentos](bloque-05-digitalizacion.md)
 6. [Trazabilidad de fuentes oficiales](fuentes.md)
-7. [Informe de revisión](feedback.md)
+7. [Informe de aprobación](feedback.md)
+8. [Aprobación expresa](aprobacion.md)
 
 ## 3. Mapa rápido
 
@@ -210,8 +211,8 @@ El OCR reconoce texto dentro de una imagen. Digitalizar no garantiza por sí mis
 - Cinco bloques: preparados.
 - Fuentes oficiales de Microsoft: trazadas.
 - Banco de preguntas: vacío.
-- Revisión del usuario: pendiente.
-- Tema cerrado: **NO**.
-- Publicación como aprobado: **NO**.
+- Revisión del usuario: aprobada el 2026-07-18.
+- Tema cerrado: **SÍ**.
+- Publicación como aprobado: **SÍ**.
 
-El tema solo cambiará a `APROBADO_USUARIO` tras la respuesta expresa **«Tema 15 aprobado»**.
+La aprobación expresa **«Tema 15 aprobado»** quedó registrada el 18 de julio de 2026.
