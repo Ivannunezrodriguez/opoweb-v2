@@ -1,6 +1,7 @@
 {
   "tema": 15,
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "APROBADO_USUARIO",
+  "aprobadoEl": "2026-07-18",
   "epigrafeOficial": "Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
   "fechaRevisionTecnica": "2026-07-18",
   "referenciaPrincipal": "Windows 11",
@@ -68,5 +69,5 @@
     "copia auténtica y documento electrónico",
     "firma electrónica"
   ],
-  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 15 aprobado. No se aprueba por extensión, número de atajos o validación técnica."
+  "criterioDeCierre": "Aprobado por revisión humana mediante la expresión Tema 15 aprobado. La aprobación no crea automáticamente preguntas ni supuestos."
 }
