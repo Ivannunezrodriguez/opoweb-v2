@@ -25,7 +25,8 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 | Ley 40/2015 y AGE | 14 | `AUDITADO_NORMA_VIGENTE` | Verificados artículos **5–24** y **54–80**, incluido el artículo **55 bis**, órganos, competencia y estructura estatal |
 | Windows I | 15 | `AUDITADO_TECNICA_VIGENTE` | Explorador, archivos, carpetas, unidades locales y de red, impresión y digitalización en Windows 11 |
 | Navegación web | 16 | `AUDITADO_TECNOLOGIA_VIGENTE` | Edge, Internet Explorer heredado, modo IE, privacidad, seguridad, historial, descargas y navegación InPrivate |
-| Ofimática y hardware | 17–19 | `EN_AUDITORIA` | Word/Writer, Excel/Calc y microinformática |
+| Word y Writer | 17 | `AUDITADO_TECNICA_VIGENTE` | Procesamiento de textos, estilos, páginas, revisión, combinación, compatibilidad y PDF |
+| Hoja de cálculo y hardware | 18–19 | `EN_AUDITORIA` | Excel/Calc y microinformática |
 
 ## Temas auditados
 
@@ -47,6 +48,7 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 | 14 | Revisados los artículos **5–24** y **54–80** de la Ley 40/2015. Confirmados quórum de **la mitad**, parentesco de **4.º/2.º grado**, recusación en **1/3 días** y presencia equilibrada **40/60**. | `content/la-puebla/tema-14/auditoria-2026-07-18.md` |
 | 15 | Revisados Explorador, operaciones con archivos, Papelera, unidades locales y UNC, impresión y escaneado. Confirmados `Windows + E`, `Mayús + Supr`, Print to PDF y destino habitual **Imágenes/Digitalizaciones**. | `content/la-puebla/tema-15/auditoria-2026-07-18.md` |
 | 16 | Revisados Edge e Internet Explorer 11. Confirmados InPrivate, historial, cookies, caché, descargas, SmartScreen y soporte del modo IE **al menos hasta 2029**, con aviso previo mínimo de **un año**. | `content/la-puebla/tema-16/auditoria-2026-07-18.md` |
+| 17 | Revisados Word para Microsoft 365, Word 2024 y LibreOffice Writer. Confirmados formatos `.docx/.odt`, plantillas `.dotx/.ott`, secciones frente a estilos de página, revisión, combinación y exportación PDF. | `content/la-puebla/tema-17/auditoria-2026-07-18.md` |
 
 ## Criterios aplicados a cada tema
 
@@ -75,6 +77,6 @@ Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 
 ## Orden de trabajo
 
 1. Corregir en el manual del **tema 6** el plazo del artículo **8.1.c)** y revisar sus preguntas asociadas.
-2. Auditar y corregir los **temas 17–19**.
+2. Auditar y corregir los **temas 18–19**.
 3. Generar preguntas y supuestos únicamente después de que el contenido base esté auditado.
 4. Reutilizar los temas comunes en Carranque, Las Ventas con Peña Aguilera y futuras convocatorias mediante una matriz de equivalencias, sin duplicar versiones contradictorias.
