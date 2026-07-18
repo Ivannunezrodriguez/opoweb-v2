@@ -1,0 +1,141 @@
+{
+  "tema": 14,
+  "estado": "EN_REVISION_USUARIO",
+  "epigrafeOficial": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
+  "fechaRevisionNormativa": "2026-07-18",
+  "manual": "content/la-puebla/tema-14/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-14/bloque-01-organos-competencia.md",
+    "content/la-puebla/tema-14/bloque-02-colegiados-abstencion.md",
+    "content/la-puebla/tema-14/bloque-03-age-estructura-ministerios.md",
+    "content/la-puebla/tema-14/bloque-04-age-organos-ministeriales.md",
+    "content/la-puebla/tema-14/bloque-05-age-territorial-exterior.md"
+  ],
+  "trazabilidad": "content/la-puebla/tema-14/articulos.md",
+  "normas": [
+    {
+      "referencia": "Ley 40/2015",
+      "estado": "Texto consolidado del BOE; última actualización publicada el 02/08/2024",
+      "articulos": "5-24 y 54-80, incluido 55 bis",
+      "caracter": "núcleo obligatorio"
+    },
+    {
+      "referencia": "Ley Orgánica 2/2024",
+      "articulos": "8 y disposición transitoria primera",
+      "caracter": "complemento imprescindible para artículos 54 y 55 bis"
+    },
+    {
+      "referencia": "Ley 3/2015",
+      "caracter": "complemento delimitado sobre alto cargo e idoneidad"
+    },
+    {
+      "referencia": "Ley 2/2014",
+      "caracter": "remisión del artículo 80; desarrollo completo excluido"
+    }
+  ],
+  "cobertura": [
+    {
+      "inciso": "Los órganos de las Administraciones Públicas",
+      "articulos": "5-7",
+      "contenidoExigible": [
+        "concepto y creación de órganos",
+        "duplicidades",
+        "instrucciones y órdenes de servicio",
+        "órganos consultivos"
+      ]
+    },
+    {
+      "inciso": "Competencia administrativa",
+      "articulos": "8-14",
+      "contenidoExigible": [
+        "irrenunciabilidad y desconcentración",
+        "delegación y avocación",
+        "encomienda de gestión",
+        "delegación de firma",
+        "suplencia",
+        "decisiones y conflictos de atribuciones"
+      ]
+    },
+    {
+      "inciso": "Órganos colegiados, abstención y recusación",
+      "articulos": "15-24",
+      "contenidoExigible": [
+        "sesiones presenciales y a distancia",
+        "quórum y acuerdos",
+        "actas",
+        "régimen específico AGE",
+        "creación y clasificación",
+        "causas y procedimiento de abstención y recusación"
+      ]
+    },
+    {
+      "inciso": "Administración General del Estado central",
+      "articulos": "54-68 y 55 bis",
+      "contenidoExigible": [
+        "principios y estructura",
+        "presencia equilibrada",
+        "Ministerios y jerarquía",
+        "creación de órganos",
+        "funciones y nombramiento de órganos superiores y directivos",
+        "servicios comunes"
+      ]
+    },
+    {
+      "inciso": "Administración General del Estado territorial y exterior",
+      "articulos": "69-80",
+      "contenidoExigible": [
+        "Delegaciones y Subdelegaciones",
+        "Directores Insulares",
+        "servicios integrados y no integrados",
+        "competencias territoriales",
+        "estructura y órganos de asistencia",
+        "Servicio Exterior"
+      ]
+    }
+  ],
+  "cifras": [
+    {
+      "materia": "Presencia equilibrada",
+      "valor": "mínimo 40 % y máximo 60 % de cada sexo"
+    },
+    {
+      "materia": "Parentesco para abstención",
+      "valor": "4.º grado de consanguinidad y 2.º de afinidad"
+    },
+    {
+      "materia": "Servicios profesionales previos para abstención",
+      "valor": "2 años"
+    },
+    {
+      "materia": "Respuesta inicial del recusado",
+      "valor": "día siguiente"
+    },
+    {
+      "materia": "Resolución si niega la recusación",
+      "valor": "3 días"
+    },
+    {
+      "materia": "Órgano colegiado de la AGE",
+      "valor": "3 o más personas"
+    },
+    {
+      "materia": "Quórum ordinario",
+      "valor": "Presidente, Secretario y al menos la mitad de miembros"
+    },
+    {
+      "materia": "Voto particular",
+      "valor": "2 días"
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "potestad sancionadora y responsabilidad patrimonial",
+    "funcionamiento electrónico ya estudiado en el tema 13",
+    "convenios",
+    "sector público institucional desde el artículo 81",
+    "Ley del Gobierno completa",
+    "estructura ministerial coyuntural de 2026",
+    "Ley 3/2015 completa",
+    "Ley 2/2014 completa"
+  ],
+  "criterioDeCierre": "No se aprobará por extensión o validación técnica. Requiere revisión humana y la expresión Tema 14 aprobado."
+}
