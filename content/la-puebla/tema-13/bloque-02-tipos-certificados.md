@@ -1,6 +1,6 @@
 # Tema 13 · Bloque 2 · Tipos de certificados electrónicos
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Clasificaciones que no deben mezclarse
 
