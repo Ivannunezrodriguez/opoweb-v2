@@ -1,0 +1,29 @@
+{
+  "tema": 12,
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "estado": "REVISION_USUARIO",
+  "generacion": "DESDE_CERO",
+  "epigrafeOficial": "El Régimen Local Español: principios constitucionales y regulación jurídica. Concepto de la Administración Local.",
+  "cobertura": [
+    {"bloque": "Concepto de régimen local y Administración Local", "cubierto": true},
+    {"bloque": "Principios constitucionales", "cubierto": true},
+    {"bloque": "Autonomía municipal, provincial e insular", "cubierto": true},
+    {"bloque": "Suficiencia financiera", "cubierto": true},
+    {"bloque": "Carta Europea de Autonomía Local", "cubierto": true},
+    {"bloque": "Regulación jurídica básica", "cubierto": true},
+    {"bloque": "Entidades locales", "cubierto": true},
+    {"bloque": "Personalidad, capacidad y potestades", "cubierto": true},
+    {"bloque": "Competencias propias, delegadas y distintas", "cubierto": true},
+    {"bloque": "Relaciones interadministrativas y control", "cubierto": true}
+  ],
+  "datosTest": {
+    "duracionMinimaDelegacionAnios": 5,
+    "alteracionLimitesProvinciales": "LEY_ORGANICA",
+    "articulosConstitucionalesClave": [137, 140, 141, 142]
+  },
+  "auditoria": {
+    "fecha": "2026-07-19",
+    "fuentePrincipal": "Ley 7/1985 consolidada a 2026-06-03",
+    "pendientes": []
+  }
+}
