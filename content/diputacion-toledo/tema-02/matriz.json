@@ -1,0 +1,46 @@
+{
+  "tema": 2,
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "estado": "EN_REVISION_USUARIO",
+  "metodo": "GENERACION_DESDE_CERO",
+  "epigrafeOficial": "Derechos y deberes fundamentales de los españoles. Garantía y suspensión. Las fuentes del derecho administrativo: la Ley, el Reglamento.",
+  "cobertura": [
+    {"apartado":"Encuadre y estructura del Título I","estado":"CUBIERTO"},
+    {"apartado":"Nacionalidad, mayoría de edad y extranjeros","estado":"CUBIERTO"},
+    {"apartado":"Igualdad, derechos fundamentales y libertades públicas","estado":"CUBIERTO"},
+    {"apartado":"Derechos y deberes de los ciudadanos","estado":"CUBIERTO"},
+    {"apartado":"Principios rectores","estado":"CUBIERTO"},
+    {"apartado":"Garantías de los derechos","estado":"CUBIERTO"},
+    {"apartado":"Suspensión general e individual","estado":"CUBIERTO"},
+    {"apartado":"Estados de alarma, excepción y sitio","estado":"CUBIERTO"},
+    {"apartado":"Ley orgánica, ordinaria, decreto legislativo y decreto-ley","estado":"CUBIERTO"},
+    {"apartado":"Reglamento: concepto, clases, límites, jerarquía e inderogabilidad singular","estado":"CUBIERTO"},
+    {"apartado":"Jerarquía, competencia y reserva de ley","estado":"CUBIERTO"}
+  ],
+  "datosTestCriticos": [
+    "Mayoría de edad: 18 años",
+    "Detención preventiva: máximo 72 horas",
+    "Ley orgánica: mayoría absoluta del Congreso en votación final sobre el conjunto",
+    "Decreto-ley: convalidación o derogación por el Congreso dentro de 30 días",
+    "Estado de alarma: máximo 15 días sin autorización de prórroga",
+    "Estado de excepción: máximo 30 días, prorrogables por otros 30",
+    "Estado de sitio: declaración del Congreso por mayoría absoluta",
+    "Amparo: artículo 14, artículos 15 a 29 y objeción de conciencia del artículo 30.2"
+  ],
+  "fuentes": [
+    "BOE-A-1978-31229",
+    "BOE-A-1981-12774",
+    "BOE-A-1979-23709",
+    "BOE-A-1997-25336",
+    "BOE-A-2015-10565",
+    "BOE-A-2015-10566",
+    "BOE-A-1984-11620",
+    "BOE-A-1981-10325"
+  ],
+  "control": {
+    "reutilizaLaPuebla": false,
+    "epigrafeCompleto": true,
+    "temaCerrado": false,
+    "requiereAprobacionUsuario": true
+  }
+}
