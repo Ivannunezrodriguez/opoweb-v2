@@ -1,6 +1,121 @@
 {
   "tema": 16,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "El manual está aprobado. El banco continúa vacío hasta redactar y revisar preguntas vinculadas a operaciones concretas y fuentes oficiales de Microsoft o conceptos técnicos expresamente delimitados."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "respuestaCorrecta": "indice_cero",
+    "trazabilidad": "manual aprobado y bloques técnicos"
+  },
+  "preguntas": [
+    {
+      "id": "LP-T16-001",
+      "pregunta": "¿Qué relación existe entre Internet y la World Wide Web?",
+      "opciones": ["Son términos completamente sinónimos", "La Web es un servicio que funciona sobre Internet", "Internet es una página web de Microsoft", "La Web incluye Internet y todas las redes privadas"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Internet es la infraestructura de redes interconectadas; la Web es uno de los servicios que utiliza esa infraestructura mediante páginas y recursos enlazados.",
+      "trampaExamen": "No debe confundirse la infraestructura Internet con uno de sus servicios, la World Wide Web.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartados 3 y 4"
+    },
+    {
+      "id": "LP-T16-002",
+      "pregunta": "En la URL https://sede.ejemplo.es/tramites?anio=2026#requisitos, ¿qué representa '#requisitos'?",
+      "opciones": ["El protocolo", "El dominio", "La consulta", "El fragmento dentro del recurso"],
+      "respuestaCorrecta": 3,
+      "justificacion": "El elemento introducido por almohadilla identifica un fragmento o anclaje dentro del recurso; la consulta es la parte iniciada por signo de interrogación.",
+      "trampaExamen": "La consulta empieza por '?' y el fragmento por '#'; suelen intercambiarse en preguntas de estructura de URL.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 4 · URL"
+    },
+    {
+      "id": "LP-T16-003",
+      "pregunta": "¿Qué atajo reabre en Microsoft Edge la última pestaña cerrada?",
+      "opciones": ["Ctrl + T", "Ctrl + Mayús + T", "Ctrl + N", "Ctrl + W"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Ctrl + Mayús + T reabre la última pestaña cerrada; Ctrl + T crea una nueva, Ctrl + N abre ventana y Ctrl + W cierra la activa.",
+      "trampaExamen": "La combinación añade Mayús al atajo de nueva pestaña; Ctrl + T por sí solo no restaura nada.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 6"
+    },
+    {
+      "id": "LP-T16-004",
+      "pregunta": "Al borrar en Edge el historial de descargas, ¿qué ocurre con los archivos ya descargados?",
+      "opciones": ["Se eliminan también del disco", "Se envían a la Papelera", "Permanecen en el disco y solo se borra la lista", "Se cifran automáticamente"],
+      "respuestaCorrecta": 2,
+      "justificacion": "Borrar el historial de descargas elimina el registro mostrado por el navegador, pero no suprime los archivos almacenados en el equipo.",
+      "trampaExamen": "Historial de descargas y archivos descargados son elementos distintos; borrar la lista no borra el contenido.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 7"
+    },
+    {
+      "id": "LP-T16-005",
+      "pregunta": "¿Cuál es la diferencia correcta entre cookies y caché?",
+      "opciones": ["Las cookies aceleran imágenes y la caché mantiene sesiones", "Las cookies guardan datos de sesión o preferencias y la caché conserva recursos", "Son exactamente el mismo dato", "La caché solo guarda contraseñas"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Las cookies almacenan información funcional del sitio, como sesión o preferencias; la caché guarda copias de recursos para acelerar cargas posteriores.",
+      "trampaExamen": "Borrar cookies puede cerrar sesiones; borrar caché obliga a descargar recursos de nuevo. No producen el mismo efecto.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 8"
+    },
+    {
+      "id": "LP-T16-006",
+      "pregunta": "¿Qué atajo abre una ventana InPrivate en Microsoft Edge?",
+      "opciones": ["Ctrl + Mayús + N", "Ctrl + Mayús + P", "Ctrl + Alt + N", "Ctrl + I"],
+      "respuestaCorrecta": 0,
+      "justificacion": "En Microsoft Edge, la navegación InPrivate se abre con Ctrl + Mayús + N. Ctrl + Mayús + P corresponde históricamente a Internet Explorer.",
+      "trampaExamen": "Edge e Internet Explorer usan atajos distintos para la navegación privada.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 9"
+    },
+    {
+      "id": "LP-T16-007",
+      "pregunta": "Tras cerrar todas las ventanas InPrivate de Edge, ¿qué elemento permanece en el dispositivo?",
+      "opciones": ["El historial de navegación de la sesión", "Las cookies de la sesión", "Los archivos descargados", "Los datos de formularios de la sesión"],
+      "respuestaCorrecta": 2,
+      "justificacion": "Edge elimina datos locales de navegación de la sesión InPrivate, pero los archivos descargados y los favoritos creados permanecen.",
+      "trampaExamen": "InPrivate no convierte las descargas en temporales ni elimina automáticamente los archivos guardados.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 9"
+    },
+    {
+      "id": "LP-T16-008",
+      "pregunta": "¿Qué garantiza principalmente HTTPS?",
+      "opciones": ["Que la empresa es honesta", "Que la oferta comercial es verdadera", "Cifrado de la comunicación y autenticación del servidor mediante certificados", "Ausencia total de malware en la página"],
+      "respuestaCorrecta": 2,
+      "justificacion": "HTTPS protege la comunicación y permite autenticar el servidor, pero no acredita por sí solo la legitimidad material del contenido o de la oferta.",
+      "trampaExamen": "El candado no garantiza que una web sea honesta; solo informa sobre la protección técnica de la conexión.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 10 · HTTPS"
+    },
+    {
+      "id": "LP-T16-009",
+      "pregunta": "¿Cuál es la función principal de Microsoft Defender SmartScreen en Edge?",
+      "opciones": ["Aumentar el zoom", "Comprobar reputación de sitios y descargas y advertir sobre phishing o malware", "Guardar favoritos", "Convertir páginas en PDF"],
+      "respuestaCorrecta": 1,
+      "justificacion": "SmartScreen analiza la reputación de sitios y descargas y puede advertir o bloquear contenido asociado a phishing o software malicioso.",
+      "trampaExamen": "Desactivar SmartScreen no es la respuesta ordinaria ante un bloqueo; primero debe verificarse la fuente.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 10 · SmartScreen"
+    },
+    {
+      "id": "LP-T16-010",
+      "pregunta": "Respecto a los perfiles de Edge, ¿qué afirmación es correcta?",
+      "opciones": ["Cerrar sesión elimina siempre el perfil y todos sus datos", "Un perfil separa favoritos, historial, contraseñas y configuración", "Todos los perfiles comparten obligatoriamente contraseñas", "La sincronización funciona sin iniciar sesión ni activarla"],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los perfiles separan conjuntos de datos y configuración. Cerrar sesión y eliminar un perfil son acciones distintas, y la sincronización requiere configuración.",
+      "trampaExamen": "Cerrar sesión no equivale a borrar el perfil ni necesariamente todos los datos locales.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 11"
+    },
+    {
+      "id": "LP-T16-011",
+      "pregunta": "¿Cómo funciona el modo Internet Explorer de Microsoft Edge?",
+      "opciones": ["Abre todos los sitios con el motor heredado", "Ejecuta la antigua aplicación IE como navegador general", "Usa el motor heredado solo para sitios configurados específicamente", "Instala automáticamente Internet Explorer 11"],
+      "respuestaCorrecta": 2,
+      "justificacion": "Edge utiliza normalmente su motor moderno y recurre a Trident/MSHTML únicamente en sitios configurados para modo IE, habitualmente mediante directivas organizativas.",
+      "trampaExamen": "Modo IE no es la aplicación clásica de Internet Explorer ni se aplica automáticamente a toda web antigua.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 12"
+    },
+    {
+      "id": "LP-T16-012",
+      "pregunta": "¿Hasta qué año indica Microsoft que mantendrá al menos el modo Internet Explorer de Edge?",
+      "opciones": ["2026", "2027", "2029", "2035"],
+      "respuestaCorrecta": 2,
+      "justificacion": "El manual recoge que Microsoft mantiene el modo Internet Explorer al menos hasta 2029 y anuncia un preaviso mínimo de un año antes de retirarlo.",
+      "trampaExamen": "La retirada de la aplicación IE no implica que el modo IE de Edge haya desaparecido simultáneamente.",
+      "referencia": "content/la-puebla/tema-16/manual.md · apartado 1"
+    }
+  ]
 }
