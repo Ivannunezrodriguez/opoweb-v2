@@ -1,6 +1,6 @@
 # Tema 13 · Bloque 4 · Prestadores, autoridades certificadoras y servicios
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## 1. Terminología vigente
 
