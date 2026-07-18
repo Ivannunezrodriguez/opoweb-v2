@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "updatedAt": "2026-07-18",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -214,7 +214,21 @@
     {
       "numero": 15,
       "titulo": "Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "APROBADO_USUARIO",
+      "aprobadoEl": "2026-07-18",
+      "manual": "content/la-puebla/tema-15/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-15/bloque-01-explorador-rutas.md",
+        "content/la-puebla/tema-15/bloque-02-operaciones-archivos.md",
+        "content/la-puebla/tema-15/bloque-03-unidades-locales-red.md",
+        "content/la-puebla/tema-15/bloque-04-impresion.md",
+        "content/la-puebla/tema-15/bloque-05-digitalizacion.md"
+      ],
+      "matriz": "content/la-puebla/tema-15/matriz.json",
+      "feedback": "content/la-puebla/tema-15/feedback.md",
+      "preguntas": "content/la-puebla/tema-15/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-15/fuentes.md",
+      "aprobacion": "content/la-puebla/tema-15/aprobacion.md"
     },
     {
       "numero": 16,

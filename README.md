@@ -10,12 +10,12 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado actual
 
-- Versión: **0.14.0**.
+- Versión: **0.15.0**.
 - Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
 - Programa oficial: **19 temas**.
 - Temas 1–11: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 12–14: `APROBADO_USUARIO` el 18 de julio de 2026.
-- Temas 15–19: `PENDIENTE_RECONSTRUCCION`.
+- Temas 12–15: `APROBADO_USUARIO` el 18 de julio de 2026.
+- Temas 16–19: `PENDIENTE_RECONSTRUCCION`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -49,12 +49,13 @@ opoweb-v2/
 │     ├─ tema-11/
 │     ├─ tema-12/
 │     ├─ tema-13/
-│     └─ tema-14/
+│     ├─ tema-14/
+│     └─ tema-15/
 │        ├─ manual.md
 │        ├─ cinco capítulos
 │        ├─ matriz.json
 │        ├─ aprobacion.md
-│        ├─ articulos.md
+│        ├─ fuentes.md
 │        └─ preguntas.json
 ├─ data/
 │  └─ programa.json
@@ -126,11 +127,15 @@ Administración electrónica y certificados: identificación frente a firma; fir
 
 Ley 40/2015: órganos administrativos, competencia, órganos colegiados, abstención y recusación; estructura central, ministerial, territorial y exterior de la Administración General del Estado. Incluye los artículos 5–24 y 54–80, el artículo 55 bis sobre presencia equilibrada y la delimitación respecto del sector público institucional.
 
-Los bancos de preguntas de los catorce temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
+### Tema 15
+
+Microsoft Windows I: Explorador de archivos; creación, copiado, movimiento, renombrado y borrado; Papelera; unidades locales y de red; rutas UNC y unidades asignadas; impresión, cola y Microsoft Print to PDF; digitalización, resolución, formatos y OCR. Windows 11 es la referencia principal y la trazabilidad se apoya en documentación oficial de Microsoft Support y Microsoft Learn.
+
+Los bancos de preguntas de los quince temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación del manual no autoriza a rellenarlos automáticamente.
 
 ## Criterio de publicación
 
-Un tema debe aportar epígrafe literal, matriz normativa, desarrollo sistemático, fuentes oficiales, trazabilidad y aprobación expresa del usuario. Las pruebas automáticas comprueban integridad, pero no sustituyen la revisión humana.
+Un tema debe aportar epígrafe literal, matriz normativa o técnica, desarrollo sistemático, fuentes oficiales, trazabilidad y aprobación expresa del usuario. Las pruebas automáticas comprueban integridad, pero no sustituyen la revisión humana.
 
 ## Desarrollo local
 
@@ -146,4 +151,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente catorce temas aprobados, cinco pendientes y que los archivos modulares de los temas 11, 12, 13 y 14 permanecen enlazados y disponibles sin conexión.
+La validación confirma que existen exactamente quince temas aprobados, cuatro pendientes y que los archivos modulares de los temas 11, 12, 13, 14 y 15 permanecen enlazados y disponibles sin conexión.

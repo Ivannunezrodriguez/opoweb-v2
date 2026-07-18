@@ -1,0 +1,73 @@
+{
+  "tema": 15,
+  "estado": "APROBADO_USUARIO",
+  "aprobadoEl": "2026-07-18",
+  "epigrafeOficial": "Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
+  "fechaRevisionTecnica": "2026-07-18",
+  "referenciaPrincipal": "Windows 11",
+  "criterioVersion": "Operaciones estables y documentación oficial vigente; Windows 10 se conserva solo cuando la operación es equivalente.",
+  "manual": "content/la-puebla/tema-15/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-15/bloque-01-explorador-rutas.md",
+    "content/la-puebla/tema-15/bloque-02-operaciones-archivos.md",
+    "content/la-puebla/tema-15/bloque-03-unidades-locales-red.md",
+    "content/la-puebla/tema-15/bloque-04-impresion.md",
+    "content/la-puebla/tema-15/bloque-05-digitalizacion.md"
+  ],
+  "trazabilidad": "content/la-puebla/tema-15/fuentes.md",
+  "cobertura": [
+    {
+      "inciso": "Creación de archivos y carpetas",
+      "fuentes": ["Explorador de archivos en Windows", "Métodos abreviados de teclado de Windows"],
+      "secciones": ["Nuevo", "Guardar y Guardar como", "nombres", "extensiones", "rutas", "propiedades"],
+      "contenidoExigible": ["crear en la ubicación correcta", "nombrar", "distinguir archivo, carpeta y acceso directo", "reconocer extensión y formato"]
+    },
+    {
+      "inciso": "Copiado y borrado de archivos y carpetas",
+      "fuentes": ["Explorador de archivos en Windows", "Métodos abreviados de teclado de Windows"],
+      "secciones": ["copiar", "cortar", "pegar", "arrastrar", "renombrar", "Papelera", "restaurar"],
+      "contenidoExigible": ["diferenciar copiar y mover", "resolver conflictos", "conocer límites de Papelera", "identificar permisos y bloqueos"]
+    },
+    {
+      "inciso": "Unidades de disco locales y de red",
+      "fuentes": ["Sistemas de archivos locales", "Uso compartido de archivos a través de una red en Windows", "Proveedor FileSystem"],
+      "secciones": ["volumen", "letra", "ruta local", "ruta UNC", "unidad asignada", "reconectar", "desconectar"],
+      "contenidoExigible": ["distinguir disco, volumen y unidad", "identificar recurso remoto", "comprender permisos, conectividad y credenciales", "extraer dispositivos de forma segura"]
+    },
+    {
+      "inciso": "Impresión de documentos",
+      "fuentes": ["Agregar o instalar una impresora", "Establecer impresora predeterminada", "Ver la cola de impresión", "Imprimir un documento"],
+      "secciones": ["instalación", "predeterminada", "vista previa", "páginas", "copias", "dúplex", "cola", "PDF"],
+      "contenidoExigible": ["configurar y seleccionar impresora", "ajustar opciones", "administrar trabajos", "distinguir impresora física y virtual"]
+    },
+    {
+      "inciso": "Digitalización de documentos",
+      "fuentes": ["Instalar y usar un escáner en Windows"],
+      "secciones": ["instalación", "origen", "resolución", "color", "formato", "destino", "revisión"],
+      "contenidoExigible": ["usar plano o alimentador", "elegir calidad y formato", "comprobar páginas", "distinguir digitalización y OCR"]
+    }
+  ],
+  "atajos": [
+    {"teclas": "Windows + E", "accion": "abrir Explorador"},
+    {"teclas": "Ctrl + Mayús + N", "accion": "crear carpeta"},
+    {"teclas": "Ctrl + C", "accion": "copiar"},
+    {"teclas": "Ctrl + X", "accion": "cortar"},
+    {"teclas": "Ctrl + V", "accion": "pegar"},
+    {"teclas": "F2", "accion": "cambiar nombre"},
+    {"teclas": "Supr", "accion": "eliminar normalmente hacia Papelera"},
+    {"teclas": "Mayús + Supr", "accion": "eliminar sin Papelera"},
+    {"teclas": "Alt + Intro", "accion": "propiedades"},
+    {"teclas": "Ctrl + P", "accion": "imprimir desde aplicaciones compatibles"}
+  ],
+  "exclusionesDelNucleo": [
+    "administración avanzada de discos",
+    "comandos de consola",
+    "permisos NTFS avanzados",
+    "arquitectura SMB",
+    "servidores de impresión",
+    "OCR especializado",
+    "copia auténtica y documento electrónico",
+    "firma electrónica"
+  ],
+  "criterioDeCierre": "Aprobado por revisión humana mediante la expresión Tema 15 aprobado. La aprobación no crea automáticamente preguntas ni supuestos."
+}
