@@ -10,10 +10,13 @@ const programme = json('data/programa.json');
 const packageJson = json('package.json');
 const serviceWorker = read('sw.js');
 const index = read('index.html');
+const practiceHtml = read('practice.html');
+const practiceJs = read('assets/practice.js');
 
 assert.equal(programme.version, '0.19.0');
 assert.equal(packageJson.version, '0.19.0');
-assert.ok(index.includes('v0.19.0'));
+assert.ok(index.includes('v0.20.1'));
+assert.ok(index.includes('href="practice.html"'));
 assert.equal(programme.temas.length, 19);
 
 const approved = programme.temas.filter(t => t.estado === 'APROBADO_USUARIO');
@@ -107,6 +110,14 @@ for (const mock of mockExams.simulacros) {
   assert.equal(coveredThemes.size, 19, `${mock.id} no cubre los 19 temas`);
 }
 
+assert.ok(practiceHtml.includes('id="practice-app"'));
+assert.ok(practiceHtml.includes('src="assets/practice.js"'));
+assert.ok(practiceJs.includes('function renderHub'));
+assert.ok(practiceJs.includes('function renderExercise'));
+assert.ok(practiceJs.includes('function finishExercise'));
+assert.ok(practiceJs.includes('setInterval(updateTimer, 1000)'));
+assert.ok(practiceJs.includes('¡Foco Examen!'));
+
 const tema6 = read('content/la-puebla/tema-06/manual.md');
 assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'));
 assert.ok(tema6.includes('| Programa temporal de interino | Máximo 2 años |'));
@@ -149,9 +160,13 @@ for (const term of [
   assert.ok(joined19.includes(term), `Falta ${term}`);
 }
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.2'"));
-assert.ok(serviceWorker.includes("'./content/la-puebla/supuestos-practicos.json'"));
-assert.ok(serviceWorker.includes("'./content/la-puebla/simulacros.json'"));
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.3'"));
+for (const asset of [
+  './practice.html',
+  './assets/practice.js',
+  './content/la-puebla/supuestos-practicos.json',
+  './content/la-puebla/simulacros.json'
+]) assert.ok(serviceWorker.includes(`'${asset}'`), `No precargado ${asset}`);
 assert.equal(exists('.github/workflows/apply-t19-approval.yml'), false);
 assert.equal(exists('scripts/publish_t19.py'), false);
 
@@ -170,6 +185,7 @@ console.log(JSON.stringify({
   practicalCases: practicalCases.supuestos.length,
   mockExams: mockExams.simulacros.length,
   mockQuestions,
+  interactivePractice: 'VALIDATED',
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_COMPLETA_CON_3_SIMULACROS'
+  status: 'CONVOCATORIA_LA_PUEBLA_INTERACTIVA_COMPLETA'
 }, null, 2));
