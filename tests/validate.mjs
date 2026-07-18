@@ -8,6 +8,8 @@ const programme = json('data/programa.json');
 const packageJson = json('package.json');
 const serviceWorker = read('sw.js');
 const index = read('index.html');
+const app = read('assets/app.js');
+const styles = read('assets/styles.css');
 
 assert.equal(programme.version, '0.19.0');
 assert.equal(packageJson.version, '0.19.0');
@@ -26,64 +28,70 @@ for (const t of approved) {
   assert.ok(exists(t.matriz));
   assert.ok(exists(t.preguntas));
   assert.equal(json(t.matriz).estado, 'APROBADO_USUARIO');
-  assert.deepEqual(json(t.preguntas).preguntas, []);
 }
 
-const t19 = programme.temas[18];
-const base19 = 'content/la-puebla/tema-19';
-const matrix19 = json(`${base19}/matriz.json`);
-const questions19 = json(`${base19}/preguntas.json`);
-assert.equal(t19.capitulos.length, 5);
-assert.equal(t19.aprobadoEl, '2026-07-18');
-assert.equal(t19.aprobacion, `${base19}/aprobacion.md`);
-assert.equal(matrix19.estado, 'APROBADO_USUARIO');
-assert.equal(matrix19.aprobadoEl, '2026-07-18');
-assert.equal(matrix19.cobertura.length, 5);
-assert.equal(matrix19.diferenciasClave.length, 6);
-assert.equal(questions19.estado, 'PENDIENTE_REVISION_POST_APROBACION');
-assert.deepEqual(questions19.preguntas, []);
-assert.ok(read(`${base19}/manual.md`).includes('Tema cerrado: **SÍ**'));
-assert.ok(read(`${base19}/aprobacion.md`).includes('Tema 19 aprobado'));
-assert.ok(read(`${base19}/feedback.md`).includes('APROBADO_USUARIO'));
-assert.ok(read(`${base19}/fuentes.md`).includes('APROBADO POR EL USUARIO'));
+const t1 = programme.temas[0];
+const base1 = 'content/la-puebla/tema-01';
+const questions1 = json(`${base1}/preguntas.json`);
+assert.equal(questions1.tema, 1);
+assert.equal(questions1.tipo, 'TEST_TEMA');
+assert.equal(questions1.estado, 'EN_REVISION_USUARIO');
+assert.equal(questions1.reglas.numeroPreguntas, 12);
+assert.equal(questions1.reglas.opcionesPorPregunta, 4);
+assert.equal(questions1.reglas.unaRespuestaCorrecta, true);
+assert.equal(questions1.preguntas.length, 12);
+assert.ok(exists(`${base1}/revision-preguntas.md`));
+assert.ok(read(`${base1}/revision-preguntas.md`).includes('Preguntas del Tema 1 aprobadas'));
 
-const files19 = [
-  'manual.md','matriz.json','aprobacion.md','feedback.md','preguntas.json','fuentes.md',
-  'bloque-01-ordenador-componentes.md','bloque-02-perifericos-impresoras.md',
-  'bloque-03-escaneres.md','bloque-04-almacenamiento-externo-usb.md',
-  'bloque-05-opticos.md'
-];
-for (const file of files19) {
-  assert.ok(exists(`${base19}/${file}`), `Falta ${file}`);
-  assert.ok(serviceWorker.includes(`./${base19}/${file}`), `No precargado ${file}`);
+const ids = new Set();
+const correctPositions = new Set();
+for (const question of questions1.preguntas) {
+  assert.match(question.id, /^LP-T01-\d{3}$/);
+  assert.equal(ids.has(question.id), false, `ID duplicado: ${question.id}`);
+  ids.add(question.id);
+  assert.ok(['basica', 'intermedia', 'alta'].includes(question.dificultad));
+  assert.ok(question.enunciado.length >= 20);
+  assert.equal(question.opciones.length, 4);
+  assert.deepEqual(question.opciones.map(option => option.id), ['A', 'B', 'C', 'D']);
+  assert.ok(['A', 'B', 'C', 'D'].includes(question.correcta));
+  correctPositions.add(question.correcta);
+  assert.ok(question.justificacion.length >= 40);
+  assert.ok(question.fuente?.norma);
+  assert.ok(question.fuente?.articulos);
+  assert.ok(question.fuente?.manual);
+}
+assert.ok(correctPositions.size >= 3, 'Las respuestas correctas deben variar de posición');
+
+for (const t of programme.temas.slice(1)) {
+  assert.deepEqual(json(t.preguntas).preguntas, [], `El Tema ${t.numero} no debe recibir preguntas todavía`);
 }
 
-const joined19 = files19.filter(f => f.endsWith('.md')).map(f => read(`${base19}/${f}`)).join('\n').toLowerCase();
-for (const term of [
-  'hardware','software','firmware','controlador','placa base','cpu','memoria ram','hdd','ssd',
-  'usb-c','partición','volumen','impresora','inyección de tinta','tóner','cola','escáner',
-  'alimentador automático','resolución óptica','ocr','fat32','exfat','ntfs','expulsión segura',
-  'cd-rom','cd-r','cd-rw','dvd-rom','dvd-rw','lector','grabador'
+for (const required of [
+  'renderQuestionnaire', 'correctQuestionnaire', 'Test en revisión',
+  'Respuesta correcta', 'questionSource', 'aria-live'
 ]) {
-  assert.ok(joined19.includes(term), `Falta ${term}`);
+  assert.ok(app.includes(required), `Falta función o texto del motor: ${required}`);
 }
-for (const source of [
-  'Requisitos del sistema de Windows 11','How to Build a Gaming PC','USB Type-C Cable and Connector Specification',
-  'Quitar hardware de forma segura en Windows','Agregar o instalar una impresora en Windows',
-  'Instalar y usar un escáner en Windows','Grabar y copiar CD'
-]) {
-  assert.ok(read(`${base19}/fuentes.md`).includes(source), `Falta fuente ${source}`);
+for (const required of ['.question-card', '.test-option.correct', '.test-option.incorrect', '.test-result.passed']) {
+  assert.ok(styles.includes(required), `Falta estilo del motor: ${required}`);
 }
 
+const articleCoverage = questions1.preguntas.map(question => question.fuente.articulos).join(' ');
+for (const article of ['166', '167.1', '167.2', '167.3', '168.1', '17.2', '21.2', '53.2', '53.3', '55.1']) {
+  assert.ok(articleCoverage.includes(article), `Falta trazabilidad del artículo ${article}`);
+}
+
+assert.ok(serviceWorker.includes(`./${base1}/preguntas.json`));
 assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.19.0'"));
-assert.equal(exists('.github/workflows/apply-t19-approval.yml'), false);
-assert.equal(exists('scripts/publish_t19.py'), false);
+assert.equal(exists('.github/workflows/apply-t01-questions.yml'), false);
+assert.equal(exists('scripts/apply_t01_questions.py'), false);
 
 console.log(JSON.stringify({
   version: programme.version,
-  approved: approved.length,
-  review: review.length,
-  pending: pending.length,
-  theme19Questions: questions19.preguntas.length,
-  status: 'CONVOCATORIA_LA_PUEBLA_APROBADA_VALIDADA'
+  theoreticalThemesApproved: approved.length,
+  questionBankInReview: 1,
+  theme1Questions: questions1.preguntas.length,
+  uniqueQuestionIds: ids.size,
+  correctAnswerPositions: [...correctPositions],
+  status: 'PREGUNTAS_TEMA_01_EN_REVISION_VALIDADO'
 }, null, 2));
