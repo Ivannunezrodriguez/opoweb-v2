@@ -1,7 +1,7 @@
 # La Puebla de Montalbán · Tema 13 · Manual modular
 
-**Estado:** EN REVISIÓN DEL USUARIO  
-**No publicado como tema aprobado.**  
+**Estado:** APROBADO POR EL USUARIO  
+**Publicado como tema aprobado.**  
 **Fecha de revisión normativa:** 18 de julio de 2026.
 
 > **Tema 13. Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.**
@@ -27,7 +27,7 @@ La Ley 59/2003 de firma electrónica está derogada. La terminología vigente es
 4. [Prestadores, autoridades certificadoras y servicios de confianza](bloque-04-prestadores-servicios.md)
 5. [Certificados y sistemas propios de las Administraciones públicas](bloque-05-administraciones.md)
 6. [Trazabilidad normativa](articulos.md)
-7. [Informe para revisión](feedback.md)
+7. [Informe de revisión cerrado](feedback.md)
 
 ## 3. Qué es un certificado electrónico
 
@@ -181,8 +181,8 @@ No se desarrolla de forma completa:
 - Cinco bloques: preparados.
 - Matriz y trazabilidad: documentos separados.
 - Banco de preguntas: vacío.
-- Revisión del usuario: pendiente.
-- Tema cerrado: **NO**.
-- Publicación como aprobado: **NO**.
+- Revisión del usuario: aprobada el 18 de julio de 2026.
+- Tema cerrado: **SÍ, aprobado por el usuario**.
+- Publicación como aprobado: **SÍ**.
 
-El tema solo cambiará a `APROBADO_USUARIO` tras la respuesta expresa **«Tema 13 aprobado»**.
+Frase de aprobación registrada: **«Tema 13 aprobado»**.
