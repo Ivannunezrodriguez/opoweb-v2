@@ -15,7 +15,7 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 - Programa oficial: **19 temas**.
 - Temas 1–11: `APROBADO_USUARIO` el 17 de julio de 2026.
 - Temas 12–18: `APROBADO_USUARIO` el 18 de julio de 2026.
-- Tema 19: `PENDIENTE_RECONSTRUCCION`.
+- Tema 19: `EN_REVISION_USUARIO`.
 - Preguntas heredadas: **0**.
 - Resúmenes heredados: **0**.
 - Porcentajes históricos de completitud: **eliminados**.
@@ -53,7 +53,8 @@ opoweb-v2/
 │     ├─ tema-15/
 │     ├─ tema-16/
 │     ├─ tema-17/
-│     └─ tema-18/
+│     ├─ tema-18/
+│     └─ tema-19/
 │        ├─ manual.md
 │        ├─ cinco capítulos
 │        ├─ matriz.json
@@ -166,4 +167,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que existen exactamente dieciocho temas aprobados, un tema pendiente y que los archivos modulares de los temas 11, 12, 13, 14, 15, 16, 17 y 18 permanecen enlazados y disponibles sin conexión.
+La validación confirma que existen exactamente dieciocho temas aprobados y el Tema 19 en revisión; los archivos aprobados permanecen disponibles sin conexión y el Tema 19 no se precarga hasta su aprobación.

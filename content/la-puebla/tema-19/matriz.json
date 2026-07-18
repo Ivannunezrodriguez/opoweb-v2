@@ -1,0 +1,186 @@
+{
+  "tema": 19,
+  "estado": "EN_REVISION_USUARIO",
+  "epigrafeOficial": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
+  "fechaRevisionTecnica": "2026-07-18",
+  "criterioAdaptacionTecnica": "La matriz reglamentaria inciso → norma → artículos se adapta a inciso → norma técnica o documentación oficial → secciones → contenido exigible, porque el epígrafe es tecnológico y no remite a una ley.",
+  "cobertura": [
+    {
+      "inciso": "Conceptos generales del ordenador personal",
+      "normaTecnicaODocumentacion": [
+        "Requisitos del sistema de Windows 11",
+        "How to Build a Gaming PC — Intel"
+      ],
+      "articulosOSecciones": [
+        "CPU",
+        "RAM",
+        "almacenamiento",
+        "firmware",
+        "componentes del sistema"
+      ],
+      "contenidoExigible": [
+        "hardware y software",
+        "entrada, proceso, almacenamiento, salida y comunicación",
+        "firmware y controladores"
+      ]
+    },
+    {
+      "inciso": "El ordenador personal y sus componentes más comunes",
+      "normaTecnicaODocumentacion": [
+        "Intel PC Parts Guide",
+        "Intel RAM Guide",
+        "Microsoft Disk Management"
+      ],
+      "articulosOSecciones": [
+        "placa base",
+        "CPU",
+        "RAM",
+        "HDD",
+        "SSD",
+        "GPU",
+        "fuente",
+        "refrigeración",
+        "particiones"
+      ],
+      "contenidoExigible": [
+        "función y relación de componentes",
+        "RAM frente a almacenamiento",
+        "disco, partición, volumen y letra"
+      ]
+    },
+    {
+      "inciso": "Periféricos del ordenador personal. Impresoras y escáneres",
+      "normaTecnicaODocumentacion": [
+        "Microsoft Support: impresoras",
+        "Microsoft Support: escáneres",
+        "documentación técnica HP y Epson"
+      ],
+      "articulosOSecciones": [
+        "instalación local y de red",
+        "drivers",
+        "cola",
+        "inyección y láser",
+        "ADF",
+        "resolución",
+        "OCR"
+      ],
+      "contenidoExigible": [
+        "clasificar periféricos",
+        "instalar y seleccionar dispositivos",
+        "distinguir tinta y tóner",
+        "distinguir escaneo y OCR"
+      ]
+    },
+    {
+      "inciso": "Discos duros externos y memorias USB",
+      "normaTecnicaODocumentacion": [
+        "Microsoft Disk Management",
+        "Quitar hardware de forma segura",
+        "Media removal policy",
+        "USB-IF Type-C"
+      ],
+      "articulosOSecciones": [
+        "HDD y SSD",
+        "flash",
+        "conectores",
+        "volúmenes",
+        "sistemas de archivos",
+        "caché",
+        "expulsión"
+      ],
+      "contenidoExigible": [
+        "distinguir HDD, SSD y memoria USB",
+        "formatear con criterio",
+        "reconocer USB-C como conector",
+        "expulsar con seguridad",
+        "proteger datos"
+      ]
+    },
+    {
+      "inciso": "Lectores y grabadores de CD y DVD",
+      "normaTecnicaODocumentacion": [
+        "Microsoft Support: Grabar y copiar CD"
+      ],
+      "articulosOSecciones": [
+        "lector",
+        "grabador",
+        "CD de audio",
+        "CD de datos",
+        "DVD de datos",
+        "grabación y copia"
+      ],
+      "contenidoExigible": [
+        "distinguir ROM, R y RW",
+        "distinguir audio y datos",
+        "distinguir leer, grabar y extraer",
+        "comprender sesiones y compatibilidad"
+      ]
+    }
+  ],
+  "diferenciasClave": [
+    {
+      "materia": "memoria",
+      "opcionA": "RAM: volátil y de trabajo",
+      "opcionB": "HDD/SSD: no volátil y de almacenamiento"
+    },
+    {
+      "materia": "USB",
+      "opcionA": "USB-C: forma de conector",
+      "opcionB": "USB 2/3/USB4: prestaciones del enlace"
+    },
+    {
+      "materia": "almacenamiento",
+      "opcionA": "disco físico",
+      "opcionB": "partición, volumen o letra lógica"
+    },
+    {
+      "materia": "impresión",
+      "opcionA": "dispositivo físico",
+      "opcionB": "cola o impresora virtual"
+    },
+    {
+      "materia": "digitalización",
+      "opcionA": "escáner produce imagen",
+      "opcionB": "OCR reconoce texto"
+    },
+    {
+      "materia": "óptico",
+      "opcionA": "lector",
+      "opcionB": "grabador"
+    }
+  ],
+  "materiaObligatoria": [
+    "componentes principales",
+    "RAM frente a almacenamiento",
+    "periféricos",
+    "impresoras de inyección y láser",
+    "escáner plano y ADF",
+    "HDD externo, SSD externo y memoria USB",
+    "lector y grabador",
+    "CD/DVD ROM, R y RW"
+  ],
+  "complementoImprescindible": [
+    "UEFI y arranque",
+    "particiones y sistemas de archivos",
+    "USB-C frente a protocolo",
+    "cola de impresión",
+    "resolución óptica y OCR",
+    "caché y expulsión segura"
+  ],
+  "ampliacionUtil": [
+    "DIMM y SO-DIMM",
+    "SATA y NVMe",
+    "CCD y CIS",
+    "WIA y TWAIN",
+    "ISO 9660 y UDF",
+    "cifrado de unidades"
+  ],
+  "fueraDelNucleo": [
+    "montaje profesional",
+    "overclocking",
+    "RAID empresarial",
+    "recuperación forense",
+    "duplicación industrial"
+  ],
+  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 19 aprobado. No se aprueba por extensión ni por validación automática."
+}

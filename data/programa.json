@@ -290,7 +290,19 @@
     {
       "numero": 19,
       "titulo": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
-      "estado": "PENDIENTE_RECONSTRUCCION"
+      "estado": "EN_REVISION_USUARIO",
+      "manual": "content/la-puebla/tema-19/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-19/bloque-01-ordenador-componentes.md",
+        "content/la-puebla/tema-19/bloque-02-perifericos-impresoras.md",
+        "content/la-puebla/tema-19/bloque-03-escaneres.md",
+        "content/la-puebla/tema-19/bloque-04-almacenamiento-externo-usb.md",
+        "content/la-puebla/tema-19/bloque-05-opticos.md"
+      ],
+      "matriz": "content/la-puebla/tema-19/matriz.json",
+      "feedback": "content/la-puebla/tema-19/feedback.md",
+      "preguntas": "content/la-puebla/tema-19/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-19/fuentes.md"
     }
   ]
 }
