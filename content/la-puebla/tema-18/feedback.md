@@ -75,7 +75,7 @@ Revisa especialmente:
 2. si queda clara la diferencia entre valor y formato;
 3. si comprendes `.xlsx`, `.xlsm`, `.ods` y `.csv`;
 4. si distingues borrar contenido y eliminar celdas;
-5. si comprendes referencia relativa, absoluta y mixta;
+5. si comprendes una referencia relativa, una referencia absoluta y una referencia mixta;
 6. si sabes por qué se utiliza `$A$1`;
 7. si distingues formato visual y función REDONDEAR;
 8. si comprendes errores como `#¡REF!` y `#####`;
