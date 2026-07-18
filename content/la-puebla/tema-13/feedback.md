@@ -1,10 +1,10 @@
-# Tema 13 · Informe para revisión del usuario
+# Tema 13 · Informe de revisión cerrado
 
 ## Estado
 
-`EN_REVISION_USUARIO`
+`APROBADO_USUARIO`
 
-El tema no está publicado como aprobado. El banco de preguntas permanece vacío.
+El tema está aprobado y publicado. El banco de preguntas permanece vacío hasta una revisión específica y trazable.
 
 ## Epígrafe oficial
 
@@ -106,28 +106,25 @@ No se desarrollan íntegramente:
 - infracciones y sanciones;
 - prueba procesal privada.
 
-## Comprobaciones solicitadas
+## Comprobaciones superadas
 
-Revisa especialmente:
-
-1. si queda clara la diferencia certificado-firma;
-2. si identificas cuándo basta identificación y cuándo se exige firma;
-3. si distingues firma de representante y sello de entidad;
-4. si entiendes qué hace el certificado de sede;
-5. si puedes clasificar los certificados por función y por soporte;
-6. si diferencias memoria USB y token criptográfico;
-7. si entiendes la firma remota;
-8. si distingues CA, RA, prestador, supervisor y TSL;
-9. si recuerdas los servicios de confianza principales;
-10. si queda claro que el CSV no es certificado;
-11. si las cifras 5 años, 15 años, 24 meses y 24 horas están justificadas;
-12. si algún bloque necesita mayor profundidad.
+1. Diferencia entre certificado y firma.
+2. Identificación frente a trámites que exigen firma.
+3. Firma de representante frente a sello de entidad.
+4. Función del certificado de sede.
+5. Clasificación por función y por soporte.
+6. Diferencia entre memoria USB y token criptográfico.
+7. Firma remota.
+8. Diferencia entre CA, RA, prestador, supervisor y TSL.
+9. Servicios de confianza principales.
+10. El CSV no es un certificado.
+11. Cifras de 5 años, 15 años, 24 meses y 24 horas.
+12. Profundidad suficiente para el epígrafe oficial.
 
 ## Cierre
 
-La respuesta debe ser una de estas:
+Aprobación registrada el **18 de julio de 2026** mediante la frase:
 
-- **«Tema 13 aprobado»**
-- **«Tema 13: cambia o amplía…»**
+> **«Tema 13 aprobado»**
 
-No se fusionará mientras permanezca en `EN_REVISION_USUARIO`.
+El tema queda cerrado y publicado como `APROBADO_USUARIO`.
