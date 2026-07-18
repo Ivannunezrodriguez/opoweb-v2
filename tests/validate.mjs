@@ -12,11 +12,13 @@ const serviceWorker = read('sw.js');
 const index = read('index.html');
 const practiceHtml = read('practice.html');
 const practiceJs = read('assets/practice.js');
+const themeTestLinkJs = read('assets/theme-test-link.js');
 
 assert.equal(programme.version, '0.19.0');
-assert.equal(packageJson.version, '0.20.4');
-assert.ok(index.includes('v0.20.4'));
+assert.equal(packageJson.version, '0.20.5');
+assert.ok(index.includes('v0.20.5'));
 assert.ok(index.includes('href="practice.html"'));
+assert.ok(index.includes('assets/theme-test-link.js'));
 assert.equal(programme.temas.length, 19);
 
 const approved = programme.temas.filter(t => t.estado === 'APROBADO_USUARIO');
@@ -113,11 +115,18 @@ for (const mock of mockExams.simulacros) {
 assert.ok(exists('practice.html'));
 assert.ok(exists('assets/practice.js'));
 assert.ok(exists('assets/practice-progress.css'));
+assert.ok(exists('assets/theme-test-link.js'));
 assert.ok(practiceHtml.includes('assets/practice-progress.css'));
 assert.ok(practiceJs.includes("const PROGRESS_KEY = 'opoweb-la-puebla-practice-progress-v1'"));
 assert.ok(practiceJs.includes('localStorage.setItem(PROGRESS_KEY'));
 assert.ok(practiceJs.includes('saveAttempt({'));
 assert.ok(practiceJs.includes('Borrar historial'));
+assert.ok(practiceJs.includes('Test por tema'));
+assert.ok(practiceJs.includes('data-theme-test'));
+assert.ok(practiceJs.includes('practice.html?tema='));
+assert.ok(practiceJs.includes("type: metadata.type"));
+assert.ok(themeTestLinkJs.includes('Hacer test del tema'));
+assert.ok(themeTestLinkJs.includes('practice.html?tema=${number}'));
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
 assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'));
@@ -161,8 +170,9 @@ for (const term of [
   assert.ok(joined19.includes(term), `Falta ${term}`);
 }
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.4'"));
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.5'"));
 assert.ok(serviceWorker.includes("'./practice.html'"));
+assert.ok(serviceWorker.includes("'./assets/theme-test-link.js'"));
 assert.ok(serviceWorker.includes("'./assets/practice-progress.css'"));
 assert.ok(serviceWorker.includes("'./content/la-puebla/supuestos-practicos.json'"));
 assert.ok(serviceWorker.includes("'./content/la-puebla/simulacros.json'"));
@@ -185,7 +195,8 @@ console.log(JSON.stringify({
   practicalCases: practicalCases.supuestos.length,
   mockExams: mockExams.simulacros.length,
   mockQuestions,
+  thematicTests: programme.temas.length,
   localProgress: 'VALIDATED',
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_COMPLETA_CON_PROGRESO_LOCAL'
+  status: 'CONVOCATORIA_LA_PUEBLA_COMPLETA_CON_TESTS_POR_TEMA'
 }, null, 2));
