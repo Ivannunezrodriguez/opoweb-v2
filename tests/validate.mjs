@@ -71,6 +71,25 @@ const generatedBanks = Array.from({ length: 19 }, (_, index) => {
   return validateQuestionBank(tema, `LP-T${String(tema).padStart(2, '0')}`);
 });
 
+const practicalCases = json('content/la-puebla/supuestos-practicos.json');
+assert.equal(practicalCases.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
+assert.equal(practicalCases.supuestos.length, 20);
+assert.deepEqual(
+  practicalCases.supuestos.map(s => s.id),
+  Array.from({ length: 20 }, (_, i) => `LP-SP-${String(i + 1).padStart(2, '0')}`)
+);
+for (const practicalCase of practicalCases.supuestos) {
+  assert.ok(practicalCase.titulo.length > 5, `${practicalCase.id} carece de título`);
+  assert.ok(Array.isArray(practicalCase.temas) && practicalCase.temas.length > 0, `${practicalCase.id} carece de temas`);
+  assert.ok(practicalCase.enunciado.length > 60, `${practicalCase.id} tiene enunciado insuficiente`);
+  assert.equal(practicalCase.opciones.length, 4, `${practicalCase.id} no tiene cuatro opciones`);
+  assert.ok(Number.isInteger(practicalCase.respuestaCorrecta), `${practicalCase.id} carece de respuesta correcta`);
+  assert.ok(practicalCase.respuestaCorrecta >= 0 && practicalCase.respuestaCorrecta < 4, `${practicalCase.id} tiene índice incorrecto`);
+  assert.ok(practicalCase.justificacion.length > 40, `${practicalCase.id} tiene justificación insuficiente`);
+  assert.ok(practicalCase.trampaExamen.length > 25, `${practicalCase.id} carece de trampa de examen`);
+  assert.ok(exists(practicalCase.referencia), `${practicalCase.id} referencia un archivo inexistente`);
+}
+
 const tema6 = read('content/la-puebla/tema-06/manual.md');
 assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'));
 assert.ok(tema6.includes('| Programa temporal de interino | Máximo 2 años |'));
@@ -113,7 +132,8 @@ for (const term of [
   assert.ok(joined19.includes(term), `Falta ${term}`);
 }
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.19.0'"));
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.1'"));
+assert.ok(serviceWorker.includes("'./content/la-puebla/supuestos-practicos.json'"));
 assert.equal(exists('.github/workflows/apply-t19-approval.yml'), false);
 assert.equal(exists('scripts/publish_t19.py'), false);
 
@@ -128,6 +148,7 @@ console.log(JSON.stringify({
   internalLinks: 'VALIDATED',
   generatedThemes: generatedBanks.length,
   generatedQuestions,
+  practicalCases: practicalCases.supuestos.length,
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_19_TEST_GENERADOS'
+  status: 'CONVOCATORIA_LA_PUEBLA_TESTS_Y_20_SUPUESTOS_GENERADOS'
 }, null, 2));
