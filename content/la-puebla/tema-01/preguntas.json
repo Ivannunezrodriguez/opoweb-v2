@@ -1,6 +1,183 @@
 {
   "tema": 1,
-  "estado": "PENDIENTE_REVISION",
-  "nota": "No se migran automáticamente bancos de preguntas del repositorio legado. Las preguntas se incorporarán tras revisión específica de trazabilidad y calidad.",
-  "preguntas": []
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T01-001",
+      "enunciado": "¿En qué fecha fue ratificada en referéndum la Constitución española de 1978?",
+      "opciones": [
+        "31 de octubre de 1978",
+        "6 de diciembre de 1978",
+        "27 de diciembre de 1978",
+        "29 de diciembre de 1978"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Constitución fue aprobada por las Cortes el 31 de octubre, ratificada en referéndum el 6 de diciembre, sancionada por el Rey el 27 de diciembre y publicada y entrada en vigor el 29 de diciembre de 1978.",
+      "trampaExamen": "No confundir aprobación parlamentaria, referéndum, sanción real y publicación/entrada en vigor.",
+      "referencia": "manual.md · apartado 3 · Naturaleza y vigencia"
+    },
+    {
+      "id": "LP-T01-002",
+      "enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente la estructura formal de la Constitución?",
+      "opciones": [
+        "Preámbulo, Título Preliminar, diez títulos numerados y 169 artículos",
+        "Preámbulo, once títulos numerados y 170 artículos",
+        "Título Preliminar, nueve títulos numerados y 169 artículos",
+        "Preámbulo, Título Preliminar, diez títulos numerados y 168 artículos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La Constitución contiene un Preámbulo, un Título Preliminar, diez títulos numerados del I al X y 169 artículos, además de disposiciones adicionales, transitorias, derogatoria y final.",
+      "trampaExamen": "El Título Preliminar no se cuenta entre los diez títulos numerados.",
+      "referencia": "manual.md · apartado 4 · Estructura formal completa"
+    },
+    {
+      "id": "LP-T01-003",
+      "enunciado": "Hasta julio de 2026, ¿cuántas reformas constitucionales se han aprobado?",
+      "opciones": [
+        "Dos",
+        "Tres",
+        "Cuatro",
+        "Cinco"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Se han aprobado cuatro reformas: artículo 13.2 en 1992, artículo 135 en 2011, artículo 49 en 2024 y artículo 69.3 en 2026.",
+      "trampaExamen": "No confundir número de reformas con número de artículos constitucionales modificados.",
+      "referencia": "manual.md · apartado 4.4 · Reformas constitucionales hasta julio de 2026"
+    },
+    {
+      "id": "LP-T01-004",
+      "enunciado": "¿Quién queda excluido de la iniciativa de reforma constitucional del artículo 166?",
+      "opciones": [
+        "El Gobierno",
+        "El Senado",
+        "Las Asambleas de las Comunidades Autónomas",
+        "La iniciativa legislativa popular"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 166 remite únicamente a los apartados 1 y 2 del artículo 87, no al apartado 3, que regula la iniciativa legislativa popular.",
+      "trampaExamen": "La iniciativa popular existe para leyes en ciertos términos, pero no para iniciar una reforma constitucional.",
+      "referencia": "manual.md · apartado 5 · Artículo 166"
+    },
+    {
+      "id": "LP-T01-005",
+      "enunciado": "En el procedimiento ordinario del artículo 167, la regla principal exige aprobar la reforma por:",
+      "opciones": [
+        "Mayoría absoluta del Congreso y del Senado",
+        "Tres quintos de cada Cámara",
+        "Dos tercios del Congreso y mayoría simple del Senado",
+        "Dos tercios de cada Cámara"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La regla principal del procedimiento ordinario exige tres quintos de cada Cámara. La combinación mayoría absoluta del Senado y dos tercios del Congreso es una vía subsidiaria tras fracasar el acuerdo.",
+      "trampaExamen": "La mayoría de dos tercios no es la regla inicial del artículo 167.",
+      "referencia": "manual.md · apartado 6 · Artículo 167"
+    },
+    {
+      "id": "LP-T01-006",
+      "enunciado": "En una reforma tramitada por el artículo 167, el referéndum se celebra cuando lo solicita:",
+      "opciones": [
+        "La mayoría absoluta del Congreso dentro de los treinta días siguientes",
+        "Una décima parte de los miembros de cualquiera de las Cámaras dentro de los quince días siguientes",
+        "El Gobierno dentro de los quince días siguientes",
+        "Una quinta parte de ambas Cámaras dentro de los diez días siguientes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El referéndum del artículo 167 es facultativo y debe solicitarlo una décima parte de los miembros de cualquiera de las Cámaras dentro de los quince días siguientes a la aprobación.",
+      "trampaExamen": "En el artículo 167 el referéndum no es automático; en el artículo 168 sí es obligatorio.",
+      "referencia": "manual.md · apartado 6.4 · Referéndum"
+    },
+    {
+      "id": "LP-T01-007",
+      "enunciado": "¿Qué materia activa el procedimiento agravado del artículo 168?",
+      "opciones": [
+        "La reforma del artículo 14 por su mera pertenencia al Título I",
+        "La reforma de cualquier artículo del Título VIII",
+        "La reforma parcial que afecte a los artículos 15 a 29",
+        "Toda reforma que afecte a derechos de los ciudadanos de los artículos 30 a 38"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 168 se aplica a la revisión total y a reformas parciales que afecten al Título Preliminar, a la Sección 1.ª del Capítulo II del Título I —artículos 15 a 29— o al Título II.",
+      "trampaExamen": "No todo el Título I está sometido automáticamente al procedimiento agravado.",
+      "referencia": "manual.md · apartado 7 · Artículo 168"
+    },
+    {
+      "id": "LP-T01-008",
+      "enunciado": "Según el artículo 169, no puede iniciarse la reforma constitucional:",
+      "opciones": [
+        "Durante el periodo electoral municipal",
+        "Durante la vigencia de los estados de alarma, excepción o sitio, o en tiempo de guerra",
+        "Mientras exista un Gobierno en funciones",
+        "Durante los quince días posteriores a la aprobación de una ley orgánica"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 169 impide iniciar la reforma en tiempo de guerra o durante la vigencia de cualquiera de los estados del artículo 116: alarma, excepción o sitio.",
+      "trampaExamen": "El tenor literal prohíbe iniciar la reforma; no utiliza la expresión general «tramitar».",
+      "referencia": "manual.md · apartado 8 · Artículo 169"
+    },
+    {
+      "id": "LP-T01-009",
+      "enunciado": "¿Cuál es el límite constitucional máximo de la detención preventiva?",
+      "opciones": [
+        "Veinticuatro horas",
+        "Cuarenta y ocho horas",
+        "Setenta y dos horas",
+        "Cinco días"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La detención preventiva debe durar solo el tiempo estrictamente necesario y, en todo caso, la persona debe quedar en libertad o a disposición judicial en un máximo de setenta y dos horas.",
+      "trampaExamen": "No confundir detención preventiva con prisión provisional, que es una medida judicial regulada por ley.",
+      "referencia": "manual.md · apartado 17 · Artículo 17"
+    },
+    {
+      "id": "LP-T01-010",
+      "enunciado": "¿Cuál de las siguientes permite entrar o registrar un domicilio sin consentimiento del titular ni resolución judicial?",
+      "opciones": [
+        "Una denuncia anónima",
+        "Una orden administrativa",
+        "La existencia de delito flagrante",
+        "La sospecha policial no documentada"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 18.2 permite la entrada o registro domiciliario con consentimiento del titular, resolución judicial o en caso de delito flagrante.",
+      "trampaExamen": "El delito flagrante es excepción expresa para el domicilio, no para levantar por sí solo el secreto de las comunicaciones.",
+      "referencia": "manual.md · apartado 18.2 · Inviolabilidad del domicilio"
+    },
+    {
+      "id": "LP-T01-011",
+      "enunciado": "¿Qué derechos disfrutan de tutela ante los tribunales ordinarios mediante un procedimiento basado en preferencia y sumariedad y, en su caso, recurso de amparo?",
+      "opciones": [
+        "Todos los principios rectores de los artículos 39 a 52",
+        "Únicamente los derechos patrimoniales de los artículos 31 a 38",
+        "El artículo 14 y los derechos de la Sección 1.ª del Capítulo II",
+        "Todos los derechos del Título I sin distinción"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La protección reforzada del artículo 53.2 alcanza al artículo 14 y a los derechos reconocidos en la Sección 1.ª del Capítulo II, con tutela preferente y sumaria y recurso de amparo en los términos legales.",
+      "trampaExamen": "El artículo 14 está fuera de la Sección 1.ª, pero recibe expresamente la misma tutela reforzada.",
+      "referencia": "matriz.json · inciso Garantía · artículos 53-54 CE"
+    },
+    {
+      "id": "LP-T01-012",
+      "enunciado": "Durante el estado de excepción o de sitio, ¿cuál de los siguientes derechos puede ser suspendido en los términos del artículo 55.1?",
+      "opciones": [
+        "El derecho a la vida del artículo 15",
+        "La libertad y seguridad del artículo 17",
+        "El derecho a la educación del artículo 27",
+        "El derecho a contraer matrimonio del artículo 32"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 55.1 permite suspender determinados derechos, entre ellos los del artículo 17, durante los estados de excepción o sitio, con las condiciones constitucionales y legales correspondientes.",
+      "trampaExamen": "El estado de alarma no habilita la suspensión general de derechos del artículo 55.1.",
+      "referencia": "matriz.json · inciso Suspensión · artículo 55 CE y LO 4/1981"
+    }
+  ]
 }
