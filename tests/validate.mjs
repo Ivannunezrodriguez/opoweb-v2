@@ -71,6 +71,8 @@ const generatedBanks = Array.from({ length: 19 }, (_, index) => {
   return validateQuestionBank(tema, `LP-T${String(tema).padStart(2, '0')}`);
 });
 
+const allQuestionIds = new Set(generatedBanks.flatMap(bank => bank.preguntas.map(q => q.id)));
+
 const practicalCases = json('content/la-puebla/supuestos-practicos.json');
 assert.equal(practicalCases.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
 assert.equal(practicalCases.supuestos.length, 20);
@@ -88,6 +90,21 @@ for (const practicalCase of practicalCases.supuestos) {
   assert.ok(practicalCase.justificacion.length > 40, `${practicalCase.id} tiene justificación insuficiente`);
   assert.ok(practicalCase.trampaExamen.length > 25, `${practicalCase.id} carece de trampa de examen`);
   assert.ok(exists(practicalCase.referencia), `${practicalCase.id} referencia un archivo inexistente`);
+}
+
+const mockExams = json('content/la-puebla/simulacros.json');
+assert.equal(mockExams.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
+assert.equal(mockExams.simulacros.length, 3);
+assert.deepEqual(mockExams.simulacros.map(s => s.id), ['LP-SIM-01', 'LP-SIM-02', 'LP-SIM-03']);
+for (const mock of mockExams.simulacros) {
+  assert.equal(mock.duracionMinutos, 45, `${mock.id} tiene duración incorrecta`);
+  assert.equal(mock.preguntas.length, 30, `${mock.id} no contiene 30 preguntas`);
+  assert.equal(new Set(mock.preguntas).size, 30, `${mock.id} repite preguntas`);
+  for (const questionId of mock.preguntas) {
+    assert.ok(allQuestionIds.has(questionId), `${mock.id} referencia una pregunta inexistente: ${questionId}`);
+  }
+  const coveredThemes = new Set(mock.preguntas.map(id => id.slice(4, 6)));
+  assert.equal(coveredThemes.size, 19, `${mock.id} no cubre los 19 temas`);
 }
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
@@ -132,12 +149,14 @@ for (const term of [
   assert.ok(joined19.includes(term), `Falta ${term}`);
 }
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.1'"));
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.2'"));
 assert.ok(serviceWorker.includes("'./content/la-puebla/supuestos-practicos.json'"));
+assert.ok(serviceWorker.includes("'./content/la-puebla/simulacros.json'"));
 assert.equal(exists('.github/workflows/apply-t19-approval.yml'), false);
 assert.equal(exists('scripts/publish_t19.py'), false);
 
 const generatedQuestions = generatedBanks.reduce((total, bank) => total + bank.preguntas.length, 0);
+const mockQuestions = mockExams.simulacros.reduce((total, mock) => total + mock.preguntas.length, 0);
 
 console.log(JSON.stringify({
   version: programme.version,
@@ -149,6 +168,8 @@ console.log(JSON.stringify({
   generatedThemes: generatedBanks.length,
   generatedQuestions,
   practicalCases: practicalCases.supuestos.length,
+  mockExams: mockExams.simulacros.length,
+  mockQuestions,
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_TESTS_Y_20_SUPUESTOS_GENERADOS'
+  status: 'CONVOCATORIA_LA_PUEBLA_COMPLETA_CON_3_SIMULACROS'
 }, null, 2));
