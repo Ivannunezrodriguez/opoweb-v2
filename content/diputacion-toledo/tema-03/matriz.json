@@ -1,0 +1,25 @@
+{
+  "tema": 3,
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "estado": "EN_REVISION_USUARIO",
+  "metodo": "GENERACION_DESDE_CERO",
+  "epigrafeOficial": "La organización del Estado en la Constitución: organización institucional y organización territorial. La Jefatura del Estado: la Corona. Las Cortes Generales. Referencia al Defensor del Pueblo y al Tribunal de Cuentas.",
+  "cobertura": [
+    {"apartado":"Organización institucional","estado":"CUBIERTO","referencia":"manual.md#2-organización-constitucional-del-estado"},
+    {"apartado":"Organización territorial","estado":"CUBIERTO","referencia":"manual.md#4-organización-territorial-del-estado"},
+    {"apartado":"Corona","estado":"CUBIERTO","referencia":"manual.md#5-la-corona"},
+    {"apartado":"Cortes Generales","estado":"CUBIERTO","referencia":"manual.md#6-las-cortes-generales"},
+    {"apartado":"Defensor del Pueblo","estado":"CUBIERTO","referencia":"manual.md#7-defensor-del-pueblo"},
+    {"apartado":"Tribunal de Cuentas","estado":"CUBIERTO","referencia":"manual.md#8-tribunal-de-cuentas"}
+  ],
+  "datosTestControlados": [
+    "300 a 400 diputados",
+    "4 senadores por provincia",
+    "21 miembros mínimo en cada Diputación Permanente",
+    "Defensor del Pueblo: 5 años y mayoría de 3/5 en ambas Cámaras",
+    "Consejeros de Cuentas: 12, mandato de 9 años, 6 por cada Cámara y mayoría de 3/5",
+    "Presidente del Tribunal de Cuentas: 3 años"
+  ],
+  "archivos": ["manual.md","fuentes.md","matriz.json","preguntas.json"],
+  "prohibidoPublicarComoAprobado": true
+}
