@@ -1,5 +1,6 @@
 const app = document.querySelector('#app');
 const PROGRAM_URL = 'data/programa.json';
+const TRACKING_URL = 'data/seguimiento-la-puebla.json';
 const THEME_KEY = 'opoweb-theme';
 const searchIndex = new Map();
 
@@ -119,6 +120,12 @@ function normalise(value) {
   return String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
 
+function formatDate(value) {
+  if (!value) return 'Fecha pendiente';
+  return new Intl.DateTimeFormat('es-ES', { day: '2-digit', month: 'long', year: 'numeric' })
+    .format(new Date(`${value}T12:00:00`));
+}
+
 function setTheme(theme) {
   document.documentElement.dataset.theme = theme;
   localStorage.setItem(THEME_KEY, theme);
@@ -151,7 +158,43 @@ async function buildSearchIndex(programme) {
   }));
 }
 
-function renderProgramme(programme, query = '') {
+function renderTracking(tracking) {
+  const personal = tracking.situacionPersonal;
+  return `
+    <section class="panel tracking-panel" id="seguimiento-ope">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow section-eyebrow">Seguimiento personal</p>
+          <h2>Plazos y estado de la OPE</h2>
+          <p class="search-count">Actualizado el ${formatDate(tracking.actualizadoEl)}.</p>
+        </div>
+        <span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Estoy apuntado' : 'Inscripción no confirmada'}</span>
+      </div>
+      <div class="personal-status">
+        <div><span>Estado</span><strong>${escapeHtml(personal.estado)}</strong></div>
+        <div><span>Fecha de presentación</span><strong>${formatDate(personal.fechaPresentacion)}</strong></div>
+        <div><span>Convocatoria</span><strong>4 plazas · C2 · concurso-oposición libre</strong></div>
+      </div>
+      <p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad)}</p>
+      <div class="timeline">
+        ${tracking.hitos.map(item => `
+          <article class="timeline-item ${item.estado}">
+            <div class="timeline-marker" aria-hidden="true"></div>
+            <div>
+              <p class="timeline-date">${formatDate(item.fecha)}</p>
+              <h3>${escapeHtml(item.titulo)}</h3>
+              <p>${escapeHtml(item.detalle)}</p>
+            </div>
+          </article>`).join('')}
+      </div>
+      <details class="sources-details">
+        <summary>Fuentes oficiales del seguimiento</summary>
+        <ul>${tracking.fuentes.map(source => `<li><strong>${escapeHtml(source.nombre)}:</strong> ${escapeHtml(source.referencia)}</li>`).join('')}</ul>
+      </details>
+    </section>`;
+}
+
+function renderProgramme(programme, tracking, query = '') {
   const approved = programme.temas.filter(theme => theme.estado === 'APROBADO_USUARIO' || theme.estado === 'PUBLICADO').length;
   const pending = programme.temas.length - approved;
   const term = normalise(query.trim());
@@ -166,7 +209,10 @@ function renderProgramme(programme, query = '') {
           <h2>Manual oficial de La Puebla</h2>
           <p>Auditoría jurídica y técnica continua sobre el programa oficial de <strong>19 temas</strong>, sin incorporar contenido no verificado.</p>
         </div>
-        <a class="btn secondary" href="docs/oficiales/la-puebla/" aria-label="Abrir documentos oficiales">Documentos oficiales</a>
+        <div class="quick-actions">
+          <a class="btn secondary" href="#seguimiento-ope">Plazos de la OPE</a>
+          <a class="btn secondary" href="docs/oficiales/la-puebla/" aria-label="Abrir documentos oficiales">Documentos oficiales</a>
+        </div>
       </div>
       <div class="summary-grid">
         <div class="summary-card"><strong>${programme.temas.length}</strong><span>temas oficiales</span></div>
@@ -174,6 +220,7 @@ function renderProgramme(programme, query = '') {
         <div class="summary-card"><strong>${pending}</strong><span>pendientes de auditoría</span></div>
       </div>
     </section>
+    ${renderTracking(tracking)}
     <section class="panel">
       <div class="section-heading">
         <div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(programme.convocatoria.fuentePrograma.publicacion)} · CSV ${escapeHtml(programme.convocatoria.fuentePrograma.codigoVerificacion)}.</p></div>
@@ -191,14 +238,13 @@ function renderProgramme(programme, query = '') {
     </section>`;
 
   document.querySelectorAll('[data-theme]').forEach(button => {
-    button.addEventListener('click', () => openTheme(programme, Number(button.dataset.theme)));
+    button.addEventListener('click', () => openTheme(programme, tracking, Number(button.dataset.theme)));
   });
   const search = document.querySelector('#theme-search');
-  search?.focus({ preventScroll: true });
-  search?.addEventListener('input', event => renderProgramme(programme, event.target.value));
+  search?.addEventListener('input', event => renderProgramme(programme, tracking, event.target.value));
 }
 
-async function openTheme(programme, number) {
+async function openTheme(programme, tracking, number) {
   const theme = programme.temas.find(item => item.numero === number);
   if (!theme) return;
   history.replaceState(null, '', `#tema-${number}`);
@@ -217,7 +263,7 @@ async function openTheme(programme, number) {
 
   document.querySelector('#back').addEventListener('click', () => {
     history.replaceState(null, '', location.pathname);
-    renderProgramme(programme);
+    renderProgramme(programme, tracking);
   });
   document.querySelector('#top').addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
 
@@ -234,13 +280,17 @@ async function openTheme(programme, number) {
 async function boot() {
   initTheme();
   try {
-    const response = await fetch(PROGRAM_URL, { cache: 'no-cache' });
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const programme = await response.json();
+    const [programmeResponse, trackingResponse] = await Promise.all([
+      fetch(PROGRAM_URL, { cache: 'no-cache' }),
+      fetch(TRACKING_URL, { cache: 'no-cache' })
+    ]);
+    if (!programmeResponse.ok) throw new Error(`Programa: HTTP ${programmeResponse.status}`);
+    if (!trackingResponse.ok) throw new Error(`Seguimiento: HTTP ${trackingResponse.status}`);
+    const [programme, tracking] = await Promise.all([programmeResponse.json(), trackingResponse.json()]);
     await buildSearchIndex(programme);
     const selected = Number(location.hash.match(/^#tema-(\d+)$/)?.[1]);
-    if (selected) await openTheme(programme, selected);
-    else renderProgramme(programme);
+    if (selected) await openTheme(programme, tracking, selected);
+    else renderProgramme(programme, tracking);
 
     if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
   } catch (error) {
