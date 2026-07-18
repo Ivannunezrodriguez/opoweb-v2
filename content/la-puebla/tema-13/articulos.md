@@ -1,6 +1,6 @@
 # Tema 13 · Trazabilidad normativa
 
-**Estado:** EN REVISIÓN DEL USUARIO
+**Estado:** APROBADO POR EL USUARIO
 
 ## Reglamento eIDAS
 
@@ -94,3 +94,5 @@
 ## Delimitación
 
 La trazabilidad no convierte en contenido central el régimen sancionador completo, todos los actos de ejecución eIDAS, el detalle técnico de los formatos de firma ni la cartera europea de identidad digital. Esos elementos solo se incorporan cuando aclaran los certificados, soportes, autoridades y servicios exigidos por el epígrafe.
+
+Aprobación registrada el 18 de julio de 2026 mediante la frase **«Tema 13 aprobado»**.
