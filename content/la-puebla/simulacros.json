@@ -1,0 +1,57 @@
+{
+  "convocatoria": "La Puebla de Montalbán",
+  "version": "2026-07-18",
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "criterios": {
+    "numeroSimulacros": 3,
+    "preguntasPorSimulacro": 30,
+    "duracionMinutos": 45,
+    "respuestaUnica": true,
+    "seleccion": "Preguntas trazables de los 19 bancos temáticos aprobados, con cobertura jurídica, tributaria, administrativa e informática.",
+    "correccion": "Cada referencia conserva la respuesta correcta, justificación, trampa y fuente de su banco temático de origen."
+  },
+  "simulacros": [
+    {
+      "id": "LP-SIM-01",
+      "titulo": "Simulacro transversal 1 · Fundamentos y gestión municipal",
+      "duracionMinutos": 45,
+      "instrucciones": "Responda las 30 preguntas sin consultar el temario. Cada pregunta tiene cuatro opciones y una única respuesta correcta.",
+      "preguntas": [
+        "LP-T01-001", "LP-T02-002", "LP-T03-003", "LP-T04-004", "LP-T05-005",
+        "LP-T06-006", "LP-T07-007", "LP-T08-008", "LP-T09-009", "LP-T10-010",
+        "LP-T11-011", "LP-T12-012", "LP-T13-001", "LP-T14-002", "LP-T15-003",
+        "LP-T16-004", "LP-T17-005", "LP-T18-006", "LP-T19-007", "LP-T01-008",
+        "LP-T03-010", "LP-T05-012", "LP-T07-002", "LP-T09-004", "LP-T11-006",
+        "LP-T13-008", "LP-T15-010", "LP-T17-012", "LP-T18-001", "LP-T19-003"
+      ]
+    },
+    {
+      "id": "LP-SIM-02",
+      "titulo": "Simulacro transversal 2 · Procedimiento, hacienda e informática",
+      "duracionMinutos": 45,
+      "instrucciones": "Responda las 30 preguntas en una sola sesión. Anote las dudosas y revise las justificaciones solo al finalizar.",
+      "preguntas": [
+        "LP-T01-002", "LP-T02-003", "LP-T03-004", "LP-T04-005", "LP-T05-006",
+        "LP-T06-007", "LP-T07-008", "LP-T08-009", "LP-T09-010", "LP-T10-011",
+        "LP-T11-012", "LP-T12-001", "LP-T13-002", "LP-T14-003", "LP-T15-004",
+        "LP-T16-005", "LP-T17-006", "LP-T18-007", "LP-T19-008", "LP-T02-009",
+        "LP-T04-011", "LP-T06-001", "LP-T08-003", "LP-T10-005", "LP-T12-007",
+        "LP-T14-009", "LP-T16-011", "LP-T17-001", "LP-T18-003", "LP-T19-005"
+      ]
+    },
+    {
+      "id": "LP-SIM-03",
+      "titulo": "Simulacro transversal 3 · Repaso final de máxima amplitud",
+      "duracionMinutos": 45,
+      "instrucciones": "Realice el simulacro con tiempo real de examen. Corrija al final y clasifique cada fallo por tema y tipo de trampa.",
+      "preguntas": [
+        "LP-T01-003", "LP-T02-004", "LP-T03-005", "LP-T04-006", "LP-T05-007",
+        "LP-T06-008", "LP-T07-009", "LP-T08-010", "LP-T09-011", "LP-T10-012",
+        "LP-T11-001", "LP-T12-002", "LP-T13-003", "LP-T14-004", "LP-T15-005",
+        "LP-T16-006", "LP-T17-007", "LP-T18-008", "LP-T19-009", "LP-T01-011",
+        "LP-T02-012", "LP-T04-002", "LP-T06-004", "LP-T08-006", "LP-T10-008",
+        "LP-T12-010", "LP-T14-012", "LP-T16-002", "LP-T18-004", "LP-T19-006"
+      ]
+    }
+  ]
+}
