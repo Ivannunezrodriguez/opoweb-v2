@@ -1,6 +1,183 @@
 {
   "tema": 2,
-  "estado": "PENDIENTE_REVISION_POST_APROBACION",
-  "preguntas": [],
-  "nota": "La teoría fue aprobada por el usuario el 17 de julio de 2026. Las preguntas no se crean para inflar métricas: se incorporarán después de una revisión específica y cada una deberá vincularse a un artículo concreto de la Ley 39/2015."
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-18",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T02-001",
+      "enunciado": "Según el artículo 1 de la Ley 39/2015, los trámites adicionales o distintos de los previstos en dicha Ley solo pueden establecerse:",
+      "opciones": [
+        "Mediante reglamento aprobado por el Consejo de Ministros",
+        "Mediante orden ministerial motivada",
+        "Mediante ley, de forma motivada y cuando resulten eficaces, proporcionados y necesarios",
+        "Mediante resolución del órgano competente para tramitar"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los trámites adicionales o distintos quedan reservados a una norma con rango de ley y deben justificarse por su eficacia, proporcionalidad y necesidad, además de motivarse.",
+      "trampaExamen": "Un reglamento puede introducir especialidades procedimentales, pero no crear libremente nuevos trámites.",
+      "referencia": "manual.md · apartado 3 · Artículo 1"
+    },
+    {
+      "id": "LP-T02-002",
+      "enunciado": "¿Cuál de los siguientes sujetos forma parte del sector público institucional pero no tiene por ello automáticamente la condición de Administración Pública?",
+      "opciones": [
+        "Una entidad de derecho privado vinculada o dependiente de una Administración",
+        "La Administración General del Estado",
+        "Una entidad que integra la Administración local",
+        "Un organismo público de derecho público"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las entidades de derecho privado vinculadas o dependientes integran el sector público institucional, pero no se convierten por esa sola razón en Administración Pública.",
+      "trampaExamen": "No todo sujeto incluido en el sector público es una Administración Pública a efectos de la Ley 39/2015.",
+      "referencia": "manual.md · apartado 4 · Artículo 2"
+    },
+    {
+      "id": "LP-T02-003",
+      "enunciado": "Quien tenga un interés legítimo que pueda resultar afectado por la resolución de un procedimiento que no inició será interesado cuando:",
+      "opciones": [
+        "Se persone antes de que recaiga resolución definitiva",
+        "Formule recurso después de la resolución definitiva",
+        "Acredite exclusivamente un interés económico directo",
+        "Sea llamado siempre de oficio, aunque no sea identificable"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 4 reconoce la condición de interesado a quien ostente un interés legítimo afectable y se persone en el procedimiento antes de la resolución definitiva.",
+      "trampaExamen": "El titular de un derecho afectado no necesita personarse para adquirir la condición de interesado; quien solo tiene interés legítimo sí debe hacerlo a tiempo.",
+      "referencia": "manual.md · apartado 6 · Artículo 4"
+    },
+    {
+      "id": "LP-T02-004",
+      "enunciado": "¿En cuál de las siguientes actuaciones se presume la representación sin necesidad de acreditarla expresamente?",
+      "opciones": [
+        "Interponer un recurso",
+        "Renunciar a un derecho",
+        "Desistir de una acción",
+        "Realizar una gestión de mero trámite"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La representación debe acreditarse para solicitudes, declaraciones responsables, comunicaciones, recursos, desistimientos y renuncias. En actos y gestiones de mero trámite se presume.",
+      "trampaExamen": "No confundir la presunción en trámites simples con los actos que expresan voluntad dispositiva.",
+      "referencia": "manual.md · apartado 7.1 · Artículo 5"
+    },
+    {
+      "id": "LP-T02-005",
+      "enunciado": "La falta o insuficiente acreditación de la representación debe subsanarse, con carácter general, en un plazo de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Un mes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El órgano debe conceder diez días para aportar o subsanar la acreditación de la representación, pudiendo conceder un plazo superior cuando las circunstancias lo requieran.",
+      "trampaExamen": "El defecto de representación no provoca automáticamente la pérdida del acto realizado.",
+      "referencia": "manual.md · apartado 7.3 · Artículo 5"
+    },
+    {
+      "id": "LP-T02-006",
+      "enunciado": "¿Cuál es la vigencia máxima de un poder inscrito en un registro electrónico de apoderamientos?",
+      "opciones": [
+        "Dos años",
+        "Tres años",
+        "Cinco años",
+        "Diez años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La vigencia máxima del poder inscrito es de cinco años desde la inscripción. Cada prórroga puede alcanzar también un máximo de cinco años desde su propia inscripción.",
+      "trampaExamen": "La prórroga no convierte el poder en indefinido ni se computa desde el otorgamiento inicial.",
+      "referencia": "manual.md · apartado 8.3 · Artículo 6"
+    },
+    {
+      "id": "LP-T02-007",
+      "enunciado": "Con carácter general, la Administración solo puede exigir obligatoriamente firma para:",
+      "opciones": [
+        "Consultar el estado de un expediente",
+        "Recibir una notificación",
+        "Interponer un recurso",
+        "Solicitar información general"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 11 exige firma para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos.",
+      "trampaExamen": "La identificación basta para la mayoría de actuaciones; firma e identificación no son equivalentes.",
+      "referencia": "manual.md · apartado 13 · Artículo 11"
+    },
+    {
+      "id": "LP-T02-008",
+      "enunciado": "¿Cuál de los siguientes sujetos está obligado, al menos, a relacionarse electrónicamente con las Administraciones Públicas?",
+      "opciones": [
+        "Toda persona física mayor de edad",
+        "Una persona jurídica",
+        "Cualquier pensionista",
+        "Toda persona empadronada en un municipio de más de 20.000 habitantes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Las personas jurídicas están obligadas a relacionarse electrónicamente, junto con otros sujetos del artículo 14.2, como entidades sin personalidad, determinados profesionales, representantes de obligados y empleados públicos en trámites vinculados a su condición.",
+      "trampaExamen": "La regla general de elección se aplica a personas físicas no obligadas, no a todos los sujetos por igual.",
+      "referencia": "manual.md · apartado 16 · Artículo 14"
+    },
+    {
+      "id": "LP-T02-009",
+      "enunciado": "Cuando la norma reguladora de un procedimiento no fija plazo máximo para resolver, este será de:",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Seis meses",
+        "Un año"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Si la norma específica no fija plazo, el máximo es de tres meses. El límite general de seis meses opera para los plazos fijados reglamentariamente, salvo ley o Derecho de la Unión Europea.",
+      "trampaExamen": "Tres meses es el plazo supletorio; seis meses no es siempre el plazo aplicable.",
+      "referencia": "manual.md · apartado 23.2 · Artículo 21"
+    },
+    {
+      "id": "LP-T02-010",
+      "enunciado": "En los procedimientos iniciados a solicitud del interesado, el silencio administrativo tiene como regla general carácter:",
+      "opciones": [
+        "Estimatorio",
+        "Desestimatorio",
+        "Suspensivo",
+        "Caducatorio"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La regla general del artículo 24 es el silencio estimatorio, sin perjuicio de los supuestos legales de silencio negativo, como responsabilidad patrimonial, impugnación, revisión de oficio solicitada o afectación al dominio público.",
+      "trampaExamen": "La caducidad es el efecto típico de ciertos procedimientos iniciados de oficio con efectos desfavorables, no del silencio a solicitud.",
+      "referencia": "manual.md · apartado 26 · Artículo 24"
+    },
+    {
+      "id": "LP-T02-011",
+      "enunciado": "Una notificación se practica el 31 de enero y concede un plazo de un mes. Si febrero no tiene día 31, el plazo vence:",
+      "opciones": [
+        "El 1 de marzo",
+        "El último día de febrero",
+        "Treinta días hábiles después",
+        "El primer lunes de marzo en todo caso"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los plazos por meses vencen en el mismo ordinal del mes correspondiente; si no existe día equivalente, vencen el último día del mes.",
+      "trampaExamen": "Los plazos expresados en meses no se convierten automáticamente en treinta días.",
+      "referencia": "manual.md · apartado 32.3 · Artículo 30"
+    },
+    {
+      "id": "LP-T02-012",
+      "enunciado": "La tramitación de urgencia del artículo 33 reduce a la mitad los plazos ordinarios, excepto los relativos a:",
+      "opciones": [
+        "Informes y pruebas",
+        "Audiencia e información pública",
+        "Presentación de solicitudes y recursos",
+        "Notificaciones y publicaciones"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La urgencia reduce a la mitad los plazos del procedimiento, pero no los correspondientes a la presentación de solicitudes ni a la interposición de recursos.",
+      "trampaExamen": "La urgencia no permite recortar los plazos de defensa básicos para solicitar o recurrir.",
+      "referencia": "manual.md · apartado 35 · Artículo 33"
+    }
+  ]
 }
