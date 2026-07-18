@@ -34,7 +34,7 @@ for (const t of approved) {
 
   const questionBank = json(t.preguntas);
   assert.ok(Array.isArray(questionBank.preguntas), `Banco inválido del tema ${t.numero}`);
-  if (t.numero > 4) assert.deepEqual(questionBank.preguntas, []);
+  if (t.numero > 5) assert.deepEqual(questionBank.preguntas, []);
 
   const manual = read(t.manual);
   assert.ok(manual.includes('Tema cerrado: **SÍ**'), `Tema ${t.numero} no figura cerrado`);
@@ -71,6 +71,7 @@ const questions1 = validateQuestionBank(1, 'LP-T01');
 const questions2 = validateQuestionBank(2, 'LP-T02');
 const questions3 = validateQuestionBank(3, 'LP-T03');
 const questions4 = validateQuestionBank(4, 'LP-T04');
+const questions5 = validateQuestionBank(5, 'LP-T05');
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
 assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'));
@@ -118,7 +119,7 @@ assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.19.0'"));
 assert.equal(exists('.github/workflows/apply-t19-approval.yml'), false);
 assert.equal(exists('scripts/publish_t19.py'), false);
 
-const generatedQuestions = [questions1, questions2, questions3, questions4]
+const generatedQuestions = [questions1, questions2, questions3, questions4, questions5]
   .reduce((total, bank) => total + bank.preguntas.length, 0);
 
 console.log(JSON.stringify({
@@ -132,7 +133,8 @@ console.log(JSON.stringify({
   tema2Questions: questions2.preguntas.length,
   tema3Questions: questions3.preguntas.length,
   tema4Questions: questions4.preguntas.length,
+  tema5Questions: questions5.preguntas.length,
   generatedQuestions,
   tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_4_TEST_GENERADOS'
+  status: 'CONVOCATORIA_LA_PUEBLA_TEMAS_1_A_5_TEST_GENERADOS'
 }, null, 2));
