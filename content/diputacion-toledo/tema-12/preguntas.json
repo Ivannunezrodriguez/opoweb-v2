@@ -1,0 +1,114 @@
+{
+  "tema": 12,
+  "titulo": "Régimen Local Español",
+  "preguntas": [
+    {
+      "id": "DIP-T12-001",
+      "enunciado": "Según el artículo 137 de la Constitución, el Estado se organiza territorialmente en:",
+      "opciones": ["Municipios, provincias y comunidades autónomas", "Municipios, comarcas y provincias", "Provincias, islas y regiones", "Municipios, diputaciones y comunidades autónomas"],
+      "correcta": 0,
+      "justificacion": "El artículo 137 CE menciona municipios, provincias y comunidades autónomas.",
+      "trampa": "Las diputaciones son órganos de gobierno provincial, no categorías territoriales del artículo 137.",
+      "referencia": "Manual, apartado 2.1"
+    },
+    {
+      "id": "DIP-T12-002",
+      "enunciado": "La autonomía local equivale a:",
+      "opciones": ["Soberanía territorial", "Capacidad de gestionar intereses propios dentro de la ley", "Independencia normativa plena", "Ausencia de control jurisdiccional"],
+      "correcta": 1,
+      "justificacion": "La autonomía local permite ordenar y gestionar intereses propios dentro del marco constitucional y legal.",
+      "trampa": "Autonomía no significa soberanía.",
+      "referencia": "Manual, apartados 1 y 7"
+    },
+    {
+      "id": "DIP-T12-003",
+      "enunciado": "La alteración de los límites provinciales debe aprobarse mediante:",
+      "opciones": ["Ley ordinaria", "Decreto ley", "Ley orgánica", "Reglamento autonómico"],
+      "correcta": 2,
+      "justificacion": "El artículo 141 CE exige ley orgánica.",
+      "trampa": "No basta una ley ordinaria.",
+      "referencia": "Manual, apartado 2.3"
+    },
+    {
+      "id": "DIP-T12-004",
+      "enunciado": "La Constitución garantiza expresamente la autonomía de:",
+      "opciones": ["Las diputaciones", "Los municipios", "Las mancomunidades", "Las comarcas"],
+      "correcta": 1,
+      "justificacion": "El artículo 140 CE garantiza la autonomía municipal.",
+      "trampa": "La diputación es una forma de gobierno provincial.",
+      "referencia": "Manual, apartado 2.2"
+    },
+    {
+      "id": "DIP-T12-005",
+      "enunciado": "La provincia es constitucionalmente:",
+      "opciones": ["Solo una división territorial estatal", "Solo una agrupación de municipios", "Entidad local, agrupación de municipios y división territorial para actividades del Estado", "Una administración autonómica periférica"],
+      "correcta": 2,
+      "justificacion": "El artículo 141 CE reúne las tres dimensiones.",
+      "trampa": "La provincia no tiene una sola naturaleza.",
+      "referencia": "Manual, apartado 2.3"
+    },
+    {
+      "id": "DIP-T12-006",
+      "enunciado": "Las haciendas locales se nutren fundamentalmente de:",
+      "opciones": ["Tributos propios exclusivamente", "Tributos propios y participación en tributos estatales y autonómicos", "Transferencias estatales exclusivamente", "Deuda pública local"],
+      "correcta": 1,
+      "justificacion": "Es la regla del artículo 142 CE.",
+      "trampa": "La Constitución no limita la financiación a tributos propios.",
+      "referencia": "Manual, apartado 2.4"
+    },
+    {
+      "id": "DIP-T12-007",
+      "enunciado": "¿Cuál es la norma básica estatal de referencia en régimen local?",
+      "opciones": ["Ley 39/2015", "Ley 7/1985", "Real Decreto 2568/1986", "Real Decreto Legislativo 2/2004"],
+      "correcta": 1,
+      "justificacion": "La Ley 7/1985 es la Ley Reguladora de las Bases del Régimen Local.",
+      "trampa": "El ROF desarrolla organización y funcionamiento, pero no sustituye la norma básica.",
+      "referencia": "Manual, apartado 4"
+    },
+    {
+      "id": "DIP-T12-008",
+      "enunciado": "¿Cuál de las siguientes es entidad local territorial?",
+      "opciones": ["La mancomunidad", "El municipio", "El área metropolitana", "La comarca"],
+      "correcta": 1,
+      "justificacion": "Municipio, provincia e isla son entidades locales territoriales.",
+      "trampa": "Las otras también pueden ser entidades locales, pero no territoriales en la clasificación básica del artículo 3 LBRL.",
+      "referencia": "Manual, apartado 5"
+    },
+    {
+      "id": "DIP-T12-009",
+      "enunciado": "Las competencias propias de las entidades locales:",
+      "opciones": ["Pueden atribuirse por reglamento", "Solo pueden determinarse por ley", "Requieren siempre delegación autonómica", "Se ejercen bajo dirección estatal"],
+      "correcta": 1,
+      "justificacion": "Las competencias propias solo pueden determinarse por ley.",
+      "trampa": "La ordenanza local no puede crear competencias propias nuevas.",
+      "referencia": "Manual, apartado 9.1"
+    },
+    {
+      "id": "DIP-T12-010",
+      "enunciado": "La duración de una delegación de competencias a una entidad local será, como regla, no inferior a:",
+      "opciones": ["2 años", "3 años", "4 años", "5 años"],
+      "correcta": 3,
+      "justificacion": "La Ley 7/1985 establece una duración no inferior a 5 años salvo previsión legal distinta.",
+      "trampa": "No confundir con plazos presupuestarios o mandatos corporativos.",
+      "referencia": "Manual, apartado 9.2"
+    },
+    {
+      "id": "DIP-T12-011",
+      "enunciado": "La potestad reglamentaria local se ejerce:",
+      "opciones": ["Sin límites por la autonomía local", "Dentro de las competencias y con sujeción a la ley", "Solo por delegación estatal", "Únicamente en materia tributaria"],
+      "correcta": 1,
+      "justificacion": "Toda potestad local está sometida al principio de legalidad y al ámbito competencial.",
+      "trampa": "Autonomía no elimina la jerarquía normativa.",
+      "referencia": "Manual, apartado 8"
+    },
+    {
+      "id": "DIP-T12-012",
+      "enunciado": "Como regla general, el control estatal o autonómico sobre las entidades locales es un control de:",
+      "opciones": ["Oportunidad política", "Legalidad", "Conveniencia económica", "Tutela jerárquica"],
+      "correcta": 1,
+      "justificacion": "La autonomía local es compatible con controles de legalidad, no con una tutela general de oportunidad.",
+      "trampa": "Las entidades locales no están jerárquicamente subordinadas al Estado o a la comunidad autónoma.",
+      "referencia": "Manual, apartado 11"
+    }
+  ]
+}
