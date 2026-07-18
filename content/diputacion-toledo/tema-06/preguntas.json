@@ -1,0 +1,139 @@
+{
+  "tema": 6,
+  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "preguntas": [
+    {
+      "id": "DIP-T06-001",
+      "pregunta": "¿Cuál de los siguientes es un derecho específico del interesado en un procedimiento administrativo conforme al artículo 53 de la Ley 39/2015?",
+      "opciones": [
+        "Conocer el estado de tramitación del procedimiento",
+        "Exigir siempre resolución favorable",
+        "Elegir libremente el órgano instructor",
+        "Suspender unilateralmente cualquier plazo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 53 reconoce al interesado el derecho a conocer en cualquier momento el estado de tramitación, además del sentido del silencio y el órgano competente.",
+      "trampaExamen": "No confundas derechos del interesado del artículo 53 con facultades inexistentes, como elegir instructor o suspender plazos.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#2-derechos-del-interesado-en-el-procedimiento"
+    },
+    {
+      "id": "DIP-T06-002",
+      "pregunta": "Las medidas provisionales adoptadas antes de iniciar el procedimiento deben confirmarse, modificarse o levantarse en el acuerdo de iniciación dictado dentro de:",
+      "opciones": ["5 días", "10 días", "15 días", "20 días"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Ley exige que el acuerdo de iniciación se dicte dentro de los 15 días siguientes a la adopción de las medidas provisionales previas.",
+      "trampaExamen": "El plazo de 15 días se refiere a la confirmación en el acuerdo de iniciación, no al trámite de audiencia.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#33-medidas-provisionales"
+    },
+    {
+      "id": "DIP-T06-003",
+      "pregunta": "¿Cuál de estas afirmaciones sobre la denuncia es correcta?",
+      "opciones": [
+        "Convierte siempre al denunciante en interesado",
+        "Obliga siempre a iniciar procedimiento",
+        "No convierte por sí sola al denunciante en interesado",
+        "Solo puede presentarla una autoridad pública"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La presentación de una denuncia no confiere por sí sola la condición de interesado ni obliga automáticamente a incoar procedimiento.",
+      "trampaExamen": "Denunciante e interesado no son conceptos equivalentes.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#4-iniciación-de-oficio"
+    },
+    {
+      "id": "DIP-T06-004",
+      "pregunta": "El plazo general de subsanación de una solicitud es de:",
+      "opciones": ["5 días", "10 días", "15 días", "20 días"],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 68 establece un plazo de 10 días para subsanar la falta o acompañar los documentos preceptivos.",
+      "trampaExamen": "La posible ampliación adicional es de hasta 5 días y no procede en procedimientos selectivos o competitivos.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#51-subsanación"
+    },
+    {
+      "id": "DIP-T06-005",
+      "pregunta": "Salvo previsión distinta, los trámites que deban cumplimentar los interesados se realizarán en:",
+      "opciones": ["5 días", "10 días", "15 días", "1 mes"],
+      "respuestaCorrecta": 1,
+      "justificacion": "La regla general del artículo 73 fija 10 días desde el siguiente a la notificación del acto correspondiente.",
+      "trampaExamen": "No confundas este plazo con la audiencia, que oscila entre 10 y 15 días.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#63-cumplimiento-de-trámites"
+    },
+    {
+      "id": "DIP-T06-006",
+      "pregunta": "El periodo ordinario de prueba debe tener una duración:",
+      "opciones": [
+        "De 5 a 10 días",
+        "De 10 a 30 días",
+        "De 15 a 30 días",
+        "Exactamente de 20 días"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley fija un plazo no superior a 30 días ni inferior a 10 días para el periodo ordinario de prueba.",
+      "trampaExamen": "La prueba extraordinaria puede durar hasta 10 días adicionales.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#72-prueba"
+    },
+    {
+      "id": "DIP-T06-007",
+      "pregunta": "El trámite de audiencia se concede por un plazo:",
+      "opciones": [
+        "De 5 a 10 días",
+        "De 10 a 15 días",
+        "De 15 a 20 días",
+        "No inferior a 30 días"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 82 fija un plazo no inferior a 10 días ni superior a 15 días para alegar y presentar documentos.",
+      "trampaExamen": "La información pública tiene un mínimo de 20 días; la audiencia no.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#74-trámite-de-audiencia"
+    },
+    {
+      "id": "DIP-T06-008",
+      "pregunta": "La información pública debe abrirse por un plazo no inferior a:",
+      "opciones": ["10 días", "15 días", "20 días", "30 días"],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 83 establece que el plazo para formular alegaciones en información pública no puede ser inferior a 20 días.",
+      "trampaExamen": "No confundas información pública con audiencia: 20 días mínimo frente a 10-15 días.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#75-información-pública"
+    },
+    {
+      "id": "DIP-T06-009",
+      "pregunta": "En procedimientos iniciados a solicitud, la paralización imputable al interesado puede provocar caducidad una vez transcurridos:",
+      "opciones": ["1 mes", "2 meses", "3 meses", "6 meses"],
+      "respuestaCorrecta": 2,
+      "justificacion": "Previa advertencia, transcurridos 3 meses sin que el interesado realice la actividad necesaria puede declararse la caducidad.",
+      "trampaExamen": "La caducidad no produce por sí sola la prescripción, aunque el procedimiento caducado no interrumpe el plazo prescriptivo.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#83-caducidad"
+    },
+    {
+      "id": "DIP-T06-010",
+      "pregunta": "Las reducciones mínimas por reconocimiento de responsabilidad y pago voluntario en un procedimiento sancionador son, respectivamente:",
+      "opciones": [
+        "10 % y 10 %",
+        "20 % y 20 %, acumulables",
+        "25 % y 25 %, no acumulables",
+        "50 % únicamente por pago"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley establece reducciones de al menos el 20 % por cada concepto y permite su acumulación si se cumplen las condiciones.",
+      "trampaExamen": "La cuantía legal es mínima; reglamentariamente puede aumentarse.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#103-reconocimiento-y-pago-voluntario"
+    },
+    {
+      "id": "DIP-T06-011",
+      "pregunta": "El derecho a reclamar responsabilidad patrimonial prescribe, con carácter general, al:",
+      "opciones": ["Mes", "Año", "Dos años", "Cuatro años"],
+      "respuestaCorrecta": 1,
+      "justificacion": "El plazo general es de un año desde el hecho o acto que motive la indemnización o desde la manifestación del efecto lesivo.",
+      "trampaExamen": "En daños físicos o psíquicos, el cómputo comienza desde la curación o determinación de las secuelas.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#112-solicitud-del-interesado"
+    },
+    {
+      "id": "DIP-T06-012",
+      "pregunta": "La tramitación simplificada debe resolverse, con carácter general, en:",
+      "opciones": ["15 días", "20 días", "30 días", "3 meses"],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Ley fija un plazo general de 30 días desde el siguiente a la notificación del acuerdo de tramitación simplificada.",
+      "trampaExamen": "Dentro de la simplificada, el plazo específico de alegaciones es de 5 días.",
+      "referencia": "content/diputacion-toledo/tema-06/manual.md#12-tramitación-simplificada"
+    }
+  ]
+}
