@@ -1,0 +1,122 @@
+[
+  {
+    "id":"DIP-T37-001",
+    "tema":37,
+    "pregunta":"¿Cuál es el formato nativo de un archivo de LibreOffice Base?",
+    "opciones":["ODS","ODB","ODT","ODP"],
+    "correcta":1,
+    "justificacion":"LibreOffice Base utiliza ODB como formato nativo de sus documentos de base de datos.",
+    "trampa":"ODS corresponde a Calc, ODT a Writer y ODP a Impress.",
+    "referencia":"Manual, apartado 2"
+  },
+  {
+    "id":"DIP-T37-002",
+    "tema":37,
+    "pregunta":"En una tabla de base de datos, un campo equivale a:",
+    "opciones":["Una fila","Una columna","Una consulta","Un informe"],
+    "correcta":1,
+    "justificacion":"Los campos son las columnas de la tabla y describen los atributos de cada registro.",
+    "trampa":"El registro corresponde a la fila completa.",
+    "referencia":"Manual, apartado 4"
+  },
+  {
+    "id":"DIP-T37-003",
+    "tema":37,
+    "pregunta":"La función principal de una clave primaria es:",
+    "opciones":["Ordenar alfabéticamente","Identificar de forma única cada registro","Crear automáticamente informes","Ocultar campos"],
+    "correcta":1,
+    "justificacion":"La clave primaria identifica unívocamente cada registro y no admite duplicados.",
+    "trampa":"Un índice puede mejorar la ordenación o búsqueda, pero no equivale necesariamente a clave primaria.",
+    "referencia":"Manual, apartado 6"
+  },
+  {
+    "id":"DIP-T37-004",
+    "tema":37,
+    "pregunta":"En una relación uno a muchos, la clave ajena suele situarse en:",
+    "opciones":["La tabla del lado uno","La tabla del lado muchos","Ambas tablas obligatoriamente","Ninguna tabla"],
+    "correcta":1,
+    "justificacion":"La tabla del lado muchos contiene normalmente la clave ajena que referencia a la tabla principal.",
+    "trampa":"La clave primaria permanece en la tabla referenciada; la clave ajena se repite en los registros relacionados.",
+    "referencia":"Manual, apartado 8"
+  },
+  {
+    "id":"DIP-T37-005",
+    "tema":37,
+    "pregunta":"¿Qué objeto de Base está orientado principalmente a seleccionar, filtrar y combinar datos?",
+    "opciones":["Tabla","Consulta","Formulario","Informe"],
+    "correcta":1,
+    "justificacion":"Las consultas recuperan datos conforme a campos, criterios, ordenación y relaciones definidos.",
+    "trampa":"La tabla almacena y el informe presenta.",
+    "referencia":"Manual, apartados 3 y 10"
+  },
+  {
+    "id":"DIP-T37-006",
+    "tema":37,
+    "pregunta":"Una consulta de selección, por regla general:",
+    "opciones":["Elimina los registros no mostrados","Modifica siempre las tablas","Muestra datos según criterios sin alterar el origen","Borra la estructura de la tabla"],
+    "correcta":2,
+    "justificacion":"Una consulta de selección devuelve un conjunto de resultados sin modificar por sí sola los registros de origen.",
+    "trampa":"No confundir una consulta SELECT con consultas o sentencias de actualización.",
+    "referencia":"Manual, apartado 10"
+  },
+  {
+    "id":"DIP-T37-007",
+    "tema":37,
+    "pregunta":"¿Qué objeto está especialmente pensado para introducir y editar datos mediante controles?",
+    "opciones":["Formulario","Informe","Relación","Índice"],
+    "correcta":0,
+    "justificacion":"Los formularios ofrecen controles vinculados a tablas, consultas o instrucciones SQL para trabajar con registros.",
+    "trampa":"El informe está orientado a la presentación, no a la edición ordinaria.",
+    "referencia":"Manual, apartado 12"
+  },
+  {
+    "id":"DIP-T37-008",
+    "tema":37,
+    "pregunta":"La finalidad principal de un informe es:",
+    "opciones":["Definir claves primarias","Presentar y preparar datos para lectura o impresión","Crear relaciones","Ejecutar copias de seguridad"],
+    "correcta":1,
+    "justificacion":"Los informes organizan datos con encabezados, agrupaciones, totales y formato de presentación.",
+    "trampa":"Un informe suele basarse en una tabla o consulta, pero no almacena los datos originales.",
+    "referencia":"Manual, apartado 13"
+  },
+  {
+    "id":"DIP-T37-009",
+    "tema":37,
+    "pregunta":"Aplicar un filtro en una tabla:",
+    "opciones":["Elimina definitivamente los registros excluidos","Oculta temporalmente los registros que no cumplen el criterio","Cambia la clave primaria","Convierte la tabla en informe"],
+    "correcta":1,
+    "justificacion":"El filtro limita los registros visibles sin borrarlos.",
+    "trampa":"Filtrar no equivale a eliminar.",
+    "referencia":"Manual, apartado 14"
+  },
+  {
+    "id":"DIP-T37-010",
+    "tema":37,
+    "pregunta":"¿Qué afirmación es correcta sobre un archivo ODB conectado a una base externa?",
+    "opciones":["Copia necesariamente todos los datos externos dentro del ODB","Puede contener la conexión y objetos mientras los datos permanecen en el servidor","Elimina la base externa al cerrarse","Solo puede abrirse sin red"],
+    "correcta":1,
+    "justificacion":"En una conexión externa, el ODB puede guardar configuración, consultas, formularios e informes, mientras los datos siguen en la fuente externa.",
+    "trampa":"No confundir contenedor de conexión con copia completa de la base.",
+    "referencia":"Manual, apartado 2"
+  },
+  {
+    "id":"DIP-T37-011",
+    "tema":37,
+    "pregunta":"¿Qué diferencia básica existe entre JDBC y ODBC?",
+    "opciones":["JDBC usa controladores Java y ODBC la infraestructura de conectividad del sistema","JDBC solo crea informes y ODBC formularios","ODBC es un formato de archivo y JDBC una tabla","No existe diferencia"],
+    "correcta":0,
+    "justificacion":"JDBC se basa en controladores Java; ODBC utiliza la infraestructura de conectividad de bases de datos disponible en el sistema.",
+    "trampa":"Ninguno de los dos es un objeto interno como tabla o formulario.",
+    "referencia":"Manual, apartado 15"
+  },
+  {
+    "id":"DIP-T37-012",
+    "tema":37,
+    "pregunta":"¿Qué sentencia SQL se utiliza para consultar datos?",
+    "opciones":["DELETE","UPDATE","SELECT","DROP TABLE"],
+    "correcta":2,
+    "justificacion":"SELECT recupera datos de una o varias tablas conforme a los criterios indicados.",
+    "trampa":"DELETE elimina registros y DROP TABLE elimina la tabla si el motor lo permite.",
+    "referencia":"Manual, apartado 11"
+  }
+]
