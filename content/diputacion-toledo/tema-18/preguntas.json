@@ -1,0 +1,110 @@
+[
+  {
+    "id":"DIP-T18-001",
+    "pregunta":"¿Cuál es el procedimiento normal de provisión de puestos de trabajo del personal funcionario de carrera?",
+    "opciones":["La libre designación","El concurso","La comisión de servicios","La adscripción provisional"],
+    "correcta":1,
+    "justificacion":"El artículo 67 de la Ley 4/2011 establece que el concurso es el procedimiento normal de provisión.",
+    "trampa":"La libre designación también es ordinaria, pero no es el procedimiento normal.",
+    "referencia":"manual.md#3-provisión-de-puestos-de-trabajo"
+  },
+  {
+    "id":"DIP-T18-002",
+    "pregunta":"La carrera horizontal consiste en:",
+    "opciones":["Ascender a un subgrupo superior","Progresar de tramo sin cambiar de puesto","Acceder a otro cuerpo del mismo subgrupo","Obtener un puesto por libre designación"],
+    "correcta":1,
+    "justificacion":"La carrera horizontal permite progresar de tramo sin necesidad de cambiar de puesto.",
+    "trampa":"No debe confundirse con promoción interna horizontal.",
+    "referencia":"manual.md#1-carrera-profesional"
+  },
+  {
+    "id":"DIP-T18-003",
+    "pregunta":"¿Qué principios rigen la provisión de puestos reservados a personal funcionario de carrera?",
+    "opciones":["Jerarquía, confianza y antigüedad","Igualdad, mérito, capacidad y publicidad","Eficacia, economía y descentralización","Antigüedad y libre apreciación"],
+    "correcta":1,
+    "justificacion":"La Ley 4/2011 exige igualdad, mérito, capacidad y publicidad.",
+    "trampa":"La antigüedad puede ser mérito, pero no sustituye los principios legales.",
+    "referencia":"manual.md#3-provisión-de-puestos-de-trabajo"
+  },
+  {
+    "id":"DIP-T18-004",
+    "pregunta":"La libre designación:",
+    "opciones":["No requiere convocatoria","Exige convocatoria pública","Solo puede utilizarse para personal laboral","Es siempre temporal"],
+    "correcta":1,
+    "justificacion":"La libre designación se realiza con convocatoria pública.",
+    "trampa":"La palabra libre no elimina publicidad ni requisitos.",
+    "referencia":"manual.md#5-libre-designación"
+  },
+  {
+    "id":"DIP-T18-005",
+    "pregunta":"¿Cuál de las siguientes figuras tiene carácter típicamente temporal?",
+    "opciones":["Concurso","Carrera horizontal","Comisión de servicios","Promoción interna vertical"],
+    "correcta":2,
+    "justificacion":"La comisión de servicios cubre temporalmente un puesto por razones de necesidad.",
+    "trampa":"La adscripción provisional también es provisional, pero la opción más directa es comisión de servicios.",
+    "referencia":"manual.md#32-otras-formas-de-provisión-y-movilidad"
+  },
+  {
+    "id":"DIP-T18-006",
+    "pregunta":"La evaluación del desempeño puede producir efectos en:",
+    "opciones":["Solo el régimen disciplinario","Carrera, formación, provisión y determinadas retribuciones","Únicamente la antigüedad","Solo la jornada"],
+    "correcta":1,
+    "justificacion":"La evaluación del desempeño puede incidir en carrera, formación, provisión y retribuciones complementarias.",
+    "trampa":"No es una sanción disciplinaria.",
+    "referencia":"manual.md#2-evaluación-del-desempeño"
+  },
+  {
+    "id":"DIP-T18-007",
+    "pregunta":"¿Cuál de los siguientes es un derecho de ejercicio colectivo?",
+    "opciones":["La formación continua","La negociación colectiva","La defensa jurídica","La protección de la salud"],
+    "correcta":1,
+    "justificacion":"La negociación colectiva es un derecho ejercido colectivamente.",
+    "trampa":"Los demás son derechos individuales.",
+    "referencia":"manual.md#72-derechos-ejercidos-colectivamente"
+  },
+  {
+    "id":"DIP-T18-008",
+    "pregunta":"Ante una orden manifiestamente contraria al ordenamiento jurídico, el personal empleado público:",
+    "opciones":["Debe obedecerla siempre","Debe obedecerla si es verbal","No tiene deber de obedecerla","Solo puede negarse con autorización judicial"],
+    "correcta":2,
+    "justificacion":"El deber de obediencia alcanza instrucciones profesionales legítimas, no órdenes manifiestamente ilegales.",
+    "trampa":"La jerarquía no ampara la ilegalidad manifiesta.",
+    "referencia":"manual.md#8-deberes-y-código-de-conducta"
+  },
+  {
+    "id":"DIP-T18-009",
+    "pregunta":"¿Qué situación corresponde al desempeño efectivo de un puesto en otra Administración pública?",
+    "opciones":["Servicios especiales","Servicio en otras Administraciones públicas","Excedencia voluntaria","Suspensión provisional"],
+    "correcta":1,
+    "justificacion":"La situación específica es servicio en otras Administraciones públicas.",
+    "trampa":"Servicios especiales se reserva a cargos y funciones legalmente enumerados.",
+    "referencia":"manual.md#9-situaciones-administrativas"
+  },
+  {
+    "id":"DIP-T18-010",
+    "pregunta":"La suspensión provisional de funciones tiene naturaleza:",
+    "opciones":["Retributiva","Cautelar","Premial","Definitiva"],
+    "correcta":1,
+    "justificacion":"La suspensión provisional es una medida cautelar durante un procedimiento penal o disciplinario.",
+    "trampa":"La suspensión firme sí deriva de sentencia o sanción definitiva.",
+    "referencia":"manual.md#94-suspensión-de-funciones"
+  },
+  {
+    "id":"DIP-T18-011",
+    "pregunta":"La movilidad por violencia de género debe garantizar especialmente:",
+    "opciones":["La publicidad del nuevo destino","La intimidad y los datos personales de la víctima","La libre designación del puesto","La pérdida de antigüedad"],
+    "correcta":1,
+    "justificacion":"La regulación protege especialmente la intimidad y los datos personales de la víctima.",
+    "trampa":"La protección exige confidencialidad, no publicidad del destino.",
+    "referencia":"manual.md#62-movilidad-por-violencia-de-género"
+  },
+  {
+    "id":"DIP-T18-012",
+    "pregunta":"El reingreso al servicio activo puede producirse, cuando legalmente proceda, mediante:",
+    "opciones":["Adscripción provisional","Nombramiento eventual","Contrato menor","Delegación de firma"],
+    "correcta":0,
+    "justificacion":"La adscripción provisional es una vía legal de reingreso en determinados supuestos.",
+    "trampa":"No confundir una técnica de provisión con figuras ajenas al empleo público funcionarial.",
+    "referencia":"manual.md#10-reingreso-al-servicio-activo"
+  }
+]
