@@ -1,0 +1,51 @@
+{
+  "tema": 36,
+  "titulo": "LibreOffice 24 II. Elaboración y uso de hojas de cálculo con LibreOffice 24 Calc.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Ayuda oficial de LibreOffice Calc",
+    "Documentación oficial de LibreOffice Calc"
+  ],
+  "bloques": [
+    {"id":"T36-B01","nombre":"Concepto, interfaz, libros, hojas, celdas y rangos","cubierto":true},
+    {"id":"T36-B02","nombre":"Introducción, edición y relleno de datos","cubierto":true},
+    {"id":"T36-B03","nombre":"Fórmulas, operadores y orden de cálculo","cubierto":true},
+    {"id":"T36-B04","nombre":"Referencias relativas, absolutas y mixtas","cubierto":true},
+    {"id":"T36-B05","nombre":"Funciones matemáticas, estadísticas, lógicas y de texto","cubierto":true},
+    {"id":"T36-B06","nombre":"Errores, formato de celdas y formato condicional","cubierto":true},
+    {"id":"T36-B07","nombre":"Ordenación, filtros y validación de datos","cubierto":true},
+    {"id":"T36-B08","nombre":"Gestión de hojas, gráficos y protección","cubierto":true},
+    {"id":"T36-B09","nombre":"Impresión, áreas de impresión y exportación","cubierto":true},
+    {"id":"T36-B10","nombre":"Compatibilidad, formatos y atajos","cubierto":true}
+  ],
+  "datosTest": {
+    "formatoNativo": "ODS",
+    "inicioFormula": "=",
+    "referenciaAbsoluta": "$A$1",
+    "referenciaMixtaColumnaFija": "$A1",
+    "referenciaMixtaFilaFija": "A$1",
+    "editarCelda": "F2",
+    "alternarReferencias": "F4",
+    "insertarFuncion": "Ctrl + F2",
+    "formatoCeldas": "Ctrl + 1",
+    "recalcular": "F9",
+    "contar": "cuenta celdas numéricas",
+    "contara": "cuenta celdas no vacías",
+    "csv": "no conserva varias hojas, estilos ni gráficos"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T36-001 a DIP-T36-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "atajosYConceptosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
