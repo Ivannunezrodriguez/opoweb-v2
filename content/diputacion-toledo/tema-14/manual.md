@@ -105,20 +105,24 @@ Entre sus atribuciones se encuentran:
 
 ## 4. Funcionamiento de la Diputación
 
-El régimen de sesiones, convocatorias, quórum, votaciones y adopción de acuerdos se rige por la legislación básica local, la normativa reglamentaria y el reglamento orgánico provincial.
+El régimen de sesiones, convocatorias, quórum, votaciones y adopción de acuerdos se rige principalmente por los artículos **46 y 47 de la Ley 7/1985**, el ROF y el reglamento orgánico provincial.
 
 Como reglas generales:
 
-- el Pleno celebra sesiones ordinarias con la periodicidad establecida legalmente;
-- las sesiones extraordinarias pueden convocarse por la Presidencia o a solicitud del número legalmente exigido de diputados;
-- los acuerdos se adoptan, como regla general, por mayoría simple de los miembros presentes;
-- determinados asuntos exigen mayoría absoluta del número legal de miembros.
+- el Pleno de la Diputación celebra sesión ordinaria, como mínimo, **una vez al mes**;
+- la sesión extraordinaria puede ser convocada por la Presidencia o solicitada por, al menos, **una cuarta parte del número legal de miembros**, sin que ningún diputado pueda solicitar más de **tres** al año;
+- la celebración de la sesión extraordinaria solicitada por los miembros no puede demorarse más de **quince días hábiles** desde su solicitud;
+- para la válida constitución del Pleno se exige la asistencia de **un tercio del número legal de miembros**, que nunca puede ser inferior a tres, y deben estar presentes la Presidencia y la Secretaría o quienes legalmente les sustituyan;
+- los acuerdos se adoptan, como regla general, por **mayoría simple** de los miembros presentes;
+- los asuntos expresamente enumerados en el artículo 47.2 de la Ley 7/1985 exigen **mayoría absoluta del número legal de miembros**.
+
+> ⚠️ **¡Foco Examen!:** En las Diputaciones la periodicidad ordinaria mínima del Pleno es **mensual**. La solicitud de sesión extraordinaria corresponde a **una cuarta parte**, no a un tercio, del número legal de miembros.
 
 ## 5. La Diputación Provincial de Toledo
 
 La Diputación Provincial de Toledo es la entidad de gobierno y administración de la provincia de Toledo. En la legislatura **2023-2027**, la corporación provincial está integrada por **27 diputados provinciales**.
 
-La organización política publicada por la propia institución comprende:
+A fecha de revisión de **19 de julio de 2026**, la Presidencia corresponde a **María Concepción Cedillo Tardío** y la organización política publicada por la propia institución comprende:
 
 - **Presidenta**;
 - **cuatro Vicepresidencias**;
@@ -146,7 +150,7 @@ Sus ámbitos de actuación incluyen, entre otros:
 
 ### 6.1. Elección de concejales
 
-Los concejales son elegidos por los vecinos mediante sufragio universal, igual, libre, directo y secreto. El sistema ordinario utiliza listas cerradas y bloqueadas y aplica la regla D'Hondt, con el umbral legal correspondiente.
+Los concejales son elegidos por los vecinos mediante sufragio universal, igual, libre, directo y secreto. En el sistema ordinario se emplean listas cerradas y bloqueadas y se aplica la regla D'Hondt. No se tienen en cuenta las candidaturas que no obtengan, al menos, el **5 % de los votos válidos emitidos** en la circunscripción.
 
 ### 6.2. Elección de alcaldes
 
@@ -187,13 +191,18 @@ PROVINCIA
 │   ├── Vicepresidencias
 │   ├── Junta de Gobierno
 │   └── Pleno
+├── Funcionamiento del Pleno
+│   ├── Ordinario: mínimo mensual
+│   ├── Extraordinario: solicitud de 1/4
+│   ├── Quórum: 1/3
+│   └── Acuerdos: mayoría simple / absoluta
 ├── Competencias
 │   ├── Cooperación municipal
 │   ├── Asistencia técnica, jurídica y económica
 │   ├── Servicios supramunicipales
 │   └── Desarrollo provincial
 └── Régimen electoral
-    ├── Concejales: elección directa
+    ├── Concejales: elección directa y umbral del 5 %
     ├── Diputados provinciales: elección indirecta
     └── Presidencia: absoluta / simple
 ```
