@@ -1,110 +1,114 @@
-[
-  {
-    "id":"DIP-T16-001",
-    "pregunta":"En una entidad local, ¿qué norma constituye la regulación básica general de la contratación pública?",
-    "opciones":["La Ley 7/1985 exclusivamente","La Ley 9/2017, de Contratos del Sector Público","El Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales","La Ley 39/2015"],
-    "correcta":1,
-    "justificacion":"La contratación local se somete principalmente a la Ley 9/2017, complementada por las especialidades del régimen local.",
-    "trampa":"Confundir la norma organizativa local con la norma contractual básica.",
-    "referencia":"Manual, apartado 1"
-  },
-  {
-    "id":"DIP-T16-002",
-    "pregunta":"Con carácter general, el Alcalde o Presidente es órgano de contratación cuando el valor estimado no supera:",
-    "opciones":["El 5 % de los recursos ordinarios y 3.000.000 €","El 10 % de los recursos ordinarios y, en todo caso, 6.000.000 €","El 15 % de los recursos ordinarios sin límite absoluto","El 20 % de los recursos ordinarios y 12.000.000 €"],
-    "correcta":1,
-    "justificacion":"La disposición adicional segunda de la LCSP fija el límite del 10 % de los recursos ordinarios y, en todo caso, 6.000.000 €.",
-    "trampa":"Alterar el porcentaje o eliminar el límite absoluto.",
-    "referencia":"Manual, apartado 3.1"
-  },
-  {
-    "id":"DIP-T16-003",
-    "pregunta":"La mesa de contratación en una entidad local:",
-    "opciones":["Adjudica siempre el contrato","Sustituye al órgano de contratación","Es un órgano de asistencia técnica especializada","Solo existe en contratos de obras"],
-    "correcta":2,
-    "justificacion":"La mesa asiste al órgano de contratación y formula propuestas, pero no adjudica por sí misma.",
-    "trampa":"Atribuirle la decisión final de adjudicación.",
-    "referencia":"Manual, apartado 3.4"
-  },
-  {
-    "id":"DIP-T16-004",
-    "pregunta":"¿Qué magnitud se calcula, con carácter general, sin incluir el IVA?",
-    "opciones":["El presupuesto base de licitación","El valor estimado del contrato","La factura final","La certificación de obra"],
-    "correcta":1,
-    "justificacion":"El valor estimado se calcula sin IVA; el presupuesto base de licitación incluye el IVA como partida independiente.",
-    "trampa":"Intercambiar valor estimado y presupuesto base de licitación.",
-    "referencia":"Manual, apartado 4"
-  },
-  {
-    "id":"DIP-T16-005",
-    "pregunta":"La adjudicación de los contratos públicos se basa, como regla general, en:",
-    "opciones":["La oferta de menor precio necesariamente","La antigüedad de la empresa","La mejor relación calidad-precio","La proximidad territorial del licitador"],
-    "correcta":2,
-    "justificacion":"La LCSP establece como regla general la mejor relación calidad-precio mediante criterios vinculados al objeto del contrato.",
-    "trampa":"Identificar automáticamente mejor oferta con precio más bajo.",
-    "referencia":"Manual, apartado 5"
-  },
-  {
-    "id":"DIP-T16-006",
-    "pregunta":"La garantía definitiva ordinaria asciende, con carácter general, al:",
-    "opciones":["3 % del presupuesto base con IVA","5 % del precio final ofertado, excluido el IVA","10 % del valor estimado","5 % del presupuesto base con IVA"],
-    "correcta":1,
-    "justificacion":"La garantía definitiva ordinaria es el 5 % del precio final ofertado, excluido el IVA.",
-    "trampa":"Calcularla sobre presupuesto base o incluir IVA.",
-    "referencia":"Manual, apartado 6.2"
-  },
-  {
-    "id":"DIP-T16-007",
-    "pregunta":"Cuando el contrato es susceptible de recurso especial, la formalización no puede efectuarse antes de que transcurran:",
-    "opciones":["10 días naturales","15 días hábiles","20 días hábiles","1 mes"],
-    "correcta":1,
-    "justificacion":"La LCSP establece un plazo de espera de 15 días hábiles desde la remisión de la notificación de adjudicación cuando resulta aplicable.",
-    "trampa":"Cambiar días hábiles por naturales.",
-    "referencia":"Manual, apartado 5.4"
-  },
-  {
-    "id":"DIP-T16-008",
-    "pregunta":"Las modificaciones previstas en los pliegos pueden alcanzar acumuladamente, como máximo general:",
-    "opciones":["El 10 % del precio inicial","El 15 % del precio inicial","El 20 % del precio inicial","El 25 % del valor estimado"],
-    "correcta":2,
-    "justificacion":"La modificación prevista puede alcanzar como máximo acumulado el 20 % del precio inicial.",
-    "trampa":"Confundir este límite con otros porcentajes de modificación no prevista.",
-    "referencia":"Manual, apartado 9"
-  },
-  {
-    "id":"DIP-T16-009",
-    "pregunta":"Para la revisión periódica y predeterminada de precios, la regla general exige:",
-    "opciones":["10 % ejecutado y 1 año","20 % ejecutado y 2 años desde la formalización","25 % ejecutado y 3 años","Que el contrato esté íntegramente ejecutado"],
-    "correcta":1,
-    "justificacion":"Como regla general, debe haberse ejecutado al menos el 20 % y transcurrido 2 años desde la formalización.",
-    "trampa":"Reducir ambos umbrales.",
-    "referencia":"Manual, apartado 11"
-  },
-  {
-    "id":"DIP-T16-010",
-    "pregunta":"La suspensión del contrato:",
-    "opciones":["Extingue siempre el contrato","Nunca genera indemnización","Debe documentarse en acta y puede generar indemnización","Solo puede acordarla el contratista"],
-    "correcta":2,
-    "justificacion":"La suspensión es una paralización temporal que debe documentarse y puede dar lugar a indemnización por daños acreditados.",
-    "trampa":"Equiparar suspensión con resolución.",
-    "referencia":"Manual, apartado 10"
-  },
-  {
-    "id":"DIP-T16-011",
-    "pregunta":"Los contratos se extinguen por:",
-    "opciones":["Caducidad y desistimiento exclusivamente","Cumplimiento o resolución","Solo por cumplimiento","Solo por mutuo acuerdo"],
-    "correcta":1,
-    "justificacion":"La LCSP establece como formas generales de extinción el cumplimiento y la resolución.",
-    "trampa":"Reducir la extinción a una sola causa.",
-    "referencia":"Manual, apartado 13"
-  },
-  {
-    "id":"DIP-T16-012",
-    "pregunta":"Con carácter general, la Administración debe abonar el precio dentro de:",
-    "opciones":["15 días","20 días","30 días","60 días"],
-    "correcta":2,
-    "justificacion":"El pago debe efectuarse dentro de los 30 días siguientes a la aprobación de la certificación o documento de conformidad.",
-    "trampa":"Confundir plazo de pago con otros plazos de recepción o formalización.",
-    "referencia":"Manual, apartado 8.1"
-  }
-]
+{
+  "tema": 16,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T16-001",
+      "pregunta": "En una entidad local, ¿qué norma constituye la regulación básica general de la contratación pública?",
+      "opciones": ["La Ley 7/1985 exclusivamente", "La Ley 9/2017, de Contratos del Sector Público", "El Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales", "La Ley 39/2015"],
+      "correcta": 1,
+      "justificacion": "La contratación de las entidades locales se somete principalmente a la Ley 9/2017, de Contratos del Sector Público, completada por las especialidades del régimen local.",
+      "trampa": "No debe confundirse la normativa organizativa local con la norma contractual básica.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#1-marco-normativo"
+    },
+    {
+      "id": "DIP-T16-002",
+      "pregunta": "Con carácter general, el Alcalde o Presidente es órgano de contratación cuando el valor estimado no supera:",
+      "opciones": ["El 5 % de los recursos ordinarios y 3.000.000 €", "El 10 % de los recursos ordinarios y, en todo caso, 6.000.000 €", "El 15 % de los recursos ordinarios sin límite absoluto", "El 20 % de los recursos ordinarios y 12.000.000 €"],
+      "correcta": 1,
+      "justificacion": "La disposición adicional segunda de la Ley 9/2017 atribuye la competencia al Alcalde o Presidente cuando el valor estimado no supera el 10 % de los recursos ordinarios del presupuesto ni, en ningún caso, 6.000.000 de euros.",
+      "trampa": "La regla combina un límite porcentual y otro absoluto; deben cumplirse ambos.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#31-alcalde-o-presidente"
+    },
+    {
+      "id": "DIP-T16-003",
+      "pregunta": "La mesa de contratación en una entidad local:",
+      "opciones": ["Adjudica siempre el contrato", "Sustituye al órgano de contratación", "Es un órgano de asistencia técnica especializada", "Solo existe en contratos de obras"],
+      "correcta": 2,
+      "justificacion": "La mesa de contratación es un órgano de asistencia técnica especializada que formula propuestas al órgano de contratación, pero no adjudica por sí misma.",
+      "trampa": "La propuesta de la mesa no equivale a la decisión final de adjudicación.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#34-mesa-de-contratación"
+    },
+    {
+      "id": "DIP-T16-004",
+      "pregunta": "¿Qué magnitud se calcula, con carácter general, sin incluir el IVA?",
+      "opciones": ["El presupuesto base de licitación", "El valor estimado del contrato", "La factura final", "La certificación de obra"],
+      "correcta": 1,
+      "justificacion": "El valor estimado del contrato se calcula sin IVA, mientras que el presupuesto base de licitación incluye el IVA como partida independiente.",
+      "trampa": "No deben intercambiarse valor estimado y presupuesto base de licitación.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#4-preparación-del-contrato"
+    },
+    {
+      "id": "DIP-T16-005",
+      "pregunta": "La adjudicación de los contratos públicos se basa, como regla general, en:",
+      "opciones": ["La oferta de menor precio necesariamente", "La antigüedad de la empresa", "La mejor relación calidad-precio", "La proximidad territorial del licitador"],
+      "correcta": 2,
+      "justificacion": "La Ley 9/2017 establece como regla general la adjudicación mediante una pluralidad de criterios basada en la mejor relación calidad-precio.",
+      "trampa": "La oferta económicamente más barata no resulta adjudicataria de forma automática.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#52-procedimientos-de-adjudicación"
+    },
+    {
+      "id": "DIP-T16-006",
+      "pregunta": "La garantía definitiva ordinaria asciende, con carácter general, al:",
+      "opciones": ["3 % del presupuesto base con IVA", "5 % del precio final ofertado, excluido el IVA", "10 % del valor estimado", "5 % del presupuesto base con IVA"],
+      "correcta": 1,
+      "justificacion": "La garantía definitiva ordinaria equivale al 5 % del precio final ofertado por el licitador, excluido el IVA.",
+      "trampa": "La base de cálculo no es el presupuesto base de licitación y no incluye el IVA.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#62-garantía-definitiva"
+    },
+    {
+      "id": "DIP-T16-007",
+      "pregunta": "Cuando el contrato es susceptible de recurso especial, la formalización no puede efectuarse antes de que transcurran:",
+      "opciones": ["10 días naturales", "15 días hábiles", "20 días hábiles", "1 mes"],
+      "correcta": 1,
+      "justificacion": "En contratos susceptibles de recurso especial, la formalización no puede efectuarse antes de que transcurran 15 días hábiles desde la remisión de la notificación de adjudicación.",
+      "trampa": "El plazo se expresa en días hábiles, no naturales.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#54-adjudicación-y-formalización"
+    },
+    {
+      "id": "DIP-T16-008",
+      "pregunta": "Las modificaciones previstas en los pliegos pueden alcanzar acumuladamente, como máximo general:",
+      "opciones": ["El 10 % del precio inicial", "El 15 % del precio inicial", "El 20 % del precio inicial", "El 25 % del valor estimado"],
+      "correcta": 2,
+      "justificacion": "Las modificaciones previstas de forma clara, precisa e inequívoca en los pliegos pueden alcanzar, como máximo acumulado, el 20 % del precio inicial.",
+      "trampa": "Este límite no debe confundirse con los requisitos y porcentajes aplicables a modificaciones no previstas.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#9-modificación"
+    },
+    {
+      "id": "DIP-T16-009",
+      "pregunta": "Para la revisión periódica y predeterminada de precios, la regla general exige:",
+      "opciones": ["10 % ejecutado y 1 año", "20 % ejecutado y 2 años desde la formalización", "25 % ejecutado y 3 años", "Que el contrato esté íntegramente ejecutado"],
+      "correcta": 1,
+      "justificacion": "Como regla general, debe haberse ejecutado al menos el 20 % del importe del contrato y haber transcurrido 2 años desde su formalización.",
+      "trampa": "Los dos requisitos son acumulativos y no deben reducirse sus umbrales.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#11-revisión-de-precios"
+    },
+    {
+      "id": "DIP-T16-010",
+      "pregunta": "La suspensión del contrato:",
+      "opciones": ["Extingue siempre el contrato", "Nunca genera indemnización", "Debe documentarse en acta y puede generar indemnización", "Solo puede acordarla el contratista"],
+      "correcta": 2,
+      "justificacion": "La suspensión es una paralización temporal que debe documentarse en acta y puede generar indemnización por los daños efectivamente sufridos y acreditados.",
+      "trampa": "La suspensión no equivale a la resolución ni extingue automáticamente el contrato.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#10-suspensión"
+    },
+    {
+      "id": "DIP-T16-011",
+      "pregunta": "Los contratos se extinguen por:",
+      "opciones": ["Caducidad y desistimiento exclusivamente", "Cumplimiento o resolución", "Solo por cumplimiento", "Solo por mutuo acuerdo"],
+      "correcta": 1,
+      "justificacion": "La Ley 9/2017 establece como formas generales de extinción de los contratos el cumplimiento y la resolución.",
+      "trampa": "La extinción contractual no se reduce a una sola causa ni al mutuo acuerdo.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#13-extinción-de-los-contratos"
+    },
+    {
+      "id": "DIP-T16-012",
+      "pregunta": "Con carácter general, la Administración debe abonar el precio dentro de:",
+      "opciones": ["15 días", "20 días", "30 días", "60 días"],
+      "correcta": 2,
+      "justificacion": "La Administración debe abonar el precio dentro de los 30 días siguientes a la aprobación de la certificación de obra o del documento que acredite la conformidad con la prestación.",
+      "trampa": "No debe confundirse el plazo de pago con los de recepción, adjudicación o formalización.",
+      "referencia": "content/diputacion-toledo/tema-16/manual.md#81-pago"
+    }
+  ]
+}
