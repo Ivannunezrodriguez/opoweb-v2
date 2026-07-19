@@ -1,0 +1,50 @@
+{
+  "tema": 40,
+  "titulo": "Conceptos generales del ordenador personal II. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD y memorias USB.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Microsoft Support",
+    "USB Implementers Forum",
+    "Documentación técnica institucional y de fabricantes"
+  ],
+  "bloques": [
+    {"id":"T40-B01","nombre":"Concepto y clasificación de periféricos","cubierto":true},
+    {"id":"T40-B02","nombre":"Impresoras y tecnologías de impresión","cubierto":true},
+    {"id":"T40-B03","nombre":"Escáneres, resolución, alimentador y OCR","cubierto":true},
+    {"id":"T40-B04","nombre":"Discos duros externos HDD y SSD","cubierto":true},
+    {"id":"T40-B05","nombre":"Sistemas de archivos y extracción segura","cubierto":true},
+    {"id":"T40-B06","nombre":"Lectores y grabadores de CD y DVD","cubierto":true},
+    {"id":"T40-B07","nombre":"Capacidades y modalidades ROM, R y RW","cubierto":true},
+    {"id":"T40-B08","nombre":"Memorias USB y memoria flash","cubierto":true},
+    {"id":"T40-B09","nombre":"Interfaces, conectores, controladores y Plug and Play","cubierto":true},
+    {"id":"T40-B10","nombre":"Seguridad, conservación y copias de respaldo","cubierto":true}
+  ],
+  "datosTest": {
+    "pantallaTactil": "periférico de entrada y salida",
+    "laser": "utiliza tóner",
+    "ocr": "reconoce texto en una imagen digital",
+    "fat32": "límite de 4 GB por archivo",
+    "cd": "700 MB",
+    "dvdUnaCapa": "4,7 GB",
+    "dvdDobleCapa": "8,5 GB",
+    "r": "grabable una vez",
+    "rw": "regrabable",
+    "usbC": "forma del conector, no garantía de velocidad",
+    "driver": "permite la comunicación entre sistema operativo y dispositivo"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T40-001 a DIP-T40-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "unidadesYConceptosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
