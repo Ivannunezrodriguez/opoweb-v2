@@ -1,115 +1,115 @@
 {
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1",
   "tema": 1,
-  "version": "2026-07-18",
-  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "version": "2026-07-19",
+  "estado": "GENERACION_DESDE_CERO",
   "preguntas": [
     {
       "id": "DIP-T01-001",
       "pregunta": "¿Cuándo entró en vigor la Constitución española de 1978?",
       "opciones": ["El 6 de diciembre de 1978", "El 27 de diciembre de 1978", "El 29 de diciembre de 1978", "El 31 de octubre de 1978"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "La Constitución fue publicada en el BOE el 29 de diciembre de 1978 y su disposición final estableció la entrada en vigor el mismo día de su publicación.",
-      "trampaExamen": "No confundir el referéndum del 6 de diciembre con la entrada en vigor del 29 de diciembre.",
+      "trampa": "No confundir el referéndum del 6 de diciembre con la entrada en vigor del 29 de diciembre.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#11-concepto-y-significado"
     },
     {
       "id": "DIP-T01-002",
       "pregunta": "¿Cuál de los siguientes NO es un valor superior del ordenamiento jurídico enumerado en el artículo 1.1 de la Constitución?",
       "opciones": ["Libertad", "Seguridad jurídica", "Justicia", "Pluralismo político"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El artículo 1.1 enumera libertad, justicia, igualdad y pluralismo político. La seguridad jurídica aparece entre las garantías del artículo 9.3.",
-      "trampaExamen": "La seguridad jurídica es constitucional, pero no pertenece a la lista cerrada de valores superiores del artículo 1.1.",
+      "trampa": "La seguridad jurídica es constitucional, pero no pertenece a la lista cerrada de valores superiores del artículo 1.1.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#31-estado-social-y-democrático-de-derecho"
     },
     {
       "id": "DIP-T01-003",
       "pregunta": "¿Dónde reside la soberanía nacional según la Constitución?",
       "opciones": ["En las Cortes Generales", "En el Rey", "En el pueblo español", "En el conjunto de comunidades autónomas"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "El artículo 1.2 dispone que la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.",
-      "trampaExamen": "Las Cortes representan al pueblo, pero no son las titulares de la soberanía nacional.",
+      "trampa": "Las Cortes representan al pueblo, pero no son las titulares de la soberanía nacional.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#32-soberanía-nacional"
     },
     {
       "id": "DIP-T01-004",
       "pregunta": "¿Cuál es la forma política del Estado español?",
       "opciones": ["Monarquía constitucional", "Monarquía parlamentaria", "República parlamentaria", "Estado autonómico"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El artículo 1.3 establece literalmente que la forma política del Estado español es la Monarquía parlamentaria.",
-      "trampaExamen": "La expresión literal es forma política, no forma de gobierno ni simplemente Monarquía constitucional.",
+      "trampa": "La expresión literal es forma política, no forma de gobierno ni simplemente Monarquía constitucional.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#33-forma-política-del-estado"
     },
     {
       "id": "DIP-T01-005",
       "pregunta": "¿Cuántos artículos contiene la Constitución española?",
       "opciones": ["168", "169", "170", "171"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La Constitución contiene 169 artículos, distribuidos entre el Título Preliminar y los Títulos I a X.",
-      "trampaExamen": "El último artículo es el 169; el número de títulos numerados es diez, además del Título Preliminar.",
+      "trampa": "El último artículo es el 169; el número de títulos numerados es diez, además del Título Preliminar.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#21-estructura-general"
     },
     {
       "id": "DIP-T01-006",
       "pregunta": "¿Cuál es el mandato de los magistrados del Tribunal Constitucional?",
       "opciones": ["Tres años", "Seis años", "Nueve años", "Doce años"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "Los magistrados del Tribunal Constitucional son designados por nueve años y el órgano se renueva por terceras partes cada tres años.",
-      "trampaExamen": "Los tres años corresponden a la renovación parcial y al mandato de la Presidencia, no al mandato de cada magistrado.",
+      "trampa": "Los tres años corresponden a la renovación parcial y al mandato de la Presidencia, no al mandato de cada magistrado.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#52-composición"
     },
     {
       "id": "DIP-T01-007",
       "pregunta": "¿Cuántos miembros del Tribunal Constitucional propone el Congreso de los Diputados?",
       "opciones": ["Dos", "Tres", "Cuatro", "Seis"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "El Congreso propone cuatro magistrados por mayoría de tres quintos de sus miembros. El Senado propone otros cuatro con la misma mayoría.",
-      "trampaExamen": "Gobierno y Consejo General del Poder Judicial proponen dos cada uno; Congreso y Senado, cuatro cada uno.",
+      "trampa": "Gobierno y Consejo General del Poder Judicial proponen dos cada uno; Congreso y Senado, cuatro cada uno.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#52-composición"
     },
     {
       "id": "DIP-T01-008",
       "pregunta": "¿Quiénes están legitimados parlamentariamente para interponer recurso de inconstitucionalidad?",
       "opciones": ["25 diputados o 25 senadores", "50 diputados o 50 senadores", "Una décima parte de cada Cámara", "Cualquier grupo parlamentario"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La Constitución legitima a cincuenta diputados y a cincuenta senadores para interponer recurso de inconstitucionalidad.",
-      "trampaExamen": "La décima parte de una Cámara se relaciona con la petición de referéndum en la reforma ordinaria, no con este recurso.",
+      "trampa": "La décima parte de una Cámara se relaciona con la petición de referéndum en la reforma ordinaria, no con este recurso.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#56-recurso-de-inconstitucionalidad"
     },
     {
       "id": "DIP-T01-009",
       "pregunta": "En el procedimiento ordinario de reforma constitucional, ¿qué mayoría se exige con carácter general en cada Cámara?",
       "opciones": ["Mayoría absoluta", "Tres quintos", "Dos tercios", "Mayoría simple"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El artículo 167 exige como regla general la aprobación por mayoría de tres quintos de cada Cámara.",
-      "trampaExamen": "Los dos tercios son característicos del procedimiento agravado del artículo 168 y de una alternativa final en el Congreso bajo condiciones específicas.",
+      "trampa": "Los dos tercios son característicos del procedimiento agravado del artículo 168 y de una alternativa final en el Congreso bajo condiciones específicas.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#62-procedimiento-ordinario-del-artículo-167"
     },
     {
       "id": "DIP-T01-010",
       "pregunta": "¿En qué plazo puede solicitar una décima parte de cualquiera de las Cámaras el referéndum sobre una reforma aprobada por el artículo 167?",
       "opciones": ["Diez días", "Quince días", "Veinte días", "Un mes"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La solicitud debe formularse dentro de los quince días siguientes a la aprobación de la reforma.",
-      "trampaExamen": "El referéndum del artículo 167 es facultativo y el plazo exacto es de quince días.",
+      "trampa": "El referéndum del artículo 167 es facultativo y el plazo exacto es de quince días.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#62-procedimiento-ordinario-del-artículo-167"
     },
     {
       "id": "DIP-T01-011",
       "pregunta": "¿Cuál de estas materias activa el procedimiento agravado del artículo 168?",
       "opciones": ["Cualquier modificación del Título I", "Una reforma de la Sección 1.ª del Capítulo II del Título I", "Toda modificación tributaria", "La reforma de cualquier ley orgánica"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El artículo 168 protege la revisión total, el Título Preliminar, la Sección 1.ª del Capítulo II del Título I y el Título II.",
-      "trampaExamen": "No todo el Título I queda sometido al procedimiento agravado, sino la sección específicamente indicada.",
+      "trampa": "No todo el Título I queda sometido al procedimiento agravado, sino la sección específicamente indicada.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#63-procedimiento-agravado-del-artículo-168"
     },
     {
       "id": "DIP-T01-012",
       "pregunta": "¿Cuántas reformas ha experimentado la Constitución española hasta julio de 2026?",
       "opciones": ["Una", "Dos", "Tres", "Cuatro"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "Hasta julio de 2026 se han reformado el artículo 13.2 en 1992, el artículo 135 en 2011 y el artículo 49 en 2024.",
-      "trampaExamen": "La reforma del artículo 49 en 2024 elevó el total histórico de reformas constitucionales a tres.",
+      "trampa": "La reforma del artículo 49 en 2024 elevó el total histórico de reformas constitucionales a tres.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#65-reformas-efectuadas"
     }
   ]
