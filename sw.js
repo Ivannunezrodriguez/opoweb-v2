@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.20.6';
+const CACHE = 'opoweb-v2-0.21.0';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -11,14 +11,15 @@ const CORE_ASSETS = [
   './assets/practice.js',
   './assets/icon.svg',
   './data/programa.json',
+  './data/programa-diputacion-administrativo-2026.json',
   './data/seguimiento-la-puebla.json',
   './content/la-puebla/supuestos-practicos.json',
   './content/la-puebla/simulacros.json'
 ];
 
-async function themeAssets() {
+async function programmeAssets(url, contentRoot, availableThemes) {
   try {
-    const response = await fetch('./data/programa.json', { cache: 'no-cache' });
+    const response = await fetch(url, { cache: 'no-cache' });
     if (!response.ok) return [];
     const programme = await response.json();
     const paths = new Set();
@@ -29,6 +30,13 @@ async function themeAssets() {
       ['capitulos', 'subcapitulos', 'trazabilidadDetallada'].forEach(key => {
         (theme[key] || []).forEach(path => paths.add(`./${path}`));
       });
+      if (!theme.manual && theme.numero <= availableThemes) {
+        const folder = `tema-${String(theme.numero).padStart(2, '0')}`;
+        paths.add(`./${contentRoot}/${folder}/manual.md`);
+        paths.add(`./${contentRoot}/${folder}/fuentes.md`);
+        paths.add(`./${contentRoot}/${folder}/matriz.json`);
+        paths.add(`./${contentRoot}/${folder}/preguntas.json`);
+      }
     });
     return [...paths];
   } catch (_) {
@@ -36,20 +44,26 @@ async function themeAssets() {
   }
 }
 
+async function optionalAssets() {
+  const groups = await Promise.all([
+    programmeAssets('./data/programa.json', 'content/la-puebla', 19),
+    programmeAssets('./data/programa-diputacion-administrativo-2026.json', 'content/diputacion-toledo', 25)
+  ]);
+  return [...new Set(groups.flat())];
+}
+
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
     const cache = await caches.open(CACHE);
     await cache.addAll(CORE_ASSETS);
-    const optionalAssets = await themeAssets();
-    await Promise.allSettled(optionalAssets.map(path => cache.add(path)));
+    const assets = await optionalAssets();
+    await Promise.allSettled(assets.map(path => cache.add(path)));
   })());
   self.skipWaiting();
 });
 
 self.addEventListener('activate', event => {
-  event.waitUntil(
-    caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))
-  );
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))));
   self.clients.claim();
 });
 
