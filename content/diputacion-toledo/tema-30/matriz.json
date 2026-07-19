@@ -1,0 +1,50 @@
+{
+  "tema": 30,
+  "titulo": "Impuesto sobre Vehículos de Tracción Mecánica: naturaleza, hecho imponible, sujeto pasivo, base imponible, cuota, devengo y gestión. El Impuesto sobre el Incremento del Valor de los Terrenos de Naturaleza Urbana: naturaleza y hecho imponible. Las tasas: concepto, hecho imponible, sujetos pasivos, devengo y base imponible.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Real Decreto Legislativo 2/2004, de 5 de marzo",
+    "Ley 58/2003, de 17 de diciembre",
+    "Real Decreto 2822/1998, de 23 de diciembre"
+  ],
+  "bloques": [
+    {"id":"T30-B01","nombre":"Naturaleza, hecho imponible y no sujeción del IVTM","cubierto":true},
+    {"id":"T30-B02","nombre":"Exenciones y sujeto pasivo del IVTM","cubierto":true},
+    {"id":"T30-B03","nombre":"Cuota, devengo, prorrateo y gestión del IVTM","cubierto":true},
+    {"id":"T30-B04","nombre":"Naturaleza y hecho imponible del IIVTNU","cubierto":true},
+    {"id":"T30-B05","nombre":"No sujeción por inexistencia de incremento","cubierto":true},
+    {"id":"T30-B06","nombre":"Sujetos pasivos, base, cuota y devengo del IIVTNU","cubierto":true},
+    {"id":"T30-B07","nombre":"Concepto y hecho imponible de las tasas","cubierto":true},
+    {"id":"T30-B08","nombre":"Servicios no sujetos a tasa","cubierto":true},
+    {"id":"T30-B09","nombre":"Sujetos pasivos y devengo de las tasas","cubierto":true},
+    {"id":"T30-B10","nombre":"Base imponible y cuantía de las tasas","cubierto":true}
+  ],
+  "datosTest": {
+    "ivtmRemolquesNoSujetos": "hasta 750 kg de carga útil",
+    "ivtmCoeficienteMaximo": "2",
+    "ivtmBonificacionMaxima": "75 %",
+    "ivtmDevengo": "1 de enero",
+    "ivtmProrrateo": "trimestres naturales",
+    "iivtnuPeriodoMaximo": "20 años",
+    "iivtnuTipoMaximo": "30 %",
+    "iivtnuOnerosa": "transmitente",
+    "iivtnuLucrativa": "adquirente",
+    "tasasServicios": "importe total no superior al coste real o previsible"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T30-001 a DIP-T30-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "plazosPorcentajesCuantiasYOrganosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "actualizacionTRLHL": "2026-06-03",
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
