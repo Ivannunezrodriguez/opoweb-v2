@@ -1,0 +1,51 @@
+{
+  "tema": 28,
+  "titulo": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales. Ficheros y datos. Funciones de la Agencia Española de Protección de Datos de carácter personal. La transparencia y buen gobierno. Obligación de suministrar información. Principios del buen gobierno.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Reglamento (UE) 2016/679, de 27 de abril de 2016",
+    "Ley Orgánica 3/2018, de 5 de diciembre",
+    "Ley 19/2013, de 9 de diciembre"
+  ],
+  "bloques": [
+    {"id":"T28-B01","nombre":"Conceptos de dato personal, tratamiento, fichero y registro de actividades","cubierto":true},
+    {"id":"T28-B02","nombre":"Principios y licitud del tratamiento","cubierto":true},
+    {"id":"T28-B03","nombre":"Categorías especiales y consentimiento de menores","cubierto":true},
+    {"id":"T28-B04","nombre":"Derechos de las personas","cubierto":true},
+    {"id":"T28-B05","nombre":"Responsable, encargado y delegado de protección de datos","cubierto":true},
+    {"id":"T28-B06","nombre":"Seguridad y violaciones de datos","cubierto":true},
+    {"id":"T28-B07","nombre":"Agencia Española de Protección de Datos","cubierto":true},
+    {"id":"T28-B08","nombre":"Publicidad activa y obligación de suministrar información","cubierto":true},
+    {"id":"T28-B09","nombre":"Derecho de acceso, límites y protección de datos","cubierto":true},
+    {"id":"T28-B10","nombre":"Principios y responsabilidad de buen gobierno","cubierto":true}
+  ],
+  "datosTest": {
+    "consentimientoMenor": "14 años",
+    "respuestaDerechos": "1 mes",
+    "ampliacionDerechos": "2 meses adicionales",
+    "notificacionBrecha": "72 horas",
+    "resolucionAcceso": "1 mes",
+    "ampliacionAcceso": "otro mes",
+    "silencioAcceso": "desestimatorio",
+    "autoridadControl": "Agencia Española de Protección de Datos",
+    "obligacionSuministro": "previo requerimiento",
+    "administracionesPublicas": "designación obligatoria de delegado de protección de datos"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T28-001 a DIP-T28-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "plazosEdadesYOrganosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "actualizacionLOPDGDD": "2025-12-27",
+    "actualizacionLey192013": "2022-07-09",
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
