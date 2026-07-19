@@ -1,0 +1,122 @@
+[
+  {
+    "id":"DIP-T30-001",
+    "tema":30,
+    "pregunta":"¿Qué naturaleza tiene el IVTM dentro del sistema tributario local?",
+    "opciones":["Impuesto municipal potestativo","Impuesto municipal obligatorio","Tasa provincial","Contribución especial"],
+    "correcta":1,
+    "justificacion":"El IVTM es un impuesto municipal de exacción obligatoria.",
+    "trampa":"No confundirlo con el IIVTNU, que es potestativo.",
+    "referencia":"Manual, apartado 1"
+  },
+  {
+    "id":"DIP-T30-002",
+    "tema":30,
+    "pregunta":"Los remolques y semirremolques no están sujetos al IVTM cuando su carga útil no excede de:",
+    "opciones":["500 kg","750 kg","1.000 kg","3.500 kg"],
+    "correcta":1,
+    "justificacion":"La no sujeción se aplica hasta 750 kilogramos de carga útil.",
+    "trampa":"La norma habla de carga útil, no de masa máxima autorizada.",
+    "referencia":"Manual, apartado 3.1"
+  },
+  {
+    "id":"DIP-T30-003",
+    "tema":30,
+    "pregunta":"Es sujeto pasivo del IVTM, con carácter general:",
+    "opciones":["Quien conduce habitualmente","Quien figura como titular en el permiso de circulación","El propietario civil aunque no figure registrado","La compañía aseguradora"],
+    "correcta":1,
+    "justificacion":"La condición de sujeto pasivo se conecta al nombre que consta en el permiso de circulación.",
+    "trampa":"Uso material y titularidad registral pueden no coincidir.",
+    "referencia":"Manual, apartado 5"
+  },
+  {
+    "id":"DIP-T30-004",
+    "tema":30,
+    "pregunta":"El coeficiente máximo con el que un ayuntamiento puede incrementar las cuotas legales del IVTM es:",
+    "opciones":["1,5","2","3","3,8"],
+    "correcta":1,
+    "justificacion":"El coeficiente municipal no puede exceder de 2.",
+    "trampa":"El 3,8 es una cifra propia del coeficiente de situación del IAE, no del IVTM.",
+    "referencia":"Manual, apartado 6"
+  },
+  {
+    "id":"DIP-T30-005",
+    "tema":30,
+    "pregunta":"El IVTM se devenga ordinariamente:",
+    "opciones":["El 31 de diciembre","El 1 de enero","El día de pago","El 1 de julio"],
+    "correcta":1,
+    "justificacion":"El impuesto se devenga el 1 de enero de cada año, salvo primera adquisición.",
+    "trampa":"Devengo y fecha de cobro del recibo no son lo mismo.",
+    "referencia":"Manual, apartado 7"
+  },
+  {
+    "id":"DIP-T30-006",
+    "tema":30,
+    "pregunta":"La cuota del IVTM se prorratea, cuando procede, por:",
+    "opciones":["Días naturales","Meses completos","Trimestres naturales","Semestres"],
+    "correcta":2,
+    "justificacion":"El prorrateo legal se realiza por trimestres naturales.",
+    "trampa":"No se calcula por días ni por meses.",
+    "referencia":"Manual, apartado 7"
+  },
+  {
+    "id":"DIP-T30-007",
+    "tema":30,
+    "pregunta":"En una compraventa sujeta al IIVTNU, el sujeto pasivo es, con carácter general:",
+    "opciones":["El adquirente","El transmitente","El notario","El ayuntamiento"],
+    "correcta":1,
+    "justificacion":"En transmisiones onerosas, el contribuyente es el transmitente.",
+    "trampa":"En transmisiones lucrativas la regla cambia y paga el adquirente.",
+    "referencia":"Manual, apartado 12"
+  },
+  {
+    "id":"DIP-T30-008",
+    "tema":30,
+    "pregunta":"En una herencia sujeta al IIVTNU, el sujeto pasivo es:",
+    "opciones":["El causante","El adquirente o heredero","El registrador","La comunidad autónoma"],
+    "correcta":1,
+    "justificacion":"En transmisiones lucrativas, el sujeto pasivo es quien adquiere el terreno o derecho.",
+    "trampa":"No aplicar la regla de las transmisiones onerosas.",
+    "referencia":"Manual, apartado 12"
+  },
+  {
+    "id":"DIP-T30-009",
+    "tema":30,
+    "pregunta":"¿Cuál es el periodo máximo de generación computable en el IIVTNU?",
+    "opciones":["10 años","15 años","20 años","30 años"],
+    "correcta":2,
+    "justificacion":"El periodo de generación no puede exceder de 20 años.",
+    "trampa":"No confundirlo con plazos de prescripción tributaria.",
+    "referencia":"Manual, apartado 10"
+  },
+  {
+    "id":"DIP-T30-010",
+    "tema":30,
+    "pregunta":"El tipo de gravamen máximo del IIVTNU es del:",
+    "opciones":["20 %","25 %","30 %","35 %"],
+    "correcta":2,
+    "justificacion":"El tipo fijado por el ayuntamiento no puede exceder del 30 %.",
+    "trampa":"No confundir tipo de gravamen con coeficientes de generación.",
+    "referencia":"Manual, apartado 13"
+  },
+  {
+    "id":"DIP-T30-011",
+    "tema":30,
+    "pregunta":"¿Por cuál de los siguientes servicios no puede exigirse una tasa local?",
+    "opciones":["Recogida de residuos","Expedición de licencias","Limpieza de la vía pública","Ocupación del dominio público"],
+    "correcta":2,
+    "justificacion":"La limpieza de la vía pública figura entre los servicios por los que no pueden exigirse tasas.",
+    "trampa":"La recogida de residuos sí puede financiarse mediante tasa.",
+    "referencia":"Manual, apartado 16.1"
+  },
+  {
+    "id":"DIP-T30-012",
+    "tema":30,
+    "pregunta":"En las tasas por prestación de servicios, el importe total no puede exceder, en conjunto, de:",
+    "opciones":["El beneficio empresarial medio","El coste real o previsible del servicio o actividad","El valor catastral del inmueble","La cuota del IBI"],
+    "correcta":1,
+    "justificacion":"La cuantía total de las tasas por servicios se limita al coste real o previsible o al valor de la prestación recibida.",
+    "trampa":"Una tasa no se fija libremente con finalidad lucrativa.",
+    "referencia":"Manual, apartado 19.2"
+  }
+]
