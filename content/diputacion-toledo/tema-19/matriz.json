@@ -1,0 +1,39 @@
+{
+  "tema": 19,
+  "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: régimen disciplinario.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrincipal": "Ley 4/2011, de 10 de marzo, del Empleo Público de Castilla-La Mancha",
+  "ultimaActualizacionFuente": "2024-03-21",
+  "articulosClave": [127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145],
+  "bloques": [
+    "principios",
+    "faltas",
+    "sanciones",
+    "responsables",
+    "extincion",
+    "prescripcion",
+    "cancelacion",
+    "procedimiento"
+  ],
+  "datosTest": {
+    "prescripcionFaltaMuyGrave": "3 años",
+    "prescripcionFaltaGrave": "2 años",
+    "prescripcionFaltaLeve": "6 meses",
+    "prescripcionSancionMuyGrave": "3 años",
+    "prescripcionSancionGrave": "2 años",
+    "prescripcionSancionLeve": "1 año",
+    "paralizacionQueReanudaPrescripcion": "más de 1 mes",
+    "cancelacionLeve": "1 año",
+    "cancelacionGrave": "2 años",
+    "cancelacionMuyGrave": "3 años",
+    "duracionMaximaProcedimientoGraveMuyGrave": "12 meses"
+  },
+  "controlCalidad": {
+    "literalidadDefiniciones": true,
+    "plazosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "preguntasPropias": 12,
+    "reutilizacionExterna": false
+  }
+}
