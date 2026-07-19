@@ -1,19 +1,28 @@
 # Estado de auditoría · OpoWeb v2
 
-Última actualización: **18 de julio de 2026**.
+Última actualización: **19 de julio de 2026**.
 
-## Convocatoria activa
+## Convocatorias activas
 
-**La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**  
+### La Puebla de Montalbán · Auxiliar Administrativo C2
+
 Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 2026**, CSV **2026.00001965**.
 
-## Resultado global
+Estado: **auditoría y remediación completadas, 19 de 19 temas**.
 
-**Auditoría y remediación completadas: 19 de 19 temas.**
+### Diputación Provincial de Toledo · Administrativo C1
 
-El temario base queda declarado `AUDITADO_Y_CORREGIDO` para iniciar la fase de tests, supuestos prácticos y simulacros. La corrección sustantiva pendiente del **Tema 6** ya se ha aplicado materialmente: el nombramiento de personal funcionario interino para programas temporales tiene una duración máxima total de **2 años**, no de **4 años**.
+Convocatoria de **2 plazas por oposición libre**. Bases publicadas en el BOP de Toledo número **118**, de **25 de junio de 2026**, código **2026.00002934**. Convocatoria publicada en el BOE número **162**, de **4 de julio de 2026**, referencia **BOE-A-2026-14527**.
 
-## Estado por bloques
+El plazo oficial de solicitudes está **abierto del 6 al 31 de julio de 2026**. Esta información se ha incorporado a `data/convocatorias.json`.
+
+Estado editorial: temas **1 a 14** generados con manual, fuentes, matriz y banco inicial de preguntas. El **Tema 14** ha recibido auditoría jurídica adicional y corrección material el **19 de julio de 2026**.
+
+## Resultado global de La Puebla
+
+El temario base queda declarado `AUDITADO_Y_CORREGIDO` para la fase de tests, supuestos prácticos y simulacros. La corrección sustantiva del **Tema 6** ya está aplicada: el nombramiento de personal funcionario interino para programas temporales tiene una duración máxima total de **2 años**, no de **4 años**.
+
+## Estado por bloques · La Puebla
 
 | Bloque | Temas | Estado | Trabajo principal |
 |---|---:|---|---|
@@ -35,29 +44,15 @@ El temario base queda declarado `AUDITADO_Y_CORREGIDO` para iniciar la fase de t
 | Excel y Calc | 18 | `AUDITADO_TECNICA_VIGENTE` | Fórmulas, referencias, funciones, tablas, filtros, análisis y gráficos |
 | Microinformática | 19 | `AUDITADO_TECNICA_VIGENTE` | Hardware, almacenamiento, periféricos, impresión, escáneres, USB y medios ópticos |
 
-## Temas auditados
+## Auditoría de Diputación de Toledo
 
-| Tema | Resultado | Informe |
+| Tema | Estado | Última actuación |
 |---:|---|---|
-| 1 | Confirmadas las **cuatro reformas constitucionales** vigentes hasta julio de 2026. | `content/la-puebla/tema-01/auditoria-2026-07-18.md` |
-| 2 | Plazos correctos; corrección editorial de «tres» a **cuatro** condiciones acumulativas. | `content/la-puebla/tema-02/auditoria-2026-07-18.md` |
-| 3 | Revisados los artículos **53–105** de la Ley 39/2015. | `content/la-puebla/tema-03/auditoria-2026-07-18.md` |
-| 4 | Revisados los artículos **106–126** y la competencia local. | `content/la-puebla/tema-04/auditoria-2026-07-18.md` |
-| 5 | Verificados municipio, provincia, organización, competencias y elecciones locales. | `content/la-puebla/tema-05/auditoria-2026-07-18.md` |
-| 6 | Corregido el programa temporal a un máximo total de **2 años**; actualizados desarrollo, tabla de cifras y bloque de examen. | `content/la-puebla/tema-06/auditoria-2026-07-18.md` |
-| 7 | Confirmados **24 horas**, **15 días**, umbral de **50 trabajadores** y reunión **trimestral**. | `content/la-puebla/tema-07/auditoria-2026-07-18.md` |
-| 8 | Confirmados criterio **40/60**, periodicidad de **tres años** y **33 %** de discapacidad. | `content/la-puebla/tema-08/auditoria-2026-07-18.md` |
-| 9 | Confirmados **14 años**, **1+2 meses**, **1 mes**, **10 días** y **72 horas**. | `content/la-puebla/tema-09/auditoria-2026-07-18.md` |
-| 10 | Confirmados **5 %**, recargos **1/15 %**, **5/10/20 %**, **4 años** y **6 meses**. | `content/la-puebla/tema-10/auditoria-2026-07-18.md` |
-| 11 | Confirmados plazos de pago, recargos **5/10/20 %**, prescripción de **4 años** y devolución en **6 meses**. | `content/la-puebla/tema-11/auditoria-2026-07-18.md` |
-| 12 | Confirmados **1.000.000 €**, **2 periodos impositivos** y **750 kg**. | `content/la-puebla/tema-12/auditoria-2026-07-18.md` |
-| 13 | Generado desde cero con eIDAS modificado en **2024** y Reglamento de Ejecución **2026/248**. | `content/la-puebla/tema-13/auditoria-2026-07-18.md` |
-| 14 | Confirmados quórum de **la mitad**, parentesco **4.º/2.º**, recusación en **1/3 días** y criterio **40/60**. | `content/la-puebla/tema-14/auditoria-2026-07-18.md` |
-| 15 | Confirmados `Windows + E`, `Mayús + Supr`, Print to PDF y digitalización. | `content/la-puebla/tema-15/auditoria-2026-07-18.md` |
-| 16 | Confirmados InPrivate, SmartScreen y modo IE al menos hasta **2029**. | `content/la-puebla/tema-16/auditoria-2026-07-18.md` |
-| 17 | Confirmados formatos `.docx/.odt`, plantillas `.dotx/.ott` y diferencias de estilos y secciones. | `content/la-puebla/tema-17/auditoria-2026-07-18.md` |
-| 18 | Confirmados `.xlsx/.ods`, referencias y límites de **1.048.576 filas** y **16.384 columnas**. | `content/la-puebla/tema-18/auditoria-2026-07-18.md` |
-| 19 | Confirmados RAM frente a almacenamiento, USB-C frente a protocolo, CD de **700 MB**, **80 minutos** y DVD de **4,7 GB**. | `content/la-puebla/tema-19/auditoria-2026-07-18.md` |
+| 1–13 | `GENERADO_CON_FUENTES_Y_PREGUNTAS` | Pendientes de auditoría jurídica final bloque a bloque |
+| 14 | `AUDITADO_Y_CORREGIDO_NORMA_VIGENTE` | Precisados Pleno mensual, solicitud extraordinaria por **1/4**, plazo de **15 días hábiles**, quórum de **1/3** y umbral electoral del **5 %** |
+| 15–40 | `PENDIENTE_DESARROLLO` | Continuación prioritaria |
+
+Informe: `content/diputacion-toledo/tema-14/auditoria-2026-07-19.md`.
 
 ## Mejoras de plataforma
 
@@ -70,11 +65,12 @@ El temario base queda declarado `AUDITADO_Y_CORREGIDO` para iniciar la fase de t
 | Historial y control de versiones Git | Activo |
 | Catálogo de documentos oficiales | En preparación |
 | Copias oficiales verificables | Pendiente, solo para documentos públicos |
-| Tests y supuestos trazables | Listos para iniciar sobre contenido auditado |
+| Tests y supuestos trazables | En desarrollo sobre contenido auditado |
 
 ## Orden de trabajo
 
-1. Ejecutar una comprobación final de enlaces, navegación y visualización responsive.
-2. Generar **12 preguntas por tema**, con solución razonada y referencia al apartado correspondiente.
-3. Generar **20 supuestos prácticos**, tres simulacros transversales y sus soluciones agrupadas.
-4. Construir la matriz de equivalencias con Carranque, Las Ventas con Peña Aguilera y futuras convocatorias.
+1. Continuar la auditoría jurídica final de los temas **1 a 13 de Diputación**, priorizando cifras, plazos, mayorías y órganos competentes.
+2. Desarrollar los temas **15 a 40** de Diputación con fuente oficial individual.
+3. Cerrar el bloque del **OAPGT** únicamente con los Estatutos íntegros, oficiales y vigentes.
+4. Ampliar bancos de preguntas y generar supuestos y simulacros con trazabilidad.
+5. Mantener el seguimiento de publicaciones oficiales de todas las convocatorias activas.
