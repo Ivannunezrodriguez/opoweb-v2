@@ -3,6 +3,10 @@
   "titulo": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
   "estado": "GENERACION_DESDE_CERO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Ley 12/2010, de 18 de noviembre, de igualdad entre mujeres y hombres de Castilla-La Mancha",
+    "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres"
+  ],
   "bloques": [
     {"id":"T24-B01","nombre":"Marco general y objeto de ambas leyes","cubierto":true},
     {"id":"T24-B02","nombre":"Igualdad de trato y discriminación directa e indirecta","cubierto":true},
@@ -15,18 +19,28 @@
     {"id":"T24-B09","nombre":"Políticas públicas de igualdad en Castilla-La Mancha","cubierto":true},
     {"id":"T24-B10","nombre":"Impacto de género, lenguaje, contratación y subvenciones","cubierto":true}
   ],
-  "datosTest": [
-    {"concepto":"Presencia equilibrada","valor":"cada sexo entre el 40 % y el 60 %"},
-    {"concepto":"Ley 12/2010 entrada en vigor","valor":"26 de noviembre de 2010"},
-    {"concepto":"LO 3/2007 entrada en vigor","valor":"24 de marzo de 2007"},
-    {"concepto":"Acciones positivas","valor":"razonables, proporcionadas y temporales"}
-  ],
-  "control": {
-    "redaccionAutonoma": true,
-    "reutilizacionOtrosTemarios": false,
-    "fuentePrincipal": "Ley 12/2010 y Ley Orgánica 3/2007",
-    "actualizacionLey1210": "2021-06-30",
+  "datosTest": {
+    "presenciaEquilibrada": "cada sexo entre el 40 % y el 60 %",
+    "entradaVigorLey122010": "26 de noviembre de 2010",
+    "entradaVigorLO32007": "24 de marzo de 2007",
+    "accionesPositivas": "razonables, proporcionadas y temporales mientras subsista la desigualdad",
+    "embarazoYMaternidad": "discriminación directa por razón de sexo",
+    "tutela": "nulidad y reparación o indemnización real, efectiva y proporcionada"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T24-001 a DIP-T24-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "porcentajesFechasYOrganosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "actualizacionLey122010": "2021-06-30",
     "actualizacionLO32007": "2024-08-02",
-    "preguntasPrevistas": 12
+    "verificacionIntegridad": "2026-07-19"
   }
 }
