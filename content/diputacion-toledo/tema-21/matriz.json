@@ -1,0 +1,29 @@
+{
+  "tema": 21,
+  "estado": "GENERACION_DESDE_CERO",
+  "programaOficial": "El contrato de trabajo: modalidades. El Régimen General de la Seguridad Social: afiliación, altas y bajas. Cotización y recaudación.",
+  "cobertura": [
+    {"apartado": "Modalidades del contrato de trabajo", "cubierto": true},
+    {"apartado": "Contrato indefinido y fijo-discontinuo", "cubierto": true},
+    {"apartado": "Contrato temporal por circunstancias de la producción", "cubierto": true},
+    {"apartado": "Contrato temporal de sustitución", "cubierto": true},
+    {"apartado": "Contratos formativos", "cubierto": true},
+    {"apartado": "Régimen General de la Seguridad Social", "cubierto": true},
+    {"apartado": "Afiliación", "cubierto": true},
+    {"apartado": "Altas, bajas y variaciones de datos", "cubierto": true},
+    {"apartado": "Cotización", "cubierto": true},
+    {"apartado": "Base de cotización", "cubierto": true},
+    {"apartado": "Recaudación voluntaria y ejecutiva", "cubierto": true},
+    {"apartado": "Recargos y prescripción", "cubierto": true}
+  ],
+  "controles": {
+    "epigrafeExacto": true,
+    "fuentesOficiales": true,
+    "plazosEnNegrita": true,
+    "organosCompetentesEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "preguntasPropias": 12,
+    "reutilizacion": false
+  }
+}
