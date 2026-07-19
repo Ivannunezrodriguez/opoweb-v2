@@ -1,110 +1,114 @@
-[
-  {
-    "id":"DIP-T14-001",
-    "pregunta":"¿Qué naturaleza tiene la provincia conforme a la Constitución y a la legislación básica local?",
-    "opciones":["Una mera demarcación estatal","Una entidad local determinada por la agrupación de municipios, con personalidad jurídica propia","Un órgano periférico de la comunidad autónoma","Una asociación voluntaria de municipios"],
-    "correcta":1,
-    "justificacion":"La provincia es una entidad local territorial determinada por la agrupación de municipios, con personalidad jurídica propia.",
-    "trampa":"Confundir su función como división territorial del Estado con su naturaleza de entidad local.",
-    "referencia":"Manual, apartado 1"
-  },
-  {
-    "id":"DIP-T14-002",
-    "pregunta":"La alteración de los límites provinciales debe aprobarse mediante:",
-    "opciones":["Ley ordinaria","Real decreto","Ley orgánica","Acuerdo de las Diputaciones afectadas"],
-    "correcta":2,
-    "justificacion":"El artículo 141 CE exige ley orgánica para alterar los límites provinciales.",
-    "trampa":"No basta una ley ordinaria aunque exista acuerdo territorial.",
-    "referencia":"Manual, apartado 1"
-  },
-  {
-    "id":"DIP-T14-003",
-    "pregunta":"¿Cuál es una finalidad propia y específica de la provincia?",
-    "opciones":["Sustituir siempre a los ayuntamientos","Garantizar la solidaridad y el equilibrio intermunicipales","Ejercer la potestad legislativa autonómica","Dirigir la Administración General del Estado en la provincia"],
-    "correcta":1,
-    "justificacion":"La provincia garantiza solidaridad y equilibrio intermunicipales y la prestación adecuada de servicios municipales.",
-    "trampa":"La Diputación asiste y coordina; no sustituye con carácter general al municipio.",
-    "referencia":"Manual, apartado 2"
-  },
-  {
-    "id":"DIP-T14-004",
-    "pregunta":"La prestación provincial de servicios de administración electrónica y contratación centralizada se dirige especialmente a municipios con población inferior a:",
-    "opciones":["5.000 habitantes","10.000 habitantes","20.000 habitantes","50.000 habitantes"],
-    "correcta":2,
-    "justificacion":"La Ley 7/1985 atribuye esta asistencia respecto de municipios con población inferior a 20.000 habitantes.",
-    "trampa":"No confundir este umbral con el de otros servicios mínimos municipales.",
-    "referencia":"Manual, apartado 2"
-  },
-  {
-    "id":"DIP-T14-005",
-    "pregunta":"¿Cuál de los siguientes órganos existe necesariamente en todas las Diputaciones?",
-    "opciones":["Consejo Social","Junta de Gobierno","Consejo Consultivo Provincial","Junta Municipal de Distrito"],
-    "correcta":1,
-    "justificacion":"Presidencia, Vicepresidencias, Junta de Gobierno y Pleno son órganos necesarios.",
-    "trampa":"Los órganos complementarios dependen de la normativa y autoorganización.",
-    "referencia":"Manual, apartado 3"
-  },
-  {
-    "id":"DIP-T14-006",
-    "pregunta":"El número de diputados que puede integrar la Junta de Gobierno, además de la Presidencia, no puede superar:",
-    "opciones":["La mitad del número legal","Un tercio del número legal","Un cuarto de los presentes","Dos quintos del Pleno"],
-    "correcta":1,
-    "justificacion":"La Junta de Gobierno se integra por la Presidencia y un número de diputados no superior al tercio del número legal.",
-    "trampa":"El cálculo se realiza sobre el número legal de miembros, no sobre asistentes.",
-    "referencia":"Manual, apartado 3.3"
-  },
-  {
-    "id":"DIP-T14-007",
-    "pregunta":"¿Quién integra el Pleno de la Diputación?",
-    "opciones":["Solo Presidencia y portavoces","Presidencia, Vicepresidencias y diputados delegados","Presidencia y todos los diputados provinciales","Solo los diputados con dedicación exclusiva"],
-    "correcta":2,
-    "justificacion":"El Pleno está compuesto por la Presidencia y la totalidad de los diputados provinciales.",
-    "trampa":"La pertenencia al Pleno no depende de delegaciones ni dedicación.",
-    "referencia":"Manual, apartado 3.4"
-  },
-  {
-    "id":"DIP-T14-008",
-    "pregunta":"¿Cuántos diputados provinciales integran la Corporación Provincial de Toledo en la legislatura 2023-2027?",
-    "opciones":["25","27","31","51"],
-    "correcta":1,
-    "justificacion":"La corporación provincial constituida en 2023 está formada por 27 diputados.",
-    "trampa":"El número depende de la población provincial conforme a la LOREG.",
-    "referencia":"Manual, apartado 5"
-  },
-  {
-    "id":"DIP-T14-009",
-    "pregunta":"Una provincia con población entre 500.001 y 1.000.000 de residentes elige:",
-    "opciones":["25 diputados","27 diputados","31 diputados","51 diputados"],
-    "correcta":1,
-    "justificacion":"La escala legal asigna 27 diputados a ese tramo poblacional.",
-    "trampa":"25 corresponde a provincias de hasta 500.000 residentes.",
-    "referencia":"Manual, apartado 6.3"
-  },
-  {
-    "id":"DIP-T14-010",
-    "pregunta":"En la distribución de diputados provinciales entre partidos judiciales, cada uno debe contar al menos con:",
-    "opciones":["Un diputado","Dos diputados","Tres diputados","El cinco por ciento del total"],
-    "correcta":0,
-    "justificacion":"La LOREG garantiza al menos un diputado por partido judicial.",
-    "trampa":"La garantía mínima no elimina el reparto proporcional por población.",
-    "referencia":"Manual, apartado 6.3"
-  },
-  {
-    "id":"DIP-T14-011",
-    "pregunta":"Los diputados provinciales son elegidos:",
-    "opciones":["Directamente por todos los electores de la provincia","Por el Gobierno autonómico","Indirectamente entre concejales, según los resultados por partido judicial","Por sorteo entre alcaldes"],
-    "correcta":2,
-    "justificacion":"La elección provincial es indirecta y parte de los resultados municipales en cada partido judicial.",
-    "trampa":"La ciudadanía no deposita una papeleta específica para diputados provinciales.",
-    "referencia":"Manual, apartado 6.4"
-  },
-  {
-    "id":"DIP-T14-012",
-    "pregunta":"Para elegir a la Presidencia de la Diputación, la primera votación exige:",
-    "opciones":["Mayoría simple","Mayoría de tres quintos","Mayoría absoluta","Unanimidad"],
-    "correcta":2,
-    "justificacion":"En primera votación se requiere mayoría absoluta; en segunda basta mayoría simple.",
-    "trampa":"La mayoría simple opera únicamente en la segunda votación.",
-    "referencia":"Manual, apartado 6.5"
-  }
-]
+{
+  "tema": 14,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T14-001",
+      "pregunta": "¿Qué naturaleza tiene la provincia conforme a la Constitución y a la legislación básica local?",
+      "opciones": ["Una mera demarcación estatal", "Una entidad local determinada por la agrupación de municipios, con personalidad jurídica propia", "Un órgano periférico de la comunidad autónoma", "Una asociación voluntaria de municipios"],
+      "correcta": 1,
+      "justificacion": "La provincia es una entidad local territorial determinada por la agrupación de municipios, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines.",
+      "trampa": "No debe confundirse su función como división territorial del Estado con su naturaleza de entidad local.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#1-la-provincia"
+    },
+    {
+      "id": "DIP-T14-002",
+      "pregunta": "La alteración de los límites provinciales debe aprobarse mediante:",
+      "opciones": ["Ley ordinaria", "Real decreto", "Ley orgánica", "Acuerdo de las Diputaciones afectadas"],
+      "correcta": 2,
+      "justificacion": "El artículo 141.1 de la Constitución exige una ley orgánica para alterar los límites provinciales.",
+      "trampa": "No basta una ley ordinaria aunque exista acuerdo de las entidades territoriales afectadas.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#1-la-provincia"
+    },
+    {
+      "id": "DIP-T14-003",
+      "pregunta": "¿Cuál es una finalidad propia y específica de la provincia?",
+      "opciones": ["Sustituir siempre a los ayuntamientos", "Garantizar la solidaridad y el equilibrio intermunicipales", "Ejercer la potestad legislativa autonómica", "Dirigir la Administración General del Estado en la provincia"],
+      "correcta": 1,
+      "justificacion": "La provincia garantiza los principios de solidaridad y equilibrio intermunicipales y la prestación integral y adecuada de los servicios municipales.",
+      "trampa": "La Diputación asiste, coopera y coordina, pero no sustituye con carácter general al municipio.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#2-fines-y-competencias-provinciales"
+    },
+    {
+      "id": "DIP-T14-004",
+      "pregunta": "La prestación provincial de servicios de administración electrónica y contratación centralizada se dirige especialmente a municipios con población inferior a:",
+      "opciones": ["5.000 habitantes", "10.000 habitantes", "20.000 habitantes", "50.000 habitantes"],
+      "correcta": 2,
+      "justificacion": "La Ley 7/1985 atribuye a la Diputación la prestación de servicios de administración electrónica y contratación centralizada en municipios con población inferior a 20.000 habitantes.",
+      "trampa": "No debe confundirse este umbral con los previstos para otros servicios mínimos municipales.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#2-fines-y-competencias-provinciales"
+    },
+    {
+      "id": "DIP-T14-005",
+      "pregunta": "¿Cuál de los siguientes órganos existe necesariamente en todas las Diputaciones?",
+      "opciones": ["Consejo Social", "Junta de Gobierno", "Consejo Consultivo Provincial", "Junta Municipal de Distrito"],
+      "correcta": 1,
+      "justificacion": "La Presidencia, las Vicepresidencias, la Junta de Gobierno y el Pleno son órganos necesarios de todas las Diputaciones.",
+      "trampa": "Los órganos complementarios dependen de la normativa aplicable y de la potestad de autoorganización.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#3-organización-provincial"
+    },
+    {
+      "id": "DIP-T14-006",
+      "pregunta": "El número de diputados que puede integrar la Junta de Gobierno, además de la Presidencia, no puede superar:",
+      "opciones": ["La mitad del número legal", "Un tercio del número legal", "Un cuarto de los presentes", "Dos quintos del Pleno"],
+      "correcta": 1,
+      "justificacion": "La Junta de Gobierno se integra por la Presidencia y un número de diputados no superior a un tercio del número legal de miembros de la corporación.",
+      "trampa": "El cálculo se realiza sobre el número legal de miembros, no sobre los asistentes a una sesión.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#33-junta-de-gobierno"
+    },
+    {
+      "id": "DIP-T14-007",
+      "pregunta": "¿Quién integra el Pleno de la Diputación?",
+      "opciones": ["Solo Presidencia y portavoces", "Presidencia, Vicepresidencias y diputados delegados", "Presidencia y todos los diputados provinciales", "Solo los diputados con dedicación exclusiva"],
+      "correcta": 2,
+      "justificacion": "El Pleno de la Diputación está integrado por la Presidencia y todos los diputados provinciales.",
+      "trampa": "La pertenencia al Pleno no depende de las delegaciones atribuidas ni del régimen de dedicación.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#34-pleno"
+    },
+    {
+      "id": "DIP-T14-008",
+      "pregunta": "¿Cuántos diputados provinciales integran la Corporación Provincial de Toledo en la legislatura 2023-2027?",
+      "opciones": ["25", "27", "31", "51"],
+      "correcta": 1,
+      "justificacion": "La Corporación Provincial de Toledo constituida para la legislatura 2023-2027 está integrada por 27 diputados provinciales.",
+      "trampa": "El número de diputados provinciales depende de la población de la provincia conforme a la LOREG.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#5-la-diputación-provincial-de-toledo"
+    },
+    {
+      "id": "DIP-T14-009",
+      "pregunta": "Una provincia con población entre 500.001 y 1.000.000 de residentes elige:",
+      "opciones": ["25 diputados", "27 diputados", "31 diputados", "51 diputados"],
+      "correcta": 1,
+      "justificacion": "La escala legal asigna 27 diputados a las provincias con población comprendida entre 500.001 y 1.000.000 de residentes.",
+      "trampa": "El tramo de hasta 500.000 residentes corresponde a 25 diputados.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#63-número-de-diputados-provinciales"
+    },
+    {
+      "id": "DIP-T14-010",
+      "pregunta": "En la distribución de diputados provinciales entre partidos judiciales, cada uno debe contar al menos con:",
+      "opciones": ["Un diputado", "Dos diputados", "Tres diputados", "El cinco por ciento del total"],
+      "correcta": 0,
+      "justificacion": "La LOREG garantiza al menos un diputado provincial por cada partido judicial.",
+      "trampa": "Esta garantía mínima no elimina el reparto proporcional atendiendo a la población.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#63-número-de-diputados-provinciales"
+    },
+    {
+      "id": "DIP-T14-011",
+      "pregunta": "Los diputados provinciales son elegidos:",
+      "opciones": ["Directamente por todos los electores de la provincia", "Por el Gobierno autonómico", "Indirectamente entre concejales, según los resultados por partido judicial", "Por sorteo entre alcaldes"],
+      "correcta": 2,
+      "justificacion": "La elección de los diputados provinciales es indirecta y se realiza entre concejales conforme a los resultados obtenidos por cada formación política en cada partido judicial.",
+      "trampa": "La ciudadanía no deposita una papeleta específica para elegir diputados provinciales.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#64-elección-de-diputados-provinciales"
+    },
+    {
+      "id": "DIP-T14-012",
+      "pregunta": "Para elegir a la Presidencia de la Diputación, la primera votación exige:",
+      "opciones": ["Mayoría simple", "Mayoría de tres quintos", "Mayoría absoluta", "Unanimidad"],
+      "correcta": 2,
+      "justificacion": "La Presidencia es elegida por el Pleno entre sus miembros. En primera votación se requiere mayoría absoluta y, en segunda, basta mayoría simple.",
+      "trampa": "La mayoría simple opera únicamente en la segunda votación.",
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#65-elección-de-la-presidencia-de-la-diputación"
+    }
+  ]
+}
