@@ -1,0 +1,48 @@
+{
+  "tema": 32,
+  "titulo": "Microsoft Windows 11 Pro I. Creación, copiado y borrado de archivos y carpetas. Las unidades de discos locales y de red.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Microsoft Support · Explorador de archivos en Windows",
+    "Documentación oficial de Microsoft sobre archivos, carpetas y unidades de red"
+  ],
+  "bloques": [
+    {"id":"T32-B01","nombre":"Explorador de archivos y estructura de la ventana","cubierto":true},
+    {"id":"T32-B02","nombre":"Archivos, carpetas, nombres y extensiones","cubierto":true},
+    {"id":"T32-B03","nombre":"Creación y selección de elementos","cubierto":true},
+    {"id":"T32-B04","nombre":"Copiado y movimiento","cubierto":true},
+    {"id":"T32-B05","nombre":"Renombrado, borrado y Papelera","cubierto":true},
+    {"id":"T32-B06","nombre":"Rutas y unidades locales","cubierto":true},
+    {"id":"T32-B07","nombre":"Unidades y recursos de red","cubierto":true},
+    {"id":"T32-B08","nombre":"Permisos y acceso","cubierto":true},
+    {"id":"T32-B09","nombre":"Búsqueda, vistas y ordenación","cubierto":true},
+    {"id":"T32-B10","nombre":"Atajos esenciales","cubierto":true}
+  ],
+  "datosTest": {
+    "abrirExplorador": "Windows + E",
+    "nuevaCarpeta": "Ctrl + Mayús + N",
+    "copiar": "Ctrl + C",
+    "mover": "Ctrl + X y Ctrl + V",
+    "renombrar": "F2",
+    "eliminarPapelera": "Supr",
+    "eliminarDirecto": "Mayús + Supr",
+    "seleccionarTodo": "Ctrl + A",
+    "rutaRed": "\\\\servidor\\recurso",
+    "unidadMapeada": "asigna una letra a un recurso de red sin copiar su contenido"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T32-001 a DIP-T32-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "atajosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
