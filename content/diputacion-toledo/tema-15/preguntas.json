@@ -1,0 +1,110 @@
+[
+  {
+    "id":"DIP-T15-001",
+    "pregunta":"¿Qué caracteriza esencialmente a una mancomunidad de municipios?",
+    "opciones":["La creación obligatoria por ley autonómica","La asociación voluntaria de municipios para ejecutar obras o servicios comunes","La sustitución de la provincia","La absorción de todas las competencias municipales"],
+    "correcta":1,
+    "justificacion":"La mancomunidad nace de la asociación voluntaria de municipios para ejecutar en común obras o servicios de su competencia.",
+    "trampa":"Confundirla con la comarca o el área metropolitana, que requieren ley autonómica.",
+    "referencia":"Manual 15.2"
+  },
+  {
+    "id":"DIP-T15-002",
+    "pregunta":"¿Puede una mancomunidad asumir la totalidad de las competencias de los municipios asociados?",
+    "opciones":["Sí, por unanimidad","Sí, si lo aprueba la diputación","No","Solo durante cinco años"],
+    "correcta":2,
+    "justificacion":"La mancomunidad tiene fines determinados y no puede vaciar íntegramente las competencias de los municipios asociados.",
+    "trampa":"La personalidad jurídica propia no convierte a la mancomunidad en un municipio superior.",
+    "referencia":"Manual 15.2.1"
+  },
+  {
+    "id":"DIP-T15-003",
+    "pregunta":"¿Qué norma debe crear una comarca?",
+    "opciones":["Un reglamento estatal","Una ordenanza provincial","Una ley de la comunidad autónoma","Un convenio entre alcaldes"],
+    "correcta":2,
+    "justificacion":"La comarca se crea mediante ley autonómica.",
+    "trampa":"La iniciativa municipal no sustituye la exigencia de ley.",
+    "referencia":"Manual 15.3.1"
+  },
+  {
+    "id":"DIP-T15-004",
+    "pregunta":"¿Cuál es el rasgo definitorio de un área metropolitana?",
+    "opciones":["La existencia de municipios rurales dispersos","Una gran aglomeración urbana con vínculos económicos y sociales intensos","La identidad histórica provincial","La gestión exclusiva de montes comunales"],
+    "correcta":1,
+    "justificacion":"Las áreas metropolitanas agrupan municipios de grandes aglomeraciones urbanas que requieren planificación conjunta y coordinación de servicios.",
+    "trampa":"No debe confundirse con una comarca de base histórica o geográfica.",
+    "referencia":"Manual 15.4"
+  },
+  {
+    "id":"DIP-T15-005",
+    "pregunta":"¿Qué administraciones deben ser oídas antes de crear un área metropolitana?",
+    "opciones":["Solo los ayuntamientos","Solo la diputación","La Administración del Estado, los ayuntamientos y las diputaciones afectadas","Únicamente el Senado"],
+    "correcta":2,
+    "justificacion":"La ley autonómica de creación exige audiencia de la Administración del Estado, ayuntamientos y diputaciones afectados.",
+    "trampa":"La creación es autonómica, pero intervienen otras administraciones mediante audiencia.",
+    "referencia":"Manual 15.4.1"
+  },
+  {
+    "id":"DIP-T15-006",
+    "pregunta":"¿Qué instrumento regula ordinariamente la organización y funcionamiento de una mancomunidad?",
+    "opciones":["Sus estatutos","El padrón municipal","El reglamento orgánico provincial","La Constitución"],
+    "correcta":0,
+    "justificacion":"Los estatutos determinan municipios integrantes, fines, órganos, recursos y régimen de incorporación, separación y disolución.",
+    "trampa":"No basta un convenio genérico entre municipios.",
+    "referencia":"Manual 15.2.2"
+  },
+  {
+    "id":"DIP-T15-007",
+    "pregunta":"Una entidad de ámbito territorial inferior al municipio se integra:",
+    "opciones":["En una comunidad autónoma sin municipio","En el término municipal de otro municipio","En una provincia distinta","En una mancomunidad obligatoriamente"],
+    "correcta":1,
+    "justificacion":"La EATIM es una organización inframunicipal integrada en el término de un municipio matriz.",
+    "trampa":"No tiene término municipal propio independiente.",
+    "referencia":"Manual 15.5.3"
+  },
+  {
+    "id":"DIP-T15-008",
+    "pregunta":"¿Es una EATIM equivalente jurídicamente a un municipio?",
+    "opciones":["Sí, siempre","Sí, cuando supera 5.000 habitantes","No","Solo si dispone de presupuesto propio"],
+    "correcta":2,
+    "justificacion":"La EATIM es una figura inframunicipal y no posee la posición constitucional del municipio.",
+    "trampa":"La gestión de intereses propios no la convierte en municipio.",
+    "referencia":"Manual 15.5"
+  },
+  {
+    "id":"DIP-T15-009",
+    "pregunta":"¿Cuál de las siguientes figuras tiene naturaleza asociativa voluntaria?",
+    "opciones":["La comarca","El área metropolitana","La mancomunidad","La provincia"],
+    "correcta":2,
+    "justificacion":"La mancomunidad se basa en el derecho de los municipios a asociarse voluntariamente.",
+    "trampa":"Comarca y área metropolitana dependen de ley autonómica.",
+    "referencia":"Manual 15.2"
+  },
+  {
+    "id":"DIP-T15-010",
+    "pregunta":"¿Qué debe respetar necesariamente la creación de una comarca?",
+    "opciones":["La desaparición de todos los municipios integrantes","La autonomía municipal y los servicios mínimos municipales","La absorción de la diputación","La elección directa de un presidente por todos los vecinos"],
+    "correcta":1,
+    "justificacion":"La comarca no puede vaciar las competencias municipales ni privar a los municipios de sus servicios mínimos.",
+    "trampa":"Entidad supramunicipal no significa sustitución integral del municipio.",
+    "referencia":"Manual 15.3.2"
+  },
+  {
+    "id":"DIP-T15-011",
+    "pregunta":"En Castilla-La Mancha, la norma autonómica general sobre entidades locales es:",
+    "opciones":["La Ley 3/1991, de 14 de marzo","La Ley 39/2015","La Ley Orgánica 5/1985","El Real Decreto 203/2021"],
+    "correcta":0,
+    "justificacion":"La Ley 3/1991 regula las entidades locales de Castilla-La Mancha dentro del marco básico estatal.",
+    "trampa":"La Ley 7/1985 es básica estatal; la Ley 3/1991 es autonómica.",
+    "referencia":"Manual 15.6"
+  },
+  {
+    "id":"DIP-T15-012",
+    "pregunta":"Cuando una ley autonómica anterior entra en tensión con una reforma básica estatal posterior, debe:",
+    "opciones":["Aplicarse siempre la norma autonómica sin cambios","Interpretarse conforme a la legislación básica vigente","Considerarse derogada toda la ley autonómica","Resolverlo la mancomunidad"],
+    "correcta":1,
+    "justificacion":"La regulación autonómica debe aplicarse e interpretarse dentro del marco básico estatal vigente.",
+    "trampa":"Una reforma estatal no implica necesariamente la derogación total de la ley autonómica.",
+    "referencia":"Manual 15.6.1"
+  }
+]
