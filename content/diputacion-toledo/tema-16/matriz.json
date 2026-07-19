@@ -1,7 +1,7 @@
 {
   "tema": 16,
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1 · 2026",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "GENERACION_DESDE_CERO",
   "metodo": "GENERACION_DESDE_CERO",
   "epigrafeOficial": "Los contratos administrativos en la esfera local. Selección del contratista. Garantías y responsabilidad en la contratación. Ejecución, modificación y suspensión. Revisión de precios. Invalidez y extinción de los contratos.",
   "bloques": [
@@ -26,7 +26,7 @@
     "garantiaTotalEspecial": "hasta 10 %",
     "esperaFormalizacion": "15 días hábiles cuando proceda recurso especial",
     "modificacionPrevistaMaxima": "20 % del precio inicial",
-    "revisionPrecios": "20 % ejecutado y 2 años desde la formalización",
+    "revisionPrecios": "20 % ejecutado y 2 años desde la formalización, con las excepciones legales",
     "pago": "30 días desde la aprobación de la certificación o conformidad",
     "recepcion": "1 mes con carácter general"
   },
@@ -36,6 +36,7 @@
     "tablasComparativas": true,
     "focosExamen": true,
     "preguntasPropias": 12,
-    "reutilizacion": false
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
   }
 }
