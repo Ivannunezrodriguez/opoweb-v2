@@ -12,11 +12,30 @@
     {"id":"T20-B05","contenido":"Suspensión","cubierto":true},
     {"id":"T20-B06","contenido":"Extinción y despidos","cubierto":true}
   ],
-  "controlTest": {
+  "datosTest": {
+    "salarioEnEspecie": "máximo 30 %",
+    "periodicidadPago": "máximo 1 mes",
+    "funcionesSuperiores": "más de 6 meses en 1 año o más de 8 meses en 2 años",
+    "preavisoTrasladoIndividual": "30 días",
+    "indemnizacionTraslado": "20 días por año, máximo 12 mensualidades",
+    "preavisoModificacionSustancialIndividual": "15 días",
+    "indemnizacionModificacionSustancial": "20 días por año, máximo 9 mensualidades",
+    "despidoImprocedente": "33 días por año, máximo 24 mensualidades, con régimen transitorio",
+    "despidoObjetivo": "20 días por año, máximo 12 mensualidades",
+    "preavisoDespidoObjetivo": "15 días",
+    "licenciaBusquedaEmpleo": "6 horas semanales"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T20-001 a DIP-T20-012",
+    "esquemaPreguntasCompatibleWeb": true,
     "plazosYCuantiasEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
-    "preguntasPropias": 12,
-    "reutilizacionLaPuebla": false
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
   }
 }
