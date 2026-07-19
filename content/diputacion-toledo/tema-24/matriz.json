@@ -1,0 +1,32 @@
+{
+  "tema": 24,
+  "titulo": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "bloques": [
+    {"id":"T24-B01","nombre":"Marco general y objeto de ambas leyes","cubierto":true},
+    {"id":"T24-B02","nombre":"Igualdad de trato y discriminación directa e indirecta","cubierto":true},
+    {"id":"T24-B03","nombre":"Acoso sexual y acoso por razón de sexo","cubierto":true},
+    {"id":"T24-B04","nombre":"Embarazo, maternidad y represalias","cubierto":true},
+    {"id":"T24-B05","nombre":"Acciones positivas","cubierto":true},
+    {"id":"T24-B06","nombre":"Transversalidad y presencia equilibrada","cubierto":true},
+    {"id":"T24-B07","nombre":"Igualdad en el empleo público y planes de igualdad","cubierto":true},
+    {"id":"T24-B08","nombre":"Tutela frente a la discriminación","cubierto":true},
+    {"id":"T24-B09","nombre":"Políticas públicas de igualdad en Castilla-La Mancha","cubierto":true},
+    {"id":"T24-B10","nombre":"Impacto de género, lenguaje, contratación y subvenciones","cubierto":true}
+  ],
+  "datosTest": [
+    {"concepto":"Presencia equilibrada","valor":"cada sexo entre el 40 % y el 60 %"},
+    {"concepto":"Ley 12/2010 entrada en vigor","valor":"26 de noviembre de 2010"},
+    {"concepto":"LO 3/2007 entrada en vigor","valor":"24 de marzo de 2007"},
+    {"concepto":"Acciones positivas","valor":"razonables, proporcionadas y temporales"}
+  ],
+  "control": {
+    "redaccionAutonoma": true,
+    "reutilizacionOtrosTemarios": false,
+    "fuentePrincipal": "Ley 12/2010 y Ley Orgánica 3/2007",
+    "actualizacionLey1210": "2021-06-30",
+    "actualizacionLO32007": "2024-08-02",
+    "preguntasPrevistas": 12
+  }
+}
