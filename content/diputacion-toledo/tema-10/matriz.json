@@ -1,7 +1,7 @@
 {
   "tema": 10,
-  "estado": "REVISION_USUARIO",
-  "generacion": "DESDE_CERO",
+  "estado": "GENERACION_DESDE_CERO",
+  "generacion": "GENERACION_DESDE_CERO",
   "epigrafeOficial": "La responsabilidad patrimonial de la Administración Pública. Responsabilidad de las autoridades y funcionarios al servicio de las administraciones públicas.",
   "bloques": [
     {"id":"fundamento","cubierto":true},
@@ -29,5 +29,6 @@
     "Constitución Española, artículo 106.2",
     "Ley 40/2015, artículos 32 a 37",
     "Ley 39/2015, artículos 65, 67, 81, 82, 86, 91 y 96"
-  ]
+  ],
+  "verificacionIntegridad": "2026-07-19"
 }
