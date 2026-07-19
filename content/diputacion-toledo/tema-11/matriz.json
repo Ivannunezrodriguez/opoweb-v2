@@ -1,8 +1,8 @@
 {
   "tema": 11,
   "convocatoria": "diputacion-toledo-administrativo-c1-2026",
-  "estado": "REVISION_USUARIO",
-  "generacion": "DESDE_CERO",
+  "estado": "GENERACION_DESDE_CERO",
+  "generacion": "GENERACION_DESDE_CERO",
   "epigrafeOficial": "Especialidades del procedimiento administrativo local. El Registro de Entrada y de Salida de documentos. Requisitos en la presentación de documentos. Comunicaciones y notificaciones.",
   "cobertura": [
     {"bloque": "Especialidades del procedimiento administrativo local", "cubierto": true},
@@ -24,5 +24,11 @@
     "Real Decreto 203/2021"
   ],
   "preguntas": 12,
-  "auditoria": "2026-07-19"
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "idsPreguntas": "DIP-T11-001 a DIP-T11-012",
+    "verificacionIntegridad": "2026-07-19"
+  }
 }
