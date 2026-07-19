@@ -29,11 +29,16 @@
     "duracionMaximaProcedimientoGraveMuyGrave": "12 meses"
   },
   "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T19-001 a DIP-T19-012",
     "literalidadDefiniciones": true,
     "plazosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
-    "preguntasPropias": 12,
-    "reutilizacionExterna": false
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
   }
 }
