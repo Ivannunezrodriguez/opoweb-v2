@@ -1,0 +1,33 @@
+{
+  "tema": 22,
+  "titulo": "El Acuerdo Regulador de las Condiciones de Trabajo de los Empleados Públicos de la Diputación de Toledo y sus Organismos Autónomos. El Organismo Autónomo Provincial de Gestión Tributaria de Toledo: organización, funcionamiento y competencias. Especial referencia a sus Estatutos.",
+  "estado": "GENERACION_DESDE_CERO",
+  "modalidad": "INTERPRETACION_PRUDENTE_AUTORIZADA",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "advertencia": "No se dispone del texto íntegro y vigente del Acuerdo Regulador ni de los Estatutos del OAPGT. Se diferencia entre normativa segura, evidencia institucional e inferencia prudente.",
+  "bloques": [
+    {"id":"T22-B01","nombre":"Naturaleza y límites del Acuerdo Regulador","cubierto":true,"certeza":"ALTA"},
+    {"id":"T22-B02","nombre":"Materias habituales de negociación colectiva","cubierto":true,"certeza":"MEDIA"},
+    {"id":"T22-B03","nombre":"Naturaleza institucional del OAPGT","cubierto":true,"certeza":"ALTA"},
+    {"id":"T22-B04","nombre":"Finalidad tributaria y recaudatoria","cubierto":true,"certeza":"ALTA"},
+    {"id":"T22-B05","nombre":"Organización funcional","cubierto":true,"certeza":"MEDIA"},
+    {"id":"T22-B06","nombre":"Funcionamiento administrativo","cubierto":true,"certeza":"ALTA"},
+    {"id":"T22-B07","nombre":"Gestión, recaudación e inspección","cubierto":true,"certeza":"ALTA"},
+    {"id":"T22-B08","nombre":"Relaciones con ayuntamientos","cubierto":true,"certeza":"ALTA"},
+    {"id":"T22-B09","nombre":"Régimen económico y presupuestario","cubierto":true,"certeza":"ALTA"},
+    {"id":"T22-B10","nombre":"Personal y estructura administrativa","cubierto":true,"certeza":"MEDIA"}
+  ],
+  "exclusiones": [
+    "Composición exacta del Consejo Rector",
+    "Mayorías y quórums estatutarios específicos",
+    "Reparto exhaustivo de competencias",
+    "Permisos, cuantías o mejoras propias del Acuerdo no verificadas"
+  ],
+  "control": {
+    "redaccionAutonoma": true,
+    "reutilizacionOtrosTemarios": false,
+    "interpretacionAutorizada": true,
+    "preguntasPrevistas": 12,
+    "auditoriaFuturaObligatoria": true
+  }
+}
