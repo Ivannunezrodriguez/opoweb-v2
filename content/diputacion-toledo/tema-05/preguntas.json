@@ -1,113 +1,113 @@
 {
   "tema": 5,
-  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "estado": "GENERACION_DESDE_CERO",
   "preguntas": [
     {
       "id": "DIP-T05-001",
       "pregunta": "¿Cuál es el plazo máximo supletorio para resolver y notificar cuando la norma reguladora no fija uno específico?",
       "opciones": ["Un mes", "Dos meses", "Tres meses", "Seis meses"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "El artículo 21 de la Ley 39/2015 establece que, cuando la norma reguladora no fije plazo máximo, este será de tres meses.",
-      "trampaExamen": "No confundir el plazo supletorio de tres meses con el límite general de seis meses para plazos fijados reglamentariamente.",
+      "trampa": "No confundir el plazo supletorio de tres meses con el límite general de seis meses para plazos fijados reglamentariamente.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#101-plazo-máximo-para-resolver"
     },
     {
       "id": "DIP-T05-002",
       "pregunta": "¿Cuál de los siguientes sujetos está obligado, con carácter general, a relacionarse electrónicamente con las Administraciones Públicas?",
       "opciones": ["Toda persona física mayor de edad", "Las personas jurídicas", "Solo los funcionarios públicos jubilados", "Cualquier ciudadano que presente una solicitud"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El artículo 14 incluye expresamente a las personas jurídicas entre los sujetos obligados a relacionarse por medios electrónicos.",
-      "trampaExamen": "Las personas físicas pueden elegir canal salvo que estén incluidas en un colectivo legal o reglamentariamente obligado.",
+      "trampa": "Las personas físicas pueden elegir canal salvo que estén incluidas en un colectivo legal o reglamentariamente obligado.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#5-obligación-de-relacionarse-electrónicamente"
     },
     {
       "id": "DIP-T05-003",
       "pregunta": "¿Qué plazo ordinario existe para subsanar la falta o insuficiencia de acreditación de la representación?",
       "opciones": ["Cinco días", "Diez días", "Quince días", "Un mes"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La representación puede subsanarse en el plazo de diez días, o en un plazo superior cuando las circunstancias del caso lo requieran.",
-      "trampaExamen": "La Ley habla de diez días; no debe añadirse automáticamente la palabra hábiles en la formulación literal.",
+      "trampa": "La Ley habla de diez días; no debe añadirse automáticamente la palabra hábiles en la formulación literal.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#23-representación"
     },
     {
       "id": "DIP-T05-004",
       "pregunta": "¿Cuál es la validez máxima de los poderes inscritos en el registro electrónico de apoderamientos?",
       "opciones": ["Dos años", "Tres años", "Cinco años", "Diez años"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "Los poderes inscritos tienen una validez máxima de cinco años, prorrogable por periodos máximos de cinco años.",
-      "trampaExamen": "La prórroga también tiene un máximo de cinco años por periodo; no es indefinida automáticamente.",
+      "trampa": "La prórroga también tiene un máximo de cinco años por periodo; no es indefinida automáticamente.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#24-registros-electrónicos-de-apoderamientos"
     },
     {
       "id": "DIP-T05-005",
       "pregunta": "¿Cuál es la regla general del silencio administrativo en procedimientos iniciados a solicitud del interesado?",
       "opciones": ["Siempre desestimatorio", "Siempre produce caducidad", "Estimatorio, salvo excepciones legales", "No produce ningún efecto"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "La regla general es el silencio estimatorio, salvo que una norma con rango de ley o norma europea o internacional aplicable establezca lo contrario.",
-      "trampaExamen": "La responsabilidad patrimonial, el derecho de petición y la impugnación de actos son excepciones desestimatorias.",
+      "trampa": "La responsabilidad patrimonial, el derecho de petición y la impugnación de actos son excepciones desestimatorias.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#111-procedimientos-iniciados-a-solicitud"
     },
     {
       "id": "DIP-T05-006",
       "pregunta": "¿En qué plazo debe expedirse de oficio el certificado acreditativo del silencio administrativo?",
       "opciones": ["Diez días", "Quince días", "Veinte días", "Un mes"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El certificado debe expedirse de oficio dentro de los quince días siguientes al vencimiento del plazo máximo para resolver.",
-      "trampaExamen": "El interesado puede solicitarlo en cualquier momento, aunque la expedición de oficio tiene plazo de quince días.",
+      "trampa": "El interesado puede solicitarlo en cualquier momento, aunque la expedición de oficio tiene plazo de quince días.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#111-procedimientos-iniciados-a-solicitud"
     },
     {
       "id": "DIP-T05-007",
       "pregunta": "Cuando un plazo se fija por días y la norma no indica otra cosa, ¿qué días se excluyen del cómputo?",
       "opciones": ["Solo domingos", "Sábados y domingos", "Sábados, domingos y festivos", "Ninguno"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "Los plazos por días se entienden hábiles y excluyen sábados, domingos y festivos, salvo previsión legal o europea distinta.",
-      "trampaExamen": "Desde la Ley 39/2015 los sábados son inhábiles a efectos administrativos.",
+      "trampa": "Desde la Ley 39/2015 los sábados son inhábiles a efectos administrativos.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#123-cómputo-por-días"
     },
     {
       "id": "DIP-T05-008",
       "pregunta": "¿Qué sucede si el último día de un plazo es inhábil?",
       "opciones": ["El plazo vence igualmente", "Se adelanta al día hábil anterior", "Se prorroga al primer día hábil siguiente", "Se amplía automáticamente una semana"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "Cuando el último día del plazo sea inhábil, se entiende prorrogado al primer día hábil siguiente.",
-      "trampaExamen": "La regla es prórroga hacia delante, no adelanto al día hábil anterior.",
+      "trampa": "La regla es prórroga hacia delante, no adelanto al día hábil anterior.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#124-meses-y-años"
     },
     {
       "id": "DIP-T05-009",
       "pregunta": "¿Cuál es el límite de la ampliación ordinaria de un plazo?",
       "opciones": ["Una cuarta parte", "La mitad", "El doble", "No existe límite"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La ampliación no puede exceder de la mitad del plazo inicial y debe acordarse antes de su vencimiento.",
-      "trampaExamen": "La ampliación ordinaria del artículo 32 no es lo mismo que la ampliación del plazo máximo para resolver del artículo 23.",
+      "trampa": "La ampliación ordinaria del artículo 32 no es lo mismo que la ampliación del plazo máximo para resolver del artículo 23.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#126-ampliación-de-plazos"
     },
     {
       "id": "DIP-T05-010",
       "pregunta": "En la tramitación de urgencia, ¿qué plazos no se reducen a la mitad?",
       "opciones": ["Los de prueba e informes", "Los de audiencia", "Los de presentación de solicitudes y recursos", "Todos se reducen"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "La urgencia reduce los plazos a la mitad salvo los relativos a la presentación de solicitudes y recursos.",
-      "trampaExamen": "Es una excepción expresa y muy habitual en test.",
+      "trampa": "Es una excepción expresa y muy habitual en test.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#127-tramitación-de-urgencia"
     },
     {
       "id": "DIP-T05-011",
       "pregunta": "¿Cuándo puede ser obligatoria una comparecencia ante la Administración?",
       "opciones": ["Siempre que lo ordene verbalmente un funcionario", "Solo cuando lo prevea una norma con rango de ley", "Cuando lo solicite cualquier tercero", "Nunca puede ser obligatoria"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La comparecencia solo es obligatoria cuando esté prevista en una norma con rango de ley.",
-      "trampaExamen": "Una instrucción interna o reglamento por sí solos no bastan para imponer comparecencia obligatoria.",
+      "trampa": "Una instrucción interna o reglamento por sí solos no bastan para imponer comparecencia obligatoria.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#8-colaboración-y-comparecencia"
     },
     {
       "id": "DIP-T05-012",
       "pregunta": "¿Durante cuánto tiempo puede suspenderse como máximo el plazo para resolver por solicitud de un informe preceptivo?",
       "opciones": ["Un mes", "Dos meses", "Tres meses", "Seis meses"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "La suspensión por solicitud de informes preceptivos no puede exceder de tres meses.",
-      "trampaExamen": "Transcurridos tres meses sin informe, el procedimiento continúa, sin perjuicio de la responsabilidad por la demora.",
+      "trampa": "Transcurridos tres meses sin informe, el procedimiento continúa, sin perjuicio de la responsabilidad por la demora.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#102-suspensión-del-plazo-máximo"
     }
   ]
