@@ -20,11 +20,15 @@
     "resolucionReclamaciones": "1 mes",
     "aprobacionDefinitiva": "antes del 31 de diciembre"
   },
-  "control": {
-    "fuentesOficiales": true,
-    "reutilizacion": false,
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T13-001 a DIP-T13-012",
     "focoExamen": true,
     "tablasComparativas": true,
-    "preguntasPropias": 12
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
   }
 }
