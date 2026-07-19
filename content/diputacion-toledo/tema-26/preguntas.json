@@ -1,0 +1,122 @@
+[
+  {
+    "id": "DIP-T26-001",
+    "tema": 26,
+    "pregunta": "Una liquidación notificada entre los días 1 y 15 de un mes puede pagarse en periodo voluntario, con carácter general, hasta:",
+    "opciones": ["El día 20 del mismo mes", "El día 20 del mes siguiente", "El día 5 del mes siguiente", "El día 5 del segundo mes siguiente"],
+    "correcta": 1,
+    "justificacion": "La Ley General Tributaria fija como fin del plazo voluntario el día 20 del mes posterior o el inmediato hábil siguiente.",
+    "trampa": "No confundir este plazo con el aplicable a la providencia de apremio, que termina el día 20 del mismo mes.",
+    "referencia": "Manual, apartado 3.1"
+  },
+  {
+    "id": "DIP-T26-002",
+    "tema": 26,
+    "pregunta": "Una liquidación notificada entre los días 16 y último del mes puede pagarse en periodo voluntario, con carácter general, hasta:",
+    "opciones": ["El día 5 del mes siguiente", "El día 20 del mes siguiente", "El día 5 del segundo mes siguiente", "El último día del segundo mes"],
+    "correcta": 2,
+    "justificacion": "El plazo termina el día 5 del segundo mes posterior o el inmediato hábil siguiente.",
+    "trampa": "El día 5 del mes siguiente corresponde al plazo de pago de una providencia de apremio notificada entre los días 16 y último.",
+    "referencia": "Manual, apartado 3.1"
+  },
+  {
+    "id": "DIP-T26-003",
+    "tema": 26,
+    "pregunta": "El periodo voluntario de pago de deudas de vencimiento periódico y notificación colectiva no puede ser inferior a:",
+    "opciones": ["15 días", "1 mes", "2 meses", "3 meses"],
+    "correcta": 2,
+    "justificacion": "La Administración puede modificar el calendario, pero el periodo de pago no puede ser inferior a dos meses.",
+    "trampa": "No aplicar automáticamente los plazos de las liquidaciones individuales a los padrones de cobro periódico.",
+    "referencia": "Manual, apartado 3.2"
+  },
+  {
+    "id": "DIP-T26-004",
+    "tema": 26,
+    "pregunta": "La solicitud de aplazamiento presentada en periodo voluntario:",
+    "opciones": ["Impide el inicio del periodo ejecutivo y elimina el interés de demora", "Impide el inicio del periodo ejecutivo, pero no el interés de demora", "No produce ningún efecto", "Inicia automáticamente el apremio"],
+    "correcta": 1,
+    "justificacion": "La solicitud en periodo voluntario impide el inicio del periodo ejecutivo mientras se tramita, pero continúa el devengo del interés de demora.",
+    "trampa": "Suspender el inicio del ejecutivo no equivale a condonar intereses.",
+    "referencia": "Manual, apartado 5.1"
+  },
+  {
+    "id": "DIP-T26-005",
+    "tema": 26,
+    "pregunta": "La compensación tributaria exige, con carácter general:",
+    "opciones": ["Un crédito reconocido a favor del obligado", "Una mera expectativa de cobro", "La existencia de embargo previo", "Sentencia judicial firme"],
+    "correcta": 0,
+    "justificacion": "La compensación opera entre una deuda y un crédito reconocido a favor del obligado tributario.",
+    "trampa": "Una solicitud pendiente o una expectativa no equivale a crédito reconocido.",
+    "referencia": "Manual, apartado 6"
+  },
+  {
+    "id": "DIP-T26-006",
+    "tema": 26,
+    "pregunta": "¿Cuál es el plazo general de prescripción del derecho a solicitar y obtener devoluciones tributarias?",
+    "opciones": ["1 año", "2 años", "4 años", "5 años"],
+    "correcta": 2,
+    "justificacion": "El plazo general de prescripción tributaria aplicable a devoluciones es de cuatro años.",
+    "trampa": "No trasladar el plazo civil general de cinco años al ámbito tributario.",
+    "referencia": "Manual, apartado 7.2"
+  },
+  {
+    "id": "DIP-T26-007",
+    "tema": 26,
+    "pregunta": "El recargo ejecutivo aplicable cuando se paga antes de la notificación de la providencia de apremio es del:",
+    "opciones": ["5 %", "10 %", "15 %", "20 %"],
+    "correcta": 0,
+    "justificacion": "El recargo ejecutivo es del 5 % cuando la deuda se paga antes de la notificación de la providencia de apremio.",
+    "trampa": "El 10 % corresponde al apremio reducido y el 20 % al apremio ordinario.",
+    "referencia": "Manual, apartado 9"
+  },
+  {
+    "id": "DIP-T26-008",
+    "tema": 26,
+    "pregunta": "El recargo de apremio reducido es del:",
+    "opciones": ["5 %", "10 %", "15 %", "20 %"],
+    "correcta": 1,
+    "justificacion": "El recargo de apremio reducido es del 10 % cuando se paga la deuda y el propio recargo dentro del plazo de la providencia.",
+    "trampa": "No confundirlo con el recargo ejecutivo del 5 % anterior a la providencia.",
+    "referencia": "Manual, apartado 9"
+  },
+  {
+    "id": "DIP-T26-009",
+    "tema": 26,
+    "pregunta": "El procedimiento de apremio se inicia mediante:",
+    "opciones": ["La liquidación", "La providencia de apremio", "La diligencia de embargo", "La subasta"],
+    "correcta": 1,
+    "justificacion": "El procedimiento de apremio se inicia formalmente con la notificación de la providencia de apremio.",
+    "trampa": "El periodo ejecutivo puede haber comenzado antes; no son conceptos idénticos.",
+    "referencia": "Manual, apartado 10"
+  },
+  {
+    "id": "DIP-T26-010",
+    "tema": 26,
+    "pregunta": "Una providencia de apremio notificada entre los días 1 y 15 debe pagarse, con carácter general, hasta:",
+    "opciones": ["El día 20 del mismo mes", "El día 20 del mes siguiente", "El día 5 del mismo mes", "El día 5 del mes siguiente"],
+    "correcta": 0,
+    "justificacion": "El plazo termina el día 20 del mismo mes o el inmediato hábil siguiente.",
+    "trampa": "En voluntaria, la liquidación notificada en esas fechas llega hasta el día 20 del mes siguiente.",
+    "referencia": "Manual, apartado 10.1"
+  },
+  {
+    "id": "DIP-T26-011",
+    "tema": 26,
+    "pregunta": "La interposición de un recurso contra un acto recaudatorio:",
+    "opciones": ["Suspende siempre y automáticamente", "No suspende automáticamente, salvo que concurran los requisitos legales", "Anula el acto", "Impide cualquier embargo sin excepción"],
+    "correcta": 1,
+    "justificacion": "La regla general es la ejecutividad del acto; la suspensión requiere garantía o la concurrencia de un supuesto legal.",
+    "trampa": "Recurrir y obtener la suspensión son actuaciones distintas.",
+    "referencia": "Manual, apartado 13"
+  },
+  {
+    "id": "DIP-T26-012",
+    "tema": 26,
+    "pregunta": "El plazo general del recurso de reposición tributario local es de:",
+    "opciones": ["10 días hábiles", "15 días hábiles", "1 mes", "3 meses"],
+    "correcta": 2,
+    "justificacion": "La legislación de haciendas locales establece un plazo general de un mes.",
+    "trampa": "La interposición del recurso no suspende por sí sola la ejecución del acto.",
+    "referencia": "Manual, apartado 14.1"
+  }
+]
