@@ -1,0 +1,122 @@
+[
+  {
+    "id":"DIP-T32-001",
+    "tema":32,
+    "pregunta":"¿Qué combinación abre directamente el Explorador de archivos en Windows 11?",
+    "opciones":["Windows + E","Ctrl + E","Alt + E","Windows + F"],
+    "correcta":0,
+    "justificacion":"Windows + E abre el Explorador de archivos.",
+    "trampa":"Ctrl + E suele situar el foco en cuadros de búsqueda, no abrir el Explorador.",
+    "referencia":"Manual, apartado 1"
+  },
+  {
+    "id":"DIP-T32-002",
+    "tema":32,
+    "pregunta":"¿Qué atajo crea una carpeta nueva en la ubicación activa?",
+    "opciones":["Ctrl + N","Ctrl + Mayús + N","Alt + N","Windows + N"],
+    "correcta":1,
+    "justificacion":"Ctrl + Mayús + N crea una carpeta nueva.",
+    "trampa":"Ctrl + N suele abrir una nueva ventana, no una carpeta.",
+    "referencia":"Manual, apartado 3"
+  },
+  {
+    "id":"DIP-T32-003",
+    "tema":32,
+    "pregunta":"¿Qué diferencia esencial existe entre copiar y mover un archivo?",
+    "opciones":["Copiar elimina el original","Mover conserva siempre dos copias","Copiar mantiene el original y mover cambia su ubicación","No existe diferencia"],
+    "correcta":2,
+    "justificacion":"Copiar crea un duplicado y conserva el original; mover cambia su ubicación.",
+    "trampa":"Cortar no elimina definitivamente; prepara el elemento para moverlo al pegar.",
+    "referencia":"Manual, apartado 5"
+  },
+  {
+    "id":"DIP-T32-004",
+    "tema":32,
+    "pregunta":"¿Qué combinación se utiliza para mover mediante cortar y pegar?",
+    "opciones":["Ctrl + C y Ctrl + V","Ctrl + X y Ctrl + V","Ctrl + Z y Ctrl + V","F2 y Ctrl + V"],
+    "correcta":1,
+    "justificacion":"Ctrl + X corta y Ctrl + V pega en la nueva ubicación.",
+    "trampa":"Ctrl + C y Ctrl + V copia, no mueve.",
+    "referencia":"Manual, apartado 5"
+  },
+  {
+    "id":"DIP-T32-005",
+    "tema":32,
+    "pregunta":"¿Qué tecla permite renombrar el elemento seleccionado?",
+    "opciones":["F1","F2","F5","F12"],
+    "correcta":1,
+    "justificacion":"F2 activa el cambio de nombre del elemento seleccionado.",
+    "trampa":"F5 actualiza la vista del Explorador.",
+    "referencia":"Manual, apartado 6"
+  },
+  {
+    "id":"DIP-T32-006",
+    "tema":32,
+    "pregunta":"La combinación Mayús + Supr:",
+    "opciones":["Envía siempre a la Papelera","Elimina sin pasar por la Papelera","Restaura un archivo","Copia el archivo"],
+    "correcta":1,
+    "justificacion":"Mayús + Supr realiza una eliminación directa, normalmente previa confirmación.",
+    "trampa":"Supr, sin Mayús, suele enviar el elemento a la Papelera cuando procede.",
+    "referencia":"Manual, apartado 7"
+  },
+  {
+    "id":"DIP-T32-007",
+    "tema":32,
+    "pregunta":"¿Qué representa C: en una ruta de Windows?",
+    "opciones":["Una carpeta compartida","Una unidad lógica","Una extensión","Un servidor"],
+    "correcta":1,
+    "justificacion":"C: identifica una unidad lógica local.",
+    "trampa":"Una letra de unidad no implica necesariamente un disco físico independiente.",
+    "referencia":"Manual, apartados 9 y 10"
+  },
+  {
+    "id":"DIP-T32-008",
+    "tema":32,
+    "pregunta":"¿Cuál es una ruta UNC válida?",
+    "opciones":["C:\\Datos","\\\\SERVIDOR\\Compartido","https://servidor","D:/Red"],
+    "correcta":1,
+    "justificacion":"Una ruta UNC adopta la forma \\\\servidor\\recurso.",
+    "trampa":"C:\\Datos es una ruta local, no una ruta UNC.",
+    "referencia":"Manual, apartado 9"
+  },
+  {
+    "id":"DIP-T32-009",
+    "tema":32,
+    "pregunta":"Mapear una unidad de red significa:",
+    "opciones":["Copiar todo el servidor al disco local","Asignar una letra a un recurso compartido","Formatear el recurso de red","Convertirlo en una memoria USB"],
+    "correcta":1,
+    "justificacion":"Mapear asigna una letra de unidad a un recurso de red.",
+    "trampa":"No implica copiar físicamente el contenido al equipo.",
+    "referencia":"Manual, apartado 11"
+  },
+  {
+    "id":"DIP-T32-010",
+    "tema":32,
+    "pregunta":"Una unidad de red depende normalmente de:",
+    "opciones":["Solo del espacio del disco local","Conectividad, servidor y permisos","La Papelera de reciclaje","La extensión del archivo"],
+    "correcta":1,
+    "justificacion":"El acceso requiere disponibilidad de red, recurso y permisos adecuados.",
+    "trampa":"Tener una letra asignada no garantiza que el recurso esté disponible.",
+    "referencia":"Manual, apartados 11 y 12"
+  },
+  {
+    "id":"DIP-T32-011",
+    "tema":32,
+    "pregunta":"¿Qué combinación selecciona todos los elementos de la ubicación activa?",
+    "opciones":["Ctrl + S","Ctrl + A","Ctrl + T","Alt + A"],
+    "correcta":1,
+    "justificacion":"Ctrl + A selecciona todos los elementos.",
+    "trampa":"Ctrl + S suele guardar en aplicaciones.",
+    "referencia":"Manual, apartado 4"
+  },
+  {
+    "id":"DIP-T32-012",
+    "tema":32,
+    "pregunta":"Ocultar un archivo en el Explorador:",
+    "opciones":["Lo cifra automáticamente","Lo protege con contraseña","No equivale a protegerlo mediante permisos o cifrado","Impide todo acceso"],
+    "correcta":2,
+    "justificacion":"El atributo oculto afecta a la visualización, no constituye por sí mismo una medida de seguridad.",
+    "trampa":"Oculto no significa cifrado ni inaccesible.",
+    "referencia":"Manual, apartado 13"
+  }
+]
