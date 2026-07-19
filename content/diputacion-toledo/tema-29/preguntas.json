@@ -1,0 +1,122 @@
+[
+  {
+    "id":"DIP-T29-001",
+    "tema":29,
+    "pregunta":"¿Cuál es el orden legal de prelación del hecho imponible del IBI?",
+    "opciones":["Propiedad, usufructo, superficie y concesión","Concesión, superficie, usufructo y propiedad","Usufructo, propiedad, concesión y superficie","Superficie, concesión, propiedad y usufructo"],
+    "correcta":1,
+    "justificacion":"La ley establece el orden concesión administrativa, derecho de superficie, usufructo y propiedad.",
+    "trampa":"El propietario no es siempre el sujeto pasivo si concurre un derecho anterior en la prelación legal.",
+    "referencia":"Manual, apartado 3"
+  },
+  {
+    "id":"DIP-T29-002",
+    "tema":29,
+    "pregunta":"La base imponible del IBI está constituida por:",
+    "opciones":["El precio de adquisición","El valor catastral","El valor de mercado declarado","La renta anual del inmueble"],
+    "correcta":1,
+    "justificacion":"La base imponible del IBI es el valor catastral del inmueble.",
+    "trampa":"La base liquidable puede ser inferior cuando proceda la reducción legal.",
+    "referencia":"Manual, apartado 7.1"
+  },
+  {
+    "id":"DIP-T29-003",
+    "tema":29,
+    "pregunta":"El tipo supletorio del IBI para bienes inmuebles urbanos es del:",
+    "opciones":["0,3 %","0,4 %","0,6 %","1,10 %"],
+    "correcta":1,
+    "justificacion":"El tipo supletorio para bienes urbanos es del 0,4 %.",
+    "trampa":"El 1,10 % es el tipo máximo general urbano, no el supletorio.",
+    "referencia":"Manual, apartado 8.1"
+  },
+  {
+    "id":"DIP-T29-004",
+    "tema":29,
+    "pregunta":"La bonificación obligatoria inicial para viviendas de protección oficial es del:",
+    "opciones":["25 % durante 2 años","50 % durante 3 periodos impositivos","75 % durante 5 años","95 % sin límite temporal"],
+    "correcta":1,
+    "justificacion":"La bonificación obligatoria es del 50 % durante los tres periodos impositivos siguientes a la calificación definitiva.",
+    "trampa":"La prolongación posterior depende de la ordenanza fiscal y no forma parte del tramo obligatorio inicial.",
+    "referencia":"Manual, apartado 6.1"
+  },
+  {
+    "id":"DIP-T29-005",
+    "tema":29,
+    "pregunta":"El IBI se devenga ordinariamente:",
+    "opciones":["El 31 de diciembre","El 1 de enero","En la fecha de transmisión","Al aprobarse el padrón"],
+    "correcta":1,
+    "justificacion":"El impuesto se devenga el primer día del periodo impositivo, que coincide con el año natural.",
+    "trampa":"Una transmisión posterior durante el año no cambia el devengo ya producido.",
+    "referencia":"Manual, apartado 9"
+  },
+  {
+    "id":"DIP-T29-006",
+    "tema":29,
+    "pregunta":"El hecho imponible del IAE está constituido por:",
+    "opciones":["La obtención de beneficio","El mero ejercicio de una actividad empresarial, profesional o artística","La apertura de un local","La contratación de trabajadores"],
+    "correcta":1,
+    "justificacion":"El IAE grava el mero ejercicio de actividades empresariales, profesionales o artísticas en territorio nacional.",
+    "trampa":"No exige beneficio ni local determinado.",
+    "referencia":"Manual, apartado 11"
+  },
+  {
+    "id":"DIP-T29-007",
+    "tema":29,
+    "pregunta":"Las personas físicas respecto del IAE están:",
+    "opciones":["Siempre sujetas y no exentas","Exentas","Exentas solo durante 2 años","Exentas si facturan menos de 100.000 euros"],
+    "correcta":1,
+    "justificacion":"Las personas físicas están exentas del IAE con independencia de su cifra de negocios.",
+    "trampa":"El límite de cifra de negocios se aplica a otras personas jurídicas y entidades, no a las personas físicas.",
+    "referencia":"Manual, apartado 13"
+  },
+  {
+    "id":"DIP-T29-008",
+    "tema":29,
+    "pregunta":"Quien inicia una actividad económica disfruta, con carácter general, de exención en el IAE durante:",
+    "opciones":["El primer periodo únicamente","Los 2 primeros periodos impositivos","Los 3 primeros años naturales","Los 5 primeros ejercicios"],
+    "correcta":1,
+    "justificacion":"La exención por inicio alcanza los dos primeros periodos impositivos de ejercicio de la actividad.",
+    "trampa":"No confundir esta exención con la bonificación posterior aplicable a determinadas actividades profesionales.",
+    "referencia":"Manual, apartado 13"
+  },
+  {
+    "id":"DIP-T29-009",
+    "tema":29,
+    "pregunta":"El umbral general de cifra de negocios para la exención del IAE de determinadas entidades es:",
+    "opciones":["Inferior a 500.000 euros","Inferior a 1.000.000 de euros","Inferior a 2.000.000 de euros","No superior a 10.000.000 de euros"],
+    "correcta":1,
+    "justificacion":"La exención alcanza, entre otros, a sujetos con importe neto de cifra de negocios inferior a un millón de euros.",
+    "trampa":"El umbral es inferior a 1.000.000 de euros, no igual o inferior.",
+    "referencia":"Manual, apartado 13"
+  },
+  {
+    "id":"DIP-T29-010",
+    "tema":29,
+    "pregunta":"Las tarifas del IAE clasifican las actividades profesionales en la sección:",
+    "opciones":["1.ª","2.ª","3.ª","4.ª"],
+    "correcta":1,
+    "justificacion":"La sección 2.ª corresponde a actividades profesionales; la 1.ª a empresariales y la 3.ª a artísticas.",
+    "trampa":"No confundir actividad profesional con actividad empresarial ejercida por una sociedad.",
+    "referencia":"Manual, apartado 14.2"
+  },
+  {
+    "id":"DIP-T29-011",
+    "tema":29,
+    "pregunta":"El coeficiente de situación municipal del IAE puede fijarse entre:",
+    "opciones":["0,1 y 1,0","0,4 y 3,8","1,0 y 5,0","1,29 y 1,35"],
+    "correcta":1,
+    "justificacion":"El coeficiente de situación no puede ser inferior a 0,4 ni superior a 3,8.",
+    "trampa":"Los valores 1,29 a 1,35 corresponden al coeficiente de ponderación, no al de situación.",
+    "referencia":"Manual, apartado 14.4"
+  },
+  {
+    "id":"DIP-T29-012",
+    "tema":29,
+    "pregunta":"Cuando una actividad sujeta al IAE comienza durante el año, la cuota se prorratea:",
+    "opciones":["Por meses completos, excluido el de inicio","Por trimestres naturales, incluido el del inicio","Por días exactos","No se prorratea nunca"],
+    "correcta":1,
+    "justificacion":"En las altas, la cuota se calcula por los trimestres naturales restantes, incluido aquel en que comienza la actividad.",
+    "trampa":"En el cese, la devolución se refiere a trimestres naturales completos no ejercidos y debe solicitarse.",
+    "referencia":"Manual, apartado 16"
+  }
+]
