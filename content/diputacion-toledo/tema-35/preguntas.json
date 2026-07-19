@@ -1,0 +1,122 @@
+[
+  {
+    "id":"DIP-T35-001",
+    "tema":35,
+    "pregunta":"¿Cuál es el formato nativo de LibreOffice Writer?",
+    "opciones":["DOCX","ODT","PDF","RTF"],
+    "correcta":1,
+    "justificacion":"El formato nativo de Writer es ODT, basado en OpenDocument.",
+    "trampa":"Writer puede abrir y guardar DOCX, pero su formato nativo no es DOCX.",
+    "referencia":"Manual, apartado 1"
+  },
+  {
+    "id":"DIP-T35-002",
+    "tema":35,
+    "pregunta":"¿Qué atajo abre el cuadro Guardar como?",
+    "opciones":["Ctrl + S","Ctrl + Mayús + S","Ctrl + Alt + S","F12"],
+    "correcta":1,
+    "justificacion":"Ctrl + Mayús + S abre Guardar como, permitiendo cambiar nombre, ubicación o formato.",
+    "trampa":"Ctrl + S guarda en el archivo actual.",
+    "referencia":"Manual, apartado 3"
+  },
+  {
+    "id":"DIP-T35-003",
+    "tema":35,
+    "pregunta":"¿Qué diferencia principal existe entre formato directo y estilo?",
+    "opciones":["No existe diferencia","El formato directo afecta a una selección concreta y el estilo permite cambios coherentes y globales","El estilo solo sirve para imágenes","El formato directo solo funciona en tablas"],
+    "correcta":1,
+    "justificacion":"El formato directo se aplica sobre elementos concretos; los estilos permiten uniformidad y modificación global.",
+    "trampa":"Un texto visualmente igual puede estar formateado de forma directa o mediante estilo, pero no son equivalentes.",
+    "referencia":"Manual, apartados 5 y 7"
+  },
+  {
+    "id":"DIP-T35-004",
+    "tema":35,
+    "pregunta":"¿Qué tipo de estilo controla orientación, márgenes, encabezados y pies?",
+    "opciones":["Estilo de carácter","Estilo de página","Estilo de lista","Estilo de marco"],
+    "correcta":1,
+    "justificacion":"Los estilos de página definen la disposición de la página, incluidos orientación, márgenes, encabezados y pies.",
+    "trampa":"El estilo de párrafo no controla la configuración global de página.",
+    "referencia":"Manual, apartados 7 y 8"
+  },
+  {
+    "id":"DIP-T35-005",
+    "tema":35,
+    "pregunta":"¿Cuál es el atajo para insertar una tabla en Writer?",
+    "opciones":["Ctrl + T","Ctrl + F12","Ctrl + Mayús + T","Alt + T"],
+    "correcta":1,
+    "justificacion":"Ctrl + F12 abre el diálogo para insertar una tabla.",
+    "trampa":"Ctrl + T no es el atajo estándar de inserción de tabla en Writer.",
+    "referencia":"Manual, apartado 10"
+  },
+  {
+    "id":"DIP-T35-006",
+    "tema":35,
+    "pregunta":"¿Qué atajo muestra u oculta las marcas no imprimibles?",
+    "opciones":["Ctrl + F10","Ctrl + F11","Ctrl + H","F4"],
+    "correcta":0,
+    "justificacion":"Ctrl + F10 muestra u oculta marcas como espacios, tabulaciones, saltos y finales de párrafo.",
+    "trampa":"Estas marcas ayudan a editar, pero no se imprimen.",
+    "referencia":"Manual, apartado 6"
+  },
+  {
+    "id":"DIP-T35-007",
+    "tema":35,
+    "pregunta":"Para iniciar correctamente una nueva página debe utilizarse preferentemente:",
+    "opciones":["Varios espacios","Múltiples pulsaciones de Intro","Un salto de página","Una tabulación"],
+    "correcta":2,
+    "justificacion":"El salto de página fuerza estructuralmente el inicio de una nueva página.",
+    "trampa":"Los retornos repetidos se desplazan al editar el contenido anterior.",
+    "referencia":"Manual, apartado 8"
+  },
+  {
+    "id":"DIP-T35-008",
+    "tema":35,
+    "pregunta":"Para que un sumario automático reconozca correctamente los apartados deben utilizarse principalmente:",
+    "opciones":["Espacios y tabulaciones","Estilos de título","Solo negrita y tamaño grande","Cuadros de texto"],
+    "correcta":1,
+    "justificacion":"Los sumarios automáticos se generan a partir de la estructura proporcionada por los estilos de título.",
+    "trampa":"Un texto grande y en negrita no se convierte automáticamente en título estructural.",
+    "referencia":"Manual, apartado 15"
+  },
+  {
+    "id":"DIP-T35-009",
+    "tema":35,
+    "pregunta":"¿Qué atajo abre Buscar y reemplazar?",
+    "opciones":["Ctrl + F","Ctrl + H","Ctrl + R","Ctrl + Mayús + F"],
+    "correcta":1,
+    "justificacion":"Ctrl + H abre el diálogo Buscar y reemplazar.",
+    "trampa":"Ctrl + F realiza búsqueda simple.",
+    "referencia":"Manual, apartado 13"
+  },
+  {
+    "id":"DIP-T35-010",
+    "tema":35,
+    "pregunta":"La combinación de correspondencia utiliza:",
+    "opciones":["Solo un documento vacío","Documento principal, fuente de datos y campos de combinación","Exclusivamente una hoja de cálculo sin documento","Únicamente imágenes"],
+    "correcta":1,
+    "justificacion":"La combinación integra un documento principal, una fuente de datos y campos para generar documentos personalizados.",
+    "trampa":"La fuente de datos no sustituye al documento principal.",
+    "referencia":"Manual, apartado 15"
+  },
+  {
+    "id":"DIP-T35-011",
+    "tema":35,
+    "pregunta":"¿Qué afirmación sobre exportar a PDF es correcta?",
+    "opciones":["Elimina siempre el ODT original","Genera un archivo de distribución sin sustituir necesariamente el original editable","Convierte el PDF en plantilla","Equivale a imprimir en papel"],
+    "correcta":1,
+    "justificacion":"La exportación crea un PDF para lectura o distribución y puede conservarse el documento editable original.",
+    "trampa":"Exportar no es lo mismo que guardar en el formato nativo.",
+    "referencia":"Manual, apartado 16"
+  },
+  {
+    "id":"DIP-T35-012",
+    "tema":35,
+    "pregunta":"Para insertar numeración automática en un pie de página debe emplearse:",
+    "opciones":["Un número escrito manualmente","El campo Número de página","Una viñeta","Una nota al pie"],
+    "correcta":1,
+    "justificacion":"El campo Número de página se actualiza automáticamente según la posición del documento.",
+    "trampa":"Escribir manualmente 1 repetirá el mismo valor y no genera numeración automática.",
+    "referencia":"Manual, apartado 12"
+  }
+]
