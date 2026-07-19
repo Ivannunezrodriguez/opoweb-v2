@@ -1,114 +1,115 @@
 {
   "tema": 8,
   "titulo": "Revisión de los actos administrativos en vía administrativa",
+  "estado": "GENERACION_DESDE_CERO",
   "preguntas": [
     {
       "id": "DIP-T08-001",
-      "enunciado": "¿En qué plazo puede iniciarse la revisión de oficio de un acto nulo?",
+      "pregunta": "¿En qué plazo puede iniciarse la revisión de oficio de un acto nulo?",
       "opciones": ["En 1 año", "En 4 años", "En cualquier momento", "En 6 meses"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "El artículo 106 de la Ley 39/2015 permite revisar los actos nulos en cualquier momento.",
-      "trampaExamen": "Confundir el plazo de iniciación con el plazo máximo de resolución del procedimiento, que es de 6 meses.",
-      "referencia": "Manual, apartado 2"
+      "trampa": "Confundir el plazo de iniciación con el plazo máximo de resolución del procedimiento, que es de 6 meses.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos"
     },
     {
       "id": "DIP-T08-002",
-      "enunciado": "¿Qué dictamen exige la revisión de oficio de un acto nulo?",
+      "pregunta": "¿Qué dictamen exige la revisión de oficio de un acto nulo?",
       "opciones": ["Informe no vinculante de Intervención", "Dictamen favorable del Consejo de Estado u órgano consultivo equivalente", "Autorización judicial previa", "Informe favorable del Ministerio Fiscal"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La declaración de nulidad requiere dictamen favorable del Consejo de Estado u órgano consultivo autonómico equivalente.",
-      "trampaExamen": "El dictamen no es meramente facultativo ni basta con solicitarlo: debe ser favorable.",
-      "referencia": "Manual, apartado 2"
+      "trampa": "El dictamen no es meramente facultativo ni basta con solicitarlo: debe ser favorable.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos"
     },
     {
       "id": "DIP-T08-003",
-      "enunciado": "¿Cuál es el plazo máximo para resolver un procedimiento de revisión de oficio?",
+      "pregunta": "¿Cuál es el plazo máximo para resolver un procedimiento de revisión de oficio?",
       "opciones": ["1 mes", "3 meses", "6 meses", "4 años"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "El procedimiento de revisión de oficio debe resolverse en 6 meses.",
-      "trampaExamen": "Los 4 años corresponden al límite para declarar la lesividad, no al plazo de resolución de la revisión de oficio.",
-      "referencia": "Manual, apartado 2"
+      "trampa": "Los 4 años corresponden al límite para declarar la lesividad, no al plazo de resolución de la revisión de oficio.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos"
     },
     {
       "id": "DIP-T08-004",
-      "enunciado": "¿Qué actos son objeto de declaración de lesividad?",
+      "pregunta": "¿Qué actos son objeto de declaración de lesividad?",
       "opciones": ["Actos nulos desfavorables", "Actos favorables anulables", "Disposiciones reglamentarias nulas", "Actos de trámite simples"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La declaración de lesividad permite impugnar ante la jurisdicción contenciosa actos favorables que sean anulables.",
-      "trampaExamen": "La Administración no anula directamente el acto favorable anulable; debe declarar la lesividad y acudir a la jurisdicción.",
-      "referencia": "Manual, apartado 3"
+      "trampa": "La Administración no anula directamente el acto favorable anulable; debe declarar la lesividad y acudir a la jurisdicción.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#3-declaración-de-lesividad"
     },
     {
       "id": "DIP-T08-005",
-      "enunciado": "¿Hasta cuándo puede declararse la lesividad de un acto anulable favorable?",
+      "pregunta": "¿Hasta cuándo puede declararse la lesividad de un acto anulable favorable?",
       "opciones": ["Dentro de 1 mes", "Dentro de 1 año", "Dentro de 4 años", "En cualquier momento"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "La declaración de lesividad no puede adoptarse después de 4 años desde que se dictó el acto.",
-      "trampaExamen": "No confundir el límite de 4 años con la caducidad de 6 meses del procedimiento de lesividad.",
-      "referencia": "Manual, apartado 3"
+      "trampa": "No confundir el límite de 4 años con la caducidad de 6 meses del procedimiento de lesividad.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#3-declaración-de-lesividad"
     },
     {
       "id": "DIP-T08-006",
-      "enunciado": "¿Qué errores pueden rectificarse en cualquier momento conforme al artículo 109.2?",
+      "pregunta": "¿Qué errores pueden rectificarse en cualquier momento conforme al artículo 109.2?",
       "opciones": ["Cualquier error jurídico", "Solo errores de Derecho", "Errores materiales, de hecho o aritméticos", "Únicamente errores aritméticos"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "La Ley permite rectificar en cualquier momento errores materiales, de hecho o aritméticos.",
-      "trampaExamen": "El error de Derecho no se corrige por simple rectificación.",
-      "referencia": "Manual, apartado 5"
+      "trampa": "El error de Derecho no se corrige por simple rectificación.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#5-rectificación-de-errores"
     },
     {
       "id": "DIP-T08-007",
-      "enunciado": "¿Qué recurso procede contra un acto que no pone fin a la vía administrativa?",
+      "pregunta": "¿Qué recurso procede contra un acto que no pone fin a la vía administrativa?",
       "opciones": ["Reposición", "Alzada", "Extraordinario de revisión", "Recurso contencioso directo necesariamente"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El recurso de alzada procede contra actos que no agotan la vía administrativa.",
-      "trampaExamen": "La reposición se dirige contra actos que sí ponen fin a la vía administrativa.",
-      "referencia": "Manual, apartado 9"
+      "trampa": "La reposición se dirige contra actos que sí ponen fin a la vía administrativa.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#9-recurso-de-alzada"
     },
     {
       "id": "DIP-T08-008",
-      "enunciado": "¿Cuál es el plazo para interponer recurso de alzada contra un acto expreso?",
+      "pregunta": "¿Cuál es el plazo para interponer recurso de alzada contra un acto expreso?",
       "opciones": ["10 días", "15 días", "1 mes", "3 meses"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "El plazo es de 1 mes cuando el acto es expreso.",
-      "trampaExamen": "Los 3 meses son el plazo máximo para resolver, no para interponer.",
-      "referencia": "Manual, apartado 9"
+      "trampa": "Los 3 meses son el plazo máximo para resolver, no para interponer.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#9-recurso-de-alzada"
     },
     {
       "id": "DIP-T08-009",
-      "enunciado": "¿Quién resuelve el recurso potestativo de reposición?",
+      "pregunta": "¿Quién resuelve el recurso potestativo de reposición?",
       "opciones": ["El superior jerárquico", "El mismo órgano que dictó el acto", "El Consejo de Estado", "El órgano judicial competente"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La reposición se interpone y resuelve por el mismo órgano que dictó el acto.",
-      "trampaExamen": "El superior jerárquico resuelve la alzada, no la reposición.",
-      "referencia": "Manual, apartado 10"
+      "trampa": "El superior jerárquico resuelve la alzada, no la reposición.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#10-recurso-potestativo-de-reposición"
     },
     {
       "id": "DIP-T08-010",
-      "enunciado": "¿Qué ocurre si transcurre 1 mes desde la solicitud de suspensión de la ejecución en un recurso sin resolución expresa?",
+      "pregunta": "¿Qué ocurre si transcurre 1 mes desde la solicitud de suspensión de la ejecución en un recurso sin resolución expresa?",
       "opciones": ["Se entiende denegada", "Se entiende suspendida la ejecución", "Caduca el recurso", "Se archiva el procedimiento"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La ejecución se entiende suspendida si transcurre 1 mes desde la solicitud sin notificación expresa.",
-      "trampaExamen": "Es un supuesto excepcional de silencio favorable respecto de la medida de suspensión.",
-      "referencia": "Manual, apartado 8.3"
+      "trampa": "Es un supuesto excepcional de silencio favorable respecto de la medida de suspensión.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#83-suspensión-de-la-ejecución"
     },
     {
       "id": "DIP-T08-011",
-      "enunciado": "¿Cuál es el plazo para interponer recurso extraordinario de revisión por error de hecho?",
+      "pregunta": "¿Cuál es el plazo para interponer recurso extraordinario de revisión por error de hecho?",
       "opciones": ["1 mes", "3 meses", "1 año", "4 años"],
-      "respuestaCorrecta": 3,
+      "correcta": 3,
       "justificacion": "Por error de hecho resultante de los documentos del expediente, el plazo es de 4 años desde la notificación.",
-      "trampaExamen": "Las demás causas del recurso extraordinario tienen, con carácter general, un plazo de 3 meses.",
-      "referencia": "Manual, apartado 11"
+      "trampa": "Las demás causas del recurso extraordinario tienen, con carácter general, un plazo de 3 meses.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#11-recurso-extraordinario-de-revisión"
     },
     {
       "id": "DIP-T08-012",
-      "enunciado": "¿Puede la resolución de un recurso agravar la situación inicial del recurrente?",
+      "pregunta": "¿Puede la resolución de un recurso agravar la situación inicial del recurrente?",
       "opciones": ["Sí, siempre", "Sí, si lo solicita otro interesado", "No, por la prohibición de reformatio in peius", "Solo en reposición"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "La resolución debe respetar la prohibición de reformatio in peius y no puede empeorar la situación inicial del recurrente.",
-      "trampaExamen": "La Administración debe resolver todas las cuestiones, pero sin agravar la posición inicial del recurrente.",
-      "referencia": "Manual, apartado 8.5"
+      "trampa": "La Administración debe resolver todas las cuestiones, pero sin agravar la posición inicial del recurrente.",
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#85-resolución-del-recurso"
     }
   ]
 }
