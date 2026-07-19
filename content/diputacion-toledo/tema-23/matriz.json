@@ -3,6 +3,10 @@
   "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
   "estado": "GENERACION_DESDE_CERO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales",
+    "Real Decreto 39/1997, de 17 de enero, Reglamento de los Servicios de Prevención"
+  ],
   "bloques": [
     {"id":"T23-B01","nombre":"Objeto y principios preventivos","cubierto":true},
     {"id":"T23-B02","nombre":"Derecho a protección y obligaciones empresariales","cubierto":true},
@@ -15,17 +19,26 @@
     {"id":"T23-B09","nombre":"Consulta y participación","cubierto":true},
     {"id":"T23-B10","nombre":"Delegados de prevención y Comité de Seguridad y Salud","cubierto":true}
   ],
-  "datosTest": [
-    {"concepto":"Ratificación o anulación de paralización","valor":"24 horas"},
-    {"concepto":"Comité de Seguridad y Salud","valor":"50 o más trabajadores"},
-    {"concepto":"Periodicidad ordinaria del Comité","valor":"trimestral"},
-    {"concepto":"Delegados de prevención en plantilla de 31 a 49","valor":"1"}
-  ],
-  "control": {
-    "redaccionAutonoma": true,
-    "reutilizacionOtrosTemarios": false,
-    "fuentePrincipal": "Ley 31/1995",
-    "actualizacionFuentePrincipal": "2026-04-09",
-    "preguntasPrevistas": 12
+  "datosTest": {
+    "ratificacionParalizacion": "24 horas",
+    "comiteSeguridadSalud": "50 o más trabajadores",
+    "periodicidadComite": "trimestral",
+    "delegadosPrevencion31a49": "1",
+    "prioridadPreventiva": "protección colectiva sobre individual",
+    "vigilanciaSalud": "voluntaria como regla general"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T23-001 a DIP-T23-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "plazosMayoríasYÓrganosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
   }
 }
