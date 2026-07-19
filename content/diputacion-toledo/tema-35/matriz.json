@@ -1,0 +1,49 @@
+{
+  "tema": 35,
+  "titulo": "LibreOffice 24 I. Elaboración y uso de documentos de texto con LibreOffice 24 Writer.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Ayuda oficial de LibreOffice Writer",
+    "Documentación oficial de LibreOffice Writer",
+    "Guía de iniciación LibreOffice 24.8"
+  ],
+  "bloques": [
+    {"id":"T35-B01","nombre":"Interfaz, creación, apertura y guardado","cubierto":true},
+    {"id":"T35-B02","nombre":"Selección, edición y portapapeles","cubierto":true},
+    {"id":"T35-B03","nombre":"Formato de caracteres y párrafos","cubierto":true},
+    {"id":"T35-B04","nombre":"Estilos, plantillas y páginas","cubierto":true},
+    {"id":"T35-B05","nombre":"Listas y tablas","cubierto":true},
+    {"id":"T35-B06","nombre":"Imágenes, objetos y anclaje","cubierto":true},
+    {"id":"T35-B07","nombre":"Encabezados, pies, campos y numeración","cubierto":true},
+    {"id":"T35-B08","nombre":"Búsqueda, sustitución y revisión","cubierto":true},
+    {"id":"T35-B09","nombre":"Índices y combinación de correspondencia","cubierto":true},
+    {"id":"T35-B10","nombre":"Impresión, exportación y atajos","cubierto":true}
+  ],
+  "datosTest": {
+    "formatoNativo": "ODT",
+    "guardar": "Ctrl + S",
+    "guardarComo": "Ctrl + Mayús + S",
+    "buscar": "Ctrl + F",
+    "reemplazar": "Ctrl + H",
+    "insertarTabla": "Ctrl + F12",
+    "marcasNoImprimibles": "Ctrl + F10",
+    "estiloPagina": "controla orientación, márgenes, encabezados y pies",
+    "sumarioAutomatico": "se genera a partir de estilos de título",
+    "exportarPDF": "crea un archivo de distribución sin sustituir necesariamente el original editable"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T35-001 a DIP-T35-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "atajosYConceptosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
