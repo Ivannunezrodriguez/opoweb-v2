@@ -3,6 +3,12 @@
   "titulo": "La obligación tributaria: nacimiento, sujetos, elementos cuantitativos y extinción. Los tributos locales. Normas generales. Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Los procedimientos de gestión tributaria. La extinción de la deuda. Los procedimientos tributarios de revisión.",
   "estado": "GENERACION_DESDE_CERO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Ley 58/2003, de 17 de diciembre, General Tributaria",
+    "Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales",
+    "Real Decreto 1065/2007, de 27 de julio",
+    "Real Decreto 520/2005, de 13 de mayo"
+  ],
   "bloques": [
     {"id":"T25-B01","nombre":"Relación jurídico-tributaria y obligación principal","cubierto":true},
     {"id":"T25-B02","nombre":"Nacimiento, hecho imponible, devengo y exigibilidad","cubierto":true},
@@ -15,19 +21,30 @@
     {"id":"T25-B09","nombre":"Procedimientos de gestión tributaria","cubierto":true},
     {"id":"T25-B10","nombre":"Liquidaciones y procedimientos tributarios de revisión","cubierto":true}
   ],
-  "datosTest": [
-    {"concepto":"Prescripción tributaria general","valor":"4 años"},
-    {"concepto":"Recurso de reposición tributario local","valor":"1 mes"},
-    {"concepto":"Impuestos locales obligatorios","valor":"IBI, IAE e IVTM"},
-    {"concepto":"Impuestos locales potestativos","valor":"ICIO e IIVTNU"},
-    {"concepto":"Sanciones tributarias","valor":"No forman parte de la deuda tributaria"}
-  ],
-  "control": {
-    "redaccionAutonoma": true,
-    "reutilizacionOtrosTemarios": false,
-    "fuentePrincipal": "Ley 58/2003 y Real Decreto Legislativo 2/2004",
+  "datosTest": {
+    "prescripcionTributariaGeneral": "4 años",
+    "recursoReposicionTributarioLocal": "1 mes",
+    "impuestosLocalesObligatorios": "IBI, IAE e IVTM",
+    "impuestosLocalesPotestativos": "ICIO e IIVTNU",
+    "sancionesTributarias": "no forman parte de la deuda tributaria",
+    "exencion": "se realiza el hecho imponible, pero la ley dispensa del pago",
+    "noSujecion": "el supuesto queda fuera del hecho imponible",
+    "delegacion": "no altera la titularidad del tributo"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T25-001 a DIP-T25-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "plazosCuantiasYOrganosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
     "actualizacionTRLHL": "2026-06-03",
     "actualizacionRGAT": "2025-04-02",
-    "preguntasPrevistas": 12
+    "verificacionIntegridad": "2026-07-19"
   }
 }
