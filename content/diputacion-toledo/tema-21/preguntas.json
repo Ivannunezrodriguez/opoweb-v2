@@ -4,83 +4,107 @@
     "pregunta": "Con carácter general, el contrato de trabajo se presume concertado:",
     "opciones": ["Por tiempo determinado", "Por tiempo indefinido", "A jornada parcial", "En prácticas"],
     "correcta": 1,
-    "justificacion": "El artículo 15 del Estatuto de los Trabajadores establece la presunción de contratación por tiempo indefinido."
+    "justificacion": "El artículo 15 del Estatuto de los Trabajadores establece la presunción de contratación por tiempo indefinido.",
+    "trampa": "La contratación temporal exige una causa legal concreta; no es la regla general.",
+    "referencia": "Manual, apartado 1"
   },
   {
     "id": "DIP-T21-002",
     "pregunta": "El contrato fijo-discontinuo tiene naturaleza:",
     "opciones": ["Temporal", "Indefinida", "Administrativa", "Mercantil"],
     "correcta": 1,
-    "justificacion": "Es un contrato indefinido cuya prestación se desarrolla de forma discontinua o intermitente."
+    "justificacion": "Es un contrato indefinido cuya prestación se desarrolla de forma discontinua o intermitente.",
+    "trampa": "La discontinuidad de la prestación no convierte el vínculo en temporal.",
+    "referencia": "Manual, apartado 1.1"
   },
   {
     "id": "DIP-T21-003",
     "pregunta": "La duración máxima general del contrato por circunstancias de la producción imprevisibles es de:",
     "opciones": ["3 meses", "6 meses", "9 meses", "2 años"],
     "correcta": 1,
-    "justificacion": "La duración máxima general es de 6 meses, ampliable por convenio colectivo sectorial hasta 1 año."
+    "justificacion": "La duración máxima general es de 6 meses, ampliable por convenio colectivo sectorial hasta 1 año.",
+    "trampa": "El año no es la duración legal general, sino el máximo ampliable por convenio sectorial.",
+    "referencia": "Manual, apartado 1.2"
   },
   {
     "id": "DIP-T21-004",
     "pregunta": "Para situaciones ocasionales previsibles, la empresa puede utilizar contratos por circunstancias de la producción durante un máximo general de:",
     "opciones": ["30 días continuados", "60 días por persona", "90 días en el año natural", "180 días por centro"],
     "correcta": 2,
-    "justificacion": "El límite general es de 90 días en el año natural y se refiere a la empresa."
+    "justificacion": "El límite general es de 90 días en el año natural y se refiere a la empresa.",
+    "trampa": "Los 90 días no corresponden a cada persona trabajadora y, con carácter general, no pueden utilizarse continuadamente.",
+    "referencia": "Manual, apartado 1.2"
   },
   {
     "id": "DIP-T21-005",
     "pregunta": "El contrato de sustitución para cubrir temporalmente un puesto durante un proceso de selección puede durar, con carácter general, hasta:",
     "opciones": ["1 mes", "3 meses", "6 meses", "1 año"],
     "correcta": 1,
-    "justificacion": "Su duración máxima general es de 3 meses, salvo plazo inferior convencional."
+    "justificacion": "Su duración máxima general es de 3 meses, salvo plazo inferior establecido por convenio colectivo.",
+    "trampa": "No puede celebrarse un nuevo contrato con el mismo objeto una vez agotado ese máximo.",
+    "referencia": "Manual, apartado 1.3"
   },
   {
     "id": "DIP-T21-006",
     "pregunta": "La duración del contrato de formación en alternancia se sitúa, con carácter general, entre:",
     "opciones": ["1 y 6 meses", "3 meses y 2 años", "6 meses y 1 año", "1 y 3 años"],
     "correcta": 1,
-    "justificacion": "La duración legal general está comprendida entre 3 meses y 2 años."
+    "justificacion": "La duración legal general está comprendida entre 3 meses y 2 años.",
+    "trampa": "La práctica profesional tiene otra duración: entre 6 meses y 1 año.",
+    "referencia": "Manual, apartado 1.4"
   },
   {
     "id": "DIP-T21-007",
     "pregunta": "La afiliación a la Seguridad Social es:",
     "opciones": ["Opcional y anual", "Única y vitalicia", "Renovable por cada empresa", "Exclusiva del Régimen General"],
     "correcta": 1,
-    "justificacion": "La afiliación es obligatoria, única para todo el sistema y vitalicia."
+    "justificacion": "La afiliación es obligatoria, única para todo el sistema y vitalicia.",
+    "trampa": "Las altas y bajas pueden repetirse; la afiliación se produce una sola vez.",
+    "referencia": "Manual, apartado 2.1"
   },
   {
     "id": "DIP-T21-008",
     "pregunta": "El órgano competente para la afiliación, altas y bajas en la Seguridad Social es:",
     "opciones": ["El INSS", "El SEPE", "La Tesorería General de la Seguridad Social", "La Inspección de Trabajo"],
     "correcta": 2,
-    "justificacion": "La competencia corresponde a la Tesorería General de la Seguridad Social."
+    "justificacion": "La competencia corresponde a la Tesorería General de la Seguridad Social.",
+    "trampa": "El INSS gestiona prestaciones, pero no la afiliación ni las altas y bajas.",
+    "referencia": "Manual, apartados 2.1 y 2.2"
   },
   {
     "id": "DIP-T21-009",
     "pregunta": "La solicitud ordinaria de alta debe formularse:",
     "opciones": ["Dentro de los 3 días posteriores", "Antes del inicio de la prestación de servicios", "Al finalizar el periodo de prueba", "Dentro del mes siguiente"],
     "correcta": 1,
-    "justificacion": "El alta debe presentarse antes del inicio de la actividad laboral."
+    "justificacion": "El alta debe presentarse antes del inicio de la actividad laboral.",
+    "trampa": "El plazo de 3 días naturales corresponde a la baja y a la variación de datos.",
+    "referencia": "Manual, apartado 2.2"
   },
   {
     "id": "DIP-T21-010",
     "pregunta": "La baja y la variación de datos deben comunicarse, con carácter general, dentro de:",
     "opciones": ["24 horas", "3 días naturales", "5 días hábiles", "10 días naturales"],
     "correcta": 1,
-    "justificacion": "El plazo reglamentario general es de 3 días naturales."
+    "justificacion": "El plazo reglamentario general es de 3 días naturales.",
+    "trampa": "Son días naturales, no hábiles.",
+    "referencia": "Manual, apartado 2.2"
   },
   {
     "id": "DIP-T21-011",
     "pregunta": "¿Quién es responsable del ingreso de la aportación empresarial y de la cuota obrera descontada?",
     "opciones": ["La persona trabajadora", "La empresa", "El INSS", "La mutua"],
     "correcta": 1,
-    "justificacion": "La empresa debe ingresar ambas aportaciones ante la Tesorería General de la Seguridad Social."
+    "justificacion": "La empresa debe ingresar ambas aportaciones ante la Tesorería General de la Seguridad Social.",
+    "trampa": "La persona trabajadora soporta parte de la cuota, pero no es responsable de su ingreso ante la Tesorería.",
+    "referencia": "Manual, apartado 3.1"
   },
   {
     "id": "DIP-T21-012",
     "pregunta": "El plazo general de prescripción de la obligación de pago de cuotas de Seguridad Social es de:",
     "opciones": ["1 año", "2 años", "4 años", "5 años"],
     "correcta": 2,
-    "justificacion": "La obligación de pago de cuotas prescribe, con carácter general, a los 4 años."
+    "justificacion": "La obligación de pago de cuotas prescribe, con carácter general, a los 4 años.",
+    "trampa": "No debe confundirse con otros plazos tributarios o laborales.",
+    "referencia": "Manual, apartado 4.3"
   }
 ]
