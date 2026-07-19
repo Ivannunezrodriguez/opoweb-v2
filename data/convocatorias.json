@@ -1,5 +1,5 @@
 {
-  "actualizadoEl": "2026-07-18",
+  "actualizadoEl": "2026-07-19",
   "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará. Las convocatorias descartadas no reciben desarrollo editorial ni mantenimiento activo.",
   "convocatorias": [
     {
@@ -18,7 +18,20 @@
       "prioridad": 2,
       "estadoEditorial": "EN_DESARROLLO_PRIORITARIO",
       "temas": 40,
+      "plazasTurnoLibre": 2,
+      "sistema": "OPOSICION_LIBRE",
       "fuentePrincipal": "BOP de Toledo número 118, de 25 de junio de 2026, código 2026.00002934",
+      "publicacionBOE": {
+        "referencia": "BOE-A-2026-14527",
+        "numero": 162,
+        "fecha": "2026-07-04"
+      },
+      "plazoSolicitudes": {
+        "desde": "2026-07-06",
+        "hasta": "2026-07-31",
+        "estado": "ABIERTO"
+      },
+      "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1804/6577/rrhh-seleccion-convocatoria/1",
       "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22"
     },
     {
