@@ -1,0 +1,52 @@
+{
+  "tema": 26,
+  "titulo": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva. La revisión en vía administrativa de los actos y actuaciones de aplicación de los tributos.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Ley 58/2003, de 17 de diciembre, General Tributaria",
+    "Real Decreto 939/2005, de 29 de julio, Reglamento General de Recaudación",
+    "Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales",
+    "Real Decreto 520/2005, de 13 de mayo"
+  ],
+  "bloques": [
+    {"id":"T26-B01","nombre":"Concepto, órganos y periodo voluntario","cubierto":true},
+    {"id":"T26-B02","nombre":"Formas y medios de pago","cubierto":true},
+    {"id":"T26-B03","nombre":"Aplazamiento y fraccionamiento","cubierto":true},
+    {"id":"T26-B04","nombre":"Compensación","cubierto":true},
+    {"id":"T26-B05","nombre":"Devoluciones e ingresos indebidos","cubierto":true},
+    {"id":"T26-B06","nombre":"Inicio del periodo ejecutivo y recargos","cubierto":true},
+    {"id":"T26-B07","nombre":"Providencia de apremio","cubierto":true},
+    {"id":"T26-B08","nombre":"Embargo, enajenación y terminación","cubierto":true},
+    {"id":"T26-B09","nombre":"Suspensión","cubierto":true},
+    {"id":"T26-B10","nombre":"Revisión en vía administrativa","cubierto":true}
+  ],
+  "datosTest": {
+    "liquidacionNotificada1a15": "hasta el 20 del mes siguiente",
+    "liquidacionNotificada16aFin": "hasta el 5 del segundo mes siguiente",
+    "periodoCobroPeriodicoMinimo": "2 meses",
+    "prescripcionDevoluciones": "4 años",
+    "recargoEjecutivo": "5 %",
+    "recargoApremioReducido": "10 %",
+    "recargoApremioOrdinario": "20 %",
+    "providenciaNotificada1a15": "hasta el 20 del mismo mes",
+    "providenciaNotificada16aFin": "hasta el 5 del mes siguiente",
+    "recursoReposicionLocal": "1 mes"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T26-001 a DIP-T26-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "plazosPorcentajesYOrganosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "actualizacionTRLHL": "2026-06-03",
+    "actualizacionRGR": "2024-01-31",
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
