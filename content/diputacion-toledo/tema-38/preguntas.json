@@ -1,0 +1,110 @@
+[
+  {
+    "id": "DIP-T38-001",
+    "pregunta": "¿Cuál es el formato nativo de LibreOffice Impress?",
+    "opciones": ["ODT", "ODS", "ODP", "PPTX"],
+    "correcta": 2,
+    "justificacion": "El formato nativo de las presentaciones de Impress es ODP.",
+    "trampa": "PPTX es compatible, pero no es el formato nativo.",
+    "referencia": "Manual Tema 38, apartado 1"
+  },
+  {
+    "id": "DIP-T38-002",
+    "pregunta": "¿Qué vista facilita especialmente reordenar varias diapositivas?",
+    "opciones": ["Normal", "Clasificador de diapositivas", "Notas", "Patrón"],
+    "correcta": 1,
+    "justificacion": "El Clasificador ofrece una visión global adecuada para reorganizar diapositivas.",
+    "trampa": "La vista Normal se utiliza principalmente para editar una diapositiva.",
+    "referencia": "Manual Tema 38, apartado 2"
+  },
+  {
+    "id": "DIP-T38-003",
+    "pregunta": "¿Qué atajo inserta una nueva diapositiva en Impress?",
+    "opciones": ["Ctrl + N", "Ctrl + M", "Ctrl + D", "Mayús + F5"],
+    "correcta": 1,
+    "justificacion": "Ctrl + M inserta una nueva diapositiva.",
+    "trampa": "Ctrl + N crea un documento nuevo.",
+    "referencia": "Manual Tema 38, apartado 4"
+  },
+  {
+    "id": "DIP-T38-004",
+    "pregunta": "Ocultar una diapositiva significa que:",
+    "opciones": ["Se elimina definitivamente", "Se borra su contenido", "Se conserva, pero no se muestra en la presentación ordinaria", "Se convierte en nota"],
+    "correcta": 2,
+    "justificacion": "La diapositiva oculta permanece en el archivo, aunque se excluye del pase ordinario.",
+    "trampa": "Ocultar no equivale a eliminar.",
+    "referencia": "Manual Tema 38, apartado 4"
+  },
+  {
+    "id": "DIP-T38-005",
+    "pregunta": "¿Qué elemento controla fondos, logotipos y estilos comunes dentro de una presentación?",
+    "opciones": ["El patrón de diapositivas", "La transición", "El comentario", "El folleto"],
+    "correcta": 0,
+    "justificacion": "El patrón controla elementos comunes de varias diapositivas.",
+    "trampa": "Una plantilla sirve como modelo reutilizable para crear nuevas presentaciones.",
+    "referencia": "Manual Tema 38, apartado 5"
+  },
+  {
+    "id": "DIP-T38-006",
+    "pregunta": "La transición se aplica principalmente a:",
+    "opciones": ["Un carácter", "Un objeto", "El cambio entre diapositivas", "Una nota"],
+    "correcta": 2,
+    "justificacion": "La transición regula el paso de una diapositiva a otra.",
+    "trampa": "La animación se aplica a objetos dentro de la diapositiva.",
+    "referencia": "Manual Tema 38, apartado 9"
+  },
+  {
+    "id": "DIP-T38-007",
+    "pregunta": "¿Qué tecla inicia la presentación desde el principio?",
+    "opciones": ["F2", "F4", "F5", "F9"],
+    "correcta": 2,
+    "justificacion": "F5 inicia el pase desde la primera diapositiva.",
+    "trampa": "Mayús + F5 inicia desde la diapositiva actual.",
+    "referencia": "Manual Tema 38, apartado 10"
+  },
+  {
+    "id": "DIP-T38-008",
+    "pregunta": "¿Qué combinación inicia el pase desde la diapositiva actual?",
+    "opciones": ["Ctrl + F5", "Alt + F5", "Mayús + F5", "Ctrl + Mayús + F5"],
+    "correcta": 2,
+    "justificacion": "Mayús + F5 inicia desde la diapositiva seleccionada.",
+    "trampa": "F5, sin modificadores, empieza desde el principio.",
+    "referencia": "Manual Tema 38, apartado 10"
+  },
+  {
+    "id": "DIP-T38-009",
+    "pregunta": "¿Cuál es la finalidad principal de las notas del presentador?",
+    "opciones": ["Sustituir el patrón", "Servir de apoyo privado al expositor", "Eliminar diapositivas", "Aplicar transiciones"],
+    "correcta": 1,
+    "justificacion": "Las notas proporcionan información de apoyo al presentador.",
+    "trampa": "No tienen por qué mostrarse al público.",
+    "referencia": "Manual Tema 38, apartado 11"
+  },
+  {
+    "id": "DIP-T38-010",
+    "pregunta": "Los folletos permiten:",
+    "opciones": ["Imprimir varias diapositivas por página", "Editar el patrón", "Crear una base de datos", "Ocultar comentarios"],
+    "correcta": 0,
+    "justificacion": "Los folletos se utilizan para imprimir varias diapositivas en una misma página.",
+    "trampa": "No son equivalentes a las notas del presentador.",
+    "referencia": "Manual Tema 38, apartado 11"
+  },
+  {
+    "id": "DIP-T38-011",
+    "pregunta": "¿Qué afirmación sobre exportar a PDF es correcta?",
+    "opciones": ["Sustituye necesariamente el ODP", "Mantiene siempre toda la edición y animación", "Crea un archivo apropiado para distribución", "Convierte el PDF en formato nativo"],
+    "correcta": 2,
+    "justificacion": "PDF es adecuado para distribución e impresión, pero no sustituye necesariamente el archivo editable ODP.",
+    "trampa": "La exportación no convierte PDF en formato nativo de Impress.",
+    "referencia": "Manual Tema 38, apartado 12"
+  },
+  {
+    "id": "DIP-T38-012",
+    "pregunta": "Una presentación personalizada permite:",
+    "opciones": ["Mostrar una selección de diapositivas en un orden determinado", "Eliminar definitivamente las diapositivas no usadas", "Convertir todas las diapositivas en imágenes", "Modificar el formato nativo"],
+    "correcta": 0,
+    "justificacion": "Permite definir un recorrido concreto sin borrar las demás diapositivas.",
+    "trampa": "No implica crear necesariamente otro archivo ni eliminar contenido.",
+    "referencia": "Manual Tema 38, apartado 10"
+  }
+]
