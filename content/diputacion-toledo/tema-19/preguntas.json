@@ -1,110 +1,114 @@
-[
-  {
-    "id":"DIP-T19-001",
-    "pregunta":"¿Cómo se clasifican las faltas disciplinarias en la Ley 4/2011?",
-    "opciones":["Muy graves, graves y leves","Gravísimas, graves y leves","Muy graves y leves","Mayores y menores"],
-    "correcta":0,
-    "justificacion":"El artículo 133 establece tres categorías: muy graves, graves y leves.",
-    "trampa":"La ley no emplea la categoría gravísima.",
-    "referencia":"Manual, apartado 3"
-  },
-  {
-    "id":"DIP-T19-002",
-    "pregunta":"¿Qué triple identidad exige el principio non bis in idem?",
-    "opciones":["Sujeto, hecho y fundamento","Órgano, procedimiento y sanción","Autor, resultado y culpa","Tiempo, lugar y modo"],
-    "correcta":0,
-    "justificacion":"No cabe doble sanción cuando coinciden sujeto, hecho y fundamento.",
-    "trampa":"No basta con que coincidan solo el sujeto y el hecho.",
-    "referencia":"Manual, apartado 2.4"
-  },
-  {
-    "id":"DIP-T19-003",
-    "pregunta":"¿Cuándo prescribe una falta muy grave?",
-    "opciones":["A los 3 años","A los 2 años","Al año","A los 6 meses"],
-    "correcta":0,
-    "justificacion":"Las faltas muy graves prescriben a los 3 años.",
-    "trampa":"No confundir con el plazo de las faltas graves.",
-    "referencia":"Manual, apartado 7.1"
-  },
-  {
-    "id":"DIP-T19-004",
-    "pregunta":"¿Cuándo prescribe una falta leve?",
-    "opciones":["A los 6 meses","Al año","A los 2 años","A los 3 meses"],
-    "correcta":0,
-    "justificacion":"Las faltas leves prescriben a los 6 meses.",
-    "trampa":"La sanción por falta leve prescribe al año, pero la falta a los 6 meses.",
-    "referencia":"Manual, apartado 7.1"
-  },
-  {
-    "id":"DIP-T19-005",
-    "pregunta":"¿Cuándo prescribe una sanción impuesta por falta leve?",
-    "opciones":["Al año","A los 6 meses","A los 2 años","A los 3 años"],
-    "correcta":0,
-    "justificacion":"Las sanciones por faltas leves prescriben al año.",
-    "trampa":"No confundir con la prescripción de la propia falta leve.",
-    "referencia":"Manual, apartado 7.2"
-  },
-  {
-    "id":"DIP-T19-006",
-    "pregunta":"¿Qué sucede si el expediente disciplinario permanece paralizado más de un mes por causa no imputable a la persona investigada?",
-    "opciones":["Se reanuda el plazo de prescripción","Se archiva automáticamente","La falta se convierte en leve","La sanción queda anulada"],
-    "correcta":0,
-    "justificacion":"La paralización superior a un mes reanuda el plazo de prescripción.",
-    "trampa":"No produce archivo automático.",
-    "referencia":"Manual, apartado 7.1"
-  },
-  {
-    "id":"DIP-T19-007",
-    "pregunta":"¿Cuál es el plazo de cancelación de una sanción por falta grave?",
-    "opciones":["2 años","1 año","3 años","6 meses"],
-    "correcta":0,
-    "justificacion":"La cancelación de la anotación por falta grave procede a los 2 años si no hay nueva sanción.",
-    "trampa":"Los plazos de cancelación son 1, 2 y 3 años.",
-    "referencia":"Manual, apartado 8"
-  },
-  {
-    "id":"DIP-T19-008",
-    "pregunta":"¿Puede cancelarse la anotación de una sanción de separación del servicio?",
-    "opciones":["No","Sí, a los 3 años","Sí, a los 5 años","Sí, cuando lo solicite la persona interesada"],
-    "correcta":0,
-    "justificacion":"La anotación de separación del servicio no es cancelable.",
-    "trampa":"Es la excepción a la regla general de cancelación.",
-    "referencia":"Manual, apartado 8"
-  },
-  {
-    "id":"DIP-T19-009",
-    "pregunta":"¿Cuál es la duración máxima del procedimiento disciplinario por falta grave o muy grave?",
-    "opciones":["12 meses","6 meses","18 meses","24 meses"],
-    "correcta":0,
-    "justificacion":"La Ley 4/2011 fija un máximo de 12 meses.",
-    "trampa":"No aplicar automáticamente el plazo general de 6 meses de otros procedimientos.",
-    "referencia":"Manual, apartado 9"
-  },
-  {
-    "id":"DIP-T19-010",
-    "pregunta":"¿Qué sanción solo puede imponerse por falta muy grave?",
-    "opciones":["Separación del servicio","Apercibimiento","Demérito","Traslado provisional"],
-    "correcta":0,
-    "justificacion":"La separación del servicio queda reservada a las faltas muy graves.",
-    "trampa":"El apercibimiento es una sanción de menor intensidad.",
-    "referencia":"Manual, apartado 4"
-  },
-  {
-    "id":"DIP-T19-011",
-    "pregunta":"¿Pueden aplicarse por analogía las normas que definen faltas disciplinarias?",
-    "opciones":["No","Sí, siempre","Solo para faltas leves","Solo con autorización judicial"],
-    "correcta":0,
-    "justificacion":"La tipicidad excluye la aplicación analógica de faltas y sanciones.",
-    "trampa":"La analogía no puede utilizarse para ampliar conductas sancionables.",
-    "referencia":"Manual, apartado 2.1"
-  },
-  {
-    "id":"DIP-T19-012",
-    "pregunta":"¿Qué efecto tienen los hechos declarados probados por una sentencia penal firme?",
-    "opciones":["Vinculan a la Administración en el procedimiento disciplinario","Carecen de efectos","Solo sirven como indicio","Obligan siempre a imponer la misma sanción"],
-    "correcta":0,
-    "justificacion":"Los hechos probados penalmente vinculan a la Administración, aunque la consecuencia disciplinaria sea autónoma.",
-    "trampa":"Vinculan los hechos, no necesariamente la sanción disciplinaria concreta.",
-    "referencia":"Manual, apartado 9.2"
-  }
-]
+{
+  "tema": 19,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T19-001",
+      "pregunta": "¿Cómo se clasifican las faltas disciplinarias en la Ley 4/2011?",
+      "opciones": ["Muy graves, graves y leves", "Gravísimas, graves y leves", "Muy graves y leves", "Mayores y menores"],
+      "correcta": 0,
+      "justificacion": "El artículo 133 de la Ley 4/2011 clasifica las faltas disciplinarias en muy graves, graves y leves.",
+      "trampa": "La ley no utiliza la categoría gravísima.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#3-clases-de-faltas"
+    },
+    {
+      "id": "DIP-T19-002",
+      "pregunta": "¿Qué triple identidad exige el principio non bis in idem?",
+      "opciones": ["Sujeto, hecho y fundamento", "Órgano, procedimiento y sanción", "Autor, resultado y culpa", "Tiempo, lugar y modo"],
+      "correcta": 0,
+      "justificacion": "No cabe una doble sanción penal o administrativa cuando coinciden sujeto, hecho y fundamento.",
+      "trampa": "No basta con que coincidan únicamente el sujeto y el hecho; también debe existir identidad de fundamento.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#24-concurrencia-de-sanciones"
+    },
+    {
+      "id": "DIP-T19-003",
+      "pregunta": "¿Cuándo prescribe una falta muy grave?",
+      "opciones": ["A los 3 años", "A los 2 años", "Al año", "A los 6 meses"],
+      "correcta": 0,
+      "justificacion": "Las faltas muy graves prescriben a los 3 años.",
+      "trampa": "No debe confundirse con el plazo de 2 años aplicable a las faltas graves.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#71-prescripción-de-las-faltas"
+    },
+    {
+      "id": "DIP-T19-004",
+      "pregunta": "¿Cuándo prescribe una falta leve?",
+      "opciones": ["A los 6 meses", "Al año", "A los 2 años", "A los 3 meses"],
+      "correcta": 0,
+      "justificacion": "Las faltas leves prescriben a los 6 meses.",
+      "trampa": "La sanción impuesta por una falta leve prescribe al año, pero la propia falta prescribe a los 6 meses.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#71-prescripción-de-las-faltas"
+    },
+    {
+      "id": "DIP-T19-005",
+      "pregunta": "¿Cuándo prescribe una sanción impuesta por falta leve?",
+      "opciones": ["Al año", "A los 6 meses", "A los 2 años", "A los 3 años"],
+      "correcta": 0,
+      "justificacion": "Las sanciones impuestas por faltas leves prescriben al año desde la firmeza en vía administrativa de la resolución sancionadora.",
+      "trampa": "No debe confundirse el plazo de prescripción de la sanción con el de la propia falta leve.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#72-prescripción-de-las-sanciones"
+    },
+    {
+      "id": "DIP-T19-006",
+      "pregunta": "¿Qué sucede si el expediente disciplinario permanece paralizado más de un mes por causa no imputable a la persona investigada?",
+      "opciones": ["Se reanuda el plazo de prescripción", "Se archiva automáticamente", "La falta se convierte en leve", "La sanción queda anulada"],
+      "correcta": 0,
+      "justificacion": "La prescripción, interrumpida por la iniciación del procedimiento conocida por la persona interesada, se reanuda si el expediente permanece paralizado durante más de un mes por causa no imputable a la persona presuntamente responsable.",
+      "trampa": "La paralización no produce el archivo automático del expediente.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#71-prescripción-de-las-faltas"
+    },
+    {
+      "id": "DIP-T19-007",
+      "pregunta": "¿Cuál es el plazo de cancelación de una sanción por falta grave?",
+      "opciones": ["2 años", "1 año", "3 años", "6 meses"],
+      "correcta": 0,
+      "justificacion": "La anotación de una sanción por falta grave puede cancelarse a los 2 años desde su cumplimiento, siempre que no se haya impuesto una nueva sanción.",
+      "trampa": "Los plazos ordinarios de cancelación son 1 año para leves, 2 años para graves y 3 años para muy graves.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#8-cancelación-de-anotaciones"
+    },
+    {
+      "id": "DIP-T19-008",
+      "pregunta": "¿Puede cancelarse la anotación de una sanción de separación del servicio?",
+      "opciones": ["No", "Sí, a los 3 años", "Sí, a los 5 años", "Sí, cuando lo solicite la persona interesada"],
+      "correcta": 0,
+      "justificacion": "La anotación de la sanción de separación del servicio no es cancelable.",
+      "trampa": "La separación del servicio constituye la excepción a la regla general de cancelación de anotaciones disciplinarias.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#8-cancelación-de-anotaciones"
+    },
+    {
+      "id": "DIP-T19-009",
+      "pregunta": "¿Cuál es la duración máxima del procedimiento disciplinario por falta grave o muy grave?",
+      "opciones": ["12 meses", "6 meses", "18 meses", "24 meses"],
+      "correcta": 0,
+      "justificacion": "La Ley 4/2011 fija una duración máxima de 12 meses para los procedimientos disciplinarios por faltas graves o muy graves.",
+      "trampa": "No debe aplicarse automáticamente el plazo general de 6 meses previsto para otros procedimientos administrativos.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#9-procedimiento-disciplinario"
+    },
+    {
+      "id": "DIP-T19-010",
+      "pregunta": "¿Qué sanción solo puede imponerse por falta muy grave?",
+      "opciones": ["Separación del servicio", "Apercibimiento", "Demérito", "Traslado provisional"],
+      "correcta": 0,
+      "justificacion": "La separación del servicio del personal funcionario de carrera solo puede imponerse por la comisión de una falta muy grave.",
+      "trampa": "El apercibimiento es una sanción de menor intensidad y no se reserva a las faltas muy graves.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#4-sanciones-disciplinarias"
+    },
+    {
+      "id": "DIP-T19-011",
+      "pregunta": "¿Pueden aplicarse por analogía las normas que definen faltas disciplinarias?",
+      "opciones": ["No", "Sí, siempre", "Solo para faltas leves", "Solo con autorización judicial"],
+      "correcta": 0,
+      "justificacion": "El principio de legalidad y tipicidad impide aplicar por analogía las normas que definen faltas y sanciones disciplinarias.",
+      "trampa": "La analogía no puede utilizarse para ampliar las conductas sancionables.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#21-legalidad-y-tipicidad"
+    },
+    {
+      "id": "DIP-T19-012",
+      "pregunta": "¿Qué efecto tienen los hechos declarados probados por una sentencia penal firme?",
+      "opciones": ["Vinculan a la Administración en el procedimiento disciplinario", "Carecen de efectos", "Solo sirven como indicio", "Obligan siempre a imponer la misma sanción"],
+      "correcta": 0,
+      "justificacion": "Los hechos declarados probados por una resolución judicial penal firme vinculan a la Administración en el procedimiento disciplinario.",
+      "trampa": "La vinculación afecta a los hechos probados, pero no obliga necesariamente a imponer una sanción disciplinaria idéntica a la penal.",
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#92-vinculación-con-el-proceso-penal"
+    }
+  ]
+}
