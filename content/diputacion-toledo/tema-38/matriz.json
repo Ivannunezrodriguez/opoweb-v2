@@ -1,0 +1,50 @@
+{
+  "tema": 38,
+  "titulo": "LibreOffice 24 IV. Elaboración y uso de presentaciones con LibreOffice 24 Impress.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Ayuda oficial de LibreOffice Impress",
+    "Documentación oficial de LibreOffice Impress",
+    "Estándar OpenDocument"
+  ],
+  "bloques": [
+    {"id":"T38-B01","nombre":"Concepto, interfaz y vistas de Impress","cubierto":true},
+    {"id":"T38-B02","nombre":"Creación, apertura, guardado y formato ODP","cubierto":true},
+    {"id":"T38-B03","nombre":"Diapositivas, diseños y operaciones","cubierto":true},
+    {"id":"T38-B04","nombre":"Patrones, plantillas y estilos","cubierto":true},
+    {"id":"T38-B05","nombre":"Texto, listas y formato","cubierto":true},
+    {"id":"T38-B06","nombre":"Imágenes, formas, tablas, gráficos y multimedia","cubierto":true},
+    {"id":"T38-B07","nombre":"Transiciones y animaciones","cubierto":true},
+    {"id":"T38-B08","nombre":"Presentación, navegación y presentaciones personalizadas","cubierto":true},
+    {"id":"T38-B09","nombre":"Notas, comentarios, folletos e impresión","cubierto":true},
+    {"id":"T38-B10","nombre":"Exportación, compatibilidad y atajos","cubierto":true}
+  ],
+  "datosTest": {
+    "formatoNativo": "ODP",
+    "nuevaDiapositiva": "Ctrl + M",
+    "guardar": "Ctrl + S",
+    "iniciarDesdePrincipio": "F5",
+    "iniciarDesdeActual": "Mayús + F5",
+    "transicion": "se aplica a la diapositiva",
+    "animacion": "se aplica a objetos",
+    "patron": "controla elementos comunes",
+    "plantilla": "modelo reutilizable",
+    "ocultar": "no elimina la diapositiva",
+    "pdf": "formato de distribución, no sustituto del ODP editable"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T38-001 a DIP-T38-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "atajosYConceptosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
