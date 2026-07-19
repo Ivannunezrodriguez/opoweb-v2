@@ -1,0 +1,22 @@
+{
+  "tema": 20,
+  "titulo": "El contrato de trabajo: contenido y régimen jurídico. Modificación, suspensión y extinción.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrincipal": "Real Decreto Legislativo 2/2015, de 23 de octubre",
+  "ultimaActualizacionBOEConsultada": "2025-12-04",
+  "bloques": [
+    {"id":"T20-B01","contenido":"Concepto, fuentes, capacidad y forma","cubierto":true},
+    {"id":"T20-B02","contenido":"Derechos, deberes, salario y poder de dirección","cubierto":true},
+    {"id":"T20-B03","contenido":"Movilidad funcional y geográfica","cubierto":true},
+    {"id":"T20-B04","contenido":"Modificación sustancial","cubierto":true},
+    {"id":"T20-B05","contenido":"Suspensión","cubierto":true},
+    {"id":"T20-B06","contenido":"Extinción y despidos","cubierto":true}
+  ],
+  "controlTest": {
+    "plazosYCuantiasEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "preguntasPropias": 12,
+    "reutilizacionLaPuebla": false
+  }
+}
