@@ -1,113 +1,113 @@
 {
   "tema": 2,
-  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
+  "estado": "GENERACION_DESDE_CERO",
   "preguntas": [
     {
       "id": "DIP-T02-001",
       "pregunta": "¿Qué artículos integran la Sección 1.ª del Capítulo II del Título I de la Constitución?",
       "opciones": ["Del 14 al 29", "Del 15 al 29", "Del 14 al 38", "Del 10 al 29"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La Sección 1.ª comprende los artículos 15 a 29. El artículo 14 queda fuera formalmente de esa sección, aunque recibe la tutela reforzada del artículo 53.2.",
-      "trampaExamen": "Es habitual incluir erróneamente el artículo 14 dentro de la Sección 1.ª. Tiene protección equivalente, pero ubicación distinta.",
+      "trampa": "Es habitual incluir erróneamente el artículo 14 dentro de la Sección 1.ª. Tiene protección equivalente, pero ubicación distinta.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#2-estructura-del-título-i"
     },
     {
       "id": "DIP-T02-002",
       "pregunta": "¿Cuál es el plazo máximo constitucional de la detención preventiva?",
       "opciones": ["24 horas", "48 horas", "72 horas", "5 días"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "El artículo 17.2 de la Constitución establece que el detenido debe ser puesto en libertad o a disposición judicial en el plazo máximo de 72 horas.",
-      "trampaExamen": "Las 72 horas son un máximo, no un plazo ordinario que deba agotarse en todos los casos.",
+      "trampa": "Las 72 horas son un máximo, no un plazo ordinario que deba agotarse en todos los casos.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#53-libertad-y-seguridad"
     },
     {
       "id": "DIP-T02-003",
       "pregunta": "¿Qué derecho del artículo 30 puede protegerse mediante recurso de amparo?",
       "opciones": ["Todo el deber de defensa de España", "Solo la objeción de conciencia del artículo 30.2", "El derecho al trabajo", "Ninguno"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El artículo 53.2 extiende expresamente el recurso de amparo a la objeción de conciencia reconocida en el artículo 30.2.",
-      "trampaExamen": "No todo el artículo 30 es susceptible de amparo; únicamente la objeción de conciencia del apartado 2.",
+      "trampa": "No todo el artículo 30 es susceptible de amparo; únicamente la objeción de conciencia del apartado 2.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#84-recurso-de-amparo"
     },
     {
       "id": "DIP-T02-004",
       "pregunta": "¿Qué mayoría exige la aprobación, modificación o derogación de una ley orgánica?",
       "opciones": ["Mayoría simple del Congreso", "Mayoría absoluta del Congreso en votación final sobre el conjunto", "Mayoría de tres quintos de cada Cámara", "Mayoría absoluta del Senado"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El artículo 81.2 exige mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto.",
-      "trampaExamen": "La mayoría absoluta se exige en el Congreso y en la votación final sobre el conjunto, no en cada votación parcial.",
+      "trampa": "La mayoría absoluta se exige en el Congreso y en la votación final sobre el conjunto, no en cada votación parcial.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#82-reserva-de-ley-orgánica"
     },
     {
       "id": "DIP-T02-005",
       "pregunta": "¿Cuál de estos derechos no puede suspenderse con carácter general en un estado de excepción o sitio?",
       "opciones": ["Secreto de las comunicaciones", "Libertad de circulación", "Tutela judicial efectiva", "Derecho de reunión"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "El artículo 24, relativo a la tutela judicial efectiva, no figura entre los derechos enumerados en el artículo 55.1 como susceptibles de suspensión general.",
-      "trampaExamen": "No todos los derechos fundamentales de los artículos 15 a 29 pueden suspenderse; solo los expresamente enumerados en el artículo 55.1.",
+      "trampa": "No todos los derechos fundamentales de los artículos 15 a 29 pueden suspenderse; solo los expresamente enumerados en el artículo 55.1.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#91-suspensión-general"
     },
     {
       "id": "DIP-T02-006",
       "pregunta": "¿Quién declara el estado de sitio?",
       "opciones": ["El Gobierno por decreto", "El Rey a propuesta del Gobierno", "El Congreso por mayoría absoluta, a propuesta exclusiva del Gobierno", "El Senado por mayoría de tres quintos"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "El estado de sitio es declarado por el Congreso de los Diputados por mayoría absoluta, a propuesta exclusiva del Gobierno.",
-      "trampaExamen": "A diferencia del estado de alarma y del de excepción, el estado de sitio no lo declara el Gobierno.",
+      "trampa": "A diferencia del estado de alarma y del de excepción, el estado de sitio no lo declara el Gobierno.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#93-estados-de-alarma-excepción-y-sitio"
     },
     {
       "id": "DIP-T02-007",
       "pregunta": "¿Qué duración máxima inicial tiene el estado de excepción?",
       "opciones": ["15 días", "30 días", "60 días", "La que determine libremente el Gobierno"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "La autorización y proclamación del estado de excepción debe determinar su duración, que no puede exceder de 30 días, prorrogables por otro plazo igual.",
-      "trampaExamen": "Los 15 días corresponden al estado de alarma; el de excepción tiene un máximo inicial de 30 días.",
+      "trampa": "Los 15 días corresponden al estado de alarma; el de excepción tiene un máximo inicial de 30 días.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#93-estados-de-alarma-excepción-y-sitio"
     },
     {
       "id": "DIP-T02-008",
       "pregunta": "¿Cuál de las siguientes afirmaciones sobre el decreto-ley es correcta?",
       "opciones": ["Es un reglamento ejecutivo", "Tiene rango de ley y debe someterse al Congreso dentro de 30 días", "Puede afectar libremente al régimen electoral general", "Exige delegación legislativa previa"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "El real decreto-ley es una disposición legislativa provisional con rango de ley que debe ser convalidada o derogada por el Congreso dentro de los 30 días siguientes a su promulgación.",
-      "trampaExamen": "Aunque lo dicta el Gobierno, no es un reglamento. Tiene rango de ley y responde a extraordinaria y urgente necesidad.",
+      "trampa": "Aunque lo dicta el Gobierno, no es un reglamento. Tiene rango de ley y responde a extraordinaria y urgente necesidad.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#106-decreto-ley"
     },
     {
       "id": "DIP-T02-009",
       "pregunta": "¿Qué instrumento de delegación se utiliza para que el Gobierno elabore un texto articulado?",
       "opciones": ["Ley de bases", "Ley orgánica", "Decreto-ley", "Orden ministerial"],
-      "respuestaCorrecta": 0,
+      "correcta": 0,
       "justificacion": "La delegación para formar textos articulados se otorga mediante una ley de bases. Para refundir varios textos legales se utiliza una ley ordinaria de delegación.",
-      "trampaExamen": "Texto articulado equivale a ley de bases; texto refundido equivale a ley ordinaria de delegación.",
+      "trampa": "Texto articulado equivale a ley de bases; texto refundido equivale a ley ordinaria de delegación.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#105-decreto-legislativo"
     },
     {
       "id": "DIP-T02-010",
       "pregunta": "¿Qué significa la inderogabilidad singular de los reglamentos?",
       "opciones": ["Que ningún reglamento puede ser derogado", "Que una resolución particular no puede vulnerar un reglamento vigente", "Que un reglamento prevalece siempre sobre la ley", "Que solo el Parlamento puede modificar reglamentos"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "Una resolución administrativa singular no puede contradecir una disposición general, aunque proceda de un órgano de igual o superior jerarquía que el autor del reglamento.",
-      "trampaExamen": "La inderogabilidad singular no impide derogar el reglamento mediante otra disposición general competente; impide excepcionarlo con un acto particular.",
+      "trampa": "La inderogabilidad singular no impide derogar el reglamento mediante otra disposición general competente; impide excepcionarlo con un acto particular.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#116-inderogabilidad-singular"
     },
     {
       "id": "DIP-T02-011",
       "pregunta": "¿Qué consecuencia tiene, con carácter general, que un reglamento vulnere una ley?",
       "opciones": ["Anulabilidad", "Nulidad de pleno derecho", "Convalidación automática", "Conversión en ley"],
-      "respuestaCorrecta": 1,
+      "correcta": 1,
       "justificacion": "Las disposiciones administrativas que vulneren la Constitución, las leyes u otras disposiciones de rango superior son nulas de pleno derecho.",
-      "trampaExamen": "En materia reglamentaria, la infracción de una norma superior conduce a nulidad, no a simple anulabilidad.",
+      "trampa": "En materia reglamentaria, la infracción de una norma superior conduce a nulidad, no a simple anulabilidad.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#115-límites-del-reglamento"
     },
     {
       "id": "DIP-T02-012",
       "pregunta": "¿Cómo se relacionan, con carácter general, la ley orgánica y la ley ordinaria?",
       "opciones": ["La ley orgánica es siempre jerárquicamente superior", "La ley ordinaria puede modificar cualquier ley orgánica", "La relación es principalmente de competencia material", "Ambas tienen idéntico procedimiento de aprobación"],
-      "respuestaCorrecta": 2,
+      "correcta": 2,
       "justificacion": "La distinción fundamental es material: la Constitución reserva determinadas materias a ley orgánica. No existe una superioridad jerárquica general de toda ley orgánica sobre toda ley ordinaria.",
-      "trampaExamen": "El error frecuente consiste en afirmar una jerarquía universal. La clave es la reserva material del artículo 81.",
+      "trampa": "El error frecuente consiste en afirmar una jerarquía universal. La clave es la reserva material del artículo 81.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#133-reserva-de-ley"
     }
   ]
