@@ -1,0 +1,98 @@
+[
+  {
+    "id": "DIP-T40-001",
+    "pregunta": "¿Qué tipo de periférico es una pantalla táctil?",
+    "opciones": ["Solo de entrada", "Solo de salida", "De entrada y salida", "Solo de almacenamiento"],
+    "correcta": 2,
+    "explicacion": "La pantalla muestra información y también recibe órdenes mediante el contacto táctil.",
+    "referencia": "Tema 40 · Clasificación de periféricos"
+  },
+  {
+    "id": "DIP-T40-002",
+    "pregunta": "¿Qué consumible utiliza normalmente una impresora láser?",
+    "opciones": ["Tinta líquida", "Tóner", "Cinta magnética", "Papel térmico exclusivamente"],
+    "correcta": 1,
+    "explicacion": "Las impresoras láser utilizan normalmente tóner; las de inyección emplean tinta.",
+    "referencia": "Tema 40 · Impresoras"
+  },
+  {
+    "id": "DIP-T40-003",
+    "pregunta": "¿Cuál es la función principal del OCR?",
+    "opciones": ["Comprimir imágenes", "Reconocer texto contenido en una imagen", "Aumentar la resolución física del escáner", "Cifrar documentos"],
+    "correcta": 1,
+    "explicacion": "El OCR intenta convertir caracteres presentes en una imagen en texto editable o susceptible de búsqueda.",
+    "referencia": "Tema 40 · Escáneres"
+  },
+  {
+    "id": "DIP-T40-004",
+    "pregunta": "¿Qué opción describe mejor un SSD externo frente a un HDD externo?",
+    "opciones": ["Tiene siempre menor velocidad", "Utiliza necesariamente discos ópticos", "No tiene piezas móviles y suele ser más rápido", "Solo puede conectarse por Ethernet"],
+    "correcta": 2,
+    "explicacion": "El SSD usa memoria flash y carece de piezas móviles, mientras el HDD emplea componentes mecánicos.",
+    "referencia": "Tema 40 · Discos externos"
+  },
+  {
+    "id": "DIP-T40-005",
+    "pregunta": "¿Cuál es el límite clásico de tamaño de un archivo individual en FAT32?",
+    "opciones": ["2 GB", "4 GB", "8 GB", "16 GB"],
+    "correcta": 1,
+    "explicacion": "FAT32 no admite archivos individuales de 4 GB o más.",
+    "referencia": "Tema 40 · Sistemas de archivos"
+  },
+  {
+    "id": "DIP-T40-006",
+    "pregunta": "¿Cuál es la capacidad nominal habitual de un CD?",
+    "opciones": ["700 MB", "4,7 GB", "8,5 GB", "25 GB"],
+    "correcta": 0,
+    "explicacion": "La capacidad nominal habitual de un CD es de 700 MB.",
+    "referencia": "Tema 40 · CD y DVD"
+  },
+  {
+    "id": "DIP-T40-007",
+    "pregunta": "¿Qué significa normalmente la denominación RW en un soporte óptico?",
+    "opciones": ["Solo lectura", "Grabable una sola vez", "Regrabable", "Protegido contra escritura"],
+    "correcta": 2,
+    "explicacion": "RW identifica un soporte que puede borrarse y volver a grabarse.",
+    "referencia": "Tema 40 · Modalidades ópticas"
+  },
+  {
+    "id": "DIP-T40-008",
+    "pregunta": "Una unidad CD-R permite, con carácter general:",
+    "opciones": ["Grabar y borrar indefinidamente", "Grabar una vez", "Solo reproducir DVD", "Almacenar exclusivamente audio"],
+    "correcta": 1,
+    "explicacion": "La modalidad R es grabable una vez; la regrabación corresponde a RW.",
+    "referencia": "Tema 40 · Modalidades ópticas"
+  },
+  {
+    "id": "DIP-T40-009",
+    "pregunta": "¿Qué indica por sí sola la presencia de un conector USB-C?",
+    "opciones": ["Velocidad USB4 garantizada", "Carga rápida garantizada", "La forma física del conector", "Compatibilidad obligatoria con vídeo"],
+    "correcta": 2,
+    "explicacion": "USB-C define el conector. Las prestaciones dependen del puerto, cable, dispositivo y protocolo compatible.",
+    "referencia": "Tema 40 · Memorias USB"
+  },
+  {
+    "id": "DIP-T40-010",
+    "pregunta": "¿Qué función cumple un controlador o driver?",
+    "opciones": ["Sustituye al sistema operativo", "Permite la comunicación entre el sistema operativo y el dispositivo", "Convierte un HDD en SSD", "Cifra automáticamente todos los archivos"],
+    "correcta": 1,
+    "explicacion": "El driver proporciona al sistema operativo la forma adecuada de comunicarse con el hardware.",
+    "referencia": "Tema 40 · Controladores"
+  },
+  {
+    "id": "DIP-T40-011",
+    "pregunta": "¿Para qué resulta especialmente adecuado un alimentador automático de documentos?",
+    "opciones": ["Para escanear lotes de varias páginas", "Para reparar fotografías", "Para aumentar la memoria RAM", "Para grabar DVD"],
+    "correcta": 0,
+    "explicacion": "El alimentador automático permite procesar consecutivamente varias hojas.",
+    "referencia": "Tema 40 · Escáneres"
+  },
+  {
+    "id": "DIP-T40-012",
+    "pregunta": "¿Qué práctica reduce el riesgo de corrupción de datos en una unidad USB?",
+    "opciones": ["Desconectarla durante la escritura", "Usar la extracción segura", "Formatearla tras cada uso", "Ocultar sus archivos"],
+    "correcta": 1,
+    "explicacion": "La extracción segura permite completar operaciones pendientes antes de desconectar el dispositivo.",
+    "referencia": "Tema 40 · Seguridad y conservación"
+  }
+]
