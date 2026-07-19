@@ -1,0 +1,48 @@
+{
+  "tema": 34,
+  "titulo": "Microsoft Windows 11 Pro III. Impresión y escaneado de documentos desde Microsoft Windows 11.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Microsoft Support · Agregar o instalar una impresora en Windows",
+    "Microsoft Support · Instalar y usar un escáner en Windows",
+    "Microsoft Learn · Impresión y digitalización"
+  ],
+  "bloques": [
+    {"id":"T34-B01","nombre":"Concepto y elementos del sistema de impresión","cubierto":true},
+    {"id":"T34-B02","nombre":"Instalación y configuración de impresoras","cubierto":true},
+    {"id":"T34-B03","nombre":"Impresora predeterminada y cuadro de impresión","cubierto":true},
+    {"id":"T34-B04","nombre":"Impresión a PDF y cola de impresión","cubierto":true},
+    {"id":"T34-B05","nombre":"Resolución de problemas de impresión","cubierto":true},
+    {"id":"T34-B06","nombre":"Instalación y detección de escáneres","cubierto":true},
+    {"id":"T34-B07","nombre":"Aplicación Escáner de Windows","cubierto":true},
+    {"id":"T34-B08","nombre":"Formatos, resolución, color y fuentes","cubierto":true},
+    {"id":"T34-B09","nombre":"Impresión y escaneado en red","cubierto":true},
+    {"id":"T34-B10","nombre":"Seguridad y protección de datos","cubierto":true}
+  ],
+  "datosTest": {
+    "imprimir": "Ctrl + P",
+    "agregarImpresora": "Configuración > Bluetooth y dispositivos > Impresoras y escáneres",
+    "impresoraVirtual": "Microsoft Print to PDF",
+    "colaImpresion": "gestiona trabajos pendientes, pausados, cancelados o con error",
+    "aplicacionEscaneo": "Escáner de Windows",
+    "camaPlana": "documentos únicos, fotografías o material delicado",
+    "alimentador": "varias páginas consecutivas",
+    "dpi": "a mayor resolución, más detalle y mayor tamaño de archivo",
+    "rutaImpresoraRed": "\\\\servidor\\impresora"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T34-001 a DIP-T34-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "atajosYConceptosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
