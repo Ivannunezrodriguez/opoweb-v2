@@ -1,7 +1,7 @@
 {
   "tema": 15,
   "epigrafeOficial": "Otras Entidades Locales. Mancomunidades. Comarcas. Áreas Metropolitanas. Entidades de ámbito territorial inferior al municipio.",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "GENERACION_DESDE_CERO",
   "modo": "GENERACION_DESDE_CERO",
   "fechaRevision": "2026-07-19",
   "bloques": [
@@ -12,12 +12,16 @@
     {"id":"15.5","titulo":"Entidades de ámbito territorial inferior al municipio","cubierto":true,"fuentes":["Ley 7/1985, art. 24 bis","Ley 27/2013"]},
     {"id":"15.6","titulo":"Régimen de Castilla-La Mancha","cubierto":true,"fuentes":["Ley 3/1991, de Entidades Locales de Castilla-La Mancha"]}
   ],
-  "controles": {
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T15-001 a DIP-T15-012",
     "literalidadJuridicaClave": true,
-    "plazosMayoriasOrganosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
-    "preguntasPropias": 12,
-    "reutilizacionLaPuebla": false
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
   }
 }
