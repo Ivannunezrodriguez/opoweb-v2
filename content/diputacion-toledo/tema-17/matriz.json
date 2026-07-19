@@ -1,0 +1,32 @@
+{
+  "tema": 17,
+  "epigrafe": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: el personal al servicio de las Administraciones Públicas de Castilla-La Mancha. Acceso al empleo público y pérdida de la relación de servicio.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentesPrincipales": [
+    "Ley 4/2011, de 10 de marzo, del Empleo Público de Castilla-La Mancha",
+    "Real Decreto Legislativo 5/2015, de 30 de octubre, TREBEP"
+  ],
+  "bloques": [
+    {"id":"17.1","titulo":"Objeto, ámbito y clases de personal","estado":"CUBIERTO"},
+    {"id":"17.2","titulo":"Principios y requisitos de acceso","estado":"CUBIERTO"},
+    {"id":"17.3","titulo":"Nacionalidad y acceso de personas extranjeras","estado":"CUBIERTO"},
+    {"id":"17.4","titulo":"Sistemas selectivos y órganos de selección","estado":"CUBIERTO"},
+    {"id":"17.5","titulo":"Oferta de empleo público y discapacidad","estado":"CUBIERTO"},
+    {"id":"17.6","titulo":"Adquisición de la condición de personal funcionario","estado":"CUBIERTO"},
+    {"id":"17.7","titulo":"Pérdida de la relación de servicio","estado":"CUBIERTO"},
+    {"id":"17.8","titulo":"Rehabilitación","estado":"CUBIERTO"}
+  ],
+  "controlTest": {
+    "edadMinima": "16 años",
+    "sistemasOrdinariosFuncionario": ["oposición", "concurso-oposición"],
+    "concursoFuncionario": "excepcional y previsto por ley",
+    "causasPerdida": [
+      "renuncia",
+      "pérdida de nacionalidad",
+      "jubilación total",
+      "separación firme del servicio",
+      "inhabilitación firme"
+    ]
+  },
+  "revision": "PENDIENTE_REVISION_USUARIO"
+}
