@@ -1,0 +1,33 @@
+{
+  "tema": 25,
+  "titulo": "La obligación tributaria: nacimiento, sujetos, elementos cuantitativos y extinción. Los tributos locales. Normas generales. Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Los procedimientos de gestión tributaria. La extinción de la deuda. Los procedimientos tributarios de revisión.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "bloques": [
+    {"id":"T25-B01","nombre":"Relación jurídico-tributaria y obligación principal","cubierto":true},
+    {"id":"T25-B02","nombre":"Nacimiento, hecho imponible, devengo y exigibilidad","cubierto":true},
+    {"id":"T25-B03","nombre":"Obligados tributarios, sujeto pasivo y responsables","cubierto":true},
+    {"id":"T25-B04","nombre":"Base imponible, base liquidable, tipo y cuotas","cubierto":true},
+    {"id":"T25-B05","nombre":"Deuda tributaria y extinción","cubierto":true},
+    {"id":"T25-B06","nombre":"Tributos locales y principios de tributación local","cubierto":true},
+    {"id":"T25-B07","nombre":"Ordenanzas fiscales, delegación y colaboración","cubierto":true},
+    {"id":"T25-B08","nombre":"Beneficios fiscales y compensación","cubierto":true},
+    {"id":"T25-B09","nombre":"Procedimientos de gestión tributaria","cubierto":true},
+    {"id":"T25-B10","nombre":"Liquidaciones y procedimientos tributarios de revisión","cubierto":true}
+  ],
+  "datosTest": [
+    {"concepto":"Prescripción tributaria general","valor":"4 años"},
+    {"concepto":"Recurso de reposición tributario local","valor":"1 mes"},
+    {"concepto":"Impuestos locales obligatorios","valor":"IBI, IAE e IVTM"},
+    {"concepto":"Impuestos locales potestativos","valor":"ICIO e IIVTNU"},
+    {"concepto":"Sanciones tributarias","valor":"No forman parte de la deuda tributaria"}
+  ],
+  "control": {
+    "redaccionAutonoma": true,
+    "reutilizacionOtrosTemarios": false,
+    "fuentePrincipal": "Ley 58/2003 y Real Decreto Legislativo 2/2004",
+    "actualizacionTRLHL": "2026-06-03",
+    "actualizacionRGAT": "2025-04-02",
+    "preguntasPrevistas": 12
+  }
+}
