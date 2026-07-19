@@ -28,5 +28,15 @@
       "inhabilitación firme"
     ]
   },
-  "revision": "PENDIENTE_REVISION_USUARIO"
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T17-001 a DIP-T17-012",
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
+  }
 }
