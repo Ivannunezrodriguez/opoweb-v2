@@ -1,98 +1,114 @@
-[
-  {
-    "id":"DIP-T22-001",
-    "tema":22,
-    "pregunta":"¿Qué límite debe respetar un acuerdo regulador de condiciones de trabajo en el empleo público?",
-    "opciones":["Puede modificar cualquier ley","Debe respetar la Constitución, las leyes y las competencias de los órganos","Solo está limitado por el presupuesto","Prevalece siempre sobre el Estatuto Básico del Empleado Público"],
-    "correcta":1,
-    "justificacion":"La negociación colectiva del sector público está subordinada al principio de legalidad y no puede alterar competencias o normas de rango superior."
-  },
-  {
-    "id":"DIP-T22-002",
-    "tema":22,
-    "pregunta":"El OAPGT de Toledo es:",
-    "opciones":["Una comunidad autónoma","Un organismo autónomo de la Diputación Provincial de Toledo","Un ministerio estatal","Una empresa privada concesionaria"],
-    "correcta":1,
-    "justificacion":"Su naturaleza institucional es la de organismo autónomo provincial vinculado a la Diputación de Toledo."
-  },
-  {
-    "id":"DIP-T22-003",
-    "tema":22,
-    "pregunta":"La delegación de la gestión o recaudación de un tributo local en el OAPGT:",
-    "opciones":["Transfiere necesariamente la titularidad del tributo","No altera por sí misma la titularidad del tributo","Suprime la ordenanza fiscal","Convierte el tributo en estatal"],
-    "correcta":1,
-    "justificacion":"La entidad titular conserva la titularidad del recurso; lo delegado es el ejercicio de funciones concretas."
-  },
-  {
-    "id":"DIP-T22-004",
-    "tema":22,
-    "pregunta":"¿Cuál de estas funciones puede desarrollar el OAPGT cuando esté legalmente atribuida o delegada?",
-    "opciones":["Aprobar leyes autonómicas","Gestionar y recaudar ingresos de derecho público","Nombrar alcaldes","Modificar la Constitución"],
-    "correcta":1,
-    "justificacion":"Su finalidad se centra en funciones tributarias y recaudatorias asumidas conforme a la ley y a los acuerdos aplicables."
-  },
-  {
-    "id":"DIP-T22-005",
-    "tema":22,
-    "pregunta":"¿Qué diferencia básica existe entre recaudación voluntaria y ejecutiva?",
-    "opciones":["La voluntaria se produce dentro del plazo y la ejecutiva tras el impago","La ejecutiva siempre precede a la voluntaria","No existe diferencia jurídica","La voluntaria solo se aplica a multas"],
-    "correcta":0,
-    "justificacion":"La vía ejecutiva comienza, con los requisitos legales, tras no pagarse la deuda en período voluntario."
-  },
-  {
-    "id":"DIP-T22-006",
-    "tema":22,
-    "pregunta":"Que el OAPGT recaude un tributo implica necesariamente que también tenga atribuida su inspección?",
-    "opciones":["Sí, siempre","No; la inspección requiere atribución competencial suficiente","Sí, salvo en tasas","Solo si lo decide el contribuyente"],
-    "correcta":1,
-    "justificacion":"Gestión, recaudación e inspección son funciones diferenciadas y cada una exige habilitación y atribución."
-  },
-  {
-    "id":"DIP-T22-007",
-    "tema":22,
-    "pregunta":"El OAPGT, como organismo autónomo local, actúa:",
-    "opciones":["Sin control de la Diputación","Bajo vinculación, dirección y control de la entidad matriz conforme a la ley","Como órgano judicial","Al margen del presupuesto general"],
-    "correcta":1,
-    "justificacion":"Los organismos autónomos tienen personalidad diferenciada, pero permanecen vinculados y sometidos al control de la Administración de adscripción."
-  },
-  {
-    "id":"DIP-T22-008",
-    "tema":22,
-    "pregunta":"En materia tributaria, la Ley 39/2015 se aplica:",
-    "opciones":["Siempre con preferencia absoluta sobre la normativa tributaria","Con carácter supletorio cuando proceda respecto de la normativa tributaria especial","Nunca","Solo a los contratos privados"],
-    "correcta":1,
-    "justificacion":"Los procedimientos tributarios se rigen prioritariamente por su normativa específica y la legislación administrativa común opera supletoriamente cuando corresponda."
-  },
-  {
-    "id":"DIP-T22-009",
-    "tema":22,
-    "pregunta":"¿Qué conserva un ayuntamiento cuando delega determinadas funciones recaudatorias?",
-    "opciones":["La titularidad de sus recursos y las competencias no delegadas","Nada","Solo el archivo histórico","La competencia legislativa estatal"],
-    "correcta":0,
-    "justificacion":"La delegación se limita a las funciones expresamente asumidas y no elimina la titularidad municipal del ingreso."
-  },
-  {
-    "id":"DIP-T22-010",
-    "tema":22,
-    "pregunta":"El presupuesto de un organismo autónomo local:",
-    "opciones":["Queda fuera del presupuesto general de la entidad local","Se integra en el presupuesto general de la entidad local","No está sujeto a contabilidad pública","No está sometido a control"],
-    "correcta":1,
-    "justificacion":"El presupuesto del organismo autónomo forma parte del presupuesto general de la entidad local y queda sujeto a control y contabilidad pública."
-  },
-  {
-    "id":"DIP-T22-011",
-    "tema":22,
-    "pregunta":"Sin disponer del texto íntegro de los Estatutos del OAPGT, ¿qué dato no debe afirmarse como literal?",
-    "opciones":["Su vinculación a la Diputación","Su finalidad tributaria general","La composición exacta y las mayorías de sus órganos","Su carácter de organismo autónomo"],
-    "correcta":2,
-    "justificacion":"La composición, quórums, mayorías y distribución detallada de atribuciones requieren contraste directo con los Estatutos vigentes."
-  },
-  {
-    "id":"DIP-T22-012",
-    "tema":22,
-    "pregunta":"¿Cuál es la interpretación más correcta del Acuerdo Regulador?",
-    "opciones":["Es una ley estatal","Es un instrumento colectivo subordinado al ordenamiento jurídico","Puede eliminar requisitos legales de acceso al empleo público","Puede atribuir potestad tributaria a cualquier empleado"],
-    "correcta":1,
-    "justificacion":"El Acuerdo regula condiciones de trabajo dentro de su ámbito, pero no puede contradecir normas superiores ni alterar competencias legales."
-  }
-]
+{
+  "tema": 22,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T22-001",
+      "pregunta": "¿Qué límite debe respetar un acuerdo regulador de condiciones de trabajo en el empleo público?",
+      "opciones": ["Puede modificar cualquier ley", "Debe respetar la Constitución, las leyes y las competencias de los órganos", "Solo está limitado por el presupuesto", "Prevalece siempre sobre el Estatuto Básico del Empleado Público"],
+      "correcta": 1,
+      "justificacion": "La negociación colectiva del sector público está subordinada al principio de legalidad y no puede alterar competencias indisponibles ni normas de rango superior.",
+      "trampa": "Un acuerdo regulador no puede modificar una ley ni atribuir competencias a un órgano distinto del legalmente competente.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#12-naturaleza-y-límites"
+    },
+    {
+      "id": "DIP-T22-002",
+      "pregunta": "El OAPGT de Toledo es:",
+      "opciones": ["Una comunidad autónoma", "Un organismo autónomo de la Diputación Provincial de Toledo", "Un ministerio estatal", "Una empresa privada concesionaria"],
+      "correcta": 1,
+      "justificacion": "El Organismo Autónomo Provincial de Gestión Tributaria de Toledo es un organismo autónomo provincial adscrito a la Diputación Provincial de Toledo.",
+      "trampa": "Su personalidad jurídica diferenciada no lo convierte en una Administración territorial independiente.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#2-el-oapgt-naturaleza-institucional"
+    },
+    {
+      "id": "DIP-T22-003",
+      "pregunta": "La delegación de la gestión o recaudación de un tributo local en el OAPGT:",
+      "opciones": ["Transfiere necesariamente la titularidad del tributo", "No altera por sí misma la titularidad del tributo", "Suprime la ordenanza fiscal", "Convierte el tributo en estatal"],
+      "correcta": 1,
+      "justificacion": "La entidad titular conserva la titularidad del recurso; la delegación desplaza únicamente el ejercicio de las funciones expresamente atribuidas.",
+      "trampa": "No debe confundirse la titularidad del ingreso con el ejercicio delegado de su gestión o recaudación.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#7-relaciones-con-los-ayuntamientos"
+    },
+    {
+      "id": "DIP-T22-004",
+      "pregunta": "¿Cuál de estas funciones puede desarrollar el OAPGT cuando esté legalmente atribuida o delegada?",
+      "opciones": ["Aprobar leyes autonómicas", "Gestionar y recaudar ingresos de derecho público", "Nombrar alcaldes", "Modificar la Constitución"],
+      "correcta": 1,
+      "justificacion": "El OAPGT puede gestionar y recaudar tributos y otros ingresos de derecho público cuando esas funciones le hayan sido atribuidas o delegadas conforme al ordenamiento jurídico.",
+      "trampa": "El organismo solo puede ejercer competencias amparadas por la ley, sus Estatutos y los correspondientes acuerdos de atribución o delegación.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#3-finalidad-funcional-del-oapgt"
+    },
+    {
+      "id": "DIP-T22-005",
+      "pregunta": "¿Qué diferencia básica existe entre recaudación voluntaria y ejecutiva?",
+      "opciones": ["La voluntaria se produce dentro del plazo y la ejecutiva tras el impago", "La ejecutiva siempre precede a la voluntaria", "No existe diferencia jurídica", "La voluntaria solo se aplica a multas"],
+      "correcta": 0,
+      "justificacion": "La recaudación voluntaria permite pagar dentro del período establecido, mientras que la vía ejecutiva comienza, con los requisitos legales, tras finalizar aquel período sin ingreso.",
+      "trampa": "La vía ejecutiva no precede al período voluntario y puede incorporar actuaciones de apremio y embargo.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#63-recaudación-ejecutiva"
+    },
+    {
+      "id": "DIP-T22-006",
+      "pregunta": "Que el OAPGT recaude un tributo implica necesariamente que también tenga atribuida su inspección?",
+      "opciones": ["Sí, siempre", "No; la inspección requiere atribución competencial suficiente", "Sí, salvo en tasas", "Solo si lo decide el contribuyente"],
+      "correcta": 1,
+      "justificacion": "Gestión, recaudación e inspección son funciones diferenciadas, y la inspección solo puede ejercerse cuando exista habilitación normativa y atribución competencial suficiente.",
+      "trampa": "La atribución de la recaudación no arrastra automáticamente la competencia inspectora.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#64-inspección"
+    },
+    {
+      "id": "DIP-T22-007",
+      "pregunta": "El OAPGT, como organismo autónomo local, actúa:",
+      "opciones": ["Sin control de la Diputación", "Bajo vinculación, dirección y control de la entidad matriz conforme a la ley", "Como órgano judicial", "Al margen del presupuesto general"],
+      "correcta": 1,
+      "justificacion": "Aunque posee personalidad jurídica pública diferenciada, el OAPGT está adscrito a la Diputación y sometido a su dirección, control y tutela dentro del marco legal.",
+      "trampa": "La autonomía funcional no equivale a independencia respecto de la Diputación Provincial.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#2-el-oapgt-naturaleza-institucional"
+    },
+    {
+      "id": "DIP-T22-008",
+      "pregunta": "En materia tributaria, la Ley 39/2015 se aplica:",
+      "opciones": ["Siempre con preferencia absoluta sobre la normativa tributaria", "Con carácter supletorio cuando proceda respecto de la normativa tributaria especial", "Nunca", "Solo a los contratos privados"],
+      "correcta": 1,
+      "justificacion": "Los procedimientos tributarios se rigen prioritariamente por su normativa específica y la legislación administrativa común opera con carácter supletorio cuando corresponda.",
+      "trampa": "La Ley 39/2015 no desplaza con carácter general la normativa tributaria especial.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#5-funcionamiento"
+    },
+    {
+      "id": "DIP-T22-009",
+      "pregunta": "¿Qué conserva un ayuntamiento cuando delega determinadas funciones recaudatorias?",
+      "opciones": ["La titularidad de sus recursos y las competencias no delegadas", "Nada", "Solo el archivo histórico", "La competencia legislativa estatal"],
+      "correcta": 0,
+      "justificacion": "El ayuntamiento conserva la titularidad de sus recursos, su potestad reglamentaria sobre las ordenanzas fiscales y las competencias no delegadas.",
+      "trampa": "La delegación queda limitada a las funciones expresamente asumidas por el organismo provincial.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#7-relaciones-con-los-ayuntamientos"
+    },
+    {
+      "id": "DIP-T22-010",
+      "pregunta": "El presupuesto de un organismo autónomo local:",
+      "opciones": ["Queda fuera del presupuesto general de la entidad local", "Se integra en el presupuesto general de la entidad local", "No está sujeto a contabilidad pública", "No está sometido a control"],
+      "correcta": 1,
+      "justificacion": "El presupuesto propio del organismo autónomo se integra en el presupuesto general de la entidad local y queda sometido a contabilidad pública, control interno y fiscalización externa.",
+      "trampa": "La personalidad diferenciada del organismo no lo excluye del marco presupuestario y de control de la entidad matriz.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#8-régimen-económico-presupuestario-y-de-control"
+    },
+    {
+      "id": "DIP-T22-011",
+      "pregunta": "Sin disponer del texto íntegro de los Estatutos del OAPGT, ¿qué dato no debe afirmarse como literal?",
+      "opciones": ["Su vinculación a la Diputación", "Su finalidad tributaria general", "La composición exacta y las mayorías de sus órganos", "Su carácter de organismo autónomo"],
+      "correcta": 2,
+      "justificacion": "La composición exacta, los quórums, las mayorías y la distribución detallada de atribuciones requieren contraste directo con el texto íntegro y vigente de los Estatutos.",
+      "trampa": "Este tema es una reconstrucción interpretativa prudente y no una transcripción de los Estatutos del OAPGT.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#4-organización-reconstrucción-prudente"
+    },
+    {
+      "id": "DIP-T22-012",
+      "pregunta": "¿Cuál es la interpretación más correcta del Acuerdo Regulador?",
+      "opciones": ["Es una ley estatal", "Es un instrumento colectivo subordinado al ordenamiento jurídico", "Puede eliminar requisitos legales de acceso al empleo público", "Puede atribuir potestad tributaria a cualquier empleado"],
+      "correcta": 1,
+      "justificacion": "El Acuerdo Regulador ordena condiciones de trabajo dentro de su ámbito, pero está subordinado a la Constitución, las leyes, la normativa presupuestaria y las competencias de los órganos públicos.",
+      "trampa": "La autonomía colectiva del empleo público no permite contradecir normas superiores ni alterar competencias legales.",
+      "referencia": "content/diputacion-toledo/tema-22/manual.md#12-naturaleza-y-límites"
+    }
+  ]
+}
