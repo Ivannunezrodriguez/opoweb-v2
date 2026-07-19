@@ -14,11 +14,16 @@
     {"id":"18.7","contenido":"Situaciones administrativas","cobertura":"COMPLETA"},
     {"id":"18.8","contenido":"Reingreso al servicio activo","cobertura":"COMPLETA"}
   ],
-  "controles": {
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T18-001 a DIP-T18-012",
     "tablasComparativas": true,
     "focosExamen": true,
     "plazosYOrganosEnNegrita": true,
-    "preguntasPropias": 12,
-    "reutilizacionLaPuebla": false
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
   }
 }
