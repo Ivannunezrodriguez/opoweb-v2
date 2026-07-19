@@ -1,0 +1,50 @@
+{
+  "tema": 33,
+  "titulo": "Microsoft Windows 11 Pro II. Navegación por Internet con Microsoft Edge. Uso del correo electrónico con Micro Focus GroupWise 24 y posteriores.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Microsoft Support · Microsoft Edge",
+    "OpenText GroupWise 24 · Client User Guide",
+    "OpenText GroupWise 24 · GroupWise Web User Guide"
+  ],
+  "bloques": [
+    {"id":"T33-B01","nombre":"Interfaz y navegación básica con Microsoft Edge","cubierto":true},
+    {"id":"T33-B02","nombre":"Pestañas, ventanas y atajos","cubierto":true},
+    {"id":"T33-B03","nombre":"Favoritos, historial y descargas","cubierto":true},
+    {"id":"T33-B04","nombre":"InPrivate, seguridad, permisos y privacidad","cubierto":true},
+    {"id":"T33-B05","nombre":"Búsqueda, impresión y guardado","cubierto":true},
+    {"id":"T33-B06","nombre":"Concepto e interfaz de GroupWise 24","cubierto":true},
+    {"id":"T33-B07","nombre":"Redacción, destinatarios, respuestas y adjuntos","cubierto":true},
+    {"id":"T33-B08","nombre":"Calendario, reuniones, tareas y notas","cubierto":true},
+    {"id":"T33-B09","nombre":"Contactos, carpetas, categorías y reglas","cubierto":true},
+    {"id":"T33-B10","nombre":"Papelera, purga y seguridad del correo","cubierto":true}
+  ],
+  "datosTest": {
+    "nuevaPestana": "Ctrl + T",
+    "cerrarPestana": "Ctrl + W",
+    "reabrirPestana": "Ctrl + Mayús + T",
+    "favoritos": "Ctrl + D",
+    "historial": "Ctrl + H",
+    "descargas": "Ctrl + J",
+    "inPrivate": "Ctrl + Mayús + N",
+    "buscarPagina": "Ctrl + F",
+    "cco": "oculta destinatarios a los demás receptores",
+    "citaPersonal": "no invita a otros usuarios",
+    "purgar": "eliminación definitiva según configuración"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T33-001 a DIP-T33-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "atajosYConceptosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
