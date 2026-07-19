@@ -14,45 +14,54 @@ Estado: **auditoría y remediación completadas, 19 de 19 temas**.
 
 Convocatoria de **2 plazas por oposición libre**. Bases publicadas en el BOP de Toledo número **118**, de **25 de junio de 2026**, código **2026.00002934**. Convocatoria publicada en el BOE número **162**, de **4 de julio de 2026**, referencia **BOE-A-2026-14527**.
 
-El plazo oficial de solicitudes está **abierto del 6 al 31 de julio de 2026**. Esta información se ha incorporado a `data/convocatorias.json`.
+El plazo oficial de solicitudes está **abierto del 6 al 31 de julio de 2026**. Esta información consta en `data/convocatorias.json`.
 
-Estado editorial: temas **1 a 14** generados con manual, fuentes, matriz y banco inicial de preguntas. El **Tema 14** ha recibido auditoría jurídica adicional y corrección material el **19 de julio de 2026**.
+Estado editorial: **40 de 40 temas** disponen de manual, fuentes, matriz de cobertura y banco inicial de **12 preguntas**. Los temas generados están identificados como `GENERACION_DESDE_CERO`.
+
+El **Tema 22** mantiene una reconstrucción interpretativa prudente expresamente autorizada. No se presentan como literales extremos estatutarios que no hayan podido comprobarse en una fuente oficial íntegra.
 
 ## Resultado global de La Puebla
 
-El temario base queda declarado `AUDITADO_Y_CORREGIDO` para la fase de tests, supuestos prácticos y simulacros. La corrección sustantiva del **Tema 6** ya está aplicada: el nombramiento de personal funcionario interino para programas temporales tiene una duración máxima total de **2 años**, no de **4 años**.
+El temario base queda cerrado para la fase de tests, supuestos prácticos y simulacros. La corrección sustantiva del **Tema 6** ya está aplicada: el nombramiento de personal funcionario interino para programas temporales tiene una duración máxima total de **2 años**, no de **4 años**.
 
 ## Estado por bloques · La Puebla
 
 | Bloque | Temas | Estado | Trabajo principal |
 |---|---:|---|---|
-| Constitución | 1 | `AUDITADO_NORMA_VIGENTE` | Constitución consolidada y reforma del artículo **69.3** publicada el **20 de mayo de 2026** |
-| Procedimiento administrativo | 2–4 | `AUDITADO_NORMA_VIGENTE` | Ley 39/2015: plazos, silencio, caducidad, revisión y recursos |
-| Régimen local | 5 | `AUDITADO_NORMA_VIGENTE` | Órganos, competencias, mayorías, funcionamiento y elecciones locales |
-| Empleo público | 6 | `AUDITADO_Y_CORREGIDO_NORMA_VIGENTE` | Corregido el máximo del programa temporal a **2 años** e incorporado bloque `¡Foco Examen!` |
-| Prevención de riesgos laborales | 7 | `AUDITADO_NORMA_VIGENTE` | Derechos, obligaciones, servicios de prevención, Delegados y Comité |
-| Igualdad | 8 | `AUDITADO_NORMA_VIGENTE` | Ley 12/2010 de Castilla-La Mancha y Ley Orgánica 3/2007 |
-| Protección de datos | 9 | `AUDITADO_NORMA_VIGENTE` | LOPDGDD y RGPD: derechos, videovigilancia, DPD, brechas y AEPD |
-| Tributación local | 10 | `AUDITADO_NORMA_VIGENTE` | Principios, delegación, beneficios, obligaciones, obligados y gestión |
-| Recaudación local | 11 | `AUDITADO_NORMA_VIGENTE` | Voluntaria, aplazamiento, compensación, ejecutiva, apremio y embargo |
-| Impuestos locales | 12 | `AUDITADO_NORMA_VIGENTE` | IBI, IAE, IVTM e IIVTNU; excluido correctamente el ICIO |
-| Certificado electrónico | 13 | `GENERADO_Y_AUDITADO_NORMA_VIGENTE` | eIDAS, Ley 6/2020, certificados, soportes y servicios de confianza |
-| Ley 40/2015 y AGE | 14 | `AUDITADO_NORMA_VIGENTE` | Artículos **5–24** y **54–80**, incluido el artículo **55 bis** |
-| Windows I | 15 | `AUDITADO_TECNICA_VIGENTE` | Explorador, archivos, unidades, impresión y digitalización |
-| Navegación web | 16 | `AUDITADO_TECNOLOGIA_VIGENTE` | Edge, Internet Explorer heredado, modo IE, privacidad y seguridad |
-| Word y Writer | 17 | `AUDITADO_TECNICA_VIGENTE` | Procesamiento de textos, estilos, revisión, combinación y PDF |
-| Excel y Calc | 18 | `AUDITADO_TECNICA_VIGENTE` | Fórmulas, referencias, funciones, tablas, filtros, análisis y gráficos |
-| Microinformática | 19 | `AUDITADO_TECNICA_VIGENTE` | Hardware, almacenamiento, periféricos, impresión, escáneres, USB y medios ópticos |
+| Constitución | 1 | `GENERACION_DESDE_CERO` | Constitución consolidada y reforma del artículo **69.3** publicada el **20 de mayo de 2026** |
+| Procedimiento administrativo | 2–4 | `GENERACION_DESDE_CERO` | Ley 39/2015: plazos, silencio, caducidad, revisión y recursos |
+| Régimen local | 5 | `GENERACION_DESDE_CERO` | Órganos, competencias, mayorías, funcionamiento y elecciones locales |
+| Empleo público | 6 | `GENERACION_DESDE_CERO` | Corregido el máximo del programa temporal a **2 años** |
+| Prevención de riesgos laborales | 7 | `GENERACION_DESDE_CERO` | Derechos, obligaciones, servicios de prevención, Delegados y Comité |
+| Igualdad | 8 | `GENERACION_DESDE_CERO` | Ley 12/2010 de Castilla-La Mancha y Ley Orgánica 3/2007 |
+| Protección de datos | 9 | `GENERACION_DESDE_CERO` | LOPDGDD y RGPD: derechos, videovigilancia, DPD, brechas y AEPD |
+| Tributación local | 10 | `GENERACION_DESDE_CERO` | Principios, delegación, beneficios, obligaciones, obligados y gestión |
+| Recaudación local | 11 | `GENERACION_DESDE_CERO` | Voluntaria, aplazamiento, compensación, ejecutiva, apremio y embargo |
+| Impuestos locales | 12 | `GENERACION_DESDE_CERO` | IBI, IAE, IVTM e IIVTNU; excluido correctamente el ICIO |
+| Certificado electrónico | 13 | `GENERACION_DESDE_CERO` | eIDAS, Ley 6/2020, certificados, soportes y servicios de confianza |
+| Ley 40/2015 y AGE | 14 | `GENERACION_DESDE_CERO` | Artículos **5–24** y **54–80**, incluido el artículo **55 bis** |
+| Windows I | 15 | `GENERACION_DESDE_CERO` | Explorador, archivos, unidades, impresión y digitalización |
+| Navegación web | 16 | `GENERACION_DESDE_CERO` | Edge, Internet Explorer heredado, modo IE, privacidad y seguridad |
+| Word y Writer | 17 | `GENERACION_DESDE_CERO` | Procesamiento de textos, estilos, revisión, combinación y PDF |
+| Excel y Calc | 18 | `GENERACION_DESDE_CERO` | Fórmulas, referencias, funciones, tablas, filtros, análisis y gráficos |
+| Microinformática | 19 | `GENERACION_DESDE_CERO` | Hardware, almacenamiento, periféricos, impresión, escáneres, USB y medios ópticos |
 
 ## Auditoría de Diputación de Toledo
 
-| Tema | Estado | Última actuación |
-|---:|---|---|
-| 1–13 | `GENERADO_CON_FUENTES_Y_PREGUNTAS` | Pendientes de auditoría jurídica final bloque a bloque |
-| 14 | `AUDITADO_Y_CORREGIDO_NORMA_VIGENTE` | Precisados Pleno mensual, solicitud extraordinaria por **1/4**, plazo de **15 días hábiles**, quórum de **1/3** y umbral electoral del **5 %** |
-| 15–40 | `PENDIENTE_DESARROLLO` | Continuación prioritaria |
+| Bloque | Temas | Estado | Situación editorial |
+|---|---:|---|---|
+| Constitución, procedimiento y administración electrónica | 1–11 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
+| Régimen local y contratación | 12–16 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
+| Empleo público, laboral y Seguridad Social | 17–21 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
+| Diputación y OAPGT | 22 | `GENERACION_DESDE_CERO` | Reconstrucción interpretativa prudente autorizada |
+| Prevención, igualdad y protección de datos | 23–24 y 28 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
+| Tributación, recaudación y presupuesto local | 25–30 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
+| Firma y servicios electrónicos de confianza | 31 | `GENERACION_DESDE_CERO` | Manual, fuentes, matriz y preguntas disponibles |
+| Windows 11 y GroupWise | 32–34 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
+| LibreOffice 24 | 35–38 | `GENERACION_DESDE_CERO` | Writer, Calc, Base e Impress completos |
+| Ordenador personal y periféricos | 39–40 | `GENERACION_DESDE_CERO` | Hardware y periféricos completos |
 
-Informe: `content/diputacion-toledo/tema-14/auditoria-2026-07-19.md`.
+El programa técnico de Diputación queda cerrado en **40 de 40 temas**. El siguiente ciclo es de control transversal: coherencia de estados, validación de enlaces, ampliación de preguntas, supuestos prácticos y simulacros.
 
 ## Mejoras de plataforma
 
@@ -65,12 +74,13 @@ Informe: `content/diputacion-toledo/tema-14/auditoria-2026-07-19.md`.
 | Historial y control de versiones Git | Activo |
 | Catálogo de documentos oficiales | En preparación |
 | Copias oficiales verificables | Pendiente, solo para documentos públicos |
-| Tests y supuestos trazables | En desarrollo sobre contenido auditado |
+| Tests trazables | Implementados por tema |
+| Supuestos y simulacros transversales | Pendientes de ampliación |
 
 ## Orden de trabajo
 
-1. Continuar la auditoría jurídica final de los temas **1 a 13 de Diputación**, priorizando cifras, plazos, mayorías y órganos competentes.
-2. Desarrollar los temas **15 a 40** de Diputación con fuente oficial individual.
-3. Cerrar el bloque del **OAPGT** únicamente con los Estatutos íntegros, oficiales y vigentes.
-4. Ampliar bancos de preguntas y generar supuestos y simulacros con trazabilidad.
+1. Regularizar en `data/programa-diputacion-administrativo-2026.json` los estados antiguos y añadir rutas explícitas a los temas **1 a 25**.
+2. Ejecutar una validación transversal de los **40** bancos de preguntas: esquema `correcta`, identificadores únicos y referencias justificativas.
+3. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable; hasta entonces se mantiene la cautela interpretativa autorizada del Tema 22.
+4. Crear supuestos prácticos y simulacros transversales con trazabilidad por tema y fuente.
 5. Mantener el seguimiento de publicaciones oficiales de todas las convocatorias activas.
