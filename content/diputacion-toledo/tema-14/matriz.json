@@ -2,7 +2,7 @@
   "tema": 14,
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1 · 2026",
   "epigrafeOficial": "La provincia. Organización provincial. Competencias. La Diputación Provincial de Toledo: organización, funcionamiento y competencias. El Régimen electoral de las Entidades Locales.",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "GENERACION_DESDE_CERO",
   "modo": "GENERACION_DESDE_CERO",
   "fuentesPrincipales": [
     "Constitución Española, arts. 137, 141 y 142",
@@ -22,17 +22,26 @@
   "datosTest": [
     "Alteración de límites provinciales: ley orgánica",
     "Junta de Gobierno: máximo un tercio del número legal de diputados",
+    "Pleno ordinario provincial: mínimo una vez al mes",
+    "Sesión extraordinaria: solicitud de una cuarta parte del número legal",
+    "Quórum de constitución: un tercio del número legal, nunca inferior a tres",
     "Toledo: 27 diputados provinciales en la legislatura 2023-2027",
     "Partido judicial: al menos un diputado y máximo tres quintos del total",
     "Presidencia provincial: mayoría absoluta en primera votación y simple en segunda"
   ],
   "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T14-001 a DIP-T14-012",
     "literalidadJuridica": true,
     "plazosMayoríasOrganosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
-    "preguntasPropias": 12,
     "reutilizacionDeOtrosTemarios": false,
-    "revisionVigencia": "2026-07"
+    "contenidoInstitucionalDinamico": true,
+    "fechaReferenciaInstitucional": "2026-07-19",
+    "verificacionIntegridad": "2026-07-19"
   }
 }
