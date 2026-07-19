@@ -1,0 +1,23 @@
+{
+  "tema": 15,
+  "epigrafeOficial": "Otras Entidades Locales. Mancomunidades. Comarcas. Áreas Metropolitanas. Entidades de ámbito territorial inferior al municipio.",
+  "estado": "EN_REVISION_USUARIO",
+  "modo": "GENERACION_DESDE_CERO",
+  "fechaRevision": "2026-07-19",
+  "bloques": [
+    {"id":"15.1","titulo":"Marco general de otras entidades locales","cubierto":true,"fuentes":["Ley 7/1985, art. 3"]},
+    {"id":"15.2","titulo":"Mancomunidades","cubierto":true,"fuentes":["Ley 7/1985, art. 44"]},
+    {"id":"15.3","titulo":"Comarcas","cubierto":true,"fuentes":["Ley 7/1985, art. 42"]},
+    {"id":"15.4","titulo":"Áreas metropolitanas","cubierto":true,"fuentes":["Ley 7/1985, art. 43"]},
+    {"id":"15.5","titulo":"Entidades de ámbito territorial inferior al municipio","cubierto":true,"fuentes":["Ley 7/1985, art. 24 bis","Ley 27/2013"]},
+    {"id":"15.6","titulo":"Régimen de Castilla-La Mancha","cubierto":true,"fuentes":["Ley 3/1991, de Entidades Locales de Castilla-La Mancha"]}
+  ],
+  "controles": {
+    "literalidadJuridicaClave": true,
+    "plazosMayoriasOrganosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "preguntasPropias": 12,
+    "reutilizacionLaPuebla": false
+  }
+}
