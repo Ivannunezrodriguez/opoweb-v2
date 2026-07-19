@@ -5,7 +5,9 @@
     "pregunta": "Según la Ley 31/1995, ¿quién debe soportar el coste de las medidas de seguridad y salud en el trabajo?",
     "opciones": ["El trabajador", "La empresa o Administración empleadora", "La mutua exclusivamente", "La representación sindical"],
     "correcta": 1,
-    "justificacion": "El coste de las medidas relativas a la seguridad y salud no puede recaer sobre las personas trabajadoras."
+    "justificacion": "El coste de las medidas relativas a la seguridad y salud no puede recaer sobre las personas trabajadoras.",
+    "trampa": "El deber empresarial no puede trasladarse económicamente al trabajador.",
+    "referencia": "Manual, apartado 2"
   },
   {
     "id": "DIP-T23-002",
@@ -13,7 +15,9 @@
     "pregunta": "¿Qué principio preventivo tiene prioridad?",
     "opciones": ["La protección individual sobre la colectiva", "La protección colectiva sobre la individual", "La reparación sobre la prevención", "La sanción sobre la formación"],
     "correcta": 1,
-    "justificacion": "La acción preventiva debe anteponer la protección colectiva a la individual."
+    "justificacion": "La acción preventiva debe anteponer la protección colectiva a la individual.",
+    "trampa": "Los equipos de protección individual no sustituyen una medida colectiva técnicamente posible.",
+    "referencia": "Manual, apartado 1"
   },
   {
     "id": "DIP-T23-003",
@@ -21,7 +25,9 @@
     "pregunta": "La formación preventiva debe ser:",
     "opciones": ["Solo teórica", "Solo inicial", "Teórica y práctica, suficiente y adecuada", "Voluntaria para el empresario"],
     "correcta": 2,
-    "justificacion": "Debe ser teórica y práctica, suficiente y adecuada, y actualizarse cuando sea necesario."
+    "justificacion": "Debe ser teórica y práctica, suficiente y adecuada, y actualizarse cuando sea necesario.",
+    "trampa": "No basta con una formación inicial genérica ni exclusivamente teórica.",
+    "referencia": "Manual, apartado 5"
   },
   {
     "id": "DIP-T23-004",
@@ -29,7 +35,9 @@
     "pregunta": "Ante un riesgo grave e inminente, la persona trabajadora puede:",
     "opciones": ["Abandonar el lugar únicamente con autorización judicial", "Interrumpir su actividad y abandonar el lugar", "Continuar siempre hasta recibir orden escrita", "Solicitar exclusivamente una indemnización"],
     "correcta": 1,
-    "justificacion": "La Ley reconoce la posibilidad de interrumpir la actividad y abandonar el lugar cuando exista riesgo grave e inminente."
+    "justificacion": "La Ley reconoce la posibilidad de interrumpir la actividad y abandonar el lugar cuando exista riesgo grave e inminente.",
+    "trampa": "No se exige autorización judicial previa para proteger la vida o la salud.",
+    "referencia": "Manual, apartado 6"
   },
   {
     "id": "DIP-T23-005",
@@ -37,7 +45,9 @@
     "pregunta": "La autoridad laboral debe ratificar o anular una paralización acordada por los representantes en el plazo de:",
     "opciones": ["12 horas", "24 horas", "48 horas", "3 días hábiles"],
     "correcta": 1,
-    "justificacion": "El plazo legal es de 24 horas."
+    "justificacion": "El plazo legal es de 24 horas.",
+    "trampa": "Es un plazo de horas, no de días hábiles.",
+    "referencia": "Manual, apartado 6"
   },
   {
     "id": "DIP-T23-006",
@@ -45,7 +55,9 @@
     "pregunta": "Como regla general, la vigilancia de la salud:",
     "opciones": ["Es siempre obligatoria", "Requiere consentimiento de la persona trabajadora", "La decide el delegado de prevención", "Está prohibida"],
     "correcta": 1,
-    "justificacion": "La regla general es la voluntariedad, con excepciones legalmente previstas."
+    "justificacion": "La regla general es la voluntariedad, con excepciones legalmente previstas.",
+    "trampa": "Las excepciones no convierten la vigilancia de la salud en obligatoria con carácter general.",
+    "referencia": "Manual, apartado 7"
   },
   {
     "id": "DIP-T23-007",
@@ -53,7 +65,9 @@
     "pregunta": "En la protección durante el embarazo, la primera medida debe ser:",
     "opciones": ["Suspender el contrato", "Adaptar las condiciones o el tiempo de trabajo", "Extinguir el contrato", "Imponer vacaciones"],
     "correcta": 1,
-    "justificacion": "La adaptación precede al cambio de puesto y a la eventual suspensión."
+    "justificacion": "La adaptación precede al cambio de puesto y a la eventual suspensión.",
+    "trampa": "La suspensión es la última medida de la secuencia protectora.",
+    "referencia": "Manual, apartado 8"
   },
   {
     "id": "DIP-T23-008",
@@ -61,7 +75,9 @@
     "pregunta": "¿Cuál de las siguientes es una modalidad de organización preventiva?",
     "opciones": ["Servicio de prevención ajeno", "Jurado preventivo provincial", "Comisión judicial de seguridad", "Delegación ministerial obligatoria"],
     "correcta": 0,
-    "justificacion": "La normativa prevé, entre otras, servicios de prevención propios, ajenos y mancomunados."
+    "justificacion": "La normativa prevé, entre otras, servicios de prevención propios, ajenos y mancomunados.",
+    "trampa": "No confundir órganos de participación con modalidades de organización preventiva.",
+    "referencia": "Manual, apartado 10"
   },
   {
     "id": "DIP-T23-009",
@@ -69,7 +85,9 @@
     "pregunta": "En una empresa de 31 a 49 trabajadores, el número de delegados de prevención es:",
     "opciones": ["Ninguno", "1", "2", "3"],
     "correcta": 1,
-    "justificacion": "Entre 31 y 49 trabajadores existe un delegado de prevención, elegido por y entre los delegados de personal."
+    "justificacion": "Entre 31 y 49 trabajadores existe un delegado de prevención, elegido por y entre los delegados de personal.",
+    "trampa": "En empresas de hasta 30 trabajadores coincide con el delegado de personal; de 31 a 49 hay uno elegido entre los delegados de personal.",
+    "referencia": "Manual, apartado 12"
   },
   {
     "id": "DIP-T23-010",
@@ -77,7 +95,9 @@
     "pregunta": "¿A partir de qué plantilla se constituye el Comité de Seguridad y Salud?",
     "opciones": ["25 trabajadores", "30 trabajadores", "50 trabajadores", "100 trabajadores"],
     "correcta": 2,
-    "justificacion": "Se constituye en empresas o centros con 50 o más trabajadores."
+    "justificacion": "Se constituye en empresas o centros con 50 o más trabajadores.",
+    "trampa": "El umbral es 50, no 49 ni 100.",
+    "referencia": "Manual, apartado 13"
   },
   {
     "id": "DIP-T23-011",
@@ -85,7 +105,9 @@
     "pregunta": "El Comité de Seguridad y Salud se reúne ordinariamente:",
     "opciones": ["Cada mes", "Cada dos meses", "Trimestralmente", "Anualmente"],
     "correcta": 2,
-    "justificacion": "La Ley establece reunión trimestral y también cuando la solicite alguna de las representaciones."
+    "justificacion": "La Ley establece reunión trimestral y también cuando la solicite alguna de las representaciones.",
+    "trampa": "La periodicidad ordinaria es trimestral, pero puede reunirse además a petición de cualquiera de sus representaciones.",
+    "referencia": "Manual, apartado 13"
   },
   {
     "id": "DIP-T23-012",
@@ -93,6 +115,8 @@
     "pregunta": "Los datos médicos derivados de la vigilancia de la salud:",
     "opciones": ["Son públicos", "Pueden comunicarse íntegramente al empresario", "Tienen carácter confidencial", "Deben remitirse al comité de empresa"],
     "correcta": 2,
-    "justificacion": "La información médica personal es confidencial; el empresario recibe solo conclusiones preventivas y de aptitud."
+    "justificacion": "La información médica personal es confidencial; el empresario recibe solo conclusiones preventivas y de aptitud.",
+    "trampa": "El empresario no recibe el historial clínico completo.",
+    "referencia": "Manual, apartado 7"
   }
 ]
