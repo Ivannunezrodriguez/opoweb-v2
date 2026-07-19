@@ -1,0 +1,51 @@
+{
+  "tema": 37,
+  "titulo": "LibreOffice 24 III. Elaboración y uso de bases de datos con LibreOffice 24 Base.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Ayuda oficial de LibreOffice Base",
+    "Documentación oficial de LibreOffice Base",
+    "Estándar OpenDocument"
+  ],
+  "bloques": [
+    {"id":"T37-B01","nombre":"Concepto, archivo ODB y tipos de conexión","cubierto":true},
+    {"id":"T37-B02","nombre":"Tablas, campos, registros y tipos de datos","cubierto":true},
+    {"id":"T37-B03","nombre":"Claves primarias, propiedades e índices","cubierto":true},
+    {"id":"T37-B04","nombre":"Relaciones e integridad referencial","cubierto":true},
+    {"id":"T37-B05","nombre":"Consultas, criterios, ordenación y SQL","cubierto":true},
+    {"id":"T37-B06","nombre":"Formularios y subformularios","cubierto":true},
+    {"id":"T37-B07","nombre":"Informes, agrupaciones y presentación","cubierto":true},
+    {"id":"T37-B08","nombre":"Filtros, búsqueda y ordenación","cubierto":true},
+    {"id":"T37-B09","nombre":"Conexiones externas, JDBC, ODBC y registro","cubierto":true},
+    {"id":"T37-B10","nombre":"Seguridad, copias y atajos","cubierto":true}
+  ],
+  "datosTest": {
+    "formatoNativo": "ODB",
+    "campo": "columna",
+    "registro": "fila",
+    "clavePrimaria": "identifica de forma única cada registro",
+    "claveAjena": "referencia una clave de otra tabla",
+    "tabla": "almacena datos",
+    "consulta": "selecciona, combina, filtra, calcula u ordena",
+    "formulario": "facilita entrada y edición",
+    "informe": "presenta datos",
+    "relacionHabitual": "uno a muchos",
+    "filtro": "oculta temporalmente, no elimina",
+    "guardar": "Ctrl + S"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T37-001 a DIP-T37-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "atajosYConceptosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
