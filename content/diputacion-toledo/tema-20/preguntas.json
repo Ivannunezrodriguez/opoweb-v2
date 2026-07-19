@@ -1,14 +1,110 @@
 [
-  {"id":"DIP-T20-001","pregunta":"¿Cuál de las siguientes notas NO caracteriza por sí sola una relación laboral común?","opciones":["Voluntariedad","Ajenidad","Dependencia","Gratuidad"],"respuestaCorrecta":3,"justificacion":"La relación laboral es retribuida; la gratuidad excluye una de sus notas esenciales.","referencia":"Manual, apartado 1"},
-  {"id":"DIP-T20-002","pregunta":"La falta de forma escrita cuando es legalmente exigible determina, como regla, la presunción de contrato:","opciones":["Nulo","Indefinido y a jornada completa","Temporal y a jornada parcial","En prácticas"],"respuestaCorrecta":1,"justificacion":"El artículo 8 ET establece esa presunción salvo prueba en contrario.","referencia":"Manual, apartado 2"},
-  {"id":"DIP-T20-003","pregunta":"El salario en especie no puede superar, con carácter general:","opciones":["El 20 %","El 25 %","El 30 %","El 50 %"],"respuestaCorrecta":2,"justificacion":"El límite general es el 30 % de las percepciones salariales.","referencia":"Manual, apartado 3.3"},
-  {"id":"DIP-T20-004","pregunta":"El periodo de abono de retribuciones periódicas y regulares no puede exceder de:","opciones":["15 días","1 mes","2 meses","3 meses"],"respuestaCorrecta":1,"justificacion":"El Estatuto fija un máximo de un mes.","referencia":"Manual, apartado 3.3"},
-  {"id":"DIP-T20-005","pregunta":"La realización de funciones superiores permite reclamar el ascenso, salvo convenio, cuando supera:","opciones":["3 meses en 1 año","6 meses en 1 año u 8 en 2 años","9 meses en 2 años","12 meses en 3 años"],"respuestaCorrecta":1,"justificacion":"Es la regla del artículo 39 ET.","referencia":"Manual, apartado 5.1"},
-  {"id":"DIP-T20-006","pregunta":"El traslado individual debe notificarse con una antelación mínima de:","opciones":["10 días","15 días","20 días","30 días"],"respuestaCorrecta":3,"justificacion":"La antelación mínima legal es de 30 días.","referencia":"Manual, apartado 5.2"},
-  {"id":"DIP-T20-007","pregunta":"La extinción por traslado da derecho a una indemnización máxima de:","opciones":["9 mensualidades","12 mensualidades","18 mensualidades","24 mensualidades"],"respuestaCorrecta":1,"justificacion":"Son 20 días por año con máximo de 12 mensualidades.","referencia":"Manual, apartado 5.2"},
-  {"id":"DIP-T20-008","pregunta":"La modificación sustancial individual debe notificarse con al menos:","opciones":["7 días","10 días","15 días","30 días"],"respuestaCorrecta":2,"justificacion":"El preaviso mínimo es de 15 días.","referencia":"Manual, apartado 5.3"},
-  {"id":"DIP-T20-009","pregunta":"La suspensión del contrato implica:","opciones":["Extinción definitiva del vínculo","Interrupción temporal de trabajo y salario","Conversión automática en excedencia voluntaria","Despido improcedente"],"respuestaCorrecta":1,"justificacion":"La suspensión mantiene vivo el vínculo contractual.","referencia":"Manual, apartado 6"},
-  {"id":"DIP-T20-010","pregunta":"La indemnización ordinaria por despido improcedente es de:","opciones":["20 días por año, máximo 12 mensualidades","33 días por año, máximo 24 mensualidades","45 días por año, máximo 42 mensualidades en todo caso","12 días por año"],"respuestaCorrecta":1,"justificacion":"La regla vigente es 33 días por año con máximo de 24 mensualidades, sin perjuicio del régimen transitorio.","referencia":"Manual, apartado 7.3"},
-  {"id":"DIP-T20-011","pregunta":"En la extinción por causas objetivas, el preaviso general es de:","opciones":["7 días","10 días","15 días","30 días"],"respuestaCorrecta":2,"justificacion":"El artículo 53 ET fija 15 días.","referencia":"Manual, apartado 7.5"},
-  {"id":"DIP-T20-012","pregunta":"Durante el preaviso del despido objetivo, la licencia retribuida para buscar empleo es de:","opciones":["2 horas semanales","4 horas semanales","6 horas semanales","1 día completo semanal"],"respuestaCorrecta":2,"justificacion":"La persona trabajadora dispone de 6 horas semanales.","referencia":"Manual, apartado 7.5"}
+  {
+    "id": "DIP-T20-001",
+    "pregunta": "¿Cuál de las siguientes notas NO caracteriza por sí sola una relación laboral común?",
+    "opciones": ["Voluntariedad", "Ajenidad", "Dependencia", "Gratuidad"],
+    "correcta": 3,
+    "justificacion": "La relación laboral común exige una prestación retribuida; la gratuidad excluye una de sus notas esenciales.",
+    "trampa": "Confundir una colaboración voluntaria y gratuita con una relación laboral retribuida.",
+    "referencia": "Manual, apartado 1"
+  },
+  {
+    "id": "DIP-T20-002",
+    "pregunta": "La falta de forma escrita cuando es legalmente exigible determina, como regla, la presunción de contrato:",
+    "opciones": ["Nulo", "Indefinido y a jornada completa", "Temporal y a jornada parcial", "En prácticas"],
+    "correcta": 1,
+    "justificacion": "El artículo 8 del Estatuto de los Trabajadores establece la presunción de contrato indefinido y a jornada completa, salvo prueba en contrario.",
+    "trampa": "La omisión de la forma escrita no produce automáticamente la nulidad del contrato.",
+    "referencia": "Manual, apartado 2"
+  },
+  {
+    "id": "DIP-T20-003",
+    "pregunta": "El salario en especie no puede superar, con carácter general:",
+    "opciones": ["El 20 %", "El 25 %", "El 30 %", "El 50 %"],
+    "correcta": 2,
+    "justificacion": "El límite general es el 30 % de las percepciones salariales y no puede reducir el salario en dinero por debajo del salario mínimo interprofesional.",
+    "trampa": "El límite porcentual no permite disminuir la parte dineraria por debajo del salario mínimo.",
+    "referencia": "Manual, apartado 3.3"
+  },
+  {
+    "id": "DIP-T20-004",
+    "pregunta": "El periodo de abono de retribuciones periódicas y regulares no puede exceder de:",
+    "opciones": ["15 días", "1 mes", "2 meses", "3 meses"],
+    "correcta": 1,
+    "justificacion": "El Estatuto de los Trabajadores fija un periodo máximo de un mes para el pago de retribuciones periódicas y regulares.",
+    "trampa": "No confundir periodicidad máxima del pago con la posibilidad de anticipos a cuenta del trabajo realizado.",
+    "referencia": "Manual, apartado 3.3"
+  },
+  {
+    "id": "DIP-T20-005",
+    "pregunta": "La realización de funciones superiores permite reclamar el ascenso, salvo lo dispuesto en convenio colectivo, cuando supera:",
+    "opciones": ["3 meses en 1 año", "6 meses en 1 año u 8 meses en 2 años", "9 meses en 2 años", "12 meses en 3 años"],
+    "correcta": 1,
+    "justificacion": "La regla del artículo 39 del Estatuto de los Trabajadores es más de 6 meses durante 1 año o más de 8 meses durante 2 años.",
+    "trampa": "La persona trabajadora también puede reclamar la diferencia salarial correspondiente a las funciones superiores realizadas.",
+    "referencia": "Manual, apartado 5.1"
+  },
+  {
+    "id": "DIP-T20-006",
+    "pregunta": "El traslado individual debe notificarse con una antelación mínima de:",
+    "opciones": ["10 días", "15 días", "20 días", "30 días"],
+    "correcta": 3,
+    "justificacion": "La decisión de traslado individual debe notificarse con una antelación mínima de 30 días.",
+    "trampa": "No intercambiar este plazo con los 15 días de la modificación sustancial individual o del despido objetivo.",
+    "referencia": "Manual, apartado 5.2"
+  },
+  {
+    "id": "DIP-T20-007",
+    "pregunta": "La extinción del contrato por traslado da derecho a una indemnización máxima de:",
+    "opciones": ["9 mensualidades", "12 mensualidades", "18 mensualidades", "24 mensualidades"],
+    "correcta": 1,
+    "justificacion": "La indemnización es de 20 días de salario por año de servicio, con un máximo de 12 mensualidades.",
+    "trampa": "Las 9 mensualidades corresponden a determinados supuestos de modificación sustancial indemnizable.",
+    "referencia": "Manual, apartado 5.2"
+  },
+  {
+    "id": "DIP-T20-008",
+    "pregunta": "La modificación sustancial individual debe notificarse con al menos:",
+    "opciones": ["7 días", "10 días", "15 días", "30 días"],
+    "correcta": 2,
+    "justificacion": "La modificación sustancial de carácter individual debe notificarse con una antelación mínima de 15 días.",
+    "trampa": "Los 30 días corresponden al traslado individual.",
+    "referencia": "Manual, apartado 5.3"
+  },
+  {
+    "id": "DIP-T20-009",
+    "pregunta": "La suspensión del contrato implica:",
+    "opciones": ["Extinción definitiva del vínculo", "Interrupción temporal de trabajo y salario", "Conversión automática en excedencia voluntaria", "Despido improcedente"],
+    "correcta": 1,
+    "justificacion": "La suspensión interrumpe temporalmente las obligaciones principales de trabajar y remunerar, pero mantiene vivo el vínculo contractual.",
+    "trampa": "Suspensión y extinción producen efectos jurídicos distintos.",
+    "referencia": "Manual, apartado 6"
+  },
+  {
+    "id": "DIP-T20-010",
+    "pregunta": "La indemnización ordinaria por despido improcedente es de:",
+    "opciones": ["20 días por año, máximo 12 mensualidades", "33 días por año, máximo 24 mensualidades", "45 días por año, máximo 42 mensualidades en todo caso", "12 días por año"],
+    "correcta": 1,
+    "justificacion": "La regla vigente es 33 días de salario por año de servicio, con un máximo de 24 mensualidades, sin perjuicio del régimen transitorio aplicable al tiempo trabajado antes del 12 de febrero de 2012.",
+    "trampa": "Los 45 días no se aplican a toda la antigüedad ni a todos los contratos actuales.",
+    "referencia": "Manual, apartado 7.3"
+  },
+  {
+    "id": "DIP-T20-011",
+    "pregunta": "En la extinción por causas objetivas, el preaviso general es de:",
+    "opciones": ["7 días", "10 días", "15 días", "30 días"],
+    "correcta": 2,
+    "justificacion": "El artículo 53 del Estatuto de los Trabajadores fija un preaviso de 15 días.",
+    "trampa": "No aplicar los 30 días del traslado individual.",
+    "referencia": "Manual, apartado 7.5"
+  },
+  {
+    "id": "DIP-T20-012",
+    "pregunta": "Durante el preaviso del despido objetivo, la licencia retribuida para buscar empleo es de:",
+    "opciones": ["2 horas semanales", "4 horas semanales", "6 horas semanales", "1 día completo semanal"],
+    "correcta": 2,
+    "justificacion": "Durante el periodo de preaviso, la persona trabajadora tiene derecho, sin pérdida de retribución, a una licencia de 6 horas semanales para buscar nuevo empleo.",
+    "trampa": "Se trata de horas semanales durante el preaviso, no de un permiso diario.",
+    "referencia": "Manual, apartado 7.5"
+  }
 ]
