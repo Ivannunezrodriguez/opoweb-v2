@@ -1,0 +1,53 @@
+{
+  "tema": 29,
+  "titulo": "El Impuesto sobre Bienes Inmuebles: naturaleza, hecho imponible, sujeto pasivo, exenciones y bonificaciones, base imponible, base liquidable, cuota, devengo y periodo impositivo. El Impuesto sobre Actividades Económicas: naturaleza, hecho imponible, sujeto pasivo, cuota, tarifas, devengo y periodo impositivo.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "fuentesPrincipales": [
+    "Real Decreto Legislativo 2/2004, de 5 de marzo",
+    "Real Decreto Legislativo 1175/1990, de 28 de septiembre",
+    "Real Decreto 243/1995, de 17 de febrero",
+    "Real Decreto Legislativo 1/2004, de 5 de marzo"
+  ],
+  "bloques": [
+    {"id":"T29-B01","nombre":"Naturaleza y hecho imponible del IBI","cubierto":true},
+    {"id":"T29-B02","nombre":"Sujeto pasivo, exenciones y bonificaciones del IBI","cubierto":true},
+    {"id":"T29-B03","nombre":"Base imponible, base liquidable y cuota del IBI","cubierto":true},
+    {"id":"T29-B04","nombre":"Devengo y periodo impositivo del IBI","cubierto":true},
+    {"id":"T29-B05","nombre":"Naturaleza y hecho imponible del IAE","cubierto":true},
+    {"id":"T29-B06","nombre":"Sujeto pasivo y exenciones del IAE","cubierto":true},
+    {"id":"T29-B07","nombre":"Cuota, tarifas y coeficientes del IAE","cubierto":true},
+    {"id":"T29-B08","nombre":"Bonificaciones del IAE","cubierto":true},
+    {"id":"T29-B09","nombre":"Devengo y periodo impositivo del IAE","cubierto":true},
+    {"id":"T29-B10","nombre":"Gestión censal y tributaria del IAE","cubierto":true}
+  ],
+  "datosTest": {
+    "ibiPrelacion": "concesión, superficie, usufructo, propiedad",
+    "ibiBaseImponible": "valor catastral",
+    "ibiTipoSupletorioUrbano": "0,4 %",
+    "ibiTipoSupletorioRustico": "0,3 %",
+    "ibiVPO": "50 % durante 3 periodos impositivos",
+    "ibiDevengo": "1 de enero",
+    "iaeInicioActividadExento": "2 primeros periodos impositivos",
+    "iaeCifraNegociosExenta": "inferior a 1.000.000 de euros",
+    "iaeCoeficienteSituacion": "entre 0,4 y 3,8",
+    "iaeDevengo": "1 de enero",
+    "iaePersonasFisicas": "exentas"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T29-001 a DIP-T29-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
+    "plazosPorcentajesCuantiasYOrganosEnNegrita": true,
+    "tablasComparativas": true,
+    "focosExamen": true,
+    "reutilizacion": false,
+    "actualizacionTRLHL": "2026-06-03",
+    "actualizacionTarifasIAE": "2026-03-21",
+    "verificacionIntegridad": "2026-07-19"
+  }
+}
