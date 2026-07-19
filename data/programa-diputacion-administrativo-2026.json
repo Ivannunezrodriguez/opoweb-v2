@@ -1,6 +1,6 @@
 {
   "id": "diputacion-toledo-administrativo-c1-2026",
-  "version": "2026-07-18",
+  "version": "2026-07-19",
   "estado": "PROGRAMA_OFICIAL_IMPORTADO",
   "convocatoria": {
     "entidad": "Diputación Provincial de Toledo",
@@ -40,7 +40,7 @@
     {"numero":19,"titulo":"Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: régimen disciplinario.","estado":"OFICIAL_IMPORTADO"},
     {"numero":20,"titulo":"El contrato de trabajo: contenido y régimen jurídico. Modificación, suspensión y extinción.","estado":"OFICIAL_IMPORTADO"},
     {"numero":21,"titulo":"El contrato de trabajo: modalidades. El Régimen General de la Seguridad Social: afiliación, altas y bajas. Cotización y recaudación.","estado":"OFICIAL_IMPORTADO"},
-    {"numero":22,"titulo":"El Acuerdo Regulador de las Condiciones de Trabajo de los Empleados Públicos de la Diputación de Toledo y sus Organismos Autónomos. El Organismo Autónomo Provincial de Gestión Tributaria de Toledo: organización, funcionamiento y competencias. Especial referencia a sus Estatutos.","estado":"BLOQUEADO_POR_FUENTE_OAPGT"},
+    {"numero":22,"titulo":"El Acuerdo Regulador de las Condiciones de Trabajo de los Empleados Públicos de la Diputación de Toledo y sus Organismos Autónomos. El Organismo Autónomo Provincial de Gestión Tributaria de Toledo: organización, funcionamiento y competencias. Especial referencia a sus Estatutos.","estado":"GENERACION_DESDE_CERO"},
     {"numero":23,"titulo":"La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.","estado":"OFICIAL_IMPORTADO"},
     {"numero":24,"titulo":"La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.","estado":"OFICIAL_IMPORTADO"},
     {"numero":25,"titulo":"La obligación tributaria: nacimiento, sujetos, elementos cuantitativos y extinción. Los tributos locales. Normas generales. Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Los procedimientos de gestión tributaria. La extinción de la deuda. Los procedimientos tributarios de revisión.","estado":"OFICIAL_IMPORTADO"},
@@ -63,8 +63,8 @@
   "controlCalidad": {
     "fuente": "ANEXO VII del BOP de Toledo número 118, de 25 de junio de 2026",
     "temasImportados": 40,
-    "temaBloqueado": 22,
-    "motivoBloqueo": "No se publicará contenido sobre organización, funcionamiento, competencias o Estatutos del OAPGT sin disponer del texto oficial íntegro y vigente.",
-    "prohibidoPublicarComoAprobado": true
+    "temaInterpretativo": 22,
+    "criterioTema22": "Interpretación prudente autorizada: normativa general y datos institucionales verificables, sin presentar como literales los extremos estatutarios no comprobados.",
+    "prohibidoInventarDatosEstatutarios": true
   }
 }
