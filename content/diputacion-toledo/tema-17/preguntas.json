@@ -1,0 +1,110 @@
+[
+  {
+    "id":"DIP-T17-001",
+    "pregunta":"¿Cuál es la edad mínima general para participar en un proceso selectivo conforme a la Ley 4/2011?",
+    "opciones":["14 años","16 años","18 años","21 años"],
+    "correcta":1,
+    "justificacion":"El requisito general es tener cumplidos 16 años y no exceder de la edad de jubilación forzosa, salvo previsión legal distinta.",
+    "trampa":"Confundir mayoría de edad con edad mínima de acceso.",
+    "referencia":"Manual, apartado 4"
+  },
+  {
+    "id":"DIP-T17-002",
+    "pregunta":"¿Qué principios deben regir el acceso al empleo público?",
+    "opciones":["Antigüedad, confianza y libre designación","Igualdad, mérito, capacidad y publicidad","Jerarquía, oportunidad y discrecionalidad","Exclusivamente mérito y antigüedad"],
+    "correcta":1,
+    "justificacion":"La selección debe respetar igualdad, mérito, capacidad y publicidad, junto con las demás garantías legales.",
+    "trampa":"Eliminar la publicidad o sustituir capacidad por antigüedad.",
+    "referencia":"Manual, apartado 3"
+  },
+  {
+    "id":"DIP-T17-003",
+    "pregunta":"¿Cuáles son los sistemas ordinarios de selección del personal funcionario?",
+    "opciones":["Concurso y libre designación","Oposición y concurso-oposición","Solo oposición","Concurso y entrevista"],
+    "correcta":1,
+    "justificacion":"Los sistemas ordinarios son oposición y concurso-oposición.",
+    "trampa":"El concurso puro solo es excepcional y requiere habilitación legal.",
+    "referencia":"Manual, apartado 6"
+  },
+  {
+    "id":"DIP-T17-004",
+    "pregunta":"¿Cuándo deben poseerse los requisitos de participación?",
+    "opciones":["El día del examen","Al publicarse la lista definitiva","Al finalizar el plazo de solicitudes y mantenerse hasta la toma de posesión o contrato","Solo en la toma de posesión"],
+    "correcta":2,
+    "justificacion":"Deben poseerse al finalizar el plazo de solicitudes y mantenerse hasta la toma de posesión o formalización contractual.",
+    "trampa":"Separar posesión y mantenimiento de requisitos.",
+    "referencia":"Manual, apartado 4"
+  },
+  {
+    "id":"DIP-T17-005",
+    "pregunta":"¿Puede el personal eventual realizar funciones administrativas ordinarias y permanentes?",
+    "opciones":["Sí, siempre","Sí, si lo autoriza el Pleno","No, sus funciones son de confianza o asesoramiento especial","Solo durante seis meses"],
+    "correcta":2,
+    "justificacion":"El personal eventual se reserva a funciones de confianza o asesoramiento especial.",
+    "trampa":"Confundir libre nombramiento con libertad funcional.",
+    "referencia":"Manual, apartado 2.4"
+  },
+  {
+    "id":"DIP-T17-006",
+    "pregunta":"¿Qué efecto tiene aprobar el proceso selectivo?",
+    "opciones":["Adquisición automática de la condición funcionarial","Solo una expectativa hasta completar nombramiento, acatamiento y toma de posesión","Contrato laboral automático","Ingreso en prácticas indefinido"],
+    "correcta":1,
+    "justificacion":"La condición de personal funcionario de carrera exige completar todos los requisitos legales, incluida la toma de posesión.",
+    "trampa":"Aprobar no equivale a adquirir la condición plena.",
+    "referencia":"Manual, apartado 10"
+  },
+  {
+    "id":"DIP-T17-007",
+    "pregunta":"¿Cuál de las siguientes NO es causa de pérdida de la condición de personal funcionario de carrera?",
+    "opciones":["Renuncia","Jubilación total","Cambio de puesto por concurso","Separación firme del servicio"],
+    "correcta":2,
+    "justificacion":"El cambio de puesto no extingue la relación de servicio.",
+    "trampa":"Confundir movilidad con pérdida de condición.",
+    "referencia":"Manual, apartado 11"
+  },
+  {
+    "id":"DIP-T17-008",
+    "pregunta":"La separación del servicio produce pérdida de la condición funcionarial cuando...",
+    "opciones":["Se propone por el instructor","Es firme en vía administrativa","Se publica la apertura del expediente","La acuerda provisionalmente el superior"],
+    "correcta":1,
+    "justificacion":"La sanción de separación debe tener carácter firme en vía administrativa.",
+    "trampa":"Confundir propuesta o resolución no firme con pérdida efectiva.",
+    "referencia":"Manual, apartado 11.4"
+  },
+  {
+    "id":"DIP-T17-009",
+    "pregunta":"¿Qué efecto tiene la inhabilitación absoluta firme?",
+    "opciones":["Pérdida solo del puesto ocupado","Pérdida respecto de todos los empleos o cargos públicos","Suspensión de un mes","Traslado forzoso"],
+    "correcta":1,
+    "justificacion":"La inhabilitación absoluta firme produce la pérdida respecto de todos los empleos o cargos públicos.",
+    "trampa":"Confundirla con la inhabilitación especial.",
+    "referencia":"Manual, apartado 11.4"
+  },
+  {
+    "id":"DIP-T17-010",
+    "pregunta":"¿Impide la renuncia volver a ingresar en la Administración?",
+    "opciones":["Sí, de por vida","Sí, durante diez años","No, puede ingresarse de nuevo superando el proceso selectivo correspondiente","Solo impide ingresar en la misma Administración"],
+    "correcta":2,
+    "justificacion":"La renuncia no inhabilita para un nuevo ingreso.",
+    "trampa":"Equiparar renuncia con separación disciplinaria.",
+    "referencia":"Manual, apartado 11.1"
+  },
+  {
+    "id":"DIP-T17-011",
+    "pregunta":"¿Puede una persona nacional de otro Estado miembro de la UE acceder a cualquier puesto funcionario?",
+    "opciones":["Sí, sin excepción","No, quedan exceptuados determinados empleos vinculados al ejercicio del poder público o salvaguarda de intereses generales","Solo puede ser laboral temporal","Solo con cinco años de residencia"],
+    "correcta":1,
+    "justificacion":"La ley exceptúa determinados empleos relacionados con poder público o intereses generales.",
+    "trampa":"Responder con una prohibición o autorización absoluta.",
+    "referencia":"Manual, apartado 5"
+  },
+  {
+    "id":"DIP-T17-012",
+    "pregunta":"¿Cuál es la regla sobre el concurso puro para seleccionar personal funcionario?",
+    "opciones":["Es el sistema ordinario preferente","Está prohibido siempre","Es excepcional y requiere previsión legal","Se usa libremente en entidades locales"],
+    "correcta":2,
+    "justificacion":"Para personal funcionario, el concurso puro solo procede excepcionalmente cuando una ley lo autoriza.",
+    "trampa":"Confundirlo con el concurso de provisión de puestos.",
+    "referencia":"Manual, apartado 6.1"
+  }
+]
