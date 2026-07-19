@@ -1,0 +1,31 @@
+{
+  "tema": 23,
+  "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
+  "estado": "GENERACION_DESDE_CERO",
+  "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
+  "bloques": [
+    {"id":"T23-B01","nombre":"Objeto y principios preventivos","cubierto":true},
+    {"id":"T23-B02","nombre":"Derecho a protección y obligaciones empresariales","cubierto":true},
+    {"id":"T23-B03","nombre":"Evaluación y planificación","cubierto":true},
+    {"id":"T23-B04","nombre":"Información y formación","cubierto":true},
+    {"id":"T23-B05","nombre":"Emergencias y riesgo grave e inminente","cubierto":true},
+    {"id":"T23-B06","nombre":"Vigilancia de la salud y colectivos sensibles","cubierto":true},
+    {"id":"T23-B07","nombre":"Obligaciones de los trabajadores","cubierto":true},
+    {"id":"T23-B08","nombre":"Servicios de prevención","cubierto":true},
+    {"id":"T23-B09","nombre":"Consulta y participación","cubierto":true},
+    {"id":"T23-B10","nombre":"Delegados de prevención y Comité de Seguridad y Salud","cubierto":true}
+  ],
+  "datosTest": [
+    {"concepto":"Ratificación o anulación de paralización","valor":"24 horas"},
+    {"concepto":"Comité de Seguridad y Salud","valor":"50 o más trabajadores"},
+    {"concepto":"Periodicidad ordinaria del Comité","valor":"trimestral"},
+    {"concepto":"Delegados de prevención en plantilla de 31 a 49","valor":"1"}
+  ],
+  "control": {
+    "redaccionAutonoma": true,
+    "reutilizacionOtrosTemarios": false,
+    "fuentePrincipal": "Ley 31/1995",
+    "actualizacionFuentePrincipal": "2026-04-09",
+    "preguntasPrevistas": 12
+  }
+}
