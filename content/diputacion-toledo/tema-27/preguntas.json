@@ -1,122 +1,114 @@
-[
-  {
-    "id":"DIP-T27-001",
-    "tema":27,
-    "pregunta":"El ejercicio presupuestario de una entidad local coincide con:",
-    "opciones":["El curso político","El año natural","El mandato corporativo","El semestre natural"],
-    "correcta":1,
-    "justificacion":"El artículo 163 del TRLRHL establece que el ejercicio presupuestario coincide con el año natural.",
-    "trampa":"No confundir ejercicio presupuestario con mandato corporativo ni con calendario de sesiones.",
-    "referencia":"Manual, apartado 2"
-  },
-  {
-    "id":"DIP-T27-002",
-    "tema":27,
-    "pregunta":"¿Cuál de los siguientes integra el presupuesto general de una entidad local?",
-    "opciones":["Solo el presupuesto de la entidad","El presupuesto de la entidad, sus organismos autónomos y las previsiones de sociedades íntegramente locales","Solo los organismos autónomos","Únicamente los gastos de personal"],
-    "correcta":1,
-    "justificacion":"El presupuesto general integra el de la propia entidad, los de sus organismos autónomos y los estados de previsión de sociedades mercantiles íntegramente locales.",
-    "trampa":"El presupuesto general es único, pero contiene varios presupuestos y estados integrados.",
-    "referencia":"Manual, apartado 3"
-  },
-  {
-    "id":"DIP-T27-003",
-    "tema":27,
-    "pregunta":"Las bases de ejecución del presupuesto pueden:",
-    "opciones":["Modificar cualquier ley estatal","Adaptar la normativa presupuestaria a la organización de la entidad sin contradecir normas superiores","Crear tributos nuevos","Sustituir el presupuesto general"],
-    "correcta":1,
-    "justificacion":"Las bases adaptan las disposiciones generales a la organización de la entidad, pero no pueden modificar la legislación ni incluir regulación ajena al ámbito presupuestario.",
-    "trampa":"Adaptar no equivale a modificar una norma de rango superior.",
-    "referencia":"Manual, apartado 5"
-  },
-  {
-    "id":"DIP-T27-004",
-    "tema":27,
-    "pregunta":"Los organismos autónomos deben remitir sus presupuestos a la entidad local antes del:",
-    "opciones":["1 de septiembre","15 de septiembre","1 de octubre","15 de octubre"],
-    "correcta":1,
-    "justificacion":"El plazo legal es antes del 15 de septiembre de cada año.",
-    "trampa":"El 15 de octubre corresponde a la remisión del presupuesto general al Pleno.",
-    "referencia":"Manual, apartado 7.1"
-  },
-  {
-    "id":"DIP-T27-005",
-    "tema":27,
-    "pregunta":"¿Quién forma el presupuesto general de la entidad local?",
-    "opciones":["El Pleno","La Presidencia","La Intervención","La Tesorería"],
-    "correcta":1,
-    "justificacion":"La Presidencia forma el presupuesto general sobre la documentación remitida por los entes dependientes.",
-    "trampa":"La Intervención informa y el Pleno aprueba; ninguno de ellos forma el presupuesto.",
-    "referencia":"Manual, apartado 7.2"
-  },
-  {
-    "id":"DIP-T27-006",
-    "tema":27,
-    "pregunta":"El presupuesto general debe remitirse al Pleno, informado por la Intervención, antes del:",
-    "opciones":["15 de septiembre","1 de octubre","15 de octubre","31 de diciembre"],
-    "correcta":2,
-    "justificacion":"La Presidencia debe remitirlo al Pleno antes del 15 de octubre.",
-    "trampa":"El 31 de diciembre es la fecha límite de aprobación definitiva, no de remisión inicial.",
-    "referencia":"Manual, apartado 7.2"
-  },
-  {
-    "id":"DIP-T27-007",
-    "tema":27,
-    "pregunta":"La exposición pública del presupuesto inicialmente aprobado dura:",
-    "opciones":["10 días","15 días","20 días","1 mes"],
-    "correcta":1,
-    "justificacion":"La exposición pública se realiza durante 15 días.",
-    "trampa":"El plazo de un mes corresponde a la resolución de reclamaciones por el Pleno.",
-    "referencia":"Manual, apartado 8"
-  },
-  {
-    "id":"DIP-T27-008",
-    "tema":27,
-    "pregunta":"Si durante la exposición pública no se presentan reclamaciones:",
-    "opciones":["El presupuesto queda anulado","Se considera definitivamente aprobado","Debe celebrarse obligatoriamente otro Pleno","Se prorroga el presupuesto anterior"],
-    "correcta":1,
-    "justificacion":"La aprobación inicial se eleva automáticamente a definitiva si no se presentan reclamaciones.",
-    "trampa":"No es necesario un nuevo acuerdo expreso del Pleno en ausencia de reclamaciones.",
-    "referencia":"Manual, apartado 8"
-  },
-  {
-    "id":"DIP-T27-009",
-    "tema":27,
-    "pregunta":"Si se presentan reclamaciones, el Pleno dispone para resolverlas de:",
-    "opciones":["10 días","15 días","1 mes","3 meses"],
-    "correcta":2,
-    "justificacion":"El artículo 169 TRLRHL concede al Pleno un plazo de un mes para resolverlas.",
-    "trampa":"No confundir este plazo con los 15 días de exposición pública.",
-    "referencia":"Manual, apartado 8"
-  },
-  {
-    "id":"DIP-T27-010",
-    "tema":27,
-    "pregunta":"La aprobación definitiva del presupuesto general debe realizarse antes del:",
-    "opciones":["15 de octubre","30 de noviembre","31 de diciembre del año anterior","31 de enero del ejercicio"],
-    "correcta":2,
-    "justificacion":"Debe aprobarse definitivamente antes del 31 de diciembre del año anterior al ejercicio de aplicación.",
-    "trampa":"La entrada en vigor exige además la publicación legal.",
-    "referencia":"Manual, apartado 10"
-  },
-  {
-    "id":"DIP-T27-011",
-    "tema":27,
-    "pregunta":"Si el nuevo presupuesto no ha entrado en vigor al comenzar el ejercicio:",
-    "opciones":["Se paraliza toda actividad económica","Se prorroga automáticamente el presupuesto anterior","Decide libremente la Intervención","Se aplica el proyecto no aprobado"],
-    "correcta":1,
-    "justificacion":"La prórroga del presupuesto anterior se produce automáticamente hasta la entrada en vigor del nuevo.",
-    "trampa":"La prórroga no requiere acuerdo expreso y no alcanza a todos los créditos sin excepción.",
-    "referencia":"Manual, apartado 12"
-  },
-  {
-    "id":"DIP-T27-012",
-    "tema":27,
-    "pregunta":"¿Qué créditos no quedan afectados por la prórroga presupuestaria?",
-    "opciones":["Todos los créditos de personal","Los destinados a programas que debían concluir o financiados con ingresos específicos o afectados","Todos los gastos corrientes","Los créditos iniciales ordinarios"],
-    "correcta":1,
-    "justificacion":"La prórroga excluye créditos para servicios o programas finalizados y los financiados con crédito o ingresos específicos o afectados.",
-    "trampa":"La prórroga no reproduce íntegramente el presupuesto anterior.",
-    "referencia":"Manual, apartado 12"
-  }
-]
+{
+  "tema": 27,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T27-001",
+      "pregunta": "El ejercicio presupuestario de una entidad local coincide con:",
+      "opciones": ["El curso político", "El año natural", "El mandato corporativo", "El semestre natural"],
+      "correcta": 1,
+      "justificacion": "El artículo 163 del texto refundido de la Ley Reguladora de las Haciendas Locales establece que el ejercicio presupuestario coincide con el año natural.",
+      "trampa": "No debe confundirse el ejercicio presupuestario con el mandato corporativo ni con el calendario de sesiones.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#2-ámbito-temporal-y-principios-presupuestarios"
+    },
+    {
+      "id": "DIP-T27-002",
+      "pregunta": "¿Cuál de los siguientes integra el presupuesto general de una entidad local?",
+      "opciones": ["Solo el presupuesto de la entidad", "El presupuesto de la entidad, sus organismos autónomos y las previsiones de sociedades íntegramente locales", "Solo los organismos autónomos", "Únicamente los gastos de personal"],
+      "correcta": 1,
+      "justificacion": "El presupuesto general integra el presupuesto de la propia entidad local, los de sus organismos autónomos y los estados de previsión de gastos e ingresos de las sociedades mercantiles cuyo capital pertenezca íntegramente a la entidad local.",
+      "trampa": "El presupuesto general es único, pero integra varios presupuestos y estados de previsión.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#3-contenido-del-presupuesto-general"
+    },
+    {
+      "id": "DIP-T27-003",
+      "pregunta": "Las bases de ejecución del presupuesto pueden:",
+      "opciones": ["Modificar cualquier ley estatal", "Adaptar la normativa presupuestaria a la organización de la entidad sin contradecir normas superiores", "Crear tributos nuevos", "Sustituir el presupuesto general"],
+      "correcta": 1,
+      "justificacion": "Las bases de ejecución adaptan las disposiciones generales en materia presupuestaria a la organización y circunstancias de la entidad local, pero no pueden modificar la legislación ni incluir regulación ajena al ámbito presupuestario.",
+      "trampa": "Adaptar la normativa a la organización interna no equivale a modificar una norma de rango superior.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#5-las-bases-de-ejecución-del-presupuesto"
+    },
+    {
+      "id": "DIP-T27-004",
+      "pregunta": "Los organismos autónomos deben remitir sus presupuestos a la entidad local antes del:",
+      "opciones": ["1 de septiembre", "15 de septiembre", "1 de octubre", "15 de octubre"],
+      "correcta": 1,
+      "justificacion": "Los organismos autónomos deben remitir sus presupuestos a la entidad local antes del 15 de septiembre de cada año.",
+      "trampa": "El 15 de octubre corresponde a la remisión del presupuesto general al Pleno, no a la documentación de los organismos autónomos.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#71-organismos-autónomos-y-sociedades-mercantiles"
+    },
+    {
+      "id": "DIP-T27-005",
+      "pregunta": "¿Quién forma el presupuesto general de la entidad local?",
+      "opciones": ["El Pleno", "La Presidencia", "La Intervención", "La Tesorería"],
+      "correcta": 1,
+      "justificacion": "La Presidencia de la entidad local forma el presupuesto general sobre la documentación remitida por los entes dependientes.",
+      "trampa": "La Intervención informa y el Pleno aprueba; ninguno de estos órganos forma el presupuesto general.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#72-formación-por-la-presidencia"
+    },
+    {
+      "id": "DIP-T27-006",
+      "pregunta": "El presupuesto general debe remitirse al Pleno, informado por la Intervención, antes del:",
+      "opciones": ["15 de septiembre", "1 de octubre", "15 de octubre", "31 de diciembre"],
+      "correcta": 2,
+      "justificacion": "La Presidencia debe remitir al Pleno el presupuesto general, informado por la Intervención, antes del 15 de octubre para su aprobación, enmienda o devolución.",
+      "trampa": "El 31 de diciembre es la fecha límite para la aprobación definitiva, no para la remisión inicial al Pleno.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#72-formación-por-la-presidencia"
+    },
+    {
+      "id": "DIP-T27-007",
+      "pregunta": "La exposición pública del presupuesto inicialmente aprobado dura:",
+      "opciones": ["10 días", "15 días", "20 días", "1 mes"],
+      "correcta": 1,
+      "justificacion": "Tras la aprobación inicial, el presupuesto general se expone al público durante 15 días, previo anuncio en el Boletín Oficial de la Provincia.",
+      "trampa": "El plazo de 1 mes corresponde a la resolución de reclamaciones por el Pleno.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#8-aprobación-inicial-exposición-pública-y-reclamaciones"
+    },
+    {
+      "id": "DIP-T27-008",
+      "pregunta": "Si durante la exposición pública no se presentan reclamaciones:",
+      "opciones": ["El presupuesto queda anulado", "Se considera definitivamente aprobado", "Debe celebrarse obligatoriamente otro Pleno", "Se prorroga el presupuesto anterior"],
+      "correcta": 1,
+      "justificacion": "Si durante el plazo de exposición pública no se presentan reclamaciones, la aprobación inicial se eleva automáticamente a definitiva.",
+      "trampa": "No es necesario un nuevo acuerdo expreso del Pleno cuando no se presentan reclamaciones.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#8-aprobación-inicial-exposición-pública-y-reclamaciones"
+    },
+    {
+      "id": "DIP-T27-009",
+      "pregunta": "Si se presentan reclamaciones, el Pleno dispone para resolverlas de:",
+      "opciones": ["10 días", "15 días", "1 mes", "3 meses"],
+      "correcta": 2,
+      "justificacion": "Cuando se presentan reclamaciones, el Pleno dispone de 1 mes para resolverlas.",
+      "trampa": "No debe confundirse este plazo con los 15 días de exposición pública.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#8-aprobación-inicial-exposición-pública-y-reclamaciones"
+    },
+    {
+      "id": "DIP-T27-010",
+      "pregunta": "La aprobación definitiva del presupuesto general debe realizarse antes del:",
+      "opciones": ["15 de octubre", "30 de noviembre", "31 de diciembre del año anterior", "31 de enero del ejercicio"],
+      "correcta": 2,
+      "justificacion": "La aprobación definitiva del presupuesto general debe realizarse antes del 31 de diciembre del año anterior al ejercicio en que deba aplicarse.",
+      "trampa": "La aprobación definitiva no basta para la entrada en vigor; también es necesaria la publicación legal.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#10-aprobación-definitiva-publicación-y-entrada-en-vigor"
+    },
+    {
+      "id": "DIP-T27-011",
+      "pregunta": "Si el nuevo presupuesto no ha entrado en vigor al comenzar el ejercicio:",
+      "opciones": ["Se paraliza toda actividad económica", "Se prorroga automáticamente el presupuesto anterior", "Decide libremente la Intervención", "Se aplica el proyecto no aprobado"],
+      "correcta": 1,
+      "justificacion": "Si al comenzar el ejercicio no ha entrado en vigor el nuevo presupuesto, se considera automáticamente prorrogado el presupuesto anterior hasta la entrada en vigor del nuevo.",
+      "trampa": "La prórroga no requiere acuerdo expreso y no alcanza a todos los créditos sin excepción.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#12-prórroga-presupuestaria"
+    },
+    {
+      "id": "DIP-T27-012",
+      "pregunta": "¿Qué créditos no quedan afectados por la prórroga presupuestaria?",
+      "opciones": ["Todos los créditos de personal", "Los destinados a programas que debían concluir o financiados con ingresos específicos o afectados", "Todos los gastos corrientes", "Los créditos iniciales ordinarios"],
+      "correcta": 1,
+      "justificacion": "No se prorrogan los créditos destinados a servicios o programas que debían concluir en el ejercicio anterior ni los financiados con crédito específico o con ingresos específicos o afectados.",
+      "trampa": "La prórroga presupuestaria no reproduce íntegramente el presupuesto anterior.",
+      "referencia": "content/diputacion-toledo/tema-27/manual.md#12-prórroga-presupuestaria"
+    }
+  ]
+}
