@@ -1,0 +1,122 @@
+[
+  {
+    "id":"DIP-T31-001",
+    "tema":31,
+    "pregunta":"¿Qué firma electrónica tiene expresamente un efecto jurídico equivalente al de una firma manuscrita?",
+    "opciones":["La firma simple","La firma avanzada","La firma cualificada","Cualquier firma escaneada"],
+    "correcta":2,
+    "justificacion":"El Reglamento eIDAS atribuye a la firma electrónica cualificada un efecto jurídico equivalente al de la firma manuscrita.",
+    "trampa":"La firma avanzada ofrece mayores garantías, pero no recibe por sí sola esa equivalencia expresa.",
+    "referencia":"Manual, apartado 3.1"
+  },
+  {
+    "id":"DIP-T31-002",
+    "tema":31,
+    "pregunta":"¿Cuál de los siguientes NO es un requisito de la firma electrónica avanzada?",
+    "opciones":["Estar vinculada de manera única al firmante","Permitir identificar al firmante","Detectar modificaciones posteriores","Ser siempre emitida por una Administración pública"],
+    "correcta":3,
+    "justificacion":"La firma avanzada exige vinculación única, identificación, control exclusivo y detección de cambios; no exige que la emita una Administración.",
+    "trampa":"No confundir prestador cualificado con Administración pública.",
+    "referencia":"Manual, apartado 3.1"
+  },
+  {
+    "id":"DIP-T31-003",
+    "tema":31,
+    "pregunta":"El sello electrónico se asocia normalmente a:",
+    "opciones":["Una persona jurídica","Una persona física exclusivamente","Un navegador web","Un documento en papel"],
+    "correcta":0,
+    "justificacion":"El sello electrónico se emplea normalmente para garantizar origen e integridad respecto de una persona jurídica.",
+    "trampa":"La firma se vincula típicamente a una persona física; el sello, a una persona jurídica.",
+    "referencia":"Manual, apartado 2"
+  },
+  {
+    "id":"DIP-T31-004",
+    "tema":31,
+    "pregunta":"¿Qué hace un certificado electrónico?",
+    "opciones":["Sustituye siempre a la firma","Vincula datos de validación con una identidad o atributos","Convierte cualquier documento en público","Elimina la necesidad de verificar identidad"],
+    "correcta":1,
+    "justificacion":"El certificado vincula datos de validación de firma o sello con una persona y confirma determinados atributos.",
+    "trampa":"El certificado no es la firma; sirve para verificar la vinculación entre identidad y datos de validación.",
+    "referencia":"Manual, apartado 4"
+  },
+  {
+    "id":"DIP-T31-005",
+    "tema":31,
+    "pregunta":"La Ley 6/2020 entró en vigor el:",
+    "opciones":["12 de noviembre de 2020","13 de noviembre de 2020","1 de enero de 2021","9 de mayo de 2023"],
+    "correcta":1,
+    "justificacion":"La Ley 6/2020 entró en vigor el 13 de noviembre de 2020.",
+    "trampa":"El 12 de noviembre fue la fecha de publicación en el BOE; el 9 de mayo de 2023 es la última actualización publicada.",
+    "referencia":"Manual, apartado 1"
+  },
+  {
+    "id":"DIP-T31-006",
+    "tema":31,
+    "pregunta":"¿Qué identifica la Lista de confianza?",
+    "opciones":["Todos los usuarios de certificados","Prestadores y servicios cualificados","Todos los empleados públicos","Únicamente sitios web públicos"],
+    "correcta":1,
+    "justificacion":"La Lista de confianza identifica prestadores cualificados y los servicios cualificados que ofrecen.",
+    "trampa":"No es un registro general de usuarios ni de todos los certificados existentes.",
+    "referencia":"Manual, apartado 7"
+  },
+  {
+    "id":"DIP-T31-007",
+    "tema":31,
+    "pregunta":"Según la Ley 39/2015, ¿en cuál de estas actuaciones se exige firma con carácter general?",
+    "opciones":["Consultar información pública","Formular una solicitud","Leer una notificación","Acceder a una página informativa"],
+    "correcta":1,
+    "justificacion":"La formulación de solicitudes es uno de los supuestos en los que la Ley 39/2015 exige firma.",
+    "trampa":"La mera identificación o consulta no implica necesariamente firma.",
+    "referencia":"Manual, apartado 8.2"
+  },
+  {
+    "id":"DIP-T31-008",
+    "tema":31,
+    "pregunta":"Identificación y firma electrónica:",
+    "opciones":["Son siempre exactamente lo mismo","La identificación no implica siempre firma","La firma nunca acredita voluntad","La identificación solo puede hacerse con DNI electrónico"],
+    "correcta":1,
+    "justificacion":"La identificación acredita quién actúa; la firma añade autenticidad de voluntad, consentimiento e integridad cuando procede.",
+    "trampa":"No toda actuación identificada requiere firma.",
+    "referencia":"Manual, apartado 8"
+  },
+  {
+    "id":"DIP-T31-009",
+    "tema":31,
+    "pregunta":"¿Qué sistema permite contrastar la autenticidad de un documento mediante la sede electrónica?",
+    "opciones":["El código seguro de verificación","La copia impresa simple","El nombre del archivo","La contraseña del usuario"],
+    "correcta":0,
+    "justificacion":"El código seguro de verificación permite comprobar la integridad y autenticidad del documento en la sede electrónica.",
+    "trampa":"El CSV no es una firma manuscrita ni una contraseña personal.",
+    "referencia":"Manual, apartado 9"
+  },
+  {
+    "id":"DIP-T31-010",
+    "tema":31,
+    "pregunta":"¿Cuál de los siguientes puede ser soporte de un certificado electrónico?",
+    "opciones":["Tarjeta criptográfica","Token USB","Certificado software","Todos los anteriores"],
+    "correcta":3,
+    "justificacion":"Los certificados y sus claves pueden utilizar soportes físicos, software o sistemas remotos seguros.",
+    "trampa":"El soporte por sí solo no determina que la firma sea cualificada.",
+    "referencia":"Manual, apartado 10"
+  },
+  {
+    "id":"DIP-T31-011",
+    "tema":31,
+    "pregunta":"Un certificado revocado:",
+    "opciones":["Sigue siendo válido hasta fin de año","No debe utilizarse como certificado vigente","Se convierte automáticamente en sello","Solo deja de valer en papel"],
+    "correcta":1,
+    "justificacion":"La revocación extingue la validez del certificado desde el momento aplicable y debe constar en el servicio de consulta de estado.",
+    "trampa":"Caducidad, suspensión y revocación son causas distintas, pero todas afectan a la posibilidad de usarlo válidamente.",
+    "referencia":"Manual, apartado 5"
+  },
+  {
+    "id":"DIP-T31-012",
+    "tema":31,
+    "pregunta":"La expresión tradicional «autoridad certificadora» se corresponde actualmente con:",
+    "opciones":["Prestadores de servicios de confianza que expiden certificados","Órganos judiciales","Registros civiles exclusivamente","Empresas de telecomunicaciones sin más requisitos"],
+    "correcta":0,
+    "justificacion":"La terminología actual se refiere a prestadores de servicios de confianza que expiden y gestionan certificados.",
+    "trampa":"Pueden existir prestadores públicos y privados; no toda entidad tecnológica tiene esa condición.",
+    "referencia":"Manual, apartado 11"
+  }
+]
