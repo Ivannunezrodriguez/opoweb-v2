@@ -1,0 +1,98 @@
+[
+  {
+    "id":"DIP-T25-001",
+    "tema":25,
+    "pregunta":"¿Cuándo nace la obligación tributaria principal?",
+    "opciones":["Cuando se notifica la liquidación","Cuando se realiza el hecho imponible","Cuando termina el período voluntario","Cuando se interpone un recurso"],
+    "correcta":1,
+    "justificacion":"La obligación tributaria principal nace cuando se realiza el hecho imponible definido por la ley."
+  },
+  {
+    "id":"DIP-T25-002",
+    "tema":25,
+    "pregunta":"¿Qué diferencia existe entre exención y no sujeción?",
+    "opciones":["En ambas se realiza el hecho imponible","En la exención se realiza el hecho imponible y en la no sujeción no","La no sujeción exige siempre una bonificación","No existe diferencia jurídica"],
+    "correcta":1,
+    "justificacion":"En la exención se realiza el hecho imponible, pero la ley dispensa del pago; en la no sujeción el supuesto queda fuera del hecho imponible."
+  },
+  {
+    "id":"DIP-T25-003",
+    "tema":25,
+    "pregunta":"El contribuyente es el sujeto pasivo que:",
+    "opciones":["Realiza el hecho imponible","Responde siempre subsidiariamente","Practica necesariamente una retención","Sustituye al responsable"],
+    "correcta":0,
+    "justificacion":"Contribuyente es quien realiza el hecho imponible."
+  },
+  {
+    "id":"DIP-T25-004",
+    "tema":25,
+    "pregunta":"La base liquidable se obtiene:",
+    "opciones":["Sumando sanciones a la cuota","Aplicando a la base imponible las reducciones previstas legalmente","Restando intereses de demora","Aplicando el recargo ejecutivo"],
+    "correcta":1,
+    "justificacion":"La base liquidable resulta de practicar en la base imponible las reducciones establecidas por la ley."
+  },
+  {
+    "id":"DIP-T25-005",
+    "tema":25,
+    "pregunta":"¿Forman las sanciones tributarias parte de la deuda tributaria?",
+    "opciones":["Sí, siempre","Solo las sanciones graves","No","Solo cuando existe apremio"],
+    "correcta":2,
+    "justificacion":"Las sanciones tributarias no forman parte de la deuda tributaria."
+  },
+  {
+    "id":"DIP-T25-006",
+    "tema":25,
+    "pregunta":"¿Cuál es el plazo general de prescripción tributaria?",
+    "opciones":["1 año","3 años","4 años","5 años"],
+    "correcta":2,
+    "justificacion":"La Ley General Tributaria fija con carácter general un plazo de 4 años."
+  },
+  {
+    "id":"DIP-T25-007",
+    "tema":25,
+    "pregunta":"¿Cuáles son impuestos municipales de exacción obligatoria?",
+    "opciones":["ICIO e IIVTNU","IBI, IAE e IVTM","Solo IBI","Tasas y contribuciones especiales"],
+    "correcta":1,
+    "justificacion":"IBI, IAE e IVTM son impuestos obligatorios; ICIO e IIVTNU son potestativos."
+  },
+  {
+    "id":"DIP-T25-008",
+    "tema":25,
+    "pregunta":"La delegación de la gestión tributaria local:",
+    "opciones":["Transfiere necesariamente la titularidad del tributo","No altera la titularidad del tributo","Suprime la ordenanza fiscal","Convierte el tributo local en estatal"],
+    "correcta":1,
+    "justificacion":"La delegación desplaza el ejercicio de las funciones delegadas, pero la titularidad permanece en la entidad delegante."
+  },
+  {
+    "id":"DIP-T25-009",
+    "tema":25,
+    "pregunta":"¿Cuál de los siguientes es un procedimiento de gestión tributaria?",
+    "opciones":["Comprobación limitada","Recurso contencioso-administrativo","Procedimiento legislativo","Moción de censura"],
+    "correcta":0,
+    "justificacion":"La comprobación limitada es uno de los procedimientos de gestión tributaria regulados por la Ley General Tributaria."
+  },
+  {
+    "id":"DIP-T25-010",
+    "tema":25,
+    "pregunta":"La comprobación limitada:",
+    "opciones":["Equivale siempre a una inspección completa","Tiene un alcance propio y limitado por la ley","Solo puede iniciarla un juez","No puede finalizar con liquidación"],
+    "correcta":1,
+    "justificacion":"La comprobación limitada permite verificar determinados elementos y documentos dentro de los límites legales, sin equivaler a una inspección plena."
+  },
+  {
+    "id":"DIP-T25-011",
+    "tema":25,
+    "pregunta":"El plazo general para interponer el recurso de reposición tributario local es de:",
+    "opciones":["10 días hábiles","15 días hábiles","1 mes","3 meses"],
+    "correcta":2,
+    "justificacion":"La legislación de haciendas locales establece con carácter general un plazo de 1 mes."
+  },
+  {
+    "id":"DIP-T25-012",
+    "tema":25,
+    "pregunta":"¿Cuál de los siguientes es un procedimiento especial de revisión tributaria?",
+    "opciones":["Revisión de actos nulos de pleno derecho","Aprobación de una ordenanza","Elaboración del presupuesto","Selección de personal"],
+    "correcta":0,
+    "justificacion":"La revisión de actos nulos de pleno derecho es uno de los procedimientos especiales de revisión previstos en la Ley General Tributaria."
+  }
+]
