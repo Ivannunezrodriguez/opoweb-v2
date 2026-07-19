@@ -2,6 +2,13 @@
   "tema": 21,
   "estado": "GENERACION_DESDE_CERO",
   "programaOficial": "El contrato de trabajo: modalidades. El Régimen General de la Seguridad Social: afiliación, altas y bajas. Cotización y recaudación.",
+  "fuentesPrincipales": [
+    "Real Decreto Legislativo 2/2015, de 23 de octubre",
+    "Real Decreto Legislativo 8/2015, de 30 de octubre",
+    "Real Decreto 84/1996, de 26 de enero",
+    "Real Decreto 2064/1995, de 22 de diciembre",
+    "Real Decreto 1415/2004, de 11 de junio"
+  ],
   "cobertura": [
     {"apartado": "Modalidades del contrato de trabajo", "cubierto": true},
     {"apartado": "Contrato indefinido y fijo-discontinuo", "cubierto": true},
@@ -11,19 +18,34 @@
     {"apartado": "Régimen General de la Seguridad Social", "cubierto": true},
     {"apartado": "Afiliación", "cubierto": true},
     {"apartado": "Altas, bajas y variaciones de datos", "cubierto": true},
-    {"apartado": "Cotización", "cubierto": true},
-    {"apartado": "Base de cotización", "cubierto": true},
+    {"apartado": "Cotización y base de cotización", "cubierto": true},
     {"apartado": "Recaudación voluntaria y ejecutiva", "cubierto": true},
     {"apartado": "Recargos y prescripción", "cubierto": true}
   ],
-  "controles": {
-    "epigrafeExacto": true,
-    "fuentesOficiales": true,
+  "datosTest": {
+    "temporalImprevisible": "máximo general 6 meses; convenio sectorial hasta 1 año",
+    "temporalPrevisible": "máximo general 90 días en el año natural",
+    "sustitucionProcesoSeleccion": "máximo general 3 meses",
+    "formacionAlternancia": "3 meses a 2 años",
+    "practicaProfesional": "6 meses a 1 año",
+    "alta": "antes del inicio de la prestación",
+    "bajaYVariacion": "3 días naturales",
+    "ingresoCuotas": "mes siguiente",
+    "prescripcionCuotas": "4 años"
+  },
+  "controlCalidad": {
+    "manualCompleto": true,
+    "fuentesCompletas": true,
+    "jsonValido": true,
+    "preguntas": 12,
+    "idsPreguntas": "DIP-T21-001 a DIP-T21-012",
+    "esquemaPreguntasCompatibleWeb": true,
+    "trampasYReferenciasEnPreguntas": true,
     "plazosEnNegrita": true,
     "organosCompetentesEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
-    "preguntasPropias": 12,
-    "reutilizacion": false
+    "reutilizacion": false,
+    "verificacionIntegridad": "2026-07-19"
   }
 }
