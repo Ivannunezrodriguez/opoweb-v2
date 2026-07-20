@@ -67,13 +67,17 @@ El temario base queda cerrado para la fase de tests, supuestos prácticos y simu
 | Empleo público, laboral y Seguridad Social | 17–21 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
 | Diputación y OAPGT | 22 | `GENERACION_DESDE_CERO` | Reconstrucción interpretativa prudente autorizada |
 | Prevención, igualdad y protección de datos | 23–24 y 28 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
-| Tributación, recaudación y presupuesto local | 25–30 | `GENERACION_DESDE_CERO` | Bancos 25–30 normalizados y trazables; Tema 30 contrastado con el TRLRHL vigente |
-| Firma y servicios electrónicos de confianza | 31 | `GENERACION_DESDE_CERO` | Manual, fuentes, matriz y preguntas disponibles |
-| Windows 11 y GroupWise | 32–34 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
-| LibreOffice 24 | 35–38 | `GENERACION_DESDE_CERO` | Writer, Calc, Base e Impress completos |
-| Ordenador personal y periféricos | 39–40 | `GENERACION_DESDE_CERO` | Hardware y periféricos completos |
+| Tributación, recaudación y presupuesto local | 25–30 | `GENERACION_DESDE_CERO` | Bancos normalizados y trazables; Tema 30 contrastado con el TRLRHL vigente |
+| Firma y servicios electrónicos de confianza | 31 | `GENERACION_DESDE_CERO` | Banco normalizado y trazable |
+| Windows 11 y GroupWise | 32–34 | `GENERACION_DESDE_CERO` | Bancos normalizados y trazables |
+| LibreOffice 24 | 35–38 | `GENERACION_DESDE_CERO` | Writer, Calc, Base e Impress completos y normalizados |
+| Ordenador personal y periféricos | 39–40 | `GENERACION_DESDE_CERO` | Hardware y periféricos completos y normalizados |
 
-El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La validación transversal de bancos de preguntas ha alcanzado el **Tema 30**: estructura común, campo `correcta`, identificadores, justificaciones y referencias internas verificadas. El siguiente banco a revisar es el **Tema 31**.
+El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La normalización transversal de los **40 bancos de preguntas** está completada: raíz común con `tema`, `estado` y `preguntas`; campo `correcta`; identificadores conservados; justificaciones y trampas homogéneas; y referencias internas completas hacia el manual correspondiente.
+
+La capa de presentación admite tanto el esquema normalizado como los nombres heredados `respuestaCorrecta` y `trampaExamen`. La caché del servicio se ha elevado a `opoweb-v2-0.21.1` para forzar la actualización de los recursos en los dispositivos.
+
+No se ha ejecutado el validador local del repositorio por falta de un entorno de clonación operativo. La comprobación realizada en esta fase ha consistido en la recuperación posterior de cada archivo escrito, verificación de su contenido y confirmación de su blob SHA.
 
 ## Mejoras de plataforma
 
@@ -86,12 +90,13 @@ El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La vali
 | Historial y control de versiones Git | Activo |
 | Catálogo de documentos oficiales | En preparación |
 | Copias oficiales verificables | Pendiente, solo para documentos públicos |
-| Tests trazables | Implementados por tema |
+| Tests trazables | Implementados en los **40 temas de Diputación** |
+| Compatibilidad de esquemas de preguntas | Implementada |
 | Supuestos y simulacros transversales | Pendientes de ampliación |
 
 ## Orden de trabajo
 
-1. Continuar la validación transversal de los bancos de preguntas desde el **Tema 31**: esquema `correcta`, identificadores únicos y referencias justificativas.
+1. Ejecutar el validador transversal de Diputación cuando exista un entorno local o CI operativo y corregir cualquier incidencia que detecte.
 2. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable; hasta entonces se mantiene la cautela interpretativa autorizada del Tema 22.
 3. Mantener el seguimiento de la convocatoria de Diputación hasta el cierre del plazo el **31 de julio de 2026** y de sus anuncios sucesivos.
 4. Mantener en seguimiento la convocatoria del **CPEIS Toledo** hasta que el usuario decida si desea presentarse.
