@@ -1,122 +1,114 @@
-[
-  {
-    "id":"DIP-T34-001",
-    "tema":34,
-    "pregunta":"¿Qué atajo abre normalmente el cuadro de impresión en Windows y en la mayoría de aplicaciones?",
-    "opciones":["Ctrl + P","Ctrl + I","Ctrl + E","Ctrl + Mayús + P"],
-    "correcta":0,
-    "justificacion":"Ctrl + P abre el cuadro de impresión de la aplicación activa.",
-    "trampa":"Abrir el cuadro no implica que el trabajo se envíe sin confirmación.",
-    "referencia":"Manual, apartado 4"
-  },
-  {
-    "id":"DIP-T34-002",
-    "tema":34,
-    "pregunta":"¿Cuál es la ruta habitual para agregar una impresora en Windows 11?",
-    "opciones":["Configuración > Bluetooth y dispositivos > Impresoras y escáneres","Explorador > Este equipo > Propiedades","Panel de tareas > Sonido","Configuración > Personalización > Temas"],
-    "correcta":0,
-    "justificacion":"Las impresoras y escáneres se administran desde Bluetooth y dispositivos en Configuración.",
-    "trampa":"Agregar una impresora no la convierte necesariamente en predeterminada.",
-    "referencia":"Manual, apartado 2"
-  },
-  {
-    "id":"DIP-T34-003",
-    "tema":34,
-    "pregunta":"Microsoft Print to PDF sirve para:",
-    "opciones":["Crear un archivo PDF","Enviar siempre el documento a papel","Escanear un PDF","Instalar un controlador de red"],
-    "correcta":0,
-    "justificacion":"Es una impresora virtual que genera un archivo PDF.",
-    "trampa":"No modifica automáticamente el documento original.",
-    "referencia":"Manual, apartado 5"
-  },
-  {
-    "id":"DIP-T34-004",
-    "tema":34,
-    "pregunta":"La cola de impresión permite:",
-    "opciones":["Gestionar trabajos pendientes, pausados o con error","Editar el contenido del documento","Escanear fotografías","Cambiar la resolución del monitor"],
-    "correcta":0,
-    "justificacion":"La cola administra el estado de los trabajos enviados a la impresora.",
-    "trampa":"Cancelar un trabajo puede no detenerlo de inmediato si la impresora ya recibió datos.",
-    "referencia":"Manual, apartado 6"
-  },
-  {
-    "id":"DIP-T34-005",
-    "tema":34,
-    "pregunta":"Si Windows administra automáticamente la impresora predeterminada, puede seleccionar:",
-    "opciones":["La última impresora utilizada","Siempre Microsoft Print to PDF","La impresora con más tinta","La primera instalada"],
-    "correcta":0,
-    "justificacion":"Windows puede usar como predeterminada la última impresora utilizada.",
-    "trampa":"Para fijarla manualmente puede ser necesario desactivar esa administración automática.",
-    "referencia":"Manual, apartado 3"
-  },
-  {
-    "id":"DIP-T34-006",
-    "tema":34,
-    "pregunta":"¿Qué aplicación de Microsoft permite digitalizar documentos en Windows 11?",
-    "opciones":["Escáner de Windows","Bloc de notas","Calculadora","Recortes"],
-    "correcta":0,
-    "justificacion":"La aplicación Escáner de Windows permite seleccionar dispositivo, origen, formato y ubicación.",
-    "trampa":"Detectar una multifunción como impresora no garantiza que el escáner esté operativo.",
-    "referencia":"Manual, apartado 9"
-  },
-  {
-    "id":"DIP-T34-007",
-    "tema":34,
-    "pregunta":"La cama plana de un escáner resulta especialmente adecuada para:",
-    "opciones":["Fotografías o documentos únicos y delicados","Cientos de páginas sin intervención","Imprimir a doble cara","Administrar la cola"],
-    "correcta":0,
-    "justificacion":"La cama plana permite colocar directamente un original único o delicado.",
-    "trampa":"El alimentador es más apropiado para varias páginas consecutivas.",
-    "referencia":"Manual, apartado 9"
-  },
-  {
-    "id":"DIP-T34-008",
-    "tema":34,
-    "pregunta":"Al aumentar la resolución de escaneado en dpi, normalmente:",
-    "opciones":["Aumentan el detalle y el tamaño del archivo","Disminuyen siempre el detalle y el tamaño","El archivo se convierte en PDF obligatoriamente","Desaparece el color"],
-    "correcta":0,
-    "justificacion":"Una resolución mayor capta más detalle y genera archivos más pesados.",
-    "trampa":"Más dpi no siempre aporta una mejora útil para un documento de texto sencillo.",
-    "referencia":"Manual, apartado 11"
-  },
-  {
-    "id":"DIP-T34-009",
-    "tema":34,
-    "pregunta":"¿Qué formato se utiliza habitualmente para documentos digitalizados de varias páginas?",
-    "opciones":["PDF","BMP exclusivamente","EXE","TXT sin imágenes"],
-    "correcta":0,
-    "justificacion":"PDF es habitual para conservar documentos y reunir varias páginas.",
-    "trampa":"La disponibilidad concreta depende de la aplicación y del dispositivo.",
-    "referencia":"Manual, apartado 10"
-  },
-  {
-    "id":"DIP-T34-010",
-    "tema":34,
-    "pregunta":"Una ruta como \\\\servidor\\impresora identifica normalmente:",
-    "opciones":["Una impresora compartida en red","Una carpeta local oculta","Un archivo PDF","Una dirección de correo"],
-    "correcta":0,
-    "justificacion":"Es una ruta UNC que puede identificar un recurso de impresión compartido.",
-    "trampa":"Que esté instalada no asegura disponibilidad si falla la red o el servidor.",
-    "referencia":"Manual, apartado 13"
-  },
-  {
-    "id":"DIP-T34-011",
-    "tema":34,
-    "pregunta":"Para diagnosticar si un problema procede de una aplicación concreta es útil:",
-    "opciones":["Intentar imprimir desde otra aplicación","Borrar siempre todos los documentos","Cambiar la resolución de pantalla","Desinstalar Windows"],
-    "correcta":0,
-    "justificacion":"Imprimir desde otra aplicación ayuda a distinguir un fallo general de uno específico.",
-    "trampa":"Un error en una sola aplicación no demuestra avería física de la impresora.",
-    "referencia":"Manual, apartado 7"
-  },
-  {
-    "id":"DIP-T34-012",
-    "tema":34,
-    "pregunta":"En un entorno administrativo, una medida correcta de seguridad es:",
-    "opciones":["Retirar inmediatamente documentos confidenciales de la bandeja","Guardar escaneos en carpetas públicas","Enviar trabajos a cualquier impresora","Conservar copias innecesarias"],
-    "correcta":0,
-    "justificacion":"Los documentos confidenciales deben controlarse tanto en su impresión como en su almacenamiento digital.",
-    "trampa":"La impresión segura no sustituye el resto de medidas de protección de datos.",
-    "referencia":"Manual, apartado 14"
-  }
-]
+{
+  "tema": 34,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T34-001",
+      "pregunta": "¿Qué atajo abre normalmente el cuadro de impresión en Windows y en la mayoría de aplicaciones?",
+      "opciones": ["Ctrl + P", "Ctrl + I", "Ctrl + E", "Ctrl + Mayús + P"],
+      "correcta": 0,
+      "justificacion": "La combinación Ctrl + P abre normalmente el cuadro de impresión de la aplicación activa.",
+      "trampa": "Abrir el cuadro de impresión no implica que el trabajo se envíe sin confirmación.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#4-cuadro-de-impresión"
+    },
+    {
+      "id": "DIP-T34-002",
+      "pregunta": "¿Cuál es la ruta habitual para agregar una impresora en Windows 11?",
+      "opciones": ["Configuración > Bluetooth y dispositivos > Impresoras y escáneres", "Explorador > Este equipo > Propiedades", "Panel de tareas > Sonido", "Configuración > Personalización > Temas"],
+      "correcta": 0,
+      "justificacion": "Las impresoras y escáneres se administran habitualmente desde Inicio > Configuración > Bluetooth y dispositivos > Impresoras y escáneres.",
+      "trampa": "Agregar una impresora no la convierte necesariamente en la impresora predeterminada.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#2-instalación-de-impresoras"
+    },
+    {
+      "id": "DIP-T34-003",
+      "pregunta": "Microsoft Print to PDF sirve para:",
+      "opciones": ["Crear un archivo PDF", "Enviar siempre el documento a papel", "Escanear un PDF", "Instalar un controlador de red"],
+      "correcta": 0,
+      "justificacion": "Microsoft Print to PDF es una impresora virtual que genera un archivo PDF en lugar de enviar el trabajo a una impresora física.",
+      "trampa": "Imprimir a PDF no modifica automáticamente el documento original.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#5-impresión-a-pdf"
+    },
+    {
+      "id": "DIP-T34-004",
+      "pregunta": "La cola de impresión permite:",
+      "opciones": ["Gestionar trabajos pendientes, pausados o con error", "Editar el contenido del documento", "Escanear fotografías", "Cambiar la resolución del monitor"],
+      "correcta": 0,
+      "justificacion": "La cola de impresión permite comprobar, pausar, reanudar o cancelar trabajos pendientes, en curso o con error.",
+      "trampa": "Cancelar un trabajo puede no detenerlo de inmediato si la impresora ya ha recibido parte de los datos.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#6-cola-de-impresión"
+    },
+    {
+      "id": "DIP-T34-005",
+      "pregunta": "Si Windows administra automáticamente la impresora predeterminada, puede seleccionar:",
+      "opciones": ["La última impresora utilizada", "Siempre Microsoft Print to PDF", "La impresora con más tinta", "La primera instalada"],
+      "correcta": 0,
+      "justificacion": "Cuando la administración automática está activada, Windows puede establecer como predeterminada la última impresora utilizada.",
+      "trampa": "Para fijar manualmente una impresora concreta puede ser necesario desactivar esa administración automática.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#3-impresora-predeterminada"
+    },
+    {
+      "id": "DIP-T34-006",
+      "pregunta": "¿Qué aplicación de Microsoft permite digitalizar documentos en Windows 11?",
+      "opciones": ["Escáner de Windows", "Bloc de notas", "Calculadora", "Recortes"],
+      "correcta": 0,
+      "justificacion": "La aplicación Escáner de Windows permite seleccionar el dispositivo, el origen, el formato, la resolución y la ubicación de guardado para digitalizar documentos e imágenes.",
+      "trampa": "Que una multifunción sea detectada como impresora no garantiza que su función de escáner esté correctamente instalada.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#9-aplicación-escáner-de-windows"
+    },
+    {
+      "id": "DIP-T34-007",
+      "pregunta": "La cama plana de un escáner resulta especialmente adecuada para:",
+      "opciones": ["Fotografías o documentos únicos y delicados", "Cientos de páginas sin intervención", "Imprimir a doble cara", "Administrar la cola"],
+      "correcta": 0,
+      "justificacion": "La cama plana permite colocar directamente fotografías, documentos únicos o materiales delicados para su digitalización.",
+      "trampa": "El alimentador automático resulta más apropiado para varias páginas consecutivas.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#orígenes-de-digitalización"
+    },
+    {
+      "id": "DIP-T34-008",
+      "pregunta": "Al aumentar la resolución de escaneado en dpi, normalmente:",
+      "opciones": ["Aumentan el detalle y el tamaño del archivo", "Disminuyen siempre el detalle y el tamaño", "El archivo se convierte en PDF obligatoriamente", "Desaparece el color"],
+      "correcta": 0,
+      "justificacion": "Una resolución mayor capta más detalle potencial, pero también aumenta normalmente el tamaño del archivo y el tiempo de digitalización.",
+      "trampa": "Más dpi no siempre aporta una mejora útil para un documento de texto sencillo.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#11-resolución-y-color"
+    },
+    {
+      "id": "DIP-T34-009",
+      "pregunta": "¿Qué formato se utiliza habitualmente para documentos digitalizados de varias páginas?",
+      "opciones": ["PDF", "BMP exclusivamente", "EXE", "TXT sin imágenes"],
+      "correcta": 0,
+      "justificacion": "El formato PDF se utiliza habitualmente para conservar documentos digitalizados y reunir varias páginas en un solo archivo.",
+      "trampa": "La disponibilidad concreta de cada formato depende de la aplicación y del dispositivo.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#10-formatos-de-archivo"
+    },
+    {
+      "id": "DIP-T34-010",
+      "pregunta": "Una ruta como \\servidor\impresora identifica normalmente:",
+      "opciones": ["Una impresora compartida en red", "Una carpeta local oculta", "Un archivo PDF", "Una dirección de correo"],
+      "correcta": 0,
+      "justificacion": "Una ruta UNC del tipo \\servidor\impresora puede identificar una impresora compartida o un recurso de impresión en red.",
+      "trampa": "Que la impresora esté instalada no garantiza su disponibilidad si falla la red o el servidor.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#13-impresión-y-escaneado-en-red"
+    },
+    {
+      "id": "DIP-T34-011",
+      "pregunta": "Para diagnosticar si un problema procede de una aplicación concreta es útil:",
+      "opciones": ["Intentar imprimir desde otra aplicación", "Borrar siempre todos los documentos", "Cambiar la resolución de pantalla", "Desinstalar Windows"],
+      "correcta": 0,
+      "justificacion": "Intentar imprimir desde otra aplicación ayuda a distinguir un fallo general del sistema de impresión de un problema específico de la aplicación inicial.",
+      "trampa": "Un error producido en una sola aplicación no demuestra por sí mismo una avería física de la impresora.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#7-problemas-frecuentes-de-impresión"
+    },
+    {
+      "id": "DIP-T34-012",
+      "pregunta": "En un entorno administrativo, una medida correcta de seguridad es:",
+      "opciones": ["Retirar inmediatamente documentos confidenciales de la bandeja", "Guardar escaneos en carpetas públicas", "Enviar trabajos a cualquier impresora", "Conservar copias innecesarias"],
+      "correcta": 0,
+      "justificacion": "Los documentos confidenciales deben retirarse de inmediato de la bandeja y controlarse tanto durante la impresión como en su almacenamiento digital.",
+      "trampa": "La impresión segura no sustituye las demás medidas de protección de datos y control de acceso.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#14-seguridad-y-protección-de-datos"
+    }
+  ]
+}
