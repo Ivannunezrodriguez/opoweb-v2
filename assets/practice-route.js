@@ -28,6 +28,13 @@ new MutationObserver(openRequestedTheme).observe(app, {
   subtree: true
 });
 
+app.addEventListener('change', event => {
+  const selector = event.target.closest('#practice-call-selector');
+  if (!selector) return;
+  opened = true;
+  history.replaceState(null, '', practiceUrl(selector.value));
+});
+
 app.addEventListener('click', event => {
   const back = event.target.closest('#practice-back');
   if (!back) return;
