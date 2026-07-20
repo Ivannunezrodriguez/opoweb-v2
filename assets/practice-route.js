@@ -3,6 +3,13 @@ const requestedTheme = Number(params.get('tema'));
 const requestedCall = params.get('convocatoria');
 let opened = false;
 
+function practiceUrl(callId, theme = null) {
+  const query = new URLSearchParams();
+  if (callId) query.set('convocatoria', callId);
+  if (Number.isInteger(theme) && theme > 0) query.set('tema', String(theme));
+  return `practice.html?${query.toString()}`;
+}
+
 function openRequestedTheme() {
   if (opened || !Number.isInteger(requestedTheme) || requestedTheme < 1) return;
   const selector = document.querySelector('#practice-call-selector');
@@ -11,16 +18,21 @@ function openRequestedTheme() {
   if (!button) return;
   opened = true;
   const callId = requestedCall || selector?.value;
-  const query = new URLSearchParams();
-  if (callId) query.set('convocatoria', callId);
-  query.set('tema', String(requestedTheme));
-  history.replaceState(null, '', `practice.html?${query.toString()}`);
+  history.replaceState(null, '', practiceUrl(callId, requestedTheme));
   button.click();
 }
 
-new MutationObserver(openRequestedTheme).observe(document.querySelector('#practice-app'), {
+const app = document.querySelector('#practice-app');
+new MutationObserver(openRequestedTheme).observe(app, {
   childList: true,
   subtree: true
+});
+
+app.addEventListener('click', event => {
+  const back = event.target.closest('#practice-back');
+  if (!back) return;
+  const callId = localStorage.getItem('opoweb-selected-convocatoria') || requestedCall;
+  history.replaceState(null, '', practiceUrl(callId));
 });
 
 openRequestedTheme();
