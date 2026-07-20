@@ -19,7 +19,7 @@ const CALLS = [
     shortLabel: 'Diputación de Toledo · C1',
     programmeUrl: 'data/programa-diputacion-administrativo-2026.json',
     contentRoot: 'content/diputacion-toledo',
-    availableThemes: 25,
+    availableThemes: 40,
     practiceUrl: null
   }
 ];
