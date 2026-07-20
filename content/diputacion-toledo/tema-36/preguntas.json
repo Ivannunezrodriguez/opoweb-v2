@@ -1,122 +1,114 @@
-[
-  {
-    "id":"DIP-T36-001",
-    "tema":36,
-    "pregunta":"¿Cuál es el formato nativo de LibreOffice Calc?",
-    "opciones":["ODT","ODS","ODP","CSV"],
-    "correcta":1,
-    "justificacion":"ODS es el formato nativo de las hojas de cálculo de LibreOffice Calc.",
-    "trampa":"ODT corresponde a Writer y ODP a Impress.",
-    "referencia":"Manual, apartado 1"
-  },
-  {
-    "id":"DIP-T36-002",
-    "tema":36,
-    "pregunta":"Toda fórmula introducida en Calc comienza por:",
-    "opciones":["#","=","$","@"],
-    "correcta":1,
-    "justificacion":"Las fórmulas de Calc comienzan por el signo igual.",
-    "trampa":"El signo $ se utiliza para fijar referencias, no para iniciar fórmulas.",
-    "referencia":"Manual, apartado 5"
-  },
-  {
-    "id":"DIP-T36-003",
-    "tema":36,
-    "pregunta":"¿Cuál de las siguientes es una referencia absoluta?",
-    "opciones":["A1","$A1","A$1","$A$1"],
-    "correcta":3,
-    "justificacion":"$A$1 fija tanto la columna como la fila.",
-    "trampa":"$A1 y A$1 son referencias mixtas.",
-    "referencia":"Manual, apartado 6"
-  },
-  {
-    "id":"DIP-T36-004",
-    "tema":36,
-    "pregunta":"Al copiar una fórmula con referencia A1, dicha referencia:",
-    "opciones":["Nunca cambia","Cambia de forma relativa","Se convierte siempre en absoluta","Produce un error"],
-    "correcta":1,
-    "justificacion":"A1 es una referencia relativa y se adapta a la nueva posición al copiarse.",
-    "trampa":"Solo una referencia absoluta permanece fija por completo.",
-    "referencia":"Manual, apartado 6"
-  },
-  {
-    "id":"DIP-T36-005",
-    "tema":36,
-    "pregunta":"¿Qué función cuenta únicamente celdas con valores numéricos?",
-    "opciones":["CONTARA","CONTAR","SUMA","PROMEDIO"],
-    "correcta":1,
-    "justificacion":"CONTAR cuenta celdas numéricas; CONTARA cuenta celdas no vacías.",
-    "trampa":"CONTARA incluye texto y otros contenidos no vacíos.",
-    "referencia":"Manual, apartado 7"
-  },
-  {
-    "id":"DIP-T36-006",
-    "tema":36,
-    "pregunta":"¿Cuál es el resultado de =1+2*3?",
-    "opciones":["9","7","6","5"],
-    "correcta":1,
-    "justificacion":"La multiplicación se realiza antes que la suma: 2*3=6 y 1+6=7.",
-    "trampa":"Para obtener 9 sería necesario escribir =(1+2)*3.",
-    "referencia":"Manual, apartado 5"
-  },
-  {
-    "id":"DIP-T36-007",
-    "tema":36,
-    "pregunta":"La tecla F4, mientras se edita una fórmula, sirve para:",
-    "opciones":["Cerrar el libro","Alternar tipos de referencia","Abrir la impresión","Insertar una hoja"],
-    "correcta":1,
-    "justificacion":"F4 alterna referencias relativas, absolutas y mixtas.",
-    "trampa":"F2 edita la celda; no debe confundirse con F4.",
-    "referencia":"Manual, apartado 6"
-  },
-  {
-    "id":"DIP-T36-008",
-    "tema":36,
-    "pregunta":"¿Qué efecto produce un filtro sobre los registros que no cumplen el criterio?",
-    "opciones":["Los borra","Los oculta temporalmente","Los mueve a otra hoja","Los convierte en texto"],
-    "correcta":1,
-    "justificacion":"El filtro oculta temporalmente las filas que no cumplen los criterios.",
-    "trampa":"Filtrar y eliminar son operaciones distintas.",
-    "referencia":"Manual, apartado 10"
-  },
-  {
-    "id":"DIP-T36-009",
-    "tema":36,
-    "pregunta":"El error #DIV/0! indica normalmente:",
-    "opciones":["Una división entre cero","Una referencia absoluta","Un archivo protegido","Una hoja oculta"],
-    "correcta":0,
-    "justificacion":"#DIV/0! aparece cuando una fórmula intenta dividir entre cero o entre una celda vacía equivalente.",
-    "trampa":"No es un error de formato ni de protección.",
-    "referencia":"Manual, apartado 8"
-  },
-  {
-    "id":"DIP-T36-010",
-    "tema":36,
-    "pregunta":"Para que la propiedad de celda protegida sea efectiva debe:",
-    "opciones":["Guardarse como CSV","Protegerse también la hoja","Exportarse a PDF","Ocultarse la fórmula"],
-    "correcta":1,
-    "justificacion":"La protección de celdas solo se aplica cuando la hoja está protegida.",
-    "trampa":"Marcar la celda como protegida sin proteger la hoja no basta.",
-    "referencia":"Manual, apartado 15"
-  },
-  {
-    "id":"DIP-T36-011",
-    "tema":36,
-    "pregunta":"¿Qué característica NO conserva normalmente un archivo CSV?",
-    "opciones":["Datos tabulares","Separadores de campos","Varias hojas y gráficos","Filas de texto"],
-    "correcta":2,
-    "justificacion":"CSV almacena datos tabulares simples, pero no conserva varias hojas, estilos, fórmulas como tales ni gráficos.",
-    "trampa":"CSV no es un formato completo de libro de cálculo.",
-    "referencia":"Manual, apartado 16"
-  },
-  {
-    "id":"DIP-T36-012",
-    "tema":36,
-    "pregunta":"¿Qué atajo abre el cuadro de formato de celdas?",
-    "opciones":["Ctrl + 1","Ctrl + F2","Ctrl + H","Ctrl + P"],
-    "correcta":0,
-    "justificacion":"Ctrl + 1 abre el cuadro de formato de celdas.",
-    "trampa":"Ctrl + F2 abre el asistente de funciones y Ctrl + P imprime.",
-    "referencia":"Manual, apartado 17"
-  }
-]
+{
+  "tema": 36,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T36-001",
+      "pregunta": "¿Cuál es el formato nativo de LibreOffice Calc?",
+      "opciones": ["ODT", "ODS", "ODP", "CSV"],
+      "correcta": 1,
+      "justificacion": "ODS es el formato nativo de los libros de hojas de cálculo de LibreOffice Calc.",
+      "trampa": "ODT corresponde a Writer y ODP a Impress; CSV no es un formato completo de libro de cálculo.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#1-concepto-y-finalidad"
+    },
+    {
+      "id": "DIP-T36-002",
+      "pregunta": "Toda fórmula introducida en Calc comienza por:",
+      "opciones": ["#", "=", "$", "@"],
+      "correcta": 1,
+      "justificacion": "Todas las fórmulas introducidas en LibreOffice Calc comienzan con el signo igual (=).",
+      "trampa": "El signo $ sirve para fijar filas o columnas en las referencias, pero no para iniciar una fórmula.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#5-fórmulas-y-operadores"
+    },
+    {
+      "id": "DIP-T36-003",
+      "pregunta": "¿Cuál de las siguientes es una referencia absoluta?",
+      "opciones": ["A1", "$A1", "A$1", "$A$1"],
+      "correcta": 3,
+      "justificacion": "$A$1 es una referencia absoluta porque fija tanto la columna A como la fila 1.",
+      "trampa": "$A1 y A$1 son referencias mixtas: la primera fija solo la columna y la segunda solo la fila.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#6-referencias-relativas-absolutas-y-mixtas"
+    },
+    {
+      "id": "DIP-T36-004",
+      "pregunta": "Al copiar una fórmula con referencia A1, dicha referencia:",
+      "opciones": ["Nunca cambia", "Cambia de forma relativa", "Se convierte siempre en absoluta", "Produce un error"],
+      "correcta": 1,
+      "justificacion": "A1 es una referencia relativa, por lo que su fila y su columna se adaptan a la nueva posición cuando se copia la fórmula.",
+      "trampa": "Solo una referencia absoluta como $A$1 permanece completamente fija al copiarse.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#6-referencias-relativas-absolutas-y-mixtas"
+    },
+    {
+      "id": "DIP-T36-005",
+      "pregunta": "¿Qué función cuenta únicamente celdas con valores numéricos?",
+      "opciones": ["CONTARA", "CONTAR", "SUMA", "PROMEDIO"],
+      "correcta": 1,
+      "justificacion": "La función CONTAR cuenta las celdas que contienen valores numéricos, mientras que CONTARA cuenta las celdas no vacías.",
+      "trampa": "CONTARA también incluye texto y otros contenidos no vacíos; no se limita a números.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#7-funciones-esenciales"
+    },
+    {
+      "id": "DIP-T36-006",
+      "pregunta": "¿Cuál es el resultado de =1+2*3?",
+      "opciones": ["9", "7", "6", "5"],
+      "correcta": 1,
+      "justificacion": "Calc aplica la prioridad de operadores: primero realiza 2*3=6 y después suma 1, por lo que el resultado es 7.",
+      "trampa": "Para obtener 9 habría que alterar la prioridad mediante paréntesis: =(1+2)*3.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#5-fórmulas-y-operadores"
+    },
+    {
+      "id": "DIP-T36-007",
+      "pregunta": "La tecla F4, mientras se edita una fórmula, sirve para:",
+      "opciones": ["Cerrar el libro", "Alternar tipos de referencia", "Abrir la impresión", "Insertar una hoja"],
+      "correcta": 1,
+      "justificacion": "Mientras se edita una fórmula, F4 alterna entre referencias relativas, absolutas y mixtas.",
+      "trampa": "F2 se utiliza para editar el contenido de la celda; no debe confundirse con F4.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#6-referencias-relativas-absolutas-y-mixtas"
+    },
+    {
+      "id": "DIP-T36-008",
+      "pregunta": "¿Qué efecto produce un filtro sobre los registros que no cumplen el criterio?",
+      "opciones": ["Los borra", "Los oculta temporalmente", "Los mueve a otra hoja", "Los convierte en texto"],
+      "correcta": 1,
+      "justificacion": "Un filtro oculta temporalmente las filas cuyos registros no cumplen los criterios seleccionados.",
+      "trampa": "Filtrar y eliminar son operaciones distintas: los datos excluidos continúan almacenados en la hoja.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#10-ordenación-y-filtros"
+    },
+    {
+      "id": "DIP-T36-009",
+      "pregunta": "El error #DIV/0! indica normalmente:",
+      "opciones": ["Una división entre cero", "Una referencia absoluta", "Un archivo protegido", "Una hoja oculta"],
+      "correcta": 0,
+      "justificacion": "El error #DIV/0! aparece cuando una fórmula intenta dividir entre cero o entre una celda vacía que actúa como divisor nulo.",
+      "trampa": "No es un error de formato, protección ni visibilidad de la hoja.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#8-errores-frecuentes"
+    },
+    {
+      "id": "DIP-T36-010",
+      "pregunta": "Para que la propiedad de celda protegida sea efectiva debe:",
+      "opciones": ["Guardarse como CSV", "Protegerse también la hoja", "Exportarse a PDF", "Ocultarse la fórmula"],
+      "correcta": 1,
+      "justificacion": "La propiedad de celda protegida solo produce efecto cuando se protege también la hoja correspondiente.",
+      "trampa": "Marcar una celda como protegida sin activar la protección de la hoja no basta.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#15-protección"
+    },
+    {
+      "id": "DIP-T36-011",
+      "pregunta": "¿Qué característica NO conserva normalmente un archivo CSV?",
+      "opciones": ["Datos tabulares", "Separadores de campos", "Varias hojas y gráficos", "Filas de texto"],
+      "correcta": 2,
+      "justificacion": "CSV almacena datos tabulares simples separados por delimitadores, pero no conserva varias hojas, estilos, fórmulas como tales ni gráficos.",
+      "trampa": "CSV no es un formato completo de libro de cálculo como ODS o XLSX.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#16-importación-exportación-y-compatibilidad"
+    },
+    {
+      "id": "DIP-T36-012",
+      "pregunta": "¿Qué atajo abre el cuadro de formato de celdas?",
+      "opciones": ["Ctrl + 1", "Ctrl + F2", "Ctrl + H", "Ctrl + P"],
+      "correcta": 0,
+      "justificacion": "La combinación Ctrl + 1 abre el cuadro de formato de celdas en LibreOffice Calc.",
+      "trampa": "Ctrl + F2 abre el asistente de funciones, Ctrl + H abre Buscar y reemplazar y Ctrl + P abre la impresión.",
+      "referencia": "content/diputacion-toledo/tema-36/manual.md#17-atajos-esenciales"
+    }
+  ]
+}
