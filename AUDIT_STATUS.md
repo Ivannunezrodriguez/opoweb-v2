@@ -20,6 +20,8 @@ Estado editorial: **40 de 40 temas** disponen de manual, fuentes, matriz de cobe
 
 Los **40 temas** están habilitados en la interfaz pública de OpoWeb y se incluyen en la precarga opcional del servicio para su disponibilidad offline.
 
+El centro de entrenamiento de Diputación está integrado en la interfaz común y dispone actualmente de **40 tests por tema**, **5 supuestos prácticos** con **10 cuestiones resueltas** y **3 simulacros transversales** con **36 preguntas**.
+
 El **Tema 22** mantiene una reconstrucción interpretativa prudente expresamente autorizada. No se presentan como literales extremos estatutarios que no hayan podido comprobarse en una fuente oficial íntegra.
 
 ### CPEIS Toledo · Auxiliar Administrativo C2 y Administrativo C1
@@ -77,7 +79,9 @@ El temario base queda cerrado para la fase de tests, supuestos prácticos y simu
 
 El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La normalización transversal de los **40 bancos de preguntas** está completada: raíz común con `tema`, `estado` y `preguntas`; campo `correcta`; identificadores conservados; justificaciones y trampas homogéneas; y referencias internas completas hacia el manual correspondiente.
 
-La capa de presentación admite tanto el esquema normalizado como los nombres heredados `respuestaCorrecta` y `trampaExamen`. La configuración de Diputación publica los **40 temas** y el servicio los incorpora a la precarga opcional. La caché se ha elevado a `opoweb-v2-0.21.2` para forzar la actualización de los recursos en los dispositivos.
+La capa de presentación admite tanto el esquema normalizado como los nombres heredados `respuestaCorrecta` y `trampaExamen`. La práctica utiliza un selector de convocatoria, historial independiente por oposición, acceso directo desde cada tema y corrección con justificación, trampa y referencia.
+
+La configuración de Diputación publica los **40 temas** y el servicio incorpora a la precarga opcional los manuales, bancos de preguntas, supuestos y simulacros. La caché se ha elevado a `opoweb-v2-0.21.3` para forzar la actualización de los recursos en los dispositivos.
 
 No se ha ejecutado el validador local del repositorio por falta de un entorno de clonación operativo. La comprobación realizada en esta fase ha consistido en la recuperación posterior de cada archivo escrito, verificación de su contenido y confirmación de su blob SHA.
 
@@ -96,12 +100,17 @@ No se ha ejecutado el validador local del repositorio por falta de un entorno de
 | Compatibilidad de esquemas de preguntas | Implementada |
 | Publicación de los **40 temas de Diputación** | Implementada |
 | Precarga offline de los **40 temas de Diputación** | Implementada |
-| Supuestos y simulacros transversales | Pendientes de ampliación |
+| Selector de convocatoria en práctica | Implementado |
+| Historial independiente por convocatoria | Implementado |
+| Supuestos de Diputación | **5 supuestos / 10 cuestiones**, implementados |
+| Simulacros de Diputación | **3 simulacros / 36 preguntas**, implementados |
+| Ampliación de supuestos y simulacros | Pendiente |
 
 ## Orden de trabajo
 
-1. Ejecutar el validador transversal de Diputación cuando exista un entorno local o CI operativo y corregir cualquier incidencia que detecte.
-2. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable; hasta entonces se mantiene la cautela interpretativa autorizada del Tema 22.
-3. Mantener el seguimiento de la convocatoria de Diputación hasta el cierre del plazo el **31 de julio de 2026** y de sus anuncios sucesivos.
-4. Mantener en seguimiento la convocatoria del **CPEIS Toledo** hasta que el usuario decida si desea presentarse.
-5. Crear supuestos prácticos y simulacros transversales con trazabilidad por tema y fuente.
+1. Revisar funcionalmente en navegador la selección de convocatoria, los tests por tema, los supuestos abiertos, los simulacros y la persistencia separada del historial.
+2. Ejecutar el validador transversal de Diputación cuando exista un entorno local o CI operativo y corregir cualquier incidencia que detecte.
+3. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable; hasta entonces se mantiene la cautela interpretativa autorizada del Tema 22.
+4. Mantener el seguimiento de la convocatoria de Diputación hasta el cierre del plazo el **31 de julio de 2026** y de sus anuncios sucesivos.
+5. Mantener en seguimiento la convocatoria del **CPEIS Toledo** hasta que el usuario decida si desea presentarse.
+6. Ampliar los supuestos prácticos y simulacros transversales con trazabilidad por tema y fuente.
