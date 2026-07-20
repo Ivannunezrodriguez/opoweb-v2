@@ -1,5 +1,5 @@
 {
-  "actualizadoEl": "2026-07-19",
+  "actualizadoEl": "2026-07-20",
   "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará. Las convocatorias descartadas no reciben desarrollo editorial ni mantenimiento activo.",
   "convocatorias": [
     {
@@ -31,7 +31,7 @@
         "hasta": "2026-07-31",
         "estado": "ABIERTO"
       },
-      "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1804/6577/rrhh-seleccion-convocatoria/1",
+      "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1961/7080/rrhh-seleccion-convocatoria/1",
       "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22"
     },
     {
@@ -50,6 +50,29 @@
       "estadoUsuario": "INSCRITO",
       "prioridad": 4,
       "estadoEditorial": "MANTENIMIENTO"
+    },
+    {
+      "id": "cpeis-toledo-auxiliar-administrativo-2026",
+      "nombre": "CPEIS Toledo · Auxiliar Administrativo C2 y Administrativo C1",
+      "estadoUsuario": "PENDIENTE_DECISION",
+      "prioridad": null,
+      "estadoEditorial": "SOLO_SEGUIMIENTO",
+      "plazasTurnoLibre": {
+        "auxiliarAdministrativo": 4,
+        "administrativo": 1
+      },
+      "sistema": "OPOSICION_LIBRE",
+      "fuentePrincipal": "BOP de Toledo número 116, de 23 de junio de 2026",
+      "publicacionBOE": {
+        "referencia": "BOE-A-2026-14923",
+        "numero": 166,
+        "fecha": "2026-07-09"
+      },
+      "plazoSolicitudes": {
+        "regla": "20 días hábiles desde el día siguiente a la publicación en el BOE",
+        "estado": "ABIERTO_O_PENDIENTE_DE_CIERRE_SEGUN_CALENDARIO_HABIL"
+      },
+      "nota": "Convocatoria oficial detectada; no se inicia desarrollo editorial hasta que el usuario confirme si desea presentarse."
     },
     {
       "id": "las-ventas-auxiliar-2026",
