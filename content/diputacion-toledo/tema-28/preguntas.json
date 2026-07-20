@@ -1,122 +1,114 @@
-[
-  {
-    "id": "DIP-T28-001",
-    "tema": 28,
-    "pregunta": "¿Qué se considera dato personal?",
-    "opciones": ["Solo el nombre y apellidos", "Toda información sobre una persona física identificada o identificable", "Únicamente los datos sanitarios", "Solo los datos incluidos en un fichero automatizado"],
-    "correcta": 1,
-    "justificacion": "El RGPD considera dato personal toda información sobre una persona física identificada o identificable.",
-    "trampa": "El concepto no se limita a nombres ni a tratamientos automatizados.",
-    "referencia": "Manual, apartado 2.1"
-  },
-  {
-    "id": "DIP-T28-002",
-    "tema": 28,
-    "pregunta": "¿Cuál de los siguientes es un principio de protección de datos?",
-    "opciones": ["Acumulación ilimitada", "Minimización de datos", "Conservación indefinida", "Cesión libre entre Administraciones"],
-    "correcta": 1,
-    "justificacion": "La minimización exige que los datos sean adecuados, pertinentes y limitados a lo necesario.",
-    "trampa": "La responsabilidad proactiva no autoriza a conservar o comunicar datos sin límite.",
-    "referencia": "Manual, apartado 3"
-  },
-  {
-    "id": "DIP-T28-003",
-    "tema": 28,
-    "pregunta": "En España, el menor puede prestar por sí mismo el consentimiento para el tratamiento de sus datos, con carácter general, desde los:",
-    "opciones": ["12 años", "13 años", "14 años", "16 años"],
-    "correcta": 2,
-    "justificacion": "La LOPDGDD fija con carácter general la edad de 14 años.",
-    "trampa": "No trasladar automáticamente la edad de 16 años prevista como referencia máxima en el RGPD.",
-    "referencia": "Manual, apartado 4"
-  },
-  {
-    "id": "DIP-T28-004",
-    "tema": 28,
-    "pregunta": "El plazo ordinario para responder al ejercicio de derechos de protección de datos es de:",
-    "opciones": ["10 días", "15 días", "1 mes", "3 meses"],
-    "correcta": 2,
-    "justificacion": "El responsable debe responder sin dilación indebida y, como máximo, en un mes.",
-    "trampa": "La ampliación posible es de dos meses adicionales, no un plazo ordinario de tres meses.",
-    "referencia": "Manual, apartado 6"
-  },
-  {
-    "id": "DIP-T28-005",
-    "tema": 28,
-    "pregunta": "Cuando una brecha de datos deba notificarse a la autoridad de control, el plazo de referencia es de:",
-    "opciones": ["24 horas", "48 horas", "72 horas", "1 mes"],
-    "correcta": 2,
-    "justificacion": "La notificación debe realizarse sin dilación indebida y, de ser posible, dentro de 72 horas desde que se tenga constancia.",
-    "trampa": "El plazo no es absoluto: la obligación depende de que la brecha pueda entrañar riesgo.",
-    "referencia": "Manual, apartado 8"
-  },
-  {
-    "id": "DIP-T28-006",
-    "tema": 28,
-    "pregunta": "La Agencia Española de Protección de Datos es:",
-    "opciones": ["Una dirección general ministerial", "Una autoridad administrativa independiente", "Un órgano judicial", "Una entidad privada de certificación"],
-    "correcta": 1,
-    "justificacion": "La AEPD es una autoridad administrativa independiente con personalidad jurídica propia.",
-    "trampa": "No depende jerárquicamente de un ministerio en el ejercicio de sus funciones.",
-    "referencia": "Manual, apartado 9"
-  },
-  {
-    "id": "DIP-T28-007",
-    "tema": 28,
-    "pregunta": "¿Cuál de las siguientes es una función de la AEPD?",
-    "opciones": ["Aprobar leyes orgánicas", "Investigar infracciones y adoptar medidas correctivas", "Resolver recursos contencioso-administrativos", "Gestionar el padrón municipal"],
-    "correcta": 1,
-    "justificacion": "La AEPD supervisa la normativa, investiga, atiende reclamaciones y adopta medidas correctivas y sancionadoras.",
-    "trampa": "Sus potestades son administrativas, no legislativas ni jurisdiccionales.",
-    "referencia": "Manual, apartado 9"
-  },
-  {
-    "id": "DIP-T28-008",
-    "tema": 28,
-    "pregunta": "La publicidad activa consiste en:",
-    "opciones": ["Publicar información sin necesidad de solicitud previa", "Responder exclusivamente a solicitudes individuales", "Remitir toda la información al juzgado", "Publicar únicamente normas con rango de ley"],
-    "correcta": 0,
-    "justificacion": "La publicidad activa obliga a publicar periódicamente información relevante sin esperar una solicitud.",
-    "trampa": "No debe confundirse con el derecho de acceso, que se inicia a petición de una persona.",
-    "referencia": "Manual, apartados 10 y 11"
-  },
-  {
-    "id": "DIP-T28-009",
-    "tema": 28,
-    "pregunta": "Quienes prestan servicios públicos o ejercen potestades administrativas deben suministrar información para cumplir la Ley 19/2013:",
-    "opciones": ["Siempre de oficio a cualquier ciudadano", "Previo requerimiento de la Administración u organismo vinculado", "Solo mediante sentencia", "Únicamente cuando sean empleados públicos"],
-    "correcta": 1,
-    "justificacion": "La obligación de suministro opera previo requerimiento del sujeto público obligado.",
-    "trampa": "Suministrar información al sujeto público no equivale necesariamente a publicarla directamente.",
-    "referencia": "Manual, apartado 12"
-  },
-  {
-    "id": "DIP-T28-010",
-    "tema": 28,
-    "pregunta": "La resolución de una solicitud de acceso a información pública debe notificarse, con carácter general, en:",
-    "opciones": ["10 días", "15 días", "1 mes", "3 meses"],
-    "correcta": 2,
-    "justificacion": "La Ley 19/2013 fija un plazo máximo de un mes, ampliable por otro mes cuando el volumen o complejidad lo justifiquen.",
-    "trampa": "No confundir con el plazo de un mes más dos meses de los derechos del RGPD.",
-    "referencia": "Manual, apartado 13"
-  },
-  {
-    "id": "DIP-T28-011",
-    "tema": 28,
-    "pregunta": "El silencio en el procedimiento estatal de acceso a la información pública es:",
-    "opciones": ["Estimatorio", "Desestimatorio", "Inexistente", "Suspensivo"],
-    "correcta": 1,
-    "justificacion": "Transcurrido el plazo máximo sin resolución expresa, la solicitud se entiende desestimada.",
-    "trampa": "No aplicar por analogía la regla general de silencio positivo de otros procedimientos.",
-    "referencia": "Manual, apartado 13"
-  },
-  {
-    "id": "DIP-T28-012",
-    "tema": 28,
-    "pregunta": "¿Cuál de las siguientes conductas responde a los principios de buen gobierno?",
-    "opciones": ["Aceptar regalos que excedan los usos sociales", "Usar el cargo para obtener ventajas personales", "Comunicar conflictos de intereses y actuar con imparcialidad", "Ocultar información pública relevante"],
-    "correcta": 2,
-    "justificacion": "El buen gobierno exige imparcialidad, prevención de conflictos de intereses, transparencia y adecuada gestión de recursos.",
-    "trampa": "Buen gobierno no se limita a cumplir obligaciones de publicidad activa.",
-    "referencia": "Manual, apartado 15"
-  }
-]
+{
+  "tema": 28,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T28-001",
+      "pregunta": "¿Qué se considera dato personal?",
+      "opciones": ["Solo el nombre y apellidos", "Toda información sobre una persona física identificada o identificable", "Únicamente los datos sanitarios", "Solo los datos incluidos en un fichero automatizado"],
+      "correcta": 1,
+      "justificacion": "El RGPD considera dato personal toda información sobre una persona física identificada o identificable.",
+      "trampa": "El concepto no se limita al nombre y apellidos ni a los tratamientos automatizados.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#21-dato-personal"
+    },
+    {
+      "id": "DIP-T28-002",
+      "pregunta": "¿Cuál de los siguientes es un principio de protección de datos?",
+      "opciones": ["Acumulación ilimitada", "Minimización de datos", "Conservación indefinida", "Cesión libre entre Administraciones"],
+      "correcta": 1,
+      "justificacion": "El principio de minimización exige que los datos sean adecuados, pertinentes y limitados a lo necesario para los fines del tratamiento.",
+      "trampa": "La responsabilidad proactiva no autoriza a conservar o comunicar datos sin límite.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#3-principios-de-protección-de-datos"
+    },
+    {
+      "id": "DIP-T28-003",
+      "pregunta": "En España, el menor puede prestar por sí mismo el consentimiento para el tratamiento de sus datos, con carácter general, desde los:",
+      "opciones": ["12 años", "13 años", "14 años", "16 años"],
+      "correcta": 2,
+      "justificacion": "La Ley Orgánica 3/2018 fija, con carácter general, en 14 años la edad a partir de la cual el menor puede consentir por sí mismo el tratamiento de sus datos.",
+      "trampa": "No debe trasladarse automáticamente la referencia de 16 años prevista por el RGPD como límite máximo para los Estados miembros.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#consentimiento-de-menores"
+    },
+    {
+      "id": "DIP-T28-004",
+      "pregunta": "El plazo ordinario para responder al ejercicio de derechos de protección de datos es de:",
+      "opciones": ["10 días", "15 días", "1 mes", "3 meses"],
+      "correcta": 2,
+      "justificacion": "El responsable debe responder sin dilación indebida y, como máximo, en 1 mes desde la recepción de la solicitud.",
+      "trampa": "La ampliación posible es de 2 meses adicionales; no convierte el plazo ordinario en 3 meses.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#6-derechos-de-las-personas"
+    },
+    {
+      "id": "DIP-T28-005",
+      "pregunta": "Cuando una brecha de datos deba notificarse a la autoridad de control, el plazo de referencia es de:",
+      "opciones": ["24 horas", "48 horas", "72 horas", "1 mes"],
+      "correcta": 2,
+      "justificacion": "La notificación debe realizarse sin dilación indebida y, de ser posible, dentro de las 72 horas desde que el responsable tenga constancia de la brecha.",
+      "trampa": "El plazo no opera de forma automática: la obligación depende de que la brecha pueda entrañar riesgo para los derechos y libertades.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#8-seguridad-y-violaciones-de-datos"
+    },
+    {
+      "id": "DIP-T28-006",
+      "pregunta": "La Agencia Española de Protección de Datos es:",
+      "opciones": ["Una dirección general ministerial", "Una autoridad administrativa independiente", "Un órgano judicial", "Una entidad privada de certificación"],
+      "correcta": 1,
+      "justificacion": "La Agencia Española de Protección de Datos es una autoridad administrativa independiente con personalidad jurídica propia y plena capacidad pública y privada.",
+      "trampa": "No depende jerárquicamente de un ministerio en el ejercicio de sus funciones.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#9-agencia-española-de-protección-de-datos"
+    },
+    {
+      "id": "DIP-T28-007",
+      "pregunta": "¿Cuál de las siguientes es una función de la AEPD?",
+      "opciones": ["Aprobar leyes orgánicas", "Investigar infracciones y adoptar medidas correctivas", "Resolver recursos contencioso-administrativos", "Gestionar el padrón municipal"],
+      "correcta": 1,
+      "justificacion": "La AEPD supervisa la normativa de protección de datos, atiende reclamaciones, investiga posibles infracciones y puede adoptar medidas correctivas y sancionadoras.",
+      "trampa": "Sus potestades son administrativas, no legislativas ni jurisdiccionales.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#funciones-y-potestades"
+    },
+    {
+      "id": "DIP-T28-008",
+      "pregunta": "La publicidad activa consiste en:",
+      "opciones": ["Publicar información sin necesidad de solicitud previa", "Responder exclusivamente a solicitudes individuales", "Remitir toda la información al juzgado", "Publicar únicamente normas con rango de ley"],
+      "correcta": 0,
+      "justificacion": "La publicidad activa obliga a publicar de forma periódica y actualizada información relevante sin necesidad de que exista una solicitud previa.",
+      "trampa": "No debe confundirse con el derecho de acceso, que se ejerce a petición de una persona.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#11-publicidad-activa"
+    },
+    {
+      "id": "DIP-T28-009",
+      "pregunta": "Quienes prestan servicios públicos o ejercen potestades administrativas deben suministrar información para cumplir la Ley 19/2013:",
+      "opciones": ["Siempre de oficio a cualquier ciudadano", "Previo requerimiento de la Administración u organismo vinculado", "Solo mediante sentencia", "Únicamente cuando sean empleados públicos"],
+      "correcta": 1,
+      "justificacion": "La obligación de suministro opera previo requerimiento de la Administración, organismo o entidad pública a la que estén vinculados.",
+      "trampa": "Suministrar información al sujeto público obligado no equivale necesariamente a publicarla directamente.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#12-obligación-de-suministrar-información"
+    },
+    {
+      "id": "DIP-T28-010",
+      "pregunta": "La resolución de una solicitud de acceso a información pública debe notificarse, con carácter general, en:",
+      "opciones": ["10 días", "15 días", "1 mes", "3 meses"],
+      "correcta": 2,
+      "justificacion": "La Ley 19/2013 fija un plazo máximo de 1 mes desde la recepción por el órgano competente, ampliable por otro mes cuando el volumen o la complejidad lo justifiquen.",
+      "trampa": "No debe confundirse con el plazo de 1 mes ampliable por otros 2 meses previsto para los derechos del RGPD.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#procedimiento"
+    },
+    {
+      "id": "DIP-T28-011",
+      "pregunta": "El silencio en el procedimiento estatal de acceso a la información pública es:",
+      "opciones": ["Estimatorio", "Desestimatorio", "Inexistente", "Suspensivo"],
+      "correcta": 1,
+      "justificacion": "Transcurrido el plazo máximo sin resolución expresa, la solicitud de acceso a la información pública se entiende desestimada.",
+      "trampa": "No debe aplicarse por analogía la regla general de silencio positivo de otros procedimientos.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#procedimiento"
+    },
+    {
+      "id": "DIP-T28-012",
+      "pregunta": "¿Cuál de las siguientes conductas responde a los principios de buen gobierno?",
+      "opciones": ["Aceptar regalos que excedan los usos sociales", "Usar el cargo para obtener ventajas personales", "Comunicar conflictos de intereses y actuar con imparcialidad", "Ocultar información pública relevante"],
+      "correcta": 2,
+      "justificacion": "El buen gobierno exige actuar con imparcialidad, prevenir y comunicar conflictos de intereses, ejercer el cargo con integridad y gestionar adecuadamente los recursos públicos.",
+      "trampa": "El buen gobierno no se limita al cumplimiento de las obligaciones de publicidad activa.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#15-buen-gobierno"
+    }
+  ]
+}
