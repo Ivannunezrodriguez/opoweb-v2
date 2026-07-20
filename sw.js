@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.21.2';
+const CACHE = 'opoweb-v2-0.21.3';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -14,7 +14,9 @@ const CORE_ASSETS = [
   './data/programa-diputacion-administrativo-2026.json',
   './data/seguimiento-la-puebla.json',
   './content/la-puebla/supuestos-practicos.json',
-  './content/la-puebla/simulacros.json'
+  './content/la-puebla/simulacros.json',
+  './content/diputacion-toledo/supuestos-practicos.json',
+  './content/diputacion-toledo/simulacros.json'
 ];
 
 async function programmeAssets(url, contentRoot, availableThemes) {
