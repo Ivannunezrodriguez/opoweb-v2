@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <meta name="theme-color" content="#0f172a">
-  <meta name="description" content="Tests, supuestos prácticos y simulacros interactivos de OpoWeb para oposiciones de Administración Local en Toledo.">
+  <meta name="description" content="Supuestos prácticos, tests por tema y simulacros interactivos de OpoWeb.">
   <title>OpoWeb v2 · Práctica y simulacros</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
@@ -27,23 +27,7 @@
     <section class="panel intro"><h2>Cargando entrenamiento…</h2></section>
   </main>
   <footer><p>Las respuestas se corrigen contra los bancos trazables de OpoWeb. El historial se guarda solo en este dispositivo.</p></footer>
-  <script>
-    window.OPOWEB_REQUESTED_THEME = Number(new URLSearchParams(location.search).get('tema')) || null;
-  </script>
+  <script type="module" src="assets/practice-route.js"></script>
   <script type="module" src="assets/practice.js"></script>
-  <script>
-    if (window.OPOWEB_REQUESTED_THEME) {
-      let opened = false;
-      const openRequestedTheme = () => {
-        if (opened) return;
-        const button = document.querySelector(`[data-theme-test="${window.OPOWEB_REQUESTED_THEME}"]`);
-        if (!button) return;
-        opened = true;
-        button.click();
-      };
-      new MutationObserver(openRequestedTheme).observe(document.querySelector('#practice-app'), { childList: true, subtree: true });
-      openRequestedTheme();
-    }
-  </script>
 </body>
 </html>
