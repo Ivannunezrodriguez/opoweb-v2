@@ -1,110 +1,114 @@
-[
-  {
-    "id": "DIP-T39-001",
-    "pregunta": "¿Cuál es la función principal de la CPU?",
-    "opciones": ["Almacenar permanentemente archivos", "Ejecutar instrucciones y coordinar operaciones", "Suministrar energía eléctrica", "Mostrar imágenes en pantalla"],
-    "correcta": 1,
-    "justificacion": "La CPU interpreta y ejecuta instrucciones y coordina buena parte del funcionamiento del sistema.",
-    "trampa": "No debe confundirse procesamiento con almacenamiento o alimentación.",
-    "referencia": "Tema 39, apartado 4"
-  },
-  {
-    "id": "DIP-T39-002",
-    "pregunta": "¿Qué característica define normalmente a la memoria RAM?",
-    "opciones": ["Es no volátil", "Solo puede leerse", "Es memoria volátil de trabajo", "Es un periférico de salida"],
-    "correcta": 2,
-    "justificacion": "La RAM mantiene temporalmente programas y datos activos y normalmente pierde su contenido al apagar el equipo.",
-    "trampa": "La persistencia corresponde al almacenamiento no volátil.",
-    "referencia": "Tema 39, apartado 5.1"
-  },
-  {
-    "id": "DIP-T39-003",
-    "pregunta": "Un byte está formado por:",
-    "opciones": ["2 bits", "4 bits", "8 bits", "16 bits"],
-    "correcta": 2,
-    "justificacion": "Un byte equivale a 8 bits.",
-    "trampa": "No confundir bit con byte ni Mb con MB.",
-    "referencia": "Tema 39, apartado 14"
-  },
-  {
-    "id": "DIP-T39-004",
-    "pregunta": "¿Cuál de las siguientes afirmaciones sobre M.2 y NVMe es correcta?",
-    "opciones": ["Son exactamente el mismo concepto", "M.2 es un protocolo y NVMe un conector", "M.2 es un formato y NVMe un protocolo", "Todo dispositivo M.2 es necesariamente SATA"],
-    "correcta": 2,
-    "justificacion": "M.2 describe un formato físico, mientras que NVMe es un protocolo optimizado para almacenamiento sobre PCIe.",
-    "trampa": "Un SSD M.2 puede emplear SATA o PCIe/NVMe según el dispositivo.",
-    "referencia": "Tema 39, apartado 6.3"
-  },
-  {
-    "id": "DIP-T39-005",
-    "pregunta": "¿Qué componente interconecta los principales elementos internos del ordenador?",
-    "opciones": ["La placa base", "El monitor", "El teclado", "La impresora"],
-    "correcta": 0,
-    "justificacion": "La placa base contiene los zócalos, ranuras y conectores que permiten comunicar los componentes internos.",
-    "trampa": "La caja aloja componentes, pero no realiza por sí misma la interconexión lógica.",
-    "referencia": "Tema 39, apartado 3"
-  },
-  {
-    "id": "DIP-T39-006",
-    "pregunta": "¿Qué afirmación sobre USB-C es correcta?",
-    "opciones": ["Garantiza siempre USB4", "Describe principalmente la forma del conector", "Solo sirve para cargar", "No puede transportar vídeo"],
-    "correcta": 1,
-    "justificacion": "USB-C describe el formato físico del conector; las velocidades y capacidades dependen de la implementación.",
-    "trampa": "Conector, protocolo y prestaciones no son equivalentes.",
-    "referencia": "Tema 39, apartado 10.1"
-  },
-  {
-    "id": "DIP-T39-007",
-    "pregunta": "¿Qué hace la memoria virtual?",
-    "opciones": ["Sustituye físicamente la CPU", "Utiliza almacenamiento como apoyo a la RAM", "Convierte HDD en memoria caché L1", "Elimina la necesidad de sistema operativo"],
-    "correcta": 1,
-    "justificacion": "La memoria virtual utiliza espacio de almacenamiento para complementar la RAM disponible.",
-    "trampa": "Es más lenta que la RAM y no equivale a instalar más memoria física.",
-    "referencia": "Tema 39, apartado 5.3"
-  },
-  {
-    "id": "DIP-T39-008",
-    "pregunta": "¿Cuál es la diferencia más característica entre HDD y SSD?",
-    "opciones": ["El SSD utiliza partes mecánicas", "El HDD no almacena datos", "El SSD carece de partes mecánicas móviles", "El HDD siempre es externo"],
-    "correcta": 2,
-    "justificacion": "El SSD utiliza memoria flash y no dispone de platos ni cabezales móviles.",
-    "trampa": "Ambos son dispositivos de almacenamiento no volátil.",
-    "referencia": "Tema 39, apartado 6"
-  },
-  {
-    "id": "DIP-T39-009",
-    "pregunta": "¿Qué función realiza UEFI durante el arranque?",
-    "opciones": ["Edita documentos", "Inicializa hardware y localiza el mecanismo de arranque", "Sustituye a la RAM", "Actúa únicamente como antivirus"],
-    "correcta": 1,
-    "justificacion": "UEFI inicializa y configura componentes y permite localizar el dispositivo o gestor de arranque.",
-    "trampa": "Se ejecuta antes del sistema operativo.",
-    "referencia": "Tema 39, apartado 13"
-  },
-  {
-    "id": "DIP-T39-010",
-    "pregunta": "¿Qué puerto se utiliza habitualmente para Ethernet cableado?",
-    "opciones": ["HDMI", "RJ-45", "Jack de 3,5 mm", "DisplayPort"],
-    "correcta": 1,
-    "justificacion": "RJ-45 es el conector habitual de las redes Ethernet de par trenzado.",
-    "trampa": "HDMI y DisplayPort se destinan principalmente a vídeo y audio.",
-    "referencia": "Tema 39, apartado 10.3"
-  },
-  {
-    "id": "DIP-T39-011",
-    "pregunta": "¿Qué componente convierte la corriente de la red en tensiones adecuadas para el equipo?",
-    "opciones": ["La fuente de alimentación", "La memoria RAM", "La tarjeta gráfica", "El disipador"],
-    "correcta": 0,
-    "justificacion": "La fuente de alimentación transforma y distribuye energía eléctrica a los componentes.",
-    "trampa": "El disipador evacua calor, pero no convierte la alimentación eléctrica.",
-    "referencia": "Tema 39, apartado 8"
-  },
-  {
-    "id": "DIP-T39-012",
-    "pregunta": "¿Cuál de estas memorias es normalmente la más rápida y de menor capacidad?",
-    "opciones": ["HDD", "SSD", "RAM", "Caché de CPU"],
-    "correcta": 3,
-    "justificacion": "La caché de CPU ofrece una velocidad muy alta y una capacidad reducida frente a RAM y almacenamiento.",
-    "trampa": "Más capacidad no implica mayor velocidad.",
-    "referencia": "Tema 39, apartado 4.2"
-  }
-]
+{
+  "tema": 39,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T39-001",
+      "pregunta": "¿Cuál es la función principal de la CPU?",
+      "opciones": ["Almacenar permanentemente archivos", "Ejecutar instrucciones y coordinar operaciones", "Suministrar energía eléctrica", "Mostrar imágenes en pantalla"],
+      "correcta": 1,
+      "justificacion": "La CPU interpreta y ejecuta instrucciones y coordina gran parte del funcionamiento del sistema.",
+      "trampa": "No debe confundirse la función de procesamiento de la CPU con el almacenamiento permanente, la alimentación eléctrica o la salida de imagen.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#4-unidad-central-de-proceso"
+    },
+    {
+      "id": "DIP-T39-002",
+      "pregunta": "¿Qué característica define normalmente a la memoria RAM?",
+      "opciones": ["Es no volátil", "Solo puede leerse", "Es memoria volátil de trabajo", "Es un periférico de salida"],
+      "correcta": 2,
+      "justificacion": "La memoria RAM almacena temporalmente los programas y datos activos y normalmente pierde su contenido al apagar el equipo.",
+      "trampa": "La persistencia de la información corresponde al almacenamiento no volátil, como SSD o HDD, no a la RAM.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#51-memoria-ram"
+    },
+    {
+      "id": "DIP-T39-003",
+      "pregunta": "Un byte está formado por:",
+      "opciones": ["2 bits", "4 bits", "8 bits", "16 bits"],
+      "correcta": 2,
+      "justificacion": "Un byte está formado por 8 bits.",
+      "trampa": "No debe confundirse bit con byte ni las abreviaturas Mb, megabits, y MB, megabytes.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#14-unidades-de-información"
+    },
+    {
+      "id": "DIP-T39-004",
+      "pregunta": "¿Cuál de las siguientes afirmaciones sobre M.2 y NVMe es correcta?",
+      "opciones": ["Son exactamente el mismo concepto", "M.2 es un protocolo y NVMe un conector", "M.2 es un formato y NVMe un protocolo", "Todo dispositivo M.2 es necesariamente SATA"],
+      "correcta": 2,
+      "justificacion": "M.2 describe un formato físico, mientras que NVMe es un protocolo optimizado para almacenamiento sobre PCI Express.",
+      "trampa": "Un dispositivo M.2 puede utilizar SATA o PCIe/NVMe; formato físico y protocolo no son conceptos equivalentes.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#63-interfaces-y-formatos"
+    },
+    {
+      "id": "DIP-T39-005",
+      "pregunta": "¿Qué componente interconecta los principales elementos internos del ordenador?",
+      "opciones": ["La placa base", "El monitor", "El teclado", "La impresora"],
+      "correcta": 0,
+      "justificacion": "La placa base contiene los zócalos, ranuras, buses y conectores que permiten comunicar y coordinar los principales componentes internos.",
+      "trampa": "La caja aloja físicamente los componentes, pero no realiza por sí misma su interconexión lógica y eléctrica.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#3-la-placa-base"
+    },
+    {
+      "id": "DIP-T39-006",
+      "pregunta": "¿Qué afirmación sobre USB-C es correcta?",
+      "opciones": ["Garantiza siempre USB4", "Describe principalmente la forma del conector", "Solo sirve para cargar", "No puede transportar vídeo"],
+      "correcta": 1,
+      "justificacion": "USB-C describe principalmente el formato físico del conector; las velocidades, la potencia y las capacidades de vídeo dependen de la implementación concreta.",
+      "trampa": "El tipo de conector, el protocolo utilizado y las prestaciones disponibles no son equivalentes.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#101-usb"
+    },
+    {
+      "id": "DIP-T39-007",
+      "pregunta": "¿Qué hace la memoria virtual?",
+      "opciones": ["Sustituye físicamente la CPU", "Utiliza almacenamiento como apoyo a la RAM", "Convierte HDD en memoria caché L1", "Elimina la necesidad de sistema operativo"],
+      "correcta": 1,
+      "justificacion": "La memoria virtual utiliza espacio de almacenamiento como apoyo para complementar la memoria RAM disponible.",
+      "trampa": "Es más lenta que la RAM y no equivale a instalar físicamente más memoria principal.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#53-memoria-virtual"
+    },
+    {
+      "id": "DIP-T39-008",
+      "pregunta": "¿Cuál es la diferencia más característica entre HDD y SSD?",
+      "opciones": ["El SSD utiliza partes mecánicas", "El HDD no almacena datos", "El SSD carece de partes mecánicas móviles", "El HDD siempre es externo"],
+      "correcta": 2,
+      "justificacion": "El SSD utiliza memoria flash y carece de platos, cabezales y otras partes mecánicas móviles propias de un HDD.",
+      "trampa": "Tanto HDD como SSD son dispositivos de almacenamiento no volátil; la diferencia esencial está en su tecnología interna.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#62-ssd"
+    },
+    {
+      "id": "DIP-T39-009",
+      "pregunta": "¿Qué función realiza UEFI durante el arranque?",
+      "opciones": ["Edita documentos", "Inicializa hardware y localiza el mecanismo de arranque", "Sustituye a la RAM", "Actúa únicamente como antivirus"],
+      "correcta": 1,
+      "justificacion": "UEFI inicializa y configura componentes del equipo y localiza el dispositivo o gestor desde el que se inicia el sistema operativo.",
+      "trampa": "UEFI se ejecuta antes que el sistema operativo y no sustituye a la memoria RAM ni actúa únicamente como antivirus.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#131-bios-y-uefi"
+    },
+    {
+      "id": "DIP-T39-010",
+      "pregunta": "¿Qué puerto se utiliza habitualmente para Ethernet cableado?",
+      "opciones": ["HDMI", "RJ-45", "Jack de 3,5 mm", "DisplayPort"],
+      "correcta": 1,
+      "justificacion": "El conector RJ-45 se utiliza habitualmente en redes Ethernet cableadas mediante par trenzado.",
+      "trampa": "HDMI y DisplayPort se destinan principalmente a vídeo y audio, mientras que el jack de 3,5 mm se utiliza para audio analógico.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#103-red"
+    },
+    {
+      "id": "DIP-T39-011",
+      "pregunta": "¿Qué componente convierte la corriente de la red en tensiones adecuadas para el equipo?",
+      "opciones": ["La fuente de alimentación", "La memoria RAM", "La tarjeta gráfica", "El disipador"],
+      "correcta": 0,
+      "justificacion": "La fuente de alimentación transforma la corriente de la red eléctrica y distribuye tensiones adecuadas a los componentes internos.",
+      "trampa": "El disipador evacua calor, pero no transforma ni distribuye la energía eléctrica del equipo.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#8-fuente-de-alimentación"
+    },
+    {
+      "id": "DIP-T39-012",
+      "pregunta": "¿Cuál de estas memorias es normalmente la más rápida y de menor capacidad?",
+      "opciones": ["HDD", "SSD", "RAM", "Caché de CPU"],
+      "correcta": 3,
+      "justificacion": "La memoria caché de la CPU ofrece una velocidad muy elevada y una capacidad reducida frente a la RAM y al almacenamiento.",
+      "trampa": "Una mayor capacidad de almacenamiento no implica una mayor velocidad de acceso.",
+      "referencia": "content/diputacion-toledo/tema-39/manual.md#42-caché"
+    }
+  ]
+}
