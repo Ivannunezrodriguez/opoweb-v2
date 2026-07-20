@@ -1,122 +1,114 @@
-[
-  {
-    "id":"DIP-T33-001",
-    "tema":33,
-    "pregunta":"¿Qué atajo abre una nueva pestaña en Microsoft Edge?",
-    "opciones":["Ctrl + N","Ctrl + T","Ctrl + W","Ctrl + H"],
-    "correcta":1,
-    "justificacion":"Ctrl + T abre una nueva pestaña en la ventana actual de Microsoft Edge.",
-    "trampa":"Ctrl + N abre una nueva ventana, no una nueva pestaña.",
-    "referencia":"Manual, apartado 2"
-  },
-  {
-    "id":"DIP-T33-002",
-    "tema":33,
-    "pregunta":"¿Qué atajo reabre la última pestaña cerrada?",
-    "opciones":["Ctrl + Mayús + T","Ctrl + Mayús + N","Ctrl + D","Ctrl + J"],
-    "correcta":0,
-    "justificacion":"Ctrl + Mayús + T reabre la última pestaña cerrada.",
-    "trampa":"Ctrl + Mayús + N abre una ventana InPrivate.",
-    "referencia":"Manual, apartado 2"
-  },
-  {
-    "id":"DIP-T33-003",
-    "tema":33,
-    "pregunta":"Guardar una página en favoritos supone, con carácter general:",
-    "opciones":["Guardar una copia completa sin conexión","Guardar su dirección para acceder después","Eliminarla del historial","Descargar todos sus archivos"],
-    "correcta":1,
-    "justificacion":"Los favoritos conservan principalmente la dirección de la página para facilitar su acceso posterior.",
-    "trampa":"Favorito no equivale a copia local ni a descarga.",
-    "referencia":"Manual, apartado 3"
-  },
-  {
-    "id":"DIP-T33-004",
-    "tema":33,
-    "pregunta":"¿Qué atajo abre el historial de Microsoft Edge?",
-    "opciones":["Ctrl + H","Ctrl + J","Ctrl + D","Ctrl + F"],
-    "correcta":0,
-    "justificacion":"Ctrl + H abre el historial de navegación.",
-    "trampa":"Ctrl + J abre el panel de descargas.",
-    "referencia":"Manual, apartado 4"
-  },
-  {
-    "id":"DIP-T33-005",
-    "tema":33,
-    "pregunta":"Eliminar una entrada de la lista de descargas de Edge:",
-    "opciones":["Borra siempre el archivo del disco","No implica necesariamente borrar el archivo descargado","Vacía la Papelera de Windows","Desinstala Edge"],
-    "correcta":1,
-    "justificacion":"La entrada de la lista y el archivo almacenado son elementos distintos.",
-    "trampa":"No confundir historial de descargas con contenido físico del disco.",
-    "referencia":"Manual, apartado 5"
-  },
-  {
-    "id":"DIP-T33-006",
-    "tema":33,
-    "pregunta":"La navegación InPrivate:",
-    "opciones":["Garantiza anonimato total","Elimina normalmente ciertos datos locales al cerrar todas las ventanas InPrivate","Impide toda supervisión de red","Borra automáticamente todos los archivos descargados"],
-    "correcta":1,
-    "justificacion":"InPrivate reduce la conservación local de determinados datos de la sesión, pero no garantiza anonimato total.",
-    "trampa":"Los archivos descargados y favoritos creados pueden permanecer.",
-    "referencia":"Manual, apartado 6"
-  },
-  {
-    "id":"DIP-T33-007",
-    "tema":33,
-    "pregunta":"En GroupWise, el campo CCO sirve para:",
-    "opciones":["Enviar una copia visible","Ocultar esos destinatarios a los demás receptores","Clasificar el mensaje","Añadir un adjunto"],
-    "correcta":1,
-    "justificacion":"Los destinatarios incluidos en CCO no son visibles para los demás receptores.",
-    "trampa":"CC sí muestra sus destinatarios; CCO los oculta.",
-    "referencia":"Manual, apartado 11"
-  },
-  {
-    "id":"DIP-T33-008",
-    "tema":33,
-    "pregunta":"¿Qué diferencia esencial existe entre responder y reenviar?",
-    "opciones":["No existe diferencia","Responder contesta al remitente; reenviar envía el contenido a nuevos destinatarios","Reenviar elimina el mensaje original","Responder crea siempre una reunión"],
-    "correcta":1,
-    "justificacion":"Responder continúa el intercambio con el remitente; reenviar crea un nuevo envío a otros destinatarios.",
-    "trampa":"Responder a todos amplía destinatarios, pero sigue siendo una respuesta.",
-    "referencia":"Manual, apartado 12"
-  },
-  {
-    "id":"DIP-T33-009",
-    "tema":33,
-    "pregunta":"Una cita personal en GroupWise:",
-    "opciones":["Invita automáticamente a toda la libreta de direcciones","Solo afecta al calendario propio","Es siempre una tarea","No puede tener fecha"],
-    "correcta":1,
-    "justificacion":"La cita personal se registra en el calendario del usuario sin invitar automáticamente a otros asistentes.",
-    "trampa":"Una reunión sí se distribuye a otros asistentes.",
-    "referencia":"Manual, apartado 14"
-  },
-  {
-    "id":"DIP-T33-010",
-    "tema":33,
-    "pregunta":"Una carpeta compartida de GroupWise:",
-    "opciones":["Es visible para cualquiera sin permisos","Requiere permisos de acceso","Es idéntica a una carpeta personal","Solo puede contener contactos"],
-    "correcta":1,
-    "justificacion":"El acceso a carpetas compartidas depende de los permisos concedidos.",
-    "trampa":"Crear una carpeta personal no la convierte en compartida.",
-    "referencia":"Manual, apartado 16"
-  },
-  {
-    "id":"DIP-T33-011",
-    "tema":33,
-    "pregunta":"En GroupWise, purgar un elemento significa:",
-    "opciones":["Moverlo a otra carpeta","Marcarlo como leído","Eliminarlo definitivamente según configuración","Responder al remitente"],
-    "correcta":2,
-    "justificacion":"Purgar o vaciar elimina definitivamente el elemento conforme a la configuración del sistema.",
-    "trampa":"Eliminar suele trasladar primero el elemento a la Papelera.",
-    "referencia":"Manual, apartado 17"
-  },
-  {
-    "id":"DIP-T33-012",
-    "tema":33,
-    "pregunta":"¿Cuál es una práctica correcta de seguridad en el correo?",
-    "opciones":["Abrir cualquier adjunto de un contacto conocido","Reutilizar siempre la contraseña","Verificar remitente, enlaces, adjuntos y destinatarios antes de actuar","Responder con credenciales si el mensaje parece urgente"],
-    "correcta":2,
-    "justificacion":"La verificación previa reduce riesgos de phishing, malware y envíos erróneos.",
-    "trampa":"La apariencia conocida del remitente no garantiza autenticidad.",
-    "referencia":"Manual, apartado 18"
-  }
-]
+{
+  "tema": 33,
+  "estado": "GENERACION_DESDE_CERO",
+  "preguntas": [
+    {
+      "id": "DIP-T33-001",
+      "pregunta": "¿Qué atajo abre una nueva pestaña en Microsoft Edge?",
+      "opciones": ["Ctrl + N", "Ctrl + T", "Ctrl + W", "Ctrl + H"],
+      "correcta": 1,
+      "justificacion": "La combinación Ctrl + T abre una nueva pestaña dentro de la ventana actual de Microsoft Edge.",
+      "trampa": "Ctrl + N abre una nueva ventana, no una nueva pestaña.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#2-navegación-mediante-pestañas"
+    },
+    {
+      "id": "DIP-T33-002",
+      "pregunta": "¿Qué atajo reabre la última pestaña cerrada?",
+      "opciones": ["Ctrl + Mayús + T", "Ctrl + Mayús + N", "Ctrl + D", "Ctrl + J"],
+      "correcta": 0,
+      "justificacion": "La combinación Ctrl + Mayús + T reabre la última pestaña cerrada en Microsoft Edge.",
+      "trampa": "Ctrl + Mayús + N abre una ventana InPrivate.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#2-navegación-mediante-pestañas"
+    },
+    {
+      "id": "DIP-T33-003",
+      "pregunta": "Guardar una página en favoritos supone, con carácter general:",
+      "opciones": ["Guardar una copia completa sin conexión", "Guardar su dirección para acceder después", "Eliminarla del historial", "Descargar todos sus archivos"],
+      "correcta": 1,
+      "justificacion": "Los favoritos conservan principalmente la dirección web de una página para facilitar su acceso posterior.",
+      "trampa": "Guardar una página como favorita no equivale a guardar una copia local ni a descargar su contenido.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#3-favoritos"
+    },
+    {
+      "id": "DIP-T33-004",
+      "pregunta": "¿Qué atajo abre el historial de Microsoft Edge?",
+      "opciones": ["Ctrl + H", "Ctrl + J", "Ctrl + D", "Ctrl + F"],
+      "correcta": 0,
+      "justificacion": "La combinación Ctrl + H abre el historial de navegación de Microsoft Edge.",
+      "trampa": "Ctrl + J abre el panel de descargas, no el historial.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#4-historial"
+    },
+    {
+      "id": "DIP-T33-005",
+      "pregunta": "Eliminar una entrada de la lista de descargas de Edge:",
+      "opciones": ["Borra siempre el archivo del disco", "No implica necesariamente borrar el archivo descargado", "Vacía la Papelera de Windows", "Desinstala Edge"],
+      "correcta": 1,
+      "justificacion": "La entrada mostrada en el historial o panel de descargas y el archivo almacenado físicamente en el disco son elementos distintos.",
+      "trampa": "Eliminar la entrada de la lista no implica necesariamente eliminar el archivo descargado del equipo.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#5-descargas"
+    },
+    {
+      "id": "DIP-T33-006",
+      "pregunta": "La navegación InPrivate:",
+      "opciones": ["Garantiza anonimato total", "Elimina normalmente ciertos datos locales al cerrar todas las ventanas InPrivate", "Impide toda supervisión de red", "Borra automáticamente todos los archivos descargados"],
+      "correcta": 1,
+      "justificacion": "La navegación InPrivate reduce la conservación local de determinados datos de la sesión al cerrar todas sus ventanas, pero no garantiza anonimato total.",
+      "trampa": "Los archivos descargados y los favoritos creados durante la sesión pueden permanecer después de cerrarla.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#6-navegación-inprivate"
+    },
+    {
+      "id": "DIP-T33-007",
+      "pregunta": "En GroupWise, el campo CCO sirve para:",
+      "opciones": ["Enviar una copia visible", "Ocultar esos destinatarios a los demás receptores", "Clasificar el mensaje", "Añadir un adjunto"],
+      "correcta": 1,
+      "justificacion": "Los destinatarios incluidos en el campo CCO reciben el mensaje, pero no son visibles para los demás receptores.",
+      "trampa": "El campo CC muestra sus destinatarios; el campo CCO los oculta a los demás receptores.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#11-redacción-y-envío-de-mensajes"
+    },
+    {
+      "id": "DIP-T33-008",
+      "pregunta": "¿Qué diferencia esencial existe entre responder y reenviar?",
+      "opciones": ["No existe diferencia", "Responder contesta al remitente; reenviar envía el contenido a nuevos destinatarios", "Reenviar elimina el mensaje original", "Responder crea siempre una reunión"],
+      "correcta": 1,
+      "justificacion": "Responder continúa el intercambio con el remitente, mientras que reenviar crea un nuevo envío del contenido a otros destinatarios.",
+      "trampa": "Responder a todos amplía el grupo de destinatarios, pero sigue siendo una respuesta y no un reenvío.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#12-responder-responder-a-todos-y-reenviar"
+    },
+    {
+      "id": "DIP-T33-009",
+      "pregunta": "Una cita personal en GroupWise:",
+      "opciones": ["Invita automáticamente a toda la libreta de direcciones", "Solo afecta al calendario propio", "Es siempre una tarea", "No puede tener fecha"],
+      "correcta": 1,
+      "justificacion": "Una cita personal se registra únicamente en el calendario del propio usuario y no invita automáticamente a otros asistentes.",
+      "trampa": "Una reunión sí se distribuye a otros asistentes; una cita personal no.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#14-calendario-citas-y-reuniones"
+    },
+    {
+      "id": "DIP-T33-010",
+      "pregunta": "Una carpeta compartida de GroupWise:",
+      "opciones": ["Es visible para cualquiera sin permisos", "Requiere permisos de acceso", "Es idéntica a una carpeta personal", "Solo puede contener contactos"],
+      "correcta": 1,
+      "justificacion": "El acceso a una carpeta compartida de GroupWise depende de los permisos concedidos a los demás usuarios.",
+      "trampa": "Crear una carpeta personal no la convierte automáticamente en una carpeta compartida.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#16-carpetas-categorías-y-organización"
+    },
+    {
+      "id": "DIP-T33-011",
+      "pregunta": "En GroupWise, purgar un elemento significa:",
+      "opciones": ["Moverlo a otra carpeta", "Marcarlo como leído", "Eliminarlo definitivamente según configuración", "Responder al remitente"],
+      "correcta": 2,
+      "justificacion": "Purgar o vaciar elimina definitivamente el elemento conforme a la configuración del sistema.",
+      "trampa": "Eliminar suele trasladar primero el elemento a la Papelera; purgar implica su eliminación definitiva según la configuración.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#17-eliminación-papelera-y-purga"
+    },
+    {
+      "id": "DIP-T33-012",
+      "pregunta": "¿Cuál es una práctica correcta de seguridad en el correo?",
+      "opciones": ["Abrir cualquier adjunto de un contacto conocido", "Reutilizar siempre la contraseña", "Verificar remitente, enlaces, adjuntos y destinatarios antes de actuar", "Responder con credenciales si el mensaje parece urgente"],
+      "correcta": 2,
+      "justificacion": "Verificar el remitente, los enlaces, los adjuntos y los destinatarios antes de actuar reduce el riesgo de phishing, malware y envíos erróneos.",
+      "trampa": "Que el remitente parezca conocido no garantiza que el mensaje sea auténtico o seguro.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#18-seguridad-en-el-correo"
+    }
+  ]
+}
