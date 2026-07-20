@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.21.5';
+const CACHE = 'opoweb-v2-0.21.6';
 const CORE_ASSETS = [
   './',
   './index.html',
