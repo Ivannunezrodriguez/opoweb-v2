@@ -18,6 +18,8 @@ El plazo oficial de solicitudes está **abierto del 6 al 31 de julio de 2026**. 
 
 Estado editorial: **40 de 40 temas** disponen de manual, fuentes, matriz de cobertura y banco inicial de **12 preguntas**. Los temas generados están identificados como `GENERACION_DESDE_CERO`.
 
+Los **40 temas** están habilitados en la interfaz pública de OpoWeb y se incluyen en la precarga opcional del servicio para su disponibilidad offline.
+
 El **Tema 22** mantiene una reconstrucción interpretativa prudente expresamente autorizada. No se presentan como literales extremos estatutarios que no hayan podido comprobarse en una fuente oficial íntegra.
 
 ### CPEIS Toledo · Auxiliar Administrativo C2 y Administrativo C1
@@ -75,7 +77,7 @@ El temario base queda cerrado para la fase de tests, supuestos prácticos y simu
 
 El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La normalización transversal de los **40 bancos de preguntas** está completada: raíz común con `tema`, `estado` y `preguntas`; campo `correcta`; identificadores conservados; justificaciones y trampas homogéneas; y referencias internas completas hacia el manual correspondiente.
 
-La capa de presentación admite tanto el esquema normalizado como los nombres heredados `respuestaCorrecta` y `trampaExamen`. La caché del servicio se ha elevado a `opoweb-v2-0.21.1` para forzar la actualización de los recursos en los dispositivos.
+La capa de presentación admite tanto el esquema normalizado como los nombres heredados `respuestaCorrecta` y `trampaExamen`. La configuración de Diputación publica los **40 temas** y el servicio los incorpora a la precarga opcional. La caché se ha elevado a `opoweb-v2-0.21.2` para forzar la actualización de los recursos en los dispositivos.
 
 No se ha ejecutado el validador local del repositorio por falta de un entorno de clonación operativo. La comprobación realizada en esta fase ha consistido en la recuperación posterior de cada archivo escrito, verificación de su contenido y confirmación de su blob SHA.
 
@@ -92,6 +94,8 @@ No se ha ejecutado el validador local del repositorio por falta de un entorno de
 | Copias oficiales verificables | Pendiente, solo para documentos públicos |
 | Tests trazables | Implementados en los **40 temas de Diputación** |
 | Compatibilidad de esquemas de preguntas | Implementada |
+| Publicación de los **40 temas de Diputación** | Implementada |
+| Precarga offline de los **40 temas de Diputación** | Implementada |
 | Supuestos y simulacros transversales | Pendientes de ampliación |
 
 ## Orden de trabajo
