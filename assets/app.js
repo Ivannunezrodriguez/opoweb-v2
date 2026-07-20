@@ -232,9 +232,9 @@ function normaliseQuestions(payload) {
     id: item.id,
     text: item.pregunta || item.enunciado,
     options: item.opciones || [],
-    correct: Number(item.correcta),
+    correct: Number(item.correcta ?? item.respuestaCorrecta),
     explanation: item.justificacion || '',
-    trap: item.trampa || '',
+    trap: item.trampa ?? item.trampaExamen ?? '',
     reference: item.referencia || ''
   }));
 }
