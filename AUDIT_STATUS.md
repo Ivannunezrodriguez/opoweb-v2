@@ -1,6 +1,6 @@
 # Estado de auditoría · OpoWeb v2
 
-Última actualización: **19 de julio de 2026**.
+Última actualización: **20 de julio de 2026**.
 
 ## Convocatorias activas
 
@@ -14,11 +14,23 @@ Estado: **auditoría y remediación completadas, 19 de 19 temas**.
 
 Convocatoria de **2 plazas por oposición libre**. Bases publicadas en el BOP de Toledo número **118**, de **25 de junio de 2026**, código **2026.00002934**. Convocatoria publicada en el BOE número **162**, de **4 de julio de 2026**, referencia **BOE-A-2026-14527**.
 
-El plazo oficial de solicitudes está **abierto del 6 al 31 de julio de 2026**. Esta información consta en `data/convocatorias.json`.
+El plazo oficial de solicitudes está **abierto del 6 al 31 de julio de 2026**. Esta información consta en `data/convocatorias.json` y ha sido contrastada con el BOE y el portal de empleo público de la Diputación.
 
 Estado editorial: **40 de 40 temas** disponen de manual, fuentes, matriz de cobertura y banco inicial de **12 preguntas**. Los temas generados están identificados como `GENERACION_DESDE_CERO`.
 
 El **Tema 22** mantiene una reconstrucción interpretativa prudente expresamente autorizada. No se presentan como literales extremos estatutarios que no hayan podido comprobarse en una fuente oficial íntegra.
+
+### CPEIS Toledo · Auxiliar Administrativo C2 y Administrativo C1
+
+Nueva convocatoria oficial incorporada al seguimiento, pendiente de decisión del usuario:
+
+- **4 plazas de Auxiliar Administrativo/a**, oposición libre.
+- **1 plaza de Administrativo/a**, oposición libre.
+- Bases: BOP de Toledo número **116**, de **23 de junio de 2026**.
+- Convocatoria: BOE número **166**, de **9 de julio de 2026**, referencia **BOE-A-2026-14923**.
+- Plazo: **20 días hábiles** desde el día siguiente a la publicación en el BOE.
+
+Estado editorial: `SOLO_SEGUIMIENTO`. No se desarrollará temario específico hasta que el usuario confirme interés.
 
 ## Resultado global de La Puebla
 
@@ -55,13 +67,13 @@ El temario base queda cerrado para la fase de tests, supuestos prácticos y simu
 | Empleo público, laboral y Seguridad Social | 17–21 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
 | Diputación y OAPGT | 22 | `GENERACION_DESDE_CERO` | Reconstrucción interpretativa prudente autorizada |
 | Prevención, igualdad y protección de datos | 23–24 y 28 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
-| Tributación, recaudación y presupuesto local | 25–30 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
+| Tributación, recaudación y presupuesto local | 25–30 | `GENERACION_DESDE_CERO` | Bancos 25–30 normalizados y trazables; Tema 30 contrastado con el TRLRHL vigente |
 | Firma y servicios electrónicos de confianza | 31 | `GENERACION_DESDE_CERO` | Manual, fuentes, matriz y preguntas disponibles |
 | Windows 11 y GroupWise | 32–34 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
 | LibreOffice 24 | 35–38 | `GENERACION_DESDE_CERO` | Writer, Calc, Base e Impress completos |
 | Ordenador personal y periféricos | 39–40 | `GENERACION_DESDE_CERO` | Hardware y periféricos completos |
 
-El programa técnico de Diputación queda cerrado en **40 de 40 temas**. El siguiente ciclo es de control transversal: coherencia de estados, validación de enlaces, ampliación de preguntas, supuestos prácticos y simulacros.
+El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La validación transversal de bancos de preguntas ha alcanzado el **Tema 30**: estructura común, campo `correcta`, identificadores, justificaciones y referencias internas verificadas. El siguiente banco a revisar es el **Tema 31**.
 
 ## Mejoras de plataforma
 
@@ -79,8 +91,8 @@ El programa técnico de Diputación queda cerrado en **40 de 40 temas**. El sigu
 
 ## Orden de trabajo
 
-1. Regularizar en `data/programa-diputacion-administrativo-2026.json` los estados antiguos y añadir rutas explícitas a los temas **1 a 25**.
-2. Ejecutar una validación transversal de los **40** bancos de preguntas: esquema `correcta`, identificadores únicos y referencias justificativas.
-3. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable; hasta entonces se mantiene la cautela interpretativa autorizada del Tema 22.
-4. Crear supuestos prácticos y simulacros transversales con trazabilidad por tema y fuente.
-5. Mantener el seguimiento de publicaciones oficiales de todas las convocatorias activas.
+1. Continuar la validación transversal de los bancos de preguntas desde el **Tema 31**: esquema `correcta`, identificadores únicos y referencias justificativas.
+2. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable; hasta entonces se mantiene la cautela interpretativa autorizada del Tema 22.
+3. Mantener el seguimiento de la convocatoria de Diputación hasta el cierre del plazo el **31 de julio de 2026** y de sus anuncios sucesivos.
+4. Mantener en seguimiento la convocatoria del **CPEIS Toledo** hasta que el usuario decida si desea presentarse.
+5. Crear supuestos prácticos y simulacros transversales con trazabilidad por tema y fuente.
