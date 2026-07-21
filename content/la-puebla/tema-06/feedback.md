@@ -1,10 +1,10 @@
-# Tema 6 · Informe para revisión del usuario
+# Tema 6 · Control editorial
 
 ## Estado
 
-`EN_REVISION_USUARIO`
+`GENERACION_DESDE_CERO`
 
-El manual no está publicado como aprobado y el banco de preguntas permanece vacío.
+El tema está publicado, pero mantiene una rectificación jurídica prioritaria pendiente en el apartado relativo al personal funcionario interino por programas temporales.
 
 ## Epígrafe oficial
 
@@ -25,8 +25,8 @@ El manual no está publicado como aprobado y el banco de preguntas permanece vac
 - artículo 19;
 - diferencia entre plantilla, RPT, OEP y convocatoria;
 - inclusión de vacantes ocupadas interinamente;
-- ejecución en tres años;
-- hasta diez por ciento adicional.
+- ejecución en **tres años**;
+- hasta **diez por ciento** adicional.
 
 ### Selección
 
@@ -43,7 +43,7 @@ El manual no está publicado como aprobado y el banco de preguntas permanece vac
 - artículos 62–66;
 - carrera vertical y horizontal;
 - promoción interna vertical y horizontal;
-- dos años de servicio activo;
+- **dos años** de servicio activo;
 - evaluación del desempeño.
 
 ### Provisión y movilidad
@@ -55,9 +55,25 @@ El manual no está publicado como aprobado y el banco de preguntas permanece vac
 - movilidad por salud y violencia de género;
 - permuta, misiones, atribución temporal de funciones y movilidad interadministrativa.
 
-## Corrección de vigencia relevante
+## Rectificación jurídica prioritaria
 
-El texto consolidado del BOE consultado integra modificaciones hasta el 21 de marzo de 2024 y señala actualizaciones en proceso. El manual incorpora separadamente la Ley 2/2026, de 9 de abril, vigente desde el 6 de mayo de 2026, que modifica el artículo 70.2 sobre puestos susceptibles de libre designación.
+La duración de los programas temporales del personal funcionario interino no es de **dos años**.
+
+La regla aplicable es:
+
+| Norma | Duración máxima |
+|---|---:|
+| TREBEP, artículo 10.1.c) | **tres años** |
+| Posible ampliación por ley autonómica | hasta **doce meses más** |
+| Ley 4/2011 de Castilla-La Mancha, artículo 8.1.c) | máximo total de **cuatro años** |
+
+Hasta que se sustituya la cifra errónea del apartado 11.C del manual principal, debe prevalecer esta rectificación y el contenido de `content/la-puebla/tema-06/auditoria-2026-07-18.md`.
+
+> ⚠️ **¡Foco Examen!:** No confundas los **dos años de servicio activo** exigidos para determinados supuestos de promoción interna con la duración de un programa temporal de interinidad. En Castilla-La Mancha, el máximo total del programa es de **cuatro años**.
+
+## Corrección de vigencia adicional
+
+El texto consolidado del BOE consultado integra modificaciones hasta el 21 de marzo de 2024 y señala actualizaciones en proceso. El manual incorpora separadamente la Ley 2/2026, de 9 de abril, vigente desde el **6 de mayo de 2026**, que modifica el artículo 70.2 sobre puestos susceptibles de libre designación.
 
 No debe estudiarse el artículo 70 únicamente mediante una copia consolidada anterior a esa reforma.
 
@@ -73,33 +89,9 @@ No debe estudiarse el artículo 70 únicamente mediante una copia consolidada an
 
 Se excluyen porque no aparecen en el epígrafe, salvo las referencias necesarias para entender los bloques exigidos.
 
-## Decisiones de alcance que debes comprobar
+## Control pendiente
 
-1. Los artículos 1–3 y 16–18 se usan solo como contexto, no como bloques autónomos.
-2. El personal directivo se desarrolla para completar las clases y vínculos de personal, pero se diferencia expresamente del eventual.
-3. La selección cubre íntegramente los artículos 37–55.
-4. La carrera se limita a los artículos 62–66 relacionados con carrera, promoción y evaluación.
-5. La provisión se extiende hasta el artículo 82 porque el título legal incluye las formas de movilidad vinculadas a la provisión.
-6. La reforma de 2026 se incorpora aunque todavía no figure integrada en la consolidación de 2024.
-
-## Lista de revisión
-
-Comprueba especialmente:
-
-- si se entienden las diferencias entre funcionario de carrera, interino, laboral, eventual y directivo;
-- si queda clara la diferencia entre plaza, puesto, plantilla, RPT, OEP y convocatoria;
-- si los requisitos y sistemas de selección tienen suficiente detalle;
-- si las cifras de discapacidad, OEP, interinidad y promoción son claras;
-- si carrera vertical, horizontal y promoción interna quedan diferenciadas;
-- si concurso, libre designación, comisión y adscripción provisional se distinguen correctamente;
-- si la explicación del artículo 70.2 y su reforma de 2026 resulta suficiente;
-- si algún apartado sigue pareciendo un resumen y no un manual.
-
-## Cierre
-
-La respuesta debe ser una de estas:
-
-- **«Tema 6 aprobado»**
-- **«Tema 6: cambia o amplía…»**
-
-No se fusionará mientras permanezca en `EN_REVISION_USUARIO`.
+1. Sustituir en `manual.md` las tres menciones que presentan **dos años** como duración máxima del programa temporal.
+2. Corregir el supuesto `LP-SP-05` para que la opción correcta sea **cuatro años**.
+3. Revisar cualquier regla del validador que todavía espere la cifra antigua.
+4. Mantener diferenciados los **dos años de servicio activo** de promoción interna y los **cuatro años** máximos del programa temporal.
