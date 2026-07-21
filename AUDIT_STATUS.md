@@ -19,7 +19,9 @@ La regla vigente es:
 - TREBEP, artículo 10.1.c): máximo básico de **tres años**, ampliable hasta **doce meses más** por ley autonómica.
 - Ley 4/2011 de Castilla-La Mancha, artículo 8.1.c): máximo total de **cuatro años**.
 
-El banco de preguntas y el informe de auditoría del Tema 6 ya están corregidos y normalizados. El manual principal conserva todavía la cifra errónea en su apartado 11.C y queda señalado como **corrección editorial prioritaria pendiente**; hasta que se sustituya, debe prevalecer la rectificación de `content/la-puebla/tema-06/auditoria-2026-07-18.md`.
+El banco de preguntas, el informe de auditoría y el supuesto práctico `LP-SP-05` están corregidos. El validador ya no acepta la cifra antigua y comprueba expresamente el máximo de **cuatro años**.
+
+El Markdown fuente de `content/la-puebla/tema-06/manual.md` conserva todavía la cifra errónea en el apartado 11.C. La interfaz pública aplica de forma transitoria `assets/tema6-interinidad-correction.js`, que corrige únicamente ese subapartado y mantiene intactos los **dos años de servicio activo** exigidos en promoción interna. Hasta sustituir el Markdown fuente, debe prevalecer también `content/la-puebla/tema-06/auditoria-2026-07-18.md`.
 
 ### Diputación Provincial de Toledo · Administrativo C1
 
@@ -61,7 +63,7 @@ El temario base está desarrollado para tests, supuestos prácticos y simulacros
 | Constitución | 1 | `GENERACION_DESDE_CERO` | Constitución consolidada y reforma del artículo **69.3** publicada el **20 de mayo de 2026** |
 | Procedimiento administrativo | 2–4 | `GENERACION_DESDE_CERO` | Ley 39/2015: plazos, silencio, caducidad, revisión y recursos |
 | Régimen local | 5 | `GENERACION_DESDE_CERO` | Órganos, competencias, mayorías, funcionamiento y elecciones locales |
-| Empleo público | 6 | `GENERACION_DESDE_CERO` | Banco corregido: programas temporales, máximo **4 años**; manual pendiente de sustitución de la cifra errónea |
+| Empleo público | 6 | `GENERACION_DESDE_CERO` | Supuesto y validador corregidos; Markdown fuente pendiente de sustitución; corrección pública transitoria activa |
 | Prevención de riesgos laborales | 7 | `GENERACION_DESDE_CERO` | Derechos, obligaciones, servicios de prevención, Delegados y Comité |
 | Igualdad | 8 | `GENERACION_DESDE_CERO` | Ley 12/2010 de Castilla-La Mancha y Ley Orgánica 3/2007 |
 | Protección de datos | 9 | `GENERACION_DESDE_CERO` | LOPDGDD y RGPD: derechos, videovigilancia, DPD, brechas y AEPD |
@@ -95,14 +97,14 @@ El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La norm
 
 La práctica utiliza selector de convocatoria, historial independiente por oposición, acceso directo desde cada tema y corrección con justificación, trampa y referencia. El panel de entrenamiento inteligente mantiene separados por convocatoria los errores pendientes, las reincidencias y el cálculo de los **5 temas más débiles**, con acceso directo al test correspondiente.
 
-La caché vigente del servicio es `opoweb-v2-0.21.7` e incluye `assets/practice-review.js` para disponibilidad offline.
+La caché vigente del servicio es `opoweb-v2-0.21.8` e incluye los módulos de práctica y la corrección transitoria del Tema 6 para disponibilidad offline.
 
 No se ha ejecutado el validador local del repositorio por falta de un entorno de clonación operativo. La comprobación realizada consiste en recuperación posterior de cada archivo escrito, verificación de contenido y confirmación de blob SHA.
 
 ## Orden de trabajo
 
-1. Sustituir en el manual del **Tema 6 de La Puebla** las menciones a dos años por el régimen correcto: tres años básicos y máximo autonómico de cuatro años.
-2. Corregir el supuesto práctico `LP-SP-05` y cualquier regla del validador que todavía espere dos años.
+1. Sustituir en el Markdown fuente del **Tema 6 de La Puebla** las menciones incorrectas del programa temporal por el régimen correcto: **tres años** básicos y máximo autonómico de **cuatro años**.
+2. Retirar `assets/tema6-interinidad-correction.js` después de corregir el Markdown fuente y ajustar la precarga offline.
 3. Ejecutar el validador transversal cuando exista un entorno local o CI operativo.
 4. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable.
 5. Mantener el seguimiento de Diputación hasta el cierre del plazo el **31 de julio de 2026**.
