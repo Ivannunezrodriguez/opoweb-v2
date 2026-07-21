@@ -1,38 +1,37 @@
-# Auditoría jurídica · Tema 6 · 18 de julio de 2026
+# Auditoría jurídica · Tema 6 · rectificación de 21 de julio de 2026
 
 ## Resultado
 
 **Estado:** `AUDITADO_CON_CORRECCION_OBLIGATORIA`
 
-Se ha cotejado el manual con la **Ley 4/2011, de 10 de marzo, del Empleo Público de Castilla-La Mancha**, su historial oficial de modificaciones y las reformas vigentes en **2026**.
+Se ha vuelto a cotejar el bloque de personal funcionario interino con la **Ley 4/2011, de 10 de marzo, del Empleo Público de Castilla-La Mancha**, y con el **Real Decreto Legislativo 5/2015, de 30 de octubre, por el que se aprueba el TREBEP**.
 
 ## Fuentes oficiales
 
-- Ley 4/2011: `BOE-A-2011-7752`.
-- Publicación original: DOCM número **56**, de **22 de marzo de 2011**.
-- Entrada en vigor: **22 de septiembre de 2011**.
-- Última consolidación textual mostrada por el BOE: **21 de marzo de 2024**.
-- Ley 2/2026, de **9 de abril**, publicada en el DOCM número **71**, de **16 de abril de 2026**, con entrada en vigor el **6 de mayo de 2026**: modifica el artículo **70.2**.
+- Ley 4/2011: `BOE-A-2011-7752`, artículo **8.1.c)**.
+- TREBEP: `BOE-A-2015-11719`, artículo **10.1.c)**.
+- Publicación original autonómica: DOCM número **56**, de **22 de marzo de 2011**.
+- Ley 2/2026, de **9 de abril**, publicada en el DOCM número **71**, de **16 de abril de 2026**, con entrada en vigor el **6 de mayo de 2026**: modifica el artículo **70.2**, pero no el artículo 8.
 
-## Corrección sustantiva detectada
+## Error jurídico corregido
 
-El manual afirma que los programas temporales del personal funcionario interino pueden durar **cuatro años**. La redacción vigente del artículo **8.1.c)** de la Ley 4/2011 establece una duración máxima de **dos años**, con una única prórroga cuando el programa se hubiera aprobado por un tiempo inferior, sin superar en total esos **dos años**.
+La auditoría anterior afirmó erróneamente que los programas temporales del personal funcionario interino tenían una duración máxima de **dos años**.
 
-| Supuesto de interinidad | Límite vigente |
+La regla vigente es:
+
+| Norma | Límite |
 |---|---:|
-| Programa temporal, art. 8.1.c) | **2 años** |
-| Exceso o acumulación de tareas, art. 8.1.d) | **6 meses dentro de 12 meses** |
+| TREBEP, art. 10.1.c) | **3 años**, ampliables hasta **12 meses más** por ley autonómica |
+| Ley 4/2011 de Castilla-La Mancha, art. 8.1.c) | **4 años** como duración máxima total |
+| Ley 4/2011, art. 8.1.d), exceso o acumulación de tareas | **6 meses dentro de 12 meses** |
 
-> ⚠️ **¡Foco Examen!:** No debe trasladarse automáticamente a la Ley autonómica el límite de **tres o cuatro años** que pueda aparecer en otras normas o versiones. Para este tema, el artículo **8.1.c) de la Ley 4/2011 fija dos años**.
+La Ley 4/2011 utiliza expresamente la posibilidad de ampliación prevista por la legislación básica estatal. Por ello, para esta convocatoria y este tema, la respuesta correcta es **cuatro años**.
 
-## Datos confirmados
+> ⚠️ **¡Foco Examen!:** Tres años es el límite básico estatal; cuatro años es el máximo aplicable en Castilla-La Mancha por previsión legal autonómica. Dos años no es correcto.
 
-- La oferta de empleo público debe ejecutarse en el plazo improrrogable de **tres años** desde el día siguiente a su publicación.
-- Puede comprender hasta un **10 % adicional** de las plazas ofertadas.
-- La promoción interna exige, con carácter general, al menos **dos años** de servicio activo en el cuerpo o escala de procedencia.
-- La provisión ordinaria se articula principalmente mediante concurso y libre designación con convocatoria pública.
-- La reforma de **2026** afecta al artículo **70.2**, ampliando los puestos susceptibles de libre designación en el ámbito estatutario sanitario conforme a la Ley 55/2003 y su desarrollo.
+## Acción editorial aplicada
 
-## Acción editorial
-
-Debe corregirse el apartado del manual relativo al artículo **8.1.c)** sustituyendo **cuatro años** por **dos años** y ajustando cualquier pregunta o supuesto práctico dependiente de ese dato.
+- Corregido el banco `preguntas.json` del Tema 6.
+- Normalizado al esquema común con `pregunta`, `correcta`, `trampa` y referencias internas completas.
+- Deben considerarse sustituidas todas las menciones editoriales anteriores que presentaban **dos años** como límite vigente.
+- El manual principal conserva todavía esa cifra en su apartado 11.C y queda señalado como corrección pendiente de sustitución íntegra para no degradar el resto de su contenido durante una edición parcial.
