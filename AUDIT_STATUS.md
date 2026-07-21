@@ -93,7 +93,9 @@ El temario base está desarrollado para tests, supuestos prácticos y simulacros
 
 El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La normalización transversal de los **40 bancos de preguntas** está completada.
 
-La práctica utiliza selector de convocatoria, historial independiente por oposición, acceso directo desde cada tema y corrección con justificación, trampa y referencia. La caché vigente del servicio es `opoweb-v2-0.21.6`.
+La práctica utiliza selector de convocatoria, historial independiente por oposición, acceso directo desde cada tema y corrección con justificación, trampa y referencia. El panel de entrenamiento inteligente mantiene separados por convocatoria los errores pendientes, las reincidencias y el cálculo de los **5 temas más débiles**, con acceso directo al test correspondiente.
+
+La caché vigente del servicio es `opoweb-v2-0.21.7` e incluye `assets/practice-review.js` para disponibilidad offline.
 
 No se ha ejecutado el validador local del repositorio por falta de un entorno de clonación operativo. La comprobación realizada consiste en recuperación posterior de cada archivo escrito, verificación de contenido y confirmación de blob SHA.
 
