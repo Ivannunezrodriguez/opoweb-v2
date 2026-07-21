@@ -1,6 +1,6 @@
 # Estado de auditoría · OpoWeb v2
 
-Última actualización: **20 de julio de 2026**.
+Última actualización: **21 de julio de 2026**.
 
 ## Convocatorias activas
 
@@ -8,37 +8,51 @@
 
 Programa oficial: **19 temas**, BOP de Toledo número **82**, de **5 de mayo de 2026**, CSV **2026.00001965**.
 
-Estado: **auditoría y remediación completadas, 19 de 19 temas**.
+Estado: auditoría general completada, con **rectificación jurídica activa en el Tema 6**.
+
+#### Incidencia jurídica corregida · Tema 6
+
+La auditoría anterior redujo erróneamente a **dos años** la duración máxima de los programas temporales del personal funcionario interino.
+
+La regla vigente es:
+
+- TREBEP, artículo 10.1.c): máximo básico de **tres años**, ampliable hasta **doce meses más** por ley autonómica.
+- Ley 4/2011 de Castilla-La Mancha, artículo 8.1.c): máximo total de **cuatro años**.
+
+El banco de preguntas y el informe de auditoría del Tema 6 ya están corregidos y normalizados. El manual principal conserva todavía la cifra errónea en su apartado 11.C y queda señalado como **corrección editorial prioritaria pendiente**; hasta que se sustituya, debe prevalecer la rectificación de `content/la-puebla/tema-06/auditoria-2026-07-18.md`.
 
 ### Diputación Provincial de Toledo · Administrativo C1
 
 Convocatoria de **2 plazas por oposición libre**. Bases publicadas en el BOP de Toledo número **118**, de **25 de junio de 2026**, código **2026.00002934**. Convocatoria publicada en el BOE número **162**, de **4 de julio de 2026**, referencia **BOE-A-2026-14527**.
 
-El plazo oficial de solicitudes está **abierto del 6 al 31 de julio de 2026**. Esta información consta en `data/convocatorias.json` y ha sido contrastada con el BOE y el portal de empleo público de la Diputación.
+El plazo oficial de solicitudes permanece **abierto del 6 al 31 de julio de 2026** según el portal oficial de empleo público de la Diputación.
 
 Estado editorial: **40 de 40 temas** disponen de manual, fuentes, matriz de cobertura y banco inicial de **12 preguntas**. Los temas generados están identificados como `GENERACION_DESDE_CERO`.
 
 Los **40 temas** están habilitados en la interfaz pública de OpoWeb y se incluyen en la precarga opcional del servicio para su disponibilidad offline.
 
-El centro de entrenamiento de Diputación está integrado en la interfaz común y dispone actualmente de **40 tests por tema**, **5 supuestos prácticos** con **10 cuestiones resueltas** y **3 simulacros transversales** con **36 preguntas**.
+El centro de entrenamiento de Diputación dispone actualmente de **40 tests por tema**, **5 supuestos prácticos** con **10 cuestiones resueltas** y **3 simulacros transversales** con **36 preguntas**.
 
 El **Tema 22** mantiene una reconstrucción interpretativa prudente expresamente autorizada. No se presentan como literales extremos estatutarios que no hayan podido comprobarse en una fuente oficial íntegra.
 
 ### CPEIS Toledo · Auxiliar Administrativo C2 y Administrativo C1
 
-Nueva convocatoria oficial incorporada al seguimiento, pendiente de decisión del usuario:
+Convocatoria oficial incorporada al seguimiento, pendiente de decisión del usuario:
 
-- **4 plazas de Auxiliar Administrativo/a**, oposición libre.
-- **1 plaza de Administrativo/a**, oposición libre.
+- **4 plazas de Auxiliar Administrativo/a C2**, oposición libre.
+- **1 plaza de Administrativo/a C1**, oposición libre.
+- **2 plazas de Técnico/a de Administración General A1**, oposición libre.
+- **1 plaza de Operador/a de Sistemas C1**, turno reservado a personas con discapacidad.
+- **2 plazas de Técnico/a de Gestión A2**, promoción interna.
 - Bases: BOP de Toledo número **116**, de **23 de junio de 2026**.
 - Convocatoria: BOE número **166**, de **9 de julio de 2026**, referencia **BOE-A-2026-14923**.
-- Plazo: **20 días hábiles** desde el día siguiente a la publicación en el BOE.
+- Plazo oficial concretado por el portal del CPEIS: **del 10 de julio al 6 de agosto de 2026**.
 
 Estado editorial: `SOLO_SEGUIMIENTO`. No se desarrollará temario específico hasta que el usuario confirme interés.
 
 ## Resultado global de La Puebla
 
-El temario base queda cerrado para la fase de tests, supuestos prácticos y simulacros. La corrección sustantiva del **Tema 6** ya está aplicada: el nombramiento de personal funcionario interino para programas temporales tiene una duración máxima total de **2 años**, no de **4 años**.
+El temario base está desarrollado para tests, supuestos prácticos y simulacros. La rectificación del Tema 6 invalida la corrección anterior que presentaba **dos años** como máximo de los programas temporales: la cifra vigente aplicable en Castilla-La Mancha es **cuatro años**.
 
 ## Estado por bloques · La Puebla
 
@@ -47,7 +61,7 @@ El temario base queda cerrado para la fase de tests, supuestos prácticos y simu
 | Constitución | 1 | `GENERACION_DESDE_CERO` | Constitución consolidada y reforma del artículo **69.3** publicada el **20 de mayo de 2026** |
 | Procedimiento administrativo | 2–4 | `GENERACION_DESDE_CERO` | Ley 39/2015: plazos, silencio, caducidad, revisión y recursos |
 | Régimen local | 5 | `GENERACION_DESDE_CERO` | Órganos, competencias, mayorías, funcionamiento y elecciones locales |
-| Empleo público | 6 | `GENERACION_DESDE_CERO` | Corregido el máximo del programa temporal a **2 años** |
+| Empleo público | 6 | `GENERACION_DESDE_CERO` | Banco corregido: programas temporales, máximo **4 años**; manual pendiente de sustitución de la cifra errónea |
 | Prevención de riesgos laborales | 7 | `GENERACION_DESDE_CERO` | Derechos, obligaciones, servicios de prevención, Delegados y Comité |
 | Igualdad | 8 | `GENERACION_DESDE_CERO` | Ley 12/2010 de Castilla-La Mancha y Ley Orgánica 3/2007 |
 | Protección de datos | 9 | `GENERACION_DESDE_CERO` | LOPDGDD y RGPD: derechos, videovigilancia, DPD, brechas y AEPD |
@@ -71,46 +85,23 @@ El temario base queda cerrado para la fase de tests, supuestos prácticos y simu
 | Empleo público, laboral y Seguridad Social | 17–21 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
 | Diputación y OAPGT | 22 | `GENERACION_DESDE_CERO` | Reconstrucción interpretativa prudente autorizada |
 | Prevención, igualdad y protección de datos | 23–24 y 28 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
-| Tributación, recaudación y presupuesto local | 25–30 | `GENERACION_DESDE_CERO` | Bancos normalizados y trazables; Tema 30 contrastado con el TRLRHL vigente |
+| Tributación, recaudación y presupuesto local | 25–30 | `GENERACION_DESDE_CERO` | Bancos normalizados y trazables |
 | Firma y servicios electrónicos de confianza | 31 | `GENERACION_DESDE_CERO` | Banco normalizado y trazable |
 | Windows 11 y GroupWise | 32–34 | `GENERACION_DESDE_CERO` | Bancos normalizados y trazables |
 | LibreOffice 24 | 35–38 | `GENERACION_DESDE_CERO` | Writer, Calc, Base e Impress completos y normalizados |
 | Ordenador personal y periféricos | 39–40 | `GENERACION_DESDE_CERO` | Hardware y periféricos completos y normalizados |
 
-El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La normalización transversal de los **40 bancos de preguntas** está completada: raíz común con `tema`, `estado` y `preguntas`; campo `correcta`; identificadores conservados; justificaciones y trampas homogéneas; y referencias internas completas hacia el manual correspondiente.
+El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La normalización transversal de los **40 bancos de preguntas** está completada.
 
-La capa de presentación admite tanto el esquema normalizado como los nombres heredados `respuestaCorrecta` y `trampaExamen`. La práctica utiliza un selector de convocatoria, historial independiente por oposición, acceso directo desde cada tema y corrección con justificación, trampa y referencia.
+La práctica utiliza selector de convocatoria, historial independiente por oposición, acceso directo desde cada tema y corrección con justificación, trampa y referencia. La caché vigente del servicio es `opoweb-v2-0.21.6`.
 
-La configuración de Diputación publica los **40 temas** y el servicio incorpora a la precarga opcional los manuales, bancos de preguntas, supuestos y simulacros. La caché se ha elevado a `opoweb-v2-0.21.3` para forzar la actualización de los recursos en los dispositivos.
-
-No se ha ejecutado el validador local del repositorio por falta de un entorno de clonación operativo. La comprobación realizada en esta fase ha consistido en la recuperación posterior de cada archivo escrito, verificación de su contenido y confirmación de su blob SHA.
-
-## Mejoras de plataforma
-
-| Mejora | Estado |
-|---|---|
-| Modo claro/oscuro persistente | Implementado |
-| Diseño para móvil y tableta | Implementado |
-| Buscador sobre títulos y contenido | Implementado |
-| Apartado de plazos y estado personal de la OPE | Implementado |
-| Historial y control de versiones Git | Activo |
-| Catálogo de documentos oficiales | En preparación |
-| Copias oficiales verificables | Pendiente, solo para documentos públicos |
-| Tests trazables | Implementados en los **40 temas de Diputación** |
-| Compatibilidad de esquemas de preguntas | Implementada |
-| Publicación de los **40 temas de Diputación** | Implementada |
-| Precarga offline de los **40 temas de Diputación** | Implementada |
-| Selector de convocatoria en práctica | Implementado |
-| Historial independiente por convocatoria | Implementado |
-| Supuestos de Diputación | **5 supuestos / 10 cuestiones**, implementados |
-| Simulacros de Diputación | **3 simulacros / 36 preguntas**, implementados |
-| Ampliación de supuestos y simulacros | Pendiente |
+No se ha ejecutado el validador local del repositorio por falta de un entorno de clonación operativo. La comprobación realizada consiste en recuperación posterior de cada archivo escrito, verificación de contenido y confirmación de blob SHA.
 
 ## Orden de trabajo
 
-1. Revisar funcionalmente en navegador la selección de convocatoria, los tests por tema, los supuestos abiertos, los simulacros y la persistencia separada del historial.
-2. Ejecutar el validador transversal de Diputación cuando exista un entorno local o CI operativo y corregir cualquier incidencia que detecte.
-3. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable; hasta entonces se mantiene la cautela interpretativa autorizada del Tema 22.
-4. Mantener el seguimiento de la convocatoria de Diputación hasta el cierre del plazo el **31 de julio de 2026** y de sus anuncios sucesivos.
-5. Mantener en seguimiento la convocatoria del **CPEIS Toledo** hasta que el usuario decida si desea presentarse.
-6. Ampliar los supuestos prácticos y simulacros transversales con trazabilidad por tema y fuente.
+1. Sustituir en el manual del **Tema 6 de La Puebla** las menciones a dos años por el régimen correcto: tres años básicos y máximo autonómico de cuatro años.
+2. Corregir el supuesto práctico `LP-SP-05` y cualquier regla del validador que todavía espere dos años.
+3. Ejecutar el validador transversal cuando exista un entorno local o CI operativo.
+4. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable.
+5. Mantener el seguimiento de Diputación hasta el cierre del plazo el **31 de julio de 2026**.
+6. Mantener el seguimiento del CPEIS hasta el cierre del plazo el **6 de agosto de 2026** o hasta decisión del usuario.
