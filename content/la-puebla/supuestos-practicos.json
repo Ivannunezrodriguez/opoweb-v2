@@ -1,7 +1,7 @@
 {
   "convocatoria": "La Puebla de Montalbán",
-  "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
-  "version": "2026-07-18",
+  "estado": "GENERACION_DESDE_CERO",
+  "version": "2026-07-21",
   "criterios": {
     "numeroSupuestos": 20,
     "opcionesPorPregunta": 4,
@@ -62,12 +62,12 @@
       "titulo": "Interinidad por programa temporal",
       "temas": [6],
       "enunciado": "Un ayuntamiento pretende nombrar personal funcionario interino para un programa temporal de cuatro años.",
-      "pregunta": "¿Cuál es la duración máxima del programa en el régimen auditado?",
+      "pregunta": "¿Cuál es la duración máxima del programa en el régimen aplicable en Castilla-La Mancha?",
       "opciones": ["Un año", "Dos años", "Tres años", "Cuatro años"],
-      "respuestaCorrecta": 1,
-      "justificacion": "La duración máxima del programa temporal de interinidad estudiado para esta convocatoria es de dos años.",
-      "trampaExamen": "La cifra de cuatro años era una referencia desactualizada que fue corregida en la auditoría.",
-      "referencia": "content/la-puebla/tema-06/manual.md"
+      "respuestaCorrecta": 3,
+      "justificacion": "El TREBEP fija un máximo básico de tres años y permite que la ley autonómica lo amplíe hasta doce meses más. La Ley 4/2011 de Castilla-La Mancha establece un máximo total de cuatro años.",
+      "trampaExamen": "No confundir los dos años de servicio activo exigidos en determinados supuestos de promoción interna con la duración máxima de cuatro años del programa temporal.",
+      "referencia": "content/la-puebla/tema-06/auditoria-2026-07-18.md"
     },
     {
       "id": "LP-SP-06",
