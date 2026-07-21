@@ -1,5 +1,5 @@
 {
-  "actualizadoEl": "2026-07-20",
+  "actualizadoEl": "2026-07-21",
   "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará. Las convocatorias descartadas no reciben desarrollo editorial ni mantenimiento activo.",
   "convocatorias": [
     {
@@ -7,9 +7,10 @@
       "nombre": "La Puebla de Montalbán · Auxiliar Administrativo C2",
       "estadoUsuario": "INSCRITO",
       "prioridad": 1,
-      "estadoEditorial": "COMPLETA",
+      "estadoEditorial": "COMPLETA_CON_RECTIFICACION_PENDIENTE_TEMA_06",
       "temas": 19,
-      "ruta": "./"
+      "ruta": "./",
+      "incidenciaActiva": "El manual del Tema 6 conserva una mención errónea a dos años para programas temporales; el banco de preguntas y la auditoría ya reflejan el máximo correcto de cuatro años."
     },
     {
       "id": "diputacion-toledo-administrativo-c1-2026",
@@ -58,10 +59,15 @@
       "prioridad": null,
       "estadoEditorial": "SOLO_SEGUIMIENTO",
       "plazasTurnoLibre": {
-        "auxiliarAdministrativo": 4,
-        "administrativo": 1
+        "tecnicoAdministracionGeneralA1": 2,
+        "administrativoC1": 1,
+        "auxiliarAdministrativoC2": 4
       },
-      "sistema": "OPOSICION_LIBRE",
+      "otrasPlazas": {
+        "operadorSistemasC1ReservaDiscapacidad": 1,
+        "tecnicoGestionA2PromocionInterna": 2
+      },
+      "sistemaInteresUsuario": "OPOSICION_LIBRE",
       "fuentePrincipal": "BOP de Toledo número 116, de 23 de junio de 2026",
       "publicacionBOE": {
         "referencia": "BOE-A-2026-14923",
@@ -69,9 +75,12 @@
         "fecha": "2026-07-09"
       },
       "plazoSolicitudes": {
-        "regla": "20 días hábiles desde el día siguiente a la publicación en el BOE",
-        "estado": "ABIERTO_O_PENDIENTE_DE_CIERRE_SEGUN_CALENDARIO_HABIL"
+        "desde": "2026-07-10",
+        "hasta": "2026-08-06",
+        "estado": "ABIERTO",
+        "fuenteFechaExacta": "Portal oficial de empleo y formulario de admisión del CPEIS Toledo"
       },
+      "fuenteSeguimiento": "https://cpeistoledo.es/empleo-formacion/",
       "nota": "Convocatoria oficial detectada; no se inicia desarrollo editorial hasta que el usuario confirme si desea presentarse."
     },
     {
