@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.21.6';
+const CACHE = 'opoweb-v2-0.21.7';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -10,6 +10,7 @@ const CORE_ASSETS = [
   './assets/theme-test-link.js',
   './assets/practice-route.js',
   './assets/practice.js',
+  './assets/practice-review.js',
   './assets/icon.svg',
   './data/programa.json',
   './data/programa-diputacion-administrativo-2026.json',
