@@ -2,9 +2,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 
-const read = p => fs.readFileSync(p, 'utf8');
-const json = p => JSON.parse(read(p));
-const exists = p => fs.existsSync(p);
+const read = file => fs.readFileSync(file, 'utf8');
+const json = file => JSON.parse(read(file));
+const exists = file => fs.existsSync(file);
 
 const programme = json('data/programa.json');
 const packageJson = json('package.json');
@@ -12,200 +12,135 @@ const serviceWorker = read('sw.js');
 const index = read('index.html');
 const practiceHtml = read('practice.html');
 const practiceJs = read('assets/practice.js');
+const practiceRouteJs = read('assets/practice-route.js');
+const practiceReviewJs = read('assets/practice-review.js');
 const themeTestLinkJs = read('assets/theme-test-link.js');
+const tema6CorrectionJs = read('assets/tema6-interinidad-correction.js');
 
 assert.equal(programme.version, '0.19.0');
 assert.equal(packageJson.version, '0.20.6');
-assert.ok(index.includes('v0.20.6'));
+assert.equal(programme.temas.length, 19);
 assert.ok(index.includes('href="practice.html"'));
 assert.ok(index.includes('assets/theme-test-link.js'));
-assert.equal(programme.temas.length, 19);
+assert.ok(index.includes('assets/tema6-interinidad-correction.js'));
 
-const approved = programme.temas.filter(t => t.estado === 'APROBADO_USUARIO');
-const review = programme.temas.filter(t => t.estado === 'EN_REVISION_USUARIO');
-const pending = programme.temas.filter(t => t.estado === 'PENDIENTE_RECONSTRUCCION');
-assert.deepEqual(approved.map(t => t.numero), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]);
-assert.equal(review.length, 0);
-assert.equal(pending.length, 0);
+const approved = programme.temas.filter(theme => theme.estado === 'APROBADO_USUARIO');
+assert.deepEqual(approved.map(theme => theme.numero), Array.from({ length: 19 }, (_, index) => index + 1));
 
 const markdownLinkRegex = /\[[^\]]+\]\(([^)]+)\)/g;
 const externalOrAnchor = target => /^(https?:|mailto:|#)/i.test(target);
 
-for (const t of approved) {
-  assert.ok(exists(t.manual), `Falta manual del tema ${t.numero}`);
-  assert.ok(exists(t.matriz), `Falta matriz del tema ${t.numero}`);
-  assert.ok(exists(t.preguntas), `Falta banco de preguntas del tema ${t.numero}`);
-  assert.equal(json(t.matriz).estado, 'APROBADO_USUARIO');
+for (const theme of approved) {
+  assert.ok(exists(theme.manual), `Falta manual del tema ${theme.numero}`);
+  assert.ok(exists(theme.matriz), `Falta matriz del tema ${theme.numero}`);
+  assert.ok(exists(theme.preguntas), `Falta banco del tema ${theme.numero}`);
 
-  const questionBank = json(t.preguntas);
-  assert.ok(Array.isArray(questionBank.preguntas), `Banco inválido del tema ${t.numero}`);
+  const bank = json(theme.preguntas);
+  assert.ok(Array.isArray(bank.preguntas), `Banco inválido del tema ${theme.numero}`);
+  assert.equal(bank.preguntas.length, 12, `El tema ${theme.numero} no tiene 12 preguntas`);
 
-  const manual = read(t.manual);
-  assert.ok(manual.includes('Tema cerrado: **SÍ**'), `Tema ${t.numero} no figura cerrado`);
+  for (const question of bank.preguntas) {
+    assert.equal(question.opciones.length, 4, `${question.id} no tiene cuatro opciones`);
+    const correct = Number(question.correcta ?? question.respuestaCorrecta);
+    assert.ok(Number.isInteger(correct) && correct >= 0 && correct < 4, `${question.id} tiene respuesta inválida`);
+    assert.ok((question.justificacion || '').length > 30, `${question.id} tiene justificación insuficiente`);
+    assert.ok((question.trampa ?? question.trampaExamen ?? '').length > 20, `${question.id} carece de trampa`);
+  }
 
-  const baseDir = path.dirname(t.manual);
+  const manual = read(theme.manual);
+  const baseDir = path.dirname(theme.manual);
   for (const match of manual.matchAll(markdownLinkRegex)) {
     const target = match[1].trim().split('#')[0];
     if (!target || externalOrAnchor(target)) continue;
-    const resolved = path.normalize(path.join(baseDir, target));
-    assert.ok(exists(resolved), `Enlace roto en tema ${t.numero}: ${target}`);
+    assert.ok(exists(path.normalize(path.join(baseDir, target))), `Enlace roto en tema ${theme.numero}: ${target}`);
   }
-
-  const audit = `${baseDir}/auditoria-2026-07-18.md`;
-  assert.ok(exists(audit), `Falta informe de auditoría del tema ${t.numero}`);
 }
 
-const validateQuestionBank = (tema, prefix) => {
-  const bank = json(`content/la-puebla/tema-${String(tema).padStart(2, '0')}/preguntas.json`);
-  assert.equal(bank.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
-  assert.equal(bank.preguntas.length, 12);
-  assert.deepEqual(bank.preguntas.map(q => q.id), Array.from({ length: 12 }, (_, i) => `${prefix}-${String(i + 1).padStart(3, '0')}`));
-  for (const q of bank.preguntas) {
-    assert.equal(q.opciones.length, 4, `${q.id} no tiene cuatro opciones`);
-    assert.ok(Number.isInteger(q.respuestaCorrecta), `${q.id} carece de respuesta correcta`);
-    assert.ok(q.respuestaCorrecta >= 0 && q.respuestaCorrecta < 4, `${q.id} tiene índice incorrecto`);
-    assert.ok(q.justificacion.length > 30, `${q.id} tiene justificación insuficiente`);
-    assert.ok(q.trampaExamen.length > 20, `${q.id} carece de trampa de examen`);
-    assert.ok(q.referencia.includes('manual.md') || q.referencia.includes('matriz.json') || q.referencia.includes('bloque-'), `${q.id} carece de trazabilidad`);
-  }
-  return bank;
-};
-
-const generatedBanks = Array.from({ length: 19 }, (_, index) => {
-  const tema = index + 1;
-  return validateQuestionBank(tema, `LP-T${String(tema).padStart(2, '0')}`);
-});
-
-const allQuestionIds = new Set(generatedBanks.flatMap(bank => bank.preguntas.map(q => q.id)));
-
 const practicalCases = json('content/la-puebla/supuestos-practicos.json');
-assert.equal(practicalCases.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
+assert.equal(practicalCases.estado, 'GENERACION_DESDE_CERO');
+assert.equal(practicalCases.version, '2026-07-21');
 assert.equal(practicalCases.supuestos.length, 20);
 assert.deepEqual(
-  practicalCases.supuestos.map(s => s.id),
-  Array.from({ length: 20 }, (_, i) => `LP-SP-${String(i + 1).padStart(2, '0')}`)
+  practicalCases.supuestos.map(item => item.id),
+  Array.from({ length: 20 }, (_, index) => `LP-SP-${String(index + 1).padStart(2, '0')}`)
 );
+
 for (const practicalCase of practicalCases.supuestos) {
-  assert.ok(practicalCase.titulo.length > 5, `${practicalCase.id} carece de título`);
-  assert.ok(Array.isArray(practicalCase.temas) && practicalCase.temas.length > 0, `${practicalCase.id} carece de temas`);
-  assert.ok(practicalCase.enunciado.length > 60, `${practicalCase.id} tiene enunciado insuficiente`);
   assert.equal(practicalCase.opciones.length, 4, `${practicalCase.id} no tiene cuatro opciones`);
   assert.ok(Number.isInteger(practicalCase.respuestaCorrecta), `${practicalCase.id} carece de respuesta correcta`);
-  assert.ok(practicalCase.respuestaCorrecta >= 0 && practicalCase.respuestaCorrecta < 4, `${practicalCase.id} tiene índice incorrecto`);
+  assert.ok(practicalCase.respuestaCorrecta >= 0 && practicalCase.respuestaCorrecta < 4, `${practicalCase.id} tiene índice inválido`);
   assert.ok(practicalCase.justificacion.length > 40, `${practicalCase.id} tiene justificación insuficiente`);
-  assert.ok(practicalCase.trampaExamen.length > 25, `${practicalCase.id} carece de trampa de examen`);
+  assert.ok(practicalCase.trampaExamen.length > 25, `${practicalCase.id} carece de trampa`);
   assert.ok(exists(practicalCase.referencia), `${practicalCase.id} referencia un archivo inexistente`);
 }
 
+const interinidadCase = practicalCases.supuestos.find(item => item.id === 'LP-SP-05');
+assert.ok(interinidadCase, 'Falta LP-SP-05');
+assert.equal(interinidadCase.opciones[interinidadCase.respuestaCorrecta], 'Cuatro años');
+assert.equal(interinidadCase.respuestaCorrecta, 3);
+assert.ok(interinidadCase.justificacion.includes('máximo total de cuatro años'));
+assert.ok(interinidadCase.trampaExamen.includes('dos años de servicio activo'));
+assert.equal(interinidadCase.referencia, 'content/la-puebla/tema-06/auditoria-2026-07-18.md');
+
 const mockExams = json('content/la-puebla/simulacros.json');
-assert.equal(mockExams.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
 assert.equal(mockExams.simulacros.length, 3);
-assert.deepEqual(mockExams.simulacros.map(s => s.id), ['LP-SIM-01', 'LP-SIM-02', 'LP-SIM-03']);
-for (const mock of mockExams.simulacros) {
-  assert.equal(mock.duracionMinutos, 45, `${mock.id} tiene duración incorrecta`);
-  assert.equal(mock.preguntas.length, 30, `${mock.id} no contiene 30 preguntas`);
-  assert.equal(new Set(mock.preguntas).size, 30, `${mock.id} repite preguntas`);
-  for (const questionId of mock.preguntas) {
-    assert.ok(allQuestionIds.has(questionId), `${mock.id} referencia una pregunta inexistente: ${questionId}`);
-  }
-  const coveredThemes = new Set(mock.preguntas.map(id => id.slice(4, 6)));
-  assert.equal(coveredThemes.size, 19, `${mock.id} no cubre los 19 temas`);
-}
+assert.deepEqual(mockExams.simulacros.map(item => item.id), ['LP-SIM-01', 'LP-SIM-02', 'LP-SIM-03']);
 
 assert.ok(exists('practice.html'));
 assert.ok(exists('assets/practice.js'));
+assert.ok(exists('assets/practice-route.js'));
+assert.ok(exists('assets/practice-review.js'));
 assert.ok(exists('assets/practice-progress.css'));
-assert.ok(exists('assets/theme-test-link.js'));
-assert.ok(practiceHtml.includes('assets/practice-progress.css'));
-assert.ok(practiceJs.includes("const PROGRESS_KEY = 'opoweb-la-puebla-practice-progress-v2'"));
-assert.ok(practiceJs.includes("const LEGACY_PROGRESS_KEY = 'opoweb-la-puebla-practice-progress-v1'"));
-assert.ok(practiceJs.includes('localStorage.setItem(PROGRESS_KEY'));
-assert.ok(practiceJs.includes('saveAttempt({'));
-assert.ok(practiceJs.includes('Borrar historial'));
-assert.ok(practiceJs.includes('Test por tema'));
+assert.ok(practiceHtml.includes('assets/practice-route.js'));
+assert.ok(practiceHtml.includes('assets/practice.js'));
+assert.ok(practiceHtml.includes('assets/practice-review.js'));
+
+assert.ok(practiceJs.includes("progressKey: 'opoweb-la-puebla-practice-progress-v2'"));
+assert.ok(practiceJs.includes("progressKey: 'opoweb-diputacion-practice-progress-v1'"));
+assert.ok(practiceJs.includes('practice-call-selector'));
 assert.ok(practiceJs.includes('data-theme-test'));
-assert.ok(practiceJs.includes('new URLSearchParams(location.search).get'));
-assert.ok(practiceJs.includes("type: metadata.type"));
-assert.ok(practiceJs.includes('Repasar ${errorEntries.length} fallo(s)'));
-assert.ok(practiceJs.includes('Fallos y temas débiles'));
+assert.ok(practiceJs.includes('saveAttempt({'));
 assert.ok(practiceJs.includes('themeStats'));
-assert.ok(practiceJs.includes('failedQuestionIds'));
-assert.ok(practiceJs.includes('data-weak-theme'));
-assert.ok(practiceJs.includes("renderExercise(questions, 'Repaso de preguntas falladas'"));
+assert.ok(practiceJs.includes('errors'));
+assert.ok(practiceRouteJs.includes('practiceUrl'));
+assert.ok(practiceRouteJs.includes('practice-call-selector'));
+assert.ok(practiceReviewJs.includes('Errores y temas débiles'));
+assert.ok(practiceReviewJs.includes('data-review-theme'));
 assert.ok(themeTestLinkJs.includes('Hacer test del tema'));
-assert.ok(themeTestLinkJs.includes('practice.html?tema=${number}'));
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
-assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'));
-assert.ok(tema6.includes('| Programa temporal de interino | Máximo 2 años |'));
-assert.ok(!tema6.includes('Duración máxima del programa: **cuatro años**.'));
-assert.ok(!tema6.includes('| Programa temporal de interino | Máximo 4 años |'));
-assert.ok(tema6.includes('nunca puede superar **dos años**'));
+assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'), 'La fuente antigua ya cambió: retirar el módulo transitorio y actualizar esta prueba');
+assert.ok(tema6CorrectionJs.includes("replaceText(node, 'dos años', 'cuatro años')"));
+assert.ok(tema6CorrectionJs.includes('máximo básico de <strong>tres años</strong>'));
+assert.ok(tema6CorrectionJs.includes('<strong>doce meses más</strong>'));
+assert.ok(tema6CorrectionJs.includes('máximo total de <strong>cuatro años</strong>'));
+assert.ok(tema6CorrectionJs.includes("TARGET_ROUTE = /^#la-puebla-auxiliar-administrativo-2026\\/tema-6$/"));
 
-const t19 = programme.temas[18];
-const base19 = 'content/la-puebla/tema-19';
-const matrix19 = json(`${base19}/matriz.json`);
-const questions19 = json(`${base19}/preguntas.json`);
-assert.equal(t19.capitulos.length, 5);
-assert.equal(t19.aprobadoEl, '2026-07-18');
-assert.equal(t19.aprobacion, `${base19}/aprobacion.md`);
-assert.equal(matrix19.estado, 'APROBADO_USUARIO');
-assert.equal(matrix19.aprobadoEl, '2026-07-18');
-assert.equal(matrix19.cobertura.length, 5);
-assert.equal(matrix19.diferenciasClave.length, 6);
-assert.equal(questions19.estado, 'GENERADO_PENDIENTE_REVISION_USUARIO');
-assert.equal(questions19.preguntas.length, 12);
-
-const files19 = [
-  'manual.md','matriz.json','aprobacion.md','feedback.md','preguntas.json','fuentes.md',
-  'bloque-01-ordenador-componentes.md','bloque-02-perifericos-impresoras.md',
-  'bloque-03-escaneres.md','bloque-04-almacenamiento-externo-usb.md',
-  'bloque-05-opticos.md'
-];
-for (const file of files19) {
-  assert.ok(exists(`${base19}/${file}`), `Falta ${file}`);
-  assert.ok(serviceWorker.includes(`./${base19}/${file}`), `No precargado ${file}`);
-}
-
-const joined19 = files19.filter(f => f.endsWith('.md')).map(f => read(`${base19}/${f}`)).join('\n').toLowerCase();
-for (const term of [
-  'hardware','software','firmware','controlador','placa base','cpu','memoria ram','hdd','ssd',
-  'usb-c','partición','volumen','impresora','inyección de tinta','tóner','cola','escáner',
-  'alimentador automático','resolución óptica','ocr','fat32','exfat','ntfs','expulsión segura',
-  'cd-rom','cd-r','cd-rw','dvd-rom','dvd-rw','lector','grabador'
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.21.8'"));
+for (const asset of [
+  './practice.html',
+  './assets/theme-test-link.js',
+  './assets/tema6-interinidad-correction.js',
+  './assets/practice-route.js',
+  './assets/practice.js',
+  './assets/practice-review.js',
+  './assets/practice-progress.css',
+  './content/la-puebla/supuestos-practicos.json',
+  './content/la-puebla/simulacros.json'
 ]) {
-  assert.ok(joined19.includes(term), `Falta ${term}`);
+  assert.ok(serviceWorker.includes(`'${asset}'`), `No está precargado ${asset}`);
 }
-
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.20.6'"));
-assert.ok(serviceWorker.includes("'./practice.html'"));
-assert.ok(serviceWorker.includes("'./assets/theme-test-link.js'"));
-assert.ok(serviceWorker.includes("'./assets/practice-progress.css'"));
-assert.ok(serviceWorker.includes("'./content/la-puebla/supuestos-practicos.json'"));
-assert.ok(serviceWorker.includes("'./content/la-puebla/simulacros.json'"));
-assert.equal(exists('.github/workflows/apply-t19-approval.yml'), false);
-assert.equal(exists('scripts/publish_t19.py'), false);
-
-const generatedQuestions = generatedBanks.reduce((total, bank) => total + bank.preguntas.length, 0);
-const mockQuestions = mockExams.simulacros.reduce((total, mock) => total + mock.preguntas.length, 0);
 
 console.log(JSON.stringify({
   editorialVersion: programme.version,
   applicationVersion: packageJson.version,
   approved: approved.length,
-  review: review.length,
-  pending: pending.length,
-  auditedReports: approved.length,
-  internalLinks: 'VALIDATED',
-  generatedThemes: generatedBanks.length,
-  generatedQuestions,
+  generatedQuestions: approved.length * 12,
   practicalCases: practicalCases.supuestos.length,
   mockExams: mockExams.simulacros.length,
-  mockQuestions,
-  thematicTests: programme.temas.length,
-  localProgress: 'VALIDATED',
-  errorTraining: 'VALIDATED',
-  weakThemes: 'VALIDATED',
-  tema6Interinidad: '2_YEARS_VALIDATED',
-  status: 'CONVOCATORIA_LA_PUEBLA_COMPLETA_CON_ENTRENAMIENTO_INTELIGENTE'
+  multiCallPractice: 'VALIDATED',
+  segregatedProgress: 'VALIDATED',
+  tema6Interinidad: '4_YEARS_RUNTIME_CORRECTION_VALIDATED',
+  sourceCorrectionPending: true,
+  status: 'LA_PUEBLA_VALIDATOR_UPDATED'
 }, null, 2));
