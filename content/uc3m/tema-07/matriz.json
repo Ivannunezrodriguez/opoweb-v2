@@ -1,0 +1,18 @@
+{
+  "tema": 7,
+  "titulo": "Transparencia y participación",
+  "estado": "EN_REVISION_USUARIO",
+  "cobertura": [
+    {"epigrafe":"Ley 10/2019: objeto, ámbito y principios","apartados":[1],"cubierto":true},
+    {"epigrafe":"Publicidad activa","apartados":[2],"cubierto":true},
+    {"epigrafe":"Derecho de acceso a la información pública","apartados":[3,4,5,6,7,8],"cubierto":true},
+    {"epigrafe":"Portal de Transparencia de la UC3M","apartados":[9],"cubierto":true},
+    {"epigrafe":"Procedimiento de acceso en la UC3M","apartados":[10],"cubierto":true}
+  ],
+  "control": {
+    "manual": true,
+    "preguntas": 12,
+    "fuentesOficiales": true,
+    "pendienteRevisionUsuario": true
+  }
+}
