@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.22.0';
+const CACHE = 'opoweb-v2-0.23.0';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -6,10 +6,12 @@ const CORE_ASSETS = [
   './manifest.json',
   './assets/styles.css',
   './assets/study-progress.css',
+  './assets/test-history.css',
   './assets/practice-progress.css',
   './assets/app.js',
   './assets/diputacion-tracking.js',
   './assets/study-progress.js',
+  './assets/test-history.js',
   './assets/theme-test-link.js',
   './assets/tema6-interinidad-correction.js',
   './assets/practice-route.js',
