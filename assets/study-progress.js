@@ -37,10 +37,14 @@ function statusOptions(selected) {
   return STATUSES.map(([value, label]) => `<option value="${value}" ${value === selected ? 'selected' : ''}>${label}</option>`).join('');
 }
 
+function availableCards(grid) {
+  return [...grid.querySelectorAll('[data-theme]')].filter(card => card.getAttribute('aria-disabled') !== 'true');
+}
+
 function renderSummary() {
   const grid = document.querySelector('.theme-grid');
   if (!grid || document.querySelector('.study-progress-panel')) return;
-  const cards = [...grid.querySelectorAll('[data-theme]')];
+  const cards = availableCards(grid);
   if (!cards.length) return;
   const progress = readProgress();
   const counts = { 'not-started': 0, studying: 0, reviewed: 0, mastered: 0 };
@@ -52,7 +56,7 @@ function renderSummary() {
   const percentage = Math.round((advanced / cards.length) * 100);
   const panel = document.createElement('section');
   panel.className = 'panel study-progress-panel';
-  panel.innerHTML = `<div class="section-heading"><div><p class="eyebrow section-eyebrow">Progreso personal</p><h2>Estado del estudio</h2><p class="search-count">Se guarda únicamente en este dispositivo.</p></div><strong>${percentage}% repasado</strong></div><div class="study-progress-grid"><div class="study-progress-stat"><strong>${counts['not-started']}</strong><span>sin empezar</span></div><div class="study-progress-stat"><strong>${counts.studying}</strong><span>en estudio</span></div><div class="study-progress-stat"><strong>${counts.reviewed}</strong><span>repasados</span></div><div class="study-progress-stat"><strong>${counts.mastered}</strong><span>dominados</span></div></div><div class="study-progress-bar" role="progressbar" aria-label="Progreso de estudio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percentage}"><span style="width:${percentage}%"></span></div>`;
+  panel.innerHTML = `<div class="section-heading"><div><p class="eyebrow section-eyebrow">Progreso personal</p><h2>Estado del estudio</h2><p class="search-count">Se calcula sobre ${cards.length} tema${cards.length === 1 ? '' : 's'} con contenido y se guarda únicamente en este dispositivo.</p></div><strong>${percentage}% repasado</strong></div><div class="study-progress-grid"><div class="study-progress-stat"><strong>${counts['not-started']}</strong><span>sin empezar</span></div><div class="study-progress-stat"><strong>${counts.studying}</strong><span>en estudio</span></div><div class="study-progress-stat"><strong>${counts.reviewed}</strong><span>repasados</span></div><div class="study-progress-stat"><strong>${counts.mastered}</strong><span>dominados</span></div></div><div class="study-progress-bar" role="progressbar" aria-label="Progreso de estudio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percentage}"><span style="width:${percentage}%"></span></div>`;
   grid.closest('.panel')?.before(panel);
 }
 
@@ -62,6 +66,7 @@ function decorateThemeCards() {
   const progress = readProgress();
   [...grid.querySelectorAll(':scope > .theme-card')].forEach(card => {
     const number = card.dataset.theme;
+    const available = card.getAttribute('aria-disabled') !== 'true';
     const wrapper = document.createElement('div');
     wrapper.className = 'theme-progress-item';
     card.before(wrapper);
@@ -69,12 +74,17 @@ function decorateThemeCards() {
     const select = document.createElement('select');
     select.className = 'theme-progress-select';
     select.setAttribute('aria-label', `Estado de estudio del tema ${number}`);
-    select.innerHTML = statusOptions(progress[number] || 'not-started');
-    select.addEventListener('change', event => {
-      event.stopPropagation();
-      saveThemeStatus(number, event.target.value);
-      refreshProgressUi();
-    });
+    select.innerHTML = available
+      ? statusOptions(progress[number] || 'not-started')
+      : '<option>Pendiente de contenido</option>';
+    select.disabled = !available;
+    if (available) {
+      select.addEventListener('change', event => {
+        event.stopPropagation();
+        saveThemeStatus(number, event.target.value);
+        refreshProgressUi();
+      });
+    }
     wrapper.append(select);
   });
 }
