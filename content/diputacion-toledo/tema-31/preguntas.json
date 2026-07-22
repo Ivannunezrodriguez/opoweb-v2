@@ -103,12 +103,12 @@
     },
     {
       "id": "DIP-T31-012",
-      "pregunta": "La expresión tradicional «autoridad certificadora» se corresponde actualmente con:",
-      "opciones": ["Prestadores de servicios de confianza que expiden certificados", "Órganos judiciales", "Registros civiles exclusivamente", "Empresas de telecomunicaciones sin más requisitos"],
+      "pregunta": "¿Qué servicio fue incorporado expresamente al marco eIDAS por el Reglamento (UE) 2024/1183?",
+      "opciones": ["El archivo electrónico", "El registro exclusivamente en papel", "La transmisión por fax", "El correo electrónico ordinario sin garantías"],
       "correcta": 0,
-      "justificacion": "La terminología actual se refiere a prestadores de servicios de confianza que expiden y gestionan certificados electrónicos.",
-      "trampa": "Pueden existir prestadores públicos y privados; no toda entidad tecnológica tiene la condición de prestador de servicios de confianza.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#11-autoridades-certificadoras-y-servicios-prestados"
+      "justificacion": "El Reglamento (UE) 2024/1183 amplió el marco eIDAS e incorporó expresamente, entre otros, los servicios de archivo electrónico, las declaraciones electrónicas de atributos y los libros mayores electrónicos.",
+      "trampa": "No todo almacenamiento digital es un servicio cualificado de archivo electrónico; debe cumplir los requisitos del Reglamento eIDAS y constar con ese estado en la lista de confianza.",
+      "referencia": "content/diputacion-toledo/tema-31/auditoria-2026-07-22.md#resultado-jurídico"
     }
   ]
 }
