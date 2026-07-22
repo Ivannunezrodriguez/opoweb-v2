@@ -2,79 +2,128 @@
 
 > Epígrafe oficial: Real Decreto 364/1995: ingreso, provisión de puestos, carrera profesional y promoción interna. Ley 53/1984 de incompatibilidades.
 
-## 1. Selección e ingreso
+## 1. Ámbito y marco normativo
 
-El Real Decreto 364/1995 desarrolla el ingreso del personal al servicio de la Administración General del Estado y la provisión de puestos. Sus principios deben leerse junto al TREBEP: igualdad, mérito, capacidad, publicidad, profesionalidad e imparcialidad.
+El Real Decreto 364/1995 aprueba el Reglamento General de Ingreso del personal al servicio de la Administración General del Estado, de provisión de puestos de trabajo y de promoción profesional de sus funcionarios civiles. Debe interpretarse junto con el TREBEP y con la normativa posterior que haya desplazado o derogado parcialmente sus preceptos.
 
-La oferta de empleo público concreta las necesidades con asignación presupuestaria que deben cubrirse mediante incorporación de personal de nuevo ingreso. Las convocatorias vinculan a la Administración, órganos de selección y aspirantes.
+La Ley 53/1984 establece el régimen general de incompatibilidades del personal al servicio de las Administraciones Públicas. Su finalidad es garantizar la dedicación al puesto público, la imparcialidad y la independencia.
 
-Los sistemas selectivos ordinarios son oposición y concurso-oposición. La oposición valora conocimientos y aptitudes mediante pruebas; el concurso-oposición combina pruebas y valoración de méritos, sin que la fase de concurso pueda sustituir la superación de la oposición.
+## 2. Ingreso del personal funcionario
 
-## 2. Órganos de selección
+El ingreso se realiza mediante convocatoria pública y conforme a las bases, que vinculan a la Administración, al órgano de selección y a las personas aspirantes.
 
-Los tribunales y comisiones permanentes deben actuar con imparcialidad, profesionalidad, independencia técnica y especialización. No pueden formar parte quienes hayan realizado tareas de preparación de aspirantes en los supuestos y periodos previstos, ni quienes incurran en abstención.
+Los principios esenciales son igualdad, mérito, capacidad y publicidad. También deben respetarse transparencia, imparcialidad, profesionalidad, independencia técnica, adecuación entre pruebas y funciones y agilidad compatible con la objetividad.
 
-Las decisiones deben respetar las bases. Los órganos pueden contar con asesores especialistas, que colaboran exclusivamente en su especialidad.
+## 3. Sistemas selectivos
 
-## 3. Funcionarios en prácticas y cursos selectivos
+El Reglamento contempla oposición, concurso-oposición y, excepcionalmente, concurso.
 
-Cuando la convocatoria lo establezca, quienes superen las pruebas deben realizar curso selectivo o periodo de prácticas. Hasta superarlo no adquieren la condición de funcionarios de carrera. El nombramiento definitivo exige completar todos los requisitos legales.
+- **Oposición:** celebración de pruebas para determinar capacidad y aptitud.
+- **Concurso-oposición:** combina pruebas con valoración de méritos. La fase de concurso no puede sustituir la superación de la fase de oposición.
+- **Concurso:** tiene carácter excepcional para el acceso funcionarial cuando la ley lo autorice.
 
-## 4. Provisión de puestos
+Pueden existir cursos selectivos o períodos de prácticas. Hasta superarlos no se completa el proceso de acceso.
 
-Los procedimientos ordinarios son concurso y libre designación con convocatoria pública.
+## 4. Convocatorias y órganos de selección
+
+Las convocatorias deben indicar, entre otros extremos, número y características de plazas, requisitos, sistema selectivo, pruebas, programa, composición del órgano de selección, calendario orientativo y sistema de calificación.
+
+Los tribunales y comisiones permanentes actúan con imparcialidad, profesionalidad e independencia técnica. Sus miembros deben abstenerse cuando concurra causa legal. Pueden intervenir asesores especialistas, limitados a su especialidad y sin sustituir la decisión del órgano.
+
+## 5. Provisión de puestos de trabajo
+
+Los procedimientos ordinarios son el concurso y la libre designación con convocatoria pública.
 
 ### Concurso
 
-Es el sistema normal. Valora méritos adecuados a las características del puesto: grado personal, trabajo desarrollado, cursos y antigüedad, además de méritos específicos cuando proceda. Puede ser concurso general o específico.
+Es el sistema normal de provisión. Valora los méritos adecuados a las características del puesto, como grado personal, trabajo desarrollado, cursos de formación, antigüedad y méritos específicos.
+
+Puede ser:
+
+- **concurso general**, para puestos con tareas comunes o menos singularizadas;
+- **concurso específico**, que suele estructurarse en una fase de méritos generales y otra de méritos específicos adecuados al puesto.
 
 ### Libre designación
 
-Consiste en la apreciación discrecional de la idoneidad entre candidatos que reúnen los requisitos. Solo se utiliza para puestos expresamente determinados. El nombramiento y cese deben ajustarse al procedimiento y motivación exigibles.
+Consiste en la apreciación discrecional de la idoneidad entre quienes reúnan los requisitos. Solo procede para puestos expresamente determinados y exige convocatoria pública. La discrecionalidad no elimina la obligación de respetar competencia, procedimiento, finalidad y motivación exigible.
 
-## 5. Otras formas de provisión
+## 6. Otras formas de provisión y movilidad
 
-- Redistribución de efectivos: traslado por necesidades del servicio a puestos no singularizados de naturaleza y nivel equivalentes.
-- Reasignación de efectivos: consecuencia de un plan de empleo cuando se suprime un puesto.
-- Comisión de servicios: cobertura temporal en casos urgentes e inaplazables.
-- Adscripción provisional: en supuestos legalmente previstos, como remoción, cese o reingreso.
-- Permuta: intercambio voluntario sujeto a requisitos y autorización.
+- **Comisión de servicios:** cobertura temporal de un puesto vacante por urgente e inaplazable necesidad.
+- **Adscripción provisional:** en supuestos como remoción, cese en libre designación, supresión del puesto o reingreso.
+- **Redistribución de efectivos:** traslado por necesidades del servicio a otro puesto de naturaleza y nivel equivalentes.
+- **Reasignación de efectivos:** derivada de planes de empleo o de la supresión del puesto.
+- **Permuta:** intercambio voluntario entre funcionarios, sujeto a requisitos y autorización.
+- **Movilidad por razones de salud, violencia o protección:** en los casos previstos por la normativa aplicable.
 
-## 6. Carrera profesional y grado personal
+## 7. Carrera profesional y grado personal
 
-El grado personal se adquiere por desempeño de uno o más puestos del nivel correspondiente durante el tiempo exigido. Garantiza, dentro de los límites legales, un nivel mínimo en la carrera administrativa.
+La carrera se relaciona con la ocupación de puestos, la consolidación de grado, la formación, la evaluación, la movilidad y la promoción interna.
 
-La carrera se articula mediante ocupación de puestos, consolidación de grado, formación, evaluación, movilidad y promoción interna. El TREBEP incorpora además la carrera horizontal.
+El grado personal se adquiere por el desempeño de uno o varios puestos del nivel correspondiente durante el período legalmente establecido. Su consolidación produce efectos en la carrera administrativa, aunque no atribuye por sí sola un derecho absoluto a un puesto concreto.
 
-## 7. Promoción interna
+## 8. Promoción interna
 
-Permite acceder desde un cuerpo o escala a otro superior o del mismo subgrupo en los supuestos legales. Exige reunir requisitos de ingreso, antigüedad mínima, titulación y superar las pruebas correspondientes.
+La promoción interna permite acceder desde un cuerpo o escala a otro del subgrupo superior o, en los casos legalmente previstos, del mismo subgrupo.
 
-Las convocatorias pueden establecer exención de materias ya acreditadas y medidas para facilitar la promoción, respetando igualdad, mérito y capacidad.
+Exige:
 
-## 8. Ley 53/1984 de incompatibilidades
+- reunir los requisitos de ingreso;
+- poseer la titulación requerida;
+- contar con la antigüedad mínima exigible;
+- superar las pruebas correspondientes.
 
-La regla general es la dedicación a un solo puesto en el sector público. Solo puede desempeñarse un segundo puesto público en los casos previstos y con autorización expresa de compatibilidad.
+Las convocatorias pueden eximir de materias ya acreditadas y adoptar medidas para facilitar la promoción, sin rebajar los principios de igualdad, mérito y capacidad.
 
-No puede reconocerse compatibilidad cuando se impida o menoscabe el cumplimiento de deberes, se comprometa imparcialidad o independencia o exista conflicto con la actividad pública.
+## 9. Principio general de incompatibilidad
 
-## 9. Actividades públicas y privadas
+La regla general es la dedicación a un solo puesto en el sector público. Solo puede desempeñarse un segundo puesto o actividad pública en los casos expresamente previstos y previa autorización de compatibilidad.
 
-La compatibilidad para una segunda actividad pública está limitada a funciones y sectores legalmente permitidos, como determinadas actividades docentes o sanitarias, y sujeta a límites horarios y retributivos.
+No puede reconocerse compatibilidad cuando se impida o menoscabe el cumplimiento de los deberes, se comprometa la imparcialidad o independencia o exista conflicto con los intereses públicos.
 
-Las actividades privadas requieren reconocimiento cuando puedan relacionarse con las funciones del puesto. Son incompatibles las actividades en asuntos en los que se intervenga, se haya intervenido recientemente o deba intervenirse por razón del puesto, así como las que impliquen relación profesional directa con personas sometidas a decisión o control del empleado.
+## 10. Segundo puesto o actividad pública
 
-## 10. Actividades exceptuadas
+La compatibilidad para una segunda actividad pública está limitada a los supuestos legales, especialmente determinadas funciones docentes, sanitarias, de investigación o de interés público.
 
-Pueden quedar exceptuadas, en los términos legales, la administración del patrimonio personal o familiar, participación ocasional en tribunales, producción y creación literaria, artística, científica o técnica no derivada de empleo, participación ocasional en medios, cursos o conferencias y colaboración en congresos.
+Debe respetar los límites de jornada y horario, así como los límites retributivos. La autorización es previa y no modifica la jornada ni el horario del puesto principal.
 
-## 11. Efectos y responsabilidad
+## 11. Actividades privadas
 
-El incumplimiento puede constituir falta disciplinaria. La autorización de compatibilidad no modifica jornada ni horario y queda sin efecto si cambian las circunstancias que la justificaron.
+El ejercicio de actividades profesionales, laborales, mercantiles o industriales privadas requiere reconocimiento de compatibilidad cuando pueda afectar al puesto público.
+
+Son incompatibles, entre otras:
+
+- las actividades relacionadas directamente con asuntos en los que la persona intervenga, haya intervenido o deba intervenir por razón de su puesto;
+- la pertenencia a órganos o cargos de empresas relacionadas con el sector público cuando exista conflicto legal;
+- las actividades que impliquen relación profesional directa con personas sometidas a decisión, informe, control o inspección del empleado público;
+- las actividades privadas que exijan una presencia o dedicación incompatible con el horario público.
+
+## 12. Actividades exceptuadas
+
+Quedan exceptuadas, en los términos legales, actividades como:
+
+- administración del patrimonio personal o familiar;
+- dirección de seminarios o cursos y participación ocasional en conferencias;
+- participación ocasional en tribunales o pruebas selectivas;
+- producción y creación literaria, artística, científica o técnica no derivada de una relación de empleo;
+- colaboración ocasional en medios de comunicación;
+- participación en congresos, seminarios o actividades profesionales ocasionales.
+
+La excepción no ampara actividades permanentes que, por su intensidad o conexión con el puesto, deban someterse a compatibilidad.
+
+## 13. Procedimiento, efectos y responsabilidad
+
+La compatibilidad debe solicitarse y obtenerse antes de iniciar la actividad cuando sea exigible. Puede condicionarse y quedar sin efecto si cambian las circunstancias que justificaron su reconocimiento.
+
+El incumplimiento del régimen de incompatibilidades puede generar responsabilidad disciplinaria y, en su caso, otras responsabilidades. El reconocimiento de compatibilidad nunca puede utilizarse para justificar el incumplimiento del horario o de las funciones públicas.
 
 ## Claves de examen
 
-- El concurso es el sistema normal de provisión.
-- La libre designación no elimina la convocatoria pública.
-- Una segunda actividad requiere compatibilidad cuando la ley no la exceptúa.
-- La compatibilidad nunca puede comprometer imparcialidad o cumplimiento del puesto.
+- La oposición es el sistema ordinario de ingreso en el Reglamento.
+- El concurso es el sistema normal de provisión de puestos.
+- La libre designación exige convocatoria pública.
+- La comisión de servicios es temporal y responde a necesidad urgente e inaplazable.
+- La promoción interna exige titulación, antigüedad y superación de pruebas.
+- La regla general de incompatibilidades es un solo puesto público.
+- La compatibilidad debe ser previa y no altera jornada ni horario.
+- Las actividades exceptuadas no equivalen a una autorización general para cualquier actividad privada.
