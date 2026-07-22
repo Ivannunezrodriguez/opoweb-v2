@@ -1,0 +1,116 @@
+{
+  "convocatoria": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
+  "tema": 2,
+  "version": "2026-07-22",
+  "estado": "EN_REVISION_USUARIO",
+  "preguntas": [
+    {
+      "id": "UC3M-T02-001",
+      "pregunta": "¿Cuál de las siguientes materias regula expresamente la Ley 39/2015?",
+      "opciones": ["La organización interna del Poder Judicial", "Los requisitos de validez y eficacia de los actos administrativos", "El régimen electoral general", "La financiación autonómica"],
+      "correcta": 1,
+      "justificacion": "El artículo 1 incluye los requisitos de validez y eficacia de los actos administrativos y el procedimiento administrativo común.",
+      "trampa": "No confundir la Ley 39/2015 con la Ley 40/2015, centrada en el régimen jurídico del sector público.",
+      "referencia": "content/uc3m/tema-02/manual.md#1-objeto-y-ámbito-de-aplicación"
+    },
+    {
+      "id": "UC3M-T02-002",
+      "pregunta": "¿Quién puede ser interesado en un procedimiento sin haberlo iniciado?",
+      "opciones": ["Solo quien tenga un derecho subjetivo ya reconocido", "Quien tenga derechos que puedan resultar afectados por la decisión", "Cualquier ciudadano, aunque carezca de relación con el asunto", "Únicamente una persona jurídica"],
+      "correcta": 1,
+      "justificacion": "El artículo 4 reconoce como interesado a quien, sin iniciar el procedimiento, tenga derechos que puedan resultar afectados por la decisión.",
+      "trampa": "El interés legítimo también puede dar la condición de interesado, pero exige comparecer antes de la resolución definitiva.",
+      "referencia": "content/uc3m/tema-02/manual.md#2-capacidad-de-obrar-y-concepto-de-interesado"
+    },
+    {
+      "id": "UC3M-T02-003",
+      "pregunta": "¿Para cuál de estas actuaciones debe acreditarse la representación?",
+      "opciones": ["Consultar el estado de un expediente", "Recoger información general", "Interponer un recurso administrativo", "Realizar una gestión de mero trámite"],
+      "correcta": 2,
+      "justificacion": "La representación debe acreditarse para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir y renunciar.",
+      "trampa": "En los actos de mero trámite la representación se presume.",
+      "referencia": "content/uc3m/tema-02/manual.md#3-representación"
+    },
+    {
+      "id": "UC3M-T02-004",
+      "pregunta": "¿Cuál es la validez máxima de un poder inscrito en un registro electrónico de apoderamientos?",
+      "opciones": ["Dos años", "Tres años", "Cinco años", "Diez años"],
+      "correcta": 2,
+      "justificacion": "Los poderes inscritos tienen una validez máxima de cinco años, prorrogables por períodos máximos de cinco años.",
+      "trampa": "La prórroga no convierte el poder en indefinido.",
+      "referencia": "content/uc3m/tema-02/manual.md#4-registros-electrónicos-de-apoderamientos"
+    },
+    {
+      "id": "UC3M-T02-005",
+      "pregunta": "¿En cuál de estos casos exige la Ley 39/2015 la firma del interesado?",
+      "opciones": ["Solicitar información general", "Consultar un expediente", "Presentar una declaración responsable", "Acceder a una notificación"],
+      "correcta": 2,
+      "justificacion": "El artículo 11 exige firma, entre otros casos, para presentar declaraciones responsables o comunicaciones.",
+      "trampa": "Con carácter general basta la identificación; la firma se reserva a actuaciones expresamente enumeradas.",
+      "referencia": "content/uc3m/tema-02/manual.md#5-identificación-y-firma"
+    },
+    {
+      "id": "UC3M-T02-006",
+      "pregunta": "¿Cuál de los siguientes sujetos está obligado a relacionarse electrónicamente con las Administraciones Públicas?",
+      "opciones": ["Toda persona física mayor de edad", "Una sociedad mercantil", "Cualquier jubilado", "Todo menor emancipado"],
+      "correcta": 1,
+      "justificacion": "Las personas jurídicas están obligadas a relacionarse electrónicamente con las Administraciones Públicas.",
+      "trampa": "Las personas físicas, con carácter general, pueden elegir el medio salvo que una norma les imponga la obligación.",
+      "referencia": "content/uc3m/tema-02/manual.md#7-derecho-y-obligación-de-relacionarse-electrónicamente"
+    },
+    {
+      "id": "UC3M-T02-007",
+      "pregunta": "Si un documento se presenta en un registro electrónico un día inhábil, ¿cuándo se entiende presentado a efectos de cómputo de plazos?",
+      "opciones": ["En el mismo instante, siempre", "En la última hora del día hábil anterior", "En la primera hora del primer día hábil siguiente", "Al mediodía del siguiente día natural"],
+      "correcta": 2,
+      "justificacion": "La presentación en día inhábil se entiende realizada en la primera hora del primer día hábil siguiente, salvo previsión expresa distinta.",
+      "trampa": "El registro está abierto 24/7, pero eso no convierte todos los días en hábiles.",
+      "referencia": "content/uc3m/tema-02/manual.md#9-registros-y-archivo-de-documentos"
+    },
+    {
+      "id": "UC3M-T02-008",
+      "pregunta": "Si la norma reguladora no fija plazo máximo para resolver, ¿cuál se aplica?",
+      "opciones": ["Un mes", "Tres meses", "Seis meses", "Un año"],
+      "correcta": 1,
+      "justificacion": "Cuando la norma reguladora no fija plazo, el plazo máximo para resolver es de tres meses.",
+      "trampa": "Seis meses es el límite general del plazo fijado reglamentariamente, salvo norma con rango de ley o Derecho de la Unión Europea.",
+      "referencia": "content/uc3m/tema-02/manual.md#11-obligación-de-resolver"
+    },
+    {
+      "id": "UC3M-T02-009",
+      "pregunta": "¿Qué efecto produce, con carácter general, el silencio en un procedimiento iniciado a solicitud del interesado?",
+      "opciones": ["Caducidad", "Estimación", "Desestimación", "Suspensión automática"],
+      "correcta": 1,
+      "justificacion": "La regla general es el silencio estimatorio, sin perjuicio de las excepciones legales.",
+      "trampa": "Responsabilidad patrimonial, derecho de petición e impugnación de actos son ejemplos de silencio desestimatorio.",
+      "referencia": "content/uc3m/tema-02/manual.md#12-silencio-administrativo"
+    },
+    {
+      "id": "UC3M-T02-010",
+      "pregunta": "En un procedimiento sancionador iniciado de oficio, la falta de resolución en plazo produce, con carácter general:",
+      "opciones": ["Silencio estimatorio", "Silencio desestimatorio", "Caducidad", "Nulidad automática de todas las actuaciones"],
+      "correcta": 2,
+      "justificacion": "En procedimientos sancionadores o de intervención susceptibles de producir efectos desfavorables, el vencimiento del plazo produce la caducidad.",
+      "trampa": "La Administración sigue obligada a resolver aunque haya vencido el plazo.",
+      "referencia": "content/uc3m/tema-02/manual.md#12-silencio-administrativo"
+    },
+    {
+      "id": "UC3M-T02-011",
+      "pregunta": "¿Qué días se excluyen del cómputo cuando un plazo se expresa en días hábiles?",
+      "opciones": ["Solo domingos y festivos", "Sábados, domingos y festivos", "Solo sábados y domingos", "Todos los días de agosto"],
+      "correcta": 1,
+      "justificacion": "En el cómputo administrativo de días hábiles se excluyen sábados, domingos y festivos.",
+      "trampa": "El sábado es inhábil aunque no sea festivo.",
+      "referencia": "content/uc3m/tema-02/manual.md#13-términos-y-plazos"
+    },
+    {
+      "id": "UC3M-T02-012",
+      "pregunta": "¿En cuál de estos casos existe nulidad de pleno derecho?",
+      "opciones": ["Cualquier defecto formal", "Una actuación realizada fuera de plazo", "Un acto dictado por órgano manifiestamente incompetente por razón de la materia", "Una motivación demasiado breve"],
+      "correcta": 2,
+      "justificacion": "La incompetencia manifiesta por razón de la materia o del territorio es causa de nulidad de pleno derecho.",
+      "trampa": "La incompetencia jerárquica suele determinar anulabilidad, no nulidad de pleno derecho.",
+      "referencia": "content/uc3m/tema-02/manual.md#17-nulidad-y-anulabilidad"
+    }
+  ]
+}
