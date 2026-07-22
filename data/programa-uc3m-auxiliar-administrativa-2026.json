@@ -16,10 +16,7 @@
     "tasa": "13,83 euros",
     "primerEjercicioDesde": "15 de septiembre de 2026",
     "ejercicio": "70 preguntas más 5 de reserva, 60 minutos, penalización de 1/3 por error",
-    "fuentePrograma": {
-      "publicacion": "BOE número 163, de 6 de julio de 2026",
-      "codigoVerificacion": "BOE-A-2026-14624"
-    }
+    "fuentePrograma": {"publicacion":"BOE número 163, de 6 de julio de 2026","codigoVerificacion":"BOE-A-2026-14624"}
   },
   "estadosPermitidos": ["PENDIENTE_RECONSTRUCCION","BORRADOR","EN_REVISION_USUARIO","APROBADO_USUARIO","PUBLICADO"],
   "bloques": [
@@ -33,7 +30,7 @@
     {"numero":2,"titulo":"Ley 39/2015 (I): disposiciones generales; interesados; actividad de las Administraciones Públicas; actos administrativos.","bloque":"generales","estado":"EN_REVISION_USUARIO","manual":"content/uc3m/tema-02/manual.md","fuentes":"content/uc3m/tema-02/fuentes.md","matriz":"content/uc3m/tema-02/matriz.json","preguntas":"content/uc3m/tema-02/preguntas.json"},
     {"numero":3,"titulo":"Ley 39/2015 (II): procedimiento administrativo común y revisión de los actos en vía administrativa.","bloque":"generales","estado":"EN_REVISION_USUARIO","manual":"content/uc3m/tema-03/manual.md","fuentes":"content/uc3m/tema-03/fuentes.md","matriz":"content/uc3m/tema-03/matriz.json","preguntas":"content/uc3m/tema-03/preguntas.json"},
     {"numero":4,"titulo":"Ley 40/2015 (I): órganos de las Administraciones Públicas.","bloque":"generales","estado":"EN_REVISION_USUARIO","manual":"content/uc3m/tema-04/manual.md","fuentes":"content/uc3m/tema-04/fuentes.md","matriz":"content/uc3m/tema-04/matriz.json","preguntas":"content/uc3m/tema-04/preguntas.json"},
-    {"numero":5,"titulo":"Ley 40/2015 (II): funcionamiento electrónico del sector público.","bloque":"generales","estado":"BORRADOR"},
+    {"numero":5,"titulo":"Ley 40/2015 (II): funcionamiento electrónico del sector público.","bloque":"generales","estado":"EN_REVISION_USUARIO","manual":"content/uc3m/tema-05/manual.md","fuentes":"content/uc3m/tema-05/fuentes.md","matriz":"content/uc3m/tema-05/matriz.json","preguntas":"content/uc3m/tema-05/preguntas.json"},
     {"numero":6,"titulo":"Ley Orgánica 3/2018 de protección de datos: disposiciones generales, principios, derechos, responsable, encargado y delegado de protección de datos.","bloque":"generales","estado":"BORRADOR"},
     {"numero":7,"titulo":"Ley 10/2019 de Transparencia y Participación de la Comunidad de Madrid; publicidad activa; acceso a la información pública; Portal de Transparencia y procedimiento de acceso en la UC3M.","bloque":"generales","estado":"BORRADOR"},
     {"numero":8,"titulo":"Ley Orgánica 3/2007 de igualdad; normativa UC3M sobre igualdad, identidad y expresión de género, no discriminación y acoso; III Plan de Igualdad de la UC3M.","bloque":"generales","estado":"BORRADOR"},
