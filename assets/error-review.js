@@ -67,9 +67,13 @@ function updateQuestion(bank, number, correct) {
 }
 
 function questionsPath(route) {
-  const root = route.callId === 'diputacion-toledo-administrativo-c1-2026'
-    ? 'content/diputacion-toledo'
-    : 'content/la-puebla';
+  const roots = {
+    'la-puebla-auxiliar-administrativo-2026': 'content/la-puebla',
+    'diputacion-toledo-administrativo-c1-2026': 'content/diputacion-toledo',
+    'uc3m-auxiliar-administrativa-c2-2026': 'content/uc3m'
+  };
+  const root = roots[route.callId];
+  if (!root) return null;
   return `${root}/tema-${String(route.themeNumber).padStart(2, '0')}/preguntas.json`;
 }
 
@@ -115,7 +119,9 @@ async function startReview(route) {
   if (!slot) return;
   slot.innerHTML = '<p class="notice">Cargando preguntas falladas…</p>';
   try {
-    const response = await fetch(questionsPath(route), { cache: 'no-cache' });
+    const path = questionsPath(route);
+    if (!path) throw new Error('Convocatoria no compatible');
+    const response = await fetch(path, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const allQuestions = normaliseQuestions(await response.json());
     const numbers = pendingNumbers(readBank(route)).filter(number => allQuestions[number - 1]);
