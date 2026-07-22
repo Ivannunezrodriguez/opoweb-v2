@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.24.0';
+const CACHE = 'opoweb-v2-0.25.0';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -22,6 +22,7 @@ const CORE_ASSETS = [
   './assets/icon.svg',
   './data/programa.json',
   './data/programa-diputacion-administrativo-2026.json',
+  './data/programa-uc3m-auxiliar-administrativa-2026.json',
   './data/seguimiento-la-puebla.json',
   './data/seguimiento-diputacion-c1.json',
   './content/la-puebla/supuestos-practicos.json',
@@ -60,7 +61,8 @@ async function programmeAssets(url, contentRoot, availableThemes) {
 async function optionalAssets() {
   const groups = await Promise.all([
     programmeAssets('./data/programa.json', 'content/la-puebla', 19),
-    programmeAssets('./data/programa-diputacion-administrativo-2026.json', 'content/diputacion-toledo', 40)
+    programmeAssets('./data/programa-diputacion-administrativo-2026.json', 'content/diputacion-toledo', 40),
+    programmeAssets('./data/programa-uc3m-auxiliar-administrativa-2026.json', 'content/uc3m', 0)
   ]);
   return [...new Set(groups.flat())];
 }
