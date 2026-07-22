@@ -1,0 +1,116 @@
+{
+  "convocatoria": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
+  "tema": 3,
+  "version": "2026-07-22",
+  "estado": "EN_REVISION_USUARIO",
+  "preguntas": [
+    {
+      "id": "UC3M-T03-001",
+      "pregunta": "¿Cuál de las siguientes afirmaciones sobre una denuncia es correcta?",
+      "opciones": ["Convierte siempre al denunciante en interesado", "Solo puede presentarla una persona jurídica", "No confiere por sí sola la condición de interesado", "Obliga siempre a iniciar el procedimiento"],
+      "correcta": 2,
+      "justificacion": "La presentación de una denuncia no confiere, por sí sola, la condición de interesado en el procedimiento.",
+      "trampa": "Denunciante e interesado no son conceptos equivalentes.",
+      "referencia": "content/uc3m/tema-03/manual.md#2-iniciación-del-procedimiento"
+    },
+    {
+      "id": "UC3M-T03-002",
+      "pregunta": "¿Qué recurso procede contra el acuerdo de acumulación de procedimientos?",
+      "opciones": ["Alzada", "Reposición", "Extraordinario de revisión", "Ninguno"],
+      "correcta": 3,
+      "justificacion": "Contra el acuerdo de acumulación no procede recurso, sin perjuicio de poder alegar lo que corresponda frente a la resolución final.",
+      "trampa": "No todo acto de trámite es recurrible separadamente.",
+      "referencia": "content/uc3m/tema-03/manual.md#2-iniciación-del-procedimiento"
+    },
+    {
+      "id": "UC3M-T03-003",
+      "pregunta": "¿Cuál es el plazo general para subsanar una solicitud?",
+      "opciones": ["Cinco días", "Diez días", "Quince días", "Veinte días"],
+      "correcta": 1,
+      "justificacion": "La Administración requiere la subsanación en diez días, con advertencia de desistimiento.",
+      "trampa": "La ampliación adicional máxima ordinaria puede ser de cinco días, pero el plazo inicial es de diez.",
+      "referencia": "content/uc3m/tema-03/manual.md#3-solicitudes-y-subsanación"
+    },
+    {
+      "id": "UC3M-T03-004",
+      "pregunta": "En la tramitación de urgencia, ¿qué plazos no se reducen a la mitad?",
+      "opciones": ["Los de prueba e informes", "Los de audiencia e información pública", "Los de presentación de solicitudes y recursos", "Todos se reducen sin excepción"],
+      "correcta": 2,
+      "justificacion": "La urgencia reduce a la mitad los plazos ordinarios, salvo los relativos a presentación de solicitudes y recursos.",
+      "trampa": "La urgencia no afecta por igual a todos los plazos.",
+      "referencia": "content/uc3m/tema-03/manual.md#4-ordenación"
+    },
+    {
+      "id": "UC3M-T03-005",
+      "pregunta": "¿Cuál es la duración ordinaria del periodo de prueba?",
+      "opciones": ["Entre cinco y diez días", "Entre diez y veinte días", "Entre diez y treinta días", "Treinta días exactos"],
+      "correcta": 2,
+      "justificacion": "El periodo ordinario de prueba no será inferior a diez ni superior a treinta días.",
+      "trampa": "Puede existir además un periodo extraordinario de hasta diez días.",
+      "referencia": "content/uc3m/tema-03/manual.md#prueba"
+    },
+    {
+      "id": "UC3M-T03-006",
+      "pregunta": "¿Qué plazo se concede para el trámite de audiencia?",
+      "opciones": ["De cinco a diez días", "De diez a quince días", "De quince a veinte días", "Veinte días exactos"],
+      "correcta": 1,
+      "justificacion": "El trámite de audiencia se concede por un plazo no inferior a diez ni superior a quince días.",
+      "trampa": "El mínimo de veinte días corresponde a la información pública.",
+      "referencia": "content/uc3m/tema-03/manual.md#audiencia-e-información-pública"
+    },
+    {
+      "id": "UC3M-T03-007",
+      "pregunta": "¿Cuál es el plazo mínimo de la información pública?",
+      "opciones": ["Diez días", "Quince días", "Veinte días", "Un mes"],
+      "correcta": 2,
+      "justificacion": "El anuncio de información pública debe conceder un plazo no inferior a veinte días.",
+      "trampa": "Comparecer en información pública no otorga por sí mismo la condición de interesado.",
+      "referencia": "content/uc3m/tema-03/manual.md#audiencia-e-información-pública"
+    },
+    {
+      "id": "UC3M-T03-008",
+      "pregunta": "En un procedimiento iniciado a solicitud, ¿cuándo puede producirse la caducidad por paralización imputable al interesado?",
+      "opciones": ["Tras un mes sin actuación", "Tras dos meses", "Tras tres meses desde la advertencia", "Automáticamente al vencer cualquier trámite"],
+      "correcta": 2,
+      "justificacion": "La caducidad exige advertencia previa y el transcurso de tres meses sin que el interesado reactive la tramitación.",
+      "trampa": "La inactividad en un trámite no indispensable puede provocar solo la pérdida de ese trámite.",
+      "referencia": "content/uc3m/tema-03/manual.md#6-finalización"
+    },
+    {
+      "id": "UC3M-T03-009",
+      "pregunta": "¿En qué plazo debe resolverse, con carácter general, el procedimiento simplificado?",
+      "opciones": ["Quince días", "Veinte días", "Treinta días", "Tres meses"],
+      "correcta": 2,
+      "justificacion": "La tramitación simplificada debe resolverse en treinta días, salvo que reste menos para concluir la ordinaria.",
+      "trampa": "No debe confundirse con los plazos de los recursos administrativos.",
+      "referencia": "content/uc3m/tema-03/manual.md#7-tramitación-simplificada"
+    },
+    {
+      "id": "UC3M-T03-010",
+      "pregunta": "¿Cuál de los siguientes NO es un medio de ejecución forzosa?",
+      "opciones": ["Apremio sobre el patrimonio", "Ejecución subsidiaria", "Multa coercitiva", "Recurso de alzada"],
+      "correcta": 3,
+      "justificacion": "Los medios de ejecución forzosa son apremio, ejecución subsidiaria, multa coercitiva y compulsión sobre las personas.",
+      "trampa": "El recurso de alzada es un medio de impugnación, no de ejecución.",
+      "referencia": "content/uc3m/tema-03/manual.md#8-ejecución"
+    },
+    {
+      "id": "UC3M-T03-011",
+      "pregunta": "¿Cuál es el plazo máximo para declarar lesivo un acto anulable favorable?",
+      "opciones": ["Un año", "Dos años", "Cuatro años", "No existe plazo"],
+      "correcta": 2,
+      "justificacion": "La declaración de lesividad debe adoptarse dentro de los cuatro años siguientes a la fecha del acto.",
+      "trampa": "La revisión de actos nulos puede iniciarse en cualquier momento; la lesividad sí tiene límite temporal.",
+      "referencia": "content/uc3m/tema-03/manual.md#9-revisión-de-oficio"
+    },
+    {
+      "id": "UC3M-T03-012",
+      "pregunta": "¿Qué plazo tiene la Administración para resolver un recurso de alzada?",
+      "opciones": ["Un mes", "Dos meses", "Tres meses", "Seis meses"],
+      "correcta": 2,
+      "justificacion": "El plazo máximo para dictar y notificar la resolución del recurso de alzada es de tres meses.",
+      "trampa": "El recurso potestativo de reposición debe resolverse en un mes.",
+      "referencia": "content/uc3m/tema-03/manual.md#recurso-de-alzada"
+    }
+  ]
+}
