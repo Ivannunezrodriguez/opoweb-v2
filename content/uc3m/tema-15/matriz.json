@@ -1,0 +1,18 @@
+{
+  "tema": 15,
+  "epigrafe": "Estatutos de la Universidad Carlos III de Madrid: Defensor Universitario, servicios universitarios, régimen económico-financiero y reforma de los Estatutos.",
+  "estado": "EN_REVISION_USUARIO",
+  "cobertura": [
+    {"bloque":"Naturaleza de los Estatutos","apartados":[1],"preguntas":[]},
+    {"bloque":"Defensor Universitario","apartados":[2,3],"preguntas":["UC3M-T15-001","UC3M-T15-002","UC3M-T15-003"]},
+    {"bloque":"Servicios universitarios","apartados":[4,5],"preguntas":["UC3M-T15-004"]},
+    {"bloque":"Régimen económico-financiero","apartados":[6,7,8,9,10],"preguntas":["UC3M-T15-005","UC3M-T15-006","UC3M-T15-007"]},
+    {"bloque":"Reforma de los Estatutos","apartados":[11,12,13],"preguntas":["UC3M-T15-008","UC3M-T15-009","UC3M-T15-010","UC3M-T15-011","UC3M-T15-012"]}
+  ],
+  "control": {
+    "epigrafeCubierto": true,
+    "preguntasTotales": 12,
+    "fuentesOficiales": true,
+    "pendienteRevisionUsuario": true
+  }
+}
