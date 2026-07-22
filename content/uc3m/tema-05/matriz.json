@@ -1,0 +1,17 @@
+{
+  "tema": 5,
+  "epigrafeOficial": "Ley 40/2015 (II): funcionamiento electrónico del sector público.",
+  "cobertura": [
+    {"apartado":"Sede electrónica","articulos":"38","estado":"CUBIERTO"},
+    {"apartado":"Portal de internet","articulos":"39","estado":"CUBIERTO"},
+    {"apartado":"Identificación de las Administraciones","articulos":"40","estado":"CUBIERTO"},
+    {"apartado":"Actuación administrativa automatizada","articulos":"41-42","estado":"CUBIERTO"},
+    {"apartado":"Firma del personal público","articulos":"43","estado":"CUBIERTO"},
+    {"apartado":"Intercambio en entornos cerrados","articulos":"44","estado":"CUBIERTO"},
+    {"apartado":"Interoperabilidad de la firma","articulos":"45","estado":"CUBIERTO"},
+    {"apartado":"Archivo electrónico","articulos":"46","estado":"CUBIERTO"},
+    {"apartado":"Ubicación de sistemas y datos","articulos":"46 bis","estado":"CUBIERTO"},
+    {"apartado":"Relaciones electrónicas, reutilización y transferencia de tecnología","articulos":"155-158","estado":"CUBIERTO"}
+  ],
+  "resultado":"COBERTURA_COMPLETA"
+}
