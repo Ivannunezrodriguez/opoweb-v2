@@ -2,77 +2,157 @@
 
 > Epígrafe oficial: disposiciones generales, autonomía, creación de universidades, enseñanzas, investigación, cooperación, sociedad e internacionalización.
 
-## 1. Objeto y principios
+## 1. Objeto y ámbito de la LOSU
 
-La Ley Orgánica 2/2023 regula el sistema universitario y garantiza su calidad, equidad y servicio al interés general. La universidad desarrolla docencia, investigación, transferencia e intercambio del conocimiento, formación a lo largo de la vida y contribución al progreso social, económico y cultural.
+La Ley Orgánica 2/2023, de 22 de marzo, regula el sistema universitario, su coordinación y los mecanismos de cooperación entre las Administraciones Públicas con competencias en la materia. Su finalidad es garantizar el funcionamiento de la Universidad como servicio público de educación superior, investigación y transferencia del conocimiento.
 
-El sistema universitario se inspira en autonomía, libertad académica, participación, igualdad, inclusión, sostenibilidad, transparencia, rendición de cuentas, cooperación e internacionalización.
+El sistema universitario está integrado por las universidades públicas y privadas y por los centros y estructuras que desarrollan funciones universitarias en los términos previstos por la ley.
 
-## 2. Autonomía universitaria
+## 2. Funciones del sistema universitario
 
-La autonomía comprende, en los términos de la ley:
+Las universidades desarrollan, entre otras, las siguientes funciones:
 
-- elaboración de Estatutos y normas internas;
-- elección y designación de órganos de gobierno y representación;
-- creación de estructuras de docencia e investigación;
-- elaboración y aprobación de planes de estudio;
-- selección, formación y promoción del personal;
-- admisión, régimen académico y verificación de conocimientos;
-- elaboración, aprobación y gestión del presupuesto;
-- administración de bienes;
-- establecimiento de relaciones con otras entidades.
+- educación y formación del estudiantado;
+- creación, desarrollo, transmisión y crítica de la ciencia, la tecnología, la cultura y las artes;
+- investigación y transferencia e intercambio del conocimiento;
+- formación permanente y a lo largo de la vida;
+- difusión, valorización y transferencia del conocimiento al servicio de la sociedad;
+- contribución al desarrollo económico, social, territorial y cultural;
+- promoción de la igualdad, la sostenibilidad, la inclusión y los valores democráticos.
 
-La autonomía no significa ausencia de control. Las universidades están sujetas a legalidad, evaluación, transparencia, control financiero y rendición de cuentas.
+La docencia y la investigación no son funciones aisladas: deben relacionarse con la transferencia, la innovación, la cultura y la responsabilidad social universitaria.
 
-## 3. Creación y reconocimiento de universidades
+## 3. Principios del sistema universitario
 
-Las universidades públicas se crean por ley de la comunidad autónoma correspondiente o por ley estatal en el ámbito de sus competencias. Las privadas se reconocen por ley autonómica. Deben cumplirse requisitos básicos sobre oferta, investigación, personal, instalaciones, sostenibilidad y calidad.
+El sistema se inspira en la autonomía universitaria, la libertad académica, la participación de la comunidad universitaria, la igualdad, la inclusión, la calidad, la transparencia, la rendición de cuentas, la cooperación, la sostenibilidad y la internacionalización.
 
-La puesta en funcionamiento requiere autorización y verificación del cumplimiento de condiciones. La extinción o revocación se produce conforme al procedimiento y garantías legales.
+La libertad académica comprende las libertades de cátedra, investigación y estudio, dentro del respeto a la Constitución y al resto del ordenamiento jurídico.
 
-## 4. Estructura universitaria
+## 4. Autonomía universitaria
 
-Las universidades pueden organizarse en facultades, escuelas, departamentos, institutos universitarios de investigación, escuelas de doctorado y otras estructuras necesarias.
+La autonomía universitaria está reconocida por el artículo 27.10 de la Constitución y se ejerce en los términos de la LOSU y de las restantes normas aplicables.
 
-Las facultades y escuelas organizan enseñanzas y procesos académicos. Los departamentos coordinan docencia de áreas de conocimiento y apoyan investigación. Los institutos realizan investigación científica, técnica, humanística o artística y pueden impartir programas de doctorado o posgrado.
+Comprende, entre otras facultades:
 
-## 5. Enseñanzas universitarias
+- elaborar Estatutos y normas internas;
+- elegir o designar órganos de gobierno y representación;
+- crear estructuras de docencia e investigación;
+- elaborar y aprobar planes de estudio;
+- seleccionar, formar y promover al personal;
+- establecer procedimientos de admisión, régimen académico y evaluación;
+- elaborar, aprobar y gestionar el presupuesto;
+- administrar bienes y recursos;
+- establecer relaciones de cooperación con otras instituciones.
 
-Las enseñanzas oficiales se estructuran en Grado, Máster Universitario y Doctorado. Los planes de estudio deben verificarse, implantarse, someterse a seguimiento y renovar su acreditación.
+La autonomía no implica ausencia de control. Las universidades están sujetas a la legalidad, la evaluación de la calidad, la transparencia, el control financiero y la rendición de cuentas.
 
-Las universidades también pueden impartir títulos propios y formación permanente. La docencia debe garantizar calidad, inclusión, atención a diversidad, competencia digital, aprendizaje a lo largo de la vida y participación del estudiantado.
+## 5. Coordinación y cooperación
 
-## 6. Calidad
+La cooperación entre el Estado, las comunidades autónomas y las universidades resulta esencial para garantizar la cohesión del sistema. Se articula mediante órganos, conferencias, convenios, redes y mecanismos de intercambio de información.
 
-El aseguramiento de la calidad corresponde a universidades, agencias de evaluación y Administraciones. Comprende evaluación de titulaciones, centros, actividad docente, investigación, transferencia y servicios.
+La Conferencia General de Política Universitaria es el órgano de concertación, coordinación y cooperación de la política universitaria general. El Consejo de Universidades desarrolla funciones de coordinación académica, cooperación, consulta y propuesta.
 
-Los sistemas internos de garantía de calidad deben incluir indicadores, participación de colectivos, análisis de resultados y mejora continua.
+## 6. Creación y reconocimiento de universidades
 
-## 7. Investigación y transferencia
+Las universidades públicas se crean por ley de la comunidad autónoma correspondiente o, en el ámbito de sus competencias, por ley estatal. Las universidades privadas son reconocidas por ley de la comunidad autónoma.
 
-La investigación es función esencial y fundamento de la docencia. Las universidades fomentan investigación básica y aplicada, interdisciplinariedad, ciencia abierta, integridad científica, transferencia, innovación y colaboración con sociedad y empresas.
+La creación o reconocimiento exige el cumplimiento de requisitos básicos relativos, entre otros aspectos, a:
 
-La actividad investigadora debe respetar principios éticos, igualdad, protección de datos, propiedad intelectual, acceso abierto y adecuada gestión de resultados.
+- oferta académica suficiente;
+- actividad investigadora;
+- disponibilidad y cualificación del personal;
+- instalaciones y recursos adecuados;
+- sostenibilidad económica;
+- garantía de calidad.
 
-## 8. Cooperación y alianzas
+La puesta en funcionamiento requiere autorización una vez comprobado el cumplimiento de las condiciones exigidas. El incumplimiento grave puede dar lugar a revocación o extinción conforme al procedimiento legal.
 
-Las universidades pueden establecer convenios, consorcios, alianzas, redes y titulaciones conjuntas con entidades nacionales e internacionales. La cooperación favorece movilidad, uso compartido de recursos, investigación conjunta y transferencia.
+## 7. Estructuras universitarias
 
-## 9. Universidad y sociedad
+Las universidades pueden organizarse en facultades, escuelas, departamentos, institutos universitarios de investigación, escuelas de doctorado y otras estructuras necesarias para sus funciones.
 
-La universidad debe contribuir al desarrollo territorial, cultura, pensamiento crítico, empleabilidad, emprendimiento, sostenibilidad, igualdad y cohesión social. La transferencia del conocimiento no se limita a resultados comerciales: incluye divulgación, innovación social y asesoramiento científico.
+- Las facultades y escuelas organizan las enseñanzas y los procesos académicos.
+- Los departamentos coordinan la docencia de sus ámbitos de conocimiento y apoyan la investigación.
+- Los institutos universitarios desarrollan investigación científica, técnica, humanística o artística y pueden colaborar en programas de posgrado y doctorado.
+- Las escuelas de doctorado organizan las enseñanzas y actividades propias del doctorado.
 
-## 10. Internacionalización
+## 8. Enseñanzas universitarias
 
-Las universidades impulsan movilidad de estudiantes y personal, programas conjuntos, reconocimiento académico, cooperación internacional y atracción de talento. Deben promover aprendizaje de lenguas y dimensión internacional de docencia e investigación.
+Las enseñanzas universitarias oficiales se estructuran en:
 
-## 11. Convivencia y participación
+- Grado;
+- Máster Universitario;
+- Doctorado.
 
-La comunidad universitaria está formada por estudiantado, personal docente e investigador y personal técnico, de gestión y de administración y servicios. La participación se canaliza mediante órganos colegiados y representación democrática.
+Los planes de estudio deben someterse a verificación, autorización, implantación, seguimiento y renovación de la acreditación. La calidad se garantiza mediante sistemas internos de las universidades y la actuación de las agencias de evaluación.
 
-## Claves de examen
+Las universidades también pueden impartir títulos propios, microcredenciales y otras actividades de formación permanente. Estas enseñanzas no deben confundirse con los títulos oficiales.
 
-- Autonomía universitaria está reconocida constitucionalmente y desarrollada por ley.
-- Grado, Máster y Doctorado son enseñanzas oficiales.
-- La autonomía convive con control y rendición de cuentas.
-- Investigación, transferencia e internacionalización son funciones nucleares.
+## 9. Principios de la docencia
+
+La docencia debe garantizar calidad, inclusión, accesibilidad, atención a la diversidad, igualdad de oportunidades, competencia digital, participación del estudiantado y aprendizaje a lo largo de la vida.
+
+Las metodologías y sistemas de evaluación deben ser coherentes con los resultados de aprendizaje y respetar los derechos del estudiantado. La innovación docente y la formación del profesorado forman parte de la mejora continua.
+
+## 10. Aseguramiento de la calidad
+
+El aseguramiento de la calidad corresponde a las universidades, las agencias de evaluación y las Administraciones competentes.
+
+Comprende la evaluación de:
+
+- titulaciones y planes de estudio;
+- centros y estructuras;
+- actividad docente;
+- investigación y transferencia;
+- servicios y gestión universitaria.
+
+Los sistemas internos de garantía de calidad deben utilizar indicadores, participación de los colectivos afectados, análisis de resultados, publicidad y medidas de mejora.
+
+## 11. Investigación, transferencia e intercambio del conocimiento
+
+La investigación es una función esencial de la Universidad y fundamento de la docencia. Las universidades deben fomentar:
+
+- investigación básica y aplicada;
+- interdisciplinariedad;
+- ciencia abierta;
+- integridad científica;
+- transferencia e innovación;
+- colaboración con Administraciones, sociedad y empresas;
+- difusión social de los resultados.
+
+La actividad investigadora debe respetar la ética, la igualdad, la protección de datos, la propiedad intelectual e industrial y las reglas sobre acceso abierto y gestión de resultados.
+
+## 12. Cooperación universitaria
+
+Las universidades pueden establecer convenios, consorcios, alianzas, redes, programas conjuntos y titulaciones compartidas con instituciones nacionales e internacionales.
+
+La cooperación permite impulsar movilidad, uso compartido de recursos, investigación conjunta, transferencia, innovación y mejora de la calidad.
+
+## 13. Universidad y sociedad
+
+La Universidad debe contribuir al desarrollo territorial, la cultura, el pensamiento crítico, la empleabilidad, el emprendimiento, la sostenibilidad, la igualdad y la cohesión social.
+
+La transferencia del conocimiento no se limita a la explotación económica de resultados. Incluye divulgación científica, innovación social, asesoramiento, cultura y colaboración con instituciones y ciudadanía.
+
+## 14. Internacionalización
+
+La internacionalización es una dimensión transversal del sistema universitario. Comprende:
+
+- movilidad de estudiantes y personal;
+- programas y titulaciones conjuntas;
+- cooperación académica y científica internacional;
+- reconocimiento de estudios;
+- atracción de talento;
+- aprendizaje de lenguas;
+- participación en redes y alianzas internacionales.
+
+Debe desarrollarse con criterios de calidad, equidad y eliminación de barreras económicas, sociales o de discapacidad.
+
+## 15. Claves de examen
+
+- La autonomía universitaria está reconocida constitucionalmente, pero convive con control y rendición de cuentas.
+- Las enseñanzas oficiales son Grado, Máster Universitario y Doctorado.
+- Crear una universidad pública y reconocer una privada exige una ley.
+- La investigación, la transferencia, la cooperación y la internacionalización son funciones esenciales del sistema.
+- Los títulos propios y la formación permanente no son títulos oficiales.
+- La calidad se garantiza mediante la actuación conjunta de universidades, agencias y Administraciones.
