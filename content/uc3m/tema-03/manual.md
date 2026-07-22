@@ -2,76 +2,166 @@
 
 > Epígrafe oficial: procedimiento administrativo común y revisión de los actos en vía administrativa.
 
-## 1. Fases del procedimiento
+## 1. Derechos del interesado
 
-El procedimiento puede iniciarse de oficio o a solicitud del interesado. La iniciación de oficio se produce por propia iniciativa, orden superior, petición razonada o denuncia. Antes de iniciar pueden practicarse actuaciones previas y adoptarse medidas provisionales cuando sean necesarias y proporcionadas.
+Además de los derechos generales de las personas ante las Administraciones, quien tiene la condición de interesado puede conocer en cualquier momento el estado de tramitación, el sentido del silencio, el órgano competente para instruir y resolver y los actos de trámite dictados. También puede acceder al expediente y obtener copia, identificar a las autoridades y personal responsables, formular alegaciones, aportar documentos, actuar asistido de asesor y no presentar documentos originales salvo excepción legal.
 
-La solicitud debe contener identificación del interesado, hechos y petición, lugar y fecha, firma y órgano destinatario. Si no reúne los requisitos, se concede un plazo de diez días para subsanar, ampliable hasta cinco días salvo procedimientos selectivos o de concurrencia competitiva.
+## 2. Iniciación del procedimiento
 
-## 2. Ordenación
+El procedimiento puede iniciarse de oficio o a solicitud del interesado.
 
-El procedimiento se impulsa de oficio y electrónicamente, respetando transparencia, publicidad y orden riguroso de incoación en asuntos homogéneos. Los trámites que deba realizar el interesado se cumplen normalmente en diez días. Las cuestiones incidentales no suspenden el procedimiento, salvo la recusación.
+La iniciación de oficio se produce por propia iniciativa, orden superior, petición razonada de otro órgano o denuncia. Antes de iniciar pueden practicarse actuaciones previas para conocer las circunstancias del caso y la conveniencia de iniciar el procedimiento.
 
-Puede acordarse tramitación de urgencia por interés público, reduciendo a la mitad los plazos, excepto los de presentación de solicitudes y recursos.
+La denuncia debe expresar la identidad del denunciante y los hechos. Su presentación no convierte por sí sola al denunciante en interesado. Cuando invoque un perjuicio al patrimonio público, la no iniciación debe motivarse y notificarse al denunciante.
 
-## 3. Instrucción
+Antes o después de la iniciación pueden adoptarse medidas provisionales motivadas, proporcionadas y necesarias para asegurar la eficacia de la resolución. No pueden causar perjuicios de difícil reparación ni vulnerar derechos protegidos por las leyes.
 
-Los actos de instrucción determinan, conocen y comprueban los hechos. Los interesados pueden formular alegaciones y aportar documentos antes del trámite de audiencia.
+La Administración puede acumular procedimientos que guarden identidad sustancial o conexión íntima si el mismo órgano debe tramitarlos y resolverlos. Contra el acuerdo de acumulación no procede recurso.
 
-La prueba se abre cuando la Administración no tenga por ciertos los hechos o la naturaleza del procedimiento lo exija. El periodo ordinario no será inferior a diez ni superior a treinta días; puede existir un periodo extraordinario de hasta diez días.
+## 3. Solicitudes y subsanación
 
-Los informes son facultativos y no vinculantes salvo disposición expresa. Se emiten normalmente en diez días.
+La solicitud debe contener:
 
-El trámite de audiencia se concede inmediatamente antes de redactar la propuesta de resolución por un plazo no inferior a diez ni superior a quince días. Puede prescindirse de él cuando no figuren ni se tengan en cuenta otros hechos, alegaciones o pruebas que los aportados por el interesado.
+- Nombre y apellidos del interesado y, en su caso, de su representante.
+- Identificación del medio electrónico o lugar físico para las notificaciones.
+- Hechos, razones y petición formulada con claridad.
+- Lugar y fecha.
+- Firma o acreditación de la autenticidad de la voluntad.
+- Órgano, centro o unidad administrativa destinataria.
 
-La información pública se anuncia oficialmente y concede un plazo no inferior a veinte días.
+Cuando la solicitud no reúna los requisitos exigidos, se requerirá al interesado para que subsane en diez días, con advertencia de desistimiento. El plazo puede ampliarse prudencialmente hasta cinco días, salvo en procedimientos selectivos o de concurrencia competitiva.
 
-## 4. Finalización
+La declaración responsable permite iniciar una actividad o ejercer un derecho desde su presentación, sin perjuicio de comprobación posterior. La comunicación pone en conocimiento de la Administración datos relevantes para iniciar una actividad o ejercer un derecho.
 
-El procedimiento termina por resolución, desistimiento, renuncia, caducidad, imposibilidad material de continuarlo por causas sobrevenidas o terminación convencional.
+## 4. Ordenación
 
-La resolución debe decidir todas las cuestiones planteadas y las derivadas del expediente. En procedimientos iniciados a solicitud, será congruente con las peticiones y no podrá agravar la situación inicial del interesado.
+El procedimiento se impulsa de oficio y por medios electrónicos. Debe respetarse el orden riguroso de incoación en asuntos de naturaleza homogénea, salvo orden motivada en contrario.
 
-El desistimiento afecta a la solicitud o procedimiento; la renuncia afecta al derecho, cuando no esté prohibida. La caducidad en procedimientos iniciados a solicitud exige paralización imputable al interesado, advertencia y transcurso de tres meses.
+Los trámites que deba cumplimentar el interesado se realizan, con carácter general, en diez días. Si no cumple, puede declarársele decaído en su derecho al trámite, aunque se admitirá su actuación si se produce antes o dentro del día en que se notifique la resolución que tenga por transcurrido el plazo.
 
-## 5. Ejecución
+Las cuestiones incidentales no suspenden el procedimiento, salvo la recusación.
 
-Los actos son inmediatamente ejecutivos salvo suspensión, sanción recurrible en vía administrativa, disposición en contrario o necesidad de aprobación superior. Los medios de ejecución forzosa son apremio sobre el patrimonio, ejecución subsidiaria, multa coercitiva y compulsión sobre las personas. Debe elegirse el medio menos restrictivo y respetarse la proporcionalidad.
+Por razones de interés público puede acordarse la tramitación de urgencia, reduciendo a la mitad los plazos ordinarios, excepto los relativos a presentación de solicitudes y recursos.
 
-## 6. Tramitación simplificada
+## 5. Instrucción
 
-Puede acordarse por razones de interés público o falta de complejidad. Debe resolverse en treinta días, salvo que reste menos para la tramitación ordinaria. Comprende únicamente los trámites expresamente enumerados por la ley. La oposición del interesado puede obligar a continuar por la vía ordinaria cuando el procedimiento se haya iniciado de oficio.
+Los actos de instrucción sirven para determinar, conocer y comprobar los hechos sobre los que debe pronunciarse la resolución. Se realizan de oficio, sin perjuicio del derecho de los interesados a proponer actuaciones.
 
-## 7. Revisión de oficio
+Los interesados pueden formular alegaciones y aportar documentos en cualquier momento anterior al trámite de audiencia. Los defectos de tramitación pueden alegarse en todo momento, especialmente los que supongan paralización, infracción de plazos u omisión de trámites subsanables.
 
-Las Administraciones pueden declarar en cualquier momento la nulidad de actos firmes o disposiciones nulas, previo dictamen favorable del Consejo de Estado u órgano consultivo autonómico equivalente. Los actos anulables favorables se impugnan mediante declaración de lesividad y posterior recurso contencioso-administrativo; la lesividad debe declararse dentro de cuatro años.
+### Prueba
 
-Los errores materiales, de hecho o aritméticos pueden rectificarse en cualquier momento. La revocación de actos desfavorables es posible mientras no haya prescrito, siempre que no vulnere igualdad, interés público ni ordenamiento.
+La prueba se abre cuando la Administración no tenga por ciertos los hechos alegados o la naturaleza del procedimiento lo exija. El periodo ordinario será de entre diez y treinta días. Puede abrirse un periodo extraordinario de hasta diez días.
 
-## 8. Recursos administrativos
+El instructor solo puede rechazar pruebas manifiestamente improcedentes o innecesarias mediante resolución motivada. En procedimientos sancionadores, los hechos declarados probados por resoluciones judiciales penales firmes vinculan a la Administración.
 
-Son recurribles las resoluciones y determinados actos de trámite cualificados.
+### Informes
+
+Los informes son facultativos y no vinculantes salvo disposición expresa. Se emiten normalmente en diez días. Si no se emiten en plazo, pueden proseguir las actuaciones, salvo cuando el informe sea preceptivo y determinante para resolver.
+
+### Audiencia e información pública
+
+El trámite de audiencia se concede inmediatamente antes de redactar la propuesta de resolución, por un plazo no inferior a diez ni superior a quince días. Puede omitirse cuando no figuren ni se tengan en cuenta otros hechos, alegaciones o pruebas que los aportados por el interesado.
+
+La información pública se anuncia en el diario oficial correspondiente y concede un plazo no inferior a veinte días. Comparecer en este trámite no otorga por sí mismo la condición de interesado.
+
+## 6. Finalización
+
+El procedimiento termina por:
+
+- Resolución.
+- Desistimiento.
+- Renuncia al derecho, cuando no esté prohibida.
+- Caducidad.
+- Imposibilidad material de continuarlo por causas sobrevenidas.
+- Terminación convencional.
+
+La resolución debe decidir todas las cuestiones planteadas y las derivadas del expediente. En procedimientos iniciados a solicitud será congruente con las peticiones y no podrá agravar la situación inicial del interesado.
+
+Antes de resolver puede acordarse la realización de actuaciones complementarias indispensables, por un plazo máximo de quince días. Los interesados dispondrán de siete días para formular alegaciones tras su finalización.
+
+El desistimiento afecta a la solicitud o al procedimiento; la renuncia afecta al derecho. La Administración puede continuar el procedimiento cuando exista interés general o resulte conveniente aclarar la cuestión.
+
+En procedimientos iniciados a solicitud, la caducidad exige paralización imputable al interesado, advertencia previa y transcurso de tres meses. La simple inactividad en trámites no indispensables para resolver solo provoca la pérdida del derecho a ese trámite.
+
+## 7. Tramitación simplificada
+
+Puede acordarse de oficio o a solicitud del interesado cuando lo aconsejen razones de interés público o la falta de complejidad. Debe resolverse en treinta días, salvo que reste menos para concluir la tramitación ordinaria.
+
+Incluye únicamente los trámites enumerados por la ley: inicio, subsanación, alegaciones durante cinco días, audiencia cuando la resolución vaya a ser desfavorable, informes preceptivos concretos y resolución. Si un trámite adicional resulta necesario, el procedimiento continúa por la vía ordinaria.
+
+## 8. Ejecución
+
+Los actos administrativos son inmediatamente ejecutivos salvo:
+
+- Suspensión de la ejecución.
+- Resolución sancionadora susceptible de recurso administrativo.
+- Disposición en contrario.
+- Necesidad de aprobación o autorización superior.
+
+Los medios de ejecución forzosa son:
+
+1. Apremio sobre el patrimonio.
+2. Ejecución subsidiaria.
+3. Multa coercitiva.
+4. Compulsión sobre las personas.
+
+Debe respetarse la proporcionalidad y elegirse el medio menos restrictivo de la libertad individual. La entrada en domicilio requiere consentimiento del titular o autorización judicial.
+
+## 9. Revisión de oficio
+
+Las Administraciones pueden declarar en cualquier momento la nulidad de actos firmes o disposiciones administrativas nulas, previo dictamen favorable del Consejo de Estado u órgano consultivo autonómico equivalente.
+
+La revisión puede inadmitirse motivadamente, sin dictamen consultivo, cuando no se funde en causa de nulidad, carezca manifiestamente de fundamento o ya se hayan desestimado solicitudes sustancialmente iguales.
+
+Los actos anulables favorables se impugnan mediante declaración de lesividad y posterior recurso contencioso-administrativo. La lesividad debe declararse dentro de cuatro años desde que se dictó el acto.
+
+Las Administraciones pueden revocar actos desfavorables o de gravamen mientras no haya transcurrido el plazo de prescripción, siempre que no vulneren igualdad, interés público ni ordenamiento. Los errores materiales, de hecho o aritméticos pueden rectificarse en cualquier momento.
+
+## 10. Recursos administrativos
+
+Son recurribles las resoluciones y los actos de trámite que decidan directa o indirectamente el fondo, impidan continuar, produzcan indefensión o perjuicio irreparable. Los restantes actos de trámite se impugnan al recurrir la resolución final.
+
+La interposición de un recurso no suspende por sí sola la ejecución. El órgano competente puede suspenderla si, tras ponderar intereses, la ejecución causa perjuicios de imposible o difícil reparación o la impugnación se fundamenta en nulidad de pleno derecho. Si la solicitud de suspensión no se resuelve en un mes, la ejecución se entiende suspendida.
 
 ### Recurso de alzada
 
-Procede contra actos que no ponen fin a la vía administrativa. Se interpone ante el órgano que dictó el acto o ante el superior jerárquico. Plazo: un mes si el acto es expreso; en caso de silencio, en cualquier momento. La resolución debe dictarse en tres meses.
+Procede contra actos que no ponen fin a la vía administrativa. Puede interponerse ante el órgano que dictó el acto o ante el superior jerárquico.
+
+- Acto expreso: un mes para recurrir.
+- Silencio: en cualquier momento desde que se produzcan sus efectos.
+- Plazo para resolver: tres meses.
 
 ### Recurso potestativo de reposición
 
-Procede contra actos que ponen fin a la vía administrativa. Se interpone ante el mismo órgano. Plazo: un mes si es expreso; en silencio, en cualquier momento. Debe resolverse en un mes. No puede acudirse al contencioso hasta su resolución expresa o presunta.
+Procede contra actos que ponen fin a la vía administrativa y se interpone ante el mismo órgano.
+
+- Acto expreso: un mes para recurrir.
+- Silencio: en cualquier momento.
+- Plazo para resolver: un mes.
+
+No puede interponerse recurso contencioso-administrativo hasta que la reposición sea resuelta expresamente o se entienda desestimada.
 
 ### Recurso extraordinario de revisión
 
-Procede contra actos firmes por causas tasadas: error de hecho, aparición de documentos esenciales, falsedad declarada judicialmente o resolución dictada por delito. El plazo es de cuatro años para el error de hecho y tres meses para las demás causas.
+Procede contra actos firmes cuando concurra alguna causa tasada:
 
-## 9. Reglas comunes
+- Error de hecho que resulte de los documentos del expediente.
+- Aparición de documentos esenciales que evidencien el error.
+- Influencia decisiva de documentos o testimonios declarados falsos judicialmente.
+- Resolución dictada como consecuencia de prevaricación, cohecho, violencia, maquinación fraudulenta u otra conducta punible declarada judicialmente.
 
-El recurso debe identificar recurrente, acto impugnado, razones, lugar, fecha, firma y órgano. El error en la calificación no impide tramitarlo si se deduce su verdadero carácter. La interposición no suspende por sí sola la ejecución. Puede suspenderse ponderando perjuicios y legalidad, especialmente si existen daños de difícil reparación o nulidad de pleno derecho.
+El plazo es de cuatro años para el error de hecho y de tres meses para las demás causas.
 
 ## Claves de examen
 
-- Subsanación: diez días.
-- Audiencia: entre diez y quince días.
+- Subsanación de solicitudes: diez días; ampliación máxima ordinaria: cinco días.
+- Prueba ordinaria: de diez a treinta días.
+- Audiencia: de diez a quince días.
 - Información pública: mínimo veinte días.
-- Alzada: resolución en tres meses.
-- Reposición: resolución en un mes.
+- Actuaciones complementarias: máximo quince días; alegaciones posteriores: siete días.
+- Caducidad por paralización imputable al interesado: tres meses.
+- Tramitación simplificada: resolución en treinta días.
+- Lesividad: máximo cuatro años.
+- Alzada: tres meses para resolver.
+- Reposición: un mes para resolver.
