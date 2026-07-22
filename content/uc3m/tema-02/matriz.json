@@ -1,0 +1,47 @@
+{
+  "convocatoria": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
+  "tema": 2,
+  "version": "2026-07-22",
+  "estado": "EN_REVISION_USUARIO",
+  "epigrafeOficial": "Ley 39/2015 (I): disposiciones generales; interesados; actividad de las Administraciones Públicas; actos administrativos.",
+  "cobertura": [
+    {
+      "apartado": "Disposiciones generales",
+      "estado": "CUBIERTO",
+      "contenido": ["objeto", "ámbito subjetivo", "sector público institucional", "especialidades procedimentales"]
+    },
+    {
+      "apartado": "Interesados",
+      "estado": "CUBIERTO",
+      "contenido": ["capacidad de obrar", "concepto de interesado", "representación", "apoderamientos", "identificación", "firma"]
+    },
+    {
+      "apartado": "Actividad de las Administraciones Públicas",
+      "estado": "CUBIERTO",
+      "contenido": ["derechos de las personas", "relación electrónica", "lengua", "registros", "archivo", "comparecencia", "obligación de resolver", "silencio", "términos y plazos"]
+    },
+    {
+      "apartado": "Actos administrativos",
+      "estado": "CUBIERTO",
+      "contenido": ["requisitos", "forma", "motivación", "eficacia", "notificación", "publicación", "nulidad", "anulabilidad", "conservación", "convalidación"]
+    }
+  ],
+  "controlesTest": [
+    "Concepto de interesado",
+    "Actos que requieren acreditación de representación",
+    "Validez de los poderes inscritos",
+    "Actuaciones que requieren firma",
+    "Sujetos obligados a relacionarse electrónicamente",
+    "Presentación en registro durante día inhábil",
+    "Plazo supletorio para resolver",
+    "Regla general y excepciones del silencio",
+    "Caducidad en procedimientos sancionadores",
+    "Cómputo de días hábiles",
+    "Nulidad y anulabilidad"
+  ],
+  "fuentes": [
+    "BOE-A-2026-14624",
+    "BOE-A-2015-10565"
+  ],
+  "aprobadoPorUsuario": false
+}
