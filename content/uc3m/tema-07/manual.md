@@ -1,65 +1,141 @@
 # Tema 7. Transparencia y participación
 
-> Epígrafe oficial: Ley 10/2019 de Transparencia y Participación de la Comunidad de Madrid; publicidad activa; acceso a la información pública; Portal de Transparencia y procedimiento de acceso en la UC3M.
+> Epígrafe oficial: Ley 10/2019, de 10 de abril, de Transparencia y de Participación de la Comunidad de Madrid; publicidad activa; derecho de acceso a la información pública; Portal de Transparencia y procedimiento de acceso en la UC3M.
 
-## 1. Finalidad y ámbito
+## 1. Objeto, ámbito y principios
 
-La Ley 10/2019 garantiza la transparencia de la actividad pública, el derecho de acceso a la información y la participación ciudadana en la Comunidad de Madrid. Se aplica a la Administración autonómica, entidades locales, universidades públicas madrileñas y demás sujetos incluidos en su ámbito.
+La Ley 10/2019 tiene por objeto garantizar la transparencia de la actividad pública, regular el derecho de acceso a la información pública y fomentar la participación ciudadana en la Comunidad de Madrid.
 
-La transparencia se articula mediante publicidad activa y derecho de acceso. La información debe ser clara, estructurada, comprensible, accesible, reutilizable y mantenerse actualizada.
+Se aplica, entre otros sujetos, a la Administración de la Comunidad de Madrid, sus organismos y entidades, las entidades locales madrileñas y las universidades públicas de la Comunidad de Madrid, por lo que alcanza a la Universidad Carlos III de Madrid.
+
+La transparencia se articula mediante dos vías diferentes:
+
+- **Publicidad activa**: publicación de oficio, sin necesidad de solicitud previa.
+- **Derecho de acceso**: obtención de información pública a petición de una persona.
+
+La información debe presentarse de manera clara, estructurada, comprensible, accesible, reutilizable y actualizada.
 
 ## 2. Publicidad activa
 
-Los sujetos obligados publican de oficio información institucional, organizativa, jurídica, económica, presupuestaria, contractual, de personal y sobre ayudas y subvenciones.
+Los sujetos obligados deben publicar periódicamente información relevante para controlar su organización, funcionamiento y actividad pública.
 
-Entre los contenidos habituales están funciones, normativa, estructura, organigrama, responsables, planes y programas, contratos, convenios, encomiendas, presupuestos, cuentas, retribuciones de altos cargos, compatibilidades y relaciones de puestos de trabajo.
+Entre los principales bloques de publicidad activa se encuentran:
 
-La publicación no puede vulnerar la protección de datos. Cuando la información contenga datos personales debe ponderarse el interés público en la transparencia y los derechos de las personas afectadas.
+- información institucional, organizativa y de planificación;
+- normativa e información de relevancia jurídica;
+- estructura, organigrama y responsables;
+- empleo público, relaciones de puestos, retribuciones y compatibilidades;
+- contratos, convenios, encomiendas de gestión y subvenciones;
+- información presupuestaria, económico-financiera y estadística;
+- patrimonio, cuentas y resultados de control;
+- planes, programas y evaluación de su cumplimiento.
 
-## 3. Derecho de acceso
+La publicación debe respetar los límites del derecho de acceso y la normativa de protección de datos personales. Cuando sea necesario, se aplicará disociación, anonimización o acceso parcial.
 
-Todas las personas pueden solicitar información pública sin necesidad de justificar un interés especial. Información pública son los contenidos o documentos, cualquiera que sea su formato, que obren en poder del sujeto obligado y hayan sido elaborados o adquiridos en el ejercicio de sus funciones.
+## 3. Información pública y derecho de acceso
 
-La solicitud debe permitir identificar la información. Puede indicar modalidad preferida de acceso y dirección de contacto. La falta de motivación no es causa de inadmisión.
+Todas las personas tienen derecho a acceder a la información pública, sin necesidad de acreditar un interés especial.
 
-## 4. Límites
+Es información pública todo contenido o documento, cualquiera que sea su formato o soporte, que obre en poder de un sujeto obligado y haya sido elaborado, adquirido o conservado en el ejercicio de sus funciones.
 
-El acceso puede limitarse cuando perjudique, entre otros bienes, la seguridad pública, prevención de delitos, igualdad de las partes en procesos judiciales, funciones administrativas de vigilancia, intereses económicos, secreto profesional, propiedad intelectual, confidencialidad en la toma de decisiones o protección del medio ambiente.
+La solicitud debe identificar suficientemente la información pedida y una dirección de contacto. Puede indicar la forma o formato preferido para recibirla. La motivación es voluntaria: no motivar la solicitud no permite inadmitirla.
 
-Los límites se aplican de forma proporcionada y atendiendo al interés público. Cuando sea posible, se concede acceso parcial ocultando la información afectada.
+## 4. Límites del derecho de acceso
 
-## 5. Protección de datos
+El derecho de acceso no es absoluto. Puede limitarse cuando el acceso cause un perjuicio concreto a bienes protegidos como:
 
-Si la información contiene categorías especialmente protegidas, el acceso exige consentimiento expreso o habilitación legal. Para otros datos se realiza ponderación entre interés público, finalidad de transparencia y derechos de las personas afectadas.
+- seguridad pública;
+- prevención, investigación o sanción de ilícitos;
+- igualdad de las partes y tutela judicial efectiva;
+- funciones administrativas de vigilancia, inspección y control;
+- intereses económicos y comerciales;
+- secreto profesional y propiedad intelectual o industrial;
+- confidencialidad necesaria en procesos de decisión;
+- protección del medio ambiente;
+- protección de datos personales.
 
-Los datos meramente identificativos relacionados con organización, funcionamiento o actividad pública suelen tener un régimen más favorable al acceso, salvo que prevalezca la protección de datos.
+Los límites deben aplicarse de forma justificada, proporcionada y atendiendo a las circunstancias del caso. No basta con invocar un límite de forma genérica.
 
-## 6. Inadmisión
+Cuando solo una parte de la información resulte afectada, debe concederse **acceso parcial**, ocultando únicamente el contenido protegido, salvo que la información restante resulte incomprensible o carente de sentido.
 
-Pueden inadmitirse solicitudes relativas a información en elaboración o publicación general, información auxiliar o de apoyo, peticiones que requieran reelaboración, solicitudes dirigidas a órgano que no posea la información cuando se desconozca el competente, o solicitudes repetitivas o abusivas.
+## 5. Protección de datos personales
 
-La inadmisión debe ser motivada. Reelaborar no equivale a una operación sencilla de tratamiento o anonimización.
+El acceso a información con datos personales exige ponderar transparencia y privacidad.
 
-## 7. Resolución y acceso
+Los datos meramente identificativos relacionados con la organización, funcionamiento o actividad pública suelen admitir el acceso, salvo que prevalezcan circunstancias concretas de protección.
 
-La resolución debe notificarse en el plazo legal y ser motivada cuando deniegue, conceda acceso parcial, use modalidad distinta o afecte a terceros. Si existen terceros identificados, se les concede trámite de alegaciones.
+Cuando existan categorías especialmente protegidas o datos de especial sensibilidad, el acceso requiere una habilitación jurídica suficiente y una valoración reforzada. Siempre que sea posible, debe preferirse la anonimización o disociación antes que la denegación total.
 
-El acceso se facilita preferentemente por vía electrónica y de forma gratuita, sin perjuicio de tasas por copias o transposición a formatos diferentes.
+## 6. Causas de inadmisión
 
-## 8. Portal de Transparencia de la UC3M
+La solicitud puede inadmitirse, mediante resolución motivada, cuando se refiera a:
 
-La UC3M centraliza la publicidad activa en su Portal de Transparencia. Debe ofrecer información institucional, órganos de gobierno, normativa, personal, contratación, convenios, presupuestos, cuentas, actividad académica y mecanismos para solicitar acceso.
+- información en curso de elaboración o de publicación general;
+- información auxiliar o de apoyo, como notas, borradores u opiniones internas sin relevancia pública autónoma;
+- información cuya obtención exija una verdadera reelaboración;
+- información que no obre en poder del órgano destinatario y se desconozca el competente;
+- solicitudes manifiestamente repetitivas o abusivas no justificadas por la finalidad de transparencia.
 
-El procedimiento interno debe identificar la unidad competente, registrar la solicitud, localizar la información, valorar límites y protección de datos, resolver y facilitar el acceso. Cuando la Universidad no disponga de la información debe orientar o remitir al órgano competente cuando sea posible.
+No existe reelaboración por el mero hecho de tener que realizar una búsqueda, selección sencilla, anonimización o tratamiento básico de la información disponible.
 
-## 9. Reclamación
+## 7. Tramitación, terceros y resolución
 
-Frente a resoluciones expresas o presuntas puede interponerse la reclamación prevista en la normativa de transparencia, con carácter potestativo y previo a la vía contencioso-administrativa, sin perjuicio de los recursos que procedan.
+Cuando la información solicitada pueda afectar a derechos o intereses de terceros identificados, se les concede un trámite para formular alegaciones. Durante ese trámite puede suspenderse el cómputo del plazo para resolver.
+
+La resolución debe ser motivada cuando:
+
+- deniegue total o parcialmente el acceso;
+- conceda el acceso por una modalidad diferente a la solicitada;
+- aplique límites;
+- afecte a derechos o intereses de terceros;
+- inadmite la solicitud.
+
+En la Comunidad de Madrid, el plazo general para resolver y notificar es de **veinte días**, ampliable por otros veinte cuando el volumen o la complejidad de la información lo justifiquen. El silencio administrativo es desestimatorio.
+
+El acceso se facilita preferentemente por vía electrónica y con carácter gratuito. Solo pueden exigirse cantidades por copias o por la transposición a formatos distintos cuando proceda conforme a la normativa aplicable.
+
+## 8. Reclamación
+
+Frente a una resolución expresa o presunta puede interponerse reclamación potestativa ante el órgano de garantía de transparencia competente, con carácter previo a la vía contencioso-administrativa.
+
+El plazo general para reclamar es de **un mes** desde el día siguiente a la notificación de la resolución expresa o desde que se produzcan los efectos del silencio.
+
+## 9. Portal de Transparencia de la UC3M
+
+La UC3M concentra su publicidad activa en su Portal de Transparencia. Entre sus bloques principales figuran:
+
+- información institucional, organizativa y de planificación;
+- información jurídica;
+- información sobre recursos humanos;
+- información económico-financiera, presupuestaria y estadística;
+- integridad institucional;
+- contratación y perfil del contratante;
+- procedimiento de acceso a información pública.
+
+El Portal permite consultar información ya publicada y enlaza con el procedimiento específico para solicitar información que no se encuentre disponible.
+
+## 10. Procedimiento de acceso en la UC3M
+
+La solicitud puede presentarse:
+
+- telemáticamente, mediante la Sede Electrónica de la Universidad;
+- presencialmente, en una oficina de Registro.
+
+La tramitación corresponde al Servicio Jurídico y a la unidad u órgano responsable de la información. La competencia para resolver corresponde al **Rector**.
+
+El plazo indicado por la UC3M es de **veinte días**, ampliable por otros veinte cuando el volumen o la complejidad lo justifiquen. La resolución se notifica electrónicamente en la carpeta del interesado cuando la tramitación se realiza por sede.
+
+Frente a la resolución puede interponerse reclamación potestativa en el plazo de un mes o recurso contencioso-administrativo en el plazo legal correspondiente.
+
+La Universidad mantiene un registro de solicitudes y reclamaciones, en el que se anotan datos como la fecha, la descripción de la información, la forma de acceso, el tiempo de respuesta y el tipo de resolución.
 
 ## Claves de examen
 
-- No es necesario motivar la solicitud.
 - Publicidad activa: publicación de oficio.
 - Derecho de acceso: petición individual.
-- Los límites requieren aplicación proporcionada.
-- Siempre debe valorarse el acceso parcial.
+- No es obligatorio motivar la solicitud.
+- Plazo general en Madrid y en la UC3M: veinte días, ampliables otros veinte.
+- Silencio: desestimatorio.
+- Órgano competente en la UC3M: Rector.
+- Reclamación potestativa: un mes.
+- Antes de denegar totalmente debe valorarse el acceso parcial.
