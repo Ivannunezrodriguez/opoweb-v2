@@ -59,6 +59,14 @@ Se aplica a la revisión total o a reformas que afecten al Título Preliminar, a
 
 No puede iniciarse una reforma constitucional en tiempo de guerra ni durante la vigencia de los estados de alarma, excepción o sitio.
 
+### Reformas aprobadas
+
+Hasta julio de 2026 se han aprobado tres reformas constitucionales:
+
+- En 1992 se reformó el artículo 13.2 para permitir el sufragio pasivo de ciudadanos de la Unión Europea en las elecciones municipales.
+- En 2011 se reformó el artículo 135 para introducir el principio de estabilidad presupuestaria.
+- En 2024 se reformó el artículo 49 para actualizar la protección constitucional de las personas con discapacidad y sustituir una terminología ya superada.
+
 ## Claves de examen
 
 - La Constitución tiene 169 artículos.
@@ -66,3 +74,4 @@ No puede iniciarse una reforma constitucional en tiempo de guerra ni durante la 
 - Ley orgánica: mayoría absoluta del Congreso en votación final sobre el conjunto.
 - Decreto-ley: convalidación en treinta días.
 - Reforma agravada: disolución de las Cortes y referéndum obligatorio.
+- Hasta julio de 2026 se han aprobado tres reformas constitucionales: artículos 13.2, 135 y 49.
