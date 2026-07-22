@@ -4,77 +4,107 @@
 
 ## 1. El estudiantado universitario
 
-El estudiantado tiene derecho a una formación de calidad, participación efectiva, igualdad de oportunidades, orientación, información, evaluación objetiva, reconocimiento académico, movilidad, protección de datos, acceso a servicios y atención a necesidades específicas.
+La Ley Orgánica 2/2023 configura al estudiantado como parte esencial de la comunidad universitaria. Sus derechos y deberes deben interpretarse de acuerdo con la igualdad, la inclusión, la participación y la calidad del servicio público universitario.
 
-También tiene deberes: estudio y participación responsable, respeto a normas de convivencia, uso adecuado de instalaciones y recursos, honestidad académica y respeto a los miembros de la comunidad universitaria.
+Entre sus derechos destacan:
 
-Las universidades deben garantizar sistemas de becas y ayudas, inclusión de personas con discapacidad, igualdad, salud y bienestar, orientación académica y profesional, participación y representación.
+- recibir una formación de calidad;
+- acceder a orientación académica y profesional;
+- ser evaluado de forma objetiva;
+- participar en órganos de gobierno y representación;
+- disfrutar de igualdad de oportunidades y no discriminación;
+- acceder a becas y ayudas conforme a la normativa;
+- recibir atención a necesidades específicas;
+- ejercer movilidad nacional e internacional;
+- obtener reconocimiento académico de estudios y actividades;
+- acceder a información clara sobre planes de estudio, evaluación y servicios.
 
-## 2. Participación y representación
+Entre sus deberes se encuentran el estudio y aprovechamiento académico, el respeto a las normas de convivencia, el uso responsable de instalaciones y recursos, la honestidad académica y el respeto a los miembros de la comunidad universitaria.
 
-El estudiantado participa en órganos colegiados y procesos de elaboración de normas que le afecten. Las universidades promueven asociaciones, delegaciones y consejos de estudiantes, además de mecanismos de consulta.
+## 2. Participación, representación y bienestar
 
-La representación debe ser efectiva y compatible con el progreso académico, con medidas de reconocimiento y apoyo cuando proceda.
+El estudiantado participa en los órganos colegiados de las universidades y en la elaboración de las normas que le afecten. Las universidades deben favorecer asociaciones, delegaciones, consejos de estudiantes y mecanismos de consulta.
 
-## 3. Régimen de universidades públicas
+La representación estudiantil debe ser real y compatible con el progreso académico. Pueden establecerse medidas de apoyo, reconocimiento o compensación académica por el ejercicio responsable de funciones representativas.
 
-Las universidades públicas tienen personalidad jurídica y patrimonio propio. Se rigen por la LOSU, normas autonómicas, sus Estatutos y demás normativa aplicable.
+Las universidades deben promover políticas de salud, bienestar emocional, prevención del acoso, convivencia, inclusión y atención a la discapacidad.
 
-Su gobierno debe combinar representación de la comunidad universitaria, eficacia de gestión, transparencia y rendición de cuentas.
+## 3. Régimen jurídico de las universidades públicas
 
-## 4. Régimen económico-financiero
+Las universidades públicas tienen personalidad jurídica y patrimonio propio. Se rigen por la LOSU, la normativa autonómica, sus Estatutos y el resto del ordenamiento jurídico.
 
-Las universidades públicas disfrutan de autonomía económica y financiera. Elaboran y aprueban presupuesto anual, público, único y equilibrado, conforme a principios de estabilidad presupuestaria y sostenibilidad financiera.
+Su autonomía se ejerce con sometimiento a los principios de legalidad, eficacia, eficiencia, transparencia y rendición de cuentas.
 
-Sus recursos pueden proceder de transferencias públicas, precios públicos, ingresos patrimoniales, contratos y convenios, investigación y transferencia, donaciones, rendimientos y otras fuentes legales.
+## 4. Autonomía económica y financiera
 
-El presupuesto incluye ingresos y gastos y se acompaña de información sobre personal, inversiones y objetivos. La gestión queda sometida a control interno, control externo y rendición de cuentas.
+Las universidades públicas disponen de autonomía económica y financiera. Corresponde a cada universidad elaborar, aprobar y gestionar su presupuesto y administrar sus bienes, sin perjuicio de los controles internos y externos legalmente previstos.
 
-Las universidades deben disponer de programación plurianual y sistemas de contabilidad, control y evaluación que permitan conocer costes y resultados.
+Las Administraciones Públicas deben dotarlas de recursos suficientes para el cumplimiento de sus funciones. La LOSU fija como objetivo compartido alcanzar, como mínimo, el 1 % del PIB en gasto público en educación universitaria pública.
 
-## 5. Patrimonio y contratación
+## 5. Presupuesto universitario
 
-El patrimonio está formado por bienes, derechos y obligaciones. La gestión debe ser eficiente y respetar su afectación a fines universitarios. La contratación se somete a la legislación de contratos del sector público.
+El presupuesto de las universidades públicas debe ser:
 
-Los actos de disposición, endeudamiento y operaciones patrimoniales se ajustan a límites y autorizaciones establecidos por la normativa estatal, autonómica y universitaria.
+- público;
+- único;
+- equilibrado;
+- comprensivo de todos los ingresos y gastos.
 
-## 6. Personal docente e investigador
+Debe respetar los principios de estabilidad presupuestaria y sostenibilidad financiera. En su elaboración deben incorporarse informes de impacto de género y de impacto medioambiental.
 
-El PDI puede ser funcionario o laboral. Desarrolla docencia, investigación, transferencia, innovación, dirección, gestión y, en su caso, asistencia.
+Los ingresos pueden proceder de transferencias públicas, precios públicos, rendimientos patrimoniales, contratos, convenios, investigación, transferencia, donaciones y otras fuentes legales.
 
-Las figuras funcionariales principales son cuerpos docentes universitarios. El personal laboral se articula mediante las figuras previstas en la LOSU y normativa autonómica: profesorado ayudante doctor, permanente laboral, asociado, visitante, emérito y otras legalmente reconocidas.
+## 6. Programación, contabilidad y control
 
-La selección respeta igualdad, mérito, capacidad, publicidad y objetividad. La carrera académica requiere evaluación y acreditación en los supuestos legales.
+La actividad económico-financiera debe integrarse en una programación plurianual. Las universidades deben disponer de sistemas de contabilidad, control interno y evaluación que permitan conocer costes, resultados y cumplimiento de objetivos.
 
-## 7. Derechos y deberes del PDI
+Las cuentas anuales y la liquidación presupuestaria están sometidas a control interno y externo. Las universidades rinden cuentas ante el órgano de control externo de la comunidad autónoma, sin perjuicio de las competencias del Tribunal de Cuentas.
 
-Tiene derecho a libertad académica, formación, promoción, participación, medios adecuados, conciliación, seguridad y salud y reconocimiento de actividad. Debe cumplir obligaciones docentes e investigadoras, respetar integridad científica, actualizar conocimientos, evaluar objetivamente y contribuir al funcionamiento universitario.
+## 7. Transparencia y patrimonio
 
-## 8. Personal técnico, de gestión y de administración y servicios
+La gestión económica está sujeta a transparencia y rendición de cuentas. Deben publicarse presupuestos, cuentas, liquidaciones, información sobre personal y datos relevantes de gestión.
 
-El PTGAS presta apoyo, asistencia y asesoramiento para docencia, investigación, transferencia, dirección y gestión. Puede ser funcionario o laboral.
+El patrimonio universitario está formado por bienes, derechos y obligaciones. Su gestión debe ser eficiente y respetar la afectación a fines universitarios. La contratación se somete a la legislación de contratos del sector público.
 
-Su selección y provisión se rigen por legislación de empleo público, laboral y normas universitarias. Tiene derecho a carrera, promoción, formación, movilidad, negociación, participación y condiciones adecuadas.
+## 8. Personal docente e investigador
 
-La planificación de recursos humanos debe atender especialización, digitalización, internacionalización, profesionalización de la gestión y estabilidad.
+El personal docente e investigador puede ser funcionario o laboral. Sus funciones incluyen docencia, investigación, transferencia, innovación, dirección y gestión académica.
 
-## 9. Oferta, selección y movilidad
+Los cuerpos docentes universitarios constituyen el PDI funcionario. El PDI laboral se articula mediante figuras como profesorado ayudante doctor, permanente laboral, asociado, visitante y emérito, entre otras previstas legalmente.
 
-Las universidades aprueban relaciones de puestos y ofertas de empleo dentro de límites presupuestarios. Los procesos respetan publicidad, transparencia, igualdad, mérito y capacidad.
+La selección debe respetar igualdad, mérito, capacidad, publicidad, transparencia e imparcialidad. La carrera académica puede exigir acreditación y evaluación previa.
 
-La movilidad entre universidades y Administraciones puede articularse mediante concursos, comisiones, convenios y mecanismos previstos en la legislación.
+## 9. Derechos y deberes del PDI
 
-## 10. Igualdad y conciliación
+El PDI tiene derecho a libertad académica, formación, promoción, participación, conciliación, seguridad y salud, medios adecuados y reconocimiento de su actividad.
 
-La política de personal incorpora igualdad efectiva, prevención del acoso, conciliación, corresponsabilidad, inclusión y medidas contra discriminación. Los órganos de selección deben respetar composición equilibrada cuando sea legalmente posible.
+Entre sus deberes están cumplir las obligaciones docentes e investigadoras, respetar la integridad científica, actualizar conocimientos, evaluar objetivamente y contribuir al funcionamiento de la universidad.
 
-## 11. Rendición de cuentas
+## 10. Personal técnico, de gestión y de administración y servicios
 
-Las universidades publican información económica, presupuestaria, de personal y resultados. Las cuentas anuales se someten a aprobación y control. La autonomía financiera exige responsabilidad en el uso de fondos.
+El PTGAS presta apoyo, asistencia y asesoramiento a la docencia, investigación, transferencia, dirección y gestión universitaria. Puede ser funcionario o laboral.
 
-## Claves de examen
+Su selección y provisión se rigen por la legislación de empleo público, la normativa laboral y las normas universitarias. Tiene derecho a carrera, promoción, formación, movilidad, negociación, participación y condiciones de trabajo adecuadas.
 
-- PDI y PTGAS son colectivos distintos con funciones propias.
-- Las universidades públicas tienen autonomía económica, pero están sujetas a control.
-- El presupuesto debe ser público, único y equilibrado.
+La planificación de recursos humanos debe atender a la especialización, digitalización, profesionalización de la gestión, internacionalización y estabilidad del empleo.
+
+## 11. Oferta de empleo, selección y movilidad
+
+Las universidades aprueban relaciones de puestos de trabajo y ofertas de empleo dentro de los límites presupuestarios. Los procesos selectivos deben respetar publicidad, transparencia, igualdad, mérito y capacidad.
+
+La movilidad puede articularse mediante concursos, comisiones de servicios, convenios y otros mecanismos legalmente previstos.
+
+## 12. Igualdad, conciliación y no discriminación
+
+Las políticas de personal deben incorporar igualdad efectiva, prevención del acoso, conciliación, corresponsabilidad, inclusión y medidas contra la discriminación.
+
+Los órganos de selección deben actuar con imparcialidad y procurar una composición equilibrada cuando resulte legalmente posible.
+
+## 13. Claves de examen
+
+- El presupuesto universitario es público, único y equilibrado.
+- La autonomía económica no elimina el control ni la rendición de cuentas.
+- El PDI y el PTGAS son colectivos distintos con funciones propias.
 - La selección de personal exige igualdad, mérito, capacidad y publicidad.
+- La universidad pública rinde cuentas ante el órgano autonómico de control externo, sin perjuicio del Tribunal de Cuentas.
+- La contratación universitaria se somete a la legislación de contratos del sector público.
