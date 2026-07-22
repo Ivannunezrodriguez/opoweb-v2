@@ -1,6 +1,6 @@
 # Estado de auditoría · OpoWeb v2
 
-Última actualización: **21 de julio de 2026**.
+Última actualización: **22 de julio de 2026**.
 
 ## Convocatorias activas
 
@@ -27,7 +27,7 @@ El Markdown fuente de `content/la-puebla/tema-06/manual.md` conserva todavía la
 
 Convocatoria de **2 plazas por oposición libre**. Bases publicadas en el BOP de Toledo número **118**, de **25 de junio de 2026**, código **2026.00002934**. Convocatoria publicada en el BOE número **162**, de **4 de julio de 2026**, referencia **BOE-A-2026-14527**.
 
-El plazo oficial de solicitudes permanece **abierto del 6 al 31 de julio de 2026** según el portal oficial de empleo público de la Diputación.
+El portal oficial, comprobado el **22 de julio de 2026**, mantiene abierto el plazo de solicitudes del **6 al 31 de julio de 2026**. No consta todavía lista provisional de personas admitidas y excluidas para Administrativo/a.
 
 Estado editorial: **40 de 40 temas** disponen de manual, fuentes, matriz de cobertura y banco inicial de **12 preguntas**. Los temas generados están identificados como `GENERACION_DESDE_CERO`.
 
@@ -36,6 +36,20 @@ Los **40 temas** están habilitados en la interfaz pública de OpoWeb y se inclu
 El centro de entrenamiento de Diputación dispone actualmente de **40 tests por tema**, **5 supuestos prácticos** con **10 cuestiones resueltas** y **3 simulacros transversales** con **36 preguntas**.
 
 El **Tema 22** mantiene una reconstrucción interpretativa prudente expresamente autorizada. No se presentan como literales extremos estatutarios que no hayan podido comprobarse en una fuente oficial íntegra.
+
+#### Incidencia editorial corregida · Tema 31
+
+La relación de servicios de confianza del manual se limitaba al marco original del Reglamento eIDAS y no reflejaba expresamente la ampliación introducida por el Reglamento (UE) 2024/1183, aplicable desde el **20 de mayo de 2024**.
+
+El marco vigente incorpora, entre otras materias:
+
+- declaraciones electrónicas de atributos;
+- gestión de dispositivos remotos cualificados de creación de firma o sello;
+- servicios de archivo electrónico;
+- libros mayores electrónicos;
+- Carteras Europeas de Identidad Digital.
+
+Se ha creado `content/diputacion-toledo/tema-31/auditoria-2026-07-22.md` y se ha sustituido la pregunta `DIP-T31-012` por una cuestión de vigencia sobre eIDAS 2. El manual principal debe incorporar posteriormente un subapartado específico con estos servicios.
 
 ### CPEIS Toledo · Auxiliar Administrativo C2 y Administrativo C1
 
@@ -49,6 +63,8 @@ Convocatoria oficial incorporada al seguimiento, pendiente de decisión del usua
 - Bases: BOP de Toledo número **116**, de **23 de junio de 2026**.
 - Convocatoria: BOE número **166**, de **9 de julio de 2026**, referencia **BOE-A-2026-14923**.
 - Plazo oficial concretado por el portal del CPEIS: **del 10 de julio al 6 de agosto de 2026**.
+
+La comprobación oficial del **22 de julio de 2026** no ha detectado una publicación posterior que modifique las plazas o el sistema selectivo.
 
 Estado editorial: `SOLO_SEGUIMIENTO`. No se desarrollará temario específico hasta que el usuario confirme interés.
 
@@ -88,12 +104,12 @@ El temario base está desarrollado para tests, supuestos prácticos y simulacros
 | Diputación y OAPGT | 22 | `GENERACION_DESDE_CERO` | Reconstrucción interpretativa prudente autorizada |
 | Prevención, igualdad y protección de datos | 23–24 y 28 | `GENERACION_DESDE_CERO` | Manuales, fuentes, matrices y preguntas disponibles |
 | Tributación, recaudación y presupuesto local | 25–30 | `GENERACION_DESDE_CERO` | Bancos normalizados y trazables |
-| Firma y servicios electrónicos de confianza | 31 | `GENERACION_DESDE_CERO` | Banco normalizado y trazable |
+| Firma y servicios electrónicos de confianza | 31 | `GENERACION_DESDE_CERO` | Banco actualizado a eIDAS 2; ampliación pendiente de integrar en el manual principal |
 | Windows 11 y GroupWise | 32–34 | `GENERACION_DESDE_CERO` | Bancos normalizados y trazables |
 | LibreOffice 24 | 35–38 | `GENERACION_DESDE_CERO` | Writer, Calc, Base e Impress completos y normalizados |
 | Ordenador personal y periféricos | 39–40 | `GENERACION_DESDE_CERO` | Hardware y periféricos completos y normalizados |
 
-El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La normalización transversal de los **40 bancos de preguntas** está completada.
+El programa técnico de Diputación queda cerrado en **40 de 40 temas**. La normalización transversal de los **40 bancos de preguntas** está completada, con control de vigencia adicional abierto en los manuales técnicos y jurídicos.
 
 La práctica utiliza selector de convocatoria, historial independiente por oposición, acceso directo desde cada tema y corrección con justificación, trampa y referencia. El panel de entrenamiento inteligente mantiene separados por convocatoria los errores pendientes, las reincidencias y el cálculo de los **5 temas más débiles**, con acceso directo al test correspondiente.
 
@@ -105,7 +121,8 @@ No se ha ejecutado el validador local del repositorio por falta de un entorno de
 
 1. Sustituir en el Markdown fuente del **Tema 6 de La Puebla** las menciones incorrectas del programa temporal por el régimen correcto: **tres años** básicos y máximo autonómico de **cuatro años**.
 2. Retirar `assets/tema6-interinidad-correction.js` después de corregir el Markdown fuente y ajustar la precarga offline.
-3. Ejecutar el validador transversal cuando exista un entorno local o CI operativo.
-4. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable.
-5. Mantener el seguimiento de Diputación hasta el cierre del plazo el **31 de julio de 2026**.
-6. Mantener el seguimiento del CPEIS hasta el cierre del plazo el **6 de agosto de 2026** o hasta decisión del usuario.
+3. Incorporar al manual principal del **Tema 31 de Diputación** la ampliación de servicios de confianza de eIDAS 2.
+4. Ejecutar el validador transversal cuando exista un entorno local o CI operativo.
+5. Cerrar el bloque del **OAPGT** únicamente cuando exista una fuente oficial íntegra y verificable.
+6. Mantener el seguimiento de Diputación hasta el cierre del plazo el **31 de julio de 2026**.
+7. Mantener el seguimiento del CPEIS hasta el cierre del plazo el **6 de agosto de 2026** o hasta decisión del usuario.
