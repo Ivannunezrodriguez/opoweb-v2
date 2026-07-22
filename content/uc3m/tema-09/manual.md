@@ -2,86 +2,199 @@
 
 > Epígrafe oficial: procesadores de texto y hojas de cálculo: Word 2019 y Excel 2019; herramientas Google: Gmail, Drive, Docs, Sheets y Calendar; correo electrónico.
 
-## 1. Word 2019
+## 1. Word 2019: entorno y documentos
 
-Word es un procesador de textos. Los documentos se organizan mediante páginas, secciones, párrafos, estilos y elementos insertados.
+Word 2019 es un procesador de textos. Un documento puede contener texto, tablas, imágenes, formas, gráficos, encabezados, pies, notas, hipervínculos y otros elementos. Su formato habitual es `.docx`, aunque puede abrir y guardar otros formatos, además de exportar a PDF.
 
-### Operaciones esenciales
+La interfaz se organiza mediante cinta de opciones, pestañas, grupos de comandos, barra de herramientas de acceso rápido, regla, barra de estado y vistas del documento. Las pestañas más habituales son Archivo, Inicio, Insertar, Diseño, Disposición, Referencias, Correspondencia, Revisar y Vista.
 
-- Crear, abrir, guardar, guardar como y exportar a PDF.
-- Configurar márgenes, orientación, tamaño de papel, columnas, saltos de página y sección.
-- Aplicar formato de fuente y párrafo: alineación, sangrías, interlineado, espaciado, tabulaciones, viñetas y numeración.
-- Utilizar estilos para mantener una estructura uniforme y generar tablas de contenido.
-- Insertar tablas, imágenes, formas, hipervínculos, encabezados, pies y números de página.
-- Buscar y reemplazar texto, incluidos formatos.
-- Revisar ortografía y gramática, controlar cambios y añadir comentarios.
-- Combinar correspondencia usando un documento principal y una fuente de datos.
+### 1.1. Crear, abrir y guardar
 
-Un salto de página cambia de página sin modificar la configuración. Un salto de sección permite cambiar márgenes, orientación, encabezados o numeración dentro del mismo documento.
+- **Nuevo** crea un documento en blanco o desde plantilla.
+- **Abrir** recupera un archivo existente.
+- **Guardar** conserva los cambios en el mismo archivo.
+- **Guardar como** permite cambiar nombre, ubicación o formato.
+- **Exportar** permite crear PDF/XPS.
+- La recuperación automática reduce el riesgo de pérdida tras un cierre inesperado, pero no sustituye el guardado periódico.
 
-## 2. Excel 2019
+## 2. Word 2019: formato de texto y párrafo
 
-Un libro contiene hojas; cada hoja se compone de filas, columnas y celdas. Una referencia puede ser relativa `A1`, absoluta `$A$1` o mixta `$A1` y `A$1`.
+El formato de fuente incluye tipo, tamaño, negrita, cursiva, subrayado, color, resaltado, tachado, subíndice y superíndice.
 
-Las fórmulas comienzan con `=`. Operadores habituales: aritméticos, comparación, concatenación y referencia.
+El formato de párrafo comprende alineación, sangrías, interlineado, espaciado anterior y posterior, tabulaciones, bordes, sombreado, viñetas y numeración.
 
-### Funciones esenciales
+- La **alineación** puede ser izquierda, centrada, derecha o justificada.
+- La **sangría de primera línea** desplaza solo la primera línea.
+- La **sangría francesa** desplaza todas las líneas salvo la primera.
+- El **interlineado** regula la separación entre líneas del mismo párrafo.
+- El **espaciado** regula la distancia antes o después del párrafo.
 
-- `SUMA`, `PROMEDIO`, `MAX`, `MIN` y `CONTAR`.
-- `CONTARA`, `CONTAR.SI` y `SUMAR.SI`.
-- `SI`, `Y`, `O` y `SI.ERROR`.
-- Funciones de fecha y hora.
-- Funciones de texto como `IZQUIERDA`, `DERECHA`, `EXTRAE`, `LARGO` y `CONCAT`.
-- Búsqueda mediante `BUSCARV` o funciones equivalentes disponibles.
+Los estilos permiten aplicar de forma uniforme conjuntos de formato. Son esenciales para estructurar títulos y generar automáticamente tablas de contenido.
 
-También deben dominarse formato condicional, ordenación, filtros, tablas, gráficos, validación de datos, inmovilización de paneles, impresión y protección de hojas.
+## 3. Word 2019: página, secciones e inserciones
 
-Los errores más comunes son `#¡DIV/0!`, `#N/A`, `#¿NOMBRE?`, `#¡REF!` y `#¡VALOR!`.
+La configuración de página incluye márgenes, orientación, tamaño del papel, columnas, saltos, guiones y numeración de líneas.
 
-## 3. Gmail y correo electrónico
+Un **salto de página** fuerza el inicio de una nueva página sin cambiar la configuración general. Un **salto de sección** permite modificar dentro del mismo documento la orientación, márgenes, columnas, encabezados, pies o numeración.
 
-El correo electrónico usa campos Para, CC y CCO. CCO oculta los destinatarios entre sí. El asunto debe identificar claramente el contenido.
+Word permite insertar:
 
-Funciones habituales de Gmail: redactar, responder, responder a todos, reenviar, adjuntar, insertar enlaces, programar envío, buscar con operadores, aplicar etiquetas, archivar, marcar como spam, crear filtros y configurar respuestas automáticas.
+- tablas y filas o columnas;
+- imágenes, iconos, formas y cuadros de texto;
+- hipervínculos y marcadores;
+- encabezados, pies y números de página;
+- símbolos, ecuaciones y fecha y hora;
+- notas al pie y notas al final.
 
-La firma electrónica no debe confundirse con la firma de texto del correo. Deben evitarse enlaces sospechosos, adjuntos inesperados y peticiones de credenciales. El phishing suplanta identidades para obtener información o provocar acciones fraudulentas.
+## 4. Word 2019: revisión, referencias y correspondencia
 
-## 4. Google Drive
+Buscar localiza texto o elementos. Reemplazar sustituye texto y puede trabajar también con formatos.
 
-Drive almacena y sincroniza archivos en la nube. Permite crear carpetas, subir documentos, buscar, ordenar, destacar, mover y compartir.
+La revisión incluye ortografía y gramática, sinónimos, recuento de palabras, comentarios y control de cambios. El control de cambios registra inserciones, eliminaciones y modificaciones para que posteriormente puedan aceptarse o rechazarse.
 
-Los permisos principales son lector, comentador y editor. Puede compartirse con personas concretas o mediante enlace. Debe aplicarse el principio de mínimo privilegio y revisar quién mantiene acceso.
+Las referencias permiten crear tablas de contenido, notas, citas, bibliografía, títulos y referencias cruzadas.
 
-El historial de versiones permite consultar y restaurar versiones. La papelera conserva temporalmente elementos antes de su eliminación definitiva.
+La **combinación de correspondencia** utiliza:
 
-## 5. Google Docs
+1. un documento principal;
+2. una fuente de datos;
+3. campos combinados;
+4. la vista previa;
+5. la finalización para generar cartas, etiquetas, sobres o correos personalizados.
 
-Docs permite edición colaborativa en tiempo real. Incluye estilos, tablas, imágenes, encabezados, comentarios, sugerencias, historial de versiones y descarga en distintos formatos.
+## 5. Excel 2019: libros, hojas y celdas
 
-El modo sugerencias propone cambios sin incorporarlos definitivamente. Los comentarios pueden asignarse a una persona y resolverse. La colaboración no elimina la necesidad de controlar permisos y datos personales.
+Excel 2019 es una hoja de cálculo. Un archivo se denomina **libro** y contiene una o varias **hojas**. Cada hoja está formada por filas, columnas y celdas. La intersección entre una fila y una columna determina la referencia de una celda, por ejemplo `B4`.
 
-## 6. Google Sheets
+Una celda puede contener texto, números, fechas, horas, porcentajes, valores lógicos o fórmulas. El formato visual no siempre modifica el valor almacenado.
 
-Sheets comparte los principios de las hojas de cálculo: celdas, referencias, fórmulas, funciones, filtros, gráficos y validación. Permite colaboración simultánea, comentarios, historial y protección de hojas o rangos.
+Las referencias pueden ser:
 
-Las funciones pueden variar en nombre o disponibilidad respecto de Excel. Al importar o exportar deben comprobarse formatos, fórmulas, separadores y gráficos.
+- relativa: `A1`;
+- absoluta: `$A$1`;
+- mixta con columna fija: `$A1`;
+- mixta con fila fija: `A$1`.
 
-## 7. Google Calendar
+Al copiar una fórmula, las referencias relativas se adaptan y las absolutas permanecen fijas.
 
-Calendar permite crear eventos, recordatorios y calendarios compartidos. Un evento puede incluir título, fecha, hora, zona horaria, ubicación, descripción, invitados, videoconferencia, repetición y notificaciones.
+## 6. Excel 2019: fórmulas y funciones
 
-Los permisos de un calendario pueden permitir ver solo libre/ocupado, ver detalles, modificar eventos o administrar el uso compartido. Al invitar, los asistentes pueden aceptar, rechazar o marcar asistencia provisional.
+Las fórmulas comienzan con `=`. Excel respeta una prioridad de operadores: paréntesis, potencias, multiplicación y división, suma y resta, concatenación y comparaciones.
 
-## 8. Interoperabilidad y buenas prácticas
+Funciones frecuentes:
 
-Antes de compartir un documento debe revisarse contenido, metadatos, destinatarios y permisos. Para información sensible se usan canales autorizados, control de acceso y, cuando proceda, cifrado.
+- matemáticas y estadísticas: `SUMA`, `PROMEDIO`, `MAX`, `MIN`, `CONTAR`, `CONTARA`;
+- condicionales: `CONTAR.SI`, `SUMAR.SI`, `SI`, `Y`, `O`, `SI.ERROR`;
+- texto: `IZQUIERDA`, `DERECHA`, `EXTRAE`, `LARGO`, `CONCAT`;
+- fecha y hora: `HOY`, `AHORA`, `DIA`, `MES`, `AÑO`;
+- búsqueda: `BUSCARV` y otras funciones disponibles en la versión instalada.
 
-Conviene usar nombres de archivo descriptivos, carpetas coherentes, control de versiones, plantillas y formatos accesibles.
+Errores habituales:
+
+- `#¡DIV/0!`: división entre cero o celda vacía equivalente;
+- `#N/A`: valor no disponible;
+- `#¿NOMBRE?`: nombre de función o referencia no reconocido;
+- `#¡REF!`: referencia eliminada o no válida;
+- `#¡VALOR!`: tipo de dato incompatible.
+
+## 7. Excel 2019: gestión y análisis de datos
+
+Excel permite:
+
+- ordenar por uno o varios criterios;
+- aplicar filtros;
+- convertir rangos en tablas;
+- crear gráficos;
+- usar formato condicional;
+- validar datos mediante listas o restricciones;
+- inmovilizar paneles;
+- buscar duplicados;
+- proteger hojas o libros;
+- definir áreas de impresión y saltos de página.
+
+Una tabla facilita filtros, estilos, referencias estructuradas y ampliación automática. La validación de datos limita lo que puede introducirse en una celda, pero no sustituye una protección de seguridad.
+
+## 8. Correo electrónico y Gmail
+
+Un mensaje de correo suele contener remitente, destinatarios, asunto, cuerpo, firma y, en su caso, adjuntos.
+
+- **Para**: destinatarios principales.
+- **CC**: copia visible para otros destinatarios.
+- **CCO**: copia oculta; los demás destinatarios no ven esas direcciones.
+- **Responder**: contesta al remitente.
+- **Responder a todos**: contesta al remitente y al resto de destinatarios visibles.
+- **Reenviar**: remite el mensaje a nuevas personas.
+
+Gmail permite redactar, programar envíos, adjuntar archivos, insertar enlaces, organizar mediante etiquetas, archivar, destacar, silenciar, marcar como spam, crear filtros y configurar respuestas automáticas.
+
+Archivar elimina el mensaje de la bandeja de entrada, pero no lo borra. Eliminar lo envía a la papelera. Spam aparta mensajes sospechosos y ayuda al filtrado.
+
+Operadores de búsqueda útiles incluyen `from:`, `to:`, `subject:`, `has:attachment`, `before:`, `after:` e `is:unread`.
+
+## 9. Seguridad en el correo electrónico
+
+El phishing suplanta una identidad para obtener credenciales, datos o provocar pagos y otras acciones fraudulentas. Deben revisarse remitente, dominio, enlaces, adjuntos, urgencias artificiales y solicitudes de información sensible.
+
+La firma de texto incluida al final del correo no equivale a una firma electrónica jurídica. Para información sensible deben utilizarse los canales institucionales autorizados y aplicar el principio de mínimo privilegio.
+
+## 10. Google Drive
+
+Drive es un servicio de almacenamiento, sincronización y compartición de archivos. Permite crear carpetas, subir, descargar, mover, copiar, renombrar, destacar y buscar contenido.
+
+Los permisos principales son:
+
+- **lector**: consulta el archivo;
+- **comentador**: consulta y comenta;
+- **editor**: modifica y, según la configuración, puede compartir.
+
+Puede compartirse con personas concretas, grupos o mediante enlace. El acceso debe limitarse a quienes lo necesiten y revisarse periódicamente.
+
+El historial de versiones permite consultar o restaurar versiones anteriores. La papelera retiene temporalmente los elementos antes de su eliminación definitiva.
+
+## 11. Google Docs
+
+Docs es un procesador de textos colaborativo. Permite edición simultánea, estilos, comentarios, sugerencias, tablas, imágenes, encabezados, pies, historial de versiones y descarga en varios formatos.
+
+En modo **Edición**, los cambios se incorporan directamente. En modo **Sugerencias**, quedan propuestos y pueden aceptarse o rechazarse. Los comentarios pueden responderse, resolverse y asignarse a otras personas.
+
+## 12. Google Sheets
+
+Sheets es una hoja de cálculo colaborativa. Comparte con Excel los conceptos de celdas, referencias, fórmulas, funciones, filtros, gráficos, tablas dinámicas, validación y protección de rangos.
+
+La colaboración se apoya en permisos, comentarios e historial de versiones. Al importar o exportar archivos deben comprobarse fórmulas, separadores, formatos, gráficos y funciones no compatibles.
+
+## 13. Google Calendar
+
+Calendar permite crear eventos y calendarios compartidos. Un evento puede contener título, fecha, hora, zona horaria, ubicación, descripción, videoconferencia, invitados, repetición y notificaciones.
+
+Los invitados pueden aceptar, rechazar o responder provisionalmente. Los permisos de un calendario pueden limitarse a ver solo disponibilidad, ver detalles, modificar eventos o administrar el uso compartido.
+
+Los eventos repetitivos se definen mediante una periodicidad y pueden modificarse solo en una ocurrencia, en las siguientes o en toda la serie.
+
+## 14. Interoperabilidad, accesibilidad y buenas prácticas
+
+Antes de compartir o enviar un documento deben revisarse destinatarios, permisos, datos personales, comentarios, control de cambios, historial y metadatos.
+
+Buenas prácticas:
+
+- usar nombres de archivo descriptivos;
+- organizar carpetas de forma coherente;
+- utilizar estilos y plantillas;
+- mantener control de versiones;
+- comprobar accesibilidad de títulos, tablas, colores y textos alternativos;
+- exportar a formatos adecuados;
+- evitar duplicidades y copias innecesarias;
+- no compartir mediante enlaces públicos información restringida.
 
 ## Claves de examen
 
-- En Word, sección y página no son equivalentes.
-- En Excel, `$A$1` es referencia absoluta.
-- CCO oculta destinatarios.
+- Guardar y Guardar como no son equivalentes.
+- Un salto de sección permite cambiar la configuración dentro del documento.
+- La sangría francesa afecta a todas las líneas salvo la primera.
+- En Excel, `$A$1` es una referencia absoluta.
+- `#¡REF!` indica una referencia no válida.
+- CCO oculta los destinatarios.
 - Archivar no equivale a eliminar.
-- En Drive debe aplicarse el mínimo privilegio.
+- En Drive debe aplicarse el principio de mínimo privilegio.
+- En Docs, Sugerencias no incorpora definitivamente el cambio.
+- En Calendar, una serie recurrente puede modificarse con distinto alcance.
