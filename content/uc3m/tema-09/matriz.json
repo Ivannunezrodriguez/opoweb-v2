@@ -1,0 +1,21 @@
+{
+  "tema": 9,
+  "titulo": "Ofimática y herramientas Google",
+  "epigrafeOficial": "Procesadores de texto y hojas de cálculo: Word 2019 y Excel 2019; herramientas Google: Gmail, Drive, Docs, Sheets y Calendar; correo electrónico.",
+  "cobertura": [
+    {"bloque":"Word 2019: entorno, documentos y guardado","manual":"apartado 1","preguntas":["UC3M-T09-001"]},
+    {"bloque":"Word 2019: formato de texto y párrafo","manual":"apartado 2","preguntas":["UC3M-T09-003"]},
+    {"bloque":"Word 2019: página, secciones e inserciones","manual":"apartado 3","preguntas":["UC3M-T09-002"]},
+    {"bloque":"Word 2019: revisión, referencias y correspondencia","manual":"apartado 4","preguntas":[]},
+    {"bloque":"Excel 2019: libros, hojas, celdas y referencias","manual":"apartado 5","preguntas":["UC3M-T09-004"]},
+    {"bloque":"Excel 2019: fórmulas, funciones y errores","manual":"apartado 6","preguntas":["UC3M-T09-005"]},
+    {"bloque":"Excel 2019: gestión y análisis de datos","manual":"apartado 7","preguntas":[]},
+    {"bloque":"Correo electrónico y Gmail","manual":"apartados 8 y 9","preguntas":["UC3M-T09-006","UC3M-T09-007"]},
+    {"bloque":"Google Drive","manual":"apartado 10","preguntas":["UC3M-T09-008"]},
+    {"bloque":"Google Docs","manual":"apartado 11","preguntas":["UC3M-T09-009"]},
+    {"bloque":"Google Sheets","manual":"apartado 12","preguntas":["UC3M-T09-010"]},
+    {"bloque":"Google Calendar","manual":"apartado 13","preguntas":["UC3M-T09-011"]},
+    {"bloque":"Interoperabilidad, accesibilidad y buenas prácticas","manual":"apartado 14","preguntas":["UC3M-T09-012"]}
+  ],
+  "estado": "EN_REVISION_USUARIO"
+}
