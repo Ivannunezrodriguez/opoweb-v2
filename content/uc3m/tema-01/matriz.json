@@ -1,0 +1,49 @@
+{
+  "convocatoria": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
+  "tema": 1,
+  "version": "2026-07-22",
+  "estado": "EN_REVISION_USUARIO",
+  "epigrafeOficial": "La Constitución Española de 1978: estructura y contenido; derechos y deberes fundamentales; elaboración de las leyes; organización territorial del Estado; reforma constitucional.",
+  "cobertura": [
+    {
+      "apartado": "Estructura y contenido",
+      "estado": "CUBIERTO",
+      "contenido": ["fechas constitucionales", "Preámbulo", "Título Preliminar", "Títulos I a X", "169 artículos", "disposiciones adicionales, transitorias, derogatoria y final"]
+    },
+    {
+      "apartado": "Derechos y deberes fundamentales",
+      "estado": "CUBIERTO",
+      "contenido": ["artículos 10 a 55", "clasificación", "garantías", "recurso de amparo", "suspensión general e individual"]
+    },
+    {
+      "apartado": "Elaboración de las leyes",
+      "estado": "CUBIERTO",
+      "contenido": ["potestad legislativa", "ley orgánica y ordinaria", "iniciativa legislativa", "proyectos y proposiciones", "Senado", "sanción y promulgación", "decreto legislativo", "decreto-ley"]
+    },
+    {
+      "apartado": "Organización territorial del Estado",
+      "estado": "CUBIERTO",
+      "contenido": ["municipios", "provincias", "comunidades autónomas", "autonomía", "Estatutos", "distribución competencial de los artículos 148 y 149"]
+    },
+    {
+      "apartado": "Reforma constitucional",
+      "estado": "CUBIERTO",
+      "contenido": ["iniciativa", "procedimiento ordinario del artículo 167", "procedimiento agravado del artículo 168", "límites temporales", "reformas de 1992, 2011 y 2024"]
+    }
+  ],
+  "controlesTest": [
+    "Fechas de aprobación, referéndum, sanción, publicación y entrada en vigor",
+    "169 artículos y estructura formal",
+    "Protección de los artículos 14 a 29 y del artículo 30.2",
+    "Mayoría absoluta para las leyes orgánicas",
+    "500.000 firmas para la iniciativa legislativa popular",
+    "Convalidación del decreto-ley en treinta días",
+    "Organización territorial del artículo 137",
+    "Mayorías y referéndum de los artículos 167 y 168"
+  ],
+  "fuentes": [
+    "BOE-A-2026-14624",
+    "BOE-A-1978-31229"
+  ],
+  "aprobadoPorUsuario": false
+}
