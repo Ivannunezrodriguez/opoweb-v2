@@ -21,6 +21,15 @@ const CALLS = [
     contentRoot: 'content/diputacion-toledo',
     availableThemes: 40,
     practiceUrl: null
+  },
+  {
+    id: 'uc3m-auxiliar-administrativa-c2-2026',
+    label: 'Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2',
+    shortLabel: 'UC3M · Auxiliar C2',
+    programmeUrl: 'data/programa-uc3m-auxiliar-administrativa-2026.json',
+    contentRoot: 'content/uc3m',
+    availableThemes: 0,
+    practiceUrl: null
   }
 ];
 
