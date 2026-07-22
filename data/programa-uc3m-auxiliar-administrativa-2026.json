@@ -1,9 +1,10 @@
 {
   "id": "uc3m-auxiliar-administrativa-c2-2026",
   "version": "2026-07-22",
-  "estado": "TEMARIO_COMPLETO",
+  "estado": "HOMOGENEIZACION_FORMATO",
   "convocatoria": {
     "entidad": "Universidad Carlos III de Madrid",
+    "anexo": "Escala Auxiliar Administrativa",
     "plaza": "Escala Auxiliar Administrativa",
     "subgrupo": "C2",
     "plazas": 34,
@@ -20,6 +21,13 @@
       "codigoVerificacion": "BOE-A-2026-14624"
     }
   },
+  "estadosPermitidos": [
+    "PENDIENTE_RECONSTRUCCION",
+    "BORRADOR",
+    "EN_REVISION_USUARIO",
+    "APROBADO_USUARIO",
+    "PUBLICADO"
+  ],
   "bloques": [
     {"id":"generales","titulo":"Temas generales","desde":1,"hasta":9},
     {"id":"recursos-humanos","titulo":"Gestión de Recursos Humanos","desde":10,"hasta":12},
@@ -27,25 +35,25 @@
     {"id":"economico-financiera","titulo":"Gestión Económico-Financiera","desde":18,"hasta":20}
   ],
   "temas": [
-    {"numero":1,"titulo":"La Constitución Española de 1978: estructura y contenido; derechos y deberes fundamentales; elaboración de las leyes; organización territorial del Estado; reforma constitucional.","bloque":"generales","manual":"content/uc3m/tema-01/manual.md"},
-    {"numero":2,"titulo":"Ley 39/2015 (I): disposiciones generales; interesados; actividad de las Administraciones Públicas; actos administrativos.","bloque":"generales","manual":"content/uc3m/tema-02/manual.md"},
-    {"numero":3,"titulo":"Ley 39/2015 (II): procedimiento administrativo común y revisión de los actos en vía administrativa.","bloque":"generales","manual":"content/uc3m/tema-03/manual.md"},
-    {"numero":4,"titulo":"Ley 40/2015 (I): órganos de las Administraciones Públicas.","bloque":"generales","manual":"content/uc3m/tema-04/manual.md"},
-    {"numero":5,"titulo":"Ley 40/2015 (II): funcionamiento electrónico del sector público.","bloque":"generales","manual":"content/uc3m/tema-05/manual.md"},
-    {"numero":6,"titulo":"Ley Orgánica 3/2018 de protección de datos: disposiciones generales, principios, derechos, responsable, encargado y delegado de protección de datos.","bloque":"generales","manual":"content/uc3m/tema-06/manual.md"},
-    {"numero":7,"titulo":"Ley 10/2019 de Transparencia y Participación de la Comunidad de Madrid; publicidad activa; acceso a la información pública; Portal de Transparencia y procedimiento de acceso en la UC3M.","bloque":"generales","manual":"content/uc3m/tema-07/manual.md"},
-    {"numero":8,"titulo":"Ley Orgánica 3/2007 de igualdad; normativa UC3M sobre igualdad, identidad y expresión de género, no discriminación y acoso; III Plan de Igualdad de la UC3M.","bloque":"generales","manual":"content/uc3m/tema-08/manual.md"},
-    {"numero":9,"titulo":"Procesadores de texto y hojas de cálculo: Word 2019 y Excel 2019; herramientas Google: Gmail, Drive, Docs, Sheets y Calendar; correo electrónico.","bloque":"generales","manual":"content/uc3m/tema-09/manual.md"},
-    {"numero":10,"titulo":"TREBEP: personal al servicio de las Administraciones Públicas; derechos, deberes y código de conducta; adquisición y pérdida de la relación de servicio; situaciones administrativas.","bloque":"recursos-humanos","manual":"content/uc3m/tema-10/manual.md"},
-    {"numero":11,"titulo":"Real Decreto 364/1995: ingreso, provisión de puestos, carrera profesional y promoción interna. Ley 53/1984 de incompatibilidades.","bloque":"recursos-humanos","manual":"content/uc3m/tema-11/manual.md"},
-    {"numero":12,"titulo":"Ley 31/1995 de Prevención de Riesgos Laborales: objeto, ámbito, definiciones, derechos, obligaciones, servicios de prevención, consulta y participación.","bloque":"recursos-humanos","manual":"content/uc3m/tema-12/manual.md"},
-    {"numero":13,"titulo":"Ley Orgánica 2/2023 del Sistema Universitario (I): disposiciones generales, autonomía, creación de universidades, enseñanzas, investigación, cooperación, sociedad e internacionalización.","bloque":"gestion-universitaria","manual":"content/uc3m/tema-13/manual.md"},
-    {"numero":14,"titulo":"Ley Orgánica 2/2023 del Sistema Universitario (II): estudiantado y régimen específico de las universidades públicas: régimen económico-financiero, PDI y PTGAS.","bloque":"gestion-universitaria","manual":"content/uc3m/tema-14/manual.md"},
-    {"numero":15,"titulo":"Estatutos de la Universidad Carlos III de Madrid: Defensor Universitario, servicios universitarios, régimen económico-financiero y reforma de los Estatutos.","bloque":"gestion-universitaria","manual":"content/uc3m/tema-15/manual.md"},
-    {"numero":16,"titulo":"Real Decreto 822/2021 sobre organización de enseñanzas y calidad; normativas académicas UC3M de matrícula, permanencia y evaluación; enseñanzas oficiales.","bloque":"gestion-universitaria","manual":"content/uc3m/tema-16/manual.md"},
-    {"numero":17,"titulo":"Real Decreto 534/2024 sobre acceso y admisión a Grado; regulación y normativa de acceso y admisión en estudios oficiales de la UC3M.","bloque":"gestion-universitaria","manual":"content/uc3m/tema-17/manual.md"},
-    {"numero":18,"titulo":"Presupuesto de la UC3M (I): características, estructura, ingresos, gastos, créditos, financiación, modificaciones y ejecución de ingresos.","bloque":"economico-financiera","manual":"content/uc3m/tema-18/manual.md"},
-    {"numero":19,"titulo":"Presupuesto de la UC3M (II): ejecución de gastos, gestión presupuestaria y económico-financiera, ordenación, documentos contables, liquidación y cierre.","bloque":"economico-financiera","manual":"content/uc3m/tema-19/manual.md"},
-    {"numero":20,"titulo":"Ley 9/2017 de Contratos del Sector Público: ámbito, tipos, perfección, órgano de contratación, objeto, presupuesto, valor estimado, precio, preparación y adjudicación; contratación en la UC3M.","bloque":"economico-financiera","manual":"content/uc3m/tema-20/manual.md"}
+    {"numero":1,"titulo":"La Constitución Española de 1978: estructura y contenido; derechos y deberes fundamentales; elaboración de las leyes; organización territorial del Estado; reforma constitucional.","bloque":"generales","estado":"BORRADOR","manual":"content/uc3m/tema-01/manual.md","fuentes":"content/uc3m/tema-01/fuentes.md","matriz":"content/uc3m/tema-01/matriz.json","preguntas":"content/uc3m/tema-01/preguntas.json"},
+    {"numero":2,"titulo":"Ley 39/2015 (I): disposiciones generales; interesados; actividad de las Administraciones Públicas; actos administrativos.","bloque":"generales","estado":"BORRADOR","manual":"content/uc3m/tema-02/manual.md","fuentes":"content/uc3m/tema-02/fuentes.md","matriz":"content/uc3m/tema-02/matriz.json","preguntas":"content/uc3m/tema-02/preguntas.json"},
+    {"numero":3,"titulo":"Ley 39/2015 (II): procedimiento administrativo común y revisión de los actos en vía administrativa.","bloque":"generales","estado":"BORRADOR","manual":"content/uc3m/tema-03/manual.md","fuentes":"content/uc3m/tema-03/fuentes.md","matriz":"content/uc3m/tema-03/matriz.json","preguntas":"content/uc3m/tema-03/preguntas.json"},
+    {"numero":4,"titulo":"Ley 40/2015 (I): órganos de las Administraciones Públicas.","bloque":"generales","estado":"BORRADOR","manual":"content/uc3m/tema-04/manual.md","fuentes":"content/uc3m/tema-04/fuentes.md","matriz":"content/uc3m/tema-04/matriz.json","preguntas":"content/uc3m/tema-04/preguntas.json"},
+    {"numero":5,"titulo":"Ley 40/2015 (II): funcionamiento electrónico del sector público.","bloque":"generales","estado":"BORRADOR","manual":"content/uc3m/tema-05/manual.md","fuentes":"content/uc3m/tema-05/fuentes.md","matriz":"content/uc3m/tema-05/matriz.json","preguntas":"content/uc3m/tema-05/preguntas.json"},
+    {"numero":6,"titulo":"Ley Orgánica 3/2018 de protección de datos: disposiciones generales, principios, derechos, responsable, encargado y delegado de protección de datos.","bloque":"generales","estado":"BORRADOR","manual":"content/uc3m/tema-06/manual.md","fuentes":"content/uc3m/tema-06/fuentes.md","matriz":"content/uc3m/tema-06/matriz.json","preguntas":"content/uc3m/tema-06/preguntas.json"},
+    {"numero":7,"titulo":"Ley 10/2019 de Transparencia y Participación de la Comunidad de Madrid; publicidad activa; acceso a la información pública; Portal de Transparencia y procedimiento de acceso en la UC3M.","bloque":"generales","estado":"BORRADOR","manual":"content/uc3m/tema-07/manual.md","fuentes":"content/uc3m/tema-07/fuentes.md","matriz":"content/uc3m/tema-07/matriz.json","preguntas":"content/uc3m/tema-07/preguntas.json"},
+    {"numero":8,"titulo":"Ley Orgánica 3/2007 de igualdad; normativa UC3M sobre igualdad, identidad y expresión de género, no discriminación y acoso; III Plan de Igualdad de la UC3M.","bloque":"generales","estado":"BORRADOR","manual":"content/uc3m/tema-08/manual.md","fuentes":"content/uc3m/tema-08/fuentes.md","matriz":"content/uc3m/tema-08/matriz.json","preguntas":"content/uc3m/tema-08/preguntas.json"},
+    {"numero":9,"titulo":"Procesadores de texto y hojas de cálculo: Word 2019 y Excel 2019; herramientas Google: Gmail, Drive, Docs, Sheets y Calendar; correo electrónico.","bloque":"generales","estado":"BORRADOR","manual":"content/uc3m/tema-09/manual.md","fuentes":"content/uc3m/tema-09/fuentes.md","matriz":"content/uc3m/tema-09/matriz.json","preguntas":"content/uc3m/tema-09/preguntas.json"},
+    {"numero":10,"titulo":"TREBEP: personal al servicio de las Administraciones Públicas; derechos, deberes y código de conducta; adquisición y pérdida de la relación de servicio; situaciones administrativas.","bloque":"recursos-humanos","estado":"BORRADOR","manual":"content/uc3m/tema-10/manual.md","fuentes":"content/uc3m/tema-10/fuentes.md","matriz":"content/uc3m/tema-10/matriz.json","preguntas":"content/uc3m/tema-10/preguntas.json"},
+    {"numero":11,"titulo":"Real Decreto 364/1995: ingreso, provisión de puestos, carrera profesional y promoción interna. Ley 53/1984 de incompatibilidades.","bloque":"recursos-humanos","estado":"BORRADOR","manual":"content/uc3m/tema-11/manual.md","fuentes":"content/uc3m/tema-11/fuentes.md","matriz":"content/uc3m/tema-11/matriz.json","preguntas":"content/uc3m/tema-11/preguntas.json"},
+    {"numero":12,"titulo":"Ley 31/1995 de Prevención de Riesgos Laborales: objeto, ámbito, definiciones, derechos, obligaciones, servicios de prevención, consulta y participación.","bloque":"recursos-humanos","estado":"BORRADOR","manual":"content/uc3m/tema-12/manual.md","fuentes":"content/uc3m/tema-12/fuentes.md","matriz":"content/uc3m/tema-12/matriz.json","preguntas":"content/uc3m/tema-12/preguntas.json"},
+    {"numero":13,"titulo":"Ley Orgánica 2/2023 del Sistema Universitario (I): disposiciones generales, autonomía, creación de universidades, enseñanzas, investigación, cooperación, sociedad e internacionalización.","bloque":"gestion-universitaria","estado":"BORRADOR","manual":"content/uc3m/tema-13/manual.md","fuentes":"content/uc3m/tema-13/fuentes.md","matriz":"content/uc3m/tema-13/matriz.json","preguntas":"content/uc3m/tema-13/preguntas.json"},
+    {"numero":14,"titulo":"Ley Orgánica 2/2023 del Sistema Universitario (II): estudiantado y régimen específico de las universidades públicas: régimen económico-financiero, PDI y PTGAS.","bloque":"gestion-universitaria","estado":"BORRADOR","manual":"content/uc3m/tema-14/manual.md","fuentes":"content/uc3m/tema-14/fuentes.md","matriz":"content/uc3m/tema-14/matriz.json","preguntas":"content/uc3m/tema-14/preguntas.json"},
+    {"numero":15,"titulo":"Estatutos de la Universidad Carlos III de Madrid: Defensor Universitario, servicios universitarios, régimen económico-financiero y reforma de los Estatutos.","bloque":"gestion-universitaria","estado":"BORRADOR","manual":"content/uc3m/tema-15/manual.md","fuentes":"content/uc3m/tema-15/fuentes.md","matriz":"content/uc3m/tema-15/matriz.json","preguntas":"content/uc3m/tema-15/preguntas.json"},
+    {"numero":16,"titulo":"Real Decreto 822/2021 sobre organización de enseñanzas y calidad; normativas académicas UC3M de matrícula, permanencia y evaluación; enseñanzas oficiales.","bloque":"gestion-universitaria","estado":"BORRADOR","manual":"content/uc3m/tema-16/manual.md","fuentes":"content/uc3m/tema-16/fuentes.md","matriz":"content/uc3m/tema-16/matriz.json","preguntas":"content/uc3m/tema-16/preguntas.json"},
+    {"numero":17,"titulo":"Real Decreto 534/2024 sobre acceso y admisión a Grado; regulación y normativa de acceso y admisión en estudios oficiales de la UC3M.","bloque":"gestion-universitaria","estado":"BORRADOR","manual":"content/uc3m/tema-17/manual.md","fuentes":"content/uc3m/tema-17/fuentes.md","matriz":"content/uc3m/tema-17/matriz.json","preguntas":"content/uc3m/tema-17/preguntas.json"},
+    {"numero":18,"titulo":"Presupuesto de la UC3M (I): características, estructura, ingresos, gastos, créditos, financiación, modificaciones y ejecución de ingresos.","bloque":"economico-financiera","estado":"BORRADOR","manual":"content/uc3m/tema-18/manual.md","fuentes":"content/uc3m/tema-18/fuentes.md","matriz":"content/uc3m/tema-18/matriz.json","preguntas":"content/uc3m/tema-18/preguntas.json"},
+    {"numero":19,"titulo":"Presupuesto de la UC3M (II): ejecución de gastos, gestión presupuestaria y económico-financiera, ordenación, documentos contables, liquidación y cierre.","bloque":"economico-financiera","estado":"BORRADOR","manual":"content/uc3m/tema-19/manual.md","fuentes":"content/uc3m/tema-19/fuentes.md","matriz":"content/uc3m/tema-19/matriz.json","preguntas":"content/uc3m/tema-19/preguntas.json"},
+    {"numero":20,"titulo":"Ley 9/2017 de Contratos del Sector Público: ámbito, tipos, perfección, órgano de contratación, objeto, presupuesto, valor estimado, precio, preparación y adjudicación; contratación en la UC3M.","bloque":"economico-financiera","estado":"BORRADOR","manual":"content/uc3m/tema-20/manual.md","fuentes":"content/uc3m/tema-20/fuentes.md","matriz":"content/uc3m/tema-20/matriz.json","preguntas":"content/uc3m/tema-20/preguntas.json"}
   ]
 }
