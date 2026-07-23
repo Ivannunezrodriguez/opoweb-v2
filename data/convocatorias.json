@@ -1,5 +1,5 @@
 {
-  "actualizadoEl": "2026-07-22",
+  "actualizadoEl": "2026-07-23",
   "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará. Las convocatorias descartadas no reciben desarrollo editorial ni mantenimiento activo.",
   "convocatorias": [
     {
@@ -10,31 +10,23 @@
       "estadoEditorial": "COMPLETA_CON_RECTIFICACION_PENDIENTE_TEMA_06",
       "temas": 19,
       "ruta": "./",
-      "incidenciaActiva": "El manual del Tema 6 conserva una mención errónea a dos años para programas temporales; el banco de preguntas y la auditoría ya reflejan el máximo correcto de cuatro años."
+      "incidenciaActiva": "El manual fuente del Tema 6 conserva una mención errónea a dos años para programas temporales. La interfaz, el banco de preguntas y la auditoría aplican ya el máximo correcto de cuatro años en Castilla-La Mancha."
     },
     {
       "id": "diputacion-toledo-administrativo-c1-2026",
       "nombre": "Diputación Provincial de Toledo · Administrativo C1",
       "estadoUsuario": "INSCRITO",
       "prioridad": 2,
-      "estadoEditorial": "EN_DESARROLLO_PRIORITARIO",
+      "estadoEditorial": "COMPLETO_EN_AUDITORIA_CONTINUA",
       "temas": 40,
       "plazasTurnoLibre": 2,
       "sistema": "OPOSICION_LIBRE",
       "fuentePrincipal": "BOP de Toledo número 118, de 25 de junio de 2026, código 2026.00002934",
-      "publicacionBOE": {
-        "referencia": "BOE-A-2026-14527",
-        "numero": 162,
-        "fecha": "2026-07-04"
-      },
-      "plazoSolicitudes": {
-        "desde": "2026-07-06",
-        "hasta": "2026-07-31",
-        "estado": "ABIERTO"
-      },
+      "publicacionBOE": {"referencia":"BOE-A-2026-14527","numero":162,"fecha":"2026-07-04"},
+      "plazoSolicitudes": {"desde":"2026-07-06","hasta":"2026-07-31","estado":"ABIERTO"},
       "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1961/7080/rrhh-seleccion-convocatoria/1",
-      "seguimientoVerificadoEl": "2026-07-22",
-      "ultimaComprobacion": "El portal oficial mantiene abierto el plazo de Administrativo/a por oposición libre hasta el 31 de julio de 2026; no consta todavía lista provisional de personas admitidas y excluidas.",
+      "seguimientoVerificadoEl": "2026-07-23",
+      "ultimaComprobacion": "Continúa el periodo de solicitudes hasta el 31 de julio de 2026. No consta en el seguimiento registrado una lista provisional posterior.",
       "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22"
     },
     {
@@ -42,10 +34,14 @@
       "nombre": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
       "estadoUsuario": "INSCRITO",
       "prioridad": 3,
-      "estadoEditorial": "EN_DESARROLLO_PRIORITARIO",
+      "estadoEditorial": "17_DE_20_EN_REVISION_USUARIO",
       "temas": 20,
+      "temasConManualFuentesMatrizPreguntas": 17,
       "plazas": 34,
-      "fuentePrincipal": "Resolución de 30 de junio de 2026 y anuncio en BOCM de 8 de julio de 2026"
+      "fuentePrincipal": "Resolución de 30 de junio de 2026; BOE-A-2026-14624 y anuncio en BOCM de 8 de julio de 2026",
+      "seguimientoVerificadoEl": "2026-07-23",
+      "ultimaComprobacion": "Tema 17 auditado contra el Real Decreto 534/2024 consolidado a 2 de julio de 2026 y contra la información de admisión UC3M 2026/2027. Quedan pendientes los temas 18, 19 y 20.",
+      "incidenciaCorregida": "El borrador no concretaba el mínimo para cambio de universidad o estudios. Se ha fijado el umbral legal de 30 ECTS reconocidos y se ha incorporado la modificación de 2026 del artículo 23.2."
     },
     {
       "id": "carranque-auxiliar-2026",
@@ -60,31 +56,15 @@
       "estadoUsuario": "PENDIENTE_DECISION",
       "prioridad": null,
       "estadoEditorial": "SOLO_SEGUIMIENTO",
-      "plazasTurnoLibre": {
-        "tecnicoAdministracionGeneralA1": 2,
-        "administrativoC1": 1,
-        "auxiliarAdministrativoC2": 4
-      },
-      "otrasPlazas": {
-        "operadorSistemasC1ReservaDiscapacidad": 1,
-        "tecnicoGestionA2PromocionInterna": 2
-      },
+      "plazasTurnoLibre": {"tecnicoAdministracionGeneralA1":2,"administrativoC1":1,"auxiliarAdministrativoC2":4},
+      "otrasPlazas": {"operadorSistemasC1ReservaDiscapacidad":1,"tecnicoGestionA2PromocionInterna":2},
       "sistemaInteresUsuario": "OPOSICION_LIBRE",
       "fuentePrincipal": "BOP de Toledo número 116, de 23 de junio de 2026",
-      "publicacionBOE": {
-        "referencia": "BOE-A-2026-14923",
-        "numero": 166,
-        "fecha": "2026-07-09"
-      },
-      "plazoSolicitudes": {
-        "desde": "2026-07-10",
-        "hasta": "2026-08-06",
-        "estado": "ABIERTO",
-        "fuenteFechaExacta": "Portal oficial de empleo y formulario de admisión del CPEIS Toledo"
-      },
+      "publicacionBOE": {"referencia":"BOE-A-2026-14923","numero":166,"fecha":"2026-07-09"},
+      "plazoSolicitudes": {"desde":"2026-07-10","hasta":"2026-08-06","estado":"ABIERTO","fuenteFechaExacta":"Portal oficial de empleo y formulario de admisión del CPEIS Toledo"},
       "fuenteSeguimiento": "https://cpeistoledo.es/empleo-formacion/",
-      "seguimientoVerificadoEl": "2026-07-22",
-      "ultimaComprobacion": "El BOE mantiene la convocatoria de cuatro plazas de Auxiliar C2 y una de Administrativo C1 por oposición libre. No se ha detectado una publicación posterior que modifique plazas o sistema selectivo.",
+      "seguimientoVerificadoEl": "2026-07-23",
+      "ultimaComprobacion": "Se mantiene la convocatoria registrada y el plazo hasta el 6 de agosto de 2026; no se inicia temario sin decisión del usuario.",
       "nota": "Convocatoria oficial detectada; no se inicia desarrollo editorial hasta que el usuario confirme si desea presentarse."
     },
     {
