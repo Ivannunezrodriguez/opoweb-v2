@@ -2,200 +2,158 @@
 
 > Epígrafe oficial: Real Decreto 822/2021 sobre organización de enseñanzas y calidad; normativas académicas UC3M de matrícula, permanencia y evaluación; enseñanzas oficiales.
 
-## 1. Marco general de las enseñanzas universitarias
+**Estado editorial:** `EN_REVISION_USUARIO`  
+**Control de vigencia:** 23 de julio de 2026.
 
-El Real Decreto 822/2021 establece la organización de las enseñanzas universitarias oficiales y el procedimiento de aseguramiento de su calidad. Las enseñanzas oficiales se estructuran en Grado, Máster Universitario y Doctorado y conducen a títulos con validez en todo el territorio nacional.
+## 1. Enseñanzas universitarias oficiales
 
-Las universidades, dentro de su autonomía, diseñan sus planes de estudios, pero deben someterlos a procedimientos de verificación, autorización, inscripción, seguimiento y renovación de la acreditación. La autonomía académica convive así con controles externos de calidad y con la obligación de informar públicamente sobre cada titulación.
+El Real Decreto 822/2021 organiza las enseñanzas universitarias oficiales y su aseguramiento de la calidad. Las enseñanzas oficiales son:
 
-## 2. Créditos ECTS y carga de trabajo
+- Grado;
+- Máster Universitario;
+- Doctorado.
 
-El crédito europeo ECTS expresa el volumen de trabajo necesario para alcanzar los resultados de aprendizaje previstos. Incluye clases, prácticas, estudio, trabajos, proyectos, tutorías y pruebas de evaluación.
+Conducen a títulos oficiales con validez en todo el territorio nacional. Las universidades diseñan los planes de estudios dentro de su autonomía, pero los títulos se someten a verificación, autorización, declaración de oficialidad, inscripción, seguimiento y renovación de la acreditación.
 
-Con carácter general, un curso académico a tiempo completo comprende 60 créditos ECTS. El número de horas asociado al crédito se determina dentro de los márgenes legales y debe reflejar el trabajo total del estudiante, no solo la docencia presencial.
+## 2. Créditos ECTS
 
-## 3. Enseñanzas de Grado
+El crédito ECTS mide el trabajo total del estudiante: clases, prácticas, estudio, trabajos, tutorías y evaluación.
 
-Las enseñanzas de Grado proporcionan una formación básica y generalista junto con preparación para el ejercicio de actividades profesionales. Como regla general, los planes de Grado tienen 240 créditos ECTS, aunque determinadas titulaciones reguladas por normativa europea o sectorial pueden tener una duración diferente.
+Reglas esenciales:
 
-Los planes pueden incluir:
+- un curso académico a tiempo completo comprende normalmente **60 ECTS**;
+- en la información académica de la UC3M, **1 ECTS equivale a 25 horas de trabajo del estudiante**;
+- el crédito no equivale exclusivamente a horas de docencia presencial.
 
-- formación básica;
-- asignaturas obligatorias;
-- asignaturas optativas;
-- prácticas académicas externas;
-- Trabajo Fin de Grado;
-- actividades formativas vinculadas a competencias transversales.
+## 3. Grado
 
-La memoria verificada del título define competencias, resultados de aprendizaje, estructura, metodología, sistema de evaluación, recursos y mecanismos de garantía de calidad.
+La regla general es que los planes de Grado tengan **240 ECTS**, sin perjuicio de titulaciones sujetas a normativa europea o sectorial que exijan otra duración.
 
-## 4. Enseñanzas de Máster Universitario
+Pueden incluir formación básica, asignaturas obligatorias y optativas, prácticas académicas externas, Trabajo Fin de Grado y formación transversal.
 
-El Máster Universitario ofrece formación avanzada, especializada o multidisciplinar. Puede orientarse a la especialización académica, profesional o investigadora.
+## 4. Máster Universitario
 
-Su duración habitual es de 60, 90 o 120 créditos ECTS. Debe incluir un Trabajo Fin de Máster y puede incorporar prácticas externas. El acceso requiere una titulación universitaria oficial o una situación equivalente legalmente reconocida. La admisión puede quedar sometida a criterios específicos, complementos formativos o requisitos lingüísticos.
+El Máster Universitario proporciona formación avanzada, especializada o multidisciplinar. Su duración habitual es de **60, 90 o 120 ECTS** e incluye un Trabajo Fin de Máster.
 
-Acceso y admisión son conceptos distintos: el acceso habilita para solicitar plaza; la admisión determina quién obtiene plaza conforme a los criterios aprobados.
+Debe distinguirse:
+
+- **acceso**: cumplimiento de los requisitos legales que permiten solicitar plaza;
+- **admisión**: selección efectiva conforme a criterios, requisitos y plazas disponibles.
 
 ## 5. Doctorado
 
-Las enseñanzas de Doctorado se regulan por su normativa específica y tienen como finalidad la adquisición de competencias de investigación de alto nivel. Culminan con la elaboración y defensa de una tesis doctoral original.
+Las enseñanzas de Doctorado se rigen además por el Real Decreto 99/2011. Culminan con la elaboración y defensa de una tesis doctoral original y comprenden plan de investigación, formación y evaluación periódica.
 
-El doctorando debe desarrollar un plan de investigación, participar en actividades formativas y superar evaluaciones periódicas. La admisión, supervisión, seguimiento y defensa de la tesis se sujetan a la normativa estatal y universitaria aplicable.
+## 6. Plan de estudios y memoria verificada
 
-## 6. Planes de estudios y memoria del título
-
-El plan de estudios organiza los módulos, materias, asignaturas, actividades formativas y sistemas de evaluación necesarios para obtener el título. Debe ser coherente con el nivel académico, los resultados de aprendizaje y el perfil de egreso.
-
-La universidad aprueba internamente la propuesta. Después intervienen los órganos de evaluación y las Administraciones competentes. La memoria verificada constituye la referencia académica del título y vincula aspectos como:
+La memoria del título define, entre otros elementos:
 
 - denominación y centro responsable;
-- número de créditos;
-- modalidad de enseñanza;
-- competencias y resultados de aprendizaje;
+- créditos y modalidad;
+- resultados de aprendizaje;
 - estructura temporal;
-- sistemas de evaluación;
-- recursos personales y materiales;
+- actividades formativas y evaluación;
+- recursos;
 - prácticas externas;
-- garantía interna de calidad.
+- sistema interno de garantía de calidad.
 
-## 7. Verificación, autorización, oficialidad e inscripción
+La memoria verificada es la referencia del título; la guía docente concreta cada asignatura sin poder contradecirla.
 
-El procedimiento de implantación de un título comprende varias actuaciones que no deben confundirse:
+## 7. Implantación de un título oficial
 
-1. aprobación de la propuesta por la universidad;
-2. verificación de la calidad del plan de estudios;
-3. autorización de implantación por la comunidad autónoma;
-4. declaración del carácter oficial por el Gobierno;
+No deben confundirse estos trámites:
+
+1. aprobación interna de la propuesta;
+2. verificación del plan de estudios;
+3. autorización de implantación por la Comunidad Autónoma;
+4. declaración del carácter oficial;
 5. inscripción en el Registro de Universidades, Centros y Títulos;
 6. publicación oficial del plan.
 
-La superación de un trámite no sustituye los restantes. La inscripción registral y la publicación permiten identificar el título oficial y sus efectos.
+Ninguno de estos trámites sustituye automáticamente a los restantes.
 
-## 8. Seguimiento, modificación y renovación de la acreditación
+## 8. Seguimiento, modificación y acreditación
 
-Una vez implantado, el título se somete a seguimiento para comprobar que se desarrolla conforme a la memoria verificada. Se analizan resultados académicos, satisfacción, inserción laboral, recursos, prácticas, quejas e indicadores de calidad.
+El título implantado queda sometido a seguimiento. Las modificaciones pueden ser no sustanciales o sustanciales. La renovación de la acreditación comprueba periódicamente el mantenimiento de los estándares de calidad.
 
-Las modificaciones pueden ser no sustanciales o sustanciales. Las primeras no alteran la naturaleza esencial del título; las segundas afectan elementos relevantes y requieren un procedimiento reforzado de evaluación.
+Los sistemas internos de garantía de calidad analizan rendimiento, abandono, satisfacción, inserción laboral, prácticas, movilidad, recursos, reclamaciones y planes de mejora.
 
-La renovación de la acreditación comprueba periódicamente que el título mantiene los estándares exigidos. Un resultado desfavorable puede dar lugar a planes de mejora, suspensión de admisiones o extinción conforme al procedimiento aplicable.
+## 9. Matrícula UC3M
 
-## 9. Sistemas internos de garantía de calidad
+La matrícula formaliza la vinculación académica del estudiante con las asignaturas y genera la obligación de pagar los precios públicos, salvo beca, exención, bonificación o aplazamiento reconocido.
 
-Las universidades y centros deben disponer de sistemas internos de garantía de calidad. Su finalidad es obtener información fiable, detectar problemas y promover mejora continua.
+La normativa regula plazos, grupos, incompatibilidades, modificación, anulación, reconocimiento de créditos y efectos del impago.
 
-Estos sistemas suelen analizar:
+La anulación voluntaria no implica como regla general devolución de precios. En la información oficial de posgrado se contempla excepcionalmente una devolución del **50 %** cuando la renuncia se comunica antes del inicio del curso y la matrícula se había abonado íntegramente, excluidos servicios de secretaría y seguro escolar.
 
-- tasas de rendimiento, éxito, abandono y graduación;
-- satisfacción de estudiantes, profesorado y egresados;
-- prácticas externas y movilidad;
-- inserción laboral;
-- recursos docentes y materiales;
-- cumplimiento de la guía docente;
-- reclamaciones, sugerencias y planes de mejora.
+## 10. Dedicación a tiempo completo y parcial
 
-La participación de los distintos colectivos universitarios forma parte del aseguramiento de la calidad.
+La dedicación a tiempo completo es el régimen ordinario. En la información académica de Grado de la UC3M, el estudiante a tiempo parcial:
 
-## 10. Matrícula en la UC3M
+- se matricula de **30 ECTS el primer año**;
+- en los cursos siguientes, de un mínimo de **18 ECTS**.
 
-La matrícula formaliza la vinculación académica del estudiante con determinadas asignaturas y grupos durante un curso. Debe realizarse en los plazos y por los procedimientos establecidos por la Universidad.
+La dedicación parcial debe solicitarse y acreditarse conforme al procedimiento aplicable.
 
-La matrícula genera la obligación de abonar los precios públicos, salvo que exista beca, exención, bonificación o aplazamiento reconocido. La falta de pago puede producir efectos académicos y administrativos conforme a la normativa aplicable.
+## 11. Permanencia UC3M
 
-La normativa de matrícula regula, entre otras cuestiones:
+La normativa vigente de permanencia, dispensa y matrícula fue aprobada por el Consejo de Gobierno el 7 de febrero de 2008 y modificada el 30 de junio de 2016 y el 12 de abril de 2018.
 
-- matrícula a tiempo completo o parcial;
-- orden de matrícula y asignación de grupos;
-- requisitos e incompatibilidades entre asignaturas;
-- modificación de matrícula;
-- anulación total o parcial;
-- acreditación de exenciones y bonificaciones;
-- reconocimiento de créditos;
-- efectos del impago.
+Reglas de rendimiento publicadas por la UC3M:
 
-La matrícula no elimina los requisitos académicos del plan ni garantiza la superación de las asignaturas.
+- en el primer año académico deben superarse al menos **12 créditos** del primer curso;
+- el primer curso completo debe superarse en **dos años académicos consecutivos**;
+- en titulaciones de la rama de ingeniería, el plazo es de **tres años académicos consecutivos**;
+- se dispone de **cuatro convocatorias** por asignatura;
+- en titulaciones de ingeniería se dispone de **seis convocatorias**.
 
-## 11. Dedicación a tiempo completo y parcial
+El estudiante puede solicitar dispensas o autorizaciones excepcionales cuando concurran causas justificadas y se aporte la documentación requerida.
 
-La dedicación a tiempo completo es el régimen ordinario. La dedicación parcial permite adaptar la carga lectiva cuando concurren las circunstancias previstas por la normativa universitaria.
+## 12. Evaluación continua UC3M
 
-La condición de estudiante a tiempo parcial puede afectar al número mínimo y máximo de créditos matriculables, al cómputo de permanencia y a determinadas reglas de planificación académica. Debe solicitarse y acreditarse en la forma prevista.
+La evaluación debe ser objetiva, transparente y coherente con la guía docente.
 
-## 12. Permanencia
+Reglas generales publicadas por la UC3M para Grado:
 
-Las normas de permanencia fijan el rendimiento mínimo necesario para continuar los estudios. Pueden establecer:
+- la evaluación continua vale como mínimo el **40 %** de la calificación final;
+- el examen final puede valer como máximo el **60 %**;
+- quien no haya seguido la evaluación continua tiene derecho, en convocatoria ordinaria, a un examen final con valor del **60 %** de la nota total;
+- en convocatoria extraordinaria se conserva la evaluación continua cuando se hubiera seguido;
+- si no se siguió la evaluación continua, existe derecho a un examen con valor del **100 %** en la convocatoria extraordinaria;
+- determinadas asignaturas especiales pueden exigir evaluación continua, carecer de examen final o no disponer de convocatoria extraordinaria cuando así esté previsto.
 
-- número mínimo de créditos superados en primer curso;
-- límites temporales para finalizar la titulación;
-- reglas específicas para tiempo parcial;
-- efectos del agotamiento de convocatorias;
-- adaptación de estudios;
-- permanencia excepcional.
+Los criterios y porcentajes deben publicarse antes del inicio del curso y no pueden alterarse de forma improvisada una vez comenzada la docencia.
 
-El incumplimiento de los requisitos puede impedir continuar en la titulación. No obstante, el estudiante puede solicitar autorización excepcional cuando existan circunstancias justificadas. La resolución debe valorar la documentación aportada, el rendimiento previo y la normativa vigente.
+## 13. Revisión, actas y calificaciones
 
-## 13. Evaluación del aprendizaje
+El estudiante tiene derecho a conocer los criterios, acceder a sus pruebas y solicitar revisión.
 
-La evaluación debe ser objetiva, transparente y coherente con los resultados de aprendizaje. La guía docente debe informar previamente sobre:
+Las calificaciones se incorporan a actas oficiales. El cierre del acta no impide las rectificaciones procedentes, pero exige el procedimiento formal correspondiente.
 
-- actividades evaluables;
-- ponderación de cada actividad;
-- requisitos mínimos;
-- sistema de evaluación continua y final;
-- fechas y condiciones de las pruebas;
-- criterios de calificación;
-- procedimiento de revisión.
+La calificación de **No Presentado** se aplica, conforme a la información UC3M, cuando el estudiante no se presenta al examen final o, si la asignatura no tiene examen final, cuando no completa el proceso de evaluación continua.
 
-La evaluación puede ser continua, final o mixta. Las modificaciones relevantes de los criterios una vez iniciado el curso solo pueden realizarse con las garantías y publicidad previstas.
+## 14. Reconocimiento y transferencia de créditos
 
-## 14. Derechos en materia de evaluación
+- **Reconocimiento**: los créditos aceptados computan para la obtención del nuevo título.
+- **Transferencia**: los créditos superados constan en el expediente, pero no sustituyen créditos del nuevo plan.
 
-El estudiante tiene derecho a conocer los criterios, recibir una evaluación objetiva, acceder a sus pruebas y solicitar revisión de la calificación.
+## 15. Prácticas y trabajos fin de estudios
 
-La revisión se realiza inicialmente ante el profesorado responsable. Cuando la normativa lo permita, puede formularse reclamación posterior ante el órgano académico competente. Deben garantizarse audiencia, motivación e imparcialidad.
+Las prácticas pueden ser curriculares o extracurriculares. Solo las curriculares forman parte del plan de estudios y tienen asignación de créditos.
 
-Las pruebas, trabajos y documentos de evaluación se conservan durante el plazo establecido para permitir revisión y reclamación.
+El TFG y el TFM son asignaturas obligatorias cuya matrícula, tutela, defensa y evaluación se sujetan a la normativa general y a las reglas del centro o titulación.
 
-## 15. Convocatorias, actas y calificaciones
+## 16. Extinción de planes
 
-Las asignaturas se evalúan en las convocatorias previstas en el calendario académico. Las calificaciones se incorporan a actas oficiales, que deben ser cumplimentadas y firmadas por el profesorado responsable dentro del plazo establecido.
-
-La calificación de no presentado se aplica según el sistema de evaluación y el grado de participación del estudiante. La matrícula de honor está sometida a límites cuantitativos y requisitos académicos.
-
-El cierre del acta no impide las rectificaciones legalmente procedentes, pero estas deben tramitarse por el procedimiento formal correspondiente.
-
-## 16. Reconocimiento y transferencia de créditos
-
-El reconocimiento supone aceptar determinados créditos obtenidos previamente para que computen en el nuevo plan de estudios. Puede basarse en enseñanzas oficiales, experiencia profesional acreditada, estudios no oficiales u otras actividades legalmente reconocibles.
-
-La transferencia incorpora al expediente créditos superados en otras enseñanzas oficiales que no se utilizan para obtener el nuevo título.
-
-Por tanto:
-
-- los créditos reconocidos sí computan para la obtención del nuevo título;
-- los créditos transferidos constan en el expediente, pero no sustituyen créditos del plan.
-
-La resolución corresponde al órgano universitario competente y debe valorar la adecuación entre competencias, conocimientos y resultados de aprendizaje.
-
-## 17. Prácticas académicas externas y trabajos fin de estudios
-
-Las prácticas externas permiten aplicar conocimientos en entornos profesionales y deben integrarse en el plan formativo. Pueden ser curriculares o extracurriculares, pero solo las curriculares forman parte del plan de estudios y tienen asignación de créditos.
-
-El Trabajo Fin de Grado y el Trabajo Fin de Máster son asignaturas obligatorias orientadas a integrar competencias de la titulación. Su matrícula, tutorización, defensa y evaluación se rigen por la normativa y por las reglas específicas del centro o titulación.
-
-## 18. Extinción de planes de estudios
-
-Cuando un plan se sustituye o extingue, la Universidad debe aprobar un calendario que regule convocatorias, docencia residual, adaptación al nuevo plan y reconocimiento de créditos.
-
-El estudiante debe recibir información suficiente para elegir entre continuar en el plan extinguido, cuando sea posible, o adaptarse al nuevo. La extinción debe preservar los derechos académicos y evitar situaciones de indefensión.
+La Universidad debe aprobar un calendario de extinción que regule convocatorias, docencia residual, adaptación y reconocimiento de créditos, preservando los derechos académicos del estudiante.
 
 ## Claves de examen
 
-- Las enseñanzas oficiales son Grado, Máster Universitario y Doctorado.
-- Un curso completo equivale normalmente a 60 ECTS.
-- Acceso y admisión no son lo mismo.
-- Verificación, autorización, oficialidad e inscripción son trámites distintos.
-- La memoria verificada y la guía docente vinculan la organización académica.
-- Reconocimiento y transferencia de créditos producen efectos diferentes.
-- La revisión de calificaciones es un derecho del estudiante.
-- La autonomía universitaria no excluye seguimiento, acreditación y rendición de cuentas.
+- Enseñanzas oficiales: Grado, Máster Universitario y Doctorado.
+- Curso completo: 60 ECTS; en UC3M, 1 ECTS = 25 horas de trabajo.
+- Tiempo parcial: 30 ECTS el primer año y mínimo 18 en los siguientes.
+- Permanencia: 12 créditos el primer año; primer curso en dos años, tres en ingeniería.
+- Convocatorias: cuatro; seis en ingeniería.
+- Evaluación continua: mínimo 40 %; examen final, máximo 60 %.
+- Extraordinaria sin evaluación continua: examen del 100 %.
+- Reconocimiento y transferencia producen efectos distintos.
