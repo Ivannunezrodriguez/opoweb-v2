@@ -4,15 +4,18 @@
   "estado": "EN_REVISION_USUARIO",
   "cobertura": [
     {"bloque":"Naturaleza de los Estatutos","apartados":[1],"preguntas":[]},
-    {"bloque":"Defensor Universitario","apartados":[2,3],"preguntas":["UC3M-T15-001","UC3M-T15-002","UC3M-T15-003"]},
+    {"bloque":"Defensor Universitario: función y límites","apartados":[2,3],"preguntas":["UC3M-T15-001","UC3M-T15-002","UC3M-T15-003"]},
+    {"bloque":"Defensor Universitario: propuesta, elección, cese, mandato, reelección y Adjunto","apartados":["2.1","2.2"],"preguntas":["UC3M-T15-013","UC3M-T15-014","UC3M-T15-015","UC3M-T15-016"]},
+    {"bloque":"Defensor Universitario: elegibilidad, medios y órgano asesor","apartados":["2.2","2.3"],"preguntas":[]},
     {"bloque":"Servicios universitarios","apartados":[4,5],"preguntas":["UC3M-T15-004"]},
     {"bloque":"Régimen económico-financiero","apartados":[6,7,8,9,10],"preguntas":["UC3M-T15-005","UC3M-T15-006","UC3M-T15-007"]},
     {"bloque":"Reforma de los Estatutos","apartados":[11,12,13],"preguntas":["UC3M-T15-008","UC3M-T15-009","UC3M-T15-010","UC3M-T15-011","UC3M-T15-012"]}
   ],
   "control": {
     "epigrafeCubierto": true,
-    "preguntasTotales": 12,
+    "preguntasTotales": 16,
     "fuentesOficiales": true,
-    "pendienteRevisionUsuario": true
+    "pendienteRevisionUsuario": true,
+    "incidenciaTransversalCorregida": "El borrador explicaba la función general del Defensor, pero omitía las reglas estatutarias de propuesta, elección, mayoría, mandato, reelección, Adjunto, memoria anual y órgano asesor."
   }
 }
