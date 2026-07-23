@@ -9,12 +9,18 @@
 ## Normativa general
 
 - **Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario.** Régimen económico y financiero de las universidades públicas.
-- **Ley 9/1990, de 8 de noviembre, reguladora de la Hacienda de la Comunidad de Madrid.** Régimen presupuestario, ejecución, control, liquidación y rendición.
+- **Ley 5/2025, de 23 de diciembre, de Hacienda de la Comunidad de Madrid.** Vigente desde el **1 de enero de 2026**; regula el régimen presupuestario, la ejecución, el control, la liquidación y la rendición de cuentas y derogó la Ley 9/1990.
 - **Decreto 1/2003, de 9 de enero, por el que se aprueban los Estatutos de la Universidad Carlos III de Madrid.** Competencias de los órganos universitarios y régimen económico-financiero.
 - **Ley 9/2017, de 8 de noviembre, de Contratos del Sector Público.** Expedientes contractuales, recepción, facturación, reconocimiento y pago.
 - **Ley 38/2003, de 17 de noviembre, General de Subvenciones.** Gestión, justificación y pago de subvenciones.
 - **Ley 25/2013, de 27 de diciembre, de impulso de la factura electrónica y creación del registro contable de facturas en el sector público.**
 - **Plan General de Contabilidad Pública** y normativa contable aplicable a la Universidad.
+
+## Control de vigencia
+
+- La **Ley 9/1990, de 8 de noviembre**, quedó derogada con efectos de **1 de enero de 2026** por la disposición derogatoria única de la Ley 5/2025.
+- Referencia BOE de la norma vigente: `BOE-A-2026-3217`.
+- No debe citarse la Ley 9/1990 como norma vigente para el Presupuesto UC3M 2026.
 
 ## Criterio editorial
 
