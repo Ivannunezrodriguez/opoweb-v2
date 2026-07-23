@@ -4,111 +4,71 @@
 
 ## Cambios reales de esta revisión
 
-### UC3M · Tema 18 auditado y activado
+### UC3M · Tema 19 auditado y activado
 
-Se ha completado la auditoría jurídica y editorial del Tema 18:
+Se ha completado la auditoría jurídica y editorial del Tema 19:
 
-> Presupuesto de la UC3M (I): características, estructura, ingresos, gastos, créditos, financiación, modificaciones y ejecución de ingresos.
+> Presupuesto de la UC3M (II): ejecución de gastos, gestión presupuestaria y económico-financiera, ordenación, documentos contables, liquidación y cierre.
 
 El tema pasa de `BORRADOR` a `EN_REVISION_USUARIO` y dispone ya de:
 
-- `content/uc3m/tema-18/manual.md`;
-- `content/uc3m/tema-18/fuentes.md`;
-- `content/uc3m/tema-18/matriz.json`;
-- `content/uc3m/tema-18/preguntas.json` con **12 preguntas**.
+- `content/uc3m/tema-19/manual.md`;
+- `content/uc3m/tema-19/fuentes.md`;
+- `content/uc3m/tema-19/matriz.json`;
+- `content/uc3m/tema-19/preguntas.json` con **12 preguntas**.
 
 #### Fuente oficial específica incorporada
 
-Se ha utilizado el **Presupuesto UC3M 2026**, aprobado por el Consejo de Gobierno y por el Consejo Social el **11 de diciembre de 2025**, especialmente su Volumen I y las Normas Básicas de Gestión.
-
-El presupuesto total asciende a **300.468.067,59 euros**, con un incremento aproximado del **9,25 %** respecto de 2025.
+Se ha utilizado el **Presupuesto UC3M 2026**, aprobado por el Consejo de Gobierno y por el Consejo Social el **11 de diciembre de 2025**, especialmente el Volumen I y sus Normas Básicas de Gestión.
 
 #### Errores e indeterminaciones corregidos
 
 El borrador anterior:
 
-- presentaba una estructura genérica de capítulos de ingresos que no coincidía con el estado real de ingresos de 2026;
-- no incluía los importes oficiales por capítulos;
-- no concretaba el nivel de vinculación de los créditos;
-- describía de forma genérica las modificaciones presupuestarias sin indicar competencias;
-- no incorporaba el procedimiento específico de contabilización y seguimiento de ingresos de las Normas Básicas de Gestión 2026.
+- no distinguía con precisión retención, autorización, disposición, obligación, ordenación y pago material;
+- no identificaba los documentos contables habituales RC, A, D, O, P y mixtos;
+- trataba de forma genérica pagos a justificar y anticipos de caja fija;
+- no desarrollaba operaciones no presupuestarias;
+- no diferenciaba liquidación, resultado presupuestario, remanente de tesorería y cuentas anuales.
 
 La versión auditada incorpora:
 
-- capítulos reales de ingresos: III, IV, V, VII y VIII;
-- clasificación triple de gastos y doble de ingresos;
-- vinculación general a nivel de concepto y excepciones de los capítulos I, II y VI;
-- competencias del Rector, Consejo de Gobierno, Consejo Social y Comunidad de Madrid;
-- generaciones, rectificaciones, transferencias, incorporaciones y redistribuciones;
-- reconocimiento de derechos conforme al principio de devengo;
-- seguimiento de facturas pendientes a 60, 90 y 120 días;
-- uso de remanentes específicos sin financiación estructural mediante remanentes libres.
-
-### Seguimiento de convocatorias actualizado
-
-#### La Puebla de Montalbán
-
-La inscripción personal ha quedado verificada con la documentación aportada por el usuario:
-
-- pago de la tasa de **7 euros** el 27 de mayo de 2026;
-- solicitud registrada el 28 de mayo de 2026;
-- justificante electrónico de registro comprobado.
-
-Por privacidad, el repositorio público no incorpora DNI, números de cuenta, copias de documentos ni datos bancarios.
-
-No consta todavía una lista provisional oficial verificada.
-
-#### Carranque
-
-Se han incorporado al registro de seguimiento los datos oficiales de las bases y del BOE:
-
-- una plaza C2;
-- concurso-oposición libre;
-- BOE-A-2026-1136, de 19 de enero de 2026;
-- primer ejercicio de 80 preguntas más 5 de reserva, 90 minutos;
-- segundo ejercicio práctico sobre los temas 3 a 20;
-- fase de concurso de hasta 8 puntos.
-
-No consta una publicación posterior verificada en las fuentes consultadas.
-
-#### Las Ventas con Peña Aguilera
-
-La convocatoria se mantiene archivada por decisión del usuario, pero se completa su ficha documental:
-
-- una plaza C2;
-- BOP de Toledo número 89, de 14 de mayo de 2026;
-- BOE-A-2026-14274, de 1 de julio de 2026;
-- plazo cerrado el 21 de julio de 2026;
-- fase de oposición no antes del 15 de octubre de 2026.
+- secuencia completa de ejecución del gasto;
+- expedientes, facturas y conformidad;
+- gastos de personal, contratación, subvenciones y transferencias;
+- pagos a justificar, anticipos, plurianualidad y tramitación anticipada;
+- ordenación, tesorería, conciliación y control;
+- liquidación, resultado presupuestario, remanente, cierre y cuentas anuales.
 
 ## Estado de convocatorias activas
 
 ### La Puebla de Montalbán · Auxiliar Administrativo C2
 
-Programa oficial de **19 temas**. Estado editorial general completo, con una incidencia fuente todavía abierta:
-
-- `content/la-puebla/tema-06/manual.md` conserva la cifra errónea de **2 años** para programas temporales;
-- la regla vigente aplicable en Castilla-La Mancha es un máximo total de **4 años**;
-- la interfaz pública, el banco de preguntas, el supuesto práctico y la auditoría ya aplican la cifra correcta mediante corrección transitoria.
-
-La sustitución directa del Markdown fuente y la retirada posterior de `assets/tema6-interinidad-correction.js` continúan pendientes.
+- Inscripción verificada documentalmente.
+- Programa oficial de **19 temas**.
+- Pendiente sustituir en `content/la-puebla/tema-06/manual.md` la cifra incorrecta de **2 años** por el máximo vigente de **4 años** y retirar después la corrección transitoria de interfaz.
+- No consta todavía lista provisional oficial verificada.
 
 ### Diputación Provincial de Toledo · Administrativo C1
 
 - **2 plazas** por oposición libre.
-- Solicitudes: del **6 al 31 de julio de 2026**.
-- Estado editorial: **40 de 40 temas** con manual, fuentes, matriz y banco inicial.
-- Seguimiento vigente: no consta en el registro una lista provisional posterior.
-- Pendiente crítico: fuente oficial íntegra y vigente de los Estatutos del OAPGT para cerrar definitivamente el Tema 22.
-- Tema 31: banco actualizado a eIDAS 2; ampliación pendiente de integración en el manual principal.
+- Solicitudes abiertas hasta el **31 de julio de 2026**.
+- Estado editorial: **40 de 40 temas**.
+- Pendiente crítico: fuente oficial íntegra y vigente de los Estatutos del OAPGT.
+- Tema 31: ampliación eIDAS 2 pendiente de integrar en el manual principal.
 
 ### Universidad Carlos III de Madrid · Auxiliar Administrativa C2
 
 - **34 plazas**, de ellas **2 reservadas a discapacidad**.
 - Sistema: concurso-oposición libre.
-- Estado editorial: **18 de 20 temas** en `EN_REVISION_USUARIO`.
-- Pendientes: temas **19 y 20**.
-- Último bloque completado: Tema 18, contrastado con el Presupuesto UC3M 2026.
+- Estado editorial: **19 de 20 temas** en `EN_REVISION_USUARIO`.
+- Pendiente únicamente el **Tema 20**, sobre contratación pública y contratación en la UC3M.
+
+### Carranque · Auxiliar Administrativo C2
+
+- Usuario inscrito.
+- Seguimiento en mantenimiento.
+- No consta publicación posterior oficial verificada en el registro.
 
 ### CPEIS Toledo
 
@@ -118,7 +78,9 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 - **1 plaza** de Administrativo C1;
 - plazo hasta el **6 de agosto de 2026**.
 
-No se inicia desarrollo editorial específico sin confirmación de interés.
+### Las Ventas con Peña Aguilera
+
+Convocatoria archivada porque el usuario confirmó que no se presentará.
 
 ## Estado por proyectos
 
@@ -126,21 +88,20 @@ No se inicia desarrollo editorial específico sin confirmación de interés.
 |---|---:|---|
 | La Puebla | **19/19** | Completa con rectificación fuente pendiente en Tema 6 |
 | Diputación C1 | **40/40** | Auditoría continua; OAPGT y ampliación eIDAS 2 pendientes |
-| UC3M C2 | **18/20** | Tema 18 contrastado con presupuesto oficial 2026 |
+| UC3M C2 | **19/20** | Tema 19 contrastado con Presupuesto UC3M 2026 |
 | CPEIS | Solo seguimiento | Pendiente de decisión del usuario |
 
 ## Versión de publicación
 
-- Versión de interfaz: `v0.27.11`.
-- Caché del servicio: `opoweb-v2-0.27.11`.
-- Precarga offline de UC3M ampliada hasta el **Tema 18**.
+- Versión de interfaz: `v0.27.12`.
+- Caché del servicio: `opoweb-v2-0.27.12`.
+- Precarga offline de UC3M ampliada hasta el **Tema 19**.
 
 ## Orden de trabajo vigente
 
-1. Desarrollar y auditar el **Tema 19 de UC3M**.
-2. Sustituir en el Markdown fuente del **Tema 6 de La Puebla** las menciones incorrectas a **2 años** por el régimen aplicable de hasta **4 años**.
-3. Retirar `assets/tema6-interinidad-correction.js` cuando la fuente esté corregida.
-4. Incorporar al manual principal del **Tema 31 de Diputación** la ampliación de servicios de confianza de eIDAS 2.
-5. Mantener seguimiento de Diputación hasta el **31 de julio de 2026**.
-6. Mantener seguimiento del CPEIS hasta el **6 de agosto de 2026** o hasta decisión del usuario.
-7. Cerrar el bloque OAPGT únicamente con fuente oficial íntegra y verificable.
+1. Desarrollar y auditar el **Tema 20 de UC3M**.
+2. Corregir el Markdown fuente del **Tema 6 de La Puebla** y retirar la corrección transitoria.
+3. Integrar la ampliación eIDAS 2 en el **Tema 31 de Diputación**.
+4. Mantener seguimiento de Diputación hasta el **31 de julio de 2026**.
+5. Mantener seguimiento del CPEIS hasta el **6 de agosto de 2026** o hasta decisión del usuario.
+6. Cerrar OAPGT únicamente con fuente oficial íntegra y verificable.
