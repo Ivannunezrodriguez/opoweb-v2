@@ -22,6 +22,50 @@ Puede actuar:
 
 Puede solicitar informes y documentación, formular recomendaciones y propuestas y elevar informes a los órganos universitarios. Las autoridades, órganos y servicios deben colaborar con él dentro de los límites de la legalidad, la protección de datos y la confidencialidad.
 
+### 2.1. Propuesta, elección y cese
+
+Conforme al artículo 127 de los Estatutos:
+
+- el **Rector propone** un candidato, después de oír a los representantes de estudiantes, personal de administración y servicios y profesorado;
+- el **Claustro Universitario elige** al Defensor;
+- resulta elegido quien obtenga los votos de la **mitad más uno de los miembros del Claustro**.
+
+El cese se acuerda por el Claustro con la misma mayoría por alguna de estas causas:
+
+- petición propia;
+- incumplimiento de sus obligaciones;
+- actuaciones que den lugar a lesión de derechos.
+
+### 2.2. Mandato, reelección, Adjunto y memoria
+
+El mandato dura **tres años** y solo cabe **una reelección**.
+
+La iniciativa para proponer la reelección corresponde:
+
+- al Rector;
+- o a un grupo de claustrales que represente al menos la **quinta parte** de los miembros del Claustro.
+
+El candidato propone un **Defensor Universitario Adjunto** de su confianza. El Claustro lo designa en la misma sesión por **mayoría simple**.
+
+Al principio de cada curso académico, el Defensor presenta al Claustro una memoria de las actividades desarrolladas durante el curso anterior. También puede informar ante el Claustro por iniciativa propia o a iniciativa de la quinta parte de este.
+
+El Rector debe proporcionar, de acuerdo con el Defensor, el apoyo administrativo y los medios económicos necesarios.
+
+### 2.3. Quién puede ser Defensor y órgano asesor
+
+El Defensor debe ser designado entre:
+
+- profesorado de la propia Universidad;
+- personal de administración y servicios de la propia Universidad.
+
+Compatibiliza el cargo con sus tareas propias, que pueden reducirse hasta un máximo del **50 %**.
+
+El Reglamento de organización y funcionamiento es aprobado por el Consejo de Gobierno a propuesta del Rector, oído el Defensor. Existe además un órgano de participación y asesoramiento integrado por:
+
+- dos estudiantes;
+- dos miembros del personal de administración y servicios;
+- dos miembros del personal docente e investigador.
+
 ## 3. Límites de la actuación del Defensor
 
 El Defensor no ejerce potestad sancionadora, no anula actos administrativos y no sustituye a los órganos competentes para resolver recursos o procedimientos.
@@ -141,7 +185,11 @@ No pueden presentarse propuestas de reforma durante los tres meses anteriores a 
 
 | Materia | Regla esencial |
 |---|---|
-| Defensor Universitario | Protege derechos, actúa con independencia y formula recomendaciones |
+| Propuesta de Defensor | Rector, tras oír a los sectores universitarios |
+| Elección del Defensor | Claustro, mitad más uno de sus miembros |
+| Mandato | Tres años; una sola reelección |
+| Adjunto | Propuesto por el candidato y designado por mayoría simple |
+| Memoria | Al principio de cada curso sobre el curso anterior |
 | Quejas al Defensor | No suspenden plazos ni sustituyen recursos |
 | Servicios universitarios | Apoyan docencia, investigación, gestión y vida universitaria |
 | Presupuesto | Incluye ingresos y gastos y está sujeto a control |
@@ -153,6 +201,9 @@ No pueden presentarse propuestas de reforma durante los tres meses anteriores a 
 
 ## Claves de examen
 
+- El Rector propone al candidato y el Claustro lo elige por la mitad más uno de sus miembros.
+- El mandato dura tres años y solo permite una reelección.
+- El Adjunto se designa por mayoría simple.
 - El Defensor recomienda y media, pero no sanciona ni anula actos.
 - Una queja ante el Defensor no suspende los plazos de recurso.
 - Autonomía económica no significa ausencia de control.
