@@ -1,14 +1,20 @@
 {
   "tema": 16,
   "titulo": "Organización de enseñanzas y normativa académica UC3M",
+  "estado": "EN_REVISION_USUARIO",
+  "controlVigencia": "2026-07-23",
   "cobertura": [
-    {"epigrafe":"Enseñanzas oficiales","manual":[1,2,3,4,5],"preguntas":["UC3M-T16-001","UC3M-T16-002","UC3M-T16-003","UC3M-T16-004"]},
-    {"epigrafe":"Planes de estudios y calidad","manual":[6,7,8,9],"preguntas":["UC3M-T16-005","UC3M-T16-006","UC3M-T16-007"]},
-    {"epigrafe":"Matrícula y dedicación","manual":[10,11],"preguntas":["UC3M-T16-008"]},
-    {"epigrafe":"Permanencia","manual":[12],"preguntas":["UC3M-T16-009"]},
-    {"epigrafe":"Evaluación, convocatorias y actas","manual":[13,14,15],"preguntas":["UC3M-T16-010"]},
-    {"epigrafe":"Reconocimiento y transferencia","manual":[16],"preguntas":["UC3M-T16-011"]},
-    {"epigrafe":"Prácticas, TFG/TFM y extinción","manual":[17,18],"preguntas":["UC3M-T16-012"]}
+    {"epigrafe":"Enseñanzas oficiales y ECTS","manual":[1,2,3,4,5],"preguntas":["UC3M-T16-001","UC3M-T16-002","UC3M-T16-003","UC3M-T16-004","UC3M-T16-009"]},
+    {"epigrafe":"Planes de estudios y calidad","manual":[6,7,8],"preguntas":["UC3M-T16-005","UC3M-T16-006","UC3M-T16-007"]},
+    {"epigrafe":"Matrícula y dedicación","manual":[9,10],"preguntas":["UC3M-T16-008","UC3M-T16-010"]},
+    {"epigrafe":"Permanencia UC3M","manual":[11],"preguntas":["UC3M-T16-011","UC3M-T16-012","UC3M-T16-013"]},
+    {"epigrafe":"Evaluación UC3M","manual":[12,13],"preguntas":["UC3M-T16-014","UC3M-T16-015"]},
+    {"epigrafe":"Reconocimiento y transferencia","manual":[14],"preguntas":["UC3M-T16-016"]},
+    {"epigrafe":"Prácticas, TFG/TFM y extinción","manual":[15,16],"preguntas":[]}
   ],
-  "estado":"EN_REVISION_USUARIO"
+  "incidenciasCorregidas": [
+    "El borrador describía matrícula, permanencia y evaluación de forma genérica sin incorporar los umbrales concretos publicados por la UC3M.",
+    "Se incorporan 25 horas por ECTS, cargas de tiempo parcial, mínimos de permanencia, número de convocatorias y porcentajes de evaluación continua y examen final.",
+    "El banco pasa de 12 a 16 preguntas y queda alineado con las reglas específicas del manual."
+  ]
 }
