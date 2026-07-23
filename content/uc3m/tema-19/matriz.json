@@ -2,6 +2,7 @@
   "tema": 19,
   "epigrafe": "Presupuesto de la UC3M (II): ejecución de gastos, gestión presupuestaria y económico-financiera, ordenación, documentos contables, liquidación y cierre.",
   "estado": "EN_REVISION_USUARIO",
+  "controlVigencia": "2026-07-23",
   "cobertura": [
     {"bloque":"Ejecución de gastos","apartados":[2,3,4,5,6,7,8,9,10,11,12],"estado":"cubierto"},
     {"bloque":"Gestión presupuestaria y económico-financiera","apartados":[1,2,5,6,8,9,12,15,16],"estado":"cubierto"},
@@ -13,7 +14,7 @@
   "fuentesClave": [
     "Presupuesto UC3M 2026, Volumen I y Normas Básicas de Gestión",
     "Ley Orgánica 2/2023, del Sistema Universitario",
-    "Ley 9/1990, reguladora de la Hacienda de la Comunidad de Madrid",
+    "Ley 5/2025, de 23 de diciembre, de Hacienda de la Comunidad de Madrid",
     "Estatutos de la Universidad Carlos III de Madrid",
     "Plan General de Contabilidad Pública aplicable"
   ],
@@ -21,6 +22,7 @@
     "El borrador utilizaba categorías genéricas sin identificar documentos contables habituales.",
     "No distinguía suficientemente autorización, compromiso, obligación, ordenación y pago material.",
     "No desarrollaba resultado presupuestario, remanente de tesorería ni operaciones no presupuestarias.",
-    "No vinculaba la gestión con el Presupuesto UC3M 2026 y sus Normas Básicas de Gestión."
+    "No vinculaba la gestión con el Presupuesto UC3M 2026 y sus Normas Básicas de Gestión.",
+    "La matriz y las fuentes citaban como vigente la Ley 9/1990, derogada desde el 1 de enero de 2026; se sustituye por la Ley 5/2025."
   ]
 }
