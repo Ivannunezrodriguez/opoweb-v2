@@ -1,11 +1,12 @@
 {
   "convocatoriaId": "la-puebla-auxiliar-administrativo-2026",
-  "actualizadoEl": "2026-07-18",
+  "actualizadoEl": "2026-07-23",
   "situacionPersonal": {
     "inscrito": true,
     "fechaPresentacion": "2026-05-28",
     "estado": "Solicitud presentada y registrada",
-    "notaPrivacidad": "El justificante, la solicitud y el resto de documentación personal se conservan fuera del repositorio público."
+    "verificacionDocumental": "Comprobada mediante recibo de registro de entrada y documentación aportada por el usuario.",
+    "notaPrivacidad": "El justificante, la solicitud, el documento identificativo y los datos bancarios se conservan fuera del repositorio público. No se publican números de documento, cuenta ni copias personales."
   },
   "hitos": [
     {
@@ -21,15 +22,21 @@
       "estado": "completado"
     },
     {
+      "fecha": "2026-05-27",
+      "titulo": "Pago de derechos de examen",
+      "detalle": "Abono de la tasa de 7 euros acreditado mediante justificante privado aportado por el usuario.",
+      "estado": "completado"
+    },
+    {
       "fecha": "2026-05-28",
       "titulo": "Inscripción de Iván",
-      "detalle": "Solicitud presentada dentro de plazo y con asiento registral acreditado mediante documentación privada.",
+      "detalle": "Solicitud presentada dentro de plazo y con asiento registral acreditado mediante recibo electrónico del Ayuntamiento.",
       "estado": "completado"
     },
     {
       "fecha": null,
       "titulo": "Lista provisional de admitidos y excluidos",
-      "detalle": "Pendiente de incorporar en cuanto exista publicación oficial verificada en la sede electrónica municipal.",
+      "detalle": "No consta todavía una publicación oficial verificada en la sede electrónica municipal.",
       "estado": "pendiente"
     },
     {
@@ -65,6 +72,10 @@
     {
       "nombre": "Extracto de convocatoria",
       "referencia": "BOE número 125, de 22 de mayo de 2026 · BOE-A-2026-11030"
+    },
+    {
+      "nombre": "Prueba privada de inscripción",
+      "referencia": "Recibo de registro de entrada de 28 de mayo de 2026 y justificante de tasa de 27 de mayo de 2026; no publicados por privacidad"
     }
   ]
 }
