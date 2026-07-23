@@ -4,24 +4,30 @@
 
 ## Cambios reales de esta revisión
 
-### UC3M · corrección transversal del Tema 14
+### UC3M · corrección transversal del Tema 15
 
-La revisión del bloque económico de la LOSU ha detectado tres omisiones relevantes en el Tema 14:
+La revisión de los Estatutos de la Universidad Carlos III de Madrid ha detectado que el Tema 15 explicaba la función general del Defensor Universitario, pero omitía varias reglas estatutarias susceptibles de pregunta directa:
 
-- no se indicaba que el **Consejo de Gobierno propone** el presupuesto y las cuentas anuales y que el **Consejo Social los aprueba**;
-- no se recogía la obligación de destinar al menos el **5 % del presupuesto** a programas propios de investigación;
-- el objetivo mínimo del **1 % del PIB** no se vinculaba expresamente al marco de incremento del gasto público para **2030**.
+- el **Rector propone** al candidato, tras oír a los sectores universitarios;
+- el **Claustro lo elige** por la **mitad más uno de sus miembros**;
+- el cese se acuerda con la misma mayoría;
+- el mandato dura **tres años** y solo permite **una reelección**;
+- el Adjunto es propuesto por el candidato y designado por el Claustro por **mayoría simple**;
+- el Defensor presenta una memoria al principio de cada curso académico;
+- debe pertenecer al profesorado o al personal de administración y servicios de la propia Universidad;
+- el órgano asesor se integra por dos estudiantes, dos miembros del PAS y dos del PDI.
 
 Se han actualizado:
 
-- `content/uc3m/tema-14/manual.md`;
-- `content/uc3m/tema-14/fuentes.md`;
-- `content/uc3m/tema-14/matriz.json`;
-- `content/uc3m/tema-14/preguntas.json`, que pasa de 12 a **14 preguntas**.
+- `content/uc3m/tema-15/manual.md`;
+- `content/uc3m/tema-15/fuentes.md`;
+- `content/uc3m/tema-15/matriz.json`;
+- `content/uc3m/tema-15/preguntas.json`, que pasa de 12 a **16 preguntas**.
 
-### UC3M · corrección transversal del Tema 19
+### UC3M · correcciones transversales anteriores
 
-Se mantiene sustituida la referencia a la derogada Ley 9/1990 por la vigente **Ley 5/2025, de Hacienda de la Comunidad de Madrid**.
+- Tema 14: competencias presupuestarias, reserva mínima del 5 % para investigación y precisión del objetivo del 1 % del PIB.
+- Tema 19: sustitución de la derogada Ley 9/1990 por la vigente Ley 5/2025 de Hacienda de la Comunidad de Madrid.
 
 ### La Puebla de Montalbán · Tema 6
 
@@ -53,7 +59,7 @@ El manual permanece alineado con eIDAS 2 y el Reglamento (UE) 2024/1183.
 - **34 plazas**, de ellas **2 reservadas a discapacidad**.
 - Sistema: concurso-oposición libre.
 - Estado editorial: **20 de 20 temas** en revisión transversal.
-- Incidencias transversales corregidas hasta ahora: Tema 19, norma hacendística derogada; Tema 14, competencias presupuestarias, reserva mínima de investigación y precisión del objetivo del 1 % del PIB.
+- Incidencias transversales corregidas hasta ahora: temas **14, 15 y 19**.
 
 ### Carranque · Auxiliar Administrativo C2
 
@@ -79,13 +85,13 @@ Convocatoria archivada porque el usuario confirmó que no se presentará.
 |---|---:|---|
 | La Puebla | **19/19** | Completa |
 | Diputación C1 | **40/40** | Tema 31 actualizado a eIDAS 2; OAPGT pendiente |
-| UC3M C2 | **20/20** | Revisión transversal activa; temas 14 y 19 corregidos |
+| UC3M C2 | **20/20** | Revisión transversal activa; temas 14, 15 y 19 corregidos |
 | CPEIS | Solo seguimiento | Pendiente de decisión del usuario |
 
 ## Versión de publicación
 
-- Versión de interfaz: `v0.27.17`.
-- Caché del servicio: `opoweb-v2-0.27.17`.
+- Versión de interfaz: `v0.27.18`.
+- Caché del servicio: `opoweb-v2-0.27.18`.
 - Precarga offline completa de UC3M y Diputación.
 
 ## Orden de trabajo vigente
