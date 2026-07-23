@@ -2,7 +2,7 @@
 
 **Estado:** APROBADO POR EL USUARIO  
 **Publicado en OpoWeb v2 tras aprobación expresa del usuario.**  
-**Fecha de revisión normativa:** 17 de julio de 2026.
+**Fecha de revisión normativa:** 23 de julio de 2026.
 
 > **Regla del proyecto:** «Te prometí un manual y publiqué resúmenes inflados por métricas. La reconstrucción tendrá que empezar por el contenido real de cada epígrafe, artículo por artículo; no por añadir más palabras, tests o etiquetas de “completo”.»
 
@@ -194,11 +194,11 @@ Puede sustituirse:
 
 Debe tratarse de actividades no habituales o lanzamiento de una nueva actividad.
 
-Duración máxima del programa: **dos años**.
+Duración máxima del programa: **cuatro años**.
 
 Puede prorrogarse sin superar ese máximo total.
 
-> ⚠️ **¡Foco Examen!:** El nombramiento por programa temporal puede prorrogarse cuando el inicial sea inferior, pero la duración total nunca puede superar **dos años**.
+> ⚠️ **¡Foco Examen!:** El nombramiento por programa temporal puede prorrogarse cuando el inicial sea inferior, pero la duración total nunca puede superar **cuatro años**.
 
 ### D. Exceso o acumulación de tareas
 
