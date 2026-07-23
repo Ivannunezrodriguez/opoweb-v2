@@ -4,29 +4,33 @@
 
 ## Cambios reales de esta revisión
 
-### UC3M · corrección transversal del Tema 15
+### UC3M · corrección transversal del Tema 16
 
-La revisión de los Estatutos de la Universidad Carlos III de Madrid ha detectado que el Tema 15 explicaba la función general del Defensor Universitario, pero omitía varias reglas estatutarias susceptibles de pregunta directa:
+La revisión de organización de enseñanzas y normativa académica ha detectado que el borrador describía matrícula, permanencia y evaluación de forma demasiado genérica y no incorporaba reglas concretas publicadas por la UC3M.
 
-- el **Rector propone** al candidato, tras oír a los sectores universitarios;
-- el **Claustro lo elige** por la **mitad más uno de sus miembros**;
-- el cese se acuerda con la misma mayoría;
-- el mandato dura **tres años** y solo permite **una reelección**;
-- el Adjunto es propuesto por el candidato y designado por el Claustro por **mayoría simple**;
-- el Defensor presenta una memoria al principio de cada curso académico;
-- debe pertenecer al profesorado o al personal de administración y servicios de la propia Universidad;
-- el órgano asesor se integra por dos estudiantes, dos miembros del PAS y dos del PDI.
+Se han añadido:
+
+- equivalencia UC3M de **1 ECTS = 25 horas de trabajo**;
+- tiempo parcial en Grado: **30 ECTS el primer año** y mínimo de **18 ECTS** en los siguientes;
+- permanencia: al menos **12 créditos** superados en el primer año;
+- primer curso completo en **dos años consecutivos**, o **tres** en ingeniería;
+- **cuatro convocatorias** por asignatura, o **seis** en ingeniería;
+- evaluación continua con mínimo del **40 %**;
+- examen final ordinario con máximo del **60 %**;
+- convocatoria extraordinaria sin evaluación continua: examen con valor del **100 %**;
+- precisión de la calificación No Presentado y de las asignaturas especiales.
 
 Se han actualizado:
 
-- `content/uc3m/tema-15/manual.md`;
-- `content/uc3m/tema-15/fuentes.md`;
-- `content/uc3m/tema-15/matriz.json`;
-- `content/uc3m/tema-15/preguntas.json`, que pasa de 12 a **16 preguntas**.
+- `content/uc3m/tema-16/manual.md`;
+- `content/uc3m/tema-16/fuentes.md`;
+- `content/uc3m/tema-16/matriz.json`;
+- `content/uc3m/tema-16/preguntas.json`, que pasa de 12 a **16 preguntas**.
 
 ### UC3M · correcciones transversales anteriores
 
 - Tema 14: competencias presupuestarias, reserva mínima del 5 % para investigación y precisión del objetivo del 1 % del PIB.
+- Tema 15: elección, mayoría, mandato, reelección, Adjunto, memoria y órgano asesor del Defensor Universitario.
 - Tema 19: sustitución de la derogada Ley 9/1990 por la vigente Ley 5/2025 de Hacienda de la Comunidad de Madrid.
 
 ### La Puebla de Montalbán · Tema 6
@@ -59,7 +63,7 @@ El manual permanece alineado con eIDAS 2 y el Reglamento (UE) 2024/1183.
 - **34 plazas**, de ellas **2 reservadas a discapacidad**.
 - Sistema: concurso-oposición libre.
 - Estado editorial: **20 de 20 temas** en revisión transversal.
-- Incidencias transversales corregidas hasta ahora: temas **14, 15 y 19**.
+- Incidencias transversales corregidas hasta ahora: temas **14, 15, 16 y 19**.
 
 ### Carranque · Auxiliar Administrativo C2
 
@@ -85,13 +89,13 @@ Convocatoria archivada porque el usuario confirmó que no se presentará.
 |---|---:|---|
 | La Puebla | **19/19** | Completa |
 | Diputación C1 | **40/40** | Tema 31 actualizado a eIDAS 2; OAPGT pendiente |
-| UC3M C2 | **20/20** | Revisión transversal activa; temas 14, 15 y 19 corregidos |
+| UC3M C2 | **20/20** | Revisión transversal activa; temas 14, 15, 16 y 19 corregidos |
 | CPEIS | Solo seguimiento | Pendiente de decisión del usuario |
 
 ## Versión de publicación
 
-- Versión de interfaz: `v0.27.18`.
-- Caché del servicio: `opoweb-v2-0.27.18`.
+- Versión de interfaz: `v0.27.19`.
+- Caché del servicio: `opoweb-v2-0.27.19`.
 - Precarga offline completa de UC3M y Diputación.
 
 ## Orden de trabajo vigente
