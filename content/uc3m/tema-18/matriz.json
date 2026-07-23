@@ -1,0 +1,22 @@
+{
+  "tema": 18,
+  "epigrafe": "Presupuesto de la UC3M (I): características, estructura, ingresos, gastos, créditos, financiación, modificaciones y ejecución de ingresos.",
+  "estado": "EN_REVISION_USUARIO",
+  "controlVigencia": "2026-07-23",
+  "fuenteEspecifica": "Presupuesto UC3M 2026, Volumen I, aprobado por Consejo de Gobierno y Consejo Social el 11 de diciembre de 2025",
+  "cobertura": [
+    {"bloque":"Características y concepto","manual":"1-4","fuentes":["LOSU arts. 53-57","Presupuesto UC3M 2026 arts. 1-2"],"preguntas":["UC3M-T18-001","UC3M-T18-002"]},
+    {"bloque":"Estructura de ingresos y gastos","manual":"5-7","fuentes":["Presupuesto UC3M 2026, distribución por capítulos y art. 4"],"preguntas":["UC3M-T18-003","UC3M-T18-004"]},
+    {"bloque":"Financiación","manual":"8-9","fuentes":["LOSU arts. 56-57","Presupuesto UC3M 2026 art. 3"],"preguntas":["UC3M-T18-011"]},
+    {"bloque":"Créditos y vinculación","manual":"10","fuentes":["Presupuesto UC3M 2026 art. 5"],"preguntas":["UC3M-T18-005","UC3M-T18-006"]},
+    {"bloque":"Modificaciones presupuestarias","manual":"11","fuentes":["Presupuesto UC3M 2026 arts. 6-8"],"preguntas":["UC3M-T18-007","UC3M-T18-008","UC3M-T18-009"]},
+    {"bloque":"Prórroga","manual":"12","fuentes":["Ley 5/2025 de Hacienda de la Comunidad de Madrid art. 108","Presupuesto UC3M 2026"],"preguntas":[]},
+    {"bloque":"Ejecución y reconocimiento de ingresos","manual":"13-16","fuentes":["Presupuesto UC3M 2026, Título IV, arts. 14.1-14.3"],"preguntas":["UC3M-T18-010","UC3M-T18-012"]},
+    {"bloque":"Tesorería y control","manual":"17","fuentes":["LOSU art. 59","Información económica y contable UC3M"],"preguntas":[]}
+  ],
+  "incidenciasCorregidas": [
+    "El borrador presentaba capítulos de ingresos genéricos que no coincidían con la estructura real del Presupuesto UC3M 2026.",
+    "Se incorporan importes oficiales, niveles de vinculación y distribución de competencias para modificaciones presupuestarias.",
+    "Se sustituye una descripción genérica de ejecución de ingresos por las reglas específicas del Título IV de las Normas Básicas de Gestión 2026."
+  ]
+}
