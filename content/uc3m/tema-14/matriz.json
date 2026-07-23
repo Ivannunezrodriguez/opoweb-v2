@@ -2,12 +2,13 @@
   "tema": 14,
   "titulo": "LOSU II: estudiantado, régimen económico, PDI y PTGAS",
   "epigrafeOficial": "Ley Orgánica 2/2023 del Sistema Universitario (II): estudiantado y régimen específico de las universidades públicas: régimen económico-financiero, PDI y PTGAS.",
+  "controlVigencia": "2026-07-23",
   "cobertura": [
     {"bloque":"Derechos y deberes del estudiantado","manual":"apartado 1","preguntas":["UC3M-T14-001"]},
     {"bloque":"Participación, representación y bienestar","manual":"apartado 2","preguntas":["UC3M-T14-002"]},
     {"bloque":"Régimen jurídico de universidades públicas","manual":"apartado 3","preguntas":["UC3M-T14-003"]},
     {"bloque":"Autonomía económica y suficiencia financiera","manual":"apartado 4","preguntas":["UC3M-T14-006"]},
-    {"bloque":"Presupuesto universitario","manual":"apartado 5","preguntas":["UC3M-T14-004","UC3M-T14-005"]},
+    {"bloque":"Presupuesto universitario y competencias orgánicas","manual":"apartado 5","preguntas":["UC3M-T14-004","UC3M-T14-005","UC3M-T14-013","UC3M-T14-014"]},
     {"bloque":"Programación, contabilidad y control","manual":"apartado 6","preguntas":["UC3M-T14-007"]},
     {"bloque":"Transparencia, patrimonio y contratación","manual":"apartado 7","preguntas":["UC3M-T14-012"]},
     {"bloque":"Personal docente e investigador","manual":"apartado 8","preguntas":["UC3M-T14-008","UC3M-T14-009"]},
@@ -15,6 +16,11 @@
     {"bloque":"Personal técnico, de gestión y de administración y servicios","manual":"apartado 10","preguntas":["UC3M-T14-010"]},
     {"bloque":"Oferta de empleo, selección y movilidad","manual":"apartado 11","preguntas":["UC3M-T14-011"]},
     {"bloque":"Igualdad, conciliación y no discriminación","manual":"apartado 12","preguntas":[]}
+  ],
+  "incidenciasCorregidas": [
+    "El borrador no explicitaba que el Consejo de Gobierno propone el presupuesto y las cuentas y que el Consejo Social los aprueba.",
+    "El borrador omitía la reserva mínima del 5 % del presupuesto para programas propios de investigación.",
+    "Se precisa que el objetivo del 1 % del PIB se encuadra en el plan de incremento del gasto público para 2030."
   ],
   "estado": "EN_REVISION_USUARIO"
 }
