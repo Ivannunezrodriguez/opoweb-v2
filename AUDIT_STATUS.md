@@ -4,52 +4,82 @@
 
 ## Cambios reales de esta revisión
 
-### UC3M · Tema 17 auditado y activado
+### UC3M · Tema 18 auditado y activado
 
-Se ha completado la auditoría jurídica y editorial del Tema 17:
+Se ha completado la auditoría jurídica y editorial del Tema 18:
 
-> Real Decreto 534/2024 sobre acceso y admisión a Grado; regulación y normativa de acceso y admisión en estudios oficiales de la UC3M.
+> Presupuesto de la UC3M (I): características, estructura, ingresos, gastos, créditos, financiación, modificaciones y ejecución de ingresos.
 
 El tema pasa de `BORRADOR` a `EN_REVISION_USUARIO` y dispone ya de:
 
-- `content/uc3m/tema-17/manual.md`;
-- `content/uc3m/tema-17/fuentes.md`;
-- `content/uc3m/tema-17/matriz.json`;
-- `content/uc3m/tema-17/preguntas.json` con **12 preguntas**.
+- `content/uc3m/tema-18/manual.md`;
+- `content/uc3m/tema-18/fuentes.md`;
+- `content/uc3m/tema-18/matriz.json`;
+- `content/uc3m/tema-18/preguntas.json` con **12 preguntas**.
 
-#### Actualización normativa detectada
+#### Fuente oficial específica incorporada
 
-El texto consolidado del **Real Decreto 534/2024** indica como última actualización la publicada el **2 de julio de 2026**. El **Real Decreto 535/2026, de 30 de junio**, modifica el artículo **23.2**, con redacción vigente desde el **22 de julio de 2026**.
+Se ha utilizado el **Presupuesto UC3M 2026**, aprobado por el Consejo de Gobierno y por el Consejo Social el **11 de diciembre de 2025**, especialmente su Volumen I y las Normas Básicas de Gestión.
 
-La actualización afecta a la admisión de quienes poseen títulos de Técnico Superior. El manual y el banco de preguntas incorporan expresamente:
+El presupuesto total asciende a **300.468.067,59 euros**, con un incremento aproximado del **9,25 %** respecto de 2025.
 
-- acceso sin prueba general;
-- calificación de acceso igual a la nota media del título;
-- asignación de **5 puntos** cuando no exista nota media por homologación o equivalencia;
-- posible consideración de la correspondencia entre títulos y ámbitos de conocimiento.
+#### Errores e indeterminaciones corregidos
 
-#### Error o indeterminación editorial corregida
+El borrador anterior:
 
-El borrador del Tema 17 indicaba que el cambio de universidad o estudios «suele requerir reconocimiento de un mínimo de créditos», sin concretar la cifra.
+- presentaba una estructura genérica de capítulos de ingresos que no coincidía con el estado real de ingresos de 2026;
+- no incluía los importes oficiales por capítulos;
+- no concretaba el nivel de vinculación de los créditos;
+- describía de forma genérica las modificaciones presupuestarias sin indicar competencias;
+- no incorporaba el procedimiento específico de contabilización y seguimiento de ingresos de las Normas Básicas de Gestión 2026.
 
-La regla correcta es:
+La versión auditada incorpora:
 
-- procedimiento específico si se reconocen al menos **30 créditos ECTS**;
-- procedimiento general de admisión cuando se reconocen menos de **30 ECTS**.
+- capítulos reales de ingresos: III, IV, V, VII y VIII;
+- clasificación triple de gastos y doble de ingresos;
+- vinculación general a nivel de concepto y excepciones de los capítulos I, II y VI;
+- competencias del Rector, Consejo de Gobierno, Consejo Social y Comunidad de Madrid;
+- generaciones, rectificaciones, transferencias, incorporaciones y redistribuciones;
+- reconocimiento de derechos conforme al principio de devengo;
+- seguimiento de facturas pendientes a 60, 90 y 120 días;
+- uso de remanentes específicos sin financiación estructural mediante remanentes libres.
 
-También se ha diferenciado este umbral de los **6 ECTS** exigidos para reanudar estudios en el mismo centro tras un abandono temporal.
+### Seguimiento de convocatorias actualizado
 
-#### Información UC3M 2026/2027 incorporada
+#### La Puebla de Montalbán
 
-La página oficial de preinscripción de la UC3M establece para las universidades públicas de Madrid:
+La inscripción personal ha quedado verificada con la documentación aportada por el usuario:
 
-- una única solicitud conjunta;
-- hasta **12 estudios** ordenados por preferencia;
-- convocatoria ordinaria del **5 al 26 de junio de 2026**;
-- plazo para determinados sistemas extranjeros hasta el **6 de julio de 2026 a las 14:00**;
-- convocatoria extraordinaria del **20 al 24 de julio de 2026 a las 23:59**.
+- pago de la tasa de **7 euros** el 27 de mayo de 2026;
+- solicitud registrada el 28 de mayo de 2026;
+- justificante electrónico de registro comprobado.
 
-Para Doctorado, la UC3M mantiene para el primer semestre 2026/2027 el plazo general del **1 de febrero al 31 de agosto de 2026**, salvo calendario específico del programa.
+Por privacidad, el repositorio público no incorpora DNI, números de cuenta, copias de documentos ni datos bancarios.
+
+No consta todavía una lista provisional oficial verificada.
+
+#### Carranque
+
+Se han incorporado al registro de seguimiento los datos oficiales de las bases y del BOE:
+
+- una plaza C2;
+- concurso-oposición libre;
+- BOE-A-2026-1136, de 19 de enero de 2026;
+- primer ejercicio de 80 preguntas más 5 de reserva, 90 minutos;
+- segundo ejercicio práctico sobre los temas 3 a 20;
+- fase de concurso de hasta 8 puntos.
+
+No consta una publicación posterior verificada en las fuentes consultadas.
+
+#### Las Ventas con Peña Aguilera
+
+La convocatoria se mantiene archivada por decisión del usuario, pero se completa su ficha documental:
+
+- una plaza C2;
+- BOP de Toledo número 89, de 14 de mayo de 2026;
+- BOE-A-2026-14274, de 1 de julio de 2026;
+- plazo cerrado el 21 de julio de 2026;
+- fase de oposición no antes del 15 de octubre de 2026.
 
 ## Estado de convocatorias activas
 
@@ -76,9 +106,9 @@ La sustitución directa del Markdown fuente y la retirada posterior de `assets/t
 
 - **34 plazas**, de ellas **2 reservadas a discapacidad**.
 - Sistema: concurso-oposición libre.
-- Estado editorial: **17 de 20 temas** en `EN_REVISION_USUARIO`.
-- Pendientes: temas **18, 19 y 20**.
-- Último bloque completado: Tema 17, con control de vigencia a **23 de julio de 2026**.
+- Estado editorial: **18 de 20 temas** en `EN_REVISION_USUARIO`.
+- Pendientes: temas **19 y 20**.
+- Último bloque completado: Tema 18, contrastado con el Presupuesto UC3M 2026.
 
 ### CPEIS Toledo
 
@@ -96,18 +126,18 @@ No se inicia desarrollo editorial específico sin confirmación de interés.
 |---|---:|---|
 | La Puebla | **19/19** | Completa con rectificación fuente pendiente en Tema 6 |
 | Diputación C1 | **40/40** | Auditoría continua; OAPGT y ampliación eIDAS 2 pendientes |
-| UC3M C2 | **17/20** | Tema 17 actualizado al texto consolidado de **2 de julio de 2026** |
+| UC3M C2 | **18/20** | Tema 18 contrastado con presupuesto oficial 2026 |
 | CPEIS | Solo seguimiento | Pendiente de decisión del usuario |
 
 ## Versión de publicación
 
-- Versión de interfaz: `v0.27.10`.
-- Caché del servicio: `opoweb-v2-0.27.10`.
-- Precarga offline de UC3M ampliada hasta el **Tema 17**.
+- Versión de interfaz: `v0.27.11`.
+- Caché del servicio: `opoweb-v2-0.27.11`.
+- Precarga offline de UC3M ampliada hasta el **Tema 18**.
 
 ## Orden de trabajo vigente
 
-1. Desarrollar y auditar el **Tema 18 de UC3M**.
+1. Desarrollar y auditar el **Tema 19 de UC3M**.
 2. Sustituir en el Markdown fuente del **Tema 6 de La Puebla** las menciones incorrectas a **2 años** por el régimen aplicable de hasta **4 años**.
 3. Retirar `assets/tema6-interinidad-correction.js` cuando la fuente esté corregida.
 4. Incorporar al manual principal del **Tema 31 de Diputación** la ampliación de servicios de confianza de eIDAS 2.
