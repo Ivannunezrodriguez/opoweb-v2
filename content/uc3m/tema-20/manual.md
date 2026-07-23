@@ -2,181 +2,556 @@
 
 > Epígrafe oficial: ámbito, tipos, perfección, órgano de contratación, objeto, presupuesto, valor estimado, precio, preparación y adjudicación; contratación en la UC3M.
 
-## 1. Ámbito de aplicación
+**Control de vigencia:** Ley 9/2017, de 8 de noviembre, texto consolidado del BOE con última actualización publicada el **9 de abril de 2026**.
 
-La Ley 9/2017 regula la contratación del sector público para garantizar libertad de acceso, publicidad, transparencia, igualdad, no discriminación, integridad, eficiente utilización de fondos y selección de la oferta con mejor relación calidad-precio.
+## 1. Finalidad y principios de la contratación pública
 
-La UC3M, como universidad pública, forma parte del sector público y tiene la consideración que determine la ley a efectos contractuales. Sus contratos quedan sujetos a la LCSP, normativa presupuestaria, Estatutos, bases de ejecución y normas internas de contratación.
+La Ley 9/2017, de Contratos del Sector Público (LCSP), regula la contratación de las entidades del sector público y persigue:
 
-## 2. Negocios excluidos
+- libertad de acceso a las licitaciones;
+- publicidad y transparencia;
+- igualdad de trato y no discriminación;
+- integridad y prevención de la corrupción;
+- estabilidad presupuestaria y control del gasto;
+- utilización eficiente de los fondos públicos;
+- definición previa de las necesidades;
+- salvaguardia de la libre competencia;
+- selección de la oferta con mejor relación calidad-precio;
+- incorporación transversal de criterios sociales y medioambientales vinculados al objeto.
 
-No todo negocio jurídico es contrato público. Pueden quedar excluidos, con régimen propio, determinadas relaciones laborales, convenios que no encubran prestaciones contractuales, encomiendas o encargos a medios propios, negocios patrimoniales, arbitraje y conciliación y otros supuestos tasados.
+La contratación pública no es solo una técnica de compra. Es un procedimiento jurídico para satisfacer necesidades públicas mediante competencia, control presupuestario y rendición de cuentas.
 
-La calificación depende de la verdadera naturaleza y prestaciones, no del nombre utilizado.
+## 2. Ámbito subjetivo: posición de la UC3M
 
-## 3. Tipos de contratos
+La Universidad Carlos III de Madrid es una universidad pública y forma parte del sector público institucional. A efectos de la LCSP actúa como **Administración Pública** y sus contratos típicos tienen, con carácter general, naturaleza administrativa, salvo los contratos privados y negocios excluidos que la propia ley identifica.
 
-### Obras
+En la contratación universitaria deben aplicarse conjuntamente:
 
-Tienen por objeto ejecutar una obra, conjuntamente proyecto y obra, o realizar trabajos que produzcan un resultado que cumpla función económica o técnica.
+- LCSP y normativa reglamentaria de desarrollo;
+- Ley Orgánica 2/2023, del Sistema Universitario;
+- Estatutos de la UC3M;
+- Presupuesto y Normas Básicas de Gestión de cada ejercicio;
+- resoluciones de delegación de competencias;
+- normativa presupuestaria, de transparencia, factura electrónica, protección de datos y control financiero.
 
-### Concesión de obras
+## 3. Ámbito objetivo y negocios excluidos
 
-El concesionario ejecuta o explota obras y asume riesgo operacional.
+La LCSP se aplica a los contratos onerosos celebrados por entidades del sector público. Existe onerosidad cuando el contratista obtiene algún beneficio económico, directo o indirecto.
 
-### Concesión de servicios
+No todo negocio jurídico de una universidad es un contrato público. Entre los negocios excluidos pueden encontrarse, si cumplen sus requisitos legales:
 
-Se encomienda la gestión de un servicio cuya contrapartida consiste en derecho de explotación, solo o acompañado de precio, transfiriéndose riesgo operacional.
+- relaciones funcionariales y laborales;
+- determinados convenios entre entidades públicas o con sujetos privados;
+- encargos a medios propios personificados;
+- negocios patrimoniales sobre inmuebles, valores y propiedades incorporales;
+- arbitraje y conciliación;
+- servicios financieros específicos;
+- determinadas actividades de investigación, desarrollo e innovación;
+- convenios y subvenciones sin contraprestación contractual.
 
-### Suministro
+La exclusión depende de la verdadera naturaleza de la relación, no de la denominación elegida. Un convenio que encubra una prestación onerosa propia del mercado puede ser realmente un contrato.
 
-Adquisición, arrendamiento financiero o arrendamiento de productos o bienes muebles, con o sin opción de compra. Incluye determinados suministros sucesivos y adquisición de energía.
+## 4. Tipos contractuales
 
-### Servicios
+### 4.1. Contrato de obras
 
-Prestaciones de hacer dirigidas a obtener un resultado distinto de obra o suministro. No pueden implicar ejercicio de autoridad inherente a poderes públicos.
+Tiene por objeto:
 
-### Mixtos
+- ejecutar una obra;
+- ejecutar conjuntamente proyecto y obra;
+- realizar trabajos que produzcan un resultado que cumpla por sí mismo una función económica o técnica.
 
-Contienen prestaciones de diferentes tipos. Se aplica el régimen de la prestación principal o las reglas especiales previstas.
+La obra afecta normalmente a un inmueble y debe responder a un proyecto o documentación técnica suficiente.
 
-## 4. Contratos administrativos y privados
+### 4.2. Concesión de obras
 
-La naturaleza administrativa o privada depende del sujeto contratante y objeto. Los contratos administrativos se rigen en preparación, adjudicación, efectos, modificación y extinción por la LCSP y normas administrativas. Los privados combinan régimen público para preparación y adjudicación con Derecho privado para efectos y extinción, con excepciones.
+El concesionario ejecuta o explota una obra y recibe como contraprestación el derecho a explotarla, solo o acompañado de un precio. Debe asumir **riesgo operacional**.
 
-## 5. Perfección y formalización
+### 4.3. Concesión de servicios
 
-Los contratos se perfeccionan, con carácter general, mediante formalización, salvo contratos menores y otros supuestos previstos. No puede iniciarse la ejecución antes de formalizar, excepto emergencia u otros casos legales.
+Se encomienda la gestión de un servicio a un operador, cuya contraprestación consiste en el derecho de explotación, solo o acompañado de precio. La nota distintiva es también la transferencia del riesgo operacional.
 
-La formalización se realiza en documento administrativo y se publica en el perfil de contratante. El contratista puede solicitar escritura pública a su costa.
+### 4.4. Contrato de suministro
 
-## 6. Órgano de contratación
+Comprende, entre otros:
 
-Es el órgano con competencia para celebrar contratos en nombre de la entidad. En la UC3M la competencia corresponde a los órganos determinados por la legislación, Estatutos y resoluciones de delegación.
+- adquisición de bienes muebles;
+- arrendamiento financiero;
+- arrendamiento, con o sin opción de compra;
+- suministros sucesivos por precio unitario;
+- adquisición de energía;
+- determinados equipos y programas informáticos.
 
-El órgano aprueba expediente, gasto, pliegos, adjudicación, formalización, modificaciones y demás actos dentro de su competencia. Puede estar asistido por mesa de contratación.
+### 4.5. Contrato de servicios
 
-## 7. Mesa de contratación
+Su objeto son prestaciones de hacer dirigidas a obtener un resultado distinto de una obra o suministro. No pueden atribuir al contratista el ejercicio de autoridad inherente a los poderes públicos.
 
-La mesa es órgano de asistencia técnica especializada. Califica documentación, valora ofertas conforme a criterios o solicita informes, propone exclusiones y formula propuesta de adjudicación.
+### 4.6. Contrato mixto
 
-La propuesta no crea derecho a favor del licitador; el órgano puede apartarse motivadamente.
+Contiene prestaciones correspondientes a contratos de distinta clase. Su régimen se determina mediante las reglas de la prestación principal y las especialidades de la LCSP. No puede mezclarse artificialmente prestaciones para eludir el régimen jurídico aplicable.
 
-## 8. Objeto del contrato
+## 5. Contratos administrativos y contratos privados
 
-El objeto debe ser determinado. No puede fraccionarse para disminuir cuantía y eludir publicidad o procedimiento. Puede dividirse en lotes para facilitar participación, salvo justificación válida para no hacerlo.
+Son administrativos, con carácter general, los contratos de obras, concesiones, suministros y servicios celebrados por una Administración Pública, salvo excepciones legales.
 
-Las prestaciones deben definirse mediante necesidades funcionales, técnicas y de calidad, evitando referencias discriminatorias a marcas salvo justificación y expresión equivalente.
+Los contratos administrativos se rigen por Derecho administrativo en preparación, adjudicación, efectos, modificación y extinción.
 
-## 9. Presupuesto base de licitación
+Los contratos privados se someten:
 
-Es el límite máximo de gasto que puede comprometer el órgano, incluido IVA salvo disposición contraria. Debe ser adecuado a precios de mercado y desglosar costes directos, indirectos y otros eventuales; cuando proceda, costes salariales.
+- a la LCSP en preparación y adjudicación;
+- al Derecho privado en efectos y extinción, sin perjuicio de las especialidades legales y de la competencia jurisdiccional correspondiente.
 
-## 10. Valor estimado
+## 6. Perfección y formalización
 
-Se calcula sin IVA e incluye importe total pagadero, opciones, prórrogas, modificaciones previstas, primas y otros conceptos legalmente establecidos.
+Como regla general, los contratos celebrados por una Administración Pública se perfeccionan con su **formalización**.
 
-Determina umbrales, publicidad, procedimiento, solvencia y recursos. No debe confundirse con presupuesto base ni precio.
+Excepciones relevantes:
 
-## 11. Precio
+- los contratos menores se perfeccionan con la aprobación del gasto y la incorporación de la factura o documento equivalente;
+- los contratos basados en acuerdo marco y los específicos de un sistema dinámico se perfeccionan con su adjudicación.
 
-Es la contraprestación que recibe el contratista. Debe ser cierto y expresarse en euros, sin perjuicio de otras modalidades. Puede establecerse a tanto alzado, por precios unitarios, tarifas u otros sistemas.
+La formalización se realiza en documento administrativo dentro del plazo legal. El contratista puede pedir escritura pública, a su costa.
 
-La revisión de precios solo procede en supuestos y condiciones legales. El pago se realiza tras cumplimiento y conformidad, respetando plazos contra la morosidad.
+No puede iniciarse normalmente la ejecución antes de la formalización. Se exceptúan, entre otros, los supuestos de emergencia y aquellos expresamente previstos por la ley.
 
-## 12. Expediente de contratación
+En contratos susceptibles de recurso especial debe respetarse el plazo de espera antes de formalizar.
 
-Se inicia motivando necesidad, idoneidad del contrato, insuficiencia de medios en servicios cuando proceda, elección de procedimiento, criterios, valor estimado y decisión sobre lotes.
+## 7. Órgano de contratación en la UC3M
 
-Incluye certificado de crédito, fiscalización, pliego de cláusulas administrativas particulares, pliego de prescripciones técnicas, aprobación del gasto y demás documentos.
+El artículo 175 de los Estatutos de la UC3M establece expresamente:
 
-Puede tramitarse de forma ordinaria, urgente o de emergencia. La urgencia reduce determinados plazos. La emergencia permite actuar inmediatamente ante acontecimientos catastróficos, grave peligro o necesidades de defensa.
+> El Rector es el órgano de contratación de la Universidad y está facultado para suscribir en su nombre y representación los contratos en que intervenga la Universidad.
 
-## 13. Pliegos
+Por tanto, la competencia originaria corresponde al **Rector**.
 
-El pliego administrativo establece derechos y obligaciones, solvencia, criterios, garantías, ejecución, penalidades, modificación, pago y resolución. El pliego técnico define características de la prestación.
+La Resolución de 31 de mayo de 2022 delega determinadas facultades en materia de contratación administrativa, retención de crédito, autorización y disposición del gasto. La delegación no altera la titularidad de la competencia y los actos deben indicar que se dictan por delegación.
 
-Los pliegos vinculan a órgano y licitadores y no pueden modificarse tras licitación salvo corrección con retroacción o nuevo procedimiento cuando proceda.
+El órgano de contratación:
 
-## 14. Aptitud, prohibiciones y solvencia
+- define y aprueba la necesidad;
+- aprueba expediente, pliegos y gasto;
+- selecciona el procedimiento;
+- adjudica;
+- formaliza;
+- nombra responsable del contrato cuando proceda;
+- acuerda modificaciones, penalidades, prórrogas y resolución dentro de su competencia.
 
-Los licitadores deben tener capacidad de obrar, habilitación profesional cuando proceda, no estar incursos en prohibición de contratar y acreditar solvencia económica y técnica o clasificación cuando sea exigible.
+## 8. Mesa de contratación
 
-Puede exigirse compromiso de adscripción de medios. La solvencia debe estar vinculada al objeto y ser proporcional.
+La mesa es un órgano de asistencia técnica especializada. No sustituye al órgano de contratación.
 
-## 15. Procedimientos de adjudicación
+Funciones habituales:
 
-### Abierto
+- calificar documentación administrativa;
+- admitir o excluir licitadores;
+- abrir ofertas;
+- valorar criterios automáticos;
+- solicitar informes técnicos para criterios sujetos a juicio de valor;
+- identificar ofertas anormalmente bajas;
+- formular propuesta de adjudicación.
 
-Todo empresario interesado puede presentar oferta y no existe negociación. El abierto simplificado reduce cargas cuando se cumplen requisitos.
+La propuesta de la mesa no crea derecho a favor del licitador propuesto. El órgano de contratación puede apartarse de ella mediante motivación suficiente.
 
-### Restringido
+Los Estatutos de la UC3M exigen que, cuando se constituya mesa, exista al menos un representante de los departamentos, centros o servicios afectados.
 
-Cualquier empresa solicita participar, pero solo las seleccionadas presentan oferta. Es adecuado para servicios intelectuales complejos.
+## 9. Objeto del contrato y lotes
 
-### Con negociación
+El objeto debe ser determinado y responder a una necesidad real, concreta y justificada.
 
-Permite negociar aspectos de ofertas en supuestos tasados. Requiere igualdad, transparencia y trazabilidad.
+No puede fraccionarse un contrato para:
 
-### Diálogo competitivo y asociación para la innovación
+- disminuir su cuantía;
+- evitar publicidad;
+- eludir el procedimiento o requisitos aplicables.
 
-Se utilizan para necesidades complejas o desarrollo innovador cuando no pueden satisfacerse fácilmente mediante soluciones disponibles.
+La LCSP favorece la división en lotes para facilitar la participación de pequeñas y medianas empresas. La decisión de no dividir debe justificarse en el expediente cuando legalmente proceda.
 
-### Contrato menor
+Las prescripciones técnicas deben formularse de forma neutral y funcional. Las referencias a marcas, patentes o procedencias solo son admisibles con justificación y acompañadas, en general, de la expresión «o equivalente».
 
-Solo procede dentro de umbrales legales, por duración limitada y sin prórroga. Requiere justificar necesidad y ausencia de fraccionamiento, aprobar gasto e incorporar factura, además de publicidad y controles aplicables.
+## 10. Presupuesto base de licitación
 
-## 16. Criterios de adjudicación
+Es el **límite máximo de gasto** que puede comprometer el órgano de contratación en virtud del contrato, incluido el IVA salvo disposición en contrario.
 
-La adjudicación busca la mejor relación calidad-precio mediante criterios económicos y cualitativos. Los criterios deben estar vinculados al objeto, ser objetivos y permitir competencia efectiva.
+Debe:
 
-Los criterios automáticos se valoran mediante fórmulas. Los sujetos a juicio de valor requieren evaluación motivada y, en determinados casos, comité de expertos u organismo técnico.
+- ser adecuado a precios de mercado;
+- desglosar costes directos e indirectos;
+- incluir otros gastos eventuales calculados;
+- desglosar costes salariales estimados cuando el coste de los salarios forme parte del precio total.
 
-Las mejoras deben estar suficientemente especificadas. No pueden alterar objeto ni valorarse de forma indeterminada.
+No debe confundirse con el crédito presupuestario, aunque ambos deben ser compatibles.
 
-## 17. Ofertas anormalmente bajas
+## 11. Valor estimado del contrato
 
-Los pliegos fijan parámetros para identificar ofertas anormales. Antes de excluir debe darse audiencia al licitador para justificar ahorro, soluciones técnicas, condiciones favorables, innovación y cumplimiento social, laboral y ambiental.
+Se calcula **sin IVA** e incluye el importe total pagadero según las estimaciones del órgano de contratación.
 
-La exclusión requiere motivación. No puede aceptarse una oferta basada en incumplimiento de obligaciones aplicables.
+Deben incluirse, cuando proceda:
 
-## 18. Adjudicación y formalización
+- prórrogas;
+- opciones;
+- modificaciones previstas;
+- primas o pagos a licitadores;
+- suministros puestos a disposición del contratista;
+- costes laborales en los supuestos legalmente previstos;
+- cualquier otra forma de remuneración.
 
-Tras clasificar ofertas se requiere al mejor licitador documentación y garantía definitiva cuando proceda. Si cumple, se adjudica motivadamente y se notifica y publica.
+El valor estimado determina, entre otras cuestiones:
 
-En contratos sujetos a recurso especial debe respetarse el plazo de espera antes de formalizar. La formalización se publica con la información exigida.
+- sujeción a regulación armonizada;
+- publicidad;
+- procedimiento;
+- solvencia;
+- posible recurso especial;
+- reglas de adjudicación.
 
-## 19. Ejecución, modificación y resolución
+### Diferencia básica
 
-El contratista ejecuta a riesgo y ventura, sujeto a dirección y control. Los pliegos pueden prever penalidades por demora o incumplimiento.
+| Concepto | IVA | Función principal |
+|---|---:|---|
+| Presupuesto base de licitación | Incluido, como regla | Límite máximo de gasto |
+| Valor estimado | Excluido | Determina régimen jurídico y umbrales |
+| Precio | Según régimen tributario | Contraprestación efectiva al contratista |
 
-Las modificaciones solo son posibles si están previstas clara y precisamente o si concurren circunstancias legales imprevistas dentro de límites. No pueden alterar la naturaleza global.
+## 12. Precio y revisión
 
-La resolución puede producirse por incumplimiento, demora, insolvencia, imposibilidad, mutuo acuerdo en condiciones legales u otras causas. Sus efectos incluyen incautación o devolución de garantía e indemnización según responsabilidad.
+El precio debe ser cierto y expresarse normalmente en euros. Puede fijarse:
 
-## 20. Contratación en la UC3M
+- a tanto alzado;
+- por precios unitarios;
+- mediante tarifas;
+- combinando modalidades;
+- mediante precio provisional en los casos permitidos.
 
-La gestión contractual universitaria debe coordinar unidad promotora, contratación, presupuesto, asesoría jurídica, control interno y órgano de contratación.
+El precio debe ser adecuado para el efectivo cumplimiento del contrato.
 
-Flujo habitual:
+La revisión periódica y predeterminada de precios solo procede en los supuestos y condiciones legales. No existe un derecho general del contratista a revisar el precio por cualquier aumento de costes.
 
-1. Definición de necesidad.
-2. Comprobación de alternativas internas y planificación.
-3. Memoria, objeto, lotes y estimación económica.
-4. Retención de crédito.
-5. Elaboración de pliegos.
-6. Fiscalización y aprobación.
-7. Publicidad en perfil alojado en plataforma de contratación.
-8. Recepción y valoración de ofertas.
-9. Adjudicación y formalización.
-10. Seguimiento, conformidad, factura y pago.
+## 13. Preparación del contrato
 
-En investigación debe distinguirse la naturaleza de suministros científicos, servicios técnicos, contratos financiados con proyectos y posibles exclusividades, sin eludir competencia ni fraccionar.
+El expediente debe justificar, al menos:
+
+- necesidad e idoneidad;
+- relación con los fines institucionales;
+- objeto y código CPV;
+- división o no en lotes;
+- presupuesto base;
+- valor estimado;
+- duración y posibles prórrogas;
+- procedimiento y tramitación;
+- criterios de solvencia;
+- criterios de adjudicación;
+- condiciones especiales de ejecución;
+- insuficiencia de medios en contratos de servicios, cuando proceda;
+- crédito adecuado y suficiente;
+- ausencia de fraccionamiento.
+
+Forman parte habitual del expediente:
+
+- memoria justificativa;
+- certificado o retención de crédito;
+- pliego de cláusulas administrativas particulares;
+- pliego de prescripciones técnicas;
+- informe jurídico cuando sea exigible;
+- fiscalización o control previo;
+- aprobación del gasto;
+- resolución de aprobación del expediente.
+
+## 14. Tramitación ordinaria, urgente y de emergencia
+
+### Ordinaria
+
+Es la regla general y respeta íntegramente los plazos legales.
+
+### Urgente
+
+Exige declaración motivada cuando el contrato responda a una necesidad inaplazable o deba acelerarse por razones de interés público. Produce reducción de determinados plazos, pero no elimina competencia, publicidad ni control.
+
+### Emergencia
+
+Procede ante acontecimientos catastróficos, situaciones de grave peligro o necesidades que afecten a la defensa nacional. Permite ordenar la ejecución inmediata de lo necesario sin tramitar previamente el expediente ordinario. Debe limitarse estrictamente a afrontar la emergencia y quedar documentada y sometida a rendición de cuentas.
+
+Urgencia y emergencia no son equivalentes.
+
+## 15. Pliegos
+
+### Pliego de cláusulas administrativas particulares
+
+Regula:
+
+- derechos y obligaciones;
+- capacidad y solvencia;
+- procedimiento;
+- criterios de adjudicación;
+- garantías;
+- duración y prórrogas;
+- condiciones de ejecución;
+- penalidades;
+- modificación;
+- pago;
+- causas de resolución.
+
+### Pliego de prescripciones técnicas
+
+Define las características técnicas, funcionales, de calidad, rendimiento, accesibilidad y sostenibilidad de la prestación.
+
+Los pliegos vinculan al órgano de contratación, licitadores y adjudicatario. Una modificación sustancial después de publicar la licitación exige normalmente retroacción o nueva licitación.
+
+## 16. Aptitud para contratar
+
+El empresario debe reunir:
+
+- personalidad y capacidad de obrar;
+- habilitación empresarial o profesional cuando sea necesaria;
+- ausencia de prohibiciones de contratar;
+- solvencia económica y financiera;
+- solvencia técnica o profesional;
+- clasificación cuando sea legalmente exigible.
+
+Los requisitos de solvencia deben estar vinculados al objeto y ser proporcionales. No pueden utilizarse para restringir injustificadamente la competencia.
+
+## 17. Procedimientos de adjudicación
+
+### 17.1. Abierto
+
+Todo empresario interesado puede presentar oferta. No existe negociación. Es el procedimiento ordinario de referencia.
+
+### 17.2. Abierto simplificado
+
+Reduce trámites y plazos cuando se cumplen los requisitos legales de valor estimado y criterios de adjudicación.
+
+Existe una modalidad abreviada para contratos de menor cuantía dentro de los límites legales.
+
+### 17.3. Restringido
+
+Cualquier empresario puede solicitar participar, pero solo los seleccionados por su solvencia presentan oferta. No existe negociación.
+
+### 17.4. Procedimientos con negociación
+
+La negociación solo es posible en los supuestos tasados por la ley. Deben preservarse igualdad, confidencialidad y trazabilidad.
+
+### 17.5. Diálogo competitivo
+
+Se utiliza para contratos especialmente complejos cuando el órgano no puede definir por sí solo los medios técnicos o la estructura jurídica o financiera adecuada.
+
+### 17.6. Asociación para la innovación
+
+Permite desarrollar y adquirir productos, servicios u obras innovadores que no existen todavía en el mercado con el nivel requerido.
+
+### 17.7. Concurso de proyectos
+
+Se utiliza principalmente para obtener planos o proyectos, especialmente en arquitectura, urbanismo, ingeniería o procesamiento de datos, mediante selección por jurado.
+
+## 18. Contratos sujetos a regulación armonizada
+
+Son contratos que, por tipo, valor estimado y entidad contratante, quedan sometidos a las reglas europeas reforzadas de publicidad y procedimiento.
+
+Los umbrales se actualizan periódicamente. Desde el **1 de enero de 2026** deben utilizarse los importes vigentes resultantes de la actualización normativa publicada en diciembre de 2025.
+
+En examen debe distinguirse:
+
+- umbral de contrato menor;
+- umbral de procedimiento simplificado;
+- umbral de regulación armonizada;
+- umbral de recurso especial.
+
+No son conceptos equivalentes.
+
+## 19. Contrato menor
+
+Tienen la consideración de menores los contratos con valor estimado inferior a:
+
+- **40.000 euros** en obras;
+- **15.000 euros** en suministros o servicios.
+
+Las cuantías se calculan sin IVA.
+
+Características esenciales:
+
+- duración máxima de un año;
+- no pueden ser objeto de prórroga;
+- deben responder a una necesidad concreta;
+- requieren aprobación del gasto;
+- deben incorporar factura o documento equivalente;
+- en obras se añade presupuesto y, cuando proceda, proyecto e informe de supervisión;
+- debe justificarse que no se altera el objeto para evitar procedimientos ordinarios;
+- están sujetos a publicidad periódica en el perfil de contratante, con las excepciones legales.
+
+La UC3M advierte expresamente que una adquisición superior a 15.000 euros sin IVA o una necesidad sistemática y repetitiva durante más de un año debe tramitarse mediante contratación pública ordinaria. El contrato menor no puede utilizarse para fraccionar necesidades recurrentes.
+
+## 20. Criterios de adjudicación
+
+La adjudicación se realiza utilizando una pluralidad de criterios sobre la base de la mejor relación calidad-precio, salvo supuestos justificados de criterio único.
+
+Pueden utilizarse:
+
+- precio o coste;
+- calidad técnica;
+- organización y cualificación del personal adscrito;
+- accesibilidad;
+- características sociales;
+- características medioambientales;
+- servicio posventa;
+- plazo de entrega;
+- coste del ciclo de vida.
+
+Los criterios deben:
+
+- estar vinculados al objeto;
+- figurar en los pliegos;
+- permitir comparación objetiva;
+- respetar igualdad y competencia;
+- incluir reglas claras de ponderación.
+
+Los criterios evaluables mediante fórmulas se diferencian de los sujetos a juicio de valor. Cuando estos últimos tienen una ponderación relevante pueden requerir comité de expertos u organismo técnico especializado.
+
+## 21. Ofertas anormalmente bajas
+
+Los pliegos deben fijar parámetros objetivos para identificar ofertas presuntamente anormales.
+
+Antes de excluir debe darse audiencia al licitador para que justifique:
+
+- ahorro en el procedimiento;
+- soluciones técnicas;
+- condiciones excepcionalmente favorables;
+- innovación;
+- respeto de obligaciones sociales, laborales y ambientales;
+- posible ayuda de Estado.
+
+La exclusión exige motivación. No puede aceptarse una oferta cuya baja derive del incumplimiento de obligaciones legales.
+
+## 22. Clasificación, requerimiento y adjudicación
+
+Tras valorar las ofertas:
+
+1. la mesa o el órgano clasifica las proposiciones;
+2. se requiere al licitador mejor clasificado la documentación necesaria;
+3. se comprueban capacidad, solvencia, ausencia de prohibiciones y garantía definitiva cuando proceda;
+4. el órgano adjudica mediante resolución motivada;
+5. la adjudicación se notifica y publica;
+6. se formaliza dentro del plazo legal.
+
+La adjudicación debe explicar las razones de aceptación y rechazo y permitir a los licitadores comprender la decisión.
+
+## 23. Garantías
+
+La garantía provisional es excepcional.
+
+La garantía definitiva se exige, como regla general, al licitador propuesto y suele consistir en un porcentaje del precio final ofertado sin IVA, sin perjuicio de excepciones, garantías complementarias y regímenes especiales.
+
+Responde de:
+
+- correcta ejecución;
+- penalidades;
+- daños;
+- incautación en casos de resolución culpable;
+- inexistencia de vicios durante el plazo de garantía.
+
+## 24. Recurso especial en materia de contratación
+
+Es un recurso administrativo especial, potestativo y gratuito para determinados actos y contratos que superan los umbrales legales.
+
+Puede afectar, entre otros, a:
+
+- anuncios;
+- pliegos;
+- actos de trámite cualificados;
+- exclusiones;
+- adjudicación;
+- determinadas modificaciones y encargos.
+
+Su interposición frente a la adjudicación produce los efectos suspensivos previstos por la ley. No debe confundirse con los recursos administrativos ordinarios.
+
+## 25. Ejecución, modificación y resolución
+
+El contratista ejecuta a riesgo y ventura y bajo dirección, inspección y control de la Administración.
+
+Debe existir responsable del contrato para supervisar la ejecución y adoptar instrucciones dentro de sus facultades.
+
+Las modificaciones solo son posibles:
+
+- cuando estén previstas de forma clara, precisa e inequívoca en los pliegos;
+- o cuando concurra una causa legal no prevista, dentro de sus límites.
+
+No pueden alterar la naturaleza global ni utilizarse para sustituir una nueva licitación.
+
+La resolución puede producirse por incumplimiento, demora, insolvencia, imposibilidad de ejecución, mutuo acuerdo en condiciones legales y demás causas tasadas.
+
+## 26. Transparencia y contratación electrónica en la UC3M
+
+La UC3M publica su perfil de contratante en la Plataforma de Contratación del Sector Público desde el 1 de noviembre de 2016.
+
+La información institucional incluye:
+
+- perfil de contratante;
+- licitación electrónica;
+- planificación anual;
+- expedientes de contratación menor;
+- periodo medio de pago;
+- estadísticas sobre contratos adjudicados.
+
+La contratación se tramita electrónicamente. Las empresas deben relacionarse por medios electrónicos y utilizar los sistemas de licitación habilitados.
+
+## 27. Organización práctica de la contratación UC3M
+
+La Dirección Económico Financiera coordina la contratación de bienes, servicios, suministros y obras.
+
+La gestión se distribuye entre:
+
+- área de Contratación y Patrimonio, para procedimientos abiertos;
+- oficinas económicas de campus, para otros procedimientos y contratos con centrales de suministro;
+- servicios que tengan competencia para contratación menor;
+- unidades promotoras, que definen la necesidad y verifican la prestación;
+- asesoría jurídica, control interno, presupuesto y tesorería.
+
+### Flujo básico
+
+1. La unidad promotora identifica la necesidad.
+2. Comprueba si existe contrato centralizado, acuerdo marco o recurso interno.
+3. Define objeto, lotes, duración y estimación económica.
+4. Tramita memoria y retención de crédito.
+5. Se elaboran pliegos.
+6. Se efectúan informes y control.
+7. El órgano competente aprueba expediente y gasto.
+8. Se publica y reciben ofertas electrónicas.
+9. La mesa valora y propone.
+10. El órgano adjudica y formaliza.
+11. El responsable controla ejecución y conformidad.
+12. Se registra factura y se tramita el pago.
+
+## 28. Contratación vinculada a investigación
+
+La financiación por proyectos no excluye la LCSP. Deben respetarse:
+
+- elegibilidad del gasto;
+- periodo de ejecución;
+- condiciones de la entidad financiadora;
+- publicidad y competencia;
+- prohibición de fraccionamiento;
+- trazabilidad documental;
+- prevención del conflicto de intereses;
+- plan antifraude cuando resulte aplicable.
+
+Las exclusividades científicas o técnicas deben motivarse y acreditarse. La urgencia derivada de una mala planificación no justifica por sí sola un procedimiento excepcional.
+
+## 29. Errores frecuentes de examen
+
+- Confundir presupuesto base con valor estimado.
+- Pensar que el contrato se perfecciona siempre con la adjudicación.
+- Afirmar que la mesa adjudica.
+- Calcular el contrato menor con IVA.
+- Considerar que todo contrato privado queda fuera de la LCSP.
+- Utilizar urgencia y emergencia como sinónimos.
+- Creer que la oferta más barata es necesariamente la mejor.
+- Admitir el fraccionamiento de necesidades repetitivas.
+- Olvidar que la competencia originaria de contratación de la UC3M corresponde al Rector.
 
 ## Claves de examen
 
-- Presupuesto base incluye IVA; valor estimado se calcula sin IVA.
-- El objeto no puede fraccionarse para eludir procedimiento.
-- La mesa propone; el órgano adjudica.
-- La mejor oferta no es necesariamente la de menor precio.
-- El contrato menor no puede utilizarse para necesidades recurrentes fraccionadas.
+- La UC3M es Administración Pública a efectos contractuales.
+- El Rector es el órgano de contratación de la Universidad.
+- La mesa asiste y propone; el órgano competente adjudica.
+- Presupuesto base: normalmente con IVA. Valor estimado: sin IVA.
+- Contrato menor: menos de 40.000 euros en obras y menos de 15.000 euros en suministros o servicios, sin IVA.
+- Los contratos menores duran como máximo un año y no admiten prórroga.
+- La mejor relación calidad-precio no equivale necesariamente al precio más bajo.
+- La LCSP consolidada utilizada está actualizada a 9 de abril de 2026.
