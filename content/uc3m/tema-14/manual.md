@@ -35,11 +35,13 @@ Las universidades públicas tienen personalidad jurídica y patrimonio propio. S
 
 Su autonomía se ejerce con sometimiento a los principios de legalidad, eficacia, eficiencia, transparencia y rendición de cuentas.
 
-## 4. Autonomía económica y financiera
+## 4. Autonomía económica y suficiencia financiera
 
 Las universidades públicas disponen de autonomía económica y financiera. Corresponde a cada universidad elaborar, aprobar y gestionar su presupuesto y administrar sus bienes, sin perjuicio de los controles internos y externos legalmente previstos.
 
-Las Administraciones Públicas deben dotarlas de recursos suficientes para el cumplimiento de sus funciones. La LOSU fija como objetivo compartido alcanzar, como mínimo, el 1 % del PIB en gasto público en educación universitaria pública.
+Las Administraciones Públicas deben dotarlas de recursos suficientes para el cumplimiento de sus funciones. En el marco del plan de incremento del gasto público para 2030, el Estado, las Comunidades Autónomas y las universidades comparten el objetivo de destinar, como mínimo, el **1 % del PIB** al gasto público en educación universitaria pública en el conjunto del Estado.
+
+Este objetivo tiene carácter plurianual y debe concretarse mediante aportaciones en los presupuestos públicos y universitarios, de acuerdo con las disponibilidades de cada ejercicio.
 
 ## 5. Presupuesto universitario
 
@@ -50,9 +52,13 @@ El presupuesto de las universidades públicas debe ser:
 - equilibrado;
 - comprensivo de todos los ingresos y gastos.
 
-Debe respetar los principios de estabilidad presupuestaria y sostenibilidad financiera. En su elaboración deben incorporarse informes de impacto de género y de impacto medioambiental.
+Debe respetar los principios de estabilidad presupuestaria y sostenibilidad financiera. En su elaboración deben incorporarse informes de impacto por razón de género y de impacto medioambiental.
+
+La competencia se distribuye entre órganos: el **Consejo de Gobierno propone** al Consejo Social el presupuesto y las cuentas anuales, y el **Consejo Social los aprueba**.
 
 Los ingresos pueden proceder de transferencias públicas, precios públicos, rendimientos patrimoniales, contratos, convenios, investigación, transferencia, donaciones y otras fuentes legales.
+
+La LOSU exige que las universidades destinen un porcentaje de su presupuesto **no inferior al 5 %** a programas propios de investigación.
 
 ## 6. Programación, contabilidad y control
 
@@ -102,7 +108,10 @@ Los órganos de selección deben actuar con imparcialidad y procurar una composi
 
 ## 13. Claves de examen
 
-- El presupuesto universitario es público, único y equilibrado.
+- El presupuesto universitario es público, único, equilibrado y comprende todos los ingresos y gastos.
+- El Consejo de Gobierno propone el presupuesto y las cuentas; el Consejo Social los aprueba.
+- Al menos el **5 %** del presupuesto debe dedicarse a programas propios de investigación.
+- El objetivo compartido de financiación es alcanzar al menos el **1 % del PIB** en gasto público universitario dentro del marco de incremento previsto para 2030.
 - La autonomía económica no elimina el control ni la rendición de cuentas.
 - El PDI y el PTGAS son colectivos distintos con funciones propias.
 - La selección de personal exige igualdad, mérito, capacidad y publicidad.
