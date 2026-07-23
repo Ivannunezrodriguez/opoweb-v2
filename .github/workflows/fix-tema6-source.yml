@@ -1,0 +1,37 @@
+name: Fix Tema 6 source
+
+on:
+  push:
+    paths:
+      - '.github/workflows/fix-tema6-source.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Correct source markdown
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('content/la-puebla/tema-06/manual.md')
+          text = path.read_text(encoding='utf-8')
+          old = text
+          text = text.replace('Duración máxima del programa: **dos años**.', 'Duración máxima del programa: **cuatro años**.')
+          text = text.replace('la duración total nunca puede superar **dos años**.', 'la duración total nunca puede superar **cuatro años**.')
+          text = text.replace('**Fecha de revisión normativa:** 17 de julio de 2026.', '**Fecha de revisión normativa:** 23 de julio de 2026.')
+          if text == old:
+              raise SystemExit('No se localizaron las menciones que debían corregirse')
+          path.write_text(text, encoding='utf-8')
+          PY
+      - name: Commit correction
+        run: |
+          git config user.name 'opoweb-audit-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add content/la-puebla/tema-06/manual.md
+          git commit -m 'fix(la-puebla): corregir duración de programas temporales en Tema 6'
+          git push
