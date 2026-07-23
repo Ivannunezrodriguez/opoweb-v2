@@ -2,129 +2,283 @@
 
 > Epígrafe oficial: ejecución de gastos, gestión presupuestaria y económico-financiera, ordenación, documentos contables, liquidación y cierre.
 
-## 1. Ejecución del gasto
+## 1. Marco normativo y función del bloque
 
-La ejecución del presupuesto de gastos sigue una secuencia que garantiza existencia de crédito, competencia, finalidad y justificación.
+La ejecución del gasto de la Universidad Carlos III de Madrid se rige por la Ley Orgánica 2/2023, del Sistema Universitario; la legislación presupuestaria y de Hacienda de la Comunidad de Madrid; los Estatutos de la UC3M; el Presupuesto 2026 y sus Normas Básicas de Gestión; la normativa de contratación, subvenciones, factura electrónica, morosidad, contabilidad pública y control interno.
 
-### Autorización del gasto
+Este tema estudia cómo una autorización presupuestaria se transforma en una obligación reconocida y, finalmente, en un pago, y cómo se registran, controlan, liquidan y cierran esas operaciones.
 
-Es el acto por el que se acuerda realizar un gasto determinado por cuantía cierta o aproximada, reservando crédito. No implica todavía obligación frente a tercero.
+## 2. Principios de la gestión económico-financiera
 
-### Compromiso o disposición
+Toda actuación de gasto debe respetar:
 
-Es el acto por el que, tras los trámites correspondientes, se acuerda con un tercero la realización de una prestación por importe determinado. Vincula jurídicamente a la Universidad.
+- legalidad y competencia;
+- existencia de crédito adecuado y suficiente;
+- especialidad cualitativa, cuantitativa y temporal;
+- eficiencia, economía y sostenibilidad;
+- trazabilidad documental y contable;
+- separación entre gestión, control, contabilidad, ordenación y tesorería;
+- transparencia y rendición de cuentas.
 
-### Reconocimiento de la obligación
+La existencia de una necesidad no permite gastar sin crédito ni prescindir del procedimiento aplicable.
 
-Declara la existencia de una deuda exigible tras acreditar que la prestación se ha realizado correctamente o que se cumplen las condiciones de la obligación.
+## 3. Fases de ejecución del gasto
 
-### Ordenación y pago
+### 3.1. Retención de crédito
 
-La ordenación del pago dispone que Tesorería satisfaga una obligación reconocida. El pago material extingue la deuda en los términos correspondientes.
+La retención de crédito reserva saldo disponible para una finalidad determinada. No crea todavía una obligación frente a terceros, pero acredita que existe financiación presupuestaria para continuar el expediente.
 
-Las fases pueden acumularse cuando la naturaleza del gasto lo permita, pero deben mantenerse controles y documentos justificativos.
+### 3.2. Autorización del gasto
 
-## 2. Existencia y retención de crédito
+La autorización es el acto por el que el órgano competente aprueba la realización de un gasto por cuantía cierta o estimada y con una finalidad concreta. Produce una reserva de crédito, pero no crea por sí sola deuda exigible.
 
-Antes de iniciar un gasto debe comprobarse crédito adecuado y suficiente. La retención de crédito reserva saldo para una actuación prevista. Si no existe crédito, el expediente debe modificarse o tramitarse la modificación presupuestaria correspondiente.
+### 3.3. Disposición o compromiso
 
-Los actos que comprometan gasto sin crédito pueden ser nulos y generar responsabilidad.
+La disposición concreta la relación jurídica con un tercero y compromete crédito por un importe determinado. Puede derivar de un contrato, una subvención, un convenio, una nómina, una indemnización u otro título válido.
 
-## 3. Competencia y delegación
+### 3.4. Reconocimiento de la obligación
 
-Cada fase debe aprobarla el órgano competente conforme a Estatutos, presupuesto, bases de ejecución y delegaciones vigentes. La delegación debe constar y los actos dictados por delegación deben indicarlo.
+El reconocimiento de la obligación declara que existe una deuda vencida, líquida y exigible a cargo de la Universidad. Exige acreditar la prestación, entrega, servicio, derecho del acreedor o cumplimiento de las condiciones previstas.
 
-La separación de funciones entre propuesta, autorización, control, contabilidad, ordenación y pago reduce riesgos y mejora el control interno.
+### 3.5. Ordenación del pago
 
-## 4. Expediente de gasto
+La ordenación del pago es el acto por el que se dispone que Tesorería satisfaga una obligación ya reconocida. No debe confundirse con el pago material.
 
-Un expediente suele contener memoria justificativa, propuesta, acreditación de crédito, autorización, documentación de contratación o encargo, factura o justificante, conformidad de la prestación, reconocimiento de obligación y orden de pago.
+### 3.6. Pago material
 
-La documentación varía según sea gasto de personal, contrato, subvención, indemnización, transferencia, proyecto de investigación o gasto menor.
+El pago material supone la salida efectiva de fondos y extingue la obligación en la medida correspondiente. Debe quedar registrado contable y bancariamente.
 
-## 5. Facturas
+## 4. Acumulación de fases
 
-La factura debe identificar emisor y destinatario, número, fecha, concepto, base imponible, impuestos, total y demás requisitos legales. En el sector público puede ser obligatoria la factura electrónica y su presentación a través del punto general correspondiente.
+Las fases pueden acumularse cuando la naturaleza del gasto y las Normas Básicas de Gestión lo permitan. Son habituales los documentos mixtos, como autorización-disposición o autorización-disposición-obligación.
 
-La unidad responsable verifica realidad de la prestación, adecuación al contrato, precio, fechas, impuestos y datos bancarios. La conformidad no sustituye el control presupuestario.
+La acumulación no elimina:
 
-## 6. Pagos a justificar y anticipos de caja fija
+- la necesidad de crédito;
+- la competencia del órgano;
+- la justificación de la prestación;
+- la fiscalización o control exigible;
+- la identificación del tercero y del expediente.
 
-Los pagos a justificar atienden gastos cuando no puede aportarse previamente la documentación justificativa. El perceptor debe justificar la aplicación de fondos y reintegrar sobrantes dentro del plazo.
+## 5. Órganos y responsabilidad
 
-Los anticipos de caja fija son provisiones permanentes para gastos periódicos o repetitivos de pequeña cuantía. Deben reponerse mediante cuentas justificativas y están sujetos a límites, autorizaciones y control.
+La competencia para autorizar, comprometer, reconocer obligaciones y ordenar pagos deriva de la legislación, los Estatutos, el Presupuesto 2026 y las delegaciones vigentes.
 
-No deben utilizarse para eludir procedimientos de contratación, fraccionar gastos o evitar fiscalización.
+Los actos dictados por delegación deben expresar esta circunstancia. Quienes gestionan fondos públicos responden de la legalidad, exactitud y justificación de las operaciones que tramitan.
 
-## 7. Gastos plurianuales
+## 6. Expediente de gasto
 
-Pueden comprometerse gastos de ejercicios futuros en los supuestos y límites legales. El expediente debe distribuir anualidades, acreditar financiación y respetar porcentajes o autorizaciones.
+Un expediente completo puede contener:
 
-La anualidad presupuestaria no impide contratos plurianuales, pero cada compromiso futuro debe registrarse y quedar condicionado a crédito adecuado.
+1. memoria o necesidad;
+2. propuesta del centro gestor;
+3. acreditación de crédito;
+4. autorización y compromiso;
+5. documentación contractual, convenio, resolución o título jurídico;
+6. factura o justificante;
+7. conformidad de la prestación;
+8. reconocimiento de la obligación;
+9. orden de pago;
+10. justificante del pago y registro contable.
 
-## 8. Gestión de personal
+La documentación concreta depende del tipo de gasto.
 
-Los gastos de personal incluyen retribuciones, cotizaciones, indemnizaciones y acción social. Su gestión exige nombramiento o contrato válido, alta, acreditación de servicios, aplicación presupuestaria y cumplimiento de límites retributivos.
+## 7. Facturas y conformidad
 
-Las nóminas integran devengos, deducciones, retenciones fiscales y cotizaciones. Las incidencias deben comunicarse y documentarse.
+La factura debe cumplir los requisitos fiscales y contractuales y, cuando proceda, presentarse electrónicamente por el canal habilitado.
 
-## 9. Subvenciones y transferencias
+La unidad responsable debe comprobar:
 
-Las subvenciones se someten a principios de publicidad, concurrencia, objetividad, transparencia, igualdad, eficacia y eficiencia, salvo concesión directa legalmente prevista.
+- identidad del proveedor;
+- objeto y periodo facturado;
+- correspondencia con pedido o contrato;
+- importe, impuestos y descuentos;
+- efectiva prestación o entrega;
+- aplicación presupuestaria;
+- datos bancarios y posibles incidencias.
 
-El reconocimiento de obligación exige acreditar concesión, cumplimiento de condiciones y justificación. Las transferencias financian actividades sin contraprestación directa y se rigen por su norma o acuerdo.
+La conformidad acredita la correcta recepción, pero no sustituye la aprobación presupuestaria ni el control económico-financiero.
 
-## 10. Documentos contables
+## 8. Gastos de personal
 
-Los sistemas contables registran las fases de ejecución. Aunque la denominación concreta puede variar, son habituales documentos de retención, autorización, compromiso, obligación y pago, así como documentos mixtos.
+La gestión del capítulo I comprende retribuciones, cotizaciones sociales, indemnizaciones y otras obligaciones de personal.
 
-Cada documento identifica ejercicio, aplicación, importe, tercero, expediente, órgano y fase. La contabilidad debe permitir trazabilidad completa.
+La nómina exige soporte jurídico válido, alta o nombramiento, servicios efectivamente prestados, incidencias comunicadas, aplicación presupuestaria correcta, retenciones fiscales y cotizaciones.
 
-## 11. Ordenación de pagos y Tesorería
+## 9. Contratos, subvenciones y transferencias
 
-La ordenación de pagos corresponde al órgano competente. Tesorería comprueba que la orden es válida, identifica acreedor, aplica retenciones, realiza transferencia y registra el pago.
+En contratación, el reconocimiento de la obligación requiere la prestación conforme y la documentación prevista en la Ley 9/2017 y en las normas internas.
 
-La planificación de pagos debe atender vencimientos, liquidez y prioridad legal. Los datos bancarios requieren verificación para prevenir fraude.
+En subvenciones, la obligación se reconoce cuando se cumplen las condiciones de concesión y justificación, salvo anticipos legalmente autorizados.
 
-## 12. Control interno
+Las transferencias financian actividades sin contraprestación contractual directa y se imputan según su naturaleza corriente o de capital.
 
-El control puede ser previo o posterior e incluir función interventora, control financiero permanente y auditoría. Comprueba legalidad, crédito, competencia, procedimiento, justificación y resultados.
+## 10. Pagos a justificar
 
-Los reparos identifican incumplimientos que pueden suspender la tramitación cuando tengan carácter esencial. Su resolución corresponde al órgano determinado por la normativa.
+Los pagos a justificar permiten disponer fondos antes de contar con la documentación definitiva cuando no sea posible aportarla con carácter previo.
 
-## 13. Liquidación del presupuesto
+El perceptor debe:
 
-Al finalizar el ejercicio se determina:
+- aplicar los fondos al fin autorizado;
+- justificar dentro del plazo;
+- reintegrar sobrantes;
+- responder de pagos indebidos o no justificados.
 
-- créditos definitivos;
+No pueden utilizarse para eludir contratación, fiscalización o límites de gasto.
+
+## 11. Anticipos de caja fija
+
+Los anticipos de caja fija son provisiones de fondos de carácter permanente destinadas a gastos periódicos, repetitivos y de pequeña cuantía.
+
+Se justifican mediante cuentas periódicas y se reponen con cargo al presupuesto. No equivalen a un pago a justificar aislado.
+
+## 12. Gastos plurianuales y tramitación anticipada
+
+La UC3M puede comprometer gastos que se extiendan a ejercicios futuros dentro de los límites y autorizaciones aplicables.
+
+El expediente debe identificar:
+
+- importe total;
+- distribución por anualidades;
+- financiación prevista;
+- crédito del ejercicio corriente;
+- compromisos futuros;
+- condición de existencia de crédito adecuado en cada ejercicio.
+
+La tramitación anticipada permite avanzar expedientes antes del inicio del ejercicio, pero su eficacia queda condicionada a la existencia de crédito.
+
+## 13. Documentos contables
+
+Los documentos contables registran cada fase de ejecución. Son habituales:
+
+- RC: retención de crédito;
+- A: autorización;
+- D: disposición o compromiso;
+- O: reconocimiento de obligación;
+- P: ordenación del pago;
+- documentos mixtos AD, ADO u otros equivalentes;
+- documentos negativos o de anulación;
+- documentos de pagos a justificar, anticipos y operaciones no presupuestarias.
+
+Cada documento debe identificar ejercicio, aplicación presupuestaria, centro, programa, importe, tercero, expediente, órgano y fase.
+
+## 14. Ordenación de pagos y Tesorería
+
+Tesorería ejecuta los pagos ordenados y gestiona las disponibilidades líquidas.
+
+Antes del pago se comprueba:
+
+- validez de la orden;
+- identificación del acreedor;
+- situación de la obligación;
+- retenciones fiscales o judiciales;
+- datos bancarios;
+- posibles compensaciones o embargos;
+- disponibilidad de tesorería.
+
+La conciliación bancaria compara contabilidad y movimientos reales de cuentas.
+
+## 15. Control interno y auditoría
+
+El control interno puede comprender fiscalización previa, control financiero permanente y auditoría pública.
+
+Verifica, entre otros extremos:
+
+- competencia;
+- crédito;
+- procedimiento;
+- documentación justificativa;
+- exactitud contable;
+- cumplimiento de objetivos y uso de fondos afectados.
+
+Los reparos o incidencias deben tramitarse y resolverse por el órgano competente antes de continuar cuando tengan efecto suspensivo.
+
+## 16. Operaciones no presupuestarias
+
+Existen movimientos de tesorería que no constituyen ingresos o gastos presupuestarios del ejercicio, como determinadas retenciones, depósitos, fianzas o pagos pendientes de aplicación.
+
+Deben registrarse en cuentas específicas y regularizarse sin distorsionar la ejecución del presupuesto.
+
+## 17. Liquidación del presupuesto
+
+La liquidación determina el grado de ejecución del presupuesto al cierre del ejercicio.
+
+Comprende, al menos:
+
+- créditos iniciales, modificaciones y créditos definitivos;
+- gastos autorizados y comprometidos;
 - obligaciones reconocidas;
 - pagos realizados y pendientes;
-- derechos reconocidos;
+- previsiones y derechos reconocidos;
 - recaudación y derechos pendientes;
 - resultado presupuestario;
 - remanente de tesorería;
 - desviaciones de financiación.
 
-La liquidación muestra cómo se ejecutó el presupuesto, mientras que las cuentas anuales ofrecen una visión más amplia patrimonial, económica y financiera.
+La liquidación presupuestaria no equivale a las cuentas anuales: forma parte de ellas, pero estas incluyen también información patrimonial, económica y financiera.
 
-## 14. Cierre del ejercicio
+## 18. Resultado presupuestario
 
-Las instrucciones de cierre fijan fechas límite para expedientes, facturas, documentos contables, modificaciones, pagos y conciliaciones.
+El resultado presupuestario compara derechos reconocidos netos y obligaciones reconocidas netas del ejercicio, con los ajustes que correspondan por desviaciones de financiación y créditos financiados con remanente.
 
-Los gastos realizados y no registrados deben analizarse para su imputación correcta. Las obligaciones devengadas corresponden al ejercicio aunque el pago se produzca después.
+Un resultado positivo no significa automáticamente que toda la tesorería sea libremente disponible.
 
-Los saldos se concilian con bancos, terceros, inventario, nóminas, proyectos y sistemas auxiliares. Se revisan derechos de dudoso cobro, periodificaciones y financiación afectada.
+## 19. Remanente de tesorería
 
-## 15. Cuentas anuales
+El remanente de tesorería refleja la liquidez acumulada al cierre, considerando fondos líquidos, derechos pendientes de cobro y obligaciones pendientes de pago, con los ajustes establecidos por la normativa contable.
 
-Incluyen balance, cuenta del resultado económico-patrimonial, estado de cambios en patrimonio, estado de flujos de efectivo cuando proceda, estado de liquidación del presupuesto y memoria.
+Debe distinguirse entre:
 
-Deben reflejar imagen fiel y someterse a formulación, aprobación, auditoría y rendición ante los órganos competentes.
+- remanente afectado a proyectos o financiación específica;
+- remanente no afectado o de libre disposición, cuando exista;
+- saldos de dudoso cobro y otras correcciones.
+
+## 20. Cierre del ejercicio
+
+Las instrucciones de cierre fijan fechas límite para:
+
+- propuestas y autorizaciones;
+- recepción de facturas;
+- reconocimiento de obligaciones;
+- modificaciones presupuestarias;
+- pagos y conciliaciones;
+- inventario y amortizaciones;
+- regularización de anticipos y pagos a justificar;
+- operaciones de financiación afectada.
+
+Las obligaciones devengadas corresponden al ejercicio aunque el pago se produzca después. Los gastos realizados sin registro deben analizarse y regularizarse conforme a la normativa.
+
+## 21. Cuentas anuales y rendición
+
+Las cuentas anuales comprenden, conforme al plan contable aplicable:
+
+- balance;
+- cuenta del resultado económico-patrimonial;
+- estado de cambios en el patrimonio neto;
+- estado de flujos de efectivo cuando proceda;
+- estado de liquidación del presupuesto;
+- memoria.
+
+Deben reflejar la imagen fiel y someterse a formulación, aprobación, auditoría y rendición ante los órganos competentes.
+
+## 22. Diferencias esenciales de examen
+
+| Concepto | Significado |
+|---|---|
+| Autorización | Decide realizar el gasto y reserva crédito |
+| Disposición | Compromete jurídicamente el gasto frente a tercero |
+| Obligación | Reconoce deuda exigible tras acreditar la prestación |
+| Ordenación | Ordena a Tesorería efectuar el pago |
+| Pago | Salida material de fondos |
+| Liquidación | Mide la ejecución presupuestaria del ejercicio |
+| Cuentas anuales | Ofrecen visión presupuestaria, patrimonial y financiera |
 
 ## Claves de examen
 
-- Autorización no crea deuda frente a tercero.
-- La obligación se reconoce tras acreditar la prestación.
-- Pago a justificar y anticipo de caja fija no son equivalentes.
-- Liquidación presupuestaria y cuentas anuales son conceptos distintos.
-- El cierre exige conciliar presupuesto, contabilidad y documentación.
+- La autorización no crea por sí sola deuda frente a tercero.
+- El compromiso vincula jurídicamente a la Universidad.
+- La obligación se reconoce tras acreditar el derecho del acreedor.
+- Ordenación y pago material son fases distintas.
+- Pagos a justificar y anticipos de caja fija no son equivalentes.
+- Liquidación, resultado presupuestario, remanente y cuentas anuales son conceptos diferentes.
+- La financiación afectada mantiene su destino hasta el cierre y liquidación del proyecto.
