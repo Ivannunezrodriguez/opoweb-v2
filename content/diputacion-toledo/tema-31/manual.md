@@ -4,166 +4,194 @@
 
 **Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza. Firma electrónica y certificados electrónicos. Usos del certificado electrónico en la administración electrónica. Tipos y soportes. Autoridades certificadoras y servicios que prestan.**
 
-**Estado editorial:** `GENERACION_DESDE_CERO`
+**Estado editorial:** `AUDITADO_EIDAS_2`
 
-## 1. Marco normativo
+## 1. Marco normativo vigente
 
-La regulación española se integra principalmente por:
+La materia se regula principalmente por:
 
 | Norma | Función |
 |---|---|
 | Reglamento (UE) nº 910/2014, eIDAS | Marco europeo de identificación electrónica y servicios de confianza |
-| **Ley 6/2020, de 11 de noviembre** | Desarrollo nacional de determinados aspectos de los servicios electrónicos de confianza |
-| **Ley 39/2015, de 1 de octubre** | Identificación y firma de los interesados ante las Administraciones Públicas |
-| **Real Decreto 203/2021, de 30 de marzo** | Desarrollo reglamentario de la actuación y funcionamiento electrónicos del sector público |
+| Reglamento (UE) 2024/1183, eIDAS 2 | Amplía eIDAS y crea el marco europeo de identidad digital |
+| Ley 6/2020, de 11 de noviembre | Regula determinados aspectos nacionales de los servicios electrónicos de confianza |
+| Ley 39/2015, de 1 de octubre | Identificación y firma ante las Administraciones Públicas |
+| Real Decreto 203/2021, de 30 de marzo | Funcionamiento electrónico del sector público |
 
-La Ley 6/2020 entró en vigor el **13 de noviembre de 2020**.
+La Ley 6/2020 entró en vigor el **13 de noviembre de 2020**. No sustituye al Reglamento eIDAS: lo complementa en el ordenamiento español.
 
-> ⚠️ **¡Foco Examen!:** La Ley 6/2020 no sustituye al Reglamento eIDAS; lo complementa en el ordenamiento español.
+El Reglamento (UE) 2024/1183, publicado el **30 de abril de 2024**, modifica eIDAS y amplía el catálogo de servicios de confianza. El texto consolidado del Reglamento 910/2014 incorpora esta reforma desde el **18 de octubre de 2024**.
 
-## 2. Servicios electrónicos de confianza
+## 2. Concepto de servicio de confianza
 
-Los servicios de confianza son servicios electrónicos que aportan seguridad jurídica y técnica a las transacciones digitales.
+Un servicio de confianza es un servicio electrónico, normalmente prestado a cambio de remuneración, que realiza alguna de las funciones reconocidas por eIDAS.
 
-Entre ellos se incluyen:
+Tras eIDAS 2, el catálogo comprende:
 
-- creación, verificación y validación de firmas electrónicas;
-- creación, verificación y validación de sellos electrónicos;
-- sellos de tiempo electrónicos;
-- servicios de entrega electrónica certificada;
-- certificados para autenticación de sitios web;
-- conservación de firmas, sellos o certificados.
+- expedición y validación de certificados de firma, sello, autenticación web y otros servicios;
+- creación y validación de firmas y sellos electrónicos;
+- conservación de firmas, sellos y certificados;
+- gestión de dispositivos remotos de creación de firma o sello;
+- expedición y validación de declaraciones electrónicas de atributos;
+- creación y validación de sellos de tiempo;
+- entrega electrónica certificada y validación de sus evidencias;
+- archivo electrónico de datos y documentos;
+- registro de datos en libros mayores electrónicos.
 
-| Servicio | Finalidad principal |
+> ⚠️ **Foco examen:** eIDAS 2 no elimina los servicios anteriores; añade nuevos servicios y amplía algunos ya existentes.
+
+## 3. Servicios cualificados y no cualificados
+
+| Clase | Caracterización |
 |---|---|
-| Firma electrónica | Vincular datos con una persona firmante |
-| Sello electrónico | Garantizar origen e integridad respecto de una persona jurídica |
-| Sello de tiempo | Acreditar que determinados datos existían en un momento concreto |
-| Entrega electrónica certificada | Probar envío, recepción, fecha y datos transmitidos |
-| Certificado de sitio web | Autenticar un sitio y proteger la comunicación |
+| Servicio no cualificado | Cumple requisitos generales, pero no posee estatus cualificado |
+| Servicio cualificado | Prestado por un prestador cualificado y reconocido como tal en la Lista de confianza |
 
-> ⚠️ **¡Foco Examen!:** Firma y sello no son equivalentes: la firma se asocia a una persona física; el sello, normalmente, a una persona jurídica.
+La condición de cualificado no depende de la denominación comercial. Debe constar en la **Lista de confianza** correspondiente.
 
-## 3. Firma electrónica
+## 4. Firma electrónica
 
-La firma electrónica son los datos en formato electrónico anejos a otros datos electrónicos o asociados de manera lógica con ellos, utilizados por el firmante para firmar.
+La firma electrónica son datos electrónicos anejos o asociados lógicamente a otros datos electrónicos utilizados por el firmante para firmar.
 
-### 3.1. Tipos de firma
+### Tipos
 
 | Tipo | Requisitos esenciales | Efecto |
 |---|---|---|
-| Firma electrónica simple | Datos electrónicos usados para firmar | No puede rechazarse solo por ser electrónica |
-| Firma electrónica avanzada | Vinculación única, identificación, control exclusivo y detección de cambios | Mayor garantía técnica |
-| Firma electrónica cualificada | Firma avanzada creada con dispositivo cualificado y basada en certificado cualificado | Equivale jurídicamente a la firma manuscrita |
+| Simple | Datos electrónicos usados para firmar | No puede rechazarse solo por ser electrónica |
+| Avanzada | Vinculación única, identificación, control exclusivo y detección de cambios | Mayor garantía técnica |
+| Cualificada | Firma avanzada, certificado cualificado y dispositivo cualificado | Equivale jurídicamente a la firma manuscrita |
 
 La firma avanzada debe:
 
 - estar vinculada al firmante de manera única;
 - permitir su identificación;
-- haber sido creada utilizando datos bajo su control exclusivo con un alto nivel de confianza;
-- estar vinculada a los datos firmados de modo que cualquier modificación ulterior sea detectable.
+- crearse con datos bajo su control exclusivo y alto nivel de confianza;
+- quedar vinculada a los datos de modo que cualquier cambio posterior sea detectable.
 
-> ⚠️ **¡Foco Examen!:** Solo la firma electrónica **cualificada** tiene expresamente el efecto jurídico equivalente al de una firma manuscrita.
+## 5. Sello electrónico
 
-## 4. Certificados electrónicos
+El sello electrónico se asocia normalmente a una **persona jurídica** y permite acreditar origen e integridad de los datos.
 
-Un certificado electrónico es una declaración electrónica que vincula unos datos de validación de firma o sello con una persona física o jurídica y confirma determinados atributos.
+No debe confundirse con la firma:
 
-### 4.1. Certificado cualificado de firma electrónica
+- firma: vinculada a persona física firmante;
+- sello: vinculado normalmente a persona jurídica u órgano;
+- certificado: vincula identidad y datos de validación, pero no es por sí mismo una firma o sello.
 
-Es el certificado expedido por un **prestador cualificado de servicios de confianza** que cumple los requisitos del Reglamento eIDAS.
+## 6. Certificados electrónicos
 
-Debe permitir identificar al firmante e incluir, entre otros elementos:
+Un certificado electrónico es una declaración electrónica que vincula datos de validación de firma o sello con una persona física o jurídica y confirma determinados atributos.
 
-- indicación de que se expide como certificado cualificado;
-- identificación del prestador;
-- datos del firmante;
-- datos de validación de firma;
-- periodo de validez;
-- código único de identidad del certificado;
-- firma o sello electrónico avanzado del prestador.
-
-### 4.2. Certificados de sello y de autenticación de sitio web
+### Certificados principales
 
 | Certificado | Titular habitual | Uso |
 |---|---|---|
-| Certificado de firma | Persona física | Firmar documentos y actuaciones |
-| Certificado de sello | Persona jurídica | Garantizar origen e integridad |
-| Certificado de autenticación web | Titular de un sitio | Acreditar identidad del sitio y conexión segura |
+| Firma electrónica | Persona física | Firmar documentos y actuaciones |
+| Sello electrónico | Persona jurídica | Garantizar origen e integridad |
+| Autenticación de sitio web | Titular del sitio | Acreditar identidad del sitio y conexión segura |
 
-> ⚠️ **¡Foco Examen!:** El certificado no es la firma; el certificado vincula la identidad con los datos de validación utilizados para verificarla.
+Un certificado cualificado debe ser expedido por un prestador cualificado y cumplir los requisitos del Reglamento eIDAS.
 
-## 5. Expedición, vigencia, suspensión y revocación
+## 7. Vigencia, suspensión y revocación
 
-Antes de expedir un certificado cualificado, el prestador debe verificar la identidad y, cuando proceda, los atributos específicos del solicitante.
+La eficacia de un certificado depende de:
 
-La eficacia del certificado está condicionada a:
+- periodo de validez;
+- ausencia de suspensión;
+- ausencia de revocación;
+- disponibilidad de información actualizada sobre su estado.
 
-- su periodo de validez;
-- que no esté suspendido;
-- que no haya sido revocado;
-- que el prestador mantenga disponible información actualizada sobre su estado.
+La revocación extingue su validez desde el momento legalmente previsto. Un certificado caducado, suspendido o revocado no debe utilizarse como vigente.
 
-La revocación extingue la validez del certificado desde el momento previsto legalmente y debe hacerse constar en los servicios de consulta de estado.
+## 8. Prestadores y supervisión
 
-> ⚠️ **¡Foco Examen!:** Un certificado caducado, suspendido o revocado no debe utilizarse como si estuviera vigente.
-
-## 6. Prestadores de servicios de confianza
-
-El prestador es la persona física o jurídica que presta uno o varios servicios de confianza.
-
-Puede ser:
-
-| Clase | Caracterización |
-|---|---|
-| Prestador no cualificado | Presta servicios sin estatus cualificado |
-| Prestador cualificado | Ha obtenido el reconocimiento formal tras la supervisión correspondiente |
-
-Los prestadores deben actuar con diligencia y adoptar medidas técnicas y organizativas adecuadas, entre ellas:
+El prestador de servicios de confianza puede ser persona física o jurídica. Debe adoptar medidas técnicas y organizativas adecuadas, entre ellas:
 
 - seguridad de sistemas y procesos;
-- personal con conocimientos y experiencia suficientes;
+- personal cualificado;
 - conservación de información relevante;
-- mecanismos de continuidad y cese;
-- comunicación de incidentes cuando proceda;
-- seguro o garantía equivalente en los casos exigidos.
+- continuidad y cese ordenado;
+- comunicación de incidentes;
+- garantía financiera cuando proceda.
 
-## 7. Autoridad de supervisión y lista de confianza
+La supervisión estatal corresponde al órgano competente de la Administración General del Estado. La **Lista de confianza** identifica prestadores cualificados, servicios reconocidos y estado de cada servicio.
 
-La supervisión estatal de los prestadores de servicios electrónicos de confianza corresponde al órgano competente de la **Administración General del Estado** en materia de servicios electrónicos de confianza.
+## 9. Nuevos servicios de eIDAS 2
 
-La **Lista de confianza** identifica los prestadores cualificados y los servicios cualificados que ofrecen.
+### 9.1. Gestión remota de dispositivos cualificados
 
-La inclusión en la Lista de confianza permite comprobar:
+La gestión de dispositivos remotos de creación de firma o sello pasa a reconocerse expresamente como servicio de confianza. Permite operar claves en infraestructura remota segura manteniendo las garantías de control, autenticación y protección exigidas.
 
-- identidad del prestador;
-- servicio cualificado reconocido;
-- estado del servicio;
-- certificados o datos técnicos asociados.
+El soporte remoto no convierte automáticamente una firma en cualificada: también deben concurrir certificado cualificado y dispositivo cualificado.
 
-> ⚠️ **¡Foco Examen!:** Para que un servicio tenga condición de cualificado debe constar como tal en la Lista de confianza correspondiente.
+### 9.2. Declaraciones electrónicas de atributos
 
-## 8. Uso en la Administración electrónica
+Permiten acreditar electrónicamente atributos como:
 
-La Ley 39/2015 distingue entre identificación y firma.
+- titulación;
+- representación;
+- condición profesional;
+- edad;
+- licencia o habilitación;
+- pertenencia a una organización.
 
-### 8.1. Identificación
+Pueden ser cualificadas cuando las expide un prestador cualificado conforme a eIDAS. No sustituyen necesariamente al documento de identidad; acreditan atributos concretos.
 
-Las Administraciones deben verificar la identidad de los interesados. Entre los sistemas admisibles están:
+### 9.3. Archivo electrónico
 
-- certificados electrónicos cualificados de firma;
+El archivo electrónico comprende recepción, almacenamiento, recuperación y eliminación de datos o documentos electrónicos para garantizar:
+
+- durabilidad y legibilidad;
+- integridad;
+- confidencialidad;
+- prueba del origen durante el periodo de conservación.
+
+Los servicios cualificados de archivo electrónico disfrutan de una presunción reforzada de integridad y origen durante el periodo de conservación.
+
+### 9.4. Libros mayores electrónicos
+
+Un libro mayor electrónico es una secuencia de registros electrónicos que garantiza integridad y orden cronológico.
+
+Los registros contenidos en un libro mayor electrónico cualificado gozan de presunción de:
+
+- orden cronológico secuencial único y exacto;
+- integridad de los datos.
+
+Puede utilizar tecnologías centralizadas o distribuidas; eIDAS mantiene neutralidad tecnológica.
+
+### 9.5. Validación como servicio autónomo
+
+La reforma reconoce expresamente la validación de certificados, firmas, sellos, sellos de tiempo, entregas certificadas y declaraciones de atributos como servicios de confianza diferenciados.
+
+## 10. Cartera Europea de Identidad Digital
+
+La reforma eIDAS 2 crea el marco de la **Cartera Europea de Identidad Digital**.
+
+Permite a personas físicas y jurídicas:
+
+- identificarse electrónicamente;
+- almacenar y presentar datos de identidad;
+- compartir atributos de forma selectiva;
+- firmar electrónicamente;
+- acceder a servicios públicos y privados transfronterizos.
+
+La cartera debe permitir al usuario controlar qué datos comparte. No debe confundirse con un simple certificado software: es un instrumento europeo de identidad y atributos con funciones más amplias.
+
+## 11. Identificación y firma en la Ley 39/2015
+
+La Ley 39/2015 distingue identificación y firma.
+
+### Identificación
+
+Las Administraciones verifican la identidad mediante sistemas admitidos, entre ellos:
+
+- certificados cualificados de firma;
 - certificados cualificados de sello;
-- sistemas de clave concertada u otros admitidos con registro previo.
+- sistemas de clave concertada u otros con registro previo.
 
-### 8.2. Firma
+### Firma obligatoria
 
-La firma se exige cuando sea necesario acreditar:
-
-- autenticidad de la voluntad;
-- consentimiento;
-- integridad e inalterabilidad del documento.
-
-Con carácter general, la firma es obligatoria para:
+Con carácter general, se exige firma para:
 
 - formular solicitudes;
 - presentar declaraciones responsables o comunicaciones;
@@ -171,114 +199,93 @@ Con carácter general, la firma es obligatoria para:
 - desistir de acciones;
 - renunciar a derechos.
 
-> ⚠️ **¡Foco Examen!:** Identificarse no equivale siempre a firmar. La firma solo se exige en los supuestos previstos legalmente.
+> ⚠️ **Foco examen:** identificarse no equivale siempre a firmar.
 
-## 9. Actuación administrativa automatizada y sellos
+## 12. Actuación administrativa automatizada
 
-Las Administraciones pueden utilizar sistemas de sello electrónico para actuaciones automatizadas y para garantizar autenticidad e integridad.
+Las Administraciones pueden utilizar:
 
-Los sistemas habituales incluyen:
-
-- sello electrónico basado en certificado cualificado;
+- sello electrónico de órgano;
 - código seguro de verificación;
 - firma electrónica del empleado público;
-- firma automatizada del órgano o entidad.
+- sistemas automatizados previstos legalmente.
 
 | Sistema | Uso habitual |
 |---|---|
 | Firma del empleado público | Actuación personal del funcionario |
 | Sello de órgano | Actuación automatizada o institucional |
-| Código seguro de verificación | Contraste mediante sede electrónica |
+| Código seguro de verificación | Contraste en sede electrónica |
 
-## 10. Soportes del certificado
-
-Los certificados y claves pueden alojarse en distintos soportes:
+## 13. Soportes de certificados y claves
 
 | Soporte | Características |
 |---|---|
-| Tarjeta criptográfica | Dispositivo físico con chip, como el DNI electrónico |
-| Token USB criptográfico | Custodia claves y ejecuta operaciones criptográficas |
-| Certificado software | Instalado en navegador, sistema o almacén de certificados |
-| Dispositivo remoto o en la nube | Claves gestionadas en infraestructura segura con autenticación reforzada |
-| Dispositivo móvil | Uso mediante aplicación, elemento seguro o firma remota |
+| Tarjeta criptográfica | Chip físico, como el DNI electrónico |
+| Token USB | Custodia claves y ejecuta operaciones criptográficas |
+| Certificado software | Instalado en navegador o almacén del sistema |
+| Dispositivo remoto o nube | Claves gestionadas en infraestructura segura |
+| Dispositivo móvil | Aplicación, elemento seguro o firma remota |
 
-La seguridad depende de la protección de la clave privada, del control exclusivo del firmante y de los mecanismos de autenticación.
+La seguridad depende de la protección de la clave privada, autenticación y control exclusivo. El soporte no determina por sí solo el nivel jurídico de la firma.
 
-> ⚠️ **¡Foco Examen!:** El soporte no determina por sí solo que la firma sea cualificada; también importan el certificado y el dispositivo de creación utilizado.
+## 14. Autoridades certificadoras y servicios
 
-## 11. Autoridades certificadoras y servicios prestados
+La expresión tradicional «autoridad certificadora» corresponde hoy a los prestadores de servicios de confianza que expiden certificados o prestan servicios relacionados.
 
-La expresión tradicional «autoridad certificadora» se corresponde actualmente con los **prestadores de servicios de confianza** que expiden certificados.
-
-Sus servicios pueden comprender:
+Pueden ofrecer:
 
 - expedición y renovación de certificados;
 - identificación del solicitante;
-- validación del estado de certificados;
-- suspensión y revocación;
+- consulta, suspensión y revocación;
+- validación de firma y sello;
 - sellado de tiempo;
-- conservación de firmas y sellos;
-- autenticación de sitios web;
 - entrega electrónica certificada;
-- atención al usuario y publicación de políticas de certificación.
+- conservación y archivo electrónico;
+- autenticación de sitios web;
+- declaraciones de atributos;
+- gestión remota de dispositivos;
+- libros mayores electrónicos.
 
-En España existen prestadores públicos y privados incluidos en la Lista de confianza cuando sus servicios tienen condición cualificada.
+## 15. Responsabilidad y cese
 
-## 12. Responsabilidad
-
-Los prestadores responden por los daños causados de forma intencionada o negligente por incumplimiento de sus obligaciones.
-
-En los prestadores cualificados existe una presunción reforzada de responsabilidad, sin perjuicio de la prueba de que el daño no fue causado de forma intencionada o negligente.
-
-También pueden establecer límites de uso del certificado, siempre que sean reconocibles por terceros.
-
-## 13. Conservación y cese de actividad
-
-Los prestadores deben conservar la información necesaria durante el periodo legalmente exigible y adoptar medidas para garantizar la continuidad o finalización ordenada del servicio.
-
-En caso de cese deben:
+Los prestadores responden por daños causados intencionadamente o por negligencia en el incumplimiento de sus obligaciones. En caso de cese deben:
 
 - comunicarlo a usuarios y autoridad competente;
-- garantizar la conservación de datos relevantes;
+- asegurar conservación de datos relevantes;
 - transferir servicios o registros cuando proceda;
 - mantener accesible la información sobre certificados revocados o expirados.
 
-## 14. Tabla final de conceptos test
+## 16. Tabla final de examen
 
 | Concepto | Regla |
 |---|---|
-| Entrada en vigor de la Ley 6/2020 | **13 de noviembre de 2020** |
+| Ley 6/2020 | Entró en vigor el 13 de noviembre de 2020 |
+| eIDAS 2 | Reglamento (UE) 2024/1183 |
 | Firma equivalente a manuscrita | Firma electrónica cualificada |
-| Firma avanzada | Identifica, vincula, controla y detecta cambios |
 | Titular típico de firma | Persona física |
 | Titular típico de sello | Persona jurídica |
-| Certificado | Vincula identidad y datos de validación |
 | Lista de confianza | Identifica prestadores y servicios cualificados |
-| Solicitudes y recursos | Requieren firma |
+| Archivo cualificado | Presunción de integridad y origen |
+| Libro mayor cualificado | Presunción de orden cronológico e integridad |
+| Declaración de atributos | Acredita atributos concretos |
+| Cartera europea | Identidad, atributos y acceso transfronterizo |
 | Identificación | No siempre exige firma |
-| CSV | Permite contrastar autenticidad en sede electrónica |
+| CSV | Permite contraste en sede electrónica |
 
-## 15. Esquema final
+## 17. Esquema final
 
 ```text
 SERVICIOS DE CONFIANZA
-├─ Firma electrónica
-│  ├─ Simple
-│  ├─ Avanzada
-│  └─ Cualificada = firma manuscrita
-├─ Sello electrónico
+├─ Firma y sello
+├─ Certificados y validación
 ├─ Sello de tiempo
-├─ Entrega certificada
-├─ Certificado web
-└─ Conservación
-
-CERTIFICADOS
-├─ Firma: persona física
-├─ Sello: persona jurídica
-├─ Sitio web
-├─ Vigencia
-├─ Suspensión
-└─ Revocación
+├─ Entrega electrónica certificada
+├─ Autenticación web
+├─ Conservación
+├─ Gestión remota de dispositivos
+├─ Declaraciones de atributos
+├─ Archivo electrónico
+└─ Libros mayores electrónicos
 
 ADMINISTRACIÓN ELECTRÓNICA
 ├─ Identificación
@@ -288,4 +295,4 @@ ADMINISTRACIÓN ELECTRÓNICA
 └─ Actuación automatizada
 ```
 
-> ⚠️ **¡Foco Examen!:** Las confusiones más frecuentes son equiparar identificación y firma, confundir certificado con firma, y atribuir a toda firma electrónica el efecto equivalente a la manuscrita.
+> ⚠️ **Foco examen:** las confusiones más frecuentes son equiparar identificación y firma, confundir certificado con firma, atribuir a toda firma electrónica el efecto de la manuscrita y olvidar los nuevos servicios incorporados por eIDAS 2.
