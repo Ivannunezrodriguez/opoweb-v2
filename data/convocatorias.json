@@ -1,5 +1,5 @@
 {
-  "actualizadoEl": "2026-07-23",
+  "actualizadoEl": "2026-07-24",
   "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará. Las convocatorias descartadas no reciben desarrollo editorial ni mantenimiento activo.",
   "convocatorias": [
     {
@@ -11,7 +11,7 @@
       "temas": 19,
       "ruta": "./",
       "inscripcion": {"fechaSolicitud":"2026-05-28","tasaEuros":7,"fechaPago":"2026-05-27","justificantePrivadoVerificado":true},
-      "seguimientoVerificadoEl": "2026-07-23",
+      "seguimientoVerificadoEl": "2026-07-24",
       "ultimaComprobacion": "La inscripción está acreditada mediante recibo de registro y justificante de pago aportados por el usuario. No consta todavía una lista provisional oficial verificada.",
       "incidenciaCorregida": "El manual fuente del Tema 6 ya recoge el máximo correcto de cuatro años para programas temporales y se ha retirado el parche transitorio de interfaz."
     },
@@ -28,8 +28,8 @@
       "publicacionBOE": {"referencia":"BOE-A-2026-14527","numero":162,"fecha":"2026-07-04"},
       "plazoSolicitudes": {"desde":"2026-07-06","hasta":"2026-07-31","estado":"ABIERTO"},
       "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1961/7080/rrhh-seleccion-convocatoria/1",
-      "seguimientoVerificadoEl": "2026-07-23",
-      "ultimaComprobacion": "Continúa el periodo de solicitudes hasta el 31 de julio de 2026. No consta en el seguimiento registrado una lista provisional posterior.",
+      "seguimientoVerificadoEl": "2026-07-24",
+      "ultimaComprobacion": "El portal oficial mantiene abierto el periodo de solicitudes hasta el 31 de julio de 2026. No consta lista provisional de esta convocatoria.",
       "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22"
     },
     {
@@ -41,14 +41,20 @@
       "temas": 20,
       "temasConManualFuentesMatrizPreguntas": 20,
       "plazas": 34,
+      "plazasReservaDiscapacidad": 2,
+      "sistema": "CONCURSO_OPOSICION_LIBRE",
       "fuentePrincipal": "Resolución de 30 de junio de 2026; BOE-A-2026-14624 y anuncio en BOCM de 8 de julio de 2026",
-      "seguimientoVerificadoEl": "2026-07-23",
-      "ultimaComprobacion": "Programa cubierto 20 de 20. La revisión transversal ha corregido los temas 14, 15, 16 y 19; el Tema 16 ya incorpora las reglas concretas UC3M de ECTS, tiempo parcial, permanencia, convocatorias y evaluación.",
+      "plazoSolicitudes": {"desde":"2026-07-09","hasta":"2026-08-05","estado":"ABIERTO"},
+      "fechaPrevisibleEjercicio": {"fecha":"2026-11-21","hora":"10:00","caracter":"PREVISIBLE"},
+      "fuenteSeguimiento": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
+      "seguimientoVerificadoEl": "2026-07-24",
+      "ultimaComprobacion": "El portal oficial UC3M mantiene abierto el plazo de solicitudes del 9 de julio al 5 de agosto de 2026 y publica como fecha previsible del ejercicio el sábado 21 de noviembre de 2026 a las 10:00 horas.",
       "incidenciasCorregidas": [
         "Tema 14: faltaban la propuesta del presupuesto por el Consejo de Gobierno, su aprobación por el Consejo Social y la reserva mínima del 5 % para programas propios de investigación.",
         "Tema 15: faltaban las reglas estatutarias de propuesta y elección del Defensor, mayoría, mandato, reelección, Adjunto, memoria anual y órgano asesor.",
         "Tema 16: matrícula, permanencia y evaluación se describían sin los umbrales específicos publicados por la UC3M.",
-        "Tema 19: las fuentes y la matriz trataban la Ley 9/1990 como vigente, aunque quedó derogada desde el 1 de enero de 2026."
+        "Tema 19: las fuentes y la matriz trataban la Ley 9/1990 como vigente, aunque quedó derogada desde el 1 de enero de 2026.",
+        "Seguimiento: faltaban el plazo oficial de solicitudes hasta el 5 de agosto de 2026 y la fecha previsible del ejercicio del 21 de noviembre de 2026 a las 10:00."
       ]
     },
     {
@@ -64,8 +70,8 @@
       "plazoSolicitudes": {"desde":"2026-01-20","hasta":"2026-02-16","estado":"CERRADO"},
       "oposicion": {"primerEjercicio":"80 preguntas más 5 de reserva, 90 minutos, penalización 0,08","segundoEjercicio":"Uno o varios supuestos prácticos sobre los temas 3 a 20"},
       "concursoMaximoPuntos": 8,
-      "seguimientoVerificadoEl": "2026-07-23",
-      "ultimaComprobacion": "Se han incorporado al registro las bases íntegras y el extracto del BOE aportados por el usuario. No consta una publicación posterior verificada en las fuentes consultadas."
+      "seguimientoVerificadoEl": "2026-07-24",
+      "ultimaComprobacion": "Se mantienen registradas las bases íntegras y el extracto del BOE aportados por el usuario. No consta una publicación posterior oficial verificada."
     },
     {
       "id": "cpeis-toledo-auxiliar-administrativo-2026",
@@ -80,7 +86,7 @@
       "publicacionBOE": {"referencia":"BOE-A-2026-14923","numero":166,"fecha":"2026-07-09"},
       "plazoSolicitudes": {"desde":"2026-07-10","hasta":"2026-08-06","estado":"ABIERTO","fuenteFechaExacta":"Portal oficial de empleo y formulario de admisión del CPEIS Toledo"},
       "fuenteSeguimiento": "https://cpeistoledo.es/empleo-formacion/",
-      "seguimientoVerificadoEl": "2026-07-23",
+      "seguimientoVerificadoEl": "2026-07-24",
       "ultimaComprobacion": "Se mantiene la convocatoria registrada y el plazo hasta el 6 de agosto de 2026; no se inicia temario sin decisión del usuario.",
       "nota": "Convocatoria oficial detectada; no se inicia desarrollo editorial hasta que el usuario confirme si desea presentarse."
     },
