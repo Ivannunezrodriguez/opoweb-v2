@@ -28,18 +28,19 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 6 | EN_REVISION | Cobertura coherente de personal, OEP, selección, carrera, promoción y provisión; incorpora la reforma de 2026 del art. 70.2; persisten portada histórica, varios `#`, estados y fechas desalineados y un esquema JSON distinto al de otros temas | Verificar contrato del frontend antes de unificar claves; después normalizar manual y metadatos |
 | 7 | EN_REVISION | Cobertura coherente de derechos y obligaciones preventivas, servicios de prevención, consulta y participación; 12 preguntas trazables; persisten portada histórica, varios `#`, llamadas, estados y fechas no homogéneos | Normalizar manual y metadatos sin alterar numeración ni referencias |
 | 8 | EN_REVISION | Cobertura completa de la Ley 12/2010 y de la LO 3/2007, con advertencias sobre preceptos modificados, derogados y reglas específicas de AGE; matriz y 12 preguntas trazables; persisten portada histórica, varios `#`, estados, fechas y llamadas no homogéneos | Normalizar manual y metadatos preservando la cobertura artículo por artículo y las referencias |
-| 9–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
+| 9 | EN_REVISION | Cobertura coherente de LOPDGDD y RGPD: principios, derechos, tratamientos, DPD, AEPD, procedimiento, sanciones públicas y derechos digitales; matriz y 12 preguntas trazables; persisten portada histórica, varios `#`, llamadas, estados y fechas desalineados | Normalizar manual y metadatos, alinear estado de `preguntas.json` y validar enlaces internos |
+| 10–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
 
-### Hallazgo transversal confirmado en los temas 1 a 8
+### Hallazgo transversal confirmado en los temas 1 a 9
 
-Los ocho primeros manuales conservan elementos de reconstrucción interna que no aportan contenido de examen:
+Los nueve primeros manuales conservan elementos de reconstrucción interna que no aportan contenido de examen:
 
 - el sufijo «Manual reconstruido» en el título;
 - estados en mayúsculas no alineados con los estados permitidos del proyecto;
-- mensajes internos sobre el proceso de reconstrucción;
+- mensajes internos sobre el proceso de reconstrucción en varios temas;
 - encabezados de parte con nivel `#`, pese a que debe existir un único título principal.
 
-En los temas 3 a 8 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
+En los temas 3 a 9 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
 
 El Tema 6 añade una incidencia técnica: su banco usa las claves `pregunta`, `correcta` y `trampa`, mientras otros temas usan `enunciado`, `respuestaCorrecta` y `trampaExamen`. La normalización debe esperar a verificar el contrato real del frontend.
 
