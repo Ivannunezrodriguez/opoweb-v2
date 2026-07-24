@@ -1,0 +1,37 @@
+name: Publish OpoWeb v0.27.20
+
+on:
+  push:
+    paths:
+      - '.github/workflows/bump-v02720.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bump interface and cache version
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          changes = {
+              Path('index.html'): ('v0.27.19', 'v0.27.20'),
+              Path('sw.js'): ('opoweb-v2-0.27.19', 'opoweb-v2-0.27.20'),
+          }
+          for path, (old, new) in changes.items():
+              text = path.read_text(encoding='utf-8')
+              if old not in text:
+                  raise SystemExit(f'No se encontró {old} en {path}')
+              path.write_text(text.replace(old, new), encoding='utf-8')
+          PY
+      - name: Commit publication
+        run: |
+          git config user.name 'opoweb-audit-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add index.html sw.js
+          git commit -m 'Publica OpoWeb v0.27.20'
+          git push
