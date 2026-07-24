@@ -24,18 +24,19 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 2 | EN_REVISION | Repite el mismo patrón de portada histórica y encabezados de parte con `#`; mapa normativo correcto y útil | Aplicar la misma normalización editorial del Tema 1 |
 | 3 | EN_REVISION | Cobertura jurídica correcta de los arts. 53–105 LPAC; matriz y preguntas trazables; persisten portada histórica, varios `#`, llamadas de examen no homogéneas y estado antiguo en `preguntas.json` | Normalizar manual y metadatos preservando numeración y referencias |
 | 4 | EN_REVISION | Cobertura correcta de los arts. 106–126 LPAC y complemento local de los arts. 52–53 LRBRL; preguntas trazables; persisten portada histórica, varios `#`, llamadas destacadas no homogéneas y estado antiguo en `preguntas.json` | Normalizar manual y metadatos sin alterar referencias internas |
-| 5–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
+| 5 | EN_REVISION | Cobertura coherente de municipio, provincia, competencias y régimen electoral local; 12 preguntas trazables; persisten portada histórica, varios `#`, llamadas no homogéneas y estado antiguo en `preguntas.json` | Aplicar normalización editorial sin alterar contenido ni referencias |
+| 6–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
 
-### Hallazgo transversal confirmado en los temas 1 a 4
+### Hallazgo transversal confirmado en los temas 1 a 5
 
-Los cuatro primeros manuales conservan elementos de reconstrucción interna que no aportan contenido de examen:
+Los cinco primeros manuales conservan elementos de reconstrucción interna que no aportan contenido de examen:
 
 - el sufijo «Manual reconstruido» en el título;
 - estados en mayúsculas no alineados con los estados permitidos del proyecto;
 - mensajes internos sobre el proceso de reconstrucción;
 - encabezados de parte con nivel `#`, pese a que debe existir un único título principal.
 
-En los temas 3 y 4 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
+En los temas 3 a 5 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
 
 La corrección se aplicará como patrón al resto de La Puebla, preservando íntegramente el contenido jurídico y la trazabilidad normativa.
 
