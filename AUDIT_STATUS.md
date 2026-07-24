@@ -2,7 +2,29 @@
 
 Última actualización: **24 de julio de 2026**.
 
+## Fase 2 · revisión transversal
+
+Estado: **EN_AUDITORIA**.
+
+Se ha iniciado formalmente la revisión transversal de todos los contenidos publicados. El patrón editorial común queda fijado en `EDITORIAL_GUIDE.md` y será aplicado por bloques para:
+
+- unificar estructura, encabezados y estilo;
+- homogeneizar tablas y esquemas;
+- eliminar duplicidades relevantes;
+- revisar enlaces internos;
+- comprobar la trazabilidad de preguntas y supuestos;
+- mantener la vigencia jurídica de cada tema.
+
+La fase 2 no se considerará cerrada hasta que todos los proyectos activos superen el control editorial y jurídico transversal.
+
 ## Cambios reales de esta revisión
+
+### Inicio de la fase 2
+
+- Creada `EDITORIAL_GUIDE.md` como norma común de maquetación y revisión.
+- Definidos los criterios mínimos de cierre transversal por tema.
+- Prioridad de revisión: La Puebla, UC3M y Diputación de Toledo.
+- Carranque y Las Ventas con Peña Aguilera quedan fuera del seguimiento activo por decisión del usuario.
 
 ### UC3M · seguimiento oficial de la convocatoria
 
@@ -32,7 +54,6 @@ Correcciones transversales acumuladas:
 
 - Diputación de Toledo: continúa abierto el plazo de solicitudes hasta el **31 de julio de 2026**; no consta lista provisional de esta convocatoria.
 - La Puebla de Montalbán: no consta lista provisional oficial verificada.
-- Carranque: no consta nueva publicación oficial verificada.
 - CPEIS Toledo: continúa abierto el plazo hasta el **6 de agosto de 2026**.
 
 ## Estado de convocatorias activas
@@ -42,6 +63,7 @@ Correcciones transversales acumuladas:
 - Inscripción verificada documentalmente.
 - Programa oficial de **19 temas**.
 - Estado editorial: **completo**.
+- Estado fase 2: **pendiente de revisión transversal completa**.
 - No consta todavía lista provisional oficial verificada.
 
 ### Diputación Provincial de Toledo · Administrativo C1
@@ -50,6 +72,7 @@ Correcciones transversales acumuladas:
 - Solicitudes abiertas hasta el **31 de julio de 2026**.
 - Estado editorial: **40 de 40 temas**.
 - Tema 31 alineado con eIDAS 2.
+- Estado fase 2: **en revisión transversal**.
 - Pendiente crítico: fuente oficial íntegra y vigente de los Estatutos del OAPGT.
 
 ### Universidad Carlos III de Madrid · Auxiliar Administrativa C2
@@ -58,13 +81,8 @@ Correcciones transversales acumuladas:
 - Sistema: concurso-oposición libre.
 - Solicitudes hasta el **5 de agosto de 2026**.
 - Ejercicio previsto para el **21 de noviembre de 2026 a las 10:00 horas**.
-- Estado editorial: **20 de 20 temas** en revisión transversal.
-
-### Carranque · Auxiliar Administrativo C2
-
-- Usuario inscrito.
-- Seguimiento en mantenimiento.
-- No consta publicación posterior oficial verificada.
+- Estado editorial: **20 de 20 temas**.
+- Estado fase 2: **en revisión transversal**.
 
 ### CPEIS Toledo
 
@@ -74,18 +92,19 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 - **1 plaza** de Administrativo C1;
 - plazo hasta el **6 de agosto de 2026**.
 
-### Las Ventas con Peña Aguilera
+### Convocatorias archivadas
 
-Convocatoria archivada porque el usuario confirmó que no se presentará.
+- Carranque: archivada por decisión del usuario.
+- Las Ventas con Peña Aguilera: archivada porque el usuario confirmó que no se presentará.
 
 ## Estado por proyectos
 
-| Proyecto | Cobertura editorial | Estado jurídico |
+| Proyecto | Cobertura editorial | Estado fase 2 |
 |---|---:|---|
-| La Puebla | **19/19** | Completa |
-| Diputación C1 | **40/40** | Tema 31 actualizado a eIDAS 2; OAPGT pendiente |
-| UC3M C2 | **20/20** | Revisión transversal activa; seguimiento oficial actualizado |
-| CPEIS | Solo seguimiento | Pendiente de decisión del usuario |
+| La Puebla | **19/19** | Pendiente de pasada transversal completa |
+| Diputación C1 | **40/40** | En revisión; OAPGT pendiente |
+| UC3M C2 | **20/20** | En revisión transversal |
+| CPEIS | Solo seguimiento | Fuera de la fase editorial |
 
 ## Versión de publicación
 
@@ -95,8 +114,8 @@ Convocatoria archivada porque el usuario confirmó que no se presentará.
 
 ## Orden de trabajo vigente
 
-1. Continuar la revisión transversal final de los **20 temas UC3M**.
-2. Mantener seguimiento de Diputación hasta el **31 de julio de 2026**.
-3. Mantener seguimiento de UC3M hasta el **5 de agosto de 2026** y posterior publicación de admitidos.
-4. Mantener seguimiento del CPEIS hasta el **6 de agosto de 2026** o hasta decisión del usuario.
+1. Aplicar `EDITORIAL_GUIDE.md` a los **19 temas de La Puebla**.
+2. Completar la revisión transversal de los **20 temas UC3M**.
+3. Revisar transversalmente los **40 temas de Diputación**.
+4. Mantener seguimiento oficial de La Puebla, Diputación y UC3M.
 5. Cerrar OAPGT únicamente con fuente oficial íntegra y verificable.
