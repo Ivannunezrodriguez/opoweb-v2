@@ -6,7 +6,9 @@
 
 Estado: **EN_AUDITORIA**.
 
-Se ha iniciado formalmente la revisión transversal de todos los contenidos publicados. El patrón editorial común queda fijado en `EDITORIAL_GUIDE.md` y será aplicado por bloques para:
+Se ha iniciado formalmente la revisión transversal de todos los contenidos publicados. El patrón editorial común queda fijado en `EDITORIAL_GUIDE.md` y el avance verificable se registra en `TRANSVERSAL_REVIEW.md`.
+
+La revisión se aplica por bloques para:
 
 - unificar estructura, encabezados y estilo;
 - homogeneizar tablas y esquemas;
@@ -18,6 +20,17 @@ Se ha iniciado formalmente la revisión transversal de todos los contenidos publ
 La fase 2 no se considerará cerrada hasta que todos los proyectos activos superen el control editorial y jurídico transversal.
 
 ## Cambios reales de esta revisión
+
+### La Puebla · inicio de la pasada sistemática
+
+- Temas 1 y 2 incorporados al control transversal como `EN_REVISION`.
+- Confirmado un patrón editorial común que debe corregirse sin alterar el contenido jurídico:
+  - sufijo histórico «Manual reconstruido»;
+  - estados editoriales en mayúsculas no normalizados;
+  - mensajes internos del proceso de reconstrucción visibles en el manual;
+  - varios encabezados de nivel `#` dentro de un mismo documento.
+- Creado `TRANSVERSAL_REVIEW.md` para impedir cierres por estimación y registrar cada tema con evidencias.
+- Los temas 3 a 19 permanecen pendientes de pasada sistemática.
 
 ### Inicio de la fase 2
 
@@ -63,7 +76,7 @@ Correcciones transversales acumuladas:
 - Inscripción verificada documentalmente.
 - Programa oficial de **19 temas**.
 - Estado editorial: **completo**.
-- Estado fase 2: **pendiente de revisión transversal completa**.
+- Estado fase 2: **temas 1 y 2 en revisión; temas 3–19 pendientes**.
 - No consta todavía lista provisional oficial verificada.
 
 ### Diputación Provincial de Toledo · Administrativo C1
@@ -101,7 +114,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 | Proyecto | Cobertura editorial | Estado fase 2 |
 |---|---:|---|
-| La Puebla | **19/19** | Pendiente de pasada transversal completa |
+| La Puebla | **19/19** | Temas 1–2 en revisión; 3–19 pendientes |
 | Diputación C1 | **40/40** | En revisión; OAPGT pendiente |
 | UC3M C2 | **20/20** | En revisión transversal |
 | CPEIS | Solo seguimiento | Fuera de la fase editorial |
@@ -114,7 +127,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 ## Orden de trabajo vigente
 
-1. Aplicar `EDITORIAL_GUIDE.md` a los **19 temas de La Puebla**.
+1. Normalizar los Temas 1 y 2 de La Puebla y aplicar el patrón al resto de sus **19 temas**.
 2. Completar la revisión transversal de los **20 temas UC3M**.
 3. Revisar transversalmente los **40 temas de Diputación**.
 4. Mantener seguimiento oficial de La Puebla, Diputación y UC3M.
