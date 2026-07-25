@@ -2,7 +2,7 @@
 
 **Estado:** APROBADO POR EL USUARIO  
 **Publicado tras aprobación expresa.**  
-**Fecha de revisión normativa:** 17 de julio de 2026.
+**Fecha de revisión normativa:** 25 de julio de 2026.
 
 > **Tema 11. La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.**
 
@@ -77,7 +77,7 @@ El tema 10 ya desarrolla obligaciones, obligados, deuda y procedimientos de gest
 - Manual modular: creado y aprobado.
 - Desarrollo artículo por artículo: distribuido en seis capítulos.
 - Matriz y trazabilidad: documentos separados.
-- Banco de preguntas: vacío y pendiente de revisión específica.
+- Banco de preguntas: **12 preguntas revisadas y alineadas con el estado aprobado**.
 - Revisión del usuario: aprobada el 17 de julio de 2026.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
