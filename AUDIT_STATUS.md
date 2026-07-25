@@ -21,20 +21,21 @@ La fase 2 no se considerará cerrada hasta que todos los proyectos activos super
 
 ## Cambios reales de esta revisión
 
-### La Puebla · Temas 10–14
+### La Puebla · Temas 10–15
 
 - Tema 10: revisados `manual.md`, `matriz.json` y `preguntas.json`; vigencia del TRLRHL y de la LGT contrastada; corregido el estado antiguo del banco.
 - Tema 11: revisada la recaudación voluntaria y ejecutiva, aplazamiento, compensación, devoluciones y apremio; corregidos el estado del banco y la afirmación errónea de que estaba vacío.
 - Tema 12: revisadas las normas generales de los tributos locales, IBI, IAE, IVTM e IIVTNU; contrastado el TRLRHL consolidado, cuya última actualización publicada es de **3 de junio de 2026**.
 - Tema 13: revisados certificados electrónicos, identificación, firma, tipos, soportes, prestadores, lista de confianza, validación y servicios de confianza; no se detectó error jurídico material.
-- Tema 14: revisados órganos administrativos, competencia, órganos colegiados, abstención, recusación y estructura central, territorial y exterior de la Administración General del Estado.
-- En el Tema 14 se contrastó la Ley 40/2015, cuya última actualización consolidada publicada sigue siendo de **2 de agosto de 2024**, y la incorporación del artículo 55 bis por la Ley Orgánica 2/2024.
-- No se detectó error jurídico material en el Tema 14.
-- Corregido `content/la-puebla/tema-14/preguntas.json`: `GENERADO_PENDIENTE_REVISION_USUARIO` pasa a `APROBADO_USUARIO`, con versión **2026-07-25**.
-- Creada `content/la-puebla/tema-14/auditoria-transversal-2026-07-25.md`.
-- Permanece abierta en los Temas 13 y 14 la contradicción de sus manuales, que declaran vacío un banco con 12 preguntas; también queda pendiente validar enlaces modulares y normalizar títulos visibles.
+- Tema 14: revisados órganos administrativos, competencia, órganos colegiados, abstención, recusación y estructura central, territorial y exterior de la Administración General del Estado; corregido el estado antiguo del banco.
+- Tema 15: revisados Explorador de archivos, creación, copia, movimiento, borrado, unidades locales y de red, impresión y digitalización.
+- En el Tema 15 no se detectó error técnico material.
+- Corregido `content/la-puebla/tema-15/preguntas.json`: `GENERADO_PENDIENTE_REVISION_USUARIO` pasa a `APROBADO_USUARIO`, con versión **2026-07-25**.
+- Corregido `content/la-puebla/tema-15/manual.md`: el banco no está vacío; contiene **12 preguntas revisadas y trazables**.
+- Creada `content/la-puebla/tema-15/auditoria-transversal-2026-07-25.md`.
+- Permanecen abiertas en los Temas 13 y 14 las contradicciones de sus manuales, que declaran vacío un banco con 12 preguntas; también queda pendiente validar enlaces modulares y normalizar títulos visibles.
 
-Estado de La Puebla en fase 2: **temas 1–14 en revisión; temas 15–19 pendientes**.
+Estado de La Puebla en fase 2: **temas 1–15 en revisión; temas 16–19 pendientes**.
 
 ### Hallazgo editorial transversal
 
@@ -68,7 +69,7 @@ Comprobación realizada el **25 de julio de 2026**:
 - Inscripción verificada documentalmente.
 - Programa oficial de **19 temas**.
 - Estado editorial: **completo**.
-- Estado fase 2: **temas 1–14 en revisión; temas 15–19 pendientes**.
+- Estado fase 2: **temas 1–15 en revisión; temas 16–19 pendientes**.
 - No consta todavía lista provisional oficial verificada.
 
 ### Diputación Provincial de Toledo · Administrativo C1
@@ -106,7 +107,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 | Proyecto | Cobertura editorial | Estado fase 2 |
 |---|---:|---|
-| La Puebla | **19/19** | Temas 1–14 en revisión; 15–19 pendientes |
+| La Puebla | **19/19** | Temas 1–15 en revisión; 16–19 pendientes |
 | Diputación C1 | **40/40** | En revisión; OAPGT pendiente |
 | UC3M C2 | **20/20** | En revisión transversal |
 | CPEIS | Solo seguimiento | Fuera de la fase editorial |
@@ -119,7 +120,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 ## Orden de trabajo vigente
 
-1. Continuar la pasada sistemática de La Puebla desde el Tema 15.
+1. Continuar la pasada sistemática de La Puebla desde el Tema 16.
 2. Corregir las contradicciones editoriales abiertas en los Temas 13 y 14.
 3. Normalizar editorialmente los temas revisados sin romper referencias internas.
 4. Completar la revisión transversal de los **20 temas UC3M**.
