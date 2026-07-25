@@ -30,20 +30,23 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 8 | EN_REVISION | Cobertura completa de la Ley 12/2010 y de la LO 3/2007, con advertencias sobre preceptos modificados, derogados y reglas específicas de AGE; matriz y 12 preguntas trazables; persisten portada histórica, varios `#`, estados, fechas y llamadas no homogéneos | Normalizar manual y metadatos preservando la cobertura artículo por artículo y las referencias |
 | 9 | EN_REVISION | Cobertura coherente de LOPDGDD y RGPD: principios, derechos, tratamientos, DPD, AEPD, procedimiento, sanciones públicas y derechos digitales; matriz y 12 preguntas trazables; persisten portada histórica, varios `#`, llamadas, estados y fechas desalineados | Normalizar manual y metadatos, alinear estado de `preguntas.json` y validar enlaces internos |
 | 10 | EN_REVISION | Cobertura coherente de TRLRHL 6–12 y LGT 17–76 y 117–140; vigencia contrastada con BOE; se corrigió el estado desalineado de `preguntas.json`; persisten portada histórica, varios `#` y llamadas no homogéneas | Normalizar manual y validar enlaces internos preservando numeración y trazabilidad |
-| 11–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
+| 11 | EN_REVISION | Cobertura coherente de recaudación voluntaria y ejecutiva, aplazamiento, compensación, devoluciones y apremio; vigencia contrastada con BOE; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar portada y estados, revisar llamadas de los capítulos y validar todos los enlaces internos |
+| 12–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
 
-### Hallazgo transversal confirmado en los temas 1 a 10
+### Hallazgo transversal confirmado en los temas 1 a 11
 
-Los diez primeros manuales conservan elementos de reconstrucción interna que no aportan contenido de examen:
+Los once primeros manuales conservan elementos históricos que no aportan contenido de examen:
 
-- el sufijo «Manual reconstruido» en el título;
-- estados en mayúsculas no alineados con los estados permitidos del proyecto;
+- títulos como «Manual reconstruido» o «Manual modular»;
+- estados visibles no alineados con los estados permitidos del proyecto;
 - mensajes internos sobre el proceso de reconstrucción en varios temas;
-- encabezados de parte con nivel `#`, pese a que debe existir un único título principal.
+- encabezados de parte con nivel `#` en los manuales no modulares, pese a que debe existir un único título principal.
 
-En los temas 3 a 10 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
+En los temas 3 a 11 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
 
 El Tema 6 añade una incidencia técnica: su banco usa las claves `pregunta`, `correcta` y `trampa`, mientras otros temas usan `enunciado`, `respuestaCorrecta` y `trampaExamen`. La normalización debe esperar a verificar el contrato real del frontend.
+
+En el Tema 11 se corrigió una contradicción verificable: el manual declaraba vacío un banco que ya contenía 12 preguntas, y dicho banco mantenía un estado anterior a la aprobación.
 
 La corrección se aplicará como patrón al resto de La Puebla, preservando íntegramente el contenido jurídico y la trazabilidad normativa.
 
