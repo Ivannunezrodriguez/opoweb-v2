@@ -21,17 +21,17 @@ La fase 2 no se considerará cerrada hasta que todos los proyectos activos super
 
 ## Cambios reales de esta revisión
 
-### La Puebla · Temas 10–12
+### La Puebla · Temas 10–13
 
 - Tema 10: revisados `manual.md`, `matriz.json` y `preguntas.json`; vigencia del TRLRHL y de la LGT contrastada; corregido el estado antiguo del banco.
 - Tema 11: revisada la recaudación voluntaria y ejecutiva, aplazamiento, compensación, devoluciones y apremio; corregidos el estado del banco y la afirmación errónea de que estaba vacío.
 - Tema 12: revisadas las normas generales de los tributos locales, IBI, IAE, IVTM e IIVTNU; contrastado el TRLRHL consolidado, cuya última actualización publicada es de **3 de junio de 2026**.
-- En el Tema 12 no se detecta error jurídico material en naturaleza, hecho imponible, no sujeción y sujetos pasivos.
-- Corregido `content/la-puebla/tema-12/preguntas.json`: `GENERADO_PENDIENTE_REVISION_USUARIO` pasa a `APROBADO_USUARIO`, con versión **2026-07-25**.
-- Corregido `content/la-puebla/tema-12/manual.md`: el banco no está vacío; contiene **12 preguntas revisadas y trazables**.
-- Creada `content/la-puebla/tema-12/auditoria-transversal-2026-07-25.md`.
+- Tema 13: revisados certificados electrónicos, identificación, firma, tipos, soportes, prestadores, lista de confianza, validación y servicios de confianza.
+- En el Tema 13 se contrastó el Reglamento (UE) 2024/1183 y el Real Decreto 203/2021; no se detectó error jurídico material.
+- Se creó `content/la-puebla/tema-13/auditoria-transversal-2026-07-25.md`.
+- Permanece abierta en el Tema 13 la contradicción entre el manual, que declara vacío el banco, y `preguntas.json`, que contiene 12 preguntas; también queda pendiente normalizar el estado del banco y validar enlaces modulares.
 
-Estado de La Puebla en fase 2: **temas 1–12 en revisión; temas 13–19 pendientes**.
+Estado de La Puebla en fase 2: **temas 1–13 en revisión; temas 14–19 pendientes**.
 
 ### Hallazgo editorial transversal
 
@@ -65,7 +65,7 @@ Comprobación realizada el **25 de julio de 2026**:
 - Inscripción verificada documentalmente.
 - Programa oficial de **19 temas**.
 - Estado editorial: **completo**.
-- Estado fase 2: **temas 1–12 en revisión; temas 13–19 pendientes**.
+- Estado fase 2: **temas 1–13 en revisión; temas 14–19 pendientes**.
 - No consta todavía lista provisional oficial verificada.
 
 ### Diputación Provincial de Toledo · Administrativo C1
@@ -103,7 +103,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 | Proyecto | Cobertura editorial | Estado fase 2 |
 |---|---:|---|
-| La Puebla | **19/19** | Temas 1–12 en revisión; 13–19 pendientes |
+| La Puebla | **19/19** | Temas 1–13 en revisión; 14–19 pendientes |
 | Diputación C1 | **40/40** | En revisión; OAPGT pendiente |
 | UC3M C2 | **20/20** | En revisión transversal |
 | CPEIS | Solo seguimiento | Fuera de la fase editorial |
@@ -116,7 +116,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 ## Orden de trabajo vigente
 
-1. Continuar la pasada sistemática de La Puebla desde el Tema 13.
+1. Continuar la pasada sistemática de La Puebla desde el Tema 14.
 2. Normalizar editorialmente los temas revisados sin romper referencias internas.
 3. Completar la revisión transversal de los **20 temas UC3M**.
 4. Revisar transversalmente los **40 temas de Diputación**.
