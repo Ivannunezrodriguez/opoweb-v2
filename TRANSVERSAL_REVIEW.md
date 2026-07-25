@@ -1,6 +1,6 @@
 # Seguimiento de la revisión transversal · Fase 2
 
-Última actualización: **24 de julio de 2026**.
+Última actualización: **25 de julio de 2026**.
 
 Este documento registra el avance verificable de la fase 2. Un tema solo se marca como cerrado cuando supera todos los controles definidos en `EDITORIAL_GUIDE.md`.
 
@@ -29,18 +29,19 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 7 | EN_REVISION | Cobertura coherente de derechos y obligaciones preventivas, servicios de prevención, consulta y participación; 12 preguntas trazables; persisten portada histórica, varios `#`, llamadas, estados y fechas no homogéneos | Normalizar manual y metadatos sin alterar numeración ni referencias |
 | 8 | EN_REVISION | Cobertura completa de la Ley 12/2010 y de la LO 3/2007, con advertencias sobre preceptos modificados, derogados y reglas específicas de AGE; matriz y 12 preguntas trazables; persisten portada histórica, varios `#`, estados, fechas y llamadas no homogéneos | Normalizar manual y metadatos preservando la cobertura artículo por artículo y las referencias |
 | 9 | EN_REVISION | Cobertura coherente de LOPDGDD y RGPD: principios, derechos, tratamientos, DPD, AEPD, procedimiento, sanciones públicas y derechos digitales; matriz y 12 preguntas trazables; persisten portada histórica, varios `#`, llamadas, estados y fechas desalineados | Normalizar manual y metadatos, alinear estado de `preguntas.json` y validar enlaces internos |
-| 10–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
+| 10 | EN_REVISION | Cobertura coherente de TRLRHL 6–12 y LGT 17–76 y 117–140; vigencia contrastada con BOE; se corrigió el estado desalineado de `preguntas.json`; persisten portada histórica, varios `#` y llamadas no homogéneas | Normalizar manual y validar enlaces internos preservando numeración y trazabilidad |
+| 11–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
 
-### Hallazgo transversal confirmado en los temas 1 a 9
+### Hallazgo transversal confirmado en los temas 1 a 10
 
-Los nueve primeros manuales conservan elementos de reconstrucción interna que no aportan contenido de examen:
+Los diez primeros manuales conservan elementos de reconstrucción interna que no aportan contenido de examen:
 
 - el sufijo «Manual reconstruido» en el título;
 - estados en mayúsculas no alineados con los estados permitidos del proyecto;
 - mensajes internos sobre el proceso de reconstrucción en varios temas;
 - encabezados de parte con nivel `#`, pese a que debe existir un único título principal.
 
-En los temas 3 a 9 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
+En los temas 3 a 10 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
 
 El Tema 6 añade una incidencia técnica: su banco usa las claves `pregunta`, `correcta` y `trampa`, mientras otros temas usan `enunciado`, `respuestaCorrecta` y `trampaExamen`. La normalización debe esperar a verificar el contrato real del frontend.
 
