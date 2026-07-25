@@ -21,30 +21,24 @@ La fase 2 no se considerará cerrada hasta que todos los proyectos activos super
 
 ## Cambios reales de esta revisión
 
-### La Puebla · Tema 10
+### La Puebla · Temas 10–12
 
-- Revisados `manual.md`, `matriz.json` y `preguntas.json`.
-- Contrastado el bloque con el TRLRHL consolidado, cuya última actualización oficial publicada es de **3 de junio de 2026**.
-- Verificada la LGT consolidada, con última actualización publicada el **21 de diciembre de 2024**.
-- Confirmada la cobertura de:
-  - principios de tributación local;
-  - delegación y colaboración;
-  - beneficios fiscales y compensación;
-  - obligaciones y obligados tributarios;
-  - extinción de la deuda;
-  - procedimientos de gestión tributaria.
-- No se detecta error jurídico material en el contenido sustantivo.
-- Corregido `preguntas.json`: el estado antiguo `GENERADO_PENDIENTE_REVISION_USUARIO` se ha sustituido por `APROBADO_USUARIO` y se ha actualizado su versión a **25 de julio de 2026**.
-- Creada `content/la-puebla/tema-10/auditoria-transversal-2026-07-25.md`.
+- Tema 10: revisados `manual.md`, `matriz.json` y `preguntas.json`; vigencia del TRLRHL y de la LGT contrastada; corregido el estado antiguo del banco.
+- Tema 11: revisada la recaudación voluntaria y ejecutiva, aplazamiento, compensación, devoluciones y apremio; corregidos el estado del banco y la afirmación errónea de que estaba vacío.
+- Tema 12: revisadas las normas generales de los tributos locales, IBI, IAE, IVTM e IIVTNU; contrastado el TRLRHL consolidado, cuya última actualización publicada es de **3 de junio de 2026**.
+- En el Tema 12 no se detecta error jurídico material en naturaleza, hecho imponible, no sujeción y sujetos pasivos.
+- Corregido `content/la-puebla/tema-12/preguntas.json`: `GENERADO_PENDIENTE_REVISION_USUARIO` pasa a `APROBADO_USUARIO`, con versión **2026-07-25**.
+- Corregido `content/la-puebla/tema-12/manual.md`: el banco no está vacío; contiene **12 preguntas revisadas y trazables**.
+- Creada `content/la-puebla/tema-12/auditoria-transversal-2026-07-25.md`.
 
-Estado de La Puebla en fase 2: **temas 1–10 en revisión; temas 11–19 pendientes**.
+Estado de La Puebla en fase 2: **temas 1–12 en revisión; temas 13–19 pendientes**.
 
 ### Hallazgo editorial transversal
 
 Los temas revisados mantienen, con distinta intensidad:
 
-- el sufijo histórico «Manual reconstruido»;
-- varios encabezados `#` dentro del mismo manual;
+- títulos históricos como «Manual reconstruido» o «Manual modular»;
+- varios encabezados `#` dentro de manuales no modulares;
 - estados o fechas desalineados entre manual, matriz y banco;
 - llamadas destacadas diferentes del patrón `> ⚠️ **¡Foco Examen!:**`;
 - metadatos internos de reconstrucción que no deben formar parte del material final de estudio.
@@ -60,7 +54,7 @@ Comprobación realizada el **25 de julio de 2026**:
 - CPEIS Toledo: permanecen abiertos hasta el **6 de agosto de 2026** los procesos de **4 plazas de Auxiliar Administrativo C2** y **1 plaza de Administrativo C1**.
 - La Puebla de Montalbán: no consta lista provisional oficial verificada.
 
-`data/convocatorias.json` queda actualizado con esta comprobación.
+`data/convocatorias.json` mantiene esta comprobación.
 
 > ⚠️ **¡Foco Examen!:** La fecha de la UC3M del **21 de noviembre de 2026** sigue siendo **previsible**, no una citación definitiva del ejercicio.
 
@@ -71,7 +65,7 @@ Comprobación realizada el **25 de julio de 2026**:
 - Inscripción verificada documentalmente.
 - Programa oficial de **19 temas**.
 - Estado editorial: **completo**.
-- Estado fase 2: **temas 1–10 en revisión; temas 11–19 pendientes**.
+- Estado fase 2: **temas 1–12 en revisión; temas 13–19 pendientes**.
 - No consta todavía lista provisional oficial verificada.
 
 ### Diputación Provincial de Toledo · Administrativo C1
@@ -109,7 +103,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 | Proyecto | Cobertura editorial | Estado fase 2 |
 |---|---:|---|
-| La Puebla | **19/19** | Temas 1–10 en revisión; 11–19 pendientes |
+| La Puebla | **19/19** | Temas 1–12 en revisión; 13–19 pendientes |
 | Diputación C1 | **40/40** | En revisión; OAPGT pendiente |
 | UC3M C2 | **20/20** | En revisión transversal |
 | CPEIS | Solo seguimiento | Fuera de la fase editorial |
@@ -122,7 +116,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 ## Orden de trabajo vigente
 
-1. Continuar la pasada sistemática de La Puebla desde el Tema 11.
+1. Continuar la pasada sistemática de La Puebla desde el Tema 13.
 2. Normalizar editorialmente los temas revisados sin romper referencias internas.
 3. Completar la revisión transversal de los **20 temas UC3M**.
 4. Revisar transversalmente los **40 temas de Diputación**.
