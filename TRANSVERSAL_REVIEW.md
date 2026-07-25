@@ -32,22 +32,23 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 10 | EN_REVISION | Cobertura coherente de TRLRHL 6–12 y LGT 17–76 y 117–140; vigencia contrastada con BOE; se corrigió el estado desalineado de `preguntas.json`; persisten portada histórica, varios `#` y llamadas no homogéneas | Normalizar manual y validar enlaces internos preservando numeración y trazabilidad |
 | 11 | EN_REVISION | Cobertura coherente de recaudación voluntaria y ejecutiva, aplazamiento, compensación, devoluciones y apremio; vigencia contrastada con BOE; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar portada y estados, revisar llamadas de los capítulos y validar todos los enlaces internos |
 | 12 | EN_REVISION | Cobertura coherente de normas generales, IBI, IAE, IVTM e IIVTNU; vigencia contrastada con el TRLRHL actualizado a 03/06/2026; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y estado visibles, revisar llamadas y validar enlaces de los bloques modulares |
-| 13–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
+| 13 | EN_REVISION | Cobertura coherente de certificados, identificación, firma, soportes, prestadores y servicios de confianza; eIDAS 2 y RD 203/2021 contrastados; el manual declara vacío un banco con 12 preguntas y el banco mantiene estado anterior a la aprobación | Corregir la contradicción y el estado del banco, normalizar título y validar enlaces de los cinco bloques |
+| 14–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
 
-### Hallazgo transversal confirmado en los temas 1 a 12
+### Hallazgo transversal confirmado en los temas 1 a 13
 
-Los doce primeros manuales conservan elementos históricos que no aportan contenido de examen:
+Los trece primeros manuales conservan elementos históricos que no aportan contenido de examen:
 
 - títulos como «Manual reconstruido» o «Manual modular»;
 - estados visibles no alineados con los estados permitidos del proyecto;
 - mensajes internos sobre el proceso de reconstrucción en varios temas;
 - encabezados de parte con nivel `#` en los manuales no modulares, pese a que debe existir un único título principal.
 
-En los temas 3 a 12 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
+En los temas 3 a 13 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
 
 El Tema 6 añade una incidencia técnica: su banco usa las claves `pregunta`, `correcta` y `trampa`, mientras otros temas usan `enunciado`, `respuestaCorrecta` y `trampaExamen`. La normalización debe esperar a verificar el contrato real del frontend.
 
-En los Temas 11 y 12 se corrigió una contradicción verificable: sus manuales declaraban vacío un banco que ya contenía 12 preguntas, y dichos bancos mantenían un estado anterior a la aprobación.
+En los Temas 11, 12 y 13 se confirmó una contradicción verificable: sus manuales declaraban vacío un banco que ya contenía 12 preguntas. En los Temas 11 y 12 se corrigió; en el Tema 13 permanece pendiente junto con el estado anterior a la aprobación.
 
 La corrección se aplicará como patrón al resto de La Puebla, preservando íntegramente el contenido jurídico y la trazabilidad normativa.
 
