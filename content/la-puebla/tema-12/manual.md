@@ -2,7 +2,7 @@
 
 **Estado:** APROBADO POR EL USUARIO  
 **Publicado como tema aprobado.**  
-**Fecha de revisión normativa:** 18 de julio de 2026.
+**Fecha de revisión normativa:** 25 de julio de 2026.
 
 > **Tema 12. Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.**
 
@@ -89,8 +89,9 @@ No siempre coinciden. En el IBI puede ser sujeto el concesionario, superficiario
 - Manual modular: aprobado.
 - Cinco bloques jurídicos: aprobados.
 - Matriz y trazabilidad: incorporadas.
-- Banco de preguntas: vacío y pendiente de revisión trazable.
+- Banco de preguntas: **12 preguntas revisadas, trazables y alineadas con el estado aprobado**.
 - Revisión del usuario: aprobada el 18 de julio de 2026.
+- Revisión transversal jurídica y editorial: realizada el 25 de julio de 2026.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
 
