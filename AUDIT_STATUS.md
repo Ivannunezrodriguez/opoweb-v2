@@ -1,12 +1,12 @@
 # Estado de auditoría · OpoWeb v2
 
-Última actualización: **24 de julio de 2026**.
+Última actualización: **25 de julio de 2026**.
 
 ## Fase 2 · revisión transversal
 
 Estado: **EN_AUDITORIA**.
 
-Se ha iniciado formalmente la revisión transversal de todos los contenidos publicados. El patrón editorial común queda fijado en `EDITORIAL_GUIDE.md` y el avance verificable se registra en `TRANSVERSAL_REVIEW.md`.
+El patrón editorial común está definido en `EDITORIAL_GUIDE.md` y el avance verificable se registra en `TRANSVERSAL_REVIEW.md`.
 
 La revisión se aplica por bloques para:
 
@@ -21,53 +21,48 @@ La fase 2 no se considerará cerrada hasta que todos los proyectos activos super
 
 ## Cambios reales de esta revisión
 
-### La Puebla · inicio de la pasada sistemática
+### La Puebla · Tema 10
 
-- Temas 1 y 2 incorporados al control transversal como `EN_REVISION`.
-- Confirmado un patrón editorial común que debe corregirse sin alterar el contenido jurídico:
-  - sufijo histórico «Manual reconstruido»;
-  - estados editoriales en mayúsculas no normalizados;
-  - mensajes internos del proceso de reconstrucción visibles en el manual;
-  - varios encabezados de nivel `#` dentro de un mismo documento.
-- Creado `TRANSVERSAL_REVIEW.md` para impedir cierres por estimación y registrar cada tema con evidencias.
-- Los temas 3 a 19 permanecen pendientes de pasada sistemática.
+- Revisados `manual.md`, `matriz.json` y `preguntas.json`.
+- Contrastado el bloque con el TRLRHL consolidado, cuya última actualización oficial publicada es de **3 de junio de 2026**.
+- Verificada la LGT consolidada, con última actualización publicada el **21 de diciembre de 2024**.
+- Confirmada la cobertura de:
+  - principios de tributación local;
+  - delegación y colaboración;
+  - beneficios fiscales y compensación;
+  - obligaciones y obligados tributarios;
+  - extinción de la deuda;
+  - procedimientos de gestión tributaria.
+- No se detecta error jurídico material en el contenido sustantivo.
+- Corregido `preguntas.json`: el estado antiguo `GENERADO_PENDIENTE_REVISION_USUARIO` se ha sustituido por `APROBADO_USUARIO` y se ha actualizado su versión a **25 de julio de 2026**.
+- Creada `content/la-puebla/tema-10/auditoria-transversal-2026-07-25.md`.
 
-### Inicio de la fase 2
+Estado de La Puebla en fase 2: **temas 1–10 en revisión; temas 11–19 pendientes**.
 
-- Creada `EDITORIAL_GUIDE.md` como norma común de maquetación y revisión.
-- Definidos los criterios mínimos de cierre transversal por tema.
-- Prioridad de revisión: La Puebla, UC3M y Diputación de Toledo.
-- Carranque y Las Ventas con Peña Aguilera quedan fuera del seguimiento activo por decisión del usuario.
+### Hallazgo editorial transversal
 
-### UC3M · seguimiento oficial de la convocatoria
+Los temas revisados mantienen, con distinta intensidad:
 
-El portal oficial de empleo de la Universidad Carlos III de Madrid publica y mantiene vigentes los siguientes datos de la convocatoria de la Escala Auxiliar Administrativa C2:
+- el sufijo histórico «Manual reconstruido»;
+- varios encabezados `#` dentro del mismo manual;
+- estados o fechas desalineados entre manual, matriz y banco;
+- llamadas destacadas diferentes del patrón `> ⚠️ **¡Foco Examen!:**`;
+- metadatos internos de reconstrucción que no deben formar parte del material final de estudio.
 
-- plazo de solicitudes: del **9 de julio al 5 de agosto de 2026**, ambos inclusive;
-- fecha previsible del ejercicio: **sábado, 21 de noviembre de 2026, a las 10:00 horas**;
-- **34 plazas**, de las cuales **2** están reservadas a personas con discapacidad;
-- sistema de **concurso-oposición libre**.
+La normalización debe preservar la numeración de apartados y las referencias de los bancos de preguntas.
 
-El registro interno de convocatorias no contenía el plazo completo ni la fecha previsible del ejercicio. Se ha corregido `data/convocatorias.json` y se ha incorporado la fuente oficial específica de seguimiento.
+### Seguimiento oficial de convocatorias
 
-> ⚠️ **¡Foco Examen!:** La fecha del **21 de noviembre de 2026** tiene carácter **previsible**; no debe tratarse como convocatoria definitiva del ejercicio hasta que se publique el anuncio correspondiente.
+Comprobación realizada el **25 de julio de 2026**:
 
-### UC3M · revisión transversal editorial
-
-Se mantiene revisado el Tema 17 contra el Real Decreto 534/2024, su modificación por el Real Decreto 535/2026 y la información oficial de admisión UC3M 2026/2027. No se ha detectado en este bloque una nueva incorrección jurídica que exija modificar sus archivos.
-
-Correcciones transversales acumuladas:
-
-- Tema 14: competencias presupuestarias, reserva mínima del **5 %** para investigación y precisión del objetivo del **1 % del PIB**;
-- Tema 15: elección, mayoría, mandato, reelección, Adjunto, memoria y órgano asesor del Defensor Universitario;
-- Tema 16: ECTS, tiempo parcial, permanencia, convocatorias y porcentajes de evaluación;
-- Tema 19: sustitución de la derogada Ley 9/1990 por la vigente Ley 5/2025 de Hacienda de la Comunidad de Madrid.
-
-### Seguimiento de las demás convocatorias
-
-- Diputación de Toledo: continúa abierto el plazo de solicitudes hasta el **31 de julio de 2026**; no consta lista provisional de esta convocatoria.
+- Diputación de Toledo: el portal oficial mantiene abierto el plazo hasta el **31 de julio de 2026**; no consta lista provisional.
+- UC3M: convocatoria abierta del **9 de julio al 5 de agosto de 2026**; mantiene como fecha previsible del ejercicio el **21 de noviembre de 2026 a las 10:00 horas**; no consta lista provisional.
+- CPEIS Toledo: permanecen abiertos hasta el **6 de agosto de 2026** los procesos de **4 plazas de Auxiliar Administrativo C2** y **1 plaza de Administrativo C1**.
 - La Puebla de Montalbán: no consta lista provisional oficial verificada.
-- CPEIS Toledo: continúa abierto el plazo hasta el **6 de agosto de 2026**.
+
+`data/convocatorias.json` queda actualizado con esta comprobación.
+
+> ⚠️ **¡Foco Examen!:** La fecha de la UC3M del **21 de noviembre de 2026** sigue siendo **previsible**, no una citación definitiva del ejercicio.
 
 ## Estado de convocatorias activas
 
@@ -76,7 +71,7 @@ Correcciones transversales acumuladas:
 - Inscripción verificada documentalmente.
 - Programa oficial de **19 temas**.
 - Estado editorial: **completo**.
-- Estado fase 2: **temas 1 y 2 en revisión; temas 3–19 pendientes**.
+- Estado fase 2: **temas 1–10 en revisión; temas 11–19 pendientes**.
 - No consta todavía lista provisional oficial verificada.
 
 ### Diputación Provincial de Toledo · Administrativo C1
@@ -107,14 +102,14 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 ### Convocatorias archivadas
 
-- Carranque: archivada por decisión del usuario.
+- Carranque: archivada del desarrollo editorial activo.
 - Las Ventas con Peña Aguilera: archivada porque el usuario confirmó que no se presentará.
 
 ## Estado por proyectos
 
 | Proyecto | Cobertura editorial | Estado fase 2 |
 |---|---:|---|
-| La Puebla | **19/19** | Temas 1–2 en revisión; 3–19 pendientes |
+| La Puebla | **19/19** | Temas 1–10 en revisión; 11–19 pendientes |
 | Diputación C1 | **40/40** | En revisión; OAPGT pendiente |
 | UC3M C2 | **20/20** | En revisión transversal |
 | CPEIS | Solo seguimiento | Fuera de la fase editorial |
@@ -127,8 +122,9 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 ## Orden de trabajo vigente
 
-1. Normalizar los Temas 1 y 2 de La Puebla y aplicar el patrón al resto de sus **19 temas**.
-2. Completar la revisión transversal de los **20 temas UC3M**.
-3. Revisar transversalmente los **40 temas de Diputación**.
-4. Mantener seguimiento oficial de La Puebla, Diputación y UC3M.
-5. Cerrar OAPGT únicamente con fuente oficial íntegra y verificable.
+1. Continuar la pasada sistemática de La Puebla desde el Tema 11.
+2. Normalizar editorialmente los temas revisados sin romper referencias internas.
+3. Completar la revisión transversal de los **20 temas UC3M**.
+4. Revisar transversalmente los **40 temas de Diputación**.
+5. Mantener seguimiento oficial de La Puebla, Diputación y UC3M.
+6. Cerrar OAPGT únicamente con fuente oficial íntegra y verificable.
