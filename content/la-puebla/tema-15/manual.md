@@ -2,7 +2,7 @@
 
 **Estado:** APROBADO POR EL USUARIO  
 **Publicado tras aprobación expresa del usuario.**  
-**Fecha de revisión técnica:** 18 de julio de 2026.
+**Fecha de revisión técnica:** 25 de julio de 2026.
 
 > **Tema 15. Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.**
 
@@ -210,7 +210,7 @@ El OCR reconoce texto dentro de una imagen. Digitalizar no garantiza por sí mis
 - Manual modular: creado.
 - Cinco bloques: preparados.
 - Fuentes oficiales de Microsoft: trazadas.
-- Banco de preguntas: vacío.
+- Banco de preguntas: 12 preguntas revisadas y alineadas con el estado aprobado.
 - Revisión del usuario: aprobada el 2026-07-18.
 - Tema cerrado: **SÍ**.
 - Publicación como aprobado: **SÍ**.
