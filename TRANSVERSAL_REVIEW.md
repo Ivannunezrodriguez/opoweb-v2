@@ -38,26 +38,26 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 16 | EN_REVISION | Cobertura técnica coherente de Edge, Internet Explorer 11 y modo IE; soporte y funcionamiento contrastados con Microsoft; corregido el estado del banco; el manual aún declara vacío un banco con 12 preguntas | Corregir la contradicción del manual, normalizar título y validar enlaces de los cinco bloques y fuentes |
 | 17 | EN_REVISION | Cobertura técnica coherente de Word y Writer; corregidas equivalencias absolutas de atajos localizados y sustituidas dos preguntas ambiguas; el banco y el manual ya reflejan 12 preguntas | Alinear `matriz.json` con la corrección, normalizar título y validar enlaces de los cinco bloques y fuentes |
 | 18 | EN_REVISION | Cobertura técnica coherente de Excel y Calc; fórmulas, referencias, funciones, filtros, tablas dinámicas, gráficos y formatos revisados; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Revisar atajos localizados de `matriz.json`, normalizar título y validar enlaces de los cinco bloques y fuentes |
-| 19 | PENDIENTE | Pendiente de pasada transversal sistemática | Revisar manual, matriz, banco, bloques y fuentes |
+| 19 | EN_REVISION | Cobertura técnica coherente de componentes, periféricos, impresión, escaneado, almacenamiento externo, USB y soportes ópticos; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y llamadas y validar enlaces de los cinco bloques y fuentes |
 
-### Hallazgo transversal confirmado en los temas 1 a 18
+### Hallazgo transversal confirmado en los temas 1 a 19
 
-Los dieciocho primeros manuales conservan elementos históricos que no aportan contenido de examen:
+Los diecinueve manuales conservan elementos históricos que no aportan contenido de examen:
 
 - títulos como «Manual reconstruido» o «Manual modular»;
 - estados visibles no alineados con los estados permitidos del proyecto;
 - mensajes internos sobre el proceso de reconstrucción en varios temas;
 - encabezados de parte con nivel `#` en los manuales no modulares, pese a que debe existir un único título principal.
 
-En los temas 3 a 18 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
+En los temas 3 a 19 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
 
 Los Temas 6 y 16 añaden una incidencia técnica: sus bancos usan la clave `pregunta`, mientras otros temas usan `enunciado`. La normalización debe esperar a verificar el contrato real del frontend.
 
-En los Temas 11 a 18 se confirmó una contradicción verificable: sus manuales declaraban vacío un banco que ya contenía 12 preguntas. En los Temas 11, 12, 15, 17 y 18 se corrigió; en los Temas 13, 14 y 16 permanece pendiente la corrección del manual. Los estados de los bancos de los Temas 14 a 18 ya se han normalizado.
+En los Temas 11 a 19 se confirmó una contradicción verificable: sus manuales declaraban vacío un banco que ya contenía 12 preguntas. En los Temas 11, 12, 15, 17, 18 y 19 se corrigió; en los Temas 13, 14 y 16 permanece pendiente la corrección del manual. Los estados de los bancos de los Temas 14 a 19 ya se han normalizado.
 
 En el Tema 17 se confirmó además que las fuentes oficiales en español no son uniformes en determinados métodos abreviados de Word. Se eliminaron del manual y del banco las reglas absolutas que podían inducir a error; `matriz.json` sigue pendiente de alineación. El Tema 18 requiere aplicar el mismo criterio prudente a los atajos localizados de Excel y Calc recogidos en su matriz.
 
-La corrección se aplicará como patrón al resto de La Puebla, preservando íntegramente el contenido jurídico y la trazabilidad normativa.
+La pasada transversal sistemática de los 19 temas de La Puebla está completada. El proyecto permanece en fase 2 porque aún quedan incidencias editoriales y técnicas abiertas y ningún tema ha sido marcado como `CERRADO_FASE_2`.
 
 ## UC3M
 
