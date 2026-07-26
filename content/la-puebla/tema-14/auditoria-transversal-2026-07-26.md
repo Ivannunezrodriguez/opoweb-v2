@@ -22,12 +22,17 @@ La cobertura del epígrafe es coherente con la Ley 40/2015:
 - El manual refleja ahora 12 preguntas revisadas y trazables.
 - Actualizada la fecha de revisión normativa al 26 de julio de 2026.
 - Confirmado que `preguntas.json` ya estaba en estado `APROBADO_USUARIO` y contenía 12 preguntas trazables; no se modificó al no existir cambio real.
+- Normalizado el título principal del manual.
+- Normalizado el estado visible a `PUBLICADO`.
+- Eliminados los metadatos históricos del proceso de creación, aprobación y publicación.
+- Retirado el apartado interno `Estado real`, que no forma parte del contenido de estudio.
 
 ## Incidencias pendientes
 
-- Normalización editorial global del título y del estado visible.
-- Validación sistemática de enlaces internos de los cinco bloques y de `articulos.md`.
+- Validación sistemática de enlaces internos de los cinco bloques, `articulos.md` y `feedback.md`.
+- Revisión de llamadas destacadas y homogeneización al patrón `> ⚠️ **¡Foco Examen!:**` cuando exista una trampa real.
+- Comprobación de que el conjunto dispone de un esquema final de repaso conforme a `EDITORIAL_GUIDE.md`.
 
 ## Conclusión
 
-No se detecta una incidencia jurídica material que requiera decisión del usuario. El tema permanece en `EN_REVISION` hasta el cierre editorial global de la fase 2.
+No se detecta una incidencia jurídica material que requiera decisión del usuario. La portada y los metadatos visibles ya están normalizados, pero el tema permanece en `EN_REVISION` hasta completar los controles editoriales y de enlaces de la fase 2.
