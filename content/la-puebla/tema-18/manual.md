@@ -2,7 +2,7 @@
 
 **Estado:** APROBADO POR EL USUARIO  
 **Publicado como tema aprobado.**  
-**Fecha de revisión técnica:** 18 de julio de 2026.
+**Fecha de revisión técnica:** 26 de julio de 2026.
 
 > **Tema 18. LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.**
 
@@ -104,7 +104,7 @@ Los nombres de funciones, separadores de argumentos y atajos pueden variar con e
 - Cinco bloques: preparados.
 - Fuentes oficiales de Microsoft y LibreOffice: trazadas.
 - Comparación Excel/Calc: integrada.
-- Banco de preguntas: vacío.
+- Banco de preguntas: **12 preguntas revisadas y trazables**.
 - Revisión del usuario: completada el 18 de julio de 2026.
 - Tema cerrado: **SÍ**.
 - Publicación como aprobado: **SÍ**.
