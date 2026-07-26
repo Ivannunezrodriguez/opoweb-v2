@@ -1,7 +1,6 @@
-# La Puebla de Montalbán · Tema 14 · Manual modular
+# Tema 14 · Órganos administrativos y Administración General del Estado
 
-**Estado:** APROBADO POR EL USUARIO  
-**Publicado tras aprobación expresa del usuario.**  
+**Estado editorial:** `PUBLICADO`  
 **Fecha de revisión normativa:** 26 de julio de 2026.
 
 > **Tema 14. Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.**
@@ -220,15 +219,3 @@ El Servicio Exterior se rige principalmente por la Ley 2/2014 y su normativa de 
 10. Confundir rango de Subsecretario del Delegado con dependencia del Subsecretario.
 11. Memorizar ministerios actuales como si fueran una estructura fijada permanentemente por la Ley 40/2015.
 12. Incluir el sector público institucional, que comienza en el artículo 81, dentro de este epígrafe.
-
-## 16. Estado real
-
-- Manual modular: creado.
-- Cinco bloques: preparados.
-- Artículos 5–24 y 54–80, incluido 55 bis: trazados.
-- Banco de preguntas: **12 preguntas revisadas y trazables**.
-- Revisión del usuario: aprobada el 2026-07-18.
-- Tema cerrado: **SÍ**.
-- Publicación como aprobado: **SÍ**.
-
-La aprobación expresa **«Tema 14 aprobado»** quedó registrada el 18 de julio de 2026.
