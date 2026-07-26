@@ -37,7 +37,7 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 15 | EN_REVISION | Cobertura técnica coherente de Explorador, archivos, carpetas, unidades locales y de red, impresión y digitalización; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y llamadas y validar enlaces de los cinco bloques y fuentes |
 | 16 | EN_REVISION | Cobertura técnica coherente de Edge, Internet Explorer 11 y modo IE; soporte y funcionamiento contrastados con Microsoft; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título, validar enlaces y verificar el contrato del frontend antes de unificar la clave `pregunta` |
 | 17 | EN_REVISION | Cobertura técnica coherente de Word y Writer; corregidas equivalencias absolutas de atajos localizados, sustituidas dos preguntas ambiguas y alineada `matriz.json`; el banco y el manual reflejan 12 preguntas | Normalizar título y validar enlaces de los cinco bloques y fuentes |
-| 18 | EN_REVISION | Cobertura técnica coherente de Excel y Calc; fórmulas, referencias, funciones, filtros, tablas dinámicas, gráficos y formatos revisados; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Revisar atajos localizados de `matriz.json`, normalizar título y validar enlaces de los cinco bloques y fuentes |
+| 18 | EN_REVISION | Cobertura técnica coherente de Excel y Calc; fórmulas, referencias, funciones, filtros, tablas dinámicas, gráficos y formatos revisados; corregidos el estado del banco, la afirmación errónea de que estaba vacío y los atajos localizados de `matriz.json` | Normalizar título y validar enlaces de los cinco bloques y fuentes |
 | 19 | EN_REVISION | Cobertura técnica coherente de componentes, periféricos, impresión, escaneado, almacenamiento externo, USB y soportes ópticos; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y llamadas y validar enlaces de los cinco bloques y fuentes |
 
 ### Hallazgo transversal confirmado en los temas 1 a 19
@@ -55,7 +55,7 @@ Los Temas 6 y 16 añaden una incidencia técnica: sus bancos usan la clave `preg
 
 En los Temas 11 a 19 se confirmó una contradicción verificable: sus manuales declaraban vacío un banco que ya contenía 12 preguntas. La contradicción ha quedado corregida en todos esos temas. Los estados de los bancos de los Temas 13 a 19 ya se han normalizado.
 
-En el Tema 17 se confirmó además que las fuentes oficiales en español no son uniformes en determinados métodos abreviados de Word. Se eliminaron del manual, del banco y de `matriz.json` las reglas absolutas que podían inducir a error. El Tema 18 requiere aplicar el mismo criterio prudente a los atajos localizados de Excel y Calc recogidos en su matriz.
+En los Temas 17 y 18 se confirmó que determinados métodos abreviados dependen del idioma, versión, personalización o distribución del teclado. Se eliminaron del manual, del banco cuando procedía y de las matrices las reglas absolutas que podían inducir a error.
 
 La pasada transversal sistemática de los 19 temas de La Puebla está completada. El proyecto permanece en fase 2 porque aún quedan incidencias editoriales y técnicas abiertas y ningún tema ha sido marcado como `CERRADO_FASE_2`.
 
