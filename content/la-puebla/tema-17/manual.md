@@ -62,11 +62,13 @@ El documento no es solo una sucesión de caracteres. Contiene, entre otros:
 | Interfaz principal | cinta de opciones y vista Archivo/Backstage | menús, barras de herramientas, barra lateral y Navegador |
 | Organización de páginas diferentes | saltos de sección | estilos de página y saltos que aplican estilos |
 | Estilos | estilos de carácter, párrafo, tabla y otros | estilos de párrafo, carácter, marco, página, lista y tabla |
-| Seleccionar todo en configuración española habitual | `Ctrl + A` en Word para Windows según la documentación actual | `Ctrl + E` en Writer según la ayuda española |
-| Guardar en configuración española habitual | `Ctrl + S` según la documentación actual de Word | `Ctrl + G` según la ayuda española de LibreOffice |
+| Seleccionar todo | el atajo puede variar según idioma, versión y personalización | el atajo puede variar según idioma, versión y personalización |
+| Guardar | el atajo puede variar según idioma, versión y personalización | el atajo puede variar según idioma, versión y personalización |
 | PDF | guardar o exportar a PDF | Exportar a PDF o Exportar directamente a PDF |
 
-Los atajos pueden depender del idioma, del sistema, de la edición y de personalizaciones. En examen debe atenderse al programa y al contexto indicados.
+La documentación oficial localizada en español no es completamente uniforme en algunos métodos abreviados de Word. Por ello, no se presenta como regla universal una combinación concreta para **Seleccionar todo** o **Guardar** sin identificar versión, idioma y configuración.
+
+> ⚠️ **¡Foco Examen!:** Una pregunta sobre atajos debe identificar con claridad programa, versión o configuración lingüística. No debe trasladarse automáticamente un atajo de Word a Writer ni considerarse universal una combinación localizada.
 
 ## 6. Flujo de trabajo correcto
 
