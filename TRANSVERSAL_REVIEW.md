@@ -32,7 +32,7 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 10 | EN_REVISION | Cobertura coherente de TRLRHL 6–12 y LGT 17–76 y 117–140; vigencia contrastada con BOE; se corrigió el estado desalineado de `preguntas.json`; persisten portada histórica, varios `#` y llamadas no homogéneas | Normalizar manual y validar enlaces internos preservando numeración y trazabilidad |
 | 11 | EN_REVISION | Cobertura coherente de recaudación voluntaria y ejecutiva, aplazamiento, compensación, devoluciones y apremio; vigencia contrastada con BOE; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar portada y estados, revisar llamadas de los capítulos y validar todos los enlaces internos |
 | 12 | EN_REVISION | Cobertura coherente de normas generales, IBI, IAE, IVTM e IIVTNU; vigencia contrastada con el TRLRHL actualizado a 03/06/2026; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y estado visibles, revisar llamadas y validar enlaces de los bloques modulares |
-| 13 | EN_REVISION | Cobertura coherente de certificados, identificación, firma, soportes, prestadores y servicios de confianza; eIDAS 2 y RD 203/2021 contrastados; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y validar enlaces de los cinco bloques y trazabilidad |
+| 13 | EN_REVISION | Cobertura jurídica coherente; título principal y estado visible normalizados; retirados del manual los metadatos internos del proceso; banco con 12 preguntas trazables | Validar enlaces de los cinco bloques, trazabilidad y revisión; comprobar esquema final y llamadas destacadas |
 | 14 | EN_REVISION | Cobertura coherente de órganos administrativos y AGE; Ley 40/2015 y artículo 55 bis contrastados; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y validar enlaces de los cinco bloques y trazabilidad |
 | 15 | EN_REVISION | Cobertura técnica coherente de Explorador, archivos, carpetas, unidades locales y de red, impresión y digitalización; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y llamadas y validar enlaces de los cinco bloques y fuentes |
 | 16 | EN_REVISION | Cobertura técnica coherente de Edge, Internet Explorer 11 y modo IE; soporte y funcionamiento contrastados con Microsoft; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título, validar enlaces y verificar el contrato del frontend antes de unificar la clave `pregunta` |
@@ -42,7 +42,7 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 
 ### Hallazgo transversal confirmado en los temas 1 a 19
 
-Los diecinueve manuales conservan elementos históricos que no aportan contenido de examen:
+Dieciocho manuales conservan todavía elementos históricos que no aportan contenido de examen; el Tema 13 ya tiene portada y estado visible normalizados:
 
 - títulos como «Manual reconstruido» o «Manual modular»;
 - estados visibles no alineados con los estados permitidos del proyecto;
