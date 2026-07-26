@@ -2,7 +2,7 @@
   "tema": 17,
   "estado": "APROBADO_USUARIO",
   "epigrafeOficial": "LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.",
-  "fechaRevisionTecnica": "2026-07-18",
+  "fechaRevisionTecnica": "2026-07-26",
   "referenciasPrincipales": [
     "Microsoft Word para Microsoft 365 y Word 2024",
     "LibreOffice Writer, ayuda oficial vigente"
@@ -163,14 +163,14 @@
       "writer": "F7"
     },
     {
-      "accion": "seleccionar todo, ayuda española",
-      "word": "Ctrl + A",
-      "writer": "Ctrl + E"
+      "accion": "seleccionar todo",
+      "word": "Puede variar según idioma, versión y personalización",
+      "writer": "Puede variar según idioma, versión y personalización"
     },
     {
-      "accion": "guardar, ayuda española",
-      "word": "Ctrl + S",
-      "writer": "Ctrl + G"
+      "accion": "guardar",
+      "word": "Puede variar según idioma, versión y personalización",
+      "writer": "Puede variar según idioma, versión y personalización"
     },
     {
       "accion": "justificar",
@@ -178,9 +178,9 @@
       "writer": "Ctrl + J"
     },
     {
-      "accion": "centrar, ayuda española",
-      "word": "Ctrl + E",
-      "writer": "Ctrl + T"
+      "accion": "centrar",
+      "word": "Comprobar idioma, versión y personalización",
+      "writer": "Comprobar idioma, versión y personalización"
     },
     {
       "accion": "Navegador o navegación",
@@ -188,11 +188,12 @@
       "writer": "F5"
     }
   ],
+  "criterioAtajos": "No se presentan como universales los métodos abreviados localizados. Toda pregunta debe identificar programa, versión, idioma o configuración cuando la combinación pueda variar.",
   "diferenciasClave": [
     "DOCX frente a ODT",
     "cinta y Backstage frente a menús, barras y barra lateral",
     "secciones de Word frente a estilos de página de Writer",
-    "atajos localizados diferentes",
+    "atajos condicionados por idioma, versión y personalización",
     "exportación y compatibilidad entre formatos"
   ],
   "exclusionesDelNucleo": [
