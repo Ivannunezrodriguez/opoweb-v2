@@ -2,7 +2,7 @@
 
 **Estado:** APROBADO POR EL USUARIO  
 **Publicado tras aprobación expresa del usuario.**  
-**Fecha de revisión normativa:** 18 de julio de 2026.
+**Fecha de revisión normativa:** 26 de julio de 2026.
 
 > **Tema 14. Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.**
 
@@ -226,7 +226,7 @@ El Servicio Exterior se rige principalmente por la Ley 2/2014 y su normativa de 
 - Manual modular: creado.
 - Cinco bloques: preparados.
 - Artículos 5–24 y 54–80, incluido 55 bis: trazados.
-- Banco de preguntas: vacío.
+- Banco de preguntas: **12 preguntas revisadas y trazables**.
 - Revisión del usuario: aprobada el 2026-07-18.
 - Tema cerrado: **SÍ**.
 - Publicación como aprobado: **SÍ**.
