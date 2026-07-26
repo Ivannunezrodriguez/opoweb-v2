@@ -1,7 +1,6 @@
-# La Puebla de Montalbán · Tema 13 · Manual modular
+# Tema 13 · Administración electrónica I
 
-**Estado:** APROBADO POR EL USUARIO  
-**Publicado como tema aprobado.**  
+**Estado editorial:** `PUBLICADO`  
 **Fecha de revisión normativa:** 26 de julio de 2026.
 
 > **Tema 13. Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.**
@@ -174,15 +173,3 @@ No se desarrolla de forma completa:
 - la cartera europea de identidad digital;
 - la contratación privada y la prueba procesal completa;
 - el régimen íntegro de infracciones y sanciones de la Ley 6/2020.
-
-## 13. Estado real
-
-- Manual modular: creado.
-- Cinco bloques: preparados.
-- Matriz y trazabilidad: documentos separados.
-- Banco de preguntas: **12 preguntas revisadas y trazables**.
-- Revisión del usuario: aprobada el 18 de julio de 2026.
-- Tema cerrado: **SÍ, aprobado por el usuario**.
-- Publicación como aprobado: **SÍ**.
-
-Frase de aprobación registrada: **«Tema 13 aprobado»**.
