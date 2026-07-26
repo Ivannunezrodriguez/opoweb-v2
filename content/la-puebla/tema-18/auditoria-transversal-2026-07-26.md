@@ -38,13 +38,18 @@ No se detectó error técnico material en el núcleo del tema. La comparación e
    - versión actualizada a `2026-07-26`;
    - se conservan las **12 preguntas**, respuestas, justificaciones, trampas y referencias.
 
+3. `matriz.json`
+   - fecha de revisión técnica actualizada a `2026-07-26`;
+   - retiradas las equivalencias absolutas de atajos dependientes del idioma, versión, personalización o distribución del teclado;
+   - añadido un criterio explícito para exigir contexto cuando un método abreviado pueda variar;
+   - conservados los atajos estables y la cobertura funcional del tema.
+
 ## Incidencias abiertas
 
 - El título visible conserva la expresión histórica «Manual modular».
 - Deben validarse conjuntamente los enlaces relativos de los cinco bloques y `fuentes.md` durante la normalización global.
 - Las llamadas destacadas de los bloques deben homogeneizarse al patrón OpoWeb sin alterar referencias internas.
-- Los atajos localizados de `matriz.json` requieren una revisión conjunta con el criterio aplicado en el Tema 17 para evitar afirmaciones absolutas dependientes del idioma o configuración.
 
 ## Resultado
 
-**Tema 18 revisado transversalmente con cambios verificados.** Permanece en `EN_REVISION` hasta completar la normalización editorial y los controles generales de cierre de la fase 2.
+**Tema 18 revisado transversalmente y con `matriz.json` alineada.** Permanece en `EN_REVISION` hasta completar la normalización editorial y los controles generales de cierre de la fase 2.
