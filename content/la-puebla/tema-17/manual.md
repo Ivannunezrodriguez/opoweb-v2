@@ -2,7 +2,7 @@
 
 **Estado:** APROBADO POR EL USUARIO  
 **Publicado como tema aprobado.**  
-**Fecha de revisión técnica:** 18 de julio de 2026.
+**Fecha de revisión técnica:** 26 de julio de 2026.
 
 > **Tema 17. LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.**
 
@@ -101,7 +101,7 @@ Un flujo administrativo razonable es:
 - Cinco bloques: preparados.
 - Fuentes oficiales de Microsoft y LibreOffice: trazadas.
 - Comparación Word/Writer: integrada.
-- Banco de preguntas: vacío.
+- Banco de preguntas: **12 preguntas revisadas y trazables**.
 - Revisión del usuario: completada el 18 de julio de 2026.
 - Tema cerrado: **SÍ**.
 - Publicación como aprobado: **SÍ**.
