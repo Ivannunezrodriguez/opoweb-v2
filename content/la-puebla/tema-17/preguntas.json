@@ -7,7 +7,7 @@
     "opcionesPorPregunta": 4,
     "respuestaUnica": true,
     "trazabilidad": "Cada pregunta referencia el manual auditado del Tema 17.",
-    "controlCalidad": "Preguntas independientes, justificadas y con trampa de examen explícita."
+    "controlCalidad": "Preguntas independientes, justificadas y con trampa de examen explícita. Se excluyen atajos localizados ambiguos sin versión e idioma identificados."
   },
   "preguntas": [
     {
@@ -75,21 +75,21 @@
     },
     {
       "id": "LP-T17-008",
-      "enunciado": "En la configuración española habitual indicada en el manual, ¿qué atajo selecciona todo en LibreOffice Writer?",
-      "opciones": ["Ctrl + A", "Ctrl + E", "Ctrl + G", "Ctrl + T"],
+      "enunciado": "¿Cuál es la práctica correcta cuando una pregunta de examen plantea un atajo de Word o Writer?",
+      "opciones": ["Suponer que todos los idiomas usan el mismo atajo", "Atender al programa, versión, idioma y configuración indicados", "Aplicar siempre el atajo de Word a Writer", "Ignorar el contexto del enunciado"],
       "respuestaCorrecta": 1,
-      "justificacion": "La ayuda española de LibreOffice Writer identifica Ctrl + E como atajo para seleccionar todo, mientras Word para Windows utiliza Ctrl + A.",
-      "trampaExamen": "Los atajos dependen del programa y del idioma; no debe trasladarse automáticamente Ctrl + A de Word a Writer.",
-      "referencia": "manual.md, apartado 5, y bloque-02-edicion-busqueda.md, apartado 15"
+      "justificacion": "Los métodos abreviados pueden variar por programa, versión, idioma y personalización, por lo que el contexto del enunciado es determinante.",
+      "trampaExamen": "No existe una equivalencia universal para todos los atajos localizados de Word y Writer.",
+      "referencia": "manual.md, apartado 5 · Diferencias esenciales"
     },
     {
       "id": "LP-T17-009",
-      "enunciado": "En la configuración española habitual indicada, ¿qué atajo guarda un documento en LibreOffice Writer?",
-      "opciones": ["Ctrl + S", "Ctrl + G", "Ctrl + E", "Ctrl + D"],
+      "enunciado": "¿Qué diferencia existe entre guardar un documento y exportarlo a PDF?",
+      "opciones": ["No existe ninguna diferencia", "Guardar conserva el documento editable; exportar genera una salida en otro formato", "Exportar elimina siempre el original", "Guardar convierte siempre el archivo en PDF"],
       "respuestaCorrecta": 1,
-      "justificacion": "La ayuda española de LibreOffice Writer documenta Ctrl + G para guardar; Word utiliza habitualmente Ctrl + S.",
-      "trampaExamen": "Ctrl + G en Writer no debe confundirse con el atajo de guardado de Word, que es Ctrl + S en la documentación actual.",
-      "referencia": "manual.md, apartado 5, y bloque-02-edicion-busqueda.md, apartado 15"
+      "justificacion": "Guardar mantiene el documento en su formato editable, mientras que exportar a PDF crea una salida destinada normalmente a distribución o conservación estable.",
+      "trampaExamen": "Guardar, Guardar como y Exportar son operaciones distintas; cambiar la extensión tampoco convierte el formato.",
+      "referencia": "manual.md, apartados 5, 6 y 7"
     },
     {
       "id": "LP-T17-010",
