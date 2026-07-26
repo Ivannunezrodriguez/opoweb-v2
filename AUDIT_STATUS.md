@@ -30,11 +30,12 @@ La fase 2 no se considerará cerrada hasta que todos los proyectos activos super
 - Tema 14: revisados órganos administrativos, competencia, órganos colegiados, abstención, recusación y estructura central, territorial y exterior de la Administración General del Estado; corregido el estado antiguo del banco.
 - Tema 15: revisados Explorador de archivos, creación, copia, movimiento, borrado, unidades locales y de red, impresión y digitalización; corregidos el estado del banco y la afirmación errónea de que estaba vacío.
 - Tema 16: revisados Microsoft Edge, Internet Explorer 11, modo IE, navegación, historial, descargas, privacidad, InPrivate y seguridad; corregido el estado antiguo del banco.
-- Tema 17: revisados Microsoft Word y LibreOffice Writer, formatos, edición, estilos, diseño de página, revisión, combinación, impresión, PDF y atajos localizados.
-- En el Tema 17 se contrastaron fuentes oficiales de Microsoft y The Document Foundation. No se detectó error técnico material.
-- Corregido `content/la-puebla/tema-17/preguntas.json`: `GENERADO_PENDIENTE_REVISION_USUARIO` pasa a `APROBADO_USUARIO`, con versión **2026-07-26**.
-- Corregido `content/la-puebla/tema-17/manual.md`: el banco no está vacío; contiene **12 preguntas revisadas y trazables**.
-- Creada `content/la-puebla/tema-17/auditoria-transversal-2026-07-26.md`.
+- Tema 17: revisados Microsoft Word y LibreOffice Writer, formatos, edición, estilos, diseño de página, revisión, combinación, impresión y PDF.
+- En el Tema 17 se detectó una incidencia técnica: las fuentes oficiales en español no son uniformes en determinados atajos localizados de Word, por lo que no era seguro presentar como universales las parejas `Ctrl + A`/`Ctrl + S` frente a `Ctrl + E`/`Ctrl + G`.
+- Corregido `content/la-puebla/tema-17/manual.md`: retiradas las equivalencias absolutas, añadida advertencia de versión, idioma y personalización y reflejado el banco real de **12 preguntas**.
+- Corregido `content/la-puebla/tema-17/preguntas.json`: se sustituyeron las preguntas 8 y 9, dependientes de atajos localizados discutibles, por preguntas estables sobre contexto de atajos y diferencia entre guardar y exportar.
+- Corregido `content/la-puebla/tema-17/auditoria-transversal-2026-07-26.md` para reflejar el hallazgo real.
+- `content/la-puebla/tema-17/matriz.json` sigue pendiente de alineación con esta corrección.
 - Permanecen abiertas en los Temas 13, 14 y 16 las contradicciones de sus manuales, que declaran vacío un banco con 12 preguntas; también queda pendiente validar enlaces modulares y normalizar títulos visibles.
 
 Estado de La Puebla en fase 2: **temas 1–17 en revisión; temas 18–19 pendientes**.
@@ -53,14 +54,13 @@ La normalización debe preservar la numeración de apartados y las referencias d
 
 ### Seguimiento oficial de convocatorias
 
-Comprobación realizada el **25 de julio de 2026**:
+Comprobación realizada el **26 de julio de 2026**:
 
-- Diputación de Toledo: el portal oficial mantiene abierto el plazo hasta el **31 de julio de 2026**; no consta lista provisional.
-- UC3M: convocatoria abierta del **9 de julio al 5 de agosto de 2026**; mantiene como fecha previsible del ejercicio el **21 de noviembre de 2026 a las 10:00 horas**; no consta lista provisional.
-- CPEIS Toledo: permanecen abiertos hasta el **6 de agosto de 2026** los procesos de **4 plazas de Auxiliar Administrativo C2** y **1 plaza de Administrativo C1**.
-- La Puebla de Montalbán: no consta lista provisional oficial verificada.
+- CPEIS Toledo mantiene abiertos hasta el **6 de agosto de 2026** los procesos de **4 plazas de Auxiliar Administrativo C2** y **1 plaza de Administrativo C1**; no consta aún lista provisional en la página oficial del proceso.
+- UC3M mantiene en su boletín oficial la convocatoria de Auxiliar Administrativa C2 publicada el **9 de julio de 2026**; no se ha localizado una lista provisional posterior.
+- No se ha localizado una nueva publicación oficial que modifique el estado registrado de La Puebla de Montalbán o de la Diputación Provincial de Toledo.
 
-`data/convocatorias.json` mantiene esta comprobación.
+`data/convocatorias.json` no requiere modificación en esta revisión.
 
 > ⚠️ **¡Foco Examen!:** La fecha de la UC3M del **21 de noviembre de 2026** sigue siendo **previsible**, no una citación definitiva del ejercicio.
 
@@ -122,10 +122,11 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 ## Orden de trabajo vigente
 
-1. Continuar la pasada sistemática de La Puebla desde el Tema 18.
-2. Corregir las contradicciones editoriales abiertas en los Temas 13, 14 y 16.
-3. Normalizar editorialmente los temas revisados sin romper referencias internas.
-4. Completar la revisión transversal de los **20 temas UC3M**.
-5. Revisar transversalmente los **40 temas de Diputación**.
-6. Mantener seguimiento oficial de La Puebla, Diputación y UC3M.
-7. Cerrar OAPGT únicamente con fuente oficial íntegra y verificable.
+1. Alinear `content/la-puebla/tema-17/matriz.json` con la corrección de atajos.
+2. Continuar la pasada sistemática de La Puebla desde el Tema 18.
+3. Corregir las contradicciones editoriales abiertas en los Temas 13, 14 y 16.
+4. Normalizar editorialmente los temas revisados sin romper referencias internas.
+5. Completar la revisión transversal de los **20 temas UC3M**.
+6. Revisar transversalmente los **40 temas de Diputación**.
+7. Mantener seguimiento oficial de La Puebla, Diputación y UC3M.
+8. Cerrar OAPGT únicamente con fuente oficial íntegra y verificable.
