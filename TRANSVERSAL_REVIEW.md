@@ -36,22 +36,23 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 14 | EN_REVISION | Cobertura coherente de órganos administrativos y AGE; Ley 40/2015 y artículo 55 bis contrastados; corregido el estado del banco; el manual aún declara vacío un banco con 12 preguntas | Corregir la contradicción del manual, normalizar título y validar enlaces de los cinco bloques |
 | 15 | EN_REVISION | Cobertura técnica coherente de Explorador, archivos, carpetas, unidades locales y de red, impresión y digitalización; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y llamadas y validar enlaces de los cinco bloques y fuentes |
 | 16 | EN_REVISION | Cobertura técnica coherente de Edge, Internet Explorer 11 y modo IE; soporte y funcionamiento contrastados con Microsoft; corregido el estado del banco; el manual aún declara vacío un banco con 12 preguntas | Corregir la contradicción del manual, normalizar título y validar enlaces de los cinco bloques y fuentes |
-| 17–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
+| 17 | EN_REVISION | Cobertura técnica coherente de Word y Writer; formatos, estilos, páginas, revisión y atajos contrastados con Microsoft y The Document Foundation; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y llamadas y validar enlaces de los cinco bloques y fuentes |
+| 18–19 | PENDIENTE | Pendientes de pasada transversal sistemática | Revisar en orden numérico |
 
-### Hallazgo transversal confirmado en los temas 1 a 16
+### Hallazgo transversal confirmado en los temas 1 a 17
 
-Los dieciséis primeros manuales conservan elementos históricos que no aportan contenido de examen:
+Los diecisiete primeros manuales conservan elementos históricos que no aportan contenido de examen:
 
 - títulos como «Manual reconstruido» o «Manual modular»;
 - estados visibles no alineados con los estados permitidos del proyecto;
 - mensajes internos sobre el proceso de reconstrucción en varios temas;
 - encabezados de parte con nivel `#` en los manuales no modulares, pese a que debe existir un único título principal.
 
-En los temas 3 a 16 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
+En los temas 3 a 17 se añade una falta de homogeneidad en las llamadas destacadas (`Trampa de examen`, `Idea clave`, `Diferencia esencial`, `Idea de examen`, `Importancia para esta oposición`, `Aplicación a la oposición` y fórmulas equivalentes) frente al patrón `> ⚠️ **¡Foco Examen!:**`.
 
 Los Temas 6 y 16 añaden una incidencia técnica: sus bancos usan la clave `pregunta`, mientras otros temas usan `enunciado`. La normalización debe esperar a verificar el contrato real del frontend.
 
-En los Temas 11 a 16 se confirmó una contradicción verificable: sus manuales declaraban vacío un banco que ya contenía 12 preguntas. En los Temas 11, 12 y 15 se corrigió; en los Temas 13, 14 y 16 permanece pendiente la corrección del manual. Los estados de los bancos de los Temas 14, 15 y 16 ya se han normalizado.
+En los Temas 11 a 17 se confirmó una contradicción verificable: sus manuales declaraban vacío un banco que ya contenía 12 preguntas. En los Temas 11, 12, 15 y 17 se corrigió; en los Temas 13, 14 y 16 permanece pendiente la corrección del manual. Los estados de los bancos de los Temas 14 a 17 ya se han normalizado.
 
 La corrección se aplicará como patrón al resto de La Puebla, preservando íntegramente el contenido jurídico y la trazabilidad normativa.
 
