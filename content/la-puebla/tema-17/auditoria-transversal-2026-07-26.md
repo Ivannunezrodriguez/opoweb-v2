@@ -41,13 +41,18 @@ Por ello, no es técnicamente seguro presentar como regla universal que Word uti
    - sustituidas las preguntas 8 y 9, que dependían de atajos localizados discutibles, por preguntas estables sobre contexto de los atajos y diferencia entre guardar y exportar;
    - se mantienen **12 preguntas**, respuesta única, justificación y trazabilidad.
 
+3. `matriz.json`
+   - fecha de revisión técnica actualizada a `2026-07-26`;
+   - eliminadas las equivalencias absolutas para seleccionar todo, guardar y centrar;
+   - añadido un criterio explícito para exigir programa, versión, idioma o configuración cuando el método abreviado pueda variar;
+   - alineada la matriz con el manual y el banco corregidos.
+
 ## Incidencias abiertas
 
-- `matriz.json` conserva todavía las equivalencias antiguas de atajos y debe alinearse con esta corrección.
 - El título visible conserva la expresión histórica «Manual modular».
 - Deben validarse conjuntamente los enlaces relativos de los cinco bloques y `fuentes.md` durante la normalización global.
 - Las llamadas destacadas de los bloques deben homogeneizarse al patrón OpoWeb sin alterar referencias internas.
 
 ## Resultado
 
-**Tema 17 revisado transversalmente con errores técnicos corregidos.** Permanece en `EN_REVISION` hasta alinear `matriz.json`, completar la normalización editorial y superar los controles generales de cierre de la fase 2.
+**Tema 17 revisado transversalmente y con su matriz técnica alineada.** Permanece en `EN_REVISION` hasta completar la normalización editorial y superar los controles generales de cierre de la fase 2.
