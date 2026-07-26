@@ -39,12 +39,16 @@ No se detectó una contradicción material en el contenido jurídico revisado.
 - Normalizado `preguntas.json` a `APROBADO_USUARIO`.
 - Actualizada la versión del banco a `2026-07-26`.
 - Conservadas las 12 preguntas, sus respuestas, justificaciones y referencias.
+- Sustituido el título histórico «Manual modular» por un título temático único.
+- Normalizado el estado visible a `PUBLICADO`.
+- Eliminado del manual el bloque interno sobre reconstrucción, aprobación y publicación, que no forma parte del contenido de estudio.
 
 ## Incidencias restantes
 
-- Pendiente la normalización global del título visible y de las llamadas editoriales conforme a `EDITORIAL_GUIDE.md`.
-- Pendiente validación integral de enlaces internos dentro de la fase de cierre global.
+- Pendiente validación integral de los enlaces relativos a los cinco bloques, `articulos.md` y `feedback.md`.
+- Pendiente homogeneizar, cuando proceda, las llamadas destacadas de los bloques complementarios.
+- Pendiente comprobar la existencia de un esquema final de repaso conforme a `EDITORIAL_GUIDE.md`.
 
 ## Resultado
 
-Revisión con cambios verificados. La contradicción entre el manual y el banco queda resuelta. El tema permanece en `EN_REVISION` dentro de la fase 2 hasta completar la normalización editorial global.
+La portada y los metadatos visibles del manual están normalizados. El Tema 13 permanece en `EN_REVISION` dentro de la fase 2 hasta completar la validación de enlaces, bloques y esquema final.
