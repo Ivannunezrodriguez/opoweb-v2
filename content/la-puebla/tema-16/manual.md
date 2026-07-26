@@ -2,7 +2,7 @@
 
 **Estado:** APROBADO POR EL USUARIO  
 **Publicado como tema aprobado.**  
-**Fecha de revisión técnica:** 18 de julio de 2026.
+**Fecha de revisión técnica:** 26 de julio de 2026.
 
 > **Tema 16. Microsoft Windows II. Navegación por Internet con Microsoft Internet Explorer y Microsoft Edge.**
 
@@ -267,7 +267,7 @@ Modo IE no equivale a ejecutar la antigua aplicación de escritorio como navegad
 - Cinco bloques: preparados.
 - Fuentes oficiales de Microsoft: trazadas.
 - Situación actual de Internet Explorer: delimitada.
-- Banco de preguntas: vacío.
+- Banco de preguntas: **12 preguntas revisadas y trazables**.
 - Revisión del usuario: completada el 18 de julio de 2026.
 - Tema cerrado: **SÍ**.
 - Publicación como aprobado: **SÍ**.
