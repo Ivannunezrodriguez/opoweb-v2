@@ -2,7 +2,7 @@
 
 **Estado:** APROBADO POR EL USUARIO  
 **Publicado como tema aprobado.**  
-**Fecha de revisión normativa:** 18 de julio de 2026.
+**Fecha de revisión normativa:** 26 de julio de 2026.
 
 > **Tema 13. Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.**
 
@@ -180,7 +180,7 @@ No se desarrolla de forma completa:
 - Manual modular: creado.
 - Cinco bloques: preparados.
 - Matriz y trazabilidad: documentos separados.
-- Banco de preguntas: vacío.
+- Banco de preguntas: **12 preguntas revisadas y trazables**.
 - Revisión del usuario: aprobada el 18 de julio de 2026.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
