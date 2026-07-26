@@ -2,7 +2,7 @@
   "tema": 18,
   "estado": "APROBADO_USUARIO",
   "epigrafeOficial": "LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.",
-  "fechaRevisionTecnica": "2026-07-18",
+  "fechaRevisionTecnica": "2026-07-26",
   "referenciasPrincipales": [
     "Microsoft Excel para Microsoft 365 y Excel 2024",
     "LibreOffice Calc, ayuda oficial vigente"
@@ -126,8 +126,8 @@
   "atajosComparados": [
     {
       "accion": "guardar",
-      "excel": "Ctrl + G o Ctrl + S según localización y documentación",
-      "calc": "Ctrl + G en configuración española habitual"
+      "excel": "Puede variar según idioma, versión y personalización",
+      "calc": "Puede variar según idioma, versión y personalización"
     },
     {
       "accion": "copiar",
@@ -156,8 +156,8 @@
     },
     {
       "accion": "buscar",
-      "excel": "Ctrl + B o Ctrl + F según localización y contexto",
-      "calc": "Ctrl + B en configuración española habitual"
+      "excel": "Puede variar según idioma, versión, contexto y personalización",
+      "calc": "Puede variar según idioma, versión, contexto y personalización"
     },
     {
       "accion": "editar celda",
@@ -176,15 +176,16 @@
     },
     {
       "accion": "insertar fecha actual",
-      "excel": "Ctrl + ;",
-      "calc": "Ctrl + ; según configuración"
+      "excel": "Comprobar distribución de teclado, idioma y configuración",
+      "calc": "Comprobar distribución de teclado, idioma y configuración"
     },
     {
       "accion": "mostrar fórmulas",
-      "excel": "Ctrl + ` según teclado",
-      "calc": "Ctrl + ` o configuración equivalente según entorno"
+      "excel": "Comprobar distribución de teclado, idioma y configuración",
+      "calc": "Comprobar distribución de teclado, idioma y configuración"
     }
   ],
+  "criterioAtajos": "No se presentan como universales los métodos abreviados localizados o dependientes de la distribución del teclado. Toda pregunta debe identificar programa, versión, idioma o configuración cuando la combinación pueda variar.",
   "diferenciasClave": [
     {
       "materia": "formato nativo",
