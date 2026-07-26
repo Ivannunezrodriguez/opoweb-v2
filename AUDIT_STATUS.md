@@ -21,7 +21,7 @@ La fase 2 no se considerará cerrada hasta que todos los proyectos activos super
 
 ## Cambios reales de esta revisión
 
-### La Puebla · Temas 10–16
+### La Puebla · Temas 10–17
 
 - Tema 10: revisados `manual.md`, `matriz.json` y `preguntas.json`; vigencia del TRLRHL y de la LGT contrastada; corregido el estado antiguo del banco.
 - Tema 11: revisada la recaudación voluntaria y ejecutiva, aplazamiento, compensación, devoluciones y apremio; corregidos el estado del banco y la afirmación errónea de que estaba vacío.
@@ -29,14 +29,15 @@ La fase 2 no se considerará cerrada hasta que todos los proyectos activos super
 - Tema 13: revisados certificados electrónicos, identificación, firma, tipos, soportes, prestadores, lista de confianza, validación y servicios de confianza; no se detectó error jurídico material.
 - Tema 14: revisados órganos administrativos, competencia, órganos colegiados, abstención, recusación y estructura central, territorial y exterior de la Administración General del Estado; corregido el estado antiguo del banco.
 - Tema 15: revisados Explorador de archivos, creación, copia, movimiento, borrado, unidades locales y de red, impresión y digitalización; corregidos el estado del banco y la afirmación errónea de que estaba vacío.
-- Tema 16: revisados Microsoft Edge, Internet Explorer 11, modo IE, navegación, historial, descargas, privacidad, InPrivate y seguridad.
-- En el Tema 16 se contrastaron fuentes oficiales de Microsoft: fin de soporte de IE11 para determinadas versiones de Windows 10 el **15 de junio de 2022**, soporte del modo IE al menos hasta **2029** y conservación de favoritos y descargas al cerrar InPrivate.
-- No se detectó error técnico material en el Tema 16.
-- Corregido `content/la-puebla/tema-16/preguntas.json`: `GENERADO_PENDIENTE_REVISION_USUARIO` pasa a `APROBADO_USUARIO`, con versión **2026-07-26**.
-- Creada `content/la-puebla/tema-16/auditoria-transversal-2026-07-26.md`.
+- Tema 16: revisados Microsoft Edge, Internet Explorer 11, modo IE, navegación, historial, descargas, privacidad, InPrivate y seguridad; corregido el estado antiguo del banco.
+- Tema 17: revisados Microsoft Word y LibreOffice Writer, formatos, edición, estilos, diseño de página, revisión, combinación, impresión, PDF y atajos localizados.
+- En el Tema 17 se contrastaron fuentes oficiales de Microsoft y The Document Foundation. No se detectó error técnico material.
+- Corregido `content/la-puebla/tema-17/preguntas.json`: `GENERADO_PENDIENTE_REVISION_USUARIO` pasa a `APROBADO_USUARIO`, con versión **2026-07-26**.
+- Corregido `content/la-puebla/tema-17/manual.md`: el banco no está vacío; contiene **12 preguntas revisadas y trazables**.
+- Creada `content/la-puebla/tema-17/auditoria-transversal-2026-07-26.md`.
 - Permanecen abiertas en los Temas 13, 14 y 16 las contradicciones de sus manuales, que declaran vacío un banco con 12 preguntas; también queda pendiente validar enlaces modulares y normalizar títulos visibles.
 
-Estado de La Puebla en fase 2: **temas 1–16 en revisión; temas 17–19 pendientes**.
+Estado de La Puebla en fase 2: **temas 1–17 en revisión; temas 18–19 pendientes**.
 
 ### Hallazgo editorial transversal
 
@@ -70,7 +71,7 @@ Comprobación realizada el **25 de julio de 2026**:
 - Inscripción verificada documentalmente.
 - Programa oficial de **19 temas**.
 - Estado editorial: **completo**.
-- Estado fase 2: **temas 1–16 en revisión; temas 17–19 pendientes**.
+- Estado fase 2: **temas 1–17 en revisión; temas 18–19 pendientes**.
 - No consta todavía lista provisional oficial verificada.
 
 ### Diputación Provincial de Toledo · Administrativo C1
@@ -108,7 +109,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 | Proyecto | Cobertura editorial | Estado fase 2 |
 |---|---:|---|
-| La Puebla | **19/19** | Temas 1–16 en revisión; 17–19 pendientes |
+| La Puebla | **19/19** | Temas 1–17 en revisión; 18–19 pendientes |
 | Diputación C1 | **40/40** | En revisión; OAPGT pendiente |
 | UC3M C2 | **20/20** | En revisión transversal |
 | CPEIS | Solo seguimiento | Fuera de la fase editorial |
@@ -121,7 +122,7 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 ## Orden de trabajo vigente
 
-1. Continuar la pasada sistemática de La Puebla desde el Tema 17.
+1. Continuar la pasada sistemática de La Puebla desde el Tema 18.
 2. Corregir las contradicciones editoriales abiertas en los Temas 13, 14 y 16.
 3. Normalizar editorialmente los temas revisados sin romper referencias internas.
 4. Completar la revisión transversal de los **20 temas UC3M**.
