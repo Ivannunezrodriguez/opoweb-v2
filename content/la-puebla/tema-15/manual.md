@@ -1,8 +1,7 @@
-# La Puebla de Montalbán · Tema 15 · Manual modular
+# Tema 15 · Microsoft Windows I
 
-**Estado:** APROBADO POR EL USUARIO  
-**Publicado tras aprobación expresa del usuario.**  
-**Fecha de revisión técnica:** 25 de julio de 2026.
+**Estado editorial:** `PUBLICADO`  
+**Fecha de revisión técnica:** 27 de julio de 2026.
 
 > **Tema 15. Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.**
 
@@ -10,7 +9,7 @@ Fuente del programa: BOP de Toledo número 82, de 5 de mayo de 2026, código `20
 
 ## 1. Criterio de versión
 
-El desarrollo utiliza **Windows 11** como referencia visual y funcional vigente. Se mantienen las operaciones comunes con Windows 10 cuando siguen siendo equivalentes, pero no se construye el tema alrededor de una versión cuyo soporte ordinario finalizó el 14 de octubre de 2025.
+El desarrollo utiliza **Windows 11** como referencia visual y funcional vigente. Se mantienen las operaciones comunes con Windows 10 cuando siguen siendo equivalentes, pero no se construye el tema alrededor de una versión cuyo soporte ordinario finalizó el **14 de octubre de 2025**.
 
 El examen puede formular operaciones de forma genérica o mostrar interfaces distintas. Por ello se priorizan:
 
@@ -204,15 +203,3 @@ El OCR reconoce texto dentro de una imagen. Digitalizar no garantiza por sí mis
 10. Elegir resolución máxima sin considerar tamaño y finalidad.
 11. Creer que una digitalización es automáticamente texto editable.
 12. Desconectar una memoria mientras hay escritura pendiente.
-
-## 14. Estado real
-
-- Manual modular: creado.
-- Cinco bloques: preparados.
-- Fuentes oficiales de Microsoft: trazadas.
-- Banco de preguntas: 12 preguntas revisadas y alineadas con el estado aprobado.
-- Revisión del usuario: aprobada el 2026-07-18.
-- Tema cerrado: **SÍ**.
-- Publicación como aprobado: **SÍ**.
-
-La aprobación expresa **«Tema 15 aprobado»** quedó registrada el 18 de julio de 2026.
