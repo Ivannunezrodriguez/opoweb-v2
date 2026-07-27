@@ -15,6 +15,7 @@ La fase 2 no se considerará cerrada hasta que todos los proyectos activos super
 ### La Puebla de Montalbán
 
 - La pasada transversal de los **19 temas** está completada.
+- Tema 10: vigencia de TRLRHL y LGT reconfirmada con BOE; `matriz.json` actualizada a `2026-07-27`; banco de **12 preguntas** verificado sin errores materiales; detectada una contradicción pendiente en el manual, que todavía afirma que las preguntas no están creadas.
 - Temas 11–19: corregida la contradicción que declaraba vacío un banco que ya contenía **12 preguntas**.
 - Temas 13–19: estados de bancos normalizados a `APROBADO_USUARIO` cuando procedía.
 - Tema 17: eliminadas reglas absolutas sobre atajos localizados de Word y Writer; banco y matriz alineados.
@@ -27,6 +28,7 @@ Estado de La Puebla en fase 2: **19 de 19 temas revisados transversalmente; norm
 ### Incidencias transversales abiertas
 
 - Dieciséis manuales conservan todavía títulos históricos, estados visibles o mensajes internos que no forman parte del contenido de estudio.
+- El manual del Tema 10 mantiene una contradicción verificable sobre la existencia del banco de preguntas.
 - Los manuales no modulares deben quedar con un único encabezado `#`.
 - Persisten llamadas destacadas no homogéneas frente al patrón `> ⚠️ **¡Foco Examen!:**`.
 - Deben validarse enlaces internos, esquemas finales y duplicidades.
@@ -97,10 +99,11 @@ Se mantiene en `SOLO_SEGUIMIENTO`, pendiente de decisión del usuario:
 
 ## Orden de trabajo vigente
 
-1. Continuar la normalización editorial de La Puebla desde el Tema 16.
-2. Validar enlaces, llamadas destacadas y esquemas finales de los Temas 13–15.
-3. Verificar el contrato del frontend para los bancos de los Temas 6 y 16.
-4. Completar la revisión transversal de los **20 temas UC3M**.
-5. Revisar transversalmente los **40 temas de Diputación**.
-6. Mantener seguimiento oficial de La Puebla, Diputación, UC3M y CPEIS.
-7. Cerrar OAPGT únicamente con fuente oficial íntegra y verificable.
+1. Corregir la contradicción y normalizar editorialmente el Tema 10 preservando su numeración y trazabilidad.
+2. Continuar la normalización editorial de La Puebla desde el Tema 16.
+3. Validar enlaces, llamadas destacadas y esquemas finales de los Temas 13–15.
+4. Verificar el contrato del frontend para los bancos de los Temas 6 y 16.
+5. Completar la revisión transversal de los **20 temas UC3M**.
+6. Revisar transversalmente los **40 temas de Diputación**.
+7. Mantener seguimiento oficial de La Puebla, Diputación, UC3M y CPEIS.
+8. Cerrar OAPGT únicamente con fuente oficial íntegra y verificable.
