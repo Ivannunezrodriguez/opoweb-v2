@@ -1,6 +1,6 @@
 # Auditoría transversal · La Puebla · Tema 11
 
-**Fecha:** 25 de julio de 2026  
+**Fecha:** 27 de julio de 2026  
 **Estado:** EN_REVISION
 
 ## Alcance revisado
@@ -15,7 +15,7 @@
 
 La cobertura coincide con el epígrafe oficial: recaudación local, periodo voluntario, aplazamiento y fraccionamiento, compensación, devolución de ingresos indebidos, periodo ejecutivo, providencia de apremio, embargo, enajenación, terminación y tercerías.
 
-Se ha contrastado la vigencia de las normas principales en el BOE:
+Se mantiene contrastada la vigencia de las normas principales:
 
 - TRLRHL: texto consolidado con última actualización publicada el **3 de junio de 2026**. La modificación de 2026 afecta a la disposición adicional decimosexta y no altera el núcleo recaudatorio utilizado en este tema.
 - Ley 58/2003, General Tributaria: texto consolidado con última actualización publicada el **21 de diciembre de 2024**.
@@ -31,22 +31,20 @@ No se detecta error jurídico material en las reglas examinadas. Se mantienen co
 - el plazo de **seis meses** para resolver la devolución de ingresos indebidos;
 - la prescripción general de **cuatro años**.
 
-## Error editorial corregido
+## Cambios verificados
 
-El manual declaraba que el banco de preguntas estaba vacío, aunque `preguntas.json` contenía **12 preguntas completas**. Además, el banco figuraba como `GENERADO_PENDIENTE_REVISION_USUARIO` pese a que el tema estaba aprobado.
+- `manual.md`: título principal y estado editorial normalizados.
+- `manual.md`: retirados los metadatos históricos de aprobación y el apartado interno `Estado real`.
+- `manual.md`: conservada la información de que el banco contiene **12 preguntas revisadas, justificadas y trazables**.
+- `matriz.json`: fecha de revisión normativa actualizada a `2026-07-27`.
+- `preguntas.json`: verificado sin modificación; mantiene estado `APROBADO_USUARIO`, versión `2026-07-25` y 12 preguntas.
 
-Se ha corregido:
+## Incidencias pendientes
 
-- `preguntas.json`: estado `APROBADO_USUARIO` y versión `2026-07-25`;
-- `manual.md`: fecha de revisión actualizada y estado real del banco corregido.
-
-## Incidencias pendientes de normalización global
-
-- El título conserva «Manual modular» en vez del patrón editorial definitivo.
-- El estado visible del manual usa una fórmula histórica distinta del esquema normalizado.
-- Los capítulos deben someterse después a la pasada común de encabezados y llamadas `> ⚠️ **¡Foco Examen!:**`.
-- Deben validarse automáticamente todos los enlaces internos del manual modular.
+- Validar conjuntamente los enlaces relativos de los seis capítulos, `articulos.md` y `feedback.md`.
+- Homogeneizar las llamadas destacadas de los capítulos al patrón OpoWeb cuando exista una trampa real.
+- Comprobar que el conjunto incluye un esquema final de repaso suficiente antes del cierre de fase 2.
 
 ## Conclusión
 
-Tema jurídicamente coherente y con una incidencia editorial real ya corregida. Permanece en `EN_REVISION` hasta la normalización global de estilo, enlaces y metadatos.
+Tema jurídicamente coherente y con portada y metadatos principales normalizados. Permanece en `EN_REVISION` hasta superar la validación de enlaces, llamadas y esquema final.
