@@ -30,7 +30,7 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 8 | EN_REVISION | Cobertura completa de la Ley 12/2010 y de la LO 3/2007, con advertencias sobre preceptos modificados, derogados y reglas específicas de AGE; matriz y 12 preguntas trazables; persisten portada histórica, varios `#`, estados, fechas y llamadas no homogéneos | Normalizar manual y metadatos preservando la cobertura artículo por artículo y las referencias |
 | 9 | EN_REVISION | Cobertura coherente de LOPDGDD y RGPD: principios, derechos, tratamientos, DPD, AEPD, procedimiento, sanciones públicas y derechos digitales; matriz y 12 preguntas trazables; persisten portada histórica, varios `#`, llamadas, estados y fechas desalineados | Normalizar manual y metadatos, alinear estado de `preguntas.json` y validar enlaces internos |
 | 10 | EN_REVISION | TRLRHL 6–12 y LGT 17–76 y 117–140 reconfirmados con BOE; matriz actualizada a 27/07/2026 y banco de 12 preguntas verificado; el manual afirma erróneamente que las preguntas no están creadas | Corregir la contradicción del manual y normalizar portada, encabezados, llamadas y enlaces preservando numeración y trazabilidad |
-| 11 | EN_REVISION | Cobertura coherente de recaudación voluntaria y ejecutiva, aplazamiento, compensación, devoluciones y apremio; vigencia contrastada con BOE; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar portada y estados, revisar llamadas de los capítulos y validar todos los enlaces internos |
+| 11 | EN_REVISION | Cobertura jurídica coherente; título principal y estado editorial normalizados; retirados los metadatos internos; matriz actualizada a 27/07/2026 y banco de 12 preguntas verificado | Validar enlaces de los seis capítulos, `articulos.md` y `feedback.md`; comprobar esquema final y llamadas destacadas |
 | 12 | EN_REVISION | Cobertura coherente de normas generales, IBI, IAE, IVTM e IIVTNU; vigencia contrastada con el TRLRHL actualizado a 03/06/2026; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y estado visibles, revisar llamadas y validar enlaces de los bloques modulares |
 | 13 | EN_REVISION | Cobertura jurídica coherente; título principal y estado visible normalizados; retirados del manual los metadatos internos del proceso; banco con 12 preguntas trazables | Validar enlaces de los cinco bloques, trazabilidad y revisión; comprobar esquema final y llamadas destacadas |
 | 14 | EN_REVISION | Cobertura jurídica coherente; título principal y estado visible normalizados; retirados los metadatos internos del proceso; Ley 40/2015 y artículo 55 bis contrastados; banco con 12 preguntas trazables | Validar enlaces de los cinco bloques, `articulos.md` y `feedback.md`; comprobar esquema final y llamadas destacadas |
@@ -42,7 +42,7 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 
 ### Hallazgo transversal confirmado en los temas 1 a 19
 
-Dieciséis manuales conservan todavía elementos históricos que no aportan contenido de examen; los Temas 13, 14 y 15 ya tienen portada y estado visible normalizados:
+Quince manuales conservan todavía elementos históricos que no aportan contenido de examen; los Temas 11, 13, 14 y 15 ya tienen portada y estado visible normalizados:
 
 - títulos como «Manual reconstruido» o «Manual modular»;
 - estados visibles no alineados con los estados permitidos del proyecto;
@@ -53,7 +53,7 @@ En los temas 3 a 19 se añade una falta de homogeneidad en las llamadas destacad
 
 Los Temas 6 y 16 añaden una incidencia técnica: sus bancos usan la clave `pregunta`, mientras otros temas usan `enunciado`. La normalización debe esperar a verificar el contrato real del frontend.
 
-En los Temas 11 a 19 se confirmó una contradicción verificable: sus manuales declaraban vacío un banco que ya contenía 12 preguntas. La contradicción ha quedado corregida en todos esos temas. En el Tema 10 se ha detectado ahora una contradicción equivalente en su apartado final: declara que las preguntas no están creadas, aunque el banco contiene 12 preguntas aprobadas.
+En los Temas 11 a 19 se confirmó una contradicción verificable: sus manuales declaraban vacío un banco que ya contenía 12 preguntas. La contradicción ha quedado corregida en todos esos temas. En el Tema 10 permanece una contradicción equivalente en su apartado final: declara que las preguntas no están creadas, aunque el banco contiene 12 preguntas aprobadas.
 
 En los Temas 17 y 18 se confirmó que determinados métodos abreviados dependen del idioma, versión, personalización o distribución del teclado. Se eliminaron del manual, del banco cuando procedía y de las matrices las reglas absolutas que podían inducir a error.
 
