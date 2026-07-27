@@ -1,8 +1,7 @@
-# La Puebla de Montalbán · Tema 11 · Manual modular
+# Tema 11 · Recaudación de los tributos locales
 
-**Estado:** APROBADO POR EL USUARIO  
-**Publicado tras aprobación expresa.**  
-**Fecha de revisión normativa:** 25 de julio de 2026.
+**Estado editorial:** `PUBLICADO`  
+**Fecha de revisión normativa:** 27 de julio de 2026.
 
 > **Tema 11. La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.**
 
@@ -72,14 +71,4 @@ El tema 10 ya desarrolla obligaciones, obligados, deuda y procedimientos de gest
 - normativa concursal completa;
 - detalle técnico íntegro de cada tipo de subasta.
 
-## Estado real
-
-- Manual modular: creado y aprobado.
-- Desarrollo artículo por artículo: distribuido en seis capítulos.
-- Matriz y trazabilidad: documentos separados.
-- Banco de preguntas: **12 preguntas revisadas y alineadas con el estado aprobado**.
-- Revisión del usuario: aprobada el 17 de julio de 2026.
-- Tema cerrado: **SÍ, aprobado por el usuario**.
-- Publicación como aprobado: **SÍ**.
-
-**Aprobación registrada:** «Tema 11 aprobado», 17 de julio de 2026.
+El banco asociado contiene **12 preguntas revisadas, justificadas y trazables**.
