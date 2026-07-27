@@ -1,6 +1,6 @@
 # Seguimiento de la revisión transversal · Fase 2
 
-Última actualización: **26 de julio de 2026**.
+Última actualización: **27 de julio de 2026**.
 
 Este documento registra el avance verificable de la fase 2. Un tema solo se marca como cerrado cuando supera todos los controles definidos en `EDITORIAL_GUIDE.md`.
 
@@ -34,7 +34,7 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 | 12 | EN_REVISION | Cobertura coherente de normas generales, IBI, IAE, IVTM e IIVTNU; vigencia contrastada con el TRLRHL actualizado a 03/06/2026; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y estado visibles, revisar llamadas y validar enlaces de los bloques modulares |
 | 13 | EN_REVISION | Cobertura jurídica coherente; título principal y estado visible normalizados; retirados del manual los metadatos internos del proceso; banco con 12 preguntas trazables | Validar enlaces de los cinco bloques, trazabilidad y revisión; comprobar esquema final y llamadas destacadas |
 | 14 | EN_REVISION | Cobertura jurídica coherente; título principal y estado visible normalizados; retirados los metadatos internos del proceso; Ley 40/2015 y artículo 55 bis contrastados; banco con 12 preguntas trazables | Validar enlaces de los cinco bloques, `articulos.md` y `feedback.md`; comprobar esquema final y llamadas destacadas |
-| 15 | EN_REVISION | Cobertura técnica coherente de Explorador, archivos, carpetas, unidades locales y de red, impresión y digitalización; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título y llamadas y validar enlaces de los cinco bloques y fuentes |
+| 15 | EN_REVISION | Cobertura técnica contrastada con Microsoft; título principal y estado visible normalizados; retirados los metadatos internos; banco con 12 preguntas trazables | Validar enlaces de los cinco bloques, `fuentes.md`, `feedback.md` y `aprobacion.md`; comprobar esquema final y llamadas destacadas |
 | 16 | EN_REVISION | Cobertura técnica coherente de Edge, Internet Explorer 11 y modo IE; soporte y funcionamiento contrastados con Microsoft; corregidos el estado del banco y la afirmación errónea de que estaba vacío | Normalizar título, validar enlaces y verificar el contrato del frontend antes de unificar la clave `pregunta` |
 | 17 | EN_REVISION | Cobertura técnica coherente de Word y Writer; corregidas equivalencias absolutas de atajos localizados, sustituidas dos preguntas ambiguas y alineada `matriz.json`; el banco y el manual reflejan 12 preguntas | Normalizar título y validar enlaces de los cinco bloques y fuentes |
 | 18 | EN_REVISION | Cobertura técnica coherente de Excel y Calc; fórmulas, referencias, funciones, filtros, tablas dinámicas, gráficos y formatos revisados; corregidos el estado del banco, la afirmación errónea de que estaba vacío y los atajos localizados de `matriz.json` | Normalizar título y validar enlaces de los cinco bloques y fuentes |
@@ -42,7 +42,7 @@ Este documento registra el avance verificable de la fase 2. Un tema solo se marc
 
 ### Hallazgo transversal confirmado en los temas 1 a 19
 
-Diecisiete manuales conservan todavía elementos históricos que no aportan contenido de examen; los Temas 13 y 14 ya tienen portada y estado visible normalizados:
+Dieciséis manuales conservan todavía elementos históricos que no aportan contenido de examen; los Temas 13, 14 y 15 ya tienen portada y estado visible normalizados:
 
 - títulos como «Manual reconstruido» o «Manual modular»;
 - estados visibles no alineados con los estados permitidos del proyecto;
