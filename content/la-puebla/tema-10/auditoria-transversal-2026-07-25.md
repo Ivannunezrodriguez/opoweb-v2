@@ -1,6 +1,6 @@
 # Auditoría transversal · La Puebla · Tema 10
 
-**Fecha:** 25 de julio de 2026  
+**Fecha:** 27 de julio de 2026  
 **Estado:** EN_REVISION
 
 ## Alcance comprobado
@@ -24,9 +24,9 @@ La cobertura es coherente con el epígrafe oficial:
 - composición y formas de extinción de la deuda;
 - procedimientos de gestión de los artículos 117 a 140 LGT.
 
-Se confirma que el TRLRHL consultado incorpora como última actualización la publicada el **3 de junio de 2026**. La reforma de 2026 afecta a la disposición adicional decimosexta y no altera el núcleo de los artículos 6 a 12 desarrollado en este tema.
+El BOE mantiene para el TRLRHL como última actualización consolidada la publicada el **3 de junio de 2026**. La reforma de 2026 no altera el núcleo de los artículos 6 a 12 desarrollado en este tema.
 
-La LGT mantiene como última actualización consolidada la publicada el **21 de diciembre de 2024**. Se han contrastado, en particular:
+La LGT mantiene como última actualización consolidada la publicada el **21 de diciembre de 2024**. Se han contrastado nuevamente:
 
 - plazo general de prescripción de **cuatro años**;
 - recargos por declaración extemporánea;
@@ -34,25 +34,25 @@ La LGT mantiene como última actualización consolidada la publicada el **21 de 
 - funciones y procedimientos de gestión tributaria;
 - distinción entre declaración y autoliquidación.
 
-No se detecta una incorrección jurídica material que obligue a reescribir el contenido sustantivo.
+No se detecta una incorrección jurídica material que obligue a modificar el contenido sustantivo.
 
-## Corrección realizada
+## Verificación de matriz y banco
 
-`preguntas.json` mantenía el estado `GENERADO_PENDIENTE_REVISION_USUARIO`, pese a que el manual y la matriz constan aprobados el 17 de julio de 2026. Se ha normalizado a:
+- `matriz.json` cubre todos los incisos del epígrafe y se ha actualizado a fecha de revisión normativa `2026-07-27`.
+- `preguntas.json` está en estado `APROBADO_USUARIO`, versión `2026-07-25`, con **12 preguntas**, respuesta única, justificación, trampa y referencia.
+- No se han modificado preguntas porque no se ha localizado ambigüedad ni respuesta jurídicamente incorrecta.
 
-- `estado`: `APROBADO_USUARIO`;
-- `version`: `2026-07-25`.
+## Incidencia real detectada
 
-No se han modificado enunciados, respuestas, justificaciones ni referencias.
+El apartado final de `manual.md` todavía afirma **«Preguntas trazables: no creadas todavía»**, pero `preguntas.json` contiene **12 preguntas aprobadas y trazables**. La contradicción debe corregirse durante la normalización del manual.
 
-## Incidencias editoriales pendientes
+También permanecen pendientes:
 
-- El título conserva el sufijo «Manual reconstruido».
-- Existen varios encabezados de nivel `#` dentro del documento.
-- Las llamadas destacadas usan fórmulas diferentes de `> ⚠️ **¡Foco Examen!:**`.
-- La portada mezcla información histórica de aprobación con contenido de estudio.
-- Deben comprobarse los enlaces internos antes del cierre de fase 2.
+- retirar el sufijo histórico «Manual reconstruido» y los metadatos internos de aprobación;
+- dejar un único encabezado principal `#`;
+- homogeneizar las llamadas destacadas al patrón `> ⚠️ **¡Foco Examen!:**`;
+- validar enlaces internos y referencias preservando la numeración utilizada por el banco.
 
 ## Criterio de cierre
 
-El tema queda `EN_REVISION`. La normalización editorial deberá preservar la numeración de apartados, porque las preguntas remiten al manual mediante referencias internas.
+El Tema 10 permanece en `EN_REVISION`. La revisión jurídica, la matriz y el banco quedan verificadas; el cierre de fase 2 exige corregir la contradicción del manual y completar la normalización editorial sin romper su trazabilidad interna.
