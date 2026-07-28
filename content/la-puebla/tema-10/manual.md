@@ -1,9 +1,7 @@
-# La Puebla de Montalbán · Tema 10 · Manual reconstruido
+# Tema 10 · Principios de tributación local y gestión tributaria
 
-**Estado:** APROBADO POR EL USUARIO  
-**Publicado tras aprobación expresa.**  
-**Fecha de revisión normativa:** 17 de julio de 2026.  
-**Aprobado por el usuario:** 17 de julio de 2026.
+**Estado editorial:** `PUBLICADO`  
+**Fecha de revisión normativa:** 28 de julio de 2026.
 
 > **Tema 10. Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.**
 
@@ -58,7 +56,7 @@ Los reglamentos se utilizan solo para aclarar la operativa. El núcleo de este t
 
 ---
 
-# PARTE I · PRINCIPIOS DE TRIBUTACIÓN LOCAL
+## PARTE I · PRINCIPIOS DE TRIBUTACIÓN LOCAL
 
 ## 3. Fundamento constitucional
 
@@ -137,13 +135,11 @@ Tampoco pueden afectar efectivamente a la fijación de residencia o a la ubicaci
 
 La ordenación urbanística municipal sigue siendo posible. Lo prohibido es utilizar el tributo como barrera territorial injustificada.
 
-### Idea de examen
-
-El artículo 6 no enumera todos los principios tributarios constitucionales. Regula límites territoriales específicos de la tributación local.
+> ⚠️ **¡Foco Examen!:** El artículo 6 no enumera todos los principios tributarios constitucionales. Regula límites territoriales específicos de la tributación local.
 
 ---
 
-# PARTE II · DELEGACIÓN Y COLABORACIÓN
+## PARTE II · DELEGACIÓN Y COLABORACIÓN
 
 ## 6. Artículo 7 TRLRHL · delegación
 
@@ -184,9 +180,7 @@ Los actos dictados se impugnan conforme al régimen correspondiente al ente gest
 
 Quien haya asumido facultades delegadas puede ejercerlas en todo su ámbito territorial e incluso realizar actuaciones en territorios de otras entidades locales, de acuerdo con la ley.
 
-### Diferencia esencial
-
-**Delegación** significa que otra Administración ejerce facultades atribuidas a la entidad local. La titularidad del ingreso sigue siendo local.
+> ⚠️ **¡Foco Examen!:** **Delegación** significa que otra Administración ejerce facultades atribuidas a la entidad local. La titularidad del ingreso sigue siendo local.
 
 ## 7. Artículo 8 TRLRHL · colaboración
 
@@ -228,7 +222,7 @@ Las actuaciones de inspección o recaudación ejecutiva fuera del territorio de 
 
 ---
 
-# PARTE III · BENEFICIOS FISCALES Y COMPENSACIÓN
+## PARTE III · BENEFICIOS FISCALES Y COMPENSACIÓN
 
 ## 8. Artículo 9 TRLRHL · reserva legal
 
@@ -312,7 +306,7 @@ Las ordenanzas pueden adaptar esa normativa a la organización interna local, pe
 
 ---
 
-# PARTE IV · OBLIGACIONES TRIBUTARIAS
+## PARTE IV · OBLIGACIONES TRIBUTARIAS
 
 ## 13. Artículo 17 LGT · relación jurídico-tributaria
 
@@ -483,7 +477,7 @@ Entre otros derechos:
 
 ---
 
-# PARTE V · OBLIGADOS TRIBUTARIOS
+## PARTE V · OBLIGADOS TRIBUTARIOS
 
 ## 22. Artículo 35 · concepto y clases
 
@@ -629,7 +623,7 @@ El cambio debe comunicarse. No produce efectos frente a la Administración hasta
 
 ---
 
-# PARTE VI · DEUDA TRIBUTARIA Y EXTINCIÓN
+## PARTE VI · DEUDA TRIBUTARIA Y EXTINCIÓN
 
 ## 30. Artículo 58 · composición de la deuda
 
@@ -770,7 +764,7 @@ No es condonación ni extinción definitiva. Pueden rehabilitarse dentro del pla
 
 ---
 
-# PARTE VII · PROCEDIMIENTOS DE GESTIÓN TRIBUTARIA
+## PARTE VII · PROCEDIMIENTOS DE GESTIÓN TRIBUTARIA
 
 ## 36. Artículo 117 · funciones de gestión
 
@@ -950,7 +944,7 @@ Tras resolución, la Administración no puede volver a regularizar el mismo obje
 
 ---
 
-# PARTE VIII · DIFERENCIAS QUE DEBEN DOMINARSE
+## PARTE VIII · DIFERENCIAS QUE DEBEN DOMINARSE
 
 ## 45. Obligación, deuda y sanción
 
@@ -994,7 +988,7 @@ Tras resolución, la Administración no puede volver a regularizar el mismo obje
 
 ---
 
-# PARTE IX · SUPUESTOS PRÁCTICOS
+## PARTE IX · SUPUESTOS PRÁCTICOS
 
 ## 49. Bonificación creada sin habilitación
 
@@ -1064,7 +1058,7 @@ El artículo 140 impide una segunda regularización del mismo objeto salvo hecho
 
 ---
 
-# PARTE X · CIFRAS Y ERRORES FRECUENTES
+## PARTE X · CIFRAS Y ERRORES FRECUENTES
 
 ## 60. Cifras esenciales
 
@@ -1142,7 +1136,7 @@ El artículo 140 impide una segunda regularización del mismo objeto salvo hecho
 
 ---
 
-# PARTE XI · FUENTES Y ESTADO
+## PARTE XI · FUENTES Y ESTADO
 
 ## 63. Fuentes oficiales
 
@@ -1154,18 +1148,3 @@ El artículo 140 impide una segunda regularización del mismo objeto salvo hecho
 - Real Decreto 1065/2007, complemento reglamentario de gestión.
 - Real Decreto 939/2005, complemento reglamentario de recaudación.
 
-## 64. Estado real
-
-- Epígrafe literal: comprobado.
-- TRLRHL artículos 6–12: desarrollados en alcance exigible.
-- LGT artículos 17–34: obligaciones desarrolladas.
-- LGT artículos 35–48: obligados desarrollados.
-- LGT artículos 58–76: deuda y extinción desarrolladas.
-- LGT artículos 117–140: procedimientos de gestión desarrollados.
-- Solapamiento con temas 11 y 12: delimitado.
-- Preguntas trazables: no creadas todavía.
-- Revisión del usuario: aprobada el 17 de julio de 2026.
-- Tema cerrado: **SÍ, aprobado por el usuario**.
-- Publicación como aprobado: **SÍ**.
-
-El usuario aprobó expresamente el tema con la respuesta **«Tema 10 aprobado»**.

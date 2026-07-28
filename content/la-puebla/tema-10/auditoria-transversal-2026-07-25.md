@@ -1,6 +1,6 @@
 # Auditoría transversal · La Puebla · Tema 10
 
-**Fecha:** 27 de julio de 2026  
+**Fecha:** 28 de julio de 2026  
 **Estado:** EN_REVISION
 
 ## Alcance comprobado
@@ -56,3 +56,15 @@ También permanecen pendientes:
 ## Criterio de cierre
 
 El Tema 10 permanece en `EN_REVISION`. La revisión jurídica, la matriz y el banco quedan verificadas; el cierre de fase 2 exige corregir la contradicción del manual y completar la normalización editorial sin romper su trazabilidad interna.
+
+
+## Revisión editorial de 28 de julio de 2026
+
+- Corregida la contradicción del apartado final: el banco contiene **12 preguntas aprobadas y trazables**.
+- Normalizados el título principal y el estado visible a `PUBLICADO`.
+- Retirados los metadatos internos de aprobación y el apartado `Estado real`.
+- Corregida la jerarquía de las once partes para conservar un único encabezado `#`.
+- Normalizadas las llamadas «Idea de examen» y «Diferencia esencial» al patrón `> ⚠️ **¡Foco Examen!:**`.
+- Reconfirmada la vigencia del TRLRHL (actualización consolidada de **3 de junio de 2026**) y de la LGT (actualización consolidada de **21 de diciembre de 2024**).
+
+Permanece pendiente la validación sistemática de enlaces internos y la revisión completa de todas las llamadas destacadas antes del cierre de fase 2.
