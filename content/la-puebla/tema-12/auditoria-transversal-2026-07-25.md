@@ -1,6 +1,6 @@
 # Auditoría transversal · La Puebla · Tema 12
 
-Fecha: **25 de julio de 2026**.
+Fecha: **28 de julio de 2026**.
 
 ## Alcance revisado
 
@@ -21,7 +21,7 @@ El tema cubre de forma coherente el epígrafe oficial:
 - IIVTNU;
 - naturaleza, hecho imponible, no sujeción y sujetos pasivos.
 
-La referencia oficial utilizada es `BOE-A-2004-4214`, cuyo texto consolidado consultado incorpora como última actualización la publicada el **3 de junio de 2026**.
+La referencia oficial utilizada es `BOE-A-2004-4214`, cuyo texto consolidado mantiene como última actualización la publicada el **3 de junio de 2026**.
 
 No se detecta error jurídico material en las reglas revisadas. Se consideran correctas, entre otras:
 
@@ -29,22 +29,23 @@ No se detecta error jurídico material en las reglas revisadas. Se consideran co
 - la prelación de derechos del IBI;
 - el mero ejercicio de actividad como hecho imponible del IAE;
 - el titular registral como sujeto pasivo del IVTM;
-- la no sujeción de remolques y semirremolques con carga útil no superior a 750 kg;
+- la no sujeción de remolques y semirremolques con carga útil no superior a **750 kg**;
 - las reglas de contribuyente y sustituto en el IIVTNU.
 
 ## Correcciones realizadas
 
-1. Se corrigió el estado de `preguntas.json` de `GENERADO_PENDIENTE_REVISION_USUARIO` a `APROBADO_USUARIO`.
-2. Se actualizó la versión del banco a `2026-07-25`.
-3. Se corrigió en `manual.md` la afirmación de que el banco estaba vacío: contiene 12 preguntas completas, trazables y alineadas con el estado aprobado.
-4. Se actualizó la fecha de revisión transversal del manual.
+1. Se mantiene `preguntas.json` en `APROBADO_USUARIO`, con **12 preguntas** revisadas y trazables.
+2. Se normalizó el título principal del manual y el estado editorial a `PUBLICADO`.
+3. Se retiraron los metadatos internos de aprobación y el apartado histórico `Estado real`.
+4. Se actualizó la fecha de revisión normativa al **28 de julio de 2026**.
+5. Se incorporó un bloque editorial limpio sobre el banco de preguntas.
 
-## Incidencias editoriales pendientes
+## Incidencias pendientes
 
-- El título conserva la etiqueta histórica «Manual modular».
-- El estado visible sigue expresado como «APROBADO POR EL USUARIO», no con el identificador editorial normalizado.
-- Debe validarse en una pasada posterior la homogeneidad de llamadas y enlaces entre bloques.
+- Validación automatizada de los enlaces a los cinco bloques, `articulos.md` y `feedback.md`.
+- Homogeneización de llamadas destacadas al patrón `> ⚠️ **¡Foco Examen!:**`.
+- Comprobación de esquema final de repaso.
 
 ## Estado de fase 2
 
-**EN_REVISION**. La cobertura jurídica y el banco quedan revisados; permanece pendiente la normalización editorial transversal definitiva.
+**EN_REVISION**. La cobertura jurídica, la portada y el banco quedan revisados; permanecen abiertos los controles finales de enlaces, llamadas y esquema.
