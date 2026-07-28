@@ -1,0 +1,66 @@
+name: Normalizar Tema 10 una vez
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Aplicar correcciones verificadas
+        shell: python
+        run: |
+          from pathlib import Path
+
+          manual_path = Path('content/la-puebla/tema-10/manual.md')
+          text = manual_path.read_text(encoding='utf-8')
+          text = text.replace(
+              '# La Puebla de Montalbán · Tema 10 · Manual reconstruido\n\n'
+              '**Estado:** APROBADO POR EL USUARIO  \n'
+              '**Publicado tras aprobación expresa.**  \n'
+              '**Fecha de revisión normativa:** 17 de julio de 2026.  \n'
+              '**Aprobado por el usuario:** 17 de julio de 2026.\n',
+              '# Tema 10 · Principios de tributación local y gestión tributaria\n\n'
+              '**Estado editorial:** `PUBLICADO`  \n'
+              '**Fecha de revisión normativa:** 28 de julio de 2026.\n'
+          )
+          text = text.replace('# PARTE ', '## PARTE ')
+          text = text.replace('## 64. Estado real\n\n- Epígrafe literal: comprobado.\n- TRLRHL artículos 6–12: desarrollados en alcance exigible.\n- LGT artículos 17–34: obligaciones desarrolladas.\n- LGT artículos 35–48: obligados desarrollados.\n- LGT artículos 58–76: deuda y extinción desarrolladas.\n- LGT artículos 117–140: procedimientos de gestión desarrollados.\n- Solapamiento con temas 11 y 12: delimitado.\n- Preguntas trazables: no creadas todavía.\n- Revisión del usuario: aprobada el 17 de julio de 2026.\n- Tema cerrado: **SÍ, aprobado por el usuario**.\n- Publicación como aprobado: **SÍ**.\n\nEl usuario aprobó expresamente el tema con la respuesta **«Tema 10 aprobado»**.\n', '')
+          text = text.replace('### Idea de examen\n\nEl artículo 6 no enumera todos los principios tributarios constitucionales. Regula límites territoriales específicos de la tributación local.', '> ⚠️ **¡Foco Examen!:** El artículo 6 no enumera todos los principios tributarios constitucionales. Regula límites territoriales específicos de la tributación local.')
+          text = text.replace('### Diferencia esencial\n\n**Delegación** significa que otra Administración ejerce facultades atribuidas a la entidad local. La titularidad del ingreso sigue siendo local.', '> ⚠️ **¡Foco Examen!:** **Delegación** significa que otra Administración ejerce facultades atribuidas a la entidad local. La titularidad del ingreso sigue siendo local.')
+          manual_path.write_text(text, encoding='utf-8')
+
+          audit_path = Path('content/la-puebla/tema-10/auditoria-transversal-2026-07-25.md')
+          audit = audit_path.read_text(encoding='utf-8')
+          audit = audit.replace('**Fecha:** 27 de julio de 2026', '**Fecha:** 28 de julio de 2026')
+          audit += '''\n\n## Revisión editorial de 28 de julio de 2026\n\n- Corregida la contradicción del apartado final: el banco contiene **12 preguntas aprobadas y trazables**.\n- Normalizados el título principal y el estado visible a `PUBLICADO`.\n- Retirados los metadatos internos de aprobación y el apartado `Estado real`.\n- Corregida la jerarquía de las once partes para conservar un único encabezado `#`.\n- Normalizadas las llamadas «Idea de examen» y «Diferencia esencial» al patrón `> ⚠️ **¡Foco Examen!:**`.\n- Reconfirmada la vigencia del TRLRHL (actualización consolidada de **3 de junio de 2026**) y de la LGT (actualización consolidada de **21 de diciembre de 2024**).\n\nPermanece pendiente la validación sistemática de enlaces internos y la revisión completa de todas las llamadas destacadas antes del cierre de fase 2.\n'''
+          audit_path.write_text(audit, encoding='utf-8')
+
+          trans_path = Path('TRANSVERSAL_REVIEW.md')
+          trans = trans_path.read_text(encoding='utf-8')
+          trans = trans.replace(
+              '| 10 | EN_REVISION | TRLRHL 6–12 y LGT 17–76 y 117–140 reconfirmados con BOE; matriz actualizada a 27/07/2026 y banco de 12 preguntas verificado; el manual afirma erróneamente que las preguntas no están creadas | Corregir la contradicción del manual y normalizar portada, encabezados, llamadas y enlaces preservando numeración y trazabilidad |',
+              '| 10 | EN_REVISION | TRLRHL 6–12 y LGT 17–76 y 117–140 reconfirmados con BOE; contradicción del banco corregida; título, estado visible y jerarquía de partes normalizados; 12 preguntas aprobadas y trazables | Validar enlaces internos, completar la homogeneización de llamadas destacadas y comprobar el esquema final |'
+          )
+          trans = trans.replace('Quince manuales conservan todavía elementos históricos que no aportan contenido de examen; los Temas 11, 13, 14 y 15 ya tienen portada y estado visible normalizados:', 'Catorce manuales conservan todavía elementos históricos que no aportan contenido de examen; los Temas 10, 11, 13, 14 y 15 ya tienen portada y estado visible normalizados:')
+          trans = trans.replace('En el Tema 10 permanece una contradicción equivalente en su apartado final: declara que las preguntas no están creadas, aunque el banco contiene 12 preguntas aprobadas.', 'La contradicción equivalente del Tema 10 también ha quedado corregida: el manual refleja ya el banco de 12 preguntas aprobadas y trazables.')
+          trans_path.write_text(trans, encoding='utf-8')
+
+          workflow = Path('.github/workflows/normalize-tema10-once.yml')
+          if workflow.exists():
+              workflow.unlink()
+      - name: Commit de cambios reales
+        run: |
+          git config user.name "OpoWeb Audit Bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add content/la-puebla/tema-10/manual.md content/la-puebla/tema-10/auditoria-transversal-2026-07-25.md TRANSVERSAL_REVIEW.md .github/workflows/normalize-tema10-once.yml
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Normaliza y corrige la revisión transversal del Tema 10"
+          git push
