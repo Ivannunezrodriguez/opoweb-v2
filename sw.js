@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.27.20';
+const CACHE = 'opoweb-v2-0.27.21';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -24,77 +24,46 @@ const CORE_ASSETS = [
   './data/programa-diputacion-administrativo-2026.json',
   './data/programa-uc3m-auxiliar-administrativa-2026.json',
   './data/seguimiento-la-puebla.json',
-  './data/seguimiento-diputacion-c1.json',
-  './content/la-puebla/supuestos-practicos.json',
-  './content/la-puebla/simulacros.json',
-  './content/diputacion-toledo/supuestos-practicos.json',
-  './content/diputacion-toledo/simulacros.json'
+  './data/seguimiento-diputacion-c1.json'
 ];
 
-async function programmeAssets(url, contentRoot, availableThemes) {
-  try {
-    const response = await fetch(url, { cache: 'no-cache' });
-    if (!response.ok) return [];
-    const programme = await response.json();
-    const paths = new Set();
-    programme.temas.forEach(theme => {
-      ['manual', 'matriz', 'aprobacion', 'preguntas', 'trazabilidad', 'feedback', 'fuentes'].forEach(key => {
-        if (theme[key]) paths.add(`./${theme[key]}`);
-      });
-      ['capitulos', 'subcapitulos', 'trazabilidadDetallada'].forEach(key => {
-        (theme[key] || []).forEach(path => paths.add(`./${path}`));
-      });
-      if (!theme.manual && theme.numero <= availableThemes) {
-        const folder = `tema-${String(theme.numero).padStart(2, '0')}`;
-        paths.add(`./${contentRoot}/${folder}/manual.md`);
-        paths.add(`./${contentRoot}/${folder}/fuentes.md`);
-        paths.add(`./${contentRoot}/${folder}/matriz.json`);
-        paths.add(`./${contentRoot}/${folder}/preguntas.json`);
-      }
-    });
-    return [...paths];
-  } catch (_) {
-    return [];
-  }
-}
-
-async function optionalAssets() {
-  const groups = await Promise.all([
-    programmeAssets('./data/programa.json', 'content/la-puebla', 19),
-    programmeAssets('./data/programa-diputacion-administrativo-2026.json', 'content/diputacion-toledo', 40),
-    programmeAssets('./data/programa-uc3m-auxiliar-administrativa-2026.json', 'content/uc3m', 20)
-  ]);
-  return [...new Set(groups.flat())];
-}
-
 self.addEventListener('install', event => {
-  event.waitUntil((async () => {
-    const cache = await caches.open(CACHE);
-    await cache.addAll(CORE_ASSETS);
-    const assets = await optionalAssets();
-    await Promise.allSettled(assets.map(path => cache.add(path)));
-  })());
+  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE_ASSETS)));
   self.skipWaiting();
 });
 
 self.addEventListener('activate', event => {
-  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key)))));
+  event.waitUntil(
+    caches.keys().then(keys => Promise.all(keys.filter(key => key !== CACHE).map(key => caches.delete(key))))
+  );
   self.clients.claim();
 });
 
+async function networkFirst(request) {
+  const cache = await caches.open(CACHE);
+  try {
+    const response = await fetch(request);
+    if (response.ok) cache.put(request, response.clone());
+    return response;
+  } catch (_) {
+    return (await cache.match(request)) || caches.match('./index.html');
+  }
+}
+
+async function cacheFirst(request) {
+  const cache = await caches.open(CACHE);
+  const cached = await cache.match(request);
+  if (cached) return cached;
+  const response = await fetch(request);
+  if (response.ok) cache.put(request, response.clone());
+  return response;
+}
+
 self.addEventListener('fetch', event => {
   if (event.request.method !== 'GET') return;
-  event.respondWith((async () => {
-    const cached = await caches.match(event.request);
-    try {
-      const response = await fetch(event.request);
-      if (response.ok) {
-        const cache = await caches.open(CACHE);
-        cache.put(event.request, response.clone());
-      }
-      return response;
-    } catch (_) {
-      return cached || caches.match('./index.html');
-    }
-  })());
+  const url = new URL(event.request.url);
+  const dynamicContent = event.request.mode === 'navigate' ||
+    /\.(?:js|json|md|html)$/i.test(url.pathname);
+
+  event.respondWith(dynamicContent ? networkFirst(event.request) : cacheFirst(event.request));
 });
