@@ -1,6 +1,7 @@
 const app = document.querySelector('#app');
 const THEME_KEY = 'opoweb-theme';
 const SELECTED_CALL_KEY = 'opoweb-selected-convocatoria';
+const REQUEST_TIMEOUT_MS = 12000;
 
 const CALLS = [
   {
@@ -36,6 +37,8 @@ const CALLS = [
 let activeCall = null;
 let activeProgramme = null;
 let activeTracking = null;
+let activeSearchQuery = '';
+let searchBuildToken = 0;
 const searchIndex = new Map();
 
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
@@ -140,6 +143,16 @@ function normalise(value) {
   return String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
 }
 
+async function fetchWithTimeout(url, options = {}, timeout = REQUEST_TIMEOUT_MS) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeout);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
 function setTheme(theme) {
   document.documentElement.dataset.theme = theme;
   localStorage.setItem(THEME_KEY, theme);
@@ -185,17 +198,31 @@ function updateHeader() {
   if (practice) practice.hidden = !activeCall.practiceUrl;
 }
 
-async function buildSearchIndex(programme) {
+function initialiseSearchIndex(programme) {
   searchIndex.clear();
+  programme.temas.forEach(theme => searchIndex.set(theme.numero, normalise(theme.titulo)));
+}
+
+async function buildSearchIndexInBackground(programme) {
+  const token = ++searchBuildToken;
   const available = programme.temas.filter(isThemeAvailable);
-  await Promise.all(available.map(async theme => {
-    let manualText = '';
-    try {
-      const response = await fetch(themePath(theme, 'manual'), { cache: 'no-cache' });
-      if (response.ok) manualText = await response.text();
-    } catch (_) {}
-    searchIndex.set(theme.numero, normalise(`${theme.titulo}\n${manualText}`));
-  }));
+  const concurrency = 3;
+  let cursor = 0;
+
+  async function worker() {
+    while (cursor < available.length && token === searchBuildToken) {
+      const theme = available[cursor++];
+      try {
+        const response = await fetchWithTimeout(themePath(theme, 'manual'), { cache: 'force-cache' }, 8000);
+        if (response.ok && token === searchBuildToken) {
+          const manualText = await response.text();
+          searchIndex.set(theme.numero, normalise(`${theme.titulo}\n${manualText}`));
+        }
+      } catch (_) {}
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(concurrency, available.length) }, worker));
 }
 
 function sourceText(programme) {
@@ -214,7 +241,8 @@ function renderTracking() {
   return `<section class="panel tracking-panel"><div class="section-heading"><div><p class="eyebrow section-eyebrow">Seguimiento personal</p><h2>Plazos y estado de la OPE</h2></div><span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Estoy apuntado' : 'Inscripción no confirmada'}</span></div><div class="personal-status"><div><span>Estado</span><strong>${escapeHtml(personal.estado)}</strong></div><div><span>Convocatoria</span><strong>4 plazas · C2 · concurso-oposición libre</strong></div></div><p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad)}</p></section>`;
 }
 
-function renderProgramme(query = '') {
+function renderProgramme(query = activeSearchQuery) {
+  activeSearchQuery = query;
   const themes = activeProgramme.temas;
   const available = themes.filter(isThemeAvailable).length;
   const pending = themes.length - available;
@@ -223,9 +251,13 @@ function renderProgramme(query = '') {
     ? themes.filter(theme => normalise(theme.titulo).includes(term) || searchIndex.get(theme.numero)?.includes(term))
     : themes;
 
-  app.innerHTML = `<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>Programa oficial de <strong>${themes.length} temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>temas oficiales</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${pending}</strong><span>pendientes</span></div></div></section>${renderTracking()}<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca en títulos y en el contenido de los manuales disponibles.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
+  app.innerHTML = `<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>Programa oficial de <strong>${themes.length} temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>temas oficiales</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${pending}</strong><span>pendientes</span></div></div></section>${renderTracking()}<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca en títulos al instante; el contenido se indexa en segundo plano.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
 
-  document.querySelector('#call-selector')?.addEventListener('change', event => loadCall(event.target.value));
+  document.querySelector('#call-selector')?.addEventListener('change', event => {
+    activeSearchQuery = '';
+    history.pushState({ view: 'programme', callId: event.target.value }, '', location.pathname);
+    loadCall(event.target.value);
+  });
   document.querySelector('#theme-search')?.addEventListener('input', event => renderProgramme(event.target.value));
   document.querySelectorAll('[data-theme]').forEach(button => {
     button.addEventListener('click', () => {
@@ -274,52 +306,110 @@ function activateTest(questions) {
   });
 }
 
-async function openTheme(theme) {
-  history.replaceState(null, '', `#${activeCall.id}/tema-${theme.numero}`);
-  app.innerHTML = `<div class="toolbar sticky-toolbar"><button id="back" class="btn secondary" type="button">← Programa</button><button id="top" class="btn secondary" type="button">↑ Inicio</button></div><section class="panel">${badge(theme)}<h2>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h2><p class="notice">Contenido conectado a la convocatoria ${escapeHtml(activeCall.shortLabel)}.</p></section><article id="manual" class="panel manual"><p>Cargando manual…</p></article><section id="test-slot"></section>`;
-  document.querySelector('#back').addEventListener('click', () => { history.replaceState(null, '', location.pathname); renderProgramme(); });
-  document.querySelector('#top').addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
-
+async function loadManual(theme) {
+  const manual = document.querySelector('#manual');
+  if (!manual) return;
+  manual.innerHTML = '<p>Cargando manual…</p>';
   try {
-    const [manualResponse, questionsResponse] = await Promise.all([
-      fetch(themePath(theme, 'manual'), { cache: 'no-cache' }),
-      fetch(themePath(theme, 'preguntas'), { cache: 'no-cache' })
-    ]);
-    if (!manualResponse.ok) throw new Error(`Manual: HTTP ${manualResponse.status}`);
-    document.querySelector('#manual').innerHTML = renderMarkdown(await manualResponse.text());
-    if (questionsResponse.ok) {
-      const questions = normaliseQuestions(await questionsResponse.json());
-      if (questions.length) {
-        document.querySelector('#test-slot').innerHTML = renderTest(theme, questions);
-        activateTest(questions);
-      }
-    }
+    const response = await fetchWithTimeout(themePath(theme, 'manual'), { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    manual.innerHTML = renderMarkdown(await response.text());
   } catch (error) {
-    document.querySelector('#manual').innerHTML = `<p class="notice warning">No se ha podido cargar el tema: ${escapeHtml(error.message)}.</p>`;
+    const message = error.name === 'AbortError' ? 'La carga ha tardado demasiado.' : `No se ha podido cargar el manual: ${error.message}.`;
+    manual.innerHTML = `<p class="notice warning">${escapeHtml(message)}</p><button id="retry-manual" class="btn secondary" type="button">Reintentar manual</button>`;
+    document.querySelector('#retry-manual')?.addEventListener('click', () => loadManual(theme));
   }
 }
 
-async function loadCall(id, selectedTheme = null) {
+async function loadQuestions(theme) {
+  const slot = document.querySelector('#test-slot');
+  if (!slot) return;
+  slot.innerHTML = '<section class="panel"><p>Cargando test…</p></section>';
+  try {
+    const response = await fetchWithTimeout(themePath(theme, 'preguntas'), { cache: 'no-cache' });
+    if (!response.ok) {
+      if (response.status === 404) { slot.innerHTML = ''; return; }
+      throw new Error(`HTTP ${response.status}`);
+    }
+    const questions = normaliseQuestions(await response.json());
+    if (!questions.length) { slot.innerHTML = ''; return; }
+    slot.innerHTML = renderTest(theme, questions);
+    activateTest(questions);
+  } catch (error) {
+    const message = error.name === 'AbortError' ? 'El test está tardando demasiado.' : `No se ha podido cargar el test: ${error.message}.`;
+    slot.innerHTML = `<section class="panel"><p class="notice warning">${escapeHtml(message)}</p><button id="retry-test" class="btn secondary" type="button">Reintentar test</button></section>`;
+    document.querySelector('#retry-test')?.addEventListener('click', () => loadQuestions(theme));
+  }
+}
+
+function openTheme(theme, { push = true } = {}) {
+  const url = `#${activeCall.id}/tema-${theme.numero}`;
+  if (push) history.pushState({ view: 'theme', callId: activeCall.id, theme: theme.numero }, '', url);
+  app.innerHTML = `<div class="toolbar sticky-toolbar"><button id="back" class="btn secondary" type="button">← Programa</button><button id="top" class="btn secondary" type="button">↑ Inicio</button></div><section class="panel">${badge(theme)}<h2>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h2><p class="notice">Contenido conectado a la convocatoria ${escapeHtml(activeCall.shortLabel)}.</p></section><article id="manual" class="panel manual"><p>Cargando manual…</p></article><section id="test-slot"></section>`;
+  document.querySelector('#back')?.addEventListener('click', () => history.back());
+  document.querySelector('#top')?.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
+  loadManual(theme);
+  loadQuestions(theme);
+}
+
+async function loadTracking() {
+  activeTracking = null;
+  if (!activeCall.trackingUrl) return;
+  try {
+    const response = await fetchWithTimeout(activeCall.trackingUrl, { cache: 'no-cache' }, 6000);
+    if (response.ok) {
+      activeTracking = await response.json();
+      if (!location.hash.includes('/tema-')) renderProgramme(activeSearchQuery);
+    }
+  } catch (_) {}
+}
+
+async function loadCall(id, selectedTheme = null, { preserveHistory = false } = {}) {
   activeCall = CALLS.find(call => call.id === id) || CALLS[0];
   localStorage.setItem(SELECTED_CALL_KEY, activeCall.id);
   updateHeader();
   app.innerHTML = '<section class="panel"><h2>Cargando convocatoria…</h2></section>';
-  const programmeResponse = await fetch(activeCall.programmeUrl, { cache: 'no-cache' });
+
+  const programmeResponse = await fetchWithTimeout(activeCall.programmeUrl, { cache: 'no-cache' });
   if (!programmeResponse.ok) throw new Error(`Programa: HTTP ${programmeResponse.status}`);
   activeProgramme = await programmeResponse.json();
-  activeTracking = null;
-  if (activeCall.trackingUrl) {
-    try {
-      const response = await fetch(activeCall.trackingUrl, { cache: 'no-cache' });
-      if (response.ok) activeTracking = await response.json();
-    } catch (_) {}
+  initialiseSearchIndex(activeProgramme);
+
+  if (!preserveHistory && !selectedTheme) {
+    history.replaceState({ view: 'programme', callId: activeCall.id }, '', location.pathname);
   }
-  await buildSearchIndex(activeProgramme);
+
+  renderProgramme();
+  loadTracking();
+  buildSearchIndexInBackground(activeProgramme);
+
   if (selectedTheme) {
     const theme = activeProgramme.temas.find(item => item.numero === selectedTheme);
-    if (theme && isThemeAvailable(theme)) return openTheme(theme);
+    if (theme && isThemeAvailable(theme)) openTheme(theme, { push: false });
   }
-  renderProgramme();
+}
+
+async function restoreFromHistory(state) {
+  try {
+    const route = location.hash.match(/^#([^/]+)\/tema-(\d+)$/);
+    const callId = state?.callId || route?.[1] || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id;
+    const themeNumber = state?.view === 'theme' ? state.theme : (route ? Number(route[2]) : null);
+
+    if (!activeCall || activeCall.id !== callId || !activeProgramme) {
+      await loadCall(callId, themeNumber, { preserveHistory: true });
+      return;
+    }
+
+    if (themeNumber) {
+      const theme = activeProgramme.temas.find(item => item.numero === Number(themeNumber));
+      if (theme && isThemeAvailable(theme)) openTheme(theme, { push: false });
+    } else {
+      renderProgramme(activeSearchQuery);
+      scrollTo({ top: 0 });
+    }
+  } catch (error) {
+    app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
+  }
 }
 
 async function boot() {
@@ -327,10 +417,22 @@ async function boot() {
   try {
     const route = location.hash.match(/^#([^/]+)\/tema-(\d+)$/);
     const saved = localStorage.getItem(SELECTED_CALL_KEY);
-    await loadCall(route?.[1] || saved || CALLS[0].id, route ? Number(route[2]) : null);
+    const callId = route?.[1] || saved || CALLS[0].id;
+
+    if (route) {
+      history.replaceState({ view: 'programme', callId }, '', location.pathname);
+      await loadCall(callId, null, { preserveHistory: true });
+      const theme = activeProgramme.temas.find(item => item.numero === Number(route[2]));
+      if (theme && isThemeAvailable(theme)) openTheme(theme);
+    } else {
+      history.replaceState({ view: 'programme', callId }, '', location.pathname);
+      await loadCall(callId, null, { preserveHistory: true });
+    }
+
+    window.addEventListener('popstate', event => restoreFromHistory(event.state));
     if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
   } catch (error) {
-    app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
+    app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p><button class="btn secondary" type="button" onclick="location.reload()">Reintentar</button></section>`;
   }
 }
 
