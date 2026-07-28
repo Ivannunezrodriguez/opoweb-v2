@@ -1,8 +1,7 @@
-# La Puebla de Montalbán · Tema 12 · Manual modular
+# Tema 12 · Tributos locales e impuestos municipales
 
-**Estado:** APROBADO POR EL USUARIO  
-**Publicado como tema aprobado.**  
-**Fecha de revisión normativa:** 25 de julio de 2026.
+**Estado editorial:** `PUBLICADO`  
+**Fecha de revisión normativa:** 28 de julio de 2026.
 
 > **Tema 12. Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.**
 
@@ -84,15 +83,6 @@ IBI, IAE e IVTM son impuestos de exacción obligatoria. El IIVTNU es potestativo
 
 No siempre coinciden. En el IBI puede ser sujeto el concesionario, superficiario o usufructuario antes que el propietario. En el IVTM manda el nombre que figura en el permiso de circulación.
 
-## Estado real
+## Banco de preguntas
 
-- Manual modular: aprobado.
-- Cinco bloques jurídicos: aprobados.
-- Matriz y trazabilidad: incorporadas.
-- Banco de preguntas: **12 preguntas revisadas, trazables y alineadas con el estado aprobado**.
-- Revisión del usuario: aprobada el 18 de julio de 2026.
-- Revisión transversal jurídica y editorial: realizada el 25 de julio de 2026.
-- Tema cerrado: **SÍ, aprobado por el usuario**.
-- Publicación como aprobado: **SÍ**.
-
-Frase de aprobación registrada: **«Tema 12 aprobado»**.
+El tema dispone de **12 preguntas revisadas, trazables y alineadas con el estado editorial publicado**.
