@@ -10,19 +10,19 @@ const programme = json('data/programa.json');
 const packageJson = json('package.json');
 const serviceWorker = read('sw.js');
 const index = read('index.html');
+const appJs = read('assets/app.js');
 const practiceHtml = read('practice.html');
 const practiceJs = read('assets/practice.js');
 const practiceRouteJs = read('assets/practice-route.js');
 const practiceReviewJs = read('assets/practice-review.js');
 const themeTestLinkJs = read('assets/theme-test-link.js');
-const tema6CorrectionJs = read('assets/tema6-interinidad-correction.js');
 
 assert.equal(programme.version, '0.19.0');
 assert.equal(packageJson.version, '0.20.6');
 assert.equal(programme.temas.length, 19);
 assert.ok(index.includes('href="practice.html"'));
 assert.ok(index.includes('assets/theme-test-link.js'));
-assert.ok(index.includes('assets/tema6-interinidad-correction.js'));
+assert.ok(index.includes('assets/app.js'));
 
 const approved = programme.temas.filter(theme => theme.estado === 'APROBADO_USUARIO');
 assert.deepEqual(approved.map(theme => theme.numero), Array.from({ length: 19 }, (_, index) => index + 1));
@@ -109,24 +109,26 @@ assert.ok(practiceReviewJs.includes('data-review-theme'));
 assert.ok(themeTestLinkJs.includes('Hacer test del tema'));
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
-assert.ok(tema6.includes('Duración máxima del programa: **dos años**.'), 'La fuente antigua ya cambió: retirar el módulo transitorio y actualizar esta prueba');
-assert.ok(tema6CorrectionJs.includes("replaceText(node, 'dos años', 'cuatro años')"));
-assert.ok(tema6CorrectionJs.includes('máximo básico de <strong>tres años</strong>'));
-assert.ok(tema6CorrectionJs.includes('<strong>doce meses más</strong>'));
-assert.ok(tema6CorrectionJs.includes('máximo total de <strong>cuatro años</strong>'));
-assert.ok(tema6CorrectionJs.includes("TARGET_ROUTE = /^#la-puebla-auxiliar-administrativo-2026\\/tema-6$/"));
+assert.ok(tema6.includes('máximo total de **cuatro años**') || tema6.includes('máximo total de cuatro años'), 'El Tema 6 debe reflejar el máximo total de cuatro años');
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.21.8'"));
+assert.ok(appJs.includes('buildSearchIndexInBackground'));
+assert.ok(appJs.includes('history.pushState'));
+assert.ok(appJs.includes("window.addEventListener('popstate'"));
+assert.ok(appJs.includes('fetchWithTimeout'));
+assert.ok(appJs.includes('Reintentar manual'));
+assert.ok(appJs.includes('Reintentar test'));
+
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.27.21'"));
 for (const asset of [
+  './index.html',
   './practice.html',
+  './assets/app.js',
   './assets/theme-test-link.js',
-  './assets/tema6-interinidad-correction.js',
   './assets/practice-route.js',
   './assets/practice.js',
   './assets/practice-review.js',
   './assets/practice-progress.css',
-  './content/la-puebla/supuestos-practicos.json',
-  './content/la-puebla/simulacros.json'
+  './data/programa.json'
 ]) {
   assert.ok(serviceWorker.includes(`'${asset}'`), `No está precargado ${asset}`);
 }
@@ -140,7 +142,8 @@ console.log(JSON.stringify({
   mockExams: mockExams.simulacros.length,
   multiCallPractice: 'VALIDATED',
   segregatedProgress: 'VALIDATED',
-  tema6Interinidad: '4_YEARS_RUNTIME_CORRECTION_VALIDATED',
-  sourceCorrectionPending: true,
+  navigationHistory: 'VALIDATED',
+  progressiveLoading: 'VALIDATED',
+  tema6Interinidad: '4_YEARS_SOURCE_VALIDATED',
   status: 'LA_PUEBLA_VALIDATOR_UPDATED'
 }, null, 2));
