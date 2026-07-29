@@ -2,7 +2,7 @@
   "tema": 17,
   "estado": "APROBADO_USUARIO",
   "epigrafeOficial": "LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.",
-  "fechaRevisionTecnica": "2026-07-26",
+  "fechaRevisionTecnica": "2026-07-29",
   "referenciasPrincipales": [
     "Microsoft Word para Microsoft 365 y Word 2024",
     "LibreOffice Writer, ayuda oficial vigente"
@@ -19,174 +19,48 @@
   "cobertura": [
     {
       "inciso": "LibreOffice y Microsoft Office",
-      "fuentes": [
-        "Ayuda y aprendizaje de Word",
-        "Ayuda de LibreOffice Writer"
-      ],
-      "secciones": [
-        "interfaz",
-        "Word",
-        "Writer",
-        "documentos",
-        "formatos",
-        "compatibilidad"
-      ],
-      "contenidoExigible": [
-        "identificar programas",
-        "crear y abrir",
-        "guardar y exportar",
-        "distinguir DOCX y ODT"
-      ]
+      "fuentes": ["Ayuda y aprendizaje de Word", "Ayuda de LibreOffice Writer"],
+      "secciones": ["interfaz", "Word", "Writer", "documentos", "formatos", "compatibilidad"],
+      "contenidoExigible": ["identificar programas", "crear y abrir", "guardar y exportar", "distinguir DOCX y ODT"]
     },
     {
       "inciso": "Edición y navegación",
-      "fuentes": [
-        "Métodos abreviados de teclado de Word",
-        "Atajos de teclado para LibreOffice Writer",
-        "Navegador de Writer"
-      ],
-      "secciones": [
-        "selección",
-        "Portapapeles",
-        "saltos",
-        "buscar",
-        "reemplazar",
-        "ortografía"
-      ],
-      "contenidoExigible": [
-        "editar texto",
-        "usar búsqueda",
-        "corregir",
-        "navegar en documentos largos"
-      ]
+      "fuentes": ["Métodos abreviados de teclado de Word", "Atajos de teclado para LibreOffice Writer", "Navegador de Writer"],
+      "secciones": ["selección", "Portapapeles", "saltos", "buscar", "reemplazar", "ortografía"],
+      "contenidoExigible": ["editar texto", "usar búsqueda", "corregir", "navegar en documentos largos"]
     },
     {
       "inciso": "Formato y estilos",
-      "fuentes": [
-        "Ayuda de Word",
-        "Formato de LibreOffice",
-        "Writer Guide"
-      ],
-      "secciones": [
-        "carácter",
-        "párrafo",
-        "sangrías",
-        "estilos",
-        "listas",
-        "plantillas"
-      ],
-      "contenidoExigible": [
-        "distinguir formato directo y estilos",
-        "aplicar jerarquía",
-        "crear listas",
-        "mantener uniformidad"
-      ]
+      "fuentes": ["Ayuda de Word", "Formato de LibreOffice", "Writer Guide"],
+      "secciones": ["carácter", "párrafo", "sangrías", "estilos", "listas", "plantillas"],
+      "contenidoExigible": ["distinguir formato directo y estilos", "aplicar jerarquía", "crear listas", "mantener uniformidad"]
     },
     {
       "inciso": "Diseño de página y objetos",
-      "fuentes": [
-        "Encabezados y pies por secciones en Word",
-        "Writer Guide"
-      ],
-      "secciones": [
-        "márgenes",
-        "orientación",
-        "secciones",
-        "estilos de página",
-        "tablas",
-        "imágenes"
-      ],
-      "contenidoExigible": [
-        "configurar páginas",
-        "diferenciar sección y estilo de página",
-        "trabajar con tablas e imágenes"
-      ]
+      "fuentes": ["Encabezados y pies por secciones en Word", "Writer Guide"],
+      "secciones": ["márgenes", "orientación", "secciones", "estilos de página", "tablas", "imágenes"],
+      "contenidoExigible": ["configurar páginas", "diferenciar sección y estilo de página", "trabajar con tablas e imágenes"]
     },
     {
       "inciso": "Revisión y salida",
-      "fuentes": [
-        "Modos de documento en Word",
-        "Combinar revisiones",
-        "Combinar correspondencia",
-        "Exportar a PDF"
-      ],
-      "secciones": [
-        "comentarios",
-        "control de cambios",
-        "coautoría",
-        "combinación",
-        "impresión",
-        "PDF"
-      ],
-      "contenidoExigible": [
-        "revisar",
-        "combinar datos",
-        "imprimir",
-        "exportar y comprobar salida"
-      ]
+      "fuentes": ["Modos de documento en Word", "Combinar revisiones", "Combinar correspondencia", "Exportar a PDF"],
+      "secciones": ["comentarios", "control de cambios", "coautoría", "combinación", "impresión", "PDF"],
+      "contenidoExigible": ["revisar", "combinar datos", "imprimir", "exportar y comprobar salida"]
     }
   ],
   "atajosComparados": [
-    {
-      "accion": "cortar",
-      "word": "Ctrl + X",
-      "writer": "Ctrl + X"
-    },
-    {
-      "accion": "copiar",
-      "word": "Ctrl + C",
-      "writer": "Ctrl + C"
-    },
-    {
-      "accion": "pegar",
-      "word": "Ctrl + V",
-      "writer": "Ctrl + V"
-    },
-    {
-      "accion": "deshacer",
-      "word": "Ctrl + Z",
-      "writer": "Ctrl + Z"
-    },
-    {
-      "accion": "buscar y reemplazar",
-      "word": "Ctrl + H",
-      "writer": "Ctrl + H"
-    },
-    {
-      "accion": "salto de página",
-      "word": "Ctrl + Intro",
-      "writer": "Ctrl + Intro"
-    },
-    {
-      "accion": "ortografía",
-      "word": "F7",
-      "writer": "F7"
-    },
-    {
-      "accion": "seleccionar todo",
-      "word": "Puede variar según idioma, versión y personalización",
-      "writer": "Puede variar según idioma, versión y personalización"
-    },
-    {
-      "accion": "guardar",
-      "word": "Puede variar según idioma, versión y personalización",
-      "writer": "Puede variar según idioma, versión y personalización"
-    },
-    {
-      "accion": "justificar",
-      "word": "Ctrl + J",
-      "writer": "Ctrl + J"
-    },
-    {
-      "accion": "centrar",
-      "word": "Comprobar idioma, versión y personalización",
-      "writer": "Comprobar idioma, versión y personalización"
-    },
-    {
-      "accion": "Navegador o navegación",
-      "word": "panel Navegación",
-      "writer": "F5"
-    }
+    {"accion": "cortar", "word": "Ctrl + X", "writer": "Ctrl + X"},
+    {"accion": "copiar", "word": "Ctrl + C", "writer": "Ctrl + C"},
+    {"accion": "pegar", "word": "Ctrl + V", "writer": "Ctrl + V"},
+    {"accion": "deshacer", "word": "Ctrl + Z", "writer": "Ctrl + Z"},
+    {"accion": "buscar y reemplazar", "word": "Ctrl + H", "writer": "Ctrl + H"},
+    {"accion": "salto de página", "word": "Ctrl + Intro", "writer": "Ctrl + Intro"},
+    {"accion": "ortografía", "word": "F7", "writer": "F7"},
+    {"accion": "seleccionar todo", "word": "Puede variar según idioma, versión y personalización", "writer": "Puede variar según idioma, versión y personalización"},
+    {"accion": "guardar", "word": "Puede variar según idioma, versión y personalización", "writer": "Puede variar según idioma, versión y personalización"},
+    {"accion": "justificar", "word": "Ctrl + J", "writer": "Ctrl + J"},
+    {"accion": "centrar", "word": "Comprobar idioma, versión y personalización", "writer": "Comprobar idioma, versión y personalización"},
+    {"accion": "Navegador o navegación", "word": "panel Navegación", "writer": "F5"}
   ],
   "criterioAtajos": "No se presentan como universales los métodos abreviados localizados. Toda pregunta debe identificar programa, versión, idioma o configuración cuando la combinación pueda variar.",
   "diferenciasClave": [
