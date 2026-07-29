@@ -15,13 +15,13 @@ La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vig
 | 13–15 | EN_REVISION | Portadas y estados normalizados | Enlaces, esquemas y llamadas destacadas |
 | 16 | EN_REVISION | Vigencia técnica reconfirmada; manual, matriz y 12 preguntas verificados; contrato frontend compatible | Homogeneización de llamadas y revisión visual final |
 | 17 | EN_REVISION | Portada y estado normalizados; matriz y 12 preguntas verificados; vigencia técnica reconfirmada | Revisión visual de bloques, llamadas y enlaces externos |
-| 18 | EN_REVISION | Atajos localizados corregidos y matriz alineada | Portada, enlaces y llamadas |
+| 18 | EN_REVISION | Portada y estado normalizados; matriz y 12 preguntas verificados; vigencia técnica reconfirmada | Revisión visual de bloques, llamadas y enlaces internos |
 | 19 | EN_REVISION | Cobertura técnica y banco revisados | Portada, enlaces y llamadas |
 
 ### Hallazgos transversales
 
-- Los Temas **10–17** ya tienen portada y estado visibles normalizados.
-- Quedan **12 manuales** con elementos históricos o jerarquía editorial pendiente.
+- Los Temas **10–18** ya tienen portada y estado visibles normalizados.
+- Quedan **11 manuales** con elementos históricos o jerarquía editorial pendiente.
 - La contradicción de bancos vacíos está corregida en los Temas **10–19**.
 - El frontend admite las claves `pregunta` y `enunciado`; queda cerrada la incidencia de contrato del Tema **16** y continúa pendiente la comprobación específica del Tema **6**.
 - Persisten llamadas no homogéneas frente al patrón `> ⚠️ **¡Foco Examen!:**`.
