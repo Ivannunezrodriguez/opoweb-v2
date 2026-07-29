@@ -1,8 +1,7 @@
-# La Puebla de Montalbán · Tema 19 · Manual modular
+# Tema 19 · Conceptos generales del ordenador personal
 
-**Estado:** APROBADO POR EL USUARIO  
-**Publicado como tema aprobado.**  
-**Fecha de revisión técnica:** 26 de julio de 2026.
+**Estado editorial:** `PUBLICADO`  
+**Fecha de revisión técnica:** 29 de julio de 2026.
 
 > **Tema 19. Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.**
 
@@ -113,6 +112,8 @@ Un mismo equipo puede integrar funciones que antes requerían varios periférico
 | CD de audio y CD de datos | el primero sigue una estructura de audio; el segundo almacena archivos |
 | copia de seguridad y única copia externa | una copia aislada en un USB no es respaldo si sustituye al original |
 
+> ⚠️ **¡Foco Examen!:** USB-C identifica la forma del conector. No garantiza por sí solo una velocidad, una potencia de carga ni compatibilidad con USB4 o salida de vídeo; esas prestaciones dependen del puerto, cable, protocolo y modos admitidos.
+
 ## 7. Flujo administrativo seguro
 
 1. identificar el dispositivo y su finalidad;
@@ -122,18 +123,6 @@ Un mismo equipo puede integrar funciones que antes requerían varios periférico
 5. ejecutar la operación;
 6. verificar el resultado;
 7. cerrar archivos o trabajos pendientes;
-8. expulsar de forma segura cuando proceda;
+8. expulsar de forma segura cuando proceda, especialmente si está habilitada la caché de escritura o la directiva de mejor rendimiento;
 9. conservar copias según la política de la organización;
 10. no introducir soportes desconocidos en equipos administrativos sin medidas de seguridad.
-
-## 8. Estado real
-
-- Manual modular: creado.
-- Cinco bloques: preparados.
-- Fuentes oficiales y de fabricantes: trazadas.
-- Banco de preguntas: **12 preguntas revisadas y trazables**.
-- Revisión del usuario: completada el 18 de julio de 2026.
-- Tema cerrado: **SÍ**.
-- Publicación como aprobado: **SÍ**.
-
-El usuario aprobó expresamente el tema mediante **«Tema 19 aprobado»** el 18 de julio de 2026.
