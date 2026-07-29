@@ -12,7 +12,8 @@ La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vig
 | 2 | EN_REVISION | Ley 39/2015 vigente; matriz y 12 preguntas verificadas; banco normalizado a `APROBADO_USUARIO` | Portada histórica, metadatos internos, enlaces, llamadas y esquema final |
 | 3 | EN_REVISION | Revisión transversal realizada | Normalización editorial y controles finales |
 | 4 | EN_REVISION | Ley 39/2015 y especialidad local vigentes; matriz y 12 preguntas verificadas; banco normalizado a `APROBADO_USUARIO` | Portada histórica, metadatos internos, enlaces, llamadas y esquema final |
-| 5–9 | EN_REVISION | Revisión transversal realizada | Normalización editorial y controles finales |
+| 5 | EN_REVISION | LRBRL y LOREG vigentes; matriz y 12 preguntas verificadas; banco normalizado a `APROBADO_USUARIO` | Portada histórica, metadatos internos, llamadas, enlaces y esquema final |
+| 6–9 | EN_REVISION | Revisión transversal realizada | Normalización editorial y controles finales |
 | 10 | EN_REVISION | TRLRHL y LGT reconfirmados; contradicción del banco corregida; portada, jerarquía y llamadas normalizadas | Validación visual final de enlaces y esquema |
 | 11 | EN_REVISION | Portada y estado normalizados; 12 preguntas trazables | Enlaces, esquema final y llamadas destacadas |
 | 12 | EN_REVISION | Portada y estado normalizados; TRLRHL vigente a **03/06/2026**; 12 preguntas trazables | Enlaces de cinco bloques, `articulos.md`, `feedback.md`, esquema y llamadas |
@@ -25,7 +26,7 @@ La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vig
 ### Hallazgos transversales
 
 - Los Temas **10–19** ya tienen portada y estado visibles normalizados.
-- Los Temas **1, 2 y 4** ya tienen vigencia, matriz y banco alineados, pero conservan portada y metadatos históricos.
+- Los Temas **1, 2, 4 y 5** ya tienen vigencia, matriz y banco alineados, pero conservan portada y metadatos históricos.
 - Quedan **10 manuales** con elementos históricos o jerarquía editorial pendiente, concentrados en los Temas 1–9 y controles residuales.
 - La contradicción de bancos vacíos está corregida en los Temas **10–19**.
 - El frontend admite las claves `pregunta` y `enunciado`; queda cerrada la incidencia de contrato del Tema **16** y continúa pendiente la comprobación específica del Tema **6**.
