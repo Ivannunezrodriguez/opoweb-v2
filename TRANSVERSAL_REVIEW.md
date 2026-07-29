@@ -1,6 +1,6 @@
 # Seguimiento de la revisión transversal · Fase 2
 
-Última actualización: **29 de julio de 2026**.
+Última actualización: **30 de julio de 2026**.
 
 La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vigencia jurídica o técnica, trazabilidad, jerarquía editorial, enlaces, preguntas, esquema final y ausencia de duplicidades.
 
@@ -13,7 +13,8 @@ La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vig
 | 3 | EN_REVISION | Revisión transversal realizada | Normalización editorial y controles finales |
 | 4 | EN_REVISION | Ley 39/2015 y especialidad local vigentes; matriz y 12 preguntas verificadas; banco normalizado a `APROBADO_USUARIO` | Portada histórica, metadatos internos, enlaces, llamadas y esquema final |
 | 5 | EN_REVISION | LRBRL y LOREG vigentes; matriz y 12 preguntas verificadas; banco normalizado a `APROBADO_USUARIO` | Portada histórica, metadatos internos, llamadas, enlaces y esquema final |
-| 6–9 | EN_REVISION | Revisión transversal realizada | Normalización editorial y controles finales |
+| 6 | EN_REVISION | Ley 4/2011 y modificación de 2026 verificadas; matriz y 12 preguntas alineadas; contrato frontend comprobado | Portada histórica, metadatos internos, llamadas, enlaces y esquema final |
+| 7–9 | EN_REVISION | Revisión transversal realizada | Normalización editorial y controles finales |
 | 10 | EN_REVISION | TRLRHL y LGT reconfirmados; contradicción del banco corregida; portada, jerarquía y llamadas normalizadas | Validación visual final de enlaces y esquema |
 | 11 | EN_REVISION | Portada y estado normalizados; 12 preguntas trazables | Enlaces, esquema final y llamadas destacadas |
 | 12 | EN_REVISION | Portada y estado normalizados; TRLRHL vigente a **03/06/2026**; 12 preguntas trazables | Enlaces de cinco bloques, `articulos.md`, `feedback.md`, esquema y llamadas |
@@ -26,10 +27,10 @@ La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vig
 ### Hallazgos transversales
 
 - Los Temas **10–19** ya tienen portada y estado visibles normalizados.
-- Los Temas **1, 2, 4 y 5** ya tienen vigencia, matriz y banco alineados, pero conservan portada y metadatos históricos.
-- Quedan **10 manuales** con elementos históricos o jerarquía editorial pendiente, concentrados en los Temas 1–9 y controles residuales.
+- Los Temas **1, 2, 4, 5 y 6** ya tienen vigencia, matriz y banco alineados, pero conservan portada y metadatos históricos.
+- Quedan manuales con elementos históricos o jerarquía editorial pendiente, concentrados en los Temas 1–9 y controles residuales.
 - La contradicción de bancos vacíos está corregida en los Temas **10–19**.
-- El frontend admite las claves `pregunta` y `enunciado`; queda cerrada la incidencia de contrato del Tema **16** y continúa pendiente la comprobación específica del Tema **6**.
+- El frontend admite las claves `pregunta` y `enunciado`, `correcta` y `respuestaCorrecta`, y `trampa` y `trampaExamen`; la incidencia específica del Tema **6** queda cerrada.
 - Persisten llamadas no homogéneas frente al patrón `> ⚠️ **¡Foco Examen!:**`.
 - Ningún tema está marcado todavía como `CERRADO_FASE_2`.
 
