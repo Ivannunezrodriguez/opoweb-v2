@@ -8,7 +8,8 @@ La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vig
 
 | Tema | Estado | Situación verificada | Pendiente principal |
 |---|---|---|---|
-| 1–9 | EN_REVISION | Revisión transversal realizada | Normalización editorial y controles finales |
+| 1 | EN_REVISION | Vigencia constitucional reconfirmada; matriz y 12 preguntas verificadas; banco normalizado a `APROBADO_USUARIO` | Portada histórica, metadatos internos, enlaces, llamadas y esquema final |
+| 2–9 | EN_REVISION | Revisión transversal realizada | Normalización editorial y controles finales |
 | 10 | EN_REVISION | TRLRHL y LGT reconfirmados; contradicción del banco corregida; portada, jerarquía y llamadas normalizadas | Validación visual final de enlaces y esquema |
 | 11 | EN_REVISION | Portada y estado normalizados; 12 preguntas trazables | Enlaces, esquema final y llamadas destacadas |
 | 12 | EN_REVISION | Portada y estado normalizados; TRLRHL vigente a **03/06/2026**; 12 preguntas trazables | Enlaces de cinco bloques, `articulos.md`, `feedback.md`, esquema y llamadas |
@@ -21,6 +22,7 @@ La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vig
 ### Hallazgos transversales
 
 - Los Temas **10–19** ya tienen portada y estado visibles normalizados.
+- El Tema **1** ya tiene vigencia y banco alineados, pero conserva portada y metadatos históricos.
 - Quedan **10 manuales** con elementos históricos o jerarquía editorial pendiente, concentrados en los Temas 1–9 y controles residuales.
 - La contradicción de bancos vacíos está corregida en los Temas **10–19**.
 - El frontend admite las claves `pregunta` y `enunciado`; queda cerrada la incidencia de contrato del Tema **16** y continúa pendiente la comprobación específica del Tema **6**.
