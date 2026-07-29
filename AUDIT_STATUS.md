@@ -15,16 +15,18 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 - Tema 16: manual, matriz y banco de **12 preguntas** verificados contra documentación oficial de Microsoft.
 - Tema 16: confirmados el fin de soporte de IE11 el **15 de junio de 2022**, el soporte del modo IE al menos hasta **2029** y los atajos diferenciales de Edge.
 - Tema 16: cerrada la incidencia de contrato frontend; el lector admite tanto `pregunta` como `enunciado`.
-- Temas 10–15: portada y estado visibles ya normalizados.
+- Tema 17: portada y estado editorial normalizados; eliminados metadatos históricos y el apartado interno de cierre.
+- Tema 17: matriz y banco de **12 preguntas** revisados; vigencia técnica de Word 2024 y LibreOffice Writer reconfirmada.
+- Temas 10–17: portada y estado visibles ya normalizados.
 
-Estado de La Puebla: **19/19 revisados; 13 manuales conservan todavía elementos históricos o jerarquía editorial pendiente**.
+Estado de La Puebla: **19/19 revisados; 12 manuales conservan todavía elementos históricos o jerarquía editorial pendiente**.
 
 ### Incidencias abiertas
 
 - Homogeneización de llamadas al patrón `> ⚠️ **¡Foco Examen!:**`.
 - Validación automatizada y visual de enlaces internos y esquemas finales.
 - Verificación específica del contrato frontend del Tema 6.
-- Normalización editorial desde el Tema 17.
+- Normalización editorial desde el Tema 18.
 
 ## Seguimiento oficial de convocatorias
 
@@ -48,7 +50,7 @@ Comprobación realizada el **29 de julio de 2026**:
 
 ## Orden de trabajo
 
-1. Normalizar editorialmente el Tema 17.
-2. Validar enlaces, esquemas y llamadas de los Temas 11–16.
+1. Normalizar editorialmente el Tema 18.
+2. Validar enlaces, esquemas y llamadas de los Temas 11–17.
 3. Verificar el contrato frontend del Tema 6.
 4. Continuar UC3M y Diputación.
