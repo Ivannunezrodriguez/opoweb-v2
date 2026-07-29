@@ -1,8 +1,7 @@
-# La Puebla de Montalbán · Tema 17 · Manual modular
+# La Puebla de Montalbán · Tema 17
 
-**Estado:** APROBADO POR EL USUARIO  
-**Publicado como tema aprobado.**  
-**Fecha de revisión técnica:** 26 de julio de 2026.
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión técnica:** **29 de julio de 2026**.
 
 > **Tema 17. LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.**
 
@@ -97,15 +96,4 @@ Un flujo administrativo razonable es:
 - Revisar pérdida de formato al cambiar entre `.docx` y `.odt`.
 - No confundir guardar, guardar como, exportar e imprimir.
 
-## 8. Estado real
-
-- Manual modular: creado.
-- Cinco bloques: preparados.
-- Fuentes oficiales de Microsoft y LibreOffice: trazadas.
-- Comparación Word/Writer: integrada.
-- Banco de preguntas: **12 preguntas revisadas y trazables**.
-- Revisión del usuario: completada el 18 de julio de 2026.
-- Tema cerrado: **SÍ**.
-- Publicación como aprobado: **SÍ**.
-
-El usuario aprobó expresamente el tema mediante la frase **«Tema 17 aprobado»** el 18 de julio de 2026.
+> ⚠️ **¡Foco Examen!:** En Word, los cambios de diseño entre partes del documento se apoyan en **saltos de sección**; en Writer, la lógica equivalente se articula mediante **estilos de página** aplicados con saltos. Un salto de página simple no sustituye a ninguno de esos mecanismos.
