@@ -2,7 +2,7 @@
   "tema": 19,
   "estado": "APROBADO_USUARIO",
   "epigrafeOficial": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
-  "fechaRevisionTecnica": "2026-07-18",
+  "fechaRevisionTecnica": "2026-07-29",
   "criterioAdaptacionTecnica": "La matriz reglamentaria inciso → norma → artículos se adapta a inciso → norma técnica o documentación oficial → secciones → contenido exigible, porque el epígrafe es tecnológico y no remite a una ley.",
   "cobertura": [
     {
@@ -75,9 +75,8 @@
       "inciso": "Discos duros externos y memorias USB",
       "normaTecnicaODocumentacion": [
         "Microsoft Disk Management",
-        "Quitar hardware de forma segura",
-        "Media removal policy",
-        "USB-IF Type-C"
+        "Microsoft Learn: directiva de eliminación de soportes",
+        "USB-IF: especificación USB Type-C 2.5"
       ],
       "articulosOSecciones": [
         "HDD y SSD",
@@ -92,7 +91,8 @@
         "distinguir HDD, SSD y memoria USB",
         "formatear con criterio",
         "reconocer USB-C como conector",
-        "expulsar con seguridad",
+        "distinguir eliminación rápida y mejor rendimiento",
+        "expulsar con seguridad cuando proceda",
         "proteger datos"
       ]
     },
@@ -165,7 +165,7 @@
     "USB-C frente a protocolo",
     "cola de impresión",
     "resolución óptica y OCR",
-    "caché y expulsión segura"
+    "caché, directiva de eliminación y expulsión segura"
   ],
   "ampliacionUtil": [
     "DIMM y SO-DIMM",
