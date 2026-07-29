@@ -19,16 +19,18 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 - Tema 17: matriz y banco de **12 preguntas** revisados; vigencia técnica de Word 2024 y LibreOffice Writer reconfirmada.
 - Tema 18: portada y estado editorial normalizados; eliminados metadatos históricos y el apartado interno `Estado real`.
 - Tema 18: matriz y banco de **12 preguntas** revisados; vigencia técnica de Excel 2024 y LibreOffice Calc reconfirmada.
-- Temas 10–18: portada y estado visibles ya normalizados.
+- Tema 19: portada y estado editorial normalizados; matriz y banco de **12 preguntas** verificados.
+- Tema 19: precisadas la distinción entre USB-C y prestaciones del enlace, y las directivas de retirada de soportes externos de Windows.
+- Temas 10–19: portada y estado visibles ya normalizados.
 
-Estado de La Puebla: **19/19 revisados; 11 manuales conservan todavía elementos históricos o jerarquía editorial pendiente**.
+Estado de La Puebla: **19/19 revisados; 10 manuales conservan todavía elementos históricos o jerarquía editorial pendiente**.
 
 ### Incidencias abiertas
 
 - Homogeneización de llamadas al patrón `> ⚠️ **¡Foco Examen!:**`.
 - Validación automatizada y visual de enlaces internos y esquemas finales.
 - Verificación específica del contrato frontend del Tema 6.
-- Normalización editorial del Tema 19 y de los Temas 1–9.
+- Normalización editorial de los Temas 1–9 y controles residuales.
 
 ## Seguimiento oficial de convocatorias
 
@@ -52,7 +54,7 @@ Comprobación realizada el **29 de julio de 2026**:
 
 ## Orden de trabajo
 
-1. Normalizar editorialmente el Tema 19.
-2. Validar enlaces, esquemas y llamadas de los Temas 11–18.
+1. Normalizar editorialmente los Temas 1–9.
+2. Validar enlaces, esquemas y llamadas de los Temas 10–19.
 3. Verificar el contrato frontend del Tema 6.
 4. Continuar UC3M y Diputación.
