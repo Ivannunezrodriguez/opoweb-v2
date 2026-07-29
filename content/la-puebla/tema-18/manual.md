@@ -1,8 +1,7 @@
-# La Puebla de Montalbán · Tema 18 · Manual modular
+# Tema 18 · LibreOffice y Microsoft Office II
 
-**Estado:** APROBADO POR EL USUARIO  
-**Publicado como tema aprobado.**  
-**Fecha de revisión técnica:** 26 de julio de 2026.
+**Estado editorial:** `PUBLICADO`  
+**Fecha de revisión técnica:** 29 de julio de 2026.
 
 > **Tema 18. LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.**
 
@@ -69,6 +68,8 @@ Elementos básicos:
 
 Los nombres de funciones, separadores de argumentos y atajos pueden variar con el idioma, la configuración regional, el sistema operativo y la versión.
 
+> ⚠️ **¡Foco Examen!:** una Tabla de Excel es un objeto estructurado; un intervalo de Calc puede cumplir funciones similares, pero no debe considerarse idéntico.
+
 ## 6. Flujo de trabajo administrativo correcto
 
 1. crear el libro o partir de una plantilla;
@@ -97,16 +98,3 @@ Los nombres de funciones, separadores de argumentos y atajos pueden variar con e
 - No confundir protección de hoja con cifrado o seguridad completa.
 - Revisar compatibilidad al intercambiar `.xlsx` y `.ods`.
 - Tratar CSV como texto tabular de una sola hoja, no como un libro completo.
-
-## 8. Estado real
-
-- Manual modular: creado.
-- Cinco bloques: preparados.
-- Fuentes oficiales de Microsoft y LibreOffice: trazadas.
-- Comparación Excel/Calc: integrada.
-- Banco de preguntas: **12 preguntas revisadas y trazables**.
-- Revisión del usuario: completada el 18 de julio de 2026.
-- Tema cerrado: **SÍ**.
-- Publicación como aprobado: **SÍ**.
-
-El usuario aprobó expresamente el tema mediante la frase **«Tema 18 aprobado»** el 18 de julio de 2026.
