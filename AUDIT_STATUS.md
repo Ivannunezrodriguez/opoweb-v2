@@ -12,6 +12,8 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 
 - Tema 1: vigencia constitucional reconfirmada tras la reforma del artículo 69.3 publicada el **20 de mayo de 2026**.
 - Tema 1: matriz actualizada y banco de **12 preguntas** normalizado a `APROBADO_USUARIO`; no se detectan respuestas incorrectas.
+- Tema 2: vigencia de la Ley 39/2015 reconfirmada; el BOE mantiene como última actualización consolidada la publicada el **6 de noviembre de 2024**.
+- Tema 2: matriz actualizada y banco de **12 preguntas** normalizado a `APROBADO_USUARIO`; no se detectan respuestas incorrectas.
 - Tema 10: corregida la contradicción que declaraba inexistente un banco de **12 preguntas** ya aprobado; portada, jerarquía y llamadas principales normalizadas.
 - Tema 12: título y estado editorial normalizados; vigencia del TRLRHL reconfirmada a **3 de junio de 2026**.
 - Tema 16: manual, matriz y banco de **12 preguntas** verificados contra documentación oficial de Microsoft.
@@ -29,11 +31,11 @@ Estado de La Puebla: **19/19 revisados; 10 manuales conservan todavía elementos
 
 ### Incidencias abiertas
 
-- Normalización editorial del manual del Tema 1: título histórico, metadatos de migración y regla interna.
+- Normalización editorial de los manuales de los Temas 1 y 2: títulos históricos, metadatos de migración y reglas internas.
 - Homogeneización de llamadas al patrón `> ⚠️ **¡Foco Examen!:**`.
 - Validación automatizada y visual de enlaces internos y esquemas finales.
 - Verificación específica del contrato frontend del Tema 6.
-- Normalización editorial de los Temas 2–9 y controles residuales.
+- Normalización editorial de los Temas 3–9 y controles residuales.
 
 ## Seguimiento oficial de convocatorias
 
