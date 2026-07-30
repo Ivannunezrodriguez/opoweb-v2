@@ -1,0 +1,30 @@
+name: Corregir seguimiento y práctica
+
+on:
+  push:
+    paths:
+      - tools/fix-tracking-practice-only.mjs
+      - .github/workflows/fix-tracking-practice-only.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  patch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: node tools/fix-tracking-practice-only.mjs
+      - run: |
+          if git diff --quiet; then
+            echo "No hay cambios pendientes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/app.js assets/practice.js
+          git commit -m "fix: unifica seguimiento y activa práctica"
+          git push
