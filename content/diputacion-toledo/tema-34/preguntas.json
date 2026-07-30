@@ -85,10 +85,10 @@
     },
     {
       "id": "DIP-T34-010",
-      "pregunta": "Una ruta como \\servidor\impresora identifica normalmente:",
+      "pregunta": "Una ruta como \\\\servidor\\impresora identifica normalmente:",
       "opciones": ["Una impresora compartida en red", "Una carpeta local oculta", "Un archivo PDF", "Una dirección de correo"],
       "correcta": 0,
-      "justificacion": "Una ruta UNC del tipo \\servidor\impresora puede identificar una impresora compartida o un recurso de impresión en red.",
+      "justificacion": "Una ruta UNC del tipo \\\\servidor\\impresora puede identificar una impresora compartida o un recurso de impresión en red.",
       "trampa": "Que la impresora esté instalada no garantiza su disponibilidad si falla la red o el servidor.",
       "referencia": "content/diputacion-toledo/tema-34/manual.md#13-impresión-y-escaneado-en-red"
     },
