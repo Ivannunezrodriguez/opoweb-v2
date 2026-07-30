@@ -19,15 +19,17 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 - Tema 7: vigencia de la Ley 31/1995 y del Reglamento de los Servicios de Prevención reconfirmada; matriz y banco de **12 preguntas** normalizados a **30 de julio de 2026**.
 - Tema 8: vigencia de la Ley 12/2010 de Castilla-La Mancha y de la Ley Orgánica 3/2007 reconfirmada; matriz y banco de **12 preguntas** normalizados a **30 de julio de 2026**.
 - Tema 9: vigencia de la Ley Orgánica 3/2018 y coordinación con el RGPD reconfirmadas; matriz y banco de **12 preguntas** normalizados a **30 de julio de 2026**.
-- Temas 1–9: portadas normalizadas mediante proceso reproducible; retirados `Manual reconstruido`, metadatos de migración y reglas internas del proyecto.
+- Temas 1–9: portadas y jerarquía principal normalizadas mediante proceso reproducible; retirados `Manual reconstruido`, metadatos de migración y reglas internas del proyecto.
 - Temas 10–19: portadas y estados visibles normalizados; continúan los controles finales de enlaces, esquemas y llamadas.
+- Se ha incorporado `tests/validate-la-puebla-editorial.mjs` al comando `npm test`. El control comprueba H1 único, portada, ausencia de metadatos históricos, llamadas antiguas detectables, banco aprobado con 12 preguntas y existencia de enlaces locales.
 
 Estado de La Puebla: **19/19 revisados; bancos de preguntas 1–19 y portadas 1–19 alineados; cierre editorial todavía pendiente**.
 
 ### Incidencias abiertas
 
-- Homogeneización de jerarquía de encabezados y llamadas al patrón `> ⚠️ **¡Foco Examen!:**`.
-- Validación automatizada y visual de enlaces internos y esquemas finales.
+- Ejecutar y verificar en CI el nuevo validador editorial y de enlaces.
+- Revisar los esquemas o bloques de repaso que el informe automático identifique como ausentes o no homogéneos.
+- Homogeneizar las llamadas residuales que no coincidan con el patrón `> ⚠️ **¡Foco Examen!:**`.
 - Comprobación visual y técnica del despliegue tras los cambios editoriales.
 
 ## Seguimiento oficial de convocatorias
@@ -53,7 +55,7 @@ Comprobación realizada el **30 de julio de 2026**:
 
 ## Orden de trabajo
 
-1. Homogeneizar jerarquía y llamadas de los Temas 1–19.
-2. Validar enlaces y esquemas finales.
+1. Ejecutar y verificar el validador editorial y de enlaces de La Puebla.
+2. Corregir esquemas y llamadas residuales según su informe.
 3. Ejecutar comprobación visual y técnica final del despliegue.
 4. Continuar UC3M y Diputación.
