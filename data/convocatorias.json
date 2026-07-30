@@ -1,5 +1,5 @@
 {
-  "actualizadoEl": "2026-07-29",
+  "actualizadoEl": "2026-07-30",
   "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará. Las convocatorias descartadas no reciben desarrollo editorial ni mantenimiento activo.",
   "convocatorias": [
     {
@@ -11,9 +11,9 @@
       "temas": 19,
       "ruta": "./",
       "inscripcion": {"fechaSolicitud":"2026-05-28","tasaEuros":7,"fechaPago":"2026-05-27","justificantePrivadoVerificado":true},
-      "seguimientoVerificadoEl": "2026-07-29",
-      "ultimaComprobacion": "No consta una nueva lista provisional oficial verificada. La pasada transversal alcanza los 19 temas; el Tema 16 queda revisado con vigencia técnica y contrato frontend verificados.",
-      "incidenciaCorregida": "Tema 10 sin contradicción de banco; Tema 16 verificado contra documentación oficial de Microsoft. Permanecen controles editoriales generales de enlaces, esquemas y llamadas."
+      "seguimientoVerificadoEl": "2026-07-30",
+      "ultimaComprobacion": "No consta una nueva lista provisional oficial verificada. Se ha reconfirmado la vigencia normativa de los Temas 7, 8 y 9; continúa pendiente su normalización editorial y la revisión final de sus bancos de preguntas.",
+      "incidenciaCorregida": "Tema 6 con contrato frontend verificado; Temas 7-9 con matrices jurídicas actualizadas a 30 de julio de 2026. Permanecen controles editoriales generales de enlaces, esquemas y llamadas."
     },
     {
       "id": "diputacion-toledo-administrativo-c1-2026",
@@ -28,7 +28,7 @@
       "publicacionBOE": {"referencia":"BOE-A-2026-14527","numero":162,"fecha":"2026-07-04"},
       "plazoSolicitudes": {"desde":"2026-07-06","hasta":"2026-07-31","estado":"ABIERTO"},
       "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1961/7080/rrhh-seleccion-convocatoria/1",
-      "seguimientoVerificadoEl": "2026-07-29",
+      "seguimientoVerificadoEl": "2026-07-30",
       "ultimaComprobacion": "El portal oficial mantiene abierto el periodo de solicitudes hasta el 31 de julio de 2026. No consta lista provisional de esta convocatoria.",
       "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22"
     },
@@ -47,7 +47,7 @@
       "plazoSolicitudes": {"desde":"2026-07-09","hasta":"2026-08-05","estado":"ABIERTO"},
       "fechaPrevisibleEjercicio": {"fecha":"2026-11-21","hora":"10:00","caracter":"PREVISIBLE"},
       "fuenteSeguimiento": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
-      "seguimientoVerificadoEl": "2026-07-29",
+      "seguimientoVerificadoEl": "2026-07-30",
       "ultimaComprobacion": "El portal oficial mantiene la convocatoria abierta hasta el 5 de agosto de 2026 y la fecha previsible del ejercicio del 21 de noviembre de 2026 a las 10:00. No consta lista provisional."
     },
     {
@@ -60,7 +60,7 @@
       "sistema": "CONCURSO_OPOSICION_LIBRE",
       "publicacionBOE": {"referencia":"BOE-A-2026-1136","numero":16,"fecha":"2026-01-19"},
       "plazoSolicitudes": {"desde":"2026-01-20","hasta":"2026-02-16","estado":"CERRADO"},
-      "seguimientoVerificadoEl": "2026-07-29",
+      "seguimientoVerificadoEl": "2026-07-30",
       "ultimaComprobacion": "Sin publicación posterior oficial verificada."
     },
     {
@@ -72,7 +72,7 @@
       "plazasTurnoLibre": {"tecnicoAdministracionGeneralA1":2,"administrativoC1":1,"auxiliarAdministrativoC2":4},
       "plazoSolicitudes": {"desde":"2026-07-10","hasta":"2026-08-06","estado":"ABIERTO"},
       "fuenteSeguimiento": "https://cpeistoledo.es/empleo-formacion/",
-      "seguimientoVerificadoEl": "2026-07-29",
+      "seguimientoVerificadoEl": "2026-07-30",
       "ultimaComprobacion": "No se ha verificado una nueva lista provisional. Se mantiene solo seguimiento hasta decisión del usuario."
     },
     {
