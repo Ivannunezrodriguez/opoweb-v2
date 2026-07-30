@@ -94,19 +94,23 @@ function escapeHtml(value) {
   }[char]));
 }
 
-function renderPanel() {
+function renderPanel({ force = false } = {}) {
   const route = currentRoute();
   const test = document.querySelector('#theme-test');
   if (!route || !test) return;
+
+  let panel = document.querySelector('#error-review-panel');
+  if (panel && !force) return;
+
   const bank = seedFromHistory(route);
   const pending = pendingNumbers(bank);
-  let panel = document.querySelector('#error-review-panel');
   if (!panel) {
     panel = document.createElement('section');
     panel.id = 'error-review-panel';
     panel.className = 'error-review-panel';
     test.insertAdjacentElement('afterend', panel);
   }
+
   const progress = pending.length
     ? `${pending.length} pregunta${pending.length === 1 ? '' : 's'} pendiente${pending.length === 1 ? '' : 's'}`
     : 'Banco de errores vacío';
@@ -126,7 +130,7 @@ async function startReview(route) {
     const allQuestions = normaliseQuestions(await response.json());
     const numbers = pendingNumbers(readBank(route)).filter(number => allQuestions[number - 1]);
     if (!numbers.length) {
-      renderPanel();
+      renderPanel({ force: true });
       return;
     }
     slot.innerHTML = `<form id="error-review-form">${numbers.map((number, index) => {
@@ -172,7 +176,7 @@ function captureNormalTest(form) {
     const bank = seedFromHistory(route);
     feedback.forEach((item, index) => updateQuestion(bank, index + 1, item.classList.contains('correct')));
     writeBank(route, bank);
-    renderPanel();
+    renderPanel({ force: true });
   }, 20);
 }
 
@@ -180,7 +184,12 @@ document.addEventListener('submit', event => {
   if (event.target?.id === 'test-form') captureNormalTest(event.target);
 }, true);
 
-const observer = new MutationObserver(() => renderPanel());
+const observer = new MutationObserver(mutations => {
+  const testAdded = mutations.some(mutation => [...mutation.addedNodes].some(node =>
+    node.nodeType === Node.ELEMENT_NODE && (node.id === 'theme-test' || node.querySelector?.('#theme-test'))
+  ));
+  if (testAdded) renderPanel();
+});
 observer.observe(document.querySelector('#app') || document.body, { childList: true, subtree: true });
-window.addEventListener('hashchange', renderPanel);
+window.addEventListener('hashchange', () => requestAnimationFrame(() => renderPanel()));
 renderPanel();
