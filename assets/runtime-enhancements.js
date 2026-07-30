@@ -1,6 +1,5 @@
-const VERSION = '0.27.27';
+const VERSION = '0.27.28';
 const modules = [
-  './diputacion-tracking.js',
   './study-progress.js',
   './test-history.js',
   './error-review.js',
