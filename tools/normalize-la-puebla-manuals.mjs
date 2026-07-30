@@ -25,17 +25,11 @@ for (let tema = 1; tema <= 9; tema += 1) {
 
   while (body.length && !body[0].trim()) body.shift();
 
-  let firstHeadingSeen = false;
   const normalizedBody = body.map(line => {
     let current = line;
 
-    if (/^#\s+/.test(current)) {
-      if (!firstHeadingSeen) {
-        firstHeadingSeen = true;
-      } else {
-        current = current.replace(/^#\s+/, '## ');
-      }
-    }
+    // El H1 único se inserta en la cabecera; cualquier H1 del cuerpo se rebaja a H2.
+    if (/^#\s+/.test(current)) current = current.replace(/^#\s+/, '## ');
 
     current = current.replace(
       /^>\s*\*\*(?:Trampa de examen|Trampa examen|Clave de examen):\*\*\s*/i,
