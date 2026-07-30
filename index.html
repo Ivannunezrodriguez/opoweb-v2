@@ -12,6 +12,18 @@
   <link rel="stylesheet" href="assets/study-progress.css">
   <link rel="stylesheet" href="assets/test-history.css">
   <link rel="stylesheet" href="assets/error-review.css">
+  <script>
+    // Recuperación temporal: retirar cualquier service worker/caché que pueda
+    // interceptar y dejar pendientes las navegaciones de GitHub Pages.
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations()
+        .then(registrations => Promise.all(registrations.map(registration => registration.unregister())))
+        .catch(() => {});
+    }
+    if ('caches' in window) {
+      caches.keys().then(keys => Promise.all(keys.map(key => caches.delete(key)))).catch(() => {});
+    }
+  </script>
 </head>
 <body>
   <header class="site-header">
@@ -23,7 +35,7 @@
     <div class="header-actions">
       <a class="btn" href="practice.html">📝 Practicar</a>
       <button id="theme-toggle" class="btn secondary" type="button" aria-label="Cambiar tema visual">🌙 Oscuro</button>
-      <span class="version" title="Versión editorial de la aplicación">v0.27.24</span>
+      <span class="version" title="Versión editorial de la aplicación">v0.27.25</span>
     </div>
   </header>
   <main id="app" class="layout" aria-live="polite">
