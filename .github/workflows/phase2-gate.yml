@@ -33,30 +33,47 @@ jobs:
           node-version: 24
 
       - name: Ejecutar validación completa
-        run: npm test
+        id: validation
+        shell: bash
+        run: |
+          set +e
+          npm test > phase2-test-output.txt 2>&1
+          code=$?
+          cat phase2-test-output.txt
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
 
-      - name: Registrar validación superada
+      - name: Registrar diagnóstico
+        shell: bash
         run: |
           mkdir -p audit
-          cat > audit/phase2-ci-result.json <<EOF
+          if [ "${{ steps.validation.outputs.exit_code }}" = "0" ]; then
+            state="VALIDACION_CI_SUPERADA"
+          else
+            state="VALIDACION_CI_FALLIDA"
+          fi
           {
-            "fase": 2,
-            "proyecto": "La Puebla de Montalbán",
-            "estado": "VALIDACION_CI_SUPERADA",
-            "commitValidado": "${GITHUB_SHA}",
-            "workflow": "Puerta de cierre Fase 2",
-            "fecha": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
-          }
-          EOF
+            echo "# Resultado de la puerta de cierre · Fase 2"
+            echo
+            echo "- Estado: **${state}**"
+            echo "- Commit validado: \`${GITHUB_SHA}\`"
+            echo "- Fecha UTC: \`$(date -u +%Y-%m-%dT%H:%M:%SZ)\`"
+            echo
+            echo '```text'
+            cat phase2-test-output.txt
+            echo '```'
+          } > audit/phase2-ci-result.md
 
       - name: Publicar evidencia
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "4189826+github-actions[bot]@users.noreply.github.com"
-          git add audit/phase2-ci-result.json
-          if git diff --cached --quiet; then
-            echo "La evidencia ya estaba actualizada"
-            exit 0
+          git add audit/phase2-ci-result.md
+          if ! git diff --cached --quiet; then
+            git commit -m "audit: publica diagnóstico CI de fase 2"
+            git push
           fi
-          git commit -m "audit: registra validación CI superada de fase 2"
-          git push
+
+      - name: Cerrar con el resultado real
+        if: steps.validation.outputs.exit_code != '0'
+        run: exit 1
