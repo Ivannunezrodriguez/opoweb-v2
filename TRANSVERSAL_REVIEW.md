@@ -8,31 +8,33 @@ La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vig
 
 | Tema | Estado | Situación verificada | Pendiente principal |
 |---|---|---|---|
-| 1 | EN_REVISION | Vigencia constitucional reconfirmada; matriz y 12 preguntas verificadas; banco y portada normalizados | Jerarquía, llamadas, enlaces y esquema final |
-| 2 | EN_REVISION | Ley 39/2015 vigente; matriz y 12 preguntas verificadas; banco y portada normalizados | Jerarquía, llamadas, enlaces y esquema final |
-| 3 | EN_REVISION | Ley 39/2015 vigente; matriz y banco de 12 preguntas verificados; banco y portada normalizados | Jerarquía, llamadas, enlaces y esquema final |
-| 4 | EN_REVISION | Ley 39/2015 y especialidad local vigentes; matriz y 12 preguntas verificadas; banco y portada normalizados | Jerarquía, llamadas, enlaces y esquema final |
-| 5 | EN_REVISION | LRBRL y LOREG vigentes; matriz y 12 preguntas verificadas; banco y portada normalizados | Jerarquía, llamadas, enlaces y esquema final |
-| 6 | EN_REVISION | Ley 4/2011 y modificación de 2026 verificadas; matriz, banco, portada y contrato frontend comprobados | Jerarquía, llamadas, enlaces y esquema final |
-| 7 | EN_REVISION | LPRL y Reglamento de Servicios de Prevención verificados; matriz, banco y portada normalizados | Jerarquía, llamadas, enlaces y esquema final |
-| 8 | EN_REVISION | Ley 12/2010 y LO 3/2007 verificadas; matriz, banco y portada normalizados | Jerarquía, llamadas, enlaces y esquema final |
-| 9 | EN_REVISION | LOPDGDD y RGPD verificados; matriz, banco y portada normalizados | Jerarquía, llamadas, enlaces y esquema final |
-| 10 | EN_REVISION | Manual, matriz y 12 preguntas verificados; TRLRHL y LGT vigentes; fuentes BOE trazables; sin incidencia jurídica abierta | Comprobación visual en el despliegue y control transversal final |
+| 1 | EN_REVISION | Vigencia constitucional, matriz, banco, portada y jerarquía principal normalizados | Llamadas, enlaces y esquema final |
+| 2 | EN_REVISION | Ley 39/2015, matriz, banco, portada y jerarquía principal normalizados | Llamadas, enlaces y esquema final |
+| 3 | EN_REVISION | Ley 39/2015, matriz, banco, portada y jerarquía principal normalizados | Llamadas, enlaces y esquema final |
+| 4 | EN_REVISION | Ley 39/2015, especialidad local, matriz, banco, portada y jerarquía normalizados | Llamadas, enlaces y esquema final |
+| 5 | EN_REVISION | LRBRL, LOREG, matriz, banco, portada y jerarquía normalizados | Llamadas, enlaces y esquema final |
+| 6 | EN_REVISION | Ley 4/2011, modificación de 2026, matriz, banco, portada, jerarquía y contrato frontend verificados | Llamadas, enlaces y esquema final |
+| 7 | EN_REVISION | LPRL, Reglamento, matriz, banco, portada y jerarquía normalizados | Llamadas, enlaces y esquema final |
+| 8 | EN_REVISION | Ley 12/2010, LO 3/2007, matriz, banco, portada y jerarquía normalizados | Llamadas, enlaces y esquema final |
+| 9 | EN_REVISION | LOPDGDD, RGPD, matriz, banco, portada y jerarquía normalizados | Llamadas, enlaces y esquema final |
+| 10 | EN_REVISION | Manual, matriz y 12 preguntas verificados; sin incidencia jurídica abierta | Comprobación visual y control transversal final |
 | 11 | EN_REVISION | Portada y estado normalizados; 12 preguntas trazables | Enlaces, esquema final y llamadas destacadas |
 | 12 | EN_REVISION | Portada y estado normalizados; TRLRHL vigente a **03/06/2026**; 12 preguntas trazables | Enlaces de cinco bloques, `articulos.md`, `feedback.md`, esquema y llamadas |
 | 13–15 | EN_REVISION | Portadas y estados normalizados | Enlaces, esquemas y llamadas destacadas |
-| 16 | EN_REVISION | Vigencia técnica reconfirmada; manual, matriz y 12 preguntas verificados; contrato frontend compatible | Homogeneización de llamadas y revisión visual final |
-| 17 | EN_REVISION | Portada y estado normalizados; matriz y 12 preguntas verificados; vigencia técnica reconfirmada | Revisión visual de bloques, llamadas y enlaces externos |
-| 18 | EN_REVISION | Portada y estado normalizados; matriz y 12 preguntas verificados; vigencia técnica reconfirmada | Revisión visual de bloques, llamadas y enlaces internos |
-| 19 | EN_REVISION | Portada y estado normalizados; matriz y 12 preguntas verificados; retirada segura y USB-C actualizados | Enlaces, llamadas y esquema final |
+| 16 | EN_REVISION | Vigencia técnica, manual, matriz, banco y contrato frontend verificados | Homogeneización de llamadas y revisión visual final |
+| 17 | EN_REVISION | Portada, matriz, banco y vigencia técnica verificados | Revisión visual de bloques, llamadas y enlaces externos |
+| 18 | EN_REVISION | Portada, matriz, banco y vigencia técnica verificados | Revisión visual de bloques, llamadas y enlaces internos |
+| 19 | EN_REVISION | Portada, matriz y banco verificados; retirada segura y USB-C actualizados | Enlaces, llamadas y esquema final |
 
 ### Hallazgos transversales
 
-- Los Temas **1–19** ya tienen portada y estado visibles normalizados.
-- Los Temas **1–9** ya tienen vigencia, matriz y banco alineados; sus bancos están normalizados a `APROBADO_USUARIO`.
-- Se han retirado de los manuales 1–9 el sufijo `Manual reconstruido`, los metadatos de migración y la regla interna del proyecto.
-- El frontend admite las claves `pregunta` y `enunciado`, `correcta` y `respuestaCorrecta`, y `trampa` y `trampaExamen`; la incidencia específica del Tema **6** queda cerrada.
-- Persisten llamadas no homogéneas frente al patrón `> ⚠️ **¡Foco Examen!:**`.
+- Los **Temas 1–19** tienen portada y estado visibles normalizados.
+- Los bancos de preguntas de los **Temas 1–19** están alineados con el flujo editorial vigente.
+- Los manuales **1–9** tienen un único encabezado `H1`; los antiguos encabezados de parte o bloque se han rebajado a `H2`.
+- Se eliminaron de los Temas **1–9** el sufijo histórico `Manual reconstruido`, los metadatos de migración y la regla interna del proyecto.
+- Las llamadas explícitas `Trampa de examen`, `Trampa examen` y `Clave de examen` de los Temas **1–9** se normalizan al patrón `> ⚠️ **¡Foco Examen!:**`.
+- El frontend admite `pregunta/enunciado`, `correcta/respuestaCorrecta` y `trampa/trampaExamen`; la incidencia específica del Tema **6** está cerrada.
+- Quedan la validación de enlaces y esquemas, la revisión de llamadas residuales y la comprobación visual y técnica final.
 - Ningún tema está marcado todavía como `CERRADO_FASE_2`.
 
 ## UC3M
