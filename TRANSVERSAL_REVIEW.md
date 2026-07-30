@@ -2,50 +2,49 @@
 
 Última actualización: **30 de julio de 2026**.
 
-La fase 2 continúa en `EN_REVISION`. Un tema solo se cerrará cuando supere vigencia jurídica o técnica, trazabilidad, jerarquía editorial, enlaces, preguntas, esquema final y ausencia de duplicidades.
-
 ## La Puebla de Montalbán
 
-| Tema | Estado | Situación verificada | Pendiente principal |
-|---|---|---|---|
-| 1 | EN_REVISION | Vigencia constitucional, matriz, banco, portada y jerarquía principal normalizados | Validación CI, llamadas residuales, enlaces y esquema final |
-| 2 | EN_REVISION | Ley 39/2015, matriz, banco, portada y jerarquía principal normalizados | Validación CI, llamadas residuales, enlaces y esquema final |
-| 3 | EN_REVISION | Ley 39/2015, matriz, banco, portada y jerarquía principal normalizados | Validación CI, llamadas residuales, enlaces y esquema final |
-| 4 | EN_REVISION | Ley 39/2015, especialidad local, matriz, banco, portada y jerarquía normalizados | Validación CI, llamadas residuales, enlaces y esquema final |
-| 5 | EN_REVISION | LRBRL, LOREG, matriz, banco, portada y jerarquía normalizados | Validación CI, llamadas residuales, enlaces y esquema final |
-| 6 | EN_REVISION | Ley 4/2011, modificación de 2026, matriz, banco, portada, jerarquía y contrato frontend verificados | Validación CI, llamadas residuales, enlaces y esquema final |
-| 7 | EN_REVISION | LPRL, Reglamento, matriz, banco, portada y jerarquía normalizados | Validación CI, llamadas residuales, enlaces y esquema final |
-| 8 | EN_REVISION | Ley 12/2010, LO 3/2007, matriz, banco, portada y jerarquía normalizados | Validación CI, llamadas residuales, enlaces y esquema final |
-| 9 | EN_REVISION | LOPDGDD, RGPD, matriz, banco, portada y jerarquía normalizados | Validación CI, llamadas residuales, enlaces y esquema final |
-| 10 | EN_REVISION | Manual, matriz y 12 preguntas verificados; sin incidencia jurídica abierta | Comprobación visual y control transversal final |
-| 11 | EN_REVISION | Portada y estado normalizados; 12 preguntas trazables | Enlaces, esquema final y llamadas destacadas |
-| 12 | EN_REVISION | Portada y estado normalizados; TRLRHL vigente a **03/06/2026**; 12 preguntas trazables | Enlaces de cinco bloques, `articulos.md`, `feedback.md`, esquema y llamadas |
-| 13–15 | EN_REVISION | Portadas y estados normalizados | Enlaces, esquemas y llamadas destacadas |
-| 16 | EN_REVISION | Vigencia técnica, manual, matriz, banco y contrato frontend verificados | Homogeneización de llamadas y revisión visual final |
-| 17 | EN_REVISION | Portada, matriz, banco y vigencia técnica verificados | Revisión visual de bloques, llamadas y enlaces externos |
-| 18 | EN_REVISION | Portada, matriz, banco y vigencia técnica verificados | Revisión visual de bloques, llamadas y enlaces internos |
-| 19 | EN_REVISION | Portada, matriz y banco verificados; retirada segura y USB-C actualizados | Enlaces, llamadas y esquema final |
+Estado global: **CERRADO_FASE_2**.
 
-### Hallazgos transversales
+| Tema | Estado | Situación verificada |
+|---|---|---|
+| 1 | CERRADO_FASE_2 | Vigencia constitucional, matriz, banco, portada, jerarquía y bloque de repaso validados |
+| 2 | CERRADO_FASE_2 | Ley 39/2015, matriz, banco, portada, jerarquía y bloque de repaso validados |
+| 3 | CERRADO_FASE_2 | Ley 39/2015, matriz, banco, portada, jerarquía y bloque de repaso validados |
+| 4 | CERRADO_FASE_2 | Ley 39/2015, especialidad local, matriz, banco, portada y esquema validados |
+| 5 | CERRADO_FASE_2 | LRBRL, LOREG, matriz, banco, portada y esquema validados |
+| 6 | CERRADO_FASE_2 | Ley 4/2011, modificación de 2026, límite de cuatro años y contrato frontend validados |
+| 7 | CERRADO_FASE_2 | LPRL, Reglamento, matriz, banco, portada y repaso validados |
+| 8 | CERRADO_FASE_2 | Ley 12/2010, LO 3/2007, matriz, banco y esquema final validados |
+| 9 | CERRADO_FASE_2 | LOPDGDD, RGPD, matriz, banco, portada y repaso validados |
+| 10 | CERRADO_FASE_2 | Manual, matriz, banco, llamadas y esquema validados |
+| 11 | CERRADO_FASE_2 | Manual, matriz, banco, enlaces locales y repaso validados |
+| 12 | CERRADO_FASE_2 | TRLRHL, banco, enlaces locales y repaso validados |
+| 13 | CERRADO_FASE_2 | Administración electrónica I, enlaces y esquema final validados |
+| 14 | CERRADO_FASE_2 | Ley 40/2015, enlaces y esquema final validados |
+| 15 | CERRADO_FASE_2 | Manual, matriz, banco, enlaces y repaso validados |
+| 16 | CERRADO_FASE_2 | Vigencia técnica, manual, matriz, banco y repaso validados |
+| 17 | CERRADO_FASE_2 | Vigencia técnica, manual, matriz, banco, enlaces y esquema validados |
+| 18 | CERRADO_FASE_2 | Vigencia técnica, manual, matriz, banco, enlaces y esquema validados |
+| 19 | CERRADO_FASE_2 | Retirada segura, USB-C, matriz, banco, enlaces y esquema validados |
 
-- Los **Temas 1–19** tienen portada y estado visibles normalizados.
-- Los bancos de preguntas de los **Temas 1–19** están alineados con el flujo editorial vigente.
-- Los manuales **1–9** tienen un único encabezado `H1`; los antiguos encabezados de parte o bloque se han rebajado a `H2`.
-- Se eliminaron de los Temas **1–9** el sufijo histórico `Manual reconstruido`, los metadatos de migración y la regla interna del proyecto.
-- Las llamadas explícitas `Trampa de examen`, `Trampa examen` y `Clave de examen` de los Temas **1–9** se normalizan al patrón `> ⚠️ **¡Foco Examen!:**`.
-- El frontend admite `pregunta/enunciado`, `correcta/respuestaCorrecta` y `trampa/trampaExamen`; la incidencia específica del Tema **6** está cerrada.
-- `tests/validate-la-puebla-editorial.mjs` está integrado en `npm test` y comprueba estructura editorial, bancos y enlaces locales. Todavía debe verificarse una ejecución completa en CI antes de cerrar la incidencia.
-- Quedan la revisión de esquemas, llamadas residuales y la comprobación visual y técnica final.
-- Ningún tema está marcado todavía como `CERRADO_FASE_2`.
+### Evidencia de cierre
+
+- Los 19 bancos están en `APROBADO_USUARIO` y contienen exactamente 12 preguntas.
+- Los 19 manuales tienen H1 único, portada normalizada y estado `PUBLICADO`.
+- No se detectan metadatos históricos ni llamadas antiguas.
+- Todos los enlaces locales comprobados existen.
+- Los 19 temas contienen un bloque final de esquema o repaso.
+- La prueba completa `npm test` ha superado los dos validadores.
+- Resultado CI: `VALIDACION_CI_SUPERADA` sobre `6fde256468a8a24c0d775d29172d7fd615d81828`.
+- La navegación y el desplazamiento dentro de los temas fueron comprobados en el despliegue real tras retirar el service worker y corregir los observadores.
+
+Documento de cierre: `audit/PHASE2_CLOSURE.md`.
 
 ## UC3M
 
-- Temas 1–13, 18 y 20: pendientes de cierre transversal.
-- Temas 14–17: revisados con correcciones acumuladas.
-- Tema 19: revisado con corrección jurídica.
+La revisión específica continúa abierta. La solicitud personal está presentada y registrada desde el 15 de julio de 2026.
 
 ## Diputación de Toledo
 
-- Temas 1–30 y 32–40: pendientes de revisión transversal.
-- Tema 31: revisado y actualizado a eIDAS 2.
-- OAPGT: pendiente de fuente oficial íntegra y verificable.
+La revisión específica continúa abierta. La práctica está activada y el seguimiento personal se muestra una sola vez.
