@@ -23,12 +23,16 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 - Se ha incorporado `tests/validate-la-puebla-editorial.mjs` al comando `npm test`. El control comprueba H1 único, portada, ausencia de metadatos históricos, llamadas antiguas detectables, banco aprobado con 12 preguntas y existencia de enlaces locales.
 - Corregido el `service worker` para ignorar solicitudes con esquemas no `http/https` o ajenas al origen. Esto evita el error `Cache.put` con solicitudes `chrome-extension://` observado en navegador.
 - Los recursos `js`, `json`, `md`, `html`, `css` y `svg` utilizan ahora estrategia `stale-while-revalidate`; la navegación conserva `network-first` con tiempo máximo de espera de 4,5 segundos.
+- La captura de red del usuario mostró **51 peticiones** y la descarga en segundo plano de todos los `manual.md`, con finalización total cercana a **17 segundos**, aunque `DOMContentLoaded` y `load` se completaban por debajo de un segundo.
+- Se ha desactivado la construcción automática del índice completo al arrancar. La vista de programa ya no descarga los 19 o 40 manuales; el contenido se solicita únicamente al abrir un tema.
+- Se ha retirado el `backdrop-filter` de la barra fija y se ha aplicado `content-visibility:auto` a los bloques del manual y las tarjetas de preguntas para reducir trabajo de renderizado durante desplazamientos rápidos.
 
 Estado de La Puebla: **19/19 revisados; bancos de preguntas 1–19 y portadas 1–19 alineados; cierre editorial todavía pendiente**.
 
 ### Incidencias abiertas
 
 - Verificar en el despliegue que el nuevo `service worker` queda activo y desaparece el error de `Cache.put`.
+- Comprobar en el despliegue que la portada deja de solicitar todos los `manual.md` y que el scroll rápido no vuelve a bloquear la interfaz.
 - Ejecutar y verificar en CI el validador editorial y de enlaces.
 - Revisar los esquemas o bloques de repaso que el informe automático identifique como ausentes o no homogéneos.
 - Comprobación visual y técnica final del despliegue tras los cambios editoriales.
@@ -56,8 +60,9 @@ Comprobación realizada el **30 de julio de 2026**:
 
 ## Orden de trabajo
 
-1. Confirmar activación del nuevo `service worker` en GitHub Pages.
-2. Ejecutar y verificar el validador editorial y de enlaces de La Puebla.
-3. Corregir esquemas residuales según su informe.
-4. Ejecutar comprobación visual y técnica final del despliegue.
-5. Continuar UC3M y Diputación.
+1. Confirmar en GitHub Pages la activación del `service worker` y de la optimización de carga.
+2. Repetir la captura de red y la prueba de scroll rápido.
+3. Ejecutar y verificar el validador editorial y de enlaces de La Puebla.
+4. Corregir esquemas residuales según su informe.
+5. Ejecutar comprobación visual y técnica final del despliegue.
+6. Continuar UC3M y Diputación.
