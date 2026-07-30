@@ -10,49 +10,36 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 
 ### La Puebla de Montalbán
 
-- Tema 1: vigencia constitucional reconfirmada tras la reforma del artículo 69.3 publicada el **20 de mayo de 2026**.
-- Tema 1: matriz actualizada y banco de **12 preguntas** normalizado a `APROBADO_USUARIO`; no se detectan respuestas incorrectas.
-- Tema 2: vigencia de la Ley 39/2015 reconfirmada; el BOE mantiene como última actualización consolidada la publicada el **6 de noviembre de 2024**.
-- Tema 2: matriz actualizada y banco de **12 preguntas** normalizado a `APROBADO_USUARIO`; no se detectan respuestas incorrectas.
-- Tema 4: vigencia de los artículos 106–126 de la Ley 39/2015 reconfirmada; la Ley 7/1985 mantiene como última actualización consolidada la publicada el **3 de junio de 2026**, sin alteración de los artículos 52 y 53 utilizados en el tema.
-- Tema 4: matriz actualizada y banco de **12 preguntas** normalizado a `APROBADO_USUARIO`; no se detectan respuestas incorrectas.
-- Tema 5: vigencia de la Ley 7/1985 y de la LOREG reconfirmada; sus últimas actualizaciones consolidadas son de **3 de junio de 2026** y **2 de julio de 2026**, respectivamente.
-- Tema 5: matriz actualizada y banco de **12 preguntas** normalizado a `APROBADO_USUARIO`; no se detectan respuestas incorrectas.
-- Tema 6: matriz actualizada a **30 de julio de 2026** y vigencia de la modificación del artículo 70.2 de la Ley 4/2011 confirmada.
-- Tema 6: banco de **12 preguntas** normalizado a `APROBADO_USUARIO`.
-- Tema 6: contrato frontend verificado en `assets/app.js`; el lector admite `pregunta/enunciado`, `correcta/respuestaCorrecta` y `trampa/trampaExamen`. La incidencia específica queda cerrada.
-- Tema 10: corregida la contradicción que declaraba inexistente un banco de **12 preguntas** ya aprobado; portada, jerarquía y llamadas principales normalizadas.
-- Tema 12: título y estado editorial normalizados; vigencia del TRLRHL reconfirmada a **3 de junio de 2026**.
-- Tema 16: manual, matriz y banco de **12 preguntas** verificados contra documentación oficial de Microsoft.
-- Tema 16: confirmados el fin de soporte de IE11 el **15 de junio de 2022**, el soporte del modo IE al menos hasta **2029** y los atajos diferenciales de Edge.
-- Tema 16: cerrada la incidencia de contrato frontend; el lector admite tanto `pregunta` como `enunciado`.
-- Tema 17: portada y estado editorial normalizados; eliminados metadatos históricos y el apartado interno de cierre.
-- Tema 17: matriz y banco de **12 preguntas** revisados; vigencia técnica de Word 2024 y LibreOffice Writer reconfirmada.
-- Tema 18: portada y estado editorial normalizados; eliminados metadatos históricos y el apartado interno `Estado real`.
-- Tema 18: matriz y banco de **12 preguntas** revisados; vigencia técnica de Excel 2024 y LibreOffice Calc reconfirmada.
-- Tema 19: portada y estado editorial normalizados; matriz y banco de **12 preguntas** verificados.
-- Tema 19: precisadas la distinción entre USB-C y prestaciones del enlace, y las directivas de retirada de soportes externos de Windows.
-- Temas 10–19: portada y estado visibles ya normalizados.
+- Tema 1: vigencia constitucional reconfirmada tras la reforma del artículo 69.3 publicada el **20 de mayo de 2026**; matriz y banco de **12 preguntas** normalizados.
+- Tema 2: vigencia de la Ley 39/2015 reconfirmada; matriz y banco de **12 preguntas** normalizados.
+- Tema 4: vigencia de los artículos 106–126 de la Ley 39/2015 y especialidad local reconfirmadas; matriz y banco de **12 preguntas** normalizados.
+- Tema 5: vigencia de la Ley 7/1985 y de la LOREG reconfirmada; matriz y banco de **12 preguntas** normalizados.
+- Tema 6: matriz y banco actualizados; contrato frontend verificado para `pregunta/enunciado`, `correcta/respuestaCorrecta` y `trampa/trampaExamen`.
+- Tema 7: vigencia de la Ley 31/1995 reconfirmada contra el texto consolidado con última actualización publicada el **9 de abril de 2026**; matriz actualizada a **30 de julio de 2026**.
+- Tema 8: vigencia de la Ley 12/2010 de Castilla-La Mancha y de la Ley Orgánica 3/2007 reconfirmada; sus últimas actualizaciones consolidadas siguen siendo de **30 de junio de 2021** y **2 de agosto de 2024**; matriz actualizada a **30 de julio de 2026**.
+- Tema 9: vigencia de la Ley Orgánica 3/2018 reconfirmada; el BOE mantiene como última actualización consolidada la publicada el **27 de diciembre de 2025**; matriz actualizada a **30 de julio de 2026**.
+- Temas 10–19: portadas y estados visibles normalizados; continúan los controles finales de enlaces, esquemas y llamadas.
 
 Estado de La Puebla: **19/19 revisados; cierre editorial todavía pendiente**.
 
 ### Incidencias abiertas
 
 - Normalización editorial de los manuales de los Temas 1–9: títulos históricos, metadatos de migración y reglas internas.
+- Revisión y normalización final de los bancos de preguntas de los Temas 3 y 7–9.
 - Homogeneización de llamadas al patrón `> ⚠️ **¡Foco Examen!:**`.
 - Validación automatizada y visual de enlaces internos y esquemas finales.
-- Normalización y controles residuales de los Temas 3 y 7–9.
 
 ## Seguimiento oficial de convocatorias
 
-Comprobación realizada el **29 de julio de 2026**:
+Comprobación realizada el **30 de julio de 2026**:
 
-- **Diputación de Toledo · Administrativo C1:** solicitudes abiertas hasta el **31 de julio de 2026**; no consta lista provisional de esta convocatoria.
-- **UC3M · Auxiliar Administrativa C2:** convocatoria abierta hasta el **5 de agosto de 2026**; el ejercicio del **21 de noviembre de 2026 a las 10:00** mantiene carácter **previsible**, no definitivo.
-- **CPEIS Toledo:** se mantiene en solo seguimiento; no se ha verificado una nueva lista provisional.
+- **Diputación de Toledo · Administrativo C1:** el portal oficial mantiene abierto el plazo hasta el **31 de julio de 2026**; no consta lista provisional de esta convocatoria.
+- **UC3M · Auxiliar Administrativa C2:** convocatoria abierta hasta el **5 de agosto de 2026**; la fecha del ejercicio del **21 de noviembre de 2026 a las 10:00** continúa siendo **previsible**, no definitiva; no consta lista provisional.
+- **CPEIS Toledo:** no se ha verificado una nueva lista provisional; permanece en solo seguimiento.
 - **La Puebla de Montalbán:** no se ha verificado una nueva publicación oficial que altere el estado registrado.
+- **Carranque:** no se ha verificado una publicación posterior que altere el estado registrado.
 
-`data/convocatorias.json` queda actualizado a **29 de julio de 2026**.
+`data/convocatorias.json` queda actualizado a **30 de julio de 2026**.
 
 ## Estado por proyectos
 
@@ -66,5 +53,6 @@ Comprobación realizada el **29 de julio de 2026**:
 ## Orden de trabajo
 
 1. Normalizar editorialmente los Temas 1–9.
-2. Validar enlaces, esquemas y llamadas de los Temas 10–19.
-3. Continuar UC3M y Diputación.
+2. Revisar y normalizar los bancos de preguntas de los Temas 3 y 7–9.
+3. Validar enlaces, esquemas y llamadas de los Temas 10–19.
+4. Continuar UC3M y Diputación.
