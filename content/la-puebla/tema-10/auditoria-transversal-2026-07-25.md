@@ -1,6 +1,6 @@
 # Auditoría transversal · La Puebla · Tema 10
 
-**Fecha:** 28 de julio de 2026  
+**Fecha:** 30 de julio de 2026  
 **Estado:** EN_REVISION
 
 ## Alcance comprobado
@@ -36,35 +36,29 @@ La LGT mantiene como última actualización consolidada la publicada el **21 de 
 
 No se detecta una incorrección jurídica material que obligue a modificar el contenido sustantivo.
 
+## Verificación del manual
+
+- La portada visible está normalizada y el estado figura como `PUBLICADO`.
+- Existe un único encabezado principal `#`.
+- La estructura incluye mapa del epígrafe, tablas comparativas, supuestos prácticos, cifras esenciales, errores frecuentes y retención activa.
+- Las referencias del banco remiten a apartados existentes del manual.
+- No existen enlaces internos Markdown susceptibles de rotura.
+- Las fuentes oficiales se identifican mediante sus referencias BOE; las URL oficiales quedan incorporadas en `matriz.json` para trazabilidad técnica.
+
 ## Verificación de matriz y banco
 
-- `matriz.json` cubre todos los incisos del epígrafe y se ha actualizado a fecha de revisión normativa `2026-07-27`.
-- `preguntas.json` está en estado `APROBADO_USUARIO`, versión `2026-07-25`, con **12 preguntas**, respuesta única, justificación, trampa y referencia.
-- No se han modificado preguntas porque no se ha localizado ambigüedad ni respuesta jurídicamente incorrecta.
+- `matriz.json` cubre todos los incisos del epígrafe, queda revisada a `2026-07-30` e incorpora las URL oficiales del TRLRHL y de la LGT.
+- `preguntas.json` está en estado `APROBADO_USUARIO`, versión `2026-07-30`, con **12 preguntas**, cuatro opciones, respuesta única, justificación, trampa y referencia.
+- Se han comprobado las **12 respuestas** y no se ha localizado ambigüedad ni respuesta jurídicamente incorrecta.
 
-## Incidencia real detectada
+## Cambios editoriales acumulados
 
-El apartado final de `manual.md` todavía afirma **«Preguntas trazables: no creadas todavía»**, pero `preguntas.json` contiene **12 preguntas aprobadas y trazables**. La contradicción debe corregirse durante la normalización del manual.
-
-También permanecen pendientes:
-
-- retirar el sufijo histórico «Manual reconstruido» y los metadatos internos de aprobación;
-- dejar un único encabezado principal `#`;
-- homogeneizar las llamadas destacadas al patrón `> ⚠️ **¡Foco Examen!:**`;
-- validar enlaces internos y referencias preservando la numeración utilizada por el banco.
+- Corregida la antigua contradicción que afirmaba que el banco no existía.
+- Normalizados el título principal, el estado visible y la jerarquía de las partes.
+- Retirados metadatos internos de aprobación y el apartado `Estado real`.
+- Normalizadas las llamadas principales al patrón `> ⚠️ **¡Foco Examen!:**`.
+- Reconfirmada la vigencia del TRLRHL y de la LGT el **30 de julio de 2026**.
 
 ## Criterio de cierre
 
-El Tema 10 permanece en `EN_REVISION`. La revisión jurídica, la matriz y el banco quedan verificadas; el cierre de fase 2 exige corregir la contradicción del manual y completar la normalización editorial sin romper su trazabilidad interna.
-
-
-## Revisión editorial de 28 de julio de 2026
-
-- Corregida la contradicción del apartado final: el banco contiene **12 preguntas aprobadas y trazables**.
-- Normalizados el título principal y el estado visible a `PUBLICADO`.
-- Retirados los metadatos internos de aprobación y el apartado `Estado real`.
-- Corregida la jerarquía de las once partes para conservar un único encabezado `#`.
-- Normalizadas las llamadas «Idea de examen» y «Diferencia esencial» al patrón `> ⚠️ **¡Foco Examen!:**`.
-- Reconfirmada la vigencia del TRLRHL (actualización consolidada de **3 de junio de 2026**) y de la LGT (actualización consolidada de **21 de diciembre de 2024**).
-
-Permanece pendiente la validación sistemática de enlaces internos y la revisión completa de todas las llamadas destacadas antes del cierre de fase 2.
+El Tema 10 mantiene contenido jurídico, matriz y banco coherentes y trazables. Permanece en `EN_REVISION` únicamente hasta completar la comprobación visual en el despliegue web y el control transversal final de la fase 2; no existe una incidencia jurídica abierta que requiera decisión del usuario.
