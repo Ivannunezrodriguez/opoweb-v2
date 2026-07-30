@@ -28,6 +28,19 @@ const CALLS = [
     progressKey: 'opoweb-diputacion-practice-progress-v1',
     legacyProgressKey: null,
     questionPrefix: 'DIP-T'
+  },
+  {
+    id: 'uc3m-auxiliar-administrativa-c2-2026',
+    label: 'Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2',
+    shortLabel: 'UC3M · Auxiliar C2',
+    programmeUrl: 'data/programa-uc3m-auxiliar-administrativa-2026.json',
+    contentRoot: 'content/uc3m',
+    themeCount: 20,
+    supuestosUrl: 'content/uc3m/supuestos-practicos.json',
+    simulacrosUrl: 'content/uc3m/simulacros.json',
+    progressKey: 'opoweb-uc3m-practice-progress-v1',
+    legacyProgressKey: null,
+    questionPrefix: 'UC3M-T'
   }
 ];
 

@@ -19,18 +19,20 @@ const CALLS = [
     label: 'Diputación Provincial de Toledo · Administrativo C1',
     shortLabel: 'Diputación de Toledo · C1',
     programmeUrl: 'data/programa-diputacion-administrativo-2026.json',
+    trackingUrl: 'data/seguimiento-diputacion-c1.json',
     contentRoot: 'content/diputacion-toledo',
     availableThemes: 40,
-    practiceUrl: null
+    practiceUrl: 'practice.html'
   },
   {
     id: 'uc3m-auxiliar-administrativa-c2-2026',
     label: 'Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2',
     shortLabel: 'UC3M · Auxiliar C2',
     programmeUrl: 'data/programa-uc3m-auxiliar-administrativa-2026.json',
+    trackingUrl: 'data/seguimiento-uc3m.json',
     contentRoot: 'content/uc3m',
-    availableThemes: 0,
-    practiceUrl: null
+    availableThemes: 20,
+    practiceUrl: 'practice.html'
   }
 ];
 
@@ -236,9 +238,11 @@ function callSelector() {
 }
 
 function renderTracking() {
-  if (!activeTracking) return '';
+  if (!activeTracking?.situacionPersonal) return '';
   const personal = activeTracking.situacionPersonal;
-  return `<section class="panel tracking-panel"><div class="section-heading"><div><p class="eyebrow section-eyebrow">Seguimiento personal</p><h2>Plazos y estado de la OPE</h2></div><span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Estoy apuntado' : 'Inscripción no confirmada'}</span></div><div class="personal-status"><div><span>Estado</span><strong>${escapeHtml(personal.estado)}</strong></div><div><span>Convocatoria</span><strong>4 plazas · C2 · concurso-oposición libre</strong></div></div><p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad)}</p></section>`;
+  const convocatoria = personal.convocatoria || activeCall.label;
+  const siguienteHito = activeTracking.siguienteHito ? `<div><span>Siguiente hito</span><strong>${escapeHtml(activeTracking.siguienteHito)}</strong></div>` : '';
+  return `<section class="panel tracking-panel" data-tracking-call="${escapeHtml(activeCall.id)}"><div class="section-heading"><div><p class="eyebrow section-eyebrow">Seguimiento personal</p><h2>Plazos y estado de la OPE</h2></div><span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Estoy apuntado' : 'Inscripción no confirmada'}</span></div><div class="personal-status"><div><span>Estado</span><strong>${escapeHtml(personal.estado)}</strong></div><div><span>Convocatoria</span><strong>${escapeHtml(convocatoria)}</strong></div>${siguienteHito}</div><p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad || 'Los datos personales no se publican en el repositorio.')}</p></section>`;
 }
 
 function renderProgramme(query = activeSearchQuery) {
