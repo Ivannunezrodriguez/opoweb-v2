@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-// Normalización editorial reproducible de las portadas históricas de La Puebla.
+// Normalización editorial reproducible e idempotente de las portadas históricas.
 const root = process.cwd();
 const updated = [];
 
@@ -11,42 +11,31 @@ for (let tema = 1; tema <= 9; tema += 1) {
   if (!fs.existsSync(file)) continue;
 
   const original = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
-  let text = original;
-
-  text = text.replace(
-    new RegExp(`^# La Puebla de Montalbán · Tema ${tema}(?: · Manual reconstruido)?\\s*$`, 'm'),
-    `# La Puebla de Montalbán · Tema ${tema}`
-  );
-
-  const lines = text.split('\n');
-  const cleaned = [];
-  let headerInserted = false;
+  const lines = original.split('\n');
+  const body = [];
 
   for (const line of lines) {
-    if (/^\*\*Estado:\*\*/.test(line)) {
-      if (!headerInserted) {
-        cleaned.push('**Estado editorial:** PUBLICADO  ');
-        cleaned.push('**Fecha de revisión normativa:** 30 de julio de 2026.');
-        headerInserted = true;
-      }
-      continue;
-    }
-    if (/^\*\*(?:Migrado|Publicado) en OpoWeb v2/.test(line)) continue;
-    if (/^\*\*Fecha de revisión normativa:\*\*/.test(line)) {
-      if (!headerInserted) {
-        cleaned.push('**Estado editorial:** PUBLICADO  ');
-        cleaned.push('**Fecha de revisión normativa:** 30 de julio de 2026.');
-        headerInserted = true;
-      }
-      continue;
-    }
+    if (/^# La Puebla de Montalbán · Tema \d+(?: · Manual reconstruido)?\s*$/.test(line)) continue;
+    if (/^\*\*Estado(?: editorial)?:\*\*/.test(line)) continue;
+    if (/^\*\*(?:Migrado|Publicado).*OpoWeb v2/.test(line)) continue;
+    if (/^\*\*Fecha de revisión normativa:\*\*/.test(line)) continue;
     if (/^> \*\*Regla del proyecto:\*\*/.test(line)) continue;
-    cleaned.push(line);
+    body.push(line);
   }
 
-  text = cleaned.join('\n')
-    .replace(/\n{4,}/g, '\n\n\n')
-    .replace(/^(# La Puebla[^\n]+)\n{3,}/, '$1\n\n');
+  while (body.length && !body[0].trim()) body.shift();
+
+  const header = [
+    `# La Puebla de Montalbán · Tema ${tema}`,
+    '',
+    '**Estado editorial:** PUBLICADO  ',
+    '**Fecha de revisión normativa:** 30 de julio de 2026.',
+    ''
+  ];
+
+  const text = [...header, ...body]
+    .join('\n')
+    .replace(/\n{4,}/g, '\n\n\n');
 
   if (text !== original) {
     fs.writeFileSync(file, text, 'utf8');
