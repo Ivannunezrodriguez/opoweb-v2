@@ -21,21 +21,18 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 - Tema 9: vigencia de la Ley Orgánica 3/2018 y coordinación con el RGPD reconfirmadas; matriz y banco de **12 preguntas** normalizados a **30 de julio de 2026**.
 - Temas 1–19: portadas, jerarquía principal y llamadas explícitas normalizadas mediante proceso reproducible.
 - Se ha incorporado `tests/validate-la-puebla-editorial.mjs` al comando `npm test`. El control comprueba H1 único, portada, ausencia de metadatos históricos, llamadas antiguas detectables, banco aprobado con 12 preguntas y existencia de enlaces locales.
-- Corregido el `service worker` para ignorar solicitudes con esquemas no `http/https` o ajenas al origen. Esto evita el error `Cache.put` con solicitudes `chrome-extension://` observado en navegador.
-- Los recursos `js`, `json`, `md`, `html`, `css` y `svg` utilizan estrategia `stale-while-revalidate`; la navegación conserva `network-first` con tiempo máximo de espera de 4,5 segundos.
-- La primera captura de red mostró **51 peticiones** y descarga en segundo plano de todos los `manual.md`, con finalización cercana a **17 segundos**.
-- Se desactivó la construcción automática del índice completo. La portada ya no solicita todos los manuales; el contenido se carga al abrir cada tema.
-- La segunda captura del usuario confirma que ya no aparecen peticiones masivas a `manual.md`; la red finaliza aproximadamente en **1,43 s**, con `DOMContentLoaded` alrededor de **195 ms** y `load` alrededor de **777 ms**.
-- El tiempo de red ya no explica por sí solo la sensación de lentitud. Para reducir trabajo del hilo principal, los módulos secundarios de progreso, historial, revisión de errores y enlaces de test se cargan ahora en tiempo ocioso mediante `assets/runtime-enhancements.js`.
-- La versión visible y la caché se actualizan a `v0.27.23` / `opoweb-v2-0.27.23`.
-- Se mantiene `content-visibility:auto` en bloques del manual y tarjetas de preguntas, y se retiró `backdrop-filter` de la barra fija.
+- La carga masiva de manuales al abrir la portada quedó eliminada y la segunda captura confirmó tiempos de red inferiores a dos segundos.
+- Tras introducir estrategias de caché, una navegación controlada por `sw.js` quedó en estado `pending`, impidiendo incluso cargar la portada.
+- Como medida de recuperación, `sw.js` se ha convertido en un service worker de retirada: elimina todas las cachés, se desregistra y no incorpora listener `fetch`.
+- `index.html` incorpora además una limpieza defensiva de registros y cachés antes de iniciar la aplicación. La versión visible pasa a `v0.27.25`.
 
 Estado de La Puebla: **19/19 revisados; bancos de preguntas 1–19 y portadas 1–19 alineados; cierre editorial todavía pendiente**.
 
 ### Incidencias abiertas
 
-- Verificar en el despliegue la versión visible `v0.27.23` y la carga diferida de módulos secundarios.
-- Repetir prueba de scroll con DevTools cerrado y en ventana privada para separar coste de extensiones del coste propio de OpoWeb.
+- Confirmar en GitHub Pages que la portada vuelve a cargar sin navegación `pending`.
+- Confirmar que no queda ningún service worker controlando el sitio.
+- Repetir la apertura de un tema y la prueba de scroll rápido sin caché de aplicación.
 - Ejecutar y verificar en CI el validador editorial y de enlaces.
 - Revisar esquemas o bloques de repaso ausentes o no homogéneos.
 - Comprobación visual y técnica final del despliegue.
@@ -63,8 +60,8 @@ Comprobación realizada el **30 de julio de 2026**:
 
 ## Orden de trabajo
 
-1. Confirmar en GitHub Pages la versión `v0.27.23` y la carga diferida.
-2. Repetir la prueba de scroll sin DevTools y en ventana privada.
+1. Recuperar y verificar la carga normal de GitHub Pages sin service worker.
+2. Repetir apertura de tema y prueba de scroll.
 3. Ejecutar y verificar el validador editorial y de enlaces de La Puebla.
 4. Corregir esquemas residuales según su informe.
 5. Ejecutar comprobación visual y técnica final del despliegue.
