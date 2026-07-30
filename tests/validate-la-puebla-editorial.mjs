@@ -33,7 +33,7 @@ for (const theme of programme.temas) {
   const bank = json(theme.preguntas);
   const h1 = manual.match(/^#\s+.+$/gm) ?? [];
   const focusCount = (manual.match(/^>\s*⚠️\s*\*\*¡Foco Examen!:\*\*/gim) ?? []).length;
-  const schemeHeadings = (manual.match(/^#{2,6}\s+.*(?:esquema|repaso|mapa).*/gim) ?? []).length;
+  const schemeHeadings = (manual.match(/^#{2,6}\s+.*(?:esquema|repaso|mapa|retención activa|cifras esenciales|errores frecuentes).*/gim) ?? []).length;
 
   assert.equal(h1.length, 1, `El tema ${number} debe tener un único H1 y tiene ${h1.length}`);
   assert.equal(h1[0], `# La Puebla de Montalbán · Tema ${number}`, `H1 no normalizado en tema ${number}`);
@@ -50,6 +50,7 @@ for (const theme of programme.temas) {
 
   assert.equal(bank.estado, 'APROBADO_USUARIO', `Banco del tema ${number} no está APROBADO_USUARIO`);
   assert.equal(bank.preguntas?.length, 12, `El tema ${number} no tiene 12 preguntas`);
+  assert.ok(schemeHeadings >= 1, `El tema ${number} carece de bloque final de esquema o repaso`);
 
   const baseDir = path.dirname(theme.manual);
   let localLinks = 0;
@@ -82,6 +83,7 @@ console.log(JSON.stringify({
     'ausencia de metadatos históricos',
     'ausencia de llamadas antiguas detectables',
     'banco APROBADO_USUARIO con 12 preguntas',
+    'bloque final de esquema o repaso',
     'enlaces locales existentes'
   ],
   temas: report,
