@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.27.21';
+const CACHE = 'opoweb-v2-0.27.22';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -39,31 +39,76 @@ self.addEventListener('activate', event => {
   self.clients.claim();
 });
 
+function isCacheableRequest(request) {
+  try {
+    const url = new URL(request.url);
+    return request.method === 'GET' &&
+      (url.protocol === 'http:' || url.protocol === 'https:') &&
+      url.origin === self.location.origin;
+  } catch (_) {
+    return false;
+  }
+}
+
+async function putSafely(cache, request, response) {
+  if (!response?.ok || !isCacheableRequest(request)) return;
+  try {
+    await cache.put(request, response.clone());
+  } catch (error) {
+    console.warn('OpoWeb: recurso no cacheable', request.url, error);
+  }
+}
+
+async function fetchWithTimeout(request, timeoutMs = 4500) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    return await fetch(request, { signal: controller.signal });
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
 async function networkFirst(request) {
   const cache = await caches.open(CACHE);
   try {
-    const response = await fetch(request);
-    if (response.ok) cache.put(request, response.clone());
+    const response = await fetchWithTimeout(request);
+    await putSafely(cache, request, response);
     return response;
   } catch (_) {
     return (await cache.match(request)) || caches.match('./index.html');
   }
 }
 
-async function cacheFirst(request) {
+async function staleWhileRevalidate(request, event) {
   const cache = await caches.open(CACHE);
   const cached = await cache.match(request);
-  if (cached) return cached;
-  const response = await fetch(request);
-  if (response.ok) cache.put(request, response.clone());
-  return response;
+  const refresh = fetch(request)
+    .then(async response => {
+      await putSafely(cache, request, response);
+      return response;
+    })
+    .catch(() => null);
+
+  if (cached) {
+    event.waitUntil(refresh);
+    return cached;
+  }
+
+  return (await refresh) || caches.match('./index.html');
 }
 
 self.addEventListener('fetch', event => {
-  if (event.request.method !== 'GET') return;
-  const url = new URL(event.request.url);
-  const dynamicContent = event.request.mode === 'navigate' ||
-    /\.(?:js|json|md|html)$/i.test(url.pathname);
+  if (!isCacheableRequest(event.request)) return;
 
-  event.respondWith(dynamicContent ? networkFirst(event.request) : cacheFirst(event.request));
+  const url = new URL(event.request.url);
+  if (event.request.mode === 'navigate') {
+    event.respondWith(networkFirst(event.request));
+    return;
+  }
+
+  const contentAsset = /\.(?:js|json|md|html|css|svg)$/i.test(url.pathname);
+  event.respondWith(contentAsset
+    ? staleWhileRevalidate(event.request, event)
+    : networkFirst(event.request));
 });
