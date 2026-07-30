@@ -1,0 +1,35 @@
+name: Normalizar manuales La Puebla
+
+on:
+  push:
+    paths:
+      - tools/normalize-la-puebla-manuals.mjs
+      - .github/workflows/normalize-la-puebla-manuals.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Normalizar portadas de los Temas 1-9
+        run: node tools/normalize-la-puebla-manuals.mjs
+
+      - name: Publicar cambios normalizados
+        run: |
+          if git diff --quiet -- content/la-puebla/tema-*/manual.md; then
+            echo "No hay cambios pendientes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/la-puebla/tema-*/manual.md
+          git commit -m "content: normaliza portadas de La Puebla temas 1-9"
+          git push
