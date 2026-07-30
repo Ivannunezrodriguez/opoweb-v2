@@ -112,7 +112,11 @@ assert.ok(practiceReviewJs.includes('data-review-theme'));
 assert.ok(themeTestLinkJs.includes('Hacer test del tema'));
 
 const tema6 = read('content/la-puebla/tema-06/manual.md');
-assert.ok(tema6.includes('máximo total de **cuatro años**') || tema6.includes('máximo total de cuatro años'), 'El Tema 6 debe reflejar el máximo total de cuatro años');
+const tema6Plain = tema6.replace(/[*_`]/g, '').replace(/\s+/g, ' ');
+assert.ok(
+  /duración (?:máxima|total)[^.]{0,100}cuatro años/i.test(tema6Plain),
+  'El Tema 6 debe reflejar el límite total de cuatro años'
+);
 
 assert.ok(appJs.includes('history.pushState'));
 assert.ok(appJs.includes("window.addEventListener('popstate'"));
