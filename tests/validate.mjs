@@ -11,6 +11,7 @@ const packageJson = json('package.json');
 const serviceWorker = read('sw.js');
 const index = read('index.html');
 const appJs = read('assets/app.js');
+const runtimeEnhancementsJs = read('assets/runtime-enhancements.js');
 const practiceHtml = read('practice.html');
 const practiceJs = read('assets/practice.js');
 const practiceRouteJs = read('assets/practice-route.js');
@@ -21,8 +22,9 @@ assert.equal(programme.version, '0.19.0');
 assert.equal(packageJson.version, '0.20.6');
 assert.equal(programme.temas.length, 19);
 assert.ok(index.includes('href="practice.html"'));
-assert.ok(index.includes('assets/theme-test-link.js'));
 assert.ok(index.includes('assets/app.js'));
+assert.ok(index.includes('assets/runtime-enhancements.js'));
+assert.ok(runtimeEnhancementsJs.includes("'./theme-test-link.js'"));
 
 const approved = programme.temas.filter(theme => theme.estado === 'APROBADO_USUARIO');
 assert.deepEqual(approved.map(theme => theme.numero), Array.from({ length: 19 }, (_, index) => index + 1));
@@ -97,6 +99,7 @@ assert.ok(practiceHtml.includes('assets/practice-review.js'));
 
 assert.ok(practiceJs.includes("progressKey: 'opoweb-la-puebla-practice-progress-v2'"));
 assert.ok(practiceJs.includes("progressKey: 'opoweb-diputacion-practice-progress-v1'"));
+assert.ok(practiceJs.includes("progressKey: 'opoweb-uc3m-practice-progress-v1'"));
 assert.ok(practiceJs.includes('practice-call-selector'));
 assert.ok(practiceJs.includes('data-theme-test'));
 assert.ok(practiceJs.includes('saveAttempt({'));
@@ -111,31 +114,16 @@ assert.ok(themeTestLinkJs.includes('Hacer test del tema'));
 const tema6 = read('content/la-puebla/tema-06/manual.md');
 assert.ok(tema6.includes('máximo total de **cuatro años**') || tema6.includes('máximo total de cuatro años'), 'El Tema 6 debe reflejar el máximo total de cuatro años');
 
-assert.ok(appJs.includes('buildSearchIndexInBackground'));
 assert.ok(appJs.includes('history.pushState'));
 assert.ok(appJs.includes("window.addEventListener('popstate'"));
 assert.ok(appJs.includes('fetchWithTimeout'));
 assert.ok(appJs.includes('Reintentar manual'));
 assert.ok(appJs.includes('Reintentar test'));
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.27.22'"));
-assert.ok(serviceWorker.includes("url.protocol === 'http:' || url.protocol === 'https:'"));
-assert.ok(serviceWorker.includes('url.origin === self.location.origin'));
-assert.ok(serviceWorker.includes('staleWhileRevalidate'));
-assert.ok(serviceWorker.includes('fetchWithTimeout'));
-for (const asset of [
-  './index.html',
-  './practice.html',
-  './assets/app.js',
-  './assets/theme-test-link.js',
-  './assets/practice-route.js',
-  './assets/practice.js',
-  './assets/practice-review.js',
-  './assets/practice-progress.css',
-  './data/programa.json'
-]) {
-  assert.ok(serviceWorker.includes(`'${asset}'`), `No está precargado ${asset}`);
-}
+assert.ok(serviceWorker.includes('OpoWeb deja de usar service worker temporalmente'));
+assert.ok(serviceWorker.includes('self.registration.unregister()'));
+assert.ok(serviceWorker.includes('caches.keys()'));
+assert.ok(!serviceWorker.includes("addEventListener('fetch'"), 'El service worker retirado no debe interceptar peticiones');
 
 console.log(JSON.stringify({
   editorialVersion: programme.version,
@@ -147,9 +135,8 @@ console.log(JSON.stringify({
   multiCallPractice: 'VALIDATED',
   segregatedProgress: 'VALIDATED',
   navigationHistory: 'VALIDATED',
-  progressiveLoading: 'VALIDATED',
-  serviceWorkerProtocolGuard: 'VALIDATED',
-  serviceWorkerFastContentStrategy: 'VALIDATED',
+  progressiveEnhancements: 'VALIDATED',
+  serviceWorkerRetired: 'VALIDATED',
   tema6Interinidad: '4_YEARS_SOURCE_VALIDATED',
   status: 'LA_PUEBLA_VALIDATOR_UPDATED'
 }, null, 2));
