@@ -116,7 +116,7 @@ La motivación debe exponer, al menos de forma sucinta, los hechos y fundamentos
 
 ---
 
-# PARTE II · REVISIÓN DE OFICIO
+## PARTE II · REVISIÓN DE OFICIO
 
 ## 7. Artículo 106 · revisión de disposiciones y actos nulos
 
@@ -311,7 +311,7 @@ Este artículo es estatal. Para la Administración Local deben atenderse las reg
 
 ---
 
-# PARTE III · PRINCIPIOS GENERALES DE LOS RECURSOS
+## PARTE III · PRINCIPIOS GENERALES DE LOS RECURSOS
 
 ## 13. Artículo 112 · objeto y clases
 
@@ -566,7 +566,7 @@ Tras el pronunciamiento judicial:
 
 ---
 
-# PARTE IV · RECURSO DE ALZADA
+## PARTE IV · RECURSO DE ALZADA
 
 ## 22. Artículo 121 · objeto y órgano competente
 
@@ -640,7 +640,7 @@ Solo puede proceder el extraordinario de revisión si concurre una causa del art
 
 ---
 
-# PARTE V · RECURSO POTESTATIVO DE REPOSICIÓN
+## PARTE V · RECURSO POTESTATIVO DE REPOSICIÓN
 
 ## 24. Artículo 123 · objeto y naturaleza
 
@@ -694,7 +694,7 @@ Contra la resolución de reposición no puede interponerse otra reposición.
 
 ---
 
-# PARTE VI · RECURSO EXTRAORDINARIO DE REVISIÓN
+## PARTE VI · RECURSO EXTRAORDINARIO DE REVISIÓN
 
 ## 26. Artículo 125 · objeto, causas y plazos
 
@@ -773,7 +773,7 @@ Si transcurren **tres meses** sin resolución notificada, se entiende desestimad
 
 ---
 
-# PARTE VII · ESPECIALIDAD DE LA ADMINISTRACIÓN LOCAL
+## PARTE VII · ESPECIALIDAD DE LA ADMINISTRACIÓN LOCAL
 
 ## 28. Artículo 52 de la Ley 7/1985
 
@@ -823,7 +823,7 @@ La declaración no anula por sí misma el acto.
 
 ---
 
-# PARTE VIII · COMPARACIONES ESENCIALES
+## PARTE VIII · COMPARACIONES ESENCIALES
 
 ## 31. Revisión de nulidad frente a lesividad
 
@@ -886,7 +886,7 @@ La declaración no anula por sí misma el acto.
 
 ---
 
-# PARTE IX · PLAZOS PARA MEMORIZAR
+## PARTE IX · PLAZOS PARA MEMORIZAR
 
 ## 36. Tabla general
 
@@ -917,7 +917,7 @@ La declaración no anula por sí misma el acto.
 
 ---
 
-# PARTE X · SUPUESTOS PRÁCTICOS ORIENTATIVOS
+## PARTE X · SUPUESTOS PRÁCTICOS ORIENTATIVOS
 
 ## 38. Acto del alcalde
 
@@ -995,7 +995,7 @@ La resolución del recurso no puede agravar su situación inicial por la prohibi
 
 ---
 
-# PARTE XI · ERRORES FRECUENTES
+## PARTE XI · ERRORES FRECUENTES
 
 ## 46. Puntos calientes
 
@@ -1057,7 +1057,7 @@ Responder sin consultar:
 
 ---
 
-# PARTE XII · FUENTES Y CONTROL DE ALCANCE
+## PARTE XII · FUENTES Y CONTROL DE ALCANCE
 
 ## 48. Fuente principal
 

@@ -105,7 +105,7 @@ Estos principios conectan los bloques de selección, carrera y provisión.
 
 ---
 
-# PARTE II · PERSONAL AL SERVICIO DE LAS ADMINISTRACIONES PÚBLICAS
+## PARTE II · PERSONAL AL SERVICIO DE LAS ADMINISTRACIONES PÚBLICAS
 
 ## 7. Artículo 4 · concepto y clases de personal empleado público
 
@@ -329,7 +329,7 @@ La dirección profesional no debe confundirse con el personal eventual: el event
 
 ---
 
-# PARTE III · OFERTA DE EMPLEO PÚBLICO
+## PARTE III · OFERTA DE EMPLEO PÚBLICO
 
 ## 19. Diferencias previas: plantilla, RPT y oferta
 
@@ -389,7 +389,7 @@ Puede incorporar medidas de planificación y ofertas unificadas mediante conveni
 
 ---
 
-# PARTE IV · SELECCIÓN DEL PERSONAL
+## PARTE IV · SELECCIÓN DEL PERSONAL
 
 ## 21. Artículo 37 · principios rectores
 
@@ -617,7 +617,7 @@ Requisitos sucesivos:
 
 ---
 
-# PARTE V · CARRERA ADMINISTRATIVA Y PROMOCIÓN INTERNA
+## PARTE V · CARRERA ADMINISTRATIVA Y PROMOCIÓN INTERNA
 
 ## 40. Artículo 62 · concepto y modalidades
 
@@ -714,7 +714,7 @@ Participan superiores jerárquicos y órganos colegiados de evaluación con inte
 
 ---
 
-# PARTE VI · PROVISIÓN DE PUESTOS DE TRABAJO Y MOVILIDAD
+## PARTE VI · PROVISIÓN DE PUESTOS DE TRABAJO Y MOVILIDAD
 
 ## 45. Artículo 67 · formas de provisión
 
@@ -978,7 +978,7 @@ Las Administraciones pueden adoptar medidas y convenios para facilitar esta movi
 
 ---
 
-# PARTE VII · CUADROS DE MEMORIZACIÓN
+## PARTE VII · CUADROS DE MEMORIZACIÓN
 
 ## 61. Personal empleado público
 
@@ -1034,7 +1034,7 @@ Las Administraciones pueden adoptar medidas y convenios para facilitar esta movi
 
 ---
 
-# PARTE VIII · SUPUESTOS PRÁCTICOS
+## PARTE VIII · SUPUESTOS PRÁCTICOS
 
 ## 65. Vacante ocupada por interino
 
@@ -1097,7 +1097,7 @@ Ese obstáculo no impide la movilidad interadministrativa específica por violen
 
 ---
 
-# PARTE IX · ERRORES FRECUENTES
+## PARTE IX · ERRORES FRECUENTES
 
 ## 74. Puntos calientes
 
@@ -1171,7 +1171,7 @@ Responder sin consultar:
 
 ---
 
-# PARTE X · FUENTES Y CONTROL DE CIERRE
+## PARTE X · FUENTES Y CONTROL DE CIERRE
 
 ## 76. Fuentes oficiales
 

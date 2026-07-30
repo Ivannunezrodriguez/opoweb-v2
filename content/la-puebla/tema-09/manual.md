@@ -62,7 +62,7 @@ La trazabilidad individual de los artículos 1–97 y 53 bis está en `articulos
 
 ---
 
-# PARTE II · INFORMACIÓN Y DERECHOS
+## PARTE II · INFORMACIÓN Y DERECHOS
 
 ## 5. Artículo 11 · información por capas
 
@@ -90,7 +90,7 @@ Plazo general RGPD: **un mes**, ampliable otros dos por complejidad o número de
 
 ---
 
-# PARTE III · TRATAMIENTOS CONCRETOS
+## PARTE III · TRATAMIENTOS CONCRETOS
 
 ## 7. Artículos 19–21
 
@@ -119,7 +119,7 @@ Reglas esenciales:
 
 ---
 
-# PARTE IV · RESPONSABLE, ENCARGADO Y DPD
+## PARTE IV · RESPONSABLE, ENCARGADO Y DPD
 
 ## 10. Artículos 28–32
 
@@ -150,7 +150,7 @@ Cuando el afectado se dirige previamente al DPD, este responde en máximo de **d
 
 ---
 
-# PARTE V · TRANSFERENCIAS, AEPD Y PROCEDIMIENTOS
+## PARTE V · TRANSFERENCIAS, AEPD Y PROCEDIMIENTOS
 
 ## 12. Artículos 40–43 · transferencias internacionales
 
@@ -183,7 +183,7 @@ Puede inadmitirse una reclamación ajena a protección de datos, manifiestamente
 
 ---
 
-# PARTE VI · INFRACCIONES Y SANCIONES
+## PARTE VI · INFRACCIONES Y SANCIONES
 
 ## 15. Artículos 70–78
 
@@ -218,7 +218,7 @@ En Administraciones públicas, la regla del artículo 77 no es la multa ordinari
 
 ---
 
-# PARTE VII · DERECHOS DIGITALES
+## PARTE VII · DERECHOS DIGITALES
 
 ## 16. Artículos 79–86
 
@@ -254,7 +254,7 @@ En Administraciones públicas, la regla del artículo 77 no es la multa ordinari
 
 ---
 
-# PARTE VIII · RGPD IMPRESCINDIBLE
+## PARTE VIII · RGPD IMPRESCINDIBLE
 
 ## 19. Conceptos
 
@@ -296,7 +296,7 @@ La evaluación de impacto es obligatoria cuando el tratamiento puede generar alt
 
 ---
 
-# PARTE IX · MEMORIZACIÓN Y SUPUESTOS
+## PARTE IX · MEMORIZACIÓN Y SUPUESTOS
 
 ## 23. Cifras esenciales
 
@@ -346,7 +346,7 @@ La evaluación de impacto es obligatoria cuando el tratamiento puede generar alt
 
 ---
 
-# PARTE X · FUENTES Y CIERRE
+## PARTE X · FUENTES Y CIERRE
 
 ## 26. Fuentes oficiales
 

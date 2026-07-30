@@ -58,7 +58,7 @@ Se aplica a trabajadores laborales y al personal administrativo o estatutario de
 
 ---
 
-# PARTE II · DERECHOS Y OBLIGACIONES
+## PARTE II · DERECHOS Y OBLIGACIONES
 
 ## 8. Artículo 14 · protección eficaz
 
@@ -169,7 +169,7 @@ El incumplimiento puede ser laboral o disciplinario, pero no elimina el deber pr
 
 ---
 
-# PARTE III · SERVICIOS DE PREVENCIÓN
+## PARTE III · SERVICIOS DE PREVENCIÓN
 
 ## 24. Artículo 30 · organización preventiva
 
@@ -247,7 +247,7 @@ La evaluación identifica trabajos que requieren presencia y la planificación d
 
 ---
 
-# PARTE IV · CONSULTA Y PARTICIPACIÓN
+## PARTE IV · CONSULTA Y PARTICIPACIÓN
 
 ## 36. Artículo 33 · consulta previa
 
@@ -330,7 +330,7 @@ En visitas, salvo perjuicio para la actuación, el Inspector comunica su presenc
 
 ---
 
-# PARTE V · MEMORIZACIÓN Y SUPUESTOS
+## PARTE V · MEMORIZACIÓN Y SUPUESTOS
 
 ## 44. Cifras esenciales
 
@@ -399,7 +399,7 @@ Informar después de contratar servicio ajeno no cumple la consulta previa.
 
 ---
 
-# PARTE VI · ERRORES Y RETENCIÓN
+## PARTE VI · ERRORES Y RETENCIÓN
 
 ## 56. Errores frecuentes
 
@@ -450,7 +450,7 @@ Informar después de contratar servicio ajeno no cumple la consulta previa.
 
 ---
 
-# PARTE VII · FUENTES Y CIERRE
+## PARTE VII · FUENTES Y CIERRE
 
 ## 58. Fuentes oficiales
 

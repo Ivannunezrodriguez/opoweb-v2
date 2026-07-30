@@ -101,7 +101,7 @@ No debe confundirse el número de reformas con el número de artículos modifica
 
 ---
 
-# PARTE II · REFORMA CONSTITUCIONAL, ARTÍCULOS 166 A 169
+## PARTE II · REFORMA CONSTITUCIONAL, ARTÍCULOS 166 A 169
 
 ## 5. Artículo 166 · iniciativa de reforma
 
@@ -196,7 +196,7 @@ El precepto prohíbe **iniciar** la reforma. El dato literal es importante: no f
 
 ---
 
-# PARTE III · DERECHOS Y DEBERES FUNDAMENTALES, ARTÍCULO POR ARTÍCULO
+## PARTE III · DERECHOS Y DEBERES FUNDAMENTALES, ARTÍCULO POR ARTÍCULO
 
 ## 10. Artículo 10 · dignidad e interpretación
 
@@ -584,7 +584,7 @@ Su estructura interna y funcionamiento deben ser democráticos.
 
 ---
 
-# PARTE IV · GARANTÍAS, ARTÍCULOS 53 Y 54
+## PARTE IV · GARANTÍAS, ARTÍCULOS 53 Y 54
 
 ## 53. Artículo 53 · tres niveles de protección
 
@@ -623,7 +623,7 @@ Sus resoluciones no sustituyen a sentencias ni anulan directamente actos adminis
 
 ---
 
-# PARTE V · SUSPENSIÓN, ARTÍCULO 55
+## PARTE V · SUSPENSIÓN, ARTÍCULO 55
 
 ## 55. Artículo 55.1 · suspensión general
 
@@ -689,7 +689,7 @@ La utilización injustificada o abusiva de esas facultades produce responsabilid
 
 ---
 
-# PARTE VI · JERARQUÍA DE PROTECCIÓN Y TRAMPAS DE EXAMEN
+## PARTE VI · JERARQUÍA DE PROTECCIÓN Y TRAMPAS DE EXAMEN
 
 ## 60. Clasificación correcta
 
@@ -732,7 +732,7 @@ Orientan leyes, tribunales y actuación pública; su alegación depende de leyes
 
 ---
 
-# PARTE VII · ESQUEMAS DE MEMORIZACIÓN
+## PARTE VII · ESQUEMAS DE MEMORIZACIÓN
 
 ## 62. Mapa del Título I
 
@@ -766,7 +766,7 @@ Regla adicional: el artículo 17.3 no se suspende durante el estado de excepció
 
 ---
 
-# PARTE VIII · FUENTES OFICIALES
+## PARTE VIII · FUENTES OFICIALES
 
 1. Constitución Española, BOE-A-1978-31229, texto consolidado con última actualización publicada el 20 de mayo de 2026.  
    https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229
@@ -780,7 +780,7 @@ Regla adicional: el artículo 17.3 no se suspende durante el estado de excepció
 
 ---
 
-# PARTE IX · CONTROL MANUAL DEL USUARIO
+## PARTE IX · CONTROL MANUAL DEL USUARIO
 
 ## 65. Qué corrige este borrador respecto de la versión anterior
 

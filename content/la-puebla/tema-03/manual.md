@@ -79,7 +79,7 @@ El presunto responsable tiene además derecho a:
 
 ---
 
-# PARTE II · INICIACIÓN DEL PROCEDIMIENTO
+## PARTE II · INICIACIÓN DEL PROCEDIMIENTO
 
 ## 4. Artículo 54 · clases de iniciación
 
@@ -333,7 +333,7 @@ Para una misma actividad no puede exigirse simultáneamente declaración respons
 
 ---
 
-# PARTE III · ORDENACIÓN
+## PARTE III · ORDENACIÓN
 
 ## 20. Artículo 70 · expediente administrativo
 
@@ -387,7 +387,7 @@ La excepción es la **recusación**, que sí suspende.
 
 ---
 
-# PARTE IV · INSTRUCCIÓN
+## PARTE IV · INSTRUCCIÓN
 
 ## 25. Artículo 75 · actos de instrucción
 
@@ -510,7 +510,7 @@ La incomparecencia no impide recurrir la resolución final. Comparecer no otorga
 
 ---
 
-# PARTE V · FINALIZACIÓN
+## PARTE V · FINALIZACIÓN
 
 ## 34. Artículo 84 · formas de terminación
 
@@ -668,7 +668,7 @@ Puede no aplicarse la caducidad si concurre interés general o resulta convenien
 
 ---
 
-# PARTE VI · TRAMITACIÓN SIMPLIFICADA
+## PARTE VI · TRAMITACIÓN SIMPLIFICADA
 
 ## 46. Artículo 96 · tramitación simplificada
 
@@ -711,7 +711,7 @@ Si hace falta cualquier trámite adicional, debe seguirse la vía ordinaria.
 
 ---
 
-# PARTE VII · EJECUCIÓN
+## PARTE VII · EJECUCIÓN
 
 ## 47. Artículo 97 · título jurídico para ejecutar
 
@@ -795,7 +795,7 @@ La protección desaparece si la Administración actúa fuera de competencia o pr
 
 ---
 
-# PARTE VIII · ESPECIALIDADES TRANSVERSALES
+## PARTE VIII · ESPECIALIDADES TRANSVERSALES
 
 ## 56. Itinerario del procedimiento sancionador
 
@@ -880,7 +880,7 @@ La protección desaparece si la Administración actúa fuera de competencia o pr
 
 ---
 
-# PARTE IX · PUNTOS CALIENTES Y RETENCIÓN
+## PARTE IX · PUNTOS CALIENTES Y RETENCIÓN
 
 ## 60. Errores frecuentes
 
@@ -928,7 +928,7 @@ Responder sin consultar:
 
 ---
 
-# PARTE X · FUENTES Y CONTROL DE ALCANCE
+## PARTE X · FUENTES Y CONTROL DE ALCANCE
 
 ## 62. Fuente principal
 

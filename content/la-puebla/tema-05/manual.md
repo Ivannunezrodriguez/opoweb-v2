@@ -110,7 +110,7 @@ Este artículo se menciona como garantía institucional, pero el régimen tribut
 
 ---
 
-# PARTE II · EL MUNICIPIO
+## PARTE II · EL MUNICIPIO
 
 ## 8. Artículo 11 LRBRL · concepto y elementos
 
@@ -220,7 +220,7 @@ La inscripción de extranjeros en el padrón no acredita su residencia legal ni 
 
 ---
 
-# PARTE III · ORGANIZACIÓN MUNICIPAL
+## PARTE III · ORGANIZACIÓN MUNICIPAL
 
 ## 16. Artículo 19 · Ayuntamiento
 
@@ -348,7 +348,7 @@ Su creación exige que resulte una opción más eficiente para la administració
 
 ---
 
-# PARTE IV · COMPETENCIAS MUNICIPALES
+## PARTE IV · COMPETENCIAS MUNICIPALES
 
 ## 23. Artículo 7 · clases de competencias
 
@@ -484,7 +484,7 @@ No debe confundirse este artículo con el régimen de municipios de gran poblaci
 
 ---
 
-# PARTE V · LA PROVINCIA
+## PARTE V · LA PROVINCIA
 
 ## 30. Artículo 31 · concepto y fines provinciales
 
@@ -570,7 +570,7 @@ Los Vicepresidentes sustituyen al Presidente por orden de nombramiento en supues
 
 ---
 
-# PARTE VI · COMPETENCIAS PROVINCIALES
+## PARTE VI · COMPETENCIAS PROVINCIALES
 
 ## 36. Artículo 36 · competencias propias de la Diputación
 
@@ -628,7 +628,7 @@ Este artículo se incorpora para cerrar la estructura provincial, sin desarrolla
 
 ---
 
-# PARTE VII · FUNCIONAMIENTO DE LAS ENTIDADES LOCALES
+## PARTE VII · FUNCIONAMIENTO DE LAS ENTIDADES LOCALES
 
 ## 42. Artículo 46 · sesiones
 
@@ -767,7 +767,7 @@ También cuentan con defensa y representación en juicio conforme a las reglas l
 
 ---
 
-# PARTE VIII · DETALLE REGLAMENTARIO DEL ROF
+## PARTE VIII · DETALLE REGLAMENTARIO DEL ROF
 
 ## 51. Organización municipal en el ROF
 
@@ -809,7 +809,7 @@ La Ley 7/1985 establece la regla general de votación ordinaria y permite la nom
 
 ---
 
-# PARTE IX · RÉGIMEN ELECTORAL MUNICIPAL
+## PARTE IX · RÉGIMEN ELECTORAL MUNICIPAL
 
 ## 53. Artículo 176 LOREG · sufragio activo de extranjeros
 
@@ -1074,7 +1074,7 @@ El gobierno se completa con la Asamblea vecinal prevista por la legislación de 
 
 ---
 
-# PARTE X · RÉGIMEN ELECTORAL PROVINCIAL
+## PARTE X · RÉGIMEN ELECTORAL PROVINCIAL
 
 ## 80. Artículo 202 LOREG · inelegibilidad
 
@@ -1164,7 +1164,7 @@ Las reglas provinciales se aplican sin perjuicio de regímenes especiales auton�
 
 ---
 
-# PARTE XI · CUADROS DE MEMORIZACIÓN
+## PARTE XI · CUADROS DE MEMORIZACIÓN
 
 ## 88. Órganos municipales y provinciales
 
@@ -1206,7 +1206,7 @@ Las reglas provinciales se aplican sin perjuicio de regímenes especiales auton�
 
 ---
 
-# PARTE XII · SUPUESTOS PRÁCTICOS
+## PARTE XII · SUPUESTOS PRÁCTICOS
 
 ## 92. Ayuntamiento de 4.000 habitantes
 
@@ -1275,7 +1275,7 @@ Los resultados municipales determinan el reparto provincial. Después, los Conce
 
 ---
 
-# PARTE XIII · ERRORES FRECUENTES
+## PARTE XIII · ERRORES FRECUENTES
 
 ## 100. Puntos calientes
 
@@ -1344,7 +1344,7 @@ Responder sin consultar:
 
 ---
 
-# PARTE XIV · FUENTES Y CONTROL DE ALCANCE
+## PARTE XIV · FUENTES Y CONTROL DE ALCANCE
 
 ## 102. Fuente constitucional
 

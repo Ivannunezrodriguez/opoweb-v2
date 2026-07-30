@@ -107,7 +107,7 @@ En el ejercicio de funciones públicas atribuidas por ley o delegadas por una Ad
 
 ---
 
-# PARTE II · LOS INTERESADOS EN EL PROCEDIMIENTO
+## PARTE II · LOS INTERESADOS EN EL PROCEDIMIENTO
 
 ## 5. Artículo 3 · capacidad de obrar
 
@@ -219,7 +219,7 @@ El artículo evita que se dicte una resolución que afecte a personas identifica
 
 ---
 
-# PARTE III · IDENTIFICACIÓN, FIRMA Y ASISTENCIA ELECTRÓNICA
+## PARTE III · IDENTIFICACIÓN, FIRMA Y ASISTENCIA ELECTRÓNICA
 
 ## 11. Artículo 9 · sistemas de identificación
 
@@ -285,7 +285,7 @@ Las Administraciones territoriales deben mantener registros interoperables de fu
 
 ---
 
-# PARTE IV · ACTIVIDAD DE LAS ADMINISTRACIONES PÚBLICAS
+## PARTE IV · ACTIVIDAD DE LAS ADMINISTRACIONES PÚBLICAS
 
 ## 15. Artículo 13 · derechos de las personas
 
@@ -591,7 +591,7 @@ Las copias aportadas por los interesados producen eficacia en el ámbito de la a
 
 ---
 
-# PARTE V · TÉRMINOS Y PLAZOS
+## PARTE V · TÉRMINOS Y PLAZOS
 
 ## 31. Artículo 29 · obligatoriedad
 
@@ -705,7 +705,7 @@ El acuerdo de urgencia no admite recurso independiente, sin perjuicio del recurs
 
 ---
 
-# PARTE VI · TABLAS DE EXAMEN
+## PARTE VI · TABLAS DE EXAMEN
 
 ## 36. Plazos y cifras que deben memorizarse
 
@@ -761,7 +761,7 @@ El acuerdo de urgencia no admite recurso independiente, sin perjuicio del recurs
 
 ---
 
-# PARTE VII · CASOS DE APLICACIÓN
+## PARTE VII · CASOS DE APLICACIÓN
 
 ## 40. Representación no acreditada
 
@@ -797,7 +797,7 @@ Un procedimiento con plazo ordinario de diez días para alegaciones pasa a urgen
 
 ---
 
-# PARTE VIII · PUNTOS CALIENTES Y RETENCIÓN
+## PARTE VIII · PUNTOS CALIENTES Y RETENCIÓN
 
 ## 48. Errores frecuentes
 
@@ -839,7 +839,7 @@ Responder sin consultar:
 
 ---
 
-# PARTE IX · FUENTES Y CONTROL DE ALCANCE
+## PARTE IX · FUENTES Y CONTROL DE ALCANCE
 
 ## 50. Fuente principal
 

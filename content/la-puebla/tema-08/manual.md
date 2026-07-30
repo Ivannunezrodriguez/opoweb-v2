@@ -64,7 +64,7 @@ No equivale necesariamente a paridad exacta del 50 %.
 
 ---
 
-# PARTE II · LEY 12/2010 DE CASTILLA-LA MANCHA
+## PARTE II · LEY 12/2010 DE CASTILLA-LA MANCHA
 
 ## 8. Artículo 1 · objeto
 
@@ -337,7 +337,7 @@ Pueden celebrarse protocolos con colegios y asociaciones que desarrollen accione
 
 ---
 
-# PARTE III · LEY ORGÁNICA 3/2007
+## PARTE III · LEY ORGÁNICA 3/2007
 
 ## 71. Artículos 1 y 2 · objeto y ámbito
 
@@ -523,7 +523,7 @@ Hay composición equilibrada cuando las personas de cada sexo no superan el 60 %
 
 ---
 
-# PARTE IV · COMPARACIÓN Y MEMORIZACIÓN
+## PARTE IV · COMPARACIÓN Y MEMORIZACIÓN
 
 ## 109. Diferencias entre las dos leyes
 
@@ -619,7 +619,7 @@ La Administración local castellano-manchega está incluida en la Ley 12/2010 y 
 
 ---
 
-# PARTE V · FUENTES Y CIERRE
+## PARTE V · FUENTES Y CIERRE
 
 ## 119. Fuentes oficiales
 
