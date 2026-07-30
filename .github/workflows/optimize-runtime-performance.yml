@@ -19,17 +19,17 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Aplicar optimización de carga
+      - name: Aplicar optimización de carga y scroll
         run: node tools/optimize-runtime-performance.mjs
 
       - name: Publicar cambios
         run: |
-          if git diff --quiet -- assets/app.js; then
+          if git diff --quiet -- assets/app.js assets/styles.css; then
             echo "No hay cambios pendientes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/app.js
-          git commit -m "perf: evita cargar todos los manuales al iniciar"
+          git add assets/app.js assets/styles.css
+          git commit -m "perf: reduce carga inicial y bloqueo de scroll"
           git push
