@@ -45,12 +45,14 @@ function summary(attempts) {
   };
 }
 
-function renderHistory() {
+function renderHistory({ force = false } = {}) {
   const route = currentRoute();
   const test = document.querySelector('#theme-test');
   if (!route || !test) return;
 
   let panel = document.querySelector('#test-history-panel');
+  if (panel && !force) return;
+
   if (!panel) {
     panel = document.createElement('section');
     panel.id = 'test-history-panel';
@@ -101,7 +103,7 @@ function saveSubmittedTest(form) {
       percentage: total ? Math.round((correct / total) * 100) : 0,
       wrongQuestions
     });
-    renderHistory();
+    renderHistory({ force: true });
   }, 0);
 }
 
@@ -109,7 +111,12 @@ document.addEventListener('submit', event => {
   if (event.target?.id === 'test-form') saveSubmittedTest(event.target);
 }, true);
 
-const observer = new MutationObserver(() => renderHistory());
+const observer = new MutationObserver(mutations => {
+  const testAdded = mutations.some(mutation => [...mutation.addedNodes].some(node =>
+    node.nodeType === Node.ELEMENT_NODE && (node.id === 'theme-test' || node.querySelector?.('#theme-test'))
+  ));
+  if (testAdded) renderHistory();
+});
 observer.observe(document.querySelector('#app') || document.body, { childList: true, subtree: true });
-window.addEventListener('hashchange', renderHistory);
+window.addEventListener('hashchange', () => requestAnimationFrame(() => renderHistory()));
 renderHistory();
