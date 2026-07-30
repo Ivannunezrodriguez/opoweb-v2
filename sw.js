@@ -1,4 +1,4 @@
-const CACHE = 'opoweb-v2-0.27.23';
+const CACHE = 'opoweb-v2-0.27.24';
 const CORE_ASSETS = [
   './',
   './index.html',
@@ -40,7 +40,7 @@ self.addEventListener('activate', event => {
   self.clients.claim();
 });
 
-function isCacheableRequest(request) {
+function isSameOriginGet(request) {
   try {
     const url = new URL(request.url);
     return request.method === 'GET' &&
@@ -52,64 +52,51 @@ function isCacheableRequest(request) {
 }
 
 async function putSafely(cache, request, response) {
-  if (!response?.ok || !isCacheableRequest(request)) return;
+  if (!response?.ok || !isSameOriginGet(request)) return;
   try {
     await cache.put(request, response.clone());
-  } catch (error) {
-    console.warn('OpoWeb: recurso no cacheable', request.url, error);
-  }
+  } catch (_) {}
 }
 
-async function fetchWithTimeout(request, timeoutMs = 4500) {
+async function networkFirst(request, timeoutMs = 4500) {
+  const cache = await caches.open(CACHE);
   const controller = new AbortController();
   const timeout = setTimeout(() => controller.abort(), timeoutMs);
   try {
-    return await fetch(request, { signal: controller.signal });
+    const response = await fetch(request, { signal: controller.signal });
+    await putSafely(cache, request, response);
+    return response;
+  } catch (_) {
+    return (await cache.match(request)) || caches.match('./index.html');
   } finally {
     clearTimeout(timeout);
   }
 }
 
-async function networkFirst(request) {
-  const cache = await caches.open(CACHE);
-  try {
-    const response = await fetchWithTimeout(request);
-    await putSafely(cache, request, response);
-    return response;
-  } catch (_) {
-    return (await cache.match(request)) || caches.match('./index.html');
-  }
-}
-
-async function staleWhileRevalidate(request, event) {
+async function cacheFirst(request) {
   const cache = await caches.open(CACHE);
   const cached = await cache.match(request);
-  const refresh = fetch(request)
-    .then(async response => {
-      await putSafely(cache, request, response);
-      return response;
-    })
-    .catch(() => null);
-
-  if (cached) {
-    event.waitUntil(refresh);
-    return cached;
-  }
-
-  return (await refresh) || caches.match('./index.html');
+  if (cached) return cached;
+  const response = await fetch(request);
+  await putSafely(cache, request, response);
+  return response;
 }
 
 self.addEventListener('fetch', event => {
-  if (!isCacheableRequest(event.request)) return;
+  if (!isSameOriginGet(event.request)) return;
 
   const url = new URL(event.request.url);
+
+  // Los manuales y bancos deben ir directamente a red. No se interceptan para
+  // evitar esperas indefinidas del service worker al abrir un tema.
+  if (/\.(?:md|json)$/i.test(url.pathname) && url.pathname.includes('/content/')) return;
+
   if (event.request.mode === 'navigate') {
     event.respondWith(networkFirst(event.request));
     return;
   }
 
-  const contentAsset = /\.(?:js|json|md|html|css|svg)$/i.test(url.pathname);
-  event.respondWith(contentAsset
-    ? staleWhileRevalidate(event.request, event)
-    : networkFirst(event.request));
+  if (/\.(?:js|css|svg|html)$/i.test(url.pathname)) {
+    event.respondWith(cacheFirst(event.request));
+  }
 });
