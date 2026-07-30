@@ -1,7 +1,10 @@
-# Tema 14 · Órganos administrativos y Administración General del Estado
+# La Puebla de Montalbán · Tema 14
 
-**Estado editorial:** `PUBLICADO`  
-**Fecha de revisión normativa:** 26 de julio de 2026.
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
+## Tema 14 · Órganos administrativos y Administración General del Estado
+
 
 > **Tema 14. Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.**
 

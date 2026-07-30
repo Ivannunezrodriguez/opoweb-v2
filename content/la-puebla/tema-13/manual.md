@@ -1,7 +1,10 @@
-# Tema 13 · Administración electrónica I
+# La Puebla de Montalbán · Tema 13
 
-**Estado editorial:** `PUBLICADO`  
-**Fecha de revisión normativa:** 26 de julio de 2026.
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
+## Tema 13 · Administración electrónica I
+
 
 > **Tema 13. Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.**
 

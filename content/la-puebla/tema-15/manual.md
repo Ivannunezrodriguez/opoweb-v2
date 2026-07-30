@@ -1,6 +1,10 @@
-# Tema 15 · Microsoft Windows I
+# La Puebla de Montalbán · Tema 15
 
-**Estado editorial:** `PUBLICADO`  
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
+## Tema 15 · Microsoft Windows I
+
 **Fecha de revisión técnica:** 27 de julio de 2026.
 
 > **Tema 15. Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.**

@@ -1,6 +1,10 @@
-# Tema 18 · LibreOffice y Microsoft Office II
+# La Puebla de Montalbán · Tema 18
 
-**Estado editorial:** `PUBLICADO`  
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
+## Tema 18 · LibreOffice y Microsoft Office II
+
 **Fecha de revisión técnica:** 29 de julio de 2026.
 
 > **Tema 18. LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.**

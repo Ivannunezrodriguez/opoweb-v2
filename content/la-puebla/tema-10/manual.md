@@ -1,7 +1,10 @@
-# Tema 10 · Principios de tributación local y gestión tributaria
+# La Puebla de Montalbán · Tema 10
 
-**Estado editorial:** `PUBLICADO`  
-**Fecha de revisión normativa:** 28 de julio de 2026.
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
+## Tema 10 · Principios de tributación local y gestión tributaria
+
 
 > **Tema 10. Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.**
 

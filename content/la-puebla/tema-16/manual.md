@@ -1,6 +1,10 @@
-# La Puebla de Montalbán · Tema 16 · Manual modular
+# La Puebla de Montalbán · Tema 16
 
-**Estado:** APROBADO POR EL USUARIO  
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
+## La Puebla de Montalbán · Tema 16 · Manual modular
+
 **Publicado como tema aprobado.**  
 **Fecha de revisión técnica:** 26 de julio de 2026.
 

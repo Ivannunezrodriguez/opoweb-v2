@@ -68,7 +68,7 @@ Por reglamento no pueden crearse libremente nuevos trámites, pero sí pueden es
 - publicación;
 - informes que deban solicitarse.
 
-**Trampa de examen:** una especialidad reglamentaria no equivale a un trámite adicional o distinto. Los nuevos trámites quedan reservados a la ley.
+> ⚠️ **¡Foco Examen!:** una especialidad reglamentaria no equivale a un trámite adicional o distinto. Los nuevos trámites quedan reservados a la ley.
 
 ## 4. Artículo 2 · ámbito subjetivo
 

@@ -1,6 +1,10 @@
-# Tema 19 · Conceptos generales del ordenador personal
+# La Puebla de Montalbán · Tema 19
 
-**Estado editorial:** `PUBLICADO`  
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
+## Tema 19 · Conceptos generales del ordenador personal
+
 **Fecha de revisión técnica:** 29 de julio de 2026.
 
 > **Tema 19. Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.**

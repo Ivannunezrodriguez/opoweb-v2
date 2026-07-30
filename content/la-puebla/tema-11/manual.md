@@ -1,7 +1,10 @@
-# Tema 11 · Recaudación de los tributos locales
+# La Puebla de Montalbán · Tema 11
 
-**Estado editorial:** `PUBLICADO`  
-**Fecha de revisión normativa:** 27 de julio de 2026.
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
+## Tema 11 · Recaudación de los tributos locales
+
 
 > **Tema 11. La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.**
 

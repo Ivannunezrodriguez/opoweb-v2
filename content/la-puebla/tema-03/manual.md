@@ -75,7 +75,7 @@ El presunto responsable tiene además derecho a:
 3. conocer la norma que atribuye esa competencia;
 4. que se presuma la inexistencia de responsabilidad mientras no se pruebe lo contrario.
 
-**Trampa de examen:** el artículo 53 no reconoce una presunción general de inocencia para cualquier procedimiento; la formula expresamente para el presunto responsable en el sancionador.
+> ⚠️ **¡Foco Examen!:** el artículo 53 no reconoce una presunción general de inocencia para cualquier procedimiento; la formula expresamente para el presunto responsable en el sancionador.
 
 ---
 
@@ -102,7 +102,7 @@ En el ámbito sancionador, estas actuaciones buscan precisar:
 
 Las realizan los órganos de investigación, averiguación o inspección y, en su defecto, la persona u órgano que designe el competente para iniciar o resolver.
 
-**Idea clave:** las actuaciones previas no son todavía el procedimiento sancionador. Su función es preparar la decisión de incoar o archivar.
+> ⚠️ **¡Foco Examen!:** las actuaciones previas no son todavía el procedimiento sancionador. Su función es preparar la decisión de incoar o archivar.
 
 ## 6. Artículo 56 · medidas provisionales
 

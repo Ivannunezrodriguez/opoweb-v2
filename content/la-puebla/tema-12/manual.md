@@ -1,7 +1,10 @@
-# Tema 12 · Tributos locales e impuestos municipales
+# La Puebla de Montalbán · Tema 12
 
-**Estado editorial:** `PUBLICADO`  
-**Fecha de revisión normativa:** 28 de julio de 2026.
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
+## Tema 12 · Tributos locales e impuestos municipales
+
 
 > **Tema 12. Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.**
 

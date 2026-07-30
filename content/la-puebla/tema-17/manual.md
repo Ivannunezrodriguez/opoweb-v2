@@ -1,6 +1,8 @@
 # La Puebla de Montalbán · Tema 17
 
 **Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
+
 **Fecha de revisión técnica:** **29 de julio de 2026**.
 
 > **Tema 17. LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.**
