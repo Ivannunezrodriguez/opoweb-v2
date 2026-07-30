@@ -118,7 +118,11 @@ assert.ok(appJs.includes('fetchWithTimeout'));
 assert.ok(appJs.includes('Reintentar manual'));
 assert.ok(appJs.includes('Reintentar test'));
 
-assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.27.21'"));
+assert.ok(serviceWorker.includes("const CACHE = 'opoweb-v2-0.27.22'"));
+assert.ok(serviceWorker.includes("url.protocol === 'http:' || url.protocol === 'https:'"));
+assert.ok(serviceWorker.includes('url.origin === self.location.origin'));
+assert.ok(serviceWorker.includes('staleWhileRevalidate'));
+assert.ok(serviceWorker.includes('fetchWithTimeout'));
 for (const asset of [
   './index.html',
   './practice.html',
@@ -144,6 +148,8 @@ console.log(JSON.stringify({
   segregatedProgress: 'VALIDATED',
   navigationHistory: 'VALIDATED',
   progressiveLoading: 'VALIDATED',
+  serviceWorkerProtocolGuard: 'VALIDATED',
+  serviceWorkerFastContentStrategy: 'VALIDATED',
   tema6Interinidad: '4_YEARS_SOURCE_VALIDATED',
   status: 'LA_PUEBLA_VALIDATOR_UPDATED'
 }, null, 2));
