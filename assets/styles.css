@@ -47,7 +47,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .badge.pending,.status-warning { background:#fef3c7; color:#92400e; }
 .status-pill { padding:.5rem .75rem; font-size:.86rem; }
 .toolbar { display:flex; flex-wrap:wrap; gap:.65rem; margin-bottom:1rem; }
-.sticky-toolbar { position:sticky; top:.5rem; z-index:10; width:fit-content; padding:.4rem; border-radius:12px; background:color-mix(in srgb,var(--bg) 88%,transparent); backdrop-filter:blur(10px); }
+.sticky-toolbar { position:sticky; top:.5rem; z-index:10; width:fit-content; padding:.4rem; border-radius:12px; background:var(--bg); }
 .btn { display:inline-flex; align-items:center; justify-content:center; min-height:44px; border:0; border-radius:10px; padding:.7rem .9rem; cursor:pointer; background:var(--primary); color:#fff; font-weight:700; text-decoration:none; }
 .btn.secondary { background:var(--surface-soft); color:var(--text); border:1px solid var(--border); }
 .btn:disabled { opacity:.55; cursor:not-allowed; }
@@ -63,6 +63,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .personal-status span { color:var(--muted); font-size:.85rem; }
 .privacy-note { margin:0; padding:.8rem; border-radius:10px; background:var(--surface-soft); color:var(--muted); }
 .manual { line-height:1.7; font-size:clamp(1rem,1.2vw,1.08rem); overflow-wrap:anywhere; }
+.manual > *, .question-card { content-visibility:auto; contain-intrinsic-size:auto 220px; }
 .manual h2,.manual h3,.manual h4 { scroll-margin-top:5rem; margin-top:1.6em; line-height:1.25; }
 .manual blockquote { margin:1rem 0; padding:.8rem 1rem; border-left:4px solid #f59e0b; background:var(--surface-soft); }
 .manual pre { overflow:auto; padding:1rem; border-radius:10px; background:#07101d; color:#e2e8f0; }
