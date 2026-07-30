@@ -15,9 +15,9 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 - Tema 4: vigencia de los artículos 106–126 de la Ley 39/2015 y especialidad local reconfirmadas; matriz y banco de **12 preguntas** normalizados.
 - Tema 5: vigencia de la Ley 7/1985 y de la LOREG reconfirmada; matriz y banco de **12 preguntas** normalizados.
 - Tema 6: matriz y banco actualizados; contrato frontend verificado para `pregunta/enunciado`, `correcta/respuestaCorrecta` y `trampa/trampaExamen`.
-- Tema 7: vigencia de la Ley 31/1995 reconfirmada contra el texto consolidado con última actualización publicada el **9 de abril de 2026**; matriz actualizada a **30 de julio de 2026**.
-- Tema 8: vigencia de la Ley 12/2010 de Castilla-La Mancha y de la Ley Orgánica 3/2007 reconfirmada; sus últimas actualizaciones consolidadas siguen siendo de **30 de junio de 2021** y **2 de agosto de 2024**; matriz actualizada a **30 de julio de 2026**.
-- Tema 9: vigencia de la Ley Orgánica 3/2018 reconfirmada; el BOE mantiene como última actualización consolidada la publicada el **27 de diciembre de 2025**; matriz actualizada a **30 de julio de 2026**.
+- Tema 7: vigencia de la Ley 31/1995 y del Reglamento de los Servicios de Prevención reconfirmada; matriz y banco de **12 preguntas** normalizados a **30 de julio de 2026**.
+- Tema 8: vigencia de la Ley 12/2010 de Castilla-La Mancha y de la Ley Orgánica 3/2007 reconfirmada; matriz y banco de **12 preguntas** normalizados a **30 de julio de 2026**.
+- Tema 9: vigencia de la Ley Orgánica 3/2018 y coordinación con el RGPD reconfirmadas; matriz y banco de **12 preguntas** normalizados a **30 de julio de 2026**.
 - Temas 10–19: portadas y estados visibles normalizados; continúan los controles finales de enlaces, esquemas y llamadas.
 
 Estado de La Puebla: **19/19 revisados; cierre editorial todavía pendiente**.
@@ -25,7 +25,7 @@ Estado de La Puebla: **19/19 revisados; cierre editorial todavía pendiente**.
 ### Incidencias abiertas
 
 - Normalización editorial de los manuales de los Temas 1–9: títulos históricos, metadatos de migración y reglas internas.
-- Revisión y normalización final de los bancos de preguntas de los Temas 3 y 7–9.
+- Revisión y normalización final del banco de preguntas del Tema 3.
 - Homogeneización de llamadas al patrón `> ⚠️ **¡Foco Examen!:**`.
 - Validación automatizada y visual de enlaces internos y esquemas finales.
 
@@ -52,7 +52,7 @@ Comprobación realizada el **30 de julio de 2026**:
 
 ## Orden de trabajo
 
-1. Normalizar editorialmente los Temas 1–9.
-2. Revisar y normalizar los bancos de preguntas de los Temas 3 y 7–9.
+1. Normalizar editorialmente los manuales de los Temas 1–9.
+2. Normalizar el banco de preguntas del Tema 3.
 3. Validar enlaces, esquemas y llamadas de los Temas 10–19.
 4. Continuar UC3M y Diputación.
