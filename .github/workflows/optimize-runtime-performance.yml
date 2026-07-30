@@ -1,0 +1,35 @@
+name: Optimizar rendimiento OpoWeb
+
+on:
+  push:
+    paths:
+      - tools/optimize-runtime-performance.mjs
+      - .github/workflows/optimize-runtime-performance.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Aplicar optimización de carga
+        run: node tools/optimize-runtime-performance.mjs
+
+      - name: Publicar cambios
+        run: |
+          if git diff --quiet -- assets/app.js; then
+            echo "No hay cambios pendientes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/app.js
+          git commit -m "perf: evita cargar todos los manuales al iniciar"
+          git push
