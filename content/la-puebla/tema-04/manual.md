@@ -45,7 +45,7 @@ Sí se explican nulidad, anulabilidad, motivación y convalidación en la medida
 
 ---
 
-# PARTE I · CONCEPTOS PREVIOS
+## PARTE I · CONCEPTOS PREVIOS
 
 ## 3. Qué significa revisar un acto en vía administrativa
 

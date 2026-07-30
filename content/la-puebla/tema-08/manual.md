@@ -31,7 +31,7 @@ Las numerosas disposiciones adicionales de la Ley Orgánica que modificaron otra
 
 ---
 
-# PARTE I · CONCEPTOS COMUNES
+## PARTE I · CONCEPTOS COMUNES
 
 ## 4. Igualdad formal, igualdad efectiva y perspectiva de género
 

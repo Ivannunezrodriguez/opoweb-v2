@@ -42,7 +42,7 @@ Sí se incorporan las referencias imprescindibles a la Ley 40/2015 cuando la pro
 
 ---
 
-# PARTE I · DERECHOS DEL INTERESADO
+## PARTE I · DERECHOS DEL INTERESADO
 
 ## 3. Artículo 53 · derechos del interesado en el procedimiento
 

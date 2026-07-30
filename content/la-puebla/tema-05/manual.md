@@ -55,7 +55,7 @@ Sí se incorporan las reglas comunes necesarias para comprender el municipio, la
 
 ---
 
-# PARTE I · FUNDAMENTO CONSTITUCIONAL
+## PARTE I · FUNDAMENTO CONSTITUCIONAL
 
 ## 4. Artículo 137 de la Constitución · organización territorial
 

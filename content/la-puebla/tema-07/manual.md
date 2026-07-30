@@ -32,7 +32,7 @@ Se usan los artículos 1–4 como contexto. Se excluyen política institucional,
 
 ---
 
-# PARTE I · CONTEXTO
+## PARTE I · CONTEXTO
 
 ## 4. Artículo 1 · normativa preventiva
 

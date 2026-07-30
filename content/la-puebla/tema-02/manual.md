@@ -38,7 +38,7 @@ El Real Decreto 203/2021 puede utilizarse como complemento para la actuación el
 
 ---
 
-# PARTE I · DISPOSICIONES GENERALES
+## PARTE I · DISPOSICIONES GENERALES
 
 ## 3. Artículo 1 · objeto de la Ley
 

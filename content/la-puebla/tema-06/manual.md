@@ -61,7 +61,7 @@ Se mencionan esas materias únicamente cuando son necesarias para comprender los
 
 ---
 
-# PARTE I · MARCO GENERAL
+## PARTE I · MARCO GENERAL
 
 ## 4. Artículo 1 · objeto
 

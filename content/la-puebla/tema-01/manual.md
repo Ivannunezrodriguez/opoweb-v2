@@ -32,7 +32,7 @@ No se desarrolla como bloque autónomo el Tribunal Constitucional, la Corona, la
 
 ---
 
-# PARTE I · LA CONSTITUCIÓN ESPAÑOLA DE 1978 Y SU ESTRUCTURA
+## PARTE I · LA CONSTITUCIÓN ESPAÑOLA DE 1978 Y SU ESTRUCTURA
 
 ## 3. Naturaleza y vigencia
 

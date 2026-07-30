@@ -34,7 +34,7 @@ La trazabilidad individual de los artículos 1–97 y 53 bis está en `articulos
 
 ---
 
-# PARTE I · DISPOSICIONES GENERALES Y PRINCIPIOS
+## PARTE I · DISPOSICIONES GENERALES Y PRINCIPIOS
 
 ## 3. Artículos 1–3
 
