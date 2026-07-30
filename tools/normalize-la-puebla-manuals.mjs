@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
-// Normalización editorial reproducible e idempotente de las portadas históricas.
+// Normalización editorial reproducible e idempotente de los manuales 1-9.
 const root = process.cwd();
 const updated = [];
 
@@ -25,6 +25,26 @@ for (let tema = 1; tema <= 9; tema += 1) {
 
   while (body.length && !body[0].trim()) body.shift();
 
+  let firstHeadingSeen = false;
+  const normalizedBody = body.map(line => {
+    let current = line;
+
+    if (/^#\s+/.test(current)) {
+      if (!firstHeadingSeen) {
+        firstHeadingSeen = true;
+      } else {
+        current = current.replace(/^#\s+/, '## ');
+      }
+    }
+
+    current = current.replace(
+      /^>\s*\*\*(?:Trampa de examen|Trampa examen|Clave de examen):\*\*\s*/i,
+      '> ⚠️ **¡Foco Examen!:** '
+    );
+
+    return current;
+  });
+
   const header = [
     `# La Puebla de Montalbán · Tema ${tema}`,
     '',
@@ -33,7 +53,7 @@ for (let tema = 1; tema <= 9; tema += 1) {
     ''
   ];
 
-  const text = [...header, ...body]
+  const text = [...header, ...normalizedBody]
     .join('\n')
     .replace(/\n{4,}/g, '\n\n\n');
 
