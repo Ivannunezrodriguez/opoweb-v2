@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+// Normalización editorial reproducible de las portadas históricas de La Puebla.
 const root = process.cwd();
 const updated = [];
 
