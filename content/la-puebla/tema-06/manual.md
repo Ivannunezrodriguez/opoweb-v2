@@ -1,5 +1,6 @@
 # La Puebla de Montalbán · Tema 6
 **Estado editorial:** PUBLICADO  
+**Estado editorial:** PUBLICADO  
 **Fecha de revisión normativa:** 30 de julio de 2026.
 
 

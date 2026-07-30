@@ -1,5 +1,6 @@
 # La Puebla de Montalbán · Tema 9
 **Estado editorial:** PUBLICADO  
+**Estado editorial:** PUBLICADO  
 **Fecha de revisión normativa:** 30 de julio de 2026.
 
 > **Tema 9. La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.**
