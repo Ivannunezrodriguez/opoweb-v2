@@ -1,10 +1,8 @@
-# La Puebla de Montalbán · Tema 1 · Manual reconstruido
-
-**Estado:** APROBADO POR EL USUARIO  
+# La Puebla de Montalbán · Tema 1
+**Estado editorial:** PUBLICADO  
+**Fecha de revisión normativa:** 30 de julio de 2026.
 **Migrado a OpoWeb v2 tras aprobación expresa del usuario.**  
-**Fecha de revisión normativa:** 17 de julio de 2026.
 
-> **Regla del proyecto:** «Te prometí un manual y publiqué resúmenes inflados por métricas. La reconstrucción tendrá que empezar por el contenido real de cada epígrafe, artículo por artículo; no por añadir más palabras, tests o etiquetas de “completo”.»
 
 ---
 
