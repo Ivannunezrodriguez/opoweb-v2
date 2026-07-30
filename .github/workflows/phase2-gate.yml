@@ -1,0 +1,62 @@
+name: Puerta de cierre Fase 2
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/**'
+      - 'content/la-puebla/**'
+      - 'data/programa.json'
+      - 'index.html'
+      - 'practice.html'
+      - 'sw.js'
+      - 'tests/**'
+      - 'package.json'
+      - '.github/workflows/phase2-gate.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Ejecutar validación completa
+        run: npm test
+
+      - name: Registrar validación superada
+        run: |
+          mkdir -p audit
+          cat > audit/phase2-ci-result.json <<EOF
+          {
+            "fase": 2,
+            "proyecto": "La Puebla de Montalbán",
+            "estado": "VALIDACION_CI_SUPERADA",
+            "commitValidado": "${GITHUB_SHA}",
+            "workflow": "Puerta de cierre Fase 2",
+            "fecha": "$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          }
+          EOF
+
+      - name: Publicar evidencia
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "4189826+github-actions[bot]@users.noreply.github.com"
+          git add audit/phase2-ci-result.json
+          if git diff --cached --quiet; then
+            echo "La evidencia ya estaba actualizada"
+            exit 0
+          fi
+          git commit -m "audit: registra validación CI superada de fase 2"
+          git push
