@@ -12,6 +12,7 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 
 - Tema 1: vigencia constitucional reconfirmada tras la reforma del artículo 69.3 publicada el **20 de mayo de 2026**; matriz y banco de **12 preguntas** normalizados.
 - Tema 2: vigencia de la Ley 39/2015 reconfirmada; matriz y banco de **12 preguntas** normalizados.
+- Tema 3: vigencia de los artículos 53–105 de la Ley 39/2015 reconfirmada; matriz y banco de **12 preguntas** verificados y normalizados a `APROBADO_USUARIO`.
 - Tema 4: vigencia de los artículos 106–126 de la Ley 39/2015 y especialidad local reconfirmadas; matriz y banco de **12 preguntas** normalizados.
 - Tema 5: vigencia de la Ley 7/1985 y de la LOREG reconfirmada; matriz y banco de **12 preguntas** normalizados.
 - Tema 6: matriz y banco actualizados; contrato frontend verificado para `pregunta/enunciado`, `correcta/respuestaCorrecta` y `trampa/trampaExamen`.
@@ -20,12 +21,11 @@ Estado: **EN_AUDITORIA**. La pasada transversal de La Puebla alcanza **19/19 tem
 - Tema 9: vigencia de la Ley Orgánica 3/2018 y coordinación con el RGPD reconfirmadas; matriz y banco de **12 preguntas** normalizados a **30 de julio de 2026**.
 - Temas 10–19: portadas y estados visibles normalizados; continúan los controles finales de enlaces, esquemas y llamadas.
 
-Estado de La Puebla: **19/19 revisados; cierre editorial todavía pendiente**.
+Estado de La Puebla: **19/19 revisados; bancos de preguntas 1–19 alineados; cierre editorial todavía pendiente**.
 
 ### Incidencias abiertas
 
-- Normalización editorial de los manuales de los Temas 1–9: títulos históricos, metadatos de migración y reglas internas.
-- Revisión y normalización final del banco de preguntas del Tema 3.
+- Normalización editorial de los manuales de los Temas 1–9: títulos históricos, metadatos de migración, jerarquía y reglas internas.
 - Homogeneización de llamadas al patrón `> ⚠️ **¡Foco Examen!:**`.
 - Validación automatizada y visual de enlaces internos y esquemas finales.
 
@@ -53,6 +53,6 @@ Comprobación realizada el **30 de julio de 2026**:
 ## Orden de trabajo
 
 1. Normalizar editorialmente los manuales de los Temas 1–9.
-2. Normalizar el banco de preguntas del Tema 3.
-3. Validar enlaces, esquemas y llamadas de los Temas 10–19.
+2. Validar enlaces, esquemas y llamadas de los Temas 10–19.
+3. Ejecutar comprobación visual y técnica final del despliegue.
 4. Continuar UC3M y Diputación.
