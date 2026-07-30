@@ -176,3 +176,18 @@ No se desarrolla de forma completa:
 - la cartera europea de identidad digital;
 - la contratación privada y la prueba procesal completa;
 - el régimen íntegro de infracciones y sanciones de la Ley 6/2020.
+
+## 13. Esquema final
+
+| Concepto | Idea esencial |
+|---|---|
+| Identificación | acredita quién actúa |
+| Firma electrónica | acredita voluntad, autenticidad e integridad |
+| Sello electrónico | garantiza origen e integridad de una persona jurídica u órgano |
+| Certificado cualificado | lo expide un prestador cualificado y figura en la lista de confianza |
+| Soporte | puede ser software, tarjeta, token, móvil o dispositivo remoto |
+| Revocación | extingue la vigencia; la suspensión es temporal |
+| Validación | comprueba integridad, identidad, vigencia, cadena y estado de revocación |
+
+> ⚠️ **¡Foco Examen!:** Certificado, firma, sello y soporte son conceptos distintos; disponer de un certificado no significa que cualquier uso o firma sea automáticamente cualificado.
+

@@ -222,3 +222,20 @@ El Servicio Exterior se rige principalmente por la Ley 2/2014 y su normativa de 
 10. Confundir rango de Subsecretario del Delegado con dependencia del Subsecretario.
 11. Memorizar ministerios actuales como si fueran una estructura fijada permanentemente por la Ley 40/2015.
 12. Incluir el sector público institucional, que comienza en el artículo 81, dentro de este epígrafe.
+
+## 16. Esquema final
+
+| Materia | Regla esencial |
+|---|---|
+| Competencia | es irrenunciable |
+| Delegación | cambia el ejercicio, no la titularidad |
+| Avocación | afecta a asuntos concretos y exige motivación |
+| Encomienda | solo actividades materiales o técnicas; no encubre contratos |
+| Delegación de firma | no altera la competencia ni exige publicación |
+| Órgano colegiado | presidente y secretario más, al menos, la mitad de miembros |
+| AGE | organización central, territorial y exterior |
+| Órganos superiores | ministros y secretarios de Estado |
+| Órganos directivos | subsecretarios, secretarios generales, directores y subdirectores generales |
+
+> ⚠️ **¡Foco Examen!:** El Delegado del Gobierno tiene rango de Subsecretario, mientras que el Subdelegado tiene nivel de Subdirector general; el rango no debe confundirse con la dependencia orgánica.
+

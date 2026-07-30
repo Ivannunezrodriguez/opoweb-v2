@@ -642,3 +642,17 @@ La Administración local castellano-manchega está incluida en la Ley 12/2010 y 
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 8 aprobado»** el 17 de julio de 2026.
+
+## 119. Esquema final
+
+| Bloque | Regla que debe quedar memorizada |
+|---|---|
+| Igualdad efectiva | exige remover desigualdades reales, no solo igualdad formal |
+| Presencia equilibrada | cada sexo entre el 40 % y el 60 % |
+| Castilla-La Mancha | la Ley 12/2010 se aplica expresamente a las entidades locales |
+| Informes autonómicos | periodicidad trienal en los supuestos señalados en el tema |
+| Empleo público | igualdad en acceso, promoción, retribución, conciliación y prevención del acoso |
+| Empresa | plan de igualdad obligatorio desde 50 personas trabajadoras |
+
+> ⚠️ **¡Foco Examen!:** No deben aplicarse automáticamente a un ayuntamiento los artículos de la Ley Orgánica 3/2007 que se refieren de forma específica a la Administración General del Estado.
+
