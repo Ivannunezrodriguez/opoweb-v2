@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Normalizar portadas de los Temas 1-9
+      - name: Normalizar editorialmente los Temas 1-19
         run: node tools/normalize-la-puebla-manuals.mjs
 
       - name: Publicar cambios normalizados
@@ -31,5 +31,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add content/la-puebla/tema-*/manual.md
-          git commit -m "content: normaliza portadas de La Puebla temas 1-9"
+          git commit -m "content: normaliza manuales de La Puebla temas 1-19"
           git push
