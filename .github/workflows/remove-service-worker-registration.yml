@@ -1,0 +1,35 @@
+name: Retirar registro service worker
+
+on:
+  push:
+    paths:
+      - tools/remove-service-worker-registration.mjs
+      - .github/workflows/remove-service-worker-registration.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  remove:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Eliminar registro del service worker
+        run: node tools/remove-service-worker-registration.mjs
+
+      - name: Publicar cambio
+        run: |
+          if git diff --quiet -- assets/app.js; then
+            echo "No hay cambios pendientes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/app.js
+          git commit -m "fix: elimina registro del service worker en runtime"
+          git push
