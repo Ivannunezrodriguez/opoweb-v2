@@ -1,3 +1,4 @@
+const VERSION = '0.27.27';
 const modules = [
   './diputacion-tracking.js',
   './study-progress.js',
@@ -8,7 +9,7 @@ const modules = [
 ];
 
 function loadEnhancements() {
-  Promise.allSettled(modules.map(module => import(module)));
+  Promise.allSettled(modules.map(module => import(`${module}?v=${VERSION}`)));
 }
 
 if ('requestIdleCallback' in window) {
