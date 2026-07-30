@@ -429,7 +429,7 @@ async function boot() {
     }
 
     window.addEventListener('popstate', event => restoreFromHistory(event.state));
-    if ('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(() => {});
+    // Service worker desactivado: la aplicación usa peticiones directas para evitar bloqueos.
   } catch (error) {
     app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p><button class="btn secondary" type="button" onclick="location.reload()">Reintentar</button></section>`;
   }
