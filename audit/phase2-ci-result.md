@@ -1,8 +1,8 @@
 # Resultado de la puerta de cierre · Fase 2
 
 - Estado: **VALIDACION_CI_SUPERADA**
-- Commit validado: `37d1d217e27ee5e7df07defde790d50f241f8eed`
-- Fecha UTC: `2026-07-30T19:15:24Z`
+- Commit validado: `6fde256468a8a24c0d775d29172d7fd615d81828`
+- Fecha UTC: `2026-07-30T19:22:24Z`
 
 ```text
 
@@ -33,6 +33,7 @@
     "ausencia de metadatos históricos",
     "ausencia de llamadas antiguas detectables",
     "banco APROBADO_USUARIO con 12 preguntas",
+    "bloque final de esquema o repaso",
     "enlaces locales existentes"
   ],
   "temas": [
@@ -51,7 +52,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 1,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 3,
       "enlacesLocalesVerificados": 0
     },
     {
@@ -60,7 +61,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 2,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 3,
       "enlacesLocalesVerificados": 0
     },
     {
@@ -69,7 +70,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 3,
+      "encabezadosEsquemaRepaso": 5,
       "enlacesLocalesVerificados": 0
     },
     {
@@ -78,7 +79,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 3,
       "enlacesLocalesVerificados": 0
     },
     {
@@ -87,7 +88,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 1,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 4,
       "enlacesLocalesVerificados": 0
     },
     {
@@ -96,7 +97,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 4,
       "enlacesLocalesVerificados": 0
     },
     {
@@ -104,8 +105,8 @@
       "h1": 1,
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
-      "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 0,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 4,
       "enlacesLocalesVerificados": 0
     },
     {
@@ -114,7 +115,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 3,
       "enlacesLocalesVerificados": 0
     },
     {
@@ -123,7 +124,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 2,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 5,
       "enlacesLocalesVerificados": 0
     },
     {
@@ -132,7 +133,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 2,
       "enlacesLocalesVerificados": 8
     },
     {
@@ -149,8 +150,8 @@
       "h1": 1,
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
-      "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 0,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 1,
       "enlacesLocalesVerificados": 7
     },
     {
@@ -158,8 +159,8 @@
       "h1": 1,
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
-      "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 0,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 2,
       "enlacesLocalesVerificados": 7
     },
     {
@@ -168,7 +169,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 2,
       "enlacesLocalesVerificados": 8
     },
     {
@@ -177,7 +178,7 @@
       "banco": "APROBADO_USUARIO",
       "preguntas": 12,
       "llamadasFoco": 0,
-      "encabezadosEsquemaRepaso": 1,
+      "encabezadosEsquemaRepaso": 2,
       "enlacesLocalesVerificados": 7
     },
     {
