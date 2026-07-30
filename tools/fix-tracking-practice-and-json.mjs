@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 
+// Relanzamiento 2026-07-30: corrige seguimiento, práctica y escapes JSON inválidos.
 function writeIfChanged(file, next) {
   const current = fs.readFileSync(file, 'utf8').replace(/\r\n/g, '\n');
   if (current === next) return false;
