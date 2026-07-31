@@ -1,7 +1,7 @@
 {
   "convocatoria": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
   "tema": 1,
-  "version": "2026-07-22",
+  "version": "2026-07-31",
   "estado": "EN_REVISION_USUARIO",
   "epigrafeOficial": "La Constitución Española de 1978: estructura y contenido; derechos y deberes fundamentales; elaboración de las leyes; organización territorial del Estado; reforma constitucional.",
   "cobertura": [
@@ -23,12 +23,12 @@
     {
       "apartado": "Organización territorial del Estado",
       "estado": "CUBIERTO",
-      "contenido": ["municipios", "provincias", "comunidades autónomas", "autonomía", "Estatutos", "distribución competencial de los artículos 148 y 149"]
+      "contenido": ["municipios", "provincias", "comunidades autónomas", "autonomía", "Estatutos", "distribución competencial de los artículos 148 y 149", "circunscripciones insulares del Senado tras la reforma del artículo 69.3 de 2026"]
     },
     {
       "apartado": "Reforma constitucional",
       "estado": "CUBIERTO",
-      "contenido": ["iniciativa", "procedimiento ordinario del artículo 167", "procedimiento agravado del artículo 168", "límites temporales", "reformas de 1992, 2011 y 2024"]
+      "contenido": ["iniciativa", "procedimiento ordinario del artículo 167", "procedimiento agravado del artículo 168", "límites temporales", "reformas de 1992, 2011, 2024 y 2026"]
     }
   ],
   "controlesTest": [
@@ -39,11 +39,19 @@
     "500.000 firmas para la iniciativa legislativa popular",
     "Convalidación del decreto-ley en treinta días",
     "Organización territorial del artículo 137",
-    "Mayorías y referéndum de los artículos 167 y 168"
+    "Circunscripciones insulares del artículo 69.3 tras la reforma de 2026",
+    "Mayorías y referéndum de los artículos 167 y 168",
+    "Cuatro reformas constitucionales hasta julio de 2026"
   ],
   "fuentes": [
     "BOE-A-2026-14624",
-    "BOE-A-1978-31229"
+    "BOE-A-1978-31229",
+    "BOE-A-2026-10881",
+    "BOE-A-2026-14329"
   ],
+  "controlVigencia": {
+    "fecha": "2026-07-31",
+    "resultado": "Corregido el inventario de reformas constitucionales y añadida la redacción vigente del artículo 69.3."
+  },
   "aprobadoPorUsuario": false
 }
