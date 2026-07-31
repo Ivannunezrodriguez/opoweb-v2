@@ -1,58 +1,60 @@
 # Estado de auditoría · OpoWeb v2
 
-Última actualización: **30 de julio de 2026**.
+Última actualización: **31 de julio de 2026**.
 
 ## Fase 2 · La Puebla de Montalbán
 
 Estado: **CERRADO_FASE_2**.
 
-La revisión transversal de La Puebla queda cerrada para los **19/19 temas**. El cierre está documentado en `audit/PHASE2_CLOSURE.md` y respaldado por la evidencia automática `audit/phase2-ci-result.md`.
+La revisión transversal de La Puebla permanece cerrada para los **19/19 temas**. El cierre está documentado en `audit/PHASE2_CLOSURE.md` y respaldado por la evidencia automática `audit/phase2-ci-result.md`.
 
-## Resultado verificado
+## Auditoría específica · UC3M C2
 
-- 19 manuales, 19 matrices y 19 bancos de preguntas disponibles.
-- 228 preguntas verificadas, 12 por tema.
-- 20 supuestos prácticos y 3 simulacros.
-- Portadas y estado editorial normalizados.
-- Un único H1 y título normalizado por manual.
-- Ausencia de metadatos históricos y llamadas antiguas detectables.
-- Enlaces locales existentes.
-- Bloque final de esquema o repaso en los 19 temas.
-- Contrato frontend compatible con `pregunta/enunciado`, `correcta/respuestaCorrecta` y `trampa/trampaExamen`.
-- Navegación, historial, práctica multiconvocatoria y carga progresiva validados.
-- Service worker retirado y sin listener `fetch`.
-- Carga de portada, apertura de temas y desplazamiento rápido comprobados en el despliegue real por el usuario.
+Estado: **EN_REVISION_TRANSVERSAL · 20/20 temas disponibles**.
 
-La puerta de cierre ejecutó correctamente `npm test` y registró **VALIDACION_CI_SUPERADA** sobre el commit `6fde256468a8a24c0d775d29172d7fd615d81828`.
+### Cambio jurídico real corregido el 31 de julio de 2026
 
-## Incidencias cerradas
+En el **Tema 1** se detectó un error objetivo: el manual y la pregunta `UC3M-T01-012` afirmaban que hasta julio de 2026 se habían aprobado tres reformas constitucionales. Ese dato quedó desactualizado con la reforma del artículo **69.3**, publicada y vigente desde el **20 de mayo de 2026**.
 
-- Carga masiva de manuales en portada.
-- Navegaciones bloqueadas por el service worker.
-- Bloques infinitos provocados por `MutationObserver`.
-- Duplicación del seguimiento de Diputación.
-- Error JSON por escapes UNC en el Tema 34 de Diputación.
-- Validador desalineado con la arquitectura de carga diferida.
-- Ausencia de esquema final en los Temas 8, 13 y 14 de La Puebla.
+Se han corregido:
+
+- `content/uc3m/tema-01/manual.md`;
+- `content/uc3m/tema-01/matriz.json`;
+- `content/uc3m/tema-01/preguntas.json`;
+- `content/uc3m/tema-01/fuentes.md`.
+
+El material refleja ahora las **cuatro reformas** constitucionales: artículos 13.2, 135, 49 y 69.3. También incorpora la separación de Ibiza y Formentera como circunscripciones senatoriales y la atribución de un senador a cada isla.
+
+Fuentes oficiales verificadas:
+
+- Constitución Española consolidada, última actualización publicada el 20 de mayo de 2026: `BOE-A-1978-31229`.
+- Reforma del artículo 69.3, de 19 de mayo de 2026: `BOE-A-2026-10881`.
+- Adaptación de la LOREG mediante Ley Orgánica 2/2026, de 30 de junio: `BOE-A-2026-14329`.
 
 ## Seguimiento oficial de convocatorias
 
-Comprobación registrada el **30 de julio de 2026**:
+Comprobación realizada el **31 de julio de 2026**:
 
-- **Diputación de Toledo · Administrativo C1:** seguimiento activo; revisión editorial específica todavía abierta.
-- **UC3M · Auxiliar Administrativa C2:** solicitud personal presentada y registrada el 15 de julio de 2026; revisión editorial específica todavía abierta.
-- **CPEIS Toledo:** solo seguimiento.
-- **Carranque:** seguimiento independiente.
+- **Diputación de Toledo · Administrativo C1:** el portal oficial mantiene el 31 de julio de 2026 como último día de presentación. No consta lista provisional.
+- **UC3M · Auxiliar Administrativa C2:** plazo abierto hasta el 5 de agosto de 2026; sigue figurando como previsible el ejercicio del 21 de noviembre de 2026 a las 10:00. No consta lista provisional.
+- **CPEIS Toledo · C1 y C2:** procesos abiertos hasta el 6 de agosto de 2026. No consta lista provisional.
+- **Carranque:** sin nueva publicación oficial verificada.
+- **La Puebla:** sin nueva publicación oficial que altere el estado registrado.
+
+`data/convocatorias.json` queda actualizado a **31 de julio de 2026**.
 
 ## Estado por proyectos
 
 | Proyecto | Cobertura | Estado |
 |---|---:|---|
 | La Puebla | **19/19** | **CERRADO_FASE_2** |
-| Diputación C1 | **40/40** | Revisión específica abierta |
-| UC3M C2 | **20/20** | Revisión específica abierta |
+| Diputación C1 | **40/40** | Revisión específica abierta; OAPGT pendiente de fuente íntegra |
+| UC3M C2 | **20/20** | Revisión específica abierta; Tema 1 corregido |
 | CPEIS | Solo seguimiento | Pendiente de decisión del usuario |
 
-## Siguiente fase
+## Orden de trabajo vigente
 
-Las nuevas reformas normativas, mejoras visuales o ampliaciones de contenidos se tramitarán como una fase posterior o como mantenimiento editorial, conservando este cierre histórico.
+1. Continuar la auditoría jurídica y editorial de UC3M tema a tema.
+2. Mantener el seguimiento diario de publicaciones oficiales.
+3. Continuar Diputación, priorizando la obtención de una fuente oficial íntegra de los Estatutos del OAPGT.
+4. Conservar el cierre histórico de La Puebla y reabrir únicamente ante reformas o incidencias verificadas.
