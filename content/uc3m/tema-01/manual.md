@@ -45,6 +45,10 @@ La Constitución garantiza la autonomía municipal. La provincia es entidad loca
 
 Los artículos 148 y 149 distribuyen competencias. El artículo 149 enumera materias de competencia exclusiva estatal. Las materias no atribuidas expresamente al Estado pueden corresponder a las comunidades autónomas en virtud de sus Estatutos.
 
+### Circunscripciones insulares del Senado
+
+Desde la reforma constitucional publicada el **20 de mayo de 2026**, el artículo 69.3 reconoce como circunscripciones separadas a Ibiza y Formentera. Corresponden tres senadores a Gran Canaria, Mallorca y Tenerife, y uno a Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote y La Palma. La eficacia electoral de la separación de Ibiza y Formentera quedó pospuesta hasta la convocatoria de las primeras elecciones al Senado celebradas después de la entrada en vigor de la reforma.
+
 ## 5. Reforma constitucional
 
 La iniciativa de reforma se ejerce en los términos previstos para la iniciativa legislativa, salvo la iniciativa popular.
@@ -61,11 +65,12 @@ No puede iniciarse una reforma constitucional en tiempo de guerra ni durante la 
 
 ### Reformas aprobadas
 
-Hasta julio de 2026 se han aprobado tres reformas constitucionales:
+Hasta julio de 2026 se han aprobado **cuatro reformas constitucionales**:
 
 - En 1992 se reformó el artículo 13.2 para permitir el sufragio pasivo de ciudadanos de la Unión Europea en las elecciones municipales.
 - En 2011 se reformó el artículo 135 para introducir el principio de estabilidad presupuestaria.
 - En 2024 se reformó el artículo 49 para actualizar la protección constitucional de las personas con discapacidad y sustituir una terminología ya superada.
+- En 2026 se reformó el artículo 69.3 para que Formentera constituya una circunscripción propia y elija un senador separado de Ibiza.
 
 ## Claves de examen
 
@@ -74,4 +79,5 @@ Hasta julio de 2026 se han aprobado tres reformas constitucionales:
 - Ley orgánica: mayoría absoluta del Congreso en votación final sobre el conjunto.
 - Decreto-ley: convalidación en treinta días.
 - Reforma agravada: disolución de las Cortes y referéndum obligatorio.
-- Hasta julio de 2026 se han aprobado tres reformas constitucionales: artículos 13.2, 135 y 49.
+- Hasta julio de 2026 se han aprobado cuatro reformas constitucionales: artículos 13.2, 135, 49 y 69.3.
+- Desde la reforma de 2026, Ibiza y Formentera son circunscripciones senatoriales separadas.
