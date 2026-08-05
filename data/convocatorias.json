@@ -1,18 +1,35 @@
 {
-  "actualizadoEl": "2026-07-31",
+  "actualizadoEl": "2026-08-05",
   "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará. Las convocatorias descartadas no reciben desarrollo editorial ni mantenimiento activo.",
   "convocatorias": [
     {
       "id": "la-puebla-auxiliar-2026",
       "nombre": "La Puebla de Montalbán · Auxiliar Administrativo C2",
-      "estadoUsuario": "INSCRITO_VERIFICADO_DOCUMENTALMENTE",
+      "estadoUsuario": "ADMITIDO_PROVISIONALMENTE",
       "prioridad": 1,
       "estadoEditorial": "CERRADO_FASE_2",
       "temas": 19,
       "ruta": "./",
-      "inscripcion": {"fechaSolicitud":"2026-05-28","tasaEuros":7,"fechaPago":"2026-05-27","justificantePrivadoVerificado":true},
-      "seguimientoVerificadoEl": "2026-07-31",
-      "ultimaComprobacion": "No consta una nueva publicación oficial que altere el proceso. La Fase 2 editorial permanece cerrada con validación CI superada.",
+      "plazas": 4,
+      "sistema": "CONCURSO_OPOSICION_LIBRE",
+      "inscripcion": {
+        "fechaSolicitud": "2026-05-28",
+        "tasaEuros": 7,
+        "fechaPago": "2026-05-27",
+        "justificantePrivadoVerificado": true
+      },
+      "listaProvisional": {
+        "decreto": "2026-1051",
+        "fecha": "2026-07-30",
+        "admitidos": 169,
+        "excluidos": 21,
+        "solicitudesTotales": 190,
+        "aspirantesAdmitidosPorPlaza": 42.25,
+        "situacionUsuario": "ADMITIDO",
+        "requiereSubsanacion": false
+      },
+      "seguimientoVerificadoEl": "2026-08-05",
+      "ultimaComprobacion": "El Decreto 2026-1051 aprueba la lista provisional con 169 personas admitidas y 21 excluidas. El usuario figura admitido provisionalmente y no debe subsanar.",
       "incidenciaCorregida": "Auditoría transversal cerrada para los 19 temas; mantenimiento posterior sujeto a reformas normativas o nuevas publicaciones oficiales."
     },
     {
@@ -25,8 +42,16 @@
       "plazasTurnoLibre": 2,
       "sistema": "OPOSICION_LIBRE",
       "fuentePrincipal": "BOP de Toledo número 118, de 25 de junio de 2026, código 2026.00002934",
-      "publicacionBOE": {"referencia":"BOE-A-2026-14527","numero":162,"fecha":"2026-07-04"},
-      "plazoSolicitudes": {"desde":"2026-07-06","hasta":"2026-07-31","estado":"ULTIMO_DIA"},
+      "publicacionBOE": {
+        "referencia": "BOE-A-2026-14527",
+        "numero": 162,
+        "fecha": "2026-07-04"
+      },
+      "plazoSolicitudes": {
+        "desde": "2026-07-06",
+        "hasta": "2026-07-31",
+        "estado": "ULTIMO_DIA"
+      },
       "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1961/7080/rrhh-seleccion-convocatoria/1",
       "seguimientoVerificadoEl": "2026-07-31",
       "ultimaComprobacion": "El portal oficial mantiene el 31 de julio de 2026 como último día de presentación de solicitudes. No consta todavía lista provisional de esta convocatoria.",
@@ -44,8 +69,16 @@
       "plazasReservaDiscapacidad": 2,
       "sistema": "CONCURSO_OPOSICION_LIBRE",
       "fuentePrincipal": "Resolución de 30 de junio de 2026; BOE-A-2026-14624 y anuncio en BOCM de 8 de julio de 2026",
-      "plazoSolicitudes": {"desde":"2026-07-09","hasta":"2026-08-05","estado":"ABIERTO"},
-      "fechaPrevisibleEjercicio": {"fecha":"2026-11-21","hora":"10:00","caracter":"PREVISIBLE"},
+      "plazoSolicitudes": {
+        "desde": "2026-07-09",
+        "hasta": "2026-08-05",
+        "estado": "ABIERTO"
+      },
+      "fechaPrevisibleEjercicio": {
+        "fecha": "2026-11-21",
+        "hora": "10:00",
+        "caracter": "PREVISIBLE"
+      },
       "fuenteSeguimiento": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
       "seguimientoVerificadoEl": "2026-07-31",
       "ultimaComprobacion": "El portal oficial mantiene abierto el plazo hasta el 5 de agosto de 2026 y conserva como previsible el ejercicio del 21 de noviembre de 2026 a las 10:00. No consta lista provisional.",
@@ -59,8 +92,16 @@
       "estadoEditorial": "MANTENIMIENTO",
       "plazas": 1,
       "sistema": "CONCURSO_OPOSICION_LIBRE",
-      "publicacionBOE": {"referencia":"BOE-A-2026-1136","numero":16,"fecha":"2026-01-19"},
-      "plazoSolicitudes": {"desde":"2026-01-20","hasta":"2026-02-16","estado":"CERRADO"},
+      "publicacionBOE": {
+        "referencia": "BOE-A-2026-1136",
+        "numero": 16,
+        "fecha": "2026-01-19"
+      },
+      "plazoSolicitudes": {
+        "desde": "2026-01-20",
+        "hasta": "2026-02-16",
+        "estado": "CERRADO"
+      },
       "seguimientoVerificadoEl": "2026-07-31",
       "ultimaComprobacion": "Sin publicación posterior oficial verificada."
     },
@@ -70,8 +111,16 @@
       "estadoUsuario": "PENDIENTE_DECISION",
       "prioridad": null,
       "estadoEditorial": "SOLO_SEGUIMIENTO",
-      "plazasTurnoLibre": {"tecnicoAdministracionGeneralA1":2,"administrativoC1":1,"auxiliarAdministrativoC2":4},
-      "plazoSolicitudes": {"desde":"2026-07-10","hasta":"2026-08-06","estado":"ABIERTO"},
+      "plazasTurnoLibre": {
+        "tecnicoAdministracionGeneralA1": 2,
+        "administrativoC1": 1,
+        "auxiliarAdministrativoC2": 4
+      },
+      "plazoSolicitudes": {
+        "desde": "2026-07-10",
+        "hasta": "2026-08-06",
+        "estado": "ABIERTO"
+      },
       "fuenteSeguimiento": "https://cpeistoledo.es/empleo-formacion/",
       "seguimientoVerificadoEl": "2026-07-31",
       "ultimaComprobacion": "El portal oficial mantiene abiertos los procesos C1 y C2 hasta el 6 de agosto de 2026. No consta lista provisional; se mantiene solo seguimiento."
@@ -84,8 +133,16 @@
       "estadoEditorial": "ARCHIVADA_SIN_DESARROLLO",
       "plazas": 1,
       "sistema": "CONCURSO_OPOSICION_LIBRE",
-      "publicacionBOE": {"referencia":"BOE-A-2026-14274","numero":159,"fecha":"2026-07-01"},
-      "plazoSolicitudes": {"desde":"2026-07-02","hasta":"2026-07-21","estado":"CERRADO"},
+      "publicacionBOE": {
+        "referencia": "BOE-A-2026-14274",
+        "numero": 159,
+        "fecha": "2026-07-01"
+      },
+      "plazoSolicitudes": {
+        "desde": "2026-07-02",
+        "hasta": "2026-07-21",
+        "estado": "CERRADO"
+      },
       "motivo": "El usuario ha confirmado que no se presentará"
     }
   ]
