@@ -1,12 +1,23 @@
 {
   "convocatoriaId": "la-puebla-auxiliar-administrativo-2026",
-  "actualizadoEl": "2026-07-23",
+  "actualizadoEl": "2026-08-05",
   "situacionPersonal": {
     "inscrito": true,
+    "admitidoProvisionalmente": true,
+    "requiereSubsanacion": false,
     "fechaPresentacion": "2026-05-28",
-    "estado": "Solicitud presentada y registrada",
-    "verificacionDocumental": "Comprobada mediante recibo de registro de entrada y documentación aportada por el usuario.",
+    "estado": "Admitido provisionalmente",
+    "verificacionDocumental": "La inclusión del aspirante en la relación provisional de admitidos ha sido comprobada en el Decreto 2026-1051, de 30 de julio de 2026.",
     "notaPrivacidad": "El justificante, la solicitud, el documento identificativo y los datos bancarios se conservan fuera del repositorio público. No se publican números de documento, cuenta ni copias personales."
+  },
+  "siguienteHito": "Lista definitiva y fecha del primer ejercicio",
+  "estadisticasProvisionales": {
+    "plazas": 4,
+    "admitidos": 169,
+    "excluidos": 21,
+    "solicitudesTotales": 190,
+    "admitidosPorPlaza": 42.25,
+    "maximoPorPlazaSiSubsanaranTodos": 47.5
   },
   "hitos": [
     {
@@ -34,16 +45,16 @@
       "estado": "completado"
     },
     {
-      "fecha": null,
+      "fecha": "2026-07-30",
       "titulo": "Lista provisional de admitidos y excluidos",
-      "detalle": "No consta todavía una publicación oficial verificada en la sede electrónica municipal.",
-      "estado": "pendiente"
+      "detalle": "Decreto 2026-1051: 169 personas admitidas y 21 excluidas para cuatro plazas. El aspirante figura admitido provisionalmente y no tiene que subsanar.",
+      "estado": "completado"
     },
     {
       "fecha": null,
       "titulo": "Subsanación",
-      "detalle": "La convocatoria prevé diez días hábiles desde la publicación de la lista provisional para subsanar exclusiones u omisiones.",
-      "estado": "pendiente"
+      "detalle": "La convocatoria concede diez días hábiles desde el día siguiente a la publicación de la lista provisional para corregir exclusiones u omisiones subsanables. Este trámite no afecta al aspirante admitido.",
+      "estado": "no_aplica"
     },
     {
       "fecha": null,
@@ -72,6 +83,11 @@
     {
       "nombre": "Extracto de convocatoria",
       "referencia": "BOE número 125, de 22 de mayo de 2026 · BOE-A-2026-11030"
+    },
+    {
+      "nombre": "Lista provisional de admitidos y excluidos",
+      "referencia": "Decreto 2026-1051, de 30 de julio de 2026 · CSV 4MNLFTKFKYJQHLSF4RFW5Q997",
+      "url": "https://lapueblademontalban.sedelectronica.es/preview/pdf/SwMxWWwkKzvjlkYGh4paJts2fw_9VGMp38G1ubUKqc_UpnCc34fKGxFJOX6hH02tB4A7dqBxnR_mXrKu4R8XSmxBcahb6P1Bdm4H3A-xDMy34dCOkvPkouG3ZqyACjHBWgAIJTGoPAFRga-jzkQyWEI6zoUbMeHXrEpPf3Q9w9U.pdf"
     },
     {
       "nombre": "Prueba privada de inscripción",
