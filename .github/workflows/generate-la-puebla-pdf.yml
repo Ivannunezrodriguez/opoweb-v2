@@ -1,0 +1,50 @@
+name: Generate La Puebla PDF
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'tools/build_la_puebla_pdf.py'
+      - '.github/workflows/generate-la-puebla-pdf.yml'
+      - 'content/la-puebla/**'
+
+permissions:
+  contents: read
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install PDF dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install markdown weasyprint
+
+      - name: Build complete La Puebla PDF
+        run: python tools/build_la_puebla_pdf.py
+
+      - name: Verify PDF exists
+        run: |
+          test -s dist/OpoWeb-La-Puebla-Temario-Completo-2026.pdf
+          ls -lh dist/OpoWeb-La-Puebla-Temario-Completo-2026.pdf
+
+      - name: Upload PDF artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: opoweb-la-puebla-pdf
+          path: dist/OpoWeb-La-Puebla-Temario-Completo-2026.pdf
+          if-no-files-found: error
+          retention-days: 30
