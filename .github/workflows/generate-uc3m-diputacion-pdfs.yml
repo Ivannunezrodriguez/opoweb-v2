@@ -1,0 +1,51 @@
+name: Generate UC3M and Diputacion PDFs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tools/build_opoweb_pdf.py'
+      - 'content/uc3m/**'
+      - 'content/diputacion-toledo/**'
+      - '.github/workflows/generate-uc3m-diputacion-pdfs.yml'
+  workflow_dispatch:
+
+jobs:
+  build-pdfs:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install PDF dependencies
+        run: pip install markdown weasyprint
+      - name: Build UC3M PDF
+        run: >-
+          python tools/build_opoweb_pdf.py
+          --slug uc3m
+          --title "Universidad Carlos III de Madrid"
+          --subtitle "Escala Auxiliar Administrativa C2 · Temario 2026"
+          --out "OpoWeb-UC3M-Auxiliar-Administrativa-C2-Temario-Completo-2026.pdf"
+      - name: Build Diputacion PDF
+        run: >-
+          python tools/build_opoweb_pdf.py
+          --slug diputacion-toledo
+          --title "Diputación Provincial de Toledo"
+          --subtitle "Administrativo C1 · Temario completo 2026"
+          --out "OpoWeb-Diputacion-Toledo-Administrativo-C1-Temario-Completo-2026.pdf"
+      - name: Verify PDFs
+        run: |
+          test -s dist/OpoWeb-UC3M-Auxiliar-Administrativa-C2-Temario-Completo-2026.pdf
+          test -s dist/OpoWeb-Diputacion-Toledo-Administrativo-C1-Temario-Completo-2026.pdf
+          ls -lh dist/*.pdf
+      - name: Upload UC3M PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: opoweb-uc3m-pdf
+          path: dist/OpoWeb-UC3M-Auxiliar-Administrativa-C2-Temario-Completo-2026.pdf
+      - name: Upload Diputacion PDF
+        uses: actions/upload-artifact@v4
+        with:
+          name: opoweb-diputacion-pdf
+          path: dist/OpoWeb-Diputacion-Toledo-Administrativo-C1-Temario-Completo-2026.pdf
