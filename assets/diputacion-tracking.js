@@ -42,6 +42,8 @@ async function renderDiputacionTracking() {
   if (!data || !isDiputacionSelected()) return;
 
   const personal = data.situacionPersonal;
+  const provisional = data.listaProvisional;
+  const statusLabel = personal.admitidoProvisionalmente ? '✓ Admitido provisional' : '✓ Estoy apuntado';
   const panel = document.createElement('section');
   panel.id = 'diputacion-tracking-panel';
   panel.className = 'panel tracking-panel';
@@ -51,12 +53,14 @@ async function renderDiputacionTracking() {
         <p class="eyebrow section-eyebrow">Seguimiento personal</p>
         <h2>Plazos y estado de la OPE</h2>
       </div>
-      <span class="status-pill status-ok">✓ Estoy apuntado</span>
+      <span class="status-pill status-ok">${escapeHtml(statusLabel)}</span>
     </div>
     <div class="personal-status">
       <div><span>Estado</span><strong>${escapeHtml(personal.estado)}</strong></div>
       <div><span>Convocatoria</span><strong>${escapeHtml(personal.convocatoria)}</strong></div>
-      <div><span>Plazo</span><strong>6–31 de julio de 2026</strong></div>
+      <div><span>Competencia provisional</span><strong>${escapeHtml(provisional ? `${provisional.admitidos} admitidos · ${provisional.admitidosPorPlaza} por plaza` : 'Pendiente')}</strong></div>
+      <div><span>Tu posición en la lista</span><strong>${escapeHtml(personal.numeroOrden ? `N.º ${personal.numeroOrden} · admitido` : 'Pendiente')}</strong></div>
+      <div><span>Subsanación</span><strong>${escapeHtml(personal.requiereSubsanacion ? 'Sí, revisar causa' : 'No tienes que subsanar')}</strong></div>
       <div><span>Siguiente hito</span><strong>${escapeHtml(data.siguienteHito)}</strong></div>
     </div>
     <p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad)}</p>
