@@ -20,6 +20,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Validar perfil y casos conocidos
+        run: node tests/radar-fixtures.mjs
       - name: Actualizar radar
         run: node tools/radar.mjs
       - name: Notificar novedades por email
