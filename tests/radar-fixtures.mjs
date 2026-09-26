@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {classify,boeEntries,bocmEntries,bopEntries,docmEntries,boeBody,merge} from '../tools/radar-core.mjs';
+import {classify,boeEntries,bocmEntries,bopEntries,docmEntries,boeBody,pagEntries,merge} from '../tools/radar-core.mjs';
 const profile=JSON.parse(fs.readFileSync('data/radar-profile.json','utf8'));
 assert.deepEqual(profile.targetGroups,['B','C1','C2']);
 assert.equal(profile.zones.toledo.mode,'PROVINCIA_COMPLETA');
@@ -26,6 +26,11 @@ const ventas='Resolución de 24 de junio de 2026, del Ayuntamiento de Las Ventas
 const ventasBody=boeBody('<div id="textoxslt"><p>Una plaza de Auxiliar Administrativo-Administrativa, por el sistema de concurso-oposición, en turno libre.</p></div>');
 assert.equal(classify(ventas),null);
 assert.equal(classify(`${ventas} ${ventasBody}`)?.zone,'TOLEDO');
+const pagXml=`<convocatorias>\n    <convocatorias><id>123</id><descripcion>Getafe</descripcion><disposiciones><documento>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14274</documento></disposiciones><plazos><fechafin>30/09/2026</fechafin></plazos><titulo>AUXILIAR ADMINISTRATIVO</titulo><viagrupo>ACCESO LIBRE</viagrupo><provinciaId>28</provinciaId><organo>Universidad Carlos III de Madrid</organo><titulacion>ESO</titulacion><plazaslibres>2</plazaslibres>\n    </convocatorias>\n</convocatorias>`;
+const pag=pagEntries(pagXml,'28');
+assert.equal(pag.length,1);assert.equal(pag[0].deadline,'30/09/2026');assert.equal(pag[0].qualification,'ESO');
+assert.equal(pagEntries(pagXml.replace('Getafe','Madrid'),'28').length,0);
+assert.equal(pagEntries('<?xml version="1.0"?><convocatorias/>','45').length,0);
 const found=merge({opportunities:[]},[{...boe[0],source:'BOE'},{...bocm[0],source:'BOCM'}],'2026-09-26');
 assert.equal(found.length,2);assert(found.every(x=>x.isNew&&x.compatibility==='REVISAR'&&x.state==='REVISAR'));
 assert(merge({opportunities:found},[{...boe[0],source:'BOE'}],'2026-09-27').every(x=>!x.isNew));

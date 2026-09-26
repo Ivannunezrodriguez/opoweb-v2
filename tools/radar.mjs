@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-import {boeEntries,bocmEntries,bopEntries,docmEntries,boeBody,merge} from './radar-core.mjs';
+import {boeEntries,bocmEntries,bopEntries,docmEntries,boeBody,pagEntries,merge} from './radar-core.mjs';
 
 const out='data/radar.json';
 const now=new Date();
@@ -50,10 +50,21 @@ const results=await Promise.allSettled([
   }
   return entries;
  })(),
- (async()=>docmEntries(await (await get('https://docm.jccm.es/docm/sumario.do','text/html')).text()).map(x=>({...x,source:'DOCM'})))()
+ (async()=>docmEntries(await (await get('https://docm.jccm.es/docm/sumario.do','text/html')).text()).map(x=>({...x,source:'DOCM'})))(),
+ (async()=>{
+  const url='https://administracion.gob.es/content/sling/endpoints/pag/front-elastic/empleo-elastic/exportar';
+  const entries=[];
+  for(const province of ['45','28']){
+   const form=new URLSearchParams({type:'xml',pag_provincia:province,pag_tipoPlazo:'1',pag_tam:'1000',tam:'1000',exportSize:'1000',numRegistrosMostrar:'1000','p.limit':'1000',pag_sort:'desc'});
+   const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:form,signal:AbortSignal.timeout(35000)});
+   if(!r.ok)throw new Error(`PAG provincia ${province}: HTTP ${r.status}`);
+   entries.push(...pagEntries(await r.text(),province).map(x=>({...x,source:'PAG'})));
+  }
+  return entries;
+ })()
 ]);
 const successes=results.filter(x=>x.status==='fulfilled');
-for(const [i,result] of results.entries())if(result.status==='rejected')console.error(['BOE','BOCM','BOP Toledo','DOCM'][i],result.reason);
+for(const [i,result] of results.entries())if(result.status==='rejected')console.error(['BOE','BOCM','BOP Toledo','DOCM','PAG'][i],result.reason);
 if(successes.length!==results.length)throw new Error('Una fuente oficial no respondió. Se conserva el radar anterior para evitar una actualización incompleta.');
 const entries=successes.flatMap(x=>x.value);
 if(!entries.length)throw new Error('Las fuentes respondieron sin anuncios; se conserva el radar anterior.');

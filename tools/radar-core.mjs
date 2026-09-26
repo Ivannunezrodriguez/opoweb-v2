@@ -42,7 +42,7 @@ export function merge(previous,entries,date){
   const match=classify(entry.searchText||entry.title,entry.context);
   if(!match)continue;
   const id=fingerprint(entry),old=byId.get(id);
-  byId.set(id,{id,title:entry.title,organism:entry.context||'Consultar anuncio',location:match.zone==='TOLEDO'?'Toledo (verificar destino)':'Madrid sur (verificar destino)',...match,category:'Empleo público',vacancies:null,deadline:null,access:'Revisar bases',qualification:'Revisar bases',source:entry.source,officialUrl:entry.url,verifiedAt:date,firstSeen:old?.firstSeen||date,isNew:!old});
+  byId.set(id,{id,title:entry.title,organism:entry.context||'Consultar anuncio',location:match.zone==='TOLEDO'?'Toledo (verificar destino)':'Madrid sur (verificar destino)',...match,category:'Empleo público',vacancies:entry.vacancies??null,deadline:entry.deadline??null,access:entry.access||'Revisar bases',qualification:entry.qualification||'Revisar bases',source:entry.source,officialUrl:entry.url,verifiedAt:date,firstSeen:old?.firstSeen||date,isNew:!old});
  }
  return [...byId.values()].sort((a,b)=>b.firstSeen.localeCompare(a.firstSeen));
 }
@@ -82,4 +82,22 @@ export function docmEntries(html){
 export function boeBody(html){
  const block=html.match(/<div id="textoxslt">([\s\S]*?)<\/div>/i)?.[1]||'';
  return decode(block);
+}
+
+export function pagEntries(xml,province){
+ if(!/<convocatorias(?:\s|>|\/>)/.test(xml))throw new Error('Exportación PAG sin raíz de convocatorias');
+ const entries=[];
+ const blocks=[...xml.matchAll(/(?:^|\n)\s{4}<convocatorias>([\s\S]*?)\n\s{4}<\/convocatorias>/g)];
+ for(const [,block] of blocks){
+  const top=block.replace(/<disposiciones>[\s\S]*?<\/disposiciones>/g,'').replace(/<plazos>[\s\S]*?<\/plazos>/g,'');
+  const field=(name,source=top)=>decode(source.match(new RegExp(`<${name}>([\\s\\S]*?)<\\/${name}>`))?.[1]||'');
+  if(field('provinciaId')!==String(province)||field('viagrupo')!=='ACCESO LIBRE')continue;
+  const id=field('id'),role=field('titulo')||field('cuerpo'),place=[field('unidad'),field('descripcion')].filter(Boolean).join(' · ');
+  if(!id||!role)continue;
+  if(String(province)==='28'&&!madrid.test(place))continue;
+  const doc=field('documento',block),institution=field('organo');
+  const url=[doc,field('direccioninternet')].find(x=>/^https:\/\//i.test(x))||'https://administracion.gob.es/empleopublico/resultadosEmpleo';
+  entries.push({id,title:`Convocatoria de plazas de ${role} — ${institution}`,context:`${place} · ${institution} · ${field('codigogrupo')}`,url,deadline:field('fechafin',block)||null,qualification:field('titulacion')||'Revisar bases',vacancies:Number(field('plazaslibres'))||null,access:'Acceso libre'});
+ }
+ return entries;
 }
