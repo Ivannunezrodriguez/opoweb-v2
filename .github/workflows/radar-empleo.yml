@@ -22,6 +22,12 @@ jobs:
           node-version: 22
       - name: Actualizar radar
         run: node tools/radar.mjs
+      - name: Notificar novedades por email
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RADAR_EMAIL: ${{ secrets.RADAR_EMAIL }}
+          RADAR_FROM: ${{ secrets.RADAR_FROM }}
+        run: node tools/radar-notify.mjs
       - name: Guardar cambios
         run: |
           git config user.name "opoweb-radar[bot]"
