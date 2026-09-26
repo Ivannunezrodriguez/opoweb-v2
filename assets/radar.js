@@ -11,7 +11,7 @@ let data={opportunities:[]};
 let filters={q:'',status:'ACTIVA',zone:'TODAS',compat:'TODAS'};
 
 function compatibilityLabel(v){return v==='CUMPLE'?'🟢 Titulación compatible':v==='REVISAR'?'🟡 Revisar bases':'⚪ No compatible'}
-function stateLabel(v){return ({PLAZO_ABIERTO:'Plazo abierto',BASES_PUBLICADAS:'Bases publicadas',PREVISTA:'Próximamente',SEGUIMIENTO:'Seguimiento',CERRADA:'Plazo cerrado'})[v]||v}
+function stateLabel(v){return ({PLAZO_ABIERTO:'Plazo abierto',REVISAR:'Anuncio por revisar',BASES_PUBLICADAS:'Bases publicadas',PREVISTA:'Próximamente',SEGUIMIENTO:'Seguimiento',CERRADA:'Plazo cerrado'})[v]||v}
 function visible(o){
  const hay=norm([o.title,o.organism,o.location,o.group,o.category].join(' ')).includes(norm(filters.q));
  const active=filters.status==='TODAS'||(filters.status==='ACTIVA'?o.state!=='CERRADA':o.state===filters.status);
@@ -29,17 +29,17 @@ function card(o){
  </div>
  ${o.reason?'<p class="radar-note">'+esc(o.reason)+'</p>':''}
  <div class="radar-actions"><a class="btn" href="${esc(official)}" target="_blank" rel="noopener">Fuente oficial ↗</a></div>
- <div class="radar-source">Fuente: ${esc(o.source||'oficial')} · Verificado: ${esc(o.verifiedAt||'pendiente')}</div>
+ <div class="radar-source">Fuente: ${esc(o.source||'oficial')} · Detectado: ${esc(o.firstSeen||'pendiente')}</div>
  </article>`;
 }
 function render(){
  const all=data.opportunities||[], list=all.filter(visible);
  const open=all.filter(x=>x.state==='PLAZO_ABIERTO').length, compatible=all.filter(x=>x.compatibility==='CUMPLE'&&x.state!=='CERRADA').length;
  app.innerHTML=`<section class="panel radar-hero"><div><p class="eyebrow">Actualización automática</p><h2>Oportunidades detectadas</h2><p>Se priorizan procesos públicos de Toledo y sur de Madrid compatibles con titulaciones de Técnico Superior, C1/C2 y perfiles vinculados con DAM. La decisión final se comprueba siempre contra las bases oficiales.</p></div>
- <div class="radar-stats"><div class="radar-stat"><strong>${compatible}</strong><span>compatibles activas</span></div><div class="radar-stat"><strong>${open}</strong><span>con plazo abierto</span></div><div class="radar-stat"><strong>${all.length}</strong><span>procesos vigilados</span></div><div class="radar-stat"><strong>${esc(data.generatedAt||'—')}</strong><span>última actualización</span></div></div></section>
+ <div class="radar-stats"><div class="radar-stat"><strong>${compatible}</strong><span>compatibles activas</span></div><div class="radar-stat"><strong>${open}</strong><span>con plazo abierto</span></div><div class="radar-stat"><strong>${all.length}</strong><span>procesos vigilados</span></div><div class="radar-stat"><strong>${esc(data.generatedAt||'—')}</strong><span>última consulta completada</span></div></div></section>
  <section class="panel"><div class="radar-controls">
  <label><span>Buscar</span><input id="rq" type="search" value="${esc(filters.q)}" placeholder="Auxiliar, informática, universidad…"></label>
- <label><span>Estado</span><select id="rs"><option value="ACTIVA">Activas</option><option value="TODAS">Todas</option><option value="PLAZO_ABIERTO">Plazo abierto</option><option value="BASES_PUBLICADAS">Bases</option><option value="PREVISTA">Próximamente</option><option value="CERRADA">Cerradas</option></select></label>
+ <label><span>Estado</span><select id="rs"><option value="ACTIVA">Activas</option><option value="TODAS">Todas</option><option value="PLAZO_ABIERTO">Plazo abierto</option><option value="REVISAR">Por revisar</option><option value="BASES_PUBLICADAS">Bases</option><option value="PREVISTA">Próximamente</option><option value="CERRADA">Cerradas</option></select></label>
  <label><span>Zona</span><select id="rz"><option value="TODAS">Todas</option><option value="TOLEDO">Toledo</option><option value="MADRID_SUR">Madrid sur</option></select></label>
  <label><span>Compatibilidad</span><select id="rc"><option value="TODAS">Todas</option><option value="CUMPLE">Compatible</option><option value="REVISAR">Revisar</option></select></label>
  </div></section>
