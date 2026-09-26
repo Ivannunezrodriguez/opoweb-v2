@@ -1,5 +1,5 @@
 import fs from 'node:fs/promises';
-import {boeEntries,bocmEntries,bopEntries,docmEntries,boeBody,pagEntries,merge} from './radar-core.mjs';
+import {boeEntries,bocmEntries,bopEntries,docmEntries,boeVacancyEntries,pagEntries,merge} from './radar-core.mjs';
 
 const out='data/radar.json';
 const now=new Date();
@@ -24,17 +24,17 @@ const results=await Promise.allSettled([
    const items=boeEntries(j);
    // Local BOE headlines commonly say only «una plaza»; the job title is inside the notice.
    const generic=items.filter(x=>/convocatoria para proveer/i.test(x.title)&&!/auxiliar|administrativ|inform[aá]tic|programador|sistemas/i.test(x.title)&&/toledo|madrid|universidad/i.test(x.title+' '+x.context));
+   const genericIds=new Set(generic.map(x=>x.id));
+   const vacancies=[];
    for(let i=0;i<generic.length;i+=4){
     const batch=generic.slice(i,i+4);
-    await Promise.all(batch.map(async x=>{
+    const expanded=await Promise.all(batch.map(async x=>{
      const html=await (await get(x.url,'text/html')).text();
-     const body=boeBody(html);
-     x.searchText=`${x.title} ${body}`.slice(0,8000);
-     const role=body.match(/(?:una|un|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|\d+) plazas? de [^.]{0,100}(?:auxiliar|administrativ|inform[aá]tic|sistemas|programador)[^.,;]{0,100}/i)?.[0];
-     if(role)x.title+=` — ${role}`;
+     return boeVacancyEntries(x,html);
     }));
+    vacancies.push(...expanded.flat());
    }
-   entries.push(...items.map(x=>({...x,source:'BOE'})));
+   entries.push(...[...items.filter(x=>!genericIds.has(x.id)),...vacancies].map(x=>({...x,source:'BOE'})));
   }
   return entries;
  })(),

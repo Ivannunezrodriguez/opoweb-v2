@@ -3,12 +3,13 @@ import {createHash} from 'node:crypto';
 const roles=/auxiliar(?:es)? administrativ|administrativ[oa]s?|inform[aá]tic|programador|desarrollador|sistemas|soporte inform[aá]tic|t[eé]cnic[oa] auxiliar|t[eé]cnic[oa] superior|gesti[oó]n administrativa/i;
 const hiring=/convoc|plazas?|procesos? selectiv|bolsa|lista de espera|interin|oposici[oó]n|concurso.oposici[oó]n/i;
 const followup=/admitid|excluid|subsanaci[oó]n|tribunal|calificaci[oó]n|resultado|fecha de examen|nombramiento/i;
-const excluded=/promoci[oó]n interna|turno interno|provisi[oó]n de puestos|concurso de traslados|libre designaci[oó]n|comisi[oó]n de servicios|oposiciones? a notari|cuerpo de magistrad/i;
-const madrid=/getafe|legan[eé]s|fuenlabrada|m[oó]stoles|alcorc[oó]n|parla|pinto|valdemoro|aranjuez|humanes|griñ[oó]n|torrej[oó]n de la calzada|torrej[oó]n de velasco|ciempozuelos|navalcarnero/i;
+const excluded=/provisi[oó]n de puestos|concurso de traslados|libre designaci[oó]n|comisi[oó]n de servicios|oposiciones? a notari|cuerpo de magistrad/i;
+const madrid=/getafe|legan[eé]s|fuenlabrada|m[oó]stoles|alcorc[oó]n|parla|pinto|valdemoro|aranjuez|humanes|griñ[oó]n|torrej[oó]n de la calzada|torrej[oó]n de velasco|ciempozuelos|navalcarnero|universidad carlos iii de madrid|universidad rey juan carlos/i;
 const toledo=/toledo|illescas|seseña|talavera|puebla de montalb[aá]n|ventas con peña aguilera/i;
 export function classify(title, context='') {
  const s=`${title} ${context}`;
  if(!roles.test(title)||!hiring.test(title)||excluded.test(s)||followup.test(title))return null;
+ if(/promoci[oó]n interna|turno interno/i.test(title)&&!/acceso libre|turno libre/i.test(title))return null;
  // An autonomous-community-wide or national call needs verified workplace, not just its headquarters.
  const zone=madrid.test(s)?'MADRID_SUR':toledo.test(s)?'TOLEDO':null;
  if(!zone)return null;
@@ -82,6 +83,17 @@ export function docmEntries(html){
 export function boeBody(html){
  const block=html.match(/<div id="textoxslt">([\s\S]*?)<\/div>/i)?.[1]||'';
  return decode(block);
+}
+
+export function boeVacancyEntries(item,html){
+ const block=html.match(/<div id="textoxslt">([\s\S]*?)<\/div>/i)?.[1]||'';
+ const paragraphs=[...block.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(([,p])=>decode(p));
+ return paragraphs.filter(p=>/\bplazas? de\b/i.test(p)&&roles.test(p)&&!excluded.test(p)&&!/promoci[oó]n interna|turno interno/i.test(p)).map(p=>({
+  ...item,
+  id:`${item.id}-${createHash('sha256').update(p).digest('hex').slice(0,10)}`,
+  title:`${item.title} — ${p.slice(0,240)}`,
+  searchText:`${item.title} ${p}`
+ }));
 }
 
 export function pagEntries(xml,province){
