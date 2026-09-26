@@ -1,0 +1,35 @@
+name: Radar de empleo público
+
+on:
+  schedule:
+    - cron: "17 5,15 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-empleo
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Actualizar radar
+        run: node tools/radar.mjs
+      - name: Guardar cambios
+        run: |
+          git config user.name "opoweb-radar[bot]"
+          git config user.email "opoweb-radar[bot]@users.noreply.github.com"
+          git add data/radar.json
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "chore(radar): actualizar oportunidades"
+            git push
+          fi
