@@ -8,6 +8,7 @@
     "test": "node tests/validate.mjs && node tests/validate-la-puebla-editorial.mjs",
     "test:editorial": "node tests/validate-la-puebla-editorial.mjs",
     "test:diputacion": "node tests/validate-diputacion.mjs",
-    "test:all": "npm run test && npm run test:diputacion"
+    "test:all": "npm run test && npm run test:diputacion",
+    "test:radar": "node tests/radar-fixtures.mjs"
   }
 }
