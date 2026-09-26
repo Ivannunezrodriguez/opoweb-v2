@@ -16,7 +16,7 @@ function compatibility(s){return /C1|C2|grupo B|auxiliar|administrativ|inform[a�
 function zone(s){if(/madrid|getafe|legan[eé]s|fuenlabrada|m[oó]stoles|alcorc[oó]n|aranjuez|parla|valdemoro/i.test(s))return'MADRID_SUR';return'TOLEDO'}
 
 let previous={opportunities:[]};try{previous=JSON.parse(await fs.readFile(OUT,'utf8'))}catch{}
-const byId=new Map((previous.opportunities||[]).map(x=>[x.id,x]));
+const byId=new Map((previous.opportunities||[]).map(x=>[x.id,{...x,isNew:false}]));
 
 try{
  const r=await fetch('https://www.boe.es/datosabiertos/api/boe/sumario/'+compact,{headers:{Accept:'application/json','User-Agent':'OpoWeb-Radar/1.0'}});
