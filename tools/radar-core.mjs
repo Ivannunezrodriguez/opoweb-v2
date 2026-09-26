@@ -39,10 +39,47 @@ export function fingerprint(x){return createHash('sha256').update(`${x.source}:$
 export function merge(previous,entries,date){
  const byId=new Map((previous.opportunities||[]).map(x=>[x.id,{...x,isNew:false}]));
  for(const entry of entries){
-  const match=classify(entry.title,entry.context);
+  const match=classify(entry.searchText||entry.title,entry.context);
   if(!match)continue;
   const id=fingerprint(entry),old=byId.get(id);
   byId.set(id,{id,title:entry.title,organism:entry.context||'Consultar anuncio',location:match.zone==='TOLEDO'?'Toledo (verificar destino)':'Madrid sur (verificar destino)',...match,category:'Empleo público',vacancies:null,deadline:null,access:'Revisar bases',qualification:'Revisar bases',source:entry.source,officialUrl:entry.url,verifiedAt:date,firstSeen:old?.firstSeen||date,isNew:!old});
  }
  return [...byId.values()].sort((a,b)=>b.firstSeen.localeCompare(a.firstSeen));
+}
+
+export function bopEntries(html){
+ const entries=[];
+ let publisher='BOP Toledo';
+ const fragments=html.split(/(<h3 class="publisherBlock">[\s\S]*?<\/h3>|<div id="[^"]+" class="announce">[\s\S]*?<\/ul>)/i);
+ for(const fragment of fragments){
+  const heading=fragment.match(/<h3 class="publisherBlock">([\s\S]*?)<\/h3>/i);
+  if(heading){publisher=decode(heading[1]).replace(/^Anunciante\s*:\s*/i,'');continue}
+  if(!/class="announce"/.test(fragment))continue;
+  const href=fragment.match(/href="(DocGet\?[^"\s]+)"/i)?.[1]?.replaceAll('&amp;','&');
+  const subject=fragment.match(/Resumen\/Asunto\s*:\s*<\/strong>([\s\S]*?)<\/li>/i)?.[1];
+  if(!href||!subject)continue;
+  const url=new URL(href,'https://bop.diputoledo.es/webEbop/').href;
+  entries.push({id:new URL(url).searchParams.get('insert_number')+'-'+new URL(url).searchParams.get('insert_year'),title:decode(subject),context:publisher,url});
+ }
+ return entries;
+}
+
+export function docmEntries(html){
+ const entries=[];
+ let context='Castilla-La Mancha';
+ const parts=html.split(/(<h4 class="tituloOrganismo">[\s\S]*?<\/h4>|<p class = "sumario">[\s\S]*?<\/p>)/i);
+ for(const part of parts){
+  const heading=part.match(/<h4 class="tituloOrganismo">([\s\S]*?)<\/h4>/i);
+  if(heading){context=decode(heading[1]);continue}
+  if(!/<p class = "sumario">/.test(part))continue;
+  const pdf=part.match(/href="\.\/descargarArchivo\.do\?ruta=(\d{4}\/\d{2}\/\d{2})\/pdf\/(\d{4}_\d+)\.pdf&amp;tipo=rutaDocm"/i);
+  if(!pdf)continue;
+  entries.push({id:pdf[2],title:decode(part),context,url:`https://docm.jccm.es/docm/verArchivoHtml.do?ruta=${pdf[1]}/html/${pdf[2]}.html&tipo=rutaDocm`});
+ }
+ return entries;
+}
+
+export function boeBody(html){
+ const block=html.match(/<div id="textoxslt">([\s\S]*?)<\/div>/i)?.[1]||'';
+ return decode(block);
 }

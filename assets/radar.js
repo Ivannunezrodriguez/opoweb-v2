@@ -8,13 +8,13 @@ setTheme(localStorage.getItem(THEME_KEY)||(matchMedia('(prefers-color-scheme: da
 document.querySelector('#theme-toggle')?.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
 
 let data={opportunities:[]};
-let filters={q:'',status:'ACTIVA',zone:'TODAS',compat:'TODAS'};
+let filters={q:'',status:'TODAS',zone:'TODAS',compat:'TODAS'};
 
 function compatibilityLabel(v){return v==='CUMPLE'?'🟢 Titulación compatible':v==='REVISAR'?'🟡 Revisar bases':'⚪ No compatible'}
 function stateLabel(v){return ({PLAZO_ABIERTO:'Plazo abierto',REVISAR:'Anuncio por revisar',BASES_PUBLICADAS:'Bases publicadas',PREVISTA:'Próximamente',SEGUIMIENTO:'Seguimiento',CERRADA:'Plazo cerrado'})[v]||v}
 function visible(o){
  const hay=norm([o.title,o.organism,o.location,o.group,o.category].join(' ')).includes(norm(filters.q));
- const active=filters.status==='TODAS'||(filters.status==='ACTIVA'?o.state!=='CERRADA':o.state===filters.status);
+ const active=filters.status==='TODAS'||(filters.status==='ACTIVA'?['PLAZO_ABIERTO','BASES_PUBLICADAS','PREVISTA'].includes(o.state):o.state===filters.status);
  return hay&&active&&(filters.zone==='TODAS'||o.zone===filters.zone)&&(filters.compat==='TODAS'||o.compatibility===filters.compat);
 }
 function card(o){
@@ -35,8 +35,8 @@ function card(o){
 function render(){
  const all=data.opportunities||[], list=all.filter(visible);
  const open=all.filter(x=>x.state==='PLAZO_ABIERTO').length, compatible=all.filter(x=>x.compatibility==='CUMPLE'&&x.state!=='CERRADA').length;
- app.innerHTML=`<section class="panel radar-hero"><div><p class="eyebrow">Actualización automática</p><h2>Oportunidades detectadas</h2><p>Se priorizan procesos públicos de Toledo y sur de Madrid compatibles con titulaciones de Técnico Superior, C1/C2 y perfiles vinculados con DAM. La decisión final se comprueba siempre contra las bases oficiales.</p></div>
- <div class="radar-stats"><div class="radar-stat"><strong>${compatible}</strong><span>compatibles activas</span></div><div class="radar-stat"><strong>${open}</strong><span>con plazo abierto</span></div><div class="radar-stat"><strong>${all.length}</strong><span>procesos vigilados</span></div><div class="radar-stat"><strong>${esc(data.generatedAt||'—')}</strong><span>última consulta completada</span></div></div></section>
+ app.innerHTML=`<section class="panel radar-hero"><div><p class="eyebrow">Actualización automática</p><h2>Oportunidades detectadas</h2><p>Anuncios oficiales de empleo público para revisar en Toledo y el sur de Madrid. La ubicación, titulación y fecha de solicitudes requieren comprobación en las bases.</p></div>
+ <div class="radar-stats"><div class="radar-stat"><strong>${compatible}</strong><span>compatibles activas</span></div><div class="radar-stat"><strong>${open}</strong><span>con plazo abierto</span></div><div class="radar-stat"><strong>${all.length}</strong><span>anuncios detectados</span></div><div class="radar-stat"><strong>${esc(data.generatedAt||'—')}</strong><span>última consulta completada</span></div></div></section>
  <section class="panel"><div class="radar-controls">
  <label><span>Buscar</span><input id="rq" type="search" value="${esc(filters.q)}" placeholder="Auxiliar, informática, universidad…"></label>
  <label><span>Estado</span><select id="rs"><option value="ACTIVA">Activas</option><option value="TODAS">Todas</option><option value="PLAZO_ABIERTO">Plazo abierto</option><option value="REVISAR">Por revisar</option><option value="BASES_PUBLICADAS">Bases</option><option value="PREVISTA">Próximamente</option><option value="CERRADA">Cerradas</option></select></label>
