@@ -1,0 +1,59 @@
+{
+  "schemaVersion": 1,
+  "qualification": {
+    "level": "TECNICO_SUPERIOR",
+    "title": "Desarrollo de Aplicaciones Multiplataforma (DAM)"
+  },
+  "targetGroups": [
+    "B",
+    "C1",
+    "C2"
+  ],
+  "include": [
+    "FUNCIONARIO_CARRERA",
+    "FUNCIONARIO_INTERINO",
+    "PERSONAL_LABORAL",
+    "BOLSA"
+  ],
+  "exclude": [
+    "PROMOCION_INTERNA_EXCLUSIVA",
+    "PROVISION_PUESTOS"
+  ],
+  "zones": {
+    "toledo": {
+      "mode": "PROVINCIA_COMPLETA"
+    },
+    "madridSur": {
+      "municipalities": [
+        "Getafe",
+        "Leganés",
+        "Fuenlabrada",
+        "Móstoles",
+        "Alcorcón",
+        "Parla",
+        "Pinto",
+        "Valdemoro",
+        "Aranjuez",
+        "Humanes de Madrid",
+        "Griñón",
+        "Torrejón de la Calzada",
+        "Torrejón de Velasco",
+        "Ciempozuelos",
+        "Navalcarnero"
+      ]
+    }
+  },
+  "roleTerms": [
+    "auxiliar administrativo",
+    "administrativo",
+    "gestión",
+    "informática",
+    "sistemas",
+    "desarrollo",
+    "programación",
+    "soporte",
+    "técnico auxiliar",
+    "técnico superior"
+  ],
+  "compatibilityPolicy": "No marcar CUMPLE únicamente por el grupo. CUMPLE exige que la titulación publicada sea compatible; si no se han leído las bases, usar REVISAR."
+}
