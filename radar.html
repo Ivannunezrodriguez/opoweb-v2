@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="Radar OpoWeb de oportunidades de empleo público compatibles con DAM en Toledo y sur de Madrid.">
+  <title>OpoWeb · Radar de oportunidades</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/radar.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">OpoWeb v2 · Radar</p>
+      <h1>Radar de oportunidades</h1>
+      <p class="subtitle">Empleo público compatible con tu titulación · Toledo y sur de Madrid.</p>
+    </div>
+    <div class="header-actions">
+      <a class="btn secondary" href="index.html">← Temarios</a>
+      <button id="theme-toggle" class="btn secondary" type="button">🌙 Oscuro</button>
+    </div>
+  </header>
+  <main id="radar-app" class="radar-layout" aria-live="polite">
+    <section class="panel"><h2>Cargando radar…</h2></section>
+  </main>
+  <footer><p>La ficha enlaza siempre a la publicación oficial. La compatibilidad de titulación es orientativa hasta revisar las bases.</p></footer>
+  <script type="module" src="assets/radar.js?v=1"></script>
+</body>
+</html>
