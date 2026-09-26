@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {classify,boeEntries,bocmEntries,bopEntries,docmEntries,boeBody,pagEntries,merge} from '../tools/radar-core.mjs';
+import {classify,boeEntries,bocmEntries,bopEntries,docmEntries,boeBody,boeVacancyEntries,pagEntries,merge} from '../tools/radar-core.mjs';
 const profile=JSON.parse(fs.readFileSync('data/radar-profile.json','utf8'));
 assert.deepEqual(profile.targetGroups,['B','C1','C2']);
 assert.equal(profile.zones.toledo.mode,'PROVINCIA_COMPLETA');
@@ -10,6 +10,7 @@ const titles=[
  ['Resolución de la Universidad Carlos III de Madrid, por la que se convocan plazas de Técnico Auxiliar de Informática en Getafe.',true],
  ['Convocatoria para proveer plazas de Administrativo C1 en Toledo por promoción interna.',false],
  ['Resolución de aprobados y lista de admitidos en plazas de Administrativo C1 en Toledo.',false],
+ ['Convocatoria de plazas de Administrativo C1 en Toledo, turno libre y promoción interna.',true],
  ['Convocatoria para plazas del Cuerpo de Abogados A1 en Toledo.',false],
  ['Convocatoria para plazas de Administrativo C1 en Zaragoza.',false]
 ];
@@ -26,6 +27,15 @@ const ventas='Resolución de 24 de junio de 2026, del Ayuntamiento de Las Ventas
 const ventasBody=boeBody('<div id="textoxslt"><p>Una plaza de Auxiliar Administrativo-Administrativa, por el sistema de concurso-oposición, en turno libre.</p></div>');
 assert.equal(classify(ventas),null);
 assert.equal(classify(`${ventas} ${ventasBody}`)?.zone,'TOLEDO');
+// Published 2026 cases: a generic BOE headline can include several access routes.
+const diputacion='Resolución de 26 de junio de 2026, de la Diputación Provincial de Toledo, referente a la convocatoria para proveer varias plazas.';
+const mixed=`<div id="textoxslt"><p>Una plaza de Analista Programador, por el sistema de oposición, en turno libre.</p><p>Dos plazas de Administrativo/a, por el sistema de oposición, en turno libre.</p><p>Dos plazas de Técnico/a Administración General, en turno de promoción interna.</p><p>Una plaza de Administrativo/a, en turno de promoción interna.</p></div>`;
+const free=boeVacancyEntries({id:'BOE-A-2026-14527',title:diputacion,context:'Administración local'},mixed);
+assert.equal(free.length,2);assert(free.every(x=>classify(x.searchText,x.context)));
+assert.notEqual(free[0].id,free[1].id);
+assert.equal(boeVacancyEntries({id:'BOE-A-2026-14274',title:ventas,context:''},'<div id="textoxslt"><p>Una plaza de Auxiliar Administrativo, en turno libre.</p></div>').length,1);
+const uc3m='Resolución de 30 de junio de 2026, de la Universidad Carlos III de Madrid, por la que se convoca proceso selectivo para ingreso, por el sistema general de acceso libre, en la Escala Auxiliar Administrativa.';
+assert.equal(classify(uc3m)?.zone,'MADRID_SUR');
 const pagXml=`<convocatorias>\n    <convocatorias><id>123</id><descripcion>Getafe</descripcion><disposiciones><documento>https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14274</documento></disposiciones><plazos><fechafin>30/09/2026</fechafin></plazos><titulo>AUXILIAR ADMINISTRATIVO</titulo><viagrupo>ACCESO LIBRE</viagrupo><provinciaId>28</provinciaId><organo>Universidad Carlos III de Madrid</organo><titulacion>ESO</titulacion><plazaslibres>2</plazaslibres>\n    </convocatorias>\n</convocatorias>`;
 const pag=pagEntries(pagXml,'28');
 assert.equal(pag.length,1);assert.equal(pag[0].deadline,'30/09/2026');assert.equal(pag[0].qualification,'ESO');
