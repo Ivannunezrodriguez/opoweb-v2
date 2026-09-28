@@ -50,7 +50,15 @@ const results=await Promise.allSettled([
   }
   return entries;
  })(),
- (async()=>docmEntries(await (await get('https://docm.jccm.es/docm/sumario.do','text/html')).text()).map(x=>({...x,source:'DOCM'})))(),
+ (async()=>{
+  const entries=docmEntries(await (await get('https://docm.jccm.es/docm/sumario.do','text/html')).text());
+  const offers=entries.filter(x=>/oferta de empleo p[uú]blico|\bOEP\b/i.test(x.title)&&/toledo|getafe|legan[eé]s|fuenlabrada|m[oó]stoles|alcorc[oó]n|parla|pinto|valdemoro|aranjuez/i.test(x.title));
+  for(const x of offers){
+   const body=await (await get(x.url,'text/html')).text();
+   x.searchText=`${x.title} ${body.replace(/<[^>]+>/g,' ')}`.slice(0,10000);
+  }
+  return entries.map(x=>({...x,source:'DOCM'}));
+ })(),
  (async()=>{
   const url='https://administracion.gob.es/content/sling/endpoints/pag/front-elastic/empleo-elastic/exportar';
   const entries=[];

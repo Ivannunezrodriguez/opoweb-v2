@@ -2,18 +2,22 @@
   "schemaVersion": 1,
   "qualification": {
     "level": "TECNICO_SUPERIOR",
-    "title": "Desarrollo de Aplicaciones Multiplataforma (DAM)"
+    "title": "Desarrollo de Aplicaciones Multiplataforma (DAM)",
+    "additionalTitle": "Técnico en Equipos Electrónicos de Consumo"
   },
   "targetGroups": [
     "B",
     "C1",
-    "C2"
+    "C2",
+    "AP"
   ],
   "include": [
     "FUNCIONARIO_CARRERA",
     "FUNCIONARIO_INTERINO",
     "PERSONAL_LABORAL",
-    "BOLSA"
+    "BOLSA",
+    "PERSONAL_LABORAL_TEMPORAL",
+    "OFERTA_EMPLEO_PUBLICO"
   ],
   "exclude": [
     "PROMOCION_INTERNA_EXCLUSIVA",
@@ -53,7 +57,14 @@
     "programación",
     "soporte",
     "técnico auxiliar",
-    "técnico superior"
+    "técnico superior",
+    "auxiliar ayuda a domicilio",
+    "jardinería",
+    "peón",
+    "conserje",
+    "ordenanza",
+    "subalterno",
+    "otros puestos accesibles con la titulación"
   ],
   "compatibilityPolicy": "No marcar CUMPLE únicamente por el grupo. CUMPLE exige que la titulación publicada sea compatible; si no se han leído las bases, usar REVISAR."
 }
