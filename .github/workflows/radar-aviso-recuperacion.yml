@@ -1,0 +1,33 @@
+name: Radar aviso de recuperación
+on:
+  push:
+    paths:
+      - .github/workflows/radar-aviso-recuperacion.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  avisar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node tests/radar-fixtures.mjs
+      - run: node tools/radar.mjs
+      - name: Enviar novedades
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RADAR_EMAIL: ${{ secrets.RADAR_EMAIL }}
+          RADAR_FROM: ${{ secrets.RADAR_FROM }}
+        run: node tools/radar-notify.mjs
+      - name: Publicar radar
+        run: |
+          git config user.name "opoweb-radar[bot]"
+          git config user.email "opoweb-radar[bot]@users.noreply.github.com"
+          git add data/radar.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(radar): publicar oportunidades detectadas"
+            git push
+          fi
