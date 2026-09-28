@@ -47,3 +47,21 @@ const found=merge({opportunities:[]},[{...boe[0],source:'BOE'},{...bocm[0],sourc
 assert.equal(found.length,2);assert(found.every(x=>x.isNew&&x.compatibility==='REVISAR'&&x.state==='REVISAR'));
 assert(merge({opportunities:found},[{...boe[0],source:'BOE'}],'2026-09-27').every(x=>!x.isNew));
 console.log('Radar fixtures OK');
+// Broad intake: no profession whitelist; temporary opportunities also count.
+for(const title of [
+ 'Bolsa de trabajo de limpieza en Parla',
+ 'Contratación temporal de socorrista en Getafe',
+ 'Oferta de sustitución de electricista en Toledo',
+ 'Selección de personal de mantenimiento en Leganés',
+ 'Convocatoria de plazas de bombero C1 en Toledo',
+ 'Convocatoria de una plaza de técnico de prevención de riesgos laborales en Toledo',
+ 'Plan de empleo para peones en Toledo'
+])assert(classify(title),title);
+assert.equal(classify('Lista definitiva de admitidos a bolsa de limpieza en Parla'),null);
+const local={source:'BOP Toledo',id:'test-yuncos',title:'Bolsa de trabajo para sustituciones de limpieza',context:'AYUNTAMIENTO DE YUNCOS',url:'https://bop.diputoledo.es/example'};
+const initial=merge({opportunities:[]},[local],'2026-09-28');
+assert.equal(initial.length,1);assert.equal(initial[0].zone,'TOLEDO');
+assert.equal(merge({opportunities:initial},[local],'2026-09-29')[0].isNew,false);
+assert.equal(merge({opportunities:initial},[],'2026-09-29')[0].isNew,false);
+assert.equal(pagEntries(pagXml.replace('ACCESO LIBRE','PERSONAL TEMPORAL'),'28').length,1);
+console.log('Cobertura de bolsas, sustituciones, oficios y avisos solo nuevos OK');

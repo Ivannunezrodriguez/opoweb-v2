@@ -73,9 +73,11 @@ const results=await Promise.allSettled([
 ]);
 const successes=results.filter(x=>x.status==='fulfilled');
 for(const [i,result] of results.entries())if(result.status==='rejected')console.error(['BOE','BOCM','BOP Toledo','DOCM','PAG'][i],result.reason);
-if(successes.length!==results.length)throw new Error('Una fuente oficial no respondió. Se conserva el radar anterior para evitar una actualización incompleta.');
+if(!successes.length)throw new Error('Ninguna fuente respondió. Se conserva el radar anterior.');
+const sourceNames=['BOE','BOCM','BOP Toledo','DOCM','PAG'];
+const sourceStatus=results.map((result,i)=>({source:sourceNames[i],ok:result.status==='fulfilled',checkedAt:now.toISOString()}));
 const entries=successes.flatMap(x=>x.value);
 if(!entries.length)throw new Error('Las fuentes respondieron sin anuncios; se conserva el radar anterior.');
 const opportunities=merge(previous,entries,date);
-await fs.writeFile(out,JSON.stringify({...previous,generatedAt:date,opportunities},null,2)+'\n');
+await fs.writeFile(out,JSON.stringify({...previous,generatedAt:date,sourceStatus,opportunities},null,2)+'\n');
 console.log(`Radar: ${entries.length} anuncios consultados; ${opportunities.length} candidatos; ${opportunities.filter(x=>x.isNew).length} nuevos`);
