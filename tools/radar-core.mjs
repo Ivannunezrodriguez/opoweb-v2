@@ -1,20 +1,24 @@
 import {createHash} from 'node:crypto';
 
-const roles=/auxiliar(?:es)? administrativ|administrativ[oa]s?|inform[aá]tic|programador|desarrollador|sistemas|soporte inform[aá]tic|t[eé]cnic[oa] auxiliar|t[eé]cnic[oa] superior|gesti[oó]n administrativa/i;
-const hiring=/convoc|plazas?|procesos? selectiv|bolsa|lista de espera|interin|oposici[oó]n|concurso.oposici[oó]n/i;
+const roles=/auxiliar(?:es)? administrativ|administrativ[oa]s?|inform[aá]tic|programador|desarrollador|sistemas|soporte inform[aá]tic|t[eé]cnic[oa] auxiliar|t[eé]cnic[oa] superior|gesti[oó]n administrativa|auxiliar(?:es)? de ayuda a domicilio|pe[oó]n(?:es)? de jardiner[ií]a|jardiner[oa]|conserje|ordenanza|subaltern/i;
+const hiring=/convoc|plazas?|procesos? selectiv|bolsa|lista de espera|interin|oposici[oó]n|concurso.oposici[oó]n|oferta de empleo p[uú]blico|\bOEP\b|contrataci[oó]n|selecci[oó]n de personal/i;
+const job=/plazas?|puesto(?:s)? de trabajo|empleo p[uú]blico|\bOEP\b|bolsa|lista de espera|personal laboral|interin|contrataci[oó]n|proceso selectiv|oposici[oó]n/i;
+const ineligible=/\bA[12]\b|grupo A|subgrupo A|m[eé]dic[oa]|enfermer[oa]|abogad[oa]|arquitect[oa]|ingenier[oa]|psic[oó]log[oa]|docente|profesor[ae]?|polic[ií]a|bomber[oa]|notari|magistrad/i;
 const followup=/admitid|excluid|subsanaci[oó]n|tribunal|calificaci[oó]n|resultado|fecha de examen|nombramiento/i;
-const excluded=/provisi[oó]n de puestos|concurso de traslados|libre designaci[oó]n|comisi[oó]n de servicios|oposiciones? a notari|cuerpo de magistrad/i;
+const excluded=/provisi[oó]n de puestos|concurso de traslados|libre designaci[oó]n|comisi[oó]n de servicios|oposiciones? a notari|cuerpo de magistrad|subasta|licitaci[oó]n|t[eé]cnic[oa] de prevenci[oó]n de riesgos laborales/i;
 const madrid=/getafe|legan[eé]s|fuenlabrada|m[oó]stoles|alcorc[oó]n|parla|pinto|valdemoro|aranjuez|humanes|griñ[oó]n|torrej[oó]n de la calzada|torrej[oó]n de velasco|ciempozuelos|navalcarnero|universidad carlos iii de madrid|universidad rey juan carlos/i;
 const toledo=/toledo|illescas|seseña|talavera|puebla de montalb[aá]n|ventas con peña aguilera/i;
-export function classify(title, context='') {
+export function classify(title, context='', details='') {
  const s=`${title} ${context}`;
- if(!roles.test(title)||!hiring.test(title)||excluded.test(s)||followup.test(title))return null;
+ if(!hiring.test(title)||!job.test(title)||excluded.test(s)||followup.test(title)||ineligible.test(title)||/becas?|subvenciones?|premios?/i.test(title))return null;
+ if(!roles.test(title)&&!/(?:plazas?|puestos?|personal|bolsa|empleo|contrataci[oó]n|interin)/i.test(title))return null;
  if(/promoci[oó]n interna|turno interno/i.test(title)&&!/acceso libre|turno libre/i.test(title))return null;
  // An autonomous-community-wide or national call needs verified workplace, not just its headquarters.
  const zone=madrid.test(s)?'MADRID_SUR':toledo.test(s)?'TOLEDO':null;
  if(!zone)return null;
- const group=/\bC1\b/i.test(title)?'C1':/\bC2\b/i.test(title)?'C2':/grupo B|subgrupo B/i.test(title)?'B':'REVISAR';
- return {zone,group,state:'REVISAR',compatibility:'REVISAR',reason:'Coincidencia en un anuncio oficial. Comprueba destino, acceso, titulación y plazo en las bases.'};
+ const group=/\bC1\b/i.test(title+' '+details)?'C1':/\bC2\b/i.test(title+' '+details)?'C2':/grupo B|subgrupo B/i.test(title+' '+details)?'B':'REVISAR';
+ const offer=/oferta de empleo p[uú]blico|\bOEP\b/i.test(title);
+ return {zone,group,state:offer?'PREVISTA':'REVISAR',compatibility:'REVISAR',reason:offer?'Plaza incluida en una oferta de empleo. Aún debe publicarse la convocatoria y abrirse el plazo.':'Coincidencia en un anuncio oficial. Comprueba destino, acceso, titulación y plazo en las bases.'};
 }
 export function boeEntries(json){
  const found=[];
@@ -40,7 +44,7 @@ export function fingerprint(x){return createHash('sha256').update(`${x.source}:$
 export function merge(previous,entries,date){
  const byId=new Map((previous.opportunities||[]).map(x=>[x.id,{...x,isNew:false}]));
  for(const entry of entries){
-  const match=classify(entry.searchText||entry.title,entry.context);
+  const match=classify(entry.title,entry.context,entry.searchText||'');
   if(!match)continue;
   const id=fingerprint(entry),old=byId.get(id);
   byId.set(id,{id,title:entry.title,organism:entry.context||'Consultar anuncio',location:match.zone==='TOLEDO'?'Toledo (verificar destino)':'Madrid sur (verificar destino)',...match,category:'Empleo público',vacancies:entry.vacancies??null,deadline:entry.deadline??null,access:entry.access||'Revisar bases',qualification:entry.qualification||'Revisar bases',source:entry.source,officialUrl:entry.url,verifiedAt:date,firstSeen:old?.firstSeen||date,isNew:!old});
@@ -88,10 +92,11 @@ export function boeBody(html){
 export function boeVacancyEntries(item,html){
  const block=html.match(/<div id="textoxslt">([\s\S]*?)<\/div>/i)?.[1]||'';
  const paragraphs=[...block.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)].map(([,p])=>decode(p));
- return paragraphs.filter(p=>/\bplazas? de\b/i.test(p)&&roles.test(p)&&!excluded.test(p)&&!/promoci[oó]n interna|turno interno/i.test(p)).map(p=>({
+ return paragraphs.filter(p=>/\bplazas? de\b/i.test(p)&&!ineligible.test(p)&&!excluded.test(p)&&!/promoci[oó]n interna|turno interno/i.test(p)).map(p=>({
   ...item,
   id:`${item.id}-${createHash('sha256').update(p).digest('hex').slice(0,10)}`,
   title:`${item.title} — ${p.slice(0,240)}`,
+  deadline:html.includes('plazo de presentación de solicitudes')? 'Consultar plazo en BOE':null,
   searchText:`${item.title} ${p}`
  }));
 }

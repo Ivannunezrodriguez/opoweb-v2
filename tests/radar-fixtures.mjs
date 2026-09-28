@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {classify,boeEntries,bocmEntries,bopEntries,docmEntries,boeBody,boeVacancyEntries,pagEntries,merge} from '../tools/radar-core.mjs';
 const profile=JSON.parse(fs.readFileSync('data/radar-profile.json','utf8'));
-assert.deepEqual(profile.targetGroups,['B','C1','C2']);
+assert.deepEqual(profile.targetGroups,['B','C1','C2','AP']);
 assert.equal(profile.zones.toledo.mode,'PROVINCIA_COMPLETA');
 const titles=[
  ['Resolución del Ayuntamiento de La Puebla de Montalbán (Toledo), referente a la convocatoria para proveer cuatro plazas de Auxiliar Administrativo.',true],
@@ -15,6 +15,8 @@ const titles=[
  ['Convocatoria para plazas de Administrativo C1 en Zaragoza.',false]
 ];
 for(const [title,expected] of titles)assert.equal(Boolean(classify(title)),expected,title);
+assert.equal(classify('Resolución del Ayuntamiento de Las Herencias (Toledo), referente a la convocatoria para proveer una plaza. — Una plaza de Auxiliar de ayuda a domicilio a tiempo parcial, personal laboral fijo, turno libre.')?.zone,'TOLEDO');
+assert.equal(classify('Anuncio del Ayuntamiento de Malpica de Tajo (Toledo) sobre aprobación de la Oferta de Empleo Público para una plaza de peón de jardinería','', 'Subgrupo C2')?.state,'PREVISTA');
 const boe=boeEntries({data:{sumario:{diario:[{seccion:[{nombre:'Oposiciones y concursos',departamento:[{nombre:'Ayuntamiento de Toledo',epigrafe:[{item:[{identificador:'BOE-A-2026-14274',titulo:titles[0][0],url_html:'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14274'}]}]}]}]}]}}});
 assert.equal(boe.length,1);assert.match(boe[0].context,/Toledo/);
 const bocm=bocmEntries('<rss><channel><item><link>https://www.bocm.es/bocm-20260926-1</link><description>&lt;p&gt;Convocatoria de plazas de Auxiliar Administrativo en Getafe&lt;/p&gt;</description></item></channel></rss>');
@@ -25,7 +27,7 @@ const docm=docmEntries('<h4 class="tituloOrganismo">Universidad de Castilla-La M
 assert.equal(docm.length,1);assert.match(docm[0].url,/verArchivoHtml/);
 const ventas='Resolución de 24 de junio de 2026, del Ayuntamiento de Las Ventas con Peña Aguilera (Toledo), referente a la convocatoria para proveer una plaza.';
 const ventasBody=boeBody('<div id="textoxslt"><p>Una plaza de Auxiliar Administrativo-Administrativa, por el sistema de concurso-oposición, en turno libre.</p></div>');
-assert.equal(classify(ventas),null);
+assert.equal(classify(ventas)?.zone,'TOLEDO');
 assert.equal(classify(`${ventas} ${ventasBody}`)?.zone,'TOLEDO');
 // Published 2026 cases: a generic BOE headline can include several access routes.
 const diputacion='Resolución de 26 de junio de 2026, de la Diputación Provincial de Toledo, referente a la convocatoria para proveer varias plazas.';
