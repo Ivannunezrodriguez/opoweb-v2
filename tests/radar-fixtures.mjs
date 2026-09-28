@@ -65,3 +65,7 @@ assert.equal(merge({opportunities:initial},[local],'2026-09-29')[0].isNew,false)
 assert.equal(merge({opportunities:initial},[],'2026-09-29')[0].isNew,false);
 assert.equal(pagEntries(pagXml.replace('ACCESO LIBRE','PERSONAL TEMPORAL'),'28').length,1);
 console.log('Cobertura de bolsas, sustituciones, oficios y avisos solo nuevos OK');
+const regional=merge({opportunities:[]},[{source:'DIRECT',id:'regional-test',title:'Convocatoria bolsa de personal de limpieza',context:'Comunidad de Madrid',scopeZone:'MADRID_SUR',location:'Comunidad de Madrid: comprobar destino Madrid sur',url:'https://www.comunidad.madrid/convocatoria-test'}],'2026-09-28');
+assert.equal(regional.length,1);assert.match(regional[0].location,/comprobar destino/);
+const sameOfficial=merge({opportunities:found},[{...boe[0],source:'DIRECT',id:'another-id'}],'2026-09-28');
+assert.equal(sameOfficial.length,found.length);assert(sameOfficial.every(x=>!x.isNew));

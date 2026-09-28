@@ -1,0 +1,1851 @@
+{
+  "schemaVersion": 1,
+  "directoryUrl": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos",
+  "sources": [
+    {
+      "id": "76d8ca9dfe84d69a",
+      "name": "Toledo municipal",
+      "url": "https://www.toledo.es/el-ayuntamiento/empleo-publico/",
+      "location": "Toledo",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.toledo.es/el-ayuntamiento/empleo-publico/"
+    },
+    {
+      "id": "3a69691b4200f33b",
+      "name": "Diputación de Toledo",
+      "url": "https://www.diputoledo.es/global/50/304/6699/destacados-rrhh",
+      "location": "Toledo",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/50/304/6699/destacados-rrhh"
+    },
+    {
+      "id": "12445bfb77d4c243",
+      "name": "Getafe",
+      "url": "https://sede.getafe.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_EMPLEO_EMPLEO",
+      "location": "Getafe",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://sede.getafe.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&PAGE_CODE=PTS2_EMPLEO_EMPLEO"
+    },
+    {
+      "id": "48c29ca74373f308",
+      "name": "Leganés",
+      "url": "https://www.leganes.org/bolsas-vigentes",
+      "location": "Leganés",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.leganes.org/bolsas-vigentes"
+    },
+    {
+      "id": "e1627ab8f5550caa",
+      "name": "Fuenlabrada",
+      "url": "https://convocapub.ayto-fuenlabrada.es/",
+      "location": "Fuenlabrada",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://convocapub.ayto-fuenlabrada.es/"
+    },
+    {
+      "id": "a86f35f2cb770538",
+      "name": "Móstoles",
+      "url": "https://mostoles.convoca.online/",
+      "location": "Móstoles",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://mostoles.convoca.online/"
+    },
+    {
+      "id": "1c3f9ae28d87abb0",
+      "name": "Alcorcón",
+      "url": "https://www.ayto-alcorcon.es/es/servicios/recursos-humanos",
+      "location": "Alcorcón",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.ayto-alcorcon.es/es/servicios/recursos-humanos"
+    },
+    {
+      "id": "a0db7ffbac721751",
+      "name": "Parla",
+      "url": "https://sede.ayuntamientoparla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000116277475407756&PAGE_CODE=CATALOGO",
+      "location": "Parla",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://sede.ayuntamientoparla.es/sta/CarpetaPublic/doEvent?APP_CODE=STA&DETALLE=6269000116277475407756&PAGE_CODE=CATALOGO"
+    },
+    {
+      "id": "22b9e34b11962124",
+      "name": "Pinto",
+      "url": "https://empleo.ayto-pinto.es/ofertas-de-empleo-publico",
+      "location": "Pinto",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://empleo.ayto-pinto.es/ofertas-de-empleo-publico"
+    },
+    {
+      "id": "6a6895a33405fc78",
+      "name": "Valdemoro",
+      "url": "https://sede.valdemoro.es/tablon-de-anuncios",
+      "location": "Valdemoro",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://sede.valdemoro.es/tablon-de-anuncios"
+    },
+    {
+      "id": "669c3a0457695da6",
+      "name": "Aranjuez",
+      "url": "https://www.aranjuez.es/ofertas-de-empleo-publico/",
+      "location": "Aranjuez",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.aranjuez.es/ofertas-de-empleo-publico/"
+    },
+    {
+      "id": "4560040eb2e2094c",
+      "name": "Humanes",
+      "url": "https://ayto-humanesdemadrid.es/menu-concejalias/empleo-formacion-concejalia/",
+      "location": "Humanes de Madrid",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://ayto-humanesdemadrid.es/menu-concejalias/empleo-formacion-concejalia/"
+    },
+    {
+      "id": "4a67f86554c9e29f",
+      "name": "Griñón",
+      "url": "https://grinon.sedelectronica.es/info.0",
+      "location": "Griñón",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://grinon.sedelectronica.es/info.0"
+    },
+    {
+      "id": "f770406bb92dfd01",
+      "name": "Torrejón de la Calzada",
+      "url": "https://aytotorrejoncalzada.sedelectronica.es/info.0",
+      "location": "Torrejón de la Calzada",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://aytotorrejoncalzada.sedelectronica.es/info.0"
+    },
+    {
+      "id": "d8bff30da7a2875f",
+      "name": "Torrejón de Velasco",
+      "url": "https://www.ayto-torrejondevelasco.es/areas-municipales/trabajo/formacion-y-empleo",
+      "location": "Torrejón de Velasco",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.ayto-torrejondevelasco.es/areas-municipales/trabajo/formacion-y-empleo"
+    },
+    {
+      "id": "fe6eaee1d362165a",
+      "name": "Ciempozuelos",
+      "url": "https://ayto-ciempozuelos.org/index.php/convocatorias-de-empleo-publico/",
+      "location": "Ciempozuelos",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://ayto-ciempozuelos.org/index.php/convocatorias-de-empleo-publico/"
+    },
+    {
+      "id": "d81eab38678fab6e",
+      "name": "Ciempozuelos tablón",
+      "url": "https://sede.ayto-ciempozuelos.org/eAdmin/Tablon.do?action=inicioTablon",
+      "location": "Ciempozuelos",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://sede.ayto-ciempozuelos.org/eAdmin/Tablon.do?action=inicioTablon"
+    },
+    {
+      "id": "7796db379399c6a2",
+      "name": "Navalcarnero",
+      "url": "https://navalcarnero.es/navalcarnero/tablondeanuncios/ofertas-de-empleo-publico/",
+      "location": "Navalcarnero",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://navalcarnero.es/navalcarnero/tablondeanuncios/ofertas-de-empleo-publico/"
+    },
+    {
+      "id": "63110f68fb2bb436",
+      "name": "SESCAM extraordinarias",
+      "url": "https://sanidad.castillalamancha.es/profesionales/atencion-al-profesional/bolsas-constituidas",
+      "location": "Castilla-La Mancha: comprobar destino Toledo",
+      "kind": "regional",
+      "maxPages": 5,
+      "provenance": "https://sanidad.castillalamancha.es/profesionales/atencion-al-profesional/bolsas-constituidas"
+    },
+    {
+      "id": "e279ead3259e2dc6",
+      "name": "JCCM bolsas",
+      "url": "https://empleopublico.castillalamancha.es/bolsas/buscador-bolsas-trabajo",
+      "location": "Castilla-La Mancha: comprobar destino Toledo",
+      "kind": "regional",
+      "maxPages": 5,
+      "provenance": "https://empleopublico.castillalamancha.es/bolsas/buscador-bolsas-trabajo"
+    },
+    {
+      "id": "1b687b37f558575f",
+      "name": "SERMAS",
+      "url": "https://www.comunidad.madrid/salud/recursos-humanos-servicio-madrileno-salud",
+      "location": "Comunidad de Madrid: comprobar destino Madrid sur",
+      "kind": "regional",
+      "maxPages": 5,
+      "provenance": "https://www.comunidad.madrid/salud/recursos-humanos-servicio-madrileno-salud"
+    },
+    {
+      "id": "e89d3df4d3544dc4",
+      "name": "Madrid bolsas",
+      "url": "https://www.comunidad.madrid/empleo/bolsas-empleo-temporal-administracion-servicios",
+      "location": "Comunidad de Madrid: comprobar destino Madrid sur",
+      "kind": "regional",
+      "maxPages": 5,
+      "provenance": "https://www.comunidad.madrid/empleo/bolsas-empleo-temporal-administracion-servicios"
+    },
+    {
+      "id": "4c93b5cc18a16956",
+      "name": "Madrid bolsas abiertas",
+      "url": "https://www.comunidad.madrid/empleo/bolsas-unicas-permanentemente-abiertas",
+      "location": "Comunidad de Madrid: comprobar destino Madrid sur",
+      "kind": "regional",
+      "maxPages": 5,
+      "provenance": "https://www.comunidad.madrid/empleo/bolsas-unicas-permanentemente-abiertas"
+    },
+    {
+      "id": "68eb2d87ebd22172",
+      "name": "Madrid centros docentes",
+      "url": "https://www.comunidad.madrid/empleo/bolsas-trabajo-personal-laboral-centros-docentes",
+      "location": "Comunidad de Madrid: comprobar destino Madrid sur",
+      "kind": "regional",
+      "maxPages": 5,
+      "provenance": "https://www.comunidad.madrid/empleo/bolsas-trabajo-personal-laboral-centros-docentes"
+    },
+    {
+      "id": "d27888ae72623b05",
+      "name": "Madrid interinos",
+      "url": "https://www.comunidad.madrid/gobierno/espacios-profesionales/funcionarios-interinos-no-docentes",
+      "location": "Comunidad de Madrid: comprobar destino Madrid sur",
+      "kind": "regional",
+      "maxPages": 5,
+      "provenance": "https://www.comunidad.madrid/gobierno/espacios-profesionales/funcionarios-interinos-no-docentes"
+    },
+    {
+      "id": "70e85698cf5cb23d",
+      "name": "UC3M empleo",
+      "url": "https://www.uc3m.es/empleo/pas",
+      "location": "UC3M: comprobar campus Getafe o Leganés",
+      "kind": "university",
+      "maxPages": 5,
+      "provenance": "https://www.uc3m.es/empleo/pas"
+    },
+    {
+      "id": "8f234d4498426cd8",
+      "name": "UC3M bolsas",
+      "url": "https://www.uc3m.es/empleo/consulta_bolsas_trabajo_pas",
+      "location": "UC3M: comprobar campus Getafe o Leganés",
+      "kind": "university",
+      "maxPages": 5,
+      "provenance": "https://www.uc3m.es/empleo/consulta_bolsas_trabajo_pas"
+    },
+    {
+      "id": "5dd2fb375be58f24",
+      "name": "URJC empleo",
+      "url": "https://www.urjc.es/empleo-publico",
+      "location": "URJC: comprobar campus del sur de Madrid",
+      "kind": "university",
+      "maxPages": 5,
+      "provenance": "https://www.urjc.es/empleo-publico"
+    },
+    {
+      "id": "cb7f0ae6635ee861",
+      "name": "UCLM tablón",
+      "url": "https://www.sede.uclm.es/eAdmin/Tablon.do?action=verAnuncios",
+      "location": "UCLM: comprobar destino Toledo o Talavera",
+      "kind": "university",
+      "maxPages": 5,
+      "provenance": "https://www.sede.uclm.es/eAdmin/Tablon.do?action=verAnuncios"
+    },
+    {
+      "id": "283e9b483d86183e",
+      "name": "UCLM bolsas",
+      "url": "https://convocatorias.rrhh.uclm.es/bolsas_trabajo.aspx",
+      "location": "UCLM: comprobar destino Toledo o Talavera",
+      "kind": "university",
+      "maxPages": 5,
+      "provenance": "https://convocatorias.rrhh.uclm.es/bolsas_trabajo.aspx"
+    },
+    {
+      "id": "6cb7fabf63938b15",
+      "name": "GEACAM",
+      "url": "https://www.geacam.es/empleo/",
+      "location": "Castilla-La Mancha: comprobar destino Toledo",
+      "kind": "public_company",
+      "maxPages": 5,
+      "provenance": "https://www.geacam.es/empleo/"
+    },
+    {
+      "id": "c5cbb3c84f5e5e86",
+      "name": "GICAMAN",
+      "url": "https://gicaman.es/",
+      "location": "Castilla-La Mancha: comprobar destino Toledo",
+      "kind": "public_company",
+      "maxPages": 5,
+      "provenance": "https://gicaman.es/"
+    },
+    {
+      "id": "0a4ab5ab01a2ef0bb710184a",
+      "name": "AJOFRÍN",
+      "url": "http://www.ajofrin.es",
+      "location": "AJOFRÍN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "dba2a8af39fa675bc9964173",
+      "name": "ALAMEDA DE LA SAGRA",
+      "url": "http://www.aytoalamedasagra.com",
+      "location": "ALAMEDA DE LA SAGRA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "398e1537b31e55762687f89b",
+      "name": "ALBARREAL DE TAJO",
+      "url": "http://albarrealdetajo.es",
+      "location": "ALBARREAL DE TAJO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d1a23c9ab5f36a79cba25f27",
+      "name": "ALCABÓN",
+      "url": "http://alcabon.es",
+      "location": "ALCABÓN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "241b5c22d5250d9541c9b17a",
+      "name": "ALCAÑIZO",
+      "url": "http://alcanizo.org",
+      "location": "ALCAÑIZO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "03a66f33607d299d04994179",
+      "name": "ALCAUDETE DE LA JARA",
+      "url": "http://alcaudetedelajara.es",
+      "location": "ALCAUDETE DE LA JARA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "2971cd0e6213097bc2506837",
+      "name": "ALCOLEA DE TAJO",
+      "url": "http://alcoleadetajo.com",
+      "location": "ALCOLEA DE TAJO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "a24f800c91c556d65bebc80b",
+      "name": "ALDEANUEVA DE BARBARROYA",
+      "url": "http://aldeanuevadebarbarroya.org",
+      "location": "ALDEANUEVA DE BARBARROYA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "b62251f805a047ea338f0f56",
+      "name": "ALDEANUEVA DE SAN BARTOLOMÉ",
+      "url": "http://aldeanovita.es",
+      "location": "ALDEANUEVA DE SAN BARTOLOMÉ (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d2bfc56201a758f678d3ef98",
+      "name": "ALMENDRAL DE LA CAÑADA",
+      "url": "http://www.almendraldelacanada.es",
+      "location": "ALMENDRAL DE LA CAÑADA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "7f5a3ad092f0bc49524a8e56",
+      "name": "ALMONACID DE TOLEDO",
+      "url": "http://almonaciddetoledo.es",
+      "location": "ALMONACID DE TOLEDO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "40cc0236dc070d75c31662a5",
+      "name": "ALMOROX",
+      "url": "http://almorox.es",
+      "location": "ALMOROX (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "92df1e003b0df991bbf4d261",
+      "name": "AÑOVER DE TAJO",
+      "url": "http://anoverdetajo.es",
+      "location": "AÑOVER DE TAJO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "6bb1654fb64e5097a6830a68",
+      "name": "ARCICÓLLAR",
+      "url": "http://aytoarcicollar.es",
+      "location": "ARCICÓLLAR (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "4254b7f5f054161acb0eec51",
+      "name": "ARGÉS",
+      "url": "http://arges.es",
+      "location": "ARGÉS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "a61041d258f38dbbfa1b8d42",
+      "name": "ARISGOTAS (*)",
+      "url": "http://ayto-orgaz.es",
+      "location": "ARISGOTAS (*) (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "f7d270899ab4532a68e78336",
+      "name": "BARCIENCE",
+      "url": "http://barcience.com",
+      "location": "BARCIENCE (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "7f65ede6da6c9a4ed1eb8434",
+      "name": "BARGAS",
+      "url": "http://bargas.es",
+      "location": "BARGAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "2ac2eb5ee640fad7ff178f5c",
+      "name": "BELVÍS DE LA JARA",
+      "url": "http://belvisdelajara.org",
+      "location": "BELVÍS DE LA JARA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "2971cd0e6213097bc2506837",
+      "name": "BERCIAL, EL (*)",
+      "url": "http://alcoleadetajo.com",
+      "location": "BERCIAL, EL (*) (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "885557432fa3dd55ba4eb6be",
+      "name": "BOROX",
+      "url": "http://ayuntamientodeborox.com",
+      "location": "BOROX (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "3662212cdc596fd1c2c6f45d",
+      "name": "BUENAVENTURA",
+      "url": "http://aytobuenaventura.es",
+      "location": "BUENAVENTURA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "75817968efde77c9d0f936a5",
+      "name": "BURGUILLOS DE TOLEDO",
+      "url": "http://burguillosdetoledo.org",
+      "location": "BURGUILLOS DE TOLEDO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "3ab85b990c2ba7a944e13525",
+      "name": "BURUJÓN",
+      "url": "http://burujon.es",
+      "location": "BURUJÓN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "9a542f513bf6bc441acdb7aa",
+      "name": "CABAÑAS DE LA SAGRA",
+      "url": "http://cabanasdelasagra.com",
+      "location": "CABAÑAS DE LA SAGRA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "5c2c09257c9d9745076202ac",
+      "name": "CALERA Y CHOZAS",
+      "url": "http://caleraychozas.com",
+      "location": "CALERA Y CHOZAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d92e0c0d48f024e32c405920",
+      "name": "CALERUELA",
+      "url": "http://caleruela.org",
+      "location": "CALERUELA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "10138252fa28d272e43fdd52",
+      "name": "CALZADA DE OROPESA, LA",
+      "url": "http://lacalzadadeoropesa.es",
+      "location": "CALZADA DE OROPESA, LA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "a843f3d6756b17d54fd4fb46",
+      "name": "CAMARENA",
+      "url": "http://ayto-camarena.com",
+      "location": "CAMARENA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "460795f33acca67708eb484d",
+      "name": "CAMARENILLA",
+      "url": "http://aytocamarenilla.org",
+      "location": "CAMARENILLA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "9d4833448fc340f9a3639b43",
+      "name": "CAMUÑAS",
+      "url": "http://camunas.es",
+      "location": "CAMUÑAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "425bc2cb3a4887b472f6a83f",
+      "name": "CARMENA",
+      "url": "http://ayuntamientocarmena.com",
+      "location": "CARMENA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "079e3a4300d1cc094ed14b42",
+      "name": "CARPIO DE TAJO, EL",
+      "url": "http://elcarpiodetajo.es",
+      "location": "CARPIO DE TAJO, EL (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "8587a45efb55564a8af40d15",
+      "name": "CARRANQUE",
+      "url": "http://carranque.es",
+      "location": "CARRANQUE (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "4ebe36124607d0d66d32bd32",
+      "name": "CASAR DE ESCALONA, EL",
+      "url": "http://casarescalona.es",
+      "location": "CASAR DE ESCALONA, EL (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "a6f59d425fca3d95877aa606",
+      "name": "CASARRUBIOS DEL MONTE",
+      "url": "http://casarrubiosdelmonte.es",
+      "location": "CASARRUBIOS DEL MONTE (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "cf6a1f3251a710af0c373bc2",
+      "name": "CAZALEGAS",
+      "url": "http://cazalegas.es",
+      "location": "CAZALEGAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "c2686126f97f3da7a85a8514",
+      "name": "CEBOLLA",
+      "url": "http://ayuntamientodecebolla.com",
+      "location": "CEBOLLA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "5d758be60ea2f4ccfb3c6c90",
+      "name": "CEDILLO DEL CONDADO",
+      "url": "http://cedillodelcondado.es",
+      "location": "CEDILLO DEL CONDADO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "5762d16ae382dbbd066b5e11",
+      "name": "CHOZAS DE CANALES",
+      "url": "http://aytochozasdecanales.es",
+      "location": "CHOZAS DE CANALES (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "11f1e524138526ac9f082b7e",
+      "name": "CIRUELOS",
+      "url": "http://ciruelos.es",
+      "location": "CIRUELOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "911247a32e543441327a6b34",
+      "name": "COBEJA",
+      "url": "http://aytocobeja.es",
+      "location": "COBEJA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "61201741c9b5dcaabd9861e7",
+      "name": "COBISA",
+      "url": "http://cobisa.es",
+      "location": "COBISA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d434ce23ad9a1dc079b128ab",
+      "name": "CONSUEGRA",
+      "url": "http://consuegra.es",
+      "location": "CONSUEGRA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "5a38d964921c1d393a176c05",
+      "name": "CORCHUELA (*)",
+      "url": "http://oropesadetoledo.es",
+      "location": "CORCHUELA (*) (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "afd5bb2fd4b40e589590a10d",
+      "name": "CORRAL DE ALMAGUER",
+      "url": "http://corraldealmaguer.es",
+      "location": "CORRAL DE ALMAGUER (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "5d320cccbe7b8303926257cb",
+      "name": "CUERVA",
+      "url": "http://www.cuerva.es",
+      "location": "CUERVA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "1c63ff5cc8f333de42b924c7",
+      "name": "DOSBARRIOS",
+      "url": "http://dosbarrios.com",
+      "location": "DOSBARRIOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "76633ef92209009abe7b4725",
+      "name": "ESCALONA",
+      "url": "http://escalona.es",
+      "location": "ESCALONA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "b101e905ad1eadec34393fa4",
+      "name": "ESPINOSO DEL REY",
+      "url": "http://espinosodelrey.es",
+      "location": "ESPINOSO DEL REY (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d53fd36a33bc236e069df5cd",
+      "name": "ESQUIVIAS",
+      "url": "http://esquivias.es",
+      "location": "ESQUIVIAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "953d74bcfc3df8ce9f908817",
+      "name": "FUENSALIDA",
+      "url": "http://fuensalida.com",
+      "location": "FUENSALIDA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "fda2a3f706408fe0f845eac1",
+      "name": "GÁLVEZ",
+      "url": "http://ayto-galvez.es",
+      "location": "GÁLVEZ (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "fdef6b8b028c3b3e9a7f6ed4",
+      "name": "GAMONAL (*)",
+      "url": "http://ayuntamientogamonal.org",
+      "location": "GAMONAL (*) (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "3bf76bfe1b147b80ee8d9943",
+      "name": "GARCIOTUM",
+      "url": "http://www.garciotum.com",
+      "location": "GARCIOTUM (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "3a615e45d78ade1a6f7b47d3",
+      "name": "GUADAMUR",
+      "url": "http://guadamur.es",
+      "location": "GUADAMUR (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "eb2fecb3448ef92631afa627",
+      "name": "GUARDIA, LA",
+      "url": "http://laguardiatoledo.es",
+      "location": "GUARDIA, LA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "b85868481bab06507609b968",
+      "name": "HERENCIAS, LAS",
+      "url": "http://lasherencias.es",
+      "location": "HERENCIAS, LAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d782ba08fce937d1e09d7409",
+      "name": "HERRERUELA DE OROPESA",
+      "url": "http://herrerueladeoropesa.org",
+      "location": "HERRERUELA DE OROPESA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "620510b46ab9aa779bbdf5d8",
+      "name": "HINOJOSA DE SAN VICENTE",
+      "url": "http://hinojosadesanvicente.com",
+      "location": "HINOJOSA DE SAN VICENTE (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "f400aba056d8fb516d11f18d",
+      "name": "HONTANAR",
+      "url": "http://hontanar.es",
+      "location": "HONTANAR (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "28a3762b74bea330ad23be61",
+      "name": "HORMIGOS",
+      "url": "http://ayuntamientohormigos.es",
+      "location": "HORMIGOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "598faab2541e82a9c92fa74a",
+      "name": "HUECAS",
+      "url": "http://huecas.es",
+      "location": "HUECAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "1ec2a9a1fcee578587895071",
+      "name": "HUNFRÍAS, LAS (*)",
+      "url": "http://valledelgevalo.es/",
+      "location": "HUNFRÍAS, LAS (*) (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "cbeca5e2a92cdf4a35b87bfc",
+      "name": "IGLESUELA DEL TIÉTAR, LA",
+      "url": "http://www.laiglesuela.es",
+      "location": "IGLESUELA DEL TIÉTAR, LA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "1849b249e2738c4fdaf82fc5",
+      "name": "ILLESCAS",
+      "url": "http://illescas.es",
+      "location": "ILLESCAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "a1fa57e4503bcac09309ba6c",
+      "name": "LAGARTERA",
+      "url": "http://lagartera.es",
+      "location": "LAGARTERA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "321beb6167d5429e6f09a03b",
+      "name": "LAYOS",
+      "url": "http://layos.org",
+      "location": "LAYOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "5b1fa4a3e26d64f8edbb681b",
+      "name": "LILLO",
+      "url": "http://aytodelillo.es",
+      "location": "LILLO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "76f7786f7c3c00082333fd98",
+      "name": "LOMINCHAR",
+      "url": "http://ayuntamiento-de-lominchar.es",
+      "location": "LOMINCHAR (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "291950a98acacbbd06b85db6",
+      "name": "MADRIDEJOS",
+      "url": "http://madridejos.es",
+      "location": "MADRIDEJOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d57b597836cfc5a4b0492f0b",
+      "name": "MAGÁN",
+      "url": "http://magan.es",
+      "location": "MAGÁN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "957a41e7c6143cf6abcff8ef",
+      "name": "MALPICA DE TAJO",
+      "url": "http://malpicadetajo.es",
+      "location": "MALPICA DE TAJO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d2acf4ece431f8f823b8565f",
+      "name": "MAQUEDA",
+      "url": "http://maqueda.es",
+      "location": "MAQUEDA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "7e996f2f318526462d35611a",
+      "name": "MASCARAQUE",
+      "url": "http://mascaraque.es",
+      "location": "MASCARAQUE (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "6fec20ffdeb743ea09be646e",
+      "name": "MATA, LA",
+      "url": "http://lamata.es",
+      "location": "MATA, LA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "a8d9d621ab0cb0dbe228e045",
+      "name": "MAZARAMBROZ",
+      "url": "http://aytomazarambroz.es",
+      "location": "MAZARAMBROZ (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "e51f85dafe6aa9c2cc19ab86",
+      "name": "MENASALBAS",
+      "url": "http://menasalbas.es",
+      "location": "MENASALBAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "0cee887bfe07ec80c9532399",
+      "name": "MÉNTRIDA",
+      "url": "http://www.mentrida.es",
+      "location": "MÉNTRIDA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "30e4aee33d5afd4ec4e5210c",
+      "name": "MIGUEL ESTEBAN",
+      "url": "http://miguelesteban.es",
+      "location": "MIGUEL ESTEBAN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "7dcde3d2bde25c37af654dfb",
+      "name": "MOCEJÓN",
+      "url": "http://mocejon.es",
+      "location": "MOCEJÓN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "eef6a93971f6588c884903c9",
+      "name": "MONTEARAGÓN",
+      "url": "http://ayuntamiento-de-montearagon.es/",
+      "location": "MONTEARAGÓN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d96febf9e5925282f97d75a1",
+      "name": "MONTESCLAROS",
+      "url": "http://ayuntamientodemontesclaros.com",
+      "location": "MONTESCLAROS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "ea1cc3e07b0d93bf5aa13bb6",
+      "name": "MORA",
+      "url": "http://mora.es",
+      "location": "MORA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "7d2aefd08f5df7a28a221dd1",
+      "name": "NAMBROCA",
+      "url": "http://nambroca.com",
+      "location": "NAMBROCA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "25ce98eb433811a9b18a815c",
+      "name": "NAVAHERMOSA",
+      "url": "http://navahermosa.es",
+      "location": "NAVAHERMOSA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d16204abb6ef630e28be8dd9",
+      "name": "NAVALCÁN",
+      "url": "http://navalcan.com",
+      "location": "NAVALCÁN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "c97f6ee21a8798b5a902e979",
+      "name": "NAVALMORALES, LOS",
+      "url": "http://www.losnavalmorales.es",
+      "location": "NAVALMORALES, LOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "1ec2a9a1fcee578587895071",
+      "name": "NAVALTORIL (*)",
+      "url": "http://valledelgevalo.es/",
+      "location": "NAVALTORIL (*) (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "2b8294a154cfe1078a57a9b2",
+      "name": "NAVALUCILLOS, LOS",
+      "url": "http://losnavalucillos.es",
+      "location": "NAVALUCILLOS, LOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "b3c3ac94e65ba92cece53993",
+      "name": "NOBLEJAS",
+      "url": "http://noblejas.es",
+      "location": "NOBLEJAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "c43eacdc08274a0b293928e0",
+      "name": "NOMBELA",
+      "url": "http://nombela.es",
+      "location": "NOMBELA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "7562cba5f5273a82132079da",
+      "name": "NOVÉS",
+      "url": "http://noves.es",
+      "location": "NOVÉS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "a998669df56b911ac58882de",
+      "name": "NUMANCIA DE LA SAGRA",
+      "url": "http://ayuntamientonumanciadelasagra.com",
+      "location": "NUMANCIA DE LA SAGRA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "63b4e08090c55372026087a5",
+      "name": "OCAÑA",
+      "url": "http://ocana.es",
+      "location": "OCAÑA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "f2342e6bc6635e0465cac01f",
+      "name": "OLÍAS DEL REY",
+      "url": "http://oliasdelrey.es",
+      "location": "OLÍAS DEL REY (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "10ed6e39cb8a3b127c4dd299",
+      "name": "ONTÍGOLA",
+      "url": "http://ontigola.es",
+      "location": "ONTÍGOLA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "a61041d258f38dbbfa1b8d42",
+      "name": "ORGAZ",
+      "url": "http://ayto-orgaz.es",
+      "location": "ORGAZ (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "a0baaac4dd838fb99239be73",
+      "name": "OROPESA",
+      "url": "http://oropesadetoledo.org",
+      "location": "OROPESA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "9a368e42ecae34391f180af2",
+      "name": "PALOMEQUE",
+      "url": "http://www.ayuntamientopalomeque.es",
+      "location": "PALOMEQUE (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "49f7d1211d6d3f14066b5c60",
+      "name": "PAREDES DE ESCALONA",
+      "url": "http://www.paredesdeescalona.es",
+      "location": "PAREDES DE ESCALONA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "8e47aa2ece8deacca5af2734",
+      "name": "PARRILLAS",
+      "url": "http://ayuntamientoparrillas.es",
+      "location": "PARRILLAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "f86692d57dbddaaa9c265ca8",
+      "name": "PEPINO",
+      "url": "http://ayto-pepino.com",
+      "location": "PEPINO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "1ec2a9a1fcee578587895071",
+      "name": "PIEDRAESCRITA (*)",
+      "url": "http://valledelgevalo.es/",
+      "location": "PIEDRAESCRITA (*) (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "83e005384c9cd7746bb8048f",
+      "name": "POLÁN",
+      "url": "http://aytopolan.es",
+      "location": "POLÁN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "69b73a0db0f6a462859e4d56",
+      "name": "PORTILLO DE TOLEDO",
+      "url": "http://portillodetoledo.es",
+      "location": "PORTILLO DE TOLEDO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "cfd732890748928360ac2c8c",
+      "name": "PUEBLA DE ALMORADIEL, LA",
+      "url": "http://lapuebladealmoradiel.es",
+      "location": "PUEBLA DE ALMORADIEL, LA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "151ed9f6271e491277dfe32c",
+      "name": "PUEBLA DE MONTALBÁN, LA",
+      "url": "http://pueblademontalban.com",
+      "location": "PUEBLA DE MONTALBÁN, LA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "c16688d6929ebe6e1700d6c9",
+      "name": "PUEBLANUEVA, LA",
+      "url": "http://www.aytopueblanueva.com",
+      "location": "PUEBLANUEVA, LA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d201f0b6cdf66bc58b7350c4",
+      "name": "PULGAR",
+      "url": "http://www.ayuntamientopulgar.es",
+      "location": "PULGAR (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "977abedc521729e2742cf246",
+      "name": "QUERO",
+      "url": "http://www.quero.es",
+      "location": "QUERO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "b56bae584956c6f732369765",
+      "name": "QUINTANAR DE LA ORDEN",
+      "url": "http://quintanardelaorden.es",
+      "location": "QUINTANAR DE LA ORDEN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "71c97a3bad6b48d7fd063147",
+      "name": "RECAS",
+      "url": "http://recas.es",
+      "location": "RECAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "1dff1ccce836a2e1e057caaf",
+      "name": "RIELVES",
+      "url": "http://aytorielves.es",
+      "location": "RIELVES (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "95a909c06a919b5caf7de051",
+      "name": "RINCONADA, LA (*)",
+      "url": "http://larinconadadetajo.es",
+      "location": "RINCONADA, LA (*) (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d11a16bc69943fbee99a4086",
+      "name": "ROBLEDILLO (*)",
+      "url": "http:// http://valledelgevalo.es/",
+      "location": "ROBLEDILLO (*) (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d11a16bc69943fbee99a4086",
+      "name": "ROBLEDO DEL MAZO",
+      "url": "http:// http://valledelgevalo.es/",
+      "location": "ROBLEDO DEL MAZO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "3e755a109ba1653d286c1b8b",
+      "name": "ROMERAL, EL",
+      "url": "http://elromeral.es",
+      "location": "ROMERAL, EL (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "45fee7c06451123ab6b180ee",
+      "name": "SAN BARTOLOMÉ DE LAS ABIERTAS",
+      "url": "http://ayun-sanbartolomedelasabiertas.com",
+      "location": "SAN BARTOLOMÉ DE LAS ABIERTAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "b9a3c3614c5897b10c95e7a0",
+      "name": "SAN MARTÍN DE MONTALBÁN",
+      "url": "http://sanmartindemontalban.com",
+      "location": "SAN MARTÍN DE MONTALBÁN (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "bccd3758ff16b07da56ad1c8",
+      "name": "SAN MARTÍN DE PUSA",
+      "url": "http://sanmartindepusa.com",
+      "location": "SAN MARTÍN DE PUSA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "c72cf5963118d232e4d0185d",
+      "name": "SAN PABLO DE LOS MONTES",
+      "url": "http://aytosanpablodelosmontes.es",
+      "location": "SAN PABLO DE LOS MONTES (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "e3c27376527f64f07116288d",
+      "name": "SAN ROMÁN DE LOS MONTES",
+      "url": "http://sanromandelosmontes.org",
+      "location": "SAN ROMÁN DE LOS MONTES (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "70358346406c5e760d744383",
+      "name": "SANTA ANA DE PUSA",
+      "url": "http://ayuntamientosantaanadepusa.es",
+      "location": "SANTA ANA DE PUSA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "8134c15ae2a0e271c36d2d40",
+      "name": "SANTA CRUZ DE LA ZARZA",
+      "url": "http://santacruzdelazarza.es",
+      "location": "SANTA CRUZ DE LA ZARZA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "5327167e56b049b905c6e0f4",
+      "name": "SANTA CRUZ DEL RETAMAR",
+      "url": "http://santacruzdelretamar.es ",
+      "location": "SANTA CRUZ DEL RETAMAR (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "630c828a63dc4f6b41655899",
+      "name": "SANTA OLALLA",
+      "url": "http://santaolalla.es",
+      "location": "SANTA OLALLA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "f680a8b9cc66202802f9da8f",
+      "name": "SANTO DOMINGO CAUDILLA",
+      "url": "http://santodomingo-caudilla.es",
+      "location": "SANTO DOMINGO CAUDILLA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "b454aa173fc3a1bcfa1bc0fe",
+      "name": "SESEÑA",
+      "url": "http://ayto-sesena.org",
+      "location": "SESEÑA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "44b6dcac3bcd03756464d625",
+      "name": "SONSECA",
+      "url": "http://sonseca.es",
+      "location": "SONSECA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "21c4ae9af272f8e65ee4b3b7",
+      "name": "TALAVERA DE LA REINA",
+      "url": "http://talavera.es",
+      "location": "TALAVERA DE LA REINA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d41ebbb14d74fc9d04d0ea0a",
+      "name": "TEMBLEQUE",
+      "url": "http://www.ayuntamientodetembleque.es",
+      "location": "TEMBLEQUE (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d15d4ddefb50863a43015eb6",
+      "name": "TOBOSO, EL",
+      "url": "http://eltoboso.es",
+      "location": "TOBOSO, EL (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "04c465e6c917be03b261cf51",
+      "name": "TOLEDO",
+      "url": "http://toledo.es",
+      "location": "TOLEDO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "c6086d94f8c173f8d53a6178",
+      "name": "TORRALBA DE OROPESA",
+      "url": "http://torralbadeoropesa.org",
+      "location": "TORRALBA DE OROPESA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "ff9779919ca5bbce2e121734",
+      "name": "TORRE DE ESTEBAN HAMBRÁN, LA",
+      "url": "http://latorredestebanhambran.es",
+      "location": "TORRE DE ESTEBAN HAMBRÁN, LA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "800766fe1431853493b2f717",
+      "name": "TORRICO",
+      "url": "http://eltorrico.com",
+      "location": "TORRICO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "489cd1deac3c3121adbbdf05",
+      "name": "TORRIJOS",
+      "url": "http://torrijos.es",
+      "location": "TORRIJOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "8b04dee1876825a68a88c39a",
+      "name": "TURLEQUE",
+      "url": "http://ayuntamiento.es/turleque",
+      "location": "TURLEQUE (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "002231eb229ec367b3db9811",
+      "name": "UGENA",
+      "url": "http://ugena.es",
+      "location": "UGENA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "00cb0f9d4007d7a6f6c4cb5a",
+      "name": "URDA",
+      "url": "http://urda.es",
+      "location": "URDA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "7908d12ee90f9786cd83eb32",
+      "name": "VALMOJADO",
+      "url": "http://valmojado.com",
+      "location": "VALMOJADO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "2bc49fc960c48d54540a473f",
+      "name": "VENTAS DE RETAMOSA, LAS",
+      "url": "http://lasventasderetamosa.es",
+      "location": "VENTAS DE RETAMOSA, LAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "040172bf934e6f995013ceb7",
+      "name": "VILLA DE DON FADRIQUE, LA",
+      "url": "http://villadonfadrique.com",
+      "location": "VILLA DE DON FADRIQUE, LA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "b32cc9fec38da5c32cb867a4",
+      "name": "VILLACAÑAS",
+      "url": "http://aytovillacanas.com",
+      "location": "VILLACAÑAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d6d8c10955fd9e0d942af142",
+      "name": "VILLAFRANCA DE LOS CABALLEROS",
+      "url": "http://villafrancadeloscaballeros.es",
+      "location": "VILLAFRANCA DE LOS CABALLEROS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "efcf3c666185e629b481364b",
+      "name": "VILLALUENGA DE LA SAGRA",
+      "url": "http://villaluengadelasagra.es",
+      "location": "VILLALUENGA DE LA SAGRA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "6c908d114135c5c2ebf7bcee",
+      "name": "VILLAMIEL DE TOLEDO",
+      "url": "http://villamieldetoledo.com",
+      "location": "VILLAMIEL DE TOLEDO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "2f5bf971d79b88e01a18caf4",
+      "name": "VILLAMINAYA",
+      "url": "http://villaminaya.es",
+      "location": "VILLAMINAYA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "bdd1d55205dae6186939b64d",
+      "name": "VILLAMUELAS",
+      "url": "http://www.villamuelas.es",
+      "location": "VILLAMUELAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "1d6c2896d85d4f71562afb6c",
+      "name": "VILLANUEVA DE ALCARDETE",
+      "url": "http://villanuevadealcardete.es",
+      "location": "VILLANUEVA DE ALCARDETE (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "3dfde9d0419d49c55339714d",
+      "name": "VILLARRUBIA DE SANTIAGO",
+      "url": "http://www.villarrubiadesantiago.es",
+      "location": "VILLARRUBIA DE SANTIAGO (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "6e18b324e47637696513a807",
+      "name": "VILLASECA DE LA SAGRA",
+      "url": "http://villasecadelasagra.es",
+      "location": "VILLASECA DE LA SAGRA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "351c100a93d85083b66c606f",
+      "name": "VILLASEQUILLA",
+      "url": "http://villasequilla.com",
+      "location": "VILLASEQUILLA (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "2e63125dda90b94f98650bb8",
+      "name": "VILLATOBAS",
+      "url": "http://villatobas.es",
+      "location": "VILLATOBAS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "19bac86b9d2973210d48c959",
+      "name": "VISO DE SAN JUAN, EL",
+      "url": "http://elvisodesanjuan.es",
+      "location": "VISO DE SAN JUAN, EL (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "d530665158ab6b5dfed5b9e3",
+      "name": "YÉBENES, LOS",
+      "url": "http:// www.turismo.losyebenes.es",
+      "location": "YÉBENES, LOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "bbca515428231c11dfb0c4fd",
+      "name": "YELES",
+      "url": "http://www.yeles.es",
+      "location": "YELES (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "4741a045ea2ddffa0b6ca142",
+      "name": "YEPES",
+      "url": "http://yepes.es",
+      "location": "YEPES (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "6af061239b73e5c3af2e4b76",
+      "name": "YUNCLER",
+      "url": "http://aytoyuncler.com",
+      "location": "YUNCLER (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "3673845a3541c92ebe1d13e9",
+      "name": "YUNCOS",
+      "url": "http://yuncos.es",
+      "location": "YUNCOS (Toledo)",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.diputoledo.es/global/11/50/169/dir-municipios/Todos"
+    },
+    {
+      "id": "6c0562aafbd8cbbb",
+      "name": "San Martín de la Vega",
+      "url": "https://ayto-smv.es/tramites/tablon-virtual/empleo-publico/",
+      "location": "San Martín de la Vega",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://ayto-smv.es/tramites/tablon-virtual/empleo-publico/"
+    },
+    {
+      "id": "112f0cce73dd2caf",
+      "name": "Moraleja de Enmedio",
+      "url": "https://ayto-moraleja.es/",
+      "location": "Moraleja de Enmedio",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://ayto-moraleja.es/"
+    },
+    {
+      "id": "89975b0ec48601ec",
+      "name": "Tragsa temporal",
+      "url": "https://www.tragsa.es/es/equipo-humano/unete-a-nuestro-equipo/ofertas-empleo-temporal/Paginas/ofertas-especificas.aspx",
+      "location": "Destino por verificar",
+      "kind": "national_company",
+      "maxPages": 5,
+      "provenance": "https://www.tragsa.es/es/equipo-humano/unete-a-nuestro-equipo/ofertas-empleo-temporal/Paginas/ofertas-especificas.aspx"
+    },
+    {
+      "id": "a4d44477d6d2ab92",
+      "name": "Correos",
+      "url": "https://www.correos.com/personas-y-talento/",
+      "location": "Destino por verificar",
+      "kind": "national_company",
+      "maxPages": 5,
+      "provenance": "https://www.correos.com/personas-y-talento/"
+    },
+    {
+      "id": "4b40e2de1e1827ba",
+      "name": "Renfe",
+      "url": "https://empleo.renfe.com/",
+      "location": "Destino por verificar",
+      "kind": "national_company",
+      "maxPages": 5,
+      "provenance": "https://empleo.renfe.com/"
+    },
+    {
+      "id": "1ff3b2f4b8783c1a",
+      "name": "Adif",
+      "url": "https://www.adif.es/empleo/oferta-empleo-publico",
+      "location": "Destino por verificar",
+      "kind": "national_company",
+      "maxPages": 5,
+      "provenance": "https://www.adif.es/empleo/oferta-empleo-publico"
+    },
+    {
+      "id": "90a57074e7465416",
+      "name": "Casarrubuelos",
+      "url": "https://casarrubuelos.sedelectronica.es/info.0",
+      "location": "Casarrubuelos",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://casarrubuelos.sedelectronica.es/info.0"
+    },
+    {
+      "id": "94b2d348727497a7",
+      "name": "Batres",
+      "url": "https://batres.sedelectronica.es/info.0",
+      "location": "Batres",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://batres.sedelectronica.es/info.0"
+    },
+    {
+      "id": "fdd2d58dab8d58c6",
+      "name": "Cubas de la Sagra",
+      "url": "https://cubasdelasagra.sedelectronica.es/info.0",
+      "location": "Cubas de la Sagra",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://cubasdelasagra.sedelectronica.es/info.0"
+    },
+    {
+      "id": "62f183f67e0c2fb3",
+      "name": "Serranillos del Valle",
+      "url": "https://sede.serranillosdelvalle.es/eAdmin/InfoSede.do",
+      "location": "Serranillos del Valle",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://sede.serranillosdelvalle.es/eAdmin/InfoSede.do"
+    },
+    {
+      "id": "c40bb7c0ffdd47d6",
+      "name": "El Álamo",
+      "url": "https://ayuntamientoelalamo.org/tablon-anuncios/",
+      "location": "El Álamo",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://ayuntamientoelalamo.org/tablon-anuncios/"
+    },
+    {
+      "id": "f13693b6ca274586",
+      "name": "Arroyomolinos",
+      "url": "https://www.ayto-arroyomolinos.org/ayuntamiento/concejalias/comunicacion-tecnologia-de-la-informacion-transparencia-y-protocolo/personal-y-formacion",
+      "location": "Arroyomolinos",
+      "kind": "municipal",
+      "maxPages": 5,
+      "provenance": "https://www.ayto-arroyomolinos.org/ayuntamiento/concejalias/comunicacion-tecnologia-de-la-informacion-transparencia-y-protocolo/personal-y-formacion"
+    }
+  ]
+}

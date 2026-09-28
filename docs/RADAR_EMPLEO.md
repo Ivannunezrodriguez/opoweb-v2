@@ -34,5 +34,31 @@ Nunca guardar correo ni API keys en archivos versionados.
 - Un fallo de una fuente no bloquea las novedades del resto. El JSON registra sourceStatus y conserva las oportunidades anteriores sin volver a notificarlas.
 - La deduplicación actual es por identificador de anuncio y fuente; no identifica necesariamente la misma convocatoria publicada en varios boletines.
 
-## Límites de cobertura pendientes
-Las cinco fuentes no garantizan exhaustividad. Aún no se consultan directamente todos los tablones/sedes municipales, portales de contratación temporal sanitaria, universidades y empresas públicas. Un aviso exclusivo en esos portales puede no detectarse. BOE/BOP se consultan con ventana de tres días y BOCM/DOCM por último boletín/sumario; una interrupción prolongada puede dejar huecos. No prometer «ninguna oportunidad perdida» hasta ampliar y verificar esas fuentes.
+## Ampliación de fuentes directas (28/09/2026)
+
+- Registro `data/radar-sources.json`: 205 direcciones de partida contrastadas con páginas oficiales, incluyendo 161 webs municipales obtenidas del directorio de la Diputación de Toledo.
+- El directorio se consulta de nuevo en cada ejecución; si falla, se usan las direcciones guardadas.
+- 23 municipios del sur de Madrid. Sedes/tableros y páginas de empleo municipales, además del BOCM.
+- JCCM, SESCAM, SERMAS y bolsas de la Comunidad de Madrid; personal no docente; UC3M, URJC y UCLM; GEACAM, GICAMAN, Tragsa, Correos, Renfe y Adif.
+- Las fuentes autonómicas y universitarias se marcan con destino pendiente de comprobar; la existencia de un campus o centro no garantiza que una plaza tenga ese destino.
+- En empresas de ámbito nacional, las candidaturas necesitan una mención geográfica de la zona objetivo en el listado. Una oferta sin destino visible puede quedar sin detectar.
+- Cada fuente se consulta con concurrencia limitada y hasta cinco páginas enlazadas de empleo, sede o tablón. No se siguen páginas individuales de resultados ni se entra en áreas identificadas.
+- BOE y BOP: ventana ampliada de tres a siete días, conservando la deduplicación.
+
+## Solo novedades
+
+La primera lectura correcta de cada página crea una referencia de enlaces existentes. No envía el archivo histórico como novedades. Excepción: anuncios con fecha de publicación explícita desde la activación. En posteriores lecturas, avisa de nuevos enlaces de contratación y descarta seguimiento (admitidos, exámenes, resultados, nombramientos, llamamientos y correcciones). No es un inventario de todas las bolsas antiguas que siguen abiertas.
+
+`data/radar-direct-state.json` conserva las referencias aunque una fuente falle. `data/radar-direct-latest.json` registra lectura, candidatos y errores de la última pasada. El envío continúa exclusivamente por el correo configurado en los secretos existentes.
+
+## Cobertura real y límites
+
+205 direcciones configuradas no significa 205 fuentes completamente cubiertas. `READABLE` indica HTML leído, `PARTIAL` indica errores o enlaces pendientes por el límite de páginas, y `ERROR` indica que no se pudo leer. Cero coincidencias no acredita ausencia de ofertas. Hay sedes con JavaScript, CAPTCHA, documentos cuyo título no identifica el puesto, enlaces reutilizados y municipios sin web propia en el directorio. El lector no interpreta el texto interior de todos los PDF ni realiza trámites. Los cambios dentro de un enlace ya conocido no disparan seguimiento.
+
+No puede garantizarse exhaustividad. Se mantiene el BOP para toda Toledo, también para municipios sin web descubierta. Los avisos de una misma convocatoria en distintos boletines pueden tener identificadores diferentes; solo se fusionan automáticamente coincidencias de URL oficial inequívocas, evitando borrar convocatorias distintas del mismo puesto.
+
+## Validación
+
+- `node tests/radar-fixtures.mjs`
+- `python3 tests/radar-direct-test.py`
+- La comprobación de red no envía correos ni modifica solicitudes. Sus resultados quedarán en `data/radar-direct-latest.json` al completar una ejecución. La primera comprobación completa de red está pendiente.

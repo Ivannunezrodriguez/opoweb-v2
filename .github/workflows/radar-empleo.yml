@@ -1,6 +1,13 @@
 name: Radar de empleo público
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - "tools/radar*.mjs"
+      - "tools/radar-direct.py"
+      - "data/radar-sources.json"
+      - ".github/workflows/radar-empleo.yml"
   schedule:
     - cron: "17 5,15 * * *"
   workflow_dispatch:
@@ -15,13 +22,16 @@ concurrency:
 jobs:
   radar:
     runs-on: ubuntu-latest
+    timeout-minutes: 50
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
       - name: Validar perfil y casos conocidos
-        run: node tests/radar-fixtures.mjs
+        run: |
+          node tests/radar-fixtures.mjs
+          python3 tests/radar-direct-test.py
       - name: Actualizar radar
         run: node tools/radar.mjs
       - name: Notificar novedades por email
@@ -35,6 +45,9 @@ jobs:
           git config user.name "opoweb-radar[bot]"
           git config user.email "opoweb-radar[bot]@users.noreply.github.com"
           git add data/radar.json
+          for file in data/radar-direct-state.json data/radar-direct-latest.json; do
+            if [ -f "$file" ]; then git add "$file"; fi
+          done
           if git diff --cached --quiet; then
             echo "Sin cambios"
           else

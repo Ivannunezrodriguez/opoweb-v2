@@ -1,4 +1,6 @@
 import fs from 'node:fs/promises';
+import {execFile} from 'node:child_process';
+import {promisify} from 'node:util';
 import {boeEntries,bocmEntries,bopEntries,docmEntries,boeVacancyEntries,pagEntries,merge} from './radar-core.mjs';
 
 const out='data/radar.json';
@@ -10,10 +12,17 @@ async function get(url,accept){
  if(!response.ok)throw new Error(`${url}: HTTP ${response.status}`);
  return response;
 }
+let directStatus=[];
 const results=await Promise.allSettled([
  (async()=>{
+  await promisify(execFile)('python3',['tools/radar-direct.py'],{timeout:2400000,maxBuffer:1024*1024});
+  const direct=JSON.parse(await fs.readFile('data/radar-direct-latest.json','utf8'));
+  directStatus=direct.sourceStatus;
+  return direct.entries;
+ })(),
+ (async()=>{
   const entries=[];
-  for(let days=0;days<3;days++){
+  for(let days=0;days<7;days++){
    const d=new Date(now);d.setUTCDate(d.getUTCDate()-days);
    const ymd=d.toISOString().slice(0,10).replaceAll('-','');
    const url=`https://www.boe.es/datosabiertos/api/boe/sumario/${ymd}`;
@@ -41,7 +50,7 @@ const results=await Promise.allSettled([
  (async()=>bocmEntries(await (await get('https://www.bocm.es/ultimo-boletin.xml','application/rss+xml')).text()).map(x=>({...x,source:'BOCM'})))(),
  (async()=>{
   const entries=[];
-  for(let days=0;days<3;days++){
+  for(let days=0;days<7;days++){
    const d=new Date(now);d.setUTCDate(d.getUTCDate()-days);
    const day=`${String(d.getUTCDate()).padStart(2,'0')}/${String(d.getUTCMonth()+1).padStart(2,'0')}/${d.getUTCFullYear()}`;
    const params=new URLSearchParams({publication_date:day,publication_date_to:day});
@@ -72,12 +81,12 @@ const results=await Promise.allSettled([
  })()
 ]);
 const successes=results.filter(x=>x.status==='fulfilled');
-for(const [i,result] of results.entries())if(result.status==='rejected')console.error(['BOE','BOCM','BOP Toledo','DOCM','PAG'][i],result.reason);
+for(const [i,result] of results.entries())if(result.status==='rejected')console.error(['DIRECT','BOE','BOCM','BOP Toledo','DOCM','PAG'][i],result.reason);
 if(!successes.length)throw new Error('Ninguna fuente respondió. Se conserva el radar anterior.');
-const sourceNames=['BOE','BOCM','BOP Toledo','DOCM','PAG'];
+const sourceNames=['DIRECT','BOE','BOCM','BOP Toledo','DOCM','PAG'];
 const sourceStatus=results.map((result,i)=>({source:sourceNames[i],ok:result.status==='fulfilled',checkedAt:now.toISOString()}));
 const entries=successes.flatMap(x=>x.value);
 if(!entries.length)throw new Error('Las fuentes respondieron sin anuncios; se conserva el radar anterior.');
 const opportunities=merge(previous,entries,date);
-await fs.writeFile(out,JSON.stringify({...previous,generatedAt:date,sourceStatus,opportunities},null,2)+'\n');
+await fs.writeFile(out,JSON.stringify({...previous,generatedAt:date,sourceStatus,directSourceStatus:directStatus,opportunities},null,2)+'\n');
 console.log(`Radar: ${entries.length} anuncios consultados; ${opportunities.length} candidatos; ${opportunities.filter(x=>x.isNew).length} nuevos`);

@@ -7,7 +7,7 @@ const job=/plazas?|puestos?|empleo|\bOEP\b|bolsa|lista de espera|personal|interi
 const ineligible=/\bA[12]\b|subgrupo\s+A[12]|(?:titulaci[oó]n|t[ií]tulo)\s+(?:universitari[oa]|de\s+(?:grado universitario|licenciad[oa]|diplomad[oa]))/i;
 const followup=/admitid|excluid|subsanaci[oó]n|tribunal|calificaci[oó]n|resultado|fecha de examen|nombramiento/i;
 const excluded=/provisi[oó]n de puestos|concurso de traslados|libre designaci[oó]n|comisi[oó]n de servicios|oposiciones? a notari|cuerpo de magistrad|subasta|licitaci[oó]n/i;
-const madrid=/getafe|legan[eé]s|fuenlabrada|m[oó]stoles|alcorc[oó]n|parla|pinto|valdemoro|aranjuez|humanes|griñ[oó]n|torrej[oó]n de la calzada|torrej[oó]n de velasco|ciempozuelos|navalcarnero|universidad carlos iii de madrid|universidad rey juan carlos/i;
+const madrid=/getafe|legan[eé]s|fuenlabrada|m[oó]stoles|alcorc[oó]n|parla|pinto|valdemoro|aranjuez|humanes|griñ[oó]n|torrej[oó]n de la calzada|torrej[oó]n de velasco|ciempozuelos|navalcarnero|san mart[ií]n de la vega|moraleja de enmedio|cubas de la sagra|casarrubuelos|serranillos del valle|batres|el [aá]lamo|arroyomolinos|universidad carlos iii de madrid|universidad rey juan carlos/i;
 const toledo=/toledo|illescas|seseña|talavera|puebla de montalb[aá]n|ventas con peña aguilera/i;
 export function classify(title, context='', details='') {
  const s=`${title} ${context}`;
@@ -45,10 +45,13 @@ export function merge(previous,entries,date){
  const byId=new Map((previous.opportunities||[]).map(x=>[x.id,{...x,isNew:false}]));
  for(const entry of entries){
   const context=entry.source==='BOP Toledo'?`${entry.context||''} · Toledo`:entry.context;
-  const match=classify(entry.title,context,entry.searchText||'');
+  const scope=entry.source==='DIRECT'&&entry.scopeZone?(entry.scopeZone==='TOLEDO'?' Toledo':' Getafe'):'';
+  const match=classify(entry.title,(context||'')+scope,entry.searchText||'');
   if(!match)continue;
   const id=fingerprint(entry),old=byId.get(id);
-  byId.set(id,{id,title:entry.title,organism:entry.context||'Consultar anuncio',location:match.zone==='TOLEDO'?'Toledo (verificar destino)':'Madrid sur (verificar destino)',...match,category:'Empleo público',vacancies:entry.vacancies??null,deadline:entry.deadline??null,access:entry.access||'Revisar bases',qualification:entry.qualification||'Revisar bases',source:entry.source,officialUrl:entry.url,verifiedAt:date,firstSeen:old?.firstSeen||date,isNew:!old});
+  // A direct listing linking an already known official notice is not another alert.
+  if(entry.source==='DIRECT'&&[...byId.values()].some(x=>x.officialUrl===entry.url&&x.id!==id))continue;
+  byId.set(id,{id,title:entry.title,organism:entry.context||'Consultar anuncio',location:entry.location||(match.zone==='TOLEDO'?'Toledo (verificar destino)':'Madrid sur (verificar destino)'),publishedAt:entry.publishedAt||null,...match,category:'Empleo público',vacancies:entry.vacancies??null,deadline:entry.deadline??null,access:entry.access||'Revisar bases',qualification:entry.qualification||'Revisar bases',source:entry.source,officialUrl:entry.url,verifiedAt:date,firstSeen:old?.firstSeen||date,isNew:!old});
  }
  return [...byId.values()].sort((a,b)=>b.firstSeen.localeCompare(a.firstSeen));
 }
