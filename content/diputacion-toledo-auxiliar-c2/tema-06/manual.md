@@ -147,3 +147,20 @@ Se han localizado referencias a la aprobación de los Estatutos iniciales en **1
 5. Sólo entonces redactar tabla cerrada de competencias, atribuciones, composición, nombramiento y régimen de acuerdos.
 
 **Resultado de esta comprobación:** no se declara cerrado el tema 6. Se ha reducido la incertidumbre documental, sin inventar el texto estatutario consolidado.
+
+
+## 8. Comprobación cruzada con BOP oficial de **16/05/2023**
+
+El **BOP de Toledo n.º 92 (16/05/2023)** publicó el acuerdo del **Consejo Rector** del OAPGT de **11/05/2023** sobre delegación de competencias en materia de contratación. Su exposición cita directamente los **artículos 10, 12 y 14 de los Estatutos**.
+
+| Referencia estatutaria expresamente mencionada | Hecho documentado en BOP de **2023** | Límite de la comprobación |
+|---|---|---|
+| **Artículo 10** | Se cita la competencia del **Consejo Rector** respecto a contratación y la posibilidad estatutaria de delegar su ejercicio | No prueba que el artículo íntegro no haya cambiado después |
+| **Artículo 12.1** | Se invoca la competencia de representación de la **Presidencia** del organismo | No equivale a conocer todas sus funciones |
+| **Artículo 14** | Se invoca la dirección, gestión y representación administrativa de la **Dirección** del OAPGT | No sustituye la relación exhaustiva de atribuciones |
+
+**Fuente oficial primaria:** [BOP Toledo n.º 92, de 16/05/2023](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=92&insert_year=2023&publication_date=16052023).
+
+Esta fuente tiene más valor probatorio que una reproducción privada del boletín histórico, pero el hecho de que cite atribuciones estatutarias **en 2023** no certifica por sí solo su redacción en la fecha de examen de **2026**.
+
+> ⚠️ **¡Foco Examen!:** **Consejo Rector, Presidencia y Dirección** son órganos distintos. Una **delegación de competencias** tampoco implica necesariamente la pérdida de la titularidad de la competencia original; comprobar el alcance concreto del acuerdo y el régimen aplicable.
