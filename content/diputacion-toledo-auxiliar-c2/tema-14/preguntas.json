@@ -62,17 +62,17 @@
     },
     {
       "id": "DT-C2-T14-005",
-      "enunciado": "¿Qué instrumento de las Administraciones Públicas garantiza la identificación de la sede electrónica y la comunicación segura con ella?",
+      "enunciado": "Según el artículo 11.2 de la Ley 39/2015, ¿cuál de estas actuaciones exige, con carácter general, el uso obligatorio de firma?",
       "opciones": [
-        "Certificado de autenticación de sitio web o de sede conforme al régimen aplicable",
-        "Una captura de pantalla sin firma",
-        "Una contraseña compartida públicamente",
-        "El nombre escrito en un documento"
+        "Consultar el horario de una oficina pública",
+        "Presentar una solicitud administrativa",
+        "Leer información pública en una sede electrónica",
+        "Acceder a las preguntas frecuentes"
       ],
-      "respuestaCorrecta": 0,
-      "justificacion": "Los certificados permiten acreditar autenticidad de los sitios/sedes; su régimen específico figura en normativa de administración electrónica.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Ley 40/2015, art. 38 y RD 203/2021 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 11.2.a exige firma para formular solicitudes.",
+      "trampaExamen": "Identificación para consultar información no es lo mismo que firma obligatoria al presentar una solicitud.",
+      "referencia": "Ley 39/2015, art. 11.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T14-006",
