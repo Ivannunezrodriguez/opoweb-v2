@@ -50,12 +50,12 @@
       "id": "DT-C2-T17-004",
       "enunciado": "Según la guía GroupWise Client 24, ¿qué uso tiene la opción Address al redactar?",
       "opciones": [
-        "Abrir una libreta de direcciones y localizar destinatarios",
         "Cambiar la unidad de disco de los adjuntos",
         "Borrar la bandeja de entrada",
-        "Configurar el navegador Microsoft Edge"
+        "Configurar el navegador Microsoft Edge",
+        "Abrir una libreta de direcciones y localizar destinatarios"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "La guía ofrece Address como alternativa a teclear usuarios en To.",
       "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
       "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
@@ -64,12 +64,12 @@
       "id": "DT-C2-T17-005",
       "enunciado": "¿Qué ocurre si se modifica el archivo original de un adjunto local después de enviar el correo?",
       "opciones": [
-        "Se actualiza el adjunto ya recibido",
         "El adjunto enviado no se cambia automáticamente",
         "Se retracta el correo enviado",
-        "El mensaje se elimina de Sent Items"
+        "El mensaje se elimina de Sent Items",
+        "Se actualiza el adjunto ya recibido"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 0,
       "justificacion": "La guía 24 indica que cambiar el archivo adjuntado después del envío no hace visibles esos cambios a los destinatarios.",
       "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
       "referencia": "https://www.novell.com/documentation/groupwise24/pdfdoc/gw_guide_userwin/gw_guide_userwin.pdf"
@@ -78,12 +78,12 @@
       "id": "DT-C2-T17-006",
       "enunciado": "¿Qué carpeta describe el manual GroupWise 24 como lugar habitual de los elementos enviados?",
       "opciones": [
-        "Mailbox",
-        "Cabinet",
         "Calendar",
-        "Sent Items"
+        "Sent Items",
+        "Mailbox",
+        "Cabinet"
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 1,
       "justificacion": "Sent Items reúne los elementos enviados, con particularidades de organización y seguimiento.",
       "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
       "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/"
@@ -92,12 +92,12 @@
       "id": "DT-C2-T17-007",
       "enunciado": "¿Qué diferencia existe entre Mailbox y Sent Items según GroupWise 24?",
       "opciones": [
-        "Mailbox reúne principalmente elementos recibidos y Sent Items los enviados",
-        "Mailbox solo contiene adjuntos y Sent Items los borradores",
         "Ambas carpetas son exactamente la misma vista",
-        "Sent Items solo muestra citas"
+        "Sent Items solo muestra citas",
+        "Mailbox reúne principalmente elementos recibidos y Sent Items los enviados",
+        "Mailbox solo contiene adjuntos y Sent Items los borradores"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "El manual de carpeta Mailbox distingue los elementos recibidos de los enviados visibles en Sent Items.",
       "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
       "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/getstart_folderlist_mailbox.html"
@@ -106,12 +106,12 @@
       "id": "DT-C2-T17-008",
       "enunciado": "Un mensaje aparece como entregado, pero no hay constancia de apertura. ¿Qué conclusión es válida?",
       "opciones": [
+        "GroupWise lo ha retractado automáticamente",
         "Seguro que fue leído",
         "El destinatario ha respondido",
-        "La entrega no acredita por sí sola que fuese abierto",
-        "GroupWise lo ha retractado automáticamente"
+        "La entrega no acredita por sí sola que fuese abierto"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "Entrega y apertura son datos de seguimiento diferentes, dependientes también de configuración y sistemas externos.",
       "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
       "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/"
