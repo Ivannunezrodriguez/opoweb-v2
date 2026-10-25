@@ -1,0 +1,92 @@
+{
+  "tema": 8,
+  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "version": "2026-10-25",
+  "criterio": "6 preguntas originales, cuatro opciones y una solución, artículos precisos de BOE. Pendiente comprobación editorial integral antes de calificar como definitiva la unidad.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T08-001",
+      "enunciado": "¿Qué derecho básico establece el artículo 14.1 de la Ley 31/1995?",
+      "opciones": [
+        "Protección eficaz en seguridad y salud en el trabajo",
+        "Indemnización automática ante cualquier accidente",
+        "Vacaciones adicionales obligatorias",
+        "Rechazar toda tarea sin motivo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La ley reconoce a los trabajadores el derecho a una protección eficaz.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LPRL art. 14.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-002",
+      "enunciado": "¿Sobre quién recae el coste de las medidas relativas a seguridad y salud en el trabajo?",
+      "opciones": [
+        "Siempre sobre el trabajador",
+        "Sobre el empresario, no sobre los trabajadores",
+        "A medias obligatoriamente",
+        "Sobre el delegado de prevención"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 14.5 impide que el coste de las medidas recaiga sobre los trabajadores.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LPRL art. 14.5 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-003",
+      "enunciado": "¿Cuál de los siguientes es un principio de acción preventiva del artículo 15?",
+      "opciones": [
+        "Combatir los riesgos en su origen",
+        "Anteponer siempre el EPI a protección colectiva",
+        "No evaluar riesgos evitables o inevitables",
+        "Evitar información al personal"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 15 incluye combatir riesgos en su origen y priorizar protección colectiva.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LPRL art. 15.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-004",
+      "enunciado": "Según el artículo 18, ¿qué información debe recibir el trabajador directamente?",
+      "opciones": [
+        "Sólo el presupuesto general",
+        "Los riesgos específicos de su puesto y medidas aplicables",
+        "El salario de todos los compañeros",
+        "Ninguna si existen delegados"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Aunque se informe a representantes, cada trabajador debe ser informado directamente de riesgos específicos y medidas.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LPRL art. 18.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-005",
+      "enunciado": "¿A partir de cuántos trabajadores se constituye el Comité de Seguridad y Salud?",
+      "opciones": [
+        "10",
+        "25",
+        "50",
+        "100"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 38.2 dispone su constitución en empresas o centros de trabajo con 50 o más trabajadores.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LPRL art. 38.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-006",
+      "enunciado": "¿Con qué frecuencia ordinaria se reúne el Comité de Seguridad y Salud?",
+      "opciones": [
+        "Cada mes",
+        "Trimestralmente",
+        "Anualmente",
+        "Cada cuatro años"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 38.3 establece reuniones trimestrales y cuando lo solicite alguna representación.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LPRL art. 38.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    }
+  ]
+}
