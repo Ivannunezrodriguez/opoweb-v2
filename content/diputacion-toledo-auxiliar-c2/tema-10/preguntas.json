@@ -1,0 +1,92 @@
+{
+  "tema": 10,
+  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "version": "2026-10-25",
+  "criterio": "6 preguntas originales, cuatro opciones y una solución, artículos precisos de BOE. Pendiente comprobación editorial integral antes de calificar como definitiva la unidad.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T10-001",
+      "enunciado": "¿Cuál es la edad general desde la que un menor puede consentir el tratamiento de datos personales por sí mismo en la LO 3/2018?",
+      "opciones": [
+        "12 años",
+        "14 años",
+        "16 años",
+        "18 años"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 7 fija los 14 años, con las salvedades de tratamientos basados en actos o negocios que requieren asistencia.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LO 3/2018 art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-002",
+      "enunciado": "¿Cuál es la finalidad dual de la LO 3/2018 según su artículo 1?",
+      "opciones": [
+        "Regular impuestos y policía",
+        "Adaptar el ordenamiento al RGPD y garantizar derechos digitales",
+        "Regular solo nóminas",
+        "Aprobar la Constitución"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La ley adapta el ordenamiento al RGPD y garantiza los derechos digitales.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LO 3/2018 art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-003",
+      "enunciado": "¿Cuál de estos principios de protección de datos exige que estos sean correctos y se actualicen cuando sea necesario?",
+      "opciones": [
+        "Exactitud",
+        "Publicidad universal",
+        "Gratuidad de impuestos",
+        "Disponibilidad permanente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 4 desarrolla el principio de exactitud.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LO 3/2018 art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-004",
+      "enunciado": "¿Qué obligación de confidencialidad establece la LO 3/2018 para quienes intervienen en un tratamiento?",
+      "opciones": [
+        "Termina automáticamente al cesar la relación",
+        "Se mantiene incluso tras finalizar la relación con el responsable o encargado",
+        "Solo aplica al responsable político",
+        "Se limita al correo electrónico"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 5 establece deber de confidencialidad, también después de finalizar la relación.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LO 3/2018 art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-005",
+      "enunciado": "¿Qué derecho permite saber si el responsable trata datos personales del interesado y acceder a ellos?",
+      "opciones": [
+        "Acceso",
+        "Portabilidad laboral",
+        "Recaudación ejecutiva",
+        "Alzada"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 13 desarrolla el derecho de acceso.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LO 3/2018 art. 13 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-006",
+      "enunciado": "¿Qué derecho permite solicitar corregir datos personales inexactos?",
+      "opciones": [
+        "Oposición",
+        "Rectificación",
+        "Supresión del padrón en todos los casos",
+        "Recurso contencioso automático"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 14 regula el ejercicio del derecho de rectificación.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LO 3/2018 art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    }
+  ]
+}
