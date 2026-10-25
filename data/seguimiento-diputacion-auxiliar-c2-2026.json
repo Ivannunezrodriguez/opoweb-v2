@@ -2,8 +2,16 @@
   "convocatoriaId": "diputacion-toledo-auxiliar-c2-2026",
   "actualizadoEl": "2026-10-25",
   "situacionPersonal": {
-    "inscrito": false,
-    "estado": "PENDIENTE_PRESENTAR_SOLICITUD"
+    "inscrito": true,
+    "estado": "SOLICITUD_REGISTRADA_PENDIENTE_ADMISION",
+    "fechaPresentacion": "2026-10-25",
+    "horaPresentacion": "12:52:14",
+    "fechaEfectiva": "2026-10-26",
+    "registro": "202699900021975",
+    "justificante": "Captura de pantalla del registro electrónico aportada en conversación; descargar y conservar justificante oficial",
+    "tasaPagadaEuros": 16,
+    "fechaPago": "2026-10-25",
+    "notaPrivacidad": "Los documentos personales de inscripción y pago se conservan fuera del repositorio público."
   },
   "plazas": {
     "total": 4,
@@ -49,5 +57,5 @@
       "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21908"
     }
   ],
-  "siguienteHito": "Presentar solicitud y obtener justificante registral"
+  "siguienteHito": "Comprobar lista provisional de admitidos y excluidos y, posteriormente, fecha del primer ejercicio"
 }
