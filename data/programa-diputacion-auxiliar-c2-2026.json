@@ -1,0 +1,131 @@
+{
+  "id": "diputacion-toledo-auxiliar-c2-2026",
+  "version": "2026-10-25",
+  "convocatoria": {
+    "id": "diputacion-toledo-auxiliar-c2-2026",
+    "nombre": "Diputación Provincial de Toledo · Auxiliar Administrativo C2",
+    "plazas": 4,
+    "plazasTurnoLibre": 3,
+    "plazasReservaDiscapacidad": 1,
+    "subgrupo": "C2",
+    "sistema": "oposición libre",
+    "anexo": "XI",
+    "fuentePrograma": {
+      "publicacion": "BOP Toledo 197, 14/10/2026",
+      "codigoVerificacion": "2026.00004759"
+    },
+    "boe": "BOE-A-2026-21908",
+    "publicacionBOE": "2026-10-21",
+    "plazoSolicitudes": "20 días hábiles desde 22/10/2026"
+  },
+  "estadosPermitidos": [
+    "PENDIENTE_RECONSTRUCCION",
+    "BORRADOR",
+    "EN_REVISION_USUARIO",
+    "APROBADO_USUARIO",
+    "PUBLICADO"
+  ],
+  "temas": [
+    {
+      "numero": 1,
+      "titulo": "La Constitución española de 1978. Estructura. La reforma constitucional. Derechos y deberes fundamentales de los españoles. Garantía y suspensión.",
+      "estado": "BORRADOR",
+      "manual": "content/diputacion-toledo-auxiliar-c2/tema-01/manual.md"
+    },
+    {
+      "numero": 2,
+      "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Los interesados en el procedimiento. Actividad de las Administraciones Públicas: Normas generales de actuación. Términos y plazos.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 3,
+      "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. El procedimiento administrativo común: Derechos del interesado; Iniciación; Ordenación; Instrucción Finalización y Ejecución. Especialidades en los procedimientos de naturaleza sancionadora y de responsabilidad patrimonial. Tramitación simplificada del procedimiento administrativo común.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 4,
+      "titulo": "Revisión de los actos administrativos en vía administrativa. Los recursos administrativos. La revisión de oficio.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 5,
+      "titulo": "El municipio. Organización y funcionamiento. La provincia. Organización provincial. Competencias. La Diputación Provincial de Toledo: organización, funcionamiento y competencias. El Régimen electoral de las Entidades Locales.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 6,
+      "titulo": "El Acuerdo Regulador de las Condiciones de Trabajo de los Empleados Públicos de la Diputación de Toledo y sus Organismos Autónomos. El Organismo Autónomo Provincial de Gestión Tributaria de Toledo: organización, funcionamiento y competencias. Especial referencia a sus Estatutos.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 7,
+      "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: El Personal al servicio de las Administraciones Públicas. Provisión de puestos de trabajo. La carrera administrativa. Promoción interna. La selección del personal y la oferta pública de Empleo.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 8,
+      "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos laborales: Derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 9,
+      "titulo": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 10,
+      "titulo": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 11,
+      "titulo": "Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 12,
+      "titulo": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 13,
+      "titulo": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivo.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 14,
+      "titulo": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 15,
+      "titulo": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 16,
+      "titulo": "Microsoft Windows 11 Pro I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 17,
+      "titulo": "Microsoft Windows 11 Pro II. Navegación por Internet con Microsoft Edge. Uso del correo electrónico con Microfocus GroupWise 24.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 18,
+      "titulo": "LibreOffice 24 I. Utilización de documentos de texto con LibreOffice 24 Writer.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 19,
+      "titulo": "LibreOffice 24 II. Utilización de documentos de hoja de cálculo con LibreOffice 24 Calc.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    },
+    {
+      "numero": 20,
+      "titulo": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
+      "estado": "PENDIENTE_RECONSTRUCCION"
+    }
+  ]
+}
