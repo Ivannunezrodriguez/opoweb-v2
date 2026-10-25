@@ -1,0 +1,120 @@
+{
+  "tema": 11,
+  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "version": "2026-10-25",
+  "criterio": "8 preguntas originales de cuatro opciones, respuesta inequívoca y referencia precisa a BOE consolidado, comprobado a 25/10/2026. No son preguntas oficiales; auditoría integral de manual pendiente.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T11-001",
+      "enunciado": "¿Qué facultades tributarias pueden delegar las entidades locales conforme al artículo 7 del TRLRHL?",
+      "opciones": [
+        "Gestión, liquidación, inspección y recaudación",
+        "Únicamente la aprobación de leyes",
+        "Exclusivamente el empadronamiento",
+        "Solo las funciones jurisdiccionales"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 7 permite delegar facultades de gestión, liquidación, inspección y recaudación tributarias en los términos legales.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T11-002",
+      "enunciado": "¿En qué Administraciones pueden delegarse las facultades del artículo 7 TRLRHL?",
+      "opciones": [
+        "Solo en el Estado",
+        "En la comunidad autónoma o en otras entidades locales en cuyo territorio estén integradas",
+        "Solo en sociedades privadas",
+        "En cualquier juzgado"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 7.1 identifica comunidad autónoma y otras entidades locales territorialmente vinculadas.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 7.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T11-003",
+      "enunciado": "¿Qué Administraciones colaboran en materia de gestión, liquidación, inspección y recaudación de tributos locales?",
+      "opciones": [
+        "Solo municipios entre sí",
+        "Estado, comunidades autónomas y entidades locales",
+        "Únicamente diputaciones",
+        "Solo Administración General del Estado y juzgados"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 8.1 TRLRHL establece colaboración de las Administraciones tributarias del Estado, autonómicas y locales.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 8.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T11-004",
+      "enunciado": "¿Qué principio rige el reconocimiento de beneficios fiscales en tributos locales?",
+      "opciones": [
+        "Pueden crearse libremente por un funcionario",
+        "Se admiten los previstos en normas con rango de ley o derivados de tratados internacionales, con las previsiones legales para ordenanzas",
+        "Todos los tributos quedan exentos por acuerdo verbal",
+        "Siempre se prohíbe cualquier beneficio"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 9 TRLRHL limita beneficios fiscales a los legalmente contemplados y contempla los casos autorizados para ordenanzas fiscales.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 9.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T11-005",
+      "enunciado": "Según el artículo 35 de la LGT, ¿quién puede ser obligado tributario?",
+      "opciones": [
+        "Solo el contribuyente que paga en efectivo",
+        "Personas físicas, jurídicas y entidades a quienes la normativa impone obligaciones tributarias",
+        "Solo las empresas públicas",
+        "Solo los residentes en una capital"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 35.1 define a los obligados tributarios y su apartado 2 incluye distintas categorías.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-006",
+      "enunciado": "¿Forman parte las sanciones tributarias de la deuda tributaria según el artículo 58 LGT?",
+      "opciones": [
+        "Sí, siempre como cuota",
+        "No, aunque se apliquen reglas de recaudación para exigirlas",
+        "Solo si el contribuyente es empresa",
+        "Únicamente cuando la sanción sea firme judicialmente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 58.3 excluye las sanciones de la composición de la deuda tributaria, aunque remite a reglas de recaudación.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 58.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-007",
+      "enunciado": "¿Cuál de los siguientes es un medio de extinción de la deuda tributaria?",
+      "opciones": [
+        "La compensación en los términos legales",
+        "La mera presentación de una consulta tributaria",
+        "El cambio de domicilio fiscal por sí solo",
+        "La solicitud informal de cita previa"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 59.1 LGT incluye pago, prescripción, compensación y condonación, entre otros medios legales.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 59.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-008",
+      "enunciado": "¿Qué puede constituir la deuda tributaria, además de la cuota o cantidad a ingresar, cuando proceda?",
+      "opciones": [
+        "Intereses de demora y recargos previstos legalmente",
+        "Solo multas de tráfico",
+        "Exclusivamente indemnizaciones laborales",
+        "Nunca ningún importe adicional"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 58.2 LGT incorpora, en su caso, intereses de demora y distintos recargos.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 58.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    }
+  ]
+}
