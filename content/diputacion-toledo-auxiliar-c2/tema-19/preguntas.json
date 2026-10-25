@@ -1,0 +1,148 @@
+{
+  "tema": 19,
+  "estado": "BORRADOR_CON_REFERENCIAS_PRIMARIAS",
+  "version": "2026-10-25",
+  "criterio": "10 preguntas originales de opción múltiple (4 opciones, una correcta) sobre LibreOffice 24.2, creadas con referencia a la documentación de The Document Foundation. No son preguntas oficiales.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T19-001",
+      "enunciado": "¿Qué tipo de referencia es $B$3 en Calc?",
+      "opciones": [
+        "Relativa",
+        "Absoluta en fila y columna",
+        "Mixta con solo fila fija",
+        "Mixta con solo columna fija"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los signos $ fijan tanto la columna B como la fila 3.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-002",
+      "enunciado": "Al copiar la fórmula =A1+B1 desde C1 a C2, ¿cuál es la fórmula resultante en Calc?",
+      "opciones": [
+        "=A1+B1",
+        "=A2+B2",
+        "=$A$1+$B$1",
+        "=A1+B2"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Las referencias relativas se desplazan una fila al copiar a C2.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-003",
+      "enunciado": "¿Qué referencia mantiene fija la columna A, pero permite variar la fila?",
+      "opciones": [
+        "A$1",
+        "$A1",
+        "$A$1",
+        "A1"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "$A1 fija la columna por el signo $ anterior a A, pero no fija la fila.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-004",
+      "enunciado": "¿Qué tecla permite alternar los tipos de referencia seleccionada en una fórmula de Calc 24.2?",
+      "opciones": [
+        "F1",
+        "F4",
+        "F7",
+        "F12"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La guía Calc 24.2 indica que F4 recorre los cuatro tipos de referencia.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-005",
+      "enunciado": "¿Qué intervalo de celdas representa A2:B4?",
+      "opciones": [
+        "Dos celdas",
+        "Cuatro celdas",
+        "Seis celdas",
+        "Ocho celdas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Dos columnas por tres filas (A y B, filas 2, 3 y 4) suman seis celdas.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-006",
+      "enunciado": "¿Qué hace un AutoFiltro de Calc al aplicar criterios a una lista?",
+      "opciones": [
+        "Elimina definitivamente todas las filas que no cumplen el criterio",
+        "Muestra solo las filas que cumplen el criterio y oculta las demás",
+        "Convierte el archivo en un documento Writer",
+        "Recalcula todos los números como texto"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La guía describe el AutoFiltro como un control que muestra los registros ajustados al criterio sin borrarlos.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2402-EnteringandEditingData.html"
+    },
+    {
+      "id": "DT-C2-T19-007",
+      "enunciado": "¿Qué comando permite activar un AutoFiltro desde la barra de menús de Calc 24.2?",
+      "opciones": [
+        "Datos > AutoFiltro",
+        "Archivo > Exportar",
+        "Insertar > Nota",
+        "Formato > Página"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El manual Calc 24.2 identifica Data > AutoFilter; en español, Datos > AutoFiltro.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2402-EnteringandEditingData.html"
+    },
+    {
+      "id": "DT-C2-T19-008",
+      "enunciado": "¿Cuál es la diferencia básica entre ordenar y filtrar en Calc?",
+      "opciones": [
+        "Ordenar reorganiza registros; filtrar cambia cuáles se muestran",
+        "Ambos eliminan necesariamente los registros descartados",
+        "Ordenar solo actúa sobre imágenes",
+        "Filtrar convierte celdas en fórmulas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La guía distingue la reorganización por orden de la selección visible mediante criterios.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
+    },
+    {
+      "id": "DT-C2-T19-009",
+      "enunciado": "¿En qué capítulo principal de la Guía Calc 24.2 se estudian tablas dinámicas?",
+      "opciones": [
+        "Capítulo 3",
+        "Capítulo 5",
+        "Capítulo 9",
+        "Capítulo 16"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El índice oficial identifica el capítulo 9 como Using Pivot Tables.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG24.html"
+    },
+    {
+      "id": "DT-C2-T19-010",
+      "enunciado": "Si A2 vale 200 y B2 contiene el valor numérico 10 %, ¿qué resultado da =A2*B2?",
+      "opciones": [
+        "2",
+        "10",
+        "20",
+        "2000"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Diez por ciento equivale a 0,10 y 200×0,10=20.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    }
+  ]
+}
