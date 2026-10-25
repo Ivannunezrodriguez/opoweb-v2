@@ -1,0 +1,120 @@
+{
+  "tema": 4,
+  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "version": "2026-10-25",
+  "criterio": "8 preguntas originales por tema, referencias a artículos del BOE consolidado; revisión editorial adicional pendiente. No son preguntas oficiales.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T4-001",
+      "enunciado": "¿Qué recurso administrativo cabe, con carácter general, contra un acto que no pone fin a la vía administrativa?",
+      "opciones": [
+        "Alzada",
+        "Reposición potestativa",
+        "Extraordinario de revisión en cualquier caso",
+        "Ninguno"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 121 regula la alzada frente a actos que no ponen fin a la vía administrativa.",
+      "trampaExamen": "Ley 39/2015, art. 121",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T4-002",
+      "enunciado": "¿Cuál es el plazo para interponer alzada contra un acto expreso?",
+      "opciones": [
+        "Diez días",
+        "Un mes",
+        "Tres meses",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 122.1 fija un mes si el acto es expreso.",
+      "trampaExamen": "Ley 39/2015, art. 122.1",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T4-003",
+      "enunciado": "¿Cuál es el plazo máximo para dictar y notificar resolución de alzada?",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 122.2 fija tres meses, sin perjuicio de las consecuencias del silencio y sus excepciones.",
+      "trampaExamen": "Ley 39/2015, art. 122.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T4-004",
+      "enunciado": "¿Cuándo cabe el recurso potestativo de reposición?",
+      "opciones": [
+        "Frente a actos que ponen fin a la vía administrativa",
+        "Frente a cualquier acto de trámite sin condición alguna",
+        "Sólo frente a sentencias judiciales",
+        "Sólo frente a normas constitucionales"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 123 contempla reposición ante el mismo órgano que dictó el acto que pone fin a la vía administrativa.",
+      "trampaExamen": "Ley 39/2015, art. 123",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T4-005",
+      "enunciado": "¿Qué plazo hay para interponer reposición potestativa contra un acto expreso?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Cuatro años",
+        "Quince días"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 124.1 fija un mes para actos expresos.",
+      "trampaExamen": "Ley 39/2015, art. 124.1",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T4-006",
+      "enunciado": "¿Cuál es el plazo máximo para resolver y notificar el recurso potestativo de reposición?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Seis meses",
+        "Un año"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 124.2 establece un mes.",
+      "trampaExamen": "Ley 39/2015, art. 124.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T4-007",
+      "enunciado": "¿Qué plazo contempla el artículo 125.2 para el recurso extraordinario de revisión cuando se trate de error de hecho de los documentos del expediente?",
+      "opciones": [
+        "Cuatro años desde la notificación de la resolución impugnada",
+        "Quince días",
+        "Un mes",
+        "Diez años"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 125.2 prevé cuatro años para la causa primera del 125.1; para otras causas, tres meses desde los hechos o conocimiento de documentos.",
+      "trampaExamen": "Ley 39/2015, arts. 125.1.a y 125.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T4-008",
+      "enunciado": "Según el artículo 109.2, ¿qué errores pueden rectificar en cualquier momento las Administraciones Públicas?",
+      "opciones": [
+        "Materiales, de hecho o aritméticos existentes en sus actos",
+        "Cualquier error jurídico convalidando toda nulidad",
+        "Todas las sentencias firmes",
+        "Los errores ajenos sin relación con el acto"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La Ley permite rectificar en cualquier momento errores materiales, de hecho o aritméticos existentes en sus actos.",
+      "trampaExamen": "Ley 39/2015, art. 109.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    }
+  ]
+}
