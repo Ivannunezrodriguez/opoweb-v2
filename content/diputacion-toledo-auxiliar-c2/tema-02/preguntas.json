@@ -1,0 +1,120 @@
+{
+  "tema": 2,
+  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "version": "2026-10-25",
+  "criterio": "8 preguntas originales por tema, referencias a artículos del BOE consolidado; revisión editorial adicional pendiente. No son preguntas oficiales.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T2-001",
+      "enunciado": "¿Qué artículo de la Ley 39/2015 identifica quiénes tienen condición de interesados en el procedimiento?",
+      "opciones": [
+        "Artículo 4",
+        "Artículo 13",
+        "Artículo 30",
+        "Artículo 96"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 4 determina el concepto de interesado.",
+      "trampaExamen": "Ley 39/2015, art. 4",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T2-002",
+      "enunciado": "¿Qué artículo enumera los derechos generales de las personas en sus relaciones con las Administraciones Públicas?",
+      "opciones": [
+        "Artículo 53",
+        "Artículo 13",
+        "Artículo 121",
+        "Artículo 106"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 13 recoge los derechos generales; el 53, los específicos del interesado en un procedimiento.",
+      "trampaExamen": "Ley 39/2015, art. 13",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T2-003",
+      "enunciado": "¿Cuál de estos sujetos está obligado, en todo caso, a relacionarse electrónicamente con las Administraciones para realizar trámites del procedimiento administrativo?",
+      "opciones": [
+        "Todas las personas físicas",
+        "Las personas jurídicas",
+        "Todos los jubilados",
+        "Todos los trabajadores por cuenta ajena"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 14.2 incluye a las personas jurídicas entre los obligados.",
+      "trampaExamen": "Ley 39/2015, art. 14.2.a",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T2-004",
+      "enunciado": "¿Qué días se consideran inhábiles a efectos del cómputo por días según el artículo 30.2, salvo que una ley o Derecho UE establezca otro cómputo?",
+      "opciones": [
+        "Únicamente los domingos",
+        "Los sábados, domingos y festivos",
+        "Sólo festivos estatales",
+        "Los viernes y sábados"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los plazos expresados en días son hábiles salvo previsión contraria y excluyen sábados, domingos y festivos.",
+      "trampaExamen": "Ley 39/2015, art. 30.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T2-005",
+      "enunciado": "Si el último día de un plazo administrativo es inhábil, ¿cuándo se entiende prorrogado?",
+      "opciones": [
+        "Al día hábil siguiente",
+        "Al anterior día hábil",
+        "Dos días naturales",
+        "Nunca se prorroga"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 30.5 prorroga el vencimiento al primer día hábil siguiente.",
+      "trampaExamen": "Ley 39/2015, art. 30.5",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T2-006",
+      "enunciado": "¿Cuál es el límite general de ampliación de un plazo del artículo 32.1, salvo precepto contrario?",
+      "opciones": [
+        "No superior a la mitad del plazo inicial",
+        "El doble del plazo inicial",
+        "Siempre un mes",
+        "Tres años"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La ampliación no puede exceder de la mitad de los plazos establecidos y debe cumplir las condiciones legales.",
+      "trampaExamen": "Ley 39/2015, art. 32.1",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T2-007",
+      "enunciado": "¿Puede ampliarse un plazo administrativo que ya ha vencido mediante el artículo 32?",
+      "opciones": [
+        "Sí, sin restricciones",
+        "Sí, si el interesado lo pide a los seis meses",
+        "No",
+        "Sólo por correo electrónico"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 32.3 dispone que en ningún caso puede ampliarse un plazo ya vencido.",
+      "trampaExamen": "Ley 39/2015, art. 32.3",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T2-008",
+      "enunciado": "¿Cuál es el plazo general máximo para notificar la resolución expresa cuando la norma del procedimiento no fija otro?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Seis meses",
+        "Un año"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 21.3 establece tres meses cuando las normas reguladoras no fijan el plazo máximo, con reglas sobre inicio del cómputo.",
+      "trampaExamen": "Ley 39/2015, art. 21.3",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    }
+  ]
+}
