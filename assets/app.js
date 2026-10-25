@@ -192,11 +192,15 @@ function isThemeAvailable(theme) {
 }
 
 function themeStatus(theme) {
-  return isThemeAvailable(theme) ? 'PUBLICADO' : 'PENDIENTE';
+  if (!isThemeAvailable(theme)) return 'PENDIENTE';
+  if (theme.estado === 'BORRADOR' || theme.estado === 'PENDIENTE_RECONSTRUCCION' || theme.estado === 'EN_REVISION_USUARIO') return 'BORRADOR';
+  return 'PUBLICADO';
 }
 
 function badge(theme) {
-  const published = themeStatus(theme) === 'PUBLICADO';
+  const status = themeStatus(theme);
+  if (status === 'BORRADOR') return '<span class="badge pending">Borrador · revisión pendiente</span>';
+  const published = status === 'PUBLICADO';
   return `<span class="badge ${published ? 'approved' : 'pending'}">${published ? 'Contenido disponible' : 'Pendiente de desarrollo'}</span>`;
 }
 
