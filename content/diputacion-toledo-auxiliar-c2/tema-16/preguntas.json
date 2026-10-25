@@ -8,12 +8,12 @@
       "id": "DT-C2-T16-001",
       "enunciado": "¿Qué atajo abre el Explorador de archivos en Windows 11?",
       "opciones": [
-        "Windows + E",
-        "Ctrl + P",
         "Alt + F4",
-        "Ctrl + Mayús + S"
+        "Ctrl + Mayús + S",
+        "Windows + E",
+        "Ctrl + P"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "La ayuda oficial de Microsoft indica Windows + E para abrir el Explorador.",
       "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
       "referencia": "Microsoft, Explorador de archivos · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
@@ -22,12 +22,12 @@
       "id": "DT-C2-T16-002",
       "enunciado": "¿Qué hace normalmente cortar y pegar un archivo dentro del Explorador?",
       "opciones": [
-        "Lo traslada a la ubicación de destino",
         "Lo convierte en PDF",
         "Lo imprime",
-        "Lo duplica conservando obligatoriamente el original"
+        "Lo duplica conservando obligatoriamente el original",
+        "Lo traslada a la ubicación de destino"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Cortar y pegar se utiliza para mover un elemento a otra ubicación.",
       "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
       "referencia": "Microsoft, Explorador de archivos · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
@@ -50,12 +50,12 @@
       "id": "DT-C2-T16-004",
       "enunciado": "¿Qué opción del Explorador permite alternar la presentación en iconos, lista o detalles?",
       "opciones": [
+        "Imprimir",
         "Ver",
         "Enviar a",
-        "Pegar",
-        "Imprimir"
+        "Pegar"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Microsoft documenta el menú Ver para seleccionar el modo de presentación.",
       "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
       "referencia": "Microsoft, Explorador de archivos · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
@@ -64,12 +64,12 @@
       "id": "DT-C2-T16-005",
       "enunciado": "¿Qué identifica una ruta UNC del tipo \\\\servidor\\carpeta?",
       "opciones": [
-        "Un recurso compartido de red",
-        "Una carpeta exclusiva del escritorio local",
         "Un CD de audio",
-        "Una configuración de impresora"
+        "Una configuración de impresora",
+        "Un recurso compartido de red",
+        "Una carpeta exclusiva del escritorio local"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Una ruta UNC identifica un recurso en red mediante servidor y nombre compartido.",
       "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
       "referencia": "Windows, recursos de red · https://learn.microsoft.com/es-es/windows/win32/fileio/naming-a-file"
@@ -78,12 +78,12 @@
       "id": "DT-C2-T16-006",
       "enunciado": "¿Cuál es la diferencia entre una impresora y un escáner?",
       "opciones": [
-        "La impresora produce salida física y el escáner digitaliza documentos",
         "Ambos almacenan documentos de forma permanente como disco duro",
         "La impresora es exclusivamente un dispositivo de entrada",
-        "El escáner funciona solo para borrar ficheros"
+        "El escáner funciona solo para borrar ficheros",
+        "La impresora produce salida física y el escáner digitaliza documentos"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "La impresora produce una salida y el escáner capta un documento físico como datos digitales.",
       "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
       "referencia": "Microsoft, impresión y digitalización · https://support.microsoft.com/es-es/windows"
