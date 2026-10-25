@@ -560,20 +560,257 @@ Puede realizar el hecho imponible aunque no disponga de local fijo.
 
 ## 4. ivtm
 
-**Estado:** APROBADO POR EL USUARIO
 
-El bloque se divide en dos secciones:
+## Artículo 92
 
-1. [Naturaleza, hecho imponible, aptitud, no sujeción y exenciones](bloque-04a-ivtm-hecho.md)
-2. [Sujetos pasivos, titularidad registral y supuestos](bloque-04b-ivtm-sujeto.md)
+El IVTM es un impuesto directo, obligatorio, periódico y municipal. Grava la titularidad de vehículos de tracción mecánica aptos para circular por las vías públicas, cualquiera que sea su clase o categoría.
 
-La separación evita confundir el vehículo sujeto con la persona obligada al pago.
+El hecho imponible exige:
+
+1. titularidad del vehículo;
+2. aptitud legal para circular.
+
+No grava el uso efectivo ni los kilómetros recorridos. Un vehículo averiado o guardado continúa sujeto mientras permanezca matriculado y de alta.
+
+## Vehículo apto
+
+Se considera apto:
+
+- el matriculado en los registros públicos mientras no haya causado baja;
+- el provisto de permiso temporal;
+- el que dispone de matrícula turística.
+
+## No sujeción
+
+No están sujetos:
+
+- vehículos dados de baja por antigüedad autorizados excepcionalmente para exhibiciones, certámenes o carreras limitadas a esa naturaleza;
+- remolques y semirremolques cuya carga útil no sea superior a **750 kilogramos**.
+
+Un remolque de 750 kg exactos no está sujeto. Si supera el límite puede quedar incluido.
+
+## Exenciones esenciales
+
+Como complemento, el artículo 93 declara exentos, con sus requisitos, determinados vehículos oficiales, diplomáticos, sanitarios, de movilidad reducida, de transporte público urbano y agrícolas.
+
+La exención presupone que se realiza el hecho imponible; la no sujeción significa que no nace.
+
+## Errores frecuentes
+
+1. Confundir titularidad y uso.
+2. Considerar que una avería elimina el impuesto.
+3. Olvidar permisos temporales y matrícula turística.
+4. Aplicar incorrectamente el límite de 750 kg.
+5. Confundir no sujeción y exención.
+
+
+
+## Artículo 94
+
+Son sujetos pasivos las personas físicas, jurídicas y entidades del artículo 35.4 LGT **a cuyo nombre conste el vehículo en el permiso de circulación**.
+
+La regla es registral. No depende de:
+
+- quién conduce habitualmente;
+- quién pagó el vehículo;
+- quién soporta los gastos;
+- pactos privados no reflejados en el permiso.
+
+Una venta no actualizada ante Tráfico puede mantener como sujeto pasivo a quien todavía aparece en el permiso de circulación.
+
+## Municipio competente
+
+Como complemento, el impuesto corresponde al Ayuntamiento del domicilio que figure en el permiso. No depende del lugar donde el vehículo circule más tiempo.
+
+## Cuadro de examen
+
+| Situación | Consecuencia |
+|---|---|
+| Vehículo matriculado y averiado | sujeto mientras siga de alta |
+| Permiso temporal | apto y sujeto |
+| Remolque de 700 kg | no sujeto |
+| Remolque de 900 kg | puede estar sujeto |
+| Ambulancia | sujeta pero exenta |
+| Venta sin actualizar el permiso | continúa el titular registral |
+| Baja registral | deja de ser apto en los términos legales |
+
+## Supuestos
+
+### Coche guardado sin circular
+
+Continúa sujeto si está matriculado y no ha causado baja.
+
+### Vehículo vendido sin transferencia registral
+
+Frente al Ayuntamiento sigue siendo sujeto pasivo quien figura en el permiso.
+
+### Remolque de 750 kg exactos
+
+No está sujeto porque la ley excluye los que no superan ese límite.
+
+## Errores frecuentes
+
+1. Identificar al conductor como sujeto pasivo.
+2. Confundir propietario económico y titular registral.
+3. Ignorar el permiso de circulación.
+4. Elegir el municipio según el lugar de uso habitual.
+
 
 ---
 
 ## 5. iivtnu
 
-**Estado:** APROBADO POR EL USUARIO
 
-1. [Naturaleza, hecho imponible y no sujeción](bloque-05a-iivtnu-hecho.md)
-2. [Sujetos pasivos y supuestos](bloque-05b-iivtnu-sujetos.md)
+## Artículo 104.1 · naturaleza y hecho imponible
+
+El IIVTNU es un impuesto directo, real, instantáneo, municipal y potestativo. Solo puede exigirse si el Ayuntamiento lo establece mediante ordenanza fiscal.
+
+Grava el incremento de valor que experimentan los terrenos urbanos cuando se manifiesta por:
+
+- transmisión de la propiedad por cualquier título;
+- constitución de un derecho real de goce limitativo del dominio;
+- transmisión de ese derecho real.
+
+Deben concurrir terreno urbano, operación transmisiva o constitutiva y existencia de incremento. El impuesto no grava la construcción, sino el incremento correspondiente al terreno.
+
+## Artículo 104.2 · terrenos rústicos
+
+No está sujeto el incremento de terrenos rústicos a efectos del IBI.
+
+Sí pueden quedar sujetos:
+
+- terrenos urbanos a efectos del IBI;
+- terrenos integrados en inmuebles de características especiales.
+
+La referencia legal es la clasificación a efectos del IBI.
+
+## Artículo 104.3 · operaciones familiares
+
+No se produce sujeción, entre otros supuestos, en:
+
+- aportaciones de bienes y derechos de los cónyuges a la sociedad conyugal;
+- adjudicaciones en pago de esas aportaciones;
+- transmisiones entre cónyuges en pago de haberes comunes;
+- transmisiones entre cónyuges o a favor de hijos derivadas de sentencias de nulidad, separación o divorcio;
+- el supuesto especial añadido por la legislación de 2022 para determinadas transmisiones gratuitas familiares vinculadas a un fallecimiento protegido por esa norma.
+
+## Artículo 104.4 · operaciones vinculadas a SAREB
+
+La ley contiene reglas específicas de no devengo para determinadas operaciones con SAREB, entidades participadas y fondos de activos bancarios.
+
+Son supuestos tasados, no una exención general de las transmisiones realizadas por entidades financieras.
+
+## Artículo 104.5 · inexistencia de incremento
+
+No existe sujeción cuando se acredita que el terreno no aumentó de valor entre adquisición y transmisión.
+
+La persona interesada debe:
+
+- declarar la transmisión;
+- aportar los títulos de adquisición y transmisión.
+
+Para cada operación se toma el mayor entre:
+
+- el valor documentado;
+- el valor comprobado por la Administración.
+
+No se añaden gastos ni tributos.
+
+Cuando el inmueble incluye suelo y construcción, se aplica a ambos valores la proporción que representa el valor catastral del terreno respecto del valor catastral total en la fecha del devengo.
+
+En adquisiciones o transmisiones gratuitas se emplean, cuando proceda, los valores declarados en el Impuesto sobre Sucesiones y Donaciones.
+
+## Artículo 105 · exenciones como complemento
+
+Entre las exenciones se encuentran, con sus requisitos:
+
+- servidumbres;
+- determinados inmuebles histórico-artísticos;
+- determinadas daciones en pago y ejecuciones hipotecarias de vivienda habitual;
+- incrementos atribuidos a ciertas Administraciones y entidades legalmente enumeradas.
+
+La exención presupone hecho imponible. La falta de incremento es no sujeción.
+
+## Errores frecuentes
+
+1. Considerar obligatorio el IIVTNU.
+2. Gravar terrenos rústicos.
+3. Gravar la construcción.
+4. Presumir siempre incremento.
+5. Añadir gastos o tributos a la comparación.
+6. Confundir no sujeción y exención.
+7. Olvidar que la transmisión debe declararse para acreditar la inexistencia de incremento.
+
+
+
+## Artículo 106 · transmisiones lucrativas
+
+En donaciones, herencias y demás transmisiones gratuitas, es contribuyente:
+
+- quien adquiere el terreno;
+- o quien recibe el derecho real.
+
+Regla de memoria: **lucrativa = adquirente**.
+
+## Artículo 106 · transmisiones onerosas
+
+En compraventas y demás negocios con contraprestación, es contribuyente:
+
+- quien transmite el terreno;
+- o quien constituye o transmite el derecho real.
+
+Regla de memoria: **onerosa = transmitente**.
+
+## Transmitente no residente
+
+Cuando la transmisión es onerosa y el contribuyente es una persona física no residente en España, el adquirente actúa como **sustituto del contribuyente**.
+
+El adquirente no pasa a ser contribuyente; asume la obligación como sustituto por mandato legal.
+
+## Cuadro comparativo
+
+| Operación | Contribuyente |
+|---|---|
+| Donación de terreno urbano | donatario o adquirente |
+| Herencia | heredero o adquirente |
+| Compraventa | vendedor o transmitente |
+| Constitución gratuita de usufructo | beneficiario del derecho |
+| Constitución onerosa de usufructo | quien constituye el derecho |
+| Venta por persona física no residente | transmitente contribuyente; adquirente sustituto |
+| Transmisión sin incremento acreditado | no sujeta |
+
+## Supuestos
+
+### Venta con pérdida
+
+Si se acredita conforme al artículo 104.5 que el terreno no aumentó de valor, la transmisión no está sujeta.
+
+### Donación de vivienda urbana
+
+El donatario es contribuyente, salvo regla especial de no sujeción o exención.
+
+### Venta por persona física no residente
+
+El vendedor sigue siendo contribuyente y el comprador actúa como sustituto.
+
+### Adjudicación por disolución de sociedad conyugal
+
+Puede quedar no sujeta cuando encaja en los supuestos del artículo 104.3.
+
+## Diferencias esenciales
+
+| Concepto | Significado |
+|---|---|
+| Contribuyente | realiza el hecho imponible y ocupa la posición principal |
+| Sustituto | ocupa por ley el lugar del contribuyente frente a la Administración |
+| Adquirente | recibe el terreno o derecho |
+| Transmitente | entrega el terreno o constituye/transmite el derecho |
+
+## Errores frecuentes
+
+1. Invertir adquirente y transmitente.
+2. Aplicar la regla de compraventa a una donación.
+3. Llamar contribuyente al adquirente sustituto del no residente.
+4. Confundir negocio gratuito y oneroso.
+5. Olvidar que una transmisión sin incremento acreditado no llega a generar el impuesto.
+
