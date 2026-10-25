@@ -57,3 +57,50 @@ La propia sede cita como normativa específica:
 2. Publicaciones modificativas de **14/01/2025**, **16/01/2026** y **20/02/2026**, además de cualquier otra posterior aplicable.
 3. **Estatutos oficiales completos y vigentes del OAPGT**, incluidas sus modificaciones.
 4. Matriz **epígrafe–artículo–fecha–plazo/órgano** y preguntas de examen cotejadas con el texto oficial.
+
+
+---
+
+## 6. Verificaciones documentales nuevas — 25/10/2026
+
+### 6.1. Fuente oficial del Acuerdo Regulador y modificaciones
+
+El [portal de Transparencia de la Diputación](https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes) registra **cuatro** entradas relevantes: **28/12/2023**, **14/01/2025**, **16/01/2026** y **20/02/2026**. La lista oficial identifica sus títulos y fechas; **no permite por sí sola reconstruir el texto consolidado de artículos, derechos, permisos o retribuciones**.
+
+| Fuente acreditada | Qué se ha comprobado | Qué no se puede concluir todavía |
+|---|---|---|
+| Portal de Transparencia Diputación | Publicación del acuerdo inicial y **tres modificaciones** | Texto consolidado y vigencia detallada de cada condición laboral |
+| BOP Toledo **246/2023** | Publicación del acuerdo inicial | Aplicabilidad sin integrar reformas |
+| Modificaciones **2025–2026** | Existencia y fechas en fuente institucional | Efectos sobre todos los artículos y cuantías |
+
+> ⚠️ **¡Foco Examen!:** La publicación de una **modificación de convenio o acuerdo** no implica que se haya sustituido íntegramente el texto anterior: hay que verificar **qué preceptos** y **desde cuándo** se modifican.
+
+### 6.2. OAPGT: naturaleza y ámbito de actuación documentados
+
+La [sede electrónica oficial del OAPGT](https://sedeelectronica.oapgt.es/) identifica el organismo y ofrece **Oficina Virtual Tributaria**, servicios de **recibos, domiciliaciones, pagos, reclamaciones y plusvalías**, y un **Registro Electrónico/Instancia General**.
+
+En el **BOP Toledo n.º 119, de 2021**, un documento público recoge que el OAPGT es un **organismo autónomo de carácter administrativo**, constituido por la Diputación Provincial, que presta, entre otras, funciones de **recaudación de tributos y demás ingresos de derecho público** delegados o encomendados por entidades locales y otras Administraciones en los términos legales. Cita expresamente el **artículo 4.1.a de los Estatutos del OAPGT**.
+
+Fuente documental: https://bop.diputoledo.es/webEbop/DocGet?id=21065035%3B0&insert_number=3151&insert_year=2021
+
+| Dato | Soporte documental | Estado |
+|---|---|---|
+| **Diputación Provincial de Toledo** constituye el OAPGT | BOP Toledo n.º 119/2021 | **Contraste parcial documental** |
+| Funciones de gestión/recaudación delegadas o encomendadas | BOP Toledo n.º 119/2021, referencia a **art. 4.1.a** | **Contraste parcial documental** |
+| **Consejo Rector** como órgano mencionado en normativa sobre sede | Sede oficial del OAPGT | **Existencia documentada; competencias por verificar** |
+| **Director del OAPGT** y referencias al **artículo 14** de Estatutos | BOP Toledo n.º 163, de **27/08/2024** | **Existencia documentada; atribuciones generales por verificar** |
+| **Presidencia del OAPGT**, referencia al **artículo 12.2.l.8** de Estatutos | BOP Toledo n.º 109, de **11/06/2024** | **Existencia documentada; atribuciones generales por verificar** |
+
+Documentación oficial complementaria:
+
+- [BOP Toledo n.º 109, de 11/06/2024](https://bop.diputoledo.es/webEbop/DocGet?id=24065781%3B0&insert_number=3051&insert_year=2024).
+- [BOP Toledo n.º 163, de 27/08/2024](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=163&insert_year=2024&publication_date=27082024).
+- [Normativa de sede electrónica del OAPGT](https://sede.oapgt.es/Paginas/Normativa.aspx).
+
+**Límite de evidencia:** los documentos institucionales citan artículos concretos de los **Estatutos**, pero **no sustituyen el texto íntegro y vigente**. No se puede formular todavía un organigrama exhaustivo ni afirmar las competencias estatutarias artículo por artículo.
+
+> ⚠️ **¡Foco Examen!:** Una actuación firmada por el **Director del OAPGT** demuestra que intervino en ese procedimiento; **no permite atribuirle todas las competencias del organismo**. Las facultades de **Presidencia**, **Consejo Rector** y **Dirección** se estudiarán desde los Estatutos actuales.
+
+### 6.3. Estado de cierre
+
+**Tema 6 pendiente de completar, expresamente no validado:** acuerdo íntegro con sus modificaciones y Estatutos vigentes del OAPGT. Estas evidencias parciales ya permiten evitar afirmaciones genéricas, pero no justifican marcar como «Publicado» el tema.
