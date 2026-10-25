@@ -1,0 +1,92 @@
+{
+  "tema": 5,
+  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "version": "2026-10-25",
+  "criterio": "6 preguntas originales, cuatro opciones y una solución, artículos precisos de BOE. Pendiente comprobación editorial integral antes de calificar como definitiva la unidad.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T05-001",
+      "enunciado": "¿Cuáles son los elementos del municipio según el artículo 11.2 de la LRBRL?",
+      "opciones": [
+        "Territorio, población y organización",
+        "Población, presupuesto y bandera",
+        "Término provincial, comarca y distrito",
+        "Alcaldía, diputación y comunidad autónoma"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 11.2 enumera territorio, población y organización.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LRBRL art. 11.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-002",
+      "enunciado": "¿Qué órgano existe en todos los municipios conforme al artículo 20 LRBRL?",
+      "opciones": [
+        "Junta de Gobierno Local",
+        "Comisión Especial de Cuentas",
+        "Comisión Especial de Sugerencias y Reclamaciones",
+        "Consejo Social de Ciudad"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Comisión Especial de Cuentas existe en todos los municipios.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LRBRL art. 20.1.e · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-003",
+      "enunciado": "¿En qué municipios existe necesariamente Junta de Gobierno Local en régimen común por razón de población?",
+      "opciones": [
+        "Más de 1.000 habitantes",
+        "Más de 3.000",
+        "Más de 5.000",
+        "Todos, sin excepción"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Junta de Gobierno Local existe en municipios con población superior a 5.000 y en otros supuestos previstos.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LRBRL art. 20.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-004",
+      "enunciado": "¿Quién garantiza la autonomía de los municipios según la Constitución?",
+      "opciones": [
+        "El artículo 140 de la CE",
+        "El artículo 169 de la CE",
+        "El artículo 55 de la CE",
+        "El artículo 30 de la CE"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 140 CE garantiza autonomía municipal.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "CE art. 140 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DT-C2-T05-005",
+      "enunciado": "¿Qué órgano provincial elige al presidente de la Diputación?",
+      "opciones": [
+        "Los alcaldes por voto postal",
+        "Los ciudadanos por sufragio directo provincial",
+        "El Pleno de la Diputación, entre sus miembros",
+        "El Consejo de Ministros"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El presidente es elegido por los diputados provinciales según LOREG.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LOREG art. 207 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+    },
+    {
+      "id": "DT-C2-T05-006",
+      "enunciado": "¿Cuál es la competencia propia característica de las Diputaciones del artículo 36 LRBRL?",
+      "opciones": [
+        "Aprobar leyes orgánicas",
+        "Prestar asistencia y cooperación jurídica, económica y técnica a municipios",
+        "Dictar sentencias judiciales",
+        "Nombrar a todos los alcaldes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 36 recoge asistencia y cooperación a los municipios, especialmente a los de menor capacidad.",
+      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "referencia": "LRBRL art. 36.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    }
+  ]
+}
