@@ -1,0 +1,92 @@
+{
+  "tema": 15,
+  "estado": "BORRADOR_TEST_CON_REFERENCIAS",
+  "version": "2026-10-25",
+  "criterio": "Seis preguntas originales con cuatro opciones. Legislación BOE y documentación técnica de fabricante o documentación pública identificadas como fuentes. No son preguntas oficiales.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T15-001",
+      "enunciado": "Según el artículo 8.1 de la Ley 40/2015, la competencia de un órgano administrativo es...",
+      "opciones": [
+        "Renunciable por acuerdo verbal",
+        "Irrenunciable y se ejerce por el órgano que la tenga atribuida, salvo excepciones legales",
+        "Transferible libremente a cualquier empresa",
+        "Delegada siempre al secretario"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 8.1 establece irrenunciabilidad y excepciones de delegación o avocación.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 40/2015, art. 8.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DT-C2-T15-002",
+      "enunciado": "¿Qué efecto produce la delegación de competencias sobre su titularidad?",
+      "opciones": [
+        "Transfiere la titularidad permanentemente",
+        "No altera la titularidad, sí los elementos determinantes de su ejercicio",
+        "Extingue la competencia",
+        "Convierte el órgano en entidad local"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La delegación no supone cesión de titularidad de la competencia.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 40/2015, art. 8.1 y 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DT-C2-T15-003",
+      "enunciado": "¿Qué técnica permite a un órgano superior asumir el conocimiento de asuntos cuya resolución corresponde ordinariamente o por delegación a órganos dependientes, en los casos legales?",
+      "opciones": [
+        "Avocación",
+        "Suplencia",
+        "Revocación tributaria",
+        "Empadronamiento"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 10 regula la avocación.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 40/2015, art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DT-C2-T15-004",
+      "enunciado": "¿La encomienda de gestión del artículo 11 de la Ley 40/2015 cede la titularidad de la competencia?",
+      "opciones": [
+        "Sí, automáticamente",
+        "No",
+        "Sí, si hay tres órganos implicados",
+        "Sí, si se publica en una web"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El art. 11.2 establece que no supone cesión de la titularidad ni de elementos sustantivos de su ejercicio.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 40/2015, art. 11.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DT-C2-T15-005",
+      "enunciado": "¿Qué artículo regula la abstención de autoridades y personal al servicio de las Administraciones?",
+      "opciones": [
+        "Artículo 23",
+        "Artículo 61",
+        "Artículo 74",
+        "Artículo 95"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 23 regula las causas y el deber de abstención.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 40/2015, art. 23 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DT-C2-T15-006",
+      "enunciado": "¿Qué artículo regula la recusación en los supuestos previstos legalmente?",
+      "opciones": [
+        "Artículo 12",
+        "Artículo 24",
+        "Artículo 40",
+        "Artículo 68"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 24 regula la recusación.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 40/2015, art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    }
+  ]
+}
