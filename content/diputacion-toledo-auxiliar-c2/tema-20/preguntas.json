@@ -1,0 +1,92 @@
+{
+  "tema": 20,
+  "estado": "BORRADOR_TEST_CON_REFERENCIAS",
+  "version": "2026-10-25",
+  "criterio": "Seis preguntas originales con cuatro opciones. Legislación BOE y documentación técnica de fabricante o documentación pública identificadas como fuentes. No son preguntas oficiales.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T20-001",
+      "enunciado": "¿Qué componente ejecuta instrucciones y operaciones generales de un ordenador?",
+      "opciones": [
+        "CPU",
+        "Memoria USB",
+        "Monitor",
+        "Escáner"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La unidad central de procesamiento (CPU) ejecuta instrucciones del sistema.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Arquitectura del ordenador · https://www.intel.com/content/www/es/es/products/docs/processors/what-is-a-cpu.html"
+    },
+    {
+      "id": "DT-C2-T20-002",
+      "enunciado": "¿Qué memoria se utiliza habitualmente para alojar datos e instrucciones en ejecución, y es volátil?",
+      "opciones": [
+        "RAM",
+        "Blu-ray grabable",
+        "DVD-ROM",
+        "Disco duro magnético"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La RAM proporciona memoria de trabajo volátil.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Componentes del ordenador · https://www.ibm.com/think/topics/ram"
+    },
+    {
+      "id": "DT-C2-T20-003",
+      "enunciado": "¿Cuál de los siguientes es un dispositivo de entrada?",
+      "opciones": [
+        "Escáner",
+        "Impresora láser",
+        "Altavoz",
+        "Proyector"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El escáner capta información de documentos físicos y la introduce en el sistema.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Periféricos de entrada · https://support.microsoft.com/es-es/windows"
+    },
+    {
+      "id": "DT-C2-T20-004",
+      "enunciado": "¿Qué describe mejor un SSD externo?",
+      "opciones": [
+        "Unidad de almacenamiento no volátil con tecnología de estado sólido",
+        "Un módulo de RAM que se borra al apagar",
+        "Un monitor táctil",
+        "Un dispositivo exclusivamente de impresión"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Un SSD almacena datos de forma no volátil y puede presentarse como unidad externa.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Almacenamiento · https://www.ibm.com/think/topics/solid-state-drives"
+    },
+    {
+      "id": "DT-C2-T20-005",
+      "enunciado": "¿Qué significa DVD-RW?",
+      "opciones": [
+        "Disco óptico DVD regrabable",
+        "Disco DVD únicamente de lectura",
+        "Memoria RAM de escritorio",
+        "Puerto de red Wi-Fi"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "RW identifica soporte óptico regrabable, a diferencia de ROM o R.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Medios ópticos · https://www.verbatim-europe.com/en/disc-types"
+    },
+    {
+      "id": "DT-C2-T20-006",
+      "enunciado": "¿Qué diferencia esencial existe entre un disco duro externo y una memoria USB de tipo pendrive?",
+      "opciones": [
+        "Los dos pueden almacenar información; la tecnología y el formato físico pueden diferir",
+        "Una memoria USB es siempre un dispositivo de salida de audio",
+        "Un disco externo es necesariamente memoria RAM",
+        "Ambos son exclusivamente lectores de DVD"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Son soportes de almacenamiento y no equivalen a memoria de trabajo; pueden tener tecnologías distintas.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Periféricos y almacenamiento · https://www.ibm.com/think/topics/data-storage"
+    }
+  ]
+}
