@@ -1,0 +1,120 @@
+{
+  "tema": 12,
+  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "version": "2026-10-25",
+  "criterio": "8 preguntas originales de cuatro opciones, respuesta inequívoca y referencia precisa a BOE consolidado, comprobado a 25/10/2026. No son preguntas oficiales; auditoría integral de manual pendiente.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T12-001",
+      "enunciado": "¿Qué recargo corresponde si se satisface toda la deuda pendiente antes de que se notifique la providencia de apremio?",
+      "opciones": [
+        "5 %",
+        "10 %",
+        "15 %",
+        "20 %"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 28.2 LGT establece recargo ejecutivo del 5 %.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 28.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-002",
+      "enunciado": "¿Qué recargo se aplica cuando se paga toda la deuda y el propio recargo antes de finalizar el plazo del artículo 62.5 LGT?",
+      "opciones": [
+        "3 %",
+        "5 %",
+        "10 %",
+        "20 %"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 28.3 fija el recargo de apremio reducido del 10 %.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 28.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-003",
+      "enunciado": "¿Cuál es el recargo de apremio ordinario?",
+      "opciones": [
+        "5 %",
+        "10 %",
+        "15 %",
+        "20 %"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 28.4 establece el recargo ordinario del 20 %.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 28.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-004",
+      "enunciado": "¿Con qué recargo pueden exigirse intereses de demora desde el inicio del período ejecutivo, según el artículo 28?",
+      "opciones": [
+        "Con el de apremio ordinario",
+        "Con el ejecutivo del 5 %",
+        "Con el reducido del 10 %",
+        "Con ninguno"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 28.5 hace compatible el ordinario con intereses, y excluye esos intereses en los otros dos casos.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 28.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-005",
+      "enunciado": "¿Cómo comienza el procedimiento de apremio?",
+      "opciones": [
+        "Mediante providencia notificada al obligado tributario",
+        "Automáticamente al emitir una factura",
+        "Con un mensaje de correo informal",
+        "Con el simple fin del ejercicio presupuestario"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 167.1 LGT exige providencia de apremio notificada.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 167.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-006",
+      "enunciado": "Una liquidación administrativa se notifica el día 10 de un mes. ¿Hasta cuándo puede pagarse en período voluntario, como regla general?",
+      "opciones": [
+        "Hasta el día 20 del mes siguiente, o siguiente hábil",
+        "Hasta el día 5 del segundo mes siguiente",
+        "Exactamente diez días naturales",
+        "Hasta el día 20 del mismo mes"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Para notificaciones entre el día 1 y el 15, el artículo 62.2.a LGT prevé hasta el día 20 del mes siguiente o siguiente hábil.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 62.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-007",
+      "enunciado": "Una liquidación administrativa se notifica el día 20 de un mes. ¿Qué plazo general de ingreso voluntario corresponde?",
+      "opciones": [
+        "Hasta el día 20 del mes siguiente",
+        "Hasta el día 5 del segundo mes siguiente, o siguiente hábil",
+        "Hasta el siguiente día natural",
+        "Hasta el día 15 del mismo mes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Las notificaciones entre el 16 y el último día se rigen por el artículo 62.2.b LGT.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 62.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-008",
+      "enunciado": "¿Qué efecto tiene una solicitud de aplazamiento presentada en período voluntario durante su tramitación, en términos del artículo 161.2 LGT?",
+      "opciones": [
+        "Impide el inicio del período ejecutivo mientras se tramita, conforme a la ley",
+        "Extingue automáticamente toda la deuda",
+        "Anula cualquier liquidación",
+        "Convierte siempre la deuda en sanción"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 161.2 impide el inicio del período ejecutivo durante la tramitación de solicitudes de aplazamiento, fraccionamiento o compensación en período voluntario.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 161.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    }
+  ]
+}
