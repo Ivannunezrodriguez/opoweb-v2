@@ -22,12 +22,12 @@
       "id": "DT-C2-T20-002",
       "enunciado": "¿Qué memoria se utiliza habitualmente para alojar datos e instrucciones en ejecución, y es volátil?",
       "opciones": [
+        "Disco duro magnético",
         "RAM",
         "Blu-ray grabable",
-        "DVD-ROM",
-        "Disco duro magnético"
+        "DVD-ROM"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "La RAM proporciona memoria de trabajo volátil.",
       "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
       "referencia": "Componentes del ordenador · https://www.ibm.com/think/topics/ram"
@@ -36,12 +36,12 @@
       "id": "DT-C2-T20-003",
       "enunciado": "¿Cuál de los siguientes es un dispositivo de entrada?",
       "opciones": [
-        "Escáner",
-        "Impresora láser",
         "Altavoz",
-        "Proyector"
+        "Proyector",
+        "Escáner",
+        "Impresora láser"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "El escáner capta información de documentos físicos y la introduce en el sistema.",
       "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
       "referencia": "Periféricos de entrada · https://support.microsoft.com/es-es/windows"
@@ -50,12 +50,12 @@
       "id": "DT-C2-T20-004",
       "enunciado": "¿Qué describe mejor un SSD externo?",
       "opciones": [
-        "Unidad de almacenamiento no volátil con tecnología de estado sólido",
         "Un módulo de RAM que se borra al apagar",
         "Un monitor táctil",
-        "Un dispositivo exclusivamente de impresión"
+        "Un dispositivo exclusivamente de impresión",
+        "Unidad de almacenamiento no volátil con tecnología de estado sólido"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Un SSD almacena datos de forma no volátil y puede presentarse como unidad externa.",
       "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
       "referencia": "Almacenamiento · https://www.ibm.com/think/topics/solid-state-drives"
@@ -78,12 +78,12 @@
       "id": "DT-C2-T20-006",
       "enunciado": "¿Qué diferencia esencial existe entre un disco duro externo y una memoria USB de tipo pendrive?",
       "opciones": [
+        "Ambos son exclusivamente lectores de DVD",
         "Los dos pueden almacenar información; la tecnología y el formato físico pueden diferir",
         "Una memoria USB es siempre un dispositivo de salida de audio",
-        "Un disco externo es necesariamente memoria RAM",
-        "Ambos son exclusivamente lectores de DVD"
+        "Un disco externo es necesariamente memoria RAM"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Son soportes de almacenamiento y no equivalen a memoria de trabajo; pueden tener tecnologías distintas.",
       "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
       "referencia": "Periféricos y almacenamiento · https://www.ibm.com/think/topics/data-storage"
