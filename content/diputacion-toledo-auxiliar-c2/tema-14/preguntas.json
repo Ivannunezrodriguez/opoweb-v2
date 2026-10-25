@@ -1,0 +1,92 @@
+{
+  "tema": 14,
+  "estado": "BORRADOR_TEST_CON_REFERENCIAS",
+  "version": "2026-10-25",
+  "criterio": "Seis preguntas originales con cuatro opciones. Legislación BOE y documentación técnica de fabricante o documentación pública identificadas como fuentes. No son preguntas oficiales.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T14-001",
+      "enunciado": "¿En cuáles de estas actuaciones exige con carácter general la Ley 39/2015 firma del interesado?",
+      "opciones": [
+        "Para consultar información general",
+        "Para interponer un recurso administrativo",
+        "Para abrir la web institucional",
+        "Para leer una notificación ya recibida"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El art. 11.2 incluye interponer recursos entre los actos para los que se requiere firma.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 39/2015, art. 11.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T14-002",
+      "enunciado": "¿Qué artículo de la Ley 39/2015 diferencia sistemas de identificación de los interesados?",
+      "opciones": [
+        "Artículo 9",
+        "Artículo 45",
+        "Artículo 82",
+        "Artículo 125"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 9 establece sistemas de identificación de interesados.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 39/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T14-003",
+      "enunciado": "¿Qué artículo de la Ley 39/2015 se refiere a los sistemas de firma admitidos por las Administraciones Públicas?",
+      "opciones": [
+        "Artículo 10",
+        "Artículo 63",
+        "Artículo 115",
+        "Artículo 40"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 10 regula los sistemas de firma admitidos.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 39/2015, art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T14-004",
+      "enunciado": "¿Cuál es el límite máximo general del período de vigencia de un certificado electrónico cualificado según la Ley 6/2020?",
+      "opciones": [
+        "Un año",
+        "Tres años",
+        "Cinco años",
+        "Diez años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 4.2 dispone que no será superior a cinco años.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 6/2020, art. 4.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+    },
+    {
+      "id": "DT-C2-T14-005",
+      "enunciado": "¿Qué instrumento de las Administraciones Públicas garantiza la identificación de la sede electrónica y la comunicación segura con ella?",
+      "opciones": [
+        "Certificado de autenticación de sitio web o de sede conforme al régimen aplicable",
+        "Una captura de pantalla sin firma",
+        "Una contraseña compartida públicamente",
+        "El nombre escrito en un documento"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los certificados permiten acreditar autenticidad de los sitios/sedes; su régimen específico figura en normativa de administración electrónica.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 40/2015, art. 38 y RD 203/2021 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DT-C2-T14-006",
+      "enunciado": "¿Qué opción constituye una causa de revocación de un certificado electrónico conforme a la Ley 6/2020?",
+      "opciones": [
+        "Compromiso del secreto de los datos de creación de firma",
+        "Visualizar la página web del emisor",
+        "Descargar un PDF público",
+        "Cambiar el color del navegador"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El art. 5 contempla la violación o puesta en peligro del secreto de los datos de creación de firma.",
+      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "referencia": "Ley 6/2020, art. 5.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+    }
+  ]
+}
