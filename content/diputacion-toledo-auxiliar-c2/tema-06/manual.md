@@ -104,3 +104,46 @@ Documentación oficial complementaria:
 ### 6.3. Estado de cierre
 
 **Tema 6 pendiente de completar, expresamente no validado:** acuerdo íntegro con sus modificaciones y Estatutos vigentes del OAPGT. Estas evidencias parciales ya permiten evitar afirmaciones genéricas, pero no justifican marcar como «Publicado» el tema.
+
+---
+
+## 7. Genealogía documental de los Estatutos del OAPGT: documentos localizados
+
+**Importante: fuentes históricas, NO texto consolidado vigente certificado.**
+
+Se han localizado referencias a la aprobación de los Estatutos iniciales en **1996** y a una modificación cuyo contenido fue publicado en el BOP de Toledo del **23/12/2004**. Esas publicaciones permiten conocer la genealogía normativa del organismo, pero no prueban por sí solas que todos sus artículos sigan redactados del mismo modo en **2026**.
+
+| Hito | Documento de referencia | Valor a efectos de examen |
+|---|---|---|
+| **27/09/1996** | Aprobación plenaria de los Estatutos iniciales, publicación en BOP **11/10/1996** | **Histórico**, pendiente de cotejar modificaciones |
+| **21/12/2004** | Acuerdo plenario de aprobación inicial de modificación, BOP **23/12/2004** | **Histórico**: identifica artículos reformados y propuesta estatutaria; no se presume su vigencia actual |
+| **2021** | Documento institucional de la Diputación con referencia al **art. 4.a** de Estatutos | Evidencia de aplicación de una atribución concreta en **2021** |
+| **20/02/2026** | Bases de OAPGT publicadas en BOP **n.º 34**, que citan **art. 12.2.l.8** | Evidencia de invocación de esa competencia en **2026** |
+
+**Fuente histórica de búsqueda:** [BOP de Toledo, 23/12/2004](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/2004/12/23). Este sitio reproduce el boletín histórico, **no reemplaza la consulta del original oficial**.
+
+**Fuentes institucionales más recientes:**
+- [Diputación de Toledo — expediente institucional de 2021](https://www.diputoledo.es/global/ver-pdf/30613).
+- [BOP Toledo n.º 34 de 20/02/2026 — bases del OAPGT](https://bop.diputoledo.es/webEbop/DocGet?id=26020780%3B0&insert_number=813&insert_year=2026).
+
+### 7.1. Órganos cuya existencia se puede documentar
+
+| Órgano | Evidencia encontrada | Atribuciones vigentes completas |
+|---|---|---|
+| **Presidencia del OAPGT** | Resoluciones oficiales con cita del art. **12** de Estatutos | **No comprobadas íntegramente** |
+| **Consejo Rector del OAPGT** | Acuerdo de creación de sede en normativa de OAPGT | **No comprobadas íntegramente** |
+| **Dirección del OAPGT** | Resoluciones con cita del art. **14** y ficha DIR3 del Punto de Acceso General | **No comprobadas íntegramente** |
+
+**Fuente adicional:** [Directorio DIR3 — OAPGT, unidad LA0000580](https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580).
+
+> ⚠️ **¡Foco Examen!:** La referencia a un artículo estatutario en un acto de **2026** acredita el fundamento invocado para **ese acto**, pero **no autoriza a reconstruir otras competencias** del mismo órgano. Las preguntas sobre composición, nombramientos, delegación y mayorías requieren el **Estatuto íntegro vigente**.
+
+### 7.2. Documentación pendiente para cerrar este tema
+
+1. Localizar publicación íntegra y **definitiva** de los Estatutos y todas sus modificaciones posteriores.
+2. Construir texto de trabajo consolidado, conservando la **literalidad de cada artículo vigente** y su fuente de publicación.
+3. Integrar la versión vigente del **Acuerdo Regulador**, incluidas las modificaciones publicadas entre **2023 y 2026**.
+4. Diferenciar **órganos provinciales** de **órganos propios del OAPGT**.
+5. Sólo entonces redactar tabla cerrada de competencias, atribuciones, composición, nombramiento y régimen de acuerdos.
+
+**Resultado de esta comprobación:** no se declara cerrado el tema 6. Se ha reducido la incertidumbre documental, sin inventar el texto estatutario consolidado.
