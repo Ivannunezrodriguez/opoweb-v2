@@ -1,0 +1,120 @@
+{
+  "tema": 3,
+  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "version": "2026-10-25",
+  "criterio": "8 preguntas originales por tema, referencias a artículos del BOE consolidado; revisión editorial adicional pendiente. No son preguntas oficiales.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T3-001",
+      "enunciado": "¿Qué artículo de la Ley 39/2015 establece los derechos del interesado en un procedimiento administrativo?",
+      "opciones": [
+        "Artículo 13",
+        "Artículo 53",
+        "Artículo 30",
+        "Artículo 125"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 53 regula los derechos específicos del interesado en el procedimiento.",
+      "trampaExamen": "Ley 39/2015, art. 53",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T3-002",
+      "enunciado": "¿Qué artículo enumera las formas de iniciación del procedimiento administrativo?",
+      "opciones": [
+        "Artículo 54",
+        "Artículo 96",
+        "Artículo 121",
+        "Artículo 106"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 54 indica iniciación de oficio o a solicitud del interesado.",
+      "trampaExamen": "Ley 39/2015, art. 54",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T3-003",
+      "enunciado": "¿Qué duración general tiene el trámite de audiencia, según el artículo 82.2?",
+      "opciones": [
+        "De cinco a siete días",
+        "No inferior a diez ni superior a quince días",
+        "Siempre treinta días",
+        "Exactamente un mes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 82.2 fija un plazo no inferior a diez días ni superior a quince, con las excepciones de la ley.",
+      "trampaExamen": "Ley 39/2015, art. 82.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T3-004",
+      "enunciado": "¿Qué artículo regula la tramitación simplificada del procedimiento administrativo común?",
+      "opciones": [
+        "Artículo 96",
+        "Artículo 24",
+        "Artículo 122",
+        "Artículo 15"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 96 contiene los requisitos y especialidades de la tramitación simplificada.",
+      "trampaExamen": "Ley 39/2015, art. 96",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T3-005",
+      "enunciado": "¿Cuál es el plazo general para resolver procedimientos tramitados de forma simplificada, salvo que reste menos para su tramitación ordinaria?",
+      "opciones": [
+        "Quince días",
+        "Treinta días",
+        "Tres meses",
+        "Un año"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 96.6 establece treinta días desde la notificación del acuerdo de tramitación simplificada, salvo que reste menos para tramitarlo ordinariamente.",
+      "trampaExamen": "Ley 39/2015, art. 96.6",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T3-006",
+      "enunciado": "¿Qué artículo contempla la terminación convencional como modalidad de finalización?",
+      "opciones": [
+        "Artículo 86",
+        "Artículo 106",
+        "Artículo 34",
+        "Artículo 120"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 86 regula acuerdos, pactos, convenios o contratos que pueden producir los efectos previstos en él.",
+      "trampaExamen": "Ley 39/2015, art. 86",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T3-007",
+      "enunciado": "¿Cuál de las siguientes figuras puede poner fin a un procedimiento administrativo?",
+      "opciones": [
+        "El desistimiento, en los términos legales",
+        "Un cambio de funcionario sin más",
+        "Una llamada telefónica informal",
+        "La copia de un documento"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El desistimiento se contempla como modo de terminación, con requisitos del artículo 94.",
+      "trampaExamen": "Ley 39/2015, arts. 84 y 94",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    },
+    {
+      "id": "DT-C2-T3-008",
+      "enunciado": "¿Qué es necesario, con carácter general, para que una Administración inicie actuaciones materiales de ejecución que limiten derechos?",
+      "opciones": [
+        "Resolución que sirva de fundamento jurídico",
+        "La mera instrucción verbal del interesado",
+        "La publicación en un blog",
+        "La petición de una empresa privada"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 97 exige resolución que sirva de fundamento jurídico y su notificación al particular interesado.",
+      "trampaExamen": "Ley 39/2015, art. 97",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+    }
+  ]
+}
