@@ -305,20 +305,31 @@ function renderTest(theme, questions) {
 function activateTest(questions) {
   document.querySelector('#test-form')?.addEventListener('submit', event => {
     event.preventDefault();
+    const answers = new FormData(event.currentTarget);
     let correctCount = 0;
+    let wrongCount = 0;
+    let blankCount = 0;
     questions.forEach((question, index) => {
-      const selected = Number(new FormData(event.currentTarget).get(`q-${index}`));
-      const hasAnswer = Number.isInteger(selected);
+      const raw = answers.get(`q-${index}`);
+      // FormData.get devuelve null en blanco: Number(null) === 0 NO es una respuesta.
+      const hasAnswer = raw !== null && raw !== '';
+      const selected = hasAnswer ? Number(raw) : -1;
       const correct = hasAnswer && selected === question.correct;
       if (correct) correctCount += 1;
+      else if (hasAnswer) wrongCount += 1;
+      else blankCount += 1;
       const feedback = document.querySelector(`#feedback-${index}`);
       feedback.hidden = false;
-      feedback.className = `answer-feedback ${correct ? 'correct' : 'incorrect'}`;
-      feedback.innerHTML = `<strong>${correct ? 'Correcta' : 'Incorrecta'}.</strong> ${escapeHtml(question.explanation)}${question.trap ? `<br><em>Trampa: ${escapeHtml(question.trap)}</em>` : ''}${question.reference ? `<br><small>Referencia: ${escapeHtml(question.reference)}</small>` : ''}`;
+      feedback.className = `answer-feedback ${correct ? 'correct' : hasAnswer ? 'incorrect' : ''}`;
+      const verdict = !hasAnswer ? 'Sin contestar' : correct ? 'Correcta' : 'Incorrecta';
+      feedback.innerHTML = `<strong>${verdict}.</strong> ${escapeHtml(question.explanation)}${question.trap ? `<br><em>Trampa: ${escapeHtml(question.trap)}</em>` : ''}${question.reference ? `<br><small>Referencia: ${escapeHtml(question.reference)}</small>` : ''}`;
     });
-    const result = document.createElement('div');
-    result.className = 'notice';
-    result.innerHTML = `<strong>Resultado: ${correctCount}/${questions.length}</strong> · ${Math.round((correctCount / questions.length) * 100)} %`;
+    // Convocatoria C2 Diputación: 50 preguntas, +0,20 por acierto y -0,05 por error.
+    // Los minitests se convierten a escala sobre diez preservando esa proporción.
+    const score10 = Math.max(0, (correctCount - wrongCount * 0.25) * 10 / questions.length);
+    const result = event.currentTarget.querySelector('.test-result') || document.createElement('div');
+    result.className = 'notice test-result';
+    result.innerHTML = `<strong>Resultado: ${correctCount} aciertos, ${wrongCount} errores y ${blankCount} en blanco</strong> · Puntuación equivalente: ${score10.toFixed(2).replace('.', ',')}/10 (sin contestar: 0; error: -0,25 aciertos)`;
     event.currentTarget.prepend(result);
     result.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
