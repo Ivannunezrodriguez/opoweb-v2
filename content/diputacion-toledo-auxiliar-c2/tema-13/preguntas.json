@@ -1,0 +1,120 @@
+{
+  "tema": 13,
+  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "version": "2026-10-25",
+  "criterio": "8 preguntas originales de cuatro opciones, respuesta inequívoca y referencia precisa a BOE consolidado, comprobado a 25/10/2026. No son preguntas oficiales; auditoría integral de manual pendiente.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T13-001",
+      "enunciado": "¿Cuál de estos impuestos es de exacción obligatoria por los ayuntamientos, según el artículo 59.1 TRLRHL?",
+      "opciones": [
+        "Impuesto sobre Bienes Inmuebles",
+        "Impuesto sobre Construcciones, Instalaciones y Obras",
+        "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+        "Ambos anteriores, ICIO e IIVTNU"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 59.1 incluye IBI, IAE e IVTM entre los impuestos que exigirán los ayuntamientos.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 59.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-002",
+      "enunciado": "¿Cuál es la naturaleza del IBI según el artículo 60 TRLRHL?",
+      "opciones": [
+        "Impuesto indirecto sobre el consumo",
+        "Tributo directo de carácter real que grava el valor de inmuebles",
+        "Tasa de expedición de certificados",
+        "Precio público voluntario"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 60 define el IBI como tributo directo de carácter real sobre el valor de los bienes inmuebles.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 60 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-003",
+      "enunciado": "¿Qué hecho imponible caracteriza al Impuesto sobre Actividades Económicas?",
+      "opciones": [
+        "El mero ejercicio en territorio nacional de actividades empresariales, profesionales o artísticas",
+        "La venta de cualquier vivienda usada",
+        "El nacimiento de personas físicas",
+        "Únicamente la tenencia de un automóvil"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 78.1 TRLRHL se refiere al mero ejercicio de actividades empresariales, profesionales o artísticas.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 78.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-004",
+      "enunciado": "¿Qué grava el Impuesto sobre Vehículos de Tracción Mecánica?",
+      "opciones": [
+        "La titularidad de vehículos aptos para circular por vías públicas",
+        "Cada repostaje en una gasolinera",
+        "Toda compraventa de un vehículo usado",
+        "Solo el estacionamiento regulado"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 92.1 TRLRHL grava la titularidad de vehículos aptos para circular por las vías públicas.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 92.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-005",
+      "enunciado": "¿Qué impuesto grava el incremento de valor de terrenos urbanos manifestado al transmitirlos o constituir o transmitir determinados derechos reales?",
+      "opciones": [
+        "Impuesto sobre Actividades Económicas",
+        "Impuesto sobre Vehículos",
+        "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+        "Impuesto sobre Bienes Inmuebles"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 104.1 TRLRHL define el hecho imponible del IIVTNU.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 104.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-006",
+      "enunciado": "¿Cuáles son los tres impuestos municipales de exacción obligatoria enumerados en el artículo 59.1 TRLRHL?",
+      "opciones": [
+        "IBI, IAE e IVTM",
+        "IBI, ICIO e IIVTNU",
+        "ICIO, IIVTNU y tasas",
+        "Solo IBI e IAE"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La enumeración legal del apartado primero comprende Bienes Inmuebles, Actividades Económicas y Vehículos de Tracción Mecánica.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 59.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-007",
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el IIVTNU es correcta?",
+      "opciones": [
+        "Siempre se exige aunque no exista incremento de valor",
+        "La transmisión de terrenos urbanos puede integrarlo, pero la inexistencia de incremento acreditada está contemplada como no sujeción",
+        "Grava el mero uso de cualquier vehículo",
+        "Sustituye al IBI cada año"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 104.5 regula la no sujeción cuando se constata inexistencia de incremento conforme a sus requisitos.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 104.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-008",
+      "enunciado": "¿Qué impuesto municipal tiene como hecho imponible el mero ejercicio de actividades aunque no se ejerzan en un local determinado?",
+      "opciones": [
+        "IAE",
+        "IBI",
+        "IVTM",
+        "IIVTNU"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 78.1 contempla expresamente actividades ejercidas o no en local determinado.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 78.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    }
+  ]
+}
