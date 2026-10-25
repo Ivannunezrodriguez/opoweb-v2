@@ -1,0 +1,148 @@
+{
+  "tema": 18,
+  "estado": "BORRADOR_CON_REFERENCIAS_PRIMARIAS",
+  "version": "2026-10-25",
+  "criterio": "10 preguntas originales de opción múltiple (4 opciones, una correcta) sobre LibreOffice 24.2, creadas con referencia a la documentación de The Document Foundation. No son preguntas oficiales.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T18-001",
+      "enunciado": "¿Qué componente de LibreOffice 24 está destinado a procesar documentos de texto?",
+      "opciones": [
+        "Calc",
+        "Writer",
+        "Impress",
+        "Base"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Writer es el procesador de textos de LibreOffice.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+    },
+    {
+      "id": "DT-C2-T18-002",
+      "enunciado": "¿Cuál de los siguientes es el formato nativo habitual de documento de Writer?",
+      "opciones": [
+        ".ods",
+        ".odt",
+        ".pptx",
+        ".csv"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "ODT (OpenDocument Text) es el formato abierto de documentos de texto utilizado por Writer.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+    },
+    {
+      "id": "DT-C2-T18-003",
+      "enunciado": "¿Qué recurso permite mantener una presentación uniforme en títulos y párrafos de un documento Writer?",
+      "opciones": [
+        "Estilos",
+        "Borrar historial",
+        "Filtros automáticos",
+        "Tablas dinámicas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los estilos proporcionan conjuntos reutilizables de propiedades de formato.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+    },
+    {
+      "id": "DT-C2-T18-004",
+      "enunciado": "¿Qué diferencia fundamental existe entre un salto de página y un estilo de página en Writer?",
+      "opciones": [
+        "El salto decide dónde comienza una nueva página; el estilo controla propiedades de la página",
+        "Ambos son lo mismo",
+        "El estilo solo corrige ortografía",
+        "El salto cambia todos los márgenes del documento"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El salto controla el avance a otra página; el estilo de página configura propiedades como márgenes, encabezado o pie.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+    },
+    {
+      "id": "DT-C2-T18-005",
+      "enunciado": "¿Qué herramienta de Writer permite generar cartas personalizadas usando un documento modelo y una fuente de datos?",
+      "opciones": [
+        "Combinación de correspondencia",
+        "AutoFiltro",
+        "Administrador de escenarios",
+        "Tabla dinámica"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La combinación de correspondencia une un documento modelo con datos variables para generar cartas, etiquetas o sobres.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2414-MailMerge.html"
+    },
+    {
+      "id": "DT-C2-T18-006",
+      "enunciado": "En la combinación de correspondencia de Writer, ¿de dónde suelen proceder los nombres y direcciones variables?",
+      "opciones": [
+        "De una fuente de datos",
+        "De los estilos de página",
+        "De la caché del navegador",
+        "Del pie de página exclusivamente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La guía Writer 24.2 describe la creación o registro de una fuente de datos para la combinación.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2414-MailMerge.html"
+    },
+    {
+      "id": "DT-C2-T18-007",
+      "enunciado": "¿Qué diferencia existe entre guardar un documento ODT y exportarlo como PDF?",
+      "opciones": [
+        "Guardar conserva el formato editable elegido; exportar crea un documento PDF",
+        "Exportar siempre borra el ODT",
+        "Guardar siempre convierte a imagen",
+        "Ambos producen obligatoriamente el mismo archivo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Guardar en ODT y exportar a PDF son operaciones de salida con formatos distintos.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+    },
+    {
+      "id": "DT-C2-T18-008",
+      "enunciado": "¿Cuál es la función de una tabla de contenido automática de Writer?",
+      "opciones": [
+        "Recoger encabezados estructurados del documento",
+        "Cambiar la extensión de los archivos",
+        "Eliminar páginas vacías sin intervención",
+        "Ordenar un listado tributario mediante filtros"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La tabla de contenido puede generarse a partir de la estructura de títulos del documento.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+    },
+    {
+      "id": "DT-C2-T18-009",
+      "enunciado": "¿Qué elemento es el más adecuado para numerar dinámicamente las páginas en Writer?",
+      "opciones": [
+        "Un campo de número de página",
+        "Texto fijo con la cifra 1",
+        "El nombre del archivo",
+        "Un hipervínculo externo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los campos pueden insertar contenidos dinámicos, como números de página.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+    },
+    {
+      "id": "DT-C2-T18-010",
+      "enunciado": "¿Qué caracteriza al formato directo frente al uso de estilos en Writer?",
+      "opciones": [
+        "Se aplica a una selección concreta sin necesariamente reutilizar un estilo",
+        "Sólo existe al exportar a PDF",
+        "Es obligatorio para generar índices",
+        "Convierte el documento en hoja de cálculo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El formato directo actúa sobre la selección; los estilos agrupan atributos reutilizables.",
+      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+    }
+  ]
+}
