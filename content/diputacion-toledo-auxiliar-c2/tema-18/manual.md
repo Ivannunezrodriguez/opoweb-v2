@@ -71,3 +71,96 @@ Un documento puede crearse, abrirse, editarse y guardarse como **ODT**, o export
 4. Comprobar formatos, valores y opciones dependientes de la configuración de idioma, tipo de archivo y plataforma.
 
 **No marcar este tema PUBLICADO hasta completar estos controles.**
+
+
+---
+
+## 6. Funciones de Writer 24.2 contrastadas con su guía oficial (ampliación)
+
+La **Guía Writer 24.2** de The Document Foundation está organizada en capítulos de edición, páginas, estilos, plantillas, tablas, correspondencia, índices, campos y formularios. Las secciones siguientes explican esos conceptos y enlazan el capítulo que los desarrolla. **No se atribuyen rutas de menú no comprobadas**.
+
+### 6.1. Edición frente a formato y estructura
+
+- **Edición**: insertar, borrar, copiar, mover y sustituir contenido; operaciones que cambian el texto.
+- **Formato directo**: establece un atributo concreto sobre un fragmento seleccionado.
+- **Estilo de párrafo**: define propiedades repetibles de párrafo; permite mantener consistencia en documentos largos.
+- **Estilo de carácter**: aplica propiedades a una secuencia de caracteres sin sustituir el estilo del párrafo.
+- **Estilo de página**: define el formato de las páginas asociadas, incluidos elementos como márgenes, encabezados y pies.
+- **Plantilla**: documento base con contenido y configuración reutilizables.
+
+| Acción | Cambia el texto | Cambia el aspecto | Afecta a la estructura |
+|---|---|---|---|
+| Reemplazar una palabra | Sí | No necesariamente | No necesariamente |
+| Aplicar negrita | No | Sí | No necesariamente |
+| Aplicar estilo de Título 1 | No | Sí | Sí, al estructurar encabezados |
+| Insertar tabla | Sí, el contenido del documento | Puede | Sí |
+| Aplicar un estilo de página | No | Sí | Sí, distribución de páginas |
+
+**Referencia:** [Writer 24.2, capítulos 2, 4, 5, 8, 9 y 10](https://books.libreoffice.org/en/WG24/WG24.html).
+
+> ⚠️ **¡Foco Examen!:** Un **título visual** escrito en negrita no equivale necesariamente a un **encabezado estructural** con estilo de título. Esta diferencia influye en la generación automática de índices.
+
+### 6.2. Saltos, páginas y numeración
+
+En Writer deben diferenciarse:
+
+- **Salto de línea:** continúa el texto en la línea siguiente dentro del mismo párrafo.
+- **Salto de párrafo:** termina un párrafo e inicia otro.
+- **Salto de página:** traslada el contenido siguiente a una nueva página.
+- **Estilo de página:** permite establecer características para páginas o secuencias de páginas distintas.
+- **Campo de número de página:** contenido dinámico asociado a la paginación.
+
+**Supuesto administrativo:** un documento contiene portada y cuerpo principal con distinta presentación. El usuario debe distinguir entre modificar márgenes en todo el documento y aplicar **estilos de página** adecuados a cada parte.
+
+**Referencia:** [Guía Writer 24.2, capítulos 5 y 6](https://books.libreoffice.org/en/WG24/WG24.html).
+
+> ⚠️ **¡Foco Examen!:** Insertar un **salto de página** no es lo mismo que cambiar el **estilo de página**; un salto no garantiza por sí solo márgenes diferentes.
+
+### 6.3. Tablas, imágenes y objetos
+
+Las **tablas** distribuyen información en filas y columnas con celdas; no son imágenes estáticas. Las imágenes insertadas o vinculadas pueden contar con propiedades de tamaño, posición, anclaje y ajuste del texto según el documento y su configuración. Los **objetos incrustados** tienen comportamiento distinto del texto o de una imagen simple.
+
+| Objeto | Función principal | Riesgo frecuente en test |
+|---|---|---|
+| Tabla | Distribuir información editable en celdas | Confundir tabla con tabulaciones o imagen |
+| Imagen | Insertar elemento gráfico | Confundir anclaje y ajuste del texto |
+| Campo | Mostrar información dinámica | Confundir campo con texto fijo |
+| Forma | Representar elemento gráfico editable | Confundir forma con imagen de mapa de bits |
+
+**Referencia:** [Guía Writer 24.2, capítulos 11, 13, 17 y 19](https://books.libreoffice.org/en/WG24/WG24.html).
+
+### 6.4. Combinar correspondencia y generar índices
+
+- **Combinar correspondencia** permite producir documentos personalizados a partir de un modelo y una fuente de datos. La fuente puede contener, por ejemplo, nombre, dirección o localidad de cada destinatario.
+- **Tabla de contenido** puede construirse a partir de la estructura de encabezados del documento.
+- **Índice alfabético** no es equivalente a una tabla de contenido: responde a otras entradas y criterios.
+- **Documento maestro** permite organizar proyectos extensos con otros documentos.
+
+**Referencia:** [Guía Writer 24.2, capítulos 14 a 16](https://books.libreoffice.org/en/WG24/WG24.html).
+
+> ⚠️ **¡Foco Examen!:** En una **combinación de correspondencia**, el documento modelo y la **fuente de datos** son elementos distintos. Una tabla de contenido no debe confundirse con un índice alfabético.
+
+### 6.5. Imprimir, publicar y exportar
+
+- **Guardar** mantiene el documento en un formato editable compatible.
+- **Guardar como** permite seleccionar otro nombre, ubicación o formato cuando se admita.
+- **Exportar a PDF** crea un archivo PDF separado, sin transformar necesariamente el original editable en PDF.
+- **Imprimir** envía el contenido a un dispositivo o destino de impresión seleccionado.
+- **Firma digital** y **protección por contraseña** no son sinónimos y proporcionan controles diferentes.
+
+**Referencia:** [Guía Writer 24.2, capítulo 7](https://books.libreoffice.org/en/WG24/WG24.html).
+
+## 7. Práctica guiada de examen — Writer 24
+
+**Caso de entrenamiento (ejemplo didáctico propio, no pregunta oficial):** una oficina necesita elaborar 50 cartas con el mismo cuerpo y datos individuales.
+
+1. Crear un modelo de carta en Writer.
+2. Definir estilos de título, texto y página de forma consistente.
+3. Preparar o vincular una fuente de datos con los destinatarios.
+4. Utilizar la función de **combinación de correspondencia** para personalizar cada carta.
+5. Revisar datos, formato, encabezado y pie.
+6. Preparar salida impresa o exportación PDF cuando proceda.
+
+**Solución conceptual:** se usa **combinación de correspondencia**, no se editan manualmente 50 cartas una por una.
+
+**Cierre pendiente:** cotejar rutas concretas de la interfaz española para cada paso de la versión instalada en el examen.
