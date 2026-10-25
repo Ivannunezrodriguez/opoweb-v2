@@ -1,19 +1,14 @@
-# La Puebla de Montalbán · Tema 1
+# Diputación de Toledo · Auxiliar Administrativo C2 · Tema 1
 
-**Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
-
----
+**Estado editorial:** BORRADOR ADAPTADO · pendiente de revisión normativa específica a octubre de 2026.
 
 ## 1. Epígrafe oficial literal
 
 > **Tema 1. La Constitución española de 1978. Estructura. La reforma constitucional. Derechos y deberes fundamentales de los españoles. Garantía y suspensión.**
 
-Fuente del programa: BOP de Toledo núm. 82, de 5 de mayo de 2026, Anexo I de las bases de cuatro plazas de Auxiliar Administrativo del Ayuntamiento de La Puebla de Montalbán, código de verificación `2026.00001965`.
+Fuente: BOP Toledo número 197, de 14 de octubre de 2026, Anexo XI, código 2026.00004759; BOE-A-2026-21908.
 
-La propia convocatoria advierte que se exigirá la legislación vigente en la fecha de las pruebas. Por ello se utiliza la Constitución consolidada con la reforma del artículo 69.3 publicada el 20 de mayo de 2026 y la redacción vigente del artículo 49 desde febrero de 2024.
-
----
+Este manual reutiliza como base el tema 1 de La Puebla (revisado en julio de 2026), cuyo epígrafe es coincidente. No equivale a una auditoría de vigencia cerrada a la fecha del examen.
 
 ## 2. Matriz epígrafe–norma–artículos
 
