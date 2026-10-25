@@ -1,0 +1,53 @@
+{
+  "convocatoriaId": "diputacion-toledo-auxiliar-c2-2026",
+  "actualizadoEl": "2026-10-25",
+  "situacionPersonal": {
+    "inscrito": false,
+    "estado": "PENDIENTE_PRESENTAR_SOLICITUD"
+  },
+  "plazas": {
+    "total": 4,
+    "turnoLibre": 3,
+    "reservaDiscapacidad": 1
+  },
+  "sistema": "OPOSICION_LIBRE",
+  "fechas": {
+    "bop": "2026-10-14",
+    "boe": "2026-10-21",
+    "inicioSolicitudes": "2026-10-22",
+    "finSolicitudesPrevisto": "2026-11-19",
+    "fechaExamen": null,
+    "nota": "El final previsto debe comprobarse contra calendario oficial de días inhábiles y sede."
+  },
+  "tasa": {
+    "general": 16,
+    "familiaNumerosaGeneral": 8,
+    "condicion": "Reducción condicionada a acreditación y límite de rentas según base 4.4"
+  },
+  "examen": {
+    "primerEjercicio": {
+      "preguntas": 50,
+      "reserva": 5,
+      "minutos": 60,
+      "acierto": 0.2,
+      "error": -0.05,
+      "minimo": 5
+    },
+    "segundoEjercicio": {
+      "tipo": "Práctico según tribunal",
+      "minimo": 5
+    }
+  },
+  "bolsa": "Aprobar al menos el primer ejercicio",
+  "fuentes": [
+    {
+      "nombre": "BOP",
+      "referencia": "BOP Toledo 197 de 14/10/2026; código 2026.00004759"
+    },
+    {
+      "nombre": "BOE",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21908"
+    }
+  ],
+  "siguienteHito": "Presentar solicitud y obtener justificante registral"
+}
