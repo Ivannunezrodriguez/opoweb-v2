@@ -25,6 +25,16 @@ const CALLS = [
     practiceUrl: 'practice.html'
   },
   {
+    id: 'diputacion-toledo-auxiliar-c2-2026',
+    label: 'Diputación Provincial de Toledo · Auxiliar Administrativo C2 (2026)',
+    shortLabel: 'Diputación de Toledo · Auxiliar C2',
+    programmeUrl: 'data/programa-diputacion-auxiliar-c2-2026.json',
+    trackingUrl: 'data/seguimiento-diputacion-auxiliar-c2-2026.json',
+    contentRoot: 'content/diputacion-toledo-auxiliar-c2',
+    availableThemes: 20,
+    practiceUrl: 'practice.html'
+  },
+  {
     id: 'uc3m-auxiliar-administrativa-c2-2026',
     label: 'Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2',
     shortLabel: 'UC3M · Auxiliar C2',
