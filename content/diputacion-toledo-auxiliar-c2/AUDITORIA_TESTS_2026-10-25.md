@@ -456,3 +456,35 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **104 / 138 preguntas** individualmente revisadas en los temas **1–5, 7–16**.
 - **34 preguntas** todavía pendientes de auditoría técnica: temas **17–20**.
 - **Tema 6** sin banco y manuales en estado **BORRADOR**.
+
+
+---
+
+## 19. Auditoría técnica tema 17 — **26/10/2026**
+
+**Epígrafe oficial:** «Microsoft Windows 11 Pro II. Navegación por Internet con Microsoft Edge. Uso del correo electrónico con Microfocus GroupWise 24».
+
+**Documentación de fabricante cotejada:** [Microsoft, atajos Edge](https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge), [Microsoft, InPrivate](https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge), [GroupWise 24, redacción de mensajes](https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html) y [GroupWise 24, mensajes enviados y seguimiento](https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sentmail_workingwithsentmail.html).
+
+**Hallazgo previo:** las **ocho preguntas** del banco original eran exclusivamente sobre GroupWise; no evaluaban Microsoft Edge, exigido expresamente en el epígrafe. Se mantienen cinco preguntas de GroupWise y se sustituyen tres redundantes por Edge.
+
+| Pregunta | Materia | Resultado |
+|---|---|---|
+| **T17-001** | **GroupWise 24** | **New Mail** para correo nuevo |
+| **T17-002** | **GroupWise 24** | **+Bc** muestra copia oculta y **+Cc** copia visible |
+| **T17-003** | **GroupWise 24** | **Bc** no visible para los demás destinatarios |
+| **T17-004** | **Edge** | **SUSTITUIDA** por atajo **Ctrl + Mayús + N** para abrir ventana InPrivate |
+| **T17-005** | **Edge** | **SUSTITUIDA** por significado de InPrivate: reduce rastros locales, **no es anonimato**, los archivos descargados pueden seguir guardados |
+| **T17-006** | **GroupWise 24** | **Sent Items** para enviados; el seguimiento depende de configuración |
+| **T17-007** | **Edge** | **SUSTITUIDA** por **Ctrl + J** (Descargas) frente a **Ctrl + H** (Historial) |
+| **T17-008** | **GroupWise 24** | **Delivered** no significa necesariamente **Opened**; configuración y sistemas externos condicionan seguimiento |
+
+**Resultado:** ocho preguntas revisadas, tres sustituidas para asegurar la cobertura de los dos productos oficiales. Cotejo documental del fabricante, **sin prueba práctica en cliente GroupWise instalado** ni auditoría íntegra del manual.
+
+> ⚠️ **¡Foco Examen!:** **Edge InPrivate no garantiza anonimato** ni borra automáticamente los archivos descargados. **Ctrl + J** abre **Descargas** y **Ctrl + H**, **Historial**. En **GroupWise**, **entregado** no demuestra **abierto**; el seguimiento se consulta conforme a las opciones de envío y configuración.
+
+### Balance tras el tema 17
+
+- **112 / 138 preguntas** con auditoría jurídica/técnica individual documentada: temas **1–5, 7–17**.
+- **26 preguntas** aún pendientes: temas **18, 19 y 20**.
+- El **tema 6** sigue sin banco de preguntas propio; los manuales permanecen en estado **BORRADOR**.
