@@ -2,7 +2,7 @@
   "tema": 17,
   "estado": "BORRADOR_VERIFICADO_PARCIAL",
   "version": "2026-10-25",
-  "criterio": "Preguntas originales didácticas, cuatro opciones y una respuesta correcta; referencia al fabricante GroupWise 24, no examen oficial.",
+  "criterio": "Ocho preguntas originales contrastadas el 26/10/2026 con documentación Microsoft Edge y OpenText GroupWise 24; tres sobre Edge y cinco sobre GroupWise. No son preguntas oficiales.",
   "preguntas": [
     {
       "id": "DT-C2-T17-001",
@@ -14,8 +14,8 @@
         "New Note"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La guía GroupWise 24 Client indica seleccionar New Mail en la barra de herramientas.",
-      "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
+      "justificacion": "La guía oficial **GroupWise 24 Client** indica que **New Mail** abre la redacción de un nuevo mensaje y permite especificar los destinatarios en **To** o por medio de **Address**.",
+      "trampaExamen": "**New Mail** es nuevo correo; **New Appointment**, **New Task** y **New Note** crean elementos distintos.",
       "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
     },
     {
@@ -28,8 +28,8 @@
         "Find"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El manual oficial especifica +Cc para copia visible y +Bc para copia oculta.",
-      "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
+      "justificacion": "Al redactar en GroupWise 24, **+Cc** muestra el campo de copia visible y **+Bc** muestra el campo de copia oculta, según la guía de la versión 24.",
+      "trampaExamen": "La interfaz GroupWise 24 utiliza **+Bc** para copia oculta; no asumir que el botón se denomina **CCO** como en otros clientes.",
       "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
     },
     {
@@ -42,37 +42,37 @@
         "El mensaje se guarda como borrador"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La guía describe Bc como copia oculta a los demás destinatarios.",
-      "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
+      "justificacion": "La guía de GroupWise 24 establece que los destinatarios de **Bc** son ocultos para los demás destinatarios y que ni siquiera una respuesta mediante **Reply to All** los incorpora normalmente.",
+      "trampaExamen": "Los destinatarios de **Bc** reciben el mensaje, pero no figuran en la información de destinatarios que reciben los demás.",
       "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
     },
     {
       "id": "DT-C2-T17-004",
-      "enunciado": "Según la guía GroupWise Client 24, ¿qué uso tiene la opción Address al redactar?",
+      "enunciado": "En Microsoft Edge para Windows 11, ¿qué combinación abre una nueva ventana de navegación InPrivate?",
       "opciones": [
-        "Cambiar la unidad de disco de los adjuntos",
-        "Borrar la bandeja de entrada",
-        "Configurar el navegador Microsoft Edge",
-        "Abrir una libreta de direcciones y localizar destinatarios"
+        "Ctrl + T",
+        "Ctrl + J",
+        "Ctrl + D",
+        "Ctrl + Mayús + N"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La guía ofrece Address como alternativa a teclear usuarios en To.",
-      "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
-      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
+      "justificacion": "La documentación de métodos abreviados de Microsoft Edge para Windows identifica **Ctrl + Mayús + N** con la apertura de una nueva ventana **InPrivate**. **Ctrl + T** abre una pestaña normal, **Ctrl + J** abre descargas y **Ctrl + D** guarda la pestaña como favorita.",
+      "trampaExamen": "**Ctrl + Mayús + N** abre ventana InPrivate; **Ctrl + N** abre ventana normal. Las pestañas privadas no equivalen a anonimato.",
+      "referencia": "Microsoft Edge, métodos abreviados de teclado · https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge"
     },
     {
       "id": "DT-C2-T17-005",
-      "enunciado": "¿Qué ocurre si se modifica el archivo original de un adjunto local después de enviar el correo?",
+      "enunciado": "¿Qué afirmación describe correctamente la navegación InPrivate de Microsoft Edge?",
       "opciones": [
-        "El adjunto enviado no se cambia automáticamente",
-        "Se retracta el correo enviado",
-        "El mensaje se elimina de Sent Items",
-        "Se actualiza el adjunto ya recibido"
+        "Al cerrar todas las ventanas InPrivate se eliminan del dispositivo datos de esa sesión como historial y cookies, pero no se garantiza anonimato frente a la red o los sitios",
+        "Impide que cualquier sitio web conozca la dirección IP",
+        "Elimina permanentemente todos los archivos descargados al cerrar la ventana",
+        "Bloquea siempre al centro de trabajo la posibilidad de conocer actividad de red"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La guía 24 indica que cambiar el archivo adjuntado después del envío no hace visibles esos cambios a los destinatarios.",
-      "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
-      "referencia": "https://www.novell.com/documentation/groupwise24/pdfdoc/gw_guide_userwin/gw_guide_userwin.pdf"
+      "justificacion": "Microsoft Edge elimina al cerrar todas las ventanas InPrivate el historial de navegación, las cookies y determinados datos locales de la sesión. **No proporciona anonimato** frente al proveedor de Internet, centro de trabajo o sitios visitados, y las **descargas** pueden permanecer guardadas.",
+      "trampaExamen": "**InPrivate limita rastros locales**, pero no borra necesariamente los **archivos descargados** ni oculta automáticamente la actividad a la organización.",
+      "referencia": "Microsoft Support, exploración InPrivate en Edge · https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge"
     },
     {
       "id": "DT-C2-T17-006",
@@ -84,23 +84,23 @@
         "Cabinet"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Sent Items reúne los elementos enviados, con particularidades de organización y seguimiento.",
-      "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
-      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/"
+      "justificacion": "La guía GroupWise 24 explica que **Sent Items** permite consultar elementos enviados y su estado de seguimiento si la opción de crear elementos enviados está habilitada.",
+      "trampaExamen": "Si está desactivada la creación de elementos enviados para seguimiento, **puede faltar la copia** y no poder seguirse el estado desde **Sent Items**.",
+      "referencia": "OpenText GroupWise 24, Working with Sent Items · https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sentmail_workingwithsentmail.html"
     },
     {
       "id": "DT-C2-T17-007",
-      "enunciado": "¿Qué diferencia existe entre Mailbox y Sent Items según GroupWise 24?",
+      "enunciado": "En Microsoft Edge para Windows 11, ¿qué atajo abre la lista de descargas?",
       "opciones": [
-        "Ambas carpetas son exactamente la misma vista",
-        "Sent Items solo muestra citas",
-        "Mailbox reúne principalmente elementos recibidos y Sent Items los enviados",
-        "Mailbox solo contiene adjuntos y Sent Items los borradores"
+        "Ctrl + H",
+        "Ctrl + P",
+        "Ctrl + J",
+        "Ctrl + W"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El manual de carpeta Mailbox distingue los elementos recibidos de los enviados visibles en Sent Items.",
-      "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
-      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/getstart_folderlist_mailbox.html"
+      "justificacion": "Según Microsoft, **Ctrl + J** abre **Descargas**. **Ctrl + H** abre Historial, **Ctrl + P** imprime y **Ctrl + W** cierra la pestaña activa.",
+      "trampaExamen": "**Ctrl + J: Descargas**; **Ctrl + H: Historial**. Borrar el historial no implica eliminar los archivos descargados.",
+      "referencia": "Microsoft Edge, métodos abreviados de teclado · https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge"
     },
     {
       "id": "DT-C2-T17-008",
@@ -112,9 +112,22 @@
         "La entrega no acredita por sí sola que fuese abierto"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Entrega y apertura son datos de seguimiento diferentes, dependientes también de configuración y sistemas externos.",
-      "trampaExamen": "La pregunta exige distinguir la interfaz y el estado real del mensaje; no responder por analogía con Outlook.",
-      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/"
+      "justificacion": "GroupWise 24 diferencia estados **Delivered** (entregado en el buzón) y **Delivered and opened** (entregado y abierto), disponibles en **Properties**, conforme a la configuración de **Status Tracking**. En sistemas externos no siempre se recibe el seguimiento.",
+      "trampaExamen": "**Delivered** no significa **Read**. El estado de lectura/apertura depende del seguimiento habilitado y de la compatibilidad con sistemas externos.",
+      "referencia": "GroupWise 24, Sent Items y Status Tracking · https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sentmail_workingwithsentmail.html"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 8,
+    "fuentes": [
+      "https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge",
+      "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html",
+      "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sentmail_workingwithsentmail.html"
+    ],
+    "articulos": "Documentación técnica Microsoft Edge y OpenText GroupWise 24",
+    "resultado": "Se cotejaron ocho preguntas; se sustituyeron tres de GroupWise por tres de Edge para cubrir los dos productos del epígrafe; se precisaron Bc, Sent Items y estados de seguimiento.",
+    "limitacion": "No se ha realizado prueba práctica en una instalación local de GroupWise 24 ni certificación del manual completo."
+  }
 }
