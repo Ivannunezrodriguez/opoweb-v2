@@ -14,7 +14,7 @@
         "10 %"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El artículo 28.2 LGT establece recargo ejecutivo del 5 %.",
+      "justificacion": "Art. 28.2 LGT: recargo ejecutivo del **5 %** si se paga la totalidad de la deuda no ingresada en voluntaria antes de notificarse la providencia de apremio. No confundir con el recargo de apremio reducido.",
       "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
       "referencia": "LGT art. 28.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
@@ -28,7 +28,7 @@
         "10 %"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El artículo 28.3 fija el recargo de apremio reducido del 10 %.",
+      "justificacion": "Art. 28.3 LGT: recargo de apremio reducido del **10 %** cuando se abonan toda la deuda no ingresada en voluntaria y el propio recargo antes de acabar el plazo para deudas apremiadas del art. 62.5.",
       "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
       "referencia": "LGT art. 28.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
@@ -42,7 +42,7 @@
         "15 %"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 28.4 establece el recargo ordinario del 20 %.",
+      "justificacion": "Art. 28.4 LGT: recargo de apremio ordinario del **20 %** cuando no concurren las condiciones de los recargos ejecutivo o reducido.",
       "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
       "referencia": "LGT art. 28.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
@@ -85,7 +85,7 @@
       ],
       "respuestaCorrecta": 3,
       "justificacion": "Para notificaciones entre el día 1 y el 15, el artículo 62.2.a LGT prevé hasta el día 20 del mes siguiente o siguiente hábil.",
-      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "trampaExamen": "Liquidaciones notificadas entre los días **1 y 15**: plazo hasta el **20 del mes siguiente**, o inmediato hábil posterior. No confundir con el plazo de una providencia de apremio.",
       "referencia": "LGT art. 62.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
@@ -99,12 +99,12 @@
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Las notificaciones entre el 16 y el último día se rigen por el artículo 62.2.b LGT.",
-      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "trampaExamen": "Liquidaciones notificadas entre los días **16 y último del mes**: plazo hasta el **5 del segundo mes posterior**, o inmediato hábil posterior; no es el día 5 del mes siguiente.",
       "referencia": "LGT art. 62.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T12-008",
-      "enunciado": "¿Qué efecto tiene una solicitud de aplazamiento presentada en período voluntario durante su tramitación, en términos del artículo 161.2 LGT?",
+      "enunciado": "Con carácter general, una primera solicitud de aplazamiento presentada durante el período voluntario, sin denegación previa de las solicitudes indicadas en el artículo 161.2 LGT respecto de esa deuda, ¿qué efecto tiene durante su tramitación?",
       "opciones": [
         "Convierte siempre la deuda en sanción",
         "Impide el inicio del período ejecutivo mientras se tramita, conforme a la ley",
@@ -112,9 +112,26 @@
         "Anula cualquier liquidación"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El artículo 161.2 impide el inicio del período ejecutivo durante la tramitación de solicitudes de aplazamiento, fraccionamiento o compensación en período voluntario.",
-      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "justificacion": "El art. 161.2 LGT establece que una solicitud de aplazamiento, fraccionamiento o compensación presentada en período voluntario impide el inicio del período ejecutivo mientras se tramita. Excepción: la norma permite su inicio si antes se había denegado otra solicitud de las previstas respecto de la misma deuda en período voluntario, se abrió un nuevo plazo de ingreso y no se ingresó.",
+      "trampaExamen": "La protección durante la tramitación no es ilimitada: existen excepciones por denegación previa de determinadas solicitudes y falta de ingreso en el nuevo plazo.",
       "referencia": "LGT art. 161.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "norma": "Ley 58/2003 General Tributaria (BOE-A-2003-23186), texto consolidado con última actualización 21/12/2024",
+    "articulosVerificados": [
+      "28.2",
+      "28.3",
+      "28.4",
+      "28.5",
+      "62.2.a",
+      "62.2.b",
+      "161.2",
+      "167.1"
+    ],
+    "preguntasRevisadas": 8,
+    "resultado": "8 cotejadas; pregunta 8 y varias justificaciones precisadas para reflejar excepción y plazos",
+    "limitacion": "Auditoría del banco de preguntas, no del manual ni del reglamento de recaudación íntegros."
+  }
 }
