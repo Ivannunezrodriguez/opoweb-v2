@@ -6,31 +6,31 @@
   "preguntas": [
     {
       "id": "DT-C2-T2-001",
-      "enunciado": "¿Qué artículo de la Ley 39/2015 identifica quiénes tienen condición de interesados en el procedimiento?",
+      "enunciado": "Según la Ley 39/2015, ¿quién tiene condición de interesado aunque no haya iniciado el procedimiento administrativo?",
       "opciones": [
-        "Artículo 4",
-        "Artículo 13",
-        "Artículo 30",
-        "Artículo 96"
+        "Toda persona que simplemente conozca su existencia",
+        "Quien tenga derechos que puedan resultar afectados por la decisión que se adopte",
+        "Exclusivamente el representante del órgano instructor",
+        "Quien haya formulado una consulta informal sin interés afectado"
       ],
-      "respuestaCorrecta": 0,
-      "justificacion": "El artículo 4 determina el concepto de interesado.",
-      "trampaExamen": "Ley 39/2015, art. 4",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 4.1.b reconoce la condición de interesado a quienes, sin haber iniciado el procedimiento, tengan derechos que puedan resultar afectados por la decisión.",
+      "trampaExamen": "No es imprescindible haber iniciado el procedimiento para ser interesado; distingue derechos afectados (art. 4.1.b) de intereses legítimos cuya personación tiene otra condición (art. 4.1.c).",
+      "referencia": "Ley 39/2015, art. 4.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T2-002",
-      "enunciado": "¿Qué artículo enumera los derechos generales de las personas en sus relaciones con las Administraciones Públicas?",
+      "enunciado": "¿Cuál de los siguientes derechos corresponde a las personas en sus relaciones con las Administraciones, con independencia de los derechos específicos del interesado en un procedimiento?",
       "opciones": [
-        "Artículo 53",
-        "Artículo 13",
-        "Artículo 121",
-        "Artículo 106"
+        "Ser asistidas en el uso de medios electrónicos",
+        "Exigir siempre resolución favorable",
+        "Acceder a cualquier expediente ajeno sin restricciones",
+        "Escoger libremente la competencia de un órgano"
       ],
-      "respuestaCorrecta": 1,
-      "justificacion": "El artículo 13 recoge los derechos generales; el 53, los específicos del interesado en un procedimiento.",
-      "trampaExamen": "Ley 39/2015, art. 13",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 13.b reconoce la asistencia en el uso de medios electrónicos; el propio artículo 13 distingue estos derechos generales de los del artículo 53 para interesados.",
+      "trampaExamen": "Art. 13: derechos generales de las personas; art. 53: derechos específicos de los interesados en el procedimiento.",
+      "referencia": "Ley 39/2015, art. 13.b y 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T2-003",
@@ -44,7 +44,7 @@
       "respuestaCorrecta": 2,
       "justificacion": "El artículo 14.2 incluye a las personas jurídicas entre los obligados.",
       "trampaExamen": "Ley 39/2015, art. 14.2.a",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+      "referencia": "Ley 39/2015, art. 14.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T2-004",
@@ -56,9 +56,9 @@
         "Los sábados, domingos y festivos"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Los plazos expresados en días son hábiles salvo previsión contraria y excluyen sábados, domingos y festivos.",
+      "justificacion": "Art. 30.2: en los plazos señalados por días, la regla supletoria es cómputo en días hábiles, excluyendo sábados, domingos y festivos. Una ley o el Derecho de la UE pueden disponer otro cómputo.",
       "trampaExamen": "Ley 39/2015, art. 30.2",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+      "referencia": "Ley 39/2015, art. 30.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T2-005",
@@ -70,9 +70,9 @@
         "Nunca se prorroga"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 30.5 prorroga el vencimiento al primer día hábil siguiente.",
+      "justificacion": "Art. 30.5: si el último día del plazo es inhábil, se prorroga al primer día hábil siguiente. Se aplica sin perjuicio del calendario y de las reglas específicas de registro electrónico.",
       "trampaExamen": "Ley 39/2015, art. 30.5",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+      "referencia": "Ley 39/2015, art. 30.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T2-006",
@@ -84,9 +84,9 @@
         "Siempre un mes"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La ampliación no puede exceder de la mitad de los plazos establecidos y debe cumplir las condiciones legales.",
+      "justificacion": "Art. 32.1: salvo disposición contraria, cabe ampliación no superior a la mitad del plazo original si las circunstancias lo aconsejan y no se perjudican derechos de tercero. Debe notificarse el acuerdo.",
       "trampaExamen": "Ley 39/2015, art. 32.1",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+      "referencia": "Ley 39/2015, art. 32.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T2-007",
@@ -98,9 +98,9 @@
         "Sólo por correo electrónico"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El artículo 32.3 dispone que en ningún caso puede ampliarse un plazo ya vencido.",
+      "justificacion": "Art. 32.3: la petición y decisión sobre ampliación deben producirse antes del vencimiento. Un plazo ya vencido no es ampliable por esta vía.",
       "trampaExamen": "Ley 39/2015, art. 32.3",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+      "referencia": "Ley 39/2015, art. 32.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T2-008",
@@ -112,9 +112,27 @@
         "Tres meses"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El artículo 21.3 establece tres meses cuando las normas reguladoras no fijan el plazo máximo, con reglas sobre inicio del cómputo.",
-      "trampaExamen": "Ley 39/2015, art. 21.3",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 · undefined"
+      "justificacion": "Art. 21.3: si la norma del procedimiento no fija plazo máximo, serán tres meses. Los arts. 21.2 y 21.3 incluyen un límite general de seis meses salvo norma con rango de ley o Derecho UE, y reglas de inicio según iniciación de oficio o a solicitud.",
+      "trampaExamen": "Tres meses cuando no se fije otro plazo (art. 21.3); no confundir con el límite general de seis meses del art. 21.2, que admite excepciones legalmente previstas.",
+      "referencia": "Ley 39/2015, art. 21.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 8,
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+    "ultimaActualizacionBOE": "06/11/2024",
+    "articulos": [
+      "4.1.b",
+      "13",
+      "14.2.a",
+      "21.2–21.3",
+      "30.2",
+      "30.5",
+      "32.1",
+      "32.3"
+    ],
+    "resultado": "Ocho respuestas cotejadas; se corrigieron las ocho referencias defectuosas («undefined»); se sustituyeron dos preguntas memorísticas por reglas materiales; se precisaron excepciones y plazos.",
+    "limitacion": "No acredita auditoría completa del manual del tema 2 ni pruebas en navegador."
+  }
 }
