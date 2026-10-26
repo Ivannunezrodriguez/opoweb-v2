@@ -2,7 +2,7 @@
   "tema": 14,
   "estado": "BORRADOR_TEST_CON_REFERENCIAS",
   "version": "2026-10-25",
-  "criterio": "Seis preguntas originales con cuatro opciones. Legislación BOE y documentación técnica de fabricante o documentación pública identificadas como fuentes. No son preguntas oficiales.",
+  "criterio": "Seis preguntas originales revisadas el 26/10/2026 contra legislación BOE/EUR-Lex y documentación FNMT. No son preguntas oficiales. Manual en borrador.",
   "preguntas": [
     {
       "id": "DT-C2-T14-001",
@@ -14,37 +14,37 @@
         "Para abrir la web institucional"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El art. 11.2 incluye interponer recursos entre los actos para los que se requiere firma.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "El artículo 11.2.c de la Ley 39/2015 exige obligatoriamente la **firma para interponer recursos**, al igual que para formular solicitudes, presentar declaraciones responsables o comunicaciones, desistir de acciones y renunciar a derechos.",
+      "trampaExamen": "**Identificarse no siempre equivale a firmar**. Firmar es obligatorio en los cinco tipos de actuación del artículo 11.2.",
       "referencia": "Ley 39/2015, art. 11.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T14-002",
-      "enunciado": "¿Qué artículo de la Ley 39/2015 diferencia sistemas de identificación de los interesados?",
+      "enunciado": "¿Qué certificado se utiliza específicamente para respaldar el sello electrónico de una persona jurídica, conforme al Reglamento eIDAS?",
       "opciones": [
-        "Artículo 45",
-        "Artículo 82",
-        "Artículo 125",
-        "Artículo 9"
+        "Un certificado cualificado de sello electrónico",
+        "Un certificado académico",
+        "Un certificado de empadronamiento",
+        "Una licencia de software sin criptografía"
       ],
-      "respuestaCorrecta": 3,
-      "justificacion": "El artículo 9 establece sistemas de identificación de interesados.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Ley 39/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "respuestaCorrecta": 0,
+      "justificacion": "El Reglamento (UE) 910/2014 distingue los **certificados cualificados de sello electrónico** de los certificados cualificados de firma electrónica. El sello identifica a su creador y ayuda a garantizar origen e integridad; la firma electrónica se vincula a un firmante persona física.",
+      "trampaExamen": "**Firma electrónica: persona física firmante**. **Sello electrónico: persona jurídica creadora del sello**. No confundir ambos certificados.",
+      "referencia": "Reglamento (UE) 910/2014, arts. 3, 35–36 y anexo III · https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
     },
     {
       "id": "DT-C2-T14-003",
-      "enunciado": "¿Qué artículo de la Ley 39/2015 se refiere a los sistemas de firma admitidos por las Administraciones Públicas?",
+      "enunciado": "Según el artículo 22 del Reglamento eIDAS, ¿qué instrumento informa sobre prestadores cualificados y los servicios de confianza cualificados que ofrecen?",
       "opciones": [
-        "Artículo 10",
-        "Artículo 63",
-        "Artículo 115",
-        "Artículo 40"
+        "Un listado de domicilios municipales",
+        "Un registro de usuarios de correo",
+        "Las listas de confianza que mantienen y publican los Estados miembros",
+        "Un inventario de impresoras"
       ],
-      "respuestaCorrecta": 0,
-      "justificacion": "El artículo 10 regula los sistemas de firma admitidos.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Ley 39/2015, art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 22 del Reglamento (UE) 910/2014 obliga a cada Estado miembro a **establecer, mantener y publicar listas de confianza** con información sobre los prestadores cualificados de servicios de confianza y los servicios cualificados prestados.",
+      "trampaExamen": "Estar en una **lista de confianza** como prestador cualificado es distinto de tener instalada cualquier autoridad emisora en un navegador.",
+      "referencia": "Reglamento (UE) 910/2014, art. 22.1 · https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
     },
     {
       "id": "DT-C2-T14-004",
@@ -56,23 +56,23 @@
         "Un año"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El artículo 4.2 dispone que no será superior a cinco años.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "El artículo 4.2 de la Ley 6/2020 determina que el período de vigencia de los **certificados cualificados no será superior a cinco años**; el período concreto depende de la tecnología y características empleadas.",
+      "trampaExamen": "**Máximo de cinco años** no significa que todos los certificados tengan obligatoriamente cinco años de vigencia.",
       "referencia": "Ley 6/2020, art. 4.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
     },
     {
       "id": "DT-C2-T14-005",
-      "enunciado": "Según el artículo 11.2 de la Ley 39/2015, ¿cuál de estas actuaciones exige, con carácter general, el uso obligatorio de firma?",
+      "enunciado": "Según las indicaciones de la FNMT, ¿qué diferencia existe entre solicitar un certificado en tarjeta criptográfica y solicitarlo en software?",
       "opciones": [
-        "Acceder a las preguntas frecuentes",
-        "Consultar el horario de una oficina pública",
-        "Presentar una solicitud administrativa",
-        "Leer información pública en una sede electrónica"
+        "La tarjeta siempre permite copiar libremente la clave privada",
+        "Ambos obligan a publicar la clave privada",
+        "El certificado software nunca puede copiarse para respaldo",
+        "La clave privada creada en tarjeta no puede exportarse, mientras que el certificado software puede exportarse con sus claves para respaldo"
       ],
-      "respuestaCorrecta": 2,
-      "justificacion": "El artículo 11.2.a exige firma para formular solicitudes.",
-      "trampaExamen": "Identificación para consultar información no es lo mismo que firma obligatoria al presentar una solicitud.",
-      "referencia": "Ley 39/2015, art. 11.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "respuestaCorrecta": 3,
+      "justificacion": "La FNMT explica que cuando el certificado se genera en **tarjeta criptográfica**, la **clave privada no puede exportarse**; en la modalidad **software**, puede exportarse el certificado con su clave privada y hacerse copia de seguridad, siempre custodiada y protegida.",
+      "trampaExamen": "No confundir **exportar certificado público** con **exportar certificado y clave privada**. La clave privada nunca debe facilitarse a terceros.",
+      "referencia": "FNMT, pregunta frecuente 1213 sobre certificados en tarjeta o software · https://www.sede.fnmt.gob.es/ca/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1213-que-diferencia-hay-entre-solicitar-un-certificado-en-tarjeta-criptografica-y-solicitarlo-en-software-"
     },
     {
       "id": "DT-C2-T14-006",
@@ -84,9 +84,27 @@
         "Compromiso del secreto de los datos de creación de firma"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El art. 5 contempla la violación o puesta en peligro del secreto de los datos de creación de firma.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "El artículo 5.1.b de la Ley 6/2020 establece revocación ante **violación o puesta en peligro del secreto de los datos de creación** de firma, sello o autenticación web, o utilización indebida de dichos datos por terceros.",
+      "trampaExamen": "**Revocación** por compromiso de claves y **caducidad** por fin del período de vigencia son causas distintas de extinción.",
       "referencia": "Ley 6/2020, art. 5.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 6,
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
+      "https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa",
+      "https://www.sede.fnmt.gob.es/ca/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1213-que-diferencia-hay-entre-solicitar-un-certificado-en-tarjeta-criptografica-y-solicitarlo-en-software-"
+    ],
+    "normativa": [
+      "Ley 39/2015, art. 11.2",
+      "Ley 6/2020, arts. 4.2 y 5.1.b",
+      "Reglamento (UE) 910/2014, arts. 3 y 22 y anexo III",
+      "FNMT FAQ 1213"
+    ],
+    "resultado": "Se han contrastado seis respuestas. Se sustituyeron tres preguntas redundantes o memorísticas por distinción sello/firma, listas de confianza y soportes software/tarjeta; se reforzaron explicaciones y trampas.",
+    "limitacion": "Auditoría del banco de seis preguntas, no del manual completo ni comprobación visual en navegador."
+  }
 }
