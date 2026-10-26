@@ -76,17 +76,32 @@
     },
     {
       "id": "DT-C2-T15-006",
-      "enunciado": "¿Qué artículo regula la recusación en los supuestos previstos legalmente?",
+      "enunciado": "Si la persona recusada niega la causa de recusación, ¿en qué plazo debe resolver su superior según el artículo 24.4 de la Ley 40/2015?",
       "opciones": [
-        "Artículo 12",
-        "Artículo 24",
-        "Artículo 40",
-        "Artículo 68"
+        "Cinco días",
+        "Diez días",
+        "Un mes",
+        "Tres días"
       ],
-      "respuestaCorrecta": 1,
-      "justificacion": "El artículo 24 regula la recusación.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Ley 40/2015, art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "respuestaCorrecta": 3,
+      "justificacion": "El superior resolverá en tres días, previos los informes y comprobaciones oportunos. El recusado manifiesta al día siguiente si concurre la causa (artículo 24.3).",
+      "trampaExamen": "El recusado manifiesta su posición al día siguiente; el superior dispone de tres días para resolver cuando la causa se niega.",
+      "referencia": "Ley 40/2015, arts. 24.3–24.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 6,
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+    "articulos": [
+      "8.1",
+      "9",
+      "10",
+      "11",
+      "23",
+      "24"
+    ],
+    "resultado": "Se comprobaron seis respuestas y se reemplazaron dos preguntas demasiado elementales por grados de parentesco y plazo de recusación.",
+    "limitacion": "No constituye auditoría completa del manual."
+  }
 }
