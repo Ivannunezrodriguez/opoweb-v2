@@ -2,7 +2,7 @@
   "tema": 8,
   "estado": "BORRADOR_TEST_DOCUMENTADO",
   "version": "2026-10-25",
-  "criterio": "6 preguntas originales, cuatro opciones y una solución, artículos precisos de BOE. Pendiente comprobación editorial integral antes de calificar como definitiva la unidad.",
+  "criterio": "Seis preguntas contrastadas con Ley 31/1995 consolidada a 26/10/2026. Material original de entrenamiento, no examen oficial.",
   "preguntas": [
     {
       "id": "DT-C2-T08-001",
@@ -14,8 +14,8 @@
         "Rechazar toda tarea sin motivo"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La ley reconoce a los trabajadores el derecho a una protección eficaz.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "justificacion": "El artículo 14.1 de la Ley 31/1995 reconoce el **derecho a una protección eficaz en materia de seguridad y salud en el trabajo**, correlativo al deber del empresario de protección frente a riesgos laborales.",
+      "trampaExamen": "El deber de protección corresponde al empresario; no se sustituye por el deber del trabajador de utilizar correctamente los equipos (art. 29).",
       "referencia": "LPRL art. 14.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
     },
     {
@@ -28,8 +28,8 @@
         "Sobre el delegado de prevención"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El artículo 14.5 impide que el coste de las medidas recaiga sobre los trabajadores.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "justificacion": "El artículo 14.5 prohíbe expresamente que el **coste de las medidas relativas a seguridad y salud en el trabajo** recaiga sobre los trabajadores.",
+      "trampaExamen": "La prevención no puede financiarse mediante descuentos obligatorios al trabajador por equipos de protección.",
       "referencia": "LPRL art. 14.5 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
     },
     {
@@ -42,23 +42,23 @@
         "Anteponer siempre el EPI a protección colectiva"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El artículo 15 incluye combatir riesgos en su origen y priorizar protección colectiva.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "justificacion": "El artículo 15.1.c exige **combatir los riesgos en su origen**; además, su letra h establece **anteponer la protección colectiva a la individual**.",
+      "trampaExamen": "**Protección colectiva antes que individual**; un EPI no sustituye automáticamente las medidas colectivas.",
       "referencia": "LPRL art. 15.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
     },
     {
       "id": "DT-C2-T08-004",
-      "enunciado": "Según el artículo 18, ¿qué información debe recibir el trabajador directamente?",
+      "enunciado": "Según el artículo 31.2 de la Ley 31/1995, ¿qué constituye un servicio de prevención?",
       "opciones": [
-        "El salario de todos los compañeros",
-        "Ninguna si existen delegados",
-        "Sólo el presupuesto general",
-        "Los riesgos específicos de su puesto y medidas aplicables"
+        "Un registro exclusivamente contable de accidentes",
+        "Una unidad dedicada solo a imponer sanciones",
+        "La comisión que aprueba la plantilla de personal",
+        "El conjunto de medios humanos y materiales necesarios para desarrollar las actividades preventivas"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Aunque se informe a representantes, cada trabajador debe ser informado directamente de riesgos específicos y medidas.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
-      "referencia": "LPRL art. 18.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+      "justificacion": "El artículo 31.2 define el **servicio de prevención** como conjunto de medios humanos y materiales necesarios para las actividades preventivas, con asesoramiento y asistencia al empresario, trabajadores, representantes y órganos especializados.",
+      "trampaExamen": "No confundir **servicio de prevención** (asesora y apoya técnicamente) con **Comité de Seguridad y Salud** (órgano colegiado y paritario de participación).",
+      "referencia": "LPRL art. 31.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
     },
     {
       "id": "DT-C2-T08-005",
@@ -70,23 +70,42 @@
         "25"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 38.2 dispone su constitución en empresas o centros de trabajo con 50 o más trabajadores.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "justificacion": "El artículo 38.2 establece un **Comité de Seguridad y Salud** en empresas o centros con **50 o más trabajadores**, integrado de forma **paritaria** por delegados de prevención y empresario o representantes. El artículo 38.3 dispone reuniones **trimestrales** y cuando las solicite alguna de las representaciones.",
+      "trampaExamen": "**50 o más trabajadores**: se constituye Comité; se reúne **trimestralmente**, pero también cuando lo solicite una representación. **Paritario** significa igual número por cada parte.",
       "referencia": "LPRL art. 38.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
     },
     {
       "id": "DT-C2-T08-006",
-      "enunciado": "¿Con qué frecuencia ordinaria se reúne el Comité de Seguridad y Salud?",
+      "enunciado": "Según el artículo 35.2 de la Ley 31/1995, ¿cuántos Delegados de Prevención corresponden, como regla de su escala, a una empresa con 100 trabajadores?",
       "opciones": [
-        "Cada mes",
-        "Trimestralmente",
-        "Anualmente",
-        "Cada cuatro años"
+        "Uno",
+        "Dos",
+        "Tres",
+        "Cuatro"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El artículo 38.3 establece reuniones trimestrales y cuando lo solicite alguna representación.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
-      "referencia": "LPRL art. 38.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+      "justificacion": "El artículo 35.2 fija **dos Delegados de Prevención** para la franja de **50 a 100 trabajadores**. A partir de **101 y hasta 500**, corresponden **tres**; existen sistemas alternativos de designación admitidos en el artículo 35.4.",
+      "trampaExamen": "**50–100: 2 delegados**; **101–500: 3 delegados**. No confundir número de Delegados de Prevención con los integrantes totales del Comité de Seguridad y Salud.",
+      "referencia": "LPRL arts. 35.2 y 35.4 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 6,
+    "norma": "Ley 31/1995, de 8 de noviembre, texto consolidado BOE, última actualización publicada 09/04/2026",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+    "articulosVerificados": [
+      "14.1",
+      "14.5",
+      "15.1.c",
+      "15.1.h",
+      "31.2",
+      "35.2",
+      "35.4",
+      "38.2",
+      "38.3"
+    ],
+    "resultado": "Se contrastaron las seis preguntas; dos se sustituyeron para incorporar servicios de prevención y número de delegados; se detallaron paridad y reuniones trimestrales en la justificación de comité.",
+    "limitacion": "Cotejo del banco de seis preguntas; no constituye auditoría integral del manual del tema 8."
+  }
 }
