@@ -2,7 +2,7 @@
   "tema": 1,
   "estado": "BORRADOR_TEST_DOCUMENTADO",
   "version": "2026-10-25",
-  "criterio": "8 preguntas originales por tema, referencias a artículos del BOE consolidado; revisión editorial adicional pendiente. No son preguntas oficiales.",
+  "criterio": "8 preguntas originales para Auxiliar C2, verificadas frente al texto constitucional consolidado BOE con actualización publicada 20/05/2026; no son preguntas oficiales.",
   "preguntas": [
     {
       "id": "DT-C2-T1-001",
@@ -15,7 +15,7 @@
       ],
       "respuestaCorrecta": 0,
       "justificacion": "La Constitución contiene 169 artículos.",
-      "trampaExamen": "Atender a las condiciones y excepciones del Estructura constitucional. No confundir esta figura con otros procedimientos o plazos.",
+      "trampaExamen": "La Constitución contiene **169 artículos**, además de Preámbulo, disposiciones adicionales, transitorias, derogatoria y final; el Preámbulo no se cuenta como artículo.",
       "referencia": "Estructura constitucional · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
@@ -28,8 +28,8 @@
         "Mayoría simple"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El artículo 167.1 exige tres quintos de cada una de las Cámaras.",
-      "trampaExamen": "Atender a las condiciones y excepciones del CE art. 167.1. No confundir esta figura con otros procedimientos o plazos.",
+      "justificacion": "El art. 167.1 CE exige, como regla general, mayoría de **tres quintos de cada Cámara**. Si fracasa el acuerdo, el art. 167.2 permite aprobar por **dos tercios del Congreso** siempre que el Senado hubiera respaldado el texto por **mayoría absoluta**, tras intentarse el procedimiento del apartado 1.",
+      "trampaExamen": "Reforma ordinaria: **3/5 en ambas Cámaras**. Alternativa del art. **167.2**: **mayoría absoluta en Senado + 2/3 en Congreso**, bajo sus condiciones; no confundir con la reforma agravada.",
       "referencia": "CE art. 167.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
@@ -42,8 +42,8 @@
         "Una quinta parte"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Una décima parte de los miembros de cualquiera de las Cámaras, dentro de los quince días siguientes a la aprobación.",
-      "trampaExamen": "Atender a las condiciones y excepciones del CE art. 167.3. No confundir esta figura con otros procedimientos o plazos.",
+      "justificacion": "El art. 167.3 establece referéndum **solo si lo solicita**, dentro de los **15 días siguientes a la aprobación**, al menos **una décima parte** de los miembros de cualquiera de las Cámaras.",
+      "trampaExamen": "En la reforma **ordinaria** el referéndum no es automático: basta la solicitud de **1/10** de una Cámara en **15 días**.",
       "referencia": "CE art. 167.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
@@ -56,8 +56,8 @@
         "Dos tercios de cada Cámara"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El artículo 168.1 prevé dos tercios de cada Cámara y disolución inmediata de las Cortes.",
-      "trampaExamen": "Atender a las condiciones y excepciones del CE art. 168.1. No confundir esta figura con otros procedimientos o plazos.",
+      "justificacion": "La revisión total o parcial que afecte al Título Preliminar, Sección 1.ª del Capítulo II del Título I o Título II requiere **2/3 de cada Cámara** para aprobar el principio y la disolución inmediata de las Cortes (art. 168.1). Las nuevas Cámaras ratifican la decisión y aprueban el nuevo texto por **2/3 de ambas Cámaras** (168.2).",
+      "trampaExamen": "Procedimiento **agravado**: **2/3 + disolución inmediata + nuevas Cámaras + 2/3 + referéndum obligatorio**.",
       "referencia": "CE art. 168.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
@@ -70,8 +70,8 @@
         "Sólo si lo pide el Gobierno"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 168.3 obliga a someter la reforma aprobada a referéndum.",
-      "trampaExamen": "Atender a las condiciones y excepciones del CE art. 168.3. No confundir esta figura con otros procedimientos o plazos.",
+      "justificacion": "El art. 168.3 ordena someter a referéndum la reforma aprobada por las Cortes Generales. En contraste, en el art. 167.3 el referéndum solo tiene lugar cuando lo solicita el número de parlamentarios previsto.",
+      "trampaExamen": "Referéndum **agravado: obligatorio**. **Ordinario: condicionado** a solicitud de **1/10** de una Cámara en **15 días**.",
       "referencia": "CE art. 168.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
@@ -84,23 +84,23 @@
         "Recurso de reposición"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El artículo 53.2 CE establece, en su caso, el recurso de amparo ante el Tribunal Constitucional para tutelar los derechos reconocidos en el artículo 14 y la Sección 1.ª del Capítulo II del Título I, además de la objeción de conciencia del artículo 30.",
-      "trampaExamen": "La tutela de derechos fundamentales mediante amparo constitucional no equivale a recurso administrativo ordinario.",
+      "justificacion": "El art. 53.2 CE permite tutela judicial preferente y sumaria de los derechos del art. 14 y la Sección 1.ª del Capítulo II del Título I, y en su caso recurso de amparo ante el **Tribunal Constitucional**. El amparo también se aplica a la objeción de conciencia del art. 30.",
+      "trampaExamen": "**Amparo constitucional**: derechos del **artículo 14**, Sección 1.ª del Capítulo II y objeción de conciencia del **art. 30**. No confundir con cualquier derecho social del Capítulo III.",
       "referencia": "CE art. 53.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
       "id": "DT-C2-T1-007",
-      "enunciado": "¿En qué título de la Constitución se regula su reforma?",
+      "enunciado": "Según el artículo 55.1 de la Constitución, ¿en cuáles de estos estados pueden suspenderse determinados derechos y libertades de los enumerados en ese artículo?",
       "opciones": [
-        "Título VIII",
-        "Título IX",
-        "Título X",
-        "Título I"
+        "Únicamente durante el estado de alarma",
+        "Durante cualquier emergencia sanitaria declarada",
+        "Durante los estados de excepción o de sitio, en los términos constitucionales",
+        "Durante la convocatoria ordinaria de elecciones"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El Título X contiene los artículos 166 a 169 relativos a la reforma constitucional.",
-      "trampaExamen": "Atender a las condiciones y excepciones del CE arts. 166–169. No confundir esta figura con otros procedimientos o plazos.",
-      "referencia": "CE arts. 166–169 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+      "justificacion": "El art. 55.1 prevé la suspensión de determinados derechos únicamente en los estados de **excepción o sitio**, conforme a la Constitución; **no** incluye el estado de alarma. Hay una excepción específica en el art. 17.3 para el estado de excepción, y el art. 55.2 regula ciertos supuestos individuales.",
+      "trampaExamen": "**Alarma no equivale a suspensión del art. 55.1**; excepción y sitio sí permiten suspender los derechos expresamente enumerados, con los límites constitucionales.",
+      "referencia": "CE art. 55.1 y 55.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
       "id": "DT-C2-T1-008",
@@ -112,9 +112,30 @@
         "Durante la declaración de alguno de los estados del artículo 116 o en tiempo de guerra"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El artículo 169 prohíbe iniciar reforma en tiempo de guerra o vigencia de los estados previstos en el artículo 116.",
-      "trampaExamen": "Atender a las condiciones y excepciones del CE art. 169. No confundir esta figura con otros procedimientos o plazos.",
+      "justificacion": "El art. 169 impide **iniciar** la reforma constitucional **en tiempo de guerra** o durante la vigencia de cualquiera de los estados del art. 116: alarma, excepción o sitio. El precepto se refiere literalmente a la iniciación.",
+      "trampaExamen": "El artículo **169** prohíbe **iniciar** la reforma durante guerra o vigencia de cualquiera de los estados del art. **116**; no debe confundirse con la suspensión individual o general de derechos.",
       "referencia": "CE art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 8,
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+    "actualizacionTextoConsolidado": "20/05/2026",
+    "articulos": [
+      "53.2",
+      "55.1",
+      "55.2",
+      "166",
+      "167.1",
+      "167.2",
+      "167.3",
+      "168.1",
+      "168.2",
+      "168.3",
+      "169"
+    ],
+    "resultado": "Ocho preguntas contrastadas. Se sustituyó pregunta memorística del título de reforma por suspensión constitucional. Se añadieron matices sobre mayorías alternativas y referéndum.",
+    "limitacion": "Auditoría del banco de ocho preguntas, no del manual íntegro del tema 1."
+  }
 }
