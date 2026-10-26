@@ -376,3 +376,29 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **86 / 138 preguntas** con auditoría jurídica individual documentada: temas **1–5, 7–9, 11–13 y 15**.
 - **52 preguntas** pendientes de auditoría jurídica o técnica individual.
 - Manuales completos aún en **BORRADOR** y **tema 6** todavía sin test específico.
+
+
+---
+
+## 16. Auditoría jurídica tema 10 — **26/10/2026**
+
+**Fuente primaria:** [LO 3/2018, texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), última actualización publicada **27/12/2025**.
+
+| Pregunta | Artículo cotejado | Resultado |
+|---|---|---|
+| **T10-001** | **7.1–7.2** | Consentimiento de menores: umbral general **14 años**, con salvedades para actos o negocios que requieren asistencia |
+| **T10-002** | **8.2** | **SUSTITUIDA** pregunta genérica por requisito de **competencia atribuida por norma con rango de ley** para tratar datos en interés público o ejercicio de poderes públicos |
+| **T10-003** | **88.1–88.3** | **SUSTITUIDA** pregunta de exactitud por el **derecho a desconexión digital** de trabajadores y empleados públicos |
+| **T10-004** | **5.1–5.3** | Deber de confidencialidad también después de concluir la relación con responsable o encargado |
+| **T10-005** | **13** | Acceso a datos: remisión a RGPD; posible solicitud repetitiva **más de una vez en seis meses**, salvo causa legítima |
+| **T10-006** | **14** | Rectificación: concretar datos, corrección solicitada y, cuando proceda, justificantes |
+
+**Resultado:** seis preguntas contrastadas, dos sustituidas para incorporar derechos digitales y fundamento legal del tratamiento por Administraciones, cuatro explicaciones ampliadas. **El banco de preguntas** queda revisado; **el manual completo** mantiene su estado **BORRADOR**.
+
+> ⚠️ **¡Foco Examen!:** **Consentimiento de menores: 14 años**, con excepciones del art. **7**. La Administración **no depende siempre del consentimiento** para tratar datos: una **competencia atribuida por norma con rango de ley** puede sustentar tratamientos del art. **8.2**. Los empleados públicos también tienen derecho a la **desconexión digital** (art. **88**).
+
+### Balance actualizado
+
+- **92 / 138 preguntas** con revisión jurídica individual registrada: temas **1–5, 7–13 y 15**.
+- **46 / 138** pendientes de revisión de fondo (temas **14, 16–20**).
+- **Tema 6** no tiene test específico; falta reconstrucción estatutaria del **OAPGT**. Todos los manuales continúan en **BORRADOR**.
