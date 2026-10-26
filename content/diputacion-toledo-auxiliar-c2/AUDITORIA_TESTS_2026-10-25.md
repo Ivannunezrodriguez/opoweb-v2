@@ -60,3 +60,40 @@ Se han **permutado solamente las posiciones de las opciones**, actualizando `res
 - [ ] Completar tema 6 solo cuando se cuente con textos institucionales vigentes y cotejados.
 
 > ⚠️ **¡Foco Examen!:** La calificación del examen oficial penaliza cada **error** y no penaliza dejar una pregunta **en blanco**. Una web que confunda ambos estados puede dar una falsa impresión del rendimiento.
+
+
+---
+
+## 5. Auditoría jurídica parcial — 26 de octubre de 2026
+
+**Alcance efectivo:** **16 preguntas** de los temas **11 y 12**; no debe interpretarse como revisión sustantiva de los restantes **122** test.
+
+### Tema 11 — 8 preguntas
+
+Se ha contrastado la legislación consolidada:
+- **TRLRHL, arts. 7, 8 y 9:** delegación, colaboración y régimen de beneficios fiscales; actualización consolidada del **07/10/2026**. https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214
+- **LGT, arts. 35, 58 y 59:** obligados tributarios, componentes de la deuda y extinción. https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186
+
+**Resultado:** las **8 respuestas** coinciden con los artículos citados. El manual completo del tema 11 continúa en borrador y requiere un cotejo separado.
+
+### Tema 12 — 8 preguntas
+
+| Preguntas | Artículo LGT | Control efectuado |
+|---|---|---|
+| **001–004** | **28.2–28.5** | Recargos **5 %**, **10 %** y **20 %**, condiciones y compatibilidad con intereses |
+| **005** | **167.1** | Inicio del apremio mediante **providencia notificada** |
+| **006–007** | **62.2.a y 62.2.b** | Notificación **1–15**: ingreso hasta **20 del mes siguiente**; notificación **16–último día**: hasta **5 del segundo mes posterior**; si es inhábil, inmediato hábil |
+| **008** | **161.2** | Solicitud en voluntaria y excepción vinculada a denegación previa, nuevo plazo y falta de ingreso |
+
+**Corrección sustantiva efectuada:** la pregunta **DT-C2-T12-008** omitía en su formulación la excepción del art. **161.2 LGT**. Se ha delimitado el supuesto y ampliado la justificación para evitar enseñar una regla absoluta falsa.
+
+**Referencia:** https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186
+
+> ⚠️ **¡Foco Examen!:** No confundir los plazos de **liquidación en período voluntario** (art. **62.2**) con los abiertos por **providencia de apremio** (art. **62.5**), ni confundir recargo ejecutivo del **5 %** con apremio reducido del **10 %**.
+
+### Estado posterior a esta revisión
+
+- **16 / 138 preguntas cotejadas individualmente** contra los artículos indicados.
+- **122 / 138 pendientes de auditoría sustantiva**.
+- **Tema 6:** sin test todavía; falta el texto estatutario íntegro vigente.
+- Esta auditoría **no** acredita el funcionamiento visual de la web ni la publicación definitiva de los manuales.
