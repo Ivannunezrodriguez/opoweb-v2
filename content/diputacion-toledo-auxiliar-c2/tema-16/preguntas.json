@@ -14,9 +14,9 @@
         "Ctrl + P"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La ayuda oficial de Microsoft indica Windows + E para abrir el Explorador.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Microsoft, Explorador de archivos · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+      "justificacion": "Windows + E abre el Explorador de archivos en Windows 11, según Microsoft.",
+      "trampaExamen": "Windows + E abre Explorador; Alt + F4 cierra la ventana activa.",
+      "referencia": "Microsoft, métodos abreviados · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
     },
     {
       "id": "DT-C2-T16-002",
@@ -28,23 +28,23 @@
         "Lo traslada a la ubicación de destino"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Cortar y pegar se utiliza para mover un elemento a otra ubicación.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "Cortar y pegar mueve normalmente el archivo a su nueva ubicación. En desplazamientos entre unidades pueden copiarse los datos y eliminarse el origen al completar la operación.",
+      "trampaExamen": "Cortar y pegar mueve; copiar y pegar duplica. Hay excepciones por permisos, conflictos o fallos.",
       "referencia": "Microsoft, Explorador de archivos · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
     },
     {
       "id": "DT-C2-T16-003",
-      "enunciado": "¿Qué acción conserva normalmente el archivo original y genera una copia en el destino?",
+      "enunciado": "¿Qué hace Mayús + Supr sobre un archivo seleccionado en el Explorador de Windows 11?",
       "opciones": [
-        "Copiar y pegar",
-        "Cortar y pegar",
-        "Vaciar Papelera",
-        "Formatear la unidad"
+        "Lo elimina sin enviarlo a la Papelera de reciclaje",
+        "Lo copia al portapapeles",
+        "Lo envía directamente a imprimir",
+        "Cambia su nombre"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Copiar y pegar preserva el original y crea una copia.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Operaciones de archivos Windows 11 · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+      "justificacion": "Microsoft indica que Mayús + Supr elimina el elemento sin moverlo a la Papelera de reciclaje. No implica que sea irrecuperable desde copias o procedimientos especializados.",
+      "trampaExamen": "Supr suele enviar a Papelera; Mayús + Supr omite la Papelera.",
+      "referencia": "Microsoft, atajos de Windows · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
     },
     {
       "id": "DT-C2-T16-004",
@@ -56,8 +56,8 @@
         "Pegar"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Microsoft documenta el menú Ver para seleccionar el modo de presentación.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "El menú Ver permite alternar entre iconos, lista y detalles sin modificar el contenido de los archivos.",
+      "trampaExamen": "Cambiar la vista no mueve ni transforma los archivos.",
       "referencia": "Microsoft, Explorador de archivos · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
     },
     {
@@ -70,23 +70,34 @@
         "Una carpeta exclusiva del escritorio local"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Una ruta UNC identifica un recurso en red mediante servidor y nombre compartido.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "Una ruta UNC empieza por dos barras inversas y señala servidor y recurso compartido. Una unidad de red asignada puede usar una letra.",
+      "trampaExamen": "Distinguir ruta local C:\\ de ruta UNC con servidor y recurso compartido.",
       "referencia": "Windows, recursos de red · https://learn.microsoft.com/es-es/windows/win32/fileio/naming-a-file"
     },
     {
       "id": "DT-C2-T16-006",
-      "enunciado": "¿Cuál es la diferencia entre una impresora y un escáner?",
+      "enunciado": "Para incorporar a un expediente electrónico el contenido de un documento que existe únicamente en papel, ¿qué operación corresponde realizar?",
       "opciones": [
-        "Ambos almacenan documentos de forma permanente como disco duro",
-        "La impresora es exclusivamente un dispositivo de entrada",
-        "El escáner funciona solo para borrar ficheros",
-        "La impresora produce salida física y el escáner digitaliza documentos"
+        "Imprimir un archivo ya digital en una impresora",
+        "Cambiar la extensión de un nombre de archivo",
+        "Crear un acceso directo al documento físico",
+        "Digitalizar el documento con un escáner y guardar el archivo"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La impresora produce una salida y el escáner capta un documento físico como datos digitales.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "El escáner capta el contenido del documento físico y lo convierte en datos digitales. Imprimir a PDF no captura papel. Una digitalización ordinaria no constituye por sí sola copia auténtica administrativa.",
+      "trampaExamen": "Digitalización es entrada de información; impresión produce salida. No confundir un escaneo con copia auténtica.",
       "referencia": "Microsoft, impresión y digitalización · https://support.microsoft.com/es-es/windows"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 6,
+    "fuentes": [
+      "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "https://learn.microsoft.com/es-es/windows/win32/fileio/naming-a-file"
+    ],
+    "resultado": "Se revisaron seis preguntas; sustituidas dos por eliminación con Mayús+Supr y digitalización de papel; matices de rutas UNC y operaciones copiar/mover.",
+    "limitacion": "No se ha probado el banco mediante interfaz real de Windows 11 Pro."
+  }
 }
