@@ -554,3 +554,32 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **132 / 138 preguntas** con revisión individual documentada: temas **1–5 y 7–19**.
 - **6 preguntas** pendientes de auditoría técnica: **tema 20**.
 - **Tema 6** continúa sin banco específico. Los manuales siguen marcados como **BORRADOR**.
+
+
+---
+
+## 22. Auditoría técnica tema 20 — **26/10/2026**
+
+**Epígrafe oficial:** «Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB».
+
+**Fuentes consultadas:** documentación general de [CPU (Intel)](https://www.intel.com/content/www/es/es/products/docs/processors/what-is-a-cpu.html), [RAM (IBM)](https://www.ibm.com/think/topics/ram), [SSD (IBM)](https://www.ibm.com/think/topics/solid-state-drives), [medios ópticos (Verbatim)](https://www.verbatim-europe.com/en/disc-types), y [uso de escáneres en Windows (Microsoft)](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows).
+
+| Pregunta | Contenido | Resultado |
+|---|---|---|
+| **T20-001** | **CPU** | Ejecuta instrucciones y operaciones; se diferencia de memoria y almacenamiento |
+| **T20-002** | **RAM** | Memoria de trabajo **volátil** |
+| **T20-003** | **Escáner / ADF** | **SUSTITUIDA** pregunta genérica por caso práctico de **alimentador automático de documentos (ADF)** para expedientes de múltiples hojas |
+| **T20-004** | **SSD externo** | Almacenamiento de estado sólido **no volátil** |
+| **T20-005** | **DVD-RW** | Medio óptico **regrabable**, distinto de DVD-R y DVD-ROM |
+| **T20-006** | **Impresora dúplex** | **SUSTITUIDA** pregunta redundante de almacenamiento por **impresión a doble cara** automática o manual |
+
+**Resultado:** **6 preguntas cotejadas** y **2 convertidas en casos prácticos**; se cubren procesador, RAM, almacenamiento, lectores/grabadores ópticos, escáner y la impresión. El manual completo sigue sin certificación editorial.
+
+> ⚠️ **¡Foco Examen!:** **RAM** es volátil y **SSD** no volátil; **DVD-RW** es regrabable frente a **DVD-R**. En escáneres, **ADF** alimenta hojas pero **no presupone digitalización automática a doble cara**. **Dúplex de impresora** y **dúplex de escáner** son funciones distintas.
+
+## 23. Cierre de la primera auditoría del banco existente
+
+- **138 / 138 preguntas disponibles** han pasado **revisión documental individual** en **19 temas** (temas **1–5** y **7–20**).
+- **Tema 6** carece todavía de preguntas propias y **no se cuenta como auditado**.
+- Este **100 %** mide únicamente **la cobertura de auditoría del banco existente**, **no** la cobertura integral del programa oficial, la exhaustividad de los tests, ni una certificación jurídica y técnica definitiva.
+- Permanecen **20 manuales** con estado editorial **BORRADOR** y trabajos pendientes de revisión integral, mejora de profundidad, puesta a prueba de la interfaz y resolución de normativa específica del **OAPGT**.
