@@ -2,7 +2,7 @@
   "tema": 18,
   "estado": "BORRADOR_CON_REFERENCIAS_PRIMARIAS",
   "version": "2026-10-25",
-  "criterio": "10 preguntas originales de opción múltiple (4 opciones, una correcta) sobre LibreOffice 24.2, creadas con referencia a la documentación de The Document Foundation. No son preguntas oficiales.",
+  "criterio": "10 preguntas de entrenamiento contrastadas con Writer Guide 24.2 de The Document Foundation el 26/10/2026; originales, no oficiales.",
   "preguntas": [
     {
       "id": "DT-C2-T18-001",
@@ -14,8 +14,8 @@
         "Calc"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Writer es el procesador de textos de LibreOffice.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "Writer es la aplicación de LibreOffice para crear y editar documentos de texto. Calc es hoja de cálculo, Impress presenta diapositivas y Base gestiona bases de datos.",
+      "trampaExamen": "**Writer: texto; Calc: hojas de cálculo; Impress: presentaciones; Base: bases de datos**.",
       "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
     },
     {
@@ -28,8 +28,8 @@
         ".csv"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "ODT (OpenDocument Text) es el formato abierto de documentos de texto utilizado por Writer.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "El formato de documento de texto OpenDocument usado por Writer es **.odt**. **.ott** corresponde a plantillas de texto; **.ods**, a hojas de cálculo.",
+      "trampaExamen": "**.odt: documento**; **.ott: plantilla**; **.ods: hoja de cálculo**. Exportar a PDF es una operación diferente.",
       "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
     },
     {
@@ -42,9 +42,9 @@
         "Borrar historial"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Los estilos proporcionan conjuntos reutilizables de propiedades de formato.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
-      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+      "justificacion": "Los estilos de párrafo, carácter y página aplican conjuntos reutilizables de atributos; los estilos de título facilitan estructura, navegación y tablas de contenido.",
+      "trampaExamen": "El **formato directo** puede sobreponerse al estilo. Para títulos repetidos, usar estilos evita incoherencias.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2408-IntroStyles.html"
     },
     {
       "id": "DT-C2-T18-004",
@@ -56,8 +56,8 @@
         "El salto decide dónde comienza una nueva página; el estilo controla propiedades de la página"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El salto controla el avance a otra página; el estilo de página configura propiedades como márgenes, encabezado o pie.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "Un salto de página fuerza que el texto siguiente comience en una nueva página. El estilo de página establece propiedades tales como márgenes, tamaño, orientación, encabezados y pies. Un salto puede asociarse a un nuevo estilo de página.",
+      "trampaExamen": "**Salto de página**: cambia ubicación del texto. **Estilo de página**: cambia características de la página.",
       "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
     },
     {
@@ -70,22 +70,22 @@
         "Tabla dinámica"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La combinación de correspondencia une un documento modelo con datos variables para generar cartas, etiquetas o sobres.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "La combinación de correspondencia de Writer 24.2 permite generar cartas, etiquetas y sobres incorporando datos variables desde fuentes registradas, incluidas hojas de cálculo, ficheros de texto o bases de datos.",
+      "trampaExamen": "**Documento modelo + registros de datos = documentos personalizados**. No es un filtro de tabla dinámica.",
       "referencia": "https://books.libreoffice.org/en/WG24/WG2414-MailMerge.html"
     },
     {
       "id": "DT-C2-T18-006",
-      "enunciado": "En la combinación de correspondencia de Writer, ¿de dónde suelen proceder los nombres y direcciones variables?",
+      "enunciado": "Al preparar una combinación de correspondencia en Writer 24.2, ¿qué operación permite mostrar una fuente de datos ya registrada en el documento (Windows)?",
       "opciones": [
-        "Del pie de página exclusivamente",
-        "De una fuente de datos",
-        "De los estilos de página",
-        "De la caché del navegador"
+        "Abrir el menú Archivo > Imprimir sin elegir fuente",
+        "Seleccionar Ver > Fuentes de datos, o pulsar Ctrl + Mayús + F4",
+        "Abrir el Administrador de tareas de Windows",
+        "Cambiar el estilo de página a Horizontal"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La guía Writer 24.2 describe la creación o registro de una fuente de datos para la combinación.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "La guía Writer 24.2, capítulo 14, especifica **View > Data Sources** (Ver > Fuentes de datos) o **Ctrl + Mayús + F4** para mostrar las fuentes de datos registradas y elegir los campos de combinación.",
+      "trampaExamen": "Registrar una fuente de datos y **mostrarla en Writer** son pasos diferentes; Ctrl + Mayús + F4 muestra las fuentes.",
       "referencia": "https://books.libreoffice.org/en/WG24/WG2414-MailMerge.html"
     },
     {
@@ -98,23 +98,23 @@
         "Exportar siempre borra el ODT"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Guardar en ODT y exportar a PDF son operaciones de salida con formatos distintos.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "Guardar en **ODT** mantiene el formato de documento editable de Writer. **Exportar a PDF** produce otro archivo orientado a distribución o impresión; no elimina necesariamente el documento fuente.",
+      "trampaExamen": "**Exportar a PDF** no es cambiar la extensión manualmente ni obliga a borrar el **ODT**.",
       "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
     },
     {
       "id": "DT-C2-T18-008",
-      "enunciado": "¿Cuál es la función de una tabla de contenido automática de Writer?",
+      "enunciado": "Tras modificar varios títulos y añadir páginas en un documento Writer 24.2, ¿qué hay que hacer para reflejar los cambios en su tabla de contenido existente?",
       "opciones": [
-        "Cambiar la extensión de los archivos",
-        "Eliminar páginas vacías sin intervención",
-        "Ordenar un listado tributario mediante filtros",
-        "Recoger encabezados estructurados del documento"
+        "Volver a escribir a mano todos los títulos y páginas",
+        "Convertir antes el documento en hoja de cálculo",
+        "Esperar a que se sincronice automáticamente al guardar",
+        "Seleccionar Actualizar índice desde el menú contextual de la tabla de contenido"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La tabla de contenido puede generarse a partir de la estructura de títulos del documento.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
-      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+      "justificacion": "Según la guía Writer 24.2, capítulo 15, la tabla de contenido **no se actualiza automáticamente**. Tras modificar títulos o paginación debe usarse **Actualizar índice** (Update Index) desde el menú contextual, o la opción equivalente del Navegador.",
+      "trampaExamen": "Tabla de contenido **generada automáticamente** no significa **actualizada automáticamente**. Debe actualizarse después de cambios.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2415-TOCsIndexesBiblios.html"
     },
     {
       "id": "DT-C2-T18-009",
@@ -126,9 +126,9 @@
         "Un hipervínculo externo"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Los campos pueden insertar contenidos dinámicos, como números de página.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
-      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+      "justificacion": "El campo **Número de página** introduce numeración dinámica según la paginación; escribir un número fijo en encabezado o pie no genera numeración variable.",
+      "trampaExamen": "**Campo de número de página** es dinámico; escribir '1' es texto constante.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2417-Fields.html"
     },
     {
       "id": "DT-C2-T18-010",
@@ -140,9 +140,23 @@
         "Es obligatorio para generar índices"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El formato directo actúa sobre la selección; los estilos agrupan atributos reutilizables.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
-      "referencia": "https://books.libreoffice.org/en/WG24/WG24.html"
+      "justificacion": "El **formato directo** se aplica a la selección concreta; los **estilos** agrupan atributos con nombre para reutilizarlos. El formato directo tiene prioridad visual sobre ciertas propiedades del estilo.",
+      "trampaExamen": "Formato directo y estilos no son equivalentes; un formato manual puede impedir percibir un cambio posterior del estilo.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2408-IntroStyles.html"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 10,
+    "producto": "LibreOffice Writer 24.2",
+    "fuentes": [
+      "https://books.libreoffice.org/en/WG24/WG2415-TOCsIndexesBiblios.html",
+      "https://books.libreoffice.org/en/WG24/WG2414-MailMerge.html",
+      "https://books.libreoffice.org/en/WG24/WG2408-IntroStyles.html",
+      "https://books.libreoffice.org/en/WG24/WG2417-Fields.html",
+      "https://books.libreoffice.org/en/WG24/WG24.html"
+    ],
+    "resultado": "Diez respuestas documentadas; dos enunciados reforzados como ejercicios de fuentes de datos y actualización manual de tabla de contenido. Justificaciones y trampas revisadas.",
+    "limitacion": "Auditoría documental de las diez preguntas; no sustituye una prueba real con LibreOffice 24.2 ni la revisión total del manual."
+  }
 }
