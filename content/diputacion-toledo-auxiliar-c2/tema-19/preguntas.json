@@ -2,7 +2,7 @@
   "tema": 19,
   "estado": "BORRADOR_CON_REFERENCIAS_PRIMARIAS",
   "version": "2026-10-25",
-  "criterio": "10 preguntas originales de opción múltiple (4 opciones, una correcta) sobre LibreOffice 24.2, creadas con referencia a la documentación de The Document Foundation. No son preguntas oficiales.",
+  "criterio": "Diez preguntas originales de entrenamiento revisadas con la Guía Calc 24.2 el 26/10/2026. No son preguntas oficiales.",
   "preguntas": [
     {
       "id": "DT-C2-T19-001",
@@ -14,8 +14,8 @@
         "Mixta con solo fila fija"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Los signos $ fijan tanto la columna B como la fila 3.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "La referencia $B$3 es absoluta: el símbolo $ anterior a B fija la columna y el símbolo $ anterior a 3 fija la fila al copiar la fórmula.",
+      "trampaExamen": "**$B$3** fija fila y columna; **$B3** fija columna; **B$3** fija fila; **B3** es totalmente relativa.",
       "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
     },
     {
@@ -28,8 +28,8 @@
         "=A2+B2"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Las referencias relativas se desplazan una fila al copiar a C2.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "Las referencias A1 y B1 son relativas; al copiar la fórmula una fila hacia abajo, de C1 a C2, se convierten en A2 y B2.",
+      "trampaExamen": "Copiar una fila abajo modifica **ambas filas relativas**; para mantenerlas fijas haría falta un símbolo **$**.",
       "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
     },
     {
@@ -42,8 +42,8 @@
         "A$1"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "$A1 fija la columna por el signo $ anterior a A, pero no fija la fila.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "La referencia **$A1** fija la columna A, pero permite que la fila 1 varíe al copiar verticalmente.",
+      "trampaExamen": "El símbolo **$** fija exclusivamente la coordenada que le sigue; **A$1** fija fila, no columna.",
       "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
     },
     {
@@ -56,8 +56,8 @@
         "F12"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La guía Calc 24.2 indica que F4 recorre los cuatro tipos de referencia.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "La Guía Calc 24.2 indica que **F4** permite alternar los tipos de referencias (relativa, absoluta y dos mixtas) cuando se selecciona una referencia en la edición de una fórmula.",
+      "trampaExamen": "**F4** cambia el tipo de referencia en fórmulas; **F1** abre ayuda.",
       "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
     },
     {
@@ -70,8 +70,8 @@
         "Ocho celdas"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Dos columnas por tres filas (A y B, filas 2, 3 y 4) suman seis celdas.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "El rango inclusivo A2:B4 contiene dos columnas (A, B) y tres filas (2, 3, 4): **2 × 3 = 6 celdas**.",
+      "trampaExamen": "Los límites de un rango de Calc son **inclusivos**.",
       "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
     },
     {
@@ -84,9 +84,9 @@
         "Muestra solo las filas que cumplen el criterio y oculta las demás"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La guía describe el AutoFiltro como un control que muestra los registros ajustados al criterio sin borrarlos.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
-      "referencia": "https://books.libreoffice.org/en/CG24/CG2402-EnteringandEditingData.html"
+      "justificacion": "El AutoFiltro **oculta temporalmente las filas** que no cumplen las condiciones seleccionadas y deja visibles las que sí las cumplen; no elimina los datos descartados.",
+      "trampaExamen": "**Filtrar no es borrar**. Para recuperar la lista, quitar o restablecer el filtro.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
     },
     {
       "id": "DT-C2-T19-007",
@@ -98,9 +98,9 @@
         "Formato > Página"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El manual Calc 24.2 identifica Data > AutoFilter; en español, Datos > AutoFiltro.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
-      "referencia": "https://books.libreoffice.org/en/CG24/CG2402-EnteringandEditingData.html"
+      "justificacion": "La Guía Calc 24.2 documenta **Datos > AutoFiltro** para activarlo o desactivarlo, así como el atajo **Ctrl + Mayús + L**.",
+      "trampaExamen": "**Datos > AutoFiltro** y **Ctrl + Mayús + L** alternan el AutoFiltro; no confundir con ordenar.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
     },
     {
       "id": "DT-C2-T19-008",
@@ -112,23 +112,23 @@
         "Ordenar solo actúa sobre imágenes"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La guía distingue la reorganización por orden de la selección visible mediante criterios.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "**Ordenar** modifica la secuencia de los registros según criterios; **filtrar** determina los registros que se muestran sin borrarlos.",
+      "trampaExamen": "Ordenar afecta al **orden**; filtrar afecta a la **visibilidad**.",
       "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
     },
     {
       "id": "DT-C2-T19-009",
-      "enunciado": "¿En qué capítulo principal de la Guía Calc 24.2 se estudian tablas dinámicas?",
+      "enunciado": "En LibreOffice Calc 24.2, se modifican datos de origen de una tabla dinámica ya creada. ¿Qué es necesario para que la tabla dinámica refleje los nuevos valores?",
       "opciones": [
-        "Capítulo 3",
-        "Capítulo 5",
-        "Capítulo 9",
-        "Capítulo 16"
+        "Cambiar el formato de las celdas de origen a texto",
+        "Guardar como CSV para que se sincronice",
+        "Actualizar manualmente la tabla dinámica mediante Datos > Tabla dinámica > Actualizar o su menú contextual",
+        "Eliminar todos los datos y crear un libro nuevo"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El índice oficial identifica el capítulo 9 como Using Pivot Tables.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
-      "referencia": "https://books.libreoffice.org/en/CG24/CG24.html"
+      "justificacion": "Según la Guía Calc 24.2, capítulo 9, los cambios en los datos de origen **no actualizan automáticamente** una tabla dinámica. Hay que usar **Datos > Tabla dinámica > Actualizar** o **Actualizar** en su menú contextual. Si cambia el rango de origen por nuevas filas, puede ser necesario modificarlo o recrear la tabla.",
+      "trampaExamen": "Una tabla dinámica **no se actualiza sola** al cambiar sus datos de origen. **Actualizar** no equivale a recalcular una fórmula corriente.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html"
     },
     {
       "id": "DT-C2-T19-010",
@@ -140,9 +140,21 @@
         "20"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Diez por ciento equivale a 0,10 y 200×0,10=20.",
-      "trampaExamen": "Distinguir el funcionamiento propio de LibreOffice 24, sin trasladar mecánicamente funciones de Microsoft Office.",
+      "justificacion": "La celda B2 almacena el valor numérico **10 % = 0,10**, por tanto **200 × 0,10 = 20**.",
+      "trampaExamen": "Un **porcentaje** es un valor numérico: **10 % = 0,10**, no 10 al multiplicar.",
       "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 10,
+    "producto": "LibreOffice Calc 24.2",
+    "fuentes": [
+      "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html",
+      "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html",
+      "https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html"
+    ],
+    "resultado": "Se revisaron diez preguntas frente a la guía Calc 24.2; se sustituyó la pregunta memorística de capítulo de tablas dinámicas por la necesidad de actualización manual; se precisaron referencias, AutoFiltro y porcentajes.",
+    "limitacion": "Auditoría documental del test: no equivale a ejecutar un caso real en la aplicación ni a certificar el manual completo."
+  }
 }
