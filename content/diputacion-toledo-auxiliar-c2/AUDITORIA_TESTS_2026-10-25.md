@@ -207,3 +207,31 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 ### Balance actualizado
 
 **46 / 138 preguntas** con cotejo sustantivo individual documentado: temas **2, 3, 11, 12, 13 y 15**. **92** preguntas pendientes. Los **20 manuales** siguen siendo borradores y el **tema 6** no dispone todavía de test específico.
+
+
+---
+
+## 10. Auditoría jurídica tema 4 — 26/10/2026
+
+**Fuente primaria:** [Ley 39/2015, texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) (última actualización publicada **06/11/2024**).
+
+| Pregunta | Referencia | Resultado |
+|---|---|---|
+| **T4-001** | **112.1 y 121.1** | Alzada contra resoluciones y actos de trámite cualificados que no agotan la vía administrativa; delimitado que no todo trámite es recurrible |
+| **T4-002** | **122.1** | Alzada contra acto expreso: **un mes** |
+| **T4-003** | **122.2 y 24.1** | Resolución de alzada: **tres meses**; silencio generalmente negativo, con excepción legal |
+| **T4-004** | **123.1** | Reposición potestativa contra actos que ponen fin a la vía administrativa, ante el mismo órgano |
+| **T4-005** | **107.1, 107.2, 107.5** | **Sustituida** pregunta redundante por competencia del **Pleno de la Corporación** en lesividad de actos locales; límite **cuatro años** |
+| **T4-006** | **106.1 y 106.5** | **Sustituida** pregunta redundante por revisión de oficio: iniciada de oficio, **caducidad a seis meses**; a instancia, silencio desestimatorio |
+| **T4-007** | **125.1 y 125.2** | Error de hecho: **cuatro años** desde notificación; otras causas: **tres meses** desde conocimiento del documento o firmeza judicial |
+| **T4-008** | **109.2** | Rectificación en cualquier momento de errores materiales, de hecho o aritméticos, distinta de nulidad y lesividad |
+
+**Incidencia de fondo corregida:** la antigua justificación **T4-007** decía que los tres meses de las causas restantes se contaban «desde los hechos o conocimiento de documentos». Esa descripción era inexacta: el artículo **125.2** exige **conocimiento de documentos** o **firmeza de la sentencia judicial**, según corresponda.
+
+> ⚠️ **¡Foco Examen!:** **Lesividad**: **cuatro años** para declararla desde el acto, órgano local **Pleno**; si transcurren **seis meses** sin declaración, caduca el procedimiento. **Revisión de oficio de nulidad**: iniciada de oficio, **seis meses → caducidad**; iniciada a solicitud, silencio desestimatorio. No confundirlas con el recurso extraordinario de revisión por error de hecho (**cuatro años desde notificación**).
+
+### Balance acumulado tras tema 4
+
+- **54 / 138** preguntas con auditoría individual registrada: temas **2, 3, 4, 11, 12, 13 y 15**.
+- **84** preguntas aún pendientes de auditoría individual.
+- Los manuales completos continúan en **BORRADOR**. El tema 6 sigue sin banco por falta de cotejo íntegro de sus Estatutos.
