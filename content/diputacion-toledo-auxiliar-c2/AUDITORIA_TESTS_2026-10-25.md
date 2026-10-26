@@ -129,3 +129,25 @@ Se ha contrastado la legislación consolidada:
 - **114 preguntas** pendientes de revisión jurídica o técnica individual.
 - **20 manuales** continúan como **borradores**, no como material íntegramente certificado.
 - El **tema 6** continúa sin banco específico mientras no se disponga de los Estatutos vigentes completos del OAPGT.
+
+
+---
+
+## 7. Auditoría tema 15 — 26/10/2026
+
+**Seis preguntas cotejadas** con el texto consolidado de la **Ley 40/2015** (última actualización publicada **02/08/2024**): https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
+
+| Pregunta | Precepto | Comprobación |
+|---|---|---|
+| 15-001 | **8.1** | Competencia irrenunciable, salvo delegación o avocación legales |
+| 15-002 | **8.1 y 9** | Delegar ejercicio no altera la titularidad |
+| 15-003 | **10** | Avocación por el superior; supuestos especiales cuando no hay dependencia jerárquica |
+| 15-004 | **11.1–11.2** | Encomienda de actividades materiales o técnicas, sin cesión sustantiva |
+| 15-005 | **23.2.b** | **Pregunta sustituida**: consanguinidad hasta **cuarto grado**, afinidad hasta **segundo** |
+| 15-006 | **24.3–24.5** | **Pregunta sustituida**: manifestación del recusado al **día siguiente** y resolución del superior en **tres días** si niega la causa |
+
+> ⚠️ **¡Foco Examen!:** La **recusación** se plantea por escrito durante la tramitación; no cabe recurso separado contra su resolución, sin perjuicio de invocarla frente al acto final. La **abstención** no determina automáticamente la invalidez de cualquier acto en que haya intervenido la persona afectada.
+
+### Balance actualizado
+
+**30 de 138 preguntas** con revisión normativa individual documentada (temas **11, 12, 13 y 15**). **108** aún pendientes de auditoría de fondo. Los manuales conservan su estado **BORRADOR**.
