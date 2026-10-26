@@ -151,3 +151,33 @@ Se ha contrastado la legislación consolidada:
 ### Balance actualizado
 
 **30 de 138 preguntas** con revisión normativa individual documentada (temas **11, 12, 13 y 15**). **108** aún pendientes de auditoría de fondo. Los manuales conservan su estado **BORRADOR**.
+
+
+---
+
+## 8. Auditoría de Ley 39/2015, tema 2 — 26/10/2026
+
+**Fuente contrastada:** [Ley 39/2015, BOE-A-2015-10565](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), última actualización del texto consolidado publicada **06/11/2024**.
+
+| Pregunta | Precepto | Resultado |
+|---|---|---|
+| **T2-001** | **4.1.b** | Sustituida pregunta de número de artículo por quién es interesado sin haber iniciado procedimiento |
+| **T2-002** | **13.b y 53** | Sustituida pregunta de número de artículo por derecho de asistencia electrónica y diferenciación entre derechos generales y derechos del interesado |
+| **T2-003** | **14.2.a** | Personas jurídicas: relación electrónica obligatoria |
+| **T2-004** | **30.2** | Plazos por días hábiles salvo previsión distinta: exclusión de sábados, domingos y festivos |
+| **T2-005** | **30.5** | Último día inhábil: **primer día hábil siguiente** |
+| **T2-006** | **32.1** | Ampliación hasta **la mitad** del plazo, condiciones y notificación |
+| **T2-007** | **32.3** | Solicitud y decisión antes del vencimiento; no se amplía un plazo vencido |
+| **T2-008** | **21.2–21.3** | Si no se fija plazo de resolución: **tres meses**. No confundir con máximo ordinario **seis meses**, salvo excepción |
+
+**Correcciones técnicas del banco:** eliminadas las **8** referencias que contenían la cadena literal `undefined`. Las ocho respuestas se cotejaron con los artículos indicados.
+
+### Incidencia transversal corregida
+
+La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1: 7**, tema **3: 8**, tema **4: 8**). Se repararon las referencias y se recolocó la indicación del artículo en el campo adecuado **sin variar las soluciones**, pero **estas 23 reparaciones NO constituyen auditoría jurídica individual de esos temas**.
+
+> ⚠️ **¡Foco Examen!:** Cuando la norma no fija plazo para notificar resolución expresa rige **tres meses** (art. **21.3**); el máximo general que pueden establecer las normas del procedimiento es **seis meses**, salvo norma con rango de ley o Derecho de la UE (art. **21.2**). No confundir los conceptos.
+
+### Balance de auditoría
+
+**38 / 138 preguntas** cotejadas individualmente con fuente legal: temas **2, 11, 12, 13 y 15**. **100** pendientes de cotejo sustantivo. La auditoría integral de los manuales permanece abierta.
