@@ -324,3 +324,29 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **74 de 138 preguntas** con auditoría individual documentada: temas **1–5, 7, 11–13 y 15**.
 - **64 preguntas** pendientes de revisión de fondo.
 - Los **20 manuales** siguen en estado **BORRADOR**; el tema 7 requiere una auditoría separada de las reformas autonómicas y del texto íntegro.
+
+
+---
+
+## 14. Auditoría jurídica tema 8 — **26/10/2026**
+
+**Fuente:** [Ley 31/1995, de Prevención de Riesgos Laborales](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), versión consolidada del BOE con última actualización publicada **09/04/2026**.
+
+| Pregunta | Fundamento | Verificación |
+|---|---|---|
+| **T08-001** | **Art. 14.1** | Derecho a protección eficaz y deber empresarial correlativo |
+| **T08-002** | **Art. 14.5** | El coste de la prevención **no recae sobre trabajadores** |
+| **T08-003** | **Art. 15.1.c y h** | Combatir riesgos en origen y priorizar **protección colectiva** |
+| **T08-004** | **Art. 31.2** | **SUSTITUIDA** la cuestión anterior por definición de **servicio de prevención**: medios humanos y materiales para prevención y asesoramiento |
+| **T08-005** | **Art. 38.2 y 38.3** | Comité de Seguridad y Salud desde **50 trabajadores**, **paritario**, reuniones **trimestrales** y a petición de representación |
+| **T08-006** | **Art. 35.2 y 35.4** | **SUSTITUIDA** la pregunta de reuniones por **delegados de prevención**: **50–100: dos**; **101–500: tres**, con sistemas alternativos de designación permitidos |
+
+**Resultado:** seis preguntas contrastadas con la LPRL, dos sustituidas para cubrir todos los incisos del epígrafe oficial (derechos y obligaciones, servicios, consulta y participación) y justificaciones precisadas.
+
+> ⚠️ **¡Foco Examen!:** El **Comité** empieza en **50 trabajadores**; para **50–100** corresponden **2 delegados**, pero el Comité es **paritario**, formado por esos delegados y el mismo número de representantes empresariales. Se reúne **trimestralmente** y a solicitud de una de sus representaciones.
+
+### Balance acumulado
+
+- **80 / 138 preguntas** con contraste jurídico individual documentado: temas **1–5, 7, 8, 11–13 y 15**.
+- **58 preguntas** pendientes de revisión jurídica o técnica de fondo.
+- Los manuales completos de la convocatoria siguen en **BORRADOR** y el **tema 6** continúa sin test específico por falta de cotejo íntegro estatutario.
