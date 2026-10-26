@@ -350,3 +350,29 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **80 / 138 preguntas** con contraste jurídico individual documentado: temas **1–5, 7, 8, 11–13 y 15**.
 - **58 preguntas** pendientes de revisión jurídica o técnica de fondo.
 - Los manuales completos de la convocatoria siguen en **BORRADOR** y el **tema 6** continúa sin test específico por falta de cotejo íntegro estatutario.
+
+
+---
+
+## 15. Auditoría jurídica del tema 9 — **26/10/2026**
+
+**Fuentes:** [Ley Orgánica 3/2007, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) (última actualización publicada **02/08/2024**) y [Ley 12/2010, Castilla-La Mancha](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708) (última actualización publicada **30/06/2021**).
+
+| Pregunta | Fundamento | Resultado |
+|---|---|---|
+| **T09-001** | **LO 3/2007, art. 6.1** | Discriminación directa: trato menos favorable por razón de sexo en situación comparable |
+| **T09-002** | **LO 3/2007, art. 6.2** | Indirecta: disposición o criterio aparentemente neutro, desventaja particular y posible justificación objetiva |
+| **T09-003** | **Ley 12/2010, art. 8.1–8.2** | **SUSTITUIDA** pregunta sobre orden de discriminar por **transversalidad** en todas las políticas y fases de la acción pública |
+| **T09-004** | **LO 3/2007, disposición adicional primera** | Composición equilibrada: presencia de cada sexo de **40 % a 60 %**, sin exigir exactamente 50/50 |
+| **T09-005** | **Ley 12/2010, art. 4.g** | **SUSTITUIDA** pregunta sobre título de la ley autonómica por obligación de **lenguaje no sexista** en ámbito administrativo |
+| **T09-006** | **LO 3/2007, arts. 7.1–7.3** | **SUSTITUIDA** por diferencia entre **acoso sexual** y **acoso por razón de sexo**, ambos discriminatorios |
+
+**Resultado:** **6 respuestas cotejadas**. Tres preguntas sustituidas y fundamentación individual ampliada. Se corrige el desequilibrio de cobertura que dejaba la **Ley 12/2010** reducida a memorizar su título: ahora se preguntan los artículos **4 y 8** de dicha ley.
+
+> ⚠️ **¡Foco Examen!:** **Discriminación directa** y **discriminación indirecta** no son sinónimos. **Acoso sexual** puede ser verbal o físico y tiene naturaleza sexual; **acoso por razón de sexo** no requiere contenido sexual. En ambos casos hay discriminación. La **composición equilibrada** es **40–60 %**, no 50/50 obligatorio.
+
+### Balance tras tema 9
+
+- **86 / 138 preguntas** con auditoría jurídica individual documentada: temas **1–5, 7–9, 11–13 y 15**.
+- **52 preguntas** pendientes de auditoría jurídica o técnica individual.
+- Manuales completos aún en **BORRADOR** y **tema 6** todavía sin test específico.
