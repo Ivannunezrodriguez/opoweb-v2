@@ -76,17 +76,17 @@
     },
     {
       "id": "DT-C2-T13-006",
-      "enunciado": "¿Cuáles son los tres impuestos municipales de exacción obligatoria enumerados en el artículo 59.1 TRLRHL?",
+      "enunciado": "Según el artículo 61.1 TRLRHL, ¿qué derecho tiene preferencia en el hecho imponible del IBI sobre el derecho de propiedad, cuando concurre sobre el mismo inmueble?",
       "opciones": [
-        "IBI, ICIO e IIVTNU",
-        "ICIO, IIVTNU y tasas",
-        "Solo IBI e IAE",
-        "IBI, IAE e IVTM"
+        "El derecho de propiedad siempre prevalece",
+        "Un contrato privado de arrendamiento",
+        "Una concesión administrativa sobre el inmueble o los servicios públicos a que esté afecto",
+        "Una autorización verbal de uso"
       ],
-      "respuestaCorrecta": 3,
-      "justificacion": "La enumeración legal del apartado primero comprende Bienes Inmuebles, Actividades Económicas y Vehículos de Tracción Mecánica.",
-      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
-      "referencia": "TRLRHL art. 59.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 61.1 TRLRHL establece este orden: concesión administrativa, derecho real de superficie, usufructo y propiedad. Con las especialidades legales para inmuebles de características especiales, la realización del hecho imponible preferente excluye las modalidades posteriores (art. 61.2).",
+      "trampaExamen": "**Concesión > superficie > usufructo > propiedad**. En IBI no es siempre el propietario quien realiza el hecho imponible; revisar la excepción legal de inmuebles de características especiales.",
+      "referencia": "TRLRHL art. 61.1 y 61.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     },
     {
       "id": "DT-C2-T13-007",
@@ -98,23 +98,43 @@
         "Siempre se exige aunque no exista incremento de valor"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 104.5 regula la no sujeción cuando se constata inexistencia de incremento conforme a sus requisitos.",
+      "justificacion": "El art. 104.5 TRLRHL establece no sujeción si se constata inexistencia de incremento entre adquisición y transmisión; para acreditarla, hay que declarar la transmisión y aportar los títulos correspondientes conforme a las reglas de valoración del artículo.",
       "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
       "referencia": "TRLRHL art. 104.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     },
     {
       "id": "DT-C2-T13-008",
-      "enunciado": "¿Qué impuesto municipal tiene como hecho imponible el mero ejercicio de actividades aunque no se ejerzan en un local determinado?",
+      "enunciado": "En una compraventa de terreno urbano entre residentes, ¿quién es el contribuyente del IIVTNU según el artículo 106.1.b TRLRHL?",
       "opciones": [
-        "IIVTNU",
-        "IAE",
-        "IBI",
-        "IVTM"
+        "El adquirente en todo caso",
+        "El Ayuntamiento",
+        "El notario",
+        "El transmitente del terreno"
       ],
-      "respuestaCorrecta": 1,
-      "justificacion": "El artículo 78.1 contempla expresamente actividades ejercidas o no en local determinado.",
-      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
-      "referencia": "TRLRHL art. 78.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 106.1.b TRLRHL establece que en transmisiones a título oneroso el contribuyente es quien transmite el terreno. En las lucrativas, el artículo 106.1.a atribuye la condición a quien adquiere. Si el contribuyente oneroso es una persona física no residente en España, procede atender a la regla del sustituto del art. 106.2.",
+      "trampaExamen": "Distinguir **transmisión onerosa (transmitente)** y **gratuita (adquirente)**, y la figura del **sustituto** cuando procede.",
+      "referencia": "TRLRHL art. 106.1.a, 106.1.b y 106.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "norma": "RDL 2/2004, TRLRHL, texto consolidado con última actualización publicada el 07/10/2026",
+    "articulosVerificados": [
+      "59.1",
+      "59.2",
+      "60",
+      "61.1",
+      "61.2",
+      "78.1",
+      "92.1",
+      "104.1",
+      "104.5",
+      "106.1",
+      "106.2"
+    ],
+    "preguntasRevisadas": 8,
+    "resultado": "Se mantienen seis preguntas contrastadas y se sustituyen dos redundantes por IBI prelación y sujeto pasivo IIVTNU; se precisa la acreditación de no incremento.",
+    "limitacion": "Auditoría del banco del tema 13, no certificación integral de su manual. Rutas web de artículos deben seguirse revisando antes de examen."
+  }
 }
