@@ -293,3 +293,34 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **68 / 138 preguntas** sometidas a revisión jurídica individual documentada: temas **1, 2, 3, 4, 5, 11, 12, 13 y 15**.
 - **70 / 138 preguntas** pendientes de auditoría de fondo.
 - Los manuales de Diputación C2 permanecen en **BORRADOR**, incluido el tema 5.
+
+
+---
+
+## 13. Auditoría jurídica del tema 7 — **26/10/2026**
+
+**Fuente base:** [Ley 4/2011, Empleo Público de Castilla-La Mancha, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752). La página de **texto consolidado** muestra última integración del **21/03/2024**, pero su **apartado de análisis jurídico** registra cambios posteriores:
+
+- [Ley 1/2026, de **26/03/2026**](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065): modificación del **artículo 121** y de la **disposición adicional séptima**.
+- [Ley 2/2026, de **09/04/2026**](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086): modificación del **artículo 70.2** (libre designación), con entrada en vigor el **06/05/2026**.
+
+**Advertencia fundamental:** no tratar el consolidado BOE de **2024** como una integración completa de estas reformas de **2026**.
+
+| Pregunta | Fundamento | Resultado |
+|---|---|---|
+| **T07-001** | **Art. 4.2** | Clases de empleado público: funcionario de carrera, interino, laboral y eventual |
+| **T07-002** | **Art. 65.2** | **Sustituida** pregunta definitoria por promoción interna: al menos **dos años** de servicio activo, con reglas legales de cómputo |
+| **T07-003** | **Art. 12.1** | Personal eventual: funciones de confianza o asesoramiento especial |
+| **T07-004** | **Art. 12.4–12.5** | El desempeño eventual **no constituye mérito** para acceso o promoción interna |
+| **T07-005** | **Art. 19.4** | **Sustituida** pregunta básica por ejecución total de OEP en plazo **improrrogable de tres años** desde el día siguiente al de su publicación |
+| **T07-006** | **Art. 67.2** | El **concurso** es procedimiento normal de provisión; la libre designación requiere convocatoria pública |
+
+**Resultado:** **6 respuestas revisadas** y **2 preguntas sustituidas** por plazos relevantes. La pregunta **006** no exige memorizar las categorías específicas de puestos del artículo **70.2** reformado en **2026**.
+
+> ⚠️ **¡Foco Examen!:** No confundir **provisión de puestos (concurso)**, **promoción interna (antigüedad mínima de dos años)** y **ejecución de OEP (tres años improrrogables)**. Son institutos distintos.
+
+### Balance tras la revisión
+
+- **74 de 138 preguntas** con auditoría individual documentada: temas **1–5, 7, 11–13 y 15**.
+- **64 preguntas** pendientes de revisión de fondo.
+- Los **20 manuales** siguen en estado **BORRADOR**; el tema 7 requiere una auditoría separada de las reformas autonómicas y del texto íntegro.
