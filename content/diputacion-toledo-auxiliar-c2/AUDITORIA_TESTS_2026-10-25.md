@@ -522,3 +522,35 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **122 / 138 preguntas** individualmente auditadas: temas **1–5, 7–18**.
 - **16 preguntas** pendientes: temas **19 y 20**.
 - **Tema 6** aún no dispone de test propio. Los manuales completos siguen con estado **BORRADOR**.
+
+
+---
+
+## 21. Auditoría técnica tema 19 — **26/10/2026**
+
+**Epígrafe oficial:** «LibreOffice 24 II. Utilización de documentos de hoja de cálculo con LibreOffice 24 Calc».
+
+**Fuente primaria del fabricante:** [Guía Calc 24.2, The Document Foundation](https://books.libreoffice.org/en/CG24/CG24.html); capítulos [8: fórmulas y funciones](https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html), [9: tablas dinámicas](https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html) y [14: Calc como base de datos](https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html).
+
+| Pregunta | Aspecto auditado | Conclusión |
+|---|---|---|
+| **T19-001** | Referencias absolutas | **$B$3** fija columna y fila |
+| **T19-002** | Copia de fórmulas | `=A1+B1` de C1 a C2 se convierte en `=A2+B2` |
+| **T19-003** | Referencias mixtas | **$A1** fija únicamente la columna |
+| **T19-004** | Tecla **F4** | Alterna tipos de referencia durante la edición de fórmulas |
+| **T19-005** | Rangos | **A2:B4** abarca **6 celdas**, con extremos incluidos |
+| **T19-006** | AutoFiltro | Oculta filas que incumplen condiciones, **sin eliminarlas** |
+| **T19-007** | Activación AutoFiltro | **Datos > AutoFiltro**, también **Ctrl + Mayús + L** |
+| **T19-008** | Ordenación y filtros | Ordenar reorganiza; filtrar afecta a visibilidad |
+| **T19-009** | Tabla dinámica | **SUSTITUIDA** pregunta sobre capítulo del manual por obligación de **actualizar manualmente** después de cambiar datos de origen |
+| **T19-010** | Porcentajes | **200 × 10 % = 20** |
+
+**Resultado:** **10 preguntas contrastadas** con documentación de Calc 24.2; una reformulada por un supuesto práctico, nueve ampliadas con detalles y trampas relevantes.
+
+> ⚠️ **¡Foco Examen!:** **F4** alterna referencias relativas, absolutas y mixtas; **$A1** fija columna, **A$1** fija fila. Una **tabla dinámica** no actualiza automáticamente sus resultados cuando se modifican sus datos de origen: se usa **Datos > Tabla dinámica > Actualizar**.
+
+### Balance acumulado
+
+- **132 / 138 preguntas** con revisión individual documentada: temas **1–5 y 7–19**.
+- **6 preguntas** pendientes de auditoría técnica: **tema 20**.
+- **Tema 6** continúa sin banco específico. Los manuales siguen marcados como **BORRADOR**.
