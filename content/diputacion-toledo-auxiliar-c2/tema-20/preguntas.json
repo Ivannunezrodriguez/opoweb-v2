@@ -2,7 +2,7 @@
   "tema": 20,
   "estado": "BORRADOR_TEST_CON_REFERENCIAS",
   "version": "2026-10-25",
-  "criterio": "Seis preguntas originales con cuatro opciones. Legislación BOE y documentación técnica de fabricante o documentación pública identificadas como fuentes. No son preguntas oficiales.",
+  "criterio": "Seis preguntas originales de entrenamiento contrastadas documentalmente el 26/10/2026, no son preguntas oficiales. Manual del tema 20 todavía borrador.",
   "preguntas": [
     {
       "id": "DT-C2-T20-001",
@@ -14,8 +14,8 @@
         "Escáner"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La unidad central de procesamiento (CPU) ejecuta instrucciones del sistema.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "La CPU (unidad central de procesamiento) ejecuta instrucciones y operaciones de los programas y del sistema operativo. No equivale a la unidad de almacenamiento ni a los periféricos.",
+      "trampaExamen": "La CPU procesa instrucciones; la RAM conserva temporalmente datos en uso y el SSD/HDD los almacena de forma no volátil.",
       "referencia": "Arquitectura del ordenador · https://www.intel.com/content/www/es/es/products/docs/processors/what-is-a-cpu.html"
     },
     {
@@ -28,23 +28,23 @@
         "DVD-ROM"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La RAM proporciona memoria de trabajo volátil.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "La RAM se utiliza como memoria principal de trabajo para instrucciones y datos en uso, y es volátil: normalmente pierde su contenido al retirarse la alimentación.",
+      "trampaExamen": "RAM es memoria de trabajo volátil; SSD y disco duro son soportes de almacenamiento no volátil.",
       "referencia": "Componentes del ordenador · https://www.ibm.com/think/topics/ram"
     },
     {
       "id": "DT-C2-T20-003",
-      "enunciado": "¿Cuál de los siguientes es un dispositivo de entrada?",
+      "enunciado": "Se necesita digitalizar un expediente de 40 hojas consecutivas en un escáner multifunción. ¿Qué elemento facilita alimentar automáticamente las páginas?",
       "opciones": [
-        "Altavoz",
-        "Proyector",
-        "Escáner",
-        "Impresora láser"
+        "Un altavoz externo",
+        "Un cable HDMI",
+        "El alimentador automático de documentos (ADF)",
+        "Una impresora térmica sin escáner"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El escáner capta información de documentos físicos y la introduce en el sistema.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Periféricos de entrada · https://support.microsoft.com/es-es/windows"
+      "justificacion": "La documentación de Microsoft distingue el cristal o cama plana del escáner y el alimentador de documentos. El ADF permite introducir hojas sucesivas para digitalización sin colocar una a una sobre el cristal, si el equipo dispone de esa función.",
+      "trampaExamen": "ADF es alimentador de documentos; disponer de ADF no significa automáticamente que permita digitalización a doble cara.",
+      "referencia": "Microsoft Support, instalar y utilizar un escáner en Windows · https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
     },
     {
       "id": "DT-C2-T20-004",
@@ -56,8 +56,8 @@
         "Unidad de almacenamiento no volátil con tecnología de estado sólido"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Un SSD almacena datos de forma no volátil y puede presentarse como unidad externa.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "Un SSD externo es una unidad de almacenamiento de estado sólido no volátil. Puede conectarse mediante interfaces como USB y no es memoria RAM.",
+      "trampaExamen": "No confundir un SSD conectado por USB con una memoria de trabajo RAM: ambas pueden usar electrónica de semiconductores, pero tienen funciones diferentes.",
       "referencia": "Almacenamiento · https://www.ibm.com/think/topics/solid-state-drives"
     },
     {
@@ -70,23 +70,37 @@
         "Puerto de red Wi-Fi"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "RW identifica soporte óptico regrabable, a diferencia de ROM o R.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
+      "justificacion": "DVD-RW identifica un disco DVD regrabable: permite operaciones de borrado y nueva grabación si la unidad y el disco son compatibles. DVD-ROM es de solo lectura, y DVD-R es grabable normalmente una sola vez.",
+      "trampaExamen": "DVD-ROM: solo lectura; DVD-R: grabación única; DVD-RW: regrabable. Regrabar exige una unidad compatible.",
       "referencia": "Medios ópticos · https://www.verbatim-europe.com/en/disc-types"
     },
     {
       "id": "DT-C2-T20-006",
-      "enunciado": "¿Qué diferencia esencial existe entre un disco duro externo y una memoria USB de tipo pendrive?",
+      "enunciado": "Una oficina necesita imprimir un documento por las dos caras de cada hoja. ¿Qué función debe buscar en las opciones de la impresora?",
       "opciones": [
-        "Ambos son exclusivamente lectores de DVD",
-        "Los dos pueden almacenar información; la tecnología y el formato físico pueden diferir",
-        "Una memoria USB es siempre un dispositivo de salida de audio",
-        "Un disco externo es necesariamente memoria RAM"
+        "Reconocimiento OCR",
+        "Impresión dúplex o a doble cara",
+        "Digitalización con escáner plano",
+        "Formateo de una memoria USB"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Son soportes de almacenamiento y no equivalen a memoria de trabajo; pueden tener tecnologías distintas.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Periféricos y almacenamiento · https://www.ibm.com/think/topics/data-storage"
+      "justificacion": "La impresión dúplex utiliza ambas caras de la hoja; puede ser automática si la impresora tiene mecanismo dúplex, o manual si exige volver a introducir las hojas. No debe confundirse con digitalización a doble cara.",
+      "trampaExamen": "Imprimir a doble cara es función de salida de la impresora; escanear a doble cara es una capacidad diferente del escáner.",
+      "referencia": "Microsoft Support, documentación de impresoras y escáneres Windows · https://support.microsoft.com/es-es/windows"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 6,
+    "fuentes": [
+      "https://www.intel.com/content/www/es/es/products/docs/processors/what-is-a-cpu.html",
+      "https://www.ibm.com/think/topics/ram",
+      "https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows",
+      "https://www.ibm.com/think/topics/solid-state-drives",
+      "https://www.verbatim-europe.com/en/disc-types",
+      "https://support.microsoft.com/es-es/windows"
+    ],
+    "resultado": "Se revisaron las seis preguntas; se reformularon dos como supuestos de alimentador automático de documentos y de impresión dúplex para mejorar la cobertura del programa.",
+    "limitacion": "Revisión de contenidos conceptuales y documentación de fabricante; sin pruebas físicas con periféricos ni auditoría integral del manual."
+  }
 }
