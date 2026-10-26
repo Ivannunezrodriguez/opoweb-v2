@@ -263,3 +263,33 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **62 / 138** preguntas cotejadas individualmente: temas **1, 2, 3, 4, 11, 12, 13 y 15**.
 - **76 / 138** restantes con auditoría jurídica o técnica de fondo pendiente.
 - El manual del tema 1, como los demás manuales de la convocatoria, continúa en estado **BORRADOR**.
+
+
+---
+
+## 12. Auditoría jurídica tema 5 — 26/10/2026
+
+**Fuentes primarias cotejadas:**
+
+- **Ley 7/1985, de Bases del Régimen Local**, texto consolidado BOE actualizado **03/10/2026**: https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392
+- **Ley Orgánica 5/1985, Régimen Electoral General**, texto consolidado BOE actualizado **02/07/2026**: https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672
+- **Constitución Española**, art. **140**, utilizada como contraste adicional: https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229
+
+| Pregunta | Artículo cotejado | Resultado |
+|---|---|---|
+| **T05-001** | **LRBRL 11.2** | Tres elementos municipales: **territorio, población y organización** |
+| **T05-002** | **LRBRL 20.1.a y e** | **Comisión Especial de Cuentas** en todos los municipios, y órganos municipales necesarios |
+| **T05-003** | **LRBRL 20.1.b** | **Junta de Gobierno Local** en municipios de población **superior a 5.000**; posibilidad de creación en menores bajo las condiciones legales |
+| **T05-004** | **LRBRL 32.1–32.2** | **SUSTITUIDA** pregunta memorística por órganos provinciales necesarios: **Presidente, Vicepresidentes, Junta de Gobierno y Pleno** |
+| **T05-005** | **LOREG 207.1–207.2** | **SUSTITUIDA** pregunta sobre quién elige al presidente de la Diputación por las mayorías exactas: **absoluta en primera votación y simple en segunda** |
+| **T05-006** | **LRBRL 36.1.b** | Cooperación y asistencia jurídica, económica y técnica a los municipios; garantía específica de secretaría e intervención en municipios de **menos de 1.000** habitantes |
+
+**Resultado:** **6 preguntas cotejadas**; **2** mejoradas sustantivamente y **4** con justificaciones y trampas de examen más precisas. Se mantiene la advertencia de que el manual completo y el funcionamiento concreto de la Diputación requieren revisión independiente.
+
+> ⚠️ **¡Foco Examen!:** **Superior a 5.000** no es igual a **5.000 o más**. En la elección del **Presidente de la Diputación** se exige **mayoría absoluta en primera votación** y **simple en segunda**. No confundir con la elección del Alcalde.
+
+### Balance de la auditoría
+
+- **68 / 138 preguntas** sometidas a revisión jurídica individual documentada: temas **1, 2, 3, 4, 5, 11, 12, 13 y 15**.
+- **70 / 138 preguntas** pendientes de auditoría de fondo.
+- Los manuales de Diputación C2 permanecen en **BORRADOR**, incluido el tema 5.
