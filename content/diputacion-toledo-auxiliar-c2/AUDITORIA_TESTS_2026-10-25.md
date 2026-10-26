@@ -97,3 +97,35 @@ Se ha contrastado la legislación consolidada:
 - **122 / 138 pendientes de auditoría sustantiva**.
 - **Tema 6:** sin test todavía; falta el texto estatutario íntegro vigente.
 - Esta auditoría **no** acredita el funcionamiento visual de la web ni la publicación definitiva de los manuales.
+
+
+---
+
+## 6. Auditoría jurídica del tema 13 — 26/10/2026
+
+**Fuente primaria consultada:** [RDL 2/2004, TRLRHL consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), última actualización publicada el **07/10/2026**.
+
+| Pregunta | Artículo | Resultado de contraste |
+|---|---|---|
+| **T13-001** | **59.1** | Obligatorios: **IBI, IAE e IVTM**. |
+| **T13-002** | **60** | IBI: tributo **directo y real** que grava el valor inmobiliario. |
+| **T13-003** | **78.1** | IAE: ejercicio de actividades empresariales, profesionales o artísticas en territorio nacional. |
+| **T13-004** | **92.1** | IVTM: titularidad de vehículos aptos para circular por vías públicas. |
+| **T13-005** | **104.1** | IIVTNU: incremento de valor de terrenos urbanos manifestado en transmisión o derechos reales de goce limitativos del dominio. |
+| **T13-006** | **61.1–61.2** | **SUSTITUIDA** la antigua duplicación sobre impuestos obligatorios por prelación de derechos en el IBI. |
+| **T13-007** | **104.5** | No sujeción por inexistencia de incremento; deben aportarse la declaración y los títulos pertinentes conforme a la norma. |
+| **T13-008** | **106.1–106.2** | **SUSTITUIDA** la antigua repetición del hecho imponible del IAE por sujeto pasivo de transmisiones onerosas del IIVTNU, con advertencia sobre transmisiones gratuitas y sustituto del contribuyente. |
+
+### Dos distinciones de examen incorporadas
+
+- **IBI, artículo 61:** concesión administrativa → superficie → usufructo → propiedad, con la especialidad de los inmuebles de características especiales. **El propietario no es siempre el sujeto pasivo por propiedad**.
+- **IIVTNU, artículo 106:** **oneroso → transmitente**; **lucrativo → adquirente**. La figura del **sustituto** aparece cuando el contribuyente del supuesto oneroso es persona física no residente en España.
+
+> ⚠️ **¡Foco Examen!:** No confundir **hecho imponible**, **sujeto pasivo**, **exención** y **no sujeción**. El IIVTNU puede no quedar sujeto si se acredita ausencia de incremento de valor según el **artículo 104.5**.
+
+### Balance acumulado
+
+- **24 de 138 preguntas** con cotejo jurídico individual registrado: temas **11, 12 y 13**.
+- **114 preguntas** pendientes de revisión jurídica o técnica individual.
+- **20 manuales** continúan como **borradores**, no como material íntegramente certificado.
+- El **tema 6** continúa sin banco específico mientras no se disponga de los Estatutos vigentes completos del OAPGT.
