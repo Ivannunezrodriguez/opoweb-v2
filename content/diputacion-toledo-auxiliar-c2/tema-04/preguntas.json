@@ -2,7 +2,7 @@
   "tema": 4,
   "estado": "BORRADOR_TEST_DOCUMENTADO",
   "version": "2026-10-25",
-  "criterio": "8 preguntas originales por tema, referencias a artículos del BOE consolidado; revisión editorial adicional pendiente. No son preguntas oficiales.",
+  "criterio": "Ocho preguntas originales cotejadas con la Ley 39/2015 consolidada, 26/10/2026. No constituyen examen oficial.",
   "preguntas": [
     {
       "id": "DT-C2-T4-001",
@@ -14,8 +14,8 @@
         "Ninguno"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 121 regula la alzada frente a actos que no ponen fin a la vía administrativa.",
-      "trampaExamen": "Atender a las condiciones y excepciones del Ley 39/2015, art. 121. No confundir esta figura con otros procedimientos o plazos.",
+      "justificacion": "Los artículos 112.1 y 121.1 prevén el recurso de alzada contra resoluciones y actos de trámite cualificados que no ponen fin a la vía administrativa; se presenta ante el órgano que dictó el acto o el competente para resolver.",
+      "trampaExamen": "No todo acto de trámite es recurrible por separado; debe reunir alguna condición del artículo 112.1.",
       "referencia": "Ley 39/2015, art. 121 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
@@ -42,8 +42,8 @@
         "Seis meses"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El artículo 122.2 fija tres meses, sin perjuicio de las consecuencias del silencio y sus excepciones.",
-      "trampaExamen": "Atender a las condiciones y excepciones del Ley 39/2015, art. 122.2. No confundir esta figura con otros procedimientos o plazos.",
+      "justificacion": "El artículo 122.2 fija **tres meses** para dictar y notificar la resolución de alzada. Transcurridos sin resolución, se entiende desestimada, salvo el supuesto del tercer párrafo del artículo 24.1.",
+      "trampaExamen": "**Alzada**: **3 meses** para resolver. El silencio es generalmente desestimatorio, pero existe la excepción de doble silencio del artículo 24.1.",
       "referencia": "Ley 39/2015, art. 122.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
@@ -62,31 +62,31 @@
     },
     {
       "id": "DT-C2-T4-005",
-      "enunciado": "¿Qué plazo hay para interponer reposición potestativa contra un acto expreso?",
+      "enunciado": "Según el artículo 107.5 de la Ley 39/2015, ¿qué órgano declara la lesividad de los actos anulables procedentes de una entidad local?",
       "opciones": [
-        "Un mes",
-        "Tres meses",
-        "Cuatro años",
-        "Quince días"
+        "El Alcalde en todo caso",
+        "El Pleno de la Corporación o, si no existe, el órgano colegiado superior de la entidad",
+        "El Ministerio Fiscal",
+        "El Tribunal Constitucional"
       ],
-      "respuestaCorrecta": 0,
-      "justificacion": "El artículo 124.1 fija un mes para actos expresos.",
-      "trampaExamen": "Atender a las condiciones y excepciones del Ley 39/2015, art. 124.1. No confundir esta figura con otros procedimientos o plazos.",
-      "referencia": "Ley 39/2015, art. 124.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "respuestaCorrecta": 1,
+      "justificacion": "Para actos de las entidades locales, el artículo 107.5 atribuye la declaración de lesividad al **Pleno de la Corporación** o, en su defecto, al **órgano colegiado superior de la entidad**. El artículo 107.2 limita la adopción a **cuatro años** desde que se dictó el acto y exige audiencia previa.",
+      "trampaExamen": "La declaración de **lesividad** no anula por sí sola el acto favorable: habilita su impugnación contencioso-administrativa. **Pleno** en la entidad local, y límite de **cuatro años**.",
+      "referencia": "Ley 39/2015, art. 107.1, 107.2 y 107.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T4-006",
-      "enunciado": "¿Cuál es el plazo máximo para resolver y notificar el recurso potestativo de reposición?",
+      "enunciado": "En un procedimiento de revisión de oficio de un acto nulo iniciado por la propia Administración, ¿qué sucede si transcurren seis meses sin dictarse resolución?",
       "opciones": [
-        "Un año",
-        "Un mes",
-        "Tres meses",
-        "Seis meses"
+        "Se produce estimación por silencio positivo",
+        "El acto queda automáticamente convalidado",
+        "Se produce la caducidad del procedimiento",
+        "El plazo se transforma automáticamente en cuatro años"
       ],
-      "respuestaCorrecta": 1,
-      "justificacion": "El artículo 124.2 establece un mes.",
-      "trampaExamen": "Atender a las condiciones y excepciones del Ley 39/2015, art. 124.2. No confundir esta figura con otros procedimientos o plazos.",
-      "referencia": "Ley 39/2015, art. 124.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "respuestaCorrecta": 2,
+      "justificacion": "Según el artículo 106.5, si el procedimiento se inició **de oficio**, el transcurso de **seis meses** sin resolución produce **caducidad**. Si se inició por solicitud del interesado, podrá entenderse **desestimada por silencio**. La nulidad requiere los supuestos del artículo 47.1 y el régimen de dictamen del artículo 106.1.",
+      "trampaExamen": "**Revisión de oficio iniciada de oficio: caducidad a seis meses**. **Iniciada a instancia del interesado: silencio desestimatorio**. No confundir con el plazo de **cuatro años** de lesividad.",
+      "referencia": "Ley 39/2015, art. 106.1 y 106.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T4-007",
@@ -98,8 +98,8 @@
         "Quince días"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El artículo 125.2 prevé cuatro años para la causa primera del 125.1; para otras causas, tres meses desde los hechos o conocimiento de documentos.",
-      "trampaExamen": "Atender a las condiciones y excepciones del Ley 39/2015, arts. 125.1.a y 125.2. No confundir esta figura con otros procedimientos o plazos.",
+      "justificacion": "El artículo 125.2 fija **cuatro años desde la notificación** del acto para el error de hecho de los documentos del expediente (art. 125.1.a). Para las otras tres causas: **tres meses desde el conocimiento de los documentos o desde la firmeza de la sentencia judicial**, según la causa.",
+      "trampaExamen": "Revisión extraordinaria por **error de hecho: cuatro años**. Por las otras causas: **tres meses**, desde conocimiento de documentos o firmeza judicial; no desde unos «hechos» indeterminados.",
       "referencia": "Ley 39/2015, arts. 125.1.a y 125.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
@@ -112,9 +112,26 @@
         "Materiales, de hecho o aritméticos existentes en sus actos"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La Ley permite rectificar en cualquier momento errores materiales, de hecho o aritméticos existentes en sus actos.",
-      "trampaExamen": "Atender a las condiciones y excepciones del Ley 39/2015, art. 109.2. No confundir esta figura con otros procedimientos o plazos.",
+      "justificacion": "El artículo 109.2 permite en cualquier momento rectificar errores materiales, de hecho o aritméticos de sus propios actos, de oficio o a instancia de interesados; no equivale a revisar libremente la fundamentación jurídica.",
+      "trampaExamen": "**Rectificación** (art. 109.2) no equivale a **revisión de nulidad** (art. 106) ni a **lesividad** (art. 107).",
       "referencia": "Ley 39/2015, art. 109.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 8,
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+    "articulos": [
+      "106.1 y 106.5",
+      "107.1, 107.2 y 107.5",
+      "109.2",
+      "112.1",
+      "121.1",
+      "122.1 y 122.2",
+      "123.1",
+      "125.1–125.2"
+    ],
+    "resultado": "Se cotejaron 8 preguntas; 2 repetitivas fueron sustituidas por competencia local de lesividad y caducidad de revisión de oficio; se corrigió la explicación del plazo de revisión extraordinaria.",
+    "limitacion": "No certifica el manual completo del tema 4 ni verifica el corrector en navegador real."
+  }
 }
