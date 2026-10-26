@@ -2,7 +2,7 @@
   "tema": 10,
   "estado": "BORRADOR_TEST_DOCUMENTADO",
   "version": "2026-10-25",
-  "criterio": "6 preguntas originales, cuatro opciones y una solución, artículos precisos de BOE. Pendiente comprobación editorial integral antes de calificar como definitiva la unidad.",
+  "criterio": "Seis preguntas originales revisadas frente a la LO 3/2018 consolidada el 26/10/2026. No son preguntas oficiales.",
   "preguntas": [
     {
       "id": "DT-C2-T10-001",
@@ -14,37 +14,37 @@
         "12 años"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 7 fija los 14 años, con las salvedades de tratamientos basados en actos o negocios que requieren asistencia.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "justificacion": "El artículo 7 fija el umbral general de consentimiento autónomo del menor en **14 años**, con excepciones si el acto o negocio jurídico exige asistencia de los titulares de la patria potestad o tutela. Para menores de catorce el consentimiento corresponde a esos titulares.",
+      "trampaExamen": "No confundir **14 años** con mayoría de edad o con cualquier tratamiento fundado en una obligación legal.",
       "referencia": "LO 3/2018 art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
     },
     {
       "id": "DT-C2-T10-002",
-      "enunciado": "¿Cuál es la finalidad dual de la LO 3/2018 según su artículo 1?",
+      "enunciado": "Según el artículo 8.2 de la LO 3/2018, ¿en qué debe basarse el tratamiento de datos por una Administración cuando invoca una misión de interés público o el ejercicio de poderes públicos?",
       "opciones": [
-        "Regular impuestos y policía",
-        "Adaptar el ordenamiento al RGPD y garantizar derechos digitales",
-        "Regular solo nóminas",
-        "Aprobar la Constitución"
+        "En la simple preferencia de quien tramita el expediente",
+        "En una competencia atribuida por una norma con rango de ley",
+        "Siempre en el consentimiento expreso de todos los afectados",
+        "Únicamente en una circular interna sin respaldo legal"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La ley adapta el ordenamiento al RGPD y garantiza los derechos digitales.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
-      "referencia": "LO 3/2018 art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+      "justificacion": "Según el artículo 8.2, ese tratamiento debe derivar de una **competencia atribuida por una norma con rango de ley**. El consentimiento no es la única base jurídica para tratar datos en la Administración.",
+      "trampaExamen": "**Consentimiento** y **misión de interés público o poderes públicos** son bases jurídicas distintas.",
+      "referencia": "LO 3/2018, art. 8.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
     },
     {
       "id": "DT-C2-T10-003",
-      "enunciado": "¿Cuál de estos principios de protección de datos exige que estos sean correctos y se actualicen cuando sea necesario?",
+      "enunciado": "¿A quién reconoce el artículo 88.1 de la LO 3/2018 el derecho a la desconexión digital, entre otros?",
       "opciones": [
-        "Gratuidad de impuestos",
-        "Disponibilidad permanente",
-        "Exactitud",
-        "Publicidad universal"
+        "Solo a trabajadores autónomos",
+        "Únicamente a directivos",
+        "A trabajadores y empleados públicos",
+        "Exclusivamente a personal de empresas tecnológicas"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El artículo 4 desarrolla el principio de exactitud.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
-      "referencia": "LO 3/2018 art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+      "justificacion": "El artículo 88.1 reconoce el derecho a la desconexión digital de **trabajadores y empleados públicos** para respetar descanso, permisos, vacaciones e intimidad. El artículo 88.3 prevé una política interna tras audiencia de representantes.",
+      "trampaExamen": "La desconexión digital también se reconoce a los **empleados públicos**.",
+      "referencia": "LO 3/2018, art. 88.1–88.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
     },
     {
       "id": "DT-C2-T10-004",
@@ -56,8 +56,8 @@
         "Se mantiene incluso tras finalizar la relación con el responsable o encargado"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El artículo 5 establece deber de confidencialidad, también después de finalizar la relación.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "justificacion": "El deber de confidencialidad afecta a responsables, encargados y a todas las personas que intervienen en cualquier fase del tratamiento. **Se mantiene tras finalizar** la relación con el responsable o encargado (artículo 5.3).",
+      "trampaExamen": "La confidencialidad no termina al cesar en el puesto.",
       "referencia": "LO 3/2018 art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
     },
     {
@@ -70,8 +70,8 @@
         "Alzada"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 13 desarrolla el derecho de acceso.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "justificacion": "El artículo 13 desarrolla el derecho de acceso y remite al artículo 15 del RGPD. Su apartado 3 contempla el acceso repetitivo **en más de una ocasión durante seis meses**, salvo causa legítima.",
+      "trampaExamen": "**Acceso**: conocer datos. **Rectificación**: corregirlos. Reiteración superior a una vez en seis meses puede considerarse repetitiva, salvo causa legítima.",
       "referencia": "LO 3/2018 art. 13 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
     },
     {
@@ -84,9 +84,25 @@
         "Recurso contencioso automático"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El artículo 14 regula el ejercicio del derecho de rectificación.",
-      "trampaExamen": "Atender a la redacción exacta y excepciones del artículo referido; no extrapolar de otras figuras o procedimientos.",
+      "justificacion": "Según el artículo 14, el afectado debe precisar qué datos rectificar y la corrección pretendida, acompañando documentación justificativa cuando sea preciso.",
+      "trampaExamen": "**Rectificación** no equivale a supresión.",
       "referencia": "LO 3/2018 art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
     }
-  ]
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 6,
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+    "ultimaActualizacionBOE": "27/12/2025",
+    "articulos": [
+      "5",
+      "7",
+      "8.2",
+      "13",
+      "14",
+      "88"
+    ],
+    "resultado": "Se revisaron seis respuestas. Dos preguntas genéricas sustituidas por tratamiento público basado en ley y desconexión digital. Justificaciones ampliadas.",
+    "limitacion": "No certifica el manual completo ni la interfaz en navegador."
+  }
 }
