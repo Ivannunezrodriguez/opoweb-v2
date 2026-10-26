@@ -402,3 +402,29 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **92 / 138 preguntas** con revisión jurídica individual registrada: temas **1–5, 7–13 y 15**.
 - **46 / 138** pendientes de revisión de fondo (temas **14, 16–20**).
 - **Tema 6** no tiene test específico; falta reconstrucción estatutaria del **OAPGT**. Todos los manuales continúan en **BORRADOR**.
+
+
+---
+
+## 17. Auditoría documental tema 14 — **26/10/2026**
+
+**Fuentes cotejadas:** [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [Ley 6/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046), [Reglamento eIDAS 910/2014](https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa) y [pregunta frecuente FNMT 1213](https://www.sede.fnmt.gob.es/ca/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1213-que-diferencia-hay-entre-solicitar-un-certificado-en-tarjeta-criptografica-y-solicitarlo-en-software-).
+
+| Pregunta | Referencia | Resultado de cotejo |
+|---|---|---|
+| **T14-001** | **Ley 39/2015, art. 11.2** | La firma se exige para interponer recursos y las demás actuaciones previstas por ese artículo |
+| **T14-002** | **eIDAS, art. 3 y anexo III** | **SUSTITUIDA:** tipos de certificado: certificado cualificado de **sello electrónico** frente a firma |
+| **T14-003** | **eIDAS, art. 22** | **SUSTITUIDA:** **listas de confianza** de prestadores cualificados y sus servicios |
+| **T14-004** | **Ley 6/2020, art. 4.2** | Vigencia máxima legal de certificado cualificado: **cinco años**, no duración fija |
+| **T14-005** | **FNMT, FAQ 1213** | **SUSTITUIDA:** soporte **software** frente a **tarjeta criptográfica** y exportación de clave privada |
+| **T14-006** | **Ley 6/2020, art. 5.1.b** | **Revocación** por secreto de claves comprometido; distinta de **caducidad** |
+
+**Resultado:** seis preguntas revisadas frente a normas y guía oficial; tres sustituidas para cubrir mejor tipos, soportes y prestadores del epígrafe oficial. No se certifica el manual completo ni el funcionamiento visual.
+
+> ⚠️ **¡Foco Examen!:** No confundir **identificación** con **firma**, **firma** de persona física con **sello** de persona jurídica, ni **caducidad** con **revocación**. Un certificado cualificado puede durar **hasta cinco años**, pero no tiene que durar necesariamente cinco.
+
+### Balance tras tema 14
+
+- **98 / 138 preguntas** con revisión jurídica o técnica individual registrada: temas **1–5, 7–15**.
+- **40 preguntas pendientes** de revisión individual: temas **16–20**.
+- **Tema 6** sigue sin test específico. Todos los manuales continúan como **BORRADOR**.
