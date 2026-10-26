@@ -488,3 +488,37 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **112 / 138 preguntas** con auditoría jurídica/técnica individual documentada: temas **1–5, 7–17**.
 - **26 preguntas** aún pendientes: temas **18, 19 y 20**.
 - El **tema 6** sigue sin banco de preguntas propio; los manuales permanecen en estado **BORRADOR**.
+
+
+---
+
+## 20. Auditoría técnica tema 18 — **26/10/2026**
+
+**Epígrafe oficial:** «LibreOffice 24 I. Utilización de documentos de texto con LibreOffice 24 Writer».
+
+**Fuente primaria:** [Guía Writer 24.2, The Document Foundation](https://books.libreoffice.org/en/WG24/WG24.html), capítulos **8** (estilos), **14** (combinación de correspondencia), **15** (tablas de contenido) y **17** (campos).
+
+| Pregunta | Materia | Resultado |
+|---|---|---|
+| **T18-001** | Programas de la suite | **Writer** es procesador de textos; no confundir con Calc, Impress o Base |
+| **T18-002** | Formatos | **ODT** es documento editable; se distingue de **OTT**, plantilla |
+| **T18-003** | Estilos | Formato reutilizable, diferencia respecto al formato directo |
+| **T18-004** | Diseño de página | Salto de página frente a estilo de página |
+| **T18-005** | Combinación de correspondencia | Documento modelo y registros de datos para cartas, etiquetas o sobres |
+| **T18-006** | **Guía Writer 24.2, cap. 14** | **MODIFICADA** por caso práctico: **Ver > Fuentes de datos / Ctrl + Mayús + F4** |
+| **T18-007** | Exportar y guardar | Guardar documento **ODT** no equivale a exportar **PDF** |
+| **T18-008** | **Guía Writer 24.2, cap. 15** | **SUSTITUIDA** por necesidad de **Actualizar índice** después de cambiar títulos o paginación |
+| **T18-009** | Campos | Numeración de página mediante campo dinámico |
+| **T18-010** | Estilos | Formato directo aplicado a selección, frente a estilos reutilizables |
+
+**Hallazgo de interés:** el índice de Writer es de **generación automática**, pero su **actualización no se realiza automáticamente** tras editar encabezados o mover páginas; requiere **Actualizar índice** en el menú contextual. Fuente: [capítulo 15](https://books.libreoffice.org/en/WG24/WG2415-TOCsIndexesBiblios.html).
+
+**Resultado:** **10 preguntas** contrastadas individualmente con guías del fabricante; dos reformuladas para evaluar operaciones prácticas. El manual completo continúa **BORRADOR**; no consta comprobación real en una instalación de Writer 24.2.
+
+> ⚠️ **¡Foco Examen!:** **Generar automáticamente** una tabla de contenido no significa que se **actualice sola**. Tras editar títulos o paginación hay que ejecutar **Actualizar índice**. **Ctrl + Mayús + F4** permite mostrar las **fuentes de datos** para combinación de correspondencia en Writer 24.2 para Windows.
+
+### Balance actualizado
+
+- **122 / 138 preguntas** individualmente auditadas: temas **1–5, 7–18**.
+- **16 preguntas** pendientes: temas **19 y 20**.
+- **Tema 6** aún no dispone de test propio. Los manuales completos siguen con estado **BORRADOR**.
