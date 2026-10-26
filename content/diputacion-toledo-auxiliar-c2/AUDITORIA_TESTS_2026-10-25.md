@@ -235,3 +235,31 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **54 / 138** preguntas con auditoría individual registrada: temas **2, 3, 4, 11, 12, 13 y 15**.
 - **84** preguntas aún pendientes de auditoría individual.
 - Los manuales completos continúan en **BORRADOR**. El tema 6 sigue sin banco por falta de cotejo íntegro de sus Estatutos.
+
+
+---
+
+## 11. Auditoría jurídica tema 1 — 26/10/2026
+
+**Fuente primaria:** [Constitución Española, BOE-A-1978-31229, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), última actualización publicada el **20/05/2026**.
+
+| Pregunta | Referencia | Resultado |
+|---|---|---|
+| **T1-001** | Estructura constitucional | **169 artículos**; se completó la explicación de la estructura |
+| **T1-002** | **167.1–167.2** | Reforma ordinaria: **3/5** de cada Cámara; salida alternativa condicionada de **mayoría absoluta del Senado y 2/3 del Congreso** |
+| **T1-003** | **167.3** | Referéndum ordinario solicitado por **1/10** de cualquiera de las Cámaras en **15 días** |
+| **T1-004** | **168.1–168.2** | Reforma agravada: **2/3** de cada Cámara, disolución inmediata, ratificación por nuevas Cámaras y **2/3** para el nuevo texto |
+| **T1-005** | **168.3** | Referéndum obligatorio en la reforma agravada |
+| **T1-006** | **53.2** | Amparo ante el **Tribunal Constitucional**, con ámbito de derechos delimitado |
+| **T1-007** | **55.1–55.2** | **Pregunta sustituida** por suspensión de derechos en **excepción o sitio**; no equivale a estado de alarma |
+| **T1-008** | **169** | No se puede **iniciar** reforma en guerra ni durante vigencia de los estados del art. **116** |
+
+**Resultado:** ocho preguntas cotejadas, una sustituida por cuestión sustantiva y precisadas mayorías, plazos y excepciones. La pregunta reemplazada se refería al número del título constitucional dedicado a la reforma; el contenido permanece en el manual.
+
+> ⚠️ **¡Foco Examen!:** En el artículo **167** puede aparecer la alternativa **mayoría absoluta del Senado + 2/3 del Congreso**; la reforma **agravada** del **168** requiere disolución de las Cortes, nuevas Cámaras, **2/3** y referéndum obligatorio. El artículo **169** prohíbe **iniciar** la reforma durante **guerra, alarma, excepción o sitio**.
+
+### Balance actualizado
+
+- **62 / 138** preguntas cotejadas individualmente: temas **1, 2, 3, 4, 11, 12, 13 y 15**.
+- **76 / 138** restantes con auditoría jurídica o técnica de fondo pendiente.
+- El manual del tema 1, como los demás manuales de la convocatoria, continúa en estado **BORRADOR**.
