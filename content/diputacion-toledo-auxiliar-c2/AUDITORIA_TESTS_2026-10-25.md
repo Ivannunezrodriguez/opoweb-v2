@@ -181,3 +181,29 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 ### Balance de auditoría
 
 **38 / 138 preguntas** cotejadas individualmente con fuente legal: temas **2, 11, 12, 13 y 15**. **100** pendientes de cotejo sustantivo. La auditoría integral de los manuales permanece abierta.
+
+
+---
+
+## 9. Auditoría individual tema 3 — 26/10/2026
+
+**Fuente jurídica:** [Ley 39/2015, texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), última actualización publicada el **06/11/2024**.
+
+| Pregunta | Referencia | Resultado del contraste |
+|---|---|---|
+| **T3-001** | **53.1.a** | Reemplazada pregunta de número de artículo por derecho del interesado a conocer el estado de tramitación |
+| **T3-002** | **54 y 58** | Reemplazada por las dos formas de iniciación: **de oficio** y **a solicitud del interesado** |
+| **T3-003** | **82.2 y 82.4** | Audiencia ordinaria: **10–15 días**, con supuesto legal en el que puede omitirse |
+| **T3-004** | **96.2 y 96.5** | Reemplazada por oposición expresa a la simplificación de oficio, señalando excepción sancionadora |
+| **T3-005** | **96.6 y 96.7** | **30 días desde el día siguiente a la notificación** del acuerdo, salvo que reste menos en ordinario; otros trámites requieren ordinaria |
+| **T3-006** | **86.1** | Reemplazada por condiciones de la **terminación convencional**, incluidas materias no susceptibles de transacción |
+| **T3-007** | **94.4–94.5** | Reemplazada por plazo de **10 días** para terceros personados y supuestos de continuación |
+| **T3-008** | **97.1–97.2** | Resolución previa y notificación antes de actuaciones materiales de ejecución limitativas |
+
+**Cinco enunciados sustituidos** (**001, 002, 004, 006 y 007**), más precisión de justificaciones y trampas de examen. Las **ocho respuestas** se han revisado individualmente; el fichero conserva ocho preguntas y sus referencias al BOE.
+
+> ⚠️ **¡Foco Examen!:** No confundir **audiencia de 10 a 15 días** (art. **82.2**), **alegaciones iniciales de cinco días** en simplificada (art. **96.6.c**) y **30 días de resolución simplificada** (art. **96.6**).
+
+### Balance actualizado
+
+**46 / 138 preguntas** con cotejo sustantivo individual documentado: temas **2, 3, 11, 12, 13 y 15**. **92** preguntas pendientes. Los **20 manuales** siguen siendo borradores y el **tema 6** no dispone todavía de test específico.
