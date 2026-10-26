@@ -428,3 +428,31 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **98 / 138 preguntas** con revisión jurídica o técnica individual registrada: temas **1–5, 7–15**.
 - **40 preguntas pendientes** de revisión individual: temas **16–20**.
 - **Tema 6** sigue sin test específico. Todos los manuales continúan como **BORRADOR**.
+
+
+---
+
+## 18. Auditoría técnica del tema 16 — 26/10/2026
+
+**Programa:** Windows 11 Pro I; creación, copia y borrado de archivos y carpetas; unidades locales/de red; impresión y digitalización.
+
+**Fuentes:** [Explorador de archivos de Microsoft](https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows), [atajos de teclado de Windows](https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows), [convenciones de rutas UNC, Microsoft Learn](https://learn.microsoft.com/es-es/windows/win32/fileio/naming-a-file).
+
+| Pregunta | Materia | Resultado |
+|---|---|---|
+| **T16-001** | **Windows + E** | Abre Explorador de archivos, conforme a ayuda Microsoft |
+| **T16-002** | Cortar y pegar | Mueve normalmente el archivo; explicación precisada para posibles excepciones |
+| **T16-003** | **Mayús + Supr** | **Sustituida** pregunta redundante sobre copiar por eliminación sin enviar a Papelera |
+| **T16-004** | Menú **Ver** | Cambiar vista a iconos, lista o detalles no cambia contenido |
+| **T16-005** | Ruta **UNC** | Identifica un recurso compartido mediante servidor y nombre del recurso; diferenciado de unidad asignada |
+| **T16-006** | Escaneo e impresión | **Sustituida** pregunta de definiciones por caso práctico de digitalización de un documento en papel |
+
+**Resultado:** **6 preguntas revisadas**, **2 sustituidas** y referencias a Microsoft comprobadas. No se ha efectuado prueba en máquina Windows 11 Pro ni revisión editorial integral del manual.
+
+> ⚠️ **¡Foco Examen!:** **Supr** normalmente manda a la **Papelera**; **Mayús + Supr** elimina **sin pasar por la Papelera**. **Imprimir a PDF** no equivale a **digitalizar una hoja de papel**; además, una digitalización ordinaria no es automáticamente una copia auténtica administrativa.
+
+### Balance
+
+- **104 / 138 preguntas** individualmente revisadas en los temas **1–5, 7–16**.
+- **34 preguntas** todavía pendientes de auditoría técnica: temas **17–20**.
+- **Tema 6** sin banco y manuales en estado **BORRADOR**.
