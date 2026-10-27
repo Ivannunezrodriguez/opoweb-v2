@@ -674,3 +674,33 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 > ⚠️ **¡Foco Examen!:** **22 días hábiles de vacaciones** no son **22 naturales**. **23, 24, 25 y 26 días** por antigüedad son **totales**. **6 días laborables de asuntos particulares** no son vacaciones. El **horario fijo de 9:00–14:00** es solo el núcleo presencial administrativo del art. 14.1.a.
 
 **Pendiente:** consolidar todos los artículos del acuerdo inicial con reformas y legislación vigente; cotejar todas las reformas de Estatutos del **OAPGT**. **No marcar PUBLICADO**.
+
+
+---
+
+## 28. Permisos y conciliación: contraste del Acuerdo 2023 con TREBEP 2026 — **27/10/2026**
+
+**Fuentes:** [Acuerdo Regulador BOP 246/2023](https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf), [TREBEP, arts. 48–50, actualización 03/10/2026](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) y [Ley 4/2011 CLM, arts. 101–108, consolidación BOE publicada hasta 21/03/2024](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752).
+
+**Advertencia:** la ficha BOE de la **Ley 4/2011** señala una «última actualización en proceso». Existen modificaciones autonómicas de **2026** no integradas completamente en esa vista; el cotejo no equivale a un texto autonómico plenamente consolidado a **27/10/2026**.
+
+| Hecho causante | TREBEP vigente | Riesgo de test |
+|---|---|---|
+| **Accidente/enfermedad grave, hospitalización e intervención con reposo**: cónyuge, pareja, primer grado o conviviente necesitado de cuidados | **5 días hábiles** (art. **48.a**) | No confundir con fallecimiento |
+| Idéntico supuesto, familiar **segundo grado** | **4 días hábiles** (art. **48.a**) | No exigir cambio de localidad para esta duración |
+| **Fallecimiento**: cónyuge, pareja o primer grado | **3 días hábiles** misma localidad; **5** distinta | Se distingue localidad |
+| **Fallecimiento**: segundo grado | **2 días hábiles** misma localidad; **4** distinta | Se distingue parentesco y localidad |
+| **Lactancia** de menor de **12 meses** | **1 hora** de ausencia divisible en **dos fracciones**, **derecho individual no transferible** (art. **48.f**) | No usar reglas autonómicas históricas ligadas exclusivamente a la madre |
+| **Asuntos particulares** | **6 días** (art. **48.k**) | Consultar condiciones de disfrute propias del acuerdo |
+| **Matrimonio o pareja formalizada** | **15 días** (art. **48.l**), incluyendo constitución formalizada por **documento público** | No reducirlo al único supuesto de inscripción registral |
+| **Permiso por nacimiento de la madre** | **19 semanas**, o **32 semanas en monoparentalidad** (art. **49.a**), con régimen transitorio del RDL **9/2025** | **16 semanas** del art. **102** de la vieja consolidación de Ley 4/2011 no es regla general aplicable de 2026 |
+| **Donación de órganos/tejidos: actos preparatorios** | **Tiempo indispensable**, desde **03/03/2025** (art. **48.m**) | Puede no aparecer en textos locales anteriores |
+| **Vacaciones** | **22 días hábiles** (art. **50**) | No confundir con días naturales |
+
+**Nuevo hallazgo adicional:** el **art. 49.e TREBEP** fue modificado por la **Ley 4/2026, de 1 de octubre**, publicada el **03/10/2026**, con entrada en vigor señalada por el BOE para **23/10/2026**. Su literalidad debe auditarse por separado antes de escribir preguntas de permiso parental.
+
+**Cambios de test:** incorporadas **4 preguntas nuevas**, **T06-013–016**, de los arts. **48.a, 48.f y 49.a TREBEP**. Quedan **16 preguntas provisionales de tema 6** y **154 preguntas en total en OpoWeb2** (138 de los otros temas y 16 provisionales). La comparación normativa **no da por cerrados los Estatutos del OAPGT ni el manual completo**.
+
+> ⚠️ **¡Foco Examen!:** **5/4** días por **hospitalización** según grado frente a **3/5 y 2/4** por **fallecimiento** según grado y localidad. El permiso por nacimiento general es **19 semanas** según el TREBEP reformado, no **16** de la redacción autonómica antigua.
+
+**Estado final: BORRADOR PARCIAL, no certificado.**
