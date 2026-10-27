@@ -194,3 +194,40 @@ Se añade `tema-06/preguntas.json` con **seis preguntas documentales**, sobre ac
 2. Cotejar el Acuerdo Regulador de **2023** y las tres modificaciones oficiales de **2025–2026**, con especial atención a artículos alterados y fechas de efecto.
 3. Sustituir las preguntas históricas y documentales por casos sobre **competencias y condiciones de trabajo vigentes**, manteniendo referencias exactas a artículos y BOP.
 4. Solo tras esta tarea, someter el manual y el banco a una auditoría final y reconsiderar la etiqueta **BORRADOR**.
+
+
+---
+
+## 10. HALLAZGO OFICIAL: modificación estatutaria de **14/12/2011** — cotejo de **27/10/2026**
+
+**Fuente original y primaria:** [BOP Toledo n.º 284, de 14 de diciembre de 2011, anuncio n.º 11024](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011), **página única del anuncio**. Acuerdo del **Pleno de la Diputación de 28/11/2011**. **Se ha contrastado directamente el texto publicado**. La existencia de modificaciones posteriores no ha podido descartarse de forma exhaustiva.
+
+### 10.1. Tabla de modificaciones expresas publicadas
+
+| Precepto | Redacción / efecto documentado en **2011** | Órgano o supuesto |
+|---|---|---|
+| **Art. 1.1** | Constituye el **OAPGT** como **organismo autónomo de carácter administrativo** | **Diputación de Toledo** |
+| **Art. 1.2** | El organismo queda **adscrito al Presidente de la Diputación**; se prevé la delegación de funciones del Presidente provincial conforme a la normativa de régimen local | **Presidencia de la Diputación** |
+| **Art. 8 bis** (nuevo) | Las resoluciones de los órganos de gobierno, dirección y administración **ponen fin a la vía administrativa** | **Órganos del OAPGT** |
+| **Art. 4.a**, nueva redacción | Servicios confiados o delegados: información, asistencia, gestión, inspección y recaudación; procedimiento sancionador; procedimientos catastrales; revisión en vía administrativa en los términos legales | Funciones conferidas por **Diputación**, entidades locales y, en su caso, otras Administraciones |
+| **Art. 14.d.1**, nueva redacción | Dictar actos en materia de información, gestión catastral, tributaria y recaudatoria y resoluciones sancionadoras tramitadas en virtud de delegación o colaboración | **Dirección del OAPGT**, según contexto del art. 14 |
+| **Disposición adicional** (nueva) | Son instructores de procedimientos sancionadores los titulares de los puestos o unidades a los que corresponda su tramitación según organigrama del **Consejo Rector**; la **Presidencia del OAPGT** publicará en el BOP la identidad de su titular | **Consejo Rector** y **Presidencia del OAPGT** |
+
+### 10.2. Cambio especialmente propenso a confusión
+
+La publicación de **2004** vinculaba la adscripción del organismo al **Área de Hacienda** de la Diputación. El **artículo 1.2 publicado en 2011** cambió expresamente esa adscripción a la **Presidencia de la Diputación**. Por tanto, **no deben tratarse ambas redacciones como igualmente aplicables**.
+
+> ⚠️ **¡Foco Examen!:** **Adscrito al Presidente de la Diputación** (art. **1.2 publicado en 2011**) no equivale a afirmar que **Presidencia, Consejo Rector y Dirección del OAPGT** sean un mismo órgano. **Art. 8 bis:** las resoluciones de órganos de gobierno, dirección y administración ponen fin a la vía administrativa, según el texto publicado en **2011**.
+
+### 10.3. Actualización del test provisional
+
+Las preguntas **T06-001** y **T06-006** se han sustituido por cuestiones con referencia directa a los artículos **1.2** y **8 bis** del **BOP n.º 284/2011**. La sexta pregunta anterior sobre un acto de **2015** ha sido retirada por ser histórica y poco útil para acreditar el programa vigente.
+
+### 10.4. Alcance jurídico y control de vigencia
+
+1. **Hecho acreditado:** el **BOP n.º 284/2011** modifica literalmente los preceptos indicados.
+2. **Corroboración posterior parcial:** los [anuncios oficiales del OAPGT de **2025**](https://bop.diputoledo.es/webEbop/DocGet?id=25041890%3B0&insert_number=1773&insert_year=2025) continúan invocando atribuciones estatutarias de la **Presidencia**, entre ellas el **art. 12.2.l.8**, y otros documentos recientes citan a **Dirección**. No equivalen a un texto completo y vigente de sus estatutos.
+3. **Pendiente:** identificar formalmente la **aprobación definitiva de la modificación de 2004**, cotejar la totalidad de las reformas **posteriores a 2011**, y reconstruir la versión consolidada antes de calificar órganos, quórums, mayorías, plazos y atribuciones como **vigentes en 2026**.
+4. **Pendiente en paralelo:** consolidar el **Acuerdo Regulador 2023** con sus modificaciones **2025–2026**, para cubrir la otra mitad del epígrafe oficial.
+
+**Estado editorial final de esta fase: BORRADOR PARCIAL NO CERTIFICADO.**
