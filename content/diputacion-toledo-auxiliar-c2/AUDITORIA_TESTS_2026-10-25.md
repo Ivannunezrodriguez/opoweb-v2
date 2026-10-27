@@ -643,3 +643,34 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 > ⚠️ **¡Foco Examen!:** **2025: 24,64 €/hora** de guardia presencial de Técnicos Superiores; **2026: 28,64 €/hora**. **Nocturnidad ordinaria C2/AP: 29,30 €**, **nocturnidad especial: 97,45 €**. No confundir el **Fondo de Acción Social**, cuantía global **292.790,00 €**, con ayuda individual.
 
 **Límites:** no se ha reconstruido el articulado íntegro del Acuerdo de 2023 ni verificado exhaustivamente la ausencia de modificaciones posteriores; tampoco los Estatutos completos del OAPGT. El tema mantiene **BORRADOR**, y las 6 preguntas siguen siendo **PROVISIONALES**.
+
+
+---
+
+## 27. Cotejo del Acuerdo Regulador original de **2023** — **27/10/2026**
+
+**Fuente oficial completa:** [Acuerdo Regulador, BOP Toledo **n.º 246, 28/12/2023**, texto del anuncio publicado por la Diputación](https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf). **Aprobación: 21/12/2023**, **entrada en vigor: 01/01/2024**.
+
+**Artículos originales cotejados individualmente** (sin equipararlos todavía a texto consolidado tras reformas):
+
+| Artículo | Cuestiones de examen | Resultado del texto de 2023 |
+|---|---|---|
+| **2–3** | Ámbito y vigencia | Diputación/organismos autónomos, exclusiones; duración inicial hasta **31/12/2027** y **prórroga automática** |
+| **14** | Jornada general y horarios | **No inferior a 35 horas semanales de promedio anual**; **9:00–14:00** fijo en Palacio Provincial y **OAPGT Toledo**, con tramos flexibles |
+| **19** | Vacaciones | **22 días hábiles**, escala total por antigüedad **23–26**, calendario antes del **01/05**, conocimiento de fechas con **2 meses** |
+| **20** | Permisos | Asuntos particulares **6 días laborables**, disfrute hasta **31/01**; distinciones de días **naturales/hábiles**, requisitos según supuesto |
+
+**Advertencia de vigencia:** las modificaciones conocidas **2025–2026** se han analizado separadamente en el manual. La tabla de permisos del art. 20 procede de **2023**, y su aplicabilidad en **2026** requiere contraste adicional con **TREBEP y Ley 4/2011 CLM** vigentes y, si procede, otras disposiciones imperativas. No interpretar ausencia de reforma expresa en los anuncios examinados como certificación integral de vigencia.
+
+**Preguntas nuevas:** T06-007 a T06-012 sobre art. **14** (jornada y horario), **19** (vacaciones y antelación), **20** (asuntos particulares) y **3** (vigencia). Se añaden sin eliminar el resto; tema 6 pasa de **6 a 12 preguntas provisionales**.
+
+| Indicador de OpoWeb2 | Situación |
+|---|---|
+| Bancos de preguntas | **20 de 20 temas** |
+| Preguntas existentes totales | **150 = 138 anteriormente auditadas + 12 provisionales del tema 6** |
+| Preguntas del tema 6 | **12**, aún en **BORRADOR**, no certificadas |
+| Manuales con auditoría completa certificada | **0 de 20** |
+
+> ⚠️ **¡Foco Examen!:** **22 días hábiles de vacaciones** no son **22 naturales**. **23, 24, 25 y 26 días** por antigüedad son **totales**. **6 días laborables de asuntos particulares** no son vacaciones. El **horario fijo de 9:00–14:00** es solo el núcleo presencial administrativo del art. 14.1.a.
+
+**Pendiente:** consolidar todos los artículos del acuerdo inicial con reformas y legislación vigente; cotejar todas las reformas de Estatutos del **OAPGT**. **No marcar PUBLICADO**.
