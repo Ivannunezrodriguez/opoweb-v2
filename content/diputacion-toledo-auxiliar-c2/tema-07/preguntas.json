@@ -1,8 +1,8 @@
 {
   "tema": 7,
   "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
-  "criterio": "6 preguntas originales, cuatro opciones y una solución, artículos precisos de BOE. Pendiente comprobación editorial integral antes de calificar como definitiva la unidad.",
+  "version": "2026-10-27",
+  "criterio": "Siete preguntas originales; seis auditadas inicialmente y una añadida 27/10/2026 con cotejo de reforma autonómica Ley 2/2026 (art.70.2.e). Manual completo sigue BORRADOR.",
   "preguntas": [
     {
       "id": "DT-C2-T07-001",
@@ -87,11 +87,25 @@
       "justificacion": "El artículo 67.2 configura el **concurso** como procedimiento **normal** para proveer puestos de funcionarios de carrera, junto a la **libre designación con convocatoria pública**. El artículo 70.2 ha sido modificado por la **Ley 2/2026**, de modo que las categorías de puestos de libre designación deben leerse en su versión vigente.",
       "trampaExamen": "**Concurso** es procedimiento normal de provisión; **libre designación** exige convocatoria pública y no debe confundirse con selección inicial de personal.",
       "referencia": "Ley 4/2011 art. 67.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-007",
+      "enunciado": "¿Qué supuesto añadió la Ley 2/2026 al artículo 70.2 de la Ley 4/2011 de Castilla-La Mancha sobre libre designación?",
+      "opciones": [
+        "Estableció la libre designación obligatoria para todos los puestos de personal auxiliar administrativo",
+        "Suprimió el concurso como procedimiento normal de provisión",
+        "Incluyó determinados puestos del personal estatutario del SESCAM previstos por la Ley 55/2003 y su normativa de desarrollo",
+        "Derogó los requisitos de publicación de la convocatoria"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La disposición final tercera de la **Ley 2/2026, de 9 de abril**, añadió la **letra e) al artículo 70.2 de la Ley 4/2011**, relativa a determinados puestos del **personal estatutario adscrito al Servicio de Salud de Castilla-La Mancha**, conforme a la **Ley 55/2003** y su normativa de desarrollo. El **concurso** sigue siendo el procedimiento normal del **art. 67.2**.",
+      "trampaExamen": "**Libre designación** no equivale a libre elección de cualquier puesto. La reforma de **2026** se refiere a determinados puestos estatutarios del SESCAM, **no a todos**.",
+      "referencia": "Ley 2/2026, disposición final 3.ª, art. 70.2.e Ley 4/2011 · https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086"
     }
   ],
   "auditoria": {
     "fecha": "2026-10-26",
-    "preguntasRevisadas": 6,
+    "preguntasRevisadas": 7,
     "fuenteBase": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
     "otrasFuentes": [
       "https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065",
@@ -107,6 +121,8 @@
     ],
     "resultado": "Se verificaron seis respuestas y se sustituyeron dos por promoción interna de dos años y ejecución total de OEP en tres años.",
     "alertaVigencia": "El consolidado del BOE muestra integración hasta 21/03/2024, pero sus referencias posteriores registran reformas de 2026 de los artículos 121, DA7 y 70.2. Las seis preguntas no dependen del tenor reformado del 70.2; no certificar el manual íntegro con solo la consolidación antigua.",
-    "limitacion": "Auditoría del banco de preguntas, no de todos los apartados del manual."
+    "limitacion": "Auditoría del banco de preguntas, no de todos los apartados del manual.",
+    "actualizacion": "2026-10-27",
+    "nota": "Añadida T07-007 por reforma autonómica de libre designación del personal estatutario en 2026."
   }
 }
