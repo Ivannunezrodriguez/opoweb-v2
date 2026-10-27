@@ -583,3 +583,24 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 - **Tema 6** carece todavía de preguntas propias y **no se cuenta como auditado**.
 - Este **100 %** mide únicamente **la cobertura de auditoría del banco existente**, **no** la cobertura integral del programa oficial, la exhaustividad de los tests, ni una certificación jurídica y técnica definitiva.
 - Permanecen **20 manuales** con estado editorial **BORRADOR** y trabajos pendientes de revisión integral, mejora de profundidad, puesta a prueba de la interfaz y resolución de normativa específica del **OAPGT**.
+
+
+---
+
+## 24. Tema 6: creación de test provisional de alcance limitado — **27/10/2026**
+
+**Seis preguntas documentales provisionales** creadas en `tema-06/preguntas.json` y enlazadas desde el programa principal, sin modificar `estado: BORRADOR`.
+
+**Fuentes institucionales:** [Transparencia de la Diputación](https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes), [normativa de sede del OAPGT](https://sede.oapgt.es/Paginas/Normativa.aspx), [sede electrónica](https://sedeelectronica.oapgt.es/) y [noticia oficial de la Diputación de **2015**](https://www.diputoledo.es/noticias_ampliada/1148).
+
+**Advertencia editorial crítica:** la existencia de estas preguntas **NO acredita** la verificación de los **Estatutos vigentes del OAPGT** ni la consolidación del **Acuerdo Regulador de 2023 con reformas de 2025 y 2026**. La pregunta sobre organización y alta dirección del Consejo Rector está fechada expresamente en **2015** y **no prueba** la situación exacta en **2026**.
+
+| Indicador | Situación comprobada |
+|---|---|
+| Test con revisión previa documental de temas 1–5 y 7–20 | **138 preguntas** |
+| Banco adicional provisional del tema 6 | **6 preguntas**, no certificado |
+| Preguntas disponibles en el repositorio | **144** |
+| Temas con banco de preguntas | **20/20** |
+| Temas con manual finalizado y certificado | **0/20**; todos continúan **BORRADOR** |
+
+> ⚠️ **¡Foco Examen!:** Una fuente que demuestra la existencia de un órgano o la fecha de publicación de un acuerdo **no demuestra el quórum, la mayoría exigida ni las competencias exactas**. Es obligatorio cotejar cada extremo con los **Estatutos completos y vigentes** antes de declararlo materia cerrada.
