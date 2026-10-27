@@ -404,3 +404,63 @@ La expresión «**no podrá ser inferior a 35 horas**» del texto originario **n
 | **28**, acción social | Texto de 2023 **superado parcialmente** | Modificación expresa del importe en **2026** | **Aplicar BOP 10/2026, véase §11** |
 
 **Balance de esta sección:** se ha incorporado el **contenido original comprobado** de los artículos **2, 3, 14, 19 y 20**; quedan pendientes la **auditoría de conformidad con las leyes vigentes**, la integración del resto de artículos y la consolidación completa de los **Estatutos del OAPGT**. El tema continúa **BORRADOR PARCIAL NO CERTIFICADO**.
+
+
+---
+
+## 13. Auditoría de compatibilidad legal de permisos en **2026** — **27/10/2026**
+
+**Fuentes diferenciadas:**
+
+1. **Acuerdo Regulador de Diputación, BOP Toledo 246/2023**, **art. 20**: acuerdo de ámbito provincial, texto publicado en **2023** (véase §12.4).
+2. **TREBEP**, [Real Decreto Legislativo 5/2015, texto BOE actualizado el **03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719), especialmente **arts. 48, 49 y 50**: legislación estatal básica que exige contrastar derechos mínimos y reformas posteriores.
+3. **Ley 4/2011 de empleo público de Castilla-La Mancha**, [consolidación BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752), **arts. 101–108**. **Advertencia:** la propia página del BOE indica **última actualización integrada 21/03/2024** y «**última actualización en proceso**». Hay reformas autonómicas de **2026** identificadas, pero no completamente incorporadas en la versión consolidada del BOE: no utilizarla como prueba exhaustiva de vigencia de cada precepto.
+
+### 13.1. Tabla comparativa: hechos causantes distintos
+
+| Supuesto | **Acuerdo 2023, art. 20** | **TREBEP 2026, art. 48** | Resultado editorial |
+|---|---|---|---|
+| **Enfermedad grave, accidente grave, hospitalización o intervención sin ingreso con reposo domiciliario**, cónyuge, pareja, primer grado o conviviente que requiera cuidados | **5 días hábiles** | **5 días hábiles** | Coincidencia en regla general y supuestos; verificar los requisitos de cada texto |
+| **Mismos hechos** de familiar de **segundo grado** | **4 días hábiles** | **4 días hábiles** | Coincidencia cuantitativa |
+| **Fallecimiento**, cónyuge/pareja/primer grado | **3 días hábiles** misma localidad; **5** distinta | **3 días hábiles** misma localidad; **5** distinta | Diferente hecho causante; no aplicar la regla de hospitalización |
+| **Fallecimiento**, segundo grado | **2 días hábiles** misma localidad; **4** distinta | **2 días hábiles** misma localidad; **4** distinta | Requiere diferenciar grado y localidad |
+| **Asuntos particulares** | **6 días laborables** / año (más posibles adicionales por antigüedad) | **6 días** al año, **art. 48.k** | La redacción del Acuerdo puede precisar régimen de disfrute; no atribuir naturaleza de días distinta por analogía |
+| **Matrimonio o pareja formalizada** | **15 días naturales** por matrimonio o inscripción de pareja | **15 días** por matrimonio, registro o constitución formalizada por documento público de pareja | El **art. 48.l** TREBEP contempla expresamente **documento público**; la redacción del Acuerdo de 2023 es más acotada |
+| **Traslado de domicilio sin cambio de residencia** | **1 día natural** en supuesto descrito | **1 día** | Coincide duración; para traslados con cambio de localidad, consultar norma autonómica y Acuerdo |
+| **Lactancia de menor de 12 meses** | Consultar redacción y condiciones completas del art. 20 | **1 hora** de ausencia, divisible en **2 fracciones**; derecho **individual no transferible**, con modalidades de reducción o acumulación | **No reproducir** las restricciones familiares que aparezcan en textos autonómicos antiguos |
+| **Actos preparatorios para donación de órganos o tejidos** | No aparece en resumen previo de art. 20 del Acuerdo | Tiempo **indispensable** si deben realizarse en jornada, **art. 48.m**, efectivo desde **03/03/2025** | **Añadir como novedad estatal posterior**; no deducir inexistencia por omisión del acuerdo |
+| **Vacaciones generales** | **22 días hábiles**, **art. 19** | **22 días hábiles**, **art. 50** | Mínimo coincidente; considerar escala por antigüedad del Acuerdo |
+
+> ⚠️ **¡Foco Examen!:** **Enfermedad grave u hospitalización**: **5 días hábiles** (cónyuge, pareja, primer grado o conviviente que requiere cuidado) y **4** (segundo grado). **Fallecimiento**: **3/5** días (primer grado) y **2/4** (segundo), distinguiendo localidad. **No mezclar ambos hechos causantes**.
+
+### 13.2. Conciliación: cambio estatal sustancial desde **2025**
+
+El **artículo 49 TREBEP**, reformado por el **Real Decreto-ley 9/2025, de 29 de julio**, establece con carácter general:
+
+- **Permiso por nacimiento para la madre biológica: 19 semanas**; **32 semanas** cuando existe **una única persona progenitora**.
+- En el régimen general de la madre biológica: **6 semanas** inmediatamente posteriores al parto, **obligatorias**; **11 semanas** en períodos semanales hasta los **12 meses** del menor; **2 semanas** adicionales en períodos semanales hasta los **8 años** del menor.
+- Para las **2 semanas** adicionales hasta los **8 años**, tener presente la **disposición transitoria única del Real Decreto-ley 9/2025**, sobre hechos causantes anteriores y solicitud.
+- Los supuestos de **adopción, guarda, acogimiento y progenitor distinto de la madre** están regulados por sus correspondientes apartados del **artículo 49**: deben estudiarse sus condiciones específicas, sin asumir que cada supuesto comparte todos los mismos requisitos de distribución.
+- El **artículo 49.e**, sobre permiso parental, ha sido modificado de nuevo por **Ley 4/2026, de 1 de octubre**, publicada el **03/10/2026**, con efectos de entrada en vigor señalados en la consolidación a partir de **23/10/2026**. **No usar el texto previo a esa reforma en preguntas de octubre de 2026**.
+
+### 13.3. Conflicto documental que debe explicarse en clase
+
+| Texto | Redacción visible en fuentes oficiales | Riesgo |
+|---|---|---|
+| **Ley 4/2011 CLM, art. 102**, consolidación BOE publicada hasta **21/03/2024** | **16 semanas** en el permiso antiguo de maternidad | **DESACTUALIZADO** como respuesta general sobre el derecho aplicable en **2026** |
+| **TREBEP, art. 49.a**, edición actualizada a **03/10/2026** | **19 semanas** en régimen general, **32** en monoparentalidad | Referencia estatal actual, con condicionantes transitorios |
+| **Ley 4/2011 CLM, art. 107.a**, edición antigua de BOE | Combina fallecimiento y enfermedad en reglas previas de **3/2 días** y desplazamiento | No sustituye la redacción vigente y diferenciada del **art. 48.a TREBEP** |
+| **Ley 4/2011 CLM, art. 107.g**, edición antigua de BOE | Fórmulas de titularidad de lactancia basadas en la madre o uno de los progenitores | No pueden desplazar el carácter **individual y no transferible** del **art. 48.f TREBEP** |
+
+**Criterio de estudio y de auditoría:** donde exista contradicción entre una **redacción autonómica histórica/no consolidada plenamente**, un **acuerdo local anterior** y un **precepto estatal básico posterior**, **no presentar las cifras antiguas como respuesta general vigente**. Para aplicación práctica se debe resolver además ámbito personal, régimen de personal, derecho transitorio y reformas autonómicas posteriores, que esta auditoría **no ha cerrado exhaustivamente**.
+
+> ⚠️ **¡Foco Examen!:** **16 semanas de maternidad** es una cifra todavía visible en el **art. 102 autonómico histórico**, pero el **art. 49.a TREBEP de 2026** establece **19 semanas**, con **32 semanas** en monoparentalidad. No marcar «16» por memorizar un texto consolidado atrasado.
+
+### 13.4. Pendientes expresos
+
+1. Verificar en **DOCM** las reformas autonómicas de **2026** y su incidencia exacta en **arts. 101–108** de la **Ley 4/2011**, dado el aviso de actualización pendiente en BOE.
+2. Auditar permisos no comparados del **art. 20** del Acuerdo de **2023** y reglas particulares del personal laboral frente al funcionario.
+3. Revisar eventuales modificaciones posteriores del Acuerdo Regulador y el régimen transitorio de la reforma estatal de **2025**.
+4. Realizar una revisión separada del nuevo **art. 49.e TREBEP** antes de producir preguntas de literalidad de permiso parental.
+
+**Resultado de esta fase: auditoría parcial de compatibilidad y alertas de obsolescencia. El tema 6 sigue siendo BORRADOR, no se declara plenamente certificado.**
