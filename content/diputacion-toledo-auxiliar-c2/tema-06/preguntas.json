@@ -2,7 +2,7 @@
   "tema": 6,
   "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
   "version": "2026-10-27",
-  "criterio": "Banco provisional de seis preguntas: dos estatutarias del BOP 284/2011, dos de cuantías oficiales del Acuerdo Regulador de enero-febrero 2026 y dos institucionales sobre sede y registro. Falta versión estatutaria consolidada y revisión íntegra del Acuerdo 2023. NO certifica tema completo.",
+  "criterio": "Banco PROVISIONAL con doce preguntas: seis iniciales (artículos del OAPGT modificados en 2011, cuantías 2026, normativa de sede) y seis del Acuerdo Regulador literal 2023 sobre jornada/vacaciones/permisos/vigencia. No equivale a un texto consolidado ni a la auditoría integral del tema 6.",
   "preguntas": [
     {
       "id": "DT-C2-T06-001",
@@ -87,6 +87,90 @@
       "justificacion": "El nuevo **artículo 8 bis**, publicado en el **BOP Toledo 284/2011**, declara que las resoluciones de los órganos de gobierno, dirección y administración **ponen fin a la vía administrativa**. Antes de afirmarlo como estado completo en 2026, comprobar modificaciones posteriores.",
       "trampaExamen": "**Poner fin a la vía administrativa** no significa que desaparezca automáticamente todo recurso administrativo o judicial. No trasladar esta previsión a órganos ajenos al OAPGT.",
       "referencia": "BOP Toledo 284/2011, art. 8 bis · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
+    },
+    {
+      "id": "DT-C2-T06-007",
+      "enunciado": "¿Cuál es la jornada general prevista en el artículo 14.1 del Acuerdo Regulador de Diputación de Toledo publicado en 2023?",
+      "opciones": [
+        "Un máximo de 30 horas semanales sin excepción",
+        "No inferior a 35 horas semanales de trabajo efectivo de promedio en cómputo anual",
+        "Un mínimo de 40 horas de presencia fija sin flexibilidad",
+        "Exactamente 35 horas diarias"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 14.1 de la publicación inicial de 2023 utiliza la expresión **no podrá ser inferior a 35 horas semanales de trabajo efectivo de promedio en cómputo anual**. No debe sustituirse la expresión «no inferior» por «no superior».",
+      "trampaExamen": "**35 horas de promedio anual**; el texto dice **no inferior**, y no 35 horas de presencia fija.",
+      "referencia": "BOP Toledo 246/2023, art. 14.1, p. 5 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-008",
+      "enunciado": "Según el artículo 14.1.a del Acuerdo Regulador de 2023, ¿qué franja constituye la presencia fija para empleados de las dependencias administrativas del Palacio Provincial y OAPGT Toledo?",
+      "opciones": [
+        "De 8:00 a 15:00",
+        "De 7:30 a 18:30, sin interrupción",
+        "De 9:00 a 14:00",
+        "De 10:00 a 16:00"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 14.1.a establece presencia fija de **9:00 a 14:00** y un tramo flexible de **7:30 a 9:00** y de **14:00 a 18:30** para completar la jornada mensual.",
+      "trampaExamen": "**9:00–14:00** es tramo **fijo**, no toda la jornada ni un horario común a turnos asistenciales.",
+      "referencia": "BOP Toledo 246/2023, art. 14.1.a, p. 5 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-009",
+      "enunciado": "Según el artículo 19 del Acuerdo Regulador publicado en 2023, ¿cuántos días hábiles de vacaciones anuales corresponden, como regla general, por año completo de servicios?",
+      "opciones": [
+        "22",
+        "30",
+        "26",
+        "15"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 19 reconoce **22 días hábiles** por año completo o proporcional. Por antigüedad se alcanzan **23, 24, 25 y 26 días totales** a los **15, 20, 25 y 30 años** de servicio, respectivamente.",
+      "trampaExamen": "**22 días hábiles** de base; los valores **23–26** por antigüedad son **totales**, no incrementos que sumar a 22.",
+      "referencia": "BOP Toledo 246/2023, art. 19, p. 10 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-010",
+      "enunciado": "Según el artículo 19 del Acuerdo Regulador de 2023, ¿con qué antelación mínima debe el trabajador conocer sus fechas de vacaciones?",
+      "opciones": [
+        "Quince días",
+        "Un mes",
+        "Tres meses",
+        "Dos meses"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 19.f del Acuerdo inicial de 2023 establece comunicación al empleado **al menos dos meses antes** del inicio. El calendario debe elaborarse antes del **1 de mayo** según el apartado e.",
+      "trampaExamen": "**Dos meses** para conocer las fechas; **antes del 1 de mayo** para elaborar el calendario: plazos distintos.",
+      "referencia": "BOP Toledo 246/2023, art. 19.e-f, p. 11 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-011",
+      "enunciado": "Según el artículo 20 del Acuerdo Regulador de 2023, ¿cuántos días generales por asuntos particulares se prevén al año?",
+      "opciones": [
+        "Tres días naturales",
+        "Seis días laborables",
+        "Veintidós días hábiles",
+        "Quince días naturales"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 20 prevé **6 días laborables anuales** o proporcionales, acumulables a vacaciones, con límite ordinario de disfrute hasta **31 de enero** y condicionado a necesidades del servicio.",
+      "trampaExamen": "**6 días laborables** de asuntos particulares no son **22 días hábiles** de vacaciones; el límite ordinario es **31 de enero**.",
+      "referencia": "BOP Toledo 246/2023, art. 20, p. 13 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-012",
+      "enunciado": "Según el artículo 3 del Acuerdo Regulador de 2023, ¿cuál es el final de su vigencia inicial, sin perjuicio de la prórroga automática?",
+      "opciones": [
+        "31 de diciembre de 2023",
+        "31 de enero de 2026",
+        "31 de diciembre de 2027",
+        "1 de enero de 2024"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El art. 3 establece entrada en vigor el **01/01/2024** y fin de vigencia el **31/12/2027**, con **prórroga automática** hasta aprobar nuevo acuerdo.",
+      "trampaExamen": "No confundir **fecha de publicación 28/12/2023** con **vigencia desde 01/01/2024** ni con el **fin 31/12/2027**.",
+      "referencia": "BOP Toledo 246/2023, art. 3, p. 2 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
     }
   ],
   "auditoria": {
@@ -99,7 +183,8 @@
       "https://www.diputoledo.es/noticias_ampliada/1148",
       "https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
       "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026",
-      "https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026"
+      "https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026",
+      "https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
     ],
     "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
     "pendiente": [
@@ -107,6 +192,7 @@
       "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
       "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
     ],
-    "observacion": "Actualizado 27/10/2026: sustituidas preguntas cronológicas T06-002 y T06-003 por dos de cifras del BOP 10/2026 y 34/2026, con advertencias sobre cuantías y efectos."
+    "observacion": "27/10/2026: añadidas seis preguntas T06-007 a T06-012 con referencias al BOP 246/2023 y sin eliminar advertencia de vigencia pendiente.",
+    "preguntasRevisadas": 12
   }
 }
