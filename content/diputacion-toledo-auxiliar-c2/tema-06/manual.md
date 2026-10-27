@@ -309,3 +309,98 @@ El apartado **tercero** del anuncio elimina **los dos últimos párrafos** del a
 4. Las tablas de esta sección reproducen **cuantías publicadas**, no constituyen una certificación de derecho individual a percibirlas.
 
 **Resultado editorial: BORRADOR PARCIAL, con contrastes concretos de 2026; todavía NO CERTIFICADO para el tema completo.**
+
+
+---
+
+## 12. Acuerdo Regulador **2023**: jornada, vacaciones y permisos — cotejo del texto inicial el **27/10/2026**
+
+**Fuente primaria:** [**BOP de Toledo n.º 246, de 28/12/2023, páginas 1–13**, anuncio **2023.00007344**](https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf). El texto original fue aprobado por el **Pleno de la Diputación Provincial el 21/12/2023**.
+
+**Precisión editorial:** esta sección desglosa lo literalmente publicado en el **Acuerdo de 2023**. Se han identificado modificaciones oficiales de **2025 y 2026** (véase §11), especialmente retributivas, pero **no se certifica aún la versión consolidada artículo por artículo ni la ausencia de reformas posteriores**.
+
+### 12.1. Artículos **2–3**: ámbito y vigencia
+
+| Elemento | Acuerdo de 2023 | Trampa de examen |
+|---|---|---|
+| **Ámbito personal**, art. **2** | Empleados públicos en **servicio activo** de **Diputación de Toledo** y de sus **organismos autónomos**, mientras estos no dispongan de regulación propia fruto de negociación | No incluir automáticamente todo el personal de consorcios ni el personal de alta dirección excluido |
+| **Ámbito territorial**, art. **2** | Centros y servicios dependientes de Diputación y organismos autónomos en **Toledo y provincia** | No limitarlo solo al Palacio Provincial |
+| **Entrada en vigor**, art. **3** | **01/01/2024** | No coincide con aprobación (**21/12/2023**) ni publicación (**28/12/2023**) |
+| **Fin de vigencia inicial**, art. **3** | **31/12/2027** | Se dispone **prórroga automática** hasta nuevo acuerdo |
+| **Compromiso de negociación**, art. **3** | Negociar un nuevo acuerdo **antes del 01/01/2028** | Negociación y entrada en vigor son conceptos distintos |
+
+> ⚠️ **¡Foco Examen!:** **Aprobación 21/12/2023**, **publicación 28/12/2023**, **vigencia desde 01/01/2024** y **fin inicial 31/12/2027**; el texto prevé **prórroga automática**.
+
+### 12.2. Artículo **14**: jornada y horario administrativo
+
+| Elemento | Dato literal del texto inicial |
+|---|---|
+| **Jornada general** | No inferior a **35 horas semanales de trabajo efectivo de promedio en cómputo anual** |
+| **Palacio Provincial y OAPGT Toledo**, art. **14.1.a** | Presencia fija de **9:00 a 14:00** |
+| **Horario flexible de complemento** | De **7:30 a 9:00** y de **14:00 a 18:30**, hasta completar la jornada mensual |
+| **Pausa de comida**, si se trabaja mañana y tarde | Al menos **30 minutos**, descontados del cómputo mensual; comienzo entre **14:00 y 16:00** |
+| **Flexibilización del horario fijo**, previa autorización | Hasta **2 horas**; máximo **12 veces al año** y **2 por mes**, con proporcionalidad cuando corresponda |
+| **Recuperación del tiempo flexibilizado** | Durante el horario flexible del **mismo mes**; excepcionalmente, autorización para el **mes siguiente** |
+| **Jornada intensiva estival**, previa decisión del órgano competente | Entre **16 de junio y 15 de septiembre**, ambos inclusive, **7 horas continuadas** entre **7:30 y 15:30** |
+| **Reducción en semanas de Corpus y fiestas locales**, sujeta a necesidades | **2 horas diarias**, con compensación específica si el servicio impide aplicarla |
+| **Descanso semanal**, art. **14.5** | **2 días ininterrumpidos**, con reglas de compensación por alteración |
+| **Tiempo de descanso en la jornada**, art. **14.6** | **30 minutos** de desayuno, merienda o cena computados como trabajo efectivo |
+
+La expresión «**no podrá ser inferior a 35 horas**» del texto originario **no debe reemplazarse** por «jornada máxima de 35 horas». Tampoco es correcto presentar el horario fijo de **9:00–14:00** como horario universal del personal a turnos de centros asistenciales.
+
+> ⚠️ **¡Foco Examen!:** **35 horas semanales de promedio anual** es la referencia para la jornada general publicada, pero **9:00–14:00** es el **tramo fijo** para determinados centros administrativos y el **OAPGT Toledo**, no la jornada diaria completa. La jornada intensiva estival **requiere decisión del órgano competente**.
+
+### 12.3. Artículo **19**: vacaciones
+
+| Materia | Regla publicada en 2023 |
+|---|---|
+| **Vacaciones generales** | **22 días hábiles por año completo** o proporcional |
+| **Cómputo ordinario** | **Sábados y domingos** no se consideran hábiles, con posibles adaptaciones en horarios especiales |
+| **15 años** de servicio | **23 días hábiles en total** |
+| **20 años** | **24 días hábiles en total** |
+| **25 años** | **25 días hábiles en total** |
+| **30 años o más** | **26 días hábiles en total** |
+| **Disfrute ordinario** | Año de devengo y hasta **15 de enero del año siguiente**, salvo excepciones del propio acuerdo |
+| **Períodos mínimos**, regla general | **5 días hábiles consecutivos**, con solicitudes excepcionales de períodos menores por circunstancias especiales |
+| **Período preferente** | **1 de julio–30 de septiembre**; al menos **10 días** en dicho período con las condiciones del art. 19 |
+| **Calendario de vacaciones** | Elaborado **antes del 1 de mayo** de cada año |
+| **Comunicación al empleado** | Al menos **2 meses** antes del inicio |
+| **Determinadas interrupciones por IT, maternidad, riesgo** | Se puede disfrutar posteriormente hasta **18 meses** después del final del año de origen, bajo las condiciones del artículo |
+
+**Importante:** **23/24/25/26 días son días totales**, no días adicionales que se suman a los **22** básicos. La compensación económica por vacaciones no disfrutadas responde a **excepciones legalmente previstas**, no a una libre sustitución.
+
+> ⚠️ **¡Foco Examen!:** **22 días hábiles** ordinarios; **15/20/25/30 años** de antigüedad → **23/24/25/26 días totales**. No confundir el **15 de enero** (límite ordinario de disfrute) con el **1 de mayo** (calendario) ni los **2 meses** (preaviso al empleado).
+
+### 12.4. Artículo **20**: permisos y licencias del texto inicial
+
+| Supuesto | Duración/condición expresamente publicada en 2023 |
+|---|---|
+| **Asuntos particulares** | **6 días laborables/año** o proporcional; disfrute hasta **31 de enero**; condicionado a necesidades del servicio |
+| **Asuntos particulares por antigüedad** | **2 días adicionales** desde el día siguiente al **sexto trienio** y **1 día más** por cada trienio a partir del **octavo**, conforme al texto |
+| **Matrimonio o inscripción en registro de parejas de hecho** | **15 días naturales** |
+| **Traslado de domicilio**, sin cambio de localidad | **1 día natural** |
+| **Traslado de domicilio** con cambio de localidad | **3 días naturales** |
+| **Exámenes finales y pruebas definitivas / procesos selectivos** | Durante los **días de su celebración**, con justificación |
+| **Accidente, enfermedad grave u hospitalización**, cónyuge/pareja, primer grado y conviviente necesitado de cuidado | **5 días hábiles**, con supuestos y requisitos del artículo |
+| **Idéntico hecho**, segundo grado | **4 días hábiles**, según art. 20 |
+| **Fallecimiento**, cónyuge/pareja/primer grado | **3 días hábiles** misma localidad; **5 días hábiles** distinta localidad, con precisión del propio artículo sobre tercera localidad |
+| **Fallecimiento**, segundo grado | **2 días hábiles** misma localidad; **4 días hábiles** distinta localidad, con precisión del artículo |
+| **Formación profesional o sindical**, si coincide con jornada | Hasta **42 horas anuales** o proporcional, según condiciones |
+| **Consulta médica propia** | Tiempo **indispensable** y cuando no pueda concertarse fuera de jornada, con justificación |
+
+**Advertencia de vigencia:** la tabla reproduce **artículo 20 del Acuerdo publicado en 2023**. Para aplicar individualmente los permisos en **2026**, deben comprobarse además el **TREBEP y la Ley 4/2011 de Castilla-La Mancha vigentes**, especialmente donde existan reformas legales posteriores, normas imperativas o discrepancias en la redacción. No afirmar que cada casilla está consolidada sin esa segunda revisión.
+
+> ⚠️ **¡Foco Examen!:** **Días hábiles** y **días naturales** no son equivalentes. **Asuntos particulares: 6 días laborables**, **matrimonio: 15 naturales**; los permisos por **fallecimiento** y **enfermedad/hospitalización** tienen **hechos causantes diferentes** y no deben mezclarse.
+
+### 12.5. Matriz de control de artículos y reformas hasta la fecha
+
+| Artículo del acuerdo 2023 | Lectura literal inicial | Reforma 2025–2026 localizada en esta auditoría | Estado |
+|---|---|---|---|
+| **2–3**, ámbito/vigencia | Contrastados en BOP **246/2023** | No se ha localizado reforma expresa en publicaciones revisadas | **Texto inicial contrastado; comprobación exhaustiva pendiente** |
+| **14**, jornada | Contrastado en BOP **246/2023** | No se ha localizado reforma expresa en modificaciones revisadas | **Texto inicial contrastado; comprobación exhaustiva pendiente** |
+| **19**, vacaciones | Contrastado en BOP **246/2023** | La modificación **2026** introduce además tratamiento retributivo de vacaciones a través del **art. 18.III.g** | **Distinguir derecho al descanso de su complemento retributivo** |
+| **20**, permisos | Contrastado en BOP **246/2023** | No se ha localizado reforma expresa del artículo en los anuncios revisados | **Verificar también la legislación general imperativa vigente** |
+| **18.III**, complementos/guardias | Texto de 2023 **superado parcialmente** | Reformas expresas **2025 y 2026** | **Aplicar las cuantías y redacciones modificadas (véase §11)** |
+| **28**, acción social | Texto de 2023 **superado parcialmente** | Modificación expresa del importe en **2026** | **Aplicar BOP 10/2026, véase §11** |
+
+**Balance de esta sección:** se ha incorporado el **contenido original comprobado** de los artículos **2, 3, 14, 19 y 20**; quedan pendientes la **auditoría de conformidad con las leyes vigentes**, la integración del resto de artículos y la consolidación completa de los **Estatutos del OAPGT**. El tema continúa **BORRADOR PARCIAL NO CERTIFICADO**.
