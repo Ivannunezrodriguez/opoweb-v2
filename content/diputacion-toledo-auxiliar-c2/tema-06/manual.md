@@ -231,3 +231,81 @@ Las preguntas **T06-001** y **T06-006** se han sustituido por cuestiones con ref
 4. **Pendiente en paralelo:** consolidar el **Acuerdo Regulador 2023** con sus modificaciones **2025–2026**, para cubrir la otra mitad del epígrafe oficial.
 
 **Estado editorial final de esta fase: BORRADOR PARCIAL NO CERTIFICADO.**
+
+
+---
+
+## 11. Acuerdo Regulador: reformas **2025–2026** con importes oficiales — revisión **27/10/2026**
+
+**Estado de esta sección: contrastada con anuncios del BOP, pero no supone consolidación integral del acuerdo de 2023.** Se han localizado la modificación de **14/01/2025**, la modificación principal de **16/01/2026** y su complemento de **20/02/2026**. No trasladar estas cantidades a empleados o situaciones a las que no corresponda el concepto.
+
+### 11.1. Línea temporal de acuerdos y efectos
+
+| Fecha de publicación | Número BOP | Qué acredita | Efectos indicados |
+|---|---|---|---|
+| **28/12/2023** | **246/2023** | Acuerdo Regulador inicial | Examinar articulado original |
+| **14/01/2025** | **8/2025**, anuncio **223** | Actualización de cuantías y modificación de las guardias presenciales de Técnicos Superiores | **01/01/2025**, económicos y administrativos |
+| **16/01/2026** | **10/2026**, anuncio **228** | Nuevas cuantías de la disposición adicional primera y artículos **18.III** y **28** | **01/01/2026**, económicos y administrativos según cabecera del anuncio |
+| **20/02/2026** | **34/2026**, anuncio **821** | Completa el apartado de **nocturnidad especial** del anuncio de enero | El complemento no explicita separadamente una fecha de efectos; vinculado al apartado modificado de enero |
+
+**Fuentes del BOP:**
+- [BOP **8/2025**, modificación del Acuerdo, anuncio **223**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=8&insert_year=2025&publication_date=14012025).
+- [BOP **10/2026**, modificación del Acuerdo, páginas **38–39**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026). Advertencia técnica: la URL de búsqueda antigua con `bop=97` es incongruente con la cabecera de la publicación; debe utilizarse el número **10**.
+- [BOP **34/2026**, complemento nocturnidad especial, anuncio **821**](https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026).
+
+> ⚠️ **¡Foco Examen!:** No confundir **aprobación del acuerdo**, **publicación** y **fecha de efectos**. El cambio principal se publica el **16/01/2026** pero indica efectos **01/01/2026**. El **20/02/2026** se publica una cuantía omitida en enero, no otro acuerdo regulador completo.
+
+### 11.2. Disposición adicional primera: importes anuales del subgrupo **C2** en 2026
+
+| Grado | Importe anual **C2** |
+|---|---:|
+| **I** | **712,08 €** |
+| **II** | **1.151,40 €** |
+| **III** | **1.655,76 €** |
+| **IV** | **2.457,24 €** |
+
+Estos importes pertenecen a la **disposición adicional primera**, según el texto publicado en el **BOP n.º 10, de 16/01/2026**, con efectos establecidos desde **01/01/2026**. **Son importes anuales por grado**, no importes mensuales ni la totalidad del salario.
+
+### 11.3. Artículo **18.III**: nocturnidad, festivos, sábados y domingos
+
+| Concepto publicado en 2026 | Subgrupos **A1/A2** o **A2**, según la tabla | Subgrupos **C1/C2/AP** o **C2/AP**, según la tabla |
+|---|---:|---:|
+| **Nocturnidad ordinaria** | **30,47 €** (**A2**) | **29,30 €** (**C2 y AP**) |
+| **Festivos** | **62,12 €** (**A1 y A2**) | **59,79 €** (**C1, C2 y AP**) |
+| **Sábados y domingos** | **36,34 €** (**A1 y A2**) | **35,16 €** (**C1, C2 y AP**) |
+
+**Nocturnidad especial:** el complemento del **BOP n.º 34 de 20/02/2026** la cuantifica en **97,45 €**, como dato separado de la nocturnidad ordinaria.
+
+Los importes se reproducen como **cuantías del concepto especificado**; el anuncio consultado no permite deducir que todas ellas se abonen por hora o por mes. Evitar atribuir una unidad temporal no escrita.
+
+### 11.4. Guardias y otras modificaciones publicadas el **16/01/2026**
+
+| Concepto | Importe o cambio de 2026 |
+|---|---|
+| Guardias de presencia física de Técnicos Superiores | **28,64 €/hora** |
+| Módulo guardia de presencia física **17 horas** | **486,88 €** |
+| Módulo guardia de presencia física **24 horas** | **687,36 €** |
+| Guardias de localización de Técnicos Superiores | **1.031,38 €** |
+| Guardias de localización de Supervisión y Dirección de Enfermería | **670,81 € mensuales** |
+| Guardias de localización: **A2** | **670,81 €** |
+| Guardias de localización: **C1** | **306,16 €** |
+| Guardias de localización: **C2** | **212,30 €** |
+| Guardias de localización: Agrupaciones Profesionales | **163,28 €** |
+| **Artículo 28**, Fondo de Acción Social | **292.790,00 €** |
+
+El apartado **tercero** del anuncio elimina **los dos últimos párrafos** del artículo **18.III.d**, relativos al carácter mensual general de las guardias de localización y al descuento en período vacacional. Incorpora el nuevo **artículo 18.III.g**, sobre retribución complementaria durante vacaciones para personal a turnos:
+
+- Si su turno ordinario incluye noches, sábados, domingos y festivos: equivalente a **4 noches, 2 sábados, 2 domingos y 1 festivo**.
+- Si incluye sábados, domingos y festivos pero no noches: equivalente a **2 sábados, 2 domingos y 1 festivo**.
+- Se indica abono **generalmente en agosto** y proporcionalidad cuando el tiempo de servicio activo sea inferior a **un año** hasta la finalización de la relación laboral.
+
+> ⚠️ **¡Foco Examen!:** Las guardias de presencia física de **Técnicos Superiores** (**28,64 €/hora**) no son las guardias de localización del subgrupo **C2** (**212,30 €**) ni la **nocturnidad especial** (**97,45 €**). Son conceptos distintos. El Fondo de Acción Social (**292.790,00 €**) es una dotación global, **no una ayuda individual**.
+
+### 11.5. Controles y lagunas pendientes
+
+1. Cotejar **cada artículo del Acuerdo inicial de 28/12/2023** con todas sus reformas para consolidar jornada, permisos, vacaciones, licencias, retribuciones y derechos colectivos.
+2. Comprobar eventuales publicaciones posteriores a **20/02/2026** que afecten a estos importes.
+3. Mantener diferenciados los **Estatutos del OAPGT** (parte orgánica) del **Acuerdo Regulador** (condiciones de trabajo).
+4. Las tablas de esta sección reproducen **cuantías publicadas**, no constituyen una certificación de derecho individual a percibirlas.
+
+**Resultado editorial: BORRADOR PARCIAL, con contrastes concretos de 2026; todavía NO CERTIFICADO para el tema completo.**
