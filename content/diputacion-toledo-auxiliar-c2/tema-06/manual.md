@@ -551,3 +551,60 @@ El BOE advierte que el texto de la **Ley 4/2011** muestra «**última actualizac
 **Regla editorial OpoWeb:** para los artículos **70.2, 121.1 y DA 7.ª.6**, estudiar las modificaciones desde sus **publicaciones originales**; no deducir su redacción vigente a partir de la consolidación de **2024**. Para **101–108**, estudiar su texto con cautela y hacer prevalecer los **derechos básicos estatales aplicables** del TREBEP, verificando ámbito personal y disposiciones transitorias.
 
 **Pendientes tras este avance:** verificar otras posibles reformas y su alcance a fecha de examen; reconstruir **todos los artículos vigentes de los Estatutos del OAPGT** y la totalidad del Acuerdo Regulador de la Diputación. **Estado editorial del tema 6: BORRADOR PARCIAL, NO CERTIFICADO**.
+
+
+---
+
+## 16. Organización y competencias del **OAPGT**: actos oficiales de **2023–2026** — auditoría de **27/10/2026**
+
+**Advertencia de método:** esta matriz recoge **atribuciones concretas invocadas en anuncios oficiales**, sin presentarlas como reproducción completa de los Estatutos vigentes. No se ha obtenido un texto íntegro y consolidado que permita certificar la composición del Consejo Rector, el quórum o el régimen completo de sesiones.
+
+### 16.1. Actos oficiales con referencia expresa a los Estatutos
+
+| Órgano | Función documentada | Artículo citado en publicación | Fuente y alcance |
+|---|---|---|---|
+| **Consejo Rector** | Contratación cuando no esté atribuida a otros órganos, susceptible de delegación total o parcial | **Art. 10.k** | [BOP Toledo **92/2023**, 16/05/2023](https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023), acuerdo sobre contratación de **11/05/2023** |
+| **Presidencia del OAPGT** | Representación institucional ante autoridades y organismos y en actos y contratos | **Art. 12.1** | **BOP 92/2023**, decreto de delegación de representación |
+| **Dirección del OAPGT** | Dirección, gestión y representación administrativa; posible representación por delegación de Presidencia | **Arts. 14 y 14.d.17** | **BOP 92/2023** |
+| **Consejo Rector, a propuesta de Presidencia** | Aceptar delegaciones de funciones tributarias formuladas por entidades locales | Se invoca **art. 12.2.m**, aunque debe cotejarse su **numeración y ubicación** con Estatutos íntegros | [BOP Toledo **46/2026**, 10/03/2026](https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026), acuerdo municipal de Tembleque que recoge informe del OAPGT |
+| **Dirección General** | Estableció el calendario de días inhábiles del registro electrónico **2026**, según habilitación del Consejo Rector | Habilitación y atribuciones estatutarias invocadas, sin artículo individualizado | [BOP **216/2025**, 11/11/2025](https://bop.diputoledo.es/webEbop/DocGet?id=25113534%3B0&insert_number=5523&insert_year=2025) |
+
+**Control de calidad:** el anuncio de **2023** usa **artículo 10.k** para el Consejo Rector; el informe reproducido en anuncio municipal de **2026** menciona **12.2.m** al asignar a dicho Consejo la aceptación de delegaciones. **No se debe corregir silenciosamente esa referencia ni construir una tabla definitiva de artículos a partir de anuncios aislados**: anotar la discrepancia hasta cotejar los Estatutos consolidados.
+
+### 16.2. Decreto de **2023** sobre delegación de representación
+
+El **BOP 92/2023** publica la delegación en la **Dirección del OAPGT** de la representación del organismo en actuaciones referidas a la **fiscalización económico-financiera y enjuiciamiento de responsabilidad contable**. La resolución precisa que los actos dictados en virtud de la delegación **deben identificar la delegación, su fecha y publicación**, y **se consideran dictados por el órgano delegante**.
+
+El decreto dispone efectos desde **el día siguiente al de su publicación** en el BOP. La delegación del ejercicio de una competencia **no supone, por sí misma, transferencia de su titularidad**.
+
+> ⚠️ **¡Foco Examen!:** **Presidencia** ostenta representación institucional; **Dirección** ejerce representación administrativa y, en materias delimitadas, facultades **delegadas**. Un acto firmado por la **Dirección** por delegación se considera dictado por el **órgano delegante**.
+
+### 16.3. Caso práctico publicado en **marzo de 2026**: aceptación de delegación municipal
+
+En el **BOP 46/2026** figura un expediente del **Ayuntamiento de Tembleque** relativo al Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana. La propuesta informa que corresponde al **Consejo Rector**, a propuesta de la **Presidencia**, aceptar la delegación.
+
+El convenio citado prevé que el acuerdo municipal sea comunicado al OAPGT **antes del 30 de octubre del ejercicio anterior** para sus efectos ordinarios. Como la notificación del caso fue de **28/01/2026**, el informe explica que, si se aplicase esa cláusula estrictamente, la delegación sería efectiva desde el **01/01/2027**. El propio documento expone **excepciones administrativas** para ciertos tributos y propone aceptar la delegación con efectos desde el acuerdo, dentro de las condiciones indicadas.
+
+**No convertir el 30 de octubre en una fecha obligatoria aplicable a toda delegación municipal sin excepciones**, ni afirmar una fecha de efectos única para todos los supuestos.
+
+> ⚠️ **¡Foco Examen!:** **Consejo Rector** acepta la delegación **a propuesta de Presidencia**, según el documento de **2026**. **30 de octubre** es la fecha de comunicación ordinaria del **convenio examinado**, con tratamiento excepcional descrito en el propio expediente; **no es un plazo estatutario universal certificado**.
+
+### 16.4. Fuentes históricas y composición del Consejo Rector
+
+El [comunicado institucional de la Diputación de **24/07/2015**](https://www.diputoledo.es/noticias_ampliada/1148) describe al Consejo Rector constituido ese año con **Presidencia y siete vocales**. **No utilizar esa fotografía de 2015 como prueba concluyente de la composición en 2026**.
+
+Asimismo, en el anuncio de aprobación inicial de reforma del **23/12/2004** se reproduce una versión histórica extensa de los Estatutos. **No se ha localizado en esta fase la publicación oficial acreditativa de aprobación definitiva de esa reforma**, ni la cadena completa de modificaciones posteriores a **2011**.
+
+### 16.5. Tabla de verificación pendiente para cerrar el epígrafe oficial
+
+| Exigencia | Estado |
+|---|---|
+| Naturaleza jurídica del OAPGT y fines | **Contraste parcial oficial**: BOP **284/2011**, arts. **1** y **4.a** |
+| Consejo Rector: algunas atribuciones | **Contraste parcial**: BOP **92/2023** y **46/2026** |
+| Presidencia y Dirección: representación/delegación | **Contraste parcial**: BOP **92/2023** |
+| Composición del Consejo Rector en **2026** | **NO VERIFICADA** con texto estatutario vigente íntegro |
+| Convocatoria, quórum, votación y mayorías | **NO VERIFICADOS** |
+| Estatutos completos definitivos y cadena de reformas | **PENDIENTE** |
+| Acuerdo Regulador íntegramente consolidado | **PENDIENTE** |
+
+**El tema 6 continúa BORRADOR PARCIAL, NO CERTIFICADO.**
