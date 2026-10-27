@@ -1,0 +1,109 @@
+{
+  "tema": 6,
+  "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
+  "version": "2026-10-27",
+  "criterio": "SEIS preguntas provisionales y documentales basadas en fuentes institucionales verificables. NO sustituyen la preparación de los Estatutos íntegros vigentes ni del Acuerdo Regulador consolidado. La pregunta 6 es histórica, expresamente fechada en 2015. NO es un banco final apto para considerar el tema completo.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T06-001",
+      "enunciado": "¿Qué organismo de la Diputación de Toledo presta servicios de gestión y recaudación tributaria a municipios de la provincia?",
+      "opciones": [
+        "La Junta Electoral Central",
+        "La Delegación Provincial de Educación",
+        "El Organismo Autónomo Provincial de Gestión Tributaria de Toledo (OAPGT)",
+        "El Tribunal de Cuentas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Diputación describe al OAPGT como organismo prestador de servicios de gestión y recaudación de impuestos y otros ingresos públicos a los ayuntamientos. No debe inferirse que toda competencia tributaria municipal esté necesariamente delegada.",
+      "trampaExamen": "No confundir la existencia del organismo con una delegación automática de la totalidad de los tributos locales.",
+      "referencia": "Fuente institucional: https://www.diputoledo.es/noticias_ampliada/1148"
+    },
+    {
+      "id": "DT-C2-T06-002",
+      "enunciado": "¿En qué publicación figura el acuerdo regulador inicial de condiciones de trabajo de la Diputación de Toledo y sus organismos autónomos que el portal de transparencia identifica como base?",
+      "opciones": [
+        "28 de diciembre de 2023",
+        "14 de enero de 2025",
+        "20 de febrero de 2026",
+        "14 de octubre de 2026"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El portal institucional registra el acuerdo regulador inicial con fecha 28/12/2023. Deben incorporarse sus modificaciones posteriores; no es un texto consolidado vigente por sí solo.",
+      "trampaExamen": "Publicación inicial de 2023 distinta de las reformas de 2025 y 2026.",
+      "referencia": "Fuente institucional: https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes"
+    },
+    {
+      "id": "DT-C2-T06-003",
+      "enunciado": "¿Qué modificación del Acuerdo Regulador identifica expresamente el portal de Transparencia con fecha 20 de febrero de 2026?",
+      "opciones": [
+        "Una modificación sobre el Consejo Rector del OAPGT",
+        "La de nocturnidad especial",
+        "El reglamento de firma electrónica de los ciudadanos",
+        "La disolución del OAPGT"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El portal oficial identifica la entrada del 20/02/2026 como 'Modificación del Acuerdo Regulador – Nocturnidad especial'. No se deducen de esta entrada sus cuantías ni el texto de los artículos alterados.",
+      "trampaExamen": "No extrapolar importes ni fechas de efectos solo a partir de un título y una fecha de publicación.",
+      "referencia": "Fuente institucional: https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes"
+    },
+    {
+      "id": "DT-C2-T06-004",
+      "enunciado": "¿Qué órgano del OAPGT aprobó el acuerdo de creación de su sede electrónica, según su relación institucional de normativa?",
+      "opciones": [
+        "El Defensor del Pueblo",
+        "El Tribunal Constitucional",
+        "El Consejo Rector",
+        "El Banco de España"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La propia sede del OAPGT relaciona un Acuerdo del Consejo Rector por el que se crea la sede electrónica. Esto no fija por sí solo todas las competencias actuales de dicho órgano.",
+      "trampaExamen": "El acuerdo de creación de la sede no sustituye a los Estatutos íntegros vigentes.",
+      "referencia": "Fuente institucional: https://sede.oapgt.es/Paginas/Normativa.aspx"
+    },
+    {
+      "id": "DT-C2-T06-005",
+      "enunciado": "¿Qué resolución consta en la normativa de sede del OAPGT como creadora y reguladora de su Registro Electrónico?",
+      "opciones": [
+        "La Resolución 182/2017",
+        "La Resolución 14/2026",
+        "La Resolución 39/2015",
+        "La Resolución 7/1985"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La sede identifica la Resolución n.º 182/2017 como disposición que crea y regula el Registro Electrónico del OAPGT. Es un dato documental, no el texto completo de la resolución.",
+      "trampaExamen": "**Sede electrónica** y **Registro Electrónico** están regulados por instrumentos diferentes.",
+      "referencia": "Fuente institucional: https://sede.oapgt.es/Paginas/Normativa.aspx"
+    },
+    {
+      "id": "DT-C2-T06-006",
+      "enunciado": "Según la noticia institucional de la Diputación del 24 de julio de 2015, ¿a qué órgano se atribuía la organización y alta dirección del OAPGT en aquella fecha?",
+      "opciones": [
+        "A cada ayuntamiento delegante de forma individual",
+        "Al Consejo Rector",
+        "Al Consejo General del Poder Judicial",
+        "A la Secretaría de Estado de Hacienda"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La nota institucional publicada el 24/07/2015 identifica al Consejo Rector como órgano de organización y alta dirección entonces. Esta evidencia es histórica: no acredita su composición ni el catálogo íntegro de atribuciones en 2026.",
+      "trampaExamen": "Pregunta **histórica/documental**, no examen de competencias estatutarias consolidadas de 2026.",
+      "referencia": "Fuente institucional: https://www.diputoledo.es/noticias_ampliada/1148"
+    }
+  ],
+  "auditoria": {
+    "fecha": "2026-10-27",
+    "estado": "PARCIAL",
+    "fuentes": [
+      "https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes",
+      "https://sede.oapgt.es/Paginas/Normativa.aspx",
+      "https://sedeelectronica.oapgt.es/",
+      "https://www.diputoledo.es/noticias_ampliada/1148"
+    ],
+    "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
+    "pendiente": [
+      "Conseguir Estatutos íntegros vigentes y modificaciones oficiales",
+      "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
+      "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
+    ],
+    "observacion": "Solo seis preguntas basadas en datos oficiales de alcance limitado. No considerar la existencia de un test como garantía de cobertura del tema 6."
+  }
+}
