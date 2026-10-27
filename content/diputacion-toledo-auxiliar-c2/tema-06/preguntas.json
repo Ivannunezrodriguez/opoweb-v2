@@ -2,7 +2,7 @@
   "tema": 6,
   "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
   "version": "2026-10-27",
-  "criterio": "23 preguntas provisionales con referencias documentales; nuevas preguntas 21-23 sobre Consejo Rector, representación por delegación y aceptación de delegaciones (BOP 2023/2026). Tema completo no certificado.",
+  "criterio": "25 preguntas provisionales, referidas a artículos y actuaciones oficialmente publicados hasta 2026; las dos últimas se basan en BOP 225/2017 (sede) y 284/2011 (disposición sancionadora). Sin certificación del Estatuto integral vigente.",
   "preguntas": [
     {
       "id": "DT-C2-T06-001",
@@ -325,6 +325,34 @@
       "justificacion": "El informe del OAPGT reproducido en el anuncio municipal del **BOP 46/2026** atribuye la aceptación de delegaciones al **Consejo Rector**, **a propuesta de la Presidencia**. Cita el **art. 12.2.m**: su numeración requiere cotejo con el Estatuto íntegro antes de construir una tabla general.",
       "trampaExamen": "**La propuesta corresponde a Presidencia**; la **aceptación, al Consejo Rector** en ese expediente. No atribuir al Director la decisión de aceptación.",
       "referencia": "BOP Toledo 46/2026, anuncio Ayuntamiento Tembleque · https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026"
+    },
+    {
+      "id": "DT-C2-T06-024",
+      "enunciado": "Según el acuerdo del Consejo Rector del OAPGT publicado en el BOP Toledo n.º 225 de 27/11/2017, ¿a quién corresponde la gestión TECNOLÓGICA de su sede electrónica?",
+      "opciones": [
+        "A cada Ayuntamiento que delega sus tributos",
+        "A la unidad administrativa responsable de los sistemas de información y comunicación del OAPGT",
+        "Exclusivamente al Presidente de la Diputación",
+        "Al Tribunal de Cuentas"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El apartado **quinto** del acuerdo publicado en el **BOP Toledo 225/2017** encarga la **gestión tecnológica** a la **unidad administrativa responsable de sistemas de información y comunicación**. El **cuarto** asigna la gestión de la sede a los **órganos competentes** según Estatutos.",
+      "trampaExamen": "**Gestión tecnológica** no equivale a **gestión de los servicios**: sistemas de información frente a órganos con competencia administrativa.",
+      "referencia": "BOP Toledo 225/2017, acuerdo Consejo Rector sobre sede, apartados cuarto y quinto · https://bop.diputoledo.es/webEbop/DocGet?id=17110192%3B0&insert_number=5876&insert_year=2017"
+    },
+    {
+      "id": "DT-C2-T06-025",
+      "enunciado": "¿Qué órgano aprueba el organigrama que determina qué puestos o unidades instruyen procedimientos sancionadores del OAPGT, conforme a la disposición adicional incorporada en diciembre de 2011?",
+      "opciones": [
+        "La Fiscalía Provincial",
+        "El Consejo Rector",
+        "Cada ayuntamiento por decreto propio para cualquier caso",
+        "El Tribunal Constitucional"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La disposición adicional añadida por el ordinal **quinto** del **BOP Toledo 284/2011** dispone que la tramitación instructora corresponda a los titulares de puestos o unidades conforme al **organigrama aprobado por el Consejo Rector**. La **Presidencia** publica en el BOP la identidad del titular del órgano instructor. Un anuncio de **2019** la atribuye erróneamente a 1996; el anuncio modificativo de **2011** acredita su adición.",
+      "trampaExamen": "**Consejo Rector**: organigrama. **Presidencia del OAPGT**: publicación de identidad. No confundir publicación modificativa de **2011** con cita histórica errónea de **2019**.",
+      "referencia": "BOP Toledo 284/2011, modificación ordinal quinto · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
     }
   ],
   "auditoria": {
@@ -342,7 +370,9 @@
       "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
       "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528",
       "https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
-      "https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026"
+      "https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=17110192%3B0&insert_number=5876&insert_year=2017",
+      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=188&insert_year=2019&publication_date=03102019"
     ],
     "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
     "pendiente": [
@@ -350,7 +380,7 @@
       "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
       "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
     ],
-    "observacion": "27/10/2026: tres cuestiones nuevas basadas en BOP 92/2023 y 46/2026; pendientes composición y quórums, así como texto consolidado de Estatutos.",
-    "preguntasRevisadas": 23
+    "observacion": "27/10/2026: añadidas T06-024 y T06-025 tras cotejo BOP 225/2017 y 284/2011; detectada en BOP 188/2019 atribución histórica incorrecta de disposición incorporada en 2011.",
+    "preguntasRevisadas": 25
   }
 }
