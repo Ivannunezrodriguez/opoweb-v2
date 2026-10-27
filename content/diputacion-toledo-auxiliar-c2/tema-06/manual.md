@@ -507,3 +507,47 @@ Las **2 semanas adicionales** de los permisos por nacimiento/adopción del **art
 > ⚠️ **¡Foco Examen!:** **8 semanas no retribuidas** (permiso parental, **49.g**) no son las **2 semanas** adicionales del permiso por nacimiento (art. **49.a–c**), ni la reducción de jornada con retribuciones conforme a condiciones del **49.e**. Tampoco convertir el nuevo **100 %** de reducción **conjunta** entre progenitores en una supuesta retribución íntegra doble.
 
 **Estado editorial:** contraste de los **arts. 49.e y 49.g** y de la **disposición final undécima de la Ley 4/2026** completado para esta cuestión; sigue pendiente la consolidación total de la normativa autonómica y de los Estatutos del OAPGT. **Tema 6: BORRADOR NO CERTIFICADO.**
+
+
+---
+
+## 15. Reforma de la **Ley 4/2011 de Castilla-La Mancha** durante **2026** — comprobación de **27/10/2026**
+
+**Objeto de esta auditoría:** resolver si las modificaciones autonómicas de **2026** alteran directamente los artículos **101 a 108**, sobre reducción de jornada, permisos y conciliación, y documentar qué preceptos sí se reforman.
+
+**Fuentes oficiales:**
+- [Ley 4/2011 — ficha de análisis legislativo BOE](https://www.boe.es/eli/es-cm/l/2011/03/10/4), que identifica las reformas autonómicas pendientes de integrar en su texto consolidado.
+- [Ley 1/2026, de 26 de marzo — DOCM n.º 61 de **30/03/2026**](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065), **art. 16**, entrada en vigor general **31/03/2026** con las salvedades de su disposición final.
+- [Ley 2/2026, de 9 de abril — DOCM, referencia **DOCM-q-2026-90086**](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086), disposición final tercera.
+- [TREBEP consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719), **arts. 48 y 49**, para los mínimos básicos sobre permisos.
+
+### 15.1. Tabla de modificaciones autonómicas comprobadas
+
+| Publicación | Precepto afectado de la **Ley 4/2011** | Cambio documentado | ¿Modifica directamente **101–108**? |
+|---|---|---|---|
+| **Ley 1/2026, 26/03/2026**, DOCM **30/03/2026** | **Art. 121.1** | Excedencia voluntaria por prestación de servicios en el sector público: personal funcionario de carrera que se encuentre en servicio activo como funcionario de carrera de otro cuerpo o escala de cualquier Administración, o pase a ser laboral fijo en el sector público, salvo autorización de compatibilidad | **No** |
+| **Ley 1/2026** | **Disposición adicional 7.ª, apartado 6** | Abono de los complementos previstos en esa disposición mientras se mantenga la relación de servicios con la **Administración de la Junta de Comunidades de Castilla-La Mancha** o entidades de derecho público vinculadas o dependientes | **No** |
+| **Ley 2/2026, 09/04/2026** | **Art. 70.2** | Extiende la previsión sobre **libre designación** a los puestos determinados por la **Ley 55/2003, Estatuto Marco del personal estatutario de los servicios de salud**, y su normativa de desarrollo | **No** |
+
+**Conclusión estricta:** estas **dos leyes identificadas en 2026** no reforman directamente los **arts. 101–108** de la Ley 4/2011. **Esta comprobación no prueba que los arts. 101–108, en la versión consolidada de 2024, reflejen por sí solos todos los derechos aplicables en 2026**, porque el **TREBEP ha cambiado con posterioridad** y debe compararse por materia.
+
+### 15.2. Qué significa para los permisos del tema 6
+
+| Pregunta de oposición | Fuente principal que debe contrastarse | Prevención de error |
+|---|---|---|
+| ¿Qué artículo autonómico regula las reducciones de jornada? | **Ley 4/2011, art. 101** | No confundir con el **art. 49.e TREBEP** (cuidado por enfermedad grave) |
+| ¿Por qué el texto BOE de Ley 4/2011 contiene todavía **16 semanas** por maternidad? | **Ley 4/2011, art. 102**, consolidado hasta 2024; comparación con **TREBEP, art. 49.a**, reformado en 2025 | La redacción autonómica histórica **no debe emplearse como única respuesta sobre la duración básica vigente** |
+| ¿Dónde se recogen otros permisos del personal funcionario en Castilla-La Mancha? | **Ley 4/2011, art. 107** y **TREBEP, art. 48** | Cotejar **fallecimiento** frente a **enfermedad/hospitalización**, pues los derechos básicos estatales presentan supuestos y duraciones distintas |
+| ¿La reforma de **marzo de 2026** cambió los permisos familiares? | **Ley 1/2026, art. 16** | **No**: reformó **121.1** y **DA 7.ª.6** |
+| ¿La reforma de **abril de 2026** cambió los permisos familiares? | **Ley 2/2026, disposición final tercera** | **No**: reformó **70.2**, referente a **libre designación** |
+| ¿La ley de octubre de 2026 que afecta al cuidado intensivo de menores modificó la Ley 4/2011? | **Ley 4/2026 estatal**, disposición final undécima | Reformó el **TREBEP, art. 49.e**, **no** directamente la Ley 4/2011 autonómica |
+
+> ⚠️ **¡Foco Examen!:** **Art. 70.2 Ley 4/2011 = provisión por libre designación**; **art. 121.1 = excedencia por prestación de servicios en el sector público**; **arts. 101–108 = jornada, permisos y conciliación**. Las reformas autonómicas de **marzo y abril de 2026** afectaron a los dos primeros ámbitos, **no directamente a los arts. 101–108**.
+
+### 15.3. Control del estado consolidado de las fuentes
+
+El BOE advierte que el texto de la **Ley 4/2011** muestra «**última actualización en proceso**» y ofrece como última versión integrada la publicada el **21/03/2024**. Su **ficha de análisis**, sin embargo, sí cita reformas de **marzo y abril de 2026**.
+
+**Regla editorial OpoWeb:** para los artículos **70.2, 121.1 y DA 7.ª.6**, estudiar las modificaciones desde sus **publicaciones originales**; no deducir su redacción vigente a partir de la consolidación de **2024**. Para **101–108**, estudiar su texto con cautela y hacer prevalecer los **derechos básicos estatales aplicables** del TREBEP, verificando ámbito personal y disposiciones transitorias.
+
+**Pendientes tras este avance:** verificar otras posibles reformas y su alcance a fecha de examen; reconstruir **todos los artículos vigentes de los Estatutos del OAPGT** y la totalidad del Acuerdo Regulador de la Diputación. **Estado editorial del tema 6: BORRADOR PARCIAL, NO CERTIFICADO**.
