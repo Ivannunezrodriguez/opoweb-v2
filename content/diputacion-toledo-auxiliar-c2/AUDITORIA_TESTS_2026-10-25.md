@@ -775,3 +775,23 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 > ⚠️ **¡Foco Examen!:** **Dirección** puede ejercer **representación por delegación** sin que desaparezca la titularidad del **órgano delegante**. En el caso de **Tembleque (2026)** la **aceptación de la delegación municipal** se atribuye al **Consejo Rector**, **a propuesta de Presidencia**. El **30/10** citado es un plazo de **convenio concreto** y no debe generalizarse a todas las delegaciones.
 
 **Pendiente bloqueante:** localizar la aprobación definitiva de la reforma de **2004** y la cadena de cambios posteriores a **2011**, para acreditar quórums, mayorías, composición y régimen de sesiones a fecha de **2026**. **Manual en BORRADOR NO CERTIFICADO**.
+
+
+---
+
+## 32. BOP oficiales de 2011, 2017 y 2019: cotejo de genealogía y sede del OAPGT — **27/10/2026**
+
+**Nuevas fuentes primarias contrastadas:**
+- [BOP Toledo **225, 27/11/2017**, anuncio **5876**](https://bop.diputoledo.es/webEbop/DocGet?id=17110192%3B0&insert_number=5876&insert_year=2017): acuerdo del **Consejo Rector del 22/11/2017** que crea sede electrónica **https://sede.oapgt.es**, atribuye **titularidad al OAPGT**, gestión administrativa a **órganos competentes conforme a Estatutos**, gestión tecnológica a **unidad de sistemas**, habilita a **Dirección** para instrucciones de desarrollo y **revoca el acuerdo de 10/04/2015**.
+- [BOP Toledo **284, 14/12/2011**, anuncio **11024**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011), ordinal **quinto**: añade una **disposición adicional** sobre instructores de procedimientos sancionadores; **Consejo Rector** aprueba el organigrama y **Presidencia** publica la identidad de los titulares instructores.
+- [BOP Toledo **188, 03/10/2019**, anuncio **5164**, pág. 2](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=188&insert_year=2019&publication_date=03102019): aplicación de dicha disposición en nombramiento de una instructora; el anuncio atribuye la disposición adicional a los Estatutos originarios de **1996**, lo que **contradice la adición expresa publicada en 2011**.
+
+**Resolución de discrepancia de fuentes:** el acto normativo de **2011** es fuente preferente para determinar **cuándo se añade la disposición**; el anuncio de **2019** demuestra su aplicación, pero no acredita su origen en **1996**. Queda registrada la inconsistencia y no se incorpora la fecha incorrecta a preguntas.
+
+**Pregunta T06-024:** gestión tecnológica de la sede: unidad de **sistemas de información y comunicación** del OAPGT, según acuerdo de **2017**. **Pregunta T06-025:** organigrama de instructores sancionadores aprobado por **Consejo Rector**, conforme disposición adicional de **2011**. Dos preguntas con cuatro opciones, explicación y documento primario.
+
+**Límite:** no se ha encontrado todavía la publicación **definitiva** de los Estatutos inicialmente modificados en **2004** ni texto consolidado integral vigente a **2026**. Composición del **Consejo Rector**, quórum y mayorías **NO CERTIFICADOS**.
+
+**Balance:** **164 preguntas** en OpoWeb2: **139** de temas **1–5 y 7–20**, y **25 provisionales** del tema 6. Temas y manuales continúan en estado **BORRADOR**.
+
+> ⚠️ **¡Foco Examen!:** **Titular de sede = OAPGT**, **gestión tecnológica = sistemas**, **gestión administrativa = órganos competentes**. La disposición adicional sobre instructores fue **añadida oficialmente en 2011**, aunque un acto de **2019** la sitúe erróneamente en **1996**.
