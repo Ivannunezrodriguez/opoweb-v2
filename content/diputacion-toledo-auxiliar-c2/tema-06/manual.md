@@ -164,3 +164,33 @@ El **BOP de Toledo n.º 92 (16/05/2023)** publicó el acuerdo del **Consejo Rect
 Esta fuente tiene más valor probatorio que una reproducción privada del boletín histórico, pero el hecho de que cite atribuciones estatutarias **en 2023** no certifica por sí solo su redacción en la fecha de examen de **2026**.
 
 > ⚠️ **¡Foco Examen!:** **Consejo Rector, Presidencia y Dirección** son órganos distintos. Una **delegación de competencias** tampoco implica necesariamente la pérdida de la titularidad de la competencia original; comprobar el alcance concreto del acuerdo y el régimen aplicable.
+
+
+---
+
+## 9. Avance documental y test provisional — **27/10/2026**
+
+**Estado inalterado: BORRADOR PARCIAL; NO APTO COMO TEMA COMPLETO DE EXAMEN.**
+
+La investigación pública de **27/10/2026** ha confirmado la existencia de una fuente institucional de publicación de los acuerdos laborales y de la sede del OAPGT. **No ha permitido localizar ni certificar el texto íntegro consolidado de los Estatutos**.
+
+| Documento institucional | Dato confirmado | Limitación de la prueba |
+|---|---|---|
+| [Transparencia Diputación](https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes) | Acuerdo Regulador original de **28/12/2023** y modificaciones de **14/01/2025**, **16/01/2026** y **20/02/2026** | La relación de publicaciones no equivale al articulado consolidado |
+| [Sede del OAPGT](https://sede.oapgt.es/Paginas/Normativa.aspx) | Acuerdo de creación de sede del **Consejo Rector** y Resolución **182/2017** sobre Registro Electrónico | No enumera íntegramente facultades, composición o régimen de adopción de acuerdos de los órganos |
+| [Noticia Diputación del **24/07/2015**](https://www.diputoledo.es/noticias_ampliada/1148) | Atribuye entonces la organización y alta dirección al **Consejo Rector** | **Fuente histórica**, sin validez como prueba de composición y competencias exhaustivas en **2026** |
+
+### 9.1. Banco provisional de preguntas
+
+Se añade `tema-06/preguntas.json` con **seis preguntas documentales**, sobre actividad institucional, publicación de los acuerdos laborales, sede y registro electrónicos y una referencia histórica fechada expresamente en **2015**.
+
+**Estas preguntas sirven exclusivamente para familiarización preliminar; NO acreditan que se haya estudiado el contenido estatutario requerido por la convocatoria.** Los supuestos de examen sobre **quórum, mayorías, nombramiento, composición y atribuciones de Presidencia, Consejo Rector, Dirección y otros órganos** no deben publicarse hasta contrastar la versión vigente y las modificaciones.
+
+> ⚠️ **¡Foco Examen!:** El **Consejo Rector** citado en documentos institucionales es diferente del **Pleno de la Diputación**. No atribuir automáticamente competencias estatutarias por analogía ni memorizar como vigente en **2026** la composición descrita en una nota de **2015**.
+
+### 9.2. Bloqueo pendiente
+
+1. Obtener la publicación definitiva e íntegra de los Estatutos del OAPGT y todas sus modificaciones, con BOP, fecha y número.
+2. Cotejar el Acuerdo Regulador de **2023** y las tres modificaciones oficiales de **2025–2026**, con especial atención a artículos alterados y fechas de efecto.
+3. Sustituir las preguntas históricas y documentales por casos sobre **competencias y condiciones de trabajo vigentes**, manteniendo referencias exactas a artículos y BOP.
+4. Solo tras esta tarea, someter el manual y el banco a una auditoría final y reconsiderar la etiqueta **BORRADOR**.
