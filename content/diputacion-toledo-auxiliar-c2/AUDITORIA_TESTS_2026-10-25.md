@@ -752,3 +752,26 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 > ⚠️ **¡Foco Examen!:** **Ley 1/2026 → 121.1 y DA 7.ª.6**; **Ley 2/2026 → 70.2.e**. Ninguna de ellas reformó directamente **101–108**. **Concurso** sigue siendo forma normal de provisión, y la nueva libre designación **no es general para todos los puestos**.
 
 **Balance acumulado del banco:** **159 preguntas**: **139** en temas **1–5 y 7–20** (incluye la nueva pregunta de tema 7), más **20 provisionales del tema 6**. Manuales **BORRADOR** hasta auditoría íntegra.
+
+
+---
+
+## 31. OAPGT: cotejo de órganos y competencias con BOP **2023–2026** — **27/10/2026**
+
+**Fuentes originales:** [BOP Toledo **92/2023**, 16/05/2023, anuncio 2824](https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023); [BOP **46/2026**, 10/03/2026, anuncio 999](https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026); [BOP **216/2025**, 11/11/2025, anuncio 5523](https://bop.diputoledo.es/webEbop/DocGet?id=25113534%3B0&insert_number=5523&insert_year=2025).
+
+| Órgano | Función documentada | Control de fiabilidad |
+|---|---|---|
+| **Consejo Rector** | Contratación en materias no atribuidas a otros órganos, posible delegación (**art. 10.k citado en 2023**) | Función específica citada; no constituye listado completo vigente |
+| **Presidencia** | Representación del OAPGT (**art. 12.1 citado en 2023**) | Los actos por delegación de representación deben indicarlo |
+| **Dirección** | Gestión y representación administrativa (**art. 14 y 14.d.17**), incluida representación en fiscalización y responsabilidad contable por delegación publicada | Delegación concreta **2023** |
+| **Consejo Rector**, a propuesta de **Presidencia** | Aceptación de delegaciones tributarias de municipios según informe reproducido en **BOP 46/2026** | Menciona **art. 12.2.m**, numeración que precisa contraste estatutario íntegro |
+| **Dirección General** | Calendario de días inhábiles del registro electrónico para **2026**, por atribuciones y habilitación | Resolución publicada en **2025**, no enumeración completa de competencias |
+
+**Cuestión editorial crítica:** una publicación de **2023** invoca **art. 10.k** para Consejo Rector y un informe municipal de **2026** cita **art. 12.2.m** al referirse a la aceptación por el Consejo. No inferir sistemáticamente qué dice la totalidad del art. 12 ni **corregir la cita de oficio** sin los Estatutos definitivos y todas las modificaciones.
+
+**Banco actualizado:** T06-021 a T06-023, tres cuestiones originales sobre contratación de Consejo Rector, efectos jurídicos de delegar representación en Dirección y aceptación de delegaciones municipales. **Tema 6: 23 preguntas provisionales; repositorio: 162 preguntas**, las **139** de otros temas y **23** del tema 6. Las 3 nuevas quedan expresamente referidas a los **actos publicados**, no a una certificación íntegra de Estatutos.
+
+> ⚠️ **¡Foco Examen!:** **Dirección** puede ejercer **representación por delegación** sin que desaparezca la titularidad del **órgano delegante**. En el caso de **Tembleque (2026)** la **aceptación de la delegación municipal** se atribuye al **Consejo Rector**, **a propuesta de Presidencia**. El **30/10** citado es un plazo de **convenio concreto** y no debe generalizarse a todas las delegaciones.
+
+**Pendiente bloqueante:** localizar la aprobación definitiva de la reforma de **2004** y la cadena de cambios posteriores a **2011**, para acreditar quórums, mayorías, composición y régimen de sesiones a fecha de **2026**. **Manual en BORRADOR NO CERTIFICADO**.
