@@ -697,10 +697,32 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 | **Donación de órganos/tejidos: actos preparatorios** | **Tiempo indispensable**, desde **03/03/2025** (art. **48.m**) | Puede no aparecer en textos locales anteriores |
 | **Vacaciones** | **22 días hábiles** (art. **50**) | No confundir con días naturales |
 
-**Nuevo hallazgo adicional:** el **art. 49.e TREBEP** fue modificado por la **Ley 4/2026, de 1 de octubre**, publicada el **03/10/2026**, con entrada en vigor señalada por el BOE para **23/10/2026**. Su literalidad debe auditarse por separado antes de escribir preguntas de permiso parental.
+**Nuevo hallazgo adicional:** el **art. 49.e TREBEP** fue modificado por la **Ley 4/2026, de 1 de octubre**, publicada el **03/10/2026**, con entrada en vigor señalada por el BOE para **23/10/2026**. **Corrección tras auditoría de 27/10/2026:** el **49.e** es reducción de jornada por cuidado de menor con cáncer u otra enfermedad grave, **NO** el permiso parental, que figura en **49.g**. Ver §29.
 
 **Cambios de test:** incorporadas **4 preguntas nuevas**, **T06-013–016**, de los arts. **48.a, 48.f y 49.a TREBEP**. Quedan **16 preguntas provisionales de tema 6** y **154 preguntas en total en OpoWeb2** (138 de los otros temas y 16 provisionales). La comparación normativa **no da por cerrados los Estatutos del OAPGT ni el manual completo**.
 
 > ⚠️ **¡Foco Examen!:** **5/4** días por **hospitalización** según grado frente a **3/5 y 2/4** por **fallecimiento** según grado y localidad. El permiso por nacimiento general es **19 semanas** según el TREBEP reformado, no **16** de la redacción autonómica antigua.
 
 **Estado final: BORRADOR PARCIAL, no certificado.**
+
+
+---
+
+## 29. Reforma TREBEP octubre de 2026: corrección **49.e frente a 49.g** — **27/10/2026**
+
+**Fuente primaria:** [Ley 4/2026, BOE-A-2026-20528](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528), **disposición final undécima**, publicada el **03/10/2026**, en vigor desde **23/10/2026**; [TREBEP actualizado, art. 49](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719).
+
+**Fe de erratas editorial:** en el apartado 13.2 del manual se había identificado erróneamente el **49.e** como «permiso parental». **CORREGIDO EN ORIGEN** y documentado en nueva sección 14 del manual.
+
+| Norma | Objeto correcto | Datos determinantes |
+|---|---|---|
+| **49.e TREBEP**, reformado por **Ley 4/2026** | Reducción de jornada para cuidado de persona con **cáncer u otra enfermedad grave** | Regla ordinaria de **al menos media jornada**, edades generales **23** y **26 años** bajo condiciones; **prórroga excepcional** por **gran discapacidad o gran dependencia** más allá de límites de edad con acreditación de cuidados directos, continuos, permanentes y convivencia |
+| **Nuevo párrafo del 49.e** | Reducción simultánea compartida | Hasta **100 % conjunto** entre dos progenitores o figuras asimiladas, en supuestos excepcionales de asistencia intensa, sin implicar doble remuneración íntegra automática |
+| **49.g TREBEP**, reformado por **RDL 9/2025**, no por Ley 4/2026 | Permiso parental | **Hasta 8 semanas**, **no retribuido**, hasta que el menor cumpla **8 años**, derecho individual e intransferible y **15 días** de preaviso en los términos del precepto |
+| **49.a–c TREBEP** | Permisos por nacimiento, adopción o progenitor diferente | **19 semanas** en régimen general, incluyendo **2 semanas** disfrutables hasta **8 años** bajo las reglas de esos permisos; **no equivalentes** al 49.g |
+
+**Preguntas incorporadas:** T06-017, T06-018, T06-019 y T06-020 sobre identificación del precepto modificado, requisitos de prolongación, máximo compartido **100 %** y diferencia con el permiso parental de **8 semanas**. Revisión documental con cita específica del BOE.
+
+> ⚠️ **¡Foco Examen!:** La **Ley 4/2026** añadió **dos párrafos al 49.e**, **no al 49.g**. **100 % de reducción es máximo conjunto**, no de cada progenitor. **8 semanas no retribuidas** del permiso parental no deben confundirse con las **2 semanas** adicionales del nacimiento.
+
+**Balance de repositorio:** **158 preguntas disponibles** (138 auditadas documentalmente en temas **1–5, 7–20** y **20 provisionales** del **tema 6**). El tema 6 y todos los manuales siguen en **BORRADOR**; la cobertura de preguntas no implica certificación del programa.
