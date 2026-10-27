@@ -625,3 +625,21 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 > ⚠️ **¡Foco Examen!:** Un documento que cita los **Estatutos de 2004** no debe prevalecer sobre una **modificación oficial expresa de 2011** en el mismo precepto. Diferenciar la fecha de aprobación (**28/11/2011**) de publicación (**14/12/2011**).
 
 **Pendiente crítico:** comprobar aprobación definitiva en **2004**, identificar reformas posteriores a **2011**, integrar el **Acuerdo Regulador** y modificaciones hasta **2026**. El estado del tema 6 sigue **BORRADOR, NO CERTIFICADO**; el hallazgo no acredita una consolidación estatutaria completa.
+
+
+---
+
+## 26. Acuerdo Regulador Diputación: cifras y modificaciones 2025–2026 — **27/10/2026**
+
+**Fuentes oficiales:**
+- [BOP Toledo n.º **8**, 14/01/2025, anuncio **223**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=8&insert_year=2025&publication_date=14012025): actualización económica con efectos **01/01/2025**; guardia presencial de Técnicos Superiores **24,64 €/hora** en 2025.
+- [BOP Toledo n.º **10**, 16/01/2026, anuncio **228**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026): nueva tabla anual de grados; conceptos especiales del artículo **18.III** y Fondo de Acción Social del artículo **28**, efectos económicos y administrativos declarados **01/01/2026**.
+- [BOP Toledo n.º **34**, 20/02/2026, anuncio **821**](https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026): complemento que fija **nocturnidad especial: 97,45 €**.
+
+**Datos test contrastados de la modificación de enero de 2026 (subgrupo C2):** grados I–IV **712,08 € / 1.151,40 € / 1.655,76 € / 2.457,24 € anuales**; guardia de localización del C2 **212,30 €**; guardia de presencia física de Técnicos Superiores **28,64 €/hora**; Fondo de Acción Social **292.790,00 €**. El anuncio modifica el artículo **18.III.d**, añade **18.III.g** y revisa importes del artículo **28**.
+
+**Cambios del banco del tema 6:** T06-002 ahora pregunta por importe anual **C2, grado I: 712,08 €** y T06-003 por **nocturnidad especial: 97,45 €**, con referencias al anuncio y distinción de cuantías próximas. Se conservan **seis preguntas provisionales** en total (144 en la colección).
+
+> ⚠️ **¡Foco Examen!:** **2025: 24,64 €/hora** de guardia presencial de Técnicos Superiores; **2026: 28,64 €/hora**. **Nocturnidad ordinaria C2/AP: 29,30 €**, **nocturnidad especial: 97,45 €**. No confundir el **Fondo de Acción Social**, cuantía global **292.790,00 €**, con ayuda individual.
+
+**Límites:** no se ha reconstruido el articulado íntegro del Acuerdo de 2023 ni verificado exhaustivamente la ausencia de modificaciones posteriores; tampoco los Estatutos completos del OAPGT. El tema mantiene **BORRADOR**, y las 6 preguntas siguen siendo **PROVISIONALES**.
