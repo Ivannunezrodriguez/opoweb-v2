@@ -1199,3 +1199,24 @@ Responder sin consultar:
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 6 aprobado»** el 17 de julio de 2026.
+
+---
+
+## Actualización normativa de **2026**: provisión por libre designación en Castilla-La Mancha — **27/10/2026**
+
+**Referencia:** [Ley 2/2026, de 9 de abril (DOCM-q-2026-90086)](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086), **disposición final tercera**, que añade una **letra e)** al artículo **70.2** de la [Ley 4/2011](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752). Publicada en **DOCM de 16/04/2026** y vigente desde **06/05/2026**.
+
+La nueva letra **70.2.e** incluye en el ámbito del personal estatutario adscrito al **Servicio de Salud de Castilla-La Mancha** los puestos que determine la **Ley 55/2003, de 16 de diciembre, del Estatuto Marco del personal estatutario de los servicios de salud**, y su normativa de desarrollo, entre los susceptibles de provisión por **libre designación**.
+
+| Concepto | Regla |
+|---|---|
+| **Concurso** | Procedimiento **normal** de provisión de puestos del personal funcionario de carrera: **art. 67.2** |
+| **Libre designación con convocatoria pública** | Valoración discrecional de la idoneidad respecto a requisitos; requiere que la modalidad esté prevista para el puesto: **art. 70** |
+| **Cambio 2026** | Nueva **letra e)** del **art. 70.2** para determinados puestos del **personal estatutario del SESCAM** |
+| **Publicación** | Convocatorias y resoluciones de libre designación se publican en el diario o boletín oficial correspondiente: **art. 70.3** |
+
+> ⚠️ **¡Foco Examen!:** La **Ley 2/2026** no convierte en libre designación todos los puestos del SESCAM, ni sustituye el **concurso como procedimiento normal** del art. **67.2**. Amplía los supuestos posibles del **art. 70.2**.
+
+**Control de fuentes:** el texto consolidado de la **Ley 4/2011** en el BOE sigue integrando modificaciones publicadas solo hasta **21/03/2024**, aunque la ficha de análisis identifica esta reforma de **2026**. Debe consultarse el texto de la ley modificativa para responder sobre el **art. 70.2.e**.
+
+**Estado:** actualización parcial de un precepto; **no certifica la totalidad del manual del tema 7**.
