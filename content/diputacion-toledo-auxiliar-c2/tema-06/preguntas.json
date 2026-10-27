@@ -2,7 +2,7 @@
   "tema": 6,
   "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
   "version": "2026-10-27",
-  "criterio": "Banco provisional de 20 preguntas; cuatro nuevas confrontan art. 49.e y 49.g TREBEP y reforma Ley 4/2026. El acuerdo regulador y Estatutos OAPGT no están certificados íntegramente.",
+  "criterio": "23 preguntas provisionales con referencias documentales; nuevas preguntas 21-23 sobre Consejo Rector, representación por delegación y aceptación de delegaciones (BOP 2023/2026). Tema completo no certificado.",
   "preguntas": [
     {
       "id": "DT-C2-T06-001",
@@ -283,6 +283,48 @@
       "justificacion": "El **art. 49.g TREBEP**, modificado por el **RDL 9/2025**, establece un permiso parental de duración **no superior a 8 semanas**, **sin carácter retribuido**, para cuidado de hijo, hija o menor acogido por tiempo superior a un año, hasta que cumpla **8 años**. Es un derecho **individual y no transferible**.",
       "trampaExamen": "**Ocho semanas no retribuidas (49.g)** no son las **dos semanas adicionales** del permiso por nacimiento del **49.a–c**, ni la reducción de jornada **49.e**.",
       "referencia": "TREBEP art. 49.g, texto consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-021",
+      "enunciado": "En el acuerdo del Consejo Rector publicado en el BOP Toledo 92/2023, ¿qué artículo estatutario se invoca para la contratación de obras y servicios cuando la competencia no esté atribuida a otros órganos?",
+      "opciones": [
+        "Artículo 8 bis",
+        "Artículo 14.d.1",
+        "Artículo 10.k",
+        "Artículo 1.2"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El acuerdo del **Consejo Rector de 11/05/2023**, publicado en el **BOP n.º 92 de 16/05/2023**, reproduce la función de contratación atribuida al **Consejo Rector** por el **art. 10.k** de los Estatutos cuando no corresponda a otros órganos; admite delegación del ejercicio, total o parcial.",
+      "trampaExamen": "Distinguir contratación del **Consejo Rector** frente a las facultades de **Presidencia** y **Dirección**; el anuncio es evidencia de esa atribución concreta, no una tabla completa y consolidada.",
+      "referencia": "BOP Toledo 92/2023, acuerdo Consejo Rector sobre contratación · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023"
+    },
+    {
+      "id": "DT-C2-T06-022",
+      "enunciado": "Según el decreto de representación publicado en el BOP Toledo 92/2023, ¿cómo se consideran los actos dictados por el Director del OAPGT en ejercicio de competencias delegadas?",
+      "opciones": [
+        "Dictados por el órgano delegante, indicando expresamente la delegación y sus datos de publicación",
+        "Dictados exclusivamente por el órgano delegado sin mencionar la delegación",
+        "Nulos de pleno derecho aunque exista delegación",
+        "Convertidos automáticamente en actos del Pleno de la Diputación"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El decreto publicado en **BOP 92/2023** delega en la **Dirección** actuaciones de representación relacionadas con fiscalización económico-financiera y responsabilidad contable; exige mencionar la **delegación, fecha y publicación**, y considera los actos dictados por el **órgano delegante**.",
+      "trampaExamen": "**Delegación del ejercicio** no significa transferencia de titularidad; el acto se entiende dictado por el **delegante**.",
+      "referencia": "BOP Toledo 92/2023, decreto de delegación de representación · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023"
+    },
+    {
+      "id": "DT-C2-T06-023",
+      "enunciado": "En la propuesta relativa a Tembleque publicada en el BOP Toledo 46/2026, ¿qué órgano aparece como competente para aceptar delegaciones de entidades locales y a propuesta de quién?",
+      "opciones": [
+        "La Dirección General, por iniciativa exclusiva del Ayuntamiento",
+        "El Pleno del Congreso, a propuesta del Gobierno",
+        "La Intervención provincial, a propuesta de la Tesorería",
+        "El Consejo Rector, a propuesta de la Presidencia del OAPGT"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El informe del OAPGT reproducido en el anuncio municipal del **BOP 46/2026** atribuye la aceptación de delegaciones al **Consejo Rector**, **a propuesta de la Presidencia**. Cita el **art. 12.2.m**: su numeración requiere cotejo con el Estatuto íntegro antes de construir una tabla general.",
+      "trampaExamen": "**La propuesta corresponde a Presidencia**; la **aceptación, al Consejo Rector** en ese expediente. No atribuir al Director la decisión de aceptación.",
+      "referencia": "BOP Toledo 46/2026, anuncio Ayuntamiento Tembleque · https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026"
     }
   ],
   "auditoria": {
@@ -298,7 +340,9 @@
       "https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026",
       "https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf",
       "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
-      "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528"
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026"
     ],
     "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
     "pendiente": [
@@ -306,7 +350,7 @@
       "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
       "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
     ],
-    "observacion": "27/10/2026: corregida confusión jurídica entre art. 49.e (reducción jornada por enfermedad grave, Ley 4/2026) y 49.g (permiso parental de hasta ocho semanas, no retribuido). Añadidas T06-017 a T06-020.",
-    "preguntasRevisadas": 20
+    "observacion": "27/10/2026: tres cuestiones nuevas basadas en BOP 92/2023 y 46/2026; pendientes composición y quórums, así como texto consolidado de Estatutos.",
+    "preguntasRevisadas": 23
   }
 }
