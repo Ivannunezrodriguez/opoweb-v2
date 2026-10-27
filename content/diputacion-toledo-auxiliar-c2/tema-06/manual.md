@@ -608,3 +608,57 @@ Asimismo, en el anuncio de aprobación inicial de reforma del **23/12/2004** se 
 | Acuerdo Regulador íntegramente consolidado | **PENDIENTE** |
 
 **El tema 6 continúa BORRADOR PARCIAL, NO CERTIFICADO.**
+
+
+---
+
+## 17. Revisión de la cadena histórica: sede electrónica **2015–2017** y disposición adicional sancionadora **2011–2019** — **27/10/2026**
+
+**Estado:** contrastados actos **oficiales**, no los Estatutos completos y definitivamente consolidados. **No concluir** composición, quórum ni mayorías del Consejo Rector desde estas publicaciones aisladas.
+
+### 17.1. Acuerdo del Consejo Rector de **22/11/2017**, BOP de **27/11/2017**
+
+Fuente original: [**BOP de Toledo n.º 225, 27/11/2017, anuncio 5876**](https://bop.diputoledo.es/webEbop/DocGet?id=17110192%3B0&insert_number=5876&insert_year=2017).
+
+| Apartado del acuerdo publicado | Regla publicada | Distinción para examen |
+|---|---|---|
+| **Primero** | Crea la **Sede Electrónica del OAPGT** | Acto del **Consejo Rector** |
+| **Segundo** | Titularidad de la sede: **OAPGT** | No asignar la titularidad a un proveedor tecnológico |
+| **Tercero** | Dirección: **https://sede.oapgt.es** | Dirección oficialmente publicada en **2017** |
+| **Cuarto** | Gestión de la sede: **cada órgano del OAPGT**, dentro de su competencia estatutaria | No presumir que **Dirección** gestiona todos los procedimientos |
+| **Quinto** | Gestión **tecnológica**: unidad administrativa responsable de los **sistemas de información y comunicación** | No confundir **gestión jurídica de contenidos** y **gestión tecnológica** |
+| **Séptimo** | Responsabilidad de gestión, contenidos y servicios: órganos competentes según Estatutos | Responsabilidad vinculada a competencia atribuida |
+| **Octavo** | Se habilita al **Director** a dictar resoluciones e instrucciones de **desarrollo y aplicación** del acuerdo | Habilitación específica, no transferencia general de todas las competencias |
+| **Noveno** | Revoca el acuerdo del **Consejo Rector de 10/04/2015** titulado «Creación de la Sede Electrónica del OAPGT» | **2015 revocado** por acuerdo de **2017** |
+
+**Límite:** la publicación acredita el régimen de sede acordado en **2017**, pero no prueba que no haya posteriores acuerdos específicos en **2026**. Tampoco equivale al texto completo de los Estatutos.
+
+> ⚠️ **¡Foco Examen!:** **Titular de la sede: OAPGT**; **gestión administrativa: órganos con competencia**; **gestión tecnológica: unidad de sistemas**. El acuerdo de **2017** **revoca** el de **2015**. El **Director** está habilitado para desarrollar el acuerdo, pero eso no le atribuye toda competencia sustantiva.
+
+### 17.2. Instrucción de expedientes sancionadores: advertencia sobre la genealogía
+
+**Fuente modificativa normativa:** [**BOP Toledo 284, 14/12/2011**, anuncio 11024](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011), ordinal **quinto**: **añade** una disposición adicional de los Estatutos con el siguiente contenido sustantivo:
+
+- Instructores de procedimientos sancionadores: **titulares de puestos de trabajo o unidades administrativas** a los que corresponda tramitar, conforme al **organigrama aprobado por el Consejo Rector**.
+- La **Presidencia del OAPGT** publica en el **BOP de Toledo** la identidad del titular del órgano instructor.
+
+**Aplicación práctica posterior:** [**BOP Toledo 188, 03/10/2019, p. 2**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=188&insert_year=2019&publication_date=03102019), anuncio **5164**, sobre nombramiento de instructora de procedimientos sancionadores en materia de tráfico. **La publicación atribuye erróneamente esta disposición a los Estatutos aprobados en 1996**, pese a que el anuncio normativo de **2011** señala expresamente que se **añade**.
+
+**Resolución editorial de la discrepancia:** para estudiar la **fecha de incorporación de la disposición adicional**, debe utilizarse la **publicación modificativa de 2011** como fuente primaria que contiene el acto de adición. El anuncio de **2019** sirve para demostrar su **aplicación práctica** en ese año, **no para datarla en 1996**.
+
+| Pregunta | Fuente preferente | Resultado |
+|---|---|---|
+| ¿Qué publicación añade la disposición adicional? | **BOP 284/2011**, ordinal **quinto** | **14/12/2011** |
+| ¿Quién aprueba el organigrama para determinar instructores? | Disposición adicional publicada en **2011** | **Consejo Rector** |
+| ¿Quién publica la identidad del titular instructor? | Disposición adicional publicada en **2011** | **Presidencia del OAPGT** |
+| ¿Consta aplicación en un expediente real? | **BOP 188/2019**, anuncio **5164** | **Sí**, con atribución histórica defectuosa |
+
+> ⚠️ **¡Foco Examen!:** El **Consejo Rector aprueba el organigrama** y la **Presidencia publica la identidad del instructor**. **2011** es la incorporación publicada de la disposición adicional; no memorizar **1996** a partir de la referencia histórica imprecisa de un anuncio de **2019**.
+
+### 17.3. Publicación definitiva de **2004** y Estatutos consolidados en **2026**
+
+Continúa sin acreditarse en esta fase la publicación **definitiva** de la reforma **inicialmente aprobada el 21/12/2004** y anunciada el **23/12/2004**. El contenido de esa aprobación inicial **no se presenta como texto definitivamente vigente**.
+
+**Pendiente de resolución documental**: aprobación definitiva de 2004, inventario de modificaciones estatutarias posteriores a 2011, redacción completa consolidada, composición de órganos, convocatoria y sesiones, quórums y mayorías. **No generar preguntas que afirmen estos extremos como vigentes sin documento oficial de respaldo.**
+
+**Estado editorial: BORRADOR PARCIAL, no certificado.**
