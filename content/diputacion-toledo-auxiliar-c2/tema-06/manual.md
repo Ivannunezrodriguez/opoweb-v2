@@ -441,7 +441,7 @@ El **artículo 49 TREBEP**, reformado por el **Real Decreto-ley 9/2025, de 29 de
 - En el régimen general de la madre biológica: **6 semanas** inmediatamente posteriores al parto, **obligatorias**; **11 semanas** en períodos semanales hasta los **12 meses** del menor; **2 semanas** adicionales en períodos semanales hasta los **8 años** del menor.
 - Para las **2 semanas** adicionales hasta los **8 años**, tener presente la **disposición transitoria única del Real Decreto-ley 9/2025**, sobre hechos causantes anteriores y solicitud.
 - Los supuestos de **adopción, guarda, acogimiento y progenitor distinto de la madre** están regulados por sus correspondientes apartados del **artículo 49**: deben estudiarse sus condiciones específicas, sin asumir que cada supuesto comparte todos los mismos requisitos de distribución.
-- El **artículo 49.e**, sobre permiso parental, ha sido modificado de nuevo por **Ley 4/2026, de 1 de octubre**, publicada el **03/10/2026**, con efectos de entrada en vigor señalados en la consolidación a partir de **23/10/2026**. **No usar el texto previo a esa reforma en preguntas de octubre de 2026**.
+- **CORRECCIÓN DE REFERENCIA:** la **Ley 4/2026, de 1 de octubre** modifica el **art. 49.e TREBEP**, relativo a **reducción de jornada por cuidado de hijo o persona acogida con cáncer u otra enfermedad grave**; **no** modifica el permiso parental de **hasta 8 semanas**, que está en el **art. 49.g**. Publicación: **03/10/2026**; entrada en vigor: **23/10/2026**. Véase §14.
 
 ### 13.3. Conflicto documental que debe explicarse en clase
 
@@ -461,6 +461,49 @@ El **artículo 49 TREBEP**, reformado por el **Real Decreto-ley 9/2025, de 29 de
 1. Verificar en **DOCM** las reformas autonómicas de **2026** y su incidencia exacta en **arts. 101–108** de la **Ley 4/2011**, dado el aviso de actualización pendiente en BOE.
 2. Auditar permisos no comparados del **art. 20** del Acuerdo de **2023** y reglas particulares del personal laboral frente al funcionario.
 3. Revisar eventuales modificaciones posteriores del Acuerdo Regulador y el régimen transitorio de la reforma estatal de **2025**.
-4. Realizar una revisión separada del nuevo **art. 49.e TREBEP** antes de producir preguntas de literalidad de permiso parental.
+4. Revisar separadamente **art. 49.e** (cuidado de menor con cáncer u otra enfermedad grave, reformado en **2026**) y **art. 49.g** (permiso parental de **hasta ocho semanas**, reformado en **2025**); ver §14.
 
 **Resultado de esta fase: auditoría parcial de compatibilidad y alertas de obsolescencia. El tema 6 sigue siendo BORRADOR, no se declara plenamente certificado.**
+
+
+---
+
+## 14. Reforma del **23/10/2026**: cuidado de menores con enfermedad grave y permiso parental
+
+**Fuente oficial:** [Ley 4/2026, de 1 de octubre, BOE-A-2026-20528](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528), **disposición final undécima**, publicada por el **BOE el 03/10/2026** y en vigor desde el **23/10/2026**. El [TREBEP, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719), distingue los apartados **49.e** y **49.g**.
+
+### 14.1. Distinción que no debe confundirse
+
+| Materia | **Artículo 49.e TREBEP** | **Artículo 49.g TREBEP** |
+|---|---|---|
+| Objeto | **Reducción de jornada** para cuidado de hijo o persona acogida con **cáncer u otra enfermedad grave** | **Permiso parental** para cuidado de hijo, hija o menor acogido por tiempo superior a **un año** |
+| Edad general | Hasta **23 años**, con posible continuidad hasta **26 años** por discapacidad **igual o superior al 65 %** en las condiciones legales | Hasta que el menor cumpla **8 años** |
+| Duración / intensidad | **Reducción de al menos la mitad de la jornada** con las condiciones del precepto | Hasta **8 semanas**, continuas o discontinuas |
+| Retribución | **Retribuciones íntegras**, condicionadas especialmente a la percepción de la otra persona beneficiaria en los términos del artículo | **No retribuido** conforme al texto del TREBEP |
+| Cambio de octubre de 2026 | **Sí: Ley 4/2026, disposición final undécima** | **No: el apartado g fue reformado por RDL 9/2025**, no por la Ley 4/2026 |
+| Aviso / simultaneidad | Aplican requisitos de acreditación y límites específicos; nueva excepción en casos de asistencia intensa | Comunicación con **15 días** de antelación, períodos de **semanas completas** y posible aplazamiento motivado por la Administración |
+
+> ⚠️ **¡Foco Examen!:** **49.e = reducción de jornada por enfermedad grave**; **49.g = permiso parental de hasta 8 semanas no retribuidas**. Que ambos preceptos se encuentren en el **artículo 49** no los convierte en el mismo permiso.
+
+### 14.2. Cambios expresos añadidos al artículo **49.e** por la **Ley 4/2026**
+
+**Primera novedad: prórroga excepcional más allá de los límites de edad.** Si la persona a cargo se encuentra en situación de **gran discapacidad o gran dependencia**, necesita cuidados **directos, continuos y permanentes**, y persisten la necesidad acreditada y la **convivencia**, la reducción de jornada puede prolongarse **más allá de los límites de edad** establecidos con carácter general.
+
+**Segunda novedad: reparto de la reducción entre ambos progenitores.** En esos supuestos de especial intensidad asistencial se permite, **excepcionalmente**, compartir simultáneamente el porcentaje de reducción entre **ambos progenitores, adoptantes, guardadores con fines de adopción o acogedores permanentes**, hasta un máximo **conjunto del 100 %** entre los dos, proporcionalmente al tiempo asumido por cada uno y con independencia de su estado civil.
+
+**Precisión jurídica:** este nuevo reparto **no equivale** a que ambos perciban automáticamente retribuciones íntegras; permanece el régimen de compatibilidad y abono previsto en los párrafos anteriores del **art. 49.e**. Además, si ambos prestan servicios en el mismo órgano o entidad, este puede limitar el ejercicio simultáneo por razones fundadas en el correcto funcionamiento del servicio.
+
+### 14.3. Permiso parental del artículo **49.g**: régimen distinto
+
+- Para cuidado de hijo, hija o menor acogido durante **más de un año**, hasta cumplir **8 años**.
+- Duración **no superior a 8 semanas**, continuas o discontinuas; **sin carácter retribuido**.
+- Derecho **individual** de progenitores, adoptantes o acogedores, **no transferible**.
+- Disfrute a tiempo completo o parcial **si las necesidades del servicio lo permiten**, según su régimen reglamentario.
+- Comunicación a la Administración con **15 días** de antelación, por **semanas completas**.
+- La Administración puede aplazar motivadamente el período solicitado cuando concurren las condiciones legales y se altera seriamente el funcionamiento de la unidad.
+
+Las **2 semanas adicionales** de los permisos por nacimiento/adopción del **art. 49.a–c** que pueden disfrutarse hasta los **8 años** forman parte de **otro régimen**: no convertirlas en un cambio del permiso parental del **49.g**.
+
+> ⚠️ **¡Foco Examen!:** **8 semanas no retribuidas** (permiso parental, **49.g**) no son las **2 semanas** adicionales del permiso por nacimiento (art. **49.a–c**), ni la reducción de jornada con retribuciones conforme a condiciones del **49.e**. Tampoco convertir el nuevo **100 %** de reducción **conjunta** entre progenitores en una supuesta retribución íntegra doble.
+
+**Estado editorial:** contraste de los **arts. 49.e y 49.g** y de la **disposición final undécima de la Ley 4/2026** completado para esta cuestión; sigue pendiente la consolidación total de la normativa autonómica y de los Estatutos del OAPGT. **Tema 6: BORRADOR NO CERTIFICADO.**
