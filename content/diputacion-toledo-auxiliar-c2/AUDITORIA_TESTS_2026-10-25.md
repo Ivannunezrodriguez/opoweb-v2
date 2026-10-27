@@ -726,3 +726,29 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 > ⚠️ **¡Foco Examen!:** La **Ley 4/2026** añadió **dos párrafos al 49.e**, **no al 49.g**. **100 % de reducción es máximo conjunto**, no de cada progenitor. **8 semanas no retribuidas** del permiso parental no deben confundirse con las **2 semanas** adicionales del nacimiento.
 
 **Balance de repositorio:** **158 preguntas disponibles** (138 auditadas documentalmente en temas **1–5, 7–20** y **20 provisionales** del **tema 6**). El tema 6 y todos los manuales siguen en **BORRADOR**; la cobertura de preguntas no implica certificación del programa.
+
+
+---
+
+## 30. Ley 4/2011 CLM: delimitación real de reformas de **2026** — **27/10/2026**
+
+**Fuentes oficiales consultadas:** [ficha BOE de Ley 4/2011](https://www.boe.es/eli/es-cm/l/2011/03/10/4); [Ley 1/2026, de 26/03, DOCM 61 de 30/03/2026](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065); y [Ley 2/2026, de 09/04, DOCM de 16/04/2026](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086).
+
+| Norma modificativa | Artículos de la **Ley 4/2011** afectados | Materia |
+|---|---|---|
+| **Ley 1/2026**, art. **16** | **121.1** | Excedencia voluntaria por prestación de servicios en el sector público |
+| **Ley 1/2026**, art. **16** | **Disposición adicional 7.ª.6** | Abono de determinados complementos mientras se mantiene relación de servicios con JCCM o entes vinculados |
+| **Ley 2/2026**, disposición final **3.ª** | **70.2**, nueva letra **e)** | Libre designación en determinados puestos de personal estatutario del **SESCAM** por referencia a **Ley 55/2003** y desarrollo |
+
+**Conclusión verificable:** estas reformas **no modifican directamente** los **arts. 101–108** de la Ley 4/2011, aunque esos preceptos **no pueden enseñarse aisladamente como derechos de 2026** sin confrontarlos con las reformas del **TREBEP**.
+
+**Aviso de fuente:** la versión consolidada en BOE informa de **última actualización integrada de 21/03/2024** y de «última actualización en proceso». Para las modificaciones de **2026** se consultan sus publicaciones autónomas. No presentar la página consolidada desactualizada como reproducción literal íntegramente vigente.
+
+**Cambios de repositorio:**
+- **Tema 6 manual**, nueva sección **15**: matriz de reforma con separación de empleo público, permisos y legislación básica estatal.
+- **Tema 7 manual**, bloque adicional sobre **art. 70.2.e Ley 4/2011**, sin alterar el carácter normal del **concurso** (art. 67.2).
+- **Tema 7 preguntas.json**, nueva **T07-007** sobre la reforma de libre designación.
+
+> ⚠️ **¡Foco Examen!:** **Ley 1/2026 → 121.1 y DA 7.ª.6**; **Ley 2/2026 → 70.2.e**. Ninguna de ellas reformó directamente **101–108**. **Concurso** sigue siendo forma normal de provisión, y la nueva libre designación **no es general para todos los puestos**.
+
+**Balance acumulado del banco:** **159 preguntas**: **139** en temas **1–5 y 7–20** (incluye la nueva pregunta de tema 7), más **20 provisionales del tema 6**. Manuales **BORRADOR** hasta auditoría íntegra.
