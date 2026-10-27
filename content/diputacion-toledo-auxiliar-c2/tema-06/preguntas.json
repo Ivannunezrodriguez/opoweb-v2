@@ -2,7 +2,7 @@
   "tema": 6,
   "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
   "version": "2026-10-27",
-  "criterio": "Banco PROVISIONAL con doce preguntas: seis iniciales (artículos del OAPGT modificados en 2011, cuantías 2026, normativa de sede) y seis del Acuerdo Regulador literal 2023 sobre jornada/vacaciones/permisos/vigencia. No equivale a un texto consolidado ni a la auditoría integral del tema 6.",
+  "criterio": "DIECISÉIS preguntas provisionales: doce con fuentes del Acuerdo Regulador, OAPGT y reformas oficiales; cuatro comparadas con TREBEP vigente 2026. No se certifican los Estatutos consolidados ni el acuerdo íntegro, ni la aplicabilidad de todo el régimen de permisos al personal laboral.",
   "preguntas": [
     {
       "id": "DT-C2-T06-001",
@@ -171,6 +171,62 @@
       "justificacion": "El art. 3 establece entrada en vigor el **01/01/2024** y fin de vigencia el **31/12/2027**, con **prórroga automática** hasta aprobar nuevo acuerdo.",
       "trampaExamen": "No confundir **fecha de publicación 28/12/2023** con **vigencia desde 01/01/2024** ni con el **fin 31/12/2027**.",
       "referencia": "BOP Toledo 246/2023, art. 3, p. 2 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-013",
+      "enunciado": "Según el artículo 48.a del TREBEP en su redacción vigente en octubre de 2026, ¿cuánto dura el permiso por hospitalización de un familiar de segundo grado?",
+      "opciones": [
+        "Dos días naturales",
+        "Cuatro días hábiles",
+        "Cinco días naturales",
+        "Tres días hábiles"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **artículo 48.a TREBEP** establece **4 días hábiles** para accidente o enfermedad graves, hospitalización o intervención quirúrgica sin hospitalización que precise reposo domiciliario de familiar de **segundo grado**. Para cónyuge, pareja, primer grado y conviviente que necesite cuidado efectivo, **5 días hábiles**.",
+      "trampaExamen": "**Hospitalización: 5/4 días hábiles**, según vínculo. No mezclar con **fallecimiento: 3/5 o 2/4 días** según parentesco y localidad.",
+      "referencia": "TREBEP art. 48.a, BOE consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-014",
+      "enunciado": "Un funcionario necesita permiso por fallecimiento de un familiar de segundo grado en distinta localidad. ¿Cuántos días hábiles le atribuye el artículo 48.a del TREBEP?",
+      "opciones": [
+        "Dos",
+        "Tres",
+        "Cuatro",
+        "Cinco"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Por **fallecimiento de familiar de segundo grado**, el art. **48.a TREBEP** distingue **2 días hábiles** en la misma localidad y **4 días hábiles** en distinta localidad.",
+      "trampaExamen": "En **fallecimiento**, importa la **localidad**; en **hospitalización**, el art. 48.a no establece esas duraciones por lugar del hecho causante.",
+      "referencia": "TREBEP art. 48.a, BOE consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-015",
+      "enunciado": "¿Qué duración general establece el artículo 49.a TREBEP actualizado para el permiso por nacimiento de la madre biológica?",
+      "opciones": [
+        "Diecinueve semanas",
+        "Dieciséis semanas",
+        "Doce semanas",
+        "Treinta y dos semanas en todos los casos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El **art. 49.a TREBEP** reconoce **19 semanas** en régimen general y **32 semanas** si existe **una única persona progenitora**. El texto autonómico antiguo de **16 semanas**, todavía visible en la consolidación BOE de la Ley 4/2011, **no sirve como respuesta general vigente en 2026**. Considerar transitoriedad para hechos causantes anteriores.",
+      "trampaExamen": "**19 semanas generales**, **32 monoparentalidad**. **16 semanas** pertenece a textos anteriores y no es la regla general actual.",
+      "referencia": "TREBEP art. 49.a, BOE consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-016",
+      "enunciado": "De acuerdo con el artículo 48.f TREBEP, el permiso por lactancia de menor de doce meses es...",
+      "opciones": [
+        "Exclusivo de la madre y transferible al padre",
+        "Un derecho que solo puede acumularse si no existe pareja",
+        "Un permiso limitado a quince días naturales",
+        "Un derecho individual no transferible, con una hora de ausencia que puede dividirse en dos fracciones"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El **art. 48.f TREBEP** reconoce **una hora** de ausencia por lactancia de menor de **12 meses**, divisible en **dos fracciones**, configurándolo como derecho **individual y no transferible**. Previene reducción de jornada o acumulación según sus condiciones.",
+      "trampaExamen": "La redacción antigua de **Ley 4/2011 CLM art. 107.g** incluye criterios ligados a la madre; en el **TREBEP vigente** es un **derecho individual no transferible**.",
+      "referencia": "TREBEP art. 48.f, BOE consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
     }
   ],
   "auditoria": {
@@ -184,7 +240,8 @@
       "https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
       "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026",
       "https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026",
-      "https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+      "https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
     ],
     "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
     "pendiente": [
@@ -192,7 +249,7 @@
       "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
       "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
     ],
-    "observacion": "27/10/2026: añadidas seis preguntas T06-007 a T06-012 con referencias al BOP 246/2023 y sin eliminar advertencia de vigencia pendiente.",
-    "preguntasRevisadas": 12
+    "observacion": "27/10/2026: añadidas T06-013 a T06-016 del TREBEP 2026 sobre hospitalización, fallecimiento, nacimiento y lactancia; se advierte expresamente de redacciones autonómicas antiguas.",
+    "preguntasRevisadas": 16
   }
 }
