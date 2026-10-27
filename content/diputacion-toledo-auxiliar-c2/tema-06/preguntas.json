@@ -2,21 +2,21 @@
   "tema": 6,
   "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
   "version": "2026-10-27",
-  "criterio": "SEIS preguntas provisionales y documentales basadas en fuentes institucionales verificables. NO sustituyen la preparación de los Estatutos íntegros vigentes ni del Acuerdo Regulador consolidado. La pregunta 6 es histórica, expresamente fechada en 2015. NO es un banco final apto para considerar el tema completo.",
+  "criterio": "Seis preguntas provisionales: dos tienen fundamento literal en modificación estatutaria oficial BOP 284/2011; cuatro en otras fuentes institucionales. NO se acredita todavía texto consolidado de 2026 ni Acuerdo Regulador íntegro. Entrenamiento preliminar, NO certificación del tema.",
   "preguntas": [
     {
       "id": "DT-C2-T06-001",
-      "enunciado": "¿Qué organismo de la Diputación de Toledo presta servicios de gestión y recaudación tributaria a municipios de la provincia?",
+      "enunciado": "Según la modificación oficial de los Estatutos del OAPGT publicada en el BOP de Toledo de 14/12/2011, ¿a quién quedó adscrito el organismo por su artículo 1.2?",
       "opciones": [
-        "La Junta Electoral Central",
-        "La Delegación Provincial de Educación",
-        "El Organismo Autónomo Provincial de Gestión Tributaria de Toledo (OAPGT)",
-        "El Tribunal de Cuentas"
+        "Al Ministerio de Hacienda",
+        "Al Consejo de Gobierno de Castilla-La Mancha",
+        "Al Presidente de la Diputación de Toledo",
+        "A cada ayuntamiento delegante"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La Diputación describe al OAPGT como organismo prestador de servicios de gestión y recaudación de impuestos y otros ingresos públicos a los ayuntamientos. No debe inferirse que toda competencia tributaria municipal esté necesariamente delegada.",
-      "trampaExamen": "No confundir la existencia del organismo con una delegación automática de la totalidad de los tributos locales.",
-      "referencia": "Fuente institucional: https://www.diputoledo.es/noticias_ampliada/1148"
+      "justificacion": "El **artículo 1.2**, en la redacción publicada en el **BOP n.º 284 de 14/12/2011**, establece la adscripción del OAPGT al **Presidente de la Diputación** y contempla la posible delegación de funciones de este en otro órgano de la organización provincial. Debe comprobarse si hay reformas posteriores.",
+      "trampaExamen": "La adscripción de **2004 al Área de Hacienda** fue sustituida en la publicación de **2011** por la adscripción al **Presidente de la Diputación**. No estudiar ambas como simultáneamente vigentes.",
+      "referencia": "BOP Toledo 284/2011, art. 1.2 modificado · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
     },
     {
       "id": "DT-C2-T06-002",
@@ -76,17 +76,17 @@
     },
     {
       "id": "DT-C2-T06-006",
-      "enunciado": "Según la noticia institucional de la Diputación del 24 de julio de 2015, ¿a qué órgano se atribuía la organización y alta dirección del OAPGT en aquella fecha?",
+      "enunciado": "¿Qué establece el artículo 8 bis incorporado a los Estatutos del OAPGT por la modificación publicada el 14/12/2011?",
       "opciones": [
-        "A cada ayuntamiento delegante de forma individual",
-        "Al Consejo Rector",
-        "Al Consejo General del Poder Judicial",
-        "A la Secretaría de Estado de Hacienda"
+        "Que toda resolución del OAPGT se remite al Pleno del Congreso",
+        "Que las resoluciones de sus órganos de gobierno, dirección y administración ponen fin a la vía administrativa",
+        "Que solo el órgano sancionador puede resolver expedientes",
+        "Que los procedimientos administrativos siempre se resuelven por silencio positivo"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La nota institucional publicada el 24/07/2015 identifica al Consejo Rector como órgano de organización y alta dirección entonces. Esta evidencia es histórica: no acredita su composición ni el catálogo íntegro de atribuciones en 2026.",
-      "trampaExamen": "Pregunta **histórica/documental**, no examen de competencias estatutarias consolidadas de 2026.",
-      "referencia": "Fuente institucional: https://www.diputoledo.es/noticias_ampliada/1148"
+      "justificacion": "El nuevo **artículo 8 bis**, publicado en el **BOP Toledo 284/2011**, declara que las resoluciones de los órganos de gobierno, dirección y administración **ponen fin a la vía administrativa**. Antes de afirmarlo como estado completo en 2026, comprobar modificaciones posteriores.",
+      "trampaExamen": "**Poner fin a la vía administrativa** no significa que desaparezca automáticamente todo recurso administrativo o judicial. No trasladar esta previsión a órganos ajenos al OAPGT.",
+      "referencia": "BOP Toledo 284/2011, art. 8 bis · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
     }
   ],
   "auditoria": {
@@ -96,7 +96,8 @@
       "https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes",
       "https://sede.oapgt.es/Paginas/Normativa.aspx",
       "https://sedeelectronica.oapgt.es/",
-      "https://www.diputoledo.es/noticias_ampliada/1148"
+      "https://www.diputoledo.es/noticias_ampliada/1148",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
     ],
     "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
     "pendiente": [
@@ -104,6 +105,6 @@
       "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
       "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
     ],
-    "observacion": "Solo seis preguntas basadas en datos oficiales de alcance limitado. No considerar la existencia de un test como garantía de cobertura del tema 6."
+    "observacion": "Se han sustituido dos preguntas (incluida una histórica) por artículos 1.2 y 8 bis de la modificación estatutaria oficial de 2011. La vigencia exhaustiva en 2026 sigue pendiente de cotejo."
   }
 }
