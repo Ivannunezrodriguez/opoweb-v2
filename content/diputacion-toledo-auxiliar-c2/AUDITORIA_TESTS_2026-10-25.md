@@ -604,3 +604,24 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 | Temas con manual finalizado y certificado | **0/20**; todos continúan **BORRADOR** |
 
 > ⚠️ **¡Foco Examen!:** Una fuente que demuestra la existencia de un órgano o la fecha de publicación de un acuerdo **no demuestra el quórum, la mayoría exigida ni las competencias exactas**. Es obligatorio cotejar cada extremo con los **Estatutos completos y vigentes** antes de declararlo materia cerrada.
+
+
+---
+
+## 25. Avance de cotejo estatutario del tema 6 — **27/10/2026**
+
+**Hallazgo primario decisivo:** publicación oficial de la modificación de Estatutos del **OAPGT**, aprobada por el **Pleno de la Diputación el 28/11/2011**, en el **[BOP Toledo n.º 284, de 14/12/2011](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011)**, anuncio **11024**. Texto del anuncio cotejado directamente.
+
+**Artículos expresamente reformados o añadidos:**
+
+- **Art. 1.1 y 1.2:** carácter administrativo del organismo y **adscripción al Presidente de la Diputación** (modifica la adscripción al Área de Hacienda indicada en documento de **2004**).
+- **Art. 4.a:** servicios de información, asistencia, gestión, inspección y recaudación de tributos e ingresos de derecho público, así como procedimiento sancionador, actuaciones catastrales y revisión administrativa, dentro de las competencias delegadas o confiadas.
+- **Art. 8 bis:** las resoluciones de órganos de gobierno, dirección y administración **ponen fin a la vía administrativa**.
+- **Art. 14.d.1:** actos y resoluciones de Dirección en ámbitos administrativos, tributarios y sancionadores atribuidos.
+- **Disposición adicional:** instrucción de procedimientos sancionadores según organigrama aprobado por el **Consejo Rector**, con publicación de la identidad por la **Presidencia del OAPGT**.
+
+**Cambios de banco:** T06-001 y T06-006 sustituidas por preguntas de **arts. 1.2 y 8 bis** con cita del BOP. Se elimina la pregunta histórica de 2015. Conservadas **6 preguntas provisionales** (144 en total en los 20 bancos), todas con cuatro alternativas y solución única.
+
+> ⚠️ **¡Foco Examen!:** Un documento que cita los **Estatutos de 2004** no debe prevalecer sobre una **modificación oficial expresa de 2011** en el mismo precepto. Diferenciar la fecha de aprobación (**28/11/2011**) de publicación (**14/12/2011**).
+
+**Pendiente crítico:** comprobar aprobación definitiva en **2004**, identificar reformas posteriores a **2011**, integrar el **Acuerdo Regulador** y modificaciones hasta **2026**. El estado del tema 6 sigue **BORRADOR, NO CERTIFICADO**; el hallazgo no acredita una consolidación estatutaria completa.
