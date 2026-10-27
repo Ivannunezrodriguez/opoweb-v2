@@ -2,7 +2,7 @@
   "tema": 6,
   "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
   "version": "2026-10-27",
-  "criterio": "Seis preguntas provisionales: dos tienen fundamento literal en modificación estatutaria oficial BOP 284/2011; cuatro en otras fuentes institucionales. NO se acredita todavía texto consolidado de 2026 ni Acuerdo Regulador íntegro. Entrenamiento preliminar, NO certificación del tema.",
+  "criterio": "Banco provisional de seis preguntas: dos estatutarias del BOP 284/2011, dos de cuantías oficiales del Acuerdo Regulador de enero-febrero 2026 y dos institucionales sobre sede y registro. Falta versión estatutaria consolidada y revisión íntegra del Acuerdo 2023. NO certifica tema completo.",
   "preguntas": [
     {
       "id": "DT-C2-T06-001",
@@ -20,31 +20,31 @@
     },
     {
       "id": "DT-C2-T06-002",
-      "enunciado": "¿En qué publicación figura el acuerdo regulador inicial de condiciones de trabajo de la Diputación de Toledo y sus organismos autónomos que el portal de transparencia identifica como base?",
+      "enunciado": "Según la modificación del Acuerdo Regulador publicada el 16/01/2026, ¿qué importe ANUAL corresponde al grado I del subgrupo C2 en la disposición adicional primera?",
       "opciones": [
-        "28 de diciembre de 2023",
-        "14 de enero de 2025",
-        "20 de febrero de 2026",
-        "14 de octubre de 2026"
+        "1.151,40 €",
+        "712,08 €",
+        "1.655,76 €",
+        "2.457,24 €"
       ],
-      "respuestaCorrecta": 0,
-      "justificacion": "El portal institucional registra el acuerdo regulador inicial con fecha 28/12/2023. Deben incorporarse sus modificaciones posteriores; no es un texto consolidado vigente por sí solo.",
-      "trampaExamen": "Publicación inicial de 2023 distinta de las reformas de 2025 y 2026.",
-      "referencia": "Fuente institucional: https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes"
+      "respuestaCorrecta": 1,
+      "justificacion": "La disposición adicional primera modificada por el BOP Toledo **n.º 10, 16/01/2026**, fija para **C2** las cuantías anuales **grado I: 712,08 €; II: 1.151,40 €; III: 1.655,76 €; IV: 2.457,24 €**, con efectos declarados desde el **01/01/2026**.",
+      "trampaExamen": "Preguntan **importe anual del grado**, no salario mensual. No confundir los grados **I, II, III y IV** ni la fecha de publicación con la de efectos.",
+      "referencia": "BOP Toledo n.º 10 de 16/01/2026, disposición adicional primera · https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026"
     },
     {
       "id": "DT-C2-T06-003",
-      "enunciado": "¿Qué modificación del Acuerdo Regulador identifica expresamente el portal de Transparencia con fecha 20 de febrero de 2026?",
+      "enunciado": "¿Qué importe de nocturnidad ESPECIAL incorpora el BOP de Toledo n.º 34, de 20/02/2026, como complemento a la modificación de enero del Acuerdo Regulador?",
       "opciones": [
-        "Una modificación sobre el Consejo Rector del OAPGT",
-        "La de nocturnidad especial",
-        "El reglamento de firma electrónica de los ciudadanos",
-        "La disolución del OAPGT"
+        "29,30 €",
+        "30,47 €",
+        "97,45 €",
+        "212,30 €"
       ],
-      "respuestaCorrecta": 1,
-      "justificacion": "El portal oficial identifica la entrada del 20/02/2026 como 'Modificación del Acuerdo Regulador – Nocturnidad especial'. No se deducen de esta entrada sus cuantías ni el texto de los artículos alterados.",
-      "trampaExamen": "No extrapolar importes ni fechas de efectos solo a partir de un título y una fecha de publicación.",
-      "referencia": "Fuente institucional: https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes"
+      "respuestaCorrecta": 2,
+      "justificacion": "El BOP Toledo **n.º 34 de 20/02/2026**, anuncio **821**, completa el apartado segundo a) de la publicación de enero con el importe de **nocturnidad especial: 97,45 €**. Debe distinguirse de **nocturnidad ordinaria**.",
+      "trampaExamen": "**97,45 €** es nocturnidad **especial**; **29,30 €** es la cuantía del concepto ordinario para **C2/AP** en el anuncio de enero. **212,30 €** corresponde a guardia de localización del subgrupo C2.",
+      "referencia": "BOP Toledo 34/2026, anuncio 821 · https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026"
     },
     {
       "id": "DT-C2-T06-004",
@@ -97,7 +97,9 @@
       "https://sede.oapgt.es/Paginas/Normativa.aspx",
       "https://sedeelectronica.oapgt.es/",
       "https://www.diputoledo.es/noticias_ampliada/1148",
-      "https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
+      "https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
+      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026"
     ],
     "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
     "pendiente": [
@@ -105,6 +107,6 @@
       "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
       "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
     ],
-    "observacion": "Se han sustituido dos preguntas (incluida una histórica) por artículos 1.2 y 8 bis de la modificación estatutaria oficial de 2011. La vigencia exhaustiva en 2026 sigue pendiente de cotejo."
+    "observacion": "Actualizado 27/10/2026: sustituidas preguntas cronológicas T06-002 y T06-003 por dos de cifras del BOP 10/2026 y 34/2026, con advertencias sobre cuantías y efectos."
   }
 }
