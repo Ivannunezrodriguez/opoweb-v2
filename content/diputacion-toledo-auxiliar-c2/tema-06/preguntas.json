@@ -2,7 +2,7 @@
   "tema": 6,
   "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
   "version": "2026-10-27",
-  "criterio": "DIECISÉIS preguntas provisionales: doce con fuentes del Acuerdo Regulador, OAPGT y reformas oficiales; cuatro comparadas con TREBEP vigente 2026. No se certifican los Estatutos consolidados ni el acuerdo íntegro, ni la aplicabilidad de todo el régimen de permisos al personal laboral.",
+  "criterio": "Banco provisional de 20 preguntas; cuatro nuevas confrontan art. 49.e y 49.g TREBEP y reforma Ley 4/2026. El acuerdo regulador y Estatutos OAPGT no están certificados íntegramente.",
   "preguntas": [
     {
       "id": "DT-C2-T06-001",
@@ -227,6 +227,62 @@
       "justificacion": "El **art. 48.f TREBEP** reconoce **una hora** de ausencia por lactancia de menor de **12 meses**, divisible en **dos fracciones**, configurándolo como derecho **individual y no transferible**. Previene reducción de jornada o acumulación según sus condiciones.",
       "trampaExamen": "La redacción antigua de **Ley 4/2011 CLM art. 107.g** incluye criterios ligados a la madre; en el **TREBEP vigente** es un **derecho individual no transferible**.",
       "referencia": "TREBEP art. 48.f, BOE consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-017",
+      "enunciado": "¿Qué derecho modifica expresamente la disposición final undécima de la Ley 4/2026, de 1 de octubre, mediante dos nuevos párrafos del artículo 49.e TREBEP?",
+      "opciones": [
+        "El permiso parental general de hasta ocho semanas del artículo 49.g",
+        "El permiso por asuntos particulares del artículo 48.k",
+        "La reducción de jornada por cuidado de hijo o persona acogida con cáncer u otra enfermedad grave",
+        "El permiso de matrimonio del artículo 48.l"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La **Ley 4/2026, disposición final undécima**, añade dos párrafos al **art. 49.e TREBEP**, que regula la **reducción de jornada** por cuidado de hijo o persona acogida con **cáncer u otra enfermedad grave**. El permiso parental de hasta **8 semanas** corresponde al **art. 49.g**.",
+      "trampaExamen": "**49.e**: cuidado de menor con enfermedad grave y reducción de jornada. **49.g**: permiso parental de **hasta 8 semanas**. La **Ley 4/2026 no reformó el 49.g**.",
+      "referencia": "Ley 4/2026, disposición final 11.ª, BOE 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528"
+    },
+    {
+      "id": "DT-C2-T06-018",
+      "enunciado": "Tras la reforma del artículo 49.e TREBEP de octubre de 2026, ¿qué permite excepcionalmente mantener la reducción de jornada más allá de los límites de edad?",
+      "opciones": [
+        "Cualquier enfermedad común sin más requisitos",
+        "Gran discapacidad o gran dependencia, necesidad acreditada de cuidados directos, continuos y permanentes y mantenimiento de convivencia",
+        "Una solicitud informal sin necesidad de acreditar el cuidado",
+        "La existencia de cualquier hijo mayor de edad, sin convivir"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El nuevo párrafo del **art. 49.e** admite la prórroga excepcional cuando existe **gran discapacidad o gran dependencia**, necesidad de cuidados **directos, continuos y permanentes**, debidamente acreditada, y se mantiene la **convivencia**.",
+      "trampaExamen": "La excepción **no elimina todas las condiciones** ni se aplica automáticamente a cualquier discapacidad o dependencia.",
+      "referencia": "Ley 4/2026, disposición final 11.ª · https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528"
+    },
+    {
+      "id": "DT-C2-T06-019",
+      "enunciado": "En los supuestos excepcionales del nuevo artículo 49.e TREBEP, ¿cuál es el máximo porcentaje de reducción de jornada que pueden compartir simultáneamente ambos progenitores entre los dos?",
+      "opciones": [
+        "100 % conjunto",
+        "100 % para cada uno, sin ningún límite conjunto",
+        "25 % conjunto",
+        "No pueden compartir reducción simultánea en ningún caso"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El nuevo párrafo sexto del **art. 49.e** permite excepcionalmente compartir el porcentaje de reducción de jornada de forma simultánea y proporcional, con un máximo **del 100 % entre los dos progenitores**, cuando se cumplen las condiciones de especial intensidad asistencial.",
+      "trampaExamen": "El **100 % es conjunto**, no **100 % para cada progenitor**; además **no garantiza doble percepción de retribuciones íntegras**.",
+      "referencia": "Ley 4/2026, disposición final 11.ª · https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528"
+    },
+    {
+      "id": "DT-C2-T06-020",
+      "enunciado": "Según el artículo 49.g TREBEP vigente en octubre de 2026, ¿qué duración y carácter retributivo tiene el permiso parental para cuidar a un menor hasta los ocho años?",
+      "opciones": [
+        "19 semanas retribuidas",
+        "32 semanas en todos los casos",
+        "Dos semanas retribuidas en todos los supuestos",
+        "Hasta ocho semanas sin carácter retribuido"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El **art. 49.g TREBEP**, modificado por el **RDL 9/2025**, establece un permiso parental de duración **no superior a 8 semanas**, **sin carácter retribuido**, para cuidado de hijo, hija o menor acogido por tiempo superior a un año, hasta que cumpla **8 años**. Es un derecho **individual y no transferible**.",
+      "trampaExamen": "**Ocho semanas no retribuidas (49.g)** no son las **dos semanas adicionales** del permiso por nacimiento del **49.a–c**, ni la reducción de jornada **49.e**.",
+      "referencia": "TREBEP art. 49.g, texto consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
     }
   ],
   "auditoria": {
@@ -241,7 +297,8 @@
       "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026",
       "https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026",
       "https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf",
-      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528"
     ],
     "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
     "pendiente": [
@@ -249,7 +306,7 @@
       "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
       "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
     ],
-    "observacion": "27/10/2026: añadidas T06-013 a T06-016 del TREBEP 2026 sobre hospitalización, fallecimiento, nacimiento y lactancia; se advierte expresamente de redacciones autonómicas antiguas.",
-    "preguntasRevisadas": 16
+    "observacion": "27/10/2026: corregida confusión jurídica entre art. 49.e (reducción jornada por enfermedad grave, Ley 4/2026) y 49.g (permiso parental de hasta ocho semanas, no retribuido). Añadidas T06-017 a T06-020.",
+    "preguntasRevisadas": 20
   }
 }
