@@ -1049,3 +1049,29 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 **Banco sin variación:** **180 preguntas**, **20 del tema 1** y **29 provisionales del tema 6**. **Estados editoriales BORRADOR**.
 
 > ⚠️ **¡Foco Examen!:** En el test de OpoWeb2 deben corregirse con el mismo criterio las respuestas **correctas**, **erróneas** y **en blanco**, mostrando el fundamento jurídico. No debe haber dos módulos que calculen respuestas o notas sobre un mismo envío.
+
+
+---
+
+## 43. Revisión de capturas reales y corrección de indicadores de portada — **28/10/2026**
+
+**Evidencia visual aportada por el usuario:** (1) móvil con **20 temas oficiales / 20 con contenido / 0 pendientes**, el estado interno **`SOLICITUD_REGISTRADA_PENDIENTE_ADMISION`** y una etiqueta **«Estoy apuntado»**; (2) escritorio mostrando **UC3M** como convocatoria actualmente elegida y **v0.27.30** en cabecera.
+
+**Diagnóstico:**
+- Los **20 temas de Auxiliar C2** cuentan con archivos, pero los **20** permanecen en estado editorial **BORRADOR**. El anterior resumen de **«0 pendientes»** se refería exclusivamente a ausencia de contenido, no a ausencia de auditoría. Era **ambiguo y engañoso** para valorar la preparación editorial.
+- El estado de inscripción se mostraba como una **clave técnica** sin transformar.
+- **«Estoy apuntado»** podía interpretarse erróneamente como admisión publicada; la ficha registra únicamente **solicitud presentada y registrada, aún pendiente de admisión**.
+- La convocatoria **UC3M** en el ordenador es compatible con el comportamiento previsto: la selección se guarda en **localStorage**, específico de cada navegador/dispositivo. No se han mezclado los programas ni se ha forzado una convocatoria distinta.
+
+**Modificaciones guardadas:**
+- [`assets/app.js`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/assets/app.js): cuatro estadísticas diferenciadas **«temas oficiales»**, **«con contenido»**, **«en revisión editorial»** y **«sin contenido»**; función `humanizeApplicationStatus()` que muestra el estado de inscripción como **«Solicitud registrada · pendiente de lista de admisión»**; etiqueta **«✓ Solicitud registrada»**, sin afirmar admisión.
+- [`assets/styles.css`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/assets/styles.css): disposición adaptable de las **cuatro estadísticas** (**4 columnas escritorio / 2 tableta / 1 móvil**) y protección contra desbordamiento en textos del seguimiento.
+- [`index.html`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/index.html) y [`assets/runtime-enhancements.js`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/assets/runtime-enhancements.js): versión **v0.27.31** alineada en cabecera e importaciones.
+
+**Comprobación estática y aislada:** **8/8** verificaciones satisfactorias de sintaxis JS, conversión del estado personal, cuatro categorías de resumen, integridad del programa C2 (20 manuales / 20 borradores), CSS adaptable, texto sin desbordes, versiones de módulos y almacenamiento por dispositivo.
+
+**Lectura correcta del estado de Auxiliar C2 a 28/10/2026:** **20 temas oficiales, 20 con contenido, 20 en revisión editorial y 0 sin contenido**. Son categorías **solapadas**, no sumandos de un total único: todo tema en revisión también tiene contenido. **No se ha certificado ningún manual por el mero hecho de que su archivo exista.**
+
+**Alcance de la verificación:** las capturas acreditan el aspecto mostrado en los dispositivos en ese momento. Se han guardado las nuevas correcciones en GitHub, pero **no se ha confirmado mediante otra captura o una sesión automatizada que v0.27.31 ya esté servida por GitHub Pages**.
+
+> ⚠️ **¡Foco Examen!:** Una **solicitud registrada** no equivale a estar **admitido** en la lista provisional o definitiva. La **admisión** exige publicación del acto o listado correspondiente. No presentar la inscripción como admisión confirmada.
