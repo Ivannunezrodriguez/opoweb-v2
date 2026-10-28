@@ -811,18 +811,20 @@ Regla adicional: el artículo 17.3 no se suspende durante el estado de excepció
 - Diferencia alarma, excepción y sitio.
 - Separa contenido obligatorio, complemento legal y contenido ajeno.
 
-## 66. Comprobaciones solicitadas al usuario
+## 66. Control de calidad editorial interno
 
-Antes de aprobar el tema, revisar especialmente:
+El temario se revisa con el **epígrafe oficial**, la **Constitución** y las leyes orgánicas aplicables; no se requiere que el opositor certifique por sí mismo cada artículo para poder estudiarlo.
 
-- [ ] ¿El alcance coincide con el epígrafe oficial?
-- [ ] ¿Está suficientemente explicado cada artículo 10–55?
-- [ ] ¿Algún artículo necesita más ejemplos o mayor profundidad?
-- [ ] ¿La explicación de reforma 166–169 es clara?
-- [ ] ¿La tabla de suspensión permite memorizar sin ambigüedad?
-- [ ] ¿Debe incluirse más detalle de la LO 4/1981 o basta el nivel actual?
-- [ ] ¿Debe incorporarse el texto literal de algunos artículos especialmente preguntables?
-- [ ] ¿Hay contenido que parezca de relleno o ajeno al tema?
+| Control | Situación a **28/10/2026** |
+|---|---|
+| Cobertura de **estructura constitucional y reforma** | Desarrollada; reforma del **art. 69.3 de 2026** incorporada |
+| Cobertura de **derechos arts. 10–55** | Desarrollo completo en borrador; cotejo jurídico **focal**, no exhaustivo |
+| **Amparo, Defensor y estados excepcionales** | Plazos y órganos principales contrastados con **LOTC, LO 3/1981 y LO 4/1981** |
+| Tablas, trampas y supuestos prácticos | Tablas y focos integrados; ampliar con casos razonados |
+| Revisión funcional en la web publicada | **Pendiente** |
+| Certificación final | **No otorgada** |
+
+> ⚠️ **¡Foco Examen!:** Un manual que contiene todos los epígrafes no está automáticamente **certificado**: la literalidad de **plazos**, **mayorías** y **órganos competentes** debe verificarse con su fuente.
 
 ## 67. Estado de aprobación
 
@@ -977,7 +979,7 @@ La declaración de cualquiera de los tres estados **no interrumpe** el normal fu
 
 Según el **art. 3 LO 4/1981**, los actos y disposiciones de las Administraciones Públicas adoptados durante estos estados **son impugnables judicialmente**. En las condiciones legales, procede **indemnización** por daños que no sean imputables al afectado.
 
-En el **estado de excepción**, el **art. 16 LO 4/1981** contempla detenciones de hasta **10 días** en sus supuestos específicos, con **comunicación al juez en 24 horas**, manteniéndose las garantías del **art. 17.3 CE**. **No afirmar que este límite excepcional sustituya siempre al máximo ordinario de 72 horas del art. 17.2**.
+En el **estado de excepción**, el **art. 16 LO 4/1981** permite a la **autoridad gubernativa** detener, cuando sea necesario para conservar el orden, a personas respecto de las cuales existan **al menos sospechas fundadas** de que van a provocar alteraciones del orden público. La detención **no podrá exceder de 10 días**; debe **comunicarse al juez competente en 24 horas** y la persona detenida conserva los derechos del **art. 17.3 CE**. Esta previsión **excepcional** no sustituye, para cualquier detención, el plazo ordinario del **art. 17.2 CE**.
 
 > ⚠️ **¡Foco Examen!:** **72 horas** es el máximo ordinario constitucional de detención preventiva (**art. 17.2 CE**). **10 días** aparece en el **art. 16 LO 4/1981** para supuestos específicos de **estado de excepción**, con **aviso judicial en 24 horas**. **No aplicar los 10 días al estado de alarma**.
 
@@ -986,3 +988,62 @@ En el **estado de excepción**, el **art. 16 LO 4/1981** contempla detenciones d
 **Verificados con fuente primaria en esta fase:** plazos de los **arts. 42–44 LOTC**; elección, mandato y quejas del Defensor del Pueblo (**LO 3/1981**); competencia, duraciones y garantías esenciales de los estados (**CE 116 y LO 4/1981**).
 
 **Pendiente antes de certificación integral:** revisión exhaustiva de todas las variantes procesales, jurisprudencia constitucional relevante y resto de leyes de desarrollo; pruebas de visualización y navegación del portal. **El tema 1 continúa BORRADOR; esta ampliación no equivale a aprobación final de todos sus apartados**.
+
+
+---
+
+## 74. Casos prácticos de repaso — derechos, garantías y suspensión (**28/10/2026**)
+
+Los siguientes casos son **supuestos didácticos originales**, no preguntas oficiales. Se construyen sobre las reglas generales de la [Constitución](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), la [LOTC](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709) y la [LO 4/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774); no constituyen asesoramiento sobre un expediente real.
+
+### 74.1. Caso 1: detención preventiva ordinaria
+
+**Enunciado:** una persona es detenida para averiguaciones y el agente afirma que, incluso si terminan antes, siempre puede mantenerla detenida **72 horas**.
+
+**Solución:** **Incorrecto**. El **art. 17.2 CE** exige que la detención dure solo el **tiempo estrictamente necesario**, y **72 horas** son un **máximo**, no una duración fija ni una autorización para prolongarla sin necesidad.
+
+> ⚠️ **¡Foco Examen!:** **72 horas = límite máximo**, no plazo ordinario que deba agotarse.
+
+### 74.2. Caso 2: manifestación y asociación
+
+**Enunciado:** se quiere celebrar una manifestación por una calle y la Administración indica que se requiere **autorización previa**. Una asociación solicita inscripción y se le comunica que solo podrá existir después de la inscripción.
+
+**Solución:** **No**, en ambos extremos, conforme al régimen constitucional básico. El **art. 21 CE** exige **comunicación previa** para manifestaciones y reuniones en lugares de tránsito público, **no autorización previa**. El **art. 22.3 CE** establece inscripción de asociaciones **a los solos efectos de publicidad**, sin convertirla en autorización constitutiva general. Aplican los requisitos legales del ejercicio de estos derechos.
+
+> ⚠️ **¡Foco Examen!:** Manifestación: **comunicación ≠ autorización**. Asociación: **publicidad ≠ permiso para existir**.
+
+### 74.3. Caso 3: amparo frente a una lesión directamente judicial
+
+**Enunciado:** una resolución **judicial** vulnera de modo **directo** un derecho susceptible de amparo y la persona recurrente ha agotado los medios de impugnación legalmente exigibles. Se pregunta si cuenta con los **20 días** del art. 43 LOTC.
+
+**Solución:** **No, como regla del supuesto descrito**. El **art. 44 LOTC** establece **30 días** desde la **notificación** de la resolución recaída en el proceso judicial. El **art. 43 LOTC** regula vulneraciones **originadas por autoridades o administraciones** con posterior vía judicial y plazo de **20 días**. Además, deben observarse la denuncia previa cuando proceda y los restantes requisitos de admisión, incluida la **especial trascendencia constitucional**.
+
+> ⚠️ **¡Foco Examen!:** **Lesión directamente judicial: 30 días (44 LOTC)**. **Lesión originada por Administración: 20 días (43 LOTC)**. No basta con que exista una sentencia en el expediente para elegir el art. 44.
+
+### 74.4. Caso 4: declaración de alarma y prórroga
+
+**Enunciado:** se declara un **estado de alarma** por el **Gobierno** mediante decreto por **15 días**. Al llegar al término, el Gobierno pretende prorrogarlo sin pasar por el **Congreso** y sostiene que puede suspender el derecho de reunión conforme al **art. 55.1 CE**.
+
+**Solución:** **Incorrecto**. La prórroga de la alarma requiere autorización del **Congreso de los Diputados** (**art. 116.2 CE**; **art. 6 LO 4/1981**). El estado de **alarma no habilita por sí mismo la suspensión constitucional** de derechos del **art. 55.1**, prevista para **excepción y sitio**. Deben distinguirse suspensión constitucional y medidas limitativas legalmente previstas.
+
+> ⚠️ **¡Foco Examen!:** **Alarma = máximo inicial 15 días, prórroga autorizada por Congreso; sin suspensión del art. 55.1**.
+
+### 74.5. Caso 5: detención durante el estado de excepción
+
+**Enunciado:** en un **estado de excepción**, una autoridad afirma que puede mantener detenida a cualquier persona **10 días** por el mero hecho de haberse declarado ese estado y que no necesita informar al juez.
+
+**Solución:** **Incorrecto**. La **LO 4/1981, art. 16**, exige necesidad de conservación del orden y al menos **sospechas fundadas** de futuras alteraciones del orden público. La detención puede durar hasta **10 días** en ese supuesto, pero debe **comunicarse al juez en 24 horas** y se conservan las garantías del **art. 17.3 CE**. El **máximo ordinario de 72 horas** del **art. 17.2 CE** no queda reemplazado para todas las situaciones.
+
+> ⚠️ **¡Foco Examen!:** En **excepción**, **10 días** es un **máximo excepcional y condicionado**, con comunicación judicial en **24 horas** y garantía del **art. 17.3**.
+
+### 74.6. Caso 6: Defensor del Pueblo y amparo
+
+**Enunciado:** una persona presenta una queja ante el **Defensor del Pueblo** dentro del **año** legal y cree que esa presentación detiene automáticamente todos los plazos judiciales y de amparo.
+
+**Solución:** **No debe suponerse**. La queja al **Defensor del Pueblo** y el proceso judicial o constitucional tienen **naturaleza y requisitos distintos**. Las quejas se rigen por el **art. 15 LO 3/1981**; los plazos de amparo, por los **arts. 42–44 LOTC**. La queja, por sí sola, no debe tratarse como sustituto de los recursos procedentes.
+
+> ⚠️ **¡Foco Examen!:** **Queja al Defensor: 1 año** desde conocimiento de hechos; **amparo: 3 meses/20 días/30 días** según su origen. **Son vías diferentes**.
+
+## 75. Cierre de coherencia de esta fase
+
+Se han eliminado instrucciones de revisión dirigidas al opositor, se ha precisado el supuesto **excepcional** del **art. 16 LO 4/1981** y se han incorporado **seis casos de aplicación**. Sigue pendiente la **auditoría jurídica completa de cada apartado**, junto con pruebas de navegación y visualización de OpoWeb2. **Estado: BORRADOR NO CERTIFICADO.**
