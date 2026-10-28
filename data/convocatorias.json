@@ -1,6 +1,6 @@
 {
-  "actualizadoEl": "2026-08-16",
-  "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará. Las convocatorias descartadas no reciben desarrollo editorial ni mantenimiento activo.",
+  "actualizadoEl": "2026-10-29",
+  "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará; la lista no sustituye la comprobación de los archivos de seguimiento específicos.",
   "convocatorias": [
     {
       "id": "la-puebla-auxiliar-2026",
@@ -31,6 +31,33 @@
       "seguimientoVerificadoEl": "2026-08-16",
       "ultimaComprobacion": "El Decreto 2026-1051 aprueba la lista provisional con 169 personas admitidas y 21 excluidas. El usuario figura admitido provisionalmente y no debe subsanar. Pendiente de lista definitiva y fecha del primer ejercicio.",
       "incidenciaCorregida": "Auditoría transversal cerrada para los 19 temas; mantenimiento posterior sujeto a reformas normativas o nuevas publicaciones oficiales."
+    },
+    {
+      "id": "diputacion-toledo-auxiliar-c2-2026",
+      "nombre": "Diputación Provincial de Toledo · Auxiliar Administrativo C2",
+      "estadoUsuario": "SOLICITUD_REGISTRADA_PENDIENTE_ADMISION",
+      "prioridad": 1,
+      "estadoEditorial": "20_BORRADORES_AUDITORIA_PENDIENTE",
+      "temas": 20,
+      "plazas": 4,
+      "plazasTurnoLibre": 3,
+      "plazasReservaDiscapacidad": 1,
+      "sistema": "OPOSICION_LIBRE",
+      "fuentePrincipal": "BOP Toledo n.º 197, 14/10/2026, Anexo XI, código 2026.00004759",
+      "publicacionBOE": {
+        "referencia": "BOE-A-2026-21908",
+        "fecha": "2026-10-21"
+      },
+      "plazoSolicitudes": {
+        "desde": "2026-10-22",
+        "hasta": "2026-11-19",
+        "estado": "ABIERTO"
+      },
+      "programa": "data/programa-diputacion-auxiliar-c2-2026.json",
+      "seguimiento": "data/seguimiento-diputacion-auxiliar-c2-2026.json",
+      "carpetaContenido": "content/diputacion-toledo-auxiliar-c2",
+      "seguimientoVerificadoEl": "2026-10-25",
+      "ultimaComprobacion": "Solicitud registrada; 20 manuales en borrador. Tema 6 requiere cierre de fuentes estatutarias OAPGT. Consultar el archivo de seguimiento específico para detalles y cautelas."
     },
     {
       "id": "diputacion-toledo-administrativo-c1-2026",
