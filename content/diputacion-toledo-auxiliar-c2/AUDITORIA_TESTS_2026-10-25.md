@@ -972,7 +972,9 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 | Localización de contenido | `themePath()` usa los campos `manual` y `preguntas` del programa si existen | Confirmada por lectura del código la correspondencia de rutas; no se modificó |
 | Test tema 1 | **20 preguntas** con campos `enunciado, opciones, respuestaCorrecta, justificacion, trampaExamen, referencia` | `normaliseQuestions()` contempla esos campos; no precisa migración |
 
-**Limitación de verificación:** se ha realizado una **inspección estática del código fuente conectado** y se han **guardado cambios reales en GitHub**. **No se ha ejecutado una prueba automatizada en navegador ni verificado la versión desplegada de GitHub Pages** en esta fase. Por tanto, no marcar «pruebas funcionales completas» ni dar por certificada la experiencia web.
+**Validación técnica ejecutada:** se extrajo y ejecutó aisladamente la función `inlineMarkdown()` del código guardado y se comprobaron **cuatro casos**: enlace Markdown a BOE, negritas y código en línea, escape de una etiqueta HTML potencialmente peligrosa, y URL HTTPS directa. **Los cuatro casos devolvieron el resultado esperado**. Esto **no es una prueba del navegador completo**.
+
+**Limitación de verificación:** se ha realizado una **inspección del código fuente conectado**, una **prueba unitaria aislada del formateador** y se han **guardado cambios reales en GitHub**. **No se ha ejecutado una prueba automatizada en navegador ni verificado la versión desplegada de GitHub Pages** en esta fase. Por tanto, no marcar «pruebas funcionales completas» ni dar por certificada la experiencia web.
 
 **Sin cambios en el banco:** **180 preguntas totales**, de ellas **20 del tema 1** y **29 provisionales del tema 6**. La actualización mejora la **presentación de las fuentes y de la retroalimentación**, no acredita nueva revisión de legislación.
 
