@@ -58,10 +58,26 @@ const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
 }[char]));
 
 function inlineMarkdown(value) {
-  return escapeHtml(value)
+  // Analizar enlaces en el texto original y escapar cada fragmento antes de
+  // generar HTML. No ejecutar etiquetas incluidas en manuales o preguntas.
+  const text = String(value ?? '');
+  const formatText = segment => escapeHtml(segment)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
-    .replace(/`([^`]+)`/g, '<code>$1</code>')
-    .replace(/(https:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>');
+    .replace(/\x60([^\x60]+)\x60/g, '<code>$1</code>');
+  const linkPattern = /\[([^\]\n]+)\]\((https:\/\/[^\s)]+)\)|(https:\/\/[^\s<)]+)/g;
+  const output = [];
+  let last = 0;
+  let match;
+  while ((match = linkPattern.exec(text)) !== null) {
+    output.push(formatText(text.slice(last, match.index)));
+    const label = match[1] || match[3];
+    const url = match[2] || match[3];
+    output.push('<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+      formatText(label) + '</a>');
+    last = linkPattern.lastIndex;
+  }
+  output.push(formatText(text.slice(last)));
+  return output.join('');
 }
 
 function isTableSeparator(line) {
@@ -322,7 +338,7 @@ function activateTest(questions) {
       feedback.hidden = false;
       feedback.className = `answer-feedback ${correct ? 'correct' : hasAnswer ? 'incorrect' : ''}`;
       const verdict = !hasAnswer ? 'Sin contestar' : correct ? 'Correcta' : 'Incorrecta';
-      feedback.innerHTML = `<strong>${verdict}.</strong> ${escapeHtml(question.explanation)}${question.trap ? `<br><em>Trampa: ${escapeHtml(question.trap)}</em>` : ''}${question.reference ? `<br><small>Referencia: ${escapeHtml(question.reference)}</small>` : ''}`;
+      feedback.innerHTML = `<strong>${verdict}.</strong> ${inlineMarkdown(question.explanation)}${question.trap ? `<br><em>Trampa: ${inlineMarkdown(question.trap)}</em>` : ''}${question.reference ? `<br><small>Referencia: ${inlineMarkdown(question.reference)}</small>` : ''}`;
     });
     // Convocatoria C2 Diputación: 50 preguntas, +0,20 por acierto y -0,05 por error.
     // Los minitests se convierten a escala sobre diez preservando esa proporción.
