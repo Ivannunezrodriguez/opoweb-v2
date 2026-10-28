@@ -127,7 +127,7 @@ function renderMarkdown(markdown) {
         rows.push(tableCells(lines[index]));
         index += 1;
       }
-      html.push(`<div class="table-wrap"><table><thead><tr>${head.map(cell => `<th>${inlineMarkdown(cell)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${inlineMarkdown(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
+      html.push(`<div class="table-wrap" role="region" aria-label="Tabla del temario, desplazamiento horizontal disponible" tabindex="0"><table><thead><tr>${head.map(cell => `<th>${inlineMarkdown(cell)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${inlineMarkdown(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
       continue;
     }
     if (/^\s*-\s+/.test(line)) {
@@ -338,13 +338,17 @@ function activateTest(questions) {
       feedback.hidden = false;
       feedback.className = `answer-feedback ${correct ? 'correct' : hasAnswer ? 'incorrect' : ''}`;
       const verdict = !hasAnswer ? 'Sin contestar' : correct ? 'Correcta' : 'Incorrecta';
-      feedback.innerHTML = `<strong>${verdict}.</strong> ${inlineMarkdown(question.explanation)}${question.trap ? `<br><em>Trampa: ${inlineMarkdown(question.trap)}</em>` : ''}${question.reference ? `<br><small>Referencia: ${inlineMarkdown(question.reference)}</small>` : ''}`;
+      const correctOption = question.options[question.correct];
+      const answerDetail = !correct && correctOption !== undefined
+        ? `<p><strong>Respuesta correcta: ${escapeHtml(correctOption)}</strong></p>` : '';
+      feedback.innerHTML = `<strong>${verdict}.</strong>${answerDetail} ${inlineMarkdown(question.explanation)}${question.trap ? `<br><em>Trampa: ${inlineMarkdown(question.trap)}</em>` : ''}${question.reference ? `<br><small>Referencia: ${inlineMarkdown(question.reference)}</small>` : ''}`;
     });
     // Convocatoria C2 Diputación: 50 preguntas, +0,20 por acierto y -0,05 por error.
     // Los minitests se convierten a escala sobre diez preservando esa proporción.
     const score10 = Math.max(0, (correctCount - wrongCount * 0.25) * 10 / questions.length);
     const result = event.currentTarget.querySelector('.test-result') || document.createElement('div');
     result.className = 'notice test-result';
+    result.setAttribute('role', 'status');
     result.innerHTML = `<strong>Resultado: ${correctCount} aciertos, ${wrongCount} errores y ${blankCount} en blanco</strong> · Puntuación equivalente: ${score10.toFixed(2).replace('.', ',')}/10 (sin contestar: 0; error: -0,25 aciertos)`;
     event.currentTarget.prepend(result);
     result.scrollIntoView({ behavior: 'smooth', block: 'center' });
