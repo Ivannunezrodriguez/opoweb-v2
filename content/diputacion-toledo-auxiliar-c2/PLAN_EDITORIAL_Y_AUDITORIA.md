@@ -39,3 +39,15 @@
 El primer ejercicio tiene **50 preguntas**, **5 de reserva**, **60 minutos**, **+0,20** por acierto, **−0,05** por error y mínimo de **5/10**. El segundo es práctico y puede incluir supuestos en forma de desarrollo, test u otra determinada por el tribunal; no inventar un formato fijo.
 
 > ⚠️ **¡Foco Examen!:** El temario de Diputación **C1 de junio de 2026** no equivale al Anexo XI de Auxiliar **C2 de octubre de 2026**; no mezclar índices, numeración, cuestionarios ni fuente normativa.
+
+## Orden de cierre acordado · 29/10/2026
+
+**Prioridad expresa del usuario:** posponer el **tema 6 (Acuerdo Regulador y Estatutos OAPGT)** hasta el final, **sin olvidarlo ni darlo por concluido**.
+
+### Secuencia de trabajo
+
+1. Auditar jurídicamente y cerrar, cuando cumplan todas las condiciones, los temas **1–5** y **7–20**, sin conservar aprobaciones ficticias.
+2. Contrastar preguntas, manuales, plazos, órganos, cuadros comparativos, fuentes y bloques **¡Foco Examen!**. Registrar las correcciones en Git y pasar a `PUBLICADO` solo los temas efectivamente verificados.
+3. **Último:** recuperar el tema **6**, integrar texto completo vigente del Acuerdo Regulador y Estatutos OAPGT y resolver sus lagunas documentales.
+
+**Control permanente:** `TEMA_06_APLAZADO_NO_OLVIDAR`; la postergación no supone aprobación ni omisión del epígrafe oficial. Priorizar correcciones jurídicas reales frente a cambios cosméticos. Fecha del siguiente cierre: no fijada.
