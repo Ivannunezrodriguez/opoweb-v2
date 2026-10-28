@@ -2,7 +2,7 @@
   "tema": 1,
   "estado": "BORRADOR_TEST_DOCUMENTADO",
   "version": "2026-10-28",
-  "criterio": "Nueve preguntas originales verificadas documentalmente con CE consolidada y reforma 2026; una nueva de disposición transitoria de la reforma 69.3. No son preguntas oficiales.",
+  "criterio": "12 preguntas originales con referencia al texto BOE constitucional vigente. Tres incorporadas sobre registro de asociaciones, domicilio/comunicaciones y suspensión individual. No son preguntas oficiales.",
   "preguntas": [
     {
       "id": "DT-C2-T1-001",
@@ -129,11 +129,53 @@
       "justificacion": "La reforma del **art. 69.3 CE** entró en vigor el **20/05/2026** (fecha de su publicación), pero su **disposición transitoria única** difiere la eficacia de la separación de las circunscripciones senatoriales de **Ibiza y Formentera** hasta la **convocatoria de las primeras elecciones al Senado** posteriores a su entrada en vigor.",
       "trampaExamen": "**Entrada en vigor: 20/05/2026**; **eficacia electoral: primera convocatoria de elecciones al Senado posterior**. No confundir ambos hitos.",
       "referencia": "Reforma de 19/05/2026, disposición transitoria única, BOE-A-2026-10881 · https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881"
+    },
+    {
+      "id": "DT-C2-T1-010",
+      "enunciado": "Una asociación legalmente constituida solicita su inscripción registral. ¿Con qué finalidad exige la Constitución dicha inscripción?",
+      "opciones": [
+        "Para recibir autorización previa obligatoria para existir",
+        "Para adquirir automáticamente potestad sancionadora",
+        "A los solos efectos de publicidad",
+        "Para impedir el control judicial de la asociación"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El **art. 22.3 CE** dispone que las asociaciones constituidas al amparo de ese artículo se inscriban en un registro **a los solos efectos de publicidad**; el **art. 22.4** reserva a resolución judicial motivada su disolución o suspensión.",
+      "trampaExamen": "**Publicidad registral no es autorización constitutiva**. La disolución o suspensión exige **resolución judicial motivada**.",
+      "referencia": "Constitución Española arts. 22.3-4 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DT-C2-T1-011",
+      "enunciado": "¿Cuál de estas afirmaciones se ajusta a las excepciones expresamente previstas en los artículos 18.2 y 18.3 CE?",
+      "opciones": [
+        "El delito flagrante figura como excepción literal tanto al domicilio como al secreto de comunicaciones",
+        "El delito flagrante permite entrada y registro domiciliario sin consentimiento ni resolución judicial, pero no figura como excepción literal al secreto de comunicaciones",
+        "El domicilio solo puede registrarse con consentimiento, sin excepciones",
+        "El secreto de comunicaciones puede levantarse en cualquier caso por autorización administrativa"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **art. 18.2 CE** establece entrada o registro domiciliarios mediante **consentimiento, resolución judicial o flagrante delito**. El **art. 18.3 CE** garantiza el secreto de las comunicaciones **salvo resolución judicial**.",
+      "trampaExamen": "**Flagrante delito** está en **18.2 (domicilio)**, no en la excepción escrita de **18.3 (comunicaciones)**.",
+      "referencia": "Constitución Española arts. 18.2-3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DT-C2-T1-012",
+      "enunciado": "¿Qué derechos pueden ser objeto de suspensión individual en investigaciones sobre bandas armadas o elementos terroristas, conforme al artículo 55.2 CE?",
+      "opciones": [
+        "Artículos 17.2, 18.2 y 18.3, con intervención judicial y control parlamentario",
+        "Todos los derechos de los artículos 15 a 29 sin intervención judicial",
+        "Derecho de reunión del artículo 21 y derecho de huelga del artículo 28.2",
+        "Únicamente el derecho a la educación del artículo 27"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El **art. 55.2 CE** permite que una **ley orgánica** determine supuestos de suspensión **individual** de derechos de los artículos **17.2, 18.2 y 18.3**, con **necesaria intervención judicial y adecuado control parlamentario**, en investigaciones relacionadas con bandas armadas o elementos terroristas.",
+      "trampaExamen": "**Individual = 17.2, 18.2, 18.3**; no se incluyen **17.3**, **21** ni **28.2**. Requiere **ley orgánica**, intervención judicial y control parlamentario.",
+      "referencia": "Constitución Española art. 55.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     }
   ],
   "auditoria": {
     "fecha": "2026-10-28",
-    "preguntasRevisadas": 9,
+    "preguntasRevisadas": 12,
     "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
     "actualizacionTextoConsolidado": "20/05/2026",
     "articulos": [
@@ -148,9 +190,13 @@
       "168.2",
       "168.3",
       "169",
-      "69.3"
+      "69.3",
+      "18.2",
+      "18.3",
+      "22.3",
+      "22.4"
     ],
-    "resultado": "Nueve preguntas contrastadas; añadida T1-009 sobre distinción entrada en vigor/eficacia electoral de reforma de 2026.",
+    "resultado": "Doce preguntas; añadidas tres sobre artículos 18.2-3, 22.3-4 y 55.2; el manual incluye tablas de tutela y suspensión, pero aún no se certifica revisión exhaustiva.",
     "limitacion": "Auditoría documental de test y núcleos del manual; revisión integral de derechos 10–55 y funcional pendiente."
   }
 }
