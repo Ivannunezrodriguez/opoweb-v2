@@ -850,3 +850,29 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 > ⚠️ **¡Foco Examen!:** El **área provincial de Economía, Hacienda y Presupuestos** (Reglamento **2024**) no es el **Presidente de la Diputación** (adscripción estatutaria publicada en **2011**). Distinguir asimismo **Calle Real 4** (organismo) de **Calle Real 14** (registro asociado).
 
 **Límite legal:** tras búsquedas dirigidas en BOP/hemeroteca y documentos de **2005**, no se ha identificado la **publicación definitiva de la reforma inicialmente aprobada en diciembre de 2004**. Tampoco se ha certificado la cadena exhaustiva de reformas posteriores; el **tema 6 permanece BORRADOR**, sin quórums, mayorías ni composición vigente confirmados.
+
+
+---
+
+## 36. Inicio de auditoría integral de manuales: **tema 1**, Constitución — **28/10/2026**
+
+**Investigación del OAPGT:** una nueva búsqueda de la publicación **definitiva de la reforma estatutaria iniciada en diciembre de 2004**, a través de BOP oficial y reproducción de hemerotecas de **2005**, no arrojó un anuncio definitivo verificable. **No se infiere aprobación definitiva** de noticias o anuncios posteriores del OAPGT. Se mantiene la incidencia pendiente del **tema 6**.
+
+**Cambio de prioridad editorial:** comenzar auditoría integral de los **20 manuales** en lugar de dejar paralizado el proyecto por la documentación incompleta de un único tema. **Primer manual trabajado: tema 1.**
+
+**Fuentes oficiales:** [Constitución, BOE consolidado con última modificación **20/05/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [Reforma del artículo **69.3**, BOE-A-2026-10881](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881) y [Congreso, relación de reformas constitucionales](https://constitucion.congreso.es/constitucion-1978/reformas).
+
+| Trabajo sobre el **tema 1** | Resultado |
+|---|---|
+| Contradicción de estados | Corregida: el manual decía **BORRADOR** al inicio pero **«Tema cerrado: SÍ»** al final. Ahora **NO CERTIFICADO** de forma consistente |
+| Reforma constitucional de **2026** | Se precisa reforma del **art. 69.3** (Ibiza y Formentera) y su **disposición transitoria única** |
+| Entrada en vigor / eficacia | **Entrada en vigor: 20/05/2026**; **eficacia de las circunscripciones: desde convocatoria de primeras elecciones al Senado posteriores** |
+| Reforma ordinaria y agravada | Focos sobre **3/5**, posible **mayoría absoluta Senado + 2/3 Congreso** y procedimiento agravado **2/3 + disolución + 2/3 + referéndum** |
+| Garantías y suspensión | Focos sobre **art. 53.2** y **art. 55.1**, incluyendo diferencia **alarma / excepción / sitio** |
+| Preguntas | **T1-009** nueva con referencia oficial a la transitoria de la reforma de **2026**; banco tema 1 pasa de **8 a 9** |
+| Formato OpoWeb | Añadidos **6 bloques** `> ⚠️ **¡Foco Examen!:**` donde faltaban |
+| Resultado editorial | **Auditoría parcial del manual; estado BORRADOR**. Pendiente cotejo final de **todos los arts. 10–55**, leyes complementarias y pruebas de interfaz |
+
+**Balance bancos:** **169 preguntas** en los 20 temas: **140** en los temas **1–5 y 7–20** y **29 provisionales** en el **tema 6**. Las preguntas auditadas documentalmente no deben confundirse con manuales certificados.
+
+> ⚠️ **¡Foco Examen!:** La cuarta reforma constitucional **entró en vigor el 20/05/2026**, pero **no entraron en aplicación inmediata las nuevas circunscripciones senatoriales de Ibiza y Formentera**: opera la **disposición transitoria única**. El manual debe distinguir siempre entre **vigencia de la norma** y **eficacia de una regla electoral**.
