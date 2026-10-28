@@ -747,3 +747,50 @@ La fuente **no resuelve** si hubo reformas estatutarias, cambios de nombramiento
 **Próxima prueba bloqueante:** encontrar **texto definitivamente aprobado de la reforma 2004**, y verificar **composición, convocatorias, quórums, votaciones y mayorías** con las normas estatutarias actuales. Hasta entonces, **NO formular preguntas presentando cifras de 2019 como hechos jurídicos vigentes en 2026**.
 
 **ESTADO: BORRADOR PARCIAL — NO CERTIFICADO.**
+
+
+---
+
+## 20. Contraste **Estatutos de 2011** frente a **Reglamento de Organización Administrativa de 2024** — **28/10/2026**
+
+### 20.1. Nueva fuente oficial posterior con repercusión orgánica
+
+**Fuente oficial cotejada en su página inicial:** [BOP Toledo **n.º 31, 14/02/2024**, página **26**, código CSV **2024.00000777**, Reglamento de Organización Administrativa de la Diputación](https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf).
+
+La publicación explica que el **Decreto de Presidencia 213/2024, de 13/02/2024**, declaró definitiva la aprobación de la modificación del Reglamento de Organización Administrativa al haber transcurrido la exposición sin reclamaciones, y publica su texto íntegro. El acuerdo inicial fue adoptado por el **Pleno de la Diputación el 21/12/2023**.
+
+La **exposición de motivos** establece la creación del **Área de Economía, Hacienda y Presupuestos**, donde sitúa las unidades de **Intervención y Tesorería** y al **OAPGT**, porque la **Diputación** ejerce la tutela del organismo autónomo.
+
+| Cuestión | Fuente | Lo que puede afirmarse |
+|---|---|---|
+| **Adscrito al Presidente de la Diputación** | **Estatutos OAPGT**, art. **1.2**, modificación publicada en **BOP 284 de 14/12/2011** | Es la **adscripción estatutaria expresamente publicada en 2011**; comprobar reformas posteriores |
+| **Área de Economía, Hacienda y Presupuestos** | **Reglamento de Organización Administrativa**, BOP **31 de 14/02/2024**, exposición de motivos | Es el **encuadramiento del OAPGT en la estructura organizativa provincial de 2024**, como entidad bajo tutela de la Diputación |
+| **Diputación Provincial de Toledo** | Reglamento **2024** y estructura jurídica del ente | Es la **entidad local de tutela** que creó el organismo |
+| **Consejo Rector / Presidencia / Dirección** | Estatutos y actos BOP específicos | Son **órganos propios** o de dirección del OAPGT; sus atribuciones no deben sustituirse por las de un área provincial |
+
+**Conclusión jurídica prudente:** el Reglamento de **2024** no afirma, en el fragmento cotejado, que **derogue el art. 1.2 estatutario de 2011**. La organización de las áreas de la **Diputación** y la **adscripción estatutaria** del **OAPGT** son planos jurídicos distintos que deben interpretarse conforme al sistema de competencias y disposiciones posteriores.
+
+> ⚠️ **¡Foco Examen!:** Si preguntan por la **adscripción que fija el art. 1.2 de los Estatutos en su redacción de 2011**, la respuesta es **Presidente de la Diputación**. Si preguntan qué **Área provincial** integra al OAPGT en el **Reglamento de Organización de 2024**, es **Economía, Hacienda y Presupuestos**. **No intercambiar normas, órganos ni fechas**.
+
+### 20.2. Comprobación independiente de domicilio: dato funcional frente a norma histórica
+
+Se ha localizado también un [anuncio **BOE de 11/12/2004** sobre subasta del OAPGT](https://www.boe.es/diario_boe/txt.php?id=BOE-B-2004-298046&lang=es) que sitúa expresamente la **sede del organismo en Calle Real 4** para una subasta a celebrar en **enero de 2005**. La publicación es **anterior a la aprobación inicial de reforma estatutaria de 21/12/2004**.
+
+| Fecha / fuente | Dato | Prueba realmente aportada |
+|---|---|---|
+| **11/10/1996**, texto estatutario inicial reproducido | **Plaza de la Merced 4** | **Domicilio en el texto inicial histórico** |
+| **11/12/2004**, anuncio oficial **BOE-B-2004-298046** | **Calle Real 4** | **Sede física de una subasta del OAPGT** antes de la reforma inicial de diciembre |
+| **23/12/2004**, texto de la **aprobación inicial de reforma** | **Calle Real 4**, en propuesta de art. 3 | **Texto inicialmente aprobado**, aún sin prueba de aprobación definitiva |
+| **2026**, [DIR3 LA0000580](https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580) | **Calle Real 4** para el organismo; **Calle Real 14** para la oficina de registro asociada | **Directorio administrativo**, no certificación del art. 3 estatutario |
+
+**Inferencia descartada:** no se debe utilizar el hecho de que un anuncio oficial de **2004** mencione **Calle Real 4** para concluir que la reforma estatutaria aprobada inicialmente el **21/12/2004** fue finalmente aprobada. El cambio de sede operativa podía preceder a su incorporación formal al texto estatutario.
+
+> ⚠️ **¡Foco Examen!:** Un **domicilio operativo** acreditado en **BOE** y un **domicilio legal estatutario** no son la misma proposición. **Calle Real 4** figura en el directorio del organismo; **Calle Real 14** es la **oficina de registro asociada** según DIR3.
+
+### 20.3. Estado de publicación definitiva de la reforma de 2004
+
+La búsqueda dirigida sobre **enero y febrero de 2005**, incluyendo hemeroteca provincial, BOP históricos y anuncios del OAPGT, **no ha permitido identificar el anuncio específico de aprobación definitiva de la reforma inicialmente aprobada el 21/12/2004**.
+
+No se extrapola la aprobación definitiva de **otras normas provinciales** —como el Reglamento de Organización de **2024**— a los Estatutos del OAPGT. **Permanecen no certificadas la composición vigente en 2026, las convocatorias, los quórums y las mayorías** del Consejo Rector.
+
+**Estado del tema 6: BORRADOR PARCIAL, NO CERTIFICADO**.
