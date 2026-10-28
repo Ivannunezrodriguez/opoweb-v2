@@ -662,3 +662,53 @@ Continúa sin acreditarse en esta fase la publicación **definitiva** de la refo
 **Pendiente de resolución documental**: aprobación definitiva de 2004, inventario de modificaciones estatutarias posteriores a 2011, redacción completa consolidada, composición de órganos, convocatoria y sesiones, quórums y mayorías. **No generar preguntas que afirmen estos extremos como vigentes sin documento oficial de respaldo.**
 
 **Estado editorial: BORRADOR PARCIAL, no certificado.**
+
+
+---
+
+## 18. Comprobación contemporánea de la Dirección del OAPGT: resolución de **17/02/2026** publicada el **24/02/2026**
+
+**Fuente oficial primaria verificada:** [**BOP Toledo n.º 36, de 24/02/2026, página 3**, código de verificación `bop36_b24022026`](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026), **Resolución de la Dirección General 3902/2026**. Se ha cotejado visualmente la página oficial del boletín.
+
+### 18.1. Competencia citada expresamente en un acto de **2026**
+
+El **Director General del OAPGT**, mediante **Resolución 3902/2026 de 17/02/2026**, invoca expresamente el **artículo 14 de los Estatutos del OAPGT** para **aprobar los padrones del Impuesto sobre Vehículos de Tracción Mecánica (IVTM) del ejercicio 2026** correspondientes a municipios con gestión delegada.
+
+El anuncio identifica **425.350 valores** y una **cuota líquida total de 27.833.024,67 €**. Estas cifras identifican ese **padrón de 2026** y **no son cuantías generales de los Estatutos ni montos a memorizar como permanentes**.
+
+| Cuestión | Hecho acreditado en el **BOP 36/2026** | Alcance |
+|---|---|---|
+| **Órgano que aprueba** | **Director General del OAPGT** | Actuación concreta en el **IVTM de 2026** |
+| **Fundamento estatutario invocado** | **Artículo 14 de los Estatutos** | Se confirma su aplicación en **2026**; no su redacción completa |
+| **Forma de notificación** | Notificación colectiva de liquidaciones del padrón mediante anuncio en **BOP** | Se invoca el **art. 102.3 de la Ley 58/2003** |
+| **Exposición al público** | **30 días hábiles** | Plazo del **padrón del IVTM 2026** publicado |
+| **Recurso de reposición** | **1 mes** desde el día siguiente al fin del plazo de exposición | El anuncio se remite al **art. 14.2 TRLRHL** |
+| **Período de ingreso voluntario del anuncio** | Del **01/03/2026** al **04/05/2026**, ambos incluidos | **Plazo particular de ese padrón de 2026**, no regla fija para todos los impuestos |
+
+> ⚠️ **¡Foco Examen!:** Para este padrón, **30 días hábiles** es el período de **exposición** y **un mes** el plazo de **recurso de reposición**, contado desde el día siguiente a la finalización de la exposición. **No son dos nombres para el mismo plazo**. La **Dirección General**, no el **Consejo Rector**, firma la resolución de aprobación de este padrón.
+
+### 18.2. Control histórico de denominación, domicilio y atribuciones
+
+**Primera referencia histórica localizada:** publicación íntegra de los Estatutos iniciales en el **BOP de 11/10/1996**, cuya transcripción puede consultarse en [reproducción documental no oficial](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/1996/10/11). **No se presenta esa reproducción como verificación del PDF original de 1996**.
+
+**Reforma con aprobación inicial:** [BOP de 23/12/2004](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/2004/12/23), que anuncia la **aprobación inicial** del **Pleno de 21/12/2004** y reproduce un proyecto de redacción amplia de los Estatutos. **No consta en las fuentes contrastadas la publicación de aprobación definitiva de esta reforma**.
+
+**Fuente administrativa actual:** [Directorio oficial DIR3 del Punto de Acceso General, unidad **LA0000580**](https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580): identifica la unidad **Organismo Autónomo Provincial de Gestión Tributaria de Toledo** dentro de la **Administración local**, bajo la **Diputación Provincial de Toledo**, e indica **Calle Real 4, Toledo**; menciona la **Dirección del OAPGT** en su estructura.
+
+| Año / fuente | Dato que contiene | Precaución |
+|---|---|---|
+| **1996**, reproducción del BOP de **11/10/1996** | Domicilio estatutario originario en **Plaza de la Merced 4** | **Histórico** y reproducción no oficial; no usar como domicilio actual |
+| **2004**, aprobación **inicial** anunciada el **23/12/2004** | Proyecto: domicilio en **Calle Real 4** y reorganización estatutaria | **Aprobación inicial no es aprobación definitiva** |
+| **2026**, ficha administrativa **DIR3 LA0000580** | Unidad actual del OAPGT en **Calle Real 4** y adscripción a **Diputación de Toledo** | Acredita dato de **directorio**, no la vigencia formal del artículo estatutario histórico |
+| **2026**, **BOP 36**, página 3 | **Dirección General** invoca **art. 14** y aprueba padrón IVTM | Acredita una competencia ejercida en acto actual, **no todo el catálogo de funciones** |
+
+> ⚠️ **¡Foco Examen!:** No memorizar **Plaza de la Merced 4** como dirección actual del OAPGT por aparecer en una transcripción de **1996**. El directorio administrativo **DIR3** actual señala **Calle Real 4**. Un domicilio confirmado en **DIR3** tampoco equivale a acreditar la **aprobación definitiva de la reforma estatutaria de 2004**.
+
+### 18.3. Estado de la investigación sobre la reforma de **2004**
+
+La búsqueda ha identificado la **aprobación inicial de 21/12/2004** y el texto publicado **23/12/2004**, pero **no ha obtenido un anuncio verificable de aprobación definitiva**, ni una relación acreditada de todas las reformas posteriores a **2011**. Por tanto:
+
+- **No** se califican como vigentes en **2026** las reglas de **composición, quórum, sesiones o mayorías** contenidas en versiones históricas.
+- **Sí** se incorpora la prueba concreta del **BOP de 2026** sobre aprobación de padrones del IVTM por la **Dirección General**, con cita del **art. 14**.
+- Los **plazos tributarios del caso de 2026** se mantienen expresamente identificados como tales, **no como plazos estatutarios generales**.
+- El tema 6 permanece **BORRADOR, NO CERTIFICADO**.
