@@ -876,3 +876,29 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 **Balance bancos:** **169 preguntas** en los 20 temas: **140** en los temas **1–5 y 7–20** y **29 provisionales** en el **tema 6**. Las preguntas auditadas documentalmente no deben confundirse con manuales certificados.
 
 > ⚠️ **¡Foco Examen!:** La cuarta reforma constitucional **entró en vigor el 20/05/2026**, pero **no entraron en aplicación inmediata las nuevas circunscripciones senatoriales de Ibiza y Formentera**: opera la **disposición transitoria única**. El manual debe distinguir siempre entre **vigencia de la norma** y **eficacia de una regla electoral**.
+
+
+---
+
+## 37. Tema 1: derechos y garantías (arts. **10–55 CE**) — **28/10/2026**
+
+**Fuente:** [Constitución Española, texto BOE actualizado el **20/05/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229); [LO 11/1995, abolición de la pena de muerte incluso en tiempo de guerra](https://www.boe.es/buscar/doc.php?id=BOE-A-1995-25714).
+
+**Trabajo de esta fase:**
+- Añadida al manual una **matriz comparativa de derechos y niveles de protección** para **arts. 10–55** y una tabla detallada de **suspensión general e individual**.
+- Introducidos focos en **18.2–3** (domicilio/comunicaciones), **20.1** (expresión/información), **21** (reunión), **22** (asociación), **24** (tutela), y **55.1–2** (suspensión). Ahora hay **13 focos**.
+- Corregido enlace incorrecto a LO 11/1995: **BOE-A-1995-25714**, no **BOE-A-1995-25953**.
+- Incorporadas **T1-010, T1-011 y T1-012** sobre registro de asociaciones, excepciones de los **arts. 18.2–3** y suspensión individual conforme a **55.2**; tema 1 pasa a **12 preguntas**.
+
+| Trampa de examen | Respuesta |
+|---|---|
+| **Art. 18.2** | Entrada domiciliaria: consentimiento, resolución judicial o **flagrante delito** |
+| **Art. 18.3** | Secreto de comunicaciones: excepción literal mediante **resolución judicial** |
+| **Art. 22.3–4** | Inscripción **solo publicidad**; disolución o suspensión por **resolución judicial motivada** |
+| **Art. 53.2** | Amparo de **14, 15–29 y 30.2** |
+| **Art. 55.1** | Suspensión general posible en **excepción o sitio**, **no en alarma** |
+| **Art. 55.2** | Suspensión individual limitada a **17.2, 18.2 y 18.3** bajo ley orgánica y garantías |
+
+**Límite:** auditoría focal de hechos, tablas y test, **no lectura jurídica completa verificada de toda la legislación complementaria artículo por artículo**. El **tema 1 sigue BORRADOR**, no certificado.
+
+**Balance:** **172 preguntas** (143 de temas 1–5 y 7–20, más **29 provisionales del tema 6**). Se mantiene el bloqueo estatutario del OAPGT.
