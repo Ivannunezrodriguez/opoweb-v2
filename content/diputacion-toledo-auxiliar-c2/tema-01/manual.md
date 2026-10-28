@@ -239,7 +239,7 @@ Es un derecho con tutela reforzada y recurso de amparo, aunque está situado fue
 
 Todas las personas tienen derecho a la vida y a la integridad física y moral. Nadie puede ser sometido a tortura ni a penas o tratos inhumanos o degradantes.
 
-La Constitución mantiene una referencia a la posible pena de muerte prevista por leyes penales militares para tiempo de guerra. Sin embargo, la legislación orgánica posterior abolió también esa posibilidad. En examen debe distinguirse entre el texto constitucional y el estado actual de la legislación penal.
+La Constitución mantiene una referencia a la posible pena de muerte prevista por leyes penales militares para tiempo de guerra. Sin embargo, la **Ley Orgánica 11/1995, de 27 de noviembre**, abolió también esa posibilidad en el Derecho penal militar español. [BOE-A-1995-25953](https://www.boe.es/buscar/doc.php?id=BOE-A-1995-25953). En examen debe distinguirse entre el texto constitucional y el estado actual de la legislación penal.
 
 ## 16. Artículo 16 · libertad ideológica, religiosa y de culto
 
@@ -293,6 +293,8 @@ La ley debe limitar el uso de la informática para garantizar honor e intimidad 
 
 Trampa: el delito flagrante aparece como excepción expresa para domicilio, no en el apartado del secreto de comunicaciones.
 
+> ⚠️ **¡Foco Examen!:** **Art. 18.2** permite entrada y registro domiciliario por **consentimiento, resolución judicial o flagrante delito**. **Art. 18.3** admite excepción al secreto de comunicaciones mediante **resolución judicial**; la flagrancia no figura como excepción literal en ese apartado.
+
 ## 19. Artículo 19 · residencia y circulación
 
 Los españoles tienen derecho a elegir libremente residencia y circular por el territorio nacional. También pueden entrar y salir libremente de España en los términos legales.
@@ -320,6 +322,8 @@ El secuestro de publicaciones, grabaciones u otros medios de información exige 
 
 Diferencia de examen: la libertad de expresión protege ideas y opiniones; la libertad de información se refiere a hechos y exige veracidad.
 
+> ⚠️ **¡Foco Examen!:** **Art. 20.1.a** ampara **opiniones**; **20.1.d**, información **veraz**. El secuestro de publicaciones y otros medios de información requiere **resolución judicial** (**20.5**).
+
 ## 21. Artículo 21 · reunión y manifestación
 
 Se reconoce el derecho de reunión pacífica y sin armas. No necesita autorización previa.
@@ -328,6 +332,8 @@ Para reuniones en lugares de tránsito público y manifestaciones se exige comun
 
 Comunicación previa no equivale a autorización.
 
+> ⚠️ **¡Foco Examen!:** **Art. 21 CE**: la reunión pacífica y sin armas **no requiere autorización previa**; las **manifestaciones** y reuniones en **lugares de tránsito público** sí requieren **comunicación previa**. La prohibición exige **razones fundadas de alteración del orden público con peligro para personas o bienes**.
+
 ## 22. Artículo 22 · asociación
 
 Se reconoce el derecho de asociación.
@@ -335,6 +341,8 @@ Se reconoce el derecho de asociación.
 Son ilegales las asociaciones que persigan fines o utilicen medios tipificados como delito.
 
 Las asociaciones deben inscribirse en un registro a efectos de publicidad. La inscripción no es una autorización constitutiva general.
+
+> ⚠️ **¡Foco Examen!:** **Art. 22.3 CE**: la inscripción de asociaciones es **a los solos efectos de publicidad**. Su **disolución o suspensión** requiere **resolución judicial motivada** (**art. 22.4**).
 
 Solo pueden ser disueltas o suspendidas en sus actividades mediante resolución judicial motivada.
 
@@ -366,6 +374,8 @@ Incluye:
 La ley regula los casos en que, por parentesco o secreto profesional, no exista obligación de declarar sobre hechos presuntamente delictivos.
 
 No todo resultado judicial desfavorable vulnera el artículo 24; la garantía se refiere al acceso y al proceso debido, no a obtener siempre una sentencia favorable.
+
+> ⚠️ **¡Foco Examen!:** **Art. 24**: **tutela judicial efectiva** no garantiza una resolución favorable; sí prohíbe **indefensión** y protege la **presunción de inocencia**, el **juez predeterminado por ley** y el proceso **sin dilaciones indebidas**.
 
 ## 25. Artículo 25 · legalidad sancionadora y finalidad de las penas
 
@@ -645,7 +655,9 @@ Durante los estados de **excepción** o **sitio** pueden suspenderse, en los té
 
 ### Excepción relativa al artículo 17.3
 
-En el estado de excepción no puede suspenderse el apartado 3 del artículo 17, relativo a información de derechos y razones de detención y asistencia de abogado. Esa excepción constitucional no se formula para el estado de sitio.
+En el estado de excepción no puede suspenderse el apartado **3 del artículo 17**, relativo a información de derechos y razones de detención y asistencia de abogado. Esa excepción constitucional no se formula para el estado de sitio.
+
+> ⚠️ **¡Foco Examen!:** **Art. 17.3 CE**: no se suspende en **excepción**. El **art. 17.2** puede ser objeto de suspensión **individual** en investigaciones de terrorismo, con control judicial y parlamentario, en los términos del **art. 55.2**.
 
 ### Alarma no suspende derechos
 
@@ -834,3 +846,45 @@ Antes de aprobar el tema, revisar especialmente:
 **Límite del alcance:** se ha auditado el núcleo de reforma, estructura y garantías y se han corregido contradicciones editoriales. La lectura completa de las explicaciones de todos los **arts. 10–55** y toda la legislación de desarrollo, junto con pruebas de la aplicación web, requiere una fase posterior. **No se declara aún certificación completa.**
 
 > ⚠️ **¡Foco Examen!:** **Entrada en vigor de reforma constitucional** no es lo mismo que la **eficacia diferida de una disposición transitoria**. En **2026** se separan las circunscripciones de **Ibiza y Formentera**, pero su aplicación electoral se pospone al siguiente proceso al Senado en los términos del BOE.
+
+
+---
+
+## 69. Auditoría focal de los artículos **10 a 55** — **28/10/2026**
+
+**Fuente constitucional primaria:** [Constitución Española, versión consolidada BOE con última actualización publicada el **20/05/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229). El texto consolidado tiene finalidad informativa: para valor jurídico de una reforma concreta debe consultarse su publicación oficial.
+
+### 69.1. Matriz de derechos, grado de tutela y trampa
+
+| Artículos | Derecho o institución | Tutela o condición clave |
+|---|---|---|
+| **10–13** | Dignidad, nacionalidad, mayoría de edad, extranjería | **18 años** (art. 12); no se puede privar de nacionalidad a **español de origen** (art. 11.2) |
+| **14** | Igualdad y no discriminación | **Amparo** pese a estar **fuera de Sección 1.ª** |
+| **15–29** | Derechos fundamentales y libertades públicas | Tutela preferente y sumaria y **amparo** (art. 53.2) |
+| **17.2** | Detención preventiva | Tiempo **estrictamente necesario**, máximo **72 horas**; no constituye período ordinario automático |
+| **18.2 / 18.3** | Domicilio / secreto de comunicaciones | **Domicilio:** consentimiento, resolución judicial o delito flagrante; **comunicaciones:** resolución judicial como excepción literal |
+| **20.1.a / 20.1.d** | Expresión / información | **Opinión** frente a **información veraz** |
+| **21 / 22** | Reunión / asociación | **Comunicación previa**, no autorización en manifestaciones; registro asociativo **a efectos de publicidad** |
+| **24 / 25** | Tutela judicial / legalidad sancionadora | Prohibición de **indefensión**; **legalidad previa** de infracciones y sanciones |
+| **30.2** | Objeción de conciencia | Excepción: **amparo** aunque fuera de los arts. **15–29** |
+| **30–38** | Derechos y deberes ciudadanos | Protección del **53.1**, pero **no todos** acceden a amparo |
+| **39–52** | Principios rectores | Alegación judicial según **leyes de desarrollo** (art. 53.3) |
+| **49 (reforma 2024)** | Derechos de personas con discapacidad | Texto vigente centrado en libertad, igualdad, autonomía, inclusión y accesibilidad; no usar redacción anterior |
+| **53–54** | Garantías y Defensor del Pueblo | **53.2:** amparo de **14**, **15–29** y **30.2**; **54:** alto comisionado de las **Cortes Generales** |
+| **55.1** | Suspensión general | **Excepción y sitio**, **no alarma**; solo derechos expresamente enumerados |
+| **55.2** | Suspensión individual | Solo **17.2, 18.2 y 18.3** y con **intervención judicial** y **control parlamentario** |
+
+### 69.2. Esquema comparativo exacto de suspensión
+
+| Régimen | Presupuesto | Artículos/garantías susceptibles de suspensión |
+|---|---|---|
+| **Estado de alarma** | Declaración en los términos del art. **116 CE** y LO **4/1981** | **No habilita suspensión del art. 55.1** |
+| **Estado de excepción** | Art. **55.1** | **17** salvo **17.3**; **18.2**, **18.3**, **19**, **20.1.a**, **20.1.d**, **20.5**, **21**, **28.2** y **37.2** |
+| **Estado de sitio** | Art. **55.1** | Misma enumeración, **sin** la salvedad expresa de **17.3** establecida para excepción |
+| **Suspensión individual** | Art. **55.2**; investigaciones relacionadas con bandas armadas o elementos terroristas | Solo **17.2**, **18.2** y **18.3**, con intervención judicial y control parlamentario |
+
+> ⚠️ **¡Foco Examen!:** **Suspensión general** no equivale a **suspensión individual**. El **art. 55.2** **no** permite suspender el **art. 17.3**, el derecho de reunión (**21**) ni la huelga (**28.2**).
+
+### 69.3. Control editorial de alcance
+
+Este bloque documenta el cotejo **focal** de derechos especialmente preguntables. **No constituye certificación de la exposición literal de cada artículo, ni auditoría de toda la jurisprudencia o leyes orgánicas de desarrollo**. Persisten trabajo editorial y revisión completa de los **arts. 10–55**, las garantías procesales y el diseño de ejercicios. Se mantiene la etiqueta **BORRADOR**.
