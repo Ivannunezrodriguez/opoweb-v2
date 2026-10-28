@@ -2,7 +2,7 @@
   "tema": 1,
   "estado": "BORRADOR_TEST_DOCUMENTADO",
   "version": "2026-10-28",
-  "criterio": "17 preguntas originales verificadas por artículos del BOE (CE, LOTC, LO 3/1981 y LO 4/1981). No son preguntas oficiales; manual aún BORRADOR.",
+  "criterio": "20 preguntas originales para practicar Constitución, garantías y suspensión. Tres supuestos nuevos de detención, excepción y amparo. Fuentes BOE; no son preguntas oficiales; manual BORRADOR.",
   "preguntas": [
     {
       "id": "DT-C2-T1-001",
@@ -241,11 +241,53 @@
       "justificacion": "El **artículo 116.4 CE** atribuye la declaración del **estado de sitio** al **Congreso de los Diputados**, por **mayoría absoluta**, a **propuesta exclusiva del Gobierno**. El Congreso determina ámbito, duración y condiciones.",
       "trampaExamen": "**Sitio: Congreso + mayoría absoluta + propuesta exclusiva del Gobierno**; no confundir con **excepción**, declarada por Gobierno con autorización previa del Congreso.",
       "referencia": "Constitución Española art. 116.4 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DT-C2-T1-018",
+      "enunciado": "Una investigación policial ha concluido las averiguaciones necesarias a las 18 horas de la detención. ¿Puede mantenerse detenida a la persona hasta cumplir siempre las 72 horas constitucionales?",
+      "opciones": [
+        "Sí, la detención debe durar exactamente 72 horas",
+        "No: debe durar solo lo estrictamente necesario; 72 horas es el límite máximo general",
+        "Sí, siempre que lo autorice verbalmente un agente",
+        "No, toda detención tiene un máximo de 12 horas"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **artículo 17.2 de la Constitución** establece que la detención preventiva **no puede durar más del tiempo estrictamente necesario** para las averiguaciones y, en todo caso, en un **máximo de 72 horas** debe ponerse al detenido en libertad o a disposición judicial.",
+      "trampaExamen": "**72 horas** no es tiempo mínimo ni duración automática; es el máximo general.",
+      "referencia": "CE art. 17.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DT-C2-T1-019",
+      "enunciado": "En un estado de excepción, ¿qué condición recoge el artículo 16 de la LO 4/1981 para una detención excepcional de hasta diez días?",
+      "opciones": [
+        "Puede aplicarse automáticamente a cualquier persona y sin intervención judicial",
+        "Basta con la mera proclamación del estado excepcional, sin sospechas",
+        "Requiere autorización posterior del Senado, sin informar a jueces",
+        "Debe ser necesaria para conservar el orden, existir al menos sospechas fundadas de futuras alteraciones y comunicar la detención al juez en 24 horas"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El **art. 16 LO 4/1981** permite detención en **estado de excepción** cuando sea necesaria para conservar el orden y existan al menos **sospechas fundadas** de que se producirán alteraciones del orden público. El máximo es **10 días** y se comunica al **juez en 24 horas**, conservando garantías del **art. 17.3 CE**.",
+      "trampaExamen": "**10 días no es automático** y no elimina aviso al **juez en 24 horas**; no trasladar esa facultad al estado de alarma.",
+      "referencia": "LO 4/1981 art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774"
+    },
+    {
+      "id": "DT-C2-T1-020",
+      "enunciado": "Una vulneración susceptible de amparo se atribuye de modo inmediato y directo a una resolución judicial. ¿Qué plazo establece el artículo 44.2 LOTC una vez cumplidos sus requisitos?",
+      "opciones": [
+        "Tres meses desde publicación en el BOE",
+        "Veinte días desde la actuación administrativa inicial",
+        "Treinta días desde notificación de la resolución recaída en el proceso judicial",
+        "Un año desde que se conoce la lesión"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Las lesiones imputables **directa e inmediatamente** a un **órgano judicial** se tramitan por **art. 44 LOTC**; el plazo de su apartado **2** es **30 días** desde la notificación de la resolución recaída en el proceso judicial. Deben agotarse previamente los medios procedentes y cumplirse otros requisitos legales.",
+      "trampaExamen": "**44 LOTC = 30 días**; **43 LOTC = 20 días** cuando la lesión se origina en actuación **administrativa**, aunque exista una resolución judicial posterior.",
+      "referencia": "LOTC art. 44.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709"
     }
   ],
   "auditoria": {
     "fecha": "2026-10-28",
-    "preguntasRevisadas": 17,
+    "preguntasRevisadas": 20,
     "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
     "actualizacionTextoConsolidado": "20/05/2026",
     "articulos": [
@@ -268,9 +310,12 @@
       "LOTC 42–44",
       "LO 3/1981 2 y 15",
       "CE 116",
-      "LO 4/1981 6"
+      "LO 4/1981 6",
+      "CE 17.2",
+      "LO 4/1981 16",
+      "LOTC 44.2"
     ],
-    "resultado": "Añadidas T1-013–017 sobre amparo LOTC 42–44, Defensor del Pueblo LO3/1981 y estado de alarma/sitio CE116.",
+    "resultado": "20 preguntas con estructura validada y referencias; nuevas T1-018–020 sobre 72 horas, art. 16 LO 4/1981 y art. 44 LOTC.",
     "limitacion": "Auditoría documental de test y núcleos del manual; revisión integral de derechos 10–55 y funcional pendiente."
   }
 }
