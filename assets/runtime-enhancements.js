@@ -1,4 +1,4 @@
-const VERSION = '0.27.30';
+const VERSION = '0.27.31';
 const modules = [
   './study-progress.js',
   './test-history.js',
