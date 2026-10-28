@@ -816,3 +816,18 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 > ⚠️ **¡Foco Examen!:** **Dirección General OAPGT: art. 14 Estatutos, aprobación de padrón IVTM 2026.** **Recurso de reposición: art. 14.2 TRLRHL, 1 mes** tras exposición de **30 días hábiles**. Coinciden en el **número del artículo (14)** pero se refieren a **normas y funciones distintas**.
 
 **Investigación estatutaria no cerrada:** continúa sin aparecer publicación definitiva comprobada del expediente de reforma **2004**, ni cadena exhaustiva de reformas posteriores. No certificar composición, quórums ni mayorías. El tema permanece **BORRADOR**.
+
+
+---
+
+## 34. Hallazgo institucional independiente: Tribunal de Cuentas sobre OAPGT — **28/10/2026**
+
+**Fuente oficial:** [BOE-A-2025-6457, **31/03/2025**, Informe de fiscalización de la gestión tributaria delegada, apartado **II.1.7 Diputación de Toledo**, p. **43585**](https://www.boe.es/boe/dias/2025/03/31/pdfs/BOE-A-2025-6457.pdf). **Período fiscalizado: ejercicio 2019**. Informe aprobado por el Tribunal de Cuentas **27/10/2022**; resolución de la Comisión Mixta **19/12/2024**.
+
+**Organización descrita para el período fiscalizado:** **Consejo Rector** integrado por **Presidencia, dos Vicepresidencias y cinco vocales**; **Consejo Asesor** compuesto por los miembros del Consejo Rector más **diez alcaldes** elegidos por el **Pleno de la Diputación**, con funciones **consultivas**, **sin funciones ejecutivas**. El informe menciona oficina central y **nueve oficinas territoriales**.
+
+**Importante:** aunque su publicación sea de **2025**, el informe presenta resultados referidos a **2019**. **NO se certifica con esta fuente la composición en 2026**. La fuente ofrece corroboración independiente de la separación **Consejo Rector / Consejo Asesor**, pero no sustituye el texto definitivamente aprobado de los Estatutos ni sus modificaciones.
+
+**Resultado:** añadido el bloque **19** al manual del tema 6, con matriz de jerarquía y límites probatorios. **No se añaden preguntas que presenten cifras de 2019 como estatutos vigentes**. El banco permanece en **166 preguntas totales**, **27 provisionales del tema 6**, y el manual continúa **BORRADOR NO CERTIFICADO**.
+
+> ⚠️ **¡Foco Examen!:** **Consejo Rector** con funciones ejecutivas frente a **Consejo Asesor** consultivo según la fiscalización. No trasladar el número de integrantes documentado en **2019** al examen de **2026** sin cotejar la disposición estatutaria vigente.
