@@ -1,10 +1,9 @@
-const VERSION = '0.27.28';
+const VERSION = '0.27.30';
 const modules = [
   './study-progress.js',
   './test-history.js',
   './error-review.js',
-  './theme-test-link.js',
-  './test-answer-fix.js'
+  './theme-test-link.js'
 ];
 
 function loadEnhancements() {
