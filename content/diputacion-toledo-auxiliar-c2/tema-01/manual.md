@@ -888,3 +888,101 @@ Antes de aprobar el tema, revisar especialmente:
 ### 69.3. Control editorial de alcance
 
 Este bloque documenta el cotejo **focal** de derechos especialmente preguntables. **No constituye certificación de la exposición literal de cada artículo, ni auditoría de toda la jurisprudencia o leyes orgánicas de desarrollo**. Persisten trabajo editorial y revisión completa de los **arts. 10–55**, las garantías procesales y el diseño de ejercicios. Se mantiene la etiqueta **BORRADOR**.
+
+
+---
+
+## 70. Desarrollo legal de las garantías: amparo constitucional — **28/10/2026**
+
+**Norma cotejada:** [**Ley Orgánica 2/1979, de 3 de octubre, del Tribunal Constitucional (LOTC)**, texto consolidado con última modificación integrada publicada el **02/08/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709), **artículos 41 a 56**. El **artículo 53.2 de la Constitución** es la fuente de la protección reforzada; la LOTC regula sus vías y plazos procesales.
+
+### 70.1. Cuadro exacto de plazos de presentación
+
+| Origen directo de la vulneración | Base legal | **Plazo de amparo** | Inicio del cómputo que describe la norma |
+|---|---|---|---|
+| **Actos o decisiones sin valor de ley** de **Cortes Generales** o **Asambleas legislativas de CCAA** y sus órganos | **Art. 42 LOTC** | **3 meses** | Desde que sean **firmes**, conforme a las normas internas parlamentarias |
+| **Gobierno, autoridades o Administración**, tras agotarse la vía judicial procedente | **Art. 43 LOTC** | **20 días** | Desde la **notificación de la resolución** del proceso judicial previo |
+| Acto u omisión de un **órgano judicial** que vulnere de modo inmediato y directo un derecho amparable | **Art. 44 LOTC** | **30 días** | Desde la **notificación de la resolución** recaída en el proceso judicial |
+
+**Requisitos del art. 44 LOTC:** **agotar todos los medios de impugnación** previstos para el caso, imputación **inmediata y directa** al órgano judicial, y **denuncia formal previa** de la lesión tan pronto como sea posible si hubo oportunidad procesal.
+
+**Requisito adicional de admisión — art. 49.1 LOTC:** la demanda debe **justificar la especial trascendencia constitucional** del recurso. La mera alegación de una lesión no hace que se admita automáticamente.
+
+> ⚠️ **¡Foco Examen!:** **42 = 3 meses (actos parlamentarios sin valor de ley)**, **43 = 20 días (Administración tras vía judicial)**, **44 = 30 días (lesión directamente judicial)**. El requisito de **especial trascendencia constitucional** figura en el **art. 49.1**; no basta con indicar que se vulneró un derecho.
+
+### 70.2. Quién puede recurrir y qué puede resolver el Tribunal Constitucional
+
+Conforme a los **arts. 46 y 47 LOTC**, pueden promover el amparo las personas legitimadas según el origen de la lesión, además del **Defensor del Pueblo** y del **Ministerio Fiscal**. El **Ministerio Fiscal** interviene en todos los procesos de amparo.
+
+La **sentencia estimatoria**, según el **art. 55.1 LOTC**, puede incluir declaración de nulidad de la decisión lesiva, reconocimiento del derecho y restablecimiento de la persona recurrente.
+
+**Diferenciar normas:** **art. 55 CE** = suspensión de derechos fundamentales; **art. 55 LOTC** = contenido de la sentencia estimatoria de **amparo**. **Coincidir en el número no significa regular la misma materia**.
+
+> ⚠️ **¡Foco Examen!:** **Defensor del Pueblo** y **Ministerio Fiscal** están legitimados para interponer **recurso de amparo**, pero las quejas al Defensor del Pueblo **no sustituyen la interposición del recurso judicial en su plazo**.
+
+## 71. Defensor del Pueblo — desarrollo legal del **art. 54 CE**
+
+**Norma cotejada:** [**Ley Orgánica 3/1981, de 6 de abril, del Defensor del Pueblo**, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325), especialmente **arts. 1, 2, 5, 6, 9, 15 y 17**.
+
+### 71.1. Elección y duración
+
+| Elemento | Regla de la **LO 3/1981** |
+|---|---|
+| Designación | **Cortes Generales**, a través de **Congreso y Senado** |
+| Mandato | **5 años** (**art. 2.1**) |
+| Comisión Mixta Congreso–Senado | Sus acuerdos se adoptan por **mayoría simple** (**art. 2.3**) |
+| Votación inicial del **Congreso** | **3/5** de sus miembros (**art. 2.4**) |
+| Ratificación inicial del **Senado** | **3/5**, en máximo **20 días** (**art. 2.4**) |
+| Nueva propuesta si falla la votación | En máximo **1 mes**, tras nueva sesión de la comisión (**art. 2.5**) |
+| Vía subsidiaria de designación | **3/5 del Congreso + mayoría absoluta del Senado** (**art. 2.5**) |
+| Inicio del Pleno de elección | Convocatoria del **Congreso** en término **no inferior a 10 días** desde la propuesta (**art. 2.4**) |
+
+El **Defensor del Pueblo** es alto comisionado de las **Cortes Generales**, no delegado del **Gobierno**; desempeña su función con **autonomía**, sin mandato imperativo ni instrucciones de otras autoridades (**art. 6.1**).
+
+> ⚠️ **¡Foco Examen!:** Elegir al **Defensor del Pueblo** no exige **mayoría absoluta del Congreso**: la regla es **3/5 del Congreso y 3/5 del Senado**; subsidiariamente, **3/5 Congreso y mayoría absoluta del Senado**. Su mandato es **5 años**, no **4**.
+
+### 71.2. Quejas e investigación administrativa
+
+Según el **artículo 15 LO 3/1981**:
+
+- La queja debe presentarse **firmada**, identificando nombre, apellidos y domicilio, mediante escrito razonado.
+- Plazo general: máximo **1 año** desde que la persona tuvo **conocimiento de los hechos**.
+- Actuaciones **gratuitas**; **no** se exige **abogado ni procurador**; se acusa recibo.
+
+El Defensor puede investigar actuaciones de la Administración y formular **advertencias, recomendaciones, recordatorios de deberes legales y sugerencias**. **No anula por sí mismo resoluciones judiciales ni actos administrativos** como lo haría un órgano jurisdiccional o administrativo competente.
+
+> ⚠️ **¡Foco Examen!:** Para presentar una **queja al Defensor del Pueblo**: **1 año** desde que se conocen los hechos, **gratis** y **sin necesidad de abogado o procurador**. **No es un recurso de amparo** y no debe confundirse con sus plazos procesales de **20 o 30 días**.
+
+## 72. Estados de alarma, excepción y sitio — **art. 116 CE** y **LO 4/1981**
+
+**Fuentes:** [**Constitución Española, art. 116**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) y [**Ley Orgánica 4/1981, de 1 de junio**](https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774), especialmente **arts. 1–7, 13–16 y 32–36**.
+
+### 72.1. Competencia, duración y control
+
+| Estado | Quién lo declara | Duración y control parlamentario |
+|---|---|---|
+| **Alarma** | **Gobierno**, mediante decreto aprobado en **Consejo de Ministros** | Máximo inicial **15 días**; se da cuenta inmediatamente al **Congreso**. La prórroga requiere **autorización del Congreso** |
+| **Excepción** | **Gobierno**, mediante decreto en **Consejo de Ministros**, **previa autorización del Congreso** | Hasta **30 días**, prorrogables por **otros 30** con los mismos requisitos |
+| **Sitio** | **Congreso de los Diputados**, por **mayoría absoluta**, a **propuesta exclusiva del Gobierno** | **Congreso** determina ámbito territorial, duración y condiciones; **no existe máximo constitucional de 30 días** equiparable al de excepción |
+
+En los **tres estados**, las declaraciones deben publicarse **inmediatamente en el BOE**; la **LO 4/1981, art. 2**, establece su entrada en vigor **desde el instante de publicación**.
+
+**Advertencia:** los **15 días** son el **máximo inicial de la declaración del estado de alarma**, no un límite fijo para todas sus prórrogas. Para la **excepción**, el máximo **30 + 30 días** está expresamente regulado.
+
+> ⚠️ **¡Foco Examen!:** **Alarma = Gobierno, 15 días iniciales, Congreso autoriza prórroga**. **Excepción = Gobierno con autorización previa del Congreso, 30 + 30 días**. **Sitio = Congreso por mayoría absoluta a propuesta exclusiva del Gobierno**. El **estado de alarma no habilita suspensión del art. 55.1 CE**.
+
+### 72.2. Garantías comunes
+
+La declaración de cualquiera de los tres estados **no interrumpe** el normal funcionamiento de los poderes constitucionales (**art. 116.5 CE** y **art. 1.4 LO 4/1981**), **ni modifica el principio de responsabilidad del Gobierno y sus agentes** (**art. 116.6 CE**).
+
+Según el **art. 3 LO 4/1981**, los actos y disposiciones de las Administraciones Públicas adoptados durante estos estados **son impugnables judicialmente**. En las condiciones legales, procede **indemnización** por daños que no sean imputables al afectado.
+
+En el **estado de excepción**, el **art. 16 LO 4/1981** contempla detenciones de hasta **10 días** en sus supuestos específicos, con **comunicación al juez en 24 horas**, manteniéndose las garantías del **art. 17.3 CE**. **No afirmar que este límite excepcional sustituya siempre al máximo ordinario de 72 horas del art. 17.2**.
+
+> ⚠️ **¡Foco Examen!:** **72 horas** es el máximo ordinario constitucional de detención preventiva (**art. 17.2 CE**). **10 días** aparece en el **art. 16 LO 4/1981** para supuestos específicos de **estado de excepción**, con **aviso judicial en 24 horas**. **No aplicar los 10 días al estado de alarma**.
+
+## 73. Alcance y estado de esta auditoría
+
+**Verificados con fuente primaria en esta fase:** plazos de los **arts. 42–44 LOTC**; elección, mandato y quejas del Defensor del Pueblo (**LO 3/1981**); competencia, duraciones y garantías esenciales de los estados (**CE 116 y LO 4/1981**).
+
+**Pendiente antes de certificación integral:** revisión exhaustiva de todas las variantes procesales, jurisprudencia constitucional relevante y resto de leyes de desarrollo; pruebas de visualización y navegación del portal. **El tema 1 continúa BORRADOR; esta ampliación no equivale a aprobación final de todos sus apartados**.
