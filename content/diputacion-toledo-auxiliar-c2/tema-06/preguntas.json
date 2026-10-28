@@ -1,8 +1,8 @@
 {
   "tema": 6,
   "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
-  "version": "2026-10-27",
-  "criterio": "25 preguntas provisionales, referidas a artículos y actuaciones oficialmente publicados hasta 2026; las dos últimas se basan en BOP 225/2017 (sede) y 284/2011 (disposición sancionadora). Sin certificación del Estatuto integral vigente.",
+  "version": "2026-10-28",
+  "criterio": "27 preguntas provisionales de aprendizaje vinculadas a fuentes institucionales, estatutarias históricas y actos oficiales hasta 2026; la aprobación definitiva de la reforma de 2004 y el Estatuto completo vigente aún no están certificados.",
   "preguntas": [
     {
       "id": "DT-C2-T06-001",
@@ -353,10 +353,38 @@
       "justificacion": "La disposición adicional añadida por el ordinal **quinto** del **BOP Toledo 284/2011** dispone que la tramitación instructora corresponda a los titulares de puestos o unidades conforme al **organigrama aprobado por el Consejo Rector**. La **Presidencia** publica en el BOP la identidad del titular del órgano instructor. Un anuncio de **2019** la atribuye erróneamente a 1996; el anuncio modificativo de **2011** acredita su adición.",
       "trampaExamen": "**Consejo Rector**: organigrama. **Presidencia del OAPGT**: publicación de identidad. No confundir publicación modificativa de **2011** con cita histórica errónea de **2019**.",
       "referencia": "BOP Toledo 284/2011, modificación ordinal quinto · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
+    },
+    {
+      "id": "DT-C2-T06-026",
+      "enunciado": "Según la Resolución 3902/2026 publicada en el BOP Toledo n.º 36, de 24/02/2026, ¿qué órgano del OAPGT aprobó los padrones del IVTM de 2026 invocando el artículo 14 de los Estatutos?",
+      "opciones": [
+        "El Pleno de todos los Ayuntamientos afectados",
+        "El Tribunal Económico-Administrativo Central",
+        "El Consejo de Gobierno de Castilla-La Mancha",
+        "El Director General del OAPGT"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La **Resolución 3902/2026, de 17/02/2026**, publicada en el **BOP Toledo n.º 36 de 24/02/2026, página 3**, identifica al **Director General del OAPGT** como órgano que aprueba los padrones del **IVTM 2026**, invocando el **artículo 14 de sus Estatutos**. Es evidencia oficial de esa competencia concreta en 2026, no del catálogo estatutario íntegro.",
+      "trampaExamen": "La **Dirección General** aprueba este padrón; no atribuirlo al **Consejo Rector**. **Artículo 14 de los Estatutos** no es el artículo 14.2 de la **Ley de Haciendas Locales**, que regula el recurso de reposición.",
+      "referencia": "BOP Toledo n.º 36, 24/02/2026, página 3, Resolución 3902/2026 · https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026"
+    },
+    {
+      "id": "DT-C2-T06-027",
+      "enunciado": "En el anuncio del padrón del IVTM 2026 publicado por el OAPGT el 24/02/2026, ¿cuándo comienza el plazo de un mes para interponer recurso de reposición?",
+      "opciones": [
+        "Desde el día siguiente a la finalización de los 30 días hábiles de exposición de los padrones",
+        "Desde el mismo día de publicación del BOP, sin exposición",
+        "Cuando termina el plazo voluntario de pago, siempre",
+        "Treinta días naturales después de la firma del Director General"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El **BOP 36/2026, página 3**, fija **30 días hábiles de exposición pública de los padrones**. El plazo para el recurso de reposición es **un mes contado desde el día siguiente a la finalización** de dicha exposición, según el anuncio y el **artículo 14.2 del TRLRHL**.",
+      "trampaExamen": "**30 días hábiles** = exposición; **1 mes** = recurso desde fin de exposición. No confundir estos plazos ni trasladarlos a los quórums del Consejo Rector.",
+      "referencia": "BOP Toledo n.º 36, 24/02/2026, página 3, apartado primero del anexo · https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026"
     }
   ],
   "auditoria": {
-    "fecha": "2026-10-27",
+    "fecha": "2026-10-28",
     "estado": "PARCIAL",
     "fuentes": [
       "https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes",
@@ -372,7 +400,8 @@
       "https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
       "https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026",
       "https://bop.diputoledo.es/webEbop/DocGet?id=17110192%3B0&insert_number=5876&insert_year=2017",
-      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=188&insert_year=2019&publication_date=03102019"
+      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=188&insert_year=2019&publication_date=03102019",
+      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026"
     ],
     "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
     "pendiente": [
@@ -380,7 +409,7 @@
       "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
       "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
     ],
-    "observacion": "27/10/2026: añadidas T06-024 y T06-025 tras cotejo BOP 225/2017 y 284/2011; detectada en BOP 188/2019 atribución histórica incorrecta de disposición incorporada en 2011.",
-    "preguntasRevisadas": 25
+    "observacion": "28/10/2026: añadidas T06-026 y T06-027 con BOP 36/2026 (art. 14 Estatutos, padrones IVTM y distinción exposición 30 días hábiles/recurso un mes). Siguen pendientes Estatutos consolidados y reforma 2004 definitiva.",
+    "preguntasRevisadas": 27
   }
 }
