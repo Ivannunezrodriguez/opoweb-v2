@@ -831,3 +831,22 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 **Resultado:** añadido el bloque **19** al manual del tema 6, con matriz de jerarquía y límites probatorios. **No se añaden preguntas que presenten cifras de 2019 como estatutos vigentes**. El banco permanece en **166 preguntas totales**, **27 provisionales del tema 6**, y el manual continúa **BORRADOR NO CERTIFICADO**.
 
 > ⚠️ **¡Foco Examen!:** **Consejo Rector** con funciones ejecutivas frente a **Consejo Asesor** consultivo según la fiscalización. No trasladar el número de integrantes documentado en **2019** al examen de **2026** sin cotejar la disposición estatutaria vigente.
+
+
+---
+
+## 35. Reglamento provincial **2024**, adscripción OAPGT y comprobación independiente de domicilio — **28/10/2026**
+
+**Fuente oficial nueva:** [**BOP Toledo 31 de 14/02/2024**, páginas 26 y siguientes, CSV 2024.00000777](https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf). Texto del **Reglamento de Organización Administrativa de la Diputación** publicado como definitivo, con Decreto de Presidencia **213/2024 de 13/02/2024**; en su exposición de motivos el **OAPGT se integra en el Área de Economía, Hacienda y Presupuestos** de la estructura provincial, porque la Diputación ejerce tutela.
+
+**Cotejo de alcance:** la **adscripción del OAPGT al Presidente de la Diputación** está redactada en el **art. 1.2 estatutario** de la modificación del **BOP 284/2011**. El Reglamento provincial de **2024** habla del **encuadramiento en un área administrativa**, pero la parte cotejada **no contiene derogación expresa de aquel precepto estatutario**. No asumir incompatibilidad jurídica automática ni sustituir la norma estatutaria por el reglamento provincial.
+
+**Nueva fuente de domicilio:** [**BOE-B-2004-298046**, 11/12/2004](https://www.boe.es/diario_boe/txt.php?id=BOE-B-2004-298046&lang=es), cita **Calle Real 4** como sede para una subasta prevista en **enero de 2005**, **antes de que se aprobara inicialmente la reforma estatutaria el 21/12/2004**. La existencia de la sede física no demuestra la aprobación definitiva de la reforma.
+
+[**DIR3 LA0000580**](https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580) registra **Calle Real 4 para el organismo** y **Calle Real 14 para su oficina de registro asociada**. Son datos del directorio, no certificación de un artículo estatutario.
+
+**Nuevas preguntas:** **T06-028** (encuadramiento administrativo según BOP 31/2024) y **T06-029** (distinción de direcciones en DIR3). **29 provisionales en tema 6; 168 preguntas totales** en OpoWeb2: **139** de otros 19 temas más **29** del tema 6.
+
+> ⚠️ **¡Foco Examen!:** El **área provincial de Economía, Hacienda y Presupuestos** (Reglamento **2024**) no es el **Presidente de la Diputación** (adscripción estatutaria publicada en **2011**). Distinguir asimismo **Calle Real 4** (organismo) de **Calle Real 14** (registro asociado).
+
+**Límite legal:** tras búsquedas dirigidas en BOP/hemeroteca y documentos de **2005**, no se ha identificado la **publicación definitiva de la reforma inicialmente aprobada en diciembre de 2004**. Tampoco se ha certificado la cadena exhaustiva de reformas posteriores; el **tema 6 permanece BORRADOR**, sin quórums, mayorías ni composición vigente confirmados.
