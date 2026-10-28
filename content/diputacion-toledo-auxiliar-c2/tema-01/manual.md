@@ -1047,3 +1047,44 @@ Los siguientes casos son **supuestos didácticos originales**, no preguntas ofic
 ## 75. Cierre de coherencia de esta fase
 
 Se han eliminado instrucciones de revisión dirigidas al opositor, se ha precisado el supuesto **excepcional** del **art. 16 LO 4/1981** y se han incorporado **seis casos de aplicación**. Sigue pendiente la **auditoría jurídica completa de cada apartado**, junto con pruebas de navegación y visualización de OpoWeb2. **Estado: BORRADOR NO CERTIFICADO.**
+
+
+---
+
+## Auditoría de garantías y suspensión · Contraste BOE de 29/10/2026
+
+### Plazos del recurso de amparo (LOTC, artículos 42 a 44)
+
+| Origen de la lesión | Artículo | Plazo de interposición | Inicio del cómputo |
+|---|---|---|---|
+| Actos parlamentarios **sin valor de ley** de las Cámaras o asambleas autonómicas | **42 LOTC** | **3 meses** | Desde que sean **firmes**, conforme a normas internas |
+| Actuación gubernativa o administrativa, agotada la vía judicial procedente | **43 LOTC** | **20 días** | Desde la **notificación de la resolución del proceso judicial previo** |
+| Lesión imputable **inmediata y directamente a órgano judicial** | **44 LOTC** | **30 días** | Desde la **notificación de la resolución recaída en el proceso judicial** |
+
+El amparo no se confunde con un recurso administrativo ordinario: hay requisitos de legitimación, subsidiariedad y admisión propios de la **Ley Orgánica 2/1979**, especialmente la justificación de la **especial trascendencia constitucional** de la demanda (artículo **49.1 LOTC**).
+
+> ⚠️ **¡Foco Examen!:** **Parlamento = 3 meses** desde firmeza; **Administración = 20 días** tras vía judicial; **órgano judicial = 30 días**. El plazo de **20 días** no se cuenta desde el acto administrativo inicial.
+
+### Detención ordinaria y durante el estado de excepción
+
+| Supuesto | Norma | Regla | Obligación adicional |
+|---|---|---|---|
+| Detención preventiva ordinaria | **Art. 17.2 CE** | Tiempo **estrictamente necesario**, sin superar **72 horas** | Libertad o puesta a disposición judicial dentro del límite |
+| Detención extraordinaria bajo **estado de excepción** en las condiciones legales | **Art. 16 LO 4/1981** | Máximo **10 días** | Comunicación al **juez competente en 24 horas** y respeto al **art. 17.3 CE** |
+
+La detención excepcional solo puede acordarse si es necesaria para la conservación del orden y existen, al menos, **sospechas fundadas** de que la persona vaya a provocar alteraciones del orden público. La **autoridad gubernativa** no dispone de una potestad general e ilimitada para detener.
+
+> ⚠️ **¡Foco Examen!:** **72 horas** es un límite máximo, no un plazo de detención obligatorio. En **estado de excepción**, el artículo **16 LO 4/1981** permite hasta **10 días** bajo requisitos especiales, pero exige comunicar la detención al **juez en 24 horas**.
+
+### Defensor del Pueblo: cifras contrastadas
+
+- Elige inicialmente el **Congreso de los Diputados** por mayoría de **3/5** y ratifica el **Senado** también por **3/5**, en un plazo máximo de **20 días**; ver alternativas legales del artículo **2.5 LO 3/1981**.
+- El mandato dura **5 años** (artículo **2.1**).
+- La presentación ordinaria de quejas tiene plazo máximo de **1 año** desde el conocimiento de los hechos, sin necesidad de **letrado ni procurador** (artículo **15**).
+- Admitida una queja, el jefe del organismo o dependencia remite el informe en plazo máximo de **15 días**, ampliable en las circunstancias previstas (artículo **18.1**).
+
+> ⚠️ **¡Foco Examen!:** No confundir los **20 días** para ratificación inicial del **Senado**, el **año** para presentar la queja y los **15 días** para que el organismo informe al **Defensor del Pueblo**.
+
+**Fuentes oficiales:** [Constitución](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [LOTC](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709), [LO 4/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774), [LO 3/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325).
+
+**Estado de esta ampliación:** preceptos concretos cotejados; no implica certificación completa del tema.
