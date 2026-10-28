@@ -391,7 +391,11 @@ function openTheme(theme, { push = true } = {}) {
   const url = `#${activeCall.id}/tema-${theme.numero}`;
   if (push) history.pushState({ view: 'theme', callId: activeCall.id, theme: theme.numero }, '', url);
   app.innerHTML = `<div class="toolbar sticky-toolbar"><button id="back" class="btn secondary" type="button">← Programa</button><button id="top" class="btn secondary" type="button">↑ Inicio</button></div><section class="panel">${badge(theme)}<h2>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h2><p class="notice">Contenido conectado a la convocatoria ${escapeHtml(activeCall.shortLabel)}.</p></section><article id="manual" class="panel manual"><p>Cargando manual…</p></article><section id="test-slot"></section>`;
-  document.querySelector('#back')?.addEventListener('click', () => history.back());
+  document.querySelector('#back')?.addEventListener('click', () => {
+    history.pushState({ view: 'programme', callId: activeCall.id }, '', location.pathname);
+    renderProgramme(activeSearchQuery);
+    scrollTo({ top: 0, behavior: 'smooth' });
+  });
   document.querySelector('#top')?.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
   loadManual(theme);
   loadQuestions(theme);
@@ -464,10 +468,10 @@ async function boot() {
     const callId = route?.[1] || saved || CALLS[0].id;
 
     if (route) {
-      history.replaceState({ view: 'programme', callId }, '', location.pathname);
-      await loadCall(callId, null, { preserveHistory: true });
-      const theme = activeProgramme.temas.find(item => item.numero === Number(route[2]));
-      if (theme && isThemeAvailable(theme)) openTheme(theme);
+      // Conservar el enlace compartido: no borrar el hash ni añadir
+      // una nueva entrada artificial al historial al abrirlo.
+      history.replaceState({ view: 'theme', callId, theme: Number(route[2]) }, '', location.href);
+      await loadCall(callId, Number(route[2]), { preserveHistory: true });
     } else {
       history.replaceState({ view: 'programme', callId }, '', location.pathname);
       await loadCall(callId, null, { preserveHistory: true });
