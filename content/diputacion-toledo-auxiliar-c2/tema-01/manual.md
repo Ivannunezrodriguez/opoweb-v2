@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 1
 
-**Estado editorial:** BORRADOR ADAPTADO · pendiente de revisión normativa específica a octubre de 2026.
+**Estado editorial:** BORRADOR EN AUDITORÍA JURÍDICA · reforma constitucional de 2026 contrastada en BOE; pendiente revisión final artículo por artículo, pruebas de estudio y certificación editorial.
 
 ## 1. Epígrafe oficial literal
 
@@ -90,9 +90,11 @@ A efectos de vigencia y examen, se han aprobado cuatro reformas:
 1. **1992:** artículo 13.2, para permitir sufragio activo y pasivo de extranjeros en elecciones municipales en los términos de tratado o ley y reciprocidad.
 2. **2011:** artículo 135, estabilidad presupuestaria.
 3. **2024:** artículo 49, nueva regulación de los derechos de las personas con discapacidad.
-4. **2026:** artículo 69.3, circunscripciones senatoriales insulares de Ibiza y Formentera.
+4. **2026:** artículo **69.3**, circunscripciones senatoriales insulares separadas para **Ibiza** y **Formentera**, reforma publicada el **20/05/2026** (BOE-A-2026-10881). **Disposición transitoria única:** la eficacia de las nuevas circunscripciones queda **pospuesta hasta la convocatoria de las primeras elecciones al Senado celebradas después de la entrada en vigor**.
 
 No debe confundirse el número de reformas con el número de artículos modificados ni con los procedimientos posibles de reforma.
+
+> ⚠️ **¡Foco Examen!:** **Cuatro reformas**: **13.2 (1992)**, **135 (2011)**, **49 (2024)** y **69.3 (2026)**. La última entra en vigor el **20/05/2026**, pero la eficacia electoral de separar **Ibiza** y **Formentera** espera a las **primeras elecciones al Senado posteriores**. **Entrada en vigor** y **eficacia electoral** no son equivalentes.
 
 ---
 
@@ -129,6 +131,8 @@ Si tampoco se alcanza el acuerdo anterior, la reforma puede aprobarse cuando:
 - el Congreso la apruebe por **mayoría de dos tercios**.
 
 No basta con dos tercios del Congreso por sí solos: se exige previamente la mayoría absoluta del Senado.
+
+> ⚠️ **¡Foco Examen!:** El **art. 167** establece **3/5 en cada Cámara**. Solo en la vía alternativa del **167.2**, tras intentar el acuerdo, cabe **mayoría absoluta del Senado + 2/3 del Congreso**. No es la regla inicial.
 
 ### 6.4. Referéndum
 
@@ -168,6 +172,8 @@ Las Cámaras elegidas deben:
 Aprobada la reforma por las nuevas Cortes, se somete obligatoriamente a referéndum para su ratificación.
 
 Diferencia esencial: en el artículo 167 el referéndum depende de solicitud parlamentaria; en el 168 es obligatorio.
+
+> ⚠️ **¡Foco Examen!:** **Art. 168** = **2/3 de cada Cámara**, **disolución inmediata**, nuevas Cámaras, nueva aprobación por **2/3** y **referéndum obligatorio**. El **artículo 14 CE** está fuera de la Sección 1.ª y no implica por su sola ubicación el procedimiento agravado.
 
 ## 8. Artículo 169 · límite temporal
 
@@ -600,6 +606,8 @@ mediante procedimiento basado en preferencia y sumariedad ante tribunales ordina
 
 El recurso de amparo se aplica también a la objeción de conciencia del artículo 30.2.
 
+> ⚠️ **¡Foco Examen!:** **Amparo constitucional**: **art. 14**, **arts. 15–29** y **objeción de conciencia del art. 30.2**. Los principios rectores **39–52** no tienen en general este recurso por el mero hecho de estar en el Título I.
+
 El amparo es subsidiario: normalmente exige agotar previamente la vía judicial procedente. La Ley Orgánica del Tribunal Constitucional regula sus modalidades, legitimación, plazos y especial trascendencia constitucional.
 
 ### 53.3. Principios rectores, artículos 39 a 52
@@ -642,6 +650,8 @@ En el estado de excepción no puede suspenderse el apartado 3 del artículo 17, 
 ### Alarma no suspende derechos
 
 El estado de alarma puede permitir limitaciones en los términos de la Ley Orgánica 4/1981, pero no activa la suspensión del artículo 55.1. Confundir limitación y suspensión es un error frecuente.
+
+> ⚠️ **¡Foco Examen!:** **Alarma** no habilita suspensión de derechos del **art. 55.1**. La Constitución la contempla para **excepción y sitio**, con la salvedad del **art. 17.3** durante **excepción**.
 
 ## 56. Estado de excepción, síntesis necesaria
 
@@ -807,6 +817,20 @@ Antes de aprobar el tema, revisar especialmente:
 - Revisión jurídica inicial: realizada.
 - Cobertura artículo por artículo: realizada en borrador.
 - Revisión pedagógica humana: **aprobada por el usuario el 17 de julio de 2026**.
-- Preguntas trazables nuevas: no migradas automáticamente; requieren revisión separada.
+- Test del tema 1: **8 preguntas** con revisión documental individual registrada, aún sujeto a auditoría editorial final.
 - Integración en OpoWeb v2: realizada mediante copia exacta controlada.
-- Tema cerrado: **SÍ, aprobado por el usuario**.
+- Revisión pedagógica histórica: **aprobada por el usuario el 17/07/2026**, sin equivaler a certificación jurídica en **octubre de 2026**.
+- **Tema cerrado y certificado en OpoWeb2: NO — BORRADOR**, hasta completar la auditoría jurídica integral y pruebas funcionales.
+
+
+---
+
+## 68. Registro de revisión normativa parcial — **28/10/2026**
+
+**Fuentes primarias consultadas:** [Constitución Española, texto BOE actualizado a 20/05/2026](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229); [Reforma de 19/05/2026, BOE-A-2026-10881](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881); [historial de reformas, Congreso de los Diputados](https://constitucion.congreso.es/constitucion-1978/reformas).
+
+**Contrastes de esta fase:** estructura **169 artículos** y **cuatro reformas**; reglas de los arts. **166–169**; garantías de **53** y suspensión del **55** contrastadas de forma focal; introducidas trampas de examen. **Especial cuidado:** en la reforma del **art. 69.3** de **2026**, la entrada en vigor es inmediata desde publicación (**20/05/2026**) pero su **eficacia para las circunscripciones de Ibiza y Formentera queda diferida** a las primeras elecciones senatoriales posteriores.
+
+**Límite del alcance:** se ha auditado el núcleo de reforma, estructura y garantías y se han corregido contradicciones editoriales. La lectura completa de las explicaciones de todos los **arts. 10–55** y toda la legislación de desarrollo, junto con pruebas de la aplicación web, requiere una fase posterior. **No se declara aún certificación completa.**
+
+> ⚠️ **¡Foco Examen!:** **Entrada en vigor de reforma constitucional** no es lo mismo que la **eficacia diferida de una disposición transitoria**. En **2026** se separan las circunscripciones de **Ibiza y Formentera**, pero su aplicación electoral se pospone al siguiente proceso al Senado en los términos del BOE.
