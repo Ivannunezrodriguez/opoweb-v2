@@ -954,3 +954,28 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 **Límite del control:** la comprobación se centra en coherencia jurídica y uso de fuentes oficiales de estos supuestos, no equivale a una auditoría completa de todos los artículos del **tema 1** ni a pruebas de interfaz. **Estado: BORRADOR, no certificado**.
 
 > ⚠️ **¡Foco Examen!:** No mezclar **72 horas** ordinarias con **10 días** excepcionales (aviso judicial **24 horas**). Tampoco aplicar **30 días del art. 44 LOTC** a toda vulneración administrativa, que se encuadra normalmente en el **art. 43**.
+
+
+---
+
+## 40. Integración web: corrección de renderizado de manual y respuestas — **28/10/2026**
+
+**Archivo de aplicación inspeccionado y modificado:** [assets/app.js](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/assets/app.js). **Archivos de estudio contrastados:** `tema-01/manual.md`, `tema-01/preguntas.json` y programa JSON de la Diputación.
+
+### Hallazgos en el código del visor
+
+| Elemento | Problema confirmado por inspección del código anterior | Corrección aplicada |
+|---|---|---|
+| Enlaces de fuentes en manual | `inlineMarkdown()` reconocía direcciones `https://` desnudas, **pero no** el formato Markdown `[nombre](https://...)`, presente en los manuales | Analizador de **enlaces Markdown HTTPS** y direcciones directas; etiqueta `<a>` con `target="_blank"`, `rel="noopener noreferrer"` |
+| Explicaciones del test | El código utilizaba `escapeHtml(question.explanation)`; por eso mostraba los marcadores `**negrita**` en vez de aplicar formato | `inlineMarkdown(question.explanation)`, igualmente en trampas y referencias |
+| Seguridad de contenido | Los textos de documentos y preguntas deben mantenerse como datos | Escape de fragmentos y atributos; **no** se introduce HTML arbitrario sin escape |
+| Localización de contenido | `themePath()` usa los campos `manual` y `preguntas` del programa si existen | Confirmada por lectura del código la correspondencia de rutas; no se modificó |
+| Test tema 1 | **20 preguntas** con campos `enunciado, opciones, respuestaCorrecta, justificacion, trampaExamen, referencia` | `normaliseQuestions()` contempla esos campos; no precisa migración |
+
+**Limitación de verificación:** se ha realizado una **inspección estática del código fuente conectado** y se han **guardado cambios reales en GitHub**. **No se ha ejecutado una prueba automatizada en navegador ni verificado la versión desplegada de GitHub Pages** en esta fase. Por tanto, no marcar «pruebas funcionales completas» ni dar por certificada la experiencia web.
+
+**Sin cambios en el banco:** **180 preguntas totales**, de ellas **20 del tema 1** y **29 provisionales del tema 6**. La actualización mejora la **presentación de las fuentes y de la retroalimentación**, no acredita nueva revisión de legislación.
+
+> ⚠️ **¡Foco Examen!:** Las **negritas de plazos, mayorías y órganos** deben visualizarse correctamente también en las **justificaciones del test**. Un vínculo Markdown de referencia jurídica debe aparecer como **enlace navegable**, no como sintaxis literal.
+
+**Pendientes técnicos:** ejecución de pruebas de navegador para tablas extensas, retorno desde test, enlaces, móvil y accesibilidad; comprobación de caché/publicación y regresiones en otras convocatorias que comparten `assets/app.js`. **Estado de la fase: corrección de código guardada; validación de navegador pendiente.**
