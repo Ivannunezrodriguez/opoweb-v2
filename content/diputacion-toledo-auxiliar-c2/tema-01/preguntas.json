@@ -2,7 +2,7 @@
   "tema": 1,
   "estado": "BORRADOR_TEST_DOCUMENTADO",
   "version": "2026-10-28",
-  "criterio": "12 preguntas originales con referencia al texto BOE constitucional vigente. Tres incorporadas sobre registro de asociaciones, domicilio/comunicaciones y suspensión individual. No son preguntas oficiales.",
+  "criterio": "17 preguntas originales verificadas por artículos del BOE (CE, LOTC, LO 3/1981 y LO 4/1981). No son preguntas oficiales; manual aún BORRADOR.",
   "preguntas": [
     {
       "id": "DT-C2-T1-001",
@@ -171,11 +171,81 @@
       "justificacion": "El **art. 55.2 CE** permite que una **ley orgánica** determine supuestos de suspensión **individual** de derechos de los artículos **17.2, 18.2 y 18.3**, con **necesaria intervención judicial y adecuado control parlamentario**, en investigaciones relacionadas con bandas armadas o elementos terroristas.",
       "trampaExamen": "**Individual = 17.2, 18.2, 18.3**; no se incluyen **17.3**, **21** ni **28.2**. Requiere **ley orgánica**, intervención judicial y control parlamentario.",
       "referencia": "Constitución Española art. 55.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DT-C2-T1-013",
+      "enunciado": "Según los artículos 42, 43 y 44 de la LOTC, ¿qué combinación de plazos para interponer recurso de amparo es correcta?",
+      "opciones": [
+        "Acto parlamentario sin valor de ley: 20 días; actuación administrativa: 30 días; lesión judicial directa: 3 meses",
+        "Acto parlamentario sin valor de ley: 30 días; actuación administrativa: 3 meses; lesión judicial directa: 20 días",
+        "Todos los recursos de amparo tienen un plazo de 30 días",
+        "Acto parlamentario sin valor de ley: 3 meses; actuación administrativa tras vía judicial: 20 días; lesión judicial directa: 30 días"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La **LOTC, artículos 42, 43 y 44**, fija respectivamente **3 meses**, **20 días** y **30 días**. El art. 42 computa desde firmeza del acto parlamentario; los arts. 43 y 44, desde la notificación de la resolución del proceso judicial previo, con los requisitos respectivos.",
+      "trampaExamen": "**42 → 3 meses; 43 → 20 días; 44 → 30 días.** No aplicar un único plazo de amparo.",
+      "referencia": "LO 2/1979 arts. 42–44, texto consolidado BOE · https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709"
+    },
+    {
+      "id": "DT-C2-T1-014",
+      "enunciado": "¿Cuál es la mayoría requerida para elegir inicialmente al Defensor del Pueblo según el artículo 2.4 de la LO 3/1981?",
+      "opciones": [
+        "Tres quintos del Congreso y tres quintos del Senado",
+        "Mayoría simple del Congreso y absoluta del Senado",
+        "Mayoría absoluta de ambas Cámaras",
+        "Dos tercios del Congreso y mayoría simple del Senado"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El **art. 2.4 LO 3/1981** exige **3/5 de los miembros del Congreso** y ratificación por **3/5 de los del Senado** en máximo **20 días**. Si fracasa el procedimiento, el **art. 2.5** admite **3/5 del Congreso y mayoría absoluta del Senado**.",
+      "trampaExamen": "**Vía inicial 3/5 + 3/5**; **subsidiaria 3/5 Congreso + mayoría absoluta Senado**. Mandato de **5 años**.",
+      "referencia": "LO 3/1981 art. 2.4–5, BOE · https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325"
+    },
+    {
+      "id": "DT-C2-T1-015",
+      "enunciado": "¿En qué plazo general debe presentarse una queja al Defensor del Pueblo según el artículo 15 de la LO 3/1981?",
+      "opciones": [
+        "Quince días desde la publicación de la actuación",
+        "Un año desde que se tuvo conocimiento de los hechos",
+        "Treinta días hábiles desde los hechos",
+        "Tres meses desde la primera consulta"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **art. 15.1 LO 3/1981** fija un **plazo máximo de un año**, contado desde el conocimiento de los hechos objeto de queja. Las actuaciones son **gratuitas** y no requieren **letrado ni procurador**, según **art. 15.2**.",
+      "trampaExamen": "**Queja al Defensor: 1 año**. **Amparo al Constitucional: plazos propios de 3 meses, 20 o 30 días** según origen.",
+      "referencia": "LO 3/1981 art. 15, BOE · https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325"
+    },
+    {
+      "id": "DT-C2-T1-016",
+      "enunciado": "Conforme al artículo 116 CE, ¿cuál de las siguientes afirmaciones sobre declaración y duración inicial de los estados excepcionales es correcta?",
+      "opciones": [
+        "El estado de sitio lo declara el Gobierno durante 15 días",
+        "El estado de excepción lo declara el Congreso por mayoría simple",
+        "El estado de alarma lo declara el Gobierno, por un máximo inicial de 15 días, y necesita autorización del Congreso para prorrogarlo",
+        "El estado de alarma exige autorización previa del Senado"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El **estado de alarma** lo declara el **Gobierno** mediante decreto en **Consejo de Ministros**, por **máximo inicial de 15 días** y dando cuenta al **Congreso**; la prórroga requiere **autorización del Congreso** (**art. 116.2 CE** y **art. 6 LO 4/1981**).",
+      "trampaExamen": "**Alarma: 15 días iniciales**, no 30; el Congreso **autoriza prórroga**, no la declaración inicial.",
+      "referencia": "CE art. 116.2 y LO 4/1981 art. 6 · https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774"
+    },
+    {
+      "id": "DT-C2-T1-017",
+      "enunciado": "Según el artículo 116.4 CE, ¿quién declara el estado de sitio y por qué mayoría?",
+      "opciones": [
+        "El Rey, por mayoría simple del Senado",
+        "El Congreso, por mayoría absoluta y a propuesta exclusiva del Gobierno",
+        "El Gobierno por decreto, previa autorización del Senado",
+        "El Congreso por tres quintos a iniciativa de cualquier diputado"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **artículo 116.4 CE** atribuye la declaración del **estado de sitio** al **Congreso de los Diputados**, por **mayoría absoluta**, a **propuesta exclusiva del Gobierno**. El Congreso determina ámbito, duración y condiciones.",
+      "trampaExamen": "**Sitio: Congreso + mayoría absoluta + propuesta exclusiva del Gobierno**; no confundir con **excepción**, declarada por Gobierno con autorización previa del Congreso.",
+      "referencia": "Constitución Española art. 116.4 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     }
   ],
   "auditoria": {
     "fecha": "2026-10-28",
-    "preguntasRevisadas": 12,
+    "preguntasRevisadas": 17,
     "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
     "actualizacionTextoConsolidado": "20/05/2026",
     "articulos": [
@@ -194,9 +264,13 @@
       "18.2",
       "18.3",
       "22.3",
-      "22.4"
+      "22.4",
+      "LOTC 42–44",
+      "LO 3/1981 2 y 15",
+      "CE 116",
+      "LO 4/1981 6"
     ],
-    "resultado": "Doce preguntas; añadidas tres sobre artículos 18.2-3, 22.3-4 y 55.2; el manual incluye tablas de tutela y suspensión, pero aún no se certifica revisión exhaustiva.",
+    "resultado": "Añadidas T1-013–017 sobre amparo LOTC 42–44, Defensor del Pueblo LO3/1981 y estado de alarma/sitio CE116.",
     "limitacion": "Auditoría documental de test y núcleos del manual; revisión integral de derechos 10–55 y funcional pendiente."
   }
 }
