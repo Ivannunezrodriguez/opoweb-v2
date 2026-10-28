@@ -10,3 +10,16 @@ Los seis test actuales ofrecen una respuesta correcta conforme a los artículos 
 Matices: la delegación no altera la titularidad; la avocación requiere acuerdo motivado; la encomienda es de actividades materiales o técnicas y no transfiere elementos sustantivos.
 
 Estado: auditoría documental del banco realizada, cambios del cuestionario pendientes de guardado.
+
+## Seguimiento de auditoría — 29/10/2026
+
+Se ha vuelto a leer `tema-15/preguntas.json` y se han contrastado las preguntas **DT-C2-T15-005** y **DT-C2-T15-006** con la Ley 40/2015 consolidada (BOE-A-2015-10566), artículos **23.2.b**, **24.3** y **24.4**.
+
+- **DT-C2-T15-005:** la respuesta correcta que figura en el JSON es **cuarto grado** de consanguinidad; el límite de afinidad, aunque no preguntado, es **segundo grado**. Resultado: **CORRECTA**.
+- **DT-C2-T15-006:** la respuesta correcta que figura en el JSON es **tres días** para resolver el superior si la persona recusada niega la causa. La respuesta del recusado al superior es en el **día siguiente**. Resultado: **CORRECTA**.
+
+**Incidencia de seguimiento resuelta:** la recomendación anterior de sustituir estas preguntas ya está aplicada en el banco efectivo; no procede generar nuevos cambios al cuestionario solo para repetirla.
+
+**Limitación:** esta comprobación de dos preguntas no certifica el manual completo ni el resto de temas. Fuente oficial: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
+
+> ⚠️ **¡Foco Examen!:** El plazo de **tres días** corresponde a la decisión del **superior** ante la negativa del recusado; el recusado tiene que manifestarse al **día siguiente**. No intercambiar órganos ni plazos.
