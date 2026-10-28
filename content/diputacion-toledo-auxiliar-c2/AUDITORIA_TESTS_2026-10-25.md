@@ -930,3 +930,27 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 **Control editorial:** la LOTC consolidada tiene versión integrada hasta **02/08/2024**, la LO del Defensor del Pueblo hasta **04/11/2009**. Que una norma no tenga modificaciones nuevas **no demuestra por sí solo un examen jurídico integral de toda su aplicación práctica**. El **tema 1 sigue BORRADOR**; pendientes comprobación extensa de jurisprudencia, limpieza integral de manual y pruebas de interfaz.
 
 > ⚠️ **¡Foco Examen!:** **Amparo: 3 meses / 20 días / 30 días** según **arts. 42/43/44 LOTC**. **Defensor del Pueblo: 5 años, 3/5 + 3/5, queja 1 año**. **Alarma: 15 días iniciales; excepción: 30+30; sitio: Congreso por mayoría absoluta**.
+
+
+---
+
+## 39. Tema 1: auditoría de coherencia y supuestos prácticos — **28/10/2026**
+
+**Normas oficiales contrastadas:** [Constitución Española](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [LOTC 2/1979](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709), [LO 4/1981 de estados excepcionales](https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774), especialmente **art. 16**.
+
+**Hallazgos y actuaciones:**
+
+| Aspecto | Resultado |
+|---|---|
+| Guía de usuario mezclada con manual | Sustituida la sección **66** que pedía al opositor revisar/aprobar el tema por un **control de calidad editorial interno**; la certificación sigue pendiente |
+| Detención ordinaria | Recordatorio: **art. 17.2 CE, tiempo estrictamente necesario, máximo de 72 horas** |
+| Detención excepcional | Precisados los requisitos del **art. 16 LO 4/1981**: estado de **excepción**, necesidad de conservar el orden y sospechas fundadas de futura alteración; **máximo 10 días**, **comunicación judicial en 24 horas**, garantías **17.3 CE** |
+| Amparo | Distinción de lesión **directa e inmediatamente judicial**, **art. 44 LOTC, 30 días**, frente a lesión **administrativa**, **art. 43 LOTC, 20 días** |
+| Práctica en el manual | **Seis casos originales razonados**: detención, reunión/asociación, amparo, alarma, excepción y queja ante Defensor del Pueblo |
+| Test | **T1-018 a T1-020** sobre detención ordinaria, excepción y plazo de amparo; **20 preguntas en el tema 1** |
+
+**Balance:** **180 preguntas** repartidas entre los **20 temas**: **151** en los temas **1–5 y 7–20**, más **29 provisionales del tema 6**.
+
+**Límite del control:** la comprobación se centra en coherencia jurídica y uso de fuentes oficiales de estos supuestos, no equivale a una auditoría completa de todos los artículos del **tema 1** ni a pruebas de interfaz. **Estado: BORRADOR, no certificado**.
+
+> ⚠️ **¡Foco Examen!:** No mezclar **72 horas** ordinarias con **10 días** excepcionales (aviso judicial **24 horas**). Tampoco aplicar **30 días del art. 44 LOTC** a toda vulneración administrativa, que se encuadra normalmente en el **art. 43**.
