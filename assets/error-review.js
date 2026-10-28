@@ -70,6 +70,7 @@ function questionsPath(route) {
   const roots = {
     'la-puebla-auxiliar-administrativo-2026': 'content/la-puebla',
     'diputacion-toledo-administrativo-c1-2026': 'content/diputacion-toledo',
+    'diputacion-toledo-auxiliar-c2-2026': 'content/diputacion-toledo-auxiliar-c2',
     'uc3m-auxiliar-administrativa-c2-2026': 'content/uc3m'
   };
   const root = roots[route.callId];
