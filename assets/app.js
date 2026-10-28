@@ -267,25 +267,40 @@ function callSelector() {
   return `<label class="search-box convocatoria-selector"><span>Convocatoria</span><select id="call-selector">${CALLS.map(call => `<option value="${call.id}" ${call.id === activeCall.id ? 'selected' : ''}>${escapeHtml(call.label)}</option>`).join('')}</select></label>`;
 }
 
+function humanizeApplicationStatus(value) {
+  const known = {
+    SOLICITUD_REGISTRADA_PENDIENTE_ADMISION: 'Solicitud registrada · pendiente de lista de admisión',
+    SOLICITUD_PRESENTADA: 'Solicitud presentada',
+    ADMITIDO_PROVISIONAL: 'Admitido provisionalmente',
+    ADMITIDO_DEFINITIVO: 'Admitido definitivamente',
+    EXCLUIDO_PROVISIONAL: 'Excluido provisionalmente',
+    EXCLUIDO_DEFINITIVO: 'Excluido definitivamente'
+  };
+  const raw = String(value ?? '').trim();
+  if (!raw) return 'Estado de inscripción sin actualizar';
+  return known[raw] || raw.replaceAll('_', ' ').toLowerCase().replace(/^./, char => char.toUpperCase());
+}
+
 function renderTracking() {
   if (!activeTracking?.situacionPersonal) return '';
   const personal = activeTracking.situacionPersonal;
   const convocatoria = personal.convocatoria || activeCall.label;
   const siguienteHito = activeTracking.siguienteHito ? `<div><span>Siguiente hito</span><strong>${escapeHtml(activeTracking.siguienteHito)}</strong></div>` : '';
-  return `<section class="panel tracking-panel" data-tracking-call="${escapeHtml(activeCall.id)}"><div class="section-heading"><div><p class="eyebrow section-eyebrow">Seguimiento personal</p><h2>Plazos y estado de la OPE</h2></div><span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Estoy apuntado' : 'Inscripción no confirmada'}</span></div><div class="personal-status"><div><span>Estado</span><strong>${escapeHtml(personal.estado)}</strong></div><div><span>Convocatoria</span><strong>${escapeHtml(convocatoria)}</strong></div>${siguienteHito}</div><p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad || 'Los datos personales no se publican en el repositorio.')}</p></section>`;
+  return `<section class="panel tracking-panel" data-tracking-call="${escapeHtml(activeCall.id)}"><div class="section-heading"><div><p class="eyebrow section-eyebrow">Seguimiento personal</p><h2>Plazos y estado de la OPE</h2></div><span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Estoy apuntado' : 'Inscripción no confirmada'}</span></div><div class="personal-status"><div><span>Estado</span><strong>${escapeHtml(humanizeApplicationStatus(personal.estado))}</strong></div><div><span>Convocatoria</span><strong>${escapeHtml(convocatoria)}</strong></div>${siguienteHito}</div><p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad || 'Los datos personales no se publican en el repositorio.')}</p></section>`;
 }
 
 function renderProgramme(query = activeSearchQuery) {
   activeSearchQuery = query;
   const themes = activeProgramme.temas;
   const available = themes.filter(isThemeAvailable).length;
-  const pending = themes.length - available;
+  const missing = themes.length - available;
+  const underReview = themes.filter(theme => isThemeAvailable(theme) && themeStatus(theme) === 'BORRADOR').length;
   const term = normalise(query.trim());
   const visible = term
     ? themes.filter(theme => normalise(theme.titulo).includes(term) || searchIndex.get(theme.numero)?.includes(term))
     : themes;
 
-  app.innerHTML = `<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>Programa oficial de <strong>${themes.length} temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>temas oficiales</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${pending}</strong><span>pendientes</span></div></div></section>${renderTracking()}<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca por el título del tema. El manual se carga solo al abrirlo.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
+  app.innerHTML = `<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>Programa oficial de <strong>${themes.length} temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>temas oficiales</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${underReview}</strong><span>en revisión editorial</span></div><div class="summary-card"><strong>${missing}</strong><span>sin contenido</span></div></div></section>${renderTracking()}<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca por el título del tema. El manual se carga solo al abrirlo.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
 
   document.querySelector('#call-selector')?.addEventListener('change', event => {
     activeSearchQuery = '';
