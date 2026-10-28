@@ -795,3 +795,24 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 **Balance:** **164 preguntas** en OpoWeb2: **139** de temas **1–5 y 7–20**, y **25 provisionales** del tema 6. Temas y manuales continúan en estado **BORRADOR**.
 
 > ⚠️ **¡Foco Examen!:** **Titular de sede = OAPGT**, **gestión tecnológica = sistemas**, **gestión administrativa = órganos competentes**. La disposición adicional sobre instructores fue **añadida oficialmente en 2011**, aunque un acto de **2019** la sitúe erróneamente en **1996**.
+
+
+---
+
+## 33. Verificación de competencia de Dirección del OAPGT en acto oficial de **2026** — **28/10/2026**
+
+**Fuente original visualmente contrastada:** [**BOP Toledo n.º 36, 24/02/2026, página 3**, Resolución **3902/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026), dictada **17/02/2026** por la **Dirección General del OAPGT**.
+
+**Hallazgos de examen:**
+- El **Director General** invoca el **art. 14 de los Estatutos** para aprobar los **padrones del IVTM 2026** en municipios que delegaron su gestión.
+- El anuncio establece **30 días hábiles** de **exposición** del padrón; **1 mes** para el **recurso de reposición**, contado **desde el día siguiente al final de la exposición** (art. **14.2 TRLRHL**).
+- El período de pago del **IVTM de ese padrón 2026** es **01/03/2026–04/05/2026**, ambos inclusive: **dato del caso**, no plazo estatutario general.
+- El **art. 14 de los Estatutos OAPGT** invocado en la aprobación es diferente del **art. 14.2 TRLRHL** citado para el recurso de reposición.
+
+**Contraste histórico de fuentes:** la reproducción de los Estatutos iniciales publicada el **11/10/1996** señala **Plaza de la Merced 4** como domicilio de esa versión histórica; el proyecto inicialmente aprobado el **21/12/2004** menciona **Calle Real 4**. El **[directorio oficial DIR3, unidad LA0000580](https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580)** documenta hoy **Calle Real 4** como dirección administrativa, **sin demostrar por sí mismo la aprobación definitiva de la reforma de 2004**.
+
+**Cambios de banco:** añadidas **T06-026** (órgano que aprueba padrones IVTM según **BOP 36/2026**) y **T06-027** (**30 días hábiles** de exposición frente a **1 mes** de reposición). **Tema 6: 27 preguntas provisionales. OpoWeb2: 166 preguntas en total** (139 de los demás temas y 27 del tema 6).
+
+> ⚠️ **¡Foco Examen!:** **Dirección General OAPGT: art. 14 Estatutos, aprobación de padrón IVTM 2026.** **Recurso de reposición: art. 14.2 TRLRHL, 1 mes** tras exposición de **30 días hábiles**. Coinciden en el **número del artículo (14)** pero se refieren a **normas y funciones distintas**.
+
+**Investigación estatutaria no cerrada:** continúa sin aparecer publicación definitiva comprobada del expediente de reforma **2004**, ni cadena exhaustiva de reformas posteriores. No certificar composición, quórums ni mayorías. El tema permanece **BORRADOR**.
