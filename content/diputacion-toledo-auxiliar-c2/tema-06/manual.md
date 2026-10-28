@@ -712,3 +712,38 @@ La búsqueda ha identificado la **aprobación inicial de 21/12/2004** y el texto
 - **Sí** se incorpora la prueba concreta del **BOP de 2026** sobre aprobación de padrones del IVTM por la **Dirección General**, con cita del **art. 14**.
 - Los **plazos tributarios del caso de 2026** se mantienen expresamente identificados como tales, **no como plazos estatutarios generales**.
 - El tema 6 permanece **BORRADOR, NO CERTIFICADO**.
+
+
+---
+
+## 19. Nueva fuente institucional: **Tribunal de Cuentas**, ejercicio fiscalizado **2019**, publicación BOE de **31/03/2025**
+
+**Fuente primaria de fiscalización (no disposición estatutaria):** [BOE-A-2025-6457, **BOE n.º 77 de 31/03/2025**, informe del Tribunal de Cuentas, apartado **II.1.7 — Diputación Provincial de Toledo**, página impresa **43585**](https://www.boe.es/boe/dias/2025/03/31/pdfs/BOE-A-2025-6457.pdf). Se trata de un informe de **fiscalización referido al ejercicio 2019**, aprobado por el **Pleno del Tribunal de Cuentas el 27/10/2022** y objeto de resolución de la Comisión Mixta de **19/12/2024**. **La fecha de publicación en 2025 no convierte los datos de organización fiscalizados en un organigrama vigente de 2025 o 2026.**
+
+### 19.1. Estructura que describe el informe para el período fiscalizado
+
+| Elemento | Descripción del **Tribunal de Cuentas** para el período fiscalizado | Alcance para OpoWeb2 |
+|---|---|---|
+| **Consejo Rector** | Integra **Presidencia, dos Vicepresidencias y cinco vocalías** designadas entre diputados provinciales | Dato de **organización documentada en fiscalización de 2019**, no composición vigente certificada para **2026** |
+| **Presidencia y Vicepresidencias** | Estructura directiva junto al Consejo Rector | Órganos o cargos distinguidos por la fuente |
+| **Consejo Asesor** | Integrado por los miembros del **Consejo Rector** más **diez alcaldes** elegidos por el **Pleno de la Diputación** | Órgano **consultivo**, sin facultades ejecutivas según el informe |
+| **Representación municipal** | Los **diez alcaldes** participan en el **Consejo Asesor**, no integran por ese solo título el **Consejo Rector** | Diferenciar participación consultiva de facultad decisoria |
+| **Red de atención descrita** | Oficina central y **nueve oficinas territoriales** en el ejercicio objeto de fiscalización | Infraestructura histórica observada, **no dato estructural fijado por los Estatutos** |
+
+La fuente **no resuelve** si hubo reformas estatutarias, cambios de nombramientos o alteraciones orgánicas después del período fiscalizado. Tampoco puede suplir la publicación definitiva de la reforma estatutaria de **2004** ni la cadena completa de modificaciones.
+
+> ⚠️ **¡Foco Examen!:** **Consejo Rector ≠ Consejo Asesor**. Los **diez alcaldes** descritos por el **Tribunal de Cuentas** participan en el **Consejo Asesor**, con función **consultiva**, **no ejecutiva**. Las cifras de composición del informe **se refieren al período fiscalizado (2019)**: **no tratarlas como composición estatutaria definitivamente vigente en 2026**.
+
+### 19.2. Jerarquía de fuentes y contradicciones a resolver
+
+| Evidencia | Qué acredita | Qué no acredita |
+|---|---|---|
+| **BOP 11/10/1996**, Estatutos iniciales | Redacción estatutaria **originaria** | Redacción completa vigente en **2026** |
+| **BOP 23/12/2004**, anuncio de **aprobación inicial** | Propuesta de reforma y exposición de su texto | Su **aprobación definitiva** y entrada en vigor |
+| **BOP 14/12/2011**, modificación estatutaria | Nueva redacción de preceptos específicos (arts. **1, 4, 8 bis, 14**, disposición adicional) | Que no existieran reformas posteriores |
+| **Tribunal de Cuentas**, fiscalización **2019** publicada en **2025** | Organización que la entidad comunicó y el Tribunal describió en su análisis | Estatuto consolidado y composición de **2026** |
+| **BOP de 2023–2026**, actos del OAPGT | Ejercicio de atribuciones concretas citadas en dichos actos | Catálogo **íntegro** de competencias y quórums |
+
+**Próxima prueba bloqueante:** encontrar **texto definitivamente aprobado de la reforma 2004**, y verificar **composición, convocatorias, quórums, votaciones y mayorías** con las normas estatutarias actuales. Hasta entonces, **NO formular preguntas presentando cifras de 2019 como hechos jurídicos vigentes en 2026**.
+
+**ESTADO: BORRADOR PARCIAL — NO CERTIFICADO.**
