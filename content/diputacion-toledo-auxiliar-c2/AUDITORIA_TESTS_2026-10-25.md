@@ -981,3 +981,40 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 > ⚠️ **¡Foco Examen!:** Las **negritas de plazos, mayorías y órganos** deben visualizarse correctamente también en las **justificaciones del test**. Un vínculo Markdown de referencia jurídica debe aparecer como **enlace navegable**, no como sintaxis literal.
 
 **Pendientes técnicos:** ejecución de pruebas de navegador para tablas extensas, retorno desde test, enlaces, móvil y accesibilidad; comprobación de caché/publicación y regresiones en otras convocatorias que comparten `assets/app.js`. **Estado de la fase: corrección de código guardada; validación de navegador pendiente.**
+
+
+---
+
+## 41. Auditoría funcional de navegación y test de OpoWeb2 — **28/10/2026**
+
+**Archivos inspeccionados y modificados:** [`assets/app.js`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/assets/app.js), [`assets/styles.css`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/assets/styles.css), [`index.html`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/index.html). Referencia de contenido: tema 1, `manual.md` y `preguntas.json`.
+
+| Incidencia detectada en código | Corrección aplicada |
+|---|---|
+| Enlace directo `#convocatoria/tema-N` se borraba en `boot()` y se reemplazaba por estado artificial de programa antes de abrirlo | Conservar el **hash** y registrar el estado real del **tema** con `replaceState`, sin duplicar entrada en el historial |
+| Botón **«← Programa»** hacía `history.back()`, que podía enviar al usuario a un sitio anterior o fuera de OpoWeb2 | Navegación explícita al listado mediante `pushState`, `renderProgramme()` y desplazamiento al inicio |
+| Cabecera de `index.html` contenía secuencia literal `\n` entre enlaces de **Radar** y **Practicar** | Sustituida por salto de línea real |
+| Feedback de test sin opción correcta explícita para preguntas erradas o en blanco | Añadido **«Respuesta correcta: …»** con el texto de la opción correspondiente |
+| Resultado del test sin papel semántico para tecnologías de asistencia | Añadido `role="status"` al resumen |
+| Tablas anchas en móvil | Contenedor con `overflow-x:auto`, desplazamiento táctil, `tabindex="0"`, `role="region"` y etiqueta accesible; estilo de foco visible |
+| Despliegue de scripts | Actualizado indicador de versión a **0.27.29** en HTML y parámetros de importación de JS |
+
+**Pruebas ejecutadas contra el código de GitHub** (sin navegador completo):
+
+1. Sintaxis del archivo **`assets/app.js`** mediante compilación JavaScript aislada.
+2. Render de **tabla Markdown**, **«¡Foco Examen!»** y enlace HTTPS en el visor.
+3. Escape de HTML y rechazo de enlace ejecutable con esquema `javascript:`.
+4. Integridad estructural de las **20 preguntas del tema 1** (cuatro opciones, índice válido, ID único).
+5. Comprobación del código del botón de regreso al programa.
+6. Conservación del enlace directo en el arranque.
+7. Presentación explícita de la solución para respuestas erróneas o sin contestar.
+8. Ausencia del `\n` literal en la cabecera.
+9. Estilos de desplazamiento horizontal y foco accesible de tablas.
+
+**Resultado de estas pruebas: 9/9 satisfactorias** (mezcla de pruebas de ejecución aisladas y comprobaciones estáticas, **no** nueve pruebas de navegador).
+
+**Limitación importante:** el acceso externo a la URL pública de GitHub Pages **no devolvió el documento** en esta revisión (error de recuperación). No hay por tanto evidencia para afirmar que la versión ya esté desplegada ni que se haya probado visualmente en móvil o escritorio. Tampoco se ha ejecutado una prueba real de interacción en navegador con teclado y lector de pantalla.
+
+**Balance editorial sin variación:** **180 preguntas totales**; **20 del tema 1** y **29 provisionales del tema 6**. Los manuales mantienen **BORRADOR**.
+
+> ⚠️ **¡Foco Examen!:** La información de **plazos, mayorías y órganos** es más útil cuando el alumno ve, tras fallar, la **opción correcta**, la **justificación** y el enlace a la fuente oficial. Esta mejora afecta a la presentación del test, **no** modifica por sí sola las respuestas jurídicas.
