@@ -68,7 +68,11 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .manual blockquote { margin:1rem 0; padding:.8rem 1rem; border-left:4px solid #f59e0b; background:var(--surface-soft); }
 .manual pre { overflow:auto; padding:1rem; border-radius:10px; background:#07101d; color:#e2e8f0; }
 .manual code { background:var(--surface-soft); padding:.1rem .3rem; border-radius:4px; }
-.table-wrap { overflow-x:auto; margin:1rem 0; border:1px solid var(--border); border-radius:10px; }
+.table-wrap { overflow-x:auto; max-width:100%; margin:1rem 0; border:1px solid var(--border); border-radius:10px; -webkit-overflow-scrolling:touch; }
+.table-wrap:focus-visible { outline:3px solid var(--primary); outline-offset:2px; }
+.table-wrap table { width:100%; }
+.answer-feedback p { margin:.45rem 0; overflow-wrap:anywhere; }
+.answer-feedback a { overflow-wrap:anywhere; }
 table { width:100%; min-width:620px; border-collapse:collapse; }
 th,td { border:1px solid var(--border); padding:.65rem; vertical-align:top; text-align:left; }
 th { background:var(--surface-soft); }
