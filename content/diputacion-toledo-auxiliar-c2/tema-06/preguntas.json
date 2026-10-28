@@ -2,7 +2,7 @@
   "tema": 6,
   "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
   "version": "2026-10-28",
-  "criterio": "27 preguntas provisionales de aprendizaje vinculadas a fuentes institucionales, estatutarias históricas y actos oficiales hasta 2026; la aprobación definitiva de la reforma de 2004 y el Estatuto completo vigente aún no están certificados.",
+  "criterio": "29 preguntas provisionales sobre Acuerdo, TREBEP y organización OAPGT; últimas dos documentan estructura provincial de 2024 y directorio DIR3. No se certifican los Estatutos consolidados.",
   "preguntas": [
     {
       "id": "DT-C2-T06-001",
@@ -381,6 +381,34 @@
       "justificacion": "El **BOP 36/2026, página 3**, fija **30 días hábiles de exposición pública de los padrones**. El plazo para el recurso de reposición es **un mes contado desde el día siguiente a la finalización** de dicha exposición, según el anuncio y el **artículo 14.2 del TRLRHL**.",
       "trampaExamen": "**30 días hábiles** = exposición; **1 mes** = recurso desde fin de exposición. No confundir estos plazos ni trasladarlos a los quórums del Consejo Rector.",
       "referencia": "BOP Toledo n.º 36, 24/02/2026, página 3, apartado primero del anexo · https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026"
+    },
+    {
+      "id": "DT-C2-T06-028",
+      "enunciado": "¿En qué área de la organización de la Diputación de Toledo encuadra al OAPGT la exposición de motivos del Reglamento de Organización Administrativa publicado el 14/02/2024?",
+      "opciones": [
+        "Área de Economía, Hacienda y Presupuestos",
+        "Área de Cultura y Deportes",
+        "Área de Cooperación en Infraestructuras",
+        "Área de Empleo y TIC"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El Reglamento de Organización Administrativa provincial, cuya aprobación definitiva se publica en el **BOP 31/2024**, sitúa al **OAPGT** en el **Área de Economía, Hacienda y Presupuestos**, como entidad de la que la **Diputación** ejerce la tutela. Es una regla de **estructura provincial**, no una modificación expresa del **art. 1.2 estatutario de 2011**, que establece adscripción al **Presidente de la Diputación**.",
+      "trampaExamen": "**Reglamento organizativo de 2024 → Área de Economía, Hacienda y Presupuestos**; **Estatutos de 2011 → adscrito a la Presidencia**. Preguntar siempre por la norma.",
+      "referencia": "BOP Toledo n.º 31 de 14/02/2024, exposición de motivos p. 26, CSV 2024.00000777 · https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf"
+    },
+    {
+      "id": "DT-C2-T06-029",
+      "enunciado": "Según la ficha DIR3 LA0000580 del Punto de Acceso General consultada para el OAPGT, ¿qué dirección corresponde al organismo y cuál a su oficina de registro asociada?",
+      "opciones": [
+        "Organismo en Plaza de la Merced 4; registro en Paseo de la Vega 10",
+        "Organismo y registro en Calle Real 4, necesariamente",
+        "Organismo en Calle Real 14; registro en Calle Real 4",
+        "Organismo en Calle Real 4; oficina de registro asociada en Calle Real 14"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La ficha institucional **DIR3 LA0000580** identifica al **OAPGT en Calle Real 4, Toledo**, y la **oficina de registro general asociada en Calle Real 14, Toledo**. Es un dato del **directorio administrativo**, no la publicación de un artículo estatutario definitivo sobre domicilio.",
+      "trampaExamen": "**Calle Real 4 (OAPGT)** ≠ **Calle Real 14 (registro asociado)**. No afirmar que la diferencia confirma una reforma estatutaria de 2004.",
+      "referencia": "Punto de Acceso General, DIR3 LA0000580 · https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580"
     }
   ],
   "auditoria": {
@@ -401,7 +429,9 @@
       "https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026",
       "https://bop.diputoledo.es/webEbop/DocGet?id=17110192%3B0&insert_number=5876&insert_year=2017",
       "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=188&insert_year=2019&publication_date=03102019",
-      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026"
+      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026",
+      "https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf",
+      "https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580"
     ],
     "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
     "pendiente": [
@@ -409,7 +439,7 @@
       "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
       "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
     ],
-    "observacion": "28/10/2026: añadidas T06-026 y T06-027 con BOP 36/2026 (art. 14 Estatutos, padrones IVTM y distinción exposición 30 días hábiles/recurso un mes). Siguen pendientes Estatutos consolidados y reforma 2004 definitiva.",
-    "preguntasRevisadas": 27
+    "observacion": "Añadidas T06-028 y T06-029 con BOP 31/2024 y ficha DIR3; se distingue adscripción estatutaria 2011, encuadramiento organizativo 2024, sede operativa y oficina de registro.",
+    "preguntasRevisadas": 29
   }
 }
