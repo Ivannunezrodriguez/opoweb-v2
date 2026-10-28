@@ -902,3 +902,31 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 **Límite:** auditoría focal de hechos, tablas y test, **no lectura jurídica completa verificada de toda la legislación complementaria artículo por artículo**. El **tema 1 sigue BORRADOR**, no certificado.
 
 **Balance:** **172 preguntas** (143 de temas 1–5 y 7–20, más **29 provisionales del tema 6**). Se mantiene el bloqueo estatutario del OAPGT.
+
+
+---
+
+## 38. Tema 1: garantías orgánicas y estados excepcionales — **28/10/2026**
+
+**Normativa oficial contrastada:** [LOTC 2/1979 (arts. 41–56)](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709), [LO 3/1981 del Defensor del Pueblo](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325), [LO 4/1981 sobre estados](https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774), [CE art. 116](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229).
+
+| Materia | Resultado verificado para test |
+|---|---|
+| **LOTC art. 42** | Amparo frente actos parlamentarios sin valor de ley: **3 meses** desde firmeza |
+| **LOTC art. 43** | Lesión originada en actuación administrativa, una vez agotada la vía judicial: **20 días** desde notificación judicial |
+| **LOTC art. 44** | Lesión imputable directamente a órgano judicial: **30 días** desde notificación judicial |
+| **LOTC art. 49.1** | Justificar **especial trascendencia constitucional** en demanda de amparo |
+| **LO 3/1981 art. 2** | Elección **Defensor del Pueblo**: mandato **5 años**, inicialmente **3/5 Congreso + 3/5 Senado**; subsidiaria **3/5 Congreso + mayoría absoluta Senado**; ratificación inicial por Senado máximo **20 días** |
+| **LO 3/1981 art. 15** | Queja firmada en **1 año** desde conocimiento de hechos, **gratuita**, sin letrado ni procurador |
+| **CE art. 116.2 / LO 4/1981 art. 6** | Alarma: **Gobierno**, **15 días** máximo inicial; prórroga exige **autorización Congreso** |
+| **CE art. 116.3** | Excepción: **Gobierno**, previa autorización **Congreso**, **30 + 30 días** máximo |
+| **CE art. 116.4** | Sitio: **Congreso** por **mayoría absoluta**, a propuesta exclusiva del **Gobierno** |
+| **LO 4/1981 art. 16** | Detención excepcional en estado de **excepción**: hasta **10 días**, aviso al juez en **24 horas**, art. **17.3 CE** preservado |
+
+**Archivos:** ampliado **manual tema 1** con secciones **70–73**, cuadros comparativos y **bloques de Foco Examen**; incorporadas **T1-013 a T1-017**, cinco preguntas originales con referencias legales. El tema 1 pasa de **12 a 17 preguntas**.
+
+**Balance:** **177 preguntas totales** (148 en temas **1–5 y 7–20**, más **29 provisionales del tema 6**).
+
+**Control editorial:** la LOTC consolidada tiene versión integrada hasta **02/08/2024**, la LO del Defensor del Pueblo hasta **04/11/2009**. Que una norma no tenga modificaciones nuevas **no demuestra por sí solo un examen jurídico integral de toda su aplicación práctica**. El **tema 1 sigue BORRADOR**; pendientes comprobación extensa de jurisprudencia, limpieza integral de manual y pruebas de interfaz.
+
+> ⚠️ **¡Foco Examen!:** **Amparo: 3 meses / 20 días / 30 días** según **arts. 42/43/44 LOTC**. **Defensor del Pueblo: 5 años, 3/5 + 3/5, queja 1 año**. **Alarma: 15 días iniciales; excepción: 30+30; sitio: Congreso por mayoría absoluta**.
