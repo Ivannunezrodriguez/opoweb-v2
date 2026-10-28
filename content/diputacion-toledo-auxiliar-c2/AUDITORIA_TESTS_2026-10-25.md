@@ -1018,3 +1018,34 @@ La búsqueda adicional localizó otras **23 referencias defectuosas** (tema **1:
 **Balance editorial sin variación:** **180 preguntas totales**; **20 del tema 1** y **29 provisionales del tema 6**. Los manuales mantienen **BORRADOR**.
 
 > ⚠️ **¡Foco Examen!:** La información de **plazos, mayorías y órganos** es más útil cuando el alumno ve, tras fallar, la **opción correcta**, la **justificación** y el enlace a la fuente oficial. Esta mejora afecta a la presentación del test, **no** modifica por sí sola las respuestas jurídicas.
+
+
+---
+
+## 42. Incidencia funcional crítica: correctores duplicados y repaso C2 — **28/10/2026**
+
+**Indicio de despliegue aportado por el usuario:** captura de la cabecera de OpoWeb2 mostrando **v0.27.29**. Acredita que el usuario ve esa etiqueta de versión; **no acredita por sí sola que todos los módulos JS estén sincronizados o que se haya completado una prueba en navegador**.
+
+### Problemas confirmados en el código del repositorio
+
+1. **Doble corrección en el mismo formulario:** `assets/test-answer-fix.js` registraba un listener de `submit` en **fase de captura** con **`stopImmediatePropagation()`**, adelantándose al corrector principal `activateTest()` de `assets/app.js`. El módulo capturaba **todos los formularios `#test-form`** e intentaba corregir desde `window.opowebCurrentQuestions`. Esto podía impedir la corrección nativa; en **Auxiliar C2**, la ruta de la convocatoria no existía en el mapa interno del corrector antiguo.
+2. **Desfase de caché:** `assets/runtime-enhancements.js` seguía cargando módulos con versión **0.27.28** mientras la página pública mostraba **0.27.29**.
+3. **Repaso de errores no compatible con C2:** `assets/error-review.js`, función `questionsPath()`, omitía el identificador `diputacion-toledo-auxiliar-c2-2026`. Al intentar repasar errores de esa convocatoria se obtenía **«Convocatoria no compatible»**.
+4. **No se acredita fallo de datos:** el tema 1 mantiene **20 preguntas** con cuatro opciones e índice correcto, pero su validez estructural no garantizaba que ambos correctores interactuaran correctamente.
+
+### Soluciones realizadas
+
+| Archivo | Modificación |
+|---|---|
+| [`assets/runtime-enhancements.js`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/assets/runtime-enhancements.js) | Se **retira de la carga el módulo heredado `test-answer-fix.js`**, para usar el corrector principal de `assets/app.js`, que ya muestra respuesta correcta, justificación, trampa y referencia |
+| [`assets/error-review.js`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/assets/error-review.js) | Se añade la ruta **`content/diputacion-toledo-auxiliar-c2`** al mapa de convocatorias |
+| [`index.html`](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/index.html) | Versión y parámetros de carga actualizados a **v0.27.30** |
+| `assets/runtime-enhancements.js` | Versión interna de módulos alineada a **0.27.30** |
+
+**Pruebas sobre la versión guardada en GitHub:** compilación aislada de **`app.js`**, **`runtime-enhancements.js`** y **`error-review.js`**; comprobaciones estáticas de eliminación de la importación conflictiva, alineación de versiones, ruta C2, tratamiento de respuestas en blanco y cálculo de la penalización, y estructura de las **20 preguntas** del tema 1. **Todas las comprobaciones significativas realizadas fueron satisfactorias**.
+
+**Límite:** no se ejecutó una sesión real de navegador con clics, carga de módulos y envío de formulario; la URL de GitHub Pages no pudo recuperarse mediante la consulta externa. La versión visible en la captura anterior, **v0.27.29**, era **previa** a estos cambios, por lo que no sirve como prueba del despliegue **v0.27.30**.
+
+**Banco sin variación:** **180 preguntas**, **20 del tema 1** y **29 provisionales del tema 6**. **Estados editoriales BORRADOR**.
+
+> ⚠️ **¡Foco Examen!:** En el test de OpoWeb2 deben corregirse con el mismo criterio las respuestas **correctas**, **erróneas** y **en blanco**, mostrando el fundamento jurídico. No debe haber dos módulos que calculen respuestas o notas sobre un mismo envío.
