@@ -239,7 +239,7 @@ Es un derecho con tutela reforzada y recurso de amparo, aunque está situado fue
 
 Todas las personas tienen derecho a la vida y a la integridad física y moral. Nadie puede ser sometido a tortura ni a penas o tratos inhumanos o degradantes.
 
-La Constitución mantiene una referencia a la posible pena de muerte prevista por leyes penales militares para tiempo de guerra. Sin embargo, la **Ley Orgánica 11/1995, de 27 de noviembre**, abolió también esa posibilidad en el Derecho penal militar español. [BOE-A-1995-25953](https://www.boe.es/buscar/doc.php?id=BOE-A-1995-25953). En examen debe distinguirse entre el texto constitucional y el estado actual de la legislación penal.
+La Constitución mantiene una referencia a la posible pena de muerte prevista por leyes penales militares para tiempo de guerra. Sin embargo, la **Ley Orgánica 11/1995, de 27 de noviembre**, abolió también esa posibilidad en el Derecho penal militar español. [BOE-A-1995-25714](https://www.boe.es/buscar/doc.php?id=BOE-A-1995-25714). En examen debe distinguirse entre el texto constitucional y el estado actual de la legislación penal.
 
 ## 16. Artículo 16 · libertad ideológica, religiosa y de culto
 
