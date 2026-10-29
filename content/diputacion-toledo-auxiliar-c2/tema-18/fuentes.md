@@ -1,17 +1,11 @@
-# Fuentes y control de auditoría · Tema 18
+# Fuentes y cierre de contenido — Tema 18 Writer 24
 
-**Epígrafe oficial:** BOP Toledo **n.º 197, 14/10/2026**, Anexo XI, CSV **2026.00004759**.
+**Epígrafe oficial:** BOP Toledo **197/2026**, Anexo XI: «LibreOffice 24 I. Utilización de documentos de texto con LibreOffice 24 Writer».
 
-**Materia:** Writer 24.2.
+**Documento de referencia:** [Writer Guide 24.2, The Document Foundation](https://books.libreoffice.org/en/WG24/WG24.html). Verificados también [combinar correspondencia](https://books.libreoffice.org/en/WG24/WG2414-MailMerge.html) e [índices y tablas de contenido](https://books.libreoffice.org/en/WG24/WG2415-TOCsIndexesBiblios.html).
 
-## Referencia técnica
+**Cierre documental 29/10/2026:** material completo de edición, formato, estilos, páginas, tablas, imágenes, campos, índices, revisión, correspondencia, impresión y exportación. Banco de **20 preguntas** con soluciones y fuentes. La versión exacta utilizada como base es **24.2**, al no especificar versión menor el programa.
 
-- https://books.libreoffice.org/en/WG24/
+**Control de calidad diferenciado:** se revisó el contenido técnico contra la documentación oficial; **no** se efectuó una prueba de la interfaz real de Writer ni del portal web. Se reserva ese control transversal de funcionamiento.
 
-## Pendientes previos a publicación definitiva
-
-- Menús, estilos de página, índices automáticos, tablas, combinación de correspondencia, campos y macros.
-- Preparar preguntas de examen originales con respuesta fundada en la documentación de la versión solicitada cuando proceda.
-- Comprobar que cada subapartado del epígrafe está cubierto; no confundir un borrador con un tema concluido.
-
-> ⚠️ **¡Foco Examen!:** El programa oficial delimita el software o dispositivo; no sustituirlo por otro producto aunque comparta funciones.
+> ⚠️ **¡Foco Examen!:** Para el índice automático hacen falta **estilos de título**, y el índice puede necesitar **actualización** después de modificar los encabezados.
