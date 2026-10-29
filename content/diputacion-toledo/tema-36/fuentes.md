@@ -20,3 +20,12 @@
 El tema se ha elaborado para **LibreOffice 24 y posteriores**, priorizando funcionalidades estables y documentadas oficialmente. Los nombres concretos de menús o iconos pueden variar ligeramente según la versión, el sistema operativo o la personalización de la interfaz.
 
 > ⚠️ **¡Foco Examen!:** En preguntas sobre Calc debe prevalecer la función del comando y no una posición de icono que pueda cambiar entre interfaces.
+
+## Revisión técnica adicional — **29/10/2026**
+
+- [Ayuda oficial de Calc: referencias relativas, absolutas y mixtas](https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html). Incluye ciclo de **F4**: `A1` → `$A$1` → `A$1` → `$A1` → `A1`.
+- [Ayuda oficial de Calc: conteo de valores](https://help.libreoffice.org/latest/es/text/scalc/02/08080000.html). Diferencia **CONTAR** (numéricos) de **CONTARA** (valores no vacíos).
+- [Ayuda oficial de Calc: SUMA](https://help.libreoffice.org/latest/es/text/scalc/01/func_sum.html). Sintaxis y ejemplos en idioma español.
+- [Ayuda oficial de Calc: SI.ERROR](https://help.libreoffice.org/latest/es/text/scalc/01/04060104.html). Control de errores en fórmulas.
+
+**Estado de control:** banco ampliado a **20 preguntas**; manual enriquecido con tabla de referencias y funciones. Pendientes revisión integral de todas las secciones y prueba funcional en OpoWeb.
