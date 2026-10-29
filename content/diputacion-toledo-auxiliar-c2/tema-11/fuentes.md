@@ -1,28 +1,20 @@
-# Tema 11 · Fuentes oficiales y auditoría
+# Tema 11 · Fuentes y cierre editorial
 
-**Apartados:** Principios, delegación, colaboración, obligaciones, gestión y extinción.
+**Programa:** Diputación Toledo Auxiliar Administrativo C2, BOP Toledo **197**, **14/10/2026**, Anexo XI.
 
-**Programa oficial:** BOP de Toledo **n.º 197, de 14/10/2026**, Anexo XI, p. 102; epígrafe literal incluido en `manual.md`.
+**Normas consolidadas verificadas:** [TRLRHL](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), actualización **07/10/2026**; [LGT](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186), actualización **21/12/2024**.
 
-## Legislación primaria
+## Cobertura
 
-- [RDL 2/2004, TRLRHL (BOE-A-2004-4214)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). **Última actualización consolidada publicada: 07/10/2026**.
-- [Ley 58/2003, LGT (BOE-A-2003-23186)](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186). **Última actualización consolidada publicada: 21/12/2024**.
-- [RD 939/2005, Reglamento General de Recaudación](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803). **Última actualización: 31/01/2024**.
-- [RD 520/2005, revisión tributaria](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662).
+| Apartado | Fuentes |
+|---|---|
+| Principios | **LGT 3; TRLRHL 6** |
+| Delegación y colaboración | **TRLRHL 7–8** |
+| Beneficios y compensación | **TRLRHL 9** |
+| Obligaciones y obligados | **LGT 17–48** |
+| Extinción de deuda | **LGT 58–76** |
+| Gestión tributaria | **LGT 117–140** |
 
-## Matriz de control
+**Cierre de contenido:** **29/10/2026**. Manual desarrollado con tablas y casos, más **20 preguntas** de entrenamiento documentadas. La comprobación del navegador continúa como control transversal de la web.
 
-| Bloque del tema | Fundamento | Estado |
-|---|---|---|
-| Principios, delegación, colaboración, obligaciones, gestión y extinción | **TRLRHL arts. 6–12; LGT arts. 17–76, 117–140** | **BORRADOR, pendiente de auditoría completa** |
-
-## Tareas de contraste jurídico
-
-1. Estudiar las reformas de TRLRHL publicadas 30/09, 02/10 y 07/10/2026 y comprobar si afectan cada apartado.
-2. Abrir la redacción vigente de **cada artículo citado**, y documentar coincidencia o discrepancia frente al texto original reutilizado de La Puebla (**julio de 2026**).
-3. Confirmar que no se omiten excepciones, causas de no sujeción, competencias ni regímenes especiales.
-4. Revisar cualquier plazo, porcentaje, cuantía u órgano citado en el manual antes de usarlo en un test.
-5. Crear preguntas y casos de examen con referencia al artículo aplicable y **sin inventar cifras**.
-
-> ⚠️ **¡Foco Examen!:** El TRLRHL fue actualizado el **07/10/2026**. Un manual basado únicamente en la versión de **03/06/2026** puede estar desactualizado. **No considerar este tema PUBLICADO** hasta cerrar la revisión.
+> ⚠️ **¡Foco Examen!:** La prescripción general es de **4 años**, pero el inicio del cómputo depende del derecho; las **sanciones** no integran la **deuda tributaria**.
