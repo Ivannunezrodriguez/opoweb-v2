@@ -39,3 +39,11 @@
 - Definiciones esenciales conservadas con máxima fidelidad normativa.
 - Plazos, porcentajes, cuantías y órganos destacados en **negrita**.
 - Verificación normativa efectuada en **julio de 2026**.
+
+## Actualización de fuente normativa — **29/10/2026**
+
+- [TRLRHL, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): última actualización publicada el **07/10/2026**, posterior a la edición de **03/06/2026** utilizada en la versión original.
+- Artículos comprobados en esta actualización parcial: **61, 65, 72, 75, 78, 82 y 87**, para prelación IBI, valor catastral, tipos, devengo y características del IAE.
+- Banco ampliado a **20 preguntas**. Se mantiene pendiente la auditoría integral del manual y la prueba funcional de los contenidos.
+
+> ⚠️ **¡Foco Examen!:** Separar el **tipo de gravamen del IBI** del **coeficiente de situación del IAE**; tienen naturaleza y unidades diferentes.
