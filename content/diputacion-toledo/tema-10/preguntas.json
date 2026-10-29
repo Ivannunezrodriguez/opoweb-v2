@@ -1,12 +1,17 @@
 {
   "tema": 10,
   "titulo": "Responsabilidad patrimonial de la Administración",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T10-001",
       "pregunta": "Según el artículo 106.2 de la Constitución, ¿qué circunstancia excluye expresamente la indemnización?",
-      "opciones": ["El caso fortuito", "La fuerza mayor", "El funcionamiento normal", "La ausencia de culpa"],
+      "opciones": [
+        "El caso fortuito",
+        "La fuerza mayor",
+        "El funcionamiento normal",
+        "La ausencia de culpa"
+      ],
       "correcta": 1,
       "justificacion": "La Constitución excluye expresamente los casos de fuerza mayor.",
       "trampa": "No confundir fuerza mayor con caso fortuito.",
@@ -15,7 +20,12 @@
     {
       "id": "DIP-T10-002",
       "pregunta": "El daño indemnizable debe ser:",
-      "opciones": ["Hipotético, general y futuro", "Efectivo, evaluable económicamente e individualizado", "Culpable, directo y contractual", "Exclusivamente material"],
+      "opciones": [
+        "Hipotético, general y futuro",
+        "Efectivo, evaluable económicamente e individualizado",
+        "Culpable, directo y contractual",
+        "Exclusivamente material"
+      ],
       "correcta": 1,
       "justificacion": "El daño indemnizable debe ser efectivo, evaluable económicamente e individualizado con relación a una persona o grupo de personas.",
       "trampa": "La lesión también debe ser antijurídica, pero ello no sustituye estos tres requisitos.",
@@ -24,7 +34,12 @@
     {
       "id": "DIP-T10-003",
       "pregunta": "La responsabilidad patrimonial puede derivar de un funcionamiento:",
-      "opciones": ["Solo anormal", "Solo normal", "Normal o anormal", "Únicamente ilícito"],
+      "opciones": [
+        "Solo anormal",
+        "Solo normal",
+        "Normal o anormal",
+        "Únicamente ilícito"
+      ],
       "correcta": 2,
       "justificacion": "La Ley 40/2015 contempla el funcionamiento normal o anormal de los servicios públicos.",
       "trampa": "La responsabilidad objetiva no exige necesariamente un funcionamiento ilícito.",
@@ -33,7 +48,12 @@
     {
       "id": "DIP-T10-004",
       "pregunta": "Con carácter general, el derecho a reclamar prescribe al:",
-      "opciones": ["Mes", "Año", "Dos años", "Cuatro años"],
+      "opciones": [
+        "Mes",
+        "Año",
+        "Dos años",
+        "Cuatro años"
+      ],
       "correcta": 1,
       "justificacion": "El plazo general de prescripción del derecho a reclamar es de un año.",
       "trampa": "No confundir este plazo con los cuatro años de la declaración de lesividad.",
@@ -42,7 +62,12 @@
     {
       "id": "DIP-T10-005",
       "pregunta": "En daños físicos o psíquicos, el plazo para reclamar comienza:",
-      "opciones": ["Siempre el día del accidente", "Al presentar el alta laboral", "Desde la curación o determinación del alcance de las secuelas", "Desde el primer informe médico"],
+      "opciones": [
+        "Siempre el día del accidente",
+        "Al presentar el alta laboral",
+        "Desde la curación o determinación del alcance de las secuelas",
+        "Desde el primer informe médico"
+      ],
       "correcta": 2,
       "justificacion": "En daños físicos o psíquicos, el plazo comienza desde la curación o desde la determinación del alcance de las secuelas.",
       "trampa": "El inicio del cómputo no coincide necesariamente con la fecha del hecho causante.",
@@ -51,7 +76,12 @@
     {
       "id": "DIP-T10-006",
       "pregunta": "El informe del servicio cuyo funcionamiento causó la lesión debe emitirse, como máximo, en:",
-      "opciones": ["5 días", "10 días", "15 días", "1 mes"],
+      "opciones": [
+        "5 días",
+        "10 días",
+        "15 días",
+        "1 mes"
+      ],
       "correcta": 1,
       "justificacion": "El informe del servicio debe emitirse en un plazo máximo de diez días.",
       "trampa": "No confundir este plazo con el correspondiente al trámite de audiencia.",
@@ -60,7 +90,12 @@
     {
       "id": "DIP-T10-007",
       "pregunta": "En la normativa estatal, el dictamen consultivo es preceptivo cuando la indemnización reclamada sea igual o superior a:",
-      "opciones": ["30.000 euros", "50.000 euros", "100.000 euros", "No existe umbral"],
+      "opciones": [
+        "30.000 euros",
+        "50.000 euros",
+        "100.000 euros",
+        "No existe umbral"
+      ],
       "correcta": 1,
       "justificacion": "En la normativa estatal, el dictamen es preceptivo cuando la cuantía reclamada sea igual o superior a 50.000 euros, sin perjuicio de la cuantía autonómica aplicable.",
       "trampa": "La legislación autonómica puede establecer un umbral diferente.",
@@ -69,7 +104,12 @@
     {
       "id": "DIP-T10-008",
       "pregunta": "Transcurridos seis meses sin resolver una reclamación de responsabilidad patrimonial, esta se entiende:",
-      "opciones": ["Estimada", "Desestimada", "Caducada", "Suspendida"],
+      "opciones": [
+        "Estimada",
+        "Desestimada",
+        "Caducada",
+        "Suspendida"
+      ],
       "correcta": 1,
       "justificacion": "Transcurridos seis meses sin resolución expresa, la reclamación puede entenderse desestimada.",
       "trampa": "En responsabilidad patrimonial el silencio no es estimatorio.",
@@ -78,7 +118,12 @@
     {
       "id": "DIP-T10-009",
       "pregunta": "El procedimiento simplificado de responsabilidad patrimonial debe resolverse en:",
-      "opciones": ["15 días", "20 días", "30 días", "3 meses"],
+      "opciones": [
+        "15 días",
+        "20 días",
+        "30 días",
+        "3 meses"
+      ],
       "correcta": 2,
       "justificacion": "La tramitación simplificada debe resolverse en treinta días.",
       "trampa": "No confundir este plazo con el plazo general de seis meses.",
@@ -87,7 +132,12 @@
     {
       "id": "DIP-T10-010",
       "pregunta": "El particular perjudicado por la actuación de un empleado público debe reclamar directamente:",
-      "opciones": ["Al empleado", "Al superior jerárquico", "A la Administración correspondiente", "Al Ministerio Fiscal"],
+      "opciones": [
+        "Al empleado",
+        "Al superior jerárquico",
+        "A la Administración correspondiente",
+        "Al Ministerio Fiscal"
+      ],
       "correcta": 2,
       "justificacion": "El particular debe dirigir su reclamación directamente contra la Administración correspondiente.",
       "trampa": "La eventual acción contra el empleado público es interna y posterior.",
@@ -96,7 +146,12 @@
     {
       "id": "DIP-T10-011",
       "pregunta": "La Administración ejercerá acción de regreso contra su autoridad o empleado cuando concurra:",
-      "opciones": ["Cualquier error", "Dolo, culpa grave o negligencia grave", "Solo dolo", "Culpa leve"],
+      "opciones": [
+        "Cualquier error",
+        "Dolo, culpa grave o negligencia grave",
+        "Solo dolo",
+        "Culpa leve"
+      ],
       "correcta": 1,
       "justificacion": "La acción de regreso exige dolo, culpa grave o negligencia grave.",
       "trampa": "La culpa leve no basta para exigir responsabilidad por esta vía.",
@@ -105,11 +160,128 @@
     {
       "id": "DIP-T10-012",
       "pregunta": "Cuando varias Administraciones actúan conjuntamente mediante fórmulas colegiadas, la responsabilidad frente al particular será, como regla general:",
-      "opciones": ["Mancomunada", "Subsidiaria", "Solidaria", "Inexistente"],
+      "opciones": [
+        "Mancomunada",
+        "Subsidiaria",
+        "Solidaria",
+        "Inexistente"
+      ],
       "correcta": 2,
       "justificacion": "Cuando varias Administraciones actúan conjuntamente, la responsabilidad frente al particular es solidaria como regla general.",
       "trampa": "La distribución interna de responsabilidades entre Administraciones no puede perjudicar al particular.",
       "referencia": "content/diputacion-toledo/tema-10/manual.md#6-responsabilidad-concurrente-de-varias-administraciones"
+    },
+    {
+      "id": "DIP-T10-013",
+      "pregunta": "¿Qué plazo máximo ordinario existe para resolver una reclamación de responsabilidad patrimonial?",
+      "opciones": [
+        "3 meses",
+        "6 meses",
+        "1 año",
+        "30 días"
+      ],
+      "correcta": 1,
+      "justificacion": "Transcurridos **6 meses** sin resolución expresa, puede entenderse desestimada la solicitud de indemnización.",
+      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
+      "referencia": "Ley 39/2015 art. 91.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T10-014",
+      "pregunta": "¿Quién debe ser indemnizado en un daño antijurídico por funcionamiento del servicio público?",
+      "opciones": [
+        "Solo funcionarios",
+        "Solo empresas",
+        "El particular lesionado si reúne los requisitos legales",
+        "Cualquier solicitante sin acreditar perjuicio"
+      ],
+      "correcta": 2,
+      "justificacion": "La lesión debe ser **efectiva**, **evaluable económicamente** e **individualizada**, sin deber jurídico de soportarla.",
+      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
+      "referencia": "Ley 40/2015 art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DIP-T10-015",
+      "pregunta": "¿Cuándo empieza a contar la prescripción por daños físicos o psíquicos?",
+      "opciones": [
+        "El día del acto en todo caso",
+        "El día de presentar la denuncia",
+        "Un año después del alta médica",
+        "Desde curación o determinación del alcance de las secuelas"
+      ],
+      "correcta": 3,
+      "justificacion": "En daños físicos o psíquicos el cómputo comienza desde la **curación** o la determinación del **alcance de las secuelas**.",
+      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
+      "referencia": "Ley 39/2015 art. 67.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T10-016",
+      "pregunta": "¿Cuál es el plazo para emitir el informe preceptivo del servicio causante de la lesión?",
+      "opciones": [
+        "10 días",
+        "15 días",
+        "20 días",
+        "1 mes"
+      ],
+      "correcta": 0,
+      "justificacion": "El informe del servicio debe emitirse en plazo no superior a **10 días**.",
+      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
+      "referencia": "Ley 39/2015 art. 81.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T10-017",
+      "pregunta": "¿Qué requisito exige el artículo 36.2 Ley 40/2015 para repetir contra una autoridad o empleado?",
+      "opciones": [
+        "La mera existencia de daño",
+        "Dolo o culpa o negligencia graves",
+        "Un error material sin más",
+        "La sola presentación de una denuncia"
+      ],
+      "correcta": 1,
+      "justificacion": "La acción de regreso exige **dolo** o **culpa o negligencia graves**, previa instrucción del procedimiento correspondiente.",
+      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
+      "referencia": "Ley 40/2015 art. 36.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DIP-T10-018",
+      "pregunta": "¿Cómo es la responsabilidad en fórmulas conjuntas de actuación de varias Administraciones frente al particular?",
+      "opciones": [
+        "Exclusivamente del municipio",
+        "Siempre solo de la AGE",
+        "Solidaria como regla general",
+        "Responsabilidad inexistente"
+      ],
+      "correcta": 2,
+      "justificacion": "Cuando la actuación administrativa deriva de fórmulas conjuntas de actuación, las Administraciones intervinientes responden **solidariamente** frente al particular, sin perjuicio de previsiones de instrumentos jurídicos.",
+      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
+      "referencia": "Ley 40/2015 art. 33.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DIP-T10-019",
+      "pregunta": "¿Cuál es el umbral general para solicitar dictamen del Consejo de Estado u órgano autonómico consultivo equivalente, si la norma no fija otro?",
+      "opciones": [
+        "3.000 euros",
+        "10.000 euros",
+        "30.000 euros",
+        "50.000 euros"
+      ],
+      "correcta": 3,
+      "justificacion": "Dictamen preceptivo si la indemnización reclamada es **igual o superior a 50.000 euros**, o cifra prevista por legislación autonómica, o en los supuestos de la LO del Consejo de Estado.",
+      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
+      "referencia": "Ley 39/2015 art. 81.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T10-020",
+      "pregunta": "¿Qué ocurre cuando el procedimiento simplificado de responsabilidad patrimonial requiere trámites adicionales?",
+      "opciones": [
+        "Se tramita por procedimiento ordinario",
+        "Se extingue el derecho",
+        "Se concede indemnización automáticamente",
+        "Se archiva necesariamente"
+      ],
+      "correcta": 0,
+      "justificacion": "Si fuera necesario realizar un trámite no previsto para la simplificación, debe tramitarse por la vía **ordinaria**.",
+      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
+      "referencia": "Ley 39/2015 art. 96.7 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ]
 }
