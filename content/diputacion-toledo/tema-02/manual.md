@@ -499,3 +499,19 @@ FUENTES
 - Copia o adaptación de La Puebla: **NO**.
 - Pendiente de revisión del usuario: **SÍ**.
 - Tema cerrado: **NO**.
+
+
+## Control de preguntas y comparación normativa — 29/10/2026
+
+| Materia | Regla de examen | Fuente |
+|---|---|---|
+| **Ley orgánica** | **Mayoría absoluta del Congreso** en votación final sobre el conjunto | **CE 81.2** |
+| **Estado de alarma** | **Gobierno**, máximo inicial **15 días**; prórroga autorizada por **Congreso** | **CE 116.2** |
+| **Estado de excepción** | **Gobierno**, previa autorización del **Congreso**, máximo inicial **30 días** | **CE 116.3** |
+| **Potestad reglamentaria** | Corresponde al **Gobierno** conforme a Constitución y leyes | **CE 97** |
+| **Reserva de ley para derechos** | **Ley**, con respeto al **contenido esencial** | **CE 53.1** |
+| **Inderogabilidad singular** | Resoluciones particulares no vulneran reglamentos aunque procedan de órgano de igual o superior jerarquía | **Ley 40/2015, 37** |
+
+> ⚠️ **¡Foco Examen!:** La **ley orgánica** requiere **mayoría absoluta del Congreso** en votación final de conjunto, pero la **reserva de ley** del **artículo 53.1 CE** no convierte automáticamente toda regulación de derechos en materia de ley orgánica.
+
+**Banco de entrenamiento actualizado a 20 preguntas**. Su revisión jurídica individual y la prueba funcional del sitio siguen siendo controles distintos de la existencia del contenido.
