@@ -1,11 +1,16 @@
 {
   "tema": 35,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T35-001",
       "pregunta": "¿Cuál es el formato nativo de LibreOffice Writer?",
-      "opciones": ["DOCX", "ODT", "PDF", "RTF"],
+      "opciones": [
+        "DOCX",
+        "ODT",
+        "PDF",
+        "RTF"
+      ],
       "correcta": 1,
       "justificacion": "El formato nativo de LibreOffice Writer es ODT, basado en el estándar OpenDocument.",
       "trampa": "Writer puede abrir y guardar archivos DOCX, pero su formato nativo no es DOCX.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T35-002",
       "pregunta": "¿Qué atajo abre el cuadro Guardar como?",
-      "opciones": ["Ctrl + S", "Ctrl + Mayús + S", "Ctrl + Alt + S", "F12"],
+      "opciones": [
+        "Ctrl + S",
+        "Ctrl + Mayús + S",
+        "Ctrl + Alt + S",
+        "F12"
+      ],
       "correcta": 1,
       "justificacion": "La combinación Ctrl + Mayús + S abre Guardar como y permite cambiar el nombre, la ubicación o el formato del archivo.",
       "trampa": "Ctrl + S guarda los cambios en el archivo actual; no abre Guardar como.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T35-003",
       "pregunta": "¿Qué diferencia principal existe entre formato directo y estilo?",
-      "opciones": ["No existe diferencia", "El formato directo afecta a una selección concreta y el estilo permite cambios coherentes y globales", "El estilo solo sirve para imágenes", "El formato directo solo funciona en tablas"],
+      "opciones": [
+        "No existe diferencia",
+        "El formato directo afecta a una selección concreta y el estilo permite cambios coherentes y globales",
+        "El estilo solo sirve para imágenes",
+        "El formato directo solo funciona en tablas"
+      ],
       "correcta": 1,
       "justificacion": "El formato directo se aplica a una selección concreta, mientras que los estilos permiten mantener una presentación uniforme y efectuar cambios globales en todos los elementos que los usan.",
       "trampa": "Dos textos pueden parecer iguales visualmente y, sin embargo, uno estar formateado directamente y otro mediante un estilo.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T35-004",
       "pregunta": "¿Qué tipo de estilo controla orientación, márgenes, encabezados y pies?",
-      "opciones": ["Estilo de carácter", "Estilo de página", "Estilo de lista", "Estilo de marco"],
+      "opciones": [
+        "Estilo de carácter",
+        "Estilo de página",
+        "Estilo de lista",
+        "Estilo de marco"
+      ],
       "correcta": 1,
       "justificacion": "Los estilos de página controlan la orientación, el tamaño del papel, los márgenes, los encabezados, los pies y otras propiedades globales de la página.",
       "trampa": "Los estilos de párrafo o de carácter no controlan la configuración global de la página.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T35-005",
       "pregunta": "¿Cuál es el atajo para insertar una tabla en Writer?",
-      "opciones": ["Ctrl + T", "Ctrl + F12", "Ctrl + Mayús + T", "Alt + T"],
+      "opciones": [
+        "Ctrl + T",
+        "Ctrl + F12",
+        "Ctrl + Mayús + T",
+        "Alt + T"
+      ],
       "correcta": 1,
       "justificacion": "La combinación Ctrl + F12 abre el diálogo para insertar una tabla en LibreOffice Writer.",
       "trampa": "Ctrl + T no es el atajo estándar para insertar una tabla en Writer.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T35-006",
       "pregunta": "¿Qué atajo muestra u oculta las marcas no imprimibles?",
-      "opciones": ["Ctrl + F10", "Ctrl + F11", "Ctrl + H", "F4"],
+      "opciones": [
+        "Ctrl + F10",
+        "Ctrl + F11",
+        "Ctrl + H",
+        "F4"
+      ],
       "correcta": 0,
       "justificacion": "La combinación Ctrl + F10 muestra u oculta las marcas no imprimibles, como espacios, tabulaciones, saltos y finales de párrafo.",
       "trampa": "Estas marcas ayudan a editar y diagnosticar el formato, pero no se imprimen.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T35-007",
       "pregunta": "Para iniciar correctamente una nueva página debe utilizarse preferentemente:",
-      "opciones": ["Varios espacios", "Múltiples pulsaciones de Intro", "Un salto de página", "Una tabulación"],
+      "opciones": [
+        "Varios espacios",
+        "Múltiples pulsaciones de Intro",
+        "Un salto de página",
+        "Una tabulación"
+      ],
       "correcta": 2,
       "justificacion": "Un salto de página fuerza de forma estructural el inicio del contenido en una nueva página.",
       "trampa": "Los retornos de carro repetidos pueden desplazarse al modificar el contenido anterior y no sustituyen a un salto de página.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T35-008",
       "pregunta": "Para que un sumario automático reconozca correctamente los apartados deben utilizarse principalmente:",
-      "opciones": ["Espacios y tabulaciones", "Estilos de título", "Solo negrita y tamaño grande", "Cuadros de texto"],
+      "opciones": [
+        "Espacios y tabulaciones",
+        "Estilos de título",
+        "Solo negrita y tamaño grande",
+        "Cuadros de texto"
+      ],
       "correcta": 1,
       "justificacion": "Los sumarios automáticos se generan a partir de la estructura del documento definida mediante estilos de título.",
       "trampa": "Aplicar únicamente negrita o un tamaño de letra grande no convierte un texto en un título estructural.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T35-009",
       "pregunta": "¿Qué atajo abre Buscar y reemplazar?",
-      "opciones": ["Ctrl + F", "Ctrl + H", "Ctrl + R", "Ctrl + Mayús + F"],
+      "opciones": [
+        "Ctrl + F",
+        "Ctrl + H",
+        "Ctrl + R",
+        "Ctrl + Mayús + F"
+      ],
       "correcta": 1,
       "justificacion": "La combinación Ctrl + H abre el diálogo Buscar y reemplazar en LibreOffice Writer.",
       "trampa": "Ctrl + F realiza una búsqueda simple, pero no abre directamente las opciones de reemplazo.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T35-010",
       "pregunta": "La combinación de correspondencia utiliza:",
-      "opciones": ["Solo un documento vacío", "Documento principal, fuente de datos y campos de combinación", "Exclusivamente una hoja de cálculo sin documento", "Únicamente imágenes"],
+      "opciones": [
+        "Solo un documento vacío",
+        "Documento principal, fuente de datos y campos de combinación",
+        "Exclusivamente una hoja de cálculo sin documento",
+        "Únicamente imágenes"
+      ],
       "correcta": 1,
       "justificacion": "La combinación de correspondencia integra un documento principal, una fuente de datos y campos de combinación para generar documentos personalizados.",
       "trampa": "La fuente de datos aporta la información variable, pero no sustituye al documento principal.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T35-011",
       "pregunta": "¿Qué afirmación sobre exportar a PDF es correcta?",
-      "opciones": ["Elimina siempre el ODT original", "Genera un archivo de distribución sin sustituir necesariamente el original editable", "Convierte el PDF en plantilla", "Equivale a imprimir en papel"],
+      "opciones": [
+        "Elimina siempre el ODT original",
+        "Genera un archivo de distribución sin sustituir necesariamente el original editable",
+        "Convierte el PDF en plantilla",
+        "Equivale a imprimir en papel"
+      ],
       "correcta": 1,
       "justificacion": "Exportar a PDF genera un archivo destinado a lectura o distribución y no sustituye necesariamente al documento editable original.",
       "trampa": "Exportar a PDF no es lo mismo que guardar en el formato nativo ODT ni que imprimir en papel.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T35-012",
       "pregunta": "Para insertar numeración automática en un pie de página debe emplearse:",
-      "opciones": ["Un número escrito manualmente", "El campo Número de página", "Una viñeta", "Una nota al pie"],
+      "opciones": [
+        "Un número escrito manualmente",
+        "El campo Número de página",
+        "Una viñeta",
+        "Una nota al pie"
+      ],
       "correcta": 1,
       "justificacion": "El campo Número de página se actualiza automáticamente según la posición de cada página en el documento.",
       "trampa": "Escribir manualmente el número 1 en el pie repetiría el mismo valor y no generaría numeración automática.",
       "referencia": "content/diputacion-toledo/tema-35/manual.md#12-encabezados-pies-y-numeración"
+    },
+    {
+      "id": "DIP-T35-013",
+      "pregunta": "¿Qué inserta Ctrl + Intro en Writer para Windows?",
+      "opciones": [
+        "Un salto de página manual",
+        "Una tabla",
+        "Una nota al pie",
+        "Un salto de sección automático"
+      ],
+      "correcta": 0,
+      "justificacion": "Inserta un **salto de página manual**, sin cambiar necesariamente el estilo de página.",
+      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/guide/page_break.html"
+    },
+    {
+      "id": "DIP-T35-014",
+      "pregunta": "¿Qué debe utilizarse si se desea que una página tenga orientación horizontal y la siguiente vertical?",
+      "opciones": [
+        "Cambiar solo la fuente",
+        "Aplicar estilos de página distintos mediante saltos adecuados",
+        "Insertar espacios hasta otra página",
+        "Modificar el idioma del documento"
+      ],
+      "correcta": 1,
+      "justificacion": "Los **estilos de página** controlan la orientación y se pueden cambiar mediante un **salto manual con estilo**.",
+      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/guide/pageorientation.html"
+    },
+    {
+      "id": "DIP-T35-015",
+      "pregunta": "¿Cuál es la diferencia entre un salto de línea manual y un nuevo párrafo?",
+      "opciones": [
+        "Ambos generan siempre un nuevo párrafo",
+        "Un salto de línea crea un estilo nuevo",
+        "El salto de línea cambia de renglón sin crear un párrafo nuevo",
+        "Solo se permite en tablas"
+      ],
+      "correcta": 2,
+      "justificacion": "El **salto de línea** pasa al renglón siguiente **sin crear párrafo nuevo**.",
+      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/01/04010000.html"
+    },
+    {
+      "id": "DIP-T35-016",
+      "pregunta": "¿Qué permite cambiar la numeración de página al insertar un salto manual con estilo en Writer?",
+      "opciones": [
+        "La contraseña del documento",
+        "Los permisos de edición",
+        "La extensión del archivo",
+        "El número de página con el que comienza la página siguiente"
+      ],
+      "correcta": 3,
+      "justificacion": "El diálogo de **salto manual con estilo** permite fijar un **nuevo número de página**.",
+      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/01/04010000.html"
+    },
+    {
+      "id": "DIP-T35-017",
+      "pregunta": "¿Qué tipo de estilo controla márgenes, orientación y encabezado en Writer?",
+      "opciones": [
+        "Estilo de página",
+        "Estilo de carácter",
+        "Estilo de lista",
+        "Estilo de tabla"
+      ],
+      "correcta": 0,
+      "justificacion": "El **estilo de página** define márgenes, orientación, cabeceras y pies.",
+      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/guide/pagestyles.html"
+    },
+    {
+      "id": "DIP-T35-018",
+      "pregunta": "¿Qué procedimiento permite aplicar un estilo de página personalizado?",
+      "opciones": [
+        "Convertir el archivo a TXT",
+        "Seleccionar la página y elegir el estilo correspondiente en el panel Estilos",
+        "Cambiar el idioma del teclado",
+        "Borrar todos los saltos de página"
+      ],
+      "correcta": 1,
+      "justificacion": "Desde **Ver > Estilos > Estilos de página** puede aplicarse el estilo con doble clic.",
+      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/guide/pagestyles.html"
+    },
+    {
+      "id": "DIP-T35-019",
+      "pregunta": "¿Qué caracteriza a la aplicación del estilo de página «Primera página»?",
+      "opciones": [
+        "Obliga a usar orientación horizontal",
+        "Deshabilita números de página en todo el documento",
+        "Puede tener un «estilo siguiente» diferente para las páginas posteriores",
+        "Impide insertar una cabecera"
+      ],
+      "correcta": 2,
+      "justificacion": "El estilo **Primera página** puede configurarse para que la siguiente use **Predeterminado**.",
+      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/guide/pageorientation.html"
+    },
+    {
+      "id": "DIP-T35-020",
+      "pregunta": "¿Cómo se diferencia un salto de página manual de insertar muchos párrafos vacíos?",
+      "opciones": [
+        "Ambas opciones mantienen igual la maquetación al editar",
+        "Los párrafos vacíos cambian el estilo siempre",
+        "Los párrafos vacíos no cuentan en el documento",
+        "El salto establece un cambio estructural de página estable"
+      ],
+      "correcta": 3,
+      "justificacion": "Un salto de página es un recurso estructural y evita depender de múltiples párrafos vacíos.",
+      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/guide/page_break.html"
     }
   ]
 }
