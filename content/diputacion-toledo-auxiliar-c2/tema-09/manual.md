@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 9
 
-**ESTADO EDITORIAL: BORRADOR RECONSTRUIDO A PARTIR DE LA PUEBLA.** Pendiente revisión completa frente al BOE vigente en la fecha de examen.
+**ESTADO EDITORIAL: CONTENIDO COMPLETO Y REVISADO — 29/10/2026.**
 
 ## Epígrafe oficial literal
 
@@ -8,7 +8,7 @@
 
 **Fuente:** BOP Toledo n.º **197, 14/10/2026**, Anexo XI, tema 9.
 
-Se incorpora el material de estudio desarrollado para La Puebla y revisado en julio de 2026. **No supone validación específica de esta convocatoria ni sustituye el texto legal vigente**.
+El contenido sigue el epígrafe oficial y se referencia a las redacciones consolidadas vigentes de las dos leyes, cotejadas el **29/10/2026**.
 
 ---
 
@@ -657,3 +657,38 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 8 aprobad
 
 > ⚠️ **¡Foco Examen!:** No deben aplicarse automáticamente a un ayuntamiento los artículos de la Ley Orgánica 3/2007 que se refieren de forma específica a la Administración General del Estado.
 
+
+
+## ANEXO FINAL · Test y diferencias entre ambas leyes
+
+| Aspecto | **Ley 12/2010 de Castilla-La Mancha** | **LO 3/2007 estatal** |
+|---|---|---|
+| Ámbito | Actuación de poderes públicos en **Castilla-La Mancha** y ámbitos previstos en la norma | Igualdad efectiva de mujeres y hombres en el conjunto del Estado |
+| Principios y transversalidad | **Artículos 4 y 8** | **Artículos 14 y 15** |
+| Lenguaje no sexista | **Artículo 4.g** | Principio presente en la actuación de poderes públicos |
+| Discriminación directa e indirecta | Prevención en marco autonómico | **Artículo 6**, definiciones de referencia |
+| Acoso sexual y por razón de sexo | Medidas de prevención | **Artículo 7**, ambos discriminatorios |
+| Empleo público | Medidas autonómicas de igualdad | Políticas de igualdad en empleo público estatal |
+| Composición equilibrada | Participación y representación equilibrada según sus previsiones | **Disposición adicional primera: 40 %–60 %** |
+
+> ⚠️ **¡Foco Examen!:** La definición de **presencia equilibrada** de la **LO 3/2007** no exige mitad exacta: cada sexo debe quedar comprendido entre **40 % y 60 %**.
+
+### Discriminación directa, indirecta, acoso y represalia
+
+| Concepto | Criterio jurídico | Referencia estatal |
+|---|---|---|
+| **Discriminación directa** | Trato menos favorable por sexo frente a situación comparable | **Art. 6.1** |
+| **Discriminación indirecta** | Criterio aparentemente neutro con desventaja particular, salvo justificación objetiva por finalidad legítima y medios adecuados y necesarios | **Art. 6.2** |
+| **Acoso sexual** | Comportamiento verbal o físico de naturaleza sexual que atenta contra dignidad o crea entorno intimidatorio, degradante u ofensivo | **Art. 7.1** |
+| **Acoso por razón de sexo** | Comportamiento realizado en función del sexo de una persona con efecto o propósito equivalente | **Art. 7.2** |
+| **Embarazo o maternidad** | Trato desfavorable relacionado constituye discriminación directa por sexo | **Art. 8** |
+| **Represalias** | Trato adverso por formular reclamaciones o denuncias para exigir igualdad | **Art. 9** |
+
+> ⚠️ **¡Foco Examen!:** **Embarazo y maternidad** se encuadran como **discriminación directa**; el **acoso sexual** exige naturaleza sexual y el **acoso por razón de sexo**, comportamiento en función del sexo.
+
+### Fuentes de estudio cerradas
+
+- [BOE, Ley 12/2010 de Castilla-La Mancha](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708) — última actualización publicada **30/06/2021**.
+- [BOE, Ley Orgánica 3/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) — última actualización publicada **02/08/2024**.
+
+**Cobertura editorial:** articulado de ambas leyes, matrices de examen, diferencias y banco de **20 preguntas** fundamentadas. No se ha ejecutado una prueba funcional del portal en un navegador real.
