@@ -364,3 +364,20 @@ IAE
 ```
 
 > ⚠️ **¡Foco Examen!:** En el IBI la clave es identificar el derecho que ocupa el primer lugar en la prelación legal; en el IAE, distinguir hecho imponible, exención, cuota de tarifa, coeficiente de ponderación y coeficiente de situación.
+
+## 20. Comparativa de examen IBI e IAE — 29/10/2026
+
+| Aspecto | IBI | IAE |
+|---|---|---|
+| Artículos TRLRHL | **60–77** | **78–91** |
+| Hecho imponible | Derechos sobre inmuebles: **concesión, superficie, usufructo, propiedad** | Ejercicio de **actividades económicas** |
+| Dato cuantitativo | Tipo urbano mínimo y supletorio **0,4 %** | Coeficiente de situación **0,4–3,8** |
+| Devengo | **Primer día del período impositivo** | **Primer día del período impositivo**, con reglas específicas |
+| Concepto test | Base imponible: **valor catastral** | Exención de **personas físicas** y cifra de negocios inferior a **1.000.000 €** según supuestos |
+| Especialidad | Propiedad queda tras usufructo en la prelación | Entre **2 y 9 categorías de calles** para coeficiente de situación |
+
+> ⚠️ **¡Foco Examen!:** El **0,4 %** del IBI urbano es un **tipo de gravamen**; el rango **0,4 a 3,8** del IAE es un **coeficiente de situación**. No se confunden.
+
+> ⚠️ **¡Foco Examen!:** En el IBI la titularidad del **usufructo** precede a la **propiedad**; en el IAE las **personas físicas están exentas** por su condición, con independencia del umbral aplicable a otras entidades.
+
+**Fuente:** https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214 . Texto consolidado con última actualización publicada el **07/10/2026**. **20 preguntas**; pendiente auditoría integral y prueba funcional.
