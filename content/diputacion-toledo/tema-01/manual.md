@@ -2,7 +2,7 @@
 
 **Convocatoria:** Diputación Provincial de Toledo · Administrativo/a · **C1**  
 **Método editorial:** generación íntegra desde cero  
-**Estado:** EN_REVISIÓN_USUARIO  
+**Estado:** REVISIÓN DOCUMENTAL AMPLIADA — **29/10/2026**  
 **Normativa verificada:** julio de **2026**
 
 ---
@@ -554,3 +554,21 @@ CONSTITUCIÓN ESPAÑOLA DE 1978
 - Publicaciones oficiales de las reformas constitucionales de **1992**, **2011** y **2024**.
 
 **Tema cerrado:** **NO** · pendiente de revisión expresa del usuario.
+
+
+## Anexo de control 2026 · Tribunal Constitucional y reforma
+
+| Concepto | Regla | Precepto |
+|---|---|---|
+| Integración del **Tribunal Constitucional** | **12 magistrados**, nombrados por el **Rey** | **CE 159.1** |
+| Propuesta de **Congreso** y **Senado** | **4** cada Cámara por mayoría de **3/5** | **CE 159.1** |
+| Propuesta de **Gobierno** y **Consejo General del Poder Judicial** | **2** cada órgano | **CE 159.1** |
+| Mandato de magistrados | **9 años**, renovación por terceras partes cada **3 años** | **CE 159.3** |
+| Presidencia del Tribunal | **3 años**, elegida por el Pleno; posibilidad de una reelección | **LOTC 9** |
+| Reforma ordinaria | **3/5** de cada Cámara como regla general; referéndum si lo solicita **1/10** de una Cámara en **15 días** | **CE 167** |
+| Reforma agravada | **2/3** de ambas Cámaras, disolución, nuevas Cortes, aprobación por **2/3** y referéndum obligatorio | **CE 168** |
+| Límite a inicio de reforma | No puede iniciarse en **tiempo de guerra** ni vigente alguno de los estados del **art. 116** | **CE 169** |
+
+> ⚠️ **¡Foco Examen!:** Los magistrados del **Tribunal Constitucional** duran **9 años**; quien lo preside tiene mandato de **3 años** y posible reelección. Son plazos para cargos distintos.
+
+**Control de fuentes:** [Constitución consolidada, actualización **20/05/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) y [LOTC, actualización **02/08/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709). Banco ampliado de **12 a 20 preguntas** con fundamento individual; queda pendiente comprobar las afirmaciones del manual una por una antes de asignar el estado **PUBLICADO**.
