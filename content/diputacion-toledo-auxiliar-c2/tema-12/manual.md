@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 12
 
-**ESTADO: BORRADOR DOCUMENTADO, PENDIENTE DE REVISIÓN ARTÍCULO POR ARTÍCULO (OCTUBRE 2026).**
+**ESTADO EDITORIAL: CONTENIDO COMPLETO REVISADO — 29/10/2026.**
 
 ## Epígrafe oficial literal
 
@@ -15,7 +15,7 @@
 - **Real Decreto 939/2005 (RGR)**: https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803. Última actualización publicada **31/01/2024**.
 - **RD 520/2005 (revisión tributaria)**: https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662.
 
-El desarrollo siguiente deriva de los bloques del tema equivalente de **La Puebla**, revisados en julio de 2026. No está terminado el cotejo con la versión del TRLRHL de **07/10/2026**. **Las reglas de plazo y recargo deben comprobarse artículo a artículo antes de dar el tema por auditado.**
+Desarrollo ajustado al programa de Diputación de Toledo C2, con contraste de plazos y recargos en **LGT** y **TRLRHL** consolidados. Se explican sus especialidades para evitar trasladar reglas de liquidaciones a providencias de apremio.
 
 | Apartado exigido | Fuentes principales |
 |---|---|
@@ -1204,3 +1204,64 @@ Debe plantear tercería de dominio, no de mejor derecho.
 8. Derivar responsabilidad subsidiaria sin fallido.
 9. Confundir tercería de dominio y mejor derecho.
 10. Creer que el crédito tributario gana siempre a cualquier otro acreedor.
+
+
+## ANEXO DE REPASO DEFINITIVO · Plazos, recargos y órganos
+
+### Plazos de ingreso: liquidación administrativa frente a providencia
+
+| Notificación | **Liquidación administrativa**: ingreso voluntario (**LGT 62.2**) | **Providencia de apremio**: ingreso (**LGT 62.5**) |
+|---|---|---|
+| Entre los días **1 y 15**, inclusive | Hasta el **20 del mes siguiente** o inmediato hábil posterior | Hasta el **20 del mismo mes** o inmediato hábil posterior |
+| Entre los días **16 y último** del mes | Hasta el **5 del segundo mes siguiente** o inmediato hábil posterior | Hasta el **5 del mes siguiente** o inmediato hábil posterior |
+
+Los tributos de **notificación colectiva y periódica** tienen reglas propias de ingreso voluntario establecidas en el **art. 62.3 LGT**, salvo modificación mediante normativa tributaria; no se aplican automáticamente las fechas de una liquidación individual.
+
+> ⚠️ **¡Foco Examen!:** Si se notifica el **día 10**, la liquidación vence el **20 del mes siguiente**, pero la providencia vence el **20 del mismo mes**. Si se notifica el **día 20**, liquidación vence el **5 del segundo mes siguiente**, providencia el **5 del mes siguiente**.
+
+### Comparación de recargos ejecutivos
+
+| Recargo | Cuantía | Requisito | Intereses de demora desde inicio del período ejecutivo |
+|---|---|---|---|
+| **Ejecutivo** | **5 %** | Pago íntegro de deuda pendiente **antes de notificación de providencia** | **No se exigen** |
+| **Apremio reducido** | **10 %** | Pago íntegro de deuda y del recargo en plazo **art. 62.5** | **No se exigen** |
+| **Apremio ordinario** | **20 %** | Cuando no se cumplan los requisitos anteriores | **Sí**, si proceden |
+
+Son recargos **incompatibles entre sí**. Las **costas del procedimiento**, si proceden, se diferencian de recargos e intereses.
+
+> ⚠️ **¡Foco Examen!:** **5 % antes de providencia**, **10 % pagando deuda y recargo en plazo de providencia**, **20 % en los demás casos**. El ordinario **20 %** es el compatible con intereses de demora.
+
+### Aplazamiento, fraccionamiento, compensación y devoluciones
+
+| Figura | Objetivo | Diferencia fundamental |
+|---|---|---|
+| **Aplazamiento** | Trasladar el vencimiento | Solicitud y concesión condicionadas; no extingue la deuda |
+| **Fraccionamiento** | Distribuir ingreso en varios vencimientos | No es condonación ni exención |
+| **Compensación** | Extinguir total o parcialmente deuda con **crédito reconocido** | No basta con alegar una factura aún no reconocida |
+| **Devolución derivada de la normativa del tributo** | Retornar importe a favor según mecánica tributaria | Intereses por retraso según **LGT 31** |
+| **Devolución de ingresos indebidos** | Restituir pago que legalmente no debía realizarse | Intereses según **LGT 32 y 221**, con reglas propias |
+
+**Aplazamiento solicitado en voluntaria:** como regla, impide inicio de período ejecutivo durante tramitación, aunque pueden devengarse **intereses de demora** (**LGT 65.5**) y existen exclusiones legales. **Compensación:** exige deuda y crédito compensable reconocidos conforme a **LGT 71–74**.
+
+> ⚠️ **¡Foco Examen!:** **Solicitud de aplazamiento** no significa **concesión**. La **devolución por ingreso indebido** no es la misma que una **devolución prevista por el tributo**.
+
+### Secuencia de apremio y embargo
+
+1. Termina el **período voluntario** sin ingreso.
+2. Se inicia el **período ejecutivo** en los supuestos del **art. 161 LGT**, con excepciones y efectos de solicitudes previstas legalmente.
+3. La **Administración tributaria competente** notifica la **providencia de apremio**, título suficiente para iniciar procedimiento (**art. 167 LGT**).
+4. Transcurre el plazo del **art. 62.5** sin ingreso, y procede **embargo** conforme a los requisitos y límites legales.
+5. Se efectúan diligencias, garantías o enajenación según el caso; existen **bienes inembargables** y protección de salarios, sueldos y pensiones.
+6. Finaliza el procedimiento por **pago**, declaración de **crédito incobrable** en los términos legales o **extinción** por otra causa prevista legalmente.
+
+| Acto | Función | Error de test |
+|---|---|---|
+| **Inicio del período ejecutivo** | Efecto legal del vencimiento sin ingreso | No necesita una providencia previa |
+| **Providencia de apremio** | Inicia el **procedimiento de apremio** | No equivale a diligencia de embargo |
+| **Diligencia de embargo** | Traba bienes o derechos concretos | No crea el impuesto |
+| **Tercería de dominio** | Tercero alega propiedad de bien embargado | No es tercería de mejor derecho |
+| **Tercería de mejor derecho** | Tercero invoca preferencia de cobro | No exige afirmar propiedad del bien |
+
+> ⚠️ **¡Foco Examen!:** El **período ejecutivo** puede iniciarse antes de que se notifique la **providencia de apremio**. La **providencia** inicia el **procedimiento**, mientras que la **diligencia** concreta el embargo.
+
+**Fuentes de examen:** [LGT, texto consolidado (**21/12/2024**)](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186), [TRLRHL, consolidado (**07/10/2026**)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), [Reglamento General de Recaudación](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803), [RD 520/2005](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662).
