@@ -1,8 +1,8 @@
 {
   "tema": 14,
-  "estado": "BORRADOR_TEST_CON_REFERENCIAS",
-  "version": "2026-10-25",
-  "criterio": "Seis preguntas originales revisadas el 26/10/2026 contra legislación BOE/EUR-Lex y documentación FNMT. No son preguntas oficiales. Manual en borrador.",
+  "estado": "BANCO_20_PREGUNTAS_REVISION_DOCUMENTAL",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas con soluciones y fuentes eIDAS, Ley 6/2020 y Ley 39/2015; pendiente comprobación final de todos los enlaces y funcionamiento de interfaz.",
   "preguntas": [
     {
       "id": "DT-C2-T14-001",
@@ -87,6 +87,202 @@
       "justificacion": "El artículo 5.1.b de la Ley 6/2020 establece revocación ante **violación o puesta en peligro del secreto de los datos de creación** de firma, sello o autenticación web, o utilización indebida de dichos datos por terceros.",
       "trampaExamen": "**Revocación** por compromiso de claves y **caducidad** por fin del período de vigencia son causas distintas de extinción.",
       "referencia": "Ley 6/2020, art. 5.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+    },
+    {
+      "id": "DT-C2-T14-007",
+      "enunciado": "¿En qué se distingue la identificación electrónica de la firma electrónica?",
+      "opciones": [
+        "Son siempre la misma operación",
+        "La identificación acredita identidad; la firma expresa voluntad y autenticidad en un acto",
+        "Firmar significa solo leer una página",
+        "Identificarse implica renunciar a derechos"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los artículos 9–11 Ley 39/2015 diferencian identificación y firma.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T14-008",
+      "enunciado": "¿Quién se considera firmante de una firma electrónica conforme a eIDAS?",
+      "opciones": [
+        "Una persona física",
+        "Solo una empresa",
+        "Siempre un órgano administrativo",
+        "Una web"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "eIDAS define firmante como persona física que crea una firma electrónica.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+    },
+    {
+      "id": "DT-C2-T14-009",
+      "enunciado": "¿Qué tecnología se utiliza habitualmente para comprobar una firma electrónica de clave pública?",
+      "opciones": [
+        "La clave privada del receptor",
+        "El disco duro del ordenador",
+        "La clave pública asociada al certificado",
+        "La contraseña de correo"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La verificación criptográfica utiliza la clave pública correspondiente, dentro de un sistema de confianza.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+    },
+    {
+      "id": "DT-C2-T14-010",
+      "enunciado": "¿Cuál de los siguientes soportes puede alojar una clave privada no exportable?",
+      "opciones": [
+        "Una imagen PDF",
+        "Un archivo de texto plano",
+        "Un marcador web",
+        "Tarjeta criptográfica compatible"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Las tarjetas criptográficas pueden proteger una clave no exportable.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+    },
+    {
+      "id": "DT-C2-T14-011",
+      "enunciado": "¿Cuál es la función principal de una lista de confianza eIDAS?",
+      "opciones": [
+        "Identificar prestadores cualificados y sus servicios cualificados",
+        "Guardar archivos PDF del usuario",
+        "Emitir el DNI",
+        "Asignar permisos de Windows"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 22 eIDAS: los Estados miembros publican listas de confianza de prestadores cualificados y servicios cualificados.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+    },
+    {
+      "id": "DT-C2-T14-012",
+      "enunciado": "¿Cuál es la consecuencia de que un certificado cualificado llegue al término de su vigencia?",
+      "opciones": [
+        "Se renueva por 20 años automáticamente",
+        "Caduca, extinguiéndose su vigencia",
+        "Se convierte en certificado académico",
+        "No cambia su estado"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 4.1 Ley 6/2020: el certificado se extingue por caducidad al expirar su período.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+    },
+    {
+      "id": "DT-C2-T14-013",
+      "enunciado": "¿Qué supuesto fundamenta una revocación de certificado conforme a Ley 6/2020?",
+      "opciones": [
+        "Cambiar color del escritorio",
+        "Leer el certificado público",
+        "Compromiso de la clave privada",
+        "Abrir navegador"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 5.1.b: violación o peligro del secreto de datos de creación o uso indebido por terceros.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+    },
+    {
+      "id": "DT-C2-T14-014",
+      "enunciado": "¿Qué norma fija en España una vigencia máxima de cinco años para certificados cualificados?",
+      "opciones": [
+        "La Ley de contratos de arrendamiento",
+        "El Código Civil en todo caso",
+        "Una política de impresoras",
+        "La Ley 6/2020, artículo 4.2"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Art. 4.2: máximo de **5 años** de vigencia del certificado cualificado.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+    },
+    {
+      "id": "DT-C2-T14-015",
+      "enunciado": "¿Qué método permite normalmente firmar remotamente sin custodiar localmente un fichero de clave privada?",
+      "opciones": [
+        "Firma remota mediante prestador y mecanismo autorizado",
+        "Imprimir una captura",
+        "Enviar una contraseña por correo",
+        "Cambiar DNS"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La firma remota permite usar un dispositivo de creación de firma gestionado por un prestador con controles exigibles.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+    },
+    {
+      "id": "DT-C2-T14-016",
+      "enunciado": "¿Qué describe correctamente el sello electrónico frente a la firma?",
+      "opciones": [
+        "Sólo puede usarlo persona física",
+        "Sello vinculado a persona jurídica; firma a persona física",
+        "El sello es siempre un escáner",
+        "No tienen valor jurídico"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "eIDAS separa sello electrónico de persona jurídica y firma del firmante persona física.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+    },
+    {
+      "id": "DT-C2-T14-017",
+      "enunciado": "¿Cuándo exige la Ley 39/2015 firma en un procedimiento?",
+      "opciones": [
+        "Para abrir cualquier página pública",
+        "Para leer toda información",
+        "Para formular solicitudes, recursos, desistimientos y demás casos del art. 11.2",
+        "Para ver la sede sin identificarse"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 11.2 Ley 39/2015 enumera las actuaciones obligadas a firma.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T14-018",
+      "enunciado": "¿Qué debe comprobarse además de la apariencia visible de firma en un PDF?",
+      "opciones": [
+        "Solo el color del texto",
+        "La impresora predeterminada",
+        "La extensión del navegador",
+        "La validez de la firma electrónica y del certificado según mecanismo de validación"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Una imagen de rúbrica no acredita por sí sola firma criptográfica válida.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+    },
+    {
+      "id": "DT-C2-T14-019",
+      "enunciado": "¿Qué representa un certificado de autenticación de sitio web?",
+      "opciones": [
+        "Una vinculación de sitio web con entidad a la que se expide conforme a eIDAS",
+        "Un documento de padrón",
+        "La firma manuscrita del visitante",
+        "El certificado de trabajador de toda empresa"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "eIDAS establece certificados destinados a autenticación de sitios web, diferentes de los de firma personal.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+    },
+    {
+      "id": "DT-C2-T14-020",
+      "enunciado": "¿Cuál es una obligación del prestador que emite certificados prevista en la Ley 6/2020?",
+      "opciones": [
+        "Publicar claves privadas",
+        "Ofrecer consulta pública del estado de validez o revocación",
+        "Garantizar contraseña idéntica de usuarios",
+        "Emitir siempre certificados perpetuos"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 10.2 Ley 6/2020: servicio público de consulta del estado de validez o revocación de certificados emitidos.",
+      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
     }
   ],
   "auditoria": {
