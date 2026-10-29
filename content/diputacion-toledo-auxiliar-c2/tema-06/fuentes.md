@@ -27,3 +27,14 @@ La reforma estatutaria de **21/12/2004** consta como **aprobación inicial** en 
 - [Anuncio de 23/12/2004](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/2004/12/23): identifica **aprobación inicial**, no acredita aprobación definitiva; la reproducción consultada es **secundaria**.
 
 > ⚠️ **¡Foco Examen!:** Citar el texto de **1996** en un acto de **2023** permite acreditar qué reglas se invocaron entonces, **no** que todos sus artículos hayan permanecido invariables hasta **2026**.
+
+
+## Contraste complementario: dictamen consultivo de 2019
+
+Un dictamen del **Consejo Consultivo de Castilla-La Mancha, número 404/2019 de 16/10/2019**, trata una revisión de oficio en el ámbito tributario gestionado por el OAPGT en relación con el Ayuntamiento de Seseña. Cita el **artículo 4.a).4 de los Estatutos**, relativo a revisión en vía administrativa de resoluciones dictadas en ejercicio de funciones delegadas, y menciona el texto inicial publicado en el BOP de **11/10/1996**.
+
+Referencia secundaria de consulta del dictamen: https://www.iberley.es/resoluciones/dictamen-consejo-consultivo-castilla-mancha-num-404-2019-16-10-2019-2508729
+
+**Valor de prueba:** acredita la referencia estatutaria usada en el expediente de **2019**; no permite inferir por sí sola todos los artículos vigentes en **2026**, el quórum del Consejo Rector ni la aprobación definitiva de la modificación anunciada en **2004**.
+
+> ⚠️ **¡Foco Examen!:** La **revisión administrativa de un acto tributario delegado** tiene un fundamento competencial distinto de la **aprobación del padrón**; no confundir las atribuciones que los anuncios oficiales citan en diferentes artículos.
