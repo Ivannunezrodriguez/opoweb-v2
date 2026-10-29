@@ -1,18 +1,20 @@
-# Fuentes y auditoría pendiente · Tema 8
+# Tema 8 · Fuentes y cierre editorial
 
-**Programa literal:** BOP Toledo **197, 14/10/2026**, Anexo XI, pág. 102, CSV **2026.00004759**.
+**Convocatoria:** Diputación Toledo Auxiliar Administrativo C2, BOP **197**, **14/10/2026**, Anexo XI.
 
-## Fuentes oficiales primarias
+## Legislación principal verificada
 
-- Ley 31/1995 — https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292 (actualización 09/04/2026)
-- RD 39/1997 — https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853 (actualización 17/10/2025)
+- [Ley 31/1995 de Prevención de Riesgos Laborales](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292). BOE consolidado, última actualización **09/04/2026**, consultado **29/10/2026**.
+- [Real Decreto 39/1997, Reglamento de Servicios de Prevención](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853). BOE consolidado, última actualización **17/10/2025**, consultado **29/10/2026**.
 
-## Control editorial
+## Cobertura completa
 
-- Manual basado en tema equivalente de La Puebla, auditado en julio de 2026.
-- Últimas actualizaciones comprobadas en la cabecera de los textos consolidados del BOE el **25/10/2026**. El BOE advierte que los textos consolidados tienen **carácter informativo**.
-- **Pendiente:** comparar cada plazo, artículo, órgano, excepción y cuantía con legislación vigente; auditar matices y cambios normativos posteriores.
-- **Pendiente:** crear matriz de trazabilidad, test y supuestos exclusivos de Diputación C2 y verificar sus soluciones con artículos exactos.
-- **Estado:** **BORRADOR**, no certificado como definitivo.
+| Inciso | Normas |
+|---|---|
+| Derechos y obligaciones | **LPRL arts. 14–29** |
+| Servicios de Prevención | **LPRL 30–32 bis**; **RD 39/1997, 10–22 bis** |
+| Consulta y participación | **LPRL 18.2 y 33–40** |
 
-> ⚠️ **¡Foco Examen!:** No estudiar plazos ni excepciones como definitivos si no se han cotejado con su artículo vigente y la fecha del ejercicio.
+**Cierre editorial 29/10/2026:** manual completo y 20 preguntas originales con referencia al artículo; tablas de número de delegados, constitución y composición del Comité, formación, vigilancia de la salud y modelos de servicios. **Prueba del portal en navegador real:** no ejecutada, control transversal pendiente.
+
+> ⚠️ **¡Foco Examen!:** Comité desde **50 trabajadores**, reunión **trimestral**; con **50–100 trabajadores** corresponden **2 Delegados de Prevención**. La vigilancia de la salud es generalmente **voluntaria**, salvo excepciones legales.
