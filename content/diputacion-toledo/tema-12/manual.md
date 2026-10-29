@@ -253,3 +253,21 @@ RÉGIMEN LOCAL
 ```
 
 > ⚠️ **¡Foco Examen!:** La provincia es simultáneamente entidad local, agrupación de municipios y división territorial para actividades del Estado.
+
+## 14. Actualización normativa y cuadro de confusiones — **29/10/2026**
+
+**Atención a la vigencia:** la **Ley 7/1985** tiene una actualización del texto consolidado publicada el **03/10/2026**, posterior a la referencia de **03/06/2026** recogida en la versión inicial de este manual. Se utiliza la versión consolidada más reciente para el cotejo de los preceptos siguientes.
+
+| Concepto | Regla de examen | Norma |
+|---|---|---|
+| Organización territorial del Estado | **Municipios, provincias y comunidades autónomas** | **CE 137** |
+| Entidades locales territoriales | **Municipio, provincia e isla** en Baleares y Canarias | **LRBRL 3.1** |
+| Otras entidades locales | **Comarcas, áreas metropolitanas y mancomunidades** | **LRBRL 3.2** |
+| Alteración de límites provinciales | Aprobación por **Cortes Generales mediante ley orgánica** | **CE 141.1** |
+| Potestad reglamentaria y autoorganización | Reconocida a **municipios, provincias e islas**, dentro de sus competencias | **LRBRL 4.1.a** |
+| Delegación de competencias en municipios | Duración no inferior a **5 años** | **LRBRL 27.1** |
+| Hacienda local | Principalmente **tributos propios** y participación en tributos del **Estado** y comunidades autónomas | **CE 142** |
+
+> ⚠️ **¡Foco Examen!:** La Constitución (**art. 137**) enumera tres tipos de entidades en la organización territorial del Estado; la LRBRL (**art. 3.1**) enumera las **entidades locales territoriales**, incluyendo las **islas** y no las comunidades autónomas. Son listas distintas.
+
+**Fuentes BOE:** [Ley 7/1985 consolidada, última modificación publicada **03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) y [Constitución Española consolidada **20/05/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229). **20 preguntas** disponibles; la auditoría integral del manual y la prueba funcional de la web siguen pendientes.
