@@ -1,8 +1,8 @@
 {
   "tema": 2,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
-  "criterio": "8 preguntas originales por tema, referencias a artículos del BOE consolidado; revisión editorial adicional pendiente. No son preguntas oficiales.",
+  "estado": "TEST_COTEJADO_BOE_2026_10_29",
+  "version": "2026-10-29",
+  "criterio": "Las 8 respuestas contrastadas con los artículos 4.1.b, 13.b, 14.2.a, 30.2, 30.5, 32.1, 32.3 y 21.2-3 de Ley 39/2015, BOE consolidado actualizado 06/11/2024. Pendiente de prueba funcional de navegador; no son preguntas oficiales.",
   "preguntas": [
     {
       "id": "DT-C2-T2-001",
@@ -43,7 +43,7 @@
       ],
       "respuestaCorrecta": 2,
       "justificacion": "El artículo 14.2 incluye a las personas jurídicas entre los obligados.",
-      "trampaExamen": "Ley 39/2015, art. 14.2.a",
+      "trampaExamen": "Las **personas jurídicas** están obligadas a relacionarse electrónicamente **en todo caso**, pero no todas las personas físicas.",
       "referencia": "Ley 39/2015, art. 14.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
@@ -57,7 +57,7 @@
       ],
       "respuestaCorrecta": 3,
       "justificacion": "Art. 30.2: en los plazos señalados por días, la regla supletoria es cómputo en días hábiles, excluyendo sábados, domingos y festivos. Una ley o el Derecho de la UE pueden disponer otro cómputo.",
-      "trampaExamen": "Ley 39/2015, art. 30.2",
+      "trampaExamen": "En plazos fijados por **días** se presumen **hábiles**: se excluyen **sábados, domingos y festivos**, salvo excepción legal.",
       "referencia": "Ley 39/2015, art. 30.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
@@ -71,7 +71,7 @@
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Art. 30.5: si el último día del plazo es inhábil, se prorroga al primer día hábil siguiente. Se aplica sin perjuicio del calendario y de las reglas específicas de registro electrónico.",
-      "trampaExamen": "Ley 39/2015, art. 30.5",
+      "trampaExamen": "El último día **inhábil** prorroga al **primer hábil siguiente**. No confundir con registro electrónico **24 horas**.",
       "referencia": "Ley 39/2015, art. 30.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
@@ -85,7 +85,7 @@
       ],
       "respuestaCorrecta": 1,
       "justificacion": "Art. 32.1: salvo disposición contraria, cabe ampliación no superior a la mitad del plazo original si las circunstancias lo aconsejan y no se perjudican derechos de tercero. Debe notificarse el acuerdo.",
-      "trampaExamen": "Ley 39/2015, art. 32.1",
+      "trampaExamen": "Ampliación ordinaria del **art. 32.1**: máximo **la mitad adicional**, no duplicarlo; no debe perjudicar derechos de terceros.",
       "referencia": "Ley 39/2015, art. 32.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
@@ -99,7 +99,7 @@
       ],
       "respuestaCorrecta": 2,
       "justificacion": "Art. 32.3: la petición y decisión sobre ampliación deben producirse antes del vencimiento. Un plazo ya vencido no es ampliable por esta vía.",
-      "trampaExamen": "Ley 39/2015, art. 32.3",
+      "trampaExamen": "No puede ampliarse un plazo **vencido**. Petición y decisión deben producirse **antes** del vencimiento.",
       "referencia": "Ley 39/2015, art. 32.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
@@ -113,7 +113,7 @@
       ],
       "respuestaCorrecta": 3,
       "justificacion": "Art. 21.3: si la norma del procedimiento no fija plazo máximo, serán tres meses. Los arts. 21.2 y 21.3 incluyen un límite general de seis meses salvo norma con rango de ley o Derecho UE, y reglas de inicio según iniciación de oficio o a solicitud.",
-      "trampaExamen": "Tres meses cuando no se fije otro plazo (art. 21.3); no confundir con el límite general de seis meses del art. 21.2, que admite excepciones legalmente previstas.",
+      "trampaExamen": "**3 meses** es plazo supletorio; **6 meses** es límite general cuando la norma fija otro, salvo **ley o Derecho UE**.",
       "referencia": "Ley 39/2015, art. 21.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ],
