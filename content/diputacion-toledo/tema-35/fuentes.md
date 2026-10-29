@@ -40,3 +40,12 @@
 
 - Verificación documental: **19 de julio de 2026**.
 - Estado editorial: `GENERACION_DESDE_CERO`.
+
+## Cotejo técnico adicional — **29/10/2026**
+
+- [LibreOffice Help: insertar y eliminar saltos de página](https://help.libreoffice.org/latest/es/text/swriter/guide/page_break.html): **Ctrl + Intro** y gestión de saltos.
+- [LibreOffice Help: insertar salto manual](https://help.libreoffice.org/latest/es/text/swriter/01/04010000.html): salto de línea frente a párrafo, cambios de estilo y numeración.
+- [LibreOffice Help: crear y aplicar estilos de página](https://help.libreoffice.org/latest/es/text/swriter/guide/pagestyles.html): **orientación, márgenes, cabeceras y pies**.
+- [LibreOffice Help: cambiar orientación](https://help.libreoffice.org/latest/es/text/swriter/guide/pageorientation.html): estilos de página y cambio entre vertical y horizontal.
+
+**Control editorial:** banco ampliado a **20 preguntas** y tabla de uso de estilos/saltos. Pendientes auditoría integral y prueba funcional de la web.
