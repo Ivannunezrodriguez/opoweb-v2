@@ -35,3 +35,14 @@
 - Fuente oficial preferente: **BOE consolidado**.
 - Fecha de verificación: **19 de julio de 2026**.
 - Estado: `GENERACION_DESDE_CERO`.
+
+
+## Cotejo de vigencia — **29/10/2026**
+
+- **Estatuto de los Trabajadores:** [BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430). Última actualización publicada el **21/10/2026**, posterior a la versión del **04/12/2025** citada anteriormente. Artículos **15–16**.
+- **Ley General de la Seguridad Social:** [BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724). Última actualización publicada el **21/10/2026**, posterior a la versión del **04/02/2026** usada inicialmente. Artículos **15–16** y **24**.
+- **RD 84/1996:** [BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447). Última actualización publicada el **30/07/2026**, posterior a la versión del **08/09/2022**. Artículo **32.3**, especialmente **6 días naturales** para bajas y variaciones (antes se indicaban erróneamente **3 días** en el manual).
+
+> ⚠️ **¡Foco Examen!:** Verificar siempre la redacción consolidada que corresponda a la fecha de examen; **afiliación** no equivale a cada **alta**, y el plazo de **6 días naturales** para bajas no sustituye la obligación de tramitar el alta **antes de empezar a trabajar**.
+
+**Estado:** banco de **20 preguntas** y manual actualizado; quedan pendientes auditoría íntegra, revisión del resto de cifras y prueba funcional del sitio.
