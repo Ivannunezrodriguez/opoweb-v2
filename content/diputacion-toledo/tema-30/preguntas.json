@@ -186,17 +186,17 @@
     },
     {
       "id": "DIP-T30-014",
-      "pregunta": "¿Qué coeficiente máximo pueden aplicar los ayuntamientos a las cuotas del IVTM?",
+      "pregunta": "¿Qué plazo de declaración se establece para el IIVTNU derivado de una transmisión entre vivos?",
       "opciones": [
-        "1,5",
-        "3",
-        "2",
-        "4"
+        "30 días hábiles",
+        "6 meses",
+        "20 días naturales",
+        "Un año"
       ],
-      "correcta": 2,
-      "justificacion": "El coeficiente municipal del **IVTM** no puede ser superior a **2**.",
-      "trampa": "Diferenciar reglas de IVTM, IIVTNU y tasas locales.",
-      "referencia": "TRLRHL, artículo 95 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "correcta": 0,
+      "justificacion": "En actos entre vivos, el plazo de declaración es de **30 días hábiles** contados desde el devengo.",
+      "trampa": "No confundir con los **6 meses** prorrogables en transmisiones por causa de muerte.",
+      "referencia": "TRLRHL art. 110.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     },
     {
       "id": "DIP-T30-015",
@@ -256,31 +256,31 @@
     },
     {
       "id": "DIP-T30-019",
-      "pregunta": "¿Qué tipo máximo municipal puede aplicarse en el IIVTNU?",
+      "pregunta": "¿Qué órgano recibe la declaración tributaria del IIVTNU según el artículo 110 TRLRHL?",
       "opciones": [
-        "10 %",
-        "20 %",
-        "25 %",
-        "30 %"
+        "La Agencia Tributaria estatal en exclusiva",
+        "La diputación provincial obligatoriamente",
+        "El ayuntamiento correspondiente",
+        "El Registro de la Propiedad exclusivamente"
       ],
-      "correcta": 3,
-      "justificacion": "El tipo de gravamen del **IIVTNU** será el fijado por el ayuntamiento, sin exceder del **30 %**.",
-      "trampa": "Diferenciar reglas de IVTM, IIVTNU y tasas locales.",
-      "referencia": "TRLRHL, artículo 108 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "correcta": 2,
+      "justificacion": "El sujeto pasivo presenta la declaración ante el **ayuntamiento correspondiente**, sin perjuicio de las fórmulas de gestión tributaria legalmente previstas.",
+      "trampa": "No confundir la gestión municipal del impuesto con otras administraciones.",
+      "referencia": "TRLRHL art. 110.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     },
     {
       "id": "DIP-T30-020",
-      "pregunta": "¿Qué regla general limita el importe total de una tasa por prestación de servicios o actividades?",
+      "pregunta": "¿Qué documento debe acompañarse a la declaración de IIVTNU?",
       "opciones": [
-        "No exceder, en conjunto, del coste real o previsible del servicio o actividad",
-        "Nunca superar el 10 % del presupuesto local",
-        "Ser siempre igual a la cuota del IVA",
-        "No superar 100 euros"
+        "Solo el DNI del adquirente",
+        "La última declaración de la renta",
+        "Una certificación bancaria obligatoria",
+        "El documento en el que consten los actos o contratos que originan la imposición"
       ],
-      "correcta": 0,
-      "justificacion": "El importe de las tasas por servicios no puede exceder, **en conjunto**, del coste real o previsible del servicio o actividad.",
-      "trampa": "Diferenciar reglas de IVTM, IIVTNU y tasas locales.",
-      "referencia": "TRLRHL, artículo 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "correcta": 3,
+      "justificacion": "Se acompaña el **documento** en el que consten los actos o contratos que originan la imposición.",
+      "trampa": "La obligación documental del artículo 110.3 no se satisface necesariamente con un formulario aislado.",
+      "referencia": "TRLRHL art. 110.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     }
   ]
 }
