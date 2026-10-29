@@ -398,3 +398,25 @@ Ejemplos de cuello de botella:
 | Fuente | Suministrar energía | No aplica |
 
 > ⚠️ **¡Foco Examen!:** CPU procesa, RAM mantiene temporalmente y SSD/HDD almacena de forma permanente. Esta distinción es una de las preguntas más frecuentes.
+
+## 18. Comparativa de conceptos tecnológicos — **29/10/2026**
+
+| Concepto | Qué identifica | Lo que **no** garantiza |
+|---|---|---|
+| **CPU** | Procesador que ejecuta instrucciones | No es un dispositivo de almacenamiento permanente |
+| **RAM** | Memoria de trabajo normalmente **volátil** | No conserva normalmente el contenido tras apagar |
+| **SSD** | Almacenamiento de estado sólido **no volátil** | No equivale a memoria RAM |
+| **M.2** | Formato y conexión física de módulos | No implica por sí solo uso de **NVMe** |
+| **NVMe** | Protocolo para comunicarse con almacenamiento no volátil | No es sinónimo de formato **M.2**; admite diversos transportes |
+| **USB Tipo C** | Forma del **conector** | No asegura **USB4**, **USB Power Delivery** ni modo de vídeo |
+| **UEFI** | Firmware e interfaz de arranque | No es el sistema operativo |
+| **1 kB** | **1.000 bytes**, prefijo decimal | No equivale a **1 KiB** |
+| **1 KiB** | **1.024 bytes**, prefijo binario | No equivale a **1 kB** |
+
+> ⚠️ **¡Foco Examen!:** **M.2** indica el formato de un módulo; **NVMe** es un protocolo de comunicación. Un SSD M.2 no es necesariamente NVMe. El estándar NVMe también contempla otros formatos y transportes.
+
+> ⚠️ **¡Foco Examen!:** **USB-C** define la forma del conector, no la velocidad de datos. Para conocer sus capacidades reales hay que comprobar los protocolos y funciones expresamente admitidos por el equipo y cable.
+
+> ⚠️ **¡Foco Examen!:** **1 byte = 8 bits**, **1 kB = 1.000 bytes** y **1 KiB = 1.024 bytes**. No confundir prefijos decimales y binarios.
+
+**Fuentes oficiales:** [NVM Express: especificaciones](https://nvmexpress.org/SPECIFICATIONS/), [USB-IF: USB Tipo C](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf) y [Microsoft Learn: arranque UEFI](https://learn.microsoft.com/es-es/windows-hardware/manufacture/desktop/boot-to-uefi-mode-or-legacy-bios-mode?view=windows-11). Banco ampliado a **20 preguntas**; auditoría completa y pruebas funcionales pendientes.
