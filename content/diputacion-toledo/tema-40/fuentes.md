@@ -17,3 +17,12 @@ El epígrafe es de carácter técnico y no está vinculado a una única norma ju
 
 - Verificación editorial: **19 de julio de 2026**.
 - Estado: `GENERACION_DESDE_CERO`.
+
+
+## Fuentes concretas de la revisión — **29/10/2026**
+
+- [Microsoft Support: instalar y usar escáneres](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows). Detección e instalación de escáneres locales y de red; escáner de cama plana y alimentador de documentos.
+- [Microsoft Support: quitar hardware de forma segura](https://support.microsoft.com/es-es/windows/hardware/safely-remove-hardware-in-windows). Expulsión de memorias USB y discos externos para evitar pérdida de datos.
+- [USB Implementers Forum](https://www.usb.org/). Diferencia entre conector USB Tipo C y las funcionalidades que admite cada implementación.
+
+**Control editorial:** test de **20 preguntas** y cuadro comparativo añadido al manual. Persisten pendientes de auditoría técnica integral y verificación funcional del sitio.
