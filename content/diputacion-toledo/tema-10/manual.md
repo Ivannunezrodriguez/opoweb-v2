@@ -238,3 +238,20 @@ SI HUBO DOLO O CULPA/NEGLIGENCIA GRAVE
         ↓
 ACCIÓN DE REGRESO CONTRA AUTORIDAD O EMPLEADO
 ```
+
+
+## 13. Auditoría de plazos y competencias — **29/10/2026**
+
+| Materia | Regla esencial | Artículo |
+|---|---|---|
+| Prescripción general de reclamación | **1 año** desde hecho o manifestación del efecto lesivo; daños físicos y psíquicos desde **curación o determinación de secuelas** | **Ley 39/2015, 67.1** |
+| Informe del servicio causante | Máximo **10 días** | **Ley 39/2015, 81.1** |
+| Dictamen consultivo obligatorio | Reclamación igual o superior a **50.000 €** o umbral de legislación autonómica, sin perjuicio de otros supuestos | **Ley 39/2015, 81.2** |
+| Resolución reclamación patrimonial | **6 meses**; falta de resolución permite entender **desestimada** la reclamación | **Ley 39/2015, 91.3** |
+| Procedimiento simplificado | Máximo general **30 días**, con especialidades legales | **Ley 39/2015, 96** |
+| Acción de regreso frente a personal | Exige **dolo o culpa o negligencia graves**, previa tramitación del procedimiento | **Ley 40/2015, 36.2** |
+| Actuación conjunta de varias Administraciones | Responsabilidad **solidaria** frente al particular, según condiciones legales | **Ley 40/2015, 33.1** |
+
+> ⚠️ **¡Foco Examen!:** El **informe del servicio** se emite en **10 días**; el **plazo general de resolución** de responsabilidad patrimonial es **6 meses**. No confundir con la **prescripción de 1 año** para reclamar.
+
+**Fuentes primarias contrastadas:** [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) y [Ley 40/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). Banco ampliado de **12 a 20 preguntas**. Pendientes la auditoría íntegra de precisión jurídica y comprobación funcional de la web antes del cierre definitivo.
