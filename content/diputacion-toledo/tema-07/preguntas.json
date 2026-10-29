@@ -1,12 +1,17 @@
 {
   "tema": 7,
-  "estado": "GENERACION_DESDE_CERO",
-  "total": 12,
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "total": 20,
   "preguntas": [
     {
       "id": "DIP-T07-001",
       "pregunta": "¿Cuál de las siguientes notas distingue al acto administrativo del reglamento?",
-      "opciones": ["El acto administrativo siempre tiene destinatario único", "El acto administrativo produce efectos jurídicos concretos y no tiene carácter normativo general", "El reglamento carece de efectos jurídicos", "El acto administrativo solo puede ser favorable"],
+      "opciones": [
+        "El acto administrativo siempre tiene destinatario único",
+        "El acto administrativo produce efectos jurídicos concretos y no tiene carácter normativo general",
+        "El reglamento carece de efectos jurídicos",
+        "El acto administrativo solo puede ser favorable"
+      ],
       "correcta": 1,
       "justificacion": "El acto administrativo aplica el ordenamiento a un supuesto concreto, mientras que el reglamento contiene una norma general y abstracta.",
       "trampa": "Confundir acto general con reglamento: un acto puede dirigirse a una pluralidad, pero sigue sin tener carácter normativo.",
@@ -15,7 +20,12 @@
     {
       "id": "DIP-T07-002",
       "pregunta": "¿Qué acto de trámite puede recurrirse separadamente?",
-      "opciones": ["Cualquiera que se dicte antes de la resolución", "Solo el que sea favorable", "El que produzca indefensión o perjuicio irreparable", "Ningún acto de trámite"],
+      "opciones": [
+        "Cualquiera que se dicte antes de la resolución",
+        "Solo el que sea favorable",
+        "El que produzca indefensión o perjuicio irreparable",
+        "Ningún acto de trámite"
+      ],
       "correcta": 2,
       "justificacion": "Los actos de trámite cualificados son recurribles cuando deciden el fondo, impiden continuar, producen indefensión o perjuicio irreparable.",
       "trampa": "No todos los actos de trámite son recurribles autónomamente.",
@@ -24,7 +34,12 @@
     {
       "id": "DIP-T07-003",
       "pregunta": "La incompetencia manifiesta que determina nulidad de pleno derecho debe ser por razón de:",
-      "opciones": ["Jerarquía o cuantía", "Materia o territorio", "Firma o forma", "Tiempo o oportunidad"],
+      "opciones": [
+        "Jerarquía o cuantía",
+        "Materia o territorio",
+        "Firma o forma",
+        "Tiempo o oportunidad"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 47.1.b de la Ley 39/2015 exige incompetencia manifiesta por razón de la materia o del territorio.",
       "trampa": "La incompetencia jerárquica no aparece en esta causa de nulidad.",
@@ -33,7 +48,12 @@
     {
       "id": "DIP-T07-004",
       "pregunta": "¿Cuál de estos actos debe motivarse?",
-      "opciones": ["Solo los reglados", "Los que limiten derechos subjetivos o intereses legítimos", "Únicamente los favorables", "Ninguno si se dicta electrónicamente"],
+      "opciones": [
+        "Solo los reglados",
+        "Los que limiten derechos subjetivos o intereses legítimos",
+        "Únicamente los favorables",
+        "Ninguno si se dicta electrónicamente"
+      ],
       "correcta": 1,
       "justificacion": "La Ley 39/2015 exige motivación, entre otros, para los actos que limiten derechos subjetivos o intereses legítimos.",
       "trampa": "La motivación no depende de que el acto sea electrónico.",
@@ -42,7 +62,12 @@
     {
       "id": "DIP-T07-005",
       "pregunta": "Como regla general, los actos administrativos producen efectos:",
-      "opciones": ["Desde su publicación en todo caso", "Desde la fecha en que se dicten, salvo que dispongan otra cosa", "Desde que transcurran 10 días", "Desde que sean firmes"],
+      "opciones": [
+        "Desde su publicación en todo caso",
+        "Desde la fecha en que se dicten, salvo que dispongan otra cosa",
+        "Desde que transcurran 10 días",
+        "Desde que sean firmes"
+      ],
       "correcta": 1,
       "justificacion": "Los actos se presumen válidos y producen efectos desde la fecha en que se dictan, salvo previsión distinta o eficacia demorada.",
       "trampa": "Validez, eficacia y firmeza son conceptos distintos.",
@@ -51,7 +76,12 @@
     {
       "id": "DIP-T07-006",
       "pregunta": "¿En qué supuesto puede otorgarse eficacia retroactiva favorable?",
-      "opciones": ["Siempre que lo pida el interesado", "Cuando existieran ya los presupuestos de hecho y no se lesionen derechos de terceros", "Solo en actos sancionadores", "Nunca"],
+      "opciones": [
+        "Siempre que lo pida el interesado",
+        "Cuando existieran ya los presupuestos de hecho y no se lesionen derechos de terceros",
+        "Solo en actos sancionadores",
+        "Nunca"
+      ],
       "correcta": 1,
       "justificacion": "La retroactividad favorable exige hechos preexistentes y ausencia de lesión a derechos o intereses legítimos de otras personas.",
       "trampa": "La retroactividad favorable no es automática.",
@@ -60,7 +90,12 @@
     {
       "id": "DIP-T07-007",
       "pregunta": "¿Dentro de qué plazo debe cursarse toda notificación desde que se dicta el acto?",
-      "opciones": ["5 días", "10 días", "15 días", "1 mes"],
+      "opciones": [
+        "5 días",
+        "10 días",
+        "15 días",
+        "1 mes"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 40.2 de la Ley 39/2015 establece un plazo de 10 días para cursar la notificación.",
       "trampa": "Ese plazo no es el plazo para recurrir.",
@@ -69,7 +104,12 @@
     {
       "id": "DIP-T07-008",
       "pregunta": "Un acto de contenido imposible es:",
-      "opciones": ["Irregular no invalidante", "Anulable", "Nulo de pleno derecho", "Convalidable automáticamente"],
+      "opciones": [
+        "Irregular no invalidante",
+        "Anulable",
+        "Nulo de pleno derecho",
+        "Convalidable automáticamente"
+      ],
       "correcta": 2,
       "justificacion": "El contenido imposible constituye una causa expresa de nulidad de pleno derecho.",
       "trampa": "No se trata de mera anulabilidad.",
@@ -78,7 +118,12 @@
     {
       "id": "DIP-T07-009",
       "pregunta": "La desviación de poder determina:",
-      "opciones": ["Nulidad de pleno derecho", "Anulabilidad", "Inexistencia jurídica", "Conservación obligatoria"],
+      "opciones": [
+        "Nulidad de pleno derecho",
+        "Anulabilidad",
+        "Inexistencia jurídica",
+        "Conservación obligatoria"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 48 incluye expresamente la desviación de poder entre las causas de anulabilidad.",
       "trampa": "No confundir desviación de poder con incompetencia manifiesta.",
@@ -87,7 +132,12 @@
     {
       "id": "DIP-T07-010",
       "pregunta": "¿Cuándo produce anulabilidad un defecto de forma?",
-      "opciones": ["Siempre", "Nunca", "Cuando falten requisitos formales indispensables o se produzca indefensión", "Solo cuando falte firma manuscrita"],
+      "opciones": [
+        "Siempre",
+        "Nunca",
+        "Cuando falten requisitos formales indispensables o se produzca indefensión",
+        "Solo cuando falte firma manuscrita"
+      ],
       "correcta": 2,
       "justificacion": "El defecto formal solo invalida cuando el acto carece de requisitos formales indispensables para alcanzar su fin o produce indefensión.",
       "trampa": "No todo defecto de forma anula el acto.",
@@ -96,7 +146,12 @@
     {
       "id": "DIP-T07-011",
       "pregunta": "¿Qué figura permite subsanar los vicios de un acto anulable?",
-      "opciones": ["Conversión", "Conservación", "Convalidación", "Revocación automática"],
+      "opciones": [
+        "Conversión",
+        "Conservación",
+        "Convalidación",
+        "Revocación automática"
+      ],
       "correcta": 2,
       "justificacion": "La Administración puede convalidar los actos anulables subsanando sus vicios.",
       "trampa": "Los actos nulos de pleno derecho no son convalidables.",
@@ -105,11 +160,128 @@
     {
       "id": "DIP-T07-012",
       "pregunta": "La nulidad de un acto administrativo implica necesariamente la nulidad de todos los actos posteriores del procedimiento:",
-      "opciones": ["Sí, siempre", "Solo si los actos posteriores no son independientes del primero", "No, nunca", "Solo si lo pide el interesado"],
+      "opciones": [
+        "Sí, siempre",
+        "Solo si los actos posteriores no son independientes del primero",
+        "No, nunca",
+        "Solo si lo pide el interesado"
+      ],
       "correcta": 1,
       "justificacion": "La nulidad no se extiende a los actos sucesivos independientes del acto viciado.",
       "trampa": "La invalidez no se propaga automáticamente a todo el procedimiento.",
       "referencia": "content/diputacion-toledo/tema-07/manual.md#10-convalidación-conservación-y-conversión"
+    },
+    {
+      "id": "DIP-T07-013",
+      "pregunta": "¿Qué plazo tiene el órgano para cursar una notificación desde que dicta el acto?",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Un mes",
+        "Tres días"
+      ],
+      "correcta": 0,
+      "justificacion": "El artículo 40.2 exige cursar toda notificación dentro de los **10 días** desde la fecha del acto.",
+      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
+      "referencia": "Ley 39/2015, artículo 40 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T07-014",
+      "pregunta": "¿Cuándo se entiende rechazada una notificación electrónica obligatoria sin acceso?",
+      "opciones": [
+        "A los diez días hábiles",
+        "Tras diez días naturales desde su puesta a disposición",
+        "Tras un mes",
+        "Inmediatamente"
+      ],
+      "correcta": 1,
+      "justificacion": "El art. 43.2 establece **10 días naturales** desde la puesta a disposición sin acceder.",
+      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
+      "referencia": "Ley 39/2015, artículo 43 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T07-015",
+      "pregunta": "Si no puede practicarse la notificación y se desconoce el domicilio, ¿dónde debe anunciarse?",
+      "opciones": [
+        "En un periódico privado",
+        "En el tablón de la oficina únicamente",
+        "En el Boletín Oficial del Estado",
+        "En una red social oficial"
+      ],
+      "correcta": 2,
+      "justificacion": "El art. 44 establece anuncio obligatorio en **BOE**; otros anuncios son facultativos o complementarios.",
+      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
+      "referencia": "Ley 39/2015, artículo 44 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T07-016",
+      "pregunta": "¿Qué publicación surte efectos de notificación en un procedimiento selectivo?",
+      "opciones": [
+        "Cualquier web, aunque no se indique",
+        "Un correo interno al tribunal",
+        "El periódico local",
+        "La que se realice en el medio indicado por la convocatoria"
+      ],
+      "correcta": 3,
+      "justificacion": "En procedimientos selectivos la convocatoria debe indicar el medio de sucesivas publicaciones; las de lugares diferentes carecen de validez.",
+      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
+      "referencia": "Ley 39/2015, artículo 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T07-017",
+      "pregunta": "¿Qué tipo de invalidez corresponde a un acto de contenido imposible?",
+      "opciones": [
+        "Nulidad de pleno derecho",
+        "Simple irregularidad inocua",
+        "Anulabilidad solo si causa indefensión",
+        "Convalidación automática"
+      ],
+      "correcta": 0,
+      "justificacion": "Los actos de contenido imposible son **nulos de pleno derecho** conforme al art. 47.1.c.",
+      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
+      "referencia": "Ley 39/2015, artículo 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T07-018",
+      "pregunta": "¿Qué vicio causa, con carácter general, la desviación de poder?",
+      "opciones": [
+        "Nulidad automática de cualquier ley",
+        "Anulabilidad del acto",
+        "Simple recomendación sin efectos",
+        "Caducidad del procedimiento en todos los casos"
+      ],
+      "correcta": 1,
+      "justificacion": "La infracción del ordenamiento, incluida **desviación de poder**, determina anulabilidad según el art. 48.1.",
+      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
+      "referencia": "Ley 39/2015, artículo 48 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T07-019",
+      "pregunta": "¿Qué sucede con un acto anulable cuando se subsana su vicio conforme a la Ley 39/2015?",
+      "opciones": [
+        "Debe anularse siempre judicialmente",
+        "Se transforma necesariamente en reglamento",
+        "Puede ser convalidado por la Administración",
+        "Se extingue la competencia"
+      ],
+      "correcta": 2,
+      "justificacion": "El art. 52 permite a la Administración **convalidar actos anulables** subsanando los vicios de que adolezcan.",
+      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
+      "referencia": "Ley 39/2015, artículo 52 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T07-020",
+      "pregunta": "¿Qué efecto tiene, por regla general, la nulidad o anulabilidad de un acto sobre otros actos independientes del procedimiento?",
+      "opciones": [
+        "Los invalida todos automáticamente",
+        "Los convierte en resoluciones firmes",
+        "Impide conservar trámites válidos",
+        "No implica la de los sucesivos independientes del primero"
+      ],
+      "correcta": 3,
+      "justificacion": "El art. 49.1 establece que la nulidad o anulabilidad de un acto no implica la de los sucesivos que sean independientes de aquél.",
+      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
+      "referencia": "Ley 39/2015, artículo 49 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ]
 }
