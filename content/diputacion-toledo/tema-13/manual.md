@@ -254,3 +254,20 @@ MUNICIPIO
     ├── Información pública: 15 días
     └── Prórroga automática si no entra en vigor
 ```
+
+## 9. Contraste normativo de 29/10/2026: órganos municipales y presupuesto
+
+| Cuestión | Regla vigente y matiz de examen | Norma |
+|---|---|---|
+| Elementos del municipio | **Territorio, población y organización** | **LRBRL, art. 11.2** |
+| Órganos presentes en todos los ayuntamientos | **Alcalde, Tenientes de Alcalde y Pleno** | **LRBRL, art. 20.1.a** |
+| Junta de Gobierno Local | Obligatoria en municipios de más de **5.000 habitantes**; posible en los de menor población conforme a la ley | **LRBRL, art. 20.1.b** |
+| Aprobación del presupuesto | Corresponde al **Pleno**, mediante acuerdo único para el presupuesto general | **TRLRHL, arts. 168.5 y 169** |
+| Exposición del presupuesto inicialmente aprobado | **15 días** para examen y reclamaciones | **TRLRHL, art. 169.1** |
+| Resolución de reclamaciones al presupuesto | **Un mes**, por el **Pleno** | **TRLRHL, art. 169.1** |
+| Aprobación definitiva del presupuesto | Antes del **31 de diciembre** del ejercicio anterior | **TRLRHL, art. 169.2** |
+| Falta de entrada en vigor al inicio del ejercicio | Prórroga automática del presupuesto anterior, con límites legales | **TRLRHL, art. 169.6** |
+
+> ⚠️ **¡Foco Examen!:** Los **15 días** de exposición del presupuesto no son los **20 días hábiles** de otros trámites administrativos. Si hay reclamaciones, el **Pleno** tiene **un mes** para resolverlas.
+
+**Fuente vigente comprobada:** [Ley 7/1985, actualización publicada **03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) y [TRLRHL, actualización publicada **07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). Banco ampliado a **20 preguntas**. Pendiente revisión integral del manual y verificación funcional del portal; el tema sigue en auditoría.
