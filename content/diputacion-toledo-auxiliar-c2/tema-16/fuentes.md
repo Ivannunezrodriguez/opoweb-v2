@@ -1,19 +1,18 @@
-# Fuentes primarias y control de auditoría · Tema 16
+# Tema 16 · Auditoría y fuentes de Microsoft Windows 11 Pro
 
-**Epígrafe oficial:** BOP de Toledo **n.º 197, de 14/10/2026**, **Anexo XI**, código **2026.00004759**. Véase reproducción literal en `manual.md`.
+**Programa oficial:** Diputación Toledo Auxiliar C2, BOP **197 de 14/10/2026**, Anexo XI.
 
-## Fuentes legales o técnicas
+## Fuentes técnicas oficiales
 
-- https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows
+- [Microsoft — Explorador Windows 11](https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows)
+- [Microsoft — instalar impresora](https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows)
+- [Microsoft — instalar escáner](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows)
+- [Microsoft — métodos abreviados Windows](https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows)
 
-## Tareas antes de publicar
+## Cierre editorial 29/10/2026
 
-- [ ] Comprobar las fuentes oficiales aplicables a la fecha de examen.
-- [ ] Verificar artículo, plazo, porcentaje, mayorías y órgano cuando proceda; en informática, versión concreta y comportamiento comprobable.
-- [ ] Comprobar atajos, menús contextuales, ubicaciones, comportamiento según unidad local/red, cola de impresión, configuración y digitalización en Windows 11 Pro.
-- [ ] Eliminar referencias heredadas de la estructura de La Puebla que no correspondan al epígrafe de Diputación C2.
-- [ ] Crear preguntas de test y supuestos propios con soluciones verificables.
+**Contenido:** cinco bloques completos de operaciones de archivos y carpetas, unidades locales/red, impresión y digitalización. Incluye tablas de comparación y supuestos de oficina. **Banco:** 20 preguntas originales con soluciones, cuatro alternativas y referencias técnicas.
 
-**Estado actual: BORRADOR.** El manual procede de una base editorial previamente desarrollada, pero no se certifica como auditado en esta convocatoria.
+**Alcance de auditoría:** comprobación documental y estructural; no se ha ejecutado el portal en navegador real ni se ha ensayado una impresora o escáner físico.
 
-> ⚠️ **¡Foco Examen!:** Ante diferencias entre explicaciones de un manual y el articulado o documentación técnica oficial, prevalece el texto oficial aplicable al programa.
+> ⚠️ **¡Foco Examen!:** **Supr** puede enviar a Papelera; **Mayús+Supr** la omite. Una **unidad asignada Z:** no es necesariamente un disco físico. **ADF** y **OCR** realizan tareas distintas.
