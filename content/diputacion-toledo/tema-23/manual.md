@@ -281,3 +281,28 @@ PREVENCIÓN DE RIESGOS LABORALES
     ├── Delegados de prevención
     └── Comité de Seguridad y Salud
 ```
+
+
+## 16. Auditoría de umbrales y plazos — **29/10/2026**
+
+| Plantilla de personas trabajadoras | Delegados de prevención | Norma |
+|---|---|---|
+| **6 a 30** | **1** delegado de personal que asume la prevención | **LPRL 35.2** |
+| **31 a 49** | **1**, elegido entre delegados de personal | **LPRL 35.2** |
+| **50 a 100** | **2** | **LPRL 35.2** |
+| **101 a 500** | **3** | **LPRL 35.2** |
+| **501 a 1.000** | **4** | **LPRL 35.2** |
+| **1.001 a 2.000** | **5** | **LPRL 35.2** |
+| **2.001 a 3.000** | **6** | **LPRL 35.2** |
+| **3.001 a 4.000** | **7** | **LPRL 35.2** |
+| **4.001 en adelante** | **8** | **LPRL 35.2** |
+
+El **Comité de Seguridad y Salud** se constituye en centros o empresas de **50 o más** personas trabajadoras. Es un órgano **paritario y colegiado**, integrado por los delegados de prevención y la representación empresarial en igual número (**art. 38.1–2**). Se reúne **trimestralmente** y cuando lo solicite alguna de las representaciones (**art. 38.3**).
+
+Si se acuerda la paralización ante un riesgo **grave e inminente**, la **autoridad laboral** debe ratificar o anular el acuerdo en un máximo de **24 horas** (**art. 21.3**).
+
+> ⚠️ **¡Foco Examen!:** La plantilla de **49** tiene **1 delegado de prevención**; al llegar a **50**, corresponden **2 delegados** y se constituye el **Comité de Seguridad y Salud**. No confundir número de delegados con periodicidad **trimestral** del comité.
+
+> ⚠️ **¡Foco Examen!:** Las **24 horas** para ratificar o anular la paralización corresponden a la **autoridad laboral**, no al comité ni a los delegados.
+
+**Fuente cotejada:** [Ley 31/1995, BOE consolidado, última actualización publicada **09/04/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), arts. **21, 35 y 38**. Banco ampliado a **20 preguntas**. Pendiente auditoría integral y prueba funcional en OpoWeb.
