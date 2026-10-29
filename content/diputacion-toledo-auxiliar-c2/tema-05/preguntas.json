@@ -1,8 +1,8 @@
 {
   "tema": 5,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
-  "criterio": "6 preguntas cotejadas con LRBRL y LOREG consolidadas a 26/10/2026; preguntas originales no oficiales. Manual del tema pendiente auditoría completa.",
+  "estado": "BANCO_20_PREGUNTAS_REVISADO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales con respuestas, cuatro opciones, artículos LRBRL/LOREG/CE y fuente oficial.",
   "preguntas": [
     {
       "id": "DT-C2-T05-001",
@@ -87,6 +87,202 @@
       "justificacion": "El art. 36.1.b de la LRBRL atribuye a la Diputación la **asistencia y cooperación jurídica, económica y técnica** a los municipios, especialmente los de menor capacidad económica y de gestión. En todo caso, garantiza en los municipios de **menos de 1.000 habitantes** los servicios de secretaría e intervención.",
       "trampaExamen": "No confundir asistencia general a los municipios con la garantía específica de **secretaría e intervención** para municipios de **menos de 1.000 habitantes**.",
       "referencia": "LRBRL art. 36.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-007",
+      "enunciado": "¿Qué órgano representa y dirige el gobierno y administración del municipio?",
+      "opciones": [
+        "El Presidente de la Diputación",
+        "El Alcalde",
+        "El Delegado del Gobierno",
+        "El Tribunal Electoral"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El Alcalde preside la Corporación y ostenta funciones de representación, dirección y gobierno municipal.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LRBRL art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-008",
+      "enunciado": "¿Qué órgano aprueba, entre otras atribuciones, el presupuesto municipal?",
+      "opciones": [
+        "La Junta Electoral",
+        "El Secretario Municipal en solitario",
+        "El Pleno",
+        "La Policía Local"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El Pleno ejerce las competencias del artículo 22, incluida aprobación de presupuestos.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LRBRL art. 22.2.e · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-009",
+      "enunciado": "¿Qué competencia identifica expresamente la LRBRL para la Diputación?",
+      "opciones": [
+        "Expedir DNI",
+        "Aprobar leyes autonómicas",
+        "Dirigir juzgados",
+        "Coordinación de servicios municipales entre sí para garantía integral de prestación adecuada"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Artículo 36.1.a: coordinación de servicios municipales entre sí para garantizar prestación integral y adecuada.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LRBRL art. 36.1.a · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-010",
+      "enunciado": "¿Qué es la provincia según la Constitución?",
+      "opciones": [
+        "Entidad local con personalidad jurídica propia determinada por la agrupación de municipios",
+        "Una unidad sin personalidad jurídica",
+        "Solo distrito electoral del Senado",
+        "Un órgano de la comunidad autónoma"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Artículo 141.1 CE identifica la provincia como entidad local con personalidad jurídica propia determinada por agrupación de municipios y división territorial para actividades estatales.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "CE art. 141.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DT-C2-T05-011",
+      "enunciado": "¿Qué institución gobierna y administra ordinariamente una provincia?",
+      "opciones": [
+        "El Tribunal Supremo",
+        "La Diputación u otras corporaciones de carácter representativo",
+        "El Ayuntamiento de la capital siempre",
+        "La Junta Electoral Central"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Conforme a artículos 141.2 CE y 31 LRBRL, la provincia se gobierna y administra por Diputaciones u otras corporaciones representativas.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "CE art. 141.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DT-C2-T05-012",
+      "enunciado": "¿Qué número de diputados provinciales corresponde a una provincia con población entre 500.001 y 1.000.000 habitantes?",
+      "opciones": [
+        "21",
+        "25",
+        "27",
+        "31"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Artículo 204 LOREG: tramo 500.001 a 1.000.000 habitantes, 27 diputados.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LOREG art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+    },
+    {
+      "id": "DT-C2-T05-013",
+      "enunciado": "¿Quién elige a los diputados provinciales en el procedimiento ordinario?",
+      "opciones": [
+        "Los vecinos por sufragio directo separado en toda la provincia",
+        "El Gobierno central",
+        "Los alcaldes únicamente",
+        "Los concejales elegidos de los partidos judiciales en los términos de la LOREG"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La LOREG regula elección indirecta de diputados provinciales por concejales de listas correspondientes a cada partido judicial.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LOREG art. 206 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+    },
+    {
+      "id": "DT-C2-T05-014",
+      "enunciado": "¿Cuánto dura el mandato de los concejales municipales como regla general?",
+      "opciones": [
+        "Cuatro años",
+        "Dos años",
+        "Seis años",
+        "Cinco años"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 194 LOREG establece el mandato de cuatro años.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LOREG art. 194 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+    },
+    {
+      "id": "DT-C2-T05-015",
+      "enunciado": "¿Cómo se elige Alcalde si ningún cabeza de lista obtiene mayoría absoluta de votos de concejales en el régimen general?",
+      "opciones": [
+        "Por sorteo sin más",
+        "Se proclama al concejal que encabece la lista más votada popularmente, con los matices legales",
+        "Siempre al concejal más antiguo",
+        "Por designación del presidente autonómico"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Artículo 196 LOREG: sin mayoría absoluta de concejales, queda proclamado el cabeza de la lista con mayor número de votos populares; regla especial empates.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LOREG art. 196 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+    },
+    {
+      "id": "DT-C2-T05-016",
+      "enunciado": "¿Qué mayoría se exige para elegir Presidente de la Diputación en primera votación?",
+      "opciones": [
+        "Unanimidad",
+        "Dos tercios",
+        "Mayoría absoluta de diputados provinciales",
+        "Mayoría simple únicamente"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Artículo 207.2 LOREG: absoluta en primera votación; simple en segunda.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LOREG art. 207.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+    },
+    {
+      "id": "DT-C2-T05-017",
+      "enunciado": "¿Cuál es el límite de integrantes de Junta de Gobierno provincial, sin contar al Presidente?",
+      "opciones": [
+        "El mismo número que el Pleno",
+        "La mitad de diputados",
+        "Un mínimo de 20",
+        "No más de un tercio del número legal de diputados provinciales"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Artículo 35.1 LRBRL: integra Presidente y no más de un tercio del número legal de diputados nombrados y separados libremente por aquel.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LRBRL art. 35.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-018",
+      "enunciado": "¿Qué servicios especiales deben prestar en todo caso los municipios de más de 5.000 habitantes según el artículo 26 LRBRL?",
+      "opciones": [
+        "Parque público, biblioteca pública y tratamiento de residuos",
+        "Metro y universidad",
+        "Aeropuerto público",
+        "Juzgado de primera instancia"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 26.1.b LRBRL añade parque público, biblioteca pública y tratamiento de residuos a prestaciones generales.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LRBRL art. 26.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-019",
+      "enunciado": "¿Qué principio informa la actuación de la Diputación respecto de municipios de menor capacidad económica y de gestión?",
+      "opciones": [
+        "Exclusión de servicios locales",
+        "Asistencia y cooperación preferente hacia municipios de menor capacidad",
+        "Supresión del municipio por defecto",
+        "Sustituir necesariamente al alcalde en actos privados"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Artículo 36.1.b LRBRL destaca asistencia y cooperación jurídica, económica y técnica a municipios, especialmente a los de menor capacidad.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LRBRL art. 36.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DT-C2-T05-020",
+      "enunciado": "¿Qué caracteriza la Comisión Especial de Cuentas municipal?",
+      "opciones": [
+        "Solo existe en capitales",
+        "Sustituye al Pleno",
+        "Existe en todos los municipios",
+        "Solo existe en los de más de 20.000"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Artículo 20.1.e de LRBRL dispone Comisión Especial de Cuentas en todos los municipios.",
+      "trampaExamen": "Distinguir **municipio y provincia**, órganos, mayorías y tramos legales.",
+      "referencia": "LRBRL art. 20.1.e · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
     }
   ],
   "auditoria": {
