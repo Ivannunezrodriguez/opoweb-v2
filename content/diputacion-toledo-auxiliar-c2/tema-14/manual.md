@@ -628,7 +628,7 @@ Los mecanismos habituales son:
 - servicios de consulta en línea, habitualmente `OCSP`;
 - servicios de validación integrados.
 
-La revocación cualificada debe registrarse y publicarse de forma oportuna y, en todo caso, dentro de las **veinticuatro horas** siguientes a la recepción de la solicitud. Es efectiva desde su publicación.
+Según el **art. 24.3 del Reglamento eIDAS**, cuando un **prestador cualificado** que expide **certificados cualificados** decide revocarlos, debe registrar la revocación y publicar su estado de forma oportuna y, en todo caso, dentro de **24 horas** desde la recepción de la solicitud. La revocación produce efectos inmediatamente desde su publicación. **No atribuir este plazo al artículo 9.2 de la Ley 6/2020.**
 
 ## 10. Validación de firmas y sellos
 
@@ -991,3 +991,6 @@ El servicio de consulta del estado de validez o revocación corresponde al **art
 > ⚠️ **¡Foco Examen!:** La consulta del estado del certificado está en **9.2**, no en **10**. El **10** no trata plazos de consulta, sino **responsabilidad del prestador**.
 
 **Fuente:** [BOE, Ley 6/2020, artículos 9 y 10](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046).
+
+
+> ⚠️ **¡Foco Examen!:** El límite de **24 horas** de publicación de la revocación es del **artículo 24.3 eIDAS** para prestadores cualificados emisores de certificados cualificados; el **art. 9.2 de la Ley 6/2020** regula la disponibilidad de consulta del estado de certificados.
