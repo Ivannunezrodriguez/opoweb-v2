@@ -202,3 +202,20 @@ Las publicaciones oficiales de 2026 acreditan la existencia de plazas de **Gesto
 7. Esta versión evita afirmar como literales datos estatutarios no comprobados.
 
 > ⚠️ **¡Foco Examen!:** Para este tema, la mayor trampa sería memorizar como cierto un reparto orgánico no verificado. En test, debe priorizarse lo que deriva de la legislación general y de publicaciones oficiales comprobables.
+
+## 11. Auditoría parcial y nuevas fuentes — 29/10/2026
+
+El **Portal de Transparencia de la Diputación de Toledo** identifica el **Acuerdo Regulador** de personal funcionario y laboral de la Diputación y sus organismos autónomos en el **BOP n.º 246, de 28/12/2023**. También enumera modificaciones de **14/01/2025**, **16/01/2026** y **20/02/2026** (nocturnidad especial). No se ha podido leer aquí el texto íntegro de esos documentos; por tanto, **no se certifican cláusulas, permisos, cuantías o mayorías específicos**. Se mantiene pendiente el texto íntegro vigente de los **Estatutos del OAPGT**.
+
+| Institución | Regla contrastada | Norma |
+|---|---|---|
+| **Pacto** | Materias competencia del **órgano administrativo suscriptor** | **TREBEP 38.2** |
+| **Acuerdo** | Requiere aprobación **expresa y formal** de **órganos de gobierno** | **TREBEP 38.3** |
+| Contenido del instrumento | Partes, ámbitos personal, funcional, territorial y temporal, preaviso y denuncia | **TREBEP 38.4** |
+| Publicidad | Remisión a oficina pública y publicación en boletín oficial correspondiente | **TREBEP 38.6** |
+| Tributos locales | Competencia originaria de **entidades locales**, sin perjuicio de delegación | **LRBRL 106.3** |
+| Potestad reglamentaria tributaria | **Ordenanzas fiscales** de las entidades competentes | **LRBRL 106.2** |
+
+> ⚠️ **¡Foco Examen!:** Un **Acuerdo** precisa ratificación del **órgano de gobierno** correspondiente. La delegación de gestión o recaudación **no cambia por sí misma la titularidad** del tributo.
+
+**Referencias:** https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes ; https://transparencia.diputoledo.es/t/normativa/2250 ; https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719 ; https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392 . **20 preguntas**; auditoría específica pendiente.
