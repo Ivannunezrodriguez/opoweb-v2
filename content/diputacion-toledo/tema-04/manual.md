@@ -327,3 +327,19 @@ LEY 40/2015
 | Resolución de recusación | **Tres días** |
 
 > ⚠️ **¡Foco Examen!:** la trampa más habitual consiste en afirmar que delegación, encomienda, delegación de firma o suplencia cambian la titularidad de la competencia. **No la cambian**.
+
+
+## 11. Cotejo de competencia y recusación — 29/10/2026
+
+| Figura | Regla | Artículo Ley 40/2015 |
+|---|---|---|
+| **Delegación** | Publicación en diario oficial; no transmite la titularidad | **9** |
+| **Avocación** | Acuerdo motivado del órgano competente | **10** |
+| **Encomienda** | Actividades materiales o técnicas; no cede competencia | **11** |
+| **Delegación de firma** | No altera competencia ni precisa publicación de validez | **12** |
+| **Abstención** | Comunicación al superior inmediato | **23** |
+| **Recusación** | Manifestación del recusado al **día siguiente**; decisión del superior en **3 días** si niega causa | **24** |
+
+> ⚠️ **¡Foco Examen!:** No confundir **delegación de competencias**, **encomienda de gestión** ni **delegación de firma**; las tres mantienen distinciones jurídicas esenciales.
+
+Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
