@@ -833,3 +833,18 @@ Un [anuncio posterior del **BOP 188 de 03/10/2019**](https://bop.diputoledo.es/w
 > ⚠️ **¡Foco Examen!:** Una publicación oficial que **cita** Estatutos antiguos no es una **publicación de texto refundido o consolidado**. Son probatorias las competencias expresamente invocadas; no lo son las mayorías o quórums no recogidos en ese anuncio.
 
 **Resultado:** se amplía la cadena documental de competencias verificables, pero la reconstrucción completa del articulado vigente en **2026** permanece pendiente; por rigor editorial se conserva el estado **BORRADOR**.
+
+
+## 23. Competencia de revisión tributaria delegada: dictamen de **2019**
+
+El **dictamen 404/2019, de 16/10/2019, del Consejo Consultivo de Castilla-La Mancha** cita el **artículo 4.a).4 de los Estatutos del OAPGT** para explicar la revisión administrativa de actos de gestión tributaria delegada. El asunto se refiere a competencias ejercidas por el organismo respecto de un tributo del **Ayuntamiento de Seseña**. Fuente de consulta: https://www.iberley.es/resoluciones/dictamen-consejo-consultivo-castilla-mancha-num-404-2019-16-10-2019-2508729
+
+| Competencia documentada | Fuente y límite |
+|---|---|
+| **Gestión, inspección y recaudación delegadas** | El dictamen describe competencias tributarias ejercidas en el expediente de **2019** |
+| **Revisión en vía administrativa** | Invoca expresamente el **artículo 4.a).4 de los Estatutos** |
+| **Composición del Consejo Rector y mayorías** | **No se acreditan** con este dictamen; exigir texto estatutario oficialmente aprobado y modificaciones |
+
+> ⚠️ **¡Foco Examen!:** No confundir una **facultad de revisión tributaria delegada** acreditada en un expediente con una facultad general del organismo para resolver sobre cualquier materia. Los Estatutos y los acuerdos de delegación determinan el alcance.
+
+**Estado:** hallazgo incorporado al tema; continúa pendiente identificar el texto estatutario íntegro definitivamente aprobado y actualizado a **2026**.
