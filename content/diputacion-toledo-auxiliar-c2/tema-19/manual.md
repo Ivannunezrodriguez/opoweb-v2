@@ -177,3 +177,47 @@ La **protección de hojas/celdas**, el **control de revisiones** y la **contrase
 **Comprobación de examen:** el porcentaje mostrado debe ser un valor numérico reconocible por Calc, no una cadena textual.
 
 **Pendiente antes de cerrar el tema:** revisión de menús y funciones con la configuración española de una instalación **LibreOffice 24** y elaboración de ejercicios de datos y gráficos completos.
+
+
+## 8. Funciones y casos prácticos de Calc 24.2
+
+### 8.1. Funciones habituales
+
+Los nombres de funciones dependen del idioma configurado. En una interfaz española son habituales los siguientes:
+
+| Función | Ejemplo | Resultado |
+|---|---|---|
+| **SUMA** | `=SUMA(A1:A3)` | Total del rango |
+| **PROMEDIO** | `=PROMEDIO(A1:A3)` | Media de valores numéricos |
+| **MAX** y **MIN** | `=MAX(A1:A3)` | Valor máximo o mínimo |
+| **CONTAR** | `=CONTAR(A1:A3)` | Cuenta números |
+| **CONTARA** | `=CONTARA(A1:A3)` | Cuenta celdas no vacías |
+| **SI** | `=SI(A1>=5;"APTO";"NO APTO")` | Condición lógica |
+| **HOY** | `=HOY()` | Fecha actual del sistema |
+
+El separador de argumentos del ejemplo es **punto y coma**; puede depender de la configuración. Las cadenas de texto se introducen entre comillas dobles.
+
+> ⚠️ **¡Foco Examen!:** **CONTAR** no es **CONTARA**; la primera cuenta celdas numéricas y la segunda celdas no vacías.
+
+### 8.2. Referencias al copiar
+
+| Celda B2 | Copiar a B3 | Justificación |
+|---|---|---|
+| `=A2` | `=A3` | Referencia relativa |
+| `=$A$2` | `=$A$2` | Fila y columna absolutas |
+| `=$A2` | `=$A3` | Solo columna fija |
+| `=A$2` | `=A$2` | Solo fila fija |
+
+> ⚠️ **¡Foco Examen!:** El signo **$** antes de la letra fija columna y antes del número fija fila.
+
+### 8.3. Supuestos resueltos
+
+**Caso A — suma:** con **20, 30 y 40** en `B2:B4`, `=SUMA(B2:B4)` devuelve **90**; `=PROMEDIO(B2:B4)` devuelve **30**.
+
+**Caso B — porcentaje:** `A2=100`, `B2=21%`; la fórmula `=A2*(1+B2)` devuelve **121**.
+
+**Caso C — condición:** con `C2=6`, `=SI(C2>=5;"APTO";"NO APTO")` devuelve **APTO** en configuración española con separador de punto y coma.
+
+**Caso D — tasa fija:** `=A2*$F$1` copiada de la fila **2** a la **3** da `=A3*$F$1`.
+
+> ⚠️ **¡Foco Examen!:** **21 % = 0,21**, no **21**, cuando participa en una multiplicación.
