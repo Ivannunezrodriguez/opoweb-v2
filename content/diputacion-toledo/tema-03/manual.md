@@ -248,3 +248,19 @@ ESTADO
 ```
 
 > ⚠️ **¡Foco Examen!:** tema especialmente propenso a preguntas cruzadas sobre **duraciones**, **mayorías**, **composición**, **refrendo**, **inmunidad parlamentaria** y diferencia entre fiscalización y jurisdicción contable.
+
+
+## 11. Cuadro de órganos y mandatos para el examen — **29/10/2026**
+
+| Institución | Regla constitucional o legal | Fuente |
+|---|---|---|
+| **Congreso de los Diputados** | Elegido por **4 años** | **CE 68.4** |
+| **Senado** | Elegido por **4 años**; en provincias peninsulares, **4 senadores** elegidos por sufragio | **CE 69.2 y 69.6** |
+| **Cortes Generales** | **Congreso y Senado**: potestad legislativa, presupuestos y control | **CE 66** |
+| **Defensor del Pueblo** | Alto comisionado de las **Cortes Generales**; mandato **5 años** | **CE 54**, **LO 3/1981** |
+| **Tribunal de Cuentas** | Supremo órgano fiscalizador de cuentas y gestión económica del Estado y sector público | **CE 136**, **LO 2/1982** |
+| **Rey** | Inviolabilidad personal y refrendo de actos conforme a las excepciones constitucionales | **CE 56, 64 y 65.2** |
+
+> ⚠️ **¡Foco Examen!:** El **Tribunal de Cuentas** controla la gestión económico-financiera y el **Defensor del Pueblo** supervisa la Administración para defender los derechos del título I: **no intercambiar funciones**.
+
+**Control de contenido:** estructura y organización del Estado, **Corona**, **Cortes**, **Defensor** y **Tribunal de Cuentas** desarrollados. Banco ampliado de **12 a 20 preguntas**. La revisión editorial completa y prueba funcional de la web siguen pendientes; no asignar estado publicado todavía.
