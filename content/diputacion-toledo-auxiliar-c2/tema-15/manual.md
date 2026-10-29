@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 15
 
-**ESTADO EDITORIAL: BORRADOR ADAPTADO, AUDITORÍA FINAL PENDIENTE.** Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
+**ESTADO EDITORIAL: CONTENIDO COMPLETO Y COTEJO NORMATIVO 29/10/2026.** Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
 
 ## 1. Epígrafe oficial literal
 
@@ -13,7 +13,7 @@
 - **Ley 40/2015 arts. 5–24 y 54–80, última consolidación publicada 02/08/2024**.
 - Fuente primaria: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
 
-**Revisión editorial pendiente:** comprobar precisión de versiones, nomenclatura, órganos, plazos y excepciones y depurar cualquier referencia a la convocatoria anterior. Los apartados siguientes forman el cuerpo de estudio y proceden de los bloques desarrollados para La Puebla; **no están certificados para esta convocatoria**.
+**Fuente aplicable:** Ley 40/2015 consolidada en el **BOE**, con última actualización publicada el **02/08/2024**. El manual se organiza conforme al epígrafe de **Diputación de Toledo C2**. La aprobación histórica de La Puebla no se utiliza como prueba de vigencia jurídica.
 
 | Inciso del programa | Bloque incorporado |
 |---|---|
@@ -29,7 +29,7 @@
 
 ## 3. organos competencia
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque revisado para Diputación C2 conforme a Ley 40/2015.**
 
 ## 1. Artículo 5 · órgano administrativo
 
@@ -251,7 +251,7 @@ Los conflictos de atribuciones solo pueden plantearse:
 
 ## 4. colegiados abstencion
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque revisado para Diputación C2 conforme a Ley 40/2015.**
 
 ## 1. Artículo 15 · régimen común
 
@@ -530,7 +530,7 @@ Contra la resolución de recusación no cabe recurso autónomo. Puede alegarse a
 
 ## 5. age estructura ministerios
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque revisado para Diputación C2 conforme a Ley 40/2015.**
 
 ## 1. Artículo 54 · principios y competencia organizativa
 
@@ -758,7 +758,7 @@ La estructura real depende del Real Decreto de cada departamento.
 
 ## 6. age organos ministeriales
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque revisado para Diputación C2 conforme a Ley 40/2015.**
 
 ## 1. Artículo 61 · Ministros
 
@@ -979,7 +979,7 @@ Los servicios comunes no deben confundirse con las áreas sectoriales que consti
 
 ## 7. age territorial exterior
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque revisado para Diputación C2 conforme a Ley 40/2015.**
 
 ## 1. Artículo 69 · Delegaciones y Subdelegaciones
 
@@ -1256,3 +1256,52 @@ Los servicios no integrados mantienen dependencia del órgano central sectorial.
 7. Atribuir al Delegado la resolución ordinaria de responsabilidad patrimonial.
 8. Olvidar la dirección provincial de Fuerzas y Cuerpos de Seguridad por el Subdelegado.
 9. Considerar que la Ley 40/2015 regula íntegramente el Servicio Exterior.
+
+
+## ANEXO · Cuadros definitivos de jerarquía, plazos y órganos
+
+### Competencia y técnicas de ejercicio
+
+| Mecanismo | Titularidad | Ejercicio / efecto | Artículo |
+|---|---|---|---|
+| **Delegación de competencias** | No cambia | Ejerce órgano delegado; exclusiones legales | **9** |
+| **Avocación** | No cambia | Órgano superior conoce asunto concreto por razones legales | **10** |
+| **Encomienda de gestión** | No cambia | Actividades materiales o técnicas, sin cesión sustantiva de decisión | **11** |
+| **Delegación de firma** | No cambia | Firma órgano o unidad dependiente; sin publicación necesaria para validez | **12** |
+| **Suplencia** | No cambia | Sustitución temporal por ausencia, vacante u otras causas tasadas | **13** |
+| **Desconcentración** | Puede cambiar por norma atributiva | Reasignación a órganos jerárquicamente dependientes | **8.2** |
+
+> ⚠️ **¡Foco Examen!:** **Encomienda** no transmite titularidad ni decisiones jurídicas sustantivas; **delegación de firma** y **suplencia** tampoco alteran la competencia.
+
+### Órganos colegiados y recusación
+
+| Cuestión | Regla | Fuente |
+|---|---|---|
+| Constitución válida de órganos colegiados (regla general) | **Presidente y Secretario**, o sus suplentes, y **al menos la mitad de miembros** | **17.2** |
+| Acuerdos (regla general) | **Mayoría de votos** | **17.5** |
+| Recusación | Promovida por **interesados** en cualquier momento de la tramitación | **24.1** |
+| Informe inicial del recusado | Al **día siguiente** manifiesta si concurre causa | **24.3** |
+| Resolución del superior si niega causa | **3 días** tras informes y comprobaciones oportunos | **24.4** |
+
+> ⚠️ **¡Foco Examen!:** El **día siguiente** es el plazo de manifestación del **recusado**; los **3 días** se aplican a la resolución de su **superior** si niega la causa.
+
+### Organización central y territorial de la AGE
+
+| Cargo | Tipo/rango | Regla relevante |
+|---|---|---|
+| **Ministro** | Órgano **superior** | Titular del departamento |
+| **Secretario de Estado** | Órgano **superior** | Dirección de sector de actividad |
+| **Subsecretario** | Órgano **directivo** | Servicios comunes |
+| **Secretario General** | Órgano **directivo**, categoría de **Subsecretario** | **Art. 64.3** |
+| **Secretario General Técnico** | Órgano **directivo**, categoría de **Director General** | **Art. 65.2** |
+| **Director General** | Órgano **directivo** | Gestión de áreas funcionalmente homogéneas |
+| **Subdirector General** | Órgano **directivo** | Responsables inmediatos de proyectos y actividades asignados |
+| **Delegado del Gobierno** | Órgano **directivo**, rango de **Subsecretario** | **Consejo de Ministros**, real decreto a propuesta del **Presidente del Gobierno**, **art. 72.4** |
+| **Subdelegado del Gobierno** | Nivel de **Subdirector General** | Lo nombra el **Delegado del Gobierno**, libre designación entre funcionarios **A1**, **art. 74** |
+| **Director Insular** | Nivel determinado por RPT | Lo nombra el **Delegado del Gobierno**, libre designación entre funcionarios **A1**, **art. 70** |
+
+> ⚠️ **¡Foco Examen!:** **Secretario General = categoría Subsecretario (art. 64.3)**; **Secretario General Técnico = Director General (art. 65.2)**. El **Delegado** lo nombra el **Consejo de Ministros**, pero el **Subdelegado** lo nombra el propio **Delegado**.
+
+**Norma de referencia:** [Ley 40/2015 consolidada, BOE-A-2015-10566](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), artículos **5–24** y **54–80**. Última actualización del consolidado **02/08/2024**.
+
+**Control editorial:** epígrafes desarrollados artículo a artículo; cuadros comparativos y banco de **20 preguntas** añadidos. No se declara realizada una prueba funcional del navegador.
