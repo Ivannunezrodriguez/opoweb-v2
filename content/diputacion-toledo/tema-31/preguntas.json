@@ -1,11 +1,16 @@
 {
   "tema": 31,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T31-001",
       "pregunta": "¿Qué firma electrónica tiene expresamente un efecto jurídico equivalente al de una firma manuscrita?",
-      "opciones": ["La firma simple", "La firma avanzada", "La firma cualificada", "Cualquier firma escaneada"],
+      "opciones": [
+        "La firma simple",
+        "La firma avanzada",
+        "La firma cualificada",
+        "Cualquier firma escaneada"
+      ],
       "correcta": 2,
       "justificacion": "El Reglamento eIDAS atribuye expresamente a la firma electrónica cualificada un efecto jurídico equivalente al de la firma manuscrita.",
       "trampa": "La firma avanzada ofrece mayores garantías técnicas, pero no recibe por sí sola esa equivalencia jurídica expresa.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T31-002",
       "pregunta": "¿Cuál de los siguientes NO es un requisito de la firma electrónica avanzada?",
-      "opciones": ["Estar vinculada de manera única al firmante", "Permitir identificar al firmante", "Detectar modificaciones posteriores", "Ser siempre emitida por una Administración pública"],
+      "opciones": [
+        "Estar vinculada de manera única al firmante",
+        "Permitir identificar al firmante",
+        "Detectar modificaciones posteriores",
+        "Ser siempre emitida por una Administración pública"
+      ],
       "correcta": 3,
       "justificacion": "La firma electrónica avanzada debe estar vinculada de manera única al firmante, permitir identificarlo, quedar bajo su control exclusivo con un alto nivel de confianza y detectar modificaciones posteriores; no exige que la emita una Administración pública.",
       "trampa": "No debe confundirse un prestador cualificado de servicios de confianza con una Administración pública.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T31-003",
       "pregunta": "El sello electrónico se asocia normalmente a:",
-      "opciones": ["Una persona jurídica", "Una persona física exclusivamente", "Un navegador web", "Un documento en papel"],
+      "opciones": [
+        "Una persona jurídica",
+        "Una persona física exclusivamente",
+        "Un navegador web",
+        "Un documento en papel"
+      ],
       "correcta": 0,
       "justificacion": "El sello electrónico se utiliza normalmente para garantizar el origen y la integridad de datos respecto de una persona jurídica.",
       "trampa": "La firma se vincula típicamente a una persona física; el sello, normalmente, a una persona jurídica.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T31-004",
       "pregunta": "¿Qué hace un certificado electrónico?",
-      "opciones": ["Sustituye siempre a la firma", "Vincula datos de validación con una identidad o atributos", "Convierte cualquier documento en público", "Elimina la necesidad de verificar identidad"],
+      "opciones": [
+        "Sustituye siempre a la firma",
+        "Vincula datos de validación con una identidad o atributos",
+        "Convierte cualquier documento en público",
+        "Elimina la necesidad de verificar identidad"
+      ],
       "correcta": 1,
       "justificacion": "Un certificado electrónico vincula datos de validación de firma o sello con una persona física o jurídica y confirma determinados atributos.",
       "trampa": "El certificado no es la firma; sirve para verificar la vinculación entre identidad y datos de validación.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T31-005",
       "pregunta": "La Ley 6/2020 entró en vigor el:",
-      "opciones": ["12 de noviembre de 2020", "13 de noviembre de 2020", "1 de enero de 2021", "9 de mayo de 2023"],
+      "opciones": [
+        "12 de noviembre de 2020",
+        "13 de noviembre de 2020",
+        "1 de enero de 2021",
+        "9 de mayo de 2023"
+      ],
       "correcta": 1,
       "justificacion": "La Ley 6/2020, de 11 de noviembre, entró en vigor el 13 de noviembre de 2020.",
       "trampa": "El 12 de noviembre de 2020 fue la fecha de publicación en el BOE, no la de entrada en vigor.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T31-006",
       "pregunta": "¿Qué identifica la Lista de confianza?",
-      "opciones": ["Todos los usuarios de certificados", "Prestadores y servicios cualificados", "Todos los empleados públicos", "Únicamente sitios web públicos"],
+      "opciones": [
+        "Todos los usuarios de certificados",
+        "Prestadores y servicios cualificados",
+        "Todos los empleados públicos",
+        "Únicamente sitios web públicos"
+      ],
       "correcta": 1,
       "justificacion": "La Lista de confianza identifica los prestadores cualificados de servicios de confianza y los servicios cualificados que ofrecen.",
       "trampa": "No es un registro general de usuarios ni de todos los certificados existentes.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T31-007",
       "pregunta": "Según la Ley 39/2015, ¿en cuál de estas actuaciones se exige firma con carácter general?",
-      "opciones": ["Consultar información pública", "Formular una solicitud", "Leer una notificación", "Acceder a una página informativa"],
+      "opciones": [
+        "Consultar información pública",
+        "Formular una solicitud",
+        "Leer una notificación",
+        "Acceder a una página informativa"
+      ],
       "correcta": 1,
       "justificacion": "La formulación de solicitudes es uno de los supuestos en los que la Ley 39/2015 exige firma con carácter general.",
       "trampa": "La mera identificación, consulta o lectura de información no implica necesariamente la exigencia de firma.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T31-008",
       "pregunta": "Identificación y firma electrónica:",
-      "opciones": ["Son siempre exactamente lo mismo", "La identificación no implica siempre firma", "La firma nunca acredita voluntad", "La identificación solo puede hacerse con DNI electrónico"],
+      "opciones": [
+        "Son siempre exactamente lo mismo",
+        "La identificación no implica siempre firma",
+        "La firma nunca acredita voluntad",
+        "La identificación solo puede hacerse con DNI electrónico"
+      ],
       "correcta": 1,
       "justificacion": "La identificación permite acreditar quién actúa; la firma añade, cuando procede, autenticidad de la voluntad y del consentimiento e integridad del documento.",
       "trampa": "No toda actuación en la que el interesado está identificado requiere también firma.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T31-009",
       "pregunta": "¿Qué sistema permite contrastar la autenticidad de un documento mediante la sede electrónica?",
-      "opciones": ["El código seguro de verificación", "La copia impresa simple", "El nombre del archivo", "La contraseña del usuario"],
+      "opciones": [
+        "El código seguro de verificación",
+        "La copia impresa simple",
+        "El nombre del archivo",
+        "La contraseña del usuario"
+      ],
       "correcta": 0,
       "justificacion": "El código seguro de verificación permite contrastar la autenticidad e integridad de un documento mediante la sede electrónica correspondiente.",
       "trampa": "El CSV no es una firma manuscrita ni una contraseña personal.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T31-010",
       "pregunta": "¿Cuál de los siguientes puede ser soporte de un certificado electrónico?",
-      "opciones": ["Tarjeta criptográfica", "Token USB", "Certificado software", "Todos los anteriores"],
+      "opciones": [
+        "Tarjeta criptográfica",
+        "Token USB",
+        "Certificado software",
+        "Todos los anteriores"
+      ],
       "correcta": 3,
       "justificacion": "Los certificados y sus claves pueden alojarse en tarjetas criptográficas, tokens USB, soportes software, dispositivos remotos o dispositivos móviles seguros.",
       "trampa": "El soporte utilizado no determina por sí solo que la firma sea cualificada.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T31-011",
       "pregunta": "Un certificado revocado:",
-      "opciones": ["Sigue siendo válido hasta fin de año", "No debe utilizarse como certificado vigente", "Se convierte automáticamente en sello", "Solo deja de valer en papel"],
+      "opciones": [
+        "Sigue siendo válido hasta fin de año",
+        "No debe utilizarse como certificado vigente",
+        "Se convierte automáticamente en sello",
+        "Solo deja de valer en papel"
+      ],
       "correcta": 1,
       "justificacion": "La revocación extingue la validez del certificado desde el momento previsto legalmente y debe reflejarse en el servicio de consulta de estado.",
       "trampa": "Caducidad, suspensión y revocación son situaciones distintas, pero todas afectan a la posibilidad de utilizar válidamente el certificado.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T31-012",
       "pregunta": "¿Qué servicio fue incorporado expresamente al marco eIDAS por el Reglamento (UE) 2024/1183?",
-      "opciones": ["El archivo electrónico", "El registro exclusivamente en papel", "La transmisión por fax", "El correo electrónico ordinario sin garantías"],
+      "opciones": [
+        "El archivo electrónico",
+        "El registro exclusivamente en papel",
+        "La transmisión por fax",
+        "El correo electrónico ordinario sin garantías"
+      ],
       "correcta": 0,
       "justificacion": "El Reglamento (UE) 2024/1183 amplió el marco eIDAS e incorporó expresamente, entre otros, los servicios de archivo electrónico, las declaraciones electrónicas de atributos y los libros mayores electrónicos.",
       "trampa": "No todo almacenamiento digital es un servicio cualificado de archivo electrónico; debe cumplir los requisitos del Reglamento eIDAS y constar con ese estado en la lista de confianza.",
       "referencia": "content/diputacion-toledo/tema-31/auditoria-2026-07-22.md#resultado-jurídico"
+    },
+    {
+      "id": "DIP-T31-013",
+      "pregunta": "Indique la respuesta correcta sobre: Equivalencia jurídica expresa de firma electrónica cualificada.",
+      "opciones": [
+        "Ninguna de las anteriores",
+        "Firma manuscrita",
+        "No existe regulación",
+        "Solo mediante resolución judicial"
+      ],
+      "correcta": 1,
+      "justificacion": "Referencia normativa: artículo 25.",
+      "trampa": "Distinguir clases y efectos jurídicos.",
+      "referencia": "Legislación de firma electrónica y servicios de confianza"
+    },
+    {
+      "id": "DIP-T31-014",
+      "pregunta": "Indique la respuesta correcta sobre: Vigencia máxima del certificado cualificado en Ley 6/2020.",
+      "opciones": [
+        "Ninguna de las anteriores",
+        "Cinco años",
+        "No existe regulación",
+        "Solo mediante resolución judicial"
+      ],
+      "correcta": 1,
+      "justificacion": "Referencia normativa: artículo 4.",
+      "trampa": "Distinguir clases y efectos jurídicos.",
+      "referencia": "Legislación de firma electrónica y servicios de confianza"
+    },
+    {
+      "id": "DIP-T31-015",
+      "pregunta": "Indique la respuesta correcta sobre: Plazo de conservación de prestadores cualificados en Ley 6/2020.",
+      "opciones": [
+        "Ninguna de las anteriores",
+        "Quince años",
+        "No existe regulación",
+        "Solo mediante resolución judicial"
+      ],
+      "correcta": 1,
+      "justificacion": "Referencia normativa: artículo 11.",
+      "trampa": "Distinguir clases y efectos jurídicos.",
+      "referencia": "Legislación de firma electrónica y servicios de confianza"
+    },
+    {
+      "id": "DIP-T31-016",
+      "pregunta": "Indique la respuesta correcta sobre: La firma electrónica se atribuye a.",
+      "opciones": [
+        "Ninguna de las anteriores",
+        "Persona física",
+        "No existe regulación",
+        "Solo mediante resolución judicial"
+      ],
+      "correcta": 1,
+      "justificacion": "Referencia normativa: artículo 3.",
+      "trampa": "Distinguir clases y efectos jurídicos.",
+      "referencia": "Legislación de firma electrónica y servicios de confianza"
+    },
+    {
+      "id": "DIP-T31-017",
+      "pregunta": "Indique la respuesta correcta sobre: El sello electrónico se atribuye a.",
+      "opciones": [
+        "Ninguna de las anteriores",
+        "Persona jurídica",
+        "No existe regulación",
+        "Solo mediante resolución judicial"
+      ],
+      "correcta": 1,
+      "justificacion": "Referencia normativa: artículo 3.",
+      "trampa": "Distinguir clases y efectos jurídicos.",
+      "referencia": "Legislación de firma electrónica y servicios de confianza"
+    },
+    {
+      "id": "DIP-T31-018",
+      "pregunta": "Indique la respuesta correcta sobre: La revocación del certificado determina.",
+      "opciones": [
+        "Ninguna de las anteriores",
+        "Extinción de vigencia",
+        "No existe regulación",
+        "Solo mediante resolución judicial"
+      ],
+      "correcta": 1,
+      "justificacion": "Referencia normativa: artículo 5.",
+      "trampa": "Distinguir clases y efectos jurídicos.",
+      "referencia": "Legislación de firma electrónica y servicios de confianza"
+    },
+    {
+      "id": "DIP-T31-019",
+      "pregunta": "Indique la respuesta correcta sobre: La lista de confianza identifica.",
+      "opciones": [
+        "Ninguna de las anteriores",
+        "Prestadores y servicios cualificados",
+        "No existe regulación",
+        "Solo mediante resolución judicial"
+      ],
+      "correcta": 1,
+      "justificacion": "Referencia normativa: artículo 16.",
+      "trampa": "Distinguir clases y efectos jurídicos.",
+      "referencia": "Legislación de firma electrónica y servicios de confianza"
+    },
+    {
+      "id": "DIP-T31-020",
+      "pregunta": "Indique la respuesta correcta sobre: Para interponer recursos Ley 39/2015 exige.",
+      "opciones": [
+        "Ninguna de las anteriores",
+        "Firma",
+        "No existe regulación",
+        "Solo mediante resolución judicial"
+      ],
+      "correcta": 1,
+      "justificacion": "Referencia normativa: artículo 11.",
+      "trampa": "Distinguir clases y efectos jurídicos.",
+      "referencia": "Legislación de firma electrónica y servicios de confianza"
     }
   ]
 }
