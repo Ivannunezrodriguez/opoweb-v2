@@ -326,3 +326,21 @@ Contra el acuerdo de urgencia no cabe recurso, sin perjuicio del recurso contra 
 10. Urgencia reduce plazos a la mitad, excepto solicitudes y recursos.
 
 > ⚠️ **¡Foco Examen!:** las trampas más frecuentes consisten en mezclar plazo máximo para resolver, cómputo del plazo, silencio, ampliación y urgencia. Deben estudiarse como instituciones distintas.
+
+
+## 15. Auditoría de plazos y excepciones — **29/10/2026**
+
+| Regla | Plazo o condición | Artículo Ley 39/2015 |
+|---|---|---|
+| Subsanación de representación | **10 días**, ampliable en circunstancias previstas | **5.6** |
+| Poder inscrito | Vigencia máxima **5 años** desde inscripción | **6.6** |
+| Resolución sin plazo fijado | **3 meses** | **21.3** |
+| Límite general del plazo fijado por norma | **6 meses**, salvo ley o Derecho UE | **21.2** |
+| Procedimiento sancionador iniciado de oficio | **Caducidad** al vencimiento del plazo en los términos legales | **25.1.b** |
+| Cómputo en días hábiles | Excluye **sábados, domingos y festivos** | **30.2** |
+| Ampliación ordinaria de plazo | No superior a **la mitad** del plazo inicial; antes de vencer | **32.1 y 32.3** |
+| Urgencia | Reduce plazos **a la mitad**, excepto presentación de **solicitudes y recursos** | **33.1** |
+
+> ⚠️ **¡Foco Examen!:** El plazo supletorio para resolver de **3 meses** no equivale al máximo general de **6 meses** para la norma reguladora; el procedimiento sancionador de oficio tiene **caducidad**, no estimación por silencio.
+
+**Fuente primaria comprobada:** [Ley 39/2015 consolidada, actualización publicada **06/11/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco actualizado a **20 preguntas**. Continúa pendiente la comprobación íntegra del manual y la prueba funcional antes de marcar **PUBLICADO**.
