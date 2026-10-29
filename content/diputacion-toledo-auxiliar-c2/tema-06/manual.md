@@ -799,3 +799,20 @@ No se extrapola la aprobación definitiva de **otras normas provinciales** —co
 ## Nota de verificación de 29/10/2026
 
 La reforma estatutaria anunciada en diciembre de 2004 aparece como **aprobación inicial**. Sin publicación definitiva localizada, no debe presentarse como texto consolidado vigente. El tema permanece en revisión.
+
+
+## 21. Cuadro de examen: distinguir norma vigente, reforma y acto administrativo
+
+| Materia | Fuente | Qué se puede estudiar con seguridad |
+|---|---|---|
+| Condiciones de trabajo | Acuerdo publicado en **BOP 28/12/2023** | Jornada, vacaciones, permisos y condiciones **con modificaciones posteriores** |
+| Retribuciones 2026 | Modificación **BOP 16/01/2026** | Importes con efectos señalados desde **01/01/2026**, no anteriores |
+| Nocturnidad especial | Modificación **BOP 20/02/2026** | Cuantía y supuesto específico de la reforma |
+| Adscripción del OAPGT | Reforma estatutaria **BOP 14/12/2011** | Referencia al **Presidente de Diputación** en la redacción entonces publicada |
+| Contratación OAPGT | Acuerdo en **BOP 16/05/2023** | Atribuciones del **Consejo Rector** invocando **art. 10.k**, en el alcance del acuerdo |
+| Organización provincial | Reglamento **BOP 14/02/2024** | Encuadre administrativo de OAPGT en **Economía, Hacienda y Presupuestos** |
+| Órganos colegiados del OAPGT | Publicaciones estatutarias históricas | **Pendiente** reconstrucción del texto definitivo y sus reformas para fijar composición, quórum y mayorías de **2026** |
+
+> ⚠️ **¡Foco Examen!:** La **adscripción estatutaria** del OAPGT y su **encuadre administrativo en un área provincial** son cuestiones distintas. No deducir una reforma de Estatutos únicamente del organigrama de Diputación.
+
+**Trazabilidad complementaria:** véase `fuentes.md`. El banco existente cuenta con **29 preguntas**, todas a tratar como entrenamiento con la fecha y fuente indicadas mientras no se complete la reconstrucción estatutaria.
