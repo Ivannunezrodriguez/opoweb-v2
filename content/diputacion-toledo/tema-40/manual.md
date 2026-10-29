@@ -152,3 +152,27 @@ El **controlador o driver** permite que el sistema operativo se comunique correc
 | Driver | Comunicación entre sistema y periférico |
 
 > ⚠️ **¡Foco Examen!:** No confundas interfaz, conector y dispositivo: USB es un estándar; USB-C es un tipo de conector; una memoria USB es un periférico de almacenamiento.
+
+## Comparativa final de periféricos y tareas — **29/10/2026**
+
+| Concepto | Función o característica | Trampa de examen |
+|---|---|---|
+| **Escáner de cama plana** | Digitaliza originales depositados sobre el cristal | Apto para libros u originales delicados |
+| **ADF** | Alimentador automático de hojas | Facilita procesar documentos de varias páginas |
+| **ADF dúplex** | Digitalización de **ambas caras** si el equipo lo permite | No equivale a imprimir a doble cara |
+| **OCR** | Reconocimiento de texto dentro de una imagen | Escanear no garantiza texto editable |
+| **Impresora láser** | Impresión normalmente mediante **tóner** | No equivale a tinta líquida |
+| **Impresora térmica directa** | Calor sobre papel termosensible | No necesita cartuchos de tinta convencionales |
+| **CD-R** | Soporte grabable sin reescritura ordinaria | No equivale a **CD-RW** |
+| **CD-RW** | Disco borrable y regrabable en unidades compatibles | Requiere compatibilidad del lector/grabador |
+| **USB-C** | Forma física del conector | No garantiza una velocidad ni potencia determinadas |
+| **Controlador (driver)** | Permite la comunicación del sistema operativo con el periférico | No sustituye al dispositivo físico |
+| **Expulsión segura** | Finaliza el acceso a una unidad extraíble antes de retirarla | Ayuda a evitar **pérdida de datos** |
+
+> ⚠️ **¡Foco Examen!:** El **ADF** alimenta documentos automáticamente, mientras que el **OCR** reconoce caracteres. Un escaneo puede producir exclusivamente una imagen, sin texto seleccionable.
+
+> ⚠️ **¡Foco Examen!:** **CD-R** significa grabable y **CD-RW** regrabable. **USB-C** identifica la geometría del conector: no asegura por sí solo transferencia de alta velocidad, vídeo o carga a determinada potencia.
+
+> ⚠️ **¡Foco Examen!:** Windows recomienda usar **Quitar hardware de forma segura** antes de desconectar una memoria USB o disco externo para disminuir el riesgo de pérdida de datos.
+
+**Documentación:** [Microsoft: instalar y usar un escáner](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows) y [Microsoft: retirar hardware con seguridad](https://support.microsoft.com/es-es/windows/hardware/safely-remove-hardware-in-windows). **20 preguntas**; pendientes auditoría técnica integral y prueba funcional de OpoWeb.
