@@ -7,7 +7,7 @@
 La **Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local** distingue entre:
 
 - Entidades locales territoriales: **municipio, provincia e isla**.
-- Otras entidades locales reconocidas por la legislación autonómica o constituidas conforme a la ley: **comarcas**, **áreas metropolitanas**, **mancomunidades de municipios** y, en su caso, entidades de ámbito territorial inferior al municipio.
+- Otras entidades locales del **artículo 3.2 LRBRL**: **comarcas**, **áreas metropolitanas** y **mancomunidades de municipios**. Los nuevos **entes de ámbito territorial inferior al municipio** se regulan por el **artículo 24 bis** y **carecen de personalidad jurídica**, sin perjuicio del régimen transitorio de entidades anteriores.
 
 Estas entidades no ocupan todas la misma posición jurídica. La provincia y el municipio tienen reconocimiento constitucional directo; las demás dependen de la legislación estatal básica y del desarrollo autonómico.
 
@@ -201,3 +201,17 @@ OTRAS ENTIDADES LOCALES
 | ¿Puede una mancomunidad asumir todas las competencias municipales? | **No** |
 | ¿Tiene una EATIM término municipal propio? | **No** |
 | ¿Es el área metropolitana una simple agrupación rural? | **No**, exige una gran aglomeración urbana |
+
+
+## 9. Auditoría de creación y personalidad — **29/10/2026**
+
+| Figura | Creación y requisito | Norma |
+|---|---|---|
+| **Mancomunidad** | Estatutos elaborados en **asamblea de concejales de todos los municipios promotores**, informe de **Diputación** y aprobación por **Plenos de todos los ayuntamientos** | **LRBRL 44.3** |
+| **Comarca** | La oposición de **2/5 de municipios** representativos de al menos **la mitad del censo electoral** impide su creación; para varias provincias, informe favorable de sus **Diputaciones** | **LRBRL 42.2** |
+| **Área metropolitana** | Creación, modificación y supresión por **ley autonómica**, previa audiencia de **Estado, ayuntamientos y diputaciones afectados** | **LRBRL 43.1** |
+| **Nuevo ente inframunicipal** | Organización desconcentrada del municipio **sin personalidad jurídica**; régimen transitorio de entidades anteriores debe distinguirse | **LRBRL 24 bis** y disposiciones transitorias de **Ley 27/2013** |
+
+> ⚠️ **¡Foco Examen!:** Una **mancomunidad** tiene **personalidad jurídica propia** y estatutos; los **nuevos entes inframunicipales** del artículo **24 bis** carecen de personalidad jurídica. No confundirlos con entidades históricas amparadas por régimen transitorio.
+
+**Fuente primaria comprobada:** [LRBRL consolidada, versión publicada **03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392). Banco ampliado a **20 preguntas**. Pendientes la auditoría jurídica integral y la prueba de navegación web antes de certificar el tema.
