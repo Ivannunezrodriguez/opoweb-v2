@@ -1,19 +1,287 @@
 {
   "tema": 9,
   "titulo": "Administración electrónica",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
-    {"id":"DIP-T09-001","pregunta":"¿Cuál de los siguientes sujetos está obligado a relacionarse electrónicamente con las Administraciones Públicas?","opciones":["Toda persona física","Toda persona mayor de edad","Las personas jurídicas","Solo los funcionarios"],"correcta":2,"justificacion":"El artículo 14.2 de la Ley 39/2015 incluye expresamente a las personas jurídicas.","trampa":"Confundir derecho de elección de la persona física con obligación general.","referencia":"content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica"},
-    {"id":"DIP-T09-002","pregunta":"Un profesional con colegiación obligatoria está obligado electrónicamente:","opciones":["En todos sus trámites personales","Solo en trámites vinculados al ejercicio profesional","Solo si lo decide su colegio","Nunca"],"correcta":1,"justificacion":"La obligación se limita a los trámites realizados en ejercicio de la actividad profesional.","trampa":"Extender la obligación a cualquier actuación personal.","referencia":"content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica"},
-    {"id":"DIP-T09-003","pregunta":"¿Qué diferencia básica existe entre identificación y firma electrónica?","opciones":["Ninguna","La identificación acredita identidad y la firma además voluntad y consentimiento","La firma solo sirve para notificaciones","La identificación exige certificado y la firma no"],"correcta":1,"justificacion":"La firma añade autenticidad de la voluntad e integridad del documento.","trampa":"Tratarlas como conceptos equivalentes.","referencia":"content/diputacion-toledo/tema-09/manual.md#6-identificación-y-firma-electrónicas"},
-    {"id":"DIP-T09-004","pregunta":"¿En cuál de estas actuaciones se exige firma con carácter general?","opciones":["Consultar un expediente","Recibir información","Interponer un recurso","Acceder al portal"],"correcta":2,"justificacion":"La Ley 39/2015 exige firma para interponer recursos.","trampa":"Pensar que cualquier acceso electrónico exige firma.","referencia":"content/diputacion-toledo/tema-09/manual.md#62-uso-obligatorio-de-la-firma"},
-    {"id":"DIP-T09-005","pregunta":"La sede electrónica es:","opciones":["Cualquier página web pública","La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad","Un buzón de correo","Una red social institucional"],"correcta":1,"justificacion":"Esa es la definición legal de sede electrónica.","trampa":"Confundir sede con portal de internet.","referencia":"content/diputacion-toledo/tema-09/manual.md#7-sede-electrónica"},
-    {"id":"DIP-T09-006","pregunta":"El registro electrónico permite presentar documentos:","opciones":["Solo en horario de oficina","Solo en días hábiles","Todos los días del año durante las 24 horas","Solo hasta las 14:00"],"correcta":2,"justificacion":"El registro electrónico está disponible todos los días del año durante las 24 horas.","trampa":"Confundir disponibilidad técnica con cómputo jurídico de días hábiles.","referencia":"content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico"},
-    {"id":"DIP-T09-007","pregunta":"Una presentación efectuada en día inhábil se entiende realizada, como regla general:","opciones":["El mismo día","La última hora del día hábil anterior","La primera hora del primer día hábil siguiente","Cuando la revise el funcionario"],"correcta":2,"justificacion":"Así lo establece el artículo 31 de la Ley 39/2015.","trampa":"Pensar que el registro disponible durante las 24 horas convierte el día inhábil en hábil.","referencia":"content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico"},
-    {"id":"DIP-T09-008","pregunta":"¿Cuándo se entiende practicada una notificación electrónica?","opciones":["Cuando se envía el aviso","Cuando se accede a su contenido","Cuando se firma el expediente","Cuando se publica en el portal"],"correcta":1,"justificacion":"La notificación se practica cuando el interesado accede a su contenido.","trampa":"Confundir el aviso complementario con la notificación.","referencia":"content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas"},
-    {"id":"DIP-T09-009","pregunta":"Si una notificación electrónica obligatoria no se abre, se entiende rechazada tras:","opciones":["5 días hábiles","10 días hábiles","10 días naturales","15 días naturales"],"correcta":2,"justificacion":"El plazo legal es de 10 días naturales desde la puesta a disposición.","trampa":"Cambiar días naturales por días hábiles.","referencia":"content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas"},
-    {"id":"DIP-T09-010","pregunta":"La falta del aviso al correo electrónico sobre una notificación:","opciones":["Invalida siempre la notificación","Suspende el procedimiento","No invalida la notificación","Convierte la notificación en presencial"],"correcta":2,"justificacion":"El aviso es meramente complementario y su ausencia no impide que la notificación sea válida.","trampa":"Atribuir al aviso valor constitutivo.","referencia":"content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas"},
-    {"id":"DIP-T09-011","pregunta":"La actuación administrativa automatizada se caracteriza por:","opciones":["Requerir intervención directa de un funcionario en cada acto","Realizarse íntegramente por medios electrónicos sin intervención directa de empleado público","No producir efectos jurídicos","Ser exclusivamente informativa"],"correcta":1,"justificacion":"La actuación administrativa automatizada se realiza íntegramente por medios electrónicos sin intervención directa de un empleado público.","trampa":"Confundir automatización con simple apoyo informático.","referencia":"content/diputacion-toledo/tema-09/manual.md#13-actuación-administrativa-automatizada"},
-    {"id":"DIP-T09-012","pregunta":"¿Qué principio permite que distintas Administraciones intercambien y reutilicen información?","opciones":["Publicidad","Jerarquía","Interoperabilidad","Desconcentración"],"correcta":2,"justificacion":"La interoperabilidad permite el intercambio y la reutilización de datos y documentos entre Administraciones.","trampa":"Confundir interoperabilidad con coordinación orgánica.","referencia":"content/diputacion-toledo/tema-09/manual.md#14-interoperabilidad"}
+    {
+      "id": "DIP-T09-001",
+      "pregunta": "¿Cuál de los siguientes sujetos está obligado a relacionarse electrónicamente con las Administraciones Públicas?",
+      "opciones": [
+        "Toda persona física",
+        "Toda persona mayor de edad",
+        "Las personas jurídicas",
+        "Solo los funcionarios"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 14.2 de la Ley 39/2015 incluye expresamente a las personas jurídicas.",
+      "trampa": "Confundir derecho de elección de la persona física con obligación general.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica"
+    },
+    {
+      "id": "DIP-T09-002",
+      "pregunta": "Un profesional con colegiación obligatoria está obligado electrónicamente:",
+      "opciones": [
+        "En todos sus trámites personales",
+        "Solo en trámites vinculados al ejercicio profesional",
+        "Solo si lo decide su colegio",
+        "Nunca"
+      ],
+      "correcta": 1,
+      "justificacion": "La obligación se limita a los trámites realizados en ejercicio de la actividad profesional.",
+      "trampa": "Extender la obligación a cualquier actuación personal.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica"
+    },
+    {
+      "id": "DIP-T09-003",
+      "pregunta": "¿Qué diferencia básica existe entre identificación y firma electrónica?",
+      "opciones": [
+        "Ninguna",
+        "La identificación acredita identidad y la firma además voluntad y consentimiento",
+        "La firma solo sirve para notificaciones",
+        "La identificación exige certificado y la firma no"
+      ],
+      "correcta": 1,
+      "justificacion": "La firma añade autenticidad de la voluntad e integridad del documento.",
+      "trampa": "Tratarlas como conceptos equivalentes.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#6-identificación-y-firma-electrónicas"
+    },
+    {
+      "id": "DIP-T09-004",
+      "pregunta": "¿En cuál de estas actuaciones se exige firma con carácter general?",
+      "opciones": [
+        "Consultar un expediente",
+        "Recibir información",
+        "Interponer un recurso",
+        "Acceder al portal"
+      ],
+      "correcta": 2,
+      "justificacion": "La Ley 39/2015 exige firma para interponer recursos.",
+      "trampa": "Pensar que cualquier acceso electrónico exige firma.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#62-uso-obligatorio-de-la-firma"
+    },
+    {
+      "id": "DIP-T09-005",
+      "pregunta": "La sede electrónica es:",
+      "opciones": [
+        "Cualquier página web pública",
+        "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad",
+        "Un buzón de correo",
+        "Una red social institucional"
+      ],
+      "correcta": 1,
+      "justificacion": "Esa es la definición legal de sede electrónica.",
+      "trampa": "Confundir sede con portal de internet.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#7-sede-electrónica"
+    },
+    {
+      "id": "DIP-T09-006",
+      "pregunta": "El registro electrónico permite presentar documentos:",
+      "opciones": [
+        "Solo en horario de oficina",
+        "Solo en días hábiles",
+        "Todos los días del año durante las 24 horas",
+        "Solo hasta las 14:00"
+      ],
+      "correcta": 2,
+      "justificacion": "El registro electrónico está disponible todos los días del año durante las 24 horas.",
+      "trampa": "Confundir disponibilidad técnica con cómputo jurídico de días hábiles.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico"
+    },
+    {
+      "id": "DIP-T09-007",
+      "pregunta": "Una presentación efectuada en día inhábil se entiende realizada, como regla general:",
+      "opciones": [
+        "El mismo día",
+        "La última hora del día hábil anterior",
+        "La primera hora del primer día hábil siguiente",
+        "Cuando la revise el funcionario"
+      ],
+      "correcta": 2,
+      "justificacion": "Así lo establece el artículo 31 de la Ley 39/2015.",
+      "trampa": "Pensar que el registro disponible durante las 24 horas convierte el día inhábil en hábil.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico"
+    },
+    {
+      "id": "DIP-T09-008",
+      "pregunta": "¿Cuándo se entiende practicada una notificación electrónica?",
+      "opciones": [
+        "Cuando se envía el aviso",
+        "Cuando se accede a su contenido",
+        "Cuando se firma el expediente",
+        "Cuando se publica en el portal"
+      ],
+      "correcta": 1,
+      "justificacion": "La notificación se practica cuando el interesado accede a su contenido.",
+      "trampa": "Confundir el aviso complementario con la notificación.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas"
+    },
+    {
+      "id": "DIP-T09-009",
+      "pregunta": "Si una notificación electrónica obligatoria no se abre, se entiende rechazada tras:",
+      "opciones": [
+        "5 días hábiles",
+        "10 días hábiles",
+        "10 días naturales",
+        "15 días naturales"
+      ],
+      "correcta": 2,
+      "justificacion": "El plazo legal es de 10 días naturales desde la puesta a disposición.",
+      "trampa": "Cambiar días naturales por días hábiles.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas"
+    },
+    {
+      "id": "DIP-T09-010",
+      "pregunta": "La falta del aviso al correo electrónico sobre una notificación:",
+      "opciones": [
+        "Invalida siempre la notificación",
+        "Suspende el procedimiento",
+        "No invalida la notificación",
+        "Convierte la notificación en presencial"
+      ],
+      "correcta": 2,
+      "justificacion": "El aviso es meramente complementario y su ausencia no impide que la notificación sea válida.",
+      "trampa": "Atribuir al aviso valor constitutivo.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas"
+    },
+    {
+      "id": "DIP-T09-011",
+      "pregunta": "La actuación administrativa automatizada se caracteriza por:",
+      "opciones": [
+        "Requerir intervención directa de un funcionario en cada acto",
+        "Realizarse íntegramente por medios electrónicos sin intervención directa de empleado público",
+        "No producir efectos jurídicos",
+        "Ser exclusivamente informativa"
+      ],
+      "correcta": 1,
+      "justificacion": "La actuación administrativa automatizada se realiza íntegramente por medios electrónicos sin intervención directa de un empleado público.",
+      "trampa": "Confundir automatización con simple apoyo informático.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#13-actuación-administrativa-automatizada"
+    },
+    {
+      "id": "DIP-T09-012",
+      "pregunta": "¿Qué principio permite que distintas Administraciones intercambien y reutilicen información?",
+      "opciones": [
+        "Publicidad",
+        "Jerarquía",
+        "Interoperabilidad",
+        "Desconcentración"
+      ],
+      "correcta": 2,
+      "justificacion": "La interoperabilidad permite el intercambio y la reutilización de datos y documentos entre Administraciones.",
+      "trampa": "Confundir interoperabilidad con coordinación orgánica.",
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#14-interoperabilidad"
+    },
+    {
+      "id": "DIP-T09-013",
+      "pregunta": "¿Pueden las personas físicas elegir el canal de comunicación?",
+      "opciones": [
+        "Siempre",
+        "Sí, salvo que estén obligadas a relacionarse electrónicamente",
+        "Nunca",
+        "Solo los empleados públicos"
+      ],
+      "correcta": 1,
+      "justificacion": "Conforme a artículo 14 de la legislación administrativa aplicable.",
+      "trampa": "Distinguir derecho, obligación y efecto legal.",
+      "referencia": "Ley 39/2015 art. 14"
+    },
+    {
+      "id": "DIP-T09-014",
+      "pregunta": "¿Qué ocurre si una persona jurídica presenta una solicitud en papel?",
+      "opciones": [
+        "Se admite siempre",
+        "Se pierde automáticamente el derecho",
+        "Se requiere subsanación electrónica y esa fecha cuenta como presentación",
+        "Se considera registrada el día anterior"
+      ],
+      "correcta": 2,
+      "justificacion": "Conforme a artículo 68 de la legislación administrativa aplicable.",
+      "trampa": "Distinguir derecho, obligación y efecto legal.",
+      "referencia": "Ley 39/2015 art. 68"
+    },
+    {
+      "id": "DIP-T09-015",
+      "pregunta": "¿Impide la validez de la notificación que no llegue el aviso por correo?",
+      "opciones": [
+        "Sí",
+        "Sí, si hay teléfono",
+        "Solo en procedimientos sancionadores",
+        "No"
+      ],
+      "correcta": 3,
+      "justificacion": "Conforme a artículo 41 de la legislación administrativa aplicable.",
+      "trampa": "Distinguir derecho, obligación y efecto legal.",
+      "referencia": "Ley 39/2015 art. 41"
+    },
+    {
+      "id": "DIP-T09-016",
+      "pregunta": "¿Cuándo se rechaza por falta de acceso una notificación electrónica obligatoria?",
+      "opciones": [
+        "Tras diez días naturales",
+        "Tras diez días hábiles",
+        "Tras cinco días",
+        "Tras un mes"
+      ],
+      "correcta": 0,
+      "justificacion": "Conforme a artículo 43 de la legislación administrativa aplicable.",
+      "trampa": "Distinguir derecho, obligación y efecto legal.",
+      "referencia": "Ley 39/2015 art. 43"
+    },
+    {
+      "id": "DIP-T09-017",
+      "pregunta": "¿Qué actuación exige firma del interesado?",
+      "opciones": [
+        "Leer una sede electrónica",
+        "Interponer recursos",
+        "Consultar información pública",
+        "Navegar un portal"
+      ],
+      "correcta": 1,
+      "justificacion": "Conforme a artículo 11 de la legislación administrativa aplicable.",
+      "trampa": "Distinguir derecho, obligación y efecto legal.",
+      "referencia": "Ley 39/2015 art. 11"
+    },
+    {
+      "id": "DIP-T09-018",
+      "pregunta": "¿Qué regla se aplica a documentos recibidos en día inhábil para cómputo en días hábiles?",
+      "opciones": [
+        "Se rechazan",
+        "Se registran con fecha del día hábil anterior",
+        "Se entienden presentados en la primera hora del primer día hábil siguiente, salvo norma expresa",
+        "Se eliminan"
+      ],
+      "correcta": 2,
+      "justificacion": "Conforme a artículo 31 de la legislación administrativa aplicable.",
+      "trampa": "Distinguir derecho, obligación y efecto legal.",
+      "referencia": "Ley 39/2015 art. 31"
+    },
+    {
+      "id": "DIP-T09-019",
+      "pregunta": "¿Qué norma regula el Esquema Nacional de Interoperabilidad?",
+      "opciones": [
+        "Ley 7/1985",
+        "RD 311/2022",
+        "LO 3/2018",
+        "RD 4/2010"
+      ],
+      "correcta": 3,
+      "justificacion": "Conforme a RD 4/2010.",
+      "trampa": "Distinguir derecho, obligación y efecto legal.",
+      "referencia": "RD 4/2010"
+    },
+    {
+      "id": "DIP-T09-020",
+      "pregunta": "¿A quién corresponde la titularidad de una sede electrónica?",
+      "opciones": [
+        "A una Administración u organismo o entidad de Derecho público en ejercicio de sus competencias",
+        "Solo a empresas",
+        "Solo al Ministerio de Justicia",
+        "Al proveedor del servidor"
+      ],
+      "correcta": 0,
+      "justificacion": "Conforme a artículo 38 de la legislación administrativa aplicable.",
+      "trampa": "Distinguir derecho, obligación y efecto legal.",
+      "referencia": "Ley 40/2015 art. 38"
+    }
   ]
 }
