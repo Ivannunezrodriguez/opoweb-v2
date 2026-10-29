@@ -31,3 +31,10 @@
 - Las guías históricas se utilizan para conceptos estables de la aplicación cuando la ayuda actual no ofrece un desarrollo didáctico equivalente.
 - Se mantiene la terminología de **LibreOffice 24**, advirtiendo que algunos nombres de menús pueden variar según la actualización menor y la configuración de la interfaz.
 - Verificación editorial: **19 de julio de 2026**.
+
+## Verificación técnica 29/10/2026
+
+- Atajos y navegación del pase: https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html
+- Opciones para ocultar y mostrar diapositivas: https://help.libreoffice.org/latest/es/text/simpress/main_slide.html
+
+Banco ampliado a **20 preguntas**. Pendiente auditoría general y prueba funcional.
