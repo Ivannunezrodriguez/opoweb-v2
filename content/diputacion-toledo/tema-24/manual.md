@@ -225,3 +225,22 @@ La perspectiva de género puede incorporarse, conforme a la legislación aplicab
 8. Castilla-La Mancha: integración de la perspectiva de género en toda la actuación autonómica.
 
 > ⚠️ **¡Foco Examen!:** Las trampas más frecuentes consisten en confundir discriminación directa con indirecta, acoso sexual con acoso por razón de sexo y presencia equilibrada con paridad exacta.
+
+## 19. Auditoría normativa y trampas frecuentes — **29/10/2026**
+
+| Materia | Norma y dato clave | Fuente |
+|---|---|---|
+| **Discriminación por embarazo o maternidad** | Constituye **discriminación directa por razón de sexo** | **LO 3/2007, art. 8** |
+| **Acciones positivas** | Deben ser **razonables y proporcionadas**, mientras subsistan situaciones de desigualdad | **LO 3/2007, art. 11** |
+| **Transversalidad de la igualdad** | Todos los **poderes públicos** deben integrar la igualdad en sus políticas y actuaciones | **LO 3/2007, art. 15** |
+| **Presencia equilibrada** | Regla de referencia: representación de cada sexo **no inferior al 40 % ni superior al 60 %**; comprobar particularidades de ámbito y norma aplicable | **LO 3/2007, disposición adicional primera** |
+| **Empleo público** | Promoción de la igualdad efectiva, conciliación, protección frente al acoso y presencia equilibrada en órganos de selección | **LO 3/2007, art. 51** |
+| **Informe de impacto de género autonómico** | Se exige en **anteproyectos de ley, disposiciones generales y planes** sometidos a aprobación del **Consejo de Gobierno de Castilla-La Mancha** | **Ley 12/2010, art. 6.3** |
+| **Presupuesto con perspectiva de género** | La **Comisión de Igualdad** elabora el informe sobre el **anteproyecto de Ley de Presupuestos** | **Ley 12/2010, arts. 9.2 y 15** |
+| **Lenguaje administrativo** | Uso inclusivo y no sexista en la Administración autonómica en los términos de la norma | **Ley 12/2010, art. 10** |
+
+> ⚠️ **¡Foco Examen!:** La **discriminación por embarazo o maternidad es directa**, aunque no exista despido. La **discriminación indirecta** requiere un criterio aparentemente neutro que cause desventaja particular, sin justificación objetiva y proporcionada.
+
+> ⚠️ **¡Foco Examen!:** No confundir el **artículo 15 de la LO 3/2007**, que regula la **transversalidad**, con el **artículo 15 de la Ley 12/2010**, que regula la **Comisión de Igualdad** de Castilla-La Mancha.
+
+**Fuentes oficiales contrastadas:** [Ley Orgánica 3/2007, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) y [Ley 12/2010 de Castilla-La Mancha, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708). Banco ampliado a **20 preguntas**. Pendiente auditoría jurídica integral y pruebas funcionales antes de declarar **PUBLICADO**.
