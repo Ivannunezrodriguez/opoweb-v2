@@ -1,11 +1,16 @@
 {
   "tema": 25,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T25-001",
       "pregunta": "¿Cuándo nace la obligación tributaria principal?",
-      "opciones": ["Cuando se notifica la liquidación", "Cuando se realiza el hecho imponible", "Cuando termina el período voluntario", "Cuando se interpone un recurso"],
+      "opciones": [
+        "Cuando se notifica la liquidación",
+        "Cuando se realiza el hecho imponible",
+        "Cuando termina el período voluntario",
+        "Cuando se interpone un recurso"
+      ],
       "correcta": 1,
       "justificacion": "La obligación tributaria principal nace cuando se realiza el hecho imponible definido por la ley para configurar cada tributo.",
       "trampa": "No debe confundirse el nacimiento de la obligación con su posterior liquidación, notificación o exigibilidad.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T25-002",
       "pregunta": "¿Qué diferencia existe entre exención y no sujeción?",
-      "opciones": ["En ambas se realiza el hecho imponible", "En la exención se realiza el hecho imponible y en la no sujeción no", "La no sujeción exige siempre una bonificación", "No existe diferencia jurídica"],
+      "opciones": [
+        "En ambas se realiza el hecho imponible",
+        "En la exención se realiza el hecho imponible y en la no sujeción no",
+        "La no sujeción exige siempre una bonificación",
+        "No existe diferencia jurídica"
+      ],
       "correcta": 1,
       "justificacion": "En la exención se realiza el hecho imponible, pero la ley dispensa del pago; en la no sujeción, el supuesto queda fuera de la delimitación del hecho imponible.",
       "trampa": "La exención no elimina el hecho imponible; únicamente dispensa del pago en los términos legales.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T25-003",
       "pregunta": "El contribuyente es el sujeto pasivo que:",
-      "opciones": ["Realiza el hecho imponible", "Responde siempre subsidiariamente", "Practica necesariamente una retención", "Sustituye al responsable"],
+      "opciones": [
+        "Realiza el hecho imponible",
+        "Responde siempre subsidiariamente",
+        "Practica necesariamente una retención",
+        "Sustituye al responsable"
+      ],
       "correcta": 0,
       "justificacion": "El contribuyente es el sujeto pasivo que realiza el hecho imponible.",
       "trampa": "El sustituto también es sujeto pasivo, pero cumple la obligación principal en lugar del contribuyente por mandato legal.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T25-004",
       "pregunta": "La base liquidable se obtiene:",
-      "opciones": ["Sumando sanciones a la cuota", "Aplicando a la base imponible las reducciones previstas legalmente", "Restando intereses de demora", "Aplicando el recargo ejecutivo"],
+      "opciones": [
+        "Sumando sanciones a la cuota",
+        "Aplicando a la base imponible las reducciones previstas legalmente",
+        "Restando intereses de demora",
+        "Aplicando el recargo ejecutivo"
+      ],
       "correcta": 1,
       "justificacion": "La base liquidable resulta de practicar en la base imponible las reducciones establecidas por la ley.",
       "trampa": "Las bonificaciones reducen ordinariamente la cuota; las reducciones transforman la base imponible en base liquidable.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T25-005",
       "pregunta": "¿Forman las sanciones tributarias parte de la deuda tributaria?",
-      "opciones": ["Sí, siempre", "Solo las sanciones graves", "No", "Solo cuando existe apremio"],
+      "opciones": [
+        "Sí, siempre",
+        "Solo las sanciones graves",
+        "No",
+        "Solo cuando existe apremio"
+      ],
       "correcta": 2,
       "justificacion": "Las sanciones tributarias no forman parte de la deuda tributaria, aunque su recaudación se rige por las normas tributarias con las especialidades correspondientes.",
       "trampa": "Que una sanción se recaude por cauces tributarios no la convierte en componente de la deuda tributaria.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T25-006",
       "pregunta": "¿Cuál es el plazo general de prescripción tributaria?",
-      "opciones": ["1 año", "3 años", "4 años", "5 años"],
+      "opciones": [
+        "1 año",
+        "3 años",
+        "4 años",
+        "5 años"
+      ],
       "correcta": 2,
       "justificacion": "La Ley General Tributaria fija, con carácter general, un plazo de 4 años para los principales derechos de la Administración y de los obligados tributarios.",
       "trampa": "No debe aplicarse el plazo general de 5 años propio de otras acciones civiles.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T25-007",
       "pregunta": "¿Cuáles son impuestos municipales de exacción obligatoria?",
-      "opciones": ["ICIO e IIVTNU", "IBI, IAE e IVTM", "Solo IBI", "Tasas y contribuciones especiales"],
+      "opciones": [
+        "ICIO e IIVTNU",
+        "IBI, IAE e IVTM",
+        "Solo IBI",
+        "Tasas y contribuciones especiales"
+      ],
       "correcta": 1,
       "justificacion": "El IBI, el IAE y el IVTM son impuestos municipales de exacción obligatoria; el ICIO y el IIVTNU son potestativos.",
       "trampa": "Las tasas y las contribuciones especiales son tributos locales, pero no forman parte de la relación de impuestos municipales obligatorios.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T25-008",
       "pregunta": "La delegación de la gestión tributaria local:",
-      "opciones": ["Transfiere necesariamente la titularidad del tributo", "No altera la titularidad del tributo", "Suprime la ordenanza fiscal", "Convierte el tributo local en estatal"],
+      "opciones": [
+        "Transfiere necesariamente la titularidad del tributo",
+        "No altera la titularidad del tributo",
+        "Suprime la ordenanza fiscal",
+        "Convierte el tributo local en estatal"
+      ],
       "correcta": 1,
       "justificacion": "La delegación desplaza el ejercicio de las funciones acordadas, pero la titularidad del tributo permanece en la entidad delegante.",
       "trampa": "La delegación de funciones no equivale a la transmisión de la titularidad del recurso tributario.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T25-009",
       "pregunta": "¿Cuál de los siguientes es un procedimiento de gestión tributaria?",
-      "opciones": ["Comprobación limitada", "Recurso contencioso-administrativo", "Procedimiento legislativo", "Moción de censura"],
+      "opciones": [
+        "Comprobación limitada",
+        "Recurso contencioso-administrativo",
+        "Procedimiento legislativo",
+        "Moción de censura"
+      ],
       "correcta": 0,
       "justificacion": "La comprobación limitada es uno de los procedimientos de gestión tributaria regulados por la Ley General Tributaria.",
       "trampa": "La comprobación limitada no es un recurso ni un procedimiento inspector pleno.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T25-010",
       "pregunta": "La comprobación limitada:",
-      "opciones": ["Equivale siempre a una inspección completa", "Tiene un alcance propio y limitado por la ley", "Solo puede iniciarla un juez", "No puede finalizar con liquidación"],
+      "opciones": [
+        "Equivale siempre a una inspección completa",
+        "Tiene un alcance propio y limitado por la ley",
+        "Solo puede iniciarla un juez",
+        "No puede finalizar con liquidación"
+      ],
       "correcta": 1,
       "justificacion": "La comprobación limitada permite verificar determinados hechos, elementos y documentos dentro de los límites legales, sin equivaler a un procedimiento inspector pleno.",
       "trampa": "Puede finalizar con una liquidación provisional; lo limitado es el alcance de las actuaciones, no la posibilidad de liquidar.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T25-011",
       "pregunta": "El plazo general para interponer el recurso de reposición tributario local es de:",
-      "opciones": ["10 días hábiles", "15 días hábiles", "1 mes", "3 meses"],
+      "opciones": [
+        "10 días hábiles",
+        "15 días hábiles",
+        "1 mes",
+        "3 meses"
+      ],
       "correcta": 2,
       "justificacion": "La legislación de haciendas locales establece, con carácter general, un plazo de 1 mes para interponer el recurso de reposición tributario local.",
       "trampa": "El cómputo comienza el día siguiente al de la notificación expresa o al de la finalización del período de exposición pública cuando proceda.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T25-012",
       "pregunta": "¿Cuál de los siguientes es un procedimiento especial de revisión tributaria?",
-      "opciones": ["Revisión de actos nulos de pleno derecho", "Aprobación de una ordenanza", "Elaboración del presupuesto", "Selección de personal"],
+      "opciones": [
+        "Revisión de actos nulos de pleno derecho",
+        "Aprobación de una ordenanza",
+        "Elaboración del presupuesto",
+        "Selección de personal"
+      ],
       "correcta": 0,
       "justificacion": "La revisión de actos nulos de pleno derecho es uno de los procedimientos especiales de revisión previstos en la Ley General Tributaria.",
       "trampa": "El recurso de reposición es una vía de impugnación distinta de los procedimientos especiales de revisión.",
       "referencia": "content/diputacion-toledo/tema-25/manual.md#151-procedimientos-especiales"
+    },
+    {
+      "id": "DIP-T25-013",
+      "pregunta": "¿Hasta cuándo se paga voluntariamente una liquidación notificada el día 10 de marzo?",
+      "opciones": [
+        "5 de abril",
+        "20 de abril o siguiente hábil",
+        "20 de marzo",
+        "5 de mayo"
+      ],
+      "correcta": 1,
+      "justificacion": "Si se notifica entre el **1 y el 15**, hasta el **20 del mes siguiente**, o inmediato hábil.",
+      "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+      "referencia": "LGT 62.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DIP-T25-014",
+      "pregunta": "¿Hasta cuándo se paga voluntariamente una liquidación notificada el día 18 de marzo?",
+      "opciones": [
+        "20 de abril",
+        "5 de abril",
+        "5 de mayo o siguiente hábil",
+        "20 de mayo"
+      ],
+      "correcta": 2,
+      "justificacion": "Si se notifica desde el **16 hasta fin de mes**, hasta el **5 del segundo mes siguiente**, o inmediato hábil.",
+      "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+      "referencia": "LGT 62.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DIP-T25-015",
+      "pregunta": "¿Qué plazo se aplica a tributos de notificación colectiva y periódica sin plazo propio?",
+      "opciones": [
+        "Enero y febrero",
+        "1 a 20 de agosto",
+        "Todo el año",
+        "Del 1 de septiembre al 20 de noviembre"
+      ],
+      "correcta": 3,
+      "justificacion": "La regla supletoria es de **1 de septiembre** a **20 de noviembre**.",
+      "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+      "referencia": "LGT 62.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DIP-T25-016",
+      "pregunta": "¿Cuánto dura el plazo para interponer reposición tributaria local contra acto expresamente notificado?",
+      "opciones": [
+        "Un mes desde el día siguiente a la notificación",
+        "Tres meses",
+        "Quince días naturales",
+        "Cuatro años"
+      ],
+      "correcta": 0,
+      "justificacion": "El recurso se interpone dentro de **1 mes** desde el día siguiente a la notificación.",
+      "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+      "referencia": "TRLRHL 14.2.c · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T25-017",
+      "pregunta": "¿Quién resuelve el recurso de reposición tributaria local?",
+      "opciones": [
+        "La TGSS",
+        "El órgano de la entidad local que dictó el acto",
+        "El Consejo de Estado",
+        "Siempre el Tribunal Económico-Administrativo Central"
+      ],
+      "correcta": 1,
+      "justificacion": "Es competente **el mismo órgano** que dictó el acto impugnado.",
+      "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+      "referencia": "TRLRHL 14.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T25-018",
+      "pregunta": "¿Qué sucede si transcurre el plazo de resolución de reposición tributaria local sin resolución expresa?",
+      "opciones": [
+        "Se estima necesariamente",
+        "Se suspende automáticamente el cobro",
+        "Se entiende desestimado, sin desaparecer el deber de resolver",
+        "Se anula la liquidación"
+      ],
+      "correcta": 2,
+      "justificacion": "La reposición local se resuelve, como regla, en **1 mes**; el silencio es **desestimatorio**.",
+      "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+      "referencia": "TRLRHL 14.2.l · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T25-019",
+      "pregunta": "¿Qué plazo máximo establece la norma para notificar la resolución expresa de reposición tributaria local desde que se dicta?",
+      "opciones": [
+        "Un mes",
+        "Tres días",
+        "Veinte días",
+        "Diez días"
+      ],
+      "correcta": 3,
+      "justificacion": "La resolución debe notificarse dentro de **10 días** desde su producción.",
+      "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+      "referencia": "TRLRHL 14.2.n · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T25-020",
+      "pregunta": "¿Se puede interponer de nuevo reposición tributaria local contra la resolución del propio recurso?",
+      "opciones": [
+        "No",
+        "Sí, siempre",
+        "Sí, dentro de diez días",
+        "Solo si la deuda supera 50.000 euros"
+      ],
+      "correcta": 0,
+      "justificacion": "No cabe **nueva reposición** contra su resolución, sin perjuicio de los otros cauces legalmente previstos.",
+      "trampa": "Distinguir fecha de notificación, ingreso voluntario y reposición local.",
+      "referencia": "TRLRHL 14.2.ñ · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     }
   ]
 }
