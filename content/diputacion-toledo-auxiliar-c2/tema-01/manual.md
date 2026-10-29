@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 1
 
-**Estado editorial:** BORRADOR EN AUDITORÍA JURÍDICA · reforma constitucional de 2026 contrastada en BOE; pendiente revisión final artículo por artículo, pruebas de estudio y certificación editorial.
+**Estado editorial:** MANUAL COMPLETO EN REVISIÓN FINAL. Programa y desarrollo completo incorporados; banco de **20 preguntas** contrastado documentalmente. La etiqueta de aprobación definitiva se reserva hasta superar los controles legales y funcionales finales.
 
 ## 1. Epígrafe oficial literal
 
@@ -83,7 +83,7 @@ La **parte dogmática** comprende principalmente el Título Preliminar y el Tít
 | Capítulo IV | 53–54 | Garantías de derechos y libertades |
 | Capítulo V | 55 | Suspensión de derechos y libertades |
 
-### 4.4. Reformas constitucionales producidas hasta julio de 2026
+### 4.4. Reformas constitucionales vigentes en octubre de 2026
 
 A efectos de vigencia y examen, se han aprobado cuatro reformas:
 
@@ -797,7 +797,7 @@ Regla adicional: el artículo 17.3 no se suspende durante el estado de excepció
 
 ---
 
-## PARTE IX · CONTROL MANUAL DEL USUARIO
+## PARTE IX · TRAZABILIDAD EDITORIAL (NO FORMA PARTE DEL TEMARIO EXAMINABLE)
 
 ## 65. Qué corrige este borrador respecto de la versión anterior
 
@@ -831,7 +831,7 @@ El temario se revisa con el **epígrafe oficial**, la **Constitución** y las le
 - Revisión jurídica inicial: realizada.
 - Cobertura artículo por artículo: realizada en borrador.
 - Revisión pedagógica humana: **aprobada por el usuario el 17 de julio de 2026**.
-- Test del tema 1: **8 preguntas** con revisión documental individual registrada, aún sujeto a auditoría editorial final.
+- Test del tema 1: **20 preguntas** con revisión documental individual registrada el **29/10/2026**; la comprobación funcional en navegador sigue pendiente.
 - Integración en OpoWeb v2: realizada mediante copia exacta controlada.
 - Revisión pedagógica histórica: **aprobada por el usuario el 17/07/2026**, sin equivaler a certificación jurídica en **octubre de 2026**.
 - **Tema cerrado y certificado en OpoWeb2: NO — BORRADOR**, hasta completar la auditoría jurídica integral y pruebas funcionales.
@@ -1088,3 +1088,11 @@ La detención excepcional solo puede acordarse si es necesaria para la conservac
 **Fuentes oficiales:** [Constitución](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [LOTC](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709), [LO 4/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774), [LO 3/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325).
 
 **Estado de esta ampliación:** preceptos concretos cotejados; no implica certificación completa del tema.
+
+
+## Control de integridad editorial — 29/10/2026
+
+- Todos los incisos del **tema 1 del Anexo XI** figuran desarrollados: **Constitución**, **estructura**, **reforma**, **derechos y deberes**, **garantía** y **suspensión**.
+- El banco registra **20 preguntas documentadas**, cuyas respuestas se han cotejado con los preceptos referenciados.
+- Las referencias legales nucleares se han comprobado con los textos consolidados oficiales: [Constitución](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [LOTC](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709), [LO 3/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325) y [LO 4/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774).
+- **No se ha realizado una prueba visual automatizada** de la presentación publicada. Esta limitación no afecta a la existencia del contenido, pero sí impide certificar la experiencia de usuario.
