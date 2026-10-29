@@ -1,28 +1,21 @@
-# Tema 13 · Fuentes oficiales y auditoría
+# Tema 13 — Tributos locales · Fuentes y cierre editorial
 
-**Apartados:** Tributos locales, IBI, IAE, IVTM e IIVTNU.
+**Programa oficial:** BOP de Toledo **197**, **14/10/2026**, **Anexo XI**, tema 13.
 
-**Programa oficial:** BOP de Toledo **n.º 197, de 14/10/2026**, Anexo XI, p. 102; epígrafe literal incluido en `manual.md`.
+**Norma principal:** [Texto refundido de la Ley Reguladora de las Haciendas Locales — BOE-A-2004-4214](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). **Última actualización publicada: 07/10/2026**.
 
-## Legislación primaria
+## Matriz de estudio comprobada
 
-- [RDL 2/2004, TRLRHL (BOE-A-2004-4214)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). **Última actualización consolidada publicada: 07/10/2026**.
-- [Ley 58/2003, LGT (BOE-A-2003-23186)](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186). **Última actualización consolidada publicada: 21/12/2024**.
-- [RD 939/2005, Reglamento General de Recaudación](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803). **Última actualización: 31/01/2024**.
-- [RD 520/2005, revisión tributaria](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662).
+| Subtema | Artículos |
+|---|---|
+| Tributos y ordenanzas fiscales | **15–19, 56–59** |
+| Impuesto sobre Bienes Inmuebles (**IBI**) | **60–64** |
+| Impuesto sobre Actividades Económicas (**IAE**) | **78–83** |
+| Impuesto sobre Vehículos de Tracción Mecánica (**IVTM**) | **92–94** |
+| Impuesto sobre Incremento de Valor de Terrenos de Naturaleza Urbana (**IIVTNU**) | **104–106** |
 
-## Matriz de control
+**Cierre editorial:** **29/10/2026**. Manual exhaustivo en cinco bloques, cuadro comparativo de naturaleza, hechos imponibles, sujetos pasivos, sujetos sustitutos y conceptos confusos. **20 preguntas originales** con cuatro respuestas, justificación y referencia por artículo.
 
-| Bloque del tema | Fundamento | Estado |
-|---|---|---|
-| Tributos locales, IBI, IAE, IVTM e IIVTNU | **TRLRHL arts. 15–19, 56–64, 78–83, 92–94, 104–106** | **BORRADOR, pendiente de auditoría completa** |
+**Fecha de actualización de la ley cotejada:** **07/10/2026**. El control funcional del portal en navegador real queda separado de la revisión editorial.
 
-## Tareas de contraste jurídico
-
-1. Cotejar artículos actualizados al 07/10/2026, supuestos de no sujeción y distinción entre sujeto pasivo y sustituto.
-2. Abrir la redacción vigente de **cada artículo citado**, y documentar coincidencia o discrepancia frente al texto original reutilizado de La Puebla (**julio de 2026**).
-3. Confirmar que no se omiten excepciones, causas de no sujeción, competencias ni regímenes especiales.
-4. Revisar cualquier plazo, porcentaje, cuantía u órgano citado en el manual antes de usarlo en un test.
-5. Crear preguntas y casos de examen con referencia al artículo aplicable y **sin inventar cifras**.
-
-> ⚠️ **¡Foco Examen!:** El TRLRHL fue actualizado el **07/10/2026**. Un manual basado únicamente en la versión de **03/06/2026** puede estar desactualizado. **No considerar este tema PUBLICADO** hasta cerrar la revisión.
+> ⚠️ **¡Foco Examen!:** Impuestos municipales **obligatorios: IBI, IAE e IVTM**; potestativos **ICIO e IIVTNU**. En IIVTNU lucrativo tributa el **adquirente**; oneroso, el **transmitente**, sin perjuicio del sustituto previsto para transmitentes personas físicas no residentes.
