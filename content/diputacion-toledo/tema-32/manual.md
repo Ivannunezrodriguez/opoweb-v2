@@ -293,3 +293,35 @@ WINDOWS 11 · ARCHIVOS Y CARPETAS
 ```
 
 > ⚠️ **¡Foco Examen!:** Las trampas principales son confundir copiar con mover, eliminación normal con permanente y unidad local con recurso de red asignado.
+
+## 16. Comparativa práctica de accesos y operaciones (revisión 29/10/2026)
+
+| Acción en Windows 11 | Método abreviado | Precisión de examen |
+|---|---|---|
+| Abrir **Explorador de archivos** | **Windows + E** | No equivale a la búsqueda |
+| Crear **carpeta nueva** | **Ctrl + Mayús + N** | En la carpeta activa |
+| Cambiar nombre | **F2** | Elemento seleccionado |
+| Mostrar propiedades | **Alt + Entrar** | No abre el elemento |
+| Seleccionar barra de direcciones | **Alt + D** | Permite escribir una ruta |
+| Buscar archivo o carpeta | **F3** | Inicia la búsqueda |
+| Subir un nivel | **Alt + Flecha arriba** | No equivale a volver atrás |
+| Alternar panel de vista previa | **Alt + P** | No imprime |
+| Menú contextual | **Mayús + F10** | Menú del elemento seleccionado |
+| Enviar a Papelera | **Supr** o **Ctrl + D** | En archivos locales sujetos al funcionamiento habitual |
+| Eliminar sin Papelera | **Mayús + Supr** | Eliminación directa; puede pedir confirmación |
+
+### Unidad local, recurso compartido y ruta UNC
+
+| Ejemplo | Significado |
+|---|---|
+| `C:\\Usuarios\\Ana\\Documentos` | Ruta de unidad **local** con letra |
+| `\\\\servidor\\departamento\\expedientes` | Ruta de red **UNC**, identifica servidor y recurso compartido |
+| `Z:\\expedientes` | Unidad de red **asignada** a una letra, si existe su asociación |
+
+La letra de una unidad **asignada** no garantiza disponibilidad: el acceso depende del servidor, la red y los **permisos**. La ruta UNC permite referirse al recurso por nombre de servidor y recurso compartido sin exigir asignación previa de letra.
+
+> ⚠️ **¡Foco Examen!:** **Alt + Flecha arriba** sube al nivel superior; **Alt + Flecha izquierda** retrocede en el historial. Son acciones distintas.
+
+> ⚠️ **¡Foco Examen!:** **Mayús + Supr** evita el paso habitual por la Papelera. **Supr** no garantiza que un archivo de red se almacene en la Papelera: depende del tipo de ubicación y sistema de archivos.
+
+**Fuente técnica:** [Microsoft Support: métodos abreviados de Windows](https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows). Banco ampliado a **20 preguntas**; queda pendiente prueba funcional en la web.
