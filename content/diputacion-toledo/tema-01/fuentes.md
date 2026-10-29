@@ -35,3 +35,13 @@
 - La consolidación del BOE facilita la consulta de la norma vigente, pero para efectos jurídicos debe atenderse a las publicaciones oficiales de la norma y de sus modificaciones.
 - No se ha utilizado el manual de La Puebla como base de redacción.
 - Fecha de comprobación: **18 de julio de 2026**.
+
+
+## Auditoría adicional de **29/10/2026**
+
+- [Constitución Española, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229): última actualización publicada el **20/05/2026**.
+- [Ley Orgánica 2/1979, Tribunal Constitucional](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709): última actualización publicada el **02/08/2024**.
+- Se amplía el banco del **tema 1 C1** de **12 a 20 preguntas**, añadiendo composición, presidencia y competencias del **Tribunal Constitucional** y mayorías y límites de reforma de la **Constitución**.
+- **Estado:** auditoría documental en curso; pendiente revisión exhaustiva de afirmaciones y navegación real antes de marcar **PUBLICADO**.
+
+> ⚠️ **¡Foco Examen!:** **Tribunal Constitucional: 12 magistrados**, mandato de **9 años**; **Presidente del Tribunal: 3 años**, con posible reelección. No confundir ambos plazos.
