@@ -271,3 +271,19 @@ REVISIÓN ADMINISTRATIVA
 ```
 
 > ⚠️ **¡Foco Examen!:** memoriza la secuencia **1-3-1-3**: alzada se interpone en **1 mes** y se resuelve en **3 meses**; reposición se interpone en **1 mes** y se resuelve en **1 mes**; extraordinario se resuelve en **3 meses**.
+
+
+## 14. Auditoría de recursos y plazos — **29/10/2026**
+
+| Institución | Interposición o declaración | Resolución | Norma |
+|---|---|---|---|
+| **Alzada contra acto expreso** | **1 mes** | **3 meses** | **121–122** |
+| **Reposición contra acto expreso** | **1 mes** | **1 mes** | **123–124** |
+| **Revisión extraordinaria por error de hecho** | **4 años** desde notificación | **3 meses** | **125–126** |
+| **Revisión extraordinaria por otras causas** | **3 meses** desde conocimiento del documento o firmeza de sentencia | **3 meses** | **125–126** |
+| **Lesividad del acto favorable anulable** | Dentro de **4 años** desde que se dictó | **6 meses** para declarar lesividad | **107** |
+| **Revisión de oficio de acto nulo** | **En cualquier momento** | **6 meses**, con efectos según iniciación | **106** |
+
+> ⚠️ **¡Foco Examen!:** En alzada, **1 mes** para interponer contra acto expreso y **3 meses** para resolver; en reposición, ambos plazos son de **1 mes**. El recurso extraordinario por **error de hecho** tiene **4 años** de interposición, no **4 meses**.
+
+**Fuente contrastada:** [Ley 39/2015, Título V, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco de **20 preguntas**, pendiente evaluación integral de calidad y prueba funcional del portal.
