@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 5
 
-**Estado editorial: BORRADOR DOCUMENTADO — pendiente de auditoría final artículo por artículo.** Revisión de fuentes: **25/10/2026**.
+**Estado editorial: MANUAL AMPLIADO — auditoría de reglamentación provincial aún pendiente.** Revisión de fuentes: **25/10/2026**.
 
 ## 1. Epígrafe oficial literal
 
@@ -212,7 +212,7 @@ En la sesión constitutiva de la Diputación, se elige **Presidente** de entre s
 | Elección de Alcalde / Presidente provincial | **Arts. 196 y 207 LOREG** |
 | Datos legislatura 2023–2027 / regla general | Composición actual no es regla universal |
 
-## 10. Auditoría necesaria para el cierre editorial
+## 10. Control jurídico y comprobación específica de Toledo
 
 **Pendiente de verificación exhaustiva** antes de pasar de `BORRADOR` a `PUBLICADO`:
 
@@ -223,3 +223,42 @@ En la sesión constitutiva de la Diputación, se elige **Presidente** de entre s
 5. Test y casos prácticos originales, confrontados uno por uno con sus artículos.
 
 **No se afirman aprobados los puntos pendientes.** El programa exige la normativa vigente en la fecha de examen.
+
+
+## 11. Comparación de órganos, competencias y elecciones
+
+| Materia | Regla de referencia | Artículo |
+|---|---|---|
+| Elementos del municipio | **Territorio, población y organización** | **LRBRL 11.2** |
+| Órganos necesarios municipales | **Alcalde, Tenientes de Alcalde y Pleno** | **LRBRL 20.1.a** |
+| Comisión Especial de Cuentas | Existe en **todos** los municipios | **LRBRL 20.1.e** |
+| Junta de Gobierno Local | Municipios de **más de 5.000 habitantes** y demás supuestos legales | **LRBRL 20.1.b** |
+| Órganos necesarios provinciales | **Presidente, Vicepresidentes, Junta de Gobierno y Pleno** | **LRBRL 32.1** |
+| Junta de Gobierno provincial | Presidente y diputados nombrados por él, con límite **un tercio** del número legal | **LRBRL 35.1** |
+| Competencia propia provincial | Asistencia y cooperación jurídica, económica y técnica a municipios, con atención a los de menor capacidad | **LRBRL 36.1.b** |
+| Elección de la Presidencia provincial | **Mayoría absoluta** en primera votación; **simple** en segunda | **LOREG 207.2** |
+
+> ⚠️ **¡Foco Examen!:** **Más de 5.000** es la referencia general de la Junta de Gobierno Local; la **Comisión Especial de Cuentas** existe **siempre**. Los diputados provinciales son elegidos **indirectamente**, no por una papeleta provincial separada.
+
+### Periodicidad y régimen de sesiones
+
+**Regla de Pleno de régimen común (art. 46.2.a LRBRL):** sesiones ordinarias municipales como mínimo **cada mes** en municipios de **más de 20.000 habitantes**, **cada dos meses** en los de **5.001 a 20.000**, y **cada tres meses** en los de **hasta 5.000**. El **Pleno de Diputación** celebra sesión ordinaria como mínimo **cada mes**.
+
+| Pleno | Periodicidad mínima |
+|---|---|
+| Ayuntamiento **hasta 5.000 habitantes** | **Cada tres meses** |
+| Ayuntamiento **5.001–20.000** | **Cada dos meses** |
+| Ayuntamiento **más de 20.000** | **Cada mes** |
+| **Diputación Provincial** | **Cada mes** |
+
+La convocatoria ordinaria debe efectuarse con antelación mínima de **dos días hábiles** (art. **46.2.b**), salvo sesiones extraordinarias urgentes y con requisitos de ratificación de urgencia. Como regla general, el Pleno se constituye válidamente con asistencia de **un tercio del número legal de miembros**, **nunca inferior a tres**, y requiere **Presidente** y **Secretario** o sustitutos legales (art. **46.2.c**). Los acuerdos se adoptan, como regla general, por **mayoría simple de miembros presentes** (art. **47.1**), sin perjuicio de mayorías especiales.
+
+> ⚠️ **¡Foco Examen!:** **Mayoría simple** es regla ordinaria para acuerdos; **mayoría absoluta del número legal** se exige en supuestos tasados del **art. 47.2**. **Quórum de constitución** no es **mayoría para votar**.
+
+### Referencia institucional de Diputación de Toledo
+
+La Diputación indica en su portal de la legislatura **2023–2027** que su Pleno está integrado por **27 diputados provinciales**. La cifra corresponde al tramo de población de **500.001 a 1.000.000** residentes del **artículo 204 LOREG**, sin confundirse con el número de concejales municipales. El portal institucional identifica **Pleno**, **Presidencia**, **Vicepresidencias** y **Junta de Gobierno**. Para competencias permanentes debe prevalecer la **LRBRL** y, para detalles de organización propios, el reglamento oficialmente publicado que corresponda.
+
+**Fuentes:** [Diputación de Toledo, Pleno](https://www.diputoledo.es/global/27/263/734), [Junta de Gobierno](https://www.diputoledo.es/global/27/263/738), [Portal de Transparencia](https://www.diputoledo.es/global/71/1215/4536), [LRBRL](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), [LOREG](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672).
+
+**Control de fuentes todavía abierto:** falta contrastar el texto y vigencia del reglamento orgánico provincial aplicable a los órganos complementarios de Toledo; no se afirma por ello que el **tema 5 esté completamente auditado**.
