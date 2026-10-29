@@ -172,115 +172,115 @@
     },
     {
       "id": "DIP-T31-013",
-      "pregunta": "Indique la respuesta correcta sobre: Equivalencia jurídica expresa de firma electrónica cualificada.",
+      "pregunta": "¿Qué efecto jurídico reconoce expresamente eIDAS a la firma electrónica cualificada?",
       "opciones": [
-        "Ninguna de las anteriores",
-        "Firma manuscrita",
-        "No existe regulación",
-        "Solo mediante resolución judicial"
+        "Equivale a una firma manuscrita",
+        "Es siempre un documento público",
+        "Sustituye toda acreditación de identidad",
+        "No puede emplearse ante Administraciones"
       ],
-      "correcta": 1,
-      "justificacion": "Referencia normativa: artículo 25.",
-      "trampa": "Distinguir clases y efectos jurídicos.",
-      "referencia": "Legislación de firma electrónica y servicios de confianza"
+      "correcta": 0,
+      "justificacion": "La firma cualificada tiene **efecto equivalente a la firma manuscrita**.",
+      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
+      "referencia": "eIDAS art. 25.2"
     },
     {
       "id": "DIP-T31-014",
-      "pregunta": "Indique la respuesta correcta sobre: Vigencia máxima del certificado cualificado en Ley 6/2020.",
+      "pregunta": "¿Cuál es el periodo máximo de vigencia de los certificados cualificados según Ley 6/2020?",
       "opciones": [
-        "Ninguna de las anteriores",
-        "Cinco años",
-        "No existe regulación",
-        "Solo mediante resolución judicial"
+        "3 años",
+        "4 años",
+        "5 años",
+        "10 años"
       ],
-      "correcta": 1,
-      "justificacion": "Referencia normativa: artículo 4.",
-      "trampa": "Distinguir clases y efectos jurídicos.",
-      "referencia": "Legislación de firma electrónica y servicios de confianza"
+      "correcta": 2,
+      "justificacion": "El máximo es **5 años**.",
+      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
+      "referencia": "Ley 6/2020 art. 4.2"
     },
     {
       "id": "DIP-T31-015",
-      "pregunta": "Indique la respuesta correcta sobre: Plazo de conservación de prestadores cualificados en Ley 6/2020.",
+      "pregunta": "¿Cuánto tiempo deben conservar la información de sus servicios los prestadores cualificados según Ley 6/2020?",
       "opciones": [
-        "Ninguna de las anteriores",
-        "Quince años",
-        "No existe regulación",
-        "Solo mediante resolución judicial"
+        "2 años",
+        "5 años",
+        "10 años",
+        "15 años"
       ],
-      "correcta": 1,
-      "justificacion": "Referencia normativa: artículo 11.",
-      "trampa": "Distinguir clases y efectos jurídicos.",
-      "referencia": "Legislación de firma electrónica y servicios de confianza"
+      "correcta": 3,
+      "justificacion": "Durante **15 años** desde la extinción del certificado o finalización del servicio.",
+      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
+      "referencia": "Ley 6/2020 art. 11.3.a"
     },
     {
       "id": "DIP-T31-016",
-      "pregunta": "Indique la respuesta correcta sobre: La firma electrónica se atribuye a.",
+      "pregunta": "¿A qué clase de sujeto se atribuye la firma electrónica bajo eIDAS?",
       "opciones": [
-        "Ninguna de las anteriores",
         "Persona física",
-        "No existe regulación",
-        "Solo mediante resolución judicial"
+        "Persona jurídica exclusivamente",
+        "Administración sin firmante",
+        "Dispositivo sin titular"
       ],
-      "correcta": 1,
-      "justificacion": "Referencia normativa: artículo 3.",
-      "trampa": "Distinguir clases y efectos jurídicos.",
-      "referencia": "Legislación de firma electrónica y servicios de confianza"
+      "correcta": 0,
+      "justificacion": "El **firmante es persona física**.",
+      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
+      "referencia": "eIDAS art. 3"
     },
     {
       "id": "DIP-T31-017",
-      "pregunta": "Indique la respuesta correcta sobre: El sello electrónico se atribuye a.",
+      "pregunta": "¿Qué sujeto puede crear un sello electrónico conforme a eIDAS?",
       "opciones": [
-        "Ninguna de las anteriores",
+        "Solo persona física",
         "Persona jurídica",
-        "No existe regulación",
-        "Solo mediante resolución judicial"
+        "Solo el órgano judicial",
+        "Cualquier dispositivo sin titular"
       ],
       "correcta": 1,
-      "justificacion": "Referencia normativa: artículo 3.",
-      "trampa": "Distinguir clases y efectos jurídicos.",
-      "referencia": "Legislación de firma electrónica y servicios de confianza"
+      "justificacion": "El **creador de sello** es una **persona jurídica**.",
+      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
+      "referencia": "eIDAS art. 3"
     },
     {
       "id": "DIP-T31-018",
-      "pregunta": "Indique la respuesta correcta sobre: La revocación del certificado determina.",
+      "pregunta": "¿Qué efecto jurídico tiene la revocación de un certificado?",
       "opciones": [
-        "Ninguna de las anteriores",
-        "Extinción de vigencia",
-        "No existe regulación",
-        "Solo mediante resolución judicial"
+        "Lo renueva automáticamente",
+        "Lo convierte en sello electrónico",
+        "Extingue su vigencia",
+        "Permite su uso sin límites"
       ],
-      "correcta": 1,
-      "justificacion": "Referencia normativa: artículo 5.",
-      "trampa": "Distinguir clases y efectos jurídicos.",
-      "referencia": "Legislación de firma electrónica y servicios de confianza"
+      "correcta": 2,
+      "justificacion": "La **revocación extingue la vigencia** del certificado.",
+      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
+      "referencia": "Ley 6/2020 arts. 4 y 5"
     },
     {
       "id": "DIP-T31-019",
-      "pregunta": "Indique la respuesta correcta sobre: La lista de confianza identifica.",
+      "pregunta": "¿Qué información contiene la lista de confianza de servicios electrónicos de confianza?",
       "opciones": [
-        "Ninguna de las anteriores",
-        "Prestadores y servicios cualificados",
-        "No existe regulación",
-        "Solo mediante resolución judicial"
+        "El padrón municipal",
+        "La relación de recursos administrativos",
+        "Las declaraciones tributarias",
+        "Prestadores cualificados y servicios cualificados"
       ],
-      "correcta": 1,
-      "justificacion": "Referencia normativa: artículo 16.",
-      "trampa": "Distinguir clases y efectos jurídicos.",
-      "referencia": "Legislación de firma electrónica y servicios de confianza"
+      "correcta": 3,
+      "justificacion": "Identifica **prestadores cualificados** y sus **servicios cualificados**.",
+      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
+      "referencia": "Ley 6/2020 art. 16.1"
     },
     {
       "id": "DIP-T31-020",
-      "pregunta": "Indique la respuesta correcta sobre: Para interponer recursos Ley 39/2015 exige.",
+      "pregunta": "¿En qué actuación exige firma la Ley 39/2015 con carácter general?",
       "opciones": [
-        "Ninguna de las anteriores",
-        "Firma",
-        "No existe regulación",
-        "Solo mediante resolución judicial"
+        "Interponer un recurso",
+        "Consultar una web pública",
+        "Leer un anuncio público",
+        "Solicitar información telefónica informal"
       ],
-      "correcta": 1,
-      "justificacion": "Referencia normativa: artículo 11.",
-      "trampa": "Distinguir clases y efectos jurídicos.",
-      "referencia": "Legislación de firma electrónica y servicios de confianza"
+      "correcta": 0,
+      "justificacion": "La **interposición de recursos** exige firma.",
+      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
+      "referencia": "Ley 39/2015 art. 11.2"
     }
   ]
 }
