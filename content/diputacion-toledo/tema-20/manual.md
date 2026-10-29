@@ -206,3 +206,23 @@ Requisitos generales:
 | Licencia para buscar empleo | **6 horas semanales** |
 
 > ⚠️ **¡Foco Examen!:** La trampa clásica consiste en intercambiar los máximos: traslado y despido objetivo, **12 mensualidades**; modificación sustancial, **9**; despido improcedente, **24**.
+
+## 9. Auditoría de plazos e indemnizaciones — **29/10/2026**
+
+**Advertencia de vigencia:** el texto consolidado del **Estatuto de los Trabajadores** del **BOE** tiene última actualización publicada el **21/10/2026**, posterior a la versión de **04/12/2025** empleada inicialmente en el tema. Este cuadro se ha elaborado con referencia a la edición consolidada disponible en esta fecha.
+
+| Supuesto | Preaviso y/o indemnización general | Referencia |
+|---|---|---|
+| **Traslado individual con cambio de residencia** | Preaviso **30 días** antes de efectividad | **Art. 40.1 ET** |
+| Opción de extinguir contrato por traslado | **20 días de salario por año**, con máximo **12 mensualidades** | **Art. 40.1 ET** |
+| **Modificación sustancial individual** | Preaviso mínimo **15 días** | **Art. 41.3 ET** |
+| **Despido objetivo** | Preaviso **15 días**; indemnización legal **20 días por año**, máximo **12 mensualidades**, cuando proceda | **Art. 53.1 ET** |
+| Búsqueda de empleo durante preaviso objetivo | Licencia retribuida de **6 horas semanales** | **Art. 53.2 ET** |
+| **Despido improcedente** (regla general) | **33 días por año**, máximo **24 mensualidades**; comprobar régimen transitorio para servicios anteriores al **12/02/2012** | **Art. 56 ET y disposición transitoria undécima** |
+| **Suspensión del contrato** | Exoneración de las obligaciones recíprocas de **trabajar y remunerar el trabajo** | **Art. 45.2 ET** |
+
+> ⚠️ **¡Foco Examen!:** **Traslado: 30 días** de preaviso; **modificación sustancial individual: 15 días**. En un **despido objetivo**, no confundir el preaviso de **15 días** con la licencia retribuida para buscar empleo de **6 horas semanales**.
+
+> ⚠️ **¡Foco Examen!:** **20 días por año / 12 mensualidades** corresponde a varios supuestos tasados (por ejemplo, traslado con extinción o despido objetivo procedente); **33 días por año / 24 mensualidades** es la regla general del **despido improcedente**, con especialidad transitoria cuando existe antigüedad anterior a **12/02/2012**.
+
+**Fuente primaria:** [Estatuto de los Trabajadores, BOE consolidado, última actualización publicada el **21/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430). Banco ampliado a **20 preguntas**. Pendientes auditoría jurídica integral y prueba funcional del sitio antes de cerrar el estado editorial.
