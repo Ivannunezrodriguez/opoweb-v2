@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 2
 
-**Estado editorial:** BORRADOR ADAPTADO. Pendiente de contraste íntegro con el BOE consolidado vigente en la fecha de examen.
+**Estado editorial:** BORRADOR PARA DIPUTACIÓN C2; verificación jurídica final y pruebas funcionales pendientes. No confundir con la aprobación histórica de La Puebla.
 
 ## 1. Epígrafe oficial literal
 
@@ -847,8 +847,8 @@ Responder sin consultar:
 
 ## 51. Fuente del epígrafe
 
-- BOP de Toledo número 82, de 5 de mayo de 2026.
-- Código de verificación: `2026.00001965`.
+- **Diputación de Toledo C2**: BOP de Toledo **número 197, de 14 de octubre de 2026**, **Anexo XI**, código **2026.00004759**.
+- El BOP n.º 82 de 05/05/2026 correspondía a **La Puebla de Montalbán**, fuente de reutilización histórica del material, **no** a la convocatoria actual.
 
 ## 52. Estado real
 
@@ -856,12 +856,12 @@ Responder sin consultar:
 - Matriz normativa: realizada.
 - Artículos 1–33: desarrollados individualmente.
 - Plazos, excepciones y efectos: incorporados.
-- Preguntas trazables: no creadas todavía.
+- Preguntas trazables: **8 preguntas** disponibles en `tema-02/preguntas.json`; pendiente auditoría documental integral del banco.
 - Revisión del usuario: **aprobada el 17 de julio de 2026**.
-- Tema cerrado: **SÍ, aprobado por el usuario**.
-- Publicación como aprobado: **SÍ**.
+- Tema cerrado para **Diputación C2**: **NO; BORRADOR PENDIENTE DE AUDITORÍA**.
+- Publicación como aprobado para esta convocatoria: **NO**.
 
-El usuario aprobó expresamente el tema mediante la respuesta **«Tema 2 aprobado»** el 17 de julio de 2026.
+La aprobación histórica de **La Puebla** (**17/07/2026**) **no es una aprobación de la versión para Diputación C2 de octubre de 2026**.
 
 
 ## Control de plazos y subsanación electrónica — contrastado con BOE (29/10/2026)
