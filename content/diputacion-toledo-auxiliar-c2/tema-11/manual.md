@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 11
 
-**ESTADO EDITORIAL: BORRADOR ADAPTADO — NO AUDITADO PARA LA NUEVA CONVOCATORIA.** Fuente base revisada en La Puebla el **30/07/2026**.
+**ESTADO EDITORIAL: EN REVISIÓN NORMATIVA 29/10/2026.** Fuente base revisada en La Puebla el **30/07/2026**.
 
 ## Epígrafe oficial literal
 
@@ -14,7 +14,7 @@ Fuente: **BOP Toledo n.º 197, 14/10/2026, Anexo XI, p. 102**.
 
 La **LGT** tiene última actualización consolidada publicada el **21/12/2024**: https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186
 
-**No memorizar sin cotejo los plazos, órganos, sanciones, beneficios fiscales y porcentajes que siguen.** El contenido se conserva como base explicativa en curso de auditoría.
+Se revisa con prioridad la vigencia de plazos, órganos, beneficios fiscales y porcentajes conforme a la normativa consolidada actualizada.
 
 ---
 
@@ -24,7 +24,7 @@ La **LGT** tiene última actualización consolidada publicada el **21/12/2024**:
 
 - Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales —TRLRHL—.
 - Referencia oficial: `BOE-A-2004-4214`.
-- Texto consolidado consultado: última actualización publicada el **3 de junio de 2026**.
+- Texto consolidado vigente: última actualización publicada el **7 de octubre de 2026**.
 
 ### Norma tributaria general
 
@@ -1157,3 +1157,21 @@ El artículo 140 impide una segunda regularización del mismo objeto salvo hecho
 - Real Decreto 1065/2007, complemento reglamentario de gestión.
 - Real Decreto 939/2005, complemento reglamentario de recaudación.
 
+
+
+## ANEXO · Correcciones de vigencia (29/10/2026)
+
+| Figura | Regla de examen | Fuente |
+|---|---|---|
+| Delegación tributaria local | Acuerdo de **Pleno** con alcance y contenido; publicación legal | **TRLRHL art. 7.2** |
+| Colaboración interadministrativa | **Estado, comunidades autónomas y entidades locales** cooperan en gestión, liquidación, inspección y recaudación | **TRLRHL art. 8** |
+| Indisponibilidad | El **crédito tributario** es indisponible, salvo que ley establezca otra cosa | **LGT art. 18** |
+| Contribuyente | Sujeto pasivo que realiza **hecho imponible** | **LGT art. 36.2** |
+| Sustituto | Cumple obligación principal en lugar del contribuyente **por imposición de ley** | **LGT art. 36.3** |
+| Deuda tributaria | **Cuota**, intereses y recargos que procedan; **no incluye sanciones** | **LGT art. 58** |
+| Prescripción general | **4 años**, según cada derecho y dies a quo | **LGT art. 66** |
+| Gestión tributaria | Procedimientos de verificación de datos, comprobación de valores y comprobación limitada | **LGT arts. 123–140** |
+
+> ⚠️ **¡Foco Examen!:** **Cuatro años** es plazo general de prescripción tributaria; no significa que todos los derechos empiecen a contarse el mismo día. **Sanciones** no integran la **deuda tributaria**.
+
+Fuentes: [TRLRHL consolidado (última actualización **07/10/2026**)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), [LGT consolidada (última actualización **21/12/2024**)](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186).
