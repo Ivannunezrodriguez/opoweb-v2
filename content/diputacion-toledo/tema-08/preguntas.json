@@ -1,12 +1,17 @@
 {
   "tema": 8,
   "titulo": "Revisión de los actos administrativos en vía administrativa",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T08-001",
       "pregunta": "¿En qué plazo puede iniciarse la revisión de oficio de un acto nulo?",
-      "opciones": ["En 1 año", "En 4 años", "En cualquier momento", "En 6 meses"],
+      "opciones": [
+        "En 1 año",
+        "En 4 años",
+        "En cualquier momento",
+        "En 6 meses"
+      ],
       "correcta": 2,
       "justificacion": "El artículo 106 de la Ley 39/2015 permite revisar los actos nulos en cualquier momento.",
       "trampa": "Confundir el plazo de iniciación con el plazo máximo de resolución del procedimiento, que es de 6 meses.",
@@ -15,7 +20,12 @@
     {
       "id": "DIP-T08-002",
       "pregunta": "¿Qué dictamen exige la revisión de oficio de un acto nulo?",
-      "opciones": ["Informe no vinculante de Intervención", "Dictamen favorable del Consejo de Estado u órgano consultivo equivalente", "Autorización judicial previa", "Informe favorable del Ministerio Fiscal"],
+      "opciones": [
+        "Informe no vinculante de Intervención",
+        "Dictamen favorable del Consejo de Estado u órgano consultivo equivalente",
+        "Autorización judicial previa",
+        "Informe favorable del Ministerio Fiscal"
+      ],
       "correcta": 1,
       "justificacion": "La declaración de nulidad requiere dictamen favorable del Consejo de Estado u órgano consultivo autonómico equivalente.",
       "trampa": "El dictamen no es meramente facultativo ni basta con solicitarlo: debe ser favorable.",
@@ -24,7 +34,12 @@
     {
       "id": "DIP-T08-003",
       "pregunta": "¿Cuál es el plazo máximo para resolver un procedimiento de revisión de oficio?",
-      "opciones": ["1 mes", "3 meses", "6 meses", "4 años"],
+      "opciones": [
+        "1 mes",
+        "3 meses",
+        "6 meses",
+        "4 años"
+      ],
       "correcta": 2,
       "justificacion": "El procedimiento de revisión de oficio debe resolverse en 6 meses.",
       "trampa": "Los 4 años corresponden al límite para declarar la lesividad, no al plazo de resolución de la revisión de oficio.",
@@ -33,7 +48,12 @@
     {
       "id": "DIP-T08-004",
       "pregunta": "¿Qué actos son objeto de declaración de lesividad?",
-      "opciones": ["Actos nulos desfavorables", "Actos favorables anulables", "Disposiciones reglamentarias nulas", "Actos de trámite simples"],
+      "opciones": [
+        "Actos nulos desfavorables",
+        "Actos favorables anulables",
+        "Disposiciones reglamentarias nulas",
+        "Actos de trámite simples"
+      ],
       "correcta": 1,
       "justificacion": "La declaración de lesividad permite impugnar ante la jurisdicción contenciosa actos favorables que sean anulables.",
       "trampa": "La Administración no anula directamente el acto favorable anulable; debe declarar la lesividad y acudir a la jurisdicción.",
@@ -42,7 +62,12 @@
     {
       "id": "DIP-T08-005",
       "pregunta": "¿Hasta cuándo puede declararse la lesividad de un acto anulable favorable?",
-      "opciones": ["Dentro de 1 mes", "Dentro de 1 año", "Dentro de 4 años", "En cualquier momento"],
+      "opciones": [
+        "Dentro de 1 mes",
+        "Dentro de 1 año",
+        "Dentro de 4 años",
+        "En cualquier momento"
+      ],
       "correcta": 2,
       "justificacion": "La declaración de lesividad no puede adoptarse después de 4 años desde que se dictó el acto.",
       "trampa": "No confundir el límite de 4 años con la caducidad de 6 meses del procedimiento de lesividad.",
@@ -51,7 +76,12 @@
     {
       "id": "DIP-T08-006",
       "pregunta": "¿Qué errores pueden rectificarse en cualquier momento conforme al artículo 109.2?",
-      "opciones": ["Cualquier error jurídico", "Solo errores de Derecho", "Errores materiales, de hecho o aritméticos", "Únicamente errores aritméticos"],
+      "opciones": [
+        "Cualquier error jurídico",
+        "Solo errores de Derecho",
+        "Errores materiales, de hecho o aritméticos",
+        "Únicamente errores aritméticos"
+      ],
       "correcta": 2,
       "justificacion": "La Ley permite rectificar en cualquier momento errores materiales, de hecho o aritméticos.",
       "trampa": "El error de Derecho no se corrige por simple rectificación.",
@@ -60,7 +90,12 @@
     {
       "id": "DIP-T08-007",
       "pregunta": "¿Qué recurso procede contra un acto que no pone fin a la vía administrativa?",
-      "opciones": ["Reposición", "Alzada", "Extraordinario de revisión", "Recurso contencioso directo necesariamente"],
+      "opciones": [
+        "Reposición",
+        "Alzada",
+        "Extraordinario de revisión",
+        "Recurso contencioso directo necesariamente"
+      ],
       "correcta": 1,
       "justificacion": "El recurso de alzada procede contra actos que no agotan la vía administrativa.",
       "trampa": "La reposición se dirige contra actos que sí ponen fin a la vía administrativa.",
@@ -69,7 +104,12 @@
     {
       "id": "DIP-T08-008",
       "pregunta": "¿Cuál es el plazo para interponer recurso de alzada contra un acto expreso?",
-      "opciones": ["10 días", "15 días", "1 mes", "3 meses"],
+      "opciones": [
+        "10 días",
+        "15 días",
+        "1 mes",
+        "3 meses"
+      ],
       "correcta": 2,
       "justificacion": "El plazo es de 1 mes cuando el acto es expreso.",
       "trampa": "Los 3 meses son el plazo máximo para resolver, no para interponer.",
@@ -78,7 +118,12 @@
     {
       "id": "DIP-T08-009",
       "pregunta": "¿Quién resuelve el recurso potestativo de reposición?",
-      "opciones": ["El superior jerárquico", "El mismo órgano que dictó el acto", "El Consejo de Estado", "El órgano judicial competente"],
+      "opciones": [
+        "El superior jerárquico",
+        "El mismo órgano que dictó el acto",
+        "El Consejo de Estado",
+        "El órgano judicial competente"
+      ],
       "correcta": 1,
       "justificacion": "La reposición se interpone y resuelve por el mismo órgano que dictó el acto.",
       "trampa": "El superior jerárquico resuelve la alzada, no la reposición.",
@@ -87,7 +132,12 @@
     {
       "id": "DIP-T08-010",
       "pregunta": "¿Qué ocurre si transcurre 1 mes desde la solicitud de suspensión de la ejecución en un recurso sin resolución expresa?",
-      "opciones": ["Se entiende denegada", "Se entiende suspendida la ejecución", "Caduca el recurso", "Se archiva el procedimiento"],
+      "opciones": [
+        "Se entiende denegada",
+        "Se entiende suspendida la ejecución",
+        "Caduca el recurso",
+        "Se archiva el procedimiento"
+      ],
       "correcta": 1,
       "justificacion": "La ejecución se entiende suspendida si transcurre 1 mes desde la solicitud sin notificación expresa.",
       "trampa": "Es un supuesto excepcional de silencio favorable respecto de la medida de suspensión.",
@@ -96,7 +146,12 @@
     {
       "id": "DIP-T08-011",
       "pregunta": "¿Cuál es el plazo para interponer recurso extraordinario de revisión por error de hecho?",
-      "opciones": ["1 mes", "3 meses", "1 año", "4 años"],
+      "opciones": [
+        "1 mes",
+        "3 meses",
+        "1 año",
+        "4 años"
+      ],
       "correcta": 3,
       "justificacion": "Por error de hecho resultante de los documentos del expediente, el plazo es de 4 años desde la notificación.",
       "trampa": "Las demás causas del recurso extraordinario tienen, con carácter general, un plazo de 3 meses.",
@@ -105,11 +160,128 @@
     {
       "id": "DIP-T08-012",
       "pregunta": "¿Puede la resolución de un recurso agravar la situación inicial del recurrente?",
-      "opciones": ["Sí, siempre", "Sí, si lo solicita otro interesado", "No, por la prohibición de reformatio in peius", "Solo en reposición"],
+      "opciones": [
+        "Sí, siempre",
+        "Sí, si lo solicita otro interesado",
+        "No, por la prohibición de reformatio in peius",
+        "Solo en reposición"
+      ],
       "correcta": 2,
       "justificacion": "La resolución debe respetar la prohibición de reformatio in peius y no puede empeorar la situación inicial del recurrente.",
       "trampa": "La Administración debe resolver todas las cuestiones, pero sin agravar la posición inicial del recurrente.",
       "referencia": "content/diputacion-toledo/tema-08/manual.md#85-resolución-del-recurso"
+    },
+    {
+      "id": "DIP-T08-013",
+      "pregunta": "¿Cuánto tiempo tiene la Administración para resolver el recurso de alzada?",
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "correcta": 2,
+      "justificacion": "El plazo máximo de resolución y notificación del recurso de alzada es de **3 meses**.",
+      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
+      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T08-014",
+      "pregunta": "¿Cuál es el plazo de resolución y notificación del recurso potestativo de reposición?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Seis meses",
+        "Cuatro años"
+      ],
+      "correcta": 0,
+      "justificacion": "La reposición debe resolverse y notificarse en **1 mes**.",
+      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
+      "referencia": "Ley 39/2015, art. 124 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T08-015",
+      "pregunta": "¿Ante qué órgano se interpone el recurso de reposición?",
+      "opciones": [
+        "El superior jerárquico",
+        "El que dictó el acto",
+        "El Consejo de Estado",
+        "El Tribunal de Cuentas"
+      ],
+      "correcta": 1,
+      "justificacion": "Se presenta ante el **mismo órgano** que dictó el acto.",
+      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
+      "referencia": "Ley 39/2015, art. 123 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T08-016",
+      "pregunta": "¿Qué ocurre con un recurso de alzada contra acto presunto cuando no se resuelve en plazo, según la excepción del artículo 24.1?",
+      "opciones": [
+        "Siempre se desestima",
+        "Siempre caduca",
+        "Puede entenderse estimado salvo materias expresamente exceptuadas",
+        "Se transforma en reposición"
+      ],
+      "correcta": 2,
+      "justificacion": "La desestimación presunta general de la alzada tiene la **excepción del doble silencio**, salvo materias del artículo 24.1.",
+      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
+      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T08-017",
+      "pregunta": "¿Qué plazo existe para interponer revisión extraordinaria por error de hecho acreditado en el expediente?",
+      "opciones": [
+        "Tres meses",
+        "Un mes",
+        "Seis meses",
+        "Cuatro años"
+      ],
+      "correcta": 3,
+      "justificacion": "El **error de hecho** permite interponer el recurso en **4 años** desde notificación del acto.",
+      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
+      "referencia": "Ley 39/2015, art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T08-018",
+      "pregunta": "¿Cuál es el plazo para el recurso extraordinario de revisión por aparición de documento esencial?",
+      "opciones": [
+        "Tres meses",
+        "Un año",
+        "Cuatro años",
+        "Seis meses"
+      ],
+      "correcta": 0,
+      "justificacion": "El plazo es de **3 meses** desde que se conozcan los documentos esenciales.",
+      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
+      "referencia": "Ley 39/2015, art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T08-019",
+      "pregunta": "¿Qué efecto tiene la falta de resolución de revisión extraordinaria durante tres meses?",
+      "opciones": [
+        "Estimación siempre",
+        "Desestimación presunta",
+        "Caducidad inmediata de todo expediente",
+        "Pérdida automática de potestades"
+      ],
+      "correcta": 1,
+      "justificacion": "El recurso extraordinario se entiende **desestimado** al transcurrir **3 meses** sin resolución notificada.",
+      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
+      "referencia": "Ley 39/2015, art. 126 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T08-020",
+      "pregunta": "¿Qué plazo existe para declarar lesivo un acto favorable anulable?",
+      "opciones": [
+        "Seis meses desde la notificación",
+        "Un año desde su publicación",
+        "Cuatro años desde que se dictó el acto",
+        "En cualquier momento"
+      ],
+      "correcta": 2,
+      "justificacion": "La declaración de lesividad no podrá adoptarse una vez transcurridos **4 años** desde que se dictó el acto.",
+      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
+      "referencia": "Ley 39/2015, art. 107 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ]
 }
