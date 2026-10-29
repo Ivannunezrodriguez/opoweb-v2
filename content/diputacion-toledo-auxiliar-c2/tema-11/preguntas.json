@@ -1,8 +1,8 @@
 {
   "tema": 11,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
+  "estado": "BANCO_20_PREGUNTAS_PENDIENTE_COTEJO_COMPLETO",
   "version": "2026-10-29",
-  "criterio": "8 preguntas originales de cuatro opciones, respuesta inequívoca y referencia precisa a BOE consolidado, comprobado a 25/10/2026. No son preguntas oficiales; auditoría integral de manual pendiente.",
+  "criterio": "20 preguntas, estructura validada, normas identificadas; pendiente cotejo individual y auditoría integral de manual.",
   "preguntas": [
     {
       "id": "DT-C2-T11-001",
@@ -199,6 +199,90 @@
       "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
       "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
       "referencia": "LGT 66"
+    },
+    {
+      "id": "DT-C2-T11-015",
+      "enunciado": "¿Qué elemento NO forma parte de la deuda tributaria según el artículo 58 LGT?",
+      "opciones": [
+        "Cuota tributaria",
+        "Interés de demora",
+        "Recargo del período ejecutivo",
+        "Sanción tributaria"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
+      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
+      "referencia": "LGT 58"
+    },
+    {
+      "id": "DT-C2-T11-016",
+      "enunciado": "¿Cuál es un procedimiento de gestión tributaria?",
+      "opciones": [
+        "Comprobación limitada",
+        "Proceso penal",
+        "Juicio civil",
+        "Procedimiento electoral"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
+      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
+      "referencia": "LGT 123"
+    },
+    {
+      "id": "DT-C2-T11-017",
+      "enunciado": "¿Cómo puede iniciarse la gestión tributaria?",
+      "opciones": [
+        "Solo por denuncia judicial",
+        "Por declaración, autoliquidación, comunicación, solicitud o de oficio",
+        "Solo por sentencia firme",
+        "Únicamente por subasta"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
+      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
+      "referencia": "LGT 118"
+    },
+    {
+      "id": "DT-C2-T11-018",
+      "enunciado": "¿Qué diferencia una autoliquidación de una declaración ordinaria?",
+      "opciones": [
+        "Requiere siempre notario",
+        "Debe ir siempre sin cuota",
+        "El obligado cuantifica la deuda o devolución por sí mismo",
+        "No puede presentarse electrónicamente"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
+      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
+      "referencia": "LGT 120"
+    },
+    {
+      "id": "DT-C2-T11-019",
+      "enunciado": "¿Qué medio extingue la deuda tributaria?",
+      "opciones": [
+        "Solicitud de cita previa",
+        "Cambio de residencia",
+        "Comunicación informal",
+        "Pago"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
+      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
+      "referencia": "LGT 59"
+    },
+    {
+      "id": "DT-C2-T11-020",
+      "enunciado": "¿Qué permite la compensación tributaria?",
+      "opciones": [
+        "Extinguir deudas con créditos reconocidos en los términos legales",
+        "Borrar cualquier sanción automáticamente",
+        "Eliminar los impuestos locales",
+        "Evitar cualquier comprobación"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
+      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
+      "referencia": "LGT 71"
     }
   ],
   "auditoria": {
