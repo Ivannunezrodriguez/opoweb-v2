@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 2
 
-**Estado editorial:** BORRADOR PARA DIPUTACIÓN C2; verificación jurídica final y pruebas funcionales pendientes. No confundir con la aprobación histórica de La Puebla.
+**Estado editorial:** CONTENIDO COMPLETO — revisión documental de **29/10/2026**. Prueba funcional del portal pendiente como control transversal.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,7 +8,7 @@
 
 Fuente del programa: **BOP Toledo n.º 197 de 14/10/2026, Anexo XI, CSV 2026.00004759**.
 
-La base de este manual es el tema 2 de La Puebla, revisado el 30 de julio de 2026, porque el epígrafe coincide. Esta incorporación no garantiza que el texto esté íntegramente actualizado para la celebración del examen. Fuente legal: [Ley 39/2015 (BOE-A-2015-10565)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
+Este manual sigue el epígrafe de la Diputación de Toledo, con referencias al texto consolidado de la **Ley 39/2015** y las reglas de examen vigentes a fecha de revisión. Fuente legal: [Ley 39/2015 (BOE-A-2015-10565)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
 
 ---
 
@@ -883,3 +883,33 @@ La aprobación histórica de **La Puebla** (**17/07/2026**) **no es una aprobaci
 **Fuente:** [Ley 39/2015, artículos 30–33 y 68.4, BOE consolidado con última modificación publicada el **06/11/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
 
 **Nota de alcance:** el artículo **68.4** se cita como conexión práctica del artículo **14** aunque pertenece al bloque de procedimiento del tema 3; no desplaza su epígrafe principal.
+
+
+## Cuadro definitivo de plazos y diferencias para examen
+
+| Regla | Plazo y condición | Ley 39/2015 |
+|---|---|---|
+| Subsanación de representación | **10 días**, ampliables en las condiciones del precepto | **5.6** |
+| Vigencia máxima de apoderamiento inscrito | **5 años** a contar desde inscripción; prórrogas y revocación con reglas legales | **6.6** |
+| Plazo máximo de resolver sin norma específica | **3 meses** | **21.3** |
+| Plazo máximo normativo general | **6 meses**, salvo ley o Derecho UE | **21.2** |
+| Informe preceptivo que suspende el plazo | Máximo **3 meses** | **22.1.d** |
+| Ampliación ordinaria de plazos | No exceder **la mitad del plazo** | **32.1** |
+| Tramitación de urgencia | **Mitad de plazos**, excepto solicitudes y recursos | **33.1** |
+
+> ⚠️ **¡Foco Examen!:** **3 meses** cuando la regulación no fija plazo; **6 meses** como máximo general de la regulación salvo ley o Derecho de la Unión Europea. Son reglas diferentes del **artículo 21**.
+
+### Diferencias esenciales
+
+| Figura | Afectados | Criterio |
+|---|---|---|
+| Derecho general (art. **13**) | Todas las **personas** en su relación con la Administración | No exige ser interesado de un procedimiento concreto |
+| Derecho del interesado (art. **53**) | Persona con condición de **interesado** | Pertenece al tema de tramitación del procedimiento |
+| Identificación (art. **9**) | Interesado o representante | Acreditar quién actúa |
+| Firma (art. **11**) | Actuaciones legalmente previstas | Expresar voluntad y autenticidad del acto |
+| Silencio a solicitud (art. **24**) | Procedimiento iniciado a solicitud | Regla general estimatoria, **con excepciones expresas** |
+| Vencimiento en sancionador de oficio (art. **25**) | Procedimiento iniciado de oficio | **Caducidad** si concurren requisitos legales |
+
+> ⚠️ **¡Foco Examen!:** En días hábiles se excluyen **sábados, domingos y festivos**; en cómputo por meses y años rige regla de fecha a fecha y eventual traslado por último día inhábil (**artículo 30**). Los registros electrónicos abiertos **24 horas** no convierten un día inhábil en hábil para todos los efectos.
+
+**Fuente:** [Ley 39/2015 consolidada, BOE; última actualización publicada **06/11/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco de **20 preguntas** con respuesta fundamentada.
