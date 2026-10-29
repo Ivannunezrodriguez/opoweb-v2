@@ -49,3 +49,14 @@ El tema se ha elaborado desde cero siguiendo el epígrafe oficial y la terminolo
 
 - Verificación editorial: **19 de julio de 2026**.
 - Estado: `GENERACION_DESDE_CERO`.
+
+
+## Fuentes concretas de la ampliación — **29/10/2026**
+
+- [Ayuda oficial LibreOffice Base: Relaciones](https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html): claves primarias, claves foráneas y acceso mediante **Herramientas → Relaciones**.
+- [Ayuda oficial: opciones de relaciones](https://help.libreoffice.org/latest/es/text/sdatabase/05020100.html): **actualización en cascada**, **eliminación en cascada** y requisitos del motor de base de datos.
+- [Ayuda oficial: consultas](https://help.libreoffice.org/latest/es/text/sdatabase/02000000.html): selección y ordenación de registros.
+- [Ayuda oficial: formularios](https://help.libreoffice.org/latest/es/text/sdatabase/04000000.html): creación de formularios y controles.
+- [Ayuda oficial: vista de orígenes de datos](https://help.libreoffice.org/latest/es/text/shared/guide/database_main.html): atajo **Ctrl + Mayús + F4** en Windows.
+
+**Estado de control:** banco ampliado a **20 preguntas**, manual enriquecido; pendientes auditoría global y prueba funcional.
