@@ -1,8 +1,8 @@
 {
   "tema": 13,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
-  "criterio": "8 preguntas originales de cuatro opciones, respuesta inequívoca y referencia precisa a BOE consolidado, comprobado a 25/10/2026. No son preguntas oficiales; auditoría integral de manual pendiente.",
+  "estado": "BANCO_20_PREGUNTAS_TRLRHL",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales con referencia individual al TRLRHL consolidado 07/10/2026, sometidas a revisión editorial; banco estructuralmente validado.",
   "preguntas": [
     {
       "id": "DT-C2-T13-001",
@@ -115,6 +115,174 @@
       "justificacion": "El artículo 106.1.b TRLRHL establece que en transmisiones a título oneroso el contribuyente es quien transmite el terreno. En las lucrativas, el artículo 106.1.a atribuye la condición a quien adquiere. Si el contribuyente oneroso es una persona física no residente en España, procede atender a la regla del sustituto del art. 106.2.",
       "trampaExamen": "Distinguir **transmisión onerosa (transmitente)** y **gratuita (adquirente)**, y la figura del **sustituto** cuando procede.",
       "referencia": "TRLRHL art. 106.1.a, 106.1.b y 106.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-009",
+      "enunciado": "¿Qué impuestos municipales exige obligatoriamente el ayuntamiento según el art. 59.1 del TRLRHL?",
+      "opciones": [
+        "ICIO e IIVTNU",
+        "IBI, IAE e IVTM",
+        "Solo IAE e IIVTNU",
+        "Solo IBI"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El art. 59.1 establece el carácter obligatorio del IBI, IAE e IVTM; ICIO e IIVTNU son potestativos.",
+      "trampaExamen": "**Obligatorios:** IBI, IAE, IVTM. **Potestativos:** ICIO e IIVTNU.",
+      "referencia": "TRLRHL, art. 59.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-010",
+      "enunciado": "¿Qué supuesto constituye el hecho imponible del IBI por el orden legal del art. 61.1?",
+      "opciones": [
+        "Solo residencia habitual",
+        "La actividad profesional del propietario",
+        "La titularidad de concesión administrativa sobre inmuebles o servicios públicos afectos",
+        "La plusvalía de la venta"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La concesión administrativa tiene prioridad sobre superficie, usufructo y propiedad en el orden del art. 61.1.",
+      "trampaExamen": "El orden de derechos del **IBI** es **concesión, superficie, usufructo, propiedad**.",
+      "referencia": "TRLRHL, art. 61.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-011",
+      "enunciado": "¿Qué persona es sujeto pasivo del IBI a título de contribuyente?",
+      "opciones": [
+        "Siempre el ocupante de hecho",
+        "Siempre el arrendatario",
+        "La entidad bancaria que domicilia recibo",
+        "Quien ostente la titularidad del derecho constitutivo del hecho imponible"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Art. 63.1: sujetos pasivos son personas naturales o jurídicas y entidades del art. 35.4 LGT que ostenten el derecho constitutivo.",
+      "trampaExamen": "No siempre tributa el **propietario**; pueden prevalecer concesión, superficie o usufructo.",
+      "referencia": "TRLRHL, art. 63.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-012",
+      "enunciado": "¿Cuál de los siguientes supuestos constituye una exención general del IAE?",
+      "opciones": [
+        "Las personas físicas",
+        "Todas las sociedades mercantiles sin excepción",
+        "Todas las entidades que facturen más de 1 millón de euros",
+        "Cualquier actividad artística desarrollada en España"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 82.1.c TRLRHL: las personas físicas están exentas del IAE.",
+      "trampaExamen": "Estar **exento** del IAE no implica que no exista **hecho imponible**.",
+      "referencia": "TRLRHL, art. 82.1.c · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-013",
+      "enunciado": "¿Cuál es el umbral de importe neto de la cifra de negocios que, con requisitos legales, permite exención del IAE a ciertas entidades?",
+      "opciones": [
+        "500.000 €",
+        "Inferior a 1.000.000 €",
+        "Inferior a 5.000.000 €",
+        "Cualquier importe"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 82.1.c: determinadas entidades están exentas cuando su cifra de negocios sea **inferior a 1.000.000 €** conforme a las reglas legales.",
+      "trampaExamen": "El umbral es **inferior a 1.000.000 €**, no igual o inferior.",
+      "referencia": "TRLRHL, art. 82.1.c · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-014",
+      "enunciado": "¿A quién corresponde el sujeto pasivo contribuyente del IVTM?",
+      "opciones": [
+        "Al conductor habitual",
+        "Al comprador de cualquier vehículo no matriculado",
+        "A la persona o entidad a cuyo nombre conste el vehículo en el permiso de circulación",
+        "A la aseguradora"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 94 TRLRHL: contribuyente es la persona o entidad a cuyo nombre conste el vehículo en el permiso de circulación.",
+      "trampaExamen": "El **titular del permiso de circulación** no equivale necesariamente al conductor habitual.",
+      "referencia": "TRLRHL, art. 94 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-015",
+      "enunciado": "¿Qué vehículos no están sujetos al IVTM conforme al art. 92.3?",
+      "opciones": [
+        "Todos los vehículos eléctricos",
+        "Todos los vehículos de empresa",
+        "Todos los tractores agrícolas",
+        "Vehículos dados de baja por antigüedad que sean autorizados excepcionalmente para circular en exhibiciones, certámenes o carreras limitadas a los de esta naturaleza"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El art. 92.3 recoge este supuesto específico de no sujeción, junto a remolques de carga útil no superior a 750 kg.",
+      "trampaExamen": "**No sujeción** no equivale a **exención**.",
+      "referencia": "TRLRHL, art. 92.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-016",
+      "enunciado": "¿Quién es contribuyente del IIVTNU en una transmisión lucrativa de terreno urbano?",
+      "opciones": [
+        "El adquirente o beneficiario",
+        "El transmitente siempre",
+        "El notario",
+        "La oficina del Catastro"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 106.1.a: en transmisiones lucrativas, es sujeto pasivo quien adquiere el terreno o en cuyo favor se constituye o transmite el derecho real.",
+      "trampaExamen": "En **donación/herencia**, el sujeto pasivo es el **adquirente**; en venta normalmente **transmitente**.",
+      "referencia": "TRLRHL, art. 106.1.a · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-017",
+      "enunciado": "¿Cuál es el sujeto pasivo en una transmisión onerosa de terreno urbano cuando el transmitente es persona física no residente en España?",
+      "opciones": [
+        "El transmitente en todo caso como único obligado",
+        "El adquirente como sustituto del contribuyente",
+        "El banco que financia",
+        "La diputación provincial obligatoriamente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 106.2: en supuestos del apartado 1.b con contribuyente persona física no residente en España, tiene consideración de sustituto el adquirente.",
+      "trampaExamen": "La sustitución se prevé para el **transmitente persona física no residente**.",
+      "referencia": "TRLRHL, art. 106.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-018",
+      "enunciado": "¿Qué ocurre con el IIVTNU si se constata que no existió incremento de valor, según los requisitos del art. 104.5?",
+      "opciones": [
+        "Se aplica gravamen fijo del 10 %",
+        "Solo se reduce un 25 %",
+        "No existe sujeción al impuesto",
+        "Se tributa siempre por el valor catastral"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 104.5: no hay sujeción cuando se constate inexistencia de incremento de valor conforme al método de contraste legal.",
+      "trampaExamen": "No confundir **inexistencia de incremento/no sujeción** y una exención o bonificación.",
+      "referencia": "TRLRHL, art. 104.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-019",
+      "enunciado": "¿Qué plazo de exposición pública mínima establece el art. 17.1 TRLRHL para acuerdos provisionales de ordenanzas fiscales?",
+      "opciones": [
+        "10 días",
+        "15 días",
+        "20 días",
+        "30 días"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El acuerdo provisional se expondrá durante **30 días como mínimo** para examen y reclamaciones por interesados.",
+      "trampaExamen": "Plazo mínimo de **30 días**; no son **30 días hábiles** expresamente en el precepto.",
+      "referencia": "TRLRHL, art. 17.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-020",
+      "enunciado": "¿Qué recurso ordinario procede contra las ordenanzas fiscales una vez publicadas conforme al art. 19 TRLRHL?",
+      "opciones": [
+        "Recurso contencioso-administrativo ante la jurisdicción competente",
+        "Reposición administrativa obligatoria contra ordenanza",
+        "Recurso de alzada ante diputación",
+        "Revisión por la Junta Electoral"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 19.1: contra las ordenanzas fiscales cabe recurso contencioso-administrativo a partir de su publicación.",
+      "trampaExamen": "Distinguir impugnación de **ordenanza fiscal** e impugnación de **acto de aplicación**.",
+      "referencia": "TRLRHL, art. 19.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     }
   ],
   "auditoria": {
