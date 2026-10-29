@@ -328,3 +328,22 @@ RECAUDACIÓN TRIBUTARIA LOCAL
 ```
 
 > ⚠️ **¡Foco Examen!:** La secuencia correcta es vencimiento voluntario → periodo ejecutivo → providencia de apremio → embargo → enajenación. No todos esos hitos se producen simultáneamente.
+
+## 17. Auditoría de recargos y plazos de apremio — **29/10/2026**
+
+| Supuesto | Regla exacta | Ley 58/2003 |
+|---|---|---|
+| Pago completo antes de notificarse providencia de apremio | **Recargo ejecutivo del 5 %** | **Art. 28.2** |
+| Pago de deuda y recargo dentro del plazo del art. 62.5 | **Recargo de apremio reducido del 10 %** | **Art. 28.3** |
+| Fuera de condiciones anteriores | **Recargo de apremio ordinario del 20 %**, compatible con intereses de demora | **Art. 28.4–5** |
+| Providencia notificada entre días **1 y 15** | Pago hasta día **20 del mismo mes**, o inmediato hábil | **Art. 62.5.a** |
+| Providencia notificada entre días **16 y último** | Pago hasta día **5 del mes siguiente**, o inmediato hábil | **Art. 62.5.b** |
+| Solicitud de aplazamiento en periodo voluntario | Impide inicio del ejecutivo mientras se tramita, sin impedir intereses | **Art. 65.5** |
+| Prescripción general para solicitar devolución | **4 años** | **Art. 66.c** |
+| Inicio del procedimiento de apremio | **Notificación** de la **providencia de apremio** | **Art. 167.1** |
+
+> ⚠️ **¡Foco Examen!:** Los recargos del periodo ejecutivo son **5 %, 10 % y 20 %**; el **20 %** ordinario puede acumular intereses de demora, mientras que los recargos del **5 % y 10 %** son incompatibles con ellos en los términos legales.
+
+> ⚠️ **¡Foco Examen!:** No confundir la liquidación notificada el día **10** (voluntaria hasta **20 del mes siguiente**) con la **providencia de apremio** notificada el mismo día (hasta **20 del mismo mes**).
+
+**Fuentes BOE comprobadas:** [Ley 58/2003](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186), [TRLRHL (actualización 07/10/2026)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). Banco ampliado a **20 preguntas**; pendiente auditoría integral y comprobación de integración web.
