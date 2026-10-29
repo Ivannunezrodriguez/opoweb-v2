@@ -1,11 +1,16 @@
 {
   "tema": 3,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T03-001",
       "pregunta": "¿En quién reside la soberanía nacional según la Constitución Española?",
-      "opciones": ["En las Cortes Generales", "En el Rey", "En el pueblo español", "En el Gobierno"],
+      "opciones": [
+        "En las Cortes Generales",
+        "En el Rey",
+        "En el pueblo español",
+        "En el Gobierno"
+      ],
       "correcta": 2,
       "justificacion": "El artículo 1.2 de la Constitución establece que la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.",
       "trampa": "No debe confundirse el órgano que representa al pueblo, las Cortes Generales, con el titular de la soberanía, que es el pueblo español.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T03-002",
       "pregunta": "¿Cuál es la forma política del Estado español?",
-      "opciones": ["República parlamentaria", "Monarquía constitucional", "Monarquía parlamentaria", "Monarquía federal"],
+      "opciones": [
+        "República parlamentaria",
+        "Monarquía constitucional",
+        "Monarquía parlamentaria",
+        "Monarquía federal"
+      ],
       "correcta": 2,
       "justificacion": "La Constitución define expresamente la forma política del Estado español como Monarquía parlamentaria, no como mera monarquía constitucional.",
       "trampa": "La expresión literal exigible es Monarquía parlamentaria; otras fórmulas próximas suelen utilizarse como distractores.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T03-003",
       "pregunta": "¿Qué entidades integran la organización territorial del Estado del artículo 137?",
-      "opciones": ["Municipios, provincias y comunidades autónomas", "Municipios, comarcas y provincias", "Provincias, islas y regiones", "Municipios, diputaciones y comunidades autónomas"],
+      "opciones": [
+        "Municipios, provincias y comunidades autónomas",
+        "Municipios, comarcas y provincias",
+        "Provincias, islas y regiones",
+        "Municipios, diputaciones y comunidades autónomas"
+      ],
       "correcta": 0,
       "justificacion": "El artículo 137 organiza territorialmente el Estado en municipios, provincias y comunidades autónomas que se constituyan, todas con autonomía para gestionar sus intereses.",
       "trampa": "Las diputaciones son órganos de gobierno provincial, pero no aparecen como categoría territorial autónoma en el artículo 137.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T03-004",
       "pregunta": "¿Quién asume la responsabilidad de los actos del Rey que requieren refrendo?",
-      "opciones": ["El propio Rey", "Las Cortes Generales", "Quien los refrenda", "El Tribunal Constitucional"],
+      "opciones": [
+        "El propio Rey",
+        "Las Cortes Generales",
+        "Quien los refrenda",
+        "El Tribunal Constitucional"
+      ],
       "correcta": 2,
       "justificacion": "La persona del Rey es inviolable y no está sujeta a responsabilidad; la responsabilidad de sus actos recae en quienes los refrendan.",
       "trampa": "El refrendo no es una formalidad vacía: desplaza la responsabilidad política y jurídica al órgano refrendante.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T03-005",
       "pregunta": "¿Cuál de las siguientes funciones corresponde al Rey?",
-      "opciones": ["Aprobar definitivamente los Presupuestos", "Sancionar y promulgar las leyes", "Ejercer la potestad legislativa", "Nombrar libremente a los ministros"],
+      "opciones": [
+        "Aprobar definitivamente los Presupuestos",
+        "Sancionar y promulgar las leyes",
+        "Ejercer la potestad legislativa",
+        "Nombrar libremente a los ministros"
+      ],
       "correcta": 1,
       "justificacion": "Corresponde al Rey sancionar y promulgar las leyes. Los ministros son nombrados y separados por el Rey a propuesta del Presidente del Gobierno.",
       "trampa": "El Rey nombra a los ministros, pero no libremente: necesita la propuesta del Presidente del Gobierno.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T03-006",
       "pregunta": "¿Cuál es el número constitucional de diputados del Congreso?",
-      "opciones": ["Entre 250 y 350", "Exactamente 350", "Entre 300 y 400", "Entre 350 y 450"],
+      "opciones": [
+        "Entre 250 y 350",
+        "Exactamente 350",
+        "Entre 300 y 400",
+        "Entre 350 y 450"
+      ],
       "correcta": 2,
       "justificacion": "La Constitución fija que el Congreso se compone de un mínimo de 300 y un máximo de 400 diputados, aunque la legislación electoral concreta actualmente 350.",
       "trampa": "No confundir el rango constitucional de 300 a 400 con la cifra legal vigente de 350 diputados.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T03-007",
       "pregunta": "¿Cuántos senadores se eligen en cada provincia peninsular?",
-      "opciones": ["Dos", "Tres", "Cuatro", "Cinco"],
+      "opciones": [
+        "Dos",
+        "Tres",
+        "Cuatro",
+        "Cinco"
+      ],
       "correcta": 2,
       "justificacion": "La regla general constitucional es la elección de cuatro senadores por cada provincia, con especialidades para islas, Ceuta y Melilla.",
       "trampa": "La cifra de cuatro es la regla provincial general; los territorios insulares y las ciudades autónomas tienen reglas específicas.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T03-008",
       "pregunta": "¿Qué garantía parlamentaria impide detener a un diputado o senador salvo en caso de flagrante delito?",
-      "opciones": ["Inviolabilidad", "Inmunidad", "Aforamiento", "Independencia"],
+      "opciones": [
+        "Inviolabilidad",
+        "Inmunidad",
+        "Aforamiento",
+        "Independencia"
+      ],
       "correcta": 1,
       "justificacion": "La inmunidad parlamentaria protege frente a la detención, salvo flagrante delito. La inviolabilidad se refiere a opiniones manifestadas en el ejercicio de las funciones.",
       "trampa": "Inviolabilidad protege opiniones; inmunidad limita detención y procesamiento. Son conceptos distintos y muy preguntados.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T03-009",
       "pregunta": "¿Cuál es el mínimo de miembros de cada Diputación Permanente?",
-      "opciones": ["15", "20", "21", "25"],
+      "opciones": [
+        "15",
+        "20",
+        "21",
+        "25"
+      ],
       "correcta": 2,
       "justificacion": "Cada Cámara dispone de una Diputación Permanente compuesta por un mínimo de 21 miembros, representativos de los grupos parlamentarios.",
       "trampa": "La Constitución fija un mínimo de 21 miembros, no una composición cerrada de exactamente 21.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T03-010",
       "pregunta": "¿Qué mayoría se exige para elegir al Defensor del Pueblo?",
-      "opciones": ["Mayoría absoluta del Congreso y simple del Senado", "Tres quintos del Congreso y tres quintos del Senado", "Dos tercios de ambas Cámaras", "Mayoría simple de ambas Cámaras"],
+      "opciones": [
+        "Mayoría absoluta del Congreso y simple del Senado",
+        "Tres quintos del Congreso y tres quintos del Senado",
+        "Dos tercios de ambas Cámaras",
+        "Mayoría simple de ambas Cámaras"
+      ],
       "correcta": 1,
       "justificacion": "La elección requiere mayoría de tres quintos del Congreso y posterior ratificación por mayoría de tres quintos del Senado.",
       "trampa": "La mayoría es idéntica en ambas Cámaras: tres quintos. No se sustituye por mayoría absoluta en ninguna fase ordinaria.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T03-011",
       "pregunta": "¿Cuánto dura el mandato del Defensor del Pueblo?",
-      "opciones": ["Tres años", "Cuatro años", "Cinco años", "Nueve años"],
+      "opciones": [
+        "Tres años",
+        "Cuatro años",
+        "Cinco años",
+        "Nueve años"
+      ],
       "correcta": 2,
       "justificacion": "El Defensor del Pueblo es elegido por las Cortes Generales para un periodo de cinco años, independiente de la duración ordinaria de las legislaturas.",
       "trampa": "No confundir los cinco años del Defensor con los cuatro años de Congreso y Senado ni con los nueve de los consejeros de Cuentas.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T03-012",
       "pregunta": "¿Cuál es la composición del Tribunal de Cuentas?",
-      "opciones": ["10 consejeros por seis años", "12 consejeros por nueve años", "12 magistrados por cinco años", "15 consejeros por nueve años"],
+      "opciones": [
+        "10 consejeros por seis años",
+        "12 consejeros por nueve años",
+        "12 magistrados por cinco años",
+        "15 consejeros por nueve años"
+      ],
       "correcta": 1,
       "justificacion": "El Tribunal de Cuentas está integrado por 12 consejeros, seis designados por cada Cámara, por mayoría de tres quintos y para nueve años.",
       "trampa": "El mandato de los consejeros es de nueve años, mientras que el Presidente del Tribunal lo es por tres años.",
       "referencia": "content/diputacion-toledo/tema-03/manual.md#8-tribunal-de-cuentas"
+    },
+    {
+      "id": "DIP-T03-013",
+      "pregunta": "¿Qué órgano ejerce la potestad legislativa del Estado?",
+      "opciones": [
+        "El Gobierno",
+        "Las Cortes Generales",
+        "El Tribunal de Cuentas",
+        "El Consejo de Estado"
+      ],
+      "correcta": 1,
+      "justificacion": "Las **Cortes Generales** ejercen la potestad legislativa del Estado, aprueban sus Presupuestos y controlan la acción del Gobierno.",
+      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
+      "referencia": "CE art. 66.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T03-014",
+      "pregunta": "¿Cuál es la duración ordinaria del mandato de los diputados del Congreso?",
+      "opciones": [
+        "Dos años",
+        "Tres años",
+        "Cuatro años",
+        "Seis años"
+      ],
+      "correcta": 2,
+      "justificacion": "El Congreso se elige por **cuatro años**; el mandato termina cuatro años después de la elección o el día de disolución.",
+      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
+      "referencia": "CE art. 68.4 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T03-015",
+      "pregunta": "¿Cuál es la duración ordinaria del mandato de los senadores?",
+      "opciones": [
+        "Cinco años",
+        "Cuatro años",
+        "Tres años",
+        "Seis años"
+      ],
+      "correcta": 1,
+      "justificacion": "El Senado se elige por **cuatro años**, sin perjuicio de la disolución de la Cámara.",
+      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
+      "referencia": "CE art. 69.6 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T03-016",
+      "pregunta": "¿Qué carácter tienen las Cortes Generales según la Constitución?",
+      "opciones": [
+        "Unicameral",
+        "Bicameral, formadas por Congreso y Senado",
+        "Tres cámaras",
+        "Asamblea consultiva"
+      ],
+      "correcta": 1,
+      "justificacion": "Las **Cortes Generales** están formadas por **Congreso de los Diputados** y **Senado**.",
+      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
+      "referencia": "CE art. 66.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T03-017",
+      "pregunta": "¿Quién ejerce la más alta inspección de la Administración del Estado de acuerdo con el artículo 54 CE?",
+      "opciones": [
+        "El Defensor del Pueblo en el ámbito de sus funciones",
+        "El Tribunal Supremo exclusivamente",
+        "El Senado exclusivamente",
+        "El Banco de España"
+      ],
+      "correcta": 0,
+      "justificacion": "El **Defensor del Pueblo** puede supervisar la actividad de la Administración y dar cuenta a las **Cortes Generales**; el precepto no le atribuye dirección jerárquica sobre ella.",
+      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
+      "referencia": "CE art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T03-018",
+      "pregunta": "¿Qué órgano es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público?",
+      "opciones": [
+        "La Intervención General de la Administración del Estado",
+        "El Defensor del Pueblo",
+        "El Tribunal de Cuentas",
+        "El Consejo General del Poder Judicial"
+      ],
+      "correcta": 2,
+      "justificacion": "El **Tribunal de Cuentas** es el supremo órgano fiscalizador de las cuentas y de la gestión económica del Estado y del sector público.",
+      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
+      "referencia": "CE art. 136.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T03-019",
+      "pregunta": "¿Quién nombra al Presidente del Tribunal de Cuentas según la Ley Orgánica 2/1982?",
+      "opciones": [
+        "El Rey, de entre sus miembros, a propuesta del Tribunal en Pleno",
+        "El Gobierno sin propuesta",
+        "El Senado por mayoría simple",
+        "El Congreso por sorteo"
+      ],
+      "correcta": 0,
+      "justificacion": "El **Presidente del Tribunal de Cuentas** es nombrado por el **Rey** entre sus miembros a propuesta del **Tribunal en Pleno**.",
+      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
+      "referencia": "LO 2/1982 art. 29 · https://www.boe.es/buscar/act.php?id=BOE-A-1982-11584"
+    },
+    {
+      "id": "DIP-T03-020",
+      "pregunta": "¿Qué regla general rige la inviolabilidad del Rey?",
+      "opciones": [
+        "Sus actos siempre necesitan refrendo del Tribunal Constitucional",
+        "La persona del Rey es inviolable y no está sujeta a responsabilidad",
+        "El Rey responde políticamente ante el Senado",
+        "El Rey solo responde ante tribunales autonómicos"
+      ],
+      "correcta": 1,
+      "justificacion": "La persona del **Rey** es inviolable y no está sujeta a responsabilidad. Sus actos estarán siempre refrendados según el artículo 64, salvo lo dispuesto en el artículo 65.2.",
+      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
+      "referencia": "CE art. 56.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     }
   ]
 }
