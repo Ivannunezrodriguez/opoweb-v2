@@ -1,11 +1,16 @@
 {
   "tema": 16,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T16-001",
       "pregunta": "En una entidad local, ¿qué norma constituye la regulación básica general de la contratación pública?",
-      "opciones": ["La Ley 7/1985 exclusivamente", "La Ley 9/2017, de Contratos del Sector Público", "El Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales", "La Ley 39/2015"],
+      "opciones": [
+        "La Ley 7/1985 exclusivamente",
+        "La Ley 9/2017, de Contratos del Sector Público",
+        "El Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales",
+        "La Ley 39/2015"
+      ],
       "correcta": 1,
       "justificacion": "La contratación de las entidades locales se somete principalmente a la Ley 9/2017, de Contratos del Sector Público, completada por las especialidades del régimen local.",
       "trampa": "No debe confundirse la normativa organizativa local con la norma contractual básica.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T16-002",
       "pregunta": "Con carácter general, el Alcalde o Presidente es órgano de contratación cuando el valor estimado no supera:",
-      "opciones": ["El 5 % de los recursos ordinarios y 3.000.000 €", "El 10 % de los recursos ordinarios y, en todo caso, 6.000.000 €", "El 15 % de los recursos ordinarios sin límite absoluto", "El 20 % de los recursos ordinarios y 12.000.000 €"],
+      "opciones": [
+        "El 5 % de los recursos ordinarios y 3.000.000 €",
+        "El 10 % de los recursos ordinarios y, en todo caso, 6.000.000 €",
+        "El 15 % de los recursos ordinarios sin límite absoluto",
+        "El 20 % de los recursos ordinarios y 12.000.000 €"
+      ],
       "correcta": 1,
       "justificacion": "La disposición adicional segunda de la Ley 9/2017 atribuye la competencia al Alcalde o Presidente cuando el valor estimado no supera el 10 % de los recursos ordinarios del presupuesto ni, en ningún caso, 6.000.000 de euros.",
       "trampa": "La regla combina un límite porcentual y otro absoluto; deben cumplirse ambos.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T16-003",
       "pregunta": "La mesa de contratación en una entidad local:",
-      "opciones": ["Adjudica siempre el contrato", "Sustituye al órgano de contratación", "Es un órgano de asistencia técnica especializada", "Solo existe en contratos de obras"],
+      "opciones": [
+        "Adjudica siempre el contrato",
+        "Sustituye al órgano de contratación",
+        "Es un órgano de asistencia técnica especializada",
+        "Solo existe en contratos de obras"
+      ],
       "correcta": 2,
       "justificacion": "La mesa de contratación es un órgano de asistencia técnica especializada que formula propuestas al órgano de contratación, pero no adjudica por sí misma.",
       "trampa": "La propuesta de la mesa no equivale a la decisión final de adjudicación.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T16-004",
       "pregunta": "¿Qué magnitud se calcula, con carácter general, sin incluir el IVA?",
-      "opciones": ["El presupuesto base de licitación", "El valor estimado del contrato", "La factura final", "La certificación de obra"],
+      "opciones": [
+        "El presupuesto base de licitación",
+        "El valor estimado del contrato",
+        "La factura final",
+        "La certificación de obra"
+      ],
       "correcta": 1,
       "justificacion": "El valor estimado del contrato se calcula sin IVA, mientras que el presupuesto base de licitación incluye el IVA como partida independiente.",
       "trampa": "No deben intercambiarse valor estimado y presupuesto base de licitación.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T16-005",
       "pregunta": "La adjudicación de los contratos públicos se basa, como regla general, en:",
-      "opciones": ["La oferta de menor precio necesariamente", "La antigüedad de la empresa", "La mejor relación calidad-precio", "La proximidad territorial del licitador"],
+      "opciones": [
+        "La oferta de menor precio necesariamente",
+        "La antigüedad de la empresa",
+        "La mejor relación calidad-precio",
+        "La proximidad territorial del licitador"
+      ],
       "correcta": 2,
       "justificacion": "La Ley 9/2017 establece como regla general la adjudicación mediante una pluralidad de criterios basada en la mejor relación calidad-precio.",
       "trampa": "La oferta económicamente más barata no resulta adjudicataria de forma automática.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T16-006",
       "pregunta": "La garantía definitiva ordinaria asciende, con carácter general, al:",
-      "opciones": ["3 % del presupuesto base con IVA", "5 % del precio final ofertado, excluido el IVA", "10 % del valor estimado", "5 % del presupuesto base con IVA"],
+      "opciones": [
+        "3 % del presupuesto base con IVA",
+        "5 % del precio final ofertado, excluido el IVA",
+        "10 % del valor estimado",
+        "5 % del presupuesto base con IVA"
+      ],
       "correcta": 1,
       "justificacion": "La garantía definitiva ordinaria equivale al 5 % del precio final ofertado por el licitador, excluido el IVA.",
       "trampa": "La base de cálculo no es el presupuesto base de licitación y no incluye el IVA.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T16-007",
       "pregunta": "Cuando el contrato es susceptible de recurso especial, la formalización no puede efectuarse antes de que transcurran:",
-      "opciones": ["10 días naturales", "15 días hábiles", "20 días hábiles", "1 mes"],
+      "opciones": [
+        "10 días naturales",
+        "15 días hábiles",
+        "20 días hábiles",
+        "1 mes"
+      ],
       "correcta": 1,
       "justificacion": "En contratos susceptibles de recurso especial, la formalización no puede efectuarse antes de que transcurran 15 días hábiles desde la remisión de la notificación de adjudicación.",
       "trampa": "El plazo se expresa en días hábiles, no naturales.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T16-008",
       "pregunta": "Las modificaciones previstas en los pliegos pueden alcanzar acumuladamente, como máximo general:",
-      "opciones": ["El 10 % del precio inicial", "El 15 % del precio inicial", "El 20 % del precio inicial", "El 25 % del valor estimado"],
+      "opciones": [
+        "El 10 % del precio inicial",
+        "El 15 % del precio inicial",
+        "El 20 % del precio inicial",
+        "El 25 % del valor estimado"
+      ],
       "correcta": 2,
       "justificacion": "Las modificaciones previstas de forma clara, precisa e inequívoca en los pliegos pueden alcanzar, como máximo acumulado, el 20 % del precio inicial.",
       "trampa": "Este límite no debe confundirse con los requisitos y porcentajes aplicables a modificaciones no previstas.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T16-009",
       "pregunta": "Para la revisión periódica y predeterminada de precios, la regla general exige:",
-      "opciones": ["10 % ejecutado y 1 año", "20 % ejecutado y 2 años desde la formalización", "25 % ejecutado y 3 años", "Que el contrato esté íntegramente ejecutado"],
+      "opciones": [
+        "10 % ejecutado y 1 año",
+        "20 % ejecutado y 2 años desde la formalización",
+        "25 % ejecutado y 3 años",
+        "Que el contrato esté íntegramente ejecutado"
+      ],
       "correcta": 1,
       "justificacion": "Como regla general, debe haberse ejecutado al menos el 20 % del importe del contrato y haber transcurrido 2 años desde su formalización.",
       "trampa": "Los dos requisitos son acumulativos y no deben reducirse sus umbrales.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T16-010",
       "pregunta": "La suspensión del contrato:",
-      "opciones": ["Extingue siempre el contrato", "Nunca genera indemnización", "Debe documentarse en acta y puede generar indemnización", "Solo puede acordarla el contratista"],
+      "opciones": [
+        "Extingue siempre el contrato",
+        "Nunca genera indemnización",
+        "Debe documentarse en acta y puede generar indemnización",
+        "Solo puede acordarla el contratista"
+      ],
       "correcta": 2,
       "justificacion": "La suspensión es una paralización temporal que debe documentarse en acta y puede generar indemnización por los daños efectivamente sufridos y acreditados.",
       "trampa": "La suspensión no equivale a la resolución ni extingue automáticamente el contrato.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T16-011",
       "pregunta": "Los contratos se extinguen por:",
-      "opciones": ["Caducidad y desistimiento exclusivamente", "Cumplimiento o resolución", "Solo por cumplimiento", "Solo por mutuo acuerdo"],
+      "opciones": [
+        "Caducidad y desistimiento exclusivamente",
+        "Cumplimiento o resolución",
+        "Solo por cumplimiento",
+        "Solo por mutuo acuerdo"
+      ],
       "correcta": 1,
       "justificacion": "La Ley 9/2017 establece como formas generales de extinción de los contratos el cumplimiento y la resolución.",
       "trampa": "La extinción contractual no se reduce a una sola causa ni al mutuo acuerdo.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T16-012",
       "pregunta": "Con carácter general, la Administración debe abonar el precio dentro de:",
-      "opciones": ["15 días", "20 días", "30 días", "60 días"],
+      "opciones": [
+        "15 días",
+        "20 días",
+        "30 días",
+        "60 días"
+      ],
       "correcta": 2,
       "justificacion": "La Administración debe abonar el precio dentro de los 30 días siguientes a la aprobación de la certificación de obra o del documento que acredite la conformidad con la prestación.",
       "trampa": "No debe confundirse el plazo de pago con los de recepción, adjudicación o formalización.",
       "referencia": "content/diputacion-toledo/tema-16/manual.md#81-pago"
+    },
+    {
+      "id": "DIP-T16-013",
+      "pregunta": "En contratos de obras, servicios y suministros, ¿cuál es la cuantía ordinaria de la garantía definitiva?",
+      "opciones": [
+        "El 3 % del presupuesto base, IVA incluido",
+        "El 5 % del precio final ofertado, excluido el IVA",
+        "El 10 % del valor estimado",
+        "El 5 % del presupuesto total con IVA"
+      ],
+      "correcta": 1,
+      "justificacion": "La garantía definitiva ordinaria es del **5 % del precio final ofertado, IVA excluido**.",
+      "trampa": "Distinguir precio, valor estimado, plazo y órgano competente.",
+      "referencia": "Ley 9/2017, art. 107 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    },
+    {
+      "id": "DIP-T16-014",
+      "pregunta": "¿Qué órgano de una entidad local resulta competente cuando el contrato excede los límites ordinarios atribuidos a la Alcaldía o Presidencia?",
+      "opciones": [
+        "La Secretaría municipal",
+        "La Intervención",
+        "El Pleno, conforme a la disposición adicional segunda de la LCSP",
+        "El Tribunal de Cuentas"
+      ],
+      "correcta": 2,
+      "justificacion": "Corresponde al **Pleno** contratar cuando el valor o duración no corresponde a Alcaldía/Presidencia, sin perjuicio de regímenes especiales.",
+      "trampa": "Distinguir precio, valor estimado, plazo y órgano competente.",
+      "referencia": "Ley 9/2017, DA 2.ª, ap. 2 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    },
+    {
+      "id": "DIP-T16-015",
+      "pregunta": "¿Cuál es el límite porcentual general de las modificaciones previstas expresamente en el pliego?",
+      "opciones": [
+        "10 % del IVA",
+        "15 % del precio inicial",
+        "25 % del valor estimado",
+        "20 % del precio inicial"
+      ],
+      "correcta": 3,
+      "justificacion": "Las modificaciones previstas no podrán superar el **20 % del precio inicial del contrato**.",
+      "trampa": "Distinguir precio, valor estimado, plazo y órgano competente.",
+      "referencia": "Ley 9/2017, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    },
+    {
+      "id": "DIP-T16-016",
+      "pregunta": "¿En qué plazo debe, como regla general, la Administración abonar el precio tras la aprobación de la certificación de obra o documento de conformidad?",
+      "opciones": [
+        "30 días",
+        "10 días",
+        "60 días",
+        "3 meses"
+      ],
+      "correcta": 0,
+      "justificacion": "La Administración debe pagar dentro de los **30 días** siguientes a la aprobación de certificaciones o documentos de conformidad, con matices legales.",
+      "trampa": "Distinguir precio, valor estimado, plazo y órgano competente.",
+      "referencia": "Ley 9/2017, art. 198 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    },
+    {
+      "id": "DIP-T16-017",
+      "pregunta": "¿Qué ocurre con la formalización de un contrato susceptible de recurso especial en materia de contratación?",
+      "opciones": [
+        "Se formaliza al día siguiente de adjudicar",
+        "No antes de transcurridos 15 días hábiles desde la remisión de la notificación de adjudicación",
+        "Debe esperar siempre seis meses",
+        "Nunca necesita formalización"
+      ],
+      "correcta": 1,
+      "justificacion": "La formalización no puede efectuarse antes de **15 días hábiles** desde la remisión de la notificación de adjudicación.",
+      "trampa": "Distinguir precio, valor estimado, plazo y órgano competente.",
+      "referencia": "Ley 9/2017, art. 153 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    },
+    {
+      "id": "DIP-T16-018",
+      "pregunta": "¿Qué procedimiento de adjudicación permite presentar proposiciones a cualquier empresario interesado y excluye negociación contractual?",
+      "opciones": [
+        "El negociado sin publicidad",
+        "El procedimiento restringido",
+        "El procedimiento abierto",
+        "La contratación menor"
+      ],
+      "correcta": 2,
+      "justificacion": "En el **procedimiento abierto**, todo empresario interesado puede presentar una proposición y se excluye negociar sus términos.",
+      "trampa": "Distinguir precio, valor estimado, plazo y órgano competente.",
+      "referencia": "Ley 9/2017, art. 156 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    },
+    {
+      "id": "DIP-T16-019",
+      "pregunta": "¿Qué regla general se aplica al cálculo del valor estimado de un contrato?",
+      "opciones": [
+        "Siempre incluye el IVA",
+        "Solo comprende el precio de adjudicación",
+        "Excluye las prórrogas",
+        "Se calcula sin IVA, teniendo en cuenta prórrogas y modificaciones previstas en los términos legales"
+      ],
+      "correcta": 3,
+      "justificacion": "El valor estimado se determina **sin IVA** y considera prórrogas y modificaciones previstas según el artículo 101.",
+      "trampa": "Distinguir precio, valor estimado, plazo y órgano competente.",
+      "referencia": "Ley 9/2017, art. 101 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    },
+    {
+      "id": "DIP-T16-020",
+      "pregunta": "¿Cuáles son las dos formas generales de extinción de los contratos administrativos?",
+      "opciones": [
+        "Cumplimiento y resolución",
+        "Prescripción y caducidad únicamente",
+        "Revocación y abstención",
+        "Renuncia y desistimiento administrativo exclusivamente"
+      ],
+      "correcta": 0,
+      "justificacion": "Con arreglo al artículo 209, los contratos se extinguen por su **cumplimiento** o por **resolución**.",
+      "trampa": "Distinguir precio, valor estimado, plazo y órgano competente.",
+      "referencia": "Ley 9/2017, art. 209 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     }
   ]
 }
