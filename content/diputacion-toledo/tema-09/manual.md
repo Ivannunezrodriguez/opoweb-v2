@@ -322,3 +322,20 @@ ADMINISTRACIÓN ELECTRÓNICA
    ├─ seguridad
    └─ protección de datos
 ```
+
+
+## 17. Control actualizado de medios electrónicos — **29/10/2026**
+
+| Concepto | Regla | Fuente |
+|---|---|---|
+| Personas físicas | Eligen el canal salvo obligación legal o reglamentaria | **Ley 39/2015, art. 14.1** |
+| Personas jurídicas | Relación electrónica obligatoria | **Ley 39/2015, art. 14.2.a** |
+| Solicitud en papel de persona obligada | Requerimiento de presentación electrónica; fecha de esta subsanación | **Ley 39/2015, art. 68.4** |
+| Aviso por correo o dispositivo | Su ausencia no invalida la notificación | **Ley 39/2015, art. 41.6** |
+| Notificación electrónica obligatoria no abierta | Rechazo transcurridos **10 días naturales** desde puesta a disposición | **Ley 39/2015, art. 43.2** |
+| Interposición de recursos | Exige firma | **Ley 39/2015, art. 11.2** |
+| Sede electrónica | Titularidad pública y responsabilidad conforme a ley | **Ley 40/2015, art. 38** |
+
+> ⚠️ **¡Foco Examen!:** El **aviso** de una notificación no es la **notificación**. No recibir un correo de aviso no anula por sí solo la notificación correctamente puesta a disposición.
+
+**Verificación documental:** [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [Real Decreto 203/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032). Banco ampliado a **20 preguntas**. Aún pendiente auditoría integral y prueba funcional del portal.
