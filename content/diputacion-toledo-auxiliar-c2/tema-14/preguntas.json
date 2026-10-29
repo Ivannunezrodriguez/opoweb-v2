@@ -1,8 +1,8 @@
 {
   "tema": 14,
   "estado": "BANCO_20_PREGUNTAS_REVISION_DOCUMENTAL",
-  "version": "2026-10-29",
-  "criterio": "20 preguntas con soluciones y fuentes eIDAS, Ley 6/2020 y Ley 39/2015; pendiente comprobación final de todos los enlaces y funcionamiento de interfaz.",
+  "version": "2026-10-29-correccion",
+  "criterio": "20 preguntas, con corrección material de la 020: el art. 10 regula responsabilidad del prestador, no servicio público de consulta de validez. Auditoría de resto de contenidos aún pendiente.",
   "preguntas": [
     {
       "id": "DT-C2-T14-001",
@@ -272,17 +272,17 @@
     },
     {
       "id": "DT-C2-T14-020",
-      "enunciado": "¿Cuál es una obligación del prestador que emite certificados prevista en la Ley 6/2020?",
+      "enunciado": "Según el artículo 10 de la Ley 6/2020, ¿quién responde ante terceros por las funciones que un prestador delegue en otras personas o prestadores?",
       "opciones": [
-        "Publicar claves privadas",
-        "Ofrecer consulta pública del estado de validez o revocación",
-        "Garantizar contraseña idéntica de usuarios",
-        "Emitir siempre certificados perpetuos"
+        "Exclusivamente la persona subcontratada",
+        "El prestador de servicios electrónicos de confianza que haya delegado esas funciones",
+        "Únicamente la autoridad de registro",
+        "Los usuarios del certificado por partes iguales"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Art. 10.2 Ley 6/2020: servicio público de consulta del estado de validez o revocación de certificados emitidos.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+      "justificacion": "El **artículo 10 de la Ley 6/2020** establece la responsabilidad del **prestador de servicios electrónicos de confianza** ante terceros por la actuación de personas u otros prestadores en quienes delegue funciones necesarias para prestar el servicio.",
+      "trampaExamen": "**Delegar funciones** no desplaza al subcontratado toda la responsabilidad frente a terceros: la ley la atribuye al **prestador de confianza**.",
+      "referencia": "Ley 6/2020, art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
     }
   ],
   "auditoria": {
