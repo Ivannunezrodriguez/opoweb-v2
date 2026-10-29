@@ -38,3 +38,12 @@ No se consideran verificados, y por tanto no se afirman como literales:
 ## Regla de actualización
 
 Cuando se obtenga el texto oficial íntegro del Acuerdo Regulador y de los Estatutos, deberán sustituirse las inferencias por contenido literal, auditarse todas las preguntas y actualizarse la matriz de cobertura.
+
+## Nuevas fuentes institucionales localizadas (29/10/2026)
+
+- [Portal de Transparencia: convenios y acuerdos laborales](https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes): incluye el **Acuerdo Regulador de 28/12/2023**, y modificaciones de **14/01/2025**, **16/01/2026** y **20/02/2026**.
+- [Ficha institucional del Acuerdo Regulador de 2023, BOP Toledo n.º 246](https://transparencia.diputoledo.es/t/normativa/2250).
+- [TREBEP, artículo 38](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719): distinción de Pactos y Acuerdos, aprobación y publicación.
+- [LRBRL, artículo 106](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): potestad tributaria y delegación.
+
+**Control de calidad:** enlaces y fichas localizados, pero textos íntegros de Acuerdo, modificaciones y Estatutos vigentes del OAPGT **no consultados aún**; prohibido atribuir cifras y cláusulas particulares como verificadas. **20 preguntas**, solo sobre extremos generales acreditables o sobre el estado de verificación.
