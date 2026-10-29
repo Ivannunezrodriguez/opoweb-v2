@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 19
 
-**ESTADO EDITORIAL: BORRADOR ESPECÍFICO PARCIAL, PENDIENTE DE AMPLIACIÓN Y AUDITORÍA FUNCIONAL.**
+**ESTADO EDITORIAL: CONTENIDO COMPLETO — AUDITORÍA DOCUMENTAL 29/10/2026. Prueba de interfaz pendiente.**
 
 ## 1. Epígrafe oficial literal
 
@@ -221,3 +221,54 @@ El separador de argumentos del ejemplo es **punto y coma**; puede depender de la
 **Caso D — tasa fija:** `=A2*$F$1` copiada de la fila **2** a la **3** da `=A3*$F$1`.
 
 > ⚠️ **¡Foco Examen!:** **21 % = 0,21**, no **21**, cuando participa en una multiplicación.
+
+
+## 9. Trabajo de oficina con datos: filtro, tabla dinámica y gráficos
+
+### 9.1. Datos tabulares correctos
+
+Una relación administrativa puede representarse mediante columnas **N.º de expediente**, **Unidad**, **Fecha**, **Importe** y **Estado**. Conviene utilizar una fila por expediente y encabezados de columna claros. No deben mezclarse filas de subtotales dentro del rango principal cuando se pretende ordenar, filtrar o construir una tabla dinámica.
+
+| Operación | Acción y efecto |
+|---|---|
+| **Ordenar** | Reordena los registros según uno o varios campos; seleccionar todas las columnas preserva su correspondencia |
+| **Autofiltro** | Muestra solo los registros que cumplen criterios; no elimina los ocultos |
+| **Validación** | Permite limitar la entrada a valores o intervalos configurados |
+| **Formato condicional** | Aplica un formato visual si se cumple una condición |
+| **Tabla dinámica** | Resume registros por categorías, por ejemplo suma de importes por unidad y trimestre |
+
+Para una tabla dinámica, partir de una lista continua con encabezados, definir los campos de filas y columnas y la operación de agregación (por ejemplo, suma). **Actualizar** la tabla dinámica cuando los datos fuente hayan cambiado y el resultado aún no los refleje.
+
+> ⚠️ **¡Foco Examen!:** **Ordenar** puede cambiar el orden de las filas; **filtrar** solo su visibilidad. Una **tabla dinámica** no equivale a aplicar bordes ni al simple autofiltro.
+
+### 9.2. Gráficos, impresión e intercambio
+
+A partir de un rango de datos se puede crear un gráfico de **columnas** para comparar categorías, **líneas** para evolución temporal o **sectores** para proporciones de un total. Se distinguen **serie de datos**, **leyenda**, **títulos** y **ejes**. Una selección errónea de filas o columnas altera el gráfico.
+
+Antes de imprimir deben comprobarse la **orientación**, el **área de impresión**, el **escalado**, los **saltos de página**, los encabezados y la vista previa. Al exportar a **PDF** se obtiene un documento de difusión que no es equivalente al libro de trabajo en **ODS**.
+
+| Formato | Empleo principal | Límite característico |
+|---|---|---|
+| **ODS** | Libro de Calc editable | Mantiene hojas, fórmulas y formato del documento |
+| **OTS** | Plantilla de hoja de cálculo | Sirve como base para crear documentos |
+| **CSV** | Intercambio de datos tabulares en texto | No conserva un libro completo con hojas, gráficos y estilos |
+| **PDF** | Publicación e impresión | No sustituye la edición del documento Calc |
+| **XLSX** | Intercambio con Microsoft Excel | Debe comprobarse la compatibilidad de funciones y formatos |
+
+> ⚠️ **¡Foco Examen!:** **CSV** no conserva las hojas y fórmulas como un libro **ODS**. Exportar **PDF** tampoco equivale a guardar un ODS editable.
+
+### 9.3. Protección y errores
+
+La protección de determinadas **celdas**, la protección de una **hoja** y la protección con contraseña de **apertura del archivo** son mecanismos distintos. Un error en una fórmula puede deberse a **división por cero**, **referencia no válida**, **nombre desconocido** o **tipo de dato incompatible**. Los códigos exactos para la versión estudiada se recogen en el [apéndice B de la Guía Calc 24.2](https://books.libreoffice.org/en/CG24/CG2418-CalcErrorCodes.html).
+
+> ⚠️ **¡Foco Examen!:** **Proteger una hoja** no convierte automáticamente sus datos en información cifrada, y una fórmula errónea no implica necesariamente que el archivo esté dañado.
+
+## 10. Fuentes verificables y situación del temario
+
+- [Guía oficial LibreOffice Calc 24.2](https://books.libreoffice.org/en/CG24/CG24.html), publicada en **marzo de 2024**.
+- [Capítulo 8: fórmulas y funciones](https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html).
+- [Capítulo 9: tablas dinámicas](https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html).
+- [Capítulo 14: Calc como base de datos](https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html).
+- [Apéndice B: códigos de error](https://books.libreoffice.org/en/CG24/CG2418-CalcErrorCodes.html).
+
+**Cobertura editorial:** se desarrollan todos los aspectos de utilización de hojas de cálculo previstos por el epígrafe oficial del **tema 19** y se dispone de **20 preguntas** documentadas. Las rutas o etiquetas de los menús y los separadores de funciones pueden variar con idioma y personalización; para datos dependientes del equipo debe comprobarse la instalación utilizada. **La prueba de interacción real en navegador no se ha ejecutado**.
