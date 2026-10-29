@@ -364,3 +364,22 @@ TRANSPARENCIA Y BUEN GOBIERNO
 ```
 
 > ⚠️ **¡Foco Examen!:** Las cifras más preguntables son **14 años**, **1 mes + 2 meses** para derechos de protección de datos, **72 horas** para brechas y **1 mes + 1 mes** para acceso a información pública.
+
+## 19. Auditoría de plazos y autoridades — **29/10/2026**
+
+| Institución | Regla de examen | Fuente |
+|---|---|---|
+| Ejercicio de derechos de protección de datos | Respuesta en **1 mes**, ampliable **otros 2 meses** si concurren motivos legales; comunicar la ampliación en el primer mes | **RGPD 12.3** |
+| Violación de seguridad de datos con riesgo | Notificación a la **autoridad de control** sin dilación indebida y, si es posible, en **72 horas** desde el conocimiento | **RGPD 33.1** |
+| Delegado de Protección de Datos en autoridades públicas | Designación obligatoria, con excepción de tribunales en ejercicio de función judicial | **RGPD 37.1.a** |
+| Edad general para consentimiento autónomo del menor en España | **14 años**, salvo supuestos especiales | **LOPDGDD 7** |
+| Supervisión de protección de datos | **Agencia Española de Protección de Datos**, según sus competencias y sin perjuicio de autoridades autonómicas | **LOPDGDD 47** |
+| Acceso a información pública | Resolución en **1 mes**, ampliable **otro mes** si volumen o complejidad lo justifican y se notifica | **Ley 19/2013, 20.1** |
+| Silencio en acceso a información pública | **Desestimatorio** | **Ley 19/2013, 20.4** |
+| Reclamación potestativa frente a resolución expresa de acceso | **1 mes** desde el día siguiente a notificación, ante órgano de garantía competente | **Ley 19/2013, 24.2** |
+
+> ⚠️ **¡Foco Examen!:** Para ejercer derechos del **RGPD** la respuesta ordinaria es en **1 mes prorrogable otros 2**; para resolver acceso a información pública de la **Ley 19/2013** es **1 mes prorrogable otro mes**. No intercambiar ambas ampliaciones.
+
+> ⚠️ **¡Foco Examen!:** Las **72 horas** de notificación de una violación a la autoridad de control **no** operan incondicionalmente: se exige la notificación salvo que resulte improbable que la brecha entrañe riesgo para los derechos y libertades. Una brecha de alto riesgo puede requerir, además, comunicación al afectado conforme al **artículo 34 RGPD**.
+
+**Fuentes contrastadas:** [RGPD](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa), [LO 3/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), [Ley 19/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887) y [AEPD sobre plazos](https://www.aepd.es/preguntas-frecuentes/1-tus-derechos/2-tus-derechos-de-proteccion-de-datos/FAQ-0106-cual-es-el-plazo-para-responder-cuando-se-ejercitan-estos-derechos). Banco ampliado a **20 preguntas**. Pendiente auditoría integral y prueba funcional.
