@@ -1,8 +1,8 @@
 {
   "tema": 8,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
-  "criterio": "Seis preguntas contrastadas con Ley 31/1995 consolidada a 26/10/2026. Material original de entrenamiento, no examen oficial.",
+  "estado": "BANCO_20_PREGUNTAS_REVISADO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales con respuesta y artículo específico Ley 31/1995 y RD 39/1997, comprobadas contra BOE consolidado.",
   "preguntas": [
     {
       "id": "DT-C2-T08-001",
@@ -87,6 +87,202 @@
       "justificacion": "El artículo 35.2 fija **dos Delegados de Prevención** para la franja de **50 a 100 trabajadores**. A partir de **101 y hasta 500**, corresponden **tres**; existen sistemas alternativos de designación admitidos en el artículo 35.4.",
       "trampaExamen": "**50–100: 2 delegados**; **101–500: 3 delegados**. No confundir número de Delegados de Prevención con los integrantes totales del Comité de Seguridad y Salud.",
       "referencia": "LPRL arts. 35.2 y 35.4 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-007",
+      "enunciado": "¿Qué obligación impone el artículo 19 sobre formación preventiva?",
+      "opciones": [
+        "Debe pagarla el trabajador",
+        "Se imparte por empresa y, cuando sea posible, dentro de jornada; fuera se descuenta tiempo",
+        "Siempre en vacaciones",
+        "Solo a los delegados"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La formación es teórica y práctica, suficiente y adecuada, y a cargo del empresario; si se hace fuera de horas se descuenta de la jornada.",
+      "trampaExamen": "No trasladar su coste al trabajador.",
+      "referencia": "LPRL 19 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-008",
+      "enunciado": "¿Qué implica el riesgo grave e inminente?",
+      "opciones": [
+        "No permite detener actividad",
+        "Solo se comunica al mes",
+        "Permite interrumpir la actividad y abandonar lugar si es necesario",
+        "Exige aprobación sindical previa siempre"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 21 reconoce derechos para interrumpir y abandonar ante riesgo grave e inminente.",
+      "trampaExamen": "Riesgo grave e inminente no equivale a cualquier inconveniente.",
+      "referencia": "LPRL 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-009",
+      "enunciado": "¿Cuál es la regla general de vigilancia de salud en el trabajo?",
+      "opciones": [
+        "Siempre obligatoria",
+        "A cargo del trabajador",
+        "Solo en empresas de más de cien",
+        "Voluntaria con excepciones tasadas"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 22 establece la voluntariedad como regla, con excepciones bajo condiciones legales.",
+      "trampaExamen": "No todos los reconocimientos médicos son obligatorios.",
+      "referencia": "LPRL 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-010",
+      "enunciado": "¿Qué debe tener prioridad sobre protección individual?",
+      "opciones": [
+        "Protección colectiva",
+        "Protección decorativa",
+        "Ahorro de papel",
+        "Señalización publicitaria"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 15 exige adoptar medidas que antepongan protección colectiva a individual.",
+      "trampaExamen": "Los EPI no sustituyen evaluar y prevenir riesgos en origen.",
+      "referencia": "LPRL 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-011",
+      "enunciado": "¿Cuántos Delegados de Prevención corresponden generalmente a una empresa de 50 a 100 trabajadores?",
+      "opciones": [
+        "Uno",
+        "Dos",
+        "Cuatro",
+        "Seis"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La escala del artículo 35.2 establece dos delegados de 50 a 100 trabajadores.",
+      "trampaExamen": "La cifra cambia al alcanzar 101.",
+      "referencia": "LPRL 35.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-012",
+      "enunciado": "¿Qué modalidad de prevención contempla el artículo 10 del RD 39/1997?",
+      "opciones": [
+        "Solo por mutualidad",
+        "Solo por consultora",
+        "Trabajadores designados, servicios propios o ajenos, entre otras modalidades regladas",
+        "Solo por Ministerio"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Las modalidades incluyen asunción personal en condiciones, designación, servicio propio y ajeno.",
+      "trampaExamen": "La organización depende del tamaño, actividad y riesgos.",
+      "referencia": "RSP 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853"
+    },
+    {
+      "id": "DT-C2-T08-013",
+      "enunciado": "¿Cuál es una condición que obliga a constituir servicio de prevención propio?",
+      "opciones": [
+        "Tener 12 empleados en oficina",
+        "Disponer de impresora multifunción",
+        "Ser ayuntamiento siempre",
+        "Tener más de 500 trabajadores en la empresa"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 14.a del RD 39/1997 exige servicio propio en empresas de más de 500 trabajadores.",
+      "trampaExamen": "**Más de 500** no equivale a 500 exactos.",
+      "referencia": "RSP 14.a · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853"
+    },
+    {
+      "id": "DT-C2-T08-014",
+      "enunciado": "¿A partir de qué plantilla se constituye el Comité de Seguridad y Salud?",
+      "opciones": [
+        "50 trabajadores",
+        "20 trabajadores",
+        "100 trabajadores",
+        "500 trabajadores"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Artículo 38: se constituye en centros o empresas con 50 o más trabajadores.",
+      "trampaExamen": "En **50 o más**, existe comité.",
+      "referencia": "LPRL 38.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-015",
+      "enunciado": "¿Qué composición corresponde al Comité de Seguridad y Salud?",
+      "opciones": [
+        "Solo Delegados de Prevención",
+        "Delegados de Prevención y empresario o representantes en igual número",
+        "Solo sindicalistas",
+        "Solo responsables de RRHH"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Artículo 38.2 establece órgano paritario y colegiado.",
+      "trampaExamen": "Paritario no significa votación por mayoría absoluta siempre.",
+      "referencia": "LPRL 38.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-016",
+      "enunciado": "¿Con qué periodicidad ordinaria se reúne el Comité de Seguridad y Salud?",
+      "opciones": [
+        "Cada día",
+        "Cada año",
+        "Trimestralmente y cuando lo solicite alguna representación",
+        "Solo tras accidente"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Artículo 38.3: se reúne trimestralmente y siempre que lo solicite alguna de sus representaciones.",
+      "trampaExamen": "La periodicidad ordinaria es **trimestral**.",
+      "referencia": "LPRL 38.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-017",
+      "enunciado": "¿Quién debe proporcionar los equipos de protección individual adecuados?",
+      "opciones": [
+        "El empleado con su salario",
+        "El delegado sindical",
+        "La entidad sanitaria",
+        "El empresario según riesgos y necesidades"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Artículo 17.2 obliga a proporcionar EPI adecuados y velar por su uso efectivo.",
+      "trampaExamen": "El EPI no se cobra al trabajador.",
+      "referencia": "LPRL 17.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-018",
+      "enunciado": "¿Qué ocurre con el empresario cuando contrata un servicio de prevención ajeno?",
+      "opciones": [
+        "Mantiene su deber de protección de trabajadores",
+        "Queda totalmente exento de responsabilidad",
+        "Pierde facultad de información",
+        "No debe hacer evaluación"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 14.4 LPRL: recurrir a entidades especializadas no exime deber empresarial de prevención.",
+      "trampaExamen": "Externalizar no extingue la obligación del empresario.",
+      "referencia": "LPRL 14.4 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-019",
+      "enunciado": "¿Qué obligación corresponde al trabajador según art. 29 LPRL?",
+      "opciones": [
+        "Asumir todos los gastos",
+        "Usar correctamente máquinas, medios y EPI conforme a instrucciones",
+        "Determinar por sí solo evaluación de todo el centro",
+        "Nombrar directivos"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 29 impone deber de velar por seguridad y usar correctamente medios conforme a formación e instrucciones.",
+      "trampaExamen": "El trabajador coopera, sin sustituir deber empresarial.",
+      "referencia": "LPRL 29 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DT-C2-T08-020",
+      "enunciado": "¿Cuándo debe consultarse a los trabajadores según el art. 33 LPRL?",
+      "opciones": [
+        "Siempre después de ejecutar la medida",
+        "Solo tras sanción",
+        "Con debida antelación antes de decisiones preventivas enumeradas",
+        "Nunca en Administración"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Artículo 33 exige consulta con la debida antelación para decisiones de planificación, organización y actividades preventivas.",
+      "trampaExamen": "La consulta es **previa**, no mero aviso posterior.",
+      "referencia": "LPRL 33 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
     }
   ],
   "auditoria": {
