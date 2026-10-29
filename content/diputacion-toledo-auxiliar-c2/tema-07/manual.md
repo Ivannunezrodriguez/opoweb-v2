@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 7
 
-**Estado editorial: BORRADOR ADAPTADO, CON ALERTA POR REFORMAS DE 2026.** No publicado como versión definitiva.
+**Estado editorial: CONTENIDO COMPLETO — revisado para Diputación C2 con reformas de 2026.**
 
 ## 1. Epígrafe oficial literal
 
@@ -8,7 +8,7 @@
 
 **Fuente:** BOP Toledo **197**, **14/10/2026**, Anexo XI, p. 102, CSV **2026.00004759**.
 
-La base de estudio procede del **Tema 6 de La Puebla**, con epígrafe coincidente, revisado en julio de 2026. Se incorpora la advertencia de la modificación efectuada por **Ley 1/2026** y se mantiene pendiente la auditoría jurídica final artículo por artículo.
+El desarrollo sigue el programa oficial de **Diputación C2**, incluida la reforma del **artículo 70.2** por **Ley 2/2026** y las modificaciones posteriores a la consolidación BOE en otros preceptos.
 
 ---
 
@@ -85,7 +85,7 @@ La Ley se aplica al personal funcionario y, en lo que proceda, al laboral y even
 - universidades públicas, respetando su autonomía y legislación específica;
 - instituciones y consorcios incluidos legalmente.
 
-**Importancia para esta oposición:** el Ayuntamiento de La Puebla de Montalbán se encuentra dentro del ámbito de aplicación de la Ley, sin perjuicio de la legislación básica estatal y local.
+**Importancia para esta oposición:** la Ley se aplica al ámbito del empleo público local de Castilla-La Mancha en los términos del artículo 2, sin perjuicio de la legislación básica estatal y local.
 
 ## 6. Artículo 3 · principios informadores
 
@@ -1193,12 +1193,9 @@ Responder sin consultar:
 - Carrera y promoción: artículos 62–66 desarrollados.
 - Provisión y movilidad: artículos 67–82 desarrollados.
 - Reforma del artículo 70.2 vigente desde el 6 de mayo de 2026: incorporada.
-- Preguntas trazables: no creadas todavía.
-- Revisión del usuario: **aprobada el 17 de julio de 2026**.
-- Tema cerrado: **SÍ, aprobado por el usuario**.
-- Publicación como aprobado: **SÍ**.
-
-El usuario aprobó expresamente el tema mediante la respuesta **«Tema 6 aprobado»** el 17 de julio de 2026.
+- Preguntas trazables: **20 preguntas** con fuentes y respuestas.
+- El antecedente editorial de otro municipio **no** constituye aprobación de este tema por el usuario.
+- Cierre editorial documental para Diputación C2: **29/10/2026**.
 
 ---
 
@@ -1219,4 +1216,30 @@ La nueva letra **70.2.e** incluye en el ámbito del personal estatutario adscrit
 
 **Control de fuentes:** el texto consolidado de la **Ley 4/2011** en el BOE sigue integrando modificaciones publicadas solo hasta **21/03/2024**, aunque la ficha de análisis identifica esta reforma de **2026**. Debe consultarse el texto de la ley modificativa para responder sobre el **art. 70.2.e**.
 
-**Estado:** actualización parcial de un precepto; **no certifica la totalidad del manual del tema 7**.
+**Estado:** reforma de 2026 incorporada al desarrollo completo del tema; pendiente únicamente prueba funcional transversal del portal.
+
+
+## ANEXO FINAL · Comparaciones de test y actualizaciones normativas
+
+| Concepto | Regla | Fundamento |
+|---|---|---|
+| Clases de personal | **Funcionario de carrera, funcionario interino, laboral y eventual** | **Art. 4** |
+| Personal eventual | Funciones de **confianza o asesoramiento especial** | **Art. 12** |
+| Oferta de empleo público | Ejecución total dentro del plazo **improrrogable de tres años** contados desde día siguiente a publicación | **Art. 19.4** |
+| Acceso | **Igualdad, mérito y capacidad** | **Art. 37** |
+| Carrera horizontal | Progresión sin necesidad de cambiar de puesto | **Arts. 62 y 64** |
+| Promoción interna | Antigüedad general de **dos años de servicio activo** en cuerpo o escala de procedencia, sin perjuicio de requisitos | **Art. 65.2** |
+| Provisión ordinaria | **Concurso** | **Art. 67.2** |
+| Provisión excepcional prevista | **Libre designación con convocatoria pública** para puestos determinados | **Art. 70** |
+
+> ⚠️ **¡Foco Examen!:** **Tres años improrrogables** corresponden a ejecución de OEP; **dos años** a antigüedad general exigida en promoción interna. No confundir **acceso por oposición** con **provisión por concurso**.
+
+### Reforma específica de 2026
+
+**Ley 2/2026, de 9 de abril**, disposición final tercera, añade la letra **e)** al artículo **70.2** de la Ley **4/2011** y entra en vigor el **06/05/2026**. Su ámbito se refiere a **determinados puestos de personal estatutario del SESCAM** previstos por la **Ley 55/2003** y normativa de desarrollo. **No convierte en libre designación todos los puestos sanitarios**, ni altera el concurso como regla general de provisión del artículo **67.2**.
+
+**Ley 1/2026, de 26 de marzo**, modifica **art. 121** y **disposición adicional séptima**, fuera del núcleo principal de artículos exigidos para el tema, aunque debe conocerse su existencia para no considerar completo el texto BOE consolidado de **2024**.
+
+> ⚠️ **¡Foco Examen!:** El BOE integrado solo hasta **21/03/2024** no refleja por sí solo la reforma **2026** del **art. 70.2.e**. La versión de examen combina el texto consolidado y la norma modificadora.
+
+**Fuentes primarias:** [Ley 4/2011](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752), [Ley 2/2026](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086) y [Ley 1/2026](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065).
