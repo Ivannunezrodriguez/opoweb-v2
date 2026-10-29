@@ -1,8 +1,8 @@
 {
   "tema": 15,
-  "estado": "BANCO_20_PREGUNTAS_PENDIENTE_REVISION_FINAL",
+  "estado": "BANCO_20_PREGUNTAS_REVISION_JURIDICA_PARCIAL",
   "version": "2026-10-29",
-  "criterio": "20 preguntas con soluciones y referencias artículo a artículo de Ley 40/2015; ampliación documental. Aún sin verificación funcional en OpoWeb.",
+  "criterio": "20 preguntas redactadas con referencias Ley 40/2015; precisión corregida en art. 64.3. Aún falta auditoría integral y funcional.",
   "preguntas": [
     {
       "id": "DT-C2-T15-001",
@@ -238,9 +238,9 @@
         "Subdelegado"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Art. 64.2: los Secretarios Generales tienen categoría de Subsecretario.",
+      "justificacion": "Artículo 64.3 de la Ley 40/2015: los Secretarios generales tienen categoría de Subsecretario y son nombrados y separados por Real Decreto del Consejo de Ministros.",
       "trampaExamen": "El **Secretario General** tiene categoría de Subsecretario, no de Secretario de Estado.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 64.2"
+      "referencia": "Ley 40/2015, art. 64.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
     },
     {
       "id": "DT-C2-T15-018",
