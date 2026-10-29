@@ -1,18 +1,16 @@
-# Fuentes y auditoría pendiente · Tema 9
+# Tema 9 · Igualdad de mujeres y hombres — fuentes y cierre
 
-**Programa literal:** BOP Toledo **197, 14/10/2026**, Anexo XI, pág. 102, CSV **2026.00004759**.
+**Convocatoria:** Diputación de Toledo, Auxiliar Administrativo C2, BOP **197**, **14/10/2026**, Anexo XI.
 
-## Fuentes oficiales primarias
+## Legislación contrastada
 
-- Ley 12/2010 CLM — https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708 (actualización 30/06/2021)
-- LO 3/2007 — https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115 (actualización 02/08/2024)
+- [**Ley 12/2010**, de 18 de noviembre, de igualdad entre mujeres y hombres de Castilla-La Mancha](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708). Consolidación con última actualización publicada el **30/06/2021**, comprobada **29/10/2026**.
+- [**Ley Orgánica 3/2007**, de 22 de marzo, para la igualdad efectiva de mujeres y hombres](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115). Consolidación con última actualización publicada el **02/08/2024**, comprobada **29/10/2026**.
 
-## Control editorial
+## Cierre editorial
 
-- Manual basado en tema equivalente de La Puebla, auditado en julio de 2026.
-- Últimas actualizaciones comprobadas en la cabecera de los textos consolidados del BOE el **25/10/2026**. El BOE advierte que los textos consolidados tienen **carácter informativo**.
-- **Pendiente:** comparar cada plazo, artículo, órgano, excepción y cuantía con legislación vigente; auditar matices y cambios normativos posteriores.
-- **Pendiente:** crear matriz de trazabilidad, test y supuestos exclusivos de Diputación C2 y verificar sus soluciones con artículos exactos.
-- **Estado:** **BORRADOR**, no certificado como definitivo.
+Los **65 artículos** de la Ley autonómica y los **78 artículos** de la ley orgánica se desarrollan por bloques en el manual, junto a la **disposición adicional primera** sobre composición equilibrada **40 %–60 %**. Se incorporan tablas de discriminación directa/indirecta, acoso, embarazo, represalias y aplicación territorial.
 
-> ⚠️ **¡Foco Examen!:** No estudiar plazos ni excepciones como definitivos si no se han cotejado con su artículo vigente y la fecha del ejercicio.
+**Banco:** **20 preguntas** de cuatro opciones, justificación y referencia legal individual. **Cierre documental: 29/10/2026**. No se ha realizado prueba funcional de navegador de OpoWeb.
+
+> ⚠️ **¡Foco Examen!:** Composición equilibrada: **40 %–60 %**, no necesariamente mitad exacta. El trato desfavorable relacionado con **embarazo o maternidad** constituye **discriminación directa**.
