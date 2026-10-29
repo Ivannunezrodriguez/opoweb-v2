@@ -32,3 +32,11 @@ Se distinguen expresamente:
 `GENERACION_DESDE_CERO`
 
 Verificación de integridad editorial: **19 de julio de 2026**.
+
+## Fuentes técnicas verificadas el **29/10/2026**
+
+- [NVM Express: especificaciones oficiales](https://nvmexpress.org/SPECIFICATIONS/). El **protocolo NVMe** admite distintos formatos y transportes; la especificación **NVMe 2.4** se publicó el **04/08/2026**.
+- [USB-IF: identificación de USB Tipo C](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf). El **conector USB-C** no garantiza por sí solo USB4, USB 3.2 ni Power Delivery.
+- [Microsoft Learn: arranque UEFI y BIOS](https://learn.microsoft.com/es-es/windows-hardware/manufacture/desktop/boot-to-uefi-mode-or-legacy-bios-mode?view=windows-11). Diferencia entre firmware de arranque UEFI y modo BIOS heredado.
+
+**Control editorial:** banco ampliado a **20 preguntas** y manual con tabla comparativa. Quedan pendientes auditoría integral y pruebas funcionales de OpoWeb.
