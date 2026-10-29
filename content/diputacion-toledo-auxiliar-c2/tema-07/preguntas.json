@@ -1,8 +1,8 @@
 {
   "tema": 7,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-27",
-  "criterio": "Siete preguntas originales; seis auditadas inicialmente y una añadida 27/10/2026 con cotejo de reforma autonómica Ley 2/2026 (art.70.2.e). Manual completo sigue BORRADOR.",
+  "estado": "BANCO_20_PREGUNTAS_DOCUMENTADO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales con referencias Ley 4/2011 y reforma Ley 2/2026 art.70.2.e; verificación funcional pendiente.",
   "preguntas": [
     {
       "id": "DT-C2-T07-001",
@@ -199,6 +199,90 @@
       "justificacion": "La Ley 4/2011 regula esta figura en el precepto indicado, con los requisitos y especialidades legales.",
       "trampaExamen": "Distinguir modalidades y condiciones legales de acceso, carrera o provisión.",
       "referencia": "Ley 4/2011 arts. 62–63 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-015",
+      "enunciado": "¿Qué se entiende por personal funcionario de carrera?",
+      "opciones": [
+        "Contratado mercantil",
+        "Interino para proyecto",
+        "Nombrado legalmente con relación estatutaria permanente",
+        "Voluntario"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-016",
+      "enunciado": "¿Cuál es el destino de las funciones que impliquen participación en potestades públicas?",
+      "opciones": [
+        "Siempre personal eventual",
+        "Siempre cualquier contratista",
+        "Exclusivamente autónomos",
+        "Personal funcionario conforme a la reserva legal"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 6 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-017",
+      "enunciado": "¿Qué característica tiene una oferta de empleo público?",
+      "opciones": [
+        "Contiene necesidades de recursos humanos con asignación presupuestaria que deban proveerse mediante nuevo ingreso",
+        "Es una relación de vacaciones",
+        "Es un contrato ya firmado",
+        "Sustituye automáticamente las convocatorias"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 19 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-018",
+      "enunciado": "¿Qué plazo general fija la ley para ejecutar totalmente la OEP?",
+      "opciones": [
+        "Un año",
+        "Tres años improrrogables desde el día siguiente a publicación",
+        "Diez años",
+        "No hay plazo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 19.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-019",
+      "enunciado": "¿Cómo se adquiere la condición de funcionario de carrera?",
+      "opciones": [
+        "Solo aprobando un examen",
+        "Solo con título",
+        "Cumpliendo sucesivamente requisitos legales de selección, nombramiento, acatamiento y toma de posesión",
+        "Por prestación voluntaria"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 55 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-020",
+      "enunciado": "¿Cuál es una diferencia entre concurso y libre designación?",
+      "opciones": [
+        "Ambos son discrecionales sin convocatoria",
+        "El concurso es excepcional y la libre designación regla",
+        "Ninguno exige requisitos",
+        "El concurso es sistema normal; la libre designación se reserva a puestos previstos y requiere convocatoria pública"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 arts. 67 y 70 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
     }
   ],
   "auditoria": {
