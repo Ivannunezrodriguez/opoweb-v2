@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 4
 
-**Estado editorial: BORRADOR ADAPTADO.** Contenido de partida auditado en La Puebla el 30/07/2026; revisión jurídica específica para la nueva convocatoria pendiente. Esta copia no implica aprobación definitiva.
+**Estado editorial: CONTENIDO COMPLETO — cierre documental 29/10/2026.** Adaptado al programa de Diputación de Toledo C2.
 
 ## 1. Epígrafe oficial literal
 
@@ -1081,3 +1081,30 @@ Responder sin consultar:
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 4 aprobado»** el 17 de julio de 2026.
+
+## ANEXO · Tabla final de plazos y competencias
+
+| Figura | Plazo para interponer o iniciar | Resolver y notificar | Precepto |
+|---|---|---|---|
+| **Alzada**, acto expreso | **Un mes** | **Tres meses** | **Ley 39/2015 arts. 122.1 y 122.2** |
+| **Alzada**, acto presunto | Desde día siguiente al efecto del silencio, en cualquier momento | **Tres meses** | **122.1–2** |
+| **Reposición potestativa**, acto expreso | **Un mes** | **Un mes** | **124.1–2** |
+| **Reposición**, acto presunto | Desde día siguiente al acto presunto, en cualquier momento | **Un mes** | **124.1–2** |
+| **Extraordinario de revisión, error de hecho** | **Cuatro años** desde notificación del acto | **Tres meses** | **125.2, 126.3** |
+| **Extraordinario, otras causas tasadas** | **Tres meses** desde conocimiento de documentos o firmeza sentencia | **Tres meses** | **125.2, 126.3** |
+| **Revisión de oficio** por nulidad | **En cualquier momento**, con límites legales | **Seis meses**; caducidad si se inició de oficio | **106.1 y 106.5** |
+| **Lesividad** | No puede declararse después de **cuatro años** del acto | **Seis meses** para declaración desde inicio; caducidad | **107.2–3** |
+| **Rectificación de errores** | **En cualquier momento** | Sin plazo específico en art. 109.2 | **109.2** |
+
+> ⚠️ **¡Foco Examen!:** **Alzada** se interpone contra acto que **no pone fin** a la vía administrativa y la resuelve, normalmente, el **superior jerárquico**; **reposición** procede potestativamente contra actos que **sí la ponen fin** y la resuelve el **mismo órgano**.
+
+| Vía | Causa | Órgano de resolución |
+|---|---|---|
+| **Alzada** | Resolución o trámite cualificado sin fin de vía | **Superior jerárquico** |
+| **Reposición** | Acto que pone fin a vía | **Órgano que dictó acto** |
+| **Extraordinario de revisión** | Acto firme y causas tasadas | **Órgano que dictó el acto** |
+| **Lesividad local** | Acto favorable anulable | Declaración por **Pleno de Corporación**, o colegiado superior cuando no exista (**art. 107.5**) |
+
+> ⚠️ **¡Foco Examen!:** La interposición de recurso **no suspende automáticamente** ejecución (art. **117.1**). La revisión de oficio de actos nulos requiere **dictamen favorable** de **Consejo de Estado u órgano consultivo autonómico equivalente** (art. **106.1**).
+
+**Fuente:** [Ley 39/2015, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco de **20 preguntas** con fundamentación legal.
