@@ -391,3 +391,19 @@ PROCEDIMIENTO ADMINISTRATIVO COMÚN
 ```
 
 > ⚠️ **¡Foco Examen!:** las preguntas suelen mezclar plazos de prueba, audiencia, información pública y simplificada. Memoriza la secuencia **10–30 / 10–15 / mínimo 20 / 30 días**.
+
+
+## 15. Cotejo adicional de tramitación simplificada — **29/10/2026**
+
+| Supuesto | Regla | Referencia |
+|---|---|---|
+| Solicitud de simplificación por interesado | Puede desestimarse en **5 días**, sin recurso contra esa decisión; silencio desestimatorio de la solicitud de simplificación | **Art. 96.3** |
+| Alegaciones iniciales en tramitación simplificada | **5 días** | **Art. 96.6.c** |
+| Audiencia en simplificada | Solo si la resolución será **desfavorable** | **Art. 96.6.d** |
+| Resolución simplificada | **30 días**, salvo que reste menos para tramitación ordinaria; desde el día siguiente a la notificación del acuerdo | **Art. 96.6** |
+| Dictamen consultivo preceptivo contrario a la propuesta | Continuar por la **tramitación ordinaria** | **Art. 96.6.g** |
+| Trámite adicional no previsto | Se pasa a **tramitación ordinaria** | **Art. 96.7** |
+
+> ⚠️ **¡Foco Examen!:** En los **procedimientos sancionadores** que puedan tramitarse de forma simplificada por calificarse la infracción como **leve**, no cabe la oposición expresa prevista con carácter general en el **artículo 96.2**. No memorizar una oposición universal.
+
+**Fuente contrastada:** [Ley 39/2015, artículo 96, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco de **20 preguntas**; pendiente validación integral de todas las referencias y prueba de navegación para cierre editorial definitivo.
