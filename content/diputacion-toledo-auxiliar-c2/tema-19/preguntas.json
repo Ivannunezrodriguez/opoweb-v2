@@ -1,8 +1,8 @@
 {
   "tema": 19,
-  "estado": "BORRADOR_CON_REFERENCIAS_PRIMARIAS",
-  "version": "2026-10-25",
-  "criterio": "Diez preguntas originales de entrenamiento revisadas con la Guía Calc 24.2 el 26/10/2026. No son preguntas oficiales.",
+  "estado": "BANCO_20_PREGUNTAS_DOCUMENTADAS",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales con referencias a documentación oficial Calc 24.2 y cuatro alternativas; comprobadas estructuralmente. Falta ejecución interactiva real.",
   "preguntas": [
     {
       "id": "DT-C2-T19-001",
@@ -143,6 +143,146 @@
       "justificacion": "La celda B2 almacena el valor numérico **10 % = 0,10**, por tanto **200 × 0,10 = 20**.",
       "trampaExamen": "Un **porcentaje** es un valor numérico: **10 % = 0,10**, no 10 al multiplicar.",
       "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-011",
+      "enunciado": "¿Qué función cuenta solo celdas que contienen valores numéricos?",
+      "opciones": [
+        "CONTARA",
+        "CONTAR",
+        "SI",
+        "HOY"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "CONTAR cuenta valores numéricos; CONTARA cuenta celdas no vacías.",
+      "trampaExamen": "CONTAR no es CONTARA.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-012",
+      "enunciado": "Si A1=10, A2=20 y A3=30, ¿cuál es el resultado de =PROMEDIO(A1:A3)?",
+      "opciones": [
+        "10",
+        "30",
+        "20",
+        "60"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La media aritmética es (10+20+30)/3=20.",
+      "trampaExamen": "PROMEDIO no equivale a SUMA.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-013",
+      "enunciado": "Al copiar =A2*$F$1 una fila hacia abajo, ¿qué fórmula resulta?",
+      "opciones": [
+        "=A2*$F$2",
+        "=$A$2*F2",
+        "=A3*F2",
+        "=A3*$F$1"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "A2 cambia a A3; $F$1 permanece fija por ser absoluta.",
+      "trampaExamen": "El símbolo $ fija coordenadas.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-014",
+      "enunciado": "¿Qué diferencia hay entre ordenar y filtrar una tabla Calc?",
+      "opciones": [
+        "Ordenar cambia la secuencia y filtrar oculta filas que no cumplen condiciones",
+        "Filtrar elimina permanentemente registros",
+        "Ordenar borra fórmulas",
+        "Son acciones idénticas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Ordenar reorganiza registros; filtrar cambia qué filas se muestran.",
+      "trampaExamen": "Un filtro no equivale a borrado.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
+    },
+    {
+      "id": "DT-C2-T19-015",
+      "enunciado": "¿Para qué sirven las tablas dinámicas en Calc?",
+      "opciones": [
+        "Para cifrar obligatoriamente el libro",
+        "Para agrupar y resumir registros por campos",
+        "Para reemplazar el sistema operativo",
+        "Solo para añadir bordes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Una tabla dinámica permite resumir datos por dimensiones y agregados.",
+      "trampaExamen": "No confundir tabla dinámica y formato de tabla.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html"
+    },
+    {
+      "id": "DT-C2-T19-016",
+      "enunciado": "Si cambian los datos de origen, ¿qué puede requerir una tabla dinámica existente?",
+      "opciones": [
+        "Borrar el archivo ODS",
+        "Cambiar la impresora",
+        "Actualizar el resultado de la tabla dinámica",
+        "Desinstalar Calc"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Las tablas dinámicas pueden necesitar actualización para reflejar cambios en el origen.",
+      "trampaExamen": "No asumir que cada vista se recalcula siempre en el instante.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html"
+    },
+    {
+      "id": "DT-C2-T19-017",
+      "enunciado": "¿Qué formato conserva mejor la estructura completa y editable de un libro Calc?",
+      "opciones": [
+        "CSV",
+        "TXT",
+        "PDF",
+        "ODS"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "ODS es el formato nativo editable de hojas de cálculo OpenDocument.",
+      "trampaExamen": "CSV no guarda múltiples hojas, formatos y gráficos como un libro ODS.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG24.html"
+    },
+    {
+      "id": "DT-C2-T19-018",
+      "enunciado": "En una celda con valor 0,25 formateado como porcentaje, ¿qué se muestra normalmente?",
+      "opciones": [
+        "25 %",
+        "0,25 %",
+        "250 %",
+        "2500 %"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El formato porcentual muestra 0,25 como 25 %.",
+      "trampaExamen": "Formato visible y valor numérico son diferentes.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2402-EnteringandEditingData.html"
+    },
+    {
+      "id": "DT-C2-T19-019",
+      "enunciado": "¿Qué función permite definir criterios de entrada admitidos para ciertas celdas?",
+      "opciones": [
+        "Filtro automático",
+        "Validación de datos",
+        "Formato de página",
+        "Guardar como PDF"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La validación de datos limita entradas según reglas configuradas.",
+      "trampaExamen": "Validación y formato condicional tienen finalidades distintas.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
+    },
+    {
+      "id": "DT-C2-T19-020",
+      "enunciado": "¿Qué documento oficial de Calc 24.2 incluye los códigos de error?",
+      "opciones": [
+        "El capítulo de gráficos exclusivamente",
+        "La guía de impresoras Microsoft",
+        "El apéndice B de la guía Calc",
+        "La convocatoria de Diputación"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Guía Calc 24.2 incluye un apéndice B de códigos de error.",
+      "trampaExamen": "No trasplantar sin comprobación los códigos de Excel.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2418-CalcErrorCodes.html"
     }
   ],
   "auditoria": {
