@@ -1,11 +1,16 @@
 {
   "tema": 28,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T28-001",
       "pregunta": "¿Qué se considera dato personal?",
-      "opciones": ["Solo el nombre y apellidos", "Toda información sobre una persona física identificada o identificable", "Únicamente los datos sanitarios", "Solo los datos incluidos en un fichero automatizado"],
+      "opciones": [
+        "Solo el nombre y apellidos",
+        "Toda información sobre una persona física identificada o identificable",
+        "Únicamente los datos sanitarios",
+        "Solo los datos incluidos en un fichero automatizado"
+      ],
       "correcta": 1,
       "justificacion": "El RGPD considera dato personal toda información sobre una persona física identificada o identificable.",
       "trampa": "El concepto no se limita al nombre y apellidos ni a los tratamientos automatizados.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T28-002",
       "pregunta": "¿Cuál de los siguientes es un principio de protección de datos?",
-      "opciones": ["Acumulación ilimitada", "Minimización de datos", "Conservación indefinida", "Cesión libre entre Administraciones"],
+      "opciones": [
+        "Acumulación ilimitada",
+        "Minimización de datos",
+        "Conservación indefinida",
+        "Cesión libre entre Administraciones"
+      ],
       "correcta": 1,
       "justificacion": "El principio de minimización exige que los datos sean adecuados, pertinentes y limitados a lo necesario para los fines del tratamiento.",
       "trampa": "La responsabilidad proactiva no autoriza a conservar o comunicar datos sin límite.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T28-003",
       "pregunta": "En España, el menor puede prestar por sí mismo el consentimiento para el tratamiento de sus datos, con carácter general, desde los:",
-      "opciones": ["12 años", "13 años", "14 años", "16 años"],
+      "opciones": [
+        "12 años",
+        "13 años",
+        "14 años",
+        "16 años"
+      ],
       "correcta": 2,
       "justificacion": "La Ley Orgánica 3/2018 fija, con carácter general, en 14 años la edad a partir de la cual el menor puede consentir por sí mismo el tratamiento de sus datos.",
       "trampa": "No debe trasladarse automáticamente la referencia de 16 años prevista por el RGPD como límite máximo para los Estados miembros.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T28-004",
       "pregunta": "El plazo ordinario para responder al ejercicio de derechos de protección de datos es de:",
-      "opciones": ["10 días", "15 días", "1 mes", "3 meses"],
+      "opciones": [
+        "10 días",
+        "15 días",
+        "1 mes",
+        "3 meses"
+      ],
       "correcta": 2,
       "justificacion": "El responsable debe responder sin dilación indebida y, como máximo, en 1 mes desde la recepción de la solicitud.",
       "trampa": "La ampliación posible es de 2 meses adicionales; no convierte el plazo ordinario en 3 meses.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T28-005",
       "pregunta": "Cuando una brecha de datos deba notificarse a la autoridad de control, el plazo de referencia es de:",
-      "opciones": ["24 horas", "48 horas", "72 horas", "1 mes"],
+      "opciones": [
+        "24 horas",
+        "48 horas",
+        "72 horas",
+        "1 mes"
+      ],
       "correcta": 2,
       "justificacion": "La notificación debe realizarse sin dilación indebida y, de ser posible, dentro de las 72 horas desde que el responsable tenga constancia de la brecha.",
       "trampa": "El plazo no opera de forma automática: la obligación depende de que la brecha pueda entrañar riesgo para los derechos y libertades.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T28-006",
       "pregunta": "La Agencia Española de Protección de Datos es:",
-      "opciones": ["Una dirección general ministerial", "Una autoridad administrativa independiente", "Un órgano judicial", "Una entidad privada de certificación"],
+      "opciones": [
+        "Una dirección general ministerial",
+        "Una autoridad administrativa independiente",
+        "Un órgano judicial",
+        "Una entidad privada de certificación"
+      ],
       "correcta": 1,
       "justificacion": "La Agencia Española de Protección de Datos es una autoridad administrativa independiente con personalidad jurídica propia y plena capacidad pública y privada.",
       "trampa": "No depende jerárquicamente de un ministerio en el ejercicio de sus funciones.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T28-007",
       "pregunta": "¿Cuál de las siguientes es una función de la AEPD?",
-      "opciones": ["Aprobar leyes orgánicas", "Investigar infracciones y adoptar medidas correctivas", "Resolver recursos contencioso-administrativos", "Gestionar el padrón municipal"],
+      "opciones": [
+        "Aprobar leyes orgánicas",
+        "Investigar infracciones y adoptar medidas correctivas",
+        "Resolver recursos contencioso-administrativos",
+        "Gestionar el padrón municipal"
+      ],
       "correcta": 1,
       "justificacion": "La AEPD supervisa la normativa de protección de datos, atiende reclamaciones, investiga posibles infracciones y puede adoptar medidas correctivas y sancionadoras.",
       "trampa": "Sus potestades son administrativas, no legislativas ni jurisdiccionales.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T28-008",
       "pregunta": "La publicidad activa consiste en:",
-      "opciones": ["Publicar información sin necesidad de solicitud previa", "Responder exclusivamente a solicitudes individuales", "Remitir toda la información al juzgado", "Publicar únicamente normas con rango de ley"],
+      "opciones": [
+        "Publicar información sin necesidad de solicitud previa",
+        "Responder exclusivamente a solicitudes individuales",
+        "Remitir toda la información al juzgado",
+        "Publicar únicamente normas con rango de ley"
+      ],
       "correcta": 0,
       "justificacion": "La publicidad activa obliga a publicar de forma periódica y actualizada información relevante sin necesidad de que exista una solicitud previa.",
       "trampa": "No debe confundirse con el derecho de acceso, que se ejerce a petición de una persona.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T28-009",
       "pregunta": "Quienes prestan servicios públicos o ejercen potestades administrativas deben suministrar información para cumplir la Ley 19/2013:",
-      "opciones": ["Siempre de oficio a cualquier ciudadano", "Previo requerimiento de la Administración u organismo vinculado", "Solo mediante sentencia", "Únicamente cuando sean empleados públicos"],
+      "opciones": [
+        "Siempre de oficio a cualquier ciudadano",
+        "Previo requerimiento de la Administración u organismo vinculado",
+        "Solo mediante sentencia",
+        "Únicamente cuando sean empleados públicos"
+      ],
       "correcta": 1,
       "justificacion": "La obligación de suministro opera previo requerimiento de la Administración, organismo o entidad pública a la que estén vinculados.",
       "trampa": "Suministrar información al sujeto público obligado no equivale necesariamente a publicarla directamente.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T28-010",
       "pregunta": "La resolución de una solicitud de acceso a información pública debe notificarse, con carácter general, en:",
-      "opciones": ["10 días", "15 días", "1 mes", "3 meses"],
+      "opciones": [
+        "10 días",
+        "15 días",
+        "1 mes",
+        "3 meses"
+      ],
       "correcta": 2,
       "justificacion": "La Ley 19/2013 fija un plazo máximo de 1 mes desde la recepción por el órgano competente, ampliable por otro mes cuando el volumen o la complejidad lo justifiquen.",
       "trampa": "No debe confundirse con el plazo de 1 mes ampliable por otros 2 meses previsto para los derechos del RGPD.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T28-011",
       "pregunta": "El silencio en el procedimiento estatal de acceso a la información pública es:",
-      "opciones": ["Estimatorio", "Desestimatorio", "Inexistente", "Suspensivo"],
+      "opciones": [
+        "Estimatorio",
+        "Desestimatorio",
+        "Inexistente",
+        "Suspensivo"
+      ],
       "correcta": 1,
       "justificacion": "Transcurrido el plazo máximo sin resolución expresa, la solicitud de acceso a la información pública se entiende desestimada.",
       "trampa": "No debe aplicarse por analogía la regla general de silencio positivo de otros procedimientos.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T28-012",
       "pregunta": "¿Cuál de las siguientes conductas responde a los principios de buen gobierno?",
-      "opciones": ["Aceptar regalos que excedan los usos sociales", "Usar el cargo para obtener ventajas personales", "Comunicar conflictos de intereses y actuar con imparcialidad", "Ocultar información pública relevante"],
+      "opciones": [
+        "Aceptar regalos que excedan los usos sociales",
+        "Usar el cargo para obtener ventajas personales",
+        "Comunicar conflictos de intereses y actuar con imparcialidad",
+        "Ocultar información pública relevante"
+      ],
       "correcta": 2,
       "justificacion": "El buen gobierno exige actuar con imparcialidad, prevenir y comunicar conflictos de intereses, ejercer el cargo con integridad y gestionar adecuadamente los recursos públicos.",
       "trampa": "El buen gobierno no se limita al cumplimiento de las obligaciones de publicidad activa.",
       "referencia": "content/diputacion-toledo/tema-28/manual.md#15-buen-gobierno"
+    },
+    {
+      "id": "DIP-T28-013",
+      "pregunta": "¿Qué plazo tiene el responsable para responder a una solicitud de acceso a datos personales conforme al RGPD?",
+      "opciones": [
+        "15 días",
+        "Un mes, prorrogable otros dos en los casos legales",
+        "Tres meses sin prórroga",
+        "Un año"
+      ],
+      "correcta": 1,
+      "justificacion": "El plazo inicial es **un mes**; puede ampliarse **dos meses** por complejidad o número de solicitudes, informando en el primer mes.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "RGPD art. 12.3 · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa"
+    },
+    {
+      "id": "DIP-T28-014",
+      "pregunta": "¿En qué plazo debe notificarse a la autoridad de control una brecha de datos que entrañe riesgo, cuando sea posible?",
+      "opciones": [
+        "24 horas",
+        "48 horas",
+        "72 horas",
+        "10 días"
+      ],
+      "correcta": 2,
+      "justificacion": "Debe comunicarse **sin dilación indebida**, a ser posible dentro de **72 horas** desde conocimiento, salvo que sea improbable el riesgo.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "RGPD art. 33.1 · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa"
+    },
+    {
+      "id": "DIP-T28-015",
+      "pregunta": "¿Cuál es el plazo ordinario de resolución de una solicitud de acceso a información pública?",
+      "opciones": [
+        "15 días",
+        "30 días hábiles",
+        "Tres meses",
+        "Un mes, ampliable por otro mes"
+      ],
+      "correcta": 3,
+      "justificacion": "La resolución se notifica en **un mes**, ampliable **otro mes** por volumen o complejidad, previa notificación.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "Ley 19/2013 art. 20.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887"
+    },
+    {
+      "id": "DIP-T28-016",
+      "pregunta": "¿Qué efecto tiene el silencio en una solicitud de acceso a información pública según Ley 19/2013?",
+      "opciones": [
+        "Desestimatorio",
+        "Estimatorio",
+        "Caducidad automática",
+        "Nulidad del procedimiento"
+      ],
+      "correcta": 0,
+      "justificacion": "La ausencia de resolución expresa dentro del plazo tiene efecto **desestimatorio**.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "Ley 19/2013 art. 20.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887"
+    },
+    {
+      "id": "DIP-T28-017",
+      "pregunta": "¿Qué plazo se establece para reclamar potestativamente ante el órgano de garantía de transparencia contra una resolución expresa?",
+      "opciones": [
+        "Tres meses",
+        "Un mes desde la notificación",
+        "10 días naturales",
+        "Cuatro años"
+      ],
+      "correcta": 1,
+      "justificacion": "El plazo es **un mes** desde el día siguiente a la notificación para resolución expresa, conforme al régimen aplicable.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "Ley 19/2013 art. 24.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887"
+    },
+    {
+      "id": "DIP-T28-018",
+      "pregunta": "¿Qué autoridad supervisa, en su ámbito de competencia, la aplicación del RGPD y LOPDGDD?",
+      "opciones": [
+        "La Junta Electoral Central",
+        "El Tribunal de Cuentas",
+        "La Agencia Española de Protección de Datos",
+        "El Consejo de Estado"
+      ],
+      "correcta": 2,
+      "justificacion": "La **AEPD** supervisa la aplicación de las normas de protección de datos en su ámbito competencial.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "LO 3/2018 art. 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DIP-T28-019",
+      "pregunta": "¿Cuándo debe designarse delegado de protección de datos por el artículo 37.1.a RGPD?",
+      "opciones": [
+        "Solo cuando haya sanciones",
+        "Solo en empresas de más de 500 trabajadores",
+        "Siempre en los tratamientos domésticos",
+        "Cuando el tratamiento lo lleve a cabo una autoridad u organismo público, salvo tribunales en función judicial"
+      ],
+      "correcta": 3,
+      "justificacion": "Autoridades y organismos públicos designan **delegado de protección de datos**, con excepción de tribunales en función judicial.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "RGPD art. 37.1.a · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa"
+    },
+    {
+      "id": "DIP-T28-020",
+      "pregunta": "¿Cuál es la edad ordinaria de consentimiento autónomo de menores al tratamiento de datos en España?",
+      "opciones": [
+        "14 años",
+        "13 años",
+        "16 años",
+        "18 años"
+      ],
+      "correcta": 0,
+      "justificacion": "El consentimiento autónomo general se admite desde los **14 años**, con las excepciones legales.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "LO 3/2018 art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
     }
   ]
 }
