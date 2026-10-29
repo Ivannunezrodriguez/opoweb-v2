@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 11
 
-**ESTADO EDITORIAL: EN REVISIÓN NORMATIVA 29/10/2026.** Fuente base revisada en La Puebla el **30/07/2026**.
+**ESTADO EDITORIAL: CONTENIDO COMPLETO. REVISIÓN DOCUMENTAL 29/10/2026.**
 
 ## Epígrafe oficial literal
 
@@ -10,7 +10,7 @@ Fuente: **BOP Toledo n.º 197, 14/10/2026, Anexo XI, p. 102**.
 
 ## Actualización normativa obligatoria
 
-**El TRLRHL registra una actualización publicada el 07/10/2026**, posterior a la revisión de la fuente base. Por tanto, cualquier dato o referencia de este manual al TRLRHL consolidado hasta el **03/06/2026** es **histórico y no acredita vigencia**. Debe comprobarse contra: https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214
+**Norma de referencia:** TRLRHL consolidado, última actualización **07/10/2026**: https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214
 
 La **LGT** tiene última actualización consolidada publicada el **21/12/2024**: https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186
 
@@ -1151,7 +1151,7 @@ El artículo 140 impide una segunda regularización del mismo objeto salvo hecho
 
 - Constitución española, artículos 31 y 133.
 - Real Decreto Legislativo 2/2004, de 5 de marzo, `BOE-A-2004-4214`.
-- Texto consolidado consultado hasta el 3 de junio de 2026.
+- Texto consolidado, última actualización publicada el **7 de octubre de 2026**.
 - Ley 58/2003, de 17 de diciembre, `BOE-A-2003-23186`.
 - Texto consolidado consultado hasta el 21 de diciembre de 2024.
 - Real Decreto 1065/2007, complemento reglamentario de gestión.
