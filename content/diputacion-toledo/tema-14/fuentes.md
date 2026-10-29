@@ -39,3 +39,15 @@
 - Revisión normativa efectuada en **julio de 2026**.
 - La LOREG incorpora la modificación publicada el **2 de julio de 2026**.
 - Las referencias a la estructura de la Diputación de Toledo describen la organización institucional publicada por la propia entidad y deben revisarse tras cualquier decreto de reorganización o cambio de legislatura.
+
+
+## Revisión documental de **29/10/2026**
+
+- [LRBRL consolidada, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): última actualización publicada **03/10/2026**; para organización provincial, **arts. 31–36**.
+- [LOREG consolidada, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672): última actualización publicada **02/07/2026**; **arts. 204–207**.
+- [Junta Electoral Central, LOREG art. 204](https://www.juntaelectoralcentral.es/cs/jec/loreg/versionesAnteriores?idContenido=2740513&idLeyJunta=1&idLeyModificacion=2740214&p=1379061761113&paux=1379061761113&template=Loreg%2FJEC_Contenido): confirmado baremo **25/27/31/51** y reparto por partidos judiciales.
+- [Junta Electoral Central, LOREG art. 207](https://www.juntaelectoralcentral.es/cs/jec/normativa/estatal?idContenido=2740929&idLeyJunta=1&idLeyModificacion=2740214&p=1379061506503&paux=1379061506503&template=Loreg%2FJEC_Contenido): **mayoría absoluta** para elegir Presidencia en primera votación y **simple** en segunda.
+
+Banco ampliado de **12 a 20 preguntas**. El contenido continúa en auditoría jurídica y funcional antes de su certificación final.
+
+> ⚠️ **¡Foco Examen!:** Los **27 diputados** de una provincia en la horquilla de **500.001–1.000.000 residentes** no equivalen a los **31** de la horquilla siguiente.
