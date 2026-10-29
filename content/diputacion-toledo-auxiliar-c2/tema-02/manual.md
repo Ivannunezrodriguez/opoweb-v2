@@ -856,7 +856,7 @@ Responder sin consultar:
 - Matriz normativa: realizada.
 - Artículos 1–33: desarrollados individualmente.
 - Plazos, excepciones y efectos: incorporados.
-- Preguntas trazables: **8 preguntas** disponibles en `tema-02/preguntas.json`; pendiente auditoría documental integral del banco.
+- Preguntas trazables: **20 preguntas** disponibles en `tema-02/preguntas.json`; las **12 nuevas** requieren segunda lectura jurídica y control funcional.
 - Revisión del usuario: **aprobada el 17 de julio de 2026**.
 - Tema cerrado para **Diputación C2**: **NO; BORRADOR PENDIENTE DE AUDITORÍA**.
 - Publicación como aprobado para esta convocatoria: **NO**.
