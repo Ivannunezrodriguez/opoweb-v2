@@ -265,3 +265,23 @@ IMPRESS
 ```
 
 > ⚠️ **¡Foco Examen!:** Las asociaciones esenciales son **ODP = formato nativo**, **Ctrl + M = nueva diapositiva**, **F5 = desde el principio**, **Mayús + F5 = desde la actual**, **transición = diapositiva** y **animación = objeto**.
+
+## 16. Auditoría práctica de la presentación y los objetos — **29/10/2026**
+
+| Función | Tecla u operación | Diferencia de examen |
+|---|---|---|
+| Iniciar pase de diapositivas | **F5** | Inicia el pase, no cambia al modo de edición |
+| Finalizar pase | **Esc** | Sale de la presentación |
+| Pantalla negra temporal | **B** | No oculta ni elimina la diapositiva del archivo |
+| Pantalla blanca temporal | **W** | No altera el fondo real de la diapositiva |
+| Ir directamente a una diapositiva | **Número + Intro** durante el pase | No reordena el documento |
+| Editar texto de un objeto | **F2** | No inicia el pase |
+| Posición y tamaño de objeto | **F4** | Propiedades geométricas del elemento |
+| Agrupar objetos seleccionados | **Ctrl + Mayús + G** | Agrupar no equivale a combinar objetos |
+| Ocultar una diapositiva | **Diapositiva → Ocultar diapositiva** | Permanece en el archivo, pero se omite del pase ordinario |
+
+> ⚠️ **¡Foco Examen!:** En pleno pase, **B** muestra una pantalla **negra** y **W**, una pantalla **blanca**; ninguna acción elimina ni cambia el contenido de la diapositiva.
+
+> ⚠️ **¡Foco Examen!:** **Ocultar** una diapositiva no es **eliminarla**. Tampoco es lo mismo **agrupar** objetos que combinar sus formas: la agrupación permite tratarlos como un conjunto manteniendo sus componentes.
+
+**Documentación oficial contrastada:** [atajos de Impress](https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html) y [operaciones con diapositivas](https://help.libreoffice.org/latest/es/text/simpress/main_slide.html). Banco ampliado a **20 preguntas**; pendiente auditoría editorial integral y pruebas de integración de OpoWeb.
