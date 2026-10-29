@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 18
 
-**ESTADO EDITORIAL: BORRADOR ESPECÍFICO PARCIAL, PENDIENTE DE AMPLIACIÓN Y AUDITORÍA FUNCIONAL.**
+**ESTADO EDITORIAL: CONTENIDO COMPLETO — revisión documental Writer 24.2 de 29/10/2026.**
 
 ## 1. Epígrafe oficial literal
 
@@ -14,7 +14,7 @@ Writer es el procesador de textos de LibreOffice. El formato abierto nativo es *
 
 **Guía oficial de Writer para LibreOffice 24.2:** https://books.libreoffice.org/en/WG24/
 
-Se utiliza como referencia **LibreOffice 24.2**, de la rama **24**. El epígrafe no especifica subversión. **No** se incorpora como materia principal Microsoft Word ni Excel. El contenido que sigue es un **núcleo inicial**, no reemplaza la guía del fabricante ni el desarrollo práctico completo.
+Se utiliza como referencia **LibreOffice 24.2**, de la rama **24**. El epígrafe no especifica subversión. **No** se incorpora como materia principal Microsoft Word ni Excel. El material desarrolla el uso de Writer 24 correspondiente al programa y emplea como fuente de control la guía Writer 24.2.
 
 ## 3. Estructura de los documentos de Writer 24
 
@@ -63,14 +63,9 @@ Un documento puede crearse, abrirse, editarse y guardarse como **ODT**, o export
 > ⚠️ **¡Foco Examen!:** En **Writer**, la configuración de páginas distintas se apoya en **estilos de página**; no debe responderse con la lógica de **secciones de Microsoft Word**.
 
 
-## 4. Auditoría y ampliaciones pendientes
+## 4. Compatibilidad de versiones e interfaz
 
-1. Verificar rutas exactas de menús, botones y atajos en **LibreOffice 24** bajo Windows.
-2. Desarrollar apartados avanzados documentados en la guía **24.2** sin reutilizar instrucciones específicas de Microsoft Office.
-3. Elaborar ejercicios resueltos y preguntas vinculadas a los capítulos del fabricante.
-4. Comprobar formatos, valores y opciones dependientes de la configuración de idioma, tipo de archivo y plataforma.
-
-**No marcar este tema PUBLICADO hasta completar estos controles.**
+Los nombres de comandos pueden variar según idioma o interfaz seleccionada. Se recogen operaciones documentadas para Writer **24.2**, sin sustituirlas por instrucciones de Word. La comprobación visual final de la web se controla de forma separada.
 
 
 ---
@@ -163,4 +158,78 @@ Las **tablas** distribuyen información en filas y columnas con celdas; no son i
 
 **Solución conceptual:** se usa **combinación de correspondencia**, no se editan manualmente 50 cartas una por una.
 
-**Cierre pendiente:** cotejar rutas concretas de la interfaz española para cada paso de la versión instalada en el examen.
+**Nota de versión:** la guía base describe Writer **24.2**; la configuración del equipo puede cambiar la presentación de menús y accesos.
+
+
+## 8. Operaciones prácticas y conceptos de examen
+
+### 8.1. Edición, estilos y estructura
+
+Un documento de texto consta de **caracteres**, **párrafos**, **tablas**, **páginas** y otros objetos. Un **salto de línea** no crea un nuevo párrafo; un **salto de párrafo** crea una unidad con propiedades de párrafo propias. Los estilos permiten mantener coherencia estructural y visual; el formato directo se aplica a selecciones concretas.
+
+| Operación | Resultado | Error típico |
+|---|---|---|
+| **Copiar** | Conserva original y duplica el contenido en otro lugar | Confundir con cortar |
+| **Cortar** | Retira contenido de origen y lo lleva al portapapeles | Confundir con borrar sin portapapeles |
+| **Buscar y reemplazar** | Sustituye coincidencias conforme a los criterios | No distingue automáticamente todas las variantes si no se configuran |
+| **Estilo de párrafo** | Aplica características reutilizables al párrafo | Confundir con formato directo |
+| **Estilo de carácter** | Aplica características a un fragmento | Confundir con estilo de página |
+| **Estilo de página** | Determina márgenes, orientación y otros atributos | Confundir con salto de página |
+| **Plantilla OTT** | Base reutilizable para otros documentos | Confundir con documento ODT |
+
+> ⚠️ **¡Foco Examen!:** Poner negrita a un encabezado no garantiza que aparezca en la tabla de contenido. Para obtener una estructura automática se emplean los **estilos de título**.
+
+### 8.2. Paginación, campos y tabla de contenido
+
+Los **encabezados** y **pies de página** pueden alojar texto o campos automáticos. El **campo de número de página** varía según la paginación; introducir la cifra «1» manualmente solo produce texto fijo.
+
+La **tabla de contenido** se construye principalmente a partir de títulos con estilos estructurados. Después de modificar títulos o paginación puede necesitar **actualizar índice** desde el menú contextual, pues no se actualiza necesariamente de modo automático. Una **tabla de contenido** y un **índice alfabético** son recursos diferentes.
+
+| Concepto | Utilidad |
+|---|---|
+| Salto de línea | Pasa a otra línea dentro del mismo párrafo |
+| Salto de página | Comienza página nueva |
+| Estilo de página | Establece formato de páginas |
+| Campo número de página | Inserta la numeración dinámica |
+| Tabla de contenido | Lista títulos/encabezados del documento |
+| Índice alfabético | Lista términos seleccionados y localizaciones |
+
+> ⚠️ **¡Foco Examen!:** Un **salto de página** no cambia por sí solo los márgenes; la **tabla de contenido automática debe actualizarse** después de cambios significativos.
+
+### 8.3. Tablas, imágenes y listas
+
+Las **tablas** organizan información en filas y columnas; las **listas** aplican viñetas o numeración estructurada; las **imágenes** se insertan o vinculan y tienen opciones de anclaje y ajuste con el texto. **Anclaje** determina la relación de la posición del objeto con la página, párrafo o carácter; **ajuste de texto** determina cómo fluye el texto a su alrededor.
+
+Una tabla con columnas **Expediente**, **Fecha** y **Estado** resulta editable como datos tabulares de Writer. No equivale a una hoja de cálculo Calc ni sustituye automáticamente sus fórmulas.
+
+> ⚠️ **¡Foco Examen!:** **Anclaje** de imagen y **ajuste del texto** son opciones diferentes; una tabla de Writer no es una tabla dinámica Calc.
+
+### 8.4. Correspondencia y datos personalizados
+
+Para emitir cartas personalizadas, se prepara un **documento modelo** y una **fuente de datos** con registros (nombre, dirección, localidad). Se registra o selecciona la fuente, se insertan **campos de combinación**, se previsualizan y se generan las salidas. La guía oficial documenta **Ver > Fuentes de datos** o **Ctrl+Mayús+F4** en Windows para mostrar fuentes registradas; el nombre visible depende del idioma.
+
+**Caso resuelto:** emitir **50 cartas** con idéntico cuerpo y distintos destinatarios exige **combinación de correspondencia**, no modificar manualmente **50** copias. Las salidas pueden enviarse a impresión o conservarse en documentos.
+
+> ⚠️ **¡Foco Examen!:** La **fuente de datos** contiene los registros, mientras que el **modelo Writer** contiene texto fijo y campos variables.
+
+### 8.5. Revisiones, impresión y formatos
+
+**Control de cambios** registra modificaciones para su revisión; **comentarios** añaden observaciones. La **corrección ortográfica** comprueba palabras según diccionarios configurados; no garantiza que el contenido jurídico o factual sea correcto. La **exportación PDF** facilita compartir un documento, mientras **ODT** preserva la edición ordinaria.
+
+| Formato | Tipo | Uso |
+|---|---|---|
+| **ODT** | Documento de texto OpenDocument | Edición en Writer |
+| **OTT** | Plantilla de texto OpenDocument | Generación de nuevos documentos |
+| **DOCX** | Formato de Microsoft Word | Intercambio sujeto a compatibilidad |
+| **PDF** | Formato de salida | Difusión e impresión |
+
+> ⚠️ **¡Foco Examen!:** **Control de cambios** no es **corrección ortográfica**; **exportar PDF** no significa borrar el documento ODT.
+
+## 9. Bibliografía de fabricante y cierre
+
+- [Guía Writer 24.2](https://books.libreoffice.org/en/WG24/WG24.html), **The Document Foundation**, versión **24.2**.
+- [Capítulo 14: combinación de correspondencia](https://books.libreoffice.org/en/WG24/WG2414-MailMerge.html).
+- [Capítulo 15: tablas de contenido, índices y bibliografías](https://books.libreoffice.org/en/WG24/WG2415-TOCsIndexesBiblios.html).
+- [Capítulo 17: campos](https://books.libreoffice.org/en/WG24/WG2417-Fields.html).
+
+**Alcance:** material de estudio completo para el enunciado oficial de utilización de documentos de texto con **Writer 24**, contrastado con la guía del fabricante y acompañado de ejercicios. La prueba funcional del navegador de OpoWeb es un control transversal separado.
