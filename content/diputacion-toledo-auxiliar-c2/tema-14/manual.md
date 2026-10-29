@@ -13,7 +13,7 @@
 - **Reglamento (UE) 910/2014 (eIDAS), Reglamento (UE) 2024/1183, Ley 6/2020, Ley 39/2015, Ley 40/2015 y RD 203/2021**.
 - Fuente primaria: https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046
 
-**Revisión editorial pendiente:** comprobar precisión de versiones, nomenclatura, órganos, plazos y excepciones y depurar cualquier referencia a la convocatoria anterior. Los apartados siguientes forman el cuerpo de estudio y proceden de los bloques desarrollados para La Puebla; **no están certificados para esta convocatoria**.
+**Marco vigente del programa:** eIDAS y su reforma **2024/1183**, Ley **6/2020**, Ley **39/2015**, Ley **40/2015** y RD **203/2021**. Se distingue legislación de desarrollo de las definiciones del Reglamento europeo.
 
 | Inciso del programa | Bloque incorporado |
 |---|---|
@@ -29,7 +29,7 @@
 
 ## 3. conceptos usos
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado y revisado para el programa de Diputación C2.**
 
 ## 1. Certificado, firma e identificación
 
@@ -169,7 +169,7 @@ Una persona entra con certificado en la sede municipal para consultar el estado 
 
 ## 4. tipos certificados
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado y revisado para el programa de Diputación C2.**
 
 ## 1. Clasificaciones que no deben mezclarse
 
@@ -342,7 +342,7 @@ La firma debe analizarse respecto del momento de creación y de las evidencias d
 
 ## 5. soportes
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado y revisado para el programa de Diputación C2.**
 
 ## 1. Soporte lógico o software
 
@@ -515,7 +515,7 @@ La aplicación `AutoFirma` es una herramienta de firma, no una autoridad certifi
 
 ## 6. prestadores servicios
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado y revisado para el programa de Diputación C2.**
 
 ## 1. Terminología vigente
 
@@ -745,7 +745,7 @@ No debe memorizarse una lista cerrada de marcas, porque la condición o cartera 
 
 ## 7. administraciones
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado y revisado para el programa de Diputación C2.**
 
 ## 1. Sistemas de identificación y firma del interesado
 
@@ -944,3 +944,34 @@ No es necesario que un empleado introduzca su certificado personal en cada emisi
 6. Confundir firma de empleado con sello de entidad.
 7. Pensar que la notificación electrónica es un servicio de entrega eIDAS sin más.
 8. Creer que escanear y estampar una imagen produce copia auténtica.
+
+
+## ANEXO · Cifras, diferencias y comprobaciones de examen (**29/10/2026**)
+
+| Cuestión | Regla jurídica contrastada | Fuente |
+|---|---|---|
+| **Identificación** | La **Administración** comprueba la identidad y admite sistemas del art. **9** | **Ley 39/2015**, art. **9** |
+| **Firma obligatoria** | Solicitudes, declaraciones responsables o comunicaciones, recursos, desistimiento y renuncia | **Ley 39/2015**, art. **11.2** |
+| **Certificados cualificados** | Vigencia máxima **5 años**, no necesariamente duración fija | **Ley 6/2020**, art. **4.2** |
+| **Caducidad** | Al agotarse la vigencia, el certificado se extingue | **Ley 6/2020**, art. **4.1** |
+| **Revocación** | Entre otras causas, compromiso o riesgo sobre datos de creación de firma o sello | **Ley 6/2020**, art. **5.1.b** |
+| **Consulta de revocación** | Los prestadores emisores dispondrán de un servicio público de consulta del estado | **Ley 6/2020**, art. **10.2** |
+| **Lista de confianza** | Identifica prestadores **cualificados** y servicios **cualificados** ofrecidos | **Reglamento eIDAS**, art. **22** |
+
+> ⚠️ **¡Foco Examen!:** **Caducidad** es el fin del período de vigencia; **revocación** puede producirse anticipadamente por compromiso de la clave. El límite de **5 años** no obliga a emitir certificados con esa duración.
+
+### Firma, sello y autenticación de sitio
+
+| Instrumento | Titularidad/finalidad | Error habitual |
+|---|---|---|
+| **Certificado de firma electrónica** | Relacionado con **persona física** firmante | Atribuir la firma personal a la empresa |
+| **Certificado de sello electrónico** | Relacionado con **persona jurídica** creadora del sello | Considerarlo firma manuscrita del gerente |
+| **Certificado de autenticación de web** | Relaciona el **sitio web** con una entidad identificada | Confundir HTTPS con garantía de veracidad de todo contenido |
+| **Tarjeta criptográfica** | Puede guardar clave privada no exportable | Confundir clave pública y privada |
+| **Firma remota** | Operación criptográfica mediante servicio y controles de autorización | Creer que firma remota equivale a enviar clave por email |
+
+> ⚠️ **¡Foco Examen!:** Una imagen escaneada de una rúbrica no equivale por sí misma a una **firma electrónica criptográfica verificable**. La presencia de un candado HTTPS no garantiza la legitimidad de los contenidos de una página.
+
+**Fuentes oficiales:** [eIDAS](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910), [reforma eIDAS de 2024](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1183), [Ley 6/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046), [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
+
+**Control pendiente:** revisión individual íntegra del texto de los cinco bloques y pruebas de interfaz. No se declara auditoría definitiva del manual solo por añadir estas tablas.
