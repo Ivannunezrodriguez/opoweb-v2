@@ -1,8 +1,8 @@
 {
   "tema": 18,
-  "estado": "BORRADOR_CON_REFERENCIAS_PRIMARIAS",
-  "version": "2026-10-25",
-  "criterio": "10 preguntas de entrenamiento contrastadas con Writer Guide 24.2 de The Document Foundation el 26/10/2026; originales, no oficiales.",
+  "estado": "BANCO_20_PREGUNTAS_DOCUMENTADAS",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales de Writer 24.2, opciones verificadas estructuralmente y fundamentación en documentación oficial The Document Foundation. No se ejecutó navegación visual de la web.",
   "preguntas": [
     {
       "id": "DT-C2-T18-001",
@@ -143,6 +143,146 @@
       "justificacion": "El **formato directo** se aplica a la selección concreta; los **estilos** agrupan atributos con nombre para reutilizarlos. El formato directo tiene prioridad visual sobre ciertas propiedades del estilo.",
       "trampaExamen": "Formato directo y estilos no son equivalentes; un formato manual puede impedir percibir un cambio posterior del estilo.",
       "referencia": "https://books.libreoffice.org/en/WG24/WG2408-IntroStyles.html"
+    },
+    {
+      "id": "DT-C2-T18-011",
+      "enunciado": "¿Qué diferencia existe entre salto de línea y salto de párrafo?",
+      "opciones": [
+        "Ambos crean una página",
+        "El salto de línea no inicia un nuevo párrafo",
+        "El salto de línea elimina el texto",
+        "Ambos cambian el estilo de página"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Un salto de línea continúa en el mismo párrafo y un salto de párrafo abre otro.",
+      "trampaExamen": "**Línea ≠ párrafo**.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2402-WorkingWithTextBasics.html"
+    },
+    {
+      "id": "DT-C2-T18-012",
+      "enunciado": "¿Qué tipo de estilo determina márgenes y orientación de páginas en Writer?",
+      "opciones": [
+        "Estilo de carácter",
+        "Estilo de lista",
+        "Estilo de página",
+        "Estilo de tabla"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los estilos de página controlan las propiedades de página.",
+      "trampaExamen": "**Estilo de página** no es **salto de página**.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2405-FormattingPagesBasics.html"
+    },
+    {
+      "id": "DT-C2-T18-013",
+      "enunciado": "¿Qué elemento conviene aplicar a títulos para construir una tabla de contenido automática?",
+      "opciones": [
+        "Solamente tamaño de letra",
+        "Solo negrita",
+        "Un color de texto cualquiera",
+        "Estilos de título de párrafo"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Las tablas de contenido usan la estructura de encabezados, normalmente estilos de título.",
+      "trampaExamen": "Un título visual sin estilo no garantiza que aparezca en el índice.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2415-TOCsIndexesBiblios.html"
+    },
+    {
+      "id": "DT-C2-T18-014",
+      "enunciado": "¿Qué permite el campo de número de página en Writer?",
+      "opciones": [
+        "Mostrar numeración dinámica",
+        "Insertar siempre el carácter 1",
+        "Cifrar el archivo",
+        "Crear una tabla dinámica"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El campo se actualiza según la página donde se muestra.",
+      "trampaExamen": "**Campo** no es texto fijo.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2417-Fields.html"
+    },
+    {
+      "id": "DT-C2-T18-015",
+      "enunciado": "¿Qué mecanismo contiene los registros variables de una combinación de correspondencia?",
+      "opciones": [
+        "El diccionario ortográfico",
+        "La fuente de datos",
+        "El pie de página",
+        "Un estilo de carácter"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La fuente de datos contiene campos y registros variables para personalizar cartas.",
+      "trampaExamen": "Modelo y fuente de datos son distintos.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2414-MailMerge.html"
+    },
+    {
+      "id": "DT-C2-T18-016",
+      "enunciado": "Después de cambiar títulos de un documento, ¿qué acción puede ser necesaria en la tabla de contenido de Writer?",
+      "opciones": [
+        "Volver a crear toda la plantilla OTT",
+        "Cerrar todas las páginas",
+        "Actualizar índice",
+        "Convertir el archivo en CSV"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La tabla de contenido necesita actualización cuando cambian títulos o paginación.",
+      "trampaExamen": "Automático al **generar** no significa automático al **actualizar**.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2415-TOCsIndexesBiblios.html"
+    },
+    {
+      "id": "DT-C2-T18-017",
+      "enunciado": "¿Cuál es la diferencia entre anclaje de imagen y ajuste del texto?",
+      "opciones": [
+        "No existe ninguna",
+        "Anclaje indica el formato de archivo",
+        "Ajuste cambia el idioma del documento",
+        "Anclaje relaciona posición; ajuste controla el flujo del texto"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El anclaje sitúa el objeto respecto a elementos del documento y el ajuste gobierna el texto cercano.",
+      "trampaExamen": "**Anclaje** y **ajuste** son controles distintos.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2411-ImagesAndGraphics.html"
+    },
+    {
+      "id": "DT-C2-T18-018",
+      "enunciado": "¿Cuál es el formato OpenDocument de plantilla de texto Writer?",
+      "opciones": [
+        ".ott",
+        ".ods",
+        ".odt",
+        ".csv"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "OTT es plantilla de texto; ODT documento editable.",
+      "trampaExamen": "Plantilla **OTT** no es documento **ODT**.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2410-WorkingWithTemplates.html"
+    },
+    {
+      "id": "DT-C2-T18-019",
+      "enunciado": "¿Qué herramienta registra modificaciones para poder revisarlas y aceptarlas o rechazarlas?",
+      "opciones": [
+        "Autofiltro",
+        "Control de cambios",
+        "Tabla dinámica",
+        "Combinación de correspondencia"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Control de cambios mantiene trazabilidad de ediciones en documentos.",
+      "trampaExamen": "Control de cambios y corrección ortográfica no son lo mismo.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2403-WorkingWithTextAdvanced.html"
+    },
+    {
+      "id": "DT-C2-T18-020",
+      "enunciado": "¿Cuál es una diferencia entre guardar un archivo ODT y exportar un PDF?",
+      "opciones": [
+        "El PDF siempre sustituye el ODT",
+        "No hay diferencias",
+        "ODT conserva formato de edición; PDF permite difusión",
+        "Exportar PDF elimina la tabla de contenido"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "ODT es el formato editable nativo y PDF una salida destinada a difusión, sin borrado necesario del original.",
+      "trampaExamen": "Guardar no equivale a exportar.",
+      "referencia": "https://books.libreoffice.org/en/WG24/WG2407-PrintingAndPublishing.html"
     }
   ],
   "auditoria": {
