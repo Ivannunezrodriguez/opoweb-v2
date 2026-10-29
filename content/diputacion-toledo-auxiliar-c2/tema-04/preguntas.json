@@ -1,8 +1,8 @@
 {
   "tema": 4,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
-  "criterio": "Ocho preguntas originales cotejadas con la Ley 39/2015 consolidada, 26/10/2026. No constituyen examen oficial.",
+  "estado": "BANCO_20_PREGUNTAS_DOCUMENTADO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas con cuatro opciones y artículos Ley 39/2015; control funcional del portal pendiente.",
   "preguntas": [
     {
       "id": "DT-C2-T4-001",
@@ -114,6 +114,174 @@
       "respuestaCorrecta": 3,
       "justificacion": "El artículo 109.2 permite en cualquier momento rectificar errores materiales, de hecho o aritméticos de sus propios actos, de oficio o a instancia de interesados; no equivale a revisar libremente la fundamentación jurídica.",
       "trampaExamen": "**Rectificación** (art. 109.2) no equivale a **revisión de nulidad** (art. 106) ni a **lesividad** (art. 107).",
+      "referencia": "Ley 39/2015, art. 109.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-009",
+      "enunciado": "¿Cuál es el plazo máximo para resolver y notificar un recurso potestativo de reposición?",
+      "opciones": [
+        "Tres meses",
+        "Un mes",
+        "Seis meses",
+        "Un año"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley 39/2015 fija **un mes** para dictar y notificar la resolución de reposición.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 124.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-010",
+      "enunciado": "¿Qué órgano resuelve el recurso de alzada?",
+      "opciones": [
+        "Un juez de paz",
+        "El mismo órgano siempre",
+        "El superior jerárquico del que dictó el acto",
+        "Un colegio profesional"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La alzada es resuelta por el **superior jerárquico**.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 121.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-011",
+      "enunciado": "¿Qué sucede con un recurso de reposición cuando se interpone otro de reposición contra su resolución?",
+      "opciones": [
+        "Siempre procede",
+        "Procede tras una semana",
+        "Debe tramitarlo el Pleno",
+        "No cabe recurso de reposición contra resolución de reposición"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 124.3 prohíbe **reposición contra resolución de reposición**.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 124.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-012",
+      "enunciado": "¿Cuál es el plazo para interponer reposición contra acto expreso?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Quince días",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El plazo frente a un acto expreso es de **un mes**.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 124.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-013",
+      "enunciado": "¿Cuándo puede pedirse revisión de oficio de actos nulos por el artículo 106?",
+      "opciones": [
+        "Solo en mes siguiente",
+        "En cualquier momento en las condiciones de la ley",
+        "Solo antes de notificar",
+        "Nunca por interesados"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La revisión por causas de **nulidad de pleno derecho** puede efectuarse **en cualquier momento**, con requisitos y límites.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 106.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-014",
+      "enunciado": "¿Qué dictamen se exige para revisión de oficio de actos nulos en los supuestos del art. 106.1?",
+      "opciones": [
+        "Informe de policía",
+        "Aprobación del ciudadano",
+        "Dictamen favorable del Consejo de Estado u órgano consultivo autonómico equivalente",
+        "Sentencia previa siempre"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Requiere **dictamen favorable del Consejo de Estado u órgano consultivo autonómico equivalente**.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 106.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-015",
+      "enunciado": "¿En cuánto tiempo debe declararse lesividad respecto del acto desde que se dictó?",
+      "opciones": [
+        "Un mes",
+        "Seis meses",
+        "Dos años",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "No podrá declararse la lesividad transcurridos **cuatro años** desde que se dictó el acto.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 107.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-016",
+      "enunciado": "¿Cuál es el plazo máximo para declarar lesividad en su procedimiento?",
+      "opciones": [
+        "Seis meses",
+        "Un mes",
+        "Dos años",
+        "Tres años"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Si transcurren **seis meses** desde iniciación sin declararse lesividad, caduca el procedimiento.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 107.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-017",
+      "enunciado": "¿Qué ocurre como regla general cuando se interpone un recurso administrativo?",
+      "opciones": [
+        "Se suspende automáticamente",
+        "No se suspende la ejecución del acto salvo previsión legal",
+        "Se anula definitivamente el acto",
+        "Se abre juicio penal"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La interposición de recurso no suspende por sí sola la ejecución del acto impugnado.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 117.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-018",
+      "enunciado": "¿Cuál es el plazo para recurso extraordinario de revisión por causas distintas del error de hecho del art. 125.1.a?",
+      "opciones": [
+        "Cuatro años",
+        "Un año",
+        "Tres meses desde conocimiento de documentos o firmeza de sentencia, según causa",
+        "Quince días"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Para otras causas, plazo de **tres meses** desde conocimiento de documentos o firmeza de sentencia.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 125.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-019",
+      "enunciado": "¿Cuánto tiempo tiene la Administración para resolver un recurso extraordinario de revisión?",
+      "opciones": [
+        "Un mes",
+        "Seis meses",
+        "Un año",
+        "Tres meses"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Transcurridos **tres meses** sin resolver y notificar, se entiende desestimado.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
+      "referencia": "Ley 39/2015, art. 126.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T4-020",
+      "enunciado": "¿Qué instrumento puede utilizar una Administración para rectificar errores materiales, de hecho o aritméticos?",
+      "opciones": [
+        "Rectificación en cualquier momento, de oficio o a instancia de interesados",
+        "Revisión ante el Tribunal Constitucional",
+        "Elecciones anticipadas",
+        "Recurso de casación exclusivamente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 109.2 permite rectificar **en cualquier momento** errores materiales, de hecho o aritméticos.",
+      "trampaExamen": "Diferenciar **plazo de interposición**, **plazo de resolución**, órgano y causa legal.",
       "referencia": "Ley 39/2015, art. 109.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ],
