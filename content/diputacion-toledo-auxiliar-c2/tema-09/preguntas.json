@@ -1,8 +1,8 @@
 {
   "tema": 9,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
-  "criterio": "Seis preguntas originales de entrenamiento revisadas frente al BOE consolidado el 26/10/2026; no son preguntas oficiales. Manual pendiente de auditoría integral.",
+  "estado": "BANCO_20_PREGUNTAS_REVISADO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas con referencias individuales a ambas leyes de igualdad y cuatro opciones; revisión de contenido de examen efectuada. Comprobación visual de la web no ejecutada.",
   "preguntas": [
     {
       "id": "DT-C2-T09-001",
@@ -87,6 +87,202 @@
       "justificacion": "El **artículo 7.1** define acoso sexual como comportamiento **verbal o físico de naturaleza sexual** con propósito o efecto de atentar contra la dignidad. El **artículo 7.2** define acoso por razón de sexo, y el **7.3** califica ambas conductas de discriminatorias.",
       "trampaExamen": "El acoso **sexual** puede ser **verbal**; el acoso **por razón de sexo** no requiere contenido sexual. **Ambos discriminan**.",
       "referencia": "LO 3/2007, arts. 7.1–7.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-007",
+      "enunciado": "¿Qué carácter tiene la igualdad de trato y oportunidades según el artículo 4 LO 3/2007?",
+      "opciones": [
+        "Una recomendación sin relevancia jurídica",
+        "Un principio informador del ordenamiento jurídico",
+        "Una facultad solo empresarial",
+        "Un derecho exclusivo de funcionarios"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Es un principio informador del ordenamiento jurídico que se integra y observa en la interpretación y aplicación de las normas.",
+      "trampaExamen": "**Principio informador**, no mera recomendación.",
+      "referencia": "LO 3/2007 art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-008",
+      "enunciado": "¿Cómo considera la LO 3/2007 la discriminación por embarazo o maternidad?",
+      "opciones": [
+        "Discriminación indirecta siempre",
+        "Un mero conflicto laboral",
+        "Discriminación directa por razón de sexo",
+        "Una situación no regulada"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 8 LO 3/2007 considera discriminación directa todo trato desfavorable a las mujeres relacionado con embarazo o maternidad.",
+      "trampaExamen": "**Embarazo y maternidad**: discriminación **directa**.",
+      "referencia": "LO 3/2007 art. 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-009",
+      "enunciado": "¿Qué ocurre con los actos y cláusulas de negocios jurídicos que constituyan o causen discriminación por razón de sexo?",
+      "opciones": [
+        "Son válidos si se firman",
+        "Se convierten en recomendación",
+        "Solo se anulan mediante acuerdo privado",
+        "Son nulos y sin efecto"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 10 LO 3/2007 declara nulos y sin efecto los actos y cláusulas que constituyan o causen discriminación por razón de sexo.",
+      "trampaExamen": "**Nulidad** no equivale a sanción económica automática.",
+      "referencia": "LO 3/2007 art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-010",
+      "enunciado": "¿Qué permite el artículo 11 LO 3/2007 en favor de las mujeres?",
+      "opciones": [
+        "Medidas específicas para corregir situaciones patentes de desigualdad de hecho",
+        "Discriminación permanente sin requisitos",
+        "Suprimir igualdad de trato",
+        "Eliminar controles de proporcionalidad"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 11 admite medidas específicas de acción positiva mientras subsistan dichas situaciones, razonables y proporcionadas.",
+      "trampaExamen": "**Acción positiva** requiere justificación y proporcionalidad.",
+      "referencia": "LO 3/2007 art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-011",
+      "enunciado": "¿Qué significa composición equilibrada en la disposición adicional primera LO 3/2007?",
+      "opciones": [
+        "50 % exacto obligatorio siempre",
+        "Ningún sexo más de 60 % ni menos de 40 %",
+        "Al menos un 20 % de cada sexo",
+        "Dos tercios de cada sexo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La disposición adicional primera establece el intervalo **40 %–60 %** de cada sexo en el conjunto de referencia.",
+      "trampaExamen": "No exige necesariamente reparto **50/50**.",
+      "referencia": "LO 3/2007 DA 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-012",
+      "enunciado": "¿Qué regula el artículo 7 LO 3/2007?",
+      "opciones": [
+        "Solo tipos de contratos",
+        "Un impuesto local",
+        "El acoso sexual y el acoso por razón de sexo",
+        "La jubilación"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Distingue acoso sexual (comportamiento de naturaleza sexual) y acoso por razón de sexo (comportamiento en función del sexo de una persona).",
+      "trampaExamen": "Ambos son comportamientos **discriminatorios**.",
+      "referencia": "LO 3/2007 art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-013",
+      "enunciado": "¿Qué regla establece el artículo 9 LO 3/2007 ante represalias por reclamar igualdad?",
+      "opciones": [
+        "Autoriza represalias",
+        "Exige autorización judicial para quejarse",
+        "Solo protege a trabajadores indefinidos",
+        "Considera discriminatorio el trato adverso por denunciar o reclamar para exigir igualdad"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 9 protege frente al trato adverso por presentar queja, reclamación, denuncia, demanda o recurso para impedir discriminación.",
+      "trampaExamen": "**Indemnidad** también protege frente a represalias.",
+      "referencia": "LO 3/2007 art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-014",
+      "enunciado": "¿Qué significa transversalidad del principio de igualdad según el artículo 15 LO 3/2007?",
+      "opciones": [
+        "Integración del principio en la actuación de todos los poderes públicos",
+        "Aplicación exclusiva a educación",
+        "Exclusión de presupuestos",
+        "Separación de la igualdad de las políticas públicas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El principio informa transversalmente la actuación de todos los poderes públicos.",
+      "trampaExamen": "**Transversalidad** no es un programa aislado.",
+      "referencia": "LO 3/2007 art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-015",
+      "enunciado": "¿Qué exige el artículo 19 LO 3/2007 para proyectos de disposiciones generales y planes especialmente relevantes sometidos al Consejo de Ministros?",
+      "opciones": [
+        "Siempre un informe ambiental exclusivamente",
+        "Informe sobre impacto por razón de género",
+        "No elaborar informes",
+        "Una declaración del contribuyente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 19 establece incorporación del informe de impacto por razón de género en los términos previstos.",
+      "trampaExamen": "No confundir **informe de impacto de género** con memoria económica.",
+      "referencia": "LO 3/2007 art. 19 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    },
+    {
+      "id": "DT-C2-T09-016",
+      "enunciado": "¿Qué persigue el artículo 8 de la Ley 12/2010 de Castilla-La Mancha?",
+      "opciones": [
+        "Eliminar unidades de igualdad",
+        "Permitir desigualdad institucional",
+        "Incorporar perspectiva de género de forma transversal en políticas públicas",
+        "Reservar igualdad al sector privado"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La transversalidad integra la perspectiva de género en políticas y actuaciones de la Administración autonómica.",
+      "trampaExamen": "Se aplica durante **planificación, ejecución y evaluación**, no solo al final.",
+      "referencia": "Ley 12/2010 art. 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708"
+    },
+    {
+      "id": "DT-C2-T09-017",
+      "enunciado": "¿Qué finalidad tiene la Ley 12/2010 de Castilla-La Mancha?",
+      "opciones": [
+        "Establecer exclusivamente tasas municipales",
+        "Regular solo contratos privados",
+        "Modificar el Código Penal",
+        "Promover condiciones para igualdad real y efectiva de mujeres y hombres en Castilla-La Mancha"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Los artículos iniciales establecen medidas de igualdad efectiva y actuación de poderes públicos de Castilla-La Mancha.",
+      "trampaExamen": "No confundir **Ley 12/2010 autonómica** y **LO 3/2007 estatal**.",
+      "referencia": "Ley 12/2010 arts. 1-2 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708"
+    },
+    {
+      "id": "DT-C2-T09-018",
+      "enunciado": "¿Qué principio aparece entre los de actuación de poderes públicos de Castilla-La Mancha en el artículo 4?",
+      "opciones": [
+        "Promoción del uso de lenguaje no sexista",
+        "Discriminación salarial obligatoria",
+        "Exclusión de mujeres de órganos",
+        "Secreto sobre estadísticas públicas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 4.g prevé implantar lenguaje no sexista en el ámbito administrativo y fomentar su uso.",
+      "trampaExamen": "**Lenguaje no sexista** es principio explícito.",
+      "referencia": "Ley 12/2010 art. 4.g · https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708"
+    },
+    {
+      "id": "DT-C2-T09-019",
+      "enunciado": "¿Qué ámbito contempla la Ley 12/2010 entre sus políticas de igualdad?",
+      "opciones": [
+        "Solo empresas radicadas fuera de España",
+        "Empleo público e igualdad en la Administración autonómica",
+        "Exclusivamente relaciones diplomáticas",
+        "Solo tráfico marítimo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La ley autonómica contiene medidas sobre igualdad y empleo público en su ámbito competencial.",
+      "trampaExamen": "La ley autonómica **no sustituye** el régimen estatal.",
+      "referencia": "Ley 12/2010 arts. 40-44 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708"
+    },
+    {
+      "id": "DT-C2-T09-020",
+      "enunciado": "¿Qué diferencia correctamente discriminación directa e indirecta?",
+      "opciones": [
+        "Ambas exigen conducta sexual",
+        "Solo la indirecta es ilícita",
+        "La directa compara trato desfavorable por sexo; la indirecta parte de criterio aparentemente neutro con desventaja particular injustificada",
+        "La indirecta nunca admite justificación objetiva"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La LO 3/2007 art. 6 define ambas y para la indirecta contempla justificación objetiva por finalidad legítima con medios necesarios y adecuados.",
+      "trampaExamen": "La **indirecta** puede tener justificación objetiva en los términos de ley.",
+      "referencia": "LO 3/2007 art. 6 · https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
     }
   ],
   "auditoria": {
