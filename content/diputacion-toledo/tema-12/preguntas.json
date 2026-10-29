@@ -1,12 +1,17 @@
 {
   "tema": 12,
   "titulo": "Régimen Local Español",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T12-001",
       "pregunta": "Según el artículo 137 de la Constitución, el Estado se organiza territorialmente en:",
-      "opciones": ["Municipios, provincias y comunidades autónomas", "Municipios, comarcas y provincias", "Provincias, islas y regiones", "Municipios, diputaciones y comunidades autónomas"],
+      "opciones": [
+        "Municipios, provincias y comunidades autónomas",
+        "Municipios, comarcas y provincias",
+        "Provincias, islas y regiones",
+        "Municipios, diputaciones y comunidades autónomas"
+      ],
       "correcta": 0,
       "justificacion": "El artículo 137 de la Constitución organiza territorialmente el Estado en municipios, provincias y comunidades autónomas que se constituyan.",
       "trampa": "Las diputaciones son órganos de gobierno provincial, no categorías territoriales del artículo 137.",
@@ -15,7 +20,12 @@
     {
       "id": "DIP-T12-002",
       "pregunta": "La autonomía local equivale a:",
-      "opciones": ["Soberanía territorial", "Capacidad de gestionar intereses propios dentro de la ley", "Independencia normativa plena", "Ausencia de control jurisdiccional"],
+      "opciones": [
+        "Soberanía territorial",
+        "Capacidad de gestionar intereses propios dentro de la ley",
+        "Independencia normativa plena",
+        "Ausencia de control jurisdiccional"
+      ],
       "correcta": 1,
       "justificacion": "La autonomía local permite ordenar y gestionar los intereses propios de la entidad dentro del marco constitucional y legal.",
       "trampa": "Autonomía local no significa soberanía ni independencia frente al ordenamiento jurídico.",
@@ -24,7 +34,12 @@
     {
       "id": "DIP-T12-003",
       "pregunta": "La alteración de los límites provinciales debe aprobarse mediante:",
-      "opciones": ["Ley ordinaria", "Decreto-ley", "Ley orgánica", "Reglamento autonómico"],
+      "opciones": [
+        "Ley ordinaria",
+        "Decreto-ley",
+        "Ley orgánica",
+        "Reglamento autonómico"
+      ],
       "correcta": 2,
       "justificacion": "El artículo 141.1 de la Constitución exige una ley orgánica para cualquier alteración de los límites provinciales.",
       "trampa": "No basta una ley ordinaria ni una disposición reglamentaria autonómica.",
@@ -33,7 +48,12 @@
     {
       "id": "DIP-T12-004",
       "pregunta": "La Constitución garantiza expresamente la autonomía de:",
-      "opciones": ["Las diputaciones", "Los municipios", "Las mancomunidades", "Las comarcas"],
+      "opciones": [
+        "Las diputaciones",
+        "Los municipios",
+        "Las mancomunidades",
+        "Las comarcas"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 140 de la Constitución garantiza expresamente la autonomía de los municipios.",
       "trampa": "La diputación es una forma de gobierno y administración de la provincia, no la entidad cuya autonomía garantiza literalmente el artículo 140.",
@@ -42,7 +62,12 @@
     {
       "id": "DIP-T12-005",
       "pregunta": "La provincia es constitucionalmente:",
-      "opciones": ["Solo una división territorial estatal", "Solo una agrupación de municipios", "Entidad local, agrupación de municipios y división territorial para actividades del Estado", "Una administración autonómica periférica"],
+      "opciones": [
+        "Solo una división territorial estatal",
+        "Solo una agrupación de municipios",
+        "Entidad local, agrupación de municipios y división territorial para actividades del Estado",
+        "Una administración autonómica periférica"
+      ],
       "correcta": 2,
       "justificacion": "El artículo 141.1 configura la provincia como entidad local con personalidad jurídica propia, determinada por la agrupación de municipios y división territorial para el cumplimiento de las actividades del Estado.",
       "trampa": "La provincia reúne simultáneamente varias dimensiones; no tiene una única naturaleza jurídica o territorial.",
@@ -51,7 +76,12 @@
     {
       "id": "DIP-T12-006",
       "pregunta": "Las haciendas locales se nutren fundamentalmente de:",
-      "opciones": ["Tributos propios exclusivamente", "Tributos propios y participación en tributos estatales y autonómicos", "Transferencias estatales exclusivamente", "Deuda pública local"],
+      "opciones": [
+        "Tributos propios exclusivamente",
+        "Tributos propios y participación en tributos estatales y autonómicos",
+        "Transferencias estatales exclusivamente",
+        "Deuda pública local"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 142 de la Constitución dispone que las haciendas locales se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las comunidades autónomas.",
       "trampa": "La Constitución no limita la financiación local a los tributos propios ni a las transferencias estatales.",
@@ -60,7 +90,12 @@
     {
       "id": "DIP-T12-007",
       "pregunta": "¿Cuál es la norma básica estatal de referencia en régimen local?",
-      "opciones": ["Ley 39/2015", "Ley 7/1985", "Real Decreto 2568/1986", "Real Decreto Legislativo 2/2004"],
+      "opciones": [
+        "Ley 39/2015",
+        "Ley 7/1985",
+        "Real Decreto 2568/1986",
+        "Real Decreto Legislativo 2/2004"
+      ],
       "correcta": 1,
       "justificacion": "La Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, constituye la norma básica estatal de referencia en esta materia.",
       "trampa": "El ROF desarrolla aspectos de organización y funcionamiento, pero no sustituye a la legislación básica estatal.",
@@ -69,7 +104,12 @@
     {
       "id": "DIP-T12-008",
       "pregunta": "¿Cuál de las siguientes es una entidad local territorial?",
-      "opciones": ["La mancomunidad", "El municipio", "El área metropolitana", "La comarca"],
+      "opciones": [
+        "La mancomunidad",
+        "El municipio",
+        "El área metropolitana",
+        "La comarca"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 3.1 de la Ley 7/1985 considera entidades locales territoriales al municipio, la provincia y la isla en los archipiélagos balear y canario.",
       "trampa": "Las demás opciones pueden ser entidades locales, pero no integran la clasificación territorial básica del artículo 3.1.",
@@ -78,7 +118,12 @@
     {
       "id": "DIP-T12-009",
       "pregunta": "Las competencias propias de las entidades locales:",
-      "opciones": ["Pueden atribuirse por reglamento", "Solo pueden determinarse por ley", "Requieren siempre delegación autonómica", "Se ejercen bajo dirección estatal"],
+      "opciones": [
+        "Pueden atribuirse por reglamento",
+        "Solo pueden determinarse por ley",
+        "Requieren siempre delegación autonómica",
+        "Se ejercen bajo dirección estatal"
+      ],
       "correcta": 1,
       "justificacion": "Conforme al artículo 7.2 de la Ley 7/1985, las competencias propias de los municipios, provincias, islas y demás entidades locales territoriales solo pueden determinarse por ley.",
       "trampa": "Una ordenanza local no puede crear por sí misma nuevas competencias propias.",
@@ -87,7 +132,12 @@
     {
       "id": "DIP-T12-010",
       "pregunta": "La duración de una delegación de competencias a una entidad local será, como regla general, no inferior a:",
-      "opciones": ["2 años", "3 años", "4 años", "5 años"],
+      "opciones": [
+        "2 años",
+        "3 años",
+        "4 años",
+        "5 años"
+      ],
       "correcta": 3,
       "justificacion": "El artículo 27.1 de la Ley 7/1985 establece que la delegación habrá de mejorar la eficiencia de la gestión pública y contribuir a eliminar duplicidades, debiendo fijarse con una duración no inferior a cinco años.",
       "trampa": "No confundir los cinco años mínimos de la delegación con la duración ordinaria del mandato corporativo local.",
@@ -96,7 +146,12 @@
     {
       "id": "DIP-T12-011",
       "pregunta": "La potestad reglamentaria local se ejerce:",
-      "opciones": ["Sin límites por la autonomía local", "Dentro de las competencias y con sujeción a la ley", "Solo por delegación estatal", "Únicamente en materia tributaria"],
+      "opciones": [
+        "Sin límites por la autonomía local",
+        "Dentro de las competencias y con sujeción a la ley",
+        "Solo por delegación estatal",
+        "Únicamente en materia tributaria"
+      ],
       "correcta": 1,
       "justificacion": "Las entidades locales ejercen su potestad reglamentaria y de autoorganización dentro del ámbito de sus competencias y con plena sujeción a la Constitución y a la ley.",
       "trampa": "La autonomía local no elimina el principio de legalidad ni la jerarquía normativa.",
@@ -105,11 +160,128 @@
     {
       "id": "DIP-T12-012",
       "pregunta": "Como regla general, el control estatal o autonómico sobre las entidades locales es un control de:",
-      "opciones": ["Oportunidad política", "Legalidad", "Conveniencia económica", "Tutela jerárquica"],
+      "opciones": [
+        "Oportunidad política",
+        "Legalidad",
+        "Conveniencia económica",
+        "Tutela jerárquica"
+      ],
       "correcta": 1,
       "justificacion": "La autonomía local es compatible con controles de legalidad sobre la actuación local, pero no con una tutela jerárquica general de oportunidad por parte del Estado o de la comunidad autónoma.",
       "trampa": "Las entidades locales no están jerárquicamente subordinadas al Estado ni a la comunidad autónoma.",
       "referencia": "content/diputacion-toledo/tema-12/manual.md#11-control-y-tutela-de-legalidad"
+    },
+    {
+      "id": "DIP-T12-013",
+      "pregunta": "¿Qué entidades son territoriales según el artículo 3.1 de la Ley 7/1985?",
+      "opciones": [
+        "Municipio, provincia e isla en los archipiélagos balear y canario",
+        "Municipio, comarca y mancomunidad",
+        "Provincia, área metropolitana y sindicato",
+        "Mancomunidad, comarca y consorcio"
+      ],
+      "correcta": 0,
+      "justificacion": "El art. 3.1 enumera municipio, provincia e isla en los archipiélagos balear y canario.",
+      "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+      "referencia": "Ley 7/1985 art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DIP-T12-014",
+      "pregunta": "¿Qué entidades tienen condición de locales, pero no figuran como territoriales en el artículo 3.1?",
+      "opciones": [
+        "Los municipios",
+        "Las mancomunidades de municipios",
+        "Las provincias",
+        "Las islas"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 3.2 incluye mancomunidades, comarcas y áreas metropolitanas como entidades locales.",
+      "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+      "referencia": "Ley 7/1985 art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DIP-T12-015",
+      "pregunta": "¿Qué potestad tienen expresamente municipios, provincias e islas en su ámbito competencial?",
+      "opciones": [
+        "Aprobar leyes orgánicas",
+        "Resolver recursos de inconstitucionalidad",
+        "Potestad reglamentaria y de autoorganización",
+        "Dirigir los tribunales"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 4.1.a reconoce potestades reglamentaria y de autoorganización.",
+      "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+      "referencia": "Ley 7/1985 art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DIP-T12-016",
+      "pregunta": "¿Qué mayoría parlamentaria requiere la alteración de límites provinciales?",
+      "opciones": [
+        "Mayoría simple en el Senado",
+        "Mayoría absoluta autonómica",
+        "Acuerdo municipal",
+        "Aprobación por Cortes Generales mediante ley orgánica"
+      ],
+      "correcta": 3,
+      "justificacion": "El artículo 141.1 CE exige aprobación de las Cortes Generales mediante **ley orgánica**.",
+      "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+      "referencia": "Constitución Española art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T12-017",
+      "pregunta": "¿Cuál es el plazo mínimo general para la delegación de competencias del Estado o comunidad autónoma en municipios?",
+      "opciones": [
+        "Cinco años",
+        "Un año",
+        "Seis meses",
+        "Diez años"
+      ],
+      "correcta": 0,
+      "justificacion": "El artículo 27.1 LRBRL exige que la duración de la delegación no sea inferior a **5 años**.",
+      "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+      "referencia": "Ley 7/1985 art. 27 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DIP-T12-018",
+      "pregunta": "¿Qué precepto constitucional garantiza expresamente la autonomía de los municipios?",
+      "opciones": [
+        "Artículo 137 exclusivamente",
+        "Artículo 140",
+        "Artículo 155",
+        "Artículo 54"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 140 CE garantiza la autonomía de los municipios y su plena personalidad jurídica.",
+      "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+      "referencia": "Constitución Española art. 140 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T12-019",
+      "pregunta": "¿De qué se nutrirán fundamentalmente las haciendas locales según el artículo 142 CE?",
+      "opciones": [
+        "Solo de tasas municipales",
+        "Solo de subvenciones autonómicas",
+        "De tributos propios y participación en los del Estado y de las comunidades autónomas",
+        "Exclusivamente de operaciones de crédito"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 142 CE señala fundamentalmente los tributos propios y la participación en los del Estado y de las comunidades autónomas.",
+      "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+      "referencia": "Constitución Española art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T12-020",
+      "pregunta": "¿Qué distingue la autonomía local de la soberanía?",
+      "opciones": [
+        "La autonomía supone independencia absoluta",
+        "La autonomía permite desobedecer la legislación básica",
+        "La autonomía atribuye poder constituyente",
+        "La autonomía permite gestionar intereses propios dentro del ordenamiento"
+      ],
+      "correcta": 3,
+      "justificacion": "La autonomía de las entidades locales se ejerce para gestionar sus intereses en el marco constitucional y legal.",
+      "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
+      "referencia": "Constitución Española art. 137 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     }
   ]
 }
