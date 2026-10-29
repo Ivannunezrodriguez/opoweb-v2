@@ -280,3 +280,21 @@ PROCEDIMIENTO LOCAL
 ```
 
 > ⚠️ **¡Foco Examen!:** No deben confundirse tres plazos distintos: **10 días** para cursar la notificación, **10 días naturales** para que una notificación electrónica no abierta se entienda rechazada y **3 días** para practicar el segundo intento en papel.
+
+## 9. Cuadro de comprobación legal — **29/10/2026**
+
+| Actuación | Regla relevante | Fuente |
+|---|---|---|
+| Registro electrónico | Abierto **24 horas**, sin convertir los días inhábiles en hábiles | **Ley 39/2015, arts. 16 y 31** |
+| Presentación presencial | Digitalización por **oficina de asistencia en materia de registros**, con devolución del original salvo excepciones | **Art. 16.5** |
+| Subsanación de solicitud | **10 días** y eventual desistimiento, previa resolución | **Art. 68.1** |
+| Solicitud en papel de sujeto obligado electrónico | Requerimiento de subsanación electrónica; presentación en la **fecha de subsanación** | **Art. 68.4** |
+| Notificación | Debe cursarse en **10 días** desde dictarse el acto | **Art. 40.2** |
+| Recepción en domicilio por tercero | Persona **mayor de 14 años**, que haga constar identidad | **Art. 42.2** |
+| Segundo intento de notificación en papel | Una vez más, dentro de **3 días**, en hora distinta y con separación horaria legal | **Art. 42.2** |
+| Notificación no practicable | Anuncio obligatorio en **BOE** | **Art. 44** |
+| Aviso a correo o dispositivo | Su omisión **no** invalida la notificación correctamente practicada | **Art. 41.6** |
+
+> ⚠️ **¡Foco Examen!:** **10 días** para cursar una notificación no equivale a **10 días naturales** para el rechazo de una notificación electrónica obligatoria puesta a disposición sin acceder. La presencia de un aviso por correo tampoco sustituye a la notificación.
+
+**Fuente primaria contrastada:** [Ley 39/2015 consolidada — BOE, actualización publicada el 06/11/2024](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). **20 preguntas** disponibles. Continúan pendientes revisión editorial integral del tema y comprobación funcional del portal.
