@@ -174,12 +174,12 @@
       "id": "DIP-T04-013",
       "pregunta": "La competencia atribuida como propia a un órgano administrativo es:",
       "opciones": [
+        "Renunciable mediante acuerdo interno",
         "Irrenunciable",
-        "Lo decide automáticamente un particular",
-        "No requiere regulación legal",
-        "Es una atribución propia del órgano judicial"
+        "Transferible siempre a un particular",
+        "Ejercitable indistintamente por todos los órganos"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "Ley 40/2015, artículo 8: Irrenunciable.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
       "referencia": "Ley 40/2015, art. 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
@@ -188,12 +188,12 @@
       "id": "DIP-T04-014",
       "pregunta": "¿Puede delegarse la resolución de recursos en el órgano que dictó el acto recurrido?",
       "opciones": [
-        "Siempre transfiere la titularidad",
+        "Sí, siempre",
+        "Sí, si acepta el recurrente",
         "No",
-        "No requiere regulación legal",
-        "Es una atribución propia del órgano judicial"
+        "Sí, sin necesidad de habilitación"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "Ley 40/2015, artículo 9: No.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
       "referencia": "Ley 40/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
@@ -202,12 +202,12 @@
       "id": "DIP-T04-015",
       "pregunta": "¿Dónde se publica una delegación de competencias?",
       "opciones": [
-        "Siempre transfiere la titularidad",
-        "Lo decide automáticamente un particular",
+        "Únicamente en el tablón del órgano",
         "En el diario oficial correspondiente",
-        "Es una atribución propia del órgano judicial"
+        "Solo en una nota de prensa",
+        "Exclusivamente en la intranet"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "Ley 40/2015, artículo 9: En el diario oficial correspondiente.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
       "referencia": "Ley 40/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
@@ -216,9 +216,9 @@
       "id": "DIP-T04-016",
       "pregunta": "¿Transfiere la encomienda de gestión la titularidad de la competencia?",
       "opciones": [
-        "Siempre transfiere la titularidad",
-        "Lo decide automáticamente un particular",
-        "No requiere regulación legal",
+        "Sí, en todo caso",
+        "Sí, si la actividad es técnica",
+        "Solo si hay convenio",
         "No"
       ],
       "correcta": 3,
@@ -230,12 +230,12 @@
       "id": "DIP-T04-017",
       "pregunta": "¿Qué efecto tiene la delegación de firma sobre la competencia?",
       "opciones": [
+        "Transfiere la titularidad",
+        "Extingue la competencia delegada",
         "No la altera",
-        "Lo decide automáticamente un particular",
-        "No requiere regulación legal",
-        "Es una atribución propia del órgano judicial"
+        "Requiere publicar una ley"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "Ley 40/2015, artículo 12: No la altera.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
       "referencia": "Ley 40/2015, art. 12 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
@@ -244,10 +244,10 @@
       "id": "DIP-T04-018",
       "pregunta": "Si concurre causa legal de abstención, ¿qué hace el empleado público?",
       "opciones": [
-        "Siempre transfiere la titularidad",
+        "Continuar y resolver con normalidad",
         "Se abstiene y comunica la causa al superior inmediato",
-        "No requiere regulación legal",
-        "Es una atribución propia del órgano judicial"
+        "Resolver unilateralmente su recusación",
+        "Delegar siempre la titularidad"
       ],
       "correcta": 1,
       "justificacion": "Ley 40/2015, artículo 23: Se abstiene y comunica la causa al superior inmediato.",
@@ -258,12 +258,12 @@
       "id": "DIP-T04-019",
       "pregunta": "¿Cuándo debe manifestar el recusado a su superior si concurre la causa?",
       "opciones": [
-        "Siempre transfiere la titularidad",
-        "Lo decide automáticamente un particular",
-        "Al día siguiente",
-        "Es una atribución propia del órgano judicial"
+        "En diez días",
+        "En tres días",
+        "En un mes",
+        "Al día siguiente"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "Ley 40/2015, artículo 24: Al día siguiente.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
       "referencia": "Ley 40/2015, art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
@@ -272,12 +272,12 @@
       "id": "DIP-T04-020",
       "pregunta": "¿Qué caracteriza a la cooperación entre Administraciones?",
       "opciones": [
-        "Siempre transfiere la titularidad",
-        "Lo decide automáticamente un particular",
-        "No requiere regulación legal",
-        "Compromisos voluntarios para una acción común"
+        "Impone una relación jerárquica",
+        "Se basa en sanciones entre órganos",
+        "Compromisos voluntarios para una acción común",
+        "Solo puede producirse entre municipios"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "justificacion": "Ley 40/2015, artículo 143: Compromisos voluntarios para una acción común.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
       "referencia": "Ley 40/2015, art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
