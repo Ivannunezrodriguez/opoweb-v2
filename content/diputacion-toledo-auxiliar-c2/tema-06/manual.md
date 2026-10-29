@@ -794,3 +794,8 @@ La búsqueda dirigida sobre **enero y febrero de 2005**, incluyendo hemeroteca p
 No se extrapola la aprobación definitiva de **otras normas provinciales** —como el Reglamento de Organización de **2024**— a los Estatutos del OAPGT. **Permanecen no certificadas la composición vigente en 2026, las convocatorias, los quórums y las mayorías** del Consejo Rector.
 
 **Estado del tema 6: BORRADOR PARCIAL, NO CERTIFICADO**.
+
+
+## Nota de verificación de 29/10/2026
+
+La reforma estatutaria anunciada en diciembre de 2004 aparece como **aprobación inicial**. Sin publicación definitiva localizada, no debe presentarse como texto consolidado vigente. El tema permanece en revisión.
