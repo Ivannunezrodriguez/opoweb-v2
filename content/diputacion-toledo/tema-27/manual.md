@@ -288,3 +288,21 @@ PRESUPUESTO GENERAL LOCAL
 ```
 
 > ⚠️ **¡Foco Examen!:** La secuencia correcta es formación por la Presidencia → informe de Intervención → aprobación inicial del Pleno → exposición **15 días** → resolución de reclamaciones en **1 mes** → publicación → entrada en vigor.
+
+## 16. Auditoría de fechas, órganos y efectos — **29/10/2026**
+
+| Fase | Competencia o plazo | TRLRHL |
+|---|---|---|
+| Formación del presupuesto general | **Presidente** de la entidad local | **Art. 168.4** |
+| Remisión al Pleno con informe de Intervención | Antes del **15 de octubre** | **Art. 168.4** |
+| Aprobación inicial | **Pleno** | **Art. 168.5 y 169.1** |
+| Exposición pública tras aprobación inicial | **15 días** | **Art. 169.1** |
+| Sin reclamaciones en exposición | Aprobación **definitiva automática** | **Art. 169.1** |
+| Con reclamaciones | El **Pleno** dispone de **1 mes** para resolverlas | **Art. 169.1** |
+| Aprobación definitiva | Antes del **31 de diciembre** del ejercicio anterior | **Art. 169.2** |
+| Falta de entrada en vigor a 1 de enero | Prórroga automática del presupuesto anterior, con excepciones | **Art. 169.6** |
+| Impugnación de aprobación definitiva | **Recurso contencioso-administrativo** | **Art. 171.1** |
+
+> ⚠️ **¡Foco Examen!:** El **15 de octubre** corresponde a la remisión del proyecto al **Pleno**; el **31 de diciembre** es el límite de aprobación definitiva. El plazo de **15 días** es para la exposición pública, no el plazo para que el **Pleno** resuelva reclamaciones (**1 mes**).
+
+**Control de vigencia:** El [TRLRHL consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) indica una actualización publicada el **07/10/2026**, posterior a la edición del **03/06/2026** recogida inicialmente en fuentes. Cuadro cotejado con sus arts. **168–171**. Banco de **20 preguntas**. Pendiente auditoría completa del manual y prueba funcional antes de declarar cerrado el tema.
