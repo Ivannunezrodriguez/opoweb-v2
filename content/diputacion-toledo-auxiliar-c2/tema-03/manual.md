@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 3
 
-**Estado editorial: BORRADOR ADAPTADO.** Contenido de partida auditado en La Puebla el 30/07/2026; revisión jurídica específica para la nueva convocatoria pendiente. Esta copia no implica aprobación definitiva.
+**Estado editorial: CONTENIDO COMPLETO — revisión documental 29/10/2026.**
 
 ## 1. Epígrafe oficial literal
 
@@ -953,3 +953,31 @@ Responder sin consultar:
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 3 aprobado»** el 17 de julio de 2026.
+
+## Anexo final de examen: plazos y especialidades del procedimiento
+
+| Trámite | Plazo general | Fuente |
+|---|---|---|
+| Subsanación de solicitud | **10 días**, salvo reglas especiales y posible ampliación legal | **Ley 39/2015, art. 68.1** |
+| Cumplimentación de trámites del interesado | **10 días**, salvo norma diferente | **Art. 73.1** |
+| Período ordinario de prueba | De **10** a **30 días** | **Art. 77.2** |
+| Emisión de informes | **10 días**, salvo excepción | **Art. 80.2** |
+| Audiencia | De **10** a **15 días** | **Art. 82.2** |
+| Información pública | No inferior a **20 días** | **Art. 83.2** |
+| Tramitación simplificada | Resolución en **30 días**, salvo que reste menos para finalizar la ordinaria | **Art. 96.6** |
+| Solicitud de responsabilidad patrimonial | Prescripción general de **1 año**, con cómputos especiales | **Art. 67.1** |
+
+> ⚠️ **¡Foco Examen!:** **Audiencia 10–15 días**, **información pública mínimo 20 días** y **prueba 10–30 días** no son el mismo trámite. La solicitud de responsabilidad patrimonial tiene plazo de prescripción, no un plazo de subsanación equivalente.
+
+### Procedimientos con particularidades
+
+| Figura | Regla | Error frecuente |
+|---|---|---|
+| **Sancionador** | Se inicia **siempre de oficio** mediante acuerdo del **órgano competente** | Confundir denuncia con incoación automática |
+| **Responsabilidad patrimonial** | Puede iniciarse a solicitud del interesado o de oficio; examina daño y nexo causal | Presumir responsabilidad por cualquier perjuicio |
+| **Tramitación simplificada** | Por interés público o falta de complejidad, con trámites y oposición según art. **96** | Aplicar automáticamente a todos los procedimientos |
+| **Ejecución forzosa** | Apremio sobre patrimonio, ejecución subsidiaria, multa coercitiva y compulsión sobre personas | Confundir **multa coercitiva** con sanción |
+
+> ⚠️ **¡Foco Examen!:** La **denuncia** no atribuye por sí sola condición de interesado; la iniciación sancionadora exige acuerdo del **órgano competente**. La **multa coercitiva** es un medio de ejecución, distinto de la sanción.
+
+**Fuente legal:** [Ley 39/2015 consolidada, BOE, última actualización **06/11/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). **Banco:** 20 preguntas originales con explicación y referencia.
