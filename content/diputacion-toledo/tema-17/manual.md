@@ -219,3 +219,24 @@ La rehabilitación puede ser:
 | Renuncia | No impide un nuevo ingreso futuro |
 
 > ⚠️ **¡Foco Examen!:** La pérdida de la condición funcionarial no elimina la responsabilidad patrimonial o penal derivada de hechos cometidos durante la relación de servicio.
+
+
+## 14. Cotejo de adquisición, pérdida y rehabilitación — **29/10/2026**
+
+| Supuesto | Regla exacta | Ley 4/2011 |
+|---|---|---|
+| **Adquisición de condición de funcionario de carrera** | Superar selección, **nombramiento**, acatamiento de la Constitución, Estatuto de Autonomía y ordenamiento, y **toma de posesión en plazo** | **Art. 55.1** |
+| **Personal laboral fijo** | Además, contrato formalizado e incorporación; superación del **período de prueba** correspondiente | **Art. 55.1** |
+| **Renuncia** | Debe formularse **por escrito** y ser **aceptada expresamente** por la Administración; no inhabilita para nuevo ingreso | **Art. 57** |
+| **Renuncia no aceptable** | Si existe **expediente disciplinario**, **auto de procesamiento** o de **apertura de juicio oral** por delito | **Art. 57.2** |
+| **Separación del servicio** | Pérdida de condición por sanción **firme en vía administrativa** | **Art. 56.d** |
+| **Inhabilitación absoluta firme** | Pérdida de la condición respecto a **todos los empleos o cargos** | **Art. 59.1** |
+| **Inhabilitación especial firme** | Pérdida respecto de los **empleos o cargos especificados en sentencia** | **Art. 59.2** |
+| **Rehabilitación tras pérdida de nacionalidad o incapacidad permanente** | Una vez desaparecida la causa objetiva, puede solicitarse y **será concedida** | **Art. 61.1** |
+| **Rehabilitación tras inhabilitación** | Decisión **excepcional** de los **órganos de gobierno**, valorando las circunstancias y la entidad del delito | **Art. 61.2** |
+
+> ⚠️ **¡Foco Examen!:** La **sanción disciplinaria de separación del servicio** ha de ser **firme en vía administrativa**; la **inhabilitación** requiere **sentencia firme**. La **inhabilitación absoluta** afecta a **todos los empleos**, mientras la **especial** alcanza solo los identificados en sentencia.
+
+> ⚠️ **¡Foco Examen!:** Una **renuncia** no es automáticamente efectiva con la sola presentación: requiere **aceptación expresa** y no puede aceptarse en determinados supuestos disciplinarios o penales. Tampoco prohíbe obtener otra plaza mediante un nuevo proceso selectivo.
+
+**Normativa comprobada:** [Ley 4/2011, arts. 55–61, BOE consolidado con última actualización **21/03/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752) y [TREBEP](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719). Banco actualizado a **20 preguntas**. Pendiente auditoría integral y comprobación de la integración web antes de declarar el tema definitivo.
