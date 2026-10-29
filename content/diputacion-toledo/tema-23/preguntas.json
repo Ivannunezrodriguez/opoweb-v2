@@ -1,11 +1,16 @@
 {
   "tema": 23,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T23-001",
       "pregunta": "Según la Ley 31/1995, ¿quién debe soportar el coste de las medidas de seguridad y salud en el trabajo?",
-      "opciones": ["El trabajador", "La empresa o Administración empleadora", "La mutua exclusivamente", "La representación sindical"],
+      "opciones": [
+        "El trabajador",
+        "La empresa o Administración empleadora",
+        "La mutua exclusivamente",
+        "La representación sindical"
+      ],
       "correcta": 1,
       "justificacion": "El coste de las medidas relativas a la seguridad y salud en el trabajo no puede recaer sobre las personas trabajadoras; corresponde al empresario o, en el ámbito público, a la Administración empleadora.",
       "trampa": "El deber de protección no puede trasladarse económicamente a la persona trabajadora.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T23-002",
       "pregunta": "¿Qué principio preventivo tiene prioridad?",
-      "opciones": ["La protección individual sobre la colectiva", "La protección colectiva sobre la individual", "La reparación sobre la prevención", "La sanción sobre la formación"],
+      "opciones": [
+        "La protección individual sobre la colectiva",
+        "La protección colectiva sobre la individual",
+        "La reparación sobre la prevención",
+        "La sanción sobre la formación"
+      ],
       "correcta": 1,
       "justificacion": "La acción preventiva debe anteponer la protección colectiva a la protección individual.",
       "trampa": "Los equipos de protección individual no sustituyen una medida colectiva técnicamente posible.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T23-003",
       "pregunta": "La formación preventiva debe ser:",
-      "opciones": ["Solo teórica", "Solo inicial", "Teórica y práctica, suficiente y adecuada", "Voluntaria para el empresario"],
+      "opciones": [
+        "Solo teórica",
+        "Solo inicial",
+        "Teórica y práctica, suficiente y adecuada",
+        "Voluntaria para el empresario"
+      ],
       "correcta": 2,
       "justificacion": "La formación preventiva debe ser teórica y práctica, suficiente y adecuada, centrada en el puesto y actualizada cuando sea necesario.",
       "trampa": "No basta con una formación inicial genérica ni exclusivamente teórica.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T23-004",
       "pregunta": "Ante un riesgo grave e inminente, la persona trabajadora puede:",
-      "opciones": ["Abandonar el lugar únicamente con autorización judicial", "Interrumpir su actividad y abandonar el lugar", "Continuar siempre hasta recibir orden escrita", "Solicitar exclusivamente una indemnización"],
+      "opciones": [
+        "Abandonar el lugar únicamente con autorización judicial",
+        "Interrumpir su actividad y abandonar el lugar",
+        "Continuar siempre hasta recibir orden escrita",
+        "Solicitar exclusivamente una indemnización"
+      ],
       "correcta": 1,
       "justificacion": "La Ley reconoce a la persona trabajadora la posibilidad de interrumpir su actividad y abandonar el lugar de trabajo cuando considere que existe un riesgo grave e inminente para su vida o salud.",
       "trampa": "No se exige autorización judicial previa para proteger la vida o la salud.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T23-005",
       "pregunta": "La autoridad laboral debe ratificar o anular una paralización acordada por los representantes en el plazo de:",
-      "opciones": ["12 horas", "24 horas", "48 horas", "3 días hábiles"],
+      "opciones": [
+        "12 horas",
+        "24 horas",
+        "48 horas",
+        "3 días hábiles"
+      ],
       "correcta": 1,
       "justificacion": "La autoridad laboral debe ratificar o anular el acuerdo de paralización en el plazo de 24 horas.",
       "trampa": "Es un plazo de horas, no de días hábiles.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T23-006",
       "pregunta": "Como regla general, la vigilancia de la salud:",
-      "opciones": ["Es siempre obligatoria", "Requiere consentimiento de la persona trabajadora", "La decide el delegado de prevención", "Está prohibida"],
+      "opciones": [
+        "Es siempre obligatoria",
+        "Requiere consentimiento de la persona trabajadora",
+        "La decide el delegado de prevención",
+        "Está prohibida"
+      ],
       "correcta": 1,
       "justificacion": "La vigilancia de la salud requiere, como regla general, el consentimiento de la persona trabajadora, sin perjuicio de las excepciones legalmente previstas.",
       "trampa": "Las excepciones no convierten la vigilancia de la salud en obligatoria con carácter general.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T23-007",
       "pregunta": "En la protección durante el embarazo, la primera medida debe ser:",
-      "opciones": ["Suspender el contrato", "Adaptar las condiciones o el tiempo de trabajo", "Extinguir el contrato", "Imponer vacaciones"],
+      "opciones": [
+        "Suspender el contrato",
+        "Adaptar las condiciones o el tiempo de trabajo",
+        "Extinguir el contrato",
+        "Imponer vacaciones"
+      ],
       "correcta": 1,
       "justificacion": "La primera medida es adaptar las condiciones o el tiempo de trabajo; después procede, si resulta necesario, el cambio de puesto y, solo en último término, la suspensión.",
       "trampa": "La suspensión es la última medida de la secuencia protectora.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T23-008",
       "pregunta": "¿Cuál de las siguientes es una modalidad de organización preventiva?",
-      "opciones": ["Servicio de prevención ajeno", "Jurado preventivo provincial", "Comisión judicial de seguridad", "Delegación ministerial obligatoria"],
+      "opciones": [
+        "Servicio de prevención ajeno",
+        "Jurado preventivo provincial",
+        "Comisión judicial de seguridad",
+        "Delegación ministerial obligatoria"
+      ],
       "correcta": 0,
       "justificacion": "La normativa prevé, entre otras modalidades, la asunción personal, los trabajadores designados y los servicios de prevención propios, ajenos o mancomunados.",
       "trampa": "No deben confundirse los órganos de participación con las modalidades de organización preventiva.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T23-009",
       "pregunta": "En una empresa de 31 a 49 trabajadores, el número de delegados de prevención es:",
-      "opciones": ["Ninguno", "1", "2", "3"],
+      "opciones": [
+        "Ninguno",
+        "1",
+        "2",
+        "3"
+      ],
       "correcta": 1,
       "justificacion": "En las empresas de 31 a 49 trabajadores existe un delegado de prevención, elegido por y entre los delegados de personal.",
       "trampa": "En empresas de hasta 30 trabajadores coincide con el delegado de personal; entre 31 y 49 hay uno elegido entre los delegados de personal.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T23-010",
       "pregunta": "¿A partir de qué plantilla se constituye el Comité de Seguridad y Salud?",
-      "opciones": ["25 trabajadores", "30 trabajadores", "50 trabajadores", "100 trabajadores"],
+      "opciones": [
+        "25 trabajadores",
+        "30 trabajadores",
+        "50 trabajadores",
+        "100 trabajadores"
+      ],
       "correcta": 2,
       "justificacion": "El Comité de Seguridad y Salud se constituye en empresas o centros de trabajo con 50 o más trabajadores.",
       "trampa": "El umbral es 50 trabajadores, no 49 ni 100.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T23-011",
       "pregunta": "El Comité de Seguridad y Salud se reúne ordinariamente:",
-      "opciones": ["Cada mes", "Cada dos meses", "Trimestralmente", "Anualmente"],
+      "opciones": [
+        "Cada mes",
+        "Cada dos meses",
+        "Trimestralmente",
+        "Anualmente"
+      ],
       "correcta": 2,
       "justificacion": "El Comité de Seguridad y Salud se reúne trimestralmente y también cuando lo solicite alguna de sus representaciones.",
       "trampa": "La periodicidad ordinaria es trimestral, pero puede reunirse además a petición de cualquiera de sus representaciones.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T23-012",
       "pregunta": "Los datos médicos derivados de la vigilancia de la salud:",
-      "opciones": ["Son públicos", "Pueden comunicarse íntegramente al empresario", "Tienen carácter confidencial", "Deben remitirse al comité de empresa"],
+      "opciones": [
+        "Son públicos",
+        "Pueden comunicarse íntegramente al empresario",
+        "Tienen carácter confidencial",
+        "Deben remitirse al comité de empresa"
+      ],
       "correcta": 2,
       "justificacion": "Los datos médicos personales tienen carácter confidencial; el empresario solo recibe las conclusiones sobre aptitud o necesidad de medidas preventivas.",
       "trampa": "El empresario no recibe el historial clínico completo.",
       "referencia": "content/diputacion-toledo/tema-23/manual.md#7-vigilancia-de-la-salud"
+    },
+    {
+      "id": "DIP-T23-013",
+      "pregunta": "¿Cuántos delegados de prevención corresponden a una plantilla de entre 50 y 100 personas trabajadoras?",
+      "opciones": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "correcta": 1,
+      "justificacion": "La escala del artículo 35.2 fija **2 delegados** entre **50 y 100 trabajadores**.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "Ley 31/1995, artículo 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DIP-T23-014",
+      "pregunta": "¿Cuántos delegados de prevención corresponden a una plantilla de 101 a 500 personas?",
+      "opciones": [
+        "Dos",
+        "Cuatro",
+        "Tres",
+        "Cinco"
+      ],
+      "correcta": 2,
+      "justificacion": "Para plantillas entre **101 y 500** corresponden **3 delegados de prevención**.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "Ley 31/1995, artículo 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DIP-T23-015",
+      "pregunta": "¿Con qué periodicidad se reúne ordinariamente el Comité de Seguridad y Salud?",
+      "opciones": [
+        "Cada semana",
+        "Cada seis meses",
+        "Cada año",
+        "Trimestralmente"
+      ],
+      "correcta": 3,
+      "justificacion": "El Comité se reúne **trimestralmente** y siempre que lo solicite alguna de sus representaciones.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "Ley 31/1995, artículo 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DIP-T23-016",
+      "pregunta": "¿Qué carácter tiene el Comité de Seguridad y Salud?",
+      "opciones": [
+        "Órgano paritario y colegiado de participación",
+        "Órgano judicial de inspección",
+        "Mesa de negociación exclusivamente salarial",
+        "Órgano empresarial sin representación laboral"
+      ],
+      "correcta": 0,
+      "justificacion": "Es un órgano **paritario y colegiado** de participación destinado a consulta regular y periódica.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "Ley 31/1995, artículo 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DIP-T23-017",
+      "pregunta": "¿Qué sucede cuando hay riesgo grave e inminente y no se pueden adoptar las medidas ordinarias de seguridad?",
+      "opciones": [
+        "Debe mantenerse siempre la prestación",
+        "La persona trabajadora puede interrumpir su actividad y abandonar el lugar de trabajo si fuera necesario",
+        "Solo puede solicitar cambio de turno",
+        "Debe esperar una sentencia firme"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 21.2 reconoce la interrupción y, si es necesario, el abandono del lugar ante riesgo **grave e inminente**.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "Ley 31/1995, artículo 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DIP-T23-018",
+      "pregunta": "¿Qué plazo tiene la autoridad laboral para ratificar o anular la paralización de actividad acordada por representantes?",
+      "opciones": [
+        "12 horas",
+        "48 horas",
+        "24 horas",
+        "Tres días"
+      ],
+      "correcta": 2,
+      "justificacion": "La autoridad laboral debe ratificar o anular la paralización dentro de **24 horas**.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "Ley 31/1995, artículo 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DIP-T23-019",
+      "pregunta": "¿Cuál es la regla general de vigilancia de la salud laboral?",
+      "opciones": [
+        "Obligatoria sin excepción",
+        "Puede compartirse cualquier resultado médico con jefaturas",
+        "Se realiza solo al terminar el contrato",
+        "Requiere consentimiento del trabajador, con excepciones legalmente tasadas"
+      ],
+      "correcta": 3,
+      "justificacion": "Como regla general requiere **consentimiento**, salvo supuestos legalmente previstos.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "Ley 31/1995, artículo 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+    },
+    {
+      "id": "DIP-T23-020",
+      "pregunta": "¿Desde qué plantilla es obligatorio constituir un Comité de Seguridad y Salud?",
+      "opciones": [
+        "50 o más personas trabajadoras",
+        "30 o más",
+        "100 o más",
+        "250 o más"
+      ],
+      "correcta": 0,
+      "justificacion": "El Comité se constituye en empresas o centros de trabajo con **50 o más** personas trabajadoras.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "Ley 31/1995, artículo 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
     }
   ]
 }
