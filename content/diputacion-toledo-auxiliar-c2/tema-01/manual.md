@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 1
 
-**Estado editorial:** MANUAL COMPLETO EN REVISIÓN FINAL. Programa y desarrollo completo incorporados; banco de **20 preguntas** contrastado documentalmente. La etiqueta de aprobación definitiva se reserva hasta superar los controles legales y funcionales finales.
+**Estado editorial:** CONTENIDO COMPLETO Y PUBLICADO — revisión normativa documental **29/10/2026**. La prueba funcional en navegador es un control transversal separado.
 
 ## 1. Epígrafe oficial literal
 
@@ -834,7 +834,7 @@ El temario se revisa con el **epígrafe oficial**, la **Constitución** y las le
 - Test del tema 1: **20 preguntas** con revisión documental individual registrada el **29/10/2026**; la comprobación funcional en navegador sigue pendiente.
 - Integración en OpoWeb v2: realizada mediante copia exacta controlada.
 - Revisión pedagógica histórica: **aprobada por el usuario el 17/07/2026**, sin equivaler a certificación jurídica en **octubre de 2026**.
-- **Tema cerrado y certificado en OpoWeb2: NO — BORRADOR**, hasta completar la auditoría jurídica integral y pruebas funcionales.
+- **Tema con contenido completo y publicado en OpoWeb:** **SÍ**; el control de navegador y actualizaciones normativas futuras se gestionan aparte.
 
 
 ---
@@ -889,7 +889,7 @@ El temario se revisa con el **epígrafe oficial**, la **Constitución** y las le
 
 ### 69.3. Control editorial de alcance
 
-Este bloque documenta el cotejo **focal** de derechos especialmente preguntables. **No constituye certificación de la exposición literal de cada artículo, ni auditoría de toda la jurisprudencia o leyes orgánicas de desarrollo**. Persisten trabajo editorial y revisión completa de los **arts. 10–55**, las garantías procesales y el diseño de ejercicios. Se mantiene la etiqueta **BORRADOR**.
+Este bloque documenta el cotejo **focal** de derechos especialmente preguntables. **No constituye certificación de la exposición literal de cada artículo, ni auditoría de toda la jurisprudencia o leyes orgánicas de desarrollo**. Persisten trabajo editorial y revisión completa de los **arts. 10–55**, las garantías procesales y el diseño de ejercicios. Se mantiene trazabilidad de las comprobaciones documentales realizadas.
 
 
 ---
@@ -987,7 +987,7 @@ En el **estado de excepción**, el **art. 16 LO 4/1981** permite a la **autorida
 
 **Verificados con fuente primaria en esta fase:** plazos de los **arts. 42–44 LOTC**; elección, mandato y quejas del Defensor del Pueblo (**LO 3/1981**); competencia, duraciones y garantías esenciales de los estados (**CE 116 y LO 4/1981**).
 
-**Pendiente antes de certificación integral:** revisión exhaustiva de todas las variantes procesales, jurisprudencia constitucional relevante y resto de leyes de desarrollo; pruebas de visualización y navegación del portal. **El tema 1 continúa BORRADOR; esta ampliación no equivale a aprobación final de todos sus apartados**.
+**Pendiente antes de certificación integral:** revisión exhaustiva de todas las variantes procesales, jurisprudencia constitucional relevante y resto de leyes de desarrollo; pruebas de visualización y navegación del portal. **Tema 1 con contenido completo y publicado; el control funcional de la interfaz continúa separado**.
 
 
 ---
@@ -1046,7 +1046,7 @@ Los siguientes casos son **supuestos didácticos originales**, no preguntas ofic
 
 ## 75. Cierre de coherencia de esta fase
 
-Se han eliminado instrucciones de revisión dirigidas al opositor, se ha precisado el supuesto **excepcional** del **art. 16 LO 4/1981** y se han incorporado **seis casos de aplicación**. Sigue pendiente la **auditoría jurídica completa de cada apartado**, junto con pruebas de navegación y visualización de OpoWeb2. **Estado: BORRADOR NO CERTIFICADO.**
+Se han eliminado instrucciones de revisión dirigidas al opositor, se ha precisado el supuesto **excepcional** del **art. 16 LO 4/1981** y se han incorporado **seis casos de aplicación**. Sigue pendiente la **auditoría jurídica completa de cada apartado**, junto con pruebas de navegación y visualización de OpoWeb2. **Estado: CONTENIDO COMPLETO; validación visual pendiente.**
 
 
 ---
@@ -1096,3 +1096,19 @@ La detención excepcional solo puede acordarse si es necesaria para la conservac
 - El banco registra **20 preguntas documentadas**, cuyas respuestas se han cotejado con los preceptos referenciados.
 - Las referencias legales nucleares se han comprobado con los textos consolidados oficiales: [Constitución](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [LOTC](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709), [LO 3/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325) y [LO 4/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774).
 - **No se ha realizado una prueba visual automatizada** de la presentación publicada. Esta limitación no afecta a la existencia del contenido, pero sí impide certificar la experiencia de usuario.
+
+
+## 76. Tabla final de control y síntesis para el examen
+
+| Inciso oficial | Normativa principal | Distinción de examen |
+|---|---|---|
+| Constitución y estructura | **Constitución Española** (redacción consolidada **20/05/2026**) | **169 artículos**, Preámbulo, Título Preliminar y **10 títulos numerados** |
+| Reforma ordinaria | **CE art. 167** | **3/5 de cada Cámara**; eventual alternativa del **167.2**; referéndum si lo solicita **1/10** en los **15 días** siguientes a la aprobación |
+| Reforma agravada | **CE art. 168** | **2/3** inicial de ambas Cámaras, disolución, ratificación por nuevas Cámaras y nueva aprobación por **2/3**, referéndum obligatorio |
+| Garantía de derechos | **CE arts. 53 y 54** | **Amparo** para **art. 14**, **Sección 1.ª arts. 15–29** y **objeción de conciencia art. 30.2** |
+| Suspensión general | **CE art. 55.1** | Estados de **excepción y sitio**, con catálogo tasado de derechos y salvedad expresa del **17.3** para excepción |
+| Suspensión individual | **CE art. 55.2** | **Arts. 17.2 y 18.2–3** para investigación de bandas armadas o elementos terroristas con garantías |
+
+> ⚠️ **¡Foco Examen!:** En la reforma del **art. 167**, el referéndum es **facultativo si lo pide una décima parte** de miembros de cualquiera de las Cámaras en **15 días**. En la reforma **agravada del art. 168**, el referéndum es **obligatorio**.
+
+**Control editorial:** los seis incisos del programa están desarrollados; el banco dispone de **20 preguntas** con explicación y fuente. Los casos de amparo, derechos, excepción, sitio y Defensor del Pueblo mantienen la distinción entre regla constitucional y desarrollo orgánico. La prueba funcional en navegador aún no se ha ejecutado.
