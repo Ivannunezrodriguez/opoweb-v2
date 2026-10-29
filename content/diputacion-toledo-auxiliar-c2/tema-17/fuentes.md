@@ -1,19 +1,24 @@
-# Tema 17 · Fuentes y estado de auditoría
+# Tema 17 · Fuentes y control editorial
 
-**Programa oficial:** BOP Toledo **n.º 197, 14/10/2026**, Anexo XI, tema 17, CSV **2026.00004759**.
+**Programa oficial:** BOP Toledo **n.º 197**, **14/10/2026**, **Anexo XI**, CSV **2026.00004759**.
 
-## Fuentes técnicas primarias
+**Productos:** navegador **Microsoft Edge** y cliente de correo **GroupWise 24** (entorno Windows 11 Pro).
 
-- **Microsoft Edge**, soporte del fabricante: https://support.microsoft.com/es-es/microsoft-edge
-- **GroupWise 24**, documentación oficial OpenText/Novell: https://www.novell.com/documentation/groupwise24/
-- **GroupWise 24 Client User Guide**, manual oficial: https://www.novell.com/documentation/groupwise24/pdfdoc/gw_guide_userwin/gw_guide_userwin.pdf
-- **GroupWise 24 Web User Guide**, disponible en el índice oficial de la versión 24.
+## Fuentes oficiales
 
-## Pendiente para estado PUBLICADO
+- [Microsoft Edge — soporte](https://support.microsoft.com/es-es/microsoft-edge).
+- [Microsoft Edge — exploración InPrivate](https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge).
+- [GroupWise 24 — documentación](https://www.novell.com/documentation/groupwise24/).
+- [GroupWise 24 Client — composición de mensajes](https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html).
+- [GroupWise 24 Client User Guide PDF](https://www.novell.com/documentation/groupwise24/pdfdoc/gw_guide_userwin/gw_guide_userwin.pdf), seguimiento y retractación.
+- [GroupWise 24 Web — reenvío de mensajes](https://www.novell.com/documentation/groupwise24/gw_guide_gwweb/data/resending_mail.html).
 
-- Cotejar comandos y rutas exactas de Edge en Windows 11 Pro.
-- Revisar las funciones de correo en cliente Windows y Web de **GroupWise 24**; indicar en cada caso qué interfaz se examina.
-- Confirmar términos de carpetas, adjuntos, reglas, libreta de direcciones, búsquedas, envío y recuperación directamente en la documentación oficial 24.
-- Crear tests y supuestos vinculados al manual de la versión **24**, no a GroupWise 25 ni Outlook.
+## Estado editorial a 29/10/2026
 
-> ⚠️ **¡Foco Examen!:** La convocatoria exige **GroupWise 24**. La documentación del fabricante de **GroupWise 25** no sustituye a la de la versión exigida.
+**Contenido del programa desarrollado:** funciones de navegación, favoritos, historial, descargas, privacidad, seguridad, redacción, destinatarios To/Cc/Bc, adjuntos, envío, bandejas, seguimiento, reenvío y retractación.
+
+**Banco:** **20 preguntas** de cuatro alternativas y fundamentación documental. El cliente Windows y GroupWise Web se identifican por separado cuando corresponde.
+
+**Control transversal pendiente:** no se ha realizado prueba funcional de la interfaz pública de OpoWeb ni se ha ejecutado el software GroupWise en una instalación real.
+
+> ⚠️ **¡Foco Examen!:** InPrivate no garantiza anonimato; **Bc** oculta destinatarios; en GroupWise 24 **retractar** no es borrar la copia propia y está limitado cuando el destinatario abrió el mensaje o el correo salió a un sistema externo.
