@@ -1,11 +1,16 @@
 {
   "tema": 36,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T36-001",
       "pregunta": "¿Cuál es el formato nativo de LibreOffice Calc?",
-      "opciones": ["ODT", "ODS", "ODP", "CSV"],
+      "opciones": [
+        "ODT",
+        "ODS",
+        "ODP",
+        "CSV"
+      ],
       "correcta": 1,
       "justificacion": "ODS es el formato nativo de los libros de hojas de cálculo de LibreOffice Calc.",
       "trampa": "ODT corresponde a Writer y ODP a Impress; CSV no es un formato completo de libro de cálculo.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T36-002",
       "pregunta": "Toda fórmula introducida en Calc comienza por:",
-      "opciones": ["#", "=", "$", "@"],
+      "opciones": [
+        "#",
+        "=",
+        "$",
+        "@"
+      ],
       "correcta": 1,
       "justificacion": "Todas las fórmulas introducidas en LibreOffice Calc comienzan con el signo igual (=).",
       "trampa": "El signo $ sirve para fijar filas o columnas en las referencias, pero no para iniciar una fórmula.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T36-003",
       "pregunta": "¿Cuál de las siguientes es una referencia absoluta?",
-      "opciones": ["A1", "$A1", "A$1", "$A$1"],
+      "opciones": [
+        "A1",
+        "$A1",
+        "A$1",
+        "$A$1"
+      ],
       "correcta": 3,
       "justificacion": "$A$1 es una referencia absoluta porque fija tanto la columna A como la fila 1.",
       "trampa": "$A1 y A$1 son referencias mixtas: la primera fija solo la columna y la segunda solo la fila.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T36-004",
       "pregunta": "Al copiar una fórmula con referencia A1, dicha referencia:",
-      "opciones": ["Nunca cambia", "Cambia de forma relativa", "Se convierte siempre en absoluta", "Produce un error"],
+      "opciones": [
+        "Nunca cambia",
+        "Cambia de forma relativa",
+        "Se convierte siempre en absoluta",
+        "Produce un error"
+      ],
       "correcta": 1,
       "justificacion": "A1 es una referencia relativa, por lo que su fila y su columna se adaptan a la nueva posición cuando se copia la fórmula.",
       "trampa": "Solo una referencia absoluta como $A$1 permanece completamente fija al copiarse.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T36-005",
       "pregunta": "¿Qué función cuenta únicamente celdas con valores numéricos?",
-      "opciones": ["CONTARA", "CONTAR", "SUMA", "PROMEDIO"],
+      "opciones": [
+        "CONTARA",
+        "CONTAR",
+        "SUMA",
+        "PROMEDIO"
+      ],
       "correcta": 1,
       "justificacion": "La función CONTAR cuenta las celdas que contienen valores numéricos, mientras que CONTARA cuenta las celdas no vacías.",
       "trampa": "CONTARA también incluye texto y otros contenidos no vacíos; no se limita a números.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T36-006",
       "pregunta": "¿Cuál es el resultado de =1+2*3?",
-      "opciones": ["9", "7", "6", "5"],
+      "opciones": [
+        "9",
+        "7",
+        "6",
+        "5"
+      ],
       "correcta": 1,
       "justificacion": "Calc aplica la prioridad de operadores: primero realiza 2*3=6 y después suma 1, por lo que el resultado es 7.",
       "trampa": "Para obtener 9 habría que alterar la prioridad mediante paréntesis: =(1+2)*3.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T36-007",
       "pregunta": "La tecla F4, mientras se edita una fórmula, sirve para:",
-      "opciones": ["Cerrar el libro", "Alternar tipos de referencia", "Abrir la impresión", "Insertar una hoja"],
+      "opciones": [
+        "Cerrar el libro",
+        "Alternar tipos de referencia",
+        "Abrir la impresión",
+        "Insertar una hoja"
+      ],
       "correcta": 1,
       "justificacion": "Mientras se edita una fórmula, F4 alterna entre referencias relativas, absolutas y mixtas.",
       "trampa": "F2 se utiliza para editar el contenido de la celda; no debe confundirse con F4.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T36-008",
       "pregunta": "¿Qué efecto produce un filtro sobre los registros que no cumplen el criterio?",
-      "opciones": ["Los borra", "Los oculta temporalmente", "Los mueve a otra hoja", "Los convierte en texto"],
+      "opciones": [
+        "Los borra",
+        "Los oculta temporalmente",
+        "Los mueve a otra hoja",
+        "Los convierte en texto"
+      ],
       "correcta": 1,
       "justificacion": "Un filtro oculta temporalmente las filas cuyos registros no cumplen los criterios seleccionados.",
       "trampa": "Filtrar y eliminar son operaciones distintas: los datos excluidos continúan almacenados en la hoja.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T36-009",
       "pregunta": "El error #DIV/0! indica normalmente:",
-      "opciones": ["Una división entre cero", "Una referencia absoluta", "Un archivo protegido", "Una hoja oculta"],
+      "opciones": [
+        "Una división entre cero",
+        "Una referencia absoluta",
+        "Un archivo protegido",
+        "Una hoja oculta"
+      ],
       "correcta": 0,
       "justificacion": "El error #DIV/0! aparece cuando una fórmula intenta dividir entre cero o entre una celda vacía que actúa como divisor nulo.",
       "trampa": "No es un error de formato, protección ni visibilidad de la hoja.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T36-010",
       "pregunta": "Para que la propiedad de celda protegida sea efectiva debe:",
-      "opciones": ["Guardarse como CSV", "Protegerse también la hoja", "Exportarse a PDF", "Ocultarse la fórmula"],
+      "opciones": [
+        "Guardarse como CSV",
+        "Protegerse también la hoja",
+        "Exportarse a PDF",
+        "Ocultarse la fórmula"
+      ],
       "correcta": 1,
       "justificacion": "La propiedad de celda protegida solo produce efecto cuando se protege también la hoja correspondiente.",
       "trampa": "Marcar una celda como protegida sin activar la protección de la hoja no basta.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T36-011",
       "pregunta": "¿Qué característica NO conserva normalmente un archivo CSV?",
-      "opciones": ["Datos tabulares", "Separadores de campos", "Varias hojas y gráficos", "Filas de texto"],
+      "opciones": [
+        "Datos tabulares",
+        "Separadores de campos",
+        "Varias hojas y gráficos",
+        "Filas de texto"
+      ],
       "correcta": 2,
       "justificacion": "CSV almacena datos tabulares simples separados por delimitadores, pero no conserva varias hojas, estilos, fórmulas como tales ni gráficos.",
       "trampa": "CSV no es un formato completo de libro de cálculo como ODS o XLSX.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T36-012",
       "pregunta": "¿Qué atajo abre el cuadro de formato de celdas?",
-      "opciones": ["Ctrl + 1", "Ctrl + F2", "Ctrl + H", "Ctrl + P"],
+      "opciones": [
+        "Ctrl + 1",
+        "Ctrl + F2",
+        "Ctrl + H",
+        "Ctrl + P"
+      ],
       "correcta": 0,
       "justificacion": "La combinación Ctrl + 1 abre el cuadro de formato de celdas en LibreOffice Calc.",
       "trampa": "Ctrl + F2 abre el asistente de funciones, Ctrl + H abre Buscar y reemplazar y Ctrl + P abre la impresión.",
       "referencia": "content/diputacion-toledo/tema-36/manual.md#17-atajos-esenciales"
+    },
+    {
+      "id": "DIP-T36-013",
+      "pregunta": "Al editar una fórmula de Calc con referencia A1, ¿qué resulta al pulsar F4 una vez?",
+      "opciones": [
+        "$A$1",
+        "$A1",
+        "A$1",
+        "A1:A2"
+      ],
+      "correcta": 0,
+      "justificacion": "F4 convierte la referencia relativa A1 en absoluta $A$1.",
+      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
+    },
+    {
+      "id": "DIP-T36-014",
+      "pregunta": "¿Qué forma adopta A1 tras pulsar F4 dos veces durante la edición de la referencia?",
+      "opciones": [
+        "$A1",
+        "A$1",
+        "$A$1",
+        "A1"
+      ],
+      "correcta": 1,
+      "justificacion": "La segunda pulsación fija solo la fila: A$1.",
+      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
+    },
+    {
+      "id": "DIP-T36-015",
+      "pregunta": "¿Qué forma adopta A1 tras pulsar F4 tres veces?",
+      "opciones": [
+        "A$1",
+        "$A$1",
+        "$A1",
+        "A1"
+      ],
+      "correcta": 2,
+      "justificacion": "La tercera pulsación fija solo la columna: $A1.",
+      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
+    },
+    {
+      "id": "DIP-T36-016",
+      "pregunta": "Si en B1 hay 10 y en B2 texto, ¿qué devuelve =CONTAR(B1:B2)?",
+      "opciones": [
+        "2",
+        "0",
+        "Error",
+        "1"
+      ],
+      "correcta": 3,
+      "justificacion": "CONTAR cuenta las celdas con valores numéricos, no el texto.",
+      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/02/08080000.html"
+    },
+    {
+      "id": "DIP-T36-017",
+      "pregunta": "Si A1 contiene un número y A2 contiene texto, ¿qué hace CONTARA(A1:A2)?",
+      "opciones": [
+        "Cuenta las dos celdas no vacías",
+        "Cuenta únicamente A1",
+        "Suma ambos valores",
+        "Devuelve la cantidad de hojas"
+      ],
+      "correcta": 0,
+      "justificacion": "CONTARA cuenta celdas no vacías con valores de distintos tipos.",
+      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/02/08080000.html"
+    },
+    {
+      "id": "DIP-T36-018",
+      "pregunta": "¿Cuál es el resultado de =SUMA(2;3;4) en Calc con sintaxis española?",
+      "opciones": [
+        "24",
+        "9",
+        "7",
+        "Error de sintaxis"
+      ],
+      "correcta": 1,
+      "justificacion": "SUMA(2;3;4) suma los tres argumentos y devuelve 9.",
+      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/01/func_sum.html"
+    },
+    {
+      "id": "DIP-T36-019",
+      "pregunta": "Si la expresión de una fórmula produce error, ¿qué permite SI.ERROR(valor;alternativa)?",
+      "opciones": [
+        "Eliminar la celda",
+        "Modificar el nombre de la hoja",
+        "Mostrar un valor alternativo",
+        "Ordenar el rango"
+      ],
+      "correcta": 2,
+      "justificacion": "SI.ERROR devuelve el segundo argumento cuando el primero produce un error.",
+      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/01/04060104.html"
+    },
+    {
+      "id": "DIP-T36-020",
+      "pregunta": "¿Qué ocurre con las referencias absolutas al copiar una fórmula a otra celda?",
+      "opciones": [
+        "Se ajustan siempre como las relativas",
+        "Se borran automáticamente",
+        "Se convierten en texto",
+        "Conservan la fila o columna fijada"
+      ],
+      "correcta": 3,
+      "justificacion": "Una referencia absoluta conserva sus coordenadas fijadas al copiar la fórmula.",
+      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
     }
   ]
 }
