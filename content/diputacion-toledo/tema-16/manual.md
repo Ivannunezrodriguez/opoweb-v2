@@ -345,3 +345,22 @@ CONTRATACIÓN LOCAL
 ```
 
 > ⚠️ **¡Foco Examen!:** Los números más rentables para memorizar son **10 %**, **6.000.000 €**, **4 años**, **3 %**, **5 %**, **10 %**, **15 días hábiles**, **20 %**, **2 años** y **30 días**.
+
+## 15. Cuadro de precisión contractual y competencias locales — **29/10/2026**
+
+| Materia | Regla de examen | Precepto LCSP |
+|---|---|---|
+| **Alcaldía o Presidencia** como órgano de contratación en régimen general | Valor estimado hasta **10 % de recursos ordinarios**, sin superar **6.000.000 €**, y contratos plurianuales de duración no superior a **4 años** incluidas prórrogas y con los límites económicos previstos | **Disposición adicional segunda, 1** |
+| **Pleno** como órgano de contratación | Contratos que por valor o duración excedan los límites de Alcaldía o Presidencia, salvo regímenes especiales | **Disposición adicional segunda, 2** |
+| **Garantía definitiva ordinaria** | **5 % del precio final ofertado, IVA excluido**, con especialidades y excepciones legales | **107** |
+| **Valor estimado** | Cálculo **sin IVA**; incorpora opciones y prórrogas, entre otros conceptos legalmente previstos | **101** |
+| **Modificación prevista en pliegos** | Hasta **20 % del precio inicial** | **204** |
+| **Formalización sujeta a recurso especial** | No antes de **15 días hábiles** desde la remisión de la notificación de adjudicación, sin perjuicio de suspensiones y particularidades legales | **153.3** |
+| **Pago de prestaciones** | **30 días** desde la aprobación de certificaciones de obra o documentos de conformidad, en las condiciones legales | **198.4** |
+| **Extinción contractual** | Por **cumplimiento** o **resolución** | **209** |
+
+> ⚠️ **¡Foco Examen!:** El **valor estimado** se calcula **sin IVA** y no equivale al **precio de adjudicación**. Los límites del órgano local combinan **10 %**, **6.000.000 €** y, para contratos plurianuales, **4 años**; no basta memorizar solo una cifra.
+
+> ⚠️ **¡Foco Examen!:** La **garantía definitiva ordinaria del 5 %** se calcula sobre el **precio final ofertado excluido el IVA**. No confundirla con la posible **garantía provisional**, su régimen excepcional o la **garantía complementaria**.
+
+**Fuente primaria contrastada:** [Ley 9/2017, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902), particularmente **DA 2.ª**, arts. **101, 107, 153, 198, 204 y 209**. Banco ampliado a **20 preguntas**. Pendiente auditoría integral y comprobación funcional antes del cierre editorial.
