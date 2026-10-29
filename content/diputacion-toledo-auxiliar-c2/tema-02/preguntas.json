@@ -1,8 +1,8 @@
 {
   "tema": 2,
-  "estado": "TEST_COTEJADO_BOE_2026_10_29",
+  "estado": "BANCO_20_PREGUNTAS_REVISION_JURIDICA_PENDIENTE",
   "version": "2026-10-29",
-  "criterio": "Las 8 respuestas contrastadas con los artículos 4.1.b, 13.b, 14.2.a, 30.2, 30.5, 32.1, 32.3 y 21.2-3 de Ley 39/2015, BOE consolidado actualizado 06/11/2024. Pendiente de prueba funcional de navegador; no son preguntas oficiales.",
+  "criterio": "20 preguntas con referencias legales; 8 previas revisadas y 12 ampliaciones redactadas con base en Ley 39/2015. No están certificadas individualmente todas las nuevas preguntas ni probadas en navegador.",
   "preguntas": [
     {
       "id": "DT-C2-T2-001",
@@ -115,6 +115,174 @@
       "justificacion": "Art. 21.3: si la norma del procedimiento no fija plazo máximo, serán tres meses. Los arts. 21.2 y 21.3 incluyen un límite general de seis meses salvo norma con rango de ley o Derecho UE, y reglas de inicio según iniciación de oficio o a solicitud.",
       "trampaExamen": "**3 meses** es plazo supletorio; **6 meses** es límite general cuando la norma fija otro, salvo **ley o Derecho UE**.",
       "referencia": "Ley 39/2015, art. 21.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-009",
+      "enunciado": "¿Qué plazo establece el art. 5.6 para subsanar la falta o insuficiencia de acreditación de la representación?",
+      "opciones": [
+        "Tres días",
+        "Diez días",
+        "Un mes",
+        "Veinte días"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La falta o insuficiencia no impide tener por realizado el acto si se aporta o subsana la acreditación en **10 días**, o plazo superior cuando las circunstancias lo requieran.",
+      "trampaExamen": "No confundir **10 días** para acreditar representación con **10 días** de subsanación de solicitud en otro precepto.",
+      "referencia": "Ley 39/2015, art. 5.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-010",
+      "enunciado": "¿Cuál es la duración máxima de los poderes inscritos en registros electrónicos de apoderamientos?",
+      "opciones": [
+        "Dos años",
+        "Tres años",
+        "Cinco años",
+        "Indefinida"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los poderes inscritos tendrán **5 años** como máximo desde la fecha de inscripción; podrán revocarse o prorrogarse en los términos del art. 6.",
+      "trampaExamen": "**5 años** es duración máxima de cada poder, no plazo de conservación de todos los expedientes.",
+      "referencia": "Ley 39/2015, art. 6.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-011",
+      "enunciado": "Según el art. 11.2, ¿qué actuación exige obligatoriamente el uso de firma?",
+      "opciones": [
+        "Consultar una web pública",
+        "Solicitar acceso a información pública sin identificarse",
+        "Presentar solicitudes",
+        "Leer una notificación sin más"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El **art. 11.2** exige firma para formular **solicitudes**, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir y renunciar a derechos.",
+      "trampaExamen": "La **identificación** es regla general; la **firma** se exige para actos enumerados.",
+      "referencia": "Ley 39/2015, art. 11.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-012",
+      "enunciado": "¿Qué ocurre si varias personas figuran como interesadas en un procedimiento y no designan expresamente representante?",
+      "opciones": [
+        "Se archiva siempre",
+        "Las actuaciones se efectúan con el que figure en primer término",
+        "El órgano elige a una persona ajena",
+        "Hay que suspender el procedimiento"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **art. 7** dispone que las actuaciones se efectúan con el representante o interesado expresamente señalado y, **en su defecto**, con el que figure en **primer término**.",
+      "trampaExamen": "Pluralidad de interesados: prevalece persona **designada**; si no, **primera**.",
+      "referencia": "Ley 39/2015, art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-013",
+      "enunciado": "¿Qué plazo máximo general puede fijar la norma reguladora de un procedimiento, salvo excepción legal o del Derecho de la UE?",
+      "opciones": [
+        "Tres meses siempre",
+        "Seis meses",
+        "Un año sin excepciones",
+        "Quince días"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **art. 21.2** fija **6 meses** como máximo ordinario, salvo que una **norma con rango de ley** establezca uno superior o así venga previsto en Derecho de la Unión Europea.",
+      "trampaExamen": "**6 meses** es techo general; **3 meses** es plazo supletorio si la norma no fija ninguno.",
+      "referencia": "Ley 39/2015, art. 21.2-3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-014",
+      "enunciado": "Según el art. 22.1.d, ¿cuánto puede durar como máximo la suspensión por solicitar un informe preceptivo?",
+      "opciones": [
+        "Diez días",
+        "Un mes",
+        "Tres meses",
+        "Seis meses"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La suspensión por petición de **informes preceptivos** no excede de **3 meses**; si no llega el informe dentro de ese plazo, se prosigue.",
+      "trampaExamen": "La **suspensión del 22** no equivale a la **ampliación del plazo máximo del 23**.",
+      "referencia": "Ley 39/2015, art. 22.1.d · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-015",
+      "enunciado": "¿Qué efecto tiene con carácter general el silencio en procedimientos iniciados a solicitud del interesado?",
+      "opciones": [
+        "Desestimación",
+        "Estimación",
+        "Caducidad automática",
+        "Nulidad"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **art. 24.1** establece como regla la **estimación**, con excepciones legales como dominio público, medio ambiente, responsabilidad patrimonial e impugnación.",
+      "trampaExamen": "**Solicitud = estimación general**, pero hay **excepciones** expresas; no extrapolarlo al procedimiento de oficio.",
+      "referencia": "Ley 39/2015, art. 24.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-016",
+      "enunciado": "En un procedimiento sancionador iniciado de oficio, ¿qué produce la falta de resolución en plazo?",
+      "opciones": [
+        "Silencio estimatorio",
+        "Desestimación sin archivo",
+        "Caducidad y archivo",
+        "Prórroga automática de un año"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Según el **art. 25.1.b**, en los procedimientos sancionadores o de intervención susceptibles de efectos desfavorables se produce **caducidad** y debe ordenarse archivo, sin perjuicio del artículo 95.",
+      "trampaExamen": "Sancionador **de oficio**: **caducidad**, no silencio positivo.",
+      "referencia": "Ley 39/2015, art. 25.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-017",
+      "enunciado": "En los plazos expresados por horas, ¿qué límite establece el art. 30.1?",
+      "opciones": [
+        "No pueden superar 24 horas salvo otra regla aplicable",
+        "Siempre se cuentan sábados",
+        "Pueden ser de 48 horas sin excepción",
+        "Empiezan a las 00:00"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Salvo previsión normativa contraria, los plazos señalados por horas **no podrán tener duración superior a 24 horas**; en caso contrario se expresarán en días.",
+      "trampaExamen": "**24 horas**: límite de plazo expresado por horas bajo la regla general del **art. 30.1**.",
+      "referencia": "Ley 39/2015, art. 30.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-018",
+      "enunciado": "Si el registro electrónico recibe un documento en día inhábil y el plazo se fija en días hábiles, ¿qué regla general se aplica?",
+      "opciones": [
+        "Se rechaza el documento",
+        "Se entiende presentado en la primera hora del primer día hábil siguiente",
+        "Queda presentado el día hábil anterior",
+        "Se aplica una multa"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **art. 31.2.b** computa la presentación en inhábil en la **primera hora del primer día hábil siguiente**, salvo norma que permita expresamente recepción en inhábil.",
+      "trampaExamen": "Registro abierto **24/7** no significa que los plazos computen siempre en días naturales.",
+      "referencia": "Ley 39/2015, art. 31.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-019",
+      "enunciado": "¿Qué límite tiene la ampliación ordinaria del art. 32.1?",
+      "opciones": [
+        "El doble del plazo original",
+        "La mitad del plazo original",
+        "Un año",
+        "Diez días naturales"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La ampliación no excede de **la mitad del plazo original**, si las circunstancias aconsejan, no perjudica a terceros y no existe precepto contrario.",
+      "trampaExamen": "**Ampliar** añade hasta **la mitad**; **urgencia** reduce a **la mitad**.",
+      "referencia": "Ley 39/2015, art. 32.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T2-020",
+      "enunciado": "En tramitación de urgencia, ¿qué plazos quedan excluidos de la reducción a la mitad?",
+      "opciones": [
+        "Los de los informes técnicos",
+        "Los de presentación de solicitudes y recursos",
+        "Los de subsanación de todos los trámites",
+        "Ninguno"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **art. 33.1** reduce los plazos del procedimiento a la mitad, **salvo los relativos a la presentación de solicitudes y recursos**.",
+      "trampaExamen": "La urgencia **no reduce** plazos de **solicitudes ni recursos**.",
+      "referencia": "Ley 39/2015, art. 33.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ],
   "auditoria": {
