@@ -1,8 +1,8 @@
 {
   "tema": 12,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
-  "criterio": "8 preguntas originales de cuatro opciones, respuesta inequívoca y referencia precisa a BOE consolidado, comprobado a 25/10/2026. No son preguntas oficiales; auditoría integral de manual pendiente.",
+  "estado": "BANCO_20_PREGUNTAS_CON_FUNDAMENTO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales con respuestas, argumentos y referencias LGT; revisión documental pendiente de auditoría final integral del manual.",
   "preguntas": [
     {
       "id": "DT-C2-T12-001",
@@ -115,6 +115,174 @@
       "justificacion": "El art. 161.2 LGT establece que una solicitud de aplazamiento, fraccionamiento o compensación presentada en período voluntario impide el inicio del período ejecutivo mientras se tramita. Excepción: la norma permite su inicio si antes se había denegado otra solicitud de las previstas respecto de la misma deuda en período voluntario, se abrió un nuevo plazo de ingreso y no se ingresó.",
       "trampaExamen": "La protección durante la tramitación no es ilimitada: existen excepciones por denegación previa de determinadas solicitudes y falta de ingreso en el nuevo plazo.",
       "referencia": "LGT art. 161.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-009",
+      "enunciado": "¿Cuál es la regla general de inicio del período ejecutivo en deudas liquidadas por la Administración? ",
+      "opciones": [
+        "Al notificarse providencia de apremio",
+        "El día siguiente al vencimiento del plazo voluntario sin ingreso",
+        "A los tres meses de la notificación",
+        "Al dictarse embargo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 161.1.a: se inicia el día siguiente a finalizar el plazo de ingreso del art. 62 sin haberse efectuado.",
+      "trampaExamen": "**Inicio de período ejecutivo** no equivale a **inicio de procedimiento de apremio**.",
+      "referencia": "LGT art. 161.1.a · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-010",
+      "enunciado": "¿En qué momento comienza el procedimiento administrativo de apremio?",
+      "opciones": [
+        "Al presentar autoliquidación",
+        "Al comenzar plazo voluntario",
+        "Mediante providencia de apremio notificada al obligado",
+        "Al vencer el plazo de prescripción"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 167.1: el procedimiento se inicia mediante providencia de apremio notificada.",
+      "trampaExamen": "**Período ejecutivo** es anterior a la **providencia**.",
+      "referencia": "LGT art. 167.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-011",
+      "enunciado": "Si se notifica providencia de apremio del día 1 al 15 del mes, ¿hasta cuándo se paga en plazo según art. 62.5?",
+      "opciones": [
+        "Hasta día 5 del mes siguiente",
+        "Hasta día 20 del segundo mes siguiente",
+        "Hasta fin de mes",
+        "Hasta día 20 del mismo mes o hábil siguiente"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Art. 62.5.a: desde notificación hasta día **20 del mismo mes**, o inmediato hábil siguiente.",
+      "trampaExamen": "En **apremio** día **1–15** equivale a día **20 del mismo mes**.",
+      "referencia": "LGT art. 62.5.a · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-012",
+      "enunciado": "Si se notifica providencia de apremio del día 16 al último del mes, ¿cuál es su plazo de ingreso?",
+      "opciones": [
+        "Hasta el día 5 del mes siguiente o hábil siguiente",
+        "Hasta el día 20 del siguiente mes",
+        "Hasta el día 5 del segundo mes siguiente",
+        "10 días naturales siempre"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 62.5.b: hasta día **5 del mes siguiente** o hábil inmediato siguiente.",
+      "trampaExamen": "No confundir plazos de la **liquidación** con plazos de **apremio**.",
+      "referencia": "LGT art. 62.5.b · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-013",
+      "enunciado": "¿Cuál de estos recargos es compatible con intereses de demora del período ejecutivo?",
+      "opciones": [
+        "El 5 %",
+        "El 20 % ordinario",
+        "El 10 % reducido",
+        "Ninguno"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 28.5: recargo de apremio ordinario compatible con intereses de demora; con ejecutivo 5 % y reducido 10 % no se exigen esos intereses.",
+      "trampaExamen": "**20 %** ordinario puede llevar intereses; **5 %** y **10 %** no.",
+      "referencia": "LGT art. 28.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-014",
+      "enunciado": "¿Qué recargo corresponde por pago de deuda y recargo en plazo del art. 62.5 tras providencia?",
+      "opciones": [
+        "5 %",
+        "20 %",
+        "10 %",
+        "25 %"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 28.3: **10 %** recargo apremio reducido cuando se paga deuda y recargo en plazo del art. 62.5.",
+      "trampaExamen": "El **10 %** exige pago íntegro y del propio recargo en plazo.",
+      "referencia": "LGT art. 28.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-015",
+      "enunciado": "¿Qué caracteriza la compensación tributaria?",
+      "opciones": [
+        "La renuncia automática al cobro",
+        "La destrucción del documento",
+        "La conversión de deuda en multa",
+        "Extinción de deudas con créditos reconocidos por la Administración conforme a la ley"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Art. 71 LGT: las deudas tributarias podrán extinguirse total o parcialmente por compensación con créditos reconocidos por acto administrativo a favor del obligado.",
+      "trampaExamen": "La **compensación** exige crédito reconocido; no es aplazamiento.",
+      "referencia": "LGT art. 71 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-016",
+      "enunciado": "¿Qué regla es correcta sobre aplazamientos y fraccionamientos según el art. 65 LGT?",
+      "opciones": [
+        "Pueden concederse cuando situación económico-financiera impida transitoriamente pagar en plazo, con exclusiones legales",
+        "Se conceden sin solicitud a toda deuda",
+        "Eliminan principal e intereses",
+        "Son idénticos a una exención"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 65.1: pueden aplazarse/fraccionarse deudas en voluntaria o ejecutiva, previa solicitud, ante dificultad transitoria de tesorería y salvo exclusiones legales.",
+      "trampaExamen": "**Aplazar** pospone; **fraccionar** distribuye; ninguno perdona automáticamente la deuda.",
+      "referencia": "LGT art. 65.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-017",
+      "enunciado": "¿Qué efecto general produce una solicitud de aplazamiento presentada en período voluntario?",
+      "opciones": [
+        "Siempre extingue la deuda",
+        "Impide el inicio del período ejecutivo mientras se tramita, con las precisiones legales",
+        "Se convierte en providencia de apremio",
+        "Aumenta la deuda al doble automáticamente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 65.5 LGT: la solicitud en período voluntario impide el inicio de período ejecutivo durante tramitación, sin perjuicio del devengo de interés y condiciones legales.",
+      "trampaExamen": "No confundir efecto de **solicitud en voluntaria** con **solicitud en ejecutiva**.",
+      "referencia": "LGT art. 65.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-018",
+      "enunciado": "¿Qué diferencia existe entre devolución derivada de la normativa del tributo y devolución de ingresos indebidos?",
+      "opciones": [
+        "Ambas son siempre sanciones",
+        "La devolución indebida nunca produce intereses",
+        "La primera deriva de la mecánica del tributo; la segunda de un pago que no debió realizarse",
+        "Ninguna está regulada en LGT"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Arts. 31 y 32 LGT distinguen devolución derivada de normativa de cada tributo y devolución de ingresos indebidos.",
+      "trampaExamen": "Los **intereses** no comienzan necesariamente en igual momento.",
+      "referencia": "LGT art. 31-32 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-019",
+      "enunciado": "¿Cuál es el efecto de un recurso contra providencia de apremio sobre los motivos de oposición?",
+      "opciones": [
+        "Permite discutir libremente toda la política fiscal",
+        "Siempre cambia el sujeto pasivo",
+        "Reabre sin límites cualquier liquidación firme",
+        "Se limita a motivos tasados establecidos por el art. 167.3"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Art. 167.3 contiene motivos tasados: extinción/prescripción, solicitud y suspensión en casos legales, falta de notificación de liquidación, anulación, error u omisión que impida identificar deudor o deuda.",
+      "trampaExamen": "Los motivos contra **providencia** son **tasados**, no una revisión general de la liquidación.",
+      "referencia": "LGT art. 167.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T12-020",
+      "enunciado": "¿Qué principio debe respetar el embargo tributario según la LGT?",
+      "opciones": [
+        "Proporcionalidad y suficiencia para cubrir deuda, recargos, intereses y costas",
+        "Siempre embargar primero vivienda habitual",
+        "Embargar sin límites por ser deuda pública",
+        "Embargar a terceros sin procedimiento"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 169: el embargo debe guardar proporcionalidad con la deuda y seguir el orden legal, con condiciones.",
+      "trampaExamen": "El **embargo** no es discrecional sin límites.",
+      "referencia": "LGT art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     }
   ],
   "auditoria": {
