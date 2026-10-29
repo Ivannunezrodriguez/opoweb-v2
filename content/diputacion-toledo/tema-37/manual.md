@@ -451,3 +451,23 @@ LIBREOFFICE BASE
 ```
 
 > ⚠️ **¡Foco Examen!:** La secuencia conceptual esencial es tabla para almacenar, consulta para seleccionar, formulario para introducir y editar, e informe para presentar.
+
+## 20. Comparativa práctica de relaciones y objetos — **29/10/2026**
+
+| Concepto | Uso en LibreOffice Base | Precisión de examen |
+|---|---|---|
+| **Tabla** | Guarda registros y campos | El **registro** es fila y el **campo** es columna |
+| **Clave primaria** | Identifica un registro de forma **única** | Se referencia desde otras tablas |
+| **Clave foránea** | Vincula un registro con clave de otra tabla | Habitual en el lado **muchos** de relación uno a muchos |
+| **Herramientas → Relaciones** | Diseña relaciones entre tablas | Disponible si el **motor de base de datos admite relaciones** |
+| **Actualización en cascada** | Propaga cambios de clave primaria a claves foráneas relacionadas | Depende del soporte del motor |
+| **Eliminación en cascada** | Puede eliminar también registros relacionados dependientes | **Riesgo de pérdida de datos** |
+| **Consulta** | Selecciona campos, registros y criterios; puede ordenar | No equivale a almacenar otra tabla por sí sola |
+| **Formulario** | Facilita introducción y edición de datos | Utiliza controles |
+| **Orígenes de datos en Writer/Calc** | **Ctrl + Mayús + F4** | Abre vista de orígenes de datos |
+
+> ⚠️ **¡Foco Examen!:** La **clave primaria** identifica el registro de una tabla; la **clave foránea** hace referencia a ella desde otra tabla. La **eliminación en cascada** puede borrar automáticamente registros dependientes y **solo funciona si el motor lo permite**.
+
+> ⚠️ **¡Foco Examen!:** Una **consulta** selecciona y muestra datos según criterios; un **formulario** facilita capturarlos o modificarlos. **Herramientas → Relaciones** sirve para configurar vínculos entre tablas, no para crear informes.
+
+**Documentación oficial contrastada:** https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html ; https://help.libreoffice.org/latest/es/text/sdatabase/05020100.html ; https://help.libreoffice.org/latest/es/text/sdatabase/02000000.html ; https://help.libreoffice.org/latest/es/text/sdatabase/04000000.html ; https://help.libreoffice.org/latest/es/text/shared/guide/database_main.html . **20 preguntas**; quedan pendientes auditoría integral y prueba funcional.
