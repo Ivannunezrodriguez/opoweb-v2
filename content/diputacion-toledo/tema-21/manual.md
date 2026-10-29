@@ -37,7 +37,7 @@ Puede celebrarse por:
 - oscilaciones que generen un desajuste temporal entre el empleo estable disponible y el necesario;
 - situaciones ocasionales, previsibles y de duración reducida, dentro de los límites legales.
 
-La duración general del contrato por incremento imprevisible no puede superar **6 meses**, ampliable por convenio colectivo sectorial hasta **1 año**. Para situaciones previsibles de corta duración, la empresa puede utilizar esta modalidad durante un máximo de **90 días en el año natural**, no continuados, salvo la especialidad legal aplicable al sector agrario y agroalimentario.
+La duración general del contrato por incremento imprevisible no puede superar **6 meses**, ampliable por convenio colectivo sectorial hasta **1 año**. Para situaciones previsibles de corta duración, la empresa puede utilizar esta modalidad durante un máximo de **90 días en el año natural**, no continuados, con especialidad de **120 días** en empresas del sector **agrario y agroalimentario** y supuestos legalmente definidos.
 
 > ⚠️ **¡Foco Examen!:** Los **90 días** corresponden a la empresa y al año natural, no a cada persona trabajadora ni a un único contrato continuado.
 
@@ -88,12 +88,12 @@ El alta comunica el inicio de una actividad incluida en el sistema. La baja comu
 | Acto | Regla temporal general |
 |---|---|
 | Solicitud de alta | Debe presentarse **antes del inicio** de la prestación de servicios |
-| Solicitud de baja | Dentro de los **3 días naturales** siguientes al cese |
-| Variación de datos | Dentro de los **3 días naturales** siguientes a la variación |
+| Solicitud de baja | Dentro de los **6 días naturales** siguientes al cese |
+| Variación de datos | Dentro de los **6 días naturales** siguientes a la variación |
 
 Cuando el empresario incumple, la persona trabajadora puede instar directamente su afiliación o alta y la Administración puede practicarlas de oficio.
 
-> ⚠️ **¡Foco Examen!:** El alta ordinaria es **previa** al comienzo del trabajo; la baja se comunica después, dentro de **3 días naturales**.
+> ⚠️ **¡Foco Examen!:** El alta ordinaria es **previa** al comienzo del trabajo; la baja se comunica después, dentro de **6 días naturales**.
 
 ## 3. Cotización
 
@@ -156,8 +156,27 @@ Finalizado el periodo voluntario sin pago, procede la recaudación ejecutiva med
 | Práctica profesional | **6 meses a 1 año** |
 | Celebración tras estudios | **3 años**; **5 años** con discapacidad |
 | Alta | **Antes del inicio** |
-| Baja y variación de datos | **3 días naturales** |
+| Baja y variación de datos | **6 días naturales** |
 | Ingreso ordinario de cuotas | **Mes siguiente** |
 | Prescripción de cuotas | **4 años** |
 
 > ⚠️ **¡Foco Examen!:** En test suelen mezclar tres planos: naturaleza del contrato, duración máxima y finalidad. La causa real de la contratación prevalece sobre el nombre que la empresa dé al contrato.
+
+## 6. Actualización normativa verificada — **29/10/2026**
+
+| Concepto | Regla examinable | Referencia BOE |
+|---|---|---|
+| Contrato de trabajo | Presunción de contrato **indefinido** | **ET 15.1** |
+| Contrato fijo-discontinuo | Relación **indefinida** con actividad intermitente | **ET 16** |
+| Producción ocasional previsible | Hasta **90 días no continuados** por empresa y año; **120 días** en empresas agrarias y agroalimentarias y los supuestos sectoriales contemplados | **ET 15.2** |
+| Contrato de sustitución para cubrir selección | Máximo general de **3 meses**, salvo plazo inferior por convenio | **ET 15.3** |
+| Alta en Seguridad Social | **Antes de comenzar** la prestación; no más de **60 días naturales** antes de la fecha prevista, como regla | **RD 84/1996, 32.3.1.º** |
+| Baja y variaciones de datos | Dentro de **6 días naturales** desde cese o variación, salvo especialidades | **RD 84/1996, 32.3.2.º** |
+| Afiliación | **Única, general y vitalicia** | **LGSS 15** |
+| Cuotas a Seguridad Social | Prescripción general de **4 años** | **LGSS 24** |
+
+> ⚠️ **¡Foco Examen!:** La actualización publicada el **30/07/2026** del **RD 84/1996** fija **6 días naturales** para comunicar bajas y variaciones en el **artículo 32.3.2.º**. La referencia previa del manual a **3 días** estaba desactualizada y se ha corregido. No confundir el plazo de **3 meses** para ciertas sustituciones con el de comunicaciones a la **TGSS**.
+
+> ⚠️ **¡Foco Examen!:** Los **90 días** de contratación previsible son un límite **por empresa y año**, no por cada trabajador; en los supuestos agrarios y agroalimentarios previstos por el **artículo 15.2 ET**, el límite se eleva a **120 días**.
+
+**Fuentes contrastadas:** [Estatuto de los Trabajadores, consolidación publicada **21/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430), [Ley General de la Seguridad Social, consolidación publicada **21/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724) y [RD 84/1996, consolidación publicada **30/07/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447). Banco de **20 preguntas**, pendiente auditoría integral y comprobación funcional.
