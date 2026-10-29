@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 14
 
-**ESTADO EDITORIAL: BORRADOR ADAPTADO, AUDITORÍA FINAL PENDIENTE.** Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
+**ESTADO EDITORIAL: CONTENIDO COMPLETO Y PUBLICADO — revisión normativa documental 29/10/2026.** Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
 
 ## 1. Epígrafe oficial literal
 
