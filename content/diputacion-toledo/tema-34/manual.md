@@ -308,3 +308,21 @@ ESCANEADO
 ```
 
 > ⚠️ **¡Foco Examen!:** Las trampas más frecuentes son confundir impresora instalada con predeterminada, cancelar con detener instantáneamente, imprimir a PDF con guardar el original y detectar una multifunción con tener operativo el escáner.
+
+## 17. Comparativa de tareas y resolución de incidencias — **29/10/2026**
+
+| Función | Ubicación o procedimiento | Punto susceptible de test |
+|---|---|---|
+| **Agregar impresora** | **Configuración → Bluetooth y dispositivos → Impresoras y escáneres → Agregar dispositivo** | Instalar no implica seleccionarla como predeterminada |
+| **Establecer predeterminada manual** | Desactivar **Permitir que Windows administre mi impresora predeterminada** y elegir impresora | Si la gestión automática está activada, Windows puede usar la **última impresora utilizada** |
+| **Consultar cola de impresión** | Seleccionar impresora → **Abrir cola de impresión** | Muestra trabajos **pendientes** y en espera |
+| **Impresora física** | Produce salida sobre papel u otro soporte físico | No equivale a escanear |
+| **Microsoft Print to PDF** | Seleccionar como impresora virtual en el diálogo de impresión | Produce **archivo PDF**, no papel |
+| **Escáner USB o de red** | Detección automática cuando es compatible; posibilidad de agregarlo manualmente | Una multifunción puede detectarse como impresora **sin que funcione aún su escáner** |
+| **Impresora de red no detectable** | Comprobar alimentación, red y compatibilidad; intentar agregar manualmente | La ubicación en red y los **permisos** condicionan el acceso |
+
+> ⚠️ **¡Foco Examen!:** La opción **Permitir que Windows administre mi impresora predeterminada** puede convertir en predeterminada la **última utilizada**. Para elegirla manualmente, normalmente se debe **desactivar** primero.
+
+> ⚠️ **¡Foco Examen!:** Ver una impresora multifunción en **Impresoras y escáneres** no demuestra por sí solo que Windows haya reconocido la función de **escaneado**. Hay que comprobar que figure como escáner.
+
+**Referencias oficiales de Microsoft:** [agregar impresora](https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows), [impresora predeterminada](https://support.microsoft.com/es-es/windows/hardware/printer/set-a-default-printer-in-windows), [cola de impresión](https://support.microsoft.com/es-es/windows/hardware/printer/view-a-printer-s-print-queue-in-windows) e [instalar y usar un escáner](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows). **20 preguntas**; pendiente auditoría editorial completa y prueba funcional del sitio.
