@@ -45,3 +45,11 @@
 - Plazos, fechas y órganos competentes destacados en **negrita**.
 - Verificación normativa realizada en **julio de 2026**.
 - Estado editorial: `GENERACION_DESDE_CERO`.
+
+## Actualización normativa de **29/10/2026**
+
+- [TRLRHL consolidado — BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): última actualización publicada el **07/10/2026**, posterior a la edición del **03/06/2026** referida arriba.
+- Control específico de los artículos **168, 169 y 171**: formación, aprobación inicial, exposición de **15 días**, reclamaciones, aprobación definitiva, prórroga y recurso contencioso-administrativo.
+- Banco de **20 preguntas**. Pendientes auditoría integral y prueba funcional de OpoWeb.
+
+> ⚠️ **¡Foco Examen!:** No confundir el **15 de octubre** para remitir el proyecto al **Pleno** con los **15 días** de exposición pública.
