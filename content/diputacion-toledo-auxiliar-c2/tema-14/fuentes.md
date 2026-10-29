@@ -21,3 +21,16 @@
 **Estado actual: BORRADOR.** El manual procede de una base editorial previamente desarrollada, pero no se certifica como auditado en esta convocatoria.
 
 > ⚠️ **¡Foco Examen!:** Ante diferencias entre explicaciones de un manual y el articulado o documentación técnica oficial, prevalece el texto oficial aplicable al programa.
+
+
+## Correcciones contrastadas directamente con BOE — 29/10/2026
+
+- **Ley 6/2020, art. 9.2:** consulta pública del estado de validez o revocación del certificado. **No es el art. 10.**
+- **Art. 9.3.a:** conservación por prestadores cualificados durante **15 años**.
+- **Art. 9.3.b:** seguro mínimo **1.500.000 €**, excepto sector público, más **500.000 €** por tipo de servicio cualificado adicional.
+- **Art. 10:** responsabilidad del prestador por las funciones delegadas ante terceros.
+- Se ha corregido la pregunta **DT-C2-T14-020** y su fundamentación.
+
+Fuente literal: https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046
+
+**Estado:** revisión del tema **14** en curso; no se publicará como definitivo hasta cotejar el manual restante con eIDAS y las leyes aplicables.
