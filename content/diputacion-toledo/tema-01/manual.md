@@ -572,3 +572,12 @@ CONSTITUCIÓN ESPAÑOLA DE 1978
 > ⚠️ **¡Foco Examen!:** Los magistrados del **Tribunal Constitucional** duran **9 años**; quien lo preside tiene mandato de **3 años** y posible reelección. Son plazos para cargos distintos.
 
 **Control de fuentes:** [Constitución consolidada, actualización **20/05/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) y [LOTC, actualización **02/08/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709). Banco ampliado de **12 a 20 preguntas** con fundamento individual; queda pendiente comprobar las afirmaciones del manual una por una antes de asignar el estado **PUBLICADO**.
+
+
+## Control final de elección de la Presidencia del TC
+
+Según el **artículo 9 de la Ley Orgánica 2/1979**, el **Pleno del Tribunal Constitucional** elige a su **Presidente** por **mayoría absoluta** en primera votación. La duración del cargo es de **3 años**, con posibilidad de **una reelección**. Distinguir del mandato de **9 años** de los magistrados y de los **3/5** de las Cámaras para proponer magistrados.
+
+> ⚠️ **¡Foco Examen!:** **Mayoría absoluta** para elegir al Presidente del TC en primera votación; **3/5** para la propuesta parlamentaria de magistrados.
+
+Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709
