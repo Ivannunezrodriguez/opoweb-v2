@@ -1,11 +1,16 @@
 {
   "tema": 13,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T13-001",
       "pregunta": "¿Cuáles son los elementos del municipio?",
-      "opciones": ["Territorio, población y organización", "Territorio, hacienda y competencias", "Población, patrimonio y pleno", "Término, alcalde y presupuesto"],
+      "opciones": [
+        "Territorio, población y organización",
+        "Territorio, hacienda y competencias",
+        "Población, patrimonio y pleno",
+        "Término, alcalde y presupuesto"
+      ],
       "correcta": 0,
       "justificacion": "El artículo 11.2 de la Ley 7/1985 identifica como elementos del municipio el territorio, la población y la organización.",
       "trampa": "Confundir los elementos del municipio con sus órganos o recursos financieros.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T13-002",
       "pregunta": "¿Cuál es el mínimo general de población exigido para crear un nuevo municipio?",
-      "opciones": ["1.000 habitantes", "2.000 habitantes", "4.000 habitantes", "5.000 habitantes"],
+      "opciones": [
+        "1.000 habitantes",
+        "2.000 habitantes",
+        "4.000 habitantes",
+        "5.000 habitantes"
+      ],
       "correcta": 2,
       "justificacion": "La creación de nuevos municipios exige núcleos territorialmente diferenciados de al menos 4.000 habitantes, además de los restantes requisitos legales.",
       "trampa": "No confundir este umbral con los 5.000 habitantes relevantes para determinados órganos y servicios municipales.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T13-003",
       "pregunta": "¿Cuándo se adquiere la condición de vecino?",
-      "opciones": ["Tras seis meses de residencia", "Al aprobarse el padrón anual", "En el momento de la inscripción en el padrón", "Al obtener certificado de empadronamiento"],
+      "opciones": [
+        "Tras seis meses de residencia",
+        "Al aprobarse el padrón anual",
+        "En el momento de la inscripción en el padrón",
+        "Al obtener certificado de empadronamiento"
+      ],
       "correcta": 2,
       "justificacion": "La condición de vecino se adquiere en el mismo momento de la inscripción en el padrón municipal.",
       "trampa": "La vecindad administrativa no exige una antigüedad mínima.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T13-004",
       "pregunta": "¿A quién corresponde la formación, mantenimiento, revisión y custodia del padrón municipal?",
-      "opciones": ["A la diputación provincial", "Al ayuntamiento", "Al Instituto Nacional de Estadística", "A la comunidad autónoma"],
+      "opciones": [
+        "A la diputación provincial",
+        "Al ayuntamiento",
+        "Al Instituto Nacional de Estadística",
+        "A la comunidad autónoma"
+      ],
       "correcta": 1,
       "justificacion": "La formación, mantenimiento, revisión y custodia del padrón corresponden al ayuntamiento, sin perjuicio de la coordinación atribuida al Instituto Nacional de Estadística.",
       "trampa": "El Instituto Nacional de Estadística coordina los padrones, pero no sustituye al ayuntamiento como gestor ordinario.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T13-005",
       "pregunta": "¿Cada cuánto debe renovarse la inscripción padronal de determinados extranjeros no comunitarios sin residencia de larga duración?",
-      "opciones": ["Cada año", "Cada 2 años", "Cada 3 años", "Cada 5 años"],
+      "opciones": [
+        "Cada año",
+        "Cada 2 años",
+        "Cada 3 años",
+        "Cada 5 años"
+      ],
       "correcta": 1,
       "justificacion": "La inscripción de extranjeros no comunitarios sin autorización de residencia de larga duración debe renovarse periódicamente cada 2 años.",
       "trampa": "La renovación cada 2 años no se aplica a todos los extranjeros inscritos.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T13-006",
       "pregunta": "¿En qué municipios existe obligatoriamente Junta de Gobierno Local como regla general?",
-      "opciones": ["En todos", "Solo en capitales de provincia", "En los de más de 5.000 habitantes", "En los de más de 20.000 habitantes"],
+      "opciones": [
+        "En todos",
+        "Solo en capitales de provincia",
+        "En los de más de 5.000 habitantes",
+        "En los de más de 20.000 habitantes"
+      ],
       "correcta": 2,
       "justificacion": "La Junta de Gobierno Local existe obligatoriamente en los municipios de más de 5.000 habitantes y también en los de menor población cuando lo disponga el reglamento orgánico o lo acuerde el pleno.",
       "trampa": "No es un órgano obligatorio en absolutamente todos los municipios.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T13-007",
       "pregunta": "¿Quién integra el pleno municipal?",
-      "opciones": ["El alcalde y los tenientes de alcalde", "Todos los concejales, presididos por el alcalde", "Solo los portavoces de grupo", "La Junta de Gobierno Local"],
+      "opciones": [
+        "El alcalde y los tenientes de alcalde",
+        "Todos los concejales, presididos por el alcalde",
+        "Solo los portavoces de grupo",
+        "La Junta de Gobierno Local"
+      ],
       "correcta": 1,
       "justificacion": "El pleno municipal está integrado por todos los concejales y es presidido por el alcalde.",
       "trampa": "No debe confundirse la composición del pleno con la de la Junta de Gobierno Local.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T13-008",
       "pregunta": "¿Cuál es el número máximo de concejales que pueden integrar la Junta de Gobierno Local, además del alcalde?",
-      "opciones": ["La mitad del número legal de miembros", "Un tercio del número legal de miembros", "Una cuarta parte del número legal de miembros", "Cinco concejales"],
+      "opciones": [
+        "La mitad del número legal de miembros",
+        "Un tercio del número legal de miembros",
+        "Una cuarta parte del número legal de miembros",
+        "Cinco concejales"
+      ],
       "correcta": 1,
       "justificacion": "La Junta de Gobierno Local está integrada por el alcalde y un número de concejales no superior a un tercio del número legal de miembros de la corporación.",
       "trampa": "El límite es un tercio, no la mitad del número legal de miembros.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T13-009",
       "pregunta": "¿Qué servicio se añade para los municipios de más de 5.000 habitantes?",
-      "opciones": ["Transporte colectivo urbano", "Protección civil", "Biblioteca pública", "Prevención y extinción de incendios"],
+      "opciones": [
+        "Transporte colectivo urbano",
+        "Protección civil",
+        "Biblioteca pública",
+        "Prevención y extinción de incendios"
+      ],
       "correcta": 2,
       "justificacion": "Los municipios de más de 5.000 habitantes deben prestar, además de los servicios exigidos a todos, parque público, biblioteca pública y tratamiento de residuos.",
       "trampa": "El transporte colectivo urbano corresponde al umbral de más de 50.000 habitantes.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T13-010",
       "pregunta": "¿Antes de qué fecha debe el presidente remitir el proyecto de presupuesto al pleno?",
-      "opciones": ["1 de octubre", "15 de octubre", "1 de noviembre", "31 de diciembre"],
+      "opciones": [
+        "1 de octubre",
+        "15 de octubre",
+        "1 de noviembre",
+        "31 de diciembre"
+      ],
       "correcta": 1,
       "justificacion": "El presidente de la entidad debe remitir el proyecto de presupuesto al pleno antes del 15 de octubre para su aprobación, enmienda o devolución.",
       "trampa": "El 31 de diciembre es la fecha límite para la aprobación definitiva, no para la remisión del proyecto.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T13-011",
       "pregunta": "¿Durante cuánto tiempo se expone al público el presupuesto aprobado inicialmente?",
-      "opciones": ["10 días", "15 días", "20 días", "1 mes"],
+      "opciones": [
+        "10 días",
+        "15 días",
+        "20 días",
+        "1 mes"
+      ],
       "correcta": 1,
       "justificacion": "El presupuesto aprobado inicialmente se expone al público durante 15 días, plazo en el que los interesados pueden examinarlo y presentar reclamaciones.",
       "trampa": "El plazo de un mes corresponde a la resolución de reclamaciones por el pleno.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T13-012",
       "pregunta": "¿Qué ocurre si el nuevo presupuesto no ha entrado en vigor al comenzar el ejercicio?",
-      "opciones": ["Queda suspendida toda ejecución de gasto", "Se aplica el presupuesto estatal", "Se prorroga automáticamente el anterior con los ajustes legales", "Debe aprobarlo provisionalmente el alcalde"],
+      "opciones": [
+        "Queda suspendida toda ejecución de gasto",
+        "Se aplica el presupuesto estatal",
+        "Se prorroga automáticamente el anterior con los ajustes legales",
+        "Debe aprobarlo provisionalmente el alcalde"
+      ],
       "correcta": 2,
       "justificacion": "Si al comenzar el ejercicio no hubiera entrado en vigor el nuevo presupuesto, se considera automáticamente prorrogado el del ejercicio anterior con los ajustes legalmente exigidos.",
       "trampa": "La prórroga no significa que todos los créditos se mantengan sin modificación.",
       "referencia": "content/diputacion-toledo/tema-13/manual.md#74-entrada-en-vigor-y-prórroga"
+    },
+    {
+      "id": "DIP-T13-013",
+      "pregunta": "¿Qué órgano municipal existe en todos los ayuntamientos según el artículo 20.1.a LRBRL?",
+      "opciones": [
+        "La Junta de Gobierno Local",
+        "El Pleno",
+        "La comisión especial de cuentas como único órgano",
+        "La junta de distrito"
+      ],
+      "correcta": 1,
+      "justificacion": "El **Alcalde**, los **Tenientes de Alcalde** y el **Pleno** existen en todos los ayuntamientos.",
+      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
+      "referencia": "LRBRL art. 20.1.a · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DIP-T13-014",
+      "pregunta": "¿Qué órgano existe obligatoriamente en municipios con más de 5.000 habitantes?",
+      "opciones": [
+        "El consejo comarcal",
+        "El tribunal económico-administrativo provincial",
+        "La Junta de Gobierno Local",
+        "Un Consejo de Ministros municipal"
+      ],
+      "correcta": 2,
+      "justificacion": "La **Junta de Gobierno Local** existe en municipios con población superior a **5.000 habitantes** y en los de menos cuando proceda legalmente.",
+      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
+      "referencia": "LRBRL art. 20.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DIP-T13-015",
+      "pregunta": "¿Qué documentación constituye el padrón municipal?",
+      "opciones": [
+        "Una relación solo de propietarios",
+        "Un censo fiscal sin valor residencial",
+        "Un padrón exclusivamente electoral",
+        "El registro administrativo donde constan los vecinos de un municipio"
+      ],
+      "correcta": 3,
+      "justificacion": "El padrón municipal es el **registro administrativo** donde constan los vecinos; sus datos constituyen prueba de residencia y domicilio habitual.",
+      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
+      "referencia": "LRBRL art. 16.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+    },
+    {
+      "id": "DIP-T13-016",
+      "pregunta": "¿Quién aprueba el presupuesto general de una entidad local?",
+      "opciones": [
+        "El Pleno de la corporación",
+        "El alcalde por decreto sin intervención del Pleno",
+        "La Intervención directamente",
+        "La Junta Electoral"
+      ],
+      "correcta": 0,
+      "justificacion": "El **Pleno** aprueba el presupuesto general mediante acuerdo único, sin aprobar separadamente cada presupuesto integrado.",
+      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
+      "referencia": "TRLRHL art. 168.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T13-017",
+      "pregunta": "¿Por cuánto tiempo se expone al público el presupuesto general tras su aprobación inicial?",
+      "opciones": [
+        "10 días",
+        "15 días",
+        "20 días hábiles",
+        "Un mes"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 169.1 establece exposición pública durante **15 días**, con posibilidad de reclamaciones ante el **Pleno**.",
+      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
+      "referencia": "TRLRHL art. 169.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T13-018",
+      "pregunta": "¿Qué ocurre si se presentan reclamaciones durante la exposición pública del presupuesto general?",
+      "opciones": [
+        "Se aprueba automáticamente en todo caso",
+        "Se archiva la aprobación",
+        "El Pleno dispone de un mes para resolverlas",
+        "Debe celebrarse un referéndum"
+      ],
+      "correcta": 2,
+      "justificacion": "Cuando hay reclamaciones, el **Pleno** dispone de **un mes** para resolverlas.",
+      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
+      "referencia": "TRLRHL art. 169.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T13-019",
+      "pregunta": "¿Hasta qué fecha debe realizarse la aprobación definitiva del presupuesto general para el año siguiente?",
+      "opciones": [
+        "Antes del 1 de septiembre",
+        "Antes del 15 de octubre",
+        "Antes del 1 de diciembre",
+        "Antes del 31 de diciembre del año anterior"
+      ],
+      "correcta": 3,
+      "justificacion": "La aprobación definitiva debe efectuarse antes del **31 de diciembre** del año anterior a su aplicación.",
+      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
+      "referencia": "TRLRHL art. 169.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T13-020",
+      "pregunta": "¿Qué regla se aplica si el presupuesto no ha entrado en vigor al comenzar el ejercicio?",
+      "opciones": [
+        "Se prorroga automáticamente el anterior con límites legales",
+        "Se prohíbe todo gasto municipal",
+        "Se aprueba automáticamente el proyecto nuevo",
+        "El Ayuntamiento se disuelve"
+      ],
+      "correcta": 0,
+      "justificacion": "Si al iniciarse el ejercicio no ha entrado en vigor el presupuesto correspondiente, se prorroga automáticamente el anterior con los límites legales.",
+      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
+      "referencia": "TRLRHL art. 169.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     }
   ]
 }
