@@ -26,3 +26,11 @@
 ## Criterio editorial
 
 El contenido se ha generado desde cero a partir de fuentes oficiales vigentes. No se ha reutilizado texto de otros temarios de OpoWeb. Los umbrales de población, plazos presupuestarios y órganos competentes se han cotejado con los textos consolidados oficiales.
+
+## Revisión de vigencia — **29/10/2026**
+
+- [Ley 7/1985 (LRBRL), texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): **última actualización publicada el 03/10/2026**. Esta fuente sustituye a la versión del **03/06/2026** citada más arriba, para el control de los arts. **11, 16 y 20**.
+- [Real Decreto Legislativo 2/2004 (TRLRHL), texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): **última actualización publicada el 07/10/2026**. Cotejados arts. **168–169** sobre aprobación y publicidad de los presupuestos.
+- Banco ampliado de **12 a 20 preguntas**; pendientes auditoría integral de todas las afirmaciones y prueba funcional de OpoWeb.
+
+> ⚠️ **¡Foco Examen!:** **Aprobación inicial + exposición de 15 días** no equivale a aprobación definitiva automática cuando existen reclamaciones; en ese caso el **Pleno** dispone de **un mes** para resolverlas.
