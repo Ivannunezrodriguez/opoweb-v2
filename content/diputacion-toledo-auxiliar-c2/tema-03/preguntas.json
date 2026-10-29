@@ -1,8 +1,8 @@
 {
   "tema": 3,
-  "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
-  "criterio": "Ocho preguntas originales contrastadas artículo por artículo con Ley 39/2015 consolidada a fecha 26/10/2026. Test de entrenamiento, no preguntas oficiales. El manual sigue en borrador.",
+  "estado": "BANCO_20_PREGUNTAS_DOCUMENTADO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales, fundamento individual en Ley 39/2015 y 4 alternativas. No equivale a prueba funcional del portal.",
   "preguntas": [
     {
       "id": "DT-C2-T3-001",
@@ -115,6 +115,174 @@
       "justificacion": "El artículo 97.1 exige que previamente se haya adoptado la resolución que sirva de fundamento jurídico para cualquier actuación material de ejecución que limite derechos; el artículo 97.2 exige **notificar al particular interesado** la resolución que autorice la actuación.",
       "trampaExamen": "La **ejecutoriedad** del acto no elimina la necesidad de **resolución previa** ni la notificación requerida para ejecutar materialmente actuaciones limitativas (art. 97).",
       "referencia": "Ley 39/2015, art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-009",
+      "enunciado": "¿Cuál es el plazo general para subsanar una solicitud incompleta?",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Un mes",
+        "Tres meses"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Con carácter general, se concede **10 días** para subsanar la falta o acompañar los documentos preceptivos, con advertencia legal.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 68.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-010",
+      "enunciado": "¿Cuánto plazo tienen los interesados para cumplimentar trámites si la norma no indica otro?",
+      "opciones": [
+        "Tres días",
+        "Cinco días",
+        "Diez días",
+        "Quince días hábiles"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El plazo general es **10 días** a partir del siguiente al de notificación del correspondiente acto.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 73.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-011",
+      "enunciado": "¿Cuál es la duración ordinaria del período de prueba si debe abrirse?",
+      "opciones": [
+        "Un mes exacto",
+        "De tres a cinco días",
+        "Siempre quince días",
+        "Entre diez y treinta días"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El período de prueba se fija por **10 a 30 días**, sin perjuicio de la prueba extraordinaria prevista en el artículo.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 77.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-012",
+      "enunciado": "¿Qué carácter tienen en general los informes administrativos?",
+      "opciones": [
+        "Facultativos y no vinculantes salvo disposición expresa",
+        "Obligatorios y vinculantes siempre",
+        "Solo verbales",
+        "Nulos si son emitidos electrónicamente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Salvo disposición expresa en contrario, los informes son **facultativos y no vinculantes**.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 80.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-013",
+      "enunciado": "¿Cuál es el plazo general para emitir informes salvo regla diferente?",
+      "opciones": [
+        "Un mes",
+        "Diez días",
+        "Treinta días",
+        "Tres meses"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los informes deben emitirse por regla general en **10 días**, salvo que norma o cumplimiento de otros plazos permita o exija otro.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 80.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-014",
+      "enunciado": "¿Cuál es el plazo mínimo del trámite de información pública según el artículo 83.2?",
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Veinte días",
+        "Treinta días"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El plazo para formular alegaciones en información pública no puede ser inferior a **20 días**.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 83.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-015",
+      "enunciado": "¿Cuál de los siguientes es medio de ejecución forzosa previsto en la Ley 39/2015?",
+      "opciones": [
+        "Recurso de alzada",
+        "Declaración responsable",
+        "Silencio estimatorio",
+        "Ejecución subsidiaria"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La **ejecución subsidiaria** está entre medios de ejecución forzosa del artículo 100.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 100.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-016",
+      "enunciado": "¿Qué actuación caracteriza a una denuncia?",
+      "opciones": [
+        "Poner en conocimiento de un órgano hechos que pueden justificar inicio de oficio",
+        "Iniciar siempre por sí sola procedimiento sancionador",
+        "Convertir automáticamente a denunciante en interesado",
+        "Sustituir la prueba"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La denuncia pone hechos en conocimiento del órgano y **no confiere por sí sola condición de interesado**.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 62 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-017",
+      "enunciado": "¿Cuándo se inicia un procedimiento sancionador?",
+      "opciones": [
+        "Siempre por solicitud de cualquier ciudadano",
+        "Siempre de oficio por acuerdo del órgano competente",
+        "Por sentencia judicial sin acuerdo",
+        "Siempre por comunicación responsable"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los procedimientos sancionadores se iniciarán **siempre de oficio por acuerdo del órgano competente**.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 63.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-018",
+      "enunciado": "¿Qué determina la Ley sobre prescripción de responsabilidad patrimonial en caso ordinario?",
+      "opciones": [
+        "Seis meses",
+        "Dos años",
+        "Un año desde el hecho o manifestación del efecto lesivo, con especialidades",
+        "Cuatro años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El derecho a reclamar prescribe en **un año** desde el hecho o manifestación del efecto lesivo, con especialidades para daños físicos o psíquicos.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 67.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-019",
+      "enunciado": "¿Qué regla rige la tramitación simplificada respecto de la tramitación ordinaria?",
+      "opciones": [
+        "Siempre se impone sin condiciones",
+        "Se resuelve en un año",
+        "Nunca admite informes",
+        "Puede acordarse por razones de interés público o falta de complejidad con condiciones del art. 96"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La simplificación procede por **interés público o falta de complejidad**, con requisitos legales.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DT-C2-T3-020",
+      "enunciado": "¿Qué distingue una multa coercitiva de una sanción administrativa?",
+      "opciones": [
+        "La multa coercitiva es medida de ejecución forzosa cuando la ley la autoriza",
+        "Siempre es la misma sanción",
+        "Solo se impone por juez",
+        "Es un impuesto local"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La **multa coercitiva** es medio de ejecución forzosa, independiente y compatible con sanciones legalmente posibles.",
+      "trampaExamen": "Distinguir el **plazo exacto**, las **excepciones** y el alcance de cada trámite.",
+      "referencia": "Ley 39/2015 art. 103 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ],
   "auditoria": {
