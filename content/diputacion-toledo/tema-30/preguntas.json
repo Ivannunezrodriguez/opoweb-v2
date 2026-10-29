@@ -242,17 +242,17 @@
     },
     {
       "id": "DIP-T30-018",
-      "pregunta": "¿Cuál es el periodo máximo de generación computable en el IIVTNU?",
+      "pregunta": "¿Qué plazo establece el artículo 110 TRLRHL para declarar el IIVTNU derivado de una transmisión por causa de muerte?",
       "opciones": [
-        "10 años",
-        "15 años",
-        "20 años",
-        "30 años"
+        "30 días naturales",
+        "30 días hábiles",
+        "6 meses, prorrogables hasta un año a solicitud del sujeto pasivo",
+        "Un año improrrogable"
       ],
       "correcta": 2,
-      "justificacion": "La base se calcula para un periodo de generación máximo de **20 años**.",
-      "trampa": "Diferenciar reglas de IVTM, IIVTNU y tasas locales.",
-      "referencia": "TRLRHL, artículo 107 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "justificacion": "En transmisiones por causa de muerte, la declaración del IIVTNU debe presentarse en **6 meses**, prorrogables hasta **un año** a solicitud del sujeto pasivo (artículo 110.2.b del TRLRHL).",
+      "trampa": "Los actos entre vivos tienen **30 días hábiles**; la transmisión mortis causa tiene **6 meses**, prorrogables a **un año**.",
+      "referencia": "TRLRHL art. 110.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     },
     {
       "id": "DIP-T30-019",
