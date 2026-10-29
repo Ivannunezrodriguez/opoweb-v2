@@ -1,11 +1,16 @@
 {
   "tema": 17,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T17-001",
       "pregunta": "¿Cuál es la edad mínima general para participar en un proceso selectivo conforme a la Ley 4/2011?",
-      "opciones": ["14 años", "16 años", "18 años", "21 años"],
+      "opciones": [
+        "14 años",
+        "16 años",
+        "18 años",
+        "21 años"
+      ],
       "correcta": 1,
       "justificacion": "El requisito general es tener cumplidos 16 años y no exceder de la edad de jubilación forzosa, salvo previsión legal distinta.",
       "trampa": "No debe confundirse la mayoría de edad con la edad mínima general de acceso al empleo público.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T17-002",
       "pregunta": "¿Qué principios deben regir el acceso al empleo público?",
-      "opciones": ["Antigüedad, confianza y libre designación", "Igualdad, mérito, capacidad y publicidad", "Jerarquía, oportunidad y discrecionalidad", "Exclusivamente mérito y antigüedad"],
+      "opciones": [
+        "Antigüedad, confianza y libre designación",
+        "Igualdad, mérito, capacidad y publicidad",
+        "Jerarquía, oportunidad y discrecionalidad",
+        "Exclusivamente mérito y antigüedad"
+      ],
       "correcta": 1,
       "justificacion": "La selección debe respetar los principios de igualdad, mérito, capacidad y publicidad, junto con las demás garantías legales de transparencia, imparcialidad y objetividad.",
       "trampa": "No puede eliminarse la publicidad ni sustituirse la capacidad por la antigüedad.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T17-003",
       "pregunta": "¿Cuáles son los sistemas ordinarios de selección del personal funcionario?",
-      "opciones": ["Concurso y libre designación", "Oposición y concurso-oposición", "Solo oposición", "Concurso y entrevista"],
+      "opciones": [
+        "Concurso y libre designación",
+        "Oposición y concurso-oposición",
+        "Solo oposición",
+        "Concurso y entrevista"
+      ],
       "correcta": 1,
       "justificacion": "Los sistemas ordinarios de selección del personal funcionario son la oposición y el concurso-oposición.",
       "trampa": "El concurso puro solo procede de forma excepcional cuando una ley lo autoriza.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T17-004",
       "pregunta": "¿Cuándo deben poseerse los requisitos de participación?",
-      "opciones": ["El día del examen", "Al publicarse la lista definitiva", "Al finalizar el plazo de solicitudes y mantenerse hasta la toma de posesión o contrato", "Solo en la toma de posesión"],
+      "opciones": [
+        "El día del examen",
+        "Al publicarse la lista definitiva",
+        "Al finalizar el plazo de solicitudes y mantenerse hasta la toma de posesión o contrato",
+        "Solo en la toma de posesión"
+      ],
       "correcta": 2,
       "justificacion": "Los requisitos deben poseerse al finalizar el plazo de presentación de solicitudes y mantenerse hasta la toma de posesión o la formalización del contrato.",
       "trampa": "No basta con reunirlos al final del proceso; también deben poseerse al cerrar el plazo de solicitudes.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T17-005",
       "pregunta": "¿Puede el personal eventual realizar funciones administrativas ordinarias y permanentes?",
-      "opciones": ["Sí, siempre", "Sí, si lo autoriza el Pleno", "No, sus funciones son de confianza o asesoramiento especial", "Solo durante seis meses"],
+      "opciones": [
+        "Sí, siempre",
+        "Sí, si lo autoriza el Pleno",
+        "No, sus funciones son de confianza o asesoramiento especial",
+        "Solo durante seis meses"
+      ],
       "correcta": 2,
       "justificacion": "El personal eventual solo puede realizar funciones expresamente calificadas de confianza o asesoramiento especial.",
       "trampa": "El libre nombramiento y cese no permiten atribuirle funciones ordinarias o permanentes.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T17-006",
       "pregunta": "¿Qué efecto tiene aprobar el proceso selectivo?",
-      "opciones": ["Adquisición automática de la condición funcionarial", "Solo una expectativa hasta completar nombramiento, acatamiento y toma de posesión", "Contrato laboral automático", "Ingreso en prácticas indefinido"],
+      "opciones": [
+        "Adquisición automática de la condición funcionarial",
+        "Solo una expectativa hasta completar nombramiento, acatamiento y toma de posesión",
+        "Contrato laboral automático",
+        "Ingreso en prácticas indefinido"
+      ],
       "correcta": 1,
       "justificacion": "La condición de personal funcionario de carrera exige superar el proceso, ser nombrado, realizar el acto de acatamiento y tomar posesión dentro del plazo establecido.",
       "trampa": "Aprobar el proceso selectivo no equivale por sí solo a adquirir la condición funcionarial plena.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T17-007",
       "pregunta": "¿Cuál de las siguientes NO es causa de pérdida de la condición de personal funcionario de carrera?",
-      "opciones": ["Renuncia", "Jubilación total", "Cambio de puesto por concurso", "Separación firme del servicio"],
+      "opciones": [
+        "Renuncia",
+        "Jubilación total",
+        "Cambio de puesto por concurso",
+        "Separación firme del servicio"
+      ],
       "correcta": 2,
       "justificacion": "El cambio de puesto mediante concurso constituye una forma de provisión y movilidad, pero no extingue la relación de servicio.",
       "trampa": "No debe confundirse la movilidad profesional con la pérdida de la condición funcionarial.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T17-008",
       "pregunta": "La separación del servicio produce pérdida de la condición funcionarial cuando...",
-      "opciones": ["Se propone por el instructor", "Es firme en vía administrativa", "Se publica la apertura del expediente", "La acuerda provisionalmente el superior"],
+      "opciones": [
+        "Se propone por el instructor",
+        "Es firme en vía administrativa",
+        "Se publica la apertura del expediente",
+        "La acuerda provisionalmente el superior"
+      ],
       "correcta": 1,
       "justificacion": "La sanción disciplinaria de separación del servicio debe ser firme en vía administrativa para producir la pérdida de la condición funcionarial.",
       "trampa": "Una propuesta o una resolución no firme no produce todavía la pérdida efectiva de la condición.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T17-009",
       "pregunta": "¿Qué efecto tiene la inhabilitación absoluta firme?",
-      "opciones": ["Pérdida solo del puesto ocupado", "Pérdida respecto de todos los empleos o cargos públicos", "Suspensión de un mes", "Traslado forzoso"],
+      "opciones": [
+        "Pérdida solo del puesto ocupado",
+        "Pérdida respecto de todos los empleos o cargos públicos",
+        "Suspensión de un mes",
+        "Traslado forzoso"
+      ],
       "correcta": 1,
       "justificacion": "La pena firme de inhabilitación absoluta produce la pérdida respecto de todos los empleos o cargos públicos.",
       "trampa": "No debe confundirse con la inhabilitación especial, limitada a los empleos o cargos especificados en la sentencia.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T17-010",
       "pregunta": "¿Impide la renuncia volver a ingresar en la Administración?",
-      "opciones": ["Sí, de por vida", "Sí, durante diez años", "No, puede ingresarse de nuevo superando el proceso selectivo correspondiente", "Solo impide ingresar en la misma Administración"],
+      "opciones": [
+        "Sí, de por vida",
+        "Sí, durante diez años",
+        "No, puede ingresarse de nuevo superando el proceso selectivo correspondiente",
+        "Solo impide ingresar en la misma Administración"
+      ],
       "correcta": 2,
       "justificacion": "La renuncia a la condición funcionarial no inhabilita para ingresar de nuevo en la Administración mediante el correspondiente proceso selectivo.",
       "trampa": "La renuncia no debe equipararse a una separación disciplinaria del servicio.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T17-011",
       "pregunta": "¿Puede una persona nacional de otro Estado miembro de la UE acceder a cualquier puesto funcionario?",
-      "opciones": ["Sí, sin excepción", "No, quedan exceptuados determinados empleos vinculados al ejercicio del poder público o salvaguarda de intereses generales", "Solo puede ser laboral temporal", "Solo con cinco años de residencia"],
+      "opciones": [
+        "Sí, sin excepción",
+        "No, quedan exceptuados determinados empleos vinculados al ejercicio del poder público o salvaguarda de intereses generales",
+        "Solo puede ser laboral temporal",
+        "Solo con cinco años de residencia"
+      ],
       "correcta": 1,
       "justificacion": "Las personas nacionales de otros Estados miembros de la Unión Europea pueden acceder en igualdad de condiciones, salvo a empleos que impliquen participación en el ejercicio del poder público o salvaguarda de intereses generales.",
       "trampa": "La regla no es una autorización absoluta ni una prohibición general.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T17-012",
       "pregunta": "¿Cuál es la regla sobre el concurso puro para seleccionar personal funcionario?",
-      "opciones": ["Es el sistema ordinario preferente", "Está prohibido siempre", "Es excepcional y requiere previsión legal", "Se usa libremente en entidades locales"],
+      "opciones": [
+        "Es el sistema ordinario preferente",
+        "Está prohibido siempre",
+        "Es excepcional y requiere previsión legal",
+        "Se usa libremente en entidades locales"
+      ],
       "correcta": 2,
       "justificacion": "Para seleccionar personal funcionario, el concurso puro solo puede utilizarse excepcionalmente cuando una ley lo autoriza.",
       "trampa": "No debe confundirse con el concurso utilizado para la provisión de puestos de trabajo.",
       "referencia": "content/diputacion-toledo/tema-17/manual.md#61-personal-funcionario"
+    },
+    {
+      "id": "DIP-T17-013",
+      "pregunta": "¿Qué requisito NO basta por sí solo para adquirir la condición de funcionario de carrera?",
+      "opciones": [
+        "Superar el proceso selectivo sin completar nombramiento y toma de posesión",
+        "Ser nombrado y tomar posesión cumpliendo los requisitos",
+        "Prestar acatamiento al ordenamiento jurídico",
+        "Acreditar las condiciones de la convocatoria"
+      ],
+      "correcta": 0,
+      "justificacion": "La superación del proceso selectivo por sí sola no supone adquirir la condición funcionarial.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011, art. 55 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DIP-T17-014",
+      "pregunta": "¿Qué diferencia existe entre la separación del servicio y la pena de inhabilitación?",
+      "opciones": [
+        "Ambas requieren siempre sentencia judicial",
+        "La separación es sanción disciplinaria y la inhabilitación deriva de resolución judicial firme",
+        "La separación nunca implica perder condición funcionarial",
+        "La inhabilitación siempre es una decisión del órgano de selección"
+      ],
+      "correcta": 1,
+      "justificacion": "La separación del servicio debe ser **firme en vía administrativa** y la inhabilitación deriva de una **sentencia firme**.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011, art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DIP-T17-015",
+      "pregunta": "¿Qué efecto tiene la renuncia a la condición de funcionario conforme al artículo 57?",
+      "opciones": [
+        "Prohibición permanente de reingresar",
+        "Derecho automático a recuperar la plaza",
+        "No impide volver a ingresar por un nuevo procedimiento selectivo",
+        "Suspensión provisional de la relación"
+      ],
+      "correcta": 2,
+      "justificacion": "La renuncia no inhabilita para ingresar nuevamente mediante los procedimientos de selección.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011, art. 57 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DIP-T17-016",
+      "pregunta": "¿Cuál es la forma exigida para manifestar la renuncia voluntaria?",
+      "opciones": [
+        "Por teléfono",
+        "Tácitamente por ausencia",
+        "Mediante comunicación verbal al superior",
+        "Por escrito y con aceptación expresa de la Administración"
+      ],
+      "correcta": 3,
+      "justificacion": "La renuncia se manifiesta **por escrito** y requiere aceptación expresa, salvo prohibiciones legales de aceptación.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011, art. 57 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DIP-T17-017",
+      "pregunta": "¿Cuál de estas circunstancias constituye causa de pérdida de la condición funcionarial?",
+      "opciones": [
+        "La jubilación total",
+        "La excedencia voluntaria",
+        "Una comisión de servicios",
+        "Un permiso de asuntos propios"
+      ],
+      "correcta": 0,
+      "justificacion": "La **jubilación total** es causa de pérdida de la condición de funcionario de carrera.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011, art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DIP-T17-018",
+      "pregunta": "¿Qué efectos tiene una inhabilitación especial firme?",
+      "opciones": [
+        "Extingue todos los empleos en cualquier ámbito",
+        "Produce pérdida de condición respecto de empleos o cargos especificados en la sentencia",
+        "Solo afecta a retribuciones complementarias",
+        "No afecta a la condición de funcionario"
+      ],
+      "correcta": 1,
+      "justificacion": "La **inhabilitación especial firme** afecta a los empleos o cargos especificados en sentencia.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011, art. 59 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DIP-T17-019",
+      "pregunta": "¿En qué supuesto la rehabilitación funcionarial se concede al desaparecer la causa objetiva?",
+      "opciones": [
+        "En todos los casos de separación disciplinaria",
+        "En todos los supuestos de inhabilitación penal",
+        "Por pérdida de nacionalidad o jubilación por incapacidad permanente para el servicio",
+        "Por renuncia sin nuevo proceso selectivo"
+      ],
+      "correcta": 2,
+      "justificacion": "La rehabilitación por pérdida de nacionalidad o jubilación por incapacidad se concede una vez desaparecida su causa objetiva, previa solicitud.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011, art. 61 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DIP-T17-020",
+      "pregunta": "¿Qué carácter tiene la rehabilitación tras inhabilitación penal conforme a la Ley 4/2011?",
+      "opciones": [
+        "Obligatoria e inmediata",
+        "Automática al pasar un mes",
+        "Imposible en todo caso",
+        "Excepcional y sujeta a valoración de las circunstancias y entidad del delito"
+      ],
+      "correcta": 3,
+      "justificacion": "La rehabilitación tras inhabilitación puede concederse **excepcionalmente** por los órganos de gobierno, valorando las circunstancias y entidad del delito.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011, art. 61 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
     }
   ]
 }
