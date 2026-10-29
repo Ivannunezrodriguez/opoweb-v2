@@ -1,12 +1,17 @@
 {
   "tema": 11,
   "titulo": "Especialidades del procedimiento administrativo local, registro, presentación, comunicaciones y notificaciones",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T11-001",
       "pregunta": "¿Cuál es la norma básica general aplicable al procedimiento administrativo de las entidades locales?",
-      "opciones": ["La Ley 39/2015", "Exclusivamente el ROF de 1986", "La Ley de Enjuiciamiento Civil", "El Código de Comercio"],
+      "opciones": [
+        "La Ley 39/2015",
+        "Exclusivamente el ROF de 1986",
+        "La Ley de Enjuiciamiento Civil",
+        "El Código de Comercio"
+      ],
       "correcta": 0,
       "justificacion": "El procedimiento administrativo local se rige con carácter básico por la Ley 39/2015, sin perjuicio de las especialidades establecidas por la normativa de régimen local.",
       "trampa": "El ROF contiene especialidades locales, pero no sustituye a la Ley 39/2015.",
@@ -15,7 +20,12 @@
     {
       "id": "DIP-T11-002",
       "pregunta": "El registro electrónico general permite presentar documentos:",
-      "opciones": ["Solo en horario de oficina", "Las 24 horas de todos los días del año", "Solo en días hábiles", "Hasta las 15:00 horas"],
+      "opciones": [
+        "Solo en horario de oficina",
+        "Las 24 horas de todos los días del año",
+        "Solo en días hábiles",
+        "Hasta las 15:00 horas"
+      ],
       "correcta": 1,
       "justificacion": "El registro electrónico permite la presentación de documentos durante las 24 horas de todos los días del año.",
       "trampa": "La disponibilidad permanente no convierte todos los días en hábiles a efectos de cómputo.",
@@ -24,7 +34,12 @@
     {
       "id": "DIP-T11-003",
       "pregunta": "Una presentación efectuada en día inhábil en el registro electrónico se entiende realizada, con carácter general:",
-      "opciones": ["El mismo día", "El día hábil anterior", "En la primera hora del primer día hábil siguiente", "Cuando la revise un funcionario"],
+      "opciones": [
+        "El mismo día",
+        "El día hábil anterior",
+        "En la primera hora del primer día hábil siguiente",
+        "Cuando la revise un funcionario"
+      ],
       "correcta": 2,
       "justificacion": "A efectos del cómputo de plazos fijados en días hábiles, la presentación en día inhábil se entiende realizada en la primera hora del primer día hábil siguiente, salvo previsión normativa específica.",
       "trampa": "El sistema recibe el documento, pero su efecto temporal se traslada al primer día hábil siguiente.",
@@ -33,7 +48,12 @@
     {
       "id": "DIP-T11-004",
       "pregunta": "El plazo ordinario para subsanar una solicitud incompleta es de:",
-      "opciones": ["5 días", "10 días", "15 días", "1 mes"],
+      "opciones": [
+        "5 días",
+        "10 días",
+        "15 días",
+        "1 mes"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 68 de la Ley 39/2015 establece un plazo ordinario de 10 días para subsanar la falta o aportar los documentos preceptivos.",
       "trampa": "Los 5 días corresponden a una posible ampliación excepcional, no al plazo inicial.",
@@ -42,7 +62,12 @@
     {
       "id": "DIP-T11-005",
       "pregunta": "Cuando un sujeto obligado a relacionarse electrónicamente presenta presencialmente una solicitud, la fecha válida de presentación será:",
-      "opciones": ["La de la presentación presencial", "La del requerimiento", "La de la subsanación electrónica", "La de la resolución"],
+      "opciones": [
+        "La de la presentación presencial",
+        "La del requerimiento",
+        "La de la subsanación electrónica",
+        "La de la resolución"
+      ],
       "correcta": 2,
       "justificacion": "La solicitud se considera presentada en la fecha en que el sujeto obligado realiza la subsanación por medios electrónicos.",
       "trampa": "La fecha inicial de presentación en papel no se conserva como fecha válida.",
@@ -51,7 +76,12 @@
     {
       "id": "DIP-T11-006",
       "pregunta": "Toda notificación debe cursarse dentro del plazo de:",
-      "opciones": ["5 días desde la iniciación", "10 días desde que el acto fue dictado", "15 días desde la firma", "1 mes desde la resolución"],
+      "opciones": [
+        "5 días desde la iniciación",
+        "10 días desde que el acto fue dictado",
+        "15 días desde la firma",
+        "1 mes desde la resolución"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 40.2 de la Ley 39/2015 establece que toda notificación debe cursarse dentro de los 10 días siguientes a la fecha en que el acto haya sido dictado.",
       "trampa": "Este plazo no es el mismo que el de rechazo de una notificación electrónica.",
@@ -60,7 +90,12 @@
     {
       "id": "DIP-T11-007",
       "pregunta": "Una notificación electrónica puesta a disposición y no abierta se entiende rechazada, con carácter general, tras:",
-      "opciones": ["5 días hábiles", "10 días hábiles", "10 días naturales", "15 días naturales"],
+      "opciones": [
+        "5 días hábiles",
+        "10 días hábiles",
+        "10 días naturales",
+        "15 días naturales"
+      ],
       "correcta": 2,
       "justificacion": "La notificación electrónica se entiende rechazada cuando transcurren 10 días naturales desde su puesta a disposición sin que se acceda al contenido.",
       "trampa": "La Ley establece días naturales, no días hábiles.",
@@ -69,7 +104,12 @@
     {
       "id": "DIP-T11-008",
       "pregunta": "En una notificación en papel en el domicilio, puede hacerse cargo otra persona que se encuentre allí si es mayor de:",
-      "opciones": ["12 años", "14 años", "16 años", "18 años"],
+      "opciones": [
+        "12 años",
+        "14 años",
+        "16 años",
+        "18 años"
+      ],
       "correcta": 1,
       "justificacion": "Puede hacerse cargo de la notificación cualquier persona mayor de 14 años que se encuentre en el domicilio y haga constar su identidad.",
       "trampa": "No se exige que la persona receptora sea mayor de edad.",
@@ -78,7 +118,12 @@
     {
       "id": "DIP-T11-009",
       "pregunta": "Si el primer intento de notificación en papel resulta fallido, el segundo intento debe realizarse:",
-      "opciones": ["Dentro de los 3 días siguientes", "Dentro de los 10 días siguientes", "Al mes siguiente", "No procede un segundo intento"],
+      "opciones": [
+        "Dentro de los 3 días siguientes",
+        "Dentro de los 10 días siguientes",
+        "Al mes siguiente",
+        "No procede un segundo intento"
+      ],
       "correcta": 0,
       "justificacion": "La notificación debe repetirse por una sola vez y en una hora distinta dentro de los 3 días siguientes.",
       "trampa": "No son 10 días; ese plazo corresponde a otras reglas de notificación.",
@@ -87,7 +132,12 @@
     {
       "id": "DIP-T11-010",
       "pregunta": "Cuando se desconoce a los interesados o no puede practicarse la notificación, el anuncio obligatorio se publica en:",
-      "opciones": ["El tablón municipal exclusivamente", "El boletín provincial exclusivamente", "El Boletín Oficial del Estado", "Un periódico local"],
+      "opciones": [
+        "El tablón municipal exclusivamente",
+        "El boletín provincial exclusivamente",
+        "El Boletín Oficial del Estado",
+        "Un periódico local"
+      ],
       "correcta": 2,
       "justificacion": "La notificación infructuosa se practica mediante un anuncio publicado en el Boletín Oficial del Estado.",
       "trampa": "Otros medios pueden ser complementarios, pero no sustituyen al anuncio en el BOE.",
@@ -96,7 +146,12 @@
     {
       "id": "DIP-T11-011",
       "pregunta": "La ausencia del aviso enviado al correo electrónico o dispositivo móvil sobre una notificación electrónica:",
-      "opciones": ["Invalida siempre la notificación", "Suspende automáticamente el plazo", "No invalida la notificación", "Convierte la notificación en papel"],
+      "opciones": [
+        "Invalida siempre la notificación",
+        "Suspende automáticamente el plazo",
+        "No invalida la notificación",
+        "Convierte la notificación en papel"
+      ],
       "correcta": 2,
       "justificacion": "El aviso es accesorio y su falta no afecta a la validez de la notificación puesta a disposición.",
       "trampa": "No confundir el aviso complementario con la notificación propiamente dicha.",
@@ -105,11 +160,128 @@
     {
       "id": "DIP-T11-012",
       "pregunta": "Las copias auténticas expedidas por una Administración pública:",
-      "opciones": ["Carecen de valor fuera del órgano que las expide", "Tienen la misma validez y eficacia que los originales", "Solo sirven durante 10 días", "Deben compulsarse de nuevo"],
+      "opciones": [
+        "Carecen de valor fuera del órgano que las expide",
+        "Tienen la misma validez y eficacia que los originales",
+        "Solo sirven durante 10 días",
+        "Deben compulsarse de nuevo"
+      ],
       "correcta": 1,
       "justificacion": "Las copias auténticas realizadas por una Administración pública tienen la misma validez y eficacia que los documentos originales.",
       "trampa": "No deben confundirse con simples fotocopias sin autenticación.",
       "referencia": "content/diputacion-toledo/tema-11/manual.md#44-copias-auténticas"
+    },
+    {
+      "id": "DIP-T11-013",
+      "pregunta": "¿Qué documento se entrega o genera como justificante de un asiento registral electrónico?",
+      "opciones": [
+        "Una llamada telefónica",
+        "Un recibo con número de registro, fecha y hora y copia autenticada de lo presentado, cuando proceda",
+        "Una nota interna sin fecha",
+        "Ninguno"
+      ],
+      "correcta": 1,
+      "justificacion": "El registro electrónico emite automáticamente recibo con copia autenticada del documento y fecha y hora de presentación, además de número de entrada.",
+      "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
+      "referencia": "Ley 39/2015, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T11-014",
+      "pregunta": "¿En cuál de estos lugares puede presentar documentos un ciudadano conforme a la Ley 39/2015?",
+      "opciones": [
+        "Únicamente en la sede de la Diputación",
+        "Solo en el Ayuntamiento de residencia",
+        "En las oficinas de Correos en la forma reglamentaria",
+        "Solo en el organismo competente"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 16.4 admite la presentación en oficinas de Correos en la forma que se establezca reglamentariamente.",
+      "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
+      "referencia": "Ley 39/2015, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T11-015",
+      "pregunta": "¿Qué debe hacer la oficina de asistencia en materia de registros con documentos presentados en papel, como regla general?",
+      "opciones": [
+        "Destruirlos",
+        "Archivarlos sin digitalización",
+        "Rechazarlos en todos los casos",
+        "Digitalizarlos para incorporarlos al expediente administrativo electrónico y devolver los originales salvo excepciones"
+      ],
+      "correcta": 3,
+      "justificacion": "La documentación presentada presencialmente debe digitalizarse para incorporar una copia electrónica, salvo supuestos excepcionales.",
+      "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
+      "referencia": "Ley 39/2015, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T11-016",
+      "pregunta": "¿Qué plazo general concede el artículo 68.1 para subsanar una solicitud?",
+      "opciones": [
+        "Diez días",
+        "Tres días",
+        "Un mes",
+        "Quince días"
+      ],
+      "correcta": 0,
+      "justificacion": "El órgano requerirá subsanación en **10 días**, con advertencia de desistimiento previa resolución si no se atiende.",
+      "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
+      "referencia": "Ley 39/2015, art. 68 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T11-017",
+      "pregunta": "¿Qué requisitos de edad tiene una persona que recibe una notificación en papel en el domicilio cuando falta el interesado?",
+      "opciones": [
+        "Ser mayor de edad obligatoriamente",
+        "Ser mayor de catorce años e identificarse",
+        "Ser mayor de doce años",
+        "Ser empleado público"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 42.2 admite la recepción por cualquier persona **mayor de 14 años** que se encuentre en el domicilio y haga constar su identidad.",
+      "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
+      "referencia": "Ley 39/2015, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T11-018",
+      "pregunta": "¿Qué ocurre si el primer intento de notificación personal es infructuoso?",
+      "opciones": [
+        "Se publica automáticamente en BOE",
+        "Se abandona el expediente",
+        "Se repite una sola vez en hora distinta dentro de los tres días siguientes con diferencias horarias previstas",
+        "Se cursa solo por SMS"
+      ],
+      "correcta": 2,
+      "justificacion": "La Ley 39/2015 prevé **un segundo intento** dentro de los **3 días siguientes**, en hora distinta, siguiendo las franjas legales.",
+      "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
+      "referencia": "Ley 39/2015, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T11-019",
+      "pregunta": "¿En qué boletín se anuncia una notificación infructuosa según el artículo 44?",
+      "opciones": [
+        "Solo en el BOP",
+        "Solo en la web provincial",
+        "En el DOGC necesariamente",
+        "En el Boletín Oficial del Estado"
+      ],
+      "correcta": 3,
+      "justificacion": "El artículo 44 establece la publicación de anuncio en el **BOE**, con otros medios complementarios facultativos.",
+      "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
+      "referencia": "Ley 39/2015, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T11-020",
+      "pregunta": "¿Tiene efectos invalidantes la falta de aviso al correo del interesado sobre la puesta a disposición de una notificación?",
+      "opciones": [
+        "No, no impide la validez de la notificación",
+        "Sí, siempre",
+        "Solo si el acto es favorable",
+        "Sí, si la Administración utiliza sede electrónica"
+      ],
+      "correcta": 0,
+      "justificacion": "La falta de práctica del **aviso** no impide la validez de la notificación conforme al art. 41.6.",
+      "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
+      "referencia": "Ley 39/2015, art. 41 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ]
 }
