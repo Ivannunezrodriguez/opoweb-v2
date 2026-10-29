@@ -1,8 +1,8 @@
 {
   "tema": 17,
-  "estado": "BORRADOR_VERIFICADO_PARCIAL",
-  "version": "2026-10-25",
-  "criterio": "Ocho preguntas originales contrastadas el 26/10/2026 con documentación Microsoft Edge y OpenText GroupWise 24; tres sobre Edge y cinco sobre GroupWise. No son preguntas oficiales.",
+  "estado": "BANCO_20_PREGUNTAS_CON_FUENTES",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas con fuentes de Microsoft Edge y documentación GroupWise 24. Comprobación estructural de alternativas, sin prueba de interfaz.",
   "preguntas": [
     {
       "id": "DT-C2-T17-001",
@@ -115,6 +115,174 @@
       "justificacion": "GroupWise 24 diferencia estados **Delivered** (entregado en el buzón) y **Delivered and opened** (entregado y abierto), disponibles en **Properties**, conforme a la configuración de **Status Tracking**. En sistemas externos no siempre se recibe el seguimiento.",
       "trampaExamen": "**Delivered** no significa **Read**. El estado de lectura/apertura depende del seguimiento habilitado y de la compatibilidad con sistemas externos.",
       "referencia": "GroupWise 24, Sent Items y Status Tracking · https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sentmail_workingwithsentmail.html"
+    },
+    {
+      "id": "DT-C2-T17-009",
+      "enunciado": "¿Qué ocurre con un archivo descargado durante InPrivate de Edge al cerrar la sesión?",
+      "opciones": [
+        "Siempre se destruye físicamente",
+        "Puede permanecer guardado en el dispositivo",
+        "Se convierte en favorito",
+        "Se envía a GroupWise"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los archivos descargados durante InPrivate pueden permanecer en el equipo tras cerrar las ventanas privadas.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge"
+    },
+    {
+      "id": "DT-C2-T17-010",
+      "enunciado": "¿Qué elemento almacena los enlaces guardados expresamente por el usuario en Edge?",
+      "opciones": [
+        "Historial",
+        "Cookies",
+        "Favoritos",
+        "Caché de DNS"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Favoritos almacena enlaces seleccionados y no equivale al registro de historial.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://support.microsoft.com/es-es/microsoft-edge"
+    },
+    {
+      "id": "DT-C2-T17-011",
+      "enunciado": "¿Qué afirmación sobre InPrivate es correcta?",
+      "opciones": [
+        "Garantiza anonimato frente a la red",
+        "Impide toda descarga",
+        "Inhabilita todos los sitios web",
+        "No garantiza anonimato frente a sitios o redes"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "InPrivate limita conservación de datos de la sesión en el dispositivo, pero no garantiza anonimato.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge"
+    },
+    {
+      "id": "DT-C2-T17-012",
+      "enunciado": "¿Qué aporta HTTPS a la conexión con una web?",
+      "opciones": [
+        "Cifrado de transporte; no verifica por sí mismo legitimidad comercial",
+        "Garantía de que cualquier tienda es confiable",
+        "Impedimento absoluto de suplantación",
+        "Almacenamiento obligatorio en Favoritos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "HTTPS protege el canal de comunicación con el servicio; no asegura por sí mismo que la web sea legítima.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://support.microsoft.com/es-es/microsoft-edge"
+    },
+    {
+      "id": "DT-C2-T17-013",
+      "enunciado": "En GroupWise 24 Client, ¿qué elemento permite añadir un archivo al correo?",
+      "opciones": [
+        "New Task",
+        "Add Attachment",
+        "New Appointment",
+        "Find"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El manual de composición de correo especifica Add Attachment en el área de edición.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
+    },
+    {
+      "id": "DT-C2-T17-014",
+      "enunciado": "¿Qué campo identifica al destinatario principal de un mensaje de GroupWise 24?",
+      "opciones": [
+        "Bc",
+        "Subject",
+        "To",
+        "Send Options"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "To se utiliza para destinatarios principales; Cc para copias visibles y Bc para copias ocultas.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
+    },
+    {
+      "id": "DT-C2-T17-015",
+      "enunciado": "¿Qué campo de GroupWise 24 oculta sus destinatarios a los restantes?",
+      "opciones": [
+        "To",
+        "Cc",
+        "Subject",
+        "Bc"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El manual del cliente indica que los destinatarios en Bc no son visibles para otros destinatarios.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
+    },
+    {
+      "id": "DT-C2-T17-016",
+      "enunciado": "¿Dónde se consultan normalmente los mensajes enviados en GroupWise 24?",
+      "opciones": [
+        "Sent Items",
+        "New Mail",
+        "Address",
+        "Spam Filter"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Sent Items reúne los elementos enviados conservados en esa carpeta.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/pdfdoc/gw_guide_userwin/gw_guide_userwin.pdf"
+    },
+    {
+      "id": "DT-C2-T17-017",
+      "enunciado": "¿Cuál es una limitación de retractar un mensaje en GroupWise 24?",
+      "opciones": [
+        "Puede retractarse cualquier correo de Internet",
+        "No se puede retractar si el destinatario ya lo abrió",
+        "Siempre borra todos los buzones externos",
+        "Siempre requiere desinstalar el cliente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El manual indica que los mensajes abiertos y enviados a sistemas de correo externos por Internet no son retractables.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/pdfdoc/gw_guide_userwin/gw_guide_userwin.pdf"
+    },
+    {
+      "id": "DT-C2-T17-018",
+      "enunciado": "¿Qué opción de GroupWise 24 permite consultar estados disponibles de un elemento enviado?",
+      "opciones": [
+        "New Task",
+        "Delete All",
+        "Properties",
+        "New Note"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La guía de cliente documenta que Properties sobre el elemento enviado muestra información de seguimiento.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/pdfdoc/gw_guide_userwin/gw_guide_userwin.pdf"
+    },
+    {
+      "id": "DT-C2-T17-019",
+      "enunciado": "¿Cuál es el efecto de pulsar Resend en GroupWise 24 Web?",
+      "opciones": [
+        "Formatear el disco",
+        "Desconectar Edge",
+        "Cambiar la contraseña del equipo",
+        "Preparar un nuevo envío que puede modificarse"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "GroupWise 24 Web permite editar destinatarios, asunto, cuerpo y reenviar; no elimina necesariamente el mensaje original.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_gwweb/data/resending_mail.html"
+    },
+    {
+      "id": "DT-C2-T17-020",
+      "enunciado": "¿Qué elemento de GroupWise permite seleccionar destinatarios desde registros?",
+      "opciones": [
+        "Address / Libreta de direcciones",
+        "Configuración de pantalla",
+        "Ventanas InPrivate",
+        "Administrador de discos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Address abre la selección de contactos desde libretas, según el manual GroupWise 24 Client.",
+      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
     }
   ],
   "auditoria": {
