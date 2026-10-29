@@ -1,8 +1,8 @@
 {
   "tema": 11,
-  "estado": "BANCO_20_PREGUNTAS_PENDIENTE_COTEJO_COMPLETO",
+  "estado": "BANCO_20_PREGUNTAS_REVISADO",
   "version": "2026-10-29",
-  "criterio": "20 preguntas, estructura validada, normas identificadas; pendiente cotejo individual y auditoría integral de manual.",
+  "criterio": "20 preguntas originales de cuatro opciones con fundamentación de artículo individual cotejada con LGT y TRLRHL; no se ejecutó interfaz de navegador.",
   "preguntas": [
     {
       "id": "DT-C2-T11-001",
@@ -126,9 +126,9 @@
         "El secretario autonómico"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
-      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
-      "referencia": "TRLRHL 7.2"
+      "justificacion": "El **Pleno** adopta el acuerdo de delegación, que fija alcance y contenido y debe publicarse según el **artículo 7.2 TRLRHL**.",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "TRLRHL art. 7.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     },
     {
       "id": "DT-C2-T11-010",
@@ -140,9 +140,9 @@
         "Extinción automática"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
-      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
-      "referencia": "LGT 18"
+      "justificacion": "El **crédito tributario** es indisponible salvo que la ley establezca otra cosa (**artículo 18 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 18 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-011",
@@ -154,9 +154,9 @@
         "El pago de la cuota tributaria"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
-      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
-      "referencia": "LGT 19"
+      "justificacion": "La **obligación tributaria principal** tiene por objeto el pago de la cuota (**artículo 19 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 19 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-012",
@@ -168,9 +168,9 @@
         "Solo una empresa"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
-      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
-      "referencia": "LGT 36.2"
+      "justificacion": "El contribuyente es el **sujeto pasivo que realiza el hecho imponible** (**artículo 36.2 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 36.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-013",
@@ -182,9 +182,9 @@
         "Cualquier heredero"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
-      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
-      "referencia": "LGT 36.3"
+      "justificacion": "El sustituto es el sujeto pasivo que **por imposición legal** y en lugar del contribuyente debe cumplir la obligación principal y obligaciones formales inherentes (**artículo 36.3 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 36.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-014",
@@ -196,9 +196,9 @@
         "Diez años"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
-      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
-      "referencia": "LGT 66"
+      "justificacion": "La LGT establece **cuatro años** como período general de prescripción de derechos enumerados, cuyos comienzos de cómputo se regulan separadamente (**artículos 66 y 67**).",
+      "trampaExamen": "**Cuatro años** no implica un mismo dies a quo para cada derecho.",
+      "referencia": "LGT art. 66 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-015",
@@ -210,9 +210,9 @@
         "Sanción tributaria"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
-      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
-      "referencia": "LGT 58"
+      "justificacion": "Las **sanciones tributarias no forman parte de la deuda tributaria**, aunque para cobrarlas se aplique el régimen recaudatorio correspondiente (**artículo 58.3 LGT**).",
+      "trampaExamen": "**Sanción tributaria** no integra la **deuda tributaria**; son conceptos distintos.",
+      "referencia": "LGT art. 58 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-016",
@@ -224,9 +224,9 @@
         "Procedimiento electoral"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
-      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
-      "referencia": "LGT 123"
+      "justificacion": "La **comprobación limitada** figura entre los procedimientos de gestión tributaria (**artículo 123.1.e LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 123 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-017",
@@ -238,9 +238,9 @@
         "Únicamente por subasta"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
-      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
-      "referencia": "LGT 118"
+      "justificacion": "La gestión se inicia por **autoliquidación, declaración, comunicación de datos u otra solicitud tributaria**, y también **de oficio**, conforme al artículo 118 LGT.",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 118 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-018",
@@ -252,9 +252,9 @@
         "No puede presentarse electrónicamente"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
-      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
-      "referencia": "LGT 120"
+      "justificacion": "La autoliquidación incorpora operaciones de calificación y cuantificación efectuadas **por el propio obligado** (**artículo 120.1 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 120 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-019",
@@ -266,9 +266,9 @@
         "Pago"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
-      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
-      "referencia": "LGT 59"
+      "justificacion": "El **pago** es uno de los medios de extinción de la deuda tributaria (**artículo 59.1 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 59 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     },
     {
       "id": "DT-C2-T11-020",
@@ -280,9 +280,9 @@
         "Evitar cualquier comprobación"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Regla establecida en el artículo indicado de la Ley General Tributaria.",
-      "trampaExamen": "Distinguir el concepto jurídico y los requisitos de su aplicación.",
-      "referencia": "LGT 71"
+      "justificacion": "La compensación permite extinguir total o parcialmente deudas con **créditos reconocidos por acto administrativo** a favor del mismo obligado en los términos legales (**artículo 71.1 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 71 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
     }
   ],
   "auditoria": {
