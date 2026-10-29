@@ -955,7 +955,7 @@ No es necesario que un empleado introduzca su certificado personal en cada emisi
 | **Certificados cualificados** | Vigencia máxima **5 años**, no necesariamente duración fija | **Ley 6/2020**, art. **4.2** |
 | **Caducidad** | Al agotarse la vigencia, el certificado se extingue | **Ley 6/2020**, art. **4.1** |
 | **Revocación** | Entre otras causas, compromiso o riesgo sobre datos de creación de firma o sello | **Ley 6/2020**, art. **5.1.b** |
-| **Consulta de revocación** | Los prestadores emisores dispondrán de un servicio público de consulta del estado | **Ley 6/2020**, art. **10.2** |
+| **Consulta de revocación** | Los prestadores emisores dispondrán de un servicio de consulta del estado accesible al público | **Ley 6/2020**, art. **9.2** |
 | **Lista de confianza** | Identifica prestadores **cualificados** y servicios **cualificados** ofrecidos | **Reglamento eIDAS**, art. **22** |
 
 > ⚠️ **¡Foco Examen!:** **Caducidad** es el fin del período de vigencia; **revocación** puede producirse anticipadamente por compromiso de la clave. El límite de **5 años** no obliga a emitir certificados con esa duración.
@@ -974,4 +974,20 @@ No es necesario que un empleado introduzca su certificado personal en cada emisi
 
 **Fuentes oficiales:** [eIDAS](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910), [reforma eIDAS de 2024](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32024R1183), [Ley 6/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046), [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
 
-**Control pendiente:** revisión individual íntegra del texto de los cinco bloques y pruebas de interfaz. No se declara auditoría definitiva del manual solo por añadir estas tablas.
+**Control editorial:** revisión normativa focal sobre arts. **4**, **5**, **9** y **10** de la **Ley 6/2020**; la comprobación íntegra del resto del manual y las pruebas de interfaz siguen pendientes.
+
+
+### Corrección normativa documentada — **29/10/2026**
+
+El servicio de consulta del estado de validez o revocación corresponde al **artículo 9.2 de la Ley 6/2020**. El **artículo 10** regula, en cambio, la **responsabilidad ante terceros** del prestador de confianza por funciones delegadas. El plazo de conservación de información de **15 años** y la garantía ordinaria mínima de **1.500.000 €** aparecen en el **artículo 9.3.a–b** de la misma norma, con sus salvedades legales.
+
+| Artículo correcto | Materia | Cifra u obligación |
+|---|---|---|
+| **9.2** | Consulta pública del estado del certificado | Servicio accesible al público |
+| **9.3.a** | Conservación por prestadores cualificados | **15 años** desde extinción del certificado o finalización del servicio |
+| **9.3.b** | Garantía de responsabilidad civil | **1.500.000 €** mínimo, salvo prestador del sector público; **500.000 €** por cada tipo adicional de servicio cualificado |
+| **10** | Responsabilidad por funciones delegadas | El prestador responde frente a terceros |
+
+> ⚠️ **¡Foco Examen!:** La consulta del estado del certificado está en **9.2**, no en **10**. El **10** no trata plazos de consulta, sino **responsabilidad del prestador**.
+
+**Fuente:** [BOE, Ley 6/2020, artículos 9 y 10](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046).
