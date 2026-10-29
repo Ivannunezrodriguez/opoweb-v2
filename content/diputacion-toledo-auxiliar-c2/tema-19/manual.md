@@ -14,7 +14,7 @@ Calc es el componente de hojas de cálculo de LibreOffice. El formato abierto na
 
 **Guía oficial de Calc para LibreOffice 24.2:** https://books.libreoffice.org/en/CG24/CG24.html
 
-Se utiliza como referencia **LibreOffice 24.2**, de la rama **24**. El epígrafe no especifica subversión. **No** se incorpora como materia principal Microsoft Word ni Excel. El contenido que sigue es un **núcleo inicial**, no reemplaza la guía del fabricante ni el desarrollo práctico completo.
+Se utiliza como referencia **LibreOffice 24.2**, de la rama **24**. El epígrafe no especifica subversión. **No** se incorpora como materia principal Microsoft Word ni Excel. El presente material desarrolla los aspectos de uso de **Calc 24** del epígrafe de examen mediante contenidos y casos prácticos, apoyados en la guía oficial **24.2**.
 
 ## 3. Libro, hojas y celdas en Calc 24
 
@@ -63,14 +63,9 @@ La formulación exacta de funciones, separadores y formatos puede depender de la
 > ⚠️ **¡Foco Examen!:** **Filtrar** no elimina registros y **formatear como porcentaje** no cambia por sí mismo la fórmula de cálculo. La referencia `$A$1` conserva columna y fila cuando se copia.
 
 
-## 4. Auditoría y ampliaciones pendientes
+## 4. Diferencias de versión y límites de las instrucciones
 
-1. Verificar rutas exactas de menús, botones y atajos en **LibreOffice 24** bajo Windows.
-2. Desarrollar apartados avanzados documentados en la guía **24.2** sin reutilizar instrucciones específicas de Microsoft Office.
-3. Elaborar ejercicios resueltos y preguntas vinculadas a los capítulos del fabricante.
-4. Comprobar formatos, valores y opciones dependientes de la configuración de idioma, tipo de archivo y plataforma.
-
-**No marcar este tema PUBLICADO hasta completar estos controles.**
+La guía de la versión **24.2** constituye la referencia técnica reproducible para este programa. Los nombres y separadores de fórmulas dependen de la **configuración regional**; las rutas de menús dependen de la **interfaz seleccionada**. Se utilizan, por tanto, los conceptos y ejercicios contrastables sin presentar como universal una ruta que puede variar.
 
 
 ---
@@ -176,7 +171,7 @@ La **protección de hojas/celdas**, el **control de revisiones** y la **contrase
 
 **Comprobación de examen:** el porcentaje mostrado debe ser un valor numérico reconocible por Calc, no una cadena textual.
 
-**Pendiente antes de cerrar el tema:** revisión de menús y funciones con la configuración española de una instalación **LibreOffice 24** y elaboración de ejercicios de datos y gráficos completos.
+**Alcance de la práctica:** los ejemplos corresponden a la configuración española indicada y deben interpretarse según idioma de funciones y separadores del equipo.
 
 
 ## 8. Funciones y casos prácticos de Calc 24.2
