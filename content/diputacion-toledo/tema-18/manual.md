@@ -209,3 +209,22 @@ SITUACIONES
 ```
 
 > ⚠️ **¡Foco Examen!:** La secuencia más preguntada es: **concurso = procedimiento normal**, **libre designación = convocatoria pública**, **comisión de servicios = temporal**, **adscripción provisional = no definitiva**.
+
+
+## 12. Cotejo legal adicional: carrera y provisión — **29/10/2026**
+
+| Concepto | Regla relevante | Ley 4/2011 |
+|---|---|---|
+| Carrera horizontal | **Voluntaria** e individualizada; requiere implantación y aprobación previa de sistemas objetivos de evaluación del desempeño | **64.2–3** |
+| Tramos de carrera horizontal | Entre **3 y 5**, incluido el tramo inicial **no retribuido** | **64.4** |
+| Progresión al tramo superior | Permanencia mínima ordinaria de **4 años** en el tramo inferior, con salvedades legales | **64.4** |
+| Provisión ordinaria | **Concurso** como procedimiento **normal**; **libre designación** con convocatoria pública en los puestos previstos | **67.2** |
+| Remoción de puesto obtenido por concurso | Por rendimiento insuficiente evidenciado mediante evaluación, con **audiencia previa** y **resolución motivada** | **69.1** |
+| Redistribución de efectivos con cambio de provincia | Exige **conformidad del personal funcionario titular del puesto** | **73.4** |
+| Situaciones administrativas | La enumeración incluye **expectativa de destino**, **excedencia forzosa**, **servicio en otras Administraciones** y **suspensión de funciones** | **113** |
+
+> ⚠️ **¡Foco Examen!:** La Ley contempla **3 a 5 tramos** de carrera horizontal, **4 años mínimos** por tramo ordinario y tramo inicial **no retribuido**. No debe interpretarse que todas las Administraciones ya tengan implantada esa carrera: su aplicación depende de la implantación efectiva.
+
+> ⚠️ **¡Foco Examen!:** La **redistribución de efectivos** no exige automáticamente consentimiento para cualquier traslado, pero el **cambio de provincia** requiere **conformidad** del titular conforme al **artículo 73.4**.
+
+**Fuente primaria:** [Ley 4/2011 consolidada, artículos 62–82 y 113](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752). Banco ampliado a **20 preguntas**. Tema pendiente de revisión jurídica integral y comprobación funcional del portal.
