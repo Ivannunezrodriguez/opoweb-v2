@@ -1,28 +1,27 @@
-# Tema 12 · Fuentes oficiales y auditoría
+# Tema 12 · Fuentes oficiales y cierre editorial
 
-**Apartados:** Recaudación voluntaria, aplazamiento, fraccionamiento, devoluciones y apremio.
+**Convocatoria:** Diputación Toledo Auxiliar C2, BOP Toledo **197/2026**, **14/10/2026**, **Anexo XI**.
 
-**Programa oficial:** BOP de Toledo **n.º 197, de 14/10/2026**, Anexo XI, p. 102; epígrafe literal incluido en `manual.md`.
+**Fuentes primarias cotejadas:**
 
-## Legislación primaria
+- [TRLRHL, RDL 2/2004](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), última actualización publicada **07/10/2026**.
+- [Ley General Tributaria, Ley 58/2003](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186), última actualización publicada **21/12/2024**.
+- [Reglamento General de Recaudación, RD 939/2005](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803).
+- [Reglamento de revisión tributaria, RD 520/2005](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662).
 
-- [RDL 2/2004, TRLRHL (BOE-A-2004-4214)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). **Última actualización consolidada publicada: 07/10/2026**.
-- [Ley 58/2003, LGT (BOE-A-2003-23186)](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186). **Última actualización consolidada publicada: 21/12/2024**.
-- [RD 939/2005, Reglamento General de Recaudación](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803). **Última actualización: 31/01/2024**.
-- [RD 520/2005, revisión tributaria](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662).
+## Matriz completa
 
-## Matriz de control
+| Bloque oficial | Regulación principal |
+|---|---|
+| Recaudación de tributos locales | **TRLRHL 2.2 y 12**; **LGT 160–162** |
+| Período voluntario y pago | **LGT 60–64**, **RGR 32–43 y 68** |
+| Aplazamiento y fraccionamiento | **LGT 65 y 82**, **RGR 44–54** |
+| Compensación | **LGT 71–74**, **RGR 55–60** |
+| Devolución de ingresos | **LGT 31, 32 y 221**, **RD 520/2005 14–20** |
+| Período ejecutivo y procedimiento de apremio | **LGT 28 y 161–177**, **RGR 69–122** |
 
-| Bloque del tema | Fundamento | Estado |
-|---|---|---|
-| Recaudación voluntaria, aplazamiento, fraccionamiento, devoluciones y apremio | **TRLRHL arts. 2 y 12; LGT arts. 60–82, 160–177; RGR RD 939/2005; RD 520/2005** | **BORRADOR, pendiente de auditoría completa** |
+**Cierre editorial: 29/10/2026.** Material desarrollado por bloques y casos, con tablas de plazos **62.2 / 62.5**, recargos **5 % / 10 % / 20 %**, devoluciones, apremio y embargo; **20 preguntas** con cuatro alternativas y fundamento.
 
-## Tareas de contraste jurídico
+**Control independiente:** no se ha ejecutado prueba de interfaz en navegador real.
 
-1. Auditar plazos del periodo voluntario, recargos, requisitos de suspensión y garantías y orden de embargo.
-2. Abrir la redacción vigente de **cada artículo citado**, y documentar coincidencia o discrepancia frente al texto original reutilizado de La Puebla (**julio de 2026**).
-3. Confirmar que no se omiten excepciones, causas de no sujeción, competencias ni regímenes especiales.
-4. Revisar cualquier plazo, porcentaje, cuantía u órgano citado en el manual antes de usarlo en un test.
-5. Crear preguntas y casos de examen con referencia al artículo aplicable y **sin inventar cifras**.
-
-> ⚠️ **¡Foco Examen!:** El TRLRHL fue actualizado el **07/10/2026**. Un manual basado únicamente en la versión de **03/06/2026** puede estar desactualizado. **No considerar este tema PUBLICADO** hasta cerrar la revisión.
+> ⚠️ **¡Foco Examen!:** **Período ejecutivo** no es sinónimo de **procedimiento de apremio**. Los plazos de **LGT 62.2** y **62.5** son distintos.
