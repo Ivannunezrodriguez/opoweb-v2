@@ -1,11 +1,16 @@
 {
   "tema": 5,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T05-001",
       "pregunta": "¿Cuál es el plazo máximo supletorio para resolver y notificar cuando la norma reguladora no fija uno específico?",
-      "opciones": ["Un mes", "Dos meses", "Tres meses", "Seis meses"],
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
       "correcta": 2,
       "justificacion": "El artículo 21 de la Ley 39/2015 establece que, cuando la norma reguladora no fije plazo máximo, este será de tres meses.",
       "trampa": "No confundir el plazo supletorio de tres meses con el límite general de seis meses para plazos fijados reglamentariamente.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T05-002",
       "pregunta": "¿Cuál de los siguientes sujetos está obligado, con carácter general, a relacionarse electrónicamente con las Administraciones Públicas?",
-      "opciones": ["Toda persona física mayor de edad", "Las personas jurídicas", "Solo los funcionarios públicos jubilados", "Cualquier ciudadano que presente una solicitud"],
+      "opciones": [
+        "Toda persona física mayor de edad",
+        "Las personas jurídicas",
+        "Solo los funcionarios públicos jubilados",
+        "Cualquier ciudadano que presente una solicitud"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 14 incluye expresamente a las personas jurídicas entre los sujetos obligados a relacionarse por medios electrónicos.",
       "trampa": "Las personas físicas pueden elegir canal salvo que estén incluidas en un colectivo legal o reglamentariamente obligado.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T05-003",
       "pregunta": "¿Qué plazo ordinario existe para subsanar la falta o insuficiencia de acreditación de la representación?",
-      "opciones": ["Cinco días", "Diez días", "Quince días", "Un mes"],
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Quince días",
+        "Un mes"
+      ],
       "correcta": 1,
       "justificacion": "La representación puede subsanarse en el plazo de diez días, o en un plazo superior cuando las circunstancias del caso lo requieran.",
       "trampa": "La Ley habla de diez días; no debe añadirse automáticamente la palabra hábiles en la formulación literal.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T05-004",
       "pregunta": "¿Cuál es la validez máxima de los poderes inscritos en el registro electrónico de apoderamientos?",
-      "opciones": ["Dos años", "Tres años", "Cinco años", "Diez años"],
+      "opciones": [
+        "Dos años",
+        "Tres años",
+        "Cinco años",
+        "Diez años"
+      ],
       "correcta": 2,
       "justificacion": "Los poderes inscritos tienen una validez máxima de cinco años, prorrogable por periodos máximos de cinco años.",
       "trampa": "La prórroga también tiene un máximo de cinco años por periodo; no es indefinida automáticamente.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T05-005",
       "pregunta": "¿Cuál es la regla general del silencio administrativo en procedimientos iniciados a solicitud del interesado?",
-      "opciones": ["Siempre desestimatorio", "Siempre produce caducidad", "Estimatorio, salvo excepciones legales", "No produce ningún efecto"],
+      "opciones": [
+        "Siempre desestimatorio",
+        "Siempre produce caducidad",
+        "Estimatorio, salvo excepciones legales",
+        "No produce ningún efecto"
+      ],
       "correcta": 2,
       "justificacion": "La regla general es el silencio estimatorio, salvo que una norma con rango de ley o norma europea o internacional aplicable establezca lo contrario.",
       "trampa": "La responsabilidad patrimonial, el derecho de petición y la impugnación de actos son excepciones desestimatorias.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T05-006",
       "pregunta": "¿En qué plazo debe expedirse de oficio el certificado acreditativo del silencio administrativo?",
-      "opciones": ["Diez días", "Quince días", "Veinte días", "Un mes"],
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Veinte días",
+        "Un mes"
+      ],
       "correcta": 1,
       "justificacion": "El certificado debe expedirse de oficio dentro de los quince días siguientes al vencimiento del plazo máximo para resolver.",
       "trampa": "El interesado puede solicitarlo en cualquier momento, aunque la expedición de oficio tiene plazo de quince días.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T05-007",
       "pregunta": "Cuando un plazo se fija por días y la norma no indica otra cosa, ¿qué días se excluyen del cómputo?",
-      "opciones": ["Solo domingos", "Sábados y domingos", "Sábados, domingos y festivos", "Ninguno"],
+      "opciones": [
+        "Solo domingos",
+        "Sábados y domingos",
+        "Sábados, domingos y festivos",
+        "Ninguno"
+      ],
       "correcta": 2,
       "justificacion": "Los plazos por días se entienden hábiles y excluyen sábados, domingos y festivos, salvo previsión legal o europea distinta.",
       "trampa": "Desde la Ley 39/2015 los sábados son inhábiles a efectos administrativos.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T05-008",
       "pregunta": "¿Qué sucede si el último día de un plazo es inhábil?",
-      "opciones": ["El plazo vence igualmente", "Se adelanta al día hábil anterior", "Se prorroga al primer día hábil siguiente", "Se amplía automáticamente una semana"],
+      "opciones": [
+        "El plazo vence igualmente",
+        "Se adelanta al día hábil anterior",
+        "Se prorroga al primer día hábil siguiente",
+        "Se amplía automáticamente una semana"
+      ],
       "correcta": 2,
       "justificacion": "Cuando el último día del plazo sea inhábil, se entiende prorrogado al primer día hábil siguiente.",
       "trampa": "La regla es prórroga hacia delante, no adelanto al día hábil anterior.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T05-009",
       "pregunta": "¿Cuál es el límite de la ampliación ordinaria de un plazo?",
-      "opciones": ["Una cuarta parte", "La mitad", "El doble", "No existe límite"],
+      "opciones": [
+        "Una cuarta parte",
+        "La mitad",
+        "El doble",
+        "No existe límite"
+      ],
       "correcta": 1,
       "justificacion": "La ampliación no puede exceder de la mitad del plazo inicial y debe acordarse antes de su vencimiento.",
       "trampa": "La ampliación ordinaria del artículo 32 no es lo mismo que la ampliación del plazo máximo para resolver del artículo 23.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T05-010",
       "pregunta": "En la tramitación de urgencia, ¿qué plazos no se reducen a la mitad?",
-      "opciones": ["Los de prueba e informes", "Los de audiencia", "Los de presentación de solicitudes y recursos", "Todos se reducen"],
+      "opciones": [
+        "Los de prueba e informes",
+        "Los de audiencia",
+        "Los de presentación de solicitudes y recursos",
+        "Todos se reducen"
+      ],
       "correcta": 2,
       "justificacion": "La urgencia reduce los plazos a la mitad salvo los relativos a la presentación de solicitudes y recursos.",
       "trampa": "Es una excepción expresa y muy habitual en test.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T05-011",
       "pregunta": "¿Cuándo puede ser obligatoria una comparecencia ante la Administración?",
-      "opciones": ["Siempre que lo ordene verbalmente un funcionario", "Solo cuando lo prevea una norma con rango de ley", "Cuando lo solicite cualquier tercero", "Nunca puede ser obligatoria"],
+      "opciones": [
+        "Siempre que lo ordene verbalmente un funcionario",
+        "Solo cuando lo prevea una norma con rango de ley",
+        "Cuando lo solicite cualquier tercero",
+        "Nunca puede ser obligatoria"
+      ],
       "correcta": 1,
       "justificacion": "La comparecencia solo es obligatoria cuando esté prevista en una norma con rango de ley.",
       "trampa": "Una instrucción interna o reglamento por sí solos no bastan para imponer comparecencia obligatoria.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T05-012",
       "pregunta": "¿Durante cuánto tiempo puede suspenderse como máximo el plazo para resolver por solicitud de un informe preceptivo?",
-      "opciones": ["Un mes", "Dos meses", "Tres meses", "Seis meses"],
+      "opciones": [
+        "Un mes",
+        "Dos meses",
+        "Tres meses",
+        "Seis meses"
+      ],
       "correcta": 2,
       "justificacion": "La suspensión por solicitud de informes preceptivos no puede exceder de tres meses.",
       "trampa": "Transcurridos tres meses sin informe, el procedimiento continúa, sin perjuicio de la responsabilidad por la demora.",
       "referencia": "content/diputacion-toledo/tema-05/manual.md#102-suspensión-del-plazo-máximo"
+    },
+    {
+      "id": "DIP-T05-013",
+      "pregunta": "¿Quién tiene la condición de interesado sin haber iniciado el procedimiento?",
+      "opciones": [
+        "Quien tenga derechos que puedan resultar afectados por la decisión",
+        "Cualquier ciudadano que lea el anuncio",
+        "Solo quien presente la solicitud inicial",
+        "Solo el representante de la Administración"
+      ],
+      "correcta": 0,
+      "justificacion": "Pueden ser interesados quienes, sin iniciar el procedimiento, tengan derechos que puedan resultar afectados.",
+      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
+      "referencia": "Ley 39/2015, art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T05-014",
+      "pregunta": "¿Qué ocurre si falta acreditación suficiente de la representación?",
+      "opciones": [
+        "Se archiva automáticamente sin subsanación",
+        "Se concede un plazo de diez días para aportar o subsanar la acreditación",
+        "La representación se presume en todos los trámites",
+        "El órgano pierde competencia"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 5.6 dispone un plazo de **10 días** para subsanar, o superior cuando las circunstancias lo requieran.",
+      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
+      "referencia": "Ley 39/2015, art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T05-015",
+      "pregunta": "¿Qué plazo de validez máxima tienen los poderes inscritos en el registro electrónico de apoderamientos?",
+      "opciones": [
+        "Un año",
+        "Dos años",
+        "Cinco años",
+        "Diez años"
+      ],
+      "correcta": 2,
+      "justificacion": "Los poderes inscritos tienen validez máxima de **5 años** desde la inscripción, sin perjuicio de su prórroga en términos legales.",
+      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
+      "referencia": "Ley 39/2015, art. 6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T05-016",
+      "pregunta": "¿Cuál es el plazo máximo general que puede establecer la norma reguladora de un procedimiento, salvo ley o Derecho de la UE?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Doce meses",
+        "Seis meses"
+      ],
+      "correcta": 3,
+      "justificacion": "Como regla, no excederá de **6 meses**, salvo que una norma con rango de ley establezca uno mayor o así venga previsto en Derecho de la UE.",
+      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
+      "referencia": "Ley 39/2015, art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T05-017",
+      "pregunta": "¿Qué efecto produce la falta de resolución en un procedimiento sancionador iniciado de oficio?",
+      "opciones": [
+        "Caducidad",
+        "Estimación automática de la sanción",
+        "Desaparición de la obligación de resolver",
+        "Silencio siempre estimatorio"
+      ],
+      "correcta": 0,
+      "justificacion": "Los procedimientos iniciados de oficio en que la Administración ejerza potestad sancionadora producen **caducidad** al vencer el plazo máximo.",
+      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
+      "referencia": "Ley 39/2015, art. 25 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T05-018",
+      "pregunta": "¿Qué regla rige el cómputo de días hábiles en la Ley 39/2015?",
+      "opciones": [
+        "Se cuentan sábados y domingos",
+        "Se excluyen sábados, domingos y festivos",
+        "Siempre se cuentan todos los días naturales",
+        "Solo se excluyen domingos"
+      ],
+      "correcta": 1,
+      "justificacion": "Se excluyen **sábados, domingos y festivos** del cómputo por días hábiles.",
+      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
+      "referencia": "Ley 39/2015, art. 30 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T05-019",
+      "pregunta": "¿Qué límite general establece el artículo 32 para ampliar plazos no vencidos?",
+      "opciones": [
+        "Hasta duplicarlos en todo caso",
+        "Hasta tres meses",
+        "No superior a la mitad del plazo original",
+        "Sin límites"
+      ],
+      "correcta": 2,
+      "justificacion": "La ampliación ordinaria no excederá de **la mitad** de los plazos establecidos, si las circunstancias lo aconsejan y no perjudica derechos de tercero.",
+      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
+      "referencia": "Ley 39/2015, art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "DIP-T05-020",
+      "pregunta": "En tramitación de urgencia, ¿qué plazos quedan exceptuados de la reducción a la mitad?",
+      "opciones": [
+        "Los de información al ciudadano",
+        "Los de notificaciones exclusivamente",
+        "Los de emisión de informes",
+        "Los relativos a presentación de solicitudes y recursos"
+      ],
+      "correcta": 3,
+      "justificacion": "La urgencia reduce plazos a **la mitad**, excepto los relativos a **presentación de solicitudes y recursos**.",
+      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
+      "referencia": "Ley 39/2015, art. 33 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ]
 }
