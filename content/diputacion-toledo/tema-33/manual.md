@@ -355,3 +355,31 @@ GROUPWISE 24
 ```
 
 > ⚠️ **¡Foco Examen!:** Las trampas más frecuentes son confundir InPrivate con anonimato, borrar la lista de descargas con borrar los archivos, **CC** con **CCO**, responder con reenviar y eliminar con purgar.
+
+## 21. Cuadro de verificación técnica · **29/10/2026**
+
+| Operación | Microsoft Edge en Windows | Clave de examen |
+|---|---|---|
+| **Nueva pestaña** | **Ctrl + T** | No equivale a ventana nueva (**Ctrl + N**) |
+| **Ventana InPrivate** | **Ctrl + Mayús + N** | No impide que sitios o administradores de red puedan observar determinadas actividades |
+| **Historial** | **Ctrl + H** | Se distingue de descargas |
+| **Descargas** | **Ctrl + J** | Eliminar la entrada del historial de descargas no equivale necesariamente a borrar el archivo guardado |
+| **Favoritos** | **Ctrl + D** | Guarda dirección de la página actual |
+| **Barra de favoritos** | **Ctrl + Mayús + B** | Mostrar u ocultar |
+| **Buscar en la página** | **Ctrl + F** | Búsqueda dentro de la página abierta |
+| **Zoom de página al valor inicial** | **Ctrl + 0** | Restablece zoom al **100 %** |
+| **Opciones para borrar datos de navegación** | **Ctrl + Mayús + Supr** | Abre las opciones, no elimina sin intervención |
+
+### GroupWise 24: eliminación frente a vaciado
+
+| Operación | Resultado |
+|---|---|
+| Eliminar un mensaje | Puede enviarlo a **Papelera**, según el tipo de elemento y la configuración |
+| Vaciar Papelera | Borra los elementos contenidos en la Papelera mediante la función de vaciado |
+| Vaciado automático | Su periodicidad y posibilidad de modificación pueden depender del **administrador de GroupWise** |
+
+> ⚠️ **¡Foco Examen!:** **Ctrl + H** abre **Historial**; **Ctrl + J**, **Descargas**; **Ctrl + Mayús + Supr** abre el diálogo para borrar datos. No son operaciones equivalentes.
+
+> ⚠️ **¡Foco Examen!:** En **GroupWise 24**, **eliminar** un elemento y **vaciar Papelera** son operaciones diferentes. El vaciado automático puede estar impuesto por la administración corporativa.
+
+**Documentación técnica oficial:** [Microsoft Edge: métodos abreviados](https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge) y [GroupWise 24: vaciar la Papelera](https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/maintaining_trash_emptying.html). Banco ampliado a **20 preguntas**; pendiente revisión editorial integral y prueba funcional de OpoWeb.
