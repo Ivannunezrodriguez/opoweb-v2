@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 13
 
-**ESTADO: BORRADOR ADAPTADO — PENDIENTE AUDITORÍA TRLRHL 07/10/2026.**
+**ESTADO EDITORIAL: CONTENIDO COMPLETO — cotejo jurídico con TRLRHL actualizado 07/10/2026.**
 
 ## Epígrafe oficial literal
 
@@ -814,3 +814,43 @@ Puede quedar no sujeta cuando encaja en los supuestos del artículo 104.3.
 4. Confundir negocio gratuito y oneroso.
 5. Olvidar que una transmisión sin incremento acreditado no llega a generar el impuesto.
 
+
+
+## ANEXO FINAL · Cuadro definitivo de los cuatro impuestos y normas generales
+
+| Impuesto | Naturaleza | Hecho imponible | Contribuyente o sujeto pasivo |
+|---|---|---|---|
+| **IBI** | Directo, real | Titularidad, en orden legal, de **concesión administrativa, superficie, usufructo o propiedad** sobre inmueble | Titular del derecho determinante (**arts. 60, 61, 63**) |
+| **IAE** | Directo, real | **Mero ejercicio** de actividades empresariales, profesionales o artísticas en territorio nacional | Persona o entidad que realiza la actividad (**arts. 78, 83**), aunque pueda estar exenta |
+| **IVTM** | Directo | Titularidad de vehículos de tracción mecánica aptos para circular por vías públicas | Persona o entidad a cuyo nombre consta el vehículo en permiso de circulación (**arts. 92, 94**) |
+| **IIVTNU** | Directo | Incremento del valor de terrenos urbanos puesto de manifiesto con transmisión o constitución/transmisión de derechos reales limitativos de dominio | **Adquirente** en transmisión lucrativa; **transmitente** en onerosa; **adquirente sustituto** cuando transmitente persona física no residente (**arts. 104, 106**) |
+
+> ⚠️ **¡Foco Examen!:** En **IBI** no responde necesariamente el propietario, en **IAE** estar **exento** no elimina el hecho imponible, y en **IIVTNU** se distingue **donación/herencia (adquirente)** de **compraventa (transmitente)**.
+
+### Clasificación y cifras especialmente examinables
+
+| Materia | Norma vigente | Fundamento |
+|---|---|---|
+| Impuestos **obligatorios** | **IBI, IAE, IVTM** | **TRLRHL 59.1** |
+| Impuestos **potestativos** | **ICIO, IIVTNU** | **TRLRHL 59.2** |
+| IAE, exención de personas físicas | **Todas las personas físicas**, conforme al precepto | **82.1.c** |
+| IAE, umbral de cifra de negocios | **Inferior a 1.000.000 €** con los requisitos legales | **82.1.c** |
+| IVTM, remolques y semirremolques no sujetos | Carga útil **no superior a 750 kg** | **92.3.b** |
+| Exposición de ordenanzas fiscales | **30 días como mínimo** | **17.1** |
+| IIVTNU sin incremento probado | **No sujeción**, si se acredita conforme a la ley | **104.5** |
+
+> ⚠️ **¡Foco Examen!:** En el **IVTM**, «**750 kg**» se refiere a la **carga útil del remolque o semirremolque**, no a su masa máxima autorizada. En **IAE**, el umbral es **inferior a 1.000.000 €**, no «igual o inferior».
+
+### Supuestos resueltos
+
+**Supuesto 1.** Un terreno urbano se dona y se produce incremento de valor gravable. En principio, el sujeto pasivo del IIVTNU es el **donatario (adquirente)**, conforme al **art. 106.1.a**.
+
+**Supuesto 2.** Una persona física residente vende un terreno urbano que ha aumentado de valor. El sujeto pasivo del IIVTNU es el **vendedor (transmitente)**, conforme al **art. 106.1.b**.
+
+**Supuesto 3.** Una sociedad realiza una actividad económica, pero reúne los requisitos de exención de IAE por cifra de negocios. El ejercicio de la actividad constituye el **hecho imponible**, pero existe **exención** si concurren los presupuestos legales: no confundir con **no sujeción**.
+
+**Supuesto 4.** Un inmueble se encuentra sujeto a **usufructo**. El usufructuario puede ser el sujeto pasivo del IBI por prevalencia del usufructo sobre la propiedad en el orden legal del **art. 61.1**, sin perjuicio de derechos de rango anterior.
+
+> ⚠️ **¡Foco Examen!:** **No sujeción** significa que el caso queda fuera del hecho imponible según la ley; **exención** presupone hecho imponible, pero la ley dispensa el pago.
+
+**Fuente oficial principal:** [TRLRHL consolidado, BOE, última modificación publicada el **07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). La información por encima de este anexo se mantiene organizada según los **cinco bloques** del tema y está complementada por **20 preguntas** con respuesta y fundamento legal.
