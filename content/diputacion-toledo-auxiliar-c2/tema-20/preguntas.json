@@ -1,8 +1,8 @@
 {
   "tema": 20,
-  "estado": "BORRADOR_TEST_CON_REFERENCIAS",
-  "version": "2026-10-25",
-  "criterio": "Seis preguntas originales de entrenamiento contrastadas documentalmente el 26/10/2026, no son preguntas oficiales. Manual del tema 20 todavía borrador.",
+  "estado": "BANCO_COMPLETO_REVISADO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas de entrenamiento que cubren todos los incisos del tema oficial. Se han revisado opciones, soluciones y justificaciones; fuentes técnicas de fabricantes y Microsoft/USB-IF. No son preguntas oficiales.",
   "preguntas": [
     {
       "id": "DT-C2-T20-001",
@@ -87,20 +87,207 @@
       "justificacion": "La impresión dúplex utiliza ambas caras de la hoja; puede ser automática si la impresora tiene mecanismo dúplex, o manual si exige volver a introducir las hojas. No debe confundirse con digitalización a doble cara.",
       "trampaExamen": "Imprimir a doble cara es función de salida de la impresora; escanear a doble cara es una capacidad diferente del escáner.",
       "referencia": "Microsoft Support, documentación de impresoras y escáneres Windows · https://support.microsoft.com/es-es/windows"
+    },
+    {
+      "id": "DT-C2-T20-007",
+      "enunciado": "¿Cuál de estos soportes contiene datos de forma no volátil?",
+      "opciones": [
+        "Memoria RAM convencional",
+        "SSD",
+        "Caché L1 del procesador",
+        "Registro temporal de la CPU"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **SSD** usa memoria no volátil; **RAM** y cachés convencionales son volátiles.",
+      "trampaExamen": "**SSD ≠ RAM**; ambos emplean electrónica pero su función y persistencia son distintas.",
+      "referencia": "https://www.ibm.com/think/topics/solid-state-drives"
+    },
+    {
+      "id": "DT-C2-T20-008",
+      "enunciado": "Una unidad SSD M.2 usa interfaz SATA. ¿Es necesariamente NVMe?",
+      "opciones": [
+        "Sí, todos los M.2 son NVMe",
+        "Sí, porque SATA y NVMe son idénticos",
+        "No: M.2 es formato y no determina por sí solo el protocolo",
+        "No existe SSD M.2 SATA"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "**M.2** es un factor de forma/conector. Puede albergar unidades SATA o PCIe/NVMe según el hardware.",
+      "trampaExamen": "**M.2** es forma/conector; **NVMe** es protocolo.",
+      "referencia": "https://www.intel.com/content/www/us/en/support/articles/000025060/memory-and-storage.html"
+    },
+    {
+      "id": "DT-C2-T20-009",
+      "enunciado": "¿Qué afirmación sobre un puerto USB-C es correcta?",
+      "opciones": [
+        "Siempre ofrece USB4",
+        "Siempre suministra 240 W",
+        "Siempre permite conectar un monitor",
+        "Su forma no garantiza velocidad ni prestaciones concretas"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "**USB-C** designa un conector y no implica automáticamente **USB4**, vídeo ni **USB Power Delivery**.",
+      "trampaExamen": "La especificación de **USB-C** es distinta de la de **USB4** y **USB PD**.",
+      "referencia": "https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf"
+    },
+    {
+      "id": "DT-C2-T20-010",
+      "enunciado": "¿Qué elemento gestiona la ejecución de instrucciones generales en un ordenador?",
+      "opciones": [
+        "La CPU",
+        "El monitor",
+        "La bandeja del escáner",
+        "El disco óptico"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La **CPU** ejecuta instrucciones; la memoria y los periféricos cumplen otras funciones.",
+      "trampaExamen": "No atribuir al almacenamiento el papel del **procesador**.",
+      "referencia": "https://www.intel.com/content/www/es/es/products/docs/processors/what-is-a-cpu.html"
+    },
+    {
+      "id": "DT-C2-T20-011",
+      "enunciado": "¿Qué operación permite obtener texto que pueda buscarse dentro de una imagen escaneada?",
+      "opciones": [
+        "Impresión dúplex",
+        "OCR",
+        "Formateo FAT32",
+        "Conexión HDMI"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "**OCR** reconoce caracteres en una imagen digitalizada; no se realiza necesariamente al guardar un PDF.",
+      "trampaExamen": "**PDF de imagen** no significa automáticamente **PDF con OCR**.",
+      "referencia": "https://support.microsoft.com/es-es/windows"
+    },
+    {
+      "id": "DT-C2-T20-012",
+      "enunciado": "¿Qué función incorpora un escáner para introducir automáticamente una pila de hojas?",
+      "opciones": [
+        "GPU",
+        "Fusor",
+        "ADF",
+        "Puerto HDMI"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El **ADF** alimenta automáticamente documentos, pero puede no digitalizar ambas caras.",
+      "trampaExamen": "**ADF** no equivale a **escaneo dúplex**.",
+      "referencia": "https://support.microsoft.com/es-es/windows"
+    },
+    {
+      "id": "DT-C2-T20-013",
+      "enunciado": "¿Cuál es la finalidad principal de la cola de impresión?",
+      "opciones": [
+        "Refrigerar el equipo",
+        "Digitalizar textos",
+        "Almacenar programas permanentemente",
+        "Administrar trabajos pendientes de impresión"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La cola gestiona trabajos pendientes que el subsistema remite a impresoras.",
+      "trampaExamen": "**Cola de impresión** no es una bandeja física de papel.",
+      "referencia": "https://support.microsoft.com/es-es/windows"
+    },
+    {
+      "id": "DT-C2-T20-014",
+      "enunciado": "Una impresora dispone de función dúplex. ¿Qué permite?",
+      "opciones": [
+        "Imprimir por ambas caras de la hoja",
+        "Traducir automáticamente el documento",
+        "Convertir RAM en almacenamiento",
+        "Escanear necesariamente por ambas caras"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La impresión **dúplex** utiliza las dos caras; puede ser automática o manual según el equipo.",
+      "trampaExamen": "No confundir **dúplex de impresión** y **dúplex de escaneo**.",
+      "referencia": "https://support.microsoft.com/es-es/windows"
+    },
+    {
+      "id": "DT-C2-T20-015",
+      "enunciado": "¿Qué diferencia identifica a un disco duro HDD respecto de un SSD?",
+      "opciones": [
+        "El HDD es memoria volátil",
+        "El HDD utiliza platos magnéticos y partes móviles",
+        "El HDD necesita OCR",
+        "Un SSD es siempre óptico"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **HDD** usa tecnología magnética mecánica; el **SSD** usa almacenamiento sólido no volátil.",
+      "trampaExamen": "La mayor capacidad comercial no implica ausencia de partes móviles.",
+      "referencia": "https://www.ibm.com/think/topics/solid-state-drives"
+    },
+    {
+      "id": "DT-C2-T20-016",
+      "enunciado": "Un archivo individual de 5 GB no se copia a una memoria con espacio libre y formato FAT32. ¿Cuál es una causa probable?",
+      "opciones": [
+        "No existe puerto USB-C",
+        "El archivo no es texto",
+        "FAT32 limita el tamaño de cada archivo a menos de 4 GiB",
+        "El dispositivo debe usar DVD-RW"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "**FAT32** no admite archivos individuales de **4 GiB o más**; su límite técnico es **2³²−1 bytes**.",
+      "trampaExamen": "La capacidad **total del dispositivo** no elimina el límite **por archivo**.",
+      "referencia": "https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison"
+    },
+    {
+      "id": "DT-C2-T20-017",
+      "enunciado": "¿Cuál de estos sistemas de archivos resulta habitual para unidades extraíbles y admite archivos individuales mayores de 4 GiB?",
+      "opciones": [
+        "ISO 9660 clásico como norma para memorias USB",
+        "FAT12",
+        "FAT32",
+        "exFAT"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "**exFAT** está diseñado para almacenamiento extraíble y supera el límite por archivo de FAT32.",
+      "trampaExamen": "**exFAT** no debe confundirse con **FAT32**.",
+      "referencia": "https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison"
+    },
+    {
+      "id": "DT-C2-T20-018",
+      "enunciado": "¿Qué soporte óptico está concebido como disco regrabable?",
+      "opciones": [
+        "DVD-RW",
+        "DVD-ROM",
+        "DVD-R",
+        "CD-ROM"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El sufijo **RW** significa regrabable; **ROM** es solo lectura y **R** grabable sin borrado ordinario.",
+      "trampaExamen": "**RW** admite nuevas grabaciones con unidad compatible.",
+      "referencia": "https://www.verbatim-europe.com/en/disc-types"
+    },
+    {
+      "id": "DT-C2-T20-019",
+      "enunciado": "¿Qué requiere grabar información en un DVD-R vacío?",
+      "opciones": [
+        "Solo un lector CD-ROM",
+        "Una unidad grabadora y soporte compatible",
+        "Un escáner ADF",
+        "Un adaptador de red"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La grabación requiere **grabadora compatible** y disco apto; un lector solo accede al contenido.",
+      "trampaExamen": "Un lector no puede grabar por insertar un disco virgen.",
+      "referencia": "https://www.verbatim-europe.com/en/disc-types"
+    },
+    {
+      "id": "DT-C2-T20-020",
+      "enunciado": "¿Qué acción reduce el riesgo de corrupción al retirar una unidad externa con escrituras pendientes?",
+      "opciones": [
+        "Apagar el monitor",
+        "Ejecutar OCR",
+        "Utilizar la expulsión segura y esperar a que termine la escritura",
+        "Cambiar resolución de pantalla"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La retirada segura permite que se completen las operaciones pendientes y reduce riesgo de pérdida de información.",
+      "trampaExamen": "**Expulsión segura** es distinta de una copia de seguridad.",
+      "referencia": "https://support.microsoft.com/es-es/windows"
     }
   ],
   "auditoria": {
-    "fecha": "2026-10-26",
-    "preguntasRevisadas": 6,
-    "fuentes": [
-      "https://www.intel.com/content/www/es/es/products/docs/processors/what-is-a-cpu.html",
-      "https://www.ibm.com/think/topics/ram",
-      "https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows",
-      "https://www.ibm.com/think/topics/solid-state-drives",
-      "https://www.verbatim-europe.com/en/disc-types",
-      "https://support.microsoft.com/es-es/windows"
-    ],
-    "resultado": "Se revisaron las seis preguntas; se reformularon dos como supuestos de alimentador automático de documentos y de impresión dúplex para mejorar la cobertura del programa.",
-    "limitacion": "Revisión de contenidos conceptuales y documentación de fabricante; sin pruebas físicas con periféricos ni auditoría integral del manual."
+    "fecha": "2026-10-29",
+    "preguntasRevisadas": 20,
+    "resultado": "Coherencia técnica y cuatro opciones por pregunta revisadas; repaso de CPU/RAM/SSD, periféricos, impresoras, escáneres, USB, discos externos y CD/DVD. Pendiente prueba visual en navegador, no impide la revisión sustantiva del contenido."
   }
 }
