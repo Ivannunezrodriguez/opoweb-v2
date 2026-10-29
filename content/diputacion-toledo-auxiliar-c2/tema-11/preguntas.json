@@ -1,7 +1,7 @@
 {
   "tema": 11,
   "estado": "BORRADOR_TEST_DOCUMENTADO",
-  "version": "2026-10-25",
+  "version": "2026-10-29",
   "criterio": "8 preguntas originales de cuatro opciones, respuesta inequívoca y referencia precisa a BOE consolidado, comprobado a 25/10/2026. No son preguntas oficiales; auditoría integral de manual pendiente.",
   "preguntas": [
     {
@@ -115,6 +115,90 @@
       "justificacion": "El artículo 58.2 LGT incorpora, en su caso, intereses de demora y distintos recargos.",
       "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
       "referencia": "LGT art. 58.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-009",
+      "enunciado": "¿Quién aprueba el acuerdo de delegación de facultades tributarias locales?",
+      "opciones": [
+        "El alcalde exclusivamente",
+        "El Pleno de la corporación",
+        "Un juzgado",
+        "El secretario autonómico"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
+      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
+      "referencia": "TRLRHL 7.2"
+    },
+    {
+      "id": "DT-C2-T11-010",
+      "enunciado": "¿Qué principio establece el art. 18 LGT sobre el crédito tributario?",
+      "opciones": [
+        "Libre renuncia",
+        "Disponibilidad por pacto",
+        "Indisponibilidad salvo previsión legal",
+        "Extinción automática"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
+      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
+      "referencia": "LGT 18"
+    },
+    {
+      "id": "DT-C2-T11-011",
+      "enunciado": "¿Qué es la obligación tributaria principal?",
+      "opciones": [
+        "El deber de informar",
+        "La entrega de documentos",
+        "La imposición de sanciones",
+        "El pago de la cuota tributaria"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
+      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
+      "referencia": "LGT 19"
+    },
+    {
+      "id": "DT-C2-T11-012",
+      "enunciado": "¿Quién es contribuyente?",
+      "opciones": [
+        "El sujeto pasivo que realiza el hecho imponible",
+        "Cualquier empleado público",
+        "Cualquier gestor",
+        "Solo una empresa"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
+      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
+      "referencia": "LGT 36.2"
+    },
+    {
+      "id": "DT-C2-T11-013",
+      "enunciado": "¿Qué es un sustituto del contribuyente?",
+      "opciones": [
+        "Un responsable por convenio",
+        "Un sujeto pasivo que por imposición legal cumple en lugar del contribuyente",
+        "Un recaudador",
+        "Cualquier heredero"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
+      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
+      "referencia": "LGT 36.3"
+    },
+    {
+      "id": "DT-C2-T11-014",
+      "enunciado": "¿Cuál es el plazo general de prescripción tributaria?",
+      "opciones": [
+        "Un año",
+        "Tres años",
+        "Cuatro años",
+        "Diez años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Regla establecida en el artículo indicado de la normativa tributaria.",
+      "trampaExamen": "Comprobar el concepto y sus excepciones legales.",
+      "referencia": "LGT 66"
     }
   ],
   "auditoria": {
