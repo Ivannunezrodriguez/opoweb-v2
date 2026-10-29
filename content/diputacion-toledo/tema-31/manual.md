@@ -296,3 +296,19 @@ ADMINISTRACIÓN ELECTRÓNICA
 ```
 
 > ⚠️ **Foco examen:** las confusiones más frecuentes son equiparar identificación y firma, confundir certificado con firma, atribuir a toda firma electrónica el efecto de la manuscrita y olvidar los nuevos servicios incorporados por eIDAS 2.
+
+## 18. Cuadro de revisión normativa — **29/10/2026**
+
+| Dato de examen | Regla | Referencia |
+|---|---|---|
+| Firma electrónica **cualificada** | Efecto jurídico equivalente a firma **manuscrita** | **eIDAS art. 25.2** |
+| Firma **avanzada** | Vinculación única, identificación, control exclusivo con alta confianza y detección de cambios | **eIDAS art. 26** |
+| Certificado **cualificado** | Vigencia máxima de **5 años** | **Ley 6/2020 art. 4.2** |
+| Conservación por prestador cualificado | **15 años** desde extinción del certificado o fin del servicio | **Ley 6/2020 art. 11.3.a** |
+| Revocación del certificado | **Extingue** la vigencia | **Ley 6/2020 arts. 4–5** |
+| Lista de confianza | Contiene prestadores y servicios **cualificados** | **Ley 6/2020 art. 16.1** |
+| Firma en procedimiento administrativo | Exigida, entre otros actos, al **interponer recursos** | **Ley 39/2015 art. 11.2** |
+
+> ⚠️ **¡Foco Examen!:** Una firma **avanzada** no es necesariamente **cualificada**. Solo eIDAS atribuye expresamente a la firma **cualificada** efecto equivalente a la **manuscrita**. No confundir la vigencia máxima del certificado (**5 años**) con la conservación documental del prestador cualificado (**15 años**).
+
+**Fuentes oficiales:** https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046 ; https://www.boe.es/buscar/doc.php?id=DOUE-L-2014-81822 ; https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 . **20 preguntas**; pendiente revisión integral y comprobación de navegación.
