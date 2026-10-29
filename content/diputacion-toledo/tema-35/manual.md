@@ -257,3 +257,21 @@ Exportar a PDF crea un archivo para distribución; no sustituye necesariamente a
 | Marcas no imprimibles | **Ctrl + F10** |
 
 > ⚠️ **¡Foco Examen!:** Las trampas más habituales son confundir formato directo con estilos, guardar con exportar, retorno de carro con salto de página y numeración escrita con campo automático.
+
+## 18. Maquetación avanzada: saltos y estilos de página (revisión **29/10/2026**)
+
+| Operación | Método correcto en Writer | Diferencia de examen |
+|---|---|---|
+| **Salto de página manual** | **Ctrl + Intro** en Windows | Pasa a otra página sin necesariamente cambiar el estilo |
+| **Salto de línea** | **Mayús + Intro** | Cambia de renglón **sin crear párrafo nuevo** |
+| **Cambiar orientación de una parte** | **Insertar → Más saltos → Salto manual**, escoger **estilo de página** | Separa páginas con orientaciones distintas |
+| **Márgenes y encabezados** | Se configuran mediante **estilos de página** | No mediante estilos de carácter |
+| **Portada diferenciada** | Aplicar estilo **Primera página** con **estilo siguiente** | La siguiente página puede adoptar otro estilo automáticamente |
+| **Reiniciar número de página** | Salto manual **con estilo de página**, configurando nuevo número | No basta cambiar el texto visible de un encabezado |
+| **Salto estructural** | Salto de página | Evita la fragilidad de insertar sucesivos párrafos vacíos |
+
+> ⚠️ **¡Foco Examen!:** **Ctrl + Intro** crea un **salto de página**; **Mayús + Intro**, un **salto de línea** sin párrafo nuevo. Para alternar páginas **verticales y horizontales**, se utilizan **estilos de página** y el salto correspondiente.
+
+> ⚠️ **¡Foco Examen!:** Si un documento requiere una portada sin el mismo encabezado del resto, el estilo **Primera página** puede definir como **estilo siguiente** uno diferente. Un cambio de formato directo del texto no sustituye un estilo de página.
+
+**Fuentes oficiales contrastadas:** [saltos de página](https://help.libreoffice.org/latest/es/text/swriter/guide/page_break.html), [salto manual](https://help.libreoffice.org/latest/es/text/swriter/01/04010000.html), [estilos de página](https://help.libreoffice.org/latest/es/text/swriter/guide/pagestyles.html) y [orientación](https://help.libreoffice.org/latest/es/text/swriter/guide/pageorientation.html). **20 preguntas**; pendiente revisión editorial global y prueba funcional en OpoWeb.
