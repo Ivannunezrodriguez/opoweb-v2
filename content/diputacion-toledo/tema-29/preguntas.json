@@ -1,11 +1,16 @@
 {
   "tema": 29,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T29-001",
       "pregunta": "¿Cuál es el orden legal de prelación del hecho imponible del IBI?",
-      "opciones": ["Propiedad, usufructo, superficie y concesión", "Concesión, superficie, usufructo y propiedad", "Usufructo, propiedad, concesión y superficie", "Superficie, concesión, propiedad y usufructo"],
+      "opciones": [
+        "Propiedad, usufructo, superficie y concesión",
+        "Concesión, superficie, usufructo y propiedad",
+        "Usufructo, propiedad, concesión y superficie",
+        "Superficie, concesión, propiedad y usufructo"
+      ],
       "correcta": 1,
       "justificacion": "La ley establece el siguiente orden de prelación para el hecho imponible del IBI: concesión administrativa, derecho de superficie, usufructo y propiedad.",
       "trampa": "El propietario no es siempre el sujeto pasivo si concurre un derecho anterior en la prelación legal.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T29-002",
       "pregunta": "La base imponible del IBI está constituida por:",
-      "opciones": ["El precio de adquisición", "El valor catastral", "El valor de mercado declarado", "La renta anual del inmueble"],
+      "opciones": [
+        "El precio de adquisición",
+        "El valor catastral",
+        "El valor de mercado declarado",
+        "La renta anual del inmueble"
+      ],
       "correcta": 1,
       "justificacion": "La base imponible del IBI está constituida por el valor catastral del bien inmueble.",
       "trampa": "La base liquidable puede ser inferior cuando proceda la reducción legal.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T29-003",
       "pregunta": "El tipo supletorio del IBI para bienes inmuebles urbanos es del:",
-      "opciones": ["0,3 %", "0,4 %", "0,6 %", "1,10 %"],
+      "opciones": [
+        "0,3 %",
+        "0,4 %",
+        "0,6 %",
+        "1,10 %"
+      ],
       "correcta": 1,
       "justificacion": "El tipo supletorio del IBI para los bienes inmuebles urbanos es del 0,4 %.",
       "trampa": "El 1,10 % es el tipo máximo general urbano, no el tipo supletorio.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T29-004",
       "pregunta": "La bonificación obligatoria inicial para viviendas de protección oficial es del:",
-      "opciones": ["25 % durante 2 años", "50 % durante 3 periodos impositivos", "75 % durante 5 años", "95 % sin límite temporal"],
+      "opciones": [
+        "25 % durante 2 años",
+        "50 % durante 3 periodos impositivos",
+        "75 % durante 5 años",
+        "95 % sin límite temporal"
+      ],
       "correcta": 1,
       "justificacion": "La bonificación obligatoria para las viviendas de protección oficial es del 50 % durante los 3 periodos impositivos siguientes al otorgamiento de la calificación definitiva.",
       "trampa": "La prolongación posterior depende de la ordenanza fiscal y no forma parte del tramo obligatorio inicial.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T29-005",
       "pregunta": "El IBI se devenga ordinariamente:",
-      "opciones": ["El 31 de diciembre", "El 1 de enero", "En la fecha de transmisión", "Al aprobarse el padrón"],
+      "opciones": [
+        "El 31 de diciembre",
+        "El 1 de enero",
+        "En la fecha de transmisión",
+        "Al aprobarse el padrón"
+      ],
       "correcta": 1,
       "justificacion": "El IBI se devenga el primer día del periodo impositivo, que coincide con el 1 de enero y con el inicio del año natural.",
       "trampa": "Una transmisión posterior durante el año no modifica el devengo ya producido.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T29-006",
       "pregunta": "El hecho imponible del IAE está constituido por:",
-      "opciones": ["La obtención de beneficio", "El mero ejercicio de una actividad empresarial, profesional o artística", "La apertura de un local", "La contratación de trabajadores"],
+      "opciones": [
+        "La obtención de beneficio",
+        "El mero ejercicio de una actividad empresarial, profesional o artística",
+        "La apertura de un local",
+        "La contratación de trabajadores"
+      ],
       "correcta": 1,
       "justificacion": "El IAE grava el mero ejercicio, en territorio nacional, de actividades empresariales, profesionales o artísticas, se ejerzan o no en local determinado.",
       "trampa": "No exige la obtención de beneficio ni disponer de un local abierto al público.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T29-007",
       "pregunta": "Las personas físicas respecto del IAE están:",
-      "opciones": ["Siempre sujetas y no exentas", "Exentas", "Exentas solo durante 2 años", "Exentas si facturan menos de 100.000 euros"],
+      "opciones": [
+        "Siempre sujetas y no exentas",
+        "Exentas",
+        "Exentas solo durante 2 años",
+        "Exentas si facturan menos de 100.000 euros"
+      ],
       "correcta": 1,
       "justificacion": "Las personas físicas están exentas del IAE con independencia del importe neto de su cifra de negocios.",
       "trampa": "El límite de cifra de negocios se aplica a determinadas personas jurídicas y entidades, no a las personas físicas.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T29-008",
       "pregunta": "Quien inicia una actividad económica disfruta, con carácter general, de exención en el IAE durante:",
-      "opciones": ["El primer periodo únicamente", "Los 2 primeros periodos impositivos", "Los 3 primeros años naturales", "Los 5 primeros ejercicios"],
+      "opciones": [
+        "El primer periodo únicamente",
+        "Los 2 primeros periodos impositivos",
+        "Los 3 primeros años naturales",
+        "Los 5 primeros ejercicios"
+      ],
       "correcta": 1,
       "justificacion": "La exención por inicio de actividad alcanza los 2 primeros periodos impositivos en los que se desarrolla aquella.",
       "trampa": "No debe confundirse esta exención con la bonificación posterior aplicable a determinadas actividades profesionales.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T29-009",
       "pregunta": "El umbral general de cifra de negocios para la exención del IAE de determinadas entidades es:",
-      "opciones": ["Inferior a 500.000 euros", "Inferior a 1.000.000 de euros", "Inferior a 2.000.000 de euros", "No superior a 10.000.000 de euros"],
+      "opciones": [
+        "Inferior a 500.000 euros",
+        "Inferior a 1.000.000 de euros",
+        "Inferior a 2.000.000 de euros",
+        "No superior a 10.000.000 de euros"
+      ],
       "correcta": 1,
       "justificacion": "La exención alcanza, entre otros sujetos, a determinadas entidades cuyo importe neto de la cifra de negocios sea inferior a 1.000.000 de euros.",
       "trampa": "El umbral legal es inferior a 1.000.000 de euros, no igual o inferior.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T29-010",
       "pregunta": "Las tarifas del IAE clasifican las actividades profesionales en la sección:",
-      "opciones": ["1.ª", "2.ª", "3.ª", "4.ª"],
+      "opciones": [
+        "1.ª",
+        "2.ª",
+        "3.ª",
+        "4.ª"
+      ],
       "correcta": 1,
       "justificacion": "La sección 2.ª de las tarifas del IAE corresponde a las actividades profesionales; la sección 1.ª comprende las empresariales y la 3.ª las artísticas.",
       "trampa": "No debe confundirse la actividad profesional de la tarifa con una actividad empresarial ejercida por una sociedad.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T29-011",
       "pregunta": "El coeficiente de situación municipal del IAE puede fijarse entre:",
-      "opciones": ["0,1 y 1,0", "0,4 y 3,8", "1,0 y 5,0", "1,29 y 1,35"],
+      "opciones": [
+        "0,1 y 1,0",
+        "0,4 y 3,8",
+        "1,0 y 5,0",
+        "1,29 y 1,35"
+      ],
       "correcta": 1,
       "justificacion": "El coeficiente de situación aprobado por el ayuntamiento no puede ser inferior a 0,4 ni superior a 3,8.",
       "trampa": "Los valores comprendidos entre 1,29 y 1,35 corresponden al coeficiente de ponderación, no al coeficiente de situación.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T29-012",
       "pregunta": "Cuando una actividad sujeta al IAE comienza durante el año, la cuota se prorratea:",
-      "opciones": ["Por meses completos, excluido el de inicio", "Por trimestres naturales, incluido el del inicio", "Por días exactos", "No se prorratea nunca"],
+      "opciones": [
+        "Por meses completos, excluido el de inicio",
+        "Por trimestres naturales, incluido el del inicio",
+        "Por días exactos",
+        "No se prorratea nunca"
+      ],
       "correcta": 1,
       "justificacion": "Cuando la actividad comienza durante el año, la cuota se calcula por los trimestres naturales restantes, incluido aquel en que se inicia la actividad.",
       "trampa": "En caso de cese, la devolución se refiere a los trimestres naturales completos no ejercidos y debe solicitarse.",
       "referencia": "content/diputacion-toledo/tema-29/manual.md#16-devengo-y-periodo-impositivo-del-iae"
+    },
+    {
+      "id": "DIP-T29-013",
+      "pregunta": "¿Qué derecho prevalece en el hecho imponible del IBI si concurre con el derecho de propiedad?",
+      "opciones": [
+        "Solo la propiedad",
+        "El usufructo",
+        "Ninguno",
+        "El derecho de arrendamiento"
+      ],
+      "correcta": 1,
+      "justificacion": "La titularidad del usufructo precede a propiedad en el orden de prelación.",
+      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
+      "referencia": "TRLRHL art. 61 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T29-014",
+      "pregunta": "¿Qué constituye la base imponible del IBI?",
+      "opciones": [
+        "El precio de compra",
+        "La renta catastral",
+        "El valor catastral",
+        "El valor de transmisión declarado"
+      ],
+      "correcta": 2,
+      "justificacion": "La base imponible del IBI está constituida por el valor catastral.",
+      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
+      "referencia": "TRLRHL art. 65 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T29-015",
+      "pregunta": "¿Cuándo se devenga el IBI?",
+      "opciones": [
+        "El 31 de diciembre",
+        "El 1 de julio",
+        "El día de la compra",
+        "El primer día del período impositivo"
+      ],
+      "correcta": 3,
+      "justificacion": "El IBI se devenga el primer día del período impositivo.",
+      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
+      "referencia": "TRLRHL art. 75 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T29-016",
+      "pregunta": "¿Cuál es el tipo de gravamen mínimo y supletorio general del IBI urbano?",
+      "opciones": [
+        "0,4 %",
+        "0,3 %",
+        "0,6 %",
+        "1,1 %"
+      ],
+      "correcta": 0,
+      "justificacion": "El tipo mínimo y supletorio urbano es del 0,4 %.",
+      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
+      "referencia": "TRLRHL art. 72 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T29-017",
+      "pregunta": "¿Quién está exento del IAE por su condición subjetiva?",
+      "opciones": [
+        "Toda sociedad mercantil",
+        "Las personas físicas",
+        "Todo inmueble urbano",
+        "Toda cooperativa sin excepción"
+      ],
+      "correcta": 1,
+      "justificacion": "Las personas físicas están exentas del IAE.",
+      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
+      "referencia": "TRLRHL art. 82 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T29-018",
+      "pregunta": "¿Cuál es el umbral de importe neto de cifra de negocios para la exención del IAE de los sujetos a los que se aplica?",
+      "opciones": [
+        "10.000 €",
+        "100.000 €",
+        "1.000.000 €",
+        "10.000.000 €"
+      ],
+      "correcta": 2,
+      "justificacion": "La exención por cifra de negocios se aplica bajo el umbral de 1.000.000 € a los sujetos previstos.",
+      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
+      "referencia": "TRLRHL art. 82 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T29-019",
+      "pregunta": "¿Qué intervalo rige para el coeficiente de situación del IAE?",
+      "opciones": [
+        "1 a 2",
+        "0,1 a 1",
+        "2 a 9",
+        "0,4 a 3,8"
+      ],
+      "correcta": 3,
+      "justificacion": "El coeficiente de situación puede oscilar entre 0,4 y 3,8.",
+      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
+      "referencia": "TRLRHL art. 87 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DIP-T29-020",
+      "pregunta": "¿Cuál es el número legal de categorías de calles para aplicar el coeficiente de situación del IAE?",
+      "opciones": [
+        "Entre 2 y 9",
+        "Entre 1 y 3",
+        "Entre 5 y 15",
+        "Exactamente 10"
+      ],
+      "correcta": 0,
+      "justificacion": "Las categorías de calles estarán entre 2 y 9; si no es posible distinguir más de una, no se establece ese coeficiente.",
+      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
+      "referencia": "TRLRHL art. 87 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     }
   ]
 }
