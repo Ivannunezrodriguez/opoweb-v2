@@ -1,11 +1,16 @@
 {
   "tema": 2,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T02-001",
       "pregunta": "¿Qué artículos integran la Sección 1.ª del Capítulo II del Título I de la Constitución?",
-      "opciones": ["Del 14 al 29", "Del 15 al 29", "Del 14 al 38", "Del 10 al 29"],
+      "opciones": [
+        "Del 14 al 29",
+        "Del 15 al 29",
+        "Del 14 al 38",
+        "Del 10 al 29"
+      ],
       "correcta": 1,
       "justificacion": "La Sección 1.ª comprende los artículos 15 a 29. El artículo 14 queda fuera formalmente de esa sección, aunque recibe la tutela reforzada del artículo 53.2.",
       "trampa": "Es habitual incluir erróneamente el artículo 14 dentro de la Sección 1.ª. Tiene protección equivalente, pero ubicación distinta.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T02-002",
       "pregunta": "¿Cuál es el plazo máximo constitucional de la detención preventiva?",
-      "opciones": ["24 horas", "48 horas", "72 horas", "5 días"],
+      "opciones": [
+        "24 horas",
+        "48 horas",
+        "72 horas",
+        "5 días"
+      ],
       "correcta": 2,
       "justificacion": "El artículo 17.2 de la Constitución establece que el detenido debe ser puesto en libertad o a disposición judicial en el plazo máximo de 72 horas.",
       "trampa": "Las 72 horas son un máximo, no un plazo ordinario que deba agotarse en todos los casos.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T02-003",
       "pregunta": "¿Qué derecho del artículo 30 puede protegerse mediante recurso de amparo?",
-      "opciones": ["Todo el deber de defensa de España", "Solo la objeción de conciencia del artículo 30.2", "El derecho al trabajo", "Ninguno"],
+      "opciones": [
+        "Todo el deber de defensa de España",
+        "Solo la objeción de conciencia del artículo 30.2",
+        "El derecho al trabajo",
+        "Ninguno"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 53.2 extiende expresamente el recurso de amparo a la objeción de conciencia reconocida en el artículo 30.2.",
       "trampa": "No todo el artículo 30 es susceptible de amparo; únicamente la objeción de conciencia del apartado 2.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T02-004",
       "pregunta": "¿Qué mayoría exige la aprobación, modificación o derogación de una ley orgánica?",
-      "opciones": ["Mayoría simple del Congreso", "Mayoría absoluta del Congreso en votación final sobre el conjunto", "Mayoría de tres quintos de cada Cámara", "Mayoría absoluta del Senado"],
+      "opciones": [
+        "Mayoría simple del Congreso",
+        "Mayoría absoluta del Congreso en votación final sobre el conjunto",
+        "Mayoría de tres quintos de cada Cámara",
+        "Mayoría absoluta del Senado"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 81.2 exige mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto.",
       "trampa": "La mayoría absoluta se exige en el Congreso y en la votación final sobre el conjunto, no en cada votación parcial.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T02-005",
       "pregunta": "¿Cuál de estos derechos no puede suspenderse con carácter general en un estado de excepción o sitio?",
-      "opciones": ["Secreto de las comunicaciones", "Libertad de circulación", "Tutela judicial efectiva", "Derecho de reunión"],
+      "opciones": [
+        "Secreto de las comunicaciones",
+        "Libertad de circulación",
+        "Tutela judicial efectiva",
+        "Derecho de reunión"
+      ],
       "correcta": 2,
       "justificacion": "El artículo 24, relativo a la tutela judicial efectiva, no figura entre los derechos enumerados en el artículo 55.1 como susceptibles de suspensión general.",
       "trampa": "No todos los derechos fundamentales de los artículos 15 a 29 pueden suspenderse; solo los expresamente enumerados en el artículo 55.1.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T02-006",
       "pregunta": "¿Quién declara el estado de sitio?",
-      "opciones": ["El Gobierno por decreto", "El Rey a propuesta del Gobierno", "El Congreso por mayoría absoluta, a propuesta exclusiva del Gobierno", "El Senado por mayoría de tres quintos"],
+      "opciones": [
+        "El Gobierno por decreto",
+        "El Rey a propuesta del Gobierno",
+        "El Congreso por mayoría absoluta, a propuesta exclusiva del Gobierno",
+        "El Senado por mayoría de tres quintos"
+      ],
       "correcta": 2,
       "justificacion": "El estado de sitio es declarado por el Congreso de los Diputados por mayoría absoluta, a propuesta exclusiva del Gobierno.",
       "trampa": "A diferencia del estado de alarma y del de excepción, el estado de sitio no lo declara el Gobierno.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T02-007",
       "pregunta": "¿Qué duración máxima inicial tiene el estado de excepción?",
-      "opciones": ["15 días", "30 días", "60 días", "La que determine libremente el Gobierno"],
+      "opciones": [
+        "15 días",
+        "30 días",
+        "60 días",
+        "La que determine libremente el Gobierno"
+      ],
       "correcta": 1,
       "justificacion": "La autorización y proclamación del estado de excepción debe determinar su duración, que no puede exceder de 30 días, prorrogables por otro plazo igual.",
       "trampa": "Los 15 días corresponden al estado de alarma; el de excepción tiene un máximo inicial de 30 días.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T02-008",
       "pregunta": "¿Cuál de las siguientes afirmaciones sobre el decreto-ley es correcta?",
-      "opciones": ["Es un reglamento ejecutivo", "Tiene rango de ley y debe someterse al Congreso dentro de 30 días", "Puede afectar libremente al régimen electoral general", "Exige delegación legislativa previa"],
+      "opciones": [
+        "Es un reglamento ejecutivo",
+        "Tiene rango de ley y debe someterse al Congreso dentro de 30 días",
+        "Puede afectar libremente al régimen electoral general",
+        "Exige delegación legislativa previa"
+      ],
       "correcta": 1,
       "justificacion": "El real decreto-ley es una disposición legislativa provisional con rango de ley que debe ser convalidada o derogada por el Congreso dentro de los 30 días siguientes a su promulgación.",
       "trampa": "Aunque lo dicta el Gobierno, no es un reglamento. Tiene rango de ley y responde a extraordinaria y urgente necesidad.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T02-009",
       "pregunta": "¿Qué instrumento de delegación se utiliza para que el Gobierno elabore un texto articulado?",
-      "opciones": ["Ley de bases", "Ley orgánica", "Decreto-ley", "Orden ministerial"],
+      "opciones": [
+        "Ley de bases",
+        "Ley orgánica",
+        "Decreto-ley",
+        "Orden ministerial"
+      ],
       "correcta": 0,
       "justificacion": "La delegación para formar textos articulados se otorga mediante una ley de bases. Para refundir varios textos legales se utiliza una ley ordinaria de delegación.",
       "trampa": "Texto articulado equivale a ley de bases; texto refundido equivale a ley ordinaria de delegación.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T02-010",
       "pregunta": "¿Qué significa la inderogabilidad singular de los reglamentos?",
-      "opciones": ["Que ningún reglamento puede ser derogado", "Que una resolución particular no puede vulnerar un reglamento vigente", "Que un reglamento prevalece siempre sobre la ley", "Que solo el Parlamento puede modificar reglamentos"],
+      "opciones": [
+        "Que ningún reglamento puede ser derogado",
+        "Que una resolución particular no puede vulnerar un reglamento vigente",
+        "Que un reglamento prevalece siempre sobre la ley",
+        "Que solo el Parlamento puede modificar reglamentos"
+      ],
       "correcta": 1,
       "justificacion": "Una resolución administrativa singular no puede contradecir una disposición general, aunque proceda de un órgano de igual o superior jerarquía que el autor del reglamento.",
       "trampa": "La inderogabilidad singular no impide derogar el reglamento mediante otra disposición general competente; impide excepcionarlo con un acto particular.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T02-011",
       "pregunta": "¿Qué consecuencia tiene, con carácter general, que un reglamento vulnere una ley?",
-      "opciones": ["Anulabilidad", "Nulidad de pleno derecho", "Convalidación automática", "Conversión en ley"],
+      "opciones": [
+        "Anulabilidad",
+        "Nulidad de pleno derecho",
+        "Convalidación automática",
+        "Conversión en ley"
+      ],
       "correcta": 1,
       "justificacion": "Las disposiciones administrativas que vulneren la Constitución, las leyes u otras disposiciones de rango superior son nulas de pleno derecho.",
       "trampa": "En materia reglamentaria, la infracción de una norma superior conduce a nulidad, no a simple anulabilidad.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T02-012",
       "pregunta": "¿Cómo se relacionan, con carácter general, la ley orgánica y la ley ordinaria?",
-      "opciones": ["La ley orgánica es siempre jerárquicamente superior", "La ley ordinaria puede modificar cualquier ley orgánica", "La relación es principalmente de competencia material", "Ambas tienen idéntico procedimiento de aprobación"],
+      "opciones": [
+        "La ley orgánica es siempre jerárquicamente superior",
+        "La ley ordinaria puede modificar cualquier ley orgánica",
+        "La relación es principalmente de competencia material",
+        "Ambas tienen idéntico procedimiento de aprobación"
+      ],
       "correcta": 2,
       "justificacion": "La distinción fundamental es material: la Constitución reserva determinadas materias a ley orgánica. No existe una superioridad jerárquica general de toda ley orgánica sobre toda ley ordinaria.",
       "trampa": "El error frecuente consiste en afirmar una jerarquía universal. La clave es la reserva material del artículo 81.",
       "referencia": "content/diputacion-toledo/tema-02/manual.md#133-reserva-de-ley"
+    },
+    {
+      "id": "DIP-T02-013",
+      "pregunta": "¿Qué artículo de la Constitución regula el Defensor del Pueblo?",
+      "opciones": [
+        "Artículo 54",
+        "Artículo 55",
+        "Artículo 53",
+        "Artículo 56"
+      ],
+      "correcta": 0,
+      "justificacion": "El **artículo 54 CE** contempla al Defensor del Pueblo como alto comisionado de las Cortes Generales.",
+      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
+      "referencia": "CE art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T02-014",
+      "pregunta": "¿Qué mayoría exige el Congreso en la votación final sobre el conjunto de un proyecto de ley orgánica?",
+      "opciones": [
+        "Mayoría simple",
+        "Mayoría de tres quintos",
+        "Mayoría absoluta",
+        "Dos tercios"
+      ],
+      "correcta": 2,
+      "justificacion": "Se requiere **mayoría absoluta del Congreso** en votación final sobre el conjunto del proyecto.",
+      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
+      "referencia": "CE art. 81.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T02-015",
+      "pregunta": "¿Quién ejerce la potestad reglamentaria conforme al artículo 97 CE?",
+      "opciones": [
+        "El Gobierno",
+        "El Tribunal Supremo",
+        "El Tribunal Constitucional",
+        "El Defensor del Pueblo"
+      ],
+      "correcta": 0,
+      "justificacion": "El **Gobierno** ejerce la función ejecutiva y potestad reglamentaria conforme a la Constitución y las leyes.",
+      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
+      "referencia": "CE art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T02-016",
+      "pregunta": "¿Cuál es el plazo máximo inicial del estado de alarma?",
+      "opciones": [
+        "Quince días",
+        "Treinta días",
+        "Sesenta días",
+        "Setenta y dos horas"
+      ],
+      "correcta": 0,
+      "justificacion": "El estado de alarma se declara mediante decreto del **Gobierno** por plazo máximo de **15 días**, sin prórroga sin autorización del **Congreso**.",
+      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
+      "referencia": "CE art. 116.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T02-017",
+      "pregunta": "¿Cuál de los siguientes derechos puede ser objeto de suspensión individual en los supuestos del artículo 55.2 CE?",
+      "opciones": [
+        "Derecho a la vida del artículo 15",
+        "Plazo máximo de detención del artículo 17.2",
+        "Derecho a la educación del artículo 27",
+        "Libertad ideológica del artículo 16"
+      ],
+      "correcta": 1,
+      "justificacion": "Se contemplan los derechos de los **artículos 17.2 y 18.2 y 18.3** bajo condiciones excepcionales y garantías.",
+      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
+      "referencia": "CE art. 55.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T02-018",
+      "pregunta": "¿Qué principio impide que una resolución administrativa singular vulnere un reglamento vigente?",
+      "opciones": [
+        "Autonomía privada",
+        "Inderogabilidad singular de reglamentos",
+        "Irretroactividad absoluta",
+        "Sucesión universal"
+      ],
+      "correcta": 1,
+      "justificacion": "Las resoluciones administrativas de carácter particular no pueden vulnerar lo establecido en una disposición de carácter general, aunque provengan de órgano de igual o superior jerarquía.",
+      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
+      "referencia": "Ley 40/2015 art. 37 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DIP-T02-019",
+      "pregunta": "¿Qué reserva establece el artículo 53.1 CE para regular el ejercicio de los derechos del capítulo II del título I?",
+      "opciones": [
+        "Exclusivamente orden ministerial",
+        "Únicamente circular interna",
+        "Ley que respete el contenido esencial",
+        "Reglamento independiente sin cobertura legal"
+      ],
+      "correcta": 2,
+      "justificacion": "Solo por **ley**, que debe respetar el **contenido esencial**, podrá regularse el ejercicio de los derechos y libertades reconocidos en el capítulo II del título I.",
+      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
+      "referencia": "CE art. 53.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T02-020",
+      "pregunta": "¿Qué órgano declara el estado de excepción según el artículo 116.3 CE?",
+      "opciones": [
+        "Las Cortes por ley orgánica",
+        "El Gobierno, por decreto acordado en Consejo de Ministros, previa autorización del Congreso",
+        "El Senado por mayoría simple",
+        "El presidente autonómico"
+      ],
+      "correcta": 1,
+      "justificacion": "El **Gobierno** lo declara por decreto del **Consejo de Ministros**, previa autorización del **Congreso**, por un máximo inicial de **30 días**.",
+      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
+      "referencia": "CE art. 116.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     }
   ]
 }
