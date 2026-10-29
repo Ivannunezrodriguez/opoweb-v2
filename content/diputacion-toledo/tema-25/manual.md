@@ -433,3 +433,18 @@ El recurso no suspende automáticamente la ejecución del acto, salvo en los cas
 10. La revisión tributaria se articula mediante procedimientos especiales y recursos.
 
 > ⚠️ **¡Foco Examen!:** Las trampas más frecuentes son confundir no sujeción con exención, base imponible con base liquidable, sujeto pasivo con responsable, y deuda tributaria con sanción.
+
+## 18. Tabla de plazos tributarios contrastados — 29/10/2026
+
+| Supuesto | Plazo | Referencia |
+|---|---|---|
+| Liquidación notificada del **1 al 15** | Hasta el **20 del mes siguiente** o siguiente hábil | **LGT 62.2.a** |
+| Liquidación notificada del **16 al último día** | Hasta el **5 del segundo mes siguiente** o siguiente hábil | **LGT 62.2.b** |
+| Deuda periódica de notificación colectiva sin plazo propio | Del **1 de septiembre al 20 de noviembre** | **LGT 62.3** |
+| Reposición tributaria local: interposición | **1 mes** desde el día siguiente a notificación expresa | **TRLRHL 14.2.c** |
+| Reposición tributaria local: resolución | **1 mes**, con excepciones de alegaciones; silencio **desestimatorio** | **TRLRHL 14.2.l** |
+| Notificar resolución expresa de reposición | **10 días** desde resolución | **TRLRHL 14.2.n** |
+
+> ⚠️ **¡Foco Examen!:** Notificación de liquidación el día **15**: pago hasta el **20 del mes posterior**. Notificación el día **16**: hasta el **5 del segundo mes posterior**. El silencio en reposición tributaria local es **desestimatorio**, pero subsiste el deber de resolver.
+
+**Fuentes oficiales:** https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186 ; https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214 . **20 preguntas**, pendiente auditoría integral y prueba funcional.
