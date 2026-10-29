@@ -322,3 +322,23 @@ CALC
 ```
 
 > ⚠️ **¡Foco Examen!:** Las trampas más frecuentes son distinguir libro y hoja, fórmula y función, valor y formato, referencia relativa y absoluta, ordenar y filtrar, y ODS frente a CSV.
+
+## 19. Referencias y funciones: comparativa para el examen — **29/10/2026**
+
+| Elemento | Ejemplo | Comportamiento en Calc |
+|---|---|---|
+| Referencia **relativa** | `A1` | Cambia al copiar la fórmula según el desplazamiento |
+| Referencia **absoluta** | `$A$1` | Fija **columna y fila** al copiar |
+| Referencia **mixta** de fila | `A$1` | Fija la **fila**, permite variar la columna |
+| Referencia **mixta** de columna | `$A1` | Fija la **columna**, permite variar la fila |
+| **F4** durante edición de referencia | `A1` | Ciclo: **`$A$1` → `A$1` → `$A1` → `A1`** |
+| **CONTAR** | `=CONTAR(A1:A5)` | Cuenta celdas con **números** |
+| **CONTARA** | `=CONTARA(A1:A5)` | Cuenta las **no vacías** |
+| **SUMA** | `=SUMA(2;3;4)` | Devuelve **9** |
+| **SI.ERROR** | `=SI.ERROR(1/0;0)` | Devuelve el valor alternativo **0** |
+
+> ⚠️ **¡Foco Examen!:** El signo `$` fija solo la coordenada situada a su derecha. **`$A1`** fija columna; **`A$1`** fija fila. **`$A$1`** fija ambas. En **Calc**, la tecla **F4** alterna estas cuatro formas en el orden indicado.
+
+> ⚠️ **¡Foco Examen!:** **CONTAR** no equivale a **CONTARA**. Una celda que contiene texto se computa con **CONTARA**, pero no con **CONTAR** si no contiene un valor numérico.
+
+**Fuentes oficiales:** [referencias relativas y absolutas](https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html), [CONTAR y CONTARA](https://help.libreoffice.org/latest/es/text/scalc/02/08080000.html), [SUMA](https://help.libreoffice.org/latest/es/text/scalc/01/func_sum.html) y [SI.ERROR](https://help.libreoffice.org/latest/es/text/scalc/01/04060104.html). Banco ampliado a **20 preguntas**; quedan pendientes auditoría editorial completa y prueba funcional.
