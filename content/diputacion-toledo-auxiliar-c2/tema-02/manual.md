@@ -862,3 +862,24 @@ Responder sin consultar:
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 2 aprobado»** el 17 de julio de 2026.
+
+
+## Control de plazos y subsanación electrónica — contrastado con BOE (29/10/2026)
+
+| Supuesto | Regla exigible | Artículo |
+|---|---|---|
+| **Días hábiles** | Se excluyen **sábados**, **domingos** y **festivos**, salvo ley o Derecho de la UE que establezca cómputo distinto | **30.2** |
+| **Días naturales** | Debe expresarse esa circunstancia en la notificación correspondiente | **30.2** |
+| Plazo por **días** | Se cuenta desde el **día siguiente** a notificación, publicación o silencio | **30.3** |
+| Plazo por **meses o años** | Se computa desde el **día siguiente** al de la notificación, publicación o silencio, y concluye el mismo día ordinal de referencia del mes o año de vencimiento; si no existe día equivalente, vence el **último día del mes** | **30.4** |
+| Último día **inhábil** | Se prorroga al **primer día hábil siguiente** | **30.5** |
+| Registros electrónicos | Permiten presentar **todos los días del año durante las 24 horas**; presentación en inhábil se entiende hecha en la **primera hora del primer día hábil siguiente** para los plazos fijados por días hábiles, salvo norma que permita recepción en inhábil | **31.2** |
+| Ampliación ordinaria de plazos | **No superior a la mitad** de los plazos y **antes de su vencimiento**, salvo precepto contrario | **32.1 y 32.3** |
+| Tramitación de urgencia | Reducción **a la mitad** de los plazos del procedimiento ordinario, excepto los relativos a **presentación de solicitudes y recursos** | **33.1** |
+| Personas obligadas a medios electrónicos que presentan solicitud presencial | La **Administración** requiere subsanación electrónica; a estos efectos la fecha de presentación es la de la **subsanación electrónica** | **68.4** |
+
+> ⚠️ **¡Foco Examen!:** No confundir **ampliación del artículo 32** (hasta **la mitad adicional** y antes del vencimiento) con **urgencia del artículo 33** (reduce **a la mitad**, pero no solicitudes ni recursos). La fecha de entrada de solicitud presentada presencialmente por obligado electrónico no se conserva automáticamente: se atiende a la **subsanación electrónica**.
+
+**Fuente:** [Ley 39/2015, artículos 30–33 y 68.4, BOE consolidado con última modificación publicada el **06/11/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
+
+**Nota de alcance:** el artículo **68.4** se cita como conexión práctica del artículo **14** aunque pertenece al bloque de procedimiento del tema 3; no desplaza su epígrafe principal.
