@@ -249,3 +249,20 @@ ACTO ADMINISTRATIVO
 ```
 
 > ⚠️ **¡Foco Examen!:** nulidad y anulabilidad no se confunden con ineficacia. Un acto puede ser válido pero todavía ineficaz por falta de notificación, publicación o aprobación superior.
+
+
+## 12. Control de notificaciones e invalidez — **29/10/2026**
+
+| Supuesto | Regla | Precepto |
+|---|---|---|
+| Notificación del acto | Debe cursarse dentro de **10 días** desde la fecha del acto | **Ley 39/2015, 40.2** |
+| Notificación electrónica obligatoria sin acceso | Se entiende rechazada tras **10 días naturales** desde puesta a disposición | **43.2** |
+| Notificación infructuosa | Anuncio en el **BOE**; otros medios son complementarios | **44** |
+| Procedimientos selectivos | Publicación en el medio indicado en la **convocatoria** | **45.1.b** |
+| Acto de contenido imposible | **Nulidad de pleno derecho** | **47.1.c** |
+| Desviación de poder | **Anulabilidad** | **48.1** |
+| Acto anulable con vicio subsanable | Posible **convalidación** | **52** |
+
+> ⚠️ **¡Foco Examen!:** Los **10 días** para cursar una notificación (art. **40.2**) no son los **10 días naturales** para el rechazo por falta de acceso a una notificación electrónica obligatoria (art. **43.2**).
+
+**Fuente primaria:** [Ley 39/2015, arts. 34–52, BOE consolidado (última actualización publicada **06/11/2024**)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco ampliado a **20 preguntas**. Pendiente auditoría integral y comprobación funcional del sitio antes de dar por definitivamente certificado el tema.
