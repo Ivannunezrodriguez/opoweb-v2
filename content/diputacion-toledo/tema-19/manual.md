@@ -217,3 +217,34 @@ RÉGIMEN DISCIPLINARIO
 └─ Procedimiento
    └─ Máximo 12 meses para graves y muy graves
 ```
+
+
+## 11. Tabla contrastada de prescripción, cancelación y procedimiento — **29/10/2026**
+
+| Concepto | Falta o sanción leve | Grave | Muy grave | Norma |
+|---|---|---|---|---|
+| **Prescripción de faltas** | **6 meses** | **2 años** | **3 años** | **Art. 141.1** |
+| **Prescripción de sanciones** | **1 año** | **2 años** | **3 años** | **Art. 141.3** |
+| **Cancelación de anotaciones** | **1 año** | **2 años** | **3 años** | **Art. 142.2** |
+
+La **prescripción de la falta** comienza desde su comisión o, si es continuada, desde su **cese**. Se interrumpe por la iniciación del procedimiento con conocimiento de la persona interesada y se reanuda si el expediente se paraliza **más de un mes** por causa no imputable a la persona presuntamente responsable (**art. 141.2**).
+
+La **prescripción de la sanción** comienza en la fecha de **firmeza en vía administrativa** de la resolución sancionadora. La ejecución iniciada con conocimiento de la persona interesada interrumpe la prescripción; se reanuda por paralización de **más de un mes** no imputable a la persona responsable (**art. 141.4**).
+
+La **cancelación** requiere el transcurso de los plazos desde el **cumplimiento de la sanción**, sin nueva sanción en ese periodo. En caso de **reiteración o reincidencia**, el plazo se **duplica**. La anotación por **separación del servicio no se cancela** (**art. 142.2–4**).
+
+### Reglas de procedimiento especialmente preguntables
+
+| Regla | Dato literal y excepción | Precepto |
+|---|---|---|
+| Instrucción y sanción | Las fases corresponden a **órganos distintos** | **Art. 143.4** |
+| Faltas leves | Procedimiento **sumario y simplificado**, con **audiencia** | **Art. 143.3** |
+| Faltas graves y muy graves | Duración máxima del expediente: **12 meses** | **Art. 143.6** |
+| Ejecutividad de la sanción | Resolución **firme en vía administrativa** | **Art. 143.5** |
+| Suspensión provisional cautelar | Máximo **6 meses**, salvo paralización imputable al interesado y especialidad de procedimiento judicial | **Art. 144.2** |
+
+> ⚠️ **¡Foco Examen!:** No memorices «faltas leves: **6 meses**» como si fuera aplicable a todo. La **falta leve prescribe a los 6 meses**, pero la **sanción por falta leve prescribe al año** y su **anotación se cancela ordinariamente al año desde su cumplimiento**.
+
+> ⚠️ **¡Foco Examen!:** La duración máxima de **12 meses** del procedimiento por faltas **graves o muy graves** no equivale al límite ordinario de **6 meses** de la **suspensión provisional cautelar**.
+
+**Fuente primaria verificada:** [Ley 4/2011, arts. 141 a 144, texto consolidado BOE (última actualización publicada **21/03/2024**)](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752). Banco ampliado a **20 preguntas**. Pendiente auditoría jurídica integral del manual y pruebas de navegación.
