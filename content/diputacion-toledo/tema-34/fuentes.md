@@ -41,3 +41,12 @@
 
 - Verificación técnica: **19 de julio de 2026**.
 - Estado editorial: `GENERACION_DESDE_CERO`.
+
+## Referencias específicas contrastadas — **29/10/2026**
+
+- [Microsoft Support: agregar o instalar una impresora en Windows](https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows): ruta de **Configuración**, detección y adición manual.
+- [Microsoft Support: establecer una impresora predeterminada](https://support.microsoft.com/es-es/windows/hardware/printer/set-a-default-printer-in-windows): diferencia entre selección **manual** y selección de la **última utilizada**.
+- [Microsoft Support: ver la cola de impresión](https://support.microsoft.com/es-es/windows/hardware/printer/view-a-printer-s-print-queue-in-windows): lista de trabajos pendientes de una impresora.
+- [Microsoft Support: instalar y usar un escáner](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows): detección de escáner USB, red y equipo multifunción.
+
+**Estado de control:** banco de **20 preguntas** y cuadro técnico incorporado al manual. Pendiente revisión integral, comprobación de enlaces y prueba funcional en OpoWeb.
