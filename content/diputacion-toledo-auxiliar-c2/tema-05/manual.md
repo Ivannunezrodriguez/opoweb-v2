@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 5
 
-**Estado editorial: MANUAL AMPLIADO — auditoría de reglamentación provincial aún pendiente.** Revisión de fuentes: **25/10/2026**.
+**Estado editorial: CONTENIDO COMPLETO — Reglamento provincial localizado y contrastado, 29/10/2026.** Revisión de fuentes: **25/10/2026**.
 
 ## 1. Epígrafe oficial literal
 
@@ -261,4 +261,42 @@ La Diputación indica en su portal de la legislatura **2023–2027** que su Plen
 
 **Fuentes:** [Diputación de Toledo, Pleno](https://www.diputoledo.es/global/27/263/734), [Junta de Gobierno](https://www.diputoledo.es/global/27/263/738), [Portal de Transparencia](https://www.diputoledo.es/global/71/1215/4536), [LRBRL](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), [LOREG](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672).
 
-**Control de fuentes todavía abierto:** falta contrastar el texto y vigencia del reglamento orgánico provincial aplicable a los órganos complementarios de Toledo; no se afirma por ello que el **tema 5 esté completamente auditado**.
+**Control específico resuelto:** el texto íntegro del **Reglamento de Organización Administrativa de la Diputación de Toledo** fue publicado en el **BOP n.º 31, 14/02/2024**, tras acuerdo de **Pleno de 21/12/2023**; se incorpora su estructura para completar el programa. Los cambios organizativos de cada legislatura se distinguen de las reglas del reglamento.
+
+
+## 12. Reglamento de Organización Administrativa de Diputación de Toledo (BOP **14/02/2024**)
+
+**Fuente primaria:** [BOP Toledo n.º 31, de **14 de febrero de 2024**, páginas 26–40](https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf), código de verificación **2024.00000777**. El texto íntegro del reglamento se publicó tras quedar definitivo el acuerdo del **Pleno de 21 de diciembre de 2023**, conforme al anuncio.
+
+### Presidencia, Vicepresidencias y delegaciones
+
+| Precepto | Función o regla |
+|---|---|
+| **Artículo 1** | **Presidente**: dirige Gobierno y Administración de la Diputación, ejerce jefatura superior del personal y ostenta representación |
+| **Artículo 2** | **Vicepresidentes**: nombrados y cesados libremente por **Presidente** entre miembros de la **Junta de Gobierno**; sustituyen por orden de nombramiento en ausencia, enfermedad o impedimento, y temporalmente en vacante |
+| **Artículo 3** | **Presidente** puede efectuar delegaciones genéricas en miembros de la **Junta de Gobierno** y delegaciones especiales para cometidos concretos en otros **diputados provinciales** |
+| **Artículo 4** | Servicios provinciales se estructuran en **áreas**, además de **Secretaría General**, **Intervención** y **Tesorería** |
+| **Artículo 5** | Cada **Área** se ordena por coordinación, servicios, secciones, negociados y oficinas en los términos reglamentarios |
+
+> ⚠️ **¡Foco Examen!:** La sustitución de la **Presidencia** corresponde a las **Vicepresidencias**, según el orden de nombramiento. No toda delegación especial exige pertenecer a la **Junta de Gobierno**.
+
+### Estructura administrativa y grupos exigibles
+
+Según el **artículo 6**, las **Direcciones de Área** las desempeñan funcionarios del **subgrupo A1** o personal de alta dirección; las **Adjuntías de Área**, **Coordinaciones de Servicio**, **Jefaturas de Servicio** y **Jefaturas de Sección** requieren, al menos, **subgrupo A2**; las **Jefaturas de Negociado**, como regla reglamentaria, al menos **subgrupo C1**.
+
+| Áreas y unidades del **artículo 7**, BOP **2024** | |
+|---|---|
+| Coordinación de Áreas | Unidad de coordinación |
+| Empleo, Tecnologías de la Información y Comunicación, Asuntos Generales y Asistencia a Municipios | Área |
+| Desarrollo Económico, Turismo y Medio Ambiente | Área |
+| Educación, Cultura, Deportes e Igualdad | Área |
+| Bienestar Social, Familia y Juventud | Área |
+| Cooperación e Infraestructuras | Área |
+| Economía, Hacienda y Presupuestos | Área |
+| Contratación y Patrimonio | Área |
+
+El **artículo 8** atribuye a **Secretaría General** funciones de fe pública: preparación de órdenes del día conforme a decisiones de Presidencia, notificación de convocatorias, custodia de documentación y actas, entre otras atribuciones.
+
+> ⚠️ **¡Foco Examen!:** No confundir **órganos de gobierno** de la **LRBRL** (**Pleno, Presidencia, Vicepresidencias y Junta de Gobierno**) con **áreas y servicios administrativos** del reglamento provincial. El **reglamento de 2024** debe distinguirse de organigramas coyunturales aprobados para una legislatura.
+
+**Trazabilidad:** [Reglamento 2024 en BOP](https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf) y [estructura pública de la legislatura 2023–2027](https://www.diputoledo.es/prensa/nAmpliada/4484). El segundo documento describe el organigrama político de la legislatura y no sustituye al primero.
