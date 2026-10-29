@@ -1,8 +1,8 @@
 {
   "tema": 16,
-  "estado": "BORRADOR_TEST_CON_REFERENCIAS",
-  "version": "2026-10-25",
-  "criterio": "Seis preguntas originales con cuatro opciones. Legislación BOE y documentación técnica de fabricante o documentación pública identificadas como fuentes. No son preguntas oficiales.",
+  "estado": "BANCO_COMPLETO_20_PREGUNTAS",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas y sus soluciones, contrastadas conceptualmente con documentación Microsoft de Explorador, impresoras y escáneres. Pendiente prueba funcional del navegador.",
   "preguntas": [
     {
       "id": "DT-C2-T16-001",
@@ -87,6 +87,202 @@
       "justificacion": "El escáner capta el contenido del documento físico y lo convierte en datos digitales. Imprimir a PDF no captura papel. Una digitalización ordinaria no constituye por sí sola copia auténtica administrativa.",
       "trampaExamen": "Digitalización es entrada de información; impresión produce salida. No confundir un escaneo con copia auténtica.",
       "referencia": "Microsoft, impresión y digitalización · https://support.microsoft.com/es-es/windows"
+    },
+    {
+      "id": "DT-C2-T16-007",
+      "enunciado": "¿Qué diferencia existe entre copiar y mover un archivo en Windows 11?",
+      "opciones": [
+        "Copiar elimina el original",
+        "Mover siempre crea dos ejemplares",
+        "Copiar conserva el original; mover cambia su ubicación",
+        "No hay diferencia"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Copiar crea una copia; mover traslada el elemento a otro destino.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-008",
+      "enunciado": "¿Qué representa una ruta UNC de Windows?",
+      "opciones": [
+        "Un recurso compartido de red como \\\\servidor\\carpeta",
+        "Una página de internet",
+        "Una extensión de documento",
+        "Un acceso a configuración de impresión"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las rutas UNC identifican recursos de red por nombre de servidor y recurso compartido.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-009",
+      "enunciado": "¿Qué es una unidad de red asignada como Z:?",
+      "opciones": [
+        "Un disco físico interno obligatorio",
+        "Un vínculo con letra a una ubicación compartida de red",
+        "Un pendrive siempre extraíble",
+        "Una impresora virtual"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La letra asignada facilita el acceso a un recurso compartido de red, sin convertirlo en disco local.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-010",
+      "enunciado": "¿Para qué sirve una vista Detalles en el Explorador de Windows 11?",
+      "opciones": [
+        "Para borrar todos los archivos",
+        "Para cifrar por defecto",
+        "Para ver información por columnas como nombre y fecha",
+        "Para crear una impresora"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La vista Detalles muestra atributos organizados en columnas; no altera los archivos.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-011",
+      "enunciado": "¿Qué efecto produce Mostrar elementos ocultos en el Explorador?",
+      "opciones": [
+        "Eliminar automáticamente archivos de sistema",
+        "Renombrar carpetas protegidas",
+        "Dar permisos de administrador",
+        "Hacer visibles elementos ocultos sin modificar su contenido"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La opción de elementos ocultos cambia la visualización, no el contenido ni los permisos.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-012",
+      "enunciado": "¿Qué herramienta conserva normalmente elementos eliminados para su posible restauración?",
+      "opciones": [
+        "Papelera de reciclaje",
+        "Administrador de dispositivos",
+        "Panel de impresión",
+        "Escáner de Windows"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La Papelera permite recuperar muchos elementos eliminados localmente, pero hay excepciones para unidades y procedimientos.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-013",
+      "enunciado": "¿Qué diferencia existe entre imprimir y escanear un documento?",
+      "opciones": [
+        "Ambos producen siempre papel",
+        "Imprimir genera una salida física; escanear digitaliza un original",
+        "Escanear obliga a eliminar el original",
+        "Imprimir siempre produce OCR"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Imprimir produce una salida; el escáner captura el original para generar un archivo.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-014",
+      "enunciado": "¿Dónde se suelen agregar impresoras y escáneres en Windows 11?",
+      "opciones": [
+        "Solo en BIOS",
+        "Solo en el navegador",
+        "Configuración > Bluetooth y dispositivos > Impresoras y escáneres",
+        "En la Papelera"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Microsoft indica la sección de Bluetooth y dispositivos, Impresoras y escáneres, para agregar dispositivos.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-015",
+      "enunciado": "¿Qué ocurre si Windows no detecta automáticamente una impresora?",
+      "opciones": [
+        "El ordenador debe formatearse",
+        "Hay que borrar las carpetas de usuario",
+        "No se puede utilizar nunca",
+        "Puede agregarse manualmente, siguiendo el asistente y controladores adecuados"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Microsoft contempla instalación manual cuando la búsqueda automática no encuentra una impresora.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-016",
+      "enunciado": "¿Qué es la cola de impresión?",
+      "opciones": [
+        "El conjunto de trabajos pendientes para una impresora",
+        "Un lector de documentos",
+        "Una carpeta obligatoriamente cifrada",
+        "Un escáner plano"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La cola permite gestionar trabajos de impresión pendientes.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-017",
+      "enunciado": "¿Qué significa impresión dúplex?",
+      "opciones": [
+        "Imprimir solo la portada",
+        "Imprimir por ambas caras de una hoja",
+        "Escanear dos documentos a la vez",
+        "Exportar automáticamente a PDF"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Dúplex de impresión se refiere a ambas caras; no implica que exista escaneo dúplex.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-018",
+      "enunciado": "¿Qué dispositivo permite digitalizar un lote de documentos sin colocar cada página manualmente sobre cristal?",
+      "opciones": [
+        "Un monitor",
+        "Una impresora exclusivamente térmica",
+        "Un alimentador automático de documentos ADF",
+        "Un ratón"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El alimentador automático permite introducir varias hojas de forma sucesiva si el escáner tiene esa función.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-019",
+      "enunciado": "¿Qué función permite obtener texto reconocible a partir de una imagen digitalizada?",
+      "opciones": [
+        "Cortar y pegar",
+        "Impresión dúplex",
+        "Asignar unidad de red",
+        "OCR"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "OCR reconoce caracteres; una imagen escaneada no se convierte necesariamente en texto buscable por guardarse como PDF.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-020",
+      "enunciado": "¿Qué consecuencia tiene copiar archivos a una unidad compartida de red sin permisos de escritura?",
+      "opciones": [
+        "La operación puede ser denegada por permisos",
+        "Windows garantiza siempre la copia",
+        "Se activa automáticamente OCR",
+        "La unidad de red se convierte en disco físico"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los derechos de escritura de red y sistema de archivos condicionan que pueda guardarse un archivo en el destino.",
+      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
     }
   ],
   "auditoria": {
