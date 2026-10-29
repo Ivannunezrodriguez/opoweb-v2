@@ -1,13 +1,18 @@
 {
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1",
   "tema": 1,
-  "version": "2026-07-19",
-  "estado": "GENERACION_DESDE_CERO",
+  "version": "2026-10-29",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T01-001",
       "pregunta": "¿Cuándo entró en vigor la Constitución española de 1978?",
-      "opciones": ["El 6 de diciembre de 1978", "El 27 de diciembre de 1978", "El 29 de diciembre de 1978", "El 31 de octubre de 1978"],
+      "opciones": [
+        "El 6 de diciembre de 1978",
+        "El 27 de diciembre de 1978",
+        "El 29 de diciembre de 1978",
+        "El 31 de octubre de 1978"
+      ],
       "correcta": 2,
       "justificacion": "La Constitución fue publicada en el BOE el 29 de diciembre de 1978 y su disposición final estableció la entrada en vigor el mismo día de su publicación.",
       "trampa": "No confundir el referéndum del 6 de diciembre con la entrada en vigor del 29 de diciembre.",
@@ -16,7 +21,12 @@
     {
       "id": "DIP-T01-002",
       "pregunta": "¿Cuál de los siguientes NO es un valor superior del ordenamiento jurídico enumerado en el artículo 1.1 de la Constitución?",
-      "opciones": ["Libertad", "Seguridad jurídica", "Justicia", "Pluralismo político"],
+      "opciones": [
+        "Libertad",
+        "Seguridad jurídica",
+        "Justicia",
+        "Pluralismo político"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 1.1 enumera libertad, justicia, igualdad y pluralismo político. La seguridad jurídica aparece entre las garantías del artículo 9.3.",
       "trampa": "La seguridad jurídica es constitucional, pero no pertenece a la lista cerrada de valores superiores del artículo 1.1.",
@@ -25,7 +35,12 @@
     {
       "id": "DIP-T01-003",
       "pregunta": "¿Dónde reside la soberanía nacional según la Constitución?",
-      "opciones": ["En las Cortes Generales", "En el Rey", "En el pueblo español", "En el conjunto de comunidades autónomas"],
+      "opciones": [
+        "En las Cortes Generales",
+        "En el Rey",
+        "En el pueblo español",
+        "En el conjunto de comunidades autónomas"
+      ],
       "correcta": 2,
       "justificacion": "El artículo 1.2 dispone que la soberanía nacional reside en el pueblo español, del que emanan los poderes del Estado.",
       "trampa": "Las Cortes representan al pueblo, pero no son las titulares de la soberanía nacional.",
@@ -34,7 +49,12 @@
     {
       "id": "DIP-T01-004",
       "pregunta": "¿Cuál es la forma política del Estado español?",
-      "opciones": ["Monarquía constitucional", "Monarquía parlamentaria", "República parlamentaria", "Estado autonómico"],
+      "opciones": [
+        "Monarquía constitucional",
+        "Monarquía parlamentaria",
+        "República parlamentaria",
+        "Estado autonómico"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 1.3 establece literalmente que la forma política del Estado español es la Monarquía parlamentaria.",
       "trampa": "La expresión literal es forma política, no forma de gobierno ni simplemente Monarquía constitucional.",
@@ -43,7 +63,12 @@
     {
       "id": "DIP-T01-005",
       "pregunta": "¿Cuántos artículos contiene la Constitución española?",
-      "opciones": ["168", "169", "170", "171"],
+      "opciones": [
+        "168",
+        "169",
+        "170",
+        "171"
+      ],
       "correcta": 1,
       "justificacion": "La Constitución contiene 169 artículos, distribuidos entre el Título Preliminar y los Títulos I a X.",
       "trampa": "El último artículo es el 169; el número de títulos numerados es diez, además del Título Preliminar.",
@@ -52,7 +77,12 @@
     {
       "id": "DIP-T01-006",
       "pregunta": "¿Cuál es el mandato de los magistrados del Tribunal Constitucional?",
-      "opciones": ["Tres años", "Seis años", "Nueve años", "Doce años"],
+      "opciones": [
+        "Tres años",
+        "Seis años",
+        "Nueve años",
+        "Doce años"
+      ],
       "correcta": 2,
       "justificacion": "Los magistrados del Tribunal Constitucional son designados por nueve años y el órgano se renueva por terceras partes cada tres años.",
       "trampa": "Los tres años corresponden a la renovación parcial y al mandato de la Presidencia, no al mandato de cada magistrado.",
@@ -61,7 +91,12 @@
     {
       "id": "DIP-T01-007",
       "pregunta": "¿Cuántos miembros del Tribunal Constitucional propone el Congreso de los Diputados?",
-      "opciones": ["Dos", "Tres", "Cuatro", "Seis"],
+      "opciones": [
+        "Dos",
+        "Tres",
+        "Cuatro",
+        "Seis"
+      ],
       "correcta": 2,
       "justificacion": "El Congreso propone cuatro magistrados por mayoría de tres quintos de sus miembros. El Senado propone otros cuatro con la misma mayoría.",
       "trampa": "Gobierno y Consejo General del Poder Judicial proponen dos cada uno; Congreso y Senado, cuatro cada uno.",
@@ -70,7 +105,12 @@
     {
       "id": "DIP-T01-008",
       "pregunta": "¿Quiénes están legitimados parlamentariamente para interponer recurso de inconstitucionalidad?",
-      "opciones": ["25 diputados o 25 senadores", "50 diputados o 50 senadores", "Una décima parte de cada Cámara", "Cualquier grupo parlamentario"],
+      "opciones": [
+        "25 diputados o 25 senadores",
+        "50 diputados o 50 senadores",
+        "Una décima parte de cada Cámara",
+        "Cualquier grupo parlamentario"
+      ],
       "correcta": 1,
       "justificacion": "La Constitución legitima a cincuenta diputados y a cincuenta senadores para interponer recurso de inconstitucionalidad.",
       "trampa": "La décima parte de una Cámara se relaciona con la petición de referéndum en la reforma ordinaria, no con este recurso.",
@@ -79,7 +119,12 @@
     {
       "id": "DIP-T01-009",
       "pregunta": "En el procedimiento ordinario de reforma constitucional, ¿qué mayoría se exige con carácter general en cada Cámara?",
-      "opciones": ["Mayoría absoluta", "Tres quintos", "Dos tercios", "Mayoría simple"],
+      "opciones": [
+        "Mayoría absoluta",
+        "Tres quintos",
+        "Dos tercios",
+        "Mayoría simple"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 167 exige como regla general la aprobación por mayoría de tres quintos de cada Cámara.",
       "trampa": "Los dos tercios son característicos del procedimiento agravado del artículo 168 y de una alternativa final en el Congreso bajo condiciones específicas.",
@@ -88,7 +133,12 @@
     {
       "id": "DIP-T01-010",
       "pregunta": "¿En qué plazo puede solicitar una décima parte de cualquiera de las Cámaras el referéndum sobre una reforma aprobada por el artículo 167?",
-      "opciones": ["Diez días", "Quince días", "Veinte días", "Un mes"],
+      "opciones": [
+        "Diez días",
+        "Quince días",
+        "Veinte días",
+        "Un mes"
+      ],
       "correcta": 1,
       "justificacion": "La solicitud debe formularse dentro de los quince días siguientes a la aprobación de la reforma.",
       "trampa": "El referéndum del artículo 167 es facultativo y el plazo exacto es de quince días.",
@@ -97,7 +147,12 @@
     {
       "id": "DIP-T01-011",
       "pregunta": "¿Cuál de estas materias activa el procedimiento agravado del artículo 168?",
-      "opciones": ["Cualquier modificación del Título I", "Una reforma de la Sección 1.ª del Capítulo II del Título I", "Toda modificación tributaria", "La reforma de cualquier ley orgánica"],
+      "opciones": [
+        "Cualquier modificación del Título I",
+        "Una reforma de la Sección 1.ª del Capítulo II del Título I",
+        "Toda modificación tributaria",
+        "La reforma de cualquier ley orgánica"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 168 protege la revisión total, el Título Preliminar, la Sección 1.ª del Capítulo II del Título I y el Título II.",
       "trampa": "No todo el Título I queda sometido al procedimiento agravado, sino la sección específicamente indicada.",
@@ -106,11 +161,128 @@
     {
       "id": "DIP-T01-012",
       "pregunta": "¿Cuántas reformas ha experimentado la Constitución española hasta julio de 2026?",
-      "opciones": ["Una", "Dos", "Tres", "Cuatro"],
+      "opciones": [
+        "Una",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
       "correcta": 2,
       "justificacion": "Hasta julio de 2026 se han reformado el artículo 13.2 en 1992, el artículo 135 en 2011 y el artículo 49 en 2024.",
       "trampa": "La reforma del artículo 49 en 2024 elevó el total histórico de reformas constitucionales a tres.",
       "referencia": "content/diputacion-toledo/tema-01/manual.md#65-reformas-efectuadas"
+    },
+    {
+      "id": "DIP-T01-013",
+      "pregunta": "¿Qué institución es intérprete supremo de la Constitución?",
+      "opciones": [
+        "El Consejo de Estado",
+        "El Tribunal Constitucional",
+        "La Audiencia Nacional",
+        "El Defensor del Pueblo"
+      ],
+      "correcta": 1,
+      "justificacion": "El Tribunal Constitucional es el intérprete supremo de la Constitución, independiente de los demás órganos constitucionales.",
+      "trampa": "Atender al órgano, plazo o mayoría exactos establecidos por la norma y no extrapolar a procedimientos distintos.",
+      "referencia": "LO 2/1979 art. 1.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709"
+    },
+    {
+      "id": "DIP-T01-014",
+      "pregunta": "¿Cuántos magistrados integran el Tribunal Constitucional?",
+      "opciones": [
+        "Diez",
+        "Ocho",
+        "Doce",
+        "Quince"
+      ],
+      "correcta": 2,
+      "justificacion": "El Tribunal Constitucional se compone de **12 miembros** nombrados por el Rey a propuesta de los órganos previstos constitucionalmente.",
+      "trampa": "Atender al órgano, plazo o mayoría exactos establecidos por la norma y no extrapolar a procedimientos distintos.",
+      "referencia": "CE art. 159.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T01-015",
+      "pregunta": "¿Qué mayoría exige la Constitución a Congreso y Senado para proponer sus miembros del Tribunal Constitucional?",
+      "opciones": [
+        "Mayoría simple",
+        "Mayoría absoluta",
+        "Dos tercios",
+        "Tres quintos de sus miembros"
+      ],
+      "correcta": 3,
+      "justificacion": "El **Congreso** propone **4** y el **Senado** propone **4**, ambos por **mayoría de 3/5** de sus miembros.",
+      "trampa": "Atender al órgano, plazo o mayoría exactos establecidos por la norma y no extrapolar a procedimientos distintos.",
+      "referencia": "CE art. 159.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T01-016",
+      "pregunta": "¿Qué duración tiene el mandato del Presidente del Tribunal Constitucional?",
+      "opciones": [
+        "Tres años, con posibilidad de una reelección",
+        "Nueve años sin reelección",
+        "Cinco años",
+        "Un año"
+      ],
+      "correcta": 0,
+      "justificacion": "El Presidente del Tribunal Constitucional es elegido por el Pleno por **3 años**, con posibilidad de una sola reelección.",
+      "trampa": "Atender al órgano, plazo o mayoría exactos establecidos por la norma y no extrapolar a procedimientos distintos.",
+      "referencia": "LO 2/1979 art. 9.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709"
+    },
+    {
+      "id": "DIP-T01-017",
+      "pregunta": "¿Qué tribunal plantea una cuestión de inconstitucionalidad?",
+      "opciones": [
+        "Cualquier ayuntamiento",
+        "Un órgano judicial cuando una norma con rango de ley aplicable al caso y decisiva del fallo pueda ser contraria a la Constitución",
+        "Un órgano administrativo sin procedimiento judicial",
+        "El Defensor del Pueblo exclusivamente"
+      ],
+      "correcta": 1,
+      "justificacion": "La cuestión de inconstitucionalidad la plantea el **órgano judicial** cuando una norma con rango de ley aplicable y determinante del fallo pueda ser contraria a la Constitución.",
+      "trampa": "Atender al órgano, plazo o mayoría exactos establecidos por la norma y no extrapolar a procedimientos distintos.",
+      "referencia": "CE art. 163 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T01-018",
+      "pregunta": "¿Qué mayoría se exige en la fase inicial del procedimiento agravado de reforma constitucional?",
+      "opciones": [
+        "Mayoría simple del Congreso",
+        "Tres quintos solo del Senado",
+        "Dos tercios de cada Cámara",
+        "Unanimidad"
+      ],
+      "correcta": 2,
+      "justificacion": "Se requiere aprobación inicial por **2/3 de cada Cámara**, seguida de disolución inmediata de las Cortes.",
+      "trampa": "Atender al órgano, plazo o mayoría exactos establecidos por la norma y no extrapolar a procedimientos distintos.",
+      "referencia": "CE art. 168.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T01-019",
+      "pregunta": "¿Qué ocurre tras aprobarse una reforma constitucional por el procedimiento agravado?",
+      "opciones": [
+        "No puede votarse en referéndum",
+        "Solo procede publicación en el BOE",
+        "Se somete a votación de cabildos",
+        "Es obligatorio el referéndum para su ratificación"
+      ],
+      "correcta": 3,
+      "justificacion": "El artículo 168.3 establece **referéndum obligatorio** tras aprobarse la reforma por las Cortes Generales.",
+      "trampa": "Atender al órgano, plazo o mayoría exactos establecidos por la norma y no extrapolar a procedimientos distintos.",
+      "referencia": "CE art. 168.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T01-020",
+      "pregunta": "¿Cuándo puede iniciarse una reforma constitucional según el artículo 169?",
+      "opciones": [
+        "No en tiempo de guerra o durante la vigencia de los estados del artículo 116",
+        "Siempre, incluso en estado de sitio",
+        "Solo durante elecciones",
+        "Exclusivamente cada nueve años"
+      ],
+      "correcta": 0,
+      "justificacion": "No podrá iniciarse reforma constitucional **en tiempo de guerra** ni durante la vigencia de los estados previstos en el **artículo 116 CE**.",
+      "trampa": "Atender al órgano, plazo o mayoría exactos establecidos por la norma y no extrapolar a procedimientos distintos.",
+      "referencia": "CE art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     }
   ]
 }
