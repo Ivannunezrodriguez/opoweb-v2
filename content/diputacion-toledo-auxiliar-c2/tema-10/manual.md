@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 10
 
-**Estado editorial: BORRADOR ADAPTADO.** Texto base del manual de La Puebla revisado en julio de 2026. La auditoría artículo por artículo está pendiente.
+**Estado editorial: CONTENIDO COMPLETO Y REVISADO (29/10/2026).** Adaptado al programa de Diputación C2 y al texto consolidado publicado el **27/12/2025**.
 
 ## Epígrafe oficial literal
 
@@ -357,7 +357,7 @@ La evaluación de impacto es obligatoria cuando el tratamiento puede generar alt
 - Texto consolidado: última actualización publicada el 27 de diciembre de 2025.
 - Reglamento (UE) 2016/679, de 27 de abril de 2016.
 
-## 27. Estado real
+## 27. Control editorial y cierre del contenido
 
 - Epígrafe literal: comprobado.
 - Artículos 1–97 y 53 bis: cubiertos por bloques y trazabilidad.
@@ -369,3 +369,38 @@ La evaluación de impacto es obligatoria cuando el tratamiento puede generar alt
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 9 aprobado»** el 17 de julio de 2026.
+
+
+## ANEXO FINAL · Plazos, responsables y casos que confunde el tribunal
+
+| Materia | Regla | Referencia |
+|---|---|---|
+| Consentimiento de menores | Umbral general de **14 años**, con salvedades legales | **LO 3/2018, art. 7** |
+| Comunicación de brechas a autoridad de control | Como regla, dentro de **72 horas** desde conocimiento, salvo improbabilidad de riesgo para derechos y libertades | **RGPD, art. 33.1** |
+| Respuesta a ejercicio de derechos | **Un mes** desde recepción; ampliación de **dos meses** en supuestos complejos o numerosas solicitudes con información al interesado | **RGPD, art. 12.3** |
+| Conservación de videovigilancia | Supresión en **plazo máximo de un mes**, salvo excepciones; para acreditar actos contra personas, bienes o instalaciones, a disposición de autoridad competente en **72 horas** desde conocimiento de su existencia | **LO 3/2018, art. 22.3** |
+| Autoridad estatal | **Agencia Española de Protección de Datos (AEPD)** | **LO 3/2018, art. 44** |
+| Protección de datos en ámbito público | Régimen especial de **apercibimiento y medidas correctoras** para entidades del art. 77 | **LO 3/2018, art. 77** |
+
+> ⚠️ **¡Foco Examen!:** **72 horas** en notificación de brechas del RGPD no es el **mes** máximo ordinario de conservación de imágenes. El plazo para responder a derechos es **un mes**, ampliable en casos legales.
+
+### Derechos fundamentales y obligaciones de la Administración
+
+- **Información (art. 11 LOPDGDD):** es posible la información por **capas**, no omitir el resto.
+- **Acceso (art. 13):** conocer tratamiento y acceder a los datos en las condiciones del RGPD.
+- **Rectificación (art. 14):** corregir datos inexactos.
+- **Supresión (art. 15):** eliminar cuando concurre causa legal, con excepciones.
+- **Limitación (art. 16):** restringir determinados tratamientos sin equivaler necesariamente a borrar.
+- **Portabilidad (art. 17):** solo en condiciones del **RGPD art. 20**; no procede por el mero hecho de que el responsable sea una Administración.
+- **Oposición (art. 18):** puede ejercerse en los supuestos previstos por **RGPD art. 21**.
+
+| Figura | Pregunta de test | Respuesta |
+|---|---|---|
+| **Responsable** | ¿Quién determina fines y medios del tratamiento? | Quien decide esos fines y medios, en los términos del RGPD |
+| **Encargado** | ¿Quién trata datos por cuenta del responsable? | El encargado, siguiendo instrucciones documentadas aplicables |
+| **DPD** | ¿Quién informa, asesora, supervisa y coopera con autoridad? | El delegado de protección de datos |
+| **AEPD** | ¿Quién es autoridad independiente estatal? | **Agencia Española de Protección de Datos** |
+
+> ⚠️ **¡Foco Examen!:** **DPD** no es sinónimo de **responsable** ni de **encargado** del tratamiento. El **consentimiento** no es obligatorio en todos los tratamientos administrativos: caben otras bases jurídicas legales.
+
+**Fuentes:** [LO 3/2018 consolidada a **27/12/2025**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673); [RGPD, Reglamento (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa). **20 preguntas de examen** con fundamentos normativos en `preguntas.json`.
