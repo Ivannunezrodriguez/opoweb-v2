@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 20
 
-**BORRADOR ADAPTADO — AUDITORÍA TÉCNICA PENDIENTE.** Base de La Puebla revisada en julio de 2026.
+**Estado editorial: MANUAL TÉCNICO COMPLETO Y REVISADO (29/10/2026).** Adaptado al epígrafe oficial de Diputación C2. La documentación institucional de fabricantes se cita en el cierre.
 
 ## Epígrafe oficial literal
 
@@ -23,9 +23,9 @@
 
 ---
 
-## 1. ordenador componentes
+## BLOQUE I · ORDENADOR PERSONAL Y COMPONENTES
 
-**Estado:** APROBADO POR EL USUARIO
+**Origen editorial:** desarrollado previamente para La Puebla; verificación específica realizada para Diputación C2.
 
 ## 1. Ordenador personal
 
@@ -209,9 +209,9 @@ UEFI es la plataforma de firmware habitual en equipos actuales y sustituye funci
 
 ---
 
-## 2. perifericos impresoras
+## BLOQUE II · PERIFÉRICOS E IMPRESORAS
 
-**Estado:** APROBADO POR EL USUARIO
+**Origen editorial:** desarrollado previamente para La Puebla; verificación específica realizada para Diputación C2.
 
 ## 1. Concepto de periférico
 
@@ -412,9 +412,9 @@ En entornos administrativos:
 
 ---
 
-## 3. escaneres
+## BLOQUE III · ESCÁNERES
 
-**Estado:** APROBADO POR EL USUARIO
+**Origen editorial:** desarrollado previamente para La Puebla; verificación específica realizada para Diputación C2.
 
 ## 1. Función del escáner
 
@@ -612,9 +612,9 @@ Una mejora excesiva puede borrar información, sellos tenues o anotaciones. El o
 
 ---
 
-## 4. almacenamiento externo usb
+## BLOQUE IV · DISCOS EXTERNOS Y MEMORIAS USB
 
-**Estado:** APROBADO POR EL USUARIO
+**Origen editorial:** desarrollado previamente para La Puebla; verificación específica realizada para Diputación C2.
 
 ## 1. Almacenamiento externo
 
@@ -813,9 +813,9 @@ Medidas:
 
 ---
 
-## 5. opticos
+## BLOQUE V · LECTORES Y GRABADORES CD/DVD
 
-**Estado:** APROBADO POR EL USUARIO
+**Origen editorial:** desarrollado previamente para La Puebla; verificación específica realizada para Diputación C2.
 
 ## 1. Vigencia del contenido
 
@@ -971,3 +971,67 @@ No todos los discos pueden copiarse libremente. Deben respetarse:
 6. Confundir grabar con extraer.
 7. Creer que finalizar y expulsar son la misma operación.
 8. Considerar el soporte óptico como copia permanente e infalible.
+
+
+---
+
+## ANEXO FINAL · COMPARATIVAS Y ERRORES DE TEST (29/10/2026)
+
+### Memoria, interfaz y unidad física
+
+| Elemento | Naturaleza | Dato decisivo |
+|---|---|---|
+| **CPU** | Procesador | Ejecuta instrucciones; no equivale a una unidad de almacenamiento |
+| **RAM** | Memoria de trabajo **volátil** | Se pierde normalmente al retirar la alimentación |
+| **HDD** | Almacenamiento magnético **no volátil** | Platos giratorios y cabezales |
+| **SSD** | Almacenamiento sólido **no volátil** | Sin partes mecánicas equivalentes al HDD |
+| **SATA** | Interfaz de almacenamiento | Puede utilizarse con HDD y SSD |
+| **NVMe** | Protocolo para almacenamiento no volátil | Habitualmente sobre PCIe, no sinónimo de M.2 |
+| **M.2** | Factor de forma/conector | Puede alojar dispositivos de diferentes protocolos |
+| **USB-C** | Tipo de conector | **No garantiza** USB4, transferencia de vídeo ni carga USB PD |
+
+> ⚠️ **¡Foco Examen!:** No confundir **formato físico M.2** con **protocolo NVMe** ni **conector USB-C** con una velocidad concreta. La especificación del dispositivo es la que determina las funciones.
+
+### Sistemas de archivos y almacenamiento extraíble
+
+| Sistema | Uso frecuente | Diferencia comprobable |
+|---|---|---|
+| **FAT32** | Dispositivos antiguos/compatibilidad | Límite de tamaño **inferior a 4 GiB por archivo** (máximo exacto **2³²−1 bytes**) |
+| **exFAT** | Almacenamiento extraíble actual | Admite archivos mayores de **4 GiB** y carece de las funciones NTFS de diario de metadatos |
+| **NTFS** | Volúmenes Windows | Permisos y funciones de sistema de archivos más avanzadas que FAT32/exFAT |
+
+La capacidad total de una memoria USB puede superar el tamaño máximo **de cada archivo** admitido por FAT32; se trata de límites distintos. **Formatear** no es lo mismo que **crear una partición**: ambas operaciones son diferentes y un formateo ordinario puede eliminar el acceso a los datos existentes.
+
+> ⚠️ **¡Foco Examen!:** Una memoria USB de **64 GB** formateada en **FAT32** puede tener espacio suficiente y, aun así, no admitir **un único archivo de 5 GB**. La causa es el límite **por archivo**, no la capacidad total.
+
+### Impresión y digitalización
+
+| Operación | Función | Confusión habitual |
+|---|---|---|
+| **Impresión dúplex** | Imprimir por ambas caras | No implica escanear a doble cara |
+| **ADF** | Alimentación automática de hojas al escanear | No garantiza **dúplex de escaneo** |
+| **OCR** | Reconocimiento de caracteres en una imagen | Escanear a PDF **no** produce texto buscable automáticamente |
+| **DPI de escaneo** | Densidad de puntos de captura | La **resolución interpolada** no equivale al detalle **óptico** real |
+| **Cola de impresión** | Gestiona trabajos pendientes | **Impresora predeterminada** y **dispositivo conectado** son propiedades diferentes |
+
+> ⚠️ **¡Foco Examen!:** **ADF** introduce hojas; **OCR** reconoce texto; **dúplex** indica dos caras. Son funciones diferentes que pueden coexistir o no en el mismo equipo.
+
+### Unidades ópticas
+
+| Soporte | Lectura | Primera grabación | Regrabación |
+|---|---|---|---|
+| **CD-ROM / DVD-ROM** | Sí | No | No |
+| **CD-R / DVD-R** | Sí | Sí, con grabadora | No como soporte borrable |
+| **CD-RW / DVD-RW** | Sí | Sí, con grabadora | Sí, con equipo compatible |
+
+> ⚠️ **¡Foco Examen!:** El sufijo **R** indica soporte **grabable**; **RW**, **regrabable**; **ROM**, **solo lectura**. Una unidad **lectora** no graba por tener un disco vacío insertado.
+
+## Fuentes técnicas principales y trazabilidad
+
+- **USB Implementers Forum:** [guía de lenguaje de productos USB-C, 2023](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf). Confirma que **USB Type-C**, **USB 3.2/USB4** y **USB Power Delivery** no son denominaciones intercambiables.
+- **Microsoft Learn:** [comparativa NTFS, exFAT, UDF y FAT32](https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison). Límites por archivo y capacidades diferenciales.
+- **Microsoft Support:** [ayuda de impresoras y escáneres Windows](https://support.microsoft.com/es-es/windows), documentación de funciones y administración.
+- **Intel:** [qué es una CPU](https://www.intel.com/content/www/es/es/products/docs/processors/what-is-a-cpu.html).
+- **IBM:** [memoria RAM](https://www.ibm.com/think/topics/ram) y [SSD](https://www.ibm.com/think/topics/solid-state-drives).
+
+**Control de alcance:** esta bibliografía respalda los conceptos técnicos y las comparativas generales; las prestaciones particulares dependen del fabricante y modelo, por lo que no se han formulado como universales.
