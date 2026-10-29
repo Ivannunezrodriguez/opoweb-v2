@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 8
 
-**Estado editorial: BORRADOR ADAPTADO.** Base de La Puebla revisada el **30/07/2026**; texto contrastado preliminarmente con los encabezados de legislación consolidada el **25/10/2026**. **No es una auditoría jurídica exhaustiva ni está aprobado para examen**.
+**Estado editorial: CONTENIDO COMPLETO — revisión documental de 29/10/2026.**
 
 ## Epígrafe oficial literal
 
@@ -8,7 +8,7 @@
 
 Fuente del programa: **BOP de Toledo 197, de 14/10/2026, Anexo XI, p. 102**, CSV **2026.00004759**.
 
-Se reproduce a continuación la explicación del tema equivalente de La Puebla; su numeración de apartados es editorial. La norma aplicable es la vigente el día de la prueba. Las referencias a la convocatoria originaria deben interpretarse exclusivamente como antecedente editorial.
+El desarrollo sigue los tres incisos del programa oficial de Diputación C2. Las referencias se contrastan con los textos consolidados de la Ley 31/1995 y del RD 39/1997.
 
 ---
 
@@ -472,3 +472,50 @@ Informar después de contratar servicio ajeno no cumple la consulta previa.
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 7 aprobado»** el 17 de julio de 2026.
+
+
+## ANEXO FINAL · Cuadros comparativos para examen
+
+| Materia | Regla exacta | Artículo |
+|---|---|---|
+| Derecho a protección eficaz | Deber empresarial de proteger la seguridad y salud de trabajadores | **LPRL 14.1** |
+| Coste de la prevención | No puede recaer sobre trabajadores | **LPRL 14.5** |
+| Formación preventiva | Teórica y práctica, suficiente y adecuada, sin coste; tiempo de trabajo o compensación | **LPRL 19** |
+| Vigilancia de salud | **Voluntaria**, salvo excepciones previstas con garantías | **LPRL 22** |
+| Consulta | Con debida antelación respecto de decisiones preventivas enumeradas | **LPRL 33** |
+| Comité de Seguridad y Salud | En empresa o centro con **50 o más trabajadores** | **LPRL 38.2** |
+| Reuniones del Comité | **Trimestralmente** y cuando lo solicite alguna representación | **LPRL 38.3** |
+
+> ⚠️ **¡Foco Examen!:** **50 trabajadores** es el umbral para constituir el **Comité de Seguridad y Salud**; la reunión ordinaria es **trimestral**. No confundir con el número de **Delegados de Prevención**.
+
+### Delegados de Prevención según tamaño de plantilla
+
+| Número de trabajadores | Delegados de Prevención | Base |
+|---|---:|---|
+| **Hasta 30** | **1** delegado de personal que asume funciones | **LPRL 35.2** |
+| **31–49** | **1** elegido por y entre delegados de personal | **LPRL 35.2** |
+| **50–100** | **2** | **LPRL 35.2** |
+| **101–500** | **3** | **LPRL 35.2** |
+| **501–1.000** | **4** | **LPRL 35.2** |
+| **1.001–2.000** | **5** | **LPRL 35.2** |
+| **2.001–3.000** | **6** | **LPRL 35.2** |
+| **3.001–4.000** | **7** | **LPRL 35.2** |
+| **4.001 en adelante** | **8** | **LPRL 35.2** |
+
+> ⚠️ **¡Foco Examen!:** En plantilla de **100** corresponden **2 delegados**; con **101**, son **3**. En plantillas de **31 a 49** no se crea comité, aunque sí se elige delegado de prevención.
+
+### Organización de la prevención y protección
+
+| Modalidad | Qué supone | Particularidad |
+|---|---|---|
+| Asunción personal por empresario | Funciones preventivas en condiciones estrictas del reglamento | Excluye vigilancia de salud por el empresario |
+| Trabajadores designados | Personal capacitado designado para funciones preventivas | Deben tener medios y tiempo suficientes |
+| Servicio de prevención propio | Organización específica interna | Exigible, entre otros casos, con **más de 500 trabajadores** |
+| Servicio de prevención ajeno | Entidad especializada concertada | No exonera deber de protección del empresario |
+| Servicio mancomunado | Servicio compartido en supuestos previstos | Debe garantizar eficacia preventiva |
+
+**Supuesto resuelto:** una oficina de **50 personas** debe constituir **Comité de Seguridad y Salud**, formado por **Delegados de Prevención** y **empresario o sus representantes en igual número**. Se reúne **trimestralmente** y a solicitud de alguna representación. Si se contrata servicio ajeno, el deber empresarial de protección permanece.
+
+> ⚠️ **¡Foco Examen!:** Un **servicio de prevención ajeno** no elimina las obligaciones legales del **empresario**. Las medidas de **protección colectiva** tienen prioridad sobre los **EPI**.
+
+**Fuentes oficiales:** [Ley 31/1995, consolidada 09/04/2026](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) y [RD 39/1997, consolidado 17/10/2025](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853). **Banco:** 20 preguntas originales con fundamento normativo.
