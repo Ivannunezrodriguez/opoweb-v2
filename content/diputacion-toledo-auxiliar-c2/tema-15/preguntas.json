@@ -1,8 +1,8 @@
 {
   "tema": 15,
-  "estado": "BORRADOR_TEST_CON_REFERENCIAS",
-  "version": "2026-10-25",
-  "criterio": "Seis preguntas originales con cuatro opciones. Legislación BOE y documentación técnica de fabricante o documentación pública identificadas como fuentes. No son preguntas oficiales.",
+  "estado": "BANCO_20_PREGUNTAS_PENDIENTE_REVISION_FINAL",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas con soluciones y referencias artículo a artículo de Ley 40/2015; ampliación documental. Aún sin verificación funcional en OpoWeb.",
   "preguntas": [
     {
       "id": "DT-C2-T15-001",
@@ -87,6 +87,202 @@
       "justificacion": "El superior resolverá en tres días, previos los informes y comprobaciones oportunos. El recusado manifiesta al día siguiente si concurre la causa (artículo 24.3).",
       "trampaExamen": "El recusado manifiesta su posición al día siguiente; el superior dispone de tres días para resolver cuando la causa se niega.",
       "referencia": "Ley 40/2015, arts. 24.3–24.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DT-C2-T15-007",
+      "enunciado": "¿Qué regla se aplica a la delegación de firma?",
+      "opciones": [
+        "Siempre transfiere titularidad",
+        "No altera competencia del órgano delegante",
+        "Requiere publicación obligatoria en BOE en todos los casos",
+        "Sólo procede entre administraciones distintas"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El art. 12 permite la delegación de firma dentro de los límites legales; no altera la competencia y no requiere publicación para su validez.",
+      "trampaExamen": "La **delegación de firma** no equivale a delegar competencias.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 12"
+    },
+    {
+      "id": "DT-C2-T15-008",
+      "enunciado": "¿Qué ocurre con la suplencia del titular de un órgano?",
+      "opciones": [
+        "Altera titularidad",
+        "Siempre requiere convenio",
+        "No altera competencia y no exige publicación para su validez",
+        "Elimina el órgano"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La suplencia del art. 13 no altera competencia ni requiere publicación para su validez.",
+      "trampaExamen": "No confundir **suplencia** y **delegación de competencias**.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 13"
+    },
+    {
+      "id": "DT-C2-T15-009",
+      "enunciado": "Según el art. 9, ¿puede delegarse la adopción de disposiciones de carácter general?",
+      "opciones": [
+        "Sí sin límites",
+        "Sí por correo",
+        "Sí con acuerdo del Secretario",
+        "No, es una materia excluida"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El art. 9.2.b excluye de la delegación la adopción de disposiciones de carácter general.",
+      "trampaExamen": "La delegación no incluye potestad reglamentaria general.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 9.2.b"
+    },
+    {
+      "id": "DT-C2-T15-010",
+      "enunciado": "¿Qué distingue la encomienda de gestión de la delegación?",
+      "opciones": [
+        "Se limita a actividades materiales o técnicas y no cede titularidad",
+        "Transfiere titularidad definitivamente",
+        "Siempre habilita decisiones jurídicas del encomendado",
+        "Es una recusación"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 11: la encomienda recae sobre actividades materiales o técnicas y no supone cesión de titularidad ni de elementos sustantivos de ejercicio.",
+      "trampaExamen": "No pueden encomendarse decisiones jurídicas propias del órgano competente.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 11"
+    },
+    {
+      "id": "DT-C2-T15-011",
+      "enunciado": "Para constitución válida de un órgano colegiado, según art. 17.2, ¿qué presencia es necesaria con carácter general?",
+      "opciones": [
+        "Sólo dos vocales",
+        "Presidente y Secretario o suplentes, y al menos la mitad de sus miembros",
+        "Todos sus miembros sin excepción",
+        "Ningún secretario"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 17.2: Presidente y Secretario o sus suplentes, y al menos la mitad de los miembros, sin perjuicio del régimen especial.",
+      "trampaExamen": "La **mitad** es regla general de quórum, junto a Presidente y Secretario.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 17.2"
+    },
+    {
+      "id": "DT-C2-T15-012",
+      "enunciado": "¿Qué mayoría se exige con carácter general para adoptar acuerdos de órganos colegiados?",
+      "opciones": [
+        "Unanimidad",
+        "Dos tercios",
+        "Mayoría de votos",
+        "Tres quintos"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El art. 17.5 dispone que los acuerdos serán adoptados por **mayoría de votos**, salvo disposiciones específicas.",
+      "trampaExamen": "No trasladar mayorías parlamentarias a órganos colegiados.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 17.5"
+    },
+    {
+      "id": "DT-C2-T15-013",
+      "enunciado": "Según la Ley 40/2015, ¿qué persona puede promover recusación?",
+      "opciones": [
+        "Sólo el Ministro",
+        "Sólo el superior jerárquico",
+        "Sólo el órgano afectado",
+        "Los interesados en cualquier momento de la tramitación"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Art. 24.1: los interesados pueden promover recusación en cualquier momento de la tramitación.",
+      "trampaExamen": "La **recusación** la plantean interesados; la abstención es deber propio.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 24.1"
+    },
+    {
+      "id": "DT-C2-T15-014",
+      "enunciado": "¿Qué órgano dirige el sector de actividad administrativa integrado en un Ministerio?",
+      "opciones": [
+        "El Ministro",
+        "El Subdelegado del Gobierno",
+        "El Director Insular",
+        "El Secretario de ayuntamiento"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El art. 61 regula los Ministros como titulares del departamento y sus competencias.",
+      "trampaExamen": "No confundir **Ministro** con **Secretario de Estado**.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 61"
+    },
+    {
+      "id": "DT-C2-T15-015",
+      "enunciado": "¿Qué carácter tienen los Subsecretarios?",
+      "opciones": [
+        "Órgano superior como un Ministro",
+        "Órgano directivo",
+        "Órgano exclusivamente consultivo",
+        "Órgano electoral"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El art. 55 clasifica a Subsecretarios como órganos directivos, no superiores.",
+      "trampaExamen": "Subsecretario es órgano **directivo**.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 55"
+    },
+    {
+      "id": "DT-C2-T15-016",
+      "enunciado": "¿Qué órganos son superiores en la organización central de la AGE según la Ley 40/2015?",
+      "opciones": [
+        "Sólo Subdirectores Generales",
+        "Ministros y Secretarios de Estado",
+        "Subsecretarios y Secretarios Generales Técnicos",
+        "Delegados y Subdelegados"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 55.3: órganos superiores son Ministros y Secretarios de Estado.",
+      "trampaExamen": "El **Subsecretario** es directivo, no superior.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 55.3"
+    },
+    {
+      "id": "DT-C2-T15-017",
+      "enunciado": "¿Quién tiene rango de Subsecretario cuando existe en el Ministerio?",
+      "opciones": [
+        "Director Insular",
+        "Secretario General Técnico",
+        "Secretario General",
+        "Subdelegado"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 64.2: los Secretarios Generales tienen categoría de Subsecretario.",
+      "trampaExamen": "El **Secretario General** tiene categoría de Subsecretario, no de Secretario de Estado.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 64.2"
+    },
+    {
+      "id": "DT-C2-T15-018",
+      "enunciado": "¿Qué rango ostentan los Secretarios Generales Técnicos?",
+      "opciones": [
+        "Director General",
+        "Subdirector General",
+        "Subsecretario",
+        "Ministro"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El art. 65.2 atribuye a Secretarios Generales Técnicos categoría de Director General.",
+      "trampaExamen": "**SGT = rango Director General**.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 65.2"
+    },
+    {
+      "id": "DT-C2-T15-019",
+      "enunciado": "¿Quién nombra a los Delegados del Gobierno en las comunidades autónomas?",
+      "opciones": [
+        "Los ayuntamientos",
+        "El Rey por sorteo",
+        "El Tribunal Constitucional",
+        "El Consejo de Ministros mediante real decreto a propuesta del Presidente del Gobierno"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Art. 72.4: nombramiento y separación por real decreto del Consejo de Ministros a propuesta del Presidente del Gobierno.",
+      "trampaExamen": "El **Delegado del Gobierno** no lo nombra la comunidad autónoma.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 72.4"
+    },
+    {
+      "id": "DT-C2-T15-020",
+      "enunciado": "¿Cuál es la posición de los Subdelegados del Gobierno en las provincias?",
+      "opciones": [
+        "Órganos de la Administración General del Estado bajo la inmediata dependencia del Delegado del Gobierno",
+        "Órganos de los ayuntamientos",
+        "Órganos superiores equiparados a Ministros",
+        "Órganos de las diputaciones provinciales"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 74: Subdelegados en provincias bajo dependencia inmediata del Delegado del Gobierno.",
+      "trampaExamen": "**Subdelegado** depende del **Delegado**, no del presidente provincial.",
+      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 74"
     }
   ],
   "auditoria": {
