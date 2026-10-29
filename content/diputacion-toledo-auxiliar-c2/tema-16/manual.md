@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 16
 
-**ESTADO EDITORIAL: BORRADOR ADAPTADO, AUDITORÍA FINAL PENDIENTE.** Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
+**ESTADO EDITORIAL: CONTENIDO REVISADO Y COMPLETADO (29/10/2026).** Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
 
 ## 1. Epígrafe oficial literal
 
@@ -13,7 +13,7 @@
 - **Documentación oficial Microsoft de Windows 11; comprobar diferencias de Windows 11 Pro frente a explicaciones generales**.
 - Fuente primaria: https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows
 
-**Revisión editorial pendiente:** comprobar precisión de versiones, nomenclatura, órganos, plazos y excepciones y depurar cualquier referencia a la convocatoria anterior. Los apartados siguientes forman el cuerpo de estudio y proceden de los bloques desarrollados para La Puebla; **no están certificados para esta convocatoria**.
+**Control editorial:** se conserva el programa literal de Diputación C2 y se contrastan las operaciones de Windows 11 con documentación de Microsoft; se identifican excepciones de permisos, papelera y red.
 
 | Inciso del programa | Bloque incorporado |
 |---|---|
@@ -29,7 +29,7 @@
 
 ## 3. explorador rutas
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado al manual de Diputación C2 y revisado editorialmente el 29/10/2026.**
 
 ## 1. Explorador de archivos
 
@@ -210,7 +210,7 @@ Windows puede ocultar archivos por configuración o atributo. Mostrar elementos 
 
 ## 4. operaciones archivos
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado al manual de Diputación C2 y revisado editorialmente el 29/10/2026.**
 
 ## 1. Crear carpetas
 
@@ -422,7 +422,7 @@ Detener nuevas operaciones, revisar Papelera y restaurar. Si era red o eliminaci
 
 ## 5. unidades locales red
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado al manual de Diputación C2 y revisado editorialmente el 29/10/2026.**
 
 ## 1. Conceptos previos
 
@@ -665,7 +665,7 @@ No repetir sin comprobar origen y destino. Validar integridad y avisar al admini
 
 ## 6. impresion
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado al manual de Diputación C2 y revisado editorialmente el 29/10/2026.**
 
 ## 1. Conceptos
 
@@ -881,7 +881,7 @@ En documentación administrativa:
 
 ## 7. digitalizacion
 
-**Estado:** APROBADO POR EL USUARIO
+**Bloque incorporado al manual de Diputación C2 y revisado editorialmente el 29/10/2026.**
 
 ## 1. Concepto
 
@@ -1143,3 +1143,51 @@ Repetir solo tras identificar el alcance y revisar el orden final. No conservar 
 8. Dejar el archivo en una ubicación no autorizada.
 9. No comprobar el orden de un documento multipágina.
 10. Considerar que la copia digital tiene automáticamente el mismo valor que el original.
+
+
+## ANEXO · Casos resueltos y comparaciones definitivas
+
+### Archivos, carpetas y red
+
+| Operación | Efecto general | Matiz de examen |
+|---|---|---|
+| **Copiar + pegar** | Duplica en destino | Mantiene origen |
+| **Cortar + pegar** | Traslada al destino | Puede fallar si falta permiso o se interrumpe transferencia |
+| **Supr** | Envía habitualmente a **Papelera** | Depende de ubicación y configuración |
+| **Mayús+Supr** | Elimina sin pasar por **Papelera** | No prueba destrucción irreversible de copias |
+| **Cambiar nombre** | Modifica nombre del elemento | Alterar extensión puede afectar apertura |
+| **Acceso directo** | Enlace a un recurso | Borrarlo no equivale a borrar el archivo de destino |
+
+**Caso 1:** si una oficina copia `informe.odt` de Documentos al recurso compartido del servidor, el original permanece. Si lo corta y pega, intenta trasladarlo. Un error de permisos puede impedir completar el traslado.
+
+**Caso 2:** la letra **Z:** puede designar un recurso compartido mapeado. Un nombre UNC como `\\servidor\archivo` identifica el recurso por servidor y carpeta compartida, incluso sin letra asignada.
+
+> ⚠️ **¡Foco Examen!:** **Unidad de red Z:** no significa disco interno. **Supr** y **Mayús+Supr** no tienen necesariamente el mismo destino.
+
+### Impresión y escaneo en Windows 11
+
+Para instalar una impresora, utilizar **Inicio > Configuración > Bluetooth y dispositivos > Impresoras y escáneres**. Si la detección automática no la encuentra, existe opción de instalación manual y pueden requerirse controladores. Un equipo multifunción puede aparecer como impresora sin que Windows haya habilitado correctamente su función de escáner.
+
+| Concepto | Uso | No confundir con |
+|---|---|---|
+| **Impresora predeterminada** | Destino propuesto al imprimir | Única impresora disponible |
+| **Cola de impresión** | Trabajos en espera | Bandeja física de papel |
+| **Dúplex** | Impresión por las dos caras | Escaneo dúplex obligatorio |
+| **ADF** | Alimentador de hojas del escáner | Función OCR |
+| **OCR** | Reconocimiento de caracteres | Guardar una imagen como PDF |
+| **PDF de imagen** | Archivo con captura del original | Texto buscable necesariamente |
+| **Escáner plano** | Captura sobre cristal | Alimentador automático |
+
+**Caso 3:** un expediente de **30 páginas** se escanea mediante un **ADF**, si el modelo admite alimentación múltiple. Si el resultado debe permitir búsqueda por palabras, hará falta **OCR** con una aplicación compatible.
+
+**Caso 4:** si un trabajo de impresión queda detenido en la cola, comprobar impresora seleccionada, conexión, estado del papel y consumibles y trabajos pendientes, antes de repetir el envío; reenviar sin comprobar puede generar duplicados.
+
+> ⚠️ **¡Foco Examen!:** **ADF** facilita alimentar hojas; **OCR** permite reconocer texto; **dúplex** indica dos caras. Son prestaciones independientes.
+
+### Fuentes del fabricante y alcance
+
+- [Microsoft: Explorador de archivos en Windows 11](https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows).
+- [Microsoft: agregar impresoras](https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows).
+- [Microsoft: instalar y usar escáneres](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows).
+
+**Conclusión de contenido:** los cinco incisos del programa oficial están desarrollados (archivos, operaciones, discos locales/red, impresión y digitalización), con supuestos y banco de **20 preguntas**. La comprobación interactiva de la web publicada se gestiona por separado.
