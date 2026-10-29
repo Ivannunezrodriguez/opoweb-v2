@@ -1,11 +1,16 @@
 {
   "tema": 34,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T34-001",
       "pregunta": "¿Qué atajo abre normalmente el cuadro de impresión en Windows y en la mayoría de aplicaciones?",
-      "opciones": ["Ctrl + P", "Ctrl + I", "Ctrl + E", "Ctrl + Mayús + P"],
+      "opciones": [
+        "Ctrl + P",
+        "Ctrl + I",
+        "Ctrl + E",
+        "Ctrl + Mayús + P"
+      ],
       "correcta": 0,
       "justificacion": "La combinación Ctrl + P abre normalmente el cuadro de impresión de la aplicación activa.",
       "trampa": "Abrir el cuadro de impresión no implica que el trabajo se envíe sin confirmación.",
@@ -14,7 +19,12 @@
     {
       "id": "DIP-T34-002",
       "pregunta": "¿Cuál es la ruta habitual para agregar una impresora en Windows 11?",
-      "opciones": ["Configuración > Bluetooth y dispositivos > Impresoras y escáneres", "Explorador > Este equipo > Propiedades", "Panel de tareas > Sonido", "Configuración > Personalización > Temas"],
+      "opciones": [
+        "Configuración > Bluetooth y dispositivos > Impresoras y escáneres",
+        "Explorador > Este equipo > Propiedades",
+        "Panel de tareas > Sonido",
+        "Configuración > Personalización > Temas"
+      ],
       "correcta": 0,
       "justificacion": "Las impresoras y escáneres se administran habitualmente desde Inicio > Configuración > Bluetooth y dispositivos > Impresoras y escáneres.",
       "trampa": "Agregar una impresora no la convierte necesariamente en la impresora predeterminada.",
@@ -23,7 +33,12 @@
     {
       "id": "DIP-T34-003",
       "pregunta": "Microsoft Print to PDF sirve para:",
-      "opciones": ["Crear un archivo PDF", "Enviar siempre el documento a papel", "Escanear un PDF", "Instalar un controlador de red"],
+      "opciones": [
+        "Crear un archivo PDF",
+        "Enviar siempre el documento a papel",
+        "Escanear un PDF",
+        "Instalar un controlador de red"
+      ],
       "correcta": 0,
       "justificacion": "Microsoft Print to PDF es una impresora virtual que genera un archivo PDF en lugar de enviar el trabajo a una impresora física.",
       "trampa": "Imprimir a PDF no modifica automáticamente el documento original.",
@@ -32,7 +47,12 @@
     {
       "id": "DIP-T34-004",
       "pregunta": "La cola de impresión permite:",
-      "opciones": ["Gestionar trabajos pendientes, pausados o con error", "Editar el contenido del documento", "Escanear fotografías", "Cambiar la resolución del monitor"],
+      "opciones": [
+        "Gestionar trabajos pendientes, pausados o con error",
+        "Editar el contenido del documento",
+        "Escanear fotografías",
+        "Cambiar la resolución del monitor"
+      ],
       "correcta": 0,
       "justificacion": "La cola de impresión permite comprobar, pausar, reanudar o cancelar trabajos pendientes, en curso o con error.",
       "trampa": "Cancelar un trabajo puede no detenerlo de inmediato si la impresora ya ha recibido parte de los datos.",
@@ -41,7 +61,12 @@
     {
       "id": "DIP-T34-005",
       "pregunta": "Si Windows administra automáticamente la impresora predeterminada, puede seleccionar:",
-      "opciones": ["La última impresora utilizada", "Siempre Microsoft Print to PDF", "La impresora con más tinta", "La primera instalada"],
+      "opciones": [
+        "La última impresora utilizada",
+        "Siempre Microsoft Print to PDF",
+        "La impresora con más tinta",
+        "La primera instalada"
+      ],
       "correcta": 0,
       "justificacion": "Cuando la administración automática está activada, Windows puede establecer como predeterminada la última impresora utilizada.",
       "trampa": "Para fijar manualmente una impresora concreta puede ser necesario desactivar esa administración automática.",
@@ -50,7 +75,12 @@
     {
       "id": "DIP-T34-006",
       "pregunta": "¿Qué aplicación de Microsoft permite digitalizar documentos en Windows 11?",
-      "opciones": ["Escáner de Windows", "Bloc de notas", "Calculadora", "Recortes"],
+      "opciones": [
+        "Escáner de Windows",
+        "Bloc de notas",
+        "Calculadora",
+        "Recortes"
+      ],
       "correcta": 0,
       "justificacion": "La aplicación Escáner de Windows permite seleccionar el dispositivo, el origen, el formato, la resolución y la ubicación de guardado para digitalizar documentos e imágenes.",
       "trampa": "Que una multifunción sea detectada como impresora no garantiza que su función de escáner esté correctamente instalada.",
@@ -59,7 +89,12 @@
     {
       "id": "DIP-T34-007",
       "pregunta": "La cama plana de un escáner resulta especialmente adecuada para:",
-      "opciones": ["Fotografías o documentos únicos y delicados", "Cientos de páginas sin intervención", "Imprimir a doble cara", "Administrar la cola"],
+      "opciones": [
+        "Fotografías o documentos únicos y delicados",
+        "Cientos de páginas sin intervención",
+        "Imprimir a doble cara",
+        "Administrar la cola"
+      ],
       "correcta": 0,
       "justificacion": "La cama plana permite colocar directamente fotografías, documentos únicos o materiales delicados para su digitalización.",
       "trampa": "El alimentador automático resulta más apropiado para varias páginas consecutivas.",
@@ -68,7 +103,12 @@
     {
       "id": "DIP-T34-008",
       "pregunta": "Al aumentar la resolución de escaneado en dpi, normalmente:",
-      "opciones": ["Aumentan el detalle y el tamaño del archivo", "Disminuyen siempre el detalle y el tamaño", "El archivo se convierte en PDF obligatoriamente", "Desaparece el color"],
+      "opciones": [
+        "Aumentan el detalle y el tamaño del archivo",
+        "Disminuyen siempre el detalle y el tamaño",
+        "El archivo se convierte en PDF obligatoriamente",
+        "Desaparece el color"
+      ],
       "correcta": 0,
       "justificacion": "Una resolución mayor capta más detalle potencial, pero también aumenta normalmente el tamaño del archivo y el tiempo de digitalización.",
       "trampa": "Más dpi no siempre aporta una mejora útil para un documento de texto sencillo.",
@@ -77,7 +117,12 @@
     {
       "id": "DIP-T34-009",
       "pregunta": "¿Qué formato se utiliza habitualmente para documentos digitalizados de varias páginas?",
-      "opciones": ["PDF", "BMP exclusivamente", "EXE", "TXT sin imágenes"],
+      "opciones": [
+        "PDF",
+        "BMP exclusivamente",
+        "EXE",
+        "TXT sin imágenes"
+      ],
       "correcta": 0,
       "justificacion": "El formato PDF se utiliza habitualmente para conservar documentos digitalizados y reunir varias páginas en un solo archivo.",
       "trampa": "La disponibilidad concreta de cada formato depende de la aplicación y del dispositivo.",
@@ -86,7 +131,12 @@
     {
       "id": "DIP-T34-010",
       "pregunta": "Una ruta como \\\\servidor\\impresora identifica normalmente:",
-      "opciones": ["Una impresora compartida en red", "Una carpeta local oculta", "Un archivo PDF", "Una dirección de correo"],
+      "opciones": [
+        "Una impresora compartida en red",
+        "Una carpeta local oculta",
+        "Un archivo PDF",
+        "Una dirección de correo"
+      ],
       "correcta": 0,
       "justificacion": "Una ruta UNC del tipo \\\\servidor\\impresora puede identificar una impresora compartida o un recurso de impresión en red.",
       "trampa": "Que la impresora esté instalada no garantiza su disponibilidad si falla la red o el servidor.",
@@ -95,7 +145,12 @@
     {
       "id": "DIP-T34-011",
       "pregunta": "Para diagnosticar si un problema procede de una aplicación concreta es útil:",
-      "opciones": ["Intentar imprimir desde otra aplicación", "Borrar siempre todos los documentos", "Cambiar la resolución de pantalla", "Desinstalar Windows"],
+      "opciones": [
+        "Intentar imprimir desde otra aplicación",
+        "Borrar siempre todos los documentos",
+        "Cambiar la resolución de pantalla",
+        "Desinstalar Windows"
+      ],
       "correcta": 0,
       "justificacion": "Intentar imprimir desde otra aplicación ayuda a distinguir un fallo general del sistema de impresión de un problema específico de la aplicación inicial.",
       "trampa": "Un error producido en una sola aplicación no demuestra por sí mismo una avería física de la impresora.",
@@ -104,11 +159,128 @@
     {
       "id": "DIP-T34-012",
       "pregunta": "En un entorno administrativo, una medida correcta de seguridad es:",
-      "opciones": ["Retirar inmediatamente documentos confidenciales de la bandeja", "Guardar escaneos en carpetas públicas", "Enviar trabajos a cualquier impresora", "Conservar copias innecesarias"],
+      "opciones": [
+        "Retirar inmediatamente documentos confidenciales de la bandeja",
+        "Guardar escaneos en carpetas públicas",
+        "Enviar trabajos a cualquier impresora",
+        "Conservar copias innecesarias"
+      ],
       "correcta": 0,
       "justificacion": "Los documentos confidenciales deben retirarse de inmediato de la bandeja y controlarse tanto durante la impresión como en su almacenamiento digital.",
       "trampa": "La impresión segura no sustituye las demás medidas de protección de datos y control de acceso.",
       "referencia": "content/diputacion-toledo/tema-34/manual.md#14-seguridad-y-protección-de-datos"
+    },
+    {
+      "id": "DIP-T34-013",
+      "pregunta": "¿Qué permite hacer la opción «Abrir cola de impresión» en Windows 11?",
+      "opciones": [
+        "Ver los trabajos pendientes de esa impresora",
+        "Convertir un escaneo en texto editable",
+        "Cambiar la contraseña de red",
+        "Crear un documento nuevo"
+      ],
+      "correcta": 0,
+      "justificacion": "Muestra los trabajos pendientes y en espera de imprimir.",
+      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/view-a-printer-s-print-queue-in-windows"
+    },
+    {
+      "id": "DIP-T34-014",
+      "pregunta": "¿Dónde se administran habitualmente las impresoras en Windows 11?",
+      "opciones": [
+        "Personalización > Temas",
+        "Configuración > Bluetooth y dispositivos > Impresoras y escáneres",
+        "Sistema > Sonido",
+        "Cuentas > Familia"
+      ],
+      "correcta": 1,
+      "justificacion": "La ruta de configuración de impresoras es Bluetooth y dispositivos > Impresoras y escáneres.",
+      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+    },
+    {
+      "id": "DIP-T34-015",
+      "pregunta": "Si se activa «Permitir que Windows administre mi impresora predeterminada», ¿qué ocurre?",
+      "opciones": [
+        "Se desinstalan las demás impresoras",
+        "Imprime siempre en PDF",
+        "Windows selecciona automáticamente la última impresora utilizada",
+        "Deshabilita la impresión en red"
+      ],
+      "correcta": 2,
+      "justificacion": "Windows puede establecer como predeterminada la última impresora utilizada.",
+      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/set-a-default-printer-in-windows"
+    },
+    {
+      "id": "DIP-T34-016",
+      "pregunta": "Para establecer manualmente una impresora predeterminada, ¿qué ajuste debe desactivarse?",
+      "opciones": [
+        "La conexión Wi-Fi",
+        "El uso compartido de archivos",
+        "La cola de impresión",
+        "Permitir que Windows administre mi impresora predeterminada"
+      ],
+      "correcta": 3,
+      "justificacion": "El ajuste de administración automática debe estar desactivado antes de fijar la impresora manualmente.",
+      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/set-a-default-printer-in-windows"
+    },
+    {
+      "id": "DIP-T34-017",
+      "pregunta": "¿Qué puede ocurrir al conectar un escáner USB compatible a Windows 11?",
+      "opciones": [
+        "Windows puede detectarlo e instalarlo automáticamente",
+        "Se convierte necesariamente en impresora PDF",
+        "Solo puede funcionar si se comparte por Internet",
+        "Deshabilita las impresoras conectadas"
+      ],
+      "correcta": 0,
+      "justificacion": "Windows suele detectar e instalar escáneres locales compatibles de forma automática.",
+      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    },
+    {
+      "id": "DIP-T34-018",
+      "pregunta": "Si una impresora multifunción aparece instalada, ¿qué debe comprobarse para escanear?",
+      "opciones": [
+        "Que tenga tinta de color",
+        "Que Windows también detecte la función de escáner",
+        "Que esté establecida como predeterminada",
+        "Que no existan trabajos pendientes"
+      ],
+      "correcta": 1,
+      "justificacion": "La detección de la impresora no garantiza que el sistema haya reconocido su función de escáner.",
+      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    },
+    {
+      "id": "DIP-T34-019",
+      "pregunta": "¿Qué describe mejor la diferencia entre impresora física y Microsoft Print to PDF?",
+      "opciones": [
+        "Ambas imprimen necesariamente en papel",
+        "Print to PDF digitaliza una hoja colocada en el cristal",
+        "La física produce una salida impresa; Print to PDF genera un archivo",
+        "Print to PDF es una impresora de red obligatoria"
+      ],
+      "correcta": 2,
+      "justificacion": "Microsoft Print to PDF es una impresora virtual que genera un documento PDF.",
+      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
+      "referencia": "content/diputacion-toledo/tema-34/manual.md#5-impresion-a-pdf"
+    },
+    {
+      "id": "DIP-T34-020",
+      "pregunta": "En una impresora de red que no aparece en Windows, ¿qué actuación es razonable primero?",
+      "opciones": [
+        "Borrar todos los documentos del usuario",
+        "Desactivar permanentemente la seguridad del sistema",
+        "Formatear la unidad principal",
+        "Comprobar conexión, disponibilidad y agregarla manualmente si procede"
+      ],
+      "correcta": 3,
+      "justificacion": "Microsoft recomienda verificar conectividad e intentar agregarla manualmente si la detección falla.",
+      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
+      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
     }
   ]
 }
