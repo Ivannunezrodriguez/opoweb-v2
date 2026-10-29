@@ -816,3 +816,20 @@ La reforma estatutaria anunciada en diciembre de 2004 aparece como **aprobación
 > ⚠️ **¡Foco Examen!:** La **adscripción estatutaria** del OAPGT y su **encuadre administrativo en un área provincial** son cuestiones distintas. No deducir una reforma de Estatutos únicamente del organigrama de Diputación.
 
 **Trazabilidad complementaria:** véase `fuentes.md`. El banco existente cuenta con **29 preguntas**, todas a tratar como entrenamiento con la fecha y fuente indicadas mientras no se complete la reconstrucción estatutaria.
+
+
+## 22. Comprobación de vigencia indirecta de los Estatutos — **29/10/2026**
+
+En el [BOP Toledo **92, 16/05/2023**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=92&insert_year=2023&publication_date=16052023), un acuerdo oficial del **Consejo Rector** remite expresamente a los Estatutos aprobados por el **Pleno de 27/09/1996** y publicados en el **BOP 235 de 11/10/1996**. Utiliza estos preceptos:
+
+| Precepto citado en **2023** | Órgano o función documentada | Límites de la prueba |
+|---|---|---|
+| **Art. 10.k** | **Consejo Rector**: contratación en supuestos no atribuidos a otros órganos, con posible delegación | Acto particular sobre contratación, no todas las atribuciones |
+| **Art. 12** | **Presidencia**: representación del organismo, entre otras funciones | No aporta lista íntegra actual de competencias |
+| **Art. 14** | **Dirección**: dirección, gestión y representación administrativa | No reproduce todos los requisitos orgánicos |
+
+Un [anuncio posterior del **BOP 188 de 03/10/2019**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=188&insert_year=2019&publication_date=03102019) también invoca la disposición adicional estatutaria sobre instrucción de procedimientos sancionadores y el organigrama aprobado por el **Consejo Rector**.
+
+> ⚠️ **¡Foco Examen!:** Una publicación oficial que **cita** Estatutos antiguos no es una **publicación de texto refundido o consolidado**. Son probatorias las competencias expresamente invocadas; no lo son las mayorías o quórums no recogidos en ese anuncio.
+
+**Resultado:** se amplía la cadena documental de competencias verificables, pero la reconstrucción completa del articulado vigente en **2026** permanece pendiente; por rigor editorial se conserva el estado **BORRADOR**.
