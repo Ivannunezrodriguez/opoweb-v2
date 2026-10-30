@@ -30,3 +30,12 @@
 - Los plazos, sujetos obligados y efectos del silencio se han contrastado con el texto consolidado oficial.
 
 > ⚠️ **¡Foco Examen!:** el texto consolidado del BOE es informativo. La referencia jurídica oficial sigue siendo la publicación original y sus modificaciones posteriores.
+
+
+## Auditoría focalizada del 30/10/2026
+
+- [Ley 39/2015, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), artículos **16.5, 30.4, 31.2, 32.1, 32.3 y 33.1**.
+- Revisión de **digitalización de documentos**, disponibilidad **24 horas** del registro, presentación en días inhábiles, plazos por meses, ampliación y urgencia.
+- Test: corregidas las redundancias de **DIP-T05-014, 015, 018, 019 y 020**; sigue compuesto por **20 preguntas**.
+
+**Estado:** auditoría jurídica focalizada; pendientes revisión integral y pruebas funcionales.
