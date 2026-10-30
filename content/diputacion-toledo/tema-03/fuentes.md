@@ -25,3 +25,11 @@
 - Ley Orgánica 2/1982: última actualización consolidada publicada el **2 de agosto de 2024**.
 
 > ⚠️ **¡Foco Examen!:** el texto consolidado facilita el estudio, pero la referencia jurídica oficial continúa siendo la publicación correspondiente en el BOE.
+
+
+## Auditoría de precisión — **30/10/2026**
+
+- [LO 3/1981, de 6 de abril, del Defensor del Pueblo](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325): **arts. 2.1, 2.4 y 2.5**; duración del mandato, mayorías iniciales y posibilidad de **mayoría absoluta del Senado** en propuestas sucesivas.
+- [LO 2/1982, de 12 de mayo, del Tribunal de Cuentas](https://www.boe.es/buscar/act.php?id=BOE-A-1982-11584): **arts. 29 y 30**, presidencia, nombramiento de consejeros y presencia equilibrada mínima del **40 % por cada sexo** entre los designados por cada Cámara.
+
+**Alcance:** corrección de las preguntas **DIP-T03-010** y **DIP-T03-015**, actualización comparativa del manual. Sigue pendiente auditoría jurídica integral y pruebas funcionales.
