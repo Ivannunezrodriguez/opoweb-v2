@@ -186,31 +186,31 @@
     },
     {
       "id": "DIP-T05-014",
-      "pregunta": "¿Qué ocurre si falta acreditación suficiente de la representación?",
+      "pregunta": "¿Qué valor tienen los documentos presentados en una oficina de asistencia en materia de registros tras su digitalización?",
       "opciones": [
-        "Se archiva automáticamente sin subsanación",
-        "Se concede un plazo de diez días para aportar o subsanar la acreditación",
-        "La representación se presume en todos los trámites",
-        "El órgano pierde competencia"
+        "Solo valen si se presenta nuevamente el original en papel",
+        "Se incorporan al expediente administrativo electrónico, devolviéndose los originales, salvo excepciones legales",
+        "Se destruyen siempre los originales sin excepción",
+        "Se admiten únicamente si son documentos notariales"
       ],
       "correcta": 1,
-      "justificacion": "El artículo 5.6 dispone un plazo de **10 días** para subsanar, o superior cuando las circunstancias lo requieran.",
-      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
-      "referencia": "Ley 39/2015, art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "justificacion": "El **artículo 16.5 de la Ley 39/2015** exige digitalizar los documentos presentados presencialmente para incorporarlos al expediente electrónico, devolviendo los originales salvo los supuestos en que una norma determine su custodia o documentos que no puedan digitalizarse.",
+      "trampa": "No confundir **digitalización** con destrucción del documento original ni con obligación de presentarlo de nuevo.",
+      "referencia": "Ley 39/2015, art. 16.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T05-015",
-      "pregunta": "¿Qué plazo de validez máxima tienen los poderes inscritos en el registro electrónico de apoderamientos?",
+      "pregunta": "Según el artículo 31 de la Ley 39/2015, ¿cómo funciona el registro electrónico para la presentación de documentos?",
       "opciones": [
-        "Un año",
-        "Dos años",
-        "Cinco años",
-        "Diez años"
+        "Solo de lunes a viernes, de 9:00 a 14:00",
+        "Todos los días del año durante las 24 horas",
+        "Únicamente los días declarados hábiles",
+        "Solo fuera de horas de oficina"
       ],
-      "correcta": 2,
-      "justificacion": "Los poderes inscritos tienen validez máxima de **5 años** desde la inscripción, sin perjuicio de su prórroga en términos legales.",
-      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
-      "referencia": "Ley 39/2015, art. 6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 1,
+      "justificacion": "El **artículo 31.2.a** permite presentar documentos en el registro electrónico **todos los días del año durante las 24 horas**, sin perjuicio de las reglas de cómputo de plazos.",
+      "trampa": "La **disponibilidad 24/7** del registro no convierte en **hábiles** los días inhábiles.",
+      "referencia": "Ley 39/2015, art. 31.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T05-016",
@@ -242,45 +242,45 @@
     },
     {
       "id": "DIP-T05-018",
-      "pregunta": "¿Qué regla rige el cómputo de días hábiles en la Ley 39/2015?",
+      "pregunta": "¿Qué fecha se considera de presentación en el registro electrónico para el cumplimiento de plazos por los interesados, si el documento entra en día inhábil?",
       "opciones": [
-        "Se cuentan sábados y domingos",
-        "Se excluyen sábados, domingos y festivos",
-        "Siempre se cuentan todos los días naturales",
-        "Solo se excluyen domingos"
+        "Se rechaza el documento automáticamente",
+        "El primer día hábil siguiente, salvo que una norma permita expresamente la recepción en inhábil",
+        "La fecha del último día hábil anterior",
+        "El décimo día hábil siguiente"
       ],
       "correcta": 1,
-      "justificacion": "Se excluyen **sábados, domingos y festivos** del cómputo por días hábiles.",
-      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
-      "referencia": "Ley 39/2015, art. 30 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "justificacion": "De acuerdo con el **artículo 31.2.b**, para cumplir plazos por los interesados, una presentación en día inhábil se entiende realizada en la **primera hora del primer día hábil siguiente**, salvo disposición que permita expresamente la recepción en día inhábil.",
+      "trampa": "La **hora real de entrada** queda registrada, pero el **cómputo jurídico** puede desplazarse al primer día hábil.",
+      "referencia": "Ley 39/2015, art. 31.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T05-019",
-      "pregunta": "¿Qué límite general establece el artículo 32 para ampliar plazos no vencidos?",
+      "pregunta": "¿Qué regla de cómputo rige cuando un plazo se señala por meses según el artículo 30.4 de la Ley 39/2015?",
       "opciones": [
-        "Hasta duplicarlos en todo caso",
-        "Hasta tres meses",
-        "No superior a la mitad del plazo original",
-        "Sin límites"
+        "Se computan siempre 30 días hábiles por mes",
+        "Concluye el mismo día ordinal en el mes de vencimiento; si no existe equivalente, el último día del mes",
+        "Concluye necesariamente en el primer día del mes siguiente",
+        "Se cuenta desde el día del acto, sin atender a su notificación"
       ],
-      "correcta": 2,
-      "justificacion": "La ampliación ordinaria no excederá de **la mitad** de los plazos establecidos, si las circunstancias lo aconsejan y no perjudica derechos de tercero.",
-      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
-      "referencia": "Ley 39/2015, art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 1,
+      "justificacion": "Los plazos por **meses o años** se computan desde el **día siguiente** a la notificación o publicación; terminan el **mismo día ordinal** del mes o año de vencimiento y, si este no existe, el **último día del mes**.",
+      "trampa": "No convertir automáticamente **un mes** en **30 días** ni ignorar el día ordinal.",
+      "referencia": "Ley 39/2015, art. 30.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T05-020",
-      "pregunta": "En tramitación de urgencia, ¿qué plazos quedan exceptuados de la reducción a la mitad?",
+      "pregunta": "¿Puede la Administración establecer de oficio una ampliación de plazos ya vencidos con arreglo al artículo 32.3?",
       "opciones": [
-        "Los de información al ciudadano",
-        "Los de notificaciones exclusivamente",
-        "Los de emisión de informes",
-        "Los relativos a presentación de solicitudes y recursos"
+        "Sí, si la ampliación es inferior a cinco días",
+        "Sí, siempre que el interesado lo acepte",
+        "No: la petición y la decisión de ampliación deben producirse antes del vencimiento",
+        "Sí, mediante resolución verbal motivada"
       ],
-      "correcta": 3,
-      "justificacion": "La urgencia reduce plazos a **la mitad**, excepto los relativos a **presentación de solicitudes y recursos**.",
-      "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
-      "referencia": "Ley 39/2015, art. 33 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 2,
+      "justificacion": "Según el **artículo 32.3**, tanto la solicitud de ampliación como la decisión deben producirse **antes del vencimiento**; **en ningún caso** puede ampliarse un plazo ya vencido.",
+      "trampa": "El máximo ordinario de ampliación **no superior a la mitad** no autoriza la ampliación retroactiva de un plazo vencido.",
+      "referencia": "Ley 39/2015, art. 32.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ]
 }
