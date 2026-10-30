@@ -344,3 +344,22 @@ Contra el acuerdo de urgencia no cabe recurso, sin perjuicio del recurso contra 
 > ⚠️ **¡Foco Examen!:** El plazo supletorio para resolver de **3 meses** no equivale al máximo general de **6 meses** para la norma reguladora; el procedimiento sancionador de oficio tiene **caducidad**, no estimación por silencio.
 
 **Fuente primaria comprobada:** [Ley 39/2015 consolidada, actualización publicada **06/11/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco actualizado a **20 preguntas**. Continúa pendiente la comprobación íntegra del manual y la prueba funcional antes de marcar **PUBLICADO**.
+
+
+## 16. Registro electrónico y plazos: auditoría del 30/10/2026
+
+| Supuesto | Regla | Ley 39/2015 |
+|---|---|---|
+| Registro electrónico | **24 horas**, **todos los días del año** | **31.2.a** |
+| Escrito presentado en inhábil, para plazo en días hábiles | **Primera hora del primer día hábil siguiente**, con la salvedad legal | **31.2.b** |
+| Documentos presenciales en oficina de asistencia | **Digitalización** y devolución del original salvo excepciones | **16.5** |
+| Meses y años | Vencimiento por **día ordinal**; si no existe, **último día del mes** | **30.4** |
+| Ampliación ordinaria | Hasta **la mitad** del plazo, salvo precepto en contrario | **32.1** |
+| Petición y acuerdo de ampliación | Siempre **antes del vencimiento** | **32.3** |
+| Urgencia | Reduce plazos **a la mitad**, excepto los de **solicitudes y recursos** | **33.1** |
+
+> ⚠️ **¡Foco Examen!:** El registro admite documentos **24/7**, pero los días inhábiles siguen siendo inhábiles para el cómputo de plazos fijados en días hábiles.
+
+> ⚠️ **¡Foco Examen!:** No se amplían plazos **vencidos**. Tampoco se reducen los de **solicitudes y recursos** por aplicar urgencia.
+
+Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 . Auditoría parcial; pendiente revisión íntegra.
