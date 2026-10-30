@@ -172,17 +172,17 @@
     },
     {
       "id": "DIP-T04-013",
-      "pregunta": "La competencia atribuida como propia a un órgano administrativo es:",
+      "pregunta": "¿Puede un órgano colegiado deliberar sobre un asunto no incluido en el orden del día?",
       "opciones": [
-        "Renunciable mediante acuerdo interno",
-        "Irrenunciable",
-        "Transferible siempre a un particular",
-        "Ejercitable indistintamente por todos los órganos"
+        "Sí, por decisión unilateral de la Presidencia",
+        "Sí, si asisten todos los miembros y la mayoría declara la urgencia",
+        "Sí, con la presencia de la mitad de sus miembros",
+        "Nunca, ni siquiera por unanimidad"
       ],
       "correcta": 1,
-      "justificacion": "Ley 40/2015, artículo 8: Irrenunciable.",
-      "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "justificacion": "El **artículo 17.4 Ley 40/2015** permite tratar asuntos no incluidos en el orden del día solo si **asisten todos sus miembros** y la **mayoría** declara la urgencia.",
+      "trampa": "No basta el quórum ordinario; para alterar el orden del día se exige **asistencia de todos** y declaración de urgencia por **mayoría**.",
+      "referencia": "Ley 40/2015, art. 17.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
     },
     {
       "id": "DIP-T04-014",
@@ -214,31 +214,31 @@
     },
     {
       "id": "DIP-T04-016",
-      "pregunta": "¿Transfiere la encomienda de gestión la titularidad de la competencia?",
+      "pregunta": "¿Cuándo puede constituirse un órgano colegiado sin convocatoria previa conforme al artículo 17.2 de la Ley 40/2015?",
       "opciones": [
-        "Sí, en todo caso",
-        "Sí, si la actividad es técnica",
-        "Solo si hay convenio",
-        "No"
+        "Cuando lo autorice cualquier vocal",
+        "Cuando asistan la Presidencia y un tercio de sus miembros",
+        "Cuando estén reunidos el secretario y todos los miembros (o suplentes) y así lo decidan todos",
+        "Siempre que exista urgencia declarada por la Presidencia"
       ],
-      "correcta": 3,
-      "justificacion": "Ley 40/2015, artículo 11: No.",
-      "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "correcta": 2,
+      "justificacion": "Puede constituirse sin convocatoria previa cuando estén reunidos **el secretario y todos los miembros o sus suplentes**, presencialmente o a distancia, **y todos lo decidan**; la previsión legal debe leerse con sus restantes reglas de funcionamiento.",
+      "trampa": "No confundir la **ausencia de convocatoria previa** con el quórum ordinario de **la mitad** de miembros.",
+      "referencia": "Ley 40/2015, art. 17.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
     },
     {
       "id": "DIP-T04-017",
-      "pregunta": "¿Qué efecto tiene la delegación de firma sobre la competencia?",
+      "pregunta": "¿Cómo se adoptan con carácter general los acuerdos de los órganos colegiados regulados en el artículo 17 Ley 40/2015?",
       "opciones": [
-        "Transfiere la titularidad",
-        "Extingue la competencia delegada",
-        "No la altera",
-        "Requiere publicar una ley"
+        "Por unanimidad de los miembros",
+        "Por mayoría de votos",
+        "Por tres quintos del total",
+        "Por mayoría absoluta de los miembros designados, necesariamente"
       ],
-      "correcta": 2,
-      "justificacion": "Ley 40/2015, artículo 12: No la altera.",
-      "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 12 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "correcta": 1,
+      "justificacion": "El **artículo 17.5 Ley 40/2015** establece que los acuerdos se adoptan por **mayoría de votos**.",
+      "trampa": "La ley dice **mayoría de votos**, no unanimidad ni mayoría cualificada como regla general.",
+      "referencia": "Ley 40/2015, art. 17.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
     },
     {
       "id": "DIP-T04-018",
