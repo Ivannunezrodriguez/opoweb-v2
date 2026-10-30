@@ -230,17 +230,17 @@
     },
     {
       "id": "DIP-T01-017",
-      "pregunta": "¿Qué tribunal plantea una cuestión de inconstitucionalidad?",
+      "pregunta": "¿Quién puede plantear una cuestión de inconstitucionalidad ante el Tribunal Constitucional conforme al artículo 163 de la Constitución?",
       "opciones": [
-        "Cualquier ayuntamiento",
-        "Un órgano judicial cuando una norma con rango de ley aplicable al caso y decisiva del fallo pueda ser contraria a la Constitución",
+        "Cualquier ayuntamiento al aprobar una ordenanza",
+        "Un órgano judicial, en algún proceso, respecto de una norma con rango de ley aplicable al caso y de cuya validez dependa el fallo",
         "Un órgano administrativo sin procedimiento judicial",
-        "El Defensor del Pueblo exclusivamente"
+        "Solo el Defensor del Pueblo"
       ],
       "correcta": 1,
-      "justificacion": "La cuestión de inconstitucionalidad la plantea el **órgano judicial** cuando una norma con rango de ley aplicable y determinante del fallo pueda ser contraria a la Constitución.",
-      "trampa": "Atender al órgano, plazo o mayoría exactos establecidos por la norma y no extrapolar a procedimientos distintos.",
-      "referencia": "CE art. 163 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+      "justificacion": "Conforme al **artículo 163 CE**, cuando un **órgano judicial** considere, en algún proceso, que una norma con rango de ley, **aplicable al caso** y **de cuya validez dependa el fallo**, pueda ser contraria a la Constitución, planteará la cuestión ante el Tribunal Constitucional en los supuestos, forma y con los efectos que establezca la ley, que en ningún caso serán suspensivos.",
+      "trampa": "No la plantea el propio Tribunal Constitucional de oficio ni un órgano administrativo: la eleva un **órgano judicial** en un proceso concreto.",
+      "referencia": "Constitución Española, art. 163 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
       "id": "DIP-T01-018",
