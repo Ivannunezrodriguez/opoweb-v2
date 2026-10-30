@@ -266,3 +266,23 @@ ACTO ADMINISTRATIVO
 > ⚠️ **¡Foco Examen!:** Los **10 días** para cursar una notificación (art. **40.2**) no son los **10 días naturales** para el rechazo por falta de acceso a una notificación electrónica obligatoria (art. **43.2**).
 
 **Fuente primaria:** [Ley 39/2015, arts. 34–52, BOE consolidado (última actualización publicada **06/11/2024**)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco ampliado a **20 preguntas**. Pendiente auditoría integral y comprobación funcional del sitio antes de dar por definitivamente certificado el tema.
+
+
+## 13. Auditoría focalizada de notificación e invalidez — **30/10/2026**
+
+| Supuesto | Regla | Ley 39/2015 |
+|---|---|---|
+| Contenido de notificación | Texto íntegro, indicación de si pone fin a la vía administrativa y **recursos, órgano y plazo** | **40.2** |
+| Segundo intento domiciliario | **Una sola vez** más, en hora diferente y dentro de **3 días**; diferencia mínima de **3 horas**, alternando antes/después de **15:00** | **42.2** |
+| Notificación electrónica obligatoria sin acceso | Se entiende rechazada tras **10 días naturales** desde su puesta a disposición | **43.2** |
+| Notificación infructuosa | Anuncio en el **Boletín Oficial del Estado**; otros medios son complementarios | **44** |
+| Incompetencia manifiesta por materia o territorio | **Nulidad de pleno derecho** | **47.1.b** |
+| Defecto formal | **Anulabilidad** si faltan requisitos formales indispensables o hay **indefensión** | **48.2** |
+| Conservación | Se conservan actuaciones cuyo contenido no habría variado sin la infracción | **51** |
+| Convalidación por incompetencia no invalidante de pleno derecho | Puede realizarla el **órgano competente** cuando sea superior jerárquico | **52.3** |
+
+> ⚠️ **¡Foco Examen!:** El segundo intento domiciliario no es necesariamente al día siguiente: debe realizarse dentro de **3 días**, en franja horaria distinta y con **3 horas** de separación mínima.
+
+> ⚠️ **¡Foco Examen!:** La **incompetencia manifiesta por materia o territorio** provoca nulidad; una incompetencia **no determinante de nulidad** puede ser convalidable en los términos del artículo **52.3**.
+
+Fuente: [Ley 39/2015 consolidada en el BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Revisión parcial: queda pendiente auditoría jurídica integral y prueba funcional.
