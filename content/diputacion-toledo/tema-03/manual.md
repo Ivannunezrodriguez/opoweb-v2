@@ -264,3 +264,21 @@ ESTADO
 > ⚠️ **¡Foco Examen!:** El **Tribunal de Cuentas** controla la gestión económico-financiera y el **Defensor del Pueblo** supervisa la Administración para defender los derechos del título I: **no intercambiar funciones**.
 
 **Control de contenido:** estructura y organización del Estado, **Corona**, **Cortes**, **Defensor** y **Tribunal de Cuentas** desarrollados. Banco ampliado de **12 a 20 preguntas**. La revisión editorial completa y prueba funcional de la web siguen pendientes; no asignar estado publicado todavía.
+
+
+## 12. Auditoría jurídica focalizada — **30/10/2026**
+
+| Institución | Regla normativa | Fuente |
+|---|---|---|
+| **Defensor del Pueblo** | Mandato de **5 años** | **LO 3/1981, art. 2.1** |
+| Primera elección del Defensor | **3/5 del Congreso** y ratificación por **3/5 del Senado** en un máximo de **20 días** | **LO 3/1981, art. 2.4** |
+| Sucesivas propuestas del Defensor | Si no se alcanzan las mayorías iniciales, pueden formularse nuevas propuestas en **un mes**; basta **3/5 del Congreso** y **mayoría absoluta del Senado** | **LO 3/1981, art. 2.5** |
+| **Tribunal de Cuentas** | **12 consejeros**: **6** designados por el **Congreso** y **6** por el **Senado** por **3/5** de cada Cámara; mandato de **9 años** | **LO 2/1982, art. 30.1** |
+| Presencia equilibrada | Cada sexo representa al menos el **40 %** de las personas consejeras designadas por cada Cámara | **LO 2/1982, art. 30.2** |
+| Presidencia Tribunal de Cuentas | El **Rey** nombra de entre los consejeros, a propuesta del **Pleno**, por **3 años** | **LO 2/1982, art. 29** |
+
+> ⚠️ **¡Foco Examen!:** La elección del **Defensor del Pueblo** no exige necesariamente **3/5 del Senado** en todas las votaciones: tras fracasar las mayorías iniciales, la ley prevé **mayoría absoluta del Senado**, manteniendo **3/5 del Congreso**.
+
+> ⚠️ **¡Foco Examen!:** Los **consejeros** del **Tribunal de Cuentas** tienen mandato de **9 años**; su **presidente**, de **3 años**. Además, el mínimo del **40 % por sexo** se comprueba entre los designados **por cada Cámara**.
+
+Fuentes oficiales: [LO 3/1981, Defensor del Pueblo](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325) y [LO 2/1982, Tribunal de Cuentas](https://www.boe.es/buscar/act.php?id=BOE-A-1982-11584). Revisión **focalizada**; no implica auditoría jurídica integral del tema.
