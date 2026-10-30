@@ -45,3 +45,11 @@
 - **Estado:** auditoría documental en curso; pendiente revisión exhaustiva de afirmaciones y navegación real antes de marcar **PUBLICADO**.
 
 > ⚠️ **¡Foco Examen!:** **Tribunal Constitucional: 12 magistrados**, mandato de **9 años**; **Presidente del Tribunal: 3 años**, con posible reelección. No confundir ambos plazos.
+
+
+## Auditoría focalizada de **30/10/2026**
+
+- [Constitución Española, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229): artículos **159, 160, 163, 167 y 168**. Composición del TC, mandatos, cuestión de inconstitucionalidad y reforma.
+- [Ley Orgánica 2/1979, del Tribunal Constitucional, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709): **artículo 9**, elección y **una reelección** posible de la presidencia.
+
+**Alcance:** revisión normativa focalizada y precisión de la pregunta **DIP-T01-017**; resto del contenido pendiente de certificación integral.
