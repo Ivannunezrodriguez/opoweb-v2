@@ -515,3 +515,23 @@ FUENTES
 > ⚠️ **¡Foco Examen!:** La **ley orgánica** requiere **mayoría absoluta del Congreso** en votación final de conjunto, pero la **reserva de ley** del **artículo 53.1 CE** no convierte automáticamente toda regulación de derechos en materia de ley orgánica.
 
 **Banco de entrenamiento actualizado a 20 preguntas**. Su revisión jurídica individual y la prueba funcional del sitio siguen siendo controles distintos de la existencia del contenido.
+
+
+## Auditoría focalizada del tema 2 — **30/10/2026**
+
+| Aspecto | Regla examinable | Fundamento |
+|---|---|---|
+| **Ley orgánica** | Exige **mayoría absoluta del Congreso**, en **votación final sobre el conjunto** | **Art. 81.2 CE** |
+| **Delegación legislativa** | Debe otorgarse al **Gobierno** de forma **expresa**, para una **materia concreta** y con fijación de **plazo** | **Art. 82.3 CE** |
+| **Decreto legislativo** | Nombre de las disposiciones del **Gobierno** que contienen legislación delegada | **Art. 85 CE** |
+| **Decreto-ley** | Requiere **extraordinaria y urgente necesidad**; el **Congreso** decide sobre su convalidación o derogación en **30 días** desde la promulgación | **Art. 86 CE** |
+| **Potestad reglamentaria** | El **Gobierno**, los órganos de gobierno autonómicos y los órganos de gobierno locales la ejercen en sus respectivos ámbitos legales | **Art. 128.1 Ley 39/2015** |
+| **Límites del reglamento** | Un reglamento no puede vulnerar la **Constitución** ni las **leyes**, ni una disposición administrativa otra de rango superior | **Art. 128.2–3 Ley 39/2015** |
+| **Inderogabilidad singular** | Una **resolución particular** no puede vulnerar una disposición general, incluso si procede de órgano de igual o superior jerarquía | **Art. 37.1 Ley 39/2015** |
+| **Consecuencia de vulnerar reglamento** | La resolución administrativa particular contraria a una disposición reglamentaria es **nula** | **Art. 37.2 Ley 39/2015** |
+
+> ⚠️ **¡Foco Examen!:** No confundir **decreto-ley** (extraordinaria y urgente necesidad y control del Congreso en **30 días**) con **decreto legislativo** (delegación expresa y limitada de las **Cortes Generales** al **Gobierno**).
+
+> ⚠️ **¡Foco Examen!:** La **inderogabilidad singular** se aplica aunque la resolución particular provenga de un órgano **jerárquicamente superior** al autor del reglamento. La pregunta trampa suele introducir precisamente esa excepción inexistente.
+
+**Fuentes primarias de esta comprobación:** [Constitución Española, arts. 81–86](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) y [Ley 39/2015, arts. 37 y 128](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Se trata de una auditoría **parcial**, no de certificación integral del tema.
