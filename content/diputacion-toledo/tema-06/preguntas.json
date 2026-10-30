@@ -228,45 +228,45 @@
     },
     {
       "id": "DIP-T06-017",
-      "pregunta": "¿Qué plazo de alegaciones se concede habitualmente en el trámite de audiencia del procedimiento ordinario?",
+      "pregunta": "Salvo disposición expresa en contrario, ¿qué carácter tienen los informes en el procedimiento administrativo?",
       "opciones": [
-        "Entre 10 y 15 días",
-        "Entre 2 y 5 días",
-        "Siempre 30 días",
-        "Un mes"
+        "Preceptivos y vinculantes",
+        "Facultativos y no vinculantes",
+        "Preceptivos y no vinculantes siempre",
+        "Facultativos y vinculantes"
       ],
-      "correcta": 0,
-      "justificacion": "La audiencia ordinaria se concede por plazo **no inferior a 10 días ni superior a 15**.",
-      "trampa": "Atender al supuesto y plazo preciso de la Ley 39/2015.",
-      "referencia": "Ley 39/2015 art. 82 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 1,
+      "justificacion": "Según el **artículo 80.1 de la Ley 39/2015**, los informes serán **facultativos y no vinculantes**, salvo disposición expresa en contrario.",
+      "trampa": "No confundir el carácter **preceptivo** con el **vinculante**: son cualidades distintas.",
+      "referencia": "Ley 39/2015, art. 80.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T06-018",
-      "pregunta": "¿Qué norma establece el plazo mínimo de información pública?",
+      "pregunta": "¿Cuál es, salvo previsión específica, el plazo para emitir informes durante la instrucción?",
       "opciones": [
-        "7 días",
-        "20 días",
+        "5 días",
         "10 días",
-        "2 meses"
+        "15 días",
+        "20 días"
       ],
       "correcta": 1,
-      "justificacion": "El período de información pública no será inferior a **20 días**.",
-      "trampa": "Atender al supuesto y plazo preciso de la Ley 39/2015.",
-      "referencia": "Ley 39/2015 art. 83 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "justificacion": "El **artículo 80.2** establece **10 días**, salvo disposición o exigencias del resto de los plazos que determinen otro plazo mayor o menor.",
+      "trampa": "No confundir los **10 días de informes** con el mínimo de **20 días** de información pública.",
+      "referencia": "Ley 39/2015, art. 80.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T06-019",
-      "pregunta": "¿Cuándo se entiende desistido quien no atiende un requerimiento de subsanación, previa resolución?",
+      "pregunta": "En un procedimiento simplificado de naturaleza sancionadora por infracción leve, ¿puede el interesado oponerse expresamente y obligar a seguir la tramitación ordinaria?",
       "opciones": [
-        "Siempre de inmediato",
-        "Después de seis meses sin notificación",
-        "Una vez transcurrido el plazo otorgado sin subsanar, con resolución en los términos legales",
-        "Sin posibilidad de resolución administrativa"
+        "Sí, en cualquier caso",
+        "Solo dentro de 15 días",
+        "No se admite esa oposición expresa en el supuesto del artículo 96.5",
+        "Solo si lo autoriza el órgano sancionador"
       ],
       "correcta": 2,
-      "justificacion": "De no subsanar en plazo, se tendrá por desistida la solicitud **previa resolución** en los términos del art. 21.",
-      "trampa": "Atender al supuesto y plazo preciso de la Ley 39/2015.",
-      "referencia": "Ley 39/2015 art. 68 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "justificacion": "El **artículo 96.5** excluye expresamente la oposición contemplada en el **artículo 96.2** en la tramitación simplificada sancionadora por infracción leve.",
+      "trampa": "La oposición que normalmente fuerza la vía ordinaria **no opera** en esta especialidad sancionadora.",
+      "referencia": "Ley 39/2015, art. 96.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T06-020",
