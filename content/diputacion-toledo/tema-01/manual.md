@@ -581,3 +581,22 @@ Según el **artículo 9 de la Ley Orgánica 2/1979**, el **Pleno del Tribunal Co
 > ⚠️ **¡Foco Examen!:** **Mayoría absoluta** para elegir al Presidente del TC en primera votación; **3/5** para la propuesta parlamentaria de magistrados.
 
 Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709
+
+
+## Auditoría jurídica focalizada — **30/10/2026**
+
+| Institución | Regla comprobada | Fundamento |
+|---|---|---|
+| **Cuestión de inconstitucionalidad** | Puede plantearla un **órgano judicial**, dentro de un proceso, sobre una norma **con rango de ley**, aplicable al caso y de cuya validez dependa el fallo | **Art. 163 CE** |
+| **Composición del Tribunal Constitucional** | **12 magistrados**, nombrados por el **Rey**: **4** a propuesta del **Congreso**, **4** del **Senado**, **2** del **Gobierno** y **2** del **CGPJ** | **Art. 159.1 CE** |
+| **Propuesta de las Cámaras** | **Tres quintos** de sus miembros en Congreso y Senado | **Art. 159.1 CE** |
+| **Mandato de magistrados** | **9 años**, renovación por **tercios cada 3 años** | **Art. 159.3 CE** |
+| **Presidencia del Tribunal Constitucional** | Mandato de **3 años**, posibilidad de **una reelección**; elección por el **Pleno**, propuesta al **Rey** | **Art. 160 CE y art. 9 LOTC** |
+| **Reforma ordinaria** | Mayoría de **3/5 en cada Cámara**; referéndum si lo pide **1/10** de cualquiera de las Cámaras en **15 días** | **Art. 167 CE** |
+| **Reforma agravada** | Mayorías de **2/3**, disolución y nuevas Cortes; referéndum **obligatorio** | **Art. 168 CE** |
+
+> ⚠️ **¡Foco Examen!:** **Cuestión de inconstitucionalidad** no es lo mismo que **recurso de inconstitucionalidad**: la cuestión parte de un **órgano judicial** cuando la norma legal es aplicable y decisiva en un proceso. El **Tribunal Constitucional** resuelve, pero no sustituye al órgano judicial en el planteamiento.
+
+> ⚠️ **¡Foco Examen!:** El mandato de un **magistrado** del Tribunal Constitucional es de **9 años**, pero el de su **presidente** es de **3 años**, renovable **una vez**. Son plazos referidos a cargos distintos.
+
+Fuentes oficiales: [Constitución Española](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) y [Ley Orgánica del Tribunal Constitucional](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709). Comprobación focalizada; **no equivale a auditoría jurídica integral del tema**.
