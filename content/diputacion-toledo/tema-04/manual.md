@@ -343,3 +343,21 @@ LEY 40/2015
 > ⚠️ **¡Foco Examen!:** No confundir **delegación de competencias**, **encomienda de gestión** ni **delegación de firma**; las tres mantienen distinciones jurídicas esenciales.
 
 Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
+
+
+## 12. Auditoría focalizada de órganos colegiados — **30/10/2026**
+
+| Supuesto | Requisito de la **Ley 40/2015** | Referencia |
+|---|---|---|
+| **Constitución ordinaria** | **Presidente** y **Secretario**, o suplentes, y **al menos la mitad de los miembros**, presencialmente o a distancia | **Art. 17.2** |
+| **Sesión sin convocatoria previa** | **Secretario** y **todos los miembros** o suplentes reunidos; **todos** deciden constituirse | **Art. 17.2** |
+| **Asunto fuera del orden del día** | Asistencia de **todos los miembros** y urgencia declarada por voto favorable de la **mayoría** | **Art. 17.4** |
+| **Adopción ordinaria de acuerdos** | **Mayoría de votos** | **Art. 17.5** |
+| **Sesión a distancia** | Deben garantizarse identidad, manifestaciones, tiempo e interacción y medios disponibles | **Art. 17.1** |
+| **Acuerdo con efectos jurídicos a terceros** | Publicación del acuerdo de creación y normas de funcionamiento del órgano colegiado cuando proceda | **Art. 15.3** |
+
+> ⚠️ **¡Foco Examen!:** Para una sesión ordinaria puede bastar **la mitad** de miembros más **Presidencia y Secretaría**; para tratar asuntos **no incluidos en el orden del día** se requiere que estén **todos** y se declare urgencia por **mayoría**.
+
+> ⚠️ **¡Foco Examen!:** La sesión **sin convocatoria previa** exige decisión de **todos los miembros**, no basta la aprobación del **Presidente**. Tampoco exige necesariamente que todos estén físicamente en una sala: la ley permite la reunión **a distancia**.
+
+**Fuente normativa:** [Ley 40/2015, artículos 15–17, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). Revisión parcial del tema; pendientes auditoría jurídica integral y pruebas funcionales.
