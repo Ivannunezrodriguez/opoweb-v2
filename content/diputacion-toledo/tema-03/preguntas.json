@@ -130,17 +130,17 @@
     },
     {
       "id": "DIP-T03-010",
-      "pregunta": "¿Qué mayoría se exige para elegir al Defensor del Pueblo?",
+      "pregunta": "Si no se alcanza inicialmente la mayoría necesaria para elegir al Defensor del Pueblo y se formulan nuevas propuestas, ¿qué combinación de mayorías puede permitir su designación?",
       "opciones": [
-        "Mayoría absoluta del Congreso y simple del Senado",
-        "Tres quintos del Congreso y tres quintos del Senado",
-        "Dos tercios de ambas Cámaras",
-        "Mayoría simple de ambas Cámaras"
+        "Mayoría simple del Congreso y Senado",
+        "Tres quintos del Congreso y mayoría absoluta del Senado",
+        "Mayoría absoluta del Congreso y tres quintos del Senado",
+        "Dos tercios de ambas Cámaras"
       ],
       "correcta": 1,
-      "justificacion": "La elección requiere mayoría de tres quintos del Congreso y posterior ratificación por mayoría de tres quintos del Senado.",
-      "trampa": "La mayoría es idéntica en ambas Cámaras: tres quintos. No se sustituye por mayoría absoluta en ninguna fase ordinaria.",
-      "referencia": "content/diputacion-toledo/tema-03/manual.md#7-defensor-del-pueblo"
+      "justificacion": "Según el **artículo 2.5 de la LO 3/1981**, tras no alcanzarse las mayorías iniciales y formularse sucesivas propuestas, basta con **tres quintos del Congreso** y **mayoría absoluta del Senado**.",
+      "trampa": "La primera votación requiere **tres quintos de cada Cámara**; la vía posterior reduce la mayoría exigible en el **Senado**, no en el Congreso.",
+      "referencia": "LO 3/1981, art. 2.4–5 · https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325"
     },
     {
       "id": "DIP-T03-011",
@@ -200,17 +200,17 @@
     },
     {
       "id": "DIP-T03-015",
-      "pregunta": "¿Cuál es la duración ordinaria del mandato de los senadores?",
+      "pregunta": "¿Qué mínimo de presencia de cada sexo exige la Ley Orgánica del Tribunal de Cuentas en la designación por cada Cámara?",
       "opciones": [
-        "Cinco años",
-        "Cuatro años",
-        "Tres años",
-        "Seis años"
+        "25 %",
+        "30 %",
+        "40 %",
+        "50 %"
       ],
-      "correcta": 1,
-      "justificacion": "El Senado se elige por **cuatro años**, sin perjuicio de la disolución de la Cámara.",
-      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
-      "referencia": "CE art. 69.6 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+      "correcta": 2,
+      "justificacion": "El artículo **30.2 LO 2/1982** exige que cada uno de los sexos suponga **como mínimo el 40 %** de las personas consejeras designadas por cada Cámara.",
+      "trampa": "La exigencia se refiere a los **designados por cada Cámara**, no exclusivamente al total global de consejeros.",
+      "referencia": "LO 2/1982, art. 30.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1982-11584"
     },
     {
       "id": "DIP-T03-016",
