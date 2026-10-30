@@ -26,3 +26,12 @@
 | Límites, conversión, conservación y convalidación | **49 a 52** |
 
 > ⚠️ **¡Foco Examen!:** el texto consolidado del BOE es una herramienta informativa. La trazabilidad se conserva mediante la identificación exacta de la ley y de los artículos utilizados.
+
+
+## Auditoría jurídica focalizada — **30/10/2026**
+
+- [Ley 39/2015, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565): **artículos 40.2, 42.2, 43.2, 44, 47.1.b, 48.2, 51 y 52.3**.
+- Cinco preguntas redundantes sustituidas: **DIP-T07-013, 017, 018, 019 y 020**. Sigue habiendo **20 preguntas**.
+- Añadidas comparaciones de **segundo intento de notificación**, **nulidad por incompetencia**, **conservación** y **convalidación**.
+
+**Estado:** revisión focalizada. No se ha completado la auditoría integral ni la ejecución de pruebas funcionales de la web.
