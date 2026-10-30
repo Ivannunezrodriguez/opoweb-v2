@@ -39,3 +39,11 @@
 - Se han utilizado únicamente fuentes oficiales y legislación consolidada.
 - No se ha reutilizado contenido de La Puebla.
 - Cualquier reforma posterior a julio de 2026 exigirá una nueva auditoría.
+
+
+## Control de auditoría focalizada — **30/10/2026**
+
+- [Constitución Española, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229): **arts. 81.2, 82.3, 85 y 86**; mayorías, delegación legislativa, decreto legislativo y decreto-ley.
+- [Ley 39/2015, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565): **art. 37** sobre inderogabilidad singular y **art. 128** sobre potestad reglamentaria.
+
+**Resultado editorial parcial:** sustituidas las preguntas repetitivas **DIP-T02-014** y **DIP-T02-018** por otras de delegación legislativa e inderogabilidad singular. Se incorpora cuadro comparativo al manual. Pendientes auditoría jurídica integral y pruebas de OpoWeb.
