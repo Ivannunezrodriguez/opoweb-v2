@@ -30,3 +30,11 @@
 ## Criterio editorial
 
 Este tema se ha redactado **desde cero**. No se ha reutilizado contenido de La Puebla ni de otras convocatorias. La legislación consolidada se utiliza como herramienta de trabajo y debe contrastarse con la publicación oficial en caso de discrepancia.
+
+
+## Auditoría focalizada — **30/10/2026**
+
+- [Ley 40/2015, texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), **artículos 15 a 17**: publicidad de órganos colegiados, sesiones a distancia, constitución ordinaria y sin convocatoria previa, orden del día y mayorías para los acuerdos.
+- Se han sustituido tres preguntas redundantes (**DIP-T04-013, DIP-T04-016 y DIP-T04-017**) por preguntas sobre **quórum, convocatoria y votación**.
+
+**Alcance:** control jurídico parcial, no certificación integral de la Ley 40/2015 ni de su aplicación específica en la Administración local.
