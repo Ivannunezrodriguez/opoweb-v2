@@ -407,3 +407,21 @@ PROCEDIMIENTO ADMINISTRATIVO COMÚN
 > ⚠️ **¡Foco Examen!:** En los **procedimientos sancionadores** que puedan tramitarse de forma simplificada por calificarse la infracción como **leve**, no cabe la oposición expresa prevista con carácter general en el **artículo 96.2**. No memorizar una oposición universal.
 
 **Fuente contrastada:** [Ley 39/2015, artículo 96, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco de **20 preguntas**; pendiente validación integral de todas las referencias y prueba de navegación para cierre editorial definitivo.
+
+
+## 16. Auditoría focalizada: informes y vía simplificada — **30/10/2026**
+
+| Regla | Contenido | Fundamento |
+|---|---|---|
+| Informes administrativos | Por defecto, **facultativos y no vinculantes**, salvo previsión expresa | **Art. 80.1** |
+| Emisión de informes | **10 días**, salvo plazo diferente por disposición o necesidades del procedimiento | **Art. 80.2** |
+| Simplificada iniciada de oficio | La **oposición expresa** de algún interesado obliga, como regla, a la vía **ordinaria** | **Art. 96.2** |
+| Simplificada sancionadora por infracción leve | No cabe la **oposición expresa** contemplada en el art. 96.2 | **Art. 96.5** |
+| Resolución simplificada | **30 días**, salvo que reste menos en la ordinaria; se cuentan desde el día siguiente a la notificación del acuerdo | **Art. 96.6** |
+| Dictamen consultivo contrario al fondo de la propuesta | Debe continuarse por la **tramitación ordinaria** | **Art. 96.6.g** |
+
+> ⚠️ **¡Foco Examen!:** **Facultativo** no significa **vinculante**. Como regla general, los informes son **facultativos y no vinculantes**, y su plazo de emisión es de **10 días**.
+
+> ⚠️ **¡Foco Examen!:** La oposición del interesado obliga a continuar por la vía ordinaria cuando la Administración acuerda de oficio la simplificada, **salvo** la especialidad sancionadora de infracciones leves prevista en el **artículo 96.5**.
+
+Fuente normativa: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 . Esta revisión es **parcial**; no acredita la auditoría integral del tema.
