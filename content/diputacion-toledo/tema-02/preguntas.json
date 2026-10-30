@@ -186,17 +186,17 @@
     },
     {
       "id": "DIP-T02-014",
-      "pregunta": "¿Qué mayoría exige el Congreso en la votación final sobre el conjunto de un proyecto de ley orgánica?",
+      "pregunta": "Según el artículo 82.3 de la Constitución, ¿cómo debe otorgarse la delegación legislativa al Gobierno?",
       "opciones": [
-        "Mayoría simple",
-        "Mayoría de tres quintos",
-        "Mayoría absoluta",
-        "Dos tercios"
+        "De forma implícita y sin plazo",
+        "De forma expresa, para materia concreta y con fijación de plazo",
+        "Por una resolución administrativa singular",
+        "Con carácter indefinido y susceptible de subdelegación"
       ],
-      "correcta": 2,
-      "justificacion": "Se requiere **mayoría absoluta del Congreso** en votación final sobre el conjunto del proyecto.",
-      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
-      "referencia": "CE art. 81.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+      "correcta": 1,
+      "justificacion": "La delegación legislativa se otorga al **Gobierno** de forma **expresa**, para **materia concreta** y con fijación de **plazo**; no puede entenderse concedida de modo implícito ni por tiempo indeterminado.",
+      "trampa": "La **delegación legislativa** no es una autorización indefinida para aprobar reglamentos.",
+      "referencia": "Constitución Española, art. 82.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
       "id": "DIP-T02-015",
@@ -242,17 +242,17 @@
     },
     {
       "id": "DIP-T02-018",
-      "pregunta": "¿Qué principio impide que una resolución administrativa singular vulnere un reglamento vigente?",
+      "pregunta": "¿Qué establece el artículo 37.1 de la Ley 39/2015 sobre las resoluciones administrativas particulares?",
       "opciones": [
-        "Autonomía privada",
-        "Inderogabilidad singular de reglamentos",
-        "Irretroactividad absoluta",
-        "Sucesión universal"
+        "Pueden exceptuar reglamentos si proceden de un órgano superior",
+        "No pueden vulnerar disposiciones generales aunque procedan de un órgano igual o superior",
+        "Derogan las disposiciones generales anteriores",
+        "Son equivalentes a leyes cuando son firmes"
       ],
       "correcta": 1,
-      "justificacion": "Las resoluciones administrativas de carácter particular no pueden vulnerar lo establecido en una disposición de carácter general, aunque provengan de órgano de igual o superior jerarquía.",
-      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
-      "referencia": "Ley 40/2015 art. 37 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "justificacion": "Las resoluciones administrativas **de carácter particular** no pueden vulnerar lo establecido en una **disposición de carácter general**, aunque procedan de un órgano de igual o superior jerarquía.",
+      "trampa": "Ni siquiera el **órgano superior** puede establecer por resolución singular una excepción contraria al reglamento vigente.",
+      "referencia": "Ley 39/2015, art. 37.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T02-019",
