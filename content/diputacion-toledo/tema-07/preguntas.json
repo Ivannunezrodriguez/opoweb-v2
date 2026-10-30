@@ -173,17 +173,17 @@
     },
     {
       "id": "DIP-T07-013",
-      "pregunta": "¿Qué plazo tiene el órgano para cursar una notificación desde que dicta el acto?",
+      "pregunta": "Si se intenta notificar en papel en el domicilio y no hay nadie que se haga cargo, ¿cuándo se repite el intento según el artículo 42.2?",
       "opciones": [
-        "Diez días",
-        "Quince días",
-        "Un mes",
-        "Tres días"
+        "En la misma hora del siguiente día necesariamente",
+        "Una sola vez, en una hora distinta y dentro de los tres días siguientes",
+        "Dos veces más en el plazo de diez días",
+        "Se publica sin más trámite en el BOE"
       ],
-      "correcta": 0,
-      "justificacion": "El artículo 40.2 exige cursar toda notificación dentro de los **10 días** desde la fecha del acto.",
-      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
-      "referencia": "Ley 39/2015, artículo 40 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 1,
+      "justificacion": "La notificación domiciliaria se intentará **una sola vez más**, en **hora distinta** y dentro de los **tres días siguientes**, respetando los requisitos horarios del **artículo 42.2**.",
+      "trampa": "El segundo intento debe guardar **al menos tres horas** respecto del primero y alternar antes y después de las **15:00**.",
+      "referencia": "Ley 39/2015, art. 42.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T07-014",
@@ -229,59 +229,59 @@
     },
     {
       "id": "DIP-T07-017",
-      "pregunta": "¿Qué tipo de invalidez corresponde a un acto de contenido imposible?",
+      "pregunta": "¿Qué ocurre con los actos dictados por órgano manifiestamente incompetente por razón de la materia o del territorio?",
       "opciones": [
-        "Nulidad de pleno derecho",
-        "Simple irregularidad inocua",
-        "Anulabilidad solo si causa indefensión",
-        "Convalidación automática"
+        "Son siempre meras irregularidades",
+        "Son nulos de pleno derecho",
+        "Se convalidan automáticamente al transcurrir diez días",
+        "Son reglamentos ilegales"
       ],
-      "correcta": 0,
-      "justificacion": "Los actos de contenido imposible son **nulos de pleno derecho** conforme al art. 47.1.c.",
-      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
-      "referencia": "Ley 39/2015, artículo 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 1,
+      "justificacion": "La **incompetencia manifiesta por razón de materia o territorio** determina **nulidad de pleno derecho** (artículo **47.1.b**).",
+      "trampa": "La mención a **materia o territorio** es decisiva: no toda incompetencia lleva automáticamente a nulidad.",
+      "referencia": "Ley 39/2015, art. 47.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T07-018",
-      "pregunta": "¿Qué vicio causa, con carácter general, la desviación de poder?",
+      "pregunta": "¿Qué vicio de un acto administrativo puede convalidarse mediante la actuación del órgano competente cuando no determine nulidad?",
       "opciones": [
-        "Nulidad automática de cualquier ley",
-        "Anulabilidad del acto",
-        "Simple recomendación sin efectos",
-        "Caducidad del procedimiento en todos los casos"
+        "Una incompetencia no determinante de nulidad",
+        "Un contenido imposible",
+        "Una lesión de derechos susceptibles de amparo constitucional",
+        "Un acto constitutivo de infracción penal"
       ],
-      "correcta": 1,
-      "justificacion": "La infracción del ordenamiento, incluida **desviación de poder**, determina anulabilidad según el art. 48.1.",
-      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
-      "referencia": "Ley 39/2015, artículo 48 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 0,
+      "justificacion": "El **artículo 52.3** permite convalidar el acto anulable por incompetencia que **no determine nulidad** mediante convalidación del **órgano competente** cuando sea superior jerárquico del que lo dictó.",
+      "trampa": "Los actos **nulos de pleno derecho** no se convalidan por el cauce del artículo **52**.",
+      "referencia": "Ley 39/2015, art. 52.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T07-019",
-      "pregunta": "¿Qué sucede con un acto anulable cuando se subsana su vicio conforme a la Ley 39/2015?",
+      "pregunta": "¿Qué fecha debe incluirse en el contenido de una notificación de un acto administrativo, según el artículo 40.2?",
       "opciones": [
-        "Debe anularse siempre judicialmente",
-        "Se transforma necesariamente en reglamento",
-        "Puede ser convalidado por la Administración",
-        "Se extingue la competencia"
+        "La de publicación de la Constitución",
+        "La del último acceso del interesado a la sede",
+        "La indicación de si el acto pone fin a la vía administrativa y los recursos procedentes",
+        "La fecha de firma del último reglamento municipal"
       ],
       "correcta": 2,
-      "justificacion": "El art. 52 permite a la Administración **convalidar actos anulables** subsanando los vicios de que adolezcan.",
-      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
-      "referencia": "Ley 39/2015, artículo 52 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "justificacion": "El **artículo 40.2** exige indicar si el acto **pone fin a la vía administrativa**, los **recursos** procedentes, el **órgano** ante el que presentarlos y su **plazo**, además del texto íntegro.",
+      "trampa": "No basta entregar el texto íntegro: la notificación debe indicar **recursos, órgano y plazo**.",
+      "referencia": "Ley 39/2015, art. 40.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T07-020",
-      "pregunta": "¿Qué efecto tiene, por regla general, la nulidad o anulabilidad de un acto sobre otros actos independientes del procedimiento?",
+      "pregunta": "Según el artículo 51, ¿qué debe conservarse al declarar la nulidad o anulabilidad de actuaciones?",
       "opciones": [
-        "Los invalida todos automáticamente",
-        "Los convierte en resoluciones firmes",
-        "Impide conservar trámites válidos",
-        "No implica la de los sucesivos independientes del primero"
+        "Ningún trámite anterior puede conservarse",
+        "Solo el acto finalmente anulado",
+        "Los actos y trámites cuyo contenido se habría mantenido igual de no cometerse la infracción",
+        "Únicamente las notificaciones posteriores"
       ],
-      "correcta": 3,
-      "justificacion": "El art. 49.1 establece que la nulidad o anulabilidad de un acto no implica la de los sucesivos que sean independientes de aquél.",
-      "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
-      "referencia": "Ley 39/2015, artículo 49 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 2,
+      "justificacion": "La **conservación de actos y trámites** se refiere a aquellos cuyo contenido se habría mantenido **igual** de no haberse cometido la infracción (artículo **51**).",
+      "trampa": "La invalidez de un acto no obliga a repetir automáticamente todo el procedimiento.",
+      "referencia": "Ley 39/2015, art. 51 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ]
 }
