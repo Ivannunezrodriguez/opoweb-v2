@@ -201,17 +201,17 @@
     },
     {
       "id": "DIP-T08-015",
-      "pregunta": "¿Ante qué órgano se interpone el recurso de reposición?",
+      "pregunta": "En el ámbito de una entidad local, ¿qué órgano declara la lesividad de un acto favorable anulable?",
       "opciones": [
-        "El superior jerárquico",
-        "El que dictó el acto",
-        "El Consejo de Estado",
-        "El Tribunal de Cuentas"
+        "El alcalde necesariamente",
+        "El Pleno de la Corporación o, en su defecto, su órgano colegiado superior",
+        "La Junta Electoral de Zona",
+        "El secretario municipal por sí solo"
       ],
       "correcta": 1,
-      "justificacion": "Se presenta ante el **mismo órgano** que dictó el acto.",
-      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 123 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "justificacion": "El **artículo 107.5 de la Ley 39/2015** atribuye la declaración de lesividad, en las entidades locales, al **Pleno de la Corporación** o, en defecto de éste, al **órgano colegiado superior**.",
+      "trampa": "No confundir la competencia local para declarar lesividad con la competencia estatal del artículo 111.",
+      "referencia": "Ley 39/2015, art. 107.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T08-016",
@@ -229,17 +229,17 @@
     },
     {
       "id": "DIP-T08-017",
-      "pregunta": "¿Qué plazo existe para interponer revisión extraordinaria por error de hecho acreditado en el expediente?",
+      "pregunta": "¿Qué efecto produce que transcurran seis meses desde el inicio del procedimiento de declaración de lesividad sin declararse ésta?",
       "opciones": [
-        "Tres meses",
-        "Un mes",
-        "Seis meses",
-        "Cuatro años"
+        "Estimación por silencio",
+        "Caducidad del procedimiento",
+        "Nulidad automática del acto favorable",
+        "Prórroga de cuatro años"
       ],
-      "correcta": 3,
-      "justificacion": "El **error de hecho** permite interponer el recurso en **4 años** desde notificación del acto.",
-      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 1,
+      "justificacion": "Conforme al **artículo 107.3**, transcurridos **6 meses** desde el inicio del procedimiento sin declaración de lesividad, se produce la **caducidad**.",
+      "trampa": "Distinguir los **4 años** máximos desde que se dictó el acto para declarar lesividad y los **6 meses** de duración de su procedimiento.",
+      "referencia": "Ley 39/2015, art. 107.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T08-018",
@@ -271,17 +271,17 @@
     },
     {
       "id": "DIP-T08-020",
-      "pregunta": "¿Qué plazo existe para declarar lesivo un acto favorable anulable?",
+      "pregunta": "¿Qué plazo de audiencia se exige antes de declarar lesivo un acto favorable anulable?",
       "opciones": [
-        "Seis meses desde la notificación",
-        "Un año desde su publicación",
-        "Cuatro años desde que se dictó el acto",
-        "En cualquier momento"
+        "Ninguno, porque el acto es favorable",
+        "Audiencia previa de los interesados conforme al artículo 82",
+        "Un plazo fijo e invariable de 30 días",
+        "Solo audiencia ante el órgano judicial"
       ],
-      "correcta": 2,
-      "justificacion": "La declaración de lesividad no podrá adoptarse una vez transcurridos **4 años** desde que se dictó el acto.",
-      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 107 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 1,
+      "justificacion": "El **artículo 107.2** exige audiencia previa de los interesados en los términos del **artículo 82**, que contempla un plazo no inferior a **10 días** ni superior a **15 días**.",
+      "trampa": "La declaración de lesividad es previa a la impugnación judicial y exige audiencia administrativa.",
+      "referencia": "Ley 39/2015, arts. 107.2 y 82.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     }
   ]
 }
