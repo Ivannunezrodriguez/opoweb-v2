@@ -25,3 +25,11 @@
 ## Fecha de auditoría
 
 **19 de julio de 2026**.
+
+## Auditoría focalizada — **31/10/2026**
+
+- [ROF, Real Decreto 2568/1986, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252): **artículos 151 a 153**, Registro General de las entidades locales, organización desconcentrada y datos de asientos.
+- [Ley 39/2015, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565): **artículos 16.3 a 16.5 y 31.2**, recibo del registro electrónico, lugares de presentación, digitalización y disponibilidad horaria.
+- Preguntas revisadas: **DIP-T11-016 a DIP-T11-020**, manteniendo **20 preguntas**.
+
+**Alcance:** revisión focalizada; pendientes auditoría jurídica integral y pruebas funcionales de OpoWeb.
