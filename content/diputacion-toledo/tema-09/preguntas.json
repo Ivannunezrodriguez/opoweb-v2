@@ -201,59 +201,59 @@
     },
     {
       "id": "DIP-T09-015",
-      "pregunta": "¿Impide la validez de la notificación que no llegue el aviso por correo?",
+      "pregunta": "¿Qué fecha cuenta como presentación de una solicitud si una persona jurídica la presentó en papel y después subsana electrónicamente?",
       "opciones": [
-        "Sí",
-        "Sí, si hay teléfono",
-        "Solo en procedimientos sancionadores",
-        "No"
+        "La fecha de la entrega presencial inicial",
+        "La fecha de la subsanación mediante presentación electrónica",
+        "La fecha en que se dictó el requerimiento",
+        "La del día hábil anterior a la presentación en papel"
       ],
-      "correcta": 3,
-      "justificacion": "Conforme a artículo 41 de la legislación administrativa aplicable.",
-      "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 39/2015 art. 41"
+      "correcta": 1,
+      "justificacion": "El **artículo 68.4 de la Ley 39/2015** considera fecha de presentación aquella en que se efectúa la **subsanación electrónica**.",
+      "trampa": "No se conserva, a estos efectos, la fecha original de entrada en papel.",
+      "referencia": "Ley 39/2015, art. 68.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DIP-T09-016",
-      "pregunta": "¿Cuándo se rechaza por falta de acceso una notificación electrónica obligatoria?",
+      "pregunta": "¿Qué sistemas de firma puede emplear una Administración en actuaciones administrativas automatizadas según el artículo 42 Ley 40/2015?",
       "opciones": [
-        "Tras diez días naturales",
-        "Tras diez días hábiles",
-        "Tras cinco días",
-        "Tras un mes"
+        "Únicamente firma manuscrita escaneada",
+        "Exclusivamente DNI electrónico del ciudadano",
+        "Sello electrónico o código seguro de verificación en los términos legales",
+        "Solo firma del empleado público presente"
       ],
-      "correcta": 0,
-      "justificacion": "Conforme a artículo 43 de la legislación administrativa aplicable.",
-      "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 39/2015 art. 43"
+      "correcta": 2,
+      "justificacion": "El **artículo 42 de la Ley 40/2015** contempla **sello electrónico** y **código seguro de verificación (CSV)** para actuaciones automatizadas.",
+      "trampa": "No confundir los sistemas de firma de actuación automatizada con la firma personal del interesado.",
+      "referencia": "Ley 40/2015, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
     },
     {
       "id": "DIP-T09-017",
-      "pregunta": "¿Qué actuación exige firma del interesado?",
+      "pregunta": "En una actuación administrativa automatizada, ¿qué debe determinarse previamente según el artículo 41.2 Ley 40/2015?",
       "opciones": [
-        "Leer una sede electrónica",
-        "Interponer recursos",
-        "Consultar información pública",
-        "Navegar un portal"
+        "Únicamente el nombre comercial del programa",
+        "Los órganos responsables de especificaciones, programación, mantenimiento, supervisión y control y el responsable a efectos de impugnación",
+        "El número de empleados que firmarán manualmente cada acto",
+        "Solo la unidad que archiva documentos"
       ],
       "correcta": 1,
-      "justificacion": "Conforme a artículo 11 de la legislación administrativa aplicable.",
-      "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 39/2015 art. 11"
+      "justificacion": "El **artículo 41.2** exige determinar previamente los órganos responsables de las fases técnicas y de control y el **órgano responsable a efectos de impugnación**.",
+      "trampa": "Automatizada no significa carente de responsabilidad administrativa.",
+      "referencia": "Ley 40/2015, art. 41.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
     },
     {
       "id": "DIP-T09-018",
-      "pregunta": "¿Qué regla se aplica a documentos recibidos en día inhábil para cómputo en días hábiles?",
+      "pregunta": "¿Qué garantiza el código seguro de verificación (CSV) previsto para actuaciones administrativas automatizadas?",
       "opciones": [
-        "Se rechazan",
-        "Se registran con fecha del día hábil anterior",
-        "Se entienden presentados en la primera hora del primer día hábil siguiente, salvo norma expresa",
-        "Se eliminan"
+        "La confidencialidad absoluta de cualquier expediente",
+        "La eliminación del procedimiento de recurso",
+        "La comprobación de integridad del documento accediendo a la sede electrónica correspondiente",
+        "La caducidad automática del documento a los diez días"
       ],
       "correcta": 2,
-      "justificacion": "Conforme a artículo 31 de la legislación administrativa aplicable.",
-      "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 39/2015 art. 31"
+      "justificacion": "El **artículo 42.b Ley 40/2015** exige que el sistema CSV permita comprobar la **integridad del documento** mediante acceso a la **sede electrónica correspondiente**.",
+      "trampa": "El CSV facilita verificación, pero no sustituye a la tramitación ni elimina recursos.",
+      "referencia": "Ley 40/2015, art. 42.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
     },
     {
       "id": "DIP-T09-019",
