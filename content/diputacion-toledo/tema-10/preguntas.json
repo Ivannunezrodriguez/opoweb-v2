@@ -201,73 +201,73 @@
     },
     {
       "id": "DIP-T10-015",
-      "pregunta": "¿Cuándo empieza a contar la prescripción por daños físicos o psíquicos?",
+      "pregunta": "¿Cuántos días tienen las demás Administraciones implicadas para contestar la consulta prevista en el artículo 33.4?",
       "opciones": [
-        "El día del acto en todo caso",
-        "El día de presentar la denuncia",
-        "Un año después del alta médica",
-        "Desde curación o determinación del alcance de las secuelas"
+        "5",
+        "10",
+        "15",
+        "30"
       ],
-      "correcta": 3,
-      "justificacion": "En daños físicos o psíquicos el cómputo comienza desde la **curación** o la determinación del **alcance de las secuelas**.",
-      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
-      "referencia": "Ley 39/2015 art. 67.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 2,
+      "justificacion": "Artículo 33.4 Ley 40/2015: **15 días**.",
+      "trampa": "Distinguir plazos y efectos del procedimiento especial.",
+      "referencia": "Ley 40/2015, arts. 33 y 36 · https://www.boe.es/eli/es/l/2015/10/01/40/con"
     },
     {
       "id": "DIP-T10-016",
-      "pregunta": "¿Cuál es el plazo para emitir el informe preceptivo del servicio causante de la lesión?",
+      "pregunta": "¿Cuánto dura el trámite de alegaciones en la acción de regreso contra el personal público?",
       "opciones": [
+        "5 días",
         "10 días",
         "15 días",
-        "20 días",
-        "1 mes"
+        "20 días"
       ],
-      "correcta": 0,
-      "justificacion": "El informe del servicio debe emitirse en plazo no superior a **10 días**.",
-      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
-      "referencia": "Ley 39/2015 art. 81.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 2,
+      "justificacion": "Artículo 36.4.a Ley 40/2015: **15 días**.",
+      "trampa": "Distinguir plazos y efectos del procedimiento especial.",
+      "referencia": "Ley 40/2015, arts. 33 y 36 · https://www.boe.es/eli/es/l/2015/10/01/40/con"
     },
     {
       "id": "DIP-T10-017",
-      "pregunta": "¿Qué requisito exige el artículo 36.2 Ley 40/2015 para repetir contra una autoridad o empleado?",
+      "pregunta": "¿Cuánto dura el trámite de audiencia en el procedimiento del artículo 36.4?",
       "opciones": [
-        "La mera existencia de daño",
-        "Dolo o culpa o negligencia graves",
-        "Un error material sin más",
-        "La sola presentación de una denuncia"
+        "5 días",
+        "10 días",
+        "15 días",
+        "20 días"
       ],
       "correcta": 1,
-      "justificacion": "La acción de regreso exige **dolo** o **culpa o negligencia graves**, previa instrucción del procedimiento correspondiente.",
-      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
-      "referencia": "Ley 40/2015 art. 36.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "justificacion": "Artículo 36.4.c Ley 40/2015: **10 días**.",
+      "trampa": "Distinguir plazos y efectos del procedimiento especial.",
+      "referencia": "Ley 40/2015, arts. 33 y 36 · https://www.boe.es/eli/es/l/2015/10/01/40/con"
     },
     {
       "id": "DIP-T10-018",
-      "pregunta": "¿Cómo es la responsabilidad en fórmulas conjuntas de actuación de varias Administraciones frente al particular?",
+      "pregunta": "¿Cuánto tiempo tiene el órgano para formular la propuesta de resolución tras la audiencia en el procedimiento del artículo 36.4?",
       "opciones": [
-        "Exclusivamente del municipio",
-        "Siempre solo de la AGE",
-        "Solidaria como regla general",
-        "Responsabilidad inexistente"
+        "5 días",
+        "10 días",
+        "15 días",
+        "20 días"
       ],
-      "correcta": 2,
-      "justificacion": "Cuando la actuación administrativa deriva de fórmulas conjuntas de actuación, las Administraciones intervinientes responden **solidariamente** frente al particular, sin perjuicio de previsiones de instrumentos jurídicos.",
-      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
-      "referencia": "Ley 40/2015 art. 33.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "correcta": 0,
+      "justificacion": "Artículo 36.4.d Ley 40/2015: **5 días**.",
+      "trampa": "Distinguir plazos y efectos del procedimiento especial.",
+      "referencia": "Ley 40/2015, arts. 33 y 36 · https://www.boe.es/eli/es/l/2015/10/01/40/con"
     },
     {
       "id": "DIP-T10-019",
-      "pregunta": "¿Cuál es el umbral general para solicitar dictamen del Consejo de Estado u órgano autonómico consultivo equivalente, si la norma no fija otro?",
+      "pregunta": "¿Qué efecto tiene la resolución declaratoria de responsabilidad del empleado público?",
       "opciones": [
-        "3.000 euros",
-        "10.000 euros",
-        "30.000 euros",
-        "50.000 euros"
+        "No pone fin a la vía administrativa",
+        "Pone fin a la vía administrativa",
+        "No puede impugnarse",
+        "Es una norma general"
       ],
-      "correcta": 3,
-      "justificacion": "Dictamen preceptivo si la indemnización reclamada es **igual o superior a 50.000 euros**, o cifra prevista por legislación autonómica, o en los supuestos de la LO del Consejo de Estado.",
-      "trampa": "Distinguir plazos, órgano, cuantía y condición legal.",
-      "referencia": "Ley 39/2015 art. 81.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "correcta": 1,
+      "justificacion": "Artículo 36.5 Ley 40/2015: pone fin a la vía administrativa.",
+      "trampa": "Distinguir plazos y efectos del procedimiento especial.",
+      "referencia": "Ley 40/2015, arts. 33 y 36 · https://www.boe.es/eli/es/l/2015/10/01/40/con"
     },
     {
       "id": "DIP-T10-020",
