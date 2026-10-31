@@ -16,3 +16,8 @@
 ## Criterio editorial
 
 El tema se ha redactado íntegramente desde cero. No se ha reutilizado ni adaptado contenido de La Puebla ni de otras convocatorias.
+
+
+## Comprobación 31/10/2026
+
+Ley 40/2015, artículo 36.4: alegaciones **15 días**, pruebas **15 días**, audiencia **10 días**, propuesta **5 días**, resolución **5 días**. Artículo 33.4: consulta a otras Administraciones **15 días**.
