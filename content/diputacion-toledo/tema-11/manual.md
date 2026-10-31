@@ -298,3 +298,21 @@ PROCEDIMIENTO LOCAL
 > ⚠️ **¡Foco Examen!:** **10 días** para cursar una notificación no equivale a **10 días naturales** para el rechazo de una notificación electrónica obligatoria puesta a disposición sin acceder. La presencia de un aviso por correo tampoco sustituye a la notificación.
 
 **Fuente primaria contrastada:** [Ley 39/2015 consolidada — BOE, actualización publicada el 06/11/2024](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). **20 preguntas** disponibles. Continúan pendientes revisión editorial integral del tema y comprobación funcional del portal.
+
+
+## 10. Auditoría del Registro General local — **31/10/2026**
+
+| Cuestión | Regla aplicable | Fuente |
+|---|---|---|
+| Registro General local | Hace constar **entradas de documentos recibidos** y **salidas de documentos despachados definitivamente** | **Art. 151.1 ROF** |
+| Organización del registro | Cabe **organización desconcentrada** según los servicios locales | **Art. 151.3 ROF** |
+| Asientos de entrada | Consignan número correlativo, fechas, procedencia, extracto y dependencia destinataria, entre otros extremos | **Art. 153.1 ROF** |
+| Presentación de escritos | Registros electrónicos de las Administraciones, **Correos**, oficinas de asistencia, representaciones diplomáticas y consulados, entre otros lugares legales | **Art. 16.4 Ley 39/2015** |
+| Justificante del registro electrónico | **Recibo automático**, copia autenticada, **fecha**, **hora** y **número de entrada**, además del justificante de anexos | **Art. 16.3 Ley 39/2015** |
+| Documento en papel presentado presencialmente | La oficina de asistencia debe **digitalizarlo** y devolver el original salvo excepciones | **Art. 16.5 Ley 39/2015** |
+
+> ⚠️ **¡Foco Examen!:** **Registro General** no significa ventanilla única centralizada físicamente: el **artículo 151.3 ROF** admite su organización **desconcentrada**.
+
+> ⚠️ **¡Foco Examen!:** La previsión histórica del ROF sobre atención presencial en días hábiles no elimina el registro electrónico disponible **24 horas al día, todos los días del año** conforme al **artículo 31.2 Ley 39/2015**.
+
+Fuentes: [ROF, artículos 151–153](https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252) y [Ley 39/2015, artículos 16 y 31](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Auditoría focalizada; revisión integral y pruebas funcionales pendientes.
