@@ -287,3 +287,21 @@ REVISIÓN ADMINISTRATIVA
 > ⚠️ **¡Foco Examen!:** En alzada, **1 mes** para interponer contra acto expreso y **3 meses** para resolver; en reposición, ambos plazos son de **1 mes**. El recurso extraordinario por **error de hecho** tiene **4 años** de interposición, no **4 meses**.
 
 **Fuente contrastada:** [Ley 39/2015, Título V, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco de **20 preguntas**, pendiente evaluación integral de calidad y prueba funcional del portal.
+
+
+## 15. Auditoría de la declaración de lesividad — **31/10/2026**
+
+| Aspecto | Regla de examen | Ley 39/2015 |
+|---|---|---|
+| Objeto | Actos **favorables** para interesados que sean **anulables** | **107.1** |
+| Límite para declarar lesividad | Dentro de los **4 años** siguientes a dictarse el acto | **107.2** |
+| Audiencia | Audiencia previa a **todos los interesados**, conforme al artículo 82: **10–15 días** | **107.2 y 82.2** |
+| Duración del procedimiento | **6 meses** desde el inicio; transcurridos sin declaración, **caducidad** | **107.3** |
+| Órgano competente en entidades locales | **Pleno de la Corporación** o, en su defecto, **órgano colegiado superior** | **107.5** |
+| Impugnación de la declaración | La propia declaración no admite recurso administrativo, sin perjuicio de su examen judicial | **107.2** |
+
+> ⚠️ **¡Foco Examen!:** Los **4 años** limitan desde cuándo puede declararse lesivo un acto; los **6 meses** limitan la duración del procedimiento de lesividad y su superación produce **caducidad**.
+
+> ⚠️ **¡Foco Examen!:** En una **Diputación Provincial** el órgano de la declaración de lesividad es el **Pleno**, no el presidente por la mera condición de órgano ejecutivo.
+
+Fuente: [Ley 39/2015, artículo 107, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Comprobación focalizada; no sustituye la auditoría completa del tema.
