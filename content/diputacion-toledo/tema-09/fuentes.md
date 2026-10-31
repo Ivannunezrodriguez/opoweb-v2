@@ -29,3 +29,12 @@
 - No se reutiliza contenido de La Puebla ni de otras convocatorias.
 - Se mantiene la literalidad de conceptos jurídicos esenciales.
 - Los datos temporales y obligaciones se resaltan en **negrita**.
+
+
+## Auditoría jurídica focalizada — **31/10/2026**
+
+- [Ley 39/2015, artículo 68.4, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565): fecha de presentación de solicitudes subsanadas electrónicamente por sujetos obligados.
+- [Ley 40/2015, artículos 41 y 42, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566): actuación administrativa automatizada, órganos responsables, sello electrónico y **CSV**.
+- [RD 4/2010, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331): **Esquema Nacional de Interoperabilidad**.
+
+**Cambios:** preguntas **DIP-T09-015 a 018** revisadas; tabla de contraste añadida al manual. Quedan pendientes revisión integral de todas las materias y pruebas funcionales.
