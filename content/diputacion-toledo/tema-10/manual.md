@@ -255,3 +255,22 @@ ACCIÓN DE REGRESO CONTRA AUTORIDAD O EMPLEADO
 > ⚠️ **¡Foco Examen!:** El **informe del servicio** se emite en **10 días**; el **plazo general de resolución** de responsabilidad patrimonial es **6 meses**. No confundir con la **prescripción de 1 año** para reclamar.
 
 **Fuentes primarias contrastadas:** [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) y [Ley 40/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). Banco ampliado de **12 a 20 preguntas**. Pendientes la auditoría íntegra de precisión jurídica y comprobación funcional de la web antes del cierre definitivo.
+
+
+## 14. Auditoría focalizada del procedimiento de regreso — **31/10/2026**
+
+| Fase o supuesto | Plazo o efecto | Norma |
+|---|---|---|
+| Consulta a otras Administraciones implicadas por responsabilidad concurrente | **15 días** | **Art. 33.4, Ley 40/2015** |
+| Alegaciones en procedimiento contra autoridades o empleados | **15 días** | **Art. 36.4.a** |
+| Pruebas admitidas y otras procedentes | **15 días** | **Art. 36.4.b** |
+| Audiencia | **10 días** | **Art. 36.4.c** |
+| Propuesta de resolución tras audiencia | **5 días** | **Art. 36.4.d** |
+| Resolución por órgano competente | **5 días** | **Art. 36.4.e** |
+| Resolución declaratoria de responsabilidad | **Pone fin a la vía administrativa** | **Art. 36.5** |
+
+> ⚠️ **¡Foco Examen!:** La persona perjudicada reclama directamente a la **Administración**; la posterior acción de regreso contra la autoridad o empleado exige **dolo, culpa o negligencia graves**. No equivale a demandar directamente al funcionario.
+
+> ⚠️ **¡Foco Examen!:** Memoriza la secuencia del artículo **36.4**: **15 + 15 + 10 + 5 + 5 días**. No confundir con los **15 días** concedidos para consultar a otras Administraciones en el artículo **33.4**.
+
+Fuente oficial: [Ley 40/2015, artículos 33 y 36](https://www.boe.es/eli/es/l/2015/10/01/40/con). Auditoría focalizada; pendiente comprobación integral y pruebas funcionales.
