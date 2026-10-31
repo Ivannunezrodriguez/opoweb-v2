@@ -339,3 +339,21 @@ ADMINISTRACIÓN ELECTRÓNICA
 > ⚠️ **¡Foco Examen!:** El **aviso** de una notificación no es la **notificación**. No recibir un correo de aviso no anula por sí solo la notificación correctamente puesta a disposición.
 
 **Verificación documental:** [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [Real Decreto 203/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032). Banco ampliado a **20 preguntas**. Aún pendiente auditoría integral y prueba funcional del portal.
+
+
+## 18. Auditoría focalizada: subsanación y actuaciones automatizadas — **31/10/2026**
+
+| Concepto | Regla de examen | Referencia |
+|---|---|---|
+| Persona jurídica que solicita en papel | Debe **subsanar mediante presentación electrónica**; se considera fecha de presentación la de dicha **subsanación** | **Art. 68.4 Ley 39/2015** |
+| Actuación administrativa automatizada | Acto o actuación íntegramente electrónica **sin intervención directa de empleado público** | **Art. 41.1 Ley 40/2015** |
+| Responsabilidad de la actuación automatizada | Deben determinarse previamente **órganos responsables** de especificaciones, programación, mantenimiento, supervisión, control de calidad y eventual auditoría, además del responsable de impugnación | **Art. 41.2 Ley 40/2015** |
+| Firma de actuaciones automatizadas | **Sello electrónico** o **código seguro de verificación (CSV)** en los términos legalmente previstos | **Art. 42 Ley 40/2015** |
+| Código seguro de verificación | Debe permitir comprobar la **integridad del documento** accediendo a la **sede electrónica** correspondiente | **Art. 42.b Ley 40/2015** |
+| Esquema Nacional de Interoperabilidad | Se regula mediante el **Real Decreto 4/2010** | **RD 4/2010** |
+
+> ⚠️ **¡Foco Examen!:** La **subsanación electrónica** por sujetos obligados que presentaron papel determina la **fecha de presentación**; no se retrotrae sin más a la entrega presencial inicial.
+
+> ⚠️ **¡Foco Examen!:** Una actuación **automatizada** no implica ausencia de órganos responsables: la ley exige designar responsables técnicos y un **órgano responsable a efectos de impugnación**. No confundir **sello electrónico** con **CSV**.
+
+Fuentes oficiales: [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [Ley 40/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) y [Real Decreto 4/2010](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331). **Auditoría parcial:** falta revisión integral y pruebas funcionales.
