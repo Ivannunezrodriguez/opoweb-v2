@@ -333,7 +333,7 @@ function hydrateRadarPreview() {
           item.position && item.officialUrl && !item.phaseFollowup &&
           item.state !== 'CERRADA' && item.state !== 'NO_ACCESIBLE'
         );
-        const stamp = /^\\d{4}-\\d{2}-\\d{2}/.test(String(data.generatedAt || ''))
+        const stamp = /^\d{4}-\d{2}-\d{2}/.test(String(data.generatedAt || ''))
           ? String(data.generatedAt).slice(8, 10) + '/' +
             String(data.generatedAt).slice(5, 7) + '/' + String(data.generatedAt).slice(0, 4)
           : 'no confirmada';
