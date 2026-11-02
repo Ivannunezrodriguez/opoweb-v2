@@ -121,7 +121,10 @@ assert.ok(practiceJs.includes('data-theme-test'));
 assert.ok(practiceJs.includes('saveAttempt({'));
 assert.ok(practiceJs.includes('themeStats'));
 assert.ok(practiceJs.includes('errors'));
-assert.ok(practiceJs.includes("if (result.answered === false) return;"), 'Las preguntas en blanco no deben entrar en errores');
+assert.ok(
+  practiceJs.includes("if (result.answered === false || result.reserve === true) return;"),
+  'Las preguntas en blanco y las reservas no deben computar en las estadísticas de errores'
+);
 assert.ok(practiceJs.includes("correct * 0.2 - errors * 0.05"), 'Falta calificación ajustada a las bases de La Puebla');
 assert.ok(practiceJs.includes("item.notaExamen"), 'Falta nota oficial en historial de simulacros');
 assert.ok(practiceRouteJs.includes('practiceUrl'));
