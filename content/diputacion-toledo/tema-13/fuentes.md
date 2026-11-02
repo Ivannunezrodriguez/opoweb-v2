@@ -34,3 +34,12 @@ El contenido se ha generado desde cero a partir de fuentes oficiales vigentes. N
 - Banco ampliado de **12 a 20 preguntas**; pendientes auditoría integral de todas las afirmaciones y prueba funcional de OpoWeb.
 
 > ⚠️ **¡Foco Examen!:** **Aprobación inicial + exposición de 15 días** no equivale a aprobación definitiva automática cuando existen reclamaciones; en ese caso el **Pleno** dispone de **un mes** para resolverlas.
+
+
+## Auditoría focalizada — **02/11/2026**
+
+- [Ley 7/1985, artículo 26, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): obligaciones acumuladas de servicios municipales según umbrales de **5.000**, **20.000** y **50.000 habitantes**.
+- [RDL 2/2004, artículo 169, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): **15 días** de exposición pública, resolución de reclamaciones por el **Pleno** en **un mes**, aprobación definitiva, publicación y prórroga presupuestaria con exclusiones.
+- Revisadas las preguntas **DIP-T13-014, 015, 017, 019 y 020**; el test conserva **20 preguntas**.
+
+**Estado:** revisión jurídica focalizada, pendiente auditoría integral y pruebas funcionales.
