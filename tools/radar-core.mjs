@@ -1,4 +1,5 @@
 import {createHash} from 'node:crypto';
+import {normalizeOpportunity} from '../assets/radar-quality.js';
 
 // Match recruitment, not a closed list of professions: trades and substitutions matter too.
 const hiring=/convoc|plazas?|puestos?|procesos? selectiv|bolsa|lista de espera|interin|oposici[oó]n|concurso.oposici[oó]n|oferta de empleo p[uú]blico|\bOEP\b|contrataci[oó]n|selecci[oó]n de personal|sustituci[oó]n|suplencia|relevo|personal temporal|plan(?:es)? de empleo|oferta de empleo/i;
@@ -51,9 +52,24 @@ export function merge(previous,entries,date){
   const id=fingerprint(entry),old=byId.get(id);
   // A direct listing linking an already known official notice is not another alert.
   if(entry.source==='DIRECT'&&[...byId.values()].some(x=>x.officialUrl===entry.url&&x.id!==id))continue;
-  byId.set(id,{id,title:entry.title,organism:entry.context||'Consultar anuncio',location:entry.location||(match.zone==='TOLEDO'?'Toledo (verificar destino)':'Madrid sur (verificar destino)'),publishedAt:entry.publishedAt||null,...match,category:'Empleo público',vacancies:entry.vacancies??null,deadline:entry.deadline??null,access:entry.access||'Revisar bases',qualification:entry.qualification||'Revisar bases',source:entry.source,officialUrl:entry.url,verifiedAt:date,firstSeen:old?.firstSeen||date,isNew:!old});
+  // Nunca perder datos contrastados de una ejecución anterior porque un feed posterior venga incompleto.
+  const evidence=(entry.searchText||entry.title||'').slice(0,850);
+  const access=entry.access||(
+    /concurso.oposici[oó]n/i.test(evidence)?'Concurso-oposición':
+    /sistema\s+de\s+oposici[oó]n/i.test(evidence)?'Oposición':
+    /turno\s+libre|acceso\s+libre/i.test(evidence)?'Turno libre':
+    null
+  );
+  const raw={id,title:entry.title,organism:entry.context||old?.organism||'Consultar anuncio',
+    location:entry.location||old?.location||(match.zone==='TOLEDO'?'Provincia de Toledo (destino por comprobar)':'Madrid sur (destino por comprobar)'),
+    publishedAt:entry.publishedAt||old?.publishedAt||null,...match,category:'Empleo público',
+    vacancies:entry.vacancies??old?.vacancies??null,deadline:entry.deadline||old?.deadline||null,
+    applicationTerm:entry.applicationTerm||old?.applicationTerm||null,
+    access:access||old?.access||null,qualification:entry.qualification||old?.qualification||null,
+    source:entry.source,officialUrl:entry.url,verifiedAt:date,firstSeen:old?.firstSeen||date,isNew:!old};
+  byId.set(id,normalizeOpportunity(raw,date));
  }
- return [...byId.values()].sort((a,b)=>b.firstSeen.localeCompare(a.firstSeen));
+ return [...byId.values()].map(x=>normalizeOpportunity(x,date)).sort((a,b)=>String(b.firstSeen||'').localeCompare(String(a.firstSeen||'')));
 }
 
 export function bopEntries(html){
@@ -100,7 +116,9 @@ export function boeVacancyEntries(item,html){
   ...item,
   id:`${item.id}-${createHash('sha256').update(p).digest('hex').slice(0,10)}`,
   title:`${item.title} — ${p.slice(0,240)}`,
-  deadline:html.includes('plazo de presentación de solicitudes')? 'Consultar plazo en BOE':null,
+  // La mención de un plazo relativo no permite calcular una fecha exacta sin calendario oficial.
+  applicationTerm:(decode(block).match(/plazo\s+de\s+presentaci[oó]n\s+de\s+solicitudes[^.]{0,180}/i)?.[0]||null),
+  deadline:null,
   searchText:`${item.title} ${p}`
  }));
 }
