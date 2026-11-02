@@ -21,12 +21,15 @@
       <p class="subtitle">Temarios oficiales desarrollados y en revisión jurídica continua. Consulta las fuentes y su fecha de control.</p>
     </div>
     <div class="header-actions">
-      <a class="btn" href="radar.html">🔎 Radar</a>
-      <a class="btn" href="practice.html">📝 Practicar</a>
       <button id="theme-toggle" class="btn secondary" type="button" aria-label="Cambiar tema visual">🌙 Oscuro</button>
-      <span class="version" title="Versión editorial de la aplicación">v0.27.32</span>
+      <span class="version" title="Versión editorial de la aplicación">v0.27.33</span>
     </div>
   </header>
+  <nav class="site-nav" aria-label="Secciones de OpoWeb">
+    <a href="index.html" aria-current="page">📚 Temarios y convocatorias</a>
+    <a href="practice.html">📝 Tests y simulacros</a>
+    <a href="radar.html">🔎 OpoRadar · Empleo público</a>
+  </nav>
   <main id="app" class="layout" aria-live="polite">
     <section class="panel intro"><h2>Cargando convocatorias…</h2></section>
   </main>
@@ -51,8 +54,8 @@
       // La aplicación debe arrancar aunque el navegador no permita limpiar cachés.
     }
 
-    await import('./assets/app.js?v=0.27.31');
-    import('./assets/runtime-enhancements.js?v=0.27.31').catch(() => {});
+    await import('./assets/app.js?v=0.27.33');
+    import('./assets/runtime-enhancements.js?v=0.27.33').catch(() => {});
   </script>
 </body>
 </html>
