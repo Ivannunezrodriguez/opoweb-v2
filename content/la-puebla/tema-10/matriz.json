@@ -126,5 +126,25 @@
     "estructura sustantiva completa de cada impuesto local"
   ],
   "criterioDeCierre": "Requiere revisión humana y la expresión Tema 10 aprobado. La longitud, la trazabilidad y la validación automática no acreditan por sí solas suficiencia pedagógica.",
-  "aprobadoEl": "2026-07-17"
+  "aprobadoEl": "2026-07-17",
+  "controlFocalizado20261102": {
+    "fecha": "2026-11-02",
+    "norma": "Ley 58/2003, artículo 27.2–5",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186",
+    "incisos": [
+      "obligaciones tributarias accesorias",
+      "recargos por declaración extemporánea"
+    ],
+    "comprobaciones": [
+      "1 % inicial más 1 % por mes completo antes de cumplirse 12 meses",
+      "15 % desde que transcurren 12 meses e intereses posteriores",
+      "excepción por regularización de otros períodos bajo requisitos acumulados",
+      "posible concurrencia con recargos de período ejecutivo si no se ingresa",
+      "reducción condicionada de 25 % del importe del recargo"
+    ],
+    "preguntas": [
+      "LP-T10-007"
+    ],
+    "estado": "REVISION_JURIDICA_PARCIAL; aprobación histórica no recertificada"
+  }
 }
