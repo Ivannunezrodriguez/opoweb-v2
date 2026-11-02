@@ -1,7 +1,8 @@
 # La Puebla de Montalbán · Tema 3
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Revisión editorial histórica:** 30 de julio de 2026.  
+**Control jurídico focalizado de artículos 58–62 y 96.6:** 2 de noviembre de 2026 (no supone recertificación integral).
 
 ---
 
@@ -165,7 +166,16 @@ Existe propia iniciativa cuando el órgano competente conoce directa o indirecta
 
 ## 10. Artículo 60 · orden superior
 
-La orden superior procede de un órgano jerárquicamente superior al competente para iniciar.
+La **orden superior** es la emitida por un **órgano administrativo jerárquicamente superior** al competente para iniciar (**artículo 60.1 de la Ley 39/2015**). No debe confundirse con la **petición razonada** de un órgano sin competencia para iniciar, que el **artículo 61.2** califica expresamente como **no vinculante**.
+
+| Forma de iniciación de oficio | Quién la origina | Dato jurídico que debe memorizarse |
+|---|---|---|
+| Propia iniciativa | **Órgano competente para iniciar** | Conoce directa o indirectamente los hechos (**art. 59**) |
+| Orden superior | **Órgano superior jerárquico** del competente | La Ley la define por el origen jerárquico de la orden (**art. 60**) |
+| Petición razonada | Otro órgano administrativo sin competencia para iniciar | **No vincula** al órgano competente; si no inicia, comunica sus motivos (**art. 61**) |
+| Denuncia | Cualquier persona que comunica hechos | No confiere por sí sola la condición de interesado (**art. 62**) |
+
+> ⚠️ **¡Foco Examen!:** El **art. 60** define quién emite la **orden superior**; evita formular como literal de la Ley 39/2015 una supuesta vinculación **incondicional** en cualquier circunstancia. La falta de vinculación está establecida **expresamente para la petición razonada** en el **art. 61.2**.
 
 En procedimientos sancionadores debe expresar, en la medida de lo posible:
 
@@ -694,7 +704,9 @@ La Administración dispone de **cinco días** para desestimarla. La falta de res
 
 ### Plazo y trámites
 
-Debe resolverse en **treinta días**, salvo que reste menos para terminar por la vía ordinaria.
+Debe resolverse en **treinta días**, **contados desde el día siguiente a aquel en que se notifique al interesado el acuerdo de tramitación simplificada**, salvo que reste menos para terminar por la vía ordinaria (**artículo 96.6**).
+
+> ⚠️ **¡Foco Examen!:** El plazo de **30 días** de la tramitación simplificada **no empieza necesariamente cuando se presentó la solicitud inicial**: la regla especial lo cuenta desde el día siguiente a la **notificación del acuerdo de tramitación simplificada**.
 
 Solo incluye:
 
