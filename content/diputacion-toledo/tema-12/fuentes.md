@@ -16,3 +16,11 @@
 - La Ley 7/1985 se utiliza como norma básica principal.
 - El Real Decreto Legislativo 781/1986 y el ROF se aplican únicamente en cuanto sean compatibles con la legislación básica posterior.
 - Fecha de auditoría: **julio de 2026**.
+
+
+## Auditoría focalizada — **02/11/2026**
+
+- [Ley 7/1985, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), artículos **2, 7, 8, 10 y 27**: intervención local, competencias propias y delegadas, **informes previos y vinculantes**, gestión ordinaria de servicios autonómicos, coordinación y duración mínima de **5 años** en delegaciones municipales.
+- Se han revisado las preguntas **DIP-T12-016** a **DIP-T12-020**, sustituyendo redundancias por competencias y controles del régimen local.
+
+**Estado:** auditoría jurídica parcial; pendientes revisión integral y pruebas funcionales de OpoWeb.
