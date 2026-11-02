@@ -123,6 +123,8 @@ function saveAttempt(attempt, results) {
   progress.attempts.unshift(attempt);
   progress.attempts = progress.attempts.slice(0, 100);
   results.forEach(result => {
+    // Las preguntas en blanco no son errores y no alteran las estadísticas por tema.
+    if (result.answered === false) return;
     const theme = themeFromQuestion(result.question);
     if (!theme) return;
     const key = String(theme);
@@ -241,7 +243,7 @@ function renderOpenCase(item) {
 function renderExercise(items, title, exerciseId, type, durationMinutes = null) {
   let remaining = durationMinutes ? durationMinutes * 60 : null;
   let timerId = null;
-  app.innerHTML = `<div class="toolbar sticky-toolbar practice-toolbar"><button id="practice-back" class="btn secondary" type="button">← Entrenamiento</button>${durationMinutes ? '<strong id="timer" class="timer" aria-live="polite"></strong>' : ''}<button id="finish" class="btn" type="button">Corregir</button></div><section class="panel"><h2>${escapeHtml(title)}</h2><p class="notice">Responde todas las preguntas y pulsa <strong>Corregir</strong>.</p></section><form id="exercise-form" class="exercise-list">${items.map((item, index) => renderQuestion(item, index)).join('')}</form>`;
+  app.innerHTML = `<div class="toolbar sticky-toolbar practice-toolbar"><button id="practice-back" class="btn secondary" type="button">← Entrenamiento</button>${durationMinutes ? '<strong id="timer" class="timer" aria-live="polite"></strong>' : ''}<button id="finish" class="btn" type="button">Corregir</button></div><section class="panel"><h2>${escapeHtml(title)}</h2><p class="notice">Responde las que consideres oportunas y pulsa <strong>Corregir</strong>. Si hay penalización por errores, dejar una pregunta en blanco no penaliza.</p></section><form id="exercise-form" class="exercise-list">${items.map((item, index) => renderQuestion(item, index)).join('')}</form>`;
   document.querySelector('#practice-back').addEventListener('click', () => { if (timerId) clearInterval(timerId); renderHub(); });
   document.querySelector('#finish').addEventListener('click', () => finishExercise(items, timerId, { exerciseId, title, type }));
   if (durationMinutes) {
@@ -278,8 +280,8 @@ function finishExercise(items, timerId, metadata) {
     const isCorrect = selectedIndex === item.correcta;
     if (selected) answered += 1;
     if (isCorrect) correct += 1;
-    results.push({ question: item, correct: isCorrect });
-    card.classList.add(isCorrect ? 'question-correct' : 'question-wrong');
+    results.push({ question: item, correct: isCorrect, answered: Boolean(selected) });
+    card.classList.add(isCorrect ? 'question-correct' : selected ? 'question-wrong' : 'question-unanswered');
     card.querySelectorAll('input').forEach(input => { input.disabled = true; });
     card.querySelectorAll('.option-row').forEach((row, optionIndex) => {
       if (optionIndex === item.correcta) row.classList.add('correct-option');
