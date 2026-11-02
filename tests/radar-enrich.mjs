@@ -58,4 +58,15 @@ assert.equal(blocked.summary.attempted,0,'No leer actas como convocatorias nueva
 const blocked403=await enrichRadar([old],'2026-11-02',{limit:1,
  fetchDocument:async()=>{throw new Error('HTTP 403');}});
 assert.equal(blocked403.summary.failureReasons['HTTP 403'],1);
+const overview=normalizeOpportunity({id:'generic',title:'Bases de empleo público',
+ source:'DIRECT',zone:'TOLEDO',firstSeen:'2026-11-02',
+ officialUrl:'https://camarena.sedelectronica.es/info.0'},'2026-11-02');
+const primary=normalizeOpportunity({id:'boe',title:'Bases de selección de personal',
+ source:'BOE',zone:'TOLEDO',firstSeen:'2026-11-01',
+ officialUrl:'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-99999'},'2026-11-02');
+const requested=[];
+const prioritized=await enrichRadar([overview,primary],'2026-11-02',{limit:1,
+ fetchDocument:async url=>{requested.push(url);return {text:legal,format:'HTML'};}});
+assert.equal(requested[0],primary.officialUrl);
+assert.equal(prioritized.summary.read,1);
 console.log('RADAR_ENRICH_EXTRACTION_AND_FAIL_SAFE_OK');
