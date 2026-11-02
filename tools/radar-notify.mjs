@@ -10,6 +10,13 @@ const fresh=(data.opportunities||[])
   .filter(x=>x.isNew)
   .map(x=>normalizeOpportunity(x,data.generatedAt||new Date().toISOString().slice(0,10)))
   .filter(x=>x.actionable && x.state!=='CERRADA' && !x.phaseFollowup)
+  // Evitar emails que solo dicen localidad y «consultar bases» en todas las filas.
+  // Se exige un puesto reconocible y al menos un dato adicional contrastable.
+  .filter(x=>Boolean(x.position) && (
+    Number.isInteger(x.vacancies) || x.group!=='REVISAR' ||
+    Boolean(x.qualification) || Boolean(x.deadlineIso) ||
+    Boolean(x.access) || x.detailsStatus==='LEIDO'
+  ))
   .slice(0,30);
 if(!fresh.length){console.log('Sin novedades para notificar');process.exit(0)}
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -30,7 +37,10 @@ const fields=x=>{
  ['Fecha',x.publishedAt?formatDate(x.publishedAt):x.firstSeen?`${formatDate(x.firstSeen)} (detección; publicación no confirmada)`:'No consta'],
  ['Lugar',place?`${place[1].trim()}${place[2]?' ('+place[2]+')':''}`:town?town[1].trim():x.location||'No consta'],
  ['Puesto',x.position||role?.[1]?.trim()||'Pendiente de identificar'],
- ['Categoría del puesto',[group,labor].filter(Boolean).join(' · ')||'No verificada; consultar bases'],
+ ['Categoría del puesto',[group,labor].filter(Boolean).join(' · ')||'No verificada'],
+ ['Plazas',x.vacancies||'No consta'],
+ ['Titulación',x.qualification||'No consta: ver bases'],
+ ['Plazo de solicitudes',x.deadline?formatDate(x.deadline):x.applicationTerm||'No hay fecha acreditada'],
  ['Estado',states[x.state]||x.state||'Pendiente de verificar'],
  ['Previsión',x.forecast|| (x.state==='PREVISTA'?'Pendiente de convocatoria y apertura de solicitudes; sin fecha confirmada.':x.deadline?`Plazo de solicitud indicado: ${formatDate(x.deadline)}. Examen: sin fecha confirmada.`:'Sin fecha confirmada para los siguientes pasos; consultar plazo y bases.')]
  ];
