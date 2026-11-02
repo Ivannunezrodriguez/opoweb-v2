@@ -7,17 +7,19 @@
     "convocatoria": "34 plazas · Auxiliar Administrativa C2 · concurso-oposición libre",
     "notaPrivacidad": "La documentación personal, el justificante de solicitud y los datos identificativos se conservan fuera del repositorio público."
   },
-  "siguienteHito": "Ejercicio único del 21/11/2026: consultar resolución de llamamiento para hora/aula y comprobar personalmente inclusión en lista definitiva mediante acceso UC3M",
-  "ultimaComprobacion": "Consultada el 02/11/2026 la página oficial de UC3M: consta RESOLUCIÓN DE LLAMAMIENTO para ejercicio único el 21/11/2026, así como resolución provisional y DEFINITIVA de admisión y exclusión (acceso a listados mediante identificación). La hora de 10:00 y el campus de Getafe se citan en fuentes secundarias; comprobar texto de llamamiento para horario, edificio y aula. No se ha accedido a la situación de admisión personal.",
-  "notaCorteTemporal": "Actualización de hitos públicos de UC3M a 02/11/2026. No se han consultado listados personales ni PDF del llamamiento; comprobar hora/aula y admisión en portal oficial. Estado editorial: AUDITORIA_CONTINUA.md.",
+  "siguienteHito": "Ejercicio único sábado 21/11/2026 a las 10:00 en Campus de Getafe: consultar la resolución posterior que asignará aulas, y comprobar personalmente inclusión en lista definitiva mediante portal UC3M.",
+  "ultimaComprobacion": "02/11/2026: resolución oficial UC3M de llamamiento aportada por el usuario; confirma 21/11/2026, 10:00 horas, campus de Getafe y llamamiento único. Aula y edificio concreto se determinarán en resolución posterior. Resolución definitiva de admisión publicada en el portal. No comprobada admisión individual.",
+  "notaCorteTemporal": "Llamamiento oficial UC3M verificado por documento facilitado el 02/11/2026. Hora y campus confirmados, aula pendiente. La fecha exacta de publicación de las listas definitivas debe cotejarse en el original para fijar legislación exigible (base primera.7).",
   "examen": {
     "fecha": "2026-11-21",
     "tipo": "Ejercicio único",
-    "estado": "LLAMAMIENTO_PUBLICADO_EN_WEB_OFICIAL",
-    "hora": "10:00 (dato inicial y fuentes secundarias: verificar en resolución)",
-    "lugar": "Campus de Getafe (fuentes secundarias: verificar edificio y aula)",
+    "estado": "FECHA_HORA_CAMPUS_CONFIRMADOS_AULA_PENDIENTE",
+    "hora": "10:00",
+    "lugar": "Campus de Getafe",
     "fechaVerificacion": "2026-11-02",
-    "enlaceOficial": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026"
+    "enlaceOficial": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
+    "modalidadLlamamiento": "Único",
+    "aula": "Pendiente de resolución posterior"
   },
   "admision": {
     "listas": "RESOLUCION_DEFINITIVA_PUBLICADA",
