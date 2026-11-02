@@ -30,7 +30,7 @@ const app=readFileSync('assets/app.js','utf8');
 assert.match(app,/function renderStudyAndWorkHub\(\)/);
 assert.match(app,/href="radar\.html">Abrir OpoRadar<\/a>/);
 assert.match(app,/function hydrateRadarPreview\(\)/);
-assert.match(app,/renderStudyAndWorkHub\(\)\}\\$\{renderTracking\(\)\}/);
+assert.ok(app.includes('${renderStudyAndWorkHub()}${renderTracking()}'), 'El bloque Radar debe conservar el orden correcto en la portada');
 assert.ok(
   app.indexOf('<section class="panel intro">', app.indexOf('function renderProgramme')) <
     app.indexOf('renderStudyAndWorkHub()', app.indexOf('function renderProgramme')),
