@@ -13,3 +13,19 @@
 .radar-note{font-size:.88rem;opacity:.78}.radar-source{font-size:.8rem;opacity:.68}
 @media(max-width:760px){.radar-controls{grid-template-columns:1fr 1fr}.radar-controls label:first-child{grid-column:1/-1}.radar-meta{grid-template-columns:1fr}}
 @media(max-width:480px){.radar-controls{grid-template-columns:1fr}.radar-controls label:first-child{grid-column:auto}}
+/* Fichas legibles y filtros de oportunidades: no confundir anuncios con solicitudes abiertas. */
+.radar-controls{grid-template-columns:minmax(220px,2fr) repeat(4,minmax(135px,1fr));align-items:end}
+.radar-card{align-content:start;min-width:0}
+.radar-card h3{font-size:1.1rem;line-height:1.4}
+.radar-org{font-weight:650;margin:.35rem 0}
+.radar-excerpt{font-size:.84rem;line-height:1.5;opacity:.75;margin:.4rem 0 0;overflow-wrap:anywhere}
+.radar-results-summary{font-size:.95rem;padding:.2rem .4rem;opacity:.85}
+.radar-more{display:flex;justify-content:center;margin:.75rem 0 1.5rem}
+.radar-card .radar-meta{gap:.75rem}
+.radar-card .radar-meta strong{overflow-wrap:anywhere;line-height:1.35}
+.radar-card .radar-meta strong:not(:empty){font-weight:650}
+.radar-card .radar-source{border-top:1px solid var(--border,#d7dde5);padding-top:.65rem}
+.radar-card[data-quality="SIN_PUESTO"]{opacity:.82}
+@media(max-width:1080px){.radar-controls{grid-template-columns:repeat(3,minmax(140px,1fr))}.radar-controls label:first-child{grid-column:1/-1}}
+@media(max-width:760px){.radar-controls{grid-template-columns:repeat(2,minmax(140px,1fr))}.radar-controls label:first-child{grid-column:1/-1}}
+@media(max-width:480px){.radar-controls{grid-template-columns:1fr}.radar-controls label:first-child{grid-column:auto}}
