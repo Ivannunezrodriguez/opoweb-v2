@@ -25,6 +25,8 @@ jobs:
         run: |
           node --check assets/app.js
           node --check assets/practice.js
+      - name: Verificar menú adaptable e integración OpoRadar
+        run: node tests/validate-portal-navigation.mjs
       - name: Validar programa y bancos de La Puebla
         run: node tests/validate.mjs
       - name: Validar maquetación editorial de La Puebla
