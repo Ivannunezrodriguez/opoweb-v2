@@ -1,7 +1,8 @@
 # La Puebla de Montalbán · Tema 5
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Revisión editorial histórica:** 30 de julio de 2026.  
+**Control jurídico focalizado de LOREG arts. 180, 184 y 196:** 2 de noviembre de 2026 (sin recertificación completa).
 
 ---
 
@@ -875,9 +876,17 @@ En Concejo Abierto los electores eligen directamente al Alcalde por sistema mayo
 
 ## 57. Artículo 180 · atribución de puestos
 
-Los puestos de Concejales se distribuyen mediante el procedimiento proporcional del artículo 163.1.
+En los municipios sometidos al **sistema proporcional de listas**, los puestos de Concejales se distribuyen mediante el procedimiento del **artículo 163.1**, con la particularidad del **artículo 180**: no se tienen en cuenta candidaturas que no alcancen al menos el **5 % de los votos válidos** de la circunscripción.
 
-No se tienen en cuenta candidaturas que no alcancen al menos el **5 % de los votos válidos** emitidos en la circunscripción.
+**Excepción esencial:** en los municipios de **hasta 250 residentes** no sometidos a **Concejo Abierto**, la elección de Concejales se rige por el sistema especial de **voto limitado a candidatos individuales del artículo 184**, y no debe calcularse automáticamente una exclusión de listas por el **5 %**. En **Concejo Abierto**, la elección directa del **Alcalde** es otro régimen diferente.
+
+| Régimen municipal | Regla de elección | ¿Aplicar la barrera del **5 %** del art. 180? |
+|---|---|---|
+| Sistema proporcional de listas (municipios ordinarios de **más de 250 habitantes**) | Listas y reparto del **art. 163.1**, con umbral del **art. 180** | **Sí** |
+| Municipios de **hasta 250 habitantes**, sin Concejo Abierto | Voto limitado a candidatos, **art. 184** | **No como barrera de listas** |
+| **Concejo Abierto** | Elección directa del **Alcalde** | **No** |
+
+> ⚠️ **¡Foco Examen!:** La cifra **5 %** del **artículo 180 LOREG** es correcta en el sistema ordinario de listas, pero no debe trasladarse al voto individual del **artículo 184**. Comprueba el número de habitantes y si el municipio funciona en **Concejo Abierto**.
 
 ## 58. Artículo 181 · falta de candidaturas
 
@@ -910,7 +919,9 @@ Debe distinguirse:
 - municipio entre 101 y 250: cinco Concejales;
 - Concejo Abierto: elección directa del Alcalde, régimen diferente.
 
-La selección individual de candidatos sustituye al esquema de lista cerrada utilizado en municipios mayores.
+La selección individual de candidatos sustituye al esquema de lista cerrada utilizado en municipios mayores: se vota hasta a **2 candidatos** si el municipio tiene **hasta 100 residentes**, o hasta a **4 candidatos** cuando tiene **entre 101 y 250 residentes** (**art. 184.b LOREG**). Se proclama a quienes obtienen más votos, hasta cubrir los **3** o **5** puestos respectivamente.
+
+> ⚠️ **¡Foco Examen!:** **Hasta 100 residentes: 3 concejales y máximo 2 votos por elector**. **De 101 a 250: 5 concejales y máximo 4 votos**. No aplicar el reparto proporcional general del **art. 180**.
 
 ## 62. Artículo 185 · convocatoria
 
@@ -1033,7 +1044,15 @@ En la sesión constitutiva:
 - si nadie la obtiene, es Alcalde el cabeza de la lista más votada por los electores;
 - en caso de empate, se resuelve por sorteo.
 
-En municipios de 100 a 250 habitantes pueden ser candidatos todos los Concejales y se aplica la regla especial legal.
+En municipios de **100 a 250 habitantes**, el último párrafo del **artículo 196 LOREG** dispone una excepción: **pueden ser candidatos todos los Concejales** y, si ninguno obtiene la **mayoría absoluta** de votos del Pleno, se proclama **Alcalde al Concejal que hubiera obtenido más votos populares en las elecciones de Concejales**. No equivale necesariamente al cabeza de la lista más votada.
+
+| Caso | Quién puede presentarse a **Alcalde** | Si nadie obtiene la **mayoría absoluta** de Concejales |
+|---|---|---|
+| Régimen general de listas | Concejales que **encabezan sus listas** | Cabeza de la lista con **más votos populares**; empate por sorteo |
+| Municipios de **100 a 250 habitantes** | **Todos los Concejales** | **Concejal con más votos populares** individuales |
+| **Concejo Abierto** | Régimen de **elección directa** | No aplicar las reglas anteriores |
+
+> ⚠️ **¡Foco Examen!:** El enunciado «si nadie obtiene mayoría absoluta, gana el **cabeza de la lista más votada**» necesita el contexto del **régimen general**: el **art. 196** contiene una excepción expresa para **100–250 habitantes**.
 
 ## 75. Artículo 197 · moción de censura
 
@@ -1266,17 +1285,15 @@ Si no lo hace, se produce convocatoria automática para el décimo día hábil p
 
 ## 96. Candidatura con menos del cinco por ciento
 
-Una lista obtiene el 4,8 % de los votos válidos municipales.
+En un **municipio ordinario de 1.000 habitantes**, sometido al sistema proporcional de listas y **no** al régimen de voto limitado ni al Concejo Abierto, una candidatura obtiene el **4,8 % de los votos válidos**.
 
-No participa en la distribución de Concejales del artículo 180.
+No participa en la distribución de Concejales conforme al **artículo 180 LOREG**; la misma conclusión **no** debe extrapolarse a municipios que eligen Concejales por **artículo 184**.
 
 ## 97. Elección de Alcalde sin mayoría absoluta
 
-Ningún cabeza de lista obtiene mayoría absoluta de los Concejales.
+En un **municipio de más de 250 habitantes** con **sistema ordinario de listas**, ningún cabeza de lista obtiene la **mayoría absoluta** de los votos de los Concejales.
 
-Se proclama Alcalde al cabeza de la lista que obtuvo más votos populares.
-
-Si hay empate, se resuelve por sorteo.
+Se proclama **Alcalde al cabeza de la lista que obtuvo más votos populares**. Si hay empate, se resuelve por **sorteo**. Para municipios **100–250** el **artículo 196 LOREG** establece la regla especial de elección por votos individuales.
 
 ## 98. Moción de censura con regla histórica anulada
 
