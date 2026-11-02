@@ -2,7 +2,7 @@
 
 **Estado editorial:** PUBLICADO  
 **Revisión editorial histórica:** **30 de julio de 2026**.  
-**Cotejo puntual de plazos con la LGT consolidada:** **2 de noviembre de 2026**; no implica revisión integral.
+**Cotejo puntual de plazos y excepciones del art. 161 LGT:** **2 de noviembre de 2026**; no implica revisión integral.
 
 ## Tema 11 · Recaudación de los tributos locales
 
@@ -48,7 +48,9 @@ Fuente: BOP de Toledo número 82, de 5 de mayo de 2026, código `2026.00001965`.
 | Periodo ejecutivo | día siguiente al vencimiento conforme al artículo 161 LGT | nacen recargos ejecutivos |
 | Procedimiento de apremio | notificación de la providencia | comienza la ejecución administrativa forzosa |
 
-El periodo ejecutivo y el procedimiento de apremio no comienzan al mismo tiempo.
+El periodo ejecutivo y el procedimiento de apremio no comienzan al mismo tiempo. **Excepciones que exigen lectura del art. 161 LGT:** en las **autoliquidaciones extemporáneas sin ingreso**, el período ejecutivo empieza el **día siguiente a su presentación** cuando ya ha concluido el plazo reglamentario. En las solicitudes realizadas en voluntaria, la regla que impide el inicio del ejecutivo tiene una **excepción por denegación anterior y nuevo plazo vencido sin pago**. Los **recursos en tiempo y forma contra sanciones** cuentan con protección específica hasta la firmeza administrativa y la finalización del período de pago.
+
+> ⚠️ **¡Foco Examen!:** No confundas **período ejecutivo**, **procedimiento de apremio**, **autoliquidación presentada fuera de plazo**, **solicitud reiterada** y **sanción recurrida**. Están regulados de forma distinta en los **arts. 161 y 167 LGT**.
 
 ## Cifras esenciales
 
