@@ -22,7 +22,7 @@ OpoWeb es la **fuente editorial única** de estudio. La web debe permitir prepar
 ## Flujo de auditoría
 
 - La auditoría se realiza de forma continua, sin solicitar confirmación después de cada tema.
-- El estado y el historial de cambios se registran en `AUDIT_STATUS.md` y en Git.
+- El **estado editorial operativo, su evidencia, el bloqueo activo y el siguiente paso** se registran exclusivamente en [`AUDITORIA_CONTINUA.md`](AUDITORIA_CONTINUA.md) y en Git. `AUDIT_STATUS.md` es únicamente un acceso de compatibilidad, nunca una segunda fuente de verdad.
 - Un tema puede publicarse cuando supera la revisión de estructura, vigencia, literalidad, trazabilidad y maquetación OpoWeb.
 - Una corrección posterior no borra el historial: incrementa la versión editorial y deja constancia de la norma y fecha comprobadas.
 - La integración continua valida estructura e integridad técnica, pero no sustituye la revisión jurídica y pedagógica.
@@ -35,4 +35,4 @@ OpoWeb es la **fuente editorial única** de estudio. La web debe permitir prepar
 - `PUBLICADO`
 - `REQUIERE_ACTUALIZACION`
 
-Cada cambio de estado debe quedar documentado.
+Cada cambio de estado debe quedar documentado. Los **valores heredados de los manifiestos** (como `APROBADO_USUARIO`, `EN_REVISION_USUARIO`, `BORRADOR` o `GENERACION_DESDE_CERO`) no son intercambiables con este flujo de auditoría. `GENERACION_DESDE_CERO` describe el método de elaboración, **no** un tema aprobado; la disponibilidad en la web no prueba validación jurídico-editorial. Un cierre de fase anterior se preserva como hito fechado y **no** acredita automáticamente la vigencia de noviembre de 2026. La reanudación siempre toma la **TAREA ACTIVA** del registro principal.
