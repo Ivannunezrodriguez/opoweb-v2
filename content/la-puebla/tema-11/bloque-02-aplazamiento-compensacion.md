@@ -17,7 +17,17 @@ En examen debe evitarse afirmar que toda deuda tributaria es aplazable.
 
 ## 3. Solicitud en periodo voluntario
 
-Una solicitud presentada dentro de voluntaria impide que comience el periodo ejecutivo mientras se tramita.
+Como **regla general**, una solicitud de **aplazamiento, fraccionamiento o compensación** presentada durante el **período voluntario** impide que comience el **período ejecutivo** mientras se tramita (**art. 161.2 LGT**).
+
+**Excepción importante:** esta protección **no vuelve a producirse** si ya se había **denegado una solicitud previa** de aplazamiento, fraccionamiento, compensación, suspensión o pago en especie de **la misma deuda**, se abrió otro plazo de ingreso y este terminó **sin pago**. La nueva solicitud **no impide** el inicio del período ejecutivo (**art. 161.2, segundo párrafo**).
+
+| Situación | ¿La solicitud evita el inicio del período ejecutivo mientras se tramita? |
+|---|---|
+| Primera solicitud presentada correctamente en voluntaria, sin previa denegación con nuevo plazo vencido | **Sí, en general** |
+| Nueva solicitud sobre **la misma deuda**, tras **denegación previa** y vencimiento **sin pago** del nuevo plazo | **No** |
+| Solicitud realizada cuando ya ha comenzado el período ejecutivo | **No lo suspende automáticamente** |
+
+> ⚠️ **¡Foco Examen!:** No memorices que **toda** solicitud en voluntaria paraliza automáticamente el paso a ejecutiva. El **art. 161.2 LGT** exceptúa la reiteración tras denegación previa y vencimiento del nuevo plazo sin ingreso.
 
 Puede ocurrir:
 
@@ -196,7 +206,7 @@ La Administración puede acordar compensación cuando concurren los requisitos l
 
 ### Solicitud un día antes del vencimiento
 
-Presentada correctamente en voluntaria: impide iniciar ejecutiva mientras se tramita.
+Presentada correctamente en voluntaria: **en general** impide iniciar ejecutiva mientras se tramita; **salvo** reiteración sobre la misma deuda tras denegación previa y nuevo plazo de ingreso vencido sin pago (**art. 161.2 LGT**).
 
 ### Solicitud después de providencia
 
