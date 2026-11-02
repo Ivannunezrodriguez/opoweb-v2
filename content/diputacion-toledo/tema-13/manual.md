@@ -271,3 +271,24 @@ MUNICIPIO
 > ⚠️ **¡Foco Examen!:** Los **15 días** de exposición del presupuesto no son los **20 días hábiles** de otros trámites administrativos. Si hay reclamaciones, el **Pleno** tiene **un mes** para resolverlas.
 
 **Fuente vigente comprobada:** [Ley 7/1985, actualización publicada **03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) y [TRLRHL, actualización publicada **07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). Banco ampliado a **20 preguntas**. Pendiente revisión integral del manual y verificación funcional del portal; el tema sigue en auditoría.
+
+
+## 10. Auditoría focalizada: servicios mínimos y presupuesto — **02/11/2026**
+
+| Supuesto | Exigencia legal | Fuente |
+|---|---|---|
+| Todos los municipios | Alumbrado, cementerio, residuos, limpieza viaria, agua potable, alcantarillado, acceso a núcleos y pavimentación | **Art. 26.1.a LRBRL** |
+| Más de **5.000 habitantes** | Además, parque público, biblioteca pública y tratamiento de residuos | **Art. 26.1.b LRBRL** |
+| Más de **20.000 habitantes** | Además, protección civil, atención a necesidad social, incendios e instalaciones deportivas públicas | **Art. 26.1.c LRBRL** |
+| Más de **50.000 habitantes** | Además, transporte colectivo urbano de viajeros y medio ambiente urbano | **Art. 26.1.d LRBRL** |
+| Exposición del presupuesto aprobado inicialmente | **15 días** para examen y reclamaciones | **Art. 169.1 TRLRHL** |
+| Sin reclamaciones | Presupuesto **definitivamente aprobado** | **Art. 169.1 TRLRHL** |
+| Con reclamaciones | El **Pleno** dispone de **un mes** para resolverlas | **Art. 169.1 TRLRHL** |
+| Entrada en vigor | En el ejercicio correspondiente, una vez **publicado** conforme a la ley | **Art. 169.5 TRLRHL** |
+| Sin presupuesto nuevo en vigor al comenzar el año | **Prórroga automática** del anterior, con excepciones para programas concluidos o financiación específica o afectada | **Art. 169.6 TRLRHL** |
+
+> ⚠️ **¡Foco Examen!:** Los servicios del artículo **26.1** son acumulativos: a los de todos los municipios se añaden los exigidos al superar **5.000**, **20.000** y **50.000 habitantes**.
+
+> ⚠️ **¡Foco Examen!:** La **aprobación definitiva** del presupuesto y su **entrada en vigor** no son equivalentes: la entrada en vigor exige la **publicación** legalmente prevista. La prórroga presupuestaria no comprende todos los créditos sin excepción.
+
+Fuentes: [LRBRL, art. 26](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) y [TRLRHL, art. 169](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). Auditoría **focalizada**, pendiente revisión integral y pruebas funcionales.
