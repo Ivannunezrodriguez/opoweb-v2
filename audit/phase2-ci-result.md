@@ -1,3 +1,5 @@
+> **EVIDENCIA DE CI DE UN COMMIT CONCRETO, NO RESULTADO DE LA RAMA ACTUAL.** La ejecución documentada corresponde al commit y fecha indicados abajo. No permite afirmar que los cambios posteriores superen todas las pruebas. El valor `tema6Interinidad: 4_YEARS_SOURCE_VALIDATED` debe cotejarse con `QA_FINAL_2026-07-18.md`, que menciona otra cifra: **inconsistencia pendiente**, no escoger una regla sin consulta legal. Reanudación y estado editorial vigente: [AUDITORIA_CONTINUA.md](../AUDITORIA_CONTINUA.md).
+
 # Resultado de la puerta de cierre · Fase 2
 
 - Estado: **VALIDACION_CI_SUPERADA**
