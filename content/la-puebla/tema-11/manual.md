@@ -1,7 +1,8 @@
 # La Puebla de Montalbán · Tema 11
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Revisión editorial histórica:** **30 de julio de 2026**.  
+**Cotejo puntual de plazos con la LGT consolidada:** **2 de noviembre de 2026**; no implica revisión integral.
 
 ## Tema 11 · Recaudación de los tributos locales
 
@@ -53,15 +54,17 @@ El periodo ejecutivo y el procedimiento de apremio no comienzan al mismo tiempo.
 
 | Materia | Regla |
 |---|---:|
-| Liquidación notificada días 1–15 | hasta día 20 del mes siguiente |
-| Liquidación notificada días 16–fin | hasta día 5 del segundo mes siguiente |
-| Providencia notificada días 1–15 | hasta día 20 del mismo mes |
-| Providencia notificada días 16–fin | hasta día 5 del mes siguiente |
+| Liquidación notificada días **1–15** (art. **62.2.a LGT**) | Hasta el **20 del mes siguiente**, o el **primer hábil siguiente** si es inhábil |
+| Liquidación notificada días **16–fin** (art. **62.2.b LGT**) | Hasta el **5 del segundo mes siguiente**, o el **primer hábil siguiente** si es inhábil |
+| Providencia notificada días **1–15** (art. **62.5.a LGT**) | Hasta el **20 del mismo mes**, o el **primer hábil siguiente** si es inhábil |
+| Providencia notificada días **16–fin** (art. **62.5.b LGT**) | Hasta el **5 del mes siguiente**, o el **primer hábil siguiente** si es inhábil |
 | Recargo ejecutivo | 5 % |
 | Apremio reducido | 10 % |
 | Apremio ordinario | 20 % más intereses |
 | Resolución de devolución indebida | 6 meses |
 | Prescripción general | 4 años |
+
+> ⚠️ **¡Foco Examen!:** Las fechas **5** y **20** no se aplican de manera incondicional. La **Ley 58/2003, art. 62.2 y 62.5**, exige desplazar el vencimiento al **inmediato hábil siguiente** cuando resulte inhábil. Además, **liquidación en voluntaria** y **providencia de apremio** tienen calendarios diferentes. Fuente: [LGT consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186).
 
 ## Delimitación respecto de otros temas
 
