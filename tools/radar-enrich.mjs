@@ -22,6 +22,16 @@ function isoDay(day,month,year){
 export function extractFacts(text,old={}){
  const body=clean(text).slice(0,80000);
  const evidence={};
+ // Extraer un puesto SOLO si consta de forma expresa en el texto leído.
+ // El PDF puede tener título genérico «aprobación de bases», pero el cuerpo indica el empleo.
+ const roleCandidates=[...body.slice(0,18000).matchAll(/(?:convocatoria|bases|provisi[oó]n|selecci[oó]n|contrataci[oó]n)[^.;]{0,180}?(?:\b(?:\d+|una?|dos|tres|cuatro|cinco)\s+)?plazas?\s+(?:de|para)\s+((?:auxiliar(?:es)?\s+administrativ[oa]s?|administrativ[oa]s?|conserje(?:s)?|ordenanza(?:s)?|subaltern[oa]s?|pe[oó]n(?:es)?(?:\s+de\s+[\wÀ-ÿ ]{2,50})?|limpiador(?:a|es|as)?|t[eé]cnic[oa]s?(?:\s+(?:auxiliar|inform[aá]tic[oa]|de\s+sistemas|de\s+mantenimiento))?|inform[aá]tic[oa]s?|programador(?:a|es)?|electricista(?:s)?|jardiner[oa]s?|operari[oa]s?))\b/gi)].map(m=>clean(m[1]));
+ const uniqueRoles=[...new Set(roleCandidates.map(x=>x.toLowerCase()))];
+ if(uniqueRoles.length===1)evidence.position=roleCandidates[0].slice(0,100);
+ const countMatch=body.slice(0,10000).match(/\b(\d{1,3}|una?|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez)\s+plazas?\s+(?:de|para)\s+(?:auxiliar|administrativ|conserje|pe[oó]n|limpiador|t[eé]cnic|inform[aá]tic|jardiner|operari)/i);
+ if(countMatch){const words={un:1,una:1,uno:1,dos:2,tres:3,cuatro:4,cinco:5,seis:6,siete:7,ocho:8,nueve:9,diez:10};
+  const n=/^\d+$/.test(countMatch[1])?Number(countMatch[1]):words[countMatch[1].toLowerCase()];
+  if(n>0)evidence.vacancies=n;
+ }
  // Retain relative terms literally. Do not invent a calendar calculation for Spanish business days.
  const term=body.match(/(?:plazo\s+(?:para\s+la\s+)?(?:de\s+)?presentaci[oó]n\s+de\s+solicitudes|presentaci[oó]n\s+de\s+instancias)[^.;]{0,250}/i);
  if(term)evidence.applicationTerm=clean(term[0]).slice(0,235);
@@ -72,10 +82,10 @@ export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=doc
  const items=opportunities.map(x=>({...x}));
  // Enrich recently detected, recognizable calls first; follow-up lists are excluded.
  const candidates=items.map((x,i)=>({x,i})).filter(({x})=>
-  x.actionable && x.state!=='CERRADA' && !x.phaseFollowup &&
+  x.state!=='CERRADA' && x.state!=='NO_ACCESIBLE' && !x.phaseFollowup &&
   (!x.detailsCheckedAt || (x.detailsStatus!=='LEIDO' && Date.parse(date)-Date.parse(x.detailsCheckedAt)>=7*86400000)) && safeOfficial(x.officialUrl) &&
   Number.isFinite(Date.parse(x.firstSeen)) && Date.parse(date)-Date.parse(x.firstSeen)<=30*86400000)
-  .sort((a,b)=>Number(b.x.isNew)-Number(a.x.isNew)||String(b.x.firstSeen).localeCompare(String(a.x.firstSeen)))
+  .sort((a,b)=>Number(b.x.isNew)-Number(a.x.isNew)||Number(!b.x.position)-Number(!a.x.position)||String(b.x.firstSeen).localeCompare(String(a.x.firstSeen)))
   .slice(0,limit);
  let read=0,withDetails=0,failures=0;
  const groups=[];for(let i=0;i<candidates.length;i+=5)groups.push(candidates.slice(i,i+5));
@@ -86,7 +96,7 @@ export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=doc
     const doc=await fetchDocument(x.officialUrl);
     if(clean(doc.text).length<150)throw new Error('TEXTO_INSUFICIENTE');
     const facts=extractFacts(doc.text,x);
-    updated={...updated,applicationTerm:facts.applicationTerm||x.applicationTerm||null,
+    updated={...updated,position:x.position||facts.position||null,vacancies:x.vacancies||facts.vacancies||null,applicationTerm:facts.applicationTerm||x.applicationTerm||null,
      group:x.group!=='REVISAR'?x.group:facts.group||x.group,
      qualification:x.knownQualification?x.qualification:facts.qualification||x.qualification||null,
      access:x.access||facts.access||null,
