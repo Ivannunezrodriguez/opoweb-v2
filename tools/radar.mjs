@@ -89,7 +89,7 @@ const sourceStatus=results.map((result,i)=>({source:sourceNames[i],ok:result.sta
 const entries=successes.flatMap(x=>x.value);
 if(!entries.length)throw new Error('Las fuentes respondieron sin anuncios; se conserva el radar anterior.');
 const merged=merge(previous,entries,date);
-const enriched=await enrichRadar(merged,date,{limit:35});
+const enriched=await enrichRadar(merged,date,{limit:70});
 const opportunities=enriched.opportunities;
 await fs.writeFile(out,JSON.stringify({...previous,generatedAt:date,sourceStatus,directSourceStatus:directStatus,enrichmentStatus:enriched.summary,opportunities},null,2)+'\n');
 console.log('Radar: '+entries.length+' anuncios consultados; '+opportunities.length+
