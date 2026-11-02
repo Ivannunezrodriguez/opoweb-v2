@@ -273,3 +273,39 @@ Antes de elevar el estado de un bloque: comprobar recursos reales, `npm test` (o
 **Estabilización adicional del entorno (02/11/2026):** se han actualizado las acciones a `checkout@v5` y `setup-node@v5` (runtime Node 24) y fijado el runner `ubuntu-24.04` en ambos archivos de workflow, para retirar las advertencias del soporte Node 20 y de la migración de `ubuntu-latest` sin confundirlas con el fallo de aserciones. Commits [55326df4](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/55326df452d2d31128f2f982be79b05cede66723) y [a7251646](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/a72516464b792fe8a61145946deb2b3e53defbf3). La consulta de estados del último commit no ofrece comprobaciones visibles, por lo que **sigue pendiente acreditar éxito de GitHub Actions**.
 
 **Siguiente control obligatorio antes de declarar CI saneado:** consultar [Acciones de OpoWeb v2](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/workflows/validate.yml) y verificar la ejecución correspondiente a los últimos commits; si vuelve a fallar, abrir el **paso concreto** y leer la primera aserción fallida. Corregir los test obsoletos en sincronía con el código sin ocultar defectos reales. **No detener las auditorías jurídicas salvo que CI descubra una pérdida de contenido o funcionalidad.**
+
+
+## 15. Bloque UC3M C2: simulacros ajustados a la convocatoria — **02/11/2026**
+
+**Incidencia detectada y subsanada:** el programa de **UC3M C2 (examen 21/11/2026)** ya tenía **20 manuales** y **250 preguntas**, pero `content/uc3m/simulacros.json` estaba **vacío** y el centro de entrenamiento no ofrecía simulación del ejercicio único. Se ha corregido **sin alterar los bancos ni declarar los temas jurídicamente aprobados**.
+
+### Bases oficiales contrastadas
+
+**Fuente primaria:** [BOE-A-2026-14624](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624), **anexo II.I y anexo III**.
+
+| Criterio | Regla de la convocatoria |
+|---|---|
+| Ejercicio de oposición | **Único test obligatorio y eliminatorio** |
+| Preguntas | **70 titulares + 5 de reserva**, **4 opciones** |
+| Duración máxima | **60 minutos** |
+| Puntuación directa | **Aciertos − errores/3**; blanco **0** |
+| Puntuación transformada | Sobre **70 puntos**; **35** para superar la fase de oposición |
+| Corte directo para llegar a 35 transformados | Lo fija el **Tribunal Calificador** en función del examen y se aplica la fórmula del **anexo III**, **NO** es necesariamente 35 puntos directos |
+| Reparto del proceso | **70 % oposición** y **30 % concurso de méritos**, solo para aprobados de la fase eliminatoria |
+
+**Regla jurídica especialmente examinable:** la **base primera.7** exige legislación vigente **en la fecha de publicación de la resolución de listas definitivas de admitidos y anuncio del ejercicio**, no necesariamente a **21/11/2026**. No trasladar automáticamente la reforma de otra oposición de noviembre a UC3M sin comprobar esa fecha de corte.
+
+### Trabajo confirmado en GitHub
+
+1. **Tres simulacros nuevos**: `content/uc3m/simulacros.json`, commit [85fa230c](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/85fa230c3be7e21e9ac80d2e977d430ab8749ced). Cada simulacro tiene **70 titulares + 5 reservas / 60 minutos**, con preguntas distribuidas por los **20 temas** y extraídas de los bancos originales. **225 ID únicos** entre los tres modelos: **todos cotejados contra los archivos reales de los 20 bancos**, sin errores de referencias. Las preguntas son **de entrenamiento OpoWeb**, no oficiales ni revalidadas jurídicamente por este hecho. **Las 250 preguntas originales siguen disponibles**.
+2. **Corrección de resultados**: `assets/practice.js`, commit [f12e732e](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/f12e732e51474353a4ff391d1e9bb64ee794ce8e). La UC3M muestra **puntuación directa A − E/3**, registra su valor en el historial y **no afirma APTO ni genera nota transformada sin el corte del Tribunal**. Mantiene separadas las 5 reservas y preserva el algoritmo **+0,20 / −0,05** exclusivo de La Puebla. Añadida nota visible sobre la **fecha normativa de corte** en commit [535c8462](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/535c8462255828a33ece256317e7393cd402ed38).
+3. **Interfaz**: al escoger UC3M en el centro de entrenamiento, aparecen los tres modelos y sus instrucciones, junto con las reglas oficiales y la advertencia del corte. Los bancos por tema muestran su recuento real (algunos **14** o **16**, no todos **12**). Eliminado el color de «aprobado» de los botones de entrenamiento de convocatorias aún en revisión (commit [086f7d6b](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/086f7d6b83aec60c7aeebcb04d7881c945269dae)). Actualizada referencia de caché en `practice.html`, commit [e0f978b5](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/e0f978b5721f8da1b585513cb3b7991868eebca7).
+4. **Guía autocontenida**: `content/uc3m/GUIA_EXAMEN_2026.md` (commit [8a231c03](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/8a231c039c03db4738bf4a32ee653fa3044a879e)), enlazada desde README; recoge todas las reglas anteriores y pendientes.
+5. **Prueba de regresión**: `tests/validate-uc3m-exams.mjs` (commits [8fadb786](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/8fadb786fe753365bd8399ef5dd36ac8cd6a651a), [29c7e1b7](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/29c7e1b7436d20610199530fc2863485aa8bc1fd)) verifica **3 simulacros, 225 IDs, cinco casos de puntuación directa y reserva y representación de 75 preguntas con reloj inicial 60:00**. Integrada en `package.json` (`npm test`) y `validate.yml` con paso propio (commits [215dbc5d](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/215dbc5d495be1f0153490cb0faa8503e62b1029) y [9a57eb48](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/9a57eb48891b26aabb2a51635dcffe805a54be61)). **Comprobación aislada realizada con resultado PASS**; validación real de GitHub Actions del último commit y prueba en navegador **pendientes**.
+
+### Siguiente paso sin reiniciar
+
+- **La Puebla C2 (14/11):** completar auditoría sustantiva de plazos, órganos, excepciones y preguntas de mayor riesgo; no rehacer los 5 simulacros ni la corrección del tema 6 ya documentados.
+- **UC3M C2 (21/11):** profundizar en normativa específica y reforma aplicable a la **fecha de corte de las listas definitivas**, comprobar la página original del llamamiento y auditar las **250 preguntas** conforme al programa exacto.
+- **CI:** consultar resultado del workflow `validate.yml` más reciente; en caso de fallo abrir el paso nominativo y corregir **causa verificada**. Sin SUCCESS del último commit, no declararlo saneado.
+- **Después:** reanudar `DT-C2-A` de Diputación Auxiliar C2 con tema 6 OAPGT al final, y C1. Mantener **este archivo** como fuente única y la política de avisos solo para incidencias relevantes.
