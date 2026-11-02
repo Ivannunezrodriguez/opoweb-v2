@@ -65,7 +65,7 @@ La representación puede acreditarse por cualquier medio válido en Derecho que 
 
 La falta o insuficiente acreditación no impide tener por realizado el acto si se aporta o subsana dentro del plazo de **diez días**, o de un plazo superior cuando las circunstancias lo requieran.
 
-> ⚠️ **¡Foco Examen!:** el plazo ordinario para subsanar la representación es de **diez días**, no de diez días hábiles salvo que la norma aplicable lo especifique.
+> ⚠️ **¡Foco Examen!:** el artículo **5.6** señala **diez días** para subsanar la representación; conforme al artículo **30.2**, son **hábiles** como regla general, salvo previsión expresa de días naturales en ley o Derecho de la UE.
 
 ### 2.4. Registros electrónicos de apoderamientos
 
