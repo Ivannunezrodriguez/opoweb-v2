@@ -20,4 +20,4 @@ jobs:
       - name: Comprobar sintaxis
         run: node --check assets/app.js
       - name: Validar programa, estados y manual aprobado
-        run: npm test
+        run: npm run test:all
