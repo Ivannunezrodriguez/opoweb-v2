@@ -21,7 +21,7 @@ La plataforma contiene **cuatro programas activos y 99 temas registrados**: **La
 
 **No hay certificación integral actual de los 99 temas a 02/11/2026.** Las métricas de archivos, preguntas y validadores se deben interpretar en su **fecha/commit**, no como porcentajes de fiabilidad jurídica.
 
-**Siguiente bloque activo:** `DT-C2-A`, auditoría conjunta de **los temas 1–5 de Diputación Auxiliar C2**, sin partes individuales. Después bloques **7–10**, **11–15**, **16–20** y el **tema 6 OAPGT al final**. Consultar siempre el registro principal y su marcador antes de cada ejecución. **Los avisos al usuario se reservan a incidencias significativas que requieran atención.**
+**Bloque urgente activo a 02/11/2026:** `PUEBLA-EXAM-2026-11-14` — controles por bloques de plazos, respuestas y simulacros conforme al primer examen del **14/11/2026**; después `UC3M-EXAM-2026-11-21`. El bloque `DT-C2-A` (**temas 1–5 de Diputación Auxiliar C2**) queda **conservado y temporalmente aplazado**, no reiniciado. El **tema 6 OAPGT** permanece al final del programa C2. Consultar siempre el registro principal y su marcador antes de cada ejecución. **Los avisos al usuario se reservan a incidencias significativas que requieran atención.**
 
 ## Fuente del programa
 
@@ -154,7 +154,7 @@ LibreOffice y Microsoft Office II: hojas de cálculo con Microsoft Excel y Libre
 
 Conceptos generales del ordenador personal: hardware, software, firmware y controladores; placa base, CPU, RAM, HDD, SSD, GPU, alimentación, refrigeración y UEFI; periféricos; impresoras y colas; escáneres y OCR; discos externos, memorias USB, sistemas de archivos y expulsión segura; lectores y grabadores de CD y DVD. Incluye las diferencias esenciales entre RAM y almacenamiento, USB-C y versión USB, disco físico y volumen, impresora y cola, escáner y OCR, lector y grabador.
 
-La afirmación histórica de que los bancos estaban vacíos **ha quedado superada**: el cierre de fase 2 documenta **228 preguntas (12 por tema), 20 supuestos y 3 simulacros**. Estos recursos no sustituyen la comprobación jurídica y funcional de la versión actual; consultar [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md).
+La afirmación histórica de que los bancos estaban vacíos **ha quedado superada**: el cierre de fase 2 documentó **228 preguntas (12 por tema), 20 supuestos y 3 simulacros**. **Situación del 02/11/2026:** se mantienen las **228 preguntas** y **20 supuestos**, y hay **5 simulacros**: tres de repaso y dos de **50 preguntas + 5 reservas** con **60 minutos** y corrección penalizada conforme a las bases. Estos recursos no sustituyen la comprobación jurídica y funcional de la versión actual; consultar [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md).
 
 ## Criterio de publicación
 
