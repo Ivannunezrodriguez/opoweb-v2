@@ -361,3 +361,32 @@ Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
 > ⚠️ **¡Foco Examen!:** La sesión **sin convocatoria previa** exige decisión de **todos los miembros**, no basta la aprobación del **Presidente**. Tampoco exige necesariamente que todos estén físicamente en una sala: la ley permite la reunión **a distancia**.
 
 **Fuente normativa:** [Ley 40/2015, artículos 15–17, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). Revisión parcial del tema; pendientes auditoría jurídica integral y pruebas funcionales.
+
+
+## 13. Auditoría de recusación y competencia — **02/11/2026**
+
+### 13.1. Recusación: secuencia legal exacta
+
+| Fase | Actuación | Plazo o requisito |
+|---|---|---|
+| Planteamiento | El **interesado** presenta escrito indicando la causa | **En cualquier momento** de la tramitación |
+| Manifestación | La persona recusada responde a su **superior inmediato** | **Al día siguiente** |
+| Causa reconocida | El **superior** aprecia la causa y acuerda la sustitución | **Acto seguido** |
+| Causa negada | El **superior** resuelve, previos informes y comprobaciones oportunos | **Tres días** |
+| Impugnación | No cabe recurso separado, sin perjuicio de alegarlo al recurrir el acto final | **Art. 24.5** |
+
+> ⚠️ **¡Foco Examen!:** los **tres días** solo se aplican cuando el recusado **niega la causa**, no automáticamente a toda recusación. Distinguirlos del **día siguiente** para su manifestación.
+
+### 13.2. Técnicas de alteración del ejercicio
+
+| Técnica | Regla a memorizar |
+|---|---|
+| **Delegación** | La resolución por delegación debe indicarlo expresamente y se considera dictada por el **delegante**; la delegación y revocación se publican en el **diario oficial** correspondiente |
+| **Avocación** | Acuerdo **motivado**, notificado antes o simultáneamente a la resolución final; sin recurso autónomo |
+| **Encomienda de gestión** | Comprende actividades **materiales o técnicas**, sin transmisión de titularidad ni de elementos sustantivos |
+| **Delegación de firma** | No altera la competencia; **no requiere publicación** para su validez |
+| **Suplencia** | Sustitución temporal sin alterar la competencia y **sin necesidad de publicación** para su validez |
+
+> ⚠️ **¡Foco Examen!:** la **delegación de competencias** exige publicidad oficial, mientras que **delegación de firma** y **suplencia** no la requieren para su validez.
+
+Fuente contrastada: [Ley 40/2015 consolidada, artículos 8–13 y 24](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). **Estado:** auditoría parcial ampliada; pendiente cotejo integral y validación de interfaz.
