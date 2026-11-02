@@ -138,7 +138,11 @@ El Congreso se compone de un mínimo de **300** y un máximo de **400 diputados*
 
 La circunscripción electoral es la **provincia**. Ceuta y Melilla estarán representadas cada una por **un diputado**.
 
+La **Ley Orgánica 5/1985, del Régimen Electoral General (LOREG), artículo 162.1**, fija actualmente la composición efectiva en **350 diputados**. A cada provincia se asignan inicialmente **dos diputados**, y **Ceuta y Melilla**, **uno** cada una; los restantes se distribuyen conforme a la población.
+
 El Congreso se elige por **cuatro años**.
+
+> ⚠️ **¡Foco Examen!:** la **Constitución (art. 68.1)** establece una horquilla de **300 a 400** diputados; la **LOREG (art. 162.1)** concreta **350**. No confundir el margen constitucional con el número legal efectivo.
 
 ### 6.3. Senado
 
@@ -187,10 +191,14 @@ Es el **alto comisionado de las Cortes Generales** para la defensa de los derech
 
 Es elegido por las Cortes Generales para un periodo de **cinco años**.
 
-Su designación exige:
+Su designación, conforme al **artículo 2 de la Ley Orgánica 3/1981**, se desarrolla así:
 
-- mayoría de **tres quintos del Congreso**;
-- ratificación posterior por mayoría de **tres quintos del Senado**.
+| Etapa | Congreso | Senado | Plazo específico |
+|---|---|---|---|
+| Primera propuesta | **3/5** de sus miembros | Ratificación por **3/5** de sus miembros | El **Pleno del Congreso** se convoca con **10 días como mínimo**; el **Senado** ratifica en **20 días como máximo** |
+| Propuestas sucesivas si fracasa la anterior | **3/5** de sus miembros | **Mayoría absoluta** | Nuevas propuestas por la **Comisión Mixta Congreso-Senado** en **un mes como máximo** |
+
+El mandato es de **cinco años**. La propuesta de candidaturas corresponde a la **Comisión Mixta Congreso-Senado para las Relaciones con el Defensor del Pueblo**.
 
 Actúa con autonomía, no recibe instrucciones y goza de inviolabilidad por las opiniones y actos realizados en el ejercicio de sus competencias.
 
@@ -222,7 +230,7 @@ Su Presidente es nombrado de entre sus miembros por el Rey, a propuesta del Plen
 
 | Institución | Designación principal | Duración | Mayoría o dato test |
 |---|---|---:|---|
-| Congreso | Elección ciudadana | **4 años** | **300-400 diputados** |
+| Congreso | Elección ciudadana | **4 años** | **300–400** según la **CE**; **350** según la **LOREG** |
 | Senado | Elección y designación autonómica | **4 años** | **4 senadores por provincia** |
 | Diputación Permanente | Cada Cámara | Legislatura | mínimo **21 miembros** |
 | Defensor del Pueblo | Cortes Generales | **5 años** | **3/5 Congreso + 3/5 Senado** |
@@ -282,3 +290,13 @@ ESTADO
 > ⚠️ **¡Foco Examen!:** Los **consejeros** del **Tribunal de Cuentas** tienen mandato de **9 años**; su **presidente**, de **3 años**. Además, el mínimo del **40 % por sexo** se comprueba entre los designados **por cada Cámara**.
 
 Fuentes oficiales: [LO 3/1981, Defensor del Pueblo](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325) y [LO 2/1982, Tribunal de Cuentas](https://www.boe.es/buscar/act.php?id=BOE-A-1982-11584). Revisión **focalizada**; no implica auditoría jurídica integral del tema.
+
+
+## 13. Complemento de auditoría normativa — **02/11/2026**
+
+- **Congreso de los Diputados:** **CE, art. 68.1** (**300–400**); **LOREG, art. 162.1** (**350**). Distinguir rango constitucional y cifra fijada legalmente.
+- **Defensor del Pueblo:** **LO 3/1981, art. 2**. La regla inicial de **3/5 + 3/5** admite nuevas propuestas con **3/5 del Congreso + mayoría absoluta del Senado**; los plazos de **10 días mínimos**, **20 días máximos** y **un mes máximo** tienen funciones distintas.
+
+> ⚠️ **¡Foco Examen!:** los **10 días** son la antelación mínima para convocar el **Pleno del Congreso** tras la propuesta, mientras que los **20 días** son el máximo de ratificación por el **Senado** en la primera vía.
+
+Normativa contrastada: [Constitución española](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [LOREG](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672), [LO 3/1981](https://www.boe.es/buscar/act.php?id=BOE-A-1981-10325).
