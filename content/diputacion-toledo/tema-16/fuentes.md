@@ -40,3 +40,11 @@
 - No se ha reutilizado texto de La Puebla ni de otra convocatoria.
 - Las cuantías, porcentajes, plazos y órganos se han contrastado con normativa consolidada vigente a julio de 2026.
 - El Real Decreto 1098/2001 se cita con cautela por su carácter reglamentario anterior a la Ley 9/2017.
+
+
+## Corrección contrastada — **02/11/2026**
+
+- [Ley 9/2017, artículo 103.5, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902): revisión de precios, con carácter general, tras **1 año** desde la formalización y **20 %** ejecutado. Excepciones legales para suministro de energía y concesiones de servicios.
+- Corregidos el manual y la pregunta **DIP-T16-009**, que indicaban erróneamente **2 años**.
+
+**Estado:** revisión jurídica focalizada; pendiente revisión integral y pruebas funcionales.
