@@ -1,13 +1,13 @@
 # Resultado de la puerta de cierre · Fase 2
 
 - Estado: **VALIDACION_CI_FALLIDA**
-- Commit validado: `1e6fc60902e8fbb466532b93fe990e6f412a31b3`
-- Fecha UTC: `2026-11-02T17:35:10Z`
+- Commit validado: `fbd8db721ee50bcac1a23921c79218a774c5d351`
+- Fecha UTC: `2026-11-02T17:39:25Z`
 
 ```text
 
 > opoweb-v2@0.20.6 test
-> node tests/validate.mjs && node tests/validate-la-puebla-editorial.mjs
+> node tests/validate.mjs && node tests/validate-la-puebla-editorial.mjs && node tests/validate-practice-exam.mjs
 
 node:internal/modules/run_main:107
     triggerUncaughtException(
