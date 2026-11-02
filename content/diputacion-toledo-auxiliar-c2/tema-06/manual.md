@@ -8,6 +8,9 @@
 
 **Programa oficial:** BOP de Toledo **n.º 197, de 14/10/2026**, Anexo XI, página 102, código **2026.00004759**.
 
+
+**Documento normativo verificado el 02/11/2026:** [Reforma de los Estatutos del OAPGT de 2011: artículos 1, 4.a), 8 bis, 14.d).1 y disposición adicional](./estatutos-2011-verificado.md). Fuente: **BOP de Toledo 284/2011**. Esta reforma parcial no acredita por sí sola el texto consolidado vigente; continúa pendiente el cotejo completo de los Estatutos.
+
 ## 2. Fuentes institucionales identificadas
 
 La **Diputación Provincial de Toledo** tiene publicado un **Acuerdo Regulador de las condiciones de trabajo de empleados públicos (funcionarios y laborales) de la Diputación y sus organismos autónomos** en el **BOP n.º 246, de 28/12/2023**. La web institucional de transparencia registra las siguientes modificaciones:
