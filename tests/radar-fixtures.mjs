@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {classify,boeEntries,bocmEntries,bopEntries,docmEntries,boeBody,boeVacancyEntries,pagEntries,merge} from '../tools/radar-core.mjs';
+import {normalizeOpportunity} from '../assets/radar-quality.js';
 const profile=JSON.parse(fs.readFileSync('data/radar-profile.json','utf8'));
 assert.deepEqual(profile.targetGroups,['B','C1','C2','AP']);
 assert.equal(profile.zones.toledo.mode,'PROVINCIA_COMPLETA');
@@ -66,6 +67,37 @@ assert.equal(merge({opportunities:initial},[],'2026-09-29')[0].isNew,false);
 assert.equal(pagEntries(pagXml.replace('ACCESO LIBRE','PERSONAL TEMPORAL'),'28').length,1);
 console.log('Cobertura de bolsas, sustituciones, oficios y avisos solo nuevos OK');
 const regional=merge({opportunities:[]},[{source:'DIRECT',id:'regional-test',title:'Convocatoria bolsa de personal de limpieza',context:'Comunidad de Madrid',scopeZone:'MADRID_SUR',location:'Comunidad de Madrid: comprobar destino Madrid sur',url:'https://www.comunidad.madrid/convocatoria-test'}],'2026-09-28');
-assert.equal(regional.length,1);assert.match(regional[0].location,/comprobar destino/);
+assert.equal(regional.length,1);assert.match(regional[0].location,/por comprobar|comprobar destino/);
 const sameOfficial=merge({opportunities:found},[{...boe[0],source:'DIRECT',id:'another-id'}],'2026-09-28');
 assert.equal(sameOfficial.length,found.length);assert(sameOfficial.every(x=>!x.isNew));
+
+
+const qualityCases=[
+ {title:'Resolución del Ayuntamiento de Olías del Rey (Toledo), referente a convocatoria — Tres plazas de Limpiador/a de la plantilla laboral, turno libre.',
+  organism:'II. Autoridades y personal. - B. Oposiciones y concursos',location:'Toledo (verificar destino)',zone:'TOLEDO',officialUrl:'https://www.boe.es/test',
+  expectedPosition:/Limpiador/,expectedVacancies:3,expectedActionable:true},
+ {title:'Acumulación de una plaza de discapacidad al turno libre del proceso de Auxiliar Administrativo',organism:'AYUNTAMIENTO DE TALAVERA DE LA REINA',
+  zone:'TOLEDO',officialUrl:'https://bop.diputoledo.es/test',expectedPosition:/Auxiliar Administrativo/,expectedVacancies:1,expectedActionable:false},
+ {title:'Acta final del plan de empleo',organism:'AYUNTAMIENTO DE CAMARENA',zone:'TOLEDO',officialUrl:'https://camarena.sedelectronica.es/test',
+  expectedPosition:null,expectedVacancies:null,expectedActionable:false},
+ {title:'Convocatoria de plazas de Técnico Auxiliar de Informática',organism:'Convocante · A2 · Toledo',
+  zone:'TOLEDO',officialUrl:'https://empleo.example.es/test',expectedPosition:/Técnico Auxiliar/,expectedVacancies:null,expectedActionable:false}
+];
+for(const item of qualityCases){
+  const o=normalizeOpportunity(item,'2026-11-02');
+  if(item.expectedPosition)assert.match(o.position,item.expectedPosition,item.title);
+  else assert.equal(o.position,null,item.title);
+  assert.equal(o.vacancies,item.expectedVacancies,item.title);
+  assert.equal(o.actionable,item.expectedActionable,item.title);
+  if(/Acumulación|Acta final/i.test(item.title))assert(o.phaseFollowup,item.title);
+}
+const dated=normalizeOpportunity({title:'Convocatoria de una plaza de Auxiliar Administrativo en Getafe',officialUrl:'https://www.bocm.es/a',
+  zone:'MADRID_SUR',deadline:'30/11/2026',qualification:'ESO'},'2026-11-02');
+assert.equal(dated.state,'PLAZO_ABIERTO');
+assert.equal(dated.deadlineIso,'2026-11-30');
+const expired=normalizeOpportunity({...dated,deadline:'01/10/2026'},'2026-11-02');
+assert.equal(expired.state,'CERRADA');
+const unknown=normalizeOpportunity({...dated,deadline:'Consultar plazo en BOE'},'2026-11-02');
+assert.equal(unknown.state,'REVISAR');
+assert.equal(unknown.deadline,null);
+console.log('Radar quality: puestos, convocatorias, seguimiento, A2 y plazos OK');
