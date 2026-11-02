@@ -1,8 +1,8 @@
 # Resultado de la puerta de cierre · Fase 2
 
-- Estado: **VALIDACION_CI_FALLIDA**
-- Commit validado: `ca55e6ef4bca0c3c1e3bd17634f0b72fa14427d5`
-- Fecha UTC: `2026-11-02T17:45:19Z`
+- Estado: **VALIDACION_CI_SUPERADA**
+- Commit validado: `64cd7b8674a0719274de5ccb358161a3083a0c6a`
+- Fecha UTC: `2026-11-02T17:45:55Z`
 
 ```text
 
@@ -24,22 +24,192 @@
   "tema6Interinidad": "4_YEARS_SOURCE_VALIDATED",
   "status": "LA_PUEBLA_VALIDATOR_UPDATED"
 }
-node:internal/modules/run_main:107
-    triggerUncaughtException(
-    ^
-
-AssertionError [ERR_ASSERTION]: Falta fecha de revisión normativa en tema 2
-    at file:///home/runner/work/opoweb-v2/opoweb-v2/tests/validate-la-puebla-editorial.mjs:41:10
-    at ModuleJob.run (node:internal/modules/esm/module_job:561:25)
-    at async node:internal/modules/esm/loader:647:26
-    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:101:5) {
-  generatedMessage: false,
-  code: 'ERR_ASSERTION',
-  actual: false,
-  expected: true,
-  operator: '==',
-  diff: 'simple'
+{
+  "proyecto": "La Puebla de Montalbán",
+  "temasValidados": 19,
+  "controles": [
+    "H1 único y título normalizado",
+    "estado y fecha editorial visibles",
+    "ausencia de metadatos históricos",
+    "ausencia de llamadas antiguas detectables",
+    "banco APROBADO_USUARIO con 12 preguntas",
+    "bloque final de esquema o repaso",
+    "enlaces locales existentes"
+  ],
+  "temas": [
+    {
+      "tema": 1,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 0,
+      "encabezadosEsquemaRepaso": 2,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 2,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 3,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 3,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 2,
+      "encabezadosEsquemaRepaso": 3,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 4,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 0,
+      "encabezadosEsquemaRepaso": 5,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 5,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 0,
+      "encabezadosEsquemaRepaso": 3,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 6,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 4,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 7,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 0,
+      "encabezadosEsquemaRepaso": 4,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 8,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 4,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 9,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 0,
+      "encabezadosEsquemaRepaso": 3,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 10,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 2,
+      "encabezadosEsquemaRepaso": 5,
+      "enlacesLocalesVerificados": 0
+    },
+    {
+      "tema": 11,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 2,
+      "enlacesLocalesVerificados": 8
+    },
+    {
+      "tema": 12,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 1,
+      "enlacesLocalesVerificados": 8
+    },
+    {
+      "tema": 13,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 1,
+      "enlacesLocalesVerificados": 7
+    },
+    {
+      "tema": 14,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 2,
+      "enlacesLocalesVerificados": 7
+    },
+    {
+      "tema": 15,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 0,
+      "encabezadosEsquemaRepaso": 2,
+      "enlacesLocalesVerificados": 8
+    },
+    {
+      "tema": 16,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 0,
+      "encabezadosEsquemaRepaso": 2,
+      "enlacesLocalesVerificados": 7
+    },
+    {
+      "tema": 17,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 2,
+      "encabezadosEsquemaRepaso": 1,
+      "enlacesLocalesVerificados": 7
+    },
+    {
+      "tema": 18,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 1,
+      "enlacesLocalesVerificados": 7
+    },
+    {
+      "tema": 19,
+      "h1": 1,
+      "banco": "APROBADO_USUARIO",
+      "preguntas": 12,
+      "llamadasFoco": 1,
+      "encabezadosEsquemaRepaso": 1,
+      "enlacesLocalesVerificados": 7
+    }
+  ],
+  "estado": "VALIDACION_EDITORIAL_AUTOMATIZADA_OK"
 }
-
-Node.js v24.22.1
+SIMULACROS_PUEBLA_50_MAS_5_NOTA_Y_BLANCOS_OK
 ```
