@@ -498,12 +498,27 @@ Esto no significa que su actividad no esté sujeta. Realizan el hecho imponible,
 
 Están exentos, con los requisitos legales:
 
-- sujetos del Impuesto sobre Sociedades;
-- sociedades civiles;
-- entidades del artículo 35.4 LGT;
-- determinados no residentes con establecimiento permanente;
+- sujetos del **Impuesto sobre Sociedades**;
+- **sociedades civiles**;
+- entidades del **artículo 35.4 LGT**;
+- determinados no residentes con **establecimiento permanente**;
 
-cuando el importe neto de la cifra de negocios sea inferior a **1.000.000 de euros**.
+cuando el **importe neto de la cifra de negocios (INCN)** sea **inferior a 1.000.000 de euros**.
+
+El **artículo 82.1.c del TRLRHL** exige varias precisiones:
+
+- El umbral es **estrictamente inferior a 1.000.000 €**. No equivale a «igual o inferior»: **1.000.000 € exactos** no cumple esta exención por cifra de negocios.
+- Se considera, con las reglas legales de referencia temporal, el **conjunto de las actividades económicas** del sujeto pasivo.
+- Si pertenece a un **grupo de sociedades con control** conforme al **artículo 42 del Código de Comercio**, la cifra de negocios se refiere al **conjunto de entidades del grupo**, aunque no exista obligación de consolidar cuentas.
+- Para sujetos no residentes que operen mediante **establecimiento permanente**, se atiende al INCN imputable al **conjunto de sus establecimientos permanentes situados en España**.
+
+| Situación | ¿Basta el INCN propio inferior al umbral? |
+|---|---|
+| Sociedad individual, **sin grupo** y con requisitos cumplidos | Puede aplicarse la exención |
+| Sociedad que pertenece a **grupo de control** | **No**: hay que contrastar el **INCN agregado del grupo** |
+| Sociedad con INCN de **1.000.000 € exactos** | **No cumple** el requisito de ser **inferior** a esa cifra |
+
+> ⚠️ **¡Foco Examen!:** El umbral del IAE es **inferior a 1.000.000 €**, no «hasta 1.000.000 € inclusive». La suma del **grupo de sociedades** puede eliminar la exención aunque una sociedad individual facture menos.
 
 ### Otras exenciones
 
