@@ -115,7 +115,7 @@ export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=doc
     if(Object.keys(facts).length)withDetails++;
    }catch(e){
     updated.detailsStatus=String(e.message||e).slice(0,100);
-    const reason=/HTTP\\s*\\d{3}/i.exec(updated.detailsStatus)?.[0]?.replace(/\\s+/g,' ') ||
+    const reason=/HTTP\s*\d{3}/i.exec(updated.detailsStatus)?.[0]?.replace(/\s+/g,' ') ||
       (/PDF_NO_EXTRAIBLE/.test(updated.detailsStatus)?'PDF_NO_EXTRAIBLE':
       /TEXTO_INSUFICIENTE/.test(updated.detailsStatus)?'TEXTO_INSUFICIENTE':
       /Timeout|Abort|timed out/i.test(updated.detailsStatus)?'TIMEOUT':'OTRO');
