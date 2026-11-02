@@ -60,7 +60,7 @@
 
 **Objetivo:** cotejar como un conjunto los epígrafes oficiales, las reglas compartidas, los materiales ya existentes, todos los bancos de preguntas y las pruebas integradas de los temas 1–5. Guardar correcciones legales, matrices de cobertura y evidencias por sublotes. No reabrir por sistema una comprobación ya acreditada. Si un sublote no puede finalizarse, conservar el marcador exacto en esta sección.
 
-**Marcador de reanudación (actualizado 02/11/2026):** bloque urgente **La Puebla C2**; contrastados y afinados los **temas 3 y 4** en la submateria de Ley 39/2015, arts. **24, 58–62, 96 y 122** (evidencia §20). Continuar sin repetir desde las **excepciones jurídicas de temas 3–5 y 10–14**, priorizando preguntas de riesgo y cotejo del contenido completo con las versiones normativas aplicables; comprobar temario UC3M conforme a su fecha de corte de listas definitivas. **DT-C2-A** preservado para reanudar tras exámenes urgentes; tema 6 OAPGT continúa al final. No dar por recertificados en noviembre los manuales ni bancos por estos controles parciales.
+**Marcador de reanudación (actualizado 02/11/2026, §21):** bloque urgente **La Puebla C2**, control jurídico focalizado **T3, T4, T5, T11 y T13**. Tras los arts. 24, 58–62, 96 y 122 de Ley 39/2015 (§20), se han corregido **excepciones electorales municipales** de LOREG (arts. 180, 184, 196), **solicitudes sucesivas de aplazamiento y recursos contra sanciones** (art. 161 LGT) y **plazos eIDAS** (arts. 20, 24). **Siguiente punto exacto:** profundizar en **La Puebla temas 10 y 12** (reglas tributarias y excepciones: LGT/TRLRHL) y cerrar distractores aún no verificados de **temas 3–5 y 13–14**, con fuentes y prueba CI. En paralelo, **UC3M temas 14–16** pendiente de fecha exacta de publicación de listas definitivas como corte normativo. **DT-C2-A** preservado hasta después de las urgencias y **OAPGT tema 6** al final. No confundir controles parciales con recertificación integral.
 
 | Bloque | Convocatoria | Alcance | Estado operativo |
 |---|---|---|---|
@@ -440,3 +440,36 @@ Antes de elevar el estado de un bloque: comprobar recursos reales, `npm test` (o
 - **Comprobación directa del repositorio:** las ediciones JSON de convocatoria, seguimiento y programa se analizaron como JSON al grabarse; los bancos de LP tema 3 conservaron **12 preguntas** y las claves de corrección. Se mantuvieron las referencias a normas y el estándar de Foco Examen. **No se pudo ejecutar `npm test:all` localmente**, pues el contenedor de revisión no tiene resolución de red a GitHub. La consulta disponible de estados del último commit no devolvió comprobaciones, por lo que **CI del último commit: sin confirmar**, no afirmar `SUCCESS`.
 - **Incidencia visual OpoRadar:** `assets/radar.css` (`01e4a521`) reemplaza variable `--card` inexistente por las superficies ya definidas del tema, y `radar.html` (`76b39f15`) invalida la caché CSS; **el usuario confirma expresamente que ya se ve correctamente**. Este hecho cierra la incidencia visual del §19, **no** demuestra calidad integral de las fuentes del Radar del §18.
 - **Próxima auditoría:** La Puebla, continuar **temas 3–5 y 10–14**, pasando de los conceptos ya afinados a **verificación de preguntas sobre plazos, órganos, excepciones y liquidación tributaria**, con contraste en fuentes oficiales. UC3M: localizar el original de la **resolución definitiva con fecha de publicación**, decidir la versión normativa exigible y proseguir materias universitarias 13–17; publicar cualquier actualización futura de aulas **solo con resolución UC3M**. Tras los exámenes urgentes, volver a **Diputación C2 DT-C2-A**, manteniendo **OAPGT tema 6 al final**.
+
+
+## 21. Auditoría focalizada LOREG, LGT y eIDAS — **02/11/2026**
+
+**Contexto:** continuación del §20 con prioridad del **examen La Puebla de 14/11/2026**, conservando UC3M **21/11/2026**. La revisión de **preguntas y fuentes** no equivale a recertificación íntegra de los **19 temas**, ni a revisar de nuevo los simulacros existentes. Se han mantenido las letras de respuesta, el número de preguntas por banco y la aprobación editorial histórica registrada.
+
+### A. Tema 5 · Excepciones por población en elecciones municipales
+
+**Evidencia jurídica:** [LOREG consolidada, BOE-A-1985-11672, arts. 180, 184, 196](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672). Los enunciados previos de `LP-T05-011` y `LP-T05-012` daban las reglas del **5 %** de votos válidos para reparto de Concejales y del **cabeza de lista más votada** para Alcaldía **sin delimitar que corresponden al régimen de listas**. El **art. 184** establece **voto limitado individual** en municipios de **hasta 250 residentes** que no funcionen en **Concejo Abierto**, y el último párrafo del **art. 196** contiene una regla específica para **100–250** en la elección del Alcalde. Se han delimitado ambos enunciados a **municipios de más de 250 habitantes con listas** y ampliado el manual con tabla comparativa, ejemplos y focos; respuestas **B** y **C** conservadas.
+
+**Commits:** `content/la-puebla/tema-05/manual.md` **`7ba84b7c`**; `preguntas.json` **`77e7fb64`**; `fuentes.md` **`845c219a`**; `matriz.json` **`eba04e7b`**. **No afirmar** que toda elección municipal funciona por listas proporcionales, ni que el umbral del **5 %** sea universal.
+
+### B. Tema 11 · Solicitudes reiteradas y excepción de sanciones
+
+**Evidencia jurídica:** [Ley 58/2003, General Tributaria, art. 161.1–2](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186) y [art. 167.1](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186). Una solicitud de aplazamiento/fraccionamiento/compensación en período voluntario impide **en general** iniciar ejecutiva; **no** lo impide otra solicitud de la misma deuda tras **denegación previa** de las figuras enumeradas en el art. 161.2 y **vencimiento sin pago** del nuevo plazo abierto. El recurso en **tiempo y forma contra sanciones** tiene tratamiento propio hasta la **firmeza administrativa** y fin de su plazo voluntario. Se han añadido advertencias al manual y a bloques de aplazamiento/ejecutiva y precisado `LP-T11-006`, con la respuesta **C** conservada.
+
+**Commits:** `bloque-02-aplazamiento-compensacion.md` **`9aed43f3`**; `bloque-04a-ejecutiva-providencia.md` **`a9a00755`**; `manual.md` **`0bc22ec3`**; `preguntas.json` **`7a6bd3d2`**.
+
+### C. Tema 13 · Plazos de certificados y servicios cualificados
+
+**Evidencia jurídica:** [Reglamento eIDAS 910/2014 consolidado (18/10/2024), arts. 20.1, 20.1 bis y 24.3](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18) y [Ley 6/2020, arts. 4.2 y 9.3.a](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046). Distinciones: **auditoría ordinaria como máximo cada 24 meses**, **preaviso de la auditoría planificada con al menos 1 mes de antelación**, **informe en 3 días laborables** desde que el prestador lo recibe y **publicación de revocación en un máximo de 24 horas** desde la solicitud, con eficacia desde publicación; además **5 años** de certificado cualificado y **15 años** de conservación. Se ha ampliado el cuadro de plazos y los Focos Examen del manual, las fuentes y las justificaciones de `LP-T13-008` y `LP-T13-012`, conservando respuestas **B** y **C**.
+
+**Commits:** `manual.md` **`591c0d16`**, corrección terminológica del preaviso **`6fd7d41b`**; `fuentes.md` **`54b035a0`**; `preguntas.json` **`32adca60`**. No se asegura cobertura completa de eIDAS ni de todos los distractores.
+
+### D. Precisión menor en tema 3
+
+`LP-T03-003` corregida de «la **instrucción** procede de superior» a «una **orden** emitida por órgano superior», conforme al **art. 60.1 Ley 39/2015**; cuarto distractor también adaptado, respuesta **C** conservada. Commit **`fa4536d7`**. No altera correcciones sustantivas del §20.
+
+### Validación e hito siguiente
+
+**Comprobación directa en GitHub:** **12 archivos** revisados tras su actualización; los **cuatro bancos modificados** (**T3, T5, T11, T13**) conservan **12 preguntas** con **ID únicos**, **4 opciones** y `respuestaCorrecta` en rango. Verificadas la delimitación de T5, excepción de T11, cifras de T13 y precisión de T3 mediante lectura de archivos actualizados. **No es validación de la batería completa `npm run test:all` ni certificación de los 96 ítems del bloque T3–5/T10–14**.
+
+**Siguiente marcador exacto:** auditar críticamente **temas 10 y 12 de La Puebla**, especialmente plazos, obligados tributarios, sujetos pasivos, exenciones y fronteras entre núcleo oficial y ampliación; continuar excepciones residuales de **T3–5, T13–14** y resolver verificaciones de **UC3M 14–16** con la **fecha real de corte normativo** que determinen sus listas definitivas. El **CI del último commit queda pendiente de comprobar**, no declarar que ha terminado en `SUCCESS`. Mantener **Diputación C2 DT-C2-A** en cola y **OAPGT T6 al final**.
