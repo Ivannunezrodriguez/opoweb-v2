@@ -54,17 +54,28 @@
 - **Diputación C2 tests:** informe técnico histórico de **25/10/2026** sobre **138 preguntas / 19 bancos** y revisión normativa parcial; **no extrapolar a aprobación general**.
 - **La Puebla fase 2:** cierre histórico y prueba de CI de commit documentados; **no eliminar ni revalidar desde cero**. Revisar únicamente cambios normativos, incidencias puntuales y funcionamiento de la versión actual.
 
-## 5. Siguiente tarea EXACTA y puerta de salida
+## 5. Plan por BLOQUES (vigente desde 02/11/2026)
 
-**TAREA ACTIVA: DT-C2-T01 — Auditoría integral del Tema 1 (Constitución).**
+**BLOQUE ACTIVO: DT-C2-A — Constitución, procedimiento administrativo y Administración local (temas 1–5).**
 
-1. Leer `data/programa-diputacion-auxiliar-c2-2026.json`, `content/diputacion-toledo-auxiliar-c2/tema-01/manual.md`, `fuentes.md` (si existe) y `preguntas.json`.
-2. Extraer cada inciso del **Anexo XI, BOP Toledo 197/2026**; comprobar Constitución consolidada y reformas hasta la fecha de examen; **revisar expresamente** referencias a la reforma del art. **69.3 de 2026**.
-3. Documentar una matriz de cobertura **inciso→precepto→versión→manual→pregunta**; corregir errores concretos con fuente oficial.
-4. Auditar cada pregunta con opciones, respuesta única, justificación, trampa y referencia exacta; incluir controles funcionales posibles de la web.
-5. Guardar enlaces y commits, actualizar en este archivo la **fecha y evidencia** de la revisión y la siguiente tarea: **DT-C2-T02**. Si queda cualquier bloqueo, mantener **DT-C2-T01 EN AUDITORÍA** y describir la próxima acción exacta; **no saltar** ni reiniciar.
+**Objetivo:** cotejar como un conjunto los epígrafes oficiales, las reglas compartidas, los materiales ya existentes, todos los bancos de preguntas y las pruebas integradas de los temas 1–5. Guardar correcciones legales, matrices de cobertura y evidencias por sublotes. No reabrir por sistema una comprobación ya acreditada. Si un sublote no puede finalizarse, conservar el marcador exacto en esta sección.
 
-**Cola posterior sin perder pendientes:** C2 **T02→T03→T04→T05→T07…T20→T06** (último). Después mantenimiento focalizado La Puebla **T01–T19**, UC3M **T01–T20** y Diputación C1 **T01–T40**, recuperando sus verificaciones parciales sin repetirlas.
+**Marcador de reanudación:** INICIO DE AUDITORÍA SUSTANTIVA MULTITEMA. El inventario estructural global sí está hecho, pero no certifica la fiabilidad jurídica de los cinco temas. Empezar por la verificación agrupada de su Constitución/Ley 39/2015/régimen local; no volver a generar manuales ni bancos existentes.
+
+| Bloque | Convocatoria | Alcance | Estado operativo |
+|---|---|---|---|
+| **DT-C2-A** | Diputación Auxiliar C2 | **1–5**, Constitución, Ley 39/2015, régimen local | **ACTIVO; cobertura y fiabilidad pendiente de certificar** |
+| DT-C2-B | Diputación Auxiliar C2 | **7–10**, empleo público, prevención, igualdad y datos | **EN COLA** |
+| DT-C2-C | Diputación Auxiliar C2 | **11–15**, tributos, recaudación, administración electrónica, Ley 40/2015 | **EN COLA** |
+| DT-C2-D | Diputación Auxiliar C2 | **16–20**, Windows, Edge, GroupWise, LibreOffice y hardware | **EN COLA** |
+| DT-C2-E | Diputación Auxiliar C2 | **6**, Acuerdo Regulador y Estatutos OAPGT | **EN COLA, APLAZADO EXPRESAMENTE HASTA EL FINAL; fuente íntegra pendiente** |
+| LP-M | La Puebla C2 | **1–6**, **7–14**, **15–19**, control de vigencia posterior al cierre de fase 2 | **MANTENIMIENTO; NO REHACER CIERRE HISTÓRICO** |
+| UC3M-A/B/C/D | UC3M C2 | **1–5**, **6–10**, **11–15**, **16–20**; adaptar a materias del programa | **EN COLA** |
+| DT-C1-A/B/C/D | Diputación Administrativo C1 | **1–10**, **11–20**, **21–30**, **31–40** | **EN COLA; conservar revisiones parciales temas 3–5** |
+
+**Regla de avance:** en cada ejecución trabajar un conjunto significativo de archivos/temas relacionados; el indicador de progreso es **bloques/subbloques realmente verificados con evidencia**, no el número de comunicaciones al usuario. Puede quedar un bloqueo individual dentro de un bloque; documentarlo, avanzar el resto si es seguro, y conservar la incidencia en su cola sin declarar cerrado el bloque.
+
+**Notificaciones al usuario:** **SOLO INCIDENCIAS SIGNIFICATIVAS** que requieran acción del usuario o no se puedan resolver autónomamente, o errores graves que afecten a la fiabilidad del estudio. No emitir partes diarios, estados por tema ni avisos de cambios normales. Conservar el historial de avances silenciosamente en este mismo archivo.
 
 ## 6. Criterios obligatorios de cierre por tema
 
@@ -82,8 +93,8 @@
 
 1. Abrir **este fichero primero**; leer también `PROJECT_RULES.md` y el manifiesto de la convocatoria activa.
 2. Revisar el **último commit** y los cambios desde la última anotación; no sobreescribir avances de otra ejecución. Resolver contradicciones antes de trabajar.
-3. Retomar la **TAREA ACTIVA** sin volver al inicio del programa, hasta acreditar su puerta de salida.
-4. Al cerrar cada bloque, **editar esta misma tarea activa y su evidencia**, no crear nuevos archivos de «estado final» que compitan con él.
+3. Retomar el **BLOQUE ACTIVO** desde su marcador exacto, sin volver al inicio ni detener toda la auditoría por una incidencia de un tema cuando sea seguro seguir con el resto.
+4. Al cerrar cada bloque o subbloque, **editar esta misma sección, su marcador de avance y evidencia**, no crear otros archivos de «estado final» ni informar tema por tema.
 5. Cada resumen al usuario debe distinguir **contenido presente, auditoría jurídica, validación técnica, aprobación histórica y progreso pendiente**.
 6. No reabrir el tema 6 del OAPGT hasta finalizar el resto de temas de Diputación C2, **salvo nueva instrucción**.
 
@@ -114,4 +125,33 @@
 
 **Validación efectivamente realizada aquí:** lectura y análisis JSON de los manifiestos y fichas modificados y comprobación textual de la función `themeStatus`. **No** se ha ejecutado `npm test` para el commit actual ni una nueva prueba real de navegador. La consulta de estados de GitHub para un commit reciente devolvió **0 checks**, lo que **no** prueba por sí solo ni éxito ni fallo de CI. Por tanto, **pruebas funcionales y CI actual pendientes**.
 
-**No avanzar la TAREA ACTIVA por estas normalizaciones.** El siguiente trabajo sustantivo sigue siendo **DT-C2-T01**. Tras cada corrección de un tema, actualizar tanto la cabecera del manual y su entrada de manifiesto como la evidencia de este registro, únicamente si las puertas de calidad lo permiten.
+**No considerar auditado ningún bloque por estas normalizaciones.** El siguiente trabajo sustantivo es el **BLOQUE DT-C2-A (temas 1–5)**, con revisión agrupada y preservación del trabajo existente. Actualizar cabeceras/manifiestos solo tras controles pertinentes.
+
+## 9. Inventario estructural completo de GitHub — **02/11/2026**
+
+Se ha leído el **árbol Git recursivo completo** de la rama principal: **723 entradas**, de ellas **608 archivos**. **Esto es un inventario de rutas, no lectura semántica ni validación legal de los 608 contenidos.** Desglose: **201 archivos JSON**, **352 Markdown**, **13 flujos GitHub Actions**. No se ha ejecutado un barrido real de CI/navegador sobre todo el repositorio.
+
+| Programa | Archivos en carpeta de contenido | Temas con manual | Temas con fuentes.md | Temas con matriz.json | Temas con preguntas.json |
+|---|---:|---:|---:|---:|---:|
+| **La Puebla C2** | **209** | **19/19** | **5/19** | **19/19** | **19/19** |
+| **Diputación Auxiliar C2** | **67** | **20/20** | **20/20** | **0/20** | **20/20** |
+| **UC3M C2** | **82** | **20/20** | **20/20** | **20/20** | **20/20** |
+| **Diputación Administrativo C1** | **164** | **40/40** | **40/40** | **40/40** | **40/40** |
+
+**Interpretación responsable:**
+- **Diputación Auxiliar C2:** no hay archivos independientes `matriz.json`. Varios manuales sí contienen matrices en tablas Markdown; revisar su cobertura antes de crear **20 matrices reales y trazables**. Es una **incidencia estructural**, no prueba de que falte toda la materia.
+- **La Puebla:** catorce carpetas de tema carecen de `fuentes.md` independiente, pero existen materiales modulares y matrices; **no declarar ausencia de fuentes normativas** sin comprobarlos.
+- **Diputación C2 tema 9:** existen `tema-9/manual.md` y `tema-09/manual.md`, con contenido y estados distintos. **La ruta canónica del manifiesto es `tema-09/`**. Verificar enlaces/uso y evitar doble mantenimiento; no borrar automáticamente sin comprobar referencias.
+- Los números de archivos/bancos muestran presencia documental, **nunca fiabilidad jurídica**.
+
+### Banco de preguntas de Diputación C2: medición actual
+
+**20 bancos JSON leídos y analizados sintácticamente**, con **409 preguntas** en total (**19 bancos × 20** y **29 preguntas provisionales en tema 6**). En la verificación estructural de estos 409 registros se observaron **0 índices de respuesta fuera del rango 0–3, 0 preguntas sin exactamente cuatro opciones**; la primera mitad de bancos también se comprobó sin identificadores duplicados dentro de cada tema. **No se ha verificado que las 409 respuestas sean jurídicamente correctas.**
+
+El informe `AUDITORIA_TESTS_2026-10-25.md` conserva el histórico de **138 preguntas en 19 bancos**; **esa cifra ya NO representa el banco actual**. La explicación es crecimiento posterior, no necesariamente un error en la auditoría anterior. No destruir el histórico: comparar **fecha y commit**.
+
+**Incidencias registradas para resolución autónoma en los bloques:** ausencia de matrices externas C2, duplicado de ruta T09, desfase de estadísticas históricas y pruebas actuales de interfaz/CI aún pendientes. Ninguna de estas requiere por ahora actuación personal del usuario.
+
+### Prioridad técnica transversal
+
+Antes de elevar el estado de un bloque: comprobar recursos reales, `npm test` (o controles GitHub Actions sobre el commit de que se trate), integridad de JSON, enlaces, móvil, cuestionarios con blancos y persistencia independiente entre convocatorias. Si no se pudo ejecutar alguna prueba, marcarla explícitamente **PENDIENTE**, sin presentar un resultado histórico como actual.
