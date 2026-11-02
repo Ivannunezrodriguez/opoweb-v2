@@ -186,31 +186,31 @@
     },
     {
       "id": "DIP-T13-014",
-      "pregunta": "¿Qué órgano existe obligatoriamente en municipios con más de 5.000 habitantes?",
+      "pregunta": "En municipios de población superior a 20.000 habitantes, ¿qué servicio municipal mínimo exige el artículo 26.1.c LRBRL?",
       "opciones": [
-        "El consejo comarcal",
-        "El tribunal económico-administrativo provincial",
-        "La Junta de Gobierno Local",
-        "Un Consejo de Ministros municipal"
+        "Transporte colectivo urbano",
+        "Protección civil",
+        "Metro municipal",
+        "Universidad pública"
       ],
-      "correcta": 2,
-      "justificacion": "La **Junta de Gobierno Local** existe en municipios con población superior a **5.000 habitantes** y en los de menos cuando proceda legalmente.",
-      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
-      "referencia": "LRBRL art. 20.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "correcta": 1,
+      "justificacion": "El artículo **26.1.c LRBRL** incluye **protección civil**, prevención y extinción de incendios e instalaciones deportivas de uso público.",
+      "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
+      "referencia": "LRBRL art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
     },
     {
       "id": "DIP-T13-015",
-      "pregunta": "¿Qué documentación constituye el padrón municipal?",
+      "pregunta": "¿Qué servicios se añaden como obligatorios para municipios de más de 50.000 habitantes?",
       "opciones": [
-        "Una relación solo de propietarios",
-        "Un censo fiscal sin valor residencial",
-        "Un padrón exclusivamente electoral",
-        "El registro administrativo donde constan los vecinos de un municipio"
+        "Biblioteca y cementerio",
+        "Transporte colectivo urbano de viajeros y medio ambiente urbano",
+        "Solo alumbrado y recogida de residuos",
+        "Protección civil y abastecimiento domiciliario de agua"
       ],
-      "correcta": 3,
-      "justificacion": "El padrón municipal es el **registro administrativo** donde constan los vecinos; sus datos constituyen prueba de residencia y domicilio habitual.",
-      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
-      "referencia": "LRBRL art. 16.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "correcta": 1,
+      "justificacion": "El **artículo 26.1.d LRBRL** añade **transporte colectivo urbano de viajeros** y **medio ambiente urbano**.",
+      "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
+      "referencia": "LRBRL art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
     },
     {
       "id": "DIP-T13-016",
@@ -228,17 +228,17 @@
     },
     {
       "id": "DIP-T13-017",
-      "pregunta": "¿Por cuánto tiempo se expone al público el presupuesto general tras su aprobación inicial?",
+      "pregunta": "Si durante los 15 días de exposición pública del presupuesto no se presentan reclamaciones, ¿qué sucede?",
       "opciones": [
-        "10 días",
-        "15 días",
-        "20 días hábiles",
-        "Un mes"
+        "Se anula la aprobación inicial",
+        "Se considera definitivamente aprobado",
+        "Debe convocarse referéndum local",
+        "El presidente dispone de un mes para resolverlas"
       ],
       "correcta": 1,
-      "justificacion": "El artículo 169.1 establece exposición pública durante **15 días**, con posibilidad de reclamaciones ante el **Pleno**.",
-      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
-      "referencia": "TRLRHL art. 169.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "justificacion": "El **artículo 169.1 TRLRHL** establece la aprobación definitiva si no se presentan reclamaciones.",
+      "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
+      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     },
     {
       "id": "DIP-T13-018",
@@ -256,31 +256,31 @@
     },
     {
       "id": "DIP-T13-019",
-      "pregunta": "¿Hasta qué fecha debe realizarse la aprobación definitiva del presupuesto general para el año siguiente?",
+      "pregunta": "¿Cuándo entra en vigor el presupuesto general de la entidad local?",
       "opciones": [
-        "Antes del 1 de septiembre",
-        "Antes del 15 de octubre",
-        "Antes del 1 de diciembre",
-        "Antes del 31 de diciembre del año anterior"
+        "Al aprobarse inicialmente",
+        "Al comenzar su exposición pública",
+        "En el ejercicio correspondiente una vez publicado en la forma prevista legalmente",
+        "Siempre el día de su remisión al Pleno"
       ],
-      "correcta": 3,
-      "justificacion": "La aprobación definitiva debe efectuarse antes del **31 de diciembre** del año anterior a su aplicación.",
-      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
-      "referencia": "TRLRHL art. 169.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "correcta": 2,
+      "justificacion": "El **artículo 169.5 TRLRHL** condiciona la entrada en vigor a su **publicación** en la forma legalmente prevista.",
+      "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
+      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     },
     {
       "id": "DIP-T13-020",
-      "pregunta": "¿Qué regla se aplica si el presupuesto no ha entrado en vigor al comenzar el ejercicio?",
+      "pregunta": "¿Qué créditos quedan excluidos de la prórroga automática del presupuesto anterior?",
       "opciones": [
-        "Se prorroga automáticamente el anterior con límites legales",
-        "Se prohíbe todo gasto municipal",
-        "Se aprueba automáticamente el proyecto nuevo",
-        "El Ayuntamiento se disuelve"
+        "Todos los créditos de personal",
+        "Los créditos de servicios o programas que debían terminar el ejercicio anterior o financiados con ingresos específicos o afectados",
+        "Todos los de gastos corrientes",
+        "Los de mantenimiento municipal sin excepciones"
       ],
-      "correcta": 0,
-      "justificacion": "Si al iniciarse el ejercicio no ha entrado en vigor el presupuesto correspondiente, se prorroga automáticamente el anterior con los límites legales.",
-      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
-      "referencia": "TRLRHL art. 169.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "correcta": 1,
+      "justificacion": "El **artículo 169.6 TRLRHL** excluye de la prórroga los créditos para programas concluidos y los financiados con ingresos específicos o afectados.",
+      "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
+      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
     }
   ]
 }
