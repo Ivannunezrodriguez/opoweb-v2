@@ -40,6 +40,7 @@ El RDL se publicó el **7 de octubre de 2026** y entró en vigor, con especialid
 5. [Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana](bloque-05-iivtnu.md)
 6. [Trazabilidad artículo por artículo](articulos.md)
 7. [Informe para revisión](feedback.md)
+8. [Fuentes oficiales y control de vigencia](fuentes.md)
 
 ## Mapa normativo
 
