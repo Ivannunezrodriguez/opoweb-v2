@@ -1,19 +1,8 @@
 name: Radar de empleo público
 
+# Ejecutar búsquedas dos veces al día y manualmente. Los commits de código
+# son frecuentes y NO deben lanzar rastreos de cuatro minutos por cada push.
 on:
-  push:
-    branches: [main]
-    paths:
-      - "tools/radar*.mjs"
-      - "tools/radar-direct.py"
-      - "assets/radar-quality.js"
-      - "tests/radar-fixtures.mjs"
-      - "tests/radar-enrich.mjs"
-      - "tools/radar-enrich.mjs"
-      - "assets/radar.js"
-      - "radar.html"
-      - "data/radar-sources.json"
-      - ".github/workflows/radar-empleo.yml"
   schedule:
     - cron: "17 5,15 * * *"
   workflow_dispatch:
@@ -42,12 +31,6 @@ jobs:
           python3 tests/radar-direct-test.py
       - name: Actualizar radar
         run: node tools/radar.mjs
-      - name: Notificar novedades por email
-        env:
-          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-          RADAR_EMAIL: ${{ secrets.RADAR_EMAIL }}
-          RADAR_FROM: ${{ secrets.RADAR_FROM }}
-        run: node tools/radar-notify.mjs
       - name: Guardar cambios
         run: |
           git config user.name "opoweb-radar[bot]"
@@ -60,5 +43,30 @@ jobs:
             echo "Sin cambios"
           else
             git commit -m "chore(radar): actualizar oportunidades"
-            git push
+            # Rebase integra los commits editoriales añadidos mientras Radar rastreaba.
+            # No forzar pushes ni ocultar posibles conflictos en los datos de Radar.
+            for attempt in 1 2 3 4 5; do
+              if git push origin HEAD:main; then
+                echo "Radar guardado en main"
+                exit 0
+              fi
+              echo "main avanzó durante la búsqueda (intento $attempt): integrando cambios"
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort || true
+                echo "::error::Conflicto real al integrar datos del Radar; no sobrescribir cambios"
+                exit 1
+              fi
+              sleep 3
+            done
+            echo "::error::No se pudo publicar Radar tras cinco intentos"
+            exit 1
           fi
+      - name: Notificar novedades por email
+        # No enviar avisos si la actualización no se pudo guardar.
+        # Así una ejecución fallida no reenvía las mismas ofertas en su reintento.
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RADAR_EMAIL: ${{ secrets.RADAR_EMAIL }}
+          RADAR_FROM: ${{ secrets.RADAR_FROM }}
+        run: node tools/radar-notify.mjs
