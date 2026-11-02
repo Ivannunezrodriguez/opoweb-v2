@@ -38,3 +38,9 @@ Referencia secundaria de consulta del dictamen: https://www.iberley.es/resolucio
 **Valor de prueba:** acredita la referencia estatutaria usada en el expediente de **2019**; no permite inferir por sí sola todos los artículos vigentes en **2026**, el quórum del Consejo Rector ni la aprobación definitiva de la modificación anunciada en **2004**.
 
 > ⚠️ **¡Foco Examen!:** La **revisión administrativa de un acto tributario delegado** tiene un fundamento competencial distinto de la **aprobación del padrón**; no confundir las atribuciones que los anuncios oficiales citan en diferentes artículos.
+
+## Fuente estatutaria contrastada — 02/11/2026
+
+Publicación oficial examinada: **BOP Toledo n.º 284, 14/12/2011**, anuncio **I-11024**, reforma del **Pleno de 28/11/2011** de los **artículos 1, 4.a), 14.d).1**, introducción del **8 bis** y **disposición adicional**. Se ha cotejado visualmente la página única del anuncio. Véase [ficha normativa interna](./estatutos-2011-verificado.md).
+
+**Límite jurídico:** modificación parcial publicada, no texto vigente íntegro de 1996 a 2026. Siguen pendientes el estatuto original, sus demás reformas, el acuerdo laboral consolidado y la prueba web.
