@@ -23,6 +23,21 @@ La [**Ley 4/2026, de 1 de octubre**, BOE-A-2026-20528](https://www.boe.es/buscar
 
 > ⚠️ **¡Foco Examen!:** No mezclar **25.2.q** (competencia de accesibilidad universal) con **69.1** (información local accesible). La modificación se **publicó el 03/10**, pero empezó a regir el **23/10/2026**.
 
+## Control adicional de excepciones electorales municipales — **02/11/2026**
+
+**Fuente oficial vigente:** [LOREG, arts. **180**, **184** y **196**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672).
+
+| Población y sistema | Elección de Concejales | Elección de Alcalde |
+|---|---|---|
+| **Más de 250 habitantes**, listas ordinarias | Reparto proporcional con mínimo **5 %** de votos válidos (**art. 180**) | Si nadie obtiene **mayoría absoluta**, cabeza de la lista más votada (**art. 196**) |
+| **101–250 residentes**, sin Concejo Abierto | Voto a un máximo de **4 candidatos** para elegir **5 Concejales** (**art. 184**) | Pueden ser candidatos **todos los Concejales**; sin mayoría absoluta, gana el de **más votos populares individuales** (**art. 196**) |
+| **Hasta 100 residentes**, sin Concejo Abierto | Voto a un máximo de **2 candidatos** para elegir **3 Concejales** (**art. 184**) | No asumir la regla general sin cotejar el régimen específico de elección aplicable |
+| **Concejo Abierto** | Régimen propio, no listas proporcionales | **Elección directa** del Alcalde |
+
+**Corrección en test:** `LP-T05-011` y `LP-T05-012` se circunscriben expresamente al **sistema ordinario de listas de municipios de más de 250 habitantes**; respuestas **B** y **C** preservadas. También se han delimitado los ejemplos del manual para impedir extrapolaciones. Esta precisión es un **control puntual**, no certifica todos los distractores del banco.
+
+> ⚠️ **¡Foco Examen!:** La LOREG no establece una barrera universal del **5 %** ni una única regla municipal para elegir Alcalde. Los **arts. 184 y 196** exigen comprobar la población y el sistema electoral.
+
 ## Cobertura del tema y controles abiertos
 
 | Programa | Fuente principal |
