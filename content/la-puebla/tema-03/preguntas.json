@@ -1,7 +1,7 @@
 {
   "tema": 3,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-07-30",
+  "version": "2026-11-02",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -179,5 +179,14 @@
       "trampaExamen": "La multa coercitiva no es una sanción; es un medio de ejecución compatible con sanciones.",
       "referencia": "manual.md · apartado 50 · Artículo 100"
     }
-  ]
+  ],
+  "revisionFocalizada": {
+    "fecha": "2026-11-02",
+    "preguntas": [
+      "LP-T03-003",
+      "LP-T03-011"
+    ],
+    "norma": "Ley 39/2015, artículos 58–62 y 96.6",
+    "alcance": "Corrección concreta de redacción y fundamento; no equivale a revalidación integral ni modifica el hito de aprobación histórica."
+  }
 }
