@@ -15,9 +15,15 @@ Comienza:
 
 ## 2. Solicitudes presentadas en voluntaria
 
-La solicitud de aplazamiento, fraccionamiento o compensación presentada dentro del periodo voluntario impide iniciar el periodo ejecutivo mientras se tramita.
+La solicitud de **aplazamiento, fraccionamiento o compensación** presentada en **período voluntario** **impide, como regla general, iniciar el período ejecutivo** mientras se tramita (**art. 161.2 LGT**).
+
+**Excepción legal:** no lo impide una nueva solicitud sobre **la misma deuda** después de que otra solicitud de aplazamiento, fraccionamiento, compensación, suspensión o pago en especie fuese **denegada**, se hubiese abierto un **nuevo plazo de ingreso** y este terminase **sin pago**.
+
+Además, el recurso o reclamación contra una **sanción** interpuesto **en tiempo y forma** impide el comienzo de su período ejecutivo hasta que sea **firme en vía administrativa** y haya concluido el correspondiente **plazo voluntario de pago**. No confundirlo con un recurso contra cualquier liquidación tributaria.
 
 Esto no significa que la deuda desaparezca ni que deje de generar los intereses que correspondan.
+
+> ⚠️ **¡Foco Examen!:** **Aplazamiento en voluntaria** y **recurso en plazo contra una sanción** tienen protecciones legales específicas; no aplicarlas automáticamente a la **reiteración de solicitudes tras denegación** ni a todos los recursos tributarios.
 
 ## 3. Recursos y suspensión
 
