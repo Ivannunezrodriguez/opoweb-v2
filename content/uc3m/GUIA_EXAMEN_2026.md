@@ -3,7 +3,7 @@
 **Fecha de verificación de las bases:** **2 de noviembre de 2026**.  
 **Fuente primaria:** [Resolución de **30 de junio de 2026**, BOE de **6 de julio de 2026**, núm. 163, referencia BOE-A-2026-14624](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624), **base primera** y **anexos II y III**.  
 **Organismo convocante:** **Universidad Carlos III de Madrid (UC3M)**. **34 plazas** (de ellas **2** reservadas a discapacidad).  
-**Llamamiento de ejercicio único:** **sábado 21 de noviembre de 2026**, según [portal oficial del proceso](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026). El **horario, campus, edificio y aula** se comprobarán en el documento de llamamiento vigente; no derivar estos datos de otros procesos.
+**Llamamiento de ejercicio único confirmado:** **sábado 21 de noviembre de 2026, a las 10:00 horas, en el Campus de Getafe**, **llamamiento único**, según resolución oficial de la **UC3M** aportada el **02/11/2026** y [portal oficial del proceso](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026). La propia resolución indica que las **aulas concretas se determinarán mediante resolución posterior**. No atribuir un edificio o aula sin el nuevo anuncio.
 
 ## 1. Qué exige la fase de oposición
 
@@ -63,7 +63,8 @@ La web incluye ahora **tres modelos de entrenamiento de 70 preguntas titulares y
 - [x] Pruebas ejecutables de puntuación directa y separación de reservas añadidas.
 - [ ] **Nota de corte directa**: no conocida hasta decisión del **Tribunal Calificador**.
 - [ ] Comprobación personalizada de admisión definitiva; la inscripción por sí sola no la acredita.
-- [ ] Confirmar horario exacto, sede y aula contra el texto actual de llamamiento.
+- [x] **Fecha, hora y campus:** confirmados por la resolución oficial de llamamiento aportada (**21/11/2026, 10:00, campus de Getafe**).
+- [ ] **Aula/edificio:** pendiente de resolución posterior de la **UC3M**.
 - [ ] Auditoría jurídica integral de los **250 ítems** existentes.
 - [ ] Prueba de la versión desplegada de la web en navegador real y confirmación verde de GitHub Actions en el último commit.
 
