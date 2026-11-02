@@ -11,13 +11,13 @@ function rawRole(title){
   const t=clean(title);
   let match=t.match(/(?:\b(?:\d+|un[ao]?|dos|tres|cuatro|cinco|seis|siete|ocho|nueve|diez|once|doce)\s+)?plazas?\s+(?:de|para)\s+(.{2,110}?)(?=\s+(?:de la plantilla|de personal|por el sistema|con car[aá]cter|mediante|en turno|en acceso|a tiempo|por concurso|,|\.|;|—)|$)/i);
   if(match){
-    const value=clean(match[1]).replace(/^(?:personal\s+(?:laboral|funcionario)\s+de\s+)/i,'');
+    const value=clean(match[1]).replace(/^(?:personal\s+(?:laboral|funcionario)\s+de\s+)/i,'').replace(/\s+(?:por\s+(?:turno|el|concurso)|en\s+turno|en\s+(?:Getafe|Toledo)|adscrit[oa]\s+al|del\s+Ayuntamiento).*$/i,'').trim();
     if(roleNames.test(value) && !/^(?:personal|puestos|trabajo)$/i.test(value))return value.slice(0,90);
   }
   match=t.match(/\bbolsa(?:\s+(?:de\s+)?trabajo|\s+de\s+empleo)?\s+(?:de|para)\s+(.{2,100}?)(?=[,.;—]|\s+(?:del|de la|por|con|en el|para sustituciones)\b|$)/i);
-  if(match && roleNames.test(match[1]))return clean(match[1]).slice(0,90);
+  if(match && roleNames.test(match[1]))return clean(match[1]).replace(/^personal\s+laboral\s+temporal\s+para\s+/i,'').replace(/\s+por\s+(?:turno|el).*$/i,'').slice(0,90);
   match=t.match(/\b(?:contrataci[oó]n|selecci[oó]n|convocatoria)\s+(?:urgente\s+)?(?:temporal\s+)?(?:de|para)\s+((?:personal\s+)?(?:auxiliar|administrativ|limpiador|conserje|ordenanza|t[eé]cnic|pe[oó]n|jardiner|electricista|inform[aá]tic|socorrista)[\wÀ-ÿ /-]{0,80})/i);
-  if(match)return clean(match[1]).replace(/\s+(?:adscrit[oa]|de la plantilla|por|mediante)\b.*$/i,'').slice(0,90);
+  if(match)return clean(match[1]).replace(/\s+(?:adscrit[oa]|de la plantilla|por|mediante|en Getafe|en Toledo)\b.*$/i,'').slice(0,90);
   // A named, short call can be sufficient even when its title does not use "plaza".
   if(t.length<120 && roleNames.test(t) && /\b(?:bolsa|selecci[oó]n|contrataci[oó]n|convocatoria)\b/i.test(t)){
     const start=t.search(roleNames);
