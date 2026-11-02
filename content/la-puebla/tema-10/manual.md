@@ -406,9 +406,21 @@ Se calcula sobre el importe no ingresado o devolución improcedente durante el t
 
 ### Artículo 27 · declaración extemporánea sin requerimiento
 
-Si el obligado presenta fuera de plazo antes de requerimiento, se aplica recargo y no sanción por la presentación tardía en los términos del artículo.
+La regla general de **declaraciones o autoliquidaciones extemporáneas sin requerimiento previo** es un recargo, con las condiciones y excepciones expresas del **artículo 27 LGT**. No implica que cualquier presentación tardía tenga siempre el mismo tratamiento.
 
-El sistema vigente establece un recargo del **1 %**, más otro **1 % por cada mes completo** de retraso hasta doce meses. Superados doce meses, el recargo es del **15 %** y se añaden intereses desde el día siguiente a esos doce meses.
+| Momento de presentación respecto al vencimiento | Recargo ordinario | Intereses de demora por la presentación extemporánea |
+|---|---|---|
+| Con **menos de un mes completo** de retraso | **1 %** | No, según el **art. 27.2** |
+| Con **n meses completos**, sin haber superado **12 meses** | **1 % + 1 % por cada mes completo** | No, según el **art. 27.2** |
+| Una vez **transcurridos más de 12 meses** | **15 %** | Sí, únicamente desde el día siguiente al cumplimiento de los **12 meses** hasta presentar |
+
+**Tres salvedades importantes:**
+
+1. **Regularización de otros períodos**: el propio **artículo 27.2** permite **no exigir el recargo** si se regularizan hechos idénticos de otros períodos del mismo tributo a raíz de una liquidación administrativa, siempre que concurran **todos** los requisitos legales, incluido el plazo de **6 meses**, el pago completo y las condiciones sobre recurso y sanción.
+2. **Autoliquidación extemporánea sin ingreso ni solicitud de aplazamiento, fraccionamiento o compensación**: pueden resultar además exigibles **recargos e intereses del período ejecutivo** (**art. 27.3**); el recargo por extemporaneidad no los excluye automáticamente.
+3. **Reducción del recargo**: el importe del recargo del apartado 2 puede **reducirse un 25 %**, **siempre que** se pague íntegramente la deuda y el resto del recargo en los plazos y condiciones del **art. 27.5**. No es una rebaja incondicional de la deuda principal.
+
+> ⚠️ **¡Foco Examen!:** No confundas **1 % + 1 % por mes completo**, **15 % transcurridos 12 meses**, la **reducción del 25 % del recargo** y la **excepción de regularización de otros períodos**. El artículo **27.3** permite que un impago adicional desencadene recargos del período ejecutivo.
 
 ### Artículo 28 · período ejecutivo
 
