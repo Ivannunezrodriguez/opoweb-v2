@@ -16,12 +16,12 @@
 
 ## 2. Resumen por convocatoria (99 temas activos)
 
-| Orden editorial | Convocatoria | Programa | Evidencia de contenido / estado | Cierre jurídico y técnico actualizado |
+| Prioridad de revisión **a 02/11/2026** | Convocatoria | Programa | Estado efectivo | Certificación integral a esta fecha |
 |---|---|---:|---|---|
-| **1** | **Diputación Toledo, Auxiliar Administrativo C2** | **20** | **20** entradas y manuales referenciados. El manifiesto anterior indicaba **19 PUBLICADO + 1 BORRADOR**, aunque las notas dicen que siguen pendientes controles. Se normaliza a **en revisión** (tema **6**: borrador incompleto). | **NO CERTIFICADO** |
-| **2** | **La Puebla de Montalbán, Auxiliar C2** | **19** | **19 APROBADO_USUARIO**; cierre histórico de fase 2 documentado el **30/07/2026**, con **228 preguntas, 20 supuestos y 3 simulacros** en el informe de la época. | Cierre histórico **válido como hito**, pero **sin recertificación global a 02/11/2026** |
-| **3** | **UC3M, Auxiliar C2** | **20** | **20 EN_REVISION_USUARIO** en manifiesto; manual, matriz, fuentes y preguntas declarados. | **NO CERTIFICADO** |
-| **4** | **Diputación Toledo, Administrativo C1** | **40** | **40 GENERACION_DESDE_CERO** en esquema/validador heredado: expresa **origen del contenido**, no aprobación. Existen manuales y bancos, con auditorías parciales. | **NO CERTIFICADO** |
+| **1 · examen 14/11** | **La Puebla de Montalbán C2** | **19** | **19** temas con aprobación editorial histórica; **228 preguntas**, **20 supuestos** y **5 simulacros** actuales (**3 breves + 2 oficiales 50+5**). En revisión urgente de vigencia y test. | **NO RECERTIFICADA** |
+| **2 · examen 21/11** | **UC3M Auxiliar C2** | **20** | **20 EN_REVISION_USUARIO**, con manuales, matrices, fuentes y **250 preguntas**. | **NO CERTIFICADO** |
+| **3 · sin examen anunciado** | **Diputación Toledo Auxiliar C2** | **20** | **19 EN_REVISION_USUARIO**, **1 BORRADOR** (tema 6 OAPGT incompleto, al final); **409 preguntas**. Bloque DT-C2-A conservado sin reiniciar. | **NO CERTIFICADO** |
+| **4 · sin examen anunciado** | **Diputación Toledo Administrativo C1** | **40** | **40** contenidos de origen GENERACION_DESDE_CERO (no es aprobación); **803 preguntas**, auditoría parcial. | **NO CERTIFICADO** |
 
 **Total: 99 temas registrados.** **19/99 (19,2 %)** tienen aprobación editorial *histórica declarada* en el manifiesto de La Puebla; **0/99** se han recertificado integralmente **en esta auditoría de noviembre** (no significa que todos sean incorrectos). No se calcula un porcentaje de exactitud jurídica sin contar criterios auditados por tema.
 
