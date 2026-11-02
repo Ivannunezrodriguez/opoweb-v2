@@ -1,8 +1,8 @@
 # Resultado de la puerta de cierre · Fase 2
 
 - Estado: **VALIDACION_CI_SUPERADA**
-- Commit validado: `b90c68a2a4b963058139e3627fd4283d2f3236f2`
-- Fecha UTC: `2026-11-02T20:03:11Z`
+- Commit validado: `0ac1812f35b9b0406b24622bf8930138f6bb76f0`
+- Fecha UTC: `2026-11-02T20:03:53Z`
 
 ```text
 
