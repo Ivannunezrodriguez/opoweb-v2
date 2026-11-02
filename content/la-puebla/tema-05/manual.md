@@ -23,7 +23,7 @@ Fuente del programa: BOP de Toledo número 82, de 5 de mayo de 2026, código de 
 
 - Real Decreto 2568/1986, de 28 de noviembre, Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales, para el detalle de órganos, sesiones, debates, votaciones y actas.
 
-La Ley 7/1985 consultada figura consolidada con última actualización publicada el **3 de junio de 2026**. La LOREG consultada figura consolidada con última actualización publicada el **2 de julio de 2026**. El ROF mantiene como última actualización publicada la de **22 de diciembre de 1986**.
+**Control de vigencia original:** la Ley 7/1985 se revisó en julio con la actualización publicada el **3 de junio de 2026** y la LOREG con la de **2 de julio de 2026**. **Actualización jurídica focalizada de 2 de noviembre de 2026:** el [BOE consolidado de la Ley 7/1985](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) incorpora una reforma publicada el **3 de octubre de 2026**, **en vigor el 23 de octubre de 2026**, que modifica expresamente los artículos **25.2.q y 69.1**. Se incorpora aquí **sin alterar el hito de aprobación del usuario de julio**. El resto del manual **no se considera revalidado integralmente** por esta comprobación. El ROF mantiene como última actualización publicada la de **22 de diciembre de 1986**.
 
 ---
 
@@ -389,7 +389,24 @@ La ley debe reconocer competencias propias, entre otras materias, sobre:
 - promoción de la cultura y equipamientos culturales;
 - participación en la vigilancia del cumplimiento de la escolaridad obligatoria y cooperación educativa;
 - promoción de participación ciudadana y uso eficiente de tecnologías de la información;
-- actuaciones de igualdad y contra la violencia de género.
+- actuaciones de igualdad y contra la violencia de género (**artículo 25.2.o**);
+- **promoción y participación en comunidades ciudadanas de energía y comunidades de energías renovables**, así como impulso de eficiencia, electrificación y autoconsumo (**artículo 25.2.p**, incorporado en marzo de **2026**);
+- **promoción de actuaciones de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad** (**artículo 25.2.q**, vigente desde el **23 de octubre de 2026**).
+
+### Actualización de competencias y participación accesible — octubre de 2026
+
+La [**Ley 4/2026, de 1 de octubre**, publicada en el **BOE de 3 de octubre**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528), modifica la **Ley 7/1985** mediante su **disposición final tercera**. Su **entrada en vigor es el 23 de octubre de 2026**.
+
+| Precepto LRBRL | Qué exige ahora | Trampa habitual |
+|---|---|---|
+| **25.2.o** | Igualdad entre mujeres y hombres y actuaciones contra la violencia de género | No equivale a la nueva letra **q)** |
+| **25.2.p** | Comunidades energéticas locales y transición energética | Se introdujo en **marzo de 2026**, no en octubre |
+| **25.2.q** | Igualdad de oportunidades, no discriminación y **accesibilidad universal de personas con discapacidad** | **Letra nueva** aplicable desde el **23/10/2026** |
+| **69.1** | Las corporaciones locales deben facilitar información y participación ciudadana; la información debe ofrecerse en **formatos accesibles y conforme al diseño universal**, comprensibles para todas las personas | Es obligación de accesibilidad de la **información local**, no una nueva competencia exclusiva del Pleno |
+
+**Delimitación de examen:** el epígrafe del tema 5 abarca **competencias municipales y organización y funcionamiento**, por lo que los artículos **25.2 y 69.1** son pertinentes. Su incorporación **no cambia** los umbrales de población de servicios mínimos del **artículo 26**, ni las mayorías de los órganos locales.
+
+> ⚠️ **¡Foco Examen!:** La actualización de **3/10/2026** **no entró en vigor ese mismo día**, sino el **23/10/2026**. Si se pregunta por la competencia de accesibilidad universal, es **artículo 25.2.q**; si se pregunta por facilitar información local en **formatos accesibles**, es **artículo 69.1**. No confundir las letras **o**, **p** y **q**.
 
 La atribución legal debe valorar conveniencia, eficiencia, estabilidad y suficiencia financiera.
 
@@ -1356,7 +1373,7 @@ Responder sin consultar:
 
 - Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local.
 - Referencia: `BOE-A-1985-5392`.
-- Texto consolidado consultado: última actualización publicada el 3 de junio de 2026.
+- **Revisión histórica de julio**: texto consolidado a **3 de junio de 2026**. **Control puntual de 2/11/2026**: nueva modificación publicada **3/10/2026**, vigente desde **23/10/2026**; ver apartado 24 y [fuentes](fuentes.md).
 
 ## 104. Fuente reglamentaria
 
