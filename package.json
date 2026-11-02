@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Manual, bancos de preguntas, supuestos y simulacros interactivos de oposiciones",
   "scripts": {
-    "test": "node tests/validate.mjs && node tests/validate-la-puebla-editorial.mjs && node tests/validate-practice-exam.mjs",
+    "test": "node tests/validate.mjs && node tests/validate-la-puebla-editorial.mjs && node tests/validate-practice-exam.mjs && node tests/validate-uc3m-exams.mjs",
     "test:editorial": "node tests/validate-la-puebla-editorial.mjs",
     "test:diputacion": "node tests/validate-diputacion.mjs",
     "test:all": "npm run test && npm run test:diputacion && node tests/validate-all-programmes.mjs",
