@@ -6,11 +6,13 @@
     "admitidoProvisionalmente": true,
     "requiereSubsanacion": false,
     "fechaPresentacion": "2026-05-28",
-    "estado": "Admitido provisionalmente · 190 solicitudes, 169 admitidos para 4 plazas",
-    "verificacionDocumental": "La inclusión del aspirante en la relación provisional de admitidos ha sido comprobada en el Decreto 2026-1051, de 30 de julio de 2026.",
-    "notaPrivacidad": "El justificante, la solicitud, el documento identificativo y los datos bancarios se conservan fuera del repositorio público. No se publican números de documento, cuenta ni copias personales."
+    "estado": "Incluido en relación oficial de ADMITIDOS de documento fechado 02/09/2026; carácter definitivo del decreto no verificable a partir de la página aislada",
+    "verificacionDocumental": "Comprobación directa en capturas aportadas el 02/11/2026 de sede electrónica municipal: página 5/7 de relación de ADMITIDOS con fecha marginal 02/09/2026; el aspirante aparece incluido. No registrar nombre, DNI ni imágenes en el repositorio público.",
+    "notaPrivacidad": "El justificante, la solicitud, el documento identificativo y los datos bancarios se conservan fuera del repositorio público. No se publican números de documento, cuenta ni copias personales.",
+    "incluidoEnListadoAdmitidosPosterior": true,
+    "fechaListadoAdmitidosPosterior": "2026-09-02"
   },
-  "siguienteHito": "URGENTE: cotejar en el tablón oficial municipal la resolución de admisión definitiva de Auxiliar Administrativo C2 y las instrucciones del examen; no hay fecha, hora y sede confirmadas documentalmente en esta comprobación",
+  "siguienteHito": "Presentarse al primer ejercicio el sábado 14/11/2026 a las 09:30 en IES Universidad Laboral de Toledo, Avenida de Europa 28, provisto de DNI/documento identificativo; revisar el tablón por rectificaciones.",
   "estadisticasProvisionales": {
     "plazas": 4,
     "admitidos": 169,
@@ -57,16 +59,16 @@
       "estado": "no_aplica"
     },
     {
-      "fecha": null,
-      "titulo": "Admisión definitiva (documento primario pendiente de cotejo)",
-      "detalle": "Existen referencias secundarias a 28/08 y 02/09/2026. No se ha accedido al anuncio oficial para determinar cuál corresponde al proceso ni confirmar la situación personal.",
-      "estado": "verificacion_pendiente"
+      "fecha": "2026-09-02",
+      "titulo": "Relación posterior de admitidos",
+      "detalle": "Captura oficial de página 5/7 fechada 02/09/2026 acredita inclusión del aspirante; portada completa no vista para certificar naturaleza definitiva.",
+      "estado": "completado_con_cautela"
     },
     {
-      "fecha": null,
+      "fecha": "2026-11-14",
       "titulo": "Primer ejercicio",
-      "detalle": "Test de cincuenta preguntas más cinco de reserva. Duración máxima de sesenta minutos.",
-      "estado": "pendiente"
+      "detalle": "CONVOCADO: sábado 14/11/2026, 09:30, IES Universidad Laboral de Toledo, Avenida de Europa 28; 50+5 preguntas, 60 minutos, cuatro opciones. Presentar DNI.",
+      "estado": "convocado"
     },
     {
       "fecha": null,
@@ -92,27 +94,38 @@
     {
       "nombre": "Prueba privada de inscripción",
       "referencia": "Recibo de registro de entrada de 28 de mayo de 2026 y justificante de tasa de 27 de mayo de 2026; no publicados por privacidad"
+    },
+    {
+      "nombre": "Anuncio oficial del Tribunal para primer ejercicio",
+      "referencia": "Convocatoria 4 plazas Auxiliar Administrativo C2; llamamiento sábado 14/11/2026 09:30 en IES Universidad Laboral, Avda. Europa 28. Documento oficial firmado, acreditado por captura de sede electrónica aportada el 02/11/2026.",
+      "fuenteAportada": "Captura de anuncio del Tribunal, usuario; archivo privado NO publicado"
+    },
+    {
+      "nombre": "Relación oficial de admitidos posterior",
+      "referencia": "Decreto con marca de fecha 02/09/2026; relación ADMITIDOS, página 5/7. Inclusión del aspirante vista en captura privada; portada del decreto no aportada.",
+      "fuenteAportada": "Captura de página 5/7, usuario; archivo privado NO publicado"
     }
   ],
-  "notaCorteTemporal": "Revisión documental 02/11/2026: faltan PDF oficial de lista definitiva y llamamiento; advertencia de dos fechas contradictorias en índices externos. No presentar como estado actual la lista provisional histórica. Registro editorial: AUDITORIA_CONTINUA.md.",
-  "ultimaComprobacion": "02/11/2026: la web municipal acredita bases de 4 plazas y remite los anuncios de fases posteriores al tablón de la sede. El acceso automático a la sede municipal da error de redirección: no ha sido posible cotejar allí la resolución definitiva ni el llamamiento. RedOpositor indexa dos listas 'definitivas' de Auxiliar con fechas 28/08/2026 y 02/09/2026 (y otras categorías), sin texto primario cotejado; no se toman esas fechas como oficiales certificadas. Última admisión personal comprobada: provisional en Decreto 2026-1051.",
+  "notaCorteTemporal": "Actualización 02/11/2026 respaldada por capturas oficiales aportadas: fecha y lugar del primer examen CONFIRMADOS; inclusión del aspirante en lista de ADMITIDOS fechada 02/09/2026 acreditada. Portada del decreto pendiente para certificar clase formal de lista. Estado editorial: AUDITORIA_CONTINUA.md.",
+  "ultimaComprobacion": "02/11/2026: ANUNCIO ORIGINAL DEL TRIBUNAL aportado en captura por el aspirante desde la sede municipal y firmado electrónicamente: primer ejercicio sábado 14/11/2026, 09:30, IES Universidad Laboral de Toledo, Avda. Europa 28, Toledo; test 50+5 reserva, 60 minutos, cuatro respuestas. Captura de relación oficial de ADMITIDOS, página 5/7, con fecha 02/09/2026, acredita su inclusión en el listado. No se ha visto portada del decreto para certificar la denominación formal «lista definitiva».",
   "admisionDefinitiva": {
-    "estado": "INDICIOS_EXTERNOS_NO_VERIFICADOS_OFICIALMENTE",
-    "fechasCitadasPorFuenteSecundaria": [
-      "2026-08-28",
-      "2026-09-02"
-    ],
-    "nota": "Dos fichas secundarias para el mismo ayuntamiento, sin acceso al PDF oficial ni garantía de que sean resoluciones distintas del mismo proceso. No afirmar que el usuario está admitido definitivamente.",
-    "fuenteOficialPorCotejar": "https://lapueblademontalban.sedelectronica.es/",
-    "fuenteSecundaria1": "https://redopositor.com/listas-admitidos/auxiliar-administrativo-estado/definitiva-ayuntamiento-de-la-puebla-de-montalban-2026-08-28-99fcc291/",
-    "fuenteSecundaria2": "https://redopositor.com/listas-admitidos/auxiliar-administrativo-estado/definitiva-ayuntamiento-de-la-puebla-de-montalban-2026-09-02-75337f9b/"
+    "estado": "LISTADO_OFICIAL_DE_ADMITIDOS_APORTADO_PORTADA_DEL_DECRETO_NO_VISTA",
+    "fechaDocumento": "2026-09-02",
+    "aspiranteFiguraEnListado": true,
+    "nota": "Captura de página 5/7 del listado oficial ADMITIDOS. La página mostrada acredita inclusión, pero no muestra título completo ni naturaleza definitiva del decreto."
   },
   "examen": {
-    "fecha": null,
-    "hora": null,
-    "lugar": null,
-    "estado": "NO_CONFIRMADO_EN_ANUNCIO_OFICIAL_ACCESIBLE",
-    "nota": "La fecha del primer ejercicio se publicará en tablón municipal según bases. La web de la sede no se pudo consultar en esta comprobación.",
-    "comprobadoEl": "2026-11-02"
+    "fecha": "2026-11-14",
+    "hora": "09:30",
+    "lugar": "IES Universidad Laboral de Toledo, Avenida de Europa, 28, 45003 Toledo",
+    "estado": "LLAMAMIENTO_OFICIAL_ACREDITADO_POR_DOCUMENTO_APORTADO",
+    "tipo": "Primer ejercicio, cuestionario tipo test",
+    "preguntas": 50,
+    "preguntasReserva": 5,
+    "opciones": 4,
+    "minutos": 60,
+    "documentacion": "DNI o documento identificativo equivalente",
+    "comprobadoEl": "2026-11-02",
+    "fuente": "Captura del anuncio oficial del Tribunal publicada en sede electrónica de La Puebla de Montalbán; documento con CSV y firma electrónica en imagen proporcionada por aspirante"
   }
 }
