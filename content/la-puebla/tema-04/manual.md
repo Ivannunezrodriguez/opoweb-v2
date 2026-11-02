@@ -1,7 +1,8 @@
 # La Puebla de Montalbán · Tema 4
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Revisión editorial histórica:** 30 de julio de 2026.  
+**Control jurídico focalizado de silencio en alzada (artículos 24.1 y 122):** 2 de noviembre de 2026 (no supone recertificación integral).
 
 ---
 
@@ -618,7 +619,15 @@ Como regla, el silencio es desestimatorio.
 
 ### Excepción del doble silencio
 
-Cuando la alzada se interpone contra una desestimación presunta de una solicitud, la falta de resolución del recurso puede producir estimación, salvo en las materias exceptuadas por el artículo 24.1.
+Cuando la **alzada** se interpone contra la **desestimación por silencio de una solicitud inicial**, la falta de resolución expresa del propio recurso puede producir **estimación**, con las excepciones del **artículo 24.1 de la Ley 39/2015**. No es una regla automática aplicable a cualquier recurso administrativo.
+
+| Supuesto | Efecto de no resolver la alzada en **3 meses** |
+|---|---|
+| Alzada ordinaria frente a acto expreso | **Desestimación presunta** |
+| Alzada contra desestimación presunta de una solicitud, sin materia legalmente exceptuada | **Estimación presunta** (*doble silencio*) |
+| Alzada sobre materia exceptuada del **art. 24.1**, como ejercicio del derecho de petición, dominio o servicio público, actividades perjudiciales para el medio ambiente o responsabilidad patrimonial | **No se aplica la estimación del doble silencio** |
+
+> ⚠️ **¡Foco Examen!:** El **doble silencio positivo** exige **alzada contra el silencio negativo de una solicitud inicial**, y además descartar las excepciones legales. **Alzada contra acto expreso** no activa esa regla. No trasladarla al recurso potestativo de reposición.
 
 ### Recursos posteriores
 
