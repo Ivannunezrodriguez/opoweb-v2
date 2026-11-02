@@ -83,4 +83,35 @@ testDirect('35 correctas y 35 blancos', i => i < 35 ? 0 : null, 35, 35);
 testDirect('42 correctas, 18 fallidas y 10 blancos', i => i < 42 ? 0 : i < 60 ? 1 : null, 36, 10);
 testDirect('70 errores y 5 reservas correctas', i => i < 70 ? 1 : 0, -23.33, 0);
 
+// Comprobación de pantalla simulada: 70 titulares y 5 reservas visibles con reloj 60:00.
+const renderStart = js.indexOf('function renderExercise(');
+const renderEnd = js.indexOf('function finishExercise(', renderStart);
+assert.ok(renderStart >= 0 && renderEnd > renderStart);
+const createRender = new Function(
+  'app', 'document', 'escapeHtml', 'scrollTo', 'setInterval', 'clearInterval',
+  'finishExercise', 'renderHub',
+  js.slice(renderStart, renderEnd) + '\nreturn renderExercise;'
+);
+const rendered = { innerHTML: '' };
+let firstClock = '';
+const emptyButton = { addEventListener() {} };
+const documentForRender = {
+  querySelector(id) {
+    if (id === '#timer') return {
+      set textContent(value) { firstClock = value; },
+      classList: { add() {} }
+    };
+    return emptyButton;
+  }
+};
+const render = createRender(rendered, documentForRender, String, () => {}, () => 1, () => {}, () => {}, () => {});
+const example = Array.from({ length: 75 }, (_, i) => ({
+  id: 'UC3M-TEST-' + i, correcta: 0, pregunta: 'Pregunta ' + i,
+  opciones: ['A', 'B', 'C', 'D']
+}));
+render(example, 'Modelo UC3M', 'UC3M-SIM-2026-01', 'simulacro', 60, 70);
+assert.equal((rendered.innerHTML.match(/data-question="/g) || []).length, 75);
+assert.match(rendered.innerHTML, /<span>R5<\/span>/);
+assert.match(firstClock, /60:00/);
+
 console.log('UC3M_3_SIMULACROS_70_5_225_IDS_Y_SCORE_DIRECTO_OK');
