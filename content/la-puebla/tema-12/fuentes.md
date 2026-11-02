@@ -32,3 +32,17 @@ Los **tipos, recargos y coeficientes** quedan señalados como *complemento de vi
 - **Control parcial realizado:** contexto TRLRHL y reglas de efecto temporal arriba descritas.
 - **Pendiente de recertificación:** revisión sustantiva artículo por artículo y cotejo del banco de **12 preguntas**.
 - **Seguimiento principal:** [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+
+## Cotejo sustantivo del IBI y el IAE — 02/11/2026
+
+**Fuente contrastada:** [TRLRHL, artículos 61.5, 62.1.b y 82.1.c, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214).
+
+| Regla | Verificación jurídica | Corrección realizada |
+|---|---|---|
+| **IBI, art. 61.5.b** | Bienes patrimoniales del propio municipio, exceptuados los **cedidos a terceros mediante contraprestación**. No exige cesión gratuita a otra Administración. | Eliminada condición errónea del bloque de IBI. |
+| **IBI, art. 62.1.b** | **Exención** de bienes comunales y montes vecinales en mano común. | Se distingue de los supuestos de **no sujeción**. |
+| **IAE, art. 82.1.c** | INCN **inferior a 1.000.000 €**; para grupo de control según **art. 42 del Código de Comercio** se tiene en cuenta el importe **conjunto** del grupo. | Precisadas las reglas y pregunta de umbral. |
+
+> ⚠️ **¡Foco Examen!:** El **art. 61.5.b** del IBI no exige que un bien patrimonial municipal haya sido cedido gratuitamente a otra Administración; en el IAE, **1.000.000 € exactos no es inferior a un millón**, y un grupo obliga a considerar el **INCN conjunto**.
+
+**Bancos afectados:** **LP-T12-003** y **LP-T12-006**, con sus respuestas correctas conservadas. **Corrección transversal** trasladada al manual del **tema 13 de Diputación Auxiliar C2**. Control jurídico parcial: no supone certificación íntegra del tema.
