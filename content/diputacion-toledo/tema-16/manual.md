@@ -250,8 +250,8 @@ La revisión de precios tiene carácter periódico y predeterminado y solo proce
 Como regla general:
 
 - debe haberse ejecutado al menos el **20 % del importe del contrato**;
-- deben haber transcurrido **2 años** desde su formalización;
-- no se revisa el primer **20 %** ejecutado ni lo ejecutado durante los primeros **2 años**.
+- deben haber transcurrido **1 año** desde su formalización;
+- no se revisa el primer **20 %** ejecutado ni lo ejecutado durante los primeros **1 año**.
 
 Se aplica mediante fórmulas o índices oficiales cuando proceda.
 
@@ -338,13 +338,13 @@ CONTRATACIÓN LOCAL
 │   └── suspensión
 ├── Revisión de precios
 │   ├── 20 % ejecutado
-│   └── 2 años
+│   └── 1 año
 └── Extinción
     ├── cumplimiento
     └── resolución
 ```
 
-> ⚠️ **¡Foco Examen!:** Los números más rentables para memorizar son **10 %**, **6.000.000 €**, **4 años**, **3 %**, **5 %**, **10 %**, **15 días hábiles**, **20 %**, **2 años** y **30 días**.
+> ⚠️ **¡Foco Examen!:** Los números más rentables para memorizar son **10 %**, **6.000.000 €**, **4 años**, **3 %**, **5 %**, **10 %**, **15 días hábiles**, **20 %**, **1 año** y **30 días**.
 
 ## 15. Cuadro de precisión contractual y competencias locales — **29/10/2026**
 
