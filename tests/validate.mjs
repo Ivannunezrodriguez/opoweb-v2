@@ -85,8 +85,24 @@ assert.ok(interinidadCase.trampaExamen.includes('dos años de servicio activo'))
 assert.equal(interinidadCase.referencia, 'content/la-puebla/tema-06/auditoria-2026-07-18.md');
 
 const mockExams = json('content/la-puebla/simulacros.json');
-assert.equal(mockExams.simulacros.length, 3);
-assert.deepEqual(mockExams.simulacros.map(item => item.id), ['LP-SIM-01', 'LP-SIM-02', 'LP-SIM-03']);
+assert.equal(mockExams.simulacros.length, 5);
+assert.deepEqual(mockExams.simulacros.slice(0, 3).map(item => item.id), ['LP-SIM-01', 'LP-SIM-02', 'LP-SIM-03']);
+const fullExams = mockExams.simulacros.filter(item => item.tipoPuntuacion === 'EXAMEN_LA_PUEBLA_2026');
+assert.deepEqual(fullExams.map(item => item.id), ['LP-SIM-EXAM-01', 'LP-SIM-EXAM-02']);
+const existingIds = new Set(programme.temas.flatMap(theme => json(theme.preguntas).preguntas.map(question => question.id)));
+const usedInBrief = new Set(mockExams.simulacros.slice(0, 3).flatMap(item => item.preguntas));
+const seenFull = new Set();
+for (const exam of fullExams) {
+  assert.equal(exam.duracionMinutos, 60, 'Simulacro oficial sin 60 minutos');
+  assert.equal(exam.preguntas.length, 50, 'Simulacro oficial sin 50 preguntas');
+  assert.equal(exam.preguntasReserva.length, 5, 'Simulacro oficial sin 5 reservas');
+  for (const id of [...exam.preguntas, ...exam.preguntasReserva]) {
+    assert.ok(existingIds.has(id), 'Pregunta de simulacro inexistente: ' + id);
+    assert.ok(!seenFull.has(id), 'Pregunta duplicada entre simulacros oficiales: ' + id);
+    assert.ok(!usedInBrief.has(id), 'Pregunta ya usada en simulacros breves: ' + id);
+    seenFull.add(id);
+  }
+}
 
 assert.ok(exists('practice.html'));
 assert.ok(exists('assets/practice.js'));
