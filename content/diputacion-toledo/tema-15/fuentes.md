@@ -29,3 +29,13 @@
 - Estado: `GENERACION_DESDE_CERO`.
 - No se ha utilizado contenido de La Puebla como fuente ni como base de redacción.
 - Las referencias autonómicas anteriores a la reforma local de 2013 se han interpretado conforme a la legislación básica estatal vigente.
+
+
+## Auditoría focalizada — **02/11/2026**
+
+- [Ley 7/1985, texto consolidado vigente en BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): última actualización mostrada por el BOE, **03/10/2026**. La referencia anterior de **03/06/2026** ha dejado de ser la fecha de la última actualización global del texto; verificar las modificaciones por artículo.
+- **Artículo 44.5:** municipios de distintas comunidades autónomas pueden formar parte de una mancomunidad si lo permiten las normativas de las comunidades afectadas.
+- **Artículo 24 bis.2–3:** iniciativa de la población interesada o Ayuntamiento; eficiencia exigida en nuevos entes inframunicipales sin personalidad jurídica.
+- Preguntas corregidas: **DIP-T15-009**, **DIP-T15-012** y **DIP-T15-020**.
+
+**Estado:** auditoría parcial de estos preceptos; no implica certificación jurídica integral ni pruebas funcionales.
