@@ -36,6 +36,16 @@ No tomar automáticamente como corte normativo el **21/11/2026**, ni tampoco el 
 
 > ⚠️ **¡Foco Examen!:** La fecha del examen **no** es, por sí sola, la fecha de actualización de la normativa exigible en esta oposición.
 
+### Actualización judicial que no debe confundirse con una reforma examinable
+
+Una comprobación posterior de fuentes oficiales ha encontrado la [**Sentencia del Tribunal Supremo de 6/10/2026 (BOE-A-2026-22083)**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083), publicada el **23/10/2026**, que **anula íntegramente el Real Decreto 905/2025**. Ese real decreto había modificado el **artículo 22.4 del Real Decreto 822/2021** y otras disposiciones universitarias. El [BOE consolidado del RD 822/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781) registra por ello una actualización el **23/10/2026**.
+
+**No implica que el RD 822/2021 se haya derogado**, ni obliga a revisar automáticamente todas las respuestas de los temas universitarios. La **base primera.7** limita la legislación exigible a la fecha de publicación de las **listas definitivas y anuncio de la prueba**. La [página oficial UC3M](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) confirma que existen esas resoluciones, pero **no se ha podido leer el original para fecharlo exactamente**.
+
+Como **indicio secundario, pendiente de verificación primaria**, la página de preparación [ADAMS](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/) fecha la publicación de listas definitivas en **01/10/2026**, anterior al fallo del **23/10/2026**. **No usar esa fuente indirecta para decidir sin más los efectos temporales jurídicos de una nulidad**, ni para afirmar que el órgano seleccionador haya adoptado una interpretación determinada.
+
+> ⚠️ **¡Foco Examen!:** **23/10/2026** no identifica una reforma sustantiva general del sistema de créditos: identifica la **publicación de una anulación judicial**. Distinguir **RD 905/2025 anulado**, **RD 822/2021 vigente** y fecha jurídica de corte **UC3M**.
+
 ## 3. Simulacros de OpoWeb
 
 La web incluye ahora **tres modelos de entrenamiento de 70 preguntas titulares y 5 de reserva**, con **60 minutos** y **225 identificadores diferentes**, seleccionados de los bancos ya existentes de los **20 temas**.
