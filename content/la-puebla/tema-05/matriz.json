@@ -96,7 +96,8 @@
       "contenidoExigible": [
         "sufragio activo y pasivo",
         "número y elección de concejales",
-        "barrera del cinco por ciento",
+        "barrera del cinco por ciento en listas proporcionales (art. 180), sin confundir el régimen especial de voto limitado del art. 184",
+        "excepciones por población y sistema al elegir Alcalde: art. 196 general y especial 100–250 habitantes; Concejo Abierto",
         "mandato y constitución del Ayuntamiento",
         "elección, censura y confianza del Alcalde",
         "efectos de las SSTC 151/2017 y 134/2025 sobre el artículo 197"
@@ -148,5 +149,10 @@
     "ajustesManual": "Añadidos p y q, y nueva redacción sobre información local accesible del artículo 69.1",
     "preguntas": "Banco existente de 12 preguntas preservado; no se han sustituido sus preguntas y aún falta auditoría individual de cada distractor",
     "certificadoIntegral": false
+  },
+  "controlElectoral20261102": {
+    "fecha": "2026-11-02",
+    "fuente": "LOREG BOE-A-1985-11672, artículos 180, 184 y 196",
+    "alcance": "Corrección contextual de T05-011 y T05-012, manual y fuentes para municipios con voto limitado. No equivale a nueva certificación del tema."
   }
 }
