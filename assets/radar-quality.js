@@ -60,7 +60,7 @@ function institution(o){
  return org||'Organismo por identificar';
 }
 export function normalizeOpportunity(o,asOf){
- const title=clean(o.title), phaseFollowup=followup.test(title);
+ const title=clean(o.title), phaseFollowup=followup.test(title)||amendNotice.test(title);
  const role=clean(o.position)||rawRole(title);
  const knownRole=!!role && roleNames.test(role);
  const officialUrl=/^https:\/\//i.test(o.officialUrl||'')?o.officialUrl:null;
