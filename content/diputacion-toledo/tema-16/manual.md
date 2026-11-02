@@ -364,3 +364,16 @@ CONTRATACIÓN LOCAL
 > ⚠️ **¡Foco Examen!:** La **garantía definitiva ordinaria del 5 %** se calcula sobre el **precio final ofertado excluido el IVA**. No confundirla con la posible **garantía provisional**, su régimen excepcional o la **garantía complementaria**.
 
 **Fuente primaria contrastada:** [Ley 9/2017, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902), particularmente **DA 2.ª**, arts. **101, 107, 153, 198, 204 y 209**. Banco ampliado a **20 preguntas**. Pendiente auditoría integral y comprobación funcional antes del cierre editorial.
+
+
+## 16. Auditoría del artículo 103.5 LCSP — **02/11/2026**
+
+| Regla | Condición |
+|---|---|
+| Revisión periódica y predeterminada, como regla general | **20 % ejecutado** y **1 año** desde formalización |
+| Suministro de energía | Excepción indicada en el **artículo 103.5** |
+| Concesión de servicios | No se exige el requisito del **20 % ejecutado** |
+
+> ⚠️ **¡Foco Examen!:** El plazo temporal vigente es **1 año**, no **2 años**. Distingue las excepciones de suministro de energía y concesión de servicios.
+
+Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902 .
