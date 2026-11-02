@@ -321,3 +321,38 @@ Antes de elevar el estado de un bloque: comprobar recursos reales, `npm test` (o
 - **UC3M C2 (21/11):** profundizar en normativa específica y reforma aplicable a la **fecha de corte de las listas definitivas**, comprobar la página original del llamamiento y auditar las **250 preguntas** conforme al programa exacto.
 - **CI:** consultar resultado del workflow `validate.yml` más reciente; en caso de fallo abrir el paso nominativo y corregir **causa verificada**. Sin SUCCESS del último commit, no declararlo saneado.
 - **Después:** reanudar `DT-C2-A` de Diputación Auxiliar C2 con tema 6 OAPGT al final, y C1. Mantener **este archivo** como fuente única y la política de avisos solo para incidencias relevantes.
+
+
+## 16. Cotejo jurídico transversal noviembre: nulidad universitaria y secuencia tributaria
+
+**Fecha de trabajo: 02/11/2026.** Bloque de corrección jurídica transversal que **reutiliza** los manuales y matrices ya existentes. **No implica recertificación integral de 99 temas ni éxito de GitHub Actions.**
+
+### A. UC3M, bloque universitario (especialmente tema 16)
+
+**Novedad jurídica comprobada en BOE:** [Sentencia del **Tribunal Supremo de 6/10/2026**, BOE **23/10/2026**, ref. **BOE-A-2026-22083**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083), que **anula el RD 905/2025**, antes publicado el **08/10/2025** ([BOE-A-2025-20002](https://www.boe.es/buscar/doc.php?id=BOE-A-2025-20002)). El análisis oficial señala la **nulidad de su modificación al art. 22.4 y referencias del RD 822/2021**. **No equivale a derogación del RD 822/2021**.
+
+**Riesgo de examen:** el texto consolidado del RD 822/2021 aparece actualizado el **23/10/2026** debido a la resolución judicial; OpoWeb no debe enseñarlo sin más como la versión de corte del examen UC3M. La **base primera.7 de BOE-A-2026-14624** fija la legislación exigible **en la fecha de publicación de las listas definitivas y anuncio del ejercicio**. La ficha oficial de UC3M confirma que existe resolución definitiva pero el acceso al documento original no ha permitido acreditar su **fecha exacta**; ADAMS indica **01/10/2026**, dato **secundario no validado**. Tampoco se presume el efecto retroactivo concreto de la nulidad sobre una pregunta hipotética sin resolución del tribunal.
+
+**Archivos realmente corregidos:**
+- [Tema 16, fuentes](content/uc3m/tema-16/fuentes.md), commit **51789af3**: documento original de nulidad, artículo afectado, cronología y límites de lo verificado.
+- [Guía de examen UC3M](content/uc3m/GUIA_EXAMEN_2026.md), commit **696be82f**: separa reforma universitaria de anulación judicial y distingue ventana exigible.
+- [Matriz tema 16](content/uc3m/tema-16/matriz.json), commit **a3a84b5e**: riesgo temporal estructurado y pruebas pendientes.
+- [Manual tema 16](content/uc3m/tema-16/manual.md), commit **5d0e6a2b**: advertencia visible al estudiar, enlazada a fuentes.
+
+**No se han alterado soluciones por simple actualización de fecha.** Siguiente control universitario concreto: obtener el **PDF original** de resolución definitiva de admisión y llamamiento, confirmar **fecha de publicación** y determinar las normas efectivamente exigibles; revisar los ítems de temas **14–16** que puedan depender de esa temporalidad.
+
+### B. La Puebla, bloque local-tributario (temas 10 y 12)
+
+**Hallazgo real adicional:** el [análisis oficial del TRLRHL, BOE-A-2004-4214](https://boe.es/diario_boe/txt.php?id=BOE-A-2004-4214) señala que el **RDL 26/2026, de 29/09**, modificó inicialmente los **arts. 72 y 107.4**, pero la [**Resolución de 02/10/2026**, BOE-A-2026-20526](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20526) **dejó sin efecto** esa modificación. Posteriormente, el [**RDL 29/2026 de 06/10**, BOE-A-2026-20823](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20823) estableció la nueva regulación de los artículos. **No mezclar normas de septiembre sin efecto con el régimen que sigue la actualización del 07/10**. Las reglas temporales del IBI y los coeficientes del IIVTNU siguen consignadas como *complemento ajeno al núcleo del Tema 12*.
+
+**Correcciones:**
+- [Manual tema 12](content/la-puebla/tema-12/manual.md), commit **8394ffa0**: anota la sucesión **RDL 26/2026 dejado sin efecto → RDL 29/2026**.
+- [Fuentes tema 12](content/la-puebla/tema-12/fuentes.md), commit **4e792e1a**, y [matriz](content/la-puebla/tema-12/matriz.json), commit **ffbe35b8**: añaden las referencias del BOE y el estado temporal de cada norma.
+- [Manual tema 10](content/la-puebla/tema-10/manual.md), commits **637912e9** y **c0d185de**: sustituye «última actualización 03/06/2026» presentada como vigente por el registro histórico de julio y el **control puntual de 02/11**. El núcleo de este tema se refiere a delegación, colaboración, beneficios y obligaciones tributarias; la LGT consolidada figura con última actualización publicada **21/12/2024**, mientras la actualización posterior del TRLRHL afecta a tipos/coeficientes de otros epígrafes.
+
+### Puertas de salida y continuación
+
+- **Estructura:** los archivos y JSON modificados fueron analizados al prepararlos, pero **no** se ejecutó la batería completa CI de la última revisión ni una prueba real de navegador móvil. **Estado CI = PENDIENTE**, como en §14.
+- **Exactitud legal de preguntas:** verificados los textos BOE de las novedades citadas; **no** se da por certificado el banco completo de La Puebla o de UC3M. No modificar respuestas sin base normativa exacta.
+- **Siguiente bloque sustantivo:** completar la revisión de los distractores jurídicos de **La Puebla temas 3–5 y 10–14**, conservar los 5 simulacros existentes, y continuar en paralelo el bloque **UC3M temas 14–16** con fecha de corte por verificar. No reabrir trabajo ya documentado en §12–15. Tras exámenes, reanudar **Diputación C2 DT-C2-A**, manteniendo **tema 6 OAPGT al final**, y luego Diputación C1.
+
