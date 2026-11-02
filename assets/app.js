@@ -209,8 +209,9 @@ function isThemeAvailable(theme) {
 
 function themeStatus(theme) {
   if (!isThemeAvailable(theme)) return 'PENDIENTE';
-  if (theme.estado === 'BORRADOR' || theme.estado === 'PENDIENTE_RECONSTRUCCION' || theme.estado === 'EN_REVISION_USUARIO') return 'BORRADOR';
-  return 'PUBLICADO';
+  // Los estados heredados o desconocidos NO prueban aprobación editorial.
+  if (theme.estado === 'PUBLICADO' || theme.estado === 'APROBADO_USUARIO') return 'PUBLICADO';
+  return 'BORRADOR';
 }
 
 function badge(theme) {
