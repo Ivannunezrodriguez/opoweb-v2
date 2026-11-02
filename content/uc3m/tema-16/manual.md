@@ -3,7 +3,12 @@
 > Epígrafe oficial: Real Decreto 822/2021 sobre organización de enseñanzas y calidad; normativas académicas UC3M de matrícula, permanencia y evaluación; enseñanzas oficiales.
 
 **Estado editorial:** `EN_REVISION_USUARIO`  
-**Control de vigencia:** 23 de julio de 2026.
+**Control editorial original:** **23 de julio de 2026**.  
+**Alerta temporal verificada:** **2 de noviembre de 2026** (revisión puntual, **no** certificación integral).
+
+> ⚠️ **¡Foco Examen!:** **El RD 822/2021 NO ha sido anulado.** La [**Sentencia del Tribunal Supremo de 6/10/2026**, publicada el **23/10/2026** (BOE-A-2026-22083)](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083), anuló el **RD 905/2025** y, por tanto, la modificación que este había introducido en el **art. 22.4** del **RD 822/2021**. No confundir la actualización del texto consolidado del **23/10/2026** con la fecha de legislación exigible para el test UC3M: la **base primera.7** de su convocatoria establece la vigente cuando se publiquen las **listas definitivas y el anuncio del ejercicio**. Su fecha original exacta aún debe verificarse directamente. [Fuentes y cautelas de vigencia](fuentes.md).
+
+
 
 ## 1. Enseñanzas universitarias oficiales
 
