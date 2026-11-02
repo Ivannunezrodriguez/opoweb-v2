@@ -1,3 +1,5 @@
+> **ROADMAP HISTÓRICO DE 18/07/2026.** Este documento es anterior a la convocatoria de **Diputación Auxiliar C2 (octubre de 2026)**. Sus órdenes de trabajo quedan sustituidas por [AUDITORIA_CONTINUA.md](../AUDITORIA_CONTINUA.md); se conserva para explicar decisiones históricas, pero **no** se debe ejecutar como plan activo.
+
 # OpoWeb · Prioridades de convocatorias · 18 de julio de 2026
 
 ## Decisión de alcance
