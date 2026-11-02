@@ -1,6 +1,9 @@
 # Fuentes oficiales · Tema 16
 
-**Control de vigencia:** 23 de julio de 2026.
+**Revisión original de fuentes:** **23 de julio de 2026**.  
+**Control parcial de ventana temporal UC3M:** **2 de noviembre de 2026**, sin certificación jurídica integral.
+
+> ⚠️ **¡Foco Examen!:** La base **primera.7** de la convocatoria UC3M ([BOE-A-2026-14624](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624)) fija la legislación exigible en la fecha de publicación de la resolución de **listas definitivas y anuncio del ejercicio**, no en la fecha del examen **21/11/2026**. El BOE muestra una actualización publicada el **23/10/2026** para el [Real Decreto 822/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781); **no incorporarla automáticamente como materia exigible sin cotejar antes la fecha exacta de la resolución UC3M y el alcance de la modificación**. El material de este tema fue auditado inicialmente en julio y la selección de preguntas debe contrastarse con la redacción aplicable al corte del proceso.
 
 ## Normativa estatal
 
