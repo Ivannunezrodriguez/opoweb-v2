@@ -1,13 +1,13 @@
 {
-  "actualizadoEl": "2026-10-29",
-  "criterio": "Priorizar convocatorias en las que el usuario está inscrito o se presentará; la lista no sustituye la comprobación de los archivos de seguimiento específicos.",
+  "actualizadoEl": "2026-11-02",
+  "criterio": "Ficha de convocatorias y seguimiento administrativo (fechas verificadas por ficha). El estado editorial fiable y la tarea siguiente solo constan en AUDITORIA_CONTINUA.md. No confundir publicación de manual con revisión completa ni comprobación histórica de plazo con disponibilidad actual.",
   "convocatorias": [
     {
       "id": "la-puebla-auxiliar-2026",
       "nombre": "La Puebla de Montalbán · Auxiliar Administrativo C2",
       "estadoUsuario": "ADMITIDO_PROVISIONALMENTE",
       "prioridad": 1,
-      "estadoEditorial": "CERRADO_FASE_2",
+      "estadoEditorial": "CERRADO_FASE_2_HISTORICO_REVALIDACION_PENDIENTE",
       "temas": 19,
       "ruta": "./",
       "plazas": 4,
@@ -30,14 +30,17 @@
       },
       "seguimientoVerificadoEl": "2026-08-16",
       "ultimaComprobacion": "El Decreto 2026-1051 aprueba la lista provisional con 169 personas admitidas y 21 excluidas. El usuario figura admitido provisionalmente y no debe subsanar. Pendiente de lista definitiva y fecha del primer ejercicio.",
-      "incidenciaCorregida": "Auditoría transversal cerrada para los 19 temas; mantenimiento posterior sujeto a reformas normativas o nuevas publicaciones oficiales."
+      "incidenciaCorregida": "Auditoría transversal cerrada para los 19 temas; mantenimiento posterior sujeto a reformas normativas o nuevas publicaciones oficiales.",
+      "notaEstadoEditorial": "Cierre documental fase 2 de julio de 2026 conservado; auditoría de vigencia a noviembre pendiente.",
+      "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
+      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-08-16. No presenta comprobación oficial nueva a 02/11/2026."
     },
     {
       "id": "diputacion-toledo-auxiliar-c2-2026",
       "nombre": "Diputación Provincial de Toledo · Auxiliar Administrativo C2",
       "estadoUsuario": "SOLICITUD_REGISTRADA_PENDIENTE_ADMISION",
       "prioridad": 1,
-      "estadoEditorial": "20_BORRADORES_AUDITORIA_PENDIENTE",
+      "estadoEditorial": "19_EN_REVISION_1_BORRADOR",
       "temas": 20,
       "plazas": 4,
       "plazasTurnoLibre": 3,
@@ -57,14 +60,17 @@
       "seguimiento": "data/seguimiento-diputacion-auxiliar-c2-2026.json",
       "carpetaContenido": "content/diputacion-toledo-auxiliar-c2",
       "seguimientoVerificadoEl": "2026-10-25",
-      "ultimaComprobacion": "Solicitud registrada; 20 manuales en borrador. Tema 6 requiere cierre de fuentes estatutarias OAPGT. Consultar el archivo de seguimiento específico para detalles y cautelas."
+      "ultimaComprobacion": "Solicitud registrada; 20 manuales en borrador. Tema 6 requiere cierre de fuentes estatutarias OAPGT. Consultar el archivo de seguimiento específico para detalles y cautelas.",
+      "notaEstadoEditorial": "19 temas en revisión y tema 6 BORRADOR; tema 6 OAPGT aplazado hasta el final por decisión de 29/10/2026; siguiente tema 1.",
+      "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
+      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-10-25. No presenta comprobación oficial nueva a 02/11/2026."
     },
     {
       "id": "diputacion-toledo-administrativo-c1-2026",
       "nombre": "Diputación Provincial de Toledo · Administrativo C1",
       "estadoUsuario": "ADMITIDO_PROVISIONALMENTE",
       "prioridad": 2,
-      "estadoEditorial": "COMPLETO_EN_AUDITORIA_CONTINUA",
+      "estadoEditorial": "40_ORIGEN_GENERACION_DESDE_CERO_EN_AUDITORIA",
       "temas": 40,
       "plazasTurnoLibre": 2,
       "sistema": "OPOSICION_LIBRE",
@@ -99,14 +105,17 @@
       "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1961/7080/rrhh-seleccion-convocatoria/1",
       "seguimientoVerificadoEl": "2026-08-16",
       "ultimaComprobacion": "Publicada en el BOP de Toledo número 154, de 14 de agosto de 2026, la lista provisional: 260 admitidos y 39 excluidos para 2 plazas. El usuario figura admitido provisionalmente en el número 185 y no debe subsanar. Pendiente de lista definitiva, Tribunal y fecha del primer ejercicio.",
-      "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22"
+      "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22",
+      "notaEstadoEditorial": "Origen editorial GENERACION_DESDE_CERO en el manifiesto antiguo no significa aprobado; auditoría parcial de temas 3,4,5.",
+      "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
+      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-08-16. No presenta comprobación oficial nueva a 02/11/2026."
     },
     {
       "id": "uc3m-auxiliar-c2-2026",
       "nombre": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
       "estadoUsuario": "INSCRITO",
       "prioridad": 3,
-      "estadoEditorial": "20_DE_20_EN_REVISION_TRANSVERSAL",
+      "estadoEditorial": "20_EN_REVISION_USUARIO",
       "temas": 20,
       "temasConManualFuentesMatrizPreguntas": 20,
       "plazas": 34,
@@ -116,7 +125,8 @@
       "plazoSolicitudes": {
         "desde": "2026-07-09",
         "hasta": "2026-08-05",
-        "estado": "ABIERTO"
+        "estado": "CERRADO",
+        "nota": "El plazo histórico indicado terminó según las fechas registradas. No se ha verificado hoy una eventual reapertura."
       },
       "fechaPrevisibleEjercicio": {
         "fecha": "2026-11-21",
@@ -126,7 +136,10 @@
       "fuenteSeguimiento": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
       "seguimientoVerificadoEl": "2026-07-31",
       "ultimaComprobacion": "El portal oficial mantiene abierto el plazo hasta el 5 de agosto de 2026 y conserva como previsible el ejercicio del 21 de noviembre de 2026 a las 10:00. No consta lista provisional.",
-      "incidenciaCorregida": "Tema 1: corregido el recuento de reformas constitucionales de tres a cuatro; incorporadas la reforma del artículo 69.3 de 2026 y la separación de las circunscripciones senatoriales de Ibiza y Formentera."
+      "incidenciaCorregida": "Tema 1: corregido el recuento de reformas constitucionales de tres a cuatro; incorporadas la reforma del artículo 69.3 de 2026 y la separación de las circunscripciones senatoriales de Ibiza y Formentera.",
+      "notaEstadoEditorial": "20 temas con estado EN_REVISION_USUARIO en manifiesto; falta recertificación jurídico-técnica.",
+      "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
+      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-07-31. No presenta comprobación oficial nueva a 02/11/2026."
     },
     {
       "id": "carranque-auxiliar-2026",
@@ -147,7 +160,8 @@
         "estado": "CERRADO"
       },
       "seguimientoVerificadoEl": "2026-07-31",
-      "ultimaComprobacion": "Sin publicación posterior oficial verificada."
+      "ultimaComprobacion": "Sin publicación posterior oficial verificada.",
+      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-07-31. No presenta comprobación oficial nueva a 02/11/2026."
     },
     {
       "id": "cpeis-toledo-auxiliar-administrativo-2026",
@@ -163,11 +177,13 @@
       "plazoSolicitudes": {
         "desde": "2026-07-10",
         "hasta": "2026-08-06",
-        "estado": "ABIERTO"
+        "estado": "CERRADO",
+        "nota": "El plazo histórico indicado terminó según las fechas registradas. No se ha verificado hoy una eventual reapertura."
       },
       "fuenteSeguimiento": "https://cpeistoledo.es/empleo-formacion/",
       "seguimientoVerificadoEl": "2026-07-31",
-      "ultimaComprobacion": "El portal oficial mantiene abiertos los procesos C1 y C2 hasta el 6 de agosto de 2026. No consta lista provisional; se mantiene solo seguimiento."
+      "ultimaComprobacion": "El portal oficial mantiene abiertos los procesos C1 y C2 hasta el 6 de agosto de 2026. No consta lista provisional; se mantiene solo seguimiento.",
+      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-07-31. No presenta comprobación oficial nueva a 02/11/2026."
     },
     {
       "id": "las-ventas-auxiliar-2026",
