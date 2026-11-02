@@ -55,4 +55,7 @@ const ignored=normalizeOpportunity({id:'followup',title:'Acta final de bolsa de 
 const blocked=await enrichRadar([ignored],'2026-11-02',{limit:3,
  fetchDocument:async()=>{throw new Error('NO DEBE CONSULTARSE');}});
 assert.equal(blocked.summary.attempted,0,'No leer actas como convocatorias nuevas');
+const blocked403=await enrichRadar([old],'2026-11-02',{limit:1,
+ fetchDocument:async()=>{throw new Error('HTTP 403');}});
+assert.equal(blocked403.summary.failureReasons['HTTP 403'],1);
 console.log('RADAR_ENRICH_EXTRACTION_AND_FAIL_SAFE_OK');
