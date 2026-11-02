@@ -1,6 +1,6 @@
 {
   "tema": 4,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "BANCO_21_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T04-001",
@@ -130,7 +130,7 @@
     },
     {
       "id": "DIP-T04-010",
-      "pregunta": "¿En qué plazo resuelve el superior la recusación?",
+      "pregunta": "Si la persona recusada niega la causa alegada, ¿en qué plazo debe resolver el superior inmediato?",
       "opciones": [
         "Dos días",
         "Tres días",
@@ -138,8 +138,8 @@
         "Diez días"
       ],
       "correcta": 1,
-      "justificacion": "El superior resolverá la recusación en el plazo de tres días, previos los informes y comprobaciones oportunos.",
-      "trampa": "El plazo test es de **tres días**, no de cinco ni diez.",
+      "justificacion": "Según el artículo 24.4 de la Ley 40/2015, si el recusado niega la causa, el superior resolverá en el plazo de tres días, previos los informes y comprobaciones oportunos.",
+      "trampa": "Los tres días solo aplican si se niega la causa; el recusado manifiesta su posición al día siguiente (art. 24.3).",
       "referencia": "content/diputacion-toledo/tema-04/manual.md#7-abstención-y-recusación"
     },
     {
@@ -281,6 +281,20 @@
       "justificacion": "Ley 40/2015, artículo 143: Compromisos voluntarios para una acción común.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
       "referencia": "Ley 40/2015, art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "DIP-T04-021",
+      "pregunta": "¿Cuándo debe manifestar la persona recusada a su superior si concurre la causa alegada?",
+      "opciones": [
+        "El mismo día obligatoriamente",
+        "Al día siguiente",
+        "En tres días",
+        "En diez días hábiles"
+      ],
+      "correcta": 1,
+      "justificacion": "Artículo 24.3 de la Ley 40/2015: en el día siguiente el recusado manifestará al inmediato superior si se da o no la causa.",
+      "trampa": "No confundir el día siguiente de manifestación del recusado con los tres días para resolver cuando niega la causa.",
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#131-recusación-secuencia-legal-exacta"
     }
   ]
 }
