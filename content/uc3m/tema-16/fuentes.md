@@ -5,6 +5,23 @@
 
 > ⚠️ **¡Foco Examen!:** La base **primera.7** de la convocatoria UC3M ([BOE-A-2026-14624](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624)) fija la legislación exigible en la fecha de publicación de la resolución de **listas definitivas y anuncio del ejercicio**, no en la fecha del examen **21/11/2026**. El BOE muestra una actualización publicada el **23/10/2026** para el [Real Decreto 822/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781); **no incorporarla automáticamente como materia exigible sin cotejar antes la fecha exacta de la resolución UC3M y el alcance de la modificación**. El material de este tema fue auditado inicialmente en julio y la selección de preguntas debe contrastarse con la redacción aplicable al corte del proceso.
 
+## Resolución judicial sobre cambios de 2025 — control adicional **02/11/2026**
+
+**Fuente judicial primaria:** [**Sentencia del Tribunal Supremo de 6 de octubre de 2026**, publicada en el **BOE de 23/10/2026**, referencia **BOE-A-2026-22083**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083). Su fallo **anula el Real Decreto 905/2025, de 7 de octubre**, que se había publicado el **08/10/2025** ([BOE-A-2025-20002](https://www.boe.es/buscar/act.php?id=BOE-A-2025-20002)). El análisis del propio **BOE** identifica expresamente la **nulidad de la modificación del artículo 22.4 y de las referencias indicadas del Real Decreto 822/2021**.
+
+| Fechas que pueden confundirse | Significado comprobado |
+|---|---|
+| **08/10/2025** | Publicación de la reforma universitaria contenida en **RD 905/2025** |
+| **06/10/2026** | Fecha de la **sentencia del Tribunal Supremo** que anula aquel real decreto |
+| **23/10/2026** | Publicación del **fallo en BOE**, recogida como última actualización del texto consolidado del **RD 822/2021** |
+| **Publicación de la resolución UC3M de listas definitivas y anuncio del ejercicio** | Fecha que la **base primera.7 de la convocatoria** usa para determinar la legislación exigible; **su día exacto sigue sin acreditarse aquí mediante lectura de la resolución original** |
+
+**Advertencia importante:** una actualización del BOE de **23/10/2026** **no es automáticamente una nueva regulación sustantiva** de todas las enseñanzas universitarias: en este caso corresponde al registro de una **anulación judicial** de una modificación anterior. Tampoco debe suponerse, sin examinar la resolución selectiva y el alcance de los efectos jurídicos de la nulidad, que todas las novedades posteriores a la fecha de corte son materia del test. El artículo y apartado afectados **(22.4)** se distinguen de las preguntas ordinarias del banco sobre **ECTS, títulos oficiales, matrícula y permanencia**.
+
+**Estado de esta revisión:** [x] identificado el fallo, su publicación y el artículo afectado en **BOE**; [ ] pendiente cotejar la **fecha exacta** de publicación de la resolución UC3M que determina la ventana de vigencia, y su eventual aclaración por el **Tribunal Calificador**. No modificar respuestas del tema 16 por simple comparación con la última fecha de consolidación.
+
+> ⚠️ **¡Foco Examen!:** No responder «el **RD 822/2021 fue derogado**»: sigue vigente. Lo **anulado** es el **RD 905/2025**, incluida su modificación del **art. 22.4 del RD 822/2021**. Distinguir norma, reforma, nulidad judicial y fecha exigible del examen.
+
 ## Normativa estatal
 
 - **Real Decreto 822/2021, de 28 de septiembre**, por el que se establece la organización de las enseñanzas universitarias y del procedimiento de aseguramiento de su calidad.
