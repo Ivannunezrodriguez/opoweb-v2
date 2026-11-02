@@ -116,17 +116,17 @@
     },
     {
       "id": "DIP-T16-009",
-      "pregunta": "Para la revisión periódica y predeterminada de precios, la regla general exige:",
+      "pregunta": "Según el artículo 103.5 vigente de la LCSP, ¿cuáles son las condiciones ordinarias de ejecución y tiempo para revisar precios?",
       "opciones": [
-        "10 % ejecutado y 1 año",
-        "20 % ejecutado y 2 años desde la formalización",
-        "25 % ejecutado y 3 años",
-        "Que el contrato esté íntegramente ejecutado"
+        "20 % ejecutado y 2 años",
+        "20 % ejecutado y 1 año",
+        "5 % ejecutado y 1 año",
+        "30 % ejecutado y 3 años"
       ],
       "correcta": 1,
-      "justificacion": "Como regla general, debe haberse ejecutado al menos el 20 % del importe del contrato y haber transcurrido 2 años desde su formalización.",
-      "trampa": "Los dos requisitos son acumulativos y no deben reducirse sus umbrales.",
-      "referencia": "content/diputacion-toledo/tema-16/manual.md#11-revisión-de-precios"
+      "justificacion": "Regla general: al menos **20 % del importe ejecutado** y **1 año desde la formalización**. Existen excepciones en contratos de suministro de energía y concesión de servicios.",
+      "trampa": "El plazo de **2 años** quedó desactualizado: el artículo **103.5 LCSP** indica **1 año**.",
+      "referencia": "LCSP art. 103.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     },
     {
       "id": "DIP-T16-010",
