@@ -78,6 +78,13 @@ async function documentText(url){
  if(ct.includes('text/plain'))return {text:buf.toString('utf8'),format:'TEXTO'};
  throw new Error('FORMATO_NO_LEIBLE');
 }
+// Damos preferencia a publicaciones oficiales específicas antes que a portales
+// municipales generales (muchos responden 403/404 o muestran índices sin bases).
+function documentPriority(x){
+ const url=String(x.officialUrl||'');
+ const linkedDocument=/(?:boe\.es\/diario_boe\/(?:txt|pdf)|bop\.diputoledo\.es\/webEbop\/DocGet|docm\.jccm\.es\/docm\/verArchivo|\.pdf(?:[?#]|$))/i.test(url);
+ return (x.isNew?1000:0)+(linkedDocument?200:0)+(!x.position?50:0)+(!x.detailsCheckedAt?20:0);
+}
 export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=documentText}={}){
  const items=opportunities.map(x=>({...x}));
  // Enrich recently detected, recognizable calls first; follow-up lists are excluded.
@@ -85,9 +92,10 @@ export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=doc
   x.state!=='CERRADA' && x.state!=='NO_ACCESIBLE' && !x.phaseFollowup &&
   (!x.detailsCheckedAt || (!x.position && x.enrichmentVersion!==2) || (x.detailsStatus!=='LEIDO' && Date.parse(date)-Date.parse(x.detailsCheckedAt)>=7*86400000)) && safeOfficial(x.officialUrl) &&
   Number.isFinite(Date.parse(x.firstSeen)) && Date.parse(date)-Date.parse(x.firstSeen)<=30*86400000)
-  .sort((a,b)=>Number(b.x.isNew)-Number(a.x.isNew)||Number(!a.x.position)-Number(!b.x.position)||String(b.x.firstSeen).localeCompare(String(a.x.firstSeen)))
+  .sort((a,b)=>documentPriority(b.x)-documentPriority(a.x)||String(b.x.firstSeen).localeCompare(String(a.x.firstSeen)))
   .slice(0,limit);
  let read=0,withDetails=0,failures=0;
+ const failureReasons={};
  const groups=[];for(let i=0;i<candidates.length;i+=5)groups.push(candidates.slice(i,i+5));
  for(const group of groups){
   await Promise.all(group.map(async ({x,i})=>{
@@ -107,10 +115,15 @@ export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=doc
     if(Object.keys(facts).length)withDetails++;
    }catch(e){
     updated.detailsStatus=String(e.message||e).slice(0,100);
+    const reason=/HTTP\\s*\\d{3}/i.exec(updated.detailsStatus)?.[0]?.replace(/\\s+/g,' ') ||
+      (/PDF_NO_EXTRAIBLE/.test(updated.detailsStatus)?'PDF_NO_EXTRAIBLE':
+      /TEXTO_INSUFICIENTE/.test(updated.detailsStatus)?'TEXTO_INSUFICIENTE':
+      /Timeout|Abort|timed out/i.test(updated.detailsStatus)?'TIMEOUT':'OTRO');
+    failureReasons[reason]=(failureReasons[reason]||0)+1;
     failures++;
    }
    items[i]=normalizeOpportunity(updated,date);
   }));
  }
- return {opportunities:items,summary:{attempted:candidates.length,read,withDetails,failures,asOf:date,explanation:'Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes.'}};
+ return {opportunities:items,summary:{attempted:candidates.length,read,withDetails,failures,failureReasons,asOf:date,explanation:'Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes.'}};
 }
