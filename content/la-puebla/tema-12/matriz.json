@@ -90,5 +90,34 @@
     "coeficientes anuales del IIVTNU",
     "recaudación e inspección ya tratadas en los temas 10 y 11"
   ],
-  "criterioDeCierre": "Aprobado expresamente por el usuario mediante la frase Tema 12 aprobado el 18 de julio de 2026."
+  "criterioDeCierre": "Aprobado expresamente por el usuario mediante la frase Tema 12 aprobado el 18 de julio de 2026.",
+  "controlVigenciaComplementario": {
+    "fecha": "2026-11-02",
+    "alcance": "Únicamente cambios del TRLRHL con efectos octubre-diciembre 2026 en el contexto de este tema. No recertifica todos los artículos del manual.",
+    "fuentes": [
+      {
+        "titulo": "TRLRHL consolidado; última actualización publicada 07/10/2026",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      },
+      {
+        "titulo": "RDL 29/2026, artículos 8 y 10",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823"
+      }
+    ],
+    "diferencias": [
+      {
+        "articulo": "TRLRHL 72",
+        "regla": "Regulación de tipos diferenciados y recargos IBI; RDL 29/2026, art. 8",
+        "vigencia": "Períodos impositivos iniciados desde 08/10/2026; el IBI anual de 2026 se inició 01/01/2026, por lo que el primer período anual ordinario afectado es 2027",
+        "clasificacion": "complemento fuera del núcleo naturaleza-hecho imponible-sujetos pasivos"
+      },
+      {
+        "articulo": "TRLRHL 107.4",
+        "regla": "Coeficientes máximos del IIVTNU; RDL 29/2026, art. 10",
+        "vigencia": "01/12/2026 (posterior al primer examen del 14/11/2026)",
+        "clasificacion": "fuera del núcleo delimitado de coeficientes"
+      }
+    ],
+    "estado": "VERIFICACION_PARCIAL_NO_CIERRE_INTEGRAL"
+  }
 }
