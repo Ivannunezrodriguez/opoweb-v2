@@ -29,11 +29,24 @@
         "requiereSubsanacion": false
       },
       "seguimientoVerificadoEl": "2026-08-16",
-      "ultimaComprobacion": "Última comprobación registrada el 16/08/2026: Decreto 2026-1051, lista provisional con 169 admitidos y 21 excluidos; usuario admitido provisionalmente sin subsanación. En aquella fecha no constaba en el seguimiento lista definitiva ni fecha de examen; situación posterior NO revalidada a 02/11/2026.",
+      "ultimaComprobacion": "Consulta 02/11/2026: bases municipales contrastadas. Sede electrónica/tablón municipal no accesibles por redirecciones; NO se puede certificar anuncio de lista definitiva ni convocatoria de examen. Fuentes secundarias reseñan listas definitivas 28/08 y 02/09/2026; no se ha comprobado documento original. Último estado individual confirmado sigue siendo ADMITIDO PROVISIONALMENTE (Decreto 2026-1051).",
       "incidenciaCorregida": "Auditoría transversal cerrada para los 19 temas; mantenimiento posterior sujeto a reformas normativas o nuevas publicaciones oficiales.",
       "notaEstadoEditorial": "Cierre documental fase 2 de julio de 2026 conservado; auditoría de vigencia a noviembre pendiente.",
       "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
-      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-08-16. No presenta comprobación oficial nueva a 02/11/2026."
+      "notaVigenciaSeguimiento": "Revisión web 02/11/2026; última comprobación primaria de admisión 16/08/2026, fecha definitiva y examen pendientes de acceso al tablón municipal.",
+      "seguimientoConsultadoEl": "2026-11-02",
+      "listaDefinitiva": {
+        "estado": "NO_VERIFICADA_EN_DOCUMENTO_OFICIAL",
+        "indiciosFuentesSecundarias": [
+          "2026-08-28",
+          "2026-09-02"
+        ],
+        "nota": "Índices privados citan dos fechas de lista definitiva; acceso al documento oficial de sede municipal no conseguido."
+      },
+      "fechaExamen": {
+        "fecha": null,
+        "estado": "NO_CONFIRMADA_EN_FUENTE_OFICIAL_ACCESIBLE_A_2026_11_02"
+      }
     },
     {
       "id": "diputacion-toledo-auxiliar-c2-2026",
@@ -102,13 +115,24 @@
         "plazoSubsanacionDiasHabiles": 10,
         "fechaFinSubsanacionEstimada": "2026-08-28"
       },
-      "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1961/7080/rrhh-seleccion-convocatoria/1",
-      "seguimientoVerificadoEl": "2026-08-16",
-      "ultimaComprobacion": "Última comprobación registrada el 16/08/2026: lista provisional BOP 154/2026 con 260 admitidos y 39 excluidos para 2 plazas; usuario admitido provisionalmente sin subsanación. La lista definitiva y fecha de examen NO se han revalidado aquí a 02/11/2026.",
+      "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1964/7099/opcion",
+      "seguimientoVerificadoEl": "2026-11-02",
+      "ultimaComprobacion": "02/11/2026: verificado en portal oficial de Empleo Público Diputación anuncio de lista DEFINITIVA y composición del Tribunal para 2 plazas Administrativo C1; publicación BOP Toledo 29/09/2026 (referencia 4390-2026). No se ha localizado llamamiento del primer ejercicio para ESTAS dos plazas. Admisión personal solo verificada en lista provisional, no cotejada definitiva.",
       "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22",
       "notaEstadoEditorial": "Origen editorial GENERACION_DESDE_CERO en el manifiesto antiguo no significa aprobado; auditoría parcial de temas 3,4,5.",
       "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
-      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-08-16. No presenta comprobación oficial nueva a 02/11/2026."
+      "notaVigenciaSeguimiento": "Última consulta a la fuente oficial: 02/11/2026. Lista definitiva y tribunal anunciados; fecha de examen y admisión personal definitiva por verificar.",
+      "listaDefinitiva": {
+        "estado": "PUBLICADA",
+        "fechaPublicacion": "2026-09-29",
+        "descripcion": "Listado definitivo de admitidos/as y excluidos/as y composición del Tribunal 2 plazas Administrativo/a C1",
+        "urlOficial": "https://www.diputoledo.es/global/50/1964/7099/opcion",
+        "estadoAdmisiónUsuario": "NO_COMPROBADA_EN_LISTA_DEFINITIVA"
+      },
+      "fechaExamen": {
+        "fecha": null,
+        "estado": "SIN_LLAMAMIENTO_ESPECIFICO_LOCALIZADO_A_2026_11_02"
+      }
     },
     {
       "id": "uc3m-auxiliar-c2-2026",
