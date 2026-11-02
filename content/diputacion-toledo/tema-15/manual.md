@@ -215,3 +215,19 @@ OTRAS ENTIDADES LOCALES
 > ⚠️ **¡Foco Examen!:** Una **mancomunidad** tiene **personalidad jurídica propia** y estatutos; los **nuevos entes inframunicipales** del artículo **24 bis** carecen de personalidad jurídica. No confundirlos con entidades históricas amparadas por régimen transitorio.
 
 **Fuente primaria comprobada:** [LRBRL consolidada, versión publicada **03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392). Banco ampliado a **20 preguntas**. Pendientes la auditoría jurídica integral y la prueba de navegación web antes de certificar el tema.
+
+
+## 10. Contraste de personalidad jurídica y creación — **02/11/2026**
+
+| Entidad | Creación y organización | Personalidad jurídica |
+|---|---|---|
+| **Mancomunidad** | Asociación municipal voluntaria para **obras y servicios determinados**; estatutos aprobados por los **Plenos de todos los ayuntamientos**; informe de la **Diputación** | **Sí**, para sus fines específicos (**art. 44 LRBRL**) |
+| **Comarca** | Creada mediante **ley autonómica**; oposición cualificada de municipios puede impedirla | Entidad local conforme a legislación autonómica (**arts. 3.2 y 42**) |
+| **Área metropolitana** | Creada, modificada o suprimida mediante **ley autonómica**, previa audiencia a las administraciones afectadas | Entidad local conforme al **art. 43** |
+| **Nuevo ente inframunicipal** | Organización desconcentrada para núcleos separados; iniciativa de la **población interesada** o del **Ayuntamiento** y exigencia de **mayor eficiencia** | **Sin personalidad jurídica** (**art. 24 bis**) |
+
+> ⚠️ **¡Foco Examen!:** Una **mancomunidad** puede incorporar municipios de distintas comunidades autónomas, pero **solo si lo permiten las normas de las comunidades afectadas** (**art. 44.5**).
+
+> ⚠️ **¡Foco Examen!:** Los **nuevos entes inframunicipales** carecen de personalidad jurídica; no extrapoles esta regla automáticamente a entidades preexistentes, sujetas a régimen transitorio.
+
+Fuente: [Ley 7/1985, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), actualización publicada el **03/10/2026**. Revisión **focalizada**, pendiente auditoría integral y pruebas funcionales.
