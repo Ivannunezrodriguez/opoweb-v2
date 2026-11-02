@@ -51,3 +51,10 @@
 Banco ampliado de **12 a 20 preguntas**. El contenido continúa en auditoría jurídica y funcional antes de su certificación final.
 
 > ⚠️ **¡Foco Examen!:** Los **27 diputados** de una provincia en la horquilla de **500.001–1.000.000 residentes** no equivalen a los **31** de la horquilla siguiente.
+
+
+## Comprobación de 02/11/2026
+
+- LOREG **art. 207**: **Mesa de Edad**, mayoría **absoluta** en primera votación y **simple** en segunda.
+- LRBRL **art. 36.1.b**: garantía de **secretaría e intervención** en municipios de menos de **1.000 habitantes**.
+- Tres preguntas revisadas. Auditoría integral pendiente.
