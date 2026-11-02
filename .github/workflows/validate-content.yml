@@ -1,28 +1,8 @@
-name: Validar OpoWeb
+name: Validación OpoWeb bajo demanda
 
+# El único CI automático es validate.yml: cubre todos los commits a main.
+# Este segundo flujo se conserva para ejecutar manualmente una segunda comprobación.
 on:
-  push:
-    paths:
-      - 'content/**'
-      - 'data/**'
-      - 'tests/**'
-      - 'index.html'
-      - 'practice.html'
-      - 'assets/**'
-      - 'sw.js'
-      - 'package.json'
-      - '.github/workflows/validate-content.yml'
-  pull_request:
-    paths:
-      - 'content/**'
-      - 'data/**'
-      - 'tests/**'
-      - 'index.html'
-      - 'practice.html'
-      - 'assets/**'
-      - 'sw.js'
-      - 'package.json'
-      - '.github/workflows/validate-content.yml'
   workflow_dispatch:
 
 permissions:
@@ -34,11 +14,9 @@ jobs:
     steps:
       - name: Obtener repositorio
         uses: actions/checkout@v4
-
       - name: Configurar Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
-
+          node-version: '24'
       - name: Ejecutar validación integral
         run: npm run test:all
