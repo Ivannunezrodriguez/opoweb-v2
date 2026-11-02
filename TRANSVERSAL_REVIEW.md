@@ -1,3 +1,5 @@
+> **INFORME HISTÓRICO (30/07/2026), NO ESTADO ACTUAL.** El cierre de fase 2 de **La Puebla** es evidencia de ese hito, no una nueva certificación jurídica a noviembre. Para prioridades, porcentajes, bloqueos y próxima tarea consultar [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md). No reanudar desde las últimas instrucciones de este informe.
+
 # Seguimiento de la revisión transversal · Fase 2
 
 Última actualización: **30 de julio de 2026**.
