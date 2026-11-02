@@ -1,7 +1,8 @@
 # La Puebla de Montalbán · Tema 13
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Revisión editorial histórica:** 30 de julio de 2026.  
+**Control jurídico focalizado del Reglamento eIDAS (arts. 20 y 24):** 2 de noviembre de 2026, sin recertificación integral.
 
 ## Tema 13 · Administración electrónica I
 
@@ -159,12 +160,23 @@ Los últimos servicios proceden del marco eIDAS actualizado. Se estudian como am
 
 ## 11. Cifras que deben memorizarse
 
-| Materia | Regla |
-|---|---:|
-| Vigencia máxima de certificado cualificado en España | 5 años |
-| Conservación de información por prestador cualificado | 15 años desde extinción o fin del servicio |
-| Auditoría ordinaria del prestador cualificado | Al menos cada 24 meses |
-| Publicación del estado de revocación cualificada | Como máximo 24 horas desde la solicitud |
+| Materia | Regla | Fuente normativa |
+|---|---|---|
+| Vigencia máxima de certificado cualificado en España | **5 años** | **Ley 6/2020, art. 4.2** |
+| Conservación de información por prestador cualificado | **15 años** desde extinción del certificado o finalización del servicio | **Ley 6/2020, art. 9.3.a** |
+| Auditoría ordinaria de prestadores cualificados | **Al menos cada 24 meses**, a su costa | **Reglamento eIDAS, art. 20.1** |
+| Preaviso de auditoría planificada a la autoridad supervisora | **Como máximo un mes antes de la auditoría** (notificación con **al menos un mes de antelación**) | **eIDAS, art. 20.1 bis** |
+| Remisión del informe de evaluación tras recibirlo | Dentro de **3 días laborables** | **eIDAS, art. 20.1** |
+| Publicación del estado de revocación de un certificado cualificado | Sin demora y, en todo caso, dentro de las **24 horas** siguientes a recibir la solicitud; la revocación tiene efecto **inmediato desde su publicación** | **eIDAS, art. 24.3** |
+
+### Diferencias de cómputo que suelen aparecer en los test
+
+- **24 meses**: periodicidad máxima entre auditorías ordinarias del prestador cualificado.
+- **1 mes de antelación**: comunicación previa de la auditoría planificada al organismo de supervisión.
+- **3 días laborables**: entrega del informe de conformidad tras recibirlo.
+- **24 horas**: comunicación pública del estado de revocación desde la recepción de la solicitud; **no** significa **24 meses**.
+
+> ⚠️ **¡Foco Examen!:** No mezclar los **24 meses** de auditoría con las **24 horas** de publicación de la revocación. La normativa eIDAS actualizada distingue también el **preaviso de un mes** y los **tres días laborables** para enviar el informe de conformidad.
 
 ## 12. Delimitación
 
