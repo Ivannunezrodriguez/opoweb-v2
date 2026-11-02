@@ -1,7 +1,7 @@
 {
   "tema": 5,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-07-29",
+  "version": "2026-11-02",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -153,7 +153,7 @@
     },
     {
       "id": "LP-T05-011",
-      "enunciado": "En las elecciones municipales, no se tienen en cuenta para atribuir Concejales las candidaturas que no alcancen al menos:",
+      "enunciado": "En un municipio de más de 250 habitantes que elige Concejales mediante el sistema proporcional de listas, ¿qué porcentaje mínimo de votos válidos exige el artículo 180 LOREG para entrar en el reparto?",
       "opciones": [
         "El 3 % de los votos válidos",
         "El 5 % de los votos válidos",
@@ -161,13 +161,13 @@
         "El 10 % de los votos válidos"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El artículo 180 LOREG excluye del reparto de puestos a las candidaturas que no alcancen al menos el 5 % de los votos válidos emitidos en la circunscripción.",
-      "trampaExamen": "El umbral municipal es del 5 % de votos válidos, no del censo ni de todos los votos emitidos sin distinción.",
-      "referencia": "manual.md · apartado 57 · Artículo 180 LOREG"
+      "justificacion": "El artículo 180 LOREG excluye del reparto proporcional de Concejales a las listas que no alcancen el 5 % de los votos válidos de la circunscripción. Este supuesto se limita al sistema ordinario de listas, no al voto a candidatos individuales del artículo 184 en municipios de hasta 250 habitantes.",
+      "trampaExamen": "El 5 % es una barrera del reparto proporcional de listas, no una barrera aplicable sin más a municipios de hasta 250 habitantes ni al Concejo Abierto.",
+      "referencia": "manual.md · apartados 57 y 61 · LOREG, artículos 180 y 184"
     },
     {
       "id": "LP-T05-012",
-      "enunciado": "En la sesión constitutiva del Ayuntamiento, si ningún candidato obtiene mayoría absoluta de los votos de los Concejales, será proclamado Alcalde:",
+      "enunciado": "En un municipio de más de 250 habitantes que elige Concejales mediante listas, si ningún candidato a Alcalde obtiene mayoría absoluta de votos de los Concejales, ¿quién será proclamado Alcalde?",
       "opciones": [
         "El Concejal de mayor edad",
         "El candidato designado por la Junta Electoral de Zona",
@@ -175,9 +175,18 @@
         "El cabeza de la segunda lista más votada"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Pueden ser candidatos quienes encabecen sus listas. Si ninguno obtiene mayoría absoluta de los Concejales, se proclama al cabeza de la lista más votada por los electores; el empate se resuelve por sorteo.",
-      "trampaExamen": "La Mesa de Edad dirige la constitución, pero no atribuye automáticamente la Alcaldía al miembro de mayor edad.",
-      "referencia": "manual.md · apartado 74 · Artículo 196 LOREG"
+      "justificacion": "En el régimen ordinario de listas del artículo 196 LOREG, si ningún cabeza de lista obtiene mayoría absoluta de los votos de los Concejales, se proclama Alcalde al cabeza de la lista más votada por los electores; un empate se resuelve por sorteo. En los municipios de 100 a 250 habitantes rige otra regla: puede ser candidato cualquier Concejal y, a falta de mayoría absoluta, resulta elegido quien obtuvo más votos populares individuales.",
+      "trampaExamen": "La regla del cabeza de la lista más votada no es universal: el artículo 196 establece una excepción para municipios de 100 a 250 habitantes; en Concejo Abierto el Alcalde se elige directamente.",
+      "referencia": "manual.md · apartado 74 · LOREG, artículo 196"
     }
-  ]
+  ],
+  "revisionFocalizada": {
+    "fecha": "2026-11-02",
+    "preguntas": [
+      "LP-T05-011",
+      "LP-T05-012"
+    ],
+    "norma": "LOREG, artículos 180, 184 y 196",
+    "alcance": "Aclaración de excepciones municipales de población reducida, sin cambiar claves de respuesta ni aprobación editorial histórica."
+  }
 }
