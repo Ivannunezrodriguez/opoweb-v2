@@ -2,9 +2,9 @@
 
 ## Estado
 
-`GENERACION_DESDE_CERO`
+`APROBADO_USUARIO` (hito histórico); **error puntual de la tabla de plazos corregido el 02/11/2026**. La recertificación jurídica integral sigue pendiente.
 
-El tema está publicado, pero mantiene una rectificación jurídica prioritaria pendiente en el apartado relativo al personal funcionario interino por programas temporales.
+**Comprobación del 02/11/2026:** el cuerpo del manual ya decía **cuatro años**, pero el cuadro de memorización «Plazos y cifras esenciales» aún decía «Máximo 2 años». Se corrigió la fila; el supuesto `LP-SP-05` y el test `LP-T06-002` ya utilizan **cuatro años** y el validador comprueba el supuesto. Fuente: [Ley 4/2011, art. 8.1.c](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752) y [TREBEP, art. 10.1.c](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719).
 
 ## Epígrafe oficial
 
@@ -67,7 +67,7 @@ La regla aplicable es:
 | Posible ampliación por ley autonómica | hasta **doce meses más** |
 | Ley 4/2011 de Castilla-La Mancha, artículo 8.1.c) | máximo total de **cuatro años** |
 
-Hasta que se sustituya la cifra errónea del apartado 11.C del manual principal, debe prevalecer esta rectificación y el contenido de `content/la-puebla/tema-06/auditoria-2026-07-18.md`.
+**Situación actual:** corregida la tabla resumen del manual. Las menciones a **dos años** que permanecen en otros apartados corresponden a supuestos jurídicos distintos, como la **promoción interna**, y no a la duración del programa temporal. Se conserva `auditoria-2026-07-18.md` como evidencia del hallazgo histórico.
 
 > ⚠️ **¡Foco Examen!:** No confundas los **dos años de servicio activo** exigidos para determinados supuestos de promoción interna con la duración de un programa temporal de interinidad. En Castilla-La Mancha, el máximo total del programa es de **cuatro años**.
 
@@ -89,9 +89,11 @@ No debe estudiarse el artículo 70 únicamente mediante una copia consolidada an
 
 Se excluyen porque no aparecen en el epígrafe, salvo las referencias necesarias para entender los bloques exigidos.
 
-## Control pendiente
+## Estado de las acciones originales — **02/11/2026**
 
-1. Sustituir en `manual.md` las tres menciones que presentan **dos años** como duración máxima del programa temporal.
-2. Corregir el supuesto `LP-SP-05` para que la opción correcta sea **cuatro años**.
-3. Revisar cualquier regla del validador que todavía espere la cifra antigua.
-4. Mantener diferenciados los **dos años de servicio activo** de promoción interna y los **cuatro años** máximos del programa temporal.
+- [x] Corregido el cuadro de plazos de `manual.md`: **cuatro años** para programa temporal en Castilla-La Mancha.
+- [x] Comprobado que `LP-SP-05` marca **cuatro años** y que `tests/validate.mjs` lo exige.
+- [x] Comprobado que el banco del tema 6 pregunta por **cuatro años**, no por dos.
+- [ ] Pendiente la **revisión jurídica y funcional completa** de todo el tema, distinta de esta corrección puntual.
+
+> ⚠️ **¡Foco Examen!:** Programa temporal interino **4 años** en Castilla-La Mancha, OEP **3 años** de ejecución, promoción interna **2 años** de servicio activo: **tres números diferentes**.
