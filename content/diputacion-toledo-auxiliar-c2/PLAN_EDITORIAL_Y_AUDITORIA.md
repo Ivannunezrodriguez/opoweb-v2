@@ -1,3 +1,5 @@
+> **PLAN POR CONVOCATORIA — CONSERVAR ORDEN ACORDADO EL 29/10/2026.** Estado global, siguiente tema y evidencias actuales: [AUDITORIA_CONTINUA.md](../../AUDITORIA_CONTINUA.md). **19 temas en revisión y tema 6 en borrador**; los antiguos estados `PUBLICADO` no implicaban auditoría completa. **Tema 6 del OAPGT se mantiene aplazado hasta terminar los demás**, sin borrarlo ni declararlo aprobado. El inventario inicial de abajo es histórico y no debe interpretarse como contenido aún inexistente.
+
 # Plan editorial y auditoría · Diputación de Toledo Auxiliar C2 (2026)
 
 **Estado:** abierto a 25/10/2026. Ningún tema está certificado como vigente a la fecha futura del examen.
