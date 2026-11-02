@@ -1,5 +1,7 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 6
 
+> **Estado editorial operativo (02/11/2026): BORRADOR — APLAZADO_HASTA_EL_FINAL.** La documentación del OAPGT y el acuerdo laboral siguen **incompletos**. Decisión editorial del **29/10/2026**: abordar este tema **después de los temas 1–5 y 7–20**, sin declararlo aprobado. Estado y cola: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+
 **Estado editorial: BORRADOR PARCIAL — DOCUMENTACIÓN OFICIAL EN LOCALIZACIÓN. NO APTO COMO TEMA COMPLETO DE EXAMEN.**
 
 ## 1. Epígrafe oficial literal
