@@ -8,17 +8,20 @@ Nueva plataforma de estudio para oposiciones administrativas, reconstruida desde
 
 Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
-## Estado actual
+## Estado editorial actual — consulta obligatoria
 
-- Versión: **0.19.0**.
-- Convocatoria inicial: **La Puebla de Montalbán · cuatro plazas de Auxiliar Administrativo C2**.
-- Programa oficial: **19 temas**.
-- Temas 1–11: `APROBADO_USUARIO` el 17 de julio de 2026.
-- Temas 12–18: `APROBADO_USUARIO` el 18 de julio de 2026.
-- Tema 19: `APROBADO_USUARIO` el 18 de julio de 2026.
-- Preguntas heredadas: **0**.
-- Resúmenes heredados: **0**.
-- Porcentajes históricos de completitud: **eliminados**.
+**Punto único de verdad:** [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md) (última conciliación **02/11/2026**). Incluye la **tarea activa exacta**, historial verificable y puertas de calidad. No empezar una nueva auditoría desde cero leyendo este README o un informe antiguo.
+
+La plataforma contiene **cuatro programas activos y 99 temas registrados**: **La Puebla C2 (19)**, **Diputación Toledo Auxiliar C2 (20)**, **UC3M C2 (20)** y **Diputación Toledo Administrativo C1 (40)**. **Tema registrado no significa tema auditado.**
+
+- **La Puebla C2:** **19/19** temas `APROBADO_USUARIO` con cierre **histórico de fase 2** en julio de 2026; las reformas y cambios posteriores requieren controles de vigencia.
+- **Diputación Auxiliar C2:** **19 temas EN_REVISION_USUARIO** y **tema 6 BORRADOR**; el tema 6 del **OAPGT** queda **aplazado hasta el final** según decisión documentada del **29/10/2026**, sin considerarse terminado.
+- **UC3M C2:** **20 EN_REVISION_USUARIO**.
+- **Diputación Administrativo C1:** **40 con origen GENERACION_DESDE_CERO** en manifiesto heredado, **sin equivaler a APROBADO/PUBLICADO**; auditoría progresiva.
+
+**No hay certificación integral actual de los 99 temas a 02/11/2026.** Las métricas de archivos, preguntas y validadores se deben interpretar en su **fecha/commit**, no como porcentajes de fiabilidad jurídica.
+
+**Siguiente bloque:** `DT-C2-T01`, auditoría jurídica, editorial y de test del **Tema 1 de Diputación Auxiliar C2**. Después **T02–T05**, **T07–T20** y **T06** al final. Consultar el registro principal antes de cada ejecución.
 
 ## Fuente del programa
 
