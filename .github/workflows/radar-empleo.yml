@@ -8,6 +8,10 @@ on:
       - "tools/radar-direct.py"
       - "assets/radar-quality.js"
       - "tests/radar-fixtures.mjs"
+      - "tests/radar-enrich.mjs"
+      - "tools/radar-enrich.mjs"
+      - "assets/radar.js"
+      - "radar.html"
       - "data/radar-sources.json"
       - ".github/workflows/radar-empleo.yml"
   schedule:
@@ -34,6 +38,7 @@ jobs:
       - name: Validar perfil y casos conocidos
         run: |
           node tests/radar-fixtures.mjs
+          node tests/radar-enrich.mjs
           python3 tests/radar-direct-test.py
       - name: Actualizar radar
         run: node tools/radar.mjs
