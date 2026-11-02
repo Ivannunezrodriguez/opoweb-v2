@@ -1,7 +1,7 @@
 {
   "tema": 10,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-07-30",
+  "version": "2026-11-02",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -97,7 +97,7 @@
     },
     {
       "id": "LP-T10-007",
-      "enunciado": "En una declaración extemporánea presentada sin requerimiento previo, el sistema vigente aplica durante los primeros doce meses:",
+      "enunciado": "Como regla general, en una declaración o autoliquidación extemporánea presentada sin requerimiento previo, antes de que transcurran doce meses de retraso y sin aplicar excepciones del artículo 27 LGT, el recargo se calcula mediante:",
       "opciones": [
         "Un recargo fijo del 20 %",
         "Una sanción mínima del 50 %",
@@ -105,9 +105,9 @@
         "Interés de demora sin recargo"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El artículo 27 LGT establece un recargo del 1 % más otro 1 % por cada mes completo de retraso hasta doce meses; superado ese periodo, el recargo es del 15 % con intereses desde el día siguiente a los doce meses.",
-      "trampaExamen": "La presentación espontánea sin requerimiento genera recargo, no sanción por la mera extemporaneidad.",
-      "referencia": "manual.md · apartado 18 · Artículo 27 LGT"
+      "justificacion": "La regla general del artículo 27.2 LGT es 1 % más otro 1 % adicional por cada mes completo de retraso. Una vez transcurridos 12 meses, el recargo es del 15 %, con intereses solo desde el día posterior a esos doce meses. El artículo 27 contiene excepciones y una reducción condicionada del 25 % del importe del recargo (art. 27.5).",
+      "trampaExamen": "No generalizar: el artículo 27.2 prevé una excepción de regularización de otros períodos bajo requisitos estrictos; el artículo 27.3 permite recargos ejecutivos adicionales si no hay ingreso ni solicitud procedente, y el 27.5 contempla reducir el recargo un 25 % si se cumplen sus condiciones.",
+      "referencia": "manual.md · apartado 18 · LGT, artículos 27.2–5"
     },
     {
       "id": "LP-T10-008",
@@ -179,5 +179,13 @@
       "trampaExamen": "En la declaración el obligado comunica hechos; en la autoliquidación además calcula el resultado.",
       "referencia": "manual.md · apartado 38 · Artículos 119 a 122 LGT"
     }
-  ]
+  ],
+  "revisionFocalizada": {
+    "fecha": "2026-11-02",
+    "preguntas": [
+      "LP-T10-007"
+    ],
+    "normativa": "Ley 58/2003, artículo 27.2–5",
+    "alcance": "Precisa el ámbito del 1 % mensual, excepciones y reducción condicionada; no modifica respuestas ni constituye recertificación total."
+  }
 }
