@@ -73,4 +73,36 @@ assert.ok(src.includes("if (result.answered === false || result.reserve === true
 assert.ok(src.includes("Date.now() + durationMinutes * 60000"),
   'Cronómetro susceptible de regalar tiempo por restricciones de intervalos en segundo plano');
 
+
+// Validación de renderizado lógico (sin navegador): las cinco reservas deben aparecer en pantalla.
+const renderStart = src.indexOf('function renderExercise(');
+const renderEnd = src.indexOf('function finishExercise(', renderStart);
+assert.ok(renderStart >= 0 && renderEnd > renderStart, 'No se encuentra renderExercise');
+const renderFactory = new Function(
+  'app', 'document', 'escapeHtml', 'scrollTo', 'setInterval', 'clearInterval',
+  'finishExercise', 'renderHub',
+  src.slice(renderStart, renderEnd) + '\nreturn renderExercise;'
+);
+const visible = { innerHTML: '' };
+let clockText = '';
+const simpleButton = { addEventListener() {} };
+const renderDocument = {
+  querySelector(selector) {
+    if (selector === '#timer') {
+      return { set textContent(value) { clockText = value; }, classList: { add() {} } };
+    }
+    return simpleButton;
+  }
+};
+const render = renderFactory(
+  visible, renderDocument, value => String(value), () => {},
+  () => 1, () => {}, () => {}, () => {}
+);
+render(questions, 'Modelo 14/11/2026', 'LP-SIM-EXAM-01', 'simulacro', 60, 50);
+assert.equal((visible.innerHTML.match(/data-question="/g) || []).length, 55,
+  'La web debe dibujar las 50 preguntas más las 5 reservas');
+assert.match(visible.innerHTML, /Preguntas de reserva \(R1–R5\)/, 'Falta separación visual de reservas');
+assert.match(visible.innerHTML, /<span>R5<\/span>/, 'No aparece la última reserva');
+assert.match(clockText, /60:00/, 'La cuenta atrás debe empezar en 60 minutos');
+
 console.log('SIMULACROS_PUEBLA_50_MAS_5_NOTA_Y_BLANCOS_OK');
