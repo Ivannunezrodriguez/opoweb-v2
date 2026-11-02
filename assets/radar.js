@@ -50,6 +50,7 @@ function meta(label,value){return '<div><span>'+esc(label)+'</span><strong>'+esc
 function card(o){
  const heading=o.position||'Puesto no identificado en el anuncio';
  const detail=o.title===heading?'':o.title;
+ const originBadge=o.detailsStatus==='LEIDO'?'Documento leído automáticamente':'Datos solo del título';
  const confirmation=o.deadlineIso
    ? 'Fecha límite declarada por la fuente; revisa posibles rectificaciones oficiales.'
    : 'No consta fecha límite verificable. Consulta las bases o el anuncio oficial antes de solicitar.';
@@ -66,15 +67,18 @@ function card(o){
   (detail?'<p class="radar-excerpt">'+esc(detail.slice(0,320))+'</p>':'')+'</div>'+
   '<div class="radar-meta">'+
    meta('Localidad / destino',o.location)+meta('Tipo',o.kind)+
-   meta('Plazas',o.vacancies??missing)+meta('Grupo',o.group==='REVISAR'?missing:o.group)+
-   meta('Plazo de solicitudes',o.deadline?day(o.deadline):missing)+
-   (o.applicationTerm?meta('Regla de presentación',o.applicationTerm):'')+
-   meta('Forma de acceso',o.access||missing)+meta('Titulación requerida',o.qualification||missing)+
+   (o.vacancies?meta('Plazas',o.vacancies):'')+
+   (o.group&&o.group!=='REVISAR'?meta('Grupo',o.group):'')+
+   (o.deadline?meta('Plazo de solicitudes',day(o.deadline)):'')+
+   (o.applicationTerm?meta('Regla publicada',o.applicationTerm):'')+
+   (o.access?meta('Forma de acceso',o.access):'')+
+   (o.qualification?meta('Titulación requerida',o.qualification):'')+
    meta('Detectado por Radar',day(o.firstSeen))+
-  '</div>'+
+  '</div>'+ 
+  '<p class="radar-note">'+esc([!o.deadline?'Plazo sin confirmar':null,!o.qualification?'Titulación sin verificar':null,o.group==='REVISAR'?'Grupo sin verificar':null].filter(Boolean).join(' · ')||'Datos esenciales encontrados; comprobar requisitos y rectificaciones en la fuente oficial.')+'</p>'+
   '<p class="radar-note">'+esc(confirmation)+'</p>'+
   '<div class="radar-actions">'+official+'</div>'+
-  '<div class="radar-source">Origen: '+esc(o.source||'Por identificar')+
+  '<div class="radar-source">Origen: '+esc(o.source||'Por identificar')+' · '+esc(originBadge)+
   (o.detailsStatus==='LEIDO'?' · Documento oficial leído automáticamente; comprueba el texto original.':' · Datos extraídos del título; las bases pueden contener requisitos adicionales.')+'</div>'+
   '</article>';
 }
@@ -91,13 +95,13 @@ function render(){
  const cards=list.length?list.slice(0,shown).map(card).join(''):'<div class="panel radar-empty">No hay fichas que cumplan los filtros. Prueba «Todos los puestos detectados» o cambia la zona.</div>';
  app.innerHTML=[
  '<section class="panel radar-hero"><div><p class="eyebrow">Detección automatizada · no equivale a solicitud abierta</p><h2>Radar de empleo público</h2>',
- '<p>Primero se muestran <strong>puestos identificables</strong> con enlace oficial. Los datos no comprobados figuran como <strong>sin verificar</strong>. Las actas, listas y resultados se separan de nuevas oportunidades.</p>',
+ '<p>Primero se muestran <strong>puestos concretos con enlace oficial</strong>. Las fichas sin puesto identificado se guardan en «Sin puesto identificable» y no provocan correos inútiles. Se muestran únicamente los requisitos y plazos que la extracción ha encontrado; el resto queda indicado como pendiente.</p>',
  stale?'<p class="notice warning">La última actualización tiene más de 3 días. Revisa los plazos en la fuente oficial.</p>':'',
  '</div><div class="radar-stats">',
  '<div class="radar-stat"><strong>'+recent.length+'</strong><span>puestos detectados en 30 días</span></div>',
  '<div class="radar-stat"><strong>'+confirmed.length+'</strong><span>plazos con fecha publicada</span></div>',
  '<div class="radar-stat"><strong>'+actionable.length+'</strong><span>fichas con puesto identificado</span></div>',
- '<div class="radar-stat"><strong>'+discarded.length+'</strong><span>anuncios de seguimiento separados</span></div></div>',
+ '<div class="radar-stat"><strong>'+all.filter(x=>!x.actionable&&!x.phaseFollowup).length+'</strong><span>anuncios incompletos por investigar (no enviados por email)</span></div></div>',
  '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
  '<section class="panel"><div class="radar-controls">',
  '<label><span>Buscar puesto, localidad u organismo</span><input id="rq" type="search" value="'+esc(filters.q)+'" placeholder="Auxiliar, administrativo, Getafe, Toledo…"></label>',
