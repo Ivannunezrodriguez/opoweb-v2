@@ -1,3 +1,5 @@
+> **NORMA DE DISEÑO CON EJEMPLOS Y ESTADO HISTÓRICO (22/07/2026).** Desde octubre existe también **Diputación Toledo Auxiliar C2**, por lo que OpoWeb trabaja con **cuatro** programas activos. Las afirmaciones «pendiente de crear» del último apartado describen la situación **de julio**; para el inventario actual, consultar [AUDITORIA_CONTINUA.md](../AUDITORIA_CONTINUA.md). Los estándares generales de estructura de este documento siguen siendo aplicables cuando no contradigan [PROJECT_RULES.md](../PROJECT_RULES.md).
+
 # Formato simétrico de convocatorias
 
 Este documento fija el formato base común para las tres convocatorias prioritarias de OpoWeb:
