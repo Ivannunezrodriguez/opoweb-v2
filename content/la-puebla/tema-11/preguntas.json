@@ -1,7 +1,7 @@
 {
   "tema": 11,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-07-25",
+  "version": "2026-11-02",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -83,7 +83,7 @@
     },
     {
       "id": "LP-T11-006",
-      "enunciado": "Una solicitud de aplazamiento presentada correctamente durante el período voluntario produce, mientras se tramita:",
+      "enunciado": "Una primera solicitud de aplazamiento presentada correctamente en período voluntario, sin denegación anterior ni nuevo plazo de ingreso vencido para la misma deuda, produce mientras se tramita:",
       "opciones": [
         "La condonación provisional de la deuda",
         "La suspensión definitiva de intereses",
@@ -91,9 +91,9 @@
         "La concesión automática del calendario solicitado"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La solicitud formulada en voluntaria impide que comience el período ejecutivo mientras se resuelve, aunque la deuda subsiste y pueden devengarse intereses.",
-      "trampaExamen": "Presentar la solicitud no equivale a obtener la concesión ni elimina la deuda.",
-      "referencia": "bloque-02-aplazamiento-compensacion.md · solicitud en período voluntario"
+      "justificacion": "El artículo 161.2 de la LGT establece que la solicitud presentada durante el período voluntario impide, en general, el inicio del período ejecutivo. Hay una excepción para peticiones sucesivas sobre la misma deuda tras una denegación anterior y el vencimiento sin pago del nuevo plazo.",
+      "trampaExamen": "El efecto protector de una solicitud en voluntaria no es absoluto: comprobar la excepción del segundo párrafo del artículo 161.2 LGT.",
+      "referencia": "bloque-02-aplazamiento-compensacion.md · Ley 58/2003, artículo 161.2"
     },
     {
       "id": "LP-T11-007",
@@ -179,5 +179,13 @@
       "trampaExamen": "No confundir el plazo para resolver la devolución con el plazo para ejercitar derechos sujetos a prescripción.",
       "referencia": "manual.md · cifras esenciales; bloque-03b-devoluciones-procedimiento.md"
     }
-  ]
+  ],
+  "revisionFocalizada": {
+    "fecha": "2026-11-02",
+    "preguntas": [
+      "LP-T11-006"
+    ],
+    "articulo": "161.2 LGT",
+    "alcance": "Se limita expresamente el supuesto a la regla general y se explica la excepción por solicitudes sucesivas."
+  }
 }
