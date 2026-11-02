@@ -12,6 +12,7 @@
 | Texto oficial | Materia | Fecha de control |
 |---|---|---|
 | [Real Decreto Legislativo 2/2004 — TRLRHL (BOE-A-2004-4214)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) | **Arts. 15–19, 56–64, 78–83, 92–94, 104–106** del programa. Versión consolidada con **última actualización publicada 07/10/2026** | **02/11/2026**: comprobación focalizada de novedades del IBI y el IIVTNU |
+| [RDL 26/2026, BOE-A-2026-20266](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20266) y [Resolución de 02/10/2026, BOE-A-2026-20526](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20526) | El **RDL 26/2026** abordaba los **arts. 72 y 107.4**, pero la **Resolución de 02/10** dejó **sin efecto** las modificaciones. No utilizar como texto vigente sus tablas. | Control adicional **02/11/2026**; versión sustituida por regulación del **RDL 29/2026** |
 | [Real Decreto-ley 29/2026, de 06/10 (BOE-A-2026-20823)](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823) | Artículo **8**: cambio del art. **72** (IBI), y art. **10**: coeficientes art. **107.4** (IIVTNU) | Publicación **07/10/2026**, entrada en vigor general **08/10/2026**; efectos específicos por artículo |
 | [BOE-A-2026-11030](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-11030) | Extracto de convocatoria de las 4 plazas, remisión al BOP | **22/05/2026** |
 
