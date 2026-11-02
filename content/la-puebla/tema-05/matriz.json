@@ -14,7 +14,8 @@
     {
       "titulo": "Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local",
       "referencia": "BOE-A-1985-5392",
-      "textoConsolidadoConsultado": "Última actualización publicada el 03/06/2026"
+      "textoConsolidadoConsultado": "Última actualización publicada el 03/06/2026",
+      "controlVigenciaPosterior": "02/11/2026: Ley 4/2026, disposición final 3, modificación LRBRL arts. 25.2.q y 69.1 publicada 03/10/2026, en vigor 23/10/2026; también se incorpora el art. 25.2.p añadido por RDL 7/2026 (marzo)."
     },
     {
       "titulo": "Real Decreto 2568/1986, de 28 de noviembre, Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales",
@@ -120,5 +121,32 @@
     "elecciones a cabildos, consejos insulares, Parlamento Europeo y entidades locales menores salvo mención contextual",
     "legislación autonómica de régimen local no exigida literalmente por el epígrafe"
   ],
-  "criterioDeCierre": "Aprobado expresamente por el usuario el 17 de julio de 2026 mediante la respuesta Tema 5 aprobado."
+  "criterioDeCierre": "Aprobado expresamente por el usuario el 17 de julio de 2026 mediante la respuesta Tema 5 aprobado.",
+  "controlVigencia20261102": {
+    "tipo": "PARCIAL_POR_REFORMA_POSTERIOR_A_APROBACION_HISTORICA",
+    "publicacion": "2026-10-03",
+    "vigencia": "2026-10-23",
+    "preceptos": [
+      "LRBRL 25.2.p (vigencia marzo 2026)",
+      "LRBRL 25.2.q (vigencia 23/10/2026)",
+      "LRBRL 69.1 (vigencia 23/10/2026)"
+    ],
+    "epigrafes": [
+      "competencias municipales",
+      "organización y funcionamiento: participación e información local"
+    ],
+    "sustento": [
+      {
+        "norma": "BOE-A-1985-5392",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      },
+      {
+        "norma": "BOE-A-2026-20528",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528"
+      }
+    ],
+    "ajustesManual": "Añadidos p y q, y nueva redacción sobre información local accesible del artículo 69.1",
+    "preguntas": "Banco existente de 12 preguntas preservado; no se han sustituido sus preguntas y aún falta auditoría individual de cada distractor",
+    "certificadoIntegral": false
+  }
 }
