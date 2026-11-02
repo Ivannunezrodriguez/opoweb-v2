@@ -1,0 +1,60 @@
+# UC3M · Escala Auxiliar Administrativa C2 · Guía de examen 2026
+
+**Fecha de verificación de las bases:** **2 de noviembre de 2026**.  
+**Fuente primaria:** [Resolución de **30 de junio de 2026**, BOE de **6 de julio de 2026**, núm. 163, referencia BOE-A-2026-14624](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624), **base primera** y **anexos II y III**.  
+**Organismo convocante:** **Universidad Carlos III de Madrid (UC3M)**. **34 plazas** (de ellas **2** reservadas a discapacidad).  
+**Llamamiento de ejercicio único:** **sábado 21 de noviembre de 2026**, según [portal oficial del proceso](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026). El **horario, campus, edificio y aula** se comprobarán en el documento de llamamiento vigente; no derivar estos datos de otros procesos.
+
+## 1. Qué exige la fase de oposición
+
+| Concepto | Base oficial |
+|---|---|
+| Tipo | **Único ejercicio tipo test obligatorio y eliminatorio** |
+| Temas | **20**, desglosados en el **anexo I** |
+| Preguntas puntuables | **70** |
+| Reserva | **5 preguntas adicionales** para sustituir las anuladas |
+| Alternativas | **4**, una correcta |
+| Duración máxima | **60 minutos** |
+| Acierto | **+1 punto directo** |
+| Error | **−1/3 de punto directo** |
+| Blanco o más de una respuesta | **0 puntos** |
+| Puntuación directa | **A − E/3**, donde **A** son aciertos y **E** errores |
+| Fase de oposición | Máximo **70 puntos transformados**, eliminatoria con mínimo **35 puntos transformados** |
+| Fase de concurso | Hasta **30 puntos**, solo para quienes superen la oposición |
+
+**El Tribunal Calificador determina la puntuación directa mínima (`M`) para alcanzar la calificación transformada de 35 puntos** tras evaluar la dificultad del ejercicio y el nivel de conocimientos. La transformación se rige por el **anexo III**.
+
+**Por ello, 35 puntos directos NO equivalen necesariamente a 35 puntos transformados**, ni el simulador puede asegurar el aprobado con un mínimo directo de 35. Solo muestra la **puntuación directa** calculable antes del corte.
+
+> ⚠️ **¡Foco Examen!:** No confundas los **35 puntos transformados** necesarios para superar la fase con **35 aciertos** o **35 puntos directos**. El corte directo depende del **Tribunal Calificador**.
+
+## 2. Fecha de referencia para la legislación
+
+La **base primera.7** fija una regla específica: la legislación aplicable y exigible es la vigente **en la fecha de publicación de la resolución que apruebe las listas definitivas de admitidos y excluidos y anuncie la celebración del ejercicio**; las normas derogadas se sustituyen por las que rijan en esa fecha.
+
+No tomar automáticamente como corte normativo el **21/11/2026**, ni tampoco el **06/07/2026** de la convocatoria. Para comprobar artículos reformados entre ambas fechas hay que identificar el día exacto de la publicación oficial de dicha resolución y sus eventuales correcciones.
+
+> ⚠️ **¡Foco Examen!:** La fecha del examen **no** es, por sí sola, la fecha de actualización de la normativa exigible en esta oposición.
+
+## 3. Simulacros de OpoWeb
+
+La web incluye ahora **tres modelos de entrenamiento de 70 preguntas titulares y 5 de reserva**, con **60 minutos** y **225 identificadores diferentes**, seleccionados de los bancos ya existentes de los **20 temas**.
+
+- **Puntuación:** muestra `aciertos − errores/3`, con **0** para respuestas en blanco. Las **5 reservas** se corrigen separadamente.
+- **Aprobado:** el simulador **no** atribuye `APTO` ni calcula una puntuación transformada sin `M` oficial.
+- **Naturaleza de las preguntas:** son preguntas de entrenamiento preparadas para OpoWeb; **no** proceden de un examen oficial real. La existencia técnica y unicidad no certifican por sí solas la corrección jurídica de todas las respuestas.
+
+> ⚠️ **¡Foco Examen!:** Una puntuación directa alta es una señal útil de preparación, pero no constituye calificación oficial. Estudia las explicaciones y fuentes, no solo la letra de la respuesta.
+
+## 4. Pendiente de verificación y seguimiento
+
+- [x] Tipo de prueba, duración, preguntas, penalización y regla de calificación contrastados con **BOE-A-2026-14624**.
+- [x] **3 modelos** de práctica y **225 IDs** diferentes comprobados contra los bancos del repositorio.
+- [x] Pruebas ejecutables de puntuación directa y separación de reservas añadidas.
+- [ ] **Nota de corte directa**: no conocida hasta decisión del **Tribunal Calificador**.
+- [ ] Comprobación personalizada de admisión definitiva; la inscripción por sí sola no la acredita.
+- [ ] Confirmar horario exacto, sede y aula contra el texto actual de llamamiento.
+- [ ] Auditoría jurídica integral de los **250 ítems** existentes.
+- [ ] Prueba de la versión desplegada de la web en navegador real y confirmación verde de GitHub Actions en el último commit.
+
+**Registro editorial único de avances y pendientes:** [AUDITORIA_CONTINUA.md](../../AUDITORIA_CONTINUA.md).
