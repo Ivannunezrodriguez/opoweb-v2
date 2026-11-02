@@ -1,7 +1,8 @@
 # La Puebla de Montalbán · Tema 10
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Revisión editorial histórica:** **30 de julio de 2026**.  
+**Control jurídico focalizado del art. 27 LGT:** **2 de noviembre de 2026** (no implica recertificación integral).
 
 ## Tema 10 · Principios de tributación local y gestión tributaria
 
