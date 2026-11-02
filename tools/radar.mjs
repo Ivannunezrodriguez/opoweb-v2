@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import {execFile} from 'node:child_process';
 import {promisify} from 'node:util';
 import {boeEntries,bocmEntries,bopEntries,docmEntries,boeVacancyEntries,pagEntries,merge} from './radar-core.mjs';
+import {enrichRadar} from './radar-enrich.mjs';
 
 const out='data/radar.json';
 const now=new Date();
@@ -87,6 +88,10 @@ const sourceNames=['DIRECT','BOE','BOCM','BOP Toledo','DOCM','PAG'];
 const sourceStatus=results.map((result,i)=>({source:sourceNames[i],ok:result.status==='fulfilled',checkedAt:now.toISOString()}));
 const entries=successes.flatMap(x=>x.value);
 if(!entries.length)throw new Error('Las fuentes respondieron sin anuncios; se conserva el radar anterior.');
-const opportunities=merge(previous,entries,date);
-await fs.writeFile(out,JSON.stringify({...previous,generatedAt:date,sourceStatus,directSourceStatus:directStatus,opportunities},null,2)+'\n');
-console.log(`Radar: ${entries.length} anuncios consultados; ${opportunities.length} candidatos; ${opportunities.filter(x=>x.isNew).length} nuevos`);
+const merged=merge(previous,entries,date);
+const enriched=await enrichRadar(merged,date,{limit:35});
+const opportunities=enriched.opportunities;
+await fs.writeFile(out,JSON.stringify({...previous,generatedAt:date,sourceStatus,directSourceStatus:directStatus,enrichmentStatus:enriched.summary,opportunities},null,2)+'\n');
+console.log('Radar: '+entries.length+' anuncios consultados; '+opportunities.length+
+  ' candidatos; '+opportunities.filter(x=>x.isNew).length+' nuevos. Lecturas de bases: '+
+  enriched.summary.read+'/'+enriched.summary.attempted+'.');
