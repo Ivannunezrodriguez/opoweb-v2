@@ -38,7 +38,10 @@ for (const theme of programme.temas) {
   assert.equal(h1.length, 1, `El tema ${number} debe tener un único H1 y tiene ${h1.length}`);
   assert.equal(h1[0], `# La Puebla de Montalbán · Tema ${number}`, `H1 no normalizado en tema ${number}`);
   assert.ok(manual.includes('**Estado editorial:** PUBLICADO'), `Estado editorial visible incorrecto en tema ${number}`);
-  assert.ok(manual.includes('**Fecha de revisión normativa:**'), `Falta fecha de revisión normativa en tema ${number}`);
+  // Una revisión puntual de vigencia no debe borrar la fecha original de aprobación.
+  // Aceptar encabezados históricos y modernos, siempre con fecha explícita.
+  const fechaEditorial = manual.match(/\*\*(?:Fecha de revisión normativa|Revisión editorial histórica|Cierre editorial original):\*\*\s*(?:\*\*)?(?:\d{1,2} de [a-záéíóú]+ de \d{4}|\d{1,2}\/\d{1,2}\/\d{4})/i);
+  assert.ok(fechaEditorial, `Falta fecha editorial reconocible en tema ${number}`);
 
   for (const pattern of legacyPatterns) {
     assert.ok(!pattern.test(manual), `Metadato histórico detectado en tema ${number}: ${pattern}`);
