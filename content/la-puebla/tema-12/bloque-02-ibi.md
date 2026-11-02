@@ -65,14 +65,23 @@ siempre que sean de aprovechamiento público y gratuito.
 
 ### Determinados inmuebles municipales
 
-No están sujetos los inmuebles propiedad del municipio en el que se encuentran cuando sean:
+El **artículo 61.5.b del TRLRHL** declara **no sujetos** los siguientes inmuebles cuando **pertenecen al propio municipio en el que se encuentran**:
 
-- de dominio público afectos a uso público;
-- de dominio público afectos a un servicio público gestionado directamente por el Ayuntamiento, salvo cesión onerosa a terceros;
-- bienes patrimoniales cuando también estén cedidos gratuitamente a otra Administración para un servicio público;
-- bienes comunales.
+- **Bienes de dominio público afectos a un uso público**.
+- **Bienes de dominio público afectos a un servicio público gestionado directamente por el Ayuntamiento**, excepto los **cedidos a terceros mediante contraprestación**.
+- **Bienes patrimoniales del municipio**, exceptuados igualmente los **cedidos a terceros mediante contraprestación**.
 
-La no sujeción significa que no nace el impuesto. No debe confundirse con las exenciones del artículo 62.
+**No se exige** para estos bienes patrimoniales que estén «cedidos gratuitamente a otra Administración para un servicio público»: era una restricción incorrecta y no aparece en el **artículo 61.5.b**.
+
+| Categoría | Régimen que debe comprobarse | Precepto |
+|---|---|---|
+| Bien patrimonial del propio municipio, **no cedido onerosamente** | **No sujeción** en los términos del artículo | **61.5.b** |
+| Bien patrimonial municipal **cedido a terceros mediante contraprestación** | **No aplicar sin más esa no sujeción**; examinar el hecho imponible | **61.5.b** |
+| **Bienes comunales y montes vecinales en mano común** | **Exención** expresamente recogida en la ley; no atribuirles una no sujeción autónoma inexistente en el listado literal de este apartado | **62.1.b** |
+
+> ⚠️ **¡Foco Examen!:** **No sujeción** del **art. 61.5.b** y **exención** del **art. 62.1.b** son categorías jurídicas distintas. No inventes una obligación de **cesión gratuita a otra Administración** para los bienes patrimoniales municipales.
+
+La no sujeción significa que no se realiza el hecho imponible conforme a esta previsión; la exención presupone un hecho imponible sujeto del que la ley dispensa el pago.
 
 ## 6. Artículo 62 · exenciones como complemento
 
