@@ -153,7 +153,7 @@
     },
     {
       "id": "LP-T02-011",
-      "enunciado": "Una notificación se practica el 31 de enero y concede un plazo de un mes. Si febrero no tiene día 31, el plazo vence:",
+      "enunciado": "Una notificación se practica el 31 de enero y concede un plazo de un mes. Si febrero no tiene día 31 y su último día es hábil, ¿cuándo vence el plazo?",
       "opciones": [
         "El 1 de marzo",
         "El último día de febrero",
@@ -161,9 +161,9 @@
         "El primer lunes de marzo en todo caso"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Los plazos por meses vencen en el mismo ordinal del mes correspondiente; si no existe día equivalente, vencen el último día del mes.",
-      "trampaExamen": "Los plazos expresados en meses no se convierten automáticamente en treinta días.",
-      "referencia": "manual.md · apartado 32.3 · Artículo 30"
+      "justificacion": "El artículo 30.4 de la Ley 39/2015 establece que, sin día equivalente en el mes de vencimiento, el plazo expira el último día de ese mes. Si fuera inhábil, el artículo 30.5 prorroga el plazo hasta el primer día hábil siguiente. El enunciado precisa que ese último día es hábil.",
+      "trampaExamen": "No memorizar «último día de febrero» sin considerar que, si es inhábil, el vencimiento pasa al primer día hábil siguiente (arts. 30.4 y 30.5).",
+      "referencia": "manual.md · apartado 32.3 · Artículo 30 · Ley 39/2015, art. 30.4 y 30.5"
     },
     {
       "id": "LP-T02-012",
