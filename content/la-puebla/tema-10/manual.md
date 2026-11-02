@@ -411,8 +411,8 @@ La regla general de **declaraciones o autoliquidaciones extemporáneas sin reque
 | Momento de presentación respecto al vencimiento | Recargo ordinario | Intereses de demora por la presentación extemporánea |
 |---|---|---|
 | Con **menos de un mes completo** de retraso | **1 %** | No, según el **art. 27.2** |
-| Con **n meses completos**, sin haber superado **12 meses** | **1 % + 1 % por cada mes completo** | No, según el **art. 27.2** |
-| Una vez **transcurridos más de 12 meses** | **15 %** | Sí, únicamente desde el día siguiente al cumplimiento de los **12 meses** hasta presentar |
+| Con **n meses completos**, antes de cumplirse **12 meses** | **1 % + 1 % por cada mes completo** | No, según el **art. 27.2** |
+| Una vez **transcurridos 12 meses** | **15 %** | Sí, únicamente desde el día siguiente al cumplimiento de los **12 meses** hasta presentar |
 
 **Tres salvedades importantes:**
 
