@@ -130,5 +130,22 @@
       ],
       "nota": "No se suman ni se presentan como vigentes simultáneamente ambas reformas; no afecta al núcleo de hecho imponible/sujetos pasivos del epígrafe."
     }
+  },
+  "controlSustantivo20261102": {
+    "fecha": "2026-11-02",
+    "norma": "Real Decreto Legislativo 2/2004, artículos 61.5, 62.1.b y 82.1.c",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+    "comprobaciones": [
+      "IBI: no sujeción de ciertos bienes patrimoniales municipales sin requisito de cesión gratuita a otra Administración; excepción por cesión onerosa a terceros",
+      "IBI: diferenciar exención expresa de bienes comunales y montes vecinales en mano común, art. 62.1.b",
+      "IAE: exención requiere INCN estrictamente inferior a 1.000.000 €",
+      "IAE: grupo de control computa INCN conjunto del grupo"
+    ],
+    "preguntas": [
+      "LP-T12-003",
+      "LP-T12-006"
+    ],
+    "correccionTransversal": "content/diputacion-toledo-auxiliar-c2/tema-13/manual.md",
+    "estado": "REVISION_JURIDICA_PARCIAL; no certificar la totalidad de artículos"
   }
 }
