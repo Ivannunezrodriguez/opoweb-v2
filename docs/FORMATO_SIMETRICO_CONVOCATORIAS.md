@@ -2,9 +2,10 @@
 
 # Formato simétrico de convocatorias
 
-Este documento fija el formato base común para las tres convocatorias prioritarias de OpoWeb:
+Este documento fija el formato base común para las cuatro convocatorias editoriales activas de OpoWeb:
 
 - La Puebla de Montalbán · Auxiliar Administrativo C2.
+- Diputación Provincial de Toledo · Auxiliar Administrativo C2 (octubre de 2026).
 - Diputación Provincial de Toledo · Administrativo C1.
 - Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2.
 
@@ -58,7 +59,7 @@ Banco de preguntas tipo test con respuesta correcta, explicación y referencia n
 
 La simetría significa igualdad de estructura y experiencia de uso, no igualdad artificial del contenido. Cada convocatoria mantiene su programa oficial, pero la aplicación carga los mismos tipos de recursos y utiliza los mismos estados editoriales.
 
-## Situación a 22 de julio de 2026
+## Registro histórico de situación a 22 de julio de 2026 (no vigente)
 
 - La Puebla ya utiliza manual, matriz y preguntas en sus temas, con recursos adicionales en varios de ellos.
 - Diputación declara manual, fuentes, matriz y preguntas en su programa.
