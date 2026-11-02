@@ -85,7 +85,7 @@ export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=doc
   x.state!=='CERRADA' && x.state!=='NO_ACCESIBLE' && !x.phaseFollowup &&
   (!x.detailsCheckedAt || (x.detailsStatus!=='LEIDO' && Date.parse(date)-Date.parse(x.detailsCheckedAt)>=7*86400000)) && safeOfficial(x.officialUrl) &&
   Number.isFinite(Date.parse(x.firstSeen)) && Date.parse(date)-Date.parse(x.firstSeen)<=30*86400000)
-  .sort((a,b)=>Number(b.x.isNew)-Number(a.x.isNew)||Number(!b.x.position)-Number(!a.x.position)||String(b.x.firstSeen).localeCompare(String(a.x.firstSeen)))
+  .sort((a,b)=>Number(b.x.isNew)-Number(a.x.isNew)||Number(!a.x.position)-Number(!b.x.position)||String(b.x.firstSeen).localeCompare(String(a.x.firstSeen)))
   .slice(0,limit);
  let read=0,withDetails=0,failures=0;
  const groups=[];for(let i=0;i<candidates.length;i+=5)groups.push(candidates.slice(i,i+5));
