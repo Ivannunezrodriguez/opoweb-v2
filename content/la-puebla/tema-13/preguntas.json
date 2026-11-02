@@ -1,7 +1,7 @@
 {
   "tema": 13,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-07-26",
+  "version": "2026-11-02",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -119,9 +119,9 @@
         "Solo cambia el soporte físico"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La revocación extingue la vigencia del certificado. La suspensión, en cambio, es temporal.",
-      "trampaExamen": "Suspensión y revocación no son sinónimos: una es temporal y la otra extingue la vigencia.",
-      "referencia": "manual.md · apartado 7"
+      "justificacion": "El artículo 4.1 de la Ley 6/2020 distingue caducidad y revocación como causas de extinción. El artículo 24.3 del Reglamento eIDAS exige publicar sin demora la revocación del certificado cualificado y, en todo caso, dentro de 24 horas desde la recepción de la solicitud; la revocación es eficaz inmediatamente desde su publicación.",
+      "trampaExamen": "Revocación extingue la vigencia y suspensión es temporal. No confundir las 24 horas para publicar la revocación con los 24 meses de auditoría.",
+      "referencia": "manual.md · apartados 8 y 11 · Ley 6/2020, artículo 4; Reglamento eIDAS, artículo 24.3"
     },
     {
       "id": "LP-T13-009",
@@ -175,9 +175,18 @@
         "Cada 5 años"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La auditoría ordinaria del prestador cualificado debe realizarse al menos cada veinticuatro meses.",
-      "trampaExamen": "No confundir el plazo de auditoría de 24 meses con la vigencia máxima de 5 años del certificado.",
-      "referencia": "manual.md · apartado 11"
+      "justificacion": "El artículo 20.1 del Reglamento (UE) 910/2014 eIDAS, en su versión consolidada tras la reforma de 2024, exige a los prestadores cualificados una auditoría a su costa al menos cada 24 meses por un organismo de evaluación de la conformidad. Su artículo 20.1 bis requiere anunciar auditorías planificadas al menos un mes antes.",
+      "trampaExamen": "24 meses: auditoría ordinaria; un mes: aviso previo de auditoría; tres días laborables: remisión del informe tras recibirlo (eIDAS, art. 20). No confundir estas cifras con el plazo de 24 horas de publicación de una revocación.",
+      "referencia": "manual.md · apartado 11 · Reglamento (UE) 910/2014 eIDAS, artículo 20.1 y 20.1 bis"
     }
-  ]
+  ],
+  "revisionFocalizada": {
+    "fecha": "2026-11-02",
+    "preguntas": [
+      "LP-T13-008",
+      "LP-T13-012"
+    ],
+    "norma": "Ley 6/2020 art. 4 y eIDAS 910/2014 arts. 20 y 24.3",
+    "alcance": "Refuerzo de referencias y justificaciones temporales; claves conservadas, no revisión integral."
+  }
 }
