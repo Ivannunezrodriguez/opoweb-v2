@@ -226,7 +226,7 @@ function updateHeader() {
   const subtitle = document.querySelector('.site-header .subtitle');
   const practice = document.querySelector('.site-header a[href="practice.html"]');
   if (title) title.textContent = activeCall.label;
-  if (subtitle) subtitle.textContent = 'Fuente editorial única · programa oficial, legislación vigente y trazabilidad.';
+  if (subtitle) subtitle.textContent = 'Temarios en revisión jurídica continua. Consulta las fuentes y las fechas de control.';
   document.title = `OpoWeb v2 · ${activeCall.shortLabel}`;
   if (practice) practice.hidden = !activeCall.practiceUrl;
 }
@@ -290,6 +290,65 @@ function renderTracking() {
   return `<section class="panel tracking-panel" data-tracking-call="${escapeHtml(activeCall.id)}"><div class="section-heading"><div><p class="eyebrow section-eyebrow">Seguimiento personal</p><h2>Plazos y estado de la OPE</h2></div><span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Solicitud registrada' : 'Inscripción no confirmada'}</span></div><div class="personal-status"><div><span>Estado</span><strong>${escapeHtml(humanizeApplicationStatus(personal.estado))}</strong></div><div><span>Convocatoria</span><strong>${escapeHtml(convocatoria)}</strong></div>${siguienteHito}</div><p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad || 'Los datos personales no se publican en el repositorio.')}</p></section>`;
 }
 
+// OpoRadar comparte el mismo GitHub Pages; su resumen se carga sin bloquear el temario.
+let radarPreviewPromise = null;
+let radarPreviewHtml = null;
+
+function renderStudyAndWorkHub() {
+  return `<section class="panel portal-panel" aria-labelledby="portal-title">
+    <div class="section-heading"><div><p class="eyebrow section-eyebrow">Herramientas de OpoWeb</p><h2 id="portal-title">Estudia y busca empleo público</h2>
+    <p>Accede a los temarios, prepara los exámenes y consulta las oportunidades que detecta OpoRadar.</p></div></div>
+    <div class="portal-grid">
+      <div class="portal-card portal-card-radar">
+        <h3>🔎 OpoRadar · Empleo público</h3>
+        <p>Ofertas de empleo, bolsas y sustituciones de Toledo y del sur de Madrid. Los datos incompletos se identifican como pendientes, nunca como plazos confirmados.</p>
+        <div id="radar-preview" class="portal-preview" aria-live="polite">Consultando el último registro del Radar…</div>
+        <a class="btn" href="radar.html">Abrir OpoRadar</a>
+      </div>
+      <div class="portal-card">
+        <h3>📝 Tests y simulacros</h3>
+        <p>Entrena por convocatoria, realiza exámenes de práctica y consulta tus resultados guardados en este dispositivo.</p>
+        <a class="btn secondary" href="practice.html">Ir a los simulacros</a>
+      </div>
+    </div>
+  </section>`;
+}
+
+function hydrateRadarPreview() {
+  const slot = document.querySelector('#radar-preview');
+  if (!slot) return;
+  if (radarPreviewHtml !== null) {
+    slot.innerHTML = radarPreviewHtml;
+    return;
+  }
+  if (!radarPreviewPromise) {
+    radarPreviewPromise = fetchWithTimeout('data/radar.json', { cache: 'no-cache' }, 7500)
+      .then(response => {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.json();
+      })
+      .then(data => {
+        const all = Array.isArray(data.opportunities) ? data.opportunities : [];
+        const identified = all.filter(item =>
+          item.position && item.officialUrl && !item.phaseFollowup &&
+          item.state !== 'CERRADA' && item.state !== 'NO_ACCESIBLE'
+        );
+        const stamp = /^\\d{4}-\\d{2}-\\d{2}/.test(String(data.generatedAt || ''))
+          ? String(data.generatedAt).slice(8, 10) + '/' +
+            String(data.generatedAt).slice(5, 7) + '/' + String(data.generatedAt).slice(0, 4)
+          : 'no confirmada';
+        return '<p><strong>Última recopilación:</strong> ' + escapeHtml(stamp) + '. <strong>' +
+          identified.length + '</strong> registros con puesto identificado (no significa que el plazo esté abierto).</p>';
+      })
+      .catch(() => '<p>No se puede consultar ahora el resumen. Puedes abrir OpoRadar y comprobar allí las fuentes.</p>')
+      .then(html => { radarPreviewHtml = html; return html; });
+  }
+  radarPreviewPromise.then(html => {
+    const target = document.querySelector('#radar-preview');
+    if (target) target.innerHTML = html;
+  });
+}
+
 function renderProgramme(query = activeSearchQuery) {
   activeSearchQuery = query;
   const themes = activeProgramme.temas;
@@ -301,7 +360,9 @@ function renderProgramme(query = activeSearchQuery) {
     ? themes.filter(theme => normalise(theme.titulo).includes(term) || searchIndex.get(theme.numero)?.includes(term))
     : themes;
 
-  app.innerHTML = `<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>Programa oficial de <strong>${themes.length} temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>temas oficiales</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${underReview}</strong><span>en revisión editorial</span></div><div class="summary-card"><strong>${missing}</strong><span>sin contenido</span></div></div></section>${renderTracking()}<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca por el título del tema. El manual se carga solo al abrirlo.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
+  app.innerHTML = `${renderStudyAndWorkHub()}<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>Programa oficial de <strong>${themes.length} temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>temas oficiales</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${underReview}</strong><span>en revisión editorial</span></div><div class="summary-card"><strong>${missing}</strong><span>sin contenido</span></div></div></section>${renderTracking()}<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca por el título del tema. El manual se carga solo al abrirlo.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
+
+  hydrateRadarPreview();
 
   document.querySelector('#call-selector')?.addEventListener('change', event => {
     activeSearchQuery = '';
