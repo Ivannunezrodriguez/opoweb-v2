@@ -165,7 +165,7 @@ Los últimos servicios proceden del marco eIDAS actualizado. Se estudian como am
 | Vigencia máxima de certificado cualificado en España | **5 años** | **Ley 6/2020, art. 4.2** |
 | Conservación de información por prestador cualificado | **15 años** desde extinción del certificado o finalización del servicio | **Ley 6/2020, art. 9.3.a** |
 | Auditoría ordinaria de prestadores cualificados | **Al menos cada 24 meses**, a su costa | **Reglamento eIDAS, art. 20.1** |
-| Preaviso de auditoría planificada a la autoridad supervisora | **Como máximo un mes antes de la auditoría** (notificación con **al menos un mes de antelación**) | **eIDAS, art. 20.1 bis** |
+| Preaviso de auditoría planificada a la autoridad supervisora | **Con al menos un mes de antelación** a la auditoría planificada | **eIDAS, art. 20.1 bis** |
 | Remisión del informe de evaluación tras recibirlo | Dentro de **3 días laborables** | **eIDAS, art. 20.1** |
 | Publicación del estado de revocación de un certificado cualificado | Sin demora y, en todo caso, dentro de las **24 horas** siguientes a recibir la solicitud; la revocación tiene efecto **inmediato desde su publicación** | **eIDAS, art. 24.3** |
 
