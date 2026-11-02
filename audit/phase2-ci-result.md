@@ -1,13 +1,13 @@
 # Resultado de la puerta de cierre · Fase 2
 
 - Estado: **VALIDACION_CI_SUPERADA**
-- Commit validado: `8fadb786fe753365bd8399ef5dd36ac8cd6a651a`
-- Fecha UTC: `2026-11-02T17:59:57Z`
+- Commit validado: `215dbc5d495be1f0153490cb0faa8503e62b1029`
+- Fecha UTC: `2026-11-02T18:00:18Z`
 
 ```text
 
 > opoweb-v2@0.20.6 test
-> node tests/validate.mjs && node tests/validate-la-puebla-editorial.mjs && node tests/validate-practice-exam.mjs
+> node tests/validate.mjs && node tests/validate-la-puebla-editorial.mjs && node tests/validate-practice-exam.mjs && node tests/validate-uc3m-exams.mjs
 
 {
   "editorialVersion": "0.19.0",
@@ -212,4 +212,5 @@
   "estado": "VALIDACION_EDITORIAL_AUTOMATIZADA_OK"
 }
 SIMULACROS_PUEBLA_50_MAS_5_NOTA_Y_BLANCOS_OK
+UC3M_3_SIMULACROS_70_5_225_IDS_Y_SCORE_DIRECTO_OK
 ```
