@@ -483,7 +483,7 @@ Antes de elevar el estado de un bloque: comprobar recursos reales, `npm test` (o
 
 **Fuente oficial:** https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186 (art. **27.2–5**). Además del esquema de **1 % + 1 % por mes completo** y **15 % una vez transcurridos 12 meses** (intereses posteriores), el artículo contiene **no exigencia de recargo por regularización de hechos idénticos en otros períodos si se cumplen todas las condiciones**, **posible concurrencia con recargos de ejecutiva si no se paga**, y **reducción condicionada del 25 % del importe del recargo**. El manual solo desarrollaba el esquema ordinario: se añadió tabla de plazos, condiciones, excepciones y bloque de foco de examen; se acotó expresamente **LP-T10-007** al caso general con respuesta **C** conservada.
 
-**Archivos/commits:** tema 10 **manual.md** `30e3125b` y precisión temporal `f1a9b98c`; **preguntas.json** `e9bdb190`; **fuentes.md** `1c160805`; **matriz.json** `a6852012`.
+**Archivos/commits:** tema 10 **manual.md** `30e3125b`, precisión temporal `f1a9b98c` y metadatos de revisión `d7ffef91`; **preguntas.json** `e9bdb190`; **fuentes.md** `1c160805`; **matriz.json** `a6852012`.
 
 ### 22.2 Tema 12: corrección de error efectivo en IBI, arts. 61.5.b y 62.1.b TRLRHL
 
