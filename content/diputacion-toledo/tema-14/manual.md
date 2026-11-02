@@ -224,3 +224,15 @@ PROVINCIA
 > ⚠️ **¡Foco Examen!:** Para **Toledo**, no confundir los **27 diputados provinciales** con el umbral de **31** que corresponde a provincias de más de **1.000.000 residentes**. La elección de la **Presidencia** exige mayorías diferentes en primera y segunda votación.
 
 **Fuentes cotejadas:** [LOREG consolidada, actualización 02/07/2026](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672), [Junta Electoral Central, art. 204 vigente](https://www.juntaelectoralcentral.es/cs/jec/loreg/versionesAnteriores?idContenido=2740513&idLeyJunta=1&idLeyModificacion=2740214&p=1379061761113&paux=1379061761113&template=Loreg%2FJEC_Contenido) y [LRBRL, actualización 03/10/2026](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392). El banco dispone de **20 preguntas**. Continúa pendiente auditoría integral y prueba funcional antes del cierre definitivo.
+
+
+## 9. Comprobación electoral complementaria (02/11/2026)
+
+| Votación para presidencia provincial | Mayoría exigida |
+|---|---|
+| Primera votación | **Absoluta** |
+| Segunda votación | **Simple** |
+
+> ⚠️ **¡Foco Examen!:** El **artículo 207.2 LOREG** distingue la mayoría **absoluta** inicial de la **simple** en segunda votación.
+
+El **artículo 36.1.b de la Ley 7/1985** garantiza los servicios de **secretaría e intervención** en municipios de menos de **1.000 habitantes**.
