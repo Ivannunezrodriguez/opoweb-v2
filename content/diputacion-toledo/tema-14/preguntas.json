@@ -228,31 +228,31 @@
     },
     {
       "id": "DIP-T14-017",
-      "pregunta": "¿Qué mínimo de diputados corresponde a cada partido judicial en el reparto?",
+      "pregunta": "¿Qué mayoría exige la segunda votación para elegir presidente de Diputación?",
       "opciones": [
-        "Ninguno",
-        "Uno",
-        "Dos",
-        "Tres"
+        "Absoluta",
+        "Simple",
+        "Tres quintos",
+        "Dos tercios"
       ],
       "correcta": 1,
-      "justificacion": "A cada partido judicial corresponde, en todo caso, **un diputado**.",
-      "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 204.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+      "justificacion": "LOREG 207.2: mayoría simple en segunda votación.",
+      "trampa": "Atención al dato legal exacto.",
+      "referencia": "LOREG art. 207"
     },
     {
       "id": "DIP-T14-018",
-      "pregunta": "¿Qué mayoría se exige para elegir al presidente de la Diputación en primera votación?",
+      "pregunta": "¿Quién preside la constitución de la Diputación antes de elegir presidente?",
       "opciones": [
-        "Mayoría simple",
-        "Tres quintos",
-        "Mayoría absoluta",
-        "Dos tercios"
+        "Presidente saliente",
+        "Delegado del Gobierno",
+        "Mesa de Edad",
+        "Alcalde de la capital"
       ],
       "correcta": 2,
-      "justificacion": "La **mayoría absoluta** se exige en primera votación; en segunda basta **mayoría simple**.",
-      "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 207 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+      "justificacion": "LOREG 207.1: Mesa de Edad.",
+      "trampa": "Atención al dato legal exacto.",
+      "referencia": "LOREG art. 207"
     },
     {
       "id": "DIP-T14-019",
@@ -270,17 +270,17 @@
     },
     {
       "id": "DIP-T14-020",
-      "pregunta": "¿A qué municipios presta especialmente la Diputación asistencia y cooperación jurídica, económica y técnica?",
+      "pregunta": "¿Qué servicios debe garantizar la Diputación en municipios de menos de 1.000 habitantes?",
       "opciones": [
-        "Exclusivamente a la capital",
-        "A los de menor capacidad económica y de gestión",
-        "Solo a los de más de 100.000 habitantes",
-        "Únicamente a los que tengan convenio con el Estado"
+        "Transporte urbano",
+        "Secretaría e intervención",
+        "Universidad",
+        "Metro"
       ],
       "correcta": 1,
-      "justificacion": "La asistencia y cooperación provincial se orienta especialmente a los **municipios de menor capacidad económica y de gestión**.",
-      "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LRBRL art. 36.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "justificacion": "LRBRL 36.1.b: secretaría e intervención.",
+      "trampa": "Atención al dato legal exacto.",
+      "referencia": "LRBRL art. 36.1.b"
     }
   ]
 }
