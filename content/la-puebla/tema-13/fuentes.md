@@ -18,4 +18,14 @@
 
 > ⚠️ **¡Foco Examen!:** La antigua **Ley 59/2003** de firma electrónica fue **derogada**; la regulación base actual comprende **eIDAS** y **Ley 6/2020**, que no deben confundirse.
 
-**Pendiente:** comprobar requisitos de cualificación, períodos de validez y servicios prestados conforme al marco europeo aplicable. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+## Verificación focalizada de plazos eIDAS (2 de noviembre de 2026)
+
+| Fuente oficial | Norma comprobada | Dato |
+|---|---|---|
+| [**Reglamento (UE) 910/2014 consolidado**](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18) | **Art. 20.1 y 20.1 bis**, según reforma de **2024** | Auditoría **al menos cada 24 meses**; preaviso **al menos un mes antes**; informe en **3 días laborables** tras recibirlo |
+| [**Reglamento eIDAS, art. 24.3**](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18) | Revocación de certificados cualificados | Estado publicado en **24 horas como máximo desde recepción de solicitud**; eficacia desde publicación |
+| [**Ley 6/2020, arts. 4.2 y 9.3.a**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046) | Vigencia y conservación | **5 años** de vigencia máxima; **15 años** de conservación |
+
+> ⚠️ **¡Foco Examen!:** **24 meses** de auditoría, **1 mes** de preaviso, **3 días laborables** para el informe y **24 horas** para la publicación de la revocación son obligaciones distintas. Se ha comprobado el origen de cada cifra, pero el tema no queda íntegramente recertificado.
+
+**Pendiente:** revisión integral de todos los distractores y de posibles cambios de ejecución técnica posteriores al marco eIDAS consolidado consultado. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
