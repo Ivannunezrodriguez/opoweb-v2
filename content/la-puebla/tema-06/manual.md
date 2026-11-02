@@ -1005,7 +1005,7 @@ Las Administraciones pueden adoptar medidas y convenios para facilitar esta movi
 
 | Concepto | Cifra |
 |---|---:|
-| Programa temporal de interino | Máximo 2 años |
+| Programa temporal de interino (art. 8.1.c Ley 4/2011) | Máximo **4 años** en Castilla-La Mancha (**3 años + posible ampliación autonómica de hasta 12 meses**, art. 10.1.c TREBEP) |
 | Acumulación de tareas | 6 meses en 12 |
 | Reserva discapacidad | Mínimo 7 % |
 | Discapacidad intelectual | Al menos 2 % de plazas ofertadas |
