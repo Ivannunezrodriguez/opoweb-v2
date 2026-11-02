@@ -29,7 +29,7 @@ BOP de Toledo número 82, de 5 de mayo de 2026, código de verificación `2026.0
 
 El programa literal está registrado en [`data/programa.json`](data/programa.json).
 
-## Arquitectura
+## Arquitectura inicial de La Puebla (esquema histórico, no inventario actual)
 
 ```text
 opoweb-v2/
@@ -76,7 +76,7 @@ opoweb-v2/
 
 No existen manifiestos con centenares de scripts, módulos versionados superpuestos ni parches de interfaz. La aplicación lee directamente datos y contenido declarativo.
 
-## Temas aprobados
+## Temas de La Puebla con aprobación editorial histórica
 
 ### Tema 1
 
@@ -154,7 +154,7 @@ LibreOffice y Microsoft Office II: hojas de cálculo con Microsoft Excel y Libre
 
 Conceptos generales del ordenador personal: hardware, software, firmware y controladores; placa base, CPU, RAM, HDD, SSD, GPU, alimentación, refrigeración y UEFI; periféricos; impresoras y colas; escáneres y OCR; discos externos, memorias USB, sistemas de archivos y expulsión segura; lectores y grabadores de CD y DVD. Incluye las diferencias esenciales entre RAM y almacenamiento, USB-C y versión USB, disco físico y volumen, impresora y cola, escáner y OCR, lector y grabador.
 
-Los bancos de preguntas de los diecinueve temas permanecen vacíos hasta realizar una revisión específica y trazable. La aprobación de los manuales no autoriza a rellenarlos automáticamente.
+La afirmación histórica de que los bancos estaban vacíos **ha quedado superada**: el cierre de fase 2 documenta **228 preguntas (12 por tema), 20 supuestos y 3 simulacros**. Estos recursos no sustituyen la comprobación jurídica y funcional de la versión actual; consultar [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md).
 
 ## Criterio de publicación
 
@@ -174,4 +174,4 @@ Después abre `http://localhost:8080`.
 npm test
 ```
 
-La validación confirma que los diecinueve temas están aprobados individualmente y que todos sus archivos modulares permanecen enlazados y disponibles sin conexión.
+Los informes históricos acreditan controles de **La Puebla** en un commit concreto. Ejecutar `npm test` sobre el commit actual y revisar GitHub Actions antes de afirmar que la versión vigente supera las pruebas; no asegurar funcionamiento sin conexión sin comprobarlo.
