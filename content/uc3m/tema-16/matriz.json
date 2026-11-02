@@ -4,17 +4,107 @@
   "estado": "EN_REVISION_USUARIO",
   "controlVigencia": "2026-07-23",
   "cobertura": [
-    {"epigrafe":"Enseñanzas oficiales y ECTS","manual":[1,2,3,4,5],"preguntas":["UC3M-T16-001","UC3M-T16-002","UC3M-T16-003","UC3M-T16-004","UC3M-T16-009"]},
-    {"epigrafe":"Planes de estudios y calidad","manual":[6,7,8],"preguntas":["UC3M-T16-005","UC3M-T16-006","UC3M-T16-007"]},
-    {"epigrafe":"Matrícula y dedicación","manual":[9,10],"preguntas":["UC3M-T16-008","UC3M-T16-010"]},
-    {"epigrafe":"Permanencia UC3M","manual":[11],"preguntas":["UC3M-T16-011","UC3M-T16-012","UC3M-T16-013"]},
-    {"epigrafe":"Evaluación UC3M","manual":[12,13],"preguntas":["UC3M-T16-014","UC3M-T16-015"]},
-    {"epigrafe":"Reconocimiento y transferencia","manual":[14],"preguntas":["UC3M-T16-016"]},
-    {"epigrafe":"Prácticas, TFG/TFM y extinción","manual":[15,16],"preguntas":[]}
+    {
+      "epigrafe": "Enseñanzas oficiales y ECTS",
+      "manual": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "preguntas": [
+        "UC3M-T16-001",
+        "UC3M-T16-002",
+        "UC3M-T16-003",
+        "UC3M-T16-004",
+        "UC3M-T16-009"
+      ]
+    },
+    {
+      "epigrafe": "Planes de estudios y calidad",
+      "manual": [
+        6,
+        7,
+        8
+      ],
+      "preguntas": [
+        "UC3M-T16-005",
+        "UC3M-T16-006",
+        "UC3M-T16-007"
+      ]
+    },
+    {
+      "epigrafe": "Matrícula y dedicación",
+      "manual": [
+        9,
+        10
+      ],
+      "preguntas": [
+        "UC3M-T16-008",
+        "UC3M-T16-010"
+      ]
+    },
+    {
+      "epigrafe": "Permanencia UC3M",
+      "manual": [
+        11
+      ],
+      "preguntas": [
+        "UC3M-T16-011",
+        "UC3M-T16-012",
+        "UC3M-T16-013"
+      ]
+    },
+    {
+      "epigrafe": "Evaluación UC3M",
+      "manual": [
+        12,
+        13
+      ],
+      "preguntas": [
+        "UC3M-T16-014",
+        "UC3M-T16-015"
+      ]
+    },
+    {
+      "epigrafe": "Reconocimiento y transferencia",
+      "manual": [
+        14
+      ],
+      "preguntas": [
+        "UC3M-T16-016"
+      ]
+    },
+    {
+      "epigrafe": "Prácticas, TFG/TFM y extinción",
+      "manual": [
+        15,
+        16
+      ],
+      "preguntas": []
+    }
   ],
   "incidenciasCorregidas": [
     "El borrador describía matrícula, permanencia y evaluación de forma genérica sin incorporar los umbrales concretos publicados por la UC3M.",
     "Se incorporan 25 horas por ECTS, cargas de tiempo parcial, mínimos de permanencia, número de convocatorias y porcentajes de evaluación continua y examen final.",
     "El banco pasa de 12 a 16 preguntas y queda alineado con las reglas específicas del manual."
-  ]
+  ],
+  "controlJudicial2026": {
+    "fechaVerificacion": "2026-11-02",
+    "clase": "INCIDENCIA_NORMATIVA_TEMPORAL_NO_RESUELTA_A_FALTA_DE_RESOLUCION_UC3M",
+    "norma": "RD 822/2021, artículo 22.4",
+    "reformaAnulada": "RD 905/2025 (BOE 08/10/2025)",
+    "sentencia": "STS 06/10/2026, publicación BOE-A-2026-22083 23/10/2026",
+    "alcanceConfirmado": "BOE declara la nulidad del RD 905/2025 y la modificación que introdujo en el artículo 22.4 del RD 822/2021.",
+    "fechaCorteExamen": "Fecha de publicación de resolución de listas definitivas y anuncio del ejercicio (base primera.7 BOE-A-2026-14624); pendiente acceder a original",
+    "indicioSecundario": "ADAMS refiere listas definitivas publicadas 01/10/2026; no acredita por sí mismo la fecha legal del anuncio ni los efectos de la sentencia posterior",
+    "acciones": "No cambiar respuestas ni citar la versión consolidada 23/10/2026 como automáticamente exigible; verificar fecha primaria del corte y alcance exacto de anulación judicial",
+    "fuentes": [
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781",
+      "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624"
+    ],
+    "estado": "INCIDENCIA_DOCUMENTADA_PENDIENTE_INTERPRETACION_EXIGIBILIDAD"
+  }
 }
