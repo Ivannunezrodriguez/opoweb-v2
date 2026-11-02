@@ -174,3 +174,23 @@ Antes de elevar el estado de un bloque: comprobar recursos reales, `npm test` (o
 **Lectura correcta de los porcentajes:** presencia de manuales y bancos **99/99 (100 % estructural)**; matrices independientes **79/99 (79,8 %)**, con cobertura en tablas internas aún sin comprobar; verificación sustantiva y funcional integral **NO CERTIFICADA**. **1.690 preguntas existentes no equivale a 1.690 preguntas jurídicamente auditadas**.
 
 **BLOQUE ACTIVO después de la prueba:** `DT-C2-A` (**temas 1–5**), pendiente de cotejo jurídico integral por materias. **No volver a pasar el inventario inicial sin motivo**: para integridad estructural utilizar el validador y controlar el resultado en el commit actual.
+
+
+## 11. Hitos oficiales próximos y prioridad por examen — **02/11/2026**
+
+**Esta sección registra el cotejo puntual de fechas**, independiente del progreso editorial. Cada consulta posterior debe actualizar la fecha de verificación o conservar explícitamente la anterior.
+
+| Convocatoria | Última información oficial localizada | Estado de examen a **02/11/2026** | Próximo control |
+|---|---|---|---|
+| **UC3M C2 · 34 plazas** | [Portal oficial UC3M](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026): anuncia **llamamiento del ejercicio único para 21/11/2026** y publica **listas definitivas** | **21/11/2026** con llamamiento publicado. La hora de **10:00** y Campus de Getafe figuran en anuncios anteriores y fuentes de academias; **resolución de llamamiento PDF no abierta**, confirmar hora, edificio y aula allí | **URGENTE:** comprobar PDF íntegro, distribución por aulas y acceso personal a lista definitiva, sin publicar datos personales |
+| **Diputación Toledo Auxiliar C2 (4 plazas, BOE 21/10/2026)** | [Solicitudes oficiales Diputación](https://www.diputoledo.es/global/50/1804/6577/rrhh-seleccion-convocatoria/1): **22/10–19/11/2026** | **No se ha localizado anuncio de fecha de examen de esta convocatoria 2026** | Comprobar fin de plazo y futuras listas; no confundir con **OEP 2025**, con pruebas ya realizadas |
+| **Diputación Toledo Administrativo C1 (2 plazas, OEP 2026)** | [Portal oficial Diputación](https://www.diputoledo.es/global/50/1804/6577/rrhh-seleccion-convocatoria/1): solicitudes **06/07–31/07/2026**. Registro previo: lista provisional de **14/08/2026** | **Sin fecha de ejercicio posterior confirmada** en las publicaciones localizadas | Buscar lista definitiva y llamamiento específico de **2 plazas C1 oposición libre**, excluyendo anuncios de promoción interna y OEP 2025 |
+| **La Puebla de Montalbán Auxiliar C2 (4 plazas)** | [Sede electrónica municipal](https://lapueblademontalban.sedelectronica.es/): última lista **provisional** contrastada **03/08/2026** | **Sin fecha de ejercicio contrastada directamente en anuncio oficial**; un índice secundario refiere lista definitiva de **02/09/2026**, todavía sin documento original verificado | **Buscar anuncio oficial definitivo**, fecha, lugar y hora en tablón municipal; no tratar un índice secundario como aprobación confirmada |
+
+### Repriorización puntual basada en examen cercano
+
+**URGENCIA CONFIRMADA UC3M — 21/11/2026** (19 días desde 02/11/2026). Sin cancelar el bloque `DT-C2-A`, se añade **SUBBLOQUE URGENTE UC3M-EXAM-2026-11-21**: verificar texto del llamamiento y las novedades; revisar de forma transversal los **20 temas**, las **250 preguntas** y diferencias legales universitarias y autonómicas, detectar los errores de mayor impacto de test y corregirlos con fuente. No declarar que el manual está íntegramente certificado. Proteger la condición de aspirante: **solicitud inscrita ≠ admisión definitiva comprobada**.
+
+**Orden temporal mientras la fecha UC3M sea inmediata:** (1) incidencias oficiales UC3M y revisión sustantiva por bloques; (2) seguimiento de fecha de La Puebla y C1; (3) retomar bloque `DT-C2-A` pendiente en el marcador previo y mantener **OAPGT T06 al final**. Si no hay nuevos cambios de calendario, no repetir búsquedas exhaustivas ya verificadas sin motivo. Actualizar este registro, no crear informes competidores.
+
+**Evidencia técnica disponible a 02/11/2026:** 99 manuales/99 bancos; **1.690 preguntas**; prueba estructural exitosa sobre commit específico según §10; validación integral jurídica y navegador real **pendientes**. Se considera material utilizable con precauciones, no finalizado como única fuente certificada.
