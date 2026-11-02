@@ -21,7 +21,7 @@ La plataforma contiene **cuatro programas activos y 99 temas registrados**: **La
 
 **No hay certificación integral actual de los 99 temas a 02/11/2026.** Las métricas de archivos, preguntas y validadores se deben interpretar en su **fecha/commit**, no como porcentajes de fiabilidad jurídica.
 
-**Siguiente bloque:** `DT-C2-T01`, auditoría jurídica, editorial y de test del **Tema 1 de Diputación Auxiliar C2**. Después **T02–T05**, **T07–T20** y **T06** al final. Consultar el registro principal antes de cada ejecución.
+**Siguiente bloque activo:** `DT-C2-A`, auditoría conjunta de **los temas 1–5 de Diputación Auxiliar C2**, sin partes individuales. Después bloques **7–10**, **11–15**, **16–20** y el **tema 6 OAPGT al final**. Consultar siempre el registro principal y su marcador antes de cada ejecución. **Los avisos al usuario se reservan a incidencias significativas que requieran atención.**
 
 ## Fuente del programa
 
