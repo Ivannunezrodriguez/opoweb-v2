@@ -1,7 +1,8 @@
 # La Puebla de Montalbán · Tema 12
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Cierre editorial original:** **30 de julio de 2026**.  
+**Control puntual de vigencia del TRLRHL:** **2 de noviembre de 2026** (**no equivale a recertificación integral**).
 
 ## Tema 12 · Tributos locales e impuestos municipales
 
@@ -14,7 +15,21 @@ Fuente del programa: BOP de Toledo número 82, de 5 de mayo de 2026, código `20
 
 - Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales.
 - Referencia oficial: `BOE-A-2004-4214`.
-- Texto consolidado consultado: última actualización publicada el **3 de junio de 2026**.
+- **Texto usado en el cierre original:** consolidación publicada el **3 de junio de 2026**.
+- **Control posterior:** [TRLRHL consolidado, BOE-A-2004-4214](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), última actualización publicada el **7 de octubre de 2026**; se ha contrastado su reforma con el [Real Decreto-ley 29/2026, de 6 de octubre, arts. 8 y 10](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823).
+
+## Control de cambios normativos posteriores — octubre de 2026
+
+**Ámbito literal del examen:** el enunciado exige principalmente **naturaleza, hecho imponible y sujetos pasivos** de IBI, IAE, IVTM e IIVTNU. La siguiente distinción sobre tipos y recargos es **complementaria para evitar errores de vigencia**; no sustituye los cinco capítulos del manual.
+
+| Modificación publicada | ¿Cuándo produce efectos? | Relación con este tema |
+|---|---|---|
+| **RDL 29/2026, art. 8:** nueva regulación de tipos diferenciados y recargos del **IBI**, art. **72.4, 4 bis y 4 ter** del TRLRHL | Para **períodos impositivos iniciados desde el 8 de octubre de 2026**. Como el IBI se devenga el **1 de enero** y su período es el **año natural** (art. **75.1 y 75.2**), el primer período ordinario afectado es **2027**, no el IBI de **2026** ya iniciado | **Complemento, no núcleo**: no cambia la naturaleza, el hecho imponible ni la regla de sujetos pasivos de los arts. **60–63** |
+| **RDL 29/2026, art. 10:** nuevos coeficientes máximos del **IIVTNU**, art. **107.4** | **1 de diciembre de 2026**, fecha **posterior** al examen previsto de **14 de noviembre de 2026** | **Ampliación fuera del epígrafe directo**: el tema pide naturaleza, hecho imponible y sujetos pasivos; no exige memorizar tablas de coeficientes |
+
+El RDL se publicó el **7 de octubre de 2026** y entró en vigor, con especialidades, el **8 de octubre de 2026**. La entrada en vigor de la disposición **no convierte en aplicables desde ese mismo día todos los efectos tributarios**: se debe leer la regla temporal específica de cada artículo.
+
+> ⚠️ **¡Foco Examen!:** No confundir **fecha de publicación (7/10/2026)**, **entrada en vigor (8/10/2026)**, **primer período impositivo ordinario de IBI afectado (2027)** y **efectos de los nuevos coeficientes del IIVTNU (1/12/2026)**. Para este tema, priorizar **arts. 60–64, 78–83, 92–94 y 104–106** y distinguir **hecho imponible / no sujeción / exención**.
 
 ## Estructura del manual
 
