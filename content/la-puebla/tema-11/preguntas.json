@@ -27,7 +27,7 @@
     },
     {
       "id": "LP-T11-002",
-      "enunciado": "Una liquidación se notifica el día 12 de marzo. ¿Cuál es, con carácter general, su plazo máximo de pago voluntario?",
+      "enunciado": "Una liquidación tributaria se notifica el 12 de marzo. Suponiendo que el 20 de abril sea hábil, ¿hasta cuándo se puede pagar en período voluntario?",
       "opciones": [
         "Hasta el 20 de marzo",
         "Hasta el 5 de abril",
@@ -35,13 +35,13 @@
         "Hasta el 5 de mayo"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Las liquidaciones notificadas entre los días 1 y 15 pueden pagarse hasta el día 20 del mes siguiente, salvo traslado al inmediato hábil si el vencimiento fuera inhábil.",
-      "trampaExamen": "No aplicar a una liquidación el plazo más breve previsto para una providencia de apremio.",
-      "referencia": "bloque-01-voluntaria.md · artículo 62 LGT"
+      "justificacion": "El artículo 62.2.a de la LGT establece que las liquidaciones notificadas del 1 al 15 pueden pagarse hasta el día 20 del mes siguiente o, si éste fuera inhábil, hasta el inmediato hábil siguiente. Se presupone aquí que el 20 de abril es hábil.",
+      "trampaExamen": "Notificación del día 1 al 15: vence el día 20 del mes siguiente, pero si el 20 es inhábil pasa al inmediato día hábil; no fijar el día 20 sin esa salvedad.",
+      "referencia": "bloque-01-voluntaria.md · artículo 62 LGT · Ley 58/2003, art. 62.2 y 62.5"
     },
     {
       "id": "LP-T11-003",
-      "enunciado": "Una providencia de apremio se notifica el día 18 de junio. ¿Hasta cuándo puede pagarse dentro del plazo de la providencia?",
+      "enunciado": "Una providencia de apremio se notifica el 18 de junio. Suponiendo que el 5 de julio sea hábil, ¿hasta cuándo puede pagarse dentro del plazo concedido tras la providencia?",
       "opciones": [
         "Hasta el 20 de junio",
         "Hasta el 5 de julio",
@@ -49,9 +49,9 @@
         "Hasta el 5 de agosto"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Cuando la providencia se notifica entre el día 16 y el último del mes, el plazo alcanza hasta el día 5 del mes siguiente.",
-      "trampaExamen": "Los plazos de la providencia no coinciden con los de las liquidaciones notificadas en voluntaria.",
-      "referencia": "bloque-04a-ejecutiva-providencia.md · plazos de pago tras providencia"
+      "justificacion": "El artículo 62.5.b de la LGT establece que, si la providencia se notifica entre los días 16 y último del mes, puede pagarse hasta el día 5 del mes siguiente, o el inmediato hábil siguiente cuando el día 5 sea inhábil. Se presupone que el 5 de julio es hábil.",
+      "trampaExamen": "Tras una providencia de apremio notificada del 16 al último día, la fecha es el 5 del siguiente mes o su siguiente hábil si aquel es inhábil; no confundir con el 20 del ingreso voluntario.",
+      "referencia": "bloque-04a-ejecutiva-providencia.md · plazos de pago tras providencia · Ley 58/2003, art. 62.2 y 62.5"
     },
     {
       "id": "LP-T11-004",
