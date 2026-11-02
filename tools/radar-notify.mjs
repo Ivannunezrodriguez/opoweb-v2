@@ -1,10 +1,16 @@
 import fs from 'node:fs/promises';
+import {normalizeOpportunity} from '../assets/radar-quality.js';
 
 const apiKey=process.env.RESEND_API_KEY;
 const to=process.env.RADAR_EMAIL;
 if(!apiKey||!to){console.log('Email desactivado: faltan RESEND_API_KEY/RADAR_EMAIL');process.exit(0)}
 const data=JSON.parse(await fs.readFile('data/radar.json','utf8'));
-const fresh=(data.opportunities||[]).filter(x=>x.isNew);
+// Anuncios sin puesto, actas, listas y ofertas de grupo A1/A2 no deben generar emails.
+const fresh=(data.opportunities||[])
+  .filter(x=>x.isNew)
+  .map(x=>normalizeOpportunity(x,data.generatedAt||new Date().toISOString().slice(0,10)))
+  .filter(x=>x.actionable && x.state!=='CERRADA' && !x.phaseFollowup)
+  .slice(0,30);
 if(!fresh.length){console.log('Sin novedades para notificar');process.exit(0)}
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const formatDate=value=>{
@@ -19,12 +25,12 @@ const fields=x=>{
  const role=title.match(/plazas? de\s+(.+?)(?=\s+a tiempo|\s+de la plantilla|\s+por el sistema|\s*—|\s*\[|[.;]|$)/i);
  const labor=/personal laboral fijo/i.test(title)?'Personal laboral fijo':/personal laboral/i.test(title)?'Personal laboral':null;
  const group=x.group&&x.group!=='REVISAR'?x.group:null;
- const states={PREVISTA:'Oferta de empleo publicada; pendiente de convocatoria',REVISAR:'Anuncio pendiente de verificar',ABIERTA:'Plazo de solicitudes abierto',CERRADA:'Plazo de solicitudes cerrado'};
+ const states={PREVISTA:'OEP publicada; convocatoria aún pendiente',REVISAR:'Anuncio de puesto; plazo pendiente de verificar',PLAZO_ABIERTO:'Plazo con fecha límite identificada: verificar bases',CERRADA:'Plazo vencido'};
  return [
  ['Fecha',x.publishedAt?formatDate(x.publishedAt):x.firstSeen?`${formatDate(x.firstSeen)} (detección; publicación no confirmada)`:'No consta'],
  ['Lugar',place?`${place[1].trim()}${place[2]?' ('+place[2]+')':''}`:town?town[1].trim():x.location||'No consta'],
- ['Puesto',x.position||role?.[1]?.trim()||'No identificado en el anuncio; consultar fuente oficial'],
- ['Categoría del puesto',[group,labor].filter(Boolean).join(' · ')||'No consta; consultar bases'],
+ ['Puesto',x.position||role?.[1]?.trim()||'Pendiente de identificar'],
+ ['Categoría del puesto',[group,labor].filter(Boolean).join(' · ')||'No verificada; consultar bases'],
  ['Estado',states[x.state]||x.state||'Pendiente de verificar'],
  ['Previsión',x.forecast|| (x.state==='PREVISTA'?'Pendiente de convocatoria y apertura de solicitudes; sin fecha confirmada.':x.deadline?`Plazo de solicitud indicado: ${formatDate(x.deadline)}. Examen: sin fecha confirmada.`:'Sin fecha confirmada para los siguientes pasos; consultar plazo y bases.')]
  ];
