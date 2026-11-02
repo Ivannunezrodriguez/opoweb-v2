@@ -18,3 +18,19 @@
 > ⚠️ **¡Foco Examen!:** **Delegación (art. 7)** y **colaboración (art. 8)** no son equivalentes; tampoco se puede crear una exención tributaria por ordenanza sin habilitación legal.
 
 **Pendiente:** revisión completa del banco y apartados de gestión; nueva secuencia normativa del TRLRHL ya registrada separadamente en temas **10 y 12**. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Cotejo sustantivo del artículo 27 LGT — 02/11/2026
+
+**Fuente oficial:** [Ley 58/2003, art. 27.2–5, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186).
+
+| Supuesto | Regla legal | Artículo |
+|---|---|---|
+| Presentación espontánea antes de cumplirse **12 meses**, sin excepción | **1 %** más **1 % por mes completo** | **27.2** |
+| Presentación una vez **transcurridos 12 meses** | **15 %** e intereses solamente desde el día siguiente al término de los **12 meses** | **27.2** |
+| Regularización de hechos idénticos de otros períodos tras comprobación | Posible **no exigencia del recargo** si concurren todos los requisitos, incluido el plazo de **6 meses** | **27.2** |
+| Autoliquidación tardía sin ingreso ni solicitud procedente de aplazamiento/fraccionamiento/compensación | Pueden exigirse además **recargos del período ejecutivo** | **27.3** |
+| Ingreso en las condiciones legales | **Reducción del 25 % del importe del recargo**, no de la deuda principal | **27.5** |
+
+> ⚠️ **¡Foco Examen!:** El **25 %** es una **reducción condicionada del recargo**, no de la cuota. Presentar fuera de plazo sin requerimiento no excluye absolutamente la concurrencia de recargos del período ejecutivo.
+
+**Corrección aplicada:** ampliación del manual del **Tema 10** y precisión de la pregunta **LP-T10-007**, que conserva la respuesta **C**. Auditoría parcial, no certificación completa del banco.
