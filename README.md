@@ -16,7 +16,7 @@ La plataforma contiene **cuatro programas activos y 99 temas registrados**: **La
 
 - **La Puebla C2:** **19/19** temas `APROBADO_USUARIO` con cierre **histórico de fase 2** en julio de 2026; las reformas y cambios posteriores requieren controles de vigencia.
 - **Diputación Auxiliar C2:** **19 temas EN_REVISION_USUARIO** y **tema 6 BORRADOR**; el tema 6 del **OAPGT** queda **aplazado hasta el final** según decisión documentada del **29/10/2026**, sin considerarse terminado.
-- **UC3M C2:** **20 EN_REVISION_USUARIO**.
+- **UC3M C2:** **20 EN_REVISION_USUARIO**. **250 preguntas temáticas** y, desde el **02/11/2026**, **3 simulacros de entrenamiento de 70 titulares + 5 reservas / 60 minutos**. Muestran **puntuación directa A − E/3**, nunca un aprobado simulado sin el corte del tribunal. [Guía de examen y fuentes](content/uc3m/GUIA_EXAMEN_2026.md).
 - **Diputación Administrativo C1:** **40 con origen GENERACION_DESDE_CERO** en manifiesto heredado, **sin equivaler a APROBADO/PUBLICADO**; auditoría progresiva.
 
 **No hay certificación integral actual de los 99 temas a 02/11/2026.** Las métricas de archivos, preguntas y validadores se deben interpretar en su **fecha/commit**, no como porcentajes de fiabilidad jurídica.
