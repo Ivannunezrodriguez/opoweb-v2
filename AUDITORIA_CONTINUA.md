@@ -1,58 +1,95 @@
-# OpoWeb v2 — Auditoría continua de fiabilidad
+# OpoWeb v2 — Estado editorial único y cola de reanudación
 
-**Fecha base:** 02/11/2026. **Objetivo:** disponer de manuales, tests y supuestos autosuficientes por convocatoria, auditados contra fuentes oficiales y probados en la web. Este fichero es una **cola de trabajo**, no una certificación de que los materiales estén completos.
+**Estado contrastado con los manifiestos y documentos del repositorio:** **02/11/2026**.
+**Ámbito:** contenido y fiabilidad para estudiar. No equivale al seguimiento administrativo en tiempo real de convocatorias.
+**Este es el ÚNICO documento de estado editorial operativo.** Los restantes informes fechados son **evidencia histórica**, no órdenes de reanudación ni certificados actuales. Conservar su contenido y sus commits.
 
-## Alcance activo y prioridad
+## 1. Cómo leer el estado sin confusiones
 
-| Prioridad | Convocatoria | Temas en manifiesto | Estado documental declarado | Fiabilidad íntegra |
+1. **Programa registrado**: el tema existe como entrada del anexo en un manifiesto. No acredita contenido.
+2. **Manual disponible**: hay material para leer; puede ser borrador, incompleto o tener errores.
+3. **Auditoría documental**: epígrafe, desarrollo, matrices, fuentes y preguntas están cotejados con documentación oficial y fecha.
+4. **Prueba técnica**: JSON, enlaces, test, navegación, visualización y versiones de la web superan comprobaciones reproducibles.
+5. **Cierre de fiabilidad**: se cumplen los controles jurídicos, pedagógicos, técnicos y editoriales; se conserva evidencia y la aprobación exigida por las reglas del proyecto.
+
+**No sumes estos porcentajes:** son fases distintas. **100 % de archivos disponibles NO significa 100 % fiable**. La etiqueta `PUBLICADO` del código legado llegó a usarse como «contenido visible», sin implicar las fases 3–5. El estado jurídico posterior a la fecha de una validación histórica vuelve a requerir control.
+
+## 2. Resumen por convocatoria (99 temas activos)
+
+| Orden editorial | Convocatoria | Programa | Evidencia de contenido / estado | Cierre jurídico y técnico actualizado |
 |---|---|---:|---|---|
-| 1 | Diputación Toledo · Auxiliar C2 | **20** | **19 PUBLICADO**, **1 BORRADOR**, pero varias notas mencionan pruebas pendientes | **No certificada** |
-| 2 | La Puebla de Montalbán · Auxiliar C2 | **19** | **19 APROBADO_USUARIO**; se requiere mantenimiento normativo y verificación global de la aplicación | **No certificada a 02/11/2026** |
-| 3 | UC3M · Auxiliar C2 | **20** | **20 EN_REVISION_USUARIO** | **No certificada** |
-| 4 | Diputación Toledo · Administrativo C1 | **40** | **40 GENERACION_DESDE_CERO**, en auditoría progresiva | **No certificada** |
+| **1** | **Diputación Toledo, Auxiliar Administrativo C2** | **20** | **20** entradas y manuales referenciados. El manifiesto anterior indicaba **19 PUBLICADO + 1 BORRADOR**, aunque las notas dicen que siguen pendientes controles. Se normaliza a **en revisión** (tema **6**: borrador incompleto). | **NO CERTIFICADO** |
+| **2** | **La Puebla de Montalbán, Auxiliar C2** | **19** | **19 APROBADO_USUARIO**; cierre histórico de fase 2 documentado el **30/07/2026**, con **228 preguntas, 20 supuestos y 3 simulacros** en el informe de la época. | Cierre histórico **válido como hito**, pero **sin recertificación global a 02/11/2026** |
+| **3** | **UC3M, Auxiliar C2** | **20** | **20 EN_REVISION_USUARIO** en manifiesto; manual, matriz, fuentes y preguntas declarados. | **NO CERTIFICADO** |
+| **4** | **Diputación Toledo, Administrativo C1** | **40** | **40 GENERACION_DESDE_CERO** en esquema/validador heredado: expresa **origen del contenido**, no aprobación. Existen manuales y bancos, con auditorías parciales. | **NO CERTIFICADO** |
 
-**Total: 99 temas en cuatro programas activos.** La cobertura por número de archivos no equivale a aprobación jurídica. Otras convocatorias de seguimiento, o descartadas, quedan fuera de esta auditoría editorial salvo nueva instrucción.
+**Total: 99 temas registrados.** **19/99 (19,2 %)** tienen aprobación editorial *histórica declarada* en el manifiesto de La Puebla; **0/99** se han recertificado integralmente **en esta auditoría de noviembre** (no significa que todos sean incorrectos). No se calcula un porcentaje de exactitud jurídica sin contar criterios auditados por tema.
 
-## Condiciones necesarias para cerrar un tema
+**Fuera del alcance editorial activo:** Las Ventas (descartada), Carranque (no reabrir), CPEIS (seguimiento, sin temario activo en esta cola). No reabrir una convocatoria descartada por aparecer en un archivo histórico.
 
-- [ ] Epígrafe cotejado literalmente con **anexo del programa oficial** y comprobadas modificaciones de la convocatoria.
-- [ ] Matriz **inciso del programa → ley/versión → artículo → regla → evidencia** y cobertura íntegra de todos los incisos.
-- [ ] Plazos, mayorías, cuantías, órganos, excepciones y requisitos contrastados con **BOE/DOCM/BOP** o publicaciones institucionales oficiales aplicables y vigentes.
-- [ ] Manual estructurado, sin contradicciones, con tablas comparativas y bloques **¡Foco Examen!** donde existan trampas reales.
-- [ ] Banco de preguntas con respuesta correcta única, alternativas plausibles, justificación, trampa y referencia verificable a la norma o manual.
-- [ ] Supuestos prácticos exigidos por la convocatoria (cuando procedan) documentados y corregidos.
-- [ ] JSON analizado, enlaces verificados, navegación, renderizado, buscador y tests de la aplicación comprobados.
-- [ ] Control final de cambios, revisión editorial y **aprobación expresa del usuario** cuando así lo requieran las reglas del proyecto.
+## 3. Cambios de estado y contradicciones relevantes
 
-**Prohibido marcar «100 % fiable» solo por alcanzar un número de documentos o preguntas.**
+| Archivo / fuente | Lectura correcta | Acción para evitar errores |
+|---|---|---|
+| `data/programa.json` | **19 APROBADO_USUARIO**, aprobación editorial histórica de La Puebla | Mantener hito; **no** presentar como verificación legal de noviembre |
+| `audit/PHASE2_CLOSURE.md`, `TRANSVERSAL_REVIEW.md` | Cierre verificable de **fase 2 en julio** sobre un commit, no garantía perpetua | Conservar como **histórico**, remitir aquí |
+| `audit/phase2-ci-result.md` | Resultado de una **ejecución/commit determinado**, no de todos los commits siguientes | Conservar evidencia; no usar como prueba CI actual |
+| `data/programa-diputacion-auxiliar-c2-2026.json` | El valor anterior `PUBLICADO` no estaba respaldado por una verificación completa; tema 6 sigue incompleto | Normalizar estados a **EN_REVISION_USUARIO** (19) y **BORRADOR** (tema 6) |
+| `data/programa-diputacion-administrativo-2026.json` | `GENERACION_DESDE_CERO` es una etiqueta heredada de **método**, no certificación | No traducir automáticamente a publicado en la interfaz; dejar validador legado intacto hasta migración coordinada |
+| `data/programa-uc3m-auxiliar-administrativa-2026.json` | 20 temas en revisión, **no 20 temas aprobados** | Conservar revisión transversal |
+| `AUDIT_STATUS.md` y `README.md` | Ambos contenían bloques descritos como «actuales» pese a estar redactados desde julio | Hacerlos apuntar a este fichero; archivar extractos fechados |
+| `docs/ROADMAP_PRIORIDADES_2026-07-18.md` | Refleja prioridades **antes** de la convocatoria de Diputación C2 | Tratarlo como histórico |
+| `content/diputacion-toledo-auxiliar-c2/PLAN_EDITORIAL_Y_AUDITORIA.md` | Guarda una **decisión expresa del 29/10/2026**: **posponer el tema 6 del OAPGT al final** | **Respetar**: avanzar primero 1–5 y 7–20; dejar tema 6 en cola bloqueada |
+| `JSON_ERRORS.md` | Antiguo error de tema 34 C1: el archivo concreto vuelve a analizarse como JSON, **sin nueva validación general** | No usar diagnóstico viejo como incidencia actual |
+| `data/convocatorias.json` y `data/seguimiento-*.json` | Datos de **tramitación personal y publicaciones**, con fechas de verificación propias | No confundir con progreso editorial ni afirmar «abierto ahora» basándose en instantáneas antiguas |
 
-## Hallazgos comprobados y acciones
+**Inconsistencia que requiere investigación independiente:** el registro `audit/phase2-ci-result.md` incluye el valor `tema6Interinidad: 4_YEARS_SOURCE_VALIDATED`; `QA_FINAL_2026-07-18.md` describe otra cifra. **No elegir una versión por intuición:** identificar norma, fecha, ámbito, código y test antes de modificar material de La Puebla.
 
-### A. Diputación Toledo · Auxiliar C2 · Tema 6 (bloqueante)
+## 4. Hechos y correcciones ya realizados (no repetir)
 
-El tema aún no puede considerarse completo sin texto íntegro y vigente del **Acuerdo Regulador** y **Estatutos del OAPGT**.
+- **Diputación C1 Tema 3:** afinada la diferencia **300–400 CE / 350 LOREG**, la elección del **Defensor del Pueblo** y ampliado el banco a **22 preguntas** (commits registrados en Git). **Revisión integral pendiente.**
+- **Diputación C1 Tema 4:** ampliada la comparación de figuras de competencia, recusación y test (banco **21 preguntas**). **Revisión integral pendiente.**
+- **Diputación C1 Tema 5:** corregida la explicación de los **10 días** de subsanación de representación conforme a los arts. **5.6 y 30.2 de la Ley 39/2015**, en manual y test. **Revisión integral pendiente.**
+- **Diputación C2 Tema 6:** ficha de reforma oficial OAPGT **BOP 284/2011** documentada y enlazada; texto íntegro estatutario vigente y acuerdo laboral consolidado **aún pendientes**. **No está terminado y se reserva para el último bloque**.
+- **Diputación C2 tests:** informe técnico histórico de **25/10/2026** sobre **138 preguntas / 19 bancos** y revisión normativa parcial; **no extrapolar a aprobación general**.
+- **La Puebla fase 2:** cierre histórico y prueba de CI de commit documentados; **no eliminar ni revalidar desde cero**. Revisar únicamente cambios normativos, incidencias puntuales y funcionamiento de la versión actual.
 
-- **02/11/2026:** comprobación visual del anuncio oficial de reforma estatutaria del **BOP 284, 14/12/2011**. Acredita cambios en los artículos **1, 4.a), 8 bis, 14.d).1** y la disposición adicional.
-- Fuente editorial añadida: [ficha de reforma estatutaria 2011](content/diputacion-toledo-auxiliar-c2/tema-06/estatutos-2011-verificado.md); enlazada en el manual y en fuentes.
-- **Pendiente:** cotejar el texto inicial **BOP 235, 11/10/1996**, identificar **todas** sus modificaciones y acreditar vigencia a la fecha de examen; comprobar íntegros acuerdo laboral de **2023** y reformas de **2025–2026**. Hasta entonces, no generar como ciertas composiciones/quórums pendientes.
+## 5. Siguiente tarea EXACTA y puerta de salida
 
-### B. Diputación Toledo · Administrativo C1 · Tema 5
+**TAREA ACTIVA: DT-C2-T01 — Auditoría integral del Tema 1 (Constitución).**
 
-- **02/11/2026:** corregida la trampa sobre subsanación de representación: el **art. 5.6 Ley 39/2015** establece **10 días**; el **art. 30.2** determina su cómputo **hábil** por regla general, salvo excepción legal. Contrastado con [texto consolidado oficial](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
-- Manual y pregunta **DIP-T05-003** corregidos; revisión integral aún pendiente.
+1. Leer `data/programa-diputacion-auxiliar-c2-2026.json`, `content/diputacion-toledo-auxiliar-c2/tema-01/manual.md`, `fuentes.md` (si existe) y `preguntas.json`.
+2. Extraer cada inciso del **Anexo XI, BOP Toledo 197/2026**; comprobar Constitución consolidada y reformas hasta la fecha de examen; **revisar expresamente** referencias a la reforma del art. **69.3 de 2026**.
+3. Documentar una matriz de cobertura **inciso→precepto→versión→manual→pregunta**; corregir errores concretos con fuente oficial.
+4. Auditar cada pregunta con opciones, respuesta única, justificación, trampa y referencia exacta; incluir controles funcionales posibles de la web.
+5. Guardar enlaces y commits, actualizar en este archivo la **fecha y evidencia** de la revisión y la siguiente tarea: **DT-C2-T02**. Si queda cualquier bloqueo, mantener **DT-C2-T01 EN AUDITORÍA** y describir la próxima acción exacta; **no saltar** ni reiniciar.
 
-### C. Diagnósticos de calidad y estados
+**Cola posterior sin perder pendientes:** C2 **T02→T03→T04→T05→T07…T20→T06** (último). Después mantenimiento focalizado La Puebla **T01–T19**, UC3M **T01–T20** y Diputación C1 **T01–T40**, recuperando sus verificaciones parciales sin repetirlas.
 
-- El archivo `JSON_ERRORS.md` es una fotografía antigua: mencionaba un fallo en `content/diputacion-toledo/tema-34/preguntas.json`. A **02/11/2026**, ese **archivo concreto** se ha podido analizar correctamente como JSON; el diagnóstico global de **172 archivos** no se ha repetido todavía.
-- **Diputación C2:** el manifiesto marca **19 temas PUBLICADO**, mientras las notas editoriales registran **pruebas de navegador pendientes**. «Contenido disponible» no debe interpretarse como «fiabilidad verificada».
+## 6. Criterios obligatorios de cierre por tema
 
-## Próxima cola (ordenada)
+- [ ] Literalidad del epígrafe oficial y delimitación de todos los subapartados.
+- [ ] Fuentes oficiales, fecha de versión, artículos, excepciones, fechas, mayorías, importes y órganos.
+- [ ] Manual completo y coherente, tablas comparativas y **¡Foco Examen!**.
+- [ ] Banco sin errores sintácticos y con cada respuesta cotejada con norma o documentación técnica oficial.
+- [ ] Supuestos prácticos adaptados al formato real de la convocatoria cuando se exijan.
+- [ ] Enlaces, navegación, renderizado móvil, corrección de test (blancos incluidos), persistencia de progreso y pruebas técnicas.
+- [ ] Evidencia por archivo/commit; estado editorial alcanzado y aprobación del usuario cuando proceda.
 
-1. **Diputación C2 Tema 6:** conseguir la cadena oficial completa de Estatutos y acuerdo laboral; redactar matriz normativa y auditar las preguntas existentes.
-2. **Diputación C2 Temas 1–5 y 7–20:** auditoría jurídica sistemática, tests, fuentes y funcionamiento real.
-3. **La Puebla C2:** cotejo legal actualizado de 19 temas y pruebas de navegación, preguntas y supuestos.
-4. **UC3M C2:** cotejo de 20 temas, fuentes autonómicas/universitarias, tests y supuestos.
-5. **Diputación C1:** continuar Tema 5 y sucesivos, resolver carencias OAPGT del Tema 22, revisar íntegramente los 40 temas.
-6. **CI técnica transversal:** validar JSON, vínculos, carga de contenido, modo offline, evaluaciones, respuestas y datos del progreso del usuario.
+**Un criterio sin evidencia permanece PENDIENTE.** La CI automática **no** certifica vigencia legal. La falta de acceso al BOE o a GitHub se registra como **BLOQUEO**, nunca como verificación aprobada.
 
-**Regla de reanudación:** la siguiente ejecución debe leer este archivo y los estados *actuales* de GitHub; escoger tareas pendientes sin volver a asumir como cerrada una auditoría parcial.
+## 7. Protocolo obligatorio de reanudación
+
+1. Abrir **este fichero primero**; leer también `PROJECT_RULES.md` y el manifiesto de la convocatoria activa.
+2. Revisar el **último commit** y los cambios desde la última anotación; no sobreescribir avances de otra ejecución. Resolver contradicciones antes de trabajar.
+3. Retomar la **TAREA ACTIVA** sin volver al inicio del programa, hasta acreditar su puerta de salida.
+4. Al cerrar cada bloque, **editar esta misma tarea activa y su evidencia**, no crear nuevos archivos de «estado final» que compitan con él.
+5. Cada resumen al usuario debe distinguir **contenido presente, auditoría jurídica, validación técnica, aprobación histórica y progreso pendiente**.
+6. No reabrir el tema 6 del OAPGT hasta finalizar el resto de temas de Diputación C2, **salvo nueva instrucción**.
+
+### Registro de control
+
+| Fecha | Acción | Resultado |
+|---|---|---|
+| **02/11/2026** | Inventario de estados, informes y prioridades; reconciliación con la orden de posponer OAPGT | **Registro principal actualizado; siguiente tarea DT-C2-T01** |
+
