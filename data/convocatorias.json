@@ -5,7 +5,7 @@
     {
       "id": "la-puebla-auxiliar-2026",
       "nombre": "La Puebla de Montalbán · Auxiliar Administrativo C2",
-      "estadoUsuario": "ADMITIDO_PROVISIONALMENTE",
+      "estadoUsuario": "INCLUIDO_EN_LISTADO_OFICIAL_ADMITIDOS_2026_09_02",
       "prioridad": 1,
       "estadoEditorial": "CERRADO_FASE_2_HISTORICO_REVALIDACION_PENDIENTE",
       "temas": 19,
@@ -28,24 +28,28 @@
         "situacionUsuario": "ADMITIDO",
         "requiereSubsanacion": false
       },
-      "seguimientoVerificadoEl": "2026-08-16",
-      "ultimaComprobacion": "Consulta 02/11/2026: bases municipales contrastadas. Sede electrónica/tablón municipal no accesibles por redirecciones; NO se puede certificar anuncio de lista definitiva ni convocatoria de examen. Fuentes secundarias reseñan listas definitivas 28/08 y 02/09/2026; no se ha comprobado documento original. Último estado individual confirmado sigue siendo ADMITIDO PROVISIONALMENTE (Decreto 2026-1051).",
+      "seguimientoVerificadoEl": "2026-11-02",
+      "ultimaComprobacion": "02/11/2026: captura de anuncio oficial firmado por Tribunal confirma PRIMER EJERCICIO sábado 14/11/2026 a las 09:30, IES Universidad Laboral de Toledo (Avenida de Europa 28), 50 preguntas + 5 reserva en 60 minutos y DNI. Otra captura, página 5/7 del decreto fechado 02/09/2026, demuestra inclusión del aspirante en ADMITIDOS. Portada decreto no visible: su clase formal definitiva queda por verificar.",
       "incidenciaCorregida": "Auditoría transversal cerrada para los 19 temas; mantenimiento posterior sujeto a reformas normativas o nuevas publicaciones oficiales.",
       "notaEstadoEditorial": "Cierre documental fase 2 de julio de 2026 conservado; auditoría de vigencia a noviembre pendiente.",
       "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
-      "notaVigenciaSeguimiento": "Revisión web 02/11/2026; última comprobación primaria de admisión 16/08/2026, fecha definitiva y examen pendientes de acceso al tablón municipal.",
+      "notaVigenciaSeguimiento": "Calendario de primer ejercicio comprobado 02/11/2026 contra imagen de anuncio oficial; vigilar cambios posteriores. Inclusión en lista de admitidos acreditada en captura oficial.",
       "seguimientoConsultadoEl": "2026-11-02",
       "listaDefinitiva": {
-        "estado": "NO_VERIFICADA_EN_DOCUMENTO_OFICIAL",
-        "indiciosFuentesSecundarias": [
-          "2026-08-28",
-          "2026-09-02"
-        ],
-        "nota": "Índices privados citan dos fechas de lista definitiva; acceso al documento oficial de sede municipal no conseguido."
+        "estado": "INCLUSION_ACREDITADA_EN_LISTADO_DE_ADMITIDOS",
+        "fechaDocumento": "2026-09-02",
+        "nota": "Captura oficial de página 5 de 7 de relación ADMITIDOS, proporcionada por aspirante. Portada y literal definitivo no visibles; no afirmar estado formal definitivo."
       },
       "fechaExamen": {
-        "fecha": null,
-        "estado": "NO_CONFIRMADA_EN_FUENTE_OFICIAL_ACCESIBLE_A_2026_11_02"
+        "fecha": "2026-11-14",
+        "hora": "09:30",
+        "lugar": "IES Universidad Laboral de Toledo, Avenida de Europa 28, 45003 Toledo",
+        "ejercicio": 1,
+        "preguntas": 50,
+        "reserva": 5,
+        "duracionMinutos": 60,
+        "estado": "LLAMAMIENTO_OFICIAL_ACREDITADO",
+        "fuente": "Anuncio oficial del Tribunal en sede electrónica, captura aportada 02/11/2026"
       }
     },
     {
