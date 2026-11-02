@@ -5,6 +5,7 @@ on:
     branches: [main]
   push:
     branches: [main]
+  workflow_dispatch:
 
 permissions:
   contents: read
@@ -13,11 +14,23 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Obtener código
+        uses: actions/checkout@v4
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
         with:
-          node-version: 24
-      - name: Comprobar sintaxis
-        run: node --check assets/app.js
-      - name: Validar programa, estados y manual aprobado
-        run: npm run test:all
+          node-version: '24'
+      - name: Comprobar sintaxis de la interfaz
+        run: |
+          node --check assets/app.js
+          node --check assets/practice.js
+      - name: Validar programa y bancos de La Puebla
+        run: node tests/validate.mjs
+      - name: Validar maquetación editorial de La Puebla
+        run: node tests/validate-la-puebla-editorial.mjs
+      - name: Validar motor de simulacros de La Puebla
+        run: node tests/validate-practice-exam.mjs
+      - name: Validar programa y preguntas de Diputación C1
+        run: node tests/validate-diputacion.mjs
+      - name: Validar 99 temas de las cuatro convocatorias
+        run: node tests/validate-all-programmes.mjs
