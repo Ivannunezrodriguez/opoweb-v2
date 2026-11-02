@@ -60,7 +60,7 @@
 
 **Objetivo:** cotejar como un conjunto los epígrafes oficiales, las reglas compartidas, los materiales ya existentes, todos los bancos de preguntas y las pruebas integradas de los temas 1–5. Guardar correcciones legales, matrices de cobertura y evidencias por sublotes. No reabrir por sistema una comprobación ya acreditada. Si un sublote no puede finalizarse, conservar el marcador exacto en esta sección.
 
-**Marcador de reanudación (actualizado 02/11/2026, §21):** bloque urgente **La Puebla C2**, control jurídico focalizado **T3, T4, T5, T11 y T13**. Tras los arts. 24, 58–62, 96 y 122 de Ley 39/2015 (§20), se han corregido **excepciones electorales municipales** de LOREG (arts. 180, 184, 196), **solicitudes sucesivas de aplazamiento y recursos contra sanciones** (art. 161 LGT) y **plazos eIDAS** (arts. 20, 24). **Siguiente punto exacto:** profundizar en **La Puebla temas 10 y 12** (reglas tributarias y excepciones: LGT/TRLRHL) y cerrar distractores aún no verificados de **temas 3–5 y 13–14**, con fuentes y prueba CI. En paralelo, **UC3M temas 14–16** pendiente de fecha exacta de publicación de listas definitivas como corte normativo. **DT-C2-A** preservado hasta después de las urgencias y **OAPGT tema 6** al final. No confundir controles parciales con recertificación integral.
+**Marcador de reanudación (actualizado 02/11/2026, §22):** bloque urgente de **La Puebla C2** con control de **T10 y T12** completado en submaterias concretas. **T10:** recargos por presentación extemporánea, excepciones, concurrencia con ejecutiva y reducción condicionada del **25 %** (art. **27 LGT**). **T12:** corregido un **error sustantivo en IBI** sobre bienes patrimoniales municipales (art. **61.5.b TRLRHL**), diferenciada exención del **62.1.b**, y añadida regla de INCN **inferior a 1.000.000 € y conjunto del grupo** (art. **82.1.c**). Error IBI corregido también en **Diputación C2, tema 13**, sin reabrir la auditoría completa de Diputación. **Siguiente punto exacto:** revisión restante de **T10/T12** sobre obligaciones y sujetos pasivos (LGT 35–48; TRLRHL 63, 83, 94 y 106) y distractores de **T3–5 y T13–14**; después priorizar UC3M temas **14–16** fijando antes el corte legal de listas definitivas. **CI último commit pendiente**; no declarar certificación integral. Mantener **DT-C2-A** en cola y **tema 6 OAPGT al final**.
 
 | Bloque | Convocatoria | Alcance | Estado operativo |
 |---|---|---|---|
@@ -473,3 +473,34 @@ Antes de elevar el estado de un bloque: comprobar recursos reales, `npm test` (o
 **Comprobación directa en GitHub:** **12 archivos** revisados tras su actualización; los **cuatro bancos modificados** (**T3, T5, T11, T13**) conservan **12 preguntas** con **ID únicos**, **4 opciones** y `respuestaCorrecta` en rango. Verificadas la delimitación de T5, excepción de T11, cifras de T13 y precisión de T3 mediante lectura de archivos actualizados. **No es validación de la batería completa `npm run test:all` ni certificación de los 96 ítems del bloque T3–5/T10–14**.
 
 **Siguiente marcador exacto:** auditar críticamente **temas 10 y 12 de La Puebla**, especialmente plazos, obligados tributarios, sujetos pasivos, exenciones y fronteras entre núcleo oficial y ampliación; continuar excepciones residuales de **T3–5, T13–14** y resolver verificaciones de **UC3M 14–16** con la **fecha real de corte normativo** que determinen sus listas definitivas. El **CI del último commit queda pendiente de comprobar**, no declarar que ha terminado en `SUCCESS`. Mantener **Diputación C2 DT-C2-A** en cola y **OAPGT T6 al final**.
+
+
+## 22. Auditoría sustantiva focalizada: La Puebla temas 10 y 12 — 02/11/2026
+
+**Bloque concluido en su alcance limitado:** lectura de **12 preguntas de T10** y **12 de T12** en GitHub, contraste puntual de respuestas, plazos y excepciones con **LGT (BOE-A-2003-23186)** y **TRLRHL (BOE-A-2004-4214)** consolidados. No son **24 preguntas jurídicamente certificadas de manera integral**: el contraste sustantivo se ha concentrado en disposiciones específicas. Se respeta la aprobación editorial histórica de julio sin elevarla a recertificación de noviembre.
+
+### 22.1 Tema 10: recargos por extemporaneidad, art. 27 LGT
+
+**Fuente oficial:** https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186 (art. **27.2–5**). Además del esquema de **1 % + 1 % por mes completo** y **15 % una vez transcurridos 12 meses** (intereses posteriores), el artículo contiene **no exigencia de recargo por regularización de hechos idénticos en otros períodos si se cumplen todas las condiciones**, **posible concurrencia con recargos de ejecutiva si no se paga**, y **reducción condicionada del 25 % del importe del recargo**. El manual solo desarrollaba el esquema ordinario: se añadió tabla de plazos, condiciones, excepciones y bloque de foco de examen; se acotó expresamente **LP-T10-007** al caso general con respuesta **C** conservada.
+
+**Archivos/commits:** tema 10 **manual.md** `30e3125b` y precisión temporal `f1a9b98c`; **preguntas.json** `e9bdb190`; **fuentes.md** `1c160805`; **matriz.json** `a6852012`.
+
+### 22.2 Tema 12: corrección de error efectivo en IBI, arts. 61.5.b y 62.1.b TRLRHL
+
+**Fuente oficial:** https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214. El bloque IBI enseñaba incorrectamente que los bienes **patrimoniales municipales** no estaban sujetos solo «cuando también estén cedidos gratuitamente a otra Administración para un servicio público» y enumeraba «bienes comunales» como una categoría explícita del **61.5.b**. El **art. 61.5.b** no impone la supuesta cesión gratuita: para bienes patrimoniales del **municipio en que están enclavados** prevé **no sujeción**, con excepción de los **cedidos a terceros mediante contraprestación**. El **art. 62.1.b** establece **exención** de bienes comunales y montes vecinales en mano común; no mezclar los dos títulos legales.
+
+**Corrección:** cuadro comparativo + distinción de supuestos, precisión de la justificación de **LP-T12-003** conservando respuesta **B**. Aplicada la misma corrección, al detectarse el texto erróneo duplicado, a **Diputación Auxiliar C2 tema 13**. **No se ha reiniciado la auditoría de Diputación** ni se declara aquel tema certificado.
+
+**Archivos/commits:** tema 12 **bloque-02-ibi.md** `4e61bf22`, **preguntas.json** `538cf984` / refinamiento `eb6b8b9d`, **fuentes.md** `59008387`, **matriz.json** `70f17e02`. **Diputación C2 tema 13 manual.md** `f179eee0` (IBI).
+
+### 22.3 Tema 12: grupo de empresas en exención del IAE, art. 82.1.c TRLRHL
+
+**Fuente:** https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214 (art. **82.1.c**, regla **3.ª**). El **INCN** debe ser **inferior a 1.000.000 €**; no incluye **1.000.000 € exactos** y, cuando exista **grupo de control del art. 42 del Código de Comercio**, se considera el volumen del **conjunto de entidades del grupo** con independencia de obligación de consolidar. Se añadieron tabla y foco de examen al bloque IAE; **LP-T12-006** precisa la regla sin cambiar respuesta **C**. Corrección replicada en el mismo **tema 13 de Diputación C2**, sin rehacer su auditoría.
+
+**Archivos/commits:** **bloque-03-iae.md** `46a931f4`; tema 12 **preguntas.json** `538cf984` / `eb6b8b9d`; **Diputación C2 manual.md** `019d1dd3`.
+
+### 22.4 Pruebas de integridad, límites y siguiente subbloque
+
+**Verificación directa posterior de 10 archivos modificados:** los bancos **T10** y **T12** mantienen **12 ítems** cada uno, ID únicos, **cuatro opciones** y respuestas en rango. Conservados índices de las preguntas afectadas (**LP-T10-007: C; LP-T12-003: B; LP-T12-006: C**). Revisada la consistencia de la sección IBI, la regla de grupo del IAE, las matrices y las fuentes en el repositorio. **No se ha ejecutado** `npm test`/`npm run test:all` localmente porque **GitHub no resuelve desde el contenedor**, y **no hay evidencia de SUCCESS de GitHub Actions del último commit**. Tampoco se ha realizado prueba gráfica en navegador.
+
+**Siguiente marcador exacto:** inspección de **sujetos pasivos del Tema 10 (LGT 35–48) y Tema 12 (TRLRHL 63, 83, 94, 106)** y de las excepciones y distractores jurídicos aún sin cotejo íntegro. En paralelo, **UC3M temas 14–16**, tras verificar la fecha oficial de publicación de la resolución definitiva que fija el corte normativo. Mantener **Diputación C2 DT-C2-A** aplazado y el tema **6 OAPGT al final** según decisión registrada.
