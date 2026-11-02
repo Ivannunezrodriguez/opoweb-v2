@@ -1,3 +1,5 @@
+> **INFORME ACUMULATIVO DE ENSAYOS (DESDE 25/10/2026).** Las cifras de preguntas revisadas y resultados técnicos corresponden a las fechas citadas en cada sección; **no** certifican por sí solas los **20 temas** ni la versión actual de la web. Reanudación y porcentaje de avance documentado: [AUDITORIA_CONTINUA.md](../../AUDITORIA_CONTINUA.md). La decisión del **29/10/2026** aplaza el **tema 6** hasta el final.
+
 # Auditoría técnica de los test — Diputación de Toledo · Auxiliar C2
 
 **Fecha:** **25/10/2026**.
