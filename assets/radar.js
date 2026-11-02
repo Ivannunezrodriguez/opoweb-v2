@@ -92,17 +92,21 @@ function render(){
  const list=all.filter(visible);
  const stale=ageDays(data.generatedAt,new Date().toISOString().slice(0,10))>3;
  const statuses=(data.sourceStatus||[]).filter(x=>x.ok===true).length;
+ const docsAttempted=data.enrichmentStatus?.attempted||0;
+ const docsRead=data.enrichmentStatus?.read||0;
+ const lowDocumentCoverage=docsAttempted>=10&&docsRead/docsAttempted<0.2;
  const cards=list.length?list.slice(0,shown).map(card).join(''):'<div class="panel radar-empty">No hay fichas que cumplan los filtros. Prueba «Todos los puestos detectados» o cambia la zona.</div>';
  app.innerHTML=[
  '<section class="panel radar-hero"><div><p class="eyebrow">Detección automatizada · no equivale a solicitud abierta</p><h2>Radar de empleo público</h2>',
  '<p>Primero se muestran <strong>puestos concretos con enlace oficial</strong>. Las fichas sin puesto identificado se guardan en «Sin puesto identificable» y no provocan correos inútiles. Se muestran únicamente los requisitos y plazos que la extracción ha encontrado; el resto queda indicado como pendiente.</p>',
  stale?'<p class="notice warning">La última actualización tiene más de 3 días. Revisa los plazos en la fuente oficial.</p>':'',
+ lowDocumentCoverage?'<p class="notice warning">Lectura parcial: se pudieron leer '+docsRead+' de '+docsAttempted+' documentos examinados. Los requisitos y plazos no publicados o inaccesibles siguen pendientes de verificar en la fuente oficial.</p>':'',
  '</div><div class="radar-stats">',
  '<div class="radar-stat"><strong>'+recent.length+'</strong><span>puestos detectados en 30 días</span></div>',
  '<div class="radar-stat"><strong>'+confirmed.length+'</strong><span>plazos con fecha publicada</span></div>',
  '<div class="radar-stat"><strong>'+actionable.length+'</strong><span>fichas con puesto identificado</span></div>',
  '<div class="radar-stat"><strong>'+all.filter(x=>!x.actionable&&!x.phaseFollowup).length+'</strong><span>anuncios incompletos por investigar (no enviados por email)</span></div></div>',
- '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
+ '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Documentos oficiales leídos: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
  '<section class="panel"><div class="radar-controls">',
  '<label><span>Buscar puesto, localidad u organismo</span><input id="rq" type="search" value="'+esc(filters.q)+'" placeholder="Auxiliar, administrativo, Getafe, Toledo…"></label>',
  '<label><span>Ver</span><select id="rv"><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Todos los puestos detectados</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
