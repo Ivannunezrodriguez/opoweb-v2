@@ -39,3 +39,12 @@ jobs:
         run: node tests/validate-diputacion.mjs
       - name: Validar 99 temas de las cuatro convocatorias
         run: node tests/validate-all-programmes.mjs
+      - name: Validar Radar de empleo (sin consultar la red)
+        run: |
+          node --check tools/radar-enrich.mjs
+          node --check tools/radar.mjs
+          node --check tools/radar-notify.mjs
+          node tests/radar-fixtures.mjs
+          node tests/radar-enrich.mjs
+          python3 tests/radar-direct-test.py
+
