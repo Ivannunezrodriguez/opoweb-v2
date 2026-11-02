@@ -1,7 +1,8 @@
 # La Puebla de Montalbán · Tema 2
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Revisión editorial histórica:** **30 de julio de 2026**.  
+**Cotejo puntual del cómputo de plazos:** **2 de noviembre de 2026**; no implica recertificación integral.
 
 ---
 
@@ -631,7 +632,7 @@ Se computan desde el día siguiente a la notificación, publicación o silencio,
 
 Ejemplo: una notificación practicada el 17 de enero con plazo de un mes comienza a computarse el 18, pero vence el 17 de febrero.
 
-Si el mes de vencimiento no tiene día equivalente, el plazo termina el último día de ese mes. Una notificación del 31 de enero con plazo de un mes vence el último día de febrero.
+Si el mes de vencimiento no tiene día equivalente, el vencimiento ordinario es el último día de ese mes. **Una notificación del 31 de enero con plazo de un mes vence, en principio, el último día de febrero**; pero, **si ese último día es inhábil**, pasa al **primer día hábil siguiente** conforme al **artículo 30.5**. Nunca se debe contestar «último día de febrero» sin analizar si es hábil.
 
 ### 32.4. Último día inhábil
 
