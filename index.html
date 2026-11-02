@@ -8,7 +8,7 @@
   <title>OpoWeb v2 · Oposiciones</title>
   <link rel="manifest" href="manifest.json">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/styles.css?v=0.27.34">
   <link rel="stylesheet" href="assets/study-progress.css">
   <link rel="stylesheet" href="assets/test-history.css">
   <link rel="stylesheet" href="assets/error-review.css">
@@ -22,13 +22,13 @@
     </div>
     <div class="header-actions">
       <button id="theme-toggle" class="btn secondary" type="button" aria-label="Cambiar tema visual">🌙 Oscuro</button>
-      <span class="version" title="Versión editorial de la aplicación">v0.27.33</span>
+      <span class="version" title="Versión editorial de la aplicación">v0.27.34</span>
     </div>
   </header>
   <nav class="site-nav" aria-label="Secciones de OpoWeb">
-    <a href="index.html" aria-current="page">📚 Temarios y convocatorias</a>
-    <a href="practice.html">📝 Tests y simulacros</a>
-    <a href="radar.html">🔎 OpoRadar · Empleo público</a>
+    <a href="index.html" aria-current="page">📚 <span class="nav-full">Temarios y convocatorias</span><span class="nav-short">Temarios</span></a>
+    <a href="practice.html">📝 <span class="nav-full">Tests y simulacros</span><span class="nav-short">Practicar</span></a>
+    <a href="radar.html">🔎 <span class="nav-full">OpoRadar · Empleo público</span><span class="nav-short">Radar</span></a>
   </nav>
   <main id="app" class="layout" aria-live="polite">
     <section class="panel intro"><h2>Cargando convocatorias…</h2></section>
@@ -54,8 +54,8 @@
       // La aplicación debe arrancar aunque el navegador no permita limpiar cachés.
     }
 
-    await import('./assets/app.js?v=0.27.33');
-    import('./assets/runtime-enhancements.js?v=0.27.33').catch(() => {});
+    await import('./assets/app.js?v=0.27.34');
+    import('./assets/runtime-enhancements.js?v=0.27.34').catch(() => {});
   </script>
 </body>
 </html>
