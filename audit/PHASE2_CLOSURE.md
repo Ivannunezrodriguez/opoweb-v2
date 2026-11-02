@@ -1,3 +1,5 @@
+> **CIERRE HISTÓRICO — 30/07/2026.** Se conserva íntegra la evidencia del cierre de fase 2 de **La Puebla**; no implica recertificación de vigencia normativa ni de la interfaz a 02/11/2026. Estado operativo y cola actual: [AUDITORIA_CONTINUA.md](../AUDITORIA_CONTINUA.md). **No repetir la fase 2 desde cero**, salvo incidencia o reforma acreditada.
+
 # Cierre de Fase 2 · La Puebla de Montalbán
 
 Fecha de cierre: **30 de julio de 2026**.
