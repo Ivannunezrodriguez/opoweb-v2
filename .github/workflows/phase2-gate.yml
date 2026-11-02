@@ -1,79 +1,44 @@
 name: Puerta de cierre Fase 2
 
+# Esta puerta es una comprobación histórica; el CI continuo es validate.yml.
+# No debe escribir diagnósticos en main: otras auditorías actualizan la rama
+# mientras corre y producirían errores de git push non-fast-forward.
 on:
   workflow_dispatch:
-  push:
-    branches: [main]
-    paths:
-      - 'assets/**'
-      - 'content/la-puebla/**'
-      - 'data/programa.json'
-      - 'index.html'
-      - 'practice.html'
-      - 'sw.js'
-      - 'tests/**'
-      - 'package.json'
-      - '.github/workflows/phase2-gate.yml'
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   gate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Descargar repositorio
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
+        uses: actions/checkout@v5
       - name: Preparar Node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
-          node-version: 24
-
+          node-version: '24'
+          package-manager-cache: false
       - name: Ejecutar validación completa
-        id: validation
         shell: bash
         run: |
           set +e
-          npm test > phase2-test-output.txt 2>&1
+          npm run test:all > phase2-test-output.txt 2>&1
           code=$?
           cat phase2-test-output.txt
-          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
-          exit 0
-
-      - name: Registrar diagnóstico
-        shell: bash
-        run: |
-          mkdir -p audit
-          if [ "${{ steps.validation.outputs.exit_code }}" = "0" ]; then
-            state="VALIDACION_CI_SUPERADA"
-          else
-            state="VALIDACION_CI_FALLIDA"
-          fi
-          {
-            echo "# Resultado de la puerta de cierre · Fase 2"
-            echo
-            echo "- Estado: **${state}**"
-            echo "- Commit validado: \`${GITHUB_SHA}\`"
-            echo "- Fecha UTC: \`$(date -u +%Y-%m-%dT%H:%M:%SZ)\`"
-            echo
-            echo '```text'
-            cat phase2-test-output.txt
-            echo '```'
-          } > audit/phase2-ci-result.md
-
-      - name: Publicar evidencia
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "4189826+github-actions[bot]@users.noreply.github.com"
-          git add audit/phase2-ci-result.md
-          if ! git diff --cached --quiet; then
-            git commit -m "audit: publica diagnóstico CI de fase 2"
-            git push
-          fi
-
-      - name: Cerrar con el resultado real
-        if: steps.validation.outputs.exit_code != '0'
-        run: exit 1
+          echo "# Diagnóstico fase 2" > phase2-ci-result.md
+          echo "Commit validado: $GITHUB_SHA" >> phase2-ci-result.md
+          echo "Fecha UTC: $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> phase2-ci-result.md
+          echo "Código final: $code" >> phase2-ci-result.md
+          cat phase2-test-output.txt >> phase2-ci-result.md
+          exit "$code"
+      - name: Conservar diagnóstico como artefacto del workflow
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: fase2-diagnostico
+          path: |
+            phase2-ci-result.md
+            phase2-test-output.txt
+          retention-days: 14
