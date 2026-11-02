@@ -271,3 +271,22 @@ RÉGIMEN LOCAL
 > ⚠️ **¡Foco Examen!:** La Constitución (**art. 137**) enumera tres tipos de entidades en la organización territorial del Estado; la LRBRL (**art. 3.1**) enumera las **entidades locales territoriales**, incluyendo las **islas** y no las comunidades autónomas. Son listas distintas.
 
 **Fuentes BOE:** [Ley 7/1985 consolidada, última modificación publicada **03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) y [Constitución Española consolidada **20/05/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229). **20 preguntas** disponibles; la auditoría integral del manual y la prueba funcional de la web siguen pendientes.
+
+
+## 15. Auditoría focalizada de competencias locales — **02/11/2026**
+
+| Supuesto | Regla vigente | LRBRL |
+|---|---|---|
+| **Competencias propias** | Determinadas por **ley**, ejercidas en régimen de autonomía y bajo propia responsabilidad | **Art. 7.2** |
+| **Competencias delegadas** | Ejercidas según el acuerdo o disposición de delegación; pueden implicar dirección y control | **Art. 7.3** |
+| **Competencias distintas de propias y delegadas** | No deben poner en riesgo la **sostenibilidad financiera** ni suponer ejecución simultánea del mismo servicio | **Art. 7.4** |
+| Informes de otras competencias | Informes previos **necesarios y vinculantes**: **Administración competente por materia** sobre duplicidades y **Administración de tutela financiera** sobre sostenibilidad | **Art. 7.4** |
+| Delegación del Estado o comunidad autónoma en municipios | Duración no inferior a **5 años**, con alcance, condiciones, medios y memoria económica | **Art. 27.1** |
+| Gestión ordinaria de servicios autonómicos | **Provincias e islas** pueden asumirla según estatutos y legislación autonómica | **Art. 8** |
+| Coordinación interadministrativa | Compatible con la **autonomía local** | **Art. 10.4** |
+
+> ⚠️ **¡Foco Examen!:** El ejercicio de **competencias distintas** no se confunde con una **delegación**: en el primer caso, el artículo **7.4** exige dos informes previos y **vinculantes** y garantías frente a duplicidades y riesgo financiero.
+
+> ⚠️ **¡Foco Examen!:** La duración mínima de **5 años** corresponde a las delegaciones **en municipios** reguladas en el artículo **27.1**; no debe extenderse sin más a cualquier forma de cooperación local.
+
+Fuente: [Ley 7/1985 consolidada en el BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392). Auditoría **parcial**, no revisión jurídica integral.
