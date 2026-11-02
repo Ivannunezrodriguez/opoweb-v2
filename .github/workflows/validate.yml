@@ -31,6 +31,8 @@ jobs:
         run: node tests/validate-la-puebla-editorial.mjs
       - name: Validar motor de simulacros de La Puebla
         run: node tests/validate-practice-exam.mjs
+      - name: Validar 3 simulacros UC3M 70+5 y puntuación directa
+        run: node tests/validate-uc3m-exams.mjs
       - name: Validar programa y preguntas de Diputación C1
         run: node tests/validate-diputacion.mjs
       - name: Validar 99 temas de las cuatro convocatorias
