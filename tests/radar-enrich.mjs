@@ -13,6 +13,24 @@ assert.equal(facts.qualification,'Bachillerato');
 assert.equal(facts.deadline,'2026-11-25');
 assert.match(facts.applicationTerm,/25 de noviembre de 2026/);
 
+// Un anuncio con título genérico debe poder identificar puesto y plazas al leer el PDF.
+const titleOnly='AYUNTAMIENTO DE CAMARENA. Aprobación de las bases de selección.';
+const expanded=extractFacts(titleOnly+' Se convoca la provisión de dos plazas de Auxiliar Administrativo. Grupo C2.');
+assert.equal(expanded.position,'Auxiliar Administrativo');
+assert.equal(expanded.vacancies,2);
+assert.equal(expanded.group,'C2');
+const withoutRole=normalizeOpportunity({
+ id:'generic',title:titleOnly,source:'BOP Toledo',zone:'TOLEDO',
+ officialUrl:'https://bop.diputoledo.es/ejemplo',firstSeen:'2026-11-02',state:'REVISAR'
+},'2026-11-02');
+assert.equal(withoutRole.actionable,false);
+const expandedRadar=await enrichRadar([withoutRole],'2026-11-02',{limit:3,
+ fetchDocument:async()=>({text:expanded ? (titleOnly+' Se convoca la provisión de dos plazas de Auxiliar Administrativo. Grupo C2. Plazo de presentación de solicitudes veinte días hábiles desde publicación BOE.') : '',format:'PDF'})});
+assert.equal(expandedRadar.opportunities[0].position,'Auxiliar Administrativo');
+assert.equal(expandedRadar.opportunities[0].vacancies,2);
+assert.equal(expandedRadar.opportunities[0].actionable,true);
+assert.equal(expandedRadar.opportunities[0].deadline,null,'No inferir una fecha de cierre sin publicación y calendario');
+
 const relative=extractFacts('El plazo de presentación de solicitudes será de veinte días hábiles a contar desde el día siguiente al de la publicación en el BOE.');
 assert.match(relative.applicationTerm,/veinte días hábiles/);
 assert.equal(relative.deadline,undefined,'No calcular un plazo sin fecha y calendario oficial');
