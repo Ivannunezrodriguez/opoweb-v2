@@ -1,6 +1,6 @@
 {
   "tema": 3,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "BANCO_22_PREGUNTAS_EN_AUDITORIA",
   "preguntas": [
     {
       "id": "DIP-T03-001",
@@ -228,16 +228,16 @@
     },
     {
       "id": "DIP-T03-017",
-      "pregunta": "¿Quién ejerce la más alta inspección de la Administración del Estado de acuerdo con el artículo 54 CE?",
+      "pregunta": "¿Qué función atribuye expresamente el artículo 54 de la Constitución al Defensor del Pueblo?",
       "opciones": [
-        "El Defensor del Pueblo en el ámbito de sus funciones",
-        "El Tribunal Supremo exclusivamente",
-        "El Senado exclusivamente",
-        "El Banco de España"
+        "Supervisar la actividad de la Administración para defender los derechos del Título I",
+        "Dirigir jerárquicamente toda la Administración General del Estado",
+        "Anular directamente cualquier acto administrativo",
+        "Presidir el Tribunal Constitucional"
       ],
       "correcta": 0,
-      "justificacion": "El **Defensor del Pueblo** puede supervisar la actividad de la Administración y dar cuenta a las **Cortes Generales**; el precepto no le atribuye dirección jerárquica sobre ella.",
-      "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
+      "justificacion": "El artículo 54 CE lo configura como alto comisionado de las Cortes Generales para la defensa de los derechos del Título I, pudiendo supervisar la actividad de la Administración y dar cuenta a las Cortes.",
+      "trampa": "El artículo 54 CE no utiliza la expresión «más alta inspección» para atribuirle una jefatura jerárquica.",
       "referencia": "CE art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
     },
     {
@@ -281,6 +281,34 @@
       "justificacion": "La persona del **Rey** es inviolable y no está sujeta a responsabilidad. Sus actos estarán siempre refrendados según el artículo 64, salvo lo dispuesto en el artículo 65.2.",
       "trampa": "Diferenciar órgano, función y fundamento constitucional u orgánico exacto.",
       "referencia": "CE art. 56.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229"
+    },
+    {
+      "id": "DIP-T03-021",
+      "pregunta": "¿Cuántos diputados componen el Congreso conforme al artículo 162.1 de la LOREG?",
+      "opciones": [
+        "300",
+        "350",
+        "400",
+        "Entre 300 y 400 sin cifra legal fija"
+      ],
+      "correcta": 1,
+      "justificacion": "La LOREG fija 350 diputados; el artículo 68.1 CE establece el intervalo constitucional de 300 a 400.",
+      "trampa": "La pregunta dice «conforme a la LOREG»; si preguntase por la Constitución, la respuesta sería el intervalo 300–400.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#62-congreso-de-los-diputados"
+    },
+    {
+      "id": "DIP-T03-022",
+      "pregunta": "En la primera propuesta de elección del Defensor del Pueblo, ¿cuál es el plazo máximo para la ratificación del Senado?",
+      "opciones": [
+        "Diez días",
+        "Veinte días",
+        "Un mes",
+        "Tres meses"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 2.4 LO 3/1981 establece un máximo de veinte días para la ratificación del Senado por tres quintos.",
+      "trampa": "Los diez días se refieren al plazo mínimo para convocar el Pleno del Congreso y el mes a nuevas propuestas.",
+      "referencia": "content/diputacion-toledo/tema-03/manual.md#7-defensor-del-pueblo"
     }
   ]
 }
