@@ -386,6 +386,24 @@ async function loadManual(theme) {
   }
 }
 
+async function loadSources(theme) {
+  const slot = document.querySelector('#sources-slot');
+  if (!slot || !theme.fuentes) return;
+  slot.hidden = false;
+  slot.innerHTML = '<details><summary><strong>Fuentes oficiales, artículos y control de vigencia</strong></summary><p>Cargando referencias…</p></details>';
+  try {
+    const response = await fetchWithTimeout(theme.fuentes, { cache: 'no-cache' });
+    if (!response.ok) throw new Error('HTTP ' + response.status);
+    const sources = await response.text();
+    slot.innerHTML = '<details><summary><strong>Fuentes oficiales, artículos y control de vigencia</strong></summary>'
+      + '<p class="notice">Consulta la fecha y los límites de cada revisión. Un enlace normativo no equivale a auditoría jurídica completa.</p>'
+      + renderMarkdown(sources) + '</details>';
+  } catch (error) {
+    slot.innerHTML = '<details><summary><strong>Fuentes oficiales (error de carga)</strong></summary>'
+      + '<p class="notice warning">' + escapeHtml(error.message || 'No se pudieron consultar las fuentes.') + '</p></details>';
+  }
+}
+
 async function loadQuestions(theme) {
   const slot = document.querySelector('#test-slot');
   if (!slot) return;
@@ -410,7 +428,7 @@ async function loadQuestions(theme) {
 function openTheme(theme, { push = true } = {}) {
   const url = `#${activeCall.id}/tema-${theme.numero}`;
   if (push) history.pushState({ view: 'theme', callId: activeCall.id, theme: theme.numero }, '', url);
-  app.innerHTML = `<div class="toolbar sticky-toolbar"><button id="back" class="btn secondary" type="button">← Programa</button><button id="top" class="btn secondary" type="button">↑ Inicio</button></div><section class="panel">${badge(theme)}<h2>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h2><p class="notice">Contenido conectado a la convocatoria ${escapeHtml(activeCall.shortLabel)}.</p></section><article id="manual" class="panel manual"><p>Cargando manual…</p></article><section id="test-slot"></section>`;
+  app.innerHTML = `<div class="toolbar sticky-toolbar"><button id="back" class="btn secondary" type="button">← Programa</button><button id="top" class="btn secondary" type="button">↑ Inicio</button></div><section class="panel">${badge(theme)}<h2>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h2><p class="notice">Contenido conectado a la convocatoria ${escapeHtml(activeCall.shortLabel)}.</p></section><article id="manual" class="panel manual"><p>Cargando manual…</p></article><section id="sources-slot" class="panel manual" hidden></section><section id="test-slot"></section>`;
   document.querySelector('#back')?.addEventListener('click', () => {
     history.pushState({ view: 'programme', callId: activeCall.id }, '', location.pathname);
     renderProgramme(activeSearchQuery);
@@ -418,6 +436,7 @@ function openTheme(theme, { push = true } = {}) {
   });
   document.querySelector('#top')?.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
   loadManual(theme);
+  loadSources(theme);
   loadQuestions(theme);
 }
 
