@@ -83,7 +83,7 @@ export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=doc
  // Enrich recently detected, recognizable calls first; follow-up lists are excluded.
  const candidates=items.map((x,i)=>({x,i})).filter(({x})=>
   x.state!=='CERRADA' && x.state!=='NO_ACCESIBLE' && !x.phaseFollowup &&
-  (!x.detailsCheckedAt || (x.detailsStatus!=='LEIDO' && Date.parse(date)-Date.parse(x.detailsCheckedAt)>=7*86400000)) && safeOfficial(x.officialUrl) &&
+  (!x.detailsCheckedAt || (!x.position && x.enrichmentVersion!==2) || (x.detailsStatus!=='LEIDO' && Date.parse(date)-Date.parse(x.detailsCheckedAt)>=7*86400000)) && safeOfficial(x.officialUrl) &&
   Number.isFinite(Date.parse(x.firstSeen)) && Date.parse(date)-Date.parse(x.firstSeen)<=30*86400000)
   .sort((a,b)=>Number(b.x.isNew)-Number(a.x.isNew)||Number(!a.x.position)-Number(!b.x.position)||String(b.x.firstSeen).localeCompare(String(a.x.firstSeen)))
   .slice(0,limit);
@@ -91,7 +91,7 @@ export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=doc
  const groups=[];for(let i=0;i<candidates.length;i+=5)groups.push(candidates.slice(i,i+5));
  for(const group of groups){
   await Promise.all(group.map(async ({x,i})=>{
-   let updated={...x,detailsCheckedAt:date};
+   let updated={...x,detailsCheckedAt:date,enrichmentVersion:2};
    try{
     const doc=await fetchDocument(x.officialUrl);
     if(clean(doc.text).length<150)throw new Error('TEXTO_INSUFICIENTE');
