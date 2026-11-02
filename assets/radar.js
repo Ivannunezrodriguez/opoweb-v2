@@ -68,13 +68,14 @@ function card(o){
    meta('Localidad / destino',o.location)+meta('Tipo',o.kind)+
    meta('Plazas',o.vacancies??missing)+meta('Grupo',o.group==='REVISAR'?missing:o.group)+
    meta('Plazo de solicitudes',o.deadline?day(o.deadline):missing)+
+   (o.applicationTerm?meta('Regla de presentación',o.applicationTerm):'')+
    meta('Forma de acceso',o.access||missing)+meta('Titulación requerida',o.qualification||missing)+
    meta('Detectado por Radar',day(o.firstSeen))+
   '</div>'+
   '<p class="radar-note">'+esc(confirmation)+'</p>'+
   '<div class="radar-actions">'+official+'</div>'+
   '<div class="radar-source">Origen: '+esc(o.source||'Por identificar')+
-  ' · Identificación del puesto extraída del título, sin revisión completa de las bases.</div>'+
+  (o.detailsStatus==='LEIDO'?' · Documento oficial leído automáticamente; comprueba el texto original.':' · Datos extraídos del título; las bases pueden contener requisitos adicionales.')+'</div>'+
   '</article>';
 }
 function render(){
