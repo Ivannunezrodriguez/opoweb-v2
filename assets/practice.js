@@ -124,7 +124,7 @@ function saveAttempt(attempt, results) {
   progress.attempts = progress.attempts.slice(0, 100);
   results.forEach(result => {
     // Las preguntas en blanco no son errores y no alteran las estadísticas por tema.
-    if (result.answered === false) return;
+    if (result.answered === false || result.reserve === true) return;
     const theme = themeFromQuestion(result.question);
     if (!theme) return;
     const key = String(theme);
@@ -219,7 +219,8 @@ function renderHub() {
   document.querySelectorAll('[data-sim]').forEach(button => button.addEventListener('click', () => {
     const sim = simulacros.simulacros.find(item => item.id === button.dataset.sim);
     const questions = sim.preguntas.map(item => typeof item === 'string' ? questionMap.get(item) : normaliseQuestion(item));
-    renderExercise(questions.filter(Boolean), sim.titulo, sim.id, 'simulacro', sim.duracionMinutos);
+    const reserves = (sim.preguntasReserva || []).map(item => typeof item === 'string' ? questionMap.get(item) : normaliseQuestion(item));
+    renderExercise([...questions.filter(Boolean), ...reserves.filter(Boolean)], sim.titulo, sim.id, 'simulacro', sim.duracionMinutos, questions.length);
   }));
 }
 
@@ -240,21 +241,22 @@ function renderOpenCase(item) {
   scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function renderExercise(items, title, exerciseId, type, durationMinutes = null) {
-  let remaining = durationMinutes ? durationMinutes * 60 : null;
+function renderExercise(items, title, exerciseId, type, durationMinutes = null, primaryCount = items.length) {
+  const deadline = durationMinutes ? Date.now() + durationMinutes * 60000 : null;
   let timerId = null;
-  app.innerHTML = `<div class="toolbar sticky-toolbar practice-toolbar"><button id="practice-back" class="btn secondary" type="button">← Entrenamiento</button>${durationMinutes ? '<strong id="timer" class="timer" aria-live="polite"></strong>' : ''}<button id="finish" class="btn" type="button">Corregir</button></div><section class="panel"><h2>${escapeHtml(title)}</h2><p class="notice">Responde las que consideres oportunas y pulsa <strong>Corregir</strong>. Si hay penalización por errores, dejar una pregunta en blanco no penaliza.</p></section><form id="exercise-form" class="exercise-list">${items.map((item, index) => renderQuestion(item, index)).join('')}</form>`;
+  app.innerHTML = `<div class="toolbar sticky-toolbar practice-toolbar"><button id="practice-back" class="btn secondary" type="button">← Entrenamiento</button>${durationMinutes ? '<strong id="timer" class="timer" aria-live="polite"></strong>' : ''}<button id="finish" class="btn" type="button">Corregir</button></div><section class="panel"><h2>${escapeHtml(title)}</h2><p class="notice">Responde las que consideres oportunas y pulsa <strong>Corregir</strong>. Si hay penalización por errores, dejar una pregunta en blanco no penaliza.</p></section><form id="exercise-form" class="exercise-list">${items.map((item, index) => `${index === primaryCount ? '<section class="panel"><h3>Preguntas de reserva (R1–R5)</h3><p>Respóndelas dentro de los mismos 60 minutos. No computan en la nota salvo que el tribunal anule preguntas titulares; el simulador muestra su corrección por separado.</p></section>' : ''}${renderQuestion(item, index, index >= primaryCount, primaryCount)}`).join('')}</form>`;
   document.querySelector('#practice-back').addEventListener('click', () => { if (timerId) clearInterval(timerId); renderHub(); });
-  document.querySelector('#finish').addEventListener('click', () => finishExercise(items, timerId, { exerciseId, title, type }));
+  document.querySelector('#finish').addEventListener('click', () => finishExercise(items, timerId, { exerciseId, title, type, primaryCount }));
   if (durationMinutes) {
     const timer = document.querySelector('#timer');
     const updateTimer = () => {
+      // El reloj real evita que los intervalos retrasados (móvil en segundo plano) regalen tiempo.
+      const remaining = Math.max(0, Math.ceil((deadline - Date.now()) / 1000));
       const minutes = Math.floor(remaining / 60);
       const seconds = remaining % 60;
       timer.textContent = `⏱ ${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
       if (remaining <= 300) timer.classList.add('timer-warning');
-      if (remaining <= 0) { clearInterval(timerId); finishExercise(items, null, { exerciseId, title, type }); return; }
-      remaining -= 1;
+      if (remaining <= 0) { clearInterval(timerId); finishExercise(items, null, { exerciseId, title, type, primaryCount }); return; }
     };
     updateTimer();
     timerId = setInterval(updateTimer, 1000);
@@ -262,25 +264,35 @@ function renderExercise(items, title, exerciseId, type, durationMinutes = null) 
   scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-function renderQuestion(item, index) {
+function renderQuestion(item, index, isReserve = false, primaryCount = 0) {
+  const questionLabel = isReserve ? 'R' + (index - primaryCount + 1) : String(index + 1);
   const prompt = item.enunciado ? `${item.enunciado} ${item.pregunta}` : item.pregunta;
-  return `<fieldset class="panel question-card" data-question="${index}"><legend><span>${index + 1}</span> ${escapeHtml(item.titulo || item.id)}</legend><p class="question-text">${escapeHtml(prompt)}</p><div class="option-list">${item.opciones.map((option, optionIndex) => `<label class="option-row"><input type="radio" name="q-${index}" value="${optionIndex}"><span><strong>${String.fromCharCode(65 + optionIndex)}.</strong> ${escapeHtml(option)}</span></label>`).join('')}</div><div class="solution" hidden></div></fieldset>`;
+  return `<fieldset class="panel question-card" data-question="${index}"><legend><span>${questionLabel}</span> ${escapeHtml(item.titulo || item.id)}</legend><p class="question-text">${escapeHtml(prompt)}</p><div class="option-list">${item.opciones.map((option, optionIndex) => `<label class="option-row"><input type="radio" name="q-${index}" value="${optionIndex}"><span><strong>${String.fromCharCode(65 + optionIndex)}.</strong> ${escapeHtml(option)}</span></label>`).join('')}</div><div class="solution" hidden></div></fieldset>`;
 }
 
 function finishExercise(items, timerId, metadata) {
   if (document.querySelector('#finish')?.disabled) return;
   if (timerId) clearInterval(timerId);
+  const primaryCount = metadata.primaryCount ?? items.length;
   let correct = 0;
   let answered = 0;
+  let reserveCorrect = 0;
+  let reserveAnswered = 0;
   const results = [];
   items.forEach((item, index) => {
     const card = document.querySelector(`[data-question="${index}"]`);
     const selected = card.querySelector('input:checked');
     const selectedIndex = selected ? Number(selected.value) : null;
     const isCorrect = selectedIndex === item.correcta;
-    if (selected) answered += 1;
-    if (isCorrect) correct += 1;
-    results.push({ question: item, correct: isCorrect, answered: Boolean(selected) });
+    const isReserve = index >= primaryCount;
+    if (isReserve) {
+      if (selected) reserveAnswered += 1;
+      if (isCorrect) reserveCorrect += 1;
+    } else {
+      if (selected) answered += 1;
+      if (isCorrect) correct += 1;
+    }
+    results.push({ question: item, correct: isCorrect, answered: Boolean(selected), reserve: isReserve });
     card.classList.add(isCorrect ? 'question-correct' : selected ? 'question-wrong' : 'question-unanswered');
     card.querySelectorAll('input').forEach(input => { input.disabled = true; });
     card.querySelectorAll('.option-row').forEach((row, optionIndex) => {
@@ -291,7 +303,7 @@ function finishExercise(items, timerId, metadata) {
     solution.hidden = false;
     solution.innerHTML = `<p><strong>Respuesta correcta:</strong> ${String.fromCharCode(65 + item.correcta)}. ${escapeHtml(item.opciones[item.correcta])}</p><p><strong>Justificación:</strong> ${escapeHtml(item.justificacion)}</p>${item.trampa ? `<blockquote>⚠️ <strong>¡Foco Examen!:</strong> ${escapeHtml(item.trampa)}</blockquote>` : ''}${item.referencia ? `<p class="reference"><strong>Referencia:</strong> ${escapeHtml(item.referencia)}</p>` : ''}`;
   });
-  const percentage = Math.round((correct / items.length) * 100);
+  const percentage = Math.round((correct / primaryCount) * 100);
   const officialExam = metadata.type === 'simulacro' && simulacros?.simulacros?.some(
     sim => sim.id === metadata.exerciseId && sim.tipoPuntuacion === 'EXAMEN_LA_PUEBLA_2026'
   );
@@ -299,10 +311,10 @@ function finishExercise(items, timerId, metadata) {
   // Solo modelo La Puebla: +0,20/acierto, -0,05/error, 0/en blanco; reservas fuera de la nota.
   const examGrade = officialExam ? Number(Math.max(0, correct * 0.2 - errors * 0.05).toFixed(2)) : null;
   const completedAt = new Date().toISOString();
-  saveAttempt({ id: metadata.exerciseId, type: metadata.type, title: metadata.title, correct, answered, total: items.length, percentage, notaExamen: examGrade, completedAt }, results);
+  saveAttempt({ id: metadata.exerciseId, type: metadata.type, title: metadata.title, correct, answered, total: primaryCount, percentage, notaExamen: examGrade, completedAt }, results);
   const result = document.createElement('section');
   result.className = 'panel result-panel';
-  result.innerHTML = `<h2>${officialExam ? `Nota de examen: ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'APTO' : 'NO APTO'}` : `Resultado: ${correct}/${items.length} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${items.length - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota.' : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
+  result.innerHTML = `<h2>${officialExam ? `Nota de examen: ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'APTO' : 'NO APTO'}` : `Resultado: ${correct}/${items.length} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota.' : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
   document.querySelector('#exercise-form').prepend(result);
   document.querySelector('#finish').disabled = true;
   document.querySelector('#finish').textContent = 'Corregido';
