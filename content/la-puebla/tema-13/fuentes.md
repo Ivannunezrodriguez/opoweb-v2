@@ -3,7 +3,7 @@
 **Revisión de fuente:** **02/11/2026**, sin auditoría individual completa de todas las preguntas.
 
 - **BOP Toledo núm. 82, 05/05/2026, anuncio 2026-1965, CSV 2026.00001965**.
-- [**Reglamento (UE) 910/2014 eIDAS (DOUE-L-2014-81822)**](https://www.boe.es/buscar/doc.php?id=DOUE-L-2014-81822), modificado por [**Reglamento (UE) 2024/1183**](https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-80726).
+- [**Reglamento (UE) 910/2014 eIDAS (DOUE-L-2014-81822)**](https://www.boe.es/buscar/doc.php?id=DOUE-L-2014-81822), modificado por [**Reglamento (UE) 2024/1183**](https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-80608).
 - [**Ley 6/2020, de servicios electrónicos de confianza (BOE-A-2020-14046)**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046). **Derogó Ley 59/2003**.
 - [**Ley 39/2015, arts. 9–12**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), identificación y firma.
 - [**Ley 40/2015, arts. 38 y 40–43**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), sellos, sedes y actuaciones automatizadas.
