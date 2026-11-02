@@ -1,7 +1,7 @@
 {
   "tema": 12,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-07-25",
+  "version": "2026-11-02",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -49,9 +49,9 @@
         "Un inmueble declarado monumento histórico que cumple los requisitos de exención"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Las carreteras, caminos y demás vías terrestres de aprovechamiento público y gratuito no están sujetos al IBI. Los restantes supuestos propuestos son ejemplos de exenciones, no de no sujeción.",
-      "trampaExamen": "La no sujeción impide que nazca el hecho imponible; la exención presupone que sí se ha realizado.",
-      "referencia": "bloque-02-ibi.md · artículos 61.5 y 62"
+      "justificacion": "El artículo 61.5.a del TRLRHL declara no sujetos los caminos y vías terrestres de aprovechamiento público y gratuito. El artículo 62 recoge exenciones distintas, como las relativas a la Cruz Roja y a inmuebles docentes concertados bajo las condiciones establecidas.",
+      "trampaExamen": "La no sujeción del art. 61.5 no equivale a la exención del art. 62. Para bienes patrimoniales municipales, el art. 61.5.b excluye de su no sujeción los cedidos onerosamente a terceros; no exige cesión gratuita a otra Administración.",
+      "referencia": "bloque-02-ibi.md · TRLRHL, artículos 61.5.a–b y 62"
     },
     {
       "id": "LP-T12-004",
@@ -83,7 +83,7 @@
     },
     {
       "id": "LP-T12-006",
-      "enunciado": "¿Cuál es el umbral general de cifra de negocios por debajo del cual determinadas sociedades y entidades pueden estar exentas del IAE?",
+      "enunciado": "Con carácter general, y cumpliéndose el resto de requisitos legales (incluido el cómputo agregado cuando exista grupo), ¿qué importe neto de cifra de negocios debe ser inferior al umbral de exención del IAE para determinadas sociedades y entidades?",
       "opciones": [
         "500.000 euros",
         "750.000 euros",
@@ -91,9 +91,9 @@
         "2.000.000 de euros"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Determinados sujetos están exentos cuando su importe neto de la cifra de negocios es inferior a 1.000.000 de euros, siempre que se cumplan los requisitos legales.",
-      "trampaExamen": "El umbral se refiere al importe neto de la cifra de negocios, no al beneficio neto.",
-      "referencia": "bloque-03-iae.md · artículo 82 · cifra de negocios"
+      "justificacion": "El artículo 82.1.c TRLRHL establece la exención por importe neto de cifra de negocios inferior a 1.000.000 de euros; el límite es estricto, no incluye 1.000.000 exactos. Para grupos de sociedades controlados conforme al artículo 42 del Código de Comercio se tiene en cuenta el importe neto del conjunto del grupo.",
+      "trampaExamen": "Una sociedad individual con facturación inferior al millón puede no estar exenta si pertenece a un grupo cuyo volumen agregado supera el límite; «inferior a» excluye 1.000.000 € exactos.",
+      "referencia": "bloque-03-iae.md · TRLRHL, artículo 82.1.c y regla 3.ª"
     },
     {
       "id": "LP-T12-007",
@@ -179,5 +179,14 @@
       "trampaExamen": "El comprador no se convierte en contribuyente: ocupa la posición de sustituto.",
       "referencia": "bloque-05b-iivtnu-sujetos.md · artículo 106 · transmitente no residente"
     }
-  ]
+  ],
+  "revisionFocalizada": {
+    "fecha": "2026-11-02",
+    "preguntas": [
+      "LP-T12-003",
+      "LP-T12-006"
+    ],
+    "normativa": "RDL 2/2004, artículos 61.5, 62 y 82.1.c",
+    "alcance": "Corrección de explicación de bienes municipales y matización del umbral agregado de grupo en IAE; claves no modificadas, revisión integral pendiente."
+  }
 }
