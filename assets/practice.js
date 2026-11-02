@@ -184,7 +184,7 @@ async function loadQuestionBanks() {
 
 function renderHistory(progress) {
   if (!progress.attempts.length) return '<p class="empty-state">Todavía no hay ejercicios corregidos en este dispositivo.</p>';
-  return `<div class="history-summary"><div><span>Intentos</span><strong>${progress.attempts.length}</strong></div><div><span>Media</span><strong>${progress.average}%</strong></div><div><span>Mejor resultado</span><strong>${progress.best}%</strong></div></div><div class="history-list">${progress.attempts.slice(0, 8).map(item => `<article class="history-item"><div><strong>${escapeHtml(item.title)}</strong><span>${formatAttemptDate(item.completedAt)}</span></div><b>${item.notaExamen != null ? `${Number(item.notaExamen).toFixed(2).replace('.', ',')}/10` : `${item.correct}/${item.total} · ${item.percentage}%`}</b></article>`).join('')}</div>`;
+  return `<div class="history-summary"><div><span>Intentos</span><strong>${progress.attempts.length}</strong></div><div><span>Media</span><strong>${progress.average}%</strong></div><div><span>Mejor resultado</span><strong>${progress.best}%</strong></div></div><div class="history-list">${progress.attempts.slice(0, 8).map(item => `<article class="history-item"><div><strong>${escapeHtml(item.title)}</strong><span>${formatAttemptDate(item.completedAt)}</span></div><b>${item.notaExamen != null ? `${Number(item.notaExamen).toFixed(2).replace('.', ',')}/10` : `${item.notaDirecta != null ? `${Number(item.notaDirecta).toFixed(2).replace('.', ',')}/70 directa` : `${item.correct}/${item.total} · ${item.percentage}%`}`}</b></article>`).join('')}</div>`;
 }
 
 function callSelector() {
@@ -195,14 +195,16 @@ function renderHub() {
   const progress = progressSummary();
   const examBanner = activeCall.id === 'la-puebla-auxiliar-administrativo-2026'
     ? '<section class="panel"><h2>La Puebla · primer ejercicio, sábado 14/11/2026</h2><p><strong>9:30 h · IES Universidad Laboral de Toledo, Avenida de Europa 28.</strong> Acude con DNI o identificación equivalente.</p><p><strong>50 preguntas titulares + 5 de reserva · 60 minutos · 4 opciones.</strong> Acierto +0,20; error −0,05; blanco 0; se exige un mínimo de 5 sobre 10. El segundo ejercicio es práctico.</p><p>Los simulacros de 50+5 muestran y permiten responder las reservas, pero su nota normal se calcula solo con las 50 titulares. Fuente: bases publicadas en BOP Toledo n.º 82, de 05/05/2026, base undécima, y anuncio del tribunal aportado el 02/11/2026.</p></section>'
-    : '';
+    : activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026'
+      ? '<section class="panel"><h2>UC3M C2 · Ejercicio único 21/11/2026</h2><p><strong>70 preguntas + 5 reservas, 60 minutos, cuatro respuestas.</strong> Puntuación directa = aciertos − errores/3; en blanco 0.</p><p><strong>La nota de corte directa la establece el tribunal.</strong> La puntuación transformada sobre 70 y la condición de aprobado no pueden deducirse de un simulacro. Los tres modelos son entrenamiento creado a partir de preguntas de OpoWeb, no exámenes oficiales.</p><p>Fuente: convocatoria de 34 plazas, BOE-A-2026-14624, anexos II y III. Comprueba en el llamamiento oficial hora, campus y aula.</p></section>'
+      : '';
   const openCases = supuestos.supuestos.filter(item => Array.isArray(item.cuestiones));
   const testCases = supuestos.supuestos.filter(item => !Array.isArray(item.cuestiones));
   app.innerHTML = `
     <section class="panel intro"><div class="intro-row"><div><h2>Centro de entrenamiento · ${escapeHtml(activeCall.shortLabel)}</h2><p>Tests por tema, supuestos prácticos y simulacros con justificación, trampa y referencia.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${supuestos.supuestos.length}</strong><span>supuestos prácticos</span></div><div class="summary-card"><strong>${simulacros.simulacros.length}</strong><span>simulacros</span></div><div class="summary-card"><strong>${progress.attempts.length}</strong><span>intentos guardados</span></div></div></section>
     ${examBanner}
     <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div>${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div>${renderHistory(progress)}</section>
-    <section class="panel"><h2>Test por tema</h2><p class="search-count">Doce preguntas por cada uno de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}"><span class="badge approved">12 preguntas · ${escapeHtml(score)}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
+    <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}"><span class="badge approved">${[...questionMap.values()].filter(q => q.tema === theme.numero).length} preguntas · ${escapeHtml(score)}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
     <section class="panel"><h2>Supuestos prácticos</h2><p class="search-count">Casos transversales con solución razonada y trazabilidad.</p><div class="practice-grid">${[...testCases, ...openCases].map(item => `<button class="practice-card" type="button" data-case="${item.id}"><span class="badge approved">Temas ${(item.temas || []).join(', ')}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join('')}</div></section>
     <section class="panel"><h2>Simulacros transversales</h2><div class="practice-grid">${simulacros.simulacros.map(item => `<button class="practice-card" type="button" data-sim="${item.id}"><span class="badge approved">${item.preguntas.length} preguntas${item.preguntasReserva?.length ? ' + 5 de reserva' : ''} · ${item.duracionMinutos} min</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.instrucciones || 'Corrección al finalizar.')}</p></button>`).join('')}</div></section>`;
 
@@ -308,17 +310,21 @@ function finishExercise(items, timerId, metadata) {
     solution.innerHTML = `<p><strong>Respuesta correcta:</strong> ${String.fromCharCode(65 + item.correcta)}. ${escapeHtml(item.opciones[item.correcta])}</p><p><strong>Justificación:</strong> ${escapeHtml(item.justificacion)}</p>${item.trampa ? `<blockquote>⚠️ <strong>¡Foco Examen!:</strong> ${escapeHtml(item.trampa)}</blockquote>` : ''}${item.referencia ? `<p class="reference"><strong>Referencia:</strong> ${escapeHtml(item.referencia)}</p>` : ''}`;
   });
   const percentage = Math.round((correct / primaryCount) * 100);
-  const officialExam = metadata.type === 'simulacro' && simulacros?.simulacros?.some(
-    sim => sim.id === metadata.exerciseId && sim.tipoPuntuacion === 'EXAMEN_LA_PUEBLA_2026'
-  );
+  const examFormat = metadata.type === 'simulacro'
+    ? simulacros?.simulacros?.find(sim => sim.id === metadata.exerciseId)?.tipoPuntuacion
+    : null;
+  const officialExam = examFormat === 'EXAMEN_LA_PUEBLA_2026';
+  const uc3mExam = examFormat === 'EXAMEN_UC3M_2026';
   const errors = answered - correct;
   // Solo modelo La Puebla: +0,20/acierto, -0,05/error, 0/en blanco; reservas fuera de la nota.
   const examGrade = officialExam ? Number(Math.max(0, correct * 0.2 - errors * 0.05).toFixed(2)) : null;
+  // UC3M: nota DIRECTA A-E/3; no declarar APTO ni inferir transformación, su corte lo fija el tribunal.
+  const directScore = uc3mExam ? Number((correct - errors / 3).toFixed(2)) : null;
   const completedAt = new Date().toISOString();
-  saveAttempt({ id: metadata.exerciseId, type: metadata.type, title: metadata.title, correct, answered, total: primaryCount, percentage, notaExamen: examGrade, completedAt }, results);
+  saveAttempt({ id: metadata.exerciseId, type: metadata.type, title: metadata.title, correct, answered, total: primaryCount, percentage, notaExamen: examGrade, notaDirecta: directScore, completedAt }, results);
   const result = document.createElement('section');
   result.className = 'panel result-panel';
-  result.innerHTML = `<h2>${officialExam ? `Nota de examen: ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'APTO' : 'NO APTO'}` : `Resultado: ${correct}/${items.length} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota.' : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
+  result.innerHTML = `<h2>${officialExam ? `Nota de examen: ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'APTO' : 'NO APTO'}` : uc3mExam ? `Puntuación directa UC3M: ${directScore.toFixed(2).replace('.', ',')}/70 · corte pendiente del tribunal` : `Resultado: ${correct}/${primaryCount} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota.' : uc3mExam ? ' UC3M: puntuación directa = aciertos − errores/3. La calificación transformada y la superación dependen del corte que determine el tribunal; este simulacro NO declara APTO. Las reservas no puntúan salvo anulaciones oficiales.' : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
   document.querySelector('#exercise-form').prepend(result);
   document.querySelector('#finish').disabled = true;
   document.querySelector('#finish').textContent = 'Corregido';
