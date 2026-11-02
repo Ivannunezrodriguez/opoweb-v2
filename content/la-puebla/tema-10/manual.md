@@ -18,7 +18,8 @@ Fuente del programa: BOP de Toledo número 82, de 5 de mayo de 2026, código `20
 
 - Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales —TRLRHL—.
 - Referencia oficial: `BOE-A-2004-4214`.
-- Texto consolidado consultado: última actualización publicada el **3 de junio de 2026**.
+- **Texto consultado durante la revisión editorial de julio:** actualización publicada el **3 de junio de 2026**.
+- **Control puntual de vigencia de **2 de noviembre de 2026****: el [TRLRHL consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) incluye modificaciones posteriores de **30/09**, **02/10** y **07/10/2026**. El cambio de **30/09** en los arts. **72 y 107.4** fue dejado sin efecto por [Resolución de **02/10/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20526); el posterior [**RDL 29/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20823) vuelve a regular esos artículos. Estos artículos pertenecen a **tipos del IBI y coeficientes de IIVTNU**, **no** al núcleo de **delegación, colaboración, beneficios fiscales, obligaciones y sujetos tributarios** de este tema. **La LGT sigue mostrando actualización del 21/12/2024**, sin nueva reforma consolidada a esta fecha. Este cotejo es **focalizado, no una recertificación integral**.
 
 ### Norma tributaria general
 
