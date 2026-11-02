@@ -93,3 +93,23 @@
 |---|---|---|
 | **02/11/2026** | Inventario de estados, informes y prioridades; reconciliación con la orden de posponer OAPGT | **Registro principal actualizado; siguiente tarea DT-C2-T01** |
 
+
+
+## 8. Conciliación aplicada a los documentos de estado — **02/11/2026**
+
+**Escrituras confirmadas en GitHub:**
+
+- `README.md`: sustituido «Estado actual» antiguo por resumen de **99 temas** y acceso a este registro; corregidas afirmaciones obsoletas de bancos vacíos y validez de la última CI. **NO** se ha repetido la auditoría jurídica de los manuales.
+- `AUDIT_STATUS.md`: reconvertido en **punto de acceso**, no segunda cola activa.
+- `PROJECT_RULES.md`: reanudación y decisiones desde este archivo; explicado por qué `GENERACION_DESDE_CERO` no es aprobación.
+- `TRANSVERSAL_REVIEW.md`, `QA_FINAL_2026-07-18.md`, `audit/PHASE2_CLOSURE.md` y `audit/phase2-ci-result.md`: señalados como **evidencia histórica**; no alterada su evidencia sustantiva.
+- `docs/ROADMAP_PRIORIDADES_2026-07-18.md` y `docs/FORMATO_SIMETRICO_CONVOCATORIAS.md`: diferenciados plan antiguo y cuatro convocatorias actuales.
+- `content/diputacion-toledo-auxiliar-c2/PLAN_EDITORIAL_Y_AUDITORIA.md` y `AUDITORIA_TESTS_2026-10-25.md`: enlazados al estado principal; se respeta **OAPGT al final** y no se presentan como cierres vigentes.
+- `data/programa-diputacion-auxiliar-c2-2026.json`: **19 EN_REVISION_USUARIO + 1 BORRADOR (tema 6)**, JSON analizado correctamente tras la modificación. **Los 20 manuales C2** llevan una cabecera de estado operativo; los anteriores hitos de revisión se conservan debajo.
+- `assets/app.js`: estados desconocidos o `GENERACION_DESDE_CERO` ahora **no** se etiquetan automáticamente como publicados.
+- `data/convocatorias.json`: corregidos estados editoriales; los plazos **UC3M** y **CPEIS** que figuraban abiertos pese a haber vencido según las fechas registradas se muestran como **cerrados por fecha**, sin fingir nueva comprobación oficial. JSON analizado correctamente.
+- `data/seguimiento-diputacion-c1.json`: fecha de **BOE núm. 162** corregida a **04/07/2026** contra [BOE-A-2026-14527](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14527); la fecha de verificación de listas sigue siendo la original.
+
+**Validación efectivamente realizada aquí:** lectura y análisis JSON de los manifiestos y fichas modificados y comprobación textual de la función `themeStatus`. **No** se ha ejecutado `npm test` para el commit actual ni una nueva prueba real de navegador. La consulta de estados de GitHub para un commit reciente devolvió **0 checks**, lo que **no** prueba por sí solo ni éxito ni fallo de CI. Por tanto, **pruebas funcionales y CI actual pendientes**.
+
+**No avanzar la TAREA ACTIVA por estas normalizaciones.** El siguiente trabajo sustantivo sigue siendo **DT-C2-T01**. Tras cada corrección de un tema, actualizar tanto la cabecera del manual y su entrada de manifiesto como la evidencia de este registro, únicamente si las puertas de calidad lo permiten.
