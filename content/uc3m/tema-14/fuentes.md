@@ -33,3 +33,19 @@ La revisión transversal de julio de 2026 ha corregido dos omisiones relevantes 
 - la obligación de destinar al menos el **5 %** del presupuesto universitario a programas propios de investigación.
 
 > Para la preparación se utiliza el texto consolidado del BOE y se verifica cada dato susceptible de pregunta con la redacción vigente.
+
+## Control de porcentajes de representación — **03/11/2026**
+
+Fuente primaria: [**LOSU, artículos 45.3 y 46.3 (BOE-A-2023-7500)**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500). La consolidación del BOE muestra última actualización publicada **02/08/2024**, pero sigue pendiente comprobar la fecha exacta de publicación de las **listas definitivas UC3M**, que determina el corte exigible según las bases de este proceso.
+
+| Materia | Cuota legal |
+|---|---|
+| **Claustro**: estudiantado | **Mínimo 25 %** (**art. 45.3**) |
+| **Claustro**: PDI de cuerpos funcionarios y profesorado permanente laboral | **51 %** (**art. 45.3**) |
+| **Consejo de Gobierno**: estudiantado | **Mínimo 10 %** (**art. 46.3**) |
+| **Consejo de Gobierno**: PTGAS | **Mínimo 10 %** (**art. 46.3**) |
+| **Consejo de Gobierno**: miembros elegidos por el Rector | **Un tercio**, incluidos miembros natos (**art. 46.3**) |
+
+> ⚠️ **¡Foco Examen!:** El **25 %** corresponde al estudiantado del **Claustro**, no del **Consejo de Gobierno**, donde la LOSU establece **10 % mínimo**. La regla del **51 %** se refiere a docentes del Claustro, no al alumnado.
+
+**Cambio editorial:** ampliado el apartado 2 del manual UC3M tema 14 y sustituida la antigua pregunta general **UC3M-T14-002** por una pregunta verificable sobre el **25 % mínimo del Claustro**. La clave pasa de **B** a **C** de forma **intencionada**, conservando las **14** preguntas. **No equivale a certificar todo el tema ni fija la fecha de corte normativo del ejercicio**.
