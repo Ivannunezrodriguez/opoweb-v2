@@ -77,9 +77,9 @@
         "Dos tercios de sus miembros, sin excepción"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La constitución ordinaria exige Presidente y Secretario, o sus suplentes, y la asistencia de al menos la mitad de los miembros.",
-      "trampaExamen": "La ley no exige unanimidad ni asistencia de dos tercios para la constitución ordinaria.",
-      "referencia": "manual.md · apartado 6 · Artículo 17"
+      "justificacion": "El artículo 17.2 de la Ley 40/2015 exige para la constitución ordinaria la presencia física o a distancia del Presidente y Secretario, o sus suplentes, y de al menos la mitad de los miembros. Existen especialidades legales: órganos representativos del artículo 15.2 y constitución sin convocatoria previa si están el Secretario y todos los miembros y todos lo acuerdan. Puede establecerse un régimen de segunda convocatoria (artículo 17.3).",
+      "trampaExamen": "No extrapolar el quórum ordinario a una constitución sin convocatoria: en esa hipótesis deben reunirse todos los miembros y el Secretario y decidir todos constituirse. El orden del día regula una excepción distinta (art. 17.4).",
+      "referencia": "manual.md · apartado 6; bloque-02-colegiados-abstencion.md · apartado 3 · Ley 40/2015, artículos 17.2–4"
     },
     {
       "id": "LP-T14-006",
@@ -183,9 +183,10 @@
   "revisionFocalizada": {
     "fecha": "2026-11-03",
     "preguntas": [
-      "LP-T14-004"
+      "LP-T14-004",
+      "LP-T14-005"
     ],
-    "articulos": "Ley 40/2015, artículo 10",
-    "alcance": "Competencia para avocar cuando la delegación recae en órgano sin dependencia jerárquica; respuesta correcta B conservada y aprobación histórica sin alterar."
+    "articulos": "Ley 40/2015, artículos 10 y 17.2–4",
+    "alcance": "Competencia para avocar cuando la delegación recae en órgano sin dependencia jerárquica; respuesta correcta B conservada y aprobación histórica sin alterar. También se delimita quórum ordinario de constitución sin convocatoria (art. 17), conservando respuesta correcta B de T14-005."
   }
 }
