@@ -27,6 +27,20 @@ El estudiantado participa en los órganos colegiados de las universidades y en l
 
 La representación estudiantil debe ser real y compatible con el progreso académico. Pueden establecerse medidas de apoyo, reconocimiento o compensación académica por el ejercicio responsable de funciones representativas.
 
+### Porcentajes legales de representación (LOSU, arts. 45 y 46)
+
+| Órgano o colectivo | Regla legal | Precepto |
+|---|---|---|
+| Estudiantado en el **Claustro Universitario** | Representación de **al menos el 25 %** | **Art. 45.2** |
+| Personal de cuerpos docentes universitarios funcionario y profesorado permanente laboral en el **Claustro** | **51 % de los miembros** | **Art. 45.2** |
+| Estudiantado en el **Consejo de Gobierno** | **Mínimo 10 %** | **Art. 46.3** |
+| **PTGAS** en el **Consejo de Gobierno** | **Mínimo 10 %** | **Art. 46.3** |
+| Miembros del **Consejo de Gobierno** elegidos por el **Rector** | **Un tercio**, incluyendo miembros natos en ese cupo | **Art. 46.3** |
+
+Estas cifras son **mínimos o porcentajes de composición establecidos por la LOSU**; no deben confundirse con las mayorías para adoptar acuerdos. La composición concreta se desarrolla en los Estatutos y dentro del marco de la ley.
+
+> ⚠️ **¡Foco Examen!:** Estudiantado: **25 % mínimo en el Claustro** frente a **10 % mínimo en el Consejo de Gobierno**. El **51 %** del Claustro corresponde al conjunto docente señalado por el **artículo 45.2**, no a estudiantes. El **tercio del Consejo de Gobierno** elegido por el Rector **incluye a los miembros natos**.
+
 Las universidades deben promover políticas de salud, bienestar emocional, prevención del acoso, convivencia, inclusión y atención a la discapacidad.
 
 ## 3. Régimen jurídico de las universidades públicas
