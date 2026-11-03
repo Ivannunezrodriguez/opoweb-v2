@@ -31,8 +31,8 @@ La representación estudiantil debe ser real y compatible con el progreso acadé
 
 | Órgano o colectivo | Regla legal | Precepto |
 |---|---|---|
-| Estudiantado en el **Claustro Universitario** | Representación de **al menos el 25 %** | **Art. 45.2** |
-| Personal de cuerpos docentes universitarios funcionario y profesorado permanente laboral en el **Claustro** | **51 % de los miembros** | **Art. 45.2** |
+| Estudiantado en el **Claustro Universitario** | Representación de **al menos el 25 %** | **Art. 45.3** |
+| Personal de cuerpos docentes universitarios funcionario y profesorado permanente laboral en el **Claustro** | **51 % de los miembros** | **Art. 45.3** |
 | Estudiantado en el **Consejo de Gobierno** | **Mínimo 10 %** | **Art. 46.3** |
 | **PTGAS** en el **Consejo de Gobierno** | **Mínimo 10 %** | **Art. 46.3** |
 | Miembros del **Consejo de Gobierno** elegidos por el **Rector** | **Un tercio**, incluyendo miembros natos en ese cupo | **Art. 46.3** |
