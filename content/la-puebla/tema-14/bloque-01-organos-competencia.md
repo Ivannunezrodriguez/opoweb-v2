@@ -106,14 +106,21 @@ Un órgano superior puede asumir para sí uno o varios asuntos que corresponden 
 - jurídicas;
 - territoriales.
 
-Si la delegación se hizo en un órgano no dependiente jerárquicamente, solo puede avocar el órgano delegante.
+Si la delegación se hizo en un órgano **no dependiente jerárquicamente**, solo puede avocar el **órgano delegante** (**art. 10.1 de la Ley 40/2015**).
+
+| Caso de avocación | Quién puede asumir el conocimiento |
+|---|---|
+| Asunto atribuido ordinariamente o por delegación a un **órgano dependiente** | El **órgano superior jerárquico**, por las circunstancias legales |
+| Asunto cuya competencia se delegó en otro **órgano sin dependencia jerárquica** | **Únicamente el órgano delegante** |
 
 La avocación exige:
 
-- acuerdo motivado;
-- notificación a los interesados antes o simultáneamente a la resolución final.
+- **acuerdo motivado** del órgano competente para avocar;
+- **notificación a los interesados, si los hubiere**, antes o simultáneamente a la resolución final.
 
-No cabe recurso autónomo contra la avocación. Puede cuestionarse al recurrir la resolución final.
+**No cabe recurso autónomo** contra el acuerdo de avocación, pero podrá impugnarse en el recurso contra la **resolución final**.
+
+> ⚠️ **¡Foco Examen!:** La excepción de la **delegación en órgano no dependiente jerárquicamente** impide afirmar que toda avocación compete al superior jerárquico. En ese caso, la ley reserva la avocación **exclusivamente al órgano delegante**. No confundir **avocación** con **revocación de la delegación**, que son decisiones distintas.
 
 ## 7. Artículo 11 · encomienda de gestión
 
