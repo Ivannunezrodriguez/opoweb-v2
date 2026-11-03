@@ -60,9 +60,20 @@ Para la válida constitución deben asistir, presencialmente o a distancia:
 - Presidente y Secretario o sus suplentes;
 - al menos la mitad de los miembros.
 
-En los órganos representativos del artículo 15.2 puede bastar la asistencia de los portavoces de las Administraciones y organizaciones representadas cuando el Presidente así lo considere conforme a la ley.
+En los órganos representativos del **artículo 15.2**, el **Presidente** puede considerar constituido el órgano cuando asistan los **portavoces de las Administraciones y organizaciones representadas** a quienes se haya atribuido esa condición, conforme al **artículo 17.2**.
 
-El órgano puede establecer un régimen de segunda convocatoria y el quórum necesario.
+**Excepción: constitución sin convocatoria previa.** Si están reunidos **el Secretario y todos los miembros del órgano colegiado**, o quienes legalmente les suplan, pueden constituirse válidamente **sin convocatoria previa cuando lo decidan todos los miembros** (**artículo 17.2**). No basta con que se haya reunido únicamente la mitad de miembros.
+
+El órgano también puede prever un régimen de **segunda convocatoria** y establecer el número de miembros necesario para constituirse válidamente, conforme al **artículo 17.3**.
+
+| Situación | Condiciones |
+|---|---|
+| **Constitución ordinaria** | **Presidente, Secretario** o suplentes y **al menos la mitad de miembros** |
+| **Constitución sin convocatoria previa** | **Secretario y todos los miembros** presentes o representados por sustitutos legales; **decisión de todos los miembros** |
+| **Órganos del artículo 15.2** | Posible constitución con **portavoces** conforme al **artículo 17.2** |
+| **Segunda convocatoria** | Puede fijar un quórum propio en el régimen de convocatorias |
+
+> ⚠️ **¡Foco Examen!:** **Quórum ordinario** no equivale a **constitución sin convocatoria**. Esta última requiere a **todos los miembros** y al **Secretario**, además de la **decisión de todos**; no basta con la mitad habitual. Y tratar un asunto no incluido en el orden del día exige **todos los miembros + mayoría para declarar urgencia**, regla diferente del **artículo 17.4**.
 
 ### Convocatoria y orden del día
 
