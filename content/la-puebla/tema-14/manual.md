@@ -87,10 +87,21 @@ La avocación exige **acuerdo motivado**, notificado a los interesados, si los h
 
 ## 6. Órganos colegiados
 
-Los órganos colegiados pueden celebrar sesiones presenciales o a distancia. Para su constitución ordinaria deben asistir:
+Los órganos colegiados pueden celebrar sesiones presenciales o a distancia. Para su **constitución ordinaria** deben asistir:
 
-- Presidente y Secretario, o quienes los suplan;
-- al menos la mitad de sus miembros.
+- **Presidente y Secretario**, o quienes los suplan;
+- **al menos la mitad de sus miembros**.
+
+### Constitución sin convocatoria y reglas excepcionales
+
+| Régimen | Requisito principal |
+|---|---|
+| **Ordinario** | Presidente, Secretario y **mitad de los miembros**, al menos |
+| **Sin convocatoria previa** | **Secretario y todos los miembros** reunidos (o suplentes); **decisión unánime de constituirse** |
+| **Órganos representativos del art. 15.2** | Posible constitución con asistencia de **portavoces** a los que se atribuya esa condición, si lo considera válido el **Presidente** |
+| **Segunda convocatoria** | Quórum propio si así lo establece su régimen de convocatorias |
+
+> ⚠️ **¡Foco Examen!:** No confundir **quórum ordinario de la mitad** con **constitución sin convocatoria previa**, que exige **todos los miembros y Secretario** y decisión de todos. El debate de asuntos fuera del orden del día tiene otra exigencia: **todos los miembros presentes y urgencia aprobada por mayoría** (**art. 17.4**).
 
 La convocatoria debe incluir el orden del día y la información necesaria. No puede deliberarse ni acordarse sobre asuntos no incluidos, salvo presencia de todos los miembros y declaración de urgencia por mayoría.
 
