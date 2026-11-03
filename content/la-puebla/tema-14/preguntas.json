@@ -1,7 +1,7 @@
 {
   "tema": 14,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-07-25",
+  "version": "2026-11-03",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -55,7 +55,7 @@
     },
     {
       "id": "LP-T14-004",
-      "enunciado": "La avocación se caracteriza por:",
+      "enunciado": "La avocación de asuntos concretos, regulada en el artículo 10 de la Ley 40/2015, se caracteriza por:",
       "opciones": [
         "Transferir definitivamente la competencia a otro órgano",
         "Permitir asumir el conocimiento de asuntos concretos mediante acuerdo motivado",
@@ -63,9 +63,9 @@
         "Ser recurrible autónomamente en todo caso"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La avocación permite que un órgano superior asuma el conocimiento de uno o varios asuntos concretos mediante acuerdo motivado. No tiene recurso autónomo.",
-      "trampaExamen": "La avocación recae sobre asuntos concretos, no sobre una transferencia general y definitiva de competencias.",
-      "referencia": "manual.md · apartado 5 · Artículo 10"
+      "justificacion": "El artículo 10 permite avocar el conocimiento de uno o varios asuntos mediante acuerdo motivado: lo hará el superior para asuntos de sus órganos dependientes y, si la competencia fue delegada en órgano no dependiente jerárquicamente, únicamente el órgano delegante. Debe notificarse a los interesados, si los hubiere, antes o simultáneamente a la resolución final. El acuerdo no admite recurso autónomo.",
+      "trampaExamen": "No toda avocación corresponde a un superior jerárquico: cuando la competencia está delegada en órgano no dependiente, avoca exclusivamente el órgano delegante (art. 10.1). El recurso se plantea contra la resolución final.",
+      "referencia": "manual.md · apartado 5; bloque-01-organos-competencia.md · apartado 6 · Ley 40/2015, artículo 10.1–2"
     },
     {
       "id": "LP-T14-005",
@@ -179,5 +179,13 @@
       "trampaExamen": "Su rango de Subsecretario no implica dependencia orgánica de un Subsecretario; depende orgánicamente del Presidente del Gobierno.",
       "referencia": "manual.md · apartado 13 · Artículos 72 y 73"
     }
-  ]
+  ],
+  "revisionFocalizada": {
+    "fecha": "2026-11-03",
+    "preguntas": [
+      "LP-T14-004"
+    ],
+    "articulos": "Ley 40/2015, artículo 10",
+    "alcance": "Competencia para avocar cuando la delegación recae en órgano sin dependencia jerárquica; respuesta correcta B conservada y aprobación histórica sin alterar."
+  }
 }
