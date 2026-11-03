@@ -30,4 +30,20 @@ Contra el acuerdo de avocación **no cabe recurso separado**; puede discutirse a
 
 **Archivos modificados:** bloque 1, resumen del manual y pregunta **LP-T14-004**, con respuesta **B** conservada. La revisión es **parcial**, sin recertificación del banco completo.
 
-**Pendiente:** revisión individual de las doce opciones de respuesta y excepciones restantes de quórum, abstención y recusación. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+## Quórum y constitución sin convocatoria — **03/11/2026**
+
+**Fuente primaria:** [Ley 40/2015, artículos 15.2 y 17.2–4](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
+
+| Situación | Regla precisa |
+|---|---|
+| **Constitución ordinaria** | **Presidente, Secretario y mitad de miembros**, al menos |
+| **Sin convocatoria previa** | **Secretario y todos los miembros** reunidos o sustituidos, y **decisión de todos** |
+| **Órgano del art. 15.2** | Constitución posible con **portavoces** a quienes se asigne tal condición, si así lo considera válido su **Presidente** |
+| **Segunda convocatoria** | Régimen propio de quórum si está previsto |
+| **Asunto no incluido en orden del día** | **Todos los miembros presentes** y urgencia declarada por **mayoría** |
+
+> ⚠️ **¡Foco Examen!:** La **mitad** es el quórum ordinario. No se sustituye por **la mitad** el requisito de **todos los miembros** para sesión sin convocatoria o para tratar asuntos no incluidos en el orden del día; además, **unanimidad para constituirse sin convocatoria** y **mayoría para declarar urgencia** son mayorías diferentes.
+
+Se ha ampliado el bloque 2 y manual LP14; actualización de justificación y Foco de **LP-T14-005** manteniendo su respuesta **B**.
+
+**Pendiente:** revisión integral de los distractores restantes del tema, incluidos abstención y recusación. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
