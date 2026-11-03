@@ -18,17 +18,17 @@
     },
     {
       "id": "UC3M-T14-002",
-      "pregunta": "La representación estudiantil debe ser:",
+      "pregunta": "Según el artículo 45.3 de la LOSU, ¿qué porcentaje mínimo de representación del estudiantado deben asegurar los Estatutos en el Claustro Universitario?",
       "opciones": [
-        "Meramente simbólica",
-        "Efectiva y compatible con el progreso académico",
-        "Exclusiva de estudiantes de posgrado",
-        "Ajena a los órganos colegiados"
+        "El 10 %",
+        "El 15 %",
+        "El 25 %",
+        "El 51 %"
       ],
-      "correcta": 1,
-      "justificacion": "La participación debe ser efectiva y compatible con el desarrollo académico.",
-      "trampa": "Representación no significa ausencia de obligaciones académicas.",
-      "referencia": "LO 2/2023, art. 34 (BOE-A-2023-7500) · Manual, apartado 2"
+      "correcta": 2,
+      "justificacion": "El artículo 45.3 de la Ley Orgánica 2/2023 exige una representación mínima del 25 % del estudiantado en el Claustro Universitario. En el Consejo de Gobierno, el artículo 46.3 establece un mínimo distinto: 10 % de estudiantado y otro 10 % de PTGAS.",
+      "trampa": "No confundir el 25 % mínimo del Claustro con el 10 % mínimo del Consejo de Gobierno. El 51 % del Claustro corresponde al personal de cuerpos docentes universitarios y profesorado permanente laboral.",
+      "referencia": "LO 2/2023, arts. 45.3 y 46.3 (BOE-A-2023-7500) · Manual UC3M tema 14, apartado 2"
     },
     {
       "id": "UC3M-T14-003",
@@ -198,5 +198,13 @@
       "trampa": "El 1 % se refiere al objetivo de gasto público universitario sobre el PIB, no a esta reserva presupuestaria.",
       "referencia": "LO 2/2023, art. 57.7 (BOE-A-2023-7500) · Manual, apartado 5"
     }
-  ]
+  ],
+  "revisionFocalizada": {
+    "fecha": "2026-11-03",
+    "preguntas": [
+      "UC3M-T14-002"
+    ],
+    "norma": "LOSU arts. 45.3 y 46.3",
+    "alcance": "Sustituida pregunta demasiado general por porcentaje mínimo literal del Claustro; cambia clave de B a C de forma intencionada, resto de preguntas conservadas. Corte normativo definitivo del proceso UC3M pendiente de verificar."
+  }
 }
