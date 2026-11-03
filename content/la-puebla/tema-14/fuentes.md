@@ -15,4 +15,19 @@
 
 > ⚠️ **¡Foco Examen!:** **Desconcentración** puede transferir titularidad y ejercicio; **delegación de firma** no altera la competencia ni requiere publicación del acuerdo. No estudiar organigramas ministeriales coyunturales en lugar de la estructura legal.
 
-**Pendiente:** revisión individual de las doce opciones de respuesta y excepciones de quórum, abstención y recusación. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+## Revisión focalizada del artículo 10: avocación — **03/11/2026**
+
+**Fuente oficial contrastada:** [Ley 40/2015, artículo 10.1–2, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
+
+| Escenario | Órgano facultado para avocar | Condición |
+|---|---|---|
+| Asunto de órgano **jerárquicamente dependiente** | **Órgano superior** | Circunstancias técnicas, económicas, sociales, jurídicas o territoriales que lo hagan conveniente |
+| Competencia **delegada en órgano no dependiente jerárquicamente** | **Solo el órgano delegante** | **Acuerdo motivado** y notificación legal a interesados, si los hubiere |
+
+Contra el acuerdo de avocación **no cabe recurso separado**; puede discutirse al impugnar la resolución final del procedimiento.
+
+> ⚠️ **¡Foco Examen!:** La excepción del **órgano delegante sin jerarquía** evita responder automáticamente «superior jerárquico» a toda pregunta sobre avocación. El artículo 10 regula **asuntos concretos**, no la transmisión definitiva de la titularidad de la competencia.
+
+**Archivos modificados:** bloque 1, resumen del manual y pregunta **LP-T14-004**, con respuesta **B** conservada. La revisión es **parcial**, sin recertificación del banco completo.
+
+**Pendiente:** revisión individual de las doce opciones de respuesta y excepciones restantes de quórum, abstención y recusación. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
