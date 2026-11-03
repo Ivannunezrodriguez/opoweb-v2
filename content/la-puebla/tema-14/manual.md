@@ -1,7 +1,8 @@
 # La Puebla de Montalbán · Tema 14
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Revisión editorial histórica:** **30 de julio de 2026**.  
+**Control jurídico focalizado del art. 10 (avocación):** **3 de noviembre de 2026**, sin recertificación integral.
 
 ## Tema 14 · Órganos administrativos y Administración General del Estado
 
@@ -66,12 +67,23 @@ La competencia es irrenunciable. Debe distinguirse:
 |---|---|---|
 | Desconcentración | titularidad y ejercicio | se desplazan a órgano jerárquicamente dependiente conforme a la norma atributiva |
 | Delegación de competencias | ejercicio | el acto se considera dictado por el delegante y la delegación se publica |
-| Avocación | conocimiento de asuntos concretos | exige acuerdo motivado y no tiene recurso autónomo |
+| Avocación | conocimiento de asuntos concretos | **superior jerárquico** para asuntos de dependientes; si la competencia se delegó en órgano **no dependiente**, **solo el delegante** puede avocar; acuerdo motivado, sin recurso autónomo (**art. 10**) |
 | Encomienda de gestión | actividad material o técnica | no cede titularidad ni elementos sustantivos; no puede encubrir un contrato |
 | Delegación de firma | firma | no altera la competencia y no requiere publicación |
 | Suplencia | ejercicio temporal por otra persona | procede por vacante, ausencia, enfermedad, abstención o recusación |
 
 La delegación, encomienda, delegación de firma y suplencia no alteran la titularidad de la competencia. La desconcentración sí puede trasladar titularidad y ejercicio cuando lo permita la norma.
+
+### Avocación: órgano competente y recurso
+
+| Supuesto | ¿Quién puede avocar? |
+|---|---|
+| Asunto de un **órgano jerárquicamente dependiente** | **Órgano superior**, por circunstancias técnicas, económicas, sociales, jurídicas o territoriales |
+| Asunto delegado en **órgano no dependiente jerárquicamente** | **Únicamente el órgano delegante** |
+
+La avocación exige **acuerdo motivado**, notificado a los interesados, si los hubiere, **antes o simultáneamente a la resolución final**. Contra el acuerdo de avocación **no cabe recurso autónomo**, aunque puede impugnarse al recurrir la resolución que se dicte.
+
+> ⚠️ **¡Foco Examen!:** No confundir **avocación por superior jerárquico** con la excepción de **avocación exclusiva del órgano delegante** cuando el delegado **no es dependiente jerárquico** (**artículo 10 de la Ley 40/2015**).
 
 ## 6. Órganos colegiados
 
