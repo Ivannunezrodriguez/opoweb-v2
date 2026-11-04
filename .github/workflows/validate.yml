@@ -43,6 +43,8 @@ jobs:
         run: node tests/validate-all-programmes.mjs
       - name: Validar nuevo temario Olías C2 (22 temas, desarrollo progresivo)
         run: node tests/validate-olias-programme.mjs
+      - name: Validar simulacros Olías 50+20, psicotécnicos y puntuación separada
+        run: node tests/validate-olias-practice.mjs
       - name: Validar Radar de empleo (sin consultar la red)
         run: |
           node --check assets/radar.js
