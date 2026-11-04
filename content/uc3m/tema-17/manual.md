@@ -272,3 +272,9 @@ Para el primer semestre del curso **2026/2027**, con inicio de estudios el **15 
 - El cambio de universidad o estudios exige el reconocimiento mínimo de **30 ECTS**.
 - Los criterios de admisión deben publicarse con al menos **1 curso académico** de antelación.
 - En la preinscripción madrileña de **2026/2027** se pueden ordenar hasta **12 estudios**.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Revisión individual de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con respuesta literal, motivo de descarte de las demás y foco test. El banco está **cotejado**, pero esto no certifica el portal en navegador, no implica aprobación del usuario y queda pendiente fechar por documento primario la aplicación temporal de la base **primera.7** de UC3M.
+
+> ⚠️ **¡Foco Examen!:** **Mismo centro: 6 ECTS**; **cambio de universidad: 30 ECTS**; **hasta 3 materias de mejora y, además, segunda lengua extranjera**, según art. 22.1.
