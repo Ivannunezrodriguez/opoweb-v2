@@ -1,0 +1,175 @@
+{
+  "tema": 13,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T13-001",
+      "enunciado": "¿A qué comarca se vincula Olías del Rey en Turismo CLM?",
+      "opciones": [
+        "La Sagra",
+        "La Vera",
+        "La Alcarria exclusivamente",
+        "Sierra de Segura"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El portal autonómico lo sitúa en La Sagra.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: El portal autonómico lo sitúa en La Sagra.",
+      "referencia": "Turismo CLM, Olías del Rey"
+    },
+    {
+      "id": "OLIAS-T13-002",
+      "enunciado": "La dirección municipal publicada del Ayuntamiento es:",
+      "opciones": [
+        "Plaza de la Constitución, 1",
+        "Camino del Arenal, 5",
+        "Calle Petunia",
+        "Calle Venta de Arriba"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El directorio oficial la identifica.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: El directorio oficial la identifica.",
+      "referencia": "Directorio municipal"
+    },
+    {
+      "id": "OLIAS-T13-003",
+      "enunciado": "El pabellón polideportivo cubierto figura en:",
+      "opciones": [
+        "Camino del Arenal, 5",
+        "Camino Higares",
+        "Calle Flor, 2",
+        "Calle Toledo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La web lo sitúa en Camino del Arenal.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: La web lo sitúa en Camino del Arenal.",
+      "referencia": "Directorio municipal"
+    },
+    {
+      "id": "OLIAS-T13-004",
+      "enunciado": "La piscina municipal se identifica en:",
+      "opciones": [
+        "Calle Venta de Arriba",
+        "Plaza de la Constitución, 7",
+        "Calle Zorzales",
+        "Calle Flor"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Así figura en directorio municipal.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: Así figura en directorio municipal.",
+      "referencia": "Directorio municipal"
+    },
+    {
+      "id": "OLIAS-T13-005",
+      "enunciado": "La Casa de la Cultura se identifica en:",
+      "opciones": [
+        "Calle Flor",
+        "Calle Celinda",
+        "Calle Petunia",
+        "Calle Cedro"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Figura en la calle Flor.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: Figura en la calle Flor.",
+      "referencia": "Directorio municipal"
+    },
+    {
+      "id": "OLIAS-T13-006",
+      "enunciado": "El Centro de la Juventud aparece en:",
+      "opciones": [
+        "Camino de Higares",
+        "Calle Venta de Arriba",
+        "Calle Halcón",
+        "Calle Toledo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La web lo identifica en Camino de Higares.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: La web lo identifica en Camino de Higares.",
+      "referencia": "Directorio municipal"
+    },
+    {
+      "id": "OLIAS-T13-007",
+      "enunciado": "El Colegio Pedro Melendo se localiza en:",
+      "opciones": [
+        "Camino del Arenal, 7",
+        "Calle Flor, 2",
+        "Calle Zorzales",
+        "Plaza Nueva"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Referencia del directorio municipal.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: Referencia del directorio municipal.",
+      "referencia": "Directorio municipal"
+    },
+    {
+      "id": "OLIAS-T13-008",
+      "enunciado": "¿Qué zona se relaciona con Calle Petunia en instalaciones deportivas?",
+      "opciones": [
+        "Las Lomas",
+        "La Floresta",
+        "San Francisco",
+        "Plaza de la Constitución"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El área deportiva cita pista pádel Las Lomas en Calle Petunia.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: El área deportiva cita pista pádel Las Lomas en Calle Petunia.",
+      "referencia": "Web municipal Deportes"
+    },
+    {
+      "id": "OLIAS-T13-009",
+      "enunciado": "¿Qué zona se relaciona con Calle Cañada de Magán?",
+      "opciones": [
+        "La Floresta",
+        "San Francisco",
+        "Camino del Arenal",
+        "Zona de casco de Ayuntamiento"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La Floresta incluye instalaciones deportivas en esa calle.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: La Floresta incluye instalaciones deportivas en esa calle.",
+      "referencia": "Web municipal Deportes"
+    },
+    {
+      "id": "OLIAS-T13-010",
+      "enunciado": "¿Qué servicios se agrupan en Plaza de la Constitución según el directorio?",
+      "opciones": [
+        "Ayuntamiento y Policía Local",
+        "Solo piscina",
+        "Solo centro de la juventud",
+        "Solo Casa de la Cultura"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Se citan en la plaza.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: Se citan en la plaza.",
+      "referencia": "Directorio municipal"
+    },
+    {
+      "id": "OLIAS-T13-011",
+      "enunciado": "El código postal asociado a Olías del Rey en el sitio oficial es:",
+      "opciones": [
+        "45280",
+        "45001",
+        "28901",
+        "45200"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Figura 45280 en cabecera municipal.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: Figura 45280 en cabecera municipal.",
+      "referencia": "Web oficial Olías"
+    },
+    {
+      "id": "OLIAS-T13-012",
+      "enunciado": "El callejero completo de la convocatoria está:",
+      "opciones": [
+        "No enumerado en el BOP; requiere cartografía municipal vigente",
+        "Íntegramente en Anexo I",
+        "Limitado a tres calles",
+        "Sustituido por una carta certificada"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El BOP exige materia pero no adjunta callejero completo.",
+      "trampaExamen": "No sustituir prueba oficial por suposición: El BOP exige materia pero no adjunta callejero completo.",
+      "referencia": "BOP 4833 Anexo II; Urbanismo municipal"
+    }
+  ]
+}
