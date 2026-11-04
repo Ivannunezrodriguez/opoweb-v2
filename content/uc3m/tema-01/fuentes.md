@@ -40,3 +40,9 @@ La reforma de 2026 establece circunscripciones separadas para Ibiza y Formentera
 - El contenido se limita al epígrafe oficial de la convocatoria UC3M.
 - Se corrigió el 31 de julio de 2026 el recuento desactualizado de tres reformas: desde el 20 de mayo de 2026 son **cuatro**.
 - Fecha de comprobación: **31 de julio de 2026**.
+
+## Cotejo íntegro del banco (04/11/2026)
+
+[Cotejo jurídico-editorial de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): contiene fuente, artículo, fundamento de cada distractor y advertencia de test. **Estado de los ítems:** revisados; aprobación del usuario y certificación funcional en navegador **pendientes**. **Fecha de corte normativo:** base primera.7 de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), pendiente de identificar con precisión por la resolución de admitidos definitivos.
+
+> ⚠️ **¡Foco Examen!:** En estas bases la legislación exigible se fija por la **publicación de listas definitivas y anuncio del ejercicio**, **no** por la fecha de celebración de la prueba.
