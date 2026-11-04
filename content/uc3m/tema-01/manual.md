@@ -55,7 +55,15 @@ La iniciativa de reforma se ejerce en los términos previstos para la iniciativa
 
 ### Procedimiento ordinario, artículo 167
 
-Exige mayoría de tres quintos de cada Cámara. Si no hay acuerdo, se intenta mediante una comisión mixta. En determinadas condiciones puede aprobarse con dos tercios del Congreso. La reforma se somete a referéndum cuando lo solicite una décima parte de cualquiera de las Cámaras dentro de los quince días siguientes.
+La regla general exige **mayoría de tres quintos de cada Cámara**. Si no hay acuerdo, se intenta mediante una **Comisión mixta paritaria de Diputados y Senadores**, que propone un texto a ambas Cámaras. Si tampoco prospera, **siempre que el Senado lo haya aprobado por mayoría absoluta**, el **Congreso puede aprobar la reforma por mayoría de dos tercios**. Se someterá a **referéndum** si lo solicita **una décima parte de los miembros de cualquiera de las Cámaras** dentro de los **quince días** siguientes a su aprobación.
+
+| Itinerario del artículo 167 | Senado | Congreso |
+|---|---|---|
+| Regla ordinaria | **3/5** | **3/5** |
+| Vía alternativa tras falta de acuerdo | **Mayoría absoluta** | **2/3** |
+| Referéndum | **Potestativo**, a petición de **1/10** de cualquiera de las Cámaras en **15 días** | No se exige de oficio |
+
+> ⚠️ **¡Foco Examen!:** El artículo **167.2** NO permite que el **Congreso** apruebe por **2/3** sin ningún requisito en el **Senado**: exige previamente **mayoría absoluta del Senado** y el fracaso del acuerdo conforme al apartado anterior.
 
 ### Procedimiento agravado, artículo 168
 
