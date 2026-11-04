@@ -282,3 +282,9 @@ Deben reflejar la imagen fiel y someterse a formulación, aprobación, auditorí
 - Pagos a justificar y anticipos de caja fija no son equivalentes.
 - Liquidación, resultado presupuestario, remanente y cuentas anuales son conceptos diferentes.
 - La financiación afectada mantiene su destino hasta el cierre y liquidación del proyecto.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Los documentos y fases se cotejan con la estructura contable del manual; falta lectura primaria integral del **Volumen I UC3M 2026** para particularidades internas. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
+
+> ⚠️ **¡Foco Examen!:** **A autoriza**, **D compromete**, **O reconoce obligación**, **P ordena pago**. **ADO** no implica pago material.
