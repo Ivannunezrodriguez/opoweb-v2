@@ -7,42 +7,45 @@
       "pregunta": "¿Cuál es el plazo máximo supletorio para resolver y notificar cuando la norma reguladora no fija uno específico?",
       "opciones": [
         "Un mes",
-        "Dos meses",
         "Tres meses",
+        "Dos meses",
         "Seis meses"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "El artículo 21 de la Ley 39/2015 establece que, cuando la norma reguladora no fije plazo máximo, este será de tres meses.",
       "trampa": "No confundir el plazo supletorio de tres meses con el límite general de seis meses para plazos fijados reglamentariamente.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#101-plazo-máximo-para-resolver"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#101-plazo-máximo-para-resolver",
+      "respuestaLiteral": "Tres meses"
     },
     {
       "id": "DIP-T05-002",
       "pregunta": "¿Cuál de los siguientes sujetos está obligado, con carácter general, a relacionarse electrónicamente con las Administraciones Públicas?",
       "opciones": [
         "Toda persona física mayor de edad",
-        "Las personas jurídicas",
         "Solo los funcionarios públicos jubilados",
-        "Cualquier ciudadano que presente una solicitud"
+        "Cualquier ciudadano que presente una solicitud",
+        "Las personas jurídicas"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El artículo 14 incluye expresamente a las personas jurídicas entre los sujetos obligados a relacionarse por medios electrónicos.",
       "trampa": "Las personas físicas pueden elegir canal salvo que estén incluidas en un colectivo legal o reglamentariamente obligado.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#5-obligación-de-relacionarse-electrónicamente"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#5-obligación-de-relacionarse-electrónicamente",
+      "respuestaLiteral": "Las personas jurídicas"
     },
     {
       "id": "DIP-T05-003",
       "pregunta": "¿Qué plazo ordinario existe para subsanar la falta o insuficiencia de acreditación de la representación?",
       "opciones": [
         "Cinco días",
-        "Diez días",
         "Quince días",
+        "Diez días",
         "Un mes"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La representación puede subsanarse en el plazo de diez días, o en un plazo superior cuando las circunstancias del caso lo requieran.",
       "trampa": "El artículo 5.6 dice diez días, y por la regla general del artículo 30.2 se computan como hábiles salvo excepción legal.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#23-representación"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#23-representación",
+      "respuestaLiteral": "Diez días"
     },
     {
       "id": "DIP-T05-004",
@@ -56,21 +59,23 @@
       "correcta": 2,
       "justificacion": "Los poderes inscritos tienen una validez máxima de cinco años, prorrogable por periodos máximos de cinco años.",
       "trampa": "La prórroga también tiene un máximo de cinco años por periodo; no es indefinida automáticamente.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#24-registros-electrónicos-de-apoderamientos"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#24-registros-electrónicos-de-apoderamientos",
+      "respuestaLiteral": "Cinco años"
     },
     {
       "id": "DIP-T05-005",
       "pregunta": "¿Cuál es la regla general del silencio administrativo en procedimientos iniciados a solicitud del interesado?",
       "opciones": [
         "Siempre desestimatorio",
-        "Siempre produce caducidad",
         "Estimatorio, salvo excepciones legales",
+        "Siempre produce caducidad",
         "No produce ningún efecto"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La regla general es el silencio estimatorio, salvo que una norma con rango de ley o norma europea o internacional aplicable establezca lo contrario.",
       "trampa": "La responsabilidad patrimonial, el derecho de petición y la impugnación de actos son excepciones desestimatorias.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#111-procedimientos-iniciados-a-solicitud"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#111-procedimientos-iniciados-a-solicitud",
+      "respuestaLiteral": "Estimatorio, salvo excepciones legales"
     },
     {
       "id": "DIP-T05-006",
@@ -84,91 +89,98 @@
       "correcta": 1,
       "justificacion": "El certificado debe expedirse de oficio dentro de los quince días siguientes al vencimiento del plazo máximo para resolver.",
       "trampa": "El interesado puede solicitarlo en cualquier momento, aunque la expedición de oficio tiene plazo de quince días.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#111-procedimientos-iniciados-a-solicitud"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#111-procedimientos-iniciados-a-solicitud",
+      "respuestaLiteral": "Quince días"
     },
     {
       "id": "DIP-T05-007",
       "pregunta": "Cuando un plazo se fija por días y la norma no indica otra cosa, ¿qué días se excluyen del cómputo?",
       "opciones": [
+        "Sábados, domingos y festivos",
         "Solo domingos",
         "Sábados y domingos",
-        "Sábados, domingos y festivos",
         "Ninguno"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "Los plazos por días se entienden hábiles y excluyen sábados, domingos y festivos, salvo previsión legal o europea distinta.",
       "trampa": "Desde la Ley 39/2015 los sábados son inhábiles a efectos administrativos.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#123-cómputo-por-días"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#123-cómputo-por-días",
+      "respuestaLiteral": "Sábados, domingos y festivos"
     },
     {
       "id": "DIP-T05-008",
       "pregunta": "¿Qué sucede si el último día de un plazo es inhábil?",
       "opciones": [
+        "Se prorroga al primer día hábil siguiente",
         "El plazo vence igualmente",
         "Se adelanta al día hábil anterior",
-        "Se prorroga al primer día hábil siguiente",
         "Se amplía automáticamente una semana"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "Cuando el último día del plazo sea inhábil, se entiende prorrogado al primer día hábil siguiente.",
       "trampa": "La regla es prórroga hacia delante, no adelanto al día hábil anterior.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#124-meses-y-años"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#124-meses-y-años",
+      "respuestaLiteral": "Se prorroga al primer día hábil siguiente"
     },
     {
       "id": "DIP-T05-009",
       "pregunta": "¿Cuál es el límite de la ampliación ordinaria de un plazo?",
       "opciones": [
         "Una cuarta parte",
-        "La mitad",
         "El doble",
-        "No existe límite"
+        "No existe límite",
+        "La mitad"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La ampliación no puede exceder de la mitad del plazo inicial y debe acordarse antes de su vencimiento.",
       "trampa": "La ampliación ordinaria del artículo 32 no es lo mismo que la ampliación del plazo máximo para resolver del artículo 23.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#126-ampliación-de-plazos"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#126-ampliación-de-plazos",
+      "respuestaLiteral": "La mitad"
     },
     {
       "id": "DIP-T05-010",
       "pregunta": "En la tramitación de urgencia, ¿qué plazos no se reducen a la mitad?",
       "opciones": [
+        "Los de presentación de solicitudes y recursos",
         "Los de prueba e informes",
         "Los de audiencia",
-        "Los de presentación de solicitudes y recursos",
         "Todos se reducen"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La urgencia reduce los plazos a la mitad salvo los relativos a la presentación de solicitudes y recursos.",
       "trampa": "Es una excepción expresa y muy habitual en test.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#127-tramitación-de-urgencia"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#127-tramitación-de-urgencia",
+      "respuestaLiteral": "Los de presentación de solicitudes y recursos"
     },
     {
       "id": "DIP-T05-011",
       "pregunta": "¿Cuándo puede ser obligatoria una comparecencia ante la Administración?",
       "opciones": [
         "Siempre que lo ordene verbalmente un funcionario",
-        "Solo cuando lo prevea una norma con rango de ley",
         "Cuando lo solicite cualquier tercero",
+        "Solo cuando lo prevea una norma con rango de ley",
         "Nunca puede ser obligatoria"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La comparecencia solo es obligatoria cuando esté prevista en una norma con rango de ley.",
       "trampa": "Una instrucción interna o reglamento por sí solos no bastan para imponer comparecencia obligatoria.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#8-colaboración-y-comparecencia"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#8-colaboración-y-comparecencia",
+      "respuestaLiteral": "Solo cuando lo prevea una norma con rango de ley"
     },
     {
       "id": "DIP-T05-012",
       "pregunta": "¿Durante cuánto tiempo puede suspenderse como máximo el plazo para resolver por solicitud de un informe preceptivo?",
       "opciones": [
         "Un mes",
-        "Dos meses",
         "Tres meses",
+        "Dos meses",
         "Seis meses"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La suspensión por solicitud de informes preceptivos no puede exceder de tres meses.",
       "trampa": "Transcurridos tres meses sin informe, el procedimiento continúa, sin perjuicio de la responsabilidad por la demora.",
-      "referencia": "content/diputacion-toledo/tema-05/manual.md#102-suspensión-del-plazo-máximo"
+      "referencia": "content/diputacion-toledo/tema-05/manual.md#102-suspensión-del-plazo-máximo",
+      "respuestaLiteral": "Tres meses"
     },
     {
       "id": "DIP-T05-013",
@@ -182,35 +194,38 @@
       "correcta": 0,
       "justificacion": "Pueden ser interesados quienes, sin iniciar el procedimiento, tengan derechos que puedan resultar afectados.",
       "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
-      "referencia": "Ley 39/2015, art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Quien tenga derechos que puedan resultar afectados por la decisión"
     },
     {
       "id": "DIP-T05-014",
       "pregunta": "¿Qué valor tienen los documentos presentados en una oficina de asistencia en materia de registros tras su digitalización?",
       "opciones": [
         "Solo valen si se presenta nuevamente el original en papel",
-        "Se incorporan al expediente administrativo electrónico, devolviéndose los originales, salvo excepciones legales",
         "Se destruyen siempre los originales sin excepción",
-        "Se admiten únicamente si son documentos notariales"
+        "Se admiten únicamente si son documentos notariales",
+        "Se incorporan al expediente administrativo electrónico, devolviéndose los originales, salvo excepciones legales"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El **artículo 16.5 de la Ley 39/2015** exige digitalizar los documentos presentados presencialmente para incorporarlos al expediente electrónico, devolviendo los originales salvo los supuestos en que una norma determine su custodia o documentos que no puedan digitalizarse.",
       "trampa": "No confundir **digitalización** con destrucción del documento original ni con obligación de presentarlo de nuevo.",
-      "referencia": "Ley 39/2015, art. 16.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 16.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Se incorporan al expediente administrativo electrónico, devolviéndose los originales, salvo excepciones legales"
     },
     {
       "id": "DIP-T05-015",
       "pregunta": "Según el artículo 31 de la Ley 39/2015, ¿cómo funciona el registro electrónico para la presentación de documentos?",
       "opciones": [
-        "Solo de lunes a viernes, de 9:00 a 14:00",
         "Todos los días del año durante las 24 horas",
+        "Solo de lunes a viernes, de 9:00 a 14:00",
         "Únicamente los días declarados hábiles",
         "Solo fuera de horas de oficina"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "El **artículo 31.2.a** permite presentar documentos en el registro electrónico **todos los días del año durante las 24 horas**, sin perjuicio de las reglas de cómputo de plazos.",
       "trampa": "La **disponibilidad 24/7** del registro no convierte en **hábiles** los días inhábiles.",
-      "referencia": "Ley 39/2015, art. 31.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 31.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Todos los días del año durante las 24 horas"
     },
     {
       "id": "DIP-T05-016",
@@ -218,27 +233,29 @@
       "opciones": [
         "Un mes",
         "Tres meses",
-        "Doce meses",
-        "Seis meses"
+        "Seis meses",
+        "Doce meses"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "justificacion": "Como regla, no excederá de **6 meses**, salvo que una norma con rango de ley establezca uno mayor o así venga previsto en Derecho de la UE.",
       "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
-      "referencia": "Ley 39/2015, art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Seis meses"
     },
     {
       "id": "DIP-T05-017",
       "pregunta": "¿Qué efecto produce la falta de resolución en un procedimiento sancionador iniciado de oficio?",
       "opciones": [
-        "Caducidad",
         "Estimación automática de la sanción",
         "Desaparición de la obligación de resolver",
-        "Silencio siempre estimatorio"
+        "Silencio siempre estimatorio",
+        "Caducidad"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "Los procedimientos iniciados de oficio en que la Administración ejerza potestad sancionadora producen **caducidad** al vencer el plazo máximo.",
       "trampa": "Comprobar supuesto legal y distinguir plazos y excepciones.",
-      "referencia": "Ley 39/2015, art. 25 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 25 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Caducidad"
     },
     {
       "id": "DIP-T05-018",
@@ -252,21 +269,23 @@
       "correcta": 1,
       "justificacion": "De acuerdo con el **artículo 31.2.b**, para cumplir plazos por los interesados, una presentación en día inhábil se entiende realizada en la **primera hora del primer día hábil siguiente**, salvo disposición que permita expresamente la recepción en día inhábil.",
       "trampa": "La **hora real de entrada** queda registrada, pero el **cómputo jurídico** puede desplazarse al primer día hábil.",
-      "referencia": "Ley 39/2015, art. 31.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 31.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "El primer día hábil siguiente, salvo que una norma permita expresamente la recepción en inhábil"
     },
     {
       "id": "DIP-T05-019",
       "pregunta": "¿Qué regla de cómputo rige cuando un plazo se señala por meses según el artículo 30.4 de la Ley 39/2015?",
       "opciones": [
         "Se computan siempre 30 días hábiles por mes",
-        "Concluye el mismo día ordinal en el mes de vencimiento; si no existe equivalente, el último día del mes",
         "Concluye necesariamente en el primer día del mes siguiente",
+        "Concluye el mismo día ordinal en el mes de vencimiento; si no existe equivalente, el último día del mes",
         "Se cuenta desde el día del acto, sin atender a su notificación"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "Los plazos por **meses o años** se computan desde el **día siguiente** a la notificación o publicación; terminan el **mismo día ordinal** del mes o año de vencimiento y, si este no existe, el **último día del mes**.",
       "trampa": "No convertir automáticamente **un mes** en **30 días** ni ignorar el día ordinal.",
-      "referencia": "Ley 39/2015, art. 30.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 30.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Concluye el mismo día ordinal en el mes de vencimiento; si no existe equivalente, el último día del mes"
     },
     {
       "id": "DIP-T05-020",
@@ -274,13 +293,18 @@
       "opciones": [
         "Sí, si la ampliación es inferior a cinco días",
         "Sí, siempre que el interesado lo acepte",
-        "No: la petición y la decisión de ampliación deben producirse antes del vencimiento",
-        "Sí, mediante resolución verbal motivada"
+        "Sí, mediante resolución verbal motivada",
+        "No: la petición y la decisión de ampliación deben producirse antes del vencimiento"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "Según el **artículo 32.3**, tanto la solicitud de ampliación como la decisión deben producirse **antes del vencimiento**; **en ningún caso** puede ampliarse un plazo ya vencido.",
       "trampa": "El máximo ordinario de ampliación **no superior a la mitad** no autoriza la ampliación retroactiva de un plazo vencido.",
-      "referencia": "Ley 39/2015, art. 32.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 32.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "No: la petición y la decisión de ampliación deben producirse antes del vencimiento"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

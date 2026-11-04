@@ -7,28 +7,30 @@
       "pregunta": "¿Cuál de las siguientes materias regula principalmente la Ley 40/2015?",
       "opciones": [
         "El procedimiento administrativo común",
-        "El régimen jurídico del sector público",
         "La jurisdicción contencioso-administrativa",
+        "El régimen jurídico del sector público",
         "La contratación pública"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La Ley 40/2015 regula las bases del régimen jurídico de las Administraciones Públicas, la organización del sector público y las relaciones interadministrativas.",
       "trampa": "No confundirla con la Ley 39/2015, centrada en el procedimiento administrativo común.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#1-objeto-y-ámbito-de-la-ley-402015"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#1-objeto-y-ámbito-de-la-ley-402015",
+      "respuestaLiteral": "El régimen jurídico del sector público"
     },
     {
       "id": "DIP-T04-002",
       "pregunta": "La competencia administrativa es, como regla general:",
       "opciones": [
         "Renunciable",
-        "Delegable en su titularidad",
         "Irrenunciable",
+        "Delegable en su titularidad",
         "Disponible por acuerdo entre órganos"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La competencia es irrenunciable y debe ejercerse por el órgano que la tenga atribuida, salvo los supuestos legales de delegación o avocación.",
       "trampa": "Que pueda desplazarse su ejercicio no significa que la competencia deje de ser irrenunciable.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#51-regla-general"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#51-regla-general",
+      "respuestaLiteral": "Irrenunciable"
     },
     {
       "id": "DIP-T04-003",
@@ -36,41 +38,44 @@
       "opciones": [
         "Delegación de firma",
         "Suplencia",
-        "Desconcentración",
-        "Encomienda de gestión"
+        "Encomienda de gestión",
+        "Desconcentración"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La desconcentración puede trasladar titularidad y ejercicio a órganos jerárquicamente dependientes conforme a la norma de atribución.",
       "trampa": "Delegación, encomienda, firma y suplencia no alteran la titularidad.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#52-desconcentración"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#52-desconcentración",
+      "respuestaLiteral": "Desconcentración"
     },
     {
       "id": "DIP-T04-004",
       "pregunta": "¿Cuál de las siguientes materias no puede ser objeto de delegación?",
       "opciones": [
-        "La adopción de disposiciones de carácter general",
         "La firma de actos de trámite",
         "La instrucción de expedientes",
+        "La adopción de disposiciones de carácter general",
         "La gestión material de archivos"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "La Ley 40/2015 excluye de la delegación, entre otras materias, la adopción de disposiciones de carácter general.",
       "trampa": "La prohibición afecta a dictar disposiciones generales, no a cualquier actuación administrativa de carácter general.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#53-delegación-de-competencias"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#53-delegación-de-competencias",
+      "respuestaLiteral": "La adopción de disposiciones de carácter general"
     },
     {
       "id": "DIP-T04-005",
       "pregunta": "La avocación debe formalizarse mediante:",
       "opciones": [
         "Orden verbal",
-        "Acuerdo motivado",
         "Convenio",
-        "Encomienda de gestión"
+        "Encomienda de gestión",
+        "Acuerdo motivado"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La avocación requiere acuerdo motivado y notificación a los interesados antes o simultáneamente a la resolución final.",
       "trampa": "No cabe recurso autónomo contra la avocación, pero puede cuestionarse al impugnar la resolución final.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#54-avocación"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#54-avocación",
+      "respuestaLiteral": "Acuerdo motivado"
     },
     {
       "id": "DIP-T04-006",
@@ -78,13 +83,14 @@
       "opciones": [
         "La titularidad de una competencia",
         "La aprobación de reglamentos",
-        "Actividades materiales o técnicas",
-        "La resolución de recursos administrativos"
+        "La resolución de recursos administrativos",
+        "Actividades materiales o técnicas"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La encomienda se limita a actividades materiales o técnicas por razones de eficacia o falta de medios idóneos.",
       "trampa": "No cede la titularidad ni los elementos sustantivos del ejercicio de la competencia.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#55-encomienda-de-gestión"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#55-encomienda-de-gestión",
+      "respuestaLiteral": "Actividades materiales o técnicas"
     },
     {
       "id": "DIP-T04-007",
@@ -98,7 +104,8 @@
       "correcta": 2,
       "justificacion": "La delegación de firma permite que otro titular firme actos o resoluciones sin alterar la competencia del órgano delegante.",
       "trampa": "Delegar la firma no equivale a delegar la competencia.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#56-delegación-de-firma"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#56-delegación-de-firma",
+      "respuestaLiteral": "No altera la competencia"
     },
     {
       "id": "DIP-T04-008",
@@ -112,35 +119,38 @@
       "correcta": 0,
       "justificacion": "La suplencia opera temporalmente en casos de vacante, ausencia, enfermedad, abstención o recusación.",
       "trampa": "La suplencia sustituye temporalmente al titular, pero no modifica la competencia.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#57-suplencia"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#57-suplencia",
+      "respuestaLiteral": "Vacante, ausencia o enfermedad"
     },
     {
       "id": "DIP-T04-009",
       "pregunta": "Para la válida constitución ordinaria de un órgano colegiado se requiere:",
       "opciones": [
         "Solo la mitad de sus miembros",
-        "Presidente, secretario y al menos la mitad de sus miembros",
         "Todos sus miembros",
+        "Presidente, secretario y al menos la mitad de sus miembros",
         "Dos tercios de sus miembros"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La constitución válida exige la presencia del presidente y secretario, o quienes les suplan, y al menos la mitad de los miembros.",
       "trampa": "La mitad de miembros no basta sin presidente y secretario o sus suplentes.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#62-convocatoria-y-constitución"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#62-convocatoria-y-constitución",
+      "respuestaLiteral": "Presidente, secretario y al menos la mitad de sus miembros"
     },
     {
       "id": "DIP-T04-010",
       "pregunta": "Si la persona recusada niega la causa alegada, ¿en qué plazo debe resolver el superior inmediato?",
       "opciones": [
         "Dos días",
-        "Tres días",
         "Cinco días",
-        "Diez días"
+        "Diez días",
+        "Tres días"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "Según el artículo 24.4 de la Ley 40/2015, si el recusado niega la causa, el superior resolverá en el plazo de tres días, previos los informes y comprobaciones oportunos.",
       "trampa": "Los tres días solo aplican si se niega la causa; el recusado manifiesta su posición al día siguiente (art. 24.3).",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#7-abstención-y-recusación"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#7-abstención-y-recusación",
+      "respuestaLiteral": "Tres días"
     },
     {
       "id": "DIP-T04-011",
@@ -154,7 +164,8 @@
       "correcta": 0,
       "justificacion": "La cooperación implica una actuación voluntaria y acordada entre Administraciones para alcanzar objetivos comunes.",
       "trampa": "No confundir cooperación con coordinación, que puede responder a una competencia específica de integración.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#82-colaboración-cooperación-y-coordinación"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#82-colaboración-cooperación-y-coordinación",
+      "respuestaLiteral": "Voluntaria y acordada"
     },
     {
       "id": "DIP-T04-012",
@@ -168,7 +179,8 @@
       "correcta": 0,
       "justificacion": "Las conferencias sectoriales son órganos de cooperación multilateral entre Administraciones Públicas.",
       "trampa": "No todo órgano colegiado es un órgano de cooperación interadministrativa.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#85-órganos-de-cooperación"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#85-órganos-de-cooperación",
+      "respuestaLiteral": "La conferencia sectorial"
     },
     {
       "id": "DIP-T04-013",
@@ -182,21 +194,23 @@
       "correcta": 1,
       "justificacion": "El **artículo 17.4 Ley 40/2015** permite tratar asuntos no incluidos en el orden del día solo si **asisten todos sus miembros** y la **mayoría** declara la urgencia.",
       "trampa": "No basta el quórum ordinario; para alterar el orden del día se exige **asistencia de todos** y declaración de urgencia por **mayoría**.",
-      "referencia": "Ley 40/2015, art. 17.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 17.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "Sí, si asisten todos los miembros y la mayoría declara la urgencia"
     },
     {
       "id": "DIP-T04-014",
       "pregunta": "¿Puede delegarse la resolución de recursos en el órgano que dictó el acto recurrido?",
       "opciones": [
+        "No",
         "Sí, siempre",
         "Sí, si acepta el recurrente",
-        "No",
         "Sí, sin necesidad de habilitación"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "Ley 40/2015, artículo 9: No.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "No"
     },
     {
       "id": "DIP-T04-015",
@@ -210,7 +224,8 @@
       "correcta": 1,
       "justificacion": "Ley 40/2015, artículo 9: En el diario oficial correspondiente.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "En el diario oficial correspondiente"
     },
     {
       "id": "DIP-T04-016",
@@ -218,13 +233,14 @@
       "opciones": [
         "Cuando lo autorice cualquier vocal",
         "Cuando asistan la Presidencia y un tercio de sus miembros",
-        "Cuando estén reunidos el secretario y todos los miembros (o suplentes) y así lo decidan todos",
-        "Siempre que exista urgencia declarada por la Presidencia"
+        "Siempre que exista urgencia declarada por la Presidencia",
+        "Cuando estén reunidos el secretario y todos los miembros (o suplentes) y así lo decidan todos"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "Puede constituirse sin convocatoria previa cuando estén reunidos **el secretario y todos los miembros o sus suplentes**, presencialmente o a distancia, **y todos lo decidan**; la previsión legal debe leerse con sus restantes reglas de funcionamiento.",
       "trampa": "No confundir la **ausencia de convocatoria previa** con el quórum ordinario de **la mitad** de miembros.",
-      "referencia": "Ley 40/2015, art. 17.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 17.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "Cuando estén reunidos el secretario y todos los miembros (o suplentes) y así lo decidan todos"
     },
     {
       "id": "DIP-T04-017",
@@ -238,63 +254,72 @@
       "correcta": 1,
       "justificacion": "El **artículo 17.5 Ley 40/2015** establece que los acuerdos se adoptan por **mayoría de votos**.",
       "trampa": "La ley dice **mayoría de votos**, no unanimidad ni mayoría cualificada como regla general.",
-      "referencia": "Ley 40/2015, art. 17.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 17.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "Por mayoría de votos"
     },
     {
       "id": "DIP-T04-018",
       "pregunta": "Si concurre causa legal de abstención, ¿qué hace el empleado público?",
       "opciones": [
         "Continuar y resolver con normalidad",
-        "Se abstiene y comunica la causa al superior inmediato",
         "Resolver unilateralmente su recusación",
+        "Se abstiene y comunica la causa al superior inmediato",
         "Delegar siempre la titularidad"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "Ley 40/2015, artículo 23: Se abstiene y comunica la causa al superior inmediato.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 23 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 23 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "Se abstiene y comunica la causa al superior inmediato"
     },
     {
       "id": "DIP-T04-019",
       "pregunta": "¿Cuándo debe manifestar el recusado a su superior si concurre la causa?",
       "opciones": [
+        "Al día siguiente",
         "En diez días",
         "En tres días",
-        "En un mes",
-        "Al día siguiente"
+        "En un mes"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "justificacion": "Ley 40/2015, artículo 24: Al día siguiente.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "Al día siguiente"
     },
     {
       "id": "DIP-T04-020",
       "pregunta": "¿Qué caracteriza a la cooperación entre Administraciones?",
       "opciones": [
         "Impone una relación jerárquica",
-        "Se basa en sanciones entre órganos",
         "Compromisos voluntarios para una acción común",
+        "Se basa en sanciones entre órganos",
         "Solo puede producirse entre municipios"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "Ley 40/2015, artículo 143: Compromisos voluntarios para una acción común.",
       "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "Compromisos voluntarios para una acción común"
     },
     {
       "id": "DIP-T04-021",
       "pregunta": "¿Cuándo debe manifestar la persona recusada a su superior si concurre la causa alegada?",
       "opciones": [
-        "El mismo día obligatoriamente",
         "Al día siguiente",
+        "El mismo día obligatoriamente",
         "En tres días",
         "En diez días hábiles"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "Artículo 24.3 de la Ley 40/2015: en el día siguiente el recusado manifestará al inmediato superior si se da o no la causa.",
       "trampa": "No confundir el día siguiente de manifestación del recusado con los tres días para resolver cuando niega la causa.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#131-recusación-secuencia-legal-exacta"
+      "referencia": "content/diputacion-toledo/tema-04/manual.md#131-recusación-secuencia-legal-exacta",
+      "respuestaLiteral": "Al día siguiente"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

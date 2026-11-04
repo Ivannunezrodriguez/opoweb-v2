@@ -9,27 +9,29 @@
       "opciones": [
         "En 1 año",
         "En 4 años",
-        "En cualquier momento",
-        "En 6 meses"
+        "En 6 meses",
+        "En cualquier momento"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "El artículo 106 de la Ley 39/2015 permite revisar los actos nulos en cualquier momento.",
       "trampa": "Confundir el plazo de iniciación con el plazo máximo de resolución del procedimiento, que es de 6 meses.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos",
+      "respuestaLiteral": "En cualquier momento"
     },
     {
       "id": "DIP-T08-002",
       "pregunta": "¿Qué dictamen exige la revisión de oficio de un acto nulo?",
       "opciones": [
-        "Informe no vinculante de Intervención",
         "Dictamen favorable del Consejo de Estado u órgano consultivo equivalente",
+        "Informe no vinculante de Intervención",
         "Autorización judicial previa",
         "Informe favorable del Ministerio Fiscal"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La declaración de nulidad requiere dictamen favorable del Consejo de Estado u órgano consultivo autonómico equivalente.",
       "trampa": "El dictamen no es meramente facultativo ni basta con solicitarlo: debe ser favorable.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos",
+      "respuestaLiteral": "Dictamen favorable del Consejo de Estado u órgano consultivo equivalente"
     },
     {
       "id": "DIP-T08-003",
@@ -43,7 +45,8 @@
       "correcta": 2,
       "justificacion": "El procedimiento de revisión de oficio debe resolverse en 6 meses.",
       "trampa": "Los 4 años corresponden al límite para declarar la lesividad, no al plazo de resolución de la revisión de oficio.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos",
+      "respuestaLiteral": "6 meses"
     },
     {
       "id": "DIP-T08-004",
@@ -57,21 +60,23 @@
       "correcta": 1,
       "justificacion": "La declaración de lesividad permite impugnar ante la jurisdicción contenciosa actos favorables que sean anulables.",
       "trampa": "La Administración no anula directamente el acto favorable anulable; debe declarar la lesividad y acudir a la jurisdicción.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#3-declaración-de-lesividad"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#3-declaración-de-lesividad",
+      "respuestaLiteral": "Actos favorables anulables"
     },
     {
       "id": "DIP-T08-005",
       "pregunta": "¿Hasta cuándo puede declararse la lesividad de un acto anulable favorable?",
       "opciones": [
+        "Dentro de 4 años",
         "Dentro de 1 mes",
         "Dentro de 1 año",
-        "Dentro de 4 años",
         "En cualquier momento"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La declaración de lesividad no puede adoptarse después de 4 años desde que se dictó el acto.",
       "trampa": "No confundir el límite de 4 años con la caducidad de 6 meses del procedimiento de lesividad.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#3-declaración-de-lesividad"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#3-declaración-de-lesividad",
+      "respuestaLiteral": "Dentro de 4 años"
     },
     {
       "id": "DIP-T08-006",
@@ -79,13 +84,14 @@
       "opciones": [
         "Cualquier error jurídico",
         "Solo errores de Derecho",
-        "Errores materiales, de hecho o aritméticos",
-        "Únicamente errores aritméticos"
+        "Únicamente errores aritméticos",
+        "Errores materiales, de hecho o aritméticos"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La Ley permite rectificar en cualquier momento errores materiales, de hecho o aritméticos.",
       "trampa": "El error de Derecho no se corrige por simple rectificación.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#5-rectificación-de-errores"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#5-rectificación-de-errores",
+      "respuestaLiteral": "Errores materiales, de hecho o aritméticos"
     },
     {
       "id": "DIP-T08-007",
@@ -99,35 +105,38 @@
       "correcta": 1,
       "justificacion": "El recurso de alzada procede contra actos que no agotan la vía administrativa.",
       "trampa": "La reposición se dirige contra actos que sí ponen fin a la vía administrativa.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#9-recurso-de-alzada"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#9-recurso-de-alzada",
+      "respuestaLiteral": "Alzada"
     },
     {
       "id": "DIP-T08-008",
       "pregunta": "¿Cuál es el plazo para interponer recurso de alzada contra un acto expreso?",
       "opciones": [
+        "1 mes",
         "10 días",
         "15 días",
-        "1 mes",
         "3 meses"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El plazo es de 1 mes cuando el acto es expreso.",
       "trampa": "Los 3 meses son el plazo máximo para resolver, no para interponer.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#9-recurso-de-alzada"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#9-recurso-de-alzada",
+      "respuestaLiteral": "1 mes"
     },
     {
       "id": "DIP-T08-009",
       "pregunta": "¿Quién resuelve el recurso potestativo de reposición?",
       "opciones": [
         "El superior jerárquico",
-        "El mismo órgano que dictó el acto",
         "El Consejo de Estado",
+        "El mismo órgano que dictó el acto",
         "El órgano judicial competente"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La reposición se interpone y resuelve por el mismo órgano que dictó el acto.",
       "trampa": "El superior jerárquico resuelve la alzada, no la reposición.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#10-recurso-potestativo-de-reposición"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#10-recurso-potestativo-de-reposición",
+      "respuestaLiteral": "El mismo órgano que dictó el acto"
     },
     {
       "id": "DIP-T08-010",
@@ -141,7 +150,8 @@
       "correcta": 1,
       "justificacion": "La ejecución se entiende suspendida si transcurre 1 mes desde la solicitud sin notificación expresa.",
       "trampa": "Es un supuesto excepcional de silencio favorable respecto de la medida de suspensión.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#83-suspensión-de-la-ejecución"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#83-suspensión-de-la-ejecución",
+      "respuestaLiteral": "Se entiende suspendida la ejecución"
     },
     {
       "id": "DIP-T08-011",
@@ -149,13 +159,14 @@
       "opciones": [
         "1 mes",
         "3 meses",
-        "1 año",
-        "4 años"
+        "4 años",
+        "1 año"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "justificacion": "Por error de hecho resultante de los documentos del expediente, el plazo es de 4 años desde la notificación.",
       "trampa": "Las demás causas del recurso extraordinario tienen, con carácter general, un plazo de 3 meses.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#11-recurso-extraordinario-de-revisión"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#11-recurso-extraordinario-de-revisión",
+      "respuestaLiteral": "4 años"
     },
     {
       "id": "DIP-T08-012",
@@ -163,13 +174,14 @@
       "opciones": [
         "Sí, siempre",
         "Sí, si lo solicita otro interesado",
-        "No, por la prohibición de reformatio in peius",
-        "Solo en reposición"
+        "Solo en reposición",
+        "No, por la prohibición de reformatio in peius"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La resolución debe respetar la prohibición de reformatio in peius y no puede empeorar la situación inicial del recurrente.",
       "trampa": "La Administración debe resolver todas las cuestiones, pero sin agravar la posición inicial del recurrente.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#85-resolución-del-recurso"
+      "referencia": "content/diputacion-toledo/tema-08/manual.md#85-resolución-del-recurso",
+      "respuestaLiteral": "No, por la prohibición de reformatio in peius"
     },
     {
       "id": "DIP-T08-013",
@@ -183,35 +195,38 @@
       "correcta": 2,
       "justificacion": "El plazo máximo de resolución y notificación del recurso de alzada es de **3 meses**.",
       "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Tres meses"
     },
     {
       "id": "DIP-T08-014",
       "pregunta": "¿Cuál es el plazo de resolución y notificación del recurso potestativo de reposición?",
       "opciones": [
-        "Un mes",
         "Tres meses",
+        "Un mes",
         "Seis meses",
         "Cuatro años"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "La reposición debe resolverse y notificarse en **1 mes**.",
       "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 124 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 124 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Un mes"
     },
     {
       "id": "DIP-T08-015",
       "pregunta": "En el ámbito de una entidad local, ¿qué órgano declara la lesividad de un acto favorable anulable?",
       "opciones": [
-        "El alcalde necesariamente",
         "El Pleno de la Corporación o, en su defecto, su órgano colegiado superior",
+        "El alcalde necesariamente",
         "La Junta Electoral de Zona",
         "El secretario municipal por sí solo"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "El **artículo 107.5 de la Ley 39/2015** atribuye la declaración de lesividad, en las entidades locales, al **Pleno de la Corporación** o, en defecto de éste, al **órgano colegiado superior**.",
       "trampa": "No confundir la competencia local para declarar lesividad con la competencia estatal del artículo 111.",
-      "referencia": "Ley 39/2015, art. 107.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 107.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "El Pleno de la Corporación o, en su defecto, su órgano colegiado superior"
     },
     {
       "id": "DIP-T08-016",
@@ -225,35 +240,38 @@
       "correcta": 2,
       "justificacion": "La desestimación presunta general de la alzada tiene la **excepción del doble silencio**, salvo materias del artículo 24.1.",
       "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Puede entenderse estimado salvo materias expresamente exceptuadas"
     },
     {
       "id": "DIP-T08-017",
       "pregunta": "¿Qué efecto produce que transcurran seis meses desde el inicio del procedimiento de declaración de lesividad sin declararse ésta?",
       "opciones": [
         "Estimación por silencio",
-        "Caducidad del procedimiento",
         "Nulidad automática del acto favorable",
-        "Prórroga de cuatro años"
+        "Prórroga de cuatro años",
+        "Caducidad del procedimiento"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "Conforme al **artículo 107.3**, transcurridos **6 meses** desde el inicio del procedimiento sin declaración de lesividad, se produce la **caducidad**.",
       "trampa": "Distinguir los **4 años** máximos desde que se dictó el acto para declarar lesividad y los **6 meses** de duración de su procedimiento.",
-      "referencia": "Ley 39/2015, art. 107.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 107.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Caducidad del procedimiento"
     },
     {
       "id": "DIP-T08-018",
       "pregunta": "¿Cuál es el plazo para el recurso extraordinario de revisión por aparición de documento esencial?",
       "opciones": [
-        "Tres meses",
         "Un año",
         "Cuatro años",
-        "Seis meses"
+        "Seis meses",
+        "Tres meses"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "El plazo es de **3 meses** desde que se conozcan los documentos esenciales.",
       "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Tres meses"
     },
     {
       "id": "DIP-T08-019",
@@ -267,21 +285,27 @@
       "correcta": 1,
       "justificacion": "El recurso extraordinario se entiende **desestimado** al transcurrir **3 meses** sin resolución notificada.",
       "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 126 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 126 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Desestimación presunta"
     },
     {
       "id": "DIP-T08-020",
       "pregunta": "¿Qué plazo de audiencia se exige antes de declarar lesivo un acto favorable anulable?",
       "opciones": [
-        "Ninguno, porque el acto es favorable",
         "Audiencia previa de los interesados conforme al artículo 82",
+        "Ninguno, porque el acto es favorable",
         "Un plazo fijo e invariable de 30 días",
         "Solo audiencia ante el órgano judicial"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "El **artículo 107.2** exige audiencia previa de los interesados en los términos del **artículo 82**, que contempla un plazo no inferior a **10 días** ni superior a **15 días**.",
       "trampa": "La declaración de lesividad es previa a la impugnación judicial y exige audiencia administrativa.",
-      "referencia": "Ley 39/2015, arts. 107.2 y 82.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, arts. 107.2 y 82.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Audiencia previa de los interesados conforme al artículo 82"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

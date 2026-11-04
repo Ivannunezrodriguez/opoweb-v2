@@ -8,42 +8,45 @@
       "pregunta": "¿Cuál de las siguientes notas distingue al acto administrativo del reglamento?",
       "opciones": [
         "El acto administrativo siempre tiene destinatario único",
-        "El acto administrativo produce efectos jurídicos concretos y no tiene carácter normativo general",
         "El reglamento carece de efectos jurídicos",
-        "El acto administrativo solo puede ser favorable"
+        "El acto administrativo solo puede ser favorable",
+        "El acto administrativo produce efectos jurídicos concretos y no tiene carácter normativo general"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El acto administrativo aplica el ordenamiento a un supuesto concreto, mientras que el reglamento contiene una norma general y abstracta.",
       "trampa": "Confundir acto general con reglamento: un acto puede dirigirse a una pluralidad, pero sigue sin tener carácter normativo.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#1-concepto-de-acto-administrativo"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#1-concepto-de-acto-administrativo",
+      "respuestaLiteral": "El acto administrativo produce efectos jurídicos concretos y no tiene carácter normativo general"
     },
     {
       "id": "DIP-T07-002",
       "pregunta": "¿Qué acto de trámite puede recurrirse separadamente?",
       "opciones": [
         "Cualquiera que se dicte antes de la resolución",
-        "Solo el que sea favorable",
         "El que produzca indefensión o perjuicio irreparable",
+        "Solo el que sea favorable",
         "Ningún acto de trámite"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "Los actos de trámite cualificados son recurribles cuando deciden el fondo, impiden continuar, producen indefensión o perjuicio irreparable.",
       "trampa": "No todos los actos de trámite son recurribles autónomamente.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#2-clases-de-actos-administrativos"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#2-clases-de-actos-administrativos",
+      "respuestaLiteral": "El que produzca indefensión o perjuicio irreparable"
     },
     {
       "id": "DIP-T07-003",
       "pregunta": "La incompetencia manifiesta que determina nulidad de pleno derecho debe ser por razón de:",
       "opciones": [
-        "Jerarquía o cuantía",
         "Materia o territorio",
+        "Jerarquía o cuantía",
         "Firma o forma",
         "Tiempo o oportunidad"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "El artículo 47.1.b de la Ley 39/2015 exige incompetencia manifiesta por razón de la materia o del territorio.",
       "trampa": "La incompetencia jerárquica no aparece en esta causa de nulidad.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#7-nulidad-de-pleno-derecho"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#7-nulidad-de-pleno-derecho",
+      "respuestaLiteral": "Materia o territorio"
     },
     {
       "id": "DIP-T07-004",
@@ -57,7 +60,8 @@
       "correcta": 1,
       "justificacion": "La Ley 39/2015 exige motivación, entre otros, para los actos que limiten derechos subjetivos o intereses legítimos.",
       "trampa": "La motivación no depende de que el acto sea electrónico.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#4-requisitos-del-acto-administrativo"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#4-requisitos-del-acto-administrativo",
+      "respuestaLiteral": "Los que limiten derechos subjetivos o intereses legítimos"
     },
     {
       "id": "DIP-T07-005",
@@ -71,21 +75,23 @@
       "correcta": 1,
       "justificacion": "Los actos se presumen válidos y producen efectos desde la fecha en que se dictan, salvo previsión distinta o eficacia demorada.",
       "trampa": "Validez, eficacia y firmeza son conceptos distintos.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#5-eficacia-de-los-actos"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#5-eficacia-de-los-actos",
+      "respuestaLiteral": "Desde la fecha en que se dicten, salvo que dispongan otra cosa"
     },
     {
       "id": "DIP-T07-006",
       "pregunta": "¿En qué supuesto puede otorgarse eficacia retroactiva favorable?",
       "opciones": [
         "Siempre que lo pida el interesado",
-        "Cuando existieran ya los presupuestos de hecho y no se lesionen derechos de terceros",
         "Solo en actos sancionadores",
-        "Nunca"
+        "Nunca",
+        "Cuando existieran ya los presupuestos de hecho y no se lesionen derechos de terceros"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La retroactividad favorable exige hechos preexistentes y ausencia de lesión a derechos o intereses legítimos de otras personas.",
       "trampa": "La retroactividad favorable no es automática.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#5-eficacia-de-los-actos"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#5-eficacia-de-los-actos",
+      "respuestaLiteral": "Cuando existieran ya los presupuestos de hecho y no se lesionen derechos de terceros"
     },
     {
       "id": "DIP-T07-007",
@@ -99,7 +105,8 @@
       "correcta": 1,
       "justificacion": "El artículo 40.2 de la Ley 39/2015 establece un plazo de 10 días para cursar la notificación.",
       "trampa": "Ese plazo no es el plazo para recurrir.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#6-notificación-y-publicación"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#6-notificación-y-publicación",
+      "respuestaLiteral": "10 días"
     },
     {
       "id": "DIP-T07-008",
@@ -113,7 +120,8 @@
       "correcta": 2,
       "justificacion": "El contenido imposible constituye una causa expresa de nulidad de pleno derecho.",
       "trampa": "No se trata de mera anulabilidad.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#7-nulidad-de-pleno-derecho"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#7-nulidad-de-pleno-derecho",
+      "respuestaLiteral": "Nulo de pleno derecho"
     },
     {
       "id": "DIP-T07-009",
@@ -127,21 +135,23 @@
       "correcta": 1,
       "justificacion": "El artículo 48 incluye expresamente la desviación de poder entre las causas de anulabilidad.",
       "trampa": "No confundir desviación de poder con incompetencia manifiesta.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#8-anulabilidad"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#8-anulabilidad",
+      "respuestaLiteral": "Anulabilidad"
     },
     {
       "id": "DIP-T07-010",
       "pregunta": "¿Cuándo produce anulabilidad un defecto de forma?",
       "opciones": [
+        "Cuando falten requisitos formales indispensables o se produzca indefensión",
         "Siempre",
         "Nunca",
-        "Cuando falten requisitos formales indispensables o se produzca indefensión",
         "Solo cuando falte firma manuscrita"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El defecto formal solo invalida cuando el acto carece de requisitos formales indispensables para alcanzar su fin o produce indefensión.",
       "trampa": "No todo defecto de forma anula el acto.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#8-anulabilidad"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#8-anulabilidad",
+      "respuestaLiteral": "Cuando falten requisitos formales indispensables o se produzca indefensión"
     },
     {
       "id": "DIP-T07-011",
@@ -155,49 +165,53 @@
       "correcta": 2,
       "justificacion": "La Administración puede convalidar los actos anulables subsanando sus vicios.",
       "trampa": "Los actos nulos de pleno derecho no son convalidables.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#10-convalidación-conservación-y-conversión"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#10-convalidación-conservación-y-conversión",
+      "respuestaLiteral": "Convalidación"
     },
     {
       "id": "DIP-T07-012",
       "pregunta": "La nulidad de un acto administrativo implica necesariamente la nulidad de todos los actos posteriores del procedimiento:",
       "opciones": [
-        "Sí, siempre",
         "Solo si los actos posteriores no son independientes del primero",
+        "Sí, siempre",
         "No, nunca",
         "Solo si lo pide el interesado"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La nulidad no se extiende a los actos sucesivos independientes del acto viciado.",
       "trampa": "La invalidez no se propaga automáticamente a todo el procedimiento.",
-      "referencia": "content/diputacion-toledo/tema-07/manual.md#10-convalidación-conservación-y-conversión"
+      "referencia": "content/diputacion-toledo/tema-07/manual.md#10-convalidación-conservación-y-conversión",
+      "respuestaLiteral": "Solo si los actos posteriores no son independientes del primero"
     },
     {
       "id": "DIP-T07-013",
       "pregunta": "Si se intenta notificar en papel en el domicilio y no hay nadie que se haga cargo, ¿cuándo se repite el intento según el artículo 42.2?",
       "opciones": [
         "En la misma hora del siguiente día necesariamente",
-        "Una sola vez, en una hora distinta y dentro de los tres días siguientes",
         "Dos veces más en el plazo de diez días",
-        "Se publica sin más trámite en el BOE"
+        "Se publica sin más trámite en el BOE",
+        "Una sola vez, en una hora distinta y dentro de los tres días siguientes"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La notificación domiciliaria se intentará **una sola vez más**, en **hora distinta** y dentro de los **tres días siguientes**, respetando los requisitos horarios del **artículo 42.2**.",
       "trampa": "El segundo intento debe guardar **al menos tres horas** respecto del primero y alternar antes y después de las **15:00**.",
-      "referencia": "Ley 39/2015, art. 42.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 42.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Una sola vez, en una hora distinta y dentro de los tres días siguientes"
     },
     {
       "id": "DIP-T07-014",
       "pregunta": "¿Cuándo se entiende rechazada una notificación electrónica obligatoria sin acceso?",
       "opciones": [
         "A los diez días hábiles",
-        "Tras diez días naturales desde su puesta a disposición",
         "Tras un mes",
-        "Inmediatamente"
+        "Inmediatamente",
+        "Tras diez días naturales desde su puesta a disposición"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El art. 43.2 establece **10 días naturales** desde la puesta a disposición sin acceder.",
       "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
-      "referencia": "Ley 39/2015, artículo 43 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, artículo 43 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Tras diez días naturales desde su puesta a disposición"
     },
     {
       "id": "DIP-T07-015",
@@ -211,7 +225,8 @@
       "correcta": 2,
       "justificacion": "El art. 44 establece anuncio obligatorio en **BOE**; otros anuncios son facultativos o complementarios.",
       "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
-      "referencia": "Ley 39/2015, artículo 44 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, artículo 44 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "En el Boletín Oficial del Estado"
     },
     {
       "id": "DIP-T07-016",
@@ -225,35 +240,38 @@
       "correcta": 3,
       "justificacion": "En procedimientos selectivos la convocatoria debe indicar el medio de sucesivas publicaciones; las de lugares diferentes carecen de validez.",
       "trampa": "Distinguir días naturales de hábiles y nulidad de anulabilidad conforme al artículo citado.",
-      "referencia": "Ley 39/2015, artículo 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, artículo 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "La que se realice en el medio indicado por la convocatoria"
     },
     {
       "id": "DIP-T07-017",
       "pregunta": "¿Qué ocurre con los actos dictados por órgano manifiestamente incompetente por razón de la materia o del territorio?",
       "opciones": [
-        "Son siempre meras irregularidades",
         "Son nulos de pleno derecho",
+        "Son siempre meras irregularidades",
         "Se convalidan automáticamente al transcurrir diez días",
         "Son reglamentos ilegales"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La **incompetencia manifiesta por razón de materia o territorio** determina **nulidad de pleno derecho** (artículo **47.1.b**).",
       "trampa": "La mención a **materia o territorio** es decisiva: no toda incompetencia lleva automáticamente a nulidad.",
-      "referencia": "Ley 39/2015, art. 47.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 47.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Son nulos de pleno derecho"
     },
     {
       "id": "DIP-T07-018",
       "pregunta": "¿Qué vicio de un acto administrativo puede convalidarse mediante la actuación del órgano competente cuando no determine nulidad?",
       "opciones": [
-        "Una incompetencia no determinante de nulidad",
         "Un contenido imposible",
         "Una lesión de derechos susceptibles de amparo constitucional",
+        "Una incompetencia no determinante de nulidad",
         "Un acto constitutivo de infracción penal"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "El **artículo 52.3** permite convalidar el acto anulable por incompetencia que **no determine nulidad** mediante convalidación del **órgano competente** cuando sea superior jerárquico del que lo dictó.",
       "trampa": "Los actos **nulos de pleno derecho** no se convalidan por el cauce del artículo **52**.",
-      "referencia": "Ley 39/2015, art. 52.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 52.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Una incompetencia no determinante de nulidad"
     },
     {
       "id": "DIP-T07-019",
@@ -267,21 +285,27 @@
       "correcta": 2,
       "justificacion": "El **artículo 40.2** exige indicar si el acto **pone fin a la vía administrativa**, los **recursos** procedentes, el **órgano** ante el que presentarlos y su **plazo**, además del texto íntegro.",
       "trampa": "No basta entregar el texto íntegro: la notificación debe indicar **recursos, órgano y plazo**.",
-      "referencia": "Ley 39/2015, art. 40.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 40.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "La indicación de si el acto pone fin a la vía administrativa y los recursos procedentes"
     },
     {
       "id": "DIP-T07-020",
       "pregunta": "Según el artículo 51, ¿qué debe conservarse al declarar la nulidad o anulabilidad de actuaciones?",
       "opciones": [
+        "Los actos y trámites cuyo contenido se habría mantenido igual de no cometerse la infracción",
         "Ningún trámite anterior puede conservarse",
         "Solo el acto finalmente anulado",
-        "Los actos y trámites cuyo contenido se habría mantenido igual de no cometerse la infracción",
         "Únicamente las notificaciones posteriores"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La **conservación de actos y trámites** se refiere a aquellos cuyo contenido se habría mantenido **igual** de no haberse cometido la infracción (artículo **51**).",
       "trampa": "La invalidez de un acto no obliga a repetir automáticamente todo el procedimiento.",
-      "referencia": "Ley 39/2015, art. 51 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 51 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Los actos y trámites cuyo contenido se habría mantenido igual de no cometerse la infracción"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }
