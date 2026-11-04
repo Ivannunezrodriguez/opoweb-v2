@@ -94,6 +94,14 @@ En la Comunidad de Madrid, el plazo general para resolver y notificar es de **ve
 
 El acceso se facilita preferentemente por vía electrónica y con carácter gratuito. Solo pueden exigirse cantidades por copias o por la transposición a formatos distintos cuando proceda conforme a la normativa aplicable.
 
+### Plazos especiales que no deben confundirse con el plazo general
+
+Según el **artículo 42.2 de la Ley 10/2019**, cuando concurra una causa de inadmisión del artículo 40.1, la **resolución motivada de inadmisión debe adoptarse y notificarse lo antes posible y, en todo caso, en cinco días hábiles** desde su recepción por el órgano competente para resolver. No se trata de una denegación de fondo ni del plazo general de **veinte días** del artículo 42.1.
+
+El **artículo 41** regula una situación distinta: si la información no obra en poder del órgano receptor, este debe **remitir la solicitud al competente en un plazo no superior a cinco días**, informando al solicitante. Si desconoce el órgano competente, debe intentar averiguarlo; si lo identifica, lo remite en **cinco días**, y si transcurren **cinco días** sin identificarlo, inadmite e informa. Estos **cinco días de remisión** no deben calificarse automáticamente de **hábiles** por analogía con el artículo 42.2 sin examinar las reglas generales de cómputo.
+
+> ⚠️ **¡Foco Examen!:** **20 días** para resolver el acceso (**42.1**), **otros 20** posibles por volumen o complejidad (**42.1**), **5 días hábiles** para notificar la inadmisión (**42.2**) y **5 días** para remitir al órgano competente (**41**). No son plazos intercambiables.
+
 ## 8. Reclamación
 
 Frente a una resolución expresa o presunta puede interponerse reclamación potestativa ante el órgano de garantía de transparencia competente, con carácter previo a la vía contencioso-administrativa.
