@@ -30,3 +30,9 @@
 - [Ley 10/2019, art. 41](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102#a41): remisión al órgano competente en cinco días y obligación de informar al solicitante.
 - [Ley 10/2019, art. 42.1–3](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102#a42): veinte días para resolución/notificación de acceso, ampliación de otros veinte por volumen o complejidad con información al solicitante, **cinco días hábiles** para notificar la inadmisión y silencio desestimatorio.
 - Redacción consolidada consultada: última actualización BOE publicada **27/12/2024**. La fecha de corte de la convocatoria UC3M exige todavía contrastar la resolución primaria de listas definitivas.
+
+## Auditoría del banco · 04/11/2026
+
+[**Cotejo individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): fundamentos específicos, análisis de distractores y bloques **¡Foco Examen!**. Estado **COTEJO_BANCO_COMPLETO**. **No** significa aprobación del usuario ni certifica navegación y accesibilidad de la web. La legislación exigible para UC3M se determina conforme a la **base primera.7** de su convocatoria, no automáticamente el día del examen.
+
+> ⚠️ **¡Foco Examen!:** La inadmisión de solicitudes del artículo **42.2** de Ley 10/2019 se resuelve en **5 días hábiles**, diferentes de los **20 días** de resolución ordinaria del artículo **42.1**.
