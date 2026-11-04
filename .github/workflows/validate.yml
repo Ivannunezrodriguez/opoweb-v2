@@ -41,7 +41,7 @@ jobs:
         run: node tests/validate-uc3m-exams.mjs
       - name: Validar programa y preguntas de Diputación C1
         run: node tests/validate-diputacion.mjs
-      - name: Validar 99 temas de las cuatro convocatorias
+      - name: Validar estructura conjunta de 121 temas de cinco convocatorias
         run: node tests/validate-all-programmes.mjs
       - name: Validar coherencia de cinco convocatorias y campos de preguntas
         run: node tests/validate-cross-oposiciones.mjs
