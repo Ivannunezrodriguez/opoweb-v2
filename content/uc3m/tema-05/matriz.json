@@ -2,16 +2,67 @@
   "tema": 5,
   "epigrafeOficial": "Ley 40/2015 (II): funcionamiento electrónico del sector público.",
   "cobertura": [
-    {"apartado":"Sede electrónica","articulos":"38","estado":"CUBIERTO"},
-    {"apartado":"Portal de internet","articulos":"39","estado":"CUBIERTO"},
-    {"apartado":"Identificación de las Administraciones","articulos":"40","estado":"CUBIERTO"},
-    {"apartado":"Actuación administrativa automatizada","articulos":"41-42","estado":"CUBIERTO"},
-    {"apartado":"Firma del personal público","articulos":"43","estado":"CUBIERTO"},
-    {"apartado":"Intercambio en entornos cerrados","articulos":"44","estado":"CUBIERTO"},
-    {"apartado":"Interoperabilidad de la firma","articulos":"45","estado":"CUBIERTO"},
-    {"apartado":"Archivo electrónico","articulos":"46","estado":"CUBIERTO"},
-    {"apartado":"Ubicación de sistemas y datos","articulos":"46 bis","estado":"CUBIERTO"},
-    {"apartado":"Relaciones electrónicas, reutilización y transferencia de tecnología","articulos":"155-158","estado":"CUBIERTO"}
+    {
+      "apartado": "Sede electrónica",
+      "articulos": "38",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Portal de internet",
+      "articulos": "39",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Identificación de las Administraciones",
+      "articulos": "40",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Actuación administrativa automatizada",
+      "articulos": "41-42",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Firma del personal público",
+      "articulos": "43",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Intercambio en entornos cerrados",
+      "articulos": "44",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Interoperabilidad de la firma",
+      "articulos": "45",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Archivo electrónico",
+      "articulos": "46",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Ubicación de sistemas y datos",
+      "articulos": "46 bis",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Relaciones electrónicas, reutilización y transferencia de tecnología",
+      "articulos": "155-158",
+      "estado": "CUBIERTO"
+    }
   ],
-  "resultado":"COBERTURA_COMPLETA"
+  "resultado": "COBERTURA_COMPLETA",
+  "controlIntegralJuridico20261104": {
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "fecha": "2026-11-04",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "fuenteOficial": "BOE-A-2026-14624; BOE-A-2015-10566 o BOE-A-2018-16673/RGPD según tema",
+    "informe": "content/uc3m/tema-05/cotejo-integral-2026-11-04.md",
+    "controlFuncional": "PENDIENTE_NAVEGADOR_REAL",
+    "aprobacionUsuario": "PENDIENTE",
+    "observaciones": "Corregida premisa demasiado amplia de UC3M-T05-010; artículo 46 bis localizado a categorías tasadas"
+  }
 }
