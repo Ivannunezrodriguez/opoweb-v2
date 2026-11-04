@@ -20,7 +20,7 @@ const fetched = [];
 const fetchBank = async path => {
   fetched.push(path);
   return { ok: true, json: async () => ({
-    preguntas: [{ id: 'DT-C2-T' + path.match(/tema-(\\d{2})/)[1] + '-TEST', respuestaCorrecta: 0 }]
+    preguntas: [{ id: 'DT-C2-T' + path.split('/tema-')[1].slice(0, 2) + '-TEST', respuestaCorrecta: 0 }]
   }) };
 };
 const banks = await loadBanks(c2, fetchBank, (item, theme) => ({ ...item, tema: theme }))();
