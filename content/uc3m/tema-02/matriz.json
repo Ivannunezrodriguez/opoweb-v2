@@ -8,22 +8,55 @@
     {
       "apartado": "Disposiciones generales",
       "estado": "CUBIERTO",
-      "contenido": ["objeto", "ámbito subjetivo", "sector público institucional", "especialidades procedimentales"]
+      "contenido": [
+        "objeto",
+        "ámbito subjetivo",
+        "sector público institucional",
+        "especialidades procedimentales"
+      ]
     },
     {
       "apartado": "Interesados",
       "estado": "CUBIERTO",
-      "contenido": ["capacidad de obrar", "concepto de interesado", "representación", "apoderamientos", "identificación", "firma"]
+      "contenido": [
+        "capacidad de obrar",
+        "concepto de interesado",
+        "representación",
+        "apoderamientos",
+        "identificación",
+        "firma"
+      ]
     },
     {
       "apartado": "Actividad de las Administraciones Públicas",
       "estado": "CUBIERTO",
-      "contenido": ["derechos de las personas", "relación electrónica", "lengua", "registros", "archivo", "comparecencia", "obligación de resolver", "silencio", "términos y plazos"]
+      "contenido": [
+        "derechos de las personas",
+        "relación electrónica",
+        "lengua",
+        "registros",
+        "archivo",
+        "comparecencia",
+        "obligación de resolver",
+        "silencio",
+        "términos y plazos"
+      ]
     },
     {
       "apartado": "Actos administrativos",
       "estado": "CUBIERTO",
-      "contenido": ["requisitos", "forma", "motivación", "eficacia", "notificación", "publicación", "nulidad", "anulabilidad", "conservación", "convalidación"]
+      "contenido": [
+        "requisitos",
+        "forma",
+        "motivación",
+        "eficacia",
+        "notificación",
+        "publicación",
+        "nulidad",
+        "anulabilidad",
+        "conservación",
+        "convalidación"
+      ]
     }
   ],
   "controlesTest": [
@@ -43,5 +76,16 @@
     "BOE-A-2026-14624",
     "BOE-A-2015-10565"
   ],
-  "aprobadoPorUsuario": false
+  "aprobadoPorUsuario": false,
+  "controlIntegralJuridico20261104": {
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "fecha": "2026-11-04",
+    "programa": "BOE-A-2026-14624 Anexo I",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "informe": "content/uc3m/tema-02/cotejo-integral-2026-11-04.md",
+    "validacionFuncional": "PENDIENTE_NAVEGADOR_REAL",
+    "corteNormativo": "base primera.7: publicación de listas definitivas y anuncio del ejercicio; fecha exacta pendiente de documento primario",
+    "aprobacionUsuario": "PENDIENTE"
+  }
 }
