@@ -21,7 +21,8 @@ for(let topic=1;topic<=40;topic++){
 assert.equal(total,803,'Keep exact C1 bank inventory');
 const prl=JSON.parse(readFileSync('content/diputacion-toledo/tema-23/preguntas.json','utf8'));
 const item=id=>prl.preguntas.find(q=>q.id===id);
-for(const [id,pattern] of [['DIP-T23-015',/15 d[ií]as/],['DIP-T23-017',/emergencia/],['DIP-T23-018',/obligaci[oó]n del trabajador/],['DIP-T23-019',/servicio de prevenci[oó]n/],['DIP-T23-020',/prevenci[oó]n propio/]]){
+for(const [id,pattern] of [['DIP-T23-015',/plazo ordinario/],['DIP-T23-017',/emergencia/],['DIP-T23-018',/obligaci[oó]n del trabajador/],['DIP-T23-019',/servicio de prevenci[oó]n/],['DIP-T23-020',/prevenci[oó]n propio/]]){
  const q=item(id);assert(q,'Missing replacement '+id);assert.match(q.pregunta,pattern,'Wrong actual rendered question for '+id);
+ assert.equal(q.opciones[q.correcta],q.respuestaLiteral,'Correct literal shifted for '+id);
 }
 console.log('DIPUTACION_C1_803_ANSWER_POSITIONS_BALANCED_AND_LITERAL_OK');
