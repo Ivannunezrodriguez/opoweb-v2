@@ -1245,3 +1245,9 @@ La nueva letra **70.2.e** incluye en el ámbito del personal estatutario adscrit
 > ⚠️ **¡Foco Examen!:** El BOE integrado solo hasta **21/03/2024** no refleja por sí solo la reforma **2026** del **art. 70.2.e**. La versión de examen combina el texto consolidado y la norma modificadora.
 
 **Fuentes primarias:** [Ley 4/2011](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752), [Ley 2/2026](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086) y [Ley 1/2026](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065).
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Informe pormenorizado de 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con causa de corrección/error de cada opción, artículos de la **Ley 4/2011** y referencia expresa a **Ley 2/2026** para el nuevo supuesto del **artículo 70.2**. La reforma no figura integrada en el consolidado de 2024: se consulta directamente como disposición modificadora. El banco queda **COTEJO_BANCO_COMPLETO**, sin atribuir aprobación al manual íntegro ni pruebas de navegador o accesibilidad.
+
+> ⚠️ **¡Foco Examen!:** OEP: **3 años improrrogables** desde día siguiente a publicación (**art.19.4**). Promoción interna: **2 años** de servicio activo con situaciones asimilables (**art.65.2**). **Concurso** es la provisión ordinaria, mientras la nueva previsión de libre designación **2026** del artículo **70.2** afecta a determinados puestos estatutarios, no a todos.
