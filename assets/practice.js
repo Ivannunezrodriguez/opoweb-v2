@@ -30,6 +30,20 @@ const CALLS = [
     questionPrefix: 'DIP-T'
   },
   {
+    id: 'diputacion-toledo-auxiliar-c2-2026',
+    label: 'Diputación Provincial de Toledo · Auxiliar Administrativo C2',
+    shortLabel: 'Diputación de Toledo · Auxiliar C2',
+    programmeUrl: 'data/programa-diputacion-auxiliar-c2-2026.json',
+    contentRoot: 'content/diputacion-toledo-auxiliar-c2',
+    themeCount: 20,
+    // Sin supuestos ni simulacros publicados todavía; tests temáticos sí disponibles.
+    supuestosUrl: null,
+    simulacrosUrl: null,
+    progressKey: 'opoweb-diputacion-auxiliar-c2-practice-progress-v1',
+    legacyProgressKey: null,
+    questionPrefix: 'DT-C2-T'
+  },
+  {
     id: 'uc3m-auxiliar-administrativa-c2-2026',
     label: 'Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2',
     shortLabel: 'UC3M · Auxiliar C2',
@@ -185,6 +199,9 @@ function formatAttemptDate(value) {
 async function loadQuestionBanks() {
   const banks = await Promise.all(Array.from({ length: activeCall.themeCount }, async (_, index) => {
     const tema = index + 1;
+    // T06 contiene preguntas provisionales que dependen de Estatutos OAPGT por confirmar.
+    // Excluirlas de la práctica evaluable hasta concluir la verificación jurídica.
+    if (activeCall.id === 'diputacion-toledo-auxiliar-c2-2026' && tema === 6) return [];
     const path = `${activeCall.contentRoot}/tema-${String(tema).padStart(2, '0')}/preguntas.json`;
     const response = await fetch(path, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`No se pudo cargar el banco del tema ${tema}`);
@@ -219,9 +236,9 @@ function renderHub() {
     <section class="panel intro"><div class="intro-row"><div><h2>Centro de entrenamiento · ${escapeHtml(activeCall.shortLabel)}</h2><p>Tests por tema, supuestos prácticos y simulacros con justificación, trampa y referencia.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${supuestos.supuestos.length}</strong><span>supuestos prácticos</span></div><div class="summary-card"><strong>${simulacros.simulacros.length}</strong><span>simulacros</span></div><div class="summary-card"><strong>${progress.attempts.length}</strong><span>intentos guardados</span></div></div></section>
     ${examBanner}
     <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div>${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div>${renderHistory(progress)}</section>
-    <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}"><span class="badge">${[...questionMap.values()].filter(q => q.tema === theme.numero).length} preguntas · ${escapeHtml(score)}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
+    <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; const count = [...questionMap.values()].filter(q => q.tema === theme.numero).length; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}" ${count ? '' : 'disabled aria-disabled="true"'}><span class="badge">${count ? `${count} preguntas · ${escapeHtml(score)}` : 'Preguntas en revisión jurídica'}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
     ${supuestos.supuestos.length ? `<section class="panel"><h2>Supuestos prácticos</h2><p class="search-count">Casos transversales con solución razonada y trazabilidad.</p><div class="practice-grid">${[...testCases, ...openCases].map(item => `<button class="practice-card" type="button" data-case="${item.id}"><span class="badge">Temas ${(item.temas || []).join(', ')}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join('')}</div></section>` : ''}
-    <section class="panel"><h2>Simulacros transversales</h2><div class="practice-grid">${simulacros.simulacros.map(item => `<button class="practice-card" type="button" data-sim="${item.id}"><span class="badge">${item.preguntas.length} preguntas${item.preguntasReserva?.length ? ' + 5 de reserva' : ''} · ${item.duracionMinutos ? `${item.duracionMinutos} min` : "Duración oficial pendiente"}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.instrucciones || 'Corrección al finalizar.')}</p></button>`).join('')}</div></section>`;
+    ${simulacros.simulacros.length ? `<section class="panel"><h2>Simulacros transversales</h2><div class="practice-grid">${simulacros.simulacros.map(item => `<button class="practice-card" type="button" data-sim="${item.id}"><span class="badge">${item.preguntas.length} preguntas${item.preguntasReserva?.length ? ' + 5 de reserva' : ''} · ${item.duracionMinutos ? `${item.duracionMinutos} min` : "Duración oficial pendiente"}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.instrucciones || 'Corrección al finalizar.')}</p></button>`).join('')}'}</div></section>` : ''}`;
 
   document.querySelector('#practice-call-selector')?.addEventListener('change', event => loadCall(event.target.value));
   document.querySelector('#reset-progress')?.addEventListener('click', () => {
@@ -365,12 +382,16 @@ async function loadCall(id) {
   app.innerHTML = '<section class="panel intro"><h2>Cargando entrenamiento…</h2></section>';
   const [programmeResponse, supuestosResponse, simulacrosResponse, banks] = await Promise.all([
     fetch(activeCall.programmeUrl, { cache: 'no-cache' }),
-    fetch(activeCall.supuestosUrl, { cache: 'no-cache' }),
-    fetch(activeCall.simulacrosUrl, { cache: 'no-cache' }),
+    activeCall.supuestosUrl ? fetch(activeCall.supuestosUrl, { cache: 'no-cache' }) : Promise.resolve(null),
+    activeCall.simulacrosUrl ? fetch(activeCall.simulacrosUrl, { cache: 'no-cache' }) : Promise.resolve(null),
     loadQuestionBanks()
   ]);
-  if (!programmeResponse.ok || !supuestosResponse.ok || !simulacrosResponse.ok) throw new Error('No se pudieron cargar todos los recursos de práctica');
-  [programme, supuestos, simulacros] = await Promise.all([programmeResponse.json(), supuestosResponse.json(), simulacrosResponse.json()]);
+  if (!programmeResponse.ok || (supuestosResponse && !supuestosResponse.ok) || (simulacrosResponse && !simulacrosResponse.ok)) throw new Error('No se pudieron cargar todos los recursos de práctica');
+  [programme, supuestos, simulacros] = await Promise.all([
+    programmeResponse.json(),
+    supuestosResponse ? supuestosResponse.json() : Promise.resolve({ supuestos: [] }),
+    simulacrosResponse ? simulacrosResponse.json() : Promise.resolve({ simulacros: [] })
+  ]);
   questionMap = banks;
   const selectedTheme = Number(new URLSearchParams(location.search).get('tema'));
   if (selectedTheme >= 1 && selectedTheme <= activeCall.themeCount) startThemeTest(selectedTheme);
