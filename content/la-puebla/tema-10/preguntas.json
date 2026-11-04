@@ -28,7 +28,7 @@
     },
     {
       "id": "LP-T10-002",
-      "enunciado": "¿Qué órgano debe acordar la delegación de facultades de gestión, liquidación, inspección o recaudación de tributos locales?",
+      "enunciado": "Una entidad local delega en otra entidad local las facultades de gestión y recaudación de sus tributos. ¿Qué órgano acuerda la delegación?",
       "opciones": [
         "El Pleno de la corporación",
         "El Alcalde",
@@ -36,9 +36,9 @@
         "La Intervención municipal"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 7 TRLRHL exige acuerdo del Pleno de la corporación delegante, determinación del alcance, aceptación por el ente delegado y publicación oficial.",
-      "trampaExamen": "La delegación tributaria no se presume ni puede formalizarse solo mediante convenio sin acuerdo plenario.",
-      "referencia": "manual.md · apartado 6 · Artículo 7 TRLRHL",
+      "justificacion": "El artículo 7.2 TRLRHL exige acuerdo del Pleno de la corporación delegante, que fija alcance y contenido. La aceptación por la entidad local delegada corresponde a su propio Pleno. Tras aceptarse, el acuerdo se publica en los boletines oficiales de la provincia y de la comunidad autónoma.",
+      "trampaExamen": "No confundir el Pleno de la entidad delegante (acuerda) con el Pleno de la entidad local delegada (acepta). La publicación exigida es doble: BOP y boletín autonómico.",
+      "referencia": "manual.md · apartado 6 · TRLRHL, art. 7.2",
       "respuestaLiteral": "El Pleno de la corporación"
     },
     {
@@ -204,5 +204,13 @@
     "fecha": "2026-11-04",
     "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
     "objetivo": "3 correctas por cada posición en banco de 12"
+  },
+  "revisionFocalizada20261104": {
+    "fecha": "2026-11-04",
+    "preguntas": [
+      "LP-T10-002"
+    ],
+    "normativa": "TRLRHL, art. 7.2, BOE-A-2004-4214",
+    "alcance": "Cotejo de órgano delegante, aceptación por Pleno local delegado y doble publicación; distractores conservados y revisados para el supuesto específico; no recertificación integral."
   }
 }
