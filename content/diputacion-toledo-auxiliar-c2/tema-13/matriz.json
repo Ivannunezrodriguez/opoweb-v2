@@ -42,5 +42,24 @@
   ],
   "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-13/fuentes.md",
   "manual": "content/diputacion-toledo-auxiliar-c2/tema-13/manual.md",
-  "notas": "Matriz de correspondencia literal y artículos fundada en las fuentes documentales ya existentes. No acredita vigencia exhaustiva, ausencia de lagunas ni calidad integral de preguntas."
+  "notas": "Matriz de correspondencia literal y artículos fundada en las fuentes documentales ya existentes. No acredita vigencia exhaustiva, ausencia de lagunas ni calidad integral de preguntas.",
+  "controlIntegralBanco20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "preguntasVerificadas": 20,
+    "alternativasVerificadas": 80,
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-13/cotejo-integral-2026-11-05.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionLegalGlobal": "PENDIENTE_MANUAL_COMPLETO",
+    "fuentesPrimarias": [
+      "BOE-A-2004-4214 actualizado 07/10/2026 arts 15,17,19,59-64,78-83,92-94,104-106"
+    ],
+    "preguntasReemplazadasPorRedundancia": [
+      "DT-C2-T13-009",
+      "DT-C2-T13-010",
+      "DT-C2-T13-018"
+    ],
+    "respuestaCorrectaConservada": true
+  }
 }
