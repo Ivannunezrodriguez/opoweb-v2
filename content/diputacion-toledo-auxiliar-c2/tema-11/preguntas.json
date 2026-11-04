@@ -1,8 +1,8 @@
 {
   "tema": 11,
   "estado": "BANCO_20_PREGUNTAS_REVISADO",
-  "version": "2026-10-29",
-  "criterio": "20 preguntas originales de cuatro opciones con fundamentación de artículo individual cotejada con LGT y TRLRHL; no se ejecutó interfaz de navegador.",
+  "version": "2026-11-05",
+  "criterio": "20 preguntas originales de cuatro opciones con fundamentación de artículo individual cotejada con LGT y TRLRHL; no se ejecutó interfaz de navegador. · 05/11/2026: tres redundancias reemplazadas por LGT 104.1 (6 meses), TRLRHL 7.2 (publicación delegación) y TRLRHL 9.1 (bonificación máxima 5%); 20 IDs y claves conservados.",
   "preguntas": [
     {
       "id": "DT-C2-T11-001",
@@ -202,17 +202,17 @@
     },
     {
       "id": "DT-C2-T11-015",
-      "enunciado": "¿Qué elemento NO forma parte de la deuda tributaria según el artículo 58 LGT?",
+      "enunciado": "Según el artículo 104.1 LGT, ¿cuál es el plazo máximo supletorio de notificación de resolución de un procedimiento tributario cuando su normativa no establece otro?",
       "opciones": [
-        "Cuota tributaria",
-        "Interés de demora",
-        "Recargo del período ejecutivo",
-        "Sanción tributaria"
+        "Tres meses en todos los casos",
+        "Un año sin excepciones",
+        "No existe un plazo máximo aplicable",
+        "Seis meses, con las especialidades y excepciones establecidas legalmente"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Las **sanciones tributarias no forman parte de la deuda tributaria**, aunque para cobrarlas se aplique el régimen recaudatorio correspondiente (**artículo 58.3 LGT**).",
-      "trampaExamen": "**Sanción tributaria** no integra la **deuda tributaria**; son conceptos distintos.",
-      "referencia": "LGT art. 58 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+      "justificacion": "El artículo 104.1 LGT establece un plazo máximo ordinario de seis meses, salvo norma con rango legal o de la UE que permita otro; cuando la norma procedimental no lo fija, el plazo supletorio es seis meses. El procedimiento de apremio queda exceptuado conforme al mismo precepto.",
+      "trampaExamen": "**LGT art.104.1: seis meses supletorios**; no confundir con **tres meses** de Ley 39/2015 art.21.3. **Apremio** es excepción específica al límite del art.104.1.",
+      "referencia": "LGT art. 104.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a104"
     },
     {
       "id": "DT-C2-T11-016",
@@ -258,31 +258,31 @@
     },
     {
       "id": "DT-C2-T11-019",
-      "enunciado": "¿Qué medio extingue la deuda tributaria?",
+      "enunciado": "Conforme al artículo 7.2 TRLRHL, ¿dónde se publica el acuerdo municipal de delegación de facultades tributarias una vez aceptado por el órgano competente?",
       "opciones": [
-        "Solicitud de cita previa",
-        "Cambio de residencia",
-        "Comunicación informal",
-        "Pago"
+        "Solo en la página comercial del recaudador",
+        "Únicamente mediante correo privado a los contribuyentes",
+        "Exclusivamente en el tablón del Ayuntamiento",
+        "En los boletines oficiales de la provincia y de la comunidad autónoma"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El **pago** es uno de los medios de extinción de la deuda tributaria (**artículo 59.1 LGT**).",
-      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
-      "referencia": "LGT art. 59 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+      "justificacion": "El Pleno municipal adopta el acuerdo de delegación; una vez aceptada por el órgano correspondiente, debe publicarse en los Boletines Oficiales de la Provincia y de la Comunidad Autónoma, art. 7.2 TRLRHL. Distinguir aprobación, aceptación y publicación.",
+      "trampaExamen": "**Delegación tributaria local: Pleno aprueba, ente receptor acepta y publicación en BOP + boletín oficial autonómico**. No confundir la delegación con la colaboración del art.8.",
+      "referencia": "TRLRHL art. 7.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a7"
     },
     {
       "id": "DT-C2-T11-020",
-      "enunciado": "¿Qué permite la compensación tributaria?",
+      "enunciado": "Según el artículo 9.1 TRLRHL, ¿cuál es la bonificación máxima que puede prever una ordenanza fiscal por domiciliación de deudas periódicas, pago anticipado o colaboración en la recaudación, en las condiciones legales?",
       "opciones": [
-        "Extinguir deudas con créditos reconocidos en los términos legales",
-        "Borrar cualquier sanción automáticamente",
-        "Eliminar los impuestos locales",
-        "Evitar cualquier comprobación"
+        "Hasta el cinco por ciento de la cuota",
+        "El cien por cien de toda deuda municipal sin habilitación",
+        "Una bonificación obligatoria del cincuenta por ciento",
+        "Un descuento del treinta por ciento fijado verbalmente"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La compensación permite extinguir total o parcialmente deudas con **créditos reconocidos por acto administrativo** a favor del mismo obligado en los términos legales (**artículo 71.1 LGT**).",
-      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
-      "referencia": "LGT art. 71 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+      "justificacion": "El art. 9.1 TRLRHL autoriza que ordenanzas fiscales establezcan, en condiciones previstas por las propias ordenanzas, bonificación de hasta el 5 % para domiciliación de deudas periódicas, anticipación de pagos y otros actos de colaboración recaudatoria. Es potestativa, no automática.",
+      "trampaExamen": "**Hasta 5 % de la cuota**, no bonificación obligatoria. Precisa **ordenanza fiscal** y casos autorizados por **art.9.1 TRLRHL**.",
+      "referencia": "TRLRHL art. 9.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a9"
     }
   ],
   "auditoria": {
