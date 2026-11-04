@@ -35,7 +35,7 @@ La Ley Orgánica adapta el Derecho español al RGPD, completa sus previsiones y 
 | Infracciones y sanciones | 70–78 |
 | Derechos digitales | 79–97 |
 
-La trazabilidad individual de los artículos 1–97 y 53 bis está en `articulos.md`.
+**Mapa de artículos del tema:** el cuadro anterior identifica los bloques normativos; **no existe un fichero `articulos.md` en esta carpeta**. La comprobación artículo por artículo del manual completo sigue **pendiente** y no se declara como acreditada.
 
 ---
 
@@ -406,3 +406,20 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 9 aprobad
 > ⚠️ **¡Foco Examen!:** **DPD** no es sinónimo de **responsable** ni de **encargado** del tratamiento. El **consentimiento** no es obligatorio en todos los tratamientos administrativos: caben otras bases jurídicas legales.
 
 **Fuentes:** [LO 3/2018 consolidada a **27/12/2025**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673); [RGPD, Reglamento (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa). **20 preguntas de examen** con fundamentos normativos en `preguntas.json`.
+
+## Cotejo individual del banco, plazos y brechas · 04/11/2026
+
+[**Informe de las 20 preguntas y 80 alternativas exactas, con fundamento para cada distractor**](cotejo-integral-2026-11-04.md). Se han sustituido **T10-008/015/020**, antes duplicadas, por plazos de ejercicio de derechos, entrega de grabaciones y brechas; sin modificar claves ni número de preguntas.
+
+| Obligación | Cómputo legal exacto |
+|---|---|
+| **Derechos de acceso/rectificación/etc.**, **RGPD art. 12.3** | Respuesta en **1 mes** desde **recibir solicitud**, prorrogable excepcionalmente **2 meses adicionales** con aviso dentro del primero |
+| **Videovigilancia**, **LOPDGDD art. 22.3** | Supresión general en **1 mes desde captación**, con excepciones |
+| **Imágenes retenidas por hechos contra personas/bienes/instalaciones**, **art. 22.3** | Puesta a disposición de **autoridad competente en 72 horas** desde conocer existencia de grabación |
+| **Brecha de seguridad**, **RGPD art. 33.1** | Aviso a **autoridad de control** sin dilación y, de ser posible, dentro de **72 horas desde constancia** cuando exista riesgo y no sea improbable; justificar demora |
+| **Información a personas afectadas**, **RGPD art. 34** | **Sin dilación indebida** cuando sea probable **alto riesgo**, sin aplicar automáticamente las 72 horas |
+
+**Fuente adicional institucional:** [**AEPD sobre respuestas a derechos**](https://www.aepd.es/preguntas-frecuentes/1-tus-derechos/2-tus-derechos-de-proteccion-de-datos) y [**AEPD sobre notificación de brechas**](https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion).
+
+> ⚠️ **¡Foco Examen!:** **1 mes** derechos ≠ **1 mes** conservación de imágenes: comienzan respectivamente en **solicitud** y **captación**. **72 horas de entrega de vídeo** comienzan al conocer la **grabación**; **72 horas de brecha RGPD** al conocer **violación de seguridad**, bajo sus condiciones.
+
