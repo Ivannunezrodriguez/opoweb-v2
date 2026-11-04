@@ -1552,3 +1552,62 @@ Los **144 distractores/alternativas** de **36 preguntas** tienen motivación ind
 **Auditoría individual de bancos documentada: 39/121 temas**; **La Puebla 19/19**, **UC3M 20/20**. Total **488 preguntas y 1.952 alternativas** comentadas. Esta cobertura de **bancos** no constituye certificación del **100 % del temario ni de la web**; **0/121** han acreditado simultáneamente todas las capas exigidas.
 
 **Prioridad siguiente:** obtener y leer **Volumen I Presupuesto UC3M 2026** para resolver las reservas de T18/T19; recuperar publicación primaria de **listas definitivas UC3M**, verificar el corte temporal y rectificar si procediera; pruebas de navegación, móvil y accesibilidad; después retomar temas de otras convocatorias aún sin auditoría integral.
+
+
+## 58. UC3M Volumen I 2026 · Cierre de reservas de T18 y precisión terminológica T19 — **04/11/2026**
+
+### 58.1. Fuente primaria por fin recuperada
+
+Se ha localizado en la [**carpeta institucional UC3M del Presupuesto 2026**](https://drive.google.com/drive/folders/1DjCPXRrGPQqPcMSzUUeUB1AKXBHFSj02) el [**Volumen I: Objetivos, Programa de Gobierno, Normas de ejecución, capítulos y conceptos, clasificaciones y plantillas**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view). Es un **PDF de 150 páginas** y **no una transcripción de academia**. Se ha recuperado el archivo original, extraído su texto y realizado **comprobación visual de las páginas 78, 79, 94, 98 y 101**, y textual de la **102**.
+
+### 58.2. T18: tres reservas primarias resueltas
+
+| Pregunta del banco | Respuesta verificada directamente | Artículo y página del Volumen I |
+|---|---|---|
+| **T18-006** | Vinculación general **nivel de concepto, dentro de cada centro y programa**. **Capítulos I, II y VI** vinculan a nivel de **capítulo**, con especialidades para atenciones protocolarias/representativas y subvenciones nominativas | **Art. 5, página 78/150** |
+| **T18-008** | Transferencia de créditos de **capital a corriente**: **Consejo Social**, **previa autorización del Gobierno de la Comunidad de Madrid** | **Art. 6, página 79/150** |
+| **T18-012** | Factura emitida: cobro **30 días**, recordatorio **60**, incobrados **90**, reunión del **Grupo de Seguimiento de Incobrados** **120 días** | **Art. 14.2, página 94/150** |
+
+Se mantienen **las letras de respuesta existentes**, correctas en los tres casos. Se actualizan **`fuentes.md`**, **`cotejo-integral-2026-11-04.md`** y **`matriz.json`** con **`controlFuentePrimaria20261104.estado=VERIFICADO_EN_PDF_INSTITUCIONAL_ORIGINAL`**. Ya no es cierta para esos tres ítems la reserva anterior «no se pudo recuperar el Volumen I». La certificación general del tema y su visualización siguen siendo cuestiones diferentes.
+
+> ⚠️ **¡Foco Examen!:** **90 días** marca **inicio de incobrados**; **120 días** la **reunión del grupo**. Las transferencias **capital → corriente** requieren **Consejo Social y autorización previa del Gobierno autonómico**; no solo **Rector**.
+
+### 58.3. T19: corrección jurídica/contable efectiva de las preguntas **005–006**
+
+La edición anterior de OpoWeb afirmaba sin distinción que **O = reconocimiento de obligación** y que **ADO = autorización, disposición y obligación**. Esa nomenclatura puede tener encaje en contabilidad pública general, pero es **inexacta si se presenta como literalidad de las Normas Básicas UC3M de 2026**.
+
+El **artículo 15.2.1, página 98**, del Volumen I original utiliza:
+
+| Código interno UC3M | Denominación del documento en **art. 15.2.1** |
+|---|---|
+| **RC** | **Retención de crédito** |
+| **A** | **Autorización de gasto** |
+| **D** | **Disposición o compromiso de gasto** |
+| **O** | **Propuesta de pago** |
+| **AD** | **Autorización y compromiso de gasto** |
+| **ADO** | **Autorización, compromiso de gasto y propuesta de pago** |
+
+**Actuación real en el repositorio:** se adaptan **`UC3M-T19-005`** (ahora pregunta directamente por **O = propuesta de pago**) y **`UC3M-T19-006`** (literal **ADO** corregido), preservando **IDs**, **cuatro alternativas** y **posiciones correctas B y D**. Se rectifican **manual**, **fuentes**, **informe individual** y **matriz**. La diferencia entre **propuesta de pago**, **ordenación de pago** y **pago material** queda explícita.
+
+Adicionalmente, **arts. 16.2–3, páginas 101–102 del mismo original**:
+
+| Sistema UC3M 2026 | Dato exacto |
+|---|---|
+| **Sistema asimilado a caja fija** | Gastos que **no excedan de 5.000 € sin IVA** |
+| **Anticipos a justificar de compras o servicios** (no viajes) | **Máximo 12.000 €** |
+| **Justificación de esos anticipos** | **Plazo máximo 1 mes** |
+| **Anticipo para actividad general** | Documento **ADO código 250**, endosado al habilitado, y número del **RC** |
+
+> ⚠️ **¡Foco Examen!:** En la **norma UC3M 2026**, **O = propuesta de pago**. El límite **5.000 €** de caja fija y el de **12.000 €** para anticipos **no** son límites generales de contrato menor de la LCSP. El anticipo debe justificarse en **1 mes**.
+
+### 58.4. Verificación técnica y límites
+
+- [**Test de regresión de UC3M T16–T20**](tests/validate-uc3m-t16-t20-integral.mjs) ampliado para impedir reintroducir los errores en **O/ADO** y para exigir la traza de fuente original en T18 y T19; conserva cotejo de **69 preguntas y 276 alternativas**.
+- [**GitHub Actions run 41920022098, SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41920022098) para SHA **`703b0a9da354d1d4c3225853aa76b7c8f5788506`**, que contiene la prueba reforzada.
+- GitHub Pages de ese SHA aún estaba **en curso** al redactar esta sección; no dar por completado su despliegue sin confirmación.
+- **Corte normativo de la base primera.7 UC3M:** la [**página pública del proceso C2 de 2026**](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) muestra listado definitivo, pero el rastreador textual no facilita la **fecha del original de la resolución**; no dar por acreditado el presunto **01/10/2026** de fuentes secundarias.
+- **Prueba funcional de navegación y accesibilidad**: aún no realizada de forma real. **No certificar cobertura completa jurídico-funcional** por haber superado validaciones de fichero.
+
+**Cobertura de bancos sin incremento en número de temas:** **39/121** (**La Puebla 19/19; UC3M 20/20**), **488 preguntas / 1.952 alternativas**. Este lote **mejora la validez jurídico-editorial de T18/T19**, no suma temas nuevos ni modifica la cantidad de opciones del banco.
+
+**Siguiente prioridad:** recuperar el documento primario de **lista definitiva UC3M 2026** y la fecha de su publicación, realizar pruebas funcionales de navegador, y después proseguir con el siguiente temario de otra convocatoria que carece de cotejo individual.
