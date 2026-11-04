@@ -1302,3 +1302,34 @@ Se añadió [`tests/validate-la-puebla-three-legal-closures.mjs`](tests/validate
 - **Siguiente frente prioritario:** verificar CI y PDF del último SHA, después abordar **UC3M** por su examen del **21/11/2026** y el resto de temas de convocatorias sin informe, sin dar por superadas pruebas que todavía no se han ejecutado.
 
 **Definición:** *AUDITADO TÉCNICO-EDITORIAL* implica el cotejo individual del banco y la correspondencia de los bloques con el epígrafe, **no** una certificación independiente de cada versión futura del software ni una prueba integral de funcionamiento del portal.
+
+
+## 51. UC3M: primeros tres temas con banco cotejado — **04/11/2026**
+
+### 51.1. Fuente oficial, fecha de corte y alcance
+
+- **Convocatoria:** [**BOE-A-2026-14624**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), **06/07/2026**, **Universidad Carlos III de Madrid**, **34 plazas** subgrupo **C2**, **20 temas**, ejercicio único de **70 + 5 preguntas** en **60 minutos**, con **−1/3** por fallo y puntuación directa **A − E/3**.
+- Se trabaja sobre **los tres primeros temas (T1–T3)** que figuran en el Anexo I, sin tratar la versión resumida del manifiesto como transcripción literal íntegra del programa.
+- La base **primera.7** fija legislación exigible a fecha de publicación de la resolución que aprueba las **listas definitivas y anuncia el ejercicio**, **no** al día del examen ni automáticamente al BOE de convocatoria. La fecha exacta de publicación de dicha resolución no se infiere de portales secundarios; **sigue pendiente la lectura primaria**.
+- [**Constitución consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), última actualización publicada el **20/05/2026**; [**Reforma del art. 69.3**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881), con eficacia electoral diferida. [**Ley 39/2015 consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), última actualización publicada **06/11/2024**.
+
+### 51.2. Correcciones concretas del temario
+
+| Tema | Cambio aplicado en fuente editorial | Trampa test |
+|---|---|---|
+| **T1** · Constitución | Artículo **167.2** desarrollado: si falla el acuerdo ordinario, **Senado mayoría absoluta + Congreso 2/3**; tabla comparativa 167 y advertencia de examen. Reforma **69.3** de **2026** ya estaba incorporada; se vuelve a contrastar con BOE. | **3/5** regla general; **2/3 del Congreso** no es vía sin condicionantes; **1/10 de Cámara** puede pedir referéndum en **15 días** |
+| **T2** · Ley 39/2015 I | Artículo **31.2**: presentación en inhábil para plazo de interesado fijado en días hábiles = **primera hora siguiente hábil** y preservación del orden real; se distingue el cómputo de la **Administración**. | Registro disponible **24/7** no hace hábiles los sábados |
+| **T3** · Ley 39/2015 II | Artículo **96.6**: plazo **30 días** desde el **día siguiente a la notificación del acuerdo de tramitación simplificada**; precisadas oposición y solicitud, plazos **5 días**. Corregida ficha de fuentes para no tomar el día de examen como fecha normativa de corte. | Simplificada **30 días** ≠ urgencia **mitad del plazo ordinario** |
+
+> ⚠️ **¡Foco Examen!:** La fecha de publicación de **listas definitivas + anuncio** es la de corte normativo UC3M. El artículo **96.6 LPAC** cuenta la simplificada desde el día siguiente a la **notificación**, y el artículo **167.2 CE** requiere **mayoría absoluta del Senado** además de **2/3 del Congreso**.
+
+### 51.3. Tres cotejos completos, 144 alternativas y control CI
+
+- [**T1 · 48 alternativas**](content/uc3m/tema-01/cotejo-integral-2026-11-04.md), [**T2 · 48 alternativas**](content/uc3m/tema-02/cotejo-integral-2026-11-04.md) y [**T3 · 48 alternativas**](content/uc3m/tema-03/cotejo-integral-2026-11-04.md). Cada opción de **12 preguntas por tema** tiene razonamiento individual, identificación de artículo/regla y foco examen.
+- Los informes se enlazan desde los **manuales** y sus **fuentes.md**, y las tres **matriz.json** registran **`COTEJO_BANCO_COMPLETO`**, sin atribuir estado **APROBADO_USUARIO** ni afirmar pruebas integrales en navegador.
+- Nuevo [**`tests/validate-uc3m-t01-t03-integral.mjs`**](tests/validate-uc3m-t01-t03-integral.mjs): **144 alternativas** textualmente cotejadas con informes, claves, literales, referencias, distribución equilibrada **3 correctas por A/B/C/D y tema**, y regresiones de las tres correcciones. Se incorpora a **`npm test`** y al [workflow **Validar OpoWeb v2**](.github/workflows/validate.yml).
+- **CI confirmada:** [**SUCCESS, run 41900084929**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41900084929) en SHA **`62fee00cd5d94faef32d20811b523e33c7b04350`**, ya con la nueva tarea añadida. **Pages en ese SHA estaba pendiente** a la hora de la lectura; no confundir CI con publicación final ni navegación funcional en móvil.
+
+**Acumulado editorial auditable en esta serie:** **22/121 temas** con informes de **banco completo** (los **19** de La Puebla y **UC3M T1–T3**), **264 preguntas y 1.056 alternativas**. Este indicador representa el alcance explícito del **banco y epígrafe contrastado**, **no** la certificación jurídica exhaustiva ni técnica total del sitio; **0/121** certificados simultáneamente en todas las capas.
+
+**Prioridad de continuación:** UC3M **T4–T20**, comenzando por legislación de organismos, protección de datos, normativa universitaria y contratación, y verificación posterior de fecha normativa de corte, CSS, despliegue y accesibilidad.
