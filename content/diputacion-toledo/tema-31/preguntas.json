@@ -6,99 +6,106 @@
       "id": "DIP-T31-001",
       "pregunta": "¿Qué firma electrónica tiene expresamente un efecto jurídico equivalente al de una firma manuscrita?",
       "opciones": [
+        "La firma cualificada",
         "La firma simple",
         "La firma avanzada",
-        "La firma cualificada",
         "Cualquier firma escaneada"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El Reglamento eIDAS atribuye expresamente a la firma electrónica cualificada un efecto jurídico equivalente al de la firma manuscrita.",
       "trampa": "La firma avanzada ofrece mayores garantías técnicas, pero no recibe por sí sola esa equivalencia jurídica expresa.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#31-tipos-de-firma"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#31-tipos-de-firma",
+      "respuestaLiteral": "La firma cualificada"
     },
     {
       "id": "DIP-T31-002",
       "pregunta": "¿Cuál de los siguientes NO es un requisito de la firma electrónica avanzada?",
       "opciones": [
+        "Ser siempre emitida por una Administración pública",
         "Estar vinculada de manera única al firmante",
         "Permitir identificar al firmante",
-        "Detectar modificaciones posteriores",
-        "Ser siempre emitida por una Administración pública"
+        "Detectar modificaciones posteriores"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "justificacion": "La firma electrónica avanzada debe estar vinculada de manera única al firmante, permitir identificarlo, quedar bajo su control exclusivo con un alto nivel de confianza y detectar modificaciones posteriores; no exige que la emita una Administración pública.",
       "trampa": "No debe confundirse un prestador cualificado de servicios de confianza con una Administración pública.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#31-tipos-de-firma"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#31-tipos-de-firma",
+      "respuestaLiteral": "Ser siempre emitida por una Administración pública"
     },
     {
       "id": "DIP-T31-003",
       "pregunta": "El sello electrónico se asocia normalmente a:",
       "opciones": [
-        "Una persona jurídica",
         "Una persona física exclusivamente",
         "Un navegador web",
+        "Una persona jurídica",
         "Un documento en papel"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "El sello electrónico se utiliza normalmente para garantizar el origen y la integridad de datos respecto de una persona jurídica.",
       "trampa": "La firma se vincula típicamente a una persona física; el sello, normalmente, a una persona jurídica.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#2-servicios-electrónicos-de-confianza"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#2-servicios-electrónicos-de-confianza",
+      "respuestaLiteral": "Una persona jurídica"
     },
     {
       "id": "DIP-T31-004",
       "pregunta": "¿Qué hace un certificado electrónico?",
       "opciones": [
         "Sustituye siempre a la firma",
-        "Vincula datos de validación con una identidad o atributos",
         "Convierte cualquier documento en público",
+        "Vincula datos de validación con una identidad o atributos",
         "Elimina la necesidad de verificar identidad"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "Un certificado electrónico vincula datos de validación de firma o sello con una persona física o jurídica y confirma determinados atributos.",
       "trampa": "El certificado no es la firma; sirve para verificar la vinculación entre identidad y datos de validación.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#4-certificados-electrónicos"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#4-certificados-electrónicos",
+      "respuestaLiteral": "Vincula datos de validación con una identidad o atributos"
     },
     {
       "id": "DIP-T31-005",
       "pregunta": "La Ley 6/2020 entró en vigor el:",
       "opciones": [
         "12 de noviembre de 2020",
-        "13 de noviembre de 2020",
         "1 de enero de 2021",
-        "9 de mayo de 2023"
+        "9 de mayo de 2023",
+        "13 de noviembre de 2020"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La Ley 6/2020, de 11 de noviembre, entró en vigor el 13 de noviembre de 2020.",
       "trampa": "El 12 de noviembre de 2020 fue la fecha de publicación en el BOE, no la de entrada en vigor.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#1-marco-normativo"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#1-marco-normativo",
+      "respuestaLiteral": "13 de noviembre de 2020"
     },
     {
       "id": "DIP-T31-006",
       "pregunta": "¿Qué identifica la Lista de confianza?",
       "opciones": [
-        "Todos los usuarios de certificados",
         "Prestadores y servicios cualificados",
+        "Todos los usuarios de certificados",
         "Todos los empleados públicos",
         "Únicamente sitios web públicos"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La Lista de confianza identifica los prestadores cualificados de servicios de confianza y los servicios cualificados que ofrecen.",
       "trampa": "No es un registro general de usuarios ni de todos los certificados existentes.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#7-autoridad-de-supervisión-y-lista-de-confianza"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#7-autoridad-de-supervisión-y-lista-de-confianza",
+      "respuestaLiteral": "Prestadores y servicios cualificados"
     },
     {
       "id": "DIP-T31-007",
       "pregunta": "Según la Ley 39/2015, ¿en cuál de estas actuaciones se exige firma con carácter general?",
       "opciones": [
         "Consultar información pública",
-        "Formular una solicitud",
         "Leer una notificación",
-        "Acceder a una página informativa"
+        "Acceder a una página informativa",
+        "Formular una solicitud"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La formulación de solicitudes es uno de los supuestos en los que la Ley 39/2015 exige firma con carácter general.",
       "trampa": "La mera identificación, consulta o lectura de información no implica necesariamente la exigencia de firma.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#82-firma"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#82-firma",
+      "respuestaLiteral": "Formular una solicitud"
     },
     {
       "id": "DIP-T31-008",
@@ -112,49 +119,53 @@
       "correcta": 1,
       "justificacion": "La identificación permite acreditar quién actúa; la firma añade, cuando procede, autenticidad de la voluntad y del consentimiento e integridad del documento.",
       "trampa": "No toda actuación en la que el interesado está identificado requiere también firma.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#8-uso-en-la-administración-electrónica"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#8-uso-en-la-administración-electrónica",
+      "respuestaLiteral": "La identificación no implica siempre firma"
     },
     {
       "id": "DIP-T31-009",
       "pregunta": "¿Qué sistema permite contrastar la autenticidad de un documento mediante la sede electrónica?",
       "opciones": [
-        "El código seguro de verificación",
         "La copia impresa simple",
+        "El código seguro de verificación",
         "El nombre del archivo",
         "La contraseña del usuario"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "El código seguro de verificación permite contrastar la autenticidad e integridad de un documento mediante la sede electrónica correspondiente.",
       "trampa": "El CSV no es una firma manuscrita ni una contraseña personal.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#9-actuación-administrativa-automatizada-y-sellos"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#9-actuación-administrativa-automatizada-y-sellos",
+      "respuestaLiteral": "El código seguro de verificación"
     },
     {
       "id": "DIP-T31-010",
       "pregunta": "¿Cuál de los siguientes puede ser soporte de un certificado electrónico?",
       "opciones": [
         "Tarjeta criptográfica",
+        "Todos los anteriores",
         "Token USB",
-        "Certificado software",
-        "Todos los anteriores"
+        "Certificado software"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "justificacion": "Los certificados y sus claves pueden alojarse en tarjetas criptográficas, tokens USB, soportes software, dispositivos remotos o dispositivos móviles seguros.",
       "trampa": "El soporte utilizado no determina por sí solo que la firma sea cualificada.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#10-soportes-del-certificado"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#10-soportes-del-certificado",
+      "respuestaLiteral": "Todos los anteriores"
     },
     {
       "id": "DIP-T31-011",
       "pregunta": "Un certificado revocado:",
       "opciones": [
         "Sigue siendo válido hasta fin de año",
-        "No debe utilizarse como certificado vigente",
         "Se convierte automáticamente en sello",
+        "No debe utilizarse como certificado vigente",
         "Solo deja de valer en papel"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La revocación extingue la validez del certificado desde el momento previsto legalmente y debe reflejarse en el servicio de consulta de estado.",
       "trampa": "Caducidad, suspensión y revocación son situaciones distintas, pero todas afectan a la posibilidad de utilizar válidamente el certificado.",
-      "referencia": "content/diputacion-toledo/tema-31/manual.md#5-expedición-vigencia-suspensión-y-revocación"
+      "referencia": "content/diputacion-toledo/tema-31/manual.md#5-expedición-vigencia-suspensión-y-revocación",
+      "respuestaLiteral": "No debe utilizarse como certificado vigente"
     },
     {
       "id": "DIP-T31-012",
@@ -168,7 +179,8 @@
       "correcta": 0,
       "justificacion": "El Reglamento (UE) 2024/1183 amplió el marco eIDAS e incorporó expresamente, entre otros, los servicios de archivo electrónico, las declaraciones electrónicas de atributos y los libros mayores electrónicos.",
       "trampa": "No todo almacenamiento digital es un servicio cualificado de archivo electrónico; debe cumplir los requisitos del Reglamento eIDAS y constar con ese estado en la lista de confianza.",
-      "referencia": "content/diputacion-toledo/tema-31/auditoria-2026-07-22.md#resultado-jurídico"
+      "referencia": "content/diputacion-toledo/tema-31/auditoria-2026-07-22.md#resultado-jurídico",
+      "respuestaLiteral": "El archivo electrónico"
     },
     {
       "id": "DIP-T31-013",
@@ -182,21 +194,23 @@
       "correcta": 0,
       "justificacion": "La firma cualificada tiene **efecto equivalente a la firma manuscrita**.",
       "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "eIDAS art. 25.2"
+      "referencia": "eIDAS art. 25.2",
+      "respuestaLiteral": "Equivale a una firma manuscrita"
     },
     {
       "id": "DIP-T31-014",
       "pregunta": "¿Cuál es el periodo máximo de vigencia de los certificados cualificados según Ley 6/2020?",
       "opciones": [
         "3 años",
-        "4 años",
         "5 años",
+        "4 años",
         "10 años"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "El máximo es **5 años**.",
       "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "Ley 6/2020 art. 4.2"
+      "referencia": "Ley 6/2020 art. 4.2",
+      "respuestaLiteral": "5 años"
     },
     {
       "id": "DIP-T31-015",
@@ -210,49 +224,53 @@
       "correcta": 3,
       "justificacion": "Durante **15 años** desde la extinción del certificado o finalización del servicio.",
       "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "Ley 6/2020 art. 11.3.a"
+      "referencia": "Ley 6/2020 art. 11.3.a",
+      "respuestaLiteral": "15 años"
     },
     {
       "id": "DIP-T31-016",
       "pregunta": "¿A qué clase de sujeto se atribuye la firma electrónica bajo eIDAS?",
       "opciones": [
-        "Persona física",
         "Persona jurídica exclusivamente",
         "Administración sin firmante",
+        "Persona física",
         "Dispositivo sin titular"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "El **firmante es persona física**.",
       "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "eIDAS art. 3"
+      "referencia": "eIDAS art. 3",
+      "respuestaLiteral": "Persona física"
     },
     {
       "id": "DIP-T31-017",
       "pregunta": "¿Qué sujeto puede crear un sello electrónico conforme a eIDAS?",
       "opciones": [
         "Solo persona física",
-        "Persona jurídica",
         "Solo el órgano judicial",
+        "Persona jurídica",
         "Cualquier dispositivo sin titular"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El **creador de sello** es una **persona jurídica**.",
       "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "eIDAS art. 3"
+      "referencia": "eIDAS art. 3",
+      "respuestaLiteral": "Persona jurídica"
     },
     {
       "id": "DIP-T31-018",
       "pregunta": "¿Qué efecto jurídico tiene la revocación de un certificado?",
       "opciones": [
         "Lo renueva automáticamente",
-        "Lo convierte en sello electrónico",
         "Extingue su vigencia",
+        "Lo convierte en sello electrónico",
         "Permite su uso sin límites"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La **revocación extingue la vigencia** del certificado.",
       "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "Ley 6/2020 arts. 4 y 5"
+      "referencia": "Ley 6/2020 arts. 4 y 5",
+      "respuestaLiteral": "Extingue su vigencia"
     },
     {
       "id": "DIP-T31-019",
@@ -266,21 +284,27 @@
       "correcta": 3,
       "justificacion": "Identifica **prestadores cualificados** y sus **servicios cualificados**.",
       "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "Ley 6/2020 art. 16.1"
+      "referencia": "Ley 6/2020 art. 16.1",
+      "respuestaLiteral": "Prestadores cualificados y servicios cualificados"
     },
     {
       "id": "DIP-T31-020",
       "pregunta": "¿En qué actuación exige firma la Ley 39/2015 con carácter general?",
       "opciones": [
-        "Interponer un recurso",
         "Consultar una web pública",
         "Leer un anuncio público",
-        "Solicitar información telefónica informal"
+        "Solicitar información telefónica informal",
+        "Interponer un recurso"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "La **interposición de recursos** exige firma.",
       "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "Ley 39/2015 art. 11.2"
+      "referencia": "Ley 39/2015 art. 11.2",
+      "respuestaLiteral": "Interponer un recurso"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

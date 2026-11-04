@@ -6,43 +6,46 @@
       "id": "DIP-T32-001",
       "pregunta": "¿Qué combinación abre directamente el Explorador de archivos en Windows 11?",
       "opciones": [
-        "Windows + E",
         "Ctrl + E",
+        "Windows + E",
         "Alt + E",
         "Windows + F"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "La combinación Windows + E abre directamente el Explorador de archivos en Windows 11.",
       "trampa": "Ctrl + E suele situar el foco en un cuadro de búsqueda, pero no abre el Explorador de archivos.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#1-explorador-de-archivos"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#1-explorador-de-archivos",
+      "respuestaLiteral": "Windows + E"
     },
     {
       "id": "DIP-T32-002",
       "pregunta": "¿Qué atajo crea una carpeta nueva en la ubicación activa?",
       "opciones": [
         "Ctrl + N",
-        "Ctrl + Mayús + N",
         "Alt + N",
-        "Windows + N"
+        "Windows + N",
+        "Ctrl + Mayús + N"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La combinación Ctrl + Mayús + N crea una carpeta nueva en la ubicación activa del Explorador de archivos.",
       "trampa": "Ctrl + N suele abrir una nueva ventana, no crear una carpeta.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#3-crear-archivos-y-carpetas"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#3-crear-archivos-y-carpetas",
+      "respuestaLiteral": "Ctrl + Mayús + N"
     },
     {
       "id": "DIP-T32-003",
       "pregunta": "¿Qué diferencia esencial existe entre copiar y mover un archivo?",
       "opciones": [
+        "Copiar mantiene el original y mover cambia su ubicación",
         "Copiar elimina el original",
         "Mover conserva siempre dos copias",
-        "Copiar mantiene el original y mover cambia su ubicación",
         "No existe diferencia"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "Copiar crea un duplicado y conserva el original, mientras que mover cambia la ubicación del elemento y no deja una copia en el origen.",
       "trampa": "Cortar no elimina definitivamente el elemento; lo prepara para moverlo cuando se pega en otra ubicación.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#5-copiar-y-mover"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#5-copiar-y-mover",
+      "respuestaLiteral": "Copiar mantiene el original y mover cambia su ubicación"
     },
     {
       "id": "DIP-T32-004",
@@ -56,7 +59,8 @@
       "correcta": 1,
       "justificacion": "Ctrl + X corta el elemento seleccionado y Ctrl + V lo pega en la nueva ubicación, completando la operación de movimiento.",
       "trampa": "Ctrl + C y Ctrl + V copia el elemento, pero no lo mueve.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#5-copiar-y-mover"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#5-copiar-y-mover",
+      "respuestaLiteral": "Ctrl + X y Ctrl + V"
     },
     {
       "id": "DIP-T32-005",
@@ -70,7 +74,8 @@
       "correcta": 1,
       "justificacion": "La tecla F2 activa el cambio de nombre del archivo o carpeta seleccionado.",
       "trampa": "F5 actualiza la vista del Explorador de archivos; no renombra el elemento.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#6-renombrar"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#6-renombrar",
+      "respuestaLiteral": "F2"
     },
     {
       "id": "DIP-T32-006",
@@ -84,77 +89,83 @@
       "correcta": 1,
       "justificacion": "Mayús + Supr elimina el elemento sin enviarlo a la Papelera de reciclaje, normalmente previa confirmación según la configuración.",
       "trampa": "Supr, sin la tecla Mayús, suele enviar el elemento a la Papelera cuando procede.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#7-eliminar-y-papelera-de-reciclaje"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#7-eliminar-y-papelera-de-reciclaje",
+      "respuestaLiteral": "Elimina sin pasar por la Papelera"
     },
     {
       "id": "DIP-T32-007",
       "pregunta": "¿Qué representa C: en una ruta de Windows?",
       "opciones": [
         "Una carpeta compartida",
-        "Una unidad lógica",
         "Una extensión",
+        "Una unidad lógica",
         "Un servidor"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "C: identifica una unidad lógica local dentro del sistema de archivos de Windows.",
       "trampa": "Una letra de unidad no implica necesariamente que exista un disco físico independiente.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#10-unidades-de-disco-locales"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#10-unidades-de-disco-locales",
+      "respuestaLiteral": "Una unidad lógica"
     },
     {
       "id": "DIP-T32-008",
       "pregunta": "¿Cuál es una ruta UNC válida?",
       "opciones": [
         "C:\\Datos",
-        "\\\\SERVIDOR\\Compartido",
         "https://servidor",
+        "\\\\SERVIDOR\\Compartido",
         "D:/Red"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "Una ruta UNC adopta la forma \\\\servidor\\recurso y permite identificar un recurso compartido de red.",
       "trampa": "C:\\Datos es una ruta local, no una ruta UNC.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#9-rutas-y-ubicaciones"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#9-rutas-y-ubicaciones",
+      "respuestaLiteral": "\\\\SERVIDOR\\Compartido"
     },
     {
       "id": "DIP-T32-009",
       "pregunta": "Mapear una unidad de red significa:",
       "opciones": [
-        "Copiar todo el servidor al disco local",
         "Asignar una letra a un recurso compartido",
+        "Copiar todo el servidor al disco local",
         "Formatear el recurso de red",
         "Convertirlo en una memoria USB"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "Mapear o conectar una unidad de red consiste en asignar una letra de unidad a un recurso compartido accesible a través de la red.",
       "trampa": "No implica copiar físicamente el contenido del servidor al equipo local.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#11-unidades-y-recursos-de-red"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#11-unidades-y-recursos-de-red",
+      "respuestaLiteral": "Asignar una letra a un recurso compartido"
     },
     {
       "id": "DIP-T32-010",
       "pregunta": "Una unidad de red depende normalmente de:",
       "opciones": [
-        "Solo del espacio del disco local",
         "Conectividad, servidor y permisos",
+        "Solo del espacio del disco local",
         "La Papelera de reciclaje",
         "La extensión del archivo"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "El acceso a una unidad de red requiere conectividad, disponibilidad del servidor o recurso compartido y permisos o credenciales adecuados.",
       "trampa": "Tener asignada una letra de unidad no garantiza que el recurso de red esté disponible.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#12-permisos-y-acceso"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#12-permisos-y-acceso",
+      "respuestaLiteral": "Conectividad, servidor y permisos"
     },
     {
       "id": "DIP-T32-011",
       "pregunta": "¿Qué combinación selecciona todos los elementos de la ubicación activa?",
       "opciones": [
         "Ctrl + S",
-        "Ctrl + A",
         "Ctrl + T",
-        "Alt + A"
+        "Alt + A",
+        "Ctrl + A"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La combinación Ctrl + A selecciona todos los elementos de la ubicación activa.",
       "trampa": "Ctrl + S suele utilizarse para guardar documentos en las aplicaciones.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#4-seleccionar-elementos"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#4-seleccionar-elementos",
+      "respuestaLiteral": "Ctrl + A"
     },
     {
       "id": "DIP-T32-012",
@@ -162,41 +173,44 @@
       "opciones": [
         "Lo cifra automáticamente",
         "Lo protege con contraseña",
-        "No equivale a protegerlo mediante permisos o cifrado",
-        "Impide todo acceso"
+        "Impide todo acceso",
+        "No equivale a protegerlo mediante permisos o cifrado"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "El atributo oculto afecta principalmente a la visualización del archivo, pero no constituye por sí mismo una medida de seguridad basada en permisos, contraseña o cifrado.",
       "trampa": "Un archivo oculto no está necesariamente cifrado ni protegido frente al acceso.",
-      "referencia": "content/diputacion-toledo/tema-32/manual.md#13-búsqueda-vistas-y-ordenación"
+      "referencia": "content/diputacion-toledo/tema-32/manual.md#13-búsqueda-vistas-y-ordenación",
+      "respuestaLiteral": "No equivale a protegerlo mediante permisos o cifrado"
     },
     {
       "id": "DIP-T32-013",
       "pregunta": "¿Qué atajo abre las propiedades del elemento seleccionado en el Explorador?",
       "opciones": [
-        "Alt + Entrar",
         "Ctrl + Entrar",
         "Windows + P",
+        "Alt + Entrar",
         "F3"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "Alt + Entrar muestra las propiedades del elemento seleccionado.",
       "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "respuestaLiteral": "Alt + Entrar"
     },
     {
       "id": "DIP-T32-014",
       "pregunta": "¿Qué atajo dirige el foco a la barra de direcciones del Explorador?",
       "opciones": [
         "Ctrl + R",
-        "Alt + D",
         "F2",
-        "Windows + I"
+        "Windows + I",
+        "Alt + D"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "Alt + D selecciona la barra de direcciones.",
       "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "respuestaLiteral": "Alt + D"
     },
     {
       "id": "DIP-T32-015",
@@ -210,7 +224,8 @@
       "correcta": 2,
       "justificacion": "F3 inicia una búsqueda en el Explorador de archivos.",
       "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "respuestaLiteral": "F3"
     },
     {
       "id": "DIP-T32-016",
@@ -224,7 +239,8 @@
       "correcta": 3,
       "justificacion": "Alt + Flecha arriba sube un nivel en la jerarquía de carpetas.",
       "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "respuestaLiteral": "Alt + Flecha arriba"
     },
     {
       "id": "DIP-T32-017",
@@ -238,49 +254,57 @@
       "correcta": 0,
       "justificacion": "Alt + P alterna el panel de vista previa.",
       "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "respuestaLiteral": "Alt + P"
     },
     {
       "id": "DIP-T32-018",
       "pregunta": "¿Qué combinación abre el menú contextual clásico del elemento seleccionado?",
       "opciones": [
         "Ctrl + F10",
-        "Mayús + F10",
         "Alt + P",
+        "Mayús + F10",
         "Windows + F10"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "Mayús + F10 muestra el menú contextual del elemento seleccionado.",
       "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "respuestaLiteral": "Mayús + F10"
     },
     {
       "id": "DIP-T32-019",
       "pregunta": "¿Qué efecto predeterminado tiene Ctrl + D sobre un archivo seleccionado en el Explorador?",
       "opciones": [
+        "Moverlo a la Papelera de reciclaje",
         "Duplicarlo en la misma carpeta",
         "Abrir la ayuda",
-        "Moverlo a la Papelera de reciclaje",
         "Mostrar la dirección completa"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "En el Explorador, Ctrl + D mueve el archivo seleccionado a la Papelera de reciclaje.",
       "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "respuestaLiteral": "Moverlo a la Papelera de reciclaje"
     },
     {
       "id": "DIP-T32-020",
       "pregunta": "¿Qué diferencia hay entre una ruta UNC y una unidad de red asignada?",
       "opciones": [
         "La ruta UNC siempre apunta al disco C:",
+        "La UNC identifica servidor y recurso compartido; una unidad asignada usa una letra local para ese recurso",
         "Una unidad asignada nunca depende de una red",
-        "Una ruta UNC solo es válida en Internet",
-        "La UNC identifica servidor y recurso compartido; una unidad asignada usa una letra local para ese recurso"
+        "Una ruta UNC solo es válida en Internet"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "justificacion": "UNC utiliza servidor y recurso compartido; mapear la unidad asocia al recurso una letra como Z:.",
       "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "respuestaLiteral": "La UNC identifica servidor y recurso compartido; una unidad asignada usa una letra local para ese recurso"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }
