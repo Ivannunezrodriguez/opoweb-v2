@@ -101,3 +101,31 @@ const unknown=normalizeOpportunity({...dated,deadline:'Consultar plazo en BOE'},
 assert.equal(unknown.state,'REVISAR');
 assert.equal(unknown.deadline,null);
 console.log('Radar quality: puestos, convocatorias, seguimiento, A2 y plazos OK');
+
+
+// OLIAS_REAL_BOE_2026: public notice missed by user-facing notifications.
+// Test the actual BOE-A-2026-22826 structure, including multiple distinct positions.
+const oliasBoe={
+ id:'BOE-A-2026-22826',
+ title:'Resolución de 27 de octubre de 2026, del Ayuntamiento de Olías del Rey (Toledo), referente a la convocatoria para proveer varias plazas.',
+ context:'II. Autoridades y personal · B. Oposiciones y concursos · Administración Local',
+ url:'https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826'
+};
+const oliasHtml='<div id="textoxslt"><p>En el Boletín Oficial de la Provincia de Toledo número 204, de 23 de octubre de 2026, se han publicado las bases.</p><p>Tres plazas de Limpiador/a de la plantilla de personal laboral fijo, por el sistema de oposición, en turno libre.</p><p>Cuatro plazas de Auxiliar de edificios e instalaciones de la plantilla de personal laboral fijo, por el sistema de oposición, en turno libre.</p><p>El plazo de presentación de solicitudes será de veinte días hábiles a contar desde el siguiente al de la publicación en el BOE.</p></div>';
+const oliasItems=boeVacancyEntries(oliasBoe,oliasHtml);
+assert.equal(oliasItems.length,2,'El BOE de Olías debe producir dos plazas distintas');
+const oliasOpportunities=merge({opportunities:[]},oliasItems.map(x=>({...x,source:'BOE'})),'2026-11-01');
+assert.equal(oliasOpportunities.length,2);
+assert(oliasOpportunities.every(x=>x.isNew&&x.actionable&&!x.phaseFollowup&&x.position),'Ambas vacantes deben ser notificables');
+assert.deepEqual(oliasOpportunities.map(x=>x.vacancies).sort(),[3,4]);
+assert(oliasOpportunities.some(x=>/Auxiliar de edificios e instalaciones/i.test(x.position)));
+assert(oliasOpportunities.some(x=>/Limpiador/i.test(x.position)));
+console.log('OLIAS_REAL_BOE_2026: dos puestos, 3+4 plazas, dos alertas válidas OK');
+// Diagnostic of historical data; do not assert old ingestion because the notice might
+// have been missed by previous versions and is no longer "new" when tests run.
+const historicalRadar=JSON.parse(fs.readFileSync('data/radar.json','utf8'));
+const oliasStored=(historicalRadar.opportunities||[]).filter(x=>/BOE-A-2026-22826/.test(x.officialUrl||''));
+console.log('OLIAS_REAL_BOE_2026 HISTORICAL',JSON.stringify(oliasStored.map(x=>({
+ position:x.position, vacancies:x.vacancies,firstSeen:x.firstSeen,
+ isNew:x.isNew,actionable:x.actionable,state:x.state,officialUrl:x.officialUrl
+}))));
