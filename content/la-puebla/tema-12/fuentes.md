@@ -46,3 +46,19 @@ Los **tipos, recargos y coeficientes** quedan señalados como *complemento de vi
 > ⚠️ **¡Foco Examen!:** El **art. 61.5.b** del IBI no exige que un bien patrimonial municipal haya sido cedido gratuitamente a otra Administración; en el IAE, **1.000.000 € exactos no es inferior a un millón**, y un grupo obliga a considerar el **INCN conjunto**.
 
 **Bancos afectados:** **LP-T12-003** y **LP-T12-006**, con sus respuestas correctas conservadas. **Corrección transversal** trasladada al manual del **tema 13 de Diputación Auxiliar C2**. Control jurídico parcial: no supone certificación íntegra del tema.
+
+## Cotejo focal IIVTNU — 04/11/2026
+
+**Fuente primaria:** [TRLRHL consolidado, arts. 104, 105 y 106](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a104). Se han contrastado **los incisos concretos** y su redacción vigente; la actualización es **parcial** y no recertifica el conjunto del Tema 12.
+
+| Precepto | Dato comprobado | Aplicación de examen |
+|---|---|---|
+| **104.3** | No sujeción de operaciones conyugales delimitadas, y del supuesto especial de **transmisión lucrativa por fallecimiento de mujer víctima de violencia contra la mujer**, a beneficiarios legalmente previstos; reforma de la **LO 2/2022** | No toda donación entre familiares queda no sujeta |
+| **104.4** | Operaciones tasadas con **SAREB**, entidades participadas en **al menos 50 %** y determinados fondos; no se interrumpe el tiempo de generación en la transmisión posterior prevista | No equiparar no devengo tasado a exención general |
+| **104.5** | Declaración y **títulos** para probar inexistencia de incremento; comparación de **mayor valor documentado/comprobado**, sin gastos ni tributos, proporción catastral de suelo y reglas de cómputo posteriores con salvedades | Pérdida económica sin prueba suficiente no basta para acreditar no sujeción |
+| **105.1.c** | Dación en pago / ejecución de vivienda habitual con requisitos; **empadronamiento ≥2 años** o desde la adquisición, si es posterior | Es **exención**, no una no sujeción de **104.5** |
+| **106.1–2** | **Lucrativa: adquirente**; **onerosa: transmitente**; comprador **sustituto** solo cuando en la onerosa el contribuyente es **persona física no residente** | No atribuir sustitución a todas las compraventas con intervinientes extranjeros |
+
+**Archivos actualizados:** `bloque-05a-iivtnu-hecho.md`, `bloque-05b-iivtnu-sujetos.md`, `articulos.md`, `matriz.json` y control de regresión. **12 preguntas previas conservadas**, sin reetiquetar como auditado integral.
+
+> ⚠️ **¡Foco Examen!:** **104.3** (supuestos familiares tasados) ≠ **104.5** (no incremento acreditado) ≠ **105** (exenciones). En **106.2**, solo el adquirente de transmisión **onerosa** con transmitente **persona física no residente** es **sustituto**.
