@@ -46,7 +46,7 @@ En **Este equipo** se muestran normalmente:
 
 Ejemplo:
 
-`C:\Usuarios\Laura\Documentos\Registro\entrada.pdf`
+`C:\Users\Laura\Documents\Registro\entrada.pdf`
 
 - `C:`: unidad;
 - `\`: separador;
