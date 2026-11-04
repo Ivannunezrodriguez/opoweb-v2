@@ -18,3 +18,8 @@
 > ⚠️ **¡Foco Examen!:** El plazo de audiencia (**10 a 15 días**) no es el mismo que el de prueba (**10 a 30 días**). «Días» se interpreta con las reglas generales del art. **30**, salvo norma especial.
 
 **Pendiente:** revisión de todas las opciones y límites normativos del banco; no elevar estado de aprobación por haber añadido esta ficha. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Cierre jurídico-editorial — **04/11/2026**
+
+[**Cotejo de 48 alternativas del Tema 3**](cotejo-integral-2026-11-04.md): **Ley 39/2015**, [texto BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Revisados los **9 ámbitos**, las **12 preguntas** y sus distractores. **AUDITADO contenido**; prueba navegador real pendiente.
+

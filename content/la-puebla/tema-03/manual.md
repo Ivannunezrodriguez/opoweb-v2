@@ -968,3 +968,10 @@ Responder sin consultar:
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 3 aprobado»** el 17 de julio de 2026.
+
+## Cotejo jurídico-editorial completo — **04/11/2026**
+
+Contrastados los **9 bloques**, la **Ley 39/2015 arts. 53–105**, y **48 opciones** de las 12 preguntas con [fundamentos individualizados](cotejo-integral-2026-11-04.md). **AUDITADO jurídico-editorial**; funcional real pendiente.
+
+> ⚠️ **¡Foco Examen!:** Las **reducciones mínimas del 20 %** del **art. 85.3** pueden acumularse, pero exigen requisitos legales; las **medidas previas** del **56.2** requieren iniciación en **15 días** y pronunciamiento expreso.
+

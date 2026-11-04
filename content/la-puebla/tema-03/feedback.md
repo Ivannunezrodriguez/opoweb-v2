@@ -37,3 +37,8 @@ Ley 39/2015: derechos del interesado; iniciación; ordenación; instrucción; fi
 - Temas 4–19: continúan pendientes de reconstrucción.
 
 La aprobación no se basa en longitud ni en métricas automáticas.
+
+## Cotejo íntegro **04/11/2026**
+
+Se han revisado el manual, los **9 apartados** y las **12 preguntas / 48 respuestas**, documentados en [informe jurídico-editorial](cotejo-integral-2026-11-04.md). Cierre jurídico-editorial **AUDITADO**, navegación real pendiente.
+
