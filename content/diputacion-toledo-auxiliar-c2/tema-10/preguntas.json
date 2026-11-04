@@ -1,8 +1,8 @@
 {
   "tema": 10,
   "estado": "BANCO_20_PREGUNTAS_CON_REFERENCIAS",
-  "version": "2026-10-29",
-  "criterio": "20 preguntas originales con cuatro opciones y artículo individual de LO 3/2018/RGPD; sin ejecución funcional en navegador.",
+  "version": "2026-11-04",
+  "criterio": "20 preguntas originales con cuatro opciones y artículo individual de LO 3/2018/RGPD; sin ejecución funcional en navegador. · 04/11/2026: reemplazadas tres preguntas repetitivas por RGPD art12.3 (1 mes derechos), art33 (72h brechas con excepción) y LO3/2018 art22.3 (72h entrega de imágenes); posiciones correctas inalteradas.",
   "preguntas": [
     {
       "id": "DT-C2-T10-001",
@@ -104,17 +104,17 @@
     },
     {
       "id": "DT-C2-T10-008",
-      "enunciado": "¿Qué edad señala el art. 7 para consentimiento del menor como regla general?",
+      "enunciado": "Conforme al artículo 12.3 del RGPD, ¿cuál es el plazo general para responder a una solicitud de ejercicio de derechos de protección de datos?",
       "opciones": [
-        "12 años",
-        "16 años",
-        "14 años",
-        "18 años"
+        "Tres meses sin necesidad de explicación",
+        "Setenta y dos horas en todos los casos",
+        "Un mes desde recepción, prorrogable dos meses más si es necesario y se informa en plazo",
+        "Un año contado desde la primera inscripción en el fichero"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El consentimiento del menor para tratar sus datos se funda en su consentimiento cuando es **mayor de 14 años**, con excepciones relativas al acto que requiere asistencia.",
-      "trampaExamen": "No confundir **14 años** LOPDGDD con el umbral general del RGPD de **16 años**, que permite excepciones nacionales.",
-      "referencia": "LO 3/2018 art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+      "justificacion": "El art. 12.3 RGPD exige responder sin dilación indebida, en cualquier caso en un mes desde la recepción; admite prórroga de dos meses adicionales por complejidad/número de solicitudes informando en el primer mes del retraso y sus motivos.",
+      "trampaExamen": "**Derechos RGPD: 1 mes**, prórroga de **2 meses adicionales** si procede y se comunica dentro del **primer mes**. No confundir con notificación de brechas (**72 h**).",
+      "referencia": "RGPD (UE) 2016/679, art. 12.3 · https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807"
     },
     {
       "id": "DT-C2-T10-009",
@@ -202,17 +202,17 @@
     },
     {
       "id": "DT-C2-T10-015",
-      "enunciado": "¿Qué derecho digital regula el art. 88 LOPDGDD?",
+      "enunciado": "Cuando la videovigilancia capta hechos que justifican conservar imágenes para acreditar actos contra personas, bienes o instalaciones, ¿cuándo deben ponerse a disposición de la autoridad competente según el artículo 22.3 de la LOPDGDD?",
       "opciones": [
-        "Borrado inmediato de todo archivo",
-        "Desconexión digital en ámbito laboral",
-        "Prohibición general de teletrabajo",
-        "Libre acceso a contraseñas de otros"
+        "Solo después del transcurso de un mes sin excepciones",
+        "En un máximo de 72 horas desde que se tuvo conocimiento de la existencia de la grabación",
+        "En seis meses desde la instalación de la cámara",
+        "Solo cuando lo autorice todo el personal grabado"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El art. 88 reconoce la **desconexión digital** en el ámbito laboral a trabajadores y empleados públicos.",
-      "trampaExamen": "No confundir **desconexión** y ausencia de obligaciones durante la jornada.",
-      "referencia": "LO 3/2018 art. 88 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+      "justificacion": "Art. 22.3 LO 3/2018: regla de supresión de imágenes en un mes máximo desde captación; en la excepción de conservación para acreditar actos contra integridad de personas, bienes o instalaciones, se ponen a disposición de autoridad competente en 72 horas desde conocimiento de existencia de grabación.",
+      "trampaExamen": "**Videovigilancia:** supresión general **1 mes desde captación**; entrega excepcional a autoridad **72 h desde conocimiento de la grabación**. No es el plazo de notificación de brecha RGPD.",
+      "referencia": "LO 3/2018, art. 22.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a22"
     },
     {
       "id": "DT-C2-T10-016",
@@ -272,17 +272,17 @@
     },
     {
       "id": "DT-C2-T10-020",
-      "enunciado": "¿Qué regla establece el art. 5 LOPDGDD para responsables y personas que intervienen en tratamientos?",
+      "enunciado": "Según el artículo 33.1 del RGPD, ¿cuál es la regla sobre notificación de una brecha de datos personales a la autoridad de control competente?",
       "opciones": [
-        "Difundir información siempre",
-        "Publicar los datos al terminar contrato",
-        "Deber de confidencialidad que subsiste al finalizar la relación",
-        "Eliminar obligación de secreto en entidades públicas"
+        "Debe notificarse siempre al día siguiente aunque sea improbable cualquier riesgo",
+        "Solo se comunica a autoridad de control cuando lo pida una empresa competidora",
+        "Sin dilación indebida y, de ser posible, a más tardar en 72 horas desde conocerla, salvo que sea improbable un riesgo para derechos y libertades",
+        "Debe notificarse únicamente una vez transcurridos 30 días desde su detección"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El deber de confidencialidad se mantiene aun cuando termine relación con responsable o encargado.",
-      "trampaExamen": "La confidencialidad **subsiste** tras finalizar la relación.",
-      "referencia": "LO 3/2018 art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+      "justificacion": "Art. 33.1 RGPD: responsable notifica a autoridad competente sin dilación indebida y, de ser posible, dentro de 72 horas desde tener constancia, salvo improbabilidad de riesgo para derechos y libertades. Si fuera del plazo, justifica demora. En cambio comunicación a afectados de alto riesgo es art. 34 RGPD.",
+      "trampaExamen": "**Brecha RGPD: 72 horas** a la **autoridad de control**, salvo si es improbable el riesgo; **art. 34** distingue comunicación a interesados cuando exista **alto riesgo**, sin plazo fijo de 72 horas. No confundir con entrega de vídeo del **art. 22.3 LOPDGDD**.",
+      "referencia": "RGPD (UE) 2016/679, arts. 33.1 y 34 · https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807"
     }
   ],
   "auditoria": {
