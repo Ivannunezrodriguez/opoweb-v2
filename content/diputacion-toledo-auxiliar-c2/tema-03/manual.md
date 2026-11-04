@@ -983,3 +983,9 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 3 aprobad
 > ⚠️ **¡Foco Examen!:** La **denuncia** no atribuye por sí sola condición de interesado; la iniciación sancionadora exige acuerdo del **órgano competente**. La **multa coercitiva** es un medio de ejecución, distinto de la sanción.
 
 **Fuente legal:** [Ley 39/2015 consolidada, BOE, última actualización **06/11/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). **Banco:** 20 preguntas originales con explicación y referencia.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Informe de 20 preguntas y 80 alternativas exactas**](cotejo-integral-2026-11-04.md), con cita de artículo y razonamiento individual de cada opción incorrecta. **Estado del banco COTEJO_BANCO_COMPLETO**, pero no equivale a auditoría total del contenido, prueba funcional de móvil/navegador, accesibilidad ni aprobación del usuario.
+
+> ⚠️ **¡Foco Examen!:** **Subsanación 10 días**, **audiencia 10–15**, **prueba 10–30**, **información pública mínimo 20**, **simplificada 30**, **responsabilidad patrimonial 1 año**. No confundir **denuncia** con iniciación **de oficio** de un sancionador.
