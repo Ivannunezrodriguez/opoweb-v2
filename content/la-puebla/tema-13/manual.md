@@ -2,7 +2,7 @@
 
 **Estado editorial:** PUBLICADO  
 **Revisión editorial histórica:** 30 de julio de 2026.  
-**Control jurídico focalizado del Reglamento eIDAS (arts. 20 y 24):** 2 de noviembre de 2026, sin recertificación integral.
+**Cotejo jurídico-editorial integral del programa y las 12 preguntas:** **4 de noviembre de 2026**, con matriz de las 48 opciones y fuentes oficiales en [cotejo integral](cotejo-integral-2026-11-04.md). **Prueba funcional real del portal y adaptación móvil:** control independiente.
 
 ## Tema 13 · Administración electrónica I
 
@@ -37,6 +37,8 @@ La Ley 59/2003 de firma electrónica está derogada. La terminología vigente es
 Un certificado electrónico es una atestación electrónica emitida y firmada por un prestador que vincula unos datos de validación —normalmente una clave pública— con una identidad o entidad.
 
 El certificado no es la firma. El certificado permite asociar la clave pública con su titular y verificar determinadas firmas o sellos creados con la clave privada correspondiente.
+
+> ⚠️ **¡Foco Examen!:** La **revocación** extingue la vigencia del **certificado**, pero no destruye matemáticamente la clave privada ni invalida sin más las firmas históricas que fueran válidas en el momento de su creación. **Ley 6/2020, art. 4.1; eIDAS, arts. 24.3 y 32.1**.
 
 ## 4. Cuatro distinciones obligatorias
 

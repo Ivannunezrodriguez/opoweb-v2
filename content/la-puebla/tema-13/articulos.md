@@ -96,3 +96,8 @@
 La trazabilidad no convierte en contenido central el régimen sancionador completo, todos los actos de ejecución eIDAS, el detalle técnico de los formatos de firma ni la cartera europea de identidad digital. Esos elementos solo se incorporan cuando aclaran los certificados, soportes, autoridades y servicios exigidos por el epígrafe.
 
 Aprobación registrada el 18 de julio de 2026 mediante la frase **«Tema 13 aprobado»**.
+
+## Cotejo del banco completo a 04/11/2026
+
+Véase [**cotejo jurídico-editorial integral del Tema 13**](cotejo-integral-2026-11-04.md), que incorpora artículo y descarte de **las 48 alternativas** de LP-T13-001 a LP-T13-012. Se mantiene la diferencia entre revisión de normativa y prueba funcional de portal.
+

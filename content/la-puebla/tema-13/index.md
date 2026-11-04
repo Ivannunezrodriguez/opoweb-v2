@@ -1,6 +1,6 @@
 # La Puebla de Montalbán · Tema 13 · Administración electrónica I
 
-**Estado:** GENERADO Y AUDITADO A NORMA VIGENTE  
+**Estado histórico:** contenido publicado anteriormente; **cotejo jurídico-editorial integral realizado el 04/11/2026** (ver [control de preguntas](cotejo-integral-2026-11-04.md)); la validación funcional de navegador es independiente.  
 **Fecha de revisión normativa:** **18 de julio de 2026**.
 
 > **Tema 13. Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.**
@@ -27,8 +27,8 @@ La antigua Ley **59/2003, de firma electrónica**, está derogada por la Ley 6/2
 |---|---|
 | Identificación electrónica | Permite determinar quién actúa |
 | Autenticación | Comprueba electrónicamente la identidad o el origen e integridad de datos |
-| Firma electrónica | Vincula al firmante con los datos y expresa una actuación o consentimiento |
-| Sello electrónico | Acredita el origen e integridad de datos de una persona jurídica |
+| Firma electrónica | Datos electrónicos utilizados por un **firmante persona física** para firmar (**eIDAS 3.9–10**); las garantías reforzadas dependen de si es avanzada o cualificada |
+| Sello electrónico | Creado por **persona jurídica**; el **cualificado** goza de la presunción expresa de integridad y corrección del origen (**eIDAS 35.2**) |
 | Sello de tiempo | Vincula datos con una fecha y hora determinadas |
 
 Identificarse no equivale necesariamente a firmar. La Administración puede exigir firma solo en los casos establecidos legalmente, como formular solicitudes, presentar declaraciones responsables, interponer recursos, desistir o renunciar.
@@ -390,3 +390,7 @@ No puede utilizarse para producir una nueva firma válida después de su caducid
 - Ley 6/2020, referencia `BOE-A-2020-14046`, última actualización publicada el **9 de mayo de 2023**.
 - Ley 39/2015, referencia `BOE-A-2015-10565`.
 - Real Decreto 203/2021, referencia `BOE-A-2021-5032`.
+
+## Cierre del cotejo jurídico-editorial de noviembre
+
+**4/11/2026:** se han revisado los **cinco capítulos**, la matriz de **cinco incisos** y las **12 preguntas, 48 alternativas** frente a eIDAS, Ley **6/2020**, Ley **39/2015**, Ley **40/2015** y RD **203/2021**. Se distingue la revisión editorial de la **prueba funcional real de interfaz/navegador**, que no se presume efectuada. [Ver la trazabilidad individual](cotejo-integral-2026-11-04.md).

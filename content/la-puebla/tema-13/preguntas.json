@@ -123,13 +123,13 @@
         "Suspende temporalmente su uso y permite reactivarlo siempre",
         "Prorroga automáticamente su vigencia",
         "Solo cambia el soporte físico",
-        "Extingue su vigencia y evita su uso para nuevas firmas"
+        "Extingue la vigencia del certificado; su revocación publicada impide considerarlo válido para firmas posteriores"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El artículo 4.1 de la Ley 6/2020 distingue caducidad y revocación como causas de extinción. El artículo 24.3 del Reglamento eIDAS exige publicar sin demora la revocación del certificado cualificado y, en todo caso, dentro de 24 horas desde la recepción de la solicitud; la revocación es eficaz inmediatamente desde su publicación.",
-      "trampaExamen": "Revocación extingue la vigencia y suspensión es temporal. No confundir las 24 horas para publicar la revocación con los 24 meses de auditoría.",
-      "referencia": "manual.md · apartados 8 y 11 · Ley 6/2020, artículo 4; Reglamento eIDAS, artículo 24.3",
-      "respuestaLiteral": "Extingue su vigencia y evita su uso para nuevas firmas"
+      "justificacion": "Ley 6/2020, art. 4.1: la vigencia se extingue por caducidad o revocación; eIDAS, art. 24.3: el prestador publica el estado de revocación en un máximo de 24 horas desde recepción de solicitud y la revocación surte efecto inmediatamente después de su publicación. La revocación no elimina físicamente la clave ni invalida automáticamente firmas históricas válidas; impide utilizar el certificado REVOCADO como vigente para firmas posteriores.",
+      "trampaExamen": "La revocación NO destruye la capacidad técnica de calcular firmas ni invalida automáticamente las firmas históricas; sí extingue la vigencia del certificado.",
+      "referencia": "Ley 6/2020 art. 4.1 y Reglamento eIDAS art. 24.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046 · https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa",
+      "respuestaLiteral": "Extingue la vigencia del certificado; su revocación publicada impide considerarlo válido para firmas posteriores"
     },
     {
       "id": "LP-T13-009",

@@ -3,7 +3,7 @@
   "estado": "APROBADO_USUARIO",
   "aprobadoEl": "2026-07-18",
   "epigrafeOficial": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
-  "fechaRevisionNormativa": "2026-07-18",
+  "fechaRevisionNormativa": "2026-11-04",
   "manual": "content/la-puebla/tema-13/manual.md",
   "capitulos": [
     "content/la-puebla/tema-13/bloque-01-conceptos-usos.md",
@@ -144,5 +144,23 @@
       "Comunicación prestador no cualificado tres meses"
     ],
     "grado": "REVISION_PARCIAL_SIN_RECERTIFICACION"
+  },
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "Cobertura del epígrafe, manual principal, cinco capítulos, 12 preguntas y 48 alternativas",
+    "preguntasVerificadas": 12,
+    "alternativasVerificadas": 48,
+    "documento": "content/la-puebla/tema-13/cotejo-integral-2026-11-04.md",
+    "fuentesOficiales": [
+      "eIDAS 910/2014 2024-10-18",
+      "Ley 6/2020",
+      "Ley 39/2015",
+      "Ley 40/2015",
+      "RD 203/2021"
+    ],
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "sinRecertificacionTecnicaTotal": true,
+    "nota": "Cierre jurídico-editorial de esta fecha, no certificación del portal en navegador, ni garantía frente a futuras reformas."
   }
 }

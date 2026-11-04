@@ -4,7 +4,7 @@
 
 `APROBADO_USUARIO`
 
-El tema está aprobado y publicado. El banco de preguntas permanece vacío hasta una revisión específica y trazable.
+La aprobación histórica de **18/07/2026** se conserva. El banco de preguntas **ya no está vacío**: tiene **12 preguntas y 48 alternativas**. El **04/11/2026** se efectuó el cotejo jurídico-editorial individual de todas ellas; documento independiente: [cotejo integral](cotejo-integral-2026-11-04.md). La comprobación funcional de la web en navegador no se declara completada por este informe.
 
 ## Epígrafe oficial
 
@@ -128,3 +128,7 @@ Aprobación registrada el **18 de julio de 2026** mediante la frase:
 > **«Tema 13 aprobado»**
 
 El tema queda cerrado y publicado como `APROBADO_USUARIO`.
+
+## Anexo de control de noviembre de 2026
+
+**Revisión jurídico-editorial terminada**: cinco capítulos, 12 claves de respuesta, 36 distractores, cinco incisos de programa y excepciones del material. Queda un control de navegador real independiente; ninguna declaración histórica de aprobación debe confundirse con certificado de accesibilidad o prueba funcional exhaustiva.

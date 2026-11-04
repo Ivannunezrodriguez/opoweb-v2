@@ -59,3 +59,11 @@ Se detectaron **dos preguntas de respuesta múltiple encubierta** pese a que el 
 
 > ⚠️ **¡Foco Examen!:** En preguntas con **«no basta por sí solo»**, varias medidas parciales pueden ser insuficientes: el opositor no debe verse obligado a elegir arbitrariamente una de varias respuestas válidas.
 
+## Cotejo integral de banco y programa — **04/11/2026**
+
+Se ha contrastado una a una **12 respuestas correctas y sus 36 distractores** con sus reglas oficiales correspondientes, y se ha revisado cobertura de los **cinco incisos** y bloques documentales. El resultado es [**informe de cotejo de 48 opciones**](cotejo-integral-2026-11-04.md). Corrección adicional: **LP-T13-008** distingue revocación jurídica (vigencia extinta) de imposibilidad técnica de firmar; la clave privada no desaparece y las firmas históricas válidas no se anulan necesariamente. Fundamento: [**Ley 6/2020 art. 4**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046) y [**eIDAS art. 24.3 y 32.1**](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa).
+
+**Alcance de cierre:** **jurídico-editorial** del contenido exigible en el programa; la **verificación funcional real** en móvil/escritorio queda como control técnico separado y no se presume. La revisión no equivale a garantía de inexistencia absoluta de cambios legislativos futuros.
+
+> ⚠️ **¡Foco Examen!:** Revocación publicada: el certificado **ya no es vigente** para firmas futuras; no significa que la clave sea técnicamente inutilizable ni que toda firma anterior quede invalidada.
+

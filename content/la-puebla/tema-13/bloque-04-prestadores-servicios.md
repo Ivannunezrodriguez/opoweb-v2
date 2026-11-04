@@ -54,6 +54,16 @@ Es un organismo acreditado que evalúa si el prestador y sus servicios cumplen l
 
 Los prestadores cualificados deben someterse ordinariamente a auditoría, a su costa, al menos cada **veinticuatro meses**, sin perjuicio de controles adicionales del organismo supervisor.
 
+**Art. 20.1 eIDAS (redacción de 2024):** el informe de evaluación de la conformidad se remite al **organismo de supervisión** en el plazo de **3 días hábiles** desde que lo recibe el prestador. Según el **art. 20.1 bis**, debe avisarse de la auditoría planificada **al menos 1 mes antes**.
+
+| Control del prestador | Plazo o regla | Fundamento |
+|---|---|---|
+| Auditoría externa ordinaria del **prestador cualificado** | **Al menos cada 24 meses** | **eIDAS 20.1** |
+| Envío de informe tras recibirlo | **3 días hábiles** | **eIDAS 20.1** |
+| Aviso al organismo de supervisión antes de auditoría prevista | **1 mes como mínimo** | **eIDAS 20.1 bis** |
+
+> ⚠️ **¡Foco Examen!:** La auditoría se repite cada **24 meses**, pero **3 días hábiles** es para entregar el informe y **1 mes** para avisar al supervisor.
+
 La auditoría no concede por sí sola la cualificación: el organismo de supervisión verifica y concede el estado, que debe reflejarse en la lista de confianza.
 
 ## 5. Organismo de supervisión
