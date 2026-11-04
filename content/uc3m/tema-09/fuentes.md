@@ -25,3 +25,14 @@
 ## Criterio editorial
 
 El manual se ha elaborado con orientación práctica de examen, diferenciando funciones equivalentes entre Microsoft Office 2019 y Google Workspace. Las funciones de Google pueden cambiar de ubicación o denominación con el tiempo, por lo que antes de una revisión final conviene contrastar la interfaz vigente de la cuenta institucional UC3M.
+## Trazabilidad primaria específica de examen · 04/11/2026
+
+- [**Microsoft Word 2019: insertar salto de sección**](https://support.microsoft.com/es-es/word/insert-a-section-break): no equivale a salto simple de página; permite disponer de configuración por sección.
+- [**Microsoft Excel 2019: referencias relativas, absolutas y mixtas**](https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references): `A1` relativa; `$A$1` columna y fila fijas.
+- [**Google Gmail: archivar correos**](https://support.google.com/mail/answer/9259770?hl=es): archivar retira el mensaje de Recibidos sin eliminarlo.
+- [**Google Drive: roles, configuración y herencia de permisos**](https://support.google.com/drive/answer/2494822?hl=es): lector, comentador y editor; alcance del enlace e herencia de carpetas superiores.
+- [**Google Docs: modo Sugerencias**](https://support.google.com/docs/answer/6239410?hl=es): registra propuestas sin editar directamente el texto original hasta su aceptación.
+- [**Google Docs y Sheets: historial de versiones**](https://support.google.com/docs/answer/190843?hl=es): consultar/restaurar cambios según permisos y modalidades.
+- **Precisión de versiones:** el programa exige **Word 2019 y Excel 2019**, por lo que cambios exclusivos de **Microsoft 365** no deben atribuirse a Office 2019 sin comprobación. Los productos Google tienen interfaz dinámica; los ejemplos conceptuales son estables pero las rutas de menú pueden variar.
+
+> ⚠️ **¡Foco Examen!:** **Archivo vs. eliminación en Gmail**, **salto de sección vs. salto de página en Word**, **`A1` vs. `$A$1` en Excel** y **comentador vs. editor en Drive** son parejas de distractores que deben separarse con precisión.
