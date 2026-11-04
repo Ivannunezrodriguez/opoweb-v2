@@ -151,6 +151,18 @@ Puede compartirse con personas concretas, grupos o mediante enlace. El acceso de
 
 El historial de versiones permite consultar o restaurar versiones anteriores. La papelera retiene temporalmente los elementos antes de su eliminación definitiva.
 
+### Permisos y herencia de carpetas (Google Drive)
+
+| Rol en **Mi unidad** | Ver | Comentar | Editar | Compartir por defecto |
+|---|---|---|---|---|
+| **Lector** | Sí | No | No | No |
+| **Comentador** | Sí | Sí | No | No |
+| **Editor** | Sí | Sí | Sí | Sí, salvo restricción del propietario |
+
+Los permisos **heredados** de una carpeta superior deben comprobarse antes de compartir un archivo: reducir los permisos solo en el archivo no anula automáticamente un acceso superior heredado. En **unidades compartidas** hay roles y reglas adicionales distintos de los de «Mi unidad».
+
+> ⚠️ **¡Foco Examen!:** **Comentador** NO puede editar el contenido directamente; **Editor** sí, pero el propietario puede restringir la posibilidad de cambiar permisos. **Compartir un enlace** no implica necesariamente «acceso público»: depende de la configuración **Restringido / Cualquier persona con el enlace** y de la cuenta institucional.
+
 ## 11. Google Docs
 
 Docs es un procesador de textos colaborativo. Permite edición simultánea, estilos, comentarios, sugerencias, tablas, imágenes, encabezados, pies, historial de versiones y descarga en varios formatos.
