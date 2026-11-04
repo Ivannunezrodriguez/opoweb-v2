@@ -1133,3 +1133,44 @@ Se añadió [`tests/validate-la-puebla-three-legal-closures.mjs`](tests/validate
 **5/121 temas con cotejo jurídico-editorial de programa y de TODAS las alternativas del banco:** **La Puebla T2, T4, T7, T13, T14**. Son **60 preguntas, 240 alternativas** justificadas jurídicamente en documentos individualizados. **No se declara todavía 5/121 certificados 100 % en las cinco capas**: prueba de interfaz real (móvil y escritorio), navegación completa, accesibilidad y elementos dinámicos siguen pendientes como control separado. La existencia de informe y tests no elimina necesidad de actualizaciones por cambios legales.
 
 **TAREA ACTIVA:** validar CI/Pages del último SHA que incluye prueba de tres temas; seguir cierres enteros en el orden de exámenes, priorizando **La Puebla (14/11)** y después **UC3M (21/11)**; evitar parciales repetidos. Mantener último tema OAPGT C2 de Diputación para cuando fuentes completas estén disponibles. No volver a Carranque/Las Ventas.
+
+## 46. Tres nuevos cierres jurídico-editoriales: La Puebla T1, T8 y T9 — **04/11/2026**
+
+**Continuidad tras §45:** para no dilatar la recertificación se han cerrado otros **tres temas completos en el nivel jurídico-editorial**, con control de epígrafe, normativa vigente, manual y **12 preguntas / 48 alternativas por tema**, sin repetir T2, T4, T7, T13 y T14, ya cerrados editorialmente. **La prueba real de navegador/móvil continúa siendo un control independiente no acreditado**, por lo que no se declara 100 % de todas las capas.
+
+### 46.1. La Puebla **Tema 1 · Constitución Española de 1978** — AUDITADO jurídico-editorial
+
+- Epígrafe oficial: seis filas de cobertura en `matriz.json`: Constitución, estructura, reforma, derechos/deberes, garantías y suspensión. Manual previo con examen artículo por artículo **CE 10–55**, reforma **166–169** y complemento **116**.
+- Normativa contrastada: [**Constitución consolidada BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), publicada actualización del **20/05/2026**, que incorporó reforma del **art. 69.3**. El BOE enumera exactamente **cuatro reformas constitucionales**: **1992 (13.2)**, **2011 (135)**, **2024 (49)** y **2026 (69.3)**.
+- Se actualizó `LP-T01-003` con fecha de control **04/11/2026**, preservando clave C (cuatro); `LP-T01-011` añade matiz del [**art. 53.2 CE**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a53): tutela preferente/sumaria de art. 14 y Sección primera del Cap. II; **recurso de amparo ampliado a objeción de conciencia art. 30.2**.
+- **12/12 claves, 36/36 distractores**, con texto exacto de cada alternativa, fundamento y descarte en [**cotejo completo de T1**](content/la-puebla/tema-01/cotejo-integral-2026-11-04.md). `matriz.json` incorpora `controlIntegralEditorial20261104.estado = AUDITADO`.
+- Commit de edición **`769d9ae1`**, ajuste de texto de pregunta sin caracteres Markdown sin renderizar **`fdef70ad`**, corrección de informe y test **`0b73756f`**. No se alteraron posiciones de respuesta: **3/3/3/3**.
+
+> ⚠️ **¡Foco Examen!:** En el procedimiento **167** el referéndum es facultativo si lo pide **1/10** de cualquiera de las Cámaras en **15 días**; en **168** es obligatorio. **4 reformas** hasta **noviembre de 2026**.
+
+### 46.2. La Puebla **Tema 8 · Igualdad de mujeres y hombres CLM/estatal** — AUDITADO jurídico-editorial
+
+- **Dos incisos oficiales** del BOP Toledo **82/2026**: [**Ley 12/2010 de Castilla-La Mancha**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708), **arts. 1–65** y [**LO 3/2007**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115), **arts. 1–78**. Se crea **`tema-08/matriz.json`**, hasta ahora ausente, con dos incisos literales y **ocho subáreas editoriales** (no afirmarlas como ocho incisos oficiales).
+- Se cotejaron los **12 ítems y sus 36 distractores** en [**cotejo de 48 opciones T8**](content/la-puebla/tema-08/cotejo-integral-2026-11-04.md). Sin claves erróneas; se reforzaron `LP-T08-006` y `-007` con artículo y órgano exactos. **Ley 12/2010 art. 13.2**: **Instituto de la Mujer** informa de aplicación de Ley **cada 3 años**; **art. 34.2**: **Consejo Escolar de CLM** informa de iniciativas en igualdad **cada 3 años** (redacción **Ley 4/2021**); **art. 44**: medidas/plan **al menos 2 años**, Distintivo concedido por **Presidencia de la Junta** a propuesta del **Instituto de la Mujer**.
+- Se distinguieron el **40–60 %** (LO 3/2007 DA 1.ª), obligación general de plan de igualdad empresarial **desde 50** personas (art. 45) y reserva específica para cursos de promoción AGE **40 %** (art. 60.2). Se corrigió afirmación histórica de `feedback.md` sobre banco vacío y la del manual.
+- Commit **`5059e1ad`**. Matriz editorial `AUDITADO`, **48/48 opciones** documentadas, las cuatro claves equidistribuidas.
+
+> ⚠️ **¡Foco Examen!:** Dos informes **trienales**, pero **dos órganos distintos**: el **Instituto de la Mujer** del **art. 13.2** y el **Consejo Escolar de CLM** del **art. 34.2**. No adjudicar al Ayuntamiento competencias específicas de AGE.
+
+### 46.3. La Puebla **Tema 9 · LOPDGDD y RGPD** — AUDITADO jurídico-editorial
+
+- Fuentes: [**LO 3/2018, texto consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), actualización publicada **27/12/2025**, y [**RGPD (UE) 2016/679**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa), directamente aplicable. Manual y matriz de **ocho áreas**, incluido art. **53 bis**, 12 preguntas y 48 respuestas.
+- **Corrección legal sustantiva `LP-T09-007`**: el enunciado previo decía «imágenes que recogen un posible delito o infracción», demasiado genérico para la excepción del [**art. 22.3 LOPDGDD**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a22), que permite conservar imágenes para acreditar **actos que atenten contra la integridad de personas, bienes o instalaciones** y obliga a ponerlas a disposición de la autoridad competente **en 72 horas desde tener conocimiento de su existencia**. Se corrigió enunciado, justificación, trampa, fuente, manual y cuadro de cifras; se separó esta regla del plazo distinto de **72 horas de notificación de brechas del RGPD art. 33.1**.
+- Cotejo [**individual de 48 alternativas T9**](content/la-puebla/tema-09/cotejo-integral-2026-11-04.md), 12 respuestas y 36 distractores. Plazos test verificados: **14 años** consentimiento menor (LO art. 7), **1 mes + posible ampliación de 2** para derechos (RGPD 12.3), **1 mes** borrado ordinario videovigilancia, **10 días** comunicación designación/cese DPD (LO 34.3), régimen público sancionador (LO 77).
+- Commit **`12a457ad`**, prueba de UI pendiente, matriz `AUDITADO` jurídico-editorial.
+
+> ⚠️ **¡Foco Examen!:** **72 horas** de videovigilancia art. **22.3** se computan desde conocimiento de la existencia de grabación probatoria, mientras **72 horas** de brecha RGPD art. **33.1** desde constancia de la violación notificable. **No son la misma obligación.**
+
+### 46.4. Prueba técnica y estado acumulado
+
+- Añadido [`tests/validate-la-puebla-three-audits-november.mjs`](tests/validate-la-puebla-three-audits-november.mjs) a `.github/workflows/validate.yml` y `npm test`. Verifica en **T1, T8 y T9**: **48 opciones exactas por tema** en informe, clave y `respuestaLiteral` conservados, distribución **3/3/3/3**, cobertura documental, metadato jurídico `AUDITADO` y estado funcional **PENDIENTE**.
+- Primer commit del nuevo test `0b73756f` produjo [**CI 41889666085 FAILURE**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41889666085): prueba esperaba equivocadamente **5** filas en matriz de T1, cuando están definidas **6**. Se corrigió **solo el test** en **`05076637`**, preservando contenido y programa. [**CI 41889745140 SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41889745140) sobre SHA **`05076637`**, y **Pages 41889744639** figuraba `in_progress` en la consulta; no atribuirle éxito hasta que termine.
+- Otros CI anteriores de T1/T8/T9 individualmente habían acabado **SUCCESS**, pero la evidencia relevante de regresión de las **144 alternativas** es el run del commit **`05076637`**.
+- **TOTAL acumulado de cierres jurídicos editoriales: 8/121 temas** (**La Puebla T1, T2, T4, T7, T8, T9, T13, T14**), con **96 preguntas y 384 opciones** individualizadas. **Certificación integral funcional/jurídica de cinco capas: aún 0/121 demostradas**. Este documento justifica el cierre de bancos y cobertura de manual, no la lectura pericial de cada línea de todas las leyes ni pruebas reales de navegador.
+
+**TAREA ACTIVA:** verificar Pages del SHA **`05076637`** y seguir **cierre jurídico-editorial de temas enteros** de La Puebla pendientes (**T3, T5, T6, T10, T11, T12, T15–T19**; verificar T1/T2... sin duplicar). Prioridad examen **14/11/2026**; luego UC3M **21/11/2026**. OAPGT Diputación C2 T6 último por dificultad documental; evitar Carranque y Las Ventas.
