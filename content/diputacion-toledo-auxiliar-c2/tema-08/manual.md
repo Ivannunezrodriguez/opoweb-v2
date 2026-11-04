@@ -52,12 +52,20 @@ Se aplica a trabajadores laborales y al personal administrativo o estatutario de
 ## 7. Artículo 4 · conceptos
 
 - **Prevención:** medidas adoptadas o previstas para evitar o reducir riesgos.
-- **Riesgo laboral:** posibilidad de sufrir daño; gravedad = probabilidad + severidad.
+- **Riesgo laboral (art. 4.2 LPRL):** **posibilidad de que un trabajador sufra un determinado daño derivado del trabajo**. La gravedad exige valorar **conjuntamente la probabilidad y la severidad**, no aplicar una fórmula legal de suma.
 - **Daño:** enfermedad, patología o lesión causada con motivo u ocasión del trabajo.
 - **Riesgo grave e inminente:** probable en futuro inmediato y capaz de producir daño grave.
 - **Equipo de trabajo:** máquina, aparato, instrumento o instalación utilizada.
 - **Condición de trabajo:** característica de locales, agentes, procedimientos u organización con influencia significativa en el riesgo.
 - **EPI:** equipo llevado o sujetado para proteger frente a riesgos.
+
+| Concepto | Precepto | Regla exacta |
+|---|---|---|
+| **Riesgo laboral** | **Art. 4.2** | Posibilidad de daño derivado del trabajo |
+| **Gravedad** | **Art. 4.2** | Valorar conjuntamente **probabilidad y severidad**; no existe la fórmula legal «probabilidad + severidad» |
+| **Riesgo grave e inminente** | **Art. 4.4** | Probabilidad racional de materialización en futuro inmediato y daño grave; en agentes peligrosos puede no manifestarse el daño inmediatamente |
+
+> ⚠️ **¡Foco Examen!:** **Gravedad de riesgo = evaluación conjunta de probabilidad y severidad**, no suma aritmética impuesta por la LPRL. No confundir **art. 4.2** con riesgo **grave e inminente del 4.4**.
 
 ---
 
