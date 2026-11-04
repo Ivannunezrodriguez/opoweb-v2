@@ -48,3 +48,9 @@ Se ha corregido la indeterminación del borrador respecto al cambio de universid
 - [**RD 534/2024, art. 25.2–3**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a25): procedimientos públicos con **1 curso de antelación**, cifra máxima de plazas anunciada antes del **30 de junio**.
 
 > ⚠️ **¡Foco Examen!:** **6 ECTS** para reanudar en el **mismo centro** no se confunden con **30 ECTS** para continuación en **otro centro/titulación**. La **segunda lengua extranjera** es adicional al límite de **3 materias** de mejora del art. 22.1.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Revisión individual de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con respuesta literal, motivo de descarte de las demás y foco test. El banco está **cotejado**, pero esto no certifica el portal en navegador, no implica aprobación del usuario y queda pendiente fechar por documento primario la aplicación temporal de la base **primera.7** de UC3M.
+
+> ⚠️ **¡Foco Examen!:** **Mismo centro: 6 ECTS**; **cambio de universidad: 30 ECTS**; **hasta 3 materias de mejora y, además, segunda lengua extranjera**, según art. 22.1.
