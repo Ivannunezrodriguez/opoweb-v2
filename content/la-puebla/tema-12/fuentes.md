@@ -62,3 +62,26 @@ Los **tipos, recargos y coeficientes** quedan señalados como *complemento de vi
 **Archivos actualizados:** `bloque-05a-iivtnu-hecho.md`, `bloque-05b-iivtnu-sujetos.md`, `articulos.md`, `matriz.json` y control de regresión. **12 preguntas previas conservadas**, sin reetiquetar como auditado integral.
 
 > ⚠️ **¡Foco Examen!:** **104.3** (supuestos familiares tasados) ≠ **104.5** (no incremento acreditado) ≠ **105** (exenciones). En **106.2**, solo el adquirente de transmisión **onerosa** con transmitente **persona física no residente** es **sustituto**.
+
+## Cotejo de 12 claves de test, una a una — **04/11/2026**
+
+Se cotejó la **respuesta correcta literal** y la regla que la fundamenta frente al [texto consolidado del TRLRHL (RDL 2/2004)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). **Criterio limitado:** la comprobación de las claves no certifica por sí sola todo el temario ni una auditoría exhaustiva de la calidad de cada distractor. Se han mantenido los IDs de preguntas y sus respuestas verdaderas.
+
+| Pregunta | Norma y artículo comprobados | Resultado |
+|---|---|---|
+| **LP-T12-001** | **TRLRHL art. 59** | **Respuesta contrastada**; se conserva `El Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana` |
+| **LP-T12-002** | **TRLRHL art. 61.1-2** | **Respuesta contrastada**; se conserva `El usufructuario` |
+| **LP-T12-003** | **TRLRHL art. 61.5.a / 62** | **Respuesta contrastada**; se conserva `Un camino de aprovechamiento público y gratuito` |
+| **LP-T12-004** | **TRLRHL art. 78.1** | **Respuesta contrastada**; se conserva `El mero ejercicio en territorio nacional de actividades empresariales, profesionales o artísticas` |
+| **LP-T12-005** | **TRLRHL arts. 82.1.c / 83** | **Respuesta contrastada**; se conserva `Sujeta, pero exenta` |
+| **LP-T12-006** | **TRLRHL art. 82.1.c (regla 3.ª)** | **Respuesta contrastada**; se conserva `1.000.000 de euros` |
+| **LP-T12-007** | **TRLRHL art. 92.2** | **Respuesta contrastada**; se conserva `Está matriculado y no ha causado baja, aunque permanezca averiado` |
+| **LP-T12-008** | **TRLRHL art. 92.3.b** | **Respuesta contrastada**; se conserva `El de 750 kilogramos exactos` |
+| **LP-T12-009** | **TRLRHL art. 94** | **Respuesta contrastada**; se conserva `La persona o entidad a cuyo nombre consta el vehículo en el permiso de circulación` |
+| **LP-T12-010** | **TRLRHL art. 104.1** | **Respuesta contrastada**; se conserva `Grava el incremento de valor del terreno urbano manifestado mediante transmisión o constitución o transmisión de un derecho real de goce` |
+| **LP-T12-011** | **TRLRHL art. 106.1.a** | **Respuesta contrastada**; se conserva `El donatario o adquirente` |
+| **LP-T12-012** | **TRLRHL art. 106.1.b / 106.2** | **Respuesta contrastada**; se conserva `Sustituto del contribuyente` |
+
+**Precisión didáctica:** La pregunta **LP-T12-006** ahora pregunta expresamente por una cifra **estrictamente inferior a 1.000.000 €**, y no permite responder como si la igualdad estuviera incluida. Para grupos se debe considerar el **INCN conjunto** conforme al art. **82.1.c**.
+
+> ⚠️ **¡Foco Examen!:** **Menor que 1.000.000 €** no significa **menor o igual**; no confundir **no sujeción** con **exención**.
