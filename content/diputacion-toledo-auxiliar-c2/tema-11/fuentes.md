@@ -18,3 +18,16 @@
 **Cierre de contenido:** **29/10/2026**. Manual desarrollado con tablas y casos, más **20 preguntas** de entrenamiento documentadas. La comprobación del navegador continúa como control transversal de la web.
 
 > ⚠️ **¡Foco Examen!:** La prescripción general es de **4 años**, pero el inicio del cómputo depende del derecho; las **sanciones** no integran la **deuda tributaria**.
+
+## Banco cotejado y preguntas renovadas · 05/11/2026
+
+[**20 preguntas y 80 alternativas cotejadas contra artículos de TRLRHL y LGT**](cotejo-integral-2026-11-05.md), con justificativo de cada distractor. La tabla del [**manual**](manual.md) muestra las diferencias entre **plazo tributario seis meses (LGT 104.1)** y **procedimiento común tres meses (LPAC 21.3)**.
+
+- [**TRLRHL art.7.2**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a7): **Pleno**, aceptación del delegado y publicación en **BOP + boletín autonómico**.
+- [**TRLRHL art.9.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a9): bonificación **hasta el cinco por ciento** cuando la prevea ordenanza para domiciliación/pago anticipado/colaboración.
+- [**LGT art.104.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a104): **seis meses** como límite supletorio y regla específica del procedimiento de apremio.
+- **Reparados IDs T11-015, T11-019 y T11-020**, conservando letras correctas y cantidad total.
+- **Alcance:** revisión exhaustiva del **banco**, no control de todas las afirmaciones del manual ni navegador real.
+
+> ⚠️ **¡Foco Examen!:** **LGT = seis meses** por defecto de plazo de resolución; **LPAC = tres**. La bonificación local de **hasta 5 %** del **art. 9.1** exige **ordenanza fiscal**.
+
