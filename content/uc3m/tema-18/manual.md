@@ -305,3 +305,9 @@ La ejecución de ingresos está sometida a contabilidad, control interno, audito
 - El reconocimiento del derecho no equivale al cobro.
 - La financiación afectada solo puede aplicarse a su finalidad.
 - Las transferencias de capital a gasto corriente requieren Consejo Social y autorización autonómica.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Se han verificado directamente los importes en el **BOCM**; normas de vinculación, transferencias e incobrados aún requieren lectura primaria del **Volumen I UC3M 2026**. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
+
+> ⚠️ **¡Foco Examen!:** **Presupuesto UC3M 2026 = 300.468.067,59 €**. **Capítulo IV** es principal ingreso y **concepto 640** está dentro del **único capítulo VI** de gastos.
