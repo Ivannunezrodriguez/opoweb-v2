@@ -694,3 +694,19 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 8 aprobad
 - [BOE, Ley Orgánica 3/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) — última actualización publicada **02/08/2024**.
 
 **Cobertura editorial:** articulado de ambas leyes, matrices de examen, diferencias y banco de **20 preguntas** fundamentadas. No se ha ejecutado una prueba funcional del portal en un navegador real.
+
+## Cotejo individual del banco y refuerzo de materias · 04/11/2026
+
+[**Informe del banco actualizado: 20 preguntas, 80 alternativas literales y descartes jurídicos**](cotejo-integral-2026-11-04.md). Se han reemplazado **cuatro preguntas repetidas** (**T09-011/012/016/018**), preservando identificadores y posición de respuesta válida.
+
+| Aspecto antes infrarepresentado | Regla aplicable |
+|---|---|
+| **Carga de la prueba**, **art. 13 LO 3/2007** | La **persona demandada** debe acreditar ausencia de discriminación y proporcionalidad en los procedimientos que contempla la ley; **no** se aplica esa regla a **procesos penales** |
+| **Acoso condicionado**, **art. 7.4 LO 3/2007** | Condicionar un **derecho o expectativa** a aceptar acoso sexual o por razón de sexo constituye también **discriminación** |
+| **Presupuestos CLM**, **arts. 9 y 15 Ley 12/2010** | Informe de impacto de género **antes de aprobar** el anteproyecto; informe de **Comisión de Igualdad** |
+| **Planes de igualdad**, **art. 45.2 LO 3/2007** | Empresas con **50 o más personas trabajadoras** deben elaborar y aplicar un **plan de igualdad**, sin excluir obligaciones por convenio o resolución laboral |
+
+**Fuentes de redacción:** [**LO 3/2007 consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115), [**Ley 12/2010 CLM consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708). **Estado: COTEJO_BANCO_COMPLETO** únicamente del cuestionario; sin certificación de toda la web.
+
+> ⚠️ **¡Foco Examen!:** **40 %–60 %** es composición equilibrada de sexos, mientras **50 empleados** es umbral general de planes de igualdad empresariales. **Art. 13 LO 3/2007:** regla probatoria especial **no aplicable a procesos penales**.
+
