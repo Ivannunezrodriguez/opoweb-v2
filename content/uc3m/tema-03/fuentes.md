@@ -9,4 +9,4 @@
 
 ## Criterio editorial
 
-El manual resume la regulación vigente con finalidad de estudio y test. En caso de modificación normativa posterior, prevalece el texto oficial publicado en el BOE vigente en la fecha del examen.
+El manual resume la regulación vigente con finalidad de estudio y test. En esta convocatoria, la **base primera.7 de BOE-A-2026-14624** fija como corte de legislación exigible la fecha de publicación de la **resolución de listas definitivas de admitidos y excluidos que anuncie la celebración del ejercicio**, **no** automáticamente la fecha del examen. Debe contrastarse el articulado con la redacción vigente en esa fecha oficial. A fecha de esta auditoría se mantiene pendiente el cotejo directo del documento de resolución para identificar el día exacto de publicación.
