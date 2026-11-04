@@ -1466,3 +1466,41 @@ Los **144 distractores/alternativas** de **36 preguntas** tienen motivación ind
 - **Pendiente relevante:** confirmar mediante publicación primaria la fecha de la resolución definitiva UC3M que determina el corte normativo de la base primera.7; no confundirlo con el día del examen.
 
 **TAREA ACTIVA SIGUIENTE:** completar **UC3M T13** con revisión literal y motivación individual de sus **12 preguntas/48 opciones**, matriz inciso–artículo–contenido, prueba de regresión específica y después T14–T20. Verificar CI y Pages por SHA exacto y controles funcionales en navegador; no repetir la corrección del art. 4 sin un error nuevo. Mantener OAPGT T6 Diputación reservado para el final y no cerrar Olías mientras siga la contradicción documental.
+
+
+## 56. UC3M T13–T15 · LOSU y Estatutos de UC3M: 188 alternativas — **04/11/2026**
+
+### 56.1. Continuidad del apartado focal 55
+
+- **UC3M T13 · Ley Orgánica 2/2023, parte I:** el contraste focal previo de **T13-005/006/012** se extiende a [**12 preguntas y 48 alternativas exactas**](content/uc3m/tema-13/cotejo-integral-2026-11-04.md). Manual ampliado con tabla jurídica separando **ley autonómica ordinaria**, **ley de Cortes Generales para universidades de especiales características** (**LOSU 4.1.a-b**), **informe preceptivo de Conferencia General de Política Universitaria**, **autorización autonómica de inicio de actividades** (**4.2**) y calidad compartida (**5.2–4**). No reescribir las tres claves ya corregidas ni confundir apertura con creación.
+- **UC3M T14 · Ley Orgánica 2/2023, parte II:** [**14 preguntas/56 alternativas**](content/uc3m/tema-14/cotejo-integral-2026-11-04.md). **Error documental corregido**: la ficha `fuentes.md` decía que `UC3M-T14-002` pasó de opción **B a C**, pero la pregunta real tiene **B = El 25 %**, `correcta:1`. El **banco era correcto**; se rectificó la **nota histórica**, sin cambiar su clave. Además, el manual atribuyó equivocadamente el **51 % de PDI del Claustro** al art. **45.2** cuando está en el **45.3**: se reparó la cita.
+- **UC3M T15 · Estatutos de la UC3M:** [**21 preguntas/84 alternativas**](content/uc3m/tema-15/cotejo-integral-2026-11-04.md). Fuentes reforzadas con [**catálogo de Estatutos y texto refundido oficial UC3M**](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m), [**texto original 2003**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782) y **reforma de 2009** para cese del **art. 127.2**. Se conserva pregunta **T15-003** de vías de cese corregida en una revisión anterior.
+
+### 56.2. Cifras, órganos y mayorías test susceptibles de confusión
+
+| Concepto | Dato y órgano |
+|---|---|
+| **LOSU, art. 4.1.a** | **Ley autonómica** para crear universidad pública o reconocer privada, previo **informe preceptivo de Conferencia General de Política Universitaria** |
+| **LOSU, art. 4.1.b** | Excepcionalmente, **ley de Cortes Generales** para universidad de especiales características; **Gobierno propone**, **Gobierno autonómico acuerda** |
+| **LOSU, art. 4.2** | **Autorización autonómica** para empezar actividades, tras verificaciones |
+| **Claustro, LOSU art. 45.3** | Estudiantado **≥25 %**; docentes funcionarios y permanentes laborales **51 %** |
+| **Consejo de Gobierno, LOSU art. 46.3** | Estudiantado **≥10 %**, PTGAS **≥10 %**, **un tercio** del órgano elegido por **Rector**, incluidos miembros natos |
+| **Presupuesto, LOSU art. 57.7** | **≥5 %** para programas propios de investigación, distinto del objetivo agregado de financiación de **≥1 % PIB** a **2030** (**art. 55**) |
+| **Defensor, Estatutos art. 127.1** | **Rector propone**, **Claustro elige** por **mitad más uno de todos los miembros** |
+| **Defensor, art. 127.2 reformado 2009** | **Renuncia a petición propia** distinta del **cese por Claustro** con mayoría de elección por incumplimiento/lesión |
+| **Defensor Adjunto, art. 128.2** | **Claustro** designa por **mayoría simple**, a propuesta del candidato |
+| **Defensor, art. 128.1 y 4** | **Mandato 3 años**, **una reelección**; memoria **cada año al inicio del curso** |
+| **Reforma de Estatutos, arts. 178–180** | Iniciativa **Consejo de Gobierno** o claustrales **1/5**; toma en consideración **mayoría absoluta de presentes**; aprobación **mayoría absoluta del total de Claustro**; no presentar propuestas en **3 meses finales del mandato** |
+
+> ⚠️ **¡Foco Examen!:** **T14-002** es **B (25 %)**, sin cambios en banco; **51 %** es también **art. 45.3**, no el 45.2. **Mayoría de claustrales presentes** no es **mayoría de todos los miembros**. El **cese voluntario del Defensor** no exige voto del Claustro propio del cese por incumplimiento.
+
+### 56.3. Informes trazables, regresión y despliegue
+
+- Los **manuales** y las **fuentes** de T13–T15 enlazan sus informes y las matrices incluyen el campo **`controlIntegralBanco20261104`** con las cifras respectivas y estado **`COTEJO_BANCO_COMPLETO`**, **`aprobadoPorUsuario:false`**, navegador **pendiente**.
+- Nuevo [**`tests/validate-uc3m-t13-t15-integral.mjs`**](tests/validate-uc3m-t13-t15-integral.mjs) en **`npm test`** y [**workflow de CI**](.github/workflows/validate.yml): exige **47 preguntas, 188 opciones literales exactas** y motivadas en informes, claves coincidentes, artículos, focos, distribución de posiciones **T13 3/3/3/3, T14 4/4/3/3, T15 6/5/5/5**, y preserva la corrección material de **LOSU 45.3** y la cuestión **T15-003** de la reforma de 2009.
+- **CI verificada**: [**run 41914068423 — SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41914068423) para SHA **`8b0d7a4ad02669f15076ae1b1d1ad762925e86a1`**. El despliegue de Pages de ese mismo SHA seguía **in_progress** en última comprobación; no afirmar éxito hasta verificarlo, ni confundir CI con navegación real.
+- **PDFs**: la regeneración de UC3M y Diputación fue **SUCCESS** para SHA previo **`d9f6bdea56dec9ef7398412d46a745ed9000506c`**. No se acredita PDF nuevo posterior a los últimos cambios sin ejecución confirmada.
+- **Corte normativo UC3M, base primera.7:** la [**web oficial del proceso**](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) enlaza el listado definitivo, pero falta recuperar la fecha exacta **de la resolución/publicación primaria**. Un tercero sugiere **01/10/2026**; solo puede tratarse como indicio.
+- **Límites**: la auditoría individual del banco **no equivale a cobertura íntegra de todo el programa**, ver matriz de cada tema con subapartados sin pregunta directa, ni implica certificación funcional o accesibilidad.
+
+**Acumulado de cotejos individuales del banco:** **34/121 temas**, **La Puebla 19/19**, **UC3M 15/20**; **419 preguntas y 1.676 alternativas** revisadas. **0/121** acreditan simultáneamente todas las capas jurídico-editoriales, pedagógicas, funcionales, navegador y accesibilidad. **Siguiente lote**: **UC3M T16–T20** (normativa UC3M, presupuestos y contratos), luego controles funcionales globales.
