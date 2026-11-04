@@ -22,9 +22,9 @@
       "enunciado": "El artículo 20 LPRL exige preparar medidas en:",
       "opciones": [
         "Primeros auxilios, incendios y evacuación",
-        "Solo incendios",
         "Solo limpieza",
-        "Solo protección de datos"
+        "Solo protección de datos",
+        "Solo incendios"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "La ley obliga a analizar emergencias y adoptar las medidas indicadas.",
@@ -35,10 +35,10 @@
       "id": "OLIAS-T06-003",
       "enunciado": "¿Quién tiene deber principal de protección de los trabajadores?",
       "opciones": [
-        "Solo sus compañeros",
+        "El servicio postal",
         "El empresario o Administración empleadora",
-        "Solo el trabajador",
-        "El servicio postal"
+        "Solo sus compañeros",
+        "Solo el trabajador"
       ],
       "respuestaCorrecta": 1,
       "justificacion": "La LPRL contempla el deber de protección de la entidad empleadora.",
@@ -51,10 +51,10 @@
       "opciones": [
         "Anular protecciones si molestan",
         "Reparar siempre por sí mismo",
-        "Usar correctamente equipos y comunicar riesgos",
-        "Ignorar peligros"
+        "Ignorar peligros",
+        "Usar correctamente equipos y comunicar riesgos"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "El artículo 29 regula deberes preventivos del trabajador.",
       "trampaExamen": "No inutilizar dispositivos de seguridad.",
       "referencia": "Ley 31/1995, art. 29"
@@ -63,12 +63,12 @@
       "id": "OLIAS-T06-005",
       "enunciado": "¿Qué medida tiene preferencia en la manipulación manual de cargas?",
       "opciones": [
-        "Levantar siempre a mano",
         "Evitarla mediante medios técnicos cuando sea posible",
         "Pedir que todos los bultos pesen 25 kg",
-        "No evaluar el recorrido"
+        "No evaluar el recorrido",
+        "Levantar siempre a mano"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 0,
       "justificacion": "El RD 487/1997 da prioridad a evitar la manipulación manual.",
       "trampaExamen": "25 kg no es límite legal universal.",
       "referencia": "RD 487/1997"
@@ -77,10 +77,10 @@
       "id": "OLIAS-T06-006",
       "enunciado": "La caída provocada por un suelo mojado es principalmente un riesgo de:",
       "opciones": [
+        "Ruido",
         "Incendio",
-        "Radiación",
         "Resbalón al mismo nivel",
-        "Ruido"
+        "Radiación"
       ],
       "respuestaCorrecta": 2,
       "justificacion": "Un pavimento húmedo puede provocar resbalones y caídas.",
@@ -91,12 +91,12 @@
       "id": "OLIAS-T06-007",
       "enunciado": "En un edificio, evacuación significa:",
       "opciones": [
-        "Abandonar siguiendo rutas seguras",
         "Permanecer siempre en el puesto",
         "Cerrar puertas con candado",
+        "Abandonar siguiendo rutas seguras",
         "Utilizar siempre un ascensor"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "La evacuación consiste en trasladarse a una zona segura conforme al plan.",
       "trampaExamen": "Confinamiento es una estrategia diferente.",
       "referencia": "Ley 31/1995, art. 20"
@@ -106,9 +106,9 @@
       "enunciado": "Respecto al riesgo grave e inminente, ¿qué artículo contiene medidas de protección?",
       "opciones": [
         "Ley 31/1995, art. 21",
-        "Código Penal, art. 1",
         "Ley 39/2015, art. 1",
-        "Ley de tráfico"
+        "Ley de tráfico",
+        "Código Penal, art. 1"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "La LPRL regula la actuación ante riesgo grave e inminente.",
@@ -119,12 +119,12 @@
       "id": "OLIAS-T06-009",
       "enunciado": "Una salida de evacuación con cajas debe:",
       "opciones": [
+        "Cerrarse con llave",
         "Permanecer así si hay cartel",
         "Dejarse bloqueada temporalmente",
-        "Quedar libre y segura",
-        "Cerrarse con llave"
+        "Quedar libre y segura"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "Debe mantenerse expedita y apta para evacuar.",
       "trampaExamen": "Señalización no sustituye apertura.",
       "referencia": "RD 486/1997, anexo I"
@@ -147,12 +147,12 @@
       "id": "OLIAS-T06-011",
       "enunciado": "Una formación preventiva debe ser:",
       "opciones": [
-        "Genérica siempre y sin actualización",
         "Opcional solo tras accidentes",
-        "Adecuada al puesto y suficiente",
-        "Impartida solo al jefe"
+        "Impartida solo al jefe",
+        "Genérica siempre y sin actualización",
+        "Adecuada al puesto y suficiente"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "La LPRL exige formación suficiente y adecuada.",
       "trampaExamen": "Formar no sustituye evaluación de riesgos.",
       "referencia": "Ley 31/1995, art. 19"
@@ -161,12 +161,12 @@
       "id": "OLIAS-T06-012",
       "enunciado": "En una emergencia el auxiliar debería:",
       "opciones": [
+        "Bloquear accesos de salida",
         "Ignorar el protocolo",
         "Seguir el plan y comunicar a responsables",
-        "Realizar trabajos eléctricos sin habilitación",
-        "Bloquear accesos de salida"
+        "Realizar trabajos eléctricos sin habilitación"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "Actuar según instrucciones y personal designado para emergencias.",
       "trampaExamen": "Un auxiliar no adquiere habilitación técnica automática.",
       "referencia": "Ley 31/1995, arts. 20 y 29"

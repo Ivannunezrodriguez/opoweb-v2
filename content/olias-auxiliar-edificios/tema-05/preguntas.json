@@ -8,9 +8,9 @@
       "enunciado": "¿En qué provincia se encuentra Olías del Rey?",
       "opciones": [
         "Toledo",
+        "Ciudad Real",
         "Cuenca",
-        "Guadalajara",
-        "Ciudad Real"
+        "Guadalajara"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Es municipio de Toledo.",
@@ -21,12 +21,12 @@
       "id": "OLIAS-T05-002",
       "enunciado": "La alcaldesa identificada en la web municipal consultada en noviembre 2026 es:",
       "opciones": [
-        "María del Rosario Navas Cabezas",
         "María Jesús Hernández García",
         "La persona que preside Diputación",
-        "La directora del colegio"
+        "La directora del colegio",
+        "María del Rosario Navas Cabezas"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "La web oficial atribuye ese cargo.",
       "trampaExamen": "No sustituir prueba oficial por suposición: La web oficial atribuye ese cargo.",
       "referencia": "Web oficial, Alcaldía"
@@ -35,12 +35,12 @@
       "id": "OLIAS-T05-003",
       "enunciado": "El Ayuntamiento está integrado por:",
       "opciones": [
-        "Alcalde y Concejales",
-        "Solo Policía Local",
         "Solo personal laboral",
-        "Solo Tribunal de oposición"
+        "Alcalde y Concejales",
+        "Solo Tribunal de oposición",
+        "Solo Policía Local"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Estructura del art. 19 LRBRL.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Estructura del art. 19 LRBRL.",
       "referencia": "LRBRL, art. 19"
@@ -49,12 +49,12 @@
       "id": "OLIAS-T05-004",
       "enunciado": "¿Qué órgano tiene competencias del artículo 22 LRBRL?",
       "opciones": [
-        "El Pleno",
+        "La empresa de limpieza",
         "El personal de recepción",
         "Correos",
-        "La empresa de limpieza"
+        "El Pleno"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "El artículo 22 se refiere a Pleno.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El artículo 22 se refiere a Pleno.",
       "referencia": "LRBRL, art. 22"
@@ -63,12 +63,12 @@
       "id": "OLIAS-T05-005",
       "enunciado": "¿Qué apartado municipal se consulta para normas de parques y jardines?",
       "opciones": [
-        "Ordenanzas Municipales",
         "Sólo agenda de eventos",
         "Tarifas de Correos",
+        "Ordenanzas Municipales",
         "Registro de títulos universitarios"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "El Ayuntamiento publica índice de ordenanzas.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El Ayuntamiento publica índice de ordenanzas.",
       "referencia": "Web oficial, Ordenanzas Municipales"
@@ -77,12 +77,12 @@
       "id": "OLIAS-T05-006",
       "enunciado": "La sede electrónica municipal sirve para:",
       "opciones": [
-        "Presentar y gestionar trámites autorizados",
-        "Conseguir plaza automáticamente",
         "Sustituir todas las leyes",
-        "Dar acceso físico libre a oficinas"
+        "Presentar y gestionar trámites autorizados",
+        "Dar acceso físico libre a oficinas",
+        "Conseguir plaza automáticamente"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "La sede tiene catálogo y registro electrónico.",
       "trampaExamen": "No sustituir prueba oficial por suposición: La sede tiene catálogo y registro electrónico.",
       "referencia": "Sede electrónica Olías"
@@ -92,9 +92,9 @@
       "enunciado": "¿Es idéntico equipo de gobierno a toda corporación municipal?",
       "opciones": [
         "No",
+        "Depende del nombre del alcalde",
         "Sí siempre",
-        "Solo en provincia",
-        "Depende del nombre del alcalde"
+        "Solo en provincia"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "La corporación incluye concejales del Ayuntamiento.",
@@ -105,12 +105,12 @@
       "id": "OLIAS-T05-008",
       "enunciado": "¿Quién representa al Ayuntamiento según atribuciones generales?",
       "opciones": [
-        "Alcaldesa/Alcalde",
         "Operario de calefacción",
+        "Alcaldesa/Alcalde",
         "Cualquier visitante",
         "Juez de Paz"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "El Alcalde representa al Ayuntamiento.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El Alcalde representa al Ayuntamiento.",
       "referencia": "LRBRL, art. 21"
@@ -119,12 +119,12 @@
       "id": "OLIAS-T05-009",
       "enunciado": "¿Qué artículo regula principios de organización municipal necesarios?",
       "opciones": [
-        "LRBRL, art. 20",
-        "LPRL, art. 4",
         "Ley postal, art. 20",
-        "CE, art. 99"
+        "CE, art. 99",
+        "LPRL, art. 4",
+        "LRBRL, art. 20"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "El art. 20 regula organización.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El art. 20 regula organización.",
       "referencia": "LRBRL, art. 20"
@@ -134,9 +134,9 @@
       "enunciado": "Para conocer el texto aplicable de una ordenanza hay que:",
       "opciones": [
         "Comprobar norma publicada y modificaciones",
+        "Suponer que nunca cambia",
         "Consultar solo publicidad de un comercio",
-        "Preguntar al primer visitante",
-        "Suponer que nunca cambia"
+        "Preguntar al primer visitante"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "La vigencia puede depender de modificaciones.",
@@ -147,12 +147,12 @@
       "id": "OLIAS-T05-011",
       "enunciado": "La dirección publicada en cabecera web para Ayuntamiento es:",
       "opciones": [
-        "Plaza de la Constitución, 1",
         "Camino del Arenal, 5",
         "Calle Venta de Arriba",
+        "Plaza de la Constitución, 1",
         "Calle Flor, 2"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Cabecera institucional muestra Plaza de la Constitución 1.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Cabecera institucional muestra Plaza de la Constitución 1.",
       "referencia": "Web municipal"
@@ -161,12 +161,12 @@
       "id": "OLIAS-T05-012",
       "enunciado": "¿Publicar una noticia de una oposición equivale a presentar la solicitud?",
       "opciones": [
-        "No, exige registro del trámite",
-        "Sí automáticamente",
         "Solo si contiene foto",
-        "Sí si aparece en móvil"
+        "Sí si aparece en móvil",
+        "No, exige registro del trámite",
+        "Sí automáticamente"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Se requiere presentación formal.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Se requiere presentación formal.",
       "referencia": "Sede electrónica; BOP 4833"
