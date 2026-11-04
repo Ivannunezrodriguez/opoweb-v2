@@ -1,0 +1,175 @@
+{
+  "tema": 1,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T01-001",
+      "enunciado": "La forma política del Estado español es:",
+      "opciones": [
+        "Monarquía parlamentaria",
+        "República federal",
+        "Monarquía absoluta",
+        "Estado confederal"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La Constitución lo expresa literalmente en el artículo 1.3.",
+      "trampaExamen": "No confundir forma política con valor superior.",
+      "referencia": "CE, art. 1.3"
+    },
+    {
+      "id": "OLIAS-T01-002",
+      "enunciado": "La soberanía nacional reside en:",
+      "opciones": [
+        "El Gobierno",
+        "El pueblo español",
+        "El Senado",
+        "El Rey"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 1.2 atribuye la soberanía al pueblo español.",
+      "trampaExamen": "El Rey no ostenta soberanía originaria.",
+      "referencia": "CE, art. 1.2"
+    },
+    {
+      "id": "OLIAS-T01-003",
+      "enunciado": "La norma institucional básica de cada Comunidad Autónoma es:",
+      "opciones": [
+        "Su Estatuto de Autonomía",
+        "Un reglamento municipal",
+        "Un Real Decreto ordinario",
+        "Un bando de la Alcaldía"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 147.1 define el Estatuto como norma institucional básica.",
+      "trampaExamen": "No confundir Estatuto y ley de presupuestos.",
+      "referencia": "CE, art. 147.1"
+    },
+    {
+      "id": "OLIAS-T01-004",
+      "enunciado": "¿Qué artículo enumera materias de competencia exclusiva del Estado?",
+      "opciones": [
+        "El 148",
+        "El 149",
+        "El 143",
+        "El 147"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 149 regula competencias exclusivas estatales.",
+      "trampaExamen": "El 148 enumera ámbitos asumibles por CCAA.",
+      "referencia": "CE, arts. 148–149"
+    },
+    {
+      "id": "OLIAS-T01-005",
+      "enunciado": "Según la Constitución, el Rey es:",
+      "opciones": [
+        "El titular del poder legislativo",
+        "El Presidente del Gobierno",
+        "El Jefe del Estado",
+        "El presidente del Tribunal Constitucional"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El Rey es Jefe del Estado según el artículo 56.1.",
+      "trampaExamen": "Jefatura del Estado no equivale a dirigir el Gobierno.",
+      "referencia": "CE, art. 56.1"
+    },
+    {
+      "id": "OLIAS-T01-006",
+      "enunciado": "¿Quiénes refrendan, como regla, los actos del Rey?",
+      "opciones": [
+        "Solo el Tribunal Constitucional",
+        "El Presidente del Gobierno o ministros competentes según proceda",
+        "Solo el Senado",
+        "Ninguna autoridad"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 64 distribuye el refrendo y establece excepciones específicas.",
+      "trampaExamen": "En investidura puede intervenir el Presidente del Congreso.",
+      "referencia": "CE, art. 64"
+    },
+    {
+      "id": "OLIAS-T01-007",
+      "enunciado": "¿Quién propone al Rey el nombramiento y cese de los Ministros?",
+      "opciones": [
+        "El Presidente del Gobierno",
+        "El Defensor del Pueblo",
+        "La Fiscalía",
+        "El Tribunal Supremo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los Ministros son nombrados y separados por el Rey a propuesta del Presidente del Gobierno.",
+      "trampaExamen": "El Rey no los elige discrecionalmente.",
+      "referencia": "CE, art. 100"
+    },
+    {
+      "id": "OLIAS-T01-008",
+      "enunciado": "En primera votación de investidura del Presidente se requiere:",
+      "opciones": [
+        "Mayoría simple",
+        "Tres quintos",
+        "Mayoría absoluta",
+        "Dos tercios"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 99.3 exige mayoría absoluta de los miembros del Congreso.",
+      "trampaExamen": "Mayoría simple corresponde a la siguiente votación.",
+      "referencia": "CE, art. 99.3"
+    },
+    {
+      "id": "OLIAS-T01-009",
+      "enunciado": "Si no se alcanza mayoría absoluta, la siguiente votación de investidura será:",
+      "opciones": [
+        "24 horas después y tres quintos",
+        "48 horas después y mayoría simple",
+        "7 días después y mayoría absoluta",
+        "15 días después por unanimidad"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La segunda votación es a las 48 horas y basta mayoría simple.",
+      "trampaExamen": "El plazo y mayoría son diferentes.",
+      "referencia": "CE, art. 99.3"
+    },
+    {
+      "id": "OLIAS-T01-010",
+      "enunciado": "Si no hay Presidente investido, ¿desde cuándo se cuentan los dos meses para disolver las Cámaras?",
+      "opciones": [
+        "Desde las elecciones generales",
+        "Desde la primera consulta del Rey",
+        "Desde la primera votación de investidura",
+        "Desde la formación de la Mesa del Congreso"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 99.5 computa dos meses desde la primera votación de investidura.",
+      "trampaExamen": "No desde elecciones ni propuesta.",
+      "referencia": "CE, art. 99.5"
+    },
+    {
+      "id": "OLIAS-T01-011",
+      "enunciado": "El Gobierno responde solidariamente en su gestión política ante:",
+      "opciones": [
+        "El Congreso de los Diputados",
+        "El Senado exclusivamente",
+        "Los Ayuntamientos",
+        "El Tribunal de Cuentas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 108 asigna responsabilidad política solidaria ante el Congreso.",
+      "trampaExamen": "No confundir con control financiero del Tribunal de Cuentas.",
+      "referencia": "CE, art. 108"
+    },
+    {
+      "id": "OLIAS-T01-012",
+      "enunciado": "Según el artículo 97 CE, el Gobierno ejerce:",
+      "opciones": [
+        "Solo función legislativa",
+        "Función ejecutiva y potestad reglamentaria",
+        "Exclusivamente potestad jurisdiccional",
+        "La Jefatura del Estado"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El Gobierno dirige la política y ejerce función ejecutiva y potestad reglamentaria.",
+      "trampaExamen": "Potestad reglamentaria no equivale a legislar ordinariamente.",
+      "referencia": "CE, art. 97"
+    }
+  ]
+}
