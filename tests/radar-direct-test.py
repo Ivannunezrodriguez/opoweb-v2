@@ -15,6 +15,8 @@ assert len(d.scan(s,{},'2026-09-28',get)['entries'])==1
 body='<a href="/bad">Fecha examen convocatoria bolsa de conserjes</a>'
 assert not d.scan(s,r2['state'],'2026-09-28',get)['entries']
 assert d.canonical('https://example.org/x;jsessionid=secret?id=1&utm_source=test#top')=='https://example.org/x?id=1'
+assert d.canonical('https://ayto.example/empleo/convocatoria-pública?tipo=oposición')=='https://ayto.example/empleo/convocatoria-p%C3%BAblica?tipo=oposici%C3%B3n'
+assert d.canonical('https://ayto.example/empleo/convocatoria-p%C3%BAblica')=='https://ayto.example/empleo/convocatoria-p%C3%BAblica'
 assert d.canonical('javascript:alert(1)') is None
 assert d.canonical('http://127.0.0.1/') is None
 assert len(d.directory_sources('<table><tr><td>Yuncos</td><td>phone</td><td>email</td><td><a href="https://yuncos.example">Web</a></td></tr></table>','https://diputoledo.es'))==1
