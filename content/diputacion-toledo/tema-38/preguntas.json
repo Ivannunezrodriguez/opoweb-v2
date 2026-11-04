@@ -6,43 +6,46 @@
       "id": "DIP-T38-001",
       "pregunta": "¿Cuál es el formato nativo de LibreOffice Impress?",
       "opciones": [
+        "ODP",
         "ODT",
         "ODS",
-        "ODP",
         "PPTX"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El formato nativo de las presentaciones creadas con LibreOffice Impress es ODP.",
       "trampa": "PPTX es un formato compatible, pero no es el formato nativo de Impress.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#1-concepto-y-finalidad"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#1-concepto-y-finalidad",
+      "respuestaLiteral": "ODP"
     },
     {
       "id": "DIP-T38-002",
       "pregunta": "¿Qué vista facilita especialmente reordenar varias diapositivas?",
       "opciones": [
         "Normal",
-        "Clasificador de diapositivas",
         "Notas",
-        "Patrón"
+        "Patrón",
+        "Clasificador de diapositivas"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El Clasificador de diapositivas ofrece una visión global de la presentación y facilita reordenar, copiar o eliminar varias diapositivas.",
       "trampa": "La vista Normal se utiliza principalmente para editar el contenido de una diapositiva concreta.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#vistas-principales"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#vistas-principales",
+      "respuestaLiteral": "Clasificador de diapositivas"
     },
     {
       "id": "DIP-T38-003",
       "pregunta": "¿Qué atajo inserta una nueva diapositiva en Impress?",
       "opciones": [
         "Ctrl + N",
-        "Ctrl + M",
         "Ctrl + D",
+        "Ctrl + M",
         "Mayús + F5"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La combinación Ctrl + M inserta una nueva diapositiva en la presentación activa.",
       "trampa": "Ctrl + N crea una presentación nueva; no inserta una diapositiva en la presentación actual.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#4-diapositivas-y-diseños"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#4-diapositivas-y-diseños",
+      "respuestaLiteral": "Ctrl + M"
     },
     {
       "id": "DIP-T38-004",
@@ -50,55 +53,59 @@
       "opciones": [
         "Se elimina definitivamente",
         "Se borra su contenido",
-        "Se conserva, pero no se muestra en la presentación ordinaria",
-        "Se convierte en nota"
+        "Se convierte en nota",
+        "Se conserva, pero no se muestra en la presentación ordinaria"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "Una diapositiva oculta permanece en el archivo, pero se excluye del recorrido ordinario de la presentación.",
       "trampa": "Ocultar una diapositiva no equivale a eliminarla ni a borrar su contenido.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#4-diapositivas-y-diseños"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#4-diapositivas-y-diseños",
+      "respuestaLiteral": "Se conserva, pero no se muestra en la presentación ordinaria"
     },
     {
       "id": "DIP-T38-005",
       "pregunta": "¿Qué elemento controla fondos, logotipos y estilos comunes dentro de una presentación?",
       "opciones": [
-        "El patrón de diapositivas",
         "La transición",
+        "El patrón de diapositivas",
         "El comentario",
         "El folleto"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "El patrón de diapositivas controla los fondos, logotipos, posiciones, pies, numeración y estilos comunes de varias diapositivas.",
       "trampa": "Una plantilla sirve como modelo reutilizable para crear presentaciones; no es lo mismo que el patrón de la presentación actual.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#5-patrones-temas-y-plantillas"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#5-patrones-temas-y-plantillas",
+      "respuestaLiteral": "El patrón de diapositivas"
     },
     {
       "id": "DIP-T38-006",
       "pregunta": "La transición se aplica principalmente a:",
       "opciones": [
+        "El cambio entre diapositivas",
         "Un carácter",
         "Un objeto",
-        "El cambio entre diapositivas",
         "Una nota"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La transición regula el cambio de una diapositiva a otra durante la presentación.",
       "trampa": "La animación se aplica a textos, imágenes u otros objetos dentro de una diapositiva.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#9-transiciones-y-animaciones"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#9-transiciones-y-animaciones",
+      "respuestaLiteral": "El cambio entre diapositivas"
     },
     {
       "id": "DIP-T38-007",
       "pregunta": "¿Qué tecla inicia la presentación desde el principio?",
       "opciones": [
         "F2",
-        "F4",
         "F5",
+        "F4",
         "F9"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La tecla F5 inicia la presentación desde la primera diapositiva.",
       "trampa": "Mayús + F5 inicia la presentación desde la diapositiva actual, no desde el principio.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#10-presentación-de-diapositivas"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#10-presentación-de-diapositivas",
+      "respuestaLiteral": "F5"
     },
     {
       "id": "DIP-T38-008",
@@ -106,41 +113,44 @@
       "opciones": [
         "Ctrl + F5",
         "Alt + F5",
-        "Mayús + F5",
-        "Ctrl + Mayús + F5"
+        "Ctrl + Mayús + F5",
+        "Mayús + F5"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La combinación Mayús + F5 inicia la presentación desde la diapositiva seleccionada actualmente.",
       "trampa": "F5, sin modificadores, inicia el pase desde la primera diapositiva.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#10-presentación-de-diapositivas"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#10-presentación-de-diapositivas",
+      "respuestaLiteral": "Mayús + F5"
     },
     {
       "id": "DIP-T38-009",
       "pregunta": "¿Cuál es la finalidad principal de las notas del presentador?",
       "opciones": [
         "Sustituir el patrón",
-        "Servir de apoyo privado al expositor",
         "Eliminar diapositivas",
-        "Aplicar transiciones"
+        "Aplicar transiciones",
+        "Servir de apoyo privado al expositor"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "Las notas sirven como información de apoyo para el presentador durante la preparación o exposición de la presentación.",
       "trampa": "Las notas no tienen por qué mostrarse al público durante la proyección.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#11-notas-comentarios-y-folletos"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#11-notas-comentarios-y-folletos",
+      "respuestaLiteral": "Servir de apoyo privado al expositor"
     },
     {
       "id": "DIP-T38-010",
       "pregunta": "Los folletos permiten:",
       "opciones": [
-        "Imprimir varias diapositivas por página",
         "Editar el patrón",
+        "Imprimir varias diapositivas por página",
         "Crear una base de datos",
         "Ocultar comentarios"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "Los folletos permiten imprimir varias diapositivas en una misma página para su entrega o consulta resumida.",
       "trampa": "Los folletos no son equivalentes a las notas del presentador.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#11-notas-comentarios-y-folletos"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#11-notas-comentarios-y-folletos",
+      "respuestaLiteral": "Imprimir varias diapositivas por página"
     },
     {
       "id": "DIP-T38-011",
@@ -154,7 +164,8 @@
       "correcta": 2,
       "justificacion": "Exportar a PDF crea un archivo adecuado para distribución o impresión, sin sustituir necesariamente el archivo editable ODP.",
       "trampa": "PDF no conserva la edición ordinaria ni las funciones interactivas de una presentación ODP.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#12-impresión-y-exportación"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#12-impresión-y-exportación",
+      "respuestaLiteral": "Crea un archivo apropiado para distribución"
     },
     {
       "id": "DIP-T38-012",
@@ -168,35 +179,38 @@
       "correcta": 0,
       "justificacion": "Una presentación personalizada permite definir un recorrido con determinadas diapositivas y en un orden específico sin borrar las demás.",
       "trampa": "No implica crear obligatoriamente otro archivo ni eliminar las diapositivas excluidas del recorrido.",
-      "referencia": "content/diputacion-toledo/tema-38/manual.md#presentación-personalizada"
+      "referencia": "content/diputacion-toledo/tema-38/manual.md#presentación-personalizada",
+      "respuestaLiteral": "Mostrar una selección de diapositivas en un orden determinado"
     },
     {
       "id": "DIP-T38-013",
       "pregunta": "¿Qué tecla finaliza el pase de diapositivas en Impress?",
       "opciones": [
-        "Esc",
         "F2",
+        "Esc",
         "F7",
         "Ctrl + M"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "Esc finaliza la presentación.",
       "trampa": "Diferenciar acciones del pase de diapositivas y edición de objetos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html"
+      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html",
+      "respuestaLiteral": "Esc"
     },
     {
       "id": "DIP-T38-014",
       "pregunta": "Durante el pase, ¿qué tecla deja la pantalla negra temporalmente?",
       "opciones": [
         "W",
-        "B",
         "F4",
-        "F7"
+        "F7",
+        "B"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "B muestra una pantalla negra hasta una nueva acción.",
       "trampa": "Diferenciar acciones del pase de diapositivas y edición de objetos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html"
+      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html",
+      "respuestaLiteral": "B"
     },
     {
       "id": "DIP-T38-015",
@@ -210,63 +224,68 @@
       "correcta": 2,
       "justificacion": "W muestra la pantalla en blanco temporalmente.",
       "trampa": "Diferenciar acciones del pase de diapositivas y edición de objetos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html"
+      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html",
+      "respuestaLiteral": "W"
     },
     {
       "id": "DIP-T38-016",
       "pregunta": "Durante un pase, ¿cómo puede saltarse directamente a una diapositiva concreta?",
       "opciones": [
+        "Número de diapositiva seguido de Intro",
         "Alt + F4",
         "Ctrl + S",
-        "F2 y número",
-        "Número de diapositiva seguido de Intro"
+        "F2 y número"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "justificacion": "El número de diapositiva seguido de Intro permite navegar a ella.",
       "trampa": "Diferenciar acciones del pase de diapositivas y edición de objetos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html"
+      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html",
+      "respuestaLiteral": "Número de diapositiva seguido de Intro"
     },
     {
       "id": "DIP-T38-017",
       "pregunta": "¿Qué hace F2 con un objeto de texto seleccionado en Impress?",
       "opciones": [
-        "Editar texto",
         "Iniciar la presentación",
+        "Editar texto",
         "Cambiar tamaño de la página",
         "Abrir el corrector"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "F2 activa la edición de texto.",
       "trampa": "Diferenciar acciones del pase de diapositivas y edición de objetos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html"
+      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html",
+      "respuestaLiteral": "Editar texto"
     },
     {
       "id": "DIP-T38-018",
       "pregunta": "¿Qué tecla permite acceder a la posición y tamaño del objeto en Impress?",
       "opciones": [
         "F3",
-        "F4",
         "F5",
+        "F4",
         "F8"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "F4 abre Posición y tamaño.",
       "trampa": "Diferenciar acciones del pase de diapositivas y edición de objetos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html"
+      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html",
+      "respuestaLiteral": "F4"
     },
     {
       "id": "DIP-T38-019",
       "pregunta": "¿Qué implica ocultar una diapositiva en Impress?",
       "opciones": [
+        "La excluye del pase ordinario pero permanece en la presentación",
         "La elimina del archivo",
         "Borra su contenido",
-        "La excluye del pase ordinario pero permanece en la presentación",
         "La convierte en una nota"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La diapositiva oculta permanece en el documento, pero no aparece durante el pase ordinario.",
       "trampa": "Diferenciar acciones del pase de diapositivas y edición de objetos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/main_slide.html"
+      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/main_slide.html",
+      "respuestaLiteral": "La excluye del pase ordinario pero permanece en la presentación"
     },
     {
       "id": "DIP-T38-020",
@@ -274,13 +293,18 @@
       "opciones": [
         "Ctrl + P",
         "Ctrl + M",
-        "Ctrl + D",
-        "Ctrl + Mayús + G"
+        "Ctrl + Mayús + G",
+        "Ctrl + D"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "justificacion": "Ctrl + Mayús + G agrupa objetos seleccionados.",
       "trampa": "Diferenciar acciones del pase de diapositivas y edición de objetos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html"
+      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html",
+      "respuestaLiteral": "Ctrl + Mayús + G"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }
