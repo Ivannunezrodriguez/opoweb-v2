@@ -7,12 +7,12 @@
       "id": "OLIAS-T18-001",
       "enunciado": "La función de la bomba circuladora es:",
       "opciones": [
-        "Mover fluido en circuito",
         "Controlar acceso",
+        "Mover fluido en circuito",
         "Franquear correo",
         "Destruir papel"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "La circuladora impulsa el fluido.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. La circuladora impulsa el fluido.",
       "referencia": "Tema 18, circuito"
@@ -22,9 +22,9 @@
       "enunciado": "La impulsión de calefacción conduce:",
       "opciones": [
         "Fluido hacia emisores",
-        "Aguas residuales exclusivamente",
         "Documentos oficiales",
-        "Tóner"
+        "Tóner",
+        "Aguas residuales exclusivamente"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "El sistema entrega calor a emisores.",
@@ -35,12 +35,12 @@
       "id": "OLIAS-T18-003",
       "enunciado": "El vaso de expansión sirve para:",
       "opciones": [
+        "Almacenar documentos",
         "Compensar variaciones volumétricas",
         "Producir gas natural",
-        "Regular semáforos",
-        "Almacenar documentos"
+        "Regular semáforos"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Absorbe dilatación del fluido.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Absorbe dilatación del fluido.",
       "referencia": "Tema 18, circuito"
@@ -49,12 +49,12 @@
       "id": "OLIAS-T18-004",
       "enunciado": "El purgador se relaciona con:",
       "opciones": [
-        "Eliminar aire del circuito",
         "Registrar visitas",
         "Limpiar cámara de impresión",
-        "Cortar chapa"
+        "Cortar chapa",
+        "Eliminar aire del circuito"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Ayuda a evacuar aire.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Ayuda a evacuar aire.",
       "referencia": "Tema 18, purga"
@@ -64,9 +64,9 @@
       "enunciado": "Una presión de llenado fija es válida para todos los edificios:",
       "opciones": [
         "No, depende del sistema",
-        "Sí, 1 bar siempre",
         "Sí, 5 bar siempre",
-        "Sí, exactamente 2 bar"
+        "Sí, exactamente 2 bar",
+        "Sí, 1 bar siempre"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Depende de altura y diseño.",
@@ -77,12 +77,12 @@
       "id": "OLIAS-T18-006",
       "enunciado": "¿Quién realiza el mantenimiento de instalaciones sujetas al RITE?",
       "opciones": [
-        "Empresas mantenedoras habilitadas",
+        "Cualquier visitante",
         "Cualquier ciudadano",
-        "Solo recepcionista",
-        "Cualquier visitante"
+        "Empresas mantenedoras habilitadas",
+        "Solo recepcionista"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Es el art. 26 RITE.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Es el art. 26 RITE.",
       "referencia": "RITE, art. 26"
@@ -91,12 +91,12 @@
       "id": "OLIAS-T18-007",
       "enunciado": "Ante olor a gas se debe:",
       "opciones": [
-        "Aplicar protocolo y evitar chispas",
         "Accionar interruptores para probar",
         "Encender una llama",
+        "Aplicar protocolo y evitar chispas",
         "Ignorar"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Se prioriza emergencia y seguridad.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Se prioriza emergencia y seguridad.",
       "referencia": "PRL; tema 18"
@@ -106,9 +106,9 @@
       "enunciado": "La red de calefacción y agua de consumo:",
       "opciones": [
         "Pueden ser redes diferentes",
-        "Son siempre idénticas",
         "Nunca tienen tuberías",
-        "No precisan mantenimiento"
+        "No precisan mantenimiento",
+        "Son siempre idénticas"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "El agua del circuito puede ser no potable.",
@@ -119,12 +119,12 @@
       "id": "OLIAS-T18-009",
       "enunciado": "El RITE aprobado por RD 1027/2007 regula:",
       "opciones": [
-        "Instalaciones térmicas en edificios",
+        "Contratos administrativos únicamente",
         "Tarifas de cartas",
         "Igualdad electoral",
-        "Contratos administrativos únicamente"
+        "Instalaciones térmicas en edificios"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Es el reglamento técnico térmico.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Es el reglamento técnico térmico.",
       "referencia": "RITE"
@@ -133,12 +133,12 @@
       "id": "OLIAS-T18-010",
       "enunciado": "Si una válvula de seguridad de caldera gotea:",
       "opciones": [
-        "Se comunica a técnico",
         "Se tapa",
+        "Se comunica a técnico",
         "Se anula",
         "Se aumenta la presión sin diagnóstico"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Puede haber riesgo de presión/temperatura.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Puede haber riesgo de presión/temperatura.",
       "referencia": "RITE; tema 18"
