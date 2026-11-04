@@ -8,27 +8,29 @@
       "opciones": [
         "Voluntariedad",
         "Ajenidad",
-        "Dependencia",
-        "Gratuidad"
+        "Gratuidad",
+        "Dependencia"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "justificacion": "La relación laboral común exige una prestación voluntaria, personal, dependiente, por cuenta ajena y retribuida; la gratuidad excluye una de sus notas esenciales.",
       "trampa": "No debe confundirse una colaboración voluntaria y gratuita con una relación laboral retribuida.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#1-concepto-y-fuentes-del-contrato-de-trabajo"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#1-concepto-y-fuentes-del-contrato-de-trabajo",
+      "respuestaLiteral": "Gratuidad"
     },
     {
       "id": "DIP-T20-002",
       "pregunta": "La falta de forma escrita cuando es legalmente exigible determina, como regla, la presunción de contrato:",
       "opciones": [
         "Nulo",
-        "Indefinido y a jornada completa",
         "Temporal y a jornada parcial",
-        "En prácticas"
+        "En prácticas",
+        "Indefinido y a jornada completa"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El artículo 8 del Estatuto de los Trabajadores establece la presunción de contrato indefinido y a jornada completa, salvo prueba en contrario.",
       "trampa": "La omisión de la forma escrita no produce automáticamente la nulidad del contrato.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#2-capacidad-forma-y-prueba"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#2-capacidad-forma-y-prueba",
+      "respuestaLiteral": "Indefinido y a jornada completa"
     },
     {
       "id": "DIP-T20-003",
@@ -42,49 +44,53 @@
       "correcta": 2,
       "justificacion": "El salario en especie no puede superar el 30 % de las percepciones salariales ni reducir la cuantía íntegra en dinero por debajo del salario mínimo interprofesional.",
       "trampa": "El límite porcentual no permite disminuir la parte dineraria por debajo del salario mínimo interprofesional.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#33-salario"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#33-salario",
+      "respuestaLiteral": "El 30 %"
     },
     {
       "id": "DIP-T20-004",
       "pregunta": "El periodo de abono de retribuciones periódicas y regulares no puede exceder de:",
       "opciones": [
         "15 días",
-        "1 mes",
         "2 meses",
-        "3 meses"
+        "3 meses",
+        "1 mes"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El Estatuto de los Trabajadores fija un periodo máximo de un mes para el pago de retribuciones periódicas y regulares.",
       "trampa": "No debe confundirse la periodicidad máxima del pago con la posibilidad de anticipos a cuenta del trabajo ya realizado.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#33-salario"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#33-salario",
+      "respuestaLiteral": "1 mes"
     },
     {
       "id": "DIP-T20-005",
       "pregunta": "La realización de funciones superiores permite reclamar el ascenso, salvo lo dispuesto en convenio colectivo, cuando supera:",
       "opciones": [
         "3 meses en 1 año",
-        "6 meses en 1 año u 8 meses en 2 años",
         "9 meses en 2 años",
-        "12 meses en 3 años"
+        "12 meses en 3 años",
+        "6 meses en 1 año u 8 meses en 2 años"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El artículo 39 del Estatuto de los Trabajadores permite reclamar el ascenso cuando se realizan funciones superiores durante más de 6 meses en 1 año o más de 8 meses en 2 años, salvo lo dispuesto en convenio colectivo.",
       "trampa": "La persona trabajadora también puede reclamar la diferencia salarial correspondiente a las funciones superiores efectivamente realizadas.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#51-movilidad-funcional"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#51-movilidad-funcional",
+      "respuestaLiteral": "6 meses en 1 año u 8 meses en 2 años"
     },
     {
       "id": "DIP-T20-006",
       "pregunta": "El traslado individual debe notificarse con una antelación mínima de:",
       "opciones": [
         "10 días",
+        "30 días",
         "15 días",
-        "20 días",
-        "30 días"
+        "20 días"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "justificacion": "La decisión de traslado individual debe notificarse a la persona trabajadora y a sus representantes con una antelación mínima de 30 días respecto de su efectividad.",
       "trampa": "No debe intercambiarse este plazo con los 15 días de la modificación sustancial individual o del despido objetivo.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#52-movilidad-geográfica"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#52-movilidad-geográfica",
+      "respuestaLiteral": "30 días"
     },
     {
       "id": "DIP-T20-007",
@@ -98,7 +104,8 @@
       "correcta": 1,
       "justificacion": "La extinción por traslado da derecho a 20 días de salario por año de servicio, prorrateándose por meses los periodos inferiores al año, con un máximo de 12 mensualidades.",
       "trampa": "Las 9 mensualidades corresponden a determinados supuestos de modificación sustancial indemnizable.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#52-movilidad-geográfica"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#52-movilidad-geográfica",
+      "respuestaLiteral": "12 mensualidades"
     },
     {
       "id": "DIP-T20-008",
@@ -112,119 +119,128 @@
       "correcta": 2,
       "justificacion": "La modificación sustancial de carácter individual debe notificarse con una antelación mínima de 15 días a la fecha de su efectividad.",
       "trampa": "Los 30 días corresponden al traslado individual.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#53-modificación-sustancial-de-condiciones"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#53-modificación-sustancial-de-condiciones",
+      "respuestaLiteral": "15 días"
     },
     {
       "id": "DIP-T20-009",
       "pregunta": "La suspensión del contrato implica:",
       "opciones": [
-        "Extinción definitiva del vínculo",
         "Interrupción temporal de trabajo y salario",
+        "Extinción definitiva del vínculo",
         "Conversión automática en excedencia voluntaria",
         "Despido improcedente"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La suspensión interrumpe temporalmente las obligaciones principales de trabajar y remunerar, pero mantiene vigente el vínculo contractual.",
       "trampa": "Suspensión y extinción producen efectos jurídicos distintos.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#6-suspensión-del-contrato"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#6-suspensión-del-contrato",
+      "respuestaLiteral": "Interrupción temporal de trabajo y salario"
     },
     {
       "id": "DIP-T20-010",
       "pregunta": "La indemnización ordinaria por despido improcedente es de:",
       "opciones": [
         "20 días por año, máximo 12 mensualidades",
-        "33 días por año, máximo 24 mensualidades",
         "45 días por año, máximo 42 mensualidades en todo caso",
+        "33 días por año, máximo 24 mensualidades",
         "12 días por año"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La regla vigente es de 33 días de salario por año de servicio, con un máximo de 24 mensualidades, sin perjuicio del régimen transitorio aplicable al tiempo trabajado antes del 12 de febrero de 2012.",
       "trampa": "Los 45 días no se aplican a toda la antigüedad ni a todos los contratos actuales.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#73-extinción-por-incumplimiento-empresarial"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#73-extinción-por-incumplimiento-empresarial",
+      "respuestaLiteral": "33 días por año, máximo 24 mensualidades"
     },
     {
       "id": "DIP-T20-011",
       "pregunta": "En la extinción por causas objetivas, el preaviso general es de:",
       "opciones": [
+        "15 días",
         "7 días",
         "10 días",
-        "15 días",
         "30 días"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El artículo 53 del Estatuto de los Trabajadores fija un preaviso general de 15 días desde la entrega de la comunicación personal hasta la extinción del contrato.",
       "trampa": "No deben aplicarse los 30 días previstos para el traslado individual.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#75-extinción-por-causas-objetivas"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#75-extinción-por-causas-objetivas",
+      "respuestaLiteral": "15 días"
     },
     {
       "id": "DIP-T20-012",
       "pregunta": "Durante el preaviso del despido objetivo, la licencia retribuida para buscar empleo es de:",
       "opciones": [
         "2 horas semanales",
-        "4 horas semanales",
         "6 horas semanales",
+        "4 horas semanales",
         "1 día completo semanal"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "Durante el periodo de preaviso, la persona trabajadora tiene derecho, sin pérdida de retribución, a una licencia de 6 horas semanales para buscar nuevo empleo.",
       "trampa": "Se trata de horas semanales durante el preaviso, no de un permiso diario.",
-      "referencia": "content/diputacion-toledo/tema-20/manual.md#75-extinción-por-causas-objetivas"
+      "referencia": "content/diputacion-toledo/tema-20/manual.md#75-extinción-por-causas-objetivas",
+      "respuestaLiteral": "6 horas semanales"
     },
     {
       "id": "DIP-T20-013",
       "pregunta": "¿Qué preaviso mínimo debe darse en un traslado individual que exige cambio de residencia?",
       "opciones": [
         "15 días",
-        "30 días",
         "45 días",
-        "60 días"
+        "60 días",
+        "30 días"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El traslado del artículo 40.1 exige notificación con **30 días** como mínimo antes de su efectividad.",
       "trampa": "Distinguir plazos e indemnizaciones según la causa de modificación o extinción.",
-      "referencia": "Estatuto de los Trabajadores, artículo 40 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "Estatuto de los Trabajadores, artículo 40 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "30 días"
     },
     {
       "id": "DIP-T20-014",
       "pregunta": "¿Con qué antelación mínima se notifica una modificación sustancial individual de condiciones?",
       "opciones": [
+        "15 días",
         "7 días",
         "10 días",
-        "15 días",
         "30 días"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La modificación sustancial individual debe notificarse con **15 días** de antelación como mínimo.",
       "trampa": "Distinguir plazos e indemnizaciones según la causa de modificación o extinción.",
-      "referencia": "Estatuto de los Trabajadores, artículo 41 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "Estatuto de los Trabajadores, artículo 41 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "15 días"
     },
     {
       "id": "DIP-T20-015",
       "pregunta": "¿Qué indemnización corresponde, con carácter general, si la persona trabajadora opta por extinguir el contrato ante un traslado?",
       "opciones": [
+        "20 días por año con máximo de 12 mensualidades",
         "33 días por año sin límite",
         "12 días por año máximo 9 mensualidades",
-        "45 días por año máximo 24 mensualidades",
-        "20 días por año con máximo de 12 mensualidades"
+        "45 días por año máximo 24 mensualidades"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "justificacion": "El artículo 40.1 establece **20 días por año**, con prorrateo por meses y máximo de **12 mensualidades**.",
       "trampa": "Distinguir plazos e indemnizaciones según la causa de modificación o extinción.",
-      "referencia": "Estatuto de los Trabajadores, artículo 40 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "Estatuto de los Trabajadores, artículo 40 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "20 días por año con máximo de 12 mensualidades"
     },
     {
       "id": "DIP-T20-016",
       "pregunta": "¿Cuáles son las causas generales de suspensión del contrato de trabajo?",
       "opciones": [
-        "Las previstas en el artículo 45 del Estatuto de los Trabajadores",
         "Solo la enfermedad",
+        "Las previstas en el artículo 45 del Estatuto de los Trabajadores",
         "Solo la decisión del empresario",
         "Exclusivamente el descanso semanal"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "Las causas de suspensión se enumeran en el **artículo 45**; comportan exoneración recíproca de trabajar y remunerar.",
       "trampa": "Distinguir plazos e indemnizaciones según la causa de modificación o extinción.",
-      "referencia": "Estatuto de los Trabajadores, artículo 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "Estatuto de los Trabajadores, artículo 45 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "Las previstas en el artículo 45 del Estatuto de los Trabajadores"
     },
     {
       "id": "DIP-T20-017",
@@ -238,7 +254,8 @@
       "correcta": 1,
       "justificacion": "El despido objetivo procedente contempla **20 días de salario por año**, máximo **12 mensualidades**, sin perjuicio de las reglas aplicables.",
       "trampa": "Distinguir plazos e indemnizaciones según la causa de modificación o extinción.",
-      "referencia": "Estatuto de los Trabajadores, artículo 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "Estatuto de los Trabajadores, artículo 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "20 días por año, máximo 12 mensualidades"
     },
     {
       "id": "DIP-T20-018",
@@ -252,7 +269,8 @@
       "correcta": 2,
       "justificacion": "La indemnización general es **33 días por año**, máximo **24 mensualidades**, con la salvedad de antigüedad anterior a 12/02/2012.",
       "trampa": "Distinguir plazos e indemnizaciones según la causa de modificación o extinción.",
-      "referencia": "Estatuto de los Trabajadores, artículo 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "Estatuto de los Trabajadores, artículo 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "33 días por año, máximo 24 mensualidades"
     },
     {
       "id": "DIP-T20-019",
@@ -266,7 +284,8 @@
       "correcta": 3,
       "justificacion": "El artículo 53.1.c prevé **15 días** de preaviso, desde comunicación personal hasta extinción.",
       "trampa": "Distinguir plazos e indemnizaciones según la causa de modificación o extinción.",
-      "referencia": "Estatuto de los Trabajadores, artículo 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "Estatuto de los Trabajadores, artículo 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "15 días"
     },
     {
       "id": "DIP-T20-020",
@@ -280,7 +299,12 @@
       "correcta": 0,
       "justificacion": "El artículo 53.2 reconoce **6 horas semanales** de licencia retribuida para buscar empleo.",
       "trampa": "Distinguir plazos e indemnizaciones según la causa de modificación o extinción.",
-      "referencia": "Estatuto de los Trabajadores, artículo 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "Estatuto de los Trabajadores, artículo 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "6 horas semanales"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

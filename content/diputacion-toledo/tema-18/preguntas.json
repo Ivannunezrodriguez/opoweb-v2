@@ -7,28 +7,30 @@
       "pregunta": "¿Cuál es el procedimiento normal de provisión de puestos de trabajo del personal funcionario de carrera?",
       "opciones": [
         "La libre designación",
-        "El concurso",
         "La comisión de servicios",
-        "La adscripción provisional"
+        "La adscripción provisional",
+        "El concurso"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El artículo 67 de la Ley 4/2011 establece que el concurso es el procedimiento normal de provisión de puestos de trabajo del personal funcionario de carrera.",
       "trampa": "La libre designación también es una forma ordinaria de provisión, pero el procedimiento normal es el concurso.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#3-provisión-de-puestos-de-trabajo"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#3-provisión-de-puestos-de-trabajo",
+      "respuestaLiteral": "El concurso"
     },
     {
       "id": "DIP-T18-002",
       "pregunta": "La carrera horizontal consiste en:",
       "opciones": [
         "Ascender a un subgrupo superior",
-        "Progresar de tramo sin cambiar de puesto",
         "Acceder a otro cuerpo del mismo subgrupo",
+        "Progresar de tramo sin cambiar de puesto",
         "Obtener un puesto por libre designación"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La carrera horizontal permite progresar de tramo sin necesidad de cambiar de puesto de trabajo.",
       "trampa": "No debe confundirse con la promoción interna horizontal, que permite acceder a otro cuerpo o escala del mismo subgrupo o grupo.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#1-carrera-profesional"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#1-carrera-profesional",
+      "respuestaLiteral": "Progresar de tramo sin cambiar de puesto"
     },
     {
       "id": "DIP-T18-003",
@@ -42,21 +44,23 @@
       "correcta": 1,
       "justificacion": "La provisión de puestos reservados a personal funcionario de carrera debe respetar los principios de igualdad, mérito, capacidad y publicidad.",
       "trampa": "La antigüedad puede valorarse como mérito, pero no sustituye los principios legales de provisión.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#3-provisión-de-puestos-de-trabajo"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#3-provisión-de-puestos-de-trabajo",
+      "respuestaLiteral": "Igualdad, mérito, capacidad y publicidad"
     },
     {
       "id": "DIP-T18-004",
       "pregunta": "La libre designación:",
       "opciones": [
         "No requiere convocatoria",
-        "Exige convocatoria pública",
         "Solo puede utilizarse para personal laboral",
-        "Es siempre temporal"
+        "Es siempre temporal",
+        "Exige convocatoria pública"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La libre designación exige convocatoria pública, cumplimiento de los requisitos del puesto y resolución por el órgano competente.",
       "trampa": "La expresión libre designación no elimina la publicidad ni los requisitos del procedimiento.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#5-libre-designación"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#5-libre-designación",
+      "respuestaLiteral": "Exige convocatoria pública"
     },
     {
       "id": "DIP-T18-005",
@@ -64,41 +68,44 @@
       "opciones": [
         "Concurso",
         "Carrera horizontal",
-        "Comisión de servicios",
-        "Promoción interna vertical"
+        "Promoción interna vertical",
+        "Comisión de servicios"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La comisión de servicios es una forma temporal de provisión utilizada para cubrir provisionalmente un puesto por necesidades del servicio.",
       "trampa": "La adscripción provisional también carece de carácter definitivo, pero la comisión de servicios es la figura temporal más directa entre las opciones.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#32-otras-formas-de-provisión-y-movilidad"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#32-otras-formas-de-provisión-y-movilidad",
+      "respuestaLiteral": "Comisión de servicios"
     },
     {
       "id": "DIP-T18-006",
       "pregunta": "La evaluación del desempeño puede producir efectos en:",
       "opciones": [
         "Solo el régimen disciplinario",
-        "Carrera, formación, provisión y determinadas retribuciones",
         "Únicamente la antigüedad",
+        "Carrera, formación, provisión y determinadas retribuciones",
         "Solo la jornada"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La evaluación del desempeño puede producir efectos en la carrera horizontal, la formación, la provisión de puestos y determinadas retribuciones complementarias.",
       "trampa": "La evaluación del desempeño no es una sanción disciplinaria.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#2-evaluación-del-desempeño"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#2-evaluación-del-desempeño",
+      "respuestaLiteral": "Carrera, formación, provisión y determinadas retribuciones"
     },
     {
       "id": "DIP-T18-007",
       "pregunta": "¿Cuál de los siguientes es un derecho de ejercicio colectivo?",
       "opciones": [
-        "La formación continua",
         "La negociación colectiva",
+        "La formación continua",
         "La defensa jurídica",
         "La protección de la salud"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La negociación colectiva es un derecho individual ejercido colectivamente por el personal empleado público.",
       "trampa": "La formación continua, la defensa jurídica y la protección de la salud son derechos individuales.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#72-derechos-ejercidos-colectivamente"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#72-derechos-ejercidos-colectivamente",
+      "respuestaLiteral": "La negociación colectiva"
     },
     {
       "id": "DIP-T18-008",
@@ -106,13 +113,14 @@
       "opciones": [
         "Debe obedecerla siempre",
         "Debe obedecerla si es verbal",
-        "No tiene deber de obedecerla",
-        "Solo puede negarse con autorización judicial"
+        "Solo puede negarse con autorización judicial",
+        "No tiene deber de obedecerla"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "El deber de obediencia alcanza las instrucciones y órdenes profesionales legítimas, pero no las manifiestamente contrarias al ordenamiento jurídico.",
       "trampa": "El principio de jerarquía no ampara el cumplimiento de una orden manifiestamente ilegal.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#8-deberes-y-código-de-conducta"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#8-deberes-y-código-de-conducta",
+      "respuestaLiteral": "No tiene deber de obedecerla"
     },
     {
       "id": "DIP-T18-009",
@@ -126,35 +134,38 @@
       "correcta": 1,
       "justificacion": "La situación administrativa específica para el desempeño efectivo de un puesto en otra Administración es la de servicio en otras Administraciones públicas.",
       "trampa": "Los servicios especiales se reservan para cargos y funciones públicas expresamente enumerados por la ley.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#9-situaciones-administrativas"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#9-situaciones-administrativas",
+      "respuestaLiteral": "Servicio en otras Administraciones públicas"
     },
     {
       "id": "DIP-T18-010",
       "pregunta": "La suspensión provisional de funciones tiene naturaleza:",
       "opciones": [
         "Retributiva",
-        "Cautelar",
         "Premial",
+        "Cautelar",
         "Definitiva"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La suspensión provisional es una medida cautelar que puede adoptarse durante la tramitación de un procedimiento penal o disciplinario.",
       "trampa": "La suspensión firme deriva de una sentencia penal o de una sanción disciplinaria, mientras que la provisional es cautelar.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#94-suspensión-de-funciones"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#94-suspensión-de-funciones",
+      "respuestaLiteral": "Cautelar"
     },
     {
       "id": "DIP-T18-011",
       "pregunta": "La movilidad por violencia de género debe garantizar especialmente:",
       "opciones": [
         "La publicidad del nuevo destino",
-        "La intimidad y los datos personales de la víctima",
         "La libre designación del puesto",
+        "La intimidad y los datos personales de la víctima",
         "La pérdida de antigüedad"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La movilidad por violencia de género debe garantizar especialmente la protección de la intimidad y de los datos personales de la víctima.",
       "trampa": "La protección de la víctima exige confidencialidad, no publicidad de su nuevo destino.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#62-movilidad-por-violencia-de-género"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#62-movilidad-por-violencia-de-género",
+      "respuestaLiteral": "La intimidad y los datos personales de la víctima"
     },
     {
       "id": "DIP-T18-012",
@@ -168,21 +179,23 @@
       "correcta": 0,
       "justificacion": "El reingreso al servicio activo puede producirse mediante participación en convocatorias de provisión o mediante adscripción provisional cuando legalmente proceda.",
       "trampa": "La adscripción provisional es una técnica de provisión; las demás opciones son figuras ajenas al reingreso del personal funcionario.",
-      "referencia": "content/diputacion-toledo/tema-18/manual.md#10-reingreso-al-servicio-activo"
+      "referencia": "content/diputacion-toledo/tema-18/manual.md#10-reingreso-al-servicio-activo",
+      "respuestaLiteral": "Adscripción provisional"
     },
     {
       "id": "DIP-T18-013",
       "pregunta": "¿Cuál es el periodo mínimo general en el tramo anterior para ascender a otro tramo de carrera horizontal?",
       "opciones": [
-        "Dos años",
         "Cuatro años",
+        "Dos años",
         "Cinco años",
         "Seis años"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "El artículo 64.4 exige un mínimo de **4 años** en el tramo inmediatamente inferior, salvo excepciones expresas.",
       "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
-      "referencia": "Ley 4/2011, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Cuatro años"
     },
     {
       "id": "DIP-T18-014",
@@ -190,41 +203,44 @@
       "opciones": [
         "De dos a cuatro",
         "Exactamente seis",
-        "Entre tres y cinco",
-        "Hasta diez"
+        "Hasta diez",
+        "Entre tres y cinco"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "El artículo 64.4 contempla **entre 3 y 5 tramos** incluido el inicial.",
       "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
-      "referencia": "Ley 4/2011, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Entre tres y cinco"
     },
     {
       "id": "DIP-T18-015",
       "pregunta": "¿Qué carácter tiene el tramo inicial de carrera horizontal?",
       "opciones": [
         "Retribuido y automático para todos",
+        "No retribuido",
         "Voluntario y retribuido al doble",
-        "Disponible solo por concurso",
-        "No retribuido"
+        "Disponible solo por concurso"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "justificacion": "El tramo inicial **no es retribuido** conforme al art. 64.4.",
       "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
-      "referencia": "Ley 4/2011, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "No retribuido"
     },
     {
       "id": "DIP-T18-016",
       "pregunta": "¿Qué condición previa requiere la implantación de carrera horizontal?",
       "opciones": [
-        "La aprobación de sistemas objetivos de evaluación del desempeño",
         "Un referéndum entre todo el personal",
         "Una autorización del Tribunal Supremo",
+        "La aprobación de sistemas objetivos de evaluación del desempeño",
         "La elección de un nuevo Pleno"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "El art. 64.2 exige sistemas **objetivos de evaluación del desempeño** previamente aprobados.",
       "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
-      "referencia": "Ley 4/2011, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "La aprobación de sistemas objetivos de evaluación del desempeño"
     },
     {
       "id": "DIP-T18-017",
@@ -238,35 +254,38 @@
       "correcta": 1,
       "justificacion": "El **concurso** es el procedimiento normal, junto a la libre designación con convocatoria pública como forma ordinaria.",
       "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
-      "referencia": "Ley 4/2011, art. 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, art. 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "El concurso"
     },
     {
       "id": "DIP-T18-018",
       "pregunta": "¿Qué requiere la remoción por rendimiento insuficiente de un puesto obtenido por concurso?",
       "opciones": [
+        "Audiencia previa de la persona interesada y resolución motivada",
         "Únicamente un correo de la jefatura",
         "Una orden verbal",
-        "Audiencia previa de la persona interesada y resolución motivada",
         "Acuerdo sindical unánime"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La remoción por evaluación de rendimiento insuficiente exige **audiencia previa y resolución motivada**.",
       "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
-      "referencia": "Ley 4/2011, art. 69 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, art. 69 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Audiencia previa de la persona interesada y resolución motivada"
     },
     {
       "id": "DIP-T18-019",
       "pregunta": "Si una redistribución de efectivos implica cambiar de provincia, ¿qué se requiere?",
       "opciones": [
         "Que el empleado tenga un año de antigüedad",
+        "La conformidad del funcionario titular",
         "Que la nueva provincia sea limítrofe",
-        "Que lo autorice una mesa electoral",
-        "La conformidad del funcionario titular"
+        "Que lo autorice una mesa electoral"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "justificacion": "El artículo 73.4 exige la **conformidad** del titular si se cambia de provincia.",
       "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
-      "referencia": "Ley 4/2011, art. 73 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, art. 73 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "La conformidad del funcionario titular"
     },
     {
       "id": "DIP-T18-020",
@@ -280,7 +299,12 @@
       "correcta": 0,
       "justificacion": "El artículo 113 enumera **expectativa de destino** entre las situaciones administrativas.",
       "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
-      "referencia": "Ley 4/2011, art. 113 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, art. 113 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "La expectativa de destino"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

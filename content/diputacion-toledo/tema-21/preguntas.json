@@ -7,56 +7,60 @@
       "pregunta": "Con carácter general, el contrato de trabajo se presume concertado:",
       "opciones": [
         "Por tiempo determinado",
-        "Por tiempo indefinido",
         "A jornada parcial",
+        "Por tiempo indefinido",
         "En prácticas"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El artículo 15 del Estatuto de los Trabajadores establece que el contrato de trabajo se presume concertado por tiempo indefinido.",
       "trampa": "La contratación temporal exige una causa legal concreta y suficientemente precisada; no constituye la regla general.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#1-modalidades-del-contrato-de-trabajo"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#1-modalidades-del-contrato-de-trabajo",
+      "respuestaLiteral": "Por tiempo indefinido"
     },
     {
       "id": "DIP-T21-002",
       "pregunta": "El contrato fijo-discontinuo tiene naturaleza:",
       "opciones": [
-        "Temporal",
         "Indefinida",
+        "Temporal",
         "Administrativa",
         "Mercantil"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "El contrato fijo-discontinuo es un contrato indefinido cuya prestación se desarrolla de forma discontinua o intermitente.",
       "trampa": "La discontinuidad de la prestación no convierte el vínculo en temporal.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#11-contrato-indefinido-y-fijo-discontinuo"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#11-contrato-indefinido-y-fijo-discontinuo",
+      "respuestaLiteral": "Indefinida"
     },
     {
       "id": "DIP-T21-003",
       "pregunta": "La duración máxima general del contrato por circunstancias de la producción imprevisibles es de:",
       "opciones": [
-        "3 meses",
         "6 meses",
+        "3 meses",
         "9 meses",
         "2 años"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La duración máxima general es de 6 meses, ampliable por convenio colectivo sectorial hasta 1 año.",
       "trampa": "El año no es la duración legal general, sino el máximo que puede establecer un convenio colectivo sectorial.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#12-contrato-temporal-por-circunstancias-de-la-producción"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#12-contrato-temporal-por-circunstancias-de-la-producción",
+      "respuestaLiteral": "6 meses"
     },
     {
       "id": "DIP-T21-004",
       "pregunta": "Para situaciones ocasionales previsibles, la empresa puede utilizar contratos por circunstancias de la producción durante un máximo general de:",
       "opciones": [
+        "90 días en el año natural",
         "30 días continuados",
         "60 días por persona",
-        "90 días en el año natural",
         "180 días por centro"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El límite general es de 90 días en el año natural y se refiere al conjunto de la empresa.",
       "trampa": "Los 90 días no corresponden a cada persona trabajadora y, con carácter general, no pueden utilizarse de forma continuada.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#12-contrato-temporal-por-circunstancias-de-la-producción"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#12-contrato-temporal-por-circunstancias-de-la-producción",
+      "respuestaLiteral": "90 días en el año natural"
     },
     {
       "id": "DIP-T21-005",
@@ -70,7 +74,8 @@
       "correcta": 1,
       "justificacion": "Su duración máxima general es de 3 meses, salvo que el convenio colectivo establezca un plazo inferior.",
       "trampa": "Una vez agotado ese máximo no puede celebrarse un nuevo contrato con el mismo objeto.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#13-contrato-temporal-de-sustitución"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#13-contrato-temporal-de-sustitución",
+      "respuestaLiteral": "3 meses"
     },
     {
       "id": "DIP-T21-006",
@@ -84,77 +89,83 @@
       "correcta": 1,
       "justificacion": "La duración legal general del contrato de formación en alternancia está comprendida entre 3 meses y 2 años.",
       "trampa": "El contrato formativo para la práctica profesional tiene otra duración: entre 6 meses y 1 año.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#14-contratos-formativos"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#14-contratos-formativos",
+      "respuestaLiteral": "3 meses y 2 años"
     },
     {
       "id": "DIP-T21-007",
       "pregunta": "La afiliación a la Seguridad Social es:",
       "opciones": [
         "Opcional y anual",
-        "Única y vitalicia",
         "Renovable por cada empresa",
-        "Exclusiva del Régimen General"
+        "Exclusiva del Régimen General",
+        "Única y vitalicia"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La afiliación es obligatoria, única para todo el sistema y vitalicia, sin perjuicio de las sucesivas altas y bajas.",
       "trampa": "Las altas y bajas pueden repetirse; la afiliación se produce una sola vez.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#21-afiliación"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#21-afiliación",
+      "respuestaLiteral": "Única y vitalicia"
     },
     {
       "id": "DIP-T21-008",
       "pregunta": "El órgano competente para la afiliación, altas y bajas en la Seguridad Social es:",
       "opciones": [
         "El INSS",
-        "El SEPE",
         "La Tesorería General de la Seguridad Social",
+        "El SEPE",
         "La Inspección de Trabajo"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La competencia para la afiliación, las altas y las bajas corresponde a la Tesorería General de la Seguridad Social.",
       "trampa": "El INSS gestiona prestaciones, pero no la afiliación ni las altas y bajas.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#21-afiliación"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#21-afiliación",
+      "respuestaLiteral": "La Tesorería General de la Seguridad Social"
     },
     {
       "id": "DIP-T21-009",
       "pregunta": "La solicitud ordinaria de alta debe formularse:",
       "opciones": [
-        "Dentro de los 3 días posteriores",
         "Antes del inicio de la prestación de servicios",
+        "Dentro de los 3 días posteriores",
         "Al finalizar el periodo de prueba",
         "Dentro del mes siguiente"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La solicitud de alta debe presentarse antes del inicio de la prestación de servicios.",
       "trampa": "El plazo de 3 días naturales corresponde, con carácter general, a la baja y a la variación de datos.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#22-altas-y-bajas"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#22-altas-y-bajas",
+      "respuestaLiteral": "Antes del inicio de la prestación de servicios"
     },
     {
       "id": "DIP-T21-010",
       "pregunta": "La baja y la variación de datos deben comunicarse, con carácter general, dentro de:",
       "opciones": [
         "24 horas",
-        "3 días naturales",
         "5 días hábiles",
+        "3 días naturales",
         "10 días naturales"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La baja y la variación de datos deben comunicarse, con carácter general, dentro de los 3 días naturales siguientes.",
       "trampa": "El plazo se expresa en días naturales, no hábiles.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#22-altas-y-bajas"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#22-altas-y-bajas",
+      "respuestaLiteral": "3 días naturales"
     },
     {
       "id": "DIP-T21-011",
       "pregunta": "¿Quién es responsable del ingreso de la aportación empresarial y de la cuota obrera descontada?",
       "opciones": [
         "La persona trabajadora",
-        "La empresa",
         "El INSS",
+        "La empresa",
         "La mutua"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La empresa es responsable de ingresar ante la Tesorería General de la Seguridad Social tanto su aportación como la cuota obrera descontada.",
       "trampa": "La persona trabajadora soporta parte de la cuota, pero no es responsable de su ingreso ante la Tesorería.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#31-sujetos-obligados-y-responsable-del-ingreso"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#31-sujetos-obligados-y-responsable-del-ingreso",
+      "respuestaLiteral": "La empresa"
     },
     {
       "id": "DIP-T21-012",
@@ -162,27 +173,29 @@
       "opciones": [
         "1 año",
         "2 años",
-        "4 años",
-        "5 años"
+        "5 años",
+        "4 años"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La obligación de pago de cuotas de la Seguridad Social prescribe, con carácter general, a los 4 años.",
       "trampa": "No debe confundirse este plazo con otros plazos tributarios o laborales.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#43-vía-ejecutiva-y-prescripción"
+      "referencia": "content/diputacion-toledo/tema-21/manual.md#43-vía-ejecutiva-y-prescripción",
+      "respuestaLiteral": "4 años"
     },
     {
       "id": "DIP-T21-013",
       "pregunta": "¿Qué naturaleza tiene el contrato fijo-discontinuo?",
       "opciones": [
         "Temporal por circunstancias previsibles",
-        "Indefinida, con periodos de actividad intermitentes",
         "Formativa y necesariamente de corta duración",
+        "Indefinida, con periodos de actividad intermitentes",
         "De sustitución"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El fijo-discontinuo es **indefinido** pese a los periodos de inactividad.",
       "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "ET art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "ET art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "Indefinida, con periodos de actividad intermitentes"
     },
     {
       "id": "DIP-T21-014",
@@ -190,41 +203,44 @@
       "opciones": [
         "Seis meses",
         "Un año",
-        "Tres meses",
-        "Quince días"
+        "Quince días",
+        "Tres meses"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "El contrato de sustitución para cubrir la vacante durante proceso de selección tiene máximo general de **3 meses**, salvo plazo inferior por convenio.",
       "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "ET art. 15.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "ET art. 15.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "Tres meses"
     },
     {
       "id": "DIP-T21-015",
       "pregunta": "¿Cuál es el límite general para contratar por circunstancias ocasionales previsibles de producción?",
       "opciones": [
+        "90 días en el año natural, no utilizables de manera continuada",
         "120 días continuados",
         "60 días por persona",
-        "Seis meses consecutivos",
-        "90 días en el año natural, no utilizables de manera continuada"
+        "Seis meses consecutivos"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "justificacion": "El límite general es **90 días** en el año natural, no utilizables de manera continuada; existen especialidades sectoriales.",
       "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "ET art. 15.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+      "referencia": "ET art. 15.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+      "respuestaLiteral": "90 días en el año natural, no utilizables de manera continuada"
     },
     {
       "id": "DIP-T21-016",
       "pregunta": "¿Qué carácter tiene la afiliación de una persona a la Seguridad Social?",
       "opciones": [
-        "Único y general para todos los regímenes, además de vitalicio",
         "Distinto para cada empresa",
         "Renovable mensualmente",
-        "Limitado a cada contrato"
+        "Limitado a cada contrato",
+        "Único y general para todos los regímenes, además de vitalicio"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "La afiliación es **única, general y vitalicia**.",
       "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "LGSS art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+      "referencia": "LGSS art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "respuestaLiteral": "Único y general para todos los regímenes, además de vitalicio"
     },
     {
       "id": "DIP-T21-017",
@@ -238,7 +254,8 @@
       "correcta": 1,
       "justificacion": "La competencia corresponde a la **TGSS**.",
       "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "LGSS art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+      "referencia": "LGSS art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "respuestaLiteral": "Tesorería General de la Seguridad Social"
     },
     {
       "id": "DIP-T21-018",
@@ -246,13 +263,14 @@
       "opciones": [
         "Dentro de los tres días posteriores",
         "Al cierre del primer mes",
-        "Antes del inicio de la prestación de servicios",
-        "Dentro de los treinta días siguientes"
+        "Dentro de los treinta días siguientes",
+        "Antes del inicio de la prestación de servicios"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "Las solicitudes de alta deben formularse **antes del comienzo de la prestación de servicios**, con las condiciones reglamentarias.",
       "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "RD 84/1996 art. 32.3.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447"
+      "referencia": "RD 84/1996 art. 32.3.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447",
+      "respuestaLiteral": "Antes del inicio de la prestación de servicios"
     },
     {
       "id": "DIP-T21-019",
@@ -260,27 +278,33 @@
       "opciones": [
         "Diez días naturales",
         "Un mes",
-        "Quince días hábiles",
-        "Seis días naturales"
+        "Seis días naturales",
+        "Quince días hábiles"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "justificacion": "El artículo 32.3.2.º del RD 84/1996, en la versión consolidada publicada el 30/07/2026, fija **6 días naturales** desde el cese o variación, con las excepciones reglamentarias.",
       "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "RD 84/1996, art. 32.3.2.º · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447"
+      "referencia": "RD 84/1996, art. 32.3.2.º · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447",
+      "respuestaLiteral": "Seis días naturales"
     },
     {
       "id": "DIP-T21-020",
       "pregunta": "¿Cuál es el plazo general de prescripción para exigir el pago de cuotas de Seguridad Social?",
       "opciones": [
-        "Cuatro años",
         "Cinco años",
+        "Cuatro años",
         "Seis años",
         "Un año"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "El plazo general de prescripción es de **4 años**.",
       "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "LGSS art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724"
+      "referencia": "LGSS art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
+      "respuestaLiteral": "Cuatro años"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

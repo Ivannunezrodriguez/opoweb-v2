@@ -6,57 +6,61 @@
       "id": "DIP-T19-001",
       "pregunta": "¿Cómo se clasifican las faltas disciplinarias en la Ley 4/2011?",
       "opciones": [
-        "Muy graves, graves y leves",
         "Gravísimas, graves y leves",
         "Muy graves y leves",
+        "Muy graves, graves y leves",
         "Mayores y menores"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "El artículo 133 de la Ley 4/2011 clasifica las faltas disciplinarias en muy graves, graves y leves.",
       "trampa": "La ley no utiliza la categoría gravísima.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#3-clases-de-faltas"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#3-clases-de-faltas",
+      "respuestaLiteral": "Muy graves, graves y leves"
     },
     {
       "id": "DIP-T19-002",
       "pregunta": "¿Qué triple identidad exige el principio non bis in idem?",
       "opciones": [
-        "Sujeto, hecho y fundamento",
         "Órgano, procedimiento y sanción",
         "Autor, resultado y culpa",
-        "Tiempo, lugar y modo"
+        "Tiempo, lugar y modo",
+        "Sujeto, hecho y fundamento"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "No cabe una doble sanción penal o administrativa cuando coinciden sujeto, hecho y fundamento.",
       "trampa": "No basta con que coincidan únicamente el sujeto y el hecho; también debe existir identidad de fundamento.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#24-concurrencia-de-sanciones"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#24-concurrencia-de-sanciones",
+      "respuestaLiteral": "Sujeto, hecho y fundamento"
     },
     {
       "id": "DIP-T19-003",
       "pregunta": "¿Cuándo prescribe una falta muy grave?",
       "opciones": [
-        "A los 3 años",
         "A los 2 años",
+        "A los 3 años",
         "Al año",
         "A los 6 meses"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "Las faltas muy graves prescriben a los 3 años.",
       "trampa": "No debe confundirse con el plazo de 2 años aplicable a las faltas graves.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#71-prescripción-de-las-faltas"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#71-prescripción-de-las-faltas",
+      "respuestaLiteral": "A los 3 años"
     },
     {
       "id": "DIP-T19-004",
       "pregunta": "¿Cuándo prescribe una falta leve?",
       "opciones": [
-        "A los 6 meses",
         "Al año",
         "A los 2 años",
+        "A los 6 meses",
         "A los 3 meses"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "Las faltas leves prescriben a los 6 meses.",
       "trampa": "La sanción impuesta por una falta leve prescribe al año, pero la propia falta prescribe a los 6 meses.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#71-prescripción-de-las-faltas"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#71-prescripción-de-las-faltas",
+      "respuestaLiteral": "A los 6 meses"
     },
     {
       "id": "DIP-T19-005",
@@ -70,21 +74,23 @@
       "correcta": 0,
       "justificacion": "Las sanciones impuestas por faltas leves prescriben al año desde la firmeza en vía administrativa de la resolución sancionadora.",
       "trampa": "No debe confundirse el plazo de prescripción de la sanción con el de la propia falta leve.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#72-prescripción-de-las-sanciones"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#72-prescripción-de-las-sanciones",
+      "respuestaLiteral": "Al año"
     },
     {
       "id": "DIP-T19-006",
       "pregunta": "¿Qué sucede si el expediente disciplinario permanece paralizado más de un mes por causa no imputable a la persona investigada?",
       "opciones": [
-        "Se reanuda el plazo de prescripción",
         "Se archiva automáticamente",
+        "Se reanuda el plazo de prescripción",
         "La falta se convierte en leve",
         "La sanción queda anulada"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "La prescripción, interrumpida por la iniciación del procedimiento conocida por la persona interesada, se reanuda si el expediente permanece paralizado durante más de un mes por causa no imputable a la persona presuntamente responsable.",
       "trampa": "La paralización no produce el archivo automático del expediente.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#71-prescripción-de-las-faltas"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#71-prescripción-de-las-faltas",
+      "respuestaLiteral": "Se reanuda el plazo de prescripción"
     },
     {
       "id": "DIP-T19-007",
@@ -98,7 +104,8 @@
       "correcta": 0,
       "justificacion": "La anotación de una sanción por falta grave puede cancelarse a los 2 años desde su cumplimiento, siempre que no se haya impuesto una nueva sanción.",
       "trampa": "Los plazos ordinarios de cancelación son 1 año para leves, 2 años para graves y 3 años para muy graves.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#8-cancelación-de-anotaciones"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#8-cancelación-de-anotaciones",
+      "respuestaLiteral": "2 años"
     },
     {
       "id": "DIP-T19-008",
@@ -112,49 +119,53 @@
       "correcta": 0,
       "justificacion": "La anotación de la sanción de separación del servicio no es cancelable.",
       "trampa": "La separación del servicio constituye la excepción a la regla general de cancelación de anotaciones disciplinarias.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#8-cancelación-de-anotaciones"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#8-cancelación-de-anotaciones",
+      "respuestaLiteral": "No"
     },
     {
       "id": "DIP-T19-009",
       "pregunta": "¿Cuál es la duración máxima del procedimiento disciplinario por falta grave o muy grave?",
       "opciones": [
-        "12 meses",
         "6 meses",
+        "12 meses",
         "18 meses",
         "24 meses"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "La Ley 4/2011 fija una duración máxima de 12 meses para los procedimientos disciplinarios por faltas graves o muy graves.",
       "trampa": "No debe aplicarse automáticamente el plazo general de 6 meses previsto para otros procedimientos administrativos.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#9-procedimiento-disciplinario"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#9-procedimiento-disciplinario",
+      "respuestaLiteral": "12 meses"
     },
     {
       "id": "DIP-T19-010",
       "pregunta": "¿Qué sanción solo puede imponerse por falta muy grave?",
       "opciones": [
-        "Separación del servicio",
         "Apercibimiento",
         "Demérito",
-        "Traslado provisional"
+        "Traslado provisional",
+        "Separación del servicio"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "La separación del servicio del personal funcionario de carrera solo puede imponerse por la comisión de una falta muy grave.",
       "trampa": "El apercibimiento es una sanción de menor intensidad y no se reserva a las faltas muy graves.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#4-sanciones-disciplinarias"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#4-sanciones-disciplinarias",
+      "respuestaLiteral": "Separación del servicio"
     },
     {
       "id": "DIP-T19-011",
       "pregunta": "¿Pueden aplicarse por analogía las normas que definen faltas disciplinarias?",
       "opciones": [
-        "No",
         "Sí, siempre",
         "Solo para faltas leves",
-        "Solo con autorización judicial"
+        "Solo con autorización judicial",
+        "No"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "El principio de legalidad y tipicidad impide aplicar por analogía las normas que definen faltas y sanciones disciplinarias.",
       "trampa": "La analogía no puede utilizarse para ampliar las conductas sancionables.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#21-legalidad-y-tipicidad"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#21-legalidad-y-tipicidad",
+      "respuestaLiteral": "No"
     },
     {
       "id": "DIP-T19-012",
@@ -168,7 +179,8 @@
       "correcta": 0,
       "justificacion": "Los hechos declarados probados por una resolución judicial penal firme vinculan a la Administración en el procedimiento disciplinario.",
       "trampa": "La vinculación afecta a los hechos probados, pero no obliga necesariamente a imponer una sanción disciplinaria idéntica a la penal.",
-      "referencia": "content/diputacion-toledo/tema-19/manual.md#92-vinculación-con-el-proceso-penal"
+      "referencia": "content/diputacion-toledo/tema-19/manual.md#92-vinculación-con-el-proceso-penal",
+      "respuestaLiteral": "Vinculan a la Administración en el procedimiento disciplinario"
     },
     {
       "id": "DIP-T19-013",
@@ -182,7 +194,8 @@
       "correcta": 1,
       "justificacion": "El cómputo de la falta continuada empieza **desde el cese de su comisión**.",
       "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
-      "referencia": "Ley 4/2011, artículo 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, artículo 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Desde el cese de su comisión"
     },
     {
       "id": "DIP-T19-014",
@@ -190,69 +203,74 @@
       "opciones": [
         "En la fecha de la denuncia",
         "En el día de la infracción",
-        "Desde la firmeza administrativa de la resolución sancionadora",
-        "Desde la incoación del expediente"
+        "Desde la incoación del expediente",
+        "Desde la firmeza administrativa de la resolución sancionadora"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La prescripción de la sanción se cuenta desde la **firmeza en vía administrativa** de la resolución.",
       "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
-      "referencia": "Ley 4/2011, artículo 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, artículo 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Desde la firmeza administrativa de la resolución sancionadora"
     },
     {
       "id": "DIP-T19-015",
       "pregunta": "¿Qué plazo tiene una sanción por falta grave para su cancelación ordinaria, desde el cumplimiento y sin nueva sanción?",
       "opciones": [
         "Seis meses",
+        "Dos años",
         "Un año",
-        "Tres años",
-        "Dos años"
+        "Tres años"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "justificacion": "La anotación de sanción por falta grave puede cancelarse tras **2 años** desde el cumplimiento, sin nueva sanción durante el periodo.",
       "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
-      "referencia": "Ley 4/2011, artículo 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, artículo 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Dos años"
     },
     {
       "id": "DIP-T19-016",
       "pregunta": "¿Qué efecto tiene la reincidencia durante el plazo ordinario de cancelación?",
       "opciones": [
-        "Se duplica el plazo de cancelación",
         "Se anula la primera sanción",
         "Se cancela inmediatamente la anotación",
+        "Se duplica el plazo de cancelación",
         "Se impone separación obligatoria"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "En reiteración o reincidencia los plazos de cancelación pasan al **doble**.",
       "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
-      "referencia": "Ley 4/2011, artículo 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, artículo 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Se duplica el plazo de cancelación"
     },
     {
       "id": "DIP-T19-017",
       "pregunta": "¿Qué separación organizativa requiere el procedimiento disciplinario?",
       "opciones": [
         "Que todo lo tramite la misma persona",
-        "Que instrucción y sanción correspondan a órganos diferentes",
         "Que resuelva el sindicato",
-        "Que el tribunal penal instruya siempre"
+        "Que el tribunal penal instruya siempre",
+        "Que instrucción y sanción correspondan a órganos diferentes"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La **fase instructora** y la **sancionadora** se encomiendan a **órganos distintos**.",
       "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
-      "referencia": "Ley 4/2011, artículo 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, artículo 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Que instrucción y sanción correspondan a órganos diferentes"
     },
     {
       "id": "DIP-T19-018",
       "pregunta": "¿Cuándo son ejecutivas las resoluciones de procedimientos disciplinarios?",
       "opciones": [
+        "Cuando sean firmes en vía administrativa",
         "Al emitirse una propuesta",
         "Desde su incoación",
-        "Cuando sean firmes en vía administrativa",
         "Solo tras sentencia penal"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "Son ejecutivas cuando alcanzan **firmeza en vía administrativa**.",
       "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
-      "referencia": "Ley 4/2011, artículo 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, artículo 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Cuando sean firmes en vía administrativa"
     },
     {
       "id": "DIP-T19-019",
@@ -260,27 +278,33 @@
       "opciones": [
         "Un mes",
         "Tres meses",
-        "Doce meses",
-        "Seis meses"
+        "Seis meses",
+        "Doce meses"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "justificacion": "La suspensión provisional **no puede exceder de 6 meses**, salvo paralización imputable al interesado y otros supuestos judiciales legalmente previstos.",
       "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
-      "referencia": "Ley 4/2011, artículo 144 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, artículo 144 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "Seis meses"
     },
     {
       "id": "DIP-T19-020",
       "pregunta": "¿Qué sucede con la anotación de una sanción de separación del servicio?",
       "opciones": [
-        "No se cancela",
         "Se cancela a los 3 años",
         "Se cancela al año",
+        "No se cancela",
         "Se cancela automáticamente al jubilarse"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "La anotación por **separación del servicio no será objeto de cancelación**.",
       "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
-      "referencia": "Ley 4/2011, artículo 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+      "referencia": "Ley 4/2011, artículo 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "respuestaLiteral": "No se cancela"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }
