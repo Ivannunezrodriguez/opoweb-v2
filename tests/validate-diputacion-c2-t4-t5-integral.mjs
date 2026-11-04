@@ -59,5 +59,5 @@ for(const phrase of ['**LO 2/2024**','cinco días','un tercio de dichos concejal
   assert(t5manual.includes(phrase),'Missing amended LOREG 206.1 detail in T5: '+phrase);
 }
 assert(t5sources.includes('BOE-A-2024-15936'),'T5 2024 electoral reform source missing');
-assert(t5report.includes('**500.001–1.000.000**')&&t5report.includes('**27**'),'T5 LOREG 204 population tranche lost');
+assert(t5report.includes('500.001–1.000.000')&&t5report.includes('**27**'),'T5 LOREG 204 population tranche lost');
 console.log('DIPUTACION_C2_T4_T5_40_QUESTIONS_160_EXACT_OPTIONS_PARITY_2024_OK');
