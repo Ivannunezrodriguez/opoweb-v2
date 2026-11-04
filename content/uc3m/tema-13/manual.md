@@ -54,7 +54,7 @@ La Conferencia General de Política Universitaria es el órgano de concertación
 
 ## 6. Creación y reconocimiento de universidades
 
-Las universidades públicas se crean por ley de la comunidad autónoma correspondiente o, en el ámbito de sus competencias, por ley estatal. Las universidades privadas son reconocidas por ley de la comunidad autónoma.
+**LOSU, artículo 4.1:** tanto la creación de universidades públicas como el reconocimiento de universidades privadas se realizan **por ley autonómica**, previo **informe preceptivo de la Conferencia General de Política Universitaria**. **Excepción:** para universidades de especiales características, pueden realizarse **por ley de las Cortes Generales**, a propuesta del Gobierno y de acuerdo con el Consejo de Gobierno autonómico, también previo informe preceptivo de dicha Conferencia. La excepción estatal **no se limita a universidades públicas**. La **autorización de inicio de actividades** corresponde al órgano autonómico competente una vez verificados los requisitos (**art. 4.2**) y no sustituye a la ley de creación o reconocimiento.
 
 La creación o reconocimiento exige el cumplimiento de requisitos básicos relativos, entre otros aspectos, a:
 
