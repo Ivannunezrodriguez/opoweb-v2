@@ -43,6 +43,8 @@ jobs:
         run: node tests/validate-la-puebla-t07-integral.mjs
       - name: Verificar las 48 alternativas con fundamento jurídico del Tema 13 La Puebla
         run: node tests/validate-la-puebla-t13-integral.mjs
+      - name: Validar las 240 opciones de Windows, Office y periféricos de La Puebla
+        run: node tests/validate-la-puebla-t15-t19-integral.mjs
       - name: Validar distribución de 228 respuestas de La Puebla
         run: node tests/validate-la-puebla-answer-distribution.mjs
       - name: Validar cifras y plazos normativos focales de La Puebla
