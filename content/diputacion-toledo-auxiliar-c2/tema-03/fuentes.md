@@ -22,3 +22,9 @@
 **Cierre editorial: 29/10/2026.** Manual completo por artículos, cuadros de plazos y especialidades sancionadora y de responsabilidad patrimonial; **20 preguntas** de cuatro alternativas con referencia normativa. **Prueba visual/funcional del portal:** no efectuada.
 
 > ⚠️ **¡Foco Examen!:** Subsanación **10 días**; audiencia **10–15 días**; información pública **mínimo 20 días**; tramitación simplificada **30 días**, con excepciones legales.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Revisión de las 20 preguntas y 80 alternativas A–D**](cotejo-integral-2026-11-04.md), con fundamentos legales, descarte por distractor y trampa examinable. Las claves se conservan; **no** se ha certificado todo el manual, la navegación móvil o de escritorio ni la accesibilidad.
+
+> ⚠️ **¡Foco Examen!:** Ley **39/2015**, **audiencia 10–15 días** (**art. 82**), **prueba 10–30 días** (**art. 77**), **información pública mínimo 20 días** (**art. 83**) y **procedimiento simplificado 30 días** (**art. 96.6**).
