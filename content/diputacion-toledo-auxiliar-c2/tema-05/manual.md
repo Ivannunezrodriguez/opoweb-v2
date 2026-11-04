@@ -92,7 +92,7 @@ El funcionamiento de los órganos colegiados locales se regula principalmente en
 - Las convocatorias del Pleno deben cursarse con la antelación legalmente establecida, excepto en supuestos de urgencia.
 - El sistema de votación, quórum, mayorías y actas depende del precepto y tipo de acuerdo.
 
-**Control pendiente:** incorporar una tabla íntegra de **periodicidades, convocatoria, quórum y mayorías** solo después de cotejar la redacción actual de los artículos **46 y 47 LRBRL** y el **ROF**, para no trasladar datos de versiones anteriores.
+**Control actualizado (04/11/2026):** la tabla de **periodicidades, convocatoria, quórum y mayorías** está desarrollada en el apartado **11** de este manual con referencia a los artículos **46–47 LRBRL** y al **ROF**. La revisión del banco se documenta en el [**cotejo de 80 alternativas**](cotejo-integral-2026-11-04.md). Quedan pendientes la prueba real de navegador, accesibilidad y certificación íntegra del manual.
 
 > ⚠️ **¡Foco Examen!:** No es igual una sesión **ordinaria**, una **extraordinaria** o una **extraordinaria urgente**. Las excepciones de convocatoria y ratificación de urgencia no se generalizan.
 
@@ -319,3 +319,11 @@ El **artículo 8** atribuye a **Secretaría General** funciones de fe pública: 
 > ⚠️ **¡Foco Examen!:** No confundir **órganos de gobierno** de la **LRBRL** (**Pleno, Presidencia, Vicepresidencias y Junta de Gobierno**) con **áreas y servicios administrativos** del reglamento provincial. El **reglamento de 2024** debe distinguirse de organigramas coyunturales aprobados para una legislatura.
 
 **Trazabilidad:** [Reglamento 2024 en BOP](https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf) y [estructura pública de la legislatura 2023–2027](https://www.diputoledo.es/prensa/nAmpliada/4484). El segundo documento describe el organigrama político de la legislatura y no sustituye al primero.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Análisis completo de 20 preguntas y 80 alternativas exactas**](cotejo-integral-2026-11-04.md), con referencia legislativa y descarte de cada opción incorrecta. Este control alcanza el **banco de preguntas**, no certifica la totalidad del manual, la navegación real, la accesibilidad ni la aprobación del usuario.
+
+**Refuerzo jurídico específico:** se añadió al apartado **8.3** el texto **2024–2026 del artículo 206.1 LOREG**, tras comprobar que faltaban los requisitos de **avales de un tercio**, **tres suplentes** y **listas equilibradas 40 %–60 % con alternancia**.
+
+> ⚠️ **¡Foco Examen!:** **27 diputados** para provincias de **500.001–1.000.000 residentes**; Presidencia provincial, **mayoría absoluta** en primera votación y **simple** en segunda; selección indirecta de diputados por **concejales** y no por voto provincial directo.
