@@ -861,3 +861,50 @@ Se cotejaron adicionalmente **claves de UC3M T15** sobre Defensor y reforma esta
 **Siguiente tarea operativa:** auditoría **norma-inciso-pregunta-distractor** de restantes **17 temas La Puebla** antes del **14/11/2026**, UC3M T15–16 y revisión primaria de su fecha de corte antes del **21/11/2026**; después Diputación C2/C1 y Olías, sin abandonar mantenimiento del Radar. Mantener al **final** el T6 OAPGT C2. **No** reabrir Carranque/Las Ventas. En cada intervención leer el **último apartado** de este archivo, no un marcador numérico fijado en un prompt antiguo.
 
 > ⚠️ **¡Foco Examen!:** **Riesgo laboral:** probabilidad **y** severidad valoradas conjuntamente, no suma legal; **servicio propio >500 trabajadores** o **250–500 con anexo I**; **IAE INCN <1.000.000 €** de forma estricta. **1.291 claves reordenadas ≠ 1.291 claves auditadas jurídicamente**.
+
+## 36. PRL cruzada y matrices C2 — **04/11/2026**
+
+### 36.1. Un mismo error de definición jurídica aparecía en dos convocatorias
+
+Se detectó la afirmación incorrecta **«gravedad = probabilidad + severidad»** también en **Diputación Auxiliar C2 T8**, además de **La Puebla T7** (§35). El **art. 4.2 de la [LPRL consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a4)** establece la **valoración conjunta** de ambos factores, **sin** fórmula legal de suma. Se sustituyó la definición y añadió tabla literal/FOCO EXAMEN en `content/diputacion-toledo-auxiliar-c2/tema-08/manual.md`, ampliando `fuentes.md`. Commit **`1e9da25b`**; control cruzado de ambos manuales incorporado a `tests/validate-la-puebla-normativa-focal.mjs` en **`f072d078`**. Este caso justifica la auditoría por **normas compartidas**, no solo por carpetas de convocatoria.
+
+### 36.2. Redundancia de preguntas reales corregida en C2 y C1
+
+**Diputación Auxiliar C2 T8 (20 preguntas):** había redundancias sobre composición del Comité y escala de delegados. Se preservaron IDs, estructura de cuatro opciones y respuestas únicas, pero se sustituyeron:
+
+- **DT-C2-T08-011**: reglas **31–49 trabajadores → un Delegado de Prevención elegido por y entre Delegados de Personal**, **Ley 31/1995, art. 35.2**.
+- **DT-C2-T08-014**: informe de los Delegados de Prevención **15 días**, excepción de **tiempo imprescindible** para riesgos inminentes, **art. 36.3**.
+
+**Diputación Administrativo C1 T23 (20 preguntas):** cinco preguntas duplicaban enunciados o reglas ya evaluadas en el mismo banco (reunión trimestral del Comité, interrupción por riesgo grave, **24 horas** de confirmación de paralización, vigilancia voluntaria, Comité desde **50**). Conservando IDs y los índices de respuesta para no romper simulacros, sustituidas **DIP-T23-015**, **-017**, **-018**, **-019** y **-020** por comprobaciones originales de:
+
+1. **LPRL 36.3:** informe de **15 días** y riesgo inminente.
+2. **LPRL 20:** **primeros auxilios, lucha contra incendios y evacuación**.
+3. **LPRL 29.2.3.º:** no inutilizar dispositivos de seguridad.
+4. **LPRL 31.2:** definición de servicio de prevención.
+5. **RD 39/1997 art. 14:** servicio propio **más de 500 empleados** con independencia de actividad y supuesto **250–500 con actividades de anexo I**.
+
+**Importante error real de integración detectado y reparado durante el cambio:** en C1 el motor de preguntas utiliza la propiedad `pregunta`, no `enunciado`. Una edición inicial había guardado ambas, dando lugar a que el portal mostrase la pregunta antigua con la respuesta nueva. Se corrigió inmediatamente: se escriben `pregunta` y `trampa`, se suprimen `enunciado` y `trampaExamen` solo de esas cinco, y un test exige el texto realmente renderizado. **No** confundir la primera operación defectuosa (commit `34b0dc85`) con el estado corregido `6449a2d0`.
+
+**Commits:** C2 `840265af` y validación/fuentes `fd6fe1c0`; C1 sustitución `34b0dc85`, reparación de esquema `6449a2d0`, trazabilidad y test `345704ca`. Hubo **un fallo CI** en [run **41845733248**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41845733248) **por un fallo de la nueva aserción**: buscaba la frase «15 días» en el **enunciado**, en vez de en su opción correcta. Se reparó la prueba en **`c706c7ac`**, y [**CI 41845924451**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41845924451) finalizó **SUCCESS**. No trasladar al contenido legal una aserción errónea de test. Las tablas de fuente y el estado parcial constan en `fuentes.md` de cada tema.
+
+### 36.3. Carencia real de matrices JSON en Diputación Auxiliar C2
+
+**Hallazgo de conformidad con `PROJECT_RULES.md`:** el programa de **20 temas** C2 sí contaba con manuales, fuentes y bancos, pero **no** con matrices `matriz.json` independientes, a diferencia de C1 y La Puebla. Se han creado y enlazado desde el programa oficial las **primeras cinco matrices**, siguiendo epígrafe literal del **BOP Toledo n.º 197 de 14/10/2026, Anexo XI, CSV 2026.00004759** y sus fuentes de `fuentes.md`:
+
+| Tema C2 | Materia | Incisos/leyes recogidos | Estado |
+|---|---|---|---|
+| **2** | Ley 39/2015, disposiciones generales, interesados y plazos | **1–33 LPAC** | Matriz creada, no certificación |
+| **3** | Procedimiento administrativo y especialidades | **53–105 LPAC**, más **Leyes 39/2015 y 40/2015** para sancionador/patrimonial | Matriz creada, no certificación |
+| **4** | Revisión y recursos | **106–126 LPAC**, **52–53 LRBRL** | Matriz creada, no certificación |
+| **8** | Prevención de riesgos | **14–40 LPRL** y **10–22 bis RSP**, con definición art. 4 | Matriz creada, no certificación |
+| **13** | Tributos municipales | **15–19, 56–64, 78–83, 92–94, 104–106 TRLRHL** | Matriz creada, no certificación |
+
+En **`data/programa-diputacion-auxiliar-c2-2026.json`** se añadieron rutas explícitas `matriz` solo a esos **5 temas**, sin alterar sus estados `EN_REVISION_USUARIO`; los otros **15 temas siguen sin matriz independiente**, entre ellos **T6 OAPGT**, que debe realizarse **al final**. Cada nueva matriz documenta `inciso → norma → artículos → contenido exigible` y advierte expresamente `PENDIENTE_COTEJO_INTEGRAL`. En **`tests/validate-diputacion-c2-matrices.mjs`** se verifica su correspondencia con el literal del programa y cinco matrices. Integrado en CI y `npm run test:all`; commits **`b7d24391`** (matrices) y **`cba0628b`** (control CI). [**CI 41846112691**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41846112691) **SUCCESS** para `b7d24391`; la CI específica del nuevo test todavía estaba en cola al redactar este apartado, **no atribuir éxito hasta observar la ejecución**.
+
+### 36.4. Estado real y reanudación
+
+**Indicadores globales sin manipular:** **121/121 temas registrados** y **120/121 fuera de BORRADOR**, pero **0/121 íntegramente recertificados jurídicamente en noviembre**. **1.291 preguntas reequilibradas** (§35), **24 claves de La Puebla cotejadas una a una**, **7 preguntas duplicadas sustituidas con apoyo jurídico en C1/C2**, **2 manuales con error de definición LPRL corregidos** y **5 matrices estructurales de C2 creadas**. La auditoría pedagógica, legal y visual **no** está terminada: los cambios son útiles, medibles y parciales.
+
+**Siguiente lote autónomo, sin solicitar confirmación:** completar las **14 matrices de Diputación C2 distintas del T6 OAPGT**, mantener T6 reservado al final; revisar **distractores y texto visible** de bancos más urgentes de **La Puebla (examen 14/11)** y **UC3M (21/11)**; cotejar fuentes legales actuales tema a tema, especialmente plazos, órganos, excepciones, y realizar prueba visual de escritorio/móvil cuando se disponga de navegador interactivo. **Olías C2** pendiente de auditoría técnica/local exhaustiva; incidentes de BOE/BOP de 4/1 plazas y 20 hábiles/naturales abiertos. **No reabrir Carranque ni Las Ventas**, no declarar 100 % por pasar CI. Revisar último registro antes de iniciar cada lote.
+
+> ⚠️ **¡Foco Examen!:** **LPRL 4.2** no da una fórmula matemática; **31–49 trabajadores: un Delegado elegido por y entre Delegados de Personal**; **art. 36.3: quince días / tiempo imprescindible**; **RSP 14: más de 500 / 250–500 anexo I**. Nunca presentar matrices recién creadas como auditoría legal cerrada.
