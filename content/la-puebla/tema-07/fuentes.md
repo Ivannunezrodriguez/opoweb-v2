@@ -17,3 +17,11 @@
 > ⚠️ **¡Foco Examen!:** Distinguir el **Delegado de Prevención** (representante de los trabajadores) del **Servicio de Prevención** (actividad técnica organizada).
 
 **Pendiente:** comprobación artículo a artículo de los límites de plantilla y de los distractores. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Contraste focal de definiciones — 04/11/2026
+
+**Norma primaria:** [Ley 31/1995, artículo 4.2 y 4.4, consolidación del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a4). La calificación de **gravedad del riesgo** valora **conjuntamente probabilidad y severidad**; se ha eliminado la expresión errónea **«gravedad = probabilidad + severidad»**, que no figura en el texto legal y puede confundirse con una fórmula técnica. El supuesto de **riesgo grave e inminente** se mantiene separado.
+
+**Alcance:** corrección jurídica puntual del manual y control de regresión; **no recertifica** el Tema 7 ni su banco de 12 preguntas. El conjunto de reglas de participación se conserva sin cambio.
+
+> ⚠️ **¡Foco Examen!:** **Riesgo** = posibilidad del daño. **Gravedad** = valoración conjunta de **probabilidad y severidad**. **Grave e inminente** añade la probabilidad racional de materialización inmediata y el daño grave (**art. 4.4**).

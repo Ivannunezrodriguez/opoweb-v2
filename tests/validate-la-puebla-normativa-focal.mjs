@@ -6,6 +6,12 @@ const t10=read('content/la-puebla/tema-10/manual.md');
 const t13=read('content/la-puebla/tema-13/manual.md');
 const trust=read('content/la-puebla/tema-13/bloque-04-prestadores-servicios.md');
 const t12=read('content/la-puebla/tema-12/manual.md');
+const t7=read('content/la-puebla/tema-07/manual.md');
+assert(t7.includes('valorar conjuntamente la probabilidad'));
+assert(!t7.includes('gravedad = probabilidad + severidad'));
+const matrix7=j('content/la-puebla/tema-07/matriz.json');
+assert(matrix7.controlDefinicionRiesgo20261104?.estado?.includes('PARCIAL'));
+
 const p10=[
  ['plazo voluntario día 20 del mes siguiente','día 20 del mes siguiente'],
  ['plazo voluntario día 5 del segundo mes siguiente','día 5 del segundo mes siguiente'],
