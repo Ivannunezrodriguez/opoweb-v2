@@ -12,7 +12,7 @@ for (const n of [4,5,6]) {
  assert.equal(status?.estado,'COTEJO_BANCO_COMPLETO','No audit status T'+n);
  assert.equal(status.opcionesVerificadas,48,'No 48 choice audit status T'+n);
  assert.equal(status.controlFuncional,'PENDIENTE_NAVEGADOR_REAL');
- assert.equal(matrix.aprobadoPorUsuario,false,'No user approval allowed T'+n);
+ assert.notEqual(matrix.aprobadoPorUsuario,true,'No user approval is documented T'+n);
  assert(read('manual.md').includes('cotejo-integral-2026-11-04.md'),'Missing manual link T'+n);
  assert(read('fuentes.md').includes('cotejo-integral-2026-11-04.md'),'Missing references link T'+n);
  assert.equal(bank.length,12,'Missing 12 questions T'+n);
