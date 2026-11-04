@@ -152,3 +152,9 @@ Contra la resolución de la recusación no cabe recurso autónomo, sin perjuicio
 - Suplencia: no altera la competencia.
 - Órgano colegiado: presidente, secretario y al menos la mitad de miembros.
 - Recusación: el superior resuelve en tres días si el recusado niega la causa.
+
+## Cotejo integral del banco (04/11/2026)
+
+[Auditoría individual de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): incluye fuente, artículo, juicio de distractores y advertencias de examen. **Estado:** banco cotejado; auditoría funcional en navegador y aprobación del usuario **pendientes**. El corte de vigencia jurídica en UC3M lo fija la **base primera.7** de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), asociado a la **resolución de admitidos definitivos y anuncio del ejercicio**, cuya fecha de publicación exacta no se ha fijado todavía con documento primario.
+
+> ⚠️ **¡Foco Examen!:** La literalidad de cada precepto y sus excepciones priman sobre una regla resumida; el **banco cotejado** no equivale a una certificación de todos los recorridos funcionales de OpoWeb.
