@@ -111,3 +111,9 @@ También deben mantener directorios actualizados de aplicaciones disponibles par
 - Archivo electrónico: autenticidad, integridad, conservación y consulta.
 - El **artículo 46 bis** exige ubicación en la **UE** a los sistemas de **censo, padrón, registros de población, determinados datos fiscales y usuarios del SNS**, no indiscriminadamente a cualquier categoría especial.
 - ENI significa interoperabilidad; ENS significa seguridad.
+
+## Cotejo integral del banco (04/11/2026)
+
+[Auditoría individual de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): incluye fuente, artículo, juicio de distractores y advertencias de examen. **Estado:** banco cotejado; auditoría funcional en navegador y aprobación del usuario **pendientes**. El corte de vigencia jurídica en UC3M lo fija la **base primera.7** de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), asociado a la **resolución de admitidos definitivos y anuncio del ejercicio**, cuya fecha de publicación exacta no se ha fijado todavía con documento primario.
+
+> ⚠️ **¡Foco Examen!:** La literalidad de cada precepto y sus excepciones priman sobre una regla resumida; el **banco cotejado** no equivale a una certificación de todos los recorridos funcionales de OpoWeb.
