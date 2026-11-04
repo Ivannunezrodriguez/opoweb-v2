@@ -23,3 +23,16 @@
 ## Contraste transversal con Diputación C1 — **04/11/2026**
 
 Se revalidaron contra el [**TRLRHL (arts. 61.5.b, 62.1.b y 82.1.c, regla 3.ª)**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) los mismos supuestos ya desarrollados en **C2 tema 13**: distinción **no sujeción/exención** de inmuebles propios municipales y de bienes comunales, **INCN inferior a 1.000.000 €** y **grupo de control del art. 42 CCom**. Se incorporó una ampliación al **C1 tema 29** sin rehacer este tema C2 ni alterar sus preguntas. **No implica recertificación completa**.
+
+## Banco cotejado y preguntas renovadas · 05/11/2026
+
+[**Cotejo individual de 20 preguntas y 80 alternativas de impuestos locales**](cotejo-integral-2026-11-05.md), con tres repeticiones sustituidas. **TRLRHL** actualizado a **07/10/2026**, incluyendo:
+
+- [**Art.59.1–2**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a59): **IBI, IAE e IVTM obligatorios**; **ICIO e IIVTNU potestativos**.
+- [**Art.61.1–2**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a61): derechos de IBI por orden **concesión, superficie, usufructo, propiedad**.
+- [**Art.104.2**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a104): terrenos **rústicos a efectos de IBI** no sujetos al IIVTNU. Distinto de [**104.5**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a104), ausencia acreditada de incremento.
+- Conservados **T13-009 (B)**, **T13-010 (C)** y **T13-018 (C)** como claves, pero se han sustituido las preguntas originales por otras jurídicamente más relevantes.
+- **Alcance:** verificación de **80 alternativas** del banco, no certificación de cada afirmación del manual, simulacros de navegador o accesibilidad.
+
+> ⚠️ **¡Foco Examen!:** **IIVTNU lucrativa = adquirente**, **onerosa = transmitente**, con sustitución del adquirente cuando el transmitente oneroso es **persona física no residente**, **art. 106**.
+
