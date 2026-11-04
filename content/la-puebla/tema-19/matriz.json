@@ -183,5 +183,23 @@
     "duplicación industrial"
   ],
   "criterioDeCierre": "Requiere revisión humana y la expresión Tema 19 aprobado. No se aprueba por extensión ni por validación automática.",
-  "aprobadoEl": "2026-07-18"
+  "aprobadoEl": "2026-07-18",
+  "manual": "content/la-puebla/tema-19/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-19/bloque-01-ordenador-componentes.md",
+    "content/la-puebla/tema-19/bloque-02-perifericos-impresoras.md",
+    "content/la-puebla/tema-19/bloque-03-escaneres.md",
+    "content/la-puebla/tema-19/bloque-04-almacenamiento-externo-usb.md",
+    "content/la-puebla/tema-19/bloque-05-opticos.md"
+  ],
+  "trazabilidad": "content/la-puebla/tema-19/fuentes.md",
+  "controlIntegralTecnico20261104": {
+    "estado": "AUDITADO_TECNICO_EDITORIAL",
+    "fecha": "2026-11-04",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "informe": "content/la-puebla/tema-19/cotejo-integral-2026-11-04.md",
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "tipo": "revisión individualizada de alternativas, no certificación exhaustiva del portal"
+  }
 }
