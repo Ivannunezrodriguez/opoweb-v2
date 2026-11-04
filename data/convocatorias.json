@@ -1,7 +1,74 @@
 {
-  "actualizadoEl": "2026-11-02",
+  "actualizadoEl": "2026-11-04",
   "criterio": "Ficha de convocatorias y seguimiento administrativo (fechas verificadas por ficha). El estado editorial fiable y la tarea siguiente solo constan en AUDITORIA_CONTINUA.md. No confundir publicación de manual con revisión completa ni comprobación histórica de plazo con disponibilidad actual.",
   "convocatorias": [
+    {
+      "id": "olias-del-rey-auxiliar-edificios-c2-2026",
+      "nombre": "Olías del Rey · Auxiliar de edificios e instalaciones C2",
+      "estadoUsuario": "PENDIENTE_INSCRIPCION",
+      "prioridad": "ALTA_POR_CERCANIA_Y_ADAPTACION_TECNICA",
+      "estadoEditorial": "EN_AUDITORIA",
+      "plazas": 4,
+      "subgrupo": "C2",
+      "regimen": "PERSONAL_LABORAL_FIJO",
+      "sistema": "OPOSICION_LIBRE",
+      "publicacionBOP": {
+        "numero": 204,
+        "fecha": "2026-10-23",
+        "anuncio": "2026/4833",
+        "csv": "2026.00004833",
+        "paginas": "54–59"
+      },
+      "publicacionBOE": {
+        "fecha": "2026-10-31",
+        "referencia": "BOE-A-2026-22826",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
+      },
+      "plazoSolicitudes": {
+        "estado": "ABIERTO_DISCREPANCIA_NATURALES_HABILES",
+        "bop": "20 días naturales",
+        "boe": "20 días hábiles",
+        "fechaPrudente": "2026-11-20",
+        "fechaTeoricaBOE": "2026-11-30",
+        "fechaConfirmada": null
+      },
+      "tasa": 10,
+      "programa": "data/programa-olias-auxiliar-edificios-2026.json",
+      "seguimiento": "data/seguimiento-olias-auxiliar-edificios-2026.json",
+      "fuenteSolicitud": "content/olias-auxiliar-edificios/GUIA_SOLICITUD_EXAMEN_2026.md",
+      "ultimaComprobacion": "04/11/2026: base completa BOP 4833 aportada por usuario; inconsistencias de plazo y número de plazas documentadas; examen sin fecha."
+    },
+    {
+      "id": "olias-del-rey-limpiadores-ap-2026",
+      "nombre": "Olías del Rey · Limpiador/a AP (3 plazas)",
+      "estadoUsuario": "SIN_DECISION",
+      "prioridad": "SECUNDARIA",
+      "estadoEditorial": "SOLO_SEGUIMIENTO",
+      "plazas": 3,
+      "subgrupo": "AP",
+      "regimen": "PERSONAL_LABORAL_FIJO",
+      "sistema": "OPOSICION_LIBRE",
+      "publicacionBOP": {
+        "numero": 204,
+        "fecha": "2026-10-23",
+        "anuncio": "2026/4833",
+        "csv": "2026.00004833",
+        "paginas": "49–53"
+      },
+      "publicacionBOE": {
+        "referencia": "BOE-A-2026-22826",
+        "fecha": "2026-10-31",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
+      },
+      "plazoSolicitudes": {
+        "estado": "ABIERTO",
+        "descripcion": "20 días hábiles desde BOE",
+        "fechaTeorica": "2026-11-30"
+      },
+      "tasa": 7,
+      "examen": "50 preguntas + 5 reservas; 2 puntos por acierto; -0,50 por error; mínimo 50/100",
+      "nota": "Categoría AP diferenciada de Auxiliar edificios C2. No iniciar temario hasta priorizar C2 y exámenes urgentes."
+    },
     {
       "id": "la-puebla-auxiliar-2026",
       "nombre": "La Puebla de Montalbán · Auxiliar Administrativo C2",
