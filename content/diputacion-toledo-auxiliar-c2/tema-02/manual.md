@@ -915,3 +915,9 @@ La aprobación histórica de **La Puebla** (**17/07/2026**) **no es una aprobaci
 > ⚠️ **¡Foco Examen!:** En días hábiles se excluyen **sábados, domingos y festivos**; en cómputo por meses y años rige regla de fecha a fecha y eventual traslado por último día inhábil (**artículo 30**). Los registros electrónicos abiertos **24 horas** no convierten un día inhábil en hábil para todos los efectos.
 
 **Fuente:** [Ley 39/2015 consolidada, BOE; última actualización publicada **06/11/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco de **20 preguntas** con respuesta fundamentada.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Informe de las 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con fundamento normativo y descarte de cada opción incorrecta. **COTEJO_BANCO_COMPLETO** significa revisión individual de la prueba, **no** certificación del manual entero, prueba en navegador, accesibilidad ni aprobación del usuario. La base oficial es el **Anexo XI del BOP Toledo n.º 197, 14/10/2026**.
+
+> ⚠️ **¡Foco Examen!:** **3 meses** supletorios para resolver, **6 meses** límite de norma reguladora; suspensión por informe preceptivo **máximo 3 meses**; urgencia exceptúa **solicitudes y recursos**.
