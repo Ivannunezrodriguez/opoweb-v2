@@ -38,3 +38,13 @@
 Fecha de comprobación: **23 de julio de 2026**.
 
 Se ha corregido la indeterminación del borrador respecto al cambio de universidad o estudios: el umbral legal aplicable es de **30 créditos ECTS reconocidos**. También se ha incorporado la modificación del artículo **23.2** publicada en julio de 2026.
+
+## Cotejo directo de las reglas de admisión · **04/11/2026**
+
+- [**RD 534/2024, art. 3.5**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a3): quien interrumpió estudios universitarios con **al menos 6 ECTS superados en el mismo centro** puede reanudarlos sin nueva admisión, respetando permanencia.
+- [**RD 534/2024, art. 7.c–d**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a7): acceso por continuación de estudios parciales españoles/extranjeros cuando reconoce nueva universidad **al menos 30 ECTS**.
+- [**RD 534/2024, art. 22.1–3**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a22): mejora con **hasta 3 materias**, **y además segunda lengua extranjera distinta**; en admisión se valoran **al menos 2 materias**; calificación hasta tres decimales.
+- [**RD 534/2024, art. 23.2, redacción RD 535/2026**](https://www.boe.es/eli/es/rd/2024/06/11/534/con/20260702): al alumnado de FP sin nota media por homologación o equivalencia se asignan **5 puntos**; modificación publicada **02/07/2026**, con vigencia específica desde **22/07/2026**.
+- [**RD 534/2024, art. 25.2–3**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a25): procedimientos públicos con **1 curso de antelación**, cifra máxima de plazas anunciada antes del **30 de junio**.
+
+> ⚠️ **¡Foco Examen!:** **6 ECTS** para reanudar en el **mismo centro** no se confunden con **30 ECTS** para continuación en **otro centro/titulación**. La **segunda lengua extranjera** es adicional al límite de **3 materias** de mejora del art. 22.1.
