@@ -47,3 +47,7 @@ Contra el acuerdo de avocación **no cabe recurso separado**; puede discutirse a
 Se ha ampliado el bloque 2 y manual LP14; actualización de justificación y Foco de **LP-T14-005** manteniendo su respuesta **B**.
 
 **Pendiente:** revisión integral de los distractores restantes del tema, incluidos abstención y recusación. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Precisión del artículo 23.2: sujetos relacionados y plazo — 04/11/2026
+
+**Fuente oficial:** [Ley 40/2015, artículo 23.2, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23), última actualización del texto **02/08/2024**. La redacción exige estudiar las causas **b)** y **c)** con su ámbito subjetivo completo: interesados, administradores de entidades interesadas, asesores, representantes legales y mandatarios que intervienen, además del despacho compartido o asociación profesional en los términos legales. La causa **e)** distingue **relación de servicio actual** de **servicios profesionales prestados durante los dos años anteriores**. Corregida la simplificación en bloque 2 y manual, sin alterar claves de test ni atribuir revisión integral.
