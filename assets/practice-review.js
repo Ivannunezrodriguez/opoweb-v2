@@ -6,6 +6,9 @@ const REVIEW_CONFIG = {
   },
   'diputacion-toledo-administrativo-c1-2026': {
     progressKey: 'opoweb-diputacion-practice-progress-v1'
+  },
+  'diputacion-toledo-auxiliar-c2-2026': {
+    progressKey: 'opoweb-diputacion-auxiliar-c2-practice-progress-v1'
   }
 };
 
