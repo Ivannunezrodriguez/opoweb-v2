@@ -210,3 +210,9 @@ Buenas prácticas:
 - En Drive debe aplicarse el principio de mínimo privilegio.
 - En Docs, Sugerencias no incorpora definitivamente el cambio.
 - En Calendar, una serie recurrente puede modificarse con distinto alcance.
+
+## Auditoría del banco · 04/11/2026
+
+[**Cotejo de 12 preguntas y 48 opciones (Word 2019, Excel 2019, Gmail, Drive, Docs, Sheets y Calendar)**](cotejo-integral-2026-11-04.md): razón de cada respuesta, distractores y trampas. **Estado: COTEJO_BANCO_COMPLETO**, no aprobación del usuario ni prueba completa del navegador. Hay bloques del programa sin pregunta directa en este banco: revisar la matriz de cobertura antes de declarar suficiencia pedagógica plena.
+
+> ⚠️ **¡Foco Examen!:** En **Drive**, el permiso **Comentador** no equivale a **Editor**. En **Gmail**, **Archivar** no es **Eliminar**. En **Excel 2019**, `$A$1` fija fila y columna, pero `$A1` y `A$1` son referencias mixtas.
