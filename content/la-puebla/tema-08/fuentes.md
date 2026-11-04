@@ -16,3 +16,8 @@
 > ⚠️ **¡Foco Examen!:** La regla **40/60** de *composición equilibrada* no constituye automáticamente una obligación idéntica para cualquier órgano ni para cualquier lista electoral; atender a la norma y excepción específica.
 
 **Pendiente:** cruce individual de reglas autonómicas y estatales y distractores sobre plazos, composición y autoridad competente. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Verificación jurídica del programa y banco — **04/11/2026**
+
+Se contrastaron **2 leyes, 8 subáreas editoriales y 48 alternativas de 12 preguntas**, a partir de las fuentes BOE de [Ley 12/2010](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708) y [LO 3/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115). [**Ver desglose individual y motivación de los 36 distractores**](cotejo-integral-2026-11-04.md). **AUDITADO jurídico-editorial, con navegador real pendiente**.
+

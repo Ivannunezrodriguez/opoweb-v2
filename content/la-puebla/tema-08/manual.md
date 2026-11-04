@@ -636,7 +636,7 @@ La Administración local castellano-manchega está incluida en la Ley 12/2010 y 
 - Definición 40/60: incorporada.
 - Modificaciones autonómicas relevantes: incorporadas.
 - Diferencia AGE/Ayuntamiento: señalada.
-- Preguntas trazables: no creadas todavía.
+- Preguntas trazables: **12 ítems y 48 opciones cotejados el 04/11/2026**.
 - Revisión del usuario: **aprobada el 17 de julio de 2026**.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
@@ -656,3 +656,8 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 8 aprobad
 
 > ⚠️ **¡Foco Examen!:** No deben aplicarse automáticamente a un ayuntamiento los artículos de la Ley Orgánica 3/2007 que se refieren de forma específica a la Administración General del Estado.
 
+## 120. Cierre jurídico-editorial integral — **04/11/2026**
+
+Cotejados los **dos incisos del epígrafe**, el desarrollo íntegro de **Ley 12/2010** y **LO 3/2007**, y las **48 alternativas** de las 12 preguntas. [**Informe por respuesta correcta y distractores**](cotejo-integral-2026-11-04.md). **AUDITADO contenido; prueba funcional real de navegador/móvil pendiente**.
+
+> ⚠️ **¡Foco Examen!:** **Art. 13.2 Ley 12/2010**: informe trienal del **Instituto de la Mujer**; **art. 34.2**: informe trienal del **Consejo Escolar**. El plazo coincide, el órgano no.

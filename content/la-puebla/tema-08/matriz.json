@@ -1,24 +1,129 @@
 {
   "tema": 8,
   "estado": "APROBADO_USUARIO",
-  "aprobadoEl": "2026-07-17",
   "epigrafeOficial": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
-  "fechaRevisionNormativa": "2026-07-30",
-  "trazabilidadArticuloPorArticulo": "content/la-puebla/tema-08/articulos.md",
+  "aprobadoEl": "2026-07-17",
+  "fechaRevisionNormativa": "2026-11-04",
   "normas": [
-    {"titulo":"Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha","referencia":"BOE-A-2011-2708","textoConsolidadoConsultado":"Última actualización publicada el 30/06/2021"},
-    {"titulo":"Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres","referencia":"BOE-A-2007-6115","textoConsolidadoConsultado":"Última actualización publicada el 02/08/2024"}
+    {
+      "referencia": "BOE-A-2011-2708",
+      "titulo": "Ley 12/2010 de Castilla-La Mancha",
+      "textoConsolidadoConsultado": "Última actualización publicada el 30/06/2021",
+      "urlOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708"
+    },
+    {
+      "referencia": "BOE-A-2007-6115",
+      "titulo": "Ley Orgánica 3/2007",
+      "textoConsolidadoConsultado": "Texto consolidado con reformas hasta 2024, BOE",
+      "urlOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    }
+  ],
+  "incisosOficiales": [
+    "Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha",
+    "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres"
   ],
   "cobertura": [
-    {"inciso":"Ley 12/2010: disposiciones generales e instituciones","articulos":"1-16","contenidoExigible":["objeto, fines y ámbito local","principios, presencia 40/60 e impacto de género","estadísticas, transversalidad y lenguaje","plan, Instituto, unidades y Comisión de Igualdad"]},
-    {"inciso":"Ley 12/2010: derechos","articulos":"17-30","contenidoExigible":["empleo, representación, corresponsabilidad y violencia","salud, derechos sociales y vivienda","mujeres rurales, jóvenes, mayores, viudas, con discapacidad, inmigrantes y sometidas a explotación sexual"]},
-    {"inciso":"Ley 12/2010: medidas activas","articulos":"31-52","contenidoExigible":["educación y universidad","empleo privado y público","conciliación, embarazo y distintivo","salud, medios y publicidad"]},
-    {"inciso":"Ley 12/2010: discriminación, garantías y participación","articulos":"53-65","contenidoExigible":["acoso y discriminación retributiva","contratación y sanciones","garantía institucional","asociaciones y agentes sociales"]},
-    {"inciso":"Ley Orgánica 3/2007: igualdad y políticas públicas","articulos":"1-35","contenidoExigible":["conceptos y tutela antidiscriminatoria","acciones positivas e inversión de carga","transversalidad, impacto, estadísticas","políticas sectoriales, contratación y subvenciones"]},
-    {"inciso":"Ley Orgánica 3/2007: medios, empleo y planes","articulos":"36-50","contenidoExigible":["medios y publicidad","empleo, negociación y conciliación","planes empresariales, acoso y distintivo"]},
-    {"inciso":"Ley Orgánica 3/2007: empleo público","articulos":"51-68","contenidoExigible":["criterios para todas las Administraciones","reglas específicas de AGE","acceso, formación, conciliación, protocolo y evaluación","Fuerzas Armadas y Fuerzas de Seguridad"]},
-    {"inciso":"Ley Orgánica 3/2007: bienes, responsabilidad social y organización","articulos":"69-78 y disposición adicional primera","contenidoExigible":["bienes, servicios y seguros","responsabilidad social y consejos","órganos estatales","definición 40/60"]}
+    {
+      "inciso": "Ley 12/2010 de Castilla-La Mancha — alcance y principios",
+      "norma": "Ley 12/2010 (BOE-A-2011-2708)",
+      "articulos": "1–12",
+      "contenidoExigible": [
+        "objeto y fines",
+        "ámbito Junta, entidades locales y universidades",
+        "presencia equilibrada y medidas de participación",
+        "estadísticas, impacto de género y transversalidad",
+        "estrategia y coordinación"
+      ]
+    },
+    {
+      "inciso": "Ley 12/2010 — órganos institucionales y colectivos",
+      "norma": "Ley 12/2010",
+      "articulos": "13–30",
+      "contenidoExigible": [
+        "Instituto de la Mujer: informe cada tres años, art. 13",
+        "Unidades y Comisión de Igualdad",
+        "derecho al empleo y corresponsabilidad",
+        "protección a colectivos y lucha contra violencia de género"
+      ]
+    },
+    {
+      "inciso": "Ley 12/2010 — educación e igualdad laboral",
+      "norma": "Ley 12/2010",
+      "articulos": "31–44",
+      "contenidoExigible": [
+        "enseñanza coeducativa y Consejo Escolar: informe trienal art. 34",
+        "igualdad en empleo público y contratación",
+        "conciliación y protección maternidad",
+        "Distintivo Excelencia: dos años implantación art. 44"
+      ]
+    },
+    {
+      "inciso": "Ley 12/2010 — salud, medios y garantías",
+      "norma": "Ley 12/2010",
+      "articulos": "45–65",
+      "contenidoExigible": [
+        "perspectiva de género en salud",
+        "medios, publicidad y acoso",
+        "retribución, buenas prácticas y garantías administrativas",
+        "participación de asociaciones y colegios profesionales"
+      ]
+    },
+    {
+      "inciso": "Ley Orgánica 3/2007 — definiciones, discriminación y tutela",
+      "norma": "LO 3/2007 (BOE-A-2007-6115)",
+      "articulos": "1–13 y disposición adicional primera",
+      "contenidoExigible": [
+        "igualdad de trato",
+        "directa/indirecta, embarazo directo",
+        "acoso sexual y por razón de sexo",
+        "represalias y nulidad de conductas discriminatorias",
+        "presencia equilibrada 40–60"
+      ]
+    },
+    {
+      "inciso": "Ley Orgánica 3/2007 — políticas públicas",
+      "norma": "LO 3/2007",
+      "articulos": "14–35",
+      "contenidoExigible": [
+        "transversalidad y nombramientos",
+        "informes y estadísticas",
+        "cooperación y educación",
+        "universidad, salud, mundo rural y comunicación"
+      ]
+    },
+    {
+      "inciso": "Ley Orgánica 3/2007 — empresas y empleo",
+      "norma": "LO 3/2007",
+      "articulos": "36–50",
+      "contenidoExigible": [
+        "igualdad laboral",
+        "empresas de 50 o más: plan igualdad art. 45",
+        "diagnóstico con auditoría salarial art. 46",
+        "distintivos y pactos colectivos"
+      ]
+    },
+    {
+      "inciso": "Ley Orgánica 3/2007 — sector público y AGE",
+      "norma": "LO 3/2007",
+      "articulos": "51–78",
+      "contenidoExigible": [
+        "deber general de Administraciones art. 51",
+        "AGE: presencia equilibrada 52–54",
+        "formación empleadas AGE: reserva 40% cursos específicos art. 60",
+        "órganos de igualdad y colaboración"
+      ]
+    }
   ],
-  "advertencias": ["El artículo 43.4 de la Ley 12/2010 está derogado.","El artículo 34.2 autonómico establece informe trienal.","El artículo 44 autonómico tiene redacción vigente desde 2021.","Los artículos 52-64 de la Ley Orgánica contienen varias reglas específicas de la Administración General del Estado y no deben trasladarse literalmente al Ayuntamiento.","Las disposiciones adicionales modificadoras de otras leyes no se desarrollan íntegramente salvo la definición de composición equilibrada."],
-  "criterioDeCierre": "Aprobado expresamente por el usuario el 17 de julio de 2026. Vigencia reconfirmada el 30 de julio de 2026 contra los textos consolidados oficiales."
+  "manual": "content/la-puebla/tema-08/manual.md",
+  "preguntas": "content/la-puebla/tema-08/preguntas.json",
+  "fuentes": "content/la-puebla/tema-08/fuentes.md",
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "Dos leyes citadas en el epígrafe, ocho subáreas editoriales, artículos autonómicos 1–65 y estatales 1–78, 12 claves y 48 alternativas",
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-08/cotejo-integral-2026-11-04.md",
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionIntegralCincoCapas": false
+  }
 }

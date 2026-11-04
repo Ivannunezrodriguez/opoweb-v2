@@ -4,7 +4,7 @@
 
 `EN_REVISION_USUARIO`
 
-El tema no está publicado como aprobado y el banco de preguntas permanece vacío.
+La aprobación histórica del tema se conserva. El banco ya tiene **12 preguntas y 48 alternativas**, con revisión jurídico-editorial completa el **04/11/2026**; control funcional real pendiente.
 
 ## Cobertura
 
@@ -64,3 +64,8 @@ La respuesta debe ser:
 - **«Tema 8: cambia o amplía…»**
 
 No se fusionará mientras permanezca en `EN_REVISION_USUARIO`.
+
+## Cierre jurídico-editorial — **04/11/2026**
+
+Comprobados **todos los artículos** de ambas leyes exigidas como cobertura del manual y **48 alternativas** del banco, con [cotejo individual](cotejo-integral-2026-11-04.md). **AUDITADO contenido, navegador real pendiente**.
+
