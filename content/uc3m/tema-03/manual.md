@@ -86,7 +86,20 @@ En procedimientos iniciados a solicitud, la caducidad exige paralización imputa
 
 ## 7. Tramitación simplificada
 
-Puede acordarse de oficio o a solicitud del interesado cuando lo aconsejen razones de interés público o la falta de complejidad. Debe resolverse en treinta días, salvo que reste menos para concluir la tramitación ordinaria.
+Puede acordarse de oficio o a solicitud del interesado cuando lo aconsejen razones de **interés público** o la **falta de complejidad**. Con carácter general, deberá resolverse en **treinta días**, salvo que reste menos para la tramitación ordinaria, **contados desde el día siguiente a aquel en que se notifique al interesado el acuerdo de tramitación simplificada** (**artículo 96.6**).
+
+- Si la Administración lo acuerda de oficio y algún interesado formula **oposición expresa**, se sigue la vía **ordinaria**, con la especialidad prevista para sancionadores leves en el **artículo 96.5**.
+- Si el interesado solicita la simplificación y no concurren las circunstancias, puede desestimarse en **cinco días**; el transcurso de ese plazo sin contestación supone **desestimación** de esa petición (**artículo 96.3**).
+- En la tramitación simplificada las alegaciones al inicio tienen **cinco días** y la audiencia se realiza cuando la resolución vaya a ser **desfavorable**. Si se necesita un trámite adicional no previsto, debe continuarse en **ordinaria**.
+
+| Dato del test | Plazo o condición |
+|---|---|
+| Resolución simplificada | **30 días** desde el día siguiente a la **notificación del acuerdo** |
+| Desestimar petición de simplificación | **5 días**; después, **desestimada** |
+| Alegaciones iniciales en simplificada | **5 días** |
+| Audiencia en simplificada | Solo si la resolución va a ser **desfavorable** |
+
+> ⚠️ **¡Foco Examen!:** Los **30 días** de la simplificada NO se cuentan automáticamente desde la solicitud original ni desde el acuerdo interno: el punto de partida es el día siguiente a la **notificación del acuerdo de tramitación simplificada**.
 
 Incluye únicamente los trámites enumerados por la ley: inicio, subsanación, alegaciones durante cinco días, audiencia cuando la resolución vaya a ser desfavorable, informes preceptivos concretos y resolución. Si un trámite adicional resulta necesario, el procedimiento continúa por la vía ordinaria.
 
