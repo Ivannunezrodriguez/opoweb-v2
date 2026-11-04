@@ -1,0 +1,51 @@
+{
+  "tema": 15,
+  "numeroEnBloque": 10,
+  "bloque": "especifica",
+  "estado": "EN_AUDITORIA",
+  "epigrafeOficial": "Electricidad básica. Conocimiento, manejo y mantenimiento de herramientas básicas de electricista (destornilladores, tijeras, alicates y otras herramientas). Cuadros de distribución en edificios (Interruptor de control de potencia, magnetotérmicos, diferenciales). Circuitos de sonería (pulsadores, timbres). Circuitos de alumbrado básico (interruptores, conmutadores, bases de enchufe con y sin toma de tierra, lámparas). Circuitos de alumbrado fluorescente (cebadores, reactancias, lámparas fluorescentes). Circuitos singulares (alarmas, alumbrado de emergencia)",
+  "fuente": "BOP Toledo 204/2026, anuncio 4833, Anexo II, página 59",
+  "fechaRevision": "2026-11-04",
+  "filas": [
+    {
+      "inciso": "Electricidad y herramientas",
+      "norma": "RD 614/2001",
+      "articulos": "Art. 4; anexos I y II",
+      "contenidoExigible": "Magnitudes; herramientas; procedimientos"
+    },
+    {
+      "inciso": "Cuadros ICP, magnetotérmicos, diferenciales",
+      "norma": "REBT RD 842/2002",
+      "articulos": "ITC-BT-17, 18, 24, 25",
+      "contenidoExigible": "Protecciones y diferencias"
+    },
+    {
+      "inciso": "Sonería",
+      "norma": "Tecnología eléctrica básica",
+      "articulos": "Pulsador y timbre",
+      "contenidoExigible": "Circuitos y funcionamiento"
+    },
+    {
+      "inciso": "Alumbrado básico",
+      "norma": "REBT",
+      "articulos": "ITC-BT según instalación",
+      "contenidoExigible": "Conmutación, tomas y tierra"
+    },
+    {
+      "inciso": "Fluorescentes",
+      "norma": "Tecnología de luminarias",
+      "articulos": "Cebadores y reactancias",
+      "contenidoExigible": "Diferenciar componentes"
+    },
+    {
+      "inciso": "Alarmas y alumbrado de emergencia",
+      "norma": "REBT y PRL",
+      "articulos": "Reglas según edificio",
+      "contenidoExigible": "Funciones y seguridad"
+    }
+  ],
+  "pendiente": [
+    "Revisión técnica integral de instalaciones especiales y locales de pública concurrencia",
+    "Comprobación de todas las respuestas antes de estado AUDITADO"
+  ]
+}
