@@ -1376,3 +1376,39 @@ Se añadió [`tests/validate-la-puebla-three-legal-closures.mjs`](tests/validate
 **Cobertura documental acumulada del cotejo individual de bancos:** **25 de 121 temas** (**19 de La Puebla + 6 de UC3M**), con **300 preguntas y 1200 alternativas** cotejadas. La cifra **no** es un porcentaje de corrección jurídica certificado ni una prueba integral de la web. **0/121** han demostrado simultáneamente todas las capas legales, pedagógicas, técnicas y de navegador.
 
 **Siguiente tramo:** **UC3M T7–T20**, con prioridad en normativa de transparencia autonómica y universidad, antes del examen del **21/11/2026**. Verificar documentalmente la **fecha de publicación de listas definitivas** para cerrar la vigencia jurídica exigible por la **base primera.7**.
+
+
+## 53. UC3M T7–T9 · transparencia, igualdad y ofimática — **04/11/2026**
+
+### 53.1. Avance real frente al apartado anterior
+
+- **UC3M T7 (Ley 10/2019, transparencia de Madrid):** a la revisión focal anterior de **3 preguntas/12 alternativas** se añade el [**cotejo completo de las 12 preguntas/48 alternativas**](content/uc3m/tema-07/cotejo-integral-2026-11-04.md). Se contrasta con [**Ley 10/2019 consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102), artículos **30, 38–43 y 48**, y con [**procedimiento institucional UC3M**](https://uc3m.es/conocenos/transparencia/procedimiento-acceso-informacion-publica): el órgano resolutor es el **Rector**. La sede UC3M admite presentación **telemática o presencial**.
+- **UC3M T8 (igualdad):** [**12 preguntas/48 alternativas contrastadas**](content/uc3m/tema-08/cotejo-integral-2026-11-04.md) con [**LO 3/2007**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) y [**documentación oficial UC3M**](https://www.uc3m.es/igualdad/plan-igualdad). **Manual y fuentes precisados**: III Plan aprobado por **Consejo de Gobierno 27/01/2025**, vigente **01/02/2025–31/01/2029**, con **6 ejes y 138 medidas**, dirigido a **PDI y PTGAS**, complementado por medidas del estudiantado. Diferente del **II Protocolo de acoso y ciberacoso**, aprobado **14/11/2019**.
+- **UC3M T9 (Word 2019, Excel 2019 y Google):** [**12 preguntas/48 alternativas contrastadas**](content/uc3m/tema-09/cotejo-integral-2026-11-04.md) contra fuentes de [**Microsoft Word**](https://support.microsoft.com/es-es/word/insert-a-section-break), [**Excel 2019**](https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references) y [**Google Drive**](https://support.google.com/drive/answer/2494822?hl=es), Gmail y Docs. **Manual enriquecido** con tabla de los roles de Drive, herencia de carpetas y distinción entre enlace restringido y compartido públicamente. **Fuentes** incluyen URLs de fabricantes.
+
+### 53.2. Plazos, fechas, conceptos y trampas
+
+| Materia | Dato de examen confirmado |
+|---|---|
+| Ley 10/2019 art. **42.1** | **20 días** para resolver y notificar; posible ampliación de **otros 20 días** por volumen/complejidad, informando al solicitante |
+| Ley 10/2019 art. **42.2** | **5 días hábiles** para inadmisión motivada por art. 40.1, desde recepción por órgano competente |
+| Ley 10/2019 art. **41** | **5 días** de remisión al competente; el precepto no dice textualmente «hábiles», atenerse a reglas generales |
+| Ley 10/2019 art. **48.1** | Reclamación potestativa en **1 mes** desde siguiente día a notificación/efectos del silencio |
+| III Plan UC3M | **01/02/2025–31/01/2029**, **6 ejes, 138 medidas** |
+| II Protocolo UC3M | Consejo de Gobierno **14/11/2019**, también frente a **ciberacoso** |
+| Excel 2019 | **`A1` relativa**, **`$A$1` absoluta**, **`$A1` / `A$1` mixtas** |
+| Google Drive (Mi unidad) | **Lector / Comentador / Editor**: ver / comentar / modificar; acceso heredado y restricciones del propietario |
+
+> ⚠️ **¡Foco Examen!:** En **T7** no intercambiar **20 días**, **5 días hábiles** de inadmisión y **5 días** de remisión. En **T8** diferenciar **fecha de aprobación** y **entrada en vigor** del III Plan. En **T9**, la capacidad de **comentar** no equivale a **editar** un archivo.
+
+### 53.3. Auditoría rastreable y validación
+
+- Los informes están enlazados en **manual.md**, **fuentes.md** y registrados en **matriz.json** de cada tema con `controlIntegralBanco20261104`: **`COTEJO_BANCO_COMPLETO`**, **12 preguntas/48 opciones**, aprobación usuario **NO**, certificación navegador **PENDIENTE**.
+- Nuevo [**`tests/validate-uc3m-t07-t09-integral.mjs`**](tests/validate-uc3m-t07-t09-integral.mjs) integrado en **`npm test`** y GitHub Actions. Exige **36 claves/144 alternativas literales y documentadas**, explicación y foco por cuestión, distribución **3 claves por letra A/B/C/D**, trazabilidad y permanencia de las correcciones.
+- **CI confirmada** [**run 41903367345 — SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41903367345) en SHA **`aa3805b66e4b737a2f5d8bc9c20563f91bec5c52`**, con el nuevo test añadido al workflow. **GitHub Pages del mismo SHA estaba en curso** en la última lectura; no atribuir resultado de despliegue no comprobado. Validación automatizada **no es una prueba de navegador real ni de accesibilidad**.
+- **Limitación pedagógica explícita de T9:** ciertos subapartados (p. ej., revisión/correspondencia en Word y análisis avanzado de Excel) están en el manual pero carecen de pregunta específica en este banco. La correspondencia `matriz.cobertura` los identifica. No afirmar cobertura **test** 100 % del programa por el mero conteo de **12 preguntas**.
+- **Vigencia UC3M pendiente:** cotejo del documento primario que publica las **listas definitivas y convocatoria de ejercicio**, cuyo día determina el texto normativo exigible según **base primera.7** de BOE-A-2026-14624.
+
+**Acumulado con este lote:** **28/121 temas** con informe individual del banco y epígrafe (**La Puebla 19/19; UC3M 9/20**); **336 preguntas / 1.344 alternativas** analizadas opción por opción. **No** es certificación jurídico-editorial/pericial plena ni homologación de la web. Certificación de todas las capas **0/121** hasta ejecutar pruebas en navegación real, accesibilidad y cotejo exhaustivo de cada apartado.
+
+**Próxima prioridad:** **UC3M T10–T20** (TREBEP, régimen universitario, presupuestos y contratación), con auditoría individual y pruebas de regresión; después controles funcionales globales y resto de convocatorias.
