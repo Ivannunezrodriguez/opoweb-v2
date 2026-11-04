@@ -70,3 +70,9 @@ La redacción de **2003** no basta por sí sola para el cese. El [**Decreto 95/2
 - [**LOSU art. 43**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a43): figura general de Defensoría en las universidades y procedimiento de elección por **Claustro**; la composición, configuración y procedimientos internos se desarrollan en Estatutos.
 
 > ⚠️ **¡Foco Examen!:** El BOE del **Decreto 1/2003** contiene el **texto original**. El cese del **artículo 127.2** se rige por la modificación del **Decreto 95/2009**; leer solo el original puede llevar a atribuir erróneamente la misma votación al cese voluntario.
+
+## Cotejo exhaustivo del banco · 04/11/2026
+
+[**Informe individual de 21 preguntas y 84 alternativas exactas**](cotejo-integral-2026-11-04.md): fundamento por **artículo**, descarte de distractores y **¡Foco Examen!**. **Estado COTEJO_BANCO_COMPLETO**, pero **NO** aprobación del usuario ni prueba visual integral. La legislación vigente se toma en la fecha definida por la **base primera.7** de UC3M, pendiente de verificar por resolución primaria.
+
+> ⚠️ **¡Foco Examen!:** Para el **Defensor** exige **mitad más uno de todos los miembros** del **Claustro**; para el **Adjunto**, **mayoría simple**. El cese a petición propia no se equipara al cese por acuerdo del Claustro tras la modificación del **artículo 127.2** por **Decreto 95/2009**.
