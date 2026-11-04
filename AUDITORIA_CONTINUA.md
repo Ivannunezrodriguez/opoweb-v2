@@ -1088,3 +1088,48 @@ Se modificaron **12 archivos**, incluyendo los tres `manual.md`, tres `preguntas
 **Nuevo criterio operativo permanente:** para cada tema, exigir **una matriz íntegra de las alternativas del banco** y contrastar manual, fuentes, cifras, excepciones, formato, rutas y tests antes de marcar cierre editorial. No confundir el simple éxito CI con la exactitud legal. No acumular más revisiones focales de temas distintos sin avanzar hacia el cierre de uno de ellos.
 
 **TAREA ACTIVA:** verificar Pages del commit **`4ceea4a4`** y, en la medida que las herramientas permitan, control funcional real; continuar cierre completo de La Puebla restantes y después UC3M por cercanía de exámenes (**14/11** y **21/11**); mantener matriz de cinco capas, no inflar certificación final. Diputación C2 T6 OAPGT al final. No reabrir convocatorias descartadas.
+
+## 45. Tres cierres jurídico-editoriales adicionales La Puebla T2, T4 y T14 — **04/11/2026**
+
+**Continuidad:** leído §44 y `PROJECT_RULES.md`; no se repitió el cotejo de T7 y T13, ya **AUDITADOS** jurídico-editorialmente. Según la petición, se priorizó **terminar tres temas enteros** en el mismo lote, no más intervenciones parciales. Se conserva el indicador separado de **certificación integral de cinco capas** sin inflarlo.
+
+**Fuente del programa:** BOP Toledo **82/2026**, anuncio **2026-1965**, **05/05/2026**. Normativa oficial consolidada revisada en [**Ley 39/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) (última actualización publicada **06/11/2024**), [**Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) (última actualización publicada **02/08/2024**) y [**LRBRL 7/1985**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) para fin de vía y lesividad local.
+
+### 45.1. **Tema 2 · Ley 39/2015, disposiciones generales, interesados, actividad, términos y plazos**
+
+- **Programa completo:** **5 partes** de la matriz y desarrollo del manual que abarcan **artículos 1–33**. El banco tiene **12 preguntas, 48 alternativas**, con cada opción y motivo exacto de aceptación/rechazo en [`cotejo-integral-2026-11-04.md`](content/la-puebla/tema-02/cotejo-integral-2026-11-04.md).
+- Cotejos centrales: reserva legal de trámites adicionales **art. 1.2**; entidad de derecho privado dependiente no es automáticamente Administración Pública **art. 2.2–3**; representación y plazo de subsanación **10 días art. 5.6**; apoderamientos máximo **5 años art. 6.6**; obligación electrónica de persona jurídica **14.2**; plazo supletorio de resolver **3 meses art. 21.3**; silencio general estimatorio con excepciones **24**; mes sin día equivalente **30.4**; urgencia no reduce solicitudes ni recursos **33**.
+- **Sin necesidad de cambio de clave:** **12 correctas y 36 distractores** comprobados. Estado `controlIntegralEditorial20261104.estado = AUDITADO` en `matriz.json` y nota de control funcional **PENDIENTE_PRUEBA_NAVEGADOR_REAL**. Manual, fuentes y feedback actualizados (la frase antigua «banco vacío» ya no es actual).
+- Commit **`fdb4efb5`**. [**CI 41887238414 SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41887238414), [**PDF La Puebla 41887238211 SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41887238211), mismo SHA.
+
+> ⚠️ **¡Foco Examen!:** El plazo de **1 mes** desde **31 de enero** no equivale a **30 días hábiles**: si no hay equivalente, vence el **último día de febrero**, salvo prórroga por inhábil.
+
+### 45.2. **Tema 4 · revisión de oficio y recursos**
+
+- Programa desglosado en **7 bloques**, con **Ley 39/2015 arts. 106–126**, LRBRL **52–53** y manual extenso. [**Cotejo individual de las 48 alternativas**](content/la-puebla/tema-04/cotejo-integral-2026-11-04.md) documentado íntegramente, incluidas **12 claves y 36 distractores**.
+- **Corrección jurídica de LP-T04-001**: antes afirmaba «en cualquier momento» sin delimitar condiciones; se indica expresamente que es **acto nulo** que **pone fin a la vía** o **no fue recurrido en plazo**, con **causa de art. 47.1** y **dictamen favorable** de órgano consultivo (**art. 106.1**). Manual enriquecido con tabla de requisitos comparados con **lesividad art. 107** y **rectificación art. 109.2**.
+- Se actualizaron matriz (`AUDITADO` jurídico-editorial), fuentes, feedback y manual. En el primer cierre faltaba un enlace de cotejo en manual y se mantenía una afirmación histórica «Preguntas trazables: no creadas todavía». **Corregida posteriormente en commit `41c9a3f1`** por un fallo real del test.
+- Commits: **`01e99324`** (cotejo y cambios) con [**CI 41886704230 SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41886704230), [**PDF 41886704183 SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41886704183), [**Pages 41886702819 SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41886702819) en ese SHA; ajuste de `manual.md` `41c9a3f1`.
+
+> ⚠️ **¡Foco Examen!:** **Art. 106 revisión de nulidad** exige dictamen favorable y acto elegible; **art. 107 lesividad** es para acto favorable **anulable**, declaración dentro de **4 años**.
+
+### 45.3. **Tema 14 · órganos Ley 40/2015 y Administración General del Estado**
+
+- Revisados **5 incisos** del programa, cinco capítulos, manual y **12 claves + 36 distractores** de su banco, con cotejo literal por opción en [`cotejo-integral-2026-11-04.md`](content/la-puebla/tema-14/cotejo-integral-2026-11-04.md).
+- Especial atención a **desconcentración art. 8.2 vs. delegación de firma art. 12**, avocación **10**, quórum y excepciones de órganos colegiados **17**, parentesco en abstención **23**, recusación negada en **3 días art. 24.4**, órganos superiores y directivos **55**, estructura mínima ministerial **58.2**, nombramiento/rango de Delegado del Gobierno **72**.
+- Sin cambio de clave. Manual, fuentes, feedback y matriz actualizados (`AUDITADO` jurídico-editorial; navegador pendiente). Commit **`25cee8d8`**, [**CI 41886896685 SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41886896685), [**PDF 41886896508 SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41886896508), [**Pages 41886895132 SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41886895132), mismo SHA.
+
+> ⚠️ **¡Foco Examen!:** **Ministros y Secretarios de Estado** son órganos **superiores**; **Subsecretarios y Directores generales**, **directivos**. Cada Ministerio incluye Subsecretaría y Secretaría General Técnica, pero no necesariamente Secretaría de Estado.
+
+### 45.4. Prueba transversal y dos fallos de aserción reparados
+
+Se añadió [`tests/validate-la-puebla-three-legal-closures.mjs`](tests/validate-la-puebla-three-legal-closures.mjs) a **GitHub Actions** y `npm test`: comprueba que cada ítem de **T2, T4, T14** figure en informes con las **cuatro alternativas EXACTAMENTE publicadas**, misma clave, **3 respuestas A/B/C/D**, cobertura de programa y estado de pruebas de navegador sin inflar.
+
+- **Primer fallo de CI `e0a54abd`, run 41887348190:** el test detectó que `manual.md` de T4 no enlazaba el informe. Se añadió el enlace y se corrigió el contenido editorial histórico **`41c9a3f1`**.
+- **Segundo fallo de CI `41c9a3f1`, run 41887496766:** la aserción buscaba `art. 24.4` en minúscula pero el informe contiene **`Art. 24.4`**, con mayúscula y dato legal correcto. Se corrigió la prueba sin cambiar el fundamento legal en commit **`9131db4a`**. **La validación para el SHA final estaba `in_progress` cuando se hizo esta anotación**: comprobar ejecución y reparar cualquier otro fallo antes de declarar éxito.
+
+### 45.5. Avance acumulado
+
+**5/121 temas con cotejo jurídico-editorial de programa y de TODAS las alternativas del banco:** **La Puebla T2, T4, T7, T13, T14**. Son **60 preguntas, 240 alternativas** justificadas jurídicamente en documentos individualizados. **No se declara todavía 5/121 certificados 100 % en las cinco capas**: prueba de interfaz real (móvil y escritorio), navegación completa, accesibilidad y elementos dinámicos siguen pendientes como control separado. La existencia de informe y tests no elimina necesidad de actualizaciones por cambios legales.
+
+**TAREA ACTIVA:** validar CI/Pages del último SHA que incluye prueba de tres temas; seguir cierres enteros en el orden de exámenes, priorizando **La Puebla (14/11)** y después **UC3M (21/11)**; evitar parciales repetidos. Mantener último tema OAPGT C2 de Diputación para cuando fuentes completas estén disponibles. No volver a Carranque/Las Ventas.
