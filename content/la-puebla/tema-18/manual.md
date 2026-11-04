@@ -102,3 +102,9 @@ Los nombres de funciones, separadores de argumentos y atajos pueden variar con e
 - No confundir protección de hoja con cifrado o seguridad completa.
 - Revisar compatibilidad al intercambiar `.xlsx` y `.ods`.
 - Tratar CSV como **archivo de texto tabular**, sin estructura de libro ni pestañas de hojas; al exportar desde Excel/Calc se guardan los datos de la **hoja activa**, pero el propio CSV no contiene un objeto «hoja».
+
+## Auditoría integral del banco — 4 de noviembre de 2026
+
+[Cotejo técnico-editorial íntegro del Tema 18](cotejo-integral-2026-11-04.md): revisión individualizada de las **12 preguntas y 48 alternativas**, sus claves, distractores, fuentes, justificaciones y trampas de examen. **Estado:** auditado en lo editorial/técnico; **no** certifica pruebas funcionales completas en navegador, móvil o accesibilidad.
+
+> ⚠️ **¡Foco Examen!:** Antes de memorizar un atajo, un formato o una operación, comprueba el programa y el contexto indicados en el enunciado: las opciones incorrectas suelen intercambiar conceptos similares.
