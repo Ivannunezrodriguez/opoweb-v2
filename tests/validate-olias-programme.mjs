@@ -41,9 +41,9 @@ for(const t of programme.temas){
  totalQuestions+=bank.preguntas.length;
 }
 assert.equal(ready,22);
-assert.equal(totalQuestions,230);
+assert.equal(totalQuestions,252);
 const app=readFileSync('assets/app.js','utf8');
 assert.match(app,/olias-del-rey-auxiliar-edificios-c2-2026/);
 assert.match(app,/2026\.00004833/);
 assert.ok(existsSync('content/olias-auxiliar-edificios/GUIA_SOLICITUD_EXAMEN_2026.md'));
-console.log('OLIAS_C2_2026_OK: 22 temas oficiales, 22 manuales en auditoría, 230 preguntas; restantes pendientes; discrepancia de plazo expresamente no resuelta.');
+console.log('OLIAS_C2_2026_OK: 22 temas oficiales, 22 manuales en auditoría, 252 preguntas; restantes pendientes; discrepancia de plazo expresamente no resuelta.');

@@ -10,10 +10,10 @@
 
 | Inciso del programa | Norma principal | Artículos/referencia | Contenido exigible |
 |---|---|---|---|
-| Derechos laborales en el Estatuto de los Trabajadores | Estatuto de los Trabajadores | arts. 4, 5, 17, 19, 20 | Conceptos, límites y ejemplos del apartado |
-| Deberes laborales, dirección y buena fe | Estatuto de los Trabajadores | arts. 4, 5, 17, 19, 20 | Conceptos, límites y ejemplos del apartado |
-| Personal laboral público y TREBEP | Estatuto de los Trabajadores | arts. 4, 5, 17, 19, 20 | Conceptos, límites y ejemplos del apartado |
-| Prevención: protección y deberes | Estatuto de los Trabajadores | arts. 4, 5, 17, 19, 20 | Conceptos, límites y ejemplos del apartado |
+| Derechos y deberes laborales (ET) | RDL 2/2015: Estatuto de los Trabajadores | **arts. 4, 5, 17 y 19** | Derechos individuales y colectivos |
+| Dirección, buena fe y obligaciones (ET) | RDL 2/2015: Estatuto de los Trabajadores | **arts. 5 y 20** | Cumplir órdenes regulares, diligencia, prevención |
+| Personal laboral y derechos de empleados públicos | RDL 5/2015: TREBEP | **arts. 8, 11, 14, 15, 52, 53 y 54** | Relación laboral, derechos, deberes y código de conducta |
+| Prevención de riesgos (LPRL) | Ley 31/1995 | **arts. 14-21 y 29** | Protección eficaz, información, formación, emergencias y deberes |
 
 ## 3. Derechos laborales en el Estatuto de los Trabajadores
 

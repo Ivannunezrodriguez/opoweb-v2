@@ -6,9 +6,11 @@
 
 | Fuente primaria | Artículos controlados | Incidencia en el tema |
 |---|---|---|
-| [LO 3/2007, igualdad](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) | **arts. 3-7, 51-54 y 64** | Desarrollo del epígrafe |
+| [LO 3/2007, igualdad](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) | **arts. 3, 6, 7, 51-64 y DA 1.ª** | Desarrollo del epígrafe |
 | [TREBEP](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) | **arts. 14 y 52-54** | Desarrollo del epígrafe |
 
 > ⚠️ **¡Foco Examen!:** Los epígrafes del BOP son obligatorios; las instrucciones internas de **Olías del Rey** no se atribuyen sin documentarlas mediante fuente municipal vigente.
 
 **Control jurídico:** INICIADO, no terminado; **04/11/2026**.
+
+**Auditoría parcial 04/11/2026:** [texto consolidado LO 3/2007](https://www.boe.es/eli/es/lo/2007/03/22/3/con), **Título V**, especialmente capítulo III **arts. 55-64**. Contrastados **1 año** (60.1), **mínimo 40%** de cursos (60.2), **anualmente** (63 y 64), **al inicio de cada legislatura** (64). Mantener estado EN_AUDITORIA hasta revisión total.

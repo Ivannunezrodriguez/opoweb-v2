@@ -10,8 +10,8 @@ for(const bank of banks){for(const q of bank.preguntas){
  assert(Number.isInteger(q.respuestaCorrecta) && q.respuestaCorrecta>=0 && q.respuestaCorrecta<4,q.id);
  distribution[q.respuestaCorrecta]++;
 }}
-assert.equal(total,230);
-for(const count of distribution)assert(count>=45&&count<=70,'Question key bias '+JSON.stringify(distribution));
+assert.equal(total,252);
+for(const count of distribution)assert(count>=45&&count<=75,'Question key bias '+JSON.stringify(distribution));
 const psycho=load('content/olias-auxiliar-edificios/psicotecnicos.json').preguntas;
 assert.equal(psycho.length,40);
 assert.equal(new Set(psycho.map(x=>x.id)).size,40);

@@ -74,7 +74,71 @@ El **art. 64** contempla **Plan de Igualdad en la Administración General del Es
 
 > ⚠️ **¡Foco Examen!:** **El Plan de Igualdad de la AGE del art. 64** no es automáticamente el plan del **Ayuntamiento de Olías**. No inventar protocolos internos sin fuente municipal vigente.
 
-## 7. Ejercicio aplicado
+## 7. Presencia equilibrada y nombramientos — **arts. 52 y 54**
+
+El **art. 52** obliga al **Gobierno** a atender al principio de **presencia equilibrada de mujeres y hombres** en los nombramientos de titulares de órganos directivos de la **Administración General del Estado (AGE)** y organismos vinculados o dependientes, considerados **en su conjunto**, cuya designación corresponda al Gobierno.
+
+El **art. 54** dispone que la **AGE** y esos organismos designen representantes en órganos colegiados, comités de personas expertas o consultivos, nacionales o internacionales, de acuerdo con la presencia equilibrada, **salvo razones fundadas y objetivas debidamente motivadas**. También se observa el principio al nombrar representantes en consejos de administración de empresas participadas.
+
+| Artículo | Designación afectada | Matiz importante |
+|---|---|---|
+| **52** | Titulares de órganos directivos | Se valora el conjunto de nombramientos que corresponden al **Gobierno** |
+| **53** | Tribunales y órganos de selección de la **AGE** | Excepción por razones **fundadas, objetivas y motivadas** |
+| **54** | Representantes de la **AGE** en órganos/colegios y empresas participadas | Comités y consejos; según el nombramiento |
+
+> ⚠️ **¡Foco Examen!:** **Art. 52 = nombramiento de directivos; 53 = tribunales de selección; 54 = representantes**. La referencia a la **AGE** no significa automáticamente que todos esos artículos impongan el mismo procedimiento al Ayuntamiento.
+
+## 8. Medidas específicas para el empleo público de la AGE — **arts. 55 a 59**
+
+En el **capítulo III del título V de la LO 3/2007** se detallan las medidas especiales para el empleo de la **AGE** y sus organismos vinculados o dependientes. Son especialmente susceptibles de examen los siguientes números y excepciones:
+
+| Art. | Materia | Regla examinable |
+|---|---|---|
+| **55** | Informe de impacto de género en pruebas de acceso | Acompaña las convocatorias, **salvo casos de urgencia**, sin perjuicio de prohibición de discriminación |
+| **56** | Maternidad y conciliación | Régimen de excedencias, reducción de jornada, permisos y beneficios conforme a normativa aplicable |
+| **57** | Concurso de provisión de puestos | Se computa, como valoración de trabajo y méritos, el tiempo de situaciones indicadas en **art. 56** |
+| **58** | Riesgo durante embarazo o lactancia | Licencia para **funcionaria incluida en mutualismo administrativo** bajo condiciones legales, con derechos económicos garantizados |
+| **59** | Vacaciones | Derecho a disfrute en fecha distinta cuando coincidan con las circunstancias de embarazo, parto, lactancia y permisos previstos |
+
+El **art. 57** habla de **concursos para provisión de puestos**, no de otorgar automáticamente méritos en cualquier oposición de acceso. El **art. 58** contiene un supuesto específico de **mutualismo administrativo** y no es una declaración de que todo personal laboral municipal esté en ese régimen.
+
+> ⚠️ **¡Foco Examen!:** La excepción del **art. 55** es la **urgencia**, no la falta de presupuesto. **Art. 57 = cómputo de periodos de conciliación en concursos de provisión**; no confundir con concurso-oposición.
+
+## 9. Formación e igualdad: **1 año, 40 % y todas las pruebas AGE**
+
+El **art. 60.1** reconoce **preferencia durante un año** para adjudicación de plazas en actividades de formación a quienes retornen al servicio activo desde permisos de maternidad/paternidad o reingresen de excedencias previstas por guarda legal y cuidados. No se trata de un **permiso adicional de un año**.
+
+El **art. 60.2** prevé reservar **al menos el 40 %** de las plazas de los correspondientes cursos de formación de la **AGE** y organismos vinculados o dependientes a **empleadas públicas que reúnan los requisitos**, con finalidad de promoción profesional y acceso a puestos directivos.
+
+El **art. 61.1** exige que **todas las pruebas de acceso al empleo público de la AGE** y organismos vinculados o dependientes contemplen el principio de igualdad en la función pública. El **art. 61.2** impone cursos de igualdad y prevención de violencia de género dirigidos a **todo el personal** de ese ámbito.
+
+| Artículo | Número de examen | Lo que NO significa |
+|---|---|---|
+| **60.1** | **1 año** de preferencia en formación | No es año extra de excedencia |
+| **60.2** | **Al menos 40 %** de plazas de determinados cursos | No es reserva automática del **40 % de plazas de empleo público** |
+| **61.1** | **Todas** las pruebas de acceso del ámbito **AGE** | No habla de todas las pruebas del sector privado |
+| **61.2** | Formación a **todo el personal** | No solo a empleados directivos |
+
+> ⚠️ **¡Foco Examen!:** La cifra **40 % del art. 60.2** corresponde a **plazas de cursos de formación para empleadas que cumplan requisitos**, no a plazas de nuevas oposiciones.
+
+## 10. Protocolos, evaluación y Plan de Igualdad — **arts. 62 a 64**
+
+El **art. 62** establece la **negociación con representación legal de trabajadores** de un protocolo de prevención del **acoso sexual y por razón de sexo**. Incluye, al menos: compromiso de prevención y no tolerancia; respeto de **dignidad, intimidad e igualdad**; **tratamiento reservado de denuncias**; e identificación de **personas responsables de recibir quejas**.
+
+El **art. 63** establece que todos los **Departamentos Ministeriales y Organismos Públicos** remitirán información **al menos anualmente** sobre aplicación de igualdad, con datos desagregados por sexo de plantilla y otros indicadores. Se conserva la **literalidad legal de los órganos destinatarios**, sin sustituir su denominación por ministerios actuales.
+
+Según el **art. 64**, el **Gobierno** aprueba, **al inicio de cada legislatura**, un **Plan de Igualdad** en la **AGE** y organismos vinculados o dependientes. El Plan se negocia con la representación legal del personal y su cumplimiento se **evalúa anualmente por el Consejo de Ministros**.
+
+| Artículo | Competencia/obligación | Plazo o frecuencia |
+|---|---|---|
+| **62** | Protocolo frente al acoso y denuncia reservada | Según negociación y procedimientos |
+| **63** | Departamentos ministeriales y organismos públicos: datos de igualdad | **Al menos anualmente** |
+| **64** | **Gobierno**: aprobar Plan AGE | **Al inicio de cada legislatura** |
+| **64** | **Consejo de Ministros**: evaluar cumplimiento | **Anualmente** |
+
+> ⚠️ **¡Foco Examen!:** El **Gobierno aprueba** el Plan y el **Consejo de Ministros evalúa anualmente** su cumplimiento; no atribuir estas funciones al **Pleno municipal** por ser la oposición de Olías.
+
+## 11. Ejercicio aplicado
 
 **Supuesto:** ante una incidencia en el edificio municipal que afecte a una persona, un equipo o un procedimiento, identifica **competencia del auxiliar, comunicación al responsable, protección de datos y seguridad**, sin inventar atribuciones. La solución ha de basarse en las reglas del tema, el **procedimiento municipal autorizado** y las normas indicadas.
 
@@ -83,4 +147,4 @@ El **art. 64** contempla **Plan de Igualdad en la Administración General del Es
 - [**LO 3/2007, igualdad**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) — arts. 3-7, 51-54 y 64.
 - [**TREBEP**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) — arts. 14 y 52-54.
 
-**Control pendiente:** revisión integral de aplicación municipal y de distractores. La correcta estructura y los test no convierten este tema en «AUDITADO».
+**Control parcial BOE 04/11/2026:** añadidos y contrastados **arts. 52 y 54–64 de la LO 3/2007**. Pendiente auditoría jurídica y editorial integral del tema y banco de preguntas. La correcta estructura y los test no convierten este tema en «AUDITADO».

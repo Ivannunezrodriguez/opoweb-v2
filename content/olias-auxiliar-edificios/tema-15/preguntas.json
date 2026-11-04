@@ -170,6 +170,118 @@
       "justificacion": "Un disparo repetido puede avisar de defecto y requiere análisis competente.",
       "trampaExamen": "No anular protecciones.",
       "referencia": "RD 614/2001, art. 4"
+    },
+    {
+      "id": "OLIAS-T15-013",
+      "enunciado": "Según ITC-BT-28, el alumbrado de evacuación en el eje de pasos principales debe ofrecer como mínimo:",
+      "opciones": [
+        "0,1 lux",
+        "1 lux",
+        "10 lux",
+        "50 lux"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Mínimo 1 lux a nivel del suelo y eje de rutas.",
+      "trampaExamen": "No confundir con 5 lux en equipos manuales de incendios y cuadros.",
+      "referencia": "REBT, ITC-BT-28, 3.1.1"
+    },
+    {
+      "id": "OLIAS-T15-014",
+      "enunciado": "En puntos de equipos manuales de protección contra incendios y cuadros de alumbrado se exige:",
+      "opciones": [
+        "0,5 lux",
+        "1 lux",
+        "5 lux",
+        "15 lux"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Mínimo 5 lux en dichos puntos.",
+      "trampaExamen": "Las rutas de evacuación tienen referencia de 1 lux.",
+      "referencia": "REBT, ITC-BT-28, 3.1.1"
+    },
+    {
+      "id": "OLIAS-T15-015",
+      "enunciado": "Iluminancia horizontal mínima del alumbrado ambiente o antipánico:",
+      "opciones": [
+        "1 lux",
+        "5 lux",
+        "15 lux",
+        "0,5 lux"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El apartado 3.1.2 exige 0,5 lux en el espacio considerado.",
+      "trampaExamen": "0,5 lux no es la cifra del eje de evacuación.",
+      "referencia": "REBT, ITC-BT-28, 3.1.2"
+    },
+    {
+      "id": "OLIAS-T15-016",
+      "enunciado": "Duración mínima de alumbrado de evacuación tras fallo de alimentación normal:",
+      "opciones": [
+        "1 hora",
+        "10 minutos",
+        "4 horas",
+        "15 minutos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La ITC-BT-28 exige al menos una hora con iluminancia prevista.",
+      "trampaExamen": "No aplicar esta duración a todo tipo de iluminación especial indiscriminadamente.",
+      "referencia": "REBT, ITC-BT-28, 3.1.1"
+    },
+    {
+      "id": "OLIAS-T15-017",
+      "enunciado": "En zonas de alto riesgo, ¿qué iluminancia mínima se toma?",
+      "opciones": [
+        "Siempre 0,5 lux",
+        "15 lux o 10 % de la normal, lo que sea mayor",
+        "Siempre 1 lux",
+        "Solo 5 lux"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Se toma el mayor de 15 lux y 10 % de iluminación normal.",
+      "trampaExamen": "La autonomía es el tiempo necesario de abandono seguro, no automáticamente una hora.",
+      "referencia": "REBT, ITC-BT-28, 3.1.3"
+    },
+    {
+      "id": "OLIAS-T15-018",
+      "enunciado": "El alumbrado de seguridad entra automáticamente cuando la tensión del normal es inferior al:",
+      "opciones": [
+        "30 %",
+        "50 %",
+        "70 % del nominal",
+        "90 %"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El apartado 3.1 indica activación cuando cae por debajo del 70 %.",
+      "trampaExamen": "La cifra no se refiere a batería mínima.",
+      "referencia": "REBT, ITC-BT-28, 3.1"
+    },
+    {
+      "id": "OLIAS-T15-019",
+      "enunciado": "La ITC-BT-28 define «cerca» de diversos elementos de seguridad como distancia horizontal inferior a:",
+      "opciones": [
+        "0,5 metros",
+        "1 metro",
+        "5 metros",
+        "2 metros"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El apartado 3.3.1 define cerca como menos de 2 m horizontalmente.",
+      "trampaExamen": "No confundir con anchuras de evacuación.",
+      "referencia": "REBT, ITC-BT-28, 3.3.1"
+    },
+    {
+      "id": "OLIAS-T15-020",
+      "enunciado": "¿Cuál es alumbrado de emergencia que permite continuidad de actividades normales?",
+      "opciones": [
+        "De reemplazamiento",
+        "De evacuación exclusivamente",
+        "De señalización vial",
+        "Antipánico únicamente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Es la definición de reemplazamiento (3.2).",
+      "trampaExamen": "Cuando da menos iluminancia que normal sirve para terminar con seguridad, no continuar sin límite.",
+      "referencia": "REBT, ITC-BT-28, 3.2"
     }
   ]
 }

@@ -89,9 +89,29 @@ Ante un disparo repetido de un diferencial, luz de emergencia averiada o alumbra
 
 > ⚠️ **¡Foco Examen!:** Una **sirena no sustituye** al alumbrado de emergencia; son funciones diferentes.
 
-## 10. Normativa oficial
-- [**RD 842/2002, REBT**](https://www.boe.es/buscar/act.php?id=BOE-A-2002-18099): **ITC-BT-17, 18, 24, 25**.
+## 10. Alumbrado de emergencia en locales de pública concurrencia — **ITC-BT-28**
+
+El **Reglamento Electrotécnico para Baja Tensión** regula las **instalaciones en locales de pública concurrencia** en su **ITC-BT-28**. No debe extrapolarse que **todos** los edificios municipales tienen idéntico ámbito, ocupación o sistema: se determina para el local según el campo de aplicación y el proyecto.
+
+El alumbrado de emergencia puede ser **de seguridad** o **de reemplazamiento**. Dentro del **alumbrado de seguridad** se distinguen **evacuación**, **ambiente o antipánico** y **zonas de alto riesgo**.
+
+| Modalidad | Exigencia de iluminancia | Autonomía / funcionamiento |
+|---|---|---|
+| **Evacuación** (eje de pasos principales, nivel del suelo) | Mínimo **1 lux** | Al menos **1 hora** desde fallo de alimentación normal |
+| **Equipos manuales antiincendios y cuadros de alumbrado** | Mínimo **5 lux** | Dentro de alumbrado de seguridad pertinente |
+| **Ambiente o antipánico** | Mínimo **0,5 lux** en el volumen prescrito | Al menos **1 hora** |
+| **Zonas de alto riesgo** | Mínimo **15 lux** **o 10 %** del alumbrado normal, **el mayor** | Tiempo necesario para abandonar actividad/zona con seguridad |
+| **Reemplazamiento** | Depende del uso y condiciones reglamentarias | Permite continuidad de actividad o acabar trabajo con seguridad |
+
+Según la **ITC-BT-28, apdo. 3.1**, el alumbrado de seguridad debe entrar en funcionamiento **automáticamente** ante fallo del alumbrado general o cuando su tensión descienda a menos del **70 % del valor nominal**, con fuente propia de energía y condiciones de instalación reglamentarias.
+
+La **ITC-BT-28, apdo. 3.3.1**, exige alumbrado de seguridad, entre otros puntos, en salidas de emergencia, cambios de dirección de rutas de evacuación, intersecciones, junto a escaleras/cambios de nivel, primeros auxilios, extintores manuales y cuadros de alumbrado. A estos efectos, en varios puntos indicados la norma define «**cerca**» como distancia horizontal inferior a **2 metros**.
+
+> ⚠️ **¡Foco Examen!:** **1 lux** en **eje de ruta**, **5 lux** en equipos antiincendios manuales y cuadros, **0,5 lux** ambiente/antipánico; **15 lux o 10 %** para **alto riesgo**, el mayor. La autonomía de **1 hora** es exigencia de evacuación/antipánico; **no aplicar una hora indiscriminadamente a alto riesgo**.
+
+## 11. Normativa oficial
+- [**RD 842/2002, REBT**](https://www.boe.es/buscar/act.php?id=BOE-A-2002-18099): **ITC-BT-17, 18, 24, 25 y 28**.
 - [**RD 614/2001**](https://www.boe.es/buscar/act.php?id=BOE-A-2001-11881): **artículo 4, anexo II**.
 - [**Ley 31/1995, PRL**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292): **arts. 14, 17, 20, 29**.
 
-**Pendiente de auditoría:** particularidades de **locales de pública concurrencia**, instalaciones de emergencia y aspectos reglamentarios de mantenimiento.
+**Contraste parcial BOE 04/11/2026:** alumbrado de emergencia de locales de pública concurrencia revisado con **ITC-BT-28**. **Pendiente:** verificar condiciones específicas por tipo de edificio, mantenimiento y auditoría integral del tema.

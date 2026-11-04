@@ -10,10 +10,10 @@
 
 | Inciso del programa | Norma principal | Artículos/referencia | Contenido exigible |
 |---|---|---|---|
-| Administración Pública: concepto y clases | Ley 7/1985, régimen local | arts. 1, 3, 11, 19-22, 25-26 | Conceptos, límites y ejemplos del apartado |
-| El municipio y sus elementos | Ley 7/1985, régimen local | arts. 1, 3, 11, 19-22, 25-26 | Conceptos, límites y ejemplos del apartado |
-| Órganos municipales | Ley 7/1985, régimen local | arts. 1, 3, 11, 19-22, 25-26 | Conceptos, límites y ejemplos del apartado |
-| Hacienda Pública y clases de ingresos | Ley 7/1985, régimen local | arts. 1, 3, 11, 19-22, 25-26 | Conceptos, límites y ejemplos del apartado |
+| Administración pública, concepto y clases | Constitución Española de 1978 y Ley 40/2015 | **CE art. 103; Ley 40/2015 art. 2** | Organización, objetividad y sector público |
+| Administración local y municipio | Ley 7/1985 (LRBRL) y CE | **LRBRL arts. 1, 3 y 11; CE arts. 137 y 140** | Entidades locales, territorio, población y organización |
+| Órganos de gobierno municipal | Ley 7/1985 (LRBRL) | **arts. 19-23, con atención a 20-22** | Alcalde, Pleno, Junta de Gobierno Local y sustituciones |
+| Hacienda Pública y clases de recursos | CE y RDL 2/2004 (TRLRHL) | **CE art. 142; TRLRHL arts. 2, 20 y 59** | Impuestos, tasas, contribuciones especiales, precios públicos y otros recursos |
 
 ## 3. Administración Pública: concepto y clases
 
