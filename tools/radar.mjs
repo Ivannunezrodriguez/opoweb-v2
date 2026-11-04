@@ -38,11 +38,21 @@ const results=await Promise.allSettled([
    const vacancies=[];
    for(let i=0;i<generic.length;i+=4){
     const batch=generic.slice(i,i+4);
-    const expanded=await Promise.all(batch.map(async x=>{
+    // One inaccessible notice must not discard the weekly BOE source.
+    const expanded=await Promise.allSettled(batch.map(async x=>{
      const html=await (await get(x.url,'text/html')).text();
-     return boeVacancyEntries(x,html);
+     const positions=boeVacancyEntries(x,html);
+     if(!positions.length)throw new Error('BOE_SIN_PUESTOS_EXTRAIDOS');
+     return positions;
     }));
-    vacancies.push(...expanded.flat());
+    for(let j=0;j<expanded.length;j++){
+     const result=expanded[j];
+     if(result.status==='fulfilled')vacancies.push(...result.value);
+     else{
+      console.error('BOE desglose no disponible:',batch[j].id,String(result.reason));
+      vacancies.push({...batch[j],expansionFailed:true});
+     }
+    }
    }
    entries.push(...[...items.filter(x=>!genericIds.has(x.id)),...vacancies].map(x=>({...x,source:'BOE'})));
   }
