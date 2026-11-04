@@ -17,7 +17,7 @@
 
 El [**BOCM 30/12/2025**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF) distingue **concepto 640** de **capítulo VI**. La antigua enumeración duplicada de «Capítulo VI: investigación específica» fue sustituida por la ubicación real en el concepto **640**.
 
-| Plazo de gestión de impagados en el manual UC3M | Hito, sujeto a cotejo directo de las Normas Básicas de Gestión |
+| Plazo de gestión de facturas del **artículo 14.2 (Volumen I)** | Hito confirmado en el **PDF original UC3M** |
 |---|---|
 | **30 días** | Plazo ordinario de cobro |
 | **60 días** | Recordatorio |
@@ -187,5 +187,17 @@ El [**BOCM 30/12/2025**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BO
 ## 3. Reservas de evidencia y alcance
 
 - **12 preguntas/48 opciones** revisadas de forma individual; las cifras del presupuesto anual y por capítulos están **contrastadas directamente con publicación primaria BOCM**.
-- Las reglas operativas propias de las **Normas Básicas de Gestión, Volumen I** sobre vinculación por conceptos, transferencias y calendario de incobrados se cotejan **contra lo que el manual y fuentes atribuyen a ese documento**. **No se ha recuperado íntegro y leído en esta actuación su documento primario de ejecución**; queda como **reserva de validación primaria** para las preguntas **T18-006, T18-008 y T18-012**, sin alterar su banco mientras la lectura exacta de las normas internas esté pendiente.
+- **Fuente primaria recuperada y cotejada directamente**: [**UC3M Presupuesto 2026, Volumen I, original de 150 páginas**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view). Las reglas de **vinculación (art. 5, pág. 78)**, **transferencias de capital a corrientes (art. 6, pág. 79)** y **seguimiento de incobrados (art. 14.2, pág. 94)** corroboran **T18-006, T18-008 y T18-012**. Se cierran **estas reservas específicas**, sin atribuir certificación integral del tema.
 - La revisión del banco **no certifica** aún todo el manual, accesibilidad, navegación real ni aprobación de usuario. No presentar como certeza documental primaria lo que aquí procede de atribuciones del material existente.
+
+## 4. Contraste específico posterior: recuperación del Volumen I institucional
+
+| Ítem | Respuesta literal del banco | Control documental original |
+|---|---|---|
+| **T18-006** | **B: nivel de concepto dentro de cada centro y programa** | **Art. 5, pág. 78**. Excepciones: **capítulos I, II y VI** vinculan a nivel de **capítulo**; además nivel concreto de representación y nominativas |
+| **T18-008** | **B: Consejo Social y autorización del Gobierno de la Comunidad de Madrid** | **Art. 6, pág. 79**. Capital hacia corriente requiere **Consejo Social previa autorización del Gobierno autonómico** |
+| **T18-012** | **A: 120 días** | **Art. 14.2, pág. 94**. Grupo de seguimiento **120 días**, proceso de incobrados **90 días**, recordatorio **60 días**, plazo de cobro **30 días** |
+
+Fuente: [**documento UC3M original de Presupuesto 2026, Volumen I**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view). Este control **sí** se apoya en el original publicado por la universidad; el informe antiguo declaraba una reserva de acceso que ha quedado **resuelta** en estos ítems. La validación funcional de navegador y la certificación jurídica completa permanecen pendientes.
+
+> ⚠️ **¡Foco Examen!:** **Vinculación por concepto** es regla general, pero **I, II y VI** vinculan a nivel de **capítulo**. La secuencia de facturas **30/60/90/120 días** tiene cuatro hitos distintos.
