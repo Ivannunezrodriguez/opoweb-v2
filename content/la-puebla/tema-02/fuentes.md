@@ -19,3 +19,7 @@
 > ⚠️ **¡Foco Examen!:** Una notificación de **31 de enero** con plazo de **un mes** vence, en principio, el **último día de febrero**; si es inhábil, **no vence allí**, sino el **primer día hábil siguiente**.
 
 **Pendiente:** contraste sustantivo del resto de distractores y prueba en navegador. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Revisión integral jurídico-editorial — **04/11/2026**
+
+Contrastados **5 bloques**, **12 preguntas** y **48 opciones** contra [Ley 39/2015 consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) en [el informe por precepto y distractor](cotejo-integral-2026-11-04.md). **AUDITADO contenido; pendiente navegador real**.

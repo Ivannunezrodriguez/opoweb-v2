@@ -866,3 +866,9 @@ Responder sin consultar:
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 2 aprobado»** el 17 de julio de 2026.
+
+## 52. Cotejo jurídico-editorial de **04/11/2026**
+
+Revisados los cinco incisos, la **Ley 39/2015, arts. 1–33**, el manual y las **48 alternativas del banco**. Véase [revisión jurídica individual y descarte de distractores](cotejo-integral-2026-11-04.md). **Contenido AUDITADO; prueba funcional real pendiente**.
+
+> ⚠️ **¡Foco Examen!:** **Art. 30.4–5**: si falta día equivalente, plazo mensual concluye el último día del mes, prorrogado al primer hábil si fuera inhábil.

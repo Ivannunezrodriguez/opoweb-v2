@@ -4,7 +4,7 @@
 
 `EN_REVISION_USUARIO`
 
-El manual no está publicado como aprobado y el banco de preguntas permanece vacío.
+El manual está publicado y el banco contiene **12 preguntas**. Su revisión jurídico-editorial completa se registró el **04/11/2026**; prueba funcional independiente pendiente.
 
 ## Epígrafe oficial
 
@@ -76,3 +76,7 @@ Hasta recibir aprobación expresa:
 - no se publica como manual aprobado;
 - no se crean preguntas;
 - no se comienza a presentar el tema 3 como cerrado.
+
+## Revisión 04/11/2026
+
+[48 alternativas cotejadas una a una](cotejo-integral-2026-11-04.md) con **Ley 39/2015, arts. 1–33**. **AUDITADO jurídico-editorial**; no supone certificación funcional del portal.
