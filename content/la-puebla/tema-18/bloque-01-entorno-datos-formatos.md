@@ -156,7 +156,7 @@ Pegar solo valores elimina la fórmula del resultado pegado. Es útil para fijar
 
 ### CSV
 
-CSV no conserva un libro completo. Normalmente guarda una sola hoja, texto y valores visibles y separadores de campos. No conserva múltiples hojas, gráficos, formato complejo ni fórmulas reutilizables como tales.
+CSV es un **archivo de texto tabular delimitado**, no un libro ni una hoja editable nativa. Al exportarlo desde Excel o Calc se guardan **solo los datos de la hoja activa** como texto/valores; no incluye varias hojas, gráficos, formatos ni fórmulas reutilizables como tales.
 
 El delimitador real puede ser coma, punto y coma, tabulación u otro, según la configuración y el proceso de importación o exportación.
 
