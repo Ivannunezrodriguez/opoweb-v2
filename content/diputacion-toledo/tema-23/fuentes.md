@@ -24,3 +24,20 @@
 - Contenido redactado de forma autónoma, sin reutilizar temarios de otras convocatorias.
 - Los plazos, umbrales, órganos y mayorías se han resaltado en **negrita**.
 - No se considera contenido aprobado automáticamente: mantiene el estado `GENERACION_DESDE_CERO` hasta la auditoría global de integración.
+
+
+## Auditoría de redundancias del banco — **04/11/2026**
+
+Se cotejó el banco de **20 preguntas** con [Ley 31/1995](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) y [RD 39/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853). Se detectó repetición sustantiva en cinco preguntas: Comité trimestral, paralización, **24 horas**, vigilancia de salud y constitución de Comité de **50** empleados ya constaban en otras preguntas.
+
+| ID mantenido | Contenido nuevo, distinto del resto | Fuente principal |
+|---|---|---|
+| **DIP-T23-015** | Informe ordinario de Delegados en **15 días**, salvo tiempo imprescindible ante riesgo inminente | **LPRL 36.3** |
+| **DIP-T23-017** | Medidas de **primeros auxilios, lucha contra incendios y evacuación** | **LPRL 20** |
+| **DIP-T23-018** | Obligación de **no inutilizar dispositivos de seguridad** | **LPRL 29.2.3.º** |
+| **DIP-T23-019** | Definición y medios de **servicio de prevención** | **LPRL 31.2** |
+| **DIP-T23-020** | Servicio de prevención propio **más de 500**, o **250–500** en actividades **anexo I** | **RD 39/1997, 14** |
+
+Se actualizaron **las claves, los textos de pregunta efectivos del render (`pregunta`), `trampa`, referencias, explicaciones y la literalidad correcta**. Se conservaron IDs, cuatro opciones y la distribución de **5 respuestas correctas por letra**. El primer intento de edición generó simultáneamente los campos `pregunta` y `enunciado`; se corrigió inmediatamente, eliminando el campo ambiguo, y se incorporó prueba contra esa regresión. **Auditoría jurídica y pedagógica focal, no certificación íntegra del manual.**
+
+> ⚠️ **¡Foco Examen!:** **Comité 50 empleados** ≠ **servicio propio más de 500**, y **15 días** de informe de delegados ≠ **24 horas** de confirmación/anulación de paralización por **autoridad laboral**.
