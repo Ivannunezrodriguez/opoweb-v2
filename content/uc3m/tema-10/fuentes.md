@@ -37,3 +37,9 @@ Fecha de revisión editorial: **22 de julio de 2026**.
 | Corte de legislación UC3M | **Pendiente de resolución primaria fechada**; una fuente secundaria señala **01/10/2026** |
 
 > ⚠️ **¡Foco Examen!:** Distingue **publicación de la reforma**, **entrada en vigor** y **fecha de corte de bases**. No incorporar un artículo reformado después del corte, por más que esté vigente cuando se celebra la prueba.
+
+## Cotejo de las 48 alternativas del banco · 04/11/2026
+
+[**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
+
+> ⚠️ **¡Foco Examen!:** **TREBEP art. 64.2**: la prohibición de aceptar renuncia cuando existe auto de procesamiento o apertura de juicio oral se refiere a **algún delito**, no solo a delitos funcionales.
