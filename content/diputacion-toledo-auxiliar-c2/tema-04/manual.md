@@ -1110,3 +1110,9 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 4 aprobad
 > ⚠️ **¡Foco Examen!:** La interposición de recurso **no suspende automáticamente** ejecución (art. **117.1**). La revisión de oficio de actos nulos requiere **dictamen favorable** de **Consejo de Estado u órgano consultivo autonómico equivalente** (art. **106.1**).
 
 **Fuente:** [Ley 39/2015, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco de **20 preguntas** con fundamentación legal.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Revisión pormenorizada de las 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con fundamento del **Título V de la Ley 39/2015**, descarte por opción y «¡Foco Examen!» individual. Se conservan las claves originales. Este cierre documental del **banco** no acredita revisión de cada frase del manual, navegador real, accesibilidad ni aprobación del usuario.
+
+> ⚠️ **¡Foco Examen!:** **Alzada 1 mes de interposición y 3 de resolución**; **reposición 1 y 1**; extraordinario **4 años** por error de hecho y **3 meses** por las otras causas; **lesividad local por el Pleno** y **6 meses** para caducidad del expediente.
