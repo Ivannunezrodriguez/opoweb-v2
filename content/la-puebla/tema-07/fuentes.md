@@ -48,3 +48,8 @@ Se cotejó la **respuesta correcta literal** y la regla que la fundamenta frente
 **Precisión didáctica:** La pregunta **LP-T07-008** ahora explicita que el supuesto **más de 500 trabajadores** del art. **14.a** exige servicio propio **con independencia de la actividad**; el caso de **250 a 500** del art. **14.b** requiere actividades del **anexo I**.
 
 > ⚠️ **¡Foco Examen!:** **Más de 500** empleados por art. **14.a** ≠ **250–500** con actividades peligrosas del anexo I por art. **14.b**.
+
+## Control de banco completo — **04/11/2026**
+
+**12 preguntas, 48 alternativas** cotejadas individualmente con artículos del [BOE consolidado LPRL](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) y [RSP](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853). [**Cotejo jurídico-editorial completo**](cotejo-integral-2026-11-04.md). Corregida **LP-T07-005** para delimitar las **24 horas** a la paralización acordada por representación conforme **art. 21.3**; el ítem anterior omitía sujeto y presupuesto de esta regla especial. La matriz se marca **AUDITADO** solo para componente jurídico-editorial, pendiente control funcional real.
+

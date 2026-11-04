@@ -120,7 +120,14 @@ Deben analizarse emergencias según tamaño, actividad y presencia de terceros. 
 
 El empresario informa inmediatamente y permite interrumpir la actividad y abandonar el lugar. No puede exigirse reanudación mientras persista el peligro, salvo excepción justificada.
 
-Los representantes pueden acordar paralización por mayoría; si no pueden reunirse, la mayoría de Delegados de Prevención puede hacerlo. Se comunica a empresa y autoridad laboral, que confirma o anula en **24 horas**. No procede perjuicio salvo mala fe o negligencia grave.
+**Si el empresario no adopta las medidas necesarias** ante el riesgo grave e inminente, los **representantes legales de los trabajadores**, **por mayoría de sus miembros**, pueden acordar paralizar la actividad afectada. Si no pueden reunirse con urgencia, podrá decidirlo la **mayoría de los Delegados de Prevención**. Se comunica **inmediatamente** a la empresa y a la **autoridad laboral**, que la **anulará o ratificará en 24 horas** (**art. 21.3 LPRL**). No procede perjuicio para trabajadores o representantes salvo mala fe o negligencia grave.
+
+| Supuesto | Autoridad o persona que actúa | Regla temporal |
+|---|---|---|
+| Riesgo grave e inminente: interrupción personal | **Trabajador** (art. **21.2**) | Derecho de interrupción **inmediata** si es necesario |
+| Falta de medidas empresariales: paralización representativa | **Mayoría de representantes**; subsidiariamente **mayoría de Delegados** cuando no puedan reunirse | Comunicar **inmediatamente**; **autoridad laboral** ratifica/anula en **24 horas** (art. **21.3**) |
+
+> ⚠️ **¡Foco Examen!:** **24 horas** no es un plazo universal de actuación del trabajador o empresario: corresponde al control de la **autoridad laboral** sobre **la paralización acordada por representantes** (**art. 21.3**).
 
 ## 16. Artículo 22 · vigilancia de la salud
 
@@ -281,7 +288,7 @@ Son representantes especializados, elegidos por y entre representantes del perso
 
 | Plantilla | Delegados |
 |---:|---:|
-| Hasta 30 | Delegado de Personal |
+| Hasta 30 | **1 Delegado de Prevención**, que será el **Delegado de Personal** cuando exista representación legal |
 | 31–49 | 1 |
 | 50–100 | 2 |
 | 101–500 | 3 |
@@ -479,3 +486,9 @@ Informar después de contratar servicio ajeno no cumple la consulta previa.
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 7 aprobado»** el 17 de julio de 2026.
+
+## 60. Control jurídico-editorial de **04/11/2026**
+
+Se han cotejado los **7 incisos de cobertura de la matriz**, el contenido jurídico del manual y las **12 preguntas con 48 alternativas** a partir de [Ley 31/1995](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) y [RD 39/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853). Las exclusiones se documentan en [cotejo integral](cotejo-integral-2026-11-04.md). **Cierre jurídico-editorial**; no implica prueba real de navegador y móvil ni inmunidad a reformas posteriores.
+
+> ⚠️ **¡Foco Examen!:** **24 horas** control de paralización representativa, **15 días** informe ordinario de Delegados, **más de 500 trabajadores** servicio propio y **50 o más** Comité de Seguridad y Salud.

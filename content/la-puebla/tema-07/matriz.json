@@ -3,7 +3,7 @@
   "estado": "APROBADO_USUARIO",
   "aprobadoEl": "2026-07-17",
   "epigrafeOficial": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos laborales: Derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
-  "fechaRevisionNormativa": "2026-07-30",
+  "fechaRevisionNormativa": "2026-11-04",
   "normas": [
     {
       "titulo": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales",
@@ -111,5 +111,14 @@
     "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a4",
     "correccion": "Sustituida suma no prevista en ley por valoración conjunta de probabilidad y severidad",
     "estado": "REVISION_PARCIAL_SIN_CERTIFICACION_INTEGRAL"
+  },
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "Siete bloques de programa, manual, doce claves y 48 opciones con cotejo artículo por artículo",
+    "documento": "content/la-puebla/tema-07/cotejo-integral-2026-11-04.md",
+    "opcionesVerificadas": 48,
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionTecnicaGlobal": false
   }
 }
