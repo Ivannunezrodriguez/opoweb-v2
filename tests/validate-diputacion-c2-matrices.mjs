@@ -3,7 +3,8 @@ import {readFileSync} from 'node:fs';
 const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const base='content/diputacion-toledo-auxiliar-c2/tema-';
 const programme=read('data/programa-diputacion-auxiliar-c2-2026.json');
-const covered=[2,3,4,8,13];
+const covered=programme.temas.filter(t=>t.matriz).map(t=>t.numero);
+assert.deepEqual(covered,[1,2,3,4,5,7,8,9,10,11,12,13],'Expected audited inventory of documentary matrices; T6 OAPGT is intentionally last');
 let checked=0;
 for(const n of covered){
  const topic=programme.temas.find(t=>t.numero===n);
@@ -23,5 +24,5 @@ for(const n of covered){
  }
  checked++;
 }
-assert.equal(checked,5);
-console.log('DIPUTACION_C2_5_OFFICIAL_SOURCE_MATRICES_PRESENT_AND_PENDING_LEGAL_REVIEW_OK');
+assert.equal(checked,12);
+console.log('DIPUTACION_C2_12_OFFICIAL_SOURCE_MATRICES_PRESENT_AND_PENDING_LEGAL_REVIEW_OK');
