@@ -51,10 +51,10 @@
 |---:|---|
 | 104.1 | naturaleza y transmisión o derecho real sobre terreno urbano |
 | 104.2 | terrenos rústicos y bienes de características especiales |
-| 104.3 | supuestos familiares no sujetos |
-| 104.4 | operaciones específicas vinculadas a SAREB |
-| 104.5 | inexistencia de incremento, prueba y comparación de valores |
-| 105 | exenciones esenciales como complemento |
+| 104.3 | supuestos familiares **tasados**; transmisión lucrativa tras fallecimiento de mujer por violencia contra la mujer a beneficiarios definidos por ley (LO 2/2022) |
+| 104.4 | no devengo en operaciones tasadas de **SAREB**, participadas **≥50 %** y fondos; continuidad del período de generación en posterior transmisión |
+| 104.5 | inexistencia de incremento; **declarar y aportar títulos**, mayor valor documentado o comprobado sin gastos, regla de suelo/construcción y cómputo en transmisión posterior con excepciones |
+| 105 | exenciones esenciales; dación en pago/ejecución de vivienda habitual con **empadronamiento de dos años** o desde adquisición más reciente y restantes requisitos |
 | 106.1.a | adquirente en transmisiones lucrativas |
 | 106.1.b | transmitente en transmisiones onerosas |
 | 106.2 | adquirente sustituto cuando el transmitente es persona física no residente |
