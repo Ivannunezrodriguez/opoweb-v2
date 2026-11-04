@@ -90,3 +90,9 @@ Fuentes contrastadas a **23 de julio de 2026**.
 - Las reglas internas de vinculación, transferencias e incobrados se derivan del **Volumen I de Presupuesto UC3M 2026** al que enlazan las fuentes antiguas. El **anexo BOCM** confirma importes por capítulo y acuerdo de aprobación, **no sustituye** las normas internas de ejecución para esos trámites.
 
 > ⚠️ **¡Foco Examen!:** **55.170.132,65 €** figura en el **concepto 640**, **dentro del capítulo VI**, no como un supuesto «segundo capítulo VI». **Capítulo IV (146.834.705,33 €)** es el **principal ingreso** del presupuesto **2026**.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Se han verificado directamente los importes en el **BOCM**; normas de vinculación, transferencias e incobrados aún requieren lectura primaria del **Volumen I UC3M 2026**. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
+
+> ⚠️ **¡Foco Examen!:** **Presupuesto UC3M 2026 = 300.468.067,59 €**. **Capítulo IV** es principal ingreso y **concepto 640** está dentro del **único capítulo VI** de gastos.
