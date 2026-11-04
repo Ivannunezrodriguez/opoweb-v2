@@ -718,3 +718,39 @@ Prueba nueva **tests/validate-cross-oposiciones.mjs** comprueba inventario **121
 **Secuencia editorial:** 1) **La Puebla** (14/11): T14 resto de AGE, T10/T12/T13; 2) **UC3M** (21/11): resolver fecha de corte, auditar T15/T16 y simulacros 70+5; 3) **Diputación Toledo C2/C1**: materias compartidas, empleo público y tributación, manteniendo OAPGT T6 al final; 4) **Olías C2**: ampliar y auditar borradores de **22 temas**, **264 preguntas temáticas + 40 psicotécnicas**, especialmente T6, T9, T11, T17, T19, T21 y municipio T5/T13, con **inscripción pendiente la semana 09/11** y contradicciones BOE/BOP de plazos/plazas aún abiertas; 5) **Radar de empleo**: vigilar su ejecución y calidad sin desplazar toda la preparación de los exámenes próximos.
 
 > ⚠️ **¡Foco Examen!:** **Recusación: día siguiente/tres días**; **UC3M: mitad más uno frente a mayoría simple**; **IAE: cifra de grupo frente a cifra individual**; **IBI: no sujeción frente a exención**.
+
+## 32. Indicadores medibles, revisión territorial y criterio de avance — **04/11/2026**
+
+### 32.1 Indicadores por convocatoria (manifiestos vivos de main)
+
+| Programa | Entradas del anexo / temas | Sin etiqueta BORRADOR | Proporción de temas fuera de BORRADOR | Etiquetas del manifiesto | Certificación jurídica integral nueva, documentada en noviembre |
+|---|---:|---:|---:|---|---:|
+| **La Puebla C2** | **19** | **19** | **100 %** | **19 APROBADO_USUARIO** (aprobación de julio, no noviembre) | **0/19** |
+| **UC3M C2** | **20** | **20** | **100 %** | **20 EN_REVISION_USUARIO** | **0/20** |
+| **Diputación Auxiliar C2** | **20** | **19** | **95 %** | **19 EN_REVISION_USUARIO, 1 BORRADOR (T6 OAPGT)** | **0/20** |
+| **Diputación Administrativo C1** | **40** | **40** | **100 %** | **40 GENERACION_DESDE_CERO** (modo de elaboración, no aprobación) | **0/40** |
+| **Olías Auxiliar edificios C2** | **22** | **22** | **100 %** | **22 EN_AUDITORIA** | **0/22** |
+| **TOTAL** | **121** | **120** | **99,17 % (redondeado 99,2 %)** | Estados heterogéneos, no intercambiables | **0/121** |
+
+**Cómo interpretar el cálculo:** la cifra **120/121** significa únicamente que **120 temas no tienen actualmente la etiqueta BORRADOR**, no que 120 estén completamente listos para estudiar sin fuentes, ni que su exactitud sea **99,2 %**. Hay primera redacción de C1 y Olías y revisión pendiente UC3M/C2. La **cobertura de programa registrado es 121/121 = 100 %**; la **recertificación jurídica total nueva y documentada** de noviembre es **0/121 = 0 %**, sin implicar que los temas sean erróneos. **No** existe un indicador defendible de «% exactitud de contenidos» a partir de CI y estados de archivo. Los **19 APROBADO_USUARIO** de La Puebla son aprobación editorial **histórica de julio**.
+
+**Cifras de práctica conservadas:** La Puebla **228 preguntas temáticas**, UC3M **260**, Diputación C2 **409**, Diputación C1 **803**, Olías **264 + 40 psicotécnicas**. El total de preguntas bancarias de **temario** es **1964**, más **40 psicotécnicas de Olías**; los simulacros reutilizan preguntas y **no se suman** por duplicado. Estos son recuentos de fuentes/registro §31, no recuentos certificados jurídicamente pregunta por pregunta.
+
+### 32.2 Cambio de esta intervención: La Puebla T14 y reutilización prudente en C2
+
+Se contrastaron [**Ley 40/2015, arts. 69–75, especialmente 70, 72.4–5 y 74**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) con bloque territorial del **tema 14 La Puebla**. Nuevas tablas en `manual.md` y `bloque-05-age-territorial-exterior.md` sobre:
+
+- **Delegado:** **Consejo de Ministros** por **Real Decreto**, propuesta del **Presidente del Gobierno** y requisitos de idoneidad;
+- **Subdelegado y Director Insular:** nombrados por **Delegado**, libre designación de funcionario de carrera **subgrupo A1**, con requisitos de cada órgano;
+- **Art. 72.5:** suple al Delegado el **Subdelegado designado** (o defecto el de provincia sede); en **CCAA uniprovincial sin Subdelegado**, el **Secretario General**;
+- **Art. 74:** **Delegado** asume las **competencias ordinarias del Subdelegado** en CCAA uniprovincial sin él; **no confundir con suplir al propio Delegado**.
+
+La matriz y las fuentes de La Puebla documentan esta revisión de normativa; se anotó también en fuentes de **Diputación C2 T15** como cotejo compartido, **sin copiar ni reabrir su manual**. **LP-T14 conserva 12 preguntas**. Se reforzó `tests/validate-cross-oposiciones.mjs` para exigir la presencia de excepciones de arts. 72.5 y 74. **GitHub Actions CI [41837484676](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41837484676) ha finalizado SUCCESS** para el commit de contenido `7efc9829`; no atribuir a ese éxito revisión pedagógica integral, certificación jurídica ni carga visual real.
+
+**Último estado de despliegue cuando se comprobó:** Pages de commit `7efc9829`, [run 41837483222](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41837483222), figuraba **in_progress**; Pages de commit anterior `bf65ee3bc`, [run 41836665502](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41836665502), **SUCCESS**. Actualizar este hecho al disponer de conclusión, no declarar desplegada la última revisión sin comprobarlo.
+
+### 32.3 Prioridad siguiente sin olvidar otras convocatorias
+
+**La Puebla (14/11):** terminar contraste de órganos AGE de T14 y revisar T10/T12/T13; **UC3M (21/11):** fijar por resolución oficial original la fecha de corte de legislación y auditar preguntas de T15/T16, simulacros 70+5; **Diputación C1/C2:** seguir normas compartidas y regulación provincial, **OAPGT tema 6 C2 al final** por prioridad; **Olías:** auditar técnica y jurídica a fondo T6/T9/T11/T17/T19/T21 y municipio T5/T13, mantener inscripción semana 09/11 y discrepancias oficiales BOP/BOE sin resolver; **Radar:** calidad de fuentes/avisos y no solo ejecuciones verdes. **Todos los programas siguen en curso; ninguna etiqueta es un porcentaje de exactitud.**
+
+> ⚠️ **¡Foco Examen!:** **Art. 72.5** (suplencia del Delegado por Secretario General en el supuesto uniprovincial sin Subdelegado) **≠ art. 74** (el Delegado asume competencias del Subdelegado). **120/121 fuera de borrador ≠ 120 temas jurídicamente certificados.**
