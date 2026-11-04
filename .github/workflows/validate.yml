@@ -81,6 +81,8 @@ jobs:
         run: node tests/validate-diputacion.mjs
       - name: Validar estructura conjunta de 121 temas de cinco convocatorias
         run: node tests/validate-all-programmes.mjs
+      - name: Auditar 240 alternativas exactas de Diputación C2 temas 1-3
+        run: node tests/validate-diputacion-c2-t1-t3-integral.mjs
       - name: Comprobar matrices oficiales de Diputación C2 en cinco temas prioritarios
         run: node tests/validate-diputacion-c2-matrices.mjs
       - name: Verificar LPRL C2 tema 8 (recuento de delegados, informe y definición)
