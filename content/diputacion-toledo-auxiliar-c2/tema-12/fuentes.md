@@ -25,3 +25,16 @@
 **Control independiente:** no se ha ejecutado prueba de interfaz en navegador real.
 
 > ⚠️ **¡Foco Examen!:** **Período ejecutivo** no es sinónimo de **procedimiento de apremio**. Los plazos de **LGT 62.2** y **62.5** son distintos.
+
+## Banco cotejado y preguntas renovadas · 05/11/2026
+
+[**80 alternativas de la recaudación y 20 preguntas comprobadas**](cotejo-integral-2026-11-05.md), con cuatro redundancias reemplazadas y claves originales conservadas:
+
+- [**LGT art.62.3**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62): recibos colectivos y periódicos **1 septiembre–20 noviembre** por defecto, plazo modificable **no inferior a 2 meses**.
+- [**LGT art.167.3**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a167): oposición a providencia **solo por motivos tasados** como **extinción total de deuda o prescripción**.
+- [**LGT art.32.2**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a32): intereses por devolución de ingreso indebido de oficio, cómputo desde **ingreso indebido** hasta **orden de pago**.
+- [**LGT art.72.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a72): compensación solicitada en **voluntaria o ejecutiva**.
+- **Reparados IDs T12-010, T12-013, T12-014 y T12-017**. La comprobación de manual íntegro, navegador y accesibilidad sigue pendiente.
+
+> ⚠️ **¡Foco Examen!:** No confundir **LGT 62.2 (liquidaciones)**, **62.3 (cobro periódico)**, y **62.5 (apremio)**. **5 % / 10 % / 20 %** tienen condiciones legales diferentes.
+
