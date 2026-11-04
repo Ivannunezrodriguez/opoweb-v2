@@ -35,7 +35,7 @@
 | **C** | Título Preliminar, nueve títulos numerados y 169 artículos | No: nueve títulos numerados omite Título X. |
 | **D** | Preámbulo, Título Preliminar, diez títulos numerados y 168 artículos | No: la numeración termina en 169, no 168. |
 
-### LP-T01-003 — Hasta el **4 de noviembre de 2026**, ¿cuántas reformas constitucionales se han aprobado en España?
+### LP-T01-003 — Hasta el 4 de noviembre de 2026, ¿cuántas reformas constitucionales se han aprobado en España?
 
 **Fundamento:** **Reformas constitucionales BOE 1992, 2011, 2024, 2026**. Clave **C**.
 
