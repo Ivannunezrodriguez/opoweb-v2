@@ -27,3 +27,11 @@
 El manual diferencia entre reglas generales de contabilidad pública y reglas específicas de las Normas Básicas de Gestión de la UC3M. Cuando la denominación de un documento o procedimiento dependa del sistema contable interno, se utiliza la nomenclatura habitual de fases presupuestarias sin atribuir una codificación exclusiva no verificada.
 
 Control de vigencia y revisión: **23 de julio de 2026**.
+
+## Trazabilidad de presupuesto y fases · **04/11/2026**
+
+- [**Publicación oficial BOCM del Presupuesto UC3M 2026**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF), resolución **12/12/2025**, publicada **30/12/2025**, acredita cuantías y acuerdo de **Consejo Social 11/12/2025**.
+- Para las fases de gasto **RC, A, D, O y P** y documentos acumulados como **ADO**, la fuente específica son las **Normas Básicas de Gestión del Presupuesto UC3M 2026 (Volumen I)**, recogidas en el portal [**UC3M Presupuestos**](https://www.uc3m.es/economico/presupuestos). El BOCM no desarrolla por sí solo todos los procedimientos operativos internos.
+- [**Ley 5/2025, de Hacienda de la Comunidad de Madrid**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217), con efectos desde **01/01/2026**, sustituye a Ley 9/1990 como marco autonómico del ejercicio presupuestario.
+
+> ⚠️ **¡Foco Examen!:** **Autorización A** = aprobar gasto; **disposición D** = comprometer frente a tercero; **reconocimiento O** = obligación exigible acreditada; **ordenación P** = ordenar pago, distinta de salida efectiva de fondos. **ADO** acumula fases, pero no suprime exigencia de crédito y justificación.
