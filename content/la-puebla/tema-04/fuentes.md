@@ -20,3 +20,8 @@
 > ⚠️ **¡Foco Examen!:** **Cuatro años** para *declarar lesividad* no son los **cuatro años** del recurso extraordinario por *error de hecho*: fundamentos y dies a quo diferentes.
 
 **Pendiente:** examen individual de distractores y jurisprudencia relevante. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Cotejo jurídico-editorial integral — **04/11/2026**
+
+[**Revisión detallada de las 48 alternativas del Tema 4**](cotejo-integral-2026-11-04.md). Revisados los **7 bloques** y las **12 preguntas**, distinguiendo revisión de oficio, lesividad, rectificación, recursos y plazos conforme a Ley **39/2015, arts. 106–126** y LRBRL **52–53**. Se modificó **LP-T04-001** para precisar actos nulos firmes o que ponen fin a la vía, causas del art. 47.1 y dictamen favorable, no solo «en cualquier momento». **Cierre jurídico-editorial; prueba funcional real pendiente**.
+

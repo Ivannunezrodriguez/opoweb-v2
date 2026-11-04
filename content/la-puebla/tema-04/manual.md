@@ -123,6 +123,18 @@ La motivación debe exponer, al menos de forma sucinta, los hechos y fundamentos
 
 El artículo 106 regula la eliminación administrativa de actos y disposiciones nulos de pleno derecho.
 
+### Requisitos previos: **art. 106.1**
+
+La declaración de nulidad de **actos administrativos** se efectúa, **en cualquier momento**, por iniciativa propia o a solicitud de interesado, **solo si el acto pone fin a la vía administrativa o no fue recurrido en plazo**, concurre una causa de nulidad del **art. 47.1** y existe **dictamen favorable del Consejo de Estado** o del **órgano consultivo equivalente autonómico**, si lo hubiere. Los límites del **art. 110** continúan siendo aplicables.
+
+| Vía | Tipo de acto | Requisito que no se debe omitir |
+|---|---|---|
+| Revisión de oficio **art. 106.1** | Nulo de pleno derecho y firme o fin de vía | **Dictamen favorable**, nulidad del **47.1** |
+| Lesividad **art. 107** | Favorable pero **anulable** | Declaración **en 4 años** y proceso contencioso posterior |
+| Rectificación **art. 109.2** | Error material, de hecho o aritmético | Sin revisión encubierta del fondo jurídico |
+
+> ⚠️ **¡Foco Examen!:** **Art. 106.1** no equivale a «cualquier acto puede revisarse en cualquier momento». Debe tratarse de **acto nulo del 47.1** que **puso fin a la vía administrativa o no fue recurrido en plazo**, con **dictamen favorable**.
+
 ### 7.1 Actos administrativos nulos
 
 La Administración declarará la nulidad:

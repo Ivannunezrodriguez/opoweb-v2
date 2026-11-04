@@ -52,3 +52,8 @@ La respuesta debe ser una de estas:
 - `Tema 4: cambia o amplía…`
 
 No se fusionará en `main` mientras no exista aprobación expresa.
+
+## Actualización de noviembre — cierre jurídico-editorial
+
+**04/11/2026:** las **12 preguntas y 48 alternativas están publicadas y cotejadas** (el antiguo estado «banco vacío» o «no aprobado» describe únicamente una fase histórica). Fuente y opciones exactas en [cotejo integral](cotejo-integral-2026-11-04.md). **Auditoría jurídica: AUDITADO**; **prueba funcional en navegador/móvil: pendiente**, no declarar validación de cinco capas.
+
