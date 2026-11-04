@@ -80,3 +80,17 @@ Se delimitaron **UC3M-T16-014** y **UC3M-T16-015** a asignaturas ordinarias, acl
 
 > ⚠️ **¡Foco Examen!:** **40 %** mínimo en continua, **60 %** máximo final ordinario, **100 %** extraordinario sin continua, **pero** no toda asignatura especial posee convocatoria extraordinaria.
 
+
+## Cotejo de cinco preguntas RD 822/2021 — 04/11/2026
+
+Se han revisado individualmente **UC3M-T16-017 a UC3M-T16-021**, sus cuatro alternativas, la clave existente y su justificación, contra el [texto consolidado del RD 822/2021 (BOE, arts. 11.2, 14.5–6 y 17.3–4)](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781). **No se modifican las claves ni las posiciones**, pero se precisan las excepciones y se documentan los distractores:
+
+| Pregunta | Precepto | Clave verificada y exclusiones |
+| --- | --- | --- |
+| 017 | art. 11.2 | Curriculares integradas en plan; no extracurriculares por definición, no solo remuneradas ni necesariamente laborales. |
+| 018 | art. 14.5 y 22 | Máximo ordinario 25 %; excepción UE y Mención Dual 20–40 %; un tercio corresponde al Máster. |
+| 019 | art. 14.6 | TFG de 240 ECTS: 6–24; máximo 30 en Grado de 300 y 36 en Grado de 360; no cantidad fija. |
+| 020 | art. 17.3 | Máximo un tercio para prácticas de Máster; no confundir con 25 % ordinario de Grado. |
+| 021 | art. 17.4 | TFM obligatorio 6–30 y defensa pública; no confundir con TFG de Grado de 240. |
+
+**Precaución temporal:** el [fallo de 6/10/2026 publicado 23/10/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083) anuló RD 905/2025; este cotejo se refiere a preceptos citados del RD 822/2021, sin resolver la fecha de corte normativa específica de UC3M. El bloque es **focal** y no recertifica íntegramente el tema.
