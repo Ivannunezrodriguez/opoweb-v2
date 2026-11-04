@@ -151,16 +151,33 @@ La tramitación anticipada permite avanzar expedientes antes del inicio del ejer
 
 Los documentos contables registran cada fase de ejecución. Son habituales:
 
-- RC: retención de crédito;
-- A: autorización;
-- D: disposición o compromiso;
-- O: reconocimiento de obligación;
-- P: ordenación del pago;
-- documentos mixtos AD, ADO u otros equivalentes;
+- **RC**: **retención de crédito**;
+- **A**: **autorización del gasto**;
+- **D**: **disposición o compromiso del gasto**;
+- **O**: **propuesta de pago**, según la terminología literal de las **Normas Básicas de Gestión UC3M 2026, art. 15.2.1**;
+- **P**: **ordenación del pago**, como fase general de ejecución que se distingue del pago material; **el art. 15.2.1 de UC3M no enumera un documento «P»** en su lista interna de RC, A, D y O;
+- documentos mixtos **AD** (**autorización y compromiso**) y **ADO** (**autorización, compromiso y propuesta de pago**) según las Normas UC3M 2026, art. **15.2.1**;
 - documentos negativos o de anulación;
 - documentos de pagos a justificar, anticipos y operaciones no presupuestarias.
 
 Cada documento debe identificar ejercicio, aplicación presupuestaria, centro, programa, importe, tercero, expediente, órgano y fase.
+
+### Tabla de correspondencia: ciclo contable general frente a nomenclatura UC3M de 2026
+
+| Documento | Denominación expresamente empleada en **UC3M, art. 15.2.1** | No equivale a |
+|---|---|---|
+| **RC** | **Retención de crédito** | Obligación reconocida |
+| **A** | **Autorización de gasto** | Compromiso con tercero |
+| **D** | **Disposición o compromiso de gasto** | Pago material |
+| **O** | **Propuesta de pago** | Ordenación definitiva del pago o salida de fondos |
+| **AD** | **Autorización y compromiso de gasto** | Pago |
+| **ADO** | **Autorización, compromiso y propuesta de pago** | Transferencia bancaria ejecutada |
+
+**Contraste con la contabilidad pública general:** el **reconocimiento de la obligación** es una **fase sustantiva** distinta de la autorización y del compromiso; otras exposiciones de contabilidad pública suelen asociar la letra **O** a esa fase. Sin embargo, **si la pregunta cita literalmente las Normas Básicas de Gestión UC3M 2026, hay que contestar «propuesta de pago»**, que es la expresión utilizada en el artículo **15.2.1** del documento institucional original.
+
+**Fuente primaria:** [**Presupuesto UC3M 2026, Volumen I (original institucional)**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), **artículo 15.2.1**, sección de «Documentos contables de Gasto».
+
+> ⚠️ **¡Foco Examen!:** **O = propuesta de pago** en la literalidad de la **UC3M 2026**. No responder mecánicamente «O = reconocimiento de obligación» cuando se cite **artículo 15.2.1**, ni confundir **propuesta**, **ordenación** y **pago material**.
 
 ## 14. Ordenación de pagos y Tesorería
 
@@ -287,4 +304,4 @@ Deben reflejar la imagen fiel y someterse a formulación, aprobación, auditorí
 
 [**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Los documentos y fases se cotejan con la estructura contable del manual; falta lectura primaria integral del **Volumen I UC3M 2026** para particularidades internas. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
 
-> ⚠️ **¡Foco Examen!:** **A autoriza**, **D compromete**, **O reconoce obligación**, **P ordena pago**. **ADO** no implica pago material.
+> ⚠️ **¡Foco Examen!:** **A autoriza**, **D compromete**, y **O es propuesta de pago en el art. 15.2.1 UC3M 2026**. **ADO** tampoco es pago material.
