@@ -83,6 +83,8 @@ jobs:
         run: node tests/validate-all-programmes.mjs
       - name: Cotejar 80 alternativas de empleo publico Castilla-La Mancha Diputacion C2 T7
         run: node tests/validate-diputacion-c2-t7-integral.mjs
+      - name: Cotejar 240 alternativas y 7 reparaciones de Diputacion C2 temas 8-10
+        run: node tests/validate-diputacion-c2-t08-t10-integral.mjs
       - name: Auditar 160 alternativas exactas y paridad LOREG 2024 de Diputación C2 temas 4-5
         run: node tests/validate-diputacion-c2-t4-t5-integral.mjs
       - name: Auditar 240 alternativas exactas de Diputación C2 temas 1-3
