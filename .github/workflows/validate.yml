@@ -41,6 +41,8 @@ jobs:
         run: node tests/validate-diputacion.mjs
       - name: Validar 99 temas de las cuatro convocatorias
         run: node tests/validate-all-programmes.mjs
+      - name: Validar coherencia de cinco convocatorias y campos de preguntas
+        run: node tests/validate-cross-oposiciones.mjs
       - name: Validar nuevo temario Olías C2 (22 temas, desarrollo progresivo)
         run: node tests/validate-olias-programme.mjs
       - name: Validar simulacros Olías 50+20, psicotécnicos y puntuación separada
