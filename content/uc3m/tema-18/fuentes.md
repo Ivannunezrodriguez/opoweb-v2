@@ -79,3 +79,14 @@
 ## 6. Fecha de control
 
 Fuentes contrastadas a **23 de julio de 2026**.
+
+## Verificación independiente del presupuesto de 2026 en el BOCM · **04/11/2026**
+
+- [**BOCM n.º 310, de 30/12/2025, Resolución de 12/12/2025 y anexo oficial**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF). El **Consejo Social UC3M** aprobó el presupuesto en sesión del **11/12/2025**, según la publicación autonómica.
+- **Total ingresos = total gastos: 300.468.067,59 €**, cifra leída en el **anexo oficial** (presupuesto de gastos e ingresos).
+- **Ingresos:** capítulo **III 54.945.567,32 €**, **IV 146.834.705,33 €**, **V 4.189.173,00 €**, **VII 52.616.000,00 €**, **VIII 41.882.621,94 €**. La suma es **300.468.067,59 €**. **Principal capítulo: IV**.
+- **Gastos:** capítulo **I 161.190.785,21 €**, **II 40.697.181,71 €**, **III 270.000,00 €**, **IV 8.481.942,98 €**, **VI 61.808.477,69 €**, **VII 26.354.500,00 €**, **VIII 215.180,00 €**, **IX 1.450.000,00 €**. La suma es **300.468.067,59 €**.
+- El **concepto 640, inversiones inmateriales**, tiene **55.170.132,65 €** dentro del **capítulo VI, inversiones reales**. En el manual se ha rectificado un desdoblamiento editorial erróneo en **dos capítulos VI**, que no figura en el anexo oficial.
+- Las reglas internas de vinculación, transferencias e incobrados se derivan del **Volumen I de Presupuesto UC3M 2026** al que enlazan las fuentes antiguas. El **anexo BOCM** confirma importes por capítulo y acuerdo de aprobación, **no sustituye** las normas internas de ejecución para esos trámites.
+
+> ⚠️ **¡Foco Examen!:** **55.170.132,65 €** figura en el **concepto 640**, **dentro del capítulo VI**, no como un supuesto «segundo capítulo VI». **Capítulo IV (146.834.705,33 €)** es el **principal ingreso** del presupuesto **2026**.
