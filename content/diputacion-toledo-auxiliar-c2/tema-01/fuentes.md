@@ -22,3 +22,9 @@
 **Cierre documental: 29/10/2026.** Manual extenso con explicaciones por artículo, cuadros de mayorías, derechos, garantías y suspensión, supuestos resueltos y **20 preguntas** con referencia legislativa. Este cierre editorial no equivale a una prueba funcional del sitio web, que está pendiente.
 
 > ⚠️ **¡Foco Examen!:** Reforma **167 CE: 3/5** de ambas Cámaras y referéndum solicitado por **1/10** en **15 días**; reforma **168 CE: 2/3**, disolución, nuevas Cámaras y referéndum obligatorio. Distinguir derechos protegidos por **amparo** de los principios rectores.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Informe de las 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con fundamento normativo y descarte de cada opción incorrecta. **COTEJO_BANCO_COMPLETO** significa revisión individual de la prueba, **no** certificación del manual entero, prueba en navegador, accesibilidad ni aprobación del usuario. La base oficial es el **Anexo XI del BOP Toledo n.º 197, 14/10/2026**.
+
+> ⚠️ **¡Foco Examen!:** **167 CE**: referéndum a solicitud de **1/10** en **15 días**; **168 CE**: referéndum obligatorio. Reforma **69.3** vigente **20/05/2026**, eficacia electoral posterior.
