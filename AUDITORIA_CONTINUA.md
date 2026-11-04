@@ -1346,3 +1346,33 @@ Se añadió [`tests/validate-la-puebla-three-legal-closures.mjs`](tests/validate
 **Validación y límites:** lectura directa de fuente primaria BOE y comprobación estructural del JSON en la transformación. La consulta de workflows asociados al **SHA exacto `72690f8b79ed1cec196ba7e8219ca1be72f0652f`** devolvió lista vacía (herramienta restringida a runs de pull requests); combined statuses también vacío. Por ello **CI, Pages y prueba real de navegador NO acreditados** para este SHA. No se cambian mecanismos de Radar ni se certifican por inferencia. La corrección del commit `35bbda16` sobre matrices heredadas debe verificarse por CI real cuando esté disponible.
 
 **Siguiente lote activo:** UC3M **T7** completar cotejo individual de las **9 preguntas/36 distractores restantes**, artículo por artículo, con informe y regresiones; después **T8–T20**, con prioridad de examen **21/11/2026**. Revisar CI/Pages del SHA publicado por método que no dependa de la API restringida a PR. Mantener Olías con discrepancia de plazas/plazo sin resolver, OAPGT T6 al final, y **0/121 certificaciones globales** hasta probar todas las capas.
+
+## 52. UC3M: cierre documental T4–T6 — **04/11/2026**
+
+### 52.1. Los tres epígrafes siguientes y sus respuestas
+
+- Fuente del programa: [**BOE-A-2026-14624**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), Anexo I. Se contrastan **T4 Ley 40/2015 (órganos)**, **T5 Ley 40/2015 (funcionamiento electrónico)** y **T6 LO 3/2018 (protección de datos y RGPD)**.
+- [**Cotejo individual T4**](content/uc3m/tema-04/cotejo-integral-2026-11-04.md), [**cotejo individual T5**](content/uc3m/tema-05/cotejo-integral-2026-11-04.md) y [**cotejo individual T6**](content/uc3m/tema-06/cotejo-integral-2026-11-04.md): **12 preguntas, 48 alternativas por tema** y evaluación explícita de cada alternativa **A–D**, con artículo y foco de examen. Los **manual.md**, **fuentes.md** y **matriz.json** enlazan o registran el cotejo.
+- Cada matriz refleja **`COTEJO_BANCO_COMPLETO`** y **`PENDIENTE_NAVEGADOR_REAL`**; **no** se modificó el estado del manifiesto a aprobado por el usuario.
+
+### 52.2. Hallazgo jurídico relevante y rectificación
+
+| Tema | Incidencia y reparación | Referencia |
+|---|---|---|
+| **UC3M T4** | Comprobados requisitos de creación de órganos, competencia, delegación, avocación, encomienda, delegación de firma, órganos colegiados y abstención/recusación. **Recusación**: si el recusado niega la causa, el **superior resuelve en tres días**. | **Ley 40/2015**, arts. **5–24** |
+| **UC3M T5** | **Error material corregido**: el artículo **46 bis** no ordena alojar en la UE indiscriminadamente *todos* los datos de categoría especial. La obligación específica comprende **censo electoral, padrones municipales, otros registros de población, datos fiscales de tributos propios/cedidos y datos de usuarios del SNS**. Rectificados **manual**, **fuentes** y **UC3M-T05-010**, manteniendo su respuesta **D** porque ahora el supuesto es inequívoco. | [**Ley 40/2015, art. 46 bis**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) |
+| **UC3M T6** | **Fuentes.md corregido**: elimina la referencia al día del examen como fecha normativa de corte. Se contrastan derechos RGPD, responsable/encargado, menores (**14 años** como regla española), respuesta a derechos (**1 mes**, ampliable **2**), notificación de brecha (**72 horas** con la condición de riesgo legal). | [**LOPDGDD**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) y [**RGPD**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) |
+
+> ⚠️ **¡Foco Examen!:** El **artículo 46 bis** delimita **sistemas y registros concretos**. No basta leer «datos especialmente protegidos» para afirmar que cualquier sistema con esos datos tiene obligatoriamente su infraestructura localizada en la UE. **Localización de sistemas** y **transferencia internacional** son conceptos distintos.
+
+### 52.3. Puerta de calidad automática y despliegue
+
+- Nuevo [**`tests/validate-uc3m-t04-t06-integral.mjs`**](tests/validate-uc3m-t04-t06-integral.mjs), con comparación de las **144 opciones exactas**, sus **36 claves**, `respuestaLiteral`, informes, focos de examen, distribución **3 aciertos por posición A/B/C/D** y preservación del enunciado corregido **T05-010**.
+- Nuevo [**`tests/validate-uc3m-t05-46bis-and-t06-cutoff.mjs`**](tests/validate-uc3m-t05-46bis-and-t06-cutoff.mjs), control de regresión del ámbito del **artículo 46 bis** y la fecha de corte normativa UC3M. Ambos están en **`npm test`** y en el workflow `validate.yml`.
+- **Incidencia CI resuelta:** la primera ejecución de la puerta nueva falló porque un test daba por supuesto que las matrices legadas incluían `aprobadoPorUsuario:false`; en realidad **el campo estaba ausente**. Se modificó la aserción para prohibir que esté marcado `true` sin inventar una aprobación o forzar un cambio editorial no autorizado.
+- **CI definitiva confirmada:** [**run 41901497307 — SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41901497307), **SHA `35bbda168f8efcc66d7f343c8943d8de2203a8c6`**. **GitHub Pages del mismo SHA: SUCCESS**. Se confirma compilación/despliegue según workflows, **no** recorrido funcional visual ni accesibilidad exhaustiva.
+- La generación de PDFs de UC3M y Diputación consta como **SUCCESS** para el SHA previo `7a1be77568a0a9613b43b90ae98236e57f7a3161`; no declarar una regeneración completa posterior a los últimos cambios si no consta el run de ese SHA.
+
+**Cobertura documental acumulada del cotejo individual de bancos:** **25 de 121 temas** (**19 de La Puebla + 6 de UC3M**), con **300 preguntas y 1200 alternativas** cotejadas. La cifra **no** es un porcentaje de corrección jurídica certificado ni una prueba integral de la web. **0/121** han demostrado simultáneamente todas las capas legales, pedagógicas, técnicas y de navegador.
+
+**Siguiente tramo:** **UC3M T7–T20**, con prioridad en normativa de transparencia autonómica y universidad, antes del examen del **21/11/2026**. Verificar documentalmente la **fecha de publicación de listas definitivas** para cerrar la vigencia jurídica exigible por la **base primera.7**.
