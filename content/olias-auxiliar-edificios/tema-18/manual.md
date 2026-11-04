@@ -10,11 +10,11 @@
 
 | Inciso del programa | Norma o referencia técnica | Desarrollo |
 |---|---|---|
-| Esquema de calefacción por agua | RITE, RD 1027/2007 | Conceptos, seguridad y distinciones |
-| Llenado y presión: límites de actuación | RD 1215/1997 | Conceptos, seguridad y distinciones |
-| Aire en radiadores y purga | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Sala de calderas y riesgos | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| RITE: titulares, mantenimiento y empresas habilitadas | Ley 31/1995 | Conceptos, seguridad y distinciones |
+| Circuito de calefacción y radiadores | RITE: **IT 3** y documentación de la instalación | Componentes y funcionamiento |
+| Llenado, presión y purga | RITE: manual de uso y mantenimiento (**art. 25**) | Observación, riesgo y límites de intervención |
+| Sala de calderas | LPRL y RITE | Control de accesos y seguridad |
+| Titular y mantenedora | RITE **arts. 25–26** | Responsabilidades y umbrales |
+| Documentación y certificado | RITE **arts. 27–28** | Registro **≥ 5 años**, certificado anual cuando proceda |
 
 ## 3. Esquema de calefacción por agua
 
@@ -91,13 +91,35 @@ Las **inspecciones reglamentarias** y documentación de mantenimiento son distin
 
 > ⚠️ **¡Foco Examen!:** El **RITE** distingue **observación y comunicación** de **mantenimiento por empresa habilitada**. No usar el puesto de auxiliar como sustitución de esa habilitación.
 
-## 8. Supuesto de repaso
+## 8. RITE: potencias, contrato y documentación del mantenimiento
+
+La **regulación del mantenimiento térmico** se encuentra en el **RITE, RD 1027/2007**, especialmente **arts. 25–28**. Debe conocerse tanto la distribución de responsabilidad como las cifras que distinguen instalaciones.
+
+- **Art. 25**: el **titular o usuario** debe utilizar correctamente la instalación, comunicar anomalías y garantizar mantenimiento, inspecciones y documentación. La **garantía comercial** no sustituye el mantenimiento.
+- **Art. 26.1**: las operaciones de mantenimiento sujetas al RITE las llevan a cabo **empresas mantenedoras habilitadas**.
+- **Art. 26.6.a**: instalaciones con potencia térmica nominal total instalada en generación de calor o frío **igual o superior a 5 kW e inferior o igual a 70 kW**: mantenimiento por **empresa mantenedora**, según manual.
+- **Art. 26.6.b**: instalaciones con potencia **mayor de 70 kW**: mantenimiento por **empresa mantenedora con contrato de mantenimiento** suscrito por el titular.
+- **Art. 27**: el registro de operaciones y reparaciones forma parte del **Libro del Edificio** y debe conservarse durante **no menos de cinco años**, contados desde cada operación. La **empresa mantenedora** confecciona el registro y responde de sus anotaciones; el **titular** responde de su existencia.
+- **Art. 28**: el **certificado anual de mantenimiento** se contempla en aquellos casos en que **sea obligatorio suscribir contrato de mantenimiento**; se distingue del registro ordinario de operaciones.
+
+| Umbral o frecuencia | Exigencia / concepto | Error habitual |
+|---|---|---|
+| **5 kW ≤ P ≤ 70 kW** | Mantenimiento por empresa en supuestos del **art. 26.6.a** | Confundir con contrato obligatorio de la letra b |
+| **P > 70 kW** | Empresa mantenedora **con contrato** | Tratar **70 kW exactos** como «mayor de 70» |
+| **5 años como mínimo** | Conservación de registro de cada operación (**art. 27**) | Confundir con un solo año |
+| **Anualmente** cuando contrato sea obligatorio | Certificado de mantenimiento (**art. 28**) | Afirmar obligación idéntica para toda potencia |
+
+Estas magnitudes corresponden al **ámbito y condiciones reglamentarias** y no permiten diagnosticar la instalación de Olías del Rey sin su **inventario técnico**.
+
+> ⚠️ **¡Foco Examen!:** **70 kW exactos** pertenece a la banda **≤ 70 kW**; la obligación explícita de contrato de **art. 26.6.b** empieza al superar **70 kW**. **Registro ≥ 5 años** no es el **certificado anual condicionado al contrato**.
+
+## 9. Supuesto de repaso
 
 **Situación:** el auxiliar detecta una incidencia del área del tema. Debe **distinguir conocimientos básicos de intervención técnica**, comunicar al responsable, evitar riesgos y consultar el manual de fabricante o la norma aplicable. Solo realizará operaciones que se encuentren dentro de sus **atribuciones, formación y autorización**.
 
 ## Fuentes de referencia
 
-- [**RITE, RD 1027/2007**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-15820) — arts. 25-26 e IT 3.
+- [**RITE, RD 1027/2007**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-15820) — arts. **25 a 28** e IT 3.
 - [**RD 1215/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824) — uso seguro de equipos.
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — prevención.
 

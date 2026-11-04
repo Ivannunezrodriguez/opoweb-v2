@@ -8,13 +8,13 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Norma o referencia técnica | Desarrollo |
+| Inciso del programa | Fuente técnica / normativa | Desarrollo |
 |---|---|---|
-| Herramientas de jardinería | RD 1311/2012, fitosanitarios | Conceptos, seguridad y distinciones |
-| Riego y aspersores | RD 1215/1997 | Conceptos, seguridad y distinciones |
-| Conservación estacional de jardines | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Fertilizantes y abonos | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Fitosanitarios y habilitación | Ley 31/1995 | Conceptos, seguridad y distinciones |
+| Herramientas y seguridad de jardinería | RD **1215/1997** y LPRL | Equipos, protección y averías |
+| Aspersión, goteros y programación | Tecnología básica de riego | Emisores, electroválvulas y horarios |
+| Mantenimiento estacional | Buenas prácticas agronómicas | Poda, siega y calendario según especies |
+| Abonado y fertilización | Buenas prácticas agronómicas / etiqueta técnica | N, P, K y dosis según cultivo y suelo |
+| Uso profesional de fitosanitarios | RD **1311/2012, arts. 17, 18 y 20** | Niveles, validez, formación y uso seguro |
 
 ## 3. Herramientas de jardinería
 
@@ -93,13 +93,37 @@ La manipulación requiere **etiqueta, dosificación, protección, almacenamiento
 
 > ⚠️ **¡Foco Examen!:** **Carné de conducir B no equivale a carné fitosanitario**. No aplicar fitosanitarios profesionales por mera asignación verbal sin cumplir capacitación y procedimiento.
 
-## 8. Supuesto de repaso
+## 8. Requisitos normativos del carné fitosanitario — **arts. 17, 18 y 20 del RD 1311/2012**
+
+Según el **art. 17**, desde el **26 de noviembre de 2015** los **usuarios profesionales y vendedores** de productos fitosanitarios deben disponer de **carné** que acredite conocimientos correspondientes a su actividad, salvo los supuestos expresamente exentos. Una persona auxiliar en un edificio municipal **no queda habilitada automáticamente** por su categoría laboral o por poseer permiso de conducción.
+
+| Nivel de carné (art. 18) | Destinatarios y alcance básico |
+|---|---|
+| **Básico** | **Personal auxiliar de tratamientos** terrestres/aéreos, incluida jardinería no agrícola cuando proceda; y otros casos regulados |
+| **Cualificado** | **Responsables de tratamientos terrestres**, incluidos no agrícolas, y personal de venta profesional comprendido |
+| **Fumigador** | Aplicadores de **gases clasificados** como tóxicos, muy tóxicos o mortales, o productos que generan esos gases; exige capacitación previa básica o cualificada según caso |
+| **Piloto aplicador** | Personal que aplica productos mediante **aeronaves**, con requisitos de navegación aérea adicionales |
+
+**Matiz del art. 18.2:** determinados títulos o formaciones pueden eximir de realizar el **curso del nivel cualificado**, en supuestos legalmente previstos. **Exención del curso no equivale a tener ya expedido el carné ni autoriza cualquier tratamiento**.
+
+El **art. 20.2** establece una **validez de 10 años** del carné en todo el territorio nacional, salvo retirada anticipada por el órgano competente. El **art. 20.1** prevé el procedimiento ante el **órgano competente de la comunidad autónoma de residencia**; en defecto de distinta normativa autonómica, el plazo máximo de resolver y notificar es de **tres meses**.
+
+| Dato test | Referencia | Precisión |
+|---|---|---|
+| **26/11/2015** | **Art. 17** | Inicio de obligatoriedad indicada |
+| **4 niveles** | **Art. 18** | Básico, cualificado, fumigador, piloto aplicador |
+| **10 años** | **Art. 20.2** | Validez del carné salvo retirada |
+| **3 meses** | **Art. 20.1** | Plazo máximo supletorio, **salvo norma autonómica diferente** |
+
+> ⚠️ **¡Foco Examen!:** **Básico ≠ cualificado**; este último tampoco habilita por sí mismo a **fumigar con gases peligrosos** ni a **aplicar desde aeronaves**. Los **10 años** son validez del carné, **no duración del curso**.
+
+## 9. Supuesto de repaso
 
 **Situación:** el auxiliar detecta una incidencia del área del tema. Debe **distinguir conocimientos básicos de intervención técnica**, comunicar al responsable, evitar riesgos y consultar el manual de fabricante o la norma aplicable. Solo realizará operaciones que se encuentren dentro de sus **atribuciones, formación y autorización**.
 
 ## Fuentes de referencia
 
-- [**RD 1311/2012, fitosanitarios**](https://www.boe.es/buscar/act.php?id=BOE-A-2012-11605) — arts. 17 y 18.
+- [**RD 1311/2012, fitosanitarios**](https://www.boe.es/buscar/act.php?id=BOE-A-2012-11605) — arts. **17, 18 y 20**.
 - [**RD 1215/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824) — equipos de trabajo.
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — prevención y EPIs.
 

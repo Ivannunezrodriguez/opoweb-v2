@@ -7,34 +7,35 @@
   "fuentePrograma": "BOP Toledo 204/2026, anuncio 4833, Anexo II, CSV 2026.00004833",
   "filas": [
     {
-      "inciso": "Esquema de calefacción por agua",
-      "norma": "RITE, RD 1027/2007",
-      "articulos": "arts. 25-26 e IT 3",
-      "contenidoExigible": "Manual apartado 3: conceptos, seguridad y práctica"
+      "inciso": "Circuitos y radiadores",
+      "norma": "RITE RD 1027/2007",
+      "articulos": "IT 3 y art. 25",
+      "contenidoExigible": "Generador, impulsión, retorno, circuladora, emisores"
     },
     {
-      "inciso": "Llenado y presión: límites de actuación",
-      "norma": "RD 1215/1997",
-      "articulos": "uso seguro de equipos",
-      "contenidoExigible": "Manual apartado 4: conceptos, seguridad y práctica"
+      "inciso": "Llenado y purga",
+      "norma": "RITE y Ley 31/1995",
+      "articulos": "RITE art.25; LPRL arts.14-17",
+      "contenidoExigible": "Comprobación de anomalías, no intervención insegura"
     },
     {
-      "inciso": "Aire en radiadores y purga",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención",
-      "contenidoExigible": "Manual apartado 5: conceptos, seguridad y práctica"
+      "inciso": "Sala de calderas",
+      "norma": "RITE y PRL",
+      "articulos": "arts. 25-26 RITE",
+      "contenidoExigible": "Equipos técnicos, accesos y aviso"
     },
     {
-      "inciso": "Sala de calderas y riesgos",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención",
-      "contenidoExigible": "Manual apartado 6: conceptos, seguridad y práctica"
+      "inciso": "Obligaciones de mantenimiento",
+      "norma": "RITE RD 1027/2007",
+      "articulos": "arts. 25-26",
+      "contenidoExigible": "Empresas habilitadas, umbral 5/70 kW, contrato >70"
     },
     {
-      "inciso": "RITE: titulares, mantenimiento y empresas habilitadas",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención",
-      "contenidoExigible": "Manual apartado 7: conceptos, seguridad y práctica"
+      "inciso": "Documentación",
+      "norma": "RITE RD 1027/2007",
+      "articulos": "arts. 27-28",
+      "contenidoExigible": "Registro no menos de 5 años y certificado anual cuando proceda"
     }
-  ]
+  ],
+  "fechaContrasteParcial": "2026-11-04"
 }

@@ -41,7 +41,7 @@ for(const t of programme.temas){
  totalQuestions+=bank.preguntas.length;
 }
 assert.equal(ready,22);
-assert.equal(totalQuestions,252);
+assert.equal(totalQuestions,264);
 const app=readFileSync('assets/app.js','utf8');
 assert.match(app,/olias-del-rey-auxiliar-edificios-c2-2026/);
 assert.match(app,/2026\.00004833/);

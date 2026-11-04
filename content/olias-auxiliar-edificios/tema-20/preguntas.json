@@ -142,6 +142,90 @@
       "justificacion": "Variación estacional y biológica.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Variación estacional y biológica.",
       "referencia": "Tema 20, conservación"
+    },
+    {
+      "id": "OLIAS-T20-011",
+      "enunciado": "Desde qué fecha exige art. 17 RD 1311/2012 el carné profesional fitosanitario?",
+      "opciones": [
+        "1 de enero de 2026",
+        "26 de noviembre de 2015",
+        "1 de enero de 2012",
+        "20 de mayo de 2024"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El art.17.1 marca 26/11/2015.",
+      "trampaExamen": "No confundir fecha del Real Decreto (2012) con exigencia de carné (2015).",
+      "referencia": "RD 1311/2012, art.17.1"
+    },
+    {
+      "id": "OLIAS-T20-012",
+      "enunciado": "¿Cuánto dura en general la validez del carné fitosanitario según art. 20.2?",
+      "opciones": [
+        "5 años",
+        "15 años",
+        "10 años",
+        "Ilimitada"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Tiene validez 10 años salvo retirada anticipada.",
+      "trampaExamen": "No es la duración del curso formativo.",
+      "referencia": "RD 1311/2012, art.20.2"
+    },
+    {
+      "id": "OLIAS-T20-013",
+      "enunciado": "¿Qué nivel corresponde al personal auxiliar de tratamientos fitosanitarios en los casos regulados?",
+      "opciones": [
+        "Cualificado siempre",
+        "Piloto aplicador",
+        "Fumigador",
+        "Básico"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El art.18.1.a contempla nivel básico para auxiliar de tratamientos.",
+      "trampaExamen": "Responsables de tratamientos terrestres: nivel cualificado.",
+      "referencia": "RD 1311/2012, art.18.1.a"
+    },
+    {
+      "id": "OLIAS-T20-014",
+      "enunciado": "¿Qué nivel corresponde al responsable de tratamientos terrestres profesionales?",
+      "opciones": [
+        "Cualificado",
+        "Básico sin limitaciones",
+        "Piloto siempre",
+        "Ninguno"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El nivel cualificado se prevé para responsables de tratamientos terrestres.",
+      "trampaExamen": "El cualificado no habilita fumigación de gases/piloto automáticamente.",
+      "referencia": "RD 1311/2012, art.18.1.b"
+    },
+    {
+      "id": "OLIAS-T20-015",
+      "enunciado": "El nivel cualificado, por sí solo, ¿autoriza trabajos de fumigador con gases peligrosos?",
+      "opciones": [
+        "Sí, siempre",
+        "No, se necesita capacitación de fumigador en los casos correspondientes",
+        "Sí, si tiene carné B",
+        "Sí, si se ha abonado una tasa"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El art.18 distingue específicamente nivel fumigador.",
+      "trampaExamen": "No equivalen nivel cualificado y fumigador.",
+      "referencia": "RD 1311/2012, art.18.1.b-c"
+    },
+    {
+      "id": "OLIAS-T20-016",
+      "enunciado": "Plazo máximo de resolución de carné cuando la normativa autonómica no dispone otra cosa:",
+      "opciones": [
+        "Un mes",
+        "Un año",
+        "Tres meses",
+        "Veinte días naturales"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El art.20.1 contiene plazo supletorio de tres meses.",
+      "trampaExamen": "La CA puede establecer distinto régimen.",
+      "referencia": "RD 1311/2012, art.20.1"
     }
   ]
 }

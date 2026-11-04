@@ -142,6 +142,90 @@
       "justificacion": "Puede haber riesgo de presión/temperatura.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Puede haber riesgo de presión/temperatura.",
       "referencia": "RITE; tema 18"
+    },
+    {
+      "id": "OLIAS-T18-011",
+      "enunciado": "Para una instalación RITE con potencia exactamente 70 kW, el art. 26.6 la sitúa en:",
+      "opciones": [
+        "Tramo de potencia superior a 70 kW",
+        "Tramo entre 5 y 70 kW inclusive",
+        "Solo instalaciones exentas",
+        "Régimen de 5.000 kW"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El límite superior del art.26.6.a incluye 70 kW.",
+      "trampaExamen": "La obligación explícita de contrato del apartado b exige más de 70 kW.",
+      "referencia": "RITE art. 26.6.a"
+    },
+    {
+      "id": "OLIAS-T18-012",
+      "enunciado": "¿Cuándo requiere contrato con empresa mantenedora el art. 26.6.b del RITE?",
+      "opciones": [
+        "A partir de exactamente 5 kW sin condiciones",
+        "Solo si hay empleados eventuales",
+        "Potencia térmica mayor que 70 kW",
+        "Únicamente cuando existen radiadores"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Para potencias >70 kW se exige contrato con empresa mantenedora.",
+      "trampaExamen": "Contrato no equivale al mero mantenimiento por empresa de banda ≤70.",
+      "referencia": "RITE art. 26.6.b"
+    },
+    {
+      "id": "OLIAS-T18-013",
+      "enunciado": "Conservación mínima del registro de operaciones de mantenimiento RITE:",
+      "opciones": [
+        "Un año desde alta",
+        "Dos años desde compra",
+        "Tres años desde contrato",
+        "Cinco años desde cada operación"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Art.27 requiere no menos de 5 años desde operación.",
+      "trampaExamen": "No confundir registro con certificado de mantenimiento.",
+      "referencia": "RITE art. 27.2"
+    },
+    {
+      "id": "OLIAS-T18-014",
+      "enunciado": "¿Quién realiza las anotaciones del registro de mantenimiento según art. 27?",
+      "opciones": [
+        "La empresa mantenedora",
+        "Cualquier visitante",
+        "El personal de recepción sin intervención técnica",
+        "El tribunal de oposición"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La empresa confecciona y asume anotaciones; el titular es responsable de existencia.",
+      "trampaExamen": "Distinguir titular y mantenedora.",
+      "referencia": "RITE art. 27.3"
+    },
+    {
+      "id": "OLIAS-T18-015",
+      "enunciado": "¿En qué supuestos contempla el RITE certificado anual de mantenimiento del art. 28?",
+      "opciones": [
+        "En cualquier pequeña instalación sin excepción",
+        "Cuando sea obligatorio suscribir contrato de mantenimiento",
+        "Solo si hay bombilla fundida",
+        "Cada vez que se abre la sala"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Se vincula a casos de contrato de mantenimiento obligatorio.",
+      "trampaExamen": "No confundir con registro obligatorio de todas las operaciones.",
+      "referencia": "RITE art. 28.1"
+    },
+    {
+      "id": "OLIAS-T18-016",
+      "enunciado": "¿Qué sustituye la garantía comercial de una instalación térmica?",
+      "opciones": [
+        "Todo el registro oficial",
+        "Un contrato obligatorio",
+        "No sustituye las obligaciones de mantenimiento RITE",
+        "La autorización del instalador"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El art.25 señala expresamente que el mantenimiento no puede sustituirse por la garantía.",
+      "trampaExamen": "Garantía y mantenimiento son distintos.",
+      "referencia": "RITE art. 25.1"
     }
   ]
 }
