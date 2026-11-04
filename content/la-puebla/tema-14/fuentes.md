@@ -55,3 +55,7 @@ Se ha ampliado el bloque 2 y manual LP14; actualización de justificación y Foc
 ## Contraste focalizado de recusación, **04/11/2026**
 
 [**Ley 40/2015, art. 24**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24): iniciativa escrita de **interesados en cualquier momento**, **recusado al día siguiente**, **superior en tres días** cuando se niegue la causa, sin recurso autónomo. La aprobación editorial histórica se conserva y **no se declara recertificación integral**.
+
+## Contraste de nombramientos y suplencia territorial — **04/11/2026**
+
+[**Ley 40/2015, arts. 70, 72.4–5 y 74**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566): **Consejo de Ministros** nombra a **Delegado** por RD a propuesta del **Presidente del Gobierno**; **Delegado** nombra **Subdelegado** y **Director Insular** por libre designación entre **funcionarios A1**; **art. 72.5** delimita suplencia del Delegado por Subdelegado designado, defecto provincia sede, o **Secretario General** en comunidad uniprovincial sin Subdelegado; **art. 74** regula la asunción por el Delegado de competencias del subdelegado ausente. Cotejo **parcial**; no cambia el número de preguntas.

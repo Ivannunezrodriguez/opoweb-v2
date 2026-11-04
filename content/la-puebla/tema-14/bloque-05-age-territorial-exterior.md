@@ -93,6 +93,23 @@ Nombramiento y cese:
 - criterios de competencia profesional y experiencia;
 - requisitos de idoneidad de la Ley 3/2015.
 
+### Nombramiento y suplencia territorial — **arts. 70, 72.4–5 y 74**
+
+| Cargo | Nombramiento | Requisito |
+|---|---|---|
+| **Delegado del Gobierno** | **Consejo de Ministros**, **Real Decreto**, propuesta del **Presidente del Gobierno** | Idoneidad (**Ley 3/2015**), competencia profesional y experiencia |
+| **Subdelegado del Gobierno** | **Delegado del Gobierno** | Libre designación entre funcionarios de carrera **A1** del Estado, CCAA o entidades locales |
+| **Director Insular** | **Delegado del Gobierno** | Libre designación entre funcionarios de carrera **A1**; nivel fijado en **RPT** |
+
+En **vacante, ausencia o enfermedad** del **Delegado del Gobierno**, le suple el **Subdelegado designado por aquel** y, a falta de designación, el **Subdelegado de la provincia donde se sitúe la sede**. En **comunidades autónomas uniprovinciales sin Subdelegado**, la suplencia corresponde al **Secretario General** (**art. 72.5**).
+
+| En CCAA uniprovincial **sin Subdelegado** | Quién ejerce | Base |
+|---|---|---|
+| Competencias ordinarias de **Subdelegado** | **Delegado del Gobierno** | **Art. 74** |
+| Suplencia del **Delegado**, cuando falta | **Secretario General** | **Art. 72.5** |
+
+> ⚠️ **¡Foco Examen!:** **Art. 74 = el Delegado asume competencias del Subdelegado**; **art. 72.5 = el Secretario General suple al Delegado** en CCAA uniprovinciales sin Subdelegado. No intercambiar **suplencia** con **nombramiento**.
+
 ## 5. Artículo 73 · competencias del Delegado
 
 Las competencias se agrupan en cinco grandes áreas.

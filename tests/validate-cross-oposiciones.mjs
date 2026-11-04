@@ -52,4 +52,8 @@ const sizes = [
 ];
 for(const [name,n,expected] of sizes) assert.equal(n,expected,name+' theme inventory changed');
 assert.equal(sizes.reduce((sum,record)=>sum+record[1],0),121);
+for (const file of ['content/la-puebla/tema-14/manual.md','content/la-puebla/tema-14/bloque-05-age-territorial-exterior.md']) {
+ const body=readFileSync(file,'utf8');
+ assert(body.includes('72.5') && body.includes('Art. 74') && body.includes('Secretario General'),file+': missing exception for uniprovincial territory');
+}
 console.log('CROSS_CONVOCATORIAS_OK',JSON.stringify({totalTemas:121,controlados:results}));

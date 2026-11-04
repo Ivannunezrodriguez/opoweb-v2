@@ -19,3 +19,7 @@
 **Cierre documental del contenido:** **29/10/2026**. La prueba funcional en navegador real permanece como control transversal separado.
 
 > ⚠️ **¡Foco Examen!:** Los **Secretarios Generales** tienen categoría de **Subsecretario** (**64.3**), los **Secretarios Generales Técnicos** de **Director General** (**65.2**) y los **Subdelegados del Gobierno** tienen nivel de **Subdirector General** (**74**).
+
+## Comprobación transversal, **04/11/2026**
+
+Se ha cotejado con [**Ley 40/2015, arts. 70, 72.5 y 74**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) el contenido territorial también desarrollado en **La Puebla T14**, aclarando la **suplencia** del Delegado frente al **ejercicio de competencias** del Subdelegado en CCAA uniprovinciales sin este último. Se mantiene la revisión integral pendiente.
