@@ -15,35 +15,38 @@
       "correcta": 0,
       "justificacion": "El artículo 137 de la Constitución organiza territorialmente el Estado en municipios, provincias y comunidades autónomas que se constituyan.",
       "trampa": "Las diputaciones son órganos de gobierno provincial, no categorías territoriales del artículo 137.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#21-organización-territorial-del-estado"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#21-organización-territorial-del-estado",
+      "respuestaLiteral": "Municipios, provincias y comunidades autónomas"
     },
     {
       "id": "DIP-T12-002",
       "pregunta": "La autonomía local equivale a:",
       "opciones": [
         "Soberanía territorial",
-        "Capacidad de gestionar intereses propios dentro de la ley",
         "Independencia normativa plena",
+        "Capacidad de gestionar intereses propios dentro de la ley",
         "Ausencia de control jurisdiccional"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La autonomía local permite ordenar y gestionar los intereses propios de la entidad dentro del marco constitucional y legal.",
       "trampa": "Autonomía local no significa soberanía ni independencia frente al ordenamiento jurídico.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#1-concepto-y-significado-del-régimen-local"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#1-concepto-y-significado-del-régimen-local",
+      "respuestaLiteral": "Capacidad de gestionar intereses propios dentro de la ley"
     },
     {
       "id": "DIP-T12-003",
       "pregunta": "La alteración de los límites provinciales debe aprobarse mediante:",
       "opciones": [
+        "Ley orgánica",
         "Ley ordinaria",
         "Decreto-ley",
-        "Ley orgánica",
         "Reglamento autonómico"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El artículo 141.1 de la Constitución exige una ley orgánica para cualquier alteración de los límites provinciales.",
       "trampa": "No basta una ley ordinaria ni una disposición reglamentaria autonómica.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#23-la-provincia"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#23-la-provincia",
+      "respuestaLiteral": "Ley orgánica"
     },
     {
       "id": "DIP-T12-004",
@@ -57,7 +60,8 @@
       "correcta": 1,
       "justificacion": "El artículo 140 de la Constitución garantiza expresamente la autonomía de los municipios.",
       "trampa": "La diputación es una forma de gobierno y administración de la provincia, no la entidad cuya autonomía garantiza literalmente el artículo 140.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#22-el-municipio"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#22-el-municipio",
+      "respuestaLiteral": "Los municipios"
     },
     {
       "id": "DIP-T12-005",
@@ -65,69 +69,74 @@
       "opciones": [
         "Solo una división territorial estatal",
         "Solo una agrupación de municipios",
-        "Entidad local, agrupación de municipios y división territorial para actividades del Estado",
-        "Una administración autonómica periférica"
+        "Una administración autonómica periférica",
+        "Entidad local, agrupación de municipios y división territorial para actividades del Estado"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "El artículo 141.1 configura la provincia como entidad local con personalidad jurídica propia, determinada por la agrupación de municipios y división territorial para el cumplimiento de las actividades del Estado.",
       "trampa": "La provincia reúne simultáneamente varias dimensiones; no tiene una única naturaleza jurídica o territorial.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#23-la-provincia"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#23-la-provincia",
+      "respuestaLiteral": "Entidad local, agrupación de municipios y división territorial para actividades del Estado"
     },
     {
       "id": "DIP-T12-006",
       "pregunta": "Las haciendas locales se nutren fundamentalmente de:",
       "opciones": [
-        "Tributos propios exclusivamente",
         "Tributos propios y participación en tributos estatales y autonómicos",
+        "Tributos propios exclusivamente",
         "Transferencias estatales exclusivamente",
         "Deuda pública local"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "El artículo 142 de la Constitución dispone que las haciendas locales se nutrirán fundamentalmente de tributos propios y de participación en los del Estado y de las comunidades autónomas.",
       "trampa": "La Constitución no limita la financiación local a los tributos propios ni a las transferencias estatales.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#24-suficiencia-financiera-local"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#24-suficiencia-financiera-local",
+      "respuestaLiteral": "Tributos propios y participación en tributos estatales y autonómicos"
     },
     {
       "id": "DIP-T12-007",
       "pregunta": "¿Cuál es la norma básica estatal de referencia en régimen local?",
       "opciones": [
-        "Ley 39/2015",
         "Ley 7/1985",
+        "Ley 39/2015",
         "Real Decreto 2568/1986",
         "Real Decreto Legislativo 2/2004"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, constituye la norma básica estatal de referencia en esta materia.",
       "trampa": "El ROF desarrolla aspectos de organización y funcionamiento, pero no sustituye a la legislación básica estatal.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#4-marco-normativo-básico"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#4-marco-normativo-básico",
+      "respuestaLiteral": "Ley 7/1985"
     },
     {
       "id": "DIP-T12-008",
       "pregunta": "¿Cuál de las siguientes es una entidad local territorial?",
       "opciones": [
         "La mancomunidad",
-        "El municipio",
         "El área metropolitana",
+        "El municipio",
         "La comarca"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El artículo 3.1 de la Ley 7/1985 considera entidades locales territoriales al municipio, la provincia y la isla en los archipiélagos balear y canario.",
       "trampa": "Las demás opciones pueden ser entidades locales, pero no integran la clasificación territorial básica del artículo 3.1.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#5-entidades-locales"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#5-entidades-locales",
+      "respuestaLiteral": "El municipio"
     },
     {
       "id": "DIP-T12-009",
       "pregunta": "Las competencias propias de las entidades locales:",
       "opciones": [
         "Pueden atribuirse por reglamento",
-        "Solo pueden determinarse por ley",
         "Requieren siempre delegación autonómica",
+        "Solo pueden determinarse por ley",
         "Se ejercen bajo dirección estatal"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "Conforme al artículo 7.2 de la Ley 7/1985, las competencias propias de los municipios, provincias, islas y demás entidades locales territoriales solo pueden determinarse por ley.",
       "trampa": "Una ordenanza local no puede crear por sí misma nuevas competencias propias.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#91-competencias-propias"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#91-competencias-propias",
+      "respuestaLiteral": "Solo pueden determinarse por ley"
     },
     {
       "id": "DIP-T12-010",
@@ -141,7 +150,8 @@
       "correcta": 3,
       "justificacion": "El artículo 27.1 de la Ley 7/1985 establece que la delegación habrá de mejorar la eficiencia de la gestión pública y contribuir a eliminar duplicidades, debiendo fijarse con una duración no inferior a cinco años.",
       "trampa": "No confundir los cinco años mínimos de la delegación con la duración ordinaria del mandato corporativo local.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#92-competencias-delegadas"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#92-competencias-delegadas",
+      "respuestaLiteral": "5 años"
     },
     {
       "id": "DIP-T12-011",
@@ -155,63 +165,68 @@
       "correcta": 1,
       "justificacion": "Las entidades locales ejercen su potestad reglamentaria y de autoorganización dentro del ámbito de sus competencias y con plena sujeción a la Constitución y a la ley.",
       "trampa": "La autonomía local no elimina el principio de legalidad ni la jerarquía normativa.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#8-potestades-de-las-entidades-locales"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#8-potestades-de-las-entidades-locales",
+      "respuestaLiteral": "Dentro de las competencias y con sujeción a la ley"
     },
     {
       "id": "DIP-T12-012",
       "pregunta": "Como regla general, el control estatal o autonómico sobre las entidades locales es un control de:",
       "opciones": [
-        "Oportunidad política",
         "Legalidad",
+        "Oportunidad política",
         "Conveniencia económica",
         "Tutela jerárquica"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La autonomía local es compatible con controles de legalidad sobre la actuación local, pero no con una tutela jerárquica general de oportunidad por parte del Estado o de la comunidad autónoma.",
       "trampa": "Las entidades locales no están jerárquicamente subordinadas al Estado ni a la comunidad autónoma.",
-      "referencia": "content/diputacion-toledo/tema-12/manual.md#11-control-y-tutela-de-legalidad"
+      "referencia": "content/diputacion-toledo/tema-12/manual.md#11-control-y-tutela-de-legalidad",
+      "respuestaLiteral": "Legalidad"
     },
     {
       "id": "DIP-T12-013",
       "pregunta": "¿Qué entidades son territoriales según el artículo 3.1 de la Ley 7/1985?",
       "opciones": [
-        "Municipio, provincia e isla en los archipiélagos balear y canario",
         "Municipio, comarca y mancomunidad",
         "Provincia, área metropolitana y sindicato",
-        "Mancomunidad, comarca y consorcio"
+        "Mancomunidad, comarca y consorcio",
+        "Municipio, provincia e isla en los archipiélagos balear y canario"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "El art. 3.1 enumera municipio, provincia e isla en los archipiélagos balear y canario.",
       "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
-      "referencia": "Ley 7/1985 art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "referencia": "Ley 7/1985 art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "respuestaLiteral": "Municipio, provincia e isla en los archipiélagos balear y canario"
     },
     {
       "id": "DIP-T12-014",
       "pregunta": "¿Qué entidades tienen condición de locales, pero no figuran como territoriales en el artículo 3.1?",
       "opciones": [
         "Los municipios",
-        "Las mancomunidades de municipios",
         "Las provincias",
+        "Las mancomunidades de municipios",
         "Las islas"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El artículo 3.2 incluye mancomunidades, comarcas y áreas metropolitanas como entidades locales.",
       "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
-      "referencia": "Ley 7/1985 art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "referencia": "Ley 7/1985 art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "respuestaLiteral": "Las mancomunidades de municipios"
     },
     {
       "id": "DIP-T12-015",
       "pregunta": "¿Qué potestad tienen expresamente municipios, provincias e islas en su ámbito competencial?",
       "opciones": [
         "Aprobar leyes orgánicas",
-        "Resolver recursos de inconstitucionalidad",
         "Potestad reglamentaria y de autoorganización",
+        "Resolver recursos de inconstitucionalidad",
         "Dirigir los tribunales"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "El artículo 4.1.a reconoce potestades reglamentaria y de autoorganización.",
       "trampa": "Distinguir entidad territorial, potestad y mayoría exigida por el precepto.",
-      "referencia": "Ley 7/1985 art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "referencia": "Ley 7/1985 art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "respuestaLiteral": "Potestad reglamentaria y de autoorganización"
     },
     {
       "id": "DIP-T12-016",
@@ -225,63 +240,72 @@
       "correcta": 1,
       "justificacion": "El artículo **7.4 LRBRL** requiere que no se ponga en riesgo la **sostenibilidad financiera** ni exista **ejecución simultánea** del mismo servicio público.",
       "trampa": "Distinguir autonomía, competencias propias y delegadas, y condiciones de otras competencias.",
-      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "respuestaLiteral": "Que no se comprometa la sostenibilidad financiera ni exista ejecución simultánea del mismo servicio con otra Administración"
     },
     {
       "id": "DIP-T12-017",
       "pregunta": "¿Qué informes exige el artículo 7.4 LRBRL para ejercer competencias distintas de las propias y delegadas?",
       "opciones": [
-        "Informe previo y vinculante de la Administración competente por materia y de la que tenga la tutela financiera",
         "Informe exclusivamente de la Secretaría municipal",
         "Solo acuerdo de la Junta de Gobierno Local",
-        "Dictamen favorable del Tribunal Constitucional"
+        "Dictamen favorable del Tribunal Constitucional",
+        "Informe previo y vinculante de la Administración competente por materia y de la que tenga la tutela financiera"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "Son necesarios y **vinculantes** los informes previos de la Administración competente por **materia**, sobre inexistencia de duplicidades, y de la que ejerce la **tutela financiera**.",
       "trampa": "Distinguir autonomía, competencias propias y delegadas, y condiciones de otras competencias.",
-      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "respuestaLiteral": "Informe previo y vinculante de la Administración competente por materia y de la que tenga la tutela financiera"
     },
     {
       "id": "DIP-T12-018",
       "pregunta": "¿Qué criterio contiene el artículo 2.1 LRBRL sobre atribución de competencias a municipios, provincias e islas?",
       "opciones": [
         "La atribución no debe atender a intereses locales",
-        "Se garantiza el derecho a intervenir en asuntos que afecten directamente a sus intereses, según descentralización, proximidad, eficacia y eficiencia",
         "Toda materia pasa a ser competencia municipal exclusiva",
+        "Se garantiza el derecho a intervenir en asuntos que afecten directamente a sus intereses, según descentralización, proximidad, eficacia y eficiencia",
         "La provincia carece de competencias legales"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El artículo **2.1 LRBRL** protege la intervención local en asuntos directamente ligados a sus intereses, con criterios de **descentralización, proximidad, eficacia y eficiencia**.",
       "trampa": "Distinguir autonomía, competencias propias y delegadas, y condiciones de otras competencias.",
-      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "respuestaLiteral": "Se garantiza el derecho a intervenir en asuntos que afecten directamente a sus intereses, según descentralización, proximidad, eficacia y eficiencia"
     },
     {
       "id": "DIP-T12-019",
       "pregunta": "¿Qué permite el artículo 8 LRBRL a provincias e islas respecto de servicios autonómicos?",
       "opciones": [
         "Aprobar leyes autonómicas",
-        "Gestionar ordinariamente servicios propios de la Administración autonómica según Estatutos y legislación autonómica",
         "Sustituir siempre al Gobierno autonómico",
-        "Asumir competencias judiciales"
+        "Asumir competencias judiciales",
+        "Gestionar ordinariamente servicios propios de la Administración autonómica según Estatutos y legislación autonómica"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El artículo **8 LRBRL** admite que **provincias e islas** realicen gestión ordinaria de servicios propios de la Administración autonómica dentro del marco legal.",
       "trampa": "Distinguir autonomía, competencias propias y delegadas, y condiciones de otras competencias.",
-      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "respuestaLiteral": "Gestionar ordinariamente servicios propios de la Administración autonómica según Estatutos y legislación autonómica"
     },
     {
       "id": "DIP-T12-020",
       "pregunta": "¿Qué garantía establece el artículo 10.4 LRBRL sobre la coordinación de las entidades locales?",
       "opciones": [
         "Suprime la autonomía local",
-        "Exige la disolución de las provincias",
         "Las funciones de coordinación son compatibles con la autonomía local",
+        "Exige la disolución de las provincias",
         "Prohíbe cualquier colaboración voluntaria"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "El artículo **10.4 LRBRL** establece la compatibilidad entre la **coordinación** y la **autonomía** de las entidades locales.",
       "trampa": "Distinguir autonomía, competencias propias y delegadas, y condiciones de otras competencias.",
-      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "referencia": "Ley 7/1985, arts. 2, 7, 8 y 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "respuestaLiteral": "Las funciones de coordinación son compatibles con la autonomía local"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

@@ -14,7 +14,8 @@
       "correcta": 1,
       "justificacion": "La provincia es una entidad local territorial determinada por la agrupación de municipios, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines.",
       "trampa": "No debe confundirse su función como división territorial del Estado con su naturaleza de entidad local.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#1-la-provincia"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#1-la-provincia",
+      "respuestaLiteral": "Una entidad local determinada por la agrupación de municipios, con personalidad jurídica propia"
     },
     {
       "id": "DIP-T14-002",
@@ -28,7 +29,8 @@
       "correcta": 2,
       "justificacion": "El artículo 141.1 de la Constitución exige una ley orgánica para alterar los límites provinciales.",
       "trampa": "No basta una ley ordinaria aunque exista acuerdo de las entidades territoriales afectadas.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#1-la-provincia"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#1-la-provincia",
+      "respuestaLiteral": "Ley orgánica"
     },
     {
       "id": "DIP-T14-003",
@@ -42,7 +44,8 @@
       "correcta": 1,
       "justificacion": "La provincia garantiza los principios de solidaridad y equilibrio intermunicipales y la prestación integral y adecuada de los servicios municipales.",
       "trampa": "La Diputación asiste, coopera y coordina, pero no sustituye con carácter general al municipio.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#2-fines-y-competencias-provinciales"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#2-fines-y-competencias-provinciales",
+      "respuestaLiteral": "Garantizar la solidaridad y el equilibrio intermunicipales"
     },
     {
       "id": "DIP-T14-004",
@@ -50,41 +53,44 @@
       "opciones": [
         "5.000 habitantes",
         "10.000 habitantes",
-        "20.000 habitantes",
-        "50.000 habitantes"
+        "50.000 habitantes",
+        "20.000 habitantes"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La Ley 7/1985 atribuye a la Diputación la prestación de servicios de administración electrónica y contratación centralizada en municipios con población inferior a 20.000 habitantes.",
       "trampa": "No debe confundirse este umbral con los previstos para otros servicios mínimos municipales.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#2-fines-y-competencias-provinciales"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#2-fines-y-competencias-provinciales",
+      "respuestaLiteral": "20.000 habitantes"
     },
     {
       "id": "DIP-T14-005",
       "pregunta": "¿Cuál de los siguientes órganos existe necesariamente en todas las Diputaciones?",
       "opciones": [
         "Consejo Social",
-        "Junta de Gobierno",
         "Consejo Consultivo Provincial",
+        "Junta de Gobierno",
         "Junta Municipal de Distrito"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La Presidencia, las Vicepresidencias, la Junta de Gobierno y el Pleno son órganos necesarios de todas las Diputaciones.",
       "trampa": "Los órganos complementarios dependen de la normativa aplicable y de la potestad de autoorganización.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#3-organización-provincial"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#3-organización-provincial",
+      "respuestaLiteral": "Junta de Gobierno"
     },
     {
       "id": "DIP-T14-006",
       "pregunta": "El número de diputados que puede integrar la Junta de Gobierno, además de la Presidencia, no puede superar:",
       "opciones": [
-        "La mitad del número legal",
         "Un tercio del número legal",
+        "La mitad del número legal",
         "Un cuarto de los presentes",
         "Dos quintos del Pleno"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La Junta de Gobierno se integra por la Presidencia y un número de diputados no superior a un tercio del número legal de miembros de la corporación.",
       "trampa": "El cálculo se realiza sobre el número legal de miembros, no sobre los asistentes a una sesión.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#33-junta-de-gobierno"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#33-junta-de-gobierno",
+      "respuestaLiteral": "Un tercio del número legal"
     },
     {
       "id": "DIP-T14-007",
@@ -98,77 +104,83 @@
       "correcta": 2,
       "justificacion": "El Pleno de la Diputación está integrado por la Presidencia y todos los diputados provinciales.",
       "trampa": "La pertenencia al Pleno no depende de las delegaciones atribuidas ni del régimen de dedicación.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#34-pleno"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#34-pleno",
+      "respuestaLiteral": "Presidencia y todos los diputados provinciales"
     },
     {
       "id": "DIP-T14-008",
       "pregunta": "¿Cuántos diputados provinciales integran la Corporación Provincial de Toledo en la legislatura 2023-2027?",
       "opciones": [
         "25",
-        "27",
         "31",
-        "51"
+        "51",
+        "27"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La Corporación Provincial de Toledo constituida para la legislatura 2023-2027 está integrada por 27 diputados provinciales.",
       "trampa": "El número de diputados provinciales depende de la población de la provincia conforme a la LOREG.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#5-la-diputación-provincial-de-toledo"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#5-la-diputación-provincial-de-toledo",
+      "respuestaLiteral": "27"
     },
     {
       "id": "DIP-T14-009",
       "pregunta": "Una provincia con población entre 500.001 y 1.000.000 de residentes elige:",
       "opciones": [
         "25 diputados",
-        "27 diputados",
         "31 diputados",
-        "51 diputados"
+        "51 diputados",
+        "27 diputados"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La escala legal asigna 27 diputados a las provincias con población comprendida entre 500.001 y 1.000.000 de residentes.",
       "trampa": "El tramo de hasta 500.000 residentes corresponde a 25 diputados.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#63-número-de-diputados-provinciales"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#63-número-de-diputados-provinciales",
+      "respuestaLiteral": "27 diputados"
     },
     {
       "id": "DIP-T14-010",
       "pregunta": "En la distribución de diputados provinciales entre partidos judiciales, cada uno debe contar al menos con:",
       "opciones": [
-        "Un diputado",
         "Dos diputados",
         "Tres diputados",
+        "Un diputado",
         "El cinco por ciento del total"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "La LOREG garantiza al menos un diputado provincial por cada partido judicial.",
       "trampa": "Esta garantía mínima no elimina el reparto proporcional atendiendo a la población.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#63-número-de-diputados-provinciales"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#63-número-de-diputados-provinciales",
+      "respuestaLiteral": "Un diputado"
     },
     {
       "id": "DIP-T14-011",
       "pregunta": "Los diputados provinciales son elegidos:",
       "opciones": [
         "Directamente por todos los electores de la provincia",
-        "Por el Gobierno autonómico",
         "Indirectamente entre concejales, según los resultados por partido judicial",
+        "Por el Gobierno autonómico",
         "Por sorteo entre alcaldes"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La elección de los diputados provinciales es indirecta y se realiza entre concejales conforme a los resultados obtenidos por cada formación política en cada partido judicial.",
       "trampa": "La ciudadanía no deposita una papeleta específica para elegir diputados provinciales.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#64-elección-de-diputados-provinciales"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#64-elección-de-diputados-provinciales",
+      "respuestaLiteral": "Indirectamente entre concejales, según los resultados por partido judicial"
     },
     {
       "id": "DIP-T14-012",
       "pregunta": "Para elegir a la Presidencia de la Diputación, la primera votación exige:",
       "opciones": [
         "Mayoría simple",
-        "Mayoría de tres quintos",
         "Mayoría absoluta",
+        "Mayoría de tres quintos",
         "Unanimidad"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La Presidencia es elegida por el Pleno entre sus miembros. En primera votación se requiere mayoría absoluta y, en segunda, basta mayoría simple.",
       "trampa": "La mayoría simple opera únicamente en la segunda votación.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#65-elección-de-la-presidencia-de-la-diputación"
+      "referencia": "content/diputacion-toledo/tema-14/manual.md#65-elección-de-la-presidencia-de-la-diputación",
+      "respuestaLiteral": "Mayoría absoluta"
     },
     {
       "id": "DIP-T14-013",
@@ -182,77 +194,83 @@
       "correcta": 1,
       "justificacion": "El mandato de los diputados provinciales se vincula al ciclo electoral municipal, de **4 años**.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 205 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+      "referencia": "LOREG art. 205 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "respuestaLiteral": "Cuatro años"
     },
     {
       "id": "DIP-T14-014",
       "pregunta": "¿Cuál es el número de diputados que corresponde a una provincia con hasta 500.000 residentes?",
       "opciones": [
-        "21",
         "25",
+        "21",
         "27",
         "31"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La escala legal fija **25 diputados** hasta **500.000 residentes**.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 204.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+      "referencia": "LOREG art. 204.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "respuestaLiteral": "25"
     },
     {
       "id": "DIP-T14-015",
       "pregunta": "¿Cuántos diputados provinciales corresponden a una provincia con más de 1.000.000 y hasta 3.500.000 residentes?",
       "opciones": [
+        "31",
         "25",
         "27",
-        "31",
         "51"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La escala atribuye **31 diputados** a provincias de **1.000.001 a 3.500.000 residentes**.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 204.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+      "referencia": "LOREG art. 204.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "respuestaLiteral": "31"
     },
     {
       "id": "DIP-T14-016",
       "pregunta": "¿Qué órgano distribuye los diputados provinciales entre partidos judiciales?",
       "opciones": [
-        "La Junta Electoral Provincial",
         "El alcalde de la capital",
         "El Tribunal Constitucional",
-        "El presidente de la Diputación"
+        "El presidente de la Diputación",
+        "La Junta Electoral Provincial"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "La **Junta Electoral Provincial** distribuye los puestos entre partidos judiciales con las reglas de la ley.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 204.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672"
+      "referencia": "LOREG art. 204.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "respuestaLiteral": "La Junta Electoral Provincial"
     },
     {
       "id": "DIP-T14-017",
       "pregunta": "¿Qué mayoría exige la segunda votación para elegir presidente de Diputación?",
       "opciones": [
         "Absoluta",
-        "Simple",
         "Tres quintos",
-        "Dos tercios"
+        "Dos tercios",
+        "Simple"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "LOREG 207.2: mayoría simple en segunda votación.",
       "trampa": "Atención al dato legal exacto.",
-      "referencia": "LOREG art. 207"
+      "referencia": "LOREG art. 207",
+      "respuestaLiteral": "Simple"
     },
     {
       "id": "DIP-T14-018",
       "pregunta": "¿Quién preside la constitución de la Diputación antes de elegir presidente?",
       "opciones": [
+        "Mesa de Edad",
         "Presidente saliente",
         "Delegado del Gobierno",
-        "Mesa de Edad",
         "Alcalde de la capital"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "LOREG 207.1: Mesa de Edad.",
       "trampa": "Atención al dato legal exacto.",
-      "referencia": "LOREG art. 207"
+      "referencia": "LOREG art. 207",
+      "respuestaLiteral": "Mesa de Edad"
     },
     {
       "id": "DIP-T14-019",
@@ -266,21 +284,27 @@
       "correcta": 0,
       "justificacion": "Existen en todas las diputaciones **Presidente, vicepresidentes, Junta de Gobierno y Pleno**.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LRBRL art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+      "referencia": "LRBRL art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "respuestaLiteral": "Presidente, vicepresidentes, Junta de Gobierno y Pleno"
     },
     {
       "id": "DIP-T14-020",
       "pregunta": "¿Qué servicios debe garantizar la Diputación en municipios de menos de 1.000 habitantes?",
       "opciones": [
         "Transporte urbano",
-        "Secretaría e intervención",
         "Universidad",
+        "Secretaría e intervención",
         "Metro"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "LRBRL 36.1.b: secretaría e intervención.",
       "trampa": "Atención al dato legal exacto.",
-      "referencia": "LRBRL art. 36.1.b"
+      "referencia": "LRBRL art. 36.1.b",
+      "respuestaLiteral": "Secretaría e intervención"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

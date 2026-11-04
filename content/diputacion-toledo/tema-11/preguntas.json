@@ -15,91 +15,98 @@
       "correcta": 0,
       "justificacion": "El procedimiento administrativo local se rige con carácter básico por la Ley 39/2015, sin perjuicio de las especialidades establecidas por la normativa de régimen local.",
       "trampa": "El ROF contiene especialidades locales, pero no sustituye a la Ley 39/2015.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#1-régimen-jurídico-del-procedimiento-administrativo-local"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#1-régimen-jurídico-del-procedimiento-administrativo-local",
+      "respuestaLiteral": "La Ley 39/2015"
     },
     {
       "id": "DIP-T11-002",
       "pregunta": "El registro electrónico general permite presentar documentos:",
       "opciones": [
-        "Solo en horario de oficina",
         "Las 24 horas de todos los días del año",
+        "Solo en horario de oficina",
         "Solo en días hábiles",
         "Hasta las 15:00 horas"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "El registro electrónico permite la presentación de documentos durante las 24 horas de todos los días del año.",
       "trampa": "La disponibilidad permanente no convierte todos los días en hábiles a efectos de cómputo.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#34-funcionamiento-del-registro-electrónico"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#34-funcionamiento-del-registro-electrónico",
+      "respuestaLiteral": "Las 24 horas de todos los días del año"
     },
     {
       "id": "DIP-T11-003",
       "pregunta": "Una presentación efectuada en día inhábil en el registro electrónico se entiende realizada, con carácter general:",
       "opciones": [
         "El mismo día",
-        "El día hábil anterior",
         "En la primera hora del primer día hábil siguiente",
+        "El día hábil anterior",
         "Cuando la revise un funcionario"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "A efectos del cómputo de plazos fijados en días hábiles, la presentación en día inhábil se entiende realizada en la primera hora del primer día hábil siguiente, salvo previsión normativa específica.",
       "trampa": "El sistema recibe el documento, pero su efecto temporal se traslada al primer día hábil siguiente.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#34-funcionamiento-del-registro-electrónico"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#34-funcionamiento-del-registro-electrónico",
+      "respuestaLiteral": "En la primera hora del primer día hábil siguiente"
     },
     {
       "id": "DIP-T11-004",
       "pregunta": "El plazo ordinario para subsanar una solicitud incompleta es de:",
       "opciones": [
         "5 días",
-        "10 días",
         "15 días",
+        "10 días",
         "1 mes"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El artículo 68 de la Ley 39/2015 establece un plazo ordinario de 10 días para subsanar la falta o aportar los documentos preceptivos.",
       "trampa": "Los 5 días corresponden a una posible ampliación excepcional, no al plazo inicial.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#43-subsanación-de-solicitudes"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#43-subsanación-de-solicitudes",
+      "respuestaLiteral": "10 días"
     },
     {
       "id": "DIP-T11-005",
       "pregunta": "Cuando un sujeto obligado a relacionarse electrónicamente presenta presencialmente una solicitud, la fecha válida de presentación será:",
       "opciones": [
+        "La de la subsanación electrónica",
         "La de la presentación presencial",
         "La del requerimiento",
-        "La de la subsanación electrónica",
         "La de la resolución"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La solicitud se considera presentada en la fecha en que el sujeto obligado realiza la subsanación por medios electrónicos.",
       "trampa": "La fecha inicial de presentación en papel no se conserva como fecha válida.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#43-subsanación-de-solicitudes"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#43-subsanación-de-solicitudes",
+      "respuestaLiteral": "La de la subsanación electrónica"
     },
     {
       "id": "DIP-T11-006",
       "pregunta": "Toda notificación debe cursarse dentro del plazo de:",
       "opciones": [
         "5 días desde la iniciación",
-        "10 días desde que el acto fue dictado",
         "15 días desde la firma",
-        "1 mes desde la resolución"
+        "1 mes desde la resolución",
+        "10 días desde que el acto fue dictado"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El artículo 40.2 de la Ley 39/2015 establece que toda notificación debe cursarse dentro de los 10 días siguientes a la fecha en que el acto haya sido dictado.",
       "trampa": "Este plazo no es el mismo que el de rechazo de una notificación electrónica.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#61-contenido-y-plazo-de-la-notificación"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#61-contenido-y-plazo-de-la-notificación",
+      "respuestaLiteral": "10 días desde que el acto fue dictado"
     },
     {
       "id": "DIP-T11-007",
       "pregunta": "Una notificación electrónica puesta a disposición y no abierta se entiende rechazada, con carácter general, tras:",
       "opciones": [
         "5 días hábiles",
-        "10 días hábiles",
         "10 días naturales",
+        "10 días hábiles",
         "15 días naturales"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La notificación electrónica se entiende rechazada cuando transcurren 10 días naturales desde su puesta a disposición sin que se acceda al contenido.",
       "trampa": "La Ley establece días naturales, no días hábiles.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#62-notificación-electrónica"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#62-notificación-electrónica",
+      "respuestaLiteral": "10 días naturales"
     },
     {
       "id": "DIP-T11-008",
@@ -113,21 +120,23 @@
       "correcta": 1,
       "justificacion": "Puede hacerse cargo de la notificación cualquier persona mayor de 14 años que se encuentre en el domicilio y haga constar su identidad.",
       "trampa": "No se exige que la persona receptora sea mayor de edad.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#63-notificación-en-papel"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#63-notificación-en-papel",
+      "respuestaLiteral": "14 años"
     },
     {
       "id": "DIP-T11-009",
       "pregunta": "Si el primer intento de notificación en papel resulta fallido, el segundo intento debe realizarse:",
       "opciones": [
-        "Dentro de los 3 días siguientes",
         "Dentro de los 10 días siguientes",
         "Al mes siguiente",
-        "No procede un segundo intento"
+        "No procede un segundo intento",
+        "Dentro de los 3 días siguientes"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "La notificación debe repetirse por una sola vez y en una hora distinta dentro de los 3 días siguientes.",
       "trampa": "No son 10 días; ese plazo corresponde a otras reglas de notificación.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#63-notificación-en-papel"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#63-notificación-en-papel",
+      "respuestaLiteral": "Dentro de los 3 días siguientes"
     },
     {
       "id": "DIP-T11-010",
@@ -135,55 +144,59 @@
       "opciones": [
         "El tablón municipal exclusivamente",
         "El boletín provincial exclusivamente",
-        "El Boletín Oficial del Estado",
-        "Un periódico local"
+        "Un periódico local",
+        "El Boletín Oficial del Estado"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La notificación infructuosa se practica mediante un anuncio publicado en el Boletín Oficial del Estado.",
       "trampa": "Otros medios pueden ser complementarios, pero no sustituyen al anuncio en el BOE.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#64-notificación-infructuosa"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#64-notificación-infructuosa",
+      "respuestaLiteral": "El Boletín Oficial del Estado"
     },
     {
       "id": "DIP-T11-011",
       "pregunta": "La ausencia del aviso enviado al correo electrónico o dispositivo móvil sobre una notificación electrónica:",
       "opciones": [
+        "No invalida la notificación",
         "Invalida siempre la notificación",
         "Suspende automáticamente el plazo",
-        "No invalida la notificación",
         "Convierte la notificación en papel"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El aviso es accesorio y su falta no afecta a la validez de la notificación puesta a disposición.",
       "trampa": "No confundir el aviso complementario con la notificación propiamente dicha.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#5-comunicaciones-y-avisos"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#5-comunicaciones-y-avisos",
+      "respuestaLiteral": "No invalida la notificación"
     },
     {
       "id": "DIP-T11-012",
       "pregunta": "Las copias auténticas expedidas por una Administración pública:",
       "opciones": [
-        "Carecen de valor fuera del órgano que las expide",
         "Tienen la misma validez y eficacia que los originales",
+        "Carecen de valor fuera del órgano que las expide",
         "Solo sirven durante 10 días",
         "Deben compulsarse de nuevo"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "Las copias auténticas realizadas por una Administración pública tienen la misma validez y eficacia que los documentos originales.",
       "trampa": "No deben confundirse con simples fotocopias sin autenticación.",
-      "referencia": "content/diputacion-toledo/tema-11/manual.md#44-copias-auténticas"
+      "referencia": "content/diputacion-toledo/tema-11/manual.md#44-copias-auténticas",
+      "respuestaLiteral": "Tienen la misma validez y eficacia que los originales"
     },
     {
       "id": "DIP-T11-013",
       "pregunta": "¿Qué documento se entrega o genera como justificante de un asiento registral electrónico?",
       "opciones": [
         "Una llamada telefónica",
-        "Un recibo con número de registro, fecha y hora y copia autenticada de lo presentado, cuando proceda",
         "Una nota interna sin fecha",
+        "Un recibo con número de registro, fecha y hora y copia autenticada de lo presentado, cuando proceda",
         "Ninguno"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El registro electrónico emite automáticamente recibo con copia autenticada del documento y fecha y hora de presentación, además de número de entrada.",
       "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
-      "referencia": "Ley 39/2015, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Un recibo con número de registro, fecha y hora y copia autenticada de lo presentado, cuando proceda"
     },
     {
       "id": "DIP-T11-014",
@@ -197,7 +210,8 @@
       "correcta": 2,
       "justificacion": "El artículo 16.4 admite la presentación en oficinas de Correos en la forma que se establezca reglamentariamente.",
       "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
-      "referencia": "Ley 39/2015, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "En las oficinas de Correos en la forma reglamentaria"
     },
     {
       "id": "DIP-T11-015",
@@ -211,63 +225,68 @@
       "correcta": 3,
       "justificacion": "La documentación presentada presencialmente debe digitalizarse para incorporar una copia electrónica, salvo supuestos excepcionales.",
       "trampa": "Distinguir el acto registral de la notificación y memorizar el plazo legal literal.",
-      "referencia": "Ley 39/2015, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Digitalizarlos para incorporarlos al expediente administrativo electrónico y devolver los originales salvo excepciones"
     },
     {
       "id": "DIP-T11-016",
       "pregunta": "Según el artículo 151.1 del ROF, ¿qué debe constar en el Registro General de una entidad local?",
       "opciones": [
         "Solo las solicitudes de los vecinos",
-        "La entrada de documentos recibidos y la salida de los despachados definitivamente",
         "Únicamente las facturas",
+        "La entrada de documentos recibidos y la salida de los despachados definitivamente",
         "Solo los acuerdos del Pleno"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El artículo **151.1 ROF** exige reflejar tanto las **entradas** como las **salidas** de documentos.",
       "trampa": "Distinguir las reglas locales del ROF y las exigencias básicas de la Ley 39/2015.",
-      "referencia": "ROF, artículos 151 y 153 · https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252"
+      "referencia": "ROF, artículos 151 y 153 · https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252",
+      "respuestaLiteral": "La entrada de documentos recibidos y la salida de los despachados definitivamente"
     },
     {
       "id": "DIP-T11-017",
       "pregunta": "¿Puede un Registro General local organizarse de forma desconcentrada?",
       "opciones": [
         "No, en ningún caso",
-        "Solo por orden ministerial",
         "Sí, según las características de los servicios de la entidad",
+        "Solo por orden ministerial",
         "Solo en municipios de más de 50.000 habitantes"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "El artículo **151.3 ROF** admite la **organización desconcentrada** del Registro General.",
       "trampa": "Distinguir las reglas locales del ROF y las exigencias básicas de la Ley 39/2015.",
-      "referencia": "ROF, artículos 151 y 153 · https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252"
+      "referencia": "ROF, artículos 151 y 153 · https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252",
+      "respuestaLiteral": "Sí, según las características de los servicios de la entidad"
     },
     {
       "id": "DIP-T11-018",
       "pregunta": "¿Qué dato debe figurar en un asiento de entrada conforme al artículo 153.1 del ROF?",
       "opciones": [
         "El resultado de la siguiente convocatoria electoral",
-        "El número de orden correlativo y la fecha de ingreso",
         "El código de la contraseña del firmante",
+        "El número de orden correlativo y la fecha de ingreso",
         "El número de miembros del Pleno"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El artículo **153.1 ROF** enumera, entre otros, **número correlativo** y **fecha de ingreso**.",
       "trampa": "Distinguir las reglas locales del ROF y las exigencias básicas de la Ley 39/2015.",
-      "referencia": "ROF, artículos 151 y 153 · https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252"
+      "referencia": "ROF, artículos 151 y 153 · https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252",
+      "respuestaLiteral": "El número de orden correlativo y la fecha de ingreso"
     },
     {
       "id": "DIP-T11-019",
       "pregunta": "Conforme al artículo 16.4 de la Ley 39/2015, ¿dónde pueden presentarse documentos dirigidos a las Administraciones?",
       "opciones": [
         "Solo en el órgano destinatario",
-        "En las representaciones diplomáticas u oficinas consulares españolas en el extranjero",
         "Exclusivamente en la sede electrónica estatal",
-        "Únicamente en las oficinas municipales"
+        "Únicamente en las oficinas municipales",
+        "En las representaciones diplomáticas u oficinas consulares españolas en el extranjero"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El artículo **16.4.c Ley 39/2015** incluye las **representaciones diplomáticas u oficinas consulares**.",
       "trampa": "Distinguir las reglas locales del ROF y las exigencias básicas de la Ley 39/2015.",
-      "referencia": "Ley 39/2015, artículo 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, artículo 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "En las representaciones diplomáticas u oficinas consulares españolas en el extranjero"
     },
     {
       "id": "DIP-T11-020",
@@ -281,7 +300,12 @@
       "correcta": 1,
       "justificacion": "El artículo **16.3 Ley 39/2015** exige **recibo automático** con los datos de presentación e identificación del asiento.",
       "trampa": "Distinguir las reglas locales del ROF y las exigencias básicas de la Ley 39/2015.",
-      "referencia": "Ley 39/2015, artículo 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, artículo 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "Un recibo automático con copia autenticada, fecha, hora y número de entrada"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }

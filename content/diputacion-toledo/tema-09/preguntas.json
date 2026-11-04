@@ -7,15 +7,16 @@
       "id": "DIP-T09-001",
       "pregunta": "¿Cuál de los siguientes sujetos está obligado a relacionarse electrónicamente con las Administraciones Públicas?",
       "opciones": [
+        "Las personas jurídicas",
         "Toda persona física",
         "Toda persona mayor de edad",
-        "Las personas jurídicas",
         "Solo los funcionarios"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El artículo 14.2 de la Ley 39/2015 incluye expresamente a las personas jurídicas.",
       "trampa": "Confundir derecho de elección de la persona física con obligación general.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica",
+      "respuestaLiteral": "Las personas jurídicas"
     },
     {
       "id": "DIP-T09-002",
@@ -29,63 +30,68 @@
       "correcta": 1,
       "justificacion": "La obligación se limita a los trámites realizados en ejercicio de la actividad profesional.",
       "trampa": "Extender la obligación a cualquier actuación personal.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica",
+      "respuestaLiteral": "Solo en trámites vinculados al ejercicio profesional"
     },
     {
       "id": "DIP-T09-003",
       "pregunta": "¿Qué diferencia básica existe entre identificación y firma electrónica?",
       "opciones": [
-        "Ninguna",
         "La identificación acredita identidad y la firma además voluntad y consentimiento",
+        "Ninguna",
         "La firma solo sirve para notificaciones",
         "La identificación exige certificado y la firma no"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La firma añade autenticidad de la voluntad e integridad del documento.",
       "trampa": "Tratarlas como conceptos equivalentes.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#6-identificación-y-firma-electrónicas"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#6-identificación-y-firma-electrónicas",
+      "respuestaLiteral": "La identificación acredita identidad y la firma además voluntad y consentimiento"
     },
     {
       "id": "DIP-T09-004",
       "pregunta": "¿En cuál de estas actuaciones se exige firma con carácter general?",
       "opciones": [
         "Consultar un expediente",
-        "Recibir información",
         "Interponer un recurso",
+        "Recibir información",
         "Acceder al portal"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La Ley 39/2015 exige firma para interponer recursos.",
       "trampa": "Pensar que cualquier acceso electrónico exige firma.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#62-uso-obligatorio-de-la-firma"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#62-uso-obligatorio-de-la-firma",
+      "respuestaLiteral": "Interponer un recurso"
     },
     {
       "id": "DIP-T09-005",
       "pregunta": "La sede electrónica es:",
       "opciones": [
         "Cualquier página web pública",
-        "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad",
         "Un buzón de correo",
-        "Una red social institucional"
+        "Una red social institucional",
+        "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "Esa es la definición legal de sede electrónica.",
       "trampa": "Confundir sede con portal de internet.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#7-sede-electrónica"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#7-sede-electrónica",
+      "respuestaLiteral": "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad"
     },
     {
       "id": "DIP-T09-006",
       "pregunta": "El registro electrónico permite presentar documentos:",
       "opciones": [
+        "Todos los días del año durante las 24 horas",
         "Solo en horario de oficina",
         "Solo en días hábiles",
-        "Todos los días del año durante las 24 horas",
         "Solo hasta las 14:00"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El registro electrónico está disponible todos los días del año durante las 24 horas.",
       "trampa": "Confundir disponibilidad técnica con cómputo jurídico de días hábiles.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico",
+      "respuestaLiteral": "Todos los días del año durante las 24 horas"
     },
     {
       "id": "DIP-T09-007",
@@ -93,41 +99,44 @@
       "opciones": [
         "El mismo día",
         "La última hora del día hábil anterior",
-        "La primera hora del primer día hábil siguiente",
-        "Cuando la revise el funcionario"
+        "Cuando la revise el funcionario",
+        "La primera hora del primer día hábil siguiente"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "Así lo establece el artículo 31 de la Ley 39/2015.",
       "trampa": "Pensar que el registro disponible durante las 24 horas convierte el día inhábil en hábil.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico",
+      "respuestaLiteral": "La primera hora del primer día hábil siguiente"
     },
     {
       "id": "DIP-T09-008",
       "pregunta": "¿Cuándo se entiende practicada una notificación electrónica?",
       "opciones": [
-        "Cuando se envía el aviso",
         "Cuando se accede a su contenido",
+        "Cuando se envía el aviso",
         "Cuando se firma el expediente",
         "Cuando se publica en el portal"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La notificación se practica cuando el interesado accede a su contenido.",
       "trampa": "Confundir el aviso complementario con la notificación.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas",
+      "respuestaLiteral": "Cuando se accede a su contenido"
     },
     {
       "id": "DIP-T09-009",
       "pregunta": "Si una notificación electrónica obligatoria no se abre, se entiende rechazada tras:",
       "opciones": [
         "5 días hábiles",
-        "10 días hábiles",
         "10 días naturales",
+        "10 días hábiles",
         "15 días naturales"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "El plazo legal es de 10 días naturales desde la puesta a disposición.",
       "trampa": "Cambiar días naturales por días hábiles.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas",
+      "respuestaLiteral": "10 días naturales"
     },
     {
       "id": "DIP-T09-010",
@@ -135,27 +144,29 @@
       "opciones": [
         "Invalida siempre la notificación",
         "Suspende el procedimiento",
-        "No invalida la notificación",
-        "Convierte la notificación en presencial"
+        "Convierte la notificación en presencial",
+        "No invalida la notificación"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "El aviso es meramente complementario y su ausencia no impide que la notificación sea válida.",
       "trampa": "Atribuir al aviso valor constitutivo.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas",
+      "respuestaLiteral": "No invalida la notificación"
     },
     {
       "id": "DIP-T09-011",
       "pregunta": "La actuación administrativa automatizada se caracteriza por:",
       "opciones": [
         "Requerir intervención directa de un funcionario en cada acto",
-        "Realizarse íntegramente por medios electrónicos sin intervención directa de empleado público",
         "No producir efectos jurídicos",
+        "Realizarse íntegramente por medios electrónicos sin intervención directa de empleado público",
         "Ser exclusivamente informativa"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La actuación administrativa automatizada se realiza íntegramente por medios electrónicos sin intervención directa de un empleado público.",
       "trampa": "Confundir automatización con simple apoyo informático.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#13-actuación-administrativa-automatizada"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#13-actuación-administrativa-automatizada",
+      "respuestaLiteral": "Realizarse íntegramente por medios electrónicos sin intervención directa de empleado público"
     },
     {
       "id": "DIP-T09-012",
@@ -169,7 +180,8 @@
       "correcta": 2,
       "justificacion": "La interoperabilidad permite el intercambio y la reutilización de datos y documentos entre Administraciones.",
       "trampa": "Confundir interoperabilidad con coordinación orgánica.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#14-interoperabilidad"
+      "referencia": "content/diputacion-toledo/tema-09/manual.md#14-interoperabilidad",
+      "respuestaLiteral": "Interoperabilidad"
     },
     {
       "id": "DIP-T09-013",
@@ -183,7 +195,8 @@
       "correcta": 1,
       "justificacion": "Conforme a artículo 14 de la legislación administrativa aplicable.",
       "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 39/2015 art. 14"
+      "referencia": "Ley 39/2015 art. 14",
+      "respuestaLiteral": "Sí, salvo que estén obligadas a relacionarse electrónicamente"
     },
     {
       "id": "DIP-T09-014",
@@ -191,27 +204,29 @@
       "opciones": [
         "Se admite siempre",
         "Se pierde automáticamente el derecho",
-        "Se requiere subsanación electrónica y esa fecha cuenta como presentación",
-        "Se considera registrada el día anterior"
+        "Se considera registrada el día anterior",
+        "Se requiere subsanación electrónica y esa fecha cuenta como presentación"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "Conforme a artículo 68 de la legislación administrativa aplicable.",
       "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 39/2015 art. 68"
+      "referencia": "Ley 39/2015 art. 68",
+      "respuestaLiteral": "Se requiere subsanación electrónica y esa fecha cuenta como presentación"
     },
     {
       "id": "DIP-T09-015",
       "pregunta": "¿Qué fecha cuenta como presentación de una solicitud si una persona jurídica la presentó en papel y después subsana electrónicamente?",
       "opciones": [
         "La fecha de la entrega presencial inicial",
-        "La fecha de la subsanación mediante presentación electrónica",
         "La fecha en que se dictó el requerimiento",
+        "La fecha de la subsanación mediante presentación electrónica",
         "La del día hábil anterior a la presentación en papel"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El **artículo 68.4 de la Ley 39/2015** considera fecha de presentación aquella en que se efectúa la **subsanación electrónica**.",
       "trampa": "No se conserva, a estos efectos, la fecha original de entrada en papel.",
-      "referencia": "Ley 39/2015, art. 68.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "referencia": "Ley 39/2015, art. 68.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "respuestaLiteral": "La fecha de la subsanación mediante presentación electrónica"
     },
     {
       "id": "DIP-T09-016",
@@ -219,27 +234,29 @@
       "opciones": [
         "Únicamente firma manuscrita escaneada",
         "Exclusivamente DNI electrónico del ciudadano",
-        "Sello electrónico o código seguro de verificación en los términos legales",
-        "Solo firma del empleado público presente"
+        "Solo firma del empleado público presente",
+        "Sello electrónico o código seguro de verificación en los términos legales"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "El **artículo 42 de la Ley 40/2015** contempla **sello electrónico** y **código seguro de verificación (CSV)** para actuaciones automatizadas.",
       "trampa": "No confundir los sistemas de firma de actuación automatizada con la firma personal del interesado.",
-      "referencia": "Ley 40/2015, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "Sello electrónico o código seguro de verificación en los términos legales"
     },
     {
       "id": "DIP-T09-017",
       "pregunta": "En una actuación administrativa automatizada, ¿qué debe determinarse previamente según el artículo 41.2 Ley 40/2015?",
       "opciones": [
         "Únicamente el nombre comercial del programa",
-        "Los órganos responsables de especificaciones, programación, mantenimiento, supervisión y control y el responsable a efectos de impugnación",
         "El número de empleados que firmarán manualmente cada acto",
+        "Los órganos responsables de especificaciones, programación, mantenimiento, supervisión y control y el responsable a efectos de impugnación",
         "Solo la unidad que archiva documentos"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El **artículo 41.2** exige determinar previamente los órganos responsables de las fases técnicas y de control y el **órgano responsable a efectos de impugnación**.",
       "trampa": "Automatizada no significa carente de responsabilidad administrativa.",
-      "referencia": "Ley 40/2015, art. 41.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 41.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "Los órganos responsables de especificaciones, programación, mantenimiento, supervisión y control y el responsable a efectos de impugnación"
     },
     {
       "id": "DIP-T09-018",
@@ -253,21 +270,23 @@
       "correcta": 2,
       "justificacion": "El **artículo 42.b Ley 40/2015** exige que el sistema CSV permita comprobar la **integridad del documento** mediante acceso a la **sede electrónica correspondiente**.",
       "trampa": "El CSV facilita verificación, pero no sustituye a la tramitación ni elimina recursos.",
-      "referencia": "Ley 40/2015, art. 42.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "referencia": "Ley 40/2015, art. 42.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "respuestaLiteral": "La comprobación de integridad del documento accediendo a la sede electrónica correspondiente"
     },
     {
       "id": "DIP-T09-019",
       "pregunta": "¿Qué norma regula el Esquema Nacional de Interoperabilidad?",
       "opciones": [
         "Ley 7/1985",
+        "RD 4/2010",
         "RD 311/2022",
-        "LO 3/2018",
-        "RD 4/2010"
+        "LO 3/2018"
       ],
-      "correcta": 3,
+      "correcta": 1,
       "justificacion": "Conforme a RD 4/2010.",
       "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "RD 4/2010"
+      "referencia": "RD 4/2010",
+      "respuestaLiteral": "RD 4/2010"
     },
     {
       "id": "DIP-T09-020",
@@ -281,7 +300,12 @@
       "correcta": 0,
       "justificacion": "Conforme a artículo 38 de la legislación administrativa aplicable.",
       "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 40/2015 art. 38"
+      "referencia": "Ley 40/2015 art. 38",
+      "respuestaLiteral": "A una Administración u organismo o entidad de Derecho público en ejercicio de sus competencias"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  }
 }
