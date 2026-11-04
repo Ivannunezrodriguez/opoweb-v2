@@ -40,8 +40,7 @@ def canonical(url):
     path=re.sub(r';jsessionid=[^/?]*','',u.path,flags=re.I)
     # urllib.request only accepts ASCII request targets: encode non-ASCII
     # characters from official municipal links, preserving existing % escapes.
-    path=urllib.parse.quote(path,safe="/%:@!path=re.sub(r';jsessionid=[^/?]*','',u.path,flags=re.I)
-    return urllib.parse.urlunsplit'()*+,;=-._~")
+    path=urllib.parse.quote(path,safe="/%:@!$&'()*+,;=-._~")
     return urllib.parse.urlunsplit((u.scheme,u.netloc.lower(),path,urllib.parse.urlencode(sorted(params)),''))
 def digest(s):return hashlib.sha256(s.encode()).hexdigest()[:24]
 def get(url):
