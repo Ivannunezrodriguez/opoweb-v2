@@ -216,16 +216,18 @@
       "id": "DIP-T23-015",
       "pregunta": "¿Con qué periodicidad se reúne ordinariamente el Comité de Seguridad y Salud?",
       "opciones": [
-        "Trimestralmente",
-        "Cada semana",
-        "Cada seis meses",
-        "Cada año"
+        "15 días, salvo que se trate de riesgos inminentes y resulte imprescindible uno menor",
+        "30 días naturales en cualquier caso",
+        "72 horas sin excepciones",
+        "Dos meses desde la solicitud"
       ],
       "correcta": 0,
-      "justificacion": "El Comité se reúne **trimestralmente** y siempre que lo solicite alguna de sus representaciones.",
+      "justificacion": "El art. 36.3 LPRL establece 15 días o el tiempo imprescindible cuando se adopten medidas dirigidas a prevenir riesgos inminentes.",
       "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
-      "referencia": "Ley 31/1995, artículo 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
-      "respuestaLiteral": "Trimestralmente"
+      "referencia": "Ley 31/1995 art. 36.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a36",
+      "respuestaLiteral": "15 días, salvo que se trate de riesgos inminentes y resulte imprescindible uno menor",
+      "enunciado": "¿Cuál es el plazo ordinario para que los Delegados de Prevención emitan el informe relativo a la consulta del art. 33 LPRL?",
+      "trampaExamen": "15 días es la regla general, pero ante riesgo inminente no existe un plazo fijo alternativo de 24 horas."
     },
     {
       "id": "DIP-T23-016",
@@ -246,65 +248,88 @@
       "id": "DIP-T23-017",
       "pregunta": "¿Qué sucede cuando hay riesgo grave e inminente y no se pueden adoptar las medidas ordinarias de seguridad?",
       "opciones": [
-        "Debe mantenerse siempre la prestación",
-        "Solo puede solicitar cambio de turno",
-        "Debe esperar una sentencia firme",
-        "La persona trabajadora puede interrumpir su actividad y abandonar el lugar de trabajo si fuera necesario"
+        "Identificación fiscal, inventario y contabilidad",
+        "Solo planes de formación y permisos laborales",
+        "Únicamente apertura y cierre de oficinas",
+        "Primeros auxilios, lucha contra incendios y evacuación"
       ],
       "correcta": 3,
-      "justificacion": "El artículo 21.2 reconoce la interrupción y, si es necesario, el abandono del lugar ante riesgo **grave e inminente**.",
+      "justificacion": "El art. 20 LPRL exige analizar emergencias y adoptar medidas necesarias en primeros auxilios, lucha contra incendios y evacuación.",
       "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
-      "referencia": "Ley 31/1995, artículo 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
-      "respuestaLiteral": "La persona trabajadora puede interrumpir su actividad y abandonar el lugar de trabajo si fuera necesario"
+      "referencia": "Ley 31/1995 art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a20",
+      "respuestaLiteral": "Primeros auxilios, lucha contra incendios y evacuación",
+      "enunciado": "¿Qué actuaciones deben contemplarse expresamente en las medidas de emergencia del artículo 20 LPRL?",
+      "trampaExamen": "El artículo enumera tres ámbitos y exige designación de personal encargado y comprobación periódica del funcionamiento."
     },
     {
       "id": "DIP-T23-018",
       "pregunta": "¿Qué plazo tiene la autoridad laboral para ratificar o anular la paralización de actividad acordada por representantes?",
       "opciones": [
-        "12 horas",
-        "48 horas",
-        "Tres días",
-        "24 horas"
+        "Permitir usar equipos sin protección aunque exista riesgo",
+        "Asumir personalmente el coste de la protección",
+        "Desconectar la señalización para facilitar el trabajo",
+        "No poner fuera de funcionamiento los dispositivos de seguridad existentes"
       ],
       "correcta": 3,
-      "justificacion": "La autoridad laboral debe ratificar o anular la paralización dentro de **24 horas**.",
+      "justificacion": "El art. 29.2.3.º LPRL exige no poner fuera de funcionamiento y utilizar correctamente los dispositivos de seguridad.",
       "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
-      "referencia": "Ley 31/1995, artículo 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
-      "respuestaLiteral": "24 horas"
+      "referencia": "Ley 31/1995 art. 29.2.3.º · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a29",
+      "respuestaLiteral": "No poner fuera de funcionamiento los dispositivos de seguridad existentes",
+      "enunciado": "¿Cuál es una obligación del trabajador en materia preventiva conforme al art. 29.2 LPRL?",
+      "trampaExamen": "Las obligaciones preventivas del trabajador no permiten anular protecciones ni trasladan al empleado el coste legal de la prevención."
     },
     {
       "id": "DIP-T23-019",
       "pregunta": "¿Cuál es la regla general de vigilancia de la salud laboral?",
       "opciones": [
-        "Obligatoria sin excepción",
-        "Puede compartirse cualquier resultado médico con jefaturas",
-        "Requiere consentimiento del trabajador, con excepciones legalmente tasadas",
-        "Se realiza solo al terminar el contrato"
+        "El número de trabajadores que elige a los Delegados de Prevención",
+        "Un órgano judicial para resolver sanciones",
+        "El conjunto de medios humanos y materiales necesarios para las actividades preventivas",
+        "Una comisión sindical sin medios técnicos"
       ],
       "correcta": 2,
-      "justificacion": "Como regla general requiere **consentimiento**, salvo supuestos legalmente previstos.",
+      "justificacion": "La Ley 31/1995 art. 31.2 define el servicio de prevención como conjunto de medios humanos y materiales necesarios para las actividades preventivas, destinado a garantizar protección y asesoramiento.",
       "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
-      "referencia": "Ley 31/1995, artículo 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
-      "respuestaLiteral": "Requiere consentimiento del trabajador, con excepciones legalmente tasadas"
+      "referencia": "Ley 31/1995 art. 31.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a31",
+      "respuestaLiteral": "El conjunto de medios humanos y materiales necesarios para las actividades preventivas",
+      "enunciado": "¿Cómo define el art. 31.2 LPRL un servicio de prevención?",
+      "trampaExamen": "El servicio de prevención es una organización de recursos; no se confunde con los Delegados ni con el Comité de Seguridad y Salud."
     },
     {
       "id": "DIP-T23-020",
       "pregunta": "¿Desde qué plantilla es obligatorio constituir un Comité de Seguridad y Salud?",
       "opciones": [
-        "30 o más",
-        "50 o más personas trabajadoras",
-        "100 o más",
-        "250 o más"
+        "Desde 50 trabajadores en todos los casos",
+        "Con más de 500 trabajadores",
+        "Desde 250 trabajadores sin más requisitos",
+        "Solo con más de 1.000 trabajadores"
       ],
       "correcta": 1,
-      "justificacion": "El Comité se constituye en empresas o centros de trabajo con **50 o más** personas trabajadoras.",
+      "justificacion": "El art. 14.a del RD 39/1997 exige servicio de prevención propio en empresas con más de 500 personas. El apartado b añade el supuesto de 250 a 500 con actividades del anexo I.",
       "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
-      "referencia": "Ley 31/1995, artículo 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
-      "respuestaLiteral": "50 o más personas trabajadoras"
+      "referencia": "RD 39/1997 art. 14.a–b · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853#a14",
+      "respuestaLiteral": "Con más de 500 trabajadores",
+      "enunciado": "¿Cuándo es obligatorio constituir un servicio de prevención propio por tamaño de plantilla, con independencia de la actividad?",
+      "trampaExamen": "No confundir el umbral de más de 500 para servicio propio con 50 para Comité de Seguridad y Salud, ni omitir la condición del anexo I para plantillas de 250–500."
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "auditoriaRedundancias20261104": {
+    "fecha": "2026-11-04",
+    "reemplazadas": [
+      "DIP-T23-015",
+      "DIP-T23-017",
+      "DIP-T23-018",
+      "DIP-T23-019",
+      "DIP-T23-020"
+    ],
+    "alcance": "Cinco preguntas repetían conceptos y plazos ya cubiertos por otras del mismo banco. Sustituidas por cinco nuevos conocimientos directos LPRL/RSP, conservando IDs, posiciones de respuesta y distribución por letras. Referencias y justificaciones actualizadas; no es auditoría jurídica integral del tema.",
+    "normas": [
+      "Ley 31/1995 arts. 20,29,31,36",
+      "RD 39/1997 art.14"
+    ]
   }
 }
