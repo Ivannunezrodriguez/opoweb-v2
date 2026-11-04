@@ -53,8 +53,20 @@ assert(t18.includes('**No existe un segundo Capítulo VI autónomo**'),'T18 dupl
 assert(t18src.includes('BOCM-20251230-28.PDF')&&t18src.includes('300.468.067,59'),'T18 original budget primary evidence lost');
 for(const n of [18,19]){
  const f=JSON.parse(readFileSync(root+'tema-'+n+'/matriz.json','utf8')).controlIntegralBanco20261104;
- assert(f.reservaFuentePrimaria?.includes('Volumen I'),'T'+n+' falsely claims internal regulation full verification');
+ assert.equal(f.controlFuentePrimaria20261104?.estado,'VERIFICADO_EN_PDF_INSTITUCIONAL_ORIGINAL','T'+n+' missing primary Vol I checks');
+ assert(f.reservaFuentePrimaria?.includes('Volumen I'),'T'+n+' lacks primary source traceability');
+ assert(f.controlFuentePrimaria20261104.sinCertificacionIntegral===true,'T'+n+' falsely claims global certification');
 }
+const t19=readFileSync(root+'tema-19/manual.md','utf8');
+const t19source=readFileSync(root+'tema-19/fuentes.md','utf8');
+const t19questions=JSON.parse(readFileSync(root+'tema-19/preguntas.json','utf8')).preguntas;
+const q19_5=t19questions.find(q=>q.id==='UC3M-T19-005');
+const q19_6=t19questions.find(q=>q.id==='UC3M-T19-006');
+assert(q19_5.pregunta.includes('propuesta de pago')&&q19_5.correcta===1&&q19_5.respuestaLiteral==='O','T19-005 missing primary budget terminology');
+assert(q19_6.respuestaLiteral==='Permite registrar conjuntamente autorización, compromiso de gasto y propuesta de pago'&&q19_6.correcta===3,'T19-006 ADO literal wrong');
+assert(t19.includes('**O**: **propuesta de pago**')&&t19.includes('**Máximo 12.000 €**'),'T19 institutional O and anticipo values missing');
+assert(t19source.includes('**15.2.1, pág. 98**')&&t19source.includes('**16.3, pág. 102**'),'T19 document citations missing');
+assert(t18src.includes('**Art. 14.2, pág. 94/150**')&&t18src.includes('**Art. 5, pág. 78/150**'),'T18 former primary-source gaps not closed');
 const t20=readFileSync(root+'tema-20/manual.md','utf8');
 assert(t20.includes('216.000 €')&&t20.includes('140.000 €')&&t20.includes('5.404.000 €'),'T20 2026 harmonized figures missing');
 assert(t20.includes('**igual o superior a 15.000 €**'),'T20 minor-services strict threshold missing');
