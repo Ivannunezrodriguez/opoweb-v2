@@ -8,27 +8,63 @@
     {
       "apartado": "Estructura y contenido",
       "estado": "CUBIERTO",
-      "contenido": ["fechas constitucionales", "Preámbulo", "Título Preliminar", "Títulos I a X", "169 artículos", "disposiciones adicionales, transitorias, derogatoria y final"]
+      "contenido": [
+        "fechas constitucionales",
+        "Preámbulo",
+        "Título Preliminar",
+        "Títulos I a X",
+        "169 artículos",
+        "disposiciones adicionales, transitorias, derogatoria y final"
+      ]
     },
     {
       "apartado": "Derechos y deberes fundamentales",
       "estado": "CUBIERTO",
-      "contenido": ["artículos 10 a 55", "clasificación", "garantías", "recurso de amparo", "suspensión general e individual"]
+      "contenido": [
+        "artículos 10 a 55",
+        "clasificación",
+        "garantías",
+        "recurso de amparo",
+        "suspensión general e individual"
+      ]
     },
     {
       "apartado": "Elaboración de las leyes",
       "estado": "CUBIERTO",
-      "contenido": ["potestad legislativa", "ley orgánica y ordinaria", "iniciativa legislativa", "proyectos y proposiciones", "Senado", "sanción y promulgación", "decreto legislativo", "decreto-ley"]
+      "contenido": [
+        "potestad legislativa",
+        "ley orgánica y ordinaria",
+        "iniciativa legislativa",
+        "proyectos y proposiciones",
+        "Senado",
+        "sanción y promulgación",
+        "decreto legislativo",
+        "decreto-ley"
+      ]
     },
     {
       "apartado": "Organización territorial del Estado",
       "estado": "CUBIERTO",
-      "contenido": ["municipios", "provincias", "comunidades autónomas", "autonomía", "Estatutos", "distribución competencial de los artículos 148 y 149", "circunscripciones insulares del Senado tras la reforma del artículo 69.3 de 2026"]
+      "contenido": [
+        "municipios",
+        "provincias",
+        "comunidades autónomas",
+        "autonomía",
+        "Estatutos",
+        "distribución competencial de los artículos 148 y 149",
+        "circunscripciones insulares del Senado tras la reforma del artículo 69.3 de 2026"
+      ]
     },
     {
       "apartado": "Reforma constitucional",
       "estado": "CUBIERTO",
-      "contenido": ["iniciativa", "procedimiento ordinario del artículo 167", "procedimiento agravado del artículo 168", "límites temporales", "reformas de 1992, 2011, 2024 y 2026"]
+      "contenido": [
+        "iniciativa",
+        "procedimiento ordinario del artículo 167",
+        "procedimiento agravado del artículo 168",
+        "límites temporales",
+        "reformas de 1992, 2011, 2024 y 2026"
+      ]
     }
   ],
   "controlesTest": [
@@ -53,5 +89,16 @@
     "fecha": "2026-07-31",
     "resultado": "Corregido el inventario de reformas constitucionales y añadida la redacción vigente del artículo 69.3."
   },
-  "aprobadoPorUsuario": false
+  "aprobadoPorUsuario": false,
+  "controlIntegralJuridico20261104": {
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "fecha": "2026-11-04",
+    "programa": "BOE-A-2026-14624 Anexo I",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "informe": "content/uc3m/tema-01/cotejo-integral-2026-11-04.md",
+    "validacionFuncional": "PENDIENTE_NAVEGADOR_REAL",
+    "corteNormativo": "base primera.7: publicación de listas definitivas y anuncio del ejercicio; fecha exacta pendiente de documento primario",
+    "aprobacionUsuario": "PENDIENTE"
+  }
 }
