@@ -38,3 +38,14 @@
 ## Auditoría parcial del plazo de ingreso y deudas inaplazables — **04/11/2026**
 
 Fuente primaria: [**Ley 58/2003, LGT consolidada, arts. 62 y 65**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186). Para **art. 62.2** (voluntaria) distinguir **20 mes siguiente / 5 segundo mes siguiente** de **art. 62.5** (apremio) **20 mismo mes / 5 mes siguiente**; **art. 62.3**: **1 septiembre–20 noviembre**, susceptible de modificación por Administración tributaria con período **mínimo dos meses**. **Art. 65.2**: siete letras de deudas inaplazables, especialmente retenedores, repercutidos —con excepción legal— y pagos fraccionados del IS. Contraste **parcial**, se conserva aprobación editorial histórica.
+
+## Control específico de delegación — 04/11/2026
+
+Fuente primaria: [TRLRHL, artículo 7.2, BOE consolidado 07/10/2026](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a7).
+
+- **Acuerdo:** Pleno de la entidad local **delegante**, con alcance y contenido de las facultades delegadas.
+- **Aceptación:** órgano de gobierno correspondiente de la entidad receptora; **si es otra entidad local, siempre su Pleno**.
+- **Publicidad:** tras la aceptación, **boletines oficiales de la provincia y de la comunidad autónoma**. No basta afirmar «publicación oficial» sin distinguir ambos.
+- **Pregunta LP-T10-002:** enunciado restringido a delegación entre entidades locales; clave «El Pleno de la corporación» conservada, justificación y trampa corregidas para separar ambos Plenos. Distractores «Alcalde», «Junta de Gobierno Local» e «Intervención municipal» no acuerdan la delegación en este supuesto.
+
+**Alcance:** revisión focal de art. 7.2 y de la pregunta indicada; las otras once claves y sus distractores no se certifican aquí de forma integral.
