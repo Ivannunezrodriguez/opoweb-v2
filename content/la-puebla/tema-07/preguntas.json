@@ -24,7 +24,13 @@
       "justificacion": "El deber de protección corresponde al empresario o Administración empleadora, y el coste de las medidas preventivas nunca puede recaer sobre el trabajador.",
       "trampaExamen": "La participación del trabajador en prevención no implica asumir económicamente EPI, formación o medidas de seguridad.",
       "referencia": "manual.md · apartado 8 · Artículo 14",
-      "respuestaLiteral": "No debe recaer en modo alguno sobre el trabajador"
+      "respuestaLiteral": "No debe recaer en modo alguno sobre el trabajador",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 14.5",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-002",
@@ -39,7 +45,13 @@
       "justificacion": "El artículo 15 establece que debe anteponerse la protección colectiva a la individual, junto con evitar riesgos, combatirlos en origen y adaptar el trabajo a la persona.",
       "trampaExamen": "El EPI es una última barrera, no la primera opción preventiva cuando existen medidas colectivas eficaces.",
       "referencia": "manual.md · apartado 9 · Artículo 15",
-      "respuestaLiteral": "Anteponer la protección colectiva a la individual"
+      "respuestaLiteral": "Anteponer la protección colectiva a la individual",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 15.1.h",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-003",
@@ -54,7 +66,13 @@
       "justificacion": "El plan integra la prevención en la gestión, la evaluación identifica y valora riesgos, y la planificación concreta medidas, plazos, responsables y recursos.",
       "trampaExamen": "Plan, evaluación y planificación son instrumentos distintos y no deben utilizarse como sinónimos.",
       "referencia": "manual.md · apartado 10 · Artículo 16",
-      "respuestaLiteral": "La planificación de la actividad preventiva"
+      "respuestaLiteral": "La planificación de la actividad preventiva",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 16.2.b",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-004",
@@ -69,7 +87,13 @@
       "justificacion": "La formación debe realizarse, siempre que sea posible, dentro de la jornada. Si se imparte fuera, el tiempo invertido debe descontarse de la jornada y su coste no corresponde al trabajador.",
       "trampaExamen": "Que la formación se imparta fuera del horario no la convierte en tiempo gratuito para la Administración.",
       "referencia": "manual.md · apartado 13 · Artículo 19",
-      "respuestaLiteral": "Debe descontarse posteriormente de la jornada de trabajo"
+      "respuestaLiteral": "Debe descontarse posteriormente de la jornada de trabajo",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 19.2",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-005",
@@ -84,7 +108,13 @@
       "justificacion": "La paralización se comunica a la empresa y a la autoridad laboral, que debe confirmarla o anularla en el plazo de veinticuatro horas.",
       "trampaExamen": "El plazo es de 24 horas, no de un día hábil ni de 48 horas.",
       "referencia": "manual.md · apartado 15 · Artículo 21",
-      "respuestaLiteral": "24 horas"
+      "respuestaLiteral": "24 horas",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 21.3",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-006",
@@ -99,7 +129,13 @@
       "justificacion": "La regla general es la voluntariedad. Puede imponerse excepcionalmente, previo informe de los representantes, cuando resulte imprescindible para evaluar efectos, proteger a la persona o a terceros, o lo exija una norma específica.",
       "trampaExamen": "El reconocimiento médico no puede imponerse por mera conveniencia organizativa.",
       "referencia": "manual.md · apartado 16 · Artículo 22",
-      "respuestaLiteral": "Voluntaria, salvo excepciones legalmente justificadas"
+      "respuestaLiteral": "Voluntaria, salvo excepciones legalmente justificadas",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 22.1",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-007",
@@ -114,11 +150,17 @@
       "justificacion": "Los datos clínicos son confidenciales y quedan en manos del personal sanitario. El empleador solo recibe conclusiones sobre aptitud y medidas preventivas aplicables.",
       "trampaExamen": "Aptitud no equivale a acceso libre a diagnósticos, pruebas o historia clínica.",
       "referencia": "manual.md · apartado 16 · Artículo 22",
-      "respuestaLiteral": "Las conclusiones sobre aptitud y medidas preventivas necesarias"
+      "respuestaLiteral": "Las conclusiones sobre aptitud y medidas preventivas necesarias",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 22.4",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-008",
-      "enunciado": "¿Cuándo debe constituirse obligatoriamente un servicio de prevención propio por razón del número de trabajadores?",
+      "enunciado": "Con independencia de la actividad desarrollada, ¿a partir de qué plantilla obliga el art. 14.a del Reglamento de los Servicios de Prevención a constituir un servicio propio?",
       "opciones": [
         "Con 50 o más trabajadores",
         "Con más de 250 trabajadores en cualquier actividad",
@@ -127,9 +169,15 @@
       ],
       "respuestaCorrecta": 3,
       "justificacion": "El Reglamento exige servicio propio en empresas de más de 500 trabajadores y también entre 250 y 500 cuando desarrollen actividades del anexo I.",
-      "trampaExamen": "El umbral general es más de 500; entre 250 y 500 solo opera automáticamente si existen actividades del anexo I.",
+      "trampaExamen": "El umbral general es MÁS DE 500 trabajadores; la obligación entre 250 y 500 exige actividades del anexo I (art. 14.b).",
       "referencia": "manual.md · apartado 31 · Reglamento, artículo 14",
-      "respuestaLiteral": "Con más de 500 trabajadores"
+      "respuestaLiteral": "Con más de 500 trabajadores",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "RD 39/1997 art. 14.a-b",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-009",
@@ -144,7 +192,13 @@
       "justificacion": "La escala del artículo 35 asigna tres Delegados de Prevención a plantillas comprendidas entre 101 y 500 trabajadores.",
       "trampaExamen": "No confundir la escala de Delegados de Prevención con el umbral de constitución del Comité.",
       "referencia": "manual.md · apartado 38 · Artículo 35",
-      "respuestaLiteral": "Tres Delegados de Prevención"
+      "respuestaLiteral": "Tres Delegados de Prevención",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 35.2",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-010",
@@ -159,7 +213,13 @@
       "justificacion": "Los Delegados disponen de quince días para emitir informe, salvo riesgo inminente, en cuyo caso debe emitirse en el tiempo imprescindible.",
       "trampaExamen": "El plazo de 15 días no se aplica rígidamente cuando existe riesgo grave e inminente.",
       "referencia": "manual.md · apartado 39 · Artículo 36",
-      "respuestaLiteral": "15 días"
+      "respuestaLiteral": "15 días",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 36.3",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-011",
@@ -174,7 +234,13 @@
       "justificacion": "El Comité es un órgano paritario y colegiado de consulta periódica obligatorio desde cincuenta trabajadores.",
       "trampaExamen": "En centros con menos de 50 trabajadores no hay Comité obligatorio; los Delegados asumen sus competencias.",
       "referencia": "manual.md · apartado 41 · Artículo 38",
-      "respuestaLiteral": "50 o más trabajadores"
+      "respuestaLiteral": "50 o más trabajadores",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 38.2",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     },
     {
       "id": "LP-T07-012",
@@ -189,12 +255,37 @@
       "justificacion": "El Comité se reúne trimestralmente y también cuando lo solicite alguna de las representaciones que lo integran.",
       "trampaExamen": "La reunión trimestral es la periodicidad mínima ordinaria, sin impedir reuniones adicionales.",
       "referencia": "manual.md · apartado 41 · Artículo 38",
-      "respuestaLiteral": "Trimestralmente"
+      "respuestaLiteral": "Trimestralmente",
+      "cotejoLegal20261104": {
+        "fuente": "BOE-A-1995-24292 (o BOE-A-1997-1853 para art. 14 RSP)",
+        "articulo": "Ley 31/1995 art. 38.3",
+        "resultado": "RESPUESTA_COTEJADA_CON_PRECEPTO",
+        "fecha": "2026-11-04"
+      }
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
     "objetivo": "3 correctas por cada posición en banco de 12"
+  },
+  "cotejoLegalBanco20261104": {
+    "fecha": "2026-11-04",
+    "alcance": "Se cotejaron individualmente las respuestas correctas de las 12 preguntas frente a los preceptos consolidados; NO equivale a certificar los distractores de forma exhaustiva ni el tema completo.",
+    "preguntasRevisadas": [
+      "LP-T07-001",
+      "LP-T07-002",
+      "LP-T07-003",
+      "LP-T07-004",
+      "LP-T07-005",
+      "LP-T07-006",
+      "LP-T07-007",
+      "LP-T07-008",
+      "LP-T07-009",
+      "LP-T07-010",
+      "LP-T07-011",
+      "LP-T07-012"
+    ],
+    "total": 12
   }
 }
