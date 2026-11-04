@@ -1,7 +1,7 @@
 {
   "tema": 5,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-11-02",
+  "version": "2026-11-04",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -23,77 +23,83 @@
       "respuestaCorrecta": 1,
       "justificacion": "El municipio es la entidad local básica y sus tres elementos legales son el territorio, la población y la organización.",
       "trampaExamen": "Los órganos municipales no deben confundirse con los elementos constitutivos del municipio.",
-      "referencia": "manual.md · apartado 8 · Artículo 11 LRBRL"
+      "referencia": "manual.md · apartado 8 · Artículo 11 LRBRL",
+      "respuestaLiteral": "Territorio, población y organización"
     },
     {
       "id": "LP-T05-002",
       "enunciado": "La alteración de los límites provinciales debe aprobarse mediante:",
       "opciones": [
+        "Ley orgánica de las Cortes Generales",
         "Ley ordinaria de la comunidad autónoma",
         "Real decreto del Consejo de Ministros",
-        "Ley orgánica de las Cortes Generales",
         "Acuerdo de las Diputaciones afectadas"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 0,
       "justificacion": "El artículo 141 de la Constitución exige ley orgánica de las Cortes Generales para cualquier alteración de los límites provinciales.",
       "trampaExamen": "La legislación autonómica regula alteraciones municipales, pero no puede modificar por sí misma límites provinciales.",
-      "referencia": "manual.md · apartado 6 · Artículo 141 CE"
+      "referencia": "manual.md · apartado 6 · Artículo 141 CE",
+      "respuestaLiteral": "Ley orgánica de las Cortes Generales"
     },
     {
       "id": "LP-T05-003",
       "enunciado": "¿En qué municipios existe obligatoriamente Junta de Gobierno Local?",
       "opciones": [
+        "En municipios de más de 5.000 habitantes y en los menores cuando lo disponga el reglamento orgánico o lo acuerde el Pleno",
         "En todos los municipios",
         "Solo en municipios de más de 20.000 habitantes",
-        "En municipios de más de 5.000 habitantes y en los menores cuando lo disponga el reglamento orgánico o lo acuerde el Pleno",
         "Únicamente en capitales de provincia"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 0,
       "justificacion": "La Junta de Gobierno Local existe necesariamente en municipios con más de 5.000 habitantes; en los de menor población puede existir por reglamento orgánico o acuerdo del Pleno.",
       "trampaExamen": "La Comisión Especial de Cuentas sí existe en todos los municipios; la Junta de Gobierno Local no.",
-      "referencia": "manual.md · apartado 17 · Artículo 20 LRBRL"
+      "referencia": "manual.md · apartado 17 · Artículo 20 LRBRL",
+      "respuestaLiteral": "En municipios de más de 5.000 habitantes y en los menores cuando lo disponga el reglamento orgánico o lo acuerde el Pleno"
     },
     {
       "id": "LP-T05-004",
       "enunciado": "La Junta de Gobierno Local municipal puede estar integrada, además del Alcalde, por un número de Concejales no superior a:",
       "opciones": [
         "La mitad del número legal de miembros",
-        "Un tercio del número legal de miembros",
         "Dos tercios del número legal de miembros",
+        "Un tercio del número legal de miembros",
         "Cinco Concejales en todo caso"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "El artículo 23 fija como máximo un tercio del número legal de miembros de la corporación, además del Alcalde.",
       "trampaExamen": "El límite se calcula sobre el número legal de miembros, no sobre los Concejales presentes ni sobre los grupos políticos.",
-      "referencia": "manual.md · apartado 20 · Artículo 23 LRBRL"
+      "referencia": "manual.md · apartado 20 · Artículo 23 LRBRL",
+      "respuestaLiteral": "Un tercio del número legal de miembros"
     },
     {
       "id": "LP-T05-005",
       "enunciado": "¿Cuál de los siguientes servicios es obligatorio en todos los municipios?",
       "opciones": [
+        "Alumbrado público",
         "Biblioteca pública",
         "Parque público",
-        "Transporte colectivo urbano",
-        "Alumbrado público"
+        "Transporte colectivo urbano"
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 0,
       "justificacion": "El alumbrado público forma parte de los servicios mínimos exigibles en todos los municipios, junto con cementerio, residuos, limpieza viaria, agua, alcantarillado, accesos y pavimentación.",
       "trampaExamen": "Biblioteca, parque y tratamiento de residuos se añaden a partir de más de 5.000 habitantes.",
-      "referencia": "manual.md · apartado 25 · Artículo 26 LRBRL"
+      "referencia": "manual.md · apartado 25 · Artículo 26 LRBRL",
+      "respuestaLiteral": "Alumbrado público"
     },
     {
       "id": "LP-T05-006",
       "enunciado": "En los municipios de más de 50.000 habitantes son además servicios mínimos obligatorios:",
       "opciones": [
         "Biblioteca pública y tratamiento de residuos",
-        "Protección civil e instalaciones deportivas",
         "Transporte colectivo urbano de viajeros y medio ambiente urbano",
+        "Protección civil e instalaciones deportivas",
         "Cementerio y limpieza viaria"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "justificacion": "Los municipios de más de 50.000 habitantes deben prestar, además de los servicios de tramos inferiores, transporte colectivo urbano de viajeros y medio ambiente urbano.",
       "trampaExamen": "Los umbrales de 5.000, 20.000 y 50.000 habitantes acumulan servicios, no los sustituyen.",
-      "referencia": "manual.md · apartado 25 · Artículo 26 LRBRL"
+      "referencia": "manual.md · apartado 25 · Artículo 26 LRBRL",
+      "respuestaLiteral": "Transporte colectivo urbano de viajeros y medio ambiente urbano"
     },
     {
       "id": "LP-T05-007",
@@ -107,21 +113,23 @@
       "respuestaCorrecta": 1,
       "justificacion": "En los municipios de 5.001 a 20.000 habitantes el Pleno debe celebrar sesión ordinaria al menos cada dos meses.",
       "trampaExamen": "La periodicidad mensual corresponde a Diputaciones y municipios de más de 20.000 habitantes.",
-      "referencia": "manual.md · apartado 42 · Artículo 46 LRBRL"
+      "referencia": "manual.md · apartado 42 · Artículo 46 LRBRL",
+      "respuestaLiteral": "Cada dos meses"
     },
     {
       "id": "LP-T05-008",
       "enunciado": "El quórum general de constitución válida del Pleno exige:",
       "opciones": [
         "La mitad del número legal de miembros y nunca menos de cinco",
-        "Un tercio del número legal de miembros y nunca menos de tres, con Presidente y Secretario",
         "Mayoría absoluta de los miembros presentes",
+        "Un tercio del número legal de miembros y nunca menos de tres, con Presidente y Secretario",
         "Dos tercios del número legal de miembros"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "La regla general exige un tercio del número legal de miembros, nunca menos de tres, y la asistencia del Presidente y del Secretario o de quienes legalmente los sustituyan.",
       "trampaExamen": "El quórum de constitución no equivale a la mayoría necesaria para adoptar acuerdos.",
-      "referencia": "manual.md · apartado 42 · Artículo 46 LRBRL"
+      "referencia": "manual.md · apartado 42 · Artículo 46 LRBRL",
+      "respuestaLiteral": "Un tercio del número legal de miembros y nunca menos de tres, con Presidente y Secretario"
     },
     {
       "id": "LP-T05-009",
@@ -129,13 +137,14 @@
       "opciones": [
         "Mayoría absoluta del número legal de miembros",
         "Mayoría de dos tercios de los presentes",
-        "Mayoría simple de los miembros presentes",
-        "Unanimidad"
+        "Unanimidad",
+        "Mayoría simple de los miembros presentes"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "La regla general del artículo 47 es la mayoría simple de los miembros presentes, que existe cuando los votos afirmativos superan los negativos.",
       "trampaExamen": "La mayoría absoluta del número legal se reserva para materias expresamente enumeradas por la ley.",
-      "referencia": "manual.md · apartado 43 · Artículo 47 LRBRL"
+      "referencia": "manual.md · apartado 43 · Artículo 47 LRBRL",
+      "respuestaLiteral": "Mayoría simple de los miembros presentes"
     },
     {
       "id": "LP-T05-010",
@@ -149,21 +158,23 @@
       "respuestaCorrecta": 3,
       "justificacion": "Tras la aprobación inicial por el Pleno, el artículo 49 exige información pública y audiencia por un plazo mínimo de treinta días.",
       "trampaExamen": "Si no se presentan reclamaciones ni sugerencias, el acuerdo inicial se entiende definitivamente adoptado.",
-      "referencia": "manual.md · apartado 45 · Artículo 49 LRBRL"
+      "referencia": "manual.md · apartado 45 · Artículo 49 LRBRL",
+      "respuestaLiteral": "Treinta días"
     },
     {
       "id": "LP-T05-011",
       "enunciado": "En un municipio de más de 250 habitantes que elige Concejales mediante el sistema proporcional de listas, ¿qué porcentaje mínimo de votos válidos exige el artículo 180 LOREG para entrar en el reparto?",
       "opciones": [
         "El 3 % de los votos válidos",
-        "El 5 % de los votos válidos",
         "El 7 % de los votos emitidos",
+        "El 5 % de los votos válidos",
         "El 10 % de los votos válidos"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "El artículo 180 LOREG excluye del reparto proporcional de Concejales a las listas que no alcancen el 5 % de los votos válidos de la circunscripción. Este supuesto se limita al sistema ordinario de listas, no al voto a candidatos individuales del artículo 184 en municipios de hasta 250 habitantes.",
       "trampaExamen": "El 5 % es una barrera del reparto proporcional de listas, no una barrera aplicable sin más a municipios de hasta 250 habitantes ni al Concejo Abierto.",
-      "referencia": "manual.md · apartados 57 y 61 · LOREG, artículos 180 y 184"
+      "referencia": "manual.md · apartados 57 y 61 · LOREG, artículos 180 y 184",
+      "respuestaLiteral": "El 5 % de los votos válidos"
     },
     {
       "id": "LP-T05-012",
@@ -171,13 +182,14 @@
       "opciones": [
         "El Concejal de mayor edad",
         "El candidato designado por la Junta Electoral de Zona",
-        "El cabeza de la lista más votada por los electores",
-        "El cabeza de la segunda lista más votada"
+        "El cabeza de la segunda lista más votada",
+        "El cabeza de la lista más votada por los electores"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "En el régimen ordinario de listas del artículo 196 LOREG, si ningún cabeza de lista obtiene mayoría absoluta de los votos de los Concejales, se proclama Alcalde al cabeza de la lista más votada por los electores; un empate se resuelve por sorteo. En los municipios de 100 a 250 habitantes rige otra regla: puede ser candidato cualquier Concejal y, a falta de mayoría absoluta, resulta elegido quien obtuvo más votos populares individuales.",
       "trampaExamen": "La regla del cabeza de la lista más votada no es universal: el artículo 196 establece una excepción para municipios de 100 a 250 habitantes; en Concejo Abierto el Alcalde se elige directamente.",
-      "referencia": "manual.md · apartado 74 · LOREG, artículo 196"
+      "referencia": "manual.md · apartado 74 · LOREG, artículo 196",
+      "respuestaLiteral": "El cabeza de la lista más votada por los electores"
     }
   ],
   "revisionFocalizada": {
@@ -188,5 +200,10 @@
     ],
     "norma": "LOREG, artículos 180, 184 y 196",
     "alcance": "Aclaración de excepciones municipales de población reducida, sin cambiar claves de respuesta ni aprobación editorial histórica."
+  },
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
+    "objetivo": "3 correctas por cada posición en banco de 12"
   }
 }

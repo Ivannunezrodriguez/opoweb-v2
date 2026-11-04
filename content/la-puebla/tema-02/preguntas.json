@@ -1,7 +1,7 @@
 {
   "tema": 2,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-07-29",
+  "version": "2026-11-04",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -23,7 +23,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "Los trámites adicionales o distintos quedan reservados a una norma con rango de ley y deben justificarse por su eficacia, proporcionalidad y necesidad, además de motivarse.",
       "trampaExamen": "Un reglamento puede introducir especialidades procedimentales, pero no crear libremente nuevos trámites.",
-      "referencia": "manual.md · apartado 3 · Artículo 1"
+      "referencia": "manual.md · apartado 3 · Artículo 1",
+      "respuestaLiteral": "Mediante ley, de forma motivada y cuando resulten eficaces, proporcionados y necesarios"
     },
     {
       "id": "LP-T02-002",
@@ -37,77 +38,83 @@
       "respuestaCorrecta": 0,
       "justificacion": "Las entidades de derecho privado vinculadas o dependientes integran el sector público institucional, pero no se convierten por esa sola razón en Administración Pública.",
       "trampaExamen": "No todo sujeto incluido en el sector público es una Administración Pública a efectos de la Ley 39/2015.",
-      "referencia": "manual.md · apartado 4 · Artículo 2"
+      "referencia": "manual.md · apartado 4 · Artículo 2",
+      "respuestaLiteral": "Una entidad de derecho privado vinculada o dependiente de una Administración"
     },
     {
       "id": "LP-T02-003",
       "enunciado": "Quien tenga un interés legítimo que pueda resultar afectado por la resolución de un procedimiento que no inició será interesado cuando:",
       "opciones": [
-        "Se persone antes de que recaiga resolución definitiva",
         "Formule recurso después de la resolución definitiva",
         "Acredite exclusivamente un interés económico directo",
+        "Se persone antes de que recaiga resolución definitiva",
         "Sea llamado siempre de oficio, aunque no sea identificable"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "El artículo 4 reconoce la condición de interesado a quien ostente un interés legítimo afectable y se persone en el procedimiento antes de la resolución definitiva.",
       "trampaExamen": "El titular de un derecho afectado no necesita personarse para adquirir la condición de interesado; quien solo tiene interés legítimo sí debe hacerlo a tiempo.",
-      "referencia": "manual.md · apartado 6 · Artículo 4"
+      "referencia": "manual.md · apartado 6 · Artículo 4",
+      "respuestaLiteral": "Se persone antes de que recaiga resolución definitiva"
     },
     {
       "id": "LP-T02-004",
       "enunciado": "¿En cuál de las siguientes actuaciones se presume la representación sin necesidad de acreditarla expresamente?",
       "opciones": [
+        "Realizar una gestión de mero trámite",
         "Interponer un recurso",
         "Renunciar a un derecho",
-        "Desistir de una acción",
-        "Realizar una gestión de mero trámite"
+        "Desistir de una acción"
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 0,
       "justificacion": "La representación debe acreditarse para solicitudes, declaraciones responsables, comunicaciones, recursos, desistimientos y renuncias. En actos y gestiones de mero trámite se presume.",
       "trampaExamen": "No confundir la presunción en trámites simples con los actos que expresan voluntad dispositiva.",
-      "referencia": "manual.md · apartado 7.1 · Artículo 5"
+      "referencia": "manual.md · apartado 7.1 · Artículo 5",
+      "respuestaLiteral": "Realizar una gestión de mero trámite"
     },
     {
       "id": "LP-T02-005",
       "enunciado": "La falta o insuficiente acreditación de la representación debe subsanarse, con carácter general, en un plazo de:",
       "opciones": [
-        "Cinco días",
         "Diez días",
+        "Cinco días",
         "Quince días",
         "Un mes"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 0,
       "justificacion": "El órgano debe conceder diez días para aportar o subsanar la acreditación de la representación, pudiendo conceder un plazo superior cuando las circunstancias lo requieran.",
       "trampaExamen": "El defecto de representación no provoca automáticamente la pérdida del acto realizado.",
-      "referencia": "manual.md · apartado 7.3 · Artículo 5"
+      "referencia": "manual.md · apartado 7.3 · Artículo 5",
+      "respuestaLiteral": "Diez días"
     },
     {
       "id": "LP-T02-006",
       "enunciado": "¿Cuál es la vigencia máxima de un poder inscrito en un registro electrónico de apoderamientos?",
       "opciones": [
         "Dos años",
-        "Tres años",
         "Cinco años",
+        "Tres años",
         "Diez años"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "justificacion": "La vigencia máxima del poder inscrito es de cinco años desde la inscripción. Cada prórroga puede alcanzar también un máximo de cinco años desde su propia inscripción.",
       "trampaExamen": "La prórroga no convierte el poder en indefinido ni se computa desde el otorgamiento inicial.",
-      "referencia": "manual.md · apartado 8.3 · Artículo 6"
+      "referencia": "manual.md · apartado 8.3 · Artículo 6",
+      "respuestaLiteral": "Cinco años"
     },
     {
       "id": "LP-T02-007",
       "enunciado": "Con carácter general, la Administración solo puede exigir obligatoriamente firma para:",
       "opciones": [
         "Consultar el estado de un expediente",
-        "Recibir una notificación",
         "Interponer un recurso",
+        "Recibir una notificación",
         "Solicitar información general"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "justificacion": "El artículo 11 exige firma para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir de acciones y renunciar a derechos.",
       "trampaExamen": "La identificación basta para la mayoría de actuaciones; firma e identificación no son equivalentes.",
-      "referencia": "manual.md · apartado 13 · Artículo 11"
+      "referencia": "manual.md · apartado 13 · Artículo 11",
+      "respuestaLiteral": "Interponer un recurso"
     },
     {
       "id": "LP-T02-008",
@@ -121,49 +128,53 @@
       "respuestaCorrecta": 1,
       "justificacion": "Las personas jurídicas están obligadas a relacionarse electrónicamente, junto con otros sujetos del artículo 14.2, como entidades sin personalidad, determinados profesionales, representantes de obligados y empleados públicos en trámites vinculados a su condición.",
       "trampaExamen": "La regla general de elección se aplica a personas físicas no obligadas, no a todos los sujetos por igual.",
-      "referencia": "manual.md · apartado 16 · Artículo 14"
+      "referencia": "manual.md · apartado 16 · Artículo 14",
+      "respuestaLiteral": "Una persona jurídica"
     },
     {
       "id": "LP-T02-009",
       "enunciado": "Cuando la norma reguladora de un procedimiento no fija plazo máximo para resolver, este será de:",
       "opciones": [
         "Un mes",
-        "Tres meses",
         "Seis meses",
+        "Tres meses",
         "Un año"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "Si la norma específica no fija plazo, el máximo es de tres meses. El límite general de seis meses opera para los plazos fijados reglamentariamente, salvo ley o Derecho de la Unión Europea.",
       "trampaExamen": "Tres meses es el plazo supletorio; seis meses no es siempre el plazo aplicable.",
-      "referencia": "manual.md · apartado 23.2 · Artículo 21"
+      "referencia": "manual.md · apartado 23.2 · Artículo 21",
+      "respuestaLiteral": "Tres meses"
     },
     {
       "id": "LP-T02-010",
       "enunciado": "En los procedimientos iniciados a solicitud del interesado, el silencio administrativo tiene como regla general carácter:",
       "opciones": [
-        "Estimatorio",
         "Desestimatorio",
         "Suspensivo",
-        "Caducatorio"
+        "Caducatorio",
+        "Estimatorio"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "La regla general del artículo 24 es el silencio estimatorio, sin perjuicio de los supuestos legales de silencio negativo, como responsabilidad patrimonial, impugnación, revisión de oficio solicitada o afectación al dominio público.",
       "trampaExamen": "La caducidad es el efecto típico de ciertos procedimientos iniciados de oficio con efectos desfavorables, no del silencio a solicitud.",
-      "referencia": "manual.md · apartado 26 · Artículo 24"
+      "referencia": "manual.md · apartado 26 · Artículo 24",
+      "respuestaLiteral": "Estimatorio"
     },
     {
       "id": "LP-T02-011",
       "enunciado": "Una notificación se practica el 31 de enero y concede un plazo de un mes. Si febrero no tiene día 31 y su último día es hábil, ¿cuándo vence el plazo?",
       "opciones": [
         "El 1 de marzo",
-        "El último día de febrero",
         "Treinta días hábiles después",
-        "El primer lunes de marzo en todo caso"
+        "El primer lunes de marzo en todo caso",
+        "El último día de febrero"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 3,
       "justificacion": "El artículo 30.4 de la Ley 39/2015 establece que, sin día equivalente en el mes de vencimiento, el plazo expira el último día de ese mes. Si fuera inhábil, el artículo 30.5 prorroga el plazo hasta el primer día hábil siguiente. El enunciado precisa que ese último día es hábil.",
       "trampaExamen": "No memorizar «último día de febrero» sin considerar que, si es inhábil, el vencimiento pasa al primer día hábil siguiente (arts. 30.4 y 30.5).",
-      "referencia": "manual.md · apartado 32.3 · Artículo 30 · Ley 39/2015, art. 30.4 y 30.5"
+      "referencia": "manual.md · apartado 32.3 · Artículo 30 · Ley 39/2015, art. 30.4 y 30.5",
+      "respuestaLiteral": "El último día de febrero"
     },
     {
       "id": "LP-T02-012",
@@ -171,13 +182,19 @@
       "opciones": [
         "Informes y pruebas",
         "Audiencia e información pública",
-        "Presentación de solicitudes y recursos",
-        "Notificaciones y publicaciones"
+        "Notificaciones y publicaciones",
+        "Presentación de solicitudes y recursos"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "La urgencia reduce a la mitad los plazos del procedimiento, pero no los correspondientes a la presentación de solicitudes ni a la interposición de recursos.",
       "trampaExamen": "La urgencia no permite recortar los plazos de defensa básicos para solicitar o recurrir.",
-      "referencia": "manual.md · apartado 35 · Artículo 33"
+      "referencia": "manual.md · apartado 35 · Artículo 33",
+      "respuestaLiteral": "Presentación de solicitudes y recursos"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
+    "objetivo": "3 correctas por cada posición en banco de 12"
+  }
 }

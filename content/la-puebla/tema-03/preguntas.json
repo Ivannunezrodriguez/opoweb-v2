@@ -1,7 +1,7 @@
 {
   "tema": 3,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-11-02",
+  "version": "2026-11-04",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -23,7 +23,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "El artículo 53 reconoce al interesado el derecho a conocer el estado de la tramitación, el sentido del silencio, los actos de trámite y el órgano competente, entre otros.",
       "trampaExamen": "El artículo 53 reconoce derechos procedimentales, no garantiza un resultado favorable.",
-      "referencia": "manual.md · apartado 3 · Artículo 53"
+      "referencia": "manual.md · apartado 3 · Artículo 53",
+      "respuestaLiteral": "Conocer en cualquier momento el estado de la tramitación"
     },
     {
       "id": "LP-T03-002",
@@ -31,27 +32,29 @@
       "opciones": [
         "Cinco días",
         "Diez días",
-        "Quince días",
-        "Un mes"
+        "Un mes",
+        "Quince días"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "Las medidas previas a la iniciación deben ser objeto de confirmación, modificación o levantamiento en el acuerdo de iniciación, que debe dictarse dentro de los quince días siguientes.",
       "trampaExamen": "Si no se inicia el procedimiento en ese plazo o el acuerdo no se pronuncia expresamente, las medidas quedan sin efecto.",
-      "referencia": "manual.md · apartado 6 · Artículo 56"
+      "referencia": "manual.md · apartado 6 · Artículo 56",
+      "respuestaLiteral": "Quince días"
     },
     {
       "id": "LP-T03-003",
       "enunciado": "¿Qué forma de iniciación de oficio consiste en una orden emitida por un órgano administrativo jerárquicamente superior al competente para iniciar el procedimiento?",
       "opciones": [
+        "La orden superior",
         "La denuncia",
         "La petición razonada de otro órgano",
-        "La orden superior",
         "La iniciativa propia del órgano competente"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 0,
       "justificacion": "El artículo 60.1 de la Ley 39/2015 define la orden superior como la emitida por un órgano administrativo jerárquicamente superior al competente para iniciar. El artículo 61.2 establece expresamente que la petición razonada no vincula al órgano competente.",
       "trampaExamen": "La orden procede del superior jerárquico; la petición razonada no es vinculante y la denuncia tiene un origen distinto (Ley 39/2015, artículos 59–62).",
-      "referencia": "manual.md · apartados 8 a 12 · Ley 39/2015, artículos 58–62"
+      "referencia": "manual.md · apartados 8 a 12 · Ley 39/2015, artículos 58–62",
+      "respuestaLiteral": "La orden superior"
     },
     {
       "id": "LP-T03-004",
@@ -59,13 +62,14 @@
       "opciones": [
         "Siempre",
         "Solo en procedimientos sancionadores",
-        "Solo cuando identifica al presunto responsable",
-        "No"
+        "No",
+        "Solo cuando identifica al presunto responsable"
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 2,
       "justificacion": "El artículo 62 establece que la denuncia, por sí sola, no confiere la condición de interesado en el procedimiento.",
       "trampaExamen": "Comunicar hechos a la Administración no equivale automáticamente a ser titular de un derecho o interés legítimo afectado.",
-      "referencia": "manual.md · apartado 12 · Artículo 62"
+      "referencia": "manual.md · apartado 12 · Artículo 62",
+      "respuestaLiteral": "No"
     },
     {
       "id": "LP-T03-005",
@@ -79,91 +83,98 @@
       "respuestaCorrecta": 1,
       "justificacion": "El artículo 67 fija con carácter general un plazo de un año, cuyo inicio depende del tipo de daño, su manifestación, la curación o la resolución correspondiente.",
       "trampaExamen": "No todos los daños comienzan a computarse desde el mismo momento.",
-      "referencia": "manual.md · apartado 17 · Artículo 67"
+      "referencia": "manual.md · apartado 17 · Artículo 67",
+      "respuestaLiteral": "Año"
     },
     {
       "id": "LP-T03-006",
       "enunciado": "Si una solicitud no reúne los requisitos exigidos, el plazo general de subsanación es de:",
       "opciones": [
-        "Cinco días",
         "Diez días",
+        "Cinco días",
         "Quince días",
         "Veinte días"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 0,
       "justificacion": "El artículo 68 concede diez días para subsanar, con posible ampliación de hasta cinco días cuando existan dificultades especiales y no se trate de procedimientos selectivos o competitivos.",
       "trampaExamen": "La ampliación adicional de cinco días no es automática ni procede en todos los procedimientos.",
-      "referencia": "manual.md · apartado 18 · Artículo 68"
+      "referencia": "manual.md · apartado 18 · Artículo 68",
+      "respuestaLiteral": "Diez días"
     },
     {
       "id": "LP-T03-007",
       "enunciado": "El período ordinario de prueba debe tener una duración:",
       "opciones": [
         "Entre cinco y quince días",
-        "Entre diez y treinta días",
         "Entre quince y cuarenta días",
+        "Entre diez y treinta días",
         "Máxima de diez días"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "El artículo 77 establece un período de prueba no inferior a diez días ni superior a treinta, con posible período extraordinario máximo de diez días a petición del interesado.",
       "trampaExamen": "El plazo extraordinario de diez días no sustituye al período ordinario de diez a treinta días.",
-      "referencia": "manual.md · apartado 27 · Artículo 77"
+      "referencia": "manual.md · apartado 27 · Artículo 77",
+      "respuestaLiteral": "Entre diez y treinta días"
     },
     {
       "id": "LP-T03-008",
       "enunciado": "Salvo disposición expresa en contrario, los informes administrativos son:",
       "opciones": [
         "Preceptivos y vinculantes",
-        "Facultativos y no vinculantes",
         "Preceptivos y no vinculantes",
+        "Facultativos y no vinculantes",
         "Facultativos y vinculantes"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "Como regla general, los informes son facultativos y no vinculantes y deben emitirse electrónicamente en diez días, salvo que otra norma disponga algo distinto.",
       "trampaExamen": "Que un informe sea solicitado no lo convierte automáticamente en preceptivo ni vinculante.",
-      "referencia": "manual.md · apartado 30 · Artículo 80"
+      "referencia": "manual.md · apartado 30 · Artículo 80",
+      "respuestaLiteral": "Facultativos y no vinculantes"
     },
     {
       "id": "LP-T03-009",
       "enunciado": "El trámite de audiencia concede a los interesados un plazo para alegar y aportar documentos de:",
       "opciones": [
         "Cinco a diez días",
-        "Diez a quince días",
         "Quince a veinte días",
-        "Al menos veinte días"
+        "Al menos veinte días",
+        "Diez a quince días"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 3,
       "justificacion": "El artículo 82 fija un plazo no inferior a diez días ni superior a quince días para formular alegaciones y presentar documentos.",
       "trampaExamen": "El plazo mínimo de veinte días corresponde a la información pública, no a la audiencia.",
-      "referencia": "manual.md · apartado 32 · Artículo 82"
+      "referencia": "manual.md · apartado 32 · Artículo 82",
+      "respuestaLiteral": "Diez a quince días"
     },
     {
       "id": "LP-T03-010",
       "enunciado": "En un procedimiento sancionador con sanción únicamente pecuniaria, las reducciones por reconocimiento de responsabilidad y pago voluntario serán, cada una, de al menos:",
       "opciones": [
         "10 %",
-        "15 %",
         "20 %",
+        "15 %",
         "25 %"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "justificacion": "El artículo 85 establece reducciones de al menos el veinte por ciento por reconocimiento y por pago voluntario, acumulables entre sí y condicionadas a desistir o renunciar a recursos administrativos.",
       "trampaExamen": "Las reducciones son acumulables, pero requieren las condiciones previstas en la notificación de iniciación.",
-      "referencia": "manual.md · apartado 35 · Artículo 85"
+      "referencia": "manual.md · apartado 35 · Artículo 85",
+      "respuestaLiteral": "20 %"
     },
     {
       "id": "LP-T03-011",
       "enunciado": "La tramitación simplificada del procedimiento debe resolverse, con carácter general y salvo que reste menos para la tramitación ordinaria, en un plazo de:",
       "opciones": [
         "Quince días",
-        "Veinte días",
         "Treinta días",
+        "Veinte días",
         "Tres meses"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "justificacion": "El artículo 96.6 de la Ley 39/2015 establece treinta días, a contar desde el día siguiente al de la notificación al interesado del acuerdo de tramitación simplificada, salvo que reste menos para finalizar por la vía ordinaria.",
       "trampaExamen": "El plazo no se cuenta necesariamente desde la solicitud inicial, sino desde el día siguiente a la notificación del acuerdo de tramitación simplificada.",
-      "referencia": "manual.md · apartado 46 · Ley 39/2015, artículo 96.6"
+      "referencia": "manual.md · apartado 46 · Ley 39/2015, artículo 96.6",
+      "respuestaLiteral": "Treinta días"
     },
     {
       "id": "LP-T03-012",
@@ -177,7 +188,8 @@
       "respuestaCorrecta": 3,
       "justificacion": "Los medios de ejecución forzosa son apremio sobre el patrimonio, ejecución subsidiaria, multa coercitiva y compulsión sobre las personas.",
       "trampaExamen": "La multa coercitiva no es una sanción; es un medio de ejecución compatible con sanciones.",
-      "referencia": "manual.md · apartado 50 · Artículo 100"
+      "referencia": "manual.md · apartado 50 · Artículo 100",
+      "respuestaLiteral": "Recurso de alzada"
     }
   ],
   "revisionFocalizada": {
@@ -188,5 +200,10 @@
     ],
     "norma": "Ley 39/2015, artículos 58–62 y 96.6",
     "alcance": "Corrección concreta de redacción y fundamento; no equivale a revalidación integral ni modifica el hito de aprobación histórica. Ajuste terminológico posterior para diferenciar orden e instrucción."
+  },
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
+    "objetivo": "3 correctas por cada posición en banco de 12"
   }
 }
