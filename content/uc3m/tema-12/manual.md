@@ -156,13 +156,33 @@ Sus competencias principales son:
 
 Pueden acompañar a técnicos e inspectores, acceder a información necesaria, realizar visitas, formular propuestas e instar medidas preventivas.
 
+### Número de Delegados de Prevención según el artículo 35.2
+
+| Plantilla | Delegados de Prevención |
+|---|---|
+| **Hasta 30** | **1**, que es el **Delegado de Personal** (en las empresas que cuenten con él) |
+| **31–49** | **1**, elegido por y entre los Delegados de Personal |
+| **50–100** | **2** |
+| **101–500** | **3** |
+| **501–1.000** | **4** |
+| **1.001–2.000** | **5** |
+| **2.001–3.000** | **6** |
+| **3.001–4.000** | **7** |
+| **4.001 en adelante** | **8** |
+
+Esta escala se usa con las especialidades del **artículo 35** y las reglas de participación en **Administraciones Públicas del artículo 34.3**; no deben ignorarse las fórmulas de designación admitidas por los convenios en los términos legales.
+
+> ⚠️ **¡Foco Examen!:** Para una plantilla de **49** personas hay **1 Delegado de Prevención**; con **50**, **2**. El umbral de **50** también activa el **Comité de Seguridad y Salud**, pero **Delegado** y **Comité** NO son el mismo órgano.
+
 ## 16. Comité de Seguridad y Salud
 
 Es el órgano paritario y colegiado de participación destinado a la consulta regular y periódica de las actuaciones preventivas.
 
 Se constituye en empresas o centros de trabajo con **50 o más personas trabajadoras**. Está formado por los delegados de prevención y por representantes de la organización en igual número.
 
-Debe reunirse trimestralmente y siempre que lo solicite alguna de las representaciones, sin perjuicio de las reglas específicas aplicables.
+Debe reunirse **trimestralmente** y siempre que lo solicite alguna de las representaciones, sin perjuicio de las reglas específicas aplicables. En el ámbito de la **Administración Pública**, el **artículo 34.3.d** establece particularidades: con carácter general, un Comité en el ámbito de los órganos de representación del personal, con representantes de la Administración **en número no superior** al de Delegados de Prevención, y posibles Comités en otros ámbitos según actividad y riesgos.
+
+> ⚠️ **¡Foco Examen!:** **Artículo 38**: composición **paritaria** ordinaria; **artículo 34.3.d**: particularidad en **Administraciones Públicas**, representantes de la Administración **en número no superior** al de delegados. Ambas reglas deben estudiarse según el ámbito preguntado.
 
 ## 17. Coordinación de actividades empresariales
 
