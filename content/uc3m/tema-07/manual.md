@@ -147,3 +147,9 @@ La Universidad mantiene un registro de solicitudes y reclamaciones, en el que se
 - Órgano competente en la UC3M: Rector.
 - Reclamación potestativa: un mes.
 - Antes de denegar totalmente debe valorarse el acceso parcial.
+
+## Auditoría del banco · 04/11/2026
+
+[**Cotejo individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): fundamentos específicos, análisis de distractores y bloques **¡Foco Examen!**. Estado **COTEJO_BANCO_COMPLETO**. **No** significa aprobación del usuario ni certifica navegación y accesibilidad de la web. La legislación exigible para UC3M se determina conforme a la **base primera.7** de su convocatoria, no automáticamente el día del examen.
+
+> ⚠️ **¡Foco Examen!:** La inadmisión de solicitudes del artículo **42.2** de Ley 10/2019 se resuelve en **5 días hábiles**, diferentes de los **20 días** de resolución ordinaria del artículo **42.1**.
