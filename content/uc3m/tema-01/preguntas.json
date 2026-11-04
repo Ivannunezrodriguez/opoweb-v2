@@ -7,110 +7,186 @@
     {
       "id": "UC3M-T01-001",
       "pregunta": "¿Cuándo entró en vigor la Constitución Española de 1978?",
-      "opciones": ["El 6 de diciembre de 1978", "El 27 de diciembre de 1978", "El 29 de diciembre de 1978", "El 31 de octubre de 1978"],
-      "correcta": 2,
+      "opciones": [
+        "El 29 de diciembre de 1978",
+        "El 6 de diciembre de 1978",
+        "El 27 de diciembre de 1978",
+        "El 31 de octubre de 1978"
+      ],
+      "correcta": 0,
       "justificacion": "La disposición final estableció su entrada en vigor el mismo día de su publicación en el BOE, el 29 de diciembre de 1978.",
       "trampa": "El 6 de diciembre fue la fecha del referéndum, no la entrada en vigor.",
-      "referencia": "content/uc3m/tema-01/manual.md#1-estructura-y-contenido"
+      "referencia": "content/uc3m/tema-01/manual.md#1-estructura-y-contenido",
+      "respuestaLiteral": "El 29 de diciembre de 1978"
     },
     {
       "id": "UC3M-T01-002",
       "pregunta": "¿Cuántos artículos contiene la Constitución Española?",
-      "opciones": ["168", "169", "170", "171"],
+      "opciones": [
+        "168",
+        "169",
+        "170",
+        "171"
+      ],
       "correcta": 1,
       "justificacion": "La Constitución contiene 169 artículos, además de su preámbulo y disposiciones adicionales, transitorias, derogatoria y final.",
       "trampa": "El último artículo es el 169 y existen diez títulos numerados, además del Título Preliminar.",
-      "referencia": "content/uc3m/tema-01/manual.md#1-estructura-y-contenido"
+      "referencia": "content/uc3m/tema-01/manual.md#1-estructura-y-contenido",
+      "respuestaLiteral": "169"
     },
     {
       "id": "UC3M-T01-003",
       "pregunta": "¿Qué artículos disfrutan de la protección reforzada del artículo 53.2 de la Constitución?",
-      "opciones": ["Los artículos 10 a 55", "Los artículos 14 a 29 y la objeción de conciencia del artículo 30.2", "Los artículos 14 a 38", "Únicamente los artículos 15 a 29"],
-      "correcta": 1,
+      "opciones": [
+        "Los artículos 10 a 55",
+        "Los artículos 14 a 38",
+        "Los artículos 14 a 29 y la objeción de conciencia del artículo 30.2",
+        "Únicamente los artículos 15 a 29"
+      ],
+      "correcta": 2,
       "justificacion": "La tutela mediante procedimiento preferente y sumario y, en su caso, recurso de amparo alcanza al artículo 14, a la Sección 1.ª del Capítulo II y a la objeción de conciencia del artículo 30.2.",
       "trampa": "No todos los derechos del Título I tienen idéntico sistema de garantías.",
-      "referencia": "content/uc3m/tema-01/manual.md#2-derechos-y-deberes-fundamentales"
+      "referencia": "content/uc3m/tema-01/manual.md#2-derechos-y-deberes-fundamentales",
+      "respuestaLiteral": "Los artículos 14 a 29 y la objeción de conciencia del artículo 30.2"
     },
     {
       "id": "UC3M-T01-004",
       "pregunta": "¿Qué mayoría exige la aprobación, modificación o derogación de una ley orgánica?",
-      "opciones": ["Mayoría simple del Congreso", "Mayoría absoluta del Congreso en una votación final sobre el conjunto", "Tres quintos de cada Cámara", "Dos tercios del Congreso"],
-      "correcta": 1,
+      "opciones": [
+        "Mayoría absoluta del Congreso en una votación final sobre el conjunto",
+        "Mayoría simple del Congreso",
+        "Tres quintos de cada Cámara",
+        "Dos tercios del Congreso"
+      ],
+      "correcta": 0,
       "justificacion": "El artículo 81.2 exige mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto.",
       "trampa": "La mayoría exigida se refiere al Congreso y a la votación final sobre el conjunto.",
-      "referencia": "content/uc3m/tema-01/manual.md#3-elaboración-de-las-leyes"
+      "referencia": "content/uc3m/tema-01/manual.md#3-elaboración-de-las-leyes",
+      "respuestaLiteral": "Mayoría absoluta del Congreso en una votación final sobre el conjunto"
     },
     {
       "id": "UC3M-T01-005",
       "pregunta": "¿Cuál es el mínimo de firmas exigido para una iniciativa legislativa popular estatal?",
-      "opciones": ["100.000", "250.000", "500.000", "750.000"],
-      "correcta": 2,
+      "opciones": [
+        "100.000",
+        "250.000",
+        "750.000",
+        "500.000"
+      ],
+      "correcta": 3,
       "justificacion": "El artículo 87.3 exige no menos de 500.000 firmas acreditadas, con las exclusiones constitucionalmente previstas.",
       "trampa": "La iniciativa popular no puede ejercerse sobre todas las materias.",
-      "referencia": "content/uc3m/tema-01/manual.md#3-elaboración-de-las-leyes"
+      "referencia": "content/uc3m/tema-01/manual.md#3-elaboración-de-las-leyes",
+      "respuestaLiteral": "500.000"
     },
     {
       "id": "UC3M-T01-006",
       "pregunta": "¿En qué plazo debe el Congreso convalidar o derogar un decreto-ley?",
-      "opciones": ["Quince días", "Veinte días", "Treinta días", "Dos meses"],
-      "correcta": 2,
+      "opciones": [
+        "Quince días",
+        "Veinte días",
+        "Dos meses",
+        "Treinta días"
+      ],
+      "correcta": 3,
       "justificacion": "Los decretos-leyes deben someterse inmediatamente al Congreso, convocado al efecto si no estuviera reunido, dentro de los treinta días siguientes a su promulgación.",
       "trampa": "No confundir este plazo con los quince días de la sanción real de las leyes.",
-      "referencia": "content/uc3m/tema-01/manual.md#3-elaboración-de-las-leyes"
+      "referencia": "content/uc3m/tema-01/manual.md#3-elaboración-de-las-leyes",
+      "respuestaLiteral": "Treinta días"
     },
     {
       "id": "UC3M-T01-007",
       "pregunta": "¿Qué entidades integran la organización territorial del Estado según el artículo 137?",
-      "opciones": ["Municipios, comarcas y comunidades autónomas", "Municipios, provincias y comunidades autónomas", "Provincias, islas y regiones", "Municipios, diputaciones y comunidades autónomas"],
+      "opciones": [
+        "Municipios, comarcas y comunidades autónomas",
+        "Municipios, provincias y comunidades autónomas",
+        "Provincias, islas y regiones",
+        "Municipios, diputaciones y comunidades autónomas"
+      ],
       "correcta": 1,
       "justificacion": "El artículo 137 dispone que el Estado se organiza territorialmente en municipios, provincias y comunidades autónomas.",
       "trampa": "Las diputaciones son órganos de gobierno provincial, no una categoría territorial distinta de la provincia.",
-      "referencia": "content/uc3m/tema-01/manual.md#4-organización-territorial-del-estado"
+      "referencia": "content/uc3m/tema-01/manual.md#4-organización-territorial-del-estado",
+      "respuestaLiteral": "Municipios, provincias y comunidades autónomas"
     },
     {
       "id": "UC3M-T01-008",
       "pregunta": "Tras la reforma constitucional de 2026, ¿qué regla se aplica a Ibiza y Formentera en la elección de senadores?",
-      "opciones": ["Eligen conjuntamente dos senadores", "Ibiza elige dos y Formentera ninguno", "Cada isla constituye una circunscripción y elige un senador", "Forman una única circunscripción que elige un senador"],
-      "correcta": 2,
+      "opciones": [
+        "Eligen conjuntamente dos senadores",
+        "Ibiza elige dos y Formentera ninguno",
+        "Forman una única circunscripción que elige un senador",
+        "Cada isla constituye una circunscripción y elige un senador"
+      ],
+      "correcta": 3,
       "justificacion": "La reforma del artículo 69.3 publicada el 20 de mayo de 2026 separó las circunscripciones de Ibiza y Formentera y atribuyó un senador a cada isla.",
       "trampa": "La redacción anterior agrupaba Ibiza y Formentera; esa solución dejó de ser la vigente tras la reforma de 2026.",
-      "referencia": "content/uc3m/tema-01/manual.md#circunscripciones-insulares-del-senado"
+      "referencia": "content/uc3m/tema-01/manual.md#circunscripciones-insulares-del-senado",
+      "respuestaLiteral": "Cada isla constituye una circunscripción y elige un senador"
     },
     {
       "id": "UC3M-T01-009",
       "pregunta": "¿Qué mayoría se exige con carácter general en cada Cámara para la reforma constitucional del artículo 167?",
-      "opciones": ["Mayoría absoluta", "Tres quintos", "Dos tercios", "Mayoría simple"],
-      "correcta": 1,
+      "opciones": [
+        "Mayoría absoluta",
+        "Dos tercios",
+        "Tres quintos",
+        "Mayoría simple"
+      ],
+      "correcta": 2,
       "justificacion": "El procedimiento ordinario exige, como regla general, mayoría de tres quintos de cada Cámara.",
       "trampa": "Los dos tercios caracterizan el procedimiento agravado, aunque también aparecen en una alternativa específica del procedimiento ordinario.",
-      "referencia": "content/uc3m/tema-01/manual.md#procedimiento-ordinario-artículo-167"
+      "referencia": "content/uc3m/tema-01/manual.md#procedimiento-ordinario-artículo-167",
+      "respuestaLiteral": "Tres quintos"
     },
     {
       "id": "UC3M-T01-010",
       "pregunta": "¿Quién puede solicitar el referéndum de una reforma aprobada por el procedimiento del artículo 167?",
-      "opciones": ["El Gobierno", "Una quinta parte del Congreso", "Una décima parte de los miembros de cualquiera de las Cámaras", "El Tribunal Constitucional"],
-      "correcta": 2,
+      "opciones": [
+        "El Gobierno",
+        "Una décima parte de los miembros de cualquiera de las Cámaras",
+        "Una quinta parte del Congreso",
+        "El Tribunal Constitucional"
+      ],
+      "correcta": 1,
       "justificacion": "El referéndum se celebra cuando lo solicita una décima parte de los miembros de cualquiera de las Cámaras dentro de los quince días siguientes a la aprobación.",
       "trampa": "En el artículo 167 el referéndum no es siempre obligatorio.",
-      "referencia": "content/uc3m/tema-01/manual.md#procedimiento-ordinario-artículo-167"
+      "referencia": "content/uc3m/tema-01/manual.md#procedimiento-ordinario-artículo-167",
+      "respuestaLiteral": "Una décima parte de los miembros de cualquiera de las Cámaras"
     },
     {
       "id": "UC3M-T01-011",
       "pregunta": "¿Cuál de estas reformas debe tramitarse por el procedimiento agravado del artículo 168?",
-      "opciones": ["Cualquier modificación del Título I", "La reforma de la Sección 1.ª del Capítulo II del Título I", "Toda reforma que afecte a las Cortes Generales", "La modificación de una ley orgánica"],
-      "correcta": 1,
+      "opciones": [
+        "La reforma de la Sección 1.ª del Capítulo II del Título I",
+        "Cualquier modificación del Título I",
+        "Toda reforma que afecte a las Cortes Generales",
+        "La modificación de una ley orgánica"
+      ],
+      "correcta": 0,
       "justificacion": "El procedimiento agravado se aplica a la revisión total y a reformas que afecten al Título Preliminar, a la Sección 1.ª del Capítulo II del Título I o al Título II.",
       "trampa": "No todo el Título I queda sometido al artículo 168.",
-      "referencia": "content/uc3m/tema-01/manual.md#procedimiento-agravado-artículo-168"
+      "referencia": "content/uc3m/tema-01/manual.md#procedimiento-agravado-artículo-168",
+      "respuestaLiteral": "La reforma de la Sección 1.ª del Capítulo II del Título I"
     },
     {
       "id": "UC3M-T01-012",
       "pregunta": "¿Cuántas reformas constitucionales se habían aprobado hasta julio de 2026?",
-      "opciones": ["Una", "Dos", "Tres", "Cuatro"],
-      "correcta": 3,
+      "opciones": [
+        "Una",
+        "Dos",
+        "Cuatro",
+        "Tres"
+      ],
+      "correcta": 2,
       "justificacion": "Las cuatro reformas afectaron a los artículos 13.2 en 1992, 135 en 2011, 49 en 2024 y 69.3 en 2026.",
       "trampa": "El recuento de tres reformas quedó desactualizado el 20 de mayo de 2026, cuando entró en vigor la reforma del artículo 69.3.",
-      "referencia": "content/uc3m/tema-01/manual.md#reformas-aprobadas"
+      "referencia": "content/uc3m/tema-01/manual.md#reformas-aprobadas",
+      "respuestaLiteral": "Cuatro"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  }
 }
