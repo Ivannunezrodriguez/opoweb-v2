@@ -4,7 +4,7 @@ const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const base='content/diputacion-toledo-auxiliar-c2/tema-';
 const programme=read('data/programa-diputacion-auxiliar-c2-2026.json');
 const covered=programme.temas.filter(t=>t.matriz).map(t=>t.numero);
-assert.deepEqual(covered,[1,2,3,4,5,7,8,9,10,11,12,13],'Expected audited inventory of documentary matrices; T6 OAPGT is intentionally last');
+assert.deepEqual(covered,[1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20],'Nineteen matrices are documentary only; T6 OAPGT remains last');
 let checked=0;
 for(const n of covered){
  const topic=programme.temas.find(t=>t.numero===n);
@@ -24,5 +24,5 @@ for(const n of covered){
  }
  checked++;
 }
-assert.equal(checked,12);
-console.log('DIPUTACION_C2_12_OFFICIAL_SOURCE_MATRICES_PRESENT_AND_PENDING_LEGAL_REVIEW_OK');
+assert.equal(checked,19);
+console.log('DIPUTACION_C2_19_OFFICIAL_SOURCE_MATRICES_PRESENT_AND_PENDING_LEGAL_REVIEW_OK');

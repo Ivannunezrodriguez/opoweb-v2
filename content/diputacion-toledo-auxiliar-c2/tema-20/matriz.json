@@ -1,0 +1,66 @@
+{
+  "tema": 20,
+  "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
+  "epigrafeOficial": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
+  "estadoEditorial": "EN_REVISION_USUARIO",
+  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
+  "fuentesPrimarias": [
+    "https://www.usb.org/",
+    "https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison",
+    "https://support.microsoft.com/es-es/windows"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Conceptos generales de ordenador personal",
+      "norma": "Arquitectura de PC",
+      "articulos": "Hardware y software",
+      "contenidoExigible": "CPU, placa base, memorias, almacenamiento y funcionamiento básico"
+    },
+    {
+      "inciso": "Componentes comunes",
+      "norma": "Intel / IBM / documentación técnica",
+      "articulos": "CPU, RAM, HDD, SSD",
+      "contenidoExigible": "Procesador, memoria principal, unidades de estado sólido y disco duro"
+    },
+    {
+      "inciso": "Periféricos",
+      "norma": "Documentación técnica de hardware",
+      "articulos": "Entrada, salida y mixtos",
+      "contenidoExigible": "Teclado, ratón, pantalla, webcam y dispositivos multifunción"
+    },
+    {
+      "inciso": "Impresoras",
+      "norma": "Microsoft Support",
+      "articulos": "Impresión / controladores",
+      "contenidoExigible": "Tecnologías, conexión, cola, resolución y dúplex"
+    },
+    {
+      "inciso": "Escáneres",
+      "norma": "Microsoft Support",
+      "articulos": "Escáner / digitalización",
+      "contenidoExigible": "Resolución, alimentación automática y reconocimiento de texto"
+    },
+    {
+      "inciso": "Discos externos y sistemas de archivos",
+      "norma": "Microsoft Learn",
+      "articulos": "NTFS, FAT32, exFAT",
+      "contenidoExigible": "Conexión, formato, límites y unidades de almacenamiento"
+    },
+    {
+      "inciso": "Unidades ópticas",
+      "norma": "Documentación técnica de fabricantes",
+      "articulos": "CD y DVD: ROM, R, RW",
+      "contenidoExigible": "Lectura, grabación, regrabación y capacidades orientativas"
+    },
+    {
+      "inciso": "Memorias USB",
+      "norma": "USB-IF",
+      "articulos": "Conector USB / estándares",
+      "contenidoExigible": "Conector no equivale a velocidad de transferencia ni a capacidad de carga"
+    }
+  ],
+  "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-20/fuentes.md",
+  "manual": "content/diputacion-toledo-auxiliar-c2/tema-20/manual.md",
+  "notas": "Matriz de correspondencia temática fundada en fuentes documentales del repositorio. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral."
+}

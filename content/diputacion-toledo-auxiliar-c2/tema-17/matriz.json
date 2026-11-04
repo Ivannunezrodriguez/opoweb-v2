@@ -1,0 +1,53 @@
+{
+  "tema": 17,
+  "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
+  "epigrafeOficial": "Microsoft Windows 11 Pro II. Navegación por Internet con Microsoft Edge. Uso del correo electrónico con Microfocus GroupWise 24.",
+  "estadoEditorial": "EN_REVISION_USUARIO",
+  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
+  "fuentesPrimarias": [
+    "https://support.microsoft.com/es-es/microsoft-edge",
+    "https://www.novell.com/documentation/groupwise24/"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Navegación por Internet",
+      "norma": "Microsoft Edge",
+      "articulos": "Navegación y pestañas",
+      "contenidoExigible": "Direcciones, enlaces, pestañas, página de inicio y motores de búsqueda"
+    },
+    {
+      "inciso": "Favoritos, historial y descargas",
+      "norma": "Microsoft Edge",
+      "articulos": "Menús Favoritos / Historial / Descargas",
+      "contenidoExigible": "Guardar páginas, buscar historial, eliminar y gestionar descargas"
+    },
+    {
+      "inciso": "Privacidad y seguridad",
+      "norma": "Microsoft Edge",
+      "articulos": "InPrivate / permisos del sitio",
+      "contenidoExigible": "Cookies, InPrivate, contraseñas, phishing y alcance de la privacidad"
+    },
+    {
+      "inciso": "Composición de correo",
+      "norma": "Micro Focus GroupWise 24 cliente Windows",
+      "articulos": "Guía de usuario GroupWise 24: componer",
+      "contenidoExigible": "Para, Cc, Bc, asunto, adjuntos, redactar y enviar"
+    },
+    {
+      "inciso": "Gestión de mensajes y carpetas",
+      "norma": "Micro Focus GroupWise 24 cliente Windows",
+      "articulos": "Guía GroupWise 24: mensajes y bandejas",
+      "contenidoExigible": "Recibidos, enviados, responder, reenviar, búsqueda, carpetas y organización"
+    },
+    {
+      "inciso": "Seguimiento y retractación",
+      "norma": "Micro Focus GroupWise 24 cliente Windows",
+      "articulos": "Guía GroupWise 24: seguimiento/retractación",
+      "contenidoExigible": "Estado de entrega, lectura, retractación y restricciones según estado del mensaje; diferenciar de interfaz web"
+    }
+  ],
+  "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-17/fuentes.md",
+  "manual": "content/diputacion-toledo-auxiliar-c2/tema-17/manual.md",
+  "notas": "Matriz de correspondencia temática fundada en fuentes documentales del repositorio. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral."
+}

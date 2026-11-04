@@ -1,0 +1,64 @@
+{
+  "tema": 19,
+  "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
+  "epigrafeOficial": "LibreOffice 24 II. Utilización de documentos de hoja de cálculo con LibreOffice 24 Calc.",
+  "estadoEditorial": "EN_REVISION_USUARIO",
+  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
+  "fuentesPrimarias": [
+    "https://books.libreoffice.org/en/CG24/CG24.html"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Hoja de cálculo y datos",
+      "norma": "LibreOffice Calc 24.2",
+      "articulos": "Guía Calc 24: introducción",
+      "contenidoExigible": "Celdas, hojas, rangos y tipos de dato"
+    },
+    {
+      "inciso": "Referencias y fórmulas",
+      "norma": "LibreOffice Calc 24.2",
+      "articulos": "Guía Calc 24: capítulo 8",
+      "contenidoExigible": "Referencias relativas, absolutas, mixtas y expresiones"
+    },
+    {
+      "inciso": "Funciones",
+      "norma": "LibreOffice Calc 24.2",
+      "articulos": "Guía Calc 24: capítulo 8",
+      "contenidoExigible": "SUMA, CONTAR, SI, funciones de texto, búsqueda y errores"
+    },
+    {
+      "inciso": "Formato de celdas",
+      "norma": "LibreOffice Calc 24.2",
+      "articulos": "Guía Calc 24: formato",
+      "contenidoExigible": "Numérico, condicional, alineación, estilos y tipos de datos"
+    },
+    {
+      "inciso": "Ordenación y filtrado",
+      "norma": "LibreOffice Calc 24.2",
+      "articulos": "Guía Calc 24: capítulos 9 y 14",
+      "contenidoExigible": "Ordenación de datos, filtros, estructura tabular y rangos"
+    },
+    {
+      "inciso": "Tablas dinámicas y gráficos",
+      "norma": "LibreOffice Calc 24.2",
+      "articulos": "Guía Calc 24: capítulo 9 y gráficos",
+      "contenidoExigible": "Resumen por tabla dinámica, series de datos y gráficos"
+    },
+    {
+      "inciso": "Impresión y exportación",
+      "norma": "LibreOffice Calc 24.2",
+      "articulos": "Guía Calc 24: impresión",
+      "contenidoExigible": "Áreas de impresión, escala, exportar y formatos"
+    },
+    {
+      "inciso": "Errores de fórmula",
+      "norma": "LibreOffice Calc 24.2",
+      "articulos": "Guía Calc 24: apéndice de códigos de error",
+      "contenidoExigible": "Interpretar errores #¡DIV/0!, #¿NOMBRE?, #REF! y diferencias de versión"
+    }
+  ],
+  "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-19/fuentes.md",
+  "manual": "content/diputacion-toledo-auxiliar-c2/tema-19/manual.md",
+  "notas": "Fuentes.md del Tema 19 dice BORRADOR mientras el manifiesto dice EN_REVISION_USUARIO. Se deja la discrepancia editorial abierta y los atajos requieren prueba real en Calc español. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral."
+}

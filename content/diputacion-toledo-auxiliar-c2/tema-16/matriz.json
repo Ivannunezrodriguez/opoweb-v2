@@ -1,0 +1,53 @@
+{
+  "tema": 16,
+  "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
+  "epigrafeOficial": "Microsoft Windows 11 Pro I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
+  "estadoEditorial": "EN_REVISION_USUARIO",
+  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
+  "fuentesPrimarias": [
+    "https://support.microsoft.com/es-es/windows",
+    "https://learn.microsoft.com/es-es/windows"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Archivos y carpetas",
+      "norma": "Microsoft Windows 11 Pro",
+      "articulos": "Explorador de archivos",
+      "contenidoExigible": "Creación y rutas, carpetas, extensiones, propiedades, selección y búsqueda"
+    },
+    {
+      "inciso": "Copiado y traslado",
+      "norma": "Microsoft Windows 11 Pro",
+      "articulos": "Explorador / portapapeles",
+      "contenidoExigible": "Copiar frente a mover, arrastrar y soltar, cortar y pegar; unidades locales y red"
+    },
+    {
+      "inciso": "Borrado y recuperación",
+      "norma": "Microsoft Windows 11 Pro",
+      "articulos": "Explorador / Papelera de reciclaje",
+      "contenidoExigible": "Eliminar, restablecer, papelera y borrado permanente con límites de dispositivo"
+    },
+    {
+      "inciso": "Unidades de disco locales",
+      "norma": "Microsoft Windows 11 Pro",
+      "articulos": "Este equipo / administración de discos",
+      "contenidoExigible": "Letras, volumen, rutas, dispositivo, particiones y soportes locales"
+    },
+    {
+      "inciso": "Unidades de red",
+      "norma": "Microsoft Windows 11 Pro",
+      "articulos": "Explorador / asignar unidad de red",
+      "contenidoExigible": "Ruta UNC, credenciales, acceso compartido y unidad asignada"
+    },
+    {
+      "inciso": "Impresión y digitalización",
+      "norma": "Microsoft Windows 11 Pro",
+      "articulos": "Configuración de impresoras y escáneres",
+      "contenidoExigible": "Cola, selección de impresora, formatos, digitalización, ADF y OCR"
+    }
+  ],
+  "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-16/fuentes.md",
+  "manual": "content/diputacion-toledo-auxiliar-c2/tema-16/manual.md",
+  "notas": "Matriz de correspondencia temática fundada en fuentes documentales del repositorio. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral."
+}

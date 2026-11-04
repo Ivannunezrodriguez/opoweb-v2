@@ -1,0 +1,54 @@
+{
+  "tema": 14,
+  "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
+  "epigrafeOficial": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
+  "estadoEditorial": "EN_REVISION_USUARIO",
+  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
+  "fuentesPrimarias": [
+    "https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Usos del certificado electrónico",
+      "norma": "Ley 39/2015",
+      "articulos": "9–12",
+      "contenidoExigible": "Identificación, firma y asistencia por medios electrónicos"
+    },
+    {
+      "inciso": "Clases de certificado",
+      "norma": "Reglamento eIDAS 910/2014",
+      "articulos": "3; 28; 38",
+      "contenidoExigible": "Certificados de firma de personas físicas, de sello de personas jurídicas y cualificados"
+    },
+    {
+      "inciso": "Tipos de firma y sello",
+      "norma": "Reglamento eIDAS 910/2014",
+      "articulos": "25–26; 35–36",
+      "contenidoExigible": "Firma simple/avanzada/cualificada, sellos avanzados/cualificados y efectos"
+    },
+    {
+      "inciso": "Soportes y dispositivos",
+      "norma": "Reglamento eIDAS 910/2014",
+      "articulos": "29–31; 39",
+      "contenidoExigible": "Soporte software, tarjeta y remoto; requisitos de dispositivo cualificado"
+    },
+    {
+      "inciso": "Prestadores y autoridades certificadoras",
+      "norma": "Reglamento eIDAS 910/2014 y Ley 6/2020",
+      "articulos": "20–24 eIDAS; 9–12 Ley 6/2020",
+      "contenidoExigible": "Cualificación, listas de confianza, auditoría, estado de certificados, custodia y comunicación"
+    },
+    {
+      "inciso": "Caducidad, suspensión y revocación",
+      "norma": "Ley 6/2020",
+      "articulos": "4–6",
+      "contenidoExigible": "Vigencia máxima, revocación y suspensión de certificados"
+    }
+  ],
+  "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-14/fuentes.md",
+  "manual": "content/diputacion-toledo-auxiliar-c2/tema-14/manual.md",
+  "notas": "La ficha fuentes.md conserva la etiqueta interna BORRADOR, aunque el manifiesto general tiene EN_REVISION_USUARIO; se mantiene discrepancia abierta. La existencia de preguntas no prueba su auditoría jurídica. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral."
+}
