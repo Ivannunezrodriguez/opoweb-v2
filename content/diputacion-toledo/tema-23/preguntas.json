@@ -214,20 +214,18 @@
     },
     {
       "id": "DIP-T23-015",
-      "pregunta": "¿Con qué periodicidad se reúne ordinariamente el Comité de Seguridad y Salud?",
+      "pregunta": "¿Cuál es el plazo ordinario para que los Delegados de Prevención emitan el informe relativo a la consulta del art. 33 LPRL?",
       "opciones": [
-        "15 días, salvo que se trate de riesgos inminentes y resulte imprescindible uno menor",
+        "15 días o el tiempo imprescindible ante riesgos inminentes",
         "30 días naturales en cualquier caso",
         "72 horas sin excepciones",
         "Dos meses desde la solicitud"
       ],
       "correcta": 0,
       "justificacion": "El art. 36.3 LPRL establece 15 días o el tiempo imprescindible cuando se adopten medidas dirigidas a prevenir riesgos inminentes.",
-      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "trampa": "15 días es la regla general, pero ante riesgo inminente no existe un plazo fijo alternativo de 24 horas.",
       "referencia": "Ley 31/1995 art. 36.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a36",
-      "respuestaLiteral": "15 días, salvo que se trate de riesgos inminentes y resulte imprescindible uno menor",
-      "enunciado": "¿Cuál es el plazo ordinario para que los Delegados de Prevención emitan el informe relativo a la consulta del art. 33 LPRL?",
-      "trampaExamen": "15 días es la regla general, pero ante riesgo inminente no existe un plazo fijo alternativo de 24 horas."
+      "respuestaLiteral": "15 días o el tiempo imprescindible ante riesgos inminentes"
     },
     {
       "id": "DIP-T23-016",
@@ -246,7 +244,7 @@
     },
     {
       "id": "DIP-T23-017",
-      "pregunta": "¿Qué sucede cuando hay riesgo grave e inminente y no se pueden adoptar las medidas ordinarias de seguridad?",
+      "pregunta": "¿Qué actuaciones deben contemplarse expresamente en las medidas de emergencia del artículo 20 LPRL?",
       "opciones": [
         "Identificación fiscal, inventario y contabilidad",
         "Solo planes de formación y permisos laborales",
@@ -255,15 +253,13 @@
       ],
       "correcta": 3,
       "justificacion": "El art. 20 LPRL exige analizar emergencias y adoptar medidas necesarias en primeros auxilios, lucha contra incendios y evacuación.",
-      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "trampa": "El artículo enumera tres ámbitos y exige designación de personal encargado y comprobación periódica del funcionamiento.",
       "referencia": "Ley 31/1995 art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a20",
-      "respuestaLiteral": "Primeros auxilios, lucha contra incendios y evacuación",
-      "enunciado": "¿Qué actuaciones deben contemplarse expresamente en las medidas de emergencia del artículo 20 LPRL?",
-      "trampaExamen": "El artículo enumera tres ámbitos y exige designación de personal encargado y comprobación periódica del funcionamiento."
+      "respuestaLiteral": "Primeros auxilios, lucha contra incendios y evacuación"
     },
     {
       "id": "DIP-T23-018",
-      "pregunta": "¿Qué plazo tiene la autoridad laboral para ratificar o anular la paralización de actividad acordada por representantes?",
+      "pregunta": "¿Cuál es una obligación del trabajador en materia preventiva conforme al art. 29.2 LPRL?",
       "opciones": [
         "Permitir usar equipos sin protección aunque exista riesgo",
         "Asumir personalmente el coste de la protección",
@@ -272,15 +268,13 @@
       ],
       "correcta": 3,
       "justificacion": "El art. 29.2.3.º LPRL exige no poner fuera de funcionamiento y utilizar correctamente los dispositivos de seguridad.",
-      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "trampa": "Las obligaciones preventivas del trabajador no permiten anular protecciones ni trasladan al empleado el coste legal de la prevención.",
       "referencia": "Ley 31/1995 art. 29.2.3.º · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a29",
-      "respuestaLiteral": "No poner fuera de funcionamiento los dispositivos de seguridad existentes",
-      "enunciado": "¿Cuál es una obligación del trabajador en materia preventiva conforme al art. 29.2 LPRL?",
-      "trampaExamen": "Las obligaciones preventivas del trabajador no permiten anular protecciones ni trasladan al empleado el coste legal de la prevención."
+      "respuestaLiteral": "No poner fuera de funcionamiento los dispositivos de seguridad existentes"
     },
     {
       "id": "DIP-T23-019",
-      "pregunta": "¿Cuál es la regla general de vigilancia de la salud laboral?",
+      "pregunta": "¿Cómo define el art. 31.2 LPRL un servicio de prevención?",
       "opciones": [
         "El número de trabajadores que elige a los Delegados de Prevención",
         "Un órgano judicial para resolver sanciones",
@@ -289,15 +283,13 @@
       ],
       "correcta": 2,
       "justificacion": "La Ley 31/1995 art. 31.2 define el servicio de prevención como conjunto de medios humanos y materiales necesarios para las actividades preventivas, destinado a garantizar protección y asesoramiento.",
-      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "trampa": "El servicio de prevención es una organización de recursos; no se confunde con los Delegados ni con el Comité de Seguridad y Salud.",
       "referencia": "Ley 31/1995 art. 31.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a31",
-      "respuestaLiteral": "El conjunto de medios humanos y materiales necesarios para las actividades preventivas",
-      "enunciado": "¿Cómo define el art. 31.2 LPRL un servicio de prevención?",
-      "trampaExamen": "El servicio de prevención es una organización de recursos; no se confunde con los Delegados ni con el Comité de Seguridad y Salud."
+      "respuestaLiteral": "El conjunto de medios humanos y materiales necesarios para las actividades preventivas"
     },
     {
       "id": "DIP-T23-020",
-      "pregunta": "¿Desde qué plantilla es obligatorio constituir un Comité de Seguridad y Salud?",
+      "pregunta": "¿Cuándo es obligatorio constituir un servicio de prevención propio por tamaño de plantilla, con independencia de la actividad?",
       "opciones": [
         "Desde 50 trabajadores en todos los casos",
         "Con más de 500 trabajadores",
@@ -306,11 +298,9 @@
       ],
       "correcta": 1,
       "justificacion": "El art. 14.a del RD 39/1997 exige servicio de prevención propio en empresas con más de 500 personas. El apartado b añade el supuesto de 250 a 500 con actividades del anexo I.",
-      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "trampa": "No confundir el umbral de más de 500 para servicio propio con 50 para Comité de Seguridad y Salud, ni omitir la condición del anexo I para plantillas de 250–500.",
       "referencia": "RD 39/1997 art. 14.a–b · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853#a14",
-      "respuestaLiteral": "Con más de 500 trabajadores",
-      "enunciado": "¿Cuándo es obligatorio constituir un servicio de prevención propio por tamaño de plantilla, con independencia de la actividad?",
-      "trampaExamen": "No confundir el umbral de más de 500 para servicio propio con 50 para Comité de Seguridad y Salud, ni omitir la condición del anexo I para plantillas de 250–500."
+      "respuestaLiteral": "Con más de 500 trabajadores"
     }
   ],
   "controlCalidadOpciones": {
