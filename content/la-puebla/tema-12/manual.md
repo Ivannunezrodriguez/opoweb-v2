@@ -107,3 +107,17 @@ No siempre coinciden. En el IBI puede ser sujeto el concesionario, superficiario
 ## Banco de preguntas
 
 El tema dispone de **12 preguntas revisadas, trazables y alineadas con el estado editorial publicado**.
+
+## Cotejo jurídico-editorial completo — **04/11/2026**
+
+Revisados los **5 bloques** del programa con sus capítulos y **48 alternativas** de 12 preguntas de **IBI, IAE, IVTM e IIVTNU**, incluyendo reforma fiscal de 2026 cuando procede. [**Análisis individual de cada distractor y clave**](cotejo-integral-2026-11-04.md). **AUDITADO jurídico-editorial**; navegador y móvil reales pendientes.
+
+| Tributo | Regla clave |
+|---|---|
+| **IBI** | Prelación concesión/superficie/usufructo/propiedad en **art. 61** |
+| **IAE** | Persona física **sujeta pero exenta** (**art. 82.1.c**); umbral empresarial **< 1.000.000 €** |
+| **IVTM** | Remolques de carga útil **hasta 750 kg**, **no sujetos** (**art. 92.3.b**) |
+| **IIVTNU** | No hay sujeción por transmisión urbana **sin incremento acreditado**, **art. 104.5** |
+
+> ⚠️ **¡Foco Examen!:** El IIVTNU es **potestativo**; **no sujeción por inexistencia acreditada de incremento** no equivale a **exención** por circunstancias del sujeto pasivo.
+

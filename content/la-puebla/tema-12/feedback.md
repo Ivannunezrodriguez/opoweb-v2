@@ -4,7 +4,7 @@
 
 `APROBADO_USUARIO`
 
-El tema fue aprobado expresamente el 18 de julio de 2026. El banco de preguntas permanece vacío hasta su revisión específica y trazable.
+El tema fue aprobado expresamente el 18 de julio de 2026. El banco vigente contiene **12 preguntas, 48 alternativas**: cotejo jurídico-editorial íntegro registrado el **04/11/2026**.
 
 ## Epígrafe oficial
 
@@ -92,3 +92,8 @@ Aprobación registrada mediante la frase:
 > **«Tema 12 aprobado»**
 
 El tema queda cerrado y publicado como `APROBADO_USUARIO`.
+
+## Control jurídico-editorial completo — **04/11/2026**
+
+[**Revisión legal por artículo de las 12 claves y 36 distractores**](cotejo-integral-2026-11-04.md). El estado anterior sobre preguntas no revisadas queda actualizado; la revisión de la interfaz en navegador real se mantiene pendiente.
+

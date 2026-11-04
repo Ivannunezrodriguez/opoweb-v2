@@ -3,7 +3,7 @@
   "estado": "APROBADO_USUARIO",
   "aprobadoEl": "2026-07-17",
   "epigrafeOficial": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.",
-  "fechaRevisionNormativa": "2026-07-27",
+  "fechaRevisionNormativa": "2026-11-04",
   "manual": "content/la-puebla/tema-11/manual.md",
   "capitulos": [
     "content/la-puebla/tema-11/bloque-01-voluntaria.md",
@@ -128,5 +128,20 @@
     "normativa concursal en toda su extensión",
     "detalle técnico exhaustivo de cada modalidad de subasta"
   ],
-  "criterioDeCierre": "El tema fue aprobado expresamente por el usuario. La modularidad, la trazabilidad y la validación automática no sustituyen la revisión independiente de las preguntas futuras."
+  "criterioDeCierre": "El tema fue aprobado expresamente por el usuario. La modularidad, la trazabilidad y la validación automática no sustituyen la revisión independiente de las preguntas futuras.",
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "7 ámbitos del programa, banco de 12 preguntas, 48 alternativas documentadas",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-11/cotejo-integral-2026-11-04.md",
+    "fuentesOficiales": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662"
+    ],
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionIntegralCincoCapas": false
+  }
 }

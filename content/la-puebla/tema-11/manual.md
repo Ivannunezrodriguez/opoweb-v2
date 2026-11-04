@@ -80,3 +80,17 @@ El tema 10 ya desarrolla obligaciones, obligados, deuda y procedimientos de gest
 - detalle técnico íntegro de cada tipo de subasta.
 
 El banco asociado contiene **12 preguntas revisadas, justificadas y trazables**.
+
+## Cotejo jurídico-editorial completo — **04/11/2026**
+
+Verificados los **7 bloques**, seis capítulos temáticos y **12 preguntas con sus 48 alternativas**, con el texto consolidado de **LGT**, **RGR** y **RD 520/2005**. [**Cotejo individual de claves y distractores**](cotejo-integral-2026-11-04.md). **AUDITADO jurídico-editorial**, navegador real pendiente.
+
+| Diferencia | Plazo general | Norma |
+|---|---|---|
+| Período voluntario, liquidación notificada **1–15** | **20 del mes siguiente** | **LGT 62.2.a** |
+| Período voluntario, liquidación notificada **16–fin** | **5 del segundo mes siguiente** | **LGT 62.2.b** |
+| Providencia notificada **1–15** | **20 del mismo mes** | **LGT 62.5.a** |
+| Providencia notificada **16–fin** | **5 del mes siguiente** | **LGT 62.5.b** |
+
+> ⚠️ **¡Foco Examen!:** **6 meses** es plazo para resolver devolución de ingresos indebidos; en solicitud del interesado, el silencio transcurrido ese plazo es **desestimatorio** (**RD 520/2005 art. 19.3**). La prescripción general es **4 años**, no seis meses.
+

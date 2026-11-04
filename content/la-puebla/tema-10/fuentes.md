@@ -64,3 +64,9 @@ Se corrigieron `manual.md`, `preguntas.json`, explicación y fuente, conservando
 
 > ⚠️ **¡Foco Examen!:** No convertir las **tres expresiones distintas** de **art. 31.1 CE** en una lista indiferenciada de cuatro «principios inspiradores».
 
+## Cierre jurídico-editorial del **04/11/2026**
+
+**12 preguntas y 48 alternativas** del Tema **10** individualizadas con el precepto de las fuentes oficiales y descartes de los **36 distractores**: [**informe completo**](cotejo-integral-2026-11-04.md). El programa y manual se han cotejado con los **8 bloques** de `matriz.json` en esta fecha. **AUDITADO jurídico-editorial**, sin declarar test de navegador real.
+
+> ⚠️ **¡Foco Examen!:** No confundir **recargo extemporáneo art. 27** (1 % + meses) con **recargos ejecutivos art. 28** (**5 %, 10 %, 20 %**).
+

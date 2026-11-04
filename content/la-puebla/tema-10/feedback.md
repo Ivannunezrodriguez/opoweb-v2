@@ -4,7 +4,7 @@
 
 `APROBADO_USUARIO`
 
-El usuario aprobó expresamente el tema mediante la respuesta **«Tema 10 aprobado»** el 17 de julio de 2026. La publicación queda autorizada y el banco de preguntas permanece vacío hasta una revisión específica y trazable.
+El usuario aprobó expresamente el tema mediante la respuesta **«Tema 10 aprobado»** el 17 de julio de 2026. La publicación está autorizada; el banco vigente contiene **12 preguntas y 48 alternativas**, ahora cotejadas íntegramente según las fuentes oficiales el **04/11/2026**.
 
 ## Epígrafe oficial
 
@@ -87,3 +87,8 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 10 aproba
 - Tema cerrado: **SÍ**.
 - Publicación: **AUTORIZADA**.
 - Preguntas: pendientes de elaboración y revisión artículo por artículo.
+
+## Control jurídico-editorial completo — **04/11/2026**
+
+[**Revisión legal por artículo de las 12 claves y 36 distractores**](cotejo-integral-2026-11-04.md). El estado anterior sobre preguntas no revisadas queda actualizado; la revisión de la interfaz en navegador real se mantiene pendiente.
+

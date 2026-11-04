@@ -4,7 +4,7 @@
 
 `APROBADO_USUARIO`
 
-El tema ha sido aprobado expresamente. El banco de preguntas permanece vacío hasta su revisión específica.
+El tema ha sido aprobado expresamente. El banco contiene **12 preguntas y 48 alternativas**, cotejadas íntegramente el **04/11/2026** frente a LGT, RGR y RD 520/2005.
 
 ## Epígrafe oficial
 
@@ -108,3 +108,8 @@ Se consideran aprobados:
 ## Cierre
 
 Aprobación registrada: **«Tema 11 aprobado»**, 17 de julio de 2026.
+
+## Control jurídico-editorial completo — **04/11/2026**
+
+[**Revisión legal por artículo de las 12 claves y 36 distractores**](cotejo-integral-2026-11-04.md). El estado anterior sobre preguntas no revisadas queda actualizado; la revisión de la interfaz en navegador real se mantiene pendiente.
+

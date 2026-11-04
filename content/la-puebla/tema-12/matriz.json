@@ -3,7 +3,7 @@
   "estado": "APROBADO_USUARIO",
   "aprobadoEl": "2026-07-18",
   "epigrafeOficial": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.",
-  "fechaRevisionNormativa": "2026-07-18",
+  "fechaRevisionNormativa": "2026-11-04",
   "norma": {
     "titulo": "Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales",
     "referencia": "BOE-A-2004-4214",
@@ -162,5 +162,20 @@
     ],
     "preguntasConservadas": 12,
     "estado": "REVISION_JURIDICA_PARCIAL_NO_RECERTIFICACION"
+  },
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "5 ámbitos del programa, banco de 12 preguntas, 48 alternativas documentadas",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-12/cotejo-integral-2026-11-04.md",
+    "fuentesOficiales": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "https://www.boe.es/eli/es/rdl/2021/11/08/26",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214&p=20261002&tn=1"
+    ],
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionIntegralCincoCapas": false
   }
 }

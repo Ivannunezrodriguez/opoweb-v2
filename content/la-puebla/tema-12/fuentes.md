@@ -85,3 +85,10 @@ Se cotejó la **respuesta correcta literal** y la regla que la fundamenta frente
 **Precisión didáctica:** La pregunta **LP-T12-006** ahora pregunta expresamente por una cifra **estrictamente inferior a 1.000.000 €**, y no permite responder como si la igualdad estuviera incluida. Para grupos se debe considerar el **INCN conjunto** conforme al art. **82.1.c**.
 
 > ⚠️ **¡Foco Examen!:** **Menor que 1.000.000 €** no significa **menor o igual**; no confundir **no sujeción** con **exención**.
+
+## Cierre jurídico-editorial del **04/11/2026**
+
+**12 preguntas y 48 alternativas** del Tema **12** individualizadas con el precepto de las fuentes oficiales y descartes de los **36 distractores**: [**informe completo**](cotejo-integral-2026-11-04.md). El programa y manual se han cotejado con los **5 bloques** de `matriz.json` en esta fecha. **AUDITADO jurídico-editorial**, sin declarar test de navegador real.
+
+> ⚠️ **¡Foco Examen!:** En IIVTNU, **lucrativo**: paga **adquirente**; **oneroso**: **transmitente**; si este último es **persona física no residente**, adquirente es **sustituto**.
+

@@ -1209,3 +1209,9 @@ El artículo 140 impide una segunda regularización del mismo objeto salvo hecho
 - Real Decreto 1065/2007, complemento reglamentario de gestión.
 - Real Decreto 939/2005, complemento reglamentario de recaudación.
 
+## Cotejo jurídico-editorial completo — **04/11/2026**
+
+**Ocho bloques** del epígrafe, contenido principal y **48 alternativas de 12 preguntas** revisados frente al TRLRHL, LGT y CE. [**Ver cotejo individual con descarte de cada distractor**](cotejo-integral-2026-11-04.md). **AUDITADO jurídico-editorial**; prueba funcional real pendiente.
+
+> ⚠️ **¡Foco Examen!:** **Art. 9.1 TRLRHL** permite hasta **5 % de cuota** por domiciliación/colaboración **previsto por ordenanza**; no es una exención libremente inventada por el Ayuntamiento.
+
