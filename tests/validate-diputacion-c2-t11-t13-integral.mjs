@@ -67,7 +67,7 @@ const t11=readFileSync(base+'tema-11/manual.md','utf8');
 const t12=readFileSync(base+'tema-12/manual.md','utf8');
 const t13=readFileSync(base+'tema-13/manual.md','utf8');
 assert(t11.includes('tema 12')&&!t11.includes('recaudación voluntaria y ejecutiva en profundidad, reservada al tema 11'),'T11 wrong cross-topic reference');
-assert(t11.includes('**seis meses**')&&t11.includes('**Hasta 5 %'),'LGT104/TRLRHL9 issue returned');
+assert(t11.includes('seis meses supletorios')&&t11.includes('**Hasta 5 %'),'LGT104/TRLRHL9 issue returned');
 assert(t12.includes('**1 septiembre–20 noviembre**')&&t12.includes('**5 % / 10 % / 20 %**'),'LGT62.3 or recargos distinction lost');
 assert(!t12.includes('## 1. voluntaria'),'T12 stale duplicate heading');
 assert(t13.includes('**Concesión administrativa → derecho de superficie → usufructo → propiedad**'),'IBI precedence removed');
