@@ -193,6 +193,23 @@ Las **Juntas Electorales Provinciales** distribuyen los puestos por partidos jud
 
 Tras la constitución de los Ayuntamientos y conforme al procedimiento de los artículos **205 y 206**, se adjudican los puestos de diputado provincial y se eligen los diputados por los concejales correspondientes, con las peculiaridades previstas legalmente.
 
+#### Procedimiento electoral provincial actualizado por la **LO 2/2024**
+
+El [**artículo 206.1 LOREG**, reformado por **Ley Orgánica 2/2024, de 1 de agosto**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#a206), contiene reglas precisas adicionales que **no deben omitirse** al estudiar el régimen electoral local.
+
+| Momento o requisito | Exigencia legal |
+|---|---|
+| Convocatoria de concejales de candidaturas con escaños provinciales asignados | La **Junta Electoral** los convoca **por separado dentro de los cinco días siguientes** a la distribución de puestos |
+| Aval de las listas de candidatos a diputados provinciales | Al menos **un tercio de dichos concejales** |
+| Elección de diputados | Los **concejales** de los partidos/coaliciones/federaciones/agrupaciones con puestos asignados en el respectivo **partido judicial**, no la ciudadanía por voto provincial directo |
+| Suplentes | Se eligen **tres suplentes**, ordenados para cubrir las vacantes |
+| Composición de las listas tras **LO 2/2024** | Representación equilibrada: cada sexo **no supera el 60 % ni baja del 40 %**; personas de uno y otro sexo **ordenadas de forma alternativa** |
+| Proclamación | **Junta Electoral de Zona**, que expide credenciales y comunica la relación a la **Junta Provincial** y **Diputación** |
+
+**Advertencia normativa:** esta redacción del **art. 206** está vigente desde el **22 de agosto de 2024**. No confundir **un tercio de avales de concejales** con el **máximo de un tercio de diputados** que, excluida la Presidencia, pueden integrar la **Junta de Gobierno provincial** (**art. 35.1 LRBRL**).
+
+> ⚠️ **¡Foco Examen!:** Diputados provinciales = **elección indirecta** por concejales, convocatoria de la **Junta Electoral en cinco días**, listas avaladas al menos por **1/3**, **tres suplentes** y listas con regla **40 %–60 % + alternancia de sexos**, conforme a la **LOREG reformada en 2024**.
+
 ### 8.4. Elección del Presidente provincial (art. 207 LOREG)
 
 En la sesión constitutiva de la Diputación, se elige **Presidente** de entre sus miembros:
