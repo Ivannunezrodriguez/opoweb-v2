@@ -77,7 +77,17 @@ La prueba valora objetivamente:
 
 La calificación de acceso combina la nota de Bachillerato y la prueba en los porcentajes legales. La calificación de acceso tiene validez indefinida, sin perjuicio de la posibilidad de mejorarla.
 
-Para mejorar la nota de admisión, el alumnado puede examinarse en la misma convocatoria de hasta **3 materias** de segundo de Bachillerato distintas de las examinadas en la prueba de acceso y de una segunda lengua extranjera distinta.
+Para mejorar la nota de admisión, el alumnado puede examinarse en la misma convocatoria de hasta **3 materias** de **2.º de Bachillerato** (comunes o de modalidad) distintas de aquellas de las que se hubiera examinado en la prueba de acceso. **Además**, el artículo **22.1 del Real Decreto 534/2024** permite examinarse de **una segunda lengua extranjera** distinta de la elegida en la prueba: esa posibilidad se añade al máximo de **3 materias**.
+
+| Concepto | Norma básica | Regla test |
+|---|---|---|
+| Materias para mejorar la nota | **RD 534/2024, art. 22.1** | **Hasta 3** materias distintas de las ya examinadas en la prueba de acceso |
+| Otra lengua | **RD 534/2024, art. 22.1** | Puede examinarse **además de una segunda lengua extranjera** |
+| Calificaciones que pondera la universidad | **RD 534/2024, art. 22.2** | **Al menos 2 materias** |
+| Publicidad de criterios de admisión | **RD 534/2024, art. 25.2** | **Un curso académico de antelación** |
+| Calificación sin nota media de FP por homologación o equivalencia | **RD 534/2024, art. 23.2 (redacción 2026)** | **5 puntos** |
+
+> ⚠️ **¡Foco Examen!:** **Hasta 3 materias** no significa que esté prohibido examinarse **además de una segunda lengua extranjera** distinta. Tampoco confundir la **nota de acceso** con la **nota de admisión**, que puede añadir ponderaciones.
 
 Las universidades deben tener en cuenta las calificaciones obtenidas en **al menos 2 materias** y publicar los parámetros de ponderación al inicio del curso correspondiente.
 
