@@ -880,3 +880,24 @@ Puede quedar no sujeta cuando encaja en los supuestos del artículo 104.3.
 > ⚠️ **¡Foco Examen!:** **No sujeción** significa que el caso queda fuera del hecho imponible según la ley; **exención** presupone hecho imponible, pero la ley dispensa el pago.
 
 **Fuente oficial principal:** [TRLRHL consolidado, BOE, última modificación publicada el **07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). La información por encima de este anexo se mantiene organizada según los **cinco bloques** del tema y está complementada por **20 preguntas** con respuesta y fundamento legal.
+
+## Auditoría individual del banco y actualización de cobertura — 05/11/2026
+
+[**Cotejo de 20 preguntas y 80 alternativas con fundamentos jurídicos individuales**](cotejo-integral-2026-11-05.md). Se han sustituido **T13-009, T13-010 y T13-018** para distinguir los supuestos relevantes de los arts. **59.2, 61.1–2 y 104.2 TRLRHL**.
+
+| Concepto | Regla a memorizar |
+|---|---|
+| Tributos municipales **obligatorios** | **IBI, IAE, IVTM** (**art.59.1**) |
+| Impuestos municipales **potestativos** | **ICIO e IIVTNU** (**art.59.2**) |
+| Prelación del hecho imponible del **IBI** | **Concesión administrativa → derecho de superficie → usufructo → propiedad**, **art.61.1** |
+| **IIVTNU** sobre terreno **rústico** a efectos de IBI | **No sujeto**, **art.104.2** |
+| **IIVTNU** sin incremento acreditado | **No sujeto**, supuesto distinto del **art.104.5** |
+| **IIVTNU** en transmisión **lucrativa** | Contribuyente **adquirente/beneficiario**, **art.106.1.a** |
+| **IIVTNU** en transmisión **onerosa** | Contribuyente **transmitente**, **art.106.1.b**; **adquirente sustituto** cuando transmitente es **persona física no residente**, **art.106.2** |
+| **Exención IAE** | **Personas físicas** y sujetos definidos con **INCN inferior a 1.000.000 €**, con reglas de grupo (**art.82.1.c**) |
+| Ordenanzas fiscales | Exposición pública **mínimo 30 días**, **art.17.1** |
+
+> ⚠️ **¡Foco Examen!:** La **no sujeción** de suelo rústico (**104.2**) y la **no sujeción por inexistencia acreditada de incremento** (**104.5**) son causas distintas. **IBI: concesión, superficie, usufructo y propiedad** en ese orden.
+
+El informe acredita **cotejo individual de las 80 alternativas**, no certificación total del contenido del manual, navegador o accesibilidad; **EN_REVISION_USUARIO** para el resto.
+
