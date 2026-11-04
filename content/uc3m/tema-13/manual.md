@@ -169,3 +169,9 @@ Debe desarrollarse con criterios de calidad, equidad y eliminación de barreras 
 - La investigación, la transferencia, la cooperación y la internacionalización son funciones esenciales del sistema.
 - Los títulos propios y la formación permanente no son títulos oficiales.
 - La calidad se garantiza mediante la actuación conjunta de universidades, agencias y Administraciones.
+
+## Cotejo exhaustivo del banco · 04/11/2026
+
+[**Informe individual de 12 preguntas y 48 alternativas literales**](cotejo-integral-2026-11-04.md): fundamentos jurídicos, descarte de cada respuesta errónea y foco de examen. **Estado del banco: COTEJO_BANCO_COMPLETO**, **no aprobación de usuario**. La fecha normativa de corte de las bases UC3M sigue pendiente de corroborar mediante publicación primaria de la resolución de listas definitivas y anuncio de prueba. Las pruebas funcionales en navegador y accesibilidad se mantienen **pendientes**.
+
+> ⚠️ **¡Foco Examen!:** **LOSU arts. 4–5**: ley de creación o reconocimiento, informe preceptivo y autorización posterior son **actos distintos**; la calidad es responsabilidad **compartida**.
