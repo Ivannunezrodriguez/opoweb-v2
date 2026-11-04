@@ -1504,3 +1504,51 @@ Los **144 distractores/alternativas** de **36 preguntas** tienen motivación ind
 - **Límites**: la auditoría individual del banco **no equivale a cobertura íntegra de todo el programa**, ver matriz de cada tema con subapartados sin pregunta directa, ni implica certificación funcional o accesibilidad.
 
 **Acumulado de cotejos individuales del banco:** **34/121 temas**, **La Puebla 19/19**, **UC3M 15/20**; **419 preguntas y 1.676 alternativas** revisadas. **0/121** acreditan simultáneamente todas las capas jurídico-editoriales, pedagógicas, funcionales, navegador y accesibilidad. **Siguiente lote**: **UC3M T16–T20** (normativa UC3M, presupuestos y contratos), luego controles funcionales globales.
+
+
+## 57. UC3M T16–T20 · Cierre del banco (con reservas primarias expresas) — **04/11/2026**
+
+### 57.1. Continuación de T16 a T20 con fuentes normativas
+
+- **T16 · Enseñanzas y evaluación UC3M:** [**21 preguntas, 84 alternativas**](content/uc3m/tema-16/cotejo-integral-2026-11-04.md), incluyendo [**RD 822/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781), prácticas, TFG y TFM, normativa propia de permanencia y evaluación. Se mantiene la cautela respecto de la **sentencia de 06/10/2026 publicada el 23/10/2026** que anula el RD 905/2025, no el RD 822/2021 íntegro. **Corte UC3M pendiente**.
+- **T17 · Acceso y admisión:** [**12 preguntas y 48 alternativas**](content/uc3m/tema-17/cotejo-integral-2026-11-04.md). Manual y fuentes precisados con [**RD 534/2024, arts. 3.5, 7, 22, 23.2, 25**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858): **6 ECTS** para reanudación en el mismo centro, **30 ECTS** para continuación/cambio, **hasta 3 materias y además una segunda lengua extranjera distinta** para mejora de admisión, puntuación **5** para ciertas homologaciones de Técnico Superior sin nota media (reforma julio 2026) y plazos de publicación.
+- **T18 · Presupuesto 2026, ingresos:** [**12 preguntas y 48 alternativas**](content/uc3m/tema-18/cotejo-integral-2026-11-04.md). Fuente primaria adicional: [**BOCM de 30/12/2025, anexo Presupuesto 2026 UC3M**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF) publicada sobre acuerdo del **Consejo Social 11/12/2025**, **total 300.468.067,59 €** en ingresos y gastos. **Error editorial corregido**: no existen dos «Capítulo VI» de gastos; el **concepto 640**, inversiones inmateriales por **55.170.132,65 €**, pertenece al único **Capítulo VI** de inversiones reales.
+- **T19 · Ejecución del gasto y cierre:** [**12 preguntas y 48 alternativas**](content/uc3m/tema-19/cotejo-integral-2026-11-04.md). Diferenciadas fases **RC, A, D, O, P**, pago material, **ADO**, pagos a justificar frente a anticipos de caja fija, resultado presupuestario y remanente de tesorería. Se mantiene el marco de la [**Ley 5/2025, Hacienda de Madrid**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217).
+- **T20 · Contratos del sector público:** [**12 preguntas y 48 alternativas**](content/uc3m/tema-20/cotejo-integral-2026-11-04.md). Manual y fuentes reforzados con la [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605) para umbrales desde **01/01/2026**. Corregida la frase que hablaba de suministros/servicios «superiores a 15.000 €» sin incluir igualdad: los contratos menores de servicios requieren **valor estimado estrictamente inferior a 15.000 €, sin IVA**.
+
+### 57.2. Tabla comparativa obligatoria de números confundibles
+
+| Concepto | Dato exacto | Norma |
+|---|---|---|
+| **TFG de Grado 240 ECTS** | **6 a 24 ECTS** | **RD 822/2021, art. 14.6** |
+| **TFM** | **6 a 30 ECTS** | **RD 822/2021, art. 17.4** |
+| Prácticas curriculares Grado | Máximo ordinario **25 %** | **RD 822/2021, art. 14.5** |
+| Prácticas Máster | Máximo **un tercio** | **RD 822/2021, art. 17.3** |
+| Reanudación mismo centro | Mínimo **6 ECTS** | **RD 534/2024, art. 3.5** |
+| Cambio de universidad/estudios | Mínimo **30 ECTS** reconocidos | **RD 534/2024, art. 7** |
+| Mejora admisión PAU | Hasta **3 materias**, **más posibilidad de otra lengua extranjera** | **RD 534/2024, art. 22.1** |
+| Presupuesto UC3M **2026** | **300.468.067,59 €** | **BOCM 30/12/2025** |
+| Ingresos capítulo **IV** UC3M | **146.834.705,33 €** | **BOCM 30/12/2025** |
+| Gasto concepto **640** | **55.170.132,65 €**, dentro del **capítulo VI** | **BOCM 30/12/2025** |
+| Contrato menor servicios/suministros | **< 15.000 €**, sin IVA | **LCSP art. 118.1** |
+| Recurso especial servicios/suministros | **> 100.000 €** para actos y contratos legalmente comprendidos | **LCSP art. 44.1.a** |
+| SARA servicios/suministros **UC3M** | **≥ 216.000 €** | **LCSP arts. 21–22**, **Orden HAC/1517/2025** |
+| SARA servicios/suministros **AGE**, supuestos enumerados | **≥ 140.000 €** | **LCSP arts. 21–22**, **Orden HAC/1517/2025** |
+| SARA obras/concesiones generales | **≥ 5.404.000 €** | **LCSP arts. 20 y 23**, **Orden HAC/1517/2025** |
+
+> ⚠️ **¡Foco Examen!:** **15.000 € exactos NO son contrato menor de servicios**. Para **UC3M**, SARA general de servicios/suministros **216.000 €**, **no 140.000 €**. **>100.000 €** es umbral de **recurso especial**, no SARA. No confundir **TFG/TFM** ni **6/30 ECTS** de las dos vías de continuidad de estudios.
+
+### 57.3. Control documental de 276 alternativas y alcance real
+
+- Los cinco informes contienen **69 preguntas y 276 alternativas A–D** comentadas individualmente, con claves y focos. Los cinco **manual.md** y **fuentes.md** remiten a cada informe; las **matrices** contienen `controlIntegralBanco20261104` con `COTEJO_BANCO_COMPLETO`, **aprobación de usuario false** y **pruebas navegador pendientes**.
+- **Reserva de fuente primaria explícita en T18:** aunque las cantidades del **anexo BOCM** se verificaron directamente, no se pudo recuperar y leer íntegro el **Volumen I de Normas Básicas UC3M 2026**. Quedan por verificar contra dicho PDF primario **T18-006** (vinculación de créditos), **T18-008** (transferencias capital/corriente) y **T18-012** (grupo de seguimiento de incobrados a 120 días). No se certifica su literalidad estatutaria primaria por inferencia del manual.
+- **Reserva de T19:** las fases contables son conceptos contrastados con el manual y marco público; la **particularidad procedimental interna de UC3M** requiere igualmente lectura del **Volumen I**. Los hechos del BOCM no prueban por sí solos procedimientos internos de gestión.
+- **Fecha de corte normativo UC3M:** sigue faltando la **publicación primaria de la resolución de listas definitivas y anuncio del ejercicio** requerida por **base primera.7**. No sustituir la fecha oficial por el dato secundario **01/10/2026** sin verificar.
+- [**Nueva regresión `tests/validate-uc3m-t16-t20-integral.mjs`**](tests/validate-uc3m-t16-t20-integral.mjs), añadida a **`npm test`** y [.github/workflows/validate.yml](.github/workflows/validate.yml): contrasta **69 preguntas y 276 literales exactos**, posiciones de claves, referencias, errores de capítulos de presupuesto, SARA 2026 y reservas de fuentes internas. **CI SUCCESS** [**run 41917264398**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41917264398) en SHA **`fc080701364fcd99e7985348970d46b846acef24`**. **Pages del mismo SHA estaba in_progress** en la última verificación.
+- Ninguno de estos controles automáticos sustituye **pruebas de navegador móvil/escritorio, accesibilidad real**, lectura de cada apartado del programa ni aprobación expresa del usuario.
+
+### 57.4. Acumulado y pendientes siguientes
+
+**Auditoría individual de bancos documentada: 39/121 temas**; **La Puebla 19/19**, **UC3M 20/20**. Total **488 preguntas y 1.952 alternativas** comentadas. Esta cobertura de **bancos** no constituye certificación del **100 % del temario ni de la web**; **0/121** han acreditado simultáneamente todas las capas exigidas.
+
+**Prioridad siguiente:** obtener y leer **Volumen I Presupuesto UC3M 2026** para resolver las reservas de T18/T19; recuperar publicación primaria de **listas definitivas UC3M**, verificar el corte temporal y rectificar si procediera; pruebas de navegación, móvil y accesibilidad; después retomar temas de otras convocatorias aún sin auditoría integral.
