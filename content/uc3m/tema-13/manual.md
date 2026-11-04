@@ -67,6 +67,19 @@ La creación o reconocimiento exige el cumplimiento de requisitos básicos relat
 
 La puesta en funcionamiento requiere autorización una vez comprobado el cumplimiento de las condiciones exigidas. El incumplimiento grave puede dar lugar a revocación o extinción conforme al procedimiento legal.
 
+### Diferencia jurídica entre ley, informe, autorización y garantía de calidad
+
+| Actuación | Instrumento y **órgano competente** | Precepto |
+|---|---|---|
+| Crear universidad **pública** ordinaria | **Ley de la Asamblea Legislativa autonómica**, previo **informe preceptivo de la Conferencia General de Política Universitaria** | **LOSU 4.1.a** |
+| Reconocer universidad **privada** ordinaria | **Ley autonómica**, previo **informe preceptivo de la Conferencia General de Política Universitaria** | **LOSU 4.1.a** |
+| Universidad de **especiales características**, pública o privada | **Ley de las Cortes Generales** a propuesta del **Gobierno**, de acuerdo con el **Consejo de Gobierno autonómico**, previo **informe preceptivo de la Conferencia** | **LOSU 4.1.b** |
+| Permitir inicio de actividad | **Autorización del órgano competente de la Comunidad Autónoma** tras verificar requisitos | **LOSU 4.2** |
+| Asegurar calidad del sistema | **Universidades, agencias de evaluación y Administraciones Públicas competentes**, responsabilidad compartida | **LOSU 5.2** |
+| Garantía interna de calidad en centros | **Universidades**, mediante sus **sistemas internos de garantía de calidad** | **LOSU 5.3** |
+
+> ⚠️ **¡Foco Examen!:** La **ley de creación/reconocimiento** no es la **autorización de inicio**. La vía de **Cortes Generales** del artículo **4.1.b** es **excepcional por especiales características** y **no** se limita a universidades públicas.
+
 ## 7. Estructuras universitarias
 
 Las universidades pueden organizarse en facultades, escuelas, departamentos, institutos universitarios de investigación, escuelas de doctorado y otras estructuras necesarias para sus funciones.
