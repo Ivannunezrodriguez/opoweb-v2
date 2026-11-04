@@ -4,6 +4,15 @@ const read=p=>readFileSync(p,'utf8');
 const j=p=>JSON.parse(read(p));
 const t10=read('content/la-puebla/tema-10/manual.md');
 const t13=read('content/la-puebla/tema-13/manual.md');
+assert(t13.includes('solo el sello cualificado'));
+assert(!t13.includes('La **firma electrónica** corresponde a una persona física.\n- El **sello electrónico** identifica y garantiza'));
+const bank13=j('content/la-puebla/tema-13/preguntas.json');
+for(const id of ['LP-T13-001','LP-T13-003']){
+ const q=bank13.preguntas.find(q=>q.id===id);
+ assert(q && q.opciones[q.respuestaCorrecta]===q.respuestaLiteral);
+ assert(q.referencia.includes('910/2014'));
+}
+
 const trust=read('content/la-puebla/tema-13/bloque-04-prestadores-servicios.md');
 const t12=read('content/la-puebla/tema-12/manual.md');
 const t7=read('content/la-puebla/tema-07/manual.md');

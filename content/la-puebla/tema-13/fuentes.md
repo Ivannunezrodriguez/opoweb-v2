@@ -33,3 +33,18 @@
 ## Revisión focalizada de efectos y obligaciones de prestadores — **04/11/2026**
 
 Fuentes primarias: [**eIDAS consolidado, arts. 25–26**](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A02014R0910-20241018) y [**Ley 6/2020, arts. 9 y 12**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046). **Art. 25.1** protege admisión probatoria de firma electrónica no cualificada sin equipararla a manuscrita; **25.2** equipara firma cualificada a manuscrita. **Ley 6/2020, art. 9.3.b:** seguro **1.500.000 €** y **500.000 € por cada servicio cualificado adicional** salvo sector público; **art. 12**: comunicación prestador no cualificado **3 meses** desde inicio. El plazo de 15 años de conservación queda distinguido del máximo de 5 años de vigencia. **Solo contraste parcial; no recertificación integral.**
+
+## Auditoría de definiciones eIDAS y dos preguntas — **04/11/2026**
+
+**Fuente primaria:** [Reglamento (UE) 910/2014 consolidado en EUR-Lex (18/10/2024)](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa), **arts. 3.9–10, 3.14, 3.24–25, 25–26 y 35–36**.
+
+**Hallazgo jurídico real:** la formulación original atribuía a **toda firma electrónica** garantías plenas de autoría, voluntad e integridad, y a cualquier **sello** una garantía jurídica indistinta. La definición general de firma de **art. 3.10** no contiene todos los requisitos técnicos de **art. 26** para firma avanzada. Además, la **presunción legal** de integridad/corrección del origen del **art. 35.2** se reconoce específicamente al **sello electrónico cualificado**, sin excluir por ello el valor probatorio de sellos no cualificados (**art. 35.1**).
+
+| Pregunta revisada | Redacción nueva y resultado | Fundamentación |
+|---|---|---|
+| **LP-T13-001** | Certificado de **firma** vincula validación con **persona física**; firma = **datos que utiliza el firmante para firmar** | **eIDAS 3.9–10, 3.14 y 26** |
+| **LP-T13-003** | Firma creada por **persona física**; **sello cualificado** con presunción expresa sobre **integridad y corrección del origen** | **eIDAS 3.24, 35.1–2 y 36** |
+
+Se han corregido manual, esquema y banco de preguntas manteniendo IDs y posiciones; son **2 claves y su formulación contrastadas**, no las otras 10 preguntas ni el tema completo.
+
+> ⚠️ **¡Foco Examen!:** **Firma simple ≠ firma avanzada ≠ firma cualificada**. En los **sellos**, la presunción de origen e integridad solo está atribuida expresamente al **cualificado** por el **art. 35.2**; el sello no cualificado **no** pierde automáticamente toda eficacia jurídica.

@@ -43,16 +43,25 @@ El certificado no es la firma. El certificado permite asociar la clave pública 
 ### 4.1 Identificación y firma
 
 - **Identificación:** acredita quién accede o actúa.
-- **Firma:** acredita la voluntad o consentimiento y protege autenticidad e integridad.
+- **Firma electrónica (eIDAS art. 3.10):** son **datos electrónicos anejos o asociados lógicamente a otros datos electrónicos que el firmante utiliza para firmar**. La definición general **no garantiza por sí sola** la identidad del firmante ni la detección de alteraciones; esas garantías dependen del nivel de firma y de los requisitos aplicables.
 
 La Ley 39/2015 no exige firmar todos los trámites. El artículo 11.2 reserva la firma, con carácter general, para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir y renunciar a derechos.
 
 ### 4.2 Firma y sello
 
 - La **firma electrónica** corresponde a una persona física.
-- El **sello electrónico** identifica y garantiza el origen e integridad de documentos emitidos por una persona jurídica, Administración u órgano.
+- El **sello electrónico** es creado por una **persona jurídica** y está destinado a garantizar el origen e integridad de los datos; **solo el sello cualificado** disfruta de la **presunción jurídica de integridad y corrección del origen** del **art. 35.2 eIDAS**.
 
 Una persona jurídica no “firma” por sí misma con un certificado de persona jurídica del antiguo modelo: actúa mediante la firma de una persona física representante o utiliza un sello electrónico para los usos que le son propios.
+
+| Nivel | Requisito o efecto jurídico | Trampa de examen |
+|---|---|---|
+| **Firma electrónica** | Definición general del **art. 3.10** | **No** toda firma detecta cambios posteriores ni equivale a manuscrita |
+| **Firma avanzada** | Identificación del firmante y cambios posteriores detectables, entre otros requisitos del **art. 26** | **No** basta la simple presencia de datos de firma |
+| **Firma cualificada** | Firma avanzada + dispositivo y certificado cualificados; **art. 3.12** | Equivalencia con firma manuscrita por **art. 25.2** |
+| **Sello cualificado** | Presunción de **integridad** y de **corrección del origen**; **art. 35.2** | El efecto de presunción **no** se atribuye de modo indiscriminado a todo sello |
+
+> ⚠️ **¡Foco Examen!:** **Art. 3.10** define toda firma electrónica; **art. 26** impone garantías a la avanzada; **art. 25.2** equipara la **cualificada** a la manuscrita. Solo el **sello cualificado** tiene la presunción expresa del **art. 35.2**.
 
 ### 4.3 Certificado cualificado y prestador cualificado
 
@@ -219,8 +228,8 @@ No se desarrolla de forma completa:
 | Concepto | Idea esencial |
 |---|---|
 | Identificación | acredita quién actúa |
-| Firma electrónica | acredita voluntad, autenticidad e integridad |
-| Sello electrónico | garantiza origen e integridad de una persona jurídica u órgano |
+| Firma electrónica | datos que el **firmante persona física utiliza para firmar** (**art. 3.9–10**); las garantías de integridad y autenticación dependen del **nivel** |
+| Sello electrónico | creado por **persona jurídica**, destinado a garantizar origen e integridad; el **cualificado** goza de presunción legal (**art. 35.2**) |
 | Certificado cualificado | lo expide un prestador cualificado y figura en la lista de confianza |
 | Soporte | puede ser software, tarjeta, token, móvil o dispositivo remoto |
 | Revocación | extingue la vigencia; la suspensión es temporal |

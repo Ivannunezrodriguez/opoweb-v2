@@ -16,15 +16,15 @@
       "enunciado": "¿Cuál de las siguientes afirmaciones distingue correctamente certificado electrónico y firma electrónica?",
       "opciones": [
         "El certificado es la manifestación de voluntad y la firma solo identifica",
-        "El certificado vincula datos de validación con una identidad; la firma acredita autoría, voluntad e integridad",
+        "El certificado de firma vincula datos de validación con una persona física; la firma son datos que el firmante utiliza para firmar",
         "Certificado y firma son jurídicamente equivalentes",
         "La firma solo puede existir si el certificado está en una tarjeta física"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El certificado vincula una clave pública u otros datos de validación con una identidad. La firma se crea con los datos de firma y permite acreditar autoría, voluntad e integridad.",
-      "trampaExamen": "No confundir el medio de acreditación de identidad con el acto electrónico de firmar.",
-      "referencia": "manual.md · apartados 3 y 4.1",
-      "respuestaLiteral": "El certificado vincula datos de validación con una identidad; la firma acredita autoría, voluntad e integridad"
+      "justificacion": "El art. 3.9–10 y 3.14 eIDAS define firmante como persona física, firma electrónica como datos electrónicos que utiliza para firmar y certificado de firma como declaración que vincula datos de validación a una persona física. Autenticidad e integridad robustas son exigencias adicionales de la firma avanzada (art. 26), no garantías automáticas de toda firma simple.",
+      "trampaExamen": "No atribuir a toda firma simple las cuatro garantías de la firma avanzada ni equiparar certificado con firma.",
+      "referencia": "Reglamento (UE) 910/2014 eIDAS, art. 3.9, 3.10, 3.14 y 26 · https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa",
+      "respuestaLiteral": "El certificado de firma vincula datos de validación con una persona física; la firma son datos que el firmante utiliza para firmar"
     },
     {
       "id": "LP-T13-002",
@@ -48,13 +48,13 @@
         "La firma corresponde exclusivamente a personas jurídicas",
         "El sello corresponde exclusivamente a personas físicas",
         "Firma y sello tienen idéntica función y titularidad",
-        "La firma se vincula a una persona física y el sello garantiza origen e integridad de documentos de una persona jurídica u órgano"
+        "La firma electrónica la crea una persona física; el sello cualificado goza de presunción de integridad y de corrección del origen"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La firma electrónica se asocia a una persona física. El sello electrónico sirve para garantizar origen e integridad en documentos emitidos por personas jurídicas, Administraciones u órganos.",
-      "trampaExamen": "Una persona jurídica actúa mediante representante o mediante sello, no mediante una supuesta firma personal propia.",
-      "referencia": "manual.md · apartado 4.2",
-      "respuestaLiteral": "La firma se vincula a una persona física y el sello garantiza origen e integridad de documentos de una persona jurídica u órgano"
+      "justificacion": "El firmante es persona física (art. 3.9), el creador del sello es persona jurídica (art. 3.24). El art. 35.2 eIDAS presume integridad y corrección del origen de datos vinculados a un sello electrónico cualificado; no da idéntica presunción a cualquier sello no cualificado.",
+      "trampaExamen": "No confundir el objetivo general de un sello con la presunción jurídica especial del sello cualificado (art. 35.2).",
+      "referencia": "Reglamento (UE) 910/2014 eIDAS, arts. 3.9, 3.24, 35.1–2, 36 · https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa",
+      "respuestaLiteral": "La firma electrónica la crea una persona física; el sello cualificado goza de presunción de integridad y de corrección del origen"
     },
     {
       "id": "LP-T13-004",
@@ -205,5 +205,15 @@
     "fecha": "2026-11-04",
     "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
     "objetivo": "3 correctas por cada posición en banco de 12"
+  },
+  "controlSustantivo20261104": {
+    "fecha": "2026-11-04",
+    "ids": [
+      "LP-T13-001",
+      "LP-T13-003"
+    ],
+    "norma": "eIDAS consolidado, arts. 3.9–10, 3.14, 3.24, 25–26, 35–36",
+    "motivo": "Se eliminaron garantías universales impropias de firma simple y sello genérico; reescritas dos alternativas correctas sin cambiar posiciones ni identificadores.",
+    "alcance": "Revisión focal de 2 preguntas y manual; no recertificación integral del tema 13."
   }
 }
