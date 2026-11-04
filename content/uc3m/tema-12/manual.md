@@ -200,3 +200,9 @@ La organización titular del centro debe informar sobre riesgos y medidas de eme
 - Ante riesgo grave e inminente puede interrumpirse la actividad.
 - El Comité de Seguridad y Salud es paritario y se constituye desde 50 personas trabajadoras.
 - Los delegados de prevención son representantes con funciones específicas preventivas.
+
+## Cotejo de las 48 alternativas del banco · 04/11/2026
+
+[**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
+
+> ⚠️ **¡Foco Examen!:** **Comité de Seguridad y Salud** desde **50 personas**; los **Delegados de Prevención** siguen escala del **art. 35** y la Administración Pública presenta particularidades.
