@@ -16,11 +16,13 @@
 - **Diputación de Toledo — Pleno:** https://www.diputoledo.es/global/27/263/734
 - **Diputación de Toledo — Junta de Gobierno:** https://www.diputoledo.es/global/27/263/738
 
-## Pendiente
+## Estado de fuentes y seguimiento
 
-- Normas de organización propias de Diputación de Toledo y su redacción actual.
-- Auditoría artículo a artículo de convocatorias, quórum, mayorías, delegación y elección.
-- Validación posterior a reformas que se publiquen antes del examen.
+- **Norma provincial localizada y documentada:** el [**Reglamento de Organización Administrativa de la Diputación de Toledo, BOP 14/02/2024**](https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf), se cita y desglosa en el manual. **No** se da por completado el seguimiento de todas sus posibles reformas futuras.
+- **Revisados en el manual:** periodicidad, convocatoria, quórum y mayorías municipales y provinciales conforme a **arts. 46–47 LRBRL**; órganos y competencias **arts. 20–36 LRBRL**.
+- **Auditoría de todo el organigrama y funciones efectivas:** pendiente de verificación funcional e institucional completa; no confundir **reglamento administrativo de 2024** con delegaciones políticas de cada legislatura.
+- **LOREG art. 206.1 tras LO 2/2024:** incorporado expresamente en esta revisión (**5 días** de convocatoria, aval de **1/3 de concejales**, **3 suplentes**, listas **40 %–60 %** y **alternancia**).
+- **Vigencia futura:** comprobar cambios de la legislación o del reglamento posteriores a este control antes del examen.
 
 > ⚠️ **¡Foco Examen!:** La **LRBRL** fue actualizada el **03/10/2026**; un manual revisado solo en julio de 2026 no basta para certificar su vigencia.
 
@@ -45,3 +47,11 @@
 - El manual incorpora el reglamento y el banco cuenta con **20 preguntas** de CE, LRBRL y LOREG.
 
 > ⚠️ **¡Foco Examen!:** La estructura de **áreas y servicios** del reglamento no es la lista de **órganos necesarios de gobierno** de la LRBRL. No confundir **dirección de un área** con elección de Presidencia.
+
+## Complemento normativo y banco cotejado · 04/11/2026
+
+- [**Ley Orgánica 2/2024, de 1 de agosto, reforma del artículo 206.1 LOREG**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936) y [**artículo 206 consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#a206). Vigente desde **22/08/2024**: listas provinciales avaladas por **al menos 1/3 de los concejales** con escaño en partido judicial, **tres suplentes**, representación **40–60 %** de sexos con **orden alterno**, y convocatoria por **Junta Electoral dentro de cinco días** desde la asignación.
+- [**Informe de cotejo de las 20 preguntas y 80 alternativas literales del Tema 5**](cotejo-integral-2026-11-04.md), referido a CE 141, LRBRL 11, 20–22, 26, 32–36 y LOREG 194, 196, 204–207.
+- Este documento registra fuentes oficiales, **no** supone auditoría completa del régimen provincial, prueba funcional del portal ni aprobación final del usuario.
+
+> ⚠️ **¡Foco Examen!:** **Más de 5.000 habitantes** para la Junta de Gobierno Local obligatoria; la **Comisión Especial de Cuentas** existe en **todos**. **Elección provincial indirecta** y paridad de listas **40 %–60 %**, con alternancia, no son normas de elección directa municipal.
