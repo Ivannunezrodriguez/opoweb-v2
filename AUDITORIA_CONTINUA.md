@@ -1783,3 +1783,84 @@ También se ha subsanado un estado editorial **contradictorio** en T05: el apart
 ### 62.3. Estado y siguiente bloque
 
 Se mantiene **45/121 bancos con cotejo individual documentado**, **608 preguntas y 2.432 alternativas**; **0/121** certificados simultáneamente en todas las capas. Próximo lote: resolver con fuente primaria la redacción de **T08-007**, completar T08 y después T09–T10, sin adelantar T06 OAPGT. Seguir comprobando CI/Pages para **cada SHA nuevo** y evitar confundir éxito de Actions con certificación jurídica o funcional.
+
+
+## 62. Diputación Toledo C2 · T08, T09, T10: 240 alternativas y siete preguntas redundantes reparadas — **04/11/2026**
+
+### 62.1. Tres bancos cotejados individualmente
+
+| Tema | Informe de 20 preguntas / 80 alternativas | Normas primarias |
+|---|---|---|
+| [**T08 · Prevención de riesgos laborales**](content/diputacion-toledo-auxiliar-c2/tema-08/cotejo-integral-2026-11-04.md) | **20 / 80** con clave, distractores fundamentados y focos | [**LPRL 31/1995 consolidada 09/04/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) y [**RSP, RD 39/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853) |
+| [**T09 · Igualdad de mujeres y hombres**](content/diputacion-toledo-auxiliar-c2/tema-09/cotejo-integral-2026-11-04.md) | **20 / 80**, tras reparar cuatro redundancias | [**Ley 12/2010 CLM**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708), [**LO 3/2007**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) |
+| [**T10 · Protección de datos**](content/diputacion-toledo-auxiliar-c2/tema-10/cotejo-integral-2026-11-04.md) | **20 / 80**, tras reparar tres redundancias | [**LOPDGDD, LO 3/2018**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), [**RGPD, DOUE-L-2016-80807**](https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807), criterios [**AEPD**](https://www.aepd.es/preguntas-frecuentes/1-tus-derechos/2-tus-derechos-de-proteccion-de-datos) |
+
+Los bancos se contrastaron contra los epígrafes del **Anexo XI del BOP Toledo 197, 14/10/2026**. Se incorporó informe individual de **todas las 240 alternativas literales**, con fundamentos distintos para cada distractor y **¡Foco Examen!** por pregunta.
+
+### 62.2. Cuatro preguntas de igualdad reconstruidas sin cambiar claves
+
+El banco de T09 repetía **composición equilibrada** (T09-011 frente a T09-004), **definición general del acoso** (T09-012 frente a T09-006), **transversalidad** (T09-016 frente a T09-003), y **lenguaje no sexista** (T09-018 frente a T09-005). Se han sustituido en [**preguntas.json T09**](content/diputacion-toledo-auxiliar-c2/tema-09/preguntas.json) por:
+
+| ID y posición de clave conservada | Precepto y regla |
+|---|---|
+| **T09-011 = B** | **Art. 13 LO 3/2007**: carga de probar ausencia de discriminación y proporcionalidad en la **parte demandada** en los supuestos legales, **NO aplicable a procesos penales** |
+| **T09-012 = C** | **Art. 7.4 LO 3/2007**: condicionar un derecho o expectativa a aceptar acoso sexual o por sexo también es discriminación |
+| **T09-016 = C** | **Arts. 9 y 15 Ley 12/2010**: **informe de impacto de género** del anteproyecto de **Presupuestos de CLM** antes de su aprobación, **Comisión de Igualdad** |
+| **T09-018 = A** | **Art. 45.2–4 LO 3/2007**: **plan de igualdad** obligatorio en empresas de **50 o más trabajadores**, también bajo otros supuestos legales |
+
+Estas reglas tienen cita directa y han quedado añadidas al [**manual T09**](content/diputacion-toledo-auxiliar-c2/tema-09/manual.md) y [**fuentes T09**](content/diputacion-toledo-auxiliar-c2/tema-09/fuentes.md). **No** se ha inflado el volumen del banco: sigue habiendo **20 preguntas**.
+
+> ⚠️ **¡Foco Examen!:** **40–60 %** es composición equilibrada, mientras **50 trabajadores** es el umbral empresarial general de **planes de igualdad**. **Cargar al demandado la prueba** no alcanza a procesos **penales**.
+
+### 62.3. Tres preguntas de protección de datos reconstruidas y un enlace fantasma corregido
+
+El banco de T10 duplicaba consentimiento de menores (T10-008), desconexión digital (T10-015) y secreto/confidencialidad (T10-020). Se han reemplazado en [**preguntas.json T10**](content/diputacion-toledo-auxiliar-c2/tema-10/preguntas.json), conservando respuestas **C/B/C**:
+
+| ID | Regla nueva y origen |
+|---|---|
+| **T10-008 = C** | **RGPD art. 12.3**: contestar derechos en **1 mes desde la recepción**, con eventual prórroga de **2 meses adicionales** y comunicación en el primero |
+| **T10-015 = B** | **LOPDGDD art. 22.3**: cuando las imágenes se conservan para acreditar actos contra integridad de personas, bienes o instalaciones, entrega a **autoridad competente dentro de 72 horas** desde **conocer la existencia de grabación** |
+| **T10-020 = C** | **RGPD art. 33.1**: notificar brechas pertinentes a **autoridad de control** sin dilación indebida y de ser posible **dentro de 72 horas desde que se tenga constancia**, **salvo** que sea improbable riesgo a derechos y libertades; distinguir del deber de comunicación a interesados en **alto riesgo** del **art. 34** |
+
+Se corrigió además en el [**manual T10**](content/diputacion-toledo-auxiliar-c2/tema-10/manual.md) la afirmación de que existía una trazabilidad completa en **`articulos.md`**: **ese archivo no está presente**, por lo que ahora se declara el control artículo por artículo **pendiente** en vez de sugerir una revisión inexistente.
+
+**Tabla temporal:**
+
+| Obligación | Plazo y dies a quo |
+|---|---|
+| Respuesta a derechos | **1 mes** desde recepción de solicitud, ampliación **2 meses** si se cumplen condiciones |
+| Supresión ordinaria de grabaciones | **1 mes** desde captación de imágenes |
+| Entrega excepcional de imágenes a autoridad | **72 horas** desde conocimiento de existencia de la grabación |
+| Notificación de brecha a autoridad | De ser posible, **72 horas** desde conocimiento de la brecha, si riesgo no improbable |
+| Comunicación a interesados de brecha de **alto riesgo** | Sin dilación indebida; **no** el plazo automático de 72 h del art. 33 |
+
+> ⚠️ **¡Foco Examen!:** **72 horas por vídeo (LOPDGDD art. 22)** no significa **72 horas por brecha (RGPD art. 33)**: tienen hechos, destinatarios y requisitos **diferentes**.
+
+### 62.4. PRL: escala, comité y formación correctamente separados
+
+| Pregunta test | Regla |
+|---|---|
+| **Hasta 30 trabajadores** | Delegado de Personal también de Prevención |
+| **31–49** | **1 Delegado de Prevención** elegido por y entre Delegados de Personal |
+| **50–100** | **2 Delegados** |
+| **101–500** | **3 Delegados** |
+| Comité de Seguridad y Salud | Obligatorio con **50 o más trabajadores**, composición **paritaria**, reunión **trimestral** |
+| Consulta de prevención del **art. 33** | Delegados responden en **15 días**; riesgos inminentes, tiempo imprescindible |
+| Modalidad preventiva propia | Obligatoria con **más de 500 trabajadores** o demás supuestos reglamentarios |
+| Formación preventiva | **Dentro de jornada** si es posible; fuera, se **descuenta tiempo invertido** |
+
+La corrección previa del tema 8 que sustituyó la falsa suma legal de **probabilidad + severidad** por **valoración conjunta** permanece vigente. Fuente: [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), **arts. 4.2, 14, 19, 35, 36, 38**.
+
+### 62.5. Trazabilidad de CI y límites de acreditación
+
+- Modificados **`manual.md`**, **`fuentes.md`**, **`matriz.json`** de **T08, T09 y T10**, e igualmente **`preguntas.json`** en T09 y T10; los **7 identificadores y posiciones correctas** permanecen estables.
+- Cada matriz incluye **`controlIntegralBanco20261104`**, **`COTEJO_BANCO_COMPLETO`**, **`aprobadoPorUsuario:false`**, **`certificacionWeb:PENDIENTE_PRUEBA_NAVEGADOR_REAL`**, y cuenta de preguntas redundantes corregidas: **T08 0 / T09 4 / T10 3**.
+- Nuevo [**`tests/validate-diputacion-c2-t08-t10-integral.mjs`**](tests/validate-diputacion-c2-t08-t10-integral.mjs), incorporado a **`npm test`** y a [.github/workflows/validate.yml](.github/workflows/validate.yml). Comprueba correspondencia literal de **60 preguntas y 240 alternativas**, distribución de respuestas, focos, fuentes, ausencia de aprobación ficticia y presencia de las siete reparaciones.
+- **Validación automática:** el estado del commit final debe confirmarse con los **runs de GitHub Actions**; no anticipar **SUCCESS** si está pendiente. Los cambios de informes y ficheros del banco ya constan en el repositorio.
+- **Pruebas funcionales reales de navegador/móvil y accesibilidad**: sin realizar. Ni cotejo de bancos ni CI estática demuestran certificación plena del portal.
+
+### 62.6. Cobertura acumulada y siguiente prioridad
+
+**48/121 temas** con banco cotejado individualmente: **La Puebla 19/19**, **UC3M 20/20**, **Diputación Toledo C2 9/20** (**T01–T05 y T07–T10**; el **T06 sigue aplazado al final, no aprobado**). Acumulado **668 preguntas y 2.672 alternativas**. **39,7 %** de **temas con banco cotejado**, NO porcentaje de certificación integral. **0/121** con todas las capas jurídico-editoriales, funcionales y de accesibilidad demostradas.
+
+**Siguiente lote:** **Diputación Toledo C2 T11–T13** (tributación local, gestión y recaudación), manteniendo la secuencia acordada y dejando **T06 Acuerdo Regulador/Estatutos OAPGT** para el final. Reserva transversal pendiente: fecha primaria definitiva de corte normativo UC3M, navegador, accesibilidad y pruebas reales de simulacros.
