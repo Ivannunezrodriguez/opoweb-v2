@@ -1,8 +1,8 @@
 {
   "tema": 13,
   "estado": "BANCO_20_PREGUNTAS_TRLRHL",
-  "version": "2026-10-29",
-  "criterio": "20 preguntas originales con referencia individual al TRLRHL consolidado 07/10/2026, sometidas a revisión editorial; banco estructuralmente validado.",
+  "version": "2026-11-05",
+  "criterio": "20 preguntas originales con referencia individual al TRLRHL consolidado 07/10/2026, sometidas a revisión editorial; banco estructuralmente validado. · 05/11/2026: 3 preguntas repetidas sustituidas por impuestos potestativos art59.2, prelación IBI art61.1–2 y terreno rústico no sujeto a IIVTNU art104.2; claves conservadas.",
   "preguntas": [
     {
       "id": "DT-C2-T13-001",
@@ -118,31 +118,31 @@
     },
     {
       "id": "DT-C2-T13-009",
-      "enunciado": "¿Qué impuestos municipales exige obligatoriamente el ayuntamiento según el art. 59.1 del TRLRHL?",
+      "enunciado": "Conforme al artículo 59.2 TRLRHL, ¿qué impuestos municipales son de exacción potestativa mediante acuerdo de imposición y ordenanza fiscal?",
       "opciones": [
+        "IBI e IVTM, exclusivamente",
         "ICIO e IIVTNU",
         "IBI, IAE e IVTM",
-        "Solo IAE e IIVTNU",
-        "Solo IBI"
+        "Todos los impuestos locales sin distinción"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El art. 59.1 establece el carácter obligatorio del IBI, IAE e IVTM; ICIO e IIVTNU son potestativos.",
-      "trampaExamen": "**Obligatorios:** IBI, IAE, IVTM. **Potestativos:** ICIO e IIVTNU.",
-      "referencia": "TRLRHL, art. 59.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "justificacion": "El artículo 59.1 impone IBI, IAE, IVTM; el 59.2 permite a los municipios establecer ICIO e IIVTNU, conforme a los presupuestos y normas legalmente fijados. Se necesita acuerdo y ordenanza en estos potestativos.",
+      "trampaExamen": "**Obligatorios = IBI / IAE / IVTM (59.1)**; **potestativos = ICIO / IIVTNU (59.2)**. Exacción no equivale a exención de personas.",
+      "referencia": "TRLRHL art. 59.1–2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a59"
     },
     {
       "id": "DT-C2-T13-010",
-      "enunciado": "¿Qué supuesto constituye el hecho imponible del IBI por el orden legal del art. 61.1?",
+      "enunciado": "Según el artículo 61.1 TRLRHL, ¿cuál es el orden de preferencia de los derechos constitutivos del hecho imponible del IBI sobre un mismo inmueble?",
       "opciones": [
-        "Solo residencia habitual",
-        "La actividad profesional del propietario",
-        "La titularidad de concesión administrativa sobre inmuebles o servicios públicos afectos",
-        "La plusvalía de la venta"
+        "Propiedad, usufructo, superficie y concesión, en ese orden",
+        "Siempre propiedad, aunque haya una concesión",
+        "Concesión administrativa, derecho real de superficie, derecho real de usufructo y propiedad",
+        "Usufructo, propiedad, arrendamiento privado y mera ocupación"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La concesión administrativa tiene prioridad sobre superficie, usufructo y propiedad en el orden del art. 61.1.",
-      "trampaExamen": "El orden de derechos del **IBI** es **concesión, superficie, usufructo, propiedad**.",
-      "referencia": "TRLRHL, art. 61.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "justificacion": "El art. 61.1 enumera los derechos constitutivos del hecho imponible IBI, por orden: concesión administrativa, derecho real de superficie, derecho real de usufructo y propiedad; la realización de uno determina la no sujeción a modalidades siguientes del mismo inmueble ordinario, con especialidad de inmuebles de características especiales art.61.2.",
+      "trampaExamen": "**IBI: concesión → superficie → usufructo → propiedad**. No empezar por la propiedad; **art. 61.2** fija prelación y excepciones para bienes de características especiales.",
+      "referencia": "TRLRHL arts. 61.1–2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a61"
     },
     {
       "id": "DT-C2-T13-011",
@@ -244,17 +244,17 @@
     },
     {
       "id": "DT-C2-T13-018",
-      "enunciado": "¿Qué ocurre con el IIVTNU si se constata que no existió incremento de valor, según los requisitos del art. 104.5?",
+      "enunciado": "Según el artículo 104.2 TRLRHL, ¿qué sucede en el IIVTNU con los incrementos de valor de terrenos que son rústicos a efectos del IBI?",
       "opciones": [
-        "Se aplica gravamen fijo del 10 %",
-        "Solo se reduce un 25 %",
-        "No existe sujeción al impuesto",
-        "Se tributa siempre por el valor catastral"
+        "Tributan como si fueran urbanos por una regla universal",
+        "Solo están exentos si el terreno tiene una construcción nueva",
+        "No están sujetos al IIVTNU por la naturaleza rústica del terreno a efectos del IBI",
+        "Tributan siempre al mismo tipo que un inmueble urbano"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Art. 104.5: no hay sujeción cuando se constate inexistencia de incremento de valor conforme al método de contraste legal.",
-      "trampaExamen": "No confundir **inexistencia de incremento/no sujeción** y una exención o bonificación.",
-      "referencia": "TRLRHL, art. 104.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "justificacion": "El artículo 104.2 excluye de sujeción el incremento de valor de terrenos rústicos a efectos del IBI. El tratamiento de terrenos urbanos y de características especiales es diferente. No confundir con el art.104.5, otra causa de no sujeción por inexistencia acreditada del incremento.",
+      "trampaExamen": "**IIVTNU art.104.2: suelo rústico a efectos de IBI = NO SUJETO**. **Art.104.5: ausencia acreditada de incremento = otro supuesto de NO SUJECIÓN**, aunque sea urbano.",
+      "referencia": "TRLRHL art. 104.2 y 104.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a104"
     },
     {
       "id": "DT-C2-T13-019",
