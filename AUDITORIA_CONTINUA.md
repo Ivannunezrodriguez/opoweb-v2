@@ -1621,3 +1621,49 @@ Adicionalmente, **arts. 16.2–3, páginas 101–102 del mismo original**:
 - **Hallazgo de proceso:** el registro único estaba aún en el apartado 58 mientras los commits concurrentes ya habían añadido auditorías T1/T2. Se registra aquí la divergencia temporal para impedir duplicación y afirmaciones de cierre sin evidencia.
 - **Fuentes legales y límites:** se conservan las fuentes primarias identificadas en §58 (Volumen I UC3M 2026, arts. 5, 6, 14–16, y BOE normativo allí enlazado). En este control no se ha realizado nuevo cotejo artículo-por-artículo ni prueba de navegador; por ello no se incrementa ningún porcentaje de certificación. **0/121** temas acreditados en todas las capas.
 - **Siguiente lote:** verificar resultados finales CI/Pages del SHA HEAD y los informes nuevos T1/T2; recuperar resolución primaria de listas definitivas UC3M y fecha de corte, ejecutar navegación móvil/escritorio y accesibilidad, y continuar con **Diputación C2 T3** sin adelantar T6 OAPGT. Registrar hallazgos y cambios por artículo; no declarar AUDITADO por tests.
+
+
+## 59. Diputación de Toledo C2 T01–T03 · Auditoría de 240 alternativas — **04/11/2026**
+
+### 59.1. Fuente y marco del lote
+
+**Convocatoria C2 de **4 plazas**:** [**BOE-A-2026-21908, 21/10/2026**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-21908), **3 turno libre y 1 reserva discapacidad**. El programa literal procede del **BOP Toledo n.º 197, 14/10/2026, Anexo XI, código 2026.00004759**, ya incorporado al repositorio. No confundir con el programa **C1** u otros procesos de la Diputación.
+
+**Orden editorial conservado:** el **tema 6 sobre Acuerdo Regulador y Estatutos OAPGT sigue aplazado hasta finalizar los demás**, conforme al acuerdo del **29/10/2026**. El aplazamiento no significa aprobación.
+
+### 59.2. Tres cotejos individuales completos del banco
+
+| Tema | Resultado | Norma y particularidad |
+|---|---|---|
+| [**T01 · Constitución**](content/diputacion-toledo-auxiliar-c2/tema-01/cotejo-integral-2026-11-04.md) | **20 preguntas / 80 alternativas literales** | [**CE consolidada a 20/05/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520), **LOTC**, **Defensor** y **estados excepcionales**. Cotejada la [**Reforma CE 69.3, BOE-A-2026-10881**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881): **entrada en vigor 20/05/2026** frente a **eficacia de circunscripciones Ibiza y Formentera desde la primera convocatoria electoral posterior**. La clave existente **T01-009 = C** se mantiene |
+| [**T02 · Ley 39/2015, interesados y plazos**](content/diputacion-toledo-auxiliar-c2/tema-02/cotejo-integral-2026-11-04.md) | **20/80** | [**Ley 39/2015 consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), última actualización publicada **06/11/2024**. Diferencias de **3 meses supletorios** (**21.3**) vs **6 meses** máximo fijable salvo excepción (**21.2**); **10 días** representación (**5.6**); **5 años** apoderamientos (**6.6**); **3 meses** suspensión informe preceptivo (**22.1.d**); urgencia **no reduce** plazos de presentación de solicitudes y recursos |
+| [**T03 · Procedimiento común, sancionador y simplificado**](content/diputacion-toledo-auxiliar-c2/tema-03/cotejo-integral-2026-11-04.md) | **20/80** | [**Ley 39/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565): subsanación **10 días**, audiencia **10–15**, período de prueba **10–30**, informes **10**, información pública mínimo **20**, simplificado **30**, responsabilidad patrimonial ordinaria **1 año**; **denuncia** no inicia formalmente por sí sancionador, este se inicia **siempre de oficio** (**63.1**) |
+
+Cada uno de los tres informes preserva la **literalidad de sus 80 opciones**, la **clave correcta**, una **explicación distinta de cada distractor**, la **referencia del artículo** y un bloque **¡Foco Examen!**. Se mantienen todas las posiciones de respuesta anteriores: **T01 A4/B6/C6/D4; T02 A3/B8/C7/D2; T03 A5/B5/C6/D4**. No se fuerza una distribución artificial ni se modifican distractores sin necesidad jurídica.
+
+### 59.3. Tabla para el examen
+
+| Pregunta habitual | No confundir con |
+|---|---|
+| Reforma CE **167: 3/5 en cada Cámara**; referéndum si lo pide **1/10 dentro de 15 días** | Reforma **168: 2/3**, **disolución**, nuevo proceso y referéndum **obligatorio** |
+| Amparo **LOTC arts.42/43/44: 3 meses / 20 días / 30 días** | **Queja al Defensor del Pueblo: 1 año** desde conocimiento |
+| Ley 39/2015 **3 meses** sin plazo normativo fijado | Máximo general **6 meses** para plazo fijado por norma reguladora |
+| Audiencia **10–15 días** | Prueba **10–30**, información pública **mínimo 20**, simplificación **30** |
+| Denuncia **art.62** (pone hechos en conocimiento) | Inicio sancionador por órgano competente **siempre de oficio**, **art.63** |
+| Multa coercitiva **art.103** para ejecución | Sanción por infracción: institución diferente |
+
+> ⚠️ **¡Foco Examen!:** **3 meses** del art. **21.3** y **6 meses** del **21.2** no responden a la misma pregunta. La **primera convocatoria electoral posterior** activa eficacia de la reforma de **Ibiza/Formentera** sin afectar elecciones previas.
+
+### 59.4. GitHub y límites demostrables
+
+- Actualizados **`matriz.json`**, **`manual.md`** y **`fuentes.md`** de **T01, T02 y T03** con referencia a informe exhaustivo; campo **`controlIntegralBanco20261104`**, **`COTEJO_BANCO_COMPLETO`**, **`aprobadoPorUsuario:false`**, **`certificacionWeb:PENDIENTE_PRUEBA_NAVEGADOR_REAL`**, y no se marca aprobado el manual íntegro.
+- Nuevo [**`tests/validate-diputacion-c2-t1-t3-integral.mjs`**](tests/validate-diputacion-c2-t1-t3-integral.mjs), añadido a **`npm test`** y a [**.github/workflows/validate.yml**](.github/workflows/validate.yml): asegura **60 preguntas, 240 opciones literales**, ausencia de duplicados, consistencia de claves, fundamentos, focos y ausencia de aprobación ficticia. También preserva **CE 2026** y tablas de plazos de LPAC.
+- **GitHub CI**: [**run 41922552970 — SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41922552970) para SHA **`cb9088d013d28b2cb417aae44fcdf0cc72a68f67`**. **GitHub Pages** del mismo commit seguía **in_progress** al redactar; revisar antes de proclamar éxito de despliegue.
+- **Fecha de corte UC3M:** la base **primera.7 de BOE-A-2026-14624** exige legislación vigente en publicación de **resolución definitiva**; portal oficial confirma existencia pero el documento original fechado continúa sin descarga comprobada. La fecha **01/10/2026** aparece en fuente secundaria y no se incorpora como dato primario probado.
+- **Pruebas funcionales reales y accesibilidad**: no han sido ejecutadas. Auditoría literal de banco no es certificación editorial total del manual, cobertura exhaustiva de cada epígrafe ni validación en móvil.
+
+### 59.5. Avance acumulado
+
+**42/121** temas con cotejo individual del banco: **La Puebla 19/19**, **UC3M 20/20**, **Diputación Toledo C2 3/20**; **548 preguntas y 2.192 alternativas**. El porcentaje de **temas con banco documentado** es aproximadamente **34,7 %**, **NO** porcentaje de certificación jurídico-funcional real de la web. **0/121** tienen todas las capas acreditadas.
+
+**Siguiente lote:** **Diputación Toledo C2 T04 y T05**, y después **T07** y siguientes, manteniendo **T06** al final. Pendientes transversales: fecha de corte UC3M y navegador/accesibilidad reales.
