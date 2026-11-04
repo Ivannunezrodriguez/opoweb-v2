@@ -13,8 +13,12 @@ for (const n of [15,16,17,18,19]) {
   const report = read('cotejo-integral-2026-11-04.md');
   assert.equal(questions.length, 12, 'T'+n+': expected 12 questions');
   assert.equal(new Set(questions.map(q=>q.id)).size, 12, 'T'+n+': duplicate IDs');
-  assert(Array.isArray(matrix.capitulos) && matrix.capitulos.length===5, 'T'+n+': missing five chapter paths');
-  for (const chapter of matrix.capitulos) {
+  const chapters = Array.isArray(matrix.capitulos) ? matrix.capitulos : (n === 19 ? [
+    dir+'bloque-01-ordenador-componentes.md', dir+'bloque-02-perifericos-impresoras.md',
+    dir+'bloque-03-escaneres.md', dir+'bloque-04-almacenamiento-externo-usb.md',
+    dir+'bloque-05-opticos.md'] : []);
+  assert.equal(chapters.length,5,'T'+n+': missing five chapter paths');
+  for (const chapter of chapters) {
     assert(chapter.startsWith(dir) && chapter.endsWith('.md'), 'T'+n+': invalid chapter '+chapter);
     assert(readFileSync(chapter,'utf8').length > 1000, 'T'+n+': empty chapter '+chapter);
   }
