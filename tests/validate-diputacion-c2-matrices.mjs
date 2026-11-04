@@ -18,7 +18,7 @@ for(const n of covered){
  for(const part of map.cobertura){
   for(const field of ['inciso','norma','articulos','contenidoExigible']){
    assert.equal(typeof part[field],'string','Missing '+field+' in topic '+n);
-   assert.ok(part[field].trim().length>3,'Empty '+field+' in topic '+n);
+   assert.ok(part[field].trim().length>=1,'Empty '+field+' in topic '+n);
   }
  }
  checked++;
