@@ -574,3 +574,9 @@ Las exclusividades científicas o técnicas deben motivarse y acreditarse. La ur
 - Los contratos menores duran como máximo un año y no admiten prórroga.
 - La mejor relación calidad-precio no equivale necesariamente al precio más bajo.
 - La LCSP consolidada utilizada está actualizada a 9 de abril de 2026.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Revisión individual de 12 preguntas, 48 alternativas**](cotejo-integral-2026-11-04.md) y control de los umbrales oficiales **2026**: **contrato menor de servicios < 15.000 €**, **recurso especial > 100.000 €** y **SARA UC3M ≥ 216.000 €**. Se mantiene la distinción de competencia originaria del **Rector**. **COTEJO_BANCO_COMPLETO** no es prueba de navegación, accesibilidad, aprobación del usuario ni certificación integral del temario.
+
+> ⚠️ **¡Foco Examen!:** **Menor, recurso especial y SARA no son sinónimos**: un contrato que supera el umbral de recurso especial no tiene por qué superar el umbral **SARA**.
