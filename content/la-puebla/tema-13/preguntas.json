@@ -1,7 +1,7 @@
 {
   "tema": 13,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-11-02",
+  "version": "2026-11-04",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -23,21 +23,23 @@
       "respuestaCorrecta": 1,
       "justificacion": "El certificado vincula una clave pública u otros datos de validación con una identidad. La firma se crea con los datos de firma y permite acreditar autoría, voluntad e integridad.",
       "trampaExamen": "No confundir el medio de acreditación de identidad con el acto electrónico de firmar.",
-      "referencia": "manual.md · apartados 3 y 4.1"
+      "referencia": "manual.md · apartados 3 y 4.1",
+      "respuestaLiteral": "El certificado vincula datos de validación con una identidad; la firma acredita autoría, voluntad e integridad"
     },
     {
       "id": "LP-T13-002",
       "enunciado": "Según el artículo 11.2 de la Ley 39/2015, ¿para cuál de estas actuaciones se exige con carácter general firma?",
       "opciones": [
+        "Interponer un recurso administrativo",
         "Consultar el estado de tramitación",
         "Acceder a una sede electrónica",
-        "Interponer un recurso administrativo",
         "Recibir información general"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 0,
       "justificacion": "La firma se exige, con carácter general, para solicitudes, declaraciones responsables o comunicaciones, recursos, desistimientos y renuncias.",
       "trampaExamen": "La identificación basta para muchas actuaciones; no todo acceso electrónico requiere firma.",
-      "referencia": "manual.md · apartado 4.1 · Ley 39/2015, artículo 11.2"
+      "referencia": "manual.md · apartado 4.1 · Ley 39/2015, artículo 11.2",
+      "respuestaLiteral": "Interponer un recurso administrativo"
     },
     {
       "id": "LP-T13-003",
@@ -45,27 +47,29 @@
       "opciones": [
         "La firma corresponde exclusivamente a personas jurídicas",
         "El sello corresponde exclusivamente a personas físicas",
-        "La firma se vincula a una persona física y el sello garantiza origen e integridad de documentos de una persona jurídica u órgano",
-        "Firma y sello tienen idéntica función y titularidad"
+        "Firma y sello tienen idéntica función y titularidad",
+        "La firma se vincula a una persona física y el sello garantiza origen e integridad de documentos de una persona jurídica u órgano"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "La firma electrónica se asocia a una persona física. El sello electrónico sirve para garantizar origen e integridad en documentos emitidos por personas jurídicas, Administraciones u órganos.",
       "trampaExamen": "Una persona jurídica actúa mediante representante o mediante sello, no mediante una supuesta firma personal propia.",
-      "referencia": "manual.md · apartado 4.2"
+      "referencia": "manual.md · apartado 4.2",
+      "respuestaLiteral": "La firma se vincula a una persona física y el sello garantiza origen e integridad de documentos de una persona jurídica u órgano"
     },
     {
       "id": "LP-T13-004",
       "enunciado": "Para que un certificado tenga la condición de cualificado no basta con que:",
       "opciones": [
         "Lo expida un prestador cualificado",
+        "El proveedor se anuncie comercialmente como autoridad certificadora",
         "Cumpla los requisitos del anexo aplicable de eIDAS",
-        "El servicio figure como cualificado en la lista de confianza",
-        "El proveedor se anuncie comercialmente como autoridad certificadora"
+        "El servicio figure como cualificado en la lista de confianza"
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 1,
       "justificacion": "La cualificación exige prestador cualificado, cumplimiento de requisitos técnicos y jurídicos y constancia del servicio en la lista de confianza.",
       "trampaExamen": "La denominación comercial del proveedor no otorga por sí sola condición cualificada.",
-      "referencia": "manual.md · apartado 4.3"
+      "referencia": "manual.md · apartado 4.3",
+      "respuestaLiteral": "El proveedor se anuncie comercialmente como autoridad certificadora"
     },
     {
       "id": "LP-T13-005",
@@ -79,49 +83,53 @@
       "respuestaCorrecta": 2,
       "justificacion": "La cualificación depende del certificado, del dispositivo cualificado cuando sea exigible y del cumplimiento de los requisitos legales, no solo del soporte físico o software.",
       "trampaExamen": "Tarjeta, token o nube describen el soporte, no la categoría jurídica automática de la firma.",
-      "referencia": "manual.md · apartado 4.4"
+      "referencia": "manual.md · apartado 4.4",
+      "respuestaLiteral": "El soporte no determina por sí solo que una firma sea cualificada"
     },
     {
       "id": "LP-T13-006",
       "enunciado": "En una infraestructura de clave pública, ¿qué función corresponde principalmente a una autoridad u oficina de registro?",
       "opciones": [
         "Emitir y firmar necesariamente todos los certificados raíz",
-        "Comprobar identidad y atributos y tramitar la solicitud",
         "Sustituir al titular en el uso de la clave privada",
-        "Determinar judicialmente la validez de una firma"
+        "Determinar judicialmente la validez de una firma",
+        "Comprobar identidad y atributos y tramitar la solicitud"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 3,
       "justificacion": "La autoridad de registro verifica la identidad y los atributos del solicitante y tramita la petición. La autoridad de certificación emite y firma el certificado.",
       "trampaExamen": "Registro y certificación pueden pertenecer a la misma organización, pero sus funciones no son idénticas.",
-      "referencia": "manual.md · apartado 6"
+      "referencia": "manual.md · apartado 6",
+      "respuestaLiteral": "Comprobar identidad y atributos y tramitar la solicitud"
     },
     {
       "id": "LP-T13-007",
       "enunciado": "La vigencia máxima de un certificado cualificado conforme a la Ley 6/2020 es de:",
       "opciones": [
         "Dos años",
-        "Tres años",
         "Cinco años",
+        "Tres años",
         "Diez años"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "justificacion": "La Ley 6/2020 establece una vigencia máxima de cinco años para los certificados cualificados.",
       "trampaExamen": "No confundir la vigencia del certificado con los plazos de conservación de información por el prestador.",
-      "referencia": "manual.md · apartados 7 y 11"
+      "referencia": "manual.md · apartados 7 y 11",
+      "respuestaLiteral": "Cinco años"
     },
     {
       "id": "LP-T13-008",
       "enunciado": "¿Qué efecto tiene la revocación de un certificado?",
       "opciones": [
         "Suspende temporalmente su uso y permite reactivarlo siempre",
-        "Extingue su vigencia y evita su uso para nuevas firmas",
         "Prorroga automáticamente su vigencia",
-        "Solo cambia el soporte físico"
+        "Solo cambia el soporte físico",
+        "Extingue su vigencia y evita su uso para nuevas firmas"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 3,
       "justificacion": "El artículo 4.1 de la Ley 6/2020 distingue caducidad y revocación como causas de extinción. El artículo 24.3 del Reglamento eIDAS exige publicar sin demora la revocación del certificado cualificado y, en todo caso, dentro de 24 horas desde la recepción de la solicitud; la revocación es eficaz inmediatamente desde su publicación.",
       "trampaExamen": "Revocación extingue la vigencia y suspensión es temporal. No confundir las 24 horas para publicar la revocación con los 24 meses de auditoría.",
-      "referencia": "manual.md · apartados 8 y 11 · Ley 6/2020, artículo 4; Reglamento eIDAS, artículo 24.3"
+      "referencia": "manual.md · apartados 8 y 11 · Ley 6/2020, artículo 4; Reglamento eIDAS, artículo 24.3",
+      "respuestaLiteral": "Extingue su vigencia y evita su uso para nuevas firmas"
     },
     {
       "id": "LP-T13-009",
@@ -135,21 +143,23 @@
       "respuestaCorrecta": 2,
       "justificacion": "La validación exige controles técnicos y jurídicos sobre integridad, certificado, vigencia, revocación, cadena de confianza y política de uso. Una imagen visible no acredita validez.",
       "trampaExamen": "Una firma puede verse en el PDF y ser inválida, o ser válida sin mostrar una rúbrica gráfica.",
-      "referencia": "manual.md · apartado 8"
+      "referencia": "manual.md · apartado 8",
+      "respuestaLiteral": "Comprobar que visualmente aparece una imagen de firma"
     },
     {
       "id": "LP-T13-010",
       "enunciado": "¿Qué describe correctamente la lista de confianza o TSL?",
       "opciones": [
-        "Un catálogo general de cualquier empresa tecnológica",
         "Una relación de prestadores y servicios concretos con condición cualificada",
+        "Un catálogo general de cualquier empresa tecnológica",
         "Un registro de todos los certificados personales expedidos",
         "Una lista de empleados públicos autorizados para firmar"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 0,
       "justificacion": "La TSL identifica prestadores cualificados y, sobre todo, los servicios concretos que tienen reconocida la condición cualificada.",
       "trampaExamen": "Un mismo prestador puede ofrecer servicios cualificados y no cualificados simultáneamente.",
-      "referencia": "manual.md · apartado 9"
+      "referencia": "manual.md · apartado 9",
+      "respuestaLiteral": "Una relación de prestadores y servicios concretos con condición cualificada"
     },
     {
       "id": "LP-T13-011",
@@ -163,7 +173,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "Los sellos de tiempo, certificados, validación, entrega electrónica certificada, conservación y otros servicios enumerados por eIDAS son servicios electrónicos de confianza.",
       "trampaExamen": "No confundir un servicio administrativo electrónico con un servicio electrónico de confianza en sentido jurídico.",
-      "referencia": "manual.md · apartado 10"
+      "referencia": "manual.md · apartado 10",
+      "respuestaLiteral": "Emisión de sellos de tiempo electrónicos"
     },
     {
       "id": "LP-T13-012",
@@ -177,7 +188,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "El artículo 20.1 del Reglamento (UE) 910/2014 eIDAS, en su versión consolidada tras la reforma de 2024, exige a los prestadores cualificados una auditoría a su costa al menos cada 24 meses por un organismo de evaluación de la conformidad. Su artículo 20.1 bis requiere anunciar auditorías planificadas al menos un mes antes.",
       "trampaExamen": "24 meses: auditoría ordinaria; un mes: aviso previo de auditoría; tres días laborables: remisión del informe tras recibirlo (eIDAS, art. 20). No confundir estas cifras con el plazo de 24 horas de publicación de una revocación.",
-      "referencia": "manual.md · apartado 11 · Reglamento (UE) 910/2014 eIDAS, artículo 20.1 y 20.1 bis"
+      "referencia": "manual.md · apartado 11 · Reglamento (UE) 910/2014 eIDAS, artículo 20.1 y 20.1 bis",
+      "respuestaLiteral": "Al menos cada 24 meses"
     }
   ],
   "revisionFocalizada": {
@@ -188,5 +200,10 @@
     ],
     "norma": "Ley 6/2020 art. 4 y eIDAS 910/2014 arts. 20 y 24.3",
     "alcance": "Refuerzo de referencias y justificaciones temporales; claves conservadas, no revisión integral."
+  },
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
+    "objetivo": "3 correctas por cada posición en banco de 12"
   }
 }

@@ -1,7 +1,7 @@
 {
   "tema": 14,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-11-03",
+  "version": "2026-11-04",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -17,41 +17,44 @@
       "opciones": [
         "Está integrada por al menos tres puestos de trabajo",
         "Tiene presupuesto propio",
-        "Se le atribuyen funciones con efectos jurídicos frente a terceros o actuaciones preceptivas",
-        "Depende directamente de un órgano superior"
+        "Depende directamente de un órgano superior",
+        "Se le atribuyen funciones con efectos jurídicos frente a terceros o actuaciones preceptivas"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "No toda unidad administrativa es órgano. Lo es cuando tiene atribuidas funciones con efectos jurídicos frente a terceros o actuaciones de carácter preceptivo.",
       "trampaExamen": "Unidad administrativa y órgano administrativo no son conceptos equivalentes.",
-      "referencia": "manual.md · apartado 4 · Artículo 5"
+      "referencia": "manual.md · apartado 4 · Artículo 5",
+      "respuestaLiteral": "Se le atribuyen funciones con efectos jurídicos frente a terceros o actuaciones preceptivas"
     },
     {
       "id": "LP-T14-002",
       "enunciado": "¿Cuál de las siguientes figuras altera la titularidad y el ejercicio de la competencia cuando así lo permite la norma atributiva?",
       "opciones": [
+        "Desconcentración",
         "Delegación de firma",
         "Suplencia",
-        "Encomienda de gestión",
-        "Desconcentración"
+        "Encomienda de gestión"
       ],
-      "respuestaCorrecta": 3,
+      "respuestaCorrecta": 0,
       "justificacion": "La desconcentración puede trasladar titularidad y ejercicio a órganos jerárquicamente dependientes. Las demás figuras no alteran la titularidad de la competencia.",
       "trampaExamen": "La delegación de competencias cambia el ejercicio, pero el acto se considera dictado por el órgano delegante.",
-      "referencia": "manual.md · apartado 5 · Artículos 8 y 9"
+      "referencia": "manual.md · apartado 5 · Artículos 8 y 9",
+      "respuestaLiteral": "Desconcentración"
     },
     {
       "id": "LP-T14-003",
       "enunciado": "La delegación de firma:",
       "opciones": [
+        "No altera la competencia y no requiere publicación",
         "Altera la titularidad de la competencia",
         "Debe publicarse siempre en el boletín oficial",
-        "No altera la competencia y no requiere publicación",
         "Solo puede acordarse entre órganos sin relación jerárquica"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 0,
       "justificacion": "La delegación de firma afecta únicamente al acto material de firmar. No altera la competencia del órgano y no exige publicación.",
       "trampaExamen": "No confundir delegación de firma con delegación de competencias, que sí debe publicarse.",
-      "referencia": "manual.md · apartado 5 · Artículo 12"
+      "referencia": "manual.md · apartado 5 · Artículo 12",
+      "respuestaLiteral": "No altera la competencia y no requiere publicación"
     },
     {
       "id": "LP-T14-004",
@@ -65,49 +68,53 @@
       "respuestaCorrecta": 1,
       "justificacion": "El artículo 10 permite avocar el conocimiento de uno o varios asuntos mediante acuerdo motivado: lo hará el superior para asuntos de sus órganos dependientes y, si la competencia fue delegada en órgano no dependiente jerárquicamente, únicamente el órgano delegante. Debe notificarse a los interesados, si los hubiere, antes o simultáneamente a la resolución final. El acuerdo no admite recurso autónomo.",
       "trampaExamen": "No toda avocación corresponde a un superior jerárquico: cuando la competencia está delegada en órgano no dependiente, avoca exclusivamente el órgano delegante (art. 10.1). El recurso se plantea contra la resolución final.",
-      "referencia": "manual.md · apartado 5; bloque-01-organos-competencia.md · apartado 6 · Ley 40/2015, artículo 10.1–2"
+      "referencia": "manual.md · apartado 5; bloque-01-organos-competencia.md · apartado 6 · Ley 40/2015, artículo 10.1–2",
+      "respuestaLiteral": "Permitir asumir el conocimiento de asuntos concretos mediante acuerdo motivado"
     },
     {
       "id": "LP-T14-005",
       "enunciado": "Para la constitución ordinaria de un órgano colegiado deben estar presentes:",
       "opciones": [
         "Todos sus miembros",
-        "Presidente y Secretario, o quienes los suplan, y al menos la mitad de sus miembros",
         "Solo Presidente y Secretario",
-        "Dos tercios de sus miembros, sin excepción"
+        "Dos tercios de sus miembros, sin excepción",
+        "Presidente y Secretario, o quienes los suplan, y al menos la mitad de sus miembros"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 3,
       "justificacion": "El artículo 17.2 de la Ley 40/2015 exige para la constitución ordinaria la presencia física o a distancia del Presidente y Secretario, o sus suplentes, y de al menos la mitad de los miembros. Existen especialidades legales: órganos representativos del artículo 15.2 y constitución sin convocatoria previa si están el Secretario y todos los miembros y todos lo acuerdan. Puede establecerse un régimen de segunda convocatoria (artículo 17.3).",
       "trampaExamen": "No extrapolar el quórum ordinario a una constitución sin convocatoria: en esa hipótesis deben reunirse todos los miembros y el Secretario y decidir todos constituirse. El orden del día regula una excepción distinta (art. 17.4).",
-      "referencia": "manual.md · apartado 6; bloque-02-colegiados-abstencion.md · apartado 3 · Ley 40/2015, artículos 17.2–4"
+      "referencia": "manual.md · apartado 6; bloque-02-colegiados-abstencion.md · apartado 3 · Ley 40/2015, artículos 17.2–4",
+      "respuestaLiteral": "Presidente y Secretario, o quienes los suplan, y al menos la mitad de sus miembros"
     },
     {
       "id": "LP-T14-006",
       "enunciado": "Un órgano colegiado puede deliberar y adoptar acuerdo sobre un asunto no incluido en el orden del día cuando:",
       "opciones": [
         "Lo proponga el Presidente al inicio de la sesión",
-        "Asistan todos sus miembros y se declare la urgencia por mayoría",
         "Lo solicite el Secretario",
+        "Asistan todos sus miembros y se declare la urgencia por mayoría",
         "Exista mayoría absoluta, aunque falten miembros"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "Solo puede tratarse un asunto no incluido si están presentes todos los miembros y la urgencia se declara por mayoría.",
       "trampaExamen": "No basta con la decisión unilateral del Presidente ni con una mayoría reforzada si no están todos presentes.",
-      "referencia": "manual.md · apartado 6 · Artículo 17"
+      "referencia": "manual.md · apartado 6 · Artículo 17",
+      "respuestaLiteral": "Asistan todos sus miembros y se declare la urgencia por mayoría"
     },
     {
       "id": "LP-T14-007",
       "enunciado": "En materia de abstención, el parentesco constituye causa legal hasta:",
       "opciones": [
         "Segundo grado de consanguinidad y primero de afinidad",
-        "Tercer grado de consanguinidad y segundo de afinidad",
         "Cuarto grado de consanguinidad y segundo de afinidad",
+        "Tercer grado de consanguinidad y segundo de afinidad",
         "Cuarto grado tanto de consanguinidad como de afinidad"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "justificacion": "La causa de abstención alcanza hasta el cuarto grado de consanguinidad y el segundo de afinidad.",
       "trampaExamen": "Los grados no son iguales para consanguinidad y afinidad.",
-      "referencia": "manual.md · apartado 7 · Artículo 23"
+      "referencia": "manual.md · apartado 7 · Artículo 23",
+      "respuestaLiteral": "Cuarto grado de consanguinidad y segundo de afinidad"
     },
     {
       "id": "LP-T14-008",
@@ -121,63 +128,68 @@
       "respuestaCorrecta": 1,
       "justificacion": "Art. 24.3: el recusado se manifiesta al día siguiente. Art. 24.4: el superior resuelve en tres días si aquel niega la causa.",
       "trampaExamen": "El día siguiente es del recusado; los tres días corresponden al superior, no al interesado que presenta la recusación.",
-      "referencia": "Ley 40/2015, arts. 24.3 y 24.4"
+      "referencia": "Ley 40/2015, arts. 24.3 y 24.4",
+      "respuestaLiteral": "Tres días"
     },
     {
       "id": "LP-T14-009",
       "enunciado": "¿Cuáles son órganos superiores de la Administración General del Estado?",
       "opciones": [
-        "Ministros y Secretarios de Estado",
         "Subsecretarios y Directores generales",
         "Ministros y Subsecretarios",
-        "Secretarios de Estado y Subdirectores generales"
+        "Secretarios de Estado y Subdirectores generales",
+        "Ministros y Secretarios de Estado"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "La Ley 40/2015 clasifica como órganos superiores a Ministros y Secretarios de Estado. Los demás enumerados son órganos directivos.",
       "trampaExamen": "Subsecretario es órgano directivo, aunque su posición jerárquica sea elevada.",
-      "referencia": "manual.md · apartado 8 · Artículo 55"
+      "referencia": "manual.md · apartado 8 · Artículo 55",
+      "respuestaLiteral": "Ministros y Secretarios de Estado"
     },
     {
       "id": "LP-T14-010",
       "enunciado": "Según la Ley 40/2015, los Subdirectores generales:",
       "opciones": [
+        "Son órganos directivos, pero no tienen condición de alto cargo",
         "Tienen siempre la condición de alto cargo",
         "Son órganos superiores",
-        "Son órganos directivos, pero no tienen condición de alto cargo",
         "Tienen rango de Subsecretario"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 0,
       "justificacion": "Los Subdirectores generales son órganos directivos centrales, pero la Ley excluye su condición de alto cargo.",
       "trampaExamen": "No todo órgano directivo tiene automáticamente condición de alto cargo.",
-      "referencia": "manual.md · apartado 8 · Artículo 55"
+      "referencia": "manual.md · apartado 8 · Artículo 55",
+      "respuestaLiteral": "Son órganos directivos, pero no tienen condición de alto cargo"
     },
     {
       "id": "LP-T14-011",
       "enunciado": "Todo Ministerio debe contar necesariamente con:",
       "opciones": [
         "Una Secretaría de Estado y una Dirección General",
-        "Una Subsecretaría y una Secretaría General Técnica dependiente de ella",
         "Una Secretaría General y dos Direcciones Generales",
+        "Una Subsecretaría y una Secretaría General Técnica dependiente de ella",
         "Una Subdelegación del Gobierno"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "La estructura mínima de todo Ministerio incluye una Subsecretaría y una Secretaría General Técnica dependiente de aquella.",
       "trampaExamen": "Las Secretarías de Estado y Secretarías Generales son potestativas, no obligatorias en todos los Ministerios.",
-      "referencia": "manual.md · apartado 10 · Artículo 58"
+      "referencia": "manual.md · apartado 10 · Artículo 58",
+      "respuestaLiteral": "Una Subsecretaría y una Secretaría General Técnica dependiente de ella"
     },
     {
       "id": "LP-T14-012",
       "enunciado": "El Delegado del Gobierno en una Comunidad Autónoma:",
       "opciones": [
         "Tiene nivel de Subdirector general y es nombrado por el Ministro de Política Territorial",
-        "Tiene rango de Subsecretario y es nombrado por Real Decreto del Consejo de Ministros a propuesta del Presidente del Gobierno",
         "Es elegido por las Cortes de la Comunidad Autónoma",
+        "Tiene rango de Subsecretario y es nombrado por Real Decreto del Consejo de Ministros a propuesta del Presidente del Gobierno",
         "Depende orgánicamente del Subsecretario del Ministerio competente"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "El Delegado del Gobierno tiene rango de Subsecretario y es nombrado y separado por Real Decreto del Consejo de Ministros a propuesta del Presidente del Gobierno.",
       "trampaExamen": "Su rango de Subsecretario no implica dependencia orgánica de un Subsecretario; depende orgánicamente del Presidente del Gobierno.",
-      "referencia": "manual.md · apartado 13 · Artículos 72 y 73"
+      "referencia": "manual.md · apartado 13 · Artículos 72 y 73",
+      "respuestaLiteral": "Tiene rango de Subsecretario y es nombrado por Real Decreto del Consejo de Ministros a propuesta del Presidente del Gobierno"
     }
   ],
   "revisionFocalizada": {
@@ -188,5 +200,10 @@
     ],
     "articulos": "Ley 40/2015, artículos 10 y 17.2–4",
     "alcance": "Competencia para avocar cuando la delegación recae en órgano sin dependencia jerárquica; respuesta correcta B conservada y aprobación histórica sin alterar. También se delimita quórum ordinario de constitución sin convocatoria (art. 17), conservando respuesta correcta B de T14-005."
+  },
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
+    "objetivo": "3 correctas por cada posición en banco de 12"
   }
 }

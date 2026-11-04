@@ -1,7 +1,7 @@
 {
   "tema": 11,
   "estado": "APROBADO_USUARIO",
-  "version": "2026-11-02",
+  "version": "2026-11-04",
   "criterios": {
     "numeroPreguntas": 12,
     "opcionesPorPregunta": 4,
@@ -15,15 +15,16 @@
       "id": "LP-T11-001",
       "enunciado": "¿Cuándo comienza el período ejecutivo respecto de una deuda liquidada por la Administración que no se paga en plazo?",
       "opciones": [
-        "Al notificarse la providencia de apremio",
         "Al día siguiente de finalizar el plazo de ingreso voluntario",
+        "Al notificarse la providencia de apremio",
         "Cinco días después del vencimiento",
         "Cuando se dicta la diligencia de embargo"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 0,
       "justificacion": "El artículo 161 LGT fija el inicio del período ejecutivo al día siguiente de terminar el plazo de ingreso voluntario. La providencia inicia después el procedimiento de apremio.",
       "trampaExamen": "Período ejecutivo y procedimiento de apremio no comienzan simultáneamente.",
-      "referencia": "manual.md · tres conceptos; bloque-04a-ejecutiva-providencia.md · artículo 161 LGT"
+      "referencia": "manual.md · tres conceptos; bloque-04a-ejecutiva-providencia.md · artículo 161 LGT",
+      "respuestaLiteral": "Al día siguiente de finalizar el plazo de ingreso voluntario"
     },
     {
       "id": "LP-T11-002",
@@ -31,27 +32,29 @@
       "opciones": [
         "Hasta el 20 de marzo",
         "Hasta el 5 de abril",
-        "Hasta el 20 de abril",
-        "Hasta el 5 de mayo"
+        "Hasta el 5 de mayo",
+        "Hasta el 20 de abril"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "El artículo 62.2.a de la LGT establece que las liquidaciones notificadas del 1 al 15 pueden pagarse hasta el día 20 del mes siguiente o, si éste fuera inhábil, hasta el inmediato hábil siguiente. Se presupone aquí que el 20 de abril es hábil.",
       "trampaExamen": "Notificación del día 1 al 15: vence el día 20 del mes siguiente, pero si el 20 es inhábil pasa al inmediato día hábil; no fijar el día 20 sin esa salvedad.",
-      "referencia": "bloque-01-voluntaria.md · artículo 62 LGT · Ley 58/2003, art. 62.2 y 62.5"
+      "referencia": "bloque-01-voluntaria.md · artículo 62 LGT · Ley 58/2003, art. 62.2 y 62.5",
+      "respuestaLiteral": "Hasta el 20 de abril"
     },
     {
       "id": "LP-T11-003",
       "enunciado": "Una providencia de apremio se notifica el 18 de junio. Suponiendo que el 5 de julio sea hábil, ¿hasta cuándo puede pagarse dentro del plazo concedido tras la providencia?",
       "opciones": [
         "Hasta el 20 de junio",
-        "Hasta el 5 de julio",
         "Hasta el 20 de julio",
+        "Hasta el 5 de julio",
         "Hasta el 5 de agosto"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "El artículo 62.5.b de la LGT establece que, si la providencia se notifica entre los días 16 y último del mes, puede pagarse hasta el día 5 del mes siguiente, o el inmediato hábil siguiente cuando el día 5 sea inhábil. Se presupone que el 5 de julio es hábil.",
       "trampaExamen": "Tras una providencia de apremio notificada del 16 al último día, la fecha es el 5 del siguiente mes o su siguiente hábil si aquel es inhábil; no confundir con el 20 del ingreso voluntario.",
-      "referencia": "bloque-04a-ejecutiva-providencia.md · plazos de pago tras providencia · Ley 58/2003, art. 62.2 y 62.5"
+      "referencia": "bloque-04a-ejecutiva-providencia.md · plazos de pago tras providencia · Ley 58/2003, art. 62.2 y 62.5",
+      "respuestaLiteral": "Hasta el 5 de julio"
     },
     {
       "id": "LP-T11-004",
@@ -65,7 +68,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "El recargo ejecutivo del 5 % se aplica cuando se satisface toda la deuda antes de notificarse la providencia. No es compatible con intereses ejecutivos.",
       "trampaExamen": "Los recargos del 5 %, 10 % y 20 % son alternativos e incompatibles entre sí.",
-      "referencia": "bloque-04a-ejecutiva-providencia.md · artículo 28 LGT"
+      "referencia": "bloque-04a-ejecutiva-providencia.md · artículo 28 LGT",
+      "respuestaLiteral": "Recargo ejecutivo del 5 %, sin intereses ejecutivos"
     },
     {
       "id": "LP-T11-005",
@@ -79,21 +83,23 @@
       "respuestaCorrecta": 1,
       "justificacion": "El pago íntegro dentro del plazo del artículo 62.5 LGT determina el recargo de apremio reducido del 10 %, sin intereses ejecutivos.",
       "trampaExamen": "El 10 % exige pago total dentro del plazo de la propia providencia.",
-      "referencia": "bloque-04a-ejecutiva-providencia.md · artículo 28 LGT"
+      "referencia": "bloque-04a-ejecutiva-providencia.md · artículo 28 LGT",
+      "respuestaLiteral": "10 %"
     },
     {
       "id": "LP-T11-006",
       "enunciado": "Una primera solicitud de aplazamiento presentada correctamente en período voluntario, sin denegación anterior ni nuevo plazo de ingreso vencido para la misma deuda, produce mientras se tramita:",
       "opciones": [
+        "Que no se inicie el período ejecutivo",
         "La condonación provisional de la deuda",
         "La suspensión definitiva de intereses",
-        "Que no se inicie el período ejecutivo",
         "La concesión automática del calendario solicitado"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 0,
       "justificacion": "El artículo 161.2 de la LGT establece que la solicitud presentada durante el período voluntario impide, en general, el inicio del período ejecutivo. Hay una excepción para peticiones sucesivas sobre la misma deuda tras una denegación anterior y el vencimiento sin pago del nuevo plazo.",
       "trampaExamen": "El efecto protector de una solicitud en voluntaria no es absoluto: comprobar la excepción del segundo párrafo del artículo 161.2 LGT.",
-      "referencia": "bloque-02-aplazamiento-compensacion.md · Ley 58/2003, artículo 161.2"
+      "referencia": "bloque-02-aplazamiento-compensacion.md · Ley 58/2003, artículo 161.2",
+      "respuestaLiteral": "Que no se inicie el período ejecutivo"
     },
     {
       "id": "LP-T11-007",
@@ -101,13 +107,14 @@
       "opciones": [
         "Suspende automáticamente el apremio",
         "Anula la providencia ya dictada",
-        "No suspende automáticamente las actuaciones recaudatorias",
-        "Convierte la deuda en voluntaria"
+        "Convierte la deuda en voluntaria",
+        "No suspende automáticamente las actuaciones recaudatorias"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "La petición puede presentarse en ejecutiva, pero no suspende automáticamente el apremio. La Administración puede continuar las actuaciones de cobro.",
       "trampaExamen": "La protección automática frente al inicio de ejecutiva corresponde a solicitudes formuladas dentro de voluntaria.",
-      "referencia": "bloque-02-aplazamiento-compensacion.md · solicitud en período ejecutivo"
+      "referencia": "bloque-02-aplazamiento-compensacion.md · solicitud en período ejecutivo",
+      "respuestaLiteral": "No suspende automáticamente las actuaciones recaudatorias"
     },
     {
       "id": "LP-T11-008",
@@ -121,7 +128,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "La compensación extingue total o parcialmente deuda y crédito por la cuantía concurrente. Si uno es superior, subsiste el saldo correspondiente.",
       "trampaExamen": "Una factura pendiente de fiscalización no equivale necesariamente a crédito reconocido compensable.",
-      "referencia": "bloque-02-aplazamiento-compensacion.md · artículos 71–73 LGT"
+      "referencia": "bloque-02-aplazamiento-compensacion.md · artículos 71–73 LGT",
+      "respuestaLiteral": "Hasta la cuantía concurrente con un crédito reconocido a favor del mismo deudor"
     },
     {
       "id": "LP-T11-009",
@@ -129,55 +137,59 @@
       "opciones": [
         "Prescripción de la deuda",
         "Falta de notificación de la liquidación",
-        "Disconformidad genérica con la valoración jurídica de una liquidación firme",
-        "Error que impide identificar al deudor o la deuda"
+        "Error que impide identificar al deudor o la deuda",
+        "Disconformidad genérica con la valoración jurídica de una liquidación firme"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 3,
       "justificacion": "La providencia solo admite los motivos tasados del artículo 167.3 LGT. No puede utilizarse para reabrir el debate ordinario sobre el fondo de una liquidación firme.",
       "trampaExamen": "La oposición a la providencia no funciona como un recurso general contra la liquidación.",
-      "referencia": "bloque-04a-ejecutiva-providencia.md · motivos tasados de oposición"
+      "referencia": "bloque-04a-ejecutiva-providencia.md · motivos tasados de oposición",
+      "respuestaLiteral": "Disconformidad genérica con la valoración jurídica de una liquidación firme"
     },
     {
       "id": "LP-T11-010",
       "enunciado": "La mera interposición de un recurso contra una deuda tributaria:",
       "opciones": [
         "Suspende siempre la recaudación",
-        "Suspende solo durante diez días",
         "No suspende por sí sola; hace falta acuerdo, garantía o supuesto legal",
+        "Suspende solo durante diez días",
         "Impide notificar la providencia de apremio"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "justificacion": "Los recursos y reclamaciones no suspenden automáticamente la ejecución. Debe concurrir un acuerdo de suspensión, garantía suficiente o una causa legal de suspensión sin garantía.",
       "trampaExamen": "Recurrir y obtener suspensión son actuaciones jurídicas distintas.",
-      "referencia": "bloque-04a-ejecutiva-providencia.md · recursos y suspensión"
+      "referencia": "bloque-04a-ejecutiva-providencia.md · recursos y suspensión",
+      "respuestaLiteral": "No suspende por sí sola; hace falta acuerdo, garantía o supuesto legal"
     },
     {
       "id": "LP-T11-011",
       "enunciado": "El procedimiento de apremio comienza formalmente:",
       "opciones": [
         "Con el vencimiento del plazo voluntario",
-        "Con la notificación de la providencia de apremio",
         "Con el primer requerimiento informativo",
+        "Con la notificación de la providencia de apremio",
         "Con la diligencia de embargo"
       ],
-      "respuestaCorrecta": 1,
+      "respuestaCorrecta": 2,
       "justificacion": "Aunque el período ejecutivo nace antes, el procedimiento administrativo de apremio comienza mediante la providencia notificada al obligado.",
       "trampaExamen": "El embargo es una fase posterior y no el acto inicial del procedimiento.",
-      "referencia": "manual.md · tres conceptos; bloque-04a-ejecutiva-providencia.md · artículo 167 LGT"
+      "referencia": "manual.md · tres conceptos; bloque-04a-ejecutiva-providencia.md · artículo 167 LGT",
+      "respuestaLiteral": "Con la notificación de la providencia de apremio"
     },
     {
       "id": "LP-T11-012",
       "enunciado": "¿Cuál es el plazo general para resolver un procedimiento de devolución de ingresos indebidos?",
       "opciones": [
         "Un mes",
-        "Tres meses",
         "Seis meses",
+        "Tres meses",
         "Cuatro años"
       ],
-      "respuestaCorrecta": 2,
+      "respuestaCorrecta": 1,
       "justificacion": "El manual fija en seis meses el plazo de resolución del procedimiento de devolución de ingresos indebidos. Los cuatro años corresponden al plazo general de prescripción.",
       "trampaExamen": "No confundir el plazo para resolver la devolución con el plazo para ejercitar derechos sujetos a prescripción.",
-      "referencia": "manual.md · cifras esenciales; bloque-03b-devoluciones-procedimiento.md"
+      "referencia": "manual.md · cifras esenciales; bloque-03b-devoluciones-procedimiento.md",
+      "respuestaLiteral": "Seis meses"
     }
   ],
   "revisionFocalizada": {
@@ -187,5 +199,10 @@
     ],
     "articulo": "161.2 LGT",
     "alcance": "Se limita expresamente el supuesto a la regla general y se explica la excepción por solicitudes sucesivas."
+  },
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
+    "objetivo": "3 correctas por cada posición en banco de 12"
   }
 }
