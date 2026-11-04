@@ -74,9 +74,21 @@ La eliminación de documentos requiere autorización conforme a la normativa apl
 
 ## 10. Ubicación de sistemas y datos
 
-Los sistemas de información y comunicaciones utilizados para recoger, almacenar, tratar y gestionar datos especialmente protegidos deben ubicarse y prestarse dentro del territorio de la Unión Europea.
+El **artículo 46 bis de la Ley 40/2015** establece una regla específica de localización para los sistemas de información y comunicaciones utilizados en la recogida, almacenamiento, procesamiento y gestión de **censo electoral, padrones municipales de habitantes, otros registros de población, datos fiscales de tributos propios o cedidos y datos de usuarios del Sistema Nacional de Salud**, así como sus correspondientes tratamientos de datos personales. **Deben ubicarse y prestarse dentro del territorio de la Unión Europea**.
 
-Los datos pueden transferirse a terceros países cuando exista una decisión de adecuación de la Comisión Europea o concurran las garantías previstas por la normativa europea de protección de datos.
+No es correcto convertir el artículo 46 bis en una obligación universal de localización en la UE para **todos** los datos de categoría especial del RGPD. Son dos reglas diferentes: el artículo 46 bis identifica **tipos concretos de registros y datos**, mientras el RGPD regula por separado bases de licitud y transferencias internacionales.
+
+Para los datos comprendidos en el artículo 46 bis, su transferencia a un **tercer país u organización internacional** solo se admite en los supuestos que el propio precepto enumera: **decisión de adecuación de la Comisión Europea** o **exigencias derivadas del cumplimiento de obligaciones internacionales asumidas por España**.
+
+| Supuesto | Artículo **46 bis** |
+|---|---|
+| Censo electoral y padrones municipales | **Ubicación y prestación en UE** |
+| Otros registros de población | **Ubicación y prestación en UE** |
+| Datos fiscales de tributos propios o cedidos | **Ubicación y prestación en UE** |
+| Datos de usuarios del Sistema Nacional de Salud | **Ubicación y prestación en UE** |
+| Cualquier dato sensible ajeno a esos conjuntos | No se impone automáticamente la misma obligación por el **artículo 46 bis**; examinar la norma aplicable |
+
+> ⚠️ **¡Foco Examen!:** **Artículo 46 bis** no dice «todos los datos especialmente protegidos». Pregunta por **censo, padrón, registros de población, datos fiscales y usuarios del Sistema Nacional de Salud**. Ubicación **en la UE** y transferencias internacionales son requisitos distintos.
 
 ## 11. Relaciones electrónicas entre Administraciones
 
@@ -97,5 +109,5 @@ También deben mantener directorios actualizados de aplicaciones disponibles par
 - Actuación automatizada: sin intervención directa de empleado público.
 - Firma automatizada: sello electrónico o código seguro de verificación.
 - Archivo electrónico: autenticidad, integridad, conservación y consulta.
-- Los sistemas con datos especialmente protegidos deben ubicarse, con carácter general, en la Unión Europea.
+- El **artículo 46 bis** exige ubicación en la **UE** a los sistemas de **censo, padrón, registros de población, determinados datos fiscales y usuarios del SNS**, no indiscriminadamente a cualquier categoría especial.
 - ENI significa interoperabilidad; ENS significa seguridad.
