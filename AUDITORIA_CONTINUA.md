@@ -754,3 +754,36 @@ La matriz y las fuentes de La Puebla documentan esta revisión de normativa; se 
 **La Puebla (14/11):** terminar contraste de órganos AGE de T14 y revisar T10/T12/T13; **UC3M (21/11):** fijar por resolución oficial original la fecha de corte de legislación y auditar preguntas de T15/T16, simulacros 70+5; **Diputación C1/C2:** seguir normas compartidas y regulación provincial, **OAPGT tema 6 C2 al final** por prioridad; **Olías:** auditar técnica y jurídica a fondo T6/T9/T11/T17/T19/T21 y municipio T5/T13, mantener inscripción semana 09/11 y discrepancias oficiales BOP/BOE sin resolver; **Radar:** calidad de fuentes/avisos y no solo ejecuciones verdes. **Todos los programas siguen en curso; ninguna etiqueta es un porcentaje de exactitud.**
 
 > ⚠️ **¡Foco Examen!:** **Art. 72.5** (suplencia del Delegado por Secretario General en el supuesto uniprovincial sin Subdelegado) **≠ art. 74** (el Delegado asume competencias del Subdelegado). **120/121 fuera de borrador ≠ 120 temas jurídicamente certificados.**
+
+## 33. La Puebla: pagos LGT y servicios de confianza — 04/11/2026
+
+### 33.1. Auditoría parcial del Tema 10 — [Ley 58/2003 (LGT), arts. 62 y 65](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186)
+
+**Hallazgo:** la primera redacción explicaba pagos voluntarios de liquidaciones, pero faltaba el contraste completo con plazos de **providencia de apremio**, período de **notificación colectiva** y las **siete deudas inaplazables**.
+
+| Notificación | **Art. 62.2** Liquidación en voluntaria | **Art. 62.5** Providencia de apremio |
+|---|---|---|
+| Entre días **1–15** | **20 del mes siguiente** | **20 del mismo mes** |
+| Entre días **16–último** | **5 del segundo mes siguiente** | **5 del mes siguiente** |
+
+En ambos supuestos el vencimiento inhábil pasa al siguiente día hábil. **Art. 62.3:** pago colectivo/periódico sin otro plazo del **1/9 al 20/11**, modificable por Administración competente con duración mínima **2 meses**. Se incorporó también **art. 62.4 y 62.6–7** con sus condiciones. **Art. 65.2**: siete tipos de deudas inaplazables, con atención a **retenedores**, créditos concursales, recuperación de ayudas, resolución de recursos con suspensión, cuotas **repercutidas** con excepción, y pagos fraccionados del **IS**; las solicitudes previstas se inadmiten. Solicitar aplazamiento en voluntaria **no suprime intereses** y rige con excepciones de los **arts. 65.5 y 161.2**.
+
+**Archivos:** manual, matriz, fuentes y trazabilidad por artículos del tema 10; mantiene **12 preguntas**. No es certificación completa.
+
+### 33.2. Auditoría parcial Tema 13 — [Reglamento eIDAS art. 25](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A02014R0910-20241018) y [Ley 6/2020 arts. 9 y 12](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046)
+
+**Hallazgo:** faltaba la distinción explícita entre **firma electrónica no cualificada** (no denegar efectos o admisibilidad solo por su forma electrónica o por no cumplir los requisitos de firma cualificada, **art. 25.1**) y **firma electrónica cualificada** (efecto legal equivalente al de la **firma manuscrita**, **art. 25.2**). No debe confundirse firma **avanzada** con **cualificada**.
+
+En cuanto a **prestadores**, el **art. 9.2** exige servicio de consulta pública de estado de certificados emitidos; el **art. 9.3.a** conservación **15 años**; el **art. 9.3.b** seguro mínimo de **1.500.000 €** más **500.000 € por tipo de servicio cualificado adicional**, con excepción para prestadores pertenecientes al **sector público**. Según **art. 12**, los **prestadores no cualificados** pueden comenzar sin verificación administrativa previa, pero deben **comunicarlo en tres meses**, al igual que cambios o cese. Se conservaron los datos preexistentes sobre **cinco años** de vigencia máxima de certificados cualificados.
+
+**Archivos:** manual, bloque de prestadores, fuentes, matriz y trazabilidad del tema 13. **12 preguntas históricas conservadas**; no se afirma revisión integral.
+
+### 33.3. Integridad, CI y estado de los cinco programas
+
+Nuevo archivo de comprobación **tests/validate-la-puebla-normativa-focal.mjs** integrado en **.github/workflows/validate.yml**. Comprueba cifras/umbrales específicos de LGT y eIDAS, conserva **12 preguntas por tema**, incluye la fecha futura del **IIVTNU (1/12/2026)** ya expuesta en **La Puebla T12** por RDL 29/2026. El [**workflow CI 41839082691**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41839082691) terminó **SUCCESS**, incluyendo el nuevo test. El [**workflow PDF La Puebla 41838882207**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41838882207) terminó **SUCCESS** sobre el commit de ampliación. La [**publicación Pages 41839082488**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41839082488) figuraba **in_progress** al comprobarla, no se presume su conclusión.
+
+**Los porcentajes no se alteran por estas correcciones parciales:** **121/121 temas registrados**, **120/121 fuera de BORRADOR = 99,2 %**, pero **0/121 recertificados jurídicamente de forma íntegra en noviembre**. La Puebla **19 APROBADO_USUARIO** históricos; UC3M **20 EN_REVISION_USUARIO**; Diputación C2 **19 EN_REVISION_USUARIO y T6 BORRADOR**; Diputación C1 **40 GENERACION_DESDE_CERO**; Olías **22 EN_AUDITORIA**. No usar estos estados como medida de exactitud de los contenidos.
+
+**Prioridad a partir de §33:** La Puebla (14/11) T12 IBI/IAE/IVTM/IIVTNU para nuevas comprobaciones y T10/T13 para preguntas, UC3M (21/11) T15–16 y fecha corte normativo, Diputación C1/C2 tributación y empleo, Olías mantenimiento y temas locales; tema OAPGT C2 al final. No reabrir Carranque ni Las Ventas. Mantener vigilancia del Radar y detectar fallos de notificación.
+
+> ⚠️ **¡Foco Examen!:** **LGT 62.2**: plazos voluntarios hasta día **20 siguiente / 5 segundo siguiente**, **62.5**: apremio hasta **20 mismo mes / 5 siguiente**. **eIDAS 25.1** no descarta eficacia de firma no cualificada por su condición; **25.2** equipara expresamente **firma cualificada** a manuscrita.
