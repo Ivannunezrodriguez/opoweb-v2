@@ -58,3 +58,9 @@ Fuente primaria: [**LOSU, artículos 45.3 y 46.3 (BOE-A-2023-7500)**](https://ww
 - **Control de respuestas:** **UC3M-T14-002** muestra **opción B: «El 25 %»**, con `correcta: 1`; el dato se mantiene y se rectifica exclusivamente la anotación histórica de esta página que decía **C**.
 
 > ⚠️ **¡Foco Examen!:** **Art. 45.3** establece **25 % mínimo de estudiantado en Claustro** y **51 % de PDI funcionario y permanente laboral**. **Art. 46.3** establece **10 % mínimo de estudiantes y PTGAS en Consejo de Gobierno**. No atribuir el **51 %** al art. **45.2**.
+
+## Cotejo exhaustivo del banco · 04/11/2026
+
+[**Informe individual de 14 preguntas y 56 alternativas literales**](cotejo-integral-2026-11-04.md): fundamentos jurídicos, descarte de cada respuesta errónea y foco de examen. **Estado del banco: COTEJO_BANCO_COMPLETO**, **no aprobación de usuario**. La fecha normativa de corte de las bases UC3M sigue pendiente de corroborar mediante publicación primaria de la resolución de listas definitivas y anuncio de prueba. Las pruebas funcionales en navegador y accesibilidad se mantienen **pendientes**.
+
+> ⚠️ **¡Foco Examen!:** **Claustro**: estudiantes **≥25 %** y docentes funcionarios/PPL **51 %**, ambos **art. 45.3**. La respuesta de **UC3M-T14-002** es **B (25 %)**.
