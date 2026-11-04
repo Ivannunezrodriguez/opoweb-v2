@@ -7,98 +7,105 @@
       "pregunta": "¿Cuál de los siguientes es un derecho del estudiantado universitario?",
       "opciones": [
         "Ser evaluado arbitrariamente",
-        "Recibir una formación de calidad",
         "Quedar excluido de la representación",
-        "Usar libremente cualquier dato personal"
+        "Usar libremente cualquier dato personal",
+        "Recibir una formación de calidad"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La LOSU reconoce el derecho a una formación de calidad, junto con orientación, participación e igualdad de oportunidades.",
       "trampa": "Los derechos del estudiantado no eliminan sus deberes académicos y de convivencia.",
-      "referencia": "LO 2/2023, art. 33.b (BOE-A-2023-7500) · Manual, apartado 1"
+      "referencia": "LO 2/2023, art. 33.b (BOE-A-2023-7500) · Manual, apartado 1",
+      "respuestaLiteral": "Recibir una formación de calidad"
     },
     {
       "id": "UC3M-T14-002",
       "pregunta": "Según el artículo 45.3 de la LOSU, ¿qué porcentaje mínimo de representación del estudiantado deben asegurar los Estatutos en el Claustro Universitario?",
       "opciones": [
         "El 10 %",
-        "El 15 %",
         "El 25 %",
+        "El 15 %",
         "El 51 %"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "El artículo 45.3 de la Ley Orgánica 2/2023 exige una representación mínima del 25 % del estudiantado en el Claustro Universitario. En el Consejo de Gobierno, el artículo 46.3 establece un mínimo distinto: 10 % de estudiantado y otro 10 % de PTGAS.",
       "trampa": "No confundir el 25 % mínimo del Claustro con el 10 % mínimo del Consejo de Gobierno. El 51 % del Claustro corresponde al personal de cuerpos docentes universitarios y profesorado permanente laboral.",
-      "referencia": "LO 2/2023, arts. 45.3 y 46.3 (BOE-A-2023-7500) · Manual UC3M tema 14, apartado 2"
+      "referencia": "LO 2/2023, arts. 45.3 y 46.3 (BOE-A-2023-7500) · Manual UC3M tema 14, apartado 2",
+      "respuestaLiteral": "El 25 %"
     },
     {
       "id": "UC3M-T14-003",
       "pregunta": "Las universidades públicas tienen:",
       "opciones": [
-        "Personalidad jurídica y patrimonio propio",
         "Dependencia económica absoluta sin autonomía",
         "Prohibición de aprobar presupuesto",
-        "Carácter privado"
+        "Carácter privado",
+        "Personalidad jurídica y patrimonio propio"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "Las universidades públicas tienen personalidad jurídica y patrimonio propio.",
       "trampa": "La autonomía no las exime de controles públicos.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 1 (BOE-A-2003-17782) · Manual, apartado 3"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 1 (BOE-A-2003-17782) · Manual, apartado 3",
+      "respuestaLiteral": "Personalidad jurídica y patrimonio propio"
     },
     {
       "id": "UC3M-T14-004",
       "pregunta": "¿Qué caracteriza al presupuesto universitario?",
       "opciones": [
-        "Secreto y fragmentado",
         "Público, único y equilibrado",
+        "Secreto y fragmentado",
         "Exclusivamente plurianual",
         "Limitado solo a gastos"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La LOSU exige que el presupuesto sea público, único, equilibrado y comprenda todos los ingresos y gastos.",
       "trampa": "La programación puede ser plurianual, pero el presupuesto tiene su propio régimen anual.",
-      "referencia": "LO 2/2023, art. 57.1 (BOE-A-2023-7500) · Manual, apartado 5"
+      "referencia": "LO 2/2023, art. 57.1 (BOE-A-2023-7500) · Manual, apartado 5",
+      "respuestaLiteral": "Público, único y equilibrado"
     },
     {
       "id": "UC3M-T14-005",
       "pregunta": "En la elaboración del presupuesto deben incluirse informes de impacto:",
       "opciones": [
         "Solo deportivo",
-        "De género y medioambiental",
         "Solo tecnológico",
+        "De género y medioambiental",
         "Exclusivamente salarial"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La LOSU exige informes de impacto por razón de género y de impacto medioambiental.",
       "trampa": "No son informes facultativos si la ley los exige.",
-      "referencia": "LO 2/2023, art. 57.3 (BOE-A-2023-7500) · Manual, apartado 5"
+      "referencia": "LO 2/2023, art. 57.3 (BOE-A-2023-7500) · Manual, apartado 5",
+      "respuestaLiteral": "De género y medioambiental"
     },
     {
       "id": "UC3M-T14-006",
       "pregunta": "La autonomía económica y financiera implica que la universidad:",
       "opciones": [
         "No está sujeta a control",
-        "Elabora, aprueba y gestiona su presupuesto",
         "Puede ignorar la estabilidad presupuestaria",
-        "No debe rendir cuentas"
+        "No debe rendir cuentas",
+        "Elabora, aprueba y gestiona su presupuesto"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "La universidad gestiona su presupuesto y bienes, pero sigue sometida a control y rendición de cuentas.",
       "trampa": "Autonomía no equivale a independencia absoluta.",
-      "referencia": "LO 2/2023, art. 54.2 (BOE-A-2023-7500) · Manual, apartados 4 y 6"
+      "referencia": "LO 2/2023, art. 54.2 (BOE-A-2023-7500) · Manual, apartados 4 y 6",
+      "respuestaLiteral": "Elabora, aprueba y gestiona su presupuesto"
     },
     {
       "id": "UC3M-T14-007",
       "pregunta": "¿Ante quién rinden cuentas las universidades públicas en materia económico-financiera?",
       "opciones": [
         "Solo ante el Rector",
-        "Ante el órgano autonómico de control externo, sin perjuicio del Tribunal de Cuentas",
         "Solo ante el Consejo de Estudiantes",
+        "Ante el órgano autonómico de control externo, sin perjuicio del Tribunal de Cuentas",
         "Ante ninguna institución"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La rendición se realiza ante el órgano de control externo de la comunidad autónoma, sin perjuicio del Tribunal de Cuentas.",
       "trampa": "El control interno no sustituye al externo.",
-      "referencia": "LO 2/2023, art. 59 (BOE-A-2023-7500) · Manual, apartado 6"
+      "referencia": "LO 2/2023, art. 59 (BOE-A-2023-7500) · Manual, apartado 6",
+      "respuestaLiteral": "Ante el órgano autonómico de control externo, sin perjuicio del Tribunal de Cuentas"
     },
     {
       "id": "UC3M-T14-008",
@@ -112,7 +119,8 @@
       "correcta": 2,
       "justificacion": "La LOSU contempla personal docente e investigador funcionario y laboral.",
       "trampa": "Las distintas figuras tienen regímenes y requisitos diferentes.",
-      "referencia": "Manual, apartado 8"
+      "referencia": "Manual, apartado 8",
+      "respuestaLiteral": "Funcionario o laboral"
     },
     {
       "id": "UC3M-T14-009",
@@ -126,21 +134,23 @@
       "correcta": 0,
       "justificacion": "El PDI desarrolla docencia, investigación, transferencia, innovación y gestión académica.",
       "trampa": "Puede realizar gestión, pero no es su única función.",
-      "referencia": "Manual, apartado 8"
+      "referencia": "Manual, apartado 8",
+      "respuestaLiteral": "Docencia e investigación"
     },
     {
       "id": "UC3M-T14-010",
       "pregunta": "El PTGAS presta apoyo principalmente a:",
       "opciones": [
-        "Docencia, investigación, transferencia y gestión",
         "Actividades ajenas a la universidad",
+        "Docencia, investigación, transferencia y gestión",
         "Solo docencia presencial",
         "Solo servicios externos"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "El PTGAS presta apoyo, asistencia y asesoramiento a las funciones universitarias.",
       "trampa": "No debe confundirse con PDI, aunque ambos integran la comunidad universitaria.",
-      "referencia": "Manual, apartado 10"
+      "referencia": "Manual, apartado 10",
+      "respuestaLiteral": "Docencia, investigación, transferencia y gestión"
     },
     {
       "id": "UC3M-T14-011",
@@ -154,21 +164,23 @@
       "correcta": 1,
       "justificacion": "La selección debe respetar los principios constitucionales y de empleo público.",
       "trampa": "La autonomía universitaria no permite excluir estos principios.",
-      "referencia": "Manual, apartado 11"
+      "referencia": "Manual, apartado 11",
+      "respuestaLiteral": "Igualdad, mérito, capacidad y publicidad"
     },
     {
       "id": "UC3M-T14-012",
       "pregunta": "La contratación de las universidades públicas se somete a:",
       "opciones": [
-        "Reglas internas exclusivamente",
         "La legislación de contratos del sector público",
+        "Reglas internas exclusivamente",
         "El derecho mercantil sin límites",
         "Ninguna norma específica"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "Las universidades públicas están sujetas a la legislación de contratos del sector público.",
       "trampa": "El patrimonio propio no elimina la aplicación de la normativa pública.",
-      "referencia": "Manual, apartado 7"
+      "referencia": "Manual, apartado 7",
+      "respuestaLiteral": "La legislación de contratos del sector público"
     },
     {
       "id": "UC3M-T14-013",
@@ -182,21 +194,23 @@
       "correcta": 1,
       "justificacion": "La LOSU atribuye al Consejo de Gobierno la propuesta del presupuesto y de las cuentas anuales, y al Consejo Social su aprobación.",
       "trampa": "No deben invertirse las competencias de ambos órganos.",
-      "referencia": "LO 2/2023, arts. 47 y 57 (BOE-A-2023-7500) · Manual, apartado 5"
+      "referencia": "LO 2/2023, arts. 47 y 57 (BOE-A-2023-7500) · Manual, apartado 5",
+      "respuestaLiteral": "El Consejo de Gobierno lo propone y el Consejo Social lo aprueba"
     },
     {
       "id": "UC3M-T14-014",
       "pregunta": "¿Qué porcentaje mínimo del presupuesto debe destinar una universidad a programas propios de investigación?",
       "opciones": [
+        "5 %",
         "1 %",
         "3 %",
-        "5 %",
         "10 %"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "El artículo 57.7 de la LOSU exige un porcentaje no inferior al 5 %.",
       "trampa": "El 1 % se refiere al objetivo de gasto público universitario sobre el PIB, no a esta reserva presupuestaria.",
-      "referencia": "LO 2/2023, art. 57.7 (BOE-A-2023-7500) · Manual, apartado 5"
+      "referencia": "LO 2/2023, art. 57.7 (BOE-A-2023-7500) · Manual, apartado 5",
+      "respuestaLiteral": "5 %"
     }
   ],
   "revisionFocalizada": {
@@ -206,5 +220,9 @@
     ],
     "norma": "LOSU arts. 45.3 y 46.3",
     "alcance": "Sustituida pregunta demasiado general por porcentaje mínimo literal del Claustro; cambia clave de B a C de forma intencionada, resto de preguntas conservadas. Corte normativo definitivo del proceso UC3M pendiente de verificar."
+  },
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
   }
 }

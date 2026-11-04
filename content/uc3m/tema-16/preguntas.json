@@ -6,57 +6,61 @@
       "id": "UC3M-T16-001",
       "pregunta": "¿Cuáles son las enseñanzas universitarias oficiales?",
       "opciones": [
-        "Grado, Máster Universitario y Doctorado",
         "Grado, Especialista y Doctorado",
         "Diplomatura, Licenciatura y Doctorado",
-        "Solo Grado y Máster"
+        "Solo Grado y Máster",
+        "Grado, Máster Universitario y Doctorado"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "El Real Decreto 822/2021 estructura las enseñanzas oficiales en Grado, Máster Universitario y Doctorado.",
       "trampa": "Los títulos propios no forman parte de esta clasificación oficial.",
-      "referencia": "Manual, apartado 1"
+      "referencia": "Manual, apartado 1",
+      "respuestaLiteral": "Grado, Máster Universitario y Doctorado"
     },
     {
       "id": "UC3M-T16-002",
       "pregunta": "Con carácter general, un curso académico a tiempo completo equivale a:",
       "opciones": [
+        "60 ECTS",
         "30 ECTS",
         "45 ECTS",
-        "60 ECTS",
         "90 ECTS"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La carga ordinaria de un curso completo es de 60 créditos ECTS.",
       "trampa": "El crédito mide trabajo total del estudiante.",
-      "referencia": "Manual, apartado 2"
+      "referencia": "Manual, apartado 2",
+      "respuestaLiteral": "60 ECTS"
     },
     {
       "id": "UC3M-T16-003",
       "pregunta": "¿Cuál es la duración general de un título de Grado?",
       "opciones": [
         "120 ECTS",
-        "180 ECTS",
         "240 ECTS",
+        "180 ECTS",
         "300 ECTS en todos los casos"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La regla general es 240 ECTS, sin perjuicio de titulaciones sujetas a normativa especial.",
       "trampa": "Algunas titulaciones pueden tener más créditos.",
-      "referencia": "Manual, apartado 3"
+      "referencia": "Manual, apartado 3",
+      "respuestaLiteral": "240 ECTS"
     },
     {
       "id": "UC3M-T16-004",
       "pregunta": "El acceso a un Máster Universitario:",
       "opciones": [
         "Equivale automáticamente a la admisión",
-        "Permite solicitar plaza, pero no garantiza ser admitido",
         "No exige titulación universitaria",
+        "Permite solicitar plaza, pero no garantiza ser admitido",
         "Solo depende del orden de matrícula"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "Acceso y admisión son conceptos distintos.",
       "trampa": "Cumplir el acceso no garantiza plaza.",
-      "referencia": "Manual, apartado 4"
+      "referencia": "Manual, apartado 4",
+      "respuestaLiteral": "Permite solicitar plaza, pero no garantiza ser admitido"
     },
     {
       "id": "UC3M-T16-005",
@@ -70,63 +74,68 @@
       "correcta": 1,
       "justificacion": "La memoria verificada constituye la referencia académica del título.",
       "trampa": "La guía docente concreta asignaturas.",
-      "referencia": "Manual, apartado 6"
+      "referencia": "Manual, apartado 6",
+      "respuestaLiteral": "La memoria verificada"
     },
     {
       "id": "UC3M-T16-006",
       "pregunta": "Verificación, autorización, oficialidad e inscripción:",
       "opciones": [
         "Son el mismo trámite",
-        "Son actuaciones diferenciadas",
         "Solo se aplican al Doctorado",
+        "Son actuaciones diferenciadas",
         "Pueden omitirse a decisión del centro"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La implantación de un título comprende actuaciones distintas.",
       "trampa": "Un trámite no sustituye automáticamente a los demás.",
-      "referencia": "Manual, apartado 7"
+      "referencia": "Manual, apartado 7",
+      "respuestaLiteral": "Son actuaciones diferenciadas"
     },
     {
       "id": "UC3M-T16-007",
       "pregunta": "La renovación de la acreditación sirve para:",
       "opciones": [
-        "Comprobar que el título mantiene los estándares de calidad",
         "Aprobar el calendario de exámenes",
         "Asignar grupos de matrícula",
-        "Conceder becas"
+        "Conceder becas",
+        "Comprobar que el título mantiene los estándares de calidad"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "Comprueba periódicamente el mantenimiento de los estándares.",
       "trampa": "No es un trámite ordinario de matrícula.",
-      "referencia": "Manual, apartado 8"
+      "referencia": "Manual, apartado 8",
+      "respuestaLiteral": "Comprobar que el título mantiene los estándares de calidad"
     },
     {
       "id": "UC3M-T16-008",
       "pregunta": "La matrícula universitaria:",
       "opciones": [
-        "Garantiza aprobar las asignaturas",
         "Formaliza la vinculación académica",
+        "Garantiza aprobar las asignaturas",
         "Elimina los requisitos del plan",
         "Siempre es gratuita"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La matrícula formaliza la incorporación académica y genera obligaciones.",
       "trampa": "Matricularse no implica superar.",
-      "referencia": "Manual, apartado 9"
+      "referencia": "Manual, apartado 9",
+      "respuestaLiteral": "Formaliza la vinculación académica"
     },
     {
       "id": "UC3M-T16-009",
       "pregunta": "En la información académica UC3M, un crédito ECTS equivale a:",
       "opciones": [
+        "25 horas",
         "10 horas",
         "20 horas",
-        "25 horas",
         "30 horas exactas en toda universidad"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "La UC3M informa de una equivalencia de 25 horas de trabajo por ECTS.",
       "trampa": "Incluye trabajo total, no solo clase.",
-      "referencia": "Manual, apartado 2"
+      "referencia": "Manual, apartado 2",
+      "respuestaLiteral": "25 horas"
     },
     {
       "id": "UC3M-T16-010",
@@ -134,41 +143,44 @@
       "opciones": [
         "12 ECTS",
         "18 ECTS",
-        "30 ECTS",
-        "60 ECTS"
+        "60 ECTS",
+        "30 ECTS"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La información UC3M fija 30 ECTS el primer año.",
       "trampa": "El mínimo de 18 ECTS se aplica a años posteriores.",
-      "referencia": "Manual, apartado 10"
+      "referencia": "Manual, apartado 10",
+      "respuestaLiteral": "30 ECTS"
     },
     {
       "id": "UC3M-T16-011",
       "pregunta": "¿Cuántos créditos debe superar al menos un estudiante UC3M en su primer año para continuar?",
       "opciones": [
         "6",
-        "12",
         "18",
+        "12",
         "30"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La normativa de permanencia exige al menos 12 créditos.",
       "trampa": "No equivale a aprobar el primer curso completo.",
-      "referencia": "Manual, apartado 11"
+      "referencia": "Manual, apartado 11",
+      "respuestaLiteral": "12"
     },
     {
       "id": "UC3M-T16-012",
       "pregunta": "El primer curso completo debe superarse, con carácter general, en:",
       "opciones": [
         "Un año",
-        "Dos años consecutivos",
         "Tres años en todos los casos",
+        "Dos años consecutivos",
         "Cuatro años"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "La regla general es dos años académicos consecutivos; en ingeniería, tres.",
       "trampa": "Ingeniería tiene una excepción.",
-      "referencia": "Manual, apartado 11"
+      "referencia": "Manual, apartado 11",
+      "respuestaLiteral": "Dos años consecutivos"
     },
     {
       "id": "UC3M-T16-013",
@@ -176,41 +188,44 @@
       "opciones": [
         "Dos",
         "Tres",
-        "Cuatro",
-        "Seis en todos los casos"
+        "Seis en todos los casos",
+        "Cuatro"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "La regla general es cuatro convocatorias; en ingeniería son seis.",
       "trampa": "No generalizar la excepción de ingeniería.",
-      "referencia": "Manual, apartado 11"
+      "referencia": "Manual, apartado 11",
+      "respuestaLiteral": "Cuatro"
     },
     {
       "id": "UC3M-T16-014",
       "pregunta": "En Grado UC3M, la evaluación continua representa como mínimo:",
       "opciones": [
         "20 %",
-        "30 %",
         "40 %",
+        "30 %",
         "60 %"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "La evaluación continua debe valer al menos el 40 %.",
       "trampa": "El 60 % es el máximo ordinario del examen final.",
-      "referencia": "Manual, apartado 12"
+      "referencia": "Manual, apartado 12",
+      "respuestaLiteral": "40 %"
     },
     {
       "id": "UC3M-T16-015",
       "pregunta": "En convocatoria extraordinaria, quien no siguió evaluación continua tiene derecho a un examen con valor de:",
       "opciones": [
+        "100 %",
         "40 %",
         "60 %",
-        "80 %",
-        "100 %"
+        "80 %"
       ],
-      "correcta": 3,
+      "correcta": 0,
       "justificacion": "La normativa UC3M reconoce un examen extraordinario con valor del 100 %.",
       "trampa": "En la ordinaria sin continua el examen vale el 60 %.",
-      "referencia": "Manual, apartado 12"
+      "referencia": "Manual, apartado 12",
+      "respuestaLiteral": "100 %"
     },
     {
       "id": "UC3M-T16-016",
@@ -224,7 +239,8 @@
       "correcta": 1,
       "justificacion": "El reconocimiento permite que computen en el nuevo plan.",
       "trampa": "La transferencia tiene otro efecto.",
-      "referencia": "Manual, apartado 14"
+      "referencia": "Manual, apartado 14",
+      "respuestaLiteral": "Computan para obtener el nuevo título"
     },
     {
       "id": "UC3M-T16-017",
@@ -238,35 +254,38 @@
       "correcta": 0,
       "justificacion": "Las curriculares forman parte del plan y del proyecto formativo, RD822 art.11.",
       "trampa": "Las prácticas no sustituyen la prestación laboral.",
-      "referencia": "RD 822/2021, art.11.2–4"
+      "referencia": "RD 822/2021, art.11.2–4",
+      "respuestaLiteral": "Curriculares"
     },
     {
       "id": "UC3M-T16-018",
       "pregunta": "Las prácticas curriculares en Grado tienen como máximo general:",
       "opciones": [
-        "Un tercio del título",
         "25 % del total, con excepciones",
+        "Un tercio del título",
         "50 % del total sin salvedades",
         "Una asignatura de 6 ECTS"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "Art.14.5: límite general del 25 %, con excepciones de grados sujetos a normativa UE y mención dual.",
       "trampa": "No aplicar el tercio propio de Máster.",
-      "referencia": "RD 822/2021, art.14.5"
+      "referencia": "RD 822/2021, art.14.5",
+      "respuestaLiteral": "25 % del total, con excepciones"
     },
     {
       "id": "UC3M-T16-019",
       "pregunta": "En un Grado de 240 ECTS, el TFG debe tener:",
       "opciones": [
         "Entre 12 y 30 ECTS",
-        "Entre 6 y 30 ECTS",
         "Entre 6 y 24 ECTS",
+        "Entre 6 y 30 ECTS",
         "Exactamente 24 ECTS"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "Art.14.6 establece mínimo 6 y máximo 24 para grado de 240.",
       "trampa": "El TFM tiene un máximo distinto.",
-      "referencia": "RD 822/2021, art.14.6"
+      "referencia": "RD 822/2021, art.14.6",
+      "respuestaLiteral": "Entre 6 y 24 ECTS"
     },
     {
       "id": "UC3M-T16-020",
@@ -280,21 +299,27 @@
       "correcta": 3,
       "justificacion": "Art.17.3 fija como máximo un tercio de la carga lectiva del máster.",
       "trampa": "No confundir el porcentaje general de las prácticas curriculares de Grado.",
-      "referencia": "RD 822/2021, art.17.3"
+      "referencia": "RD 822/2021, art.17.3",
+      "respuestaLiteral": "Un tercio"
     },
     {
       "id": "UC3M-T16-021",
       "pregunta": "El Trabajo Fin de Máster (TFM) es obligatorio y tiene:",
       "opciones": [
-        "Entre 6 y 30 ECTS",
         "Entre 6 y 24 ECTS",
         "Exactamente 15 ECTS",
+        "Entre 6 y 30 ECTS",
         "Entre 30 y 60 ECTS"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "Art.17.4: TFM obligatorio de mínimo seis y máximo treinta créditos.",
       "trampa": "El TFG de 240 no puede superar 24.",
-      "referencia": "RD 822/2021, art.17.4"
+      "referencia": "RD 822/2021, art.17.4",
+      "respuestaLiteral": "Entre 6 y 30 ECTS"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  }
 }

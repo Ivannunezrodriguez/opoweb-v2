@@ -7,28 +7,30 @@
       "pregunta": "¿Cuál es la función principal del Defensor Universitario?",
       "opciones": [
         "Ejercer la potestad sancionadora",
-        "Velar por los derechos y libertades de la comunidad universitaria",
         "Aprobar el presupuesto",
+        "Velar por los derechos y libertades de la comunidad universitaria",
         "Resolver recursos administrativos"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El Defensor protege los derechos y libertades de la comunidad universitaria y contribuye a mejorar la calidad universitaria.",
       "trampa": "Puede investigar y recomendar, pero no sanciona ni resuelve recursos.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 127-132 (BOE-A-2003-17782) · Manual, apartado 2"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 127-132 (BOE-A-2003-17782) · Manual, apartado 2",
+      "respuestaLiteral": "Velar por los derechos y libertades de la comunidad universitaria"
     },
     {
       "id": "UC3M-T15-002",
       "pregunta": "La presentación de una queja ante el Defensor Universitario:",
       "opciones": [
+        "No suspende los plazos administrativos o judiciales",
         "Suspende siempre los plazos administrativos",
         "Sustituye al recurso de alzada",
-        "No suspende los plazos administrativos o judiciales",
         "Anula provisionalmente el acto impugnado"
       ],
-      "correcta": 2,
+      "correcta": 0,
       "justificacion": "Las actuaciones del Defensor no sustituyen recursos ni suspenden los plazos correspondientes.",
       "trampa": "La existencia de una actuación institucional no altera por sí sola los plazos legales.",
-      "referencia": "Manual, apartado 3"
+      "referencia": "Manual, apartado 3",
+      "respuestaLiteral": "No suspende los plazos administrativos o judiciales"
     },
     {
       "id": "UC3M-T15-003",
@@ -36,97 +38,104 @@
       "opciones": [
         "Solicitar información",
         "Formular recomendaciones",
-        "Iniciar actuaciones de oficio",
-        "Imponer sanciones disciplinarias"
+        "Imponer sanciones disciplinarias",
+        "Iniciar actuaciones de oficio"
       ],
-      "correcta": 3,
+      "correcta": 2,
       "justificacion": "El Defensor carece de potestad sancionadora.",
       "trampa": "Su capacidad investigadora no equivale a potestad ejecutiva o disciplinaria.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 127-132 (BOE-A-2003-17782) · Manual, apartados 2 y 3"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 127-132 (BOE-A-2003-17782) · Manual, apartados 2 y 3",
+      "respuestaLiteral": "Imponer sanciones disciplinarias"
     },
     {
       "id": "UC3M-T15-004",
       "pregunta": "Los servicios universitarios se orientan principalmente a:",
       "opciones": [
         "Sustituir a los órganos de gobierno",
-        "Apoyar docencia, investigación, gestión y vida universitaria",
         "Ejercer control judicial",
-        "Aprobar los Estatutos"
+        "Aprobar los Estatutos",
+        "Apoyar docencia, investigación, gestión y vida universitaria"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "Los servicios universitarios prestan apoyo a las funciones académicas, investigadoras, administrativas y de vida universitaria.",
       "trampa": "Los servicios ejecutan funciones de apoyo, pero no sustituyen a los órganos estatutarios.",
-      "referencia": "Manual, apartado 4"
+      "referencia": "Manual, apartado 4",
+      "respuestaLiteral": "Apoyar docencia, investigación, gestión y vida universitaria"
     },
     {
       "id": "UC3M-T15-005",
       "pregunta": "La autonomía económica y financiera de la UC3M implica que:",
       "opciones": [
-        "No está sometida a control",
         "Puede elaborar y gestionar su presupuesto dentro de la legalidad",
+        "No está sometida a control",
         "Puede ignorar la estabilidad presupuestaria",
         "No debe rendir cuentas"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La Universidad elabora y gestiona su presupuesto, pero sometida a legalidad, control y rendición de cuentas.",
       "trampa": "Autonomía no significa independencia del ordenamiento ni ausencia de fiscalización.",
-      "referencia": "Manual, apartado 6"
+      "referencia": "Manual, apartado 6",
+      "respuestaLiteral": "Puede elaborar y gestionar su presupuesto dentro de la legalidad"
     },
     {
       "id": "UC3M-T15-006",
       "pregunta": "¿Qué instrumento recoge la totalidad de ingresos y gastos de la Universidad?",
       "opciones": [
         "El inventario",
-        "El presupuesto",
         "La relación de puestos de trabajo",
-        "El reglamento electoral"
+        "El reglamento electoral",
+        "El presupuesto"
       ],
-      "correcta": 1,
+      "correcta": 3,
       "justificacion": "El presupuesto universitario contiene la previsión y autorización de ingresos y gastos.",
       "trampa": "Las cuentas anuales reflejan la ejecución y situación económica, pero no sustituyen al presupuesto.",
-      "referencia": "Manual, apartado 7"
+      "referencia": "Manual, apartado 7",
+      "respuestaLiteral": "El presupuesto"
     },
     {
       "id": "UC3M-T15-007",
       "pregunta": "Según los Estatutos, ¿quién es el órgano de contratación de la UC3M?",
       "opciones": [
         "El Claustro",
-        "El Rector",
         "El Defensor Universitario",
+        "El Rector",
         "La Delegación de Estudiantes"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "Los Estatutos atribuyen al Rector la condición de órgano de contratación de la Universidad.",
       "trampa": "El Consejo Social puede intervenir en determinados supuestos, pero no es el órgano general de contratación.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 175 (BOE-A-2003-17782) · Manual, apartado 10"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 175 (BOE-A-2003-17782) · Manual, apartado 10",
+      "respuestaLiteral": "El Rector"
     },
     {
       "id": "UC3M-T15-008",
       "pregunta": "¿Quién puede iniciar una reforma de los Estatutos?",
       "opciones": [
-        "Solo el Rector",
         "El Consejo de Gobierno o el Claustro a propuesta de una quinta parte de sus miembros",
+        "Solo el Rector",
         "Cualquier servicio universitario",
         "Solo el Consejo Social"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La iniciativa corresponde al Consejo de Gobierno o al Claustro a propuesta de una quinta parte de sus miembros.",
       "trampa": "No debe confundirse iniciativa con aprobación definitiva.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 11"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 11",
+      "respuestaLiteral": "El Consejo de Gobierno o el Claustro a propuesta de una quinta parte de sus miembros"
     },
     {
       "id": "UC3M-T15-009",
       "pregunta": "La toma en consideración de una iniciativa de reforma requiere:",
       "opciones": [
-        "Mayoría simple del Consejo Social",
         "Mayoría absoluta de los claustrales presentes",
+        "Mayoría simple del Consejo Social",
         "Unanimidad de la comunidad universitaria",
         "Mayoría de dos tercios del Consejo de Gobierno"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La toma en consideración exige mayoría absoluta de los claustrales presentes en sesión extraordinaria.",
       "trampa": "La aprobación final usa como referencia a los miembros del Claustro, no solo a los presentes.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 12"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 12",
+      "respuestaLiteral": "Mayoría absoluta de los claustrales presentes"
     },
     {
       "id": "UC3M-T15-010",
@@ -140,7 +149,8 @@
       "correcta": 0,
       "justificacion": "La reforma debe aprobarse por mayoría absoluta de los miembros del Claustro Universitario.",
       "trampa": "No es la misma regla que la toma en consideración.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 13"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 13",
+      "respuestaLiteral": "Mayoría absoluta de los miembros del Claustro"
     },
     {
       "id": "UC3M-T15-011",
@@ -154,21 +164,23 @@
       "correcta": 1,
       "justificacion": "La reforma se eleva a la Administración competente para su aprobación y publicación oficial.",
       "trampa": "La autonomía universitaria no elimina el control de legalidad externo.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 13"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 13",
+      "respuestaLiteral": "Se remite a la Administración competente para control de legalidad y publicación"
     },
     {
       "id": "UC3M-T15-012",
       "pregunta": "¿Cuándo no pueden presentarse propuestas de reforma estatutaria?",
       "opciones": [
-        "Durante los tres meses anteriores al final del mandato del Claustro",
         "Durante el primer año del mandato",
         "Mientras exista presupuesto prorrogado",
-        "Durante el mes de agosto"
+        "Durante el mes de agosto",
+        "Durante los tres meses anteriores al final del mandato del Claustro"
       ],
-      "correcta": 0,
+      "correcta": 3,
       "justificacion": "Los Estatutos impiden presentar propuestas en los tres meses anteriores a la finalización del mandato del Claustro.",
       "trampa": "La limitación se vincula al final del mandato, no al calendario académico.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 13"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 178-180 (BOE-A-2003-17782) · Manual, apartado 13",
+      "respuestaLiteral": "Durante los tres meses anteriores al final del mandato del Claustro"
     },
     {
       "id": "UC3M-T15-013",
@@ -182,77 +194,83 @@
       "correcta": 1,
       "justificacion": "El Rector propone un candidato, oídos los sectores universitarios, y el Claustro realiza la elección.",
       "trampa": "La propuesta y la elección corresponden a órganos distintos.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 127.1 (BOE-A-2003-17782) · Manual, apartado 2.1"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 127.1 (BOE-A-2003-17782) · Manual, apartado 2.1",
+      "respuestaLiteral": "El Rector lo propone y el Claustro lo elige"
     },
     {
       "id": "UC3M-T15-014",
       "pregunta": "¿Qué mayoría necesita el candidato a Defensor Universitario para resultar elegido?",
       "opciones": [
         "Mayoría simple de los presentes",
-        "Dos tercios del Claustro",
         "La mitad más uno de los miembros del Claustro",
+        "Dos tercios del Claustro",
         "Unanimidad"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "El artículo 127 exige los votos de la mitad más uno de los miembros del Claustro.",
       "trampa": "No se calcula solo sobre los asistentes a la sesión.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 127.1 (BOE-A-2003-17782) · Manual, apartado 2.1"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 127.1 (BOE-A-2003-17782) · Manual, apartado 2.1",
+      "respuestaLiteral": "La mitad más uno de los miembros del Claustro"
     },
     {
       "id": "UC3M-T15-015",
       "pregunta": "¿Cuál es la duración del mandato del Defensor Universitario?",
       "opciones": [
         "Dos años, sin reelección",
-        "Tres años, con una sola reelección",
         "Cuatro años, con reelección ilimitada",
+        "Tres años, con una sola reelección",
         "Cinco años, sin reelección"
       ],
-      "correcta": 1,
+      "correcta": 2,
       "justificacion": "El mandato dura tres años y solo cabe una reelección.",
       "trampa": "El límite afecta al número de reelecciones, no a la duración de cada mandato.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 128.1 (BOE-A-2003-17782) · Manual, apartado 2.2"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 128.1 (BOE-A-2003-17782) · Manual, apartado 2.2",
+      "respuestaLiteral": "Tres años, con una sola reelección"
     },
     {
       "id": "UC3M-T15-016",
       "pregunta": "El Defensor Universitario Adjunto es designado por:",
       "opciones": [
         "El Rector libremente",
-        "El Consejo Social por mayoría absoluta",
         "El Claustro por mayoría simple, a propuesta del candidato",
+        "El Consejo Social por mayoría absoluta",
         "La Gerencia mediante concurso"
       ],
-      "correcta": 2,
+      "correcta": 1,
       "justificacion": "El candidato propone al Adjunto y el Claustro lo designa en la misma sesión por mayoría simple.",
       "trampa": "La mayoría exigida para el Adjunto es distinta de la elección del Defensor.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 128.2 (BOE-A-2003-17782) · Manual, apartado 2.2"
+      "referencia": "Estatutos UC3M, Decreto 1/2003, art. 128.2 (BOE-A-2003-17782) · Manual, apartado 2.2",
+      "respuestaLiteral": "El Claustro por mayoría simple, a propuesta del candidato"
     },
     {
       "id": "UC3M-T15-017",
       "pregunta": "¿Qué fracción mínima del Claustro puede proponer la reelección del Defensor junto a la posibilidad del Rector?",
       "opciones": [
-        "Una quinta parte",
         "Una décima parte",
+        "Una quinta parte",
         "Dos tercios",
         "Tres cuartas partes"
       ],
-      "correcta": 0,
+      "correcta": 1,
       "justificacion": "El art.128.1 atribuye iniciativa de propuesta al Rector o grupo de al menos una quinta parte del Claustro.",
       "trampa": "La quinta parte es iniciativa, no mayoría de elección.",
-      "referencia": "Estatutos UC3M, art.128.1"
+      "referencia": "Estatutos UC3M, art.128.1",
+      "respuestaLiteral": "Una quinta parte"
     },
     {
       "id": "UC3M-T15-018",
       "pregunta": "¿Cuándo presenta memoria el Defensor Universitario al Claustro?",
       "opciones": [
-        "Al terminar cada mandato",
         "Cada año al principio del curso",
+        "Al terminar cada mandato",
         "Cada cinco años",
         "Solo cuando lo exige un tribunal"
       ],
-      "correcta": 1,
+      "correcta": 0,
       "justificacion": "La memoria de actividades se presenta anualmente al comienzo del curso académico.",
       "trampa": "El mandato dura tres años, pero la memoria es anual.",
-      "referencia": "Estatutos UC3M, art.128.4"
+      "referencia": "Estatutos UC3M, art.128.4",
+      "respuestaLiteral": "Cada año al principio del curso"
     },
     {
       "id": "UC3M-T15-019",
@@ -260,13 +278,14 @@
       "opciones": [
         "100 %",
         "25 %",
-        "50 %",
-        "10 %"
+        "10 %",
+        "50 %"
       ],
-      "correcta": 2,
+      "correcta": 3,
       "justificacion": "El art.130 autoriza reducción de tareas hasta un 50 %.",
       "trampa": "No es un permiso para dejar toda la actividad de origen.",
-      "referencia": "Estatutos UC3M, art.130"
+      "referencia": "Estatutos UC3M, art.130",
+      "respuestaLiteral": "50 %"
     },
     {
       "id": "UC3M-T15-020",
@@ -280,21 +299,27 @@
       "correcta": 3,
       "justificacion": "Art.132.3: dos miembros por cada sector indicado.",
       "trampa": "No es la composición del Claustro.",
-      "referencia": "Estatutos UC3M, art.132.3"
+      "referencia": "Estatutos UC3M, art.132.3",
+      "respuestaLiteral": "Dos estudiantes, dos PAS y dos PDI"
     },
     {
       "id": "UC3M-T15-021",
       "pregunta": "¿A quién corresponde aprobar el Reglamento del Defensor Universitario?",
       "opciones": [
-        "Consejo de Gobierno, a propuesta del Rector y oído el Defensor",
         "Solo al Rector",
         "Al Consejo Social",
+        "Consejo de Gobierno, a propuesta del Rector y oído el Defensor",
         "A la Administración General del Estado"
       ],
-      "correcta": 0,
+      "correcta": 2,
       "justificacion": "El art.132.1 exige propuesta del Rector, aprobación del Consejo de Gobierno y audiencia al Defensor.",
       "trampa": "El Claustro elige al Defensor, no aprueba por sí solo su Reglamento.",
-      "referencia": "Estatutos UC3M, art.132.1"
+      "referencia": "Estatutos UC3M, art.132.1",
+      "respuestaLiteral": "Consejo de Gobierno, a propuesta del Rector y oído el Defensor"
     }
-  ]
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  }
 }
