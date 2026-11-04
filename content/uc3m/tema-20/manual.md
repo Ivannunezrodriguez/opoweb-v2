@@ -345,7 +345,26 @@ Se utiliza principalmente para obtener planos o proyectos, especialmente en arqu
 
 Son contratos que, por tipo, valor estimado y entidad contratante, quedan sometidos a las reglas europeas reforzadas de publicidad y procedimiento.
 
-Los umbrales se actualizan periódicamente. Desde el **1 de enero de 2026** deben utilizarse los importes vigentes resultantes de la actualización normativa publicada en diciembre de 2025.
+Los umbrales se actualizan periódicamente. Desde el **1 de enero de 2026** rige la [**Orden HAC/1517/2025, de 18 de diciembre**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605), publicada en el **BOE el 26/12/2025**.
+
+### Tabla de umbrales de regulación armonizada aplicables en 2026–2027
+
+| Contrato y ámbito subjetivo | Valor estimado **sin IVA** | Ley **9/2017** |
+|---|---:|---|
+| **Obras**, concesiones de obras o de servicios, umbral general | **≥ 5.404.000 €** | Arts. **20.1** y **23.1.a** |
+| **Suministros y servicios** de **AGE**, organismos autónomos o entidades gestoras/servicios comunes de **Seguridad Social** | **≥ 140.000 €** | Arts. **21.1.a** y **22.1.a** |
+| **Suministros y servicios** de otros poderes adjudicadores, como la **UC3M** | **≥ 216.000 €** | Arts. **21.1.b** y **22.1.b** |
+| Servicios sociales y otros servicios específicos del **anexo IV** | **≥ 750.000 €** | Art. **22.1.c** |
+
+Estos umbrales son diferentes de los del **recurso especial en materia de contratación**, que según el **artículo 44.1.a** es posible respecto de obras con valor estimado **superior a 3.000.000 €** y suministros/servicios **superiores a 100.000 €**, para los actos y contratos comprendidos legalmente.
+
+| Régimen distinto | Obras | Suministros y servicios |
+|---|---:|---:|
+| **Contrato menor** (**art. 118.1**) | **< 40.000 €** | **< 15.000 €** |
+| **Recurso especial** (**art. 44.1.a**) | **> 3.000.000 €** | **> 100.000 €** |
+| **SARA UC3M**, umbral general (**arts. 20–22**) | **≥ 5.404.000 €** | **≥ 216.000 €** |
+
+> ⚠️ **¡Foco Examen!:** La **UC3M** aplica **216.000 €** como umbral general **SARA** para suministros y servicios, no **140.000 €** de ciertos contratos de la **AGE**. El recurso especial por suministros/servicios de valor estimado **superior a 100.000 €** es **otra institución**. Contrato menor de servicios: valor estimado **inferior a 15.000 €**, nunca igual a esa cifra. Todos se expresan **sin IVA**.
 
 En examen debe distinguirse:
 
