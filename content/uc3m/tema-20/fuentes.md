@@ -33,3 +33,12 @@
 ## Criterio editorial
 
 Se priorizan los artículos de la LCSP directamente conectados con el epígrafe oficial: artículos 1, 2, 3, 12 a 18, 28, 29, 35 a 37, 61 a 64, 99 a 102, 116 a 124, 131 a 159, 198, 203 a 211 y concordantes. Los umbrales sujetos a actualización deben estudiarse siempre conforme a la normativa vigente en la fecha del examen.
+
+## Umbrales de 2026 contrastados en el BOE · **04/11/2026**
+
+- [**Orden HAC/1517/2025, de 18/12/2025, BOE-A-2025-26605**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605): umbrales aplicables **desde 01/01/2026** para **2026–2027**. Sustituye **5.538.000 por 5.404.000 €** en obras y concesiones generales; **221.000 por 216.000 €** para suministros/servicios de poderes adjudicadores distintos de la AGE, incluida **UC3M**; **143.000 por 140.000 €** en el ámbito AGE tasado legalmente.
+- [**LCSP art. 118.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a118): contrato menor con valor estimado **inferior a 40.000 €** (obras) o **inferior a 15.000 €** (suministros y servicios), sin IVA. **Igual a 15.000 €** ya no cumple el umbral de contrato menor de servicios.
+- [**LCSP art. 44.1.a**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a44): recurso especial, en actos comprendidos por la ley, si obras **> 3.000.000 €** o suministros/servicios **> 100.000 €**. No son los umbrales **SARA**.
+- [**LCSP arts. 21–22**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a22): **216.000 € UC3M**, **140.000 € AGE** y **750.000 €** para servicios sociales del anexo IV; depende de sujeto contratante y tipo de contrato.
+
+> ⚠️ **¡Foco Examen!:** **Contrato menor** (**< 15.000 €**) ≠ **recurso especial** (**> 100.000 €**) ≠ **SARA de UC3M** (**≥ 216.000 €**) para **servicios y suministros**. Todos los umbrales se expresan en **valor estimado sin IVA**.
