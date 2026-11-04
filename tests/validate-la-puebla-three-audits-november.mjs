@@ -25,7 +25,7 @@ for(const id of [1,8,9]){
   for(let i=0;i<4;i++)assert(segment.includes('| **'+'ABCD'[i]+'** | '+q.opciones[i]),'Missing distractor '+q.id+':'+i);
  }
  assert.deepEqual(counts,[3,3,3,3]);
- if(id===1)assert.equal(matrix.filas.length,5);
+ if(id===1)assert.equal(matrix.filas.length,6);
  if(id===8)assert.equal(matrix.incisosOficiales.length,2);
  if(id===9)assert.equal(matrix.cobertura.length,8);
 }
