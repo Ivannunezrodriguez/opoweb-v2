@@ -1,0 +1,175 @@
+{
+  "tema": 15,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T15-001",
+      "enunciado": "¿Qué protege principalmente un interruptor diferencial?",
+      "opciones": [
+        "Sobrecargas",
+        "Fugas de corriente",
+        "Potencia contratada",
+        "La lámpara fluorescente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El diferencial detecta un desequilibrio de corrientes asociado a fuga.",
+      "trampaExamen": "No confundir con el magnetotérmico.",
+      "referencia": "REBT, ITC-BT-24"
+    },
+    {
+      "id": "OLIAS-T15-002",
+      "enunciado": "¿Qué protege un magnetotérmico?",
+      "opciones": [
+        "Sobrecargas y cortocircuitos",
+        "Solo fugas a tierra",
+        "Solo contra sobretensiones atmosféricas",
+        "Potencia contratada exclusivamente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El disparo térmico y magnético protege ante sobreintensidades.",
+      "trampaExamen": "El diferencial detecta otras anomalías.",
+      "referencia": "REBT, ITC-BT-17"
+    },
+    {
+      "id": "OLIAS-T15-003",
+      "enunciado": "¿Qué controla normalmente el ICP o su función en el contador?",
+      "opciones": [
+        "La señalización",
+        "La potencia contratada",
+        "La toma de tierra",
+        "El timbre"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El ICP limita la potencia disponible al nivel contratado.",
+      "trampaExamen": "ICP no sustituye IGA.",
+      "referencia": "REBT, dispositivos de control y protección"
+    },
+    {
+      "id": "OLIAS-T15-004",
+      "enunciado": "Primera etapa al suprimir la tensión según RD 614/2001:",
+      "opciones": [
+        "Puesta a tierra",
+        "Delimitar",
+        "Desconectar",
+        "Rearmar"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El anexo II comienza por desconectar.",
+      "trampaExamen": "Las cinco etapas tienen orden.",
+      "referencia": "RD 614/2001, anexo II.A.1"
+    },
+    {
+      "id": "OLIAS-T15-005",
+      "enunciado": "Tras impedir la realimentación debe:",
+      "opciones": [
+        "Verificarse la ausencia de tensión",
+        "Encenderse una lámpara",
+        "Quitarse la toma de tierra",
+        "Aumentarse la potencia"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La tercera etapa es verificar ausencia de tensión.",
+      "trampaExamen": "Nunca basta una simple desconexión.",
+      "referencia": "RD 614/2001, anexo II.A.1"
+    },
+    {
+      "id": "OLIAS-T15-006",
+      "enunciado": "¿Qué mide el kWh?",
+      "opciones": [
+        "Resistencia",
+        "Tensión",
+        "Intensidad",
+        "Energía"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El kilovatio hora mide energía consumida.",
+      "trampaExamen": "kW y kWh son magnitudes distintas.",
+      "referencia": "Electricidad básica, apartado 2"
+    },
+    {
+      "id": "OLIAS-T15-007",
+      "enunciado": "¿Qué componente hace sonar un timbre mientras se mantiene pulsado?",
+      "opciones": [
+        "Pulsador normalmente abierto",
+        "Conmutador de cruce",
+        "Diferencial",
+        "Reactancia"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El pulsador NA cierra el circuito mientras se mantiene accionado.",
+      "trampaExamen": "Un interruptor puede mantener su posición.",
+      "referencia": "Tema 15, apartado 6"
+    },
+    {
+      "id": "OLIAS-T15-008",
+      "enunciado": "Para controlar una luz desde dos lugares habitualmente se emplean:",
+      "opciones": [
+        "Dos diferenciales",
+        "Dos conmutadores",
+        "Dos transformadores",
+        "Dos timbres"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Dos conmutadores permiten maniobra desde dos puntos.",
+      "trampaExamen": "El cruzamiento se emplea para ampliar puntos.",
+      "referencia": "Tema 15, apartado 7"
+    },
+    {
+      "id": "OLIAS-T15-009",
+      "enunciado": "Color típico armonizado del conductor de protección:",
+      "opciones": [
+        "Azul",
+        "Marrón",
+        "Verde-amarillo",
+        "Negro"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El verde-amarillo identifica el conductor de protección.",
+      "trampaExamen": "Neutro y tierra no se confunden.",
+      "referencia": "REBT, identificación de conductores"
+    },
+    {
+      "id": "OLIAS-T15-010",
+      "enunciado": "Función de la reactancia de fluorescente tradicional:",
+      "opciones": [
+        "Limitar corriente",
+        "Producir señal de emergencia",
+        "Sustituir una toma de tierra",
+        "Activar alarma"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La reactancia o balasto limita la corriente.",
+      "trampaExamen": "No confundir con cebador de arranque.",
+      "referencia": "Tema 15, apartado 8"
+    },
+    {
+      "id": "OLIAS-T15-011",
+      "enunciado": "¿Para qué sirve el alumbrado de emergencia?",
+      "opciones": [
+        "Control de potencia",
+        "Iluminación de seguridad/evacuación ante fallo del normal",
+        "Detectar cortocircuitos",
+        "Abrir una válvula"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Permite orientar y evacuar cuando falla la iluminación ordinaria.",
+      "trampaExamen": "No equivale al sistema de alarma.",
+      "referencia": "Tema 15, apartado 9"
+    },
+    {
+      "id": "OLIAS-T15-012",
+      "enunciado": "Si dispara repetidamente un diferencial, la actuación segura del auxiliar no habilitado es:",
+      "opciones": [
+        "Puentearlo",
+        "Rearmarlo sin límite",
+        "Quitar la tierra",
+        "Señalizar incidencia y avisar al servicio competente"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Un disparo repetido puede avisar de defecto y requiere análisis competente.",
+      "trampaExamen": "No anular protecciones.",
+      "referencia": "RD 614/2001, art. 4"
+    }
+  ]
+}
