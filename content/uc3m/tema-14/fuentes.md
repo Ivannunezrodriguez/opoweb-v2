@@ -48,4 +48,13 @@ Fuente primaria: [**LOSU, artículos 45.3 y 46.3 (BOE-A-2023-7500)**](https://ww
 
 > ⚠️ **¡Foco Examen!:** El **25 %** corresponde al estudiantado del **Claustro**, no del **Consejo de Gobierno**, donde la LOSU establece **10 % mínimo**. La regla del **51 %** se refiere a docentes del Claustro, no al alumnado.
 
-**Cambio editorial:** ampliado el apartado 2 del manual UC3M tema 14 y sustituida la antigua pregunta general **UC3M-T14-002** por una pregunta verificable sobre el **25 % mínimo del Claustro**. La clave pasa de **B** a **C** de forma **intencionada**, conservando las **14** preguntas. **No equivale a certificar todo el tema ni fija la fecha de corte normativo del ejercicio**.
+**Cambio editorial:** ampliado el apartado 2 del manual UC3M tema 14 y sustituida la antigua pregunta general **UC3M-T14-002** por una pregunta verificable sobre el **25 % mínimo del Claustro**. La clave correcta **es B** (**«El 25 %»**, posición segunda) en el **banco publicado**. Una anotación previa afirmaba por error que la clave había pasado de **B a C**: esa afirmación no coincide con `preguntas.json` y se rectifica expresamente, **sin tocar la pregunta ni cambiar su clave correcta**. **No equivale a certificar todo el tema ni fija la fecha de corte normativo del ejercicio**.
+
+## Contraste jurídico y coherencia banco/manual · **04/11/2026**
+
+- [**LOSU art. 45.3, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a45): **estudiantado ≥25 % en Claustro**, **51 % de docentes funcionarios y permanentes laborales**. Los **dos porcentajes** pertenecen al **artículo 45.3**; una anotación del manual atribuía erróneamente el 51 % al art. 45.2.
+- [**LOSU art. 46.3**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a46): **≥10 % alumnado y ≥10 % PTGAS en Consejo de Gobierno**; **un tercio** de sus miembros elegido por Rector, contando miembros natos.
+- [**LOSU art. 57.7**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a57): **≥5 % del presupuesto** a programas propios de investigación. A diferencia del objetivo plurianual del **1 % del PIB** de art. 55, es una reserva presupuestaria individual de las universidades.
+- **Control de respuestas:** **UC3M-T14-002** muestra **opción B: «El 25 %»**, con `correcta: 1`; el dato se mantiene y se rectifica exclusivamente la anotación histórica de esta página que decía **C**.
+
+> ⚠️ **¡Foco Examen!:** **Art. 45.3** establece **25 % mínimo de estudiantado en Claustro** y **51 % de PDI funcionario y permanente laboral**. **Art. 46.3** establece **10 % mínimo de estudiantes y PTGAS en Consejo de Gobierno**. No atribuir el **51 %** al art. **45.2**.
