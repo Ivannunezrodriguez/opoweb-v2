@@ -109,6 +109,8 @@ Reglas de rendimiento publicadas por la UC3M:
 - en el primer año académico deben superarse al menos **12 créditos** del primer curso;
 - el primer curso completo debe superarse en **dos años académicos consecutivos**;
 - en titulaciones de la rama de ingeniería, el plazo es de **tres años académicos consecutivos**;
+- para estudiantes a **tiempo parcial**, la norma específica exige superar **al menos una asignatura en el primer año** y computa **cada curso de matrícula parcial como medio curso** a efectos del plazo para completar primero; no debe aplicarse mecánicamente el umbral general de 12 créditos sin esta salvedad (normativa UC3M, **art. 1.3**);
+- para los **Grados Abiertos UC3M**, se exige alcanzar **90 ECTS** en **dos años** (Ciencias Sociales y Humanidades) o **tres años** (Ingeniería), con acceso posterior al grado de destino conforme a las condiciones de la Universidad (**art. 1.2.b**);
 - se dispone de **cuatro convocatorias** por asignatura;
 - en titulaciones de ingeniería se dispone de **seis convocatorias**.
 
@@ -172,7 +174,7 @@ La Universidad debe aprobar un calendario de extinción que regule convocatorias
 - Enseñanzas oficiales: Grado, Máster Universitario y Doctorado.
 - Curso completo: 60 ECTS; en UC3M, 1 ECTS = 25 horas de trabajo.
 - Tiempo parcial: 30 ECTS el primer año y mínimo 18 en los siguientes.
-- Permanencia: 12 créditos el primer año; primer curso en dos años, tres en ingeniería.
+- Permanencia: regla general de 12 créditos el primer año y primer curso en dos años (tres en ingeniería); **excepciones expresas para tiempo parcial y Grados Abiertos** (art. 1.2.b y 1.3 UC3M).
 - Convocatorias: cuatro; seis en ingeniería.
 - Evaluación continua: mínimo 40 %; examen final, máximo 60 %.
 - Extraordinaria sin evaluación continua: examen del 100 %.
