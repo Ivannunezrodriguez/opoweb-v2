@@ -1939,3 +1939,27 @@ Se corrigió además en el [**manual T11**](content/diputacion-toledo-auxiliar-c
 **51/121 temas** con cotejo individual del banco: **La Puebla 19/19**, **UC3M 20/20**, **Diputación Toledo C2 12/20** (**T01–T05, T07–T13**; **T06 sigue aplazado hasta el final**). Acumulado **728 preguntas y 2.912 alternativas cotejadas**. **42,1 %** es el porcentaje de **temas con banco auditado**, no certificación integral técnico-jurídica ni accesibilidad. **0/121** con todas las capas demostradas.
 
 **Próxima prioridad:** **Diputación Toledo C2 T14–T16**, manteniendo la decisión editorial de dejar **T06** para el final. Persisten las reservas transversales de fecha primaria de corte normativo UC3M y prueba real de navegador y accesibilidad.
+
+
+## 64. Incidencia funcional: práctica de Diputación Auxiliar C2 — 05/11/2026
+
+### 64.1. Problema reproducible localizado
+
+La portada `assets/app.js` incluía la convocatoria **Diputación Toledo Auxiliar Administrativo C2**, con enlace a `practice.html`, pero el selector `CALLS` de `assets/practice.js` **no incluía ese identificador**. Por tanto, `loadCall(id)` aplicaba el fallback `CALLS[0]`, cargando **La Puebla** aun cuando el aspirante entraba desde el programa de **Diputación C2**. Era una mezcla funcional de convocatorias que no se detectaba mediante la sola validación de los bancos JSON.
+
+### 64.2. Corrección aplicada en producción
+
+- Añadido `diputacion-toledo-auxiliar-c2-2026` al catálogo de práctica con programa oficial propio, carpeta de sus **20 temas**, clave de historial independiente y cuestionarios `DT-C2-T*`.
+- Los **supuestos prácticos** y **simulacros** de esta convocatoria todavía no existen como ficheros editoriales propios: la carga ahora admite estos recursos **opcionales** en vez de solicitarlos y terminar en error. No se simula disponer de pruebas oficiales inéditas.
+- Bloqueadas las **29 preguntas provisionales del T06** (Acuerdo Regulador y Estatutos OAPGT), hasta verificar el texto consolidado; se identifica el motivo de su indisponibilidad y se deshabilita su tarjeta en la práctica.
+- Las demás preguntas disponibles se ofrecen como **entrenamiento**, sin presentar el conjunto como certificación jurídico-editorial integral. Los temas sin preguntas utilizables se muestran deshabilitados.
+- El panel de **errores y temas débiles** también reconoce la nueva convocatoria y separa su progreso del de La Puebla y Diputación C1.
+- Actualizados los parámetros de versión de los scripts en `practice.html` para evitar referencias antiguas almacenadas en caché.
+
+### 64.3. Evidencia automática y limitaciones
+
+- Nueva prueba [`tests/validate-diputacion-c2-practice-route.mjs`](tests/validate-diputacion-c2-practice-route.mjs), integrada en `npm test`: verifica selección correcta, **19 bancos accesibles**, exclusión del **T06**, carga sin recursos inexistentes, historial independiente y versión de scripts.
+- Cambio jurídico: **ninguno**; no se alteraron respuestas ni contenidos normativos.
+- **51/121** bancos auditados individualmente y **0/121** con certificación integral demostrada: la corrección funcional no incrementa esas métricas.
+- La compilación sintáctica aislada del JavaScript se comprobó en el editor. **CI/Pages del último commit: verificar su resultado definitivo**, sin dar por realizada la prueba de navegador real, móvil ni accesibilidad.
+- **Próxima auditoría jurídico-editorial:** Diputación Auxiliar C2 T14–T16; T06 permanece aplazado hasta completar sus fuentes oficiales.
