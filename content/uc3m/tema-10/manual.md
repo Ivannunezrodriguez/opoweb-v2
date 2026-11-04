@@ -20,10 +20,19 @@ Las funciones que impliquen participación directa o indirecta en el ejercicio d
 
 Son nombrados temporalmente por razones expresamente justificadas de necesidad y urgencia para:
 
-- cubrir plazas vacantes cuando no sea posible hacerlo por funcionarios de carrera;
-- sustituir transitoriamente a titulares;
-- ejecutar programas de carácter temporal;
-- atender exceso o acumulación de tareas dentro de los límites legales.
+- cubrir **plazas vacantes** sin funcionario de carrera disponible: **máximo 3 años**, con las excepciones del **artículo 10.4**;
+- **sustituir transitoriamente a titulares** durante el tiempo **estrictamente necesario**;
+- ejecutar **programas temporales**: **máximo 3 años**, ampliables hasta **12 meses más** únicamente cuando así lo prevean las leyes de Función Pública de desarrollo;
+- atender **exceso o acumulación de tareas**: máximo **9 meses dentro de un periodo de 18 meses**.
+
+| Supuesto del artículo **10.1 TREBEP** | Duración general |
+|---|---|
+| **a) Vacante** | **3 años**, con condiciones del **art. 10.4** |
+| **b) Sustitución** | Tiempo **estrictamente necesario** |
+| **c) Programa temporal** | **3 años**, ampliables **12 meses** por ley de desarrollo |
+| **d) Acumulación de tareas** | **9 meses** dentro de **18 meses** |
+
+> ⚠️ **¡Foco Examen!:** No intercambiar **3 años de vacante**, **3 años + posible prórroga legal de 12 meses de programa**, y **9 meses en 18 de acumulación de tareas**. La superación de una selección de interinos **NO convierte** en funcionario de carrera.
 
 Su selección debe respetar igualdad, mérito, capacidad, publicidad y celeridad. La interinidad no genera por sí sola derecho a adquirir la condición de funcionario de carrera.
 
@@ -152,7 +161,9 @@ La condición se pierde por:
 - sanción disciplinaria firme de separación del servicio;
 - pena principal o accesoria firme de inhabilitación absoluta o especial.
 
-La renuncia debe formularse por escrito y ser aceptada expresamente. No puede aceptarse cuando exista expediente disciplinario o procedimiento penal por delito relacionado con la función pública. La renuncia no impide un nuevo ingreso posterior.
+La renuncia debe presentarse **por escrito** y ser **aceptada expresamente por la Administración** (**artículo 64.1**). **No puede aceptarse** si el funcionario está sujeto a **expediente disciplinario**, o si se ha dictado contra él **auto de procesamiento o de apertura de juicio oral por la comisión de algún delito** (**artículo 64.2**). Esta última prohibición **no se limita a delitos relacionados con la función pública**. La renuncia no inhabilita para un ingreso posterior, que requerirá superar el proceso selectivo correspondiente.
+
+> ⚠️ **¡Foco Examen!:** La frase «procedimiento penal por delito relacionado con la función pública» era **demasiado restrictiva**: el artículo **64.2** habla de **auto de procesamiento o apertura de juicio oral por algún delito**, no de cualquier investigación abierta ni solo de delitos funcionales.
 
 ## 11. Jubilación
 
@@ -181,7 +192,9 @@ Se aplica a funcionarios transferidos o que obtienen destino en otra Administrac
 
 ### Excedencia voluntaria por interés particular
 
-Exige, como regla general, un período previo de servicios efectivos y queda subordinada a las necesidades del servicio. No devenga retribuciones ni computa a efectos de ascensos, trienios o Seguridad Social.
+El artículo **89.2** exige, como regla estatal, **5 años de servicios efectivos inmediatamente anteriores** en cualquiera de las **Administraciones Públicas**; una **ley de Función Pública** de desarrollo puede establecer un período inferior y mínimos de permanencia. Su concesión queda subordinada a las **necesidades del servicio debidamente motivadas**, y **no procede** cuando se instruya **expediente disciplinario** al funcionario. No devenga retribuciones ni computa a efectos de ascensos, trienios o Seguridad Social.
+
+> ⚠️ **¡Foco Examen!:** **5 años previos** es la regla del **TREBEP art. 89.2** para interés particular, pero **no** debe exigirse en toda excedencia: la **agrupación familiar** del **art. 89.3** no exige ese periodo.
 
 ### Excedencia por agrupación familiar
 
@@ -203,7 +216,9 @@ Protege a funcionarios víctimas de terrorismo o amenazados, en los términos le
 
 Priva temporalmente del ejercicio de funciones y de los derechos inherentes. Puede ser provisional, durante un procedimiento judicial o disciplinario, o firme, como consecuencia de sentencia o sanción.
 
-La suspensión firme superior a seis meses determina la pérdida del puesto de trabajo.
+La suspensión **superior a 6 meses**, incluso en el alcance general del artículo **90.1**, determina **pérdida del puesto de trabajo**, no automáticamente pérdida de la condición de funcionario. La **suspensión firme disciplinaria** no puede superar **6 años** (**art. 90.2**).
+
+> ⚠️ **¡Foco Examen!:** **Pérdida del puesto** por suspensión que excede **6 meses** no equivale a **separación del servicio** ni a pérdida de la condición de funcionario; y la sanción disciplinaria de suspensión firme tiene máximo **6 años**.
 
 ## 13. Reingreso al servicio activo
 
