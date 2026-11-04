@@ -47,25 +47,24 @@ assert.match(app,/olias-del-rey-auxiliar-edificios-c2-2026/);
 assert.match(app,/2026\.00004833/);
 assert.ok(existsSync('content/olias-auxiliar-edificios/GUIA_SOLICITUD_EXAMEN_2026.md'));
 
-// Controles editoriales concretos: protegen datos test y la matriz ley-artículo.
-// No sustituyen una auditoría jurídica íntegra contra normas consolidadas.
+// Controles editoriales concretos: protegen cifras jurídicas y el enlace ley-artículo.
 const findTheme = number => programme.temas.find(t => t.numero === number);
 for (const [number, requirements, expected] of [
- [4, [/\\*\\*1 año\\*\\*/, /\\*\\*40 %\\*\\*/, /art\\. 64/], 24],
- [15, [/\\*\\*1 lux\\*\\*/, /\\*\\*5 lux\\*\\*/, /ITC-BT-28/], 20],
- [18, [/\\*\\*70 kW\\*\\*/, /\\*\\*5 años como mínimo\\*\\*/, /art\\. 28/], 16],
- [20, [/\\*\\*10 años\\*\\*/, /26 de noviembre de 2015/, /art\\. 20/], 16],
+ [4, ['**1 año**','**40 %**','art. 64'], 24],
+ [15, ['**1 lux**','**5 lux**','ITC-BT-28'], 20],
+ [18, ['**70 kW**','**5 años como mínimo**','art. 28'], 16],
+ [20, ['**10 años**','26 de noviembre de 2015','art. 20'], 16],
 ]) {
- const t = findTheme(number);
- const manual = readFileSync(t.manual,'utf8');
- for (const pattern of requirements) assert.match(manual,pattern,'Falta hito legal en tema '+number);
- assert.equal(read(t.preguntas).preguntas.length,expected,'Banco incompleto del tema '+number);
+ const theme = findTheme(number);
+ const manual = readFileSync(theme.manual, 'utf8');
+ for (const needle of requirements) assert.ok(manual.includes(needle), 'Falta hito de tema '+number+': '+needle);
+ assert.equal(read(theme.preguntas).preguntas.length, expected, 'Banco de tema '+number);
 }
 const map2 = read(findTheme(2).matriz).filas;
 const map3 = read(findTheme(3).matriz).filas;
 const map4 = read(findTheme(4).matriz).filas;
-assert.match(map2.find(x=>x.inciso.includes('Hacienda')).norma,/2\\/2004/);
-assert.match(map3.find(x=>x.inciso.includes('Prevención')).norma,/31\\/1995/);
-assert(map4.every(x=>x.norma==='LO 3/2007'),'Igualdad AGE asociada a artículo de otra norma');
+assert.ok(map2.find(x => x.inciso.includes('Hacienda')).norma.includes('2/2004'));
+assert.ok(map3.find(x => x.inciso.includes('Prevención')).norma.includes('31/1995'));
+assert.ok(map4.every(x => x.norma === 'LO 3/2007'), 'Igualdad AGE asociada a otra norma');
 console.log('OLIAS_C2_2026_OK: 22 temas y manuales EN_AUDITORIA; 264 preguntas temáticas, 40 psicotécnicas y dos modelos; incidencias de plazo y plazas aún abiertas.');
 
