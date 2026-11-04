@@ -30,11 +30,17 @@ Conforme al artículo 127 de los Estatutos:
 - el **Claustro Universitario elige** al Defensor;
 - resulta elegido quien obtenga los votos de la **mitad más uno de los miembros del Claustro**.
 
-El cese se acuerda por el Claustro con la misma mayoría por alguna de estas causas:
+El **art. 127.2 de los Estatutos**, en la redacción dada por el **Decreto 95/2009, de 12 de noviembre** (**BOCM n.º 288, 04/12/2009**), diferencia **dos vías de cese**:
 
-- petición propia;
-- incumplimiento de sus obligaciones;
-- actuaciones que den lugar a lesión de derechos.
+- **A petición propia** del Defensor: no se exige la misma votación que para acordar un cese por causas imputables.
+- **Por acuerdo del Claustro**, con la **misma mayoría exigida para elegirlo** (**mitad más uno de sus miembros**), **por incumplimiento de obligaciones** o **por actuaciones que den lugar a lesión de derechos**.
+
+| Vía de cese | Quién la promueve / decide | Mayoría |
+|---|---|---|
+| **Petición propia** | Renuncia del **Defensor Universitario** | **No exige** mayoría del Claustro del art. 127.2 |
+| **Incumplimiento o lesión de derechos** | Acuerdo del **Claustro Universitario** | **Mitad más uno de sus miembros** |
+
+> ⚠️ **¡Foco Examen!:** La redacción de **2009** separa **renuncia voluntaria** del **cese acordado por Claustro**. La mayoría de **mitad más uno** corresponde al **acuerdo por incumplimiento o lesión**, no a la simple petición propia.
 
 ### 2.2. Mandato, reelección, Adjunto y memoria
 
@@ -71,6 +77,8 @@ El Reglamento de organización y funcionamiento es aprobado por el Consejo de Go
 | Actuación | Quién o composición | Mayoría o periodicidad |
 |---|---|---|
 | Propuesta y elección | **Rector** propone; **Claustro** elige | **Mitad más uno de todos los miembros** (**art.127**) |
+| **Cese a petición propia** | Solicitud del **Defensor** | No exige la misma mayoría del **Claustro** que un cese por causa disciplinaria estatutaria |
+| **Cese por incumplimiento o lesión** | **Claustro** | **Mitad más uno de sus miembros** (**art. 127.2, reforma de 2009**) |
 | Iniciativa de reelección | **Rector** o claustrales | Grupo de **al menos una quinta parte**; **una reelección** (**art.128.1**) |
 | Designación del Adjunto | **Claustro** a propuesta de candidato | **Mayoría simple**, misma sesión (**art.128.2**) |
 | Memoria | **Defensor** ante **Claustro** | **Anualmente al inicio del curso** (**art.128.4**) |

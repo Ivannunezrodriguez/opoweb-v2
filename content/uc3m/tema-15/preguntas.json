@@ -34,18 +34,18 @@
     },
     {
       "id": "UC3M-T15-003",
-      "pregunta": "¿Cuál de estas potestades NO corresponde al Defensor Universitario?",
+      "pregunta": "Según el artículo 127.2 de los Estatutos UC3M reformado en 2009, ¿qué diferencia el cese a petición propia del cese por incumplimiento?",
       "opciones": [
-        "Solicitar información",
-        "Formular recomendaciones",
-        "Imponer sanciones disciplinarias",
-        "Iniciar actuaciones de oficio"
+        "En ambos casos se exige acuerdo del Consejo de Gobierno por mayoría absoluta",
+        "En ambos casos es obligatorio acuerdo del Claustro por mitad más uno",
+        "La petición propia no exige el acuerdo del Claustro previsto para el cese por incumplimiento o lesión de derechos",
+        "El Rector decide el cese por incumplimiento con la mayoría simple del Consejo de Gobierno"
       ],
       "correcta": 2,
-      "justificacion": "El Defensor carece de potestad sancionadora.",
-      "trampa": "Su capacidad investigadora no equivale a potestad ejecutiva o disciplinaria.",
-      "referencia": "Estatutos UC3M, Decreto 1/2003, arts. 127-132 (BOE-A-2003-17782) · Manual, apartados 2 y 3",
-      "respuestaLiteral": "Imponer sanciones disciplinarias"
+      "justificacion": "El Decreto 95/2009 (BOCM 288, 04/12/2009) modifica el art. 127.2: el cese se produce a petición propia O por acuerdo del Claustro con la mayoría de elección cuando existe incumplimiento o actuación que lesiona derechos. La mayoría del Claustro no se atribuye a la petición propia.",
+      "trampa": "El cese a petición propia no es la causa de cese por acuerdo del Claustro. Este último exige mitad más uno de los miembros por incumplimiento o lesión.",
+      "referencia": "Decreto 95/2009, 12/11/2009, BOCM 288 de 04/12/2009, art. 127.2 Estatutos UC3M · https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf",
+      "respuestaLiteral": "La petición propia no exige el acuerdo del Claustro previsto para el cese por incumplimiento o lesión de derechos"
     },
     {
       "id": "UC3M-T15-004",
@@ -321,5 +321,12 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlArt127Cese20261104": {
+    "fecha": "2026-11-04",
+    "pregunta": "UC3M-T15-003",
+    "norma": "Decreto 95/2009, BOCM 288/2009, art. 127.2 UC3M",
+    "correccion": "Distingue renuncia voluntaria del acuerdo de cese por incumplimiento/lesión, mayoría solo en segunda vía",
+    "alcance": "Revisión jurídica focal; no aprobación integral"
   }
 }

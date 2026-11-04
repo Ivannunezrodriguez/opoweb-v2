@@ -48,3 +48,16 @@ Fecha de revisión editorial: **23 de julio de 2026**.
 ## Control estatutario puntual, **04/11/2026**
 
 [**Decreto 1/2003, Estatutos UC3M, arts. 127–132**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782): mayoría de elección, reelección, memoria, reducción máxima **50 %**, órgano asesor **2+2+2**. Esta comprobación focal **no certifica el tema íntegro**; en 2026 la documentación universitaria también identifica la modificación mediante **Decreto 95/2009**.
+
+## Hallazgo jurídico sustantivo — **04/11/2026**: reforma vigente del **art. 127.2**
+
+La redacción de **2003** no basta por sí sola para el cese. El [**Decreto 95/2009**, BOCM 288 de **04/12/2009**, apartado cincuenta y tres](https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf) sustituyó el **artículo 127.2** y separa **cese a petición propia** de **cese por acuerdo del Claustro, con la misma mayoría de elección**, en casos de **incumplimiento de obligaciones** o **lesión de derechos**.
+
+| Vía de cese | Regla del Estatuto modificado |
+|---|---|
+| **Petición propia** | Cese por voluntad del Defensor; no necesita votación del Claustro por la mayoría propia del cese por causa |
+| **Incumplimiento / lesión de derechos** | **Acuerdo del Claustro** por **mitad más uno de todos sus miembros**, misma mayoría de la elección |
+
+**Corrección:** se reemplazó el apartado erróneo del manual y se transformó **UC3M-T15-003** (antes duplicaba un concepto general de funciones y límites) en una pregunta de test de las **dos vías de cese**, conservando ID, 4 distractores y la posición de la respuesta verdadera para no romper las estadísticas ni simulacros. La matriz de cobertura asocia la pregunta al epígrafe **2.1**. Verificar también cambios universitarios posteriores antes de certificar toda la materia.
+
+> ⚠️ **¡Foco Examen!:** **Renuncia voluntaria ≠ cese por acuerdo del Claustro**; la mayoría del **art. 127.2** se refiere al segundo caso. **Decreto 95/2009**, no solo Decreto de **2003**.

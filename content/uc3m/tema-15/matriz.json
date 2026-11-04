@@ -18,8 +18,7 @@
       ],
       "preguntas": [
         "UC3M-T15-001",
-        "UC3M-T15-002",
-        "UC3M-T15-003"
+        "UC3M-T15-002"
       ]
     },
     {
@@ -29,6 +28,7 @@
         "2.2"
       ],
       "preguntas": [
+        "UC3M-T15-003",
         "UC3M-T15-013",
         "UC3M-T15-014",
         "UC3M-T15-015",
@@ -96,6 +96,13 @@
     "fuentesOficiales": true,
     "pendienteRevisionUsuario": true,
     "incidenciaTransversalCorregida": "El borrador explicaba la función general del Defensor, pero omitía las reglas estatutarias de propuesta, elección, mayoría, mandato, reelección, Adjunto, memoria anual y órgano asesor.",
-    "contrasteParcial2026": "2026-11-04, arts.127–132, cinco preguntas más, estado no certificado"
+    "contrasteParcial2026": "2026-11-04, arts.127–132, cinco preguntas más, estado no certificado",
+    "correccionArt1272009": {
+      "fecha": "2026-11-04",
+      "norma": "Decreto 95/2009 BOCM 288/2009, art. 127.2",
+      "pregunta": "UC3M-T15-003",
+      "distincion": "Renuncia a petición propia vs acuerdo del Claustro por incumplimiento o lesión",
+      "estado": "REVISION_FOCAL_PENDIENTE_REVISION_GLOBAL"
+    }
   }
 }

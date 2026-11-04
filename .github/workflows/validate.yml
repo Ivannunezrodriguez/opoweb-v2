@@ -41,6 +41,8 @@ jobs:
         run: node tests/validate-practice-exam.mjs
       - name: Verificar distribución de 260 claves UC3M
         run: node tests/validate-uc3m-answer-distribution.mjs
+      - name: Verificar reforma 2009 del cese del Defensor UC3M
+        run: node tests/validate-uc3m-statutes-cese.mjs
       - name: Validar 3 simulacros UC3M 70+5 y puntuación directa
         run: node tests/validate-uc3m-exams.mjs
       - name: Comprobar distribución de 803 respuestas de Diputación C1

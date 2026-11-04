@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const dir='content/uc3m/tema-15/';
+const man=readFileSync(dir+'manual.md','utf8');
+const bank=JSON.parse(readFileSync(dir+'preguntas.json','utf8'));
+const matrix=JSON.parse(readFileSync(dir+'matriz.json','utf8'));
+assert(man.includes('redacción dada por el **Decreto 95/2009'));
+assert(man.includes('**A petición propia**'));
+assert(man.includes('**Por acuerdo del Claustro**'));
+assert(!man.includes('El cese se acuerda por el Claustro con la misma mayoría por alguna de estas causas:'));
+const q=bank.preguntas.find(x=>x.id==='UC3M-T15-003');
+assert(q);
+assert(q.pregunta.includes('cese a petición propia'));
+assert(q.opciones[q.correcta].includes('no exige el acuerdo del Claustro'));
+assert.equal(q.respuestaLiteral,q.opciones[q.correcta]);
+assert(q.referencia.includes('95/2009'));
+assert(matrix.cobertura.some(row=>row.bloque.includes('propuesta, elección, cese')&&row.preguntas.includes(q.id)));
+console.log('UC3M_T15_ART_127_CESE_2009_REFORM_AND_RENDERED_TEST_OK');
