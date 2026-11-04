@@ -61,7 +61,7 @@ assert(t8.includes('**31–49**')&&t8.includes('**15 días**'),'T08 delegates an
 assert(t8.includes('**50 trabajadores**')&&t8.includes('**trimestrales**'),'T08 committee formation/meetings lost');
 const new9={
  'DT-C2-T09-011':['artículo 13','procesos penales',1],
- 'DT-C2-T09-012':['artículo 7.4','derecho o expectativa',2],
+ 'DT-C2-T09-012':['artículo 7.4','discriminación',2],
  'DT-C2-T09-016':['artículo 9.1','anteproyecto',2],
  'DT-C2-T09-018':['artículo 45.2','cincuenta',0]
 };
@@ -81,7 +81,7 @@ for(const [id,[questionToken,answerToken,key]] of Object.entries(new10)){
   assert(q&&q.enunciado.includes(questionToken),'T10 repeated question restored '+id);
   assert(q.respuestaCorrecta===key&&q.opciones[key].includes(answerToken),'T10 revised key lost '+id);
 }
-assert(t10.includes('**1 mes**')&&t10.includes('**72 h**'),'T10 two GDPR deadlines missing');
+assert(t10.includes('**1 mes**')&&t10.includes('72 h desde'),'T10 two GDPR deadlines missing');
 assert(t10manual.includes('**no existe un fichero `articulos.md` en esta carpeta**'),'T10 phantom article file reference not repaired');
 for(const n of [8,9,10]){
  const matrix=JSON.parse(readFileSync(base+'tema-'+String(n).padStart(2,'0')+'/matriz.json','utf8')).controlIntegralBanco20261104;
