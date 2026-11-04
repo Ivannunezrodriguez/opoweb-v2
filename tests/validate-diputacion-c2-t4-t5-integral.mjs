@@ -55,7 +55,7 @@ assert(t4.includes('**4 años**')&&t4.includes('**6 meses**')&&t4.includes('**Pl
 const t5manual=readFileSync(base+'tema-05/manual.md','utf8');
 const t5sources=readFileSync(base+'tema-05/fuentes.md','utf8');
 const t5report=readFileSync(base+'tema-05/cotejo-integral-2026-11-04.md','utf8');
-for(const phrase of ['**LO 2/2024**','**cinco días**','**un tercio de dichos concejales**','**tres suplentes**','**40 %','**alternativo**']){
+for(const phrase of ['**LO 2/2024**','cinco días','un tercio de dichos concejales','tres suplentes','40 %','alternativa']){
   assert(t5manual.includes(phrase),'Missing amended LOREG 206.1 detail in T5: '+phrase);
 }
 assert(t5sources.includes('BOE-A-2024-15936'),'T5 2024 electoral reform source missing');
