@@ -529,3 +529,17 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 7 aprobad
 > ⚠️ **¡Foco Examen!:** Un **servicio de prevención ajeno** no elimina las obligaciones legales del **empresario**. Las medidas de **protección colectiva** tienen prioridad sobre los **EPI**.
 
 **Fuentes oficiales:** [Ley 31/1995, consolidada 09/04/2026](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) y [RD 39/1997, consolidado 17/10/2025](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853). **Banco:** 20 preguntas originales con fundamento normativo.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Informe de 20 preguntas y 80 alternativas LPRL/RSP exactas**](cotejo-integral-2026-11-04.md), con fundamento de cada distractor y citas a los **arts. 14–38 LPRL** y **10–14 RSP**. El cotejo documental de preguntas **no** equivale a auditoría íntegra del manual, navegadores o accesibilidad.
+
+| Plantilla | Delegados de Prevención |
+|---|---|
+| **Hasta 30** | El **Delegado de Personal** actúa como Delegado de Prevención |
+| **31–49** | **1**, elegido **por y entre Delegados de Personal** |
+| **50–100** | **2** |
+| **101–500** | **3** |
+
+> ⚠️ **¡Foco Examen!:** El **Comité de Seguridad y Salud** es obligatorio con **50 o más trabajadores** y se reúne **trimestralmente**; los delegados emiten informe sobre consultas del art. 33 en **15 días**, salvo riesgo inminente.
+
