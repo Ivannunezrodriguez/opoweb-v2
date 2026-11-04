@@ -820,3 +820,44 @@ El avance de estas correcciones **no modifica** el indicador de §33: **121/121 
 **Siguiente trabajo sin reabrir lo ya hecho:** La Puebla T12 resto de artículos y **banco de preguntas** contrastado de forma integral, luego T10/T13 para el examen del **14/11**; UC3M T15/T16 y fecha oficial de corte (examen **21/11**); Diputación C1/C2 y Olías técnica/local. **C2 OAPGT T6 al final**, y **no reabrir Carranque ni Las Ventas**. Revisar resultado de CI y Pages del último commit antes de declararlo desplegado. El objetivo sigue siendo terminar la auditoría integral de las cinco convocatorias, **sin asignar 100 % a los trabajos no contrastados**.
 
 > ⚠️ **¡Foco Examen!:** **104.3** no sujeción familiar tasada; **104.5** inexistencia de incremento con prueba; **105** exención; **106.2** sustituto solo para **adquirente en onerosa con transmitente persona física no residente**. **121 archivos de temario no son 121 certificaciones jurídicas**.
+
+## 35. Auditoría sustantiva: sesgo real de respuestas y primeras claves verificadas — **04/11/2026**
+
+### 35.1. Detección y reparación de un defecto pedagógico sistémico
+
+**Hallazgo tras leer directamente todos los bancos afectados:** las respuestas correctas estaban concentradas en posiciones fácilmente adivinables. Ejemplo: **La Puebla T18 tenía 12/12 respuestas correctas en A**; otros temas UC3M concentraban sus claves en **B y C**; en **Diputación C1 T19, T24, T29 y T34** había hasta **14 de 20 aciertos con una sola letra**. Un test así no simula correctamente el examen y crea falsos hábitos.
+
+**Corrección hecha en `main`:** para cada pregunta se guardó la **respuesta verdadera literal anterior** en `respuestaLiteral`, se reordenaron exclusivamente las cuatro alternativas y se corrigió el **índice numérico** de respuesta. **No** se alteraron enunciados, justificantes ni referencias durante la redistribución, salvo dos mejoras didácticas posteriores documentadas en §35.2. Se verificó que cada banco mantuviera IDs, cuatro opciones distintas, la misma solución literal y una distribución equilibrada por posiciones. Este control **no comprueba por sí solo la verdad jurídica de una clave previamente equivocada**.
+
+| Programa | Temas corregidos | Preguntas reequilibradas | Distribución final por tema | Commits de contenido |
+|---|---:|---:|---|---|
+| **La Puebla C2** | **19/19** | **228** | En cada banco de 12: **3 A, 3 B, 3 C, 3 D** | `5dad7345`, `bfc28e26`, `0b042355` |
+| **UC3M C2** | **20/20** | **260** | En cada banco, la diferencia entre las cuatro posiciones es **≤1** | `2c206c0f`, `2ad8bde8`, `6190b04b` |
+| **Diputación Administrativo C1** | **40/40** | **803** | En bancos de 20: **5 por posición**; bancos de 21/22: diferencia **≤1** | `eed118b3`, `5955f520`, `f49f41a8`, `1fdb801e`, `8ff8053b` |
+| **TOTAL REEQUILIBRADO** | **79/79** | **1.291** | **Sesgo sistemático de posición corregido** | Véase historial Git |
+
+**Diputación Auxiliar C2 (409 preguntas)** y **Olías C2 (264 preguntas)** se inspeccionaron separadamente: su distribución ya era razonablemente equilibrada en la gran mayoría de temas; **no se cambiaron sus claves sin necesidad**, y el Tema 6 OAPGT de C2 sigue en **BORRADOR**, aplazado por decisión previa. Ninguna de las 1.291 respuestas puede llamarse «jurídicamente certificada» únicamente por redistribuir las letras.
+
+**Nuevas pruebas persistentes:** `tests/validate-la-puebla-answer-distribution.mjs` (228), `tests/validate-uc3m-answer-distribution.mjs` (260), `tests/validate-diputacion-c1-answer-distribution.mjs` (803). Integradas en `.github/workflows/validate.yml`, `npm test` y `npm run test:diputacion`. Las pruebas exigen posición válida, respuesta literal conservada, cuatro opciones únicas, ID no repetido y distribución equilibrada. **[CI 41843236317](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41843236317) SUCCESS** sobre el commit `8ff8053b`. No atribuir a estos tests verificación en navegador ni de leyes.
+
+### 35.2. Verificación jurídica directa y preguntas ambiguas de La Puebla
+
+**Error legal acreditado:** el **Tema 7**, `manual.md`, expresaba la gravedad del riesgo como **«probabilidad + severidad»**; el **art. 4.2 de la Ley 31/1995** establece que se **valoran conjuntamente** esos factores, sin fórmula matemática obligatoria. Sustituida por la definición legal literal, cuadro comparativo y `> ⚠️ **¡Foco Examen!:` en `content/la-puebla/tema-07/manual.md`. Corregidas fuentes y matriz e incorporado test de regresión `tests/validate-la-puebla-normativa-focal.mjs`; commit **`1896aaa6`**, [**CI 41843681475**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41843681475) **SUCCESS**. Fuente [LPRL consolidada, art. 4](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a4).
+
+**Contraste individual de claves:** se revisaron **12/12 preguntas de LP-T07** contra los arts. **14–16, 19, 21, 22, 35, 36 y 38 de LPRL** y **art. 14 del RD 39/1997**, y **12/12 preguntas de LP-T12** contra **arts. 59, 61–62, 78, 82–83, 92, 94, 104 y 106 del TRLRHL**. Se añadió referencia oficial específica por pregunta en el JSON, registro `cotejoLegalBanco20261104` y tabla de auditoría en `fuentes.md`. **24 respuestas correctas contrastadas jurídicamente**; pendiente comprobar todos los distractores de forma completa y el desarrollo del tema completo. La comparación es de la **respuesta jurídica**, no de la validez de todo el manual.
+
+**Dos mejoras de redacción tras cotejo:**
+- **LP-T07-008:** ahora especifica «**con independencia de la actividad**» para **más de 500 trabajadores** (RD 39/1997 art. **14.a**), frente a **250–500** si hay actividades del anexo I (art. **14.b**). No se cambió la respuesta verdadera.
+- **LP-T12-006:** la pregunta ahora precisa «**estrictamente inferior a 1.000.000 €**» en la exención IAE y recuerda sumar el INCN del **grupo de control** si corresponde (TRLRHL **82.1.c**). No se cambió la respuesta verdadera.
+
+**Commits banco y fuentes:** `531598ac`, `cdcd25af`, `2f2f4009`, `8fe2f535`. Referencias legales: [LPRL](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), [RSP](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853), [TRLRHL](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). Se mantiene la distribución de soluciones comprobada por CI.
+
+### 35.3. UC3M y otros programas: delimitación de evidencia
+
+Se cotejaron adicionalmente **claves de UC3M T15** sobre Defensor y reforma estatutaria (Estatutos **127–132, 175, 178–180**) y **T16** sobre RD 822/2021 **arts. 11, 14 y 17** y normativas universitarias de evaluación/permanencia. Se preservan todas las claves y la distribución corregida; **no se declara auditoría integral de estas 42 preguntas**, pues algunas remiten a manuales sin un artículo primario individual y todavía falta comprobar determinados efectos y condiciones académicas. La **base primera.7 de convocatoria UC3M (BOE-A-2026-14624)** exige la norma vigente a la fecha de la resolución definitiva de admitidos y anuncio de examen; fuentes comerciales apuntan a **01/10/2026**, pero **no consta documento primario original fechado y revisado**, por lo que **fecha de corte pendiente de acreditar**.
+
+**Estado medible inalterado de integridad editorial**: **121/121 temas registrados**, **120/121 fuera de BORRADOR** y **0/121 con recertificación jurídica integral documentada en noviembre**. Los nuevos resultados son **1.291 preguntas sin patrón de posición, 24 claves verificadas una por una, error jurídico en LPRL corregido**, no «100 %» de exactitud jurídica.
+
+**Siguiente tarea operativa:** auditoría **norma-inciso-pregunta-distractor** de restantes **17 temas La Puebla** antes del **14/11/2026**, UC3M T15–16 y revisión primaria de su fecha de corte antes del **21/11/2026**; después Diputación C2/C1 y Olías, sin abandonar mantenimiento del Radar. Mantener al **final** el T6 OAPGT C2. **No** reabrir Carranque/Las Ventas. En cada intervención leer el **último apartado** de este archivo, no un marcador numérico fijado en un prompt antiguo.
+
+> ⚠️ **¡Foco Examen!:** **Riesgo laboral:** probabilidad **y** severidad valoradas conjuntamente, no suma legal; **servicio propio >500 trabajadores** o **250–500 con anexo I**; **IAE INCN <1.000.000 €** de forma estricta. **1.291 claves reordenadas ≠ 1.291 claves auditadas jurídicamente**.
