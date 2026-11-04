@@ -1101,9 +1101,15 @@ Responder sin consultar:
 - Nulidad, anulabilidad y motivación: incorporadas como presupuestos.
 - Especialidad local: incorporada.
 - Plazos, órganos, silencios y excepciones: desarrollados.
-- Preguntas trazables: no creadas todavía.
+- Preguntas trazables: **12 ítems y 48 alternativas cotejados jurídicamente el 04/11/2026**.
 - Revisión del usuario: **aprobada el 17 de julio de 2026**.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 4 aprobado»** el 17 de julio de 2026.
+
+## 51. Cierre jurídico-editorial — **04/11/2026**
+
+Se han cotejado el epígrafe, los **7 incisos** de la matriz, los **arts. 106–126 de Ley 39/2015** y las **12 preguntas con 48 alternativas**. La justificación de cada opción (incluidos los tres distractores) está en el [cotejo integral del Tema 4](cotejo-integral-2026-11-04.md). Se ha corregido el alcance de **art. 106.1** sobre actos nulos. **AUDITADO jurídicamente; prueba funcional real pendiente**.
+
+> ⚠️ **¡Foco Examen!:** Revisión de oficio de actos nulos (**art. 106**) exige **dictamen favorable** y presupuestos de firmeza o fin de vía; la **declaración de lesividad** del art. **107** es para **actos favorables anulables**.
