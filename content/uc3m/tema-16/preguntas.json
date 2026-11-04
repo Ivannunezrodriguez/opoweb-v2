@@ -154,7 +154,7 @@
     },
     {
       "id": "UC3M-T16-011",
-      "pregunta": "¿Cuántos créditos debe superar al menos un estudiante UC3M en su primer año para continuar?",
+      "pregunta": "Según la regla general de permanencia UC3M para estudiantes a tiempo completo (sin las excepciones de dedicación parcial ni Grados Abiertos), ¿cuántos créditos del primer curso deben superar en su primer año?",
       "opciones": [
         "6",
         "18",
@@ -162,9 +162,9 @@
         "30"
       ],
       "correcta": 2,
-      "justificacion": "La normativa de permanencia exige al menos 12 créditos.",
-      "trampa": "No equivale a aprobar el primer curso completo.",
-      "referencia": "Manual, apartado 11",
+      "justificacion": "Art. 1.1 de la normativa UC3M de permanencia: mínimo 12 créditos del primer curso en el primer año para el supuesto general. El art. 1.3 establece para dedicación parcial al menos una asignatura y cómputo de medio curso; el art. 1.2.b prevé reglas propias para Grados Abiertos.",
+      "trampa": "No aplicar automáticamente los 12 ECTS al régimen parcial: exige al menos una asignatura. Los Grados Abiertos tienen condiciones específicas de 90 ECTS.",
+      "referencia": "Normativa UC3M de permanencia, art. 1.1, 1.2.b y 1.3",
       "respuestaLiteral": "12"
     },
     {
