@@ -35,3 +35,9 @@ Control de vigencia y revisión: **23 de julio de 2026**.
 - [**Ley 5/2025, de Hacienda de la Comunidad de Madrid**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217), con efectos desde **01/01/2026**, sustituye a Ley 9/1990 como marco autonómico del ejercicio presupuestario.
 
 > ⚠️ **¡Foco Examen!:** **Autorización A** = aprobar gasto; **disposición D** = comprometer frente a tercero; **reconocimiento O** = obligación exigible acreditada; **ordenación P** = ordenar pago, distinta de salida efectiva de fondos. **ADO** acumula fases, pero no suprime exigencia de crédito y justificación.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Los documentos y fases se cotejan con la estructura contable del manual; falta lectura primaria integral del **Volumen I UC3M 2026** para particularidades internas. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
+
+> ⚠️ **¡Foco Examen!:** **A autoriza**, **D compromete**, **O reconoce obligación**, **P ordena pago**. **ADO** no implica pago material.
