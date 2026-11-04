@@ -19,3 +19,11 @@
 ## Criterio editorial
 
 El manual se ajusta al epígrafe oficial de la convocatoria y prioriza conceptos, órganos, derechos, obligaciones y cifras susceptibles de pregunta tipo test. El Reglamento de los Servicios de Prevención se utiliza solo para completar la organización preventiva mencionada expresamente en el programa.
+## Cotejo de participación y delegación preventiva · **04/11/2026**
+
+- [**Ley 31/1995 art. 35.2**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35): **hasta 30**, el **Delegado de Personal** ejerce como Delegado de Prevención; de **31 a 49**, **1 Delegado de Prevención** elegido entre Delegados de Personal; de **50 a 100: 2**, de **101 a 500: 3**, de **501 a 1.000: 4**, de **1.001 a 2.000: 5**, de **2.001 a 3.000: 6**, de **3.001 a 4.000: 7**, más de **4.000: 8**.
+- [**Ley 31/1995 art. 38**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38): **Comité de Seguridad y Salud** desde **50 trabajadores**, paritario y colegiado, reuniones **trimestrales** y cuando lo solicite alguna representación.
+- [**Ley 31/1995 art. 34.3.d**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a34): en el ámbito de la Administración Pública, la composición del **Comité** se ajusta a particularidades de representación y el número de representantes de Administración **no puede superar** al de Delegados de Prevención.
+- [**Ley 31/1995 art. 14**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14): el coste preventivo **nunca puede recaer** en trabajadores.
+
+> ⚠️ **¡Foco Examen!:** El **Comité de Seguridad y Salud** comienza en **50 personas**; el número de **Delegados de Prevención** depende de otra **escala**. Son respuestas distintas a preguntas diferentes.
