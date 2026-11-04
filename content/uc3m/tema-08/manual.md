@@ -149,3 +149,9 @@ El lenguaje inclusivo no altera el contenido jurídico: busca que la comunicaci�
 - Las acciones positivas deben ser razonables, proporcionadas y temporales.
 - El III Plan de Igualdad UC3M está vigente en el periodo 2025-2029.
 - El protocolo UC3M cubre también ciberacoso, orientación sexual e identidad o expresión de género.
+
+## Auditoría del banco · 04/11/2026
+
+[**Cotejo individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): fundamentos específicos, análisis de distractores y bloques **¡Foco Examen!**. Estado **COTEJO_BANCO_COMPLETO**. **No** significa aprobación del usuario ni certifica navegación y accesibilidad de la web. La legislación exigible para UC3M se determina conforme a la **base primera.7** de su convocatoria, no automáticamente el día del examen.
+
+> ⚠️ **¡Foco Examen!:** El III Plan de Igualdad aprobado **27/01/2025** rige desde **01/02/2025** hasta **31/01/2029**. Su plan de medidas **no** es el II Protocolo contra el acoso de **2019**.
