@@ -9,10 +9,10 @@
 | **RC** | Retención de crédito | Reserva saldo | No es obligación |
 | **A** | Autorización | Aprueba gasto determinado | No es deuda frente a tercero |
 | **D** | Disposición o compromiso | Compromete frente a tercero | No acredita por sí prestación |
-| **O** | Reconocimiento de obligación | Deuda exigible con prestación acreditada | No significa que ya se haya pagado |
+| **O** | **Propuesta de pago** según **UC3M 2026 art. 15.2.1** | Documento interno para tramitar el pago | Distinto de ordenación y de desembolso final |
 | **P** | Ordenación del pago | Ordena a Tesorería pagar | Distinta de la transferencia efectiva |
 | **Pago material** | Desembolso de fondos | Reduce tesorería | Posterior a ordenación según ciclo |
-| **ADO** | Acumulación de A+D+O | Registra tres fases conjuntamente si procede | No elimina controles ni justificantes |
+| **ADO** | **Autorización + compromiso + propuesta de pago**, **art. 15.2.1 UC3M** | Combina documentos del gasto | No elimina controles ni justificantes |
 
 | Indicador de cierre | Contenido |
 |---|---|
@@ -76,31 +76,31 @@
 
 > ⚠️ **¡Foco Examen!:** Ambas fases son sucesivas, pero no equivalentes.
 
-### UC3M-T19-005 — ¿Qué documento contable se asocia habitualmente con el reconocimiento de la obligación?
+### UC3M-T19-005 — Según las Normas Básicas de Gestión del Presupuesto UC3M 2026, ¿qué documento contable corresponde a la propuesta de pago?
 
-**Fundamento:** **Documento contable O**. **Respuesta: B**. **Literal:** O.
+**Fundamento:** **Normas UC3M 2026, artículo 15.2.1, pág. 98 del Volumen I original**. **Respuesta: B**. **Literal:** O.
 
 | Opción | Literal exacto | Dictamen |
 |---|---|---|
-| **A** | RC | **Incorrecta.** RC significa retención de crédito, no reconocimiento de obligación. |
-| **B** | O | **Correcta.** Documento O registra reconocimiento de obligación. |
-| **C** | A | **Incorrecta.** A registra autorización del gasto. |
-| **D** | P | **Incorrecta.** P registra ordenación del pago. |
+| **A** | RC | **Incorrecta.** El **RC** documenta la **retención de crédito**, no la propuesta de pago. |
+| **B** | O | **Correcta.** Las **Normas Básicas UC3M 2026**, **art. 15.2.1**, identifican literalmente **«Propuesta de pago: Documento contable O»**. |
+| **C** | A | **Incorrecta.** El documento **A** es la **autorización del gasto**. |
+| **D** | P | **Incorrecta.** **P** aparece en la contabilidad pública como **ordenación del pago**, pero no es el documento de propuesta enumerado en **UC3M art. 15.2.1**. |
 
-> ⚠️ **¡Foco Examen!:** P corresponde a la ordenación del pago.
+> ⚠️ **¡Foco Examen!:** **O = propuesta de pago** en la literalidad del **artículo 15.2.1 UC3M 2026**. La **fase sustantiva de reconocimiento de la obligación** no es idéntica a la **ordenación** ni al **pago material**.
 
 ### UC3M-T19-006 — La acumulación de fases en un documento ADO:
 
-**Fundamento:** **Documento contable combinado ADO**. **Respuesta: D**. **Literal:** Permite registrar conjuntamente autorización, disposición y obligación.
+**Fundamento:** **Normas UC3M 2026, artículo 15.2.1, pág. 98 del Volumen I original**. **Respuesta: D**. **Literal:** Permite registrar conjuntamente autorización, compromiso de gasto y propuesta de pago.
 
 | Opción | Literal exacto | Dictamen |
 |---|---|---|
-| **A** | Elimina la necesidad de crédito | **Incorrecta.** ADO no dispensa de acreditar crédito adecuado y suficiente. |
-| **B** | Equivale al pago material | **Incorrecta.** ADO no equivale al desembolso efectivo de fondos. |
-| **C** | Solo puede usarse en ingresos | **Incorrecta.** La acumulación es de fases presupuestarias de gasto, no de ingresos exclusivamente. |
-| **D** | Permite registrar conjuntamente autorización, disposición y obligación | **Correcta.** ADO integra Autorización, Disposición y reconocimiento de Obligación. |
+| **A** | Elimina la necesidad de crédito | **Incorrecta.** La acumulación **ADO** no dispensa de crédito presupuestario adecuado. |
+| **B** | Equivale al pago material | **Incorrecta.** El documento **ADO** no demuestra por sí mismo la salida de fondos de Tesorería. |
+| **C** | Solo puede usarse en ingresos | **Incorrecta.** El **ADO** agrupa documentos de ejecución del **gasto**. |
+| **D** | Permite registrar conjuntamente autorización, compromiso de gasto y propuesta de pago | **Correcta.** Es la enumeración expresamente empleada en el **art. 15.2.1 UC3M 2026** para **ADO**. |
 
-> ⚠️ **¡Foco Examen!:** La acumulación no elimina controles ni justificantes.
+> ⚠️ **¡Foco Examen!:** **ADO** = **A**utorización + compromiso **D** + propuesta de pago **O**. No confundir con pago material.
 
 ### UC3M-T19-007 — ¿Cuál de las siguientes afirmaciones distingue correctamente un pago a justificar de un anticipo de caja fija?
 
@@ -184,5 +184,5 @@
 
 - **12 preguntas, 48 alternativas** contrastadas con el marco conceptual del ciclo de gasto, justificaciones y efectos contables. Las claves se mantienen.
 - El cuadro diferencia expresamente **RC, A, D, O, P, ADO**, pago a justificar y anticipos de caja fija, remanente y resultado.
-- El **BOCM 30/12/2025** confirma la existencia e importe del presupuesto 2026, pero **no acredita el detalle de todos los procedimientos de gestión interna**; queda pendiente cotejar directamente el **Volumen I** de UC3M 2026 para particularidades contables, sin afirmar completa certificación jurídica del manual.
+- El **Volumen I institucional UC3M 2026** ha sido recuperado y leído directamente, con inspección visual de la **página 98**: el **art. 15.2.1** establece **O = propuesta de pago** y **ADO = autorización, compromiso y propuesta de pago**. Se repararon los enunciados **T19-005/006** sin cambiar sus posiciones **B/D**, y se añadió la terminología exacta al manual. Es una comprobación de estas reglas, **no** una certificación global de todo el documento.
 - No se han realizado pruebas de navegador real, accesibilidad ni aprobación editorial de usuario.
