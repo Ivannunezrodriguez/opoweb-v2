@@ -102,3 +102,9 @@ Se han revisado individualmente **UC3M-T16-017 a UC3M-T16-021**, sus cuatro alte
 - La anotación judicial previa de la sentencia de **06/10/2026** sobre **RD 905/2025** es una **cautela temporal diferenciada**; no se afirma que derogase todo el RD 822/2021 ni que el examen debiera aplicar necesariamente cualquier redacción posterior al corte de bases.
 
 > ⚠️ **¡Foco Examen!:** **TFG de Grado 240 ECTS: máximo 24 ECTS**; **TFM: máximo 30 ECTS**; **prácticas Grado: máximo general 25 %** y **prácticas Máster: máximo un tercio**. Los cuatro números corresponden a instituciones distintas.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Revisión individual de 21 preguntas y 84 alternativas**](cotejo-integral-2026-11-04.md), con respuesta literal, motivo de descarte de las demás y foco test. El banco está **cotejado**, pero esto no certifica el portal en navegador, no implica aprobación del usuario y queda pendiente fechar por documento primario la aplicación temporal de la base **primera.7** de UC3M.
+
+> ⚠️ **¡Foco Examen!:** **Prácticas de Grado: máximo general 25 %; Máster: máximo un tercio**. El **TFG de Grado 240** es **6–24 ECTS**, y el **TFM 6–30 ECTS**.
