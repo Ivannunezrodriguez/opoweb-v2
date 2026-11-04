@@ -55,6 +55,8 @@ jobs:
         run: node tests/validate-practice-exam.mjs
       - name: Verificar 144 alternativas legales UC3M T1 T2 T3
         run: node tests/validate-uc3m-t01-t03-integral.mjs
+      - name: Comprobar UC3M T5 artículo 46bis y T6 fecha de corte
+        run: node tests/validate-uc3m-t05-46bis-and-t06-cutoff.mjs
       - name: Verificar distribución de 260 claves UC3M
         run: node tests/validate-uc3m-answer-distribution.mjs
       - name: Verificar literalidad, unicidad y excepciones en tres temas prioritarios
