@@ -19,3 +19,9 @@
 **Cierre editorial documental: 29/10/2026.** Manual íntegro, cuadros de términos y plazos, comparativa de derechos de personas e interesados y banco de **20 preguntas originales** con justificación y precepto. Se corrigió pregunta duplicada por otra relativa al **art. 14.1**. No se ha ejecutado prueba funcional del portal en navegador real.
 
 > ⚠️ **¡Foco Examen!:** No confundir **3 meses** cuando la norma no fija plazo con el máximo general normativo de **6 meses**; distinguir **días hábiles** de apertura **24 horas** del registro electrónico.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Informe de las 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con fundamento normativo y descarte de cada opción incorrecta. **COTEJO_BANCO_COMPLETO** significa revisión individual de la prueba, **no** certificación del manual entero, prueba en navegador, accesibilidad ni aprobación del usuario. La base oficial es el **Anexo XI del BOP Toledo n.º 197, 14/10/2026**.
+
+> ⚠️ **¡Foco Examen!:** **3 meses** supletorios para resolver, **6 meses** límite de norma reguladora; suspensión por informe preceptivo **máximo 3 meses**; urgencia exceptúa **solicitudes y recursos**.
