@@ -605,3 +605,38 @@ Se detectó un riesgo independiente: el rechazo de una solicitud de detalle de u
 **Temario:** se conserva el punto de reanudación del §25, La Puebla tema 14 y UC3M temas **15–16**, con corte de vigencia UC3M pendiente. La Puebla tiene examen el **14/11/2026**, UC3M el **21/11/2026**. **OAPGT tema 6 de Diputación C2 queda al final**. No se han alterado bancos de preguntas en esta intervención.
 
 **Prioridad siguiente:** obtener BOP Toledo 204 para resolver plazo contradictorio de Auxiliares, carnet/titulación, pruebas y tasa. Seguir la salud del Radar, diferenciando detección, envío y entrega real, y auditar temas urgentes sin duplicar trabajo.
+
+## 28. Olías del Rey · Nuevo programa C2 desde BOP primario — **04/11/2026**
+
+**Cambio de evidencia respecto del §27:** el usuario ha aportado el **PDF auténtico del BOP Toledo 204, 23/10/2026, anuncio 2026/4833**, código de verificación **2026.00004833**, **11 páginas**, con las bases y los anexos completos para **3 Limpiadores/as AP** y **4 Auxiliares de edificios C2**. La fuente oficial de este segundo puesto está en las **páginas 54–59** del BOP. El §27 reflejaba correctamente que aún no se había recuperado entonces el texto; **esta limitación ahora está superada**.
+
+### Discrepancias oficiales abiertas y respuesta editorial
+
+1. **Plazas:** **BOE-A-2026-22826**, OEP **DOCM 2026/6010** y **encabezado BOP página 54** publican **4** puestos C2. Sin embargo, el **apartado 1.1** (p. 54) y el **encabezado de Anexo I** (p. 58) dicen «**una plaza**». Se muestra **4** con advertencia literal, pendiente rectificación/confirmación de **Ayuntamiento de Olías del Rey**.
+2. **Plazo:** BOP base **tercera de Auxiliar**, p. 55: **20 días naturales** desde el día posterior a BOE, mientras el **BOE 31/10/2026** publica **20 días hábiles**. **Cierre no certificado**, marcado **INCIDENCIA ALTA**. Fecha prudente interna **20/11/2026**; cómputo orientativo de la regla BOE **30/11/2026**, sujeto a calendario y aclaración de **Ayuntamiento**. **No afirmar que uno de los dos prevalece sin resolverlo formalmente**.
+3. **Erratas de referencia jurídica** en bases: por ejemplo «Ley 39/2025 de 1 de octubre» en mención a procedimiento; no reproducir como legislación vigente ni inferir efectos sin fuente oficial.
+
+### Requisitos y examen acreditados por el PDF
+
+- **Personal laboral fijo, grupo C2, oposición libre, jornada partida/fines de semana/festivos.**
+- **ESO, Graduado Escolar, FP primer grado o equivalencia acreditada; carné B; certificado negativo de delitos sexuales; DNI/NIE; justificante de tasa de 10 €**. Modelo específico **Anexo I, página 58**; dirigido a la **Concejala de Personal**; registro municipal presencial, sede electrónica o **art. 16.4 de Ley 39/2015**. La dirección impresa en bases es **Plaza de la Constitución, 12**; otra información municipal puede diferir, confirmar desplazamientos.
+- **Dos pruebas obligatorias y eliminatorias**, el mismo día: **50 preguntas de temario + 20 psicotécnicas (aptitud verbal, numérica, ortografía y habilidad perceptiva)**, **cuatro alternativas**, penalización de **un tercio del valor de un acierto** por error; **máximo 50 puntos por prueba y mínimo 25 por prueba**. **Duración a fijar por el tribunal**; llamamiento único; DNI y bolígrafo azul. Sin fecha de examen publicada en el PDF.
+- **Bolsa temporal** prevista para quienes superen proceso y no obtengan plaza. Llamamientos con **3 intentos de contacto** espaciados **al menos 1 hora**, **24 horas** de respuesta tras localización, y demás condiciones en bases.
+
+### Programa literal, integración y estado real
+
+Se incorpora **data/programa-olias-auxiliar-edificios-2026.json**, con **22 epígrafes oficiales**, **5 generales y 17 específicos** (numeración de web **1–22** y número original de bloque preservado). **Estado PENDIENTE_AUDITORIA** para **19** temas sin desarrollo; **EN_AUDITORIA** para **3** temas ya redactados. **No** se presenta como completo el temario restante.
+
+**Archivos principales:** 
+- Programa: `data/programa-olias-auxiliar-edificios-2026.json`.
+- Ficha de inscripción: `data/seguimiento-olias-auxiliar-edificios-2026.json`; guía `content/olias-auxiliar-edificios/GUIA_SOLICITUD_EXAMEN_2026.md`.
+- Desarrollo inicial **General 1 (web tema 1: Constitución, autonomía, Corona y Gobierno)**, **Específico 1 (web tema 6: seguridad, evacuación, prevención y cargas)** y **Específico 10 (web tema 15: electricidad, ICP, diferenciales, alumbrado, sonería y alarmas)**. Cada uno incluye `manual.md`, `matriz.json`, `fuentes.md` y **12 preguntas**: **36 preguntas** en total, estado **EN_AUDITORIA**, sin certificación jurídica integral.
+- Integración de selector `assets/app.js` y aviso específico en la página, caché actualizada en `index.html`. Se registra **Limpiador/a AP** solo en seguimiento general `data/convocatorias.json`, **sin iniciar un segundo temario**.
+
+**Control CI:** nueva comprobación `tests/validate-olias-programme.mjs` (22 epígrafes, fuentes, guías, tres manuales y 36 preguntas, estados editoriales explícitos), añadida a `.github/workflows/validate.yml`. La ejecución del workflow [41821039162](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41821039162) terminó **SUCCESS** para el commit del workflow; **no declarar despliegue posterior terminado** hasta observar Pages de los últimos commits.
+
+### Reanudación precisa
+
+**Prioridades de estudio concurrentes:** La Puebla examen **14/11**, UC3M **21/11**. Mantener el trabajo urgente en curso; continuar Olías en tandas sin desplazar los exámenes inmediatos. **Siguiente generación Olías:** temas **2–5 generales** por reutilización auditada y específicos **2, 3, 5, 8, 12** por relevancia de recepción, accesos, municipio y fontanería, y test psicotécnico de formato **20 preguntas** con corrección proporcional. Confirmar con Ayuntamiento la **fechas del plazo** y la discrepancia de **4/1 plazas** antes de inscribirse. **Diputación C2**, OAPGT tema 6 al final según decisión registrada.
+
+> ⚠️ **¡Foco Examen!:** **4 plazas del BOE**, pero **1 en fragmentos del BOP**; **20 días hábiles del BOE** frente a **20 naturales del BOP**. Las diferencias están documentadas y **no resueltas legalmente**; no convertir cálculos orientativos en plazo confirmado.
