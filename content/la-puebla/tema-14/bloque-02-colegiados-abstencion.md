@@ -239,12 +239,19 @@ Autoridades y personal deben abstenerse y comunicarlo al superior inmediato cuan
 ### Causas
 
 1. Interés personal, administración de entidad interesada o litigio pendiente.
-2. Matrimonio o situación asimilada y parentesco:
-   - consanguinidad hasta cuarto grado;
-   - afinidad hasta segundo grado.
-3. Amistad íntima o enemistad manifiesta.
-4. Intervención como perito o testigo.
-5. Relación de servicio con interesado o servicios profesionales prestados en los dos años anteriores.
+2. **Matrimonio o situación de hecho asimilable** y parentesco de **consanguinidad hasta cuarto grado** o **afinidad hasta segundo grado**, no solo con interesados, sino también con **administradores de entidades interesadas** y con **asesores, representantes legales o mandatarios** que intervengan; también **compartir despacho profesional o estar asociado** con estos últimos para asesoramiento, representación o mandato.
+3. **Amistad íntima o enemistad manifiesta** con las personas del apartado anterior (no solo con el interesado directo).
+4. Haber intervenido **como perito o testigo en ese procedimiento**.
+5. Tener **relación de servicio** con persona interesada directamente o haberle prestado **servicios profesionales de cualquier tipo en los dos últimos años**, en cualquier circunstancia o lugar.
+
+| Caso de examen | ¿Motivo legal? | Base |
+|---|---|---|
+| Parentesco de cuarto grado de consanguinidad con un **representante legal** que interviene | **Sí** | **Art. 23.2.b** |
+| Compartir despacho con el **asesor** de una parte para ejercer la profesión | **Sí** | **Art. 23.2.b** |
+| Haber actuado de **perito en el procedimiento** | **Sí** | **Art. 23.2.d** |
+| Haber prestado servicios profesionales al interesado **hace tres años**, sin otra causa | **No por la causa temporal del art. 23.2.e** | **Art. 23.2.e** |
+
+> ⚠️ **¡Foco Examen!:** El parentesco y la amistad/enemistad del **art. 23.2.b–c** pueden afectar también a **administradores, asesores, representantes legales o mandatarios** que intervienen; no se limitan al interesado. La relación de servicio **actual** no se confunde con el plazo de **dos años** de servicios profesionales anteriores. Fuente: [BOE, Ley 40/2015, art. 23](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23).
 
 El superior puede ordenar la abstención.
 
