@@ -5,15 +5,106 @@
   "estado": "EN_REVISION_USUARIO",
   "epigrafeOficial": "Ley 39/2015 (II): procedimiento administrativo común y revisión de los actos en vía administrativa.",
   "cobertura": [
-    {"apartado":"Derechos del interesado","estado":"CUBIERTO","contenido":["estado de tramitación","acceso al expediente","alegaciones","documentos","asistencia"]},
-    {"apartado":"Iniciación","estado":"CUBIERTO","contenido":["de oficio","a solicitud","denuncia","actuaciones previas","medidas provisionales","acumulación"]},
-    {"apartado":"Ordenación","estado":"CUBIERTO","contenido":["impulso de oficio","orden de incoación","cumplimiento de trámites","cuestiones incidentales","urgencia"]},
-    {"apartado":"Instrucción","estado":"CUBIERTO","contenido":["alegaciones","prueba","informes","audiencia","información pública"]},
-    {"apartado":"Finalización","estado":"CUBIERTO","contenido":["resolución","actuaciones complementarias","desistimiento","renuncia","caducidad","terminación convencional"]},
-    {"apartado":"Tramitación simplificada","estado":"CUBIERTO","contenido":["supuestos","trámites","plazo de treinta días","retorno a ordinaria"]},
-    {"apartado":"Ejecución","estado":"CUBIERTO","contenido":["ejecutividad","apremio","ejecución subsidiaria","multa coercitiva","compulsión"]},
-    {"apartado":"Revisión de oficio","estado":"CUBIERTO","contenido":["nulidad","inadmisión","lesividad","revocación","rectificación de errores"]},
-    {"apartado":"Recursos administrativos","estado":"CUBIERTO","contenido":["actos recurribles","suspensión","alzada","reposición","extraordinario de revisión"]}
+    {
+      "apartado": "Derechos del interesado",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "estado de tramitación",
+        "acceso al expediente",
+        "alegaciones",
+        "documentos",
+        "asistencia"
+      ]
+    },
+    {
+      "apartado": "Iniciación",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "de oficio",
+        "a solicitud",
+        "denuncia",
+        "actuaciones previas",
+        "medidas provisionales",
+        "acumulación"
+      ]
+    },
+    {
+      "apartado": "Ordenación",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "impulso de oficio",
+        "orden de incoación",
+        "cumplimiento de trámites",
+        "cuestiones incidentales",
+        "urgencia"
+      ]
+    },
+    {
+      "apartado": "Instrucción",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "alegaciones",
+        "prueba",
+        "informes",
+        "audiencia",
+        "información pública"
+      ]
+    },
+    {
+      "apartado": "Finalización",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "resolución",
+        "actuaciones complementarias",
+        "desistimiento",
+        "renuncia",
+        "caducidad",
+        "terminación convencional"
+      ]
+    },
+    {
+      "apartado": "Tramitación simplificada",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "supuestos",
+        "trámites",
+        "plazo de treinta días",
+        "retorno a ordinaria"
+      ]
+    },
+    {
+      "apartado": "Ejecución",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "ejecutividad",
+        "apremio",
+        "ejecución subsidiaria",
+        "multa coercitiva",
+        "compulsión"
+      ]
+    },
+    {
+      "apartado": "Revisión de oficio",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "nulidad",
+        "inadmisión",
+        "lesividad",
+        "revocación",
+        "rectificación de errores"
+      ]
+    },
+    {
+      "apartado": "Recursos administrativos",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "actos recurribles",
+        "suspensión",
+        "alzada",
+        "reposición",
+        "extraordinario de revisión"
+      ]
+    }
   ],
   "controlesTest": [
     "Denuncia y condición de interesado",
@@ -29,6 +120,19 @@
     "Lesividad dentro de cuatro años",
     "Alzada resuelta en tres meses"
   ],
-  "fuentes": ["BOE-A-2015-10565"],
-  "aprobadoPorUsuario": false
+  "fuentes": [
+    "BOE-A-2015-10565"
+  ],
+  "aprobadoPorUsuario": false,
+  "controlIntegralJuridico20261104": {
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "fecha": "2026-11-04",
+    "programa": "BOE-A-2026-14624 Anexo I",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "informe": "content/uc3m/tema-03/cotejo-integral-2026-11-04.md",
+    "validacionFuncional": "PENDIENTE_NAVEGADOR_REAL",
+    "corteNormativo": "base primera.7: publicación de listas definitivas y anuncio del ejercicio; fecha exacta pendiente de documento primario",
+    "aprobacionUsuario": "PENDIENTE"
+  }
 }
