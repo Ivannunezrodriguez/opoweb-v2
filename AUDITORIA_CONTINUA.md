@@ -1004,3 +1004,41 @@ Se comprobó que `data/programa-diputacion-auxiliar-c2-2026.json` tenía **12/20
 **Validación:** cambios aceptados por GitHub; la consulta de combined commit status del SHA `19e03488396c9e05b8c1b7fec4e8607955b01890` no sustituye comprobación de ejecuciones completas de CI/Pages, que **quedan pendientes de acreditar para ese SHA**. Sin prueba de navegador ni recertificación integral.
 
 **TAREA ACTIVA:** comprobar CI/Pages del SHA exacto y reparar fallos acreditados; buscar la resolución UC3M de listas definitivas y anuncio del ejercicio para fijar fecha de corte; seguir cotejando **UC3M T16** (especialmente evaluación continua, límites de ECTS y distractores), luego La Puebla T10/T13, y el resto por proximidad de exámenes. **Diputación C2 T6 OAPGT al final**. Olías mantiene discrepancias 4/1 plazas y 20 naturales/hábiles sin resolver. Radar sin desplazar exámenes. **0/121 certificados integralmente**.
+
+## 42. Primer lote multipieza de auditoría jurídica y de unicidad — **04/11/2026**
+
+**Petición operativa:** continuar **tema por tema**, con **más de un tema por informe**, priorizando los exámenes más próximos. Se trabajó conjuntamente sobre **La Puebla T10 y T13** y **UC3M T16**, mediante una sola transacción Git documentada, **commit [`06a4f1bf`](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/06a4f1bff93696fa55fbc4de4938823085654e54)**, sin prometer certificación integral de ninguno.
+
+### 42.1. La Puebla T13, firma/certificado y unicidad de respuestas
+
+- **LP-T13-004**: el enunciado antiguo preguntaba qué condición **«no basta con que»** exista para la cualificación, aunque el proveedor cualificado, el cumplimiento de anexo o su inclusión en listas de confianza, **cada uno por separado**, tampoco garantizan el certificado cualificado. **Era una pregunta potencialmente multirrespuesta** con clave predeterminada B. Reformulada como **«¿qué afirmación es INCORRECTA?»**; la publicidad comercial del proveedor resulta la única incorrecta y A/C/D son requisitos y mecanismos correctos sin afirmar suficiencia autónoma.
+- **LP-T13-009**: el antiguo **«no basta con...»** servía también para verificaciones parciales de integridad, cadena o vigencia. Reformulada como **«¿qué indicio NO constituye comprobación técnica de la validez criptográfica?»**; solo la apariencia de firma manuscrita en el PDF no representa prueba técnica. Los demás distractores son **controles pertinentes**, aunque no suficientes aisladamente.
+- Se ampliaron `manual.md` (tabla de cualificación cumulativa y controles técnicos vs. imagen), `preguntas.json` (ambas preguntas y fundamentos) y `fuentes.md` (riesgo y fuente). **Claves y posiciones preservadas** en **12 preguntas, 3 letras de cada tipo**.
+- Fuentes primarias: [eIDAS](https://www.boe.es/buscar/doc.php?id=DOUE-L-2014-81822), [reforma UE 2024/1183](https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-80608), [Ley 6/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046).
+
+> ⚠️ **¡Foco Examen!:** Un test de **respuesta única** debe excluir enunciados negativos de «suficiencia» si varias opciones son individualmente insuficientes; la clave almacenada no valida un distractor.
+
+### 42.2. La Puebla T10, literalidad del artículo 31.1 CE
+
+- **LP-T10-001** mezclaba en una enumeración indiferenciada **capacidad económica**, **igualdad**, **progresividad** y **no confiscatoriedad** como si el **art. 31.1** usara idéntico verbo para los cuatro elementos. Revisada la [**Constitución española**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229): **se contribuye de acuerdo con la capacidad económica**, el sistema **se inspira en igualdad y progresividad** y **en ningún caso tendrá alcance confiscatorio**.
+- Redactada nueva pregunta estrictamente de literalidad y cuatro alternativas unívocas. Manual ampliado con **tabla comparativa** y foco; `fuentes.md` trazable. Identificador y posición correcta B mantenidos. **12 preguntas, 3 de cada letra**.
+
+> ⚠️ **¡Foco Examen!:** **Capacidad económica** no es una forma literal de «**inspirado en**» del art. 31.1 CE, aunque figura entre los principios generales del sistema en el art. 3 LGT.
+
+### 42.3. UC3M T16, excepciones de evaluación continua
+
+- Comprobada la [**página oficial UC3M de Normas de evaluación de Grado**](https://www.uc3m.es/grado/informacion-practica/normativa-academica/normas-evaluacion?idioma=es&site=Grado). **40 %** mínimo evaluación continua; **60 %** máximo examen final ordinario; extraordinaria **100 %** cuando el estudiante no siguió evaluación continua **en asignaturas con esa convocatoria**. La propia UC3M menciona **asignaturas especiales** que pueden carecer de examen final y **de convocatoria extraordinaria**.
+- **UC3M-T16-014/015** delimitadas expresamente a **asignaturas ordinarias** y en el segundo caso a una asignatura **que sí tiene extraordinaria**. Ampliados fundamento, trampa, fuentes, tabla y foco en manual. **21 preguntas** conservadas, posiciones de respuesta **6/5/5/5**.
+- No se modifica otra pregunta sobre permanencia, ni se suplanta la **fecha de corte normativo** de la base primera.7 de la convocatoria ([BOE-A-2026-14624](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624)), que **sigue pendiente de comprobación documental primaria de la resolución definitiva UC3M**. La ficha institucional de empleo encontrada con fecha de rastreo anterior anunciaba el examen de **21/11/2026** como *previsible* sin mostrar aún la resolución definitiva en el texto accesible; no se dedujo de ella una fecha de corte.
+
+> ⚠️ **¡Foco Examen!:** **40/60/100** no se aplican indiscriminadamente a cualquier asignatura especial sin convocatoria extraordinaria.
+
+### 42.4. Integración y límites del lote
+
+Se modificaron **12 archivos**, incluyendo los tres `manual.md`, tres `preguntas.json`, tres `fuentes.md`, `tests/validate-priority-three-topics.mjs` nuevo y su registro en `.github/workflows/validate.yml` y `package.json`. La prueba **verifica cadenas y estructuras de los 5 enunciados corregidos** (1 T10, 2 T13, 2 UC3M16) y la conservación de **3/3/3/3** y **6/5/5/5**; es una **regresión editorial focal** y no análisis semántico general de todos los distractores.
+
+**Validación externa al escribir este registro:** GitHub confirmó el commit **`06a4f1bf`** en rama `main`. La consulta de runs del mismo SHA solo devolvió **Pages 41881698928**, inicialmente `queued`/`in_progress`; **no devolvió todavía un run `Validar OpoWeb v2` del mismo SHA**. Por ello **no se declara CI ni despliegue exitoso para `06a4f1bf`**, y su comprobación queda como primer siguiente paso. El SHA previo **`638127f2`** sí tenía CI y Pages completados con éxito (runs **41872707374** y **41872707693** respectivamente).
+
+**Estado comprobable:** los tres temas (**LP T10, LP T13, UC3M T16**) avanzan en revisión **focal**, **ninguno se cambia artificialmente a AUDITADO INTEGRAL**. Siguen **121 temas registrados y 0/121 recertificados de forma integral** a noviembre de 2026. No confundir cobertura del banco o éxito CI con corrección jurídica de todas las opciones. La prioridad siguiente es seguir con **La Puebla C2 y UC3M C2** (exámenes del **14 y 21/11/2026**), comprobar por precepto cada opción restante, resolver el corte UC3M con resolución oficial, y después Diputación/Olías. **Diputación C2 T6 OAPGT queda al final**. No reabrir Carranque/Las Ventas.
+
+**TAREA ACTIVA:** validar la ejecución del workflow de `06a4f1bf`; continuar varios temas por lote con cotejo de norma/pregunta/distractor; registrar evidencia de cada tema y no declarar 100 % sin las cinco capas de control.
