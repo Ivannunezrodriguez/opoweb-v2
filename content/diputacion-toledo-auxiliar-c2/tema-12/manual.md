@@ -32,8 +32,6 @@ Desarrollo ajustado al programa de Diputación de Toledo C2, con contraste de pl
 
 ---
 
-## 1. voluntaria
-
 ## 1. Artículo 2.2 TRLRHL · prerrogativas de la Hacienda local
 
 Para cobrar tributos y demás ingresos de Derecho público, la Hacienda local dispone de las prerrogativas reconocidas legalmente a la Hacienda estatal.
@@ -1267,3 +1265,24 @@ Son recargos **incompatibles entre sí**. Las **costas del procedimiento**, si p
 > ⚠️ **¡Foco Examen!:** El **período ejecutivo** puede iniciarse antes de que se notifique la **providencia de apremio**. La **providencia** inicia el **procedimiento**, mientras que la **diligencia** concreta el embargo.
 
 **Fuentes de examen:** [LGT, texto consolidado (**21/12/2024**)](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186), [TRLRHL, consolidado (**07/10/2026**)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), [Reglamento General de Recaudación](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803), [RD 520/2005](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662).
+
+## Auditoría individual del banco · 05/11/2026
+
+[**Cotejo exacto de las 20 preguntas y 80 alternativas del tema de recaudación**](cotejo-integral-2026-11-05.md), con explicación de cada distractor. Reemplazadas cuatro repeticiones (**T12-010, 013, 014, 017**) por supuestos prácticos útiles y distintas fases recaudatorias:
+
+| Régimen | Notificación o supuesto | Plazo |
+|---|---|---|
+| **LGT 62.2.a, liquidación individual** | Del **1 al 15** | **20 del mes siguiente** o hábil posterior |
+| **LGT 62.2.b, liquidación individual** | Del **16 al último** | **5 del segundo mes siguiente** o hábil posterior |
+| **LGT 62.3, recibos de notificación colectiva y periódica** | Sin norma específica | **1 septiembre–20 noviembre** o hábil posterior; período modificable de duración **mínima 2 meses** |
+| **LGT 62.5.a, providencia de apremio** | Del **1 al 15** | **20 del mismo mes** o hábil posterior |
+| **LGT 62.5.b, providencia de apremio** | Del **16 al último** | **5 del mes siguiente** o hábil posterior |
+| **LGT 28, recargos** | **Antes de providencia / deuda y recargo en 62.5 / fuera de ambos** | **5 % / 10 % / 20 %** (este último compatible con intereses ejecutivos) |
+| **LGT 32.2, devolución indebida** | Interés de demora sin necesidad de petición | De **ingreso indebido** hasta **orden de pago**, con reglas legales |
+| **LGT 72.1, compensación a solicitud** | En **voluntaria o ejecutiva** | Cumplimiento de requisitos, no cancelación automática |
+| **LGT 167.3, oposición al apremio** | Causas tasadas | Incluye **extinción total / prescripción** |
+
+> ⚠️ **¡Foco Examen!:** El calendario **62.2 / 62.3 / 62.5** tiene tres hechos generadores distintos. **Recargo 5 %** exige pago antes de providencia; **10 %** pago deuda+recargo en plazo; **20 %** si no se cumplen los anteriores.
+
+**Estado** del banco: **COTEJO_BANCO_COMPLETO**. No implica certificación de todo el manual, navegador, accesibilidad ni aprobación final del usuario.
+
