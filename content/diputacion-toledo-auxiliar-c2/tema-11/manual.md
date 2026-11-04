@@ -57,7 +57,7 @@ Los reglamentos se utilizan solo para aclarar la operativa. El núcleo de este t
 
 ### Contenido que no se desarrolla aquí
 
-- recaudación voluntaria y ejecutiva en profundidad, reservada al tema 11;
+- recaudación voluntaria y ejecutiva en profundidad, desarrollada en el **tema 12** de esta convocatoria;
 - procedimiento de apremio;
 - inspección tributaria completa;
 - procedimiento sancionador;
@@ -1177,3 +1177,20 @@ El artículo 140 impide una segunda regularización del mismo objeto salvo hecho
 > ⚠️ **¡Foco Examen!:** **Cuatro años** es plazo general de prescripción tributaria; no significa que todos los derechos empiecen a contarse el mismo día. **Sanciones** no integran la **deuda tributaria**.
 
 Fuentes: [TRLRHL consolidado (última actualización **07/10/2026**)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), [LGT consolidada (última actualización **21/12/2024**)](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186).
+
+## Auditoría individual del banco y mejora tributaria — 05/11/2026
+
+[**Cotejo de 20 preguntas y 80 alternativas, con fundamento de cada distractor**](cotejo-integral-2026-11-05.md). Se han sustituido **T11-015, T11-019 y T11-020**, conservando IDs y claves, para añadir las siguientes reglas infrarrepresentadas:
+
+| Concepto | Norma y dato |
+|---|---|
+| **Procedimiento tributario sin plazo fijado** | **LGT art. 104.1: seis meses supletorios**, no los **tres meses** de la Ley 39/2015, salvo excepciones |
+| **Delegación de facultades tributarias** | **Pleno** decide, ente receptor **acepta** y el acuerdo se publica en **BOP y boletín oficial autonómico**, art. 7.2 TRLRHL |
+| **Bonificación por domiciliación/anticipo/colaboración** | **Hasta 5 % de la cuota**, si la establece la **ordenanza** dentro de art. 9.1 TRLRHL |
+| **Prescripción tributaria ordinaria** | **Cuatro años**, **LGT art. 66**; dies a quo según art. 67 |
+| **Sanciones tributarias** | **No** integran deuda, **LGT art. 58.3** |
+
+**Estado limitado del banco:** **COTEJO_BANCO_COMPLETO**; el control artículo a artículo de todas las afirmaciones del manual, accesibilidad, navegador real y aprobación de usuario siguen pendientes.
+
+> ⚠️ **¡Foco Examen!:** **LGT 104.1 seis meses** ≠ **LPAC 21.3 tres meses**. **5 %** es bonificación **máxima potestativa**, no automática; **Pleno + publicación en dos boletines** para delegar facultades fiscales.
+
