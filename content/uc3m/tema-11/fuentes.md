@@ -28,3 +28,11 @@ Las referencias sobre incompatibilidades se han organizado distinguiendo:
 - autorización previa, efectos y responsabilidad.
 
 Fecha de revisión editorial: 22 de julio de 2026.
+## Cotejo de artículos y plazos incorporados el **04/11/2026**
+
+- [**RD 364/1995 arts. 18.1, 23.1, 70.2 y 74.2**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729): en el régimen ordinario del Reglamento AGE, **20 días naturales** para solicitudes de ingreso, **20 días naturales** para documentación de aprobados; **2 años continuados o 3 con interrupción** para grado personal; los puntos del concurso **no superan pruebas de la oposición**.
+- [**Ley 53/1984, art. 14**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151#acatorce): actividades privadas requieren **previo reconocimiento de compatibilidad**, resolución motivada en **2 meses**; reconocimiento deja de surtir efecto por cambio del puesto público y no altera jornada ni horario.
+- [**Ley 53/1984, arts. 3 y 9**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151): para un segundo puesto o actividad **público** el concepto es **autorización previa de compatibilidad**.
+- [**Bases UC3M**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624): las **bases particulares** prevén sus propios plazos **hábiles** y la legislación de examen se fija por publicación de **admitidos definitivos y anuncio**, no por la fecha del examen.
+
+> ⚠️ **¡Foco Examen!:** No trasladar el plazo **20 días naturales** del **art. 18.1 RD 364/1995** a una convocatoria particular que expresamente señale días **hábiles**; tampoco confundir el plazo de consolidación del grado (**2 continuados/3 interrumpidos**) con el requisito de promoción interna (**2 años en subgrupo inferior**).
