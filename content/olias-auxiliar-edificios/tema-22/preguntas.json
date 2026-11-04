@@ -1,0 +1,147 @@
+{
+  "tema": 22,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T22-001",
+      "enunciado": "El 25 % de 80 es:",
+      "opciones": [
+        "20",
+        "25",
+        "40",
+        "60"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "80 × 0,25 = 20.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. 80 × 0,25 = 20.",
+      "referencia": "Aritmética"
+    },
+    {
+      "id": "OLIAS-T22-002",
+      "enunciado": "1,5 horas son:",
+      "opciones": [
+        "90 minutos",
+        "50 minutos",
+        "150 minutos",
+        "75 minutos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "1,5 × 60 = 90.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. 1,5 × 60 = 90.",
+      "referencia": "Unidades"
+    },
+    {
+      "id": "OLIAS-T22-003",
+      "enunciado": "¿Cuántos cm² hay en 1 m²?",
+      "opciones": [
+        "10.000",
+        "100",
+        "1.000",
+        "1.000.000"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "100 cm × 100 cm = 10.000.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. 100 cm × 100 cm = 10.000.",
+      "referencia": "Superficie"
+    },
+    {
+      "id": "OLIAS-T22-004",
+      "enunciado": "«Público» es palabra:",
+      "opciones": [
+        "Esdrújula",
+        "Aguda",
+        "Llana",
+        "Monosílaba"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Tónica en antepenúltima sílaba.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Tónica en antepenúltima sílaba.",
+      "referencia": "Ortografía"
+    },
+    {
+      "id": "OLIAS-T22-005",
+      "enunciado": "¿Cuál lleva tilde diacrítica como pronombre?",
+      "opciones": [
+        "Tú",
+        "Tu",
+        "El artículo",
+        "Mi casa"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Tú pronombre se tilda.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Tú pronombre se tilda.",
+      "referencia": "Ortografía"
+    },
+    {
+      "id": "OLIAS-T22-006",
+      "enunciado": "¿Cuál es capital de Castilla-La Mancha?",
+      "opciones": [
+        "Toledo",
+        "Albacete",
+        "Cuenca",
+        "Talavera"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Toledo es capital autonómica.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Toledo es capital autonómica.",
+      "referencia": "Geografía"
+    },
+    {
+      "id": "OLIAS-T22-007",
+      "enunciado": "Castilla-La Mancha tiene:",
+      "opciones": [
+        "Cinco provincias",
+        "Tres",
+        "Siete",
+        "Diez"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo.",
+      "referencia": "Geografía"
+    },
+    {
+      "id": "OLIAS-T22-008",
+      "enunciado": "¿Qué significa CCO en correo?",
+      "opciones": [
+        "Copia oculta",
+        "Correo con origen",
+        "Control certificado original",
+        "Clave de organización"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Oculta direcciones a otros receptores.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Oculta direcciones a otros receptores.",
+      "referencia": "Ofimática, correo"
+    },
+    {
+      "id": "OLIAS-T22-009",
+      "enunciado": "La fórmula =SUMA(A1:A5) calcula:",
+      "opciones": [
+        "Suma de ese rango",
+        "Promedio siempre",
+        "Firma del documento",
+        "Tarifa postal"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Suma celdas del intervalo.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Suma celdas del intervalo.",
+      "referencia": "Hoja de cálculo"
+    },
+    {
+      "id": "OLIAS-T22-010",
+      "enunciado": "¿Exportar documento a PDF lo registra electrónicamente?",
+      "opciones": [
+        "No, son operaciones diferentes",
+        "Sí, siempre",
+        "Solo en Word",
+        "Siempre en OpoWeb"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El registro es un procedimiento distinto.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. El registro es un procedimiento distinto.",
+      "referencia": "Ofimática, documentos"
+    }
+  ]
+}

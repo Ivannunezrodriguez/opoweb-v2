@@ -1,0 +1,147 @@
+{
+  "tema": 20,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T20-001",
+      "enunciado": "¿Qué herramienta se usa para recortar setos?",
+      "opciones": [
+        "Cortasetos",
+        "Cortatubos",
+        "Escáner",
+        "Cebador"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Es la herramienta específica para setos.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Es la herramienta específica para setos.",
+      "referencia": "Jardinería, herramientas"
+    },
+    {
+      "id": "OLIAS-T20-002",
+      "enunciado": "¿Qué hace normalmente una escarificadora?",
+      "opciones": [
+        "Retira fieltro superficial del césped",
+        "Imprime documentos",
+        "Purga radiadores",
+        "Suelda acero"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Trabaja la capa superficial.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Trabaja la capa superficial.",
+      "referencia": "Tema 20, herramientas"
+    },
+    {
+      "id": "OLIAS-T20-003",
+      "enunciado": "Riego localizado próximo a raíces se denomina:",
+      "opciones": [
+        "Goteo",
+        "Aspersión desde 30 m",
+        "Bombeo térmico",
+        "Reprografía"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El goteo entrega agua cerca de raíces.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. El goteo entrega agua cerca de raíces.",
+      "referencia": "Tema 20, riego"
+    },
+    {
+      "id": "OLIAS-T20-004",
+      "enunciado": "Una electroválvula en riego:",
+      "opciones": [
+        "Abre/cierra paso de agua por orden",
+        "Imprime etiqueta",
+        "Corta césped",
+        "Hace de fertilizante"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Actúa sobre un sector.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Actúa sobre un sector.",
+      "referencia": "Tema 20, riego"
+    },
+    {
+      "id": "OLIAS-T20-005",
+      "enunciado": "NPK representa:",
+      "opciones": [
+        "Nitrógeno, fósforo y potasio",
+        "Neutro, potencia y kilovatios",
+        "Norma postal",
+        "Nivel de aforo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Son macronutrientes.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Son macronutrientes.",
+      "referencia": "Tema 20, abonado"
+    },
+    {
+      "id": "OLIAS-T20-006",
+      "enunciado": "El RD 1311/2012 regula:",
+      "opciones": [
+        "Uso sostenible de fitosanitarios",
+        "Tarifas postales",
+        "Control de fotocopias",
+        "Cortes de madera"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Es el marco de fitosanitarios.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Es el marco de fitosanitarios.",
+      "referencia": "RD 1311/2012"
+    },
+    {
+      "id": "OLIAS-T20-007",
+      "enunciado": "¿Qué artículo distingue niveles de carné fitosanitario?",
+      "opciones": [
+        "Art. 18 RD 1311/2012",
+        "Art. 99 CE",
+        "Art. 20 Ley 7/1985",
+        "Art. 4 ET"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Distingue básico y cualificado, entre otros.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Distingue básico y cualificado, entre otros.",
+      "referencia": "RD 1311/2012, art. 18"
+    },
+    {
+      "id": "OLIAS-T20-008",
+      "enunciado": "¿El carné B habilita a aplicar cualquier fitosanitario profesional?",
+      "opciones": [
+        "No",
+        "Sí, siempre",
+        "Solo si conduce tractor",
+        "Sí, a partir de 16 años"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Son habilitaciones distintas.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Son habilitaciones distintas.",
+      "referencia": "RD 1311/2012"
+    },
+    {
+      "id": "OLIAS-T20-009",
+      "enunciado": "El abonado excesivo puede:",
+      "opciones": [
+        "Contaminar y dañar plantas",
+        "Mejorar siempre sin límite",
+        "Sustituir agua",
+        "Evitar plagas con certeza"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La dosis debe ajustarse.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. La dosis debe ajustarse.",
+      "referencia": "Tema 20, fertilización"
+    },
+    {
+      "id": "OLIAS-T20-010",
+      "enunciado": "Las podas deben programarse:",
+      "opciones": [
+        "Según especie, época y objetivo",
+        "Todas el mismo día obligatoriamente",
+        "Siempre al mediodía",
+        "Solo por color de hojas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Variación estacional y biológica.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Variación estacional y biológica.",
+      "referencia": "Tema 20, conservación"
+    }
+  ]
+}

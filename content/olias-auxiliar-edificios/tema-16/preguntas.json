@@ -1,0 +1,147 @@
+{
+  "tema": 16,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T16-001",
+      "enunciado": "La bisagra o pernio sirve para:",
+      "opciones": [
+        "Permitir el giro de hoja",
+        "Medir presión de agua",
+        "Franquear carta",
+        "Almacenar tóner"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Es articulación de puerta o ventana.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Es articulación de puerta o ventana.",
+      "referencia": "Tema 16, elementos"
+    },
+    {
+      "id": "OLIAS-T16-002",
+      "enunciado": "La parte móvil de una puerta es:",
+      "opciones": [
+        "Hoja",
+        "Marco",
+        "Cerradero",
+        "Tapajuntas fijo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La hoja es el elemento que se mueve.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. La hoja es el elemento que se mueve.",
+      "referencia": "Tema 16, elementos"
+    },
+    {
+      "id": "OLIAS-T16-003",
+      "enunciado": "El bombín es normalmente:",
+      "opciones": [
+        "Cilindro de accionamiento de cerradura",
+        "Puerta completa",
+        "Bisagra",
+        "Marco metálico"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Forma parte de determinados sistemas de cierre.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Forma parte de determinados sistemas de cierre.",
+      "referencia": "Tema 16, cerraduras"
+    },
+    {
+      "id": "OLIAS-T16-004",
+      "enunciado": "Una puerta cortafuegos se debe:",
+      "opciones": [
+        "Mantener operativa sin modificaciones no autorizadas",
+        "Bloquear abierta con cuñas",
+        "Perforar para instalar cualquier accesorio",
+        "Anular cierrapuertas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Se han de respetar prestaciones de protección.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Se han de respetar prestaciones de protección.",
+      "referencia": "Tema 16, seguridad"
+    },
+    {
+      "id": "OLIAS-T16-005",
+      "enunciado": "El cerradero recibe normalmente:",
+      "opciones": [
+        "Pestillo o elemento de cierre",
+        "Agua de cisterna",
+        "Papel de impresora",
+        "Toma de tierra"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Es pieza del sistema de cierre.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Es pieza del sistema de cierre.",
+      "referencia": "Tema 16, elementos"
+    },
+    {
+      "id": "OLIAS-T16-006",
+      "enunciado": "Corrosión grave en marco debe:",
+      "opciones": [
+        "Comunicarse al mantenimiento competente",
+        "Ignorarse",
+        "Taparse sin comprobar",
+        "Pulirse con cualquier ácido"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Puede comprometer estructura.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Puede comprometer estructura.",
+      "referencia": "RD 1215/1997; tema 16"
+    },
+    {
+      "id": "OLIAS-T16-007",
+      "enunciado": "Puerta metálica que roza puede tener:",
+      "opciones": [
+        "Desajuste de bisagra/marco",
+        "Siempre falta de franqueo",
+        "Fuga de gas obligatoria",
+        "Error de impresora"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Son causas posibles que requieren revisión.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Son causas posibles que requieren revisión.",
+      "referencia": "Tema 16, ajuste"
+    },
+    {
+      "id": "OLIAS-T16-008",
+      "enunciado": "¿Debe duplicarse llave maestra por iniciativa propia?",
+      "opciones": [
+        "No, solo con autorización y trazabilidad",
+        "Sí siempre",
+        "Sí si está barata",
+        "No hay control"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La custodia se organiza por protocolo.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. La custodia se organiza por protocolo.",
+      "referencia": "Tema 16, llaves"
+    },
+    {
+      "id": "OLIAS-T16-009",
+      "enunciado": "¿Qué operación de soldadura puede asumir automáticamente cualquier auxiliar?",
+      "opciones": [
+        "Ninguna sin competencia, formación y autorización",
+        "Toda estructura",
+        "Cualquier acero",
+        "Cualquier aluminio"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las operaciones con riesgo específico requieren formación.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Las operaciones con riesgo específico requieren formación.",
+      "referencia": "RD 1215/1997"
+    },
+    {
+      "id": "OLIAS-T16-010",
+      "enunciado": "Al manipular hoja pesada hay riesgo de:",
+      "opciones": [
+        "Caída/atrapamiento",
+        "Únicamente fatiga visual",
+        "Solo correo erróneo",
+        "Ninguno"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Se requiere sujeción segura.",
+      "trampaExamen": "No confundir categorías, elementos o habilitación. Se requiere sujeción segura.",
+      "referencia": "LPRL"
+    }
+  ]
+}

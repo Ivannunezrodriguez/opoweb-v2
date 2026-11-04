@@ -235,7 +235,11 @@
       "numeroEnBloque": 11,
       "bloque": "especifica",
       "titulo": "Carpintería metálica. Operaciones básicas de cerrajería (ajuste de puertas y ventanas, cerraduras y bombines, mantenimiento de mobiliario metálico).",
-      "estado": "PENDIENTE_AUDITORIA"
+      "estado": "EN_AUDITORIA",
+      "manual": "content/olias-auxiliar-edificios/tema-16/manual.md",
+      "fuentes": "content/olias-auxiliar-edificios/tema-16/fuentes.md",
+      "matriz": "content/olias-auxiliar-edificios/tema-16/matriz.json",
+      "preguntas": "content/olias-auxiliar-edificios/tema-16/preguntas.json"
     },
     {
       "numero": 17,
@@ -253,35 +257,55 @@
       "numeroEnBloque": 13,
       "bloque": "especifica",
       "titulo": "Calefacción. Mantenimientos de instalaciones de calefacción (circuitos, llenado y purgado del aire. Radiadores. Salas de calderas, elementos importantes.)",
-      "estado": "PENDIENTE_AUDITORIA"
+      "estado": "EN_AUDITORIA",
+      "manual": "content/olias-auxiliar-edificios/tema-18/manual.md",
+      "fuentes": "content/olias-auxiliar-edificios/tema-18/fuentes.md",
+      "matriz": "content/olias-auxiliar-edificios/tema-18/matriz.json",
+      "preguntas": "content/olias-auxiliar-edificios/tema-18/preguntas.json"
     },
     {
       "numero": 19,
       "numeroEnBloque": 14,
       "bloque": "especifica",
       "titulo": "Carpintería de madera. Conocimiento, manejo y mantenimiento de herramientas básicas de carpintero (martillos, sierras, formones, taladro eléctrico, lijas, colas y otras herramientas y accesorios). Operaciones básicas de carpintería (ajuste de puertas y ventanas) Cerraduras y bombines. Persianas: Tipos, mantenimiento y reparación.",
-      "estado": "PENDIENTE_AUDITORIA"
+      "estado": "EN_AUDITORIA",
+      "manual": "content/olias-auxiliar-edificios/tema-19/manual.md",
+      "fuentes": "content/olias-auxiliar-edificios/tema-19/fuentes.md",
+      "matriz": "content/olias-auxiliar-edificios/tema-19/matriz.json",
+      "preguntas": "content/olias-auxiliar-edificios/tema-19/preguntas.json"
     },
     {
       "numero": 20,
       "numeroEnBloque": 15,
       "bloque": "especifica",
       "titulo": "Jardinería. Conocimiento, manejo y mantenimiento de herramienta básica de jardinería (tijeras de poda, cortacésped, escarificadora, desbrozadora, cortasetos, azadas, palas, rastrillos y otras herramientas). Operaciones básicas de mantenimiento de jardines (colocación de aspersores, regulación y puesta en funcionamiento, conservación de riego, limpieza, calendario de labores de conservación de jardines) Conocimientos básicos de aplicación de productos para el jardín (abono, insecticidas, planificación de fertilización, buenas prácticas ambientales en el uso de productos fitosanitarios)",
-      "estado": "PENDIENTE_AUDITORIA"
+      "estado": "EN_AUDITORIA",
+      "manual": "content/olias-auxiliar-edificios/tema-20/manual.md",
+      "fuentes": "content/olias-auxiliar-edificios/tema-20/fuentes.md",
+      "matriz": "content/olias-auxiliar-edificios/tema-20/matriz.json",
+      "preguntas": "content/olias-auxiliar-edificios/tema-20/preguntas.json"
     },
     {
       "numero": 21,
       "numeroEnBloque": 16,
       "bloque": "especifica",
       "titulo": "Albañilería. Conocimiento, manejo y mantenimiento de herramienta básica de pintura. Funciones y tareas básicas a realizar en trabajos de pintura.",
-      "estado": "PENDIENTE_AUDITORIA"
+      "estado": "EN_AUDITORIA",
+      "manual": "content/olias-auxiliar-edificios/tema-21/manual.md",
+      "fuentes": "content/olias-auxiliar-edificios/tema-21/fuentes.md",
+      "matriz": "content/olias-auxiliar-edificios/tema-21/matriz.json",
+      "preguntas": "content/olias-auxiliar-edificios/tema-21/preguntas.json"
     },
     {
       "numero": 22,
       "numeroEnBloque": 17,
       "bloque": "especifica",
       "titulo": "Conocimientos de cultura general (cálculos aritméticos, nociones de gramática, geografía, etc.) y ofimática básica.",
-      "estado": "PENDIENTE_AUDITORIA"
+      "estado": "EN_AUDITORIA",
+      "manual": "content/olias-auxiliar-edificios/tema-22/manual.md",
+      "fuentes": "content/olias-auxiliar-edificios/tema-22/fuentes.md",
+      "matriz": "content/olias-auxiliar-edificios/tema-22/matriz.json",
+      "preguntas": "content/olias-auxiliar-edificios/tema-22/preguntas.json"
     }
   ]
 }
