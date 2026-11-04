@@ -42,3 +42,9 @@ Se priorizan los artículos de la LCSP directamente conectados con el epígrafe 
 - [**LCSP arts. 21–22**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a22): **216.000 € UC3M**, **140.000 € AGE** y **750.000 €** para servicios sociales del anexo IV; depende de sujeto contratante y tipo de contrato.
 
 > ⚠️ **¡Foco Examen!:** **Contrato menor** (**< 15.000 €**) ≠ **recurso especial** (**> 100.000 €**) ≠ **SARA de UC3M** (**≥ 216.000 €**) para **servicios y suministros**. Todos los umbrales se expresan en **valor estimado sin IVA**.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Revisión individual de 12 preguntas, 48 alternativas**](cotejo-integral-2026-11-04.md) y control de los umbrales oficiales **2026**: **contrato menor de servicios < 15.000 €**, **recurso especial > 100.000 €** y **SARA UC3M ≥ 216.000 €**. Se mantiene la distinción de competencia originaria del **Rector**. **COTEJO_BANCO_COMPLETO** no es prueba de navegación, accesibilidad, aprobación del usuario ni certificación integral del temario.
+
+> ⚠️ **¡Foco Examen!:** **Menor, recurso especial y SARA no son sinónimos**: un contrato que supera el umbral de recurso especial no tiene por qué superar el umbral **SARA**.
