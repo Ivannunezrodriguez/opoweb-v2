@@ -1,0 +1,46 @@
+{
+  "supuestos": [
+    {
+      "id": "OLIAS-SUP-001",
+      "titulo": "Evacuación y apertura",
+      "temas": [
+        6,
+        8,
+        10
+      ],
+      "enunciado": "El acceso principal tiene cajas en la salida de emergencia y se ha perdido una llave de servicio.",
+      "cuestiones": [
+        {
+          "pregunta": "¿Qué haces?",
+          "respuesta": "Despejar o aislar la salida sin exponerse, comunicar la pérdida de llave y documentar por canal corporativo.",
+          "trampa": "No bloquear evacuación ni asumir competencias policiales.",
+          "referencias": [
+            "RD 486/1997",
+            "BOP 4833"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "OLIAS-SUP-002",
+      "titulo": "Averías e instalaciones",
+      "temas": [
+        15,
+        17,
+        18
+      ],
+      "enunciado": "Se dispara un diferencial y hay una fuga de agua cerca de un equipo eléctrico.",
+      "cuestiones": [
+        {
+          "pregunta": "¿Qué haces?",
+          "respuesta": "Aislar la zona de peligro, impedir exposición a agua y electricidad y avisar a mantenimiento especializado, sin puentear dispositivos.",
+          "trampa": "No intervenir en un circuito con riesgo eléctrico sin cualificación.",
+          "referencias": [
+            "RD 614/2001",
+            "Ley 31/1995"
+          ]
+        }
+      ]
+    }
+  ]
+}

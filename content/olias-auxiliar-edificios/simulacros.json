@@ -1,0 +1,763 @@
+{
+  "version": "2026-11-04",
+  "simulacros": [
+    {
+      "id": "OLIAS-SIM-EXAM-01",
+      "titulo": "Olías C2 · Modelo de entrenamiento 1 (50 + 20)",
+      "tipoPuntuacion": "EXAMEN_OLIAS_2026",
+      "duracionMinutos": null,
+      "instrucciones": "Modelo NO oficial. Primera prueba: 50 preguntas de temario, 50 puntos; segunda: 20 psicotécnicas, 50 puntos. Mínimo 25 en cada prueba. Fallos penalizan 1/3 del acierto. Duración real pendiente del tribunal.",
+      "preguntas": [
+        "OLIAS-T01-001",
+        "OLIAS-T01-002",
+        "OLIAS-T02-001",
+        "OLIAS-T02-002",
+        "OLIAS-T03-001",
+        "OLIAS-T03-002",
+        "OLIAS-T04-001",
+        "OLIAS-T04-002",
+        "OLIAS-T05-001",
+        "OLIAS-T05-002",
+        "OLIAS-T06-001",
+        "OLIAS-T06-002",
+        "OLIAS-T07-001",
+        "OLIAS-T07-002",
+        "OLIAS-T08-001",
+        "OLIAS-T08-002",
+        "OLIAS-T09-001",
+        "OLIAS-T09-002",
+        "OLIAS-T10-001",
+        "OLIAS-T10-002",
+        "OLIAS-T11-001",
+        "OLIAS-T11-002",
+        "OLIAS-T12-001",
+        "OLIAS-T12-002",
+        "OLIAS-T13-001",
+        "OLIAS-T13-002",
+        "OLIAS-T14-001",
+        "OLIAS-T14-002",
+        "OLIAS-T15-001",
+        "OLIAS-T15-002",
+        "OLIAS-T16-001",
+        "OLIAS-T16-002",
+        "OLIAS-T17-001",
+        "OLIAS-T17-002",
+        "OLIAS-T18-001",
+        "OLIAS-T18-002",
+        "OLIAS-T19-001",
+        "OLIAS-T19-002",
+        "OLIAS-T20-001",
+        "OLIAS-T20-002",
+        "OLIAS-T21-001",
+        "OLIAS-T21-002",
+        "OLIAS-T22-001",
+        "OLIAS-T22-002",
+        "OLIAS-T01-003",
+        "OLIAS-T02-003",
+        "OLIAS-T03-003",
+        "OLIAS-T04-003",
+        "OLIAS-T06-003",
+        "OLIAS-T15-003",
+        {
+          "id": "OLIAS-PSY-001",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "ágil",
+          "opciones": [
+            "Rápido",
+            "Inmóvil",
+            "Rápido",
+            "Lento"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: Rápido.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-002",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "antónimo de eficaz",
+          "opciones": [
+            "Ineficaz",
+            "Ineficaz",
+            "Útil",
+            "Productivo"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: Ineficaz.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-003",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "llave:cerradura :: contraseña:",
+          "opciones": [
+            "Acceso",
+            "Papel",
+            "Lluvia",
+            "Acceso"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: Acceso.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-004",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "orden de atender petición",
+          "opciones": [
+            "Escuchar, orientar y confirmar",
+            "Escuchar, orientar y confirmar",
+            "Ignorar",
+            "Interrumpir"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: Escuchar, orientar y confirmar.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-005",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "tregua",
+          "opciones": [
+            "Pausa temporal",
+            "Pausa temporal",
+            "Condena",
+            "Desorden"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: Pausa temporal.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-006",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "3, 6, 12, 24, ...",
+          "opciones": [
+            "48",
+            "36",
+            "42",
+            "48"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: 48.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-007",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "25 % de 240",
+          "opciones": [
+            "60",
+            "60",
+            "40",
+            "80"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: 60.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-008",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "8 expedientes por caja y 6 cajas",
+          "opciones": [
+            "48",
+            "46",
+            "48",
+            "42"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: 48.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-009",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "18 + 12 ÷ 3",
+          "opciones": [
+            "22",
+            "10",
+            "22",
+            "30"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: 22.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-010",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "09:25 más 1 h 45 min",
+          "opciones": [
+            "11:10",
+            "11:10",
+            "10:55",
+            "11:00"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: 11:10.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-011",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "forma correcta de excepción",
+          "opciones": [
+            "Excepción",
+            "Exepción",
+            "Escepción",
+            "Excepción"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: Excepción.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-012",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "Ayer ___ una incidencia",
+          "opciones": [
+            "hubo",
+            "hubo",
+            "ubo",
+            "huvo"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: hubo.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-013",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "Vamos ___ los resultados",
+          "opciones": [
+            "a ver",
+            "a ver",
+            "haber",
+            "a haber"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: a ver.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-014",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "¿___ cerraron la sala?",
+          "opciones": [
+            "Por qué",
+            "Porque",
+            "Porqué",
+            "Por qué"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: Por qué.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-015",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "forma correcta de también",
+          "opciones": [
+            "también",
+            "también",
+            "tanbien",
+            "tambíen"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: también.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-016",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "▲ ● ■ ▲ ● ...",
+          "opciones": [
+            "■",
+            "▲",
+            "■",
+            "●"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: ■.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-017",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "idéntico a Q7-B2M",
+          "opciones": [
+            "Q7-B2M",
+            "Q7-82M",
+            "Q7-B2M",
+            "Q7-BZM"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: Q7-B2M.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-018",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "A, C, E, G, ...",
+          "opciones": [
+            "I",
+            "I",
+            "H",
+            "J"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: I.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-019",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "inverso de 4052",
+          "opciones": [
+            "2504",
+            "2405",
+            "5042",
+            "2504"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: 2504.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-020",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "◇ □ ○ ◇ □ ...",
+          "opciones": [
+            "○",
+            "○",
+            "□",
+            "◇"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: ○.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        }
+      ]
+    },
+    {
+      "id": "OLIAS-SIM-EXAM-02",
+      "titulo": "Olías C2 · Modelo de entrenamiento 2 (50 + 20)",
+      "tipoPuntuacion": "EXAMEN_OLIAS_2026",
+      "duracionMinutos": null,
+      "instrucciones": "Modelo NO oficial. Primera prueba: 50 preguntas de temario, 50 puntos; segunda: 20 psicotécnicas, 50 puntos. Mínimo 25 en cada prueba. Fallos penalizan 1/3 del acierto. Duración real pendiente del tribunal.",
+      "preguntas": [
+        "OLIAS-T01-004",
+        "OLIAS-T01-005",
+        "OLIAS-T02-004",
+        "OLIAS-T02-005",
+        "OLIAS-T03-004",
+        "OLIAS-T03-005",
+        "OLIAS-T04-004",
+        "OLIAS-T04-005",
+        "OLIAS-T05-004",
+        "OLIAS-T05-005",
+        "OLIAS-T06-004",
+        "OLIAS-T06-005",
+        "OLIAS-T07-004",
+        "OLIAS-T07-005",
+        "OLIAS-T08-004",
+        "OLIAS-T08-005",
+        "OLIAS-T09-004",
+        "OLIAS-T09-005",
+        "OLIAS-T10-004",
+        "OLIAS-T10-005",
+        "OLIAS-T11-004",
+        "OLIAS-T11-005",
+        "OLIAS-T12-004",
+        "OLIAS-T12-005",
+        "OLIAS-T13-004",
+        "OLIAS-T13-005",
+        "OLIAS-T14-004",
+        "OLIAS-T14-005",
+        "OLIAS-T15-004",
+        "OLIAS-T15-005",
+        "OLIAS-T16-004",
+        "OLIAS-T16-005",
+        "OLIAS-T17-004",
+        "OLIAS-T17-005",
+        "OLIAS-T18-004",
+        "OLIAS-T18-005",
+        "OLIAS-T19-004",
+        "OLIAS-T19-005",
+        "OLIAS-T20-004",
+        "OLIAS-T20-005",
+        "OLIAS-T21-004",
+        "OLIAS-T21-005",
+        "OLIAS-T22-004",
+        "OLIAS-T22-005",
+        "OLIAS-T01-006",
+        "OLIAS-T02-006",
+        "OLIAS-T03-006",
+        "OLIAS-T04-006",
+        "OLIAS-T06-006",
+        "OLIAS-T15-006",
+        {
+          "id": "OLIAS-PSY-021",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "prudente",
+          "opciones": [
+            "Cauteloso",
+            "Cauteloso",
+            "Temerario",
+            "Impulsivo"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: Cauteloso.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-022",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "antónimo de escaso",
+          "opciones": [
+            "Abundante",
+            "Poco",
+            "Limitado",
+            "Abundante"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: Abundante.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-023",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "biblioteca:libros :: archivo:",
+          "opciones": [
+            "Documentos",
+            "Documentos",
+            "Pinturas",
+            "Radiadores"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: Documentos.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-024",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "imparcial",
+          "opciones": [
+            "No favorecer indebidamente",
+            "Favorecer a un conocido",
+            "No favorecer indebidamente",
+            "Ignorar pruebas"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: No favorecer indebidamente.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-025",
+          "area": "verbal",
+          "tema": null,
+          "pregunta": "aplazar",
+          "opciones": [
+            "Posponer",
+            "Adelantar",
+            "Posponer",
+            "Eliminar"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: Posponer.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-026",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "4, 7, 10, 13, ...",
+          "opciones": [
+            "16",
+            "16",
+            "15",
+            "17"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: 16.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-027",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "15 % de 180",
+          "opciones": [
+            "27",
+            "18",
+            "30",
+            "27"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: 27.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-028",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "6 carpetas por caja en 7 cajas",
+          "opciones": [
+            "42",
+            "42",
+            "36",
+            "48"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: 42.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-029",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "84 ÷ 7 + 9",
+          "opciones": [
+            "21",
+            "21",
+            "19",
+            "23"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: 21.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-030",
+          "area": "numérica",
+          "tema": null,
+          "pregunta": "08:40 más 2 h 35 min",
+          "opciones": [
+            "11:15",
+            "10:45",
+            "11:05",
+            "11:15"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: 11:15.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-031",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "forma correcta de higiene",
+          "opciones": [
+            "higiene",
+            "higiene",
+            "igiene",
+            "higéne"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: higiene.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-032",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "forma correcta de conducción",
+          "opciones": [
+            "conducción",
+            "condución",
+            "conducción",
+            "conduzzión"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: conducción.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-033",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "forma correcta de imprevisto",
+          "opciones": [
+            "imprevisto",
+            "inprevisto",
+            "imprevisto",
+            "imprebisto"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: imprevisto.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-034",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "forma correcta de escribir",
+          "opciones": [
+            "escribir",
+            "escribir",
+            "escrivir",
+            "escribír"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: escribir.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-035",
+          "area": "ortografía",
+          "tema": null,
+          "pregunta": "forma correcta de alrededor",
+          "opciones": [
+            "alrededor",
+            "alrrededor",
+            "alrededór",
+            "alrededor"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: alrededor.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-036",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "A B A C A A B A: número de A",
+          "opciones": [
+            "5",
+            "5",
+            "4",
+            "6"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: 5.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-037",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "idéntico a AB-908Z",
+          "opciones": [
+            "AB-908Z",
+            "AB-908Z",
+            "AB-90BZ",
+            "AB-980Z"
+          ],
+          "correcta": 1,
+          "justificacion": "Respuesta correcta: AB-908Z.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-038",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "Z, X, V, T, ...",
+          "opciones": [
+            "R",
+            "S",
+            "Q",
+            "R"
+          ],
+          "correcta": 3,
+          "justificacion": "Respuesta correcta: R.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-039",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "inverso de 6301",
+          "opciones": [
+            "1036",
+            "1036",
+            "1306",
+            "6130"
+          ],
+          "correcta": 0,
+          "justificacion": "Respuesta correcta: 1036.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        },
+        {
+          "id": "OLIAS-PSY-040",
+          "area": "perceptiva",
+          "tema": null,
+          "pregunta": "1, 2, 4, 8, ...",
+          "opciones": [
+            "16",
+            "10",
+            "16",
+            "12"
+          ],
+          "correcta": 2,
+          "justificacion": "Respuesta correcta: 16.",
+          "trampa": "Ejercicio original de OpoWeb; no es pregunta oficial.",
+          "referencia": "BOP Toledo 204/2026, base 4.ª: cuatro áreas psicotécnicas"
+        }
+      ]
+    }
+  ]
+}
