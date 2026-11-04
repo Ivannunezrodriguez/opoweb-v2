@@ -36,3 +36,9 @@ Fecha de revisión editorial: 22 de julio de 2026.
 - [**Bases UC3M**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624): las **bases particulares** prevén sus propios plazos **hábiles** y la legislación de examen se fija por publicación de **admitidos definitivos y anuncio**, no por la fecha del examen.
 
 > ⚠️ **¡Foco Examen!:** No trasladar el plazo **20 días naturales** del **art. 18.1 RD 364/1995** a una convocatoria particular que expresamente señale días **hábiles**; tampoco confundir el plazo de consolidación del grado (**2 continuados/3 interrumpidos**) con el requisito de promoción interna (**2 años en subgrupo inferior**).
+
+## Cotejo de las 48 alternativas del banco · 04/11/2026
+
+[**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
+
+> ⚠️ **¡Foco Examen!:** **Grado personal**: **2 años continuados/3 con interrupción**; para actividad **privada**, compatibilidad previa y resolución en **2 meses**.
