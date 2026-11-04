@@ -395,7 +395,7 @@ Características esenciales:
 - debe justificarse que no se altera el objeto para evitar procedimientos ordinarios;
 - están sujetos a publicidad periódica en el perfil de contratante, con las excepciones legales.
 
-La UC3M advierte expresamente que una adquisición superior a 15.000 euros sin IVA o una necesidad sistemática y repetitiva durante más de un año debe tramitarse mediante contratación pública ordinaria. El contrato menor no puede utilizarse para fraccionar necesidades recurrentes.
+La UC3M advierte de que una necesidad cuyo valor estimado sea **igual o superior a 15.000 €**, **sin IVA**, en suministros o servicios (o una prestación recurrente que no pueda justificarse como necesidad menor) debe tramitarse por el procedimiento que legalmente corresponda: **el límite del artículo 118.1 es estrictamente inferior**, no «hasta 15.000 € inclusive». El contrato menor no puede utilizarse para fraccionar necesidades recurrentes.
 
 ## 20. Criterios de adjudicación
 
