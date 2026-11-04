@@ -38,6 +38,22 @@ Control de vigencia y revisión: **23 de julio de 2026**.
 
 ## Cotejo integral del banco · 04/11/2026
 
-[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Los documentos y fases se cotejan con la estructura contable del manual; falta lectura primaria integral del **Volumen I UC3M 2026** para particularidades internas. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
+[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. **Volumen I UC3M 2026 recuperado directamente** y comprobado visualmente: **art. 15.2.1, pág. 98**, así como **art. 16.2–3, págs. 101–102**. La denominación exacta **O = propuesta de pago** exigió corregir **T19-005/006**, manteniendo las letras B y D. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
 
 > ⚠️ **¡Foco Examen!:** **A autoriza**, **D compromete**, **O reconoce obligación**, **P ordena pago**. **ADO** no implica pago material.
+
+## Contraste de la fuente primaria de procedimientos UC3M 2026 — **04/11/2026**
+
+Se recuperó el PDF institucional de **150 páginas**: [**Presupuesto UC3M 2026, Volumen I: Normas Básicas de Gestión (original)**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), publicado desde la [**carpeta oficial del presupuesto UC3M 2026**](https://drive.google.com/drive/folders/1DjCPXRrGPQqPcMSzUUeUB1AKXBHFSj02). Se comprobaron tanto texto extraído como páginas visualizadas.
+
+| Artículo, página | Literalidad o límite verificado | Implicación editorial |
+|---|---|---|
+| **15.2.1, pág. 98** | **RC** = retención; **A** = autorización; **D** = disposición/compromiso; **O** = **propuesta de pago** | Se rectifica el rótulo antiguo **«O = reconocimiento de obligación»** cuando se estudia la norma **UC3M** |
+| **15.2.1, pág. 98** | **AD** = autorización + compromiso; **ADO** = autorización + compromiso + **propuesta de pago** | Se reparan enunciado y opción correcta de **T19-005 y T19-006** sin cambiar letras de clave |
+| **16.2, pág. 101** | **Sistema asimilado a caja fija** para gastos que **no excedan de 5.000 € sin IVA** | **5.000 €** no es el umbral de contrato menor de servicios |
+| **16.3, pág. 101** | **Anticipos a justificar** para compras/servicios, excluidos viajes: **máximo 12.000 €**, solicitud motivada y **RC** | No confundir caja fija (**5.000 €**) con anticipo (**12.000 €**) |
+| **16.3, pág. 102** | Plazo máximo de justificación del anticipo: **1 mes** | Si no se justifica, se prevé reclamación y propuesta al **Rector** de deducción de nómina de anticipo no justificado |
+
+**Conclusión:** se cierra la **reserva de consulta del documento original** relativa a los apartados aquí identificados, pero **NO** se certifica por ello el tema entero, la vigencia temporal de toda su normativa, el navegador ni la accesibilidad.
+
+> ⚠️ **¡Foco Examen!:** En la norma específica UC3M **O es «propuesta de pago»** y **ADO** reúne **autorización, compromiso y propuesta de pago**. Distinto de **orden de pago** o de pago material. **Caja fija 5.000 €** frente a **anticipo 12.000 €**, con justificación **1 mes**.
