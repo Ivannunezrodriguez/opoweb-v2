@@ -90,3 +90,8 @@ El manual no aplica como vigentes los incrementos automáticos de mayoría del a
 ## Regla permanente
 
 > Te prometí un manual y publiqué resúmenes inflados por métricas. La reconstrucción tendrá que empezar por el contenido real de cada epígrafe, artículo por artículo; no por añadir más palabras, tests o etiquetas de “completo”.
+
+## Cotejo jurídico-editorial completo, **04/11/2026**
+
+Concluido contraste de **8 bloques, 12 claves y 36 distractores**, con [informe por artículo y alternativa](cotejo-integral-2026-11-04.md). Incluye cambios vigentes en **octubre de 2026**. No equivale a control funcional real del portal.
+

@@ -1423,3 +1423,10 @@ Responder sin consultar:
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 5 aprobado»** el 17 de julio de 2026.
+
+## Cierre jurídico-editorial del **04/11/2026**
+
+Comprobados el programa de **8 ámbitos**, la regulación municipal y provincial, las modificaciones de la **LRBRL de octubre de 2026**, la LOREG y las **48 alternativas de 12 preguntas**. [**Informe de respuestas y descartes por artículo**](cotejo-integral-2026-11-04.md). **AUDITADO contenido**, pendiente prueba funcional real.
+
+> ⚠️ **¡Foco Examen!:** Desde **23/10/2026** son vigentes los cambios de los **arts. 25.2.q y 69.1 LRBRL** sobre discapacidad, accesibilidad e información municipal.
+

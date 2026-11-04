@@ -3,7 +3,7 @@
   "estado": "APROBADO_USUARIO",
   "aprobadoEl": "2026-07-17",
   "epigrafeOficial": "El municipio. Organización y funcionamiento. La Provincia. Organización provincial. Competencias. El Régimen electoral de las Entidades Locales.",
-  "fechaRevisionNormativa": "2026-07-29",
+  "fechaRevisionNormativa": "2026-11-04",
   "vigenciaVerificada": "Ley 7/1985 con última actualización publicada el 03/06/2026; LOREG con última actualización publicada el 02/07/2026; ROF sin modificación posterior relevante para el alcance revisado.",
   "normas": [
     {
@@ -154,5 +154,21 @@
     "fecha": "2026-11-02",
     "fuente": "LOREG BOE-A-1985-11672, artículos 180, 184 y 196",
     "alcance": "Corrección contextual de T05-011 y T05-012, manual y fuentes para municipios con voto limitado. No equivale a nueva certificación del tema."
+  },
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "Ocho bloques oficiales, municipal/provincial/electoral; 12 claves y 48 alternativas",
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-05/cotejo-integral-2026-11-04.md",
+    "fuentesOficiales": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252",
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528"
+    ],
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionIntegralCincoCapas": false
   }
 }

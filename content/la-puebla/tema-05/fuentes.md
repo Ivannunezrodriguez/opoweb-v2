@@ -49,3 +49,8 @@ La [**Ley 4/2026, de 1 de octubre**, BOE-A-2026-20528](https://www.boe.es/buscar
 | Elección de concejales/alcaldes y régimen local | LOREG **176–200**, con particularidades de entidades inferiores |
 
 **Pendiente:** comprobar individualmente los **12 distractores** del tema tras la modificación, especialmente si se pregunta por «todas» las competencias municipales. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Cotejo integral del **04/11/2026**
+
+[**48 alternativas del Tema 5 verificadas**](cotejo-integral-2026-11-04.md) contra [LRBRL consolidada a octubre 2026](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), [LOREG actualizada 02/07/2026](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672) y [Ley 4/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528). **AUDITADO contenido, navegador real pendiente**.
+
