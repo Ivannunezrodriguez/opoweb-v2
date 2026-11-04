@@ -1412,3 +1412,38 @@ Se añadió [`tests/validate-la-puebla-three-legal-closures.mjs`](tests/validate
 **Acumulado con este lote:** **28/121 temas** con informe individual del banco y epígrafe (**La Puebla 19/19; UC3M 9/20**); **336 preguntas / 1.344 alternativas** analizadas opción por opción. **No** es certificación jurídico-editorial/pericial plena ni homologación de la web. Certificación de todas las capas **0/121** hasta ejecutar pruebas en navegación real, accesibilidad y cotejo exhaustivo de cada apartado.
 
 **Próxima prioridad:** **UC3M T10–T20** (TREBEP, régimen universitario, presupuestos y contratación), con auditoría individual y pruebas de regresión; después controles funcionales globales y resto de convocatorias.
+
+
+## 54. UC3M T10–T12 · RRHH, incompatibilidades y prevención — **04/11/2026**
+
+### 54.1. Fuentes legales oficiales contrastadas
+
+- [**Programa oficial UC3M, Anexo I**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624): temas **10** (TREBEP), **11** (RD 364/1995 + Ley 53/1984) y **12** (Ley 31/1995). La base **primera.7** exige legislación vigente cuando se publica la resolución definitiva de aspirantes y anuncio del ejercicio, **no automáticamente el día del examen**.
+- [**TREBEP Real Decreto Legislativo 5/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719), [**RD 364/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729), [**Ley 53/1984**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151), [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), normas primarias de los manuales y bancos.
+- **Pendiente jurídico:** la UC3M publica una resolución de listas definitivas en su portal, pero no ha podido verificarse desde el documento primario la fecha exacta de su publicación. ADAMS informa **01/10/2026** como pista no oficial; no se convierte en corte certificado. El texto consolidado del TREBEP sufrió una modificación del **art. 49.e** publicada el **03/10/2026** y vigente desde **23/10/2026**: no incorporarla por defecto al examen si el corte oficial resulta anterior.
+
+### 54.2. Errores y datos incorporados
+
+| Tema | Reparación en el temario | Datos test contrastados |
+|---|---|---|
+| **T10 · TREBEP** | Se corrigió la **limitación indebida** en la renuncia: el artículo **64.2** no habla solo de delito relacionado con el puesto; prohíbe aceptarla con **expediente disciplinario** o **auto de procesamiento/apertura de juicio oral por algún delito**. Incorporada tabla de interinos y excedencias. | Vacante **3 años**; programa **3 años + hasta 12 meses** por ley de desarrollo; acumulación **9 meses en 18** (**art. 10**). Excedencia particular **5 años** previos salvo ley (**89.2**). Suspensión que **excede 6 meses = pérdida del puesto**, no condición (**90.1**). |
+| **T11 · RD 364/1995, Ley 53/1984** | Manual añade plazos que faltaban: **grado personal 2 años continuados / 3 interrumpidos** (art. **70.2**), solicitud de ingreso AGE **20 días naturales** (art. **18.1**) y documentación aprobados **20 días naturales** (art. **23.1**). Distingue convocatoria UC3M de plazos particulares. | Segunda actividad **pública**: autorización previa. Actividad **privada**: reconocimiento previo, **resolución motivada en 2 meses** (Ley **53/1984, art. 14**), decae al cambiar puesto público. |
+| **T12 · Ley 31/1995** | Manual incorpora escala completa de **Delegados de Prevención** del art. **35.2**, diferenciada del **Comité de Seguridad y Salud** (art. **38.2**), más particularidad de representación en Administración (art. **34.3.d**). Se repararon **5 enunciados mal redactados** de preguntas **UC3M-T12-004/006/007/008/011**, sin modificar respuestas ni claves. | Delegados: **31–49 → 1**, **50–100 → 2**, **101–500 → 3**; Comité desde **50 trabajadores**, reunión **trimestral**. |
+
+> ⚠️ **¡Foco Examen!:** En **T10**, «renuncia por algún delito» exige **auto procesal específico**, no mera denuncia, y no se limita a delitos funcionales. En **T11**, **2 años/3 años** son de grado, distintos de los **2 años** de promoción interna. En **T12**, **50 trabajadores** activa Comité, pero la escala de Delegados tiene tramos propios.
+
+### 54.3. Cotejos documentales integrales de los bancos
+
+- [**T10 · 12 preguntas y 48 alternativas**](content/uc3m/tema-10/cotejo-integral-2026-11-04.md)
+- [**T11 · 12 preguntas y 48 alternativas**](content/uc3m/tema-11/cotejo-integral-2026-11-04.md)
+- [**T12 · 12 preguntas y 48 alternativas**](content/uc3m/tema-12/cotejo-integral-2026-11-04.md)
+
+Los **144 distractores/alternativas** de **36 preguntas** tienen motivación individual por artículo o concepto técnico, y advertencia de foco. Las tres **matrices**, **manuales** y **fuentes** registran o enlazan los informes, con estado **`COTEJO_BANCO_COMPLETO`**, **aprobación de usuario = false** y **prueba de navegador = pendiente**.
+
+### 54.4. Control de regresiones, CI, despliegue y siguiente prioridad
+
+- Nuevo [**`tests/validate-uc3m-t10-t12-integral.mjs`**](tests/validate-uc3m-t10-t12-integral.mjs), incorporado a **`npm test`** y [**GitHub Actions `validate.yml`**](.github/workflows/validate.yml): exactitud textual de **144 alternativas**, **36 claves**, `respuestaLiteral`, enunciados, informes, distribución **3/3/3/3 por letra** en cada tema, correcciones de artículos y eliminación de «entre otras» defectuoso en T12.
+- **CI confirmada:** [**run 41906460493 — SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41906460493), SHA **`3d4f6fbb1b856c517414e302681e50085e117fbe`**. **Pages seguía pendiente** en lectura de ese SHA; no confundir la validación automática con despliegue completo ni acceso funcional probado.
+- **Cobertura actual de auditoría individual documentada del banco:** **31 de 121 temas** (**19 La Puebla + 12 UC3M**), **372 preguntas / 1.488 alternativas**, que **no** es una certificación total de artículos, pedagogía, navegador y accesibilidad (**0/121** con todas las capas).
+- **Próximo tramo:** **UC3M T13–T20**, especial atención a **LOSU**, normativa propia, procesos universitarios, presupuesto y contratos. Identificar fecha de publicación de listas definitivas por fuente primaria y desplegar pruebas reales con navegador si está disponible.
+
