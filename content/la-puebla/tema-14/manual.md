@@ -125,6 +125,18 @@ La actuación de quien debió abstenerse no implica automáticamente invalidez, 
 
 En la recusación, el recusado informa al superior al día siguiente. Si niega la causa, el superior resuelve en tres días. No cabe recurso autónomo, sin perjuicio de alegarlo al recurrir el acto final.
 
+### Recusación — cronología exacta de la **Ley 40/2015, art. 24**
+
+| Acto | Quién | Plazo / consecuencia |
+|---|---|---|
+| Solicitud escrita motivada | **Interesado** | **En cualquier momento** del procedimiento |
+| Manifestación sobre la causa | **Recusado**, al superior | **Al día siguiente** |
+| Reconoce causa y el superior la aprecia | **Superior** | Sustitución **acto seguido** |
+| Niega la causa | **Superior** | Resuelve en **tres días**, previa comprobación |
+| Recurso contra incidente | **Interesado** | **No hay recurso autónomo**; alegación con recurso contra acto final |
+
+> ⚠️ **¡Foco Examen!:** **Un día = manifestación del recusado**; **tres días = resolución del superior si niega la causa**. No es un plazo de **tres días** para que el interesado solicite la recusación.
+
 ## 8. Estructura de la Administración General del Estado
 
 La Administración General del Estado comprende:

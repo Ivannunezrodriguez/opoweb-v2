@@ -66,6 +66,19 @@ El Reglamento de organización y funcionamiento es aprobado por el Consejo de Go
 - dos miembros del personal de administración y servicios;
 - dos miembros del personal docente e investigador.
 
+### 2.4. Tabla de examen del **Defensor Universitario**
+
+| Actuación | Quién o composición | Mayoría o periodicidad |
+|---|---|---|
+| Propuesta y elección | **Rector** propone; **Claustro** elige | **Mitad más uno de todos los miembros** (**art.127**) |
+| Iniciativa de reelección | **Rector** o claustrales | Grupo de **al menos una quinta parte**; **una reelección** (**art.128.1**) |
+| Designación del Adjunto | **Claustro** a propuesta de candidato | **Mayoría simple**, misma sesión (**art.128.2**) |
+| Memoria | **Defensor** ante **Claustro** | **Anualmente al inicio del curso** (**art.128.4**) |
+| Reducción de tareas propias | **PDI** o **PAS** elegible | Hasta **50 %** (**art.130**) |
+| Órgano asesor | Sectores de la comunidad | **2 estudiantes + 2 PAS + 2 PDI** (**art.132.3**) |
+
+> ⚠️ **¡Foco Examen!:** **Defensor: mitad más uno de todos los miembros** frente a **Adjunto: mayoría simple**. La **quinta parte** puede proponer reelección, pero no es la mayoría para elegir.
+
 ## 3. Límites de la actuación del Defensor
 
 El Defensor no ejerce potestad sancionadora, no anula actos administrativos y no sustituye a los órganos competentes para resolver recursos o procedimientos.

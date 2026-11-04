@@ -45,3 +45,6 @@ La revisión transversal ha verificado directamente los artículos 127 a 132. El
 El manual se ha limitado al epígrafe oficial de la convocatoria: Defensor Universitario, servicios universitarios, régimen económico-financiero y reforma de los Estatutos. Las referencias a legislación general se utilizan únicamente para contextualizar y actualizar la terminología.
 
 Fecha de revisión editorial: **23 de julio de 2026**.
+## Control estatutario puntual, **04/11/2026**
+
+[**Decreto 1/2003, Estatutos UC3M, arts. 127–132**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782): mayoría de elección, reelección, memoria, reducción máxima **50 %**, órgano asesor **2+2+2**. Esta comprobación focal **no certifica el tema íntegro**; en 2026 la documentación universitaria también identifica la modificación mediante **Decreto 95/2009**.

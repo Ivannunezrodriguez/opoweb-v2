@@ -59,3 +59,6 @@
 ## Criterio editorial
 
 El manual distingue las reglas estatales de organización de enseñanzas de las reglas internas de la UC3M. Los calendarios, plazos de matrícula, órganos concretos y procedimientos variables deben comprobarse en la normativa y las instrucciones del curso académico correspondiente.
+## RD 822/2021: prácticas y trabajos finales, **04/11/2026**
+
+[**RD 822/2021, arts. 11, 14.5–6 y 17.3–4**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781): **prácticas de Grado 25 %** con excepciones, **TFG 6–24 ECTS** para 240, **prácticas de Máster un tercio**, **TFM 6–30 ECTS**. Se conserva expresamente el problema de fecha de corte y efectos de la sentencia sobre el **art. 22.4**.

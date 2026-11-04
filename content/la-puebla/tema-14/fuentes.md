@@ -51,3 +51,7 @@ Se ha ampliado el bloque 2 y manual LP14; actualización de justificación y Foc
 ## Precisión del artículo 23.2: sujetos relacionados y plazo — 04/11/2026
 
 **Fuente oficial:** [Ley 40/2015, artículo 23.2, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23), última actualización del texto **02/08/2024**. La redacción exige estudiar las causas **b)** y **c)** con su ámbito subjetivo completo: interesados, administradores de entidades interesadas, asesores, representantes legales y mandatarios que intervienen, además del despacho compartido o asociación profesional en los términos legales. La causa **e)** distingue **relación de servicio actual** de **servicios profesionales prestados durante los dos años anteriores**. Corregida la simplificación en bloque 2 y manual, sin alterar claves de test ni atribuir revisión integral.
+
+## Contraste focalizado de recusación, **04/11/2026**
+
+[**Ley 40/2015, art. 24**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24): iniciativa escrita de **interesados en cualquier momento**, **recusado al día siguiente**, **superior en tres días** cuando se niegue la causa, sin recurso autónomo. La aprobación editorial histórica se conserva y **no se declara recertificación integral**.

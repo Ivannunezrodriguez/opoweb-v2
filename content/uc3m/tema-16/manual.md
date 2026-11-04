@@ -148,6 +148,21 @@ Las prácticas pueden ser curriculares o extracurriculares. Solo las curriculare
 
 El TFG y el TFM son asignaturas obligatorias cuya matrícula, tutela, defensa y evaluación se sujetan a la normativa general y a las reglas del centro o titulación.
 
+## 15 bis. Prácticas académicas, TFG y TFM: límites del **RD 822/2021**
+
+El **art. 11** distingue las **prácticas curriculares** —parte del plan de estudios— de las **extracurriculares**, y exige naturaleza formativa y convenio educativo; las prácticas **no sustituyen el trabajo de un puesto laboral**.
+
+| Elemento | Límite general | Salvedad |
+|---|---|---|
+| Prácticas curriculares de **Grado** | Máximo **25 %** de créditos (**art.14.5**) | Excepciones de la UE y **Mención Dual** |
+| **TFG** de Grado de **240 ECTS** | **6 a 24 ECTS** (**art.14.6**) | Otros máximos para 300/360 ECTS |
+| Prácticas de **Máster** | Máximo **un tercio** (**art.17.3**) | No trasladar límite de Grado |
+| **TFM** | Obligatorio, **6 a 30 ECTS** (**art.17.4**) | Defensa en acto público |
+
+**Vigencia:** este bloque no resuelve la incidencia judicial del **art. 22.4** del RD 822/2021 ni establece la fecha exacta de corte de la oposición UC3M, que deben seguirse verificando.
+
+> ⚠️ **¡Foco Examen!:** **25 % prácticas de Grado**, **un tercio de Máster**, **TFG 6–24** para Grado 240, **TFM 6–30**. Son supuestos diferentes.
+
 ## 16. Extinción de planes
 
 La Universidad debe aprobar un calendario de extinción que regule convocatorias, docencia residual, adaptación y reconocimiento de créditos, preservando los derechos académicos del estudiante.

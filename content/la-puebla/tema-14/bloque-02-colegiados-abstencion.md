@@ -273,6 +273,18 @@ Los interesados pueden promover recusación en cualquier momento de la tramitaci
 
 Contra la resolución de recusación no cabe recurso autónomo. Puede alegarse al recurrir el acto que ponga fin al procedimiento.
 
+### Recusación — cronología exacta de la **Ley 40/2015, art. 24**
+
+| Acto | Quién | Plazo / consecuencia |
+|---|---|---|
+| Solicitud escrita motivada | **Interesado** | **En cualquier momento** del procedimiento |
+| Manifestación sobre la causa | **Recusado**, al superior | **Al día siguiente** |
+| Reconoce causa y el superior la aprecia | **Superior** | Sustitución **acto seguido** |
+| Niega la causa | **Superior** | Resuelve en **tres días**, previa comprobación |
+| Recurso contra incidente | **Interesado** | **No hay recurso autónomo**; alegación con recurso contra acto final |
+
+> ⚠️ **¡Foco Examen!:** **Un día = manifestación del recusado**; **tres días = resolución del superior si niega la causa**. No es un plazo de **tres días** para que el interesado solicite la recusación.
+
 ## 11. Diferencias esenciales
 
 | Institución | Quién la inicia | Momento | Decisión |
