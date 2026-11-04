@@ -9,6 +9,10 @@ const t12=read('content/la-puebla/tema-12/manual.md');
 const t7=read('content/la-puebla/tema-07/manual.md');
 assert(t7.includes('valorar conjuntamente la probabilidad'));
 assert(!t7.includes('gravedad = probabilidad + severidad'));
+const dipT8=read('content/diputacion-toledo-auxiliar-c2/tema-08/manual.md');
+assert(dipT8.includes('valorar **conjuntamente la probabilidad y la severidad**'));
+assert(!dipT8.includes('gravedad = probabilidad + severidad'));
+
 const matrix7=j('content/la-puebla/tema-07/matriz.json');
 assert(matrix7.controlDefinicionRiesgo20261104?.estado?.includes('PARCIAL'));
 
