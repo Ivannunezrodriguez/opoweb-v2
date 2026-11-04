@@ -1763,3 +1763,23 @@ También se ha subsanado un estado editorial **contradictorio** en T05: el apart
 **45/121 temas** tienen ahora sus bancos con informe individual de opciones: **La Puebla 19/19**, **UC3M 20/20** y **Diputación Toledo C2 6/20** (temas **1, 2, 3, 4, 5 y 7**; **tema 6 sigue aplazado al final**). Acumulado **608 preguntas / 2.432 alternativas**. El **37,2 %** es solo **porcentaje de temas con banco auditado**, **NO** porcentaje de certificación total jurídico-funcional. La validación plena de todas las capas permanece **0/121**.
 
 **Próxima prioridad editorial:** **Diputación Toledo C2 T08–T10**, manteniendo **T06 — Acuerdo Regulador y Estatutos OAPGT** para el final de la serie, y continuando el seguimiento del corte normativo de UC3M y controles reales de navegador.
+
+
+## 62. Verificación CI/Pages del SHA de T07 y cribado inicial T08 — 04/11/2026
+
+### 62.1. Evidencia técnica del commit exacto
+
+- Último SHA observado de `main`: **`c1d6fd66b539efbcf83930f4460af047aa4d0cfd`** (cierre T07, §61).
+- [**Validar OpoWeb v2, ejecución 41928007995**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41928007995): **completed / success**, filtrado explícitamente por `head_sha=c1d6fd66b539efbcf83930f4460af047aa4d0cfd`.
+- [**GitHub Pages, ejecución 41928008667**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41928008667): **completed / success**, **mismo SHA**. Esto acredita éxito del flujo de despliegue, no pruebas manuales de navegador, móvil o accesibilidad.
+
+### 62.2. Inspección de banco T08 sin recertificación
+
+- Leído el archivo actual `content/diputacion-toledo-auxiliar-c2/tema-08/preguntas.json`: **20 preguntas**, identificadores `DT-C2-T08-001` a `020`. Inspeccionados enunciados y alternativas señaladas como correctas; el banco aborda LPRL arts. 14, 15, 19, 21, 22, 29, 31, 33, 35, 36, 38 y RD 39/1997 arts. 10 y 14.
+- Comprobado que permanecen las sustituciones ya documentadas `T08-011` (31–49 trabajadores) y `T08-014` (informe 15 días), por lo que **no se regeneran**.
+- **Incidencia editorial a cotejar antes de cierre**: `T08-007` usa en la alternativa correcta «Se imparte por empresa», expresión susceptible de confundir la obligación empresarial de garantizar la formación con la posibilidad de impartirla mediante servicios ajenos. Fuente primaria para la revisión: [LPRL art. 19](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a19). No se cambia la clave sin cotejar todas las opciones y el comportamiento de los tests de literalidad.
+- **Pendiente:** cotejo jurídico individual de las **80 alternativas**, fundamentos, manual completo, pruebas funcionales y accesibilidad. Este cribado **no añade** T08 a los bancos integralmente cotejados.
+
+### 62.3. Estado y siguiente bloque
+
+Se mantiene **45/121 bancos con cotejo individual documentado**, **608 preguntas y 2.432 alternativas**; **0/121** certificados simultáneamente en todas las capas. Próximo lote: resolver con fuente primaria la redacción de **T08-007**, completar T08 y después T09–T10, sin adelantar T06 OAPGT. Seguir comprobando CI/Pages para **cada SHA nuevo** y evitar confundir éxito de Actions con certificación jurídica o funcional.
