@@ -60,7 +60,16 @@ Consiste en la apreciación discrecional de la idoneidad entre quienes reúnan l
 
 La carrera se relaciona con la ocupación de puestos, la consolidación de grado, la formación, la evaluación, la movilidad y la promoción interna.
 
-El grado personal se adquiere por el desempeño de uno o varios puestos del nivel correspondiente durante el período legalmente establecido. Su consolidación produce efectos en la carrera administrativa, aunque no atribuye por sí sola un derecho absoluto a un puesto concreto.
+Conforme al **artículo 70.2 del Real Decreto 364/1995**, el grado personal se consolida por el desempeño de uno o varios puestos del nivel correspondiente durante **dos años continuados** o **tres años con interrupción**, con las excepciones expresas del propio artículo (en particular, consolidación escalonada cuando se obtiene un nivel superior en más de dos al grado de partida). La adquisición de grado **no** garantiza un puesto concreto.
+
+| Concepto | Regla del **RD 364/1995** |
+|---|---|
+| Consolidación ordinaria de grado | **2 años continuados** o **3 con interrupción** (**art. 70.2**) |
+| Solicitudes de ingreso AGE, tenor del art. **18.1** | **20 días naturales** desde día siguiente a publicación en BOE; no confundir con bases especiales de UC3M |
+| Documentación de aprobados AGE, tenor del art. **23.1** | **20 días naturales** desde publicación de relaciones definitivas de aprobados |
+| Promoción interna concurso-oposición | Méritos **no sirven** para superar pruebas de oposición (**art. 74.2**) |
+
+> ⚠️ **¡Foco Examen!:** **2 años continuados / 3 con interrupción** son plazos de **grado personal**, NO de promoción interna (que exige **2 años de servicio activo en el subgrupo inferior**, artículo **18 TREBEP**). Los **20 días naturales** del RD 364/1995 no sustituyen los plazos **hábiles** expresamente fijados por la convocatoria UC3M.
 
 ## 8. Promoción interna
 
@@ -113,7 +122,15 @@ La excepción no ampara actividades permanentes que, por su intensidad o conexi�
 
 ## 13. Procedimiento, efectos y responsabilidad
 
-La compatibilidad debe solicitarse y obtenerse antes de iniciar la actividad cuando sea exigible. Puede condicionarse y quedar sin efecto si cambian las circunstancias que justificaron su reconocimiento.
+La compatibilidad debe solicitarse y obtenerse **antes de iniciar la actividad** cuando sea exigible. Para **actividad privada**, el **artículo 14 de la Ley 53/1984** exige **previo reconocimiento** y resolución motivada en **dos meses**, a cargo del **órgano competente según la Administración**: **Ministerio de la Presidencia** en AGE en la redacción legal, **órgano competente de la Comunidad Autónoma** o **Pleno de la Corporación Local**. El reconocimiento **no altera jornada ni horario** y queda **automáticamente sin efecto si cambia el puesto en el sector público**.
+
+| Figura | Término exacto | Condición y plazo |
+|---|---|---|
+| Segunda actividad **pública** | **Autorización de compatibilidad** | Debe ser **previa**, solo en supuestos legales (**Ley 53/1984, arts. 3 y 9**) |
+| Actividad **privada** | **Reconocimiento de compatibilidad** | **Previo**, resolución motivada en **2 meses** (**art. 14**) |
+| Cambio de puesto público tras reconocimiento privado | Pérdida de eficacia | El reconocimiento queda **automáticamente sin efecto** |
+
+> ⚠️ **¡Foco Examen!:** **Autorización** para segundo puesto **público** y **reconocimiento** para actividad **privada** son expresiones distintas. En actividades privadas, el **artículo 14** fija **2 meses** para resolver y el reconocimiento decae con el **cambio de puesto**.
 
 El incumplimiento del régimen de incompatibilidades puede generar responsabilidad disciplinaria y, en su caso, otras responsabilidades. El reconocimiento de compatibilidad nunca puede utilizarse para justificar el incumplimiento del horario o de las funciones públicas.
 
