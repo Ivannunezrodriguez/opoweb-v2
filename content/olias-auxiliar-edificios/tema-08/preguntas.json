@@ -1,0 +1,147 @@
+{
+  "tema": 8,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T08-001",
+      "enunciado": "El auxiliar de edificios en recepción debe principalmente:",
+      "opciones": [
+        "Orientar y aplicar protocolo de acceso",
+        "Interrogar a cualquier visitante sin motivo",
+        "Retener objetos por decisión propia",
+        "Revisar teléfonos personales"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Sus funciones se centran en atención, control organizativo y comunicación.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Sus funciones se centran en atención, control organizativo y comunicación.",
+      "referencia": "BOP 4833, base primera; tema 8"
+    },
+    {
+      "id": "OLIAS-T08-002",
+      "enunciado": "Una llave maestra debe:",
+      "opciones": [
+        "Custodiarse según protocolo y autorizaciones",
+        "Entregarse a cualquier usuario",
+        "Duplicarse para uso personal",
+        "Etiquetarse públicamente con todas las áreas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las llaves deben estar controladas y trazables.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Las llaves deben estar controladas y trazables.",
+      "referencia": "Tema 8, control de llaves"
+    },
+    {
+      "id": "OLIAS-T08-003",
+      "enunciado": "Si se extravía una llave importante:",
+      "opciones": [
+        "Comunicar y registrar la incidencia",
+        "Ocultarlo",
+        "Cambiar cerraduras por cuenta propia",
+        "Entregar otra sin constancia"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Una pérdida puede comprometer seguridad.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Una pérdida puede comprometer seguridad.",
+      "referencia": "Tema 8, apartado 3"
+    },
+    {
+      "id": "OLIAS-T08-004",
+      "enunciado": "Para cerrar un edificio se debe primero asegurar:",
+      "opciones": [
+        "Que no quede nadie atrapado y rutas de salida funcionen",
+        "Que las salidas se bloqueen con ocupantes",
+        "Que las luces estén siempre apagadas",
+        "Que no haya documentación corporativa"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El cierre debe preservar evacuación y protocolo.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El cierre debe preservar evacuación y protocolo.",
+      "referencia": "RD 486/1997; tema 8"
+    },
+    {
+      "id": "OLIAS-T08-005",
+      "enunciado": "Un listado de visitas con nombres constituye:",
+      "opciones": [
+        "Datos personales con protección",
+        "Información siempre pública",
+        "Documento que debe difundirse",
+        "Un tributo municipal"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Nombre y datos asociados a visitas son personales.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Nombre y datos asociados a visitas son personales.",
+      "referencia": "RGPD, art. 5"
+    },
+    {
+      "id": "OLIAS-T08-006",
+      "enunciado": "Un visitante pide llave de zona restringida sin autorización:",
+      "opciones": [
+        "Se deniega y se remite a responsable",
+        "Se entrega por cortesía",
+        "Se duplica para él",
+        "Se oculta en sala de espera"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El control de llaves requiere autorización.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El control de llaves requiere autorización.",
+      "referencia": "Tema 8, apartado 3"
+    },
+    {
+      "id": "OLIAS-T08-007",
+      "enunciado": "Una puerta de evacuación debe:",
+      "opciones": [
+        "Permitir uso rápido en emergencia",
+        "Bloquearse durante todo horario",
+        "Abrirse solo con llave en emergencia",
+        "Taparse con muebles"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las salidas deben estar expeditas.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Las salidas deben estar expeditas.",
+      "referencia": "RD 486/1997, anexo I"
+    },
+    {
+      "id": "OLIAS-T08-008",
+      "enunciado": "Al detectar signos de forzamiento antes de apertura:",
+      "opciones": [
+        "Comunicar y seguir protocolo de seguridad",
+        "Entrar sin valorar riesgos",
+        "Limpiar todas las huellas",
+        "Dar acceso libre"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La seguridad personal y comunicación prevalecen.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: La seguridad personal y comunicación prevalecen.",
+      "referencia": "Tema 8, apartado 4"
+    },
+    {
+      "id": "OLIAS-T08-009",
+      "enunciado": "El registro de acceso debe recoger:",
+      "opciones": [
+        "Solo datos necesarios conforme al protocolo",
+        "Todos los datos médicos posibles",
+        "Fotos privadas por costumbre",
+        "Contraseñas de usuarios"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Rige minimización de datos.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Rige minimización de datos.",
+      "referencia": "RGPD, art. 5"
+    },
+    {
+      "id": "OLIAS-T08-010",
+      "enunciado": "La vigilancia organizativa del auxiliar es:",
+      "opciones": [
+        "Observación de riesgos y comunicación",
+        "Potestad policial general",
+        "Derecho a cachear visitantes",
+        "Poder de imponer sanciones"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "No supone competencias reservadas a policía o seguridad privada.",
+      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: No supone competencias reservadas a policía o seguridad privada.",
+      "referencia": "BOP 4833, funciones; tema 8"
+    }
+  ]
+}
