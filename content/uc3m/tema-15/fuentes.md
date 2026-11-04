@@ -61,3 +61,12 @@ La redacción de **2003** no basta por sí sola para el cese. El [**Decreto 95/2
 **Corrección:** se reemplazó el apartado erróneo del manual y se transformó **UC3M-T15-003** (antes duplicaba un concepto general de funciones y límites) en una pregunta de test de las **dos vías de cese**, conservando ID, 4 distractores y la posición de la respuesta verdadera para no romper las estadísticas ni simulacros. La matriz de cobertura asocia la pregunta al epígrafe **2.1**. Verificar también cambios universitarios posteriores antes de certificar toda la materia.
 
 > ⚠️ **¡Foco Examen!:** **Renuncia voluntaria ≠ cese por acuerdo del Claustro**; la mayoría del **art. 127.2** se refiere al segundo caso. **Decreto 95/2009**, no solo Decreto de **2003**.
+
+## Texto refundido institucional y reformas · **04/11/2026**
+
+- [**Catálogo normativo UC3M de Estatutos**](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m): distingue expresamente **Decreto 1/2003**, **Decreto 95/2009** y **texto refundido** publicado por la Universidad. Para preguntas de **2009 en adelante**, consultar el texto refundido y no solo la publicación estatal **2003**.
+- [**Texto refundido UC3M de Estatutos**](https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Texto_refundido_de_los_Estatutos_de_la_Universidad_Carlos_III_de_Madrid_.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371546309909&ssbinary=true): referencia oficial de articulado resultante, especialmente **127–132** y **178–180**.
+- [**Decreto 95/2009, reforma BOCM**](https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf), apartado **cincuenta y tres**: cese a petición propia **o** acuerdo del **Claustro** con igual mayoría que elección por incumplimiento o lesión de derechos. El informe y la pregunta **T15-003** ya recogen la distinción.
+- [**LOSU art. 43**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a43): figura general de Defensoría en las universidades y procedimiento de elección por **Claustro**; la composición, configuración y procedimientos internos se desarrollan en Estatutos.
+
+> ⚠️ **¡Foco Examen!:** El BOE del **Decreto 1/2003** contiene el **texto original**. El cese del **artículo 127.2** se rige por la modificación del **Decreto 95/2009**; leer solo el original puede llevar a atribuir erróneamente la misma votación al cese voluntario.
