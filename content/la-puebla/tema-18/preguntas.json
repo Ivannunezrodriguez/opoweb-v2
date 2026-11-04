@@ -179,16 +179,16 @@
       "id": "LP-T18-012",
       "enunciado": "¿Cuál es la naturaleza correcta de un archivo CSV respecto de una hoja de cálculo?",
       "opciones": [
-        "Es texto tabular de una sola hoja y no un libro completo",
+        "Es texto tabular sin estructura de libro ni varias hojas",
         "Puede almacenar varias hojas y gráficos",
         "Conserva todas las fórmulas y formatos",
         "Es el formato nativo de Calc"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "CSV es un formato de texto delimitado destinado a datos tabulares y no conserva la estructura completa de un libro con múltiples hojas.",
-      "trampaExamen": "Guardar como CSV puede perder fórmulas, formatos, gráficos y hojas adicionales.",
+      "justificacion": "CSV almacena datos tabulares como texto delimitado: el archivo no contiene estructura de libro ni hojas. Excel y Calc exportan solo los datos de la hoja activa y no mantienen fórmulas, formato ni gráficos.",
+      "trampaExamen": "CSV no es una hoja de cálculo nativa: al exportar se limita a los datos de la hoja activa y se pierden las demás hojas y funcionalidades del libro.",
       "referencia": "manual.md, apartado 7 · Principios de calidad",
-      "respuestaLiteral": "Es texto tabular de una sola hoja y no un libro completo"
+      "respuestaLiteral": "Es texto tabular sin estructura de libro ni varias hojas"
     }
   ],
   "controlCalidadOpciones": {
