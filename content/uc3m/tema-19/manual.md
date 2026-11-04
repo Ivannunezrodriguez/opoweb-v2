@@ -132,6 +132,20 @@ Los anticipos de caja fija son provisiones de fondos de carácter permanente des
 
 Se justifican mediante cuentas periódicas y se reponen con cargo al presupuesto. No equivalen a un pago a justificar aislado.
 
+### 11.1. Límites operativos propios de UC3M 2026: caja fija y anticipos a justificar
+
+| Procedimiento | Importe o plazo de **2026** | Fundamento institucional |
+|---|---|---|
+| **Sistema asimilado a caja fija** | Gastos que **no excedan de 5.000 € sin IVA** | **Volumen I, art. 16.2**, pág. **101/150** |
+| **Anticipos a justificar para compras o servicios** (no viajes) | **Máximo 12.000 €** | **Art. 16.3**, pág. **101** |
+| **Justificación de los anticipos anteriores** | **Máximo 1 mes** | **Art. 16.3**, pág. **102** |
+| Solicitud de anticipo | **Factura proforma o presupuesto**, motivación extraordinaria y documento **RC** | **Art. 16.3**, pág. **101** |
+| Justificación de actividad general | Documento **ADO, código 250**, endosado al habilitado | **Art. 16.3**, pág. **101** |
+
+**Fuente primaria:** [**UC3M Presupuesto 2026, Volumen I, páginas 101–102**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view). Los límites corresponden a **sistemas internos diferentes** y no sustituyen el umbral legal del **contrato menor** (**LCSP art. 118**).
+
+> ⚠️ **¡Foco Examen!:** **5.000 € sin IVA** es el límite del **sistema asimilado a caja fija**; **12.000 €** es el máximo para **anticipos a justificar de compras o servicios**; el plazo para rendir cuentas del anticipo es **1 mes**. No convertirlos en umbrales de contrato menor.
+
 ## 12. Gastos plurianuales y tramitación anticipada
 
 La UC3M puede comprometer gastos que se extiendan a ejercicios futuros dentro de los límites y autorizaciones aplicables.
