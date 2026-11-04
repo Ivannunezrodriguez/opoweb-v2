@@ -144,3 +144,9 @@ El incumplimiento del régimen de incompatibilidades puede generar responsabilid
 - La regla general de incompatibilidades es un solo puesto público.
 - La compatibilidad debe ser previa y no altera jornada ni horario.
 - Las actividades exceptuadas no equivalen a una autorización general para cualquier actividad privada.
+
+## Cotejo de las 48 alternativas del banco · 04/11/2026
+
+[**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
+
+> ⚠️ **¡Foco Examen!:** **Grado personal**: **2 años continuados/3 con interrupción**; para actividad **privada**, compatibilidad previa y resolución en **2 meses**.
