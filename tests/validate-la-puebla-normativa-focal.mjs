@@ -19,9 +19,9 @@ const p10=[
  ['repercutidos y excepción','no han sido efectivamente pagadas']
 ];
 for(const [desc,needle] of p10)assert(t10.includes(needle),'LGT art.62/65 missing: '+desc);
-assert.match(t10,/\*\*Art\. 62\.2\*\*/);
-assert.match(t10,/\*\*Art\. 62\.5\*\*/);
-assert.match(t10,/\*\*Art\. 65\.2\*\*/);
+assert.match(t10,/art\. \*\*62\.2\*\*/);
+assert.match(t10,/art\. \*\*62\.5\*\*/);
+assert.match(t10,/art\. 65\.2/);
 for(const needle of ['25.1','25.2','firma manuscrita','no cualificada','1.500.000 €','500.000 €','3 meses','15 años']){
  assert(t13.includes(needle),'eIDAS / Ley 6-2020 missing '+needle);
 }
