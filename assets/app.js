@@ -44,6 +44,17 @@ const CALLS = [
     availableThemes: 20,
     practiceUrl: 'practice.html'
   }
+  ,
+  {
+    id: 'olias-del-rey-auxiliar-edificios-c2-2026',
+    label: 'Olías del Rey · Auxiliar de edificios e instalaciones C2',
+    shortLabel: 'Olías del Rey · Auxiliar edificios C2',
+    programmeUrl: 'data/programa-olias-auxiliar-edificios-2026.json',
+    trackingUrl: 'data/seguimiento-olias-auxiliar-edificios-2026.json',
+    contentRoot: 'content/olias-auxiliar-edificios',
+    availableThemes: 0,
+    practiceUrl: null
+  }
 ];
 
 let activeCall = null;
