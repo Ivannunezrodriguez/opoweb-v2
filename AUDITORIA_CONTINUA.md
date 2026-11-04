@@ -1864,3 +1864,78 @@ La corrección previa del tema 8 que sustituyó la falsa suma legal de **probabi
 **48/121 temas** con banco cotejado individualmente: **La Puebla 19/19**, **UC3M 20/20**, **Diputación Toledo C2 9/20** (**T01–T05 y T07–T10**; el **T06 sigue aplazado al final, no aprobado**). Acumulado **668 preguntas y 2.672 alternativas**. **39,7 %** de **temas con banco cotejado**, NO porcentaje de certificación integral. **0/121** con todas las capas jurídico-editoriales, funcionales y de accesibilidad demostradas.
 
 **Siguiente lote:** **Diputación Toledo C2 T11–T13** (tributación local, gestión y recaudación), manteniendo la secuencia acordada y dejando **T06 Acuerdo Regulador/Estatutos OAPGT** para el final. Reserva transversal pendiente: fecha primaria definitiva de corte normativo UC3M, navegador, accesibilidad y pruebas reales de simulacros.
+
+
+## 63. Diputación de Toledo C2 T11–T13 · 240 alternativas tributarias y 10 preguntas redundantes sustituidas — **05/11/2026**
+
+### 63.1. Programa, fuentes primarias y alcance
+
+**Base oficial:** **BOP Toledo n.º 197, de 14/10/2026, Anexo XI**, programa de **Auxiliar Administrativo C2**, temas **11 a 13**. Las leyes cotejadas son:
+
+- [**Real Decreto Legislativo 2/2004, TRLRHL, texto consolidado última actualización publicada 07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214).
+- [**Ley 58/2003, General Tributaria, texto consolidado última actualización publicada 21/12/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186).
+- [**RD 939/2005, Reglamento General de Recaudación**](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803), y [**RD 520/2005, revisión tributaria**](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662), como fuentes complementarias de T12.
+
+**Advertencia metodológica:** el consolidado BOE es de carácter **informativo**; se han cotejado sus artículos y se citan normas oficiales. La fecha de actualización de un texto no debe confundirse con la fecha de entrada en vigor de cualquier modificación específica.
+
+| Tema | Informe preciso | Resultado jurídico-editorial del banco |
+|---|---|---|
+| [**T11 · Tributación local y gestión tributaria**](content/diputacion-toledo-auxiliar-c2/tema-11/cotejo-integral-2026-11-05.md) | **20 preguntas / 80 alternativas** | **LGT 104.1**, **TRLRHL 7.2** y **9.1** añadidos, con tres redundancias sustituidas |
+| [**T12 · Recaudación, apremio y devoluciones**](content/diputacion-toledo-auxiliar-c2/tema-12/cotejo-integral-2026-11-05.md) | **20/80** | **LGT 62.3, 167.3, 32.2 y 72.1** incorporados en cuatro preguntas nuevas |
+| [**T13 · Impuestos locales IBI, IAE, IVTM, IIVTNU**](content/diputacion-toledo-auxiliar-c2/tema-13/cotejo-integral-2026-11-05.md) | **20/80** | **TRLRHL 59.2, 61.1–2 y 104.2**, tres nuevas preguntas no redundantes |
+
+Cada informe reproduce **las cuatro opciones exactas** de cada ítem, **la clave** y **un motivo distinto para aceptar o descartar cada alternativa**, con un bloque **¡Foco Examen!** individual. **No** equivale a auditoría legal de todas las afirmaciones de los tres manuales.
+
+### 63.2. Diez reemplazos reales de preguntas repetidas
+
+Se han conservado los **IDs, veinte preguntas por tema y las posiciones de respuesta correcta**. Las sustituciones de contenido se registran en sus **`preguntas.json`**, **`matriz.json`** y documentos de fuentes:
+
+| Pregunta | Clave conservada | Materia examinable añadida |
+|---|---|---|
+| **T11-015** | **D** | **LGT art.104.1:** plazo supletorio tributario **6 meses**; procedimiento de apremio exceptuado |
+| **T11-019** | **D** | **TRLRHL art.7.2:** el **Pleno** acuerda la delegación tributaria, el órgano competente receptor la acepta y se publica en los **boletines oficiales provincial y autonómico** |
+| **T11-020** | **A** | **TRLRHL art.9.1:** bonificación potestativa en ordenanza **hasta el 5 % de cuota** por domiciliación/anticipo/colaboración |
+| **T12-010** | **C** | **LGT art.62.3:** recibos de notificación colectiva y periódica del **1 de septiembre al 20 de noviembre**, salvo regla especial o modificación no inferior a **2 meses** |
+| **T12-013** | **B** | **LGT art.167.3:** oposición tasada a providencia de apremio por **extinción total o prescripción** |
+| **T12-014** | **C** | **LGT art.32.2:** interés de demora por ingresos indebidos **sin necesidad de petición** desde ingreso hasta orden de pago, con límites legales |
+| **T12-017** | **B** | **LGT art.72.1:** compensación solicitada en **período voluntario o ejecutivo** |
+| **T13-009** | **B** | **TRLRHL art.59.2:** impuestos potestativos **ICIO e IIVTNU**, frente a **IBI/IAE/IVTM** obligatorios |
+| **T13-010** | **C** | **TRLRHL art.61.1–2:** prelación IBI **concesión → superficie → usufructo → propiedad** |
+| **T13-018** | **C** | **TRLRHL art.104.2:** no sujeción IIVTNU por **terreno rústico a efectos de IBI**, distinta del caso de inexistencia acreditada de incremento del **104.5** |
+
+Se corrigió además en el [**manual T11**](content/diputacion-toledo-auxiliar-c2/tema-11/manual.md) una referencia cruzada equivocada que decía que la recaudación en profundidad estaba en el propio **T11**: corresponde al **T12**. Se eliminó en [**manual T12**](content/diputacion-toledo-auxiliar-c2/tema-12/manual.md) el encabezado duplicado **«## 1. voluntaria»**.
+
+### 63.3. Tabla diferencial tributaria de uso directo en test
+
+| Regla | Supuesto | Plazo o cuantía |
+|---|---|---|
+| **LGT art.104.1** | Procedimiento tributario sin duración máxima fijada | **6 meses**, con excepciones |
+| **LPAC art.21.3** | Procedimiento administrativo común sin plazo fijado | **3 meses** |
+| **LGT art.62.2.a** | Liquidación notificada **1–15** | **20 del mes siguiente** o hábil inmediato |
+| **LGT art.62.2.b** | Liquidación notificada **16–último** | **5 del segundo mes siguiente** o hábil inmediato |
+| **LGT art.62.3** | Recibo periódico de notificación colectiva sin norma especial | **1 septiembre–20 noviembre** o hábil inmediato; modificación mínimo **2 meses** |
+| **LGT art.62.5.a** | Providencia de apremio notificada **1–15** | **20 del mismo mes** o hábil inmediato |
+| **LGT art.62.5.b** | Providencia notificada **16–último** | **5 del mes siguiente** o hábil inmediato |
+| **LGT art.28.2** | Paga íntegra deuda antes de providencia | **5 %** recargo ejecutivo, sin interés ejecutivo |
+| **LGT art.28.3** | Paga deuda y recargo dentro de **62.5** | **10 %** reducido, sin interés ejecutivo |
+| **LGT art.28.4–5** | Fuera de los supuestos reducidos | **20 %** ordinario, compatible con intereses |
+| **TRLRHL art.9.1** | Ordenanza prevé bonificación por domiciliación, anticipo o colaboración | **Hasta 5 %** de cuota, no automático |
+| **TRLRHL art.17.1** | Exposición provisional de ordenanza fiscal | **Mínimo 30 días** |
+| **LGT art.66** | Prescripción general tributaria | **4 años**, según derecho y dies a quo |
+
+> ⚠️ **¡Foco Examen!:** **62.2 y 62.5** distinguen **notificación de liquidación** y **notificación de providencia**: una fecha del **día 10** tiene vencimientos diferentes según el documento. **62.3** no es ninguna de las dos, sino recibos de notificación colectiva periódica. **Plazo supletorio tributario = 6 meses**, frente a **3 meses LPAC**.
+
+### 63.4. Evidencia técnica y límites de certificación
+
+- Modificados **`preguntas.json`** de T11–T13 con **10 sustituciones**, sin alterar número de ítems o distribución de claves: **T11 A5/B5/C5/D5; T12 A5/B5/C5/D5; T13 A5/B4/C6/D5**.
+- Actualizados **`manual.md`**, **`fuentes.md`**, **`matriz.json`**, cada uno con referencia relativa al nuevo informe **`cotejo-integral-2026-11-05.md`** y comparativas examinables.
+- Las tres matrices incluyen **`controlIntegralBanco20261105`**, **`estado:COTEJO_BANCO_COMPLETO`**, recuento **20/80** y listado de cambios; **`aprobadoPorUsuario:false`**, **`certificacionWeb:PENDIENTE_PRUEBA_NAVEGADOR_REAL`** y **`certificacionLegalGlobal:PENDIENTE_MANUAL_COMPLETO`**.
+- Nueva prueba [**`tests/validate-diputacion-c2-t11-t13-integral.mjs`**](tests/validate-diputacion-c2-t11-t13-integral.mjs), registrada en **`npm test`** y [.github/workflows/validate.yml](.github/workflows/validate.yml). Valida **60 preguntas, 240 alternativas exactas**, duplicidad, claves, fundamento, preguntas sustituidas y correcciones cruzadas.
+- **Estado del último CI y GitHub Pages:** comprobar los runs del **commit final** antes de atribuir un **SUCCESS**. Las ejecuciones previas del repo no son prueba de este lote por sí solas.
+- **Prueba funcional de navegador real, móvil y accesibilidad:** pendiente. **Aprobación editorial integral por el usuario:** pendiente. La revisión del banco no equivale a certificado del manual entero ni a un portal autónomo al **100 %**.
+
+### 63.5. Cobertura acumulada
+
+**51/121 temas** con cotejo individual del banco: **La Puebla 19/19**, **UC3M 20/20**, **Diputación Toledo C2 12/20** (**T01–T05, T07–T13**; **T06 sigue aplazado hasta el final**). Acumulado **728 preguntas y 2.912 alternativas cotejadas**. **42,1 %** es el porcentaje de **temas con banco auditado**, no certificación integral técnico-jurídica ni accesibilidad. **0/121** con todas las capas demostradas.
+
+**Próxima prioridad:** **Diputación Toledo C2 T14–T16**, manteniendo la decisión editorial de dejar **T06** para el final. Persisten las reservas transversales de fecha primaria de corte normativo UC3M y prueba real de navegador y accesibilidad.
