@@ -231,3 +231,9 @@ No pueden presentarse propuestas de reforma durante los tres meses anteriores a 
 - El Rector es el órgano de contratación de la UC3M.
 - La quinta parte de los miembros del Claustro puede promover una reforma.
 - Toma en consideración y aprobación final exigen mayorías distintas en su referencia: presentes frente a miembros del Claustro.
+
+## Cotejo exhaustivo del banco · 04/11/2026
+
+[**Informe individual de 21 preguntas y 84 alternativas literales**](cotejo-integral-2026-11-04.md): fundamentos jurídicos, descarte de cada respuesta errónea y foco de examen. **Estado del banco: COTEJO_BANCO_COMPLETO**, **no aprobación de usuario**. La fecha normativa de corte de las bases UC3M sigue pendiente de corroborar mediante publicación primaria de la resolución de listas definitivas y anuncio de prueba. Las pruebas funcionales en navegador y accesibilidad se mantienen **pendientes**.
+
+> ⚠️ **¡Foco Examen!:** **Defensor Universitario**: elección por **mitad más uno de miembros del Claustro**, Adjunto por **mayoría simple**; el cese voluntario no exige votación de cese por causa, tras reforma **2009**.
