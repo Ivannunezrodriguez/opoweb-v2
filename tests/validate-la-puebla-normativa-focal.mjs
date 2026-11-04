@@ -29,6 +29,19 @@ for(const needle of ['Ley 6/2020','1.500.000 €','500.000 €','15 años','3 me
  assert(trust.includes(needle),'Trust provider manual missing '+needle);
 }
 assert(t12.includes('1 de diciembre de 2026'),'Tema 12: preserve post-exam IIVTNU coefficient effective date');
+const iivtnu = read('content/la-puebla/tema-12/bloque-05a-iivtnu-hecho.md');
+const subjects = read('content/la-puebla/tema-12/bloque-05b-iivtnu-sujetos.md');
+const sources12 = read('content/la-puebla/tema-12/fuentes.md');
+for(const needle of ['Ley Orgánica 2/2022','violencia contra la mujer','50 %','Impuesto sobre Sucesiones y Donaciones','no se cuenta el período anterior','empadronamiento ininterrumpido durante al menos dos años']){
+ assert(iivtnu.includes(needle),'Tema 12 IIVTNU art.104-105 missing '+needle);
+}
+for(const needle of ['persona física no residente','transmisión onerosa','sustituto','parentesco']){
+ assert(subjects.includes(needle),'Tema 12 IIVTNU art.106 missing '+needle);
+}
+assert(sources12.includes('Cotejo focal IIVTNU — 04/11/2026'));
+const matrix12=j('content/la-puebla/tema-12/matriz.json');
+assert(matrix12.controlSustantivo20261104IIVTNU?.estado?.includes('PARCIAL'));
+
 for(const topic of [10,12,13]){
  const bank=j('content/la-puebla/tema-'+topic+'/preguntas.json');
  assert.equal(bank.preguntas.length,12,'Historical La Puebla bank count changed for topic '+topic);
