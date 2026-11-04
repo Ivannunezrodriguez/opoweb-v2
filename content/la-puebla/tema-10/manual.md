@@ -166,8 +166,8 @@ La delegación también puede alcanzar restantes ingresos de Derecho público, n
 
 1. Acuerdo del Pleno de la corporación delegante.
 2. Determinación del alcance y contenido.
-3. Aceptación por el órgano competente de la entidad delegada.
-4. Publicación para general conocimiento en los boletines oficiales correspondientes.
+3. **Aceptación por el órgano de gobierno correspondiente de la entidad delegada**; si la delegada es otra entidad local, la aceptación corresponde **siempre a su Pleno**.
+4. Publicación, **después de la aceptación**, en los **boletines oficiales de la provincia y de la comunidad autónoma**, para general conocimiento (art. **7.2 TRLRHL**).
 
 La delegación no se presume. Debe concretar qué recursos, facultades y condiciones comprende.
 
@@ -185,7 +185,7 @@ Los actos dictados se impugnan conforme al régimen correspondiente al ente gest
 
 Quien haya asumido facultades delegadas puede ejercerlas en todo su ámbito territorial e incluso realizar actuaciones en territorios de otras entidades locales, de acuerdo con la ley.
 
-> ⚠️ **¡Foco Examen!:** **Delegación** significa que otra Administración ejerce facultades atribuidas a la entidad local. La titularidad del ingreso sigue siendo local.
+> ⚠️ **¡Foco Examen!:** **Delegación** significa que otra Administración ejerce facultades atribuidas a la entidad local. La titularidad del ingreso sigue siendo local. **Dos Plenos distintos** pueden intervenir: el **Pleno delegante** acuerda la delegación y, cuando la receptora es otra entidad local, el **Pleno de la delegada** la acepta; se publica en **BOP y boletín autonómico**.
 
 ## 7. Artículo 8 TRLRHL · colaboración
 
