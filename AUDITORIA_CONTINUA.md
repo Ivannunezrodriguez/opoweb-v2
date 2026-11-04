@@ -977,3 +977,17 @@ Se comprobó que `data/programa-diputacion-auxiliar-c2-2026.json` tenía **12/20
 **TAREA ACTIVA:** revisar **LP T10** (art. 27 LGT, art. 7–9 TRLRHL) y **resto de LP T13** a nivel de opción/distractor, **UC3M T16** (RD 822/2021, normativa de permanencia/evaluación y fecha de corte oficial de convocatoria), validar el último Pages por SHA y continuar auditoría jurídica del resto; **T6 OAPGT C2 al final**. Mantener el seguimiento horario sin duplicar tareas. **Carranque/Las Ventas no reabrir**.
 
 > ⚠️ **¡Foco Examen!:** Un **tema publicado** o una **matriz creada** no significa `AUDITADO` integral. En los tests, citar el **precepto concreto en su versión vigente** y verificar que la alternativa correcta lo reproduce sin confundir niveles, órganos ni mayorías.
+
+## 40. Cotejo focal artículo 7.2 TRLRHL — La Puebla T10 — **04/11/2026**
+
+**Arranque y continuidad:** consultados `PROJECT_RULES.md` y último apartado **§39**, sin rehacer las correcciones eIDAS de La Puebla T13, estatutos UC3M T15 ni las 19 matrices C2. Se mantiene **0/121 temas recertificados jurídicamente de forma integral**. La tarea activa de §39 dirige a La Puebla T10 y UC3M T16, con exámenes próximos.
+
+**Fuente primaria comprobada:** [TRLRHL, art. 7.2, texto consolidado BOE con actualización 07/10/2026](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a7). El acuerdo de delegación corresponde al **Pleno de la corporación delegante**; la aceptación corresponde al órgano de gobierno receptor y, **si es otra entidad local, a su Pleno**; la publicación posterior debe realizarse en **boletines oficiales de la provincia y de la comunidad autónoma**. El manual y la pregunta LP-T10-002 antes solo expresaban «órgano competente» y «publicación oficial», omitiendo estas distinciones susceptibles de examen.
+
+**Corrección realizada:** `content/la-puebla/tema-10/manual.md` (detalle de los dos Plenos, doble publicación y foco); `preguntas.json` (LP-T10-002 delimitada a delegación entre entidades locales, conservando respuesta correcta y cuatro alternativas; ampliada justificación y trampa); `fuentes.md` (artículo y examen de los tres distractores). Regresión añadida en `tests/validate-la-puebla-normativa-focal.mjs` para impedir perder la precisión. Commits secuenciales **`0197850e`**, **`4cf67646`**, **`10e87ab1`** y **`65251265`**. **La revisión jurídica es focal de un precepto y una pregunta; no certifica el tema ni las otras once preguntas.**
+
+**Validación:** las actualizaciones de archivos han sido aceptadas por GitHub. **CI/Pages del SHA `65251265` aún no comprobados en esta ejecución**; no se atribuye SUCCESS. La revisión anterior §39 sí acreditó CI/Pages del SHA `721d73fa` y CI del SHA `8b08ad68`, con Pages de este último pendiente en el momento del registro. Confirmar resultados por SHA antes de declarar publicación. Sin navegador real, no hay validación visual móvil/escritorio.
+
+**Siguiente bloque prioritario:** confirmar CI/Pages y revisar **UC3M T16** (normativa de permanencia, evaluación y corte de vigencia de convocatoria), después completar revisión de distractores de La Puebla T10/T13 y del resto de La Puebla/UC3M. Diputación C2 T6 OAPGT **reservado para el final**; discrepancias oficiales Olías **sin resolver**. Radar sin desplazar exámenes. No reabrir Carranque ni Las Ventas.
+
+> ⚠️ **¡Foco Examen!:** art. **7.2 TRLRHL**: **Pleno delegante** acuerda; **Pleno de la entidad local delegada** acepta; **BOP + boletín autonómico** publican. Ninguno de estos matices permite afirmar que el resto de La Puebla T10 esté recertificado.
