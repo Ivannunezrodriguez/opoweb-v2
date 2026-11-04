@@ -8,9 +8,9 @@
       "enunciado": "¿Para qué se usa una llave Allen?",
       "opciones": [
         "Tornillos de hexágono interior",
+        "Medir voltaje",
         "Tuercas gigantes exclusivamente",
-        "Pintar",
-        "Medir voltaje"
+        "Pintar"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Es una llave para alojamiento hexagonal interior.",
@@ -21,12 +21,12 @@
       "id": "OLIAS-T14-002",
       "enunciado": "¿Cuál tiene boca ajustable?",
       "opciones": [
-        "Llave inglesa",
         "Llave Allen",
         "Llave fija",
+        "Llave inglesa",
         "Remachadora"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Permite ajustar la apertura.",
       "trampaExamen": "Distingue elementos y límites; Permite ajustar la apertura.",
       "referencia": "Tema 14, herramientas"
@@ -35,12 +35,12 @@
       "id": "OLIAS-T14-003",
       "enunciado": "Antes de taladrar un muro debe comprobarse:",
       "opciones": [
-        "Posibles conducciones ocultas",
-        "Solo su color",
         "Solo hora del día",
-        "Nada"
+        "Nada",
+        "Posibles conducciones ocultas",
+        "Solo su color"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Se deben evitar perforaciones peligrosas.",
       "trampaExamen": "Distingue elementos y límites; Se deben evitar perforaciones peligrosas.",
       "referencia": "RD 1215/1997"
@@ -50,9 +50,9 @@
       "enunciado": "Un tornillo suele permitir:",
       "opciones": [
         "Desmontaje de unión roscada",
+        "Desinfección",
         "Unión soldada automática",
-        "Protección diferencial",
-        "Desinfección"
+        "Protección diferencial"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Es fijación roscada desmontable.",
@@ -63,12 +63,12 @@
       "id": "OLIAS-T14-005",
       "enunciado": "Para fijar en placa de yeso se necesita:",
       "opciones": [
-        "Anclaje compatible con soporte y carga",
         "Cualquier taco sin valorar",
         "Siempre clavar a mano",
-        "Un cebador"
+        "Un cebador",
+        "Anclaje compatible con soporte y carga"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "El soporte determina el sistema.",
       "trampaExamen": "Distingue elementos y límites; El soporte determina el sistema.",
       "referencia": "Tema 14, fijaciones"
@@ -77,12 +77,12 @@
       "id": "OLIAS-T14-006",
       "enunciado": "Mango de martillo suelto:",
       "opciones": [
-        "Retirar de uso",
-        "Usar con más fuerza",
         "Mojarlo",
-        "Taparlo con una hoja"
+        "Retirar de uso",
+        "Taparlo con una hoja",
+        "Usar con más fuerza"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Puede soltarse y causar lesiones.",
       "trampaExamen": "Distingue elementos y límites; Puede soltarse y causar lesiones.",
       "referencia": "RD 1215/1997"
@@ -91,12 +91,12 @@
       "id": "OLIAS-T14-007",
       "enunciado": "Una arandela puede servir para:",
       "opciones": [
-        "Distribuir carga y otras funciones según tipo",
+        "Medir intensidad",
         "Encender una luz",
         "Desconectar el diferencial",
-        "Medir intensidad"
+        "Distribuir carga y otras funciones según tipo"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Elemento complementario de fijación.",
       "trampaExamen": "Distingue elementos y límites; Elemento complementario de fijación.",
       "referencia": "Tema 14, fijaciones"
@@ -105,12 +105,12 @@
       "id": "OLIAS-T14-008",
       "enunciado": "La selección de broca depende de:",
       "opciones": [
-        "Material, diámetro y equipo",
         "Solo el color",
         "Solo el nombre del edificio",
+        "Material, diámetro y equipo",
         "Cualquier formato"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Compatibilidad previene daños y riesgos.",
       "trampaExamen": "Distingue elementos y límites; Compatibilidad previene daños y riesgos.",
       "referencia": "Tema 14, taladro"
@@ -119,12 +119,12 @@
       "id": "OLIAS-T14-009",
       "enunciado": "Una sierra manual debe usarse:",
       "opciones": [
-        "Con material sujeto y hoja apropiada",
-        "Con ojos cerrados",
         "Con pieza suelta",
-        "Sin atender estado de hoja"
+        "Con material sujeto y hoja apropiada",
+        "Sin atender estado de hoja",
+        "Con ojos cerrados"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Seguridad básica de corte.",
       "trampaExamen": "Distingue elementos y límites; Seguridad básica de corte.",
       "referencia": "RD 1215/1997"
@@ -134,9 +134,9 @@
       "enunciado": "Las herramientas deterioradas deben:",
       "opciones": [
         "Retirarse y comunicarse",
+        "Seguir utilizándose",
         "Dejarse en recepción",
-        "Prestarse a visitantes",
-        "Seguir utilizándose"
+        "Prestarse a visitantes"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "La integridad del equipo es requisito de seguridad.",

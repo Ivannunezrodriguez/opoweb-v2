@@ -8,9 +8,9 @@
       "enunciado": "¿Qué significa ADF en una multifunción?",
       "opciones": [
         "Alimentador automático de documentos",
+        "Ajuste de diferenciación",
         "Archivo definitivo fijo",
-        "Anulador de doble folio",
-        "Ajuste de diferenciación"
+        "Anulador de doble folio"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "ADF designa el alimentador automático.",
@@ -21,12 +21,12 @@
       "id": "OLIAS-T11-002",
       "enunciado": "El modo dúplex permite:",
       "opciones": [
-        "Trabajar con ambas caras",
         "Doblar la resolución siempre",
+        "Trabajar con ambas caras",
         "Eliminar tóner",
         "Archivar administrativamente"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Dúplex se refiere a las dos caras.",
       "trampaExamen": "Distingue elementos y límites; Dúplex se refiere a las dos caras.",
       "referencia": "Reprografía, apartado 1"
@@ -35,12 +35,12 @@
       "id": "OLIAS-T11-003",
       "enunciado": "¿Qué función tiene el fusor en una impresora láser?",
       "opciones": [
-        "Fijar el tóner",
-        "Cortar canutillos",
         "Reglar el horario",
-        "Escanear DNI"
+        "Escanear DNI",
+        "Cortar canutillos",
+        "Fijar el tóner"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Fija el tóner al papel.",
       "trampaExamen": "Distingue elementos y límites; Fija el tóner al papel.",
       "referencia": "Tema 11, consumibles"
@@ -50,9 +50,9 @@
       "enunciado": "¿Cuál puede ser un riesgo del fusor?",
       "opciones": [
         "Temperatura elevada",
+        "Sanción administrativa",
         "Frío extremo obligatorio",
-        "Ruido jurídico",
-        "Sanción administrativa"
+        "Ruido jurídico"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "El fusor puede estar caliente.",
@@ -63,12 +63,12 @@
       "id": "OLIAS-T11-005",
       "enunciado": "Ante un atasco de papel se debe:",
       "opciones": [
-        "Seguir instrucciones del equipo y evitar mecanismos peligrosos",
         "Introducir destornillador sin desconectar",
         "Desactivar resguardos",
+        "Seguir instrucciones del equipo y evitar mecanismos peligrosos",
         "Forzar rodillos"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Se debe seguir fabricante y prevención.",
       "trampaExamen": "Distingue elementos y límites; Se debe seguir fabricante y prevención.",
       "referencia": "RD 1215/1997"
@@ -77,12 +77,12 @@
       "id": "OLIAS-T11-006",
       "enunciado": "¿Qué equipo se usa para cortar varias hojas?",
       "opciones": [
-        "Guillotina/cizalla",
-        "Escáner",
         "Fusor",
-        "Router"
+        "Router",
+        "Guillotina/cizalla",
+        "Escáner"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "La guillotina corta papel y presenta riesgo de corte.",
       "trampaExamen": "Distingue elementos y límites; La guillotina corta papel y presenta riesgo de corte.",
       "referencia": "Tema 11, acabado"
@@ -92,9 +92,9 @@
       "enunciado": "Una digitalización produce:",
       "opciones": [
         "Archivo digital",
+        "Una tasa pagada",
         "Siempre asiento registral",
-        "Un nombramiento",
-        "Una tasa pagada"
+        "Un nombramiento"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Digitalizar no es registrar.",
@@ -105,12 +105,12 @@
       "id": "OLIAS-T11-008",
       "enunciado": "¿Cuál es consumible de impresora electrofotográfica?",
       "opciones": [
-        "Tóner",
         "Cinta métrica",
         "Termostato",
-        "Cemento"
+        "Cemento",
+        "Tóner"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "El tóner es material de impresión.",
       "trampaExamen": "Distingue elementos y límites; El tóner es material de impresión.",
       "referencia": "Tema 11, consumibles"
@@ -119,12 +119,12 @@
       "id": "OLIAS-T11-009",
       "enunciado": "¿Dónde debe dejarse un documento confidencial impreso?",
       "opciones": [
-        "En circuito de entrega autorizado",
-        "En bandeja común sin vigilancia",
         "En sala abierta",
-        "En foto personal"
+        "En circuito de entrega autorizado",
+        "En foto personal",
+        "En bandeja común sin vigilancia"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Debe evitarse divulgación de datos.",
       "trampaExamen": "Distingue elementos y límites; Debe evitarse divulgación de datos.",
       "referencia": "RGPD, art. 5"
@@ -133,12 +133,12 @@
       "id": "OLIAS-T11-010",
       "enunciado": "Las reparaciones de equipo con riesgo específico se encomiendan a:",
       "opciones": [
-        "Personal capacitado",
+        "Todo usuario sin información",
         "Cualquier visitante",
         "Solo a menores de edad",
-        "Todo usuario sin información"
+        "Personal capacitado"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "RD 1215 reserva mantenimiento de riesgo.",
       "trampaExamen": "Distingue elementos y límites; RD 1215 reserva mantenimiento de riesgo.",
       "referencia": "RD 1215/1997, art. 3"

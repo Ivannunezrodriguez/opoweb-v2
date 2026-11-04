@@ -7,12 +7,12 @@
       "id": "OLIAS-T16-001",
       "enunciado": "La bisagra o pernio sirve para:",
       "opciones": [
-        "Permitir el giro de hoja",
-        "Medir presión de agua",
         "Franquear carta",
-        "Almacenar tóner"
+        "Permitir el giro de hoja",
+        "Almacenar tóner",
+        "Medir presión de agua"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Es articulación de puerta o ventana.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Es articulación de puerta o ventana.",
       "referencia": "Tema 16, elementos"
@@ -21,12 +21,12 @@
       "id": "OLIAS-T16-002",
       "enunciado": "La parte móvil de una puerta es:",
       "opciones": [
-        "Hoja",
+        "Tapajuntas fijo",
         "Marco",
         "Cerradero",
-        "Tapajuntas fijo"
+        "Hoja"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "La hoja es el elemento que se mueve.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. La hoja es el elemento que se mueve.",
       "referencia": "Tema 16, elementos"
@@ -49,12 +49,12 @@
       "id": "OLIAS-T16-004",
       "enunciado": "Una puerta cortafuegos se debe:",
       "opciones": [
-        "Mantener operativa sin modificaciones no autorizadas",
-        "Bloquear abierta con cuñas",
         "Perforar para instalar cualquier accesorio",
-        "Anular cierrapuertas"
+        "Anular cierrapuertas",
+        "Mantener operativa sin modificaciones no autorizadas",
+        "Bloquear abierta con cuñas"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Se han de respetar prestaciones de protección.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Se han de respetar prestaciones de protección.",
       "referencia": "Tema 16, seguridad"
@@ -63,12 +63,12 @@
       "id": "OLIAS-T16-005",
       "enunciado": "El cerradero recibe normalmente:",
       "opciones": [
-        "Pestillo o elemento de cierre",
+        "Toma de tierra",
         "Agua de cisterna",
-        "Papel de impresora",
-        "Toma de tierra"
+        "Pestillo o elemento de cierre",
+        "Papel de impresora"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Es pieza del sistema de cierre.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Es pieza del sistema de cierre.",
       "referencia": "Tema 16, elementos"
@@ -91,12 +91,12 @@
       "id": "OLIAS-T16-007",
       "enunciado": "Puerta metálica que roza puede tener:",
       "opciones": [
-        "Desajuste de bisagra/marco",
-        "Siempre falta de franqueo",
         "Fuga de gas obligatoria",
-        "Error de impresora"
+        "Error de impresora",
+        "Siempre falta de franqueo",
+        "Desajuste de bisagra/marco"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Son causas posibles que requieren revisión.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Son causas posibles que requieren revisión.",
       "referencia": "Tema 16, ajuste"
@@ -105,12 +105,12 @@
       "id": "OLIAS-T16-008",
       "enunciado": "¿Debe duplicarse llave maestra por iniciativa propia?",
       "opciones": [
+        "No hay control",
         "No, solo con autorización y trazabilidad",
         "Sí siempre",
-        "Sí si está barata",
-        "No hay control"
+        "Sí si está barata"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "La custodia se organiza por protocolo.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. La custodia se organiza por protocolo.",
       "referencia": "Tema 16, llaves"
@@ -119,12 +119,12 @@
       "id": "OLIAS-T16-009",
       "enunciado": "¿Qué operación de soldadura puede asumir automáticamente cualquier auxiliar?",
       "opciones": [
-        "Ninguna sin competencia, formación y autorización",
         "Toda estructura",
         "Cualquier acero",
-        "Cualquier aluminio"
+        "Cualquier aluminio",
+        "Ninguna sin competencia, formación y autorización"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Las operaciones con riesgo específico requieren formación.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Las operaciones con riesgo específico requieren formación.",
       "referencia": "RD 1215/1997"
@@ -133,12 +133,12 @@
       "id": "OLIAS-T16-010",
       "enunciado": "Al manipular hoja pesada hay riesgo de:",
       "opciones": [
-        "Caída/atrapamiento",
-        "Únicamente fatiga visual",
         "Solo correo erróneo",
-        "Ninguno"
+        "Ninguno",
+        "Caída/atrapamiento",
+        "Únicamente fatiga visual"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Se requiere sujeción segura.",
       "trampaExamen": "No confundir categorías, elementos o habilitación. Se requiere sujeción segura.",
       "referencia": "LPRL"

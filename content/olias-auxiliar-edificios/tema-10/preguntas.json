@@ -7,12 +7,12 @@
       "id": "OLIAS-T10-001",
       "enunciado": "Un área técnica de un edificio público debe accederse:",
       "opciones": [
-        "Con la autorización correspondiente",
-        "Por cualquier visitante",
         "Solo por ser vecino",
-        "Sin cumplir ningún protocolo"
+        "Sin cumplir ningún protocolo",
+        "Por cualquier visitante",
+        "Con la autorización correspondiente"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Zonas técnicas tienen control por riesgos y acceso.",
       "trampaExamen": "Distingue elementos y límites; Zonas técnicas tienen control por riesgos y acceso.",
       "referencia": "Tema 10, zonas"
@@ -21,12 +21,12 @@
       "id": "OLIAS-T10-002",
       "enunciado": "Antes de cerrar un edificio hay que verificar:",
       "opciones": [
+        "Que el archivo esté abierto",
         "Que no queden ocupantes atrapados",
         "Que no existan salidas de emergencia utilizables",
-        "Que toda alarma quede desactivada",
-        "Que el archivo esté abierto"
+        "Que toda alarma quede desactivada"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Un cierre debe preservar seguridad de ocupantes.",
       "trampaExamen": "Distingue elementos y límites; Un cierre debe preservar seguridad de ocupantes.",
       "referencia": "RD 486/1997"
@@ -35,12 +35,12 @@
       "id": "OLIAS-T10-003",
       "enunciado": "Si aparece una puerta forzada al abrir:",
       "opciones": [
-        "Comunicar y seguir protocolo",
         "Ocultarlo",
         "Entrar corriendo sin evaluar",
-        "Cambiar cerradura en secreto"
+        "Cambiar cerradura en secreto",
+        "Comunicar y seguir protocolo"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "La seguridad y trazabilidad de incidente prevalecen.",
       "trampaExamen": "Distingue elementos y límites; La seguridad y trazabilidad de incidente prevalecen.",
       "referencia": "Tema 10, apertura"
@@ -49,12 +49,12 @@
       "id": "OLIAS-T10-004",
       "enunciado": "El uniforme de contratista permite:",
       "opciones": [
-        "Comprobar su autorización, no acceso automático",
-        "Entrar siempre en sala técnica",
         "Disponer de llave maestra",
-        "Eliminar registro corporativo"
+        "Eliminar registro corporativo",
+        "Comprobar su autorización, no acceso automático",
+        "Entrar siempre en sala técnica"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "El acceso requiere permiso adecuado.",
       "trampaExamen": "Distingue elementos y límites; El acceso requiere permiso adecuado.",
       "referencia": "Tema 10, contratistas"
@@ -63,12 +63,12 @@
       "id": "OLIAS-T10-005",
       "enunciado": "En caso de emergencia, las rutas de salida deben:",
       "opciones": [
+        "Cerrarse con cadena",
         "Permanecer expeditas",
         "Bloquearse",
-        "Usarse como almacén",
-        "Cerrarse con cadena"
+        "Usarse como almacén"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Obligación preventiva sobre evacuación.",
       "trampaExamen": "Distingue elementos y límites; Obligación preventiva sobre evacuación.",
       "referencia": "RD 486/1997, anexo I"
@@ -91,12 +91,12 @@
       "id": "OLIAS-T10-007",
       "enunciado": "La climatización del edificio en cierre debe:",
       "opciones": [
-        "Ajustarse según instrucciones de operación",
-        "Apagarse siempre sin excepciones",
         "Manipularse abriendo cuadros",
-        "Dejarse siempre al máximo"
+        "Ajustarse según instrucciones de operación",
+        "Dejarse siempre al máximo",
+        "Apagarse siempre sin excepciones"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "No deben alterarse sistemas críticos sin permiso.",
       "trampaExamen": "Distingue elementos y límites; No deben alterarse sistemas críticos sin permiso.",
       "referencia": "BOP 4833, funciones; tema 10"
@@ -105,12 +105,12 @@
       "id": "OLIAS-T10-008",
       "enunciado": "Si un usuario exige acceso no autorizado:",
       "opciones": [
-        "Explicar regla y derivar con respeto",
+        "Publicar sus datos",
         "Ceder automáticamente",
         "Responder con violencia",
-        "Publicar sus datos"
+        "Explicar regla y derivar con respeto"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Se mantiene control y trato digno.",
       "trampaExamen": "Distingue elementos y límites; Se mantiene control y trato digno.",
       "referencia": "Tema 10, incidentes"
@@ -133,12 +133,12 @@
       "id": "OLIAS-T10-010",
       "enunciado": "Una salida de emergencia se puede bloquear durante uso del edificio:",
       "opciones": [
-        "No, debe poder usarse en caso de emergencia",
-        "Sí si se pone un aviso",
         "Sí siempre que sea de noche",
-        "Sí si no hay visitantes"
+        "Sí si no hay visitantes",
+        "No, debe poder usarse en caso de emergencia",
+        "Sí si se pone un aviso"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "La evacuación debe ser posible.",
       "trampaExamen": "Distingue elementos y límites; La evacuación debe ser posible.",
       "referencia": "RD 486/1997"

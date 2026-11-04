@@ -7,12 +7,12 @@
       "id": "OLIAS-T13-001",
       "enunciado": "¿A qué comarca se vincula Olías del Rey en Turismo CLM?",
       "opciones": [
-        "La Sagra",
-        "La Vera",
         "La Alcarria exclusivamente",
-        "Sierra de Segura"
+        "Sierra de Segura",
+        "La Sagra",
+        "La Vera"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "El portal autonómico lo sitúa en La Sagra.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El portal autonómico lo sitúa en La Sagra.",
       "referencia": "Turismo CLM, Olías del Rey"
@@ -21,12 +21,12 @@
       "id": "OLIAS-T13-002",
       "enunciado": "La dirección municipal publicada del Ayuntamiento es:",
       "opciones": [
+        "Calle Venta de Arriba",
         "Plaza de la Constitución, 1",
         "Camino del Arenal, 5",
-        "Calle Petunia",
-        "Calle Venta de Arriba"
+        "Calle Petunia"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "El directorio oficial la identifica.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El directorio oficial la identifica.",
       "referencia": "Directorio municipal"
@@ -49,12 +49,12 @@
       "id": "OLIAS-T13-004",
       "enunciado": "La piscina municipal se identifica en:",
       "opciones": [
-        "Calle Venta de Arriba",
-        "Plaza de la Constitución, 7",
         "Calle Zorzales",
-        "Calle Flor"
+        "Calle Venta de Arriba",
+        "Calle Flor",
+        "Plaza de la Constitución, 7"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Así figura en directorio municipal.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Así figura en directorio municipal.",
       "referencia": "Directorio municipal"
@@ -63,12 +63,12 @@
       "id": "OLIAS-T13-005",
       "enunciado": "La Casa de la Cultura se identifica en:",
       "opciones": [
-        "Calle Flor",
+        "Calle Cedro",
         "Calle Celinda",
         "Calle Petunia",
-        "Calle Cedro"
+        "Calle Flor"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Figura en la calle Flor.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Figura en la calle Flor.",
       "referencia": "Directorio municipal"
@@ -91,12 +91,12 @@
       "id": "OLIAS-T13-007",
       "enunciado": "El Colegio Pedro Melendo se localiza en:",
       "opciones": [
-        "Camino del Arenal, 7",
-        "Calle Flor, 2",
         "Calle Zorzales",
-        "Plaza Nueva"
+        "Plaza Nueva",
+        "Camino del Arenal, 7",
+        "Calle Flor, 2"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "Referencia del directorio municipal.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Referencia del directorio municipal.",
       "referencia": "Directorio municipal"
@@ -105,12 +105,12 @@
       "id": "OLIAS-T13-008",
       "enunciado": "¿Qué zona se relaciona con Calle Petunia en instalaciones deportivas?",
       "opciones": [
-        "Las Lomas",
+        "Plaza de la Constitución",
         "La Floresta",
-        "San Francisco",
-        "Plaza de la Constitución"
+        "Las Lomas",
+        "San Francisco"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 2,
       "justificacion": "El área deportiva cita pista pádel Las Lomas en Calle Petunia.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El área deportiva cita pista pádel Las Lomas en Calle Petunia.",
       "referencia": "Web municipal Deportes"
@@ -133,12 +133,12 @@
       "id": "OLIAS-T13-010",
       "enunciado": "¿Qué servicios se agrupan en Plaza de la Constitución según el directorio?",
       "opciones": [
-        "Ayuntamiento y Policía Local",
-        "Solo piscina",
         "Solo centro de la juventud",
-        "Solo Casa de la Cultura"
+        "Solo Casa de la Cultura",
+        "Solo piscina",
+        "Ayuntamiento y Policía Local"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "Se citan en la plaza.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Se citan en la plaza.",
       "referencia": "Directorio municipal"
@@ -147,12 +147,12 @@
       "id": "OLIAS-T13-011",
       "enunciado": "El código postal asociado a Olías del Rey en el sitio oficial es:",
       "opciones": [
+        "45200",
         "45280",
         "45001",
-        "28901",
-        "45200"
+        "28901"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 1,
       "justificacion": "Figura 45280 en cabecera municipal.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Figura 45280 en cabecera municipal.",
       "referencia": "Web oficial Olías"
@@ -161,12 +161,12 @@
       "id": "OLIAS-T13-012",
       "enunciado": "El callejero completo de la convocatoria está:",
       "opciones": [
-        "No enumerado en el BOP; requiere cartografía municipal vigente",
         "Íntegramente en Anexo I",
         "Limitado a tres calles",
-        "Sustituido por una carta certificada"
+        "Sustituido por una carta certificada",
+        "No enumerado en el BOP; requiere cartografía municipal vigente"
       ],
-      "respuestaCorrecta": 0,
+      "respuestaCorrecta": 3,
       "justificacion": "El BOP exige materia pero no adjunta callejero completo.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El BOP exige materia pero no adjunta callejero completo.",
       "referencia": "BOP 4833 Anexo II; Urbanismo municipal"
