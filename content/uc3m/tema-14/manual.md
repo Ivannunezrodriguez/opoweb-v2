@@ -131,3 +131,9 @@ Los órganos de selección deben actuar con imparcialidad y procurar una composi
 - La selección de personal exige igualdad, mérito, capacidad y publicidad.
 - La universidad pública rinde cuentas ante el órgano autonómico de control externo, sin perjuicio del Tribunal de Cuentas.
 - La contratación universitaria se somete a la legislación de contratos del sector público.
+
+## Cotejo exhaustivo del banco · 04/11/2026
+
+[**Informe individual de 14 preguntas y 56 alternativas literales**](cotejo-integral-2026-11-04.md): fundamentos jurídicos, descarte de cada respuesta errónea y foco de examen. **Estado del banco: COTEJO_BANCO_COMPLETO**, **no aprobación de usuario**. La fecha normativa de corte de las bases UC3M sigue pendiente de corroborar mediante publicación primaria de la resolución de listas definitivas y anuncio de prueba. Las pruebas funcionales en navegador y accesibilidad se mantienen **pendientes**.
+
+> ⚠️ **¡Foco Examen!:** **Claustro**: estudiantes **≥25 %** y docentes funcionarios/PPL **51 %**, ambos **art. 45.3**. La respuesta de **UC3M-T14-002** es **B (25 %)**.
