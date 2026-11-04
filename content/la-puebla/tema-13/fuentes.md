@@ -29,3 +29,7 @@
 > ⚠️ **¡Foco Examen!:** **24 meses** de auditoría, **1 mes** de preaviso, **3 días laborables** para el informe y **24 horas** para la publicación de la revocación son obligaciones distintas. Se ha comprobado el origen de cada cifra, pero el tema no queda íntegramente recertificado.
 
 **Pendiente:** revisión integral de todos los distractores y de posibles cambios de ejecución técnica posteriores al marco eIDAS consolidado consultado. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Revisión focalizada de efectos y obligaciones de prestadores — **04/11/2026**
+
+Fuentes primarias: [**eIDAS consolidado, arts. 25–26**](https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A02014R0910-20241018) y [**Ley 6/2020, arts. 9 y 12**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046). **Art. 25.1** protege admisión probatoria de firma electrónica no cualificada sin equipararla a manuscrita; **25.2** equipara firma cualificada a manuscrita. **Ley 6/2020, art. 9.3.b:** seguro **1.500.000 €** y **500.000 € por cada servicio cualificado adicional** salvo sector público; **art. 12**: comunicación prestador no cualificado **3 meses** desde inicio. El plazo de 15 años de conservación queda distinguido del máximo de 5 años de vigencia. **Solo contraste parcial; no recertificación integral.**

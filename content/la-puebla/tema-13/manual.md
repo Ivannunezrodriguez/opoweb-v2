@@ -76,6 +76,17 @@ El mismo tipo funcional de certificado puede alojarse en soportes diferentes:
 
 El soporte no determina por sí solo que la firma sea cualificada. Deben concurrir certificado cualificado, dispositivo cualificado cuando sea exigible y los restantes requisitos legales.
 
+### 4.5 Efectos jurídicos de la firma — **eIDAS art. 25**
+
+| Tipo de firma | Qué dice la norma | Qué **no** debe deducirse |
+|---|---|---|
+| Firma electrónica **no cualificada** | No se le pueden negar efectos jurídicos ni admisión como prueba **solo por ser electrónica o no cualificada** (**art. 25.1**) | No equivale automáticamente a firma manuscrita ni garantiza por sí sola la admisión en cualquier trámite |
+| Firma electrónica **cualificada** | Tiene efecto jurídico **equivalente al de la firma manuscrita** (**art. 25.2**) | La equivalencia no significa que cualquier imagen de firma en un PDF sea firma cualificada |
+
+La **firma avanzada** exige vínculo único con el firmante, identificarlo, datos de creación bajo su control exclusivo con alto grado de confianza y relación con el documento que permita detectar modificaciones (**art. 26**). Para firma **cualificada** se añaden los requisitos reglamentarios: **certificado cualificado** y **dispositivo cualificado de creación de firma**. Son categorías jurídicas, no nombres de formatos de archivo.
+
+> ⚠️ **¡Foco Examen!:** **Art. 25.1:** no puede rechazarse una firma solo por ser electrónica/no cualificada. **Art. 25.2:** solo la firma **cualificada** obtiene equivalencia legal expresa con la manuscrita. **Certificado cualificado sin dispositivo cualificado** no basta por sí solo para convertir cualquier firma en cualificada.
+
 ## 5. Usos administrativos principales
 
 Un certificado puede utilizarse para:
@@ -157,6 +168,20 @@ El marco eIDAS comprende, entre otros:
 - libros mayores electrónicos.
 
 Los últimos servicios proceden del marco eIDAS actualizado. Se estudian como ampliación vigente, sin desarrollar la cartera europea de identidad digital completa, que excede el epígrafe.
+
+### Obligaciones de los prestadores conforme a la **Ley 6/2020, arts. 9 y 12**
+
+Además de las comprobaciones de identidad, el **prestador que expide certificados** ha de mantener **un servicio de consulta pública de validez y revocación** (**art. 9.2**).
+
+| Régimen | Condición test |
+|---|---|
+| **Prestador cualificado** | Conservar información de servicios **15 años** desde extinción del certificado o fin del servicio (**art. 9.3.a**) |
+| **Prestador cualificado privado** | Seguro de responsabilidad civil de **al menos 1.500.000 €**, y **500.000 € más por cada tipo de servicio cualificado adicional** (**art. 9.3.b**); **excepción** cuando pertenece al sector público |
+| **Prestador no cualificado** | **No** necesita verificación administrativa previa para iniciar; debe **comunicar la actividad en 3 meses** desde su inicio y cambios o cese en igual plazo (**art. 12**) |
+
+Estas obligaciones de **prestadores** no son las condiciones técnicas del **titular de un certificado** ni deben trasladarse a una oficina de registro municipal por el solo hecho de verificar identidades.
+
+> ⚠️ **¡Foco Examen!:** **15 años = conservación de evidencias**, **5 años = vigencia máxima del certificado cualificado**, **3 meses = comunicación de prestador no cualificado**. El seguro de **1,5 M€ + 0,5 M€ por tipo de servicio adicional** no se impone a **prestadores del sector público**.
 
 ## 11. Cifras que deben memorizarse
 

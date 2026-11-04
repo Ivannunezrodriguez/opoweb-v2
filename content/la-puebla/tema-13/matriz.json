@@ -129,5 +129,20 @@
     "régimen sancionador íntegro",
     "prueba procesal y contratación privada completas"
   ],
-  "criterioDeCierre": "Aprobado expresamente por el usuario mediante la frase Tema 13 aprobado el 18 de julio de 2026."
+  "criterioDeCierre": "Aprobado expresamente por el usuario mediante la frase Tema 13 aprobado el 18 de julio de 2026.",
+  "controlFocalizado20261104Efectos": {
+    "fecha": "2026-11-04",
+    "normas": [
+      "eIDAS arts. 25 y 26",
+      "Ley 6/2020 arts. 9 y 12"
+    ],
+    "hallazgos": [
+      "Firma electrónica no cualificada no se rechaza solamente por forma electrónica",
+      "Firma cualificada equivale a manuscrita",
+      "Prestadores que emiten certificados mantienen consulta de estado",
+      "Seguro privado cualificado 1,5 millones + 0,5 por servicio adicional salvo público",
+      "Comunicación prestador no cualificado tres meses"
+    ],
+    "grado": "REVISION_PARCIAL_SIN_RECERTIFICACION"
+  }
 }

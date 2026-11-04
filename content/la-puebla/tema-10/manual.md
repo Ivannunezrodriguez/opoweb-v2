@@ -690,6 +690,24 @@ Si el día final no es hábil, pasa al inmediato hábil siguiente.
 
 Las deudas de notificación colectiva se pagan en el período fijado reglamentariamente o en la ordenanza dentro del marco legal.
 
+### Cuadro completo de la **LGT art. 62**: voluntaria, colectiva y apremio
+
+La ley distingue **liquidaciones notificadas individualmente** (art. **62.2**), **deudas de notificación colectiva y periódica** (art. **62.3**), **providencias de apremio ya notificadas** (art. **62.5**) y **autoliquidaciones** (art. **62.1**, cuyo plazo depende de la normativa del tributo).
+
+| Notificación | **Liquidación en voluntaria** — art. **62.2** | **Providencia de apremio** — art. **62.5** |
+|---|---|---|
+| Del **día 1 al 15**, inclusive | Hasta el **día 20 del mes siguiente** | Hasta el **día 20 del mismo mes** |
+| Del **día 16 al último** | Hasta el **día 5 del segundo mes siguiente** | Hasta el **día 5 del mes siguiente** |
+| Si vencimiento cae en **inhábil** | Hasta el **día hábil siguiente** | Hasta el **día hábil siguiente** |
+
+**Ejemplo de cálculo sin días inhábiles:** notificación de liquidación el **10 de marzo** → vencimiento nominal **20 de abril**; notificación de providencia de apremio el **10 de marzo** → **20 de marzo**. Una notificación el **18 de marzo** supone **5 de mayo** en voluntaria y **5 de abril** en apremio, desplazándose a día hábil siguiente cuando proceda.
+
+**Art. 62.3:** las deudas de **notificación colectiva y periódica** sin otro plazo en sus normas reguladoras se ingresan del **1 de septiembre al 20 de noviembre**, o siguiente hábil si este no lo es. La **Administración tributaria competente puede modificar ese plazo**, pero el período resultante **no puede ser inferior a 2 meses**. No utilizarlo como calendario universal de todos los recibos de un Ayuntamiento.
+
+**Art. 62.4:** deudas mediante **efectos timbrados**, en el momento de realización del **hecho imponible**, salvo norma específica. **Art. 62.6:** cobros en **asistencia mutua** siguen plazos de mismo mes/mes siguiente semejantes a los de apremio, con especialidades legales. **Art. 62.7:** obligaciones aduaneras y de comercio exterior se rigen por su normativa propia.
+
+> ⚠️ **¡Foco Examen!:** **Notificación del día 1 al 15**: voluntaria **20 del mes siguiente**, apremio **20 del mismo mes**. **Del 16 al último**: voluntaria **5 del segundo mes siguiente**, apremio **5 del siguiente**. La excepción colectiva **1/9–20/11** admite modificación por la Administración competente con período mínimo de **2 meses**.
+
 ### Imputación
 
 Quien tiene varias deudas puede indicar cuál paga, salvo reglas especiales. El cobro forzoso se aplica a la deuda más antigua según vencimiento.
@@ -703,6 +721,24 @@ Puede producir efectos liberatorios o suspensivos cuando se realiza en los supue
 Puede solicitarse cuando la situación económico-financiera impide temporalmente pagar.
 
 No todas las deudas son aplazables. Normalmente se exige garantía, salvo dispensa legal o reglamentaria.
+
+### Cuándo **NO** cabe aplazamiento o fraccionamiento — **LGT art. 65.2**
+
+Se pueden solicitar aplazamientos o fraccionamientos de deudas en **período voluntario o ejecutivo** si concurre dificultad económica **transitoria**, pero ello **no** significa que toda deuda sea aplazable.
+
+| Letra art. **65.2** | Tipo de deuda **inaplazable** |
+|---|---|
+| **a)** | Exigida mediante **efectos timbrados** |
+| **b)** | Obligaciones del **retenedor** o de quien deba realizar **ingresos a cuenta** |
+| **c)** | Créditos contra la **masa** según legislación concursal en caso de concurso |
+| **d)** | Recuperación de **ayudas de Estado** regulada en la LGT |
+| **e)** | Derivada de resolución firme desestimatoria de recurso antes **suspendido** |
+| **f)** | Tributo legalmente **repercutido**, salvo justificación de que las cuotas repercutidas **no han sido efectivamente pagadas** |
+| **g)** | Obligación de realizar **pagos fraccionados del Impuesto sobre Sociedades** |
+
+Las solicitudes relativas a esas deudas **serán inadmitidas** (**art. 65.2**). En el resto se aplica el régimen de garantías, dispensas y tramitación conforme a los **arts. 65 y 82** y normativa recaudatoria. La solicitud en **período voluntario** impide, en los términos y límites de **art. 65.5 y art. 161.2**, el inicio de período ejecutivo mientras se tramita, **pero no el devengo del interés de demora**. Una solicitud presentada en **período ejecutivo** no anula por sí misma el procedimiento de apremio.
+
+> ⚠️ **¡Foco Examen!:** **Retenciones y pagos a cuenta (art. 65.2.b)** y **pagos fraccionados del IS (65.2.g)** son supuestos distintos. **Solicitar aplazamiento en voluntaria** no significa **no pagar intereses** ni convierte en aplazable una deuda expresamente excluida.
 
 El detalle recaudatorio se estudiará en el tema 11.
 

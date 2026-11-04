@@ -78,10 +78,10 @@
 | 59 | medios de extinción |
 | 60 | formas de pago |
 | 61 | momento del pago |
-| 62 | plazos para el pago |
+| 62 | **62.1–7**: autoliquidación, voluntaria **20 siguiente / 5 segundo siguiente**, colectiva **1/9–20/11** (modificable, mínimo **2 meses**), apremio **20 mismo / 5 siguiente**; supuestos especiales |
 | 63 | imputación de pagos |
 | 64 | consignación |
-| 65 | aplazamiento y fraccionamiento |
+| 65 | aplazamiento y fraccionamiento en voluntaria/ejecutiva; **7 categorías inaplazables** del **65.2** y consecuencias del **65.5** |
 | 66 | derechos sometidos a prescripción de cuatro años |
 | 67 | cómputo de plazos de prescripción |
 | 68 | interrupción de la prescripción |

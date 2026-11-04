@@ -214,6 +214,20 @@ La FNMT-RCM es un ejemplo de prestador público que ofrece certificados y servic
 
 No debe memorizarse una lista cerrada de marcas, porque la condición o cartera de servicios puede cambiar. La fuente determinante es la TSL vigente.
 
+### Obligaciones de los prestadores conforme a la **Ley 6/2020, arts. 9 y 12**
+
+Además de las comprobaciones de identidad, el **prestador que expide certificados** ha de mantener **un servicio de consulta pública de validez y revocación** (**art. 9.2**).
+
+| Régimen | Condición test |
+|---|---|
+| **Prestador cualificado** | Conservar información de servicios **15 años** desde extinción del certificado o fin del servicio (**art. 9.3.a**) |
+| **Prestador cualificado privado** | Seguro de responsabilidad civil de **al menos 1.500.000 €**, y **500.000 € más por cada tipo de servicio cualificado adicional** (**art. 9.3.b**); **excepción** cuando pertenece al sector público |
+| **Prestador no cualificado** | **No** necesita verificación administrativa previa para iniciar; debe **comunicar la actividad en 3 meses** desde su inicio y cambios o cese en igual plazo (**art. 12**) |
+
+Estas obligaciones de **prestadores** no son las condiciones técnicas del **titular de un certificado** ni deben trasladarse a una oficina de registro municipal por el solo hecho de verificar identidades.
+
+> ⚠️ **¡Foco Examen!:** **15 años = conservación de evidencias**, **5 años = vigencia máxima del certificado cualificado**, **3 meses = comunicación de prestador no cualificado**. El seguro de **1,5 M€ + 0,5 M€ por tipo de servicio adicional** no se impone a **prestadores del sector público**.
+
 ## 19. Errores frecuentes
 
 1. Considerar que autoridad de registro y autoridad de certificación son idénticas.

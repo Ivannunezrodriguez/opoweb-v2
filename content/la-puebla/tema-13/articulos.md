@@ -12,7 +12,7 @@
 | Art. 20 | auditoría y supervisión de prestadores cualificados |
 | Arts. 21–22 | inicio del servicio cualificado y listas de confianza |
 | Art. 24 | comprobación de identidad, obligaciones y revocación de certificados cualificados |
-| Art. 25 | efectos jurídicos de la firma y equivalencia de la firma cualificada con la manuscrita |
+| Art. 25 | **25.1**: no denegar efectos por ser electrónica/no cualificada; **25.2**: equivalencia legal de **firma cualificada y manuscrita** |
 | Art. 26 | requisitos de la firma electrónica avanzada |
 | Arts. 27–28 | firmas en servicios públicos y certificados cualificados de firma |
 | Arts. 29–30 | dispositivos cualificados de creación de firma |
@@ -39,10 +39,10 @@
 | 6 | identidad y atributos en certificados cualificados |
 | 7 | comprobación presencial, remota, representación y atributos |
 | 8 | protección de datos y pseudónimo |
-| 9 | obligaciones, consulta de estado, conservación y garantía |
+| 9 | consulta pública de estado (**9.2**), conservación **15 años** (**9.3.a**), seguro mínimo **1.500.000 €** + **500.000 €** por tipo adicional de servicio cualificado (**9.3.b**, excepción sector público) |
 | 10 | responsabilidad del prestador, como complemento |
 | 11 | deberes del titular y del tercero que confía |
-| 12 | inicio y comunicación de servicios no cualificados |
+| 12 | inicio sin verificación previa y **comunicación en 3 meses** de actividad, cambios y cese |
 | 13 | obligaciones relativas a incidentes de seguridad |
 | 14–17 | supervisión, inspección, lista de confianza e información |
 | DA 2.ª | plenos efectos de sistemas de identificación, firma y sello administrativos |

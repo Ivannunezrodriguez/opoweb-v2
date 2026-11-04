@@ -34,3 +34,7 @@
 > ⚠️ **¡Foco Examen!:** El **25 %** es una **reducción condicionada del recargo**, no de la cuota. Presentar fuera de plazo sin requerimiento no excluye absolutamente la concurrencia de recargos del período ejecutivo.
 
 **Corrección aplicada:** ampliación del manual del **Tema 10** y precisión de la pregunta **LP-T10-007**, que conserva la respuesta **C**. Auditoría parcial, no certificación completa del banco.
+
+## Auditoría parcial del plazo de ingreso y deudas inaplazables — **04/11/2026**
+
+Fuente primaria: [**Ley 58/2003, LGT consolidada, arts. 62 y 65**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186). Para **art. 62.2** (voluntaria) distinguir **20 mes siguiente / 5 segundo mes siguiente** de **art. 62.5** (apremio) **20 mismo mes / 5 mes siguiente**; **art. 62.3**: **1 septiembre–20 noviembre**, susceptible de modificación por Administración tributaria con período **mínimo dos meses**. **Art. 65.2**: siete letras de deudas inaplazables, especialmente retenedores, repercutidos —con excepción legal— y pagos fraccionados del IS. Contraste **parcial**, se conserva aprobación editorial histórica.
