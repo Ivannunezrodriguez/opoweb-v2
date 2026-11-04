@@ -686,3 +686,35 @@ Se incorpora **data/programa-olias-auxiliar-edificios-2026.json**, con **22 epí
 **Pendientes concretos:** auditar otros temas técnicos (6 PRL/cargas, 9 postal, 11 reprografía, 17 fontanería, 19 carpintería, 21 pintura), comprobar correspondencia total de fuentes locales y callejero completo, ampliar preguntas reales de proximidad al test, evitar distractores absurdos. Preservar prioridades La Puebla **14/11** y UC3M **21/11** y la inscripción de Olías prevista la semana **09/11**. **Siguen sin resolver contradicciones del BOP/BOE sobre plazo y número 4/1 de plazas.**
 
 > ⚠️ **¡Foco Examen!:** **1 año / 40 % (LO 3/2007)**; **1 lux / 5 lux / 0,5 lux (ITC-BT-28)**; **70 kW / cinco años (RITE)**; **10 años del carné (RD 1311/2012)**. No mezclar valores de normas diferentes.
+
+## 31. Revisión cruzada de convocatorias urgentes y Diputación — 04/11/2026
+
+**Orden activo confirmado por el usuario:** trabajar los temarios de todas las convocatorias, sin monopolio de Olías. Inventario actual: **La Puebla C2 (19 temas)**, **UC3M Auxiliar C2 (20 temas)**, **Diputación Toledo C2 (20 temas)**, **Diputación Toledo C1 (40 temas)** y **Olías Auxiliar de edificios C2 (22 temas)**; **121 temas** en cinco programas. El encabezado histórico de §2, que registra 99 temas a 02/11, precede la incorporación de Olías: este apartado es el punto de reanudación más reciente. No reabrir Carranque ni Las Ventas, descartadas.
+
+### 31.1 La Puebla de Montalbán C2 — examen 14/11/2026
+
+El **tema 14, Ley 40/2015 art. 24**, incorpora una tabla comparativa en el manual y bloque de colegiados con los siguientes puntos de examen: interesado puede promover recusación **por escrito y en cualquier momento**; recusado manifiesta al superior **al día siguiente**; si acepta causa y superior la aprecia, sustitución **acto seguido**; si niega causa, superior resuelve en **tres días** tras los informes y comprobaciones; **sin recurso autónomo**. La pregunta **LP-T14-008** se precisó conservando su respuesta **«Tres días»** y las **12 preguntas** del tema. Fuente [Ley 40/2015, art. 24](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24). La aprobación editorial histórica no equivale a recertificación de noviembre.
+
+**Siguiente:** T14 restantes de AGE y órganos territoriales; después T10/T12 de tributos y T13 de administración electrónica. Priorizar la prueba del **14/11**.
+
+### 31.2 UC3M Auxiliar C2 — examen 21/11/2026, 10:00, Getafe
+
+**Tema 15, Estatutos:** contraste focal de [Decreto 1/2003, arts. 127–132](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782) y modificación identificada de Decreto 95/2009. Se amplió cuadro de mayorías/competencias: **Rector** propone, **Claustro** elige por **mitad más uno de todos los miembros**; reelección iniciada por Rector o **al menos un quinto del Claustro**; Adjunto nombrado por **mayoría simple**, memoria **anual** al inicio de curso; reducción de funciones propias hasta **50 %**; asesoría **2 estudiantes + 2 PAS + 2 PDI**. Añadidas **5 preguntas** UC3M-T15-017 a -021; banco pasa de 16 a **21**, matriz y fuentes actualizadas.
+
+**Tema 16, RD 822/2021:** cobertura del vacío de prácticas/TFG/TFM con [arts. 11, 14.5–6 y 17.3–4](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781): prácticas curriculares de **Grado máximo general 25 %** con excepciones, **TFG 6–24 ECTS** en grados de 240, prácticas de **Máster máximo un tercio**, **TFM 6–30 ECTS**; curricular frente a extracurricular. Añadidas **5 preguntas** UC3M-T16-017 a -021; banco de **21**, matriz y fuentes actualizadas. La **fecha primaria de corte normativo** de las listas definitivas y anuncio de ejercicio sigue sin acreditarse; no resolver por suposición el conflicto de nulidad de RD 905/2025 sobre el art. 22.4.
+
+UC3M dispone ahora de **260 preguntas por temas**; sus simulacros **70+5** retienen IDs y estructura. Todos los nuevos tests son originales de OpoWeb, no oficiales.
+
+### 31.3 Diputación Toledo C1 y C2
+
+**Administrativo C1 T29**: contraste cruzado con [TRLRHL arts. 61.5.b, 62.1.b y 82.1.c, regla 3ª](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). Se añadió la distinción **no sujeción** del inmueble patrimonial propio municipal no cedido a terceros mediante contraprestación frente a **exención** de bienes comunales y montes vecinales; para IAE, INCN **inferior a 1.000.000 €** y cómputo del **grupo de control del art. 42 CCom** incluso sin deber de consolidar. Se sustituyó una pregunta repetida por **DIP-T29-018** sobre cifra conjunta, manteniendo banco de **20 preguntas**. Detectado y corregido un defecto de esquema: pregunta nueva se guardó inicialmente bajo campo enunciado, mientras el render exigía pregunta; corregido en commit **09427ab3**, con verificación posterior del texto visible.
+
+**Auxiliar C2 T13**: manual ya contenía reglas correctas por auditoría anterior. Se revisó y documentó en fuentes sin rehacer manual ni alterar **20 preguntas**. **C2 T6 OAPGT** sigue en BORRADOR, al final por instrucción expresa. Total bancario actual preservado **C1 803** y **C2 409**; no son cifras de certificación legal.
+
+### 31.4 Integridad y cola siguiente
+
+Prueba nueva **tests/validate-cross-oposiciones.mjs** comprueba inventario **121 temas**, formatos diferentes de pregunta/clave, IDs, las nuevas preguntas UC3M y sus matrices, LP-T14-008 y DIP-T29-018. Incorporada al workflow principal. [**GitHub Actions CI 41836152888**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41836152888) confirmó **SUCCESS**; anterior CI y Pages UC3M también concluyeron correctamente ([CI 41835506402](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41835506402), [Pages 41835505345](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41835505345)). El despliegue exacto de la última revisión debe constatarse por su run, sin atribuir al CI un aval jurídico ni prueba visual.
+
+**Secuencia editorial:** 1) **La Puebla** (14/11): T14 resto de AGE, T10/T12/T13; 2) **UC3M** (21/11): resolver fecha de corte, auditar T15/T16 y simulacros 70+5; 3) **Diputación Toledo C2/C1**: materias compartidas, empleo público y tributación, manteniendo OAPGT T6 al final; 4) **Olías C2**: ampliar y auditar borradores de **22 temas**, **264 preguntas temáticas + 40 psicotécnicas**, especialmente T6, T9, T11, T17, T19, T21 y municipio T5/T13, con **inscripción pendiente la semana 09/11** y contradicciones BOE/BOP de plazos/plazas aún abiertas; 5) **Radar de empleo**: vigilar su ejecución y calidad sin desplazar toda la preparación de los exámenes próximos.
+
+> ⚠️ **¡Foco Examen!:** **Recusación: día siguiente/tres días**; **UC3M: mitad más uno frente a mayoría simple**; **IAE: cifra de grupo frente a cifra individual**; **IBI: no sujeción frente a exención**.
