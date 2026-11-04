@@ -41,6 +41,19 @@ const CALLS = [
     progressKey: 'opoweb-uc3m-practice-progress-v1',
     legacyProgressKey: null,
     questionPrefix: 'UC3M-T'
+  },
+  {
+    id: 'olias-del-rey-auxiliar-edificios-c2-2026',
+    label: 'Olías del Rey · Auxiliar de edificios e instalaciones C2',
+    shortLabel: 'Olías del Rey · Auxiliar C2',
+    programmeUrl: 'data/programa-olias-auxiliar-edificios-2026.json',
+    contentRoot: 'content/olias-auxiliar-edificios',
+    themeCount: 22,
+    supuestosUrl: 'content/olias-auxiliar-edificios/supuestos-practicos.json',
+    simulacrosUrl: 'content/olias-auxiliar-edificios/simulacros.json',
+    progressKey: 'opoweb-olias-c2-practice-progress-v1',
+    legacyProgressKey: null,
+    questionPrefix: 'OLIAS-T'
   }
 ];
 
@@ -197,7 +210,9 @@ function renderHub() {
     ? '<section class="panel"><h2>La Puebla · primer ejercicio, sábado 14/11/2026</h2><p><strong>9:30 h · IES Universidad Laboral de Toledo, Avenida de Europa 28.</strong> Acude con DNI o identificación equivalente.</p><p><strong>50 preguntas titulares + 5 de reserva · 60 minutos · 4 opciones.</strong> Acierto +0,20; error −0,05; blanco 0; se exige un mínimo de 5 sobre 10. El segundo ejercicio es práctico.</p><p>Los simulacros de 50+5 muestran y permiten responder las reservas, pero su nota normal se calcula solo con las 50 titulares. Fuente: bases publicadas en BOP Toledo n.º 82, de 05/05/2026, base undécima, y anuncio del tribunal aportado el 02/11/2026.</p></section>'
     : activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026'
       ? '<section class="panel"><h2>UC3M C2 · Ejercicio único 21/11/2026</h2><p><strong>70 preguntas + 5 reservas, 60 minutos, cuatro respuestas.</strong> Puntuación directa = aciertos − errores/3; en blanco 0.</p><p><strong>La nota de corte directa la establece el tribunal.</strong> La puntuación transformada sobre 70 y la condición de aprobado no pueden deducirse de un simulacro. Los tres modelos son entrenamiento creado a partir de preguntas de OpoWeb, no exámenes oficiales. La legislación exigible es la vigente en la fecha de publicación de la resolución de admitidos definitivos y anuncio del ejercicio (base primera.7), no necesariamente el día del examen.</p><p>Fuente: convocatoria de 34 plazas, BOE-A-2026-14624, anexos II y III. Llamamiento oficial: <strong>sábado 21/11/2026, a las 10:00 h, Campus de Getafe</strong>. El aula y el edificio concretos se anunciarán posteriormente; comprueba tu admisión definitiva en la web UC3M.</p></section>'
-      : '';
+      : activeCall.id === 'olias-del-rey-auxiliar-edificios-c2-2026'
+        ? '<section class="panel"><h2>Olías C2 · Dos pruebas eliminatorias</h2><p><strong>Primera: 50 preguntas del temario, máximo 50 puntos, mínimo 25.</strong> <strong>Segunda: 20 preguntas psicotécnicas, máximo 50 puntos, mínimo 25.</strong> Cada error penaliza un tercio del acierto. Las dos pruebas se realizan consecutivamente el mismo día; el tribunal fijará su duración.</p><p>Los simulacros de 50+20 son <strong>entrenamiento propio de OpoWeb, no exámenes oficiales</strong>. Se califican las dos pruebas por separado, con mínimo 25/50 en cada una. Fuente: BOP Toledo n.º 204 de 23/10/2026, anuncio 4833, bases y anexo II.</p></section>'
+        : '';
   const openCases = supuestos.supuestos.filter(item => Array.isArray(item.cuestiones));
   const testCases = supuestos.supuestos.filter(item => !Array.isArray(item.cuestiones));
   app.innerHTML = `
@@ -206,7 +221,7 @@ function renderHub() {
     <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div>${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div>${renderHistory(progress)}</section>
     <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}"><span class="badge">${[...questionMap.values()].filter(q => q.tema === theme.numero).length} preguntas · ${escapeHtml(score)}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
     ${supuestos.supuestos.length ? `<section class="panel"><h2>Supuestos prácticos</h2><p class="search-count">Casos transversales con solución razonada y trazabilidad.</p><div class="practice-grid">${[...testCases, ...openCases].map(item => `<button class="practice-card" type="button" data-case="${item.id}"><span class="badge">Temas ${(item.temas || []).join(', ')}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join('')}</div></section>` : ''}
-    <section class="panel"><h2>Simulacros transversales</h2><div class="practice-grid">${simulacros.simulacros.map(item => `<button class="practice-card" type="button" data-sim="${item.id}"><span class="badge">${item.preguntas.length} preguntas${item.preguntasReserva?.length ? ' + 5 de reserva' : ''} · ${item.duracionMinutos} min</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.instrucciones || 'Corrección al finalizar.')}</p></button>`).join('')}</div></section>`;
+    <section class="panel"><h2>Simulacros transversales</h2><div class="practice-grid">${simulacros.simulacros.map(item => `<button class="practice-card" type="button" data-sim="${item.id}"><span class="badge">${item.preguntas.length} preguntas${item.preguntasReserva?.length ? ' + 5 de reserva' : ''} · ${item.duracionMinutos ? `${item.duracionMinutos} min` : "Duración oficial pendiente"}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.instrucciones || 'Corrección al finalizar.')}</p></button>`).join('')}</div></section>`;
 
   document.querySelector('#practice-call-selector')?.addEventListener('change', event => loadCall(event.target.value));
   document.querySelector('#reset-progress')?.addEventListener('click', () => {
@@ -248,9 +263,10 @@ function renderOpenCase(item) {
 }
 
 function renderExercise(items, title, exerciseId, type, durationMinutes = null, primaryCount = items.length) {
+  const oliaModel = String(exerciseId).startsWith('OLIAS-SIM-');
   const deadline = durationMinutes ? Date.now() + durationMinutes * 60000 : null;
   let timerId = null;
-  app.innerHTML = `<div class="toolbar sticky-toolbar practice-toolbar"><button id="practice-back" class="btn secondary" type="button">← Entrenamiento</button>${durationMinutes ? '<strong id="timer" class="timer" aria-live="polite"></strong>' : ''}<button id="finish" class="btn" type="button">Corregir</button></div><section class="panel"><h2>${escapeHtml(title)}</h2><p class="notice">Responde las que consideres oportunas y pulsa <strong>Corregir</strong>. Si hay penalización por errores, dejar una pregunta en blanco no penaliza.</p></section><form id="exercise-form" class="exercise-list">${items.map((item, index) => `${index === primaryCount ? '<section class="panel"><h3>Preguntas de reserva (R1–R5)</h3><p>Respóndelas dentro de los mismos 60 minutos. No computan en la nota salvo que el tribunal anule preguntas titulares; el simulador muestra su corrección por separado.</p></section>' : ''}${renderQuestion(item, index, index >= primaryCount, primaryCount)}`).join('')}</form>`;
+  app.innerHTML = `<div class="toolbar sticky-toolbar practice-toolbar"><button id="practice-back" class="btn secondary" type="button">← Entrenamiento</button>${durationMinutes ? '<strong id="timer" class="timer" aria-live="polite"></strong>' : ''}<button id="finish" class="btn" type="button">Corregir</button></div><section class="panel"><h2>${escapeHtml(title)}</h2><p class="notice">Responde las que consideres oportunas y pulsa <strong>Corregir</strong>. Si hay penalización por errores, dejar una pregunta en blanco no penaliza.</p></section><form id="exercise-form" class="exercise-list">${items.map((item, index) => `${oliaModel && index === 50 ? '<section class="panel"><h3>Segunda prueba · Psicotécnicos (20 preguntas)</h3><p>Corregidos con mínimo independiente 25/50.</p></section>' : ''}${index === primaryCount ? '<section class="panel"><h3>Preguntas de reserva (R1–R5)</h3><p>Respóndelas dentro de los mismos 60 minutos. No computan en la nota salvo que el tribunal anule preguntas titulares; el simulador muestra su corrección por separado.</p></section>' : ''}${renderQuestion(item, index, index >= primaryCount, primaryCount)}`).join('')}</form>`;
   document.querySelector('#practice-back').addEventListener('click', () => { if (timerId) clearInterval(timerId); renderHub(); });
   document.querySelector('#finish').addEventListener('click', () => finishExercise(items, timerId, { exerciseId, title, type, primaryCount }));
   if (durationMinutes) {
@@ -315,16 +331,26 @@ function finishExercise(items, timerId, metadata) {
     : null;
   const officialExam = examFormat === 'EXAMEN_LA_PUEBLA_2026';
   const uc3mExam = examFormat === 'EXAMEN_UC3M_2026';
+  const oliaExam = examFormat === 'EXAMEN_OLIAS_2026' && primaryCount === 70 && items.length === 70;
+  const oliaPart = (from, to, weight) => {
+    const subset = results.slice(from, to);
+    const hits = subset.filter(r => r.answered && r.correct).length;
+    const misses = subset.filter(r => r.answered && !r.correct).length;
+    return { hits, misses, blank: subset.length - hits - misses, score: Number(((hits - misses / 3) * weight).toFixed(2)) };
+  };
+  const theory = oliaExam ? oliaPart(0, 50, 1) : null;
+  const psych = oliaExam ? oliaPart(50, 70, 2.5) : null;
+  const oliaPass = oliaExam && theory.score >= 25 && psych.score >= 25;
   const errors = answered - correct;
   // Solo modelo La Puebla: +0,20/acierto, -0,05/error, 0/en blanco; reservas fuera de la nota.
   const examGrade = officialExam ? Number(Math.max(0, correct * 0.2 - errors * 0.05).toFixed(2)) : null;
   // UC3M: nota DIRECTA A-E/3; no declarar APTO ni inferir transformación, su corte lo fija el tribunal.
   const directScore = uc3mExam ? Number((correct - errors / 3).toFixed(2)) : null;
   const completedAt = new Date().toISOString();
-  saveAttempt({ id: metadata.exerciseId, type: metadata.type, title: metadata.title, correct, answered, total: primaryCount, percentage, notaExamen: examGrade, notaDirecta: directScore, completedAt }, results);
+  saveAttempt({ id: metadata.exerciseId, type: metadata.type, title: metadata.title, correct, answered, total: primaryCount, percentage, notaExamen: examGrade, notaDirecta: directScore, notaOliasTeoria: theory?.score, notaOliasPsico: psych?.score, completedAt }, results);
   const result = document.createElement('section');
   result.className = 'panel result-panel';
-  result.innerHTML = `<h2>${officialExam ? `Nota de examen: ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'APTO' : 'NO APTO'}` : uc3mExam ? `Puntuación directa UC3M: ${directScore.toFixed(2).replace('.', ',')}/70 · corte pendiente del tribunal` : `Resultado: ${correct}/${primaryCount} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota.' : uc3mExam ? ' UC3M: puntuación directa = aciertos − errores/3. La calificación transformada y la superación dependen del corte que determine el tribunal; este simulacro NO declara APTO. Las reservas no puntúan salvo anulaciones oficiales.' : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
+  result.innerHTML = `<h2>${officialExam ? `Nota de examen: ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'APTO' : 'NO APTO'}` : uc3mExam ? `Puntuación directa UC3M: ${directScore.toFixed(2).replace('.', ',')}/70 · corte pendiente del tribunal` : oliaExam ? `Olías C2: teoría ${theory.score.toFixed(2).replace('.', ',')}/50 · psicotécnico ${psych.score.toFixed(2).replace('.', ',')}/50 · ${oliaPass ? 'SUPERADOS ambos mínimos de entrenamiento' : 'NO superados ambos mínimos de entrenamiento'}` : `Resultado: ${correct}/${primaryCount} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota.' : uc3mExam ? ' UC3M: puntuación directa = aciertos − errores/3. La calificación transformada y la superación dependen del corte que determine el tribunal; este simulacro NO declara APTO. Las reservas no puntúan salvo anulaciones oficiales.' : oliaExam ? ` Olías: teoría ${theory.hits} aciertos, ${theory.misses} errores y ${theory.blank} en blanco; psicotécnico ${psych.hits} aciertos, ${psych.misses} errores y ${psych.blank} en blanco. Aciertos menos un tercio por error, cada parte sobre 50 puntos; entrenamiento no determina el aprobado oficial.` : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
   document.querySelector('#exercise-form').prepend(result);
   document.querySelector('#finish').disabled = true;
   document.querySelector('#finish').textContent = 'Corregido';
