@@ -64,7 +64,7 @@
     },
     {
       "id": "UC3M-T19-005",
-      "pregunta": "¿Qué documento contable se asocia habitualmente con el reconocimiento de la obligación?",
+      "pregunta": "Según las Normas Básicas de Gestión del Presupuesto UC3M 2026, ¿qué documento contable corresponde a la propuesta de pago?",
       "opciones": [
         "RC",
         "O",
@@ -72,9 +72,9 @@
         "P"
       ],
       "correcta": 1,
-      "justificacion": "La letra O identifica habitualmente la fase de reconocimiento de la obligación.",
-      "trampa": "P corresponde a la ordenación del pago.",
-      "referencia": "Manual, apartado 13",
+      "justificacion": "El artículo 15.2.1 de las Normas Básicas de Gestión UC3M 2026 identifica expresamente «Propuesta de pago: Documento contable O». Su denominación institucional debe prevalecer en la pregunta sobre esta norma frente a la descripción contable general de la fase de reconocimiento de obligación.",
+      "trampa": "En la UC3M, el documento O se denomina expresamente «propuesta de pago» (art. 15.2.1). No confundir con la ordenación del pago ni con el desembolso material.",
+      "referencia": "UC3M, Presupuesto 2026 Volumen I, Normas Básicas de Gestión, art. 15.2.1, pág. 103 aprox. · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "O"
     },
     {
@@ -84,13 +84,13 @@
         "Elimina la necesidad de crédito",
         "Equivale al pago material",
         "Solo puede usarse en ingresos",
-        "Permite registrar conjuntamente autorización, disposición y obligación"
+        "Permite registrar conjuntamente autorización, compromiso de gasto y propuesta de pago"
       ],
       "correcta": 3,
-      "justificacion": "ADO acumula autorización, disposición y reconocimiento de obligación cuando la naturaleza del gasto lo permite.",
-      "trampa": "La acumulación no elimina controles ni justificantes.",
-      "referencia": "Manual, apartados 4 y 13",
-      "respuestaLiteral": "Permite registrar conjuntamente autorización, disposición y obligación"
+      "justificacion": "El artículo 15.2.1 de las Normas Básicas UC3M 2026 define el documento ADO como autorización, compromiso de gasto y propuesta de pago. La terminología institucional es más precisa que atribuir literalmente a la O el reconocimiento de la obligación en esta norma.",
+      "trampa": "«ADO» en las Normas UC3M 2026 significa autorización + compromiso + propuesta de pago. No equivale a desembolso de fondos ni elimina la verificación de las facturas.",
+      "referencia": "UC3M, Presupuesto 2026 Volumen I, Normas Básicas de Gestión, art. 15.2.1, pág. 103 aprox. · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "respuestaLiteral": "Permite registrar conjuntamente autorización, compromiso de gasto y propuesta de pago"
     },
     {
       "id": "UC3M-T19-007",
