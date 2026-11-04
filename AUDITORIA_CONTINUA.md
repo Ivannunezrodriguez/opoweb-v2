@@ -1271,3 +1271,34 @@ Se añadió [`tests/validate-la-puebla-three-legal-closures.mjs`](tests/validate
 - **Próxima prioridad:** La Puebla **T15–T19**, que son sus **5 temas restantes**, por examen **14/11/2026**; después **UC3M** por examen **21/11/2026**. No duplicar automatización ni reabrir convocatorias excluidas.
 
 **Definición operativa:** la marca **AUDITADO jurídico-editorial** significa cobertura de programa/manual y análisis documentado de las **48 opciones** del banco; **NO** que cada línea histórica del contenido tenga certificación pericial total ni que la interfaz esté certificada sin prueba real.
+
+
+## 50. Cierre de los cinco temas técnicos de La Puebla — **04/11/2026**
+
+### 50.1. Programa oficial y profundidad de cotejo
+
+- Fuente exacta: **BOP Toledo n.º 82, de 05/05/2026, anuncio 2026-1965, Anexo I**; epígrafes **15 a 19** (**Microsoft Windows I y II, Word/Writer, Excel/Calc, componentes y periféricos del ordenador**). Se respetan las cinco materias sin introducir nuevos temas ajenos al programa.
+- **Los cinco temas T15–T19 disponen de cotejo técnico-editorial íntegro a nivel de banco**: **60 preguntas, 240 alternativas**, identificadas por ID y contrastadas una por una con justificaciones, claves, fuentes y foco examen.
+- Cotejos individuales: [**T15**](content/la-puebla/tema-15/cotejo-integral-2026-11-04.md), [**T16**](content/la-puebla/tema-16/cotejo-integral-2026-11-04.md), [**T17**](content/la-puebla/tema-17/cotejo-integral-2026-11-04.md), [**T18**](content/la-puebla/tema-18/cotejo-integral-2026-11-04.md) y [**T19**](content/la-puebla/tema-19/cotejo-integral-2026-11-04.md).
+- Cada informe es accesible desde **`manual.md` y `fuentes.md`** de su propio tema. Sus **`matriz.json`** declaran por separado el estado **`AUDITADO_TECNICO_EDITORIAL`** y el campo **`PENDIENTE_PRUEBA_NAVEGADOR_REAL`**. La matriz del T19 se normaliza con rutas a los **5 bloques, manual y fuentes**.
+
+### 50.2. Correcciones editoriales aplicadas
+
+| Tema | Intervención | Distinción de examen |
+|---|---|---|
+| **15** | Ejemplos físicos de perfil corregidos de `C:\Usuarios` a `C:\Users` en manual y dos bloques; aclarado nombre mostrado/localizado | **Ruta física** no es necesariamente el nombre mostrado en el Explorador |
+| **16** | Desglose de atajos de InPrivate y cronología IE clásico frente al modo IE | **15/06/2022** IE11 para ciertas versiones de Windows 10 ≠ modo IE soportado **al menos hasta 2029** |
+| **17** | Distractores Word/Writer y saltos de línea, página y secciones desambiguados | **Mayús + Intro** = salto de línea; **Ctrl + Intro** = página; Word usa secciones, Writer estilos de página |
+| **18** | **LP-T18-012, manual y bloque 1 corregidos**: CSV es texto tabular, no una hoja u objeto libro | Exportar a CSV guarda los datos de la **hoja activa** pero el fichero no contiene pestañas, fórmulas ni formato complejo |
+| **19** | Contraste de USB-C, RAM, CPU, ADF, OCR, exFAT/FAT32, CD-R/CD-RW | **USB-C** ≠ **USB4**; **FAT32** limita archivos individuales a menos de **4 GiB** |
+
+> ⚠️ **¡Foco Examen!:** En La Puebla **T15–T19**, la confusión habitual es intercambiar **contenedor/estructura** (`CSV`, `USB-C`), **función** (OCR/escáner/ADF) o **acción** (copiar/mover/eliminar). Las **240 alternativas** están justificadas para distinguir distractores casi correctos.
+
+### 50.3. Control automatizado y medición honesta
+
+- Script nuevo [**`tests/validate-la-puebla-t15-t19-integral.mjs`**](tests/validate-la-puebla-t15-t19-integral.mjs), incorporado a **`npm test`** y al workflow **Validar OpoWeb v2**; verifica **12 preguntas por tema**, **4 opciones únicas**, correspondencia exacta entre **clave y `respuestaLiteral`**, posición equilibrada **3 correctas por cada A/B/C/D**, coincidencia textual de cada alternativa con el informe, foco examen y rutas de los cinco bloques. Además protege expresamente la corrección del CSV de **LP-T18-012**.
+- **Estado CI a la hora de redactar el registro:** pendiente de confirmación de la ejecución del último SHA. **No confundir archivo o workflow creado con CI exitoso**. GitHub Pages y navegación real requieren comprobación independiente.
+- **Acumulado documental: 19/121 temas con cotejo íntegro del banco y manual**: **14 revisiones jurídico-editoriales anteriores + 5 técnico-editoriales nuevas**; **228 preguntas y 912 alternativas**. Los **19 temas de La Puebla** tienen ahora informe individual. **Certificación global 100 %:** **NO demostrada**. Las pruebas exhaustivas en navegador real, móvil, accesibilidad y todos los recorridos de usuario siguen pendientes; **0/121** está certificado en todas esas capas simultáneamente.
+- **Siguiente frente prioritario:** verificar CI y PDF del último SHA, después abordar **UC3M** por su examen del **21/11/2026** y el resto de temas de convocatorias sin informe, sin dar por superadas pruebas que todavía no se han ejecutado.
+
+**Definición:** *AUDITADO TÉCNICO-EDITORIAL* implica el cotejo individual del banco y la correspondencia de los bloques con el epígrafe, **no** una certificación independiente de cada versión futura del software ni una prueba integral de funcionamiento del portal.
