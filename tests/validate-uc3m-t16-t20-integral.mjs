@@ -46,7 +46,7 @@ for(const [key,rule] of Object.entries(expected)){
 }
 assert.equal(questions,69);assert.equal(alternatives,276);
 const t17=readFileSync(root+'tema-17/manual.md','utf8');
-assert(t17.includes('**una segunda lengua extranjera**')&&t17.includes('**hasta 3 materias**')===false||t17.includes('**3 materias**'),'T17 foreign-language refinement absent');
+assert(t17.includes('**una segunda lengua extranjera**')&&t17.includes('**3 materias**'),'T17 foreign-language refinement absent');
 const t18=readFileSync(root+'tema-18/manual.md','utf8');
 const t18src=readFileSync(root+'tema-18/fuentes.md','utf8');
 assert(t18.includes('**No existe un segundo Capítulo VI autónomo**'),'T18 duplicate budget chapter returned');
