@@ -10,6 +10,7 @@ const configs = [
  ['Diputación C2', 'data/programa-diputacion-auxiliar-c2-2026.json','content/diputacion-toledo-auxiliar-c2',20],
  ['UC3M C2','data/programa-uc3m-auxiliar-administrativa-2026.json','content/uc3m',20],
  ['Diputación C1','data/programa-diputacion-administrativo-2026.json','content/diputacion-toledo',40],
+ ['Olías Auxiliar de edificios C2','data/programa-olias-auxiliar-edificios-2026.json','content/olias-auxiliar-edificios',22],
 ];
 const summary = {temas:0,bancos:0,preguntas:0,convocatorias:[],avisos:[]};
 for (const [name, manifest, folder, count] of configs) {
@@ -50,4 +51,5 @@ for (const [name, manifest, folder, count] of configs) {
  summary.convocatorias.push({nombre:name,temas:count,preguntas:questions,matricesIndependientes:matrices,fuentesIndependientes:fuentes});
 }
 console.log(JSON.stringify(summary,null,2));
-console.log('VALIDACION_ESTRUCTURAL_99_TEMAS_OK');
+assert.equal(summary.temas,121,'Inventario de los cinco programas debe sumar 121 temas');
+console.log('VALIDACION_ESTRUCTURAL_121_TEMAS_OK (no certifica exactitud jurídica)');
