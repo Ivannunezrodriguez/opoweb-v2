@@ -41,6 +41,8 @@ jobs:
         run: node tests/validate-diputacion.mjs
       - name: Validar 99 temas de las cuatro convocatorias
         run: node tests/validate-all-programmes.mjs
+      - name: Validar nuevo temario Olías C2 (22 temas, desarrollo progresivo)
+        run: node tests/validate-olias-programme.mjs
       - name: Validar Radar de empleo (sin consultar la red)
         run: |
           node --check assets/radar.js
