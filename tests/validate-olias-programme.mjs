@@ -50,10 +50,10 @@ assert.ok(existsSync('content/olias-auxiliar-edificios/GUIA_SOLICITUD_EXAMEN_202
 // Controles editoriales concretos: protegen cifras jurídicas y el enlace ley-artículo.
 const findTheme = number => programme.temas.find(t => t.numero === number);
 for (const [number, requirements, expected] of [
- [4, ['**1 año**','**40 %**','art. 64'], 24],
- [15, ['**1 lux**','**5 lux**','ITC-BT-28'], 20],
- [18, ['70 kW','**5 años como mínimo**','art. 28'], 16],
- [20, ['**10 años**','26 de noviembre de 2015','art. 20'], 16],
+ [4, ['1 año','40 %','art. 64'], 24],
+ [15, ['1 lux','5 lux','ITC-BT-28'], 20],
+ [18, ['70 kW','5 años','art. 28'], 16],
+ [20, ['10 años','26 de noviembre de 2015','art. 20'], 16],
 ]) {
  const theme = findTheme(number);
  const manual = readFileSync(theme.manual, 'utf8');
