@@ -107,7 +107,16 @@ Si concurren varios interesados y existe discrepancia sobre la lengua, el proced
 
 Cada Administración debe disponer de un registro electrónico general en el que se anote todo documento presentado o recibido y la salida de documentos oficiales. Los organismos públicos pueden disponer de su propio registro, interoperable con el general.
 
-Los registros electrónicos deben permitir presentar documentos todos los días del año durante las veinticuatro horas. A efectos de cómputo de plazos, la presentación en día inhábil se entiende realizada en la primera hora del primer día hábil siguiente, salvo norma que permita expresamente la recepción en día inhábil.
+Los registros electrónicos deben permitir presentar documentos **todos los días del año durante las 24 horas**. Para el **cumplimiento de plazos fijados en días hábiles por los interesados**, la presentación en **día inhábil** se entiende realizada en la **primera hora del primer día hábil siguiente**, salvo norma que permita expresamente su recepción en inhábil (**artículo 31.2.b**). Se conserva, no obstante, el **orden de la hora real de presentación** durante el inhábil; estas entradas preceden a las del primer día hábil posterior. El inicio de los **plazos que haya de cumplir la Administración** sigue la regla específica del **artículo 31.2.c** y no debe confundirse con la anterior.
+
+| Supuesto | Regla |
+|---|---|
+| Presentación electrónica material | **24 horas al día, los 365/366 días del año** |
+| Presentación en inhábil para plazo de interesado expresado en días hábiles | **Primera hora del siguiente día hábil** (con excepciones expresas) |
+| Orden entre varias presentaciones en inhábil | Se respeta la **hora real**; preceden a las del día hábil posterior |
+| Cómputo del plazo de la Administración | Fecha y hora del **registro electrónico** conforme al artículo **31.2.c** |
+
+> ⚠️ **¡Foco Examen!:** Registro abierto **24/7** NO equivale a que un sábado sea hábil. La regla del **31.2.b** se refiere al cómputo para **interesados**, mientras el **31.2.c** determina el inicio de plazos para la **Administración**.
 
 Los documentos pueden presentarse:
 
