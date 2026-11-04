@@ -1447,3 +1447,22 @@ Los **144 distractores/alternativas** de **36 preguntas** tienen motivación ind
 - **Cobertura actual de auditoría individual documentada del banco:** **31 de 121 temas** (**19 La Puebla + 12 UC3M**), **372 preguntas / 1.488 alternativas**, que **no** es una certificación total de artículos, pedagogía, navegador y accesibilidad (**0/121** con todas las capas).
 - **Próximo tramo:** **UC3M T13–T20**, especial atención a **LOSU**, normativa propia, procesos universitarios, presupuesto y contratos. Identificar fecha de publicación de listas definitivas por fuente primaria y desplegar pruebas reales con navegador si está disponible.
 
+
+
+## 55. UC3M T13 · LOSU, creación/reconocimiento y calidad — **04/11/2026**
+
+### 55.1. Trabajo efectivo y fuente primaria
+
+- Leídos **PROJECT_RULES.md** y el apartado final vigente **§54** antes de modificar contenido. Prioridad conforme al registro: UC3M T13–T20, examen previsto 21/11/2026.
+- Cotejados con el texto consolidado oficial [**LOSU (BOE-A-2023-7500), arts. 2–5 y 6–9**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500), con foco en **art. 4.1.a y b, 4.2, 4.3 y 5.2–4**.
+- **Hallazgo jurídico real:** el manual anterior afirmaba que las privadas se reconocen por ley autonómica sin mencionar la excepción de **ley de Cortes Generales para universidades de especiales características**. El **art. 4.1.b** no restringe esta vía a universidades públicas. Se ha corregido el manual; se han incorporado el **informe preceptivo de la Conferencia General de Política Universitaria**, propuesta del Gobierno y acuerdo del Gobierno autonómico para el supuesto excepcional. Se distingue **ley de creación/reconocimiento** de **autorización autonómica posterior de inicio de actividad**.
+- **UC3M-T13-005/006:** se han delimitado sus enunciados y ampliado justificaciones y trampas para que la solución conservada sea jurídicamente defendible sin negar la excepción estatal; **UC3M-T13-012** ahora cita directamente el **art. 5.2–4** (calidad compartida). Las **12 opciones y 3 claves** de estas preguntas se conservan. El resto del banco T13 **no** queda declarado auditado integralmente.
+- Archivos modificados: `content/uc3m/tema-13/manual.md`, `preguntas.json`, `fuentes.md`. Commits de contenido: `b5b9745c`, `c52b4ed8`, `945d059c`.
+
+### 55.2. Validación y límites
+
+- Último SHA de contenido consultado: **`945d059c296629c36423f89d0199cf90f847998b`**. Las consultas de estados combinados y de workflow runs asociados a ese SHA devolvieron **listas vacías**, que **no demuestran SUCCESS ni FAILURE**. No afirmar validación de CI/Pages hasta contar con run verificable del SHA. No se ha ejecutado navegación real ni prueba visual móvil en este bloque.
+- Se conserva el acumulado previamente acreditado: **31/121** informes de banco individuales (La Puebla 19, UC3M 12); **0/121** con certificación integral de todas las capas. T13 sigue **EN_AUDITORIA**, no AUDITADO.
+- **Pendiente relevante:** confirmar mediante publicación primaria la fecha de la resolución definitiva UC3M que determina el corte normativo de la base primera.7; no confundirlo con el día del examen.
+
+**TAREA ACTIVA SIGUIENTE:** completar **UC3M T13** con revisión literal y motivación individual de sus **12 preguntas/48 opciones**, matriz inciso–artículo–contenido, prueba de regresión específica y después T14–T20. Verificar CI y Pages por SHA exacto y controles funcionales en navegador; no repetir la corrección del art. 4 sin un error nuevo. Mantener OAPGT T6 Diputación reservado para el final y no cerrar Olías mientras siga la contradicción documental.
