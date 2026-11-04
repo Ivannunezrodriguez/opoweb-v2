@@ -47,3 +47,7 @@
 - Banco ampliado a **20 preguntas**. Se mantiene pendiente la auditoría integral del manual y la prueba funcional de los contenidos.
 
 > ⚠️ **¡Foco Examen!:** Separar el **tipo de gravamen del IBI** del **coeficiente de situación del IAE**; tienen naturaleza y unidades diferentes.
+
+## Auditoría compartida IBI–IAE C1/C2 — **04/11/2026**
+
+[**TRLRHL consolidado, arts. 61.5.b, 62.1.b y 82.1.c (regla 3.ª)**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): **no sujeción** de determinados bienes patrimoniales propios del municipio que no estén cedidos a terceros mediante contraprestación; **exención** de bienes comunales y montes vecinales; INCN del IAE **inferior a 1.000.000 €** y cómputo **de grupo del art. 42 del Código de Comercio** cuando existe control, aunque no haya obligación de consolidar. **DIP-T29-018** sustituye pregunta repetitiva sobre el umbral por un caso de grupo, manteniendo **20 preguntas**. Se conserva el estado de auditoría parcial.

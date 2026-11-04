@@ -244,15 +244,16 @@
       "id": "DIP-T29-018",
       "pregunta": "¿Cuál es el umbral de importe neto de cifra de negocios para la exención del IAE de los sujetos a los que se aplica?",
       "opciones": [
-        "10.000 €",
-        "100.000 €",
-        "1.000.000 €",
-        "10.000.000 €"
+        "Solo su cifra individual, aunque pertenezca a grupo con control",
+        "Solo la cifra de negocios de su principal cliente",
+        "La suma del importe neto de negocios de las entidades del grupo con control",
+        "La facturación de todas las empresas del municipio"
       ],
       "correcta": 2,
-      "justificacion": "La exención por cifra de negocios se aplica bajo el umbral de 1.000.000 € a los sujetos previstos.",
-      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
-      "referencia": "TRLRHL art. 82 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      "justificacion": "El art. 82.1.c, regla 3.ª, exige el importe neto de cifra de negocios del conjunto del grupo cuando concurre control del art. 42 del Código de Comercio, con independencia de consolidar cuentas.",
+      "trampa": "El umbral de la sociedad aislada no es suficiente cuando existe grupo de control. La exención requiere INCN inferior a 1.000.000 €.",
+      "referencia": "TRLRHL art. 82.1.c regla 3.ª; Código de Comercio art. 42; tema 29, apartado 13.1",
+      "enunciado": "En la exención del IAE del art. 82.1.c TRLRHL, ¿qué cifra de negocios debe considerarse si una entidad pertenece a grupo de control del art. 42 del Código de Comercio?"
     },
     {
       "id": "DIP-T29-019",

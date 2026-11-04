@@ -105,6 +105,21 @@ Las ordenanzas fiscales pueden establecer exención para inmuebles cuya cuota l�
 
 > ⚠️ **¡Foco Examen!:** Algunas exenciones se aplican de oficio y otras exigen solicitud. La calificación de un inmueble como protegido no genera siempre y automáticamente la exención: deben cumplirse todos los requisitos legales.
 
+### 5.4. Contraste con no sujeción: **art. 61.5.b frente a art. 62.1.b**
+
+No toda ventaja en el **IBI** constituye una **exención**. El **art. 61.5.b del TRLRHL** declara **no sujetos** determinados inmuebles pertenecientes al municipio donde se enclavan, entre ellos **bienes patrimoniales del propio municipio** que **no estén cedidos a terceros mediante contraprestación**.
+
+Los **bienes comunales y montes vecinales en mano común** aparecen expresamente como **exentos** en el **art. 62.1.b**, no constituyen una categoría autónoma de no sujeción enumerada en el art. 61.5.b.
+
+| Supuesto | Tratamiento | Artículo |
+|---|---|---|
+| Bien patrimonial del propio municipio, **no cedido onerosamente a terceros** | **No sujeción** conforme al supuesto legal | **61.5.b** |
+| Bien patrimonial del municipio **cedido a tercero mediante contraprestación** | **No aplicar automáticamente la anterior no sujeción** | **61.5.b** |
+| **Bien comunal** o **monte vecinal en mano común** | **Exención** legal | **62.1.b** |
+
+> ⚠️ **¡Foco Examen!:** La **no sujeción de bien patrimonial propio municipal** **no exige una cesión gratuita a otra Administración**. Y **bienes comunales = exención del art. 62.1.b**, no confundir.
+
+
 ## 6. Bonificaciones del IBI
 
 ### 6.1. Bonificaciones obligatorias
@@ -239,6 +254,22 @@ Están exentos, entre otros:
 - los sujetos a los que sea aplicable una exención por tratado o convenio internacional.
 
 > ⚠️ **¡Foco Examen!:** Las personas físicas están exentas del IAE con independencia de su cifra de negocios. Para muchas personas jurídicas y entidades, la referencia clave es un importe neto de cifra de negocios inferior a **1.000.000 de euros**.
+
+### 13.1. Exención por cifra de negocios: **art. 82.1.c y regla 3.ª**
+
+El **umbral de 1.000.000 €** se aplica de manera **estrictamente inferior** a los sujetos de esta categoría: **1.000.000 € exactos** no cumple la condición por cifra de negocios. Se contemplan además supuestos con distinto régimen, como **personas físicas exentas por su condición**.
+
+Para entidades que formen parte de un **grupo de control del art. 42 del Código de Comercio**, debe atenderse al **importe neto de la cifra de negocios de todas las entidades del grupo**, **con independencia** de si existe obligación de formular cuentas consolidadas. No basta comprobar únicamente la cifra propia de una de las sociedades.
+
+| Caso | ¿Basta la cifra de negocios propia para esta exención? |
+|---|---|
+| Sociedad aislada con **800.000 €** | Sí, por debajo del umbral si cumple los demás requisitos |
+| Sociedad con **300.000 €** dentro de grupo de control cuyo conjunto supera **1.000.000 €** | **No**: se atiende al grupo según el art. 82.1.c, regla 3.ª |
+| Empresa con INCN **exactamente 1.000.000 €** | **No**: límite es **inferior**, no igual o inferior |
+| **Persona física** | Exención por condición de persona física según **art. 82.1.c** |
+
+> ⚠️ **¡Foco Examen!:** **Grupo del art. 42 del Código de Comercio: cifra de negocios conjunta aunque no haya consolidación contable**. No confundir con bonificación ni con umbral del IBI.
+
 
 ## 14. Cuota y tarifas del IAE
 

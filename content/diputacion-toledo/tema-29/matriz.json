@@ -10,16 +10,56 @@
     "Real Decreto Legislativo 1/2004, de 5 de marzo"
   ],
   "bloques": [
-    {"id":"T29-B01","nombre":"Naturaleza y hecho imponible del IBI","cubierto":true},
-    {"id":"T29-B02","nombre":"Sujeto pasivo, exenciones y bonificaciones del IBI","cubierto":true},
-    {"id":"T29-B03","nombre":"Base imponible, base liquidable y cuota del IBI","cubierto":true},
-    {"id":"T29-B04","nombre":"Devengo y periodo impositivo del IBI","cubierto":true},
-    {"id":"T29-B05","nombre":"Naturaleza y hecho imponible del IAE","cubierto":true},
-    {"id":"T29-B06","nombre":"Sujeto pasivo y exenciones del IAE","cubierto":true},
-    {"id":"T29-B07","nombre":"Cuota, tarifas y coeficientes del IAE","cubierto":true},
-    {"id":"T29-B08","nombre":"Bonificaciones del IAE","cubierto":true},
-    {"id":"T29-B09","nombre":"Devengo y periodo impositivo del IAE","cubierto":true},
-    {"id":"T29-B10","nombre":"Gestión censal y tributaria del IAE","cubierto":true}
+    {
+      "id": "T29-B01",
+      "nombre": "Naturaleza y hecho imponible del IBI",
+      "cubierto": true
+    },
+    {
+      "id": "T29-B02",
+      "nombre": "Sujeto pasivo, exenciones y bonificaciones del IBI",
+      "cubierto": true
+    },
+    {
+      "id": "T29-B03",
+      "nombre": "Base imponible, base liquidable y cuota del IBI",
+      "cubierto": true
+    },
+    {
+      "id": "T29-B04",
+      "nombre": "Devengo y periodo impositivo del IBI",
+      "cubierto": true
+    },
+    {
+      "id": "T29-B05",
+      "nombre": "Naturaleza y hecho imponible del IAE",
+      "cubierto": true
+    },
+    {
+      "id": "T29-B06",
+      "nombre": "Sujeto pasivo y exenciones del IAE",
+      "cubierto": true
+    },
+    {
+      "id": "T29-B07",
+      "nombre": "Cuota, tarifas y coeficientes del IAE",
+      "cubierto": true
+    },
+    {
+      "id": "T29-B08",
+      "nombre": "Bonificaciones del IAE",
+      "cubierto": true
+    },
+    {
+      "id": "T29-B09",
+      "nombre": "Devengo y periodo impositivo del IAE",
+      "cubierto": true
+    },
+    {
+      "id": "T29-B10",
+      "nombre": "Gestión censal y tributaria del IAE",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "ibiPrelacion": "concesión, superficie, usufructo, propiedad",
@@ -49,5 +89,15 @@
     "actualizacionTRLHL": "2026-06-03",
     "actualizacionTarifasIAE": "2026-03-21",
     "verificacionIntegridad": "2026-07-19"
+  },
+  "controlTransversalNoviembre2026": {
+    "fecha": "2026-11-04",
+    "articulos": [
+      "TRLRHL 61.5.b",
+      "TRLRHL 62.1.b",
+      "TRLRHL 82.1.c, regla 3.ª"
+    ],
+    "banco": "DIP-T29-018 ahora analiza grupo de control",
+    "estado": "PARCIAL, SIN CERTIFICACION_INTEGRAL"
   }
 }

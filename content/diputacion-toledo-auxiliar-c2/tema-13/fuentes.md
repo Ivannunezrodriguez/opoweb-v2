@@ -19,3 +19,7 @@
 **Fecha de actualización de la ley cotejada:** **07/10/2026**. El control funcional del portal en navegador real queda separado de la revisión editorial.
 
 > ⚠️ **¡Foco Examen!:** Impuestos municipales **obligatorios: IBI, IAE e IVTM**; potestativos **ICIO e IIVTNU**. En IIVTNU lucrativo tributa el **adquirente**; oneroso, el **transmitente**, sin perjuicio del sustituto previsto para transmitentes personas físicas no residentes.
+
+## Contraste transversal con Diputación C1 — **04/11/2026**
+
+Se revalidaron contra el [**TRLRHL (arts. 61.5.b, 62.1.b y 82.1.c, regla 3.ª)**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) los mismos supuestos ya desarrollados en **C2 tema 13**: distinción **no sujeción/exención** de inmuebles propios municipales y de bienes comunales, **INCN inferior a 1.000.000 €** y **grupo de control del art. 42 CCom**. Se incorporó una ampliación al **C1 tema 29** sin rehacer este tema C2 ni alterar sus preguntas. **No implica recertificación completa**.
