@@ -106,9 +106,18 @@ Reglas esenciales:
 
 - vía pública solo en la medida imprescindible;
 - conservación ordinaria máxima: **un mes**;
-- entrega a autoridad de imágenes relacionadas con delito o infracción: máximo **72 horas** desde que se conoce la grabación;
+- cuando las imágenes deban conservarse para acreditar **actos que atenten contra la integridad de personas, bienes o instalaciones**, su puesta a disposición de la **autoridad competente** debe hacerse en máximo **72 horas desde que se tenga conocimiento de la existencia de la grabación** (**art. 22.3 LOPDGDD**); no se extiende indiscriminadamente a cualquier infracción;
 - cartel visible e información disponible;
 - prohibición en vestuarios, aseos, comedores y zonas de descanso laboral.
+
+
+| Plazo | Hecho desencadenante | Fuente | Excepción o límite |
+|---|---|---|---|
+| **1 mes** | Captación de imágenes con videovigilancia | LOPDGDD **22.3** | Conservación probatoria por actos contra la integridad |
+| **72 horas** | Conocimiento de existencia de grabación relativa a esos actos | LOPDGDD **22.3** | Puesta a disposición de la autoridad competente |
+| **72 horas**, de ser posible | Responsable tiene constancia de violación de seguridad | RGPD **33.1** | No notificar si improbable riesgo para derechos y libertades |
+
+> ⚠️ **¡Foco Examen!:** Hay **dos reglas de 72 horas distintas**: la puesta a disposición de imágenes conservadas por **actos contra la integridad** y la notificación de **brechas RGPD**. Diferentes hechos y artículos.
 
 ## 9. Artículos 23–27
 
@@ -305,7 +314,7 @@ La evaluación de impacto es obligatoria cuando el tratamiento puede generar alt
 | Consentimiento autónomo del menor | 14 años |
 | Respuesta a derechos | 1 mes, ampliable 2 |
 | Videovigilancia | 1 mes |
-| Entrega de imágenes | 72 horas |
+| Entrega de imágenes retenidas por **actos contra integridad** | **72 horas** desde conocimiento de la grabación (**art. 22.3**) |
 | Canal interno | máximo general 3 meses |
 | Comunicación del DPD | 10 días |
 | Respuesta del DPD | 2 meses |
@@ -360,9 +369,15 @@ La evaluación de impacto es obligatoria cuando el tratamiento puede generar alt
 - Artículos 1–97 y 53 bis: cubiertos por bloques y trazabilidad.
 - Complemento RGPD imprescindible: incorporado.
 - Aplicación municipal: explicada.
-- Preguntas trazables: no creadas todavía.
+- Preguntas trazables: **12 preguntas con 48 opciones auditadas el 04/11/2026**.
 - Revisión del usuario: **aprobada el 17 de julio de 2026**.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 9 aprobado»** el 17 de julio de 2026.
+
+## 28. Cierre jurídico-editorial — **04/11/2026**
+
+Auditados los **ocho bloques**, la **LOPDGDD arts. 1–97 y 53 bis**, las reglas RGPD necesarias y las **48 alternativas** del banco. [Ver el cotejo individual de las 12 claves y 36 distractores](cotejo-integral-2026-11-04.md). **AUDITADO contenido; pendiente la prueba funcional real**.
+
+> ⚠️ **¡Foco Examen!:** **Art. 22.3 LOPDGDD**: 72 horas para entrega de imágenes probatorias de **actos contra integridad**; **art. 33.1 RGPD**: 72 horas para brechas notificables. No confundir.

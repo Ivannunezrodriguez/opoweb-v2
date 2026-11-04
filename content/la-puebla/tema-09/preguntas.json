@@ -103,7 +103,7 @@
     },
     {
       "id": "LP-T09-007",
-      "enunciado": "Cuando unas imágenes de videovigilancia recogen un posible delito o infracción, deben ponerse a disposición de la autoridad competente en un plazo máximo de:",
+      "enunciado": "Si las imágenes de videovigilancia se conservan para acreditar actos que atenten contra la integridad de personas, bienes o instalaciones (art. 22.3 LOPDGDD), ¿en qué plazo máximo han de ponerse a disposición de la autoridad competente?",
       "opciones": [
         "72 horas desde que se conoce la existencia de la grabación",
         "24 horas desde la grabación",
@@ -111,9 +111,9 @@
         "Un mes desde que se instala la cámara"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Las imágenes relacionadas con delitos o infracciones deben ponerse a disposición de la autoridad competente dentro de las setenta y dos horas siguientes a tener conocimiento de su existencia.",
-      "trampaExamen": "El cómputo no se vincula necesariamente al momento de grabación, sino al conocimiento de la existencia de las imágenes relevantes.",
-      "referencia": "manual.md · apartado 8 · Artículo 22",
+      "justificacion": "El art. 22.3 LOPDGDD establece supresión ordinaria en un mes desde la captación, excepto si han de conservarse para acreditar actos que atenten contra la integridad de personas, bienes o instalaciones. Entonces deben ponerse a disposición de la autoridad competente en un máximo de **72 horas desde que se conozca la existencia de la grabación**. No se aplica de forma general a cualquier supuesto denominado genéricamente infracción.",
+      "trampaExamen": "**72 horas** desde conocimiento de existencia de la grabación de actos contra integridad, NO desde captación ni para cualquier infracción administrativa; **un mes** es regla de supresión ordinaria.",
+      "referencia": "LOPDGDD art. 22.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a22",
       "respuestaLiteral": "72 horas desde que se conoce la existencia de la grabación"
     },
     {

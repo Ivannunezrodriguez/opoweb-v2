@@ -43,3 +43,8 @@ Comprueba especialmente:
 - **«Tema 9: cambia o amplía…»**
 
 No se fusionará sin aprobación expresa.
+
+## Cierre jurídico-editorial **04/11/2026**
+
+Se ha revisado el banco de **12 preguntas con 48 opciones** y las **8 áreas del manual** contra LO 3/2018 y RGPD, documento [cotejo íntegro](cotejo-integral-2026-11-04.md). Las claves están justificadas y se ha corregido el presupuesto legal de entrega de grabaciones. **No equivale a certificación funcional de navegador/móvil**.
+

@@ -16,3 +16,8 @@
 > ⚠️ **¡Foco Examen!:** Un **delegado de protección de datos (DPD)** asesora y supervisa; **no** sustituye al responsable del tratamiento en la determinación de finalidades y medios.
 
 **Pendiente:** contraste de todas las respuestas con los textos aplicables y sus excepciones. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Auditoría jurídica integral **04/11/2026**
+
+[**Cotejo documentado de las 48 opciones de Tema 9**](cotejo-integral-2026-11-04.md): **LOPDGDD** y **RGPD** aplicable. Se han revisado los 8 bloques y corregido el alcance del plazo de videovigilancia **LP-T09-007**, conforme al [**art. 22.3**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a22). **AUDITADO jurídico-editorial; navegador real pendiente**.
+
