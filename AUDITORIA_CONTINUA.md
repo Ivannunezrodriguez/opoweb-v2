@@ -1188,3 +1188,45 @@ Se añadió [`tests/validate-la-puebla-three-legal-closures.mjs`](tests/validate
 **Estado acumulado sin inflar:** **8/121** temas con cierre jurídico-editorial documentado por §46, **0/121** certificados íntegramente en las cinco capas. Se mantienen los exámenes de La Puebla **14/11/2026** y UC3M **21/11/2026**.
 
 **TAREA ACTIVA:** verificar **Actions y Pages para SHA exacto `80d3b841`** y corregir solo errores demostrados; completar el cotejo integral **T3** (restantes 10 preguntas, 40 opciones, programa y manual por artículos 53–105) con informe individual, luego cerrar temas enteros T5, T6, T10–T12, T15–T19 antes de pasar a UC3M. Diputación C2 T6 OAPGT al final. No reabrir Carranque/Las Ventas.
+
+## 48. Tres cierres jurídico-editoriales completos adicionales: La Puebla T3, T5 y T6 — **04/11/2026**
+
+**Continuidad y colisión temporal resuelta:** el §47 fue redactado por la tarea automática durante el trabajo de este lote y describía un estado **anterior** de La Puebla T3 (sólo dos preguntas revisadas). Desde entonces se **completó el cotejo íntegro** de T3, T5 y T6, cada uno con **12 preguntas y sus 48 alternativas** justificadas por precepto, sin rehacer T1/T2/T4/T7/T8/T9/T13/T14. Este §48 **sustituye operativamente** la instrucción desactualizada al final del §47; no borra evidencia histórica.
+
+### 48.1. La Puebla T3 · procedimiento administrativo común — **AUDITADO jurídico-editorial**
+
+- Programa oficial BOP Toledo **82/2026**, anuncio **2026-1965**, matriz de **9 áreas**: derechos del interesado (**53**), iniciación (**54–69**), ordenación (**70–74**), instrucción (**75–83**), finalización (**84–95**), simplificada (**96**), ejecución (**97–105**) y especialidades sancionadoras/patrimoniales.
+- Contraste con [**Ley 39/2015, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) y [**cotejo jurídico por pregunta y alternativa**](content/la-puebla/tema-03/cotejo-integral-2026-11-04.md): **12 correctas y 36 distractores** examinados, con artículo y explicación por cada opción.
+- Precisiones de **LP-T03-002**: el **art. 56.2** requiere **iniciación en 15 días desde medida provisional previa** y pronunciamiento expreso de confirmación/modificación/levantamiento; la medida cae si falta alguno. **LP-T03-010**: el **art. 85.3** reconoce **dos reducciones de al menos 20 % cada una** en sanciones exclusivamente pecuniarias, acumulables, con condiciones y renuncia/desistimiento a recursos **administrativos**. Se conservan claves y posiciones.
+- Comprobaciones sobre **prueba 10–30 días** (**77.2**), **audiencia 10–15 días** (**82.2**), **subsanación 10 días** (**68**) y simplificada **30 días** (**96.6**).
+- Commit **`66397739`** con seis archivos actualizados y [**CI SUCCESS 41892832361**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41892832361) y [**PDF SUCCESS 41892832334**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41892832334) para ese SHA. **Navegador real pendiente**.
+
+> ⚠️ **¡Foco Examen!:** Las reducciones del **85.3** son **20 % + 20 % mínimo**, no 20 % total automático; medidas previas **56.2** exigen **15 días y pronunciamiento expreso**.
+
+### 48.2. La Puebla T5 · régimen local y electoral — **AUDITADO jurídico-editorial**
+
+- Ocho bloques del programa, municipal/provincial/electoral, contrastados con [**Constitución**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [**LRBRL 7/1985**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), [**LOREG 5/1985**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672) y ROF.
+- Control imprescindible de cambio legal: [**Ley 4/2026, de 1/10 (BOE-A-2026-20528)**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528), publicada **03/10**, vigente **23/10/2026**: añade LRBRL **25.2.q** sobre igualdad de oportunidades/accesibilidad y modifica **69.1** sobre información accesible y diseño universal. El manual existente ya lo recogía y se volvió a verificar.
+- [**Informe de 48 alternativas de T5**](content/la-puebla/tema-05/cotejo-integral-2026-11-04.md), 12 claves y 36 distractores. Se explicitó la base legal de **LP-T05-007**: Pleno ordinario **mensual si >20.000**, **bimestral si 5.001–20.000**, **trimestral hasta 5.000** (**46.2.a**); **LP-T05-012** añade cita **LOREG 196**, restringido a régimen de listas de >250 habitantes.
+- Regla del quórum **1/3 y nunca menos de 3**, **mayoría simple** de presentes como regla, información pública de ordenanzas **30 días**, umbral electoral para listas **5 % votos válidos**.
+- Commit **`96f1c6ff`**, [**CI SUCCESS 41893005966**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41893005966) y [**PDF SUCCESS 41893006040**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41893006040) mismo SHA. **Navegador real pendiente**.
+
+> ⚠️ **¡Foco Examen!:** **25.2.q y 69.1 LRBRL** ya cambiaron en **octubre de 2026**. No confundir **5.000** habitantes (JGL), **20.000** (sesiones y otros servicios) ni **50.000** (transporte colectivo urbano).
+
+### 48.3. La Puebla T6 · empleo público CLM — **AUDITADO jurídico-editorial**
+
+- **6 bloques del programa**, manual y 12 claves más 36 distractores cotejados con [**Ley 4/2011, BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752) y [**TREBEP**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719). [**Informe íntegro de 48 alternativas T6**](content/la-puebla/tema-06/cotejo-integral-2026-11-04.md).
+- Cifras contrastadas en norma: programas temporales interinos **4 años, art. 8.1.c**; acumulación **6 meses en 12, 8.1.d**; ejecución OEP **3 años improrrogables, 19.4**; hasta **10 %** plazas adicionales **19.3**; reserva discapacidad mínimo **7 %** y al menos **2 %** intelectual (**41.1**); tribunal **impar, al menos cinco** (**49.2**) y excluidos políticos, interinos, temporales y eventuales; promoción interna **2 años** (**65**); convocatorias de puestos comisionados **cada dos años si concurso** y **cada año si libre designación** (**74.3**).
+- Reforma de **art. 70.2 por Ley 2/2026, de 9 de abril**: el [**análisis legislativo del propio BOE**](https://www.boe.es/eli/es-cm/l/2011/03/10/4) reconoce la modificación aunque el texto consolidado servido figure actualizado **21/03/2024**; manual mantiene explicación de reforma de 2026, no se presentan como integradas modificaciones que el consolidado todavía no muestra.
+- El banco T6 tiene forma distinta de T3/T5: campos `pregunta`/`correcta` en lugar de `enunciado`/`respuestaCorrecta`. Se han conservado **IDs, claves y las cuatro posiciones de respuesta**, sin forzar una conversión que rompa compatibilidad. Se amplió fundamento del ítem **LP-T06-008** con restricciones **art. 49.2–4**.
+- Commit **`8529afca`**; [**CI SUCCESS 41892643632**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41892643632) y [**PDF SUCCESS 41892643730**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41892643730) mismo SHA. **Navegador real pendiente**.
+
+> ⚠️ **¡Foco Examen!:** **4 años** de interinidad temporal no equivalen a **3 años** para ejecutar OEP ni a **2 años** de servicio para promoción interna.
+
+### 48.4. Control técnico transversal y resultado acumulado
+
+- Incorporado el script [`tests/validate-la-puebla-t03-t05-t06-integral.mjs`](tests/validate-la-puebla-t03-t05-t06-integral.mjs) a `npm test` y workflow `Validar OpoWeb v2`. Comprueba para **T3/T5/T6**, sin forzar esquemas incompatibles, la conservación literal de **144 alternativas y 36 claves** en los informes, la correspondencia de respuestas, distribución uniforme **3/3/3/3** por tema, número de bloques y estado distinto de revisión jurídica y navegación.
+- Commit **`16f5eca1`**: [**CI SUCCESS run 41893143388**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41893143388), **mismo SHA**. **Pages run 41893142240** figuraba **in_progress** al consultar; no se acredita aún su conclusión.
+- **Balance acumulado:** **11/121 temas con cotejo jurídico-editorial del programa y 48 alternativas por tema**: La Puebla **T1, T2, T3, T4, T5, T6, T7, T8, T9, T13, T14**. **132 preguntas y 528 alternativas** documentadas. **0/121 certificado integral de cinco capas** demostrado, porque no se ha realizado prueba real exhaustiva de navegador/móvil y resto de componentes; no confundir con éxito CI/PDF.
+
+**TAREA ACTIVA:** verificar el despliegue Pages del commit **`16f5eca1`**; seguir cerrando **La Puebla T10, T11, T12 y T15–T19**, por proximidad al examen del **14/11/2026**, y después UC3M del **21/11/2026**. No volver a rehacer T3/T5/T6 como revisión focal y no repetir convocatorias descartadas. Diputación C2 T6 OAPGT al final.
