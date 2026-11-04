@@ -9,7 +9,7 @@
 - [Microsoft — Quitar hardware de forma segura en Windows](https://support.microsoft.com/es-es/windows/hardware/device-drivers/safely-remove-hardware-in-windows).
 - [Microsoft — Especificaciones y compatibilidad del sistema de archivos exFAT](https://learn.microsoft.com/es-es/windows/win32/fileio/filesystem-functionality-comparison).
 - [Microsoft — Escáner de Windows](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows).
-- Documentación técnica primaria del fabricante: [USB Implementers Forum (USB-IF)](https://www.usb.org/usb-type-cr).
+- Documentación técnica primaria del fabricante: [USB Implementers Forum (USB-IF)](https://usb.org/usb-type-cr-cable-and-connector-specification).
 
 | Conceptos confundibles | Diferencia correcta |
 |---|---|
