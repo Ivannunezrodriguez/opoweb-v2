@@ -1723,3 +1723,43 @@ También se ha subsanado un estado editorial **contradictorio** en T05: el apart
 **Cobertura acumulada de bancos individualmente cotejados:** **44/121 temas**: **La Puebla 19/19**, **UC3M 20/20**, **Diputación Toledo C2 5/20**. **588 preguntas / 2.352 alternativas**. Equivale a **36,4 % de los temas con cotejo de banco**, no a certificación funcional/jurídica global, que sigue **0/121 con todas las capas acreditadas**.
 
 **Siguiente prioridad:** **Diputación C2 T07–T09**, sin alterar el acuerdo de que **T06 (Acuerdo Regulador y Estatutos OAPGT)** queda al final de esta secuencia. Las otras convocatorias pendientes y la verificación de corte normativo **UC3M** siguen pendientes de sus propios controles.
+
+
+## 61. Diputación Toledo C2 T07 · Ley 4/2011 de Empleo Público de Castilla-La Mancha y reformas de **2026** — **04/11/2026**
+
+### 61.1. Banco individual cotejado
+
+- [**Informe T07, 20 preguntas y 80 alternativas**](content/diputacion-toledo-auxiliar-c2/tema-07/cotejo-integral-2026-11-04.md), construido con la literalidad del banco existente, todos los distractores razonados, la respuesta correcta y un bloque de **¡Foco Examen!** individual.
+- **Fuentes primarias:** [**Ley 4/2011, Empleo Público de Castilla-La Mancha, BOE-A-2011-7752**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752), [**Ley 2/2026, reforma art. 70.2**](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086), y [**Ley 1/2026, reforma art. 121 y DA 7.ª**](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065).
+- **Advertencia de vigencia importante:** el BOE mostraba el consolidado de la **Ley 4/2011** con última integración indicada de **21/03/2024**, mientras el análisis normativo recoge expresamente las **modificaciones autonómicas de 2026**. No utilizar el art. 70.2 de esa versión 2024 como si agotara el Derecho vigente.
+- **T07-007** mantiene como correcta la alternativa **C**: la **Ley 2/2026** añade supuestos específicos de libre designación referidos a puestos determinados por **Ley 55/2003** y desarrollo del personal estatutario sanitario. **NO** transforma todos los puestos de auxiliares administrativos en puestos de libre designación.
+- Las **20 claves** permanecen idénticas; distribución **A3/B4/C7/D6**.
+
+### 61.2. Tabla comparativa de examen
+
+| Materia | Regla verificada |
+|---|---|
+| Clases de empleado público | **Funcionario de carrera, funcionario interino, personal laboral y personal eventual** (**Ley 4/2011 art. 4.2**) |
+| Personal eventual | Funciones de **confianza o asesoramiento especial**; su condición **no es mérito** para acceso/promoción |
+| **OEP** | Plazas vacantes **dotadas** cuya cobertura se estime necesaria; convocatoria de procesos ulterior |
+| Plazo de **ejecución total** de la OEP | **3 años improrrogables** desde el **día siguiente a publicación** (**art. 19.4**) |
+| Promoción interna | Antigüedad ordinaria de **al menos 2 años** en cuerpo/escala de procedencia, con cómputos especiales (**art.65.2**) |
+| **Carrera horizontal** | Progresión sin cambio necesario de puesto |
+| **Carrera vertical** | Ascenso en la estructura de puestos |
+| Provisión ordinaria de puestos funcionariales | **Concurso** (**art.67.2**) |
+| Provisión por **libre designación** | Supuestos expresamente previstos, **convocatoria pública** y reforma del **art.70.2 por Ley 2/2026** |
+| Comisión de servicios | Desempeño temporal de puesto con requisitos legales |
+
+> ⚠️ **¡Foco Examen!:** **3 años de ejecución OEP** se computan desde el **día siguiente a la publicación**, no desde toma de posesión o desde una convocatoria concreta. **2 años** es regla de promoción interna. **Concurso ordinario** no es sinónimo de **libre designación**.
+
+### 61.3. Evidencia de integración y límites
+
+- [**Manual T07**](content/diputacion-toledo-auxiliar-c2/tema-07/manual.md), [**fuentes**](content/diputacion-toledo-auxiliar-c2/tema-07/fuentes.md) y **`matriz.json`** enlazan el informe y registran **`controlIntegralBanco20261104`** con **`COTEJO_BANCO_COMPLETO`**, **20 preguntas**, **80 alternativas**, **`aprobadoPorUsuario:false`** y **`certificacionWeb:PENDIENTE_PRUEBA_NAVEGADOR_REAL`**.
+- Nuevo [**test T07**](tests/validate-diputacion-c2-t7-integral.mjs) comprueba literalmente todas las **80 alternativas**, claves, focos, fechas de integración y ley reformadora **2026**. Integrado en **`npm test`** y [**GitHub Actions**](.github/workflows/validate.yml). **Los resultados del commit de integración estaban pendientes de confirmación** al documentar este apartado; no atribuir éxito anticipado.
+- **No** se ha certificado la corrección absoluta de todos los apartados del manual, el funcionamiento real del simulador en dispositivos, la accesibilidad ni la aprobación editorial final del usuario.
+
+### 61.4. Cobertura real
+
+**45/121 temas** tienen ahora sus bancos con informe individual de opciones: **La Puebla 19/19**, **UC3M 20/20** y **Diputación Toledo C2 6/20** (temas **1, 2, 3, 4, 5 y 7**; **tema 6 sigue aplazado al final**). Acumulado **608 preguntas / 2.432 alternativas**. El **37,2 %** es solo **porcentaje de temas con banco auditado**, **NO** porcentaje de certificación total jurídico-funcional. La validación plena de todas las capas permanece **0/121**.
+
+**Próxima prioridad editorial:** **Diputación Toledo C2 T08–T10**, manteniendo **T06 — Acuerdo Regulador y Estatutos OAPGT** para el final de la serie, y continuando el seguimiento del corte normativo de UC3M y controles reales de navegador.
