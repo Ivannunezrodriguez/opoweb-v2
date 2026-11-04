@@ -139,7 +139,7 @@
     },
     {
       "id": "UC3M-T05-010",
-      "pregunta": "¿Dónde deben ubicarse, con carácter general, los sistemas que tratan datos especialmente protegidos?",
+      "pregunta": "Según el artículo 46 bis de la Ley 40/2015, ¿dónde deben ubicarse los sistemas del censo electoral, padrones municipales y datos de usuarios del Sistema Nacional de Salud?",
       "opciones": [
         "En cualquier país sin condiciones",
         "Solo en España",
@@ -147,8 +147,8 @@
         "Dentro del territorio de la Unión Europea"
       ],
       "correcta": 3,
-      "justificacion": "La Ley exige su ubicación y prestación dentro de la Unión Europea, sin perjuicio de transferencias con garantías legales.",
-      "trampa": "La regla no exige necesariamente territorio español.",
+      "justificacion": "El artículo 46 bis exige que los sistemas de información y comunicaciones de esos registros y sus tratamientos de datos personales se ubiquen y presten dentro del territorio de la Unión Europea. No lo establece indiscriminadamente para todos los datos especialmente protegidos.",
+      "trampa": "La obligación específica del art. 46 bis alcanza censo, padrones, otros registros de población, datos fiscales relacionados con tributos propios o cedidos y usuarios del SNS; no cualquier dato de categoría especial.",
       "referencia": "Manual, apartado 10",
       "respuestaLiteral": "Dentro del territorio de la Unión Europea"
     },
