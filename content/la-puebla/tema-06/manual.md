@@ -1196,3 +1196,10 @@ Responder sin consultar:
 - Publicación como aprobado: **SÍ**.
 
 El usuario aprobó expresamente el tema mediante la respuesta **«Tema 6 aprobado»** el 17 de julio de 2026.
+
+## Cierre jurídico-editorial del **04/11/2026**
+
+El programa completo, sus **6 bloques**, los artículos relevantes de la Ley **4/2011** y las **12 preguntas y 48 alternativas** han sido cotejados conforme a normativa 2026. [**Informe de cada respuesta y distractor**](cotejo-integral-2026-11-04.md). **AUDITADO jurídico-editorial**, sin prueba real aún de navegador o móvil.
+
+> ⚠️ **¡Foco Examen!:** **4 años programa temporal interino** (**8.1.c**) no equivale a **3 años OEP** (**19.4**). **2 años** de servicio para promoción interna (**65**).
+

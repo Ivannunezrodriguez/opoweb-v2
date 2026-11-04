@@ -18,3 +18,8 @@
 > ⚠️ **¡Foco Examen!:** **4 años** de programa temporal interino autonómico, **2 años** de servicio activo para promoción interna, y **3 años** para ejecutar OEP son tres cifras distintas. La errata histórica que las confundía ya fue corregida en el manual.
 
 **Pendiente:** verificar integralmente todas las causas, excepciones y respuestas. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Cotejo completo **04/11/2026**
+
+[**48 alternativas verificadas**](cotejo-integral-2026-11-04.md), con [Ley 4/2011](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752), [TREBEP](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) y [análisis BOE modificación 70.2 por Ley 2/2026](https://www.boe.es/eli/es-cm/l/2011/03/10/4). **Cierre jurídico-editorial; funcional real pendiente**.
+

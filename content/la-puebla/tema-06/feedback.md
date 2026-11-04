@@ -97,3 +97,8 @@ Se excluyen porque no aparecen en el epígrafe, salvo las referencias necesarias
 - [ ] Pendiente la **revisión jurídica y funcional completa** de todo el tema, distinta de esta corrección puntual.
 
 > ⚠️ **¡Foco Examen!:** Programa temporal interino **4 años** en Castilla-La Mancha, OEP **3 años** de ejecución, promoción interna **2 años** de servicio activo: **tres números diferentes**.
+
+## Auditoría jurídica de **04/11/2026**
+
+Concluido [cotejo de 12 preguntas y 36 distractores](cotejo-integral-2026-11-04.md) en seis bloques del programa. **AUDITADO contenido**, no prueba funcional real.
+
