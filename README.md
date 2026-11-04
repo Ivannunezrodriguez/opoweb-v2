@@ -10,18 +10,19 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado editorial actual — consulta obligatoria
 
-**Punto único de verdad:** [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md) (última conciliación **02/11/2026**). Incluye la **tarea activa exacta**, historial verificable y puertas de calidad. No empezar una nueva auditoría desde cero leyendo este README o un informe antiguo.
+**Punto único de verdad:** [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md) (última actualización **04/11/2026**). Incluye la **tarea activa exacta**, historial verificable y puertas de calidad. No empezar una nueva auditoría desde cero leyendo este README o un informe antiguo.
 
-La plataforma contiene **cuatro programas activos y 99 temas registrados**: **La Puebla C2 (19)**, **Diputación Toledo Auxiliar C2 (20)**, **UC3M C2 (20)** y **Diputación Toledo Administrativo C1 (40)**. **Tema registrado no significa tema auditado.**
+La plataforma contiene **cinco programas activos y 121 temas registrados**: **La Puebla C2 (19)**, **Diputación Toledo Auxiliar C2 (20)**, **UC3M C2 (20)** y **Diputación Toledo Administrativo C1 (40)**. **Tema registrado no significa tema auditado.**
 
 - **La Puebla C2:** **19/19** temas `APROBADO_USUARIO` con cierre **histórico de fase 2** en julio de 2026; las reformas y cambios posteriores requieren controles de vigencia.
 - **Diputación Auxiliar C2:** **19 temas EN_REVISION_USUARIO** y **tema 6 BORRADOR**; el tema 6 del **OAPGT** queda **aplazado hasta el final** según decisión documentada del **29/10/2026**, sin considerarse terminado.
-- **UC3M C2:** **20 EN_REVISION_USUARIO**. **250 preguntas temáticas** y, desde el **02/11/2026**, **3 simulacros de entrenamiento de 70 titulares + 5 reservas / 60 minutos**. Muestran **puntuación directa A − E/3**, nunca un aprobado simulado sin el corte del tribunal. [Guía de examen y fuentes](content/uc3m/GUIA_EXAMEN_2026.md).
+- **UC3M C2:** **20 EN_REVISION_USUARIO**. **260 preguntas temáticas** y, desde el **02/11/2026**, **3 simulacros de entrenamiento de 70 titulares + 5 reservas / 60 minutos**. Muestran **puntuación directa A − E/3**, nunca un aprobado simulado sin el corte del tribunal. [Guía de examen y fuentes](content/uc3m/GUIA_EXAMEN_2026.md).
 - **Diputación Administrativo C1:** **40 con origen GENERACION_DESDE_CERO** en manifiesto heredado, **sin equivaler a APROBADO/PUBLICADO**; auditoría progresiva.
+- **Olías Auxiliar de edificios C2:** **22/22 redactados**, todos **EN_AUDITORIA**; **264 preguntas temáticas + 40 psicotécnicas** y simulacros de teoría/psicotécnicos con notas independientes. El programa está registrado pero **no** certificado jurídicamente. **Ojo:** discrepancias abiertas entre BOP/BOE sobre **4/1 plazas** y **20 días naturales/hábiles**; no afirmar plazo resuelto.
 
-**No hay certificación integral actual de los 99 temas a 02/11/2026.** Las métricas de archivos, preguntas y validadores se deben interpretar en su **fecha/commit**, no como porcentajes de fiabilidad jurídica.
+**No hay recertificación jurídica integral nueva de los 121 temas a 04/11/2026.** Las métricas de archivos, preguntas y validadores se deben interpretar en su **fecha/commit**, no como porcentajes de fiabilidad jurídica.
 
-**Bloque urgente activo a 02/11/2026:** `PUEBLA-EXAM-2026-11-14` — controles por bloques de plazos, respuestas y simulacros conforme al primer examen del **14/11/2026**; después `UC3M-EXAM-2026-11-21`. El bloque `DT-C2-A` (**temas 1–5 de Diputación Auxiliar C2**) queda **conservado y temporalmente aplazado**, no reiniciado. El **tema 6 OAPGT** permanece al final del programa C2. Consultar siempre el registro principal y su marcador antes de cada ejecución. **Los avisos al usuario se reservan a incidencias significativas que requieran atención.**
+**Bloque urgente activo a 04/11/2026:** `PUEBLA-EXAM-2026-11-14` — controles por bloques de plazos, respuestas y simulacros conforme al primer examen del **14/11/2026**; después `UC3M-EXAM-2026-11-21`. El bloque `DT-C2-A` (**temas 1–5 de Diputación Auxiliar C2**) queda **conservado y temporalmente aplazado**, no reiniciado. El **tema 6 OAPGT** permanece al final del programa C2. Consultar siempre el registro principal y su marcador antes de cada ejecución. **Los avisos al usuario se reservan a incidencias significativas que requieran atención.**
 
 ## Fuente del programa
 
@@ -171,7 +172,8 @@ Después abre `http://localhost:8080`.
 ## Validación
 
 ```bash
-npm test
+npm test            # batería básica
+npm run test:all    # batería extendida: cinco programas, test jurídicos focales y Radar en Node
 ```
 
-Los informes históricos acreditan controles de **La Puebla** en un commit concreto. Ejecutar `npm test` sobre el commit actual y revisar GitHub Actions antes de afirmar que la versión vigente supera las pruebas; no asegurar funcionamiento sin conexión sin comprobarlo.
+La CI incorpora además comprobaciones Python y sintaxis. Los informes históricos acreditan controles de **La Puebla** en un commit concreto. Ejecutar `npm test` sobre el commit actual y revisar GitHub Actions antes de afirmar que la versión vigente supera las pruebas; no asegurar funcionamiento sin conexión sin comprobarlo.
