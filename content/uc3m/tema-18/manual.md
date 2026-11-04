@@ -91,8 +91,7 @@ La distribución oficial comprende:
 - **Capítulo II. Gastos corrientes en bienes y servicios**.
 - **Capítulo III. Gastos financieros**.
 - **Capítulo IV. Transferencias corrientes**.
-- **Capítulo VI. Inversiones reales**.
-- **Capítulo VI. Investigación específica**, identificada separadamente dentro de las inversiones y actividad investigadora.
+- **Capítulo VI. Inversiones reales**, que incluye el concepto **640, inversiones inmateriales**, por **55.170.132,65 €** dedicados a investigación y actividad inmaterial. **No existe un segundo Capítulo VI autónomo** para investigación.
 - **Capítulo VII. Transferencias de capital**.
 - **Capítulo VIII. Activos financieros**.
 - **Capítulo IX. Pasivos financieros**.
