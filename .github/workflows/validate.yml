@@ -31,6 +31,8 @@ jobs:
         run: node tests/validate.mjs
       - name: Validar maquetación editorial de La Puebla
         run: node tests/validate-la-puebla-editorial.mjs
+      - name: Validar cifras y plazos normativos focales de La Puebla
+        run: node tests/validate-la-puebla-normativa-focal.mjs
       - name: Validar fuentes oficiales y enlaces de 14 temas de La Puebla
         run: node tests/validate-sources.mjs
       - name: Validar motor de simulacros de La Puebla
