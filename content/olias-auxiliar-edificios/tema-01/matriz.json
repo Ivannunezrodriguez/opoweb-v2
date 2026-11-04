@@ -1,0 +1,36 @@
+{
+  "tema": 1,
+  "numeroEnBloque": 1,
+  "bloque": "general",
+  "estado": "EN_AUDITORIA",
+  "epigrafeOficial": "La Constitución Española de 1978: Las Comunidades Autónomas, la Jefatura del Estado y el Gobierno de la Nación.",
+  "fuente": "BOP Toledo 204/2026, anuncio 4833, Anexo II, página 58",
+  "revision": "2026-11-04",
+  "filas": [
+    {
+      "inciso": "La Constitución Española de 1978",
+      "norma": "CE",
+      "articulos": "1–2",
+      "contenidoExigible": "Soberanía, forma política, unidad y autonomía"
+    },
+    {
+      "inciso": "Las Comunidades Autónomas",
+      "norma": "CE",
+      "articulos": "137, 143–158",
+      "contenidoExigible": "Estatutos, competencias, controles y autonomía financiera"
+    },
+    {
+      "inciso": "La Jefatura del Estado",
+      "norma": "CE",
+      "articulos": "56–65",
+      "contenidoExigible": "Rey, funciones y refrendo"
+    },
+    {
+      "inciso": "El Gobierno de la Nación",
+      "norma": "CE",
+      "articulos": "97–102,108",
+      "contenidoExigible": "Composición, investidura, funciones, responsabilidad y cese"
+    }
+  ],
+  "estadoControl": "PENDIENTE_AUDITORIA_INTEGRAL"
+}
