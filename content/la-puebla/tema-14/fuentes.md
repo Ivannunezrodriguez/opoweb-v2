@@ -59,3 +59,8 @@ Se ha ampliado el bloque 2 y manual LP14; actualización de justificación y Foc
 ## Contraste de nombramientos y suplencia territorial — **04/11/2026**
 
 [**Ley 40/2015, arts. 70, 72.4–5 y 74**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566): **Consejo de Ministros** nombra a **Delegado** por RD a propuesta del **Presidente del Gobierno**; **Delegado** nombra **Subdelegado** y **Director Insular** por libre designación entre **funcionarios A1**; **art. 72.5** delimita suplencia del Delegado por Subdelegado designado, defecto provincia sede, o **Secretario General** en comunidad uniprovincial sin Subdelegado; **art. 74** regula la asunción por el Delegado de competencias del subdelegado ausente. Cotejo **parcial**; no cambia el número de preguntas.
+
+## Cierre jurídico-editorial del **04/11/2026**
+
+Contrastados **cinco incisos del programa**, **cinco bloques**, **12 preguntas**, **36 distractores** con la [Ley 40/2015 consolidada en BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). [**Ver las 48 alternativas y sus fundamentos por artículo**](cotejo-integral-2026-11-04.md). Se mantienen observaciones de excepciones del art. **17**, avocación **10**, recusación **24** y clasificación de AGE **55–58**. **Cierre jurídico-editorial**, no certificado de la interfaz en móvil ni navegador real.
+

@@ -293,3 +293,8 @@ El Servicio Exterior se rige principalmente por la Ley 2/2014 y su normativa de 
 
 > ⚠️ **¡Foco Examen!:** El Delegado del Gobierno tiene rango de Subsecretario, mientras que el Subdelegado tiene nivel de Subdirector general; el rango no debe confundirse con la dependencia orgánica.
 
+## 17. Cierre del cotejo jurídico-editorial — **04/11/2026**
+
+Revisados el epígrafe literal, los **5 capítulos**, los artículos de la Ley **40/2015** del programa y las **48 alternativas** del banco de 12 preguntas contra el BOE consolidado. Se documenta [el cotejo individual, con artículo y descarte de los tres distractores de cada pregunta](cotejo-integral-2026-11-04.md). **AUDITADO jurídico-editorial**, con prueba funcional real de escritorio/móvil pendiente.
+
+> ⚠️ **¡Foco Examen!:** **3 días** para resolución de recusación negada (**24.4**); **mayoría** para declarar urgente un asunto fuera del orden del día, siempre con **todos** presentes (**17.4**). No confundir órganos superiores y directivos de AGE.

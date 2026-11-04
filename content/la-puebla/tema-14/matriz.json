@@ -2,7 +2,7 @@
   "tema": 14,
   "estado": "APROBADO_USUARIO",
   "epigrafeOficial": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
-  "fechaRevisionNormativa": "2026-07-18",
+  "fechaRevisionNormativa": "2026-11-04",
   "manual": "content/la-puebla/tema-14/manual.md",
   "capitulos": [
     "content/la-puebla/tema-14/bloque-01-organos-competencia.md",
@@ -168,5 +168,15 @@
     ],
     "detalle": "Nombramiento del Delegado vs Subdelegado; uniprovincial sin Subdelegado: suplencia del Delegado por Secretario General, asunción de competencias del Subdelegado por Delegado",
     "estado": "CONTRASTE_PARCIAL"
+  },
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "Cinco incisos del programa y cinco capítulos, 12 claves y 48 alternativas individualizadas",
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-14/cotejo-integral-2026-11-04.md",
+    "norma": "Ley 40/2015 arts. 5–24 y 54–80",
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionIntegralCincoCapas": false
   }
 }

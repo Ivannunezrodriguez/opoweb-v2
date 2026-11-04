@@ -4,7 +4,7 @@
 
 `APROBADO_USUARIO`
 
-El tema ha sido aprobado expresamente por el usuario. El banco de preguntas permanece vacío hasta su revisión específica y trazable.
+El tema ha sido aprobado expresamente por el usuario. El banco ya consta de **12 preguntas y 48 opciones**, revisadas íntegramente frente a fuentes oficiales el **04/11/2026**. Su estado jurídico-editorial es **AUDITADO**; la prueba funcional real en navegador permanece separada.
 
 ## Epígrafe oficial
 
@@ -121,3 +121,8 @@ Revisa especialmente:
 ## Cierre
 
 Aprobación registrada: **«Tema 14 aprobado»**, el 18 de julio de 2026.
+
+## Auditoría jurídica completa del banco, **04/11/2026**
+
+Ver [cotejo individual de 48 alternativas](cotejo-integral-2026-11-04.md) y estado de `matriz.json`. Se han revisado las cinco áreas del programa, el manual principal y cinco capítulos. **No se declara prueba real del portal desde navegador o móvil.**
+
