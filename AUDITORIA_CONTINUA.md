@@ -579,3 +579,29 @@ Fuente primaria cotejada: [BOE, Ley 40/2015, artículo 23.2–5](https://www.boe
 **Validación real confirmada:** workflow [`Validar OpoWeb v2`, run 41813660326](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41813660326), **status completed / conclusion success**, commit **`c3fb425623a4349766bb2a2a9efb140d18e5a489`**. Dado que el mismo paso importa `tools/radar-direct.py` desde `tests/radar-direct-test.py`, su resultado exitoso descarta el error de sintaxis que rompía el job. Este éxito **no prueba** que todas las fuentes web del Radar sean accesibles, que se hayan leído documentos oficiales, que hayan aparecido convocatorias compatibles ni que se hayan enviado correos; la ejecución programada y la calidad de extracción siguen sujetas a evaluación separada.
 
 **Estado operativo:** corregida la **incidencia sintáctica**, no la calidad o cobertura general de Radar. Prioridad siguiente: controlar el workflow programado de Radar, `failureReasons`, documentos leídos, nuevos puestos y emails, y sustituir fuentes rotas solo por enlaces oficiales probados. Continuar **La Puebla / UC3M** por los subbloques pendientes (§25); no reabrir duplicados ni alterar estados editoriales sin nueva evidencia.
+
+## 27. Olías del Rey: alerta efectiva y refuerzo de Radar — 04/11/2026
+
+### Fuentes oficiales y plazo
+
+El [BOE-A-2026-22826](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826) del **31/10/2026** confirma **3 plazas de Limpiador/a** y **4 de Auxiliar de edificios e instalaciones** de **personal laboral fijo**, **oposición libre**, Ayuntamiento de **Olías del Rey**. Las bases se publicaron en el **BOP Toledo 204 de 23/10/2026**, aún no recuperado íntegramente; por tanto, **tasa, requisitos, modelo de solicitud, pruebas y temario sin certificación primaria**. El [DOCM 18/08/2026, OEP 2026/6010](https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2026%2F08%2F18%2Fhtml%2F2026_6010.html&tipo=rutaDocm) clasifica **C2 para auxiliares** y **AP para limpiadores**.
+
+El BOE fija **20 días hábiles** desde su publicación; al ser **02/11/2026** festivo en Castilla-La Mancha, el cómputo estimado es **30/11/2026**. Una fuente secundaria atribuye a las bases de Auxiliares **20 días naturales**, en aparente conflicto con el BOE, pero no se pudo cotejar el BOP original: **no certificar el día final** hasta aclararlo, recomendar presentar la solicitud antes del **20/11/2026** como precaución.
+
+El [BOE-A-2026-22924](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22924) de Diputación Toledo es **libre designación** de puestos directivos/técnicos y no constituye oposición libre de C2: su exclusión por perfil es correcta.
+
+### Diagnóstico de notificación con pruebas
+
+El [commit de Radar de 31/10/2026](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/bcc19ac15a2e82845557014e47501e395444db78) incorporó **ambas plazas de Olías** separadas. El [run 41194703336](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41194703336) de las 10:55 UTC del **31/10/2026** registró **2 nuevas** y **Notificación enviada: 2**; no hubo pérdida de detección. El 03/11, [run 41638757678](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41638757678) registró 16 nuevas, con 5 notificadas. La ubicación de mensajes en cuentas de correo es **privada**: no registrar direcciones, etiquetas ni identificadores de Gmail en este repositorio.
+
+### Mejora técnica y control
+
+Se añadieron a [tests/radar-fixtures.mjs](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/tests/radar-fixtures.mjs) casos reales de **BOE-A-2026-22826** que comprueban los **dos puestos, 3+4 plazas, elegibilidad de aviso y enlace oficial**. El [run 41814781435](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41814781435) acabó **SUCCESS** y mostró ambos puestos en los datos históricos con firstSeen 31/10.
+
+Se detectó un riesgo independiente: el rechazo de una solicitud de detalle de un BOE podía hacer abortar todo el lote (Promise.all). [Commit e41ba33b](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/e41ba33be6666ce26bc00856137b7c48c80b0e60) pasa a **Promise.allSettled**, retiene puestos válidos e identifica anuncios genéricos fallidos sin fingir plazas. [CI 41814920843](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41814920843) **SUCCESS**; [Pages 41814920237](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41814920237) **SUCCESS**. Mejora preventiva, **no causa original de Olías**.
+
+### Continuación
+
+**Temario:** se conserva el punto de reanudación del §25, La Puebla tema 14 y UC3M temas **15–16**, con corte de vigencia UC3M pendiente. La Puebla tiene examen el **14/11/2026**, UC3M el **21/11/2026**. **OAPGT tema 6 de Diputación C2 queda al final**. No se han alterado bancos de preguntas en esta intervención.
+
+**Prioridad siguiente:** obtener BOP Toledo 204 para resolver plazo contradictorio de Auxiliares, carnet/titulación, pruebas y tasa. Seguir la salud del Radar, diferenciando detección, envío y entrega real, y auditar temas urgentes sin duplicar trabajo.
