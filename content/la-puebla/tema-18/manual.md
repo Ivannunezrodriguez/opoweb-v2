@@ -101,4 +101,4 @@ Los nombres de funciones, separadores de argumentos y atajos pueden variar con e
 - Revisar referencias al copiar fórmulas.
 - No confundir protección de hoja con cifrado o seguridad completa.
 - Revisar compatibilidad al intercambiar `.xlsx` y `.ods`.
-- Tratar CSV como texto tabular de una sola hoja, no como un libro completo.
+- Tratar CSV como **archivo de texto tabular**, sin estructura de libro ni pestañas de hojas; al exportar desde Excel/Calc se guardan los datos de la **hoja activa**, pero el propio CSV no contiene un objeto «hoja».
