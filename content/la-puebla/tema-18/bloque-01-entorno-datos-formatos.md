@@ -143,7 +143,7 @@ Pegar solo valores elimina la fórmula del resultado pegado. Es útil para fijar
 - `.xlsm`: libro habilitado para macros;
 - `.xls`: formato binario heredado;
 - `.xltx`: plantilla;
-- `.csv`: texto delimitado, normalmente de una sola hoja;
+- `.csv`: texto delimitado; al exportar desde un libro se guarda solo la hoja activa;
 - `.pdf`: salida de distribución, no formato editable equivalente.
 
 ### Calc
