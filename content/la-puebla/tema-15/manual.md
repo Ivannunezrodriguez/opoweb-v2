@@ -60,9 +60,12 @@ Contenedor jerárquico de archivos y otras carpetas. Su finalidad es organizar; 
 
 Localización de un elemento dentro del sistema de archivos.
 
-- Local: `C:\Usuarios\Nombre\Documentos\informe.docx`
+- Local: `C:\Users\Nombre\Documents\informe.docx`
 - Red: `\\servidor\recurso\expedientes\2026`
 - Unidad de red asignada: `Z:\expedientes\2026`
+
+
+> ⚠️ **¡Foco Examen!:** En Windows en español puede mostrarse **Usuarios/Documentos** en la interfaz, aunque la ruta real habitual del perfil sea `C:\Users\<usuario>` y documentos `Documents`. La ubicación del perfil puede variar; `%USERPROFILE%` la identifica sin adivinarla.
 
 ### Unidad
 
