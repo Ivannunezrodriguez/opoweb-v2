@@ -37,3 +37,9 @@ El manual resume únicamente el contenido relacionado con el epígrafe oficial. 
 - [**Ley Orgánica 3/2007 consolidada (BOE)**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115): especialmente artículos **3, 6–13, 14–15, 42–43 y 51–62** según epígrafe.
 
 > ⚠️ **¡Foco Examen!:** No intercambiar **III Plan de Igualdad (2025–2029)** con **II Protocolo de acoso (aprobado en 2019)**: son instrumentos distintos con finalidades y fechas diferentes.
+
+## Auditoría del banco · 04/11/2026
+
+[**Cotejo individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): fundamentos específicos, análisis de distractores y bloques **¡Foco Examen!**. Estado **COTEJO_BANCO_COMPLETO**. **No** significa aprobación del usuario ni certifica navegación y accesibilidad de la web. La legislación exigible para UC3M se determina conforme a la **base primera.7** de su convocatoria, no automáticamente el día del examen.
+
+> ⚠️ **¡Foco Examen!:** El III Plan de Igualdad aprobado **27/01/2025** rige desde **01/02/2025** hasta **31/01/2029**. Su plan de medidas **no** es el II Protocolo contra el acoso de **2019**.
