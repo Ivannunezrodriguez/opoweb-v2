@@ -1,0 +1,243 @@
+{
+  "id": "olias-del-rey-auxiliar-edificios-c2-2026",
+  "project": "opoweb-v2",
+  "version": "2026-11-04",
+  "estado": "EN_AUDITORIA",
+  "convocatoria": {
+    "nombre": "Olías del Rey · Auxiliar de edificios e instalaciones C2",
+    "administracion": "Ayuntamiento de Olías del Rey",
+    "plazas": 4,
+    "subgrupo": "C2",
+    "regimen": "PERSONAL_LABORAL_FIJO",
+    "sistema": "OPOSICION_LIBRE",
+    "jornada": "Partida, fines de semana y festivos; horario especial",
+    "fuentePrograma": {
+      "publicacion": "BOP Toledo nº 204, de 23 de octubre de 2026, páginas 54–59",
+      "codigoVerificacion": "2026.00004833",
+      "numeroAnuncio": "4833",
+      "verificacion": "https://bop.diputoledo.es/webEbop/csv.jsp",
+      "referenciaBOE": "BOE-A-2026-22826",
+      "urlBOE": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
+    },
+    "incidencias": [
+      "Encabezado de bases y BOE dicen cuatro plazas, pero base 1.1 y Anexo I dicen una.",
+      "BOP base tercera: 20 días naturales; BOE: 20 días hábiles. Plazo en disputa hasta aclaración oficial.",
+      "En el BOP aparecen citas erróneas de Ley 39/2025 y referencias legales en el formulario; no reproducirlas como legislación vigente."
+    ]
+  },
+  "bloques": [
+    {
+      "id": "general",
+      "titulo": "Materia general",
+      "desde": 1,
+      "hasta": 5
+    },
+    {
+      "id": "especifica",
+      "titulo": "Materia específica",
+      "desde": 6,
+      "hasta": 22
+    }
+  ],
+  "examen": {
+    "pruebaTeorica": {
+      "preguntas": 50,
+      "alternativas": 4,
+      "maxPuntos": 50,
+      "minPuntos": 25,
+      "penalizacionError": "1/3 del valor del acierto"
+    },
+    "pruebaPsicotecnica": {
+      "preguntas": 20,
+      "alternativas": 4,
+      "maxPuntos": 50,
+      "minPuntos": 25,
+      "penalizacionError": "1/3 del valor del acierto",
+      "ambitos": [
+        "aptitud verbal",
+        "aptitud numérica",
+        "ortografía",
+        "habilidad perceptiva"
+      ]
+    },
+    "ambasEliminatorias": true,
+    "mismaSesion": true,
+    "duracion": "Por determinar por el tribunal",
+    "material": "Bolígrafo de tinta azul; prohibidos textos, diccionarios y calculadoras"
+  },
+  "estadosPermitidos": [
+    "PENDIENTE_AUDITORIA",
+    "EN_AUDITORIA",
+    "AUDITADO",
+    "PUBLICADO",
+    "REQUIERE_ACTUALIZACION"
+  ],
+  "temas": [
+    {
+      "numero": 1,
+      "numeroEnBloque": 1,
+      "bloque": "general",
+      "titulo": "La Constitución Española de 1978: Las Comunidades Autónomas, la Jefatura del Estado y el Gobierno de la Nación.",
+      "estado": "EN_AUDITORIA",
+      "manual": "content/olias-auxiliar-edificios/tema-01/manual.md",
+      "fuentes": "content/olias-auxiliar-edificios/tema-01/fuentes.md",
+      "matriz": "content/olias-auxiliar-edificios/tema-01/matriz.json",
+      "preguntas": "content/olias-auxiliar-edificios/tema-01/preguntas.json"
+    },
+    {
+      "numero": 2,
+      "numeroEnBloque": 2,
+      "bloque": "general",
+      "titulo": "La Administración Pública: Concepto y clases. La Administración Local. El Municipio: Concepto y Órganos de Gobierno. La Hacienda Pública: Concepto y clases.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 3,
+      "numeroEnBloque": 3,
+      "bloque": "general",
+      "titulo": "Derechos y deberes según el Texto Refundido del Estatuto de los Trabajadores. Texto Refundido de la Ley del Estatuto Básico del empleado público. Derechos de los trabajadores según la Ley de Prevención de Riesgos Laborales.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 4,
+      "numeroEnBloque": 4,
+      "bloque": "general",
+      "titulo": "Medidas de igualdad en el empleo para la Administración General del Estado, según la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 5,
+      "numeroEnBloque": 5,
+      "bloque": "general",
+      "titulo": "El municipio de Olias del Rey. Organización municipal. Normativa municipal.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 6,
+      "numeroEnBloque": 1,
+      "bloque": "especifica",
+      "titulo": "Nociones básicas sobre seguridad en edificios, emergencia y evacuación. Especial referencia a la salud laboral y prevención de riesgos laborales. Traslados de cargas.",
+      "estado": "EN_AUDITORIA",
+      "manual": "content/olias-auxiliar-edificios/tema-06/manual.md",
+      "fuentes": "content/olias-auxiliar-edificios/tema-06/fuentes.md",
+      "matriz": "content/olias-auxiliar-edificios/tema-06/matriz.json",
+      "preguntas": "content/olias-auxiliar-edificios/tema-06/preguntas.json"
+    },
+    {
+      "numero": 7,
+      "numeroEnBloque": 2,
+      "bloque": "especifica",
+      "titulo": "Atención a la ciudadanía. La comunicación: fundamentos y niveles. Habilidades Sociales y Asertividad. Resolución de conflictos.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 8,
+      "numeroEnBloque": 3,
+      "bloque": "especifica",
+      "titulo": "Recepción. Control de accesos, entrada y salida, vigilancia y control. Servicio de llaves y su control. Apertura y cierre de centros.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 9,
+      "numeroEnBloque": 4,
+      "bloque": "especifica",
+      "titulo": "Distribución de documentos, objetos y correspondencia. Servicios y tarifas postales.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 10,
+      "numeroEnBloque": 5,
+      "bloque": "especifica",
+      "titulo": "El control de accesos. Apertura y cierre de edificios y locales.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 11,
+      "numeroEnBloque": 6,
+      "bloque": "especifica",
+      "titulo": "Manejo de máquinas reproductoras, fotocopiadoras, encuadernadoras y otras análogas.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 12,
+      "numeroEnBloque": 7,
+      "bloque": "especifica",
+      "titulo": "Máquinas auxiliares. Uso y mantenimiento. Mobiliario, instalaciones y locales. Preparación de salas de reuniones.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 13,
+      "numeroEnBloque": 8,
+      "bloque": "especifica",
+      "titulo": "El término municipal de Olías del Rey y localización de los distintos servicios municipales. Callejero municipal.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 14,
+      "numeroEnBloque": 9,
+      "bloque": "especifica",
+      "titulo": "Mecánica básica: Conocimiento, manejo y mantenimiento de herramientas básicas de mecánico (martillos, destornilladores, distintos tipos de llaves, sierras, taladro portátil y otras herramientas.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 15,
+      "numeroEnBloque": 10,
+      "bloque": "especifica",
+      "titulo": "Electricidad básica. Conocimiento, manejo y mantenimiento de herramientas básicas de electricista (destornilladores, tijeras, alicates y otras herramientas). Cuadros de distribución en edificios (Interruptor de control de potencia, magnetotérmicos, diferenciales). Circuitos de sonería (pulsadores, timbres). Circuitos de alumbrado básico (interruptores, conmutadores, bases de enchufe con y sin toma de tierra, lámparas). Circuitos de alumbrado fluorescente (cebadores, reactancias, lámparas fluorescentes). Circuitos singulares (alarmas, alumbrado de emergencia)",
+      "estado": "EN_AUDITORIA",
+      "manual": "content/olias-auxiliar-edificios/tema-15/manual.md",
+      "fuentes": "content/olias-auxiliar-edificios/tema-15/fuentes.md",
+      "matriz": "content/olias-auxiliar-edificios/tema-15/matriz.json",
+      "preguntas": "content/olias-auxiliar-edificios/tema-15/preguntas.json"
+    },
+    {
+      "numero": 16,
+      "numeroEnBloque": 11,
+      "bloque": "especifica",
+      "titulo": "Carpintería metálica. Operaciones básicas de cerrajería (ajuste de puertas y ventanas, cerraduras y bombines, mantenimiento de mobiliario metálico).",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 17,
+      "numeroEnBloque": 12,
+      "bloque": "especifica",
+      "titulo": "Fontanería. Conocimiento, manejo y mantenimiento de herramientas básicas de fontanero. Mantenimiento de instalaciones de fontanería (sanitarios, grifería, cisternas, sifones).",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 18,
+      "numeroEnBloque": 13,
+      "bloque": "especifica",
+      "titulo": "Calefacción. Mantenimientos de instalaciones de calefacción (circuitos, llenado y purgado del aire. Radiadores. Salas de calderas, elementos importantes.)",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 19,
+      "numeroEnBloque": 14,
+      "bloque": "especifica",
+      "titulo": "Carpintería de madera. Conocimiento, manejo y mantenimiento de herramientas básicas de carpintero (martillos, sierras, formones, taladro eléctrico, lijas, colas y otras herramientas y accesorios). Operaciones básicas de carpintería (ajuste de puertas y ventanas) Cerraduras y bombines. Persianas: Tipos, mantenimiento y reparación.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 20,
+      "numeroEnBloque": 15,
+      "bloque": "especifica",
+      "titulo": "Jardinería. Conocimiento, manejo y mantenimiento de herramienta básica de jardinería (tijeras de poda, cortacésped, escarificadora, desbrozadora, cortasetos, azadas, palas, rastrillos y otras herramientas). Operaciones básicas de mantenimiento de jardines (colocación de aspersores, regulación y puesta en funcionamiento, conservación de riego, limpieza, calendario de labores de conservación de jardines) Conocimientos básicos de aplicación de productos para el jardín (abono, insecticidas, planificación de fertilización, buenas prácticas ambientales en el uso de productos fitosanitarios)",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 21,
+      "numeroEnBloque": 16,
+      "bloque": "especifica",
+      "titulo": "Albañilería. Conocimiento, manejo y mantenimiento de herramienta básica de pintura. Funciones y tareas básicas a realizar en trabajos de pintura.",
+      "estado": "PENDIENTE_AUDITORIA"
+    },
+    {
+      "numero": 22,
+      "numeroEnBloque": 17,
+      "bloque": "especifica",
+      "titulo": "Conocimientos de cultura general (cálculos aritméticos, nociones de gramática, geografía, etc.) y ofimática básica.",
+      "estado": "PENDIENTE_AUDITORIA"
+    }
+  ]
+}
