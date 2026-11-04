@@ -93,6 +93,20 @@ Fuentes contrastadas a **23 de julio de 2026**.
 
 ## Cotejo integral del banco · 04/11/2026
 
-[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Se han verificado directamente los importes en el **BOCM**; normas de vinculación, transferencias e incobrados aún requieren lectura primaria del **Volumen I UC3M 2026**. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
+[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. **Fuente primaria de Normas Básicas ya recuperada y cotejada**: [**UC3M Presupuesto 2026, Volumen I**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), **arts. 5, 6 y 14.2 (págs. 78, 79 y 94)**. Las tres preguntas **T18-006, T18-008 y T18-012** han quedado corroboradas directamente; subsisten las reservas sobre navegación, accesibilidad y certificación jurídica global. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
 
 > ⚠️ **¡Foco Examen!:** **Presupuesto UC3M 2026 = 300.468.067,59 €**. **Capítulo IV** es principal ingreso y **concepto 640** está dentro del **único capítulo VI** de gastos.
+
+## Cierre de las reservas de fuente primaria del tema 18 — **04/11/2026**
+
+**Documento institucional recuperado:** [**Universidad Carlos III de Madrid, Presupuesto 2026, Volumen I: Objetivos, Programa de Gobierno, Normas de ejecución, distribución por capítulos y conceptos, clasificaciones y plantillas**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view). **150 páginas**, disponible desde la [**carpeta institucional de Presupuesto 2026 UC3M**](https://drive.google.com/drive/folders/1DjCPXRrGPQqPcMSzUUeUB1AKXBHFSj02). **Lectura directa del PDF y comprobación visual** de las páginas correspondientes.
+
+| Pregunta | Artículo y página original | Respuesta acreditada |
+|---|---|---|
+| **UC3M-T18-006** | **Art. 5, pág. 78/150** | Vinculación general a nivel de **concepto** dentro de cada **centro y programa**. Excepciones **capítulo I (personal)**, **II (bienes/servicios)** y **VI (inversiones reales)**: vinculación por **capítulo**. Protocolo/representación y subvenciones nominativas: nivel de desagregación propio |
+| **UC3M-T18-008** | **Art. 6, pág. 79/150** | Transferencia **de capital a corriente**: aprobación por el **Consejo Social**, **previa autorización del Gobierno de la Comunidad de Madrid**. No basta el Rector |
+| **UC3M-T18-012** | **Art. 14.2, pág. 94/150** | Facturas no cobradas: **30 días** plazo de cobro; **60 días** segundo recordatorio; **90 días** inicio de seguimiento de incobrados; **120 días** reunión del **Grupo de Seguimiento de Incobrados** |
+
+La recuperación resuelve **esas tres reservas concretas** y evita depender de la transcripción de una academia. La vigencia global de cada precepto ante cambios posteriores, el corte de las bases UC3M y la validación de toda la web siguen siendo controles **distintos**.
+
+> ⚠️ **¡Foco Examen!:** En el **art. 6**, para transferir crédito de **capital a corriente**, el **Consejo Social** necesita **autorización previa del Gobierno autonómico**; no basta el Rector. **120 días** es la **reunión del grupo**, pero el **proceso de incobrados comienza a los 90**.
