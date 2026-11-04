@@ -4,6 +4,18 @@ const read=p=>readFileSync(p,'utf8');
 const j=p=>JSON.parse(read(p));
 const t10=read('content/la-puebla/tema-10/manual.md');
 const t13=read('content/la-puebla/tema-13/manual.md');
+const bank10=j('content/la-puebla/tema-10/preguntas.json');
+const delegation=bank10.preguntas.find(q=>q.id==='LP-T10-002');
+assert(delegation,'Missing delegation question');
+assert.equal(delegation.opciones[delegation.respuestaCorrecta],delegation.respuestaLiteral);
+assert.equal(delegation.respuestaLiteral,'El Pleno de la corporación');
+assert(delegation.enunciado.includes('en otra entidad local'),'Keep the scope of the accepting Pleno explicit');
+for(const needle of ['delegante','delegada','provincia','comunidad autónoma']){
+ assert(delegation.justificacion.includes(needle),'TRLRHL art.7.2 missing '+needle);
+}
+assert(t10.includes('si la delegada es otra entidad local'));
+assert(t10.includes('boletines oficiales de la provincia y de la comunidad autónoma'));
+
 assert(t13.includes('solo el sello cualificado'));
 assert(!t13.includes('La **firma electrónica** corresponde a una persona física.\n- El **sello electrónico** identifica y garantiza'));
 const bank13=j('content/la-puebla/tema-13/preguntas.json');
