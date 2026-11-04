@@ -933,3 +933,47 @@ En **`data/programa-diputacion-auxiliar-c2-2026.json`** se añadieron rutas expl
 **Pendientes reales:** **8 matrices C2** sin completar: T14–T20 (7) y T6 OAPGT (1), esta última al final; contraste legal íntegro de las 12 matrices creadas; **0/121** recertificaciones integrales. Priorizar **La Puebla C2 (examen 14/11/2026)** y **UC3M C2 (21/11/2026)** con revisión individual de pregunta visible, cuatro distractores, fundamento, fuentes y fecha de corte; después completar T14–T20 C2, dejar T6 al final y abordar C1/Olías. Radar: mantener seguimiento sin desplazar exámenes inminentes. No reabrir Carranque ni Las Ventas.
 
 **TAREA ACTIVA:** verificar CI/Pages del último SHA; auditoría jurídica profunda y distractores de La Puebla/UC3M antes de seguir con las matrices restantes; mantener la distinción entre integridad técnica, cobertura documental y certificación jurídico-editorial real.
+
+## 39. Dos errores normativos contrastados y matrices C2 completas salvo OAPGT — **04/11/2026**
+
+### 39.1. La Puebla T13 — definición de firma, niveles y sello cualificado
+
+**Problema sustantivo:** el manual y la pregunta **LP-T13-001** afirmaban que cualquier **firma electrónica** acredita necesariamente autoría, voluntad e integridad sin distinguir niveles. La pregunta **LP-T13-003** atribuía a todo **sello electrónico** un efecto sin matizar la presunción legal específica del cualificado. La [versión consolidada del Reglamento (UE) 910/2014 (18/10/2024)](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa) establece:
+
+| Precepto eIDAS | Regla que debe estudiar el opositor | Error que había que evitar |
+|---|---|---|
+| **3.9–10** | **Firmante: persona física**; firma electrónica: **datos electrónicos usados para firmar** | Afirmar que la definición general exige todas las garantías técnicas de avanzada |
+| **3.14** | Certificado de firma vincula datos de validación con **persona física** | Confundir un certificado con el acto de firmar |
+| **26** | La **firma avanzada** incorpora identificación, vínculo único, control de datos de creación y capacidad de detectar cambios | Equivaler firma simple y avanzada |
+| **25.1–2** | No excluir efectos probatorios por mero formato; **solo firma cualificada** tiene equivalencia legal expresa con manuscrita | Dar esa equivalencia a cualquier firma electrónica |
+| **3.24–25; 35.1–2; 36** | Creador del sello es **persona jurídica**; **sello cualificado** goza de **presunción legal de integridad y corrección del origen** | Tratar todos los sellos como cualificados |
+
+**Cambios efectivos en GitHub:** `content/la-puebla/tema-13/manual.md` (definiciones, tabla, foco y esquema), `preguntas.json` (revisión jurídica de dos preguntas **LP-T13-001** y **LP-T13-003** conservando sus identificadores y la posición correcta), `fuentes.md` (trazabilidad) y `tests/validate-la-puebla-normativa-focal.mjs` (regresión). **Commit `922b216a`**. Se conservaron **12 preguntas** y **3 respuestas correctas por cada letra**. **[CI 41857792510](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41857792510) SUCCESS** y **[Pages 41857790891](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41857790891) SUCCESS** sobre el mismo SHA. **No se certifican las otras diez preguntas ni el resto del tema.**
+
+> ⚠️ **¡Foco Examen!:** Firma **simple ≠ avanzada ≠ cualificada**. El sello **cualificado**, y no todo sello electrónico indistintamente, disfruta de la presunción del **art. 35.2 eIDAS**.
+
+### 39.2. UC3M T15 — error en el cese del Defensor Universitario por reforma estatutaria de 2009
+
+**Problema jurídico acreditado:** `content/uc3m/tema-15/manual.md` decía que el **Claustro** debía acordar por la misma mayoría tanto **la renuncia voluntaria** como los ceses por incumplimiento o lesión de derechos. **La redacción vigente del art. 127.2** procede del **Decreto 95/2009, de 12 de noviembre**, publicado en **BOCM n.º 288 de 04/12/2009** ([apartado cincuenta y tres, fuente primaria](https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf)); distingue **petición propia** de **acuerdo del Claustro** por esas dos causas, con la **misma mayoría exigida para elegir al Defensor**. La [UC3M también publica el texto refundido de los Estatutos](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m). **Decreto 1/2003 aislado** no es suficiente para describir la redacción reformada de este apartado.
+
+Se corrigió el apartado 2.1, tabla comparativa y foco de `manual.md`; se reemplazó la pregunta genérica **UC3M-T15-003** por un supuesto sobre **renuncia voluntaria vs. cese acordado**, actualizando texto visible `pregunta`, `trampa`, respuesta literal, explicación y referencia. Se ajustó `matriz.json` para atribuirla al bloque 2.1 y `fuentes.md` para documentar el boletín de 2009. **21 preguntas mantenidas**, posiciones equilibradas (6/5/5/5), mismo identificador y ninguna alteración de simulacros. Se añadió `tests/validate-uc3m-statutes-cese.mjs` a CI y `npm test`.
+
+**Commit `721d73fa`**, [**CI 41858266823**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41858266823) **SUCCESS**; [**Pages 41858262628**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41858262628) **SUCCESS**; [**PDF UC3M/Diputación 41858266129**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41858266129) **SUCCESS**. La validación jurídica es **focal**, no integral.
+
+> ⚠️ **¡Foco Examen!:** **Art. 127.2**: **petición propia** no necesita la votación del **Claustro** prevista para el cese por **incumplimiento o lesión**. La mayoría del segundo caso es **mitad más uno de los miembros**.
+
+### 39.3. Diputación C2: siete matrices restantes, T6 OAPGT reservado
+
+Se comprobó que `data/programa-diputacion-auxiliar-c2-2026.json` tenía **12/20 rutas de matrices** documentales. Se añadieron **7 matrices independientes** para **T14 (firma electrónica), T15 (Ley 40/2015 AGE), T16 (Windows 11 I), T17 (Edge/GroupWise 24), T18 (Writer 24), T19 (Calc 24) y T20 (hardware/periféricos)**, cada una con **epígrafe literal del BOP Toledo 197/2026, Anexo XI**, fuentes técnicas/legales ya identificadas y correspondencia `inciso → norma/fuente → artículos/capítulos → contenido exigible`. La **T6 OAPGT** sigue expresamente **sin matriz** y reservada para el final por las fuentes estatutarias/laborales incompletas.
+
+**Estado documental nuevo: 19/20 matrices C2 existentes (95 % de la estructura de matrices), NO 95 % de exactitud jurídica**. Las nuevas contienen sello `MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL`. Se ha preservado una incidencia editorial real: las fichas `fuentes.md` de los **temas 14 y 19** dicen aún **BORRADOR**, mientras el programa los registra como **EN_REVISION_USUARIO**; ninguna etiqueta se transformó automáticamente en `AUDITADO` ni `PUBLICADO`.
+
+**Archivos:** siete `content/diputacion-toledo-auxiliar-c2/tema-XX/matriz.json`, el manifiesto de programa y `tests/validate-diputacion-c2-matrices.mjs` para verificar ahora los **19 temas** y no tocar el T6. **Commit `8b08ad68`**, [**CI 41858662208**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41858662208) **SUCCESS**; **Pages 41858661571** seguía `in_progress` al control y **no** se marca como éxito sin confirmación del mismo SHA.
+
+### 39.4. Estado verdadero y reanudación
+
+**No se cambia artificialmente el indicador de certificación integral**: **121/121 temas registrados, 120/121 fuera de BORRADOR; 0/121 recertificados jurídicamente de forma integral en noviembre**. Se suman dos problemas normativos reales corregidos, tres respuestas (dos La Puebla, una UC3M) reconstruidas con fuente primaria, y siete matrices documentales honestas. El control CI acredita integridad estructural, no validez de todos los distractores.
+
+**TAREA ACTIVA:** revisar **LP T10** (art. 27 LGT, art. 7–9 TRLRHL) y **resto de LP T13** a nivel de opción/distractor, **UC3M T16** (RD 822/2021, normativa de permanencia/evaluación y fecha de corte oficial de convocatoria), validar el último Pages por SHA y continuar auditoría jurídica del resto; **T6 OAPGT C2 al final**. Mantener el seguimiento horario sin duplicar tareas. **Carranque/Las Ventas no reabrir**.
+
+> ⚠️ **¡Foco Examen!:** Un **tema publicado** o una **matriz creada** no significa `AUDITADO` integral. En los tests, citar el **precepto concreto en su versión vigente** y verificar que la alternativa correcta lo reproduce sin confundir niveles, órganos ni mayorías.
