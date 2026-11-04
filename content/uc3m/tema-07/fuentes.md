@@ -24,3 +24,9 @@
 - Reclamación potestativa: un mes.
 
 Última revisión editorial: 22 de julio de 2026.
+## Cotejo específico de plazos (04/11/2026)
+
+- [Ley 10/2019, art. 40](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102#a40): inadmisión motivada y prohibición de tratar como reelaboración el tratamiento informatizado de uso corriente.
+- [Ley 10/2019, art. 41](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102#a41): remisión al órgano competente en cinco días y obligación de informar al solicitante.
+- [Ley 10/2019, art. 42.1–3](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102#a42): veinte días para resolución/notificación de acceso, ampliación de otros veinte por volumen o complejidad con información al solicitante, **cinco días hábiles** para notificar la inadmisión y silencio desestimatorio.
+- Redacción consolidada consultada: última actualización BOE publicada **27/12/2024**. La fecha de corte de la convocatoria UC3M exige todavía contrastar la resolución primaria de listas definitivas.
