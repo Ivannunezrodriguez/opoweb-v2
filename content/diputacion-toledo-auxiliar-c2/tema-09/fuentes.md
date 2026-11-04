@@ -14,3 +14,17 @@ Los **65 artículos** de la Ley autonómica y los **78 artículos** de la ley or
 **Banco:** **20 preguntas** de cuatro opciones, justificación y referencia legal individual. **Cierre documental: 29/10/2026**. No se ha realizado prueba funcional de navegador de OpoWeb.
 
 > ⚠️ **¡Foco Examen!:** Composición equilibrada: **40 %–60 %**, no necesariamente mitad exacta. El trato desfavorable relacionado con **embarazo o maternidad** constituye **discriminación directa**.
+
+## Banco contrastado individualmente · 04/11/2026
+
+[**Cotejo exhaustivo T09: 20 preguntas y 80 alternativas del banco actualizado**](cotejo-integral-2026-11-04.md). Fuentes nuevas efectivamente leídas:
+
+- [**LO 3/2007 art. 7.4**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a7): condicionamiento de derechos o expectativas a tolerar acoso constituye también discriminación.
+- [**LO 3/2007 arts. 13.1–2**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a13): prueba de no discriminación y proporcionalidad a cargo de **parte demandada** en supuestos previstos, **excepto procesos penales**.
+- [**Ley 12/2010 arts. 9 y 15**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708#a9): **informe de impacto de género** del **anteproyecto de presupuestos CLM**, con intervención de la **Comisión de Igualdad**.
+- [**LO 3/2007 arts. 45.2–4**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a45): **plan de igualdad empresarial obligatorio desde 50 trabajadores**, así como por convenios o decisión de autoridad laboral en otros supuestos.
+
+Se sustituyeron las preguntas repetitivas **T09-011, T09-012, T09-016 y T09-018**, manteniendo **IDs, 20 ítems, 4 opciones e índices de clave**. Se coteja el **banco**, pero el manual completo y navegador **no** están certificados.
+
+> ⚠️ **¡Foco Examen!:** **LO 3/2007 art. 13 no rige en procesos penales**. El umbral de **50 trabajadores** no debe confundirse con composición equilibrada **40–60 %**.
+
