@@ -1,8 +1,8 @@
 {
   "tema": 12,
   "estado": "BANCO_20_PREGUNTAS_CON_FUNDAMENTO",
-  "version": "2026-10-29",
-  "criterio": "20 preguntas originales con respuestas, argumentos y referencias LGT; revisión documental pendiente de auditoría final integral del manual.",
+  "version": "2026-11-05",
+  "criterio": "20 preguntas originales con respuestas, argumentos y referencias LGT; revisión documental pendiente de auditoría final integral del manual. · 05/11/2026: 4 preguntas redundantes reemplazadas por LGT 62.3 recibos periódicos, 167.3 oposición, 32.2 intereses de ingreso indebido y 72 compensación a instancia. Misma clave e IDs.",
   "preguntas": [
     {
       "id": "DT-C2-T12-001",
@@ -132,17 +132,17 @@
     },
     {
       "id": "DT-C2-T12-010",
-      "enunciado": "¿En qué momento comienza el procedimiento administrativo de apremio?",
+      "enunciado": "Según el artículo 62.3 LGT, ¿cuál es el plazo general de pago voluntario de tributos de notificación colectiva y periódica si no hay plazo especial?",
       "opciones": [
-        "Al presentar autoliquidación",
-        "Al comenzar plazo voluntario",
-        "Mediante providencia de apremio notificada al obligado",
-        "Al vencer el plazo de prescripción"
+        "Siempre los diez primeros días naturales de enero",
+        "Hasta el día 5 del segundo mes siguiente a cada recibo",
+        "Del 1 de septiembre al 20 de noviembre, salvo modificación legalmente admitida de duración no inferior a dos meses",
+        "Solo durante los quince días siguientes a la publicación de cada padrón"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Art. 167.1: el procedimiento se inicia mediante providencia de apremio notificada.",
-      "trampaExamen": "**Período ejecutivo** es anterior a la **providencia**.",
-      "referencia": "LGT art. 167.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+      "justificacion": "Art. 62.3 LGT: deuda de notificación colectiva y periódica sin plazo especial, voluntaria del 1 de septiembre al 20 de noviembre o siguiente día hábil si fuera inhábil; Administración tributaria puede modificar dicho plazo, siempre duración no inferior a dos meses.",
+      "trampaExamen": "**Recibos periódicos, art. 62.3: 1 septiembre–20 noviembre**, con modificación posible y **mínimo 2 meses**. No aplicar automáticamente **62.2 (liquidaciones individuales)**.",
+      "referencia": "LGT art. 62.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62"
     },
     {
       "id": "DT-C2-T12-011",
@@ -174,31 +174,31 @@
     },
     {
       "id": "DT-C2-T12-013",
-      "enunciado": "¿Cuál de estos recargos es compatible con intereses de demora del período ejecutivo?",
+      "enunciado": "¿Cuál es un motivo válido de oposición a una providencia de apremio conforme al artículo 167.3 LGT?",
       "opciones": [
-        "El 5 %",
-        "El 20 % ordinario",
-        "El 10 % reducido",
-        "Ninguno"
+        "El desacuerdo con el destino del presupuesto municipal",
+        "La extinción total de la deuda o prescripción del derecho a exigir el pago",
+        "La mera preferencia por tributar otro año sin solicitud válida",
+        "Solicitar una nueva exención inexistente para cualquier ingreso"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Art. 28.5: recargo de apremio ordinario compatible con intereses de demora; con ejecutivo 5 % y reducido 10 % no se exigen esos intereses.",
-      "trampaExamen": "**20 %** ordinario puede llevar intereses; **5 %** y **10 %** no.",
-      "referencia": "LGT art. 28.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+      "justificacion": "Art. 167.3.a LGT: motivos de oposición tasados incluyen extinción total de deuda o prescripción del derecho de cobro, además de los enumerados en letras b–e. No sirve reabrir discrecionalmente la liquidación firme por disconformidad política.",
+      "trampaExamen": "**Oposición a providencia de apremio**: causas **tasadas del art. 167.3**, incluida **extinción total / prescripción**. No es un nuevo juicio sobre cualquier fundamento de la liquidación.",
+      "referencia": "LGT art. 167.3.a–e · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a167"
     },
     {
       "id": "DT-C2-T12-014",
-      "enunciado": "¿Qué recargo corresponde por pago de deuda y recargo en plazo del art. 62.5 tras providencia?",
+      "enunciado": "Según el artículo 32.2 LGT, ¿cómo se abona el interés de demora en la devolución de ingresos tributarios indebidos cuando corresponda?",
       "opciones": [
-        "5 %",
-        "20 %",
-        "10 %",
-        "25 %"
+        "Nunca se reconoce interés en pagos indebidos",
+        "Solo a petición del obligado y si renuncia a todo recurso",
+        "Sin necesidad de solicitarlo, computándose desde la fecha del ingreso indebido hasta que se ordena el pago de la devolución, con las especialidades legales",
+        "Únicamente si pasan cinco años desde la declaración"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Art. 28.3: **10 %** recargo apremio reducido cuando se paga deuda y recargo en plazo del art. 62.5.",
-      "trampaExamen": "El **10 %** exige pago íntegro y del propio recargo en plazo.",
-      "referencia": "LGT art. 28.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+      "justificacion": "Art. 32.2 LGT dispone el interés de demora sin necesidad de que el obligado lo solicite; se devenga desde fecha en que se realizó ingreso indebido hasta fecha en que se ordene pago, descontando dilaciones por causa no imputable a Administración en términos legales.",
+      "trampaExamen": "**Ingreso indebido (LGT 32.2): intereses de demora de oficio**, desde **fecha de ingreso** hasta **orden de pago**. Diferente a las **devoluciones derivadas de normativa del tributo** (art.31).",
+      "referencia": "LGT art. 32.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a32"
     },
     {
       "id": "DT-C2-T12-015",
@@ -230,17 +230,17 @@
     },
     {
       "id": "DT-C2-T12-017",
-      "enunciado": "¿Qué efecto general produce una solicitud de aplazamiento presentada en período voluntario?",
+      "enunciado": "¿En qué períodos puede solicitar el obligado tributario compensación de una deuda tributaria en los términos del artículo 72.1 LGT?",
       "opciones": [
-        "Siempre extingue la deuda",
-        "Impide el inicio del período ejecutivo mientras se tramita, con las precisiones legales",
-        "Se convierte en providencia de apremio",
-        "Aumenta la deuda al doble automáticamente"
+        "Únicamente después de una sentencia firme",
+        "Tanto en período voluntario de pago como en período ejecutivo",
+        "Solo al iniciar el embargo de inmuebles",
+        "Nunca a petición del obligado tributario"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Art. 65.5 LGT: la solicitud en período voluntario impide el inicio de período ejecutivo durante tramitación, sin perjuicio del devengo de interés y condiciones legales.",
-      "trampaExamen": "No confundir efecto de **solicitud en voluntaria** con **solicitud en ejecutiva**.",
-      "referencia": "LGT art. 65.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+      "justificacion": "El artículo 72.1 LGT permite solicitar compensación tanto en período voluntario como en ejecutivo. La solicitud presentada en voluntaria puede impedir inicio de ejecutiva para la deuda concurrente, sin excluir intereses devengables en supuestos legales.",
+      "trampaExamen": "**Compensación a instancia (art.72): voluntaria O ejecutiva**; **apremio** es procedimiento posterior. La petición en voluntaria **no extingue automáticamente** deuda si faltan requisitos.",
+      "referencia": "LGT art. 72.1–3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a72"
     },
     {
       "id": "DT-C2-T12-018",
