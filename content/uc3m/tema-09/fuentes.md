@@ -36,3 +36,9 @@ El manual se ha elaborado con orientación práctica de examen, diferenciando fu
 - **Precisión de versiones:** el programa exige **Word 2019 y Excel 2019**, por lo que cambios exclusivos de **Microsoft 365** no deben atribuirse a Office 2019 sin comprobación. Los productos Google tienen interfaz dinámica; los ejemplos conceptuales son estables pero las rutas de menú pueden variar.
 
 > ⚠️ **¡Foco Examen!:** **Archivo vs. eliminación en Gmail**, **salto de sección vs. salto de página en Word**, **`A1` vs. `$A$1` en Excel** y **comentador vs. editor en Drive** son parejas de distractores que deben separarse con precisión.
+
+## Auditoría del banco · 04/11/2026
+
+[**Cotejo de 12 preguntas y 48 opciones (Word 2019, Excel 2019, Gmail, Drive, Docs, Sheets y Calendar)**](cotejo-integral-2026-11-04.md): razón de cada respuesta, distractores y trampas. **Estado: COTEJO_BANCO_COMPLETO**, no aprobación del usuario ni prueba completa del navegador. Hay bloques del programa sin pregunta directa en este banco: revisar la matriz de cobertura antes de declarar suficiencia pedagógica plena.
+
+> ⚠️ **¡Foco Examen!:** En **Drive**, el permiso **Comentador** no equivale a **Editor**. En **Gmail**, **Archivar** no es **Eliminar**. En **Excel 2019**, `$A$1` fija fila y columna, pero `$A1` y `A$1` son referencias mixtas.
