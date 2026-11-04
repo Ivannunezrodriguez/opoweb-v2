@@ -22,3 +22,9 @@
 **Cierre editorial documental: 29/10/2026.** Manual desarrollado por artículos, tablas comparativas, supuestos y banco de **20 preguntas** con referencia a normativa. El BOE consolidado no incorpora por sí solo toda la reforma de **2026**. **No se ha probado el portal con navegador real.**
 
 > ⚠️ **¡Foco Examen!:** El **concurso** sigue siendo el procedimiento normal de provisión del artículo **67.2**. La reforma de **2026** amplía determinados supuestos de **libre designación** del artículo **70.2**, no los convierte a todos en puestos de libre designación.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Informe pormenorizado de 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con causa de corrección/error de cada opción, artículos de la **Ley 4/2011** y referencia expresa a **Ley 2/2026** para el nuevo supuesto del **artículo 70.2**. La reforma no figura integrada en el consolidado de 2024: se consulta directamente como disposición modificadora. El banco queda **COTEJO_BANCO_COMPLETO**, sin atribuir aprobación al manual íntegro ni pruebas de navegador o accesibilidad.
+
+> ⚠️ **¡Foco Examen!:** OEP: **3 años improrrogables** desde día siguiente a publicación (**art.19.4**). Promoción interna: **2 años** de servicio activo con situaciones asimilables (**art.65.2**). **Concurso** es la provisión ordinaria, mientras la nueva previsión de libre designación **2026** del artículo **70.2** afecta a determinados puestos estatutarios, no a todos.
