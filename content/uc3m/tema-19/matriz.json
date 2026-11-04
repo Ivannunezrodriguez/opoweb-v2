@@ -93,7 +93,26 @@
     "informe": "content/uc3m/tema-19/cotejo-integral-2026-11-04.md",
     "aprobadoPorUsuario": false,
     "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
-    "reservaFuentePrimaria": "Requiere recuperación y lectura directa del Volumen I de Normas Básicas UC3M 2026 para nomenclatura contable y procedimientos internos",
-    "certificacionIntegral": "PENDIENTE"
+    "reservaFuentePrimaria": "RESUELTA PARA NOMENCLATURA Y PROCEDIMIENTOS INSPECCIONADOS: original Volumen I UC3M 2026 arts 15.2.1 p98 y 16.2-3 pp101-102; auditoría del resto del documento aún no certificada",
+    "certificacionIntegral": "PENDIENTE",
+    "controlFuentePrimaria20261104": {
+      "estado": "VERIFICADO_EN_PDF_INSTITUCIONAL_ORIGINAL",
+      "documento": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "paginas": [
+        98,
+        101,
+        102
+      ],
+      "articulos": [
+        "15.2.1",
+        "16.2",
+        "16.3"
+      ],
+      "cuestiones": [
+        "UC3M-T19-005",
+        "UC3M-T19-006"
+      ],
+      "sinCertificacionIntegral": true
+    }
   }
 }
