@@ -75,6 +75,14 @@ Todos contribuirán al sostenimiento de los gastos públicos de acuerdo con su c
 
 La progresividad se predica del sistema en conjunto. No todos los tributos deben ser progresivos individualmente.
 
+| Inciso del **artículo 31.1 CE** | Función jurídica de la expresión | Trampa típica |
+|---|---|---|
+| **Capacidad económica** | Criterio para **contribuir** al sostenimiento de los gastos públicos | No confundirlo con los dos principios que el texto denomina expresamente «inspirado en» |
+| **Igualdad y progresividad** | Principios en los que se **inspira** el sistema tributario justo | No trasladar necesariamente progresividad a cada impuesto aislado |
+| **No confiscatoriedad** | Prohibición: el sistema **en ningún caso** tendrá alcance confiscatorio | No es una autorización para confiscar bajo un porcentaje genérico |
+
+> ⚠️ **¡Foco Examen!:** La literalidad del **art. 31.1 CE** distingue «**de acuerdo con su capacidad económica**», «**inspirado en los principios de igualdad y progresividad**» y «**que, en ningún caso, tendrá alcance confiscatorio**».
+
 ### Artículo 133 CE
 
 - La potestad originaria para establecer tributos corresponde exclusivamente al Estado mediante ley.

@@ -48,3 +48,14 @@ Fuentes primarias: [**eIDAS consolidado, arts. 25–26**](https://eur-lex.europa
 Se han corregido manual, esquema y banco de preguntas manteniendo IDs y posiciones; son **2 claves y su formulación contrastadas**, no las otras 10 preguntas ni el tema completo.
 
 > ⚠️ **¡Foco Examen!:** **Firma simple ≠ firma avanzada ≠ firma cualificada**. En los **sellos**, la presunción de origen e integridad solo está atribuida expresamente al **cualificado** por el **art. 35.2**; el sello no cualificado **no** pierde automáticamente toda eficacia jurídica.
+
+## Auditoría de unicidad de alternativa correcta — **04/11/2026**, lote LP-T13-004/009
+
+Se detectaron **dos preguntas de respuesta múltiple encubierta** pese a que el test fija una sola clave. **LP-T13-004** pedía elegir el único requisito que «no basta» para obtener un certificado cualificado: los requisitos positivos A, C y D **tampoco bastan aisladamente**. Se transformó en «¿qué afirmación es INCORRECTA?» con tres verdades legales y publicidad comercial como única falsedad.
+
+**LP-T13-009** pedía qué comprobación «no basta» para validar: verificar integridad, vigencia o cadena **tampoco es suficiente aisladamente**. Ahora pregunta qué indicio **no es una comprobación técnica** (la imagen visual de rúbrica). Se conserva la distinción entre **controles técnicos parciales** y **validación completa**. Ambas correcciones preservan IDs, claves y posiciones del banco equilibrado.
+
+**Fuentes:** [eIDAS original y reformas](https://www.boe.es/buscar/doc.php?id=DOUE-L-2014-81822), [eIDAS 2024](https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-80608) (**arts. 3, 22, 26, 28 y 32**) y [Ley 6/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046). **Estado: control focal de unicidad; las 12 preguntas no están certificadas integralmente**.
+
+> ⚠️ **¡Foco Examen!:** En preguntas con **«no basta por sí solo»**, varias medidas parciales pueden ser insuficientes: el opositor no debe verse obligado a elegir arbitrariamente una de varias respuestas válidas.
+

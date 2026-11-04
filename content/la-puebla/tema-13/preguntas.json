@@ -58,18 +58,18 @@
     },
     {
       "id": "LP-T13-004",
-      "enunciado": "Para que un certificado tenga la condición de cualificado no basta con que:",
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre los requisitos para considerar cualificado un certificado electrónico es INCORRECTA?",
       "opciones": [
-        "Lo expida un prestador cualificado",
-        "El proveedor se anuncie comercialmente como autoridad certificadora",
-        "Cumpla los requisitos del anexo aplicable de eIDAS",
-        "El servicio figure como cualificado en la lista de confianza"
+        "Los certificados cualificados deben ser expedidos por un prestador cualificado de servicios de confianza",
+        "Un prestador adquiere condición cualificada simplemente por anunciarse como «autoridad certificadora»",
+        "Los certificados cualificados deben satisfacer los requisitos del anexo aplicable de eIDAS",
+        "Los Estados miembros publican listas de confianza que identifican los servicios de confianza cualificados"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La cualificación exige prestador cualificado, cumplimiento de requisitos técnicos y jurídicos y constancia del servicio en la lista de confianza.",
-      "trampaExamen": "La denominación comercial del proveedor no otorga por sí sola condición cualificada.",
-      "referencia": "manual.md · apartado 4.3",
-      "respuestaLiteral": "El proveedor se anuncie comercialmente como autoridad certificadora"
+      "justificacion": "El art. 3 y los requisitos de prestación/certificación del Reglamento eIDAS, con el régimen de listas de confianza del art. 22, exigen condiciones jurídicas objetivas; una denominación publicitaria no acredita cualificación. Las opciones A, C y D son enunciados verdaderos de requisitos o mecanismo de identificación, pero NINGUNO de esos aspectos considerado aisladamente basta para afirmar que un certificado es cualificado. La pregunta original («no basta con que») era multirrespuesta y se ha reemplazado por una de respuesta única.",
+      "trampaExamen": "La antigua formulación «¿para qué no basta con que...?» hacía correctos varios distractores: identificar solo un requisito no es condición suficiente.",
+      "referencia": "eIDAS Reglamento (UE) 910/2014, arts. 3, 22, 28 y anexos aplicables; Ley 6/2020 · https://www.boe.es/buscar/doc.php?id=DOUE-L-2024-80608",
+      "respuestaLiteral": "Un prestador adquiere condición cualificada simplemente por anunciarse como «autoridad certificadora»"
     },
     {
       "id": "LP-T13-005",
@@ -133,18 +133,18 @@
     },
     {
       "id": "LP-T13-009",
-      "enunciado": "Para validar correctamente una firma electrónica no basta con:",
+      "enunciado": "¿Cuál de estos indicios NO constituye una comprobación técnica de la validez criptográfica de una firma electrónica?",
       "opciones": [
-        "Comprobar integridad y correspondencia con los datos firmados",
-        "Verificar la cadena de confianza y el estado de revocación",
-        "Comprobar que visualmente aparece una imagen de firma",
-        "Examinar la vigencia del certificado en el momento relevante"
+        "Verificar que la firma se corresponde con los datos firmados y que estos no han sido alterados",
+        "Verificar el estado de revocación y la cadena de confianza del certificado",
+        "Comprobar únicamente que el PDF muestra una imagen visual con aspecto de firma manuscrita",
+        "Comprobar la vigencia del certificado en el momento jurídicamente relevante"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La validación exige controles técnicos y jurídicos sobre integridad, certificado, vigencia, revocación, cadena de confianza y política de uso. Una imagen visible no acredita validez.",
-      "trampaExamen": "Una firma puede verse en el PDF y ser inválida, o ser válida sin mostrar una rúbrica gráfica.",
-      "referencia": "manual.md · apartado 8",
-      "respuestaLiteral": "Comprobar que visualmente aparece una imagen de firma"
+      "justificacion": "La comprobación visual de una rúbrica no verifica técnicamente la firma. A, B y D describen CONTROLES técnicos reales, aunque ninguno por separado es suficiente para una validación completa. La redacción anterior («para validar no basta con») podía admitir como respuesta también cualquiera de las comprobaciones técnicas aisladas.",
+      "trampaExamen": "Distinguir comprobar un elemento técnico (real, pero insuficiente de forma aislada) de una representación gráfica que no comprueba criptográficamente nada.",
+      "referencia": "eIDAS Reglamento (UE) 910/2014, arts. 26 y 32 (validación de firmas); Ley 6/2020 · https://www.boe.es/buscar/doc.php?id=DOUE-L-2014-81822",
+      "respuestaLiteral": "Comprobar únicamente que el PDF muestra una imagen visual con aspecto de firma manuscrita"
     },
     {
       "id": "LP-T13-010",
@@ -215,5 +215,16 @@
     "norma": "eIDAS consolidado, arts. 3.9–10, 3.14, 3.24, 25–26, 35–36",
     "motivo": "Se eliminaron garantías universales impropias de firma simple y sello genérico; reescritas dos alternativas correctas sin cambiar posiciones ni identificadores.",
     "alcance": "Revisión focal de 2 preguntas y manual; no recertificación integral del tema 13."
+  },
+  "controlUnicidad20261104": {
+    "fecha": "2026-11-04",
+    "preguntas": [
+      "LP-T13-004",
+      "LP-T13-009"
+    ],
+    "hallazgo": "Enunciado negativo de suficiencia admitía varias respuestas correctas entre cuatro distractores",
+    "correccion": "Redacción unívoca sobre afirmación incorrecta y comprobación meramente gráfica",
+    "evidencia": "eIDAS arts. 3, 22, 26, 28 y 32; Ley 6/2020",
+    "certificadoIntegral": false
   }
 }

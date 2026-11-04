@@ -69,3 +69,14 @@ El manual distingue las reglas estatales de organización de enseñanzas de las 
 **Fuente institucional primaria:** [UC3M, Normativa de matrícula y permanencia](https://uc3m.es/postgrado/normativa/matricula) y [UC3M, repositorio oficial de normativa de Grado](https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/ListadoNormativas/1371206706530/Estudios_de_Grado). La normativa aprobada en 2008 y modificada en 2016 y 2018 distingue en su **artículo 1**: **1.1**, 12 créditos del primer curso durante el primer año (regla general); **1.2.a**, dos años consecutivos para completar primero, tres en ingeniería; **1.2.b**, excepción de Grados Abiertos de **90 ECTS** en dos/tres años según rama; **1.3**, matrícula parcial con **al menos una asignatura superada el primer año** y cómputo de cada curso parcial como **medio curso**. El **artículo 2** mantiene cuatro convocatorias generales, seis en ingeniería.
 
 **Control de pregunta UC3M-T16-011:** opciones 6, 18, 12 y 30: en el supuesto general la única correcta sigue siendo **12**; **6** no es el umbral general, **18** corresponde a otra regla de matrícula parcial posterior y **30** a carga de matrícula parcial de primer año, no a créditos aprobados. Se delimita el enunciado para evitar que la respuesta general se aplique a los estudiantes parciales y se documentan las excepciones. **Revisión focal, no certificación integral del tema ni del banco**.
+
+## Auditoría de excepciones al sistema de evaluación — **04/11/2026**, UC3M-T16-014/015
+
+**Fuente oficial UC3M:** [Normas de evaluación de Grado](https://www.uc3m.es/grado/informacion-practica/normativa-academica/normas-evaluacion?idioma=es&site=Grado). El mínimo general de **40 %** de evaluación continua, el examen ordinario de **60 %** para quien no siguió continua y el extraordinario del **100 %** para quien no siguió continua son reglas explícitas de la página institucional. Pero la misma fuente advierte de **asignaturas especiales** que pueden no tener examen final y **no disponer de convocatoria extraordinaria**.
+
+Se delimitaron **UC3M-T16-014** y **UC3M-T16-015** a asignaturas ordinarias, aclarando la existencia de extraordinaria cuando se pregunta por el **100 %**. Se ampliaron manual, explicaciones, trampas y fuente de ambas preguntas. Mantienen sus IDs y claves originales.
+
+**Sigue pendiente:** determinar documentalmente la fecha de la resolución definitiva UC3M que fija el corte legislativo (**BOE-A-2026-14624, base 1.7**), cotejar el resto de preguntas y evaluar excepciones en normativa y guías concretas. **No se ha certificado íntegramente T16**.
+
+> ⚠️ **¡Foco Examen!:** **40 %** mínimo en continua, **60 %** máximo final ordinario, **100 %** extraordinario sin continua, **pero** no toda asignatura especial posee convocatoria extraordinaria.
+

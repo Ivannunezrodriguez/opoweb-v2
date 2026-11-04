@@ -41,6 +41,8 @@ jobs:
         run: node tests/validate-practice-exam.mjs
       - name: Verificar distribución de 260 claves UC3M
         run: node tests/validate-uc3m-answer-distribution.mjs
+      - name: Verificar literalidad, unicidad y excepciones en tres temas prioritarios
+        run: node tests/validate-priority-three-topics.mjs
       - name: Verificar reforma 2009 del cese del Defensor UC3M
         run: node tests/validate-uc3m-statutes-cese.mjs
       - name: Validar 3 simulacros UC3M 70+5 y puntuación directa

@@ -13,18 +13,18 @@
   "preguntas": [
     {
       "id": "LP-T10-001",
-      "enunciado": "Según el artículo 31.1 de la Constitución, el sistema tributario justo se inspira en los principios de:",
+      "enunciado": "Según la literalidad del artículo 31.1 de la Constitución española, ¿qué afirmación es correcta?",
       "opciones": [
-        "Proporcionalidad, eficacia, jerarquía y descentralización",
-        "Capacidad económica, igualdad, progresividad y no confiscatoriedad",
-        "Legalidad, publicidad, economía y celeridad",
-        "Igualdad, mérito, capacidad y objetividad"
+        "El sistema tributario se inspirará exclusivamente en la proporcionalidad, eficacia, jerarquía y descentralización",
+        "Todos contribuirán de acuerdo con su capacidad económica, mediante un sistema inspirado en igualdad y progresividad, que no tendrá alcance confiscatorio",
+        "La potestad tributaria depende únicamente de la publicidad, celeridad y economía administrativa",
+        "El artículo 31.1 exige que cada impuesto individual tenga un tipo progresivo y prohíbe todas las exenciones"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El artículo 31.1 CE vincula la contribución al sostenimiento de los gastos públicos con la capacidad económica y con un sistema inspirado en igualdad y progresividad, que en ningún caso tendrá alcance confiscatorio.",
-      "trampaExamen": "La progresividad se predica del sistema tributario en su conjunto, no necesariamente de cada tributo aislado.",
-      "referencia": "manual.md · apartado 3 · Artículo 31.1 CE",
-      "respuestaLiteral": "Capacidad económica, igualdad, progresividad y no confiscatoriedad"
+      "justificacion": "Literal del art. 31.1 CE: todos contribuirán según su capacidad económica; el sistema tributario justo se inspirará en igualdad y progresividad y en ningún caso tendrá alcance confiscatorio. La Constitución no exige que cada tributo aislado sea progresivo: la referencia es al sistema. La anterior formulación agrupaba capacidad económica como principio «inspirador» sin respetar la distinción verbal del precepto.",
+      "trampaExamen": "Capacidad económica = criterio de contribución; igualdad/progresividad = inspiración del sistema; no confiscatoriedad = prohibición explícita, no porcentaje.",
+      "referencia": "Constitución española, art. 31.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "respuestaLiteral": "Todos contribuirán de acuerdo con su capacidad económica, mediante un sistema inspirado en igualdad y progresividad, que no tendrá alcance confiscatorio"
     },
     {
       "id": "LP-T10-002",
@@ -212,5 +212,12 @@
     ],
     "normativa": "TRLRHL, art. 7.2, BOE-A-2004-4214",
     "alcance": "Cotejo de órgano delegante, aceptación por Pleno local delegado y doble publicación; distractores conservados y revisados para el supuesto específico; no recertificación integral."
+  },
+  "controlLiteralidadCe20261104": {
+    "fecha": "2026-11-04",
+    "pregunta": "LP-T10-001",
+    "correccion": "Contribución según capacidad económica vs inspiración del sistema en igualdad/progresividad vs prohibición de confiscación",
+    "norma": "Constitución española 31.1",
+    "certificadoIntegral": false
   }
 }

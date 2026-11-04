@@ -49,3 +49,18 @@ Fuente primaria: [TRLRHL, artículo 7.2, BOE consolidado 07/10/2026](https://www
 - **Pregunta LP-T10-002:** enunciado restringido a delegación entre entidades locales; clave «El Pleno de la corporación» conservada, justificación y trampa corregidas para separar ambos Plenos. Distractores «Alcalde», «Junta de Gobierno Local» e «Intervención municipal» no acuerdan la delegación en este supuesto.
 
 **Alcance:** revisión focal de art. 7.2 y de la pregunta indicada; las otras once claves y sus distractores no se certifican aquí de forma integral.
+
+## Revisión de literalidad — **04/11/2026**, artículo 31.1 CE y LP-T10-001
+
+**Fuente primaria:** [Constitución española consolidada, artículo 31.1](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229). La anterior pregunta decía que el sistema «se inspira en los principios de capacidad económica, igualdad, progresividad y no confiscatoriedad», simplificación que no respeta con rigor la sintaxis del precepto. Nueva pregunta de literalidad con **una única alternativa verdadera**:
+
+| Expresión | Precepto |
+|---|---|
+| «**de acuerdo con su capacidad económica**» | Criterio de contribución |
+| «**inspirado en los principios de igualdad y progresividad**» | Inspiración del sistema |
+| «**en ningún caso, tendrá alcance confiscatorio**» | Límite negativo |
+
+Se corrigieron `manual.md`, `preguntas.json`, explicación y fuente, conservando el ID **LP-T10-001** y clave B. **Revisión focal, no certificación integral del Tema 10**.
+
+> ⚠️ **¡Foco Examen!:** No convertir las **tres expresiones distintas** de **art. 31.1 CE** en una lista indiferenciada de cuatro «principios inspiradores».
+

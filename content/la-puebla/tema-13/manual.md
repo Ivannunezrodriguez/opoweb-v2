@@ -71,7 +71,9 @@ Un certificado es cualificado cuando:
 2. cumple los requisitos del anexo correspondiente de eIDAS;
 3. el servicio cualificado figura en la lista de confianza.
 
-No basta con que el proveedor se anuncie como autoridad certificadora.
+No basta con que el proveedor se anuncie como autoridad certificadora. **Las tres condiciones anteriores son cumulativas**, no alternativas: **cada una por separado es insuficiente** para afirmar que existe un certificado cualificado.
+
+> ⚠️ **¡Foco Examen!:** Preguntar «¿qué requisito no basta por sí solo?» sin acotar el supuesto produce **varias respuestas válidas**: un prestador cualificado, un anexo cumplido o la inclusión en TSL, **considerados aisladamente**, tampoco bastan. Una pregunta correcta debe pedir identificar una **afirmación falsa**, no el único «requisito insuficiente».
 
 ### 4.4 Certificado y soporte
 
@@ -151,6 +153,16 @@ Validar no consiste únicamente en comprobar que una firma “se ve bien”. Deb
 - cadena de confianza;
 - política y uso permitido;
 - sellos de tiempo y evidencias de conservación.
+
+La **imagen visible de una rúbrica** o su apariencia gráfica **no es un resultado de validación criptográfica**. Cada comprobación técnica (integridad, cadena, vigencia, estado) aporta una prueba parcial, pero **no debe afirmarse que cualquiera de ellas, aislada, sea siempre suficiente**.
+
+| Indicio o comprobación | ¿Demuestra una comprobación técnica? | ¿Es suficiente por sí solo? |
+|---|---|---|
+| **Rúbrica o imagen visible** | **No**, es solo una representación gráfica | **No** |
+| Integridad de los datos firmados | **Sí**, prueba técnica necesaria según el supuesto | No sustituye los demás controles aplicables |
+| Estado y cadena del certificado | **Sí**, verificación técnica pertinente | No sustituye integridad, identidad y políticas aplicables |
+
+> ⚠️ **¡Foco Examen!:** La trampa «¿qué comprobación NO basta por sí sola?» puede dar **varias respuestas**, porque ninguna prueba parcial garantiza toda la validación. La pregunta debe distinguir **indicio gráfico** de **verificación técnica**, sin atribuir suficiencia universal.
 
 El Real Decreto 203/2021 prevé una plataforma estatal de verificación de certificados disponible para el sector público.
 

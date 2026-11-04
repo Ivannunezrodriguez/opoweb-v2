@@ -199,7 +199,7 @@
     },
     {
       "id": "UC3M-T16-014",
-      "pregunta": "En Grado UC3M, la evaluación continua representa como mínimo:",
+      "pregunta": "En las asignaturas ordinarias de Grado UC3M sujetas al régimen general de evaluación, ¿cuál es el valor mínimo de la evaluación continua en la calificación final?",
       "opciones": [
         "20 %",
         "40 %",
@@ -207,14 +207,14 @@
         "60 %"
       ],
       "correcta": 1,
-      "justificacion": "La evaluación continua debe valer al menos el 40 %.",
-      "trampa": "El 60 % es el máximo ordinario del examen final.",
-      "referencia": "Manual, apartado 12",
+      "justificacion": "La UC3M fija, en las normas generales de evaluación de Grado, un mínimo del 40 % para la evaluación continua; el profesorado coordinador puede aumentar ese peso, no reducirlo. Se distingue de asignaturas especiales que pueden exigir evaluación continua obligatoria y carecer de examen final.",
+      "trampa": "El 40 % es mínimo general, no un porcentaje fijo de toda asignatura ni la nota del examen final. Las asignaturas especiales pueden tener un régimen propio.",
+      "referencia": "UC3M, Normas de evaluación de Grado · https://www.uc3m.es/grado/informacion-practica/normativa-academica/normas-evaluacion?idioma=es&site=Grado",
       "respuestaLiteral": "40 %"
     },
     {
       "id": "UC3M-T16-015",
-      "pregunta": "En convocatoria extraordinaria, quien no siguió evaluación continua tiene derecho a un examen con valor de:",
+      "pregunta": "En una asignatura ordinaria de Grado UC3M que dispone de convocatoria extraordinaria, si el estudiante no siguió evaluación continua, ¿qué valor tiene el examen extraordinario según la regla general?",
       "opciones": [
         "100 %",
         "40 %",
@@ -222,9 +222,9 @@
         "80 %"
       ],
       "correcta": 0,
-      "justificacion": "La normativa UC3M reconoce un examen extraordinario con valor del 100 %.",
-      "trampa": "En la ordinaria sin continua el examen vale el 60 %.",
-      "referencia": "Manual, apartado 12",
+      "justificacion": "Las normas generales de evaluación UC3M reconocen a quien no ha seguido evaluación continua derecho a un examen extraordinario con valor del 100 % de la calificación. La universidad indica también que algunas asignaturas especiales no disponen de convocatoria extraordinaria, por lo que no debe formularse la regla con alcance universal.",
+      "trampa": "El 100 % corresponde a convocatoria extraordinaria sin evaluación continua y CON examen extraordinario aplicable; no extrapolar a asignaturas especiales sin convocatoria.",
+      "referencia": "UC3M, Normas de evaluación de Grado · https://www.uc3m.es/grado/informacion-practica/normativa-academica/normas-evaluacion?idioma=es&site=Grado",
       "respuestaLiteral": "100 %"
     },
     {
@@ -321,5 +321,15 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlRegimenEvaluacion20261104": {
+    "fecha": "2026-11-04",
+    "preguntas": [
+      "UC3M-T16-014",
+      "UC3M-T16-015"
+    ],
+    "fuente": "https://www.uc3m.es/grado/informacion-practica/normativa-academica/normas-evaluacion?idioma=es&site=Grado",
+    "precaucion": "Asignaturas especiales pueden carecer de examen final o convocatoria extraordinaria",
+    "certificadoIntegral": false
   }
 }

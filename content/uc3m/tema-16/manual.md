@@ -129,6 +129,17 @@ Reglas generales publicadas por la UC3M para Grado:
 - si no se siguió la evaluación continua, existe derecho a un examen con valor del **100 %** en la convocatoria extraordinaria;
 - determinadas asignaturas especiales pueden exigir evaluación continua, carecer de examen final o no disponer de convocatoria extraordinaria cuando así esté previsto.
 
+| Supuesto en Grado UC3M | Evaluación continua | Examen o convocatoria | Salvedad |
+|---|---|---|---|
+| **Asignatura ordinaria** | **Mínimo 40 %** de la calificación | Final ordinario **máximo 60 %** | El coordinador puede elevar el peso de continua, no rebajarlo |
+| **Sin seguimiento de evaluación continua** | No se computa continua | Final ordinario con valor **60 %** | Siempre según reglas generales aplicables de evaluación |
+| **Extraordinaria, sin seguimiento de continua** | No se computa continua | Derecho a examen con valor **100 %** | Donde exista convocatoria extraordinaria conforme a las reglas aplicables |
+| **Asignatura especial** | Puede exigir seguimiento obligatorio | Puede carecer de examen final y **de extraordinaria** | No aplicar indiscriminadamente las reglas anteriores |
+
+**Fuente institucional:** [Normas de evaluación UC3M para Grado](https://www.uc3m.es/grado/informacion-practica/normativa-academica/normas-evaluacion?idioma=es&site=Grado).
+
+> ⚠️ **¡Foco Examen!:** **40 %** y **100 %** describen reglas generales del régimen ordinario; hay **asignaturas especiales** sin final o sin convocatoria extraordinaria. Preguntas redactadas «en toda asignatura» serían erróneas.
+
 Los criterios y porcentajes deben publicarse antes del inicio del curso y no pueden alterarse de forma improvisada una vez comenzada la docencia.
 
 ## 13. Revisión, actas y calificaciones
