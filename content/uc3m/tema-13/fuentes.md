@@ -30,3 +30,9 @@ Las materias relativas al estudiantado, régimen económico-financiero, personal
 - Revisión jurídica realizada: 23 de julio de 2026.
 - Se ha utilizado el texto consolidado oficial disponible en el BOE.
 - Estado editorial: `EN_REVISION_USUARIO`.
+
+## Cotejo exhaustivo del banco · 04/11/2026
+
+[**Informe individual de 12 preguntas y 48 alternativas literales**](cotejo-integral-2026-11-04.md): fundamentos jurídicos, descarte de cada respuesta errónea y foco de examen. **Estado del banco: COTEJO_BANCO_COMPLETO**, **no aprobación de usuario**. La fecha normativa de corte de las bases UC3M sigue pendiente de corroborar mediante publicación primaria de la resolución de listas definitivas y anuncio de prueba. Las pruebas funcionales en navegador y accesibilidad se mantienen **pendientes**.
+
+> ⚠️ **¡Foco Examen!:** **LOSU arts. 4–5**: ley de creación o reconocimiento, informe preceptivo y autorización posterior son **actos distintos**; la calidad es responsabilidad **compartida**.
