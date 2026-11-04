@@ -27,3 +27,9 @@ El manual se ajusta al epígrafe oficial de la convocatoria y prioriza conceptos
 - [**Ley 31/1995 art. 14**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14): el coste preventivo **nunca puede recaer** en trabajadores.
 
 > ⚠️ **¡Foco Examen!:** El **Comité de Seguridad y Salud** comienza en **50 personas**; el número de **Delegados de Prevención** depende de otra **escala**. Son respuestas distintas a preguntas diferentes.
+
+## Cotejo de las 48 alternativas del banco · 04/11/2026
+
+[**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
+
+> ⚠️ **¡Foco Examen!:** **Comité de Seguridad y Salud** desde **50 personas**; los **Delegados de Prevención** siguen escala del **art. 35** y la Administración Pública presenta particularidades.
