@@ -233,3 +233,9 @@ El reingreso de quienes no tienen reserva de puesto se efectúa mediante los pro
 - La renuncia exige aceptación expresa.
 - La excedencia por interés particular no computa, con carácter general, a efectos de trienios y carrera.
 - La suspensión firme superior a seis meses implica pérdida del puesto.
+
+## Cotejo de las 48 alternativas del banco · 04/11/2026
+
+[**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
+
+> ⚠️ **¡Foco Examen!:** **TREBEP art. 64.2**: la prohibición de aceptar renuncia cuando existe auto de procesamiento o apertura de juicio oral se refiere a **algún delito**, no solo a delitos funcionales.
