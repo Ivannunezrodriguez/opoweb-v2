@@ -1667,3 +1667,59 @@ Cada uno de los tres informes preserva la **literalidad de sus 80 opciones**, la
 **42/121** temas con cotejo individual del banco: **La Puebla 19/19**, **UC3M 20/20**, **Diputación Toledo C2 3/20**; **548 preguntas y 2.192 alternativas**. El porcentaje de **temas con banco documentado** es aproximadamente **34,7 %**, **NO** porcentaje de certificación jurídico-funcional real de la web. **0/121** tienen todas las capas acreditadas.
 
 **Siguiente lote:** **Diputación Toledo C2 T04 y T05**, y después **T07** y siguientes, manteniendo **T06** al final. Pendientes transversales: fecha de corte UC3M y navegador/accesibilidad reales.
+
+
+## 60. Diputación Toledo C2 · T04 y T05 (160 alternativas cotejadas) — **04/11/2026**
+
+### 60.1. Temas auditados con evidencia individual
+
+- [**T04 — Revisión de oficio y recursos administrativos**](content/diputacion-toledo-auxiliar-c2/tema-04/cotejo-integral-2026-11-04.md): **20 preguntas, 80 alternativas A–D** cotejadas con [**Ley 39/2015, Título V, arts. 106–126**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Concretados plazos, órgano de alzada, reposición, recurso extraordinario y diferenciación entre declaración de **nulidad/lesividad**; la declaración de **lesividad local** corresponde al **Pleno de la Corporación o órgano colegiado superior** según **artículo 107.5**. No se han modificado las claves existentes, distribución **A4/B5/C6/D5**.
+- [**T05 — Municipio, provincia, Diputación y elecciones locales**](content/diputacion-toledo-auxiliar-c2/tema-05/cotejo-integral-2026-11-04.md): **20 preguntas y 80 alternativas** revisadas según [**CE arts. 137, 140–141**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [**LRBRL, última actualización 03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) y [**LOREG, última actualización 02/07/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672). Distribución de claves **A5/B6/C5/D4**. Fuente local anteriormente incorporada: [**Reglamento de Organización Administrativa de la Diputación de Toledo, BOP 14/02/2024**](https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf).
+
+### 60.2. Tabla legal de conceptos confundibles
+
+| Materia | Regla concreta | Precepto |
+|---|---|---|
+| Recurso de **alzada** | **1 mes** para interponer acto expreso; **3 meses** para resolver | **Ley 39/2015 arts. 121–122** |
+| **Reposición potestativa** | **1 mes** para interponer expreso; **1 mes** para resolver; no hay **reposición de reposición** | **Arts. 123–124** |
+| **Extraordinario de revisión** | **4 años** por error de hecho, **3 meses** por otras causas; resolución en **3 meses** | **Arts. 125–126** |
+| **Revisión de oficio de acto nulo** | Iniciable **en cualquier momento**; exige dictamen consultivo **favorable**; **6 meses**: caducidad si **de oficio**, desestimación por silencio si **a instancia** | **Art. 106** |
+| **Lesividad** de acto favorable anulable | Declarar antes de **4 años** desde acto; procedimiento caduca a **6 meses**. En entidad local decide **Pleno** | **Art. 107** |
+| Junta de Gobierno **municipal** | Obligatoria en municipios de **más de 5.000** habitantes; otros supuestos art. 20.1.b | **LRBRL art. 20** |
+| **Comisión Especial de Cuentas** | Presente en **todos** los municipios | **LRBRL art. 20.1.e** |
+| Diputación: elección del **Presidente** | **Mayoría absoluta** en primera votación y **simple** en segunda | **LOREG art. 207.2** |
+| Diputación: **Junta de Gobierno** | **Presidente y hasta un tercio** del número legal de diputados | **LRBRL art. 35.1** |
+| Diputados provinciales si residentes **500.001–1.000.000** | **27 diputados** | **LOREG art. 204** |
+| **Concejales** | Mandato **4 años** | **LOREG art. 194** |
+
+> ⚠️ **¡Foco Examen!:** **Lesividad: cuatro años desde acto** (límite para declarar) frente a **seis meses desde inicio** (duración máxima del expediente). **Junta de Gobierno Local >5.000**, pero **Comisión Especial de Cuentas todos**. Diputación: **27** diputados no significa **27** miembros de la Junta.
+
+### 60.3. Laguna detectada y reparada en el manual T05: **LOREG art. 206.1, LO 2/2024**
+
+En la auditoría del **tema 5** se identificó una **omisión jurídica relevante**: el apartado sobre elección indirecta de diputados provinciales no desarrollaba los requisitos **2024** de **paridad de listas** y convocatoria. Se ha corregido **directamente en el manual y en fuentes** con [**LO 2/2024, de 1 de agosto**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936) y [**LOREG art. 206.1 consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672#a206).
+
+| Requisito para elegir **diputados provinciales** | Norma aplicable |
+|---|---|
+| Convocatoria de **concejales** con puestos atribuidos | **Junta Electoral**, por separado, dentro de **5 días siguientes** |
+| Aval de las listas de candidatos | **Al menos un tercio** de los concejales correspondientes |
+| Elección de suplentes | **Tres suplentes**, para vacantes |
+| Composición de listas | Cada sexo entre **40 % y 60 %**, con **orden alternativo** |
+| Fecha de vigencia de la reforma de **art. 206.1** | **22/08/2024** |
+
+Esta información se ha añadido a los [**apartados de elección provincial del manual**](content/diputacion-toledo-auxiliar-c2/tema-05/manual.md) y [**fuentes**](content/diputacion-toledo-auxiliar-c2/tema-05/fuentes.md). El banco existente de **20 preguntas** no contiene aún una pregunta autónoma sobre paridad, circunstancia consignada como **laguna pedagógica parcial del cuestionario**, aunque **sí aparece en el manual completo**.
+
+También se ha subsanado un estado editorial **contradictorio** en T05: el apartado temprano aún decía que había pendiente una tabla de **periodicidad, convocatoria y quórum**, pese a que ya constaba desarrollada en un apartado posterior. Ahora remite al contenido existente y distingue la **revisión documental** de la certificación funcional no realizada.
+
+> ⚠️ **¡Foco Examen!:** **1/3 de avales de concejales** (**LOREG 206**) ≠ **1/3 de diputados como máximo en Junta provincial**, excluyendo a su **Presidente** (**LRBRL 35**).
+
+### 60.4. Pruebas, estados y métricas verificables
+
+- Creados informes exhaustivos de **40 preguntas / 160 alternativas literales**, con fundamento y explicación de cada distractor para **T04 y T05**.
+- **Manual.md**, **fuentes.md** y **matriz.json** de ambos temas enlazan la revisión; matrices incorporan `controlIntegralBanco20261104` con **`COTEJO_BANCO_COMPLETO`**, **`aprobadoPorUsuario:false`** y **`certificacionWeb:PENDIENTE_PRUEBA_NAVEGADOR_REAL`**. No se ha declarado aprobación integral ficticia.
+- Nueva [**`tests/validate-diputacion-c2-t4-t5-integral.mjs`**](tests/validate-diputacion-c2-t4-t5-integral.mjs) que valida las **160 opciones exactas, claves, fundamentaciones, enlaces** y protege los datos de **LOREG 206.1**. Incluida en **`npm test`** y [.github/workflows/validate.yml](.github/workflows/validate.yml).
+- **Primera validación CI del test integrado**, run [**41927043606 — SUCCESS**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41927043606), SHA **`c414dd55cc5d5e47f87468d197a1f992e5d41b83`**. Hubo ajuste posterior de un control de formato y el nuevo commit **`5884c074f6588c44ea30b5aa7519b793a77c798c`** estaba **en ejecución** en la última observación; no atribuirle éxito hasta comprobarlo.
+- **Pruebas reales de navegador, móvil y accesibilidad**: pendientes. **Aprobación editorial integral del usuario:** pendiente. No convertir el cotejo de cuestionarios en un **100 % de la web**.
+
+**Cobertura acumulada de bancos individualmente cotejados:** **44/121 temas**: **La Puebla 19/19**, **UC3M 20/20**, **Diputación Toledo C2 5/20**. **588 preguntas / 2.352 alternativas**. Equivale a **36,4 % de los temas con cotejo de banco**, no a certificación funcional/jurídica global, que sigue **0/121 con todas las capas acreditadas**.
+
+**Siguiente prioridad:** **Diputación C2 T07–T09**, sin alterar el acuerdo de que **T06 (Acuerdo Regulador y Estatutos OAPGT)** queda al final de esta secuencia. Las otras convocatorias pendientes y la verificación de corte normativo **UC3M** siguen pendientes de sus propios controles.
