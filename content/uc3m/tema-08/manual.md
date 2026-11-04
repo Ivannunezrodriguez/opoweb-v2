@@ -102,7 +102,7 @@ La activación del protocolo interno no impide acudir a las vías administrativa
 
 ## 12. III Plan de Igualdad de la UC3M
 
-El III Plan de Igualdad de la Universidad Carlos III de Madrid fue aprobado por el Consejo de Gobierno el 27 de enero de 2025 y está vigente desde el 1 de febrero de 2025 para el periodo 2025-2029.
+El III Plan de Igualdad de la Universidad Carlos III de Madrid fue aprobado por el **Consejo de Gobierno el 27 de enero de 2025**. Su vigencia exacta es del **1 de febrero de 2025 al 31 de enero de 2029**, según la [página institucional del Plan](https://www.uc3m.es/igualdad/plan-igualdad). La Universidad identifica **6 ejes estratégicos y 138 medidas**; el Plan se dirige al **personal PDI y PTGAS** y se complementa con las medidas de igualdad del estudiantado.
 
 Fue negociado con la representación legal de las personas trabajadoras e inscrito en el registro correspondiente. Su aplicación se somete a seguimiento mediante una Comisión de Seguimiento presidida por el vicerrectorado competente en igualdad.
 
@@ -118,7 +118,20 @@ El Plan parte de un diagnóstico y organiza medidas evaluables sobre materias co
 - prevención del acoso sexual y por razón de sexo;
 - cultura institucional, docencia, investigación y comunicación con perspectiva de género.
 
-Para el examen deben recordarse su periodo de vigencia, su carácter evaluable, la existencia de indicadores y la Comisión de Seguimiento.
+Para el examen deben recordarse su **periodo exacto de vigencia**, sus **6 ejes**, sus **138 medidas**, su carácter evaluable, sus indicadores y la **Comisión de Seguimiento**.
+
+| Referencia UC3M | Dato exacto |
+|---|---|
+| Aprobación del III Plan | **Consejo de Gobierno, 27/01/2025** |
+| Inicio de vigencia | **01/02/2025** |
+| Fin de vigencia | **31/01/2029** |
+| Estructura | **6 ejes estratégicos y 138 medidas** |
+| Ámbito de personal | **Personal Docente e Investigador (PDI)** y **Personal Técnico, de Gestión y de Administración y Servicios (PTGAS)** |
+| Protocolo de acoso vigente en el epígrafe | **II Protocolo**, aprobado por el **Consejo de Gobierno el 14/11/2019** |
+
+> ⚠️ **¡Foco Examen!:** **Aprobación el 27/01/2025** NO significa vigencia desde ese día: comienza el **01/02/2025** y termina el **31/01/2029**. El III Plan dirigido al personal no debe confundirse con las **medidas del Plan de Igualdad del Estudiantado**.
+
+Fuentes primarias: [III Plan de Igualdad en UC3M](https://www.uc3m.es/igualdad/plan-igualdad) y [catálogo oficial de normativa de igualdad](https://www.uc3m.es/ss/Satellite/UC3MInstitucional/es/ListadoNormativas/1371229470216/Igualdad).
 
 ## 13. Lenguaje e imagen inclusivos
 
