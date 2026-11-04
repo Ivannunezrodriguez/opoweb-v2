@@ -787,3 +787,36 @@ Nuevo archivo de comprobación **tests/validate-la-puebla-normativa-focal.mjs** 
 **Prioridad a partir de §33:** La Puebla (14/11) T12 IBI/IAE/IVTM/IIVTNU para nuevas comprobaciones y T10/T13 para preguntas, UC3M (21/11) T15–16 y fecha corte normativo, Diputación C1/C2 tributación y empleo, Olías mantenimiento y temas locales; tema OAPGT C2 al final. No reabrir Carranque ni Las Ventas. Mantener vigilancia del Radar y detectar fallos de notificación.
 
 > ⚠️ **¡Foco Examen!:** **LGT 62.2**: plazos voluntarios hasta día **20 siguiente / 5 segundo siguiente**, **62.5**: apremio hasta **20 mismo mes / 5 siguiente**. **eIDAS 25.1** no descarta eficacia de firma no cualificada por su condición; **25.2** equipara expresamente **firma cualificada** a manuscrita.
+
+## 34. La Puebla T12 IIVTNU: precisión de supuestos tasados y cobertura de los cinco programas — **04/11/2026**
+
+### 34.1. Correcciones jurídicas verificables en el Tema 12 (examen **14/11/2026**)
+
+**Fuente oficial primaria revisada:** [TRLRHL consolidado, arts. 104.3–5, 105.1.c y 106.1–2](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a104), a fecha **04/11/2026**. Revisión **focal** del IIVTNU; **no** recertificación de los cinco capítulos ni de las 12 preguntas.
+
+- **Artículo 104.3:** se reemplazó una expresión vaga sobre «fallecimiento protegido» por la regla tasada de transmisión lucrativa en beneficio de hijos, menores o personas con discapacidad en el caso de **mujer fallecida como consecuencia de violencia contra la mujer**, en los términos de la reforma de **LO 2/2022**; se añadió comparativa de **donación ordinaria vs. supuestos conyugales y fallecimiento específico**. No confundir parentesco con no sujeción automática.
+- **Artículo 104.4:** se precisaron supuestos de **SAREB** a entidades participadas directa o indirectamente en al menos **50 %** y determinadas operaciones de fondos; la transmisión posterior no interrumpe el período de generación en los términos legales. No generalizar a entidades financieras.
+- **Artículo 104.5:** ampliadas las condiciones probatorias: **declarar y aportar títulos**, mayor valor entre el declarado/documentado y comprobado en adquisición y transmisión, **sin gastos ni tributos**, proporción de terreno del Catastro; regla de cómputo para la transmisión posterior a una operación no sujeta por inexistencia de incremento, con las excepciones expresas.
+- **Artículo 105.1.c:** se explicitó que la **dación en pago/ejecución hipotecaria** de vivienda habitual es supuesto de **exención**, con otros requisitos y empadronamiento ininterrumpido de **al menos dos años**, o desde adquisición más reciente.
+- **Artículo 106.2:** la **sustitución del contribuyente por el adquirente** requiere transmisión **onerosa** y contribuyente **persona física no residente en España**; no equiparar todas las compraventas extranjeras ni llamarle contribuyente. Se añadió tabla y aviso de test.
+
+**Archivos editados:** `content/la-puebla/tema-12/bloque-05a-iivtnu-hecho.md`, `bloque-05b-iivtnu-sujetos.md`, `articulos.md`, `fuentes.md` y `matriz.json`. Se amplió **`tests/validate-la-puebla-normativa-focal.mjs`**, sin alterar el banco de **12 preguntas** ni sus IDs o claves. Commits de contenido y pruebas: `3a92a2e4`, `9176e10b`, `12bd7a29`, `0c4ca3ab`, `a334917b` y `e6481eb5`. Validación [**CI 41840561139**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41840561139) y [**Pages 41840560117**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41840560117) **SUCCESS** para el último commit de pruebas jurídicas `e6481eb5`. No acreditar con ello corrección legal integral.
+
+### 34.2. Incongruencia de cobertura estructural y reparación
+
+**Hallazgo:** `tests/validate-all-programmes.mjs` validaba solo **99 temas de 4 programas**; no incluía los **22 temas de Olías** aunque constaban publicados en el selector y disponían de validador propio. El paso de CI también mostraba «99 temas». `package.json` reservaba `npm run test:all` para una selección menor de pruebas; no coincidía con la batería amplia de CI. `README.md` seguía afirmando **4 programas / 99 temas**, una instantánea superada.
+
+**Cambios realizados:**
+1. **Validador general ahora verifica 5 programas y 121 temas** con manual, banco, claves, justificación y referencia; imprime `VALIDACION_ESTRUCTURAL_121_TEMAS_OK` y recuerda que es verificación **estructural**, no jurídica.
+2. Etiqueta de `.github/workflows/validate.yml` actualizada; `npm run test:all` ampliado a controles de cinco programas, La Puebla focal, navegación y Radar en Node. Los pasos Python y chequeos de sintaxis siguen ejecutándose en CI; no declarar pruebas completas en Windows sin ejecutarlas allí.
+3. `README.md` actualizado a **121 temas**, **5 programas**, Olías y **260 preguntas UC3M**; mantiene advertencia de ausencia de certificación integral y de discrepancias abiertas en Olías.
+
+Commits: `de98efe3` (validador), `39c37fc4` (etiqueta de CI), `995b9a45` (scripts) y `4a7348a4` (README). La [**CI 41840778134**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41840778134) del commit `995b9a45` concluyó **SUCCESS** con el validador de **121 temas**; **Pages de 995b9a45** y la CI/Pages de `4a7348a4` continuaban pendientes/en curso en el momento del control, y **no se presentan como finalizadas**.
+
+### 34.3. Estado y próxima tarea
+
+El avance de estas correcciones **no modifica** el indicador de §33: **121/121 temas registrados**, **120/121 fuera de BORRADOR**, **0/121 con recertificación jurídica integral nueva y documentada de noviembre**. Las seis ampliaciones documentadas aquí son **parciales**, pero reales, con fuentes, diffs, controles y commits. Un test verde no equivale a verificación visual, exactitud de cada distractor ni manual completo.
+
+**Siguiente trabajo sin reabrir lo ya hecho:** La Puebla T12 resto de artículos y **banco de preguntas** contrastado de forma integral, luego T10/T13 para el examen del **14/11**; UC3M T15/T16 y fecha oficial de corte (examen **21/11**); Diputación C1/C2 y Olías técnica/local. **C2 OAPGT T6 al final**, y **no reabrir Carranque ni Las Ventas**. Revisar resultado de CI y Pages del último commit antes de declararlo desplegado. El objetivo sigue siendo terminar la auditoría integral de las cinco convocatorias, **sin asignar 100 % a los trabajos no contrastados**.
+
+> ⚠️ **¡Foco Examen!:** **104.3** no sujeción familiar tasada; **104.5** inexistencia de incremento con prueba; **105** exención; **106.2** sustituto solo para **adquirente en onerosa con transmitente persona física no residente**. **121 archivos de temario no son 121 certificaciones jurídicas**.
