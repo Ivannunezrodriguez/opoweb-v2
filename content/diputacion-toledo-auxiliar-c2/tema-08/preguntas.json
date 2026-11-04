@@ -146,17 +146,17 @@
     },
     {
       "id": "DT-C2-T08-011",
-      "enunciado": "¿Cuántos Delegados de Prevención corresponden generalmente a una empresa de 50 a 100 trabajadores?",
+      "enunciado": "En una empresa de **31 a 49 trabajadores**, ¿cómo se designa al Delegado de Prevención conforme al art. 35.2 LPRL?",
       "opciones": [
-        "Uno",
-        "Dos",
-        "Cuatro",
-        "Seis"
+        "Se nombran dos Delegados de Prevención por sorteo",
+        "Se elige uno por y entre los Delegados de Personal",
+        "Lo designa directamente la Inspección de Trabajo",
+        "Es siempre el Secretario del Comité de Seguridad y Salud"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La escala del artículo 35.2 establece dos delegados de 50 a 100 trabajadores.",
-      "trampaExamen": "La cifra cambia al alcanzar 101.",
-      "referencia": "LPRL 35.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+      "justificacion": "En empresas de 31 a 49 trabajadores existe un Delegado de Prevención elegido por y entre los Delegados de Personal (art. 35.2 LPRL).",
+      "trampaExamen": "No confundir **hasta 30** (el Delegado de Prevención será el Delegado de Personal), **31–49** (uno elegido por y entre Delegados de Personal) y **50–100** (dos).",
+      "referencia": "LPRL art. 35.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35"
     },
     {
       "id": "DT-C2-T08-012",
@@ -188,17 +188,17 @@
     },
     {
       "id": "DT-C2-T08-014",
-      "enunciado": "¿A partir de qué plantilla se constituye el Comité de Seguridad y Salud?",
+      "enunciado": "¿En qué plazo deben elaborar los Delegados de Prevención su informe sobre una consulta del art. 33, salvo el supuesto de prevención de riesgos inminentes?",
       "opciones": [
-        "50 trabajadores",
-        "20 trabajadores",
-        "100 trabajadores",
-        "500 trabajadores"
+        "15 días",
+        "Un mes",
+        "3 días hábiles",
+        "24 horas"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Artículo 38: se constituye en centros o empresas con 50 o más trabajadores.",
-      "trampaExamen": "En **50 o más**, existe comité.",
-      "referencia": "LPRL 38.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292"
+      "justificacion": "El art. 36.3 LPRL fija **15 días**, o el tiempo imprescindible cuando se trate de adoptar medidas dirigidas a prevenir riesgos inminentes; sin informe en plazo, la empresa puede aplicar su decisión.",
+      "trampaExamen": "**15 días** es la regla general, pero en riesgos inminentes se usa **el tiempo imprescindible** y no un plazo fijo de 24 horas.",
+      "referencia": "LPRL art. 36.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a36"
     },
     {
       "id": "DT-C2-T08-015",
@@ -303,5 +303,17 @@
     ],
     "resultado": "Se contrastaron las seis preguntas; dos se sustituyeron para incorporar servicios de prevención y número de delegados; se detallaron paridad y reuniones trimestrales en la justificación de comité.",
     "limitacion": "Cotejo del banco de seis preguntas; no constituye auditoría integral del manual del tema 8."
+  },
+  "auditoriaDuplicidades20261104": {
+    "fecha": "2026-11-04",
+    "preguntasSustituidas": [
+      "DT-C2-T08-011",
+      "DT-C2-T08-014"
+    ],
+    "motivo": "El banco repetía las reglas de 50/100 trabajadores del Comité y Delegados ya cubiertas en T08-005 y T08-006. Se introducen las distinciones de 31-49 y plazo de informe de 15 días con excepción de riesgo inminente.",
+    "fuentes": [
+      "Ley 31/1995 arts. 35.2 y 36.3"
+    ],
+    "estado": "COTEJO_FOCAL_NO_INTEGRAL"
   }
 }
