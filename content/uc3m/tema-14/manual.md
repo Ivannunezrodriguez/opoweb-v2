@@ -39,7 +39,7 @@ La representación estudiantil debe ser real y compatible con el progreso acadé
 
 Estas cifras son **mínimos o porcentajes de composición establecidos por la LOSU**; no deben confundirse con las mayorías para adoptar acuerdos. La composición concreta se desarrolla en los Estatutos y dentro del marco de la ley.
 
-> ⚠️ **¡Foco Examen!:** Estudiantado: **25 % mínimo en el Claustro** frente a **10 % mínimo en el Consejo de Gobierno**. El **51 %** del Claustro corresponde al conjunto docente señalado por el **artículo 45.2**, no a estudiantes. El **tercio del Consejo de Gobierno** elegido por el Rector **incluye a los miembros natos**.
+> ⚠️ **¡Foco Examen!:** Estudiantado: **25 % mínimo en el Claustro** frente a **10 % mínimo en el Consejo de Gobierno**. El **51 %** del Claustro corresponde al conjunto docente señalado por el **artículo 45.3**, no a estudiantes. El **tercio del Consejo de Gobierno** elegido por el Rector **incluye a los miembros natos**.
 
 Las universidades deben promover políticas de salud, bienestar emocional, prevención del acoso, convivencia, inclusión y atención a la discapacidad.
 
