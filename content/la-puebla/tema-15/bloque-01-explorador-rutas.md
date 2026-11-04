@@ -30,7 +30,7 @@ Muestra accesos como:
 
 Indica la ruta actual mediante segmentos navegables. Puede recibir una ruta escrita directamente, por ejemplo:
 
-- `C:\Usuarios\Ana\Documentos`
+- `C:\Users\Ana\Documents`
 - `\\servidor\archivo`
 - `Z:\Expedientes`
 
