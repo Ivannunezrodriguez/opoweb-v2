@@ -640,3 +640,30 @@ Se incorpora **data/programa-olias-auxiliar-edificios-2026.json**, con **22 epí
 **Prioridades de estudio concurrentes:** La Puebla examen **14/11**, UC3M **21/11**. Mantener el trabajo urgente en curso; continuar Olías en tandas sin desplazar los exámenes inmediatos. **Siguiente generación Olías:** temas **2–5 generales** por reutilización auditada y específicos **2, 3, 5, 8, 12** por relevancia de recepción, accesos, municipio y fontanería, y test psicotécnico de formato **20 preguntas** con corrección proporcional. Confirmar con Ayuntamiento la **fechas del plazo** y la discrepancia de **4/1 plazas** antes de inscribirse. **Diputación C2**, OAPGT tema 6 al final según decisión registrada.
 
 > ⚠️ **¡Foco Examen!:** **4 plazas del BOE**, pero **1 en fragmentos del BOP**; **20 días hábiles del BOE** frente a **20 naturales del BOP**. Las diferencias están documentadas y **no resueltas legalmente**; no convertir cálculos orientativos en plazo confirmado.
+
+## 29. Olías del Rey — primera redacción completa, pruebas separadas y trabajo pendiente — **04/11/2026**
+
+### 29.1 Contenido disponible ≠ temario auditado
+
+**Base literal:** BOP Toledo **204**, 23/10/2026, anuncio **2026/4833**, anexo II, CSV **2026.00004833**; **BOE-A-2026-22826** (31/10/2026). **Olías Auxiliar edificios C2** consta de **22 temas oficiales**, **5 generales y 17 específicos**.
+
+- Se terminó una **primera redacción de los 22 manuales**, con **22 matrices JSON, 22 documentos de fuentes y 230 preguntas** enlazadas a temas en `content/olias-auxiliar-edificios/tema-01` ... `tema-22`. Todos constan como **EN_AUDITORIA** y **ninguno** como `AUDITADO`. El recuento **22/22 disponibles no significa 22/22 jurídico-editorialmente completos**.
+- Se integró la convocatoria en el selector general y en `practice.html`, con **22 test por tema**, **2 supuestos prácticos propios**, **40 ejercicios psicotécnicos originales** distribuidos en cuatro ámbitos y **2 simulacros completos de entrenamiento**: **50 preguntas del programa + 20 psicotécnicas cada uno**, respetando la estructura de las bases. Las preguntas son **de OpoWeb, no oficiales del tribunal**.
+- Se diversificó el reparto de opciones correctas en los **230** bancos, manteniendo **texto de opción correcta, justificación, referencia y enunciado**. Los modelos extraen identificadores de preguntas desde los bancos del temario.
+- El simulador `assets/practice.js` distingue **dos notas independientes**: **teoría (50 preguntas: A − E/3, sobre 50)** y **psicotécnica (20: 2,5 × (A − E/3), sobre 50)**, indicando si **ambos mínimos de entrenamiento son al menos 25**, no un aprobado del examen oficial. Se guardan ambas calificaciones por intento. **No se inventa tiempo oficial**: las bases dejan la duración a decisión del Tribunal.
+
+### 29.2 Controles técnicos reproducibles
+
+- `tests/validate-olias-programme.mjs` exige **22 temas, 22 manuales, 22 matrices/fuentes y 230 preguntas**; comprueba formato y estados.
+- `tests/validate-olias-practice.mjs` valida **clave correcta válida y distribución**, **40 psicotécnicos**, **dos modelos de 70 preguntas**, presencia de los 50 IDs teóricos, y prueba la **función real de corrección** de `assets/practice.js` con: 50+20 aciertos; mínimos exactos 25/50 en ambas; caso de teoría suspendida aun con psicotécnico aprobado.
+- El nuevo control de prácticas se añadió a `.github/workflows/validate.yml`. [CI GitHub Actions 41826466676](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/41826466676) concluyó **SUCCESS** para los dos controles de Olías y para las comprobaciones anteriores. **No extrapolar el CI a exactitud jurídica, didáctica integral o comprobación visual móvil**.
+
+### 29.3 Materia por auditar y prioridades
+
+**Pendiente jurídico y editorial:** cotejar exhaustivamente definiciones, fechas de vigencia, órganos, excepciones, actualizaciones técnicas de RITE, REBT, RD 1311/2012, normativa de riesgos y derechos del personal; mejorar cobertura profunda de materias municipales y **callejero completo**, listado nominal de competencias locales y ordenanzas en sus textos consolidados; revisar distractores de **270 preguntas** (230 temario + 40 psicotécnicos); hacer ensayos de interfaz de móvil. Las páginas de municipio (temas web **5** y **13**) incluyen **solo datos atribuidos a fuentes oficiales enlazadas** y declaran las lagunas; no afirmar inventario exhaustivo de calles o delegaciones.
+
+**Pendiente administrativo personal prioritario:** solicitud de la plaza C2. **BOP p. 55** dice **20 días naturales**, **BOE 31/10** dice **20 días hábiles**; se mantiene **fecha prudente de registro antes del 20/11/2026** y discrepancia abierta. **Cuatro** plazas según encabezado y BOE frente a referencias a **una** en BOP §§1.1/Anexo I. El usuario indicó que planea presentar su solicitud la semana del **09/11/2026**. Debe usar **Anexo I C2, p. 58**, **10 €**, permiso B y certificado sexual negativo; **no se ha presentado ninguna solicitud por él**.
+
+**Reanudación siguiente:** **auditoría jurídica profunda de los 22 temas ya redactados**, empezando por los de más riesgo de error: **1–4 generales, 5 y 13 datos municipales, 15 electricidad, 18 calefacción, 20 fitosanitarios, 17 fontanería**, y perfeccionar preguntas/simulacros sin perder su referencia oficial. Conservar prioridad paralela de **La Puebla 14/11** y **UC3M 21/11**, cuyos exámenes son más próximos; después **Diputación C2** con **OAPGT T6** al final. El siguiente trabajo no es generar otra vez los 22 temas sino **auditar, ampliar y depurar** los existentes.
+
+> ⚠️ **¡Foco Examen!:** La nota **25/50 de teoría** no compensa una nota inferior a **25/50 de psicotécnico**, ni viceversa; se debe superar **cada una de las dos pruebas obligatorias y eliminatorias**.
