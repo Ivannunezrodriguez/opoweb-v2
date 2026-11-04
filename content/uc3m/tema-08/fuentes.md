@@ -29,3 +29,11 @@
 ## Criterio editorial
 
 El manual resume únicamente el contenido relacionado con el epígrafe oficial. Para resolver dudas interpretativas o comprobar modificaciones debe consultarse siempre la versión vigente de las normas y documentos institucionales.
+## Contraste institucional del 04/11/2026
+
+- [**UC3M III Plan de Igualdad**](https://www.uc3m.es/igualdad/plan-igualdad): aprobado por el **Consejo de Gobierno el 27/01/2025**, vigencia exacta **01/02/2025–31/01/2029**, **6 ejes y 138 medidas**. Dirigido al **PDI y PTGAS**, con medidas de igualdad del estudiantado tratadas separadamente.
+- [**Catálogo normativo UC3M sobre igualdad**](https://www.uc3m.es/ss/Satellite/UC3MInstitucional/es/ListadoNormativas/1371229470216/Igualdad): constan el **III Plan** y el **II Protocolo** contra acoso y ciberacoso, aprobado el **14/11/2019**.
+- [**UC3M protocolo frente al acoso**](https://uc3m.es/igualdad/protocolo-acoso): ámbitos de aplicación, comunidad universitaria y personas externas que trabajan en UC3M.
+- [**Ley Orgánica 3/2007 consolidada (BOE)**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115): especialmente artículos **3, 6–13, 14–15, 42–43 y 51–62** según epígrafe.
+
+> ⚠️ **¡Foco Examen!:** No intercambiar **III Plan de Igualdad (2025–2029)** con **II Protocolo de acoso (aprobado en 2019)**: son instrumentos distintos con finalidades y fechas diferentes.
