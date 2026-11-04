@@ -59,6 +59,8 @@ jobs:
         run: node tests/validate-uc3m-t05-46bis-and-t06-cutoff.mjs
       - name: Validar 144 alternativas legales UC3M T4 T5 y T6
         run: node tests/validate-uc3m-t04-t06-integral.mjs
+      - name: Comprobar 144 alternativas UC3M T7 T8 T9
+        run: node tests/validate-uc3m-t07-t09-integral.mjs
       - name: Verificar distribución de 260 claves UC3M
         run: node tests/validate-uc3m-answer-distribution.mjs
       - name: Verificar literalidad, unicidad y excepciones en tres temas prioritarios
