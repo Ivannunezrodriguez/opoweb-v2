@@ -3,7 +3,7 @@
   "epigrafeOficial": "La Constitución española de 1978. Estructura. La reforma constitucional. Derechos y deberes fundamentales de los españoles. Garantía y suspensión.",
   "estado": "APROBADO_USUARIO",
   "aprobadoEl": "2026-07-17",
-  "fechaRevisionNormativa": "2026-07-29",
+  "fechaRevisionNormativa": "2026-11-04",
   "vigencia": {
     "constitucion": "Texto vigente tras la reforma del artículo 69.3 publicada el 20 de mayo de 2026",
     "articulo49": "Redacción vigente desde febrero de 2024",
@@ -55,5 +55,17 @@
     "Poder Judicial",
     "organización territorial",
     "modelo económico general"
-  ]
+  ],
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "6 incisos literales, Constitución vigente, manual, 12 preguntas y 48 alternativas",
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-01/cotejo-integral-2026-11-04.md",
+    "fuentes": [
+      "Constitución Española BOE-A-1978-31229 actualizada 20/05/2026"
+    ],
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionCincoCapas": false
+  }
 }

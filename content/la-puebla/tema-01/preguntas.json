@@ -43,7 +43,7 @@
     },
     {
       "id": "LP-T01-003",
-      "enunciado": "Hasta julio de 2026, ¿cuántas reformas constitucionales se han aprobado?",
+      "enunciado": "Hasta el **4 de noviembre de 2026**, ¿cuántas reformas constitucionales se han aprobado en España?",
       "opciones": [
         "Dos",
         "Tres",
@@ -51,9 +51,9 @@
         "Cinco"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Se han aprobado cuatro reformas: artículo 13.2 en 1992, artículo 135 en 2011, artículo 49 en 2024 y artículo 69.3 en 2026.",
-      "trampaExamen": "No confundir número de reformas con número de artículos constitucionales modificados.",
-      "referencia": "manual.md · apartado 4.4 · Reformas constitucionales hasta julio de 2026",
+      "justificacion": "El BOE consolidado de la Constitución recoge cuatro reformas hasta el 04/11/2026: art. 13.2 (1992), art. 135 (2011), art. 49 (2024) y art. 69.3 (2026). El número de reformas no coincide con el de artículos constitucionales modificados por cualquier otra ley.",
+      "trampaExamen": "La reforma del **art. 69.3**, publicada el **20/05/2026**, eleva a cuatro el total de reformas constitucionales; no confundir reforma constitucional con ley orgánica.",
+      "referencia": "Constitución española, historial de reformas 1992, 2011, 2024 y 2026 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
       "respuestaLiteral": "Cuatro"
     },
     {
@@ -171,9 +171,9 @@
         "Todos los derechos del Título I sin distinción"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La protección reforzada del artículo 53.2 alcanza al artículo 14 y a los derechos reconocidos en la Sección 1.ª del Capítulo II, con tutela preferente y sumaria y recurso de amparo en los términos legales.",
+      "justificacion": "La protección reforzada del artículo 53.2 alcanza al artículo 14 y a los derechos reconocidos en la Sección 1.ª del Capítulo II, con tutela preferente y sumaria y recurso de amparo en los términos legales. Además, el **recurso de amparo** se extiende expresamente a la objeción de conciencia del artículo **30.2**, sin que ello traslade automáticamente todo el artículo 30 a la tutela preferente y sumaria de los derechos fundamentales.",
       "trampaExamen": "El artículo 14 está fuera de la Sección 1.ª, pero recibe expresamente la misma tutela reforzada.",
-      "referencia": "matriz.json · inciso Garantía · artículos 53-54 CE",
+      "referencia": "Constitución española, art. 53.2 y art. 30.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a53",
       "respuestaLiteral": "El artículo 14 y los derechos de la Sección 1.ª del Capítulo II"
     },
     {

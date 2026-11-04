@@ -18,3 +18,8 @@
 > ⚠️ **¡Foco Examen!:** La reforma de **2026** no debe confundirse con la de **2024** (artículo **49**). Evitar la afirmación desactualizada de que la Constitución solo ha sufrido tres reformas.
 
 **Pendiente:** cotejo jurídico exhaustivo de los **12 distractores** del banco del tema y comprobación del despliegue. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+
+## Cotejo completo del Tema 1 — **04/11/2026**
+
+Se ha confrontado el banco entero de **12 preguntas, 48 opciones** y los **6 incisos** con la [Constitución oficial actualizada en **2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229). [**Análisis individual de claves y distractores**](cotejo-integral-2026-11-04.md). Se ha reforzado la distinción de amparo del **art. 30.2** y derecho de tutela del **53.2**. **Cierre jurídico-editorial; prueba funcional pendiente**.
+

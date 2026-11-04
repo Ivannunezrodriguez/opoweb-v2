@@ -1,7 +1,7 @@
 # La Puebla de Montalbán · Tema 1
 
 **Estado editorial:** PUBLICADO  
-**Fecha de revisión normativa:** 30 de julio de 2026.
+**Fecha de revisión normativa:** **4 de noviembre de 2026** (cotejo completo del banco y epígrafe; ver informe enlazado).
 
 ---
 
@@ -88,7 +88,7 @@ La **parte dogmática** comprende principalmente el Título Preliminar y el Tít
 | Capítulo IV | 53–54 | Garantías de derechos y libertades |
 | Capítulo V | 55 | Suspensión de derechos y libertades |
 
-### 4.4. Reformas constitucionales producidas hasta julio de 2026
+### 4.4. Reformas constitucionales producidas hasta **noviembre de 2026**
 
 A efectos de vigencia y examen, se han aprobado cuatro reformas:
 
@@ -812,6 +812,12 @@ Antes de aprobar el tema, revisar especialmente:
 - Revisión jurídica inicial: realizada.
 - Cobertura artículo por artículo: realizada en borrador.
 - Revisión pedagógica humana: **aprobada por el usuario el 17 de julio de 2026**.
-- Preguntas trazables nuevas: no migradas automáticamente; requieren revisión separada.
+- Preguntas trazables: **12 preguntas y 48 alternativas cotejadas integralmente el 04/11/2026**.
 - Integración en OpoWeb v2: realizada mediante copia exacta controlada.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
+
+## 68. Auditoría jurídica-editorial final — **04/11/2026**
+
+Las **12 preguntas** y los **36 distractores** de este tema se han contrastado con el [texto oficial de la Constitución consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229). **Cuatro reformas** a esta fecha, incluida la del **art. 69.3 (2026)**. El desglose de todas las respuestas está en [**cotejo integral**](cotejo-integral-2026-11-04.md). **Contenido AUDITADO**; comprobación de navegador real pendiente.
+
+> ⚠️ **¡Foco Examen!:** El **art. 53.2** incluye el **amparo** a la objeción de conciencia del **art. 30.2**, pero la tutela ordinaria preferente/sumaria sigue referida al **art. 14** y **Sección 1.ª**. No confundir.
