@@ -62,3 +62,10 @@ El manual distingue las reglas estatales de organización de enseñanzas de las 
 ## RD 822/2021: prácticas y trabajos finales, **04/11/2026**
 
 [**RD 822/2021, arts. 11, 14.5–6 y 17.3–4**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781): **prácticas de Grado 25 %** con excepciones, **TFG 6–24 ECTS** para 240, **prácticas de Máster un tercio**, **TFM 6–30 ECTS**. Se conserva expresamente el problema de fecha de corte y efectos de la sentencia sobre el **art. 22.4**.
+
+
+## Cotejo focal de permanencia — 04/11/2026
+
+**Fuente institucional primaria:** [UC3M, Normativa de matrícula y permanencia](https://uc3m.es/postgrado/normativa/matricula) y [UC3M, repositorio oficial de normativa de Grado](https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/ListadoNormativas/1371206706530/Estudios_de_Grado). La normativa aprobada en 2008 y modificada en 2016 y 2018 distingue en su **artículo 1**: **1.1**, 12 créditos del primer curso durante el primer año (regla general); **1.2.a**, dos años consecutivos para completar primero, tres en ingeniería; **1.2.b**, excepción de Grados Abiertos de **90 ECTS** en dos/tres años según rama; **1.3**, matrícula parcial con **al menos una asignatura superada el primer año** y cómputo de cada curso parcial como **medio curso**. El **artículo 2** mantiene cuatro convocatorias generales, seis en ingeniería.
+
+**Control de pregunta UC3M-T16-011:** opciones 6, 18, 12 y 30: en el supuesto general la única correcta sigue siendo **12**; **6** no es el umbral general, **18** corresponde a otra regla de matrícula parcial posterior y **30** a carga de matrícula parcial de primer año, no a créditos aprobados. Se delimita el enunciado para evitar que la respuesta general se aplique a los estudiantes parciales y se documentan las excepciones. **Revisión focal, no certificación integral del tema ni del banco**.
