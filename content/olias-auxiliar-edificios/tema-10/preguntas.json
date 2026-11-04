@@ -1,0 +1,147 @@
+{
+  "tema": 10,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T10-001",
+      "enunciado": "Un área técnica de un edificio público debe accederse:",
+      "opciones": [
+        "Con la autorización correspondiente",
+        "Por cualquier visitante",
+        "Solo por ser vecino",
+        "Sin cumplir ningún protocolo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Zonas técnicas tienen control por riesgos y acceso.",
+      "trampaExamen": "Distingue elementos y límites; Zonas técnicas tienen control por riesgos y acceso.",
+      "referencia": "Tema 10, zonas"
+    },
+    {
+      "id": "OLIAS-T10-002",
+      "enunciado": "Antes de cerrar un edificio hay que verificar:",
+      "opciones": [
+        "Que no queden ocupantes atrapados",
+        "Que no existan salidas de emergencia utilizables",
+        "Que toda alarma quede desactivada",
+        "Que el archivo esté abierto"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Un cierre debe preservar seguridad de ocupantes.",
+      "trampaExamen": "Distingue elementos y límites; Un cierre debe preservar seguridad de ocupantes.",
+      "referencia": "RD 486/1997"
+    },
+    {
+      "id": "OLIAS-T10-003",
+      "enunciado": "Si aparece una puerta forzada al abrir:",
+      "opciones": [
+        "Comunicar y seguir protocolo",
+        "Ocultarlo",
+        "Entrar corriendo sin evaluar",
+        "Cambiar cerradura en secreto"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La seguridad y trazabilidad de incidente prevalecen.",
+      "trampaExamen": "Distingue elementos y límites; La seguridad y trazabilidad de incidente prevalecen.",
+      "referencia": "Tema 10, apertura"
+    },
+    {
+      "id": "OLIAS-T10-004",
+      "enunciado": "El uniforme de contratista permite:",
+      "opciones": [
+        "Comprobar su autorización, no acceso automático",
+        "Entrar siempre en sala técnica",
+        "Disponer de llave maestra",
+        "Eliminar registro corporativo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El acceso requiere permiso adecuado.",
+      "trampaExamen": "Distingue elementos y límites; El acceso requiere permiso adecuado.",
+      "referencia": "Tema 10, contratistas"
+    },
+    {
+      "id": "OLIAS-T10-005",
+      "enunciado": "En caso de emergencia, las rutas de salida deben:",
+      "opciones": [
+        "Permanecer expeditas",
+        "Bloquearse",
+        "Usarse como almacén",
+        "Cerrarse con cadena"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Obligación preventiva sobre evacuación.",
+      "trampaExamen": "Distingue elementos y límites; Obligación preventiva sobre evacuación.",
+      "referencia": "RD 486/1997, anexo I"
+    },
+    {
+      "id": "OLIAS-T10-006",
+      "enunciado": "Una tarjeta de visita válida para recepción:",
+      "opciones": [
+        "No garantiza por sí sola entrada a todas las zonas",
+        "Otorga funciones de seguridad",
+        "Reemplaza autorización de obras",
+        "Permite abrir archivos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La autorización puede limitar zonas y horas.",
+      "trampaExamen": "Distingue elementos y límites; La autorización puede limitar zonas y horas.",
+      "referencia": "Tema 10, control de accesos"
+    },
+    {
+      "id": "OLIAS-T10-007",
+      "enunciado": "La climatización del edificio en cierre debe:",
+      "opciones": [
+        "Ajustarse según instrucciones de operación",
+        "Apagarse siempre sin excepciones",
+        "Manipularse abriendo cuadros",
+        "Dejarse siempre al máximo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "No deben alterarse sistemas críticos sin permiso.",
+      "trampaExamen": "Distingue elementos y límites; No deben alterarse sistemas críticos sin permiso.",
+      "referencia": "BOP 4833, funciones; tema 10"
+    },
+    {
+      "id": "OLIAS-T10-008",
+      "enunciado": "Si un usuario exige acceso no autorizado:",
+      "opciones": [
+        "Explicar regla y derivar con respeto",
+        "Ceder automáticamente",
+        "Responder con violencia",
+        "Publicar sus datos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Se mantiene control y trato digno.",
+      "trampaExamen": "Distingue elementos y límites; Se mantiene control y trato digno.",
+      "referencia": "Tema 10, incidentes"
+    },
+    {
+      "id": "OLIAS-T10-009",
+      "enunciado": "Un registro de visitantes debe limitarse a:",
+      "opciones": [
+        "Datos necesarios según finalidad",
+        "Todos los datos médicos",
+        "Contraseñas informáticas",
+        "Fotografías del móvil privado"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El RGPD exige minimización.",
+      "trampaExamen": "Distingue elementos y límites; El RGPD exige minimización.",
+      "referencia": "RGPD, art. 5"
+    },
+    {
+      "id": "OLIAS-T10-010",
+      "enunciado": "Una salida de emergencia se puede bloquear durante uso del edificio:",
+      "opciones": [
+        "No, debe poder usarse en caso de emergencia",
+        "Sí si se pone un aviso",
+        "Sí siempre que sea de noche",
+        "Sí si no hay visitantes"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La evacuación debe ser posible.",
+      "trampaExamen": "Distingue elementos y límites; La evacuación debe ser posible.",
+      "referencia": "RD 486/1997"
+    }
+  ]
+}

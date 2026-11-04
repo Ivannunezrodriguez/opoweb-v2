@@ -1,0 +1,147 @@
+{
+  "tema": 17,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T17-001",
+      "enunciado": "¿Qué función principal cumple un sifón?",
+      "opciones": [
+        "Crear cierre hidráulico contra olores",
+        "Aumentar tensión eléctrica",
+        "Controlar potencia",
+        "Cambiar presión automáticamente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Su sello de agua evita olores de saneamiento.",
+      "trampaExamen": "Distingue elementos y límites; Su sello de agua evita olores de saneamiento.",
+      "referencia": "Fontanería, sifones"
+    },
+    {
+      "id": "OLIAS-T17-002",
+      "enunciado": "¿Qué sistema trae agua a los puntos de consumo?",
+      "opciones": [
+        "Abastecimiento",
+        "Saneamiento",
+        "Alarma",
+        "Riego únicamente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La red de suministro abastece consumos.",
+      "trampaExamen": "Distingue elementos y límites; La red de suministro abastece consumos.",
+      "referencia": "CTE DB HS 4"
+    },
+    {
+      "id": "OLIAS-T17-003",
+      "enunciado": "¿Qué red recoge aguas residuales?",
+      "opciones": [
+        "Evacuación/saneamiento",
+        "Abastecimiento potable",
+        "Iluminación",
+        "Sonería"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Saneamiento evacua aguas usadas.",
+      "trampaExamen": "Distingue elementos y límites; Saneamiento evacua aguas usadas.",
+      "referencia": "CTE DB HS 5"
+    },
+    {
+      "id": "OLIAS-T17-004",
+      "enunciado": "En una cisterna, el llenado:",
+      "opciones": [
+        "Controla entrada de agua",
+        "Abre la puerta",
+        "Produce electricidad",
+        "Es lo mismo que descargar"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Llenado y descarga son mecanismos distintos.",
+      "trampaExamen": "Distingue elementos y límites; Llenado y descarga son mecanismos distintos.",
+      "referencia": "Tema 17, cisternas"
+    },
+    {
+      "id": "OLIAS-T17-005",
+      "enunciado": "Un goteo continuo de cisterna puede indicar:",
+      "opciones": [
+        "Fallo de cierre en llenado/descarga",
+        "Toma de tierra rota siempre",
+        "Alarma postal",
+        "Fusor caliente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Diferentes mecanismos pueden causar pérdida.",
+      "trampaExamen": "Distingue elementos y límites; Diferentes mecanismos pueden causar pérdida.",
+      "referencia": "Tema 17, cisternas"
+    },
+    {
+      "id": "OLIAS-T17-006",
+      "enunciado": "Una llave de corte permite:",
+      "opciones": [
+        "Interrumpir el suministro de un tramo",
+        "Regular luz fluorescente",
+        "Abrir una salida de emergencia",
+        "Destruir papel"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Aísla la conducción cuando está diseñada para ello.",
+      "trampaExamen": "Distingue elementos y límites; Aísla la conducción cuando está diseñada para ello.",
+      "referencia": "Fontanería, redes"
+    },
+    {
+      "id": "OLIAS-T17-007",
+      "enunciado": "¿Qué herramienta se usa para cortar tubería compatible?",
+      "opciones": [
+        "Cortatubos",
+        "Cebador",
+        "Conmutador",
+        "Fotocopiadora"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Se escoge según material y diámetro.",
+      "trampaExamen": "Distingue elementos y límites; Se escoge según material y diámetro.",
+      "referencia": "Fontanería, herramientas"
+    },
+    {
+      "id": "OLIAS-T17-008",
+      "enunciado": "¿Qué documento técnico trata suministro de agua en edificios?",
+      "opciones": [
+        "CTE DB HS 4",
+        "REBT ITC-BT 25",
+        "LO 3/2007 art. 64",
+        "Ley postal art. 20"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "DB HS 4 regula suministro de agua.",
+      "trampaExamen": "Distingue elementos y límites; DB HS 4 regula suministro de agua.",
+      "referencia": "CTE DB HS 4"
+    },
+    {
+      "id": "OLIAS-T17-009",
+      "enunciado": "¿Qué norma trata calidad sanitaria de agua de consumo?",
+      "opciones": [
+        "RD 3/2023",
+        "RD 437/2024",
+        "RD 842/2002",
+        "RD 614/2001"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Criterios técnico-sanitarios del agua.",
+      "trampaExamen": "Distingue elementos y límites; Criterios técnico-sanitarios del agua.",
+      "referencia": "RD 3/2023"
+    },
+    {
+      "id": "OLIAS-T17-010",
+      "enunciado": "Ante agua turbia en edificio municipal, el auxiliar debe:",
+      "opciones": [
+        "Comunicar y seguir protocolo sanitario",
+        "Afirmar que es potable",
+        "Mezclar productos químicos",
+        "Ocultar aviso"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La potabilidad no se decide a simple vista.",
+      "trampaExamen": "Distingue elementos y límites; La potabilidad no se decide a simple vista.",
+      "referencia": "RD 3/2023"
+    }
+  ]
+}

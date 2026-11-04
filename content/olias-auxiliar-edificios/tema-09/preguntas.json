@@ -1,0 +1,147 @@
+{
+  "tema": 9,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T09-001",
+      "enunciado": "¿Qué acredita el franqueo postal?",
+      "opciones": [
+        "El pago del servicio",
+        "La nacionalidad del destinatario",
+        "El registro administrativo",
+        "La identidad del alcalde"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El franqueo acredita el pago del servicio postal.",
+      "trampaExamen": "Distingue elementos y límites; El franqueo acredita el pago del servicio postal.",
+      "referencia": "RD 437/2024, art. 14"
+    },
+    {
+      "id": "OLIAS-T09-002",
+      "enunciado": "El envío certificado se entrega en general:",
+      "opciones": [
+        "Previa firma del destinatario o autorizado",
+        "Sin identificación ni firma siempre",
+        "Solo al vecino del destinatario",
+        "Solo en domicilio del cartero"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La entrega certificada requiere firma según normativa.",
+      "trampaExamen": "Distingue elementos y límites; La entrega certificada requiere firma según normativa.",
+      "referencia": "RD 437/2024, art. 20"
+    },
+    {
+      "id": "OLIAS-T09-003",
+      "enunciado": "Una carta recibida en conserjería es:",
+      "opciones": [
+        "Correspondencia que debe canalizarse",
+        "Automáticamente asiento registral",
+        "Resolución administrativa",
+        "Un acto de notificación pública"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Recibir físicamente no equivale a registrar formalmente.",
+      "trampaExamen": "Distingue elementos y límites; Recibir físicamente no equivale a registrar formalmente.",
+      "referencia": "Tema 9, distribución"
+    },
+    {
+      "id": "OLIAS-T09-004",
+      "enunciado": "El precio de una carta depende entre otros de:",
+      "opciones": [
+        "Tipo de servicio, peso y destino",
+        "Nombre del alcalde",
+        "Grupo del auxiliar",
+        "Color del sobre únicamente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Variables del producto postal.",
+      "trampaExamen": "Distingue elementos y límites; Variables del producto postal.",
+      "referencia": "Ley 43/2010; RD 437/2024"
+    },
+    {
+      "id": "OLIAS-T09-005",
+      "enunciado": "El reglamento postal general aprobado en 2024 es:",
+      "opciones": [
+        "RD 437/2024",
+        "RD 486/1997",
+        "RD 614/2001",
+        "RD 842/2002"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El RD 437/2024 desarrolla la Ley 43/2010.",
+      "trampaExamen": "Distingue elementos y límites; El RD 437/2024 desarrolla la Ley 43/2010.",
+      "referencia": "RD 437/2024"
+    },
+    {
+      "id": "OLIAS-T09-006",
+      "enunciado": "¿Qué Ley es la del servicio postal universal?",
+      "opciones": [
+        "Ley 43/2010",
+        "Ley 7/1985",
+        "Ley 31/1995",
+        "Ley 39/2025"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La ley postal básica es la Ley 43/2010.",
+      "trampaExamen": "Distingue elementos y límites; La ley postal básica es la Ley 43/2010.",
+      "referencia": "Ley 43/2010"
+    },
+    {
+      "id": "OLIAS-T09-007",
+      "enunciado": "Una notificación administrativa es:",
+      "opciones": [
+        "Acto regulado además por normas específicas",
+        "Cualquier paquete con franqueo",
+        "Una carta ordinaria sin más",
+        "Un albarán comercial"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Su régimen no se confunde con un certificado ordinario.",
+      "trampaExamen": "Distingue elementos y límites; Su régimen no se confunde con un certificado ordinario.",
+      "referencia": "RD 437/2024, disposición transitoria"
+    },
+    {
+      "id": "OLIAS-T09-008",
+      "enunciado": "Al distribuir sobres con datos personales se debe:",
+      "opciones": [
+        "Mantener confidencialidad y ruta autorizada",
+        "Abrirlos por curiosidad",
+        "Fotografiarlos en teléfono privado",
+        "Dejarlos en zona pública"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Se aplican confidencialidad y minimización.",
+      "trampaExamen": "Distingue elementos y límites; Se aplican confidencialidad y minimización.",
+      "referencia": "RGPD, art. 5"
+    },
+    {
+      "id": "OLIAS-T09-009",
+      "enunciado": "Un registro de entrega interna sirve para:",
+      "opciones": [
+        "Trazabilidad según protocolo",
+        "Justificar abrir documentos ajenos",
+        "Convertir conserjería en registro oficial",
+        "Sustituir autorización judicial"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La trazabilidad reduce pérdida y confusión.",
+      "trampaExamen": "Distingue elementos y límites; La trazabilidad reduce pérdida y confusión.",
+      "referencia": "Tema 9, distribución"
+    },
+    {
+      "id": "OLIAS-T09-010",
+      "enunciado": "¿Puede confundirse certificado y notificación administrativa?",
+      "opciones": [
+        "No; tienen requisitos y finalidades diferentes",
+        "Siempre son exactamente lo mismo",
+        "Solo las tarifas los distinguen",
+        "Nunca requieren identidad"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El certificado no sustituye toda la legislación de notificaciones.",
+      "trampaExamen": "Distingue elementos y límites; El certificado no sustituye toda la legislación de notificaciones.",
+      "referencia": "RD 437/2024; Ley 39/2015"
+    }
+  ]
+}

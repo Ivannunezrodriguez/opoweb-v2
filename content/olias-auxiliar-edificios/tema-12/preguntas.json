@@ -1,0 +1,147 @@
+{
+  "tema": 12,
+  "estado": "EN_AUDITORIA",
+  "version": "2026-11-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T12-001",
+      "enunciado": "¿Qué máquina se utiliza para destruir papel de forma controlada?",
+      "opciones": [
+        "Destructora",
+        "Fotómetro",
+        "Caldera",
+        "Diferencial"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La destructora reduce documentos según método de seguridad.",
+      "trampaExamen": "Distingue elementos y límites; La destructora reduce documentos según método de seguridad.",
+      "referencia": "Tema 12, máquinas"
+    },
+    {
+      "id": "OLIAS-T12-002",
+      "enunciado": "Para reparar mecanismo peligroso de una máquina corresponde:",
+      "opciones": [
+        "Personal especialmente capacitado",
+        "Todo visitante",
+        "Cualquiera con destornillador",
+        "Cualquier auxiliar sin formación"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "RD 1215 reserva mantenimiento de riesgo.",
+      "trampaExamen": "Distingue elementos y límites; RD 1215 reserva mantenimiento de riesgo.",
+      "referencia": "RD 1215/1997"
+    },
+    {
+      "id": "OLIAS-T12-003",
+      "enunciado": "La disposición «U» se utiliza para:",
+      "opciones": [
+        "Favorecer interacción",
+        "Bloquear puertas",
+        "Almacenar sacos",
+        "Ocultar asistentes"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Permite participación en torno a un espacio central.",
+      "trampaExamen": "Distingue elementos y límites; Permite participación en torno a un espacio central.",
+      "referencia": "Tema 12, salas"
+    },
+    {
+      "id": "OLIAS-T12-004",
+      "enunciado": "Antes de organizar una sala debe conocerse:",
+      "opciones": [
+        "Reserva y aforo",
+        "Color de coche del alcalde",
+        "Signo zodiacal de asistentes",
+        "Marca del móvil"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Aforo y necesidades condicionan montaje.",
+      "trampaExamen": "Distingue elementos y límites; Aforo y necesidades condicionan montaje.",
+      "referencia": "Tema 12, preparación"
+    },
+    {
+      "id": "OLIAS-T12-005",
+      "enunciado": "Un cable cruzando una ruta de paso supone:",
+      "opciones": [
+        "Riesgo de tropiezo",
+        "Sistema de señalización válido",
+        "Protección frente a incendios",
+        "No requiere ninguna medida"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Debe organizarse o protegerse.",
+      "trampaExamen": "Distingue elementos y límites; Debe organizarse o protegerse.",
+      "referencia": "RD 486/1997"
+    },
+    {
+      "id": "OLIAS-T12-006",
+      "enunciado": "Silla municipal muy inestable:",
+      "opciones": [
+        "Retirar de uso y avisar",
+        "Ofrecer al primer visitante",
+        "Sujetar con una hoja",
+        "Ignorar"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Es un riesgo de caída.",
+      "trampaExamen": "Distingue elementos y límites; Es un riesgo de caída.",
+      "referencia": "RD 486/1997"
+    },
+    {
+      "id": "OLIAS-T12-007",
+      "enunciado": "Una destructora puede implicar riesgo de:",
+      "opciones": [
+        "Atrapamiento",
+        "Inundación obligatoria",
+        "Reacción nuclear",
+        "Ausencia total de riesgos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las partes móviles exigen protección.",
+      "trampaExamen": "Distingue elementos y límites; Las partes móviles exigen protección.",
+      "referencia": "RD 1215/1997"
+    },
+    {
+      "id": "OLIAS-T12-008",
+      "enunciado": "Un proyector recién apagado debe:",
+      "opciones": [
+        "Gestionarse conforme a instrucciones del fabricante",
+        "Desmontarse inmediatamente sin revisar",
+        "Mojarse",
+        "Envolverlo caliente en papel"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El enfriamiento y seguridad dependen del equipo.",
+      "trampaExamen": "Distingue elementos y límites; El enfriamiento y seguridad dependen del equipo.",
+      "referencia": "Tema 12, mantenimiento"
+    },
+    {
+      "id": "OLIAS-T12-009",
+      "enunciado": "Los documentos olvidados deben:",
+      "opciones": [
+        "Custodiarse y comunicarse por cauce interno",
+        "Publicarse",
+        "Tirarse a papelera abierta",
+        "Copiarse"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Evitar acceso a datos ajenos.",
+      "trampaExamen": "Distingue elementos y límites; Evitar acceso a datos ajenos.",
+      "referencia": "RGPD, art. 5"
+    },
+    {
+      "id": "OLIAS-T12-010",
+      "enunciado": "¿Puede reducirse el ancho de una salida para ubicar más sillas?",
+      "opciones": [
+        "No, evacuación debe mantenerse segura",
+        "Siempre",
+        "Solo con luz apagada",
+        "Si hay una impresora"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Se preserva ruta segura.",
+      "trampaExamen": "Distingue elementos y límites; Se preserva ruta segura.",
+      "referencia": "RD 486/1997"
+    }
+  ]
+}
