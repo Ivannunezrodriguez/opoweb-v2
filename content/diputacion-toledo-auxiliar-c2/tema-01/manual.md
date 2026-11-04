@@ -1114,3 +1114,9 @@ La detención excepcional solo puede acordarse si es necesaria para la conservac
 > ⚠️ **¡Foco Examen!:** En la reforma del **art. 167**, el referéndum es **facultativo si lo pide una décima parte** de miembros de cualquiera de las Cámaras en **15 días**. En la reforma **agravada del art. 168**, el referéndum es **obligatorio**.
 
 **Control editorial:** los seis incisos del programa están desarrollados; el banco dispone de **20 preguntas** con explicación y fuente. Los casos de amparo, derechos, excepción, sitio y Defensor del Pueblo mantienen la distinción entre regla constitucional y desarrollo orgánico. La prueba funcional en navegador aún no se ha ejecutado.
+
+## Cotejo individual del banco · 04/11/2026
+
+[**Informe de las 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con fundamento normativo y descarte de cada opción incorrecta. **COTEJO_BANCO_COMPLETO** significa revisión individual de la prueba, **no** certificación del manual entero, prueba en navegador, accesibilidad ni aprobación del usuario. La base oficial es el **Anexo XI del BOP Toledo n.º 197, 14/10/2026**.
+
+> ⚠️ **¡Foco Examen!:** **167 CE**: referéndum a solicitud de **1/10** en **15 días**; **168 CE**: referéndum obligatorio. Reforma **69.3** vigente **20/05/2026**, eficacia electoral posterior.
