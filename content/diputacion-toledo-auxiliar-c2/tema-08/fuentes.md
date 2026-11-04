@@ -38,3 +38,10 @@ Se detectaron dos preguntas pedagógicamente redundantes de la escala de **Deleg
 Fuentes: [Ley 31/1995 art. 35](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35), [art. 36](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a36). Se conserva el número de preguntas y los identificadores, no se certifica íntegramente todo el tema. Prueba persistente `tests/validate-diputacion-c2-prl-focal.mjs`.
 
 > ⚠️ **¡Foco Examen!:** **31–49 → 1 elegido por representantes**, **50–100 → 2**. Para el informe no confundir **15 días ordinarios** con el tiempo imprescindible ante **riesgo inminente**.
+
+## Banco contrastado individualmente · 04/11/2026
+
+[**Cotejo exhaustivo T08: 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md). Fuente principal [**Ley 31/1995, arts. 35–38, edición consolidada a 09/04/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292). Comprobados **31–49 trabajadores = 1 Delegado**, **50–100 = 2 Delegados**, **Comité desde 50**, reunión **trimestral**, informe del **art. 36.3 en 15 días** salvo riesgos inminentes. Para servicio propio, [**RD 39/1997 art.14**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853). Se conserva la clave y las cuatro opciones originales de los 20 ítems.
+
+> ⚠️ **¡Foco Examen!:** La evaluación **conjunta** de **probabilidad y severidad** del **art.4.2 LPRL** no es una fórmula legal de suma; **Comité desde 50**, **Delegados 31–49 = 1**.
+
