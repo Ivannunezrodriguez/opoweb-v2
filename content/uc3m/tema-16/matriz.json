@@ -82,7 +82,13 @@
         15,
         16
       ],
-      "preguntas": []
+      "preguntas": [
+        "UC3M-T16-017",
+        "UC3M-T16-018",
+        "UC3M-T16-019",
+        "UC3M-T16-020",
+        "UC3M-T16-021"
+      ]
     }
   ],
   "incidenciasCorregidas": [
@@ -106,5 +112,11 @@
       "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624"
     ],
     "estado": "INCIDENCIA_DOCUMENTADA_PENDIENTE_INTERPRETACION_EXIGIBILIDAD"
+  },
+  "controlParcial2026": {
+    "fecha": "2026-11-04",
+    "articulos": "RD 822/2021, 11, 14.5-6, 17.3-4",
+    "nuevasPreguntas": 5,
+    "estado": "EN_REVISION_USUARIO; pendiente corte normativo"
   }
 }

@@ -225,6 +225,76 @@
       "justificacion": "El candidato propone al Adjunto y el Claustro lo designa en la misma sesión por mayoría simple.",
       "trampa": "La mayoría exigida para el Adjunto es distinta de la elección del Defensor.",
       "referencia": "Estatutos UC3M, Decreto 1/2003, art. 128.2 (BOE-A-2003-17782) · Manual, apartado 2.2"
+    },
+    {
+      "id": "UC3M-T15-017",
+      "pregunta": "¿Qué fracción mínima del Claustro puede proponer la reelección del Defensor junto a la posibilidad del Rector?",
+      "opciones": [
+        "Una quinta parte",
+        "Una décima parte",
+        "Dos tercios",
+        "Tres cuartas partes"
+      ],
+      "correcta": 0,
+      "justificacion": "El art.128.1 atribuye iniciativa de propuesta al Rector o grupo de al menos una quinta parte del Claustro.",
+      "trampa": "La quinta parte es iniciativa, no mayoría de elección.",
+      "referencia": "Estatutos UC3M, art.128.1"
+    },
+    {
+      "id": "UC3M-T15-018",
+      "pregunta": "¿Cuándo presenta memoria el Defensor Universitario al Claustro?",
+      "opciones": [
+        "Al terminar cada mandato",
+        "Cada año al principio del curso",
+        "Cada cinco años",
+        "Solo cuando lo exige un tribunal"
+      ],
+      "correcta": 1,
+      "justificacion": "La memoria de actividades se presenta anualmente al comienzo del curso académico.",
+      "trampa": "El mandato dura tres años, pero la memoria es anual.",
+      "referencia": "Estatutos UC3M, art.128.4"
+    },
+    {
+      "id": "UC3M-T15-019",
+      "pregunta": "La reducción máxima de tareas propias para quien desempeña la Defensoría UC3M es de:",
+      "opciones": [
+        "100 %",
+        "25 %",
+        "50 %",
+        "10 %"
+      ],
+      "correcta": 2,
+      "justificacion": "El art.130 autoriza reducción de tareas hasta un 50 %.",
+      "trampa": "No es un permiso para dejar toda la actividad de origen.",
+      "referencia": "Estatutos UC3M, art.130"
+    },
+    {
+      "id": "UC3M-T15-020",
+      "pregunta": "¿Cuál es la composición del órgano de participación y asesoramiento del Defensor?",
+      "opciones": [
+        "Tres estudiantes y tres PDI",
+        "Dos estudiantes y cuatro PAS",
+        "Un representante por centro",
+        "Dos estudiantes, dos PAS y dos PDI"
+      ],
+      "correcta": 3,
+      "justificacion": "Art.132.3: dos miembros por cada sector indicado.",
+      "trampa": "No es la composición del Claustro.",
+      "referencia": "Estatutos UC3M, art.132.3"
+    },
+    {
+      "id": "UC3M-T15-021",
+      "pregunta": "¿A quién corresponde aprobar el Reglamento del Defensor Universitario?",
+      "opciones": [
+        "Consejo de Gobierno, a propuesta del Rector y oído el Defensor",
+        "Solo al Rector",
+        "Al Consejo Social",
+        "A la Administración General del Estado"
+      ],
+      "correcta": 0,
+      "justificacion": "El art.132.1 exige propuesta del Rector, aprobación del Consejo de Gobierno y audiencia al Defensor.",
+      "trampa": "El Claustro elige al Defensor, no aprueba por sí solo su Reglamento.",
+      "referencia": "Estatutos UC3M, art.132.1"
     }
   ]
 }
