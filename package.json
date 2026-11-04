@@ -5,7 +5,7 @@
   "type": "module",
   "description": "Manual, bancos de preguntas, supuestos y simulacros interactivos de oposiciones",
   "scripts": {
-    "test": "node tests/validate.mjs && node tests/validate-la-puebla-editorial.mjs && node tests/validate-practice-exam.mjs && node tests/validate-uc3m-exams.mjs && node tests/validate-sources.mjs && node tests/validate-la-puebla-answer-distribution.mjs",
+    "test": "node tests/validate.mjs && node tests/validate-la-puebla-editorial.mjs && node tests/validate-practice-exam.mjs && node tests/validate-uc3m-exams.mjs && node tests/validate-sources.mjs && node tests/validate-la-puebla-answer-distribution.mjs && node tests/validate-uc3m-answer-distribution.mjs",
     "test:editorial": "node tests/validate-la-puebla-editorial.mjs",
     "test:diputacion": "node tests/validate-diputacion.mjs",
     "test:all": "npm run test && npm run test:diputacion && node tests/validate-all-programmes.mjs && node tests/validate-cross-oposiciones.mjs && node tests/validate-la-puebla-normativa-focal.mjs && node tests/validate-olias-programme.mjs && node tests/validate-olias-practice.mjs && node tests/validate-portal-navigation.mjs && npm run test:radar && node tests/radar-enrich.mjs",
