@@ -94,3 +94,11 @@ Se han revisado individualmente **UC3M-T16-017 a UC3M-T16-021**, sus cuatro alte
 | 021 | art. 17.4 | TFM obligatorio 6–30 y defensa pública; no confundir con TFG de Grado de 240. |
 
 **Precaución temporal:** el [fallo de 6/10/2026 publicado 23/10/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083) anuló RD 905/2025; este cotejo se refiere a preceptos citados del RD 822/2021, sin resolver la fecha de corte normativa específica de UC3M. El bloque es **focal** y no recertifica íntegramente el tema.
+
+## Contrastación adicional de las enseñanzas oficiales · **04/11/2026**
+
+- [**RD 822/2021, arts. 14.5–6 y 17.3–4**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781): prácticas curriculares de Grado **hasta el 25 %** del plan salvo excepciones; **TFG entre 6 y 24 ECTS** para Grado de 240; prácticas de Máster **hasta un tercio**; **TFM entre 6 y 30 ECTS**. Se contrastan los supuestos exactos del banco **T16-018 a T16-021**.
+- [**LOSU**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500) y [**RD 99/2011**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541): Grado, Máster y Doctorado son enseñanzas oficiales distintas. Los límites del RD 822/2021 no deben aplicarse al Doctorado como si fuera un Grado.
+- La anotación judicial previa de la sentencia de **06/10/2026** sobre **RD 905/2025** es una **cautela temporal diferenciada**; no se afirma que derogase todo el RD 822/2021 ni que el examen debiera aplicar necesariamente cualquier redacción posterior al corte de bases.
+
+> ⚠️ **¡Foco Examen!:** **TFG de Grado 240 ECTS: máximo 24 ECTS**; **TFM: máximo 30 ECTS**; **prácticas Grado: máximo general 25 %** y **prácticas Máster: máximo un tercio**. Los cuatro números corresponden a instituciones distintas.
