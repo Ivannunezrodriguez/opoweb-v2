@@ -190,3 +190,9 @@ La Universidad debe aprobar un calendario de extinción que regule convocatorias
 - Evaluación continua: mínimo 40 %; examen final, máximo 60 %.
 - Extraordinaria sin evaluación continua: examen del 100 %.
 - Reconocimiento y transferencia producen efectos distintos.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Revisión individual de 21 preguntas y 84 alternativas**](cotejo-integral-2026-11-04.md), con respuesta literal, motivo de descarte de las demás y foco test. El banco está **cotejado**, pero esto no certifica el portal en navegador, no implica aprobación del usuario y queda pendiente fechar por documento primario la aplicación temporal de la base **primera.7** de UC3M.
+
+> ⚠️ **¡Foco Examen!:** **Prácticas de Grado: máximo general 25 %; Máster: máximo un tercio**. El **TFG de Grado 240** es **6–24 ECTS**, y el **TFM 6–30 ECTS**.
