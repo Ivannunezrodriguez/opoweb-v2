@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const j=p=>JSON.parse(readFileSync(p,'utf8'));
+const base='content/diputacion-toledo-auxiliar-c2/tema-08/';
+const bank=j(base+'preguntas.json');
+assert.equal(bank.preguntas.length,20);
+const q=id=>{const result=bank.preguntas.find(x=>x.id===id);assert(result,id+' missing');return result;};
+assert.match(q('DT-C2-T08-011').enunciado,/31 a 49/);
+assert.match(q('DT-C2-T08-011').opciones[q('DT-C2-T08-011').respuestaCorrecta],/Delegados de Personal/);
+assert.match(q('DT-C2-T08-011').referencia,/35\.2/);
+assert.match(q('DT-C2-T08-014').enunciado,/plazo/);
+assert.equal(q('DT-C2-T08-014').opciones[q('DT-C2-T08-014').respuestaCorrecta],'15 días');
+assert.match(q('DT-C2-T08-014').referencia,/36\.3/);
+const manual=readFileSync(base+'manual.md','utf8');
+assert(!manual.includes('gravedad = probabilidad + severidad'));
+assert(manual.includes('valorar **conjuntamente la probabilidad y la severidad**'));
+console.log('DIPUTACION_C2_PRL_20_QUESTIONS_AND_REPAIRED_LEGAL_CONCEPT_OK');

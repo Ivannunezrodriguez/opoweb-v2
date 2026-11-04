@@ -26,3 +26,15 @@
 **Procedencia:** auditoría simultánea del **Tema 7 La Puebla**; hallazgo de contenido duplicado en el **Tema 8 de Diputación Auxiliar C2**. **Revisión parcial**, no recertificación del tema ni de sus **20 preguntas**. La auditoría jurídica integral mantiene su estado pendiente.
 
 > ⚠️ **¡Foco Examen!:** Un **método técnico** para evaluar riesgos no debe confundirse con el **texto legal del art. 4.2 LPRL**.
+
+
+## Revisión de redundancias del banco — **04/11/2026**
+
+Se detectaron dos preguntas pedagógicamente redundantes de la escala de **Delegados de Prevención** y de constitución del **Comité de Seguridad y Salud**. En el banco de 20 se han reemplazado por:
+
+- **DT-C2-T08-011**: **31–49 trabajadores → un Delegado de Prevención elegido por y entre Delegados de Personal**, frente a **hasta 30** y **50–100**; **LPRL art. 35.2**.
+- **DT-C2-T08-014**: informe de los **Delegados de Prevención en 15 días**, o **tiempo imprescindible** ante riesgos inminentes; **LPRL art. 36.3**.
+
+Fuentes: [Ley 31/1995 art. 35](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35), [art. 36](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a36). Se conserva el número de preguntas y los identificadores, no se certifica íntegramente todo el tema. Prueba persistente `tests/validate-diputacion-c2-prl-focal.mjs`.
+
+> ⚠️ **¡Foco Examen!:** **31–49 → 1 elegido por representantes**, **50–100 → 2**. Para el informe no confundir **15 días ordinarios** con el tiempo imprescindible ante **riesgo inminente**.
