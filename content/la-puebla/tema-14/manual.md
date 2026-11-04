@@ -114,10 +114,12 @@ La abstención es un deber de la autoridad o empleado cuando concurre una causa 
 Motivos principales:
 
 - interés personal o litigio pendiente;
-- matrimonio, situación asimilada o parentesco hasta cuarto grado de consanguinidad o segundo de afinidad;
-- amistad íntima o enemistad manifiesta;
-- intervención previa como perito o testigo;
-- relación de servicio o servicios profesionales en los dos años anteriores.
+- **matrimonio o situación asimilable** y parentesco hasta **cuarto grado de consanguinidad o segundo de afinidad** con interesados, administradores de entidades interesadas y asesores, representantes legales o mandatarios que intervengan; también **compartir despacho profesional o estar asociado** con estos últimos para asesoramiento, representación o mandato;
+- **amistad íntima o enemistad manifiesta** con las personas anteriores;
+- haber intervenido **como perito o testigo en el procedimiento**;
+- **relación de servicio actual** con persona directamente interesada, o servicios profesionales prestados a esta en los **dos últimos años**.
+
+> ⚠️ **¡Foco Examen!:** El parentesco del **art. 23.2.b** también alcanza a **asesores y representantes** que intervienen; la **relación de servicio actual** no exige que se hayan prestado servicios profesionales en los dos últimos años. Véase [Ley 40/2015, art. 23](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23) y el desarrollo en el bloque 2.
 
 La actuación de quien debió abstenerse no implica automáticamente invalidez, pero puede generar responsabilidad.
 
