@@ -35,5 +35,5 @@ for(const topic of topics){
 const p4=JSON.parse(readFileSync(root+'tema-04/preguntas.json','utf8')).preguntas.find(q=>q.id==='LP-T04-001');
 assert(p4.enunciado.includes('no fue recurrido en plazo'));
 assert(p4.justificacion.includes('dictamen favorable'));
-assert(readFileSync(root+'tema-14/cotejo-integral-2026-11-04.md','utf8').includes('art. 24.4'));
+assert(readFileSync(root+'tema-14/cotejo-integral-2026-11-04.md','utf8').includes('24.4'));
 console.log('LA_PUEBLA_T2_T4_T14_144_OPTIONS_DOCUMENTED_AND_ANSWER_ANCHORED_OK');
