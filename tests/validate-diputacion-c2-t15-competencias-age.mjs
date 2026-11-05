@@ -11,7 +11,7 @@ const questions = JSON.parse(read('preguntas.json')).preguntas;
 
 const checks = [
   'superior común',
-  'órgano superior de quien dependa el delegado',
+  'órgano superior del que dependa el delegado',
   'aprobación previa',
   'personas que hubieran perdido esa condición como consecuencia de su jubilación',
   'Real Decreto-ley 6/2023',
