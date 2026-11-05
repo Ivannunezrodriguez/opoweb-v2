@@ -1317,15 +1317,22 @@ Las competencias se agrupan en cinco grandes áreas.
 
 Las reclamaciones de responsabilidad patrimonial se tramitan y resuelven por el Ministerio competente por materia, no por el Delegado.
 
-### E. Políticas públicas y recursos
+### E. Políticas públicas y recursos (artículo 73.1.e)
 
-- formular propuestas sobre planes y programas territoriales;
-- informar a los Ministerios sobre gestión territorial;
-- proponer medidas contra duplicidades;
-- informar optimización de recursos humanos y materiales;
-- coordinar utilización de edificios administrativos en su ámbito.
+El **Delegado del Gobierno** ejerce las facultades siguientes, que no deben confundirse con la competencia decisoria de cada Ministerio:
 
-El **Delegado del Gobierno** puede requerir información a órganos territoriales para ejercer sus funciones (**art. 73.4**).
+| Inciso | Facultad | Condición, periodicidad u órgano destinatario |
+|---|---|---|
+| **73.1.e.1.º** | Proponer objetivos de los planes/programas a ejecutar por los servicios territoriales y los organismos públicos. | Propuestas dirigidas a los **Ministerios competentes**. |
+| **73.1.e.1.º** | Informar sobre la gestión de los servicios territoriales. | Información **regular y periódica** a los **Ministerios competentes**; no confundir con el **informe anual al Gobierno (73.1.b.4.º)**. |
+| **73.1.e.2.º** | Proponer medidas para evitar **duplicidades de estructuras administrativas**, tanto estatales como con otras Administraciones. | Propuesta al **Ministro de Hacienda y Administraciones Públicas** (denominación literal en la ley), conforme a eficacia y eficiencia. |
+| **73.1.e.3.º** | Proponer medidas para incluir en los **planes de recursos humanos de la AGE**. | Dirigidas al **Ministerio organizativo** que señala la ley. |
+| **73.1.e.4.º** | Informar sobre la optimización de recursos humanos y materiales territoriales. | Especialmente si afecta a **más de un departamento ministerial**. |
+| **73.1.e.4.º** | Coordinar edificios administrativos de la organización territorial de la AGE y organismos públicos dependientes. | Conforme a **Ley 33/2003**, directrices del departamento de Hacienda y de la **Dirección General del Patrimonio del Estado**. |
+
+> ⚠️ **¡Foco Examen!:** Hay **dos periodicidades diferentes**: el **informe al Gobierno es anual** (**73.1.b.4.º**), pero los informes a los **Ministerios** sobre gestión territorial son **regulares y periódicos** (**73.1.e.1.º**). Proponer medidas para **planes de recursos humanos (73.1.e.3.º)** no equivale a aprobarlos.
+
+El **Delegado del Gobierno** puede requerir a los **titulares de servicios territoriales** toda la información sobre actividad, estructura, recursos humanos e inventarios de bienes, entre otras materias, para una gestión coordinada y eficaz (**art. 73.4**).
 
 ### Competencias estatales adicionales y mando de seguridad (art. 73.2–3)
 
@@ -1385,10 +1392,19 @@ Corresponde al Subdelegado:
 
 ### Servicios y recursos
 
-- dirigir servicios integrados de la AGE;
-- impulsar, supervisar e inspeccionar servicios no integrados según términos legales;
-- coordinar utilización de medios materiales y edificios administrativos;
-- ejercer competencias sancionadoras y otras atribuidas legalmente.
+- **Art. 75.d:** dirigir, **en su caso**, los servicios integrados de la **AGE**, siguiendo las instrucciones del **Delegado del Gobierno** y de los **Ministerios correspondientes**; impulsar, supervisar e inspeccionar servicios **no integrados**.
+- **Art. 75.e:** coordinar el uso de **medios materiales** y, en particular, de **edificios administrativos** en el ámbito provincial.
+- **Art. 75.f:** ejercer la **potestad sancionadora** y las restantes atribuidas por normas o **desconcentradas/delegadas**.
+
+| Materia | **Subdelegado (art. 75)** | **Delegado (art. 73)** |
+|---|---|---|
+| **Fuerzas y Cuerpos de Seguridad del Estado** | **Dirige** en la **provincia** (**75.b**) | Ostenta **jefatura** en la **comunidad autónoma** (**73.3**) |
+| **Protección civil** | **Dirige y coordina** en la **provincia** (**75.c**) | Dirige y coordina la AGE territorial conforme a sus atribuciones generales |
+| **Servicios integrados** | Dirige **en su caso** y conforme a instrucciones (**75.d**) | Dirección y coordinación general territorial (**73.1.a**) |
+| **Potestad sancionadora** | **75.f** | **73.2** |
+| **Potestad expropiatoria** | **No atribuida expresamente por art. 75.f** | **Sí atribuida expresamente por art. 73.2** |
+
+> ⚠️ **¡Foco Examen!:** En la literalidad de los artículos, **Delegado (73.2) = potestad sancionadora y expropiatoria**; **Subdelegado (75.f) = potestad sancionadora y otras competencias atribuidas**. No atribuir al Subdelegado una potestad expropiatoria general solo por analogía.
 
 La ubicación de la **sede de la Delegación** en una provincia **no implica** que el **Delegado del Gobierno** asuma automáticamente las competencias del **Subdelegado**. El **artículo 74, segundo párrafo**, atribuye esa asunción al **Delegado** cuando se trata de una **comunidad autónoma uniprovincial sin Subdelegado**.
 
