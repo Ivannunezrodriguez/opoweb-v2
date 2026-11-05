@@ -61,3 +61,23 @@ El [**cotejo individual de las veinte preguntas y sus ochenta opciones**](cotejo
 > ⚠️ **¡Foco Examen!:** **Cartera europea ≠ certificado de firma**, **declaración de atributos ≠ identificación obligatoria**, **firma en nube ≠ cualificada automáticamente**. El plazo de **24 meses** de cartera no comienza simplemente en la publicación de la reforma.
 
 **Alcance:** cotejo jurídico-documental de la reforma, sin certificación integral del manual ni pruebas de navegación real.
+
+
+## Administración electrónica: cotejo agrupado RD 203/2021 y Ley 39/2015 — **05/11/2026**
+
+[**Informe de los ocho apartados de identificación y firma administrativa**](cotejo-rd203-administraciones-2026-11-05.md). Contraste sobre [**Ley 39/2015, arts. 9–12**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) y [**RD 203/2021 consolidado, arts. 16–23 y 26–30**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032), actualizado **02/04/2025**.
+
+| Fuente | Dato concreto de examen |
+|---|---|
+| **RD 203/2021, 16** | **SGAD**, plataforma de verificación **gratuita para el sector público**; acceso mediante adhesión |
+| **RD 203/2021, 17** | Política estatal por **resolución de Secretaría de Estado de Digitalización e Inteligencia Artificial**; publicación en **BOE y PAGe** |
+| **RD 203/2021, 18** | Sede general: certificado cualificado **o equivalente**; sede **AGE**: certificado cualificado, dominio **`.gob.es`** |
+| **RD 203/2021, 19** | Crear sello estatal: resolución de **Subsecretaría / Presidencia / Dirección**; publicación en sede |
+| **RD 203/2021, 20–21** | Actuación automatizada con sello o **CSV**; verificación **directa y gratuita**; CSV distinto tras cambios; **mínimo 5 años** de comprobación en sede **AGE** |
+| **RD 203/2021, 23** | Certificado de **empleado con número profesional** en condiciones tasadas, identidad custodiada y revelación oficial |
+| **RD 203/2021, 27** | Atributos del certificado de persona física, jurídica y representante |
+| **RD 203/2021, 30** | Firma por funcionario habilitado para interesado no obligado: **identidad, consentimiento expreso escrito y entrega de copia** |
+
+> ⚠️ **¡Foco Examen!:** **Vigencia máxima de certificado de 5 años (Ley 6/2020)** y **disponibilidad mínima de CSV durante 5 años en sede estatal (RD 203/2021)** son normas distintas. La sede web no firma el documento por el hecho de tener HTTPS.
+
+**Estado editorial:** cotejo jurídico-documental de ocho apartados; T14 continúa **EN_AUDITORIA**, sin navegador real ni certificación integral.
