@@ -1078,9 +1078,20 @@ Comprenden, entre otras materias:
 - inspección de servicios;
 - estadística y publicaciones.
 
-La organización y gestión de servicios comunes puede coordinarse centralizadamente por el departamento competente o por la Subsecretaría de cada Ministerio.
+### Gestión compartida de servicios comunes (artículo 68.3)
+
+La gestión compartida de determinados servicios comunes debe preverse mediante **Real Decreto**. La norma distingue **dos modalidades**, que pueden articularse también a través de **organismos autónomos**:
+
+| Modalidad legal | Quién coordina o presta el servicio común |
+|---|---|
+| **68.3.a** · Coordinación centralizada para varios Ministerios | El **Ministerio de Hacienda y Administraciones Públicas** (denominación literal en la ley) **o un organismo autónomo vinculado o dependiente de él**. |
+| **68.3.b** · Coordinación dentro de cada Ministerio | La **Subsecretaría del Ministerio** **o un organismo autónomo vinculado o dependiente de ella**, para todo el departamento. |
+
+El **Real Decreto** que establezca la gestión compartida del **art. 68.3.b** concretará además el régimen de **dependencia orgánica y funcional del personal** que prestaba los servicios afectados. No sustituir las denominaciones literales de la ley por otras actuales sin explicar su fundamento normativo.
 
 Los servicios comunes no deben confundirse con las áreas sectoriales que constituyen la política sustantiva del departamento.
+
+> ⚠️ **¡Foco Examen!:** El **art. 68.3** exige **Real Decreto** para prever la gestión compartida; **un organismo autónomo** puede ser prestador en **ambas modalidades**. **Servicios comunes** no equivalen a áreas de política sectorial.
 
 ## 9. Cuadro comparativo
 
@@ -1211,7 +1222,23 @@ Nombramiento y cese:
 - Real Decreto del Consejo de Ministros;
 - propuesta del Presidente del Gobierno;
 - criterios de competencia profesional y experiencia;
-- requisitos de idoneidad de la Ley 3/2015.
+- requisitos de idoneidad de la **Ley 3/2015**.
+
+### Suplencia del Delegado del Gobierno (artículo 72.5)
+
+Por **ausencia, vacante o enfermedad**, el **Delegado del Gobierno** será suplido:
+
+1. Por el **Subdelegado del Gobierno que el propio Delegado designe**.
+2. **A falta de designación**, por el **Subdelegado de la provincia donde tenga sede la Delegación del Gobierno**.
+3. En las comunidades autónomas **uniprovinciales sin Subdelegado**, por el **Secretario General**.
+
+| Supuesto | Suplente legal | Artículo |
+|---|---|---|
+| Hay **Subdelegado designado** por el Delegado | **Ese Subdelegado** | **72.5** |
+| No hay **designación expresa** | **Subdelegado de la provincia sede** | **72.5** |
+| Comunidad **uniprovincial sin Subdelegado** | **Secretario General** | **72.5** |
+
+> ⚠️ **¡Foco Examen!:** La **suplencia del Delegado** del **art. 72.5** no es la **asunción de funciones del Subdelegado** prevista en el **art. 74**. **Provincia sede** determina la suplencia **a falta de designación**, pero **no** autoriza por sí sola a asumir competencias del Subdelegado.
 
 ## 5. Artículo 73 · competencias del Delegado
 
@@ -1323,19 +1350,34 @@ Corresponde al Subdelegado:
 - coordinar utilización de medios materiales y edificios administrativos;
 - ejercer competencias sancionadoras y otras atribuidas legalmente.
 
-En provincias donde radique la sede del Delegado, este puede asumir funciones del Subdelegado.
+El **artículo 75** no establece que el **Delegado del Gobierno** asuma las competencias del **Subdelegado** por el simple hecho de radicar allí la **sede de la Delegación**. Esa afirmación se retira por carecer de apoyo en dicho precepto. La **asunción legal de competencias del Subdelegado** corresponde al **Delegado** en las **comunidades autónomas uniprovinciales sin Subdelegado** (**artículo 74**, segundo párrafo).
+
+| Supuesto | Consecuencia jurídica | Fundamento |
+|---|---|---|
+| Provincia con **Subdelegado**, aunque sea sede de la Delegación | El **Subdelegado** ejerce las competencias del **artículo 75** | **Arts. 74–75** |
+| Comunidad **uniprovincial sin Subdelegado** | El **Delegado** asume competencias atribuidas a los **Subdelegados** | **Art. 74** |
+| **Ausencia, vacante o enfermedad del Delegado** | Se aplica el orden de **suplencia** del **artículo 72.5**, no la asunción del **art. 74** | **Art. 72.5** |
+
+> ⚠️ **¡Foco Examen!:** **Sede de la Delegación ≠ asunción automática de competencias del Subdelegado.** Memoriza por separado **art. 74 (asunción en uniprovincial sin Subdelegado)** y **art. 72.5 (suplencia del Delegado)**.
 
 ## 8. Artículo 76 · estructura de Delegaciones y Subdelegaciones
 
-La estructura se fija por Real Decreto del Consejo de Ministros.
+La estructura de las **Delegaciones y Subdelegaciones del Gobierno** se fija por **Real Decreto del Consejo de Ministros**, a propuesta del **Ministerio de Hacienda y Administraciones Públicas** —denominación literal del **artículo 76.1**—, por razón de la dependencia orgánica de las Delegaciones.
 
-Deben contar en todo caso con una Secretaría General:
+Deben contar, **en todo caso**, con una **Secretaría General**:
 
 - dependiente del Delegado o Subdelegado;
 - encargada de servicios comunes;
 - de ella dependen servicios integrados y unidades que determine la RPT.
 
-La integración o desintegración de servicios territoriales se acuerda mediante Real Decreto del Consejo de Ministros, a propuesta conjunta de los departamentos competentes.
+La **integración o desintegración** de servicios territoriales en las **Delegaciones del Gobierno** se acuerda por **Real Decreto del Consejo de Ministros**, a propuesta conjunta del **Ministerio de Hacienda y Administraciones Públicas** (denominación literal del **art. 76.2**) y del **Ministerio competente en el área de actividad**.
+
+| Actuación | Órgano / instrumento | Propuesta |
+|---|---|---|
+| Establecer **estructura** de Delegaciones y Subdelegaciones | **Real Decreto del Consejo de Ministros** | **Ministerio con competencia organizativa**, identificado literalmente por la Ley (**76.1**) |
+| **Integrar o desintegrar** servicios territoriales | **Real Decreto del Consejo de Ministros** | **Ministerio de organización + Ministerio sectorial** (**76.2**) |
+
+> ⚠️ **¡Foco Examen!:** La propuesta para **integrar o desintegrar** servicios territoriales es **conjunta** (**art. 76.2**), mientras que para la **estructura** el **art. 76.1** atribuye la propuesta al departamento organizativo.
 
 ## 9. Artículo 77 · asistencia jurídica y control económico
 
@@ -1366,7 +1408,7 @@ Existe Comisión territorial de asistencia al Delegado:
 
 - presidida por el Delegado;
 - integrada por Subdelegados de las provincias;
-- pueden asistir titulares de órganos y servicios territoriales.
+- **deberán asistir a sus sesiones** los **titulares de órganos y servicios territoriales**, integrados o no integrados, **que el Delegado considere oportunos** (**art. 79.1.b**).
 
 Funciones:
 
@@ -1385,7 +1427,15 @@ Existe Comisión de asistencia al Delegado formada por:
 
 ### Provincias
 
-En cada Subdelegación existe Comisión de asistencia al Subdelegado con funciones equivalentes en el ámbito provincial.
+En **cada Subdelegación** existe una **Comisión de asistencia al Subdelegado**, **presidida por el Subdelegado** e integrada por el **Secretario General** y por los **titulares de órganos y servicios territoriales** integrados o no integrados que el Subdelegado considere oportunos. Ejerce en la provincia las funciones de la comisión del **art. 79.1**.
+
+| Ámbito | Comisión | Presidencia e integrantes necesarios |
+|---|---|---|
+| **Comunidad pluriprovincial** | **Comisión territorial de asistencia al Delegado** | **Delegado** y **Subdelegados**; asistencia de otros titulares convocados conforme al **79.1.b** |
+| **Comunidad uniprovincial** | **Comisión de asistencia al Delegado** | **Delegado**, **Secretario General** y titulares que considere oportunos |
+| **Cada Subdelegación** | **Comisión de asistencia al Subdelegado** | **Subdelegado**, **Secretario General** y titulares que considere oportunos |
+
+> ⚠️ **¡Foco Examen!:** El **Secretario General** integra necesariamente la comisión del **Delegado uniprovincial** y la del **Subdelegado**. En la comisión territorial **pluriprovincial** son miembros los **Subdelegados de las provincias**.
 
 ## 12. Artículo 80 · Servicio Exterior
 
