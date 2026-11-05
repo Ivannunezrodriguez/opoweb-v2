@@ -70,7 +70,15 @@ La creación de un órgano exige, al menos:
 2. delimitar funciones y competencias;
 3. dotar los créditos necesarios para puesta en marcha y funcionamiento.
 
-No puede crearse un órgano que duplique otro existente sin suprimir o restringir adecuadamente las competencias del anterior. Debe comprobarse previamente que no exista en la misma Administración otro órgano que ejerza igual función sobre el mismo territorio y población.
+No puede crearse un órgano que duplique otro existente sin suprimir o restringir adecuadamente las competencias del anterior. Debe comprobarse previamente que no exista en la **misma Administración** otro órgano que ejerza **igual función sobre el mismo territorio y población** (**art. 5.4**).
+
+| Requisito | Artículo | Pregunta habitual |
+|---|---|---|
+| Unidad con efectos jurídicos frente a terceros **o actuación preceptiva** | **5.1** | ¿Es imprescindible que produzca efectos frente a terceros? **No**: basta una de las dos condiciones. |
+| Integración y dependencia, funciones y competencias, créditos | **5.3** | Son **tres requisitos mínimos** de creación. |
+| Comprobación de ausencia de duplicidades | **5.4** | **Misma Administración**, igual función, territorio y población. |
+
+> ⚠️ **¡Foco Examen!:** **Órgano** no equivale a cualquier **unidad administrativa**: se exige que tenga **efectos jurídicos frente a terceros** **o** que su actuación sea **preceptiva** (**art. 5.1**).
 
 ## 2. Artículo 6 · instrucciones y órdenes de servicio
 
@@ -78,12 +86,21 @@ Los órganos pueden dirigir la actividad de sus dependientes jerárquicos median
 
 Se publican en el boletín oficial correspondiente cuando:
 
-- lo exige una disposición específica;
-- o resulta conveniente por sus destinatarios o efectos.
+- lo exige una **disposición específica**;
+- o resulta **conveniente por razón de los destinatarios o de los efectos** que puedan producirse.
+
+La publicación en el boletín correspondiente es **compatible con su difusión conforme a la Ley 19/2013, de 9 de diciembre, de transparencia** (**art. 6.1**). No hay una exigencia general de publicar **todas** las instrucciones en boletín.
 
 Su incumplimiento no invalida por sí solo los actos dictados, aunque puede generar responsabilidad disciplinaria.
 
 Una instrucción organiza o dirige internamente. No debe confundirse automáticamente con un reglamento ni utilizarse para crear obligaciones nuevas a ciudadanos sin cobertura normativa.
+
+| Actuación | Publicación | Efecto de su incumplimiento |
+|---|---|---|
+| **Instrucción u orden de servicio** (**art. 6**) | En boletín **si una disposición lo exige o resulta conveniente** | **No invalida por sí solo** el acto administrativo, sin perjuicio de responsabilidad disciplinaria. |
+| **Disposición general** | Sigue su **procedimiento normativo y publicidad propios** | No se equipara a una mera instrucción interna. |
+
+> ⚠️ **¡Foco Examen!:** El **incumplimiento de una instrucción** no determina automáticamente la **invalidez del acto** (**art. 6.2**). La **responsabilidad disciplinaria** es cuestión separada.
 
 ## 3. Artículo 7 · órganos consultivos
 
@@ -96,7 +113,9 @@ Cuando se utilicen servicios de la Administración activa, deben garantizar inde
 
 - sin dependencia jerárquica orgánica o funcional;
 - sin instrucciones, directrices o indicaciones;
-- actuando colegiadamente para preservar la independencia.
+- actuando **de forma colegiada** para cumplir dichas garantías.
+
+> ⚠️ **¡Foco Examen!:** Los **servicios de asistencia jurídica** de la propia Administración que ejerzan funciones consultivas **no** pueden depender jerárquica **ni funcionalmente**, ni recibir instrucciones del **órgano autor** de la disposición o acto objeto de consulta (**art. 7**).
 
 ## 4. Artículo 8 · competencia
 
@@ -114,7 +133,9 @@ La desconcentración puede trasladar titularidad y ejercicio a órganos jerárqu
 Cuando una norma atribuye competencia a una Administración sin precisar órgano:
 
 - instruye y resuelve el órgano inferior competente por materia y territorio;
-- si hay varios, corresponde al superior jerárquico común.
+- si hay **varios órganos inferiores competentes** por materia y territorio, corresponde al **superior jerárquico común** (**art. 8.3**).
+
+> ⚠️ **¡Foco Examen!:** **Delegación, encomienda, firma y suplencia no alteran la titularidad** (**art. 8.1**). La **desconcentración** del **art. 8.2** sí puede afectar a **titularidad y ejercicio** según la **norma atributiva**.
 
 ## 5. Artículo 9 · delegación de competencias
 
@@ -157,7 +178,14 @@ No pueden delegarse:
 - La delegación es revocable en cualquier momento.
 - Si la competencia de un órgano colegiado exige quórum o mayoría especial, la delegación debe aprobarse con ese mismo quórum o mayoría.
 
-La existencia de un informe preceptivo no impide delegar la resolución, pero ya no puede delegarse después de haberse emitido ese informe sobre el procedimiento concreto.
+La existencia de un **dictamen o informe preceptivo** previsto como trámite no impide **por sí sola** delegar la competencia para resolver. **No podrá delegarse la resolución una vez que en el procedimiento concreto se haya emitido el dictamen o informe preceptivo sobre el mismo** (**art. 9.5**).
+
+| Momento | ¿Puede delegarse la resolución? |
+|---|---|
+| La norma exige **dictamen o informe preceptivo**, pero **todavía no se ha emitido** en el expediente | **Sí**, si se cumplen los demás requisitos de la delegación. |
+| **Ya se ha emitido** un **dictamen o informe preceptivo** referido al procedimiento concreto | **No** cabe delegar entonces esa competencia para resolver. |
+
+> ⚠️ **¡Foco Examen!:** **Art. 9.5:** el obstáculo no es que el informe o dictamen sea **preceptivo**, sino que **ya haya sido emitido** en ese procedimiento. El acuerdo de delegación y su revocación se **publican** (**art. 9.3**).
 
 ## 6. Artículo 10 · avocación
 
@@ -176,7 +204,9 @@ La avocación exige:
 - acuerdo motivado;
 - notificación a los interesados antes o simultáneamente a la resolución final.
 
-No cabe recurso autónomo contra la avocación. Puede cuestionarse al recurrir la resolución final.
+No cabe **recurso autónomo** contra el **acuerdo de avocación**; podrá cuestionarse en el recurso que proceda contra la resolución del procedimiento (**art. 10.2**).
+
+> ⚠️ **¡Foco Examen!:** Cuando el órgano delegado **no depende jerárquicamente** del delegante, la **avocación del asunto** solo corresponde al **órgano delegante** (**art. 10.1**), no a cualquier órgano superior.
 
 ## 7. Artículo 11 · encomienda de gestión
 
@@ -206,7 +236,14 @@ Entre Administraciones distintas:
 
 - convenio;
 - publicación en el diario oficial correspondiente;
-- excepción de la gestión ordinaria autonómica por Diputaciones, Cabildos o Consejos insulares, sometida a régimen local.
+- excepción de la **gestión ordinaria de servicios autonómicos** por **Diputaciones, Cabildos o Consejos Insulares**, que se rige por **legislación de régimen local** (**art. 11.3.b**).
+
+| Tipo de encomienda | Formalización y publicidad |
+|---|---|
+| **Misma Administración** | Normativa propia o **acuerdo expreso**; **instrumento de formalización y resolución** publicados en el boletín correspondiente **para eficacia**. |
+| **Distintas Administraciones** | **Convenio** que se publica en el boletín correspondiente, con excepción indicada de gestión ordinaria local. |
+
+> ⚠️ **¡Foco Examen!:** **Encomendante** conserva competencia y dicta **actos jurídicos**; **encomendado** hace actividad **material o técnica**. El **art. 11.1** excluye prestaciones propias de **contratos del sector público**.
 
 ## 8. Artículo 12 · delegación de firma
 
@@ -221,6 +258,8 @@ Reglas:
 - respeta los límites de las materias indelegables.
 
 El firmante material no se convierte en titular de la competencia ni autor jurídico del acto.
+
+> ⚠️ **¡Foco Examen!:** **Delegación de firma (art. 12)**: no altera competencia, **no exige publicación** para su validez y debe indicar la **autoridad de procedencia**. **Delegación de competencias (art. 9)**: su acuerdo y revocación **sí se publican**.
 
 ## 9. Artículo 13 · suplencia
 
@@ -240,22 +279,37 @@ La suplencia:
 - no requiere publicación para su validez;
 - debe hacerse constar en el acto, identificando al titular suplido y a quien ejerce la suplencia.
 
-En la Administración General del Estado puede preverse en el real decreto de estructura, estatuto del organismo o acto del órgano competente para nombrar al titular.
+En el ámbito de la **Administración General del Estado**, la **designación del suplente** puede realizarse (**art. 13.3**):
+
+- en los **reales decretos de estructura orgánica básica** de los departamentos ministeriales o en los **estatutos** de sus organismos y entidades vinculados o dependientes;
+- mediante acto del **órgano competente para el nombramiento del titular**, **en el propio nombramiento** o **en un acto posterior** cuando ocurra el supuesto de suplencia.
+
+La resolución dictada en suplencia identificará tanto al **titular suplido** como a quien **ejerce efectivamente la suplencia** (**art. 13.4**).
+
+> ⚠️ **¡Foco Examen!:** **Suplencia (art. 13)**: puede responder a **vacante, ausencia, enfermedad, abstención o recusación**; **no requiere publicación** para su validez. **Designación del suplente** y **delegación de competencias** no son lo mismo.
 
 ## 10. Artículo 14 · decisiones sobre competencia
 
 El órgano que se considere incompetente remitirá directamente las actuaciones al que estime competente y lo notificará a los interesados.
 
-Los interesados pueden:
+Los **interesados que sean parte en el procedimiento** podrán, conforme al **art. 14.2**:
 
-- pedir al órgano actuante que decline la competencia;
-- dirigirse al órgano que consideran competente para que requiera de inhibición.
+- pedir al **órgano actuante** que **decline su competencia** y remita las actuaciones al competente;
+- dirigirse al **órgano que consideran competente** para que **requiera de inhibición** al que conoce el asunto.
 
 Los conflictos de atribuciones solo pueden plantearse:
 
 - entre órganos de una misma Administración;
 - no relacionados jerárquicamente;
-- respecto de procedimientos todavía no finalizados.
+- respecto de **asuntos cuyo procedimiento administrativo no haya finalizado** (**art. 14.3**).
+
+| Situación | Regla |
+|---|---|
+| El **órgano actuante** se cree incompetente | **Remite directamente** las actuaciones al que estime competente y **notifica a los interesados** (**14.1**). |
+| Los **interesados que son parte** cuestionan la competencia | Pueden solicitar **declinación** o acudir al órgano que estimen competente para pedir **inhibición** (**14.2**). |
+| **Conflicto de atribuciones** | Solo **misma Administración + sin relación jerárquica + procedimiento no finalizado** (**14.3**). |
+
+> ⚠️ **¡Foco Examen!:** En el **art. 14.2** la ley dice **«los interesados que sean parte en el procedimiento»**, no cualquier ciudadano ajeno al expediente. **Conflicto de atribuciones** no es sinónimo de litigio entre Administraciones distintas.
 
 ## 11. Tabla comparativa
 
