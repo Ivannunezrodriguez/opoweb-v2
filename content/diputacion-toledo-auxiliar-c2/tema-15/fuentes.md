@@ -126,3 +126,19 @@ El [informe del cotejo focal por artículos 5–14](cotejo-manual-organos-compet
 > ⚠️ **¡Foco Examen!:** **Sede provincial del Delegado** no implica atribución de competencias del Subdelegado. **Art. 72.5 = suplencia del Delegado**; **art. 74 = asunción de funciones del Subdelegado solo en comunidad uniprovincial sin Subdelegado**.
 
 **Estado:** cotejo jurídico focal de **54–80**, pendientes revisión literal profunda de **61–62** y **73–79**, prueba real de navegador, móvil y accesibilidad, sin promover el tema a `AUDITADO`.
+
+
+## Competencias de Ministros, Secretarios de Estado y órganos periféricos — **05/11/2026**
+
+Se han cotejado [**artículos 61, 62, 73 y 75 de la Ley 40/2015**](cotejo-funciones-61-62-73-75-2026-11-05.md) con su [texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
+
+| Artículo | Control de cobertura | Trampa jurídica |
+|---|---|---|
+| [**61**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a61) | **21 letras** a)–t), incluida ñ), individualizadas | **Revisión de oficio j)** vs **recursos/lesividad ñ)**; **planes de empleo q)** vs **RPT r)**; **separación del servicio s)** |
+| [**62**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a62) | **11 letras** a)–k) del apartado 2 y representación por delegación del apartado 1 | **Autorización previa de contratos de organismos autónomos e)**, **comisiones indemnizadas f)**, **recursos de órganos directamente dependientes i)** |
+| [**73**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a73) | Dirección, información, cooperación, legalidad, políticas públicas y potestades | **Informe anual al Gobierno** vs información **regular y periódica** a Ministerios, **informe previo ministerial** en recursos, potestad **expropiatoria** |
+| [**75**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a75) | Letras **a)–f)** con dos subincisos de cooperación | **FFCCSE: dirección provincial**; potestad **sancionadora** sin atribución expropiatoria general expresa en ese artículo |
+
+> ⚠️ **¡Foco Examen!:** El **art. 62.2.e** del BOE conserva una remisión a normativa contractual histórica (**RDL 3/2011**); no atribuir una **cuantía numérica vigente** sin contrastar la norma de contratación aplicable. **Delegado (73.2)** y **Subdelegado (75.f)** no tienen idéntico catálogo de potestades expresas.
+
+**Límites:** ampliación jurídico-editorial de estos artículos. Quedan pendientes remisiones contractuales vigentes, examen integral del manual y pruebas de navegación reales; tema **EN_AUDITORIA**.
