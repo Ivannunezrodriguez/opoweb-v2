@@ -70,5 +70,33 @@
     "estado": "BANCO_COTEJADO_MANUAL_PENDIENTE_COTEJO_INTEGRAL",
     "navegador": "PENDIENTE",
     "aprobacionIntegral": false
+  },
+  "controlManualColegiados20261105": {
+    "fecha": "2026-11-05",
+    "estado": "REVISION_FOCAL_MANUAL_ARTS_17_19_22_23_PENDIENTE_COTEJO_INTEGRAL",
+    "articulos": [
+      "17.2–3",
+      "17.5–6",
+      "18.1–2",
+      "19.3.a",
+      "19.5",
+      "22.1–3",
+      "23.2.e"
+    ],
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-manual-colegiados-2026-11-05.md",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+    "campos": [
+      "constitucion sin convocatoria",
+      "exencion por voto contrario",
+      "grabacion certificada",
+      "aprobacion actas",
+      "convocatoria AGE dos dias",
+      "voto particular",
+      "creacion formal BOE",
+      "abstencion dos años"
+    ],
+    "certificacionManualCompleto": false,
+    "navegacionReal": "PENDIENTE",
+    "validacionJuridicaTotal": false
   }
 }
