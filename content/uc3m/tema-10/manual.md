@@ -234,6 +234,20 @@ El reingreso de quienes no tienen reserva de puesto se efectúa mediante los pro
 - La excedencia por interés particular no computa, con carácter general, a efectos de trienios y carrera.
 - La suspensión firme superior a seis meses implica pérdida del puesto.
 
+## Precisión de vigencia del TREBEP y excepción temporal — **05/11/2026**
+
+El [**TREBEP consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) tiene última modificación **publicada el 03/10/2026**, mediante [**Ley 4/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528), con entrada en vigor de la modificación del **art. 49.e** desde **23/10/2026**. Es una **reforma posterior** a la fecha **01/10/2026** mencionada en una fuente secundaria como posible publicación de listas definitivas. **No se da esa fecha por acreditada** hasta leer la resolución original de la **UC3M**.
+
+| Cuestión | Regla jurídicamente distinta | Aplicación al test |
+|---|---|---|
+| **Norma en vigor el 05/11/2026** | El **artículo 49.e** incorpora protección específica para reducciones de jornada por cuidado de hijos con cáncer u otras enfermedades graves, con supuestos excepcionales de gran discapacidad/dependencia y requisitos de acreditación | Es una modificación publicada **03/10** y vigente **23/10** |
+| **Corte establecido por las bases UC3M** | Lo fija la **publicación de la lista definitiva y anuncio del ejercicio**, no la fecha de examen | **Pendiente cotejar fecha efectiva en la resolución primaria**; no estudiar como exigible una reforma posterior al corte |
+| **Temario nuclear del tema 10** | **Clases de personal, derechos, código de conducta, acceso, pérdida y situaciones administrativas** | Artículos base **9, 10, 12, 18, 20, 54, 56, 61–64, 89–90**, contrastados en las **12 claves** |
+
+El derecho de reducción retribuida del **art. 49.e** exige circunstancias y límites legales; no es una autorización universal e incondicionada ni una disposición general sobre cualquier excedencia.
+
+> ⚠️ **¡Foco Examen!:** **Publicación 03/10/2026 ≠ vigencia 23/10/2026 ≠ corte normativo UC3M**. Solo se examina la redacción aplicable a la fecha de corte efectivamente publicada; evitar memorizar como vigentes en ese corte cambios posteriores sin verificación.
+
 ## Cotejo de las 48 alternativas del banco · 04/11/2026
 
 [**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
