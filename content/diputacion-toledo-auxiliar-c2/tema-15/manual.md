@@ -335,7 +335,19 @@ Para la válida constitución deben asistir, presencialmente o a distancia:
 
 En los órganos representativos del artículo 15.2 puede bastar la asistencia de los portavoces de las Administraciones y organizaciones representadas cuando el Presidente así lo considere conforme a la ley.
 
-El órgano puede establecer un régimen de segunda convocatoria y el quórum necesario.
+El órgano puede establecer un régimen de **segunda convocatoria** y el **cuórum** necesario para ella (**art. 17.3**).
+
+### Constitución sin convocatoria previa: regla especial del artículo 17.2
+
+Cuando estén reunidos, presencialmente o a distancia, el **Secretario** y **todos los miembros del órgano colegiado** (o quienes los suplan), podrá constituirse válidamente **sin convocatoria previa** **si así lo deciden todos sus miembros**.
+
+| Supuesto | Cuórum o voluntad exigible | Base legal |
+|---|---|---|
+| **Sesión convocada ordinariamente** | **Presidente** y **Secretario** (o suplentes) y **al menos la mitad** de los miembros | **17.2**, regla general |
+| **Sesión sin convocatoria previa** | **Secretario y todos los miembros** (o suplentes), con **decisión de todos** de constituirse | **17.2**, párrafo tercero |
+| **Segunda convocatoria** | El cuórum que resulte del régimen aplicable establecido para esa segunda convocatoria | **17.3** |
+
+> ⚠️ **¡Foco Examen!:** **Mitad de miembros** es el cuórum **ordinario**, no autoriza por sí sola a reunirse **sin convocatoria**. Para esta excepción se exige la presencia del **Secretario y todos los miembros** y que **todos** decidan constituirse.
 
 ### Convocatoria y orden del día
 
@@ -352,7 +364,11 @@ No puede deliberarse ni acordarse sobre asuntos fuera del orden del día, salvo 
 
 ### Acuerdos
 
-Los acuerdos se adoptan por mayoría de votos.
+Los acuerdos se adoptan por **mayoría de votos** (**artículo 17.5**).
+
+El **artículo 17.6** establece que los miembros que **voten en contra** o **se abstengan** quedan **exentos de la responsabilidad** que, en su caso, pueda derivarse de los acuerdos. Esta exención no elimina las condiciones legales para abstenerse: en los órganos de la **AGE** rige además la especialidad del **art. 19.3.c** sobre miembros natos por ser autoridad o personal al servicio de una Administración.
+
+> ⚠️ **¡Foco Examen!:** **Art. 17.5 = mayoría de votos**; **art. 17.6 = exención de responsabilidad** por votar en contra o abstenerse. No confundir con la **abstención obligatoria por conflicto de interés** del **art. 23**.
 
 En sesiones a distancia se entienden adoptados en el lugar de la sede del órgano colegiado o, en su defecto, donde esté la Presidencia.
 
@@ -370,7 +386,9 @@ El Secretario levanta acta de cada sesión. Debe indicar:
 
 ### Grabación
 
-Las sesiones pueden grabarse. El archivo resultante y los documentos electrónicos utilizados pueden acompañar al acta sin necesidad de transcribir íntegramente las deliberaciones.
+Las sesiones **pueden grabarse** (**artículo 18.1**). Cuando se adjunte al acta el fichero de la grabación para no reproducir en ella los puntos principales de las deliberaciones, debe acompañarse de la **certificación expedida por el Secretario de la autenticidad e integridad** del propio fichero; también pueden incorporarse los documentos electrónicos utilizados en la sesión.
+
+> ⚠️ **¡Foco Examen!:** **Grabar la sesión no basta por sí solo** para omitir las deliberaciones del acta: el **art. 18.1** exige el fichero **junto con la certificación del Secretario** sobre autenticidad e integridad.
 
 Deben garantizarse:
 
@@ -382,10 +400,14 @@ Deben garantizarse:
 
 El acta se aprueba:
 
-- en la misma sesión;
-- o en la siguiente.
+- en la **misma reunión**;
+- o en la **inmediata siguiente**.
 
-El Secretario puede certificar acuerdos antes de aprobarse el acta, haciendo constar esa circunstancia.
+El **Secretario**, con el **visto bueno del Presidente**, elabora el acta y la remite electrónicamente a los miembros para que manifiesten su conformidad o reparos (**art. 18.2**).
+
+El Secretario puede **certificar acuerdos antes de aprobarse el acta**, pero debe **hacer constar expresamente** esta circunstancia en la certificación (regla desarrollada para los colegiados de la AGE en el **art. 19.5**).
+
+> ⚠️ **¡Foco Examen!:** **Aprobación del acta** en la **misma reunión o la inmediata siguiente**; la **certificación de acuerdos** puede emitirse antes de la aprobación, indicando expresamente esa situación.
 
 También se considera aprobada en la misma sesión cuando se distribuye después por medios electrónicos y todos los miembros manifiestan conformidad por un medio del que el Secretario deja constancia.
 
@@ -478,11 +500,21 @@ También pueden participar organizaciones representativas de intereses sociales 
 
 ## 8. Artículo 22 · creación, modificación y supresión
 
-La creación formal es necesaria cuando se atribuyen:
+En los casos del **artículo 22.1**, la creación requiere **norma específica** con **publicación en el Boletín Oficial del Estado (BOE)** cuando el órgano colegiado de la **Administración General del Estado** o de sus organismos públicos tenga atribuidas:
 
-- competencias decisorias;
-- propuesta o informes preceptivos que sirvan de base a decisiones de otros órganos;
-- seguimiento o control de otros órganos de la AGE.
+- **competencias decisorias**;
+- competencias de **propuesta** o de **emisión de informes preceptivos** que sirvan de base a decisiones de otros órganos administrativos;
+- competencias de **seguimiento o control** de las actuaciones de otros órganos de la **AGE**.
+
+Se diferencia de los **grupos o comisiones de trabajo** del **artículo 22.3**, que no encajan en dichos supuestos y cuyos acuerdos **no producen efectos directos frente a terceros**.
+
+| Clase de órgano colegiado | Forma de creación exigida (art. 22.2) |
+|---|---|
+| **Interministerial**, presidido por cargo de **rango superior a Director General** | **Real Decreto** |
+| **Interministerial** restante | **Orden ministerial conjunta** |
+| **Ministerial** | **Orden ministerial** |
+
+> ⚠️ **¡Foco Examen!:** Los órganos colegiados del **art. 22.1** necesitan **norma específica publicada en el BOE**. No confundir la forma de creación (**Real Decreto / Orden conjunta / Orden ministerial**) con los grupos de trabajo del **art. 22.3**.
 
 ### Forma de creación
 
@@ -506,7 +538,9 @@ Autoridades y personal deben abstenerse y comunicarlo al superior inmediato cuan
    - afinidad hasta segundo grado.
 3. Amistad íntima o enemistad manifiesta.
 4. Intervención como perito o testigo.
-5. Relación de servicio con interesado o servicios profesionales prestados en los dos años anteriores.
+5. **Relación de servicio** con **persona física o jurídica directamente interesada** en el asunto, o haberle prestado **servicios profesionales de cualquier tipo** en los **dos últimos años**, con independencia de circunstancia o lugar (**art. 23.2.e**).
+
+> ⚠️ **¡Foco Examen!:** Los **dos últimos años** se refieren a la **prestación anterior de servicios profesionales**. Tener una **relación de servicio actual** con persona directamente interesada constituye también motivo de abstención; no hay que exigir en ambos supuestos un contrato cerrado en el último bienio.
 
 El superior puede ordenar la abstención.
 
