@@ -1,147 +1,154 @@
 {
   "tema": 3,
   "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "version": "2026-11-05-bloque-general-01-04",
   "preguntas": [
     {
       "id": "OLIAS-T03-001",
       "enunciado": "Según el art. 4 ET, un derecho en la relación laboral es:",
       "opciones": [
-        "Soberanía municipal",
+        "Inamovilidad propia de funcionarios de carrera",
         "Ocupación efectiva",
-        "Concesión de licencias urbanísticas",
-        "Inamovilidad funcionarial absoluta"
+        "Libre promoción automática sin requisitos",
+        "Nombramiento político para cargo directivo"
       ],
       "respuestaCorrecta": 1,
       "justificacion": "El artículo 4 recoge expresamente la ocupación efectiva.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El artículo 4 recoge expresamente la ocupación efectiva.",
-      "referencia": "ET, art. 4"
+      "referencia": "ET, art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a4"
     },
     {
       "id": "OLIAS-T03-002",
       "enunciado": "El deber de buena fe y diligencia figura en:",
       "opciones": [
-        "LRBRL, art. 26",
-        "Código Civil, art. 10",
-        "CE, art. 2",
+        "ET, artículo 4.1",
+        "ET, artículo 17",
+        "TREBEP, artículo 54",
         "ET, art. 5"
       ],
       "respuestaCorrecta": 3,
       "justificacion": "El Estatuto contempla buena fe y diligencia.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El Estatuto contempla buena fe y diligencia.",
-      "referencia": "ET, art. 5"
+      "referencia": "ET, art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a5"
     },
     {
       "id": "OLIAS-T03-003",
       "enunciado": "El personal laboral al servicio público se vincula mediante:",
       "opciones": [
-        "Concesión administrativa",
-        "Siempre nombramiento funcionarial",
+        "Nombramiento como funcionario interino",
+        "Resolución de adscripción estatutaria",
         "Contrato de trabajo escrito",
-        "Solo acto de jura"
+        "Contrato administrativo de servicios sujeto a la LCSP"
       ],
       "respuestaCorrecta": 2,
       "justificacion": "El artículo 11 TREBEP contempla contrato de trabajo.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El artículo 11 TREBEP contempla contrato de trabajo.",
-      "referencia": "TREBEP, art. 11"
+      "referencia": "TREBEP, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a11"
     },
     {
       "id": "OLIAS-T03-004",
       "enunciado": "La selección de personal laboral público debe respetar:",
       "opciones": [
-        "Antigüedad familiar",
+        "Confianza política y libre elección sin convocatoria",
         "Igualdad, mérito y capacidad",
-        "Designación secreta sin publicidad",
-        "Sorteo libre sin bases"
+        "Discrecionalidad sin publicidad",
+        "Solo antigüedad y residencia previa"
       ],
       "respuestaCorrecta": 1,
       "justificacion": "Principios expresos del TREBEP.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Principios expresos del TREBEP.",
-      "referencia": "TREBEP, art. 11.3"
+      "referencia": "TREBEP, art. 11.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a11"
     },
     {
       "id": "OLIAS-T03-005",
       "enunciado": "¿Qué precepto LPRL reconoce protección eficaz?",
       "opciones": [
         "Art. 14",
-        "Art. 64",
-        "Art. 108",
-        "Art. 99"
+        "Artículo 15",
+        "Artículo 18",
+        "Artículo 29"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Derecho y deber correlativo de prevención.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Derecho y deber correlativo de prevención.",
-      "referencia": "LPRL, art. 14"
+      "referencia": "LPRL, art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14"
     },
     {
       "id": "OLIAS-T03-006",
       "enunciado": "La información y formación preventiva se regulan en:",
       "opciones": [
-        "Art. 5 de las bases postales",
+        "Artículos 15 y 16",
         "Arts. 18 y 19 LPRL",
-        "Art. 45 CE exclusivamente",
-        "Art. 2 LRBRL"
+        "Artículos 20 y 21",
+        "Artículos 22 y 23"
       ],
       "respuestaCorrecta": 1,
       "justificacion": "Derechos de información y formación.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Derechos de información y formación.",
-      "referencia": "LPRL, arts. 18 y 19"
+      "referencia": "LPRL, arts. 18 y 19 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a18"
     },
     {
       "id": "OLIAS-T03-007",
       "enunciado": "Según art. 29 LPRL, el trabajador debe:",
       "opciones": [
-        "Anular el diferencial si dispara",
-        "Ignorar riesgos",
-        "Actuar sin procedimiento",
+        "Modificar por cuenta propia todos los dispositivos de protección",
+        "Cumplir únicamente los protocolos que considere útiles",
+        "Informar de riesgos solo después de sufrir un accidente",
         "No inutilizar dispositivos de seguridad"
       ],
       "respuestaCorrecta": 3,
       "justificacion": "El art. 29 exige usar correctamente los equipos y no inutilizar protecciones.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El art. 29 exige usar correctamente los equipos y no inutilizar protecciones.",
-      "referencia": "LPRL, art. 29"
+      "referencia": "LPRL, art. 29 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a29"
     },
     {
       "id": "OLIAS-T03-008",
       "enunciado": "¿Cuál es personal laboral fijo?",
       "opciones": [
         "Quien tiene contrato laboral fijo con una Administración",
-        "Todo funcionario interino",
-        "Todo personal eventual",
-        "Todo concejal"
+        "Personal funcionario interino",
+        "Personal eventual por nombramiento",
+        "Funcionario de carrera"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Vínculo laboral no debe confundirse con el estatutario.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Vínculo laboral no debe confundirse con el estatutario.",
-      "referencia": "TREBEP, art. 11"
+      "referencia": "TREBEP, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a11"
     },
     {
       "id": "OLIAS-T03-009",
       "enunciado": "¿Dónde están los principios de conducta de empleados públicos?",
       "opciones": [
-        "Ley 7/1985, art. 1",
-        "CE, art. 55",
+        "TREBEP, artículo 52",
+        "TREBEP, artículo 53",
         "TREBEP, art. 54",
-        "ET, art. 1"
+        "TREBEP, artículo 55"
       ],
       "respuestaCorrecta": 2,
       "justificacion": "El artículo 54 contiene principios de conducta.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El artículo 54 contiene principios de conducta.",
-      "referencia": "TREBEP, art. 54"
+      "referencia": "TREBEP, art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a54"
     },
     {
       "id": "OLIAS-T03-010",
       "enunciado": "¿Qué es preferente en prevención?",
       "opciones": [
-        "Sustituir toda prevención por cascos",
-        "Esperar siempre al accidente",
+        "Sustituir prevención colectiva por equipos individuales en todos los casos",
+        "Aplazar la evaluación hasta que ocurra un accidente",
         "Evitar riesgos en origen",
-        "No valorar riesgos"
+        "Asignar al trabajador toda la responsabilidad preventiva"
       ],
       "respuestaCorrecta": 2,
       "justificacion": "La acción preventiva prioriza evitar y combatir riesgos en origen.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: La acción preventiva prioriza evitar y combatir riesgos en origen.",
-      "referencia": "LPRL, art. 15"
+      "referencia": "LPRL, art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a15"
     }
-  ]
+  ],
+  "controlLote20261105": {
+    "fecha": "2026-11-05",
+    "estado": "BANCO_REVISADO_FUENTES_OFICIALES_PENDIENTE_INTEGRAL",
+    "preguntas": 10,
+    "alternativas": 40,
+    "certificacionIntegral": false
+  }
 }
