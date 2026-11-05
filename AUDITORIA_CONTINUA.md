@@ -2213,3 +2213,34 @@ Los distractores nuevos se centran en órganos y técnicas jurídicas realmente 
 **Hallazgo editorial reproducible:** la primera línea operativa del manual T15 todavía anunciaba el valor heredado `EN_REVISION_USUARIO` fechado 02/11, contradictorio con el estado permitido `EN_AUDITORIA` y con el banco 20/80 cotejado en §§75–77. Corregido el encabezado de `content/diputacion-toledo-auxiliar-c2/tema-15/manual.md` para separar **banco cotejado 20/80** de **manual integral sin certificar**; commit **`2ac1ea8a3bfdff61b5272490b711bf7d4308727a`**. No se modificaron preguntas, claves, matrices ni se reclamó nuevo cotejo normativo. Fuente normativa pendiente de contraste integral: Ley 40/2015 arts. 5–24 y 54–80, BOE https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566; programa BOP Toledo 197 de 14/10/2026, Anexo XI, CSV 2026.00004759.
 
 **Validación y pendientes:** CI/Pages del commit de contenido `2ac1ea8a` y del commit de registro posterior aún por comprobar en sus SHA exactos. No se ejecutaron pruebas de navegador, móvil, PWA ni accesibilidad. Cobertura de referencia sin elevar: **51/121 bancos históricos; 0/121 temas certificados integralmente**. Siguiente lote: **cotejar artículo por artículo el manual T15 completo**, con prioridad paralela La Puebla (14/11) y UC3M (21/11); después T14/eIDAS. T06 OAPGT reservado al final; Olías mantiene discrepancias pendientes. No reabrir Carranque ni Las Ventas.
+
+
+## 79. Diputación de Toledo C2 · Tema 15: cotejo jurídico focal del manual, artículos 17–19, 22–23 — 05/11/2026
+
+**Reanudación:** consultados `PROJECT_RULES.md`, último §78, GitHub HEAD `99da077651f1` y los dos workflows de Actions del SHA: **`Validar OpoWeb v2` success** (run **41999533517**) y **`pages build and deployment` success** (run **41999532884**). Son verificaciones técnicas de Actions, **no** una certificación del contenido ni prueba de navegador real.
+
+Se accedió al texto [**BOE consolidado de la Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), cuya última actualización publicada es **02/08/2024**, y se cotejaron pasajes concretos del manual de Diputación C2 **T15**, correspondientes a los **arts. 17, 18, 19, 22 y 23**. **Fuente del programa:** BOP Toledo **197/2026 de 14/10/2026**, Anexo XI, CSV **2026.00004759**.
+
+### Cambios efectivos frente al BOE
+
+| Precepto | Omisión o imprecisión corregida | Regla comprobada |
+|---|---|---|
+| **17.2–3** | Cuórum ordinario desarrollado sin la excepción de reunión sin convocatoria | **Secretario + todos los miembros**, o suplentes, con **decisión de todos** de constituirse sin convocatoria previa |
+| **17.5–6** | No constaba exención de responsabilidad de miembros que votan en contra o se abstienen | **Mayoría de votos** para acuerdos; exención por voto contrario o abstención, con especialidad del **art. 19.3.c** en la **AGE** |
+| **18.1–2** | Grabaciones sin detallar certificado del Secretario; acta «siguiente» sin matiz | La grabación unida al acta debe acompañarse de **certificación del Secretario sobre autenticidad e integridad**; acta en la **misma reunión o inmediata siguiente**, con **visto bueno del Presidente** |
+| **19.3.a** | Falta de plazo mínimo específico para convocatoria de órganos colegiados **AGE** | **Al menos 2 días de antelación** y documentación accesible en el mismo plazo |
+| **19.5** | Voto particular escrito sin plazo destacado | **2 días** para presentarlo por escrito |
+| **22.1–3** | Enumeración de creación sin exigencia de publicación explícita | **Norma específica publicada en BOE** en supuestos tasados; **Real Decreto / Orden conjunta / Orden ministerial** según órgano; grupos de trabajo no tienen efectos directos frente a terceros |
+| **23.2.e** | Redacción abreviada de sujetos y servicios profesionales | Relación de servicio con persona **directamente interesada** o prestación de servicios profesionales en **dos últimos años** |
+
+**Documentos:** correcciones incorporadas en [`manual.md`](content/diputacion-toledo-auxiliar-c2/tema-15/manual.md); evidencia comparativa BOE, tabla y focos de examen en [`cotejo-manual-colegiados-2026-11-05.md`](content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-manual-colegiados-2026-11-05.md); ampliadas [`fuentes.md`](content/diputacion-toledo-auxiliar-c2/tema-15/fuentes.md) y [`matriz.json`](content/diputacion-toledo-auxiliar-c2/tema-15/matriz.json) con estado explícito **focal, pendiente de cotejo integral**. Se evitó repetir las tres formas del art. 22.2 tras añadir su tabla. El banco continúa con **20 preguntas y 80 alternativas**, **A5/B5/C5/D5**, sin cambio de claves.
+
+### Control y cola de trabajo
+
+Creada [`tests/validate-diputacion-c2-t15-colegiados-manual.mjs`](tests/validate-diputacion-c2-t15-colegiados-manual.mjs), integrada en `npm test`: exige regla de unanimidad en reunión sin convocatoria, responsabilidad/votación, certificación de grabaciones, dos plazos del art. 19, publicación BOE del art. 22, bienio del art. 23 y preservación de la marca `PENDIENTE_COTEJO_INTEGRAL`.
+
+**Commit de integración:** `688f6b8b0fc0dba683e5ca911037a996aabb8cd7`. **Validar OpoWeb v2 success**, run **42004620218**, comprobado para ese SHA. **Despliegue de Pages** de esa versión: verificar run **42004620592**; no declarar éxito sin confirmación del estado de ese mismo SHA.
+
+**Sin elevar cobertura:** los históricos de referencia siguen siendo **51/121 bancos** y **0/121 temas certificados integralmente**. Este bloque corrige omisiones y ambigüedades de algunos artículos; **no** acredita cotejo artículo por artículo de las **más de 1.300 líneas** del manual ni navegación real, móvil/PWA o accesibilidad.
+
+**Siguiente paso sustantivo:** continuar contraste jurídico por tramos del manual **T15**, especialmente **arts. 5–14 y 54–80**, con foco en órgano competente, cuantías, plazos, mayorías, excepciones y su reflejo exacto en el contenido; después volver a **T14 (eIDAS / certificados electrónicos)**. No anticipar T06 OAPGT sin Estatutos consolidados, ni reabrir convocatorias descartadas. Mantener atención a exámenes de La Puebla (**14/11**) y UC3M (**21/11**).
