@@ -4,6 +4,16 @@
 
 **ESTADO EDITORIAL ACTUAL: EN_AUDITORIA — pendiente de certificación integral.** La mención histórica a «contenido completo y cotejo normativo» corresponde al trabajo del **29/10/2026**, no acredita revisión exhaustiva vigente ni pruebas funcionales. Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
 
+## Auditoría focal del banco de preguntas — **05/11/2026**
+
+Se han cotejado **8 preguntas y 32 alternativas** con la **Ley 40/2015** consolidada del **BOE** (última actualización publicada **02/08/2024**) y con la **Ley Orgánica 2/2024**. Se han sustituido distractores irrelevantes por confusiones jurídicas reales y se ha incorporado una pregunta sobre **art. 55 bis y presencia equilibrada 40–60 %**. Véase el [análisis literal de cada alternativa](cotejo-focal-2026-11-05.md).
+
+**Estado:** revisión parcial del banco. Las otras **12 preguntas** del tema, el manual completo y las pruebas del navegador continúan pendientes. **No** supone certificación integral.
+
+> ⚠️ **¡Foco Examen!:** No confundir **delegación de firma** (sin publicación necesaria), **delegación de competencias** (publicada), **avocación** (acuerdo motivado) y **suplencia** (sustitución del titular). Tampoco confundir el **40–60 %** con paridad exacta por cada órgano.
+
+---
+
 ## 1. Epígrafe oficial literal
 
 > **Tema 15. Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.**
@@ -623,7 +633,7 @@ El artículo fue incorporado por la **Ley Orgánica 2/2024** (publicada el **02/
 
 La regla no significa que cada órgano individual deba tener exactamente un **50 %** de integrantes de cada sexo; el ámbito de cómputo del **art. 55 bis** es el **departamento ministerial** y debe atenderse a los cargos incluidos expresamente.
 
-**Fuentes oficiales:** [Ley 40/2015, art. 55 bis](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a55bis) y [LO 2/2024, disposición transitoria primera.3](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936#dtprimera).
+**Fuentes oficiales:** [Ley 40/2015, art. 55 bis](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a5-2) y [LO 2/2024, disposición transitoria primera.3](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936#dtprimera).
 
 > ⚠️ **¡Foco Examen!:** **40–60 %**, no paridad **50/50** por cargo; **efectos para nuevos nombramientos desde 22/08/2024**, pero **5 años** para asegurar el equilibrio global. La fecha del último plazo **no suspende** la obligación en nuevos nombramientos.
 
