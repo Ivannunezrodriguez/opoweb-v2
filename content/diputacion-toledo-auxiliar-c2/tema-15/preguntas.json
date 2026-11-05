@@ -1,8 +1,8 @@
 {
   "tema": 15,
   "estado": "BANCO_20_PREGUNTAS_REVISION_JURIDICA_PARCIAL",
-  "version": "2026-10-29",
-  "criterio": "20 preguntas redactadas con referencias Ley 40/2015; precisión corregida en art. 64.3. Aún falta auditoría integral y funcional.",
+  "version": "2026-11-05-revision-focal",
+  "criterio": "Banco de 20 preguntas en auditoría jurídica parcial. Revisadas individualmente las alternativas de ocho preguntas contra Ley 40/2015 BOE consolidado actualizado 02/08/2024 y LO 2/2024. No equivale a cotejo integral de las 20 preguntas ni del manual.",
   "preguntas": [
     {
       "id": "DT-C2-T15-001",
@@ -34,17 +34,17 @@
     },
     {
       "id": "DT-C2-T15-003",
-      "enunciado": "¿Qué técnica permite a un órgano superior asumir el conocimiento de asuntos cuya resolución corresponde ordinariamente o por delegación a órganos dependientes, en los casos legales?",
+      "enunciado": "Un órgano superior decide asumir mediante acuerdo motivado un asunto que corresponde resolver a un órgano jerárquicamente dependiente por razones técnicas o jurídicas. ¿Qué técnica jurídica utiliza?",
       "opciones": [
-        "Revocación tributaria",
-        "Empadronamiento",
-        "Avocación",
-        "Suplencia"
+        "Delegación de competencias, porque encomienda su resolución a un órgano inferior.",
+        "Encomienda de gestión, porque transfiere la adopción de la resolución jurídica.",
+        "Avocación, mediante acuerdo motivado y con notificación a los interesados cuando los haya.",
+        "Suplencia del titular, porque siempre exige vacante o ausencia del superior."
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El artículo 10 regula la avocación.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Ley 40/2015, art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "justificacion": "El **art. 10.1–2** permite al **órgano superior avocar** uno o varios asuntos asignados ordinariamente o por delegación a sus dependientes por circunstancias técnicas, económicas, sociales, jurídicas o territoriales. Se formaliza mediante **acuerdo motivado** y se notifica a los interesados, si existen, antes o simultáneamente a la resolución final. No es una transferencia de titularidad.",
+      "trampaExamen": "**Avocación = superior atrae asunto concreto**; **delegación = encarga ejercicio**; **suplencia = sustitución temporal**. El acuerdo de avocación **no tiene recurso autónomo**.",
+      "referencia": "Ley 40/2015, art. 10.1–2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a10"
     },
     {
       "id": "DT-C2-T15-004",
@@ -90,45 +90,45 @@
     },
     {
       "id": "DT-C2-T15-007",
-      "enunciado": "¿Qué regla se aplica a la delegación de firma?",
+      "enunciado": "De acuerdo con el artículo 12 de la Ley 40/2015, ¿qué consecuencia jurídica tiene delegar la firma de una resolución en un órgano o unidad dependiente?",
       "opciones": [
-        "Siempre transfiere titularidad",
-        "No altera competencia del órgano delegante",
-        "Requiere publicación obligatoria en BOE en todos los casos",
-        "Sólo procede entre administraciones distintas"
+        "Transfiere la titularidad de la competencia al firmante y exige publicación oficial.",
+        "No altera la competencia del órgano delegante y no necesita publicación para su validez.",
+        "Permite firmar en nombre de otro órgano sin indicar la delegación ni su procedencia.",
+        "Solo se admite en órganos de Administraciones distintas mediante convenio."
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El art. 12 permite la delegación de firma dentro de los límites legales; no altera la competencia y no requiere publicación para su validez.",
-      "trampaExamen": "La **delegación de firma** no equivale a delegar competencias.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 12"
+      "justificacion": "**Art. 12.1–3:** la **delegación de firma** se limita a titulares de órganos o unidades dependientes, sobre materias atribuidas o delegadas al órgano, dentro de los límites del art. 9. **No altera la competencia** y **no requiere publicación** para su validez; el acto debe hacer constar la delegación y autoridad de procedencia.",
+      "trampaExamen": "**Delegación de firma no se publica obligatoriamente**; la **delegación de competencias sí** se publica (art. 9.3). La **autoridad de procedencia** debe figurar en el acto firmado.",
+      "referencia": "Ley 40/2015, arts. 9.3 y 12.1–3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a12"
     },
     {
       "id": "DT-C2-T15-008",
-      "enunciado": "¿Qué ocurre con la suplencia del titular de un órgano?",
+      "enunciado": "Según el artículo 13 de la Ley 40/2015, ¿cuál es la regla general de la suplencia temporal del titular de un órgano?",
       "opciones": [
-        "Altera titularidad",
-        "Siempre requiere convenio",
-        "No altera competencia y no exige publicación para su validez",
-        "Elimina el órgano"
+        "Modifica la titularidad de la competencia durante todo el período de suplencia.",
+        "Exige su publicación para ser válida, igual que una delegación de competencias.",
+        "No altera la competencia del órgano y no requiere publicación para su validez.",
+        "Únicamente procede por enfermedad y nunca por vacante, abstención o recusación."
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La suplencia del art. 13 no altera competencia ni requiere publicación para su validez.",
-      "trampaExamen": "No confundir **suplencia** y **delegación de competencias**.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 13"
+      "justificacion": "**Art. 13.1–2:** cabe suplencia temporal por **vacante, ausencia, enfermedad, abstención o recusación**; **no altera la competencia** del órgano ni requiere publicación para ser válida. Debe indicarse en los actos la suplencia, el titular sustituido y quien la ejerce (art. 13.4).",
+      "trampaExamen": "**Suplencia no es delegación**: la primera sustituye temporalmente al **titular** y no exige publicación; la delegación modifica el ejercicio de una competencia y se publica.",
+      "referencia": "Ley 40/2015, art. 13.1–4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a13"
     },
     {
       "id": "DT-C2-T15-009",
-      "enunciado": "Según el art. 9, ¿puede delegarse la adopción de disposiciones de carácter general?",
+      "enunciado": "¿Puede delegarse la adopción de disposiciones de carácter general conforme al artículo 9.2 de la Ley 40/2015?",
       "opciones": [
-        "Sí sin límites",
-        "Sí por correo",
-        "Sí con acuerdo del Secretario",
-        "No, es una materia excluida"
+        "Sí, si la delegación se anuncia previamente en el boletín oficial correspondiente.",
+        "Sí, cuando el órgano delegado depende jerárquicamente del delegante.",
+        "Sí, cuando lo acuerda un órgano colegiado con la mayoría prevista para sus acuerdos.",
+        "No: la adopción de disposiciones de carácter general está expresamente excluida de delegación."
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El art. 9.2.b excluye de la delegación la adopción de disposiciones de carácter general.",
-      "trampaExamen": "La delegación no incluye potestad reglamentaria general.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 9.2.b"
+      "justificacion": "El **artículo 9.2.b** establece que **en ningún caso** podrán delegarse las competencias relativas a la **adopción de disposiciones de carácter general**. Publicar el acuerdo, existir dependencia jerárquica o alcanzar una mayoría especial no elimina esa prohibición.",
+      "trampaExamen": "La fórmula **«en ningún caso»** prevalece sobre el régimen general del art. 9.1. No confundir dictar una disposición general con resolver un procedimiento individual.",
+      "referencia": "Ley 40/2015, art. 9.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9"
     },
     {
       "id": "DT-C2-T15-010",
@@ -146,17 +146,17 @@
     },
     {
       "id": "DT-C2-T15-011",
-      "enunciado": "Para constitución válida de un órgano colegiado, según art. 17.2, ¿qué presencia es necesaria con carácter general?",
+      "enunciado": "¿Qué asistentes exige, con carácter general, el artículo 17.2 de la Ley 40/2015 para constituir válidamente un órgano colegiado?",
       "opciones": [
-        "Sólo dos vocales",
-        "Presidente y Secretario o suplentes, y al menos la mitad de sus miembros",
-        "Todos sus miembros sin excepción",
-        "Ningún secretario"
+        "Presidente y Secretario (o suplentes) y, al menos, un tercio de sus miembros.",
+        "Presidente y Secretario (o sus suplentes) y, al menos, la mitad de sus miembros.",
+        "Mayoría absoluta de miembros, aunque no esté presente el Secretario ni su suplente.",
+        "Presidente y dos tercios de los vocales, sin exigirse Secretario o suplente."
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Art. 17.2: Presidente y Secretario o sus suplentes, y al menos la mitad de los miembros, sin perjuicio del régimen especial.",
-      "trampaExamen": "La **mitad** es regla general de quórum, junto a Presidente y Secretario.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 17.2"
+      "justificacion": "Como regla general, **art. 17.2**, se requiere asistencia presencial o a distancia de **Presidente y Secretario**, o quienes les suplan, y de **al menos la mitad de sus miembros**. El art. 17 contempla particularidades para ciertos órganos del art. 15.2 y reunión universal sin convocatoria por unanimidad para constituirse.",
+      "trampaExamen": "**Presidente + Secretario + mitad de miembros** es el cuórum ordinario; no confundir con **mayoría de votos** para adoptar acuerdos (art. 17.5). Existen especialidades legales.",
+      "referencia": "Ley 40/2015, arts. 15.2 y 17.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17"
     },
     {
       "id": "DT-C2-T15-012",
@@ -188,17 +188,17 @@
     },
     {
       "id": "DT-C2-T15-014",
-      "enunciado": "¿Qué órgano dirige el sector de actividad administrativa integrado en un Ministerio?",
+      "enunciado": "Según el artículo 55 bis de la Ley 40/2015, incorporado por la LO 2/2024, ¿qué proporción de cada sexo debe observarse en el ámbito de cada departamento ministerial al nombrar titulares de Secretarías de Estado y órganos directivos?",
       "opciones": [
-        "El Ministro",
-        "El Subdelegado del Gobierno",
-        "El Director Insular",
-        "El Secretario de ayuntamiento"
+        "Ni menos del 40 % ni más del 60 % por sexo, con aplicación conforme al régimen transitorio.",
+        "Exactamente el 50 % de cada sexo en cada órgano y en todo nombramiento individual.",
+        "Un mínimo del 30 % de cada sexo y un máximo del 70 % en el conjunto del Gobierno.",
+        "Un mínimo del 40 % solo entre los Ministros, sin extenderlo a los órganos directivos."
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El art. 61 regula los Ministros como titulares del departamento y sus competencias.",
-      "trampaExamen": "No confundir **Ministro** con **Secretario de Estado**.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 61"
+      "justificacion": "**Art. 55 bis de la Ley 40/2015**, incorporado por **LO 2/2024**, exige que las personas de cada sexo **no superen el 60 % ni sean menos del 40 %** entre las **Secretarías de Estado y órganos directivos** en el ámbito de **cada departamento ministerial**. La **DT 1.3 LO 2/2024** aplica la previsión a nombramientos posteriores a su entrada en vigor y concede un plazo máximo de **5 años** para garantizar el equilibrio en la totalidad de la AGE y sector público institucional estatal.",
+      "trampaExamen": "**40–60 % por departamento**, no **50–50 % exacto en cada órgano**. La regla de nuevos nombramientos y el plazo máximo transitorio de **5 años** son aspectos distintos.",
+      "referencia": "Ley 40/2015, art. 55 bis · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a55bis ; LO 2/2024, DT 1.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936#dtprimera"
     },
     {
       "id": "DT-C2-T15-015",
@@ -258,31 +258,31 @@
     },
     {
       "id": "DT-C2-T15-019",
-      "enunciado": "¿Quién nombra a los Delegados del Gobierno en las comunidades autónomas?",
+      "enunciado": "De acuerdo con el artículo 72.4 de la Ley 40/2015, ¿cómo se nombra al Delegado del Gobierno en una comunidad autónoma?",
       "opciones": [
-        "Los ayuntamientos",
-        "El Rey por sorteo",
-        "El Tribunal Constitucional",
-        "El Consejo de Ministros mediante real decreto a propuesta del Presidente del Gobierno"
+        "Por orden del Ministro competente, a propuesta del Subsecretario del departamento.",
+        "Mediante real decreto del Presidente del Gobierno, sin intervención del Consejo de Ministros.",
+        "Por decreto del Consejo de Gobierno de la comunidad autónoma, tras consulta al Estado.",
+        "Por real decreto del Consejo de Ministros, a propuesta del Presidente del Gobierno."
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Art. 72.4: nombramiento y separación por real decreto del Consejo de Ministros a propuesta del Presidente del Gobierno.",
-      "trampaExamen": "El **Delegado del Gobierno** no lo nombra la comunidad autónoma.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 72.4"
+      "justificacion": "**Art. 72.4:** los **Delegados del Gobierno** son nombrados y separados por **real decreto del Consejo de Ministros**, **a propuesta del Presidente del Gobierno**. No son altos cargos nombrados por el Gobierno autonómico y no se nombran por simple orden ministerial.",
+      "trampaExamen": "**Delegado del Gobierno: Consejo de Ministros + real decreto + propuesta del Presidente del Gobierno**. **Subdelegado: lo nombra el Delegado** por libre designación, art. 74.",
+      "referencia": "Ley 40/2015, arts. 72.4 y 74 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a72"
     },
     {
       "id": "DT-C2-T15-020",
-      "enunciado": "¿Cuál es la posición de los Subdelegados del Gobierno en las provincias?",
+      "enunciado": "¿Cuál es la posición orgánica y el nivel de los Subdelegados del Gobierno en las provincias según los artículos 55.4 y 74 de la Ley 40/2015?",
       "opciones": [
-        "Órganos de la Administración General del Estado bajo la inmediata dependencia del Delegado del Gobierno",
-        "Órganos de los ayuntamientos",
-        "Órganos superiores equiparados a Ministros",
-        "Órganos de las diputaciones provinciales"
+        "Órganos directivos de la AGE, con nivel de Subdirector General, bajo dependencia inmediata del Delegado del Gobierno.",
+        "Órganos superiores de la AGE, con rango de Subsecretario y dependencia inmediata del Presidente del Gobierno.",
+        "Órganos directivos autonómicos, con nivel de Director General, dependientes del Presidente autonómico.",
+        "Órganos directivos de las diputaciones, nombrados por sus presidentes y con nivel de Subdirector General."
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Art. 74: Subdelegados en provincias bajo dependencia inmediata del Delegado del Gobierno.",
-      "trampaExamen": "**Subdelegado** depende del **Delegado**, no del presidente provincial.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 74"
+      "justificacion": "**Arts. 55.4 y 74:** el **Subdelegado del Gobierno** es **órgano directivo de la AGE**, con **nivel de Subdirector General**, bajo **dependencia inmediata del Delegado del Gobierno**, que lo nombra por libre designación entre funcionarios de carrera **A1** en los términos legales. El **Delegado** tiene rango de **Subsecretario**, no el Subdelegado.",
+      "trampaExamen": "**Delegado = rango de Subsecretario**; **Subdelegado = nivel de Subdirector General**. Ambos son AGE, no cargos de la comunidad ni de la diputación.",
+      "referencia": "Ley 40/2015, arts. 55.4 y 74 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a74"
     }
   ],
   "auditoria": {
@@ -299,5 +299,38 @@
     ],
     "resultado": "Se comprobaron seis respuestas y se reemplazaron dos preguntas demasiado elementales por grados de parentesco y plazo de recusación.",
     "limitacion": "No constituye auditoría completa del manual."
+  },
+  "auditoriaFocal20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITORIA_PARCIAL_8_PREGUNTAS_32_ALTERNATIVAS",
+    "preguntasModificadas": [
+      "DT-C2-T15-003",
+      "DT-C2-T15-007",
+      "DT-C2-T15-008",
+      "DT-C2-T15-009",
+      "DT-C2-T15-011",
+      "DT-C2-T15-014",
+      "DT-C2-T15-019",
+      "DT-C2-T15-020"
+    ],
+    "articulos": [
+      "9.2.b",
+      "10.1–2",
+      "12",
+      "13",
+      "15.2",
+      "17.2",
+      "55 bis",
+      "55.4",
+      "72.4",
+      "74"
+    ],
+    "normaPrincipal": "BOE-A-2015-10566",
+    "normaReforma": "BOE-A-2024-15936, DT 1.3",
+    "verificadas": 8,
+    "alternativasVerificadas": 32,
+    "originalesConservadas": 20,
+    "certificarManual": false,
+    "pruebaFuncionalPendiente": true
   }
 }
