@@ -457,7 +457,7 @@ El soporte físico contiene certificados separados para autenticación y firma, 
 
 ## 5. Firma remota o en la nube
 
-En la firma remota, los datos de creación de firma se gestionan en una infraestructura segura por cuenta del titular. El usuario autoriza cada operación mediante mecanismos de autenticación reforzada.
+En la **firma remota** los datos de creación de firma se gestionan en una infraestructura segura por cuenta del titular. El usuario autoriza las operaciones con mecanismos de autenticación reforzada. **Cuando se ofrece como gestión cualificada de un dispositivo cualificado de firma remota**, el **artículo 29 bis del Reglamento eIDAS** exige que la prestación corresponda a un **prestador cualificado**; la gestión y eventuales duplicados de seguridad cumplen los límites de **29.1 bis y 29 bis.1.b**.
 
 Puede utilizar:
 
@@ -764,7 +764,7 @@ El candado del navegador acredita una conexión cifrada con el dominio certifica
 
 ## 15. Firma y sello remotos
 
-El prestador puede gestionar dispositivos remotos de creación de firma o sello por cuenta del titular.
+El **prestador de confianza** puede gestionar dispositivos remotos de creación de firma o sello por cuenta del titular. **Si se califica el servicio como cualificado**, la gestión de dispositivos de firma se rige por el **art. 29 bis** y la de sello por el **39 bis**: solo un **prestador cualificado** puede prestarla como tal.
 
 Debe garantizar:
 
@@ -774,17 +774,88 @@ Debe garantizar:
 - trazabilidad;
 - cumplimiento de requisitos de dispositivo y servicio cuando se presenta como cualificado.
 
-## 16. Nuevos servicios del marco eIDAS actualizado
+## 16. Servicios y sistemas del marco eIDAS reformado (**Reglamento 2024/1183**)
 
-El Reglamento modificado incorpora también:
+La reforma por el **Reglamento (UE) 2024/1183** amplía el **Reglamento (UE) 910/2014**. Deben estudiarse las categorías nuevas, sin confundir **medios de identificación**, **certificados** y **servicios de confianza cualificados**. La versión consolidada de **18/10/2024** integra estas reglas.
 
-- archivo electrónico;
-- atestaciones electrónicas de atributos;
-- libros mayores electrónicos;
-- gestión cualificada de dispositivos remotos;
-- servicios relacionados con la cartera europea de identidad digital.
+### 16.1 Cartera europea de identidad digital (EUDI Wallet): **art. 5 bis**
 
-Para este tema basta conocer su existencia y finalidad general. Su desarrollo técnico completo queda fuera del epígrafe.
+La **cartera europea de identidad digital** es un **medio de identificación electrónica** que permite **almacenar, gestionar, validar y presentar datos de identificación y declaraciones electrónicas de atributos**, así como realizar **firmas electrónicas cualificadas** y **sellos cualificados**, cuando corresponda. **No es sinónimo de un certificado de firma** ni de un programa que simplemente lo almacena.
+
+Los **Estados miembros** deberán proporcionar **al menos una cartera** en los **24 meses siguientes a la entrada en vigor de los actos de ejecución** a los que remite el **art. 5 bis.1** y el **art. 5 quater.6**. La norma permite que el Estado la proporcione **directamente**, **por mandato** o **mediante una entidad independiente reconocida por él** (**art. 5 bis.2**).
+
+| Regla | Artículo | Dato de examen |
+|---|---|---|
+| Provisión de **al menos una cartera** por **Estado miembro** | **5 bis.1** | **24 meses desde la entrada en vigor de los actos de ejecución de referencia**, no desde la publicación de la reforma |
+| Uso de la cartera | **5 bis.15** | **Voluntario**: no puede perjudicarse a quien no la utilice |
+| Expedición, utilización y revocación para **personas físicas** | **5 bis.13** | **Gratuitas** |
+| Certificación de la cartera | **5 quater.4** | Validez máxima de la **certificación de conformidad: 5 años**, con evaluación de vulnerabilidades cada **2 años** |
+| Datos de identificación y atributos | **5 bis.4** | Control del usuario y **divulgación selectiva** de datos |
+| Firma y sello | **5 bis.4.e** | La cartera puede permitir **firma cualificada** o **sello cualificado**; ello **no** transforma toda operación de identificación en firma |
+
+> ⚠️ **¡Foco Examen!:** **Cartera EUDI ≠ certificado electrónico**. El plazo de **24 meses** es **relativo a actos de ejecución**; la **gratuidad de expedición, uso y revocación** del **art. 5 bis.13** se refiere a **personas físicas**. **Uso voluntario (5 bis.15)** no significa que el Estado pueda omitir ofrecer la cartera.
+
+### 16.2 Declaraciones electrónicas de atributos: **artículos 45 ter–45 nonies**
+
+Un **atributo** es una cualidad, característica, derecho o permiso de una persona o de un objeto (**art. 3.43**). Una **declaración electrónica de atributos** permite acreditar electrónicamente esas circunstancias; la **cualificada** la expide un **prestador cualificado de servicios de confianza** y cumple el **anexo V**.
+
+| Modalidad | Emisor | Efectos o requisitos |
+|---|---|---|
+| **Declaración electrónica ordinaria** | Prestador conforme al tipo de servicio | No se rechaza como prueba **solo** por su forma electrónica (**45 ter.1**) |
+| **Declaración electrónica cualificada** | **Prestador cualificado** | Tiene los mismos efectos jurídicos que una declaración **lícitamente expedida en papel** (**45 ter.2**) |
+| Declaración expedida por, o en nombre de, un **organismo público responsable de fuente auténtica** | **Organismo público competente** o entidad que actúa en su nombre | Se reconoce entre **Estados miembros** como declaración de fuente auténtica (**45 ter.3**) |
+
+**Ejemplos de atributos del anexo VI:** **domicilio**, **edad**, **nacionalidad**, **títulos académicos**, **cualificaciones profesionales**, **facultades de representación** o **licencias**. Los mecanismos de verificación contra **fuentes auténticas** se contemplan en el **art. 45 sexies**, cuando esos datos dependan de fuentes del sector público.
+
+**Limitación fundamental del art. 45 quater:** si la legislación nacional exige **identificación electrónica y autenticación** para acceder a un servicio público, **la mera declaración de atributos no las sustituye**, salvo autorización expresa del **Estado miembro**.
+
+> ⚠️ **¡Foco Examen!:** **Declaración de atributos ≠ certificado de firma ≠ identificación obligatoria**. Una declaración cualificada de titulaciones o poderes acredita **atributos**, pero por sí sola **no sustituye** la identificación exigida para acceder a la sede (**45 quater**).
+
+### 16.3 Gestión de dispositivos de firma y sello cualificados a distancia: **29 bis y 39 bis**
+
+La gestión de un **dispositivo cualificado de creación de firma electrónica a distancia** como **servicio de confianza cualificado** solo puede prestarla un **prestador cualificado** que cumpla el **artículo 29 bis**. La regulación del servicio equivalente para **sello cualificado remoto** se remite a ese artículo por el **39 bis**.
+
+- La **creación o gestión** de datos de creación y su duplicación de seguridad se efectúan **por cuenta y a solicitud del firmante**, bajo el servicio cualificado (**art. 29.1 bis**).
+- La **duplicación de datos** solo se permite con fines de **copia de seguridad**, con seguridad equivalente a los originales y en el **número mínimo necesario** para la continuidad (**art. 29 bis.1.b**).
+- No todas las firmas realizadas «en la nube» son **cualificadas**: se necesita verificar **prestador**, **servicio**, **certificado**, **dispositivo cualificado** y modalidad concreta.
+
+| Operación | Calificación |
+|---|---|
+| Firma ejecutada remotamente sin acreditar dispositivo y servicio cualificados | **No puede calificarse automáticamente de cualificada** |
+| Firma **avanzada + certificado cualificado + dispositivo cualificado** | **Firma cualificada** conforme a eIDAS |
+| **Gestión cualificada de dispositivo remoto** conforme a **29 bis** | **Servicio de confianza cualificado** específico |
+
+> ⚠️ **¡Foco Examen!:** Un **certificado cualificado** por sí solo **no convierte** una firma en cualificada. **Firma remota ≠ firma cualificada** automáticamente; el servicio de gestión de dispositivos remotos del **art. 29 bis** requiere **prestador cualificado**.
+
+### 16.4 Archivo electrónico cualificado: **45 decies–45 undecies**
+
+El **servicio de archivo electrónico** permite conservar datos o documentos electrónicos durante el período correspondiente. Si es **cualificado**, el **art. 45 decies.2** atribuye la **presunción de integridad y origen** durante el período de conservación por el **prestador cualificado**. El **art. 45 undecies** exige proteger frente a pérdida o alteración, mantener durabilidad y legibilidad y posibilitar un **informe automatizado** de integridad emitido con **firma o sello cualificado** del prestador.
+
+> ⚠️ **¡Foco Examen!:** **Archivo cualificado (45 decies)** presume **integridad y origen**; **guardar un PDF en una carpeta** no genera esa presunción ni constituye por sí mismo un **servicio de confianza cualificado**.
+
+### 16.5 Libro mayor electrónico cualificado: **45 duodecies–45 terdecies**
+
+Un **libro mayor electrónico** es una secuencia de registros electrónicos que permite demostrar la **integridad de los registros** y el **orden cronológico**. En la modalidad **cualificada** debe proporcionarlo uno o varios **prestadores cualificados** y asegurar el origen, el orden secuencial único y la detección de alteraciones. El **art. 45 duodecies.2** establece presunción de **unicidad y exactitud del orden cronológico secuencial y de integridad** de los registros.
+
+| Servicio cualificado | Presunción jurídica principal |
+|---|---|
+| **Archivo electrónico** — **45 decies.2** | **Integridad y origen** de documentos conservados |
+| **Libro mayor electrónico** — **45 duodecies.2** | **Unicidad, exactitud del orden cronológico e integridad** |
+| **Sello cualificado de tiempo** — **41.2** | **Exactitud de fecha y hora e integridad de los datos asociados** |
+| **Entrega electrónica certificada cualificada** — **43.2** | **Integridad, envío/recepción por sujetos identificados y exactitud de fecha y hora** |
+
+> ⚠️ **¡Foco Examen!:** **Libro mayor electrónico cualificado** no es lo mismo que **sello de tiempo**: el primero acredita **orden cronológico secuencial**, mientras que el segundo acredita **fecha/hora e integridad**. Ni uno ni otro sustituye por definición una **firma electrónica personal**.
+
+### 16.6 Reconocimiento entre Estados miembros: **art. 24 bis**
+
+El artículo **24 bis** introduce una regla expresa de **reconocimiento mutuo** de servicios y productos cualificados entre Estados miembros: **firma y sello cualificados**, dispositivos, certificados, validación y conservación cualificadas, sellos cualificados de tiempo, entrega certificada cualificada, **declaraciones cualificadas de atributos**, **archivo electrónico cualificado** y **libros mayores cualificados**, dentro de sus supuestos respectivos.
+
+La **lista de confianza (art. 22)** sigue siendo imprescindible para comprobar **qué prestador y qué servicio** tiene la **condición cualificada**; no la sustituye una marca comercial o la simple presencia de un certificado raíz instalado.
+
+> ⚠️ **¡Foco Examen!:** El reconocimiento transfronterizo del **24 bis** se refiere a **productos y servicios cualificados concretos**; un prestador que aparece en una TSL **no convierte automáticamente en cualificados todos sus servicios**.
+
+**Normativa primaria:** [eIDAS consolidado **18/10/2024** (Reglamento 910/2014, modificado por Reglamento 2024/1183)](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa). Los textos consolidados son **informativos**; la versión auténtica procede del **DOUE**. Los servicios recién incorporados se estudian como **ampliación contextual necesaria** para comprender el epígrafe «autoridades certificadoras y servicios que prestan», sin desplazar el núcleo de certificado, firma, sello y soporte.
+
 
 ## 17. Obligaciones relevantes del prestador
 
