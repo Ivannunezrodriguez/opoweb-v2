@@ -448,3 +448,27 @@ El recurso no suspende automáticamente la ejecución del acto, salvo en los cas
 > ⚠️ **¡Foco Examen!:** Notificación de liquidación el día **15**: pago hasta el **20 del mes posterior**. Notificación el día **16**: hasta el **5 del segundo mes posterior**. El silencio en reposición tributaria local es **desestimatorio**, pero subsiste el deber de resolver.
 
 **Fuentes oficiales:** https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186 ; https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214 . **20 preguntas**, pendiente auditoría integral y prueba funcional.
+
+## 19. Cierre jurídico-pedagógico · C1 24–27 (**05/11/2026**)
+
+### Regímenes, plazos y sujetos bien diferenciados
+
+La [**Ley 58/2003 General Tributaria**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186) tiene consolidación BOE publicada **21/12/2024**. El [**TRLRHL**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) tiene **última actualización publicada el 07/10/2026**, posterior a la anterior referencia de **03/06/2026**; se revisan los **arts. 7, 14, 59 y 162–171** sobre la redacción actualmente consolidada, sin atribuirles automáticamente los cambios de otros artículos.
+
+| Pregunta habitual | Precepto | Regla |
+|---|---|---|
+| **Nacimiento de la obligación principal** | **LGT 20** | La realización del **hecho imponible** |
+| **Contribuyente** | **LGT 36.2** | Sujeto pasivo que **realiza el hecho imponible** |
+| **Sustituto del contribuyente** | **LGT 36.3** | Sujeto pasivo que **por ley** cumple la obligación principal **en lugar** del contribuyente |
+| **Base liquidable** | **LGT 54** | Base imponible menos **reducciones legalmente establecidas** |
+| **Sanciones tributarias** | **LGT 58.3** | **No integran** la deuda tributaria, aunque se recaudan con normas tributarias |
+| **Prescripción tributaria general** | **LGT 66** | **4 años**, según derecho y cómputo específicos |
+| **Impuestos municipales obligatorios** | **TRLRHL 59.1** | **IBI, IAE e IVTM**; potestativos **ICIO e IIVTNU** |
+| **Liquidación notificada días 1–15** | **LGT 62.2.a** | Hasta **día 20 del mes siguiente**, o hábil posterior |
+| **Liquidación notificada días 16–fin** | **LGT 62.2.b** | Hasta **día 5 del segundo mes siguiente**, o hábil posterior |
+| **Tributos periódicos de notificación colectiva sin plazo propio** | **LGT 62.3** | **1 de septiembre a 20 de noviembre**, salvo calendario legalmente modificado y con mínimo **2 meses** |
+| **Reposición tributaria local** | **TRLRHL 14.2.c, l y n** | Presentación **1 mes**, resolución en general **1 mes**; silencio **desestimatorio**; notificar resolución expresa en **10 días** |
+
+**Excepción relevante:** En municipios sujetos al régimen de **órgano especializado de reclamaciones económico-administrativas** pueden existir especialidades legales del **art. 137 LRBRL**; evitar tratar el recurso de reposición como universalmente previo en todo régimen local sin comprobarlo.
+
+> ⚠️ **¡Foco Examen!:** **1 mes interponer** reposición local y **1 mes resolver** no son **10 días para notificar** la resolución ya dictada. El **sustituto** cumple obligación **por ley**, no por nombramiento de un funcionario o pacto.

@@ -10,7 +10,7 @@
 
 1. **Real Decreto Legislativo 2/2004, de 5 de marzo**, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales.
    - Referencia: `BOE-A-2004-4214`.
-   - Texto consolidado consultado con última actualización publicada el **3 de junio de 2026**.
+   - Texto consolidado consultado con última actualización publicada el **7 de octubre de 2026**.
    - Artículos principales: **162 a 171**.
    - Materias: concepto, contenido, anexos, elaboración, aprobación, publicación, entrada en vigor y prórroga.
    - URL oficial: https://www.boe.es/eli/es/rdlg/2004/03/05/2/con
@@ -53,3 +53,10 @@
 - Banco de **20 preguntas**. Pendientes auditoría integral y prueba funcional de OpoWeb.
 
 > ⚠️ **¡Foco Examen!:** No confundir el **15 de octubre** para remitir el proyecto al **Pleno** con los **15 días** de exposición pública.
+
+
+**Rectificación de vigencia 05/11/2026:** [**TRLRHL vigente**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), última actualización BOE publicada **07/10/2026**. La cita histórica de **03/06/2026** era incompleta; se han contrastado de nuevo los artículos del programa sin imputarles todas las reformas de otros tributos.
+
+[**Informe de cierre C1 24–27**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-24-27-2026-11-05.md). **Tema 27 auditado jurídico-pedagógicamente**, 20 preguntas, 80 alternativas, preceptos y trampas comprobados; el funcionamiento real de la web se controla aparte. Solo reabrir por error o reforma acreditados.
+
+> ⚠️ **¡Foco Examen!:** Distinguir el **órgano**, el **plazo**, la **norma** y la **excepción** aplicables; son las trampas recurrentes de este tema.

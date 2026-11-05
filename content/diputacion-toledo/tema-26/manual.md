@@ -347,3 +347,25 @@ RECAUDACIÓN TRIBUTARIA LOCAL
 > ⚠️ **¡Foco Examen!:** No confundir la liquidación notificada el día **10** (voluntaria hasta **20 del mes siguiente**) con la **providencia de apremio** notificada el mismo día (hasta **20 del mismo mes**).
 
 **Fuentes BOE comprobadas:** [Ley 58/2003](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186), [TRLRHL (actualización 07/10/2026)](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). Banco ampliado a **20 preguntas**; pendiente auditoría integral y comprobación de integración web.
+
+## 17. Cierre jurídico-pedagógico · C1 24–27 (**05/11/2026**)
+
+### Período ejecutivo, apremio y compensación sin preguntas repetidas
+
+| Situación | Dato exacto | Artículo |
+|---|---|---|
+| **Ejecutivo pagado antes de notificar providencia** | **Recargo ejecutivo 5 %** | **LGT 28.2** |
+| **Pago de deuda y recargo dentro del plazo de la providencia** | **Recargo reducido 10 %** | **LGT 28.3** |
+| **Fuera de ambos supuestos** | **Recargo ordinario 20 %** | **LGT 28.4** |
+| **Intereses de demora devengados desde el inicio del ejecutivo** | Compatibles con **recargo ordinario 20 %**, pero no con **ejecutivo 5 %** ni **reducido 10 %** | **LGT 28.5** |
+| **Concurrencia de recargos** | Los **tres recargos son incompatibles entre sí** | **LGT 28.1** |
+| **Solicitud de aplazamiento en voluntaria** | Impide inicio del **período ejecutivo** mientras se tramita, **sin excluir intereses** | **LGT 65.5** |
+| **Solicitud en ejecutivo** | Se admite conforme a **LGT 65** y requisitos; la Administración puede continuar el procedimiento hasta la **enajenación**, con particularidades | **LGT 65.5** |
+| **Compensación de oficio** | La Administración **compensará de oficio** las deudas en **período ejecutivo**, conforme al crédito disponible | **LGT 73.1** |
+| **Fuerza de providencia de apremio** | Título con **misma fuerza ejecutiva que sentencia judicial** respecto a bienes/derechos | **LGT 167.2** |
+| **Pago de providencia notificada días 1–15** | Hasta **20 del mismo mes** o hábil posterior | **LGT 62.5.a** |
+| **Pago de providencia notificada días 16–fin** | Hasta **5 del mes siguiente** o hábil posterior | **LGT 62.5.b** |
+
+**Régimen vigente:** [**Ley 58/2003**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186); el [**TRLRHL**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) está actualizado a **07/10/2026** en el BOE. Se eliminan **cinco redundancias internas** del banco, introduciendo la incompatibilidad de recargos, intereses, límites de aplazamiento, compensación de oficio y fuerza de la providencia.
+
+> ⚠️ **¡Foco Examen!:** **Liquidación en voluntaria** notificada día **16** vence el **5 del segundo mes posterior**; **providencia de apremio** notificada día **16** vence el **5 del mes siguiente**. Los recargos **5/10/20 %** **nunca se suman entre sí**.

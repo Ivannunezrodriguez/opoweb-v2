@@ -12,7 +12,7 @@
    - Materias utilizadas: relación jurídico-tributaria, hecho imponible, devengo, obligados tributarios, elementos cuantitativos, deuda tributaria, prescripción, compensación, gestión tributaria y revisión.
 
 2. **Real Decreto Legislativo 2/2004, de 5 de marzo**, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales.
-   - Texto consolidado del BOE con última actualización publicada el **3 de junio de 2026**.
+   - Texto consolidado del BOE con última actualización publicada el **7 de octubre de 2026**.
    - Materias utilizadas: recursos tributarios locales, ordenanzas fiscales, beneficios fiscales, delegación, colaboración y recurso de reposición tributario local.
 
 3. **Real Decreto 1065/2007, de 27 de julio**, por el que se aprueba el Reglamento General de las actuaciones y los procedimientos de gestión e inspección tributaria y de desarrollo de las normas comunes de los procedimientos de aplicación de los tributos.
@@ -35,3 +35,10 @@
 
 - Verificación normativa: **julio de 2026**.
 - Estado editorial: `GENERACION_DESDE_CERO`.
+
+
+**Rectificación de vigencia 05/11/2026:** [**TRLRHL vigente**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), última actualización BOE publicada **07/10/2026**. La cita histórica de **03/06/2026** era incompleta; se han contrastado de nuevo los artículos del programa sin imputarles todas las reformas de otros tributos.
+
+[**Informe de cierre C1 24–27**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-24-27-2026-11-05.md). **Tema 25 auditado jurídico-pedagógicamente**, 20 preguntas, 80 alternativas, preceptos y trampas comprobados; el funcionamiento real de la web se controla aparte. Solo reabrir por error o reforma acreditados.
+
+> ⚠️ **¡Foco Examen!:** Distinguir el **órgano**, el **plazo**, la **norma** y la **excepción** aplicables; son las trampas recurrentes de este tema.

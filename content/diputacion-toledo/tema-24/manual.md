@@ -244,3 +244,24 @@ La perspectiva de género puede incorporarse, conforme a la legislación aplicab
 > ⚠️ **¡Foco Examen!:** No confundir el **artículo 15 de la LO 3/2007**, que regula la **transversalidad**, con el **artículo 15 de la Ley 12/2010**, que regula la **Comisión de Igualdad** de Castilla-La Mancha.
 
 **Fuentes oficiales contrastadas:** [Ley Orgánica 3/2007, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) y [Ley 12/2010 de Castilla-La Mancha, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708). Banco ampliado a **20 preguntas**. Pendiente auditoría jurídica integral y pruebas funcionales antes de declarar **PUBLICADO**.
+
+## 20. Cierre jurídico-pedagógico por bloque · C1 24–27 (**05/11/2026**)
+
+### Igualdad estatal y autonómica: órganos y medidas que no deben confundirse
+
+| Supuesto | Norma | Dato de examen |
+|---|---|---|
+| **Discriminación indirecta** | **LO 3/2007, art. 6.2** | Disposición, criterio o práctica aparentemente neutros que sitúan a un sexo en desventaja particular, salvo justificación legítima, adecuada y necesaria |
+| **Embarazo y maternidad** | **LO 3/2007, art. 8** | Trato desfavorable es **discriminación directa por razón de sexo** |
+| **Indemnidad ante represalias** | **LO 3/2007, art. 9** | Protege frente a trato adverso por reclamar, denunciar o demandar para exigir igualdad |
+| **Acciones positivas** | **LO 3/2007, art. 11** | Medidas **razonables y proporcionadas** mientras subsista desigualdad de hecho |
+| **Presencia equilibrada** | **LO 3/2007, DA 1.ª** | Cada sexo al menos **40 %** y como máximo **60 %** |
+| **Transversalidad estatal** | **LO 3/2007, art. 15** | Informa la actuación de **todos los poderes públicos**, incluidas políticas y presupuestos |
+| **Informe de impacto de género normativo CLM** | **Ley 12/2010, art. 6.3** | Para anteproyectos de ley, disposiciones y planes sometidos al **Consejo de Gobierno** |
+| **Informe sobre anteproyecto de Presupuestos CLM** | **Ley 12/2010, arts. 9.2 y 15** | Lo realiza la **Comisión de Igualdad**, dependiente de la **Consejería competente en economía y hacienda**, con composición paritaria |
+| **Unidades de igualdad de género** | **Ley 12/2010, art. 14** | Impulso transversal dentro de las **Consejerías**, distinta de la Comisión |
+| **Lenguaje administrativo CLM** | **Ley 12/2010, art. 10.1** | **Inclusivo**, eliminando sesgos sexistas incluso indirectos |
+
+La [**Ley 12/2010**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708) mantiene consolidación BOE publicada **30/06/2021** y la [**LO 3/2007**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) actualización publicada **02/08/2024**. Tres preguntas repetidas se sustituyen por **lenguaje inclusivo**, **indemnidad frente a represalias** y **unidades de igualdad**.
+
+> ⚠️ **¡Foco Examen!:** **Comisión de Igualdad, arts. 9 y 15**, informa del presupuesto autonómico; **unidades de igualdad, art. 14**, actúan en Consejerías. El **40–60 %** es una regla de presencia equilibrada, no un porcentaje universal para cualquier procedimiento.

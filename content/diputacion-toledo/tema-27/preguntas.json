@@ -1,6 +1,6 @@
 {
   "tema": 27,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T27-001",
@@ -14,7 +14,7 @@
       "correcta": 3,
       "justificacion": "El artículo 163 del texto refundido de la Ley Reguladora de las Haciendas Locales establece que el ejercicio presupuestario coincide con el año natural.",
       "trampa": "No debe confundirse el ejercicio presupuestario con el mandato corporativo ni con el calendario de sesiones.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#2-ámbito-temporal-y-principios-presupuestarios",
+      "referencia": "TRLRHL RDL 2/2004 · art. 163 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a163",
       "respuestaLiteral": "El año natural"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 2,
       "justificacion": "El presupuesto general integra el presupuesto de la propia entidad local, los de sus organismos autónomos y los estados de previsión de gastos e ingresos de las sociedades mercantiles cuyo capital pertenezca íntegramente a la entidad local.",
       "trampa": "El presupuesto general es único, pero integra varios presupuestos y estados de previsión.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#3-contenido-del-presupuesto-general",
+      "referencia": "TRLRHL RDL 2/2004 · art. 164 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a164",
       "respuestaLiteral": "El presupuesto de la entidad, sus organismos autónomos y las previsiones de sociedades íntegramente locales"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 3,
       "justificacion": "Las bases de ejecución adaptan las disposiciones generales en materia presupuestaria a la organización y circunstancias de la entidad local, pero no pueden modificar la legislación ni incluir regulación ajena al ámbito presupuestario.",
       "trampa": "Adaptar la normativa a la organización interna no equivale a modificar una norma de rango superior.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#5-las-bases-de-ejecución-del-presupuesto",
+      "referencia": "TRLRHL RDL 2/2004 · art. 165 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a165",
       "respuestaLiteral": "Adaptar la normativa presupuestaria a la organización de la entidad sin contradecir normas superiores"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 2,
       "justificacion": "Los organismos autónomos deben remitir sus presupuestos a la entidad local antes del 15 de septiembre de cada año.",
       "trampa": "El 15 de octubre corresponde a la remisión del presupuesto general al Pleno, no a la documentación de los organismos autónomos.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#71-organismos-autónomos-y-sociedades-mercantiles",
+      "referencia": "TRLRHL RDL 2/2004 · art. 168 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168",
       "respuestaLiteral": "15 de septiembre"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 1,
       "justificacion": "La Presidencia de la entidad local forma el presupuesto general sobre la documentación remitida por los entes dependientes.",
       "trampa": "La Intervención informa y el Pleno aprueba; ninguno de estos órganos forma el presupuesto general.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#72-formación-por-la-presidencia",
+      "referencia": "TRLRHL RDL 2/2004 · art. 168 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168",
       "respuestaLiteral": "La Presidencia"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 3,
       "justificacion": "La Presidencia debe remitir al Pleno el presupuesto general, informado por la Intervención, antes del 15 de octubre para su aprobación, enmienda o devolución.",
       "trampa": "El 31 de diciembre es la fecha límite para la aprobación definitiva, no para la remisión inicial al Pleno.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#72-formación-por-la-presidencia",
+      "referencia": "TRLRHL RDL 2/2004 · art. 168 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168",
       "respuestaLiteral": "15 de octubre"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 2,
       "justificacion": "Tras la aprobación inicial, el presupuesto general se expone al público durante 15 días, previo anuncio en el Boletín Oficial de la Provincia.",
       "trampa": "El plazo de 1 mes corresponde a la resolución de reclamaciones por el Pleno.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#8-aprobación-inicial-exposición-pública-y-reclamaciones",
+      "referencia": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "15 días"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 2,
       "justificacion": "Si durante el plazo de exposición pública no se presentan reclamaciones, la aprobación inicial se eleva automáticamente a definitiva.",
       "trampa": "No es necesario un nuevo acuerdo expreso del Pleno cuando no se presentan reclamaciones.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#8-aprobación-inicial-exposición-pública-y-reclamaciones",
+      "referencia": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "Se considera definitivamente aprobado"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 0,
       "justificacion": "Cuando se presentan reclamaciones, el Pleno dispone de 1 mes para resolverlas.",
       "trampa": "No debe confundirse este plazo con los 15 días de exposición pública.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#8-aprobación-inicial-exposición-pública-y-reclamaciones",
+      "referencia": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "1 mes"
     },
     {
@@ -149,7 +149,7 @@
       "correcta": 0,
       "justificacion": "La aprobación definitiva del presupuesto general debe realizarse antes del 31 de diciembre del año anterior al ejercicio en que deba aplicarse.",
       "trampa": "La aprobación definitiva no basta para la entrada en vigor; también es necesaria la publicación legal.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#10-aprobación-definitiva-publicación-y-entrada-en-vigor",
+      "referencia": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "31 de diciembre del año anterior"
     },
     {
@@ -164,7 +164,7 @@
       "correcta": 0,
       "justificacion": "Si al comenzar el ejercicio no ha entrado en vigor el nuevo presupuesto, se considera automáticamente prorrogado el presupuesto anterior hasta la entrada en vigor del nuevo.",
       "trampa": "La prórroga no requiere acuerdo expreso y no alcanza a todos los créditos sin excepción.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#12-prórroga-presupuestaria",
+      "referencia": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "Se prorroga automáticamente el presupuesto anterior"
     },
     {
@@ -179,113 +179,113 @@
       "correcta": 1,
       "justificacion": "No se prorrogan los créditos destinados a servicios o programas que debían concluir en el ejercicio anterior ni los financiados con crédito específico o con ingresos específicos o afectados.",
       "trampa": "La prórroga presupuestaria no reproduce íntegramente el presupuesto anterior.",
-      "referencia": "content/diputacion-toledo/tema-27/manual.md#12-prórroga-presupuestaria",
+      "referencia": "TRLRHL RDL 2/2004 · art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "Los destinados a programas que debían concluir o financiados con ingresos específicos o afectados"
     },
     {
       "id": "DIP-T27-013",
-      "pregunta": "¿Qué órgano forma el presupuesto general de la entidad local?",
+      "pregunta": "¿Qué documento debe acompañar al presupuesto de la propia entidad local conforme al artículo 168.1.c TRLRHL?",
       "opciones": [
-        "La Intervención",
-        "La Comisión Especial de Cuentas",
-        "La Tesorería",
-        "La Presidencia de la entidad"
+        "El informe de la Comisión Europea sobre aranceles",
+        "Las cuentas particulares de los vecinos",
+        "La sentencia del último proceso selectivo",
+        "El anexo de personal de la entidad local"
       ],
       "correcta": 3,
-      "justificacion": "El **Presidente** forma el presupuesto general sobre los presupuestos y estados de previsión integrantes.",
-      "trampa": "Distinguir elaboración, aprobación inicial, exposición y aprobación definitiva.",
-      "referencia": "TRLRHL art. 168 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "La Presidencia de la entidad"
+      "justificacion": "**TRLRHL art. 168.1.c**: acompaña al proyecto de presupuesto un **anexo de personal** de la entidad local.",
+      "trampa": "**Anexo de personal** es documentación preparatoria; no sustituye al **informe de Intervención**.",
+      "referencia": "TRLRHL, art. 168.1.c · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168",
+      "respuestaLiteral": "El anexo de personal de la entidad local"
     },
     {
       "id": "DIP-T27-014",
-      "pregunta": "¿Antes de qué fecha debe remitirse el presupuesto general al Pleno para su aprobación, enmienda o devolución?",
+      "pregunta": "¿A cuántos meses del ejercicio corriente debe referirse como mínimo el avance de liquidación que acompaña al presupuesto conforme al art. 168.1.b?",
       "opciones": [
-        "15 de septiembre",
-        "1 de octubre",
-        "31 de diciembre",
-        "15 de octubre"
+        "A un mes del ejercicio corriente",
+        "A doce meses del ejercicio corriente, obligatoriamente",
+        "A tres ejercicios completos",
+        "A seis meses del ejercicio corriente"
       ],
       "correcta": 3,
-      "justificacion": "El **Presidente** remite el proyecto, informado por la **Intervención**, antes del **15 de octubre**.",
-      "trampa": "Distinguir elaboración, aprobación inicial, exposición y aprobación definitiva.",
-      "referencia": "TRLRHL art. 168 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "15 de octubre"
+      "justificacion": "**TRLRHL art. 168.1.b**: se adjunta la liquidación del ejercicio anterior y el **avance del corriente referido al menos a seis meses**.",
+      "trampa": "**Seis meses de avance** no son **seis meses de exposición pública**; esta dura **15 días**.",
+      "referencia": "TRLRHL, art. 168.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168",
+      "respuestaLiteral": "A seis meses del ejercicio corriente"
     },
     {
       "id": "DIP-T27-015",
-      "pregunta": "¿Durante qué periodo se expone al público el presupuesto general inicialmente aprobado?",
+      "pregunta": "¿Qué horizonte temporal contempla el artículo 166.1.a TRLRHL para los planes y programas de inversión y financiación que pueden formular las entidades locales?",
       "opciones": [
-        "10 días",
-        "15 días",
-        "20 días",
-        "1 mes"
+        "Un ejercicio mensual",
+        "Cuatro años",
+        "Ocho meses",
+        "Diez años obligatorios para todas las entidades"
       ],
       "correcta": 1,
-      "justificacion": "Se expone al público durante **15 días**, previo anuncio en el boletín oficial correspondiente.",
-      "trampa": "Distinguir elaboración, aprobación inicial, exposición y aprobación definitiva.",
-      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "15 días"
+      "justificacion": "**TRLRHL art. 166.1.a**: los planes y programas de inversión y financiación que **pueden formular** municipios y entidades supramunicipales abarcan **cuatro años**.",
+      "trampa": "**Cuatro años** es horizonte del **plan**, no plazo de aprobación anual del presupuesto; la formulación prevista es **facultativa**.",
+      "referencia": "TRLRHL, art. 166.1.a · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a166",
+      "respuestaLiteral": "Cuatro años"
     },
     {
       "id": "DIP-T27-016",
-      "pregunta": "¿Qué ocurre si no se presentan reclamaciones durante la exposición pública del presupuesto?",
+      "pregunta": "¿Cómo debe aprobarse el presupuesto general local según el artículo 168.5 TRLRHL?",
       "opciones": [
-        "Debe celebrarse otra votación necesariamente",
-        "Se paraliza un mes",
-        "Se considera definitivamente aprobado",
-        "Debe elevarse al Tribunal de Cuentas"
+        "Separadamente cada presupuesto autónomo, sin acuerdo general",
+        "Mediante decreto exclusivo de la Intervención",
+        "Mediante un acuerdo único que detalle los presupuestos integrantes, sin aprobación separada",
+        "Por referéndum obligatorio en todos los municipios"
       ],
       "correcta": 2,
-      "justificacion": "El presupuesto se considera **definitivamente aprobado** si no hay reclamaciones en el plazo de exposición.",
-      "trampa": "Distinguir elaboración, aprobación inicial, exposición y aprobación definitiva.",
-      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "Se considera definitivamente aprobado"
+      "justificacion": "**TRLRHL art. 168.5**: el acuerdo de aprobación será **único**, detallará los presupuestos integrantes y **no permitirá aprobarlos separadamente**.",
+      "trampa": "**Presidencia forma** y **Pleno aprueba**, pero lo hace **en un acuerdo único**, no en acuerdos independientes.",
+      "referencia": "TRLRHL, art. 168.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168",
+      "respuestaLiteral": "Mediante un acuerdo único que detalle los presupuestos integrantes, sin aprobación separada"
     },
     {
       "id": "DIP-T27-017",
-      "pregunta": "Si se presentan reclamaciones al presupuesto, ¿de cuánto tiempo dispone el Pleno para resolverlas?",
+      "pregunta": "¿Qué motivo de reclamación contra el presupuesto general admite expresamente el artículo 170.2.b TRLRHL?",
       "opciones": [
-        "Un mes",
-        "15 días",
-        "Dos meses",
-        "Tres meses"
+        "La omisión del crédito necesario para atender obligaciones exigibles de la entidad",
+        "La mera disconformidad con el partido que gobierna",
+        "La preferencia de un vecino por otro programa sin infracción legal",
+        "La falta de presencia de medios de comunicación en el Pleno"
       ],
       "correcta": 0,
-      "justificacion": "El **Pleno** dispone de **un mes** para resolver las reclamaciones.",
-      "trampa": "Distinguir elaboración, aprobación inicial, exposición y aprobación definitiva.",
-      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "Un mes"
+      "justificacion": "**TRLRHL art. 170.2.b**: es causa tasada de reclamación **omitir crédito necesario** para obligaciones **exigibles** por precepto legal u otro título legítimo.",
+      "trampa": "Las reclamaciones del **art. 170** tienen **causas tasadas**, no sirven para expresar desacuerdos políticos genéricos.",
+      "referencia": "TRLRHL, art. 170.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a170",
+      "respuestaLiteral": "La omisión del crédito necesario para atender obligaciones exigibles de la entidad"
     },
     {
       "id": "DIP-T27-018",
-      "pregunta": "¿Qué aprobación del presupuesto debe producirse antes del 31 de diciembre del año anterior?",
+      "pregunta": "¿Cómo se publica el presupuesto general local definitivamente aprobado para que pueda entrar en vigor?",
       "opciones": [
-        "La aprobación del avance de liquidación",
-        "La aprobación definitiva",
-        "La presentación ante la Intervención",
-        "La aprobación de la Cuenta General"
+        "Únicamente por correo electrónico a los concejales",
+        "Resumido por capítulos en el Boletín Oficial de la Provincia, con las demás publicaciones legalmente exigidas",
+        "Solo mediante anuncio en una red social",
+        "No necesita publicación una vez aprobado por el Pleno"
       ],
       "correcta": 1,
-      "justificacion": "La aprobación **definitiva** del presupuesto debe realizarse antes del **31 de diciembre** del año anterior.",
-      "trampa": "Distinguir elaboración, aprobación inicial, exposición y aprobación definitiva.",
-      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "La aprobación definitiva"
+      "justificacion": "**TRLRHL arts. 169.3 y 169.5**: el presupuesto definitivo se publica, **resumido por capítulos**, en el **BOP** (o diario de comunidad uniprovincial), además del boletín de la Corporación si existe; la **entrada en vigor requiere publicación legal**.",
+      "trampa": "**Aprobación definitiva** no equivale automáticamente a **entrada en vigor**: exige **publicación**.",
+      "referencia": "TRLRHL, art. 169.3 y 169.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
+      "respuestaLiteral": "Resumido por capítulos en el Boletín Oficial de la Provincia, con las demás publicaciones legalmente exigidas"
     },
     {
       "id": "DIP-T27-019",
-      "pregunta": "¿Qué sucede si al comenzar el ejercicio todavía no ha entrado en vigor el presupuesto correspondiente?",
+      "pregunta": "¿Cuándo entra en vigor el presupuesto general local definitivamente aprobado conforme al artículo 169.5 TRLRHL?",
       "opciones": [
-        "No se puede realizar gasto alguno",
-        "Se prorroga automáticamente el presupuesto anterior con las excepciones legales",
-        "Se presume aprobado el proyecto",
-        "Se exige aprobación judicial"
+        "Desde el mismo día de su aprobación inicial, aunque no se publique",
+        "Una vez publicado en la forma legalmente prevista",
+        "Únicamente tras aprobación del Gobierno de España",
+        "Siempre el primer día del año aunque nunca se publique"
       ],
       "correcta": 1,
-      "justificacion": "El presupuesto anterior se **prorroga automáticamente** en sus créditos iniciales, con excepciones legales.",
-      "trampa": "Distinguir elaboración, aprobación inicial, exposición y aprobación definitiva.",
-      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "Se prorroga automáticamente el presupuesto anterior con las excepciones legales"
+      "justificacion": "**TRLRHL art. 169.5**: el presupuesto entra en vigor en el ejercicio correspondiente **una vez publicado** en la forma prevista en **169.3**.",
+      "trampa": "La **prórroga automática** existe si el nuevo presupuesto **no ha entrado en vigor** al comenzar el ejercicio; no basta con aprobación en Pleno.",
+      "referencia": "TRLRHL, art. 169.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
+      "respuestaLiteral": "Una vez publicado en la forma legalmente prevista"
     },
     {
       "id": "DIP-T27-020",
@@ -299,12 +299,22 @@
       "correcta": 0,
       "justificacion": "Contra la aprobación definitiva cabe **recurso contencioso-administrativo**, en la forma y plazos de la legislación jurisdiccional.",
       "trampa": "Distinguir elaboración, aprobación inicial, exposición y aprobación definitiva.",
-      "referencia": "TRLRHL art. 171 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "referencia": "TRLRHL RDL 2/2004 · art. 171 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a171",
       "respuestaLiteral": "Recurso contencioso-administrativo"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_24_27_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "fuentesBOEPorPregunta": true,
+    "controlNavegador": "TRANSVERSAL_PENDIENTE",
+    "certificacionIntegral": false,
+    "soloReabrirPorErrorOReforma": true
   }
 }

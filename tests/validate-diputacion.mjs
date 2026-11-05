@@ -21,10 +21,10 @@ for (const theme of programme.temas) {
   const number = String(theme.numero).padStart(2, '0');
   const expectedPrefix = `DIP-T${number}-`;
 
-  const certificado = theme.numero<=21 || theme.numero===23;
+  const certificado = theme.numero<=21 || (theme.numero>=23 && theme.numero<=27);
   const estadoEsperado = certificado ? 'AUDITADO' : theme.numero===22 ? 'EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES' : 'GENERACION_DESDE_CERO';
   assert.equal(theme.estado, estadoEsperado, `Estado inválido en tema ${number}`);
-  if (theme.numero<=23) assert.equal(theme.metodo,'GENERACION_DESDE_CERO');
+  if (theme.numero<=27) assert.equal(theme.metodo,'GENERACION_DESDE_CERO');
 
   for (const key of ['manual', 'fuentes', 'matriz', 'preguntas']) {
     assert.ok(theme[key], `Falta ruta ${key} en tema ${number}`);

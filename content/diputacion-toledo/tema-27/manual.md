@@ -306,3 +306,29 @@ PRESUPUESTO GENERAL LOCAL
 > ⚠️ **¡Foco Examen!:** El **15 de octubre** corresponde a la remisión del proyecto al **Pleno**; el **31 de diciembre** es el límite de aprobación definitiva. El plazo de **15 días** es para la exposición pública, no el plazo para que el **Pleno** resuelva reclamaciones (**1 mes**).
 
 **Control de vigencia:** El [TRLRHL consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) indica una actualización publicada el **07/10/2026**, posterior a la edición del **03/06/2026** recogida inicialmente en fuentes. Cuadro cotejado con sus arts. **168–171**. Banco de **20 preguntas**. Pendiente auditoría completa del manual y prueba funcional antes de declarar cerrado el tema.
+
+## 17. Cierre jurídico-pedagógico · C1 24–27 (**05/11/2026**)
+
+### Secuencia completa de presupuesto local con documentos, órganos y actos
+
+| Fase o elemento | Norma | Actor, plazo o condición |
+|---|---|---|
+| Ejercicio presupuestario | **TRLRHL 163** | **Año natural** |
+| Integración presupuesto general | **TRLRHL 164** | Entidad local, **organismos autónomos** y previsiones de sociedades **100 % locales** |
+| Bases de ejecución | **TRLRHL 165.1** | Adecuan gestión a la entidad **sin modificar normativa superior** |
+| Aprobación de los presupuestos integrantes | **TRLRHL 165.4** | Cada presupuesto **sin déficit inicial** |
+| Planes de inversión y financiación que **pueden formularse** | **TRLRHL 166.1.a** | Horizonte **4 años**, no necesariamente obligación de formular plan |
+| Documentación acompañante | **TRLRHL 168.1.b–c** | **Liquidación anterior**, avance de corriente de al menos **6 meses** y **anexo de personal** |
+| Presupuestos organismos autónomos, previsiones sociedades | **TRLRHL 168.2–3** | Remisión a entidad local **antes del 15 de septiembre** |
+| Formación proyecto de presupuesto general | **TRLRHL 168.4** | **Presidencia**, con informe de **Intervención**; remite al **Pleno antes del 15 de octubre** |
+| Aprobación de presupuestos integrantes | **TRLRHL 168.5** | **Acuerdo único** del **Pleno**, no presupuesto separado |
+| Exposición pública tras aprobación inicial | **TRLRHL 169.1** | **15 días**; sin reclamaciones, aprobación definitiva |
+| Con reclamaciones | **TRLRHL 169.1** | **Pleno** resuelve en **1 mes** |
+| Causas de reclamación | **TRLRHL 170.2** | **Tasadas**: defecto de tramitación, créditos exigibles omitidos o insuficiencia manifiesta |
+| Aprobación definitiva | **TRLRHL 169.2** | **Pleno** antes del **31 de diciembre** anterior al ejercicio |
+| Publicidad y entrada en vigor | **TRLRHL 169.3 y 169.5** | **Resumen por capítulos en BOP**; vigencia cuando se publica legalmente |
+| Prórroga automática | **TRLRHL 169.6** | Si no entra en vigor nuevo presupuesto: prórroga de créditos iniciales, salvo **programas concluidos o financiación específica/afectada** |
+
+**Fuente principal:** [**TRLRHL consolidado BOE, actualización 07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214); completan el régimen el [**RD 500/1990**](https://www.boe.es/buscar/act.php?id=BOE-A-1990-9664) y las reglas de estabilidad presupuestaria. **Siete preguntas repetidas** de plazos/órganos se sustituyen por documentos, bases, acuerdo único, motivos de reclamación y entrada en vigor.
+
+> ⚠️ **¡Foco Examen!:** **15 de septiembre = entes dependientes**, **15 de octubre = Presidencia remite al Pleno**; **15 días = exposición**, **1 mes = Pleno resuelve reclamaciones**. **Aprobar no equivale a entrar en vigor**: exige **publicación por capítulos en BOP**.

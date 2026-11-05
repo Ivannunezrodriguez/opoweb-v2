@@ -1,7 +1,7 @@
 {
   "tema": 26,
   "titulo": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva. La revisión en vía administrativa de los actos y actuaciones de aplicación de los tributos.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Ley 58/2003, de 17 de diciembre, General Tributaria",
@@ -10,16 +10,56 @@
     "Real Decreto 520/2005, de 13 de mayo"
   ],
   "bloques": [
-    {"id":"T26-B01","nombre":"Concepto, órganos y periodo voluntario","cubierto":true},
-    {"id":"T26-B02","nombre":"Formas y medios de pago","cubierto":true},
-    {"id":"T26-B03","nombre":"Aplazamiento y fraccionamiento","cubierto":true},
-    {"id":"T26-B04","nombre":"Compensación","cubierto":true},
-    {"id":"T26-B05","nombre":"Devoluciones e ingresos indebidos","cubierto":true},
-    {"id":"T26-B06","nombre":"Inicio del periodo ejecutivo y recargos","cubierto":true},
-    {"id":"T26-B07","nombre":"Providencia de apremio","cubierto":true},
-    {"id":"T26-B08","nombre":"Embargo, enajenación y terminación","cubierto":true},
-    {"id":"T26-B09","nombre":"Suspensión","cubierto":true},
-    {"id":"T26-B10","nombre":"Revisión en vía administrativa","cubierto":true}
+    {
+      "id": "T26-B01",
+      "nombre": "Concepto, órganos y periodo voluntario",
+      "cubierto": true
+    },
+    {
+      "id": "T26-B02",
+      "nombre": "Formas y medios de pago",
+      "cubierto": true
+    },
+    {
+      "id": "T26-B03",
+      "nombre": "Aplazamiento y fraccionamiento",
+      "cubierto": true
+    },
+    {
+      "id": "T26-B04",
+      "nombre": "Compensación",
+      "cubierto": true
+    },
+    {
+      "id": "T26-B05",
+      "nombre": "Devoluciones e ingresos indebidos",
+      "cubierto": true
+    },
+    {
+      "id": "T26-B06",
+      "nombre": "Inicio del periodo ejecutivo y recargos",
+      "cubierto": true
+    },
+    {
+      "id": "T26-B07",
+      "nombre": "Providencia de apremio",
+      "cubierto": true
+    },
+    {
+      "id": "T26-B08",
+      "nombre": "Embargo, enajenación y terminación",
+      "cubierto": true
+    },
+    {
+      "id": "T26-B09",
+      "nombre": "Suspensión",
+      "cubierto": true
+    },
+    {
+      "id": "T26-B10",
+      "nombre": "Revisión en vía administrativa",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "liquidacionNotificada1a15": "hasta el 20 del mes siguiente",
@@ -37,16 +77,27 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T26-001 a DIP-T26-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T26-001 a DIP-T26-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "plazosPorcentajesYOrganosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "actualizacionTRLHL": "2026-06-03",
+    "actualizacionTRLHL": "2026-10-07",
     "actualizacionRGR": "2024-01-31",
     "verificacionIntegridad": "2026-07-19"
+  },
+  "ultimaActualizacionTRLHL": "2026-10-07",
+  "cierreEditorialC1_24_27_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programa": "BOP Toledo 118/2026 Anexo VII",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-24-27-2026-11-05.md",
+    "certificacionIntegral": false,
+    "controlWeb": "TRANSVERSAL_PENDIENTE"
   }
 }

@@ -1,7 +1,7 @@
 {
   "tema": 25,
   "titulo": "La obligación tributaria: nacimiento, sujetos, elementos cuantitativos y extinción. Los tributos locales. Normas generales. Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Los procedimientos de gestión tributaria. La extinción de la deuda. Los procedimientos tributarios de revisión.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Ley 58/2003, de 17 de diciembre, General Tributaria",
@@ -10,16 +10,56 @@
     "Real Decreto 520/2005, de 13 de mayo"
   ],
   "bloques": [
-    {"id":"T25-B01","nombre":"Relación jurídico-tributaria y obligación principal","cubierto":true},
-    {"id":"T25-B02","nombre":"Nacimiento, hecho imponible, devengo y exigibilidad","cubierto":true},
-    {"id":"T25-B03","nombre":"Obligados tributarios, sujeto pasivo y responsables","cubierto":true},
-    {"id":"T25-B04","nombre":"Base imponible, base liquidable, tipo y cuotas","cubierto":true},
-    {"id":"T25-B05","nombre":"Deuda tributaria y extinción","cubierto":true},
-    {"id":"T25-B06","nombre":"Tributos locales y principios de tributación local","cubierto":true},
-    {"id":"T25-B07","nombre":"Ordenanzas fiscales, delegación y colaboración","cubierto":true},
-    {"id":"T25-B08","nombre":"Beneficios fiscales y compensación","cubierto":true},
-    {"id":"T25-B09","nombre":"Procedimientos de gestión tributaria","cubierto":true},
-    {"id":"T25-B10","nombre":"Liquidaciones y procedimientos tributarios de revisión","cubierto":true}
+    {
+      "id": "T25-B01",
+      "nombre": "Relación jurídico-tributaria y obligación principal",
+      "cubierto": true
+    },
+    {
+      "id": "T25-B02",
+      "nombre": "Nacimiento, hecho imponible, devengo y exigibilidad",
+      "cubierto": true
+    },
+    {
+      "id": "T25-B03",
+      "nombre": "Obligados tributarios, sujeto pasivo y responsables",
+      "cubierto": true
+    },
+    {
+      "id": "T25-B04",
+      "nombre": "Base imponible, base liquidable, tipo y cuotas",
+      "cubierto": true
+    },
+    {
+      "id": "T25-B05",
+      "nombre": "Deuda tributaria y extinción",
+      "cubierto": true
+    },
+    {
+      "id": "T25-B06",
+      "nombre": "Tributos locales y principios de tributación local",
+      "cubierto": true
+    },
+    {
+      "id": "T25-B07",
+      "nombre": "Ordenanzas fiscales, delegación y colaboración",
+      "cubierto": true
+    },
+    {
+      "id": "T25-B08",
+      "nombre": "Beneficios fiscales y compensación",
+      "cubierto": true
+    },
+    {
+      "id": "T25-B09",
+      "nombre": "Procedimientos de gestión tributaria",
+      "cubierto": true
+    },
+    {
+      "id": "T25-B10",
+      "nombre": "Liquidaciones y procedimientos tributarios de revisión",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "prescripcionTributariaGeneral": "4 años",
@@ -35,16 +75,27 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T25-001 a DIP-T25-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T25-001 a DIP-T25-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "plazosCuantiasYOrganosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "actualizacionTRLHL": "2026-06-03",
+    "actualizacionTRLHL": "2026-10-07",
     "actualizacionRGAT": "2025-04-02",
     "verificacionIntegridad": "2026-07-19"
+  },
+  "ultimaActualizacionTRLHL": "2026-10-07",
+  "cierreEditorialC1_24_27_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programa": "BOP Toledo 118/2026 Anexo VII",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-24-27-2026-11-05.md",
+    "certificacionIntegral": false,
+    "controlWeb": "TRANSVERSAL_PENDIENTE"
   }
 }

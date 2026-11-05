@@ -3,7 +3,7 @@ import {readFileSync} from 'node:fs';
 const read=p=>readFileSync(p,'utf8'),json=p=>JSON.parse(read(p));
 const root='content/diputacion-toledo/';
 const manifest=json('data/programa-diputacion-administrativo-2026.json');
-assert.deepEqual(manifest.temas.filter(t=>t.estado==='AUDITADO').map(t=>t.numero),[1,2,3]);
+assert.deepEqual(manifest.temas.filter(t=>t.numero<=3 && t.estado==='AUDITADO').map(t=>t.numero),[1,2,3]);
 let questions=0,options=0;
 for (let n=1;n<=3;n++){
  const base=root+'tema-0'+n+'/';

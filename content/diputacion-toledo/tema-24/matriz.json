@@ -1,23 +1,63 @@
 {
   "tema": 24,
   "titulo": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Ley 12/2010, de 18 de noviembre, de igualdad entre mujeres y hombres de Castilla-La Mancha",
     "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres"
   ],
   "bloques": [
-    {"id":"T24-B01","nombre":"Marco general y objeto de ambas leyes","cubierto":true},
-    {"id":"T24-B02","nombre":"Igualdad de trato y discriminación directa e indirecta","cubierto":true},
-    {"id":"T24-B03","nombre":"Acoso sexual y acoso por razón de sexo","cubierto":true},
-    {"id":"T24-B04","nombre":"Embarazo, maternidad y represalias","cubierto":true},
-    {"id":"T24-B05","nombre":"Acciones positivas","cubierto":true},
-    {"id":"T24-B06","nombre":"Transversalidad y presencia equilibrada","cubierto":true},
-    {"id":"T24-B07","nombre":"Igualdad en el empleo público y planes de igualdad","cubierto":true},
-    {"id":"T24-B08","nombre":"Tutela frente a la discriminación","cubierto":true},
-    {"id":"T24-B09","nombre":"Políticas públicas de igualdad en Castilla-La Mancha","cubierto":true},
-    {"id":"T24-B10","nombre":"Impacto de género, lenguaje, contratación y subvenciones","cubierto":true}
+    {
+      "id": "T24-B01",
+      "nombre": "Marco general y objeto de ambas leyes",
+      "cubierto": true
+    },
+    {
+      "id": "T24-B02",
+      "nombre": "Igualdad de trato y discriminación directa e indirecta",
+      "cubierto": true
+    },
+    {
+      "id": "T24-B03",
+      "nombre": "Acoso sexual y acoso por razón de sexo",
+      "cubierto": true
+    },
+    {
+      "id": "T24-B04",
+      "nombre": "Embarazo, maternidad y represalias",
+      "cubierto": true
+    },
+    {
+      "id": "T24-B05",
+      "nombre": "Acciones positivas",
+      "cubierto": true
+    },
+    {
+      "id": "T24-B06",
+      "nombre": "Transversalidad y presencia equilibrada",
+      "cubierto": true
+    },
+    {
+      "id": "T24-B07",
+      "nombre": "Igualdad en el empleo público y planes de igualdad",
+      "cubierto": true
+    },
+    {
+      "id": "T24-B08",
+      "nombre": "Tutela frente a la discriminación",
+      "cubierto": true
+    },
+    {
+      "id": "T24-B09",
+      "nombre": "Políticas públicas de igualdad en Castilla-La Mancha",
+      "cubierto": true
+    },
+    {
+      "id": "T24-B10",
+      "nombre": "Impacto de género, lenguaje, contratación y subvenciones",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "presenciaEquilibrada": "cada sexo entre el 40 % y el 60 %",
@@ -31,8 +71,8 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T24-001 a DIP-T24-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T24-001 a DIP-T24-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "porcentajesFechasYOrganosEnNegrita": true,
@@ -42,5 +82,15 @@
     "actualizacionLey122010": "2021-06-30",
     "actualizacionLO32007": "2024-08-02",
     "verificacionIntegridad": "2026-07-19"
+  },
+  "cierreEditorialC1_24_27_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programa": "BOP Toledo 118/2026 Anexo VII",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-24-27-2026-11-05.md",
+    "certificacionIntegral": false,
+    "controlWeb": "TRANSVERSAL_PENDIENTE"
   }
 }

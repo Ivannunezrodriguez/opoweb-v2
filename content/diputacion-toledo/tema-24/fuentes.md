@@ -29,4 +29,11 @@
 - No se reutiliza contenido de otros temarios.
 - Se preserva la literalidad de las definiciones jurídicas clave.
 - Se destacan en **negrita** porcentajes, fechas, órganos y reglas susceptibles de pregunta tipo test.
-- Estado: `GENERACION_DESDE_CERO`.
+- Estado: `AUDITADO_JURIDICO_PEDAGOGICO`.
+
+
+**Cierre fuente 05/11/2026:** [**Ley 12/2010**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708) consolidado **30/06/2021**; [**LO 3/2007**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) consolidado **02/08/2024**. Artículos autonómicos **6, 9, 10, 14, 15**, y estatales **6–11, 15, 51, DA1** contrastados con el manual y el banco.
+
+[**Informe de cierre C1 24–27**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-24-27-2026-11-05.md). **Tema 24 auditado jurídico-pedagógicamente**, 20 preguntas, 80 alternativas, preceptos y trampas comprobados; el funcionamiento real de la web se controla aparte. Solo reabrir por error o reforma acreditados.
+
+> ⚠️ **¡Foco Examen!:** Distinguir el **órgano**, el **plazo**, la **norma** y la **excepción** aplicables; son las trampas recurrentes de este tema.

@@ -1,7 +1,7 @@
 {
   "tema": 27,
   "titulo": "El presupuesto general de las Entidades Locales: concepto y contenido. Especial referencia a las bases de ejecución del presupuesto. La elaboración y aprobación del presupuesto general. La prórroga presupuestaria.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Real Decreto Legislativo 2/2004, de 5 de marzo",
@@ -10,16 +10,56 @@
     "Ley Orgánica 2/2012, de 27 de abril"
   ],
   "bloques": [
-    {"id":"T27-B01","nombre":"Concepto, funciones y principios presupuestarios","cubierto":true},
-    {"id":"T27-B02","nombre":"Contenido e integración del presupuesto general","cubierto":true},
-    {"id":"T27-B03","nombre":"Estados, anexos y estructura presupuestaria","cubierto":true},
-    {"id":"T27-B04","nombre":"Bases de ejecución del presupuesto","cubierto":true},
-    {"id":"T27-B05","nombre":"Documentación preparatoria","cubierto":true},
-    {"id":"T27-B06","nombre":"Elaboración por Presidencia e informe de Intervención","cubierto":true},
-    {"id":"T27-B07","nombre":"Aprobación inicial, exposición y reclamaciones","cubierto":true},
-    {"id":"T27-B08","nombre":"Aprobación definitiva, publicación y entrada en vigor","cubierto":true},
-    {"id":"T27-B09","nombre":"Recurso contra el presupuesto","cubierto":true},
-    {"id":"T27-B10","nombre":"Prórroga presupuestaria","cubierto":true}
+    {
+      "id": "T27-B01",
+      "nombre": "Concepto, funciones y principios presupuestarios",
+      "cubierto": true
+    },
+    {
+      "id": "T27-B02",
+      "nombre": "Contenido e integración del presupuesto general",
+      "cubierto": true
+    },
+    {
+      "id": "T27-B03",
+      "nombre": "Estados, anexos y estructura presupuestaria",
+      "cubierto": true
+    },
+    {
+      "id": "T27-B04",
+      "nombre": "Bases de ejecución del presupuesto",
+      "cubierto": true
+    },
+    {
+      "id": "T27-B05",
+      "nombre": "Documentación preparatoria",
+      "cubierto": true
+    },
+    {
+      "id": "T27-B06",
+      "nombre": "Elaboración por Presidencia e informe de Intervención",
+      "cubierto": true
+    },
+    {
+      "id": "T27-B07",
+      "nombre": "Aprobación inicial, exposición y reclamaciones",
+      "cubierto": true
+    },
+    {
+      "id": "T27-B08",
+      "nombre": "Aprobación definitiva, publicación y entrada en vigor",
+      "cubierto": true
+    },
+    {
+      "id": "T27-B09",
+      "nombre": "Recurso contra el presupuesto",
+      "cubierto": true
+    },
+    {
+      "id": "T27-B10",
+      "nombre": "Prórroga presupuestaria",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "ejercicio": "año natural",
@@ -37,15 +77,26 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T27-001 a DIP-T27-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T27-001 a DIP-T27-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "plazosFechasYOrganosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "actualizacionTRLHL": "2026-06-03",
+    "actualizacionTRLHL": "2026-10-07",
     "verificacionIntegridad": "2026-07-19"
+  },
+  "ultimaActualizacionTRLHL": "2026-10-07",
+  "cierreEditorialC1_24_27_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programa": "BOP Toledo 118/2026 Anexo VII",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-24-27-2026-11-05.md",
+    "certificacionIntegral": false,
+    "controlWeb": "TRANSVERSAL_PENDIENTE"
   }
 }
