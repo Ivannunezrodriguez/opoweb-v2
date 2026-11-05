@@ -201,8 +201,30 @@
       "Cooperacion e informacion de Delegado detalladas",
       "Cooperacion del Subdelegado 75.a.1/2 y sanciones frente a expropiacion"
     ],
-    "bloqueo": "REMISION_LEGISLACION_CONTRATOS_ART_62_2_E_SIN_CUANTIA_VIGENTE_CONTRASTADA",
+    "bloqueo": "REMISION_ANTIGUA_ART_62_2_E_CONCILIADA_CON_LCSP_324_5_DT2_900000_SUPLETORIO; APLICACION_CONCRETA_DEPENDE_DE_CUANTIA_DEPARTAMENTAL",
     "banco": "20 preguntas/80 alternativas, no modificado",
+    "certificacionIntegral": false,
+    "navegadorReal": "PENDIENTE"
+  },
+  "controlRemisionContratosArt62e20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_NORMATIVO_COMPLEMENTARIO_LCSP_PENDIENTE_COTEJO_INTEGRAL",
+    "preceptos": [
+      "Ley 40/2015 art 62.2.e",
+      "Ley 9/2017 art 324.1 y 324.5",
+      "Ley 9/2017 DT 2",
+      "Ley 9/2017 art 101"
+    ],
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a62",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a324",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#dt-2"
+    ],
+    "cuantiaSupletoriaEuro": 900000,
+    "cuantiaAutorizacionConsejoMinistrosEuro": 12000000,
+    "condicionCuantiaSupletoria": "Hasta que el Secretario de Estado o titular ministerial competente fije otra cuantia en art 324.5",
+    "valorDeReferencia": "valor estimado conforme art 101 LCSP",
+    "estadoBanco": "20 preguntas/80 opciones, sin modificaciones",
     "certificacionIntegral": false,
     "navegadorReal": "PENDIENTE"
   }
