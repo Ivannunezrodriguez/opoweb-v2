@@ -1,0 +1,18 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const base='content/diputacion-toledo-auxiliar-c2/tema-14/';
+const read=p=>readFileSync(base+p,'utf8');
+const manual=read('manual.md'), sources=read('fuentes.md'), report=read('cotejo-legal-ley6-2020-2026-11-05.md');
+const matrix=JSON.parse(read('matriz.json')),bank=JSON.parse(read('preguntas.json'));
+const part=manual.split('## 11 bis. Reglas legales de vigencia')[1]?.split('## 12. Tabla comparativa')[0]??'';
+assert.ok(part.length>2500,'Missing detailed legal block');
+for(const letter of 'abcdefghi')assert.ok(part.includes('| **'+letter+')** |'),'Missing revocation cause '+letter);
+for(const k of ['5 años','5.2','a), c) y h)','b) y g)','art. 7.6','menos de 5 años'])assert.ok(part.toLocaleLowerCase('es').includes(k.toLocaleLowerCase('es')),'Missing '+k);
+for(const k of ['**15 años**','**1.500.000 €**','**500.000 €**','**2 meses**'])assert.ok(manual.includes(k),'Missing provider fact '+k);
+assert.ok(report.includes('BOE-A-2020-14046'));
+assert.ok(sources.includes('cotejo-legal-ley6-2020-2026-11-05.md'));
+assert.equal(matrix.controlLey6_2020_20261105?.certificacionIntegral,false);
+assert.match(matrix.estadoControl,/PENDIENTE_COTEJO_INTEGRAL/);
+assert.equal(bank.preguntas.length,20);
+assert.equal(bank.preguntas.reduce((n,q)=>n+q.opciones.length,0),80);
+console.log('DIP_C2_T14_LEY6_2020_4_5_6_7_9_FOCAL_20_80_PENDIENTE_OK');
