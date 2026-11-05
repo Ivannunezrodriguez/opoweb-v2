@@ -136,5 +136,28 @@
     "banco": "20/80 no modificado",
     "certificacionIntegral": false,
     "navegadorReal": "PENDIENTE"
+  },
+  "controlRd203PersonalEntornos20261105": {
+    "fecha": "2026-11-05",
+    "alcance": "FIRMA_EMPLEADO_Y_ENTORNOS_CERRADOS_RD203_ARTS_22_24_25",
+    "estado": "COTEJO_FOCAL_PENDIENTE_COTEJO_INTEGRAL",
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-rd203-personal-entornos-2026-11-05.md",
+    "fuentes": [
+      "RD 203/2021 arts. 22, 24, 25 (consolidado 02/04/2025)",
+      "Ley 40/2015 arts. 43, 44 (consolidado 02/08/2024)"
+    ],
+    "reglas": {
+      "certificadoEmpleadoPublico": "CUALIFICADO conforme a art 22.3",
+      "identificacionAGE": "Ley 39/2015 y ENS conforme al nivel de seguridad",
+      "firmaAGE": "certificados cualificados específicos; relaciones con otras AAPP cuando los admitan",
+      "repositoriosPersonal": "identificación para servicios y aplicaciones, no firma por sí misma",
+      "entornoMismaAdministracion": "condiciones de la Administración",
+      "entornoDiferentesAdministraciones": "convenio",
+      "condicionesEstatales": "Secretaría General de Administración Digital",
+      "seguridadEntorno": "Esquema Nacional de Seguridad"
+    },
+    "banco": "20 preguntas/80 alternativas sin modificación",
+    "certificacionIntegral": false,
+    "navegadorReal": "PENDIENTE"
   }
 }
