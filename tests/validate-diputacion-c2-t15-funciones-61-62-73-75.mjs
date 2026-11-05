@@ -19,7 +19,7 @@ for(const key of 'abcdefghijklmnñopqrst'){
 for(const key of 'abcdefghijk'){
  assert.ok(state.includes('| **'+key+')** |'),'Art 62.2 missing letter '+key);
 }
-for(const p of ['**61.j**','**61.ñ**','**61.q**','**61.r**','**61.s**']){
+for(const p of ['61.j','61.ñ','61.q','61.r','61.s']){
  assert.ok(minister.includes(p),'Exam distinction '+p+' absent');
 }
 for(const p of ['62.2.e','**62.2.f**','**62.2.i**','cuantía numérica']){
@@ -28,7 +28,7 @@ for(const p of ['62.2.e','**62.2.f**','**62.2.i**','cuantía numérica']){
 for(const p of ['**73.1.c.1.º**','**73.1.c.2.º**','**73.1.c.3.º**','**73.1.d.3.º**','**73.1.e.1.º**','**73.1.e.4.º**','carácter anual','regular y periódica']){
  assert.ok(delegate.includes(p),'Art 73 subinciso missing '+p);
 }
-for(const p of ['**75.a.1.º**','**75.a.2.º**','**Art. 75.d**','**Art. 75.e**','**Art. 75.f**','a través de sus respectivos Presidentes']){
+for(const p of ['**75.a.1.º**','**75.a.2.º**','**Art. 75.d:**','**Art. 75.e:**','**Art. 75.f:**','a través de sus respectivos Presidentes']){
  assert.ok(subdelegate.includes(p),'Art 75 rule missing '+p);
 }
 assert.ok(!subdelegate.includes('En provincias donde radique la sede del Delegado, este puede asumir funciones del Subdelegado'));
