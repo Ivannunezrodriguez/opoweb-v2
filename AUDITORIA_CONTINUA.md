@@ -2479,3 +2479,27 @@ Se sustituyó el resumen de cinco denominaciones del antiguo **apartado 16** por
 **Evidencia y trazabilidad:** [manual T14](content/diputacion-toledo-auxiliar-c2/tema-14/manual.md), [informe y matriz de origen por artículo](content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-eidas-reformado-2026-11-05.md), [fuentes](content/diputacion-toledo-auxiliar-c2/tema-14/fuentes.md), [matriz JSON](content/diputacion-toledo-auxiliar-c2/tema-14/matriz.json). Se creó [prueba focal eIDAS](tests/validate-diputacion-c2-t14-eidas-reformado.mjs) y se incorporó a `npm test`. La prueba comprueba los **seis subapartados, las reglas, seis focos, fuentes, estado no cerrado y banco 20/80 con claves 5/5/5/5**. Último commit técnico de integración: `abaa508ec65a6f91a864601261de327ecf9e67c9`.
 
 **Límites:** este es cotejo jurídico del **bloque eIDAS reformado**, no certificación de todos los restantes pasajes del manual, ni de sus funcionalidades en navegador, móvil, PWA o accesibilidad. Se conserva `EN_AUDITORIA` y `PENDIENTE_COTEJO_INTEGRAL`. Los **20/80** del banco ya se documentaron separadamente en el §88. **0/121 temas certificados integralmente**. Priorizar el siguiente bloque real (coherencia de prestadores y uso administrativo con RD 203/2021 / Ley 39/2015) con lotes agrupados; **T06 OAPGT** continúa reservado hasta Estatutos. **GitHub Actions/Pages:** comprobar conclusión de ejecución del HEAD exacto tras el registro, sin extrapolar éxitos de commits anteriores.
+
+
+## 92. Diputación C2 T14 — cotejo agrupado RD 203/2021: identificación, firma, sedes, sellos y CSV (05/11/2026)
+
+**Objetivo y fuente:** continuidad del tema 14 sin microcorrecciones. Cotejo de [**Ley 39/2015, arts. 9–12**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) (consolidada **06/11/2024**) y [**RD 203/2021, arts. 16–23 y 26–30**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032) (consolidado actualizado **02/04/2025**). Se conserva programa literal BOP Toledo **197, 14/10/2026, Anexo XI, CSV 2026.00004759**. Los textos consolidados son informativos; para efectos jurídicos, publicaciones oficiales.
+
+**Corrección material de ocho apartados del manual T14** (en un solo commit de contenido `04137883784e523f4425a7a96827262d2f499357`):
+
+| Apartado | Datos test y órgano competente incorporados |
+|---|---|
+| **Identificación/firma, 9–11 LPAC y 26–29 RD** | **Firma válida acredita identidad (10.5)**, mientras que usar identificación como firma necesita **norma expresa y voluntad (10.4)**; atributos mínimos de persona física, representante y sello del **27 RD** |
+| **Funcionario habilitado, 12 LPAC y 30 RD** | **Interesado no obligado**, sin medios, **consentimiento expreso escrito** y entrega de **copia**; inscripción y habilitación del trámite en AGE |
+| **Sede, art. 18 RD** | **Regla general**: certificado web cualificado **o equivalente**; **AGE**: certificado cualificado de autenticación web, dominio **`.gob.es`** |
+| **Sello de órgano, art. 19 RD** | Resolución de **Subsecretaría / Presidencia / Dirección** para creación estatal, publicada en sede, con titular, alcance y validación |
+| **CSV y actuación automatizada, arts. 20–21 RD** | **CSV único**, distinto tras alteraciones; verificación **directa y gratuita**; en **AGE**, **dos informes previos CCN y SGAD** y verificación en sede **al menos 5 años (21.4.e)**, salvo plazo especial mayor |
+| **Empleado con número profesional, art. 23 RD** | Certificado cualificado en supuestos justificados de **información clasificada, seguridad o defensa**, custodia de identidad y revelación por **petición oficial**; no anonimato absoluto |
+| **Plataforma de verificación, art. 16 RD** | **SGAD** responsable; gratuita **para el sector público**, acceso por **adhesión**, prestadores cualificados colaboran |
+| **Política estatal de firma, art. 17 RD** | **Secretaría de Estado de Digitalización e Inteligencia Artificial** (denominación literal) aprueba por resolución; publicación **BOE y PAGe** |
+
+**Trampa importante:** **Ley 6/2020, art. 4.2**: período **máximo 5 años** del certificado cualificado; **RD 203/2021, art. 21.4.e**: verificación de CSV estatal **mínimo 5 años**. No son el mismo objeto ni idéntica dirección del límite.
+
+**Documentación vinculada:** [manual](content/diputacion-toledo-auxiliar-c2/tema-14/manual.md), [cotejo por fuentes y ocho apartados](content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-rd203-administraciones-2026-11-05.md), [fuentes](content/diputacion-toledo-auxiliar-c2/tema-14/fuentes.md), [matriz](content/diputacion-toledo-auxiliar-c2/tema-14/matriz.json), [regresión](tests/validate-diputacion-c2-t14-rd203-administraciones.mjs) integrada en `npm test`. Tras ajuste de aserciones a la tipografía real, último commit de prueba `f12207ccf4c478013d63afe4f8faf8aae445db18`; Actions Validar run **42033482948** y Pages run **42033482386**, consultar estados al terminar. Los primeros CI de contenido y matriz finalizaron **success**. No se altera el banco T14 **20 preguntas / 80 alternativas, claves A5/B5/C5/D5**.
+
+**Límites:** tema **EN_AUDITORIA**, sin certificación integral ni prueba real de navegador, móvil, PWA o accesibilidad; no se eleva cobertura global ficticiamente. **Siguiente lote:** cotejo transversal final de coherencia del manual T14, pruebas funcionales reales cuando haya herramienta, después avanzar a otros temas no tratados. T06 OAPGT sigue reservado a Estatutos íntegros.
