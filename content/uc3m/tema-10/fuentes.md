@@ -43,3 +43,9 @@ Fecha de revisión editorial: **22 de julio de 2026**.
 [**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
 
 > ⚠️ **¡Foco Examen!:** **TREBEP art. 64.2**: la prohibición de aceptar renuncia cuando existe auto de procesamiento o apertura de juicio oral se refiere a **algún delito**, no solo a delitos funcionales.
+
+## Revalidación agrupada del banco UC3M T10–T12 — **05/11/2026**
+
+[**Informe de cotejo de las 36 preguntas y 144 alternativas**](../cotejo-bloque-t10-t12-2026-11-05.md), con origen legal por **precepto**, fundamento de la clave y descarte argumentado de las otras tres opciones, en el bloque de tres temas. **No equivale a certificación integral**, ni da por resuelta la fecha jurídica de corte de la convocatoria de la **UC3M**.
+
+> ⚠️ **¡Foco Examen!:** Distinguir la norma **actualmente vigente** de la **redacción exigible según las bases**, determinada por la fecha de publicación del anuncio oficial correspondiente, todavía por verificar en fuente primaria.
