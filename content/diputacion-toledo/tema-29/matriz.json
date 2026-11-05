@@ -1,7 +1,7 @@
 {
   "tema": 29,
   "titulo": "El Impuesto sobre Bienes Inmuebles: naturaleza, hecho imponible, sujeto pasivo, exenciones y bonificaciones, base imponible, base liquidable, cuota, devengo y periodo impositivo. El Impuesto sobre Actividades Económicas: naturaleza, hecho imponible, sujeto pasivo, cuota, tarifas, devengo y periodo impositivo.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Real Decreto Legislativo 2/2004, de 5 de marzo",
@@ -78,17 +78,17 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T29-001 a DIP-T29-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T29-001 a DIP-T29-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "plazosPorcentajesCuantiasYOrganosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "actualizacionTRLHL": "2026-06-03",
+    "actualizacionTRLHL": "2026-10-07",
     "actualizacionTarifasIAE": "2026-03-21",
-    "verificacionIntegridad": "2026-07-19"
+    "verificacionIntegridad": "2026-11-05"
   },
   "controlTransversalNoviembre2026": {
     "fecha": "2026-11-04",
@@ -99,5 +99,11 @@
     ],
     "banco": "DIP-T29-018 ahora analiza grupo de control",
     "estado": "PARCIAL, SIN CERTIFICACION_INTEGRAL"
+  },
+  "cierreEditorialC1_28_31_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "informe": "content/diputacion-toledo/cierre-editorial-28-31-2026-11-05.md",
+    "certificacionIntegral": false
   }
 }

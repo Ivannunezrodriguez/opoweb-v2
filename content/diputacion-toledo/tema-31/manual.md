@@ -38,7 +38,7 @@ Tras eIDAS 2, el catálogo comprende:
 - archivo electrónico de datos y documentos;
 - registro de datos en libros mayores electrónicos.
 
-> ⚠️ **Foco examen:** eIDAS 2 no elimina los servicios anteriores; añade nuevos servicios y amplía algunos ya existentes.
+> ⚠️ **¡Foco Examen!:** eIDAS 2 no elimina los servicios anteriores; añade nuevos servicios y amplía algunos ya existentes.
 
 ## 3. Servicios cualificados y no cualificados
 
@@ -67,6 +67,12 @@ La firma avanzada debe:
 - permitir su identificación;
 - crearse con datos bajo su control exclusivo y alto nivel de confianza;
 - quedar vinculada a los datos de modo que cualquier cambio posterior sea detectable.
+
+### 4.1. Diferenciar eficacia probatoria de equivalencia a firma manuscrita
+
+El **artículo 25.1 eIDAS** impide negar efectos jurídicos y admisibilidad como prueba a una firma electrónica únicamente por su formato electrónico o por no cumplir los requisitos de firma cualificada. Pero el **artículo 25.2** reserva el efecto legal **equivalente a firma manuscrita** a la **firma electrónica cualificada**.
+
+> ⚠️ **¡Foco Examen!:** Una firma no cualificada puede tener efectos jurídicos y valor probatorio; no adquiere por ello la equivalencia automática con la manuscrita.
 
 ## 5. Sello electrónico
 
@@ -103,6 +109,16 @@ La eficacia de un certificado depende de:
 
 La revocación extingue su validez desde el momento legalmente previsto. Un certificado caducado, suspendido o revocado no debe utilizarse como vigente.
 
+### 7.1. Duración, revocación y suspensión: números de examen
+
+| Concepto | Regla | Norma |
+|---|---|---|
+| Certificado **cualificado** | Vigencia no superior a **5 años** | **Ley 6/2020, art. 4.2** |
+| Revocación | **Extingue la vigencia** | **Arts. 4 y 5.1** |
+| Suspensión | Solo cuando concurra una causa legal y la **declaración de prácticas la prevea** | **Art. 5.2** |
+
+> ⚠️ **¡Foco Examen!:** El máximo de **5 años** no es una duración universal obligatoria. La suspensión solo procede bajo las condiciones legales y de la declaración de prácticas.
+
 ## 8. Prestadores y supervisión
 
 El prestador de servicios de confianza puede ser persona física o jurídica. Debe adoptar medidas técnicas y organizativas adecuadas, entre ellas:
@@ -115,6 +131,16 @@ El prestador de servicios de confianza puede ser persona física o jurídica. De
 - garantía financiera cuando proceda.
 
 La supervisión estatal corresponde al órgano competente de la Administración General del Estado. La **Lista de confianza** identifica prestadores cualificados, servicios reconocidos y estado de cada servicio.
+
+### 8.1. Obligaciones cuantificables del prestador cualificado
+
+Según el **artículo 9.3 de Ley 6/2020**:
+
+- Conservación de información relativa a los servicios durante **15 años** desde extinción del certificado o finalización del servicio (**9.3.a**).
+- Seguro de responsabilidad civil por al menos **1.500.000 €**, más **500.000 €** por cada tipo adicional de servicio cualificado, **excepto prestadores del sector público** (**9.3.b**).
+- Preaviso del cese de actividad de un prestador cualificado a clientes y órgano supervisor con al menos **2 meses** de antelación (**9.3.c**).
+
+> ⚠️ **¡Foco Examen!:** Los **15 años** son del **artículo 9.3.a**, **no del 11.3.a**. La cifra de **1,5 millones de euros** corresponde al seguro, no al valor del certificado.
 
 ## 9. Nuevos servicios de eIDAS 2
 
@@ -199,7 +225,7 @@ Con carácter general, se exige firma para:
 - desistir de acciones;
 - renunciar a derechos.
 
-> ⚠️ **Foco examen:** identificarse no equivale siempre a firmar.
+> ⚠️ **¡Foco Examen!:** identificarse no equivale siempre a firmar.
 
 ## 12. Actuación administrativa automatizada
 
@@ -295,7 +321,7 @@ ADMINISTRACIÓN ELECTRÓNICA
 └─ Actuación automatizada
 ```
 
-> ⚠️ **Foco examen:** las confusiones más frecuentes son equiparar identificación y firma, confundir certificado con firma, atribuir a toda firma electrónica el efecto de la manuscrita y olvidar los nuevos servicios incorporados por eIDAS 2.
+> ⚠️ **¡Foco Examen!:** las confusiones más frecuentes son equiparar identificación y firma, confundir certificado con firma, atribuir a toda firma electrónica el efecto de la manuscrita y olvidar los nuevos servicios incorporados por eIDAS 2.
 
 ## 18. Cuadro de revisión normativa — **29/10/2026**
 
@@ -304,7 +330,7 @@ ADMINISTRACIÓN ELECTRÓNICA
 | Firma electrónica **cualificada** | Efecto jurídico equivalente a firma **manuscrita** | **eIDAS art. 25.2** |
 | Firma **avanzada** | Vinculación única, identificación, control exclusivo con alta confianza y detección de cambios | **eIDAS art. 26** |
 | Certificado **cualificado** | Vigencia máxima de **5 años** | **Ley 6/2020 art. 4.2** |
-| Conservación por prestador cualificado | **15 años** desde extinción del certificado o fin del servicio | **Ley 6/2020 art. 11.3.a** |
+| Conservación por prestador cualificado | **15 años** desde extinción del certificado o fin del servicio | **Ley 6/2020 art. 9.3.a** |
 | Revocación del certificado | **Extingue** la vigencia | **Ley 6/2020 arts. 4–5** |
 | Lista de confianza | Contiene prestadores y servicios **cualificados** | **Ley 6/2020 art. 16.1** |
 | Firma en procedimiento administrativo | Exigida, entre otros actos, al **interponer recursos** | **Ley 39/2015 art. 11.2** |
@@ -312,3 +338,5 @@ ADMINISTRACIÓN ELECTRÓNICA
 > ⚠️ **¡Foco Examen!:** Una firma **avanzada** no es necesariamente **cualificada**. Solo eIDAS atribuye expresamente a la firma **cualificada** efecto equivalente a la **manuscrita**. No confundir la vigencia máxima del certificado (**5 años**) con la conservación documental del prestador cualificado (**15 años**).
 
 **Fuentes oficiales:** https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046 ; https://www.boe.es/buscar/doc.php?id=DOUE-L-2014-81822 ; https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 . **20 preguntas**; pendiente revisión integral y comprobación de navegación.
+
+**Cierre editorial de bloque:** **05/11/2026**, [informe C1 28–31](../cierre-editorial-28-31-2026-11-05.md). Pruebas funcionales transversales no completadas.

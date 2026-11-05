@@ -139,7 +139,7 @@ Las ordenanzas pueden regular, dentro de la habilitación legal, bonificaciones 
 
 - viviendas de protección oficial después del periodo obligatorio;
 - inmuebles urbanos situados en áreas o núcleos con características especiales;
-- sujetos pasivos titulares de familia numerosa;
+- sujetos pasivos titulares de familia numerosa: hasta el **90 %** de la cuota íntegra cuando así lo determine la **ordenanza fiscal**, con los requisitos establecidos en ella (**art. 74.4 TRLRHL**);
 - inmuebles con sistemas de aprovechamiento térmico o eléctrico de energía solar;
 - inmuebles en los que se desarrollen actividades económicas declaradas de especial interés o utilidad municipal;
 - otros supuestos expresamente autorizados por la ley.
@@ -182,6 +182,25 @@ La cuota líquida resulta de minorar la cuota íntegra en las bonificaciones leg
 Los ayuntamientos pueden incrementar determinados tipos máximos cuando concurran las circunstancias previstas legalmente.
 
 > ⚠️ **¡Foco Examen!:** Los tipos supletorios del IBI son **0,4 %** para urbanos y **0,3 %** para rústicos. No deben confundirse con los tipos máximos.
+
+### 8.2. Recargos por viviendas desocupadas y alojamientos turísticos (reforma de **octubre de 2026**)
+
+El **Real Decreto-ley 29/2026, de 6 de octubre**, publicado el **07/10/2026**, modificó el **artículo 72.4 bis** e incorporó el **72.4 ter TRLRHL**, con efectos para períodos impositivos que se inicien desde el **08/10/2026**.
+
+| Supuesto municipal sometido a ordenanza | Recargo máximo sobre **cuota líquida** | Condiciones relevantes |
+|---|---:|---|
+| Vivienda desocupada en municipio **no tensionado** | **50 %** | Más de **2 años**, injustificada, titular **4 o más viviendas** |
+| Vivienda anterior sin ocupación durante más de **3 años** | **100 %** | Período de desocupación superior a **3 años** |
+| Titular de **2 o más** viviendas desocupadas en ese municipio | Hasta **50 puntos porcentuales adicionales** | Regla de incremento del **art. 72.4 bis** |
+| Vivienda desocupada en municipio **tensionado** | **50 %** | Más de **2 años** sin causa; este tramo **no requiere 4 inmuebles** |
+| Vivienda desocupada en zona tensionada y titular **4 o más** viviendas | **100 %**, con posibles **50 puntos adicionales** si supera **3 años** | Condiciones del artículo **72.4 bis** |
+| Alojamiento de uso turístico en zona **tensionada** | **50 %** | Calificado conforme normativa autonómica |
+| Alojamiento turístico en zona tensionada; titular **2 o más** | **100 %** | Umbral legal específico |
+| Alojamiento turístico en zona tensionada; titular **4 o más** | **150 %** | Umbral legal específico |
+
+Los recargos son **potestativos**: requieren **ordenanza fiscal** y acreditar los presupuestos de hecho. Se devengan el **31 de diciembre**, a diferencia del **IBI ordinario**, cuyo devengo tiene lugar el **1 de enero**. Para el ejercicio anual ordinario, la reforma afecta, con carácter general, al iniciado el **01/01/2027**, pues el de **2026** ya comenzó antes del **08/10/2026**.
+
+> ⚠️ **¡Foco Examen!:** El recargo turístico **hasta 150 %** solo es posible para **4 o más** alojamientos de uso turístico en **zona tensionada** y con ordenanza. Es un porcentaje de la **cuota líquida**, no del valor catastral. El devengo del recargo es **31 de diciembre**.
 
 ## 9. Devengo y periodo impositivo del IBI
 
@@ -412,3 +431,5 @@ IAE
 > ⚠️ **¡Foco Examen!:** En el IBI la titularidad del **usufructo** precede a la **propiedad**; en el IAE las **personas físicas están exentas** por su condición, con independencia del umbral aplicable a otras entidades.
 
 **Fuente:** https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214 . Texto consolidado con última actualización publicada el **07/10/2026**. **20 preguntas**; pendiente auditoría integral y prueba funcional.
+
+**Cierre editorial de bloque:** **05/11/2026**, [informe C1 28–31](../cierre-editorial-28-31-2026-11-05.md). Validación de navegador/móvil pendiente.

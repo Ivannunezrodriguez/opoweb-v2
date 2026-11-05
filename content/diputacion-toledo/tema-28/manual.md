@@ -139,6 +139,12 @@ El responsable debe responder sin dilación indebida y, como máximo, en **1 mes
 
 > ⚠️ **¡Foco Examen!:** El plazo ordinario es **1 mes**; la posible ampliación es de **2 meses adicionales**.
 
+### 6.1. Portabilidad: requisitos diferenciados
+
+El derecho de **portabilidad** del **art. 20 RGPD** requiere tratamiento basado en **consentimiento o contrato** y por **medios automatizados**. No equivale al derecho general de acceso (**art. 15**) ni se aplica cuando sea necesario para el cumplimiento de una misión de interés público o el ejercicio de poderes públicos.
+
+> ⚠️ **¡Foco Examen!:** Acceso y portabilidad tienen **requisitos diferentes**; no basta con ser titular de los datos para que proceda la portabilidad.
+
 ## 7. Responsable, encargado y delegado de protección de datos
 
 ### Responsable del tratamiento
@@ -172,6 +178,15 @@ Cuando exista una violación de seguridad de los datos personales, el responsabl
 Si existe alto riesgo, también debe comunicarse a las personas afectadas, salvo que concurra una excepción legal.
 
 > ⚠️ **¡Foco Examen!:** El plazo de notificación a la autoridad es de **72 horas**, no de 24 ni de 48.
+
+### 8.1. Brecha: autoridad de control frente a persona interesada
+
+| Destinatario | Condición | Plazo |
+|---|---|---|
+| **Autoridad de control** | Brecha con riesgo no improbable | Si es posible, **72 horas** (**art. 33 RGPD**) |
+| **Persona afectada** | Brecha con **alto riesgo**, salvo excepciones | **Sin dilación indebida** (**art. 34 RGPD**) |
+
+> ⚠️ **¡Foco Examen!:** Las **72 horas** no constituyen el plazo legal de aviso a la **persona afectada**.
 
 ## 9. Agencia Española de Protección de Datos
 
@@ -273,6 +288,17 @@ La resolución debe notificarse en el plazo máximo de **1 mes** desde la recepc
 Transcurrido el plazo máximo sin resolución expresa, la solicitud se entiende **desestimada**.
 
 > ⚠️ **¡Foco Examen!:** En acceso a la información, la regla estatal es **1 mes**, ampliable por otro **1 mes**, y el silencio es desestimatorio.
+
+### 13.1. Tramitación de solicitudes y reclamación
+
+| Actuación | Plazo/regla | Fuente |
+|---|---|---|
+| Identificar información solicitada insuficientemente concretada | **10 días** para concretar; suspensión de plazo, advertencia de desistimiento | **Ley 19/2013, art. 19.2** |
+| Alegaciones de terceros identificados afectados | **15 días**; suspensión del plazo de resolución | **Art. 19.3** |
+| Resoluciones denegatorias, parciales, de modalidad distinta o estimatorias con oposición | Motivación **obligatoria** | **Art. 20.2** |
+| Resolver y notificar reclamación potestativa | **3 meses**; silencio **desestimatorio** | **Art. 24.4** |
+
+> ⚠️ **¡Foco Examen!:** **10 días** para concretar, **15 días** para terceros y **3 meses** de resolución de reclamación. No confundirlos con el mes para resolver la petición inicial.
 
 ## 14. Protección de datos y transparencia
 
@@ -383,3 +409,5 @@ TRANSPARENCIA Y BUEN GOBIERNO
 > ⚠️ **¡Foco Examen!:** Las **72 horas** de notificación de una violación a la autoridad de control **no** operan incondicionalmente: se exige la notificación salvo que resulte improbable que la brecha entrañe riesgo para los derechos y libertades. Una brecha de alto riesgo puede requerir, además, comunicación al afectado conforme al **artículo 34 RGPD**.
 
 **Fuentes contrastadas:** [RGPD](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa), [LO 3/2018](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), [Ley 19/2013](https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887) y [AEPD sobre plazos](https://www.aepd.es/preguntas-frecuentes/1-tus-derechos/2-tus-derechos-de-proteccion-de-datos/FAQ-0106-cual-es-el-plazo-para-responder-cuando-se-ejercitan-estos-derechos). Banco ampliado a **20 preguntas**. Pendiente auditoría integral y prueba funcional.
+
+**Cierre editorial de bloque:** **05/11/2026**, [informe C1 28–31](../cierre-editorial-28-31-2026-11-05.md). Auditoría documental sin certificación funcional de navegador.

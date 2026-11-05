@@ -51,3 +51,7 @@
 ## Auditoría compartida IBI–IAE C1/C2 — **04/11/2026**
 
 [**TRLRHL consolidado, arts. 61.5.b, 62.1.b y 82.1.c (regla 3.ª)**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): **no sujeción** de determinados bienes patrimoniales propios del municipio que no estén cedidos a terceros mediante contraprestación; **exención** de bienes comunales y montes vecinales; INCN del IAE **inferior a 1.000.000 €** y cómputo **de grupo del art. 42 del Código de Comercio** cuando existe control, aunque no haya obligación de consolidar. **DIP-T29-018** sustituye pregunta repetitiva sobre el umbral por un caso de grupo, manteniendo **20 preguntas**. Se conserva el estado de auditoría parcial.
+
+## Auditoría de bloque C1 28–31 — **05/11/2026**
+
+Cotejados el [**TRLRHL consolidado 07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), arts. **61.5.b, 62.1.b, 72.4 bis, 72.4 ter, 74.4 y 86** y la [Instrucción del IAE](https://www.boe.es/buscar/act.php?id=BOE-A-1990-23930). La reforma de **octubre de 2026** incorpora recargo opcional hasta **150 %** en alojamientos turísticos en zona tensionada y condiciones legales, y la bonificación de **familia numerosa hasta 90 %** sigue siendo potestativa. Se sustituyeron **5** duplicados de un banco de **20 preguntas / 80 opciones**. [Informe del lote](../cierre-editorial-28-31-2026-11-05.md).

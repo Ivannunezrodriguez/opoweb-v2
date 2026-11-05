@@ -300,3 +300,17 @@ TASAS
 ```
 
 > ⚠️ **¡Foco Examen!:** Las trampas más frecuentes son confundir titular con usuario en el IVTM, transmitente con adquirente en el IIVTNU y tasa con precio público.
+## 22. Contraste de vigencia tributaria — **05/11/2026**
+
+Los artículos **20–27** (tasas), **92–99** (IVTM) y **104–110** (IIVTNU) se han cotejado con el [**TRLRHL consolidado**, última actualización publicada **07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). La nueva redacción del **artículo 72** regula **IBI** y se explica en el **tema 29**; no debe trasladarse a otros impuestos.
+
+| Tributo o concepto | Dato legal |
+|---|---|
+| **IVTM** | Devengo ordinario el **1 de enero**; prorrateo por **trimestres naturales** cuando procede |
+| **IIVTNU entre vivos** | Declaración en **30 días hábiles** |
+| **IIVTNU por fallecimiento** | Declaración en **6 meses**, prorrogable hasta **1 año** a solicitud del sujeto pasivo |
+| **Tasa por servicios** | El importe total no debe exceder, en su conjunto, el **coste real o previsible**, en los términos del artículo **24 TRLRHL** |
+
+> ⚠️ **¡Foco Examen!:** No mezclar los **30 días hábiles** y **6 meses** del IIVTNU con las condiciones del IBI reformadas en **octubre de 2026**.
+
+**Cierre editorial:** [C1 28–31, **05/11/2026**](../cierre-editorial-28-31-2026-11-05.md). El control funcional real de navegador/móvil sigue pendiente.

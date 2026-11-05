@@ -12,7 +12,7 @@
 
 1. **Real Decreto Legislativo 2/2004, de 5 de marzo**, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales.
    - Referencia: `BOE-A-2004-4214`.
-   - Texto consolidado consultado con última actualización publicada el **3 de junio de 2026**.
+   - Texto consolidado consultado con última actualización publicada el **7 de octubre de 2026**.
    - Artículos principales:
      - **20 a 27**: tasas locales.
      - **92 a 99**: Impuesto sobre Vehículos de Tracción Mecánica.
@@ -36,3 +36,6 @@
 
 - Verificación normativa: **19 de julio de 2026**.
 - Última actualización del TRLRHL comprobada: **3 de junio de 2026**.
+## Revalidación de bloque — **05/11/2026**
+
+Revisión de [TRLRHL consolidado **07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) para artículos **20–27,92–99,104–110**. El banco de **20 preguntas / 80 alternativas** conserva todas las claves y preguntas distintas; **0 duplicados** sustituidos. La reforma del **IBI** (art. **72**) se documenta en el tema 29. [Informe C1 28–31](../cierre-editorial-28-31-2026-11-05.md).

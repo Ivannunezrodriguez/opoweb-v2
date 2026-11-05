@@ -1,6 +1,6 @@
 {
   "tema": 29,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T29-001",
@@ -199,63 +199,63 @@
     },
     {
       "id": "DIP-T29-014",
-      "pregunta": "¿Qué constituye la base imponible del IBI?",
+      "pregunta": "¿Qué tratamiento reciben en el IBI los bienes comunales y montes vecinales en mano común?",
       "opciones": [
-        "El valor catastral",
-        "El precio de compra",
-        "La renta catastral",
-        "El valor de transmisión declarado"
+        "Están exentos del impuesto",
+        "No sujetos en todo supuesto de titularidad privada",
+        "Sometidos obligatoriamente al tipo máximo",
+        "Solo bonificados en un cinco por ciento"
       ],
       "correcta": 0,
-      "justificacion": "La base imponible del IBI está constituida por el valor catastral.",
-      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
-      "referencia": "TRLRHL art. 65 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "El valor catastral"
+      "justificacion": "El artículo 62.1.b TRLRHL declara exentos los bienes comunales y los montes vecinales en mano común.",
+      "trampa": "No sujeción del art. 61.5.b para ciertos bienes municipales es una figura distinta.",
+      "referencia": "TRLRHL art. 62.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "respuestaLiteral": "Están exentos del impuesto"
     },
     {
       "id": "DIP-T29-015",
-      "pregunta": "¿Cuándo se devenga el IBI?",
+      "pregunta": "En zona residencial tensionada, ¿qué recargo máximo permite el art. 72.4 ter IBI a titulares de cuatro o más alojamientos turísticos?",
       "opciones": [
-        "El 31 de diciembre",
-        "El 1 de julio",
-        "El primer día del período impositivo",
-        "El día de la compra"
+        "Un impuesto especial nacional del 150 % del precio del alquiler",
+        "Hasta un 15 % del valor catastral",
+        "Hasta el 150 % de la cuota líquida del IBI",
+        "Un tipo general de IBI de 150 % para todo contribuyente"
       ],
       "correcta": 2,
-      "justificacion": "El IBI se devenga el primer día del período impositivo.",
-      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
-      "referencia": "TRLRHL art. 75 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "El primer día del período impositivo"
+      "justificacion": "El artículo 72.4 ter, reformado en octubre 2026, prevé recargo potestativo de hasta 150 % de cuota líquida según ordenanza para cuatro o más alojamientos turísticos en zona tensionada.",
+      "trampa": "El 150 % es recargo potestativo, no el tipo de gravamen básico.",
+      "referencia": "TRLRHL art. 72.4 ter, RDL 29/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "respuestaLiteral": "Hasta el 150 % de la cuota líquida del IBI"
     },
     {
       "id": "DIP-T29-016",
-      "pregunta": "¿Cuál es el tipo de gravamen mínimo y supletorio general del IBI urbano?",
+      "pregunta": "¿Qué bonificación potestativa máxima del IBI puede establecer la ordenanza para titulares de familia numerosa?",
       "opciones": [
-        "0,3 %",
-        "0,6 %",
-        "0,4 %",
-        "1,1 %"
+        "Exención automática del 100 % por el título",
+        "Hasta el 5 % de la base imponible",
+        "Hasta el 90 % de la cuota íntegra",
+        "Un 10 % estatal fijo sin ordenanza"
       ],
       "correcta": 2,
-      "justificacion": "El tipo mínimo y supletorio urbano es del 0,4 %.",
-      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
-      "referencia": "TRLRHL art. 72 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "0,4 %"
+      "justificacion": "El artículo 74.4 TRLRHL habilita al ayuntamiento a fijar bonificación hasta el 90 % en la ordenanza fiscal a titulares de familia numerosa.",
+      "trampa": "La bonificación no es automática por ser familia numerosa: depende de la ordenanza.",
+      "referencia": "TRLRHL art. 74.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "respuestaLiteral": "Hasta el 90 % de la cuota íntegra"
     },
     {
       "id": "DIP-T29-017",
-      "pregunta": "¿Quién está exento del IAE por su condición subjetiva?",
+      "pregunta": "¿Qué ámbito de ejercicio cubre una cuota provincial de las tarifas del IAE?",
       "opciones": [
-        "Toda sociedad mercantil",
-        "Todo inmueble urbano",
-        "Toda cooperativa sin excepción",
-        "Las personas físicas"
+        "Todo el territorio de la UE",
+        "Únicamente el término municipal de residencia",
+        "Solo el local de apertura",
+        "El territorio de la provincia correspondiente"
       ],
       "correcta": 3,
-      "justificacion": "Las personas físicas están exentas del IAE.",
-      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
-      "referencia": "TRLRHL art. 82 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "Las personas físicas"
+      "justificacion": "Las tarifas IAE diferencian cuotas municipales, provinciales y nacionales, con ámbito territorial propio.",
+      "trampa": "El IAE es impuesto municipal aunque existan cuotas de tarifa provinciales o nacionales.",
+      "referencia": "RDLeg 1175/1990, Instrucción IAE, regla 11 · https://www.boe.es/buscar/act.php?id=BOE-A-1990-23930",
+      "respuestaLiteral": "El territorio de la provincia correspondiente"
     },
     {
       "id": "DIP-T29-018",
@@ -274,18 +274,18 @@
     },
     {
       "id": "DIP-T29-019",
-      "pregunta": "¿Qué intervalo rige para el coeficiente de situación del IAE?",
+      "pregunta": "¿Qué coeficiente de ponderación corresponde en el IAE si no existe cifra neta de negocios?",
       "opciones": [
-        "0,4 a 3,8",
-        "1 a 2",
-        "0,1 a 1",
-        "2 a 9"
+        "1,31",
+        "3,80",
+        "0,40",
+        "0,04"
       ],
       "correcta": 0,
-      "justificacion": "El coeficiente de situación puede oscilar entre 0,4 y 3,8.",
-      "trampa": "Distinguir IBI e IAE y sus reglas fiscales específicas.",
-      "referencia": "TRLRHL art. 87 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
-      "respuestaLiteral": "0,4 a 3,8"
+      "justificacion": "El artículo 86 TRLRHL fija 1,31 cuando no existe cifra neta de negocios.",
+      "trampa": "El coeficiente de ponderación 1,31 no es el de situación 0,4 a 3,8.",
+      "referencia": "TRLRHL art. 86 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "respuestaLiteral": "1,31"
     },
     {
       "id": "DIP-T29-020",
@@ -306,5 +306,10 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_28_31_20261105": {
+    "fecha": "2026-11-05",
+    "duplicadosSustituidos": 5,
+    "certificacionIntegral": false
   }
 }

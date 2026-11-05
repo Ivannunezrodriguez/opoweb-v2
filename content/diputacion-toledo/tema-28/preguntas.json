@@ -1,6 +1,6 @@
 {
   "tema": 28,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T28-001",
@@ -184,63 +184,63 @@
     },
     {
       "id": "DIP-T28-013",
-      "pregunta": "¿Qué plazo tiene el responsable para responder a una solicitud de acceso a datos personales conforme al RGPD?",
+      "pregunta": "¿En qué supuesto concurre el derecho a la portabilidad de los datos según el artículo 20 RGPD?",
       "opciones": [
-        "15 días",
-        "Tres meses sin prórroga",
-        "Un mes, prorrogable otros dos en los casos legales",
-        "Un año"
+        "Cualquier expediente administrativo en papel",
+        "Tratamiento realizado exclusivamente en ejercicio de potestades públicas",
+        "Tratamiento automatizado basado en consentimiento o contrato",
+        "Todo tratamiento de datos personales sin excepción"
       ],
       "correcta": 2,
-      "justificacion": "El plazo inicial es **un mes**; puede ampliarse **dos meses** por complejidad o número de solicitudes, informando en el primer mes.",
-      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
-      "referencia": "RGPD art. 12.3 · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
-      "respuestaLiteral": "Un mes, prorrogable otros dos en los casos legales"
+      "justificacion": "El artículo 20.1 RGPD exige consentimiento o contrato y medios automatizados; el art. 20.3 excluye misión pública y potestades públicas.",
+      "trampa": "Acceso de datos y portabilidad no son iguales.",
+      "referencia": "RGPD art. 20.1 y 20.3 · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Tratamiento automatizado basado en consentimiento o contrato"
     },
     {
       "id": "DIP-T28-014",
-      "pregunta": "¿En qué plazo debe notificarse a la autoridad de control una brecha de datos que entrañe riesgo, cuando sea posible?",
+      "pregunta": "Ante una brecha que suponga alto riesgo, ¿en qué plazo debe comunicarse al interesado conforme al artículo 34 RGPD?",
       "opciones": [
-        "24 horas",
-        "72 horas",
-        "48 horas",
-        "10 días"
+        "En 72 horas exactas, siempre",
+        "Sin dilación indebida, salvo excepciones legales",
+        "En el plazo obligatorio de un año",
+        "Solo al concluir una investigación judicial"
       ],
       "correcta": 1,
-      "justificacion": "Debe comunicarse **sin dilación indebida**, a ser posible dentro de **72 horas** desde conocimiento, salvo que sea improbable el riesgo.",
-      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
-      "referencia": "RGPD art. 33.1 · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
-      "respuestaLiteral": "72 horas"
+      "justificacion": "El art. 34 RGPD ordena comunicación sin dilación indebida ante alto riesgo, salvo excepciones legales.",
+      "trampa": "Las 72 horas pertenecen a comunicación a la autoridad, no al afectado.",
+      "referencia": "RGPD arts. 33 y 34 · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Sin dilación indebida, salvo excepciones legales"
     },
     {
       "id": "DIP-T28-015",
-      "pregunta": "¿Cuál es el plazo ordinario de resolución de una solicitud de acceso a información pública?",
+      "pregunta": "Si la solicitud de transparencia afecta a derechos de terceros identificados, ¿qué plazo de alegaciones reciben?",
       "opciones": [
-        "Un mes, ampliable por otro mes",
         "15 días",
-        "30 días hábiles",
-        "Tres meses"
+        "5 días naturales",
+        "3 meses",
+        "Un año"
       ],
       "correcta": 0,
-      "justificacion": "La resolución se notifica en **un mes**, ampliable **otro mes** por volumen o complejidad, previa notificación.",
-      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
-      "referencia": "Ley 19/2013 art. 20.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
-      "respuestaLiteral": "Un mes, ampliable por otro mes"
+      "justificacion": "La Ley 19/2013 art. 19.3 concede quince días a terceros y suspende el plazo para resolver.",
+      "trampa": "No confundir los quince días de alegaciones con el mes de resolución.",
+      "referencia": "Ley 19/2013 art. 19.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "respuestaLiteral": "15 días"
     },
     {
       "id": "DIP-T28-016",
-      "pregunta": "¿Qué efecto tiene el silencio en una solicitud de acceso a información pública según Ley 19/2013?",
+      "pregunta": "Si la solicitud de información pública no concreta suficientemente la información solicitada, ¿qué trámite procede?",
       "opciones": [
-        "Estimatorio",
-        "Desestimatorio",
-        "Caducidad automática",
-        "Nulidad del procedimiento"
+        "Denegar sin requerimiento en todo caso",
+        "Pedir concreción en diez días, suspendiendo el plazo para resolver",
+        "Ampliar el plazo de oficio en un año",
+        "Exigir que el solicitante interponga alzada"
       ],
       "correcta": 1,
-      "justificacion": "La ausencia de resolución expresa dentro del plazo tiene efecto **desestimatorio**.",
-      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
-      "referencia": "Ley 19/2013 art. 20.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
-      "respuestaLiteral": "Desestimatorio"
+      "justificacion": "El art. 19.2 Ley 19/2013 fija diez días, suspensión de plazo y advertencia de desistimiento.",
+      "trampa": "Distinguir diez días para aclarar de quince para alegaciones de terceros.",
+      "referencia": "Ley 19/2013 art. 19.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "respuestaLiteral": "Pedir concreción en diez días, suspendiendo el plazo para resolver"
     },
     {
       "id": "DIP-T28-017",
@@ -259,18 +259,18 @@
     },
     {
       "id": "DIP-T28-018",
-      "pregunta": "¿Qué autoridad supervisa, en su ámbito de competencia, la aplicación del RGPD y LOPDGDD?",
+      "pregunta": "¿Qué resoluciones de acceso a información pública deben motivarse según Ley 19/2013?",
       "opciones": [
-        "La Junta Electoral Central",
-        "El Tribunal de Cuentas",
-        "El Consejo de Estado",
-        "La Agencia Española de Protección de Datos"
+        "Solo las que conceden íntegramente sin oposición",
+        "Ninguna resolución de información pública",
+        "Únicamente las posteriores a tres años",
+        "Denegación, acceso parcial, modalidad distinta o acceso con oposición de tercero"
       ],
       "correcta": 3,
-      "justificacion": "La **AEPD** supervisa la aplicación de las normas de protección de datos en su ámbito competencial.",
-      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
-      "referencia": "LO 3/2018 art. 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
-      "respuestaLiteral": "La Agencia Española de Protección de Datos"
+      "justificacion": "El art. 20.2 de la Ley 19/2013 exige motivación en las cuatro situaciones.",
+      "trampa": "Una concesión puede necesitar motivación si un tercero se opone.",
+      "referencia": "Ley 19/2013 art. 20.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "respuestaLiteral": "Denegación, acceso parcial, modalidad distinta o acceso con oposición de tercero"
     },
     {
       "id": "DIP-T28-019",
@@ -289,22 +289,27 @@
     },
     {
       "id": "DIP-T28-020",
-      "pregunta": "¿Cuál es la edad ordinaria de consentimiento autónomo de menores al tratamiento de datos en España?",
+      "pregunta": "¿Cuál es el plazo máximo para resolver y notificar la reclamación de transparencia del artículo 24.4?",
       "opciones": [
-        "13 años",
-        "16 años",
-        "14 años",
-        "18 años"
+        "Un año con silencio estimatorio",
+        "Quince días con silencio positivo",
+        "Tres meses, con silencio desestimatorio",
+        "Cinco días hábiles"
       ],
       "correcta": 2,
-      "justificacion": "El consentimiento autónomo general se admite desde los **14 años**, con las excepciones legales.",
-      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
-      "referencia": "LO 3/2018 art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
-      "respuestaLiteral": "14 años"
+      "justificacion": "El art. 24.4 fija tres meses y efecto desestimatorio del silencio.",
+      "trampa": "No confundir la reclamación con la petición original de acceso, que se resuelve en un mes.",
+      "referencia": "Ley 19/2013 art. 24.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "respuestaLiteral": "Tres meses, con silencio desestimatorio"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_28_31_20261105": {
+    "fecha": "2026-11-05",
+    "duplicadosSustituidos": 6,
+    "certificacionIntegral": false
   }
 }

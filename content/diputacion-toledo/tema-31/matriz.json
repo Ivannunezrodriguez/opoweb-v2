@@ -1,7 +1,7 @@
 {
   "tema": 31,
   "titulo": "Ley 6/2020, de 11 de noviembre, reguladora de determinados aspectos de los servicios electrónicos de confianza. Firma electrónica y certificados electrónicos. Usos del certificado electrónico en la administración electrónica. Tipos y soportes. Autoridades certificadoras y servicios que prestan.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Ley 6/2020, de 11 de noviembre",
@@ -10,16 +10,56 @@
     "Real Decreto 203/2021, de 30 de marzo"
   ],
   "bloques": [
-    {"id":"T31-B01","nombre":"Marco normativo y servicios electrónicos de confianza","cubierto":true},
-    {"id":"T31-B02","nombre":"Firma electrónica simple, avanzada y cualificada","cubierto":true},
-    {"id":"T31-B03","nombre":"Certificados de firma, sello y sitio web","cubierto":true},
-    {"id":"T31-B04","nombre":"Expedición, vigencia, suspensión y revocación","cubierto":true},
-    {"id":"T31-B05","nombre":"Prestadores cualificados y no cualificados","cubierto":true},
-    {"id":"T31-B06","nombre":"Supervisión y Lista de confianza","cubierto":true},
-    {"id":"T31-B07","nombre":"Identificación y firma en la Administración electrónica","cubierto":true},
-    {"id":"T31-B08","nombre":"Sellos, CSV y actuación automatizada","cubierto":true},
-    {"id":"T31-B09","nombre":"Tipos y soportes del certificado","cubierto":true},
-    {"id":"T31-B10","nombre":"Servicios, responsabilidad, conservación y cese","cubierto":true}
+    {
+      "id": "T31-B01",
+      "nombre": "Marco normativo y servicios electrónicos de confianza",
+      "cubierto": true
+    },
+    {
+      "id": "T31-B02",
+      "nombre": "Firma electrónica simple, avanzada y cualificada",
+      "cubierto": true
+    },
+    {
+      "id": "T31-B03",
+      "nombre": "Certificados de firma, sello y sitio web",
+      "cubierto": true
+    },
+    {
+      "id": "T31-B04",
+      "nombre": "Expedición, vigencia, suspensión y revocación",
+      "cubierto": true
+    },
+    {
+      "id": "T31-B05",
+      "nombre": "Prestadores cualificados y no cualificados",
+      "cubierto": true
+    },
+    {
+      "id": "T31-B06",
+      "nombre": "Supervisión y Lista de confianza",
+      "cubierto": true
+    },
+    {
+      "id": "T31-B07",
+      "nombre": "Identificación y firma en la Administración electrónica",
+      "cubierto": true
+    },
+    {
+      "id": "T31-B08",
+      "nombre": "Sellos, CSV y actuación automatizada",
+      "cubierto": true
+    },
+    {
+      "id": "T31-B09",
+      "nombre": "Tipos y soportes del certificado",
+      "cubierto": true
+    },
+    {
+      "id": "T31-B10",
+      "nombre": "Servicios, responsabilidad, conservación y cese",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "entradaVigorLey62020": "13 de noviembre de 2020",
@@ -35,8 +75,8 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T31-001 a DIP-T31-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T31-001 a DIP-T31-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "fechasEfectosYOrganosEnNegrita": true,
@@ -44,6 +84,12 @@
     "focosExamen": true,
     "reutilizacion": false,
     "actualizacionLey62020": "2023-05-09",
-    "verificacionIntegridad": "2026-07-19"
+    "verificacionIntegridad": "2026-11-05"
+  },
+  "cierreEditorialC1_28_31_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "informe": "content/diputacion-toledo/cierre-editorial-28-31-2026-11-05.md",
+    "certificacionIntegral": false
   }
 }

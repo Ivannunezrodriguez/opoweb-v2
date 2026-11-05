@@ -1,6 +1,6 @@
 {
   "tema": 30,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T30-001",
@@ -306,5 +306,10 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_28_31_20261105": {
+    "fecha": "2026-11-05",
+    "duplicadosSustituidos": 0,
+    "certificacionIntegral": false
   }
 }

@@ -2693,3 +2693,13 @@ Se sustituyó el resumen de cinco denominaciones del antiguo **apartado 16** por
 **Control técnico transversal:** se adaptaron de forma única los **tests históricos de cierre C1 1–23** para verificar la identidad y las claves de SU BLOQUE ORIGINAL, en vez de imponer que el total global de temas auditados nunca pueda aumentar. Así no se reabre ni reedita el contenido de los temas ya cerrados.
 
 **CONTADOR JURÍDICO-EDITORIAL:** antes **22/121**, ahora **26/121 auditados**, **95/121 pendientes**. **C1 tema 22 permanece pendiente de Estatutos OAPGT completos**, no se suma ni se reabre contenido verificado. El cierre integral funcional (móvil, web real, accesibilidad, PDF/PWA) no está demostrado. **SIGUIENTE BLOQUE: C1 temas 28–31**.
+
+## 109. CIERRE JURÍDICO-PEDAGÓGICO DE BLOQUE — Diputación C1 temas 28–31 (**05/11/2026**)
+
+**Resultado:** temas **28,29,30,31**, cuatro manuales y sus cuatro bancos, fuentes y matrices; **80 preguntas y 320 opciones** revisadas. **15 redundancias** sustituidas (tema 28: **6**, tema 29: **5**, tema 30: **0**, tema 31: **4**) conservando los ID y la posición de respuesta. [**Cierre y fuentes**](content/diputacion-toledo/cierre-editorial-28-31-2026-11-05.md) y [**regresión**](tests/validate-diputacion-c1-t28-t31-cierre-20261105.mjs) agregada al `npm test`. La regresión del bloque **24–27** se ajusta solo para admitir el avance incremental del contador sin reabrir sus temas.
+
+**Cambios legales relevantes:** [**RGPD**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) arts. 20,33,34; [**Ley 19/2013**](https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887) arts. 19,20,24 (**10 días**, **15 días**, **3 meses**); [**TRLRHL**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) consolidación publicada **07/10/2026** con **art.72.4 bis y 4 ter** por RDL **29/2026**, efectos períodos desde **08/10/2026**, recargo de hasta **150 %** turístico en zona tensionada según requisitos; **art.74.4** bonificación familia numerosa hasta **90 %** mediante ordenanza, **art.86** coeficiente **1,31** sin importe neto de negocios. [**Ley 6/2020**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046) arts. 4,5,9.3: **15 años** de conservación en **art.9.3.a**, no 11.3.a, certificado máximo **5 años**, seguro privado mínimo **1.500.000 €** más **500.000 €** por tipo adicional.
+
+**CONTADOR EDITORIAL REAL:** **30/121** temas AUDITADOS jurídico-pedagógicamente, **91/121** pendientes. La **certificación integral de la web** requiere todavía navegador real, móvil, accesibilidad y PWA. **C1 tema 22** permanece bloqueado por Estatutos OAPGT completos; no se suma.
+
+**SIGUIENTE BLOQUE:** **Diputación C1 temas 32–35**. No volver a auditar C1 1–21,23–31 salvo error legal probado o reforma posterior.

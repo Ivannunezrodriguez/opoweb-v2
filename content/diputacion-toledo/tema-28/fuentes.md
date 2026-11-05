@@ -43,3 +43,6 @@
 - Sin reutilización de temarios de otras convocatorias.
 - Verificación normativa realizada en **julio de 2026**.
 - Estado editorial: `GENERACION_DESDE_CERO`.
+## Auditoría del lote C1 28–31 — **05/11/2026**
+
+Cotejo de [RGPD arts. 20, 33 y 34](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) y [Ley 19/2013 arts. 19, 20 y 24](https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887). Se sustituyeron seis duplicados por portabilidad, comunicación al afectado, concreción de solicitud (**10 días**), terceros (**15 días**), motivación y reclamación (**3 meses**). **20 preguntas / 80 alternativas**. [Informe de cierre](../cierre-editorial-28-31-2026-11-05.md).

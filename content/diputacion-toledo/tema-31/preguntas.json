@@ -1,6 +1,6 @@
 {
   "tema": 31,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T31-001",
@@ -184,18 +184,18 @@
     },
     {
       "id": "DIP-T31-013",
-      "pregunta": "¿Qué efecto jurídico reconoce expresamente eIDAS a la firma electrónica cualificada?",
+      "pregunta": "Según el artículo 25.1 eIDAS, ¿puede negarse todo efecto jurídico a una firma por no ser cualificada?",
       "opciones": [
-        "Equivale a una firma manuscrita",
-        "Es siempre un documento público",
-        "Sustituye toda acreditación de identidad",
-        "No puede emplearse ante Administraciones"
+        "No, no puede rechazarse solo por ser electrónica o no cualificada",
+        "Sí, todas las firmas simples son nulas",
+        "Sí, toda firma avanzada es siempre inadmisible",
+        "Sí, si no está impresa en papel"
       ],
       "correcta": 0,
-      "justificacion": "La firma cualificada tiene **efecto equivalente a la firma manuscrita**.",
-      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "eIDAS art. 25.2",
-      "respuestaLiteral": "Equivale a una firma manuscrita"
+      "justificacion": "El art. 25.1 eIDAS impide negar efectos o admisibilidad por el mero formato electrónico o por no cumplir los requisitos de la firma cualificada.",
+      "trampa": "No confundir validez probatoria con equivalencia legal automática a la manuscrita, reservada a la cualificada.",
+      "referencia": "eIDAS art. 25.1 y 25.2 · https://eur-lex.europa.eu/eli/reg/910/2014/oj/spa",
+      "respuestaLiteral": "No, no puede rechazarse solo por ser electrónica o no cualificada"
     },
     {
       "id": "DIP-T31-014",
@@ -224,7 +224,7 @@
       "correcta": 3,
       "justificacion": "Durante **15 años** desde la extinción del certificado o finalización del servicio.",
       "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "Ley 6/2020 art. 11.3.a",
+      "referencia": "Ley 6/2020 art. 9.3.a · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
       "respuestaLiteral": "15 años"
     },
     {
@@ -259,52 +259,57 @@
     },
     {
       "id": "DIP-T31-018",
-      "pregunta": "¿Qué efecto jurídico tiene la revocación de un certificado?",
+      "pregunta": "¿Cuándo permite suspender un certificado el artículo 5.2 de la Ley 6/2020?",
       "opciones": [
-        "Lo renueva automáticamente",
-        "Extingue su vigencia",
-        "Lo convierte en sello electrónico",
-        "Permite su uso sin límites"
+        "Siempre y sin causa legal",
+        "Solo ante supuestos legales y si la declaración de prácticas contempla la suspensión",
+        "Únicamente diez años después de expirar",
+        "Nunca: la Ley 6/2020 no contempla la suspensión"
       ],
       "correcta": 1,
-      "justificacion": "La **revocación extingue la vigencia** del certificado.",
-      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "Ley 6/2020 arts. 4 y 5",
-      "respuestaLiteral": "Extingue su vigencia"
+      "justificacion": "La suspensión exige una causa del art. 5.2 y previsión en la declaración de prácticas del servicio.",
+      "trampa": "Suspensión no equivale a revocación, que extingue la vigencia.",
+      "referencia": "Ley 6/2020 art. 5.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
+      "respuestaLiteral": "Solo ante supuestos legales y si la declaración de prácticas contempla la suspensión"
     },
     {
       "id": "DIP-T31-019",
-      "pregunta": "¿Qué información contiene la lista de confianza de servicios electrónicos de confianza?",
+      "pregunta": "¿Cuál es la cobertura mínima general del seguro del prestador cualificado privado con un único tipo de servicio cualificado?",
       "opciones": [
-        "El padrón municipal",
-        "La relación de recursos administrativos",
-        "Las declaraciones tributarias",
-        "Prestadores cualificados y servicios cualificados"
+        "150.000 euros",
+        "15.000 euros",
+        "500 euros",
+        "1.500.000 euros"
       ],
       "correcta": 3,
-      "justificacion": "Identifica **prestadores cualificados** y sus **servicios cualificados**.",
-      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "Ley 6/2020 art. 16.1",
-      "respuestaLiteral": "Prestadores cualificados y servicios cualificados"
+      "justificacion": "El artículo 9.3.b de Ley 6/2020 exige seguro de responsabilidad civil por mínimo 1.500.000 euros, más 500.000 euros por tipo adicional de servicio cualificado; excepción sector público.",
+      "trampa": "La excepción para prestadores públicos no altera el importe general para los privados.",
+      "referencia": "Ley 6/2020 art. 9.3.b · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
+      "respuestaLiteral": "1.500.000 euros"
     },
     {
       "id": "DIP-T31-020",
-      "pregunta": "¿En qué actuación exige firma la Ley 39/2015 con carácter general?",
+      "pregunta": "¿Qué permite acreditar una declaración electrónica de atributos bajo eIDAS reformado?",
       "opciones": [
-        "Consultar una web pública",
-        "Leer un anuncio público",
-        "Solicitar información telefónica informal",
-        "Interponer un recurso"
+        "Solo el valor de un inmueble urbano",
+        "El nombramiento automático como funcionario de carrera",
+        "La sustitución obligatoria de todo certificado y DNI",
+        "Datos o cualidades concretos, como una titulación o habilitación profesional"
       ],
       "correcta": 3,
-      "justificacion": "La **interposición de recursos** exige firma.",
-      "trampa": "Distinguir sujeto, efecto y requisito específico; evitar confundir firma, sello y certificado.",
-      "referencia": "Ley 39/2015 art. 11.2",
-      "respuestaLiteral": "Interponer un recurso"
+      "justificacion": "eIDAS reformado incorpora declaraciones de atributos electrónicos para verificar cualidades concretas de personas.",
+      "trampa": "Una declaración de atributos no es un DNI ni un nombramiento administrativo.",
+      "referencia": "eIDAS reformado por Reglamento (UE) 2024/1183 · https://eur-lex.europa.eu/eli/reg/910/2014/oj/spa",
+      "respuestaLiteral": "Datos o cualidades concretos, como una titulación o habilitación profesional"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_28_31_20261105": {
+    "fecha": "2026-11-05",
+    "duplicadosSustituidos": 4,
+    "certificacionIntegral": false
   }
 }
