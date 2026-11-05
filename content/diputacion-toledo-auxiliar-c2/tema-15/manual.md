@@ -719,7 +719,20 @@ Los demás órganos de la AGE dependen o están dirigidos por un órgano superio
 
 Los órganos superiores fijan planes de actuación. Los órganos directivos los desarrollan y ejecutan.
 
-Los titulares responden profesional, personal y directamente de su gestión y están sujetos a control y evaluación.
+Los titulares responden **profesional, personal y directamente** de su gestión y están sujetos a **control y evaluación**.
+
+Dos precisiones del **artículo 55**, que evitan confundir órganos de la **AGE** con los de sus **organismos públicos**:
+
+- **Art. 55.8:** los **estatutos de cada organismo público** determinan sus **órganos directivos**.
+- **Art. 55.10:** el nombramiento de **Ministros y Secretarios de Estado** se rige por la **Ley 50/1997, del Gobierno**, y la **Ley 3/2015** para el régimen de altos cargos, no por la forma general de nombramiento de **Subsecretarios** o **Directores generales** de la Ley 40/2015.
+
+| Cuestión | Regla | Artículo |
+|---|---|---|
+| **Órganos directivos de organismos públicos** | Los determinan sus **estatutos** | **55.8** |
+| **Ministro y Secretario de Estado** | Nombramientos conforme a la **Ley del Gobierno** y **Ley 3/2015** | **55.10** |
+| **Responsabilidad de titulares superiores y directivos** | **Personal, profesional y directa**, con **control y evaluación** | **55.11** |
+
+> ⚠️ **¡Foco Examen!:** **Estatutos del organismo público** determinan sus órganos directivos (**55.8**); no extrapolarle sin más el organigrama central de un Ministerio.
 
 ## 3. Artículo 55 bis · presencia equilibrada
 
@@ -814,7 +827,16 @@ Las Direcciones Generales se organizan normalmente en Subdirecciones Generales p
 - realizar actividades propias;
 - asignar objetivos y responsabilidades.
 
-También pueden adscribirse Subdirecciones Generales directamente a otros órganos directivos superiores o a órganos superiores.
+También pueden adscribirse **Subdirecciones Generales** directamente a otros **órganos directivos de mayor nivel** o a **órganos superiores del Ministerio** (**art. 58.4**).
+
+| Órgano | ¿Obligatorio en todo Ministerio? | Regla |
+|---|---|---|
+| **Secretaría de Estado** | **No** | Existencia facultativa (**58.1**) |
+| **Secretaría General** | **No** | Existencia facultativa (**58.1**) |
+| **Subsecretaría** | **Sí** | Necesaria en todo Ministerio (**58.2**) |
+| **Secretaría General Técnica** | **Sí** | Necesaria y dependiente de **Subsecretaría** (**58.2**) |
+
+> ⚠️ **¡Foco Examen!:** No confundir **Secretaría General** (opcional) con **Secretaría General Técnica** (obligatoria). Una **Subdirección General** puede depender directamente de un órgano distinto de una Dirección General (**58.4**).
 
 ## 7. Artículo 59 · creación, modificación y supresión
 
@@ -1062,7 +1084,7 @@ No tienen condición de alto cargo.
 
 ## 8. Artículo 68 · servicios comunes
 
-Los servicios comunes prestan asesoramiento, apoyo técnico y asistencia directa a los órganos superiores y directivos.
+Los **servicios comunes** prestan **asesoramiento**, **apoyo técnico** y, en su caso, **gestión directa** en las materias enumeradas en el **artículo 68.1**. No confundir la expresión legal «gestión directa» con una mera «asistencia directa».
 
 Comprenden, entre otras materias:
 
@@ -1350,7 +1372,7 @@ Corresponde al Subdelegado:
 - coordinar utilización de medios materiales y edificios administrativos;
 - ejercer competencias sancionadoras y otras atribuidas legalmente.
 
-El **artículo 75** no establece que el **Delegado del Gobierno** asuma las competencias del **Subdelegado** por el simple hecho de radicar allí la **sede de la Delegación**. Esa afirmación se retira por carecer de apoyo en dicho precepto. La **asunción legal de competencias del Subdelegado** corresponde al **Delegado** en las **comunidades autónomas uniprovinciales sin Subdelegado** (**artículo 74**, segundo párrafo).
+La ubicación de la **sede de la Delegación** en una provincia **no implica** que el **Delegado del Gobierno** asuma automáticamente las competencias del **Subdelegado**. El **artículo 74, segundo párrafo**, atribuye esa asunción al **Delegado** cuando se trata de una **comunidad autónoma uniprovincial sin Subdelegado**.
 
 | Supuesto | Consecuencia jurídica | Fundamento |
 |---|---|---|
