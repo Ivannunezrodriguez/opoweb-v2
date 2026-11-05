@@ -248,3 +248,15 @@ La **cancelación** requiere el transcurso de los plazos desde el **cumplimiento
 > ⚠️ **¡Foco Examen!:** La duración máxima de **12 meses** del procedimiento por faltas **graves o muy graves** no equivale al límite ordinario de **6 meses** de la **suspensión provisional cautelar**.
 
 **Fuente primaria verificada:** [Ley 4/2011, arts. 141 a 144, texto consolidado BOE (última actualización publicada **21/03/2024**)](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752). Banco ampliado a **20 preguntas**. Pendiente auditoría jurídica integral del manual y pruebas de navegación.
+
+## 12. Cierre jurídico-pedagógico del bloque 16–19 — **05/11/2026**
+
+| Gravedad | Prescripción de falta **141.1** | Prescripción sanción **141.3** | Cancelación anotación **142.2** |
+|---|---|---|---|
+| **Leve** | **6 meses** | **1 año** | **1 año** desde cumplimiento |
+| **Grave** | **2 años** | **2 años** | **2 años** desde cumplimiento |
+| **Muy grave** | **3 años** | **3 años** | **3 años** desde cumplimiento |
+
+**Reiteración/reincidencia** duplica los plazos de cancelación (**142.3**); la anotación de **separación del servicio** no se cancela (**142.4**). Para faltas **leves** hay procedimiento **sumario y simplificado con audiencia** (**143.3**). El procedimiento de faltas **graves/muy graves** tiene duración máxima **12 meses** (**143.6**). La **suspensión provisional cautelar** dura como regla **máximo 6 meses**, salvo excepciones (**144.2**). En proceso penal, la condena con identidad **sujeto, hecho y fundamento** excluye segunda sanción disciplinaria; los **hechos probados en sentencia firme** vinculan (**145.3–4**).
+
+> ⚠️ **¡Foco Examen!:** **6 meses** es prescripción de **falta leve**, no de sanción leve (**1 año**). **12 meses** de expediente grave ≠ **6 meses** de suspensión cautelar ordinaria.

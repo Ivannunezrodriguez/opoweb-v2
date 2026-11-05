@@ -2663,3 +2663,13 @@ Se sustituyó el resumen de cinco denominaciones del antiguo **apartado 16** por
 **CONTADOR EDITORIAL:** **15/121 temas AUDITADOS con evidencia de cierre editorial**, **106/121 pendientes**. Se conserva independiente de la certificación funcional integral web de cinco capas que sigue pendiente, y no se suman automáticamente antiguos bancos sin cierre documentado. No reabrir **C1 temas 1–15** salvo **error legal identificado** o **cambio normativo posterior**.
 
 **SIGUIENTE BLOQUE:** **Diputación C1 temas 16–19**; un único cierre por bloque, sin regenerar C1 1–15.
+
+## 106. CIERRE DEFINITIVO POR BLOQUE — Diputación C1 temas 16–19 (**05/11/2026**)
+
+**Cierre jurídico-pedagógico:** cuatro temas nuevos, **16–19**, 4 manuales, 4 matrices, 4 fuentes, **80 preguntas / 320 alternativas**, sin reabrir C1 1–15. **10 preguntas redundantes** sustituidas, conservando ID y posición de respuesta. Informe [C1 16–19](content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md) y prueba [regresión C1 16–19](tests/validate-diputacion-c1-t16-t19-cierre-20261105.mjs) integrados en `npm test`.
+
+**Errores de fondo corregidos:** persistía el dato de **2 años** para revisión de precios en **matriz del tema 16**, contrario al [**LCSP art. 103.5**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902) (**20 % ejecutado y 1 año** con excepciones). Se cubren supuestos no repetidos de garantía **provisional 3 %** (**106**), modificación **no prevista** (**205**), mora de pago (**198**), perfección por formalización (**36**), resolución (**211**); adquisición simultánea de nacionalidad (**Ley 4/2011 art. 58**) y renuncia impedida (**57.2**); exclusión de antigüedad en carrera horizontal (**64.6**); procedimiento por faltas leves **con audiencia** (**143.3**) y vinculación con condena penal (**145.3**).
+
+**Fuentes oficiales actuales:** [Ley 9/2017, actualización BOE **09/04/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902), [Ley 4/2011 CLM, actualización BOE **21/03/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752), [TREBEP](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719). Los epígrafes proceden del **BOP de Toledo 118/2026, Anexo VII**.
+
+**CONTADOR REAL DEL PROYECTO:** **19/121 temas AUDITADOS jurídico-pedagógicamente** y **102/121 pendientes**. No implica **certificación integral de cinco capas** (navegador real, móvil, accesibilidad y PWA son pruebas técnicas pendientes y transversales). No repetir revisión editorial C1 1–19 salvo error o reforma posterior. **Siguiente bloque: C1 temas 20–23**.

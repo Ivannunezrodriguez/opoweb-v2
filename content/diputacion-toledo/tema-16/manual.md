@@ -377,3 +377,20 @@ CONTRATACIÓN LOCAL
 > ⚠️ **¡Foco Examen!:** El plazo temporal vigente es **1 año**, no **2 años**. Distingue las excepciones de suministro de energía y concesión de servicios.
 
 Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902 .
+
+## 17. Cierre jurídico-pedagógico del bloque 16–19 — **05/11/2026**
+
+| Materia | Regla actual | Precepto LCSP |
+|---|---|---|
+| Órgano contratación local | **Alcalde o Presidente** hasta **10 %** recursos ordinarios y máximo **6.000.000 €**, plurianuales máximo **4 años**; en exceso **Pleno**; en grandes municipios **Junta de Gobierno Local** | **DA 2.ª** |
+| Garantía provisional | **Excepcional**, máximo **3 % del presupuesto base, IVA excluido** | **106** |
+| Garantía definitiva | **5 % del precio final ofertado, IVA excluido** como regla general | **107** |
+| Modificación prevista | Hasta **20 %** precio inicial con cláusula precisa | **204** |
+| Modificación no prevista | Supuestos tasados; **no alterar naturaleza global** | **205** |
+| Revisión periódica de precios | **20 % ejecutado** y **1 año** desde formalización; excepciones **energía** y **concesión de servicios** | **103.5** |
+| Contrato susceptible de recurso especial | Espera mínima de **15 días hábiles** para formalizar desde remisión de adjudicación | **153.3** |
+| Extinción | **Cumplimiento o resolución**; causas específicas | **209 y 211** |
+
+El BOE de la [**Ley 9/2017**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902) muestra última actualización **09/04/2026**. Se corrigió expresamente un dato residual de **2 años** en la matriz: la regla vigente de revisión es **1 año**. Cinco preguntas duplicadas se sustituyeron por cuestiones de garantía provisional, modificación no prevista, mora de pago, perfección y resolución.
+
+> ⚠️ **¡Foco Examen!:** **Art. 103.5: 20 % ejecutado y 1 año**; **art. 204: 20 % máximo de modificación prevista**. Son porcentajes que se refieren a cosas distintas.

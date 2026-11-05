@@ -1,23 +1,117 @@
 {
   "tema": 16,
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1 · 2026",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "metodo": "GENERACION_DESDE_CERO",
   "epigrafeOficial": "Los contratos administrativos en la esfera local. Selección del contratista. Garantías y responsabilidad en la contratación. Ejecución, modificación y suspensión. Revisión de precios. Invalidez y extinción de los contratos.",
   "bloques": [
-    {"id":"T16-B01","titulo":"Marco normativo y principios","cubierto":true,"fuentes":["Ley 9/2017","Ley 7/1985","RDL 781/1986","RD 1098/2001"]},
-    {"id":"T16-B02","titulo":"Contratos administrativos y privados","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B03","titulo":"Órganos de contratación locales","cubierto":true,"fuentes":["Ley 9/2017 DA 2ª"]},
-    {"id":"T16-B04","titulo":"Preparación del contrato","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B05","titulo":"Selección del contratista y procedimientos","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B06","titulo":"Garantías","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B07","titulo":"Responsabilidad contractual","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B08","titulo":"Ejecución y prerrogativas","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B09","titulo":"Modificación","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B10","titulo":"Suspensión","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B11","titulo":"Revisión de precios","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B12","titulo":"Invalidez","cubierto":true,"fuentes":["Ley 9/2017"]},
-    {"id":"T16-B13","titulo":"Extinción: cumplimiento y resolución","cubierto":true,"fuentes":["Ley 9/2017"]}
+    {
+      "id": "T16-B01",
+      "titulo": "Marco normativo y principios",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017",
+        "Ley 7/1985",
+        "RDL 781/1986",
+        "RD 1098/2001"
+      ]
+    },
+    {
+      "id": "T16-B02",
+      "titulo": "Contratos administrativos y privados",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B03",
+      "titulo": "Órganos de contratación locales",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017 DA 2ª"
+      ]
+    },
+    {
+      "id": "T16-B04",
+      "titulo": "Preparación del contrato",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B05",
+      "titulo": "Selección del contratista y procedimientos",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B06",
+      "titulo": "Garantías",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B07",
+      "titulo": "Responsabilidad contractual",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B08",
+      "titulo": "Ejecución y prerrogativas",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B09",
+      "titulo": "Modificación",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B10",
+      "titulo": "Suspensión",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B11",
+      "titulo": "Revisión de precios",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B12",
+      "titulo": "Invalidez",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    },
+    {
+      "id": "T16-B13",
+      "titulo": "Extinción: cumplimiento y resolución",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 9/2017"
+      ]
+    }
   ],
   "datosTest": {
     "competenciaAlcaldePresidente": "10 % de los recursos ordinarios y máximo 6.000.000 €, con plurianuales de hasta 4 años",
@@ -26,7 +120,7 @@
     "garantiaTotalEspecial": "hasta 10 %",
     "esperaFormalizacion": "15 días hábiles cuando proceda recurso especial",
     "modificacionPrevistaMaxima": "20 % del precio inicial",
-    "revisionPrecios": "20 % ejecutado y 2 años desde la formalización, con las excepciones legales",
+    "revisionPrecios": "20 % ejecutado y 1 año desde formalización, con excepciones art. 103.5 LCSP",
     "pago": "30 días desde la aprobación de la certificación o conformidad",
     "recepcion": "1 mes con carácter general"
   },
@@ -35,8 +129,17 @@
     "plazosYCuantiasEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
-    "preguntasPropias": 12,
+    "preguntasPropias": 20,
     "reutilizacion": false,
     "verificacionIntegridad": "2026-07-19"
+  },
+  "cierreEditorialC1_16_19_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md",
+    "certificacionIntegral": false,
+    "controlNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }

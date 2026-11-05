@@ -228,3 +228,19 @@ SITUACIONES
 > ⚠️ **¡Foco Examen!:** La **redistribución de efectivos** no exige automáticamente consentimiento para cualquier traslado, pero el **cambio de provincia** requiere **conformidad** del titular conforme al **artículo 73.4**.
 
 **Fuente primaria:** [Ley 4/2011 consolidada, artículos 62–82 y 113](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752). Banco ampliado a **20 preguntas**. Tema pendiente de revisión jurídica integral y comprobación funcional del portal.
+
+## 13. Cierre jurídico-pedagógico del bloque 16–19 — **05/11/2026**
+
+| Carrera / provisión | Precepto | Dato |
+|---|---|---|
+| Carrera horizontal | **64.2–4** | **Voluntaria**, requiere **implantación y evaluación objetiva previa**; **3–5 tramos**, inicial **no retribuido**; ascensos **4 años** mínimos ordinarios |
+| Méritos de carrera | **64.6** | **No se valora antigüedad** por sí sola; sí experiencia y tiempo de adquirir méritos |
+| Provisión ordinaria | **67.2** | **Concurso** normal; **libre designación** con **convocatoria pública** |
+| Remoción de puesto por concurso | **69** | Rendimiento insuficiente evaluado, **audiencia** y resolución motivada |
+| Redistribución con cambio provincial | **73.4** | Requiere **conformidad** del titular |
+| Situaciones administrativas | **113** | Servicio activo, especiales, en otras Administraciones, expectativa, excedencias, suspensión |
+| Suspensión de funciones | **125** | Firme o **provisional cautelar** |
+
+La [**Ley 4/2011**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752) no implanta automáticamente la carrera horizontal en todas las Administraciones. Se elimina la pregunta repetida sobre concurso y se introduce la prohibición de valorar la **antigüedad** aisladamente.
+
+> ⚠️ **¡Foco Examen!:** **4 años** mínimos de permanencia ordinaria en tramo no garantizan el ascenso: exige **evaluación**. **Libre designación** también requiere **convocatoria pública**.

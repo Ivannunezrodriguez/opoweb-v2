@@ -240,3 +240,21 @@ La rehabilitación puede ser:
 > ⚠️ **¡Foco Examen!:** Una **renuncia** no es automáticamente efectiva con la sola presentación: requiere **aceptación expresa** y no puede aceptarse en determinados supuestos disciplinarios o penales. Tampoco prohíbe obtener otra plaza mediante un nuevo proceso selectivo.
 
 **Normativa comprobada:** [Ley 4/2011, arts. 55–61, BOE consolidado con última actualización **21/03/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752) y [TREBEP](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719). Banco actualizado a **20 preguntas**. Pendiente auditoría integral y comprobación de la integración web antes de declarar el tema definitivo.
+
+## 15. Cierre jurídico-pedagógico del bloque 16–19 — **05/11/2026**
+
+| Materia | Norma aplicable Ley 4/2011 | Trampa de test |
+|---|---|---|
+| Acceso | **Igualdad, mérito, capacidad** y **publicidad** | **37**: no se sustituye por confianza |
+| Edad y requisitos | **16 años**, al finalizar solicitudes y hasta posesión/contrato | **38** |
+| Sistema selectivo | **Oposición** o **concurso-oposición**; concurso limitado a supuestos del **47.2** | **47** |
+| Fase de concurso del concurso-oposición | Máximo **25 % de puntuación total**, nunca dispensa oposición | **46.5** |
+| Nacionalidad UE | Salvedad para ejercicio de poder público y salvaguarda de intereses | **39** |
+| Adquisición de condición | Superar prueba, **nombramiento/contrato**, acatamiento y posesión cuando corresponda | **55** |
+| Renuncia | **Escrita**, aceptación expresa; impide aceptación expediente disciplinario o auto penal | **57** |
+| Pérdida de nacionalidad | Adquisición **simultánea** de nacionalidad habilitante evita pérdida | **58** |
+| Rehabilitación | Por desaparición de causa objetiva **se concederá**; tras condena penal es **excepcional** | **61** |
+
+[**Ley 4/2011**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752), consolidación última publicada **21/03/2024**; aplicación junto al **TREBEP** básico cuando corresponda.
+
+> ⚠️ **¡Foco Examen!:** **25 %** es el límite de peso de méritos en concurso-oposición bajo **art. 46.5**; **renunciar** por escrito no basta si la ley impide aceptarla.

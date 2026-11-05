@@ -263,38 +263,66 @@
     {
       "numero": 16,
       "titulo": "Los contratos administrativos en la esfera local. Selección del contratista. Garantías y responsabilidad en la contratación. Ejecución, modificación y suspensión. Revisión de precios. Invalidez y extinción de los contratos.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-16/manual.md",
       "fuentes": "content/diputacion-toledo/tema-16/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-16/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-16/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-16/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialC1_16_19_20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "controlNavegador": "TRANSVERSAL_PENDIENTE"
+      }
     },
     {
       "numero": 17,
       "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: el personal al servicio de las Administraciones Públicas de Castilla-La Mancha. Acceso al empleo público y pérdida de la relación de servicio.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-17/manual.md",
       "fuentes": "content/diputacion-toledo/tema-17/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-17/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-17/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-17/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialC1_16_19_20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "controlNavegador": "TRANSVERSAL_PENDIENTE"
+      }
     },
     {
       "numero": 18,
       "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: carrera profesional, provisión de puestos de trabajo y movilidad. Derechos y deberes. Situaciones administrativas.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-18/manual.md",
       "fuentes": "content/diputacion-toledo/tema-18/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-18/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-18/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-18/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialC1_16_19_20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "controlNavegador": "TRANSVERSAL_PENDIENTE"
+      }
     },
     {
       "numero": 19,
       "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: régimen disciplinario.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-19/manual.md",
       "fuentes": "content/diputacion-toledo/tema-19/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-19/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-19/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-19/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialC1_16_19_20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "controlNavegador": "TRANSVERSAL_PENDIENTE"
+      }
     },
     {
       "numero": 20,
@@ -535,6 +563,12 @@
         13,
         14,
         15
+      ],
+      [
+        16,
+        17,
+        18,
+        19
       ]
     ],
     "temasAuditados": [
@@ -552,10 +586,14 @@
       12,
       13,
       14,
-      15
+      15,
+      16,
+      17,
+      18,
+      19
     ],
-    "cuentaPendientesGlobal": 106,
-    "temasConCierreEditorialDemostrado": 15,
+    "cuentaPendientesGlobal": 102,
+    "temasConCierreEditorialDemostrado": 19,
     "ultimoBloquePreguntas": 80,
     "ultimoBloqueAlternativas": 320,
     "estado": "AUDITADO_JURIDICO_PEDAGOGICO",

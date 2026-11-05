@@ -1,10 +1,30 @@
 {
   "tema": 19,
   "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: régimen disciplinario.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrincipal": "Ley 4/2011, de 10 de marzo, del Empleo Público de Castilla-La Mancha",
   "ultimaActualizacionFuente": "2024-03-21",
-  "articulosClave": [127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145],
+  "articulosClave": [
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145
+  ],
   "bloques": [
     "principios",
     "faltas",
@@ -32,13 +52,22 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T19-001 a DIP-T19-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T19-001 a DIP-T19-020",
     "literalidadDefiniciones": true,
     "plazosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
     "verificacionIntegridad": "2026-07-19"
+  },
+  "cierreEditorialC1_16_19_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md",
+    "certificacionIntegral": false,
+    "controlNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }

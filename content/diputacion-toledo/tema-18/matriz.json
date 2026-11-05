@@ -1,29 +1,70 @@
 {
   "tema": 18,
   "epigrafeOficial": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: carrera profesional, provisión de puestos de trabajo y movilidad. Derechos y deberes. Situaciones administrativas.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrincipal": "Ley 4/2011, de 10 de marzo, del Empleo Público de Castilla-La Mancha",
   "ultimaActualizacionBOE": "2024-03-21",
   "bloques": [
-    {"id":"18.1","contenido":"Concepto y modalidades de carrera profesional","cobertura":"COMPLETA"},
-    {"id":"18.2","contenido":"Evaluación del desempeño","cobertura":"COMPLETA"},
-    {"id":"18.3","contenido":"Concurso y libre designación","cobertura":"COMPLETA"},
-    {"id":"18.4","contenido":"Otras formas de provisión y movilidad","cobertura":"COMPLETA"},
-    {"id":"18.5","contenido":"Derechos individuales y colectivos","cobertura":"COMPLETA"},
-    {"id":"18.6","contenido":"Deberes y código de conducta","cobertura":"COMPLETA"},
-    {"id":"18.7","contenido":"Situaciones administrativas","cobertura":"COMPLETA"},
-    {"id":"18.8","contenido":"Reingreso al servicio activo","cobertura":"COMPLETA"}
+    {
+      "id": "18.1",
+      "contenido": "Concepto y modalidades de carrera profesional",
+      "cobertura": "COMPLETA"
+    },
+    {
+      "id": "18.2",
+      "contenido": "Evaluación del desempeño",
+      "cobertura": "COMPLETA"
+    },
+    {
+      "id": "18.3",
+      "contenido": "Concurso y libre designación",
+      "cobertura": "COMPLETA"
+    },
+    {
+      "id": "18.4",
+      "contenido": "Otras formas de provisión y movilidad",
+      "cobertura": "COMPLETA"
+    },
+    {
+      "id": "18.5",
+      "contenido": "Derechos individuales y colectivos",
+      "cobertura": "COMPLETA"
+    },
+    {
+      "id": "18.6",
+      "contenido": "Deberes y código de conducta",
+      "cobertura": "COMPLETA"
+    },
+    {
+      "id": "18.7",
+      "contenido": "Situaciones administrativas",
+      "cobertura": "COMPLETA"
+    },
+    {
+      "id": "18.8",
+      "contenido": "Reingreso al servicio activo",
+      "cobertura": "COMPLETA"
+    }
   ],
   "controlCalidad": {
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T18-001 a DIP-T18-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T18-001 a DIP-T18-020",
     "tablasComparativas": true,
     "focosExamen": true,
     "plazosYOrganosEnNegrita": true,
     "reutilizacion": false,
     "verificacionIntegridad": "2026-07-19"
+  },
+  "cierreEditorialC1_16_19_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md",
+    "certificacionIntegral": false,
+    "controlNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }

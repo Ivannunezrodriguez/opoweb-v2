@@ -27,3 +27,9 @@
 ## Criterio editorial
 
 Contenido generado de forma independiente desde la normativa oficial vigente, sin reutilización de temarios de otras convocatorias.
+
+## Cierre editorial agrupado — **05/11/2026**
+
+[**Informe conjunto C1 16–19**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md). Tema **19**: **20 preguntas y 80 alternativas** con referencias oficiales por precepto. Última actualización consolidada BOE de norma principal: **21/03/2024**. Cierre **AUDITADO jurídico-pedagógico**; solo reabrir por error real o modificación normativa. Navegador y accesibilidad quedan como controles técnicos separados.
+
+> ⚠️ **¡Foco Examen!:** Ver las excepciones legales a los plazos y porcentajes: no extrapolar de un procedimiento a otro.

@@ -47,4 +47,10 @@
 - [Ley 9/2017, artículo 103.5, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902): revisión de precios, con carácter general, tras **1 año** desde la formalización y **20 %** ejecutado. Excepciones legales para suministro de energía y concesiones de servicios.
 - Corregidos el manual y la pregunta **DIP-T16-009**, que indicaban erróneamente **2 años**.
 
-**Estado:** revisión jurídica focalizada; pendiente revisión integral y pruebas funcionales.
+**Estado jurídico-pedagógico:** AUDITADO en bloque; revisión de interfaz pendiente transversalmente.
+
+## Cierre editorial agrupado — **05/11/2026**
+
+[**Informe conjunto C1 16–19**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-16-19-2026-11-05.md). Tema **16**: **20 preguntas y 80 alternativas** con referencias oficiales por precepto. Última actualización consolidada BOE de norma principal: **09/04/2026**. Cierre **AUDITADO jurídico-pedagógico**; solo reabrir por error real o modificación normativa. Navegador y accesibilidad quedan como controles técnicos separados.
+
+> ⚠️ **¡Foco Examen!:** Ver las excepciones legales a los plazos y porcentajes: no extrapolar de un procedimiento a otro.
