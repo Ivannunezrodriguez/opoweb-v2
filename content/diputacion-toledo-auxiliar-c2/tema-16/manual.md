@@ -2,7 +2,7 @@
 
 > **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
 
-**ESTADO EDITORIAL: CONTENIDO REVISADO Y COMPLETADO (29/10/2026).** Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
+**ESTADO ACTUAL: EN_AUDITORIA — sin certificación integral.** Incorporado el **25/10/2026**. El desarrollo del **29/10/2026** y el material adaptado de La Puebla (julio de 2026) son antecedentes editoriales, **no una aprobación de la versión actual**. Revisión focal del banco de preguntas: **05/11/2026**; pruebas reales de Windows 11, navegador y accesibilidad pendientes.
 
 ## 1. Epígrafe oficial literal
 
@@ -26,6 +26,22 @@
 | 5. digitalizacion | Bloque 5 |
 
 > ⚠️ **¡Foco Examen!:** El examen se ajusta al epígrafe y la versión concreta del programa. No confundir la terminología de otros temarios ni asumir que una operación o un órgano se rige por reglas de otro producto o norma.
+
+---
+
+## 2.1. Precisión técnica de examen — revisión 05/11/2026
+
+La documentación oficial de Microsoft confirma tres diferencias que conviene memorizar en **Windows 11 Pro**:
+
+| Operación | Acción real | No confundir con |
+|---|---|---|
+| **Ctrl + Mayús + N** | Crear una **carpeta nueva** en el Explorador | **Ctrl + N**, que abre **otra ventana** |
+| **Alt + Entrar** | Mostrar las **propiedades** del elemento seleccionado | **F2**, que cambia su nombre |
+| Renombrar `informe.docx` como `informe.pdf` | Cambiar la **extensión**, sin convertir el formato interno | Exportar o imprimir realmente a **PDF** |
+
+**Fuentes verificadas el 05/11/2026:** [Atajos oficiales de Windows](https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows) y [Extensiones de archivos](https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows).
+
+> ⚠️ **¡Foco Examen!:** **Cambiar la extensión no transforma un archivo**. **Ctrl+Mayús+N** crea una carpeta, **Ctrl+N** abre una ventana, **F2** renombra y **Alt+Entrar** muestra propiedades.
 
 ---
 
