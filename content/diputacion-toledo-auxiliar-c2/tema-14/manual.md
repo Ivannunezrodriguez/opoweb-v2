@@ -653,7 +653,19 @@ Para saber si un servicio es cualificado debe consultarse la TSL. No basta con l
 
 ## 7. Prestadores no cualificados
 
-Pueden iniciar su actividad sin verificación administrativa previa, pero deben comunicarla en el plazo legal y están sujetos a obligaciones de seguridad y supervisión posterior.
+Pueden iniciar su actividad **sin verificación administrativa previa**, pero deben comunicar el inicio al órgano de supervisión **dentro de los tres meses siguientes** (**Ley 6/2020, art. 12**). En el **mismo plazo de tres meses** deben comunicar las **modificaciones de los datos inicialmente transmitidos** y el **cese**. La Administración publica un **listado diferenciado** del de prestadores cualificados. La comunicación **no concede cualificación** ni convierte el servicio en cualificado. La falta de comunicación en plazo constituye **infracción leve** (**art. 18.4.b**). [BOE, artículos 12 y 18](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a12).
+
+| Supuesto | Regla verificable | Precepto |
+|---|---|---|
+| Inicio de actividad **no cualificada** | **Sin autorización/verificación previa**; comunicación en **3 meses** desde el inicio | **12** |
+| Modificación de datos comunicados o cese | Comunicación en el **mismo plazo de 3 meses** | **12** |
+| Incumplimiento de comunicación | **Infracción leve**; no se confunde con la falta de cualificación | **18.4.b** |
+| Verificación previa de servicio **cualificado** | Resolución y notificación en **6 meses**; transcurridos, solicitud **desestimable por silencio** | **16.2** |
+| Informe anual de actividad del prestador cualificado | Remisión **a más tardar el 1 de febrero** sobre el año civil anterior | **17.3** |
+
+> ⚠️ **¡Foco Examen!:** **Tres meses** para comunicar inicio, modificaciones y cese de servicios **no cualificados**; **seis meses** para resolver la verificación previa de los **cualificados**; **1 de febrero** para el informe anual de los cualificados. Son tres obligaciones diferentes. La comunicación de un prestador no cualificado **no equivale a la inscripción de un servicio cualificado en la TSL**.
+
+**Incidentes y responsabilidad (Ley 6/2020, arts. 10–13):** el prestador responde frente a terceros por las funciones delegadas (**art. 10**), sin perjuicio de las limitaciones tasadas por negligencia del titular o destinatario (**art. 11**). Tanto los prestadores cualificados como los no cualificados deben gestionar y notificar los incidentes legalmente relevantes; el **art. 13.3** exige **ampliar la información en un plazo máximo de un mes** tras la notificación del incidente y, si se ha producido, tras su resolución. Ese mes **no** es el plazo inicial de notificación. [BOE, artículos 10–13](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a13).
 
 Sus servicios no carecen necesariamente de efectos jurídicos. Simplemente no disfrutan de la condición y presunciones reservadas a servicios cualificados.
 
