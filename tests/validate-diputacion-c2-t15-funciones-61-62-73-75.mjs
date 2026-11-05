@@ -22,7 +22,7 @@ for(const key of 'abcdefghijk'){
 for(const p of ['61.j','61.ñ','61.q','61.r','61.s']){
  assert.ok(minister.includes(p),'Exam distinction '+p+' absent');
 }
-for(const p of ['62.2.e','**62.2.f**','**62.2.i**','cuantía numérica']){
+for(const p of ['62.2.e','**62.2.f**','**62.2.i**','cuantía numérica','**900.000 €**','**12.000.000 €**','art. 324.5','Disposición transitoria']){
  assert.ok(state.includes(p),'Art 62 limitation missing '+p);
 }
 for(const p of ['**73.1.c.1.º**','**73.1.c.2.º**','**73.1.c.3.º**','**73.1.d.3.º**','**73.1.e.1.º**','**73.1.e.4.º**','carácter anual','regular y periódica']){
@@ -34,6 +34,12 @@ for(const p of ['**75.a.1.º**','**75.a.2.º**','**Art. 75.d:**','**Art. 75.e:**
 assert.ok(!subdelegate.includes('En provincias donde radique la sede del Delegado, este puede asumir funciones del Subdelegado'));
 for(const n of [61,62,73,75])assert.ok(report.includes('BOE-A-2015-10566#a'+n),'Missing official legal source '+n);
 assert.ok(sources.includes('cotejo-funciones-61-62-73-75-2026-11-05.md'));
+assert.ok(report.includes('BOE-A-2017-12902#a324'),'LCSP art324 primary reference missing');
+assert.ok(report.includes('BOE-A-2017-12902#dt-2'),'LCSP DT2 primary reference missing');
+assert.ok(sources.includes('**900.000 €**'),'LCSP conditional threshold not in sources');
+assert.equal(matrix.controlRemisionContratosArt62e20261105?.cuantiaSupletoriaEuro,900000);
+assert.equal(matrix.controlRemisionContratosArt62e20261105?.cuantiaAutorizacionConsejoMinistrosEuro,12000000);
+assert.equal(matrix.controlRemisionContratosArt62e20261105?.certificacionIntegral,false);
 assert.match(matrix.estadoControl,/PENDIENTE_COTEJO_INTEGRAL/);
 assert.equal(matrix.controlManualFunciones61627375_20261105?.certificacionIntegral,false);
 assert.equal(matrix.controlManualFunciones61627375_20261105?.navegadorReal,'PENDIENTE');
