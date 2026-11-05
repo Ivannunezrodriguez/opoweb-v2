@@ -4,6 +4,16 @@
 
 **ESTADO ACTUAL: EN_AUDITORIA — sin certificación integral.** Incorporado el **25/10/2026**. El desarrollo del **29/10/2026** y el material adaptado de La Puebla (julio de 2026) son antecedentes editoriales, **no una aprobación de la versión actual**. Revisión focal del banco de preguntas: **05/11/2026**; pruebas reales de Windows 11, navegador y accesibilidad pendientes.
 
+## Resultado de auditoría del banco de preguntas — **05/11/2026**
+
+**Banco de preguntas:** **20 de 20** preguntas y **80 de 80** alternativas cotejadas en [informe técnico individual](cotejo-banco-completo-2026-11-05.md) con fuentes de **Microsoft Support / Microsoft Learn**. Se han reescrito **15** preguntas con distractores demasiado evidentes o ambiguos, conservando las **20 claves correctas** y distribución **A5/B4/C6/D5**. Las otras **5** ya habían sido modificadas en controles focales anteriores.
+
+Este resultado **no equivale al cierre del tema**. Sigue pendiente comprobar de forma exhaustiva todas las afirmaciones del manual, ensayar el comportamiento en **Windows 11 Pro**, validar la interfaz de OpoWeb en navegador/móvil y obtener la aprobación editorial que proceda.
+
+> ⚠️ **¡Foco Examen!:** Un banco con **80 alternativas justificadas** no significa un manual completamente certificado. En Windows 11, **copiar**, **mover**, **compartir**, **asignar unidad** y **convertir a PDF** son acciones distintas.
+
+---
+
 ## 1. Epígrafe oficial literal
 
 > **Tema 16. Microsoft Windows 11 Pro I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.**
