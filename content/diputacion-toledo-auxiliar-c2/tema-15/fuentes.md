@@ -76,3 +76,18 @@ Se contrastaron con el **BOE consolidado de la Ley 40/2015** las reglas de los *
 > ⚠️ **¡Foco Examen!:** La **mayoría de votos** para adoptar acuerdos (**art. 17.5**) no sustituye la **decisión de todos** para constituirse excepcionalmente sin convocatoria previa (**art. 17.2**). En la **AGE**, los **2 días** de convocatoria son una regla específica del **art. 19.3.a**.
 
 **Límite:** cotejo jurídico focal de algunos apartados del manual. Continúan pendientes los demás artículos, la revisión editorial integral y la prueba funcional de navegación, móvil y accesibilidad.
+
+## Cotejo focal de competencias y AGE — **05/11/2026**
+
+El [**informe de cotejo del manual — arts. 9, 63, 64 y 73**](cotejo-manual-competencias-age-2026-11-05.md) recoge hallazgos y correcciones frente al [**BOE consolidado de la Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566):
+
+| Artículo | Regla recuperada | Fuente primaria |
+|---|---|---|
+| **9.1** | **Aprobaciones previas** de delegaciones de competencias en AGE: mismo Ministerio, ministerios distintos, entes públicos | [**Art. 9**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9) |
+| **63.3** | Subsecretarios: **A1** o personas que dejaron de ser funcionarios **por jubilación** (redacción de **21/12/2023**) | [**Art. 63**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a63) |
+| **64.3** | Secretarios Generales: propone **titular del Ministerio o Presidente del Gobierno** | [**Art. 64**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a64) |
+| **73.1–4** | **Informe anual** del Delegado, informe ministerial previo en recursos, **potestad expropiatoria** y **jefatura autonómica** de FFCCSE | [**Art. 73**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a73) |
+
+> ⚠️ **¡Foco Examen!:** **A1 jubilado puede ser Subsecretario**, a diferencia de la lectura anterior del manual; **Delegado** tiene jefatura autonómica de FFCCSE, **Subdelegado** dirige las fuerzas estatales en su provincia.
+
+**Control editorial:** no debe confundirse esta revisión focal de cuatro artículos con el cotejo integral del manual ni la prueba funcional del portal.
