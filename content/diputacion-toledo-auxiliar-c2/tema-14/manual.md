@@ -1,8 +1,8 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 14
 
-> **Estado editorial operativo (05/11/2026): EN_AUDITORIA.** El manual está disponible y el banco contiene **20 preguntas**, pero **no consta certificación jurídica individual de sus 80 alternativas ni auditoría integral del tema**. La comprobación técnica de OpoWeb tampoco acredita por sí sola la corrección de cada respuesta. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial operativo (05/11/2026): EN_AUDITORIA.** El **banco de 20 preguntas y 80 alternativas** dispone de [**cotejo individual de cada alternativa y fundamento**](cotejo-banco-completo-2026-11-05.md), con **A5/B5/C5/D5**. El **manual completo** y las pruebas de **navegador, móvil, PWA y accesibilidad** siguen pendientes de certificación integral. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
 
-**ESTADO ACTUAL: EN_AUDITORIA — sin certificación integral.** Incorporado el **25/10/2026**; la revisión documental del **29/10/2026** y el material reutilizado de La Puebla (julio de 2026) son antecedentes históricos, no pruebas de vigencia ni de exhaustividad. Las preguntas T14 han recibido correcciones parciales en noviembre de 2026; falta el cotejo completo del manual, su matriz y la prueba funcional en navegador.
+**ESTADO ACTUAL: EN_AUDITORIA — sin certificación integral.** Incorporado el **25/10/2026**; la revisión documental del **29/10/2026** y el material reutilizado de La Puebla (julio de 2026) son antecedentes históricos, no pruebas de vigencia ni de exhaustividad. Las **20 preguntas y 80 alternativas** tienen cotejo individual documentado del **05/11/2026**; queda pendiente el cotejo completo del **manual** y la prueba funcional en **navegador real**.
 
 ## 1. Epígrafe oficial literal
 
