@@ -109,7 +109,7 @@ Además, la pregunta **T15-014** introduce la reforma del **art. 55 bis** sobre 
 | **C** | Un mínimo del 30 % de cada sexo y un máximo del 70 % en el conjunto del Gobierno. | **Incorrecta:** 30/70 no es el rango previsto, y el artículo se refiere a ámbito departamental, no al conjunto del Gobierno. |
 | **D** | Un mínimo del 40 % solo entre los Ministros, sin extenderlo a los órganos directivos. | **Incorrecta:** el art. 55 bis abarca Secretarías de Estado y órganos directivos, no solo Ministros. |
 
-**Precepto:** Ley 40/2015, art. 55 bis · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a55bis ; LO 2/2024, DT 1.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936#dtprimera
+**Precepto:** Ley 40/2015, art. 55 bis · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a5-2 ; LO 2/2024, DT 1.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936#dtprimera
 
 > ⚠️ **¡Foco Examen!:** **40–60 % por departamento**, no **50–50 % exacto en cada órgano**. La regla de nuevos nombramientos y el plazo máximo transitorio de **5 años** son aspectos distintos.
 
@@ -147,7 +147,7 @@ Además, la pregunta **T15-014** introduce la reforma del **art. 55 bis** sobre 
 
 El **artículo 55 bis** incorporado por la **LO 2/2024** exige **40–60 %** por sexo entre titulares de **Secretarías de Estado y órganos directivos de cada departamento**. La **DT 1.3** aplica la previsión a nombramientos y designaciones posteriores a la entrada en vigor (**22/08/2024**) y fija **5 años** desde esa entrada para garantizar la presencia equilibrada en toda la AGE y sector institucional estatal. Ese plazo global **no** suspende la regla aplicable a nombramientos nuevos.
 
-**Fuentes:** [Ley 40/2015, art. 55 bis](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a55bis), [LO 2/2024, DT 1.3](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936#dtprimera).
+**Fuentes:** [Ley 40/2015, art. 55 bis](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a5-2), [LO 2/2024, DT 1.3](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936#dtprimera).
 
 > ⚠️ **¡Foco Examen!:** **22/08/2024** = entrada en vigor; **22/08/2029** = horizonte máximo de garantía global. No decir que el artículo «empieza a aplicarse en 2029».
 
