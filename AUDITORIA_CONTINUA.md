@@ -2244,3 +2244,33 @@ Creada [`tests/validate-diputacion-c2-t15-colegiados-manual.mjs`](tests/validate
 **Sin elevar cobertura:** los históricos de referencia siguen siendo **51/121 bancos** y **0/121 temas certificados integralmente**. Este bloque corrige omisiones y ambigüedades de algunos artículos; **no** acredita cotejo artículo por artículo de las **más de 1.300 líneas** del manual ni navegación real, móvil/PWA o accesibilidad.
 
 **Siguiente paso sustantivo:** continuar contraste jurídico por tramos del manual **T15**, especialmente **arts. 5–14 y 54–80**, con foco en órgano competente, cuantías, plazos, mayorías, excepciones y su reflejo exacto en el contenido; después volver a **T14 (eIDAS / certificados electrónicos)**. No anticipar T06 OAPGT sin Estatutos consolidados, ni reabrir convocatorias descartadas. Mantener atención a exámenes de La Puebla (**14/11**) y UC3M (**21/11**).
+
+
+## 80. Diputación Toledo C2 T15 · contrastes jurídicos AGE arts. 9, 63, 64 y 73 (05/11/2026)
+
+### Punto de partida y fuentes oficiales
+
+Se han comprobado `PROJECT_RULES.md`, el último §79 y los workflows del HEAD inicial `e2ddf94eac4b316af23744fe48e6f23688766b7b`. **CI success**, ejecución **42004794885**, y **Pages success**, ejecución **42004793852**, acreditados por SHA exacto. Se consultó [**BOE consolidado Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), cuya última actualización publicada es **02/08/2024**, y la reforma del **Real Decreto-ley 6/2023** de **20/12/2023**, aplicable desde **21/12/2023** a los arts. 63.3 y 66.2. El texto consolidado es informativo y deben consultarse las publicaciones oficiales para valor jurídico.
+
+### Correcciones reales del manual
+
+| Artículo | Hallazgo comprobado | Corrección integrada |
+|---|---|---|
+| **9.1 y 9.3** | «Aprobaciones previas según la relación» sin identificar **órganos** | Tabla con **órgano ministerial del delegante**, **superior común** si órganos no jerárquicos del mismo Ministerio, **superior del delegado** si son de distintos Ministerios; reglas especiales de organismos y entidades; se separa **aprobación previa** de **publicación posterior** |
+| **63.3** | El manual decía únicamente **funcionarios de carrera A1**, omitiendo jubilación | Redacción vigente permite también **personas que perdieron la condición funcionarial por jubilación**, reforma vigente desde **21/12/2023**; se diferencia del **Secretario General Técnico (65.3)** y de **Director General (66.2)** |
+| **64.3** | El cuerpo del manual continuaba diciendo «propuesta del Ministro», pese a que la tabla anterior ya se había corregido | Para **Secretario General**, propuesta del **titular del Ministerio o del Presidente del Gobierno**, mediante **real decreto del Consejo de Ministros** |
+| **73.1.b.4.º** | Omisión del informe periódico concreto | **Delegado del Gobierno** eleva **ANUALMENTE** informe sobre funcionamiento de servicios públicos estatales, a través del departamento legalmente indicado |
+| **73.1.d.1.º–2.º** | Recursos y suspensión resumidos sin sus condiciones | **Informe previo obligatorio del Ministerio competente por materia** para determinados recursos ante el Delegado; impugnaciones de actos propios no finales corresponden al **Ministerio**; distinción entre **suspender** y **proponer suspensión**; responsabilidad patrimonial la resuelve **titular del Ministerio competente** |
+| **73.2–3** | No figuraban con suficiente detalle **potestad expropiatoria** y **jefatura autonómica FFCCSE** | **Delegado**: potestades sancionadora/expropiatoria, **jefatura FFCCSE a nivel autonómico**, bajo dependencia funcional del **Ministerio del Interior**; **Subdelegado** dirige FFCCSE en la provincia (**75.b**) |
+
+**Archivos modificados:** [manual T15](content/diputacion-toledo-auxiliar-c2/tema-15/manual.md), [fuentes T15](content/diputacion-toledo-auxiliar-c2/tema-15/fuentes.md), [matriz T15](content/diputacion-toledo-auxiliar-c2/tema-15/matriz.json). **Informe autónomo con BOE, diferencias y focos:** [`cotejo-manual-competencias-age-2026-11-05.md`](content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-manual-competencias-age-2026-11-05.md).
+
+**Banco T15:** permanece en **20 preguntas / 80 alternativas**, distribución **A5/B5/C5/D5**, sin cambio de claves ni aumento ficticio del número de preguntas auditadas. **Tema T15** continúa `EN_AUDITORIA`, el banco sí dispone de dos informes de cotejo 20/80 de un lote anterior.
+
+### Validación y límites
+
+Añadida [`tests/validate-diputacion-c2-t15-competencias-age.mjs`](tests/validate-diputacion-c2-t15-competencias-age.mjs) a `npm test`. Comprueba presencia de las distinciones de arts. **9, 63, 64, 73**, referencias BOE, reforma **2023**, conservación de 20/80 y estado editorial pendiente, sin afirmar que el test de estructura sustituya el cotejo jurídico.
+
+**Último commit de contenido e integración:** `00cfb9effd5dd1163274cfb4112aedcfd3d45abd`. **Workflow «Validar OpoWeb v2» completado con success**, ejecución **42005864669**, confirmado para ese SHA. **Pages del último SHA:** comprobar ejecución **42005863334**; no afirmar despliegue hasta tener resultado concreto.
+
+**Queda pendiente:** contraste completo del resto del manual **arts. 5–14 y 54–80**, verificación de cobertura pedagógica y literalidad en todos sus apartados, pruebas de navegador real, móvil, PWA y accesibilidad. No declarar un tema `AUDITADO` por este lote. **Cobertura histórica de referencia inalterada: 51/121 bancos, 0/121 certificaciones integrales.** Prioridades posteriores **T14 certificados/eIDAS**, T06 OAPGT reservado hasta verificar sus Estatutos. Mantener exámenes **La Puebla 14/11** y **UC3M 21/11** como plazos prioritarios.
