@@ -2063,3 +2063,35 @@ Se leyó primero `PROJECT_RULES.md` y el apartado final vigente (§70) de este r
 Se comprobó el parseo JSON del banco antes de persistir y la permanencia de 20 preguntas. La consulta del estado combinado para `619655930c75ab019f1f05d76c94017fac154cbf` devolvió **cero estados** y la consulta de workflow runs del conector devolvió **lista vacía** (el conector solo recupera determinadas ejecuciones PR): **no demuestra ni éxito ni fallo** de CI/Pages. El acceso directo a API pública desde el contenedor falló por DNS. **CI/Pages de los commits nuevos y del commit de registro: no acreditados**. No se ha ejecutado `npm test` ni prueba de navegador real, móvil, PWA o accesibilidad. El cotejo de la pregunta T15-002 no certifica las otras 19 preguntas ni todo el manual; verificar el tenor consolidado oficial y su fecha de corte antes de cerrar integralmente.
 
 **Cobertura sin incremento: 51/121 bancos previamente cotejados y 0/121 temas certificados integralmente.** Siguiente lote: comprobar por SHA exacto las ejecuciones de CI/Pages y corregir cualquier fallo; continuar T15 (arts. 8–24 y 54–80, claves y distractores restantes), T16 y revisión documental T14; priorizar La Puebla y UC3M por exámenes inminentes. T06 OAPGT reservado al final. Olías: discrepancia de plazas y plazo sin resolver, sin presentar solicitudes.
+
+
+## 72. Diputación de Toledo Auxiliar C2 · Tema 16 Windows 11 Pro — **05/11/2026**
+
+### Auditoría focal y corrección efectiva
+
+**Motivo:** el banco presentaba **tres repeticiones de conceptos** y distractores imposibles, pese a conservar las 20 preguntas regladas. Se inspeccionaron el **programa oficial** del Anexo XI, el **manual T16**, sus **20 preguntas** y la matriz de cobertura. Se contrastaron con fuentes oficiales Microsoft sobre atajos, extensiones y dispositivos.
+
+| ID | Antes | Corrección publicada | Clave |
+|---|---|---|---|
+| **DT-C2-T16-007** | Duplicaba copiar/mover de T16-002 | Cambiar `.docx` por `.pdf` **no convierte el archivo** | **C** |
+| **DT-C2-T16-008** | Duplicaba rutas UNC de T16-005 | **Ctrl+Mayús+N** (carpeta), frente a **Ctrl+N, F2, Alt+Entrar** | **A** |
+| **DT-C2-T16-010** | Duplicaba vista del Explorador de T16-004 | **Alt+Entrar** (propiedades), frente a atajos confundibles | **C** |
+| **DT-C2-T16-014** | Distractores «BIOS / navegador / Papelera» | Rutas reales de Configuración; válida **Bluetooth y dispositivos > Impresoras y escáneres** | **C** |
+
+Se conservaron las **20 preguntas**, las **80 opciones**, los identificadores y las posiciones de solución; claves **A5/B4/C6/D5**. La revisión de los **cuatro ítems** incluye sus **16 alternativas** exactas, razón individual de aceptación o rechazo y **¡Foco Examen!** en [`cotejo-focal-2026-11-05.md`](content/diputacion-toledo-auxiliar-c2/tema-16/cotejo-focal-2026-11-05.md). No se atribuye ese cotejo a las otras **16 preguntas/64 alternativas**.
+
+Actualizados [`preguntas.json`](content/diputacion-toledo-auxiliar-c2/tema-16/preguntas.json), [`manual.md`](content/diputacion-toledo-auxiliar-c2/tema-16/manual.md) y [`fuentes.md`](content/diputacion-toledo-auxiliar-c2/tema-16/fuentes.md): se saneó la falsa apariencia de certificación integral heredada del encabezado «CONTENIDO REVISADO Y COMPLETADO», se agregó tabla de diferencias de examen y se enlazaron fuentes oficiales Microsoft.
+
+Fuentes comprobadas:
+- [**Métodos abreviados del Explorador de Windows**](https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows).
+- [**Extensiones de nombre de archivo en Windows 11**](https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows).
+- [**Agregar impresoras en Windows 11**](https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows).
+- [**Instalar y usar un escáner**](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows).
+
+### Control de regresión y alcance
+
+Creada [`tests/validate-diputacion-c2-t16-focal.mjs`](tests/validate-diputacion-c2-t16-focal.mjs) e incorporada a **`npm test`**. Comprueba **20/80**, IDs únicos, **distribución A5/B4/C6/D5**, cuatro claves originales, ausencia de los distractores triviales, fuentes y estado editorial sin cierre anticipado.
+
+**No hay certificación jurídica-editorial ni funcional integral**. Son fuentes técnicas del fabricante, no un texto legal con artículos. **Prueba real de Windows 11 Pro, navegador, impresora/escáner y accesibilidad:** pendiente. **Resultado de CI/Pages del último SHA:** consultar runs de ese commit; no deducirlo de los anteriores. **Cobertura global sin incremento: 51/121 bancos auditados individualmente, 0/121 cerrados en cinco capas.**
+
+**Próximos pasos:** completar las otras **16 preguntas/64 distractores del tema 16**, auditar **T15 Ley 40/2015** y **T14 certificados**, con fuentes oficiales y controles de duplicidad; el **T06 OAPGT** sigue reservado para cuando se disponga de los Estatutos consolidados. La Puebla (examen **14/11**) y UC3M (examen **21/11**) siguen siendo las convocatorias más inmediatas.
