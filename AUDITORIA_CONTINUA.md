@@ -2285,3 +2285,35 @@ Añadida [`tests/validate-diputacion-c2-t15-competencias-age.mjs`](tests/validat
 **Comprobación puntual contra `content/diputacion-toledo-auxiliar-c2/tema-15/manual.md`:** art. **5.1, 5.3–4**: disyuntiva de efectos a terceros/actuación preceptiva, tres requisitos mínimos de creación y ausencia de duplicación en la misma Administración, territorio y población: coinciden con el BOE; art. **6.1–2**: publicidad condicionada de instrucciones y no invalidez automática por incumplimiento: coinciden; art. **7**: autonomía o servicios jurídicos sin dependencia ni instrucciones del autor del acto, actuación colegiada: coinciden; art. **8.1–3**: irrenunciabilidad, no alteración de titularidad por delegación/encomienda/firma/suplencia, desconcentración y superior común cuando concurren varios órganos inferiores: coinciden. **Sin cambios en el manual** al no detectar error verificable en estos pasajes; no duplicar correcciones ya correctas.
 
 **Alcance estricto:** revisión focal de esos incisos, **no** auditoría completa de los arts. 5–8, ni de las 20 preguntas/80 distractores en esta ejecución; tampoco se ha validado render, navegación, PWA, móvil o accesibilidad. Se mantienen **51/121 bancos históricos** y **0/121 temas certificados integralmente**. Próximo lote: continuar T15 arts. 9–14 y 54–80 con cotejo de excepciones y tabla de órganos; revisar CI/Pages de SHA exacto, después T14. Prioridad transversal de exámenes La Puebla 14/11 y UC3M 21/11. T06 OAPGT sigue reservado al final; Olías sin resolución de discrepancias.
+
+
+## 82. Diputación C2 T15 · auditoría jurídico-editorial focal de los artículos 5–14 (05/11/2026)
+
+**Punto de partida:** leído `PROJECT_RULES.md` y el registro central hasta §80; después de la revisión se detectó el **§81**, publicado concurrentemente por la tarea automática, y se continuó desde su versión vigente sin sobrescribirlo. La fuente externa de contraste fue la [**Ley 40/2015 consolidada del BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), última actualización publicada el **02/08/2024** (texto informativo, no sustituto de la publicación jurídica oficial). El epígrafe es el del **BOP Toledo 197/2026, 14/10/2026, Anexo XI, CSV 2026.00004759**.
+
+### Cambios publicados en el manual del T15
+
+Se examinaron **los artículos 5 a 14** contra el texto BOE y se modificaron **12 pasajes** del bloque. Los cambios incorporan tablas de conceptos confundibles, excepciones y bloques **¡Foco Examen!**, preservando la estructura del temario y la literalidad de las reglas jurídicas clave.
+
+| Artículos | Antes / hallazgo | Mejoras incorporadas |
+|---|---|---|
+| **5.1–4** | Explicación de órgano y duplicidad correcta, pero sin cuadro de evaluación | Tabla de las dos condiciones alternativas del órgano y **tres requisitos mínimos**, con foco de duplicidad de **misma Administración, función, territorio y población** |
+| **6.1–2** | Resumen sin referencia a difusión de Transparencia | **Ley 19/2013** y distinción entre publicación **condicionada** de instrucción e invalidez del acto por incumplirla |
+| **7** | Independencia jurídica ya explicada | Se precisó actuación **colegiada**, sin dependencia ni instrucciones del **órgano autor** del acto o disposición |
+| **8.1–3** | Reglas esenciales ya presentes | Foco sobre diferencia entre **delegación** y **desconcentración**, y **superior común** con varios órganos inferiores |
+| **9.5** | Mencionaba únicamente informe | Se incorporó **«dictamen o informe preceptivo»** y tabla: previsión del trámite **no impide delegar**; su **emisión en ese procedimiento sí** |
+| **10.1–2** | Avocación correcta | Foco para supuesto de **delegación sin jerarquía**: solo avoca el **órgano delegante** |
+| **11.1–3** | Formalización de encomienda escueta | Tabla **misma/distintas Administraciones**, publicación del instrumento y resolución para eficacia, **convenio** y excepción de régimen local |
+| **12.1–3** | Delegación de firma correcta | Foco sobre falta de publicación necesaria en **firma** versus publicidad de **delegación de competencias** |
+| **13.1–4** | Designación AGE del suplente resumida | Se explicaron **real decreto de estructura / estatutos** y **acto de nombramiento inicial o posterior**, con identificación del **suplido y suplente** |
+| **14.1–3** | «Los interesados pueden» impreciso | Se exigió la condición literal **«interesados que sean parte en el procedimiento»** para declinación/inhibición y tabla con tres técnicas |
+
+**Evidencias de esta revisión:**
+- [Manual T15 corregido](content/diputacion-toledo-auxiliar-c2/tema-15/manual.md).
+- [Informe por artículos 5–14, diferencias, trampas y BOE](content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-manual-organos-competencias-2026-11-05.md).
+- [Fuentes T15 actualizadas](content/diputacion-toledo-auxiliar-c2/tema-15/fuentes.md) y [matriz T15](content/diputacion-toledo-auxiliar-c2/tema-15/matriz.json), con registro **focal** sin certificación integral.
+- Nuevo [control de regresión del bloque](tests/validate-diputacion-c2-t15-organos-competencia.mjs), incorporado a `npm test`. Requiere los diez artículos, **al menos 10 focos de examen**, referencias BOE, hitos de precisión, estado pendiente y preservación de **20 preguntas / 80 alternativas**, claves **A5/B5/C5/D5**.
+
+**Control técnico:** commit de integración **`91aab61b94c9a3d5bee5f328fe1d06edd6293e0f`**, `Validar OpoWeb v2` **success**, run **42006904368**. GitHub Pages para ese mismo SHA (run **42006904242**) se encontraba **in_progress** al consultarlo; no atribuirle éxito sin verificación posterior.
+
+**Alcance honesto:** es un contraste de las reglas esenciales de los **arts. 5–14 del manual**, no certificación de todo el tema ni de la práctica real en navegador, móvil, PWA y accesibilidad. No se ha modificado el banco, ya cotejado en los §§75–76. **Cobertura global histórica sin aumento por esta revisión: 51/121 bancos de referencia y 0/121 temas certificados integralmente.** Reanudar con **manual T15 arts. 54–80** y revisión transversal de la cobertura **15–24**, posteriormente **T14 certificados/eIDAS**; **T06 OAPGT** sigue bloqueado hasta Estatutos consolidados. Mantener prioridad temporal de exámenes **La Puebla 14/11** y **UC3M 21/11**.
