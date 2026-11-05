@@ -10,10 +10,12 @@
 
 | Inciso del programa | Norma principal | Artículos/referencia | Contenido exigible |
 |---|---|---|---|
-| Principio de igualdad y discriminación | LO 3/2007, igualdad | arts. 3-7, 51-54 y 64 | Conceptos, límites y ejemplos del apartado |
-| Art. 51: criterios de actuación de las Administraciones | LO 3/2007, igualdad | arts. 3-7, 51-54 y 64 | Conceptos, límites y ejemplos del apartado |
-| Art. 53: órganos de selección y representación | LO 3/2007, igualdad | arts. 3-7, 51-54 y 64 | Conceptos, límites y ejemplos del apartado |
-| Igualdad, conciliación y prevención del acoso | LO 3/2007, igualdad | arts. 3-7, 51-54 y 64 | Conceptos, límites y ejemplos del apartado |
+| Igualdad y discriminación | **LO 3/2007** | **arts. 3, 6 y 7** | Igualdad de trato, discriminación directa/indirecta, acoso |
+| Criterios de actuación de las **Administraciones Públicas** | **LO 3/2007** | **art. 51** | Conciliación, formación, selección, acoso e igualdad retributiva |
+| Presencia equilibrada y órganos de la **AGE** | **LO 3/2007** | **arts. 52–54; DA primera** | Directivos, tribunales, representantes y **40–60 %** |
+| Convocatorias, conciliación, provisión y vacaciones en AGE | **LO 3/2007** | **arts. 55–59** | Informe de impacto, **urgencia**, cómputo de méritos, mutualismo y vacaciones |
+| Formación en igualdad y cursos AGE | **LO 3/2007** | **arts. 60–61** | Preferencia **1 año**, reserva de cursos **40 %** y pruebas de acceso |
+| Protocolo, evaluación y Plan AGE | **LO 3/2007** | **arts. 62–64** | Denuncias reservadas, informe **anual**, plan por legislatura y evaluación **anual** |
 
 ## 3. Principio de igualdad y discriminación
 
@@ -144,7 +146,7 @@ Según el **art. 64**, el **Gobierno** aprueba, **al inicio de cada legislatura*
 
 ## Fuentes jurídicas y alcance
 
-- [**LO 3/2007, igualdad**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) — arts. 3-7, 51-54 y 64.
+- [**LO 3/2007, igualdad**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) — arts. **3, 6, 7, 51–64 y disposición adicional primera**.
 - [**TREBEP**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) — arts. 14 y 52-54.
 
 **Control parcial BOE 04/11/2026:** añadidos y contrastados **arts. 52 y 54–64 de la LO 3/2007**. Pendiente auditoría jurídica y editorial integral del tema y banco de preguntas. La correcta estructura y los test no convierten este tema en «AUDITADO».
