@@ -994,23 +994,47 @@ En el ámbito **estatal**, el uso del CSV requiere **resolución de la Subsecret
 
 > ⚠️ **¡Foco Examen!:** El **CSV no es un certificado electrónico**. Su verificación en sede estatal debe mantenerse durante **al menos 5 años** (**art. 21.4.e**) y un documento **modificado exige CSV nuevo** (**21.2.c**). El **plazo mínimo de CSV** no es la **vigencia máxima de un certificado**.
 
-## 6. Firma del empleado público
+## 6. Firma del empleado público (**RD 203/2021, art. 22**)
 
-Cuando la actuación no es automatizada, la Administración actúa mediante la firma electrónica de:
+Cuando la actuación administrativa por medios electrónicos **no** se realiza mediante actuación automatizada de los artículos **20 y 21**, se aplica la firma electrónica del **titular del órgano competente** o del **empleado público** mediante el que se ejerza la competencia (**art. 22.1**).
 
-- la persona titular del órgano competente;
-- el empleado público a través del cual se ejerce la competencia.
+**Cada Administración Pública** determina los sistemas de firma de su personal. Estos sistemas pueden identificar conjuntamente a la persona titular del puesto o cargo y a la Administración u órgano donde presta servicios (**22.2**).
 
-La Administración determina los sistemas admitidos para su personal.
+Los **certificados electrónicos de empleado público serán cualificados** y se ajustarán al **Esquema Nacional de Interoperabilidad** y a la legislación de identificación y firma (**22.3**). No debe equipararse automáticamente cualquier sistema interno de acceso de empleado a un certificado cualificado de firma.
 
-Los certificados de empleado público:
+El **art. 22.4** añade una regla para las **entidades de derecho privado vinculadas o dependientes** cuando tramitan procedimientos ejerciendo **potestades administrativas**: la Administración correspondiente determina los medios de firma admitidos.
 
-- son cualificados;
-- pueden identificar conjuntamente persona, puesto y Administración;
-- deben ajustarse a la normativa de interoperabilidad y firma;
-- se usan en el ejercicio de funciones públicas.
+### Especialidad estatal: identificación y firma (**art. 24 RD 203/2021**)
 
-No deben utilizarse para actuaciones privadas ajenas al puesto.
+Para el personal de la **Administración General del Estado** y sus organismos y entidades públicas vinculadas o dependientes, hay que diferenciar **identificación en sistemas** de **firma electrónica de actuaciones**.
+
+| Cuestión | Regla del artículo **24** | Trampa de examen |
+|---|---|---|
+| **Identificación** | Sistemas de la **Ley 39/2015** adecuados al nivel de seguridad del trámite conforme al **Esquema Nacional de Seguridad** (**24.1**) | No todos los trámites exigen el mismo sistema |
+| **Firma** | Puede emplear **certificados electrónicos cualificados facilitados específicamente al personal** (**24.2**) | No equivale a un certificado de autenticación web |
+| **Uso del certificado de empleado** | Para desempeñar el **puesto** y sus trámites; también para relacionarse con otras Administraciones **cuando estas lo admitan** (**24.2**) | Ni exclusivamente uso interno ni uso privado indiscriminado |
+| **Repositorios de identidad de personal** | Pueden identificar al personal ante **servicios y aplicaciones internos**, cumpliendo el **Esquema Nacional de Seguridad** (**24.3–4**) | Acceder a una aplicación **no supone firmar** un acto administrativo |
+
+**Fuente:** [**RD 203/2021, arts. 22 y 24, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a2-4) y [**Ley 40/2015, art. 43**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a43).
+
+> ⚠️ **¡Foco Examen!:** **Identificación de empleado ≠ firma de resolución**. El **art. 22** establece la regla general y que los **certificados de empleado público son cualificados**; el **art. 24** contiene especialidades de la **AGE**, incluida la admisión de certificados de empleado en relaciones con otras Administraciones. **No** confundir el **Esquema Nacional de Seguridad** (nivel de identificación) con el **Esquema Nacional de Interoperabilidad** (requisitos del certificado).
+
+## 6 bis. Intercambio electrónico en entornos cerrados (**Ley 40/2015, art. 44; RD 203/2021, art. 25**)
+
+Como figura distinta de los certificados y firmas individuales, la normativa permite que los **documentos electrónicos transmitidos en entornos cerrados de comunicación** sean válidos para autenticar e identificar **emisores y receptores**, bajo garantías específicas.
+
+| Participantes | ¿Quién establece las condiciones? | Contenido o control mínimo |
+|---|---|---|
+| Órganos de **la misma Administración Pública** | **Esa Administración** (**25.2**) | Relación de **emisores y receptores autorizados** y naturaleza de los datos |
+| Órganos de **Administraciones Públicas distintas** | **Convenio** entre las Administraciones (**25.3**) | Condiciones y garantías acordadas |
+| **Ámbito estatal**, para el supuesto del **25.2** | **Secretaría General de Administración Digital** (**25.4**) | Determina las condiciones y garantías de ese entorno |
+| **En todos los casos** | Administraciones responsables | Seguridad del entorno y protección de datos conforme al **Esquema Nacional de Seguridad** (**25.5**) |
+
+Esto **no** significa que un canal cerrado sea por sí mismo una sede electrónica ni un certificado cualificado, ni elimina la necesidad de **firma del acto** cuando la actuación administrativa lo exija.
+
+**Fuentes:** [**Ley 40/2015, art. 44**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a44) y [**RD 203/2021, art. 25**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a2-7).
+
+> ⚠️ **¡Foco Examen!:** **Misma Administración = condiciones de esa Administración**; **Administraciones diferentes = convenio**; en la **AGE**, las condiciones del supuesto de comunicación interna del **25.2** corresponden a la **Secretaría General de Administración Digital**. No convertir el **convenio** en requisito para toda comunicación interna.
 
 ## 7. Certificado de empleado público con número de identificación profesional (**RD 203/2021, art. 23**)
 
