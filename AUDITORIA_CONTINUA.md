@@ -2456,3 +2456,26 @@ Informe: [cotejo-legal-ley6-2020-2026-11-05.md](content/diputacion-toledo-auxili
 **Validación y límites:** comprobada existencia del commit mediante GitHub conectado. La consulta de workflow runs asociada al SHA devolvió lista vacía (conector limitado a ejecuciones por PR); **no demuestra ni éxito ni fracaso de CI/Pages**. No se ejecutaron `npm test`, pruebas de navegador, móvil, PWA ni accesibilidad. Se conserva íntegro el banco T14 **20/80** y no se cambia su clave. **0/121 temas certificados integralmente**; cifra histórica de **51/121 bancos** pendiente de recálculo trazable, sin atribuir aumento. La reforma eIDAS y los restantes apartados del manual T14 siguen pendientes de contraste exhaustivo.
 
 **Siguiente lote:** verificar Actions/Pages del SHA exacto con fuente que exponga ejecuciones `push`; cotejar eIDAS reformado y art. 24 (prestadores cualificados), comprobar excepciones y reflejar en matriz; añadir regresión técnica y pruebas funcionales reales. Prioridad de exámenes La Puebla 14/11 y UC3M 21/11; OAPGT T6 al final.
+
+
+## 91. Diputación C2 T14 — eIDAS reformado y nuevos servicios de confianza: capítulo sustantivo (05/11/2026)
+
+**Objetivo:** continuar el tema 14 mediante **un lote temático completo** en vez de añadir microcorrecciones. Se leyó el §90 concurrente y se mantuvo íntegro. El banco T14 **20 preguntas / 80 alternativas** queda sin cambios. La fuente europea cotejada es el [**Reglamento (UE) 910/2014, texto consolidado ES de 18/10/2024**](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa) tras la reforma [**Reglamento (UE) 2024/1183**](https://eur-lex.europa.eu/eli/reg/2024/1183/oj?locale=es); consolidado de uso informativo, texto auténtico en DOUE.
+
+### Cambios reales en el manual T14
+
+Se sustituyó el resumen de cinco denominaciones del antiguo **apartado 16** por **seis subapartados desarrollados** con artículo, condiciones, órganos, tablas comparativas y Focos Examen; se enlazaron también a las secciones preexistentes de firma y sello remotos.
+
+| Bloque | Datos exigibles contrastados |
+|---|---|
+| **Cartera EUDI, art. 5 bis** | Al menos **una** cartera por **Estado miembro**, en los **24 meses siguientes a la entrada en vigor de los actos de ejecución de referencia (5 bis.23 y 5 quater.6)**; **uso voluntario** (5 bis.15); **expedición, uso y revocación gratuitos para personas físicas** (5 bis.13); control y divulgación selectiva |
+| **Certificación de la cartera, 5 quater.4** | Máximo **5 años** de certificado de conformidad, con evaluación de vulnerabilidades cada **2 años**; distinguir de certificado de firma |
+| **Declaraciones electrónicas de atributos, 45 ter–nonies** | Tipo ordinario, cualificado, y atribución de fuente auténtica del sector público; **45 quater** niega sustitución automática de identificación/autenticación exigida sin autorización expresa del Estado miembro; anexo VI menciona edad, títulos, poderes, licencias |
+| **Firma y sello cualificados remotos, 29.1 bis, 29 bis, 39 bis** | Gestión cualificada por **prestador cualificado**; duplicación de claves **solo copia de seguridad** bajo seguridad y número mínimos necesarios; **firma remota** no implica **firma cualificada** |
+| **Archivo electrónico cualificado, 45 decies/undecies** | Presunción de **integridad y origen** durante la conservación; informes automatizados y preservación |
+| **Libro mayor electrónico cualificado, 45 duodecies/terdecies** | Presunción de **unicidad, orden secuencial cronológico exacto e integridad**; distinto de sello de tiempo |
+| **Reconocimiento mutuo UE, 24 bis** | Se reconocen los **productos y servicios cualificados** incluidos legalmente; una TSL es de **prestadores y servicios concretos**, no de marcas con todos sus productos automáticamente cualificados |
+
+**Evidencia y trazabilidad:** [manual T14](content/diputacion-toledo-auxiliar-c2/tema-14/manual.md), [informe y matriz de origen por artículo](content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-eidas-reformado-2026-11-05.md), [fuentes](content/diputacion-toledo-auxiliar-c2/tema-14/fuentes.md), [matriz JSON](content/diputacion-toledo-auxiliar-c2/tema-14/matriz.json). Se creó [prueba focal eIDAS](tests/validate-diputacion-c2-t14-eidas-reformado.mjs) y se incorporó a `npm test`. La prueba comprueba los **seis subapartados, las reglas, seis focos, fuentes, estado no cerrado y banco 20/80 con claves 5/5/5/5**. Último commit técnico de integración: `abaa508ec65a6f91a864601261de327ecf9e67c9`.
+
+**Límites:** este es cotejo jurídico del **bloque eIDAS reformado**, no certificación de todos los restantes pasajes del manual, ni de sus funcionalidades en navegador, móvil, PWA o accesibilidad. Se conserva `EN_AUDITORIA` y `PENDIENTE_COTEJO_INTEGRAL`. Los **20/80** del banco ya se documentaron separadamente en el §88. **0/121 temas certificados integralmente**. Priorizar el siguiente bloque real (coherencia de prestadores y uso administrativo con RD 203/2021 / Ley 39/2015) con lotes agrupados; **T06 OAPGT** continúa reservado hasta Estatutos. **GitHub Actions/Pages:** comprobar conclusión de ejecución del HEAD exacto tras el registro, sin extrapolar éxitos de commits anteriores.
