@@ -66,5 +66,26 @@
     "banco": "20 preguntas, no cotejadas individualmente en esta intervención",
     "certificacionIntegral": false,
     "navegadorReal": "PENDIENTE"
+  },
+  "controlBancoCompleto20261105": {
+    "fecha": "2026-11-05",
+    "tipo": "COTEJO_JURIDICO_PEDAGOGICO_ALTERNATIVA_POR_ALTERNATIVA",
+    "preguntas": 20,
+    "alternativas": 80,
+    "claves": {
+      "A": 5,
+      "B": 5,
+      "C": 5,
+      "D": 5
+    },
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-banco-completo-2026-11-05.md",
+    "fuentes": [
+      "Ley 39/2015",
+      "Ley 6/2020",
+      "Reglamento UE 910/2014 consolidado 2024-10-18",
+      "FNMT FAQ 1213"
+    ],
+    "certificacionManualIntegral": false,
+    "navegadorReal": "PENDIENTE"
   }
 }
