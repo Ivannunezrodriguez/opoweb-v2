@@ -1,8 +1,8 @@
 {
   "tema": 14,
   "estado": "BANCO_20_PREGUNTAS_REVISION_DOCUMENTAL",
-  "version": "2026-10-29-correccion",
-  "criterio": "20 preguntas, con corrección material de la 020: el art. 10 regula responsabilidad del prestador, no servicio público de consulta de validez. Auditoría de resto de contenidos aún pendiente.",
+  "version": "2026-11-05-auditoria-parcial",
+  "criterio": "T14-014 sustituida por suspensión legal (art. 5.2), evitando duplicidad con T14-004. Auditoría integral del resto pendiente.",
   "preguntas": [
     {
       "id": "DT-C2-T14-001",
@@ -188,17 +188,17 @@
     },
     {
       "id": "DT-C2-T14-014",
-      "enunciado": "¿Qué norma fija en España una vigencia máxima de cinco años para certificados cualificados?",
+      "enunciado": "Según el artículo 5.2 de la Ley 6/2020, ¿cuándo cabe suspender la vigencia de un certificado electrónico?",
       "opciones": [
-        "La Ley de contratos de arrendamiento",
-        "El Código Civil en todo caso",
-        "Una política de impresoras",
-        "La Ley 6/2020, artículo 4.2"
+        "Siempre que cualquier usuario visite la sede electrónica",
+        "Automáticamente al cumplirse tres años desde su expedición",
+        "Solo cuando el certificado haya caducado definitivamente",
+        "En los supuestos legalmente previstos, si la declaración de prácticas de certificación contempla la suspensión"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Art. 4.2: máximo de **5 años** de vigencia del certificado cualificado.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+      "justificacion": "El **artículo 5.2 de la Ley 6/2020** permite la suspensión en los supuestos del artículo 5.1, letras **a), c) y h)**, así como ante dudas sobre las circunstancias de **b) y g)**, **siempre que** la declaración de prácticas de certificación prevea esta posibilidad. No debe confundirse con caducidad o revocación.",
+      "trampaExamen": "**Suspensión ≠ revocación**: el artículo 5.2 exige una causa tasada y previsión en la declaración de prácticas; el artículo 5.3 prevé extinción si termina la suspensión sin levantarse.",
+      "referencia": "Ley 6/2020, arts. 5.2–5.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a5"
     },
     {
       "id": "DT-C2-T14-015",
@@ -286,7 +286,7 @@
     }
   ],
   "auditoria": {
-    "fecha": "2026-10-26",
+    "fecha": "2026-11-05",
     "preguntasRevisadas": 6,
     "fuentes": [
       "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
@@ -300,7 +300,7 @@
       "Reglamento (UE) 910/2014, arts. 3 y 22 y anexo III",
       "FNMT FAQ 1213"
     ],
-    "resultado": "Se han contrastado seis respuestas. Se sustituyeron tres preguntas redundantes o memorísticas por distinción sello/firma, listas de confianza y soportes software/tarjeta; se reforzaron explicaciones y trampas.",
+    "resultado": "Se han contrastado seis respuestas. Se sustituyeron tres preguntas redundantes o memorísticas por distinción sello/firma, listas de confianza y soportes software/tarjeta; se reforzaron explicaciones y trampas. Reemplazada T14-014 duplicada por pregunta diferenciada de suspensión, cotejada con art. 5.2 y distractores; no se certifica el banco completo.",
     "limitacion": "Auditoría del banco de seis preguntas, no del manual completo ni comprobación visual en navegador."
   }
 }
