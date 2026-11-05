@@ -14,6 +14,16 @@ Se han cotejado **8 preguntas y 32 alternativas** con la **Ley 40/2015** consoli
 
 ---
 
+## Estado del banco de preguntas — **05/11/2026**
+
+El banco del **Tema 15** tiene **20 preguntas y 80 alternativas** cotejadas individualmente con la **Ley 40/2015** consolidada en el BOE: [primer lote de 8 preguntas/32 opciones](cotejo-focal-2026-11-05.md) y [segundo lote de 12 preguntas/48 opciones](cotejo-segundo-lote-2026-11-05.md). Se han conservado las soluciones originales (**A5 / B5 / C5 / D5**) y mejorado las alternativas que no discriminaban el conocimiento jurídico.
+
+**Alcance:** es la **auditoría del banco**, no la certificación integral del **manual**, su maquetación visual o los resultados en navegador real. Los apartados de **órganos colegiados**, **abstención/recusación**, **competencia**, **Administración General del Estado** y sus referencias siguen sujetos a examen artículo por artículo.
+
+> ⚠️ **¡Foco Examen!:** **Conflicto de atribuciones** del **art. 14.3** solo entre órganos de **una misma Administración**, **no relacionados jerárquicamente** y **antes de finalizar** el procedimiento. **Recusación:** el **recusado** se pronuncia al **día siguiente**; su **superior** resuelve en **3 días** si aquel niega la causa.
+
+---
+
 ## 1. Epígrafe oficial literal
 
 > **Tema 15. Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.**
