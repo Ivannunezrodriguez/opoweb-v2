@@ -90,5 +90,18 @@
     "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "fechaCorteNormativo": "Pendiente lectura primaria definitiva de la resolución UC3M; base primera.7",
     "observacion": "Art 64.2 renuncia ampliado y plazos de interinos/excedencia/puestos"
+  },
+  "controlRevalidacionBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "UC3M_T10_T12",
+    "estado": "REVALIDACION_LEGAL_PEDAGOGICA_BANCO_COTEJADO_MANUAL_NO_CERTIFICADO_INTEGRAL",
+    "claveConservada": 12,
+    "alternativasConRazonamiento": 48,
+    "fuentesPorArticulo": true,
+    "informe": "content/uc3m/cotejo-bloque-t10-t12-2026-11-05.md",
+    "prueba": "tests/validate-uc3m-t10-t12-revalidacion-20261105.mjs",
+    "corteNormativo": "PENDIENTE_LEER_RESOLUCION_LISTA_DEFINITIVA_Y_ANUNCIO_EJERCICIO",
+    "pruebaNavegador": "PENDIENTE",
+    "certificacionIntegral": false
   }
 }
