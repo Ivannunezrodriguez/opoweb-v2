@@ -2010,3 +2010,14 @@ En `content/diputacion-toledo-auxiliar-c2/tema-14/preguntas.json` se reforzaron 
 ### Cobertura, faltantes y siguiente lote
 
 Se mantienen **51/121 bancos previamente cotejados** y **0/121 temas con certificación integral simultánea**. T14 permanece parcial: completar cotejo individual de T14-001–006, 011, 013, 014, 017 y 020 frente a fuentes vigentes, verificar el programa literal, manual, matriz y fuentes, comprobar el render y tests de práctica real. Siguiente lote prioritario: cerrar documentalmente T14 sin inventar certificado y avanzar a **Diputación C2 T15–T16**, con T06 OAPGT al final. Persisten pruebas reales de móvil/PWA/accesibilidad y fecha de corte UC3M.
+
+
+## 68. Diputación C2 T14 · saneamiento del estado editorial y CI/Pages exactos — 05/11/2026
+
+Se leyeron **PROJECT_RULES.md** y el último apartado vigente (§67) antes de intervenir. HEAD inicial: `78478d8c96320f57d384e931e5d5e3c8ff5a0993`. En GitHub Actions se comprobó **CI success** run **41952827394** y **Pages success** run **41952827739**, ambos con `head_sha=78478d8c96320f57d384e931e5d5e3c8ff5a0993`. Para el SHA anterior de contenido `082f90f450b684ab956e0a0aca1fd8ed7c9acc1e`, **CI success** run **41952802210** y **Pages cancelled** run **41952801415**; el despliegue posterior exitoso corresponde a HEAD y no demuestra prueba funcional de navegador.
+
+Se inspeccionaron el banco de **20 preguntas** de T14, el comienzo del manual y la matriz vigente. El manual mantenía simultáneamente una advertencia de falta de certificación y la cabecera contradictoria **«CONTENIDO COMPLETO Y PUBLICADO»**. Se sustituyó esta segunda por **EN_AUDITORIA — sin certificación integral**, identificando la revisión de octubre como hito histórico y las tareas aún pendientes. Archivo: `content/diputacion-toledo-auxiliar-c2/tema-14/manual.md`; commit de corrección **`fdb6ef722278859393541a7d0996ae9bbfe49b19`**. No se modificaron respuestas, ni se pretende acreditar con esta edición la vigencia de todos los artículos eIDAS.
+
+**Fuentes de cotejo aún necesarias:** [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [Ley 6/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046), [eIDAS consolidado](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa) y BOP Toledo n.º 197 de 14/10/2026 (Anexo XI, CSV 2026.00004759). El listado de preguntas y la matriz fueron inspeccionados, **no recertificados**. Queda pendiente cotejo artículo por artículo de manual y distractores, auditoría T15–T16, tests de navegador/móvil/PWA/accesibilidad y verificación CI/Pages del nuevo SHA.
+
+**Cobertura sin incremento:** **51/121 bancos cotejados previamente**, **0/121 temas certificados integralmente**. **Siguiente lote:** verificar CI/Pages del commit de registro por SHA exacto, terminar el cotejo del banco T14 y su matriz, seguir con T15 y T16; T06 OAPGT continúa reservado para el final. No reabrir Carranque ni Las Ventas; no dar por resuelta la discrepancia de Olías.
