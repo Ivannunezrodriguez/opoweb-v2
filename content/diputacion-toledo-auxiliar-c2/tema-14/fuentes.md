@@ -34,3 +34,9 @@
 Fuente literal: https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046
 
 **Estado:** revisión del tema **14** en curso; no se publicará como definitivo hasta cotejar el manual restante con eIDAS y las leyes aplicables.
+
+## Cotejo jurídico por bloques — **05/11/2026**
+
+[**Informe de la Ley 6/2020: artículos 4–7 y 9.3**](cotejo-legal-ley6-2020-2026-11-05.md), con **nueve causas de revocación**, suspensiones tasadas, identificación, **5 años**, conservación **15 años**, garantía mínima **1.500.000 € + 500.000 € por tipo adicional** y aviso de cese de **2 meses**. [**Fuente BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046).
+
+> ⚠️ **¡Foco Examen!:** **La revocación del art. 5.1 no equivale a suspensión automática del 5.2**. Certificado cualificado máximo **5 años**, no validez fija. **No se certifican** en este lote las respuestas del banco ni toda la reforma eIDAS.
