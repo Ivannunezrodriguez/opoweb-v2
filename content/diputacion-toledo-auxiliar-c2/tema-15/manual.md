@@ -8,7 +8,7 @@
 
 Se han cotejado **8 preguntas y 32 alternativas** con la **Ley 40/2015** consolidada del **BOE** (última actualización publicada **02/08/2024**) y con la **Ley Orgánica 2/2024**. Se han sustituido distractores irrelevantes por confusiones jurídicas reales y se ha incorporado una pregunta sobre **art. 55 bis y presencia equilibrada 40–60 %**. Véase el [análisis literal de cada alternativa](cotejo-focal-2026-11-05.md).
 
-**Estado:** revisión parcial del banco. Las otras **12 preguntas** del tema, el manual completo y las pruebas del navegador continúan pendientes. **No** supone certificación integral.
+**Estado actualizado (05/11/2026):** las **20 preguntas y 80 alternativas** del banco cuentan con cotejo individual en los dos informes enlazados más abajo. El **manual completo**, las pruebas de navegador y la certificación integral **continúan pendientes**. Este bloque conserva el historial del primer lote (8/32) y no representa el estado final del banco.
 
 > ⚠️ **¡Foco Examen!:** No confundir **delegación de firma** (sin publicación necesaria), **delegación de competencias** (publicada), **avocación** (acuerdo motivado) y **suplencia** (sustitución del titular). Tampoco confundir el **40–60 %** con paridad exacta por cada órgano.
 
