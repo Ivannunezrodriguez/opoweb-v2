@@ -79,6 +79,15 @@ jobs:
         run: node tests/validate-diputacion-c1-answer-distribution.mjs
       - name: Validar programa y preguntas de Diputación C1
         run: node tests/validate-diputacion.mjs
+      - name: Validar cierres C1 1-27 y el banco 24-27 con pruebas historicas por lote
+        run: |
+          node tests/validate-diputacion-c1-bloque-01-03-20261105.mjs
+          node tests/validate-diputacion-c1-t04-t07-cierre-20261105.mjs
+          node tests/validate-diputacion-c1-t08-t11-cierre-20261105.mjs
+          node tests/validate-diputacion-c1-t12-t15-cierre-20261105.mjs
+          node tests/validate-diputacion-c1-t16-t19-cierre-20261105.mjs
+          node tests/validate-diputacion-c1-t20-t23-cotejo-20261105.mjs
+          node tests/validate-diputacion-c1-t24-t27-cierre-20261105.mjs
       - name: Validar estructura conjunta de 121 temas de cinco convocatorias
         run: node tests/validate-all-programmes.mjs
       - name: Cotejar 80 alternativas de empleo publico Castilla-La Mancha Diputacion C2 T7
