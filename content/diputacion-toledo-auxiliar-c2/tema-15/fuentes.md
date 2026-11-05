@@ -59,3 +59,20 @@ Se cotejaron dos imprecisiones del capítulo de Administración General del Esta
 > ⚠️ **¡Foco Examen!:** **Asunción de competencias** del Subdelegado y **suplencia del Delegado** no son la misma figura. El plazo y régimen de suplencia no deben confundirse con las reglas de distribución competencial.
 
 **Control:** corrección focal de dos imprecisiones; no equivale a auditoría completa del manual ni a prueba de navegador real.
+
+## Auditoría focal del manual: órganos colegiados — **05/11/2026**
+
+Se contrastaron con el **BOE consolidado de la Ley 40/2015** las reglas de los **arts. 17, 18, 19, 22 y 23**, sin certificar el resto del manual. Evidencia: [**informe específico de omisiones y correcciones**](cotejo-manual-colegiados-2026-11-05.md).
+
+| Precepto | Dato test recuperado | Fuente oficial |
+|---|---|---|
+| **17.2** | Constitución **sin convocatoria**: **Secretario y todos los miembros**, con decisión de **todos** | [**BOE art. 17**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17) |
+| **17.6** | Voto contrario o abstención: **exención de responsabilidad** derivada del acuerdo | [**BOE art. 17**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17) |
+| **18.1–2** | Grabación más **certificación del Secretario**; aprobación en misma reunión o **inmediata siguiente**, con visto bueno del **Presidente** | [**BOE art. 18**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a18) |
+| **19.3.a y 19.5** | Convocatoria de órganos colegiados **AGE** con **mínimo 2 días** y voto particular escrito en **2 días** | [**BOE art. 19**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a19) |
+| **22.1–3** | **Norma específica publicada en BOE** en los supuestos tasados; distinción con grupo de trabajo | [**BOE art. 22**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a22) |
+| **23.2.e** | Relación de servicio con persona **directamente interesada** o servicios profesionales prestados en los **2 últimos años** | [**BOE art. 23**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23) |
+
+> ⚠️ **¡Foco Examen!:** La **mayoría de votos** para adoptar acuerdos (**art. 17.5**) no sustituye la **decisión de todos** para constituirse excepcionalmente sin convocatoria previa (**art. 17.2**). En la **AGE**, los **2 días** de convocatoria son una regla específica del **art. 19.3.a**.
+
+**Límite:** cotejo jurídico focal de algunos apartados del manual. Continúan pendientes los demás artículos, la revisión editorial integral y la prueba funcional de navegación, móvil y accesibilidad.
