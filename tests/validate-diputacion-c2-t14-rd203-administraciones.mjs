@@ -12,14 +12,14 @@ const bank=JSON.parse(read('preguntas.json'));
 const admin=manual.split('## 7. administraciones')[1]?.split('## ANEXO')[0]??'';
 assert.ok(admin.length>14000,'Administrative chapter should be complete enough for self-study');
 const sections=[
-  ['## 1. Sistemas de identificación y firma del interesado', ['**10.4**','**10.5**','**art. 27**','**Representante de persona jurídica**']],
+  ['## 1. Sistemas de identificación y firma del interesado', ['**10.4**','10.5','art. 27','**Representante de persona jurídica**']],
   ['## 2. Asistencia en el uso de medios electrónicos', ['**consentimiento expreso**','**por escrito**','**Registro de Funcionarios Habilitados**']],
   ['## 3. Certificado de sede electrónica', ['**AGE**','**\`.gob.es\`**','**o medio equivalente**']],
   ['## 4. Sello electrónico de Administración u órgano', ['**Subsecretaría**','**19.3**','**prestador**']],
-  ['## 5. Actuación administrativa automatizada y CSV', ['**al menos 5 años**','**Centro Criptológico Nacional**','**código único**','**21.4.e**']],
+  ['## 5. Actuación administrativa automatizada y CSV', ['**al menos 5 años**','Centro Criptológico Nacional','código único','**21.4.e**']],
   ['## 7. Certificado de empleado público con número de identificación profesional', ['**23.1**','**petición oficial**','**Subsecretaría del Ministerio**']],
   ['## 8. Plataforma de verificación', ['**Secretaría General de Administración Digital**','**libre y gratuita**','**instrumento de adhesión**']],
-  ['## 9. Política de firma y certificados', ['**Secretaría de Estado de Digitalización e Inteligencia Artificial**','**BOE**','**PAGe**']],
+  ['## 9. Política de firma y certificados', ['Secretaría de Estado de Digitalización e Inteligencia Artificial','**BOE**','PAGe']],
 ];
 for(let i=0;i<sections.length;i++){
  const [title,terms]=sections[i];
