@@ -16,9 +16,9 @@
 - [ ] Verificar artículo, plazo, porcentaje, mayorías y órgano cuando proceda; en informática, versión concreta y comportamiento comprobable.
 - [ ] Distinguir certificado de firma, certificado de autenticación, certificados cualificados, soporte software/hardware, tipos de prestadores y garantías eIDAS.
 - [ ] Eliminar referencias heredadas de la estructura de La Puebla que no correspondan al epígrafe de Diputación C2.
-- [ ] Crear preguntas de test y supuestos propios con soluciones verificables.
+- [x] Cotejar las **20 preguntas y 80 alternativas** del banco, con soluciones verificadas y justificación por opción; **supuestos prácticos y funciones de la web pendientes**.
 
-**Estado actual: BORRADOR.** El manual procede de una base editorial previamente desarrollada, pero no se certifica como auditado en esta convocatoria.
+**Estado editorial actual: EN_AUDITORIA.** Banco **20/80 cotejado individualmente** en [su informe](cotejo-banco-completo-2026-11-05.md); el manual procede de una base anterior y **no se certifica como auditado integralmente**, ni se acreditan pruebas reales de uso de la web.
 
 > ⚠️ **¡Foco Examen!:** Ante diferencias entre explicaciones de un manual y el articulado o documentación técnica oficial, prevalece el texto oficial aplicable al programa.
 
