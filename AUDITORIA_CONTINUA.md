@@ -1980,3 +1980,16 @@ En `content/diputacion-toledo-auxiliar-c2/tema-14/preguntas.json`, la pregunta *
 ### Cobertura y siguiente lote
 
 Se mantiene **51/121 bancos cotejados individualmente** y **0/121 temas certificados en todas las capas**. **Próximo bloque:** revisar y sustituir duplicidades restantes de T14 con preceptos oficiales distintos, cotejar cada alternativa y documentar en informe individual; continuar T15–T16, sin anticipar T06 OAPGT. Verificar CI y Pages del SHA de cada nuevo cambio y probar la ruta real de práctica C2 en navegador/móvil.
+
+
+## 66. Diputación Toledo C2 T14 · tres redundancias jurídicas sustituidas — 05/11/2026
+
+Se han releído `PROJECT_RULES.md` y el apartado inmediatamente anterior (§65), no el estado histórico del prompt. En `content/diputacion-toledo-auxiliar-c2/tema-14/preguntas.json` se sustituyen **T14-011, T14-013 y T14-017**, manteniendo sus identificadores, 4 alternativas y posiciones correctas **A/C/C**, por reglas diferenciadas de la **Ley 6/2020** (BOE-A-2020-14046, texto consolidado actualizado 09/05/2023):
+
+- **T14-011, art. 6.1.b:** identificación de persona jurídica en certificado cualificado de sello, denominación/razón social y NIF o identificador sustitutivo unívoco y permanente; tres distractores niegan o sustituyen incorrectamente el identificador.
+- **T14-013, art. 5.1.e:** extinción o modificación de representación, revocación de certificado de representante y deber de solicitud de **ambas partes**; distractores sobre vigencia indefinida, reserva judicial y navegador descartados.
+- **T14-017, art. 7.1:** regla general de personación para identificar al solicitante persona física y excepción de firma en solicitud legitimada en presencia notarial; se advierte de la vía distinta de identificación a distancia del art. 7.2; distractores sin garantías legales descartados.
+
+**Fuente primaria:** https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a5 (arts. 5, 6 y 7). **Commit de contenido:** `18c3e61c746c7dc46e48f606951f5705713ee8b2`. Se ha verificado que el JSON contiene las 20 preguntas y se conservan las claves de los tres ítems; no se han ejecutado `npm test` ni pruebas de navegador en esta ejecución. La consulta de workflow runs para el prefijo `e5b09f24` devolvió **lista vacía**, lo cual **no demuestra éxito ni fracaso**: volver a comprobar por SHA completo y, si procede, estado combinado. CI/Pages del commit nuevo **pendientes**.
+
+**Cobertura:** **51/121** bancos cotejados previamente; el T14 sigue en revisión parcial y **0/121** temas certificados integralmente. **Siguiente lote:** verificar CI/Pages por SHA exacto; cotejar las 20 preguntas y 80 alternativas de T14 y manual/epígrafes/matriz, revisar si quedan redundancias y avanzar a T15–T16. Mantener T06 OAPGT reservado al final. Persisten pruebas funcionales reales de práctica, móvil, PWA y accesibilidad, y fecha primaria de corte normativo UC3M.
