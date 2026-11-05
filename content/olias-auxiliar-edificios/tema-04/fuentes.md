@@ -14,3 +14,9 @@
 **Control jurídico:** INICIADO, no terminado; **04/11/2026**.
 
 **Auditoría parcial 04/11/2026:** [texto consolidado LO 3/2007](https://www.boe.es/eli/es/lo/2007/03/22/3/con), **Título V**, especialmente capítulo III **arts. 55-64**. Contrastados **1 año** (60.1), **mínimo 40%** de cursos (60.2), **anualmente** (63 y 64), **al inicio de cada legislatura** (64). Mantener estado EN_AUDITORIA hasta revisión total.
+
+## Auditoría agrupada del banco — **05/11/2026**
+
+Ver [**cotejo jurídico-pedagógico del bloque general T01–T04**](../cotejo-bloque-general-01-04-2026-11-05.md), con **56 preguntas y 224 alternativas** en conjunto, fuentes BOE por artículo, distractores reformulados y focos de examen específicos. El **banco del tema 4** ha sido revisado en este lote, pero el **tema no queda certificado integralmente**: siguen pendientes comprobación funcional real, cobertura normativa exhaustiva y aprobación final.
+
+> ⚠️ **¡Foco Examen!:** Las preguntas conservan sus claves y explican el **artículo y la excepción**, no solo una definición aislada.
