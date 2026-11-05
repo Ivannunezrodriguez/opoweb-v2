@@ -125,7 +125,19 @@ Puede delegarse el ejercicio en:
 - otro órgano de la misma Administración, aunque no exista dependencia jerárquica;
 - organismos públicos o entidades de Derecho público vinculados o dependientes.
 
-En la Administración General del Estado se exigen las aprobaciones previas previstas según la relación entre delegante y delegado.
+En el ámbito de la **Administración General del Estado (AGE)**, la **delegación de competencias** está sujeta a las **aprobaciones previas del artículo 9.1**. La ley diferencia los siguientes supuestos:
+
+| Situación de delegación | Aprobación previa o aceptación legal |
+|---|---|
+| **Órgano administrativo de la AGE**, como regla general | **Órgano ministerial del que dependa el delegante** |
+| Delegante de un **organismo público o entidad vinculada o dependiente** | **Órgano máximo de dirección** del organismo o entidad, conforme a su norma de creación |
+| Órganos **sin dependencia jerárquica** del **mismo Ministerio** | **Superior común** de ambos órganos |
+| Órganos **sin dependencia jerárquica** de **diferentes Ministerios** | **Órgano superior del que dependa el delegado** |
+| Delegación desde la **AGE** hacia **sus organismos o entidades** | Aprobación previa por **los órganos de los que dependan delegante y delegado**, o **aceptación del delegado** cuando este sea el órgano máximo de dirección del organismo o entidad |
+
+El último supuesto opera cuando convenga a los fines asignados y mejore la **eficacia de la gestión**. Estas reglas del **artículo 9.1** se aplican **además** de la publicación de la delegación y su revocación exigida por el **artículo 9.3**.
+
+> ⚠️ **¡Foco Examen!:** Órganos no subordinados del **mismo Ministerio = superior común**; de **distintos Ministerios = superior del delegado**. **Aprobación previa (9.1)** y **publicación del acuerdo (9.3)** son requisitos diferentes.
 
 ### Materias indelegables
 
@@ -909,8 +921,16 @@ Son los titulares de la Subsecretaría y ostentan la representación ordinaria d
 
 - Real Decreto del Consejo de Ministros;
 - propuesta del Ministro;
-- funcionarios de carrera del Estado, Comunidades Autónomas o Entidades Locales del Subgrupo A1;
-- requisitos de idoneidad de la Ley 3/2015.
+- **funcionarios de carrera A1** del Estado, comunidades autónomas o entidades locales **o personas que hubieran perdido esa condición como consecuencia de su jubilación** (**art. 63.3**, redacción modificada por el **Real Decreto-ley 6/2023**, vigente desde el **21/12/2023**);
+- requisitos de idoneidad de la **Ley 3/2015**.
+
+| Cargo | Regla de procedencia | Distinción importante |
+|---|---|---|
+| **Subsecretario** (**art. 63.3**) | **Funcionario de carrera A1** o persona que perdió tal condición **por jubilación** | El retiro no excluye automáticamente; reforma de **2023** |
+| **Secretario General Técnico** (**art. 65.3**) | **Funcionario de carrera A1** | No trasladar automáticamente la excepción de jubilación del **art. 63.3** |
+| **Director General** (**art. 66.2**) | **Funcionario A1**, o antiguo funcionario **jubilado**; posible excepción no funcionarial por **Real Decreto de estructura y memoria razonada** | Excepción motivada distinta de la jubilación |
+
+> ⚠️ **¡Foco Examen!:** **Subsecretario** puede ser **A1 en activo o antiguo A1 jubilado** conforme al texto vigente del **artículo 63.3**. No aplicar automáticamente esta excepción al **Secretario General Técnico** del **artículo 65.3**.
 
 ## 4. Artículo 64 · Secretarios generales
 
@@ -920,8 +940,8 @@ Tienen categoría de Subsecretario y ejercen competencias inherentes a la direcc
 
 ### Nombramiento
 
-- Real Decreto del Consejo de Ministros;
-- propuesta del Ministro;
+- **Real Decreto del Consejo de Ministros**;
+- propuesta del **titular del Ministerio o del Presidente del Gobierno**, según el **artículo 64.3**;
 - personas con cualificación y experiencia en puestos de responsabilidad pública o privada;
 - requisitos de idoneidad de alto cargo.
 
@@ -1014,7 +1034,7 @@ Los servicios comunes no deben confundirse con las áreas sectoriales que consti
 |---|---|---|---|
 | Ministro | órgano superior | dirección global del departamento | no |
 | Secretario de Estado | órgano superior | ejecución de un sector de acción gubernamental | no |
-| Subsecretario | órgano directivo | servicios comunes y representación ordinaria | A1 |
+| **Subsecretario** | órgano directivo | servicios comunes y representación ordinaria | **A1 o exfuncionario A1 jubilado (art. 63.3)** |
 | Secretario general | directivo, categoría Subsecretario | dirección de sector administrativo | no necesariamente |
 | Secretario general técnico | directivo, categoría Director general | normativa, asistencia jurídica, publicaciones | A1 |
 | Director general | órgano directivo | gestión de área homogénea | A1 como regla, con excepción motivada |
