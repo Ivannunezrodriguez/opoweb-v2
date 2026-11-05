@@ -81,3 +81,20 @@ El [**cotejo individual de las veinte preguntas y sus ochenta opciones**](cotejo
 > ⚠️ **¡Foco Examen!:** **Vigencia máxima de certificado de 5 años (Ley 6/2020)** y **disponibilidad mínima de CSV durante 5 años en sede estatal (RD 203/2021)** son normas distintas. La sede web no firma el documento por el hecho de tener HTTPS.
 
 **Estado editorial:** cotejo jurídico-documental de ocho apartados; T14 continúa **EN_AUDITORIA**, sin navegador real ni certificación integral.
+
+## Firma del personal y entornos cerrados — cotejo **05/11/2026**
+
+[**Informe de contraste de los artículos 22, 24 y 25 del RD 203/2021**](cotejo-rd203-personal-entornos-2026-11-05.md), con [**RD 203/2021 consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032) y [**Ley 40/2015, arts. 43–44**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
+
+| Supuesto | Regla comprobada |
+|---|---|
+| **Firma de empleado público** | **Art. 22.3**: los certificados de empleado público **serán cualificados** |
+| **Personal AGE** | **24.1–2**: identificación conforme al **ENS**; certificados cualificados para firmar y para relacionarse con otra Administración **cuando los admita** |
+| **Repositorios de identidad de personal** | **24.3–4**: acceso a servicios y aplicaciones, **sin equivaler por sí solo a firmar una resolución** |
+| **Entorno cerrado en una Administración** | **25.2**: fija condiciones **esa Administración** |
+| **Entre Administraciones diferentes** | **25.3**: condiciones mediante **convenio** |
+| **Ámbito estatal del art. 25.2** | **25.4**: condiciones fijadas por la **Secretaría General de Administración Digital** |
+
+> ⚠️ **¡Foco Examen!:** **Firma del empleado ≠ autenticación de acceso a una aplicación**. **Convenio** para comunicaciones cerradas **entre Administraciones**, no necesariamente dentro de la misma. **ENS** y **ENI** tienen funciones distintas.
+
+**Estado:** cotejo focal realizado, **manual integral pendiente**, banco **20/80 sin modificaciones**, funcionamiento y navegador real **sin certificar**.
