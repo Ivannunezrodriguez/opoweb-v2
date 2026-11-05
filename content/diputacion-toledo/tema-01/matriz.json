@@ -2,39 +2,90 @@
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1",
   "tema": 1,
   "version": "2026-07-18",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "metodo": "GENERACION_INTEGRA_DESDE_CERO",
   "epigrafeOficial": "La Constitución española de 1978: significado y estructura, principios generales y valor normativo. El Tribunal Constitucional. La reforma constitucional.",
   "cobertura": [
     {
       "apartado": "Significado de la Constitución",
       "estado": "CUBIERTO",
-      "contenido": ["concepto", "dimensiones política, jurídica, organizativa y garantista", "fechas constitucionales", "caracteres"]
+      "contenido": [
+        "concepto",
+        "dimensiones política, jurídica, organizativa y garantista",
+        "fechas constitucionales",
+        "caracteres"
+      ]
     },
     {
       "apartado": "Estructura",
       "estado": "CUBIERTO",
-      "contenido": ["Preámbulo", "Título Preliminar", "Títulos I-X", "169 artículos", "disposiciones", "parte dogmática y orgánica"]
+      "contenido": [
+        "Preámbulo",
+        "Título Preliminar",
+        "Títulos I-X",
+        "169 artículos",
+        "disposiciones",
+        "parte dogmática y orgánica"
+      ]
     },
     {
       "apartado": "Principios generales",
       "estado": "CUBIERTO",
-      "contenido": ["Estado social y democrático de Derecho", "valores superiores", "soberanía", "Monarquía parlamentaria", "unidad, autonomía y solidaridad", "lenguas", "bandera", "capital", "partidos", "sindicatos", "Fuerzas Armadas", "artículo 9"]
+      "contenido": [
+        "Estado social y democrático de Derecho",
+        "valores superiores",
+        "soberanía",
+        "Monarquía parlamentaria",
+        "unidad, autonomía y solidaridad",
+        "lenguas",
+        "bandera",
+        "capital",
+        "partidos",
+        "sindicatos",
+        "Fuerzas Armadas",
+        "artículo 9"
+      ]
     },
     {
       "apartado": "Valor normativo",
       "estado": "CUBIERTO",
-      "contenido": ["supremacía", "vinculación", "eficacia directa", "derogación", "interpretación conforme", "artículo 10.2"]
+      "contenido": [
+        "supremacía",
+        "vinculación",
+        "eficacia directa",
+        "derogación",
+        "interpretación conforme",
+        "artículo 10.2"
+      ]
     },
     {
       "apartado": "Tribunal Constitucional",
       "estado": "CUBIERTO",
-      "contenido": ["naturaleza", "composición", "nombramiento", "mandato", "renovación", "Presidencia", "incompatibilidades", "competencias", "recurso", "cuestión", "amparo", "sentencias"]
+      "contenido": [
+        "naturaleza",
+        "composición",
+        "nombramiento",
+        "mandato",
+        "renovación",
+        "Presidencia",
+        "incompatibilidades",
+        "competencias",
+        "recurso",
+        "cuestión",
+        "amparo",
+        "sentencias"
+      ]
     },
     {
       "apartado": "Reforma constitucional",
       "estado": "CUBIERTO",
-      "contenido": ["iniciativa", "artículo 167", "artículo 168", "límites temporales", "reformas de 1992, 2011 y 2024"]
+      "contenido": [
+        "iniciativa",
+        "artículo 167",
+        "artículo 168",
+        "límites temporales",
+        "reformas de 1992, 2011 y 2024"
+      ]
     }
   ],
   "controlesTest": [
@@ -52,5 +103,16 @@
     "BOP Toledo 118/2026 · código 2026.00002934"
   ],
   "reutilizacionOtrosTemarios": false,
-  "aprobadoPorUsuario": false
+  "aprobadoPorUsuario": false,
+  "cierreEditorial20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programaFuente": "BOP Toledo 118/2026, CSV 2026.00002934",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-01-03-2026-11-05.md",
+    "noReabrirSinErrorONorma": true,
+    "pruebaNavegador": "PENDIENTE_CONTROL_TRANSVERSAL",
+    "certificacionIntegral": false
+  }
 }

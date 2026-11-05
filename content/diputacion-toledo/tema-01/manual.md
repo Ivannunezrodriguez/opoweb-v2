@@ -2,8 +2,8 @@
 
 **Convocatoria:** Diputación Provincial de Toledo · Administrativo/a · **C1**  
 **Método editorial:** generación íntegra desde cero  
-**Estado:** REVISIÓN DOCUMENTAL AMPLIADA — **29/10/2026**  
-**Normativa verificada:** julio de **2026**
+**Estado:** **AUDITADO jurídico-pedagógico — 05/11/2026**  
+**Normativa verificada:** **5 de noviembre de 2026**
 
 ---
 
@@ -190,7 +190,7 @@ Las Fuerzas Armadas están constituidas por:
 
 - Ejército de Tierra;
 - Armada;
-- Ejército del Aire y del Espacio.
+- **Ejército del Aire**, expresión literal del **art. 8.1 CE**. La denominación organizativa vigente es **Ejército del Aire y del Espacio** según el [**RD 524/2022**](https://www.boe.es/buscar/act.php?id=BOE-A-2022-10787); no confundir el tenor constitucional con el nombre administrativo actual.
 
 Tienen como misión:
 
@@ -487,15 +487,18 @@ La Constitución española no contiene cláusulas de intangibilidad material abs
 
 ### 6.5. Reformas efectuadas
 
-Hasta julio de **2026**, la Constitución ha sido reformada en tres ocasiones:
+A **5 de noviembre de 2026** la Constitución ha sido reformada **cuatro veces**, conforme al texto consolidado del BOE y las publicaciones originales.
 
-| Año | Precepto | Materia |
-|---:|---|---|
-| **1992** | Artículo **13.2** | Derecho de sufragio pasivo de extranjeros en elecciones municipales, conforme a tratado o ley y reciprocidad. |
-| **2011** | Artículo **135** | Estabilidad presupuestaria. |
-| **2024** | Artículo **49** | Derechos de las personas con discapacidad y actualización de su terminología y enfoque constitucional. |
+| Año | Artículo reformado | Materia |
+|---|---|---|
+| **1992** | **13.2** | Sufragio pasivo de extranjeros en elecciones municipales, con las condiciones constitucionales. |
+| **2011** | **135** | Estabilidad presupuestaria. |
+| **2024** | **49** | Derechos de las personas con discapacidad y cambio de enfoque y terminología. |
+| **2026** | **69.3** | **Ibiza y Formentera** dejan de constituir una única circunscripción electoral al Senado; corresponde **un senador a cada isla**. |
 
-> ⚠️ **¡Foco Examen!:** a julio de **2026** existen **tres reformas constitucionales**: artículos **13.2**, **135** y **49**.
+La [**reforma constitucional de 19/05/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881) fue **publicada y entró en vigor el 20/05/2026**. Sin embargo, su **disposición transitoria única** aplaza la **eficacia electoral** de las circunscripciones separadas de **Ibiza** y **Formentera** a la **primera convocatoria de elecciones al Senado posterior** a su entrada en vigor. No afirmar que esa elección ya se haya celebrado.
+
+> ⚠️ **¡Foco Examen!:** **Cuatro reformas**, no tres. La última es **2026, art. 69.3**: vigencia **20/05/2026** y eficacia electoral en la **primera convocatoria posterior**.
 
 ---
 
@@ -514,7 +517,7 @@ Hasta julio de **2026**, la Constitución ha sido reformada en tres ocasiones:
 | Reforma ordinaria | **Tres quintos** de cada Cámara |
 | Referéndum artículo 167 | Facultativo, a petición de **una décima parte** dentro de **15 días** |
 | Reforma agravada | **Dos tercios**, disolución, nuevas Cámaras, **dos tercios** y referéndum obligatorio |
-| Reformas realizadas | **1992, 2011 y 2024** |
+| Reformas realizadas | **1992, 2011, 2024 y 2026** (**cuatro**) |
 
 ---
 
@@ -551,9 +554,9 @@ CONSTITUCIÓN ESPAÑOLA DE 1978
 
 - Constitución Española de **27 de diciembre de 1978**, texto consolidado actualizado a **20 de mayo de 2026**.
 - Ley Orgánica **2/1979, de 3 de octubre**, del Tribunal Constitucional, texto consolidado.
-- Publicaciones oficiales de las reformas constitucionales de **1992**, **2011** y **2024**.
+- Publicaciones oficiales de las reformas constitucionales de **1992**, **2011**, **2024** y [**2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881).
 
-**Tema cerrado:** **NO** · pendiente de revisión expresa del usuario.
+**Cierre jurídico-pedagógico:** **AUDITADO**. Prueba integral de navegador y accesibilidad: control técnico transversal, sin reabrir contenidos por esa causa.
 
 
 ## Anexo de control 2026 · Tribunal Constitucional y reforma

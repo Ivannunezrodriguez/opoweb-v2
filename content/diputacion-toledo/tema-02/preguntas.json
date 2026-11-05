@@ -1,6 +1,6 @@
 {
   "tema": 2,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T02-001",
@@ -14,7 +14,7 @@
       "correcta": 0,
       "justificacion": "La Sección 1.ª comprende los artículos 15 a 29. El artículo 14 queda fuera formalmente de esa sección, aunque recibe la tutela reforzada del artículo 53.2.",
       "trampa": "Es habitual incluir erróneamente el artículo 14 dentro de la Sección 1.ª. Tiene protección equivalente, pero ubicación distinta.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#2-estructura-del-título-i",
+      "referencia": "CE, art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a15",
       "respuestaLiteral": "Del 15 al 29"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 0,
       "justificacion": "El artículo 17.2 de la Constitución establece que el detenido debe ser puesto en libertad o a disposición judicial en el plazo máximo de 72 horas.",
       "trampa": "Las 72 horas son un máximo, no un plazo ordinario que deba agotarse en todos los casos.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#53-libertad-y-seguridad",
+      "referencia": "CE, art. 17 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a17",
       "respuestaLiteral": "72 horas"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 0,
       "justificacion": "El artículo 53.2 extiende expresamente el recurso de amparo a la objeción de conciencia reconocida en el artículo 30.2.",
       "trampa": "No todo el artículo 30 es susceptible de amparo; únicamente la objeción de conciencia del apartado 2.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#84-recurso-de-amparo",
+      "referencia": "CE, art. 53 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a53",
       "respuestaLiteral": "Solo la objeción de conciencia del artículo 30.2"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 1,
       "justificacion": "El artículo 81.2 exige mayoría absoluta del Congreso en una votación final sobre el conjunto del proyecto.",
       "trampa": "La mayoría absoluta se exige en el Congreso y en la votación final sobre el conjunto, no en cada votación parcial.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#82-reserva-de-ley-orgánica",
+      "referencia": "CE, art. 81 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a81",
       "respuestaLiteral": "Mayoría absoluta del Congreso en votación final sobre el conjunto"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 1,
       "justificacion": "El artículo 24, relativo a la tutela judicial efectiva, no figura entre los derechos enumerados en el artículo 55.1 como susceptibles de suspensión general.",
       "trampa": "No todos los derechos fundamentales de los artículos 15 a 29 pueden suspenderse; solo los expresamente enumerados en el artículo 55.1.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#91-suspensión-general",
+      "referencia": "CE, art. 55 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a55",
       "respuestaLiteral": "Tutela judicial efectiva"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 2,
       "justificacion": "El estado de sitio es declarado por el Congreso de los Diputados por mayoría absoluta, a propuesta exclusiva del Gobierno.",
       "trampa": "A diferencia del estado de alarma y del de excepción, el estado de sitio no lo declara el Gobierno.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#93-estados-de-alarma-excepción-y-sitio",
+      "referencia": "CE, art. 116 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a116",
       "respuestaLiteral": "El Congreso por mayoría absoluta, a propuesta exclusiva del Gobierno"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 1,
       "justificacion": "La autorización y proclamación del estado de excepción debe determinar su duración, que no puede exceder de 30 días, prorrogables por otro plazo igual.",
       "trampa": "Los 15 días corresponden al estado de alarma; el de excepción tiene un máximo inicial de 30 días.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#93-estados-de-alarma-excepción-y-sitio",
+      "referencia": "CE, art. 116 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a116",
       "respuestaLiteral": "30 días"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 2,
       "justificacion": "El real decreto-ley es una disposición legislativa provisional con rango de ley que debe ser convalidada o derogada por el Congreso dentro de los 30 días siguientes a su promulgación.",
       "trampa": "Aunque lo dicta el Gobierno, no es un reglamento. Tiene rango de ley y responde a extraordinaria y urgente necesidad.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#106-decreto-ley",
+      "referencia": "CE, art. 86 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a86",
       "respuestaLiteral": "Tiene rango de ley y debe someterse al Congreso dentro de 30 días"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 2,
       "justificacion": "La delegación para formar textos articulados se otorga mediante una ley de bases. Para refundir varios textos legales se utiliza una ley ordinaria de delegación.",
       "trampa": "Texto articulado equivale a ley de bases; texto refundido equivale a ley ordinaria de delegación.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#105-decreto-legislativo",
+      "referencia": "CE, art. 82 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a82",
       "respuestaLiteral": "Ley de bases"
     },
     {
@@ -149,7 +149,7 @@
       "correcta": 0,
       "justificacion": "Una resolución administrativa singular no puede contradecir una disposición general, aunque proceda de un órgano de igual o superior jerarquía que el autor del reglamento.",
       "trampa": "La inderogabilidad singular no impide derogar el reglamento mediante otra disposición general competente; impide excepcionarlo con un acto particular.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#116-inderogabilidad-singular",
+      "referencia": "Ley 39/2015, art. 37 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a37",
       "respuestaLiteral": "Que una resolución particular no puede vulnerar un reglamento vigente"
     },
     {
@@ -164,7 +164,7 @@
       "correcta": 2,
       "justificacion": "Las disposiciones administrativas que vulneren la Constitución, las leyes u otras disposiciones de rango superior son nulas de pleno derecho.",
       "trampa": "En materia reglamentaria, la infracción de una norma superior conduce a nulidad, no a simple anulabilidad.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#115-límites-del-reglamento",
+      "referencia": "Ley 39/2015, art. 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a47",
       "respuestaLiteral": "Nulidad de pleno derecho"
     },
     {
@@ -179,7 +179,7 @@
       "correcta": 1,
       "justificacion": "La distinción fundamental es material: la Constitución reserva determinadas materias a ley orgánica. No existe una superioridad jerárquica general de toda ley orgánica sobre toda ley ordinaria.",
       "trampa": "El error frecuente consiste en afirmar una jerarquía universal. La clave es la reserva material del artículo 81.",
-      "referencia": "content/diputacion-toledo/tema-02/manual.md#133-reserva-de-ley",
+      "referencia": "CE, art. 81 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a81",
       "respuestaLiteral": "La relación es principalmente de competencia material"
     },
     {
@@ -193,8 +193,8 @@
       ],
       "correcta": 3,
       "justificacion": "El **artículo 54 CE** contempla al Defensor del Pueblo como alto comisionado de las Cortes Generales.",
-      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
-      "referencia": "CE art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "trampa": "**Art. 54** es **Defensor del Pueblo**; **53** tutela y **55** suspensión.",
+      "referencia": "CE, art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a54",
       "respuestaLiteral": "Artículo 54"
     },
     {
@@ -209,7 +209,7 @@
       "correcta": 3,
       "justificacion": "La delegación legislativa se otorga al **Gobierno** de forma **expresa**, para **materia concreta** y con fijación de **plazo**; no puede entenderse concedida de modo implícito ni por tiempo indeterminado.",
       "trampa": "La **delegación legislativa** no es una autorización indefinida para aprobar reglamentos.",
-      "referencia": "Constitución Española, art. 82.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "referencia": "CE, art. 82 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a82",
       "respuestaLiteral": "De forma expresa, para materia concreta y con fijación de plazo"
     },
     {
@@ -223,8 +223,8 @@
       ],
       "correcta": 3,
       "justificacion": "El **Gobierno** ejerce la función ejecutiva y potestad reglamentaria conforme a la Constitución y las leyes.",
-      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
-      "referencia": "CE art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "trampa": "**Art. 97** atribuye al **Gobierno** potestad reglamentaria; no a los tribunales ni al Defensor.",
+      "referencia": "CE, art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a97",
       "respuestaLiteral": "El Gobierno"
     },
     {
@@ -238,8 +238,8 @@
       ],
       "correcta": 3,
       "justificacion": "El estado de alarma se declara mediante decreto del **Gobierno** por plazo máximo de **15 días**, sin prórroga sin autorización del **Congreso**.",
-      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
-      "referencia": "CE art. 116.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "trampa": "**15 días** de alarma, frente a **30 días** iniciales de excepción; declaración por el **Gobierno**.",
+      "referencia": "CE, art. 116 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a116",
       "respuestaLiteral": "Quince días"
     },
     {
@@ -253,8 +253,8 @@
       ],
       "correcta": 0,
       "justificacion": "Se contemplan los derechos de los **artículos 17.2 y 18.2 y 18.3** bajo condiciones excepcionales y garantías.",
-      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
-      "referencia": "CE art. 55.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "trampa": "La suspensión individual del **55.2** solo abarca determinados derechos de los **arts. 17.2 y 18.2–3**.",
+      "referencia": "CE, art. 55 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a55",
       "respuestaLiteral": "Plazo máximo de detención del artículo 17.2"
     },
     {
@@ -269,7 +269,7 @@
       "correcta": 2,
       "justificacion": "Las resoluciones administrativas **de carácter particular** no pueden vulnerar lo establecido en una **disposición de carácter general**, aunque procedan de un órgano de igual o superior jerarquía.",
       "trampa": "Ni siquiera el **órgano superior** puede establecer por resolución singular una excepción contraria al reglamento vigente.",
-      "referencia": "Ley 39/2015, art. 37.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "referencia": "Ley 39/2015, art. 37 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a37",
       "respuestaLiteral": "No pueden vulnerar disposiciones generales aunque procedan de un órgano igual o superior"
     },
     {
@@ -283,8 +283,8 @@
       ],
       "correcta": 1,
       "justificacion": "Solo por **ley**, que debe respetar el **contenido esencial**, podrá regularse el ejercicio de los derechos y libertades reconocidos en el capítulo II del título I.",
-      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
-      "referencia": "CE art. 53.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "trampa": "**Art. 53.1** exige ley y respeto del contenido esencial; no toda materia del capítulo II requiere **ley orgánica**.",
+      "referencia": "CE, art. 53 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a53",
       "respuestaLiteral": "Ley que respete el contenido esencial"
     },
     {
@@ -298,13 +298,23 @@
       ],
       "correcta": 3,
       "justificacion": "El **Gobierno** lo declara por decreto del **Consejo de Ministros**, previa autorización del **Congreso**, por un máximo inicial de **30 días**.",
-      "trampa": "Distinguir exactamente el artículo, órgano competente y requisito procedimental.",
-      "referencia": "CE art. 116.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "trampa": "El **Gobierno** declara excepción con autorización previa del **Congreso**; el **Congreso** declara sitio a propuesta del Gobierno.",
+      "referencia": "CE, art. 116 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a116",
       "respuestaLiteral": "El Gobierno, por decreto acordado en Consejo de Ministros, previa autorización del Congreso"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorial20261105": {
+    "fecha": "2026-11-05",
+    "tipo": "AUDITORIA_JURIDICA_PEDAGOGICA_FINAL",
+    "preguntas": 20,
+    "alternativas": 80,
+    "fuentesPrimarias": true,
+    "reabrirSoloConIncidenciaLegal": true,
+    "pruebaNavegador": "PENDIENTE_CONTROL_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }

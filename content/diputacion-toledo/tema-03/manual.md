@@ -1,7 +1,7 @@
 # Tema 3. Organización del Estado, Corona, Cortes Generales, Defensor del Pueblo y Tribunal de Cuentas
 
 > **Convocatoria:** Diputación Provincial de Toledo · Administrativo/a C1  
-> **Estado editorial:** EN_REVISIÓN_USUARIO  
+> **Estado:** **AUDITADO jurídico-pedagógico — 05/11/2026**  
 > **Método:** generación íntegra desde fuentes oficiales, sin reutilización editorial de otras convocatorias.
 
 ## 1. Epígrafe oficial
@@ -146,16 +146,19 @@ El Congreso se elige por **cuatro años**.
 
 ### 6.3. Senado
 
-El Senado es la Cámara de representación territorial.
+El **Senado** es la **Cámara de representación territorial** y se elige por **cuatro años** (**arts. 69.1 y 69.6 CE**).
 
-En cada provincia se eligen **cuatro senadores**. Además:
+| Territorio o designación | Senadores | Fuente |
+|---|---|---|
+| **Provincia peninsular** | **4** elegidos | **CE 69.2** |
+| **Gran Canaria, Mallorca, Tenerife** | **3** por isla | **CE 69.3** |
+| **Ibiza, Formentera, Menorca, Fuerteventura, La Gomera, El Hierro, Lanzarote, La Palma** | **1** por isla | **CE 69.3**, reformado **2026** |
+| **Ceuta** y **Melilla** | **2** cada ciudad | **CE 69.4** |
+| **Comunidades autónomas** | **1**, más otro por **cada millón de habitantes** | **CE 69.5** |
 
-- Gran Canaria, Mallorca y Tenerife eligen **tres** cada una;
-- Ceuta y Melilla eligen **dos** cada una;
-- las restantes islas o agrupaciones eligen **uno**;
-- cada comunidad autónoma designa **un senador** y otro más por cada millón de habitantes de su territorio.
+La [**reforma constitucional del art. 69.3 de 19/05/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881) se publicó y entró en vigor el **20/05/2026**. A diferencia del modelo anterior de **Ibiza-Formentera como agrupación única**, el nuevo tenor crea **dos circunscripciones**, una por cada isla, con **un senador propio** cada una. La **disposición transitoria única** pospone su **eficacia electoral** hasta la **primera convocatoria de elecciones al Senado posterior** a esa fecha. No confundir el cambio normativo ya vigente con el momento de aplicación a una elección concreta.
 
-El Senado se elige por **cuatro años**.
+> ⚠️ **¡Foco Examen!:** **Cuatro senadores por provincia peninsular** sigue siendo correcto. La **reforma 2026** solo cambia el supuesto insular del **artículo 69.3** y diferencia **entrada en vigor** de **eficacia electoral**.
 
 ### 6.4. Inviolabilidad, inmunidad y aforamiento
 

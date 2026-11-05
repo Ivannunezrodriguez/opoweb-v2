@@ -4,7 +4,7 @@
 
 1. **Constitución Española de 1978**, especialmente artículos **10 a 55**, **81**, **82 a 86**, **97**, **103**, **106**, **116** y **161**.
    - BOE-A-1978-31229.
-   - Texto actualizado con las reformas de los artículos 13.2, 135 y 49.
+   - Texto actualizado con las **cuatro reformas**: artículos **13.2 (1992), 135 (2011), 49 (2024) y 69.3 (2026)** ([**BOE-A-2026-10881**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881)).
 
 2. **Ley Orgánica 4/1981, de 1 de junio**, de los estados de alarma, excepción y sitio.
    - BOE-A-1981-12774.
@@ -47,3 +47,7 @@
 - [Ley 39/2015, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565): **art. 37** sobre inderogabilidad singular y **art. 128** sobre potestad reglamentaria.
 
 **Resultado editorial parcial:** sustituidas las preguntas repetitivas **DIP-T02-014** y **DIP-T02-018** por otras de delegación legislativa e inderogabilidad singular. Se incorpora cuadro comparativo al manual. Pendientes auditoría jurídica integral y pruebas de OpoWeb.
+
+## Cierre de auditoría agrupada · **05/11/2026**
+
+[**Informe de cierre del bloque C1 temas 1–3**](../cierre-editorial-01-03-2026-11-05.md). Banco del tema **2**: **20 preguntas y 80 alternativas** con referencia a preceptos BOE. **Estado AUDITADO jurídico-pedagógico**; reabrir solo ante error concreto o reforma legal. El control de navegador es transversal.

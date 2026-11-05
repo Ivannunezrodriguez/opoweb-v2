@@ -33,3 +33,11 @@
 - [LO 2/1982, de 12 de mayo, del Tribunal de Cuentas](https://www.boe.es/buscar/act.php?id=BOE-A-1982-11584): **arts. 29 y 30**, presidencia, nombramiento de consejeros y presencia equilibrada mínima del **40 % por cada sexo** entre los designados por cada Cámara.
 
 **Alcance:** corrección de las preguntas **DIP-T03-010** y **DIP-T03-015**, actualización comparativa del manual. Sigue pendiente auditoría jurídica integral y pruebas funcionales.
+
+## Reforma del artículo 69.3 CE de **2026**
+
+[**BOE-A-2026-10881**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881): separación de **Ibiza** y **Formentera**, un senador para cada isla, vigencia desde **20/05/2026**, eficacia electoral en la **primera convocatoria posterior**.
+
+## Cierre de auditoría agrupada · **05/11/2026**
+
+[**Informe de cierre del bloque C1 temas 1–3**](../cierre-editorial-01-03-2026-11-05.md). Banco del tema **3**: **22 preguntas y 88 alternativas** con referencia a preceptos BOE. **Estado AUDITADO jurídico-pedagógico**; reabrir solo ante error concreto o reforma legal. El control de navegador es transversal.

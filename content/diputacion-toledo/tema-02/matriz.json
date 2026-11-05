@@ -1,21 +1,54 @@
 {
   "tema": 2,
   "convocatoria": "diputacion-toledo-administrativo-c1-2026",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "metodo": "GENERACION_DESDE_CERO",
   "epigrafeOficial": "Derechos y deberes fundamentales de los españoles. Garantía y suspensión. Las fuentes del derecho administrativo: la Ley, el Reglamento.",
   "cobertura": [
-    {"apartado":"Encuadre y estructura del Título I","estado":"CUBIERTO"},
-    {"apartado":"Nacionalidad, mayoría de edad y extranjeros","estado":"CUBIERTO"},
-    {"apartado":"Igualdad, derechos fundamentales y libertades públicas","estado":"CUBIERTO"},
-    {"apartado":"Derechos y deberes de los ciudadanos","estado":"CUBIERTO"},
-    {"apartado":"Principios rectores","estado":"CUBIERTO"},
-    {"apartado":"Garantías de los derechos","estado":"CUBIERTO"},
-    {"apartado":"Suspensión general e individual","estado":"CUBIERTO"},
-    {"apartado":"Estados de alarma, excepción y sitio","estado":"CUBIERTO"},
-    {"apartado":"Ley orgánica, ordinaria, decreto legislativo y decreto-ley","estado":"CUBIERTO"},
-    {"apartado":"Reglamento: concepto, clases, límites, jerarquía e inderogabilidad singular","estado":"CUBIERTO"},
-    {"apartado":"Jerarquía, competencia y reserva de ley","estado":"CUBIERTO"}
+    {
+      "apartado": "Encuadre y estructura del Título I",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Nacionalidad, mayoría de edad y extranjeros",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Igualdad, derechos fundamentales y libertades públicas",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Derechos y deberes de los ciudadanos",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Principios rectores",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Garantías de los derechos",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Suspensión general e individual",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Estados de alarma, excepción y sitio",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Ley orgánica, ordinaria, decreto legislativo y decreto-ley",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Reglamento: concepto, clases, límites, jerarquía e inderogabilidad singular",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Jerarquía, competencia y reserva de ley",
+      "estado": "CUBIERTO"
+    }
   ],
   "datosTestCriticos": [
     "Mayoría de edad: 18 años",
@@ -42,5 +75,16 @@
     "epigrafeCompleto": true,
     "temaCerrado": false,
     "requiereAprobacionUsuario": true
+  },
+  "cierreEditorial20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programaFuente": "BOP Toledo 118/2026, CSV 2026.00002934",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-01-03-2026-11-05.md",
+    "noReabrirSinErrorONorma": true,
+    "pruebaNavegador": "PENDIENTE_CONTROL_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }

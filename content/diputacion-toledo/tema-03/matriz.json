@@ -1,16 +1,40 @@
 {
   "tema": 3,
   "convocatoria": "diputacion-toledo-administrativo-c1-2026",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "metodo": "GENERACION_DESDE_CERO",
   "epigrafeOficial": "La organización del Estado en la Constitución: organización institucional y organización territorial. La Jefatura del Estado: la Corona. Las Cortes Generales. Referencia al Defensor del Pueblo y al Tribunal de Cuentas.",
   "cobertura": [
-    {"apartado":"Organización institucional","estado":"CUBIERTO","referencia":"manual.md#2-organización-constitucional-del-estado"},
-    {"apartado":"Organización territorial","estado":"CUBIERTO","referencia":"manual.md#4-organización-territorial-del-estado"},
-    {"apartado":"Corona","estado":"CUBIERTO","referencia":"manual.md#5-la-corona"},
-    {"apartado":"Cortes Generales","estado":"CUBIERTO","referencia":"manual.md#6-las-cortes-generales"},
-    {"apartado":"Defensor del Pueblo","estado":"CUBIERTO","referencia":"manual.md#7-defensor-del-pueblo"},
-    {"apartado":"Tribunal de Cuentas","estado":"CUBIERTO","referencia":"manual.md#8-tribunal-de-cuentas"}
+    {
+      "apartado": "Organización institucional",
+      "estado": "CUBIERTO",
+      "referencia": "manual.md#2-organización-constitucional-del-estado"
+    },
+    {
+      "apartado": "Organización territorial",
+      "estado": "CUBIERTO",
+      "referencia": "manual.md#4-organización-territorial-del-estado"
+    },
+    {
+      "apartado": "Corona",
+      "estado": "CUBIERTO",
+      "referencia": "manual.md#5-la-corona"
+    },
+    {
+      "apartado": "Cortes Generales",
+      "estado": "CUBIERTO",
+      "referencia": "manual.md#6-las-cortes-generales"
+    },
+    {
+      "apartado": "Defensor del Pueblo",
+      "estado": "CUBIERTO",
+      "referencia": "manual.md#7-defensor-del-pueblo"
+    },
+    {
+      "apartado": "Tribunal de Cuentas",
+      "estado": "CUBIERTO",
+      "referencia": "manual.md#8-tribunal-de-cuentas"
+    }
   ],
   "datosTestControlados": [
     "300 a 400 diputados",
@@ -20,6 +44,22 @@
     "Consejeros de Cuentas: 12, mandato de 9 años, 6 por cada Cámara y mayoría de 3/5",
     "Presidente del Tribunal de Cuentas: 3 años"
   ],
-  "archivos": ["manual.md","fuentes.md","matriz.json","preguntas.json"],
-  "prohibidoPublicarComoAprobado": true
+  "archivos": [
+    "manual.md",
+    "fuentes.md",
+    "matriz.json",
+    "preguntas.json"
+  ],
+  "prohibidoPublicarComoAprobado": true,
+  "cierreEditorial20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programaFuente": "BOP Toledo 118/2026, CSV 2026.00002934",
+    "preguntas": 22,
+    "alternativas": 88,
+    "informe": "content/diputacion-toledo/cierre-editorial-01-03-2026-11-05.md",
+    "noReabrirSinErrorONorma": true,
+    "pruebaNavegador": "PENDIENTE_CONTROL_TRANSVERSAL",
+    "certificacionIntegral": false
+  }
 }

@@ -2,8 +2,8 @@
 
 > **Convocatoria:** Diputación Provincial de Toledo · Administrativo/a C1  
 > **Método editorial:** generación íntegra desde cero  
-> **Estado:** EN_REVISIÓN_USUARIO  
-> **Actualización jurídica:** julio de 2026
+> **Estado:** **AUDITADO jurídico-pedagógico — 05/11/2026**  
+> **Actualización jurídica:** **5 de noviembre de 2026**
 
 ## 1. Encuadre constitucional
 
@@ -510,7 +510,7 @@ FUENTES
 | **Estado de excepción** | **Gobierno**, previa autorización del **Congreso**, máximo inicial **30 días** | **CE 116.3** |
 | **Potestad reglamentaria** | Corresponde al **Gobierno** conforme a Constitución y leyes | **CE 97** |
 | **Reserva de ley para derechos** | **Ley**, con respeto al **contenido esencial** | **CE 53.1** |
-| **Inderogabilidad singular** | Resoluciones particulares no vulneran reglamentos aunque procedan de órgano de igual o superior jerarquía | **Ley 40/2015, 37** |
+| **Inderogabilidad singular** | Resoluciones particulares no vulneran reglamentos aunque procedan de órgano de igual o superior jerarquía | **Ley 39/2015, 37** |
 
 > ⚠️ **¡Foco Examen!:** La **ley orgánica** requiere **mayoría absoluta del Congreso** en votación final de conjunto, pero la **reserva de ley** del **artículo 53.1 CE** no convierte automáticamente toda regulación de derechos en materia de ley orgánica.
 

@@ -29,6 +29,7 @@
 - Reforma del artículo **13.2**, publicada en **1992**.
 - Reforma del artículo **135**, publicada en **2011**.
 - Reforma del artículo **49**, publicada en **2024**.
+- Reforma del artículo **69.3**, publicada y vigente el **20/05/2026**: [**BOE-A-2026-10881**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881); especialidad electoral de Ibiza y Formentera.
 
 ## Control editorial
 
@@ -53,3 +54,7 @@
 - [Ley Orgánica 2/1979, del Tribunal Constitucional, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709): **artículo 9**, elección y **una reelección** posible de la presidencia.
 
 **Alcance:** revisión normativa focalizada y precisión de la pregunta **DIP-T01-017**; resto del contenido pendiente de certificación integral.
+
+## Cierre de auditoría agrupada · **05/11/2026**
+
+[**Informe de cierre del bloque C1 temas 1–3**](../cierre-editorial-01-03-2026-11-05.md). Banco del tema **1**: **20 preguntas y 80 alternativas** con referencia a preceptos BOE. **Estado AUDITADO jurídico-pedagógico**; reabrir solo ante error concreto o reforma legal. El control de navegador es transversal.
