@@ -41,3 +41,21 @@ Ocho preguntas del banco (**T15-003, 007, 008, 009, 011, 014, 019 y 020**) se ha
 > ⚠️ **¡Foco Examen!:** **Consanguinidad 4.º**, **afinidad 2.º** (**art. 23.2.b**); **recusado al día siguiente** y **superior 3 días** (**art. 24.3–4**); **Secretario General categoría Subsecretario**, **Secretario General Técnico categoría Director General**.
 
 **Validación de contenido:** banco documental de **20/80**, pendiente cotejo completo del manual, pruebas reales de navegación, móvil, PWA, accesibilidad y certificación editorial total.
+
+## Aclaraciones normativas del manual — 05/11/2026
+
+Se cotejaron dos imprecisiones del capítulo de Administración General del Estado con el [BOE de la Ley 40/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566):
+
+- **Secretario General ministerial — art. 64.3:** nombramiento y separación por **real decreto del Consejo de Ministros**, a propuesta del **titular del Ministerio o del Presidente del Gobierno**. La tabla anterior solo citaba al ministro y omitía la segunda posibilidad.
+- **Subdelegados — arts. 69.4 y 74:** en cada provincia de una **comunidad pluriprovincial** existe Subdelegado; en una **comunidad uniprovincial** la Subdelegación puede crearse mediante **real decreto** cuando concurran las circunstancias previstas. En ausencia de Subdelegado, el **Delegado** ejerce las competencias provinciales del Subdelegado (art. **74**). Por separado, la **suplencia del Delegado** en una comunidad uniprovincial sin Subdelegado corresponde al **Secretario General** (art. **72.5**).
+
+| Concepto | Artículos | Confusión a evitar |
+|---|---|---|
+| Propuesta de nombramiento de **Secretario General** | **64.3** | No solo **Ministro**; también **Presidente del Gobierno** |
+| Existencia de **Subdelegado** | **69.4** y **74** | No generalizar su existencia en CCAA **uniprovinciales** |
+| Competencias del **Subdelegado** sin cargo en uniprovincial | **74** | Las ejerce **Delegado**; no es un supuesto de suplencia del Delegado |
+| **Suplencia del Delegado** sin Subdelegado | **72.5** | Corresponde al **Secretario General** |
+
+> ⚠️ **¡Foco Examen!:** **Asunción de competencias** del Subdelegado y **suplencia del Delegado** no son la misma figura. El plazo y régimen de suplencia no deben confundirse con las reglas de distribución competencial.
+
+**Control:** corrección focal de dos imprecisiones; no equivale a auditoría completa del manual ni a prueba de navegador real.
