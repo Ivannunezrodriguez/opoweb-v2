@@ -8,10 +8,10 @@
       "id": "DT-C2-T16-001",
       "enunciado": "¿Qué combinación de teclas abre el Explorador de archivos de Windows 11 desde cualquier aplicación?",
       "opciones": [
-        "Windows + R (cuadro Ejecutar)",
-        "Windows + I (Configuración)",
+        "Windows + R",
+        "Windows + I",
         "Windows + E",
-        "Windows + D (mostrar escritorio)"
+        "Windows + D"
       ],
       "respuestaCorrecta": 2,
       "justificacion": "**Windows + E** abre el **Explorador de archivos**. **Windows+R** muestra Ejecutar, **Windows+I** abre Configuración y **Windows+D** muestra u oculta el escritorio. Son cuatro accesos reales, pero solo uno abre el Explorador.",
@@ -50,10 +50,10 @@
       "id": "DT-C2-T16-004",
       "enunciado": "¿Qué comando del Explorador de Windows 11 permite cambiar entre iconos grandes, lista y detalles sin modificar los archivos?",
       "opciones": [
-        "Ordenar (cambia el criterio de ordenación, no el modo de vista).",
-        "Ver (permite elegir iconos, lista o detalles).",
-        "Mostrar > Elementos ocultos (cambia la visibilidad de esos elementos).",
-        "Propiedades (muestra información del objeto seleccionado)."
+        "Ordenar",
+        "Ver",
+        "Mostrar",
+        "Propiedades"
       ],
       "respuestaCorrecta": 1,
       "justificacion": "El comando **Ver** del Explorador reúne los modos de presentación **iconos, lista y detalles**. **Ordenar** modifica el orden; **Mostrar elementos ocultos** cambia visibilidad; **Propiedades** muestra metadatos. Ninguno de esos tres sustituye la selección del modo de vista.",
@@ -246,10 +246,10 @@
       "id": "DT-C2-T16-018",
       "enunciado": "Un escáner debe capturar un lote de 30 hojas sin colocarlas una a una sobre el cristal. ¿Qué componente facilita alimentar automáticamente las páginas?",
       "opciones": [
-        "El cristal plano sin alimentador, que requiere colocar las hojas manualmente.",
-        "Una función OCR, que transforma imágenes en texto pero no introduce físicamente hojas.",
-        "El alimentador automático de documentos (ADF) del escáner.",
-        "La impresora virtual PDF, que guarda un documento que ya existe electrónicamente."
+        "Cristal plano del escáner",
+        "Función OCR del software de captura",
+        "Alimentador automático de documentos (ADF)",
+        "Microsoft Print to PDF"
       ],
       "respuestaCorrecta": 2,
       "justificacion": "El **ADF (alimentador automático de documentos)** permite incorporar sucesivamente las hojas al escáner. Un cristal plano exige cambios manuales; **OCR** reconoce texto y **Microsoft Print to PDF** produce un archivo desde datos digitales, sin alimentar papel.",
@@ -260,10 +260,10 @@
       "id": "DT-C2-T16-019",
       "enunciado": "Un archivo escaneado contiene una imagen de texto, pero no permite seleccionar palabras. ¿Qué tecnología reconoce los caracteres de la imagen para convertirlos en texto utilizable?",
       "opciones": [
-        "ADF, que alimenta hojas pero no interpreta caracteres.",
-        "Guardar como PDF de imagen, que por sí solo no reconoce letras.",
-        "Impresión a doble cara, que utiliza el anverso y el reverso del papel.",
-        "Reconocimiento óptico de caracteres (OCR)."
+        "ADF",
+        "Guardar como PDF de imagen",
+        "Impresión dúplex",
+        "Reconocimiento óptico de caracteres (OCR)"
       ],
       "respuestaCorrecta": 3,
       "justificacion": "El **OCR** analiza imágenes y **reconoce caracteres** para obtener texto utilizable. Microsoft denomina **OCR** a las acciones de texto de la herramienta **Recortes**. Un PDF que solo contiene imágenes no es automáticamente buscable; **ADF** y **dúplex** realizan operaciones físicas diferentes.",
