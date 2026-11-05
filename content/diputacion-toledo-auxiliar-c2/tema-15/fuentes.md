@@ -142,3 +142,21 @@ Se han cotejado [**artículos 61, 62, 73 y 75 de la Ley 40/2015**](cotejo-funcio
 > ⚠️ **¡Foco Examen!:** El **art. 62.2.e** del BOE conserva una remisión a normativa contractual histórica (**RDL 3/2011**); no atribuir una **cuantía numérica vigente** sin contrastar la norma de contratación aplicable. **Delegado (73.2)** y **Subdelegado (75.f)** no tienen idéntico catálogo de potestades expresas.
 
 **Límites:** ampliación jurídico-editorial de estos artículos. Quedan pendientes remisiones contractuales vigentes, examen integral del manual y pruebas de navegación reales; tema **EN_AUDITORIA**.
+
+
+## Remisión contractual actualizada del **art. 62.2.e** — **05/11/2026**
+
+La [**Ley 40/2015, art. 62.2.e**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a62) conserva una remisión al derogado **RDL 3/2011**. La correspondencia jurídica se ha cotejado con la **Ley 9/2017, LCSP**, vigente a la fecha de esta auditoría:
+
+- [**Artículo 324.5 LCSP**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a324): los **Secretarios de Estado** o, en su defecto, **titulares ministeriales** de adscripción pueden fijar el **valor estimado** a partir del cual las entidades poder adjudicador necesitan su **autorización**.
+- [**Disposición transitoria segunda LCSP**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#dt-2): **900.000 € de valor estimado** **hasta que se fije otra cuantía** por esos órganos. **No** equivale a cuantía universal definitiva.
+- [**Artículo 324.1 LCSP**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a324): autorización del **Consejo de Ministros** cuando concurre **valor estimado igual o superior a 12.000.000 €**, además de otros supuestos tasados.
+
+| Regla | Cuantía | Órgano | Naturaleza |
+|---|---|---|---|
+| **LCSP DT 2.ª + 324.5** | **900.000 €** | **Secretario de Estado** o **Ministro** | **Supletoria**, hasta fijación departamental |
+| **LCSP 324.1.a** | **12.000.000 €** | **Consejo de Ministros** | Autorización estatal por valor estimado |
+
+> ⚠️ **¡Foco Examen!:** **900.000 €** y **12.000.000 €** no responden al mismo órgano ni al mismo supuesto legal. El **umbral departamental puede haber sido sustituido** por otro fijado conforme al **324.5**; verificarlo en el caso concreto.
+
+**Evidencia transversal:** [informe de cotejo 61–62 y 73–75 actualizado](cotejo-funciones-61-62-73-75-2026-11-05.md). No implica cierre integral del manual ni prueba de navegación.
