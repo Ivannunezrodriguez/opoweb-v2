@@ -1,147 +1,154 @@
 {
   "tema": 2,
   "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "version": "2026-11-05-bloque-general-01-04",
   "preguntas": [
     {
       "id": "OLIAS-T02-001",
       "enunciado": "¿Qué artículo constitucional expresa el servicio objetivo de la Administración a los intereses generales?",
       "opciones": [
         "Art. 103.1",
-        "Art. 155",
-        "Art. 12",
-        "Art. 30"
+        "El artículo 97 CE",
+        "El artículo 137 CE",
+        "El artículo 9.3 CE"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "La regla se encuentra en el artículo 103.1 CE.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: La regla se encuentra en el artículo 103.1 CE.",
-      "referencia": "CE, art. 103.1"
+      "referencia": "CE, art. 103.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a103"
     },
     {
       "id": "OLIAS-T02-002",
       "enunciado": "¿Cuáles son los elementos del municipio?",
       "opciones": [
-        "Alcalde, presupuesto y juez",
-        "Autonomía, soberanía y ejército",
+        "Territorio, soberanía y organización",
+        "Población, competencias estatutarias y hacienda",
         "Territorio, población y organización",
-        "Concejalías, diputación y hacienda"
+        "Alcaldía, Pleno y presupuesto"
       ],
       "respuestaCorrecta": 2,
       "justificacion": "Los elementos municipales son territorio, población y organización.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Los elementos municipales son territorio, población y organización.",
-      "referencia": "LRBRL, art. 11"
+      "referencia": "LRBRL, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a11"
     },
     {
       "id": "OLIAS-T02-003",
       "enunciado": "El Pleno municipal se integra por:",
       "opciones": [
-        "Solo los funcionarios C2",
-        "Solo los diputados provinciales",
+        "El Alcalde y los concejales delegados",
+        "Todos los vecinos inscritos en el padrón",
         "Todos los concejales",
-        "Solo los tenientes de alcalde"
+        "Solo los concejales del gobierno municipal"
       ],
       "respuestaCorrecta": 2,
       "justificacion": "El Pleno está integrado por todos los concejales y presidido por el Alcalde.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El Pleno está integrado por todos los concejales y presidido por el Alcalde.",
-      "referencia": "LRBRL, art. 22"
+      "referencia": "LRBRL, art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a22"
     },
     {
       "id": "OLIAS-T02-004",
       "enunciado": "¿Qué órgano existe obligatoriamente en todos los Ayuntamientos?",
       "opciones": [
         "Alcalde",
-        "Consejo Consultivo",
-        "Junta de Gobierno Local",
-        "Gerencia municipal"
+        "La Junta de Gobierno Local",
+        "La Junta Municipal de Distrito",
+        "La Comisión Informativa de Urbanismo"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Alcalde, Tenientes de Alcalde y Pleno son órganos necesarios.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Alcalde, Tenientes de Alcalde y Pleno son órganos necesarios.",
-      "referencia": "LRBRL, art. 20"
+      "referencia": "LRBRL, art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a20"
     },
     {
       "id": "OLIAS-T02-005",
       "enunciado": "¿Cuándo es obligatoria la Junta de Gobierno Local por regla general de población?",
       "opciones": [
-        "Más de 500",
-        "Todos los municipios",
-        "Solo capitales de provincia",
+        "Más de 1.000 habitantes",
+        "Todos los municipios sin excepción",
+        "Solo municipios que sean capitales de provincia",
         "Más de 5.000 habitantes"
       ],
       "respuestaCorrecta": 3,
       "justificacion": "La LRBRL contempla el umbral de más de 5.000 habitantes.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: La LRBRL contempla el umbral de más de 5.000 habitantes.",
-      "referencia": "LRBRL, art. 20.1.b"
+      "referencia": "LRBRL, art. 20.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a20"
     },
     {
       "id": "OLIAS-T02-006",
       "enunciado": "El término municipal se refiere a:",
       "opciones": [
-        "Plantilla laboral",
+        "La población inscrita en el padrón",
         "Territorio del municipio",
-        "Edificio del Ayuntamiento",
-        "Presupuesto anual"
+        "Los edificios municipales",
+        "El presupuesto anual del Ayuntamiento"
       ],
       "respuestaCorrecta": 1,
       "justificacion": "El término municipal es el territorio sobre el que se ejercen competencias.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El término municipal es el territorio sobre el que se ejercen competencias.",
-      "referencia": "LRBRL, art. 11"
+      "referencia": "LRBRL, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a11"
     },
     {
       "id": "OLIAS-T02-007",
       "enunciado": "La autonomía municipal es:",
       "opciones": [
-        "Libertad sin control jurisdiccional",
-        "Soberanía para separarse del Estado",
-        "Competencia para ignorar la Constitución",
+        "Soberanía local sin límites constitucionales",
+        "Independencia legislativa de las Comunidades Autónomas",
+        "Ausencia de control judicial sobre sus decisiones",
         "Autonomía para gestionar intereses propios dentro de la ley"
       ],
       "respuestaCorrecta": 3,
       "justificacion": "Los artículos 137 y 140 garantizan la autonomía local conforme al ordenamiento.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Los artículos 137 y 140 garantizan la autonomía local conforme al ordenamiento.",
-      "referencia": "CE, arts. 137 y 140"
+      "referencia": "CE, arts. 137 y 140 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a137"
     },
     {
       "id": "OLIAS-T02-008",
       "enunciado": "¿Cuál NO es un tributo?",
       "opciones": [
-        "Impuesto",
+        "Contribución especial",
         "Tasa",
         "Precio público",
-        "Contribución especial"
+        "Impuesto"
       ],
       "respuestaCorrecta": 2,
       "justificacion": "Los precios públicos son una categoría diferente de los tributos.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Los precios públicos son una categoría diferente de los tributos.",
-      "referencia": "RDL 2/2004"
+      "referencia": "RDL 2/2004 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a2"
     },
     {
       "id": "OLIAS-T02-009",
       "enunciado": "Una contribución especial se relaciona con:",
       "opciones": [
-        "Compra de mobiliario doméstico",
+        "La prestación general de un servicio sin beneficio especial",
         "Beneficio por obra o servicio público en los supuestos legales",
-        "Sueldo de funcionario",
-        "Sanción penal"
+        "El rendimiento ordinario del patrimonio municipal",
+        "La mera imposición de una sanción administrativa"
       ],
       "respuestaCorrecta": 1,
       "justificacion": "La ley vincula contribuciones especiales a determinados beneficios por obras/servicios.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: La ley vincula contribuciones especiales a determinados beneficios por obras/servicios.",
-      "referencia": "RDL 2/2004"
+      "referencia": "RDL 2/2004 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a28"
     },
     {
       "id": "OLIAS-T02-010",
       "enunciado": "La Constitución indica que las haciendas locales se nutren principalmente de:",
       "opciones": [
         "Tributos propios y participaciones estatales y autonómicas",
-        "Solo créditos bancarios",
-        "Solo multas de tráfico",
-        "Solo donaciones"
+        "Exclusivamente los impuestos municipales",
+        "Solo las tasas y contribuciones especiales",
+        "Principalmente multas y créditos bancarios"
       ],
       "respuestaCorrecta": 0,
       "justificacion": "Es el contenido básico del artículo 142 CE.",
       "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Es el contenido básico del artículo 142 CE.",
-      "referencia": "CE, art. 142"
+      "referencia": "CE, art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a142"
     }
-  ]
+  ],
+  "controlLote20261105": {
+    "fecha": "2026-11-05",
+    "estado": "BANCO_REVISADO_FUENTES_OFICIALES_PENDIENTE_INTEGRAL",
+    "preguntas": 10,
+    "alternativas": 40,
+    "certificacionIntegral": false
+  }
 }
