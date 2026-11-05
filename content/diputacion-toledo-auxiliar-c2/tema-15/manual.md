@@ -1175,7 +1175,10 @@ Las competencias se agrupan en cinco grandes áreas.
 
 - coordinar información sobre programas y actividad del Gobierno y de la AGE;
 - promover colaboración interadministrativa en información al ciudadano;
-- recibir información de los Ministerios sobre planes territoriales.
+- recibir información de los **Ministerios** sobre planes territoriales;
+- elevar al **Gobierno**, con **carácter anual**, a través del titular del **Ministerio de Hacienda y Administraciones Públicas** (denominación literal del **art. 73.1.b.4.º**), un **informe sobre el funcionamiento de los servicios públicos estatales** en la comunidad autónoma.
+
+> ⚠️ **¡Foco Examen!:** El informe de funcionamiento de servicios públicos estatales es **ANUAL** y lo eleva el **Delegado del Gobierno al Gobierno** por el cauce ministerial del **art. 73.1.b.4.º**.
 
 ### C. Coordinación y cooperación con otras Administraciones
 
@@ -1185,8 +1188,9 @@ Las competencias se agrupan en cinco grandes áreas.
 
 ### D. Control de legalidad
 
-- resolver recursos contra actos de órganos de la Delegación cuando corresponda;
-- suspender actos impugnados en los casos legalmente previstos;
+- resolver recursos administrativos contra actos de los **órganos de la Delegación del Gobierno**, **previo informe, en todo caso, del Ministerio competente por razón de la materia** (**art. 73.1.d.1.º**);
+- cuando se impugnen actos del **propio Delegado** susceptibles de recurso y que **no ponen fin a la vía administrativa**, resolverán los **órganos correspondientes del Ministerio competente por razón de la materia**, no el mismo Delegado;
+- suspender la ejecución de actos impugnados de órganos de la Delegación **cuando le corresponda resolver el recurso**, conforme al **art. 117.2 de la Ley 39/2015**, y **proponer la suspensión** en los restantes casos y respecto de actos de servicios no integrados (**art. 73.1.d.2.º**);
 - velar por las competencias constitucionales del Estado y correcta aplicación de su normativa;
 - promover conflictos y acciones legales procedentes.
 
@@ -1200,7 +1204,22 @@ Las reclamaciones de responsabilidad patrimonial se tramitan y resuelven por el 
 - informar optimización de recursos humanos y materiales;
 - coordinar utilización de edificios administrativos en su ámbito.
 
-El Delegado puede requerir información a órganos territoriales para ejercer sus funciones.
+El **Delegado del Gobierno** puede requerir información a órganos territoriales para ejercer sus funciones (**art. 73.4**).
+
+### Competencias estatales adicionales y mando de seguridad (art. 73.2–3)
+
+- **Delegado del Gobierno:** ejerce la **potestad sancionadora**, la **expropiatoria** y las demás atribuidas por normas o desconcentradas/delegadas (**art. 73.2**).
+- Corresponde al **Delegado** proteger derechos y libertades y garantizar seguridad ciudadana **a través de los Subdelegados y de las Fuerzas y Cuerpos de Seguridad del Estado**; su **jefatura** corresponde al **Delegado**, bajo **dependencia funcional del Ministerio del Interior** (**art. 73.3**).
+- **Subdelegado:** ejerce la dirección de las **Fuerzas y Cuerpos de Seguridad del Estado en la provincia** conforme al **art. 75.b**; no debe confundirse con la jefatura autonómica que corresponde al **Delegado**.
+
+| Competencia o facultad | Órgano competente |
+|---|---|
+| **Jefatura de FF. y CC. de Seguridad del Estado en la comunidad autónoma** | **Delegado del Gobierno** (**73.3**), dependencia funcional del **Ministerio del Interior** |
+| **Dirección de FF. y CC. de Seguridad del Estado en la provincia** | **Subdelegado del Gobierno** (**75.b**) |
+| **Potestad expropiatoria** atribuida por el art. 73.2 | **Delegado del Gobierno** |
+| **Reclamaciones de responsabilidad patrimonial** | Tramita **Ministerio competente por materia**; resuelve **titular de ese departamento** (**73.1.d.1.º**) |
+
+> ⚠️ **¡Foco Examen!:** **Jefatura autonómica = Delegado**; **dirección provincial = Subdelegado**. **Responsabilidad patrimonial ≠ recurso administrativo**: el **Delegado no resuelve** ordinariamente esas reclamaciones, aunque sí conozca ciertos recursos de órganos de su Delegación.
 
 ## 6. Artículo 74 · Subdelegados del Gobierno
 
