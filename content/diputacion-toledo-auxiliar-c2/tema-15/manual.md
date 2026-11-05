@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 15
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial operativo (05/11/2026): EN_AUDITORIA.** El banco de preguntas cuenta con cotejo individual documentado (**20 preguntas y 80 alternativas**), pero el **manual íntegro**, la validación jurídico-editorial transversal y las pruebas funcionales reales **no están certificados**. Las menciones a «completo», «publicado» o «revisado» son hitos históricos, no acreditan cierre vigente. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
 
 **ESTADO EDITORIAL ACTUAL: EN_AUDITORIA — pendiente de certificación integral.** La mención histórica a «contenido completo y cotejo normativo» corresponde al trabajo del **29/10/2026**, no acredita revisión exhaustiva vigente ni pruebas funcionales. Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
 
