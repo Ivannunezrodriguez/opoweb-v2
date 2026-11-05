@@ -56,4 +56,12 @@ assert.match(q('012').opciones[2],/mayoría de votos/);
 assert.match(q('013').opciones[3],/interesados, en cualquier momento/);
 assert.match(q('017').opciones[2],/Subsecretario/);
 assert.match(q('018').opciones[0],/Director General/);
+assert.match(manual,/titular del Ministerio o del Presidente del Gobierno/,
+  'Art. 64.3: Secretario general may be proposed by President too');
+assert.match(manual,/comunidades autónomas pluriprovinciales/,
+  'Art. 69.4 requires a provincial distinction');
+assert.match(manual,/uniprovinciales.*real decreto/,
+  'Uniprovincial Subdelegation is not always automatic');
+assert.match(manual,/Secretario General.*art\. 72\.5/s,
+  'Uniprovincial Delegado replacement is separate from Subdelegado competence');
 console.log('DIPUTACION_C2_T15_BANCO_20_80_BOE_OPCIONES_COTEJADAS_Y_STATUS_MANUAL_PENDIENTE_OK');
