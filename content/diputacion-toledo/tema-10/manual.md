@@ -84,7 +84,7 @@ La responsabilidad patrimonial por error judicial y por funcionamiento anormal d
 
 ## 6. Responsabilidad concurrente de varias Administraciones
 
-Cuando varias Administraciones actúan conjuntamente mediante fórmulas colegiadas, la responsabilidad frente al particular será **solidaria**, salvo que el instrumento regulador establezca la distribución interna.
+Cuando varias **Administraciones** actúan conjuntamente, la responsabilidad **frente al particular es solidaria en todo caso** (**art. 33.1 Ley 40/2015**). El instrumento conjunto puede establecer **reparto interno**, pero no elimina la solidaridad externa.
 
 En otros casos de concurrencia, la responsabilidad se fijará atendiendo a competencia, interés público tutelado e intensidad de la intervención. Si no es posible determinarla, será solidaria.
 
@@ -274,3 +274,36 @@ ACCIÓN DE REGRESO CONTRA AUTORIDAD O EMPLEADO
 > ⚠️ **¡Foco Examen!:** Memoriza la secuencia del artículo **36.4**: **15 + 15 + 10 + 5 + 5 días**. No confundir con los **15 días** concedidos para consultar a otras Administraciones en el artículo **33.4**.
 
 Fuente oficial: [Ley 40/2015, artículos 33 y 36](https://www.boe.es/eli/es/l/2015/10/01/40/con). Auditoría focalizada; pendiente comprobación integral y pruebas funcionales.
+
+
+## Cierre de auditoría jurídica y pedagógica · Bloque C1 8–11 · **05/11/2026**
+
+### Antijuridicidad y anulación de un acto: **art. 32.1 Ley 40/2015**
+
+La responsabilidad de la **Administración** exige daño **efectivo**, **evaluable económicamente**, **individualizado**, antijurídico y causalmente ligado al funcionamiento normal o anormal de los servicios públicos, fuera de **fuerza mayor**. La mera **anulación administrativa o judicial** de un acto o disposición **no presupone por sí misma** derecho a indemnización: hace falta acreditar la lesión y los demás requisitos legales.
+
+### Distinción entre solidaridad frente al particular y reparto interno (**art. 33**)
+
+| Modalidad de actuación | Responsabilidad frente al particular | Distribución interna |
+|---|---|---|
+| Gestión conjunta de **varias Administraciones** | **Solidaria en todo caso** (**art. 33.1**) | El instrumento conjunto puede distribuir internamente responsabilidad |
+| Concurrencia **no conjunta** | Según competencia, interés público e intensidad de intervención; **solidaria cuando no pueda determinarse** (**art. 33.2**) | Determinación en procedimiento con criterios legales |
+| Consulta a Administraciones implicadas (**33.4**) | La Administración competente consulta a las demás | **15 días** para exponer lo que estimen procedente |
+
+### Secuencia de regreso contra autoridad o empleado (**art. 36**)
+
+Los particulares reclaman **directamente a la Administración**. Si esta indemnizó y hubo **dolo o culpa/negligencia graves**, exigirá de oficio la responsabilidad a la autoridad o personal causante, tras procedimiento.
+
+| Trámite art. 36.4 | Duración |
+|---|---|
+| **Alegaciones** | **15 días** |
+| **Pruebas** | **15 días** |
+| **Audiencia** | **10 días** |
+| **Propuesta** | **5 días** desde finalizar audiencia |
+| **Resolución** | **5 días** |
+
+La **resolución declaratoria** pone fin a la **vía administrativa**, pero puede ser impugnada por los cauces procedentes. No hay acción de regreso automática por un **error leve**.
+
+> ⚠️ **¡Foco Examen!:** **Anular un acto no genera indemnización automática.** La **solidaridad por actuación conjunta** protege al particular, sin confundirse con distribución interna. **Art. 36.4 = 15–15–10–5–5 días**.
+
+**Fuentes primarias:** [**CE art. 106.2**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [**Ley 40/2015, arts. 32–37**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) y [**Ley 39/2015, arts. 67, 81, 91, 96**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).

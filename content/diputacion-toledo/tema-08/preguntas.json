@@ -1,7 +1,7 @@
 {
   "tema": 8,
   "titulo": "Revisión de los actos administrativos en vía administrativa",
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T08-001",
@@ -15,7 +15,7 @@
       "correcta": 3,
       "justificacion": "El artículo 106 de la Ley 39/2015 permite revisar los actos nulos en cualquier momento.",
       "trampa": "Confundir el plazo de iniciación con el plazo máximo de resolución del procedimiento, que es de 6 meses.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos",
+      "referencia": "Ley 39/2015, art. 106 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a106",
       "respuestaLiteral": "En cualquier momento"
     },
     {
@@ -30,7 +30,7 @@
       "correcta": 0,
       "justificacion": "La declaración de nulidad requiere dictamen favorable del Consejo de Estado u órgano consultivo autonómico equivalente.",
       "trampa": "El dictamen no es meramente facultativo ni basta con solicitarlo: debe ser favorable.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos",
+      "referencia": "Ley 39/2015, art. 106 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a106",
       "respuestaLiteral": "Dictamen favorable del Consejo de Estado u órgano consultivo equivalente"
     },
     {
@@ -45,7 +45,7 @@
       "correcta": 2,
       "justificacion": "El procedimiento de revisión de oficio debe resolverse en 6 meses.",
       "trampa": "Los 4 años corresponden al límite para declarar la lesividad, no al plazo de resolución de la revisión de oficio.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#2-revisión-de-oficio-de-actos-nulos",
+      "referencia": "Ley 39/2015, art. 106 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a106",
       "respuestaLiteral": "6 meses"
     },
     {
@@ -60,7 +60,7 @@
       "correcta": 1,
       "justificacion": "La declaración de lesividad permite impugnar ante la jurisdicción contenciosa actos favorables que sean anulables.",
       "trampa": "La Administración no anula directamente el acto favorable anulable; debe declarar la lesividad y acudir a la jurisdicción.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#3-declaración-de-lesividad",
+      "referencia": "Ley 39/2015, art. 107 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a107",
       "respuestaLiteral": "Actos favorables anulables"
     },
     {
@@ -75,7 +75,7 @@
       "correcta": 0,
       "justificacion": "La declaración de lesividad no puede adoptarse después de 4 años desde que se dictó el acto.",
       "trampa": "No confundir el límite de 4 años con la caducidad de 6 meses del procedimiento de lesividad.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#3-declaración-de-lesividad",
+      "referencia": "Ley 39/2015, art. 107 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a107",
       "respuestaLiteral": "Dentro de 4 años"
     },
     {
@@ -90,7 +90,7 @@
       "correcta": 3,
       "justificacion": "La Ley permite rectificar en cualquier momento errores materiales, de hecho o aritméticos.",
       "trampa": "El error de Derecho no se corrige por simple rectificación.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#5-rectificación-de-errores",
+      "referencia": "Ley 39/2015, art. 109 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a109",
       "respuestaLiteral": "Errores materiales, de hecho o aritméticos"
     },
     {
@@ -105,7 +105,7 @@
       "correcta": 1,
       "justificacion": "El recurso de alzada procede contra actos que no agotan la vía administrativa.",
       "trampa": "La reposición se dirige contra actos que sí ponen fin a la vía administrativa.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#9-recurso-de-alzada",
+      "referencia": "Ley 39/2015, art. 121 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a121",
       "respuestaLiteral": "Alzada"
     },
     {
@@ -120,7 +120,7 @@
       "correcta": 0,
       "justificacion": "El plazo es de 1 mes cuando el acto es expreso.",
       "trampa": "Los 3 meses son el plazo máximo para resolver, no para interponer.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#9-recurso-de-alzada",
+      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122",
       "respuestaLiteral": "1 mes"
     },
     {
@@ -135,23 +135,23 @@
       "correcta": 2,
       "justificacion": "La reposición se interpone y resuelve por el mismo órgano que dictó el acto.",
       "trampa": "El superior jerárquico resuelve la alzada, no la reposición.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#10-recurso-potestativo-de-reposición",
+      "referencia": "Ley 39/2015, art. 123 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a123",
       "respuestaLiteral": "El mismo órgano que dictó el acto"
     },
     {
       "id": "DIP-T08-010",
-      "pregunta": "¿Qué ocurre si transcurre 1 mes desde la solicitud de suspensión de la ejecución en un recurso sin resolución expresa?",
+      "pregunta": "¿Cuándo se entiende suspendida la ejecución de un acto recurrido si no se resuelve expresamente la solicitud de suspensión del artículo 117.3?",
       "opciones": [
-        "Se entiende denegada",
-        "Se entiende suspendida la ejecución",
-        "Caduca el recurso",
-        "Se archiva el procedimiento"
+        "Tras diez días desde interponer el recurso",
+        "Transcurrido un mes desde la entrada de la solicitud en el registro electrónico de la Administración competente sin resolución dictada y notificada",
+        "Desde el mero envío de un correo al órgano",
+        "Solo cuando finalice el procedimiento judicial"
       ],
       "correcta": 1,
-      "justificacion": "La ejecución se entiende suspendida si transcurre 1 mes desde la solicitud sin notificación expresa.",
-      "trampa": "Es un supuesto excepcional de silencio favorable respecto de la medida de suspensión.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#83-suspensión-de-la-ejecución",
-      "respuestaLiteral": "Se entiende suspendida la ejecución"
+      "justificacion": "El **art. 117.3 Ley 39/2015** exige el transcurso de **un mes desde la entrada de la solicitud de suspensión en el registro electrónico de la Administración u organismo competente** sin que se **dicte y notifique** resolución expresa.",
+      "trampa": "No es **un mes desde la interposición del recurso**, ni desde cualquier envío: la regla precisa el **registro electrónico competente**.",
+      "referencia": "Ley 39/2015, art. 117.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a117",
+      "respuestaLiteral": "Transcurrido un mes desde la entrada de la solicitud en el registro electrónico de la Administración competente sin resolución dictada y notificada"
     },
     {
       "id": "DIP-T08-011",
@@ -165,7 +165,7 @@
       "correcta": 2,
       "justificacion": "Por error de hecho resultante de los documentos del expediente, el plazo es de 4 años desde la notificación.",
       "trampa": "Las demás causas del recurso extraordinario tienen, con carácter general, un plazo de 3 meses.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#11-recurso-extraordinario-de-revisión",
+      "referencia": "Ley 39/2015, art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a125",
       "respuestaLiteral": "4 años"
     },
     {
@@ -180,7 +180,7 @@
       "correcta": 3,
       "justificacion": "La resolución debe respetar la prohibición de reformatio in peius y no puede empeorar la situación inicial del recurrente.",
       "trampa": "La Administración debe resolver todas las cuestiones, pero sin agravar la posición inicial del recurrente.",
-      "referencia": "content/diputacion-toledo/tema-08/manual.md#85-resolución-del-recurso",
+      "referencia": "Ley 39/2015, art. 119 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a119",
       "respuestaLiteral": "No, por la prohibición de reformatio in peius"
     },
     {
@@ -194,8 +194,8 @@
       ],
       "correcta": 2,
       "justificacion": "El plazo máximo de resolución y notificación del recurso de alzada es de **3 meses**.",
-      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Alzada**: **1 mes** para interponer frente a acto expreso; **3 meses** para resolver. En acto presunto, interposición posible en cualquier momento desde que surta efecto.",
+      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a122",
       "respuestaLiteral": "Tres meses"
     },
     {
@@ -209,8 +209,8 @@
       ],
       "correcta": 1,
       "justificacion": "La reposición debe resolverse y notificarse en **1 mes**.",
-      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 124 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Reposición potestativa**: **1 mes** para resolver; la **alzada** se resuelve en **3 meses**. Ambas tienen reglas distintas de acceso a vía contenciosa.",
+      "referencia": "Ley 39/2015, art. 124 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a124",
       "respuestaLiteral": "Un mes"
     },
     {
@@ -224,8 +224,8 @@
       ],
       "correcta": 0,
       "justificacion": "El **artículo 107.5 de la Ley 39/2015** atribuye la declaración de lesividad, en las entidades locales, al **Pleno de la Corporación** o, en defecto de éste, al **órgano colegiado superior**.",
-      "trampa": "No confundir la competencia local para declarar lesividad con la competencia estatal del artículo 111.",
-      "referencia": "Ley 39/2015, art. 107.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Lesividad local**: declaración por el **Pleno de la Corporación** o, en su defecto, el órgano colegiado superior; no atribuir automáticamente al Alcalde.",
+      "referencia": "Ley 39/2015, art. 107.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a107",
       "respuestaLiteral": "El Pleno de la Corporación o, en su defecto, su órgano colegiado superior"
     },
     {
@@ -239,8 +239,8 @@
       ],
       "correcta": 2,
       "justificacion": "La desestimación presunta general de la alzada tiene la **excepción del doble silencio**, salvo materias del artículo 24.1.",
-      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 122 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Doble silencio**: la desestimación presunta de solicitud y posterior alzada puede generar **estimación** salvo materias expresamente exceptuadas por el **art. 24.1**.",
+      "referencia": "Ley 39/2015, art. 24.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24",
       "respuestaLiteral": "Puede entenderse estimado salvo materias expresamente exceptuadas"
     },
     {
@@ -254,8 +254,8 @@
       ],
       "correcta": 3,
       "justificacion": "Conforme al **artículo 107.3**, transcurridos **6 meses** desde el inicio del procedimiento sin declaración de lesividad, se produce la **caducidad**.",
-      "trampa": "Distinguir los **4 años** máximos desde que se dictó el acto para declarar lesividad y los **6 meses** de duración de su procedimiento.",
-      "referencia": "Ley 39/2015, art. 107.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**4 años** = límite para declarar lesividad desde acto; **6 meses** = caducidad del procedimiento de declaración iniciado.",
+      "referencia": "Ley 39/2015, art. 107.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a107",
       "respuestaLiteral": "Caducidad del procedimiento"
     },
     {
@@ -269,8 +269,8 @@
       ],
       "correcta": 3,
       "justificacion": "El plazo es de **3 meses** desde que se conozcan los documentos esenciales.",
-      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Documentos esenciales sobrevenidos** = **3 meses** desde conocimiento; **error de hecho** = **4 años** desde notificación.",
+      "referencia": "Ley 39/2015, art. 125.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a125",
       "respuestaLiteral": "Tres meses"
     },
     {
@@ -284,8 +284,8 @@
       ],
       "correcta": 1,
       "justificacion": "El recurso extraordinario se entiende **desestimado** al transcurrir **3 meses** sin resolución notificada.",
-      "trampa": "Distinguir el plazo de interposición del plazo para resolver y los efectos de silencio.",
-      "referencia": "Ley 39/2015, art. 126 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Revisión extraordinaria** contra acto firme: **3 meses** para resolver, con **desestimación presunta**, no caducidad ni estimación.",
+      "referencia": "Ley 39/2015, art. 126.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a126",
       "respuestaLiteral": "Desestimación presunta"
     },
     {
@@ -299,13 +299,24 @@
       ],
       "correcta": 0,
       "justificacion": "El **artículo 107.2** exige audiencia previa de los interesados en los términos del **artículo 82**, que contempla un plazo no inferior a **10 días** ni superior a **15 días**.",
-      "trampa": "La declaración de lesividad es previa a la impugnación judicial y exige audiencia administrativa.",
-      "referencia": "Ley 39/2015, arts. 107.2 y 82.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Lesividad** exige audiencia previa a todos los interesados: **10 a 15 días** según **art. 82**; la declaración administrativa precede a impugnación judicial.",
+      "referencia": "Ley 39/2015, art. 107.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a107",
       "respuestaLiteral": "Audiencia previa de los interesados conforme al artículo 82"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "DIP_C1_T08_T11",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "fuentesBOEPorPregunta": true,
+    "soloReabrirPorErrorONorma": true,
+    "funcionalNavegador": "PENDIENTE_CONTROL_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }

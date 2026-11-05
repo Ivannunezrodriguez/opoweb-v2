@@ -33,3 +33,9 @@ El tema se ha redactado **desde cero** a partir del texto legal oficial consolid
 - Preguntas revisadas: **DIP-T08-015, DIP-T08-017 y DIP-T08-020** para sustituir redundancias por competencia y efectos de plazo.
 
 **Estado:** auditoría normativa parcial; pendientes revisión integral y pruebas funcionales de OpoWeb.
+
+## Cierre jurídico-pedagógico del bloque 8–11 · **05/11/2026**
+
+**Tema 8 auditado** dentro del lote de cuatro temas: **20 preguntas y 80 alternativas**, bibliografía oficial y [**cotejo conjunto del bloque**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md). Se mantiene cerrado salvo **error acreditado** o **reforma normativa**. La prueba de navegador es **control técnico transversal** y no obliga a repetir este temario.
+
+> ⚠️ **¡Foco Examen!:** La referencia y el supuesto específico de cada pregunta se explican en el manual y en el banco, sin extrapolar órganos, plazos o mayorías de otros procedimientos.

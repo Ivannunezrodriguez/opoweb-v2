@@ -129,7 +129,7 @@ Solo es obligatoria, con carácter general, para:
 
 ## 7. Sede electrónica
 
-La sede electrónica es la dirección electrónica disponible para la ciudadanía cuya titularidad corresponde a una Administración Pública, órgano o entidad en el ejercicio de sus competencias.
+La sede electrónica es la dirección electrónica disponible para la ciudadanía a través de redes de telecomunicaciones, cuya titularidad corresponde a una **Administración Pública**, o a **uno o varios organismos públicos o entidades de Derecho público**, en el ámbito de sus competencias (**art. 38 Ley 40/2015 y art. 9 RD 203/2021**).
 
 La titularidad comporta responsabilidad sobre:
 
@@ -357,3 +357,25 @@ ADMINISTRACIÓN ELECTRÓNICA
 > ⚠️ **¡Foco Examen!:** Una actuación **automatizada** no implica ausencia de órganos responsables: la ley exige designar responsables técnicos y un **órgano responsable a efectos de impugnación**. No confundir **sello electrónico** con **CSV**.
 
 Fuentes oficiales: [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [Ley 40/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) y [Real Decreto 4/2010](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331). **Auditoría parcial:** falta revisión integral y pruebas funcionales.
+
+
+## Cierre de auditoría jurídica y pedagógica · Bloque C1 8–11 · **05/11/2026**
+
+### Portal, PAGe, sede y sede asociada: identificación jurídica
+
+| Herramienta | Régimen aplicable | Consecuencia de examen |
+|---|---|---|
+| **Portal de internet** | **Art. 39 Ley 40/2015**; **art. 5 RD 203/2021** | Acceso a información y servicios; no todo portal es una sede |
+| **Punto de Acceso General electrónico (PAGe)** | **Art. 7 RD 203/2021** | Cada Administración tiene PAGe; dispone de una **sede electrónica** y acceso a sedes asociadas |
+| **Sede electrónica** | **Art. 38 Ley 40/2015**; **art. 9 RD 203/2021** | Titularidad de **Administración u organismo o entidad de Derecho público** y responsabilidad por contenido |
+| **Sede asociada** | **Art. 10 RD 203/2021** | Tiene consideración de **sede electrónica a todos los efectos**, no un mero enlace |
+| **Creación o supresión de sede de entidad local** | **Art. 10.2 RD 203/2021** | Publicación en el **Boletín Oficial de la Provincia** y en el directorio del **PAGe** correspondiente |
+| **Interoperabilidad (ENI)** | [**RD 4/2010**](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331) | No confundir con el **Esquema Nacional de Seguridad** |
+
+### Presentación en papel de sujeto obligado: **art. 68.4 Ley 39/2015**
+
+La **Administración** requiere presentación **electrónica** a la persona jurídica o a otro sujeto obligado del **art. 14.2 o 14.3** que haya presentado presencialmente una solicitud. En este supuesto, **la fecha de presentación es la de la subsanación electrónica**. Distinto es el registro electrónico **24 horas, todos los días**, cuyo cómputo en inhábil sigue el **art. 31.2.b** si el plazo se fija por días hábiles.
+
+> ⚠️ **¡Foco Examen!:** La sede electrónica **local se crea o suprime con publicación en BOP** (**art. 10.2 RD 203/2021**). **PAGe** no significa cualquier web. El obligado que presenta solicitud **en papel no conserva la fecha inicial** después de subsanar electrónicamente.
+
+**Fuentes primarias:** [**Ley 39/2015, arts. 9–14, 16, 31, 41, 43, 68.4**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [**Ley 40/2015, arts. 38–42**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) y [**RD 203/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032).

@@ -2,17 +2,72 @@
   "tema": 8,
   "convocatoria": "diputacion-toledo-administrativo-c1-2026",
   "epigrafeOficial": "Revisión de los actos administrativos en vía administrativa. Los recursos administrativos. La revisión de oficio.",
-  "estado": "REVISION_USUARIO",
+  "estado": "AUDITADO",
   "generacion": "DESDE_CERO",
   "fuentePrincipal": "Ley 39/2015, Título V, artículos 106 a 126",
   "cobertura": [
-    {"bloque":"Revisión de actos nulos","articulos":[106],"cubierto":true},
-    {"bloque":"Declaración de lesividad","articulos":[107],"cubierto":true},
-    {"bloque":"Suspensión, revocación, rectificación y límites","articulos":[108,109,110],"cubierto":true},
-    {"bloque":"Principios generales de los recursos","articulos":[112,113,114,115,116,117,118,119,120],"cubierto":true},
-    {"bloque":"Recurso de alzada","articulos":[121,122],"cubierto":true},
-    {"bloque":"Recurso potestativo de reposición","articulos":[123,124],"cubierto":true},
-    {"bloque":"Recurso extraordinario de revisión","articulos":[125,126],"cubierto":true}
+    {
+      "bloque": "Revisión de actos nulos",
+      "articulos": [
+        106
+      ],
+      "cubierto": true
+    },
+    {
+      "bloque": "Declaración de lesividad",
+      "articulos": [
+        107
+      ],
+      "cubierto": true
+    },
+    {
+      "bloque": "Suspensión, revocación, rectificación y límites",
+      "articulos": [
+        108,
+        109,
+        110
+      ],
+      "cubierto": true
+    },
+    {
+      "bloque": "Principios generales de los recursos",
+      "articulos": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120
+      ],
+      "cubierto": true
+    },
+    {
+      "bloque": "Recurso de alzada",
+      "articulos": [
+        121,
+        122
+      ],
+      "cubierto": true
+    },
+    {
+      "bloque": "Recurso potestativo de reposición",
+      "articulos": [
+        123,
+        124
+      ],
+      "cubierto": true
+    },
+    {
+      "bloque": "Recurso extraordinario de revisión",
+      "articulos": [
+        125,
+        126
+      ],
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "revisionOficioResolucionMeses": 6,
@@ -30,5 +85,16 @@
     "extraordinarioResolucionMeses": 3
   },
   "preguntasPrevistas": 12,
-  "aprobado": false
+  "aprobado": false,
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "DIP_C1_T08_T11",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "programaContrastado": "Anexo VII BOP Toledo 118/2026, CSV 2026.00002934",
+    "informe": "content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md",
+    "navegadorReal": "CONTROL_TRANSVERSAL_PENDIENTE",
+    "certificacionIntegral": false
+  }
 }

@@ -135,38 +135,66 @@
     {
       "numero": 8,
       "titulo": "Revisión de los actos administrativos en vía administrativa. Los recursos administrativos. La revisión de oficio.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-08/manual.md",
       "fuentes": "content/diputacion-toledo/tema-08/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-08/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-08/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-08/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "navegadorReal": "PENDIENTE_CONTROL_TRANSVERSAL"
+      }
     },
     {
       "numero": 9,
       "titulo": "La administración electrónica: finalidad y principios. Derechos de los ciudadanos a relacionarse con las administraciones públicas por medios electrónicos. La sede electrónica. Utilización de medios electrónicos en la tramitación del procedimiento.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-09/manual.md",
       "fuentes": "content/diputacion-toledo/tema-09/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-09/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-09/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-09/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "navegadorReal": "PENDIENTE_CONTROL_TRANSVERSAL"
+      }
     },
     {
       "numero": 10,
       "titulo": "La responsabilidad patrimonial de la Administración Pública. Responsabilidad de las autoridades y funcionarios al servicio de las administraciones públicas.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-10/manual.md",
       "fuentes": "content/diputacion-toledo/tema-10/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-10/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-10/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-10/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "navegadorReal": "PENDIENTE_CONTROL_TRANSVERSAL"
+      }
     },
     {
       "numero": 11,
       "titulo": "Especialidades del procedimiento administrativo local. El Registro de Entrada y de Salida de documentos. Requisitos en la presentación de documentos. Comunicaciones y notificaciones.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-11/manual.md",
       "fuentes": "content/diputacion-toledo/tema-11/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-11/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-11/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-11/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "navegadorReal": "PENDIENTE_CONTROL_TRANSVERSAL"
+      }
     },
     {
       "numero": 12,
@@ -467,6 +495,12 @@
         5,
         6,
         7
+      ],
+      [
+        8,
+        9,
+        10,
+        11
       ]
     ],
     "temasAuditados": [
@@ -476,12 +510,16 @@
       4,
       5,
       6,
-      7
+      7,
+      8,
+      9,
+      10,
+      11
     ],
-    "cuentaPendientesGlobal": 114,
-    "temasConCierreEditorialDemostrado": 7,
-    "nuevoBloquePreguntas": 81,
-    "nuevoBloqueAlternativas": 324,
+    "cuentaPendientesGlobal": 110,
+    "temasConCierreEditorialDemostrado": 11,
+    "ultimoBloquePreguntas": 80,
+    "ultimoBloqueAlternativas": 320,
     "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
     "cierreFuncionalNavegador": "TRANSVERSAL_PENDIENTE"
   }

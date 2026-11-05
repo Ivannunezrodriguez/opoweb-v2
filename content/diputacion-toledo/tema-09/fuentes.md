@@ -38,3 +38,9 @@
 - [RD 4/2010, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331): **Esquema Nacional de Interoperabilidad**.
 
 **Cambios:** preguntas **DIP-T09-015 a 018** revisadas; tabla de contraste añadida al manual. Quedan pendientes revisión integral de todas las materias y pruebas funcionales.
+
+## Cierre jurídico-pedagógico del bloque 8–11 · **05/11/2026**
+
+**Tema 9 auditado** dentro del lote de cuatro temas: **20 preguntas y 80 alternativas**, bibliografía oficial y [**cotejo conjunto del bloque**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md). Se mantiene cerrado salvo **error acreditado** o **reforma normativa**. La prueba de navegador es **control técnico transversal** y no obliga a repetir este temario.
+
+> ⚠️ **¡Foco Examen!:** La referencia y el supuesto específico de cada pregunta se explican en el manual y en el banco, sin extrapolar órganos, plazos o mayorías de otros procedimientos.

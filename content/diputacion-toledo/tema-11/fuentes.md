@@ -33,3 +33,9 @@
 - Preguntas revisadas: **DIP-T11-016 a DIP-T11-020**, manteniendo **20 preguntas**.
 
 **Alcance:** revisión focalizada; pendientes auditoría jurídica integral y pruebas funcionales de OpoWeb.
+
+## Cierre jurídico-pedagógico del bloque 8–11 · **05/11/2026**
+
+**Tema 11 auditado** dentro del lote de cuatro temas: **20 preguntas y 80 alternativas**, bibliografía oficial y [**cotejo conjunto del bloque**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md). Se mantiene cerrado salvo **error acreditado** o **reforma normativa**. La prueba de navegador es **control técnico transversal** y no obliga a repetir este temario.
+
+> ⚠️ **¡Foco Examen!:** La referencia y el supuesto específico de cada pregunta se explican en el manual y en el banco, sin extrapolar órganos, plazos o mayorías de otros procedimientos.

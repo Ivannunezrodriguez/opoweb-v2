@@ -156,7 +156,7 @@ El órgano competente podrá suspenderla cuando:
 - la ejecución pueda causar perjuicios de imposible o difícil reparación;
 - la impugnación se funde en alguna causa de nulidad de pleno derecho.
 
-Si transcurre **1 mes** desde la solicitud de suspensión sin notificación expresa, la ejecución se entenderá suspendida.
+Si transcurre **un mes desde que la solicitud de suspensión entra en el registro electrónico de la Administración u organismo competente para resolverla** sin dictarse **y notificarse** resolución expresa, la ejecución se entenderá suspendida (**art. 117.3 Ley 39/2015**).
 
 ### 8.4 Audiencia
 
@@ -305,3 +305,24 @@ REVISIÓN ADMINISTRATIVA
 > ⚠️ **¡Foco Examen!:** En una **Diputación Provincial** el órgano de la declaración de lesividad es el **Pleno**, no el presidente por la mera condición de órgano ejecutivo.
 
 Fuente: [Ley 39/2015, artículo 107, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Comprobación focalizada; no sustituye la auditoría completa del tema.
+
+
+## Cierre de auditoría jurídica y pedagógica · Bloque C1 8–11 · **05/11/2026**
+
+### Revisar actos nulos, lesividad y recursos sin confundir el reloj
+
+| Vía | Legitimación y objeto | Plazo de inicio/interposición | Plazo y efecto de resolución |
+|---|---|---|---|
+| **Revisión de oficio** | **Administración**, por iniciativa propia o a instancia de interesado, **actos nulos** del **art. 47.1**, y revisión de disposiciones nulas con régimen propio; requiere dictamen **favorable** de órgano consultivo | **En cualquier momento**, sujeto a límites del **art. 110** | **6 meses**: **caducidad** si inició de oficio; **silencio desestimatorio** si a solicitud (**art. 106.5**) |
+| **Lesividad** | **Administración** respecto de actos **favorables anulables**; seguida de impugnación judicial; en Administración local decide **Pleno** u órgano colegiado superior | **4 años** desde dictarse el acto | **6 meses** sin declaración: **caducidad** (**art. 107**) |
+| **Alzada** | Actos que **no ponen fin** a la vía administrativa | **1 mes** frente a acto expreso; contra presunto, en cualquier momento desde efectos del silencio | **3 meses**, silencio **desestimatorio**, salvo excepción del **art. 24.1** |
+| **Reposición potestativa** | Acto que **pone fin** a la vía administrativa, ante el **mismo órgano** | **1 mes** frente a acto expreso; contra presunto, en cualquier momento | **1 mes**; desestimación presunta |
+| **Extraordinario de revisión** | Acto **firme** y causa tasada de **art. 125** | Error de hecho: **4 años**; otras causas: **3 meses** | **3 meses**, silencio **desestimatorio** |
+
+### Suspensión solicitada al recurrir: **art. 117.3**
+
+La ejecución del acto recurrido se entiende **suspendida** si pasa **un mes desde la entrada de la solicitud de suspensión en el registro electrónico de la Administración u organismo competente para decidirla**, sin que se dicte **y notifique** resolución expresa. **No basta** contar desde el mero envío a cualquier destinatario, ni la interposición del recurso suspende siempre la ejecución.
+
+> ⚠️ **¡Foco Examen!:** **4 años de lesividad** no es **6 meses de tramitación**. En el **art. 117.3**, el mes empieza en **el registro electrónico de la Administración competente**; no en la fecha que el interesado desee. La revisión de oficio de actos nulos exige distinguir **actos** de **disposiciones**.
+
+**Fuentes primarias:** [**Ley 39/2015, arts. 106–126**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). No se reabre el tema por controles técnicos del sitio.

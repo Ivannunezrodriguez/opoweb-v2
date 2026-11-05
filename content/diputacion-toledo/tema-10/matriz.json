@@ -1,20 +1,53 @@
 {
   "tema": 10,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "generacion": "GENERACION_DESDE_CERO",
   "epigrafeOficial": "La responsabilidad patrimonial de la Administración Pública. Responsabilidad de las autoridades y funcionarios al servicio de las administraciones públicas.",
   "bloques": [
-    {"id":"fundamento","cubierto":true},
-    {"id":"caracteres","cubierto":true},
-    {"id":"requisitos","cubierto":true},
-    {"id":"estado-legislador","cubierto":true},
-    {"id":"administracion-justicia","cubierto":true},
-    {"id":"concurrencia-administraciones","cubierto":true},
-    {"id":"indemnizacion","cubierto":true},
-    {"id":"procedimiento","cubierto":true},
-    {"id":"tramitacion-simplificada","cubierto":true},
-    {"id":"autoridades-personal","cubierto":true},
-    {"id":"derecho-privado","cubierto":true}
+    {
+      "id": "fundamento",
+      "cubierto": true
+    },
+    {
+      "id": "caracteres",
+      "cubierto": true
+    },
+    {
+      "id": "requisitos",
+      "cubierto": true
+    },
+    {
+      "id": "estado-legislador",
+      "cubierto": true
+    },
+    {
+      "id": "administracion-justicia",
+      "cubierto": true
+    },
+    {
+      "id": "concurrencia-administraciones",
+      "cubierto": true
+    },
+    {
+      "id": "indemnizacion",
+      "cubierto": true
+    },
+    {
+      "id": "procedimiento",
+      "cubierto": true
+    },
+    {
+      "id": "tramitacion-simplificada",
+      "cubierto": true
+    },
+    {
+      "id": "autoridades-personal",
+      "cubierto": true
+    },
+    {
+      "id": "derecho-privado",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "prescripcion": "1 año",
@@ -30,5 +63,16 @@
     "Ley 40/2015, artículos 32 a 37",
     "Ley 39/2015, artículos 65, 67, 81, 82, 86, 91 y 96"
   ],
-  "verificacionIntegridad": "2026-07-19"
+  "verificacionIntegridad": "2026-07-19",
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "DIP_C1_T08_T11",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "programaContrastado": "Anexo VII BOP Toledo 118/2026, CSV 2026.00002934",
+    "informe": "content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md",
+    "navegadorReal": "CONTROL_TRANSVERSAL_PENDIENTE",
+    "certificacionIntegral": false
+  }
 }

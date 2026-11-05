@@ -212,7 +212,7 @@ La notificación electrónica se practica mediante:
 
 Se entiende practicada en el momento en que se accede a su contenido.
 
-Si, siendo obligatoria o elegida la vía electrónica, transcurren **10 días naturales** desde su puesta a disposición sin acceso, se entenderá rechazada, salvo imposibilidad técnica o material acreditada.
+Si la notificación electrónica es **obligatoria** o el interesado ha **elegido expresamente** ese medio, transcurridos **10 días naturales** desde la puesta a disposición sin acceso, se entiende rechazada (**art. 43.2**), sin perjuicio de las incidencias técnicas o materiales debidamente acreditadas.
 
 ### 6.3. Notificación en papel
 
@@ -316,3 +316,26 @@ PROCEDIMIENTO LOCAL
 > ⚠️ **¡Foco Examen!:** La previsión histórica del ROF sobre atención presencial en días hábiles no elimina el registro electrónico disponible **24 horas al día, todos los días del año** conforme al **artículo 31.2 Ley 39/2015**.
 
 Fuentes: [ROF, artículos 151–153](https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252) y [Ley 39/2015, artículos 16 y 31](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Auditoría focalizada; revisión integral y pruebas funcionales pendientes.
+
+
+## Cierre de auditoría jurídica y pedagógica · Bloque C1 8–11 · **05/11/2026**
+
+### Registro General local, registro electrónico y notificación: tres instrumentos
+
+| Actuación | Norma | Exigencia real |
+|---|---|---|
+| **Registro General de entidad local** | **ROF, art. 151.1** | Asientos de **entrada de documentos recibidos y salida de documentos despachados definitivamente** |
+| **Organización del Registro General** | **ROF, art. 151.3** | Cabe organización **desconcentrada** según características de servicios |
+| **Asiento de entrada** | **ROF, art. 153.1** | **Número correlativo**, fecha y datos del asiento |
+| **Presentación por persona interesada** | **Ley 39/2015, art. 16.4** | Registros electrónicos, **Correos** conforme reglamento, **oficinas de asistencia**, representaciones diplomáticas y consulados, etc. |
+| **Registro electrónico** | **Ley 39/2015, arts. 16.3 y 31** | **Recibo automático**, **24 horas, 365 días**, con cómputo especial de día inhábil para plazos por días hábiles |
+| **Subsanación de obligado electrónico** | **Ley 39/2015, art. 68.4** | Fecha válida de la **presentación electrónica posterior** |
+| **Notificación electrónica sin acceso** | **Art. 43.2** | Rechazo a los **10 días naturales** solo cuando sea **obligatoria** o **elegida expresamente** |
+| **Publicación en proceso selectivo** | **Art. 45.1.b** | Medio **indicado por la convocatoria**; otro medio no lo sustituye |
+| **Aviso de notificación** | **Art. 41.6** | Falta de aviso **no invalida** una notificación bien practicada |
+
+El **ROF (RD 2568/1986)** complementa las especialidades locales, pero sus previsiones tradicionales deben interpretarse conforme a la **Ley 39/2015**, especialmente la tramitación y el cómputo del registro electrónico.
+
+> ⚠️ **¡Foco Examen!:** **BOP** es importante para determinados actos locales y la creación de sede local, pero **notificación infructuosa** se publica en el **BOE** (**art. 44**). El aviso al correo es accesorio, mientras que la **notificación** genera efectos jurídicos.
+
+**Fuentes primarias:** [**Ley 39/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [**ROF, arts. 151–153**](https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252), [**RD 203/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032).

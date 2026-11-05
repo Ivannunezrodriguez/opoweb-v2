@@ -1,7 +1,7 @@
 {
   "tema": 9,
   "titulo": "Administración electrónica",
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T09-001",
@@ -15,7 +15,7 @@
       "correcta": 0,
       "justificacion": "El artículo 14.2 de la Ley 39/2015 incluye expresamente a las personas jurídicas.",
       "trampa": "Confundir derecho de elección de la persona física con obligación general.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica",
+      "referencia": "Ley 39/2015, art. 14.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a14",
       "respuestaLiteral": "Las personas jurídicas"
     },
     {
@@ -30,7 +30,7 @@
       "correcta": 1,
       "justificacion": "La obligación se limita a los trámites realizados en ejercicio de la actividad profesional.",
       "trampa": "Extender la obligación a cualquier actuación personal.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#4-derecho-y-obligación-de-relación-electrónica",
+      "referencia": "Ley 39/2015, art. 14.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a14",
       "respuestaLiteral": "Solo en trámites vinculados al ejercicio profesional"
     },
     {
@@ -45,7 +45,7 @@
       "correcta": 0,
       "justificacion": "La firma añade autenticidad de la voluntad e integridad del documento.",
       "trampa": "Tratarlas como conceptos equivalentes.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#6-identificación-y-firma-electrónicas",
+      "referencia": "Ley 39/2015, art. 9-11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a9",
       "respuestaLiteral": "La identificación acredita identidad y la firma además voluntad y consentimiento"
     },
     {
@@ -60,7 +60,7 @@
       "correcta": 1,
       "justificacion": "La Ley 39/2015 exige firma para interponer recursos.",
       "trampa": "Pensar que cualquier acceso electrónico exige firma.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#62-uso-obligatorio-de-la-firma",
+      "referencia": "Ley 39/2015, art. 11.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a11",
       "respuestaLiteral": "Interponer un recurso"
     },
     {
@@ -75,7 +75,7 @@
       "correcta": 3,
       "justificacion": "Esa es la definición legal de sede electrónica.",
       "trampa": "Confundir sede con portal de internet.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#7-sede-electrónica",
+      "referencia": "Ley 40/2015, art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a38",
       "respuestaLiteral": "La dirección electrónica cuya titularidad corresponde a una Administración, órgano o entidad"
     },
     {
@@ -90,7 +90,7 @@
       "correcta": 0,
       "justificacion": "El registro electrónico está disponible todos los días del año durante las 24 horas.",
       "trampa": "Confundir disponibilidad técnica con cómputo jurídico de días hábiles.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico",
+      "referencia": "Ley 39/2015, art. 31.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31",
       "respuestaLiteral": "Todos los días del año durante las 24 horas"
     },
     {
@@ -105,7 +105,7 @@
       "correcta": 3,
       "justificacion": "Así lo establece el artículo 31 de la Ley 39/2015.",
       "trampa": "Pensar que el registro disponible durante las 24 horas convierte el día inhábil en hábil.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#9-registro-electrónico",
+      "referencia": "Ley 39/2015, art. 31.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31",
       "respuestaLiteral": "La primera hora del primer día hábil siguiente"
     },
     {
@@ -120,7 +120,7 @@
       "correcta": 0,
       "justificacion": "La notificación se practica cuando el interesado accede a su contenido.",
       "trampa": "Confundir el aviso complementario con la notificación.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas",
+      "referencia": "Ley 39/2015, art. 43.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43",
       "respuestaLiteral": "Cuando se accede a su contenido"
     },
     {
@@ -135,7 +135,7 @@
       "correcta": 1,
       "justificacion": "El plazo legal es de 10 días naturales desde la puesta a disposición.",
       "trampa": "Cambiar días naturales por días hábiles.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas",
+      "referencia": "Ley 39/2015, art. 43.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43",
       "respuestaLiteral": "10 días naturales"
     },
     {
@@ -150,7 +150,7 @@
       "correcta": 3,
       "justificacion": "El aviso es meramente complementario y su ausencia no impide que la notificación sea válida.",
       "trampa": "Atribuir al aviso valor constitutivo.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#12-notificaciones-electrónicas",
+      "referencia": "Ley 39/2015, art. 41.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a41",
       "respuestaLiteral": "No invalida la notificación"
     },
     {
@@ -165,7 +165,7 @@
       "correcta": 2,
       "justificacion": "La actuación administrativa automatizada se realiza íntegramente por medios electrónicos sin intervención directa de un empleado público.",
       "trampa": "Confundir automatización con simple apoyo informático.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#13-actuación-administrativa-automatizada",
+      "referencia": "Ley 40/2015, art. 41 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a41",
       "respuestaLiteral": "Realizarse íntegramente por medios electrónicos sin intervención directa de empleado público"
     },
     {
@@ -180,7 +180,7 @@
       "correcta": 2,
       "justificacion": "La interoperabilidad permite el intercambio y la reutilización de datos y documentos entre Administraciones.",
       "trampa": "Confundir interoperabilidad con coordinación orgánica.",
-      "referencia": "content/diputacion-toledo/tema-09/manual.md#14-interoperabilidad",
+      "referencia": "Ley 40/2015, art. 3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a3",
       "respuestaLiteral": "Interoperabilidad"
     },
     {
@@ -194,24 +194,24 @@
       ],
       "correcta": 1,
       "justificacion": "Conforme a artículo 14 de la legislación administrativa aplicable.",
-      "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 39/2015 art. 14",
+      "trampa": "**Persona física** elige canal por regla general; deja de poder elegir si le alcanza obligación de **art. 14.2 o 14.3**.",
+      "referencia": "Ley 39/2015, art. 14.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a14",
       "respuestaLiteral": "Sí, salvo que estén obligadas a relacionarse electrónicamente"
     },
     {
       "id": "DIP-T09-014",
-      "pregunta": "¿Qué ocurre si una persona jurídica presenta una solicitud en papel?",
+      "pregunta": "Conforme al art. 10.2 del RD 203/2021, ¿dónde debe publicarse la creación de una sede electrónica de una entidad local?",
       "opciones": [
-        "Se admite siempre",
-        "Se pierde automáticamente el derecho",
-        "Se considera registrada el día anterior",
-        "Se requiere subsanación electrónica y esa fecha cuenta como presentación"
+        "Únicamente en una red social institucional",
+        "Solo en el Boletín Oficial del Estado",
+        "Exclusivamente en el tablón de anuncios del Ayuntamiento",
+        "En el Boletín Oficial de la Provincia y en el directorio del Punto de Acceso General electrónico correspondiente"
       ],
       "correcta": 3,
-      "justificacion": "Conforme a artículo 68 de la legislación administrativa aplicable.",
-      "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 39/2015 art. 68",
-      "respuestaLiteral": "Se requiere subsanación electrónica y esa fecha cuenta como presentación"
+      "justificacion": "El **art. 10.2 RD 203/2021** exige publicar la creación o supresión de sede electrónica en el **boletín oficial que corresponda**, que para **entidades locales es el Boletín Oficial de la Provincia**, y también en el **directorio del PAGe**.",
+      "trampa": "En **entidades locales** el acto de creación/supresión de **sede electrónica** se publica en **BOP** y en el directorio del **PAGe**, **art. 10.2 RD 203/2021**.",
+      "referencia": "RD 203/2021, art. 10.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032#a10",
+      "respuestaLiteral": "En el Boletín Oficial de la Provincia y en el directorio del Punto de Acceso General electrónico correspondiente"
     },
     {
       "id": "DIP-T09-015",
@@ -224,8 +224,8 @@
       ],
       "correcta": 2,
       "justificacion": "El **artículo 68.4 de la Ley 39/2015** considera fecha de presentación aquella en que se efectúa la **subsanación electrónica**.",
-      "trampa": "No se conserva, a estos efectos, la fecha original de entrada en papel.",
-      "referencia": "Ley 39/2015, art. 68.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "Para **persona jurídica** que presentó en papel, la fecha de presentación es la **subsanación electrónica**, no la original ni el requerimiento (**68.4**).",
+      "referencia": "Ley 39/2015, art. 68.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
       "respuestaLiteral": "La fecha de la subsanación mediante presentación electrónica"
     },
     {
@@ -239,8 +239,8 @@
       ],
       "correcta": 3,
       "justificacion": "El **artículo 42 de la Ley 40/2015** contempla **sello electrónico** y **código seguro de verificación (CSV)** para actuaciones automatizadas.",
-      "trampa": "No confundir los sistemas de firma de actuación automatizada con la firma personal del interesado.",
-      "referencia": "Ley 40/2015, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "trampa": "**Art. 42 Ley 40/2015**: sello electrónico o **CSV**. La firma manual o DNIe del ciudadano no son las dos soluciones para la automatización.",
+      "referencia": "Ley 40/2015, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a42",
       "respuestaLiteral": "Sello electrónico o código seguro de verificación en los términos legales"
     },
     {
@@ -254,8 +254,8 @@
       ],
       "correcta": 2,
       "justificacion": "El **artículo 41.2** exige determinar previamente los órganos responsables de las fases técnicas y de control y el **órgano responsable a efectos de impugnación**.",
-      "trampa": "Automatizada no significa carente de responsabilidad administrativa.",
-      "referencia": "Ley 40/2015, art. 41.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "trampa": "**Art. 41.2**: responsable técnico de especificaciones, programación, mantenimiento, supervisión, control de calidad y **órgano a efectos de impugnación**.",
+      "referencia": "Ley 40/2015, art. 41.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a41",
       "respuestaLiteral": "Los órganos responsables de especificaciones, programación, mantenimiento, supervisión y control y el responsable a efectos de impugnación"
     },
     {
@@ -269,8 +269,8 @@
       ],
       "correcta": 2,
       "justificacion": "El **artículo 42.b Ley 40/2015** exige que el sistema CSV permita comprobar la **integridad del documento** mediante acceso a la **sede electrónica correspondiente**.",
-      "trampa": "El CSV facilita verificación, pero no sustituye a la tramitación ni elimina recursos.",
-      "referencia": "Ley 40/2015, art. 42.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "trampa": "**CSV** permite comprobar **integridad** en la **sede electrónica**; no equivale a cifrado ni elimina recursos.",
+      "referencia": "Ley 40/2015, art. 42.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a42",
       "respuestaLiteral": "La comprobación de integridad del documento accediendo a la sede electrónica correspondiente"
     },
     {
@@ -284,8 +284,8 @@
       ],
       "correcta": 1,
       "justificacion": "Conforme a RD 4/2010.",
-      "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "RD 4/2010",
+      "trampa": "**ENI = RD 4/2010**; no confundir con el **ENS = RD 311/2022**. Ambos tienen objeto jurídico diferente.",
+      "referencia": "RD 4/2010, art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331#a1",
       "respuestaLiteral": "RD 4/2010"
     },
     {
@@ -299,13 +299,24 @@
       ],
       "correcta": 0,
       "justificacion": "Conforme a artículo 38 de la legislación administrativa aplicable.",
-      "trampa": "Distinguir derecho, obligación y efecto legal.",
-      "referencia": "Ley 40/2015 art. 38",
+      "trampa": "La **titularidad de la sede** corresponde a la **Administración u organismo/entidad de derecho público**, no al alojamiento web ni al proveedor informático.",
+      "referencia": "Ley 40/2015, art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a38",
       "respuestaLiteral": "A una Administración u organismo o entidad de Derecho público en ejercicio de sus competencias"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "DIP_C1_T08_T11",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "fuentesBOEPorPregunta": true,
+    "soloReabrirPorErrorONorma": true,
+    "funcionalNavegador": "PENDIENTE_CONTROL_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }

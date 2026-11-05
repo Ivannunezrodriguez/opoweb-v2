@@ -1,24 +1,80 @@
 {
   "tema": 9,
   "convocatoria": "diputacion-toledo-administrativo-c1-2026",
-  "estado": "REVISION_USUARIO",
+  "estado": "AUDITADO",
   "metodo": "GENERACION_DESDE_CERO",
   "epigrafeOficial": "La administración electrónica: finalidad y principios. Derechos de los ciudadanos a relacionarse con las administraciones públicas por medios electrónicos. La sede electrónica. Utilización de medios electrónicos en la tramitación del procedimiento.",
   "cobertura": [
-    {"bloque":"Finalidad y concepto","cubierto":true,"manual":"1"},
-    {"bloque":"Principios","cubierto":true,"manual":"2"},
-    {"bloque":"Derechos de las personas","cubierto":true,"manual":"3"},
-    {"bloque":"Sujetos obligados","cubierto":true,"manual":"4"},
-    {"bloque":"Asistencia electrónica","cubierto":true,"manual":"5"},
-    {"bloque":"Identificación y firma","cubierto":true,"manual":"6"},
-    {"bloque":"Sede electrónica","cubierto":true,"manual":"7"},
-    {"bloque":"Punto de Acceso General y Carpeta Ciudadana","cubierto":true,"manual":"8"},
-    {"bloque":"Registro electrónico","cubierto":true,"manual":"9"},
-    {"bloque":"Documento y expediente electrónico","cubierto":true,"manual":"10"},
-    {"bloque":"Copias auténticas y digitalización","cubierto":true,"manual":"11"},
-    {"bloque":"Notificaciones electrónicas","cubierto":true,"manual":"12"},
-    {"bloque":"Actuación automatizada","cubierto":true,"manual":"13"},
-    {"bloque":"Interoperabilidad y seguridad","cubierto":true,"manual":"14"}
+    {
+      "bloque": "Finalidad y concepto",
+      "cubierto": true,
+      "manual": "1"
+    },
+    {
+      "bloque": "Principios",
+      "cubierto": true,
+      "manual": "2"
+    },
+    {
+      "bloque": "Derechos de las personas",
+      "cubierto": true,
+      "manual": "3"
+    },
+    {
+      "bloque": "Sujetos obligados",
+      "cubierto": true,
+      "manual": "4"
+    },
+    {
+      "bloque": "Asistencia electrónica",
+      "cubierto": true,
+      "manual": "5"
+    },
+    {
+      "bloque": "Identificación y firma",
+      "cubierto": true,
+      "manual": "6"
+    },
+    {
+      "bloque": "Sede electrónica",
+      "cubierto": true,
+      "manual": "7"
+    },
+    {
+      "bloque": "Punto de Acceso General y Carpeta Ciudadana",
+      "cubierto": true,
+      "manual": "8"
+    },
+    {
+      "bloque": "Registro electrónico",
+      "cubierto": true,
+      "manual": "9"
+    },
+    {
+      "bloque": "Documento y expediente electrónico",
+      "cubierto": true,
+      "manual": "10"
+    },
+    {
+      "bloque": "Copias auténticas y digitalización",
+      "cubierto": true,
+      "manual": "11"
+    },
+    {
+      "bloque": "Notificaciones electrónicas",
+      "cubierto": true,
+      "manual": "12"
+    },
+    {
+      "bloque": "Actuación automatizada",
+      "cubierto": true,
+      "manual": "13"
+    },
+    {
+      "bloque": "Interoperabilidad y seguridad",
+      "cubierto": true,
+      "manual": "14"
+    }
   ],
   "controlCalidad": {
     "tablasComparativas": true,
@@ -27,5 +83,16 @@
     "fuentesOficiales": true,
     "preguntas": 12,
     "aprobado": false
+  },
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "DIP_C1_T08_T11",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "programaContrastado": "Anexo VII BOP Toledo 118/2026, CSV 2026.00002934",
+    "informe": "content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md",
+    "navegadorReal": "CONTROL_TRANSVERSAL_PENDIENTE",
+    "certificacionIntegral": false
   }
 }
