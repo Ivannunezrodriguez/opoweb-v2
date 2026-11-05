@@ -2155,3 +2155,41 @@ La ejecución **41987477311** de **«Validar OpoWeb v2»** finalizó en **succes
 **No es cierre jurídico del tema 15:** faltan cotejar exhaustivamente **12 preguntas/48 alternativas** restantes y los **1.310 renglones** del manual; no se ha probado navegador real, móvil, PWA ni accesibilidad. No incrementar por esta revisión la cobertura acumulada de certificación integral (**0/121**). Tampoco interpretar los **51/121** bancos de referencia histórica como certificación de cinco capas. **T06 OAPGT** permanece aplazado hasta completar fuentes estatutarias.
 
 **Siguiente tarea:** revisar **T15-001, 002, 004–006, 010, 012–013 y 015–018**, contrastar el manual completo con arts. **5–24** y **54–80**; después volver a T14 certificados. Mantener prioridad de exámenes de **La Puebla (14/11/2026)** y **UC3M (21/11/2026)**.
+
+
+## 76. Diputación C2 · Tema 15 Ley 40/2015: banco jurídico 20/80 y dos precisiones del manual — 05/11/2026
+
+### Reanudación y contraste primario
+
+Partiendo del §75 y del commit `47e8e090c04484980f649e8616197ec7f920301e`, se examinó el último texto consolidado de la [**Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) (**última actualización publicada el 02/08/2024**, fuente informativa consolidada BOE). Se contrastaron específicamente **arts. 8, 11, 14, 17, 23, 24, 55, 63, 64, 65, 69, 72 y 74**.
+
+**Resultado del banco:** se auditaron individualmente las **12 preguntas y 48 alternativas** que quedaban pendientes del tema 15: **001, 002, 004, 005, 006, 010, 012, 013, 015, 016, 017 y 018**. Se modificaron **10 enunciados y/o alternativas**, conservando **002** y **004** ya cotejados en revisiones previas. La suma de los informes da **20/20 preguntas y 80/80 alternativas** con referencia jurídica y motivos individuales; posiciones de las respuestas **A5/B5/C5/D5**, sin cambios de clave. Archivo: [`preguntas.json`](content/diputacion-toledo-auxiliar-c2/tema-15/preguntas.json); nuevo [informe de **12 preguntas / 48 alternativas**](content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-segundo-lote-2026-11-05.md), complementario al [primer informe **8/32**](content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-focal-2026-11-05.md).
+
+### Materias mejoradas y datos de examen
+
+| Ítem | Fuente primaria | Trampa cotejada |
+|---|---|---|
+| **T15-001** | **8.1, 11.2, 13.2** | Competencia **irrenunciable**, técnicas de ejercicio no equivalen a cesión de titularidad |
+| **T15-005** | **23.2.b** | **Consanguinidad 4.º** frente a **afinidad 2.º** |
+| **T15-006** | **24.3–5** | **Recusado día siguiente** frente a **superior 3 días** cuando se niega la causa |
+| **T15-010** | **14.3** | Conflicto de atribuciones: **misma Administración + sin jerarquía + no finalizado** |
+| **T15-012** | **17.2, 17.5** | **Constitución** del órgano distinto de **mayoría de votos** para acuerdos |
+| **T15-013** | **24.1–2** | Recusación por **interesados**, **por escrito**, en cualquier momento de la tramitación |
+| **T15-015–018** | **55.3, 63–65** | **Subsecretario directivo**, **Secretario General categoría Subsecretario**, **SGT categoría Director General** |
+
+Los distractores nuevos se centran en órganos y técnicas jurídicas realmente confundibles, sin la opción absurda que se descarta por lógica básica. Se utilizaron los vínculos a artículos del **BOE consolidado** en el banco y el informe. El contenido se mantiene dentro del epígrafe literal del programa (BOP Toledo **197/2026**, **14/10/2026**, Anexo XI, CSV **2026.00004759**).
+
+### Dos correcciones materiales del manual
+
+1. **Nombramiento del Secretario General, artículo 64.3:** la tabla solo señalaba «propuesta del Ministro». El texto legal incluye **propuesta del titular del Ministerio o del Presidente del Gobierno**; corregida en [`manual.md`](content/diputacion-toledo-auxiliar-c2/tema-15/manual.md).
+2. **Subdelegaciones y comunidades uniprovinciales:** se aclaró la lectura conjunta de los **arts. 69.4 y 74**: Subdelegado en cada provincia de **CCAA pluriprovinciales**; en **uniprovinciales**, Subdelegación posible por **real decreto** en los supuestos legalmente previstos; si no hay Subdelegado, **Delegado** asume sus funciones provinciales. Se distingue además del **art. 72.5**, donde la **suplencia del propio Delegado** uniprovincial sin Subdelegado corresponde al **Secretario General**. Tabla comparativa y bloque «¡Foco Examen!» incorporados; constan fuentes en [`fuentes.md`](content/diputacion-toledo-auxiliar-c2/tema-15/fuentes.md).
+
+### Control reproducible y límites
+
+- Nueva prueba [`validate-diputacion-c2-t15-bank-complete.mjs`](tests/validate-diputacion-c2-t15-bank-complete.mjs) incorporada a `npm test`. Verifica **20 IDs únicos**, **80 opciones literales**, informes para los dos lotes, claves inalteradas y estado pendiente del manual. Se reforzó además para vigilar **art. 64.3** y la excepción territorial de **69/72/74**.
+- Ejecución de CI **41988336926** para el commit `548d0d205da9485e8287f5668ea97ec0eb5070de`: **success**. Tras la corrección material del manual, CI **41988527901** para `82185f76c3c13f314c92d0039d58b9b8a1967714`: **success**. Los sucesivos despliegues Pages intermedios cancelados por concurrencia **no constituyen errores jurídicos ni acreditan un despliegue individual**.
+- **Último SHA de este bloque y su Pages:** comprobar GitHub Actions por SHA, sin dar por verificado un despliegue pendiente. **No** se ejecutó un navegador real, Windows 11, móvil, PWA o auditoría de accesibilidad.
+
+**Estado:** `BANCO_20_80_COTEJADO`, **manual T15 EN_AUDITORIA**, pendientes aún sus aproximadamente **1.310 líneas** de contraste completo, matriz editorial integral y prueba funcional del portal. **No declarar tema `AUDITADO`**, ni recalcular al alza los históricos **51/121 bancos** y **0/121 cierres integrales** sin criterio consistente en todo el repositorio.
+
+**Siguiente tarea prioritaria:** cotejo completo del **manual T15 (Ley 40/2015, arts. 5–24 y 54–80)**, continuando desde errores detectados en estructura AGE; después **Tema 14, certificado electrónico/eIDAS**. **Tema 6 OAPGT** permanece aplazado hasta verificación de sus Estatutos íntegros vigentes. Mantener prioridad temporal de **La Puebla 14/11/2026** y **UC3M 21/11/2026**.
