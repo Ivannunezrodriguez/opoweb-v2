@@ -610,9 +610,22 @@ Las Secretarías de Estado y los órganos directivos se nombran respetando, en c
 - cada sexo: máximo 60 %;
 - cada sexo: mínimo 40 %.
 
-El artículo fue incorporado por la Ley Orgánica 2/2024 y debe aplicarse con su régimen transitorio.
+El artículo fue incorporado por la **Ley Orgánica 2/2024** (publicada el **02/08/2024**, con entrada en vigor el **22/08/2024**). Su **disposición transitoria primera.3** distingue dos reglas temporales:
 
-La regla no significa que cada órgano individual tenga composición paritaria, sino que el equilibrio se calcula en el ámbito del departamento ministerial sobre los nombramientos incluidos en la norma.
+- El **art. 55 bis** se aplica a los **nombramientos y designaciones posteriores al 22/08/2024**.
+- Debe garantizarse el equilibrio en la **totalidad de la Administración General del Estado y del sector público institucional estatal en un máximo de 5 años** desde la entrada en vigor (horizonte del **22/08/2029**). **No equivale a esperar cinco años para comenzar a aplicar la regla a nuevos nombramientos**.
+
+| Regla | Ámbito | Exigencia |
+|---|---|---|
+| **Art. 55 bis Ley 40/2015** | **Secretarías de Estado y órganos directivos** de cada **departamento ministerial** | Cada sexo entre **40 % y 60 %** |
+| **DT 1.3 LO 2/2024** | Nuevos nombramientos tras la entrada en vigor | Aplicación desde **22/08/2024** |
+| **Garantía global transitoria** | Conjunto de **AGE** y sector público institucional estatal | Máximo de **5 años** desde **22/08/2024** |
+
+La regla no significa que cada órgano individual deba tener exactamente un **50 %** de integrantes de cada sexo; el ámbito de cómputo del **art. 55 bis** es el **departamento ministerial** y debe atenderse a los cargos incluidos expresamente.
+
+**Fuentes oficiales:** [Ley 40/2015, art. 55 bis](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a55bis) y [LO 2/2024, disposición transitoria primera.3](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936#dtprimera).
+
+> ⚠️ **¡Foco Examen!:** **40–60 %**, no paridad **50/50** por cargo; **efectos para nuevos nombramientos desde 22/08/2024**, pero **5 años** para asegurar el equilibrio global. La fecha del último plazo **no suspende** la obligación en nuevos nombramientos.
 
 ## 4. Artículo 56 · unidades administrativas
 
