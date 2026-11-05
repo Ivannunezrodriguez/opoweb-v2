@@ -3,7 +3,7 @@
   "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
   "epigrafeOficial": "Microsoft Windows 11 Pro I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
   "estadoEditorial": "EN_REVISION_USUARIO",
-  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "estadoControl": "COTEJO_TECNICO_BANCO_20_80_20261105_MANUAL_PENDIENTE",
   "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
   "fuentesPrimarias": [
     "https://support.microsoft.com/es-es/windows",
@@ -49,5 +49,29 @@
   ],
   "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-16/fuentes.md",
   "manual": "content/diputacion-toledo-auxiliar-c2/tema-16/manual.md",
-  "notas": "Matriz de correspondencia temática fundada en fuentes documentales del repositorio. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral."
+  "notas": "Matriz de correspondencia temática fundada en fuentes documentales del repositorio. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral.",
+  "auditoriaBanco20261105": {
+    "fecha": "2026-11-05",
+    "ambito": "Banco de preguntas sobre Windows 11 Pro",
+    "preguntas": 20,
+    "alternativas": 80,
+    "claveDistribucion": {
+      "A": 5,
+      "B": 4,
+      "C": 6,
+      "D": 5
+    },
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-16/cotejo-banco-completo-2026-11-05.md",
+    "fuentes": [
+      "Microsoft Support — Explorador Windows 11",
+      "Microsoft Support — métodos abreviados",
+      "Microsoft Learn — rutas UNC",
+      "Microsoft Support — red, impresión, escaneo, OCR y dúplex"
+    ],
+    "cotejoDistractores": "INDIVIDUAL_DOCUMENTADO_80_DE_80",
+    "noEquivaleA": "CERTIFICACION_INTEGRAL_DEL_MANUAL_O_PRUEBA_FUNCIONAL",
+    "navegador": "PENDIENTE",
+    "windows11ProReal": "PENDIENTE",
+    "aprobacionExpresaUsuario": false
+  }
 }
