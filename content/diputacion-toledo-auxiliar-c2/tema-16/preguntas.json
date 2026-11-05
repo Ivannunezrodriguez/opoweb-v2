@@ -1,8 +1,8 @@
 {
   "tema": 16,
   "estado": "BANCO_COMPLETO_20_PREGUNTAS",
-  "version": "2026-10-29",
-  "criterio": "20 preguntas y sus soluciones, contrastadas conceptualmente con documentación Microsoft de Explorador, impresoras y escáneres. Pendiente prueba funcional del navegador.",
+  "version": "2026-11-05",
+  "criterio": "20 preguntas con claves conservadas. Revisión técnica focalizada 05/11/2026: cuatro preguntas corregidas por redundancia y calidad de distractores; documentación de Microsoft cotejada. Resto del banco y manual completos: certificación funcional y editorial integral pendientes.",
   "preguntas": [
     {
       "id": "DT-C2-T16-001",
@@ -90,31 +90,31 @@
     },
     {
       "id": "DT-C2-T16-007",
-      "enunciado": "¿Qué diferencia existe entre copiar y mover un archivo en Windows 11?",
+      "enunciado": "En Windows 11, se cambia el nombre «informe.docx» a «informe.pdf» desde el Explorador, sin utilizar ninguna conversión de documentos. ¿Qué sucede?",
       "opciones": [
-        "Copiar elimina el original",
-        "Mover siempre crea dos ejemplares",
-        "Copiar conserva el original; mover cambia su ubicación",
-        "No hay diferencia"
+        "Windows convierte el contenido al formato PDF al cambiar la extensión.",
+        "La extensión no se puede modificar desde el Explorador de archivos.",
+        "Solo cambia el nombre o extensión; el contenido no se transforma automáticamente en PDF.",
+        "Se crean automáticamente dos archivos válidos: el DOCX y el PDF."
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Copiar crea una copia; mover traslada el elemento a otro destino.",
-      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
-      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+      "justificacion": "Microsoft indica que cambiar una extensión modifica el nombre del archivo, pero **no convierte su contenido** a otro formato. Si el documento sigue siendo un DOCX internamente, renombrarlo como PDF no lo convierte en un PDF legible. Referencia técnica: https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+      "trampaExamen": "**Cambiar .docx por .pdf ≠ convertir a PDF.** La extensión afecta a la asociación y a cómo Windows intenta abrirlo; no cambia su estructura interna.",
+      "referencia": "Microsoft, extensiones de archivos (Windows 11) · https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows"
     },
     {
       "id": "DT-C2-T16-008",
-      "enunciado": "¿Qué representa una ruta UNC de Windows?",
+      "enunciado": "¿Qué combinación crea una carpeta nueva en la ubicación actual del Explorador de archivos de Windows 11?",
       "opciones": [
-        "Un recurso compartido de red como \\\\servidor\\carpeta",
-        "Una página de internet",
-        "Una extensión de documento",
-        "Un acceso a configuración de impresión"
+        "Ctrl + Mayús + N",
+        "Ctrl + N",
+        "F2",
+        "Alt + Entrar"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Las rutas UNC identifican recursos de red por nombre de servidor y recurso compartido.",
-      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
-      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+      "justificacion": "En el Explorador de archivos, **Ctrl + Mayús + N** crea una carpeta nueva. **Ctrl + N** abre otra ventana; **F2** cambia el nombre del elemento seleccionado; **Alt + Entrar** muestra sus propiedades. Referencia: métodos abreviados oficiales de Microsoft.",
+      "trampaExamen": "No confundir **Ctrl+Mayús+N (nueva carpeta)** con **Ctrl+N (nueva ventana)**, **F2 (renombrar)** ni **Alt+Entrar (propiedades)**.",
+      "referencia": "Microsoft, métodos abreviados del Explorador · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
     },
     {
       "id": "DT-C2-T16-009",
@@ -132,17 +132,17 @@
     },
     {
       "id": "DT-C2-T16-010",
-      "enunciado": "¿Para qué sirve una vista Detalles en el Explorador de Windows 11?",
+      "enunciado": "En el Explorador de archivos de Windows 11, ¿qué hace Alt + Entrar cuando hay un archivo seleccionado?",
       "opciones": [
-        "Para borrar todos los archivos",
-        "Para cifrar por defecto",
-        "Para ver información por columnas como nombre y fecha",
-        "Para crear una impresora"
+        "Cambia su nombre, como hace F2.",
+        "Abre una segunda ventana del Explorador, como hace Ctrl + N.",
+        "Muestra las propiedades del elemento seleccionado.",
+        "Crea una carpeta nueva, como hace Ctrl + Mayús + N."
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La vista Detalles muestra atributos organizados en columnas; no altera los archivos.",
-      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
-      "referencia": "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+      "justificacion": "Según la tabla oficial de atajos de Microsoft, **Alt + Entrar** muestra las propiedades del elemento seleccionado. El atajo **F2** cambia el nombre, **Ctrl + N** abre una ventana y **Ctrl + Mayús + N** crea una carpeta.",
+      "trampaExamen": "**Alt + Entrar = Propiedades**; **F2 = Cambiar nombre**. Ambos operan sobre la selección, pero no realizan la misma acción.",
+      "referencia": "Microsoft, métodos abreviados del Explorador · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
     },
     {
       "id": "DT-C2-T16-011",
@@ -188,17 +188,17 @@
     },
     {
       "id": "DT-C2-T16-014",
-      "enunciado": "¿Dónde se suelen agregar impresoras y escáneres en Windows 11?",
+      "enunciado": "En Windows 11, ¿en qué apartado de Configuración se busca y agrega una impresora o un escáner?",
       "opciones": [
-        "Solo en BIOS",
-        "Solo en el navegador",
-        "Configuración > Bluetooth y dispositivos > Impresoras y escáneres",
-        "En la Papelera"
+        "Sistema > Almacenamiento > Sensor de almacenamiento",
+        "Cuentas > Opciones de inicio de sesión",
+        "Bluetooth y dispositivos > Impresoras y escáneres",
+        "Red e Internet > Configuración de proxy"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Microsoft indica la sección de Bluetooth y dispositivos, Impresoras y escáneres, para agregar dispositivos.",
-      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
-      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+      "justificacion": "Microsoft sitúa la instalación y administración de impresoras y escáneres en **Inicio > Configuración > Bluetooth y dispositivos > Impresoras y escáneres**; las otras rutas administran almacenamiento, autenticación y proxy.",
+      "trampaExamen": "Las impresoras de red **no se agregan desde el apartado Proxy**: también se administran en **Impresoras y escáneres**.",
+      "referencia": "Microsoft, instalación de impresoras/escáneres Windows 11 · https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
     },
     {
       "id": "DT-C2-T16-015",
@@ -295,5 +295,31 @@
     ],
     "resultado": "Se revisaron seis preguntas; sustituidas dos por eliminación con Mayús+Supr y digitalización de papel; matices de rutas UNC y operaciones copiar/mover.",
     "limitacion": "No se ha probado el banco mediante interfaz real de Windows 11 Pro."
+  },
+  "auditoria20261105": {
+    "fecha": "2026-11-05",
+    "estado": "REVISION_FOCALIZADA_NO_COTEJO_INTEGRAL",
+    "preguntasModificadas": [
+      "DT-C2-T16-007",
+      "DT-C2-T16-008",
+      "DT-C2-T16-010",
+      "DT-C2-T16-014"
+    ],
+    "totalPreguntas": 20,
+    "alternativas": 80,
+    "cambios": [
+      "T16-007: pregunta duplicada de copiar/mover reemplazada por renombrar extensión y diferencia con conversión real",
+      "T16-008: duplicado de ruta UNC reemplazado por creación de carpeta y discriminación de atajos",
+      "T16-010: duplicado de vista Detalles reemplazado por propiedades con Alt+Entrar frente a F2 y Ctrl+N",
+      "T16-014: se conservó pregunta y clave pero se sustituyeron distractores absurdos por rutas reales alternativas de Configuración"
+    ],
+    "fuentes": [
+      "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+      "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+    ],
+    "versionManual": "EN_AUDITORIA",
+    "ejercicioRealProbado": false,
+    "certificacionIntegral": false
   }
 }
