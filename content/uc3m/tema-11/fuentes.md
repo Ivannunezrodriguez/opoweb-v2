@@ -45,6 +45,6 @@ Fecha de revisión editorial: 22 de julio de 2026.
 
 ## Revalidación agrupada del banco UC3M T10–T12 — **05/11/2026**
 
-[**Informe de cotejo de las 36 preguntas y 144 alternativas**](../cotejo-bloque-t10-t12-2026-11-05.md), con origen legal por **precepto**, fundamento de la clave y descarte argumentado de las otras tres opciones, en el bloque de tres temas. **No equivale a certificación integral**, ni da por resuelta la fecha jurídica de corte de la convocatoria de la **UC3M**.
+[**Informe de cotejo de las 36 preguntas y 144 alternativas**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/uc3m/cotejo-bloque-t10-t12-2026-11-05.md), con origen legal por **precepto**, fundamento de la clave y descarte argumentado de las otras tres opciones, en el bloque de tres temas. **No equivale a certificación integral**, ni da por resuelta la fecha jurídica de corte de la convocatoria de la **UC3M**.
 
 > ⚠️ **¡Foco Examen!:** Distinguir la norma **actualmente vigente** de la **redacción exigible según las bases**, determinada por la fecha de publicación del anuncio oficial correspondiente, todavía por verificar en fuente primaria.
