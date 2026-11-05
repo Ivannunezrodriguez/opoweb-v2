@@ -1,22 +1,22 @@
 {
   "tema": 15,
   "estado": "BANCO_20_PREGUNTAS_REVISION_JURIDICA_PARCIAL",
-  "version": "2026-11-05-revision-focal",
-  "criterio": "Banco de 20 preguntas en auditoría jurídica parcial. Revisadas individualmente las alternativas de ocho preguntas contra Ley 40/2015 BOE consolidado actualizado 02/08/2024 y LO 2/2024. No equivale a cotejo integral de las 20 preguntas ni del manual.",
+  "version": "2026-11-05-20-preguntas-revision",
+  "criterio": "20 preguntas con cotejo técnico-jurídico individual de 80 alternativas y enlaces a artículos de la Ley 40/2015 consolidada a 05/11/2026. El cotejo del banco no acredita el manual íntegro, la prueba del navegador ni la aceptación editorial global.",
   "preguntas": [
     {
       "id": "DT-C2-T15-001",
-      "enunciado": "Según el artículo 8.1 de la Ley 40/2015, la competencia de un órgano administrativo es...",
+      "enunciado": "Según el artículo 8.1 de la Ley 40/2015, ¿cuál es la regla sobre la competencia de los órganos administrativos?",
       "opciones": [
-        "Irrenunciable y se ejerce por el órgano que la tenga atribuida, salvo excepciones legales",
-        "Transferible libremente a cualquier empresa",
-        "Delegada siempre al secretario",
-        "Renunciable por acuerdo verbal"
+        "Es irrenunciable y la ejerce el órgano al que se atribuya, salvo delegación o avocación previstas legalmente.",
+        "Puede renunciarse definitivamente por resolución motivada, conservando el órgano su titularidad formal.",
+        "Se transmite automáticamente al superior jerárquico cada vez que el titular esté ausente.",
+        "Puede cederse su titularidad por encomienda de gestión cuando se publiquen las actividades encargadas."
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El artículo 8.1 establece irrenunciabilidad y excepciones de delegación o avocación.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Ley 40/2015, art. 8.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "justificacion": "El **art. 8.1** dispone que la competencia es **irrenunciable** y se ejerce por el órgano que la tiene atribuida, salvo delegación o avocación en los términos legales. No cabe renuncia por acto unilateral; la suplencia **no altera** la competencia (art. 13), y la encomienda **no cede titularidad** (art. 11.2).",
+      "trampaExamen": "La **irrenunciabilidad** convive con la **delegación del ejercicio** o la **avocación**, pero no habilita **renuncia** ni cesión de titularidad por encomienda.",
+      "referencia": "Ley 40/2015, arts. 8.1, 11.2 y 13.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8"
     },
     {
       "id": "DT-C2-T15-002",
@@ -62,31 +62,31 @@
     },
     {
       "id": "DT-C2-T15-005",
-      "enunciado": "¿Qué grado máximo de consanguinidad con un interesado constituye causa de abstención, según el artículo 23.2.b de la Ley 40/2015?",
+      "enunciado": "Según el artículo 23.2.b de la Ley 40/2015, ¿hasta qué grados de parentesco constituye motivo de abstención el vínculo con un interesado?",
       "opciones": [
-        "Primer grado",
-        "Segundo grado",
-        "Cuarto grado",
-        "Tercer grado"
+        "Consanguinidad hasta segundo grado y afinidad hasta cuarto grado.",
+        "Consanguinidad hasta cuarto grado y afinidad hasta cuarto grado.",
+        "Consanguinidad hasta cuarto grado y afinidad hasta segundo grado.",
+        "Consanguinidad hasta tercer grado y afinidad hasta segundo grado."
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El artículo 23.2.b establece consanguinidad dentro del cuarto grado y afinidad dentro del segundo.",
-      "trampaExamen": "Diferenciar las operaciones o los conceptos próximos, y atender a las excepciones de la fuente.",
-      "referencia": "Ley 40/2015, art. 23.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "justificacion": "El **art. 23.2.b** incluye **consanguinidad dentro del cuarto grado** y **afinidad dentro del segundo** en los vínculos y sujetos allí especificados; también contempla matrimonio o situación asimilada y determinadas relaciones con representantes y asesores. La respuesta correcta es **cuarto/segundo**.",
+      "trampaExamen": "**Consanguinidad: 4.º grado; afinidad: 2.º grado.** El test suele intercambiar los límites o igualarlos. La abstención no provoca por sí sola nulidad automática (art. 23.4).",
+      "referencia": "Ley 40/2015, art. 23.2.b y 23.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23"
     },
     {
       "id": "DT-C2-T15-006",
-      "enunciado": "Si la persona recusada niega la causa de recusación, ¿en qué plazo debe resolver su superior según el artículo 24.4 de la Ley 40/2015?",
+      "enunciado": "Si la persona recusada niega la causa invocada, ¿en qué plazo debe resolver su superior inmediato, previos los informes y comprobaciones que estime oportunos?",
       "opciones": [
-        "Cinco días",
-        "Diez días",
-        "Un mes",
-        "Tres días"
+        "En el día siguiente, que es el plazo previsto para resolver el superior.",
+        "En dos días, contados desde que el interesado presenta la recusación.",
+        "En cinco días, por aplicación del plazo general de subsanación.",
+        "En tres días, conforme al artículo 24.4 de la Ley 40/2015."
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El superior resolverá en tres días, previos los informes y comprobaciones oportunos. El recusado manifiesta al día siguiente si concurre la causa (artículo 24.3).",
-      "trampaExamen": "El recusado manifiesta su posición al día siguiente; el superior dispone de tres días para resolver cuando la causa se niega.",
-      "referencia": "Ley 40/2015, arts. 24.3–24.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "justificacion": "El **art. 24.3** señala que el recusado manifiesta **al día siguiente** si aprecia la causa; si la niega, el **superior** resuelve en **tres días** tras los informes y comprobaciones que considere oportunos, conforme al **art. 24.4**. No confundir el plazo de manifestación del recusado con el plazo de resolución de su superior.",
+      "trampaExamen": "**Recusado: día siguiente (24.3)**. **Superior si se niega causa: 3 días (24.4)**. La decisión sobre recusación **no tiene recurso autónomo** (24.5).",
+      "referencia": "Ley 40/2015, arts. 24.3–5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24"
     },
     {
       "id": "DT-C2-T15-007",
@@ -132,17 +132,17 @@
     },
     {
       "id": "DT-C2-T15-010",
-      "enunciado": "¿Qué distingue la encomienda de gestión de la delegación?",
+      "enunciado": "Según el artículo 14.3 de la Ley 40/2015, ¿entre qué órganos pueden plantearse conflictos de atribuciones?",
       "opciones": [
-        "Se limita a actividades materiales o técnicas y no cede titularidad",
-        "Transfiere titularidad definitivamente",
-        "Siempre habilita decisiones jurídicas del encomendado",
-        "Es una recusación"
+        "Entre órganos de una misma Administración no relacionados jerárquicamente, sobre asuntos cuyo procedimiento aún no haya terminado.",
+        "Entre órganos de distintas Administraciones, siempre que exista un expediente que trate la misma materia.",
+        "Entre un órgano superior y su dependiente jerárquico, incluso cuando el procedimiento ya haya finalizado.",
+        "Entre órganos de una misma Administración solo después de que una resolución firme cierre el procedimiento."
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Art. 11: la encomienda recae sobre actividades materiales o técnicas y no supone cesión de titularidad ni de elementos sustantivos de ejercicio.",
-      "trampaExamen": "No pueden encomendarse decisiones jurídicas propias del órgano competente.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 11"
+      "justificacion": "El **artículo 14.3** exige **misma Administración**, **ausencia de relación jerárquica** y **procedimiento administrativo todavía no finalizado**. Distintas Administraciones o una relación de jerarquía no cumplen el supuesto; tampoco cabe promoverlo respecto de un asunto ya concluido.",
+      "trampaExamen": "Conflicto de atribuciones: **misma Administración + sin jerarquía + procedimiento no finalizado**. No confundir con el deber de remitir actuaciones por incompetencia del **art. 14.1**.",
+      "referencia": "Ley 40/2015, art. 14.1–3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a14"
     },
     {
       "id": "DT-C2-T15-011",
@@ -160,31 +160,31 @@
     },
     {
       "id": "DT-C2-T15-012",
-      "enunciado": "¿Qué mayoría se exige con carácter general para adoptar acuerdos de órganos colegiados?",
+      "enunciado": "De acuerdo con el artículo 17.5 de la Ley 40/2015, ¿cómo adoptan sus acuerdos, como regla general, los órganos colegiados?",
       "opciones": [
-        "Unanimidad",
-        "Dos tercios",
-        "Mayoría de votos",
-        "Tres quintos"
+        "Por unanimidad de los asistentes, salvo que el Presidente declare urgencia.",
+        "Por mayoría de dos tercios de los miembros de derecho y de hecho.",
+        "Por mayoría de votos, sin confundirla con el cuórum de constitución.",
+        "Por tres quintos de los miembros, aunque no asista el Secretario."
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El art. 17.5 dispone que los acuerdos serán adoptados por **mayoría de votos**, salvo disposiciones específicas.",
-      "trampaExamen": "No trasladar mayorías parlamentarias a órganos colegiados.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 17.5"
+      "justificacion": "El **art. 17.5** establece que los acuerdos se adoptan por **mayoría de votos**. La constitución válida es una cuestión distinta regulada en el **art. 17.2** (**Presidente, Secretario y mitad de miembros**, por regla general). La urgencia de asuntos fuera del orden del día se regula en el **art. 17.4**.",
+      "trampaExamen": "**Cuórum de constitución ≠ mayoría para acuerdos**. Constitución general: **Presidente + Secretario + mitad**; acuerdos: **mayoría de votos**.",
+      "referencia": "Ley 40/2015, arts. 17.2, 17.4 y 17.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17"
     },
     {
       "id": "DT-C2-T15-013",
-      "enunciado": "Según la Ley 40/2015, ¿qué persona puede promover recusación?",
+      "enunciado": "Conforme al artículo 24 de la Ley 40/2015, ¿quién puede promover recusación y cómo debe plantearse?",
       "opciones": [
-        "Sólo el Ministro",
-        "Sólo el superior jerárquico",
-        "Sólo el órgano afectado",
-        "Los interesados en cualquier momento de la tramitación"
+        "El superior jerárquico, exclusivamente, mediante instrucción interna sin alegar motivo.",
+        "El propio recusado, únicamente, por comunicación verbal a su superior inmediato.",
+        "Solo el órgano colegiado al que pertenezca el funcionario, por acuerdo mayoritario.",
+        "Los interesados, en cualquier momento de la tramitación, mediante escrito que exprese la causa o causas."
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Art. 24.1: los interesados pueden promover recusación en cualquier momento de la tramitación.",
-      "trampaExamen": "La **recusación** la plantean interesados; la abstención es deber propio.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 24.1"
+      "justificacion": "El **art. 24.1** faculta a **los interesados** para promover recusación **en cualquier momento de la tramitación**. El **art. 24.2** exige **escrito** con expresión de la causa o causas. El superior puede ordenar abstención (art. 23.3), que no es el cauce de recusación impulsado por el interesado.",
+      "trampaExamen": "**Recusación = interesado + escrito motivado + cualquier momento de la tramitación**. **Abstención** es deber de la autoridad o empleado cuando concurre causa.",
+      "referencia": "Ley 40/2015, arts. 23.1–3 y 24.1–2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24"
     },
     {
       "id": "DT-C2-T15-014",
@@ -202,59 +202,59 @@
     },
     {
       "id": "DT-C2-T15-015",
-      "enunciado": "¿Qué carácter tienen los Subsecretarios?",
+      "enunciado": "En la organización central de la Administración General del Estado, ¿qué naturaleza tienen los Subsecretarios conforme al artículo 55.3 y qué función básica les atribuye el artículo 63.1?",
       "opciones": [
-        "Órgano superior como un Ministro",
-        "Órgano directivo",
-        "Órgano exclusivamente consultivo",
-        "Órgano electoral"
+        "Son órganos superiores que dirigen políticamente las Secretarías de Estado.",
+        "Son órganos directivos que ostentan la representación ordinaria del Ministerio y dirigen sus servicios comunes.",
+        "Son órganos directivos de la organización territorial, con nivel de Subdirector General.",
+        "Son órganos consultivos cuya única misión es emitir informes sobre reglamentos."
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El art. 55 clasifica a Subsecretarios como órganos directivos, no superiores.",
-      "trampaExamen": "Subsecretario es órgano **directivo**.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 55"
+      "justificacion": "El **art. 55.3.b** clasifica a los **Subsecretarios** como **órganos directivos de la organización central**; el **art. 63.1** les atribuye la **representación ordinaria del Ministerio** y la **dirección de los servicios comunes**. Los órganos superiores centrales son Ministros y Secretarios de Estado (art. 55.3.a).",
+      "trampaExamen": "**Subsecretario = directivo + servicios comunes**, no órgano superior. **Delegado del Gobierno** es directivo territorial con **rango de Subsecretario**, concepto diferente.",
+      "referencia": "Ley 40/2015, arts. 55.3 y 63.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a63"
     },
     {
       "id": "DT-C2-T15-016",
-      "enunciado": "¿Qué órganos son superiores en la organización central de la AGE según la Ley 40/2015?",
+      "enunciado": "¿Qué cargos son órganos superiores de la organización central de la Administración General del Estado conforme al artículo 55.3.a de la Ley 40/2015?",
       "opciones": [
-        "Sólo Subdirectores Generales",
-        "Ministros y Secretarios de Estado",
-        "Subsecretarios y Secretarios Generales Técnicos",
-        "Delegados y Subdelegados"
+        "Los Subsecretarios y Secretarios generales, aunque tengan rango de altos cargos.",
+        "Los Ministros y Secretarios de Estado; los Subsecretarios son órganos directivos.",
+        "Los Directores generales y Secretarios generales técnicos por su dependencia del Ministro.",
+        "Los Delegados y Subdelegados del Gobierno porque dirigen la organización territorial."
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Art. 55.3: órganos superiores son Ministros y Secretarios de Estado.",
-      "trampaExamen": "El **Subsecretario** es directivo, no superior.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 55.3"
+      "justificacion": "**Art. 55.3.a:** los únicos **órganos superiores de la organización central** de la AGE son **Ministros** y **Secretarios de Estado**. **Subsecretarios, Secretarios generales, SGT, Directores generales y Subdirectores generales** son **directivos** (art. 55.3.b). Delegados y Subdelegados pertenecen a la organización **territorial** (art. 55.4).",
+      "trampaExamen": "**Superior** no significa genéricamente «alto cargo»: en el **art. 55.3**, los únicos superiores centrales son **Ministro** y **Secretario de Estado**.",
+      "referencia": "Ley 40/2015, art. 55.3–4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a55"
     },
     {
       "id": "DT-C2-T15-017",
-      "enunciado": "¿Quién tiene rango de Subsecretario cuando existe en el Ministerio?",
+      "enunciado": "Según el artículo 64.3 de la Ley 40/2015, ¿qué categoría tienen los Secretarios generales ministeriales cuando el Ministerio prevé su existencia?",
       "opciones": [
-        "Director Insular",
-        "Secretario General Técnico",
-        "Secretario General",
-        "Subdelegado"
+        "La de Director General, al igual que los Secretarios generales técnicos.",
+        "La de Secretario de Estado, como órgano superior de la organización central.",
+        "La de Subsecretario, aunque la Secretaría General sea un órgano directivo.",
+        "La de Subdirector General, por depender funcionalmente del Ministro."
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Artículo 64.3 de la Ley 40/2015: los Secretarios generales tienen categoría de Subsecretario y son nombrados y separados por Real Decreto del Consejo de Ministros.",
-      "trampaExamen": "El **Secretario General** tiene categoría de Subsecretario, no de Secretario de Estado.",
-      "referencia": "Ley 40/2015, art. 64.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+      "justificacion": "El **artículo 64.3** establece que los **Secretarios generales** tienen **categoría de Subsecretario** y son nombrados y separados por **real decreto del Consejo de Ministros**, a propuesta del **titular del Ministerio o del Presidente del Gobierno**. No confundirlos con **Secretarios generales técnicos**, de **categoría de Director General** (art. 65.2).",
+      "trampaExamen": "**Secretario general: categoría Subsecretario (64.3). Secretario general técnico: categoría Director General (65.2).** El «general» no determina por sí solo el rango.",
+      "referencia": "Ley 40/2015, arts. 64.3 y 65.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a64"
     },
     {
       "id": "DT-C2-T15-018",
-      "enunciado": "¿Qué rango ostentan los Secretarios Generales Técnicos?",
+      "enunciado": "Según el artículo 65 de la Ley 40/2015, ¿qué categoría ostenta el Secretario general técnico y cuáles son sus funciones mínimas expresamente previstas?",
       "opciones": [
-        "Director General",
-        "Subdirector General",
-        "Subsecretario",
-        "Ministro"
+        "Categoría de Director General; producción normativa, asistencia jurídica y publicaciones, bajo dependencia inmediata del Subsecretario.",
+        "Categoría de Subsecretario; dirección política de un sector ministerial, con independencia del Subsecretario.",
+        "Categoría de Subdirector General; únicamente gestión presupuestaria y de personal del departamento.",
+        "Categoría de Secretario de Estado; representación ordinaria del Ministerio y dirección de servicios comunes."
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El art. 65.2 atribuye a Secretarios Generales Técnicos categoría de Director General.",
-      "trampaExamen": "**SGT = rango Director General**.",
-      "referencia": "Ley 40/2015 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566 · art. 65.2"
+      "justificacion": "El **art. 65.1–2** dispone que los **Secretarios generales técnicos** dependen **inmediatamente del Subsecretario**, poseen **categoría de Director General** y ejercen, en todo caso, funciones de **producción normativa, asistencia jurídica y publicaciones**, además de servicios comunes que les atribuya el real decreto de estructura.",
+      "trampaExamen": "**SGT = Director General**, dependencia del **Subsecretario**, funciones **producción normativa + asistencia jurídica + publicaciones**; **SG = Subsecretario** en categoría.",
+      "referencia": "Ley 40/2015, art. 65.1–2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a65"
     },
     {
       "id": "DT-C2-T15-019",
@@ -332,5 +332,61 @@
     "originalesConservadas": 20,
     "certificarManual": false,
     "pruebaFuncionalPendiente": true
+  },
+  "auditoriaBancoCompleto20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_DOCUMENTAL_20_80_BANCO_NO_MANUAL",
+    "cotejadas": 20,
+    "alternativas": 80,
+    "loteAnterior": [
+      "DT-C2-T15-003",
+      "DT-C2-T15-007",
+      "DT-C2-T15-008",
+      "DT-C2-T15-009",
+      "DT-C2-T15-011",
+      "DT-C2-T15-014",
+      "DT-C2-T15-019",
+      "DT-C2-T15-020"
+    ],
+    "loteActual": [
+      "DT-C2-T15-001",
+      "DT-C2-T15-002",
+      "DT-C2-T15-004",
+      "DT-C2-T15-005",
+      "DT-C2-T15-006",
+      "DT-C2-T15-010",
+      "DT-C2-T15-012",
+      "DT-C2-T15-013",
+      "DT-C2-T15-015",
+      "DT-C2-T15-016",
+      "DT-C2-T15-017",
+      "DT-C2-T15-018"
+    ],
+    "nuevasRedacciones": [
+      "DT-C2-T15-001",
+      "DT-C2-T15-005",
+      "DT-C2-T15-006",
+      "DT-C2-T15-010",
+      "DT-C2-T15-012",
+      "DT-C2-T15-013",
+      "DT-C2-T15-015",
+      "DT-C2-T15-016",
+      "DT-C2-T15-017",
+      "DT-C2-T15-018"
+    ],
+    "mantenidasConAuditoriaAnterior": [
+      "DT-C2-T15-002",
+      "DT-C2-T15-004"
+    ],
+    "fuenteNormativa": "BOE-A-2015-10566 consolidado actualización 02/08/2024; LO 2/2024 para 55 bis",
+    "distribucionClaves": [
+      5,
+      5,
+      5,
+      5
+    ],
+    "estadoManual": "EN_AUDITORIA_PENDIENTE_COTEJO_INTEGRAL",
+    "navegadorReal": "PENDIENTE",
+    "certificacionIntegral": false
   }
 }
