@@ -1,8 +1,8 @@
 {
   "tema": 14,
   "estado": "BANCO_20_PREGUNTAS_REVISION_DOCUMENTAL",
-  "version": "2026-11-05-auditoria-parcial-lote-3",
-  "criterio": "T14-014 suspensión; T14-011,013,017 sustituidas por arts. 6.1.b, 5.1.e, 7.1 Ley 6/2020 para eliminar duplicidades; resto pendiente. Lote 3: nueve justificaciones y referencias diferenciadas, con análisis explícito de 36 alternativas; pendiente cotejo completo y manual.",
+  "version": "2026-11-05-auditoria-parcial-lote-4",
+  "criterio": "T14-014 suspensión; T14-011,013,017 sustituidas por arts. 6.1.b, 5.1.e, 7.1 Ley 6/2020 para eliminar duplicidades; resto pendiente. Lote 3: nueve justificaciones y referencias diferenciadas, con análisis explícito de 36 alternativas; pendiente cotejo completo y manual.; T14-014 precisión de obligación condicionada (suspenderán) frente a facultad discrecional.",
   "preguntas": [
     {
       "id": "DT-C2-T14-001",
@@ -188,16 +188,16 @@
     },
     {
       "id": "DT-C2-T14-014",
-      "enunciado": "Según el artículo 5.2 de la Ley 6/2020, ¿cuándo cabe suspender la vigencia de un certificado electrónico?",
+      "enunciado": "Según el artículo 5.2 de la Ley 6/2020, ¿en qué condiciones deben los prestadores suspender la vigencia de un certificado electrónico?",
       "opciones": [
         "Siempre que cualquier usuario visite la sede electrónica",
         "Automáticamente al cumplirse tres años desde su expedición",
         "Solo cuando el certificado haya caducado definitivamente",
-        "En los supuestos legalmente previstos, si la declaración de prácticas de certificación contempla la suspensión"
+        "Ante las causas tasadas del artículo 5.2, siempre que su declaración de prácticas prevea la suspensión"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El **artículo 5.2 de la Ley 6/2020** permite la suspensión en los supuestos del artículo 5.1, letras **a), c) y h)**, así como ante dudas sobre las circunstancias de **b) y g)**, **siempre que** la declaración de prácticas de certificación prevea esta posibilidad. No debe confundirse con caducidad o revocación.",
-      "trampaExamen": "**Suspensión ≠ revocación**: el artículo 5.2 exige una causa tasada y previsión en la declaración de prácticas; el artículo 5.3 prevé extinción si termina la suspensión sin levantarse.",
+      "justificacion": "El artículo 5.2 dispone que los prestadores **suspenderán** la vigencia en los supuestos del art. 5.1 **a), c) y h)** y ante dudas sobre los de **b) y g)**, **siempre que** la declaración de prácticas de certificación prevea suspender certificados. No es una facultad general discrecional: concurridos los requisitos, la norma emplea «suspenderán». A es falsa porque una visita no es causa; B inventa una suspensión automática a tres años; C confunde suspensión con caducidad definitiva. El art. 5.3 regula la comunicación y la extinción al finalizar una suspensión no levantada.",
+      "trampaExamen": "**«Suspenderán» (art. 5.2), no «podrán suspender» libremente**. Causas tasadas + previsión en declaración de prácticas. La revocación del 5.1 es una figura distinta.",
       "referencia": "Ley 6/2020, arts. 5.2–5.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a5"
     },
     {
