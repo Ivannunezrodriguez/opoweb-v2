@@ -11,7 +11,7 @@ const required=[
   'certificación expedida por el Secretario',
   'visto bueno del Presidente',
   'inmediata siguiente',
-  'antelación mínima de 2 días',
+  'al menos 2 días de antelación',
   'voto particular por escrito en el plazo de 2 días',
   'publicación en el Boletín Oficial del Estado',
   'dos últimos años'
