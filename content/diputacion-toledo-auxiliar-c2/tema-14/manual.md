@@ -895,73 +895,104 @@ No debe memorizarse una lista cerrada de marcas, porque la condición o cartera 
 
 **Bloque incorporado y revisado para el programa de Diputación C2.**
 
-## 1. Sistemas de identificación y firma del interesado
+## 1. Sistemas de identificación y firma del interesado (**Ley 39/2015, arts. 9–11; RD 203/2021, arts. 26–29**)
 
-Los artículos 9 y 10 de la Ley 39/2015 permiten utilizar, entre otros:
+La **Ley 39/2015** distingue **identificación**, que acredita quién interviene, y **firma**, que permite acreditar la **autenticidad de la expresión de voluntad y consentimiento** y la integridad del documento.
 
-- certificado cualificado de firma electrónica;
-- certificado cualificado de sello electrónico en los supuestos admitidos;
-- sistemas de clave concertada;
-- otros sistemas con registro previo y garantías suficientes.
+| Actuación | Sistema admitido y regla | Fuente |
+|---|---|---|
+| **Identificación** | Certificado **cualificado de firma**, certificado **cualificado de sello**, o sistemas adicionales con registro previo y garantías legales | **9.2 Ley 39/2015; 26 RD 203/2021** |
+| **Firma** | Firma **cualificada o avanzada** basada en certificado cualificado, **sello cualificado/avanzado** basado en certificado cualificado, u otros sistemas admitidos | **10.2 Ley 39/2015; 29.1 RD 203/2021** |
+| Uso de la **identificación como firma** | Solo **cuando lo disponga expresamente la normativa reguladora**, si acredita voluntad y consentimiento | **10.4 Ley 39/2015; 29.5 RD 203/2021** |
+| **Firma válida** del interesado | Su **identidad queda acreditada** por el propio acto de firmar | **10.5 Ley 39/2015** |
 
-La Administración puede admitir sistemas adicionales, pero debe garantizar la posibilidad de usar los sistemas legalmente previstos basados en certificados en los términos establecidos.
+Tanto para **identificación** como para **firma**, la Administración deberá garantizar la posibilidad de utilizar **alguno** de los sistemas basados en **certificados cualificados** de las letras **a) o b)**, aunque admita otros sistemas (**art. 9.2 y art. 10.2 Ley 39/2015; arts. 26.2 y 29.1 RD 203/2021**). Los requisitos de autorización/comunicación de los **sistemas adicionales de clave concertada** se aplican según la norma y el ámbito administrativo correspondiente.
 
-## 2. Asistencia en el uso de medios electrónicos
+### Atributos mínimos de certificados (art. 27 RD 203/2021)
 
-El artículo 12 de la Ley 39/2015 obliga a prestar asistencia a quienes no estén obligados a relacionarse electrónicamente y la soliciten.
+| Certificado usado para identificación | Atributos mínimos |
+|---|---|
+| **Persona física** | Nombre y apellidos y **DNI**, **NIE**, **número de identificación consular central** o **NIF**, inequívocamente |
+| **Representante de persona jurídica** | **Denominación y NIF de la persona jurídica**, junto con nombre y apellidos e identificador de la **persona representante** |
+| **Sello de persona jurídica** | **Denominación y NIF de la persona jurídica** |
 
-Un funcionario habilitado puede realizar identificación o firma por la persona interesada cuando:
+> ⚠️ **¡Foco Examen!:** **Identificación ≠ firma**. El **art. 10.5** permite entender identificada a la persona que **ya ha firmado** con un sistema válido; la conversión inversa **identificación → firma** requiere **norma expresa y acreditación de voluntad** (**10.4**). La **representación** exige datos del **representado y representante**, no solo el NIF de la empresa.
 
-- esta carece de medios;
-- se identifica ante el funcionario;
-- presta consentimiento expreso;
-- queda constancia para casos de discrepancia o litigio.
+## 2. Asistencia en el uso de medios electrónicos (**Ley 39/2015, art. 12; RD 203/2021, art. 30**)
 
-La asistencia no autoriza a pedir al ciudadano su clave privada o PIN.
+La **Administración Pública** debe asistir a quienes **no estén obligados** a relacionarse electrónicamente (**art. 14.2–3 Ley 39/2015**) y lo soliciten. La asistencia comprende, especialmente, **identificación y firma**, **presentación de solicitudes** y **obtención de copias auténticas**.
 
-## 3. Certificado de sede electrónica
+Cuando la persona carezca de los medios electrónicos necesarios, puede intervenir **personal funcionario público habilitado**, bajo condiciones acumulativas:
 
-La sede electrónica es una dirección electrónica cuya titularidad corresponde a una Administración, organismo o entidad pública en el ejercicio de sus competencias.
+1. La persona interesada se **identifica ante el funcionario habilitado**.
+2. Presta **consentimiento expreso** para que se practique la identificación o firma por funcionario.
+3. Debe quedar constancia para caso de discrepancia o litigio. El **art. 30.1 RD 203/2021** exige constancia **por escrito** y entrega a la persona interesada de **la documentación del trámite** y **copia del consentimiento cumplimentado y firmado**.
+4. En el ámbito de la **Administración General del Estado**, el funcionario debe estar inscrito en el **Registro de Funcionarios Habilitados** y el trámite estar **previamente habilitado** por el departamento u organismo (**art. 30.2**).
 
-El certificado de autenticación de sitio web de sede permite:
+| Situación | ¿Puede firmar el funcionario? |
+|---|---|
+| Interesado **no obligado**, sin medios electrónicos, identificado y con consentimiento expreso | **Sí**, en los trámites y condiciones habilitados |
+| Interesado **obligado a relacionarse electrónicamente** conforme al art. 14.2–3 | La vía de asistencia con firma sustitutoria del **art. 12.2** no se le aplica por esa sola condición |
+| Falta de consentimiento o identificación ante funcionario | **No** se cumplen las condiciones legales |
 
-- identificar el dominio;
-- vincularlo con la Administración responsable;
-- establecer comunicación segura;
-- facilitar la comprobación por el navegador.
+> ⚠️ **¡Foco Examen!:** **Funcionario habilitado** no equivale a cualquier empleado. Son esenciales la **identificación presencial**, el **consentimiento expreso**, la **constancia escrita** y la entrega de **copia** al ciudadano, según **art. 30.1**. No se pide al ciudadano la **clave privada** ni el **PIN**.
 
-No es un certificado de empleado ni un sello para firmar resoluciones.
+## 3. Certificado de sede electrónica (**RD 203/2021, art. 18**)
 
-## 4. Sello electrónico de Administración u órgano
+La **sede electrónica** es una dirección electrónica cuya titularidad corresponde a una **Administración Pública, organismo público o entidad de derecho público**, en el ejercicio de sus competencias. Para identificarse y garantizar una comunicación segura, las **sedes** y las **sedes asociadas** usan **certificados cualificados de autenticación de sitio web o medio equivalente** (**18.1**).
 
-Las Administraciones pueden identificarse mediante sello electrónico basado en certificado cualificado.
+**Especialidad estatal:** las sedes electrónicas de la **AGE** y sus sedes asociadas se identificarán mediante **certificados cualificados de autenticación de sitio web** (**18.2**). Su dirección incluirá el nombre de dominio **`.gob.es`** y su condición de sede debe figurar de forma **visible e inequívoca**.
 
-El certificado debe incluir al menos:
+| Ámbito | Identificación de la sede |
+|---|---|
+| **Regla general** | Certificado cualificado de autenticación web **o medio equivalente** (**18.1**) |
+| **AGE y sedes asociadas** | Certificado **cualificado de autenticación web**; dominio **`.gob.es`** (**18.2**) |
+| **Firma de un acto administrativo** | Certificado web **no** sustituye el **sello** o la **firma electrónica** del documento |
 
-- denominación del suscriptor;
-- NIF;
-- indicación de que se trata de sello;
-- datos técnicos y de validación exigibles.
+> ⚠️ **¡Foco Examen!:** La alternativa **«certificado cualificado de web o medio equivalente»** corresponde a la **regla general (18.1)**, mientras que la **AGE (18.2)** exige **certificado cualificado** y dominio **`.gob.es`**. **HTTPS no es firma del acto administrativo**.
 
-La relación de sellos usados por cada Administración debe ser pública y accesible electrónicamente, con información suficiente para verificarlos.
+## 4. Sello electrónico de Administración u órgano (**RD 203/2021, art. 19**)
 
-## 5. Actuación administrativa automatizada
+Las **Administraciones Públicas**, organismos y órganos pueden identificarse mediante **sello electrónico** basado en **certificado cualificado**, conforme al **art. 40 de la Ley 40/2015** y **art. 19 RD 203/2021**.
 
-Existe cuando un sistema realiza íntegramente una actuación sin intervención directa de un empleado público en cada caso.
+El certificado incluye **NIF** y **denominación** y, cuando corresponda, la identidad del titular del órgano. La relación de sellos debe ser **pública y accesible electrónicamente**, con datos del certificado, **prestador** y medios de comprobación.
 
-Puede firmarse mediante:
+En la **AGE**, la creación del sello requiere **resolución de la persona titular de la Subsecretaría del Ministerio**, o de la **Presidencia o Dirección del organismo o entidad** competente; se publica en la **sede o sede asociada** correspondiente (**19.3**).
 
-- sello electrónico de Administración, organismo u órgano;
-- código seguro de verificación o `CSV` vinculado a la Administración, con comprobación en sede.
+| Requisito de la resolución de creación estatal | Contenido (**art. 19.3**) |
+|---|---|
+| **Titular del sello** | Órgano u organismo responsable y Ministerio de adscripción |
+| **Datos técnicos** | Características del sistema de firma y certificado |
+| **Validación** | Servicio de verificación del certificado |
+| **Alcance** | **Actuaciones y procedimientos** en que puede utilizarse |
 
-Antes deben determinarse:
+> ⚠️ **¡Foco Examen!:** El **sello de órgano** no es una **firma personal** ni un **certificado de autenticación web**. Su creación en la **AGE** se publica en **sede electrónica** y se autoriza por la **Subsecretaría** o el órgano director correspondiente, **no** automáticamente por la autoridad certificadora.
 
-- órgano responsable de definir especificaciones;
-- órgano responsable de programación, mantenimiento y supervisión;
-- órgano responsable a efectos de impugnación;
-- sistema de firma utilizado.
+## 5. Actuación administrativa automatizada y CSV (**Ley 40/2015, art. 42; RD 203/2021, arts. 20–21**)
 
-El CSV no es un certificado electrónico. Es un código que permite contrastar un documento con el original disponible en la sede.
+Existe actuación administrativa automatizada cuando un sistema ejecuta una actuación **íntegramente por medios electrónicos** sin intervención **directa de un empleado público** en cada caso. Con carácter previo se designan los **órganos responsables de especificaciones, programación, mantenimiento, supervisión y control de calidad**, y el competente a efectos de **impugnación** (**art. 41.2 Ley 40/2015**).
+
+Puede autenticarse mediante **sello electrónico de Administración u órgano** o **código seguro de verificación (CSV)** vinculado al órgano o entidad, con comprobación de integridad en su **sede electrónica** (**art. 20.1 RD 203/2021**).
+
+### Requisitos del CSV (art. 21)
+
+| Requisito | Regla legal |
+|---|---|
+| **Verificación** | **Directa y gratuita** por la persona interesada en **sede o sede asociada** (**21.1**) |
+| **Unicidad** | **Código único** para cada documento (**21.2.b**) |
+| **Alteración documental** | Documento modificado → **nuevo documento y CSV diferente** (**21.2.c**) |
+| **Acceso** | Restringido a quien dispone del **CSV**, sin perjuicio de garantías adicionales (**21.2.e**) |
+| **Interoperabilidad entre Administraciones** | Puede superponerse **sello electrónico** al CSV cuando así lo determinen las partes (**21.3**) |
+| **Plazo de verificación en sede, AGE** | **Al menos 5 años**, salvo norma especial que exija **plazo superior** (**21.4.e**) |
+
+En el ámbito **estatal**, el uso del CSV requiere **resolución de la Subsecretaría del Ministerio** o de la **Presidencia/Dirección del organismo**, con **informes previos del Centro Criptológico Nacional y de la Secretaría General de Administración Digital** (**21.4**). La resolución delimita actuaciones, responsables, normativa, sede de comprobación y **plazo de disponibilidad**. Transcurrido ese plazo, el interesado debe solicitar la verificación al **órgano emisor** conforme a **21.4.e**.
+
+| «5 años» | ¿A qué se refiere? |
+|---|---|
+| **Ley 6/2020, 4.2** | **Vigencia máxima** de un **certificado cualificado** |
+| **RD 203/2021, 21.4.e** | **Disponibilidad mínima** para comprobar **CSV en sede estatal** |
+
+> ⚠️ **¡Foco Examen!:** El **CSV no es un certificado electrónico**. Su verificación en sede estatal debe mantenerse durante **al menos 5 años** (**art. 21.4.e**) y un documento **modificado exige CSV nuevo** (**21.2.c**). El **plazo mínimo de CSV** no es la **vigencia máxima de un certificado**.
 
 ## 6. Firma del empleado público
 
@@ -981,39 +1012,53 @@ Los certificados de empleado público:
 
 No deben utilizarse para actuaciones privadas ajenas al puesto.
 
-## 7. Certificado con pseudónimo
+## 7. Certificado de empleado público con número de identificación profesional (**RD 203/2021, art. 23**)
 
-Puede utilizarse cuando resulte legalmente adecuado proteger la identidad pública del empleado, por ejemplo en determinadas funciones especialmente sensibles.
+No debe confundirse un **pseudónimo genérico** con el sistema reglamentario de **«certificados electrónicos de empleado público con número de identificación profesional»** (**art. 23**). Son **certificados cualificados** que permiten utilizar un **número de identificación profesional** por razones legalmente justificadas.
 
-El pseudónimo debe constar como tal. El prestador y la Administración conservan la información necesaria para determinar la identidad real ante órganos competentes.
+El **prestador cualificado** puede consignar ese número **a petición de la Administración** cuando el empleado actúe en asuntos relativos a **información clasificada**, **seguridad pública**, **defensa nacional** u otras actuaciones con **anonimato legalmente justificado** (**23.1**).
 
-No constituye anonimato absoluto.
+| Materia | Órgano o límite |
+|---|---|
+| **Solicitud en la AGE** | **Subsecretaría del Ministerio** o **Presidencia/Dirección del organismo** donde sirve el empleado (**23.2**) |
+| **Conservación de identidad real** | **Administración solicitante**, que custodia documentación de identidad (**23.3**) |
+| **Uso y alcance** | Misma capacidad funcional que certificado de empleado, **limitado a actuaciones que justificaron su emisión** (**23.4**) |
+| **Revelación de la identidad** | **Autoridades públicas competentes y órganos judiciales** pueden solicitarla mediante **petición oficial** (**23.5**) |
 
-## 8. Plataforma de verificación
+> ⚠️ **¡Foco Examen!:** El nombre reglamentario es **«certificado con número de identificación profesional»**, no un certificado «anónimo». **Prestador cualificado** expide, pero la **Administración** conoce la identidad; solo se usa en **actuaciones justificadas** y puede solicitarse su revelación oficialmente.
 
-El Real Decreto 203/2021 prevé una plataforma de la Administración General del Estado para comprobar gratuitamente, para el sector público:
+## 8. Plataforma de verificación (**RD 203/2021, art. 16**)
 
-- vigencia;
-- contenido;
-- estado de los certificados cualificados admitidos.
+La **AGE** dispondrá de una plataforma para comprobar **vigencia y contenido** de **certificados cualificados** admitidos en el sector público. La **Secretaría General de Administración Digital (SGAD)** es el **órgano responsable**, y la plataforma se pone a disposición de **todo el sector público** mediante el correspondiente **instrumento de adhesión** (**16.1**).
 
-Los prestadores cualificados deben facilitar acceso electrónico y gratuito para la verificación de la vigencia de sus certificados.
+| Elemento | Dato test |
+|---|---|
+| **Órgano responsable** | **Secretaría General de Administración Digital**, conforme a la denominación del texto reglamentario |
+| **Destinatarios de verificación** | **Sector público** |
+| **Coste para sector público** | Verificación **libre y gratuita** |
+| **Acceso de otras Administraciones** | **Adhesión** mediante instrumento correspondiente |
+| **Prestadores cualificados** | Acceso electrónico **gratuito** para comprobar vigencia de certificados expedidos en virtud de su cualificación (**16.3**) |
+| **Transparencia** | Declaración de prácticas de validación **pública y gratuita** (**16.2**) |
 
-La plataforma estatal más conocida es `@firma`, que presta servicios de validación e integración. No expide por ello certificados a los ciudadanos.
+La plataforma estatal conocida como **`@firma`** realiza servicios de **validación**; no se convierte por ello en **prestador emisor de certificados** ni en una **lista de confianza de prestadores cualificados**.
 
-## 9. Política de firma y certificados
+> ⚠️ **¡Foco Examen!:** **SGAD = responsable de plataforma de verificación**; **prestador = emite certificados**; **lista de confianza = identifica servicios cualificados**. El art. **16** exige gratuidad **para el sector público**, no promete todos los servicios de firma gratuitos a cualquier usuario.
 
-La política de firma establece:
+## 9. Política de firma y certificados (**RD 203/2021, art. 17**)
 
-- ámbito de aplicación;
-- formatos admitidos;
-- requisitos de firmas presentadas;
-- reglas de validación;
-- certificados aceptados;
-- conservación de evidencias;
-- servicios y perfiles técnicos.
+La **política de firma electrónica y certificados** fija directrices y normas técnicas de identificación, uso de certificados y firma para la **Administración General del Estado** y sus organismos, sin sustituir el marco **eIDAS**.
 
-La política no sustituye a eIDAS ni puede atribuir condición cualificada a un servicio que no la tenga.
+Debe incorporar, como mínimo, según el **17.2**, **ámbito de aplicación**, **requisitos de las firmas presentadas** y especificaciones técnicas/operativas de los servicios de confianza asociados a los sistemas de identificación y autenticación.
+
+| Fase | Órgano y formalidad |
+|---|---|
+| **Aprobación de la política estatal** | **Resolución de la persona titular de la Secretaría de Estado de Digitalización e Inteligencia Artificial** (**17.3**, denominación literal del reglamento) |
+| **Publicidad de política estatal** | **BOE** y **sede electrónica del Punto de Acceso General electrónico (PAGe)** (**17.3**) |
+| **Políticas particulares de Administraciones** | Deben respetar requisitos de **interoperabilidad** de la política marco, con ficheros de implementación conforme al Reglamento |
+
+**Formatos y perfiles** (por ejemplo **PAdES**, **XAdES** o **CAdES**) son cuestiones técnicas de **cómo se incorpora la firma**; **no determinan por sí solos** que sea **cualificada**.
+
+> ⚠️ **¡Foco Examen!:** **Política estatal (art. 17)** se aprueba por **resolución** y se publica en **BOE y PAGe**; un **formato PAdES o XAdES** no acredita por sí solo **firma cualificada**, prestador cualificado o identidad del firmante.
 
 ## 10. Formatos de firma como complemento
 
