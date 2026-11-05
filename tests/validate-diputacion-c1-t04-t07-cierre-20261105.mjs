@@ -43,7 +43,7 @@ assert.match(t6.preguntas[8].pregunta,/no indispensable/);
 assert.match(t6.preguntas[8].respuestaLiteral,/pérdida del derecho al trámite/);
 assert.match(t7.preguntas[11].pregunta,/49\.1/);
 assert.match(t7.preguntas[11].respuestaLiteral,/No quedan invalidados automáticamente/);
-assert.match(read(root+'04/manual.md'),/\*\*Solo si niega\*\* la causa/);
+assert.match(read(root+'04/manual.md'),/\*\*(?:Solo si niega la causa|Si niega)\*\*/);
 assert.match(read(root+'06/manual.md'),/sancionadores por infracción leve/);
 assert.match(report,/324 alternativas/);
 console.log('DIPUTACION_C1_T04_T07_CIERRE_EDITORIAL_81_PREGUNTAS_324_OPCIONES_OK');
