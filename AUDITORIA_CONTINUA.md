@@ -1993,3 +1993,20 @@ Se han releído `PROJECT_RULES.md` y el apartado inmediatamente anterior (§65),
 **Fuente primaria:** https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a5 (arts. 5, 6 y 7). **Commit de contenido:** `18c3e61c746c7dc46e48f606951f5705713ee8b2`. Se ha verificado que el JSON contiene las 20 preguntas y se conservan las claves de los tres ítems; no se han ejecutado `npm test` ni pruebas de navegador en esta ejecución. La consulta de workflow runs para el prefijo `e5b09f24` devolvió **lista vacía**, lo cual **no demuestra éxito ni fracaso**: volver a comprobar por SHA completo y, si procede, estado combinado. CI/Pages del commit nuevo **pendientes**.
 
 **Cobertura:** **51/121** bancos cotejados previamente; el T14 sigue en revisión parcial y **0/121** temas certificados integralmente. **Siguiente lote:** verificar CI/Pages por SHA exacto; cotejar las 20 preguntas y 80 alternativas de T14 y manual/epígrafes/matriz, revisar si quedan redundancias y avanzar a T15–T16. Mantener T06 OAPGT reservado al final. Persisten pruebas funcionales reales de práctica, móvil, PWA y accesibilidad, y fecha primaria de corte normativo UC3M.
+
+
+## 67. Diputación Toledo C2 T14 · nueve explicaciones y CI/Pages verificadas — 05/11/2026
+
+### Evidencia de origen y validación
+
+Se leyó primero `PROJECT_RULES.md` y el apartado final vigente (§66), se consultó el historial de commits y los workflow runs. El SHA `7a2318435ee5077bbea8d2080211ba99ccb1ce68` obtuvo **CI success** (run **41945999062**) y **GitHub Pages success** (run **41945998793**), ambos con **head_sha exacto** y conclusión `success`. La ejecución Pages del commit intermedio `18c3e61c` fue cancelada por concurrencia; la publicación correcta del commit posterior no equivale a prueba de navegador. **El nuevo SHA de contenido `082f90f450b684ab956e0a0aca1fd8ed7c9acc1e` todavía requiere verificar sus propios runs.**
+
+### Trabajo jurídico-editorial efectivamente realizado
+
+En `content/diputacion-toledo-auxiliar-c2/tema-14/preguntas.json` se reforzaron **nueve preguntas**: **DT-C2-T14-007, 008, 009, 010, 012, 015, 016, 018 y 019**. Se diferenciaron los fundamentos de **Ley 39/2015 arts. 9–11**, **Reglamento (UE) 910/2014 arts. 3.9, 3.24, 3.38, 25, 29, 32 y 35**, **Ley 6/2020 art. 4.1** y FAQ FNMT 1213. Cada explicación distingue explícitamente la opción correcta de los **tres distractores**, con advertencias específicas para examen. **36 alternativas** examinadas editorialmente en este lote, sin cambiar identificadores, posiciones de clave ni número de preguntas. Se sustituyó el bloque repetitivo de «Diferenciar firma, sello...» por focos individualizados. No se afirma haber cotejado jurídicamente todos los manuales ni ejecutado tests de navegador.
+
+**Fuentes primarias:** [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [Ley 6/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046), [Reglamento eIDAS](https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa) y [FNMT, FAQ 1213](https://www.sede.fnmt.gob.es/ca/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1213-que-diferencia-hay-entre-solicitar-un-certificado-en-tarjeta-criptografica-y-solicitarlo-en-software-). **Commit de contenido:** `082f90f450b684ab956e0a0aca1fd8ed7c9acc1e`. Los artículos de eIDAS deberán comprobarse asimismo frente a la versión aplicable tras sus modificaciones y fechas de aplicación antes de declarar cierre legal.
+
+### Cobertura, faltantes y siguiente lote
+
+Se mantienen **51/121 bancos previamente cotejados** y **0/121 temas con certificación integral simultánea**. T14 permanece parcial: completar cotejo individual de T14-001–006, 011, 013, 014, 017 y 020 frente a fuentes vigentes, verificar el programa literal, manual, matriz y fuentes, comprobar el render y tests de práctica real. Siguiente lote prioritario: cerrar documentalmente T14 sin inventar certificado y avanzar a **Diputación C2 T15–T16**, con T06 OAPGT al final. Persisten pruebas reales de móvil/PWA/accesibilidad y fecha de corte UC3M.
