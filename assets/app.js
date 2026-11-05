@@ -75,7 +75,7 @@ function inlineMarkdown(value) {
   const formatText = segment => escapeHtml(segment)
     .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
     .replace(/\x60([^\x60]+)\x60/g, '<code>$1</code>');
-  const linkPattern = /\[([^\]\n]+)\]\((https:\/\/[^\s)]+)\)|(https:\/\/[^\s<)]+)/g;
+  const linkPattern = /\[([^\]\n]+)\]\((https:\/\/[^\s)]+|[A-Za-z0-9][A-Za-z0-9._-]*\.md(?:#[A-Za-z0-9_-]+)?)\)|(https:\/\/[^\s<)]+)/g;
   const output = [];
   let last = 0;
   let match;
@@ -83,8 +83,15 @@ function inlineMarkdown(value) {
     output.push(formatText(text.slice(last, match.index)));
     const label = match[1] || match[3];
     const url = match[2] || match[3];
-    output.push('<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
-      formatText(label) + '</a>');
+    if (url.startsWith('https://')) {
+      output.push('<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+        formatText(label) + '</a>');
+    } else {
+      // Enlace a un archivo Markdown del mismo tema: se abre dentro del visor,
+      // no como texto sin formato ni como una URL no comprobada.
+      output.push('<a href="#" data-manual-file="' + escapeHtml(url) + '">' +
+        formatText(label) + '</a>');
+    }
     last = linkPattern.lastIndex;
   }
   output.push(formatText(text.slice(last)));
@@ -118,9 +125,9 @@ function renderMarkdown(markdown) {
     if (!line.trim()) { index += 1; continue; }
     if (/^---+$/.test(line.trim())) { html.push('<hr>'); index += 1; continue; }
 
-    const heading = line.match(/^(#{1,4})\s+(.+)$/);
+    const heading = line.match(/^(#{1,5})\s+(.+)$/);
     if (heading) {
-      const level = Math.min(4, heading[1].length + 1);
+      const level = Math.min(6, heading[1].length + 1);
       html.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
       index += 1;
       continue;
@@ -163,7 +170,7 @@ function renderMarkdown(markdown) {
     const paragraph = [line.trim()];
     index += 1;
     while (index < lines.length && lines[index].trim() &&
-      !/^(#{1,4})\s+/.test(lines[index]) &&
+      !/^(#{1,5})\s+/.test(lines[index]) &&
       !/^---+$/.test(lines[index].trim()) &&
       !/^\s*-\s+/.test(lines[index]) &&
       !/^\s*\d+\.\s+/.test(lines[index]) &&
@@ -446,6 +453,28 @@ function activateTest(questions) {
   });
 }
 
+async function loadManualDocument(theme, rawFile) {
+  const manual = document.querySelector('#manual');
+  if (!manual) return;
+  const file = String(rawFile ?? '').split('#')[0];
+  // Los enlaces internos solo permiten nombres .md del directorio del tema.
+  // Impide rutas ascendentes, esquemas y URLs externas no intencionadas.
+  if (!/^[A-Za-z0-9][A-Za-z0-9._-]*\.md$/.test(file) || file === 'manual.md') return;
+  const back = '<div class="toolbar"><button type="button" class="btn secondary" data-back-manual>← Volver al manual completo</button></div>';
+  manual.innerHTML = back + '<p>Cargando apartado…</p>';
+  try {
+    const folder = themePath(theme, 'manual').replace(/[^/]+$/, '');
+    const response = await fetchWithTimeout(folder + file, { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    manual.innerHTML = back + renderMarkdown(await response.text());
+  } catch (error) {
+    const message = error.name === 'AbortError'
+      ? 'La carga ha tardado demasiado.'
+      : `No se ha podido cargar el apartado: ${error.message}.`;
+    manual.innerHTML = back + '<p class="notice warning">' + escapeHtml(message) + '</p>';
+  }
+}
+
 async function loadManual(theme) {
   const manual = document.querySelector('#manual');
   if (!manual) return;
@@ -510,6 +539,16 @@ function openTheme(theme, { push = true } = {}) {
     scrollTo({ top: 0, behavior: 'smooth' });
   });
   document.querySelector('#top')?.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
+  document.querySelector('#manual')?.addEventListener('click', event => {
+    const back = event.target.closest('[data-back-manual]');
+    if (back) { loadManual(theme); return; }
+    const link = event.target.closest('a[data-manual-file]');
+    if (!link) return;
+    event.preventDefault();
+    const file = link.getAttribute('data-manual-file') || '';
+    if (file.split('#')[0] === 'manual.md') loadManual(theme);
+    else loadManualDocument(theme, file);
+  });
   loadManual(theme);
   loadSources(theme);
   loadQuestions(theme);
