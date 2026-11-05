@@ -2389,3 +2389,24 @@ Nueva prueba [`tests/validate-diputacion-c2-t15-funciones-61-62-73-75.mjs`](test
 **Cuestión jurídica pendiente explícita:** el **art. 62.2.e** conserva una remisión histórica a la **DT tercera del RDL 3/2011** en contratación de organismos autónomos. **No se ha inventado una cuantía vigente**; requiere cotejar correspondencia con la **Ley 9/2017** y reglas actuales. No se ha probado navegación real, móvil, PWA ni accesibilidad.
 
 **Estado:** `EN_AUDITORIA`. El banco del T15 mantiene **20/80 cotejado**; **51/121 bancos** históricos y **0/121 temas certificados integralmente**, sin aumento por este lote. Próxima tarea: resolver remisión contractual **62.2.e** y revisar particularidades residuales **73–79**; después **T14/eIDAS**, con prioridad por exámenes de La Puebla (**14/11/2026**) y UC3M (**21/11/2026**). **T06 OAPGT** reservado hasta Estatutos vigentes íntegros, sin reabrir convocatorias descartadas.
+
+
+## 86. Diputación C2 T15 — remisión contractual vigente del artículo 62.2.e: LCSP 900.000 € condicional vs 12.000.000 € (05/11/2026)
+
+**Continuación del §85 y fuentes primarias:** Se verificó la remisión del [**art. 62.2.e Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a62) a la **DT 3.ª del RDL 3/2011**, texto contractual **derogado**, contra la [**Ley 9/2017, de Contratos del Sector Público, art. 324.1 y 324.5**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a324) y su [**disposición transitoria segunda**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#dt-2), redacciones consolidadas verificadas el **05/11/2026**.
+
+### Dato test vigente y condiciones
+
+| Régimen | Órgano competente | Cuantía | Requisito |
+|---|---|---|---|
+| **Autorización departamental** de entidades estatales que son poderes adjudicadores, **art. 324.5 LCSP** | **Secretario de Estado** o, en su defecto, **titular del Ministerio de adscripción** | La **que fije ese órgano** como valor estimado umbral | Debe existir el supuesto legal de adscripción y poder adjudicador |
+| **Disposición transitoria segunda LCSP** | El mismo órgano departamental | **900.000 €** | Opera **hasta que el órgano competente fije otra cuantía**; calculado por **valor estimado** del **art. 101** |
+| **Autorización Consejo de Ministros**, **art. 324.1.a LCSP** | **Consejo de Ministros** | **12.000.000 € o más**, valor estimado | Supuesto distinto, con otros supuestos del art. 324.1 legalmente tasados |
+
+El umbral **900.000 € no es universal ni invariable**: debe comprobarse si se dictó una resolución distinta para la entidad correspondiente conforme al **art. 324.5**. **Tampoco se confunde** con el umbral de autorización del **Consejo de Ministros**, de **12.000.000 €**, bajo los requisitos del **art. 324.1**.
+
+**Ediciones reales:** [`manual.md`](content/diputacion-toledo-auxiliar-c2/tema-15/manual.md), [`cotejo-funciones-61-62-73-75-2026-11-05.md`](content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-funciones-61-62-73-75-2026-11-05.md), [`fuentes.md`](content/diputacion-toledo-auxiliar-c2/tema-15/fuentes.md) y [`matriz.json`](content/diputacion-toledo-auxiliar-c2/tema-15/matriz.json). Tablas comparativas, referencias BOE y **¡Foco Examen!** incorporados; preservada la noticia de la remisión histórica como trampa normativa real.
+
+**Control de regresión:** se reforzó [`tests/validate-diputacion-c2-t15-funciones-61-62-73-75.mjs`](tests/validate-diputacion-c2-t15-funciones-61-62-73-75.mjs), ya enlazada a `npm test`, para exigir ambas cantidades, el carácter supletorio, enlaces al **BOE de la LCSP** y la ausencia de cierre integral. **Commit técnico final:** `3539cbc580da9dd9e1256ee241cfcd5f44f235a9`. **Validar OpoWeb v2: success**, run **42015512476** para ese SHA exacto; Pages **42015510782** estaba **in_progress** al consultarlo. No se afirma despliegue hasta comprobar finalización.
+
+**Límites y siguiente tarea:** no se han auditado resoluciones particulares de cuantía dictadas por cada Secretaría o departamento; se ha cerrado la **explicación general de la remisión contractual**, no un expediente concreto. **Banco T15: 20 preguntas/80 opciones intactas, A5/B5/C5/D5**. **Manual EN_AUDITORIA**, sin certificación integral, prueba funcional real, móvil, PWA o accesibilidad. Cifras históricas no elevadas: **51/121 bancos** y **0/121 temas certificados integralmente**. Siguiente revisión: cerrar incongruencias residuales del T15, luego **T14 eIDAS / certificados electrónicos**, manteniendo la prioridad temporal de los exámenes **La Puebla 14/11/2026** y **UC3M 21/11/2026**. **T06 OAPGT** reservado hasta disponer de Estatutos íntegros vigentes.
