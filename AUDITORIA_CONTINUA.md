@@ -2047,3 +2047,19 @@ Se inspeccionaron las **20 preguntas** y la matriz del **tema 15** de Diputació
 **Validación:** se comprobó estructura JSON al serializar y persistir; **no** se ejecutó `npm test` local ni prueba de navegador. CI/Pages del nuevo commit de contenido y del commit de registro **pendientes de resultado**. El manual T15 todavía contiene una cabecera histórica «CONTENIDO COMPLETO Y COTEJO NORMATIVO 29/10/2026», aunque la advertencia inicial indica falta de certificación: revisar y sanear sin confundir hitos históricos con estado actual. La matriz T15 es documental, no evidencia integral; faltan el cotejo individual de las restantes 19 preguntas/76 alternativas, manual completo, fuentes, simulacros, práctica real, móvil/PWA/accesibilidad. T14 también continúa parcial.
 
 **Cobertura sin incremento:** **51/121** bancos previamente cotejados y **0/121** temas certificados en todas las capas. **Siguiente lote:** comprobar CI/Pages del nuevo SHA exacto, continuar T15 (especialmente arts. 8–24 y 54–80), T16 y cierre documental pendiente T14, sin anticipar T06 OAPGT; mantener prioridad temporal La Puebla y UC3M. Olías conserva discrepancia de plazas/plazos; no actuar sobre solicitudes.
+
+
+## 71. Diputación Toledo C2 T15 · estado editorial y distractores de delegación — 05/11/2026
+
+Se leyó primero `PROJECT_RULES.md` y el apartado final vigente (§70) de este registro. Al inicio, HEAD de `main` era `619655930c75ab019f1f05d76c94017fac154cbf`, comprobado mediante búsqueda de commits. Se inspeccionaron `content/diputacion-toledo-auxiliar-c2/tema-15/manual.md` y las 20 preguntas de `tema-15/preguntas.json`. No se han reabierto convocatorias descartadas ni adelantado el T06 OAPGT.
+
+### Cambios reales
+
+1. **Manual T15:** la cabecera `CONTENIDO COMPLETO Y COTEJO NORMATIVO 29/10/2026` era contradictoria con la advertencia de falta de certificación. Se sustituyó por `EN_AUDITORIA — pendiente de certificación integral`, conservando la fecha de octubre como hito histórico. Commit `a3cdb9467a9c55d8774e7e5687757e1949998001`.
+2. **Banco T15-002:** se reemplazaron tres distractores manifiestamente absurdos por confusiones jurídicamente relevantes sobre **titularidad**, **ejercicio**, **delegación de firma** y **desconcentración**. Se precisaron enunciado, justificación de las cuatro alternativas y trampa, conservando ID, posición correcta **B** y 20 ítems. Cotejo normativo de la distinción: **Ley 40/2015, arts. 8.1, 8.2, 9.1 y 12** ([BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8)). Commit `3ea0f7b0c437a4e4d271ed95967374e99b7202d6`.
+
+### Validación y límites
+
+Se comprobó el parseo JSON del banco antes de persistir y la permanencia de 20 preguntas. La consulta del estado combinado para `619655930c75ab019f1f05d76c94017fac154cbf` devolvió **cero estados** y la consulta de workflow runs del conector devolvió **lista vacía** (el conector solo recupera determinadas ejecuciones PR): **no demuestra ni éxito ni fallo** de CI/Pages. El acceso directo a API pública desde el contenedor falló por DNS. **CI/Pages de los commits nuevos y del commit de registro: no acreditados**. No se ha ejecutado `npm test` ni prueba de navegador real, móvil, PWA o accesibilidad. El cotejo de la pregunta T15-002 no certifica las otras 19 preguntas ni todo el manual; verificar el tenor consolidado oficial y su fecha de corte antes de cerrar integralmente.
+
+**Cobertura sin incremento: 51/121 bancos previamente cotejados y 0/121 temas certificados integralmente.** Siguiente lote: comprobar por SHA exacto las ejecuciones de CI/Pages y corregir cualquier fallo; continuar T15 (arts. 8–24 y 54–80, claves y distractores restantes), T16 y revisión documental T14; priorizar La Puebla y UC3M por exámenes inminentes. T06 OAPGT reservado al final. Olías: discrepancia de plazas y plazo sin resolver, sin presentar solicitudes.
