@@ -2115,3 +2115,43 @@ Se leyeron primero `PROJECT_RULES.md` y el apartado final vigente (§72); HEAD d
 **Fallo detectado y reparado:** la primera modificación de `matriz.json` retiró por accidente la marca `PENDIENTE_COTEJO_INTEGRAL` que exige `tests/validate-diputacion-c2-matrices.mjs` (GitHub Actions: error «Never overclaim certification»). Se restituyó la marca, preservando la metadata del banco. Último commit de corrección **`581bc3246ee910dd0c55981fff1dc92fe2e7b1f0`**, workflow «Validar OpoWeb v2» **success**, ejecución **41986503538**; Pages **41986503122** figuraba `in_progress` en la comprobación inicial y exige verificación específica posterior.
 
 **Alcance real:** cotejo técnico-editorial de un banco, **NO** recertificación de las afirmaciones del manual ni prueba funcional real de Windows, navegación, móvil, PWA, impresora/escáner o accesibilidad. Sin elevar unilateralmente la cobertura global de referencia (**51/121 bancos; 0/121 cierres integrales**) hasta recalcular y demostrar sus criterios. **Siguiente trabajo:** banco T15 Ley 40/2015 y pendientes T14, con cotejo BOE consolidado; T06 OAPGT aplazado por fuentes estatutarias aún sin cerrar.
+
+
+## 75. Diputación Toledo Auxiliar C2 · T15 Ley 40/2015 — ocho preguntas revisadas en BOE (05/11/2026)
+
+### Reanudación, fuentes y alcance
+
+Tras §74, se ha retomado la auditoría del **tema 15**, cuyo programa literal es «Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado» (BOP Toledo **197, 14/10/2026**, Anexo XI, CSV **2026.00004759**). Se comprobó que el último consolidado publicado en el BOE de [Ley 40/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) lleva actualización del **02/08/2024**. También se cotejó la [LO 2/2024](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936), publicada el **02/08/2024** y con entrada en vigor el **22/08/2024**.
+
+**Trabajo ejecutado:** corregidas **8 preguntas** y analizadas **32 alternativas** exactas (T15-003, 007, 008, 009, 011, 014, 019 y 020). Se eliminaron distractores sin relevancia y se introdujeron confusiones sustantivas sobre:
+
+| ID | Fundamento | Regla cotejada |
+|---|---|---|
+| **T15-003** | **Art. 10.1–2** | **Avocación**: acuerdo motivado y notificación a interesados |
+| **T15-007** | **Art. 12** | **Delegación de firma**: no cambia competencia ni requiere publicación |
+| **T15-008** | **Art. 13** | **Suplencia**: vacante/ausencia/enfermedad/abstención/recusación, sin publicación necesaria |
+| **T15-009** | **Art. 9.2.b** | No se delega la adopción de disposiciones de carácter general |
+| **T15-011** | **Art. 17.2** | En general **Presidente + Secretario + mitad** de miembros |
+| **T15-014** | **Art. 55 bis, LO 2/2024** | **40–60 %** por departamento; régimen transitorio diferenciado |
+| **T15-019** | **Art. 72.4** | **Delegado** nombrado mediante real decreto del **Consejo de Ministros** a propuesta del **Presidente del Gobierno** |
+| **T15-020** | **Arts. 55.4 y 74** | **Subdelegado**: AGE, **nivel Subdirector General**, dependencia de **Delegado** |
+
+La pregunta **T15-014** sustituyó otra anterior y ahora cubre una reforma efectiva de **2024** que estaba desarrollada en el manual pero no examinada en el banco. Se mantuvo el contenido del **art. 61** sobre la dirección ministerial en el manual.
+
+**DT 1.3 LO 2/2024:** la regla de **40–60 %** resulta aplicable a los nombramientos y designaciones posteriores a su entrada en vigor (**22/08/2024**). La garantía global del equilibrio en AGE y sector institucional estatal debe alcanzarse en un máximo de **5 años** desde esa fecha (horizonte **22/08/2029**). El plazo global **no** pospone la regla aplicable a nuevos nombramientos hasta **2029**.
+
+### Evidencias preservadas
+
+- [**Banco T15**](content/diputacion-toledo-auxiliar-c2/tema-15/preguntas.json) con **20 preguntas / 80 alternativas**, posiciones originales y distribución **A5/B5/C5/D5**.
+- [**Informe de distractores cotejados**](content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-focal-2026-11-05.md), análisis literal **8 × 4 = 32** con explicación individual y bloque **¡Foco Examen!**.
+- [**Manual**](content/diputacion-toledo-auxiliar-c2/tema-15/manual.md): incorporación de tabla de vigencia y porcentajes de **55 bis**.
+- [**Fuentes**](content/diputacion-toledo-auxiliar-c2/tema-15/fuentes.md) y [**matriz**](content/diputacion-toledo-auxiliar-c2/tema-15/matriz.json) con auditoría parcial diferenciada del estado integral.
+- Nueva prueba [`validate-diputacion-c2-t15-focal.mjs`](tests/validate-diputacion-c2-t15-focal.mjs), añadida al `npm test`, que exige existencia de **8 IDs**, **32 alternativas literales** en el informe, mismas claves, referencias BOE, **40–60 %**, régimen transitorio y estado **PENDIENTE_COTEJO_INTEGRAL**.
+
+### Verificación de CI y límites
+
+La ejecución **41987477311** de **«Validar OpoWeb v2»** finalizó en **success** para el commit de integración `4dedf311a7b0f0cb5ee5043c17a13b5e26421d28`. La ejecución de despliegue **41987477085** estaba todavía **pending** en esa consulta; no se atribuye éxito hasta verificar el resultado del SHA correspondiente. Se comprobó también que el último commit técnico del T16 `581bc3246ee910dd0c55981fff1dc92fe2e7b1f0` obtuvo **CI success (41986503538)** y **Pages success (41986503122)**.
+
+**No es cierre jurídico del tema 15:** faltan cotejar exhaustivamente **12 preguntas/48 alternativas** restantes y los **1.310 renglones** del manual; no se ha probado navegador real, móvil, PWA ni accesibilidad. No incrementar por esta revisión la cobertura acumulada de certificación integral (**0/121**). Tampoco interpretar los **51/121** bancos de referencia histórica como certificación de cinco capas. **T06 OAPGT** permanece aplazado hasta completar fuentes estatutarias.
+
+**Siguiente tarea:** revisar **T15-001, 002, 004–006, 010, 012–013 y 015–018**, contrastar el manual completo con arts. **5–24** y **54–80**; después volver a T14 certificados. Mantener prioridad de exámenes de **La Puebla (14/11/2026)** y **UC3M (21/11/2026)**.
