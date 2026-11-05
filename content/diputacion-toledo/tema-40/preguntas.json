@@ -1,6 +1,6 @@
 {
   "tema": 40,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T40-001",
@@ -64,18 +64,18 @@
     },
     {
       "id": "DIP-T40-005",
-      "pregunta": "¿Cuál es el límite clásico de tamaño de un archivo individual en FAT32?",
+      "pregunta": "¿Cuál es el tamaño máximo exacto de un archivo individual en FAT32?",
       "opciones": [
-        "2 GB",
-        "8 GB",
-        "16 GB",
-        "4 GB"
+        "4 GB decimales exactos (4.000.000.000 bytes)",
+        "8 GiB sin límite de formato",
+        "1 TiB por archivo si el volumen supera 32 GB",
+        "4 GiB menos 1 byte (4.294.967.295 bytes)"
       ],
       "correcta": 3,
-      "justificacion": "FAT32 tiene un límite clásico de 4 GB por archivo individual, por lo que no admite archivos que alcancen o superen ese tamaño.",
-      "trampa": "El límite de 4 GB afecta a cada archivo, no a la capacidad total de la unidad formateada en FAT32.",
-      "referencia": "content/diputacion-toledo/tema-40/manual.md#discos-duros-externos",
-      "respuestaLiteral": "4 GB"
+      "justificacion": "El campo de tamaño de archivo de FAT32 permite un máximo de 2^32−1 bytes, equivalente a 4 GiB menos 1 byte; Microsoft expresa el límite de la familia FAT32 como 4 GiB en su tabla comparativa.",
+      "trampa": "Los 4 GiB aproximados no son 4 GB decimales; no confundir límite de archivo y capacidad de volumen.",
+      "referencia": "Microsoft Learn, comparativa de sistemas de archivos, tamaño máximo FAT32 · https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison",
+      "respuestaLiteral": "4 GiB menos 1 byte (4.294.967.295 bytes)"
     },
     {
       "id": "DIP-T40-006",
@@ -109,18 +109,18 @@
     },
     {
       "id": "DIP-T40-008",
-      "pregunta": "Una unidad CD-R permite, con carácter general:",
+      "pregunta": "¿Cuál es la capacidad nominal habitual de un DVD de una sola capa, frente a los 8,5 GB del de doble capa?",
       "opciones": [
-        "Grabar y borrar indefinidamente",
-        "Solo reproducir DVD",
-        "Grabar una vez",
-        "Almacenar exclusivamente audio"
+        "700 MB, como en un CD de datos habitual",
+        "25 GB, como en determinados discos Blu-ray",
+        "4,7 GB (nominales, en notación decimal)",
+        "8,5 GB, capacidad del DVD de doble capa"
       ],
       "correcta": 2,
-      "justificacion": "La modalidad CD-R permite grabar el soporte una vez; la regrabación corresponde a los soportes CD-RW.",
-      "trampa": "La letra R significa grabable, no regrabable.",
-      "referencia": "content/diputacion-toledo/tema-40/manual.md#modalidades",
-      "respuestaLiteral": "Grabar una vez"
+      "justificacion": "Un DVD convencional de capa única se anuncia normalmente con 4,7 GB decimales; uno de doble capa, con 8,5 GB nominales.",
+      "trampa": "El fabricante utiliza GB decimales; el sistema operativo puede mostrar una cifra menor si usa GiB binarios.",
+      "referencia": "Tema 40, soportes ópticos: capacidades nominales · content/diputacion-toledo/tema-40/manual.md#lectores-y-grabadores-de-cd-y-dvd",
+      "respuestaLiteral": "4,7 GB (nominales, en notación decimal)"
     },
     {
       "id": "DIP-T40-009",
@@ -184,18 +184,18 @@
     },
     {
       "id": "DIP-T40-013",
-      "pregunta": "¿Qué periférico resulta especialmente apropiado para digitalizar automáticamente muchas páginas sueltas?",
+      "pregunta": "¿Qué tecnología de impresión resulta especialmente adecuada para formularios autocopiativos de varias hojas por impacto?",
       "opciones": [
-        "Alimentador automático de documentos (ADF)",
-        "Escáner plano sin alimentador",
-        "Monitor táctil",
-        "Impresora de etiquetas"
+        "Impresora matricial de agujas con cinta entintada",
+        "Impresora térmica directa sin impacto",
+        "Escáner de cama plana con OCR",
+        "Impresora virtual Microsoft Print to PDF"
       ],
       "correcta": 0,
-      "justificacion": "El **ADF** alimenta sucesivamente hojas para digitalizarlas.",
-      "trampa": "No confundir dispositivos, soportes y funciones.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows",
-      "respuestaLiteral": "Alimentador automático de documentos (ADF)"
+      "justificacion": "Los equipos matriciales de impacto golpean una cinta entintada contra el papel y pueden generar copias en formularios multicapa.",
+      "trampa": "Una impresora sin impacto no actúa como un cabezal de agujas sobre papel autocopiativo.",
+      "referencia": "Epson, impresora matricial de impacto y formularios multicopia · https://support.epson.com/select/For-Work/Printers/Impact-Dot-Matrix/LX-300%2B-II-Impact-Printer/p/C11C640001",
+      "respuestaLiteral": "Impresora matricial de agujas con cinta entintada"
     },
     {
       "id": "DIP-T40-014",
@@ -214,78 +214,78 @@
     },
     {
       "id": "DIP-T40-015",
-      "pregunta": "¿Cuál es la diferencia esencial entre escanear un documento y aplicar OCR?",
+      "pregunta": "¿Qué diferencia básica existe entre ppp (dpi) y páginas por minuto (ppm) al describir una impresora?",
       "opciones": [
-        "El escaneo crea una representación digital y el OCR reconoce caracteres en ella",
-        "El OCR sustituye al escáner físico",
-        "El escaneo produce texto editable de forma obligatoria",
-        "Son exactamente la misma operación"
+        "ppp mide resolución; ppm mide velocidad de impresión",
+        "ppp mide el coste por hoja; ppm la resolución",
+        "Ambas expresan exclusivamente la potencia eléctrica",
+        "ppm identifica la conexión USB y ppp el espacio disponible en disco"
       ],
       "correcta": 0,
-      "justificacion": "**OCR** reconoce texto contenido en una imagen; no es inherente a todo escaneo.",
-      "trampa": "No confundir dispositivos, soportes y funciones.",
-      "referencia": "Conceptos de escáneres · manual tema 40",
-      "respuestaLiteral": "El escaneo crea una representación digital y el OCR reconoce caracteres en ella"
+      "justificacion": "Los puntos por pulgada (dpi) describen densidad o resolución, mientras que páginas por minuto (ppm) indica una medida de productividad o velocidad de impresión.",
+      "trampa": "Una impresora puede tener mayor resolución sin imprimir más páginas por minuto.",
+      "referencia": "HP Support, configuración de impresión y relación dpi/ppm · https://support.hp.com/pl-pl/document/ish_2281139-2041471-16?fallbackLocale=us-en&validated=true",
+      "respuestaLiteral": "ppp mide resolución; ppm mide velocidad de impresión"
     },
     {
       "id": "DIP-T40-016",
-      "pregunta": "¿Qué operación ayuda a reducir pérdidas de datos al desconectar memorias USB en Windows?",
+      "pregunta": "En Windows 11, ¿qué diferencia principal existe entre las políticas de almacenamiento USB «Extracción rápida» y «Mejor rendimiento»?",
       "opciones": [
-        "Desconectarla mientras copia datos",
-        "Expulsar la unidad mediante Quitar hardware de forma segura",
-        "Reiniciar el equipo durante la escritura",
-        "Formatearla antes de retirarla siempre"
+        "Extracción rápida cifra todos los archivos y Mejor rendimiento los borra",
+        "Extracción rápida evita caché de escritura; Mejor rendimiento la permite y exige expulsión segura",
+        "Ambas activan obligatoriamente la misma caché de escritura",
+        "Mejor rendimiento transforma FAT32 en NTFS automáticamente"
       ],
       "correcta": 1,
-      "justificacion": "Microsoft recomienda **expulsar de forma segura** las unidades extraíbles antes de desconectarlas.",
-      "trampa": "No confundir dispositivos, soportes y funciones.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/windows/hardware/safely-remove-hardware-in-windows",
-      "respuestaLiteral": "Expulsar la unidad mediante Quitar hardware de forma segura"
+      "justificacion": "Microsoft Learn indica que Extracción rápida minimiza caché de escritura y permite retirar cuando no hay actividad; Mejor rendimiento permite caché y requiere Quitar hardware de forma segura.",
+      "trampa": "Aunque Extracción rápida sea predeterminada, nunca hay que retirar durante una transferencia activa.",
+      "referencia": "Microsoft Learn, políticas de retirada de medios externos · https://learn.microsoft.com/en-us/windows/client-management/client-tools/change-default-removal-policy-external-storage-media",
+      "respuestaLiteral": "Extracción rápida evita caché de escritura; Mejor rendimiento la permite y exige expulsión segura"
     },
     {
       "id": "DIP-T40-017",
-      "pregunta": "¿Qué diferencia hay entre un CD-R y un CD-RW?",
+      "pregunta": "¿Qué diferencia existe entre una unidad lectora de DVD y una unidad grabadora de DVD?",
       "opciones": [
-        "El CD-R se reescribe indefinidamente",
-        "CD-R es grabable sin reescritura ordinaria y CD-RW es regrabable",
-        "CD-R solo almacena sonido",
-        "CD-RW es un formato exclusivamente de vídeo"
+        "Todas las lectoras de DVD graban automáticamente cualquier CD-RW",
+        "La lectora puede leer discos compatibles; la grabadora también permite escribir en soportes admitidos",
+        "Las grabadoras solo leen, mientras las lectoras escriben",
+        "Una grabadora óptica equivale a un puerto USB-C de carga"
       ],
       "correcta": 1,
-      "justificacion": "**CD-R** es grabable; **CD-RW** admite borrado y regrabación en unidades compatibles.",
-      "trampa": "No confundir dispositivos, soportes y funciones.",
-      "referencia": "Soportes ópticos · manual tema 40",
-      "respuestaLiteral": "CD-R es grabable sin reescritura ordinaria y CD-RW es regrabable"
+      "justificacion": "La capacidad de leer discos no garantiza disponer de láser ni electrónica para grabar; las grabadoras suelen leer además de escribir soportes compatibles.",
+      "trampa": "La compatibilidad con DVD no implica que una unidad pueda grabar todos los formatos ópticos.",
+      "referencia": "Tema 40, lectores/grabadores y modalidades ópticas · content/diputacion-toledo/tema-40/manual.md#lectores-y-grabadores-de-cd-y-dvd",
+      "respuestaLiteral": "La lectora puede leer discos compatibles; la grabadora también permite escribir en soportes admitidos"
     },
     {
       "id": "DIP-T40-018",
-      "pregunta": "¿Cuál es la relación entre un controlador y un periférico?",
+      "pregunta": "Un periférico compatible con Plug and Play se conecta a Windows 11. ¿Qué afirmación es correcta?",
       "opciones": [
-        "El controlador permite la comunicación del sistema con el dispositivo",
-        "El controlador sustituye físicamente al periférico",
-        "El controlador almacena todas las copias de seguridad",
-        "El controlador solo sirve para CD-ROM"
+        "Windows puede detectarlo e instalar el controlador automáticamente, pero sigue siendo necesario un controlador compatible",
+        "Plug and Play elimina la necesidad de controladores en todos los casos",
+        "Windows obliga siempre a instalar el controlador desde un CD antiguo",
+        "El dispositivo Plug and Play siempre funciona sin conectarlo físicamente"
       ],
       "correcta": 0,
-      "justificacion": "Un **driver** permite al sistema operativo interactuar con hardware.",
-      "trampa": "No confundir dispositivos, soportes y funciones.",
-      "referencia": "Controladores · manual tema 40",
-      "respuestaLiteral": "El controlador permite la comunicación del sistema con el dispositivo"
+      "justificacion": "Windows detecta y configura numerosos dispositivos automáticamente y puede instalar controladores a través de Windows Update; algunos periféricos precisan drivers específicos.",
+      "trampa": "Plug and Play significa detección y configuración automatizada, no ausencia de software controlador.",
+      "referencia": "Microsoft Support, drivers de hardware y detección automática · https://support.microsoft.com/es-es/windows/hardware/drivers/automatically-get-recommended-and-updated-hardware-drivers · https://support.microsoft.com/es-es/windows/hardware/add-a-hardware-device-to-a-windows-device",
+      "respuestaLiteral": "Windows puede detectarlo e instalar el controlador automáticamente, pero sigue siendo necesario un controlador compatible"
     },
     {
       "id": "DIP-T40-019",
-      "pregunta": "¿Qué afirmación es correcta sobre el conector USB-C?",
+      "pregunta": "Un cable USB-C está especificado únicamente como USB 2.0. ¿Qué capacidad máxima de datos y limitación corresponde a ese cable?",
       "opciones": [
-        "Garantiza la velocidad máxima USB4",
-        "Define un conector, no por sí mismo velocidad, vídeo o potencia",
-        "Garantiza siempre salida HDMI",
-        "Implica carga a 240 W en todo dispositivo"
+        "Garantiza 40 Gb/s y todas las funciones de vídeo",
+        "Hasta 480 Mb/s de USB 2.0; no soporta señales USB 3.2 ni USB4",
+        "Garantiza 240 W de potencia en cualquier dispositivo",
+        "Convierte automáticamente cualquier memoria USB en SSD NVMe"
       ],
       "correcta": 1,
-      "justificacion": "**USB-C** es un tipo de conector; las funciones concretas dependen de la implementación.",
-      "trampa": "No confundir dispositivos, soportes y funciones.",
-      "referencia": "USB-IF · https://www.usb.org/",
-      "respuestaLiteral": "Define un conector, no por sí mismo velocidad, vídeo o potencia"
+      "justificacion": "USB-IF distingue el conector Type-C del protocolo: un cable USB 2.0 Type-C opera hasta 480 Mb/s y no implementa los conductores de señales USB 3.2/USB4.",
+      "trampa": "Los 480 Mb/s son velocidad teórica de enlace, no 480 MB/s ni velocidad real garantizada.",
+      "referencia": "USB-IF, especificaciones USB 2.0 Type-C · https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf",
+      "respuestaLiteral": "Hasta 480 Mb/s de USB 2.0; no soporta señales USB 3.2 ni USB4"
     },
     {
       "id": "DIP-T40-020",
@@ -306,5 +306,12 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_T40_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "reformuladas": 8,
+    "certificacionIntegral": false
   }
 }

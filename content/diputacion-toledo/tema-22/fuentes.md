@@ -59,3 +59,18 @@ Cuando se obtenga el texto oficial íntegro del Acuerdo Regulador y de los Estat
 [**Informe del bloque C1 20–23**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md). **Cierre parcial de fuente específica; pendiente Estatutos íntegros**, con **20 preguntas, 80 alternativas**. Pruebas de navegador y accesibilidad transversales.
 
 > ⚠️ **¡Foco Examen!:** No confundir normas estatales con las cláusulas especiales de la Diputación ni con excepciones jurídicas.
+
+## Rastreo complementario de Estatutos OAPGT — **06/11/2026** (sin cierre integral)
+
+Se han localizado reproducciones históricas **no oficiales** de publicaciones del BOP de Toledo. Se incorporan **solo como pistas de localización**, no como texto consolidado normativo ni certificación de vigencia:
+
+| Fecha BOP reproducida | Objeto localizado | Valor probatorio y tarea |
+|---|---|---|
+| **11/10/1996** | Texto inicial de los Estatutos, BOP **235/1996** | [Reproducción de Dateas](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/1996/10/11); **pendiente cotejo del BOP oficial** |
+| **04/11/1996** | Corrección de errores del **artículo 8** | [Reproducción de Dateas](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/1996/11/04); **la errata impide usar el texto inicial sin rectificación** |
+| **23/12/2004** | **Aprobación inicial** de una modificación estatutaria de múltiples artículos | [Reproducción de Dateas](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/2004/12/23); **no equivale a aprobación definitiva y entrada en vigor** |
+| **BOP 284/2011** | Reforma de diversos artículos | [BOP oficial ya localizado](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011); no permite reconstruir por sí solo todo el texto vigente |
+
+La [sede electrónica del OAPGT, normativa](https://sede.oapgt.es/Paginas/Normativa.aspx) no ofrece en el contenido consultado una **versión íntegra consolidada de sus Estatutos**. La información disponible no permite verificar con exhaustividad **composición, quórums, mayorías y reparto de competencias actual**. Se mantiene el estado de **AUDITORÍA PENDIENTE** del tema 22, sin añadir al banco preguntas de cifras no comprobadas.
+
+> ⚠️ **¡Foco Examen!:** Una **aprobación inicial** de **2004** no acredita por sí sola la redacción final; y los Estatutos de **1996** presentan **corrección de errores del artículo 8**. No memorizar composiciones ni quórums de textos históricos sin consolidarlos frente a todas las reformas posteriores.
