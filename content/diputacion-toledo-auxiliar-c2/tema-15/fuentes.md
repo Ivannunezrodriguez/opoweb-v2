@@ -91,3 +91,20 @@ El [**informe de cotejo del manual — arts. 9, 63, 64 y 73**](cotejo-manual-com
 > ⚠️ **¡Foco Examen!:** **A1 jubilado puede ser Subsecretario**, a diferencia de la lectura anterior del manual; **Delegado** tiene jefatura autonómica de FFCCSE, **Subdelegado** dirige las fuerzas estatales en su provincia.
 
 **Control editorial:** no debe confundirse esta revisión focal de cuatro artículos con el cotejo integral del manual ni la prueba funcional del portal.
+
+## Contraste del bloque de órganos y competencia — **05/11/2026**
+
+El [informe del cotejo focal por artículos 5–14](cotejo-manual-organos-competencias-2026-11-05.md) registra las **12 correcciones de pasajes** efectuadas sobre el manual contra el [**BOE consolidado Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), última actualización publicada **02/08/2024**.
+
+| Preceptos | Regla aclarada para examen |
+|---|---|
+| **5–7** | Órgano frente a unidad, publicación **condicionada** de instrucciones y actuación **colegiada** de servicios consultivos |
+| **8** | **Irrenunciabilidad**, titularidad frente a ejercicio y **desconcentración** |
+| **9.5** | **Dictamen o informe preceptivo**: no cabe delegar la resolución **después de emitido** |
+| **10–12** | **Avocación no jerárquica**, **encomienda material/técnica**, formalización y **delegación de firma sin publicidad necesaria** |
+| **13** | Designación de **suplentes** en AGE en estructura, estatutos o acto de nombramiento inicial/posterior |
+| **14.2–3** | **Interesados que sean parte**, declinación/inhibición y conflicto de atribuciones entre órganos no jerárquicos de la misma Administración |
+
+> ⚠️ **¡Foco Examen!:** **Interesado que es parte en el expediente** puede promover las actuaciones del **art. 14.2**; **no** sustituye los tres requisitos de un **conflicto de atribuciones** del **art. 14.3**.
+
+**Límite:** revisión focal de los artículos 5–14; el manual completo aún **no** está certificado ni hay pruebas de uso real en navegador.
