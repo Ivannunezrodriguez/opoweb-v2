@@ -41,7 +41,7 @@ const manual = readFileSync(dir + 'manual.md', 'utf8');
 const sources = readFileSync(dir + 'fuentes.md', 'utf8');
 for (const id of ['007','008','010','014']) assert.ok(report.includes('DT-C2-T16-'+id), 'Falta análisis: '+id);
 assert.match(report, /16 preguntas \/ 64 alternativas/);
-assert.match(report, /sin.*cierre integral/i);
+assert.match(report, /no cierre integral|no.*certificaci[oó]n integral/i);
 assert.match(manual, /ESTADO ACTUAL: EN_AUDITORIA/);
 assert.match(manual, /Ctrl\+Mayús\+N/);
 assert.match(manual, /Cambiar la extensión no transforma/);
