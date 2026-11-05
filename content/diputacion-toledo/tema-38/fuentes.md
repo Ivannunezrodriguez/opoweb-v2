@@ -38,3 +38,10 @@
 - Opciones para ocultar y mostrar diapositivas: https://help.libreoffice.org/latest/es/text/simpress/main_slide.html
 
 Banco ampliado a **20 preguntas**. Pendiente auditoría general y prueba funcional.
+
+## Cotejo por bloque C1 36–39 — **05/11/2026**
+
+- [**Guía LibreOffice 24.8 en español**](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html): atajos generales **Ctrl + U** (nuevo), **Ctrl + G** (guardar), frente a las combinaciones internacionales previamente presentes.
+- [**Atajos específicos de Impress**](https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html): **F2** editar texto, **F4** posición/tamaño, **F5** pase, **Ctrl + Mayús + G** agrupar, **Ctrl + Mayús + K** combinar; se reemplaza **DIP-T38-019** duplicada sobre ocultación.
+- [**Transición de diapositivas**](https://help.libreoffice.org/latest/es/text/simpress/01/06040000.html) y [animación de objetos](https://help.libreoffice.org/latest/es/text/simpress/guide/animated_objects.html): acciones distintas.
+- Banco de **20 preguntas / 80 opciones**, **1** sustitución. [Informe de cierre](../cierre-editorial-36-39-2026-11-05.md).

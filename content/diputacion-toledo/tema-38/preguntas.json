@@ -1,6 +1,6 @@
 {
   "tema": 38,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T38-001",
@@ -274,18 +274,18 @@
     },
     {
       "id": "DIP-T38-019",
-      "pregunta": "¿Qué implica ocultar una diapositiva en Impress?",
+      "pregunta": "¿Qué atajo usa Impress en Windows para combinar los objetos seleccionados en un único objeto (distinto de agruparlos)?",
       "opciones": [
-        "La excluye del pase ordinario pero permanece en la presentación",
-        "La elimina del archivo",
-        "Borra su contenido",
-        "La convierte en una nota"
+        "Ctrl + Mayús + K",
+        "Ctrl + Mayús + G, que solo agrupa los objetos",
+        "F4, que abre posición y tamaño",
+        "Esc, que finaliza el pase de diapositivas"
       ],
       "correcta": 0,
-      "justificacion": "La diapositiva oculta permanece en el documento, pero no aparece durante el pase ordinario.",
-      "trampa": "Diferenciar acciones del pase de diapositivas y edición de objetos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/simpress/main_slide.html",
-      "respuestaLiteral": "La excluye del pase ordinario pero permanece en la presentación"
+      "justificacion": "La ayuda oficial de Impress diferencia Ctrl+Mayús+G para agrupar de Ctrl+Mayús+K para combinar objetos seleccionados. Combinar y agrupar no producen el mismo tipo de objeto.",
+      "trampa": "Agrupar conserva elementos dentro de un grupo, mientras combinar crea una figura combinada; no confundir teclas G y K.",
+      "referencia": "LibreOffice Impress, atajos de teclado · https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html",
+      "respuestaLiteral": "Ctrl + Mayús + K"
     },
     {
       "id": "DIP-T38-020",
@@ -306,5 +306,12 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_36_39_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 1,
+    "certificacionIntegral": false
   }
 }

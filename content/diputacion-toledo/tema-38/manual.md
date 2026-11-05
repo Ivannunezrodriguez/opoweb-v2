@@ -1,4 +1,10 @@
-# Tema 38 · LibreOffice 24 IV. Elaboración y uso de presentaciones con LibreOffice 24 Impress
+# Tema 38 · LibreOffice 24 Impress
+
+## Epígrafe oficial
+
+**LibreOffice 24 IV. Elaboración y uso de presentaciones con LibreOffice 24 Impress.**
+
+**Estado editorial:** `AUDITADO`
 
 ## 1. Concepto y finalidad
 
@@ -33,13 +39,13 @@ La ventana de Impress incluye, entre otros elementos:
 
 ## 3. Crear, abrir y guardar presentaciones
 
-Una presentación nueva puede crearse desde **Archivo > Nuevo > Presentación** o con **Ctrl + N** cuando Impress está activo.
+Una presentación nueva puede crearse desde **Archivo > Nuevo > Presentación** o con **Ctrl + U** según la guía española de LibreOffice **24.8** (en otras configuraciones puede aparecer **Ctrl + N**).
 
 Operaciones esenciales:
 
 | Acción | Atajo |
 |---|---:|
-| Guardar | **Ctrl + S** |
+| Guardar (**guía española 24.8**) | **Ctrl + G** |
 | Guardar como | **Ctrl + Mayús + S** |
 | Abrir | **Ctrl + O** |
 | Imprimir | **Ctrl + P** |
@@ -223,8 +229,8 @@ También puede exportar a PDF. Exportar no sustituye necesariamente el archivo e
 
 | Acción | Atajo |
 |---|---:|
-| Nueva presentación | **Ctrl + N** |
-| Guardar | **Ctrl + S** |
+| Nueva presentación (**guía española 24.8**) | **Ctrl + U** |
+| Guardar (**guía española 24.8**) | **Ctrl + G** |
 | Guardar como | **Ctrl + Mayús + S** |
 | Nueva diapositiva | **Ctrl + M** |
 | Iniciar desde el principio | **F5** |
@@ -235,6 +241,19 @@ También puede exportar a PDF. Exportar no sustituye necesariamente el archivo e
 | Desagrupar | **Ctrl + Alt + Mayús + G** |
 
 > ⚠️ **¡Foco Examen!:** **F5** inicia desde el principio; **Mayús + F5**, desde la diapositiva actual.
+
+### 13.1. Distribución de atajos en la guía española 24.8
+
+La **Guía oficial de iniciación de LibreOffice 24.8 en español** indica **Ctrl + U** para un documento nuevo y **Ctrl + G** para guardar. Algunas configuraciones internacionales muestran **Ctrl + N** y **Ctrl + S**. En Impress, las teclas especiales **F5**, **F2** y **F4** y los atajos de **agrupación** se verifican en la ayuda específica del módulo. La distribución del teclado puede estar personalizada.
+
+| Acción | Referencia española 24.8 | Alternativa posible según idioma |
+|---|---|---|
+| Nueva presentación | **Ctrl + U** | **Ctrl + N** |
+| Guardar | **Ctrl + G** | **Ctrl + S** |
+| Agrupar objetos | **Ctrl + Mayús + G** | Es distinto de combinar |
+| Combinar objetos | **Ctrl + Mayús + K** | No es agrupación |
+
+> ⚠️ **¡Foco Examen!:** La **G** de **Ctrl + Mayús + G** agrupa objetos; **Ctrl + Mayús + K** los combina. Para guardar en la guía española **24.8** utiliza **Ctrl + G**, sin confundir su contexto con el de agrupación.
 
 ## 14. Buenas prácticas
 
@@ -285,3 +304,18 @@ IMPRESS
 > ⚠️ **¡Foco Examen!:** **Ocultar** una diapositiva no es **eliminarla**. Tampoco es lo mismo **agrupar** objetos que combinar sus formas: la agrupación permite tratarlos como un conjunto manteniendo sus componentes.
 
 **Documentación oficial contrastada:** [atajos de Impress](https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html) y [operaciones con diapositivas](https://help.libreoffice.org/latest/es/text/simpress/main_slide.html). Banco ampliado a **20 preguntas**; pendiente auditoría editorial integral y pruebas de integración de OpoWeb.
+
+## 17. Transiciones, animaciones, grupos y combinaciones — **05/11/2026**
+
+| Función | Se aplica a / efecto | Dato de test |
+|---|---|---|
+| **Transición** | Entrada de una diapositiva durante el pase | Menú **Transición de diapositivas** |
+| **Animación** | Un objeto concreto de una diapositiva | Panel **Animación** |
+| **Agrupar** | Tratar juntos varios objetos, conservando los componentes editables | **Ctrl + Mayús + G** |
+| **Combinar objetos** | Combinar objetos seleccionados en una nueva figura | **Ctrl + Mayús + K** |
+| **Ocultar diapositiva** | Omitir en el pase ordinario sin eliminar del archivo | Se mantiene en **ODP** |
+| **Presentación personalizada** | Selección y orden de diapositivas específicos | No requiere eliminar el contenido original |
+
+> ⚠️ **¡Foco Examen!:** La tecla **G** en **Ctrl + Mayús + G** es para **agrupar**, mientras **Ctrl + Mayús + K** sirve para **combinar**. Las animaciones afectan a **objetos** y las transiciones a **diapositivas**.
+
+**Fuentes oficiales:** [teclado de Impress](https://help.libreoffice.org/latest/es/text/simpress/04/01020000.html), [transiciones](https://help.libreoffice.org/latest/es/text/simpress/01/06040000.html) y [guía española 24.8](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html). **Cierre editorial:** [informe C1 36–39](../cierre-editorial-36-39-2026-11-05.md).

@@ -1,7 +1,7 @@
 {
   "tema": 38,
   "titulo": "LibreOffice 24 IV. Elaboración y uso de presentaciones con LibreOffice 24 Impress.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Ayuda oficial de LibreOffice Impress",
@@ -9,21 +9,61 @@
     "Estándar OpenDocument"
   ],
   "bloques": [
-    {"id":"T38-B01","nombre":"Concepto, interfaz y vistas de Impress","cubierto":true},
-    {"id":"T38-B02","nombre":"Creación, apertura, guardado y formato ODP","cubierto":true},
-    {"id":"T38-B03","nombre":"Diapositivas, diseños y operaciones","cubierto":true},
-    {"id":"T38-B04","nombre":"Patrones, plantillas y estilos","cubierto":true},
-    {"id":"T38-B05","nombre":"Texto, listas y formato","cubierto":true},
-    {"id":"T38-B06","nombre":"Imágenes, formas, tablas, gráficos y multimedia","cubierto":true},
-    {"id":"T38-B07","nombre":"Transiciones y animaciones","cubierto":true},
-    {"id":"T38-B08","nombre":"Presentación, navegación y presentaciones personalizadas","cubierto":true},
-    {"id":"T38-B09","nombre":"Notas, comentarios, folletos e impresión","cubierto":true},
-    {"id":"T38-B10","nombre":"Exportación, compatibilidad y atajos","cubierto":true}
+    {
+      "id": "T38-B01",
+      "nombre": "Concepto, interfaz y vistas de Impress",
+      "cubierto": true
+    },
+    {
+      "id": "T38-B02",
+      "nombre": "Creación, apertura, guardado y formato ODP",
+      "cubierto": true
+    },
+    {
+      "id": "T38-B03",
+      "nombre": "Diapositivas, diseños y operaciones",
+      "cubierto": true
+    },
+    {
+      "id": "T38-B04",
+      "nombre": "Patrones, plantillas y estilos",
+      "cubierto": true
+    },
+    {
+      "id": "T38-B05",
+      "nombre": "Texto, listas y formato",
+      "cubierto": true
+    },
+    {
+      "id": "T38-B06",
+      "nombre": "Imágenes, formas, tablas, gráficos y multimedia",
+      "cubierto": true
+    },
+    {
+      "id": "T38-B07",
+      "nombre": "Transiciones y animaciones",
+      "cubierto": true
+    },
+    {
+      "id": "T38-B08",
+      "nombre": "Presentación, navegación y presentaciones personalizadas",
+      "cubierto": true
+    },
+    {
+      "id": "T38-B09",
+      "nombre": "Notas, comentarios, folletos e impresión",
+      "cubierto": true
+    },
+    {
+      "id": "T38-B10",
+      "nombre": "Exportación, compatibilidad y atajos",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "formatoNativo": "ODP",
     "nuevaDiapositiva": "Ctrl + M",
-    "guardar": "Ctrl + S",
+    "guardar": "Ctrl + G (guía española 24.8)",
     "iniciarDesdePrincipio": "F5",
     "iniciarDesdeActual": "Mayús + F5",
     "transicion": "se aplica a la diapositiva",
@@ -31,20 +71,51 @@
     "patron": "controla elementos comunes",
     "plantilla": "modelo reutilizable",
     "ocultar": "no elimina la diapositiva",
-    "pdf": "formato de distribución, no sustituto del ODP editable"
+    "pdf": "formato de distribución, no sustituto del ODP editable",
+    "nuevaPresentacion": "Ctrl + U (guía española 24.8)",
+    "agrupar": "Ctrl + Mayús + G",
+    "combinar": "Ctrl + Mayús + K"
   },
   "controlCalidad": {
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T38-001 a DIP-T38-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T38-001 a DIP-T38-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "atajosYConceptosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "verificacionIntegridad": "2026-07-19"
+    "verificacionIntegridad": "2026-11-05"
+  },
+  "trazabilidadIncisos": [
+    {
+      "inciso": "Presentación ODP, interfaces y diapositivas",
+      "fuente": "LibreOffice Impress Help",
+      "manual": "1–5",
+      "preguntas": "001–005"
+    },
+    {
+      "inciso": "Edición de objetos, patrones, animaciones y transiciones",
+      "fuente": "LibreOffice Impress Help",
+      "manual": "5–9,16–17",
+      "preguntas": "006,017–020"
+    },
+    {
+      "inciso": "Proyección, notas, folletos y exportación",
+      "fuente": "LibreOffice Impress Help y Guía 24.8",
+      "manual": "10–13,16–17",
+      "preguntas": "007–016"
+    }
+  ],
+  "cierreEditorialC1_36_39_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+    "informe": "content/diputacion-toledo/cierre-editorial-36-39-2026-11-05.md",
+    "preguntas": 20,
+    "alternativas": 80,
+    "certificacionIntegral": false
   }
 }

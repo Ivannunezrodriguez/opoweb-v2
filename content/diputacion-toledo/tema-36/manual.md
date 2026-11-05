@@ -1,4 +1,10 @@
-# Tema 36. LibreOffice 24 II. Elaboración y uso de hojas de cálculo con LibreOffice 24 Calc
+# Tema 36 · LibreOffice 24 Calc
+
+## Epígrafe oficial
+
+**LibreOffice 24 II. Elaboración y uso de hojas de cálculo con LibreOffice 24 Calc.**
+
+**Estado editorial:** `AUDITADO`
 
 ## 1. Concepto y finalidad
 
@@ -284,9 +290,9 @@ Al guardar en formatos ajenos puede aparecer un aviso por posibles diferencias d
 
 | Acción | Atajo |
 |---|---|
-| Guardar | **Ctrl + S** |
+| Guardar (**guía 24.8 en español**) | **Ctrl + G** |
 | Guardar como | **Ctrl + Mayús + S** |
-| Buscar | **Ctrl + F** |
+| Buscar (**guía 24.8 en español**) | **Ctrl + B** |
 | Reemplazar | **Ctrl + H** |
 | Editar celda | **F2** |
 | Alternar referencias | **F4** |
@@ -294,6 +300,20 @@ Al guardar en formatos ajenos puede aparecer un aviso por posibles diferencias d
 | Formato de celdas | **Ctrl + 1** |
 | Imprimir | **Ctrl + P** |
 | Recalcular | **F9** |
+
+### 17.1. Atajos y variaciones de idioma
+
+En el **Apéndice A de la Guía de iniciación 24.8 en español**, aplicable también a **Calc**, los atajos generales son **Ctrl + G** para guardar, **Ctrl + B** para buscar y **Ctrl + U** para un documento nuevo. En una instalación o ayuda internacional pueden aparecer **Ctrl + S**, **Ctrl + F** y **Ctrl + N** respectivamente. **F2** y **F4** son atajos específicos verificados por la ayuda de Calc.
+
+| Acción | Guía española **24.8** | Otras configuraciones posibles |
+|---|---|---|
+| Guardar | **Ctrl + G** | **Ctrl + S** |
+| Buscar | **Ctrl + B** | **Ctrl + F** |
+| Nuevo documento | **Ctrl + U** | **Ctrl + N** |
+| Editar celda | **F2** | Función de Calc |
+| Alternar referencias | **F4** | Se aplica al editar una fórmula con el cursor en una referencia |
+
+> ⚠️ **¡Foco Examen!:** **F4** cambia el tipo de referencia de Calc. **Ctrl + G** corresponde a **Guardar** en la guía española **24.8**; no confundas esos atajos ni traslades sin comprobar los de otra localización.
 
 ## 18. Esquema final
 
@@ -342,3 +362,18 @@ CALC
 > ⚠️ **¡Foco Examen!:** **CONTAR** no equivale a **CONTARA**. Una celda que contiene texto se computa con **CONTARA**, pero no con **CONTAR** si no contiene un valor numérico.
 
 **Fuentes oficiales:** [referencias relativas y absolutas](https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html), [CONTAR y CONTARA](https://help.libreoffice.org/latest/es/text/scalc/02/08080000.html), [SUMA](https://help.libreoffice.org/latest/es/text/scalc/01/func_sum.html) y [SI.ERROR](https://help.libreoffice.org/latest/es/text/scalc/01/04060104.html). Banco ampliado a **20 preguntas**; quedan pendientes auditoría editorial completa y prueba funcional.
+
+## 20. Casos prácticos de examen — **05/11/2026**
+
+| Operación | Entrada | Resultado |
+|---|---|---|
+| Copiar fórmula **mixta** una fila abajo | `=$A2+B$1` de **C2** a **C3** | `=$A3+B$1` |
+| Función **SI** | `=SI(A1>=5;"APTO";"NO APTO")` con **A1=7** | **APTO** |
+| Contar según criterio | `=CONTAR.SI(A1:A4;">5")` con **3,7,9,5** | **2** |
+| Guardar en español 24.8 | **Ctrl + G** | Guarda el documento |
+
+El filtro limita temporalmente los registros mostrados; ordenar cambia su disposición. No son operaciones equivalentes ni eliminan los datos.
+
+> ⚠️ **¡Foco Examen!:** Al copiar `$A2` varía la **fila**; al copiar `B$1` varía la **columna**. **CONTAR.SI** aplica criterio, **CONTAR** cuenta números sin criterio.
+
+**Cierre editorial:** **05/11/2026**, [informe de lote](../cierre-editorial-36-39-2026-11-05.md). Pendiente certificación funcional transversal.

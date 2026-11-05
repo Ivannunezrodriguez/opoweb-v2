@@ -60,3 +60,10 @@ El tema se ha elaborado desde cero siguiendo el epígrafe oficial y la terminolo
 - [Ayuda oficial: vista de orígenes de datos](https://help.libreoffice.org/latest/es/text/shared/guide/database_main.html): atajo **Ctrl + Mayús + F4** en Windows.
 
 **Estado de control:** banco ampliado a **20 preguntas**, manual enriquecido; pendientes auditoría global y prueba funcional.
+
+## Cotejo técnico C1 36–39 — **05/11/2026**
+
+- [Ayuda oficial de Base: diseño de consultas](https://help.libreoffice.org/latest/es/text/sdatabase/02010100.html): **COUNT(*)**, **COUNT(columna)**, parámetros precedidos por `:`, **AND/OR** por filas, **F5** para ejecutar consultas en diseño.
+- [Formularios y subformularios](https://help.libreoffice.org/latest/es/text/sdatabase/04000000.html): vinculación con datos relacionados del registro principal.
+- [Guía oficial 24.8 española](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html): **Ctrl + G** guardar, **Ctrl + U** nuevo, **Ctrl + B** buscar. Configuraciones internacionales pueden diferir.
+- **3 preguntas** repetitivas sustituidas por recuentos, parámetros y subformularios. Banco de **20 preguntas / 80 alternativas**. [Informe](../cierre-editorial-36-39-2026-11-05.md).

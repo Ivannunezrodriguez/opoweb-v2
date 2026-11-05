@@ -1,7 +1,7 @@
 {
   "tema": 39,
   "titulo": "Conceptos generales del ordenador personal I. El ordenador personal y sus componentes más comunes.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Microsoft Support y Microsoft Learn",
@@ -9,16 +9,56 @@
     "NVM Express, USB-IF, PCI-SIG y JEDEC"
   ],
   "bloques": [
-    {"id":"T39-B01","nombre":"Concepto de ordenador, hardware, software y firmware","cubierto":true},
-    {"id":"T39-B02","nombre":"Placa base, chipset, zócalos y ranuras","cubierto":true},
-    {"id":"T39-B03","nombre":"CPU, núcleos, hilos, registros y caché","cubierto":true},
-    {"id":"T39-B04","nombre":"RAM, ROM, memoria virtual y volatilidad","cubierto":true},
-    {"id":"T39-B05","nombre":"HDD, SSD, SATA, M.2 y NVMe","cubierto":true},
-    {"id":"T39-B06","nombre":"GPU integrada, dedicada y memoria gráfica","cubierto":true},
-    {"id":"T39-B07","nombre":"Fuente, refrigeración y consumo","cubierto":true},
-    {"id":"T39-B08","nombre":"Puertos, conectores, expansión y comunicaciones","cubierto":true},
-    {"id":"T39-B09","nombre":"Arranque, BIOS, UEFI y sistema operativo","cubierto":true},
-    {"id":"T39-B10","nombre":"Unidades de información, 32/64 bits y rendimiento","cubierto":true}
+    {
+      "id": "T39-B01",
+      "nombre": "Concepto de ordenador, hardware, software y firmware",
+      "cubierto": true
+    },
+    {
+      "id": "T39-B02",
+      "nombre": "Placa base, chipset, zócalos y ranuras",
+      "cubierto": true
+    },
+    {
+      "id": "T39-B03",
+      "nombre": "CPU, núcleos, hilos, registros y caché",
+      "cubierto": true
+    },
+    {
+      "id": "T39-B04",
+      "nombre": "RAM, ROM, memoria virtual y volatilidad",
+      "cubierto": true
+    },
+    {
+      "id": "T39-B05",
+      "nombre": "HDD, SSD, SATA, M.2 y NVMe",
+      "cubierto": true
+    },
+    {
+      "id": "T39-B06",
+      "nombre": "GPU integrada, dedicada y memoria gráfica",
+      "cubierto": true
+    },
+    {
+      "id": "T39-B07",
+      "nombre": "Fuente, refrigeración y consumo",
+      "cubierto": true
+    },
+    {
+      "id": "T39-B08",
+      "nombre": "Puertos, conectores, expansión y comunicaciones",
+      "cubierto": true
+    },
+    {
+      "id": "T39-B09",
+      "nombre": "Arranque, BIOS, UEFI y sistema operativo",
+      "cubierto": true
+    },
+    {
+      "id": "T39-B10",
+      "nombre": "Unidades de información, 32/64 bits y rendimiento",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "byte": "8 bits",
@@ -37,14 +77,42 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T39-001 a DIP-T39-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T39-001 a DIP-T39-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "unidadesYConceptosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "verificacionIntegridad": "2026-07-19"
+    "verificacionIntegridad": "2026-11-05"
+  },
+  "trazabilidadIncisos": [
+    {
+      "inciso": "Hardware, CPU, placa base y memoria",
+      "fuente": "Intel y documentos técnicos del sistema",
+      "manual": "1–5,17–19",
+      "preguntas": "001–003,005,007,012–014"
+    },
+    {
+      "inciso": "Almacenamiento, GPU, fuentes y refrigeración",
+      "fuente": "NVM Express, Intel y fabricantes",
+      "manual": "6–9,18–19",
+      "preguntas": "004,006,008,011,015–016,018"
+    },
+    {
+      "inciso": "Puertos, firmware, unidades y arquitectura",
+      "fuente": "USB-IF y Microsoft Learn",
+      "manual": "10–16,18–19",
+      "preguntas": "009–010,017,019–020"
+    }
+  ],
+  "cierreEditorialC1_36_39_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+    "informe": "content/diputacion-toledo/cierre-editorial-36-39-2026-11-05.md",
+    "preguntas": 20,
+    "alternativas": 80,
+    "certificacionIntegral": false
   }
 }

@@ -1,4 +1,10 @@
-# Tema 39 · Conceptos generales del ordenador personal I
+# Tema 39 · Componentes del ordenador personal
+
+## Epígrafe oficial
+
+**Conceptos generales del ordenador personal I. El ordenador personal y sus componentes más comunes.**
+
+**Estado editorial:** `AUDITADO`
 
 ## El ordenador personal y sus componentes más comunes
 
@@ -420,3 +426,22 @@ Ejemplos de cuello de botella:
 > ⚠️ **¡Foco Examen!:** **1 byte = 8 bits**, **1 kB = 1.000 bytes** y **1 KiB = 1.024 bytes**. No confundir prefijos decimales y binarios.
 
 **Fuentes oficiales:** [NVM Express: especificaciones](https://nvmexpress.org/SPECIFICATIONS/), [USB-IF: USB Tipo C](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf) y [Microsoft Learn: arranque UEFI](https://learn.microsoft.com/es-es/windows-hardware/manufacture/desktop/boot-to-uefi-mode-or-legacy-bios-mode?view=windows-11). Banco ampliado a **20 preguntas**; auditoría completa y pruebas funcionales pendientes.
+
+## 19. Supuestos de hardware y errores de interpretación — **05/11/2026**
+
+| Concepto | Regla comprobable | Pregunta susceptible de trampa |
+|---|---|---|
+| **GPU integrada** | Puede utilizar la **RAM del sistema** como memoria gráfica compartida | No necesita necesariamente VRAM propia separada |
+| **1 kB** | **1.000 bytes** | No son **1.024 bytes**: eso es **1 KiB** |
+| **Fuente de 750 W** | Potencia de salida disponible según especificación | El PC **no** consume necesariamente **750 W** de forma permanente |
+| **Pasta térmica** | Facilita la **transferencia térmica** entre chip y disipador | No actúa sola como ventilador o sistema frigorífico |
+| **UEFI** | Firmware de arranque | No es un sistema operativo ni equivale automáticamente a **Secure Boot** |
+| **Secure Boot** | Verifica firmas del software de arranque | Es una función de seguridad asociada a UEFI |
+
+La **RAM compartida con la GPU integrada** no equivale a un banco de VRAM dedicado; Intel detalla que los gráficos integrados utilizan memoria de sistema y la cantidad efectiva puede variar. Una fuente de **750 W** no suministra necesariamente esa cifra en todo momento: la potencia demandada depende de los componentes y su trabajo.
+
+**Comparación de memoria:** memoria caché, **RAM** y almacenamiento persistente cumplen funciones distintas. La memoria flash del **SSD** es no volátil; la **RAM** de trabajo es normalmente volátil.
+
+> ⚠️ **¡Foco Examen!:** En almacenamiento **1 KiB=1.024 bytes**, mientras **1 kB=1.000 bytes**. En energía, **750 W** es una capacidad nominal de la fuente, no una factura constante. **Secure Boot** verifica confianza del arranque, **UEFI** es el firmware.
+
+**Fuentes técnicas:** [Intel, memoria gráfica](https://www.intel.com/content/www/us/en/support/articles/000020962/graphics.html), [Intel, fuentes](https://www.intel.com/content/www/us/en/gaming/resources/power-supply.html), [Intel, pasta térmica](https://www.intel.com/content/www/us/en/gaming/resources/how-to-apply-thermal-paste.html) y [Microsoft Learn, Secure Boot](https://learn.microsoft.com/en-us/windows-hardware/drivers/bringup/secure-boot). **Cierre editorial:** [C1 36–39](../cierre-editorial-36-39-2026-11-05.md).

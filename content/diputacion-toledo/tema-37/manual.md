@@ -1,4 +1,10 @@
-# Tema 37. LibreOffice 24 III. Elaboración y uso de bases de datos con LibreOffice 24 Base
+# Tema 37 · LibreOffice 24 Base
+
+## Epígrafe oficial
+
+**LibreOffice 24 III. Elaboración y uso de bases de datos con LibreOffice 24 Base.**
+
+**Estado editorial:** `AUDITADO`
 
 ## 1. Concepto de base de datos
 
@@ -407,10 +413,10 @@ En bases externas, la seguridad depende también del gestor, servidor, usuarios,
 
 | Acción | Atajo habitual |
 |---|---|
-| Nuevo documento | **Ctrl + N** |
+| Nuevo documento (**guía 24.8 en español**) | **Ctrl + U** |
 | Abrir | **Ctrl + O** |
-| Guardar | **Ctrl + S** |
-| Buscar | **Ctrl + F** |
+| Guardar (**guía 24.8 en español**) | **Ctrl + G** |
+| Buscar (**guía 24.8 en español**) | **Ctrl + B** |
 | Deshacer | **Ctrl + Z** |
 | Rehacer | **Ctrl + Y** |
 | Copiar | **Ctrl + C** |
@@ -418,6 +424,12 @@ En bases externas, la seguridad depende también del gestor, servidor, usuarios,
 | Pegar | **Ctrl + V** |
 
 Los atajos pueden variar según contexto, sistema operativo o configuración.
+
+### 18.1. Atajos en la guía española 24.8
+
+Los atajos **generales** de la guía **24.8** son **Ctrl + U** (nuevo), **Ctrl + G** (guardar) y **Ctrl + B** (buscar). En otras disposiciones pueden diferir. **Ctrl + Mayús + F4** abre los orígenes de datos desde **Writer/Calc**, no crea una base.
+
+> ⚠️ **¡Foco Examen!:** **Ctrl + Mayús + F4** muestra fuentes registradas en Writer/Calc, mientras un documento **ODB** conectado a servidor no almacena necesariamente todos los registros del servidor.
 
 ## 19. Esquema final
 
@@ -471,3 +483,20 @@ LIBREOFFICE BASE
 > ⚠️ **¡Foco Examen!:** Una **consulta** selecciona y muestra datos según criterios; un **formulario** facilita capturarlos o modificarlos. **Herramientas → Relaciones** sirve para configurar vínculos entre tablas, no para crear informes.
 
 **Documentación oficial contrastada:** https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html ; https://help.libreoffice.org/latest/es/text/sdatabase/05020100.html ; https://help.libreoffice.org/latest/es/text/sdatabase/02000000.html ; https://help.libreoffice.org/latest/es/text/sdatabase/04000000.html ; https://help.libreoffice.org/latest/es/text/shared/guide/database_main.html . **20 preguntas**; quedan pendientes auditoría integral y prueba funcional.
+
+## 21. Consultas y formularios: supuestos prácticos — **05/11/2026**
+
+| Concepto | Expresión u operación | Efecto |
+|---|---|---|
+| Contar filas | `SELECT COUNT(*) FROM empleados` | Cuenta todas las filas |
+| Contar datos de un campo | `COUNT(departamento)` | Excluye registros con departamento **NULL** |
+| Parámetro | `WHERE departamento = :Departamento` | Solicita un valor al ejecutar |
+| Criterios en la misma fila de diseño | Condiciones de columnas en una misma fila | **Y (AND)** |
+| Criterios en distintas filas de diseño | Condiciones en diferentes filas | **O (OR)** |
+| Subformulario | Empleado / solicitudes relacionadas | Muestra datos dependientes del registro principal |
+
+La disponibilidad de funciones puede depender del **motor y controlador**. La consulta de selección no modifica por sí misma las tablas.
+
+> ⚠️ **¡Foco Examen!:** **COUNT(*)** cuenta filas aunque el campo tenga **NULL**; **COUNT(campo)** no cuenta los nulos. **:Departamento** es un parámetro que se solicita al ejecutar.
+
+**Cierre editorial:** [informe de lote **05/11/2026**](../cierre-editorial-36-39-2026-11-05.md). Validación funcional transversal aún pendiente.

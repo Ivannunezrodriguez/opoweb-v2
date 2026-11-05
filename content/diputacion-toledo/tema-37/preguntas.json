@@ -1,6 +1,6 @@
 {
   "tema": 37,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T37-001",
@@ -214,18 +214,18 @@
     },
     {
       "id": "DIP-T37-015",
-      "pregunta": "En una relación uno a muchos, ¿qué campo enlaza normalmente la tabla del lado muchos?",
+      "pregunta": "En una consulta SQL de Base, ¿qué diferencia existe entre COUNT(*) y COUNT(campo)?",
       "opciones": [
-        "Una clave foránea que referencia la clave primaria",
-        "Un campo calculado sin vínculo",
-        "La clave primaria de ambas tablas obligatoriamente",
-        "Un campo de texto de nombre idéntico sin correspondencia"
+        "COUNT(*) cuenta filas; COUNT(campo) excluye los valores NULL del campo",
+        "Ambas funciones solo cuentan valores numéricos",
+        "COUNT(*) cuenta exclusivamente las claves primarias",
+        "COUNT(campo) devuelve siempre cero"
       ],
       "correcta": 0,
-      "justificacion": "Una **clave foránea** hace referencia a la **clave primaria** de otra tabla.",
-      "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html",
-      "respuestaLiteral": "Una clave foránea que referencia la clave primaria"
+      "justificacion": "La ayuda oficial del diseñador de consultas de Base especifica que COUNT(*) incluye todos los registros, mientras COUNT(columna) no cuenta aquellos con valor NULL.",
+      "trampa": "No confundir el recuento de filas con el de valores no nulos de una columna.",
+      "referencia": "LibreOffice Base, diseño de consulta, recuento · https://help.libreoffice.org/latest/es/text/sdatabase/02010100.html",
+      "respuestaLiteral": "COUNT(*) cuenta filas; COUNT(campo) excluye los valores NULL del campo"
     },
     {
       "id": "DIP-T37-016",
@@ -259,33 +259,33 @@
     },
     {
       "id": "DIP-T37-018",
-      "pregunta": "¿Qué objeto permite mostrar determinados registros o campos seleccionados por criterios?",
+      "pregunta": "En LibreOffice Base, ¿cómo se representa normalmente un parámetro de consulta que se solicita al ejecutar?",
       "opciones": [
-        "Informe de impresión exclusivamente",
-        "Relación como objeto de texto",
-        "Archivo PDF",
-        "Consulta"
+        "Con un prefijo obligatorio de dos signos de interrogación",
+        "Con el signo dólar seguido de una referencia de celda",
+        "Sin nombre, usando únicamente la palabra SELECT",
+        "Con dos puntos delante del nombre, por ejemplo :Departamento"
       ],
       "correcta": 3,
-      "justificacion": "Una **consulta** permite filtrar, seleccionar y ordenar registros o campos.",
-      "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/sdatabase/02000000.html",
-      "respuestaLiteral": "Consulta"
+      "justificacion": "Los nombres de parámetro se escriben con : en la vista Diseño y SQL; al ejecutar, Base solicita al usuario el valor.",
+      "trampa": "Los parámetros no se sustituyen por referencias relativas de Calc.",
+      "referencia": "LibreOffice Base, consulta con parámetros · https://help.libreoffice.org/latest/es/text/sdatabase/02010100.html",
+      "respuestaLiteral": "Con dos puntos delante del nombre, por ejemplo :Departamento"
     },
     {
       "id": "DIP-T37-019",
-      "pregunta": "¿Qué objeto facilita introducir o editar datos mediante controles?",
+      "pregunta": "¿Para qué sirve un subformulario de LibreOffice Base vinculado a un formulario principal?",
       "opciones": [
-        "Vista de impresión",
-        "Relación entre archivos",
-        "Formulario",
-        "Hoja de estilos"
+        "Para generar automáticamente la impresión de toda la base",
+        "Para sustituir la clave primaria en todas las tablas",
+        "Para mostrar o editar registros relacionados con el registro del formulario principal",
+        "Para desinstalar una conexión de datos externa"
       ],
       "correcta": 2,
-      "justificacion": "Un **formulario** permite introducir y modificar datos, usando controles.",
-      "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/sdatabase/04000000.html",
-      "respuestaLiteral": "Formulario"
+      "justificacion": "Un subformulario puede relacionar datos de tabla o consulta secundaria con el registro actual del formulario principal.",
+      "trampa": "Un subformulario no es un informe ni una consulta independiente de la relación principal.",
+      "referencia": "LibreOffice Base, formularios y subformularios · https://help.libreoffice.org/latest/es/text/sdatabase/04000000.html",
+      "respuestaLiteral": "Para mostrar o editar registros relacionados con el registro del formulario principal"
     },
     {
       "id": "DIP-T37-020",
@@ -306,5 +306,12 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_36_39_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 3,
+    "certificacionIntegral": false
   }
 }

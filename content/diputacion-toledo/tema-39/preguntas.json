@@ -1,6 +1,6 @@
 {
   "tema": 39,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T39-001",
@@ -184,33 +184,33 @@
     },
     {
       "id": "DIP-T39-013",
-      "pregunta": "¿Cuál de los siguientes ejemplos describe correctamente la diferencia entre memoria RAM y almacenamiento SSD?",
+      "pregunta": "En un equipo con gráficos integrados Intel, ¿qué memoria suele utilizar la GPU para sus datos gráficos?",
       "opciones": [
-        "La RAM es memoria de trabajo volátil y el SSD retiene datos sin alimentación",
-        "Los SSD pierden todos los datos al apagar",
-        "La RAM es siempre una unidad de red",
-        "No existe diferencia funcional"
+        "Memoria RAM del sistema, compartida con otras tareas",
+        "Exclusivamente un segundo disco duro magnético",
+        "Solo la memoria ROM de la placa base",
+        "Siempre una tarjeta de memoria dedicada físicamente independiente"
       ],
       "correcta": 0,
-      "justificacion": "La **RAM** es típicamente volátil y el **SSD** es almacenamiento no volátil.",
-      "trampa": "No confundir conectores, protocolos, componentes y unidades binarias.",
-      "referencia": "content/diputacion-toledo/tema-39/manual.md",
-      "respuestaLiteral": "La RAM es memoria de trabajo volátil y el SSD retiene datos sin alimentación"
+      "justificacion": "Intel documenta que el hardware de gráficos integrados utiliza memoria del sistema y no necesita un banco de memoria gráfica independiente.",
+      "trampa": "No confundir memoria gráfica compartida con VRAM propia de una tarjeta dedicada.",
+      "referencia": "Intel: gráficos integrados y memoria del sistema · https://www.intel.com/content/www/us/en/support/articles/000020962/graphics.html",
+      "respuestaLiteral": "Memoria RAM del sistema, compartida con otras tareas"
     },
     {
       "id": "DIP-T39-014",
-      "pregunta": "¿Qué describe M.2 en un ordenador?",
+      "pregunta": "¿Qué cantidad representa exactamente el prefijo decimal 1 kB?",
       "opciones": [
-        "Un sistema operativo",
-        "El mismo protocolo que USB",
-        "Un tipo de memoria RAM exclusivamente",
-        "Un formato físico y conexión para módulos, no un protocolo de almacenamiento"
+        "1.024 bytes",
+        "8 bytes",
+        "1.048.576 bytes",
+        "1.000 bytes"
       ],
       "correcta": 3,
-      "justificacion": "**M.2** es un formato de módulo; no equivale al protocolo **NVMe**.",
-      "trampa": "No confundir conectores, protocolos, componentes y unidades binarias.",
-      "referencia": "content/diputacion-toledo/tema-39/manual.md",
-      "respuestaLiteral": "Un formato físico y conexión para módulos, no un protocolo de almacenamiento"
+      "justificacion": "El prefijo decimal kilo representa mil unidades; KiB es la unidad binaria de 1024 bytes.",
+      "trampa": "La k minúscula de kB es decimal, mientras KiB indica kibibyte binario.",
+      "referencia": "Manual de componentes, unidades de información · content/diputacion-toledo/tema-39/manual.md#14-unidades-de-información",
+      "respuestaLiteral": "1.000 bytes"
     },
     {
       "id": "DIP-T39-015",
@@ -229,18 +229,18 @@
     },
     {
       "id": "DIP-T39-016",
-      "pregunta": "¿Qué implica que un conector sea USB Tipo C?",
+      "pregunta": "¿Qué implica una fuente de alimentación con potencia nominal de 750 W en un PC?",
       "opciones": [
-        "Garantiza 40 Gbit/s",
-        "Obliga a cargar siempre a 240 W",
-        "Incluye necesariamente salida de vídeo",
-        "Define su forma física sin garantizar una velocidad ni función concreta"
+        "Que consume necesariamente 750 W incluso apagada",
+        "Que el procesador funciona exactamente a 750 MHz",
+        "Que proporciona 750 voltios a la tarjeta gráfica",
+        "Que puede suministrar esa potencia según especificación, no que consuma siempre 750 W"
       ],
       "correcta": 3,
-      "justificacion": "**USB-C** es un tipo de conector; no garantiza USB4, Power Delivery ni un modo alternativo.",
-      "trampa": "No confundir conectores, protocolos, componentes y unidades binarias.",
-      "referencia": "USB-IF · https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf",
-      "respuestaLiteral": "Define su forma física sin garantizar una velocidad ni función concreta"
+      "justificacion": "Intel explica que la potencia nominal de la fuente expresa capacidad, no un consumo continuo obligatorio; la demanda real depende del equipo.",
+      "trampa": "Potencia máxima suministrable y energía consumida en funcionamiento no son sinónimos.",
+      "referencia": "Intel: potencia de fuentes de alimentación · https://www.intel.com/content/www/us/en/gaming/resources/power-supply.html",
+      "respuestaLiteral": "Que puede suministrar esa potencia según especificación, no que consuma siempre 750 W"
     },
     {
       "id": "DIP-T39-017",
@@ -259,33 +259,33 @@
     },
     {
       "id": "DIP-T39-018",
-      "pregunta": "¿Qué elemento del equipo ejecuta instrucciones de programas y coordina operaciones?",
+      "pregunta": "¿Cuál es la función de la pasta térmica colocada entre CPU y disipador?",
       "opciones": [
-        "Fuente de alimentación",
-        "Monitor",
-        "SSD",
-        "CPU"
+        "Almacenar datos de la CPU sin electricidad",
+        "Actuar como ventilador independiente sin disipador",
+        "Reemplazar el suministro eléctrico del ordenador",
+        "Mejorar la transmisión térmica al llenar irregularidades microscópicas de contacto"
       ],
       "correcta": 3,
-      "justificacion": "La **CPU** interpreta y ejecuta instrucciones de programas.",
-      "trampa": "No confundir conectores, protocolos, componentes y unidades binarias.",
-      "referencia": "content/diputacion-toledo/tema-39/manual.md",
-      "respuestaLiteral": "CPU"
+      "justificacion": "La pasta térmica ocupa huecos minúsculos entre superficies y favorece la transferencia de calor al disipador.",
+      "trampa": "La pasta térmica no refrigera por sí sola ni sustituye al disipador o ventilador.",
+      "referencia": "Intel: funcionamiento de la pasta térmica · https://www.intel.com/content/www/us/en/gaming/resources/how-to-apply-thermal-paste.html",
+      "respuestaLiteral": "Mejorar la transmisión térmica al llenar irregularidades microscópicas de contacto"
     },
     {
       "id": "DIP-T39-019",
-      "pregunta": "¿Qué sistema de firmware moderno puede intervenir en el arranque de Windows 11?",
+      "pregunta": "¿Qué finalidad principal tiene el arranque seguro (Secure Boot) como función de UEFI?",
       "opciones": [
-        "ODF",
-        "UEFI",
-        "TCP",
-        "HTTP"
+        "Impedir automáticamente toda actualización de Windows",
+        "Comprobar firmas del software de arranque para ejecutar componentes considerados de confianza",
+        "Sustituir al procesador y ejecutar las aplicaciones",
+        "Convertir la memoria RAM en almacenamiento permanente"
       ],
       "correcta": 1,
-      "justificacion": "**UEFI** es el firmware de arranque de sistemas compatibles.",
-      "trampa": "No confundir conectores, protocolos, componentes y unidades binarias.",
-      "referencia": "Microsoft Learn · https://learn.microsoft.com/es-es/windows-hardware/manufacture/desktop/boot-to-uefi-mode-or-legacy-bios-mode?view=windows-11",
-      "respuestaLiteral": "UEFI"
+      "justificacion": "Microsoft explica que Secure Boot verifica firmas de componentes del arranque antes de transferir el control al sistema operativo.",
+      "trampa": "UEFI es el firmware y Secure Boot una función de seguridad, no el sistema operativo.",
+      "referencia": "Microsoft Learn: Secure Boot · https://learn.microsoft.com/en-us/windows-hardware/drivers/bringup/secure-boot",
+      "respuestaLiteral": "Comprobar firmas del software de arranque para ejecutar componentes considerados de confianza"
     },
     {
       "id": "DIP-T39-020",
@@ -306,5 +306,12 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_36_39_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 5,
+    "certificacionIntegral": false
   }
 }

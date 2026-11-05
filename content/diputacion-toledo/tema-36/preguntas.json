@@ -1,6 +1,6 @@
 {
   "tema": 36,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T36-001",
@@ -199,48 +199,48 @@
     },
     {
       "id": "DIP-T36-014",
-      "pregunta": "¿Qué forma adopta A1 tras pulsar F4 dos veces durante la edición de la referencia?",
+      "pregunta": "Al copiar la fórmula =$A2+B$1 desde C2 a C3, ¿cómo queda?",
       "opciones": [
-        "A$1",
-        "$A1",
-        "$A$1",
-        "A1"
+        "=$A3+B$1",
+        "=$A2+B$2",
+        "=$B3+C$1",
+        "=$A$2+B1"
       ],
       "correcta": 0,
-      "justificacion": "La segunda pulsación fija solo la fila: A$1.",
-      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html",
-      "respuestaLiteral": "A$1"
+      "justificacion": "Al desplazar una fila hacia abajo, $A2 cambia a $A3 (columna fija y fila relativa); B$1 mantiene la fila 1 fija.",
+      "trampa": "Una referencia mixta fija solo la coordenada precedida por el símbolo $.",
+      "referencia": "LibreOffice Calc referencias · https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html",
+      "respuestaLiteral": "=$A3+B$1"
     },
     {
       "id": "DIP-T36-015",
-      "pregunta": "¿Qué forma adopta A1 tras pulsar F4 tres veces?",
+      "pregunta": "Si A1 contiene 7, ¿qué devuelve =SI(A1>=5;\"APTO\";\"NO APTO\") en Calc?",
       "opciones": [
-        "$A1",
-        "A$1",
-        "$A$1",
-        "A1"
+        "APTO",
+        "NO APTO",
+        "VERDADERO y FALSO simultáneamente",
+        "#DIV/0!"
       ],
       "correcta": 0,
-      "justificacion": "La tercera pulsación fija solo la columna: $A1.",
-      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html",
-      "respuestaLiteral": "$A1"
+      "justificacion": "La condición 7>=5 es verdadera; SI devuelve el segundo argumento, la cadena APTO.",
+      "trampa": "El primer argumento de SI es la condición; las cadenas aparecen entre comillas.",
+      "referencia": "LibreOffice Calc, funciones lógicas · https://help.libreoffice.org/latest/es/text/scalc/01/04060100.html",
+      "respuestaLiteral": "APTO"
     },
     {
       "id": "DIP-T36-016",
-      "pregunta": "Si en B1 hay 10 y en B2 texto, ¿qué devuelve =CONTAR(B1:B2)?",
+      "pregunta": "En A1:A4 hay 3, 7, 9 y 5. ¿Qué devuelve =CONTAR.SI(A1:A4;\">5\")?",
       "opciones": [
-        "1",
         "2",
-        "0",
-        "Error"
+        "1",
+        "3",
+        "4"
       ],
       "correcta": 0,
-      "justificacion": "CONTAR cuenta las celdas con valores numéricos, no el texto.",
-      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/02/08080000.html",
-      "respuestaLiteral": "1"
+      "justificacion": "Solo 7 y 9 satisfacen estrictamente el criterio >5; 5 no se incluye.",
+      "trampa": "El símbolo > indica mayor estricto, no mayor o igual.",
+      "referencia": "LibreOffice Calc, funciones por categoría · https://help.libreoffice.org/latest/es/text/scalc/01/04060100.html",
+      "respuestaLiteral": "2"
     },
     {
       "id": "DIP-T36-017",
@@ -289,22 +289,29 @@
     },
     {
       "id": "DIP-T36-020",
-      "pregunta": "¿Qué ocurre con las referencias absolutas al copiar una fórmula a otra celda?",
+      "pregunta": "Según la guía oficial de LibreOffice 24.8 en español para Windows, ¿qué atajo guarda el documento de Calc?",
       "opciones": [
-        "Se ajustan siempre como las relativas",
-        "Se borran automáticamente",
-        "Conservan la fila o columna fijada",
-        "Se convierten en texto"
+        "Ctrl + S",
+        "Ctrl + N",
+        "Ctrl + G",
+        "Ctrl + E"
       ],
       "correcta": 2,
-      "justificacion": "Una referencia absoluta conserva sus coordenadas fijadas al copiar la fórmula.",
-      "trampa": "Distinguir referencias, función de conteo y tratamiento de errores.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html",
-      "respuestaLiteral": "Conservan la fila o columna fijada"
+      "justificacion": "La guía española de LibreOffice 24.8 documenta Ctrl+G como Guardar; el atajo puede variar en interfaces internacionales o personalizadas.",
+      "trampa": "No trasladar automáticamente Ctrl+S de una guía internacional a la configuración de referencia española.",
+      "referencia": "LibreOffice 24.8, Guía de iniciación, apéndice A · https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html",
+      "respuestaLiteral": "Ctrl + G"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_36_39_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 4,
+    "certificacionIntegral": false
   }
 }

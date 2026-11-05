@@ -29,3 +29,10 @@ El tema se ha elaborado para **LibreOffice 24 y posteriores**, priorizando funci
 - [Ayuda oficial de Calc: SI.ERROR](https://help.libreoffice.org/latest/es/text/scalc/01/04060104.html). Control de errores en fórmulas.
 
 **Estado de control:** banco ampliado a **20 preguntas**; manual enriquecido con tabla de referencias y funciones. Pendientes revisión integral de todas las secciones y prueba funcional en OpoWeb.
+
+## Cotejo técnico de C1 36–39 — **05/11/2026**
+
+- [**Guía LibreOffice 24.8 española**](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html): **Ctrl + G** guardar, **Ctrl + B** buscar y **Ctrl + U** documento nuevo; se distinguen las combinaciones internacionales.
+- [F4 y referencias relativas/mixtas](https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html): copia de `=$A2+B$1` desde **C2** a **C3**.
+- [Funciones de Calc](https://help.libreoffice.org/latest/es/text/scalc/01/04060100.html): **SI** y **CONTAR.SI**; reemplazadas **4 preguntas** redundantes por casos y configuración española.
+- **20 preguntas / 80 alternativas**; [informe de cierre](../cierre-editorial-36-39-2026-11-05.md).

@@ -575,38 +575,62 @@
     {
       "numero": 36,
       "titulo": "LibreOffice 24 II. Elaboración y uso de hojas de cálculo con LibreOffice 24 Calc.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-36/manual.md",
       "fuentes": "content/diputacion-toledo/tema-36/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-36/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-36/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-36/preguntas.json",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cierre-editorial-36-39-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 37,
       "titulo": "LibreOffice 24 III. Elaboración y uso de bases de datos con LibreOffice 24 Base.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-37/manual.md",
       "fuentes": "content/diputacion-toledo/tema-37/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-37/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-37/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-37/preguntas.json",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cierre-editorial-36-39-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 38,
       "titulo": "LibreOffice 24 IV. Elaboración y uso de presentaciones con LibreOffice 24 Impress.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-38/manual.md",
       "fuentes": "content/diputacion-toledo/tema-38/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-38/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-38/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-38/preguntas.json",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cierre-editorial-36-39-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 39,
       "titulo": "Conceptos generales del ordenador personal I. El ordenador personal y sus componentes más comunes.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-39/manual.md",
       "fuentes": "content/diputacion-toledo/tema-39/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-39/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-39/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-39/preguntas.json",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cierre-editorial-36-39-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 40,
@@ -696,6 +720,12 @@
         33,
         34,
         35
+      ],
+      [
+        36,
+        37,
+        38,
+        39
       ]
     ],
     "temasAuditados": [
@@ -732,14 +762,18 @@
       32,
       33,
       34,
-      35
+      35,
+      36,
+      37,
+      38,
+      39
     ],
-    "temasConCierreEditorialDemostrado": 34,
-    "cuentaPendientesGlobal": 87,
+    "temasConCierreEditorialDemostrado": 38,
+    "cuentaPendientesGlobal": 83,
     "ultimoBloquePreguntas": 80,
     "ultimoBloqueAlternativas": 320,
     "pendienteDocumentalT22": "ESTATUTOS_OAPGT_COMPLETOS_CONSOLIDADOS",
-    "estado": "AUDITADO_TECNICO_PEDAGOGICO_C1_HASTA_35_EXCEPTO_22",
+    "estado": "AUDITADO_TECNICO_PEDAGOGICO_C1_HASTA_39_EXCEPTO_22",
     "cierreFuncionalNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }
