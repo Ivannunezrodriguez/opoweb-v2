@@ -1301,19 +1301,22 @@ Las competencias se agrupan en cinco grandes áreas.
 
 > ⚠️ **¡Foco Examen!:** El informe de funcionamiento de servicios públicos estatales es **ANUAL** y lo eleva el **Delegado del Gobierno al Gobierno** por el cauce ministerial del **art. 73.1.b.4.º**.
 
-### C. Coordinación y cooperación con otras Administraciones
+### C. Coordinación y cooperación con otras Administraciones — artículo **73.1.c**
 
-- comunicar y cooperar con la Comunidad Autónoma y Entidades Locales;
-- participar en comisiones de transferencias, comisiones bilaterales y otros órganos de cooperación;
-- promover convenios y relaciones de colaboración.
+| Inciso | Competencia del **Delegado del Gobierno** | Particularidad |
+|---|---|---|
+| **73.1.c.1.º** | **Comunicar y recibir** la información que precisen el **Gobierno** y el **órgano de Gobierno autonómico**. | Con **Entidades Locales**, a través de sus **Presidentes**. |
+| **73.1.c.2.º** | Mantener relaciones de **coordinación y cooperación** de la **AGE y sus organismos públicos** con la **Comunidad Autónoma** y **Entidades Locales**. | Promueve **convenios**, en especial sobre **financiación estatal**, y participa en el seguimiento de su ejecución y cumplimiento. |
+| **73.1.c.3.º** | Participar en **Comisiones mixtas de transferencias** y **Comisiones bilaterales de cooperación**. | También en órganos de cooperación análogos **cuando se determine**. |
+
+> ⚠️ **¡Foco Examen!:** **73.1.c.2.º** incluye la **promoción y el seguimiento de convenios de financiación estatal**. **73.1.c.3.º** no atribuye al Delegado la presidencia automática de todas las comisiones bilaterales; solo dispone su **participación cuando se determine**.
 
 ### D. Control de legalidad
 
 - resolver recursos administrativos contra actos de los **órganos de la Delegación del Gobierno**, **previo informe, en todo caso, del Ministerio competente por razón de la materia** (**art. 73.1.d.1.º**);
 - cuando se impugnen actos del **propio Delegado** susceptibles de recurso y que **no ponen fin a la vía administrativa**, resolverán los **órganos correspondientes del Ministerio competente por razón de la materia**, no el mismo Delegado;
 - suspender la ejecución de actos impugnados de órganos de la Delegación **cuando le corresponda resolver el recurso**, conforme al **art. 117.2 de la Ley 39/2015**, y **proponer la suspensión** en los restantes casos y respecto de actos de servicios no integrados (**art. 73.1.d.2.º**);
-- velar por las competencias constitucionales del Estado y correcta aplicación de su normativa;
-- promover conflictos y acciones legales procedentes.
+- velar por las **competencias constitucionales del Estado** y la correcta aplicación de sus normas; **promover o interponer**, según corresponda, **conflictos de jurisdicción**, **conflictos de atribuciones**, **recursos** y otras acciones legalmente procedentes (**73.1.d.3.º**).
 
 Las reclamaciones de responsabilidad patrimonial se tramitan y resuelven por el Ministerio competente por materia, no por el Delegado.
 
@@ -1376,12 +1379,16 @@ El Subdelegado es órgano directivo territorial, pero no alto cargo conforme a l
 
 Corresponde al Subdelegado:
 
-### Cooperación territorial
+### Cooperación territorial — artículo **75.a**
 
-- relacionarse con Comunidad Autónoma y Entidades Locales;
-- coordinar AGE y organismos públicos en la provincia;
-- informar sobre programas de financiación estatal;
-- comunicar y recibir información institucional.
+El **Subdelegado del Gobierno** desempeña funciones de **comunicación, colaboración y cooperación** con la **Comunidad Autónoma** y las **Entidades Locales**, e informa especialmente sobre la incidencia provincial de los **programas de financiación estatal**.
+
+| Inciso | Competencia del **Subdelegado** |
+|---|---|
+| **75.a.1.º** | Mantener relaciones de **cooperación y coordinación** entre la **AGE y sus organismos públicos** y la **Comunidad Autónoma y Entidades Locales** en el ámbito provincial. |
+| **75.a.2.º** | **Comunicar y recibir** la información que precisen el **Gobierno** y el **órgano de Gobierno de la Comunidad Autónoma**. También lo hará con las **Entidades Locales** del territorio **a través de sus respectivos Presidentes**. |
+
+> ⚠️ **¡Foco Examen!:** El artículo **75.a.2.º** no se limita a «recibir información»; impone **comunicar y recibir**, y cuando se trata de **Entidades Locales** la interlocución es **a través de sus respectivos Presidentes**.
 
 ### Seguridad y protección civil
 
