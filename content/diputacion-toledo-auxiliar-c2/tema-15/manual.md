@@ -518,9 +518,7 @@ Se diferencia de los **grupos o comisiones de trabajo** del **artículo 22.3**, 
 
 ### Forma de creación
 
-- Real Decreto: órgano interministerial cuyo Presidente tenga rango superior a Director general.
-- Orden ministerial conjunta: restantes órganos interministeriales.
-- Orden ministerial: órganos ministeriales.
+La tabla precedente establece las tres formas normativas del artículo 22.2; no son alternativas intercambiables.
 
 Los demás órganos tienen carácter de grupos o comisiones de trabajo. Pueden crearse por Acuerdo del Consejo de Ministros o por los Ministerios interesados, pero sus acuerdos no producen efectos directos frente a terceros.
 
