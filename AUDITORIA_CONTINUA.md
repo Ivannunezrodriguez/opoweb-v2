@@ -1963,3 +1963,20 @@ La portada `assets/app.js` incluía la convocatoria **Diputación Toledo Auxilia
 - **51/121** bancos auditados individualmente y **0/121** con certificación integral demostrada: la corrección funcional no incrementa esas métricas.
 - La compilación sintáctica aislada del JavaScript se comprobó en el editor. **CI/Pages del último commit: verificar su resultado definitivo**, sin dar por realizada la prueba de navegador real, móvil ni accesibilidad.
 - **Próxima auditoría jurídico-editorial:** Diputación Auxiliar C2 T14–T16; T06 permanece aplazado hasta completar sus fuentes oficiales.
+
+
+## 65. Diputación Toledo C2 T14 · redundancia de certificados y comprobación CI/Pages — 05/11/2026
+
+### Evidencia técnica exacta
+
+Se leyeron primero `PROJECT_RULES.md` y el apartado más reciente (§64) de este registro. Se consultaron commits recientes: al comenzar, HEAD `361b154aaa426bd49afaff87ae1b5a9165f22bba`. Para ese SHA, **CI success** (run **41935030848**) y **Pages success** (run **41935031016**), comprobados en GitHub Actions. No atribuir esos resultados al nuevo commit de esta sección.
+
+### Cotejo jurídico parcial de T14
+
+En `content/diputacion-toledo-auxiliar-c2/tema-14/preguntas.json`, la pregunta **DT-C2-T14-014** repetía la regla de vigencia máxima de cinco años ya evaluada en **T14-004**. Se sustituyó por la **suspensión del certificado**, contrastada con **Ley 6/2020, artículo 5.2 y 5.3** ([BOE, texto consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a5)); se conservaron ID, cuatro alternativas y posición de la clave correcta **D**. La nueva justificación enumera los supuestos **5.1.a, c, h**, las dudas sobre **5.1.b, g**, la exigencia de previsión en la declaración de prácticas y el efecto de no levantar la suspensión. Se examinaron individualmente los distractores: visita a la sede, plazo inventado de tres años y caducidad definitiva no constituyen esa regla legal.
+
+**Commit de contenido:** `dffd919b3363339901a4924b97e5f9f3721169e2`. **CI/Pages de este commit y del commit de registro:** pendientes de comprobación tras su ejecución. No se han realizado pruebas de navegador, accesibilidad ni cotejo integral de T14–T16; siguen pendientes otras redundancias de T14 (T03/T11, T06/T13, T01/T17), que no deben cambiarse sin contrastar el nuevo fundamento. La fecha de corte normativo y la vigencia particular de cada disposición deben cotejarse antes de cerrar el manual.
+
+### Cobertura y siguiente lote
+
+Se mantiene **51/121 bancos cotejados individualmente** y **0/121 temas certificados en todas las capas**. **Próximo bloque:** revisar y sustituir duplicidades restantes de T14 con preceptos oficiales distintos, cotejar cada alternativa y documentar en informe individual; continuar T15–T16, sin anticipar T06 OAPGT. Verificar CI y Pages del SHA de cada nuevo cambio y probar la ruta real de práctica C2 en navegador/móvil.
