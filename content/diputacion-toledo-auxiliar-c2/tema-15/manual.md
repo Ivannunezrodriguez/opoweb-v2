@@ -917,62 +917,80 @@ La estructura real depende del Real Decreto de cada departamento.
 
 ## 1. Artículo 61 · Ministros
 
-Los Ministros son titulares de sus departamentos, dirigen los sectores administrativos integrados en ellos y responden de esa dirección.
+Los **Ministros**, como titulares de su departamento, **dirigen los sectores de actividad administrativa** integrados en él y asumen la **responsabilidad inherente** a dicha dirección. Las siguientes facultades proceden de cada letra del **artículo 61 de la Ley 40/2015**.
 
-### Funciones de dirección y planificación
+### Matriz íntegra de atribuciones del artículo 61
 
-- ejercer potestad reglamentaria en materias del departamento;
-- fijar objetivos y aprobar planes;
-- asignar recursos dentro de los créditos presupuestarios;
-- determinar o proponer la organización interna;
-- evaluar planes y ejercer control de eficacia.
+| Letra | Competencia del **Ministro** | Matiz examinable |
+|---|---|---|
+| **a)** | Ejercer la **potestad reglamentaria** en materias propias del departamento. | No equivale a dictar reglamentos de cualquier materia. |
+| **b)** | Fijar objetivos, aprobar planes y asignar recursos para ejecutarlos. | Dentro de las **dotaciones presupuestarias**. |
+| **c)** | Aprobar propuestas de estados de gastos del Ministerio y presupuestos de organismos públicos dependientes y remitirlas al departamento de Hacienda. | **Propuesta presupuestaria** no es aprobación de la ley presupuestaria. |
+| **d)** | Determinar o, cuando corresponda, **proponer** la organización interna ministerial. | La forma de creación de cada órgano se regula en el **art. 59**. |
+| **e)** | Evaluar los planes de órganos superiores y directivos y controlar la eficacia de estos y organismos dependientes. | Sin perjuicio de la **Ley 47/2003, General Presupuestaria**. |
+| **f)** | Nombrar y separar titulares de órganos directivos y entidades dependientes cuando la facultad no corresponda a otro; elevar las propuestas de nombramientos reservados al **Consejo de Ministros**. | No todo nombramiento directivo lo resuelve personalmente el Ministro. |
+| **g)** | Autorizar **comisiones de servicio con derecho a indemnización por cuantía exacta** de **altos cargos dependientes del Ministro**. | No confundir con altos cargos dependientes de la **Secretaría de Estado**. |
+| **h)** | Mantener relaciones con comunidades autónomas y **convocar Conferencias sectoriales** y órganos de cooperación de su departamento. | Órgano convocante en el marco competencial del departamento. |
+| **i)** | Dirigir a órganos superiores y directivos, impartir instrucciones y **delegarles competencias propias**. | La delegación está sujeta a los requisitos del **art. 9**. |
+| **j)** | **Revisar de oficio** actos administrativos; resolver conflictos de atribuciones que correspondan y plantear los procedentes con otros ministerios. | No equiparar **revisión de oficio** con recurso administrativo. |
+| **k)** | Celebrar **contratos y convenios** dentro de su competencia. | Respetar la autorización del **Consejo de Ministros** cuando sea preceptiva. |
+| **l)** | Administrar créditos, aprobar/comprometer gastos, modificar presupuestos dentro de su competencia, reconocer obligaciones y proponer pagos; fijar límites de gasto de **Secretarios de Estado y Subsecretario**. | **Consejo de Ministros** decide modificaciones que le estén reservadas; los pagos siguen el **plan de disposición de fondos del Tesoro**. |
+| **m)** | Decidir quién representa al Ministerio en **órganos colegiados o grupos de trabajo** cuando la representación no venga determinada. | No confundir con la representación ordinaria del departamento a cargo del **Subsecretario**. |
+| **n)** | Remitir documentación ministerial necesaria para elaborar la **Cuenta General del Estado**. | Remitir documentación no significa aprobar la Cuenta General. |
+| **ñ)** | Resolver recursos administrativos y declarar la **lesividad** cuando corresponda. | Diferenciar de la **revisión de oficio** de la letra **j)**. |
+| **o)** | Otorgar premios y recompensas del departamento, y proponer otros cuando así lo exija su regulación. | Competencia frecuentemente omitida en resúmenes. |
+| **p)** | Conceder subvenciones y ayudas del departamento y fijar límites para su otorgamiento por **Secretarios de Estado** o **Subsecretario**. | Sujeción a créditos de gasto y límites establecidos. |
+| **q)** | Proponer y ejecutar **Planes de Empleo** del departamento y organismos dependientes. | Se distingue de modificar la **RPT** de la letra **r)**. |
+| **r)** | Modificar **RPT** cuando la competencia esté delegada al departamento; en caso contrario, proponer modificaciones al órgano de Hacienda competente. | No atribuirle una competencia universal de modificación de todas las RPT. |
+| **s)** | Imponer la sanción disciplinaria de **separación del servicio por faltas muy graves**. | El **Subsecretario** ejerce disciplina en otros casos; **art. 63.1.ñ)**. |
+| **t)** | Ejercer las demás competencias asignadas por leyes y normas de organización. | Cláusula residual, no habilitación universal. |
 
-### Funciones presupuestarias, patrimoniales y contractuales
+### Órganos y trámites que más se confunden
 
-- aprobar propuestas de gastos y presupuestos de organismos dependientes;
-- administrar créditos y autorizar modificaciones presupuestarias dentro de su competencia;
-- aprobar y comprometer gastos, reconocer obligaciones y proponer pagos;
-- celebrar contratos y convenios no reservados al Consejo de Ministros;
-- conceder subvenciones y ayudas;
-- rendir cuentas y remitir documentación para la Cuenta General del Estado.
+| Supuesto | **Órgano competente** | Base |
+|---|---|---|
+| **Conferencia sectorial** en el ámbito del departamento | **Ministro** | **61.h** |
+| **Alto cargo dependiente del Ministro**: comisión de servicio indemnizada por cuantía exacta | **Ministro** | **61.g** |
+| **Separación del servicio** por falta muy grave | **Ministro** | **61.s** |
+| **Modificación de la RPT** | **Ministro**, solo si hay competencia delegada; de otro modo, **propuesta a Hacienda** | **61.r** |
+| **Límites inferiores** para subvenciones y ayudas de otros órganos | Los fija el **Ministro** | **61.p** |
 
-### Funciones sobre órganos y personal
-
-- nombrar y separar titulares cuando la competencia les corresponda;
-- proponer nombramientos de órganos superiores y directivos;
-- ejercer jefatura superior del personal;
-- imponer separación del servicio por faltas muy graves;
-- aprobar o proponer planes de empleo y relaciones de puestos de trabajo.
-
-### Funciones jurídicas
-
-- resolver recursos administrativos que les correspondan;
-- declarar lesividad cuando proceda;
-- ejercer las competencias atribuidas por leyes y normas organizativas.
-
-El listado legal es amplio. Para el examen importa identificar al Ministro como jefe superior, planificador, responsable político-administrativo y titular de potestades normativas, presupuestarias, contractuales, de personal y revisión administrativa.
+> ⚠️ **¡Foco Examen!:** No intercambiar **revisión de oficio (61.j)** con **recursos y lesividad (61.ñ)**; tampoco **Plan de Empleo (61.q)** con **Relación de Puestos de Trabajo (61.r)**. La **separación del servicio por falta muy grave** es del **Ministro (61.s)**, no del **Secretario de Estado** por regla general.
 
 ## 2. Artículo 62 · Secretarios de Estado
 
-Son órganos superiores directamente responsables de ejecutar la acción del Gobierno en un sector específico.
+Los **Secretarios de Estado** son **órganos superiores** directamente responsables de ejecutar la acción del Gobierno en un **sector de actividad específica**. Dirigen y coordinan las **Secretarías** y **Direcciones Generales** que dependen de ellos, y responden ante el **Ministro**. Pueden representar al Ministro mediante **delegación expresa**, incluso en asuntos con proyección internacional, respetando las reglas de relaciones exteriores (**art. 62.1**).
 
-Pueden representar al Ministro por delegación expresa, incluso en materias con proyección internacional, respetando las reglas de relaciones exteriores.
+### Matriz íntegra de atribuciones del artículo 62.2
 
-### Funciones principales
+| Letra | Competencia del **Secretario de Estado** | Matiz examinable |
+|---|---|---|
+| **a)** | Ejercer las competencias sectoriales propias de la norma de creación o **delegadas por el Ministro** y las relaciones externas de la Secretaría de Estado. | Excepto asuntos **reservados legalmente al Ministro**. |
+| **b)** | Dirigir, impulsar objetivos y proyectos, controlar cumplimiento, supervisar directivos e impartir instrucciones. | Función de dirección sobre **órganos adscritos**. |
+| **c)** | **Nombrar y separar Subdirectores Generales de la Secretaría de Estado**. | No nombrar automáticamente **Directores Generales**. |
+| **d)** | Mantener relaciones con órganos autonómicos competentes por materia. | Diferente de **convocar Conferencias sectoriales** del **Ministro (61.h)**. |
+| **e)** | Autorizar previamente determinadas **contrataciones de organismos autónomos adscritos** cuando superen la cuantía legal prevista. | La referencia literal del consolidado remite a la **DT 3.ª del RDL 3/2011**; su aplicación actual requiere contrastar la legislación de contratos vigente. **No inventar una cifra**. |
+| **f)** | Autorizar **comisiones de servicio con indemnización por cuantía exacta** para **altos cargos dependientes de la Secretaría de Estado**. | Contrastar con **Ministro (61.g)** y **Subsecretario (63.1.p)**. |
+| **g)** | Celebrar contratos de su ámbito y convenios no reservados al Ministro. | Sin perjuicio de la autorización preceptiva. |
+| **h)** | Conceder subvenciones y ayudas de sus créditos. | Con los **límites establecidos por el Ministro**. |
+| **i)** | Resolver recursos contra **órganos directivos directamente dependientes** cuando no agoten vía administrativa y resolver conflictos de atribuciones entre ellos. | Exige **dependencia directa** para los recursos del inciso. |
+| **j)** | Administrar créditos y modificar presupuestos, aprobar/comprometer gastos, reconocer obligaciones y proponer su pago. | Dentro de la **cuantía fijada, en su caso, por el Ministro** y respetando lo reservado al **Consejo de Ministros**. |
+| **k)** | Ejercer las demás competencias atribuidas por la legislación en vigor. | Cláusula residual. |
 
-- dirigir y coordinar Secretarías y Direcciones Generales dependientes;
-- ejecutar objetivos fijados para la Secretaría de Estado;
-- ejercer competencias propias y delegadas;
-- impartir instrucciones y supervisar órganos directivos;
-- nombrar y separar Subdirectores Generales dependientes;
-- relacionarse con Comunidades Autónomas por razón de la materia;
-- celebrar contratos y convenios de su ámbito;
-- conceder subvenciones dentro de límites ministeriales;
-- resolver recursos contra órganos directivos dependientes cuando sus actos no agoten vía administrativa;
-- resolver conflictos de atribuciones entre dichos órganos;
-- gestionar créditos y gastos dentro de los límites fijados.
+### Comparativa de facultades de dirección
 
-Responden ante el Ministro de la ejecución de los objetivos asignados.
+| Materia | **Ministro** | **Secretario de Estado** |
+|---|---|---|
+| **Potestad reglamentaria del departamento** | **61.a** | No atribuida con carácter general por **62.2** |
+| **Conferencias sectoriales** | Convoca según **61.h** | Relaciones con CCAA por **62.2.d** |
+| **Nombramiento de Subdirectores Generales** | Cuando legalmente le corresponda, **61.f** | Los de su Secretaría de Estado, **62.2.c** |
+| **Contratos y convenios** | **61.k**, con autorización del Consejo si preceptiva | **62.2.g**, si no reservados al Ministro |
+| **Subvenciones y ayudas** | **61.p**, y fija límites | **62.2.h**, dentro de límites fijados |
+| **Comisiones de servicio de altos cargos** | Altos cargos dependientes del **Ministro**, **61.g** | Altos cargos dependientes de la **Secretaría**, **62.2.f** |
+| **Recursos administrativos** | Según competencia, **61.ñ** | Solo contra órganos **directamente dependientes** cuyos actos no agoten vía, **62.2.i** |
+| **Separación del servicio** por falta muy grave | **61.s** | No está en la lista del **62.2** |
+
+> ⚠️ **¡Foco Examen!:** **Art. 62.2.e** contiene una referencia histórica del consolidado al **RDL 3/2011**: no memorizar una cuantía numérica inferida. Lo examinable del precepto es la **autorización previa** a la contratación de **organismos autónomos adscritos** por encima de la cuantía aplicable. Para los **recursos (62.2.i)** los órganos recurridos deben **depender directamente** del Secretario de Estado y no haber agotado la vía administrativa.
 
 ## 3. Artículo 63 · Subsecretarios
 
