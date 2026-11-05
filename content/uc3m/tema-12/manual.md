@@ -201,6 +201,26 @@ La organización titular del centro debe informar sobre riesgos y medidas de eme
 - El Comité de Seguridad y Salud es paritario y se constituye desde 50 personas trabajadoras.
 - Los delegados de prevención son representantes con funciones específicas preventivas.
 
+## Garantías de vigilancia de la salud y participación — **05/11/2026**
+
+La regla de [**Ley 31/1995, art. 22**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a22) es la **voluntariedad** de la vigilancia de la salud, salvo supuestos tasados. Para exceptuarla se exige, en los supuestos legalmente previstos, **informe previo de los representantes de las personas trabajadoras**.
+
+| Circunstancia | Exigencia del artículo **22** |
+|---|---|
+| Vigilancia sanitaria ordinaria | **Consentimiento** de la persona trabajadora |
+| Reconocimientos imprescindibles para evaluar los efectos del trabajo sobre la salud | Excepción motivada, **informe previo de los representantes**, con garantías |
+| Necesidad de verificar peligro para la propia persona, compañeros o terceras personas | Excepción legal condicionada, no prueba indiscriminada |
+| Disposición legal sobre riesgos específicos o actividades de especial peligrosidad | Solo en términos de esa disposición |
+| Resultado de exploraciones | **Confidencialidad**; responsables reciben únicamente conclusiones sobre **aptitud** o medidas preventivas, no historia clínica detallada |
+
+La vigilancia deberá causar las **menores molestias** y ser **proporcional al riesgo**. La información sanitaria personal solo puede tratarla el personal médico y las autoridades sanitarias competentes, sin perjuicio de las conclusiones de aptitud comunicables en los términos legales.
+
+El artículo **35.2** regula a los **Delegados de Prevención**; los artículos **34.3.d y 38** distinguen las particularidades de las **Administraciones Públicas** y los **Comités de Seguridad y Salud**. No basta memorizar el umbral de **50 personas** sin conocer a qué órgano corresponde.
+
+**Fuentes:** [**LPRL arts. 14–16, 19, 21–22, 29–31 y 34–38**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292); consolidado con modificación última **09/04/2026**.
+
+> ⚠️ **¡Foco Examen!:** **Vigilancia voluntaria** no significa que nunca pueda ser obligatoria, ni permite exploraciones sin límites. El informe previo de **representantes** no es consentimiento sustitutorio general. **Delegados (art. 35)** y **Comité (art. 38)** son instituciones distintas.
+
 ## Cotejo de las 48 alternativas del banco · 04/11/2026
 
 [**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
