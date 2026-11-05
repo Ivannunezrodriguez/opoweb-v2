@@ -202,17 +202,17 @@
     },
     {
       "id": "DT-C2-T16-015",
-      "enunciado": "¿Qué ocurre si Windows no detecta automáticamente una impresora?",
+      "enunciado": "En Windows 11, una impresora compatible no aparece en la búsqueda automática de «Impresoras y escáneres». ¿Cuál es la actuación adecuada?",
       "opciones": [
-        "El ordenador debe formatearse",
-        "Hay que borrar las carpetas de usuario",
-        "No se puede utilizar nunca",
-        "Puede agregarse manualmente, siguiendo el asistente y controladores adecuados"
+        "Cambiar la impresora predeterminada, lo que fuerza a detectar cualquier impresora ausente.",
+        "Vaciar la cola de impresión, porque instala automáticamente los controladores de dispositivos no detectados.",
+        "Activar la detección de redes, que garantiza por sí sola el alta de cualquier impresora USB o de red.",
+        "Utilizar la opción de agregar manualmente, comprobando conexión, dirección o puerto y controlador compatible."
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Microsoft contempla instalación manual cuando la búsqueda automática no encuentra una impresora.",
-      "trampaExamen": "Distinguir **la función real** de las opciones de Windows 11; no confundir archivo local, recurso compartido, impresión y digitalización.",
-      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+      "justificacion": "La detección automática no es requisito indispensable: Windows 11 permite agregar manualmente impresoras que no aparecen en la lista. Según el tipo de conexión, se comprueban el cable o la red, la dirección o el puerto y la disponibilidad de un controlador adecuado. Cambiar la predeterminada o vaciar una cola existente no instala un dispositivo no detectado; habilitar detección de redes tampoco garantiza su incorporación.",
+      "trampaExamen": "**No detectada ≠ imposible de instalar.** Distinguir detección, instalación manual, controlador y administración de trabajos ya enviados.",
+      "referencia": "Microsoft, agregar o instalar una impresora en Windows · https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
     },
     {
       "id": "DT-C2-T16-016",
