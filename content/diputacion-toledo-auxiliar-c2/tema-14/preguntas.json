@@ -1,8 +1,8 @@
 {
   "tema": 14,
   "estado": "BANCO_20_PREGUNTAS_REVISION_DOCUMENTAL",
-  "version": "2026-11-05-auditoria-parcial-lote-2",
-  "criterio": "T14-014 suspensión; T14-011,013,017 sustituidas por arts. 6.1.b, 5.1.e, 7.1 Ley 6/2020 para eliminar duplicidades; resto pendiente.",
+  "version": "2026-11-05-auditoria-parcial-lote-3",
+  "criterio": "T14-014 suspensión; T14-011,013,017 sustituidas por arts. 6.1.b, 5.1.e, 7.1 Ley 6/2020 para eliminar duplicidades; resto pendiente. Lote 3: nueve justificaciones y referencias diferenciadas, con análisis explícito de 36 alternativas; pendiente cotejo completo y manual.",
   "preguntas": [
     {
       "id": "DT-C2-T14-001",
@@ -98,9 +98,9 @@
         "Identificarse implica renunciar a derechos"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Los artículos 9–11 Ley 39/2015 diferencian identificación y firma.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+      "justificacion": "La identificación permite comprobar quién actúa (Ley 39/2015, art. 9); la firma acredita autenticidad de la expresión de voluntad y consentimiento e integridad del documento (art. 10). A es falsa porque son operaciones distintas; C confunde firma con lectura; D inventa una renuncia de derechos.",
+      "trampaExamen": "**Foco examen:** identificación y firma no son equivalentes.",
+      "referencia": "Ley 39/2015, arts. 9–11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
     },
     {
       "id": "DT-C2-T14-008",
@@ -112,9 +112,9 @@
         "Una web"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "eIDAS define firmante como persona física que crea una firma electrónica.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+      "justificacion": "El art. 3.9 del Reglamento (UE) 910/2014 define «firmante» como persona física que crea una firma electrónica. B confunde persona jurídica y firmante; C atribuye indebidamente exclusividad al órgano administrativo; D no es una persona física.",
+      "trampaExamen": "**Foco examen:** el firmante es persona física; el creador del sello es persona jurídica.",
+      "referencia": "Reglamento (UE) 910/2014, art. 3.9 · https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
     },
     {
       "id": "DT-C2-T14-009",
@@ -126,9 +126,9 @@
         "La contraseña de correo"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La verificación criptográfica utiliza la clave pública correspondiente, dentro de un sistema de confianza.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+      "justificacion": "En criptografía asimétrica, la verificación de la firma emplea la clave pública correspondiente a la clave privada de firma, junto a las comprobaciones de integridad y confianza exigibles. A confunde la clave privada del receptor con la verificación; B y D no son claves de verificación criptográfica.",
+      "trampaExamen": "**Foco examen:** verificar una firma no exige conocer la clave privada del firmante.",
+      "referencia": "Reglamento (UE) 910/2014, arts. 3 y 32 (validación de firma cualificada) · https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
     },
     {
       "id": "DT-C2-T14-010",
@@ -140,9 +140,9 @@
         "Tarjeta criptográfica compatible"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Las tarjetas criptográficas pueden proteger una clave no exportable.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+      "justificacion": "Una tarjeta criptográfica compatible puede custodiar claves privadas no exportables. Una imagen PDF, un archivo de texto plano o un marcador web no proporcionan por sí mismos esa propiedad de protección criptográfica; la no exportabilidad depende del dispositivo y de su configuración.",
+      "trampaExamen": "**Foco examen:** un soporte criptográfico no equivale a un archivo ordinario.",
+      "referencia": "FNMT, FAQ 1213 sobre tarjeta criptográfica y certificado software · https://www.sede.fnmt.gob.es/ca/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1213-que-diferencia-hay-entre-solicitar-un-certificado-en-tarjeta-criptografica-y-solicitarlo-en-software-"
     },
     {
       "id": "DT-C2-T14-011",
@@ -168,9 +168,9 @@
         "No cambia su estado"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Art. 4.1 Ley 6/2020: el certificado se extingue por caducidad al expirar su período.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046"
+      "justificacion": "El artículo 4.1 de la Ley 6/2020 contempla la extinción por caducidad al expirar el período de vigencia. No existe renovación automática de veinte años (A), conversión en título académico (C) ni continuidad inalterada de vigencia (D).",
+      "trampaExamen": "**Foco examen:** caducidad por vencimiento no es revocación anticipada.",
+      "referencia": "Ley 6/2020, art. 4.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a4"
     },
     {
       "id": "DT-C2-T14-013",
@@ -210,9 +210,9 @@
         "Cambiar DNS"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La firma remota permite usar un dispositivo de creación de firma gestionado por un prestador con controles exigibles.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+      "justificacion": "La firma remota puede realizarse con un dispositivo de creación de firma gestionado por un prestador, bajo requisitos de control y seguridad. Imprimir una captura no crea firma electrónica (B); remitir contraseñas por correo no constituye método seguro de firma (C); cambiar DNS no crea ni valida firmas (D). La respuesta no significa que cualquier servicio remoto sea automáticamente cualificado.",
+      "trampaExamen": "**Foco examen:** firma remota no implica por sí sola cualificación del servicio.",
+      "referencia": "Reglamento (UE) 910/2014, arts. 3 y 29 y anexo II (dispositivos cualificados) · https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
     },
     {
       "id": "DT-C2-T14-016",
@@ -224,9 +224,9 @@
         "No tienen valor jurídico"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "eIDAS separa sello electrónico de persona jurídica y firma del firmante persona física.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+      "justificacion": "El Reglamento eIDAS distingue al firmante, persona física (art. 3.9), del creador de un sello electrónico, persona jurídica (art. 3.24). A invierte los sujetos; C confunde sello electrónico con imagen escaneada; D niega los efectos jurídicos que reconoce el Reglamento.",
+      "trampaExamen": "**Foco examen:** la firma y el sello identifican sujetos jurídicos distintos.",
+      "referencia": "Reglamento (UE) 910/2014, arts. 3.9, 3.24, 25 y 35 · https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
     },
     {
       "id": "DT-C2-T14-017",
@@ -252,9 +252,9 @@
         "La validez de la firma electrónica y del certificado según mecanismo de validación"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Una imagen de rúbrica no acredita por sí sola firma criptográfica válida.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+      "justificacion": "La apariencia de una rúbrica visible en PDF no acredita por sí sola la validez de una firma electrónica: deben comprobarse integridad, certificado y estado de validación según el tipo de firma. Color del texto (A), impresora (B) y extensión del navegador (C) no sustituyen la validación.",
+      "trampaExamen": "**Foco examen:** una firma visible no acredita su validez criptográfica.",
+      "referencia": "Reglamento (UE) 910/2014, art. 32 (validación de firma cualificada) · https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
     },
     {
       "id": "DT-C2-T14-019",
@@ -266,9 +266,9 @@
         "El certificado de trabajador de toda empresa"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "eIDAS establece certificados destinados a autenticación de sitios web, diferentes de los de firma personal.",
-      "trampaExamen": "Diferenciar **firma**, **sello**, **certificado**, **vigencia** y **revocación**.",
-      "referencia": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX:32014R0910"
+      "justificacion": "El certificado de autenticación de sitio web vincula el sitio con la persona física o jurídica a la que se expide (Reglamento eIDAS, art. 3.38). No es documento padronal (B), firma manuscrita de quien visita (C) ni certificado laboral genérico (D).",
+      "trampaExamen": "**Foco examen:** el certificado de sitio web no es un certificado de firma personal.",
+      "referencia": "Reglamento (UE) 910/2014, art. 3.38 · https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
     },
     {
       "id": "DT-C2-T14-020",
@@ -287,7 +287,7 @@
   ],
   "auditoria": {
     "fecha": "2026-11-05",
-    "preguntasRevisadas": 9,
+    "preguntasRevisadas": 18,
     "fuentes": [
       "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
       "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
@@ -300,7 +300,7 @@
       "Reglamento (UE) 910/2014, arts. 3 y 22 y anexo III",
       "FNMT FAQ 1213"
     ],
-    "resultado": "Se han contrastado seis respuestas. Se sustituyeron tres preguntas redundantes o memorísticas por distinción sello/firma, listas de confianza y soportes software/tarjeta; se reforzaron explicaciones y trampas. Reemplazada T14-014 duplicada por pregunta diferenciada de suspensión, cotejada con art. 5.2 y distractores; no se certifica el banco completo. Segundo lote: T14-011/013/017 sustituidas con cuatro alternativas contrastadas cada una; sin certificación integral.",
+    "resultado": "Se han contrastado seis respuestas. Se sustituyeron tres preguntas redundantes o memorísticas por distinción sello/firma, listas de confianza y soportes software/tarjeta; se reforzaron explicaciones y trampas. Reemplazada T14-014 duplicada por pregunta diferenciada de suspensión, cotejada con art. 5.2 y distractores; no se certifica el banco completo. Segundo lote: T14-011/013/017 sustituidas con cuatro alternativas contrastadas cada una; sin certificación integral. Tercer lote: reforzadas 9 preguntas (007–010,012,015–016,018–019), justificación de cada distractor y fundamento preciso, sin cambiar claves.",
     "limitacion": "Auditoría del banco de seis preguntas, no del manual completo ni comprobación visual en navegador."
   }
 }
