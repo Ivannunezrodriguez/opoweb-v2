@@ -11,7 +11,7 @@
 - [Microsoft — extensiones de archivo en Windows 11](https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows)
 - [Microsoft — compartir y asignar unidades de red](https://support.microsoft.com/es-es/windows/experience/connectivity-networking/file-sharing-over-a-network-in-windows)
 
-## Cierre editorial 29/10/2026
+## Hito editorial histórico 29/10/2026 (no certificación actual)
 
 **Contenido:** cinco bloques completos de operaciones de archivos y carpetas, unidades locales/red, impresión y digitalización. Incluye tablas de comparación y supuestos de oficina. **Banco:** 20 preguntas originales con soluciones, cuatro alternativas y referencias técnicas.
 
@@ -24,3 +24,19 @@
 Se sustituyeron los enunciados repetidos del banco **T16-007, T16-008 y T16-010**; se mejoraron los distractores de **T16-014** sin modificar la clave. Las materias añadidas son **extensiones y conversión de archivos**, **creación de carpetas** y **propiedades**. Las cuatro respuestas correctas se cotejaron con las fuentes Microsoft anteriores; véase [informe del banco y sus distractores](cotejo-focal-2026-11-05.md). No supone auditoría integral de las 20 preguntas ni comprobación del sistema operativo mediante interfaz real.
 
 > ⚠️ **¡Foco Examen!:** No dar por válido un PDF por su extensión. Una ruta de **Impresoras y escáneres** no es la de **Proxy**; ambas pertenecen a Configuración pero cumplen funciones distintas.
+
+## Auditoría completa del banco — 05/11/2026
+
+Se examinó el banco de **20 preguntas y 80 alternativas** con justificación específica por opción y trampas de examen. Resultado disponible en [informe de auditoría de todas las preguntas](cotejo-banco-completo-2026-11-05.md). Se conservan claves y distribución **A5/B4/C6/D5**. Las **15** preguntas que mantenían opciones de descarte triviales se reescribieron; los **5** ítems editados anteriormente también se revisaron.
+
+### Referencias oficiales complementarias
+
+- [Microsoft — uso compartido y asignación de unidad](https://support.microsoft.com/es-es/windows/experience/connectivity-networking/file-sharing-over-a-network-in-windows)
+- [Microsoft — cola de impresión](https://support.microsoft.com/es-es/windows/hardware/printer/view-a-printer-s-print-queue-in-windows)
+- [Microsoft — impresión dúplex (Word)](https://support.microsoft.com/es-es/word/print-on-both-sides-of-the-paper-duplex-printing-in-word)
+- [Microsoft — OCR en Herramienta Recortes](https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots)
+- [Microsoft Learn — nomenclatura de rutas UNC](https://learn.microsoft.com/es-es/windows/win32/fileio/naming-a-file)
+
+> ⚠️ **¡Foco Examen!:** **ADF** alimenta hojas y **OCR** reconoce caracteres; **dúplex** de impresión no asegura escaneo dúplex. Una imagen en **PDF** no equivale por sí sola a texto reconocible.
+
+**Límite:** banco auditado, pero revisión de los **1.196 renglones del manual** y experiencia real del portal/Windows 11 todavía no certificadas.
