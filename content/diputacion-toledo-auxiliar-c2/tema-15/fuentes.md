@@ -108,3 +108,21 @@ El [informe del cotejo focal por artículos 5–14](cotejo-manual-organos-compet
 > ⚠️ **¡Foco Examen!:** **Interesado que es parte en el expediente** puede promover las actuaciones del **art. 14.2**; **no** sustituye los tres requisitos de un **conflicto de atribuciones** del **art. 14.3**.
 
 **Límite:** revisión focal de los artículos 5–14; el manual completo aún **no** está certificado ni hay pruebas de uso real en navegador.
+
+## Organización de la AGE, artículos **54–80** — contraste documental **05/11/2026**
+
+[**Informe comparativo de la Ley 40/2015, arts. 54–80**](cotejo-manual-age-54-80-2026-11-05.md): matriz de **27 artículos más 55 bis**, reglas presentes, omisiones y **11 pasajes corregidos** del manual. La comprobación de estructura y reglas principales **no equivale** a revisión literal integral de todos los incisos.
+
+| Artículo | Corrección con fundamento primario |
+|---|---|
+| [**55**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a55) | **Estatutos de los organismos** establecen sus órganos directivos; **Ministros y Secretarios de Estado** tienen régimen propio de nombramiento. |
+| [**58**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a58) | **Subsecretaría y SGT** siempre; **Secretaría de Estado y Secretaría General** potestativas. |
+| [**68**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a68) | **Gestión directa**, no solo asistencia; **Real Decreto** para gestión compartida, mediante Ministerio/Subsecretaría **o sus organismos autónomos**. |
+| [**72**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a72) | Orden de **suplencia del Delegado** (**Subdelegado designado**, a falta de este el de **provincia sede**, o **Secretario General** en uniprovincial sin Subdelegado). |
+| [**74**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a74) y [**75**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a75) | **Eliminada** atribución de funciones del Subdelegado al Delegado por la mera sede provincial; **asunción** solo en **comunidad uniprovincial sin Subdelegado**. |
+| [**76**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a76) | Propuesta **un ministerio** para estructura; **dos ministerios** para integración/desintegración, ambas por **Real Decreto del Consejo de Ministros**. |
+| [**79**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a79) | Miembros y asistencia a comisiones territoriales; tabla de **pluriprovincial, uniprovincial y Subdelegación**. |
+
+> ⚠️ **¡Foco Examen!:** **Sede provincial del Delegado** no implica atribución de competencias del Subdelegado. **Art. 72.5 = suplencia del Delegado**; **art. 74 = asunción de funciones del Subdelegado solo en comunidad uniprovincial sin Subdelegado**.
+
+**Estado:** cotejo jurídico focal de **54–80**, pendientes revisión literal profunda de **61–62** y **73–79**, prueba real de navegador, móvil y accesibilidad, sin promover el tema a `AUDITADO`.
