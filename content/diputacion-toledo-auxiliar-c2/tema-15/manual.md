@@ -461,7 +461,7 @@ A solicitud del miembro se incorpora al acta:
 - abstención y motivos;
 - sentido del voto favorable.
 
-Puede pedirse transcripción íntegra de una intervención aportando texto fiel cuando no exista grabación. Los disidentes pueden formular voto particular escrito en dos días.
+Puede pedirse transcripción íntegra de una intervención aportando texto fiel cuando no exista grabación. Los miembros discrepantes disponen de **2 días** para formular voto particular escrito (**art. 19.5**).
 
 ## 6. Artículo 20 · requisitos de constitución en la AGE
 
