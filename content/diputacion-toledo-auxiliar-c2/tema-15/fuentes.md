@@ -14,7 +14,7 @@
 | Órganos ministeriales | **61–68** |
 | AGE territorial y exterior | **69–80** |
 
-**Banco:** **20 preguntas** originales con cuatro opciones, respuesta y fundamento por precepto. Se corrigió la referencia a **64.3** (categoría del Secretario General). Manual ampliado con tablas de quórum, mayorías, plazos y órganos.
+**Banco:** **20 preguntas** con cuatro opciones y trazabilidad por precepto; a **05/11/2026**, justificadas individualmente las **80 alternativas** en dos informes de revisión. Esto **no acredita** el cierre integral del manual. Se corrigió la referencia a **64.3** (categoría del Secretario General). Manual ampliado con tablas de quórum, mayorías, plazos y órganos.
 
 **Hito documental histórico (no certificación integral):** **29/10/2026**. La prueba funcional en navegador real permanece como control transversal separado.
 
@@ -31,3 +31,13 @@ Ocho preguntas del banco (**T15-003, 007, 008, 009, 011, 014, 019 y 020**) se ha
 **Norma reformadora:** [**LO 2/2024**, disposición transitoria primera.3](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936#dtprimera): aplicación a nombramientos desde **22/08/2024** y garantía de equilibrio global en **5 años**; **no** debe confundirse con diferir la aplicación de nuevos nombramientos hasta **2029**.
 
 **Prueba de navegador:** pendiente. **Certificación integral:** pendiente.
+
+## Cotejo completo del banco — **05/11/2026**
+
+- [Primer lote: **8 preguntas y 32 alternativas**](cotejo-focal-2026-11-05.md): delegación de firma, avocación, suplencia, órganos colegiados, **55 bis**, Delegados y Subdelegados.
+- [Segundo lote: **12 preguntas y 48 alternativas**](cotejo-segundo-lote-2026-11-05.md): irrenunciabilidad, encomienda, parentesco, recusación, conflicto de atribuciones, mayorías y rango de cargos ministeriales.
+- **Ley 40/2015**, artículos **8–14, 17, 23–24, 55, 63–65, 72 y 74**, [BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), última actualización publicada el **02/08/2024**; [LO 2/2024](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936) para **55 bis**.
+
+> ⚠️ **¡Foco Examen!:** **Consanguinidad 4.º**, **afinidad 2.º** (**art. 23.2.b**); **recusado al día siguiente** y **superior 3 días** (**art. 24.3–4**); **Secretario General categoría Subsecretario**, **Secretario General Técnico categoría Director General**.
+
+**Validación de contenido:** banco documental de **20/80**, pendiente cotejo completo del manual, pruebas reales de navegación, móvil, PWA, accesibilidad y certificación editorial total.
