@@ -10,7 +10,7 @@ const matrix=JSON.parse(read('matriz.json'));
 const bank=JSON.parse(read('preguntas.json'));
 
 const checks=[
-  ['article5 preceptive unit','actuación sea preceptiva'],
+  ['article5 preceptive unit','actuaciones de carácter preceptivo'],
   ['article6 transparency','Ley 19/2013'],
   ['article7 collegial advice','de forma colegiada'],
   ['article8 desconcentration','titularidad y ejercicio'],
