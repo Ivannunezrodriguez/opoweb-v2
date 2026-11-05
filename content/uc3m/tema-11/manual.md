@@ -145,6 +145,22 @@ El incumplimiento del régimen de incompatibilidades puede generar responsabilid
 - La compatibilidad debe ser previa y no altera jornada ni horario.
 - Las actividades exceptuadas no equivalen a una autorización general para cualquier actividad privada.
 
+## Particularidad universitaria y compatibilidad — **05/11/2026**
+
+La [**Ley 53/1984, art. 17.2**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151#adiecisiete) dispone que las referencias a facultades atribuidas a las Subsecretarías y a órganos competentes de las Comunidades Autónomas se entenderán referidas al **Rector de cada Universidad**, en relación con el personal a su servicio, **en el marco del respectivo Estatuto**. No se debe asumir que todos los expedientes se resuelvan exactamente igual que en la **AGE** o en una entidad local.
+
+| Materia | Precepto y condición | Error de test |
+|---|---|---|
+| Segundo puesto o actividad **pública** | **Ley 53/1984, arts. 3 y 9**: exige **autorización previa** en supuestos legalmente permitidos | Confundir autorización con comunicación voluntaria |
+| Actividad **privada** | **Art. 14**: requiere **previo reconocimiento**, resolución motivada en **2 meses**; **no altera jornada ni horario** | Confundir el reconocimiento privado con la autorización pública |
+| Personal de **Universidades** | **Art. 17.2**: remisión al **Rector** de las facultades legalmente señaladas, conforme al **Estatuto universitario** | Atribuir automáticamente toda competencia al **Pleno municipal** |
+| Actividad privada vinculada a asuntos del puesto | **Art. 12.1.a**: prohibida si se interviene, se ha intervenido en **los dos últimos años** o se ha de intervenir por razón del puesto | Pensar que cesa la prohibición inmediatamente al dejar de tramitar el expediente |
+| Excepción patrimonial | **Art. 19.a**, con reserva de lo dispuesto en el **art. 12** | Equiparar gestión patrimonial personal a negocio privado relacionado con el cargo |
+
+**Fuentes:** [**RD 364/1995, arts. 4, 36, 51, 64, 70 y 74**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729), [**Ley 53/1984**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151), [**TREBEP art. 18**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a18).
+
+> ⚠️ **¡Foco Examen!:** Para la **UC3M** es esencial no trasladar sin matices los **órganos competentes de la AGE o de un Ayuntamiento**. **Art. 17.2 Ley 53/1984 = Rector** en el marco estatutario; **art. 14 = dos meses** para compatibilidad privada; **art. 12.1.a = dos años anteriores** en asuntos del cargo.
+
 ## Cotejo de las 48 alternativas del banco · 04/11/2026
 
 [**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
