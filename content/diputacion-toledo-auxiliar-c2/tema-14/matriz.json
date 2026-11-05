@@ -114,5 +114,27 @@
     "certificacionManualIntegral": false,
     "comprobacionNavegador": "PENDIENTE",
     "banco": "20 preguntas/80 alternativas cotejadas en otro lote, sin modificaciones"
+  },
+  "controlRd203Administraciones20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_FOCAL_OCHO_APARTADOS_PENDIENTE_COTEJO_INTEGRAL",
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-rd203-administraciones-2026-11-05.md",
+    "fuentes": [
+      "Ley 39/2015 arts 9–12",
+      "RD 203/2021 arts 16–23, 26–30, consolidado 02/04/2025",
+      "Ley 40/2015 arts 38–43"
+    ],
+    "subapartadosCorregidos": 8,
+    "reglasEspeciales": {
+      "csvVerificacionAniosMinimoAGE": 5,
+      "certificadoCualificadoVigenciaAniosMaximo": 5,
+      "funcionarioHabilitado": "consentimiento expreso escrito y copia",
+      "sedeAGE": "certificado cualificado autenticacion web, dominio .gob.es",
+      "plataforma": "SGAD y adhesion, gratuita para sector publico",
+      "empleadoProfesional": "certificado cualificado, uso restringido por anonimato justificado"
+    },
+    "banco": "20/80 no modificado",
+    "certificacionIntegral": false,
+    "navegadorReal": "PENDIENTE"
   }
 }
