@@ -40,3 +40,9 @@ Fuente literal: https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046
 [**Informe de la Ley 6/2020: artículos 4–7 y 9.3**](cotejo-legal-ley6-2020-2026-11-05.md), con **nueve causas de revocación**, suspensiones tasadas, identificación, **5 años**, conservación **15 años**, garantía mínima **1.500.000 € + 500.000 € por tipo adicional** y aviso de cese de **2 meses**. [**Fuente BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046).
 
 > ⚠️ **¡Foco Examen!:** **La revocación del art. 5.1 no equivale a suspensión automática del 5.2**. Certificado cualificado máximo **5 años**, no validez fija. **No se certifican** en este lote las respuestas del banco ni toda la reforma eIDAS.
+
+## Banco completo: **20 preguntas / 80 alternativas** — **05/11/2026**
+
+El [**cotejo individual de las veinte preguntas y sus ochenta opciones**](cotejo-banco-completo-2026-11-05.md) identifica la **respuesta correcta A–D**, la explicación de **cada uno de los cuatro distractores** y la referencia normativa o técnica pertinente. Se ha conservado la distribución de respuestas **A5/B5/C5/D5**. Fuentes principales: [**Ley 39/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [**Ley 6/2020**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046), [**eIDAS consolidado 18/10/2024**](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa) y [**FNMT FAQ 1213**](https://www.sede.fnmt.gob.es/ca/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1213-que-diferencia-hay-entre-solicitar-un-certificado-en-tarjeta-criptografica-y-solicitarlo-en-software-).
+
+> ⚠️ **¡Foco Examen!:** Que el **banco 20/80** disponga de cotejo por alternativa **no** acredita que se haya auditado jurídicamente todo el **manual** o el funcionamiento real de la web. Estado del tema: **EN_AUDITORIA**.
