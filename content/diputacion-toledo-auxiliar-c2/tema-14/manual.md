@@ -33,7 +33,7 @@
 
 **Bloque incorporado y revisado para el programa de Diputación C2.**
 
-## 1. Certificado, firma e identificación
+### 1. Certificado, firma e identificación
 
 Un certificado electrónico es una atestación electrónica que vincula datos de validación con una persona física, una persona jurídica, una entidad o un sitio web, según el tipo de certificado.
 
@@ -45,7 +45,7 @@ La infraestructura usa criptografía asimétrica:
 
 El certificado no contiene necesariamente la clave privada. En un archivo software pueden almacenarse juntos certificado y clave privada; en una tarjeta criptográfica la clave privada puede permanecer dentro del chip.
 
-## 2. Identificación electrónica
+### 2. Identificación electrónica
 
 El artículo 9 de la Ley 39/2015 permite la identificación electrónica mediante sistemas con registro previo que garanticen la identidad. Entre los admitidos figuran:
 
@@ -58,13 +58,13 @@ La Administración debe permitir, al menos, alguno de los sistemas basados en ce
 
 Identificarse permite acceder, consultar o acreditar quién actúa. No implica por sí mismo que se haya expresado voluntad de firmar un documento.
 
-## 3. Firma electrónica
+### 3. Firma electrónica
 
-### 3.1 Firma electrónica simple
+#### 3.1 Firma electrónica simple
 
 Es el concepto general: datos electrónicos utilizados por una persona para firmar. No se le niegan efectos jurídicos por el mero hecho de ser electrónica, pero su fuerza probatoria depende del sistema y de las circunstancias.
 
-### 3.2 Firma electrónica avanzada
+#### 3.2 Firma electrónica avanzada
 
 Debe:
 
@@ -73,7 +73,7 @@ Debe:
 3. crearse utilizando datos bajo su control con alto nivel de confianza;
 4. quedar vinculada a los datos firmados de forma que cualquier modificación posterior sea detectable.
 
-### 3.3 Firma electrónica cualificada
+#### 3.3 Firma electrónica cualificada
 
 Es una firma avanzada:
 
@@ -84,7 +84,7 @@ Tiene efecto jurídico equivalente a la firma manuscrita en toda la Unión Europ
 
 No toda firma realizada con certificado es automáticamente cualificada. Deben verificarse el tipo de certificado, el dispositivo y las condiciones de creación.
 
-## 4. Cuándo exige firma la Ley 39/2015
+### 4. Cuándo exige firma la Ley 39/2015
 
 Con carácter general, basta identificar a la persona durante la actuación administrativa. Se exige firma para:
 
@@ -96,7 +96,7 @@ Con carácter general, basta identificar a la persona durante la actuación admi
 
 La firma debe acreditar autenticidad de la voluntad y consentimiento e integridad e inalterabilidad del documento.
 
-## 5. Usos del certificado de persona física
+### 5. Usos del certificado de persona física
 
 Puede emplearse, si la política lo permite, para:
 
@@ -110,7 +110,7 @@ Puede emplearse, si la política lo permite, para:
 
 El certificado acredita la identidad del titular, pero no prueba por sí solo que posea una representación no incorporada ni comprobada por otro medio.
 
-## 6. Representación
+### 6. Representación
 
 La representación puede acreditarse mediante:
 
@@ -121,7 +121,7 @@ La representación puede acreditarse mediante:
 
 El certificado de representante es una firma de persona física que actúa por una entidad. No debe confundirse con un sello electrónico de la entidad.
 
-## 7. Sello electrónico
+### 7. Sello electrónico
 
 El sello electrónico se reserva a personas jurídicas y entidades. Su función típica es garantizar:
 
@@ -136,7 +136,7 @@ No expresa por sí mismo una voluntad humana concreta. Es especialmente adecuado
 - actuaciones administrativas automatizadas;
 - documentos generados por sistemas de información.
 
-## 8. Autenticidad, integridad y no repudio
+### 8. Autenticidad, integridad y no repudio
 
 - **Autenticidad:** permite comprobar quién origina o firma.
 - **Integridad:** permite detectar alteraciones posteriores.
@@ -145,13 +145,13 @@ No expresa por sí mismo una voluntad humana concreta. Es especialmente adecuado
 
 Firmar no cifra automáticamente el documento.
 
-## 9. Firma visible y firma criptográfica
+### 9. Firma visible y firma criptográfica
 
 La imagen de una rúbrica, un nombre mecanografiado o un recuadro visible en un PDF no constituyen por sí solos la firma criptográfica.
 
 La validez se comprueba analizando la firma electrónica incorporada al documento o asociada a él, el certificado, la cadena de confianza y las evidencias de validación.
 
-## 10. Errores frecuentes
+### 10. Errores frecuentes
 
 1. Afirmar que certificado y firma son lo mismo.
 2. Creer que identificarse equivale siempre a firmar.
@@ -162,7 +162,7 @@ La validez se comprueba analizando la firma electrónica incorporada al document
 7. Dar por acreditada cualquier representación solo porque el firmante posee certificado personal.
 8. Exigir firma para una mera consulta o acceso cuando basta identificación.
 
-## 11. Supuesto práctico
+### 11. Supuesto práctico
 
 Una persona entra con certificado en la sede municipal para consultar el estado de un expediente. La identificación es suficiente. Si presenta después un recurso, deberá utilizar un sistema de firma admitido porque el artículo 11.2 de la Ley 39/2015 incluye expresamente la interposición de recursos.
 
@@ -173,7 +173,7 @@ Una persona entra con certificado en la sede municipal para consultar el estado 
 
 **Bloque incorporado y revisado para el programa de Diputación C2.**
 
-## 1. Clasificaciones que no deben mezclarse
+### 1. Clasificaciones que no deben mezclarse
 
 Los certificados pueden clasificarse por criterios diferentes:
 
@@ -184,7 +184,7 @@ Los certificados pueden clasificarse por criterios diferentes:
 
 Decir que un certificado es “de tarjeta” describe el soporte, no su función jurídica.
 
-## 2. Certificado de firma electrónica
+### 2. Certificado de firma electrónica
 
 Vincula datos de validación con una **persona física** y confirma al menos su nombre o pseudónimo.
 
@@ -194,14 +194,14 @@ Permite verificar firmas creadas con la clave privada correspondiente. Cuando es
 - cumple el anexo I de eIDAS;
 - contiene identificación del prestador, titular, período de validez y código único, entre otros datos.
 
-### Usos habituales
+#### Usos habituales
 
 - identificación ante sedes;
 - firma de solicitudes, recursos y declaraciones;
 - firma de contratos o documentos privados;
 - firma como profesional o empleado cuando el certificado incorpora el atributo correspondiente.
 
-## 3. Certificado de persona física
+### 3. Certificado de persona física
 
 Es un certificado de firma cuyo titular es una persona física actuando en nombre propio.
 
@@ -217,7 +217,7 @@ Puede incluir:
 
 No acredita automáticamente un cargo, profesión o poder de representación que no figure como atributo o no se compruebe por otra vía.
 
-## 4. Certificado de representante
+### 4. Certificado de representante
 
 Es un certificado de firma expedido a una **persona física** que actúa en representación de:
 
@@ -229,7 +229,7 @@ Debe comprobarse la identidad del representante, la existencia de la entidad, la
 
 La pérdida o terminación del poder obliga a solicitar la revocación. No debe confundirse con un sello electrónico de la entidad.
 
-## 5. Certificado de empleado público
+### 5. Certificado de empleado público
 
 Es un certificado cualificado de firma utilizado por personal al servicio de una Administración.
 
@@ -242,7 +242,7 @@ Se usa para firmar actos, informes, comunicaciones y documentos en el ejercicio 
 
 Puede existir certificado con pseudónimo en supuestos legalmente previstos, sin que el prestador deje de conocer la identidad real.
 
-## 6. Certificado de sello electrónico
+### 6. Certificado de sello electrónico
 
 Vincula datos de validación con una persona jurídica o entidad y permite verificar sellos electrónicos.
 
@@ -255,7 +255,7 @@ En las Administraciones puede utilizarse para:
 
 El certificado de sello incluye normalmente denominación y NIF del suscriptor. No identifica necesariamente a una persona física autora de cada documento.
 
-## 7. Certificado de autenticación de sitio web
+### 7. Certificado de autenticación de sitio web
 
 Vincula un sitio web con la persona física o jurídica a la que se expide y permite autenticar el sitio.
 
@@ -270,7 +270,7 @@ El Real Decreto 203/2021 exige que las sedes electrónicas se identifiquen media
 
 Este certificado no sustituye la firma de los documentos administrativos publicados en la sede.
 
-## 8. DNI electrónico
+### 8. DNI electrónico
 
 El DNI electrónico permite:
 
@@ -286,7 +286,7 @@ El DNIe es simultáneamente:
 - medio de identificación electrónica;
 - dispositivo para crear firmas con sus certificados.
 
-## 9. Certificados de componente
+### 9. Certificados de componente
 
 Son certificados técnicos vinculados a servidores, aplicaciones, dispositivos o componentes informáticos. Entre los usos habituales figuran:
 
@@ -298,19 +298,19 @@ Son certificados técnicos vinculados a servidores, aplicaciones, dispositivos o
 
 No todos los certificados de componente son certificados cualificados eIDAS ni sirven para identificar a una persona interesada en un procedimiento administrativo.
 
-## 10. Cualificado y no cualificado
+### 10. Cualificado y no cualificado
 
-### Certificado cualificado
+#### Certificado cualificado
 
 Cumple los requisitos eIDAS y lo expide un prestador cualificado dentro de un servicio que figura con estado cualificado en la lista de confianza.
 
-### Certificado no cualificado
+#### Certificado no cualificado
 
 Puede tener validez técnica y jurídica, pero no disfruta automáticamente de las presunciones y efectos reservados a los servicios cualificados.
 
 La Administración puede admitir distintos sistemas conforme a la Ley 39/2015, pero no debe llamarse “cualificado” a un certificado por costumbre comercial.
 
-## 11. Certificado vigente, caducado, suspendido y revocado
+### 11. Certificado vigente, caducado, suspendido y revocado
 
 - **Vigente:** dentro del período de validez y sin suspensión o revocación.
 - **Caducado:** ha finalizado el período de vigencia.
@@ -319,9 +319,9 @@ La Administración puede admitir distintos sistemas conforme a la Ley 39/2015, p
 
 La firma debe analizarse respecto del momento de creación y de las evidencias disponibles. Que el certificado esté hoy caducado no invalida automáticamente una firma correctamente creada y preservada cuando estaba vigente.
 
-## 11 bis. Reglas legales de vigencia, revocación, suspensión e identidad (**Ley 6/2020, artículos 4–7**)
+### 11 bis. Reglas legales de vigencia, revocación, suspensión e identidad (**Ley 6/2020, artículos 4–7**)
 
-### Vigencia máxima y terminación del certificado
+#### Vigencia máxima y terminación del certificado
 
 Los certificados cualificados de **firma electrónica**, **sello electrónico** y **autenticación de sitio web** tienen un período de vigencia **no superior a 5 años** (**art. 4.2**). El prestador puede emitirlos por un tiempo menor, según características y tecnología. La vigencia se extingue por **caducidad** o por **revocación** (**art. 4.1**).
 
@@ -333,7 +333,7 @@ Los certificados cualificados de **firma electrónica**, **sello electrónico** 
 
 > ⚠️ **¡Foco Examen!:** **5 años** es el **máximo legal de los certificados cualificados**, no su duración obligatoria. No confundir la **caducidad** ordinaria con la **revocación** ni con la **suspensión**.
 
-### Nueve supuestos de revocación: artículo 5.1
+#### Nueve supuestos de revocación: artículo 5.1
 
 | Letra | Causa legal de revocación |
 |---|---|
@@ -351,7 +351,7 @@ Los certificados cualificados de **firma electrónica**, **sello electrónico** 
 
 > ⚠️ **¡Foco Examen!:** **Revocación: nueve letras a)–i)**. **Suspensión: a), c), h), y dudas sobre b) o g)**; no deducir que cualquier causa de revocación permite automáticamente suspender. **Pérdida de poder de representación = art. 5.1.e**, no solo un cambio de uso informal.
 
-### Identidad, atributos y representación (artículos 6 y 7)
+#### Identidad, atributos y representación (artículos 6 y 7)
 
 - En certificados cualificados de **firma** y **autenticación web** de **personas físicas**: nombre y apellidos e identificador **DNI/NIE/NIF**, o **pseudónimo señalado inequívocamente**; el código alternativo solo procede cuando legalmente se carece de todos esos identificadores (**art. 6.1.a**).
 - En certificados cualificados de **sello** y autenticación web de **personas jurídicas**: **denominación o razón social y NIF**, o código único permanente en el supuesto legal (**art. 6.1.b**).
@@ -368,7 +368,7 @@ Los certificados cualificados de **firma electrónica**, **sello electrónico** 
 
 **Fuente:** [**Ley 6/2020, artículos 4–7, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a4).
 
-## 12. Tabla comparativa
+### 12. Tabla comparativa
 
 | Tipo | Titular o vínculo | Uso principal |
 |---|---|---|
@@ -379,7 +379,7 @@ Los certificados cualificados de **firma electrónica**, **sello electrónico** 
 | Autenticación de sitio web | Dominio y titular | Identificar sede o sitio y asegurar canal |
 | Componente | Servidor, aplicación o dispositivo | Función técnica específica |
 
-## 13. Errores frecuentes
+### 13. Errores frecuentes
 
 1. Llamar certificado de persona jurídica a lo que jurídicamente debe ser sello o firma de representante.
 2. Creer que el certificado de sede firma actos administrativos.
@@ -395,7 +395,7 @@ Los certificados cualificados de **firma electrónica**, **sello electrónico** 
 
 **Bloque incorporado y revisado para el programa de Diputación C2.**
 
-## 1. Soporte lógico o software
+### 1. Soporte lógico o software
 
 El certificado y, en su caso, la clave privada pueden almacenarse en:
 
@@ -404,13 +404,13 @@ El certificado y, en su caso, la clave privada pueden almacenarse en:
 - llavero criptográfico del dispositivo;
 - archivo protegido, habitualmente `PKCS#12`, con extensiones como `.p12` o `.pfx`.
 
-### Ventajas
+#### Ventajas
 
 - instalación sencilla;
 - uso sin lector externo;
 - posibilidad de copia de seguridad cuando la clave es exportable.
 
-### Riesgos
+#### Riesgos
 
 - copia no autorizada del archivo;
 - malware o acceso al perfil del usuario;
@@ -419,7 +419,7 @@ El certificado y, en su caso, la clave privada pueden almacenarse en:
 
 Un archivo `.cer` o `.crt` suele contener solo el certificado y la clave pública. No permite firmar si no se dispone también de la clave privada.
 
-## 2. Tarjeta criptográfica
+### 2. Tarjeta criptográfica
 
 La tarjeta incorpora un chip capaz de:
 
@@ -436,7 +436,7 @@ Ejemplos:
 
 Normalmente requiere lector y software intermedio o `middleware`. El PIN desbloquea el uso; no es la clave privada.
 
-## 3. Token criptográfico USB
+### 3. Token criptográfico USB
 
 Es un dispositivo específico que realiza funciones similares a una tarjeta con lector integrado.
 
@@ -445,7 +445,7 @@ No debe confundirse con una memoria USB ordinaria:
 - en una memoria común, un archivo de certificado puede copiarse como cualquier fichero;
 - en un token criptográfico, la clave privada puede ser no exportable y las operaciones se ejecutan dentro del dispositivo.
 
-## 4. DNI electrónico y comunicación sin contacto
+### 4. DNI electrónico y comunicación sin contacto
 
 El DNIe es una tarjeta criptográfica. Según la versión y el dispositivo, puede usarse mediante:
 
@@ -455,7 +455,7 @@ El DNIe es una tarjeta criptográfica. Según la versión y el dispositivo, pued
 
 El soporte físico contiene certificados separados para autenticación y firma, además de elementos técnicos internos.
 
-## 5. Firma remota o en la nube
+### 5. Firma remota o en la nube
 
 En la **firma remota** los datos de creación de firma se gestionan en una infraestructura segura por cuenta del titular. El usuario autoriza las operaciones con mecanismos de autenticación reforzada. **Cuando se ofrece como gestión cualificada de un dispositivo cualificado de firma remota**, el **artículo 29 bis del Reglamento eIDAS** exige que la prestación corresponda a un **prestador cualificado**; la gestión y eventuales duplicados de seguridad cumplen los límites de **29.1 bis y 29 bis.1.b**.
 
@@ -471,7 +471,7 @@ La firma remota no significa que la clave privada sea pública ni que el prestad
 
 Cl@ve puede ofrecer identificación con claves concertadas y, en determinados servicios, firma en la nube con certificados centralizados. Cl@ve no debe equipararse siempre a un certificado instalado localmente.
 
-## 6. Dispositivo móvil
+### 6. Dispositivo móvil
 
 El móvil puede intervenir de varias maneras:
 
@@ -483,7 +483,7 @@ El móvil puede intervenir de varias maneras:
 
 Que el trámite se complete desde el móvil no determina el nivel jurídico de la firma. Debe analizarse el sistema utilizado.
 
-## 7. Módulo criptográfico y HSM
+### 7. Módulo criptográfico y HSM
 
 Un `HSM` es un módulo hardware de seguridad diseñado para generar, custodiar y usar claves criptográficas con controles reforzados.
 
@@ -497,23 +497,23 @@ Se utiliza especialmente para:
 
 Puede existir en infraestructura propia o como servicio remoto. La cualificación depende de la certificación y del cumplimiento de eIDAS, no de la denominación comercial.
 
-## 8. Copia de seguridad y exportación
+### 8. Copia de seguridad y exportación
 
-### Certificado software exportable
+#### Certificado software exportable
 
 Debe guardarse una copia cifrada que incluya la clave privada. La contraseña de la copia debe conservarse separadamente.
 
-### Tarjeta o token
+#### Tarjeta o token
 
 La clave privada suele ser no exportable. La pérdida del dispositivo puede exigir revocación y nueva expedición.
 
-### Firma remota
+#### Firma remota
 
 La copia y continuidad son responsabilidad del servicio conforme a sus políticas, sin permitir que terceros utilicen la clave en nombre del titular.
 
 No debe enviarse por correo electrónico un archivo que contenga clave privada ni compartir su contraseña.
 
-## 9. Custodia del titular
+### 9. Custodia del titular
 
 El titular debe:
 
@@ -526,7 +526,7 @@ El titular debe:
 
 Ceder un certificado y su contraseña a otra persona elimina la garantía de control exclusivo y puede generar responsabilidad.
 
-## 10. Validación técnica del soporte
+### 10. Validación técnica del soporte
 
 Para usar un certificado local suelen ser necesarios:
 
@@ -539,7 +539,7 @@ Para usar un certificado local suelen ser necesarios:
 
 La aplicación `AutoFirma` es una herramienta de firma, no una autoridad certificadora ni un certificado.
 
-## 11. Tabla comparativa
+### 11. Tabla comparativa
 
 | Soporte | Clave privada | Portabilidad | Riesgo principal |
 |---|---|---|---|
@@ -550,7 +550,7 @@ La aplicación `AutoFirma` es una herramienta de firma, no una autoridad certifi
 | Firma remota | Custodiada en infraestructura segura | Muy alta | Suplantación en la autorización |
 | HSM institucional | Protegida por hardware | Uso organizativo | Mala administración de permisos |
 
-## 12. Errores frecuentes
+### 12. Errores frecuentes
 
 1. Confundir una memoria USB con un token criptográfico.
 2. Creer que el archivo `.cer` contiene siempre la clave privada.
@@ -568,7 +568,7 @@ La aplicación `AutoFirma` es una herramienta de firma, no una autoridad certifi
 
 **Bloque incorporado y revisado para el programa de Diputación C2.**
 
-## 1. Terminología vigente
+### 1. Terminología vigente
 
 La expresión **autoridad certificadora** o `CA` sigue utilizándose en el ámbito técnico para designar la entidad que emite y firma certificados dentro de una infraestructura de clave pública.
 
@@ -582,13 +582,13 @@ Un **prestador cualificado** es aquel al que el organismo de supervisión ha con
 
 La condición cualificada no se presume por la marca comercial ni se atribuye automáticamente a todos los servicios de la entidad.
 
-## 2. Autoridad raíz y autoridades subordinadas
+### 2. Autoridad raíz y autoridades subordinadas
 
-### Autoridad raíz
+#### Autoridad raíz
 
 Es el nivel superior de una jerarquía de certificación. Su certificado suele ser autofirmado y constituye un ancla de confianza.
 
-### Autoridad subordinada
+#### Autoridad subordinada
 
 Emite certificados finales o de otras autoridades bajo la confianza de la raíz.
 
@@ -600,7 +600,7 @@ La cadena de certificación permite verificar:
 
 Una cadena técnicamente correcta no sustituye la comprobación jurídica de que el servicio cualificado figure en la lista de confianza.
 
-## 3. Autoridad u oficina de registro
+### 3. Autoridad u oficina de registro
 
 La autoridad de registro comprueba, según el certificado:
 
@@ -614,7 +614,7 @@ Tras la comprobación, aprueba o tramita la solicitud para que la autoridad de c
 
 Una oficina municipal puede actuar como oficina de registro de un prestador sin convertirse por ello en prestador cualificado ni emitir el certificado.
 
-## 4. Organismo de evaluación de la conformidad
+### 4. Organismo de evaluación de la conformidad
 
 Es un organismo acreditado que evalúa si el prestador y sus servicios cumplen los requisitos aplicables.
 
@@ -622,7 +622,7 @@ Los prestadores cualificados deben someterse ordinariamente a auditoría, a su c
 
 La auditoría no concede por sí sola la cualificación: el organismo de supervisión verifica y concede el estado, que debe reflejarse en la lista de confianza.
 
-## 5. Organismo de supervisión
+### 5. Organismo de supervisión
 
 Cada Estado miembro designa un organismo de supervisión.
 
@@ -638,7 +638,7 @@ Sus funciones incluyen:
 - recibir notificaciones de incidentes;
 - ejercer la potestad sancionadora conforme a la ley.
 
-## 6. Lista de confianza o TSL
+### 6. Lista de confianza o TSL
 
 La `Trusted Service List` contiene:
 
@@ -651,7 +651,7 @@ Existe una versión legible por personas y otra procesable por máquinas.
 
 Para saber si un servicio es cualificado debe consultarse la TSL. No basta con localizar el nombre de la empresa: hay que comprobar el servicio y su estado.
 
-## 7. Prestadores no cualificados
+### 7. Prestadores no cualificados
 
 Pueden iniciar su actividad **sin verificación administrativa previa**, pero deben comunicar el inicio al órgano de supervisión **dentro de los tres meses siguientes** (**Ley 6/2020, art. 12**). En el **mismo plazo de tres meses** deben comunicar las **modificaciones de los datos inicialmente transmitidos** y el **cese**. La Administración publica un **listado diferenciado** del de prestadores cualificados. La comunicación **no concede cualificación** ni convierte el servicio en cualificado. La falta de comunicación en plazo constituye **infracción leve** (**art. 18.4.b**). [BOE, artículos 12 y 18](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a12).
 
@@ -669,7 +669,7 @@ Pueden iniciar su actividad **sin verificación administrativa previa**, pero de
 
 Sus servicios no carecen necesariamente de efectos jurídicos. Simplemente no disfrutan de la condición y presunciones reservadas a servicios cualificados.
 
-## 8. Expedición de certificados
+### 8. Expedición de certificados
 
 El prestador puede expedir certificados para:
 
@@ -681,7 +681,7 @@ Antes de expedir un certificado cualificado debe comprobar identidad y atributos
 
 En España, la vigencia máxima de los certificados cualificados es de **cinco años**.
 
-## 9. Consulta de validez y revocación
+### 9. Consulta de validez y revocación
 
 Los prestadores que expiden certificados deben ofrecer un servicio público de consulta del estado.
 
@@ -693,7 +693,7 @@ Los mecanismos habituales son:
 
 Según el **art. 24.3 del Reglamento eIDAS**, cuando un **prestador cualificado** que expide **certificados cualificados** decide revocarlos, debe registrar la revocación y publicar su estado de forma oportuna y, en todo caso, dentro de **24 horas** desde la recepción de la solicitud. La revocación produce efectos inmediatamente desde su publicación. **No atribuir este plazo al artículo 9.2 de la Ley 6/2020.**
 
-## 10. Validación de firmas y sellos
+### 10. Validación de firmas y sellos
 
 El servicio de validación comprueba, entre otros extremos:
 
@@ -706,7 +706,7 @@ El servicio de validación comprueba, entre otros extremos:
 
 La validación cualificada proporciona el resultado de forma fiable y permite detectar problemas relevantes de seguridad.
 
-## 11. Sello de tiempo electrónico
+### 11. Sello de tiempo electrónico
 
 Asocia una fecha y una hora con unos datos para demostrar que existían en ese momento y que no se han alterado.
 
@@ -717,7 +717,7 @@ El sello de tiempo:
 - aporta evidencia temporal;
 - es importante para conservar validez después de la caducidad del certificado.
 
-## 12. Entrega electrónica certificada
+### 12. Entrega electrónica certificada
 
 Permite transmitir datos electrónicamente y aportar evidencias sobre:
 
@@ -729,7 +729,7 @@ Permite transmitir datos electrónicamente y aportar evidencias sobre:
 
 No debe confundirse con cualquier correo electrónico ni con la notificación administrativa por comparecencia en sede.
 
-## 13. Conservación de firmas y sellos
+### 13. Conservación de firmas y sellos
 
 La conservación permite prolongar la fiabilidad de firmas y sellos más allá de los cambios tecnológicos o de la caducidad de los certificados mediante evidencias, resellado y validaciones sucesivas.
 
@@ -737,7 +737,7 @@ No equivale a guardar simplemente el archivo en una carpeta.
 
 La **Ley 6/2020, art. 9.3.a**, exige conservar la información durante **15 años** desde la extinción del certificado o finalización del servicio, con las condiciones legales.
 
-### Garantías y cese de actividad de los prestadores cualificados (art. 9.3)
+#### Garantías y cese de actividad de los prestadores cualificados (art. 9.3)
 
 | Obligación | Cuantía o plazo | Excepción o detalle |
 |---|---|---|
@@ -751,7 +751,7 @@ La **Ley 6/2020, art. 9.3.a**, exige conservar la información durante **15 año
 **Fuente:** [**Ley 6/2020, art. 9.3, BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a9).
 
 
-## 14. Autenticación de sitio web
+### 14. Autenticación de sitio web
 
 El prestador expide certificados que permiten:
 
@@ -762,7 +762,7 @@ El prestador expide certificados que permiten:
 
 El candado del navegador acredita una conexión cifrada con el dominio certificado; no garantiza por sí solo que todo el contenido o actuación administrativa sea correcto.
 
-## 15. Firma y sello remotos
+### 15. Firma y sello remotos
 
 El **prestador de confianza** puede gestionar dispositivos remotos de creación de firma o sello por cuenta del titular. **Si se califica el servicio como cualificado**, la gestión de dispositivos de firma se rige por el **art. 29 bis** y la de sello por el **39 bis**: solo un **prestador cualificado** puede prestarla como tal.
 
@@ -774,11 +774,11 @@ Debe garantizar:
 - trazabilidad;
 - cumplimiento de requisitos de dispositivo y servicio cuando se presenta como cualificado.
 
-## 16. Servicios y sistemas del marco eIDAS reformado (**Reglamento 2024/1183**)
+### 16. Servicios y sistemas del marco eIDAS reformado (**Reglamento 2024/1183**)
 
 La reforma por el **Reglamento (UE) 2024/1183** amplía el **Reglamento (UE) 910/2014**. Deben estudiarse las categorías nuevas, sin confundir **medios de identificación**, **certificados** y **servicios de confianza cualificados**. La versión consolidada de **18/10/2024** integra estas reglas.
 
-### 16.1 Cartera europea de identidad digital (EUDI Wallet): **art. 5 bis**
+#### 16.1 Cartera europea de identidad digital (EUDI Wallet): **art. 5 bis**
 
 La **cartera europea de identidad digital** es un **medio de identificación electrónica** que permite **almacenar, gestionar, validar y presentar datos de identificación y declaraciones electrónicas de atributos**, así como realizar **firmas electrónicas cualificadas** y **sellos cualificados**, cuando corresponda. **No es sinónimo de un certificado de firma** ni de un programa que simplemente lo almacena.
 
@@ -795,7 +795,7 @@ Los **Estados miembros** deberán proporcionar **al menos una cartera** en los *
 
 > ⚠️ **¡Foco Examen!:** **Cartera EUDI ≠ certificado electrónico**. El plazo de **24 meses** es **relativo a actos de ejecución**; la **gratuidad de expedición, uso y revocación** del **art. 5 bis.13** se refiere a **personas físicas**. **Uso voluntario (5 bis.15)** no significa que el Estado pueda omitir ofrecer la cartera.
 
-### 16.2 Declaraciones electrónicas de atributos: **artículos 45 ter–45 nonies**
+#### 16.2 Declaraciones electrónicas de atributos: **artículos 45 ter–45 nonies**
 
 Un **atributo** es una cualidad, característica, derecho o permiso de una persona o de un objeto (**art. 3.43**). Una **declaración electrónica de atributos** permite acreditar electrónicamente esas circunstancias; la **cualificada** la expide un **prestador cualificado de servicios de confianza** y cumple el **anexo V**.
 
@@ -811,7 +811,7 @@ Un **atributo** es una cualidad, característica, derecho o permiso de una perso
 
 > ⚠️ **¡Foco Examen!:** **Declaración de atributos ≠ certificado de firma ≠ identificación obligatoria**. Una declaración cualificada de titulaciones o poderes acredita **atributos**, pero por sí sola **no sustituye** la identificación exigida para acceder a la sede (**45 quater**).
 
-### 16.3 Gestión de dispositivos de firma y sello cualificados a distancia: **29 bis y 39 bis**
+#### 16.3 Gestión de dispositivos de firma y sello cualificados a distancia: **29 bis y 39 bis**
 
 La gestión de un **dispositivo cualificado de creación de firma electrónica a distancia** como **servicio de confianza cualificado** solo puede prestarla un **prestador cualificado** que cumpla el **artículo 29 bis**. La regulación del servicio equivalente para **sello cualificado remoto** se remite a ese artículo por el **39 bis**.
 
@@ -827,13 +827,13 @@ La gestión de un **dispositivo cualificado de creación de firma electrónica a
 
 > ⚠️ **¡Foco Examen!:** Un **certificado cualificado** por sí solo **no convierte** una firma en cualificada. **Firma remota ≠ firma cualificada** automáticamente; el servicio de gestión de dispositivos remotos del **art. 29 bis** requiere **prestador cualificado**.
 
-### 16.4 Archivo electrónico cualificado: **45 decies–45 undecies**
+#### 16.4 Archivo electrónico cualificado: **45 decies–45 undecies**
 
 El **servicio de archivo electrónico** permite conservar datos o documentos electrónicos durante el período correspondiente. Si es **cualificado**, el **art. 45 decies.2** atribuye la **presunción de integridad y origen** durante el período de conservación por el **prestador cualificado**. El **art. 45 undecies** exige proteger frente a pérdida o alteración, mantener durabilidad y legibilidad y posibilitar un **informe automatizado** de integridad emitido con **firma o sello cualificado** del prestador.
 
 > ⚠️ **¡Foco Examen!:** **Archivo cualificado (45 decies)** presume **integridad y origen**; **guardar un PDF en una carpeta** no genera esa presunción ni constituye por sí mismo un **servicio de confianza cualificado**.
 
-### 16.5 Libro mayor electrónico cualificado: **45 duodecies–45 terdecies**
+#### 16.5 Libro mayor electrónico cualificado: **45 duodecies–45 terdecies**
 
 Un **libro mayor electrónico** es una secuencia de registros electrónicos que permite demostrar la **integridad de los registros** y el **orden cronológico**. En la modalidad **cualificada** debe proporcionarlo uno o varios **prestadores cualificados** y asegurar el origen, el orden secuencial único y la detección de alteraciones. El **art. 45 duodecies.2** establece presunción de **unicidad y exactitud del orden cronológico secuencial y de integridad** de los registros.
 
@@ -846,7 +846,7 @@ Un **libro mayor electrónico** es una secuencia de registros electrónicos que 
 
 > ⚠️ **¡Foco Examen!:** **Libro mayor electrónico cualificado** no es lo mismo que **sello de tiempo**: el primero acredita **orden cronológico secuencial**, mientras que el segundo acredita **fecha/hora e integridad**. Ni uno ni otro sustituye por definición una **firma electrónica personal**.
 
-### 16.6 Reconocimiento entre Estados miembros: **art. 24 bis**
+#### 16.6 Reconocimiento entre Estados miembros: **art. 24 bis**
 
 El artículo **24 bis** introduce una regla expresa de **reconocimiento mutuo** de servicios y productos cualificados entre Estados miembros: **firma y sello cualificados**, dispositivos, certificados, validación y conservación cualificadas, sellos cualificados de tiempo, entrega certificada cualificada, **declaraciones cualificadas de atributos**, **archivo electrónico cualificado** y **libros mayores cualificados**, dentro de sus supuestos respectivos.
 
@@ -857,7 +857,7 @@ La **lista de confianza (art. 22)** sigue siendo imprescindible para comprobar *
 **Normativa primaria:** [eIDAS consolidado **18/10/2024** (Reglamento 910/2014, modificado por Reglamento 2024/1183)](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa). Los textos consolidados son **informativos**; la versión auténtica procede del **DOUE**. Los servicios recién incorporados se estudian como **ampliación contextual necesaria** para comprender el epígrafe «autoridades certificadoras y servicios que prestan», sin desplazar el núcleo de certificado, firma, sello y soporte.
 
 
-## 17. Obligaciones relevantes del prestador
+### 17. Obligaciones relevantes del prestador
 
 Entre otras:
 
@@ -871,13 +871,13 @@ Entre otras:
 - mantener un plan de terminación;
 - colaborar con la supervisión.
 
-## 18. Ejemplos de prestadores
+### 18. Ejemplos de prestadores
 
 La FNMT-RCM es un ejemplo de prestador público que ofrece certificados y servicios. Existen otros prestadores públicos y privados.
 
 No debe memorizarse una lista cerrada de marcas, porque la condición o cartera de servicios puede cambiar. La fuente determinante es la TSL vigente.
 
-## 19. Errores frecuentes
+### 19. Errores frecuentes
 
 1. Considerar que autoridad de registro y autoridad de certificación son idénticas.
 2. Creer que una oficina de acreditación municipal emite el certificado.
@@ -895,7 +895,7 @@ No debe memorizarse una lista cerrada de marcas, porque la condición o cartera 
 
 **Bloque incorporado y revisado para el programa de Diputación C2.**
 
-## 1. Sistemas de identificación y firma del interesado (**Ley 39/2015, arts. 9–11; RD 203/2021, arts. 26–29**)
+### 1. Sistemas de identificación y firma del interesado (**Ley 39/2015, arts. 9–11; RD 203/2021, arts. 26–29**)
 
 La **Ley 39/2015** distingue **identificación**, que acredita quién interviene, y **firma**, que permite acreditar la **autenticidad de la expresión de voluntad y consentimiento** y la integridad del documento.
 
@@ -908,7 +908,7 @@ La **Ley 39/2015** distingue **identificación**, que acredita quién interviene
 
 Tanto para **identificación** como para **firma**, la Administración deberá garantizar la posibilidad de utilizar **alguno** de los sistemas basados en **certificados cualificados** de las letras **a) o b)**, aunque admita otros sistemas (**art. 9.2 y art. 10.2 Ley 39/2015; arts. 26.2 y 29.1 RD 203/2021**). Los requisitos de autorización/comunicación de los **sistemas adicionales de clave concertada** se aplican según la norma y el ámbito administrativo correspondiente.
 
-### Atributos mínimos de certificados (art. 27 RD 203/2021)
+#### Atributos mínimos de certificados (art. 27 RD 203/2021)
 
 | Certificado usado para identificación | Atributos mínimos |
 |---|---|
@@ -918,7 +918,7 @@ Tanto para **identificación** como para **firma**, la Administración deberá g
 
 > ⚠️ **¡Foco Examen!:** **Identificación ≠ firma**. El **art. 10.5** permite entender identificada a la persona que **ya ha firmado** con un sistema válido; la conversión inversa **identificación → firma** requiere **norma expresa y acreditación de voluntad** (**10.4**). La **representación** exige datos del **representado y representante**, no solo el NIF de la empresa.
 
-## 2. Asistencia en el uso de medios electrónicos (**Ley 39/2015, art. 12; RD 203/2021, art. 30**)
+### 2. Asistencia en el uso de medios electrónicos (**Ley 39/2015, art. 12; RD 203/2021, art. 30**)
 
 La **Administración Pública** debe asistir a quienes **no estén obligados** a relacionarse electrónicamente (**art. 14.2–3 Ley 39/2015**) y lo soliciten. La asistencia comprende, especialmente, **identificación y firma**, **presentación de solicitudes** y **obtención de copias auténticas**.
 
@@ -937,7 +937,7 @@ Cuando la persona carezca de los medios electrónicos necesarios, puede interven
 
 > ⚠️ **¡Foco Examen!:** **Funcionario habilitado** no equivale a cualquier empleado. Son esenciales la **identificación presencial**, el **consentimiento expreso**, la **constancia escrita** y la entrega de **copia** al ciudadano, según **art. 30.1**. No se pide al ciudadano la **clave privada** ni el **PIN**.
 
-## 3. Certificado de sede electrónica (**RD 203/2021, art. 18**)
+### 3. Certificado de sede electrónica (**RD 203/2021, art. 18**)
 
 La **sede electrónica** es una dirección electrónica cuya titularidad corresponde a una **Administración Pública, organismo público o entidad de derecho público**, en el ejercicio de sus competencias. Para identificarse y garantizar una comunicación segura, las **sedes** y las **sedes asociadas** usan **certificados cualificados de autenticación de sitio web o medio equivalente** (**18.1**).
 
@@ -951,7 +951,7 @@ La **sede electrónica** es una dirección electrónica cuya titularidad corresp
 
 > ⚠️ **¡Foco Examen!:** La alternativa **«certificado cualificado de web o medio equivalente»** corresponde a la **regla general (18.1)**, mientras que la **AGE (18.2)** exige **certificado cualificado** y dominio **`.gob.es`**. **HTTPS no es firma del acto administrativo**.
 
-## 4. Sello electrónico de Administración u órgano (**RD 203/2021, art. 19**)
+### 4. Sello electrónico de Administración u órgano (**RD 203/2021, art. 19**)
 
 Las **Administraciones Públicas**, organismos y órganos pueden identificarse mediante **sello electrónico** basado en **certificado cualificado**, conforme al **art. 40 de la Ley 40/2015** y **art. 19 RD 203/2021**.
 
@@ -968,13 +968,13 @@ En la **AGE**, la creación del sello requiere **resolución de la persona titul
 
 > ⚠️ **¡Foco Examen!:** El **sello de órgano** no es una **firma personal** ni un **certificado de autenticación web**. Su creación en la **AGE** se publica en **sede electrónica** y se autoriza por la **Subsecretaría** o el órgano director correspondiente, **no** automáticamente por la autoridad certificadora.
 
-## 5. Actuación administrativa automatizada y CSV (**Ley 40/2015, art. 42; RD 203/2021, arts. 20–21**)
+### 5. Actuación administrativa automatizada y CSV (**Ley 40/2015, art. 42; RD 203/2021, arts. 20–21**)
 
 Existe actuación administrativa automatizada cuando un sistema ejecuta una actuación **íntegramente por medios electrónicos** sin intervención **directa de un empleado público** en cada caso. Con carácter previo se designan los **órganos responsables de especificaciones, programación, mantenimiento, supervisión y control de calidad**, y el competente a efectos de **impugnación** (**art. 41.2 Ley 40/2015**).
 
 Puede autenticarse mediante **sello electrónico de Administración u órgano** o **código seguro de verificación (CSV)** vinculado al órgano o entidad, con comprobación de integridad en su **sede electrónica** (**art. 20.1 RD 203/2021**).
 
-### Requisitos del CSV (art. 21)
+#### Requisitos del CSV (art. 21)
 
 | Requisito | Regla legal |
 |---|---|
@@ -994,7 +994,7 @@ En el ámbito **estatal**, el uso del CSV requiere **resolución de la Subsecret
 
 > ⚠️ **¡Foco Examen!:** El **CSV no es un certificado electrónico**. Su verificación en sede estatal debe mantenerse durante **al menos 5 años** (**art. 21.4.e**) y un documento **modificado exige CSV nuevo** (**21.2.c**). El **plazo mínimo de CSV** no es la **vigencia máxima de un certificado**.
 
-## 6. Firma del empleado público (**RD 203/2021, art. 22**)
+### 6. Firma del empleado público (**RD 203/2021, art. 22**)
 
 Cuando la actuación administrativa por medios electrónicos **no** se realiza mediante actuación automatizada de los artículos **20 y 21**, se aplica la firma electrónica del **titular del órgano competente** o del **empleado público** mediante el que se ejerza la competencia (**art. 22.1**).
 
@@ -1004,7 +1004,7 @@ Los **certificados electrónicos de empleado público serán cualificados** y se
 
 El **art. 22.4** añade una regla para las **entidades de derecho privado vinculadas o dependientes** cuando tramitan procedimientos ejerciendo **potestades administrativas**: la Administración correspondiente determina los medios de firma admitidos.
 
-### Especialidad estatal: identificación y firma (**art. 24 RD 203/2021**)
+#### Especialidad estatal: identificación y firma (**art. 24 RD 203/2021**)
 
 Para el personal de la **Administración General del Estado** y sus organismos y entidades públicas vinculadas o dependientes, hay que diferenciar **identificación en sistemas** de **firma electrónica de actuaciones**.
 
@@ -1019,7 +1019,7 @@ Para el personal de la **Administración General del Estado** y sus organismos y
 
 > ⚠️ **¡Foco Examen!:** **Identificación de empleado ≠ firma de resolución**. El **art. 22** establece la regla general y que los **certificados de empleado público son cualificados**; el **art. 24** contiene especialidades de la **AGE**, incluida la admisión de certificados de empleado en relaciones con otras Administraciones. **No** confundir el **Esquema Nacional de Seguridad** (nivel de identificación) con el **Esquema Nacional de Interoperabilidad** (requisitos del certificado).
 
-## 6 bis. Intercambio electrónico en entornos cerrados (**Ley 40/2015, art. 44; RD 203/2021, art. 25**)
+### 6 bis. Intercambio electrónico en entornos cerrados (**Ley 40/2015, art. 44; RD 203/2021, art. 25**)
 
 Como figura distinta de los certificados y firmas individuales, la normativa permite que los **documentos electrónicos transmitidos en entornos cerrados de comunicación** sean válidos para autenticar e identificar **emisores y receptores**, bajo garantías específicas.
 
@@ -1036,7 +1036,7 @@ Esto **no** significa que un canal cerrado sea por sí mismo una sede electróni
 
 > ⚠️ **¡Foco Examen!:** **Misma Administración = condiciones de esa Administración**; **Administraciones diferentes = convenio**; en la **AGE**, las condiciones del supuesto de comunicación interna del **25.2** corresponden a la **Secretaría General de Administración Digital**. No convertir el **convenio** en requisito para toda comunicación interna.
 
-## 7. Certificado de empleado público con número de identificación profesional (**RD 203/2021, art. 23**)
+### 7. Certificado de empleado público con número de identificación profesional (**RD 203/2021, art. 23**)
 
 No debe confundirse un **pseudónimo genérico** con el sistema reglamentario de **«certificados electrónicos de empleado público con número de identificación profesional»** (**art. 23**). Son **certificados cualificados** que permiten utilizar un **número de identificación profesional** por razones legalmente justificadas.
 
@@ -1051,7 +1051,7 @@ El **prestador cualificado** puede consignar ese número **a petición de la Adm
 
 > ⚠️ **¡Foco Examen!:** El nombre reglamentario es **«certificado con número de identificación profesional»**, no un certificado «anónimo». **Prestador cualificado** expide, pero la **Administración** conoce la identidad; solo se usa en **actuaciones justificadas** y puede solicitarse su revelación oficialmente.
 
-## 8. Plataforma de verificación (**RD 203/2021, art. 16**)
+### 8. Plataforma de verificación (**RD 203/2021, art. 16**)
 
 La **AGE** dispondrá de una plataforma para comprobar **vigencia y contenido** de **certificados cualificados** admitidos en el sector público. La **Secretaría General de Administración Digital (SGAD)** es el **órgano responsable**, y la plataforma se pone a disposición de **todo el sector público** mediante el correspondiente **instrumento de adhesión** (**16.1**).
 
@@ -1068,7 +1068,7 @@ La plataforma estatal conocida como **`@firma`** realiza servicios de **validaci
 
 > ⚠️ **¡Foco Examen!:** **SGAD = responsable de plataforma de verificación**; **prestador = emite certificados**; **lista de confianza = identifica servicios cualificados**. El art. **16** exige gratuidad **para el sector público**, no promete todos los servicios de firma gratuitos a cualquier usuario.
 
-## 9. Política de firma y certificados (**RD 203/2021, art. 17**)
+### 9. Política de firma y certificados (**RD 203/2021, art. 17**)
 
 La **política de firma electrónica y certificados** fija directrices y normas técnicas de identificación, uso de certificados y firma para la **Administración General del Estado** y sus organismos, sin sustituir el marco **eIDAS**.
 
@@ -1084,7 +1084,7 @@ Debe incorporar, como mínimo, según el **17.2**, **ámbito de aplicación**, *
 
 > ⚠️ **¡Foco Examen!:** **Política estatal (art. 17)** se aprueba por **resolución** y se publica en **BOE y PAGe**; un **formato PAdES o XAdES** no acredita por sí solo **firma cualificada**, prestador cualificado o identidad del firmante.
 
-## 10. Formatos de firma como complemento
+### 10. Formatos de firma como complemento
 
 Los formatos habituales incluyen:
 
@@ -1095,7 +1095,7 @@ Los formatos habituales incluyen:
 
 El epígrafe no exige desarrollar todos sus perfiles, pero debe entenderse que formato, certificado y soporte son conceptos diferentes.
 
-## 11. Identificación de la sede y firma del documento
+### 11. Identificación de la sede y firma del documento
 
 Un ciudadano puede encontrarse simultáneamente con:
 
@@ -1107,7 +1107,7 @@ Un ciudadano puede encontrarse simultáneamente con:
 
 Cada elemento cumple una función distinta.
 
-## 12. Copias auténticas
+### 12. Copias auténticas
 
 Las copias electrónicas auténticas deben permitir comprobar:
 
@@ -1119,7 +1119,7 @@ Las copias electrónicas auténticas deben permitir comprobar:
 
 Escanear un documento y añadir una imagen de firma no crea por sí mismo una copia auténtica.
 
-## 13. Registro electrónico
+### 13. Registro electrónico
 
 Al presentar un escrito, el sistema puede generar un recibo firmado o sellado que contenga:
 
@@ -1131,7 +1131,7 @@ Al presentar un escrito, el sistema puede generar un recibo firmado o sellado qu
 
 El justificante debe conservarse. Su sello o CSV permite probar la presentación.
 
-## 14. Notificaciones y certificados
+### 14. Notificaciones y certificados
 
 El certificado puede usarse para acceder a una notificación o firmar una comparecencia, pero:
 
@@ -1139,7 +1139,7 @@ El certificado puede usarse para acceder a una notificación o firmar una compar
 - el certificado es uno de los medios de identificación o firma;
 - la entrega electrónica certificada eIDAS no sustituye automáticamente el régimen de notificaciones de la Ley 39/2015.
 
-## 15. Caso práctico municipal
+### 15. Caso práctico municipal
 
 Un programa genera automáticamente un certificado de empadronamiento solicitado en sede:
 
@@ -1151,7 +1151,7 @@ Un programa genera automáticamente un certificado de empadronamiento solicitado
 
 No es necesario que un empleado introduzca su certificado personal en cada emisión automatizada.
 
-## 16. Errores frecuentes
+### 16. Errores frecuentes
 
 1. Confundir certificado de sede con sello de órgano.
 2. Afirmar que el CSV es un certificado.
