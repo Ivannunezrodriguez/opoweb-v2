@@ -1,7 +1,7 @@
 # Tema 5. Ley 39/2015: disposiciones generales, interesados, actividad administrativa, normas de actuación, términos y plazos
 
 **Convocatoria:** Diputación Provincial de Toledo · Administrativo/a C1  
-**Estado:** EN_REVISIÓN_USUARIO  
+**Estado:** AUDITADO_JURIDICO_PEDAGOGICO  
 **Fecha de auditoría:** **18 de julio de 2026**  
 **Fuente principal:** Ley 39/2015, de **1 de octubre**, del Procedimiento Administrativo Común de las Administraciones Públicas, texto consolidado del BOE con última actualización publicada el **6 de noviembre de 2024**.
 
@@ -286,7 +286,7 @@ La Administración General del Estado y las comunidades autónomas fijan anualme
 
 La Administración puede conceder, de oficio o a petición, una ampliación que no exceda de la **mitad** del plazo inicial, si las circunstancias lo aconsejan, no se perjudican derechos de tercero y se acuerda antes del vencimiento.
 
-La ampliación se aplica en todo caso a procedimientos tramitados por misiones diplomáticas y oficinas consulares y a los que exijan trámites en el extranjero o intervención de interesados residentes fuera de España.
+La ampliación de los plazos **por el tiempo máximo permitido** se aplica en todo caso a procedimientos de misiones diplomáticas y oficinas consulares, así como a los que requieran tramitar en el extranjero o en que intervengan interesados residentes fuera de España (**art. 32.2**); no es una autorización para ampliar plazos sin límite.
 
 Ni la petición ni el acuerdo de ampliación son recurribles.
 
@@ -363,3 +363,24 @@ Contra el acuerdo de urgencia no cabe recurso, sin perjuicio del recurso contra 
 > ⚠️ **¡Foco Examen!:** No se amplían plazos **vencidos**. Tampoco se reducen los de **solicitudes y recursos** por aplicar urgencia.
 
 Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 . Auditoría parcial; pendiente revisión íntegra.
+
+
+## Cierre jurídico del bloque 4–7: tres relojes distintos en la Ley 39/2015 (**05/11/2026**)
+
+### Plazos administrativos: **arts. 21, 30, 31 y 32**
+
+| Hecho | Regla | Diferencia clave |
+|---|---|---|
+| La norma del procedimiento **no fija plazo de resolución** | **3 meses** | Plazo **supletorio** (**art. 21.3**) |
+| Norma reglamentaria fija plazo máximo ordinario | **6 meses** como límite general, salvo ley o Derecho UE | Límite para fijar plazos, **no plazo supletorio** (**21.2**) |
+| Documento presentado por persona interesada en registro electrónico en **día inhábil** y plazo por **días hábiles** | Reputado presentado en la **primera hora del primer día hábil siguiente**, salvo previsión expresa | No se rechaza el envío: el registro recibe **24 h, 365 días** (**31.2**) |
+| Último día de un plazo declarado **inhábil** | Vence el **primer día hábil siguiente** | Prórroga del **art. 30.5** |
+| Día hábil para la sede pero inhábil para residencia del interesado, o al revés | **Inhábil en todo caso** | **Art. 30.6**, distinto del calendario único del registro electrónico (**31.3**) |
+| Ampliación ordinaria del plazo de trámite | Hasta **la mitad** del plazo original, antes de vencer | **Art. 32.1 y 32.3**, no confundir con ampliación del **plazo máximo de resolución** del art. 23 |
+| Procedimientos consulares o trámites/interesados en el extranjero | Ampliación por **el tiempo máximo permitido** | **Art. 32.2**, no duración ilimitada |
+
+El **registro electrónico** se rige por **el calendario de la sede** (**art. 31.3**) y **no** por la regla de concurrencia de calendarios entre domicilio y sede del **art. 30.6**. La ampliación del **art. 32** de un plazo de trámite **no equivale** a la del **art. 23**, que afecta al plazo máximo para resolver y requiere requisitos especiales.
+
+> ⚠️ **¡Foco Examen!:** Tres datos distintos: **3 meses** supletorios para resolver, **6 meses** como máximo general de la norma que fija el plazo, y **24 horas** de disponibilidad del registro electrónico. Presentar en inhábil **no invalida** el documento: desplaza su fecha de cómputo conforme al **art. 31.2.b**.
+
+**Fuentes:** [**Ley 39/2015, arts. 21, 23, 24, 30–33**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565); consolidado con última modificación publicada **06/11/2024**.

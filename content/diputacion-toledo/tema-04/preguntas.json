@@ -1,6 +1,6 @@
 {
   "tema": 4,
-  "estado": "BANCO_21_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T04-001",
@@ -14,7 +14,7 @@
       "correcta": 2,
       "justificacion": "La Ley 40/2015 regula las bases del régimen jurídico de las Administraciones Públicas, la organización del sector público y las relaciones interadministrativas.",
       "trampa": "No confundirla con la Ley 39/2015, centrada en el procedimiento administrativo común.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#1-objeto-y-ámbito-de-la-ley-402015",
+      "referencia": "Ley 40/2015, artículo 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a1",
       "respuestaLiteral": "El régimen jurídico del sector público"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 1,
       "justificacion": "La competencia es irrenunciable y debe ejercerse por el órgano que la tenga atribuida, salvo los supuestos legales de delegación o avocación.",
       "trampa": "Que pueda desplazarse su ejercicio no significa que la competencia deje de ser irrenunciable.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#51-regla-general",
+      "referencia": "Ley 40/2015, artículo 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8",
       "respuestaLiteral": "Irrenunciable"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 3,
       "justificacion": "La desconcentración puede trasladar titularidad y ejercicio a órganos jerárquicamente dependientes conforme a la norma de atribución.",
       "trampa": "Delegación, encomienda, firma y suplencia no alteran la titularidad.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#52-desconcentración",
+      "referencia": "Ley 40/2015, artículo 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8",
       "respuestaLiteral": "Desconcentración"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 2,
       "justificacion": "La Ley 40/2015 excluye de la delegación, entre otras materias, la adopción de disposiciones de carácter general.",
       "trampa": "La prohibición afecta a dictar disposiciones generales, no a cualquier actuación administrativa de carácter general.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#53-delegación-de-competencias",
+      "referencia": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
       "respuestaLiteral": "La adopción de disposiciones de carácter general"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 3,
       "justificacion": "La avocación requiere acuerdo motivado y notificación a los interesados antes o simultáneamente a la resolución final.",
       "trampa": "No cabe recurso autónomo contra la avocación, pero puede cuestionarse al impugnar la resolución final.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#54-avocación",
+      "referencia": "Ley 40/2015, artículo 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a10",
       "respuestaLiteral": "Acuerdo motivado"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 3,
       "justificacion": "La encomienda se limita a actividades materiales o técnicas por razones de eficacia o falta de medios idóneos.",
       "trampa": "No cede la titularidad ni los elementos sustantivos del ejercicio de la competencia.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#55-encomienda-de-gestión",
+      "referencia": "Ley 40/2015, artículo 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a11",
       "respuestaLiteral": "Actividades materiales o técnicas"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 2,
       "justificacion": "La delegación de firma permite que otro titular firme actos o resoluciones sin alterar la competencia del órgano delegante.",
       "trampa": "Delegar la firma no equivale a delegar la competencia.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#56-delegación-de-firma",
+      "referencia": "Ley 40/2015, artículo 12 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a12",
       "respuestaLiteral": "No altera la competencia"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 0,
       "justificacion": "La suplencia opera temporalmente en casos de vacante, ausencia, enfermedad, abstención o recusación.",
       "trampa": "La suplencia sustituye temporalmente al titular, pero no modifica la competencia.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#57-suplencia",
+      "referencia": "Ley 40/2015, artículo 13 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a13",
       "respuestaLiteral": "Vacante, ausencia o enfermedad"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 2,
       "justificacion": "La constitución válida exige la presencia del presidente y secretario, o quienes les suplan, y al menos la mitad de los miembros.",
       "trampa": "La mitad de miembros no basta sin presidente y secretario o sus suplentes.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#62-convocatoria-y-constitución",
+      "referencia": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
       "respuestaLiteral": "Presidente, secretario y al menos la mitad de sus miembros"
     },
     {
@@ -149,7 +149,7 @@
       "correcta": 3,
       "justificacion": "Según el artículo 24.4 de la Ley 40/2015, si el recusado niega la causa, el superior resolverá en el plazo de tres días, previos los informes y comprobaciones oportunos.",
       "trampa": "Los tres días solo aplican si se niega la causa; el recusado manifiesta su posición al día siguiente (art. 24.3).",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#7-abstención-y-recusación",
+      "referencia": "Ley 40/2015, artículo 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24",
       "respuestaLiteral": "Tres días"
     },
     {
@@ -164,7 +164,7 @@
       "correcta": 0,
       "justificacion": "La cooperación implica una actuación voluntaria y acordada entre Administraciones para alcanzar objetivos comunes.",
       "trampa": "No confundir cooperación con coordinación, que puede responder a una competencia específica de integración.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#82-colaboración-cooperación-y-coordinación",
+      "referencia": "Ley 40/2015, artículo 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a143",
       "respuestaLiteral": "Voluntaria y acordada"
     },
     {
@@ -179,7 +179,7 @@
       "correcta": 0,
       "justificacion": "Las conferencias sectoriales son órganos de cooperación multilateral entre Administraciones Públicas.",
       "trampa": "No todo órgano colegiado es un órgano de cooperación interadministrativa.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#85-órganos-de-cooperación",
+      "referencia": "Ley 40/2015, artículo 147 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a147",
       "respuestaLiteral": "La conferencia sectorial"
     },
     {
@@ -194,7 +194,7 @@
       "correcta": 1,
       "justificacion": "El **artículo 17.4 Ley 40/2015** permite tratar asuntos no incluidos en el orden del día solo si **asisten todos sus miembros** y la **mayoría** declara la urgencia.",
       "trampa": "No basta el quórum ordinario; para alterar el orden del día se exige **asistencia de todos** y declaración de urgencia por **mayoría**.",
-      "referencia": "Ley 40/2015, art. 17.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "referencia": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
       "respuestaLiteral": "Sí, si asisten todos los miembros y la mayoría declara la urgencia"
     },
     {
@@ -208,8 +208,8 @@
       ],
       "correcta": 0,
       "justificacion": "Ley 40/2015, artículo 9: No.",
-      "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "trampa": "**Art. 9.2.c**: la resolución del recurso no puede delegarse en quien dictó el acto recurrido; no basta el acuerdo del recurrente ni una autorización informal.",
+      "referencia": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
       "respuestaLiteral": "No"
     },
     {
@@ -223,8 +223,8 @@
       ],
       "correcta": 1,
       "justificacion": "Ley 40/2015, artículo 9: En el diario oficial correspondiente.",
-      "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "trampa": "**Art. 9.3**: delegación y revocación se publican en el **BOE**, diario autonómico o **BOP** según Administración y ámbito.",
+      "referencia": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
       "respuestaLiteral": "En el diario oficial correspondiente"
     },
     {
@@ -239,7 +239,7 @@
       "correcta": 3,
       "justificacion": "Puede constituirse sin convocatoria previa cuando estén reunidos **el secretario y todos los miembros o sus suplentes**, presencialmente o a distancia, **y todos lo decidan**; la previsión legal debe leerse con sus restantes reglas de funcionamiento.",
       "trampa": "No confundir la **ausencia de convocatoria previa** con el quórum ordinario de **la mitad** de miembros.",
-      "referencia": "Ley 40/2015, art. 17.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "referencia": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
       "respuestaLiteral": "Cuando estén reunidos el secretario y todos los miembros (o suplentes) y así lo decidan todos"
     },
     {
@@ -254,7 +254,7 @@
       "correcta": 1,
       "justificacion": "El **artículo 17.5 Ley 40/2015** establece que los acuerdos se adoptan por **mayoría de votos**.",
       "trampa": "La ley dice **mayoría de votos**, no unanimidad ni mayoría cualificada como regla general.",
-      "referencia": "Ley 40/2015, art. 17.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "referencia": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
       "respuestaLiteral": "Por mayoría de votos"
     },
     {
@@ -268,8 +268,8 @@
       ],
       "correcta": 2,
       "justificacion": "Ley 40/2015, artículo 23: Se abstiene y comunica la causa al superior inmediato.",
-      "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 23 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "trampa": "**Art. 23**: si existe causa de abstención, se comunica al **superior inmediato**; la abstención no depende de que lo pida el ciudadano.",
+      "referencia": "Ley 40/2015, artículo 23 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23",
       "respuestaLiteral": "Se abstiene y comunica la causa al superior inmediato"
     },
     {
@@ -283,8 +283,8 @@
       ],
       "correcta": 0,
       "justificacion": "Ley 40/2015, artículo 24: Al día siguiente.",
-      "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "trampa": "**Art. 24.3**: el recusado comunica su posición **al día siguiente**; los **3 días** del superior se aplican si aquel niega la causa.",
+      "referencia": "Ley 40/2015, artículo 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24",
       "respuestaLiteral": "Al día siguiente"
     },
     {
@@ -298,28 +298,38 @@
       ],
       "correcta": 1,
       "justificacion": "Ley 40/2015, artículo 143: Compromisos voluntarios para una acción común.",
-      "trampa": "Examinar artículo, titularidad y requisitos legales.",
-      "referencia": "Ley 40/2015, art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "trampa": "**Cooperación** compromisos **voluntarios**, distinta de la **coordinación** cuando hay competencia habilitante.",
+      "referencia": "Ley 40/2015, artículo 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a143",
       "respuestaLiteral": "Compromisos voluntarios para una acción común"
     },
     {
       "id": "DIP-T04-021",
-      "pregunta": "¿Cuándo debe manifestar la persona recusada a su superior si concurre la causa alegada?",
+      "pregunta": "Según el artículo 9.5 de la Ley 40/2015, ¿puede delegarse la competencia para resolver un procedimiento después de haberse emitido en él un informe preceptivo?",
       "opciones": [
-        "Al día siguiente",
-        "El mismo día obligatoriamente",
-        "En tres días",
-        "En diez días hábiles"
+        "No, una vez emitido ese informe preceptivo no podrá delegarse la competencia para resolver",
+        "Sí, porque todo informe preceptivo permite la delegación posterior",
+        "Sí, sin necesidad de acuerdo ni publicación",
+        "Solo si el interesado presta su consentimiento"
       ],
       "correcta": 0,
-      "justificacion": "Artículo 24.3 de la Ley 40/2015: en el día siguiente el recusado manifestará al inmediato superior si se da o no la causa.",
-      "trampa": "No confundir el día siguiente de manifestación del recusado con los tres días para resolver cuando niega la causa.",
-      "referencia": "content/diputacion-toledo/tema-04/manual.md#131-recusación-secuencia-legal-exacta",
-      "respuestaLiteral": "Al día siguiente"
+      "justificacion": "El **artículo 9.5 Ley 40/2015** permite delegar aunque la norma contemple un informe o dictamen preceptivo, pero impide delegar la competencia para resolver **una vez emitido** el informe o dictamen en el procedimiento.",
+      "trampa": "**Art. 9.5**: un **dictamen preceptivo** no impide delegación si aún no se emitió, pero una vez **emitido** no cabe delegar la competencia para resolver.",
+      "referencia": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
+      "respuestaLiteral": "No, una vez emitido ese informe preceptivo no podrá delegarse la competencia para resolver"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "tipo": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 21,
+    "alternativas": 84,
+    "preceptosBOE": true,
+    "rehacerSoloPorErrorONuevaNorma": true,
+    "pruebaTecnicaNavegador": "CONTROL_TRANSVERSAL_PENDIENTE",
+    "certificacionIntegral": false
   }
 }

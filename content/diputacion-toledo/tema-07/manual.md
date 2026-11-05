@@ -149,7 +149,7 @@ Toda notificación debe cursarse dentro de **10 días** desde que el acto haya s
 La publicación sustituirá a la notificación cuando:
 
 - el acto tenga por destinataria una pluralidad indeterminada de personas;
-- se trate de actos integrantes de procedimientos selectivos o de concurrencia competitiva;
+- se trate de actos integrantes de procedimientos selectivos o de concurrencia competitiva, **mediante publicación en el medio indicado por la convocatoria**, cuyo anuncio vincula a los participantes (**art. 45.1.b**);
 - así lo establezca la normativa reguladora.
 
 > ⚠️ **¡Foco Examen!:** el plazo de **10 días** es para cursar la notificación, no para que el interesado interponga recurso.
@@ -286,3 +286,26 @@ ACTO ADMINISTRATIVO
 > ⚠️ **¡Foco Examen!:** La **incompetencia manifiesta por materia o territorio** provoca nulidad; una incompetencia **no determinante de nulidad** puede ser convalidable en los términos del artículo **52.3**.
 
 Fuente: [Ley 39/2015 consolidada en el BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Revisión parcial: queda pendiente auditoría jurídica integral y prueba funcional.
+
+
+## Cierre jurídico del bloque 4–7: eficacia, notificaciones e invalidez (**05/11/2026**)
+
+### Cómputos de notificación que no deben confundirse
+
+| Institución | Plazo y condición | Precepto |
+|---|---|---|
+| **Cursar** una notificación después de dictar un acto | **10 días** desde la fecha del acto | **Art. 40.2** |
+| **Segundo intento** en domicilio si nadie recibe el primero | **Una sola vez más**, dentro de los **3 días siguientes**, en franja opuesta a **15:00** y **al menos 3 horas** de diferencia | **Art. 42.2** |
+| Notificación electrónica **obligatoria** o elegida expresamente **sin acceder** | Rechazo por transcurso de **10 días naturales** desde puesta a disposición | **Art. 43.2** |
+| Notificación infructuosa | Anuncio en el **Boletín Oficial del Estado**; otros medios, complementarios | **Art. 44** |
+| Procedimientos selectivos / concurrencia competitiva | Publicación en el **medio indicado en la convocatoria**, sin validez de un medio distinto como sustituto automático | **Art. 45.1.b** |
+
+### Nulidad, anulabilidad y efecto de los actos posteriores
+
+La **nulidad de pleno derecho** por incompetencia exige que sea **manifiesta por razón de materia o territorio** (**47.1.b**). Los demás vicios son **anulables** cuando concurran los requisitos del **art. 48**, incluidos defectos de forma que impidan alcanzar el fin del acto o causen indefensión. La **convalidación** solo alcanza **actos anulables** (**art. 52**).
+
+La invalidez de un acto **no se propaga automáticamente** a los actos posteriores **independientes** de él (**art. 49.1**). Si se anulan actuaciones, deben conservarse los actos y trámites cuyo contenido hubiera sido igual (**art. 51**).
+
+> ⚠️ **¡Foco Examen!:** **10 días** para cursar notificación ≠ **10 días naturales** para entender rechazada la electrónica. **Nulidad de un acto** ≠ nulidad automática de todo acto posterior: importa que sea **independiente**.
+
+**Fuente normativa:** [**Ley 39/2015, arts. 34–52 y 112.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).

@@ -38,3 +38,10 @@ Este tema se ha redactado **desde cero**. No se ha reutilizado contenido de La P
 - Se han sustituido tres preguntas redundantes (**DIP-T04-013, DIP-T04-016 y DIP-T04-017**) por preguntas sobre **quórum, convocatoria y votación**.
 
 **Alcance:** control jurídico parcial, no certificación integral de la Ley 40/2015 ni de su aplicación específica en la Administración local.
+
+## Cierre editorial agrupado · **05/11/2026**
+
+**AUDITADO jurídica y pedagógicamente.** Cotejo íntegro del epígrafe y banco del **tema 4** (**21 preguntas, 84 alternativas**), con referencias por artículo a [**Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). [**Informe único del bloque 4–7**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-04-07-2026-11-05.md). No reabrir sin **error verificado** o **modificación normativa**. **Navegador real y accesibilidad** son controles técnicos transversales distintos del cierre del contenido.
+
+> ⚠️ **¡Foco Examen!:** Estudia los **presupuestos del artículo**, el **órgano** y el **plazo**, no solo el número: los detalles corregidos están incluidos en el manual y en las justificaciones del banco.
+

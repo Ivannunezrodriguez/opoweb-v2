@@ -1,6 +1,6 @@
 {
   "tema": 6,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T06-001",
@@ -14,7 +14,7 @@
       "correcta": 1,
       "justificacion": "El artículo 53 reconoce al interesado el derecho a conocer en cualquier momento el estado de tramitación, además del sentido del silencio y el órgano competente.",
       "trampa": "No confundas derechos del interesado del artículo 53 con facultades inexistentes, como elegir instructor o suspender plazos.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#2-derechos-del-interesado-en-el-procedimiento",
+      "referencia": "Ley 39/2015, artículo 53 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a53",
       "respuestaLiteral": "Conocer el estado de tramitación del procedimiento"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 1,
       "justificacion": "La Ley exige que el acuerdo de iniciación se dicte dentro de los 15 días siguientes a la adopción de las medidas provisionales previas.",
       "trampa": "El plazo de 15 días se refiere a la confirmación en el acuerdo de iniciación, no al trámite de audiencia.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#33-medidas-provisionales",
+      "referencia": "Ley 39/2015, artículo 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a56",
       "respuestaLiteral": "15 días"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 3,
       "justificacion": "La presentación de una denuncia no confiere por sí sola la condición de interesado ni obliga automáticamente a incoar procedimiento.",
       "trampa": "Denunciante e interesado no son conceptos equivalentes.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#4-iniciación-de-oficio",
+      "referencia": "Ley 39/2015, artículo 62 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a62",
       "respuestaLiteral": "No convierte por sí sola al denunciante en interesado"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 3,
       "justificacion": "El artículo 68 establece un plazo de 10 días para subsanar la falta o acompañar los documentos preceptivos.",
       "trampa": "La posible ampliación adicional es de hasta 5 días y no procede en procedimientos selectivos o competitivos.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#51-subsanación",
+      "referencia": "Ley 39/2015, artículo 68 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
       "respuestaLiteral": "10 días"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 0,
       "justificacion": "La regla general del artículo 73 fija 10 días desde el siguiente a la notificación del acto correspondiente.",
       "trampa": "No confundas este plazo con la audiencia, que oscila entre 10 y 15 días.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#63-cumplimiento-de-trámites",
+      "referencia": "Ley 39/2015, artículo 73 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a73",
       "respuestaLiteral": "10 días"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 2,
       "justificacion": "La Ley fija un plazo no superior a 30 días ni inferior a 10 días para el periodo ordinario de prueba.",
       "trampa": "La prueba extraordinaria puede durar hasta 10 días adicionales.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#72-prueba",
+      "referencia": "Ley 39/2015, artículo 77 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a77",
       "respuestaLiteral": "De 10 a 30 días"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 1,
       "justificacion": "El artículo 82 fija un plazo no inferior a 10 días ni superior a 15 días para alegar y presentar documentos.",
       "trampa": "La información pública tiene un mínimo de 20 días; la audiencia no.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#74-trámite-de-audiencia",
+      "referencia": "Ley 39/2015, artículo 82 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a82",
       "respuestaLiteral": "De 10 a 15 días"
     },
     {
@@ -119,23 +119,23 @@
       "correcta": 3,
       "justificacion": "El artículo 83 establece que el plazo para formular alegaciones en información pública no puede ser inferior a 20 días.",
       "trampa": "No confundas información pública con audiencia: 20 días mínimo frente a 10-15 días.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#75-información-pública",
+      "referencia": "Ley 39/2015, artículo 83 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a83",
       "respuestaLiteral": "20 días"
     },
     {
       "id": "DIP-T06-009",
-      "pregunta": "En procedimientos iniciados a solicitud, la paralización imputable al interesado puede provocar caducidad una vez transcurridos:",
+      "pregunta": "En un procedimiento iniciado a solicitud, cuando el interesado omite un trámite **no indispensable** para dictar resolución, ¿procede declarar automáticamente caducidad por esa omisión?",
       "opciones": [
-        "1 mes",
-        "3 meses",
-        "2 meses",
-        "6 meses"
+        "Sí, transcurridos diez días sin contestar",
+        "No; la omisión solo produce pérdida del derecho al trámite, sin caducidad por esa causa",
+        "Sí, al vencimiento de un mes",
+        "Sí, siempre que lo pida la Administración"
       ],
       "correcta": 1,
-      "justificacion": "Previa advertencia, transcurridos 3 meses sin que el interesado realice la actividad necesaria puede declararse la caducidad.",
-      "trampa": "La caducidad no produce por sí sola la prescripción, aunque el procedimiento caducado no interrumpe el plazo prescriptivo.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#83-caducidad",
-      "respuestaLiteral": "3 meses"
+      "justificacion": "El **artículo 95.2 Ley 39/2015** prohíbe declarar caducidad por omitir actuaciones **no indispensables para dictar resolución**; la consecuencia es la **pérdida del derecho al trámite**. Para caducidad por paralización imputable de actuaciones indispensables se necesita advertencia y **3 meses** conforme al **95.1**.",
+      "trampa": "**No toda inactividad provoca caducidad**. Solo cuando impida continuar por una actuación **indispensable**, con advertencia previa de **3 meses**; la omisión de trámite no esencial no caduca.",
+      "referencia": "Ley 39/2015, artículo 95.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a95",
+      "respuestaLiteral": "No; la omisión solo produce pérdida del derecho al trámite, sin caducidad por esa causa"
     },
     {
       "id": "DIP-T06-010",
@@ -149,7 +149,7 @@
       "correcta": 2,
       "justificacion": "La Ley establece reducciones de al menos el 20 % por cada concepto y permite su acumulación si se cumplen las condiciones.",
       "trampa": "La cuantía legal es mínima; reglamentariamente puede aumentarse.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#103-reconocimiento-y-pago-voluntario",
+      "referencia": "Ley 39/2015, artículo 85 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a85",
       "respuestaLiteral": "20 % y 20 %, acumulables"
     },
     {
@@ -164,7 +164,7 @@
       "correcta": 3,
       "justificacion": "El plazo general es de un año desde el hecho o acto que motive la indemnización o desde la manifestación del efecto lesivo.",
       "trampa": "En daños físicos o psíquicos, el cómputo comienza desde la curación o determinación de las secuelas.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#112-solicitud-del-interesado",
+      "referencia": "Ley 39/2015, artículo 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a67",
       "respuestaLiteral": "Año"
     },
     {
@@ -179,7 +179,7 @@
       "correcta": 2,
       "justificacion": "La Ley fija un plazo general de 30 días desde el siguiente a la notificación del acuerdo de tramitación simplificada.",
       "trampa": "Dentro de la simplificada, el plazo específico de alegaciones es de 5 días.",
-      "referencia": "content/diputacion-toledo/tema-06/manual.md#12-tramitación-simplificada",
+      "referencia": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
       "respuestaLiteral": "30 días"
     },
     {
@@ -193,8 +193,8 @@
       ],
       "correcta": 0,
       "justificacion": "Las alegaciones formuladas al inicio del procedimiento simplificado se realizan durante **5 días**.",
-      "trampa": "Atender al supuesto y plazo preciso de la Ley 39/2015.",
-      "referencia": "Ley 39/2015 art. 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Art. 96.6.c**: el plazo de **5 días** para alegar al inicio no es la audiencia ordinaria de **10–15 días**.",
+      "referencia": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
       "respuestaLiteral": "5 días"
     },
     {
@@ -208,8 +208,8 @@
       ],
       "correcta": 3,
       "justificacion": "Solo se prevé audiencia en tramitación simplificada si la resolución va a ser **desfavorable** al interesado.",
-      "trampa": "Atender al supuesto y plazo preciso de la Ley 39/2015.",
-      "referencia": "Ley 39/2015 art. 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Art. 96.6.d**: audiencia solo para resolución desfavorable, a diferencia de la regla ordinaria.",
+      "referencia": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
       "respuestaLiteral": "Solo se realiza cuando la resolución vaya a ser desfavorable al interesado"
     },
     {
@@ -223,8 +223,8 @@
       ],
       "correcta": 2,
       "justificacion": "La Administración puede desestimar la solicitud en **5 días**; transcurrido el plazo, se entiende desestimada.",
-      "trampa": "Atender al supuesto y plazo preciso de la Ley 39/2015.",
-      "referencia": "Ley 39/2015 art. 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Art. 96.3**: la petición de simplificación desestimada en **5 días** no tiene recurso autónomo; silencio también desestimatorio.",
+      "referencia": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
       "respuestaLiteral": "5 días"
     },
     {
@@ -238,8 +238,8 @@
       ],
       "correcta": 0,
       "justificacion": "La oposición expresa determina la **tramitación ordinaria**, salvo la excepción específica de los sancionadores leves.",
-      "trampa": "Atender al supuesto y plazo preciso de la Ley 39/2015.",
-      "referencia": "Ley 39/2015 art. 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Art. 96.2**: oposición expresa fuerza ordinaria, **excepto** la simplificada sancionadora por **infracción leve (96.5)**.",
+      "referencia": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
       "respuestaLiteral": "Debe seguirse la tramitación ordinaria"
     },
     {
@@ -253,8 +253,8 @@
       ],
       "correcta": 1,
       "justificacion": "Según el **artículo 80.1 de la Ley 39/2015**, los informes serán **facultativos y no vinculantes**, salvo disposición expresa en contrario.",
-      "trampa": "No confundir el carácter **preceptivo** con el **vinculante**: son cualidades distintas.",
-      "referencia": "Ley 39/2015, art. 80.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Art. 80.1**: informe **facultativo y no vinculante** por defecto; preceptivo no equivale a vinculante.",
+      "referencia": "Ley 39/2015, artículo 80 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a80",
       "respuestaLiteral": "Facultativos y no vinculantes"
     },
     {
@@ -268,8 +268,8 @@
       ],
       "correcta": 0,
       "justificacion": "El **artículo 80.2** establece **10 días**, salvo disposición o exigencias del resto de los plazos que determinen otro plazo mayor o menor.",
-      "trampa": "No confundir los **10 días de informes** con el mínimo de **20 días** de información pública.",
-      "referencia": "Ley 39/2015, art. 80.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Art. 80.2**: **10 días** para informe por regla general, salvo plazo específico o exigencias de procedimiento.",
+      "referencia": "Ley 39/2015, artículo 80 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a80",
       "respuestaLiteral": "10 días"
     },
     {
@@ -283,8 +283,8 @@
       ],
       "correcta": 2,
       "justificacion": "El **artículo 96.5** excluye expresamente la oposición contemplada en el **artículo 96.2** en la tramitación simplificada sancionadora por infracción leve.",
-      "trampa": "La oposición que normalmente fuerza la vía ordinaria **no opera** en esta especialidad sancionadora.",
-      "referencia": "Ley 39/2015, art. 96.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Art. 96.5**: no cabe oposición a simplificación sancionadora por **infracción leve**; no se aplica a todas las sanciones.",
+      "referencia": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
       "respuestaLiteral": "No se admite esa oposición expresa en el supuesto del artículo 96.5"
     },
     {
@@ -298,13 +298,23 @@
       ],
       "correcta": 0,
       "justificacion": "Cuando el dictamen preceptivo sea contrario al fondo de la propuesta, se continúa la **tramitación ordinaria**.",
-      "trampa": "Atender al supuesto y plazo preciso de la Ley 39/2015.",
-      "referencia": "Ley 39/2015 art. 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "trampa": "**Art. 96.6**: si el dictamen preceptivo es contrario al fondo, vuelve al **procedimiento ordinario**.",
+      "referencia": "Ley 39/2015, artículo 96 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
       "respuestaLiteral": "Se continúa por la tramitación ordinaria"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "tipo": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "preceptosBOE": true,
+    "rehacerSoloPorErrorONuevaNorma": true,
+    "pruebaTecnicaNavegador": "CONTROL_TRANSVERSAL_PENDIENTE",
+    "certificacionIntegral": false
   }
 }

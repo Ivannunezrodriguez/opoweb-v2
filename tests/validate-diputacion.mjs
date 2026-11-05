@@ -21,8 +21,8 @@ for (const theme of programme.temas) {
   const number = String(theme.numero).padStart(2, '0');
   const expectedPrefix = `DIP-T${number}-`;
 
-  assert.equal(theme.estado, theme.numero<=3 ? 'AUDITADO' : 'GENERACION_DESDE_CERO', `Estado inválido en tema ${number}`);
-  if (theme.numero<=3) assert.equal(theme.metodo,'GENERACION_DESDE_CERO');
+  assert.equal(theme.estado, theme.numero<=7 ? 'AUDITADO' : 'GENERACION_DESDE_CERO', `Estado inválido en tema ${number}`);
+  if (theme.numero<=7) assert.equal(theme.metodo,'GENERACION_DESDE_CERO');
 
   for (const key of ['manual', 'fuentes', 'matriz', 'preguntas']) {
     assert.ok(theme[key], `Falta ruta ${key} en tema ${number}`);

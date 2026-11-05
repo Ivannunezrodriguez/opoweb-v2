@@ -1,7 +1,7 @@
 # Tema 6. Procedimiento administrativo común
 
 > **Convocatoria:** Diputación Provincial de Toledo · Administrativo/a C1  
-> **Estado editorial:** EN_REVISIÓN_USUARIO  
+> **Estado editorial:** AUDITADO_JURIDICO_PEDAGOGICO  
 > **Método:** generación íntegra desde cero  
 > **Normativa principal:** Ley 39/2015, de 1 de octubre
 
@@ -224,7 +224,7 @@ La Administración los acepta de plano y declara concluso el procedimiento, salv
 
 ### 8.3. Caducidad
 
-En procedimientos iniciados a solicitud, si se paralizan por causa imputable al interesado, se le advertirá de que, transcurridos **3 meses**, se producirá la caducidad.
+En procedimientos a solicitud, si el expediente se paraliza por causa imputable al interesado en una **actividad indispensable** para poder resolver, la **Administración** le advertirá de que, transcurridos **3 meses** sin reanudarlo, declarará **caducidad** y archivo por resolución notificada. **No puede acordarse caducidad** por la simple omisión de trámites **no indispensables**: se pierde solo el derecho a efectuar ese trámite (**art. 95.2**).
 
 La caducidad no produce por sí sola prescripción, pero el procedimiento caducado no interrumpe el plazo prescriptivo.
 
@@ -316,7 +316,7 @@ Transcurridos **6 meses** desde el inicio sin resolución, puede entenderse dese
 
 Puede acordarse por razones de interés público o falta de complejidad, de oficio o a solicitud del interesado.
 
-Si se acuerda de oficio y algún interesado se opone expresamente, debe seguirse la tramitación ordinaria, salvo en procedimientos sancionadores.
+Si se acuerda de oficio y algún interesado se opone expresamente, debe seguirse la tramitación ordinaria. La **excepción** se limita a procedimientos **sancionadores por infracción leve** con elementos de juicio suficientes para tal calificación (**art. 96.5**); no abarca indiscriminadamente todos los sancionadores.
 
 Debe resolverse en **30 días** desde el siguiente a la notificación del acuerdo de tramitación simplificada, salvo que reste menos para la ordinaria.
 
@@ -425,3 +425,29 @@ PROCEDIMIENTO ADMINISTRATIVO COMÚN
 > ⚠️ **¡Foco Examen!:** La oposición del interesado obliga a continuar por la vía ordinaria cuando la Administración acuerda de oficio la simplificada, **salvo** la especialidad sancionadora de infracciones leves prevista en el **artículo 96.5**.
 
 Fuente normativa: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565 . Esta revisión es **parcial**; no acredita la auditoría integral del tema.
+
+
+## Cierre jurídico del bloque 4–7: caducidad y simplificación sancionadora (**05/11/2026**)
+
+### Caducidad por inactividad imputable al interesado, **art. 95**
+
+La **Administración** advierte que, transcurridos **3 meses** de paralización imputable al interesado sin realizar la actividad **necesaria para reanudar la tramitación**, se producirá caducidad y archivo, notificando la resolución. **No procede declarar caducidad por no cumplimentar trámites no indispensables** para resolver: en tal supuesto solo se pierde el derecho a efectuar ese trámite.
+
+| Supuesto | Efecto |
+|---|---|
+| Paralización imputable por actividad indispensable, advertencia y **3 meses** sin actuar | **Caducidad** y archivo mediante resolución |
+| No realizar un trámite **no indispensable** | **Pérdida del derecho al trámite**, no caducidad |
+| Caducidad y prescripción | La caducidad no produce automáticamente prescripción, pero el procedimiento caducado **no interrumpe** la prescripción |
+| Cuestión de **interés general** o conveniente de esclarecer | Puede **no aplicarse** la caducidad conforme al **art. 95.4** |
+
+### Procedimiento simplificado, **art. 96**
+
+- **Regla general:** si la Administración decide la simplificación **de oficio**, el interesado que se opone expresamente exige continuar por el **ordinario**.
+- **Excepción sancionadora:** cuando existen elementos de juicio suficientes para calificar la infracción como **leve**, puede acordarse la simplificada **sin oposición expresa eficaz** del **art. 96.2**.
+- **Solicitud de simplificación del interesado:** el **órgano competente** tiene **5 días** para desestimarla, sin recurso contra esa decisión; transcurridos, **se entiende desestimada**.
+- **Resolución simplificada:** en **30 días**, salvo que para el ordinario reste menos, desde el **día siguiente** a la notificación del acuerdo.
+- **Dictamen preceptivo contrario al fondo de la propuesta:** continuar por el **procedimiento ordinario**; se convalidan actuaciones efectuadas con las salvedades del **art. 96.6**.
+
+> ⚠️ **¡Foco Examen!:** En un procedimiento **sancionador leve simplificado**, la oposición del interesado **no obliga** a tramitar ordinariamente (**96.5**). Esa excepción **no se extiende a todos los procedimientos sancionadores**. No hay caducidad automática por omitir un trámite **no indispensable**.
+
+**Fuente contrastada:** [**Ley 39/2015, arts. 95 y 96**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).

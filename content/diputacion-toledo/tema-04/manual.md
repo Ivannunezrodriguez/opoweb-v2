@@ -1,6 +1,6 @@
 # Tema 4. Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público
 
-> Estado editorial: **EN_REVISIÓN_USUARIO**  
+> Estado editorial: **AUDITADO_JURIDICO_PEDAGOGICO**  
 > Generación: **DESDE CERO**  
 > Referencia temporal: **julio de 2026**
 
@@ -223,9 +223,9 @@ Las autoridades y el personal al servicio de las Administraciones deben abstener
 
 La recusación puede promoverse por los interesados en cualquier momento de la tramitación.
 
-El superior resolverá en el plazo de **tres días**, previos los informes y comprobaciones que considere oportunos.
+La persona recusada informará a su **superior inmediato al día siguiente**. Si **reconoce** la causa y el superior la aprecia, este acuerda **acto seguido** su sustitución. **Solo si niega la causa**, el **superior** resolverá en el plazo de **tres días**, previos los informes y comprobaciones pertinentes.
 
-> ⚠️ **¡Foco Examen!:** la recusación puede plantearse **en cualquier momento** y se resuelve en **tres días**.
+> ⚠️ **¡Foco Examen!:** La recusación se promueve **en cualquier momento**; el recusado informa **al día siguiente**, y el superior resuelve **en tres días solo si el recusado niega la causa**.
 
 ## 8. Relaciones entre Administraciones Públicas
 
@@ -390,3 +390,27 @@ Fuente: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566
 > ⚠️ **¡Foco Examen!:** la **delegación de competencias** exige publicidad oficial, mientras que **delegación de firma** y **suplencia** no la requieren para su validez.
 
 Fuente contrastada: [Ley 40/2015 consolidada, artículos 8–13 y 24](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). **Estado:** auditoría parcial ampliada; pendiente cotejo integral y validación de interfaz.
+
+
+## Cierre jurídico del bloque 4–7: técnicas de competencia, recusación y órganos colegiados (**05/11/2026**)
+
+### Delegación de competencias frente a dictamen preceptivo: **art. 9.5 Ley 40/2015**
+
+| Momento y supuesto | ¿Se puede delegar la competencia para resolver? | Fundamento |
+|---|---|---|
+| La norma prevé **dictamen o informe preceptivo**, pero **todavía no se ha emitido** | **Sí**, si concurren los demás requisitos legales | **Art. 9.5**, segundo párrafo |
+| En el procedimiento **ya se ha emitido el dictamen o informe preceptivo** | **No**, después de su emisión | **Art. 9.5**, segundo párrafo |
+| Competencia ejercida **por delegación** | **No puede volver a delegarse**, salvo **autorización expresa de una ley** | **Art. 9.5**, primer párrafo |
+| Revocación de delegación | Puede acordarla el **órgano delegante** y debe publicarse | **Art. 9.3 y 9.6** |
+
+### Recusación: secuencia exacta de **art. 24**
+
+- El interesado promueve recusación **en cualquier momento** de la tramitación y **por escrito**.
+- La persona recusada manifiesta a su **superior inmediato, al día siguiente**, si concurre la causa.
+- **Si reconoce** la causa y el **superior** la aprecia, este acuerda **acto seguido** la sustitución.
+- **Si niega** la causa, el **superior** dispone de **tres días** para resolver, tras los informes y comprobaciones pertinentes.
+- La no abstención no convierte **automáticamente** todos los actos en nulos (**art. 23.4**).
+
+> ⚠️ **¡Foco Examen!:** El plazo de **3 días** para resolver recusación **solo aparece cuando el recusado niega la causa**. Si la reconoce, la sustitución se acuerda **acto seguido** si el superior aprecia la causa. La existencia de informe preceptivo **no impide por sí sola delegar**: importa si **ya se emitió**.
+
+**Texto vigente contrastado:** [**Ley 40/2015, arts. 8–13, 15–17 y 23–24**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). Última actualización consolidada publicada **02/08/2024**.

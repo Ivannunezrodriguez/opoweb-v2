@@ -67,38 +67,70 @@
     {
       "numero": 4,
       "titulo": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público. La Administración Pública. Los órganos de las Administraciones Públicas. La competencia administrativa. Las relaciones administrativas.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-04/manual.md",
       "fuentes": "content/diputacion-toledo/tema-04/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-04/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-04/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-04/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-04-07-2026-11-05.md",
+        "programaContrastado": true,
+        "leyYBancoContrastados": true,
+        "controlTecnicoNavegador": "PENDIENTE_TRANSVERSAL"
+      }
     },
     {
       "numero": 5,
       "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: disposiciones generales; los interesados en el procedimiento; actividad de las Administraciones Públicas; normas generales de actuación; términos y plazos.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-05/manual.md",
       "fuentes": "content/diputacion-toledo/tema-05/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-05/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-05/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-05/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-04-07-2026-11-05.md",
+        "programaContrastado": true,
+        "leyYBancoContrastados": true,
+        "controlTecnicoNavegador": "PENDIENTE_TRANSVERSAL"
+      }
     },
     {
       "numero": 6,
       "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. El procedimiento administrativo común: derechos del interesado; iniciación; ordenación; instrucción; finalización y ejecución. Especialidades en los procedimientos de naturaleza sancionadora y de responsabilidad patrimonial. Tramitación simplificada.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-06/manual.md",
       "fuentes": "content/diputacion-toledo/tema-06/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-06/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-06/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-06/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-04-07-2026-11-05.md",
+        "programaContrastado": true,
+        "leyYBancoContrastados": true,
+        "controlTecnicoNavegador": "PENDIENTE_TRANSVERSAL"
+      }
     },
     {
       "numero": 7,
       "titulo": "El acto administrativo: concepto, clases y elementos. Requisitos. Eficacia. Nulidad y anulabilidad.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-07/manual.md",
       "fuentes": "content/diputacion-toledo/tema-07/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-07/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-07/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-07/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "informe": "content/diputacion-toledo/cierre-editorial-04-07-2026-11-05.md",
+        "programaContrastado": true,
+        "leyYBancoContrastados": true,
+        "controlTecnicoNavegador": "PENDIENTE_TRANSVERSAL"
+      }
     },
     {
       "numero": 8,
@@ -422,5 +454,35 @@
       "Senado Ibiza Formentera"
     ],
     "certificacionWebIntegral": false
+  },
+  "cierreEditorialC1Bloques20261105": {
+    "bloques": [
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        4,
+        5,
+        6,
+        7
+      ]
+    ],
+    "temasAuditados": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "cuentaPendientesGlobal": 114,
+    "temasConCierreEditorialDemostrado": 7,
+    "nuevoBloquePreguntas": 81,
+    "nuevoBloqueAlternativas": 324,
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "cierreFuncionalNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }
