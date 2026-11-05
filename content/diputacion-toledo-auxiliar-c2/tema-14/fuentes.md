@@ -46,3 +46,18 @@ Fuente literal: https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046
 El [**cotejo individual de las veinte preguntas y sus ochenta opciones**](cotejo-banco-completo-2026-11-05.md) identifica la **respuesta correcta A–D**, la explicación individual de **las cuatro alternativas (una correcta y tres distractores)** y la referencia normativa o técnica pertinente. Se ha conservado la distribución de respuestas **A5/B5/C5/D5**. Fuentes principales: [**Ley 39/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [**Ley 6/2020**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046), [**eIDAS consolidado 18/10/2024**](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa) y [**FNMT FAQ 1213**](https://www.sede.fnmt.gob.es/ca/preguntas-frecuentes/problemas-y-dudas/-/asset_publisher/fVZppcBHj0oa/content/1213-que-diferencia-hay-entre-solicitar-un-certificado-en-tarjeta-criptografica-y-solicitarlo-en-software-).
 
 > ⚠️ **¡Foco Examen!:** Que el **banco 20/80** disponga de cotejo por alternativa **no** acredita que se haya auditado jurídicamente todo el **manual** o el funcionamiento real de la web. Estado del tema: **EN_AUDITORIA**.
+
+
+## eIDAS reformado — cartera europea, declaraciones de atributos y servicios cualificados (**05/11/2026**)
+
+[**Informe jurídico y matriz de origen por artículo**](cotejo-eidas-reformado-2026-11-05.md). El manual contiene seis nuevos subapartados que confrontan:
+- [**Reglamento 910/2014 consolidado, 18/10/2024**](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa), modificado por [**2024/1183**](https://eur-lex.europa.eu/eli/reg/2024/1183/oj?locale=es).
+- **Cartera EUDI:** **art. 5 bis**, al menos una por **Estado miembro**, plazo de **24 meses desde entrada en vigor de actos de ejecución**, uso **voluntario**, gratuita para **personas físicas** en expedición, uso y revocación; **5 quater** certificación máxima de **5 años** y control de vulnerabilidad cada **2 años**.
+- **Atributos:** **arts. 45 ter–nonies**, reconocimiento de declaraciones cualificadas y de organismos responsables de fuente auténtica; **45 quater** impide sustituir automáticamente identificación obligatoria.
+- **Firma y sello cualificados a distancia:** **29 bis y 39 bis**, gestión por prestador cualificado; duplicado de claves solo para **seguridad** bajo requisitos tasados.
+- **Archivo electrónico y libros mayores cualificados:** **45 decies–undecies** y **45 duodecies–terdecies**; distinguir presunciones de integridad/origen y de secuencia cronológica, respectivamente.
+- **Reconocimiento europeo:** **art. 24 bis**, con servicios **cualificados concretos**, comprobables mediante TSL.
+
+> ⚠️ **¡Foco Examen!:** **Cartera europea ≠ certificado de firma**, **declaración de atributos ≠ identificación obligatoria**, **firma en nube ≠ cualificada automáticamente**. El plazo de **24 meses** de cartera no comienza simplemente en la publicación de la reforma.
+
+**Alcance:** cotejo jurídico-documental de la reforma, sin certificación integral del manual ni pruebas de navegación real.
