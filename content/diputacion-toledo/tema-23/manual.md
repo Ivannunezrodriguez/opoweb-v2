@@ -306,3 +306,21 @@ Si se acuerda la paralización ante un riesgo **grave e inminente**, la **autori
 > ⚠️ **¡Foco Examen!:** Las **24 horas** para ratificar o anular la paralización corresponden a la **autoridad laboral**, no al comité ni a los delegados.
 
 **Fuente cotejada:** [Ley 31/1995, BOE consolidado, última actualización publicada **09/04/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), arts. **21, 35 y 38**. Banco ampliado a **20 preguntas**. Pendiente auditoría integral y prueba funcional en OpoWeb.
+
+## 17. Cotejo preventivo jurídico-pedagógico — **05/11/2026**
+
+| Cuestión | Fuente | Regla de test |
+|---|---|---|
+| Protección y costes | [**Ley 31/1995, 14**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14) | El **empleador** asume medidas preventivas; no cargarlas al trabajador |
+| Orden de protección | **Art. 15** | **Colectiva** antes de **individual** |
+| Formación | **Art. 19** | Teórica/práctica, adaptada, **sin coste** al trabajador |
+| Riesgo grave e inminente | **Art. 21.3** | **Autoridad laboral** ratifica/anula paralización en **24 horas** |
+| Vigilancia de salud | **Art. 22** | Regla **voluntaria**, excepciones legales tras **informe previo de representantes**, confidencialidad y proporcionalidad |
+| Delegados de prevención | **Art. 35.2** | **31–49: 1**; **50–100: 2**; **101–500: 3** |
+| Informe de delegados tras consulta | **Art. 36.3** | **15 días** o **tiempo imprescindible** para riesgo inminente |
+| Comité Seguridad y Salud | **Art. 38** | Centro/empresa de **50 o más** empleados, paritario y colegiado, reuniones **trimestrales** |
+| Servicio prevención propio | [**RD 39/1997, 14**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853#a14) | Más de **500**, o entre **250 y 500** con **actividad del Anexo I**, más supuestos de decisión administrativa |
+
+**Diferencia decisiva:** **Comité de Seguridad y Salud desde 50**, **servicio de prevención propio por plantilla de más de 500** o actividad especialmente peligrosa de **250–500**; no son el mismo órgano. En la **Administración pública** deben aplicarse las especialidades del **art. 34.3.d LPRL**. Redacción del BOE última publicada **09/04/2026**.
+
+> ⚠️ **¡Foco Examen!:** La **vigilancia voluntaria** admite excepciones tasadas con garantías; **15 días** es el informe de delegados y **24 horas** la ratificación/anulación de paralización por la **autoridad laboral**.

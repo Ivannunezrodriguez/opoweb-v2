@@ -180,3 +180,22 @@ Finalizado el periodo voluntario sin pago, procede la recaudación ejecutiva med
 > ⚠️ **¡Foco Examen!:** Los **90 días** de contratación previsible son un límite **por empresa y año**, no por cada trabajador; en los supuestos agrarios y agroalimentarios previstos por el **artículo 15.2 ET**, el límite se eleva a **120 días**.
 
 **Fuentes contrastadas:** [Estatuto de los Trabajadores, consolidación publicada **21/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430), [Ley General de la Seguridad Social, consolidación publicada **21/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724) y [RD 84/1996, consolidación publicada **30/07/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447). Banco de **20 preguntas**, pendiente auditoría integral y comprobación funcional.
+
+## 7. Cotejo legal consolidado — **05/11/2026**
+
+| Supuesto | Norma | Regla que debe memorizarse |
+|---|---|---|
+| Contrato fijo-discontinuo | [**ET 16**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a16) | **Indefinido**, llamamiento por **escrito** u otro medio que deje constancia, conforme a **convenio o acuerdo** |
+| Producción ocasional imprevisible | **ET 15.2** | **6 meses**, ampliables hasta **1 año** por convenio sectorial |
+| Producción previsible | **ET 15.2** | **90 días** generales por empresa/año, no continuados; **120 días** sectores agrario/agroalimentario previstos |
+| Contrato formativo en alternancia | **ET 11** | **3 meses–2 años**, regla general |
+| Contrato formativo para práctica profesional | **ET 11** | **6 meses–1 año**, regla general |
+| Alta de persona trabajadora | [**RD 84/1996, 32.3.1.º**](https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32) | **Antes** del inicio de la prestación |
+| Baja o variación de datos | [**RD 84/1996, 32.3.2.º**](https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32) | **6 días naturales** desde cese o modificación, por reforma vigente desde **01/08/2026** |
+| Nacimiento de cotización | [**LGSS 144.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a144) | Desde comienzo de servicios, **incluido período de prueba** |
+| Recargos por ingreso extemporáneo tras liquidar en plazo | **LGSS 30.1.a** | **10 %** si paga en primer mes natural posterior; **20 %** desde segundo |
+| Prescripción de cuotas | **LGSS 24** | **4 años**, salvo interrupciones legales |
+
+**Error corregido:** la pregunta **DIP-T21-010** aún decía **3 días naturales**, mientras el propio manual y otra pregunta ya exigían **6 días naturales**. A partir de este cierre ambos textos y sus matrices usan la **redacción vigente desde 01/08/2026**. [**ET**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430) y [**LGSS**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724) tienen actualizaciones publicadas en **octubre de 2026**.
+
+> ⚠️ **¡Foco Examen!:** **Alta antes del inicio**, **baja/variación 6 días naturales**. **Afiliación única** y **altas/bajas repetibles**. Para recargos, **10/20 %** depende de haber cumplido las obligaciones de liquidación del **art. 29 LGSS**.

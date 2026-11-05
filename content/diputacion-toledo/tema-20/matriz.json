@@ -1,16 +1,40 @@
 {
   "tema": 20,
   "titulo": "El contrato de trabajo: contenido y régimen jurídico. Modificación, suspensión y extinción.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrincipal": "Real Decreto Legislativo 2/2015, de 23 de octubre",
   "ultimaActualizacionBOEConsultada": "2025-12-04",
   "bloques": [
-    {"id":"T20-B01","contenido":"Concepto, fuentes, capacidad y forma","cubierto":true},
-    {"id":"T20-B02","contenido":"Derechos, deberes, salario y poder de dirección","cubierto":true},
-    {"id":"T20-B03","contenido":"Movilidad funcional y geográfica","cubierto":true},
-    {"id":"T20-B04","contenido":"Modificación sustancial","cubierto":true},
-    {"id":"T20-B05","contenido":"Suspensión","cubierto":true},
-    {"id":"T20-B06","contenido":"Extinción y despidos","cubierto":true}
+    {
+      "id": "T20-B01",
+      "contenido": "Concepto, fuentes, capacidad y forma",
+      "cubierto": true
+    },
+    {
+      "id": "T20-B02",
+      "contenido": "Derechos, deberes, salario y poder de dirección",
+      "cubierto": true
+    },
+    {
+      "id": "T20-B03",
+      "contenido": "Movilidad funcional y geográfica",
+      "cubierto": true
+    },
+    {
+      "id": "T20-B04",
+      "contenido": "Modificación sustancial",
+      "cubierto": true
+    },
+    {
+      "id": "T20-B05",
+      "contenido": "Suspensión",
+      "cubierto": true
+    },
+    {
+      "id": "T20-B06",
+      "contenido": "Extinción y despidos",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "salarioEnEspecie": "máximo 30 %",
@@ -29,13 +53,23 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T20-001 a DIP-T20-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T20-001 a DIP-T20-020",
     "esquemaPreguntasCompatibleWeb": true,
     "plazosYCuantiasEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
     "verificacionIntegridad": "2026-07-19"
+  },
+  "controlBloque20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md",
+    "estatutosOAPGTIntegroVerificados": null,
+    "certificacionIntegral": false,
+    "controlFuncionalNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }

@@ -47,3 +47,15 @@ Cuando se obtenga el texto oficial íntegro del Acuerdo Regulador y de los Estat
 - [LRBRL, artículo 106](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): potestad tributaria y delegación.
 
 **Control de calidad:** enlaces y fichas localizados, pero textos íntegros de Acuerdo, modificaciones y Estatutos vigentes del OAPGT **no consultados aún**; prohibido atribuir cifras y cláusulas particulares como verificadas. **20 preguntas**, solo sobre extremos generales acreditables o sobre el estado de verificación.
+
+## Publicaciones oficiales específicas cotejadas en noviembre de 2026
+
+- [**BOP 246/2023, Acuerdo íntegro**](https://bop.diputoledo.es/webEbop/DocGet?id=23122632%3B0&insert_number=7344&insert_year=2023): arts. 2, 3 y 6.
+- [**BOP 10/2026, actualización de importes 2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=97&insert_year=2026&publication_date=16012026): disposición adicional primera, C1 grados I–IV.
+- [**BOP 34/2026, nocturnidad especial**](https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026): **97,45 €**.
+- [**BOP 284/2011, modificación Estatutos OAPGT**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011): arts. 1, 4, 8 bis, 14 y disposición adicional.
+- **Pendiente únicamente para certificación integral del tema 22:** original y todas las modificaciones que permitan reconstruir los **Estatutos completos vigentes**. No se declaran quórums actuales del Consejo Rector.
+
+[**Informe del bloque C1 20–23**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md). **Cierre parcial de fuente específica; pendiente Estatutos íntegros**, con **20 preguntas, 80 alternativas**. Pruebas de navegador y accesibilidad transversales.
+
+> ⚠️ **¡Foco Examen!:** No confundir normas estatales con las cláusulas especiales de la Diputación ni con excepciones jurídicas.

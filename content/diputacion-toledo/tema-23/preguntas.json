@@ -1,6 +1,6 @@
 {
   "tema": 23,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T23-001",
@@ -14,7 +14,7 @@
       "correcta": 0,
       "justificacion": "El coste de las medidas relativas a la seguridad y salud en el trabajo no puede recaer sobre las personas trabajadoras; corresponde al empresario o, en el ámbito público, a la Administración empleadora.",
       "trampa": "El deber de protección no puede trasladarse económicamente a la persona trabajadora.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#2-derecho-a-la-protección-frente-a-los-riesgos-laborales",
+      "referencia": "PR art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14",
       "respuestaLiteral": "La empresa o Administración empleadora"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 2,
       "justificacion": "La acción preventiva debe anteponer la protección colectiva a la protección individual.",
       "trampa": "Los equipos de protección individual no sustituyen una medida colectiva técnicamente posible.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#1-objeto-y-principios-de-la-prevención",
+      "referencia": "PR art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a15",
       "respuestaLiteral": "La protección colectiva sobre la individual"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 0,
       "justificacion": "La formación preventiva debe ser teórica y práctica, suficiente y adecuada, centrada en el puesto y actualizada cuando sea necesario.",
       "trampa": "No basta con una formación inicial genérica ni exclusivamente teórica.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#5-información-consulta-y-formación",
+      "referencia": "PR art. 19 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a19",
       "respuestaLiteral": "Teórica y práctica, suficiente y adecuada"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 3,
       "justificacion": "La Ley reconoce a la persona trabajadora la posibilidad de interrumpir su actividad y abandonar el lugar de trabajo cuando considere que existe un riesgo grave e inminente para su vida o salud.",
       "trampa": "No se exige autorización judicial previa para proteger la vida o la salud.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#6-emergencias-y-riesgo-grave-e-inminente",
+      "referencia": "PR art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a21",
       "respuestaLiteral": "Interrumpir su actividad y abandonar el lugar"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 2,
       "justificacion": "La autoridad laboral debe ratificar o anular el acuerdo de paralización en el plazo de 24 horas.",
       "trampa": "Es un plazo de horas, no de días hábiles.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#6-emergencias-y-riesgo-grave-e-inminente",
+      "referencia": "PR art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a21",
       "respuestaLiteral": "24 horas"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 2,
       "justificacion": "La vigilancia de la salud requiere, como regla general, el consentimiento de la persona trabajadora, sin perjuicio de las excepciones legalmente previstas.",
       "trampa": "Las excepciones no convierten la vigilancia de la salud en obligatoria con carácter general.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#7-vigilancia-de-la-salud",
+      "referencia": "PR art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a22",
       "respuestaLiteral": "Requiere consentimiento de la persona trabajadora"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 3,
       "justificacion": "La primera medida es adaptar las condiciones o el tiempo de trabajo; después procede, si resulta necesario, el cambio de puesto y, solo en último término, la suspensión.",
       "trampa": "La suspensión es la última medida de la secuencia protectora.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#8-protección-de-personas-especialmente-sensibles",
+      "referencia": "PR art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a26",
       "respuestaLiteral": "Adaptar las condiciones o el tiempo de trabajo"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 2,
       "justificacion": "La normativa prevé, entre otras modalidades, la asunción personal, los trabajadores designados y los servicios de prevención propios, ajenos o mancomunados.",
       "trampa": "No deben confundirse los órganos de participación con las modalidades de organización preventiva.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#10-organización-de-la-actividad-preventiva",
+      "referencia": "RSP art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853#a10",
       "respuestaLiteral": "Servicio de prevención ajeno"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 1,
       "justificacion": "En las empresas de 31 a 49 trabajadores existe un delegado de prevención, elegido por y entre los delegados de personal.",
       "trampa": "En empresas de hasta 30 trabajadores coincide con el delegado de personal; entre 31 y 49 hay uno elegido entre los delegados de personal.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#12-delegados-de-prevención",
+      "referencia": "PR art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35",
       "respuestaLiteral": "1"
     },
     {
@@ -149,7 +149,7 @@
       "correcta": 1,
       "justificacion": "El Comité de Seguridad y Salud se constituye en empresas o centros de trabajo con 50 o más trabajadores.",
       "trampa": "El umbral es 50 trabajadores, no 49 ni 100.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#13-comité-de-seguridad-y-salud",
+      "referencia": "PR art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38",
       "respuestaLiteral": "50 trabajadores"
     },
     {
@@ -164,7 +164,7 @@
       "correcta": 0,
       "justificacion": "El Comité de Seguridad y Salud se reúne trimestralmente y también cuando lo solicite alguna de sus representaciones.",
       "trampa": "La periodicidad ordinaria es trimestral, pero puede reunirse además a petición de cualquiera de sus representaciones.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#13-comité-de-seguridad-y-salud",
+      "referencia": "PR art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38",
       "respuestaLiteral": "Trimestralmente"
     },
     {
@@ -179,7 +179,7 @@
       "correcta": 3,
       "justificacion": "Los datos médicos personales tienen carácter confidencial; el empresario solo recibe las conclusiones sobre aptitud o necesidad de medidas preventivas.",
       "trampa": "El empresario no recibe el historial clínico completo.",
-      "referencia": "content/diputacion-toledo/tema-23/manual.md#7-vigilancia-de-la-salud",
+      "referencia": "PR art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a22",
       "respuestaLiteral": "Tienen carácter confidencial"
     },
     {
@@ -194,7 +194,7 @@
       "correcta": 1,
       "justificacion": "La escala del artículo 35.2 fija **2 delegados** entre **50 y 100 trabajadores**.",
       "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
-      "referencia": "Ley 31/1995, artículo 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "referencia": "PR art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35",
       "respuestaLiteral": "Dos"
     },
     {
@@ -209,7 +209,7 @@
       "correcta": 0,
       "justificacion": "Para plantillas entre **101 y 500** corresponden **3 delegados de prevención**.",
       "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
-      "referencia": "Ley 31/1995, artículo 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "referencia": "PR art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35",
       "respuestaLiteral": "Tres"
     },
     {
@@ -224,7 +224,7 @@
       "correcta": 0,
       "justificacion": "El art. 36.3 LPRL establece 15 días o el tiempo imprescindible cuando se adopten medidas dirigidas a prevenir riesgos inminentes.",
       "trampa": "15 días es la regla general, pero ante riesgo inminente no existe un plazo fijo alternativo de 24 horas.",
-      "referencia": "Ley 31/1995 art. 36.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a36",
+      "referencia": "PR art. 36 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a36",
       "respuestaLiteral": "15 días o el tiempo imprescindible ante riesgos inminentes"
     },
     {
@@ -239,7 +239,7 @@
       "correcta": 1,
       "justificacion": "Es un órgano **paritario y colegiado** de participación destinado a consulta regular y periódica.",
       "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
-      "referencia": "Ley 31/1995, artículo 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "referencia": "PR art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38",
       "respuestaLiteral": "Órgano paritario y colegiado de participación"
     },
     {
@@ -254,7 +254,7 @@
       "correcta": 3,
       "justificacion": "El art. 20 LPRL exige analizar emergencias y adoptar medidas necesarias en primeros auxilios, lucha contra incendios y evacuación.",
       "trampa": "El artículo enumera tres ámbitos y exige designación de personal encargado y comprobación periódica del funcionamiento.",
-      "referencia": "Ley 31/1995 art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a20",
+      "referencia": "PR art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a20",
       "respuestaLiteral": "Primeros auxilios, lucha contra incendios y evacuación"
     },
     {
@@ -269,7 +269,7 @@
       "correcta": 3,
       "justificacion": "El art. 29.2.3.º LPRL exige no poner fuera de funcionamiento y utilizar correctamente los dispositivos de seguridad.",
       "trampa": "Las obligaciones preventivas del trabajador no permiten anular protecciones ni trasladan al empleado el coste legal de la prevención.",
-      "referencia": "Ley 31/1995 art. 29.2.3.º · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a29",
+      "referencia": "PR art. 29 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a29",
       "respuestaLiteral": "No poner fuera de funcionamiento los dispositivos de seguridad existentes"
     },
     {
@@ -284,7 +284,7 @@
       "correcta": 2,
       "justificacion": "La Ley 31/1995 art. 31.2 define el servicio de prevención como conjunto de medios humanos y materiales necesarios para las actividades preventivas, destinado a garantizar protección y asesoramiento.",
       "trampa": "El servicio de prevención es una organización de recursos; no se confunde con los Delegados ni con el Comité de Seguridad y Salud.",
-      "referencia": "Ley 31/1995 art. 31.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a31",
+      "referencia": "PR art. 31 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a31",
       "respuestaLiteral": "El conjunto de medios humanos y materiales necesarios para las actividades preventivas"
     },
     {
@@ -299,7 +299,7 @@
       "correcta": 1,
       "justificacion": "El art. 14.a del RD 39/1997 exige servicio de prevención propio en empresas con más de 500 personas. El apartado b añade el supuesto de 250 a 500 con actividades del anexo I.",
       "trampa": "No confundir el umbral de más de 500 para servicio propio con 50 para Comité de Seguridad y Salud, ni omitir la condición del anexo I para plantillas de 250–500.",
-      "referencia": "RD 39/1997 art. 14.a–b · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853#a14",
+      "referencia": "RSP art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853#a14",
       "respuestaLiteral": "Con más de 500 trabajadores"
     }
   ],
@@ -321,5 +321,14 @@
       "Ley 31/1995 arts. 20,29,31,36",
       "RD 39/1997 art.14"
     ]
+  },
+  "controlBloque20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "estado": "AUDITADO",
+    "pendienteEstatutosOriginales": false,
+    "certificacionIntegral": false,
+    "controlNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }

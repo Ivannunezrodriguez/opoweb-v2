@@ -327,38 +327,66 @@
     {
       "numero": 20,
       "titulo": "El contrato de trabajo: contenido y régimen jurídico. Modificación, suspensión y extinción.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-20/manual.md",
       "fuentes": "content/diputacion-toledo/tema-20/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-20/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-20/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-20/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 21,
       "titulo": "El contrato de trabajo: modalidades. El Régimen General de la Seguridad Social: afiliación, altas y bajas. Cotización y recaudación.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-21/manual.md",
       "fuentes": "content/diputacion-toledo/tema-21/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-21/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-21/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-21/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 22,
       "titulo": "El Acuerdo Regulador de las Condiciones de Trabajo de los Empleados Públicos de la Diputación de Toledo y sus Organismos Autónomos. El Organismo Autónomo Provincial de Gestión Tributaria de Toledo: organización, funcionamiento y competencias. Especial referencia a sus Estatutos.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES",
       "manual": "content/diputacion-toledo/tema-22/manual.md",
       "fuentes": "content/diputacion-toledo/tema-22/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-22/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-22/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-22/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES",
+        "pendiente": "ESTATUTOS_OAPGT_1996_Y_MODIFICACIONES_VIGENTES",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 23,
       "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-23/manual.md",
       "fuentes": "content/diputacion-toledo/tema-23/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-23/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-23/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-23/preguntas.json",
+      "metodo": "GENERACION_DESDE_CERO",
+      "cierreBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 24,
@@ -569,6 +597,11 @@
         17,
         18,
         19
+      ],
+      [
+        20,
+        21,
+        23
       ]
     ],
     "temasAuditados": [
@@ -590,13 +623,17 @@
       16,
       17,
       18,
-      19
+      19,
+      20,
+      21,
+      23
     ],
-    "cuentaPendientesGlobal": 102,
-    "temasConCierreEditorialDemostrado": 19,
+    "temasConCierreEditorialDemostrado": 22,
+    "cuentaPendientesGlobal": 99,
     "ultimoBloquePreguntas": 80,
     "ultimoBloqueAlternativas": 320,
-    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "pendienteDocumentalT22": "ESTATUTOS_OAPGT_COMPLETOS_CONSOLIDADOS",
+    "estado": "AUDITADO_SOLO_20_21_23",
     "cierreFuncionalNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }

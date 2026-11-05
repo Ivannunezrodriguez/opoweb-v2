@@ -1,6 +1,6 @@
 {
   "tema": 21,
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "programaOficial": "El contrato de trabajo: modalidades. El Régimen General de la Seguridad Social: afiliación, altas y bajas. Cotización y recaudación.",
   "fuentesPrincipales": [
     "Real Decreto Legislativo 2/2015, de 23 de octubre",
@@ -10,17 +10,50 @@
     "Real Decreto 1415/2004, de 11 de junio"
   ],
   "cobertura": [
-    {"apartado": "Modalidades del contrato de trabajo", "cubierto": true},
-    {"apartado": "Contrato indefinido y fijo-discontinuo", "cubierto": true},
-    {"apartado": "Contrato temporal por circunstancias de la producción", "cubierto": true},
-    {"apartado": "Contrato temporal de sustitución", "cubierto": true},
-    {"apartado": "Contratos formativos", "cubierto": true},
-    {"apartado": "Régimen General de la Seguridad Social", "cubierto": true},
-    {"apartado": "Afiliación", "cubierto": true},
-    {"apartado": "Altas, bajas y variaciones de datos", "cubierto": true},
-    {"apartado": "Cotización y base de cotización", "cubierto": true},
-    {"apartado": "Recaudación voluntaria y ejecutiva", "cubierto": true},
-    {"apartado": "Recargos y prescripción", "cubierto": true}
+    {
+      "apartado": "Modalidades del contrato de trabajo",
+      "cubierto": true
+    },
+    {
+      "apartado": "Contrato indefinido y fijo-discontinuo",
+      "cubierto": true
+    },
+    {
+      "apartado": "Contrato temporal por circunstancias de la producción",
+      "cubierto": true
+    },
+    {
+      "apartado": "Contrato temporal de sustitución",
+      "cubierto": true
+    },
+    {
+      "apartado": "Contratos formativos",
+      "cubierto": true
+    },
+    {
+      "apartado": "Régimen General de la Seguridad Social",
+      "cubierto": true
+    },
+    {
+      "apartado": "Afiliación",
+      "cubierto": true
+    },
+    {
+      "apartado": "Altas, bajas y variaciones de datos",
+      "cubierto": true
+    },
+    {
+      "apartado": "Cotización y base de cotización",
+      "cubierto": true
+    },
+    {
+      "apartado": "Recaudación voluntaria y ejecutiva",
+      "cubierto": true
+    },
+    {
+      "apartado": "Recargos y prescripción",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "temporalImprevisible": "máximo general 6 meses; convenio sectorial hasta 1 año",
@@ -37,8 +70,8 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T21-001 a DIP-T21-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T21-001 a DIP-T21-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "plazosEnNegrita": true,
@@ -47,5 +80,15 @@
     "focosExamen": true,
     "reutilizacion": false,
     "verificacionIntegridad": "2026-07-19"
+  },
+  "controlBloque20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md",
+    "estatutosOAPGTIntegroVerificados": null,
+    "certificacionIntegral": false,
+    "controlFuncionalNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }

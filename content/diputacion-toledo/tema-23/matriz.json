@@ -1,23 +1,63 @@
 {
   "tema": 23,
   "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales: derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales",
     "Real Decreto 39/1997, de 17 de enero, Reglamento de los Servicios de Prevención"
   ],
   "bloques": [
-    {"id":"T23-B01","nombre":"Objeto y principios preventivos","cubierto":true},
-    {"id":"T23-B02","nombre":"Derecho a protección y obligaciones empresariales","cubierto":true},
-    {"id":"T23-B03","nombre":"Evaluación y planificación","cubierto":true},
-    {"id":"T23-B04","nombre":"Información y formación","cubierto":true},
-    {"id":"T23-B05","nombre":"Emergencias y riesgo grave e inminente","cubierto":true},
-    {"id":"T23-B06","nombre":"Vigilancia de la salud y colectivos sensibles","cubierto":true},
-    {"id":"T23-B07","nombre":"Obligaciones de los trabajadores","cubierto":true},
-    {"id":"T23-B08","nombre":"Servicios de prevención","cubierto":true},
-    {"id":"T23-B09","nombre":"Consulta y participación","cubierto":true},
-    {"id":"T23-B10","nombre":"Delegados de prevención y Comité de Seguridad y Salud","cubierto":true}
+    {
+      "id": "T23-B01",
+      "nombre": "Objeto y principios preventivos",
+      "cubierto": true
+    },
+    {
+      "id": "T23-B02",
+      "nombre": "Derecho a protección y obligaciones empresariales",
+      "cubierto": true
+    },
+    {
+      "id": "T23-B03",
+      "nombre": "Evaluación y planificación",
+      "cubierto": true
+    },
+    {
+      "id": "T23-B04",
+      "nombre": "Información y formación",
+      "cubierto": true
+    },
+    {
+      "id": "T23-B05",
+      "nombre": "Emergencias y riesgo grave e inminente",
+      "cubierto": true
+    },
+    {
+      "id": "T23-B06",
+      "nombre": "Vigilancia de la salud y colectivos sensibles",
+      "cubierto": true
+    },
+    {
+      "id": "T23-B07",
+      "nombre": "Obligaciones de los trabajadores",
+      "cubierto": true
+    },
+    {
+      "id": "T23-B08",
+      "nombre": "Servicios de prevención",
+      "cubierto": true
+    },
+    {
+      "id": "T23-B09",
+      "nombre": "Consulta y participación",
+      "cubierto": true
+    },
+    {
+      "id": "T23-B10",
+      "nombre": "Delegados de prevención y Comité de Seguridad y Salud",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "ratificacionParalizacion": "24 horas",
@@ -31,8 +71,8 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T23-001 a DIP-T23-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T23-001 a DIP-T23-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "plazosMayoríasYÓrganosEnNegrita": true,
@@ -40,5 +80,15 @@
     "focosExamen": true,
     "reutilizacion": false,
     "verificacionIntegridad": "2026-07-19"
+  },
+  "controlBloque20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md",
+    "estatutosOAPGTIntegroVerificados": null,
+    "certificacionIntegral": false,
+    "controlFuncionalNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }

@@ -1,6 +1,6 @@
 # Fuentes oficiales · Tema 23
 
-**Estado editorial:** `GENERACION_DESDE_CERO`
+**Estado editorial:** `AUDITADO_JURIDICO_PEDAGOGICO`
 
 ## Fuente principal
 
@@ -41,3 +41,9 @@ Se cotejó el banco de **20 preguntas** con [Ley 31/1995](https://www.boe.es/bus
 Se actualizaron **las claves, los textos de pregunta efectivos del render (`pregunta`), `trampa`, referencias, explicaciones y la literalidad correcta**. Se conservaron IDs, cuatro opciones y la distribución de **5 respuestas correctas por letra**. El primer intento de edición generó simultáneamente los campos `pregunta` y `enunciado`; se corrigió inmediatamente, eliminando el campo ambiguo, y se incorporó prueba contra esa regresión. **Auditoría jurídica y pedagógica focal, no certificación íntegra del manual.**
 
 > ⚠️ **¡Foco Examen!:** **Comité 50 empleados** ≠ **servicio propio más de 500**, y **15 días** de informe de delegados ≠ **24 horas** de confirmación/anulación de paralización por **autoridad laboral**.
+
+**Contraste de umbrales:** [LPRL https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) última actualización **09/04/2026**, [Reglamento Servicios Prevención https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853), **50 Comité** frente **>500 servicio propio**.
+
+[**Informe del bloque C1 20–23**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md). **Auditoría jurídico-pedagógica cerrada**, con **20 preguntas, 80 alternativas**. Pruebas de navegador y accesibilidad transversales.
+
+> ⚠️ **¡Foco Examen!:** No confundir normas estatales con las cláusulas especiales de la Diputación ni con excepciones jurídicas.

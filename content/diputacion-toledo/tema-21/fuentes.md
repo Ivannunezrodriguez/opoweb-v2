@@ -1,6 +1,6 @@
 # Fuentes oficiales · Tema 21
 
-**Estado editorial:** `GENERACION_DESDE_CERO`
+**Estado editorial:** `AUDITADO_JURIDICO_PEDAGOGICO`
 
 ## Normativa principal
 
@@ -46,3 +46,9 @@
 > ⚠️ **¡Foco Examen!:** Verificar siempre la redacción consolidada que corresponda a la fecha de examen; **afiliación** no equivale a cada **alta**, y el plazo de **6 días naturales** para bajas no sustituye la obligación de tramitar el alta **antes de empezar a trabajar**.
 
 **Estado:** banco de **20 preguntas** y manual actualizado; quedan pendientes auditoría íntegra, revisión del resto de cifras y prueba funcional del sitio.
+
+**Contraste definitivo:** [ET https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430) y [LGSS https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724) actualizados en octubre 2026; [RD 84/1996 https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447](https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447) con baja y variación **6 días naturales** desde **01/08/2026**, no 3; banco corregido.
+
+[**Informe del bloque C1 20–23**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md). **Auditoría jurídico-pedagógica cerrada**, con **20 preguntas, 80 alternativas**. Pruebas de navegador y accesibilidad transversales.
+
+> ⚠️ **¡Foco Examen!:** No confundir normas estatales con las cláusulas especiales de la Diputación ni con excepciones jurídicas.

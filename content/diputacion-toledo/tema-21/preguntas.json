@@ -1,6 +1,6 @@
 {
   "tema": 21,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T21-001",
@@ -14,7 +14,7 @@
       "correcta": 2,
       "justificacion": "El artículo 15 del Estatuto de los Trabajadores establece que el contrato de trabajo se presume concertado por tiempo indefinido.",
       "trampa": "La contratación temporal exige una causa legal concreta y suficientemente precisada; no constituye la regla general.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#1-modalidades-del-contrato-de-trabajo",
+      "referencia": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15",
       "respuestaLiteral": "Por tiempo indefinido"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 0,
       "justificacion": "El contrato fijo-discontinuo es un contrato indefinido cuya prestación se desarrolla de forma discontinua o intermitente.",
       "trampa": "La discontinuidad de la prestación no convierte el vínculo en temporal.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#11-contrato-indefinido-y-fijo-discontinuo",
+      "referencia": "ET art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a16",
       "respuestaLiteral": "Indefinida"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 0,
       "justificacion": "La duración máxima general es de 6 meses, ampliable por convenio colectivo sectorial hasta 1 año.",
       "trampa": "El año no es la duración legal general, sino el máximo que puede establecer un convenio colectivo sectorial.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#12-contrato-temporal-por-circunstancias-de-la-producción",
+      "referencia": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15",
       "respuestaLiteral": "6 meses"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 0,
       "justificacion": "El límite general es de 90 días en el año natural y se refiere al conjunto de la empresa.",
       "trampa": "Los 90 días no corresponden a cada persona trabajadora y, con carácter general, no pueden utilizarse de forma continuada.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#12-contrato-temporal-por-circunstancias-de-la-producción",
+      "referencia": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15",
       "respuestaLiteral": "90 días en el año natural"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 1,
       "justificacion": "Su duración máxima general es de 3 meses, salvo que el convenio colectivo establezca un plazo inferior.",
       "trampa": "Una vez agotado ese máximo no puede celebrarse un nuevo contrato con el mismo objeto.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#13-contrato-temporal-de-sustitución",
+      "referencia": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15",
       "respuestaLiteral": "3 meses"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 1,
       "justificacion": "La duración legal general del contrato de formación en alternancia está comprendida entre 3 meses y 2 años.",
       "trampa": "El contrato formativo para la práctica profesional tiene otra duración: entre 6 meses y 1 año.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#14-contratos-formativos",
+      "referencia": "ET art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a11",
       "respuestaLiteral": "3 meses y 2 años"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 3,
       "justificacion": "La afiliación es obligatoria, única para todo el sistema y vitalicia, sin perjuicio de las sucesivas altas y bajas.",
       "trampa": "Las altas y bajas pueden repetirse; la afiliación se produce una sola vez.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#21-afiliación",
+      "referencia": "LG art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a15",
       "respuestaLiteral": "Única y vitalicia"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 1,
       "justificacion": "La competencia para la afiliación, las altas y las bajas corresponde a la Tesorería General de la Seguridad Social.",
       "trampa": "El INSS gestiona prestaciones, pero no la afiliación ni las altas y bajas.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#21-afiliación",
+      "referencia": "LG art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a16",
       "respuestaLiteral": "La Tesorería General de la Seguridad Social"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 0,
       "justificacion": "La solicitud de alta debe presentarse antes del inicio de la prestación de servicios.",
       "trampa": "El plazo de 3 días naturales corresponde, con carácter general, a la baja y a la variación de datos.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#22-altas-y-bajas",
+      "referencia": "RD art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
       "respuestaLiteral": "Antes del inicio de la prestación de servicios"
     },
     {
@@ -143,14 +143,14 @@
       "opciones": [
         "24 horas",
         "5 días hábiles",
-        "3 días naturales",
+        "6 días naturales",
         "10 días naturales"
       ],
       "correcta": 2,
-      "justificacion": "La baja y la variación de datos deben comunicarse, con carácter general, dentro de los 3 días naturales siguientes.",
-      "trampa": "El plazo se expresa en días naturales, no hábiles.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#22-altas-y-bajas",
-      "respuestaLiteral": "3 días naturales"
+      "justificacion": "**RD 84/1996 art. 32.3.2.º**, modificado con efectos desde **01/08/2026**: comunicar bajas y variaciones en **6 días naturales**, salvo excepción autorizada.",
+      "trampa": "**Baja y variaciones 6 días naturales**, no 3; el **alta** es anterior al inicio.",
+      "referencia": "RD art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447#a32",
+      "respuestaLiteral": "6 días naturales"
     },
     {
       "id": "DIP-T21-011",
@@ -164,7 +164,7 @@
       "correcta": 2,
       "justificacion": "La empresa es responsable de ingresar ante la Tesorería General de la Seguridad Social tanto su aportación como la cuota obrera descontada.",
       "trampa": "La persona trabajadora soporta parte de la cuota, pero no es responsable de su ingreso ante la Tesorería.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#31-sujetos-obligados-y-responsable-del-ingreso",
+      "referencia": "LG art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a142",
       "respuestaLiteral": "La empresa"
     },
     {
@@ -179,132 +179,141 @@
       "correcta": 3,
       "justificacion": "La obligación de pago de cuotas de la Seguridad Social prescribe, con carácter general, a los 4 años.",
       "trampa": "No debe confundirse este plazo con otros plazos tributarios o laborales.",
-      "referencia": "content/diputacion-toledo/tema-21/manual.md#43-vía-ejecutiva-y-prescripción",
+      "referencia": "LG art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a24",
       "respuestaLiteral": "4 años"
     },
     {
       "id": "DIP-T21-013",
-      "pregunta": "¿Qué naturaleza tiene el contrato fijo-discontinuo?",
+      "pregunta": "¿Cómo debe efectuarse el llamamiento del personal fijo-discontinuo conforme al artículo 16.3 ET?",
       "opciones": [
-        "Temporal por circunstancias previsibles",
-        "Formativa y necesariamente de corta duración",
-        "Indefinida, con periodos de actividad intermitentes",
-        "De sustitución"
+        "Solo de palabra",
+        "Solo por edicto judicial",
+        "Por escrito u otro medio que permita dejar constancia de la notificación",
+        "Siempre mediante BOE"
       ],
       "correcta": 2,
-      "justificacion": "El fijo-discontinuo es **indefinido** pese a los periodos de inactividad.",
-      "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "ET art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
-      "respuestaLiteral": "Indefinida, con periodos de actividad intermitentes"
+      "justificacion": "**Art. 16.3 ET**: llamamiento **por escrito u otro medio con constancia**, conforme a convenio o acuerdo de empresa.",
+      "trampa": "El fijo-discontinuo es **indefinido** y su **llamamiento** debe quedar documentado.",
+      "referencia": "ET art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a16",
+      "respuestaLiteral": "Por escrito u otro medio que permita dejar constancia de la notificación"
     },
     {
       "id": "DIP-T21-014",
-      "pregunta": "¿Cuál es el máximo ordinario para cubrir temporalmente un puesto durante un proceso de selección mediante contrato de sustitución?",
+      "pregunta": "¿Cuál es la duración ordinaria del contrato para obtener práctica profesional regulado en el artículo 11 ET?",
       "opciones": [
-        "Seis meses",
-        "Un año",
-        "Quince días",
-        "Tres meses"
+        "Entre uno y tres años",
+        "Exactamente dos años",
+        "De tres a cinco años",
+        "Entre seis meses y un año"
       ],
       "correcta": 3,
-      "justificacion": "El contrato de sustitución para cubrir la vacante durante proceso de selección tiene máximo general de **3 meses**, salvo plazo inferior por convenio.",
-      "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "ET art. 15.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
-      "respuestaLiteral": "Tres meses"
+      "justificacion": "**Art. 11 ET**: práctica profesional **6 meses a 1 año**; la formación en alternancia tiene otra duración.",
+      "trampa": "**Práctica profesional 6 meses–1 año** ≠ **alternancia 3 meses–2 años**.",
+      "referencia": "ET art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a11",
+      "respuestaLiteral": "Entre seis meses y un año"
     },
     {
       "id": "DIP-T21-015",
-      "pregunta": "¿Cuál es el límite general para contratar por circunstancias ocasionales previsibles de producción?",
+      "pregunta": "¿Qué límite anual especial prevé el artículo 15.2 ET para circunstancias previsibles de producción en el sector agrario y agroalimentario?",
       "opciones": [
-        "90 días en el año natural, no utilizables de manera continuada",
-        "120 días continuados",
-        "60 días por persona",
-        "Seis meses consecutivos"
+        "Ciento veinte días en los supuestos legales",
+        "Noventa por cada trabajador",
+        "Doscientos días sin limitación",
+        "Un año continuado"
       ],
       "correcta": 0,
-      "justificacion": "El límite general es **90 días** en el año natural, no utilizables de manera continuada; existen especialidades sectoriales.",
-      "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "ET art. 15.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
-      "respuestaLiteral": "90 días en el año natural, no utilizables de manera continuada"
+      "justificacion": "**Art. 15.2 ET**: régimen especial de **120 días/año** para empresas agrarias y agroalimentarias en supuestos previstos.",
+      "trampa": "**90 días** regla general frente a **120 días** de excepción.",
+      "referencia": "ET art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a15",
+      "respuestaLiteral": "Ciento veinte días en los supuestos legales"
     },
     {
       "id": "DIP-T21-016",
-      "pregunta": "¿Qué carácter tiene la afiliación de una persona a la Seguridad Social?",
+      "pregunta": "¿Cuándo nace la obligación de cotizar al Régimen General, según el artículo 144.1 LGSS?",
       "opciones": [
-        "Distinto para cada empresa",
-        "Renovable mensualmente",
-        "Limitado a cada contrato",
-        "Único y general para todos los regímenes, además de vitalicio"
+        "Después del período de prueba",
+        "Con el primer cobro de nómina",
+        "Tras un año de servicio",
+        "Con el inicio del trabajo, incluido el período de prueba"
       ],
       "correcta": 3,
-      "justificacion": "La afiliación es **única, general y vitalicia**.",
-      "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "LGSS art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
-      "respuestaLiteral": "Único y general para todos los regímenes, además de vitalicio"
+      "justificacion": "**Art. 144.1 LGSS**: la obligación de cotizar nace con el **inicio de la prestación del trabajo**, **incluido período de prueba**.",
+      "trampa": "Se cotiza también **durante el período de prueba**.",
+      "referencia": "LG art. 144 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a144",
+      "respuestaLiteral": "Con el inicio del trabajo, incluido el período de prueba"
     },
     {
       "id": "DIP-T21-017",
-      "pregunta": "¿Qué organismo gestiona afiliación, altas y bajas de trabajadores en Seguridad Social?",
+      "pregunta": "¿Quiénes son sujetos obligados a cotizar en el Régimen General según el artículo 142 LGSS?",
       "opciones": [
-        "Instituto Nacional de Estadística",
-        "Tesorería General de la Seguridad Social",
-        "Servicio Público de Empleo Estatal",
-        "Inspección de Trabajo como órgano registrador"
+        "Solo el empresario en todas las cuotas",
+        "Empresarios y personas trabajadoras, según los conceptos de cotización",
+        "Solo el trabajador",
+        "El INSS exclusivamente"
       ],
       "correcta": 1,
-      "justificacion": "La competencia corresponde a la **TGSS**.",
-      "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "LGSS art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
-      "respuestaLiteral": "Tesorería General de la Seguridad Social"
+      "justificacion": "**Art. 142 LGSS**: cotizan **empresarios y trabajadores**, con conceptos de aportación atribuidos legalmente.",
+      "trampa": "**Ambos obligados** no significa ambos responsables del **ingreso**, que corresponde a la empresa.",
+      "referencia": "LG art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a142",
+      "respuestaLiteral": "Empresarios y personas trabajadoras, según los conceptos de cotización"
     },
     {
       "id": "DIP-T21-018",
-      "pregunta": "¿Cuándo debe solicitarse con carácter ordinario el alta de una persona trabajadora?",
+      "pregunta": "¿La baja comunicada extingue la cotización cuando la persona sigue prestando servicios?",
       "opciones": [
-        "Dentro de los tres días posteriores",
-        "Al cierre del primer mes",
-        "Dentro de los treinta días siguientes",
-        "Antes del inicio de la prestación de servicios"
+        "Sí, inmediatamente",
+        "Solo si lo autoriza el INSS",
+        "Sí, transcurridos tres días",
+        "No, la obligación subsiste mientras continúe trabajando"
       ],
       "correcta": 3,
-      "justificacion": "Las solicitudes de alta deben formularse **antes del comienzo de la prestación de servicios**, con las condiciones reglamentarias.",
-      "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "RD 84/1996 art. 32.3.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447",
-      "respuestaLiteral": "Antes del inicio de la prestación de servicios"
+      "justificacion": "**Art. 144.3 LGSS**: la baja en regla no extingue la obligación de cotizar si continúa la prestación de trabajo.",
+      "trampa": "**Baja comunicada** no elimina cotizaciones si hay **trabajo real**.",
+      "referencia": "LG art. 144 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a144",
+      "respuestaLiteral": "No, la obligación subsiste mientras continúe trabajando"
     },
     {
       "id": "DIP-T21-019",
-      "pregunta": "¿En qué plazo se comunican por regla general las bajas y variaciones de datos?",
+      "pregunta": "Habiendo presentado en plazo la liquidación, ¿qué recargo se aplica si las cuotas se abonan en el primer mes natural tras el vencimiento?",
       "opciones": [
-        "Diez días naturales",
-        "Un mes",
-        "Seis días naturales",
-        "Quince días hábiles"
+        "El veinte por ciento",
+        "El treinta y cinco por ciento",
+        "El diez por ciento",
+        "Ninguno"
       ],
       "correcta": 2,
-      "justificacion": "El artículo 32.3.2.º del RD 84/1996, en la versión consolidada publicada el 30/07/2026, fija **6 días naturales** desde el cese o variación, con las excepciones reglamentarias.",
-      "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "RD 84/1996, art. 32.3.2.º · https://www.boe.es/buscar/act.php?id=BOE-A-1996-4447",
-      "respuestaLiteral": "Seis días naturales"
+      "justificacion": "**Art. 30.1.a LGSS**: **10 %** en primer mes natural tras vencimiento, **20 %** desde el segundo, siempre que se cumplieran las obligaciones de liquidación.",
+      "trampa": "**10 %/20 %** solo en el supuesto de liquidación cumplimentada dentro del plazo.",
+      "referencia": "LG art. 30 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a30",
+      "respuestaLiteral": "El diez por ciento"
     },
     {
       "id": "DIP-T21-020",
-      "pregunta": "¿Cuál es el plazo general de prescripción para exigir el pago de cuotas de Seguridad Social?",
+      "pregunta": "¿Qué efecto tiene un pacto que obliga al trabajador a asumir la cuota de Seguridad Social correspondiente al empresario?",
       "opciones": [
-        "Cinco años",
-        "Cuatro años",
-        "Seis años",
-        "Un año"
+        "Es válido si está firmado",
+        "Es nulo, según el artículo 143 LGSS",
+        "Vale cuando la empresa es pequeña",
+        "No cambia la obligación hasta la jubilación"
       ],
       "correcta": 1,
-      "justificacion": "El plazo general de prescripción es de **4 años**.",
-      "trampa": "Diferenciar naturaleza del contrato, plazo y competencia de TGSS.",
-      "referencia": "LGSS art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724",
-      "respuestaLiteral": "Cuatro años"
+      "justificacion": "**Art. 143 LGSS**: nulo todo pacto que atribuya al trabajador la cuota a cargo del empresario o altere las bases legales.",
+      "trampa": "La empresa **no puede transferir por acuerdo privado** su aportación al empleado.",
+      "referencia": "LG art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11724#a143",
+      "respuestaLiteral": "Es nulo, según el artículo 143 LGSS"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "controlBloque20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "estado": "AUDITADO",
+    "pendienteEstatutosOriginales": false,
+    "certificacionIntegral": false,
+    "controlNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }

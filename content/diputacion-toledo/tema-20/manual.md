@@ -226,3 +226,21 @@ Requisitos generales:
 > ⚠️ **¡Foco Examen!:** **20 días por año / 12 mensualidades** corresponde a varios supuestos tasados (por ejemplo, traslado con extinción o despido objetivo procedente); **33 días por año / 24 mensualidades** es la regla general del **despido improcedente**, con especialidad transitoria cuando existe antigüedad anterior a **12/02/2012**.
 
 **Fuente primaria:** [Estatuto de los Trabajadores, BOE consolidado, última actualización publicada el **21/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430). Banco ampliado a **20 preguntas**. Pendientes auditoría jurídica integral y prueba funcional del sitio antes de cerrar el estado editorial.
+
+## 10. Cotejo de cierre jurídico-pedagógico — **05/11/2026**
+
+La [**redacción vigente del Estatuto de los Trabajadores**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430) incorpora modificaciones publicadas el **21/10/2026** (vigentes, para los preceptos correspondientes, desde el **23/10/2026**). No debe estudiarse usando como última fecha de referencia **04/12/2025**. Las modificaciones laborales de octubre no alteran por sí solas todos los plazos de la tabla anterior; cada supuesto se comprueba por artículo.
+
+| Institución | Plazo o requisito | Norma |
+|---|---|---|
+| Traslado individual | Notificación **30 días** antes | **ET 40.1** |
+| Modificación sustancial individual | Notificación **15 días** antes | **ET 41.3** |
+| Nacimiento y cuidado del menor | Suspensión **19 semanas** por progenitor, **32 semanas** monoparental, con distribución legal | **ET 48.4** |
+| Dimisión | Preaviso del **convenio colectivo o costumbre del lugar**, no un plazo universal | **ET 49.1.d** |
+| Acción contra despido | **20 días hábiles** de caducidad, con especialidades de conciliación | **ET 59.3** |
+| Faltas laborales del personal trabajador | **10 días leves**, **20 graves**, **60 muy graves** desde conocimiento empresarial; máximo **6 meses** desde comisión | **ET 60.2** |
+| Opción de readmisión/indemnización en despido improcedente | **5 días** desde notificación de sentencia; especialidad de representantes | **ET 56.1–4** |
+| Extinción por modificaciones sustanciales perjudiciales tasadas | **20 días/año**, máximo **9 mensualidades** | **ET 41.3** |
+| Despido improcedente | **33 días/año**, máximo **24 mensualidades**, con régimen transitorio | **ET 56** |
+
+> ⚠️ **¡Foco Examen!:** **30 días** traslado ≠ **15 días** modificación sustancial ≠ **20 días hábiles** para impugnar despido. No confundir el **máximo de 9 mensualidades** en la rescisión por modificación sustancial con **12** por traslado.
