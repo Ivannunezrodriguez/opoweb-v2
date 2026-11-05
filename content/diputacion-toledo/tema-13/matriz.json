@@ -1,15 +1,58 @@
 {
   "tema": 13,
   "epigrafeOficial": "El municipio: concepto y elementos. El término municipal. La población: referencia al empadronamiento. Organización municipal. Competencias. El presupuesto de las entidades locales.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "cobertura": [
-    {"apartado": "Concepto y elementos del municipio", "estado": "CUBIERTO", "referencias": ["LBRL arts. 11-12"]},
-    {"apartado": "Término municipal", "estado": "CUBIERTO", "referencias": ["LBRL arts. 12-14"]},
-    {"apartado": "Población y empadronamiento", "estado": "CUBIERTO", "referencias": ["LBRL arts. 15-18", "RD 1690/1986"]},
-    {"apartado": "Organización municipal", "estado": "CUBIERTO", "referencias": ["LBRL arts. 20-23"]},
-    {"apartado": "Competencias", "estado": "CUBIERTO", "referencias": ["LBRL arts. 25-27"]},
-    {"apartado": "Servicios mínimos", "estado": "CUBIERTO", "referencias": ["LBRL art. 26"]},
-    {"apartado": "Presupuesto local", "estado": "CUBIERTO", "referencias": ["TRLRHL arts. 162-171"]}
+    {
+      "apartado": "Concepto y elementos del municipio",
+      "estado": "CUBIERTO",
+      "referencias": [
+        "LBRL arts. 11-12"
+      ]
+    },
+    {
+      "apartado": "Término municipal",
+      "estado": "CUBIERTO",
+      "referencias": [
+        "LBRL arts. 12-14"
+      ]
+    },
+    {
+      "apartado": "Población y empadronamiento",
+      "estado": "CUBIERTO",
+      "referencias": [
+        "LBRL arts. 15-18",
+        "RD 1690/1986"
+      ]
+    },
+    {
+      "apartado": "Organización municipal",
+      "estado": "CUBIERTO",
+      "referencias": [
+        "LBRL arts. 20-23"
+      ]
+    },
+    {
+      "apartado": "Competencias",
+      "estado": "CUBIERTO",
+      "referencias": [
+        "LBRL arts. 25-27"
+      ]
+    },
+    {
+      "apartado": "Servicios mínimos",
+      "estado": "CUBIERTO",
+      "referencias": [
+        "LBRL art. 26"
+      ]
+    },
+    {
+      "apartado": "Presupuesto local",
+      "estado": "CUBIERTO",
+      "referencias": [
+        "TRLRHL arts. 162-171"
+      ]
+    }
   ],
   "datosTestAuditados": {
     "minimoNuevoMunicipio": "4.000 habitantes",
@@ -24,11 +67,21 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T13-001 a DIP-T13-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T13-001 a DIP-T13-020",
     "focoExamen": true,
     "tablasComparativas": true,
     "reutilizacion": false,
     "verificacionIntegridad": "2026-07-19"
+  },
+  "cierreEditorialC1_12_15_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programa": "Diputación Toledo C1 BOP 118/2026 Anexo VII",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-12-15-2026-11-05.md",
+    "pruebaNavegador": "PENDIENTE_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }

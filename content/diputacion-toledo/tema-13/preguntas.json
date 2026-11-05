@@ -1,6 +1,6 @@
 {
   "tema": 13,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T13-001",
@@ -14,7 +14,7 @@
       "correcta": 1,
       "justificacion": "El artículo 11.2 de la Ley 7/1985 identifica como elementos del municipio el territorio, la población y la organización.",
       "trampa": "Confundir los elementos del municipio con sus órganos o recursos financieros.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#1-el-municipio-concepto-y-elementos",
+      "referencia": "Ley 7/1985 LRBRL, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a11",
       "respuestaLiteral": "Territorio, población y organización"
     },
     {
@@ -28,8 +28,8 @@
       ],
       "correcta": 3,
       "justificacion": "La creación de nuevos municipios exige núcleos territorialmente diferenciados de al menos 4.000 habitantes, además de los restantes requisitos legales.",
-      "trampa": "No confundir este umbral con los 5.000 habitantes relevantes para determinados órganos y servicios municipales.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#2-el-término-municipal",
+      "trampa": "**Art. 13.2**: creación de municipio exige **4.000 habitantes** en núcleo territorialmente diferenciado; también sostenibilidad y suficiencia de recursos.",
+      "referencia": "Ley 7/1985 LRBRL, art. 13 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a13",
       "respuestaLiteral": "4.000 habitantes"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 0,
       "justificacion": "La condición de vecino se adquiere en el mismo momento de la inscripción en el padrón municipal.",
       "trampa": "La vecindad administrativa no exige una antigüedad mínima.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#31-vecindad-administrativa",
+      "referencia": "Ley 7/1985 LRBRL, art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a15",
       "respuestaLiteral": "En el momento de la inscripción en el padrón"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 3,
       "justificacion": "La formación, mantenimiento, revisión y custodia del padrón corresponden al ayuntamiento, sin perjuicio de la coordinación atribuida al Instituto Nacional de Estadística.",
       "trampa": "El Instituto Nacional de Estadística coordina los padrones, pero no sustituye al ayuntamiento como gestor ordinario.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#33-gestión-y-actualización",
+      "referencia": "Ley 7/1985 LRBRL, art. 17 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a17",
       "respuestaLiteral": "Al ayuntamiento"
     },
     {
@@ -73,8 +73,8 @@
       ],
       "correcta": 0,
       "justificacion": "La inscripción de extranjeros no comunitarios sin autorización de residencia de larga duración debe renovarse periódicamente cada 2 años.",
-      "trampa": "La renovación cada 2 años no se aplica a todos los extranjeros inscritos.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#34-renovación-de-inscripciones-de-extranjeros",
+      "trampa": "**Dos años** de renovación solo para extranjeros **no comunitarios sin autorización de larga duración**, no para todos los residentes.",
+      "referencia": "Ley 7/1985 LRBRL, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a16",
       "respuestaLiteral": "Cada 2 años"
     },
     {
@@ -88,8 +88,8 @@
       ],
       "correcta": 2,
       "justificacion": "La Junta de Gobierno Local existe obligatoriamente en los municipios de más de 5.000 habitantes y también en los de menor población cuando lo disponga el reglamento orgánico o lo acuerde el pleno.",
-      "trampa": "No es un órgano obligatorio en absolutamente todos los municipios.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#51-órganos-necesarios",
+      "trampa": "**Más de 5.000** exige Junta de Gobierno Local; con menos puede existir por reglamento orgánico o decisión del **Pleno**.",
+      "referencia": "Ley 7/1985 LRBRL, art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a20",
       "respuestaLiteral": "En los de más de 5.000 habitantes"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 3,
       "justificacion": "El pleno municipal está integrado por todos los concejales y es presidido por el alcalde.",
       "trampa": "No debe confundirse la composición del pleno con la de la Junta de Gobierno Local.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#53-el-pleno",
+      "referencia": "Ley 7/1985 LRBRL, art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a22",
       "respuestaLiteral": "Todos los concejales, presididos por el alcalde"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 2,
       "justificacion": "La Junta de Gobierno Local está integrada por el alcalde y un número de concejales no superior a un tercio del número legal de miembros de la corporación.",
       "trampa": "El límite es un tercio, no la mitad del número legal de miembros.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#54-tenientes-de-alcalde-y-junta-de-gobierno-local",
+      "referencia": "Ley 7/1985 LRBRL, art. 23 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a23",
       "respuestaLiteral": "Un tercio del número legal de miembros"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 1,
       "justificacion": "Los municipios de más de 5.000 habitantes deben prestar, además de los servicios exigidos a todos, parque público, biblioteca pública y tratamiento de residuos.",
       "trampa": "El transporte colectivo urbano corresponde al umbral de más de 50.000 habitantes.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#62-servicios-municipales-obligatorios",
+      "referencia": "Ley 7/1985 LRBRL, art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26",
       "respuestaLiteral": "Biblioteca pública"
     },
     {
@@ -148,8 +148,8 @@
       ],
       "correcta": 1,
       "justificacion": "El presidente de la entidad debe remitir el proyecto de presupuesto al pleno antes del 15 de octubre para su aprobación, enmienda o devolución.",
-      "trampa": "El 31 de diciembre es la fecha límite para la aprobación definitiva, no para la remisión del proyecto.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#73-elaboración-y-aprobación",
+      "trampa": "El **Presidente** remite presupuesto al **Pleno antes del 15 de octubre**; no es el plazo de exposición.",
+      "referencia": "TRLRHL RDL 2/2004, art. 168 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168",
       "respuestaLiteral": "15 de octubre"
     },
     {
@@ -163,8 +163,8 @@
       ],
       "correcta": 0,
       "justificacion": "El presupuesto aprobado inicialmente se expone al público durante 15 días, plazo en el que los interesados pueden examinarlo y presentar reclamaciones.",
-      "trampa": "El plazo de un mes corresponde a la resolución de reclamaciones por el pleno.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#73-elaboración-y-aprobación",
+      "trampa": "**15 días** de exposición del presupuesto; si hay reclamaciones **Pleno** dispone de **un mes** para resolver.",
+      "referencia": "TRLRHL RDL 2/2004, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "15 días"
     },
     {
@@ -179,23 +179,23 @@
       "correcta": 2,
       "justificacion": "Si al comenzar el ejercicio no hubiera entrado en vigor el nuevo presupuesto, se considera automáticamente prorrogado el del ejercicio anterior con los ajustes legalmente exigidos.",
       "trampa": "La prórroga no significa que todos los créditos se mantengan sin modificación.",
-      "referencia": "content/diputacion-toledo/tema-13/manual.md#74-entrada-en-vigor-y-prórroga",
+      "referencia": "TRLRHL RDL 2/2004, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "Se prorroga automáticamente el anterior con los ajustes legales"
     },
     {
       "id": "DIP-T13-013",
-      "pregunta": "¿Qué órgano municipal existe en todos los ayuntamientos según el artículo 20.1.a LRBRL?",
+      "pregunta": "¿Qué materia añadió en octubre de 2026 la letra q) del artículo 25.2 de la Ley 7/1985 a las competencias propias municipales?",
       "opciones": [
-        "La Junta de Gobierno Local",
-        "El Pleno",
-        "La comisión especial de cuentas como único órgano",
-        "La junta de distrito"
+        "La alteración de los límites provinciales",
+        "La promoción de igualdad de oportunidades, no discriminación y accesibilidad universal de personas con discapacidad",
+        "El nombramiento de magistrados del Tribunal Constitucional",
+        "La aprobación de leyes orgánicas"
       ],
       "correcta": 1,
-      "justificacion": "El **Alcalde**, los **Tenientes de Alcalde** y el **Pleno** existen en todos los ayuntamientos.",
-      "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
-      "referencia": "LRBRL art. 20.1.a · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
-      "respuestaLiteral": "El Pleno"
+      "justificacion": "La **Ley 4/2026** añadió al **art. 25.2.q LRBRL** la promoción de igualdad de oportunidades, no discriminación y accesibilidad universal de personas con discapacidad; publicada **03/10/2026** y vigente **23/10/2026**.",
+      "trampa": "La **Ley 4/2026** añadió al **art. 25.2.q** las competencias sobre accesibilidad universal y discapacidad, vigente desde **23/10/2026**.",
+      "referencia": "Ley 7/1985 LRBRL, art. 25 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a25",
+      "respuestaLiteral": "La promoción de igualdad de oportunidades, no discriminación y accesibilidad universal de personas con discapacidad"
     },
     {
       "id": "DIP-T13-014",
@@ -209,7 +209,7 @@
       "correcta": 3,
       "justificacion": "El artículo **26.1.c LRBRL** incluye **protección civil**, prevención y extinción de incendios e instalaciones deportivas de uso público.",
       "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
-      "referencia": "LRBRL art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "referencia": "Ley 7/1985 LRBRL, art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26",
       "respuestaLiteral": "Protección civil"
     },
     {
@@ -224,7 +224,7 @@
       "correcta": 1,
       "justificacion": "El **artículo 26.1.d LRBRL** añade **transporte colectivo urbano de viajeros** y **medio ambiente urbano**.",
       "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
-      "referencia": "LRBRL art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "referencia": "Ley 7/1985 LRBRL, art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a26",
       "respuestaLiteral": "Transporte colectivo urbano de viajeros y medio ambiente urbano"
     },
     {
@@ -239,7 +239,7 @@
       "correcta": 0,
       "justificacion": "El **Pleno** aprueba el presupuesto general mediante acuerdo único, sin aprobar separadamente cada presupuesto integrado.",
       "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
-      "referencia": "TRLRHL art. 168.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "referencia": "TRLRHL RDL 2/2004, art. 168 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a168",
       "respuestaLiteral": "El Pleno de la corporación"
     },
     {
@@ -254,7 +254,7 @@
       "correcta": 3,
       "justificacion": "El **artículo 169.1 TRLRHL** establece la aprobación definitiva si no se presentan reclamaciones.",
       "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
-      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "referencia": "TRLRHL RDL 2/2004, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "Se considera definitivamente aprobado"
     },
     {
@@ -269,7 +269,7 @@
       "correcta": 0,
       "justificacion": "Cuando hay reclamaciones, el **Pleno** dispone de **un mes** para resolverlas.",
       "trampa": "Diferenciar órgano competente, umbral poblacional y plazos presupuestarios.",
-      "referencia": "TRLRHL art. 169.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "referencia": "TRLRHL RDL 2/2004, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "El Pleno dispone de un mes para resolverlas"
     },
     {
@@ -284,7 +284,7 @@
       "correcta": 2,
       "justificacion": "El **artículo 169.5 TRLRHL** condiciona la entrada en vigor a su **publicación** en la forma legalmente prevista.",
       "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
-      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "referencia": "TRLRHL RDL 2/2004, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "En el ejercicio correspondiente una vez publicado en la forma prevista legalmente"
     },
     {
@@ -298,13 +298,23 @@
       ],
       "correcta": 2,
       "justificacion": "El **artículo 169.6 TRLRHL** excluye de la prórroga los créditos para programas concluidos y los financiados con ingresos específicos o afectados.",
-      "trampa": "No confundir los umbrales poblacionales ni aprobación definitiva, publicación y prórroga presupuestaria.",
-      "referencia": "TRLRHL art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "trampa": "Prórroga automática no incorpora créditos de actuaciones finalizadas ni financiadas con ingresos específicos o afectados.",
+      "referencia": "TRLRHL RDL 2/2004, art. 169 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a169",
       "respuestaLiteral": "Los créditos de servicios o programas que debían terminar el ejercicio anterior o financiados con ingresos específicos o afectados"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_12_15_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "fuentesOficiales": true,
+    "reabrirSoloPorReformaOError": true,
+    "pruebasNavegador": "PENDIENTE_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }

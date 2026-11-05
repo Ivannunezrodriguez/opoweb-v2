@@ -231,3 +231,19 @@ OTRAS ENTIDADES LOCALES
 > ⚠️ **¡Foco Examen!:** Los **nuevos entes inframunicipales** carecen de personalidad jurídica; no extrapoles esta regla automáticamente a entidades preexistentes, sujetas a régimen transitorio.
 
 Fuente: [Ley 7/1985, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), actualización publicada el **03/10/2026**. Revisión **focalizada**, pendiente auditoría integral y pruebas funcionales.
+
+## Cierre jurídico-pedagógico · Bloque C1 12–15 · **05/11/2026**
+
+### Otras entidades locales: personalidad jurídica, creación y mayorías
+
+| Entidad | Creación / procedimiento | Personalidad jurídica |
+|---|---|---|
+| **Mancomunidad** | **Asamblea de concejales** promotores elabora estatutos; **Diputación/es** informan; aprueban **Plenos de todos los ayuntamientos** (**LRBRL 44.3**) | **Sí**, para sus fines específicos (**44.2**); interautonómica solo si permiten ambas normativas (**44.5**) |
+| **Comarca** | **Ley autonómica**; oposición expresa de **2/5 municipios** que representen **al menos la mitad del censo electoral** impide crearla; si abarca más de una provincia, informes favorables de **Diputaciones** (**42.2**) | Entidad local conforme al régimen autonómico |
+| **Área metropolitana** | **Ley autonómica**, audiencia previa de **Administración del Estado, ayuntamientos y diputaciones afectados** (**43**) | Entidad local de aglomeración urbana |
+| **Nuevo ente inframunicipal (24 bis)** | Iniciativa de **población o Ayuntamiento**, oído siempre este último; ha de ser opción **más eficiente** | **No**, gestión desconcentrada del municipio matriz |
+| **Entidad inframunicipal preexistente a Ley 27/2013** | Régimen de la **disposición transitoria 4.ª Ley 27/2013** | Puede **mantener personalidad** si cumple condiciones del régimen transitorio: no extrapolar sin matices el 24 bis |
+
+Las particularidades de [**Ley 3/1991, de Castilla-La Mancha**](https://www.boe.es/buscar/act.php?id=BOE-A-1991-10111) deben interpretarse conforme a la legislación básica posterior.
+
+> ⚠️ **¡Foco Examen!:** **Mancomunidad sí tiene personalidad**; **nuevo ente 24 bis no**; históricos pueden conservarla. Para impedir comarca deben concurrir **2/5 municipios** **Y** **mitad del censo**, no una condición aislada.

@@ -292,3 +292,20 @@ MUNICIPIO
 > ⚠️ **¡Foco Examen!:** La **aprobación definitiva** del presupuesto y su **entrada en vigor** no son equivalentes: la entrada en vigor exige la **publicación** legalmente prevista. La prórroga presupuestaria no comprende todos los créditos sin excepción.
 
 Fuentes: [LRBRL, art. 26](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) y [TRLRHL, art. 169](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214). Auditoría **focalizada**, pendiente revisión integral y pruebas funcionales.
+
+## Cierre jurídico-pedagógico · Bloque C1 12–15 · **05/11/2026**
+
+### Competencias municipales actualizadas y presupuesto
+
+La reforma [**Ley 4/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528), publicada el **03/10/2026** y vigente desde el **23/10/2026**, añadió al **art. 25.2.q LRBRL** la competencia municipal sobre **promoción de igualdad de oportunidades, no discriminación y accesibilidad universal de las personas con discapacidad**. La letra **p)** sobre comunidades energéticas también se añadió en **2026**, en marzo. Estas letras no figuraban en todos los resúmenes anteriores.
+
+| Hecho | Norma | Regla |
+|---|---|---|
+| Nuevo municipio | **LRBRL 13.2** | Núcleos diferenciados de al menos **4.000 habitantes** y sostenibilidad, recursos y calidad de servicios |
+| Junta de Gobierno Local | **LRBRL 20.1.b** | Obligatoria si **más de 5.000 habitantes**; en menores si reglamento orgánico o **Pleno** lo disponen |
+| Servicios mínimos | **LRBRL 26.1** | Acumulativos: todos; **más de 5.000**, **más de 20.000** y **más de 50.000 habitantes** |
+| Remisión del proyecto presupuestario al Pleno | **TRLRHL 168.4** | **Presidente**, **antes del 15 de octubre** |
+| Información pública del presupuesto | **TRLRHL 169.1** | **15 días** de reclamaciones, y **Pleno** dispone de **un mes** para resolverlas |
+| Prórroga del presupuesto | **TRLRHL 169.6** | Prórroga automática condicionada y exclusión de créditos que finalizan o financiados con ingresos específicos/afectados |
+
+> ⚠️ **¡Foco Examen!:** Competencias **art. 25** no equivalen a **servicios mínimos art. 26**. **15 de octubre** es remisión del presupuesto al **Pleno**; **15 días** es exposición pública. La **nueva letra 25.2.q de 2026** introduce accesibilidad y discapacidad.

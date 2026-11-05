@@ -290,3 +290,20 @@ RÉGIMEN LOCAL
 > ⚠️ **¡Foco Examen!:** La duración mínima de **5 años** corresponde a las delegaciones **en municipios** reguladas en el artículo **27.1**; no debe extenderse sin más a cualquier forma de cooperación local.
 
 Fuente: [Ley 7/1985 consolidada en el BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392). Auditoría **parcial**, no revisión jurídica integral.
+
+## Cierre jurídico-pedagógico · Bloque C1 12–15 · **05/11/2026**
+
+### Ámbito, autonomía y competencias, LRBRL vigente en **noviembre de 2026**
+
+| Institución | Precepto | Regla exacta |
+|---|---|---|
+| Organización territorial del Estado | **CE 137** | **Municipios, provincias y comunidades autónomas** |
+| Entidades locales territoriales | **LRBRL 3.1** | **Municipios, provincias e islas** en Baleares y Canarias |
+| Otras entidades locales | **LRBRL 3.2** | **Comarcas, áreas metropolitanas y mancomunidades** |
+| Competencias propias | **LRBRL 7.2** | Se determinan **por ley** y se ejercen bajo propia responsabilidad |
+| Delegación del Estado o comunidad autónoma en municipios | **LRBRL 27.1** | **Mínimo 5 años**, medios, condiciones y memoria económica |
+| Competencias distintas de propias o delegadas | **LRBRL 7.4** | **No duplicidad ni riesgo financiero** y **dos informes previos necesarios y vinculantes**: administración **competente por materia** y administración de **tutela financiera** |
+
+La [**Ley 7/1985**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) presenta actualización del texto consolidado publicada el **03/10/2026**. La autonomía local **no equivale a soberanía** ni habilita a asumir cualquier función al margen de ley.
+
+> ⚠️ **¡Foco Examen!:** Los **5 años** del **art. 27.1** no son una regla universal para delegar en *cualquier* entidad local, sino para la delegación estatal/autonómica **en municipios**. **CE 137** y **LRBRL 3.1** enumeran entidades **distintas**.

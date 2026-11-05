@@ -236,3 +236,25 @@ PROVINCIA
 > ⚠️ **¡Foco Examen!:** El **artículo 207.2 LOREG** distingue la mayoría **absoluta** inicial de la **simple** en segunda votación.
 
 El **artículo 36.1.b de la Ley 7/1985** garantiza los servicios de **secretaría e intervención** en municipios de menos de **1.000 habitantes**.
+
+## Cierre jurídico-pedagógico · Bloque C1 12–15 · **05/11/2026**
+
+### Composición y elección provincial: norma versus dato de Toledo
+
+La [**Diputación Provincial de Toledo**](https://www.diputoledo.es/prensa/nAmpliada/4482) constituyó su corporación de **27 diputados** para **2023–2027**, el **27/07/2023**. Es un dato institucional del mandato, no un cupo fijo de todas las diputaciones.
+
+| Residentes provinciales | Diputados (**LOREG 204.1**) |
+|---|---|
+| Hasta **500.000** | **25** |
+| **500.001–1.000.000** | **27** |
+| **1.000.001–3.500.000** | **31** |
+| Desde **3.500.001** | **51** |
+
+La **Junta Electoral Provincial** distribuye puestos por **partidos judiciales**: **mínimo uno** por partido, ninguno **más de tres quintos** del total (**art. 204.2**). Los diputados provinciales son elegidos **indirectamente**, no mediante votación directa por todos los electores. La **Mesa de Edad** preside la constitución provincial (**207.1**).
+
+| Elección de Presidencia (**LOREG 207.2**) | Mayoría |
+|---|---|
+| **Primera votación** | **Absoluta** |
+| **Segunda votación** | **Simple** |
+
+> ⚠️ **¡Foco Examen!:** **Toledo, 2023–2027: 27 diputados**. **25/27/31/51** depende de residentes. Presidente de Diputación: **absoluta en primera votación**, **simple en segunda**; diputado provincial es cargo de elección **indirecta**.

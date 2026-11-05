@@ -39,3 +39,9 @@
 - Preguntas corregidas: **DIP-T15-009**, **DIP-T15-012** y **DIP-T15-020**.
 
 **Estado:** auditoría parcial de estos preceptos; no implica certificación jurídica integral ni pruebas funcionales.
+
+## Cierre por bloque jurídico-pedagógico — **05/11/2026**
+
+Cotejo del **tema 15**, **20 preguntas y 80 alternativas**, según **BOP Toledo 118/2026 Anexo VII**, con fuentes oficiales por precepto y [**único informe de C1 12–15**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-12-15-2026-11-05.md). La [**LRBRL consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) se actualizó el **03/10/2026**. Estado **AUDITADO jurídico-pedagógico**; las pruebas de navegador, accesibilidad y PWA son controles técnicos transversales. Solo reabrir ante **error demostrado** o **nueva norma**.
+
+> ⚠️ **¡Foco Examen!:** Los **plazos, mayorías, órganos y excepciones** de los artículos citados no son intercambiables.

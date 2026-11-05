@@ -58,3 +58,9 @@ Banco ampliado de **12 a 20 preguntas**. El contenido continúa en auditoría ju
 - LOREG **art. 207**: **Mesa de Edad**, mayoría **absoluta** en primera votación y **simple** en segunda.
 - LRBRL **art. 36.1.b**: garantía de **secretaría e intervención** en municipios de menos de **1.000 habitantes**.
 - Tres preguntas revisadas. Auditoría integral pendiente.
+
+## Cierre por bloque jurídico-pedagógico — **05/11/2026**
+
+Cotejo del **tema 14**, **20 preguntas y 80 alternativas**, según **BOP Toledo 118/2026 Anexo VII**, con fuentes oficiales por precepto y [**único informe de C1 12–15**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-12-15-2026-11-05.md). La [**LRBRL consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) se actualizó el **03/10/2026**. Estado **AUDITADO jurídico-pedagógico**; las pruebas de navegador, accesibilidad y PWA son controles técnicos transversales. Solo reabrir ante **error demostrado** o **nueva norma**.
+
+> ⚠️ **¡Foco Examen!:** Los **plazos, mayorías, órganos y excepciones** de los artículos citados no son intercambiables.

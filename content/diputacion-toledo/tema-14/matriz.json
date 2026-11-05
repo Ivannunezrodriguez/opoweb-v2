@@ -2,7 +2,7 @@
   "tema": 14,
   "convocatoria": "Diputación Provincial de Toledo · Administrativo C1 · 2026",
   "epigrafeOficial": "La provincia. Organización provincial. Competencias. La Diputación Provincial de Toledo: organización, funcionamiento y competencias. El Régimen electoral de las Entidades Locales.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "modo": "GENERACION_DESDE_CERO",
   "fuentesPrincipales": [
     "Constitución Española, arts. 137, 141 y 142",
@@ -11,13 +11,41 @@
     "Portal institucional y de transparencia de la Diputación Provincial de Toledo"
   ],
   "bloques": [
-    {"id":"T14-B01","titulo":"Concepto constitucional y legal de provincia","cubierto":true},
-    {"id":"T14-B02","titulo":"Fines y competencias provinciales","cubierto":true},
-    {"id":"T14-B03","titulo":"Organización provincial","cubierto":true},
-    {"id":"T14-B04","titulo":"Funcionamiento de la Diputación","cubierto":true},
-    {"id":"T14-B05","titulo":"Diputación Provincial de Toledo","cubierto":true},
-    {"id":"T14-B06","titulo":"Régimen electoral municipal","cubierto":true},
-    {"id":"T14-B07","titulo":"Elección de diputados provinciales y Presidencia","cubierto":true}
+    {
+      "id": "T14-B01",
+      "titulo": "Concepto constitucional y legal de provincia",
+      "cubierto": true
+    },
+    {
+      "id": "T14-B02",
+      "titulo": "Fines y competencias provinciales",
+      "cubierto": true
+    },
+    {
+      "id": "T14-B03",
+      "titulo": "Organización provincial",
+      "cubierto": true
+    },
+    {
+      "id": "T14-B04",
+      "titulo": "Funcionamiento de la Diputación",
+      "cubierto": true
+    },
+    {
+      "id": "T14-B05",
+      "titulo": "Diputación Provincial de Toledo",
+      "cubierto": true
+    },
+    {
+      "id": "T14-B06",
+      "titulo": "Régimen electoral municipal",
+      "cubierto": true
+    },
+    {
+      "id": "T14-B07",
+      "titulo": "Elección de diputados provinciales y Presidencia",
+      "cubierto": true
+    }
   ],
   "datosTest": [
     "Alteración de límites provinciales: ley orgánica",
@@ -33,8 +61,8 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T14-001 a DIP-T14-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T14-001 a DIP-T14-020",
     "literalidadJuridica": true,
     "plazosMayoríasOrganosEnNegrita": true,
     "tablasComparativas": true,
@@ -43,5 +71,15 @@
     "contenidoInstitucionalDinamico": true,
     "fechaReferenciaInstitucional": "2026-07-19",
     "verificacionIntegridad": "2026-07-19"
+  },
+  "cierreEditorialC1_12_15_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programa": "Diputación Toledo C1 BOP 118/2026 Anexo VII",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-12-15-2026-11-05.md",
+    "pruebaNavegador": "PENDIENTE_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }

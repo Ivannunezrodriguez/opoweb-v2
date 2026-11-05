@@ -1,6 +1,6 @@
 {
   "tema": 15,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T15-001",
@@ -14,7 +14,7 @@
       "correcta": 1,
       "justificacion": "La mancomunidad nace de la asociación voluntaria de municipios para ejecutar en común obras o servicios de su competencia.",
       "trampa": "No debe confundirse con la comarca o el área metropolitana, cuya creación requiere ley autonómica.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#2-mancomunidades-de-municipios",
+      "referencia": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44",
       "respuestaLiteral": "La asociación voluntaria de municipios para ejecutar obras o servicios comunes"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 2,
       "justificacion": "La mancomunidad tiene fines determinados y no puede asumir la totalidad de las competencias municipales ni vaciar íntegramente las atribuciones de los municipios asociados.",
       "trampa": "La personalidad jurídica propia no convierte a la mancomunidad en un municipio superior.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#21-caracteres",
+      "referencia": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44",
       "respuestaLiteral": "No"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 3,
       "justificacion": "La creación de una comarca requiere una ley de la comunidad autónoma.",
       "trampa": "La iniciativa municipal no sustituye la exigencia de ley autonómica.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#31-creación",
+      "referencia": "Ley 7/1985 LRBRL, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a42",
       "respuestaLiteral": "Una ley de la comunidad autónoma"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 1,
       "justificacion": "Las áreas metropolitanas agrupan municipios de grandes aglomeraciones urbanas cuyos vínculos económicos y sociales hacen necesaria la planificación conjunta y la coordinación de servicios y obras.",
       "trampa": "No debe confundirse con una comarca de base histórica, geográfica o funcional.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#4-áreas-metropolitanas",
+      "referencia": "Ley 7/1985 LRBRL, art. 43 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a43",
       "respuestaLiteral": "Una gran aglomeración urbana con vínculos económicos y sociales intensos"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 3,
       "justificacion": "La ley autonómica de creación exige audiencia previa de la Administración del Estado, los ayuntamientos afectados y las diputaciones provinciales afectadas.",
       "trampa": "La creación corresponde a la comunidad autónoma, pero exige la audiencia de otras administraciones.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#41-creación-y-regulación",
+      "referencia": "Ley 7/1985 LRBRL, art. 43 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a43",
       "respuestaLiteral": "La Administración del Estado, los ayuntamientos y las diputaciones afectadas"
     },
     {
@@ -89,23 +89,23 @@
       "correcta": 2,
       "justificacion": "Los estatutos regulan los municipios integrantes, los fines, los órganos, los recursos y el régimen de incorporación, separación y disolución.",
       "trampa": "No basta un convenio genérico entre municipios.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#22-estatutos",
+      "referencia": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44",
       "respuestaLiteral": "Sus estatutos"
     },
     {
       "id": "DIP-T15-007",
-      "pregunta": "Una entidad de ámbito territorial inferior al municipio se integra:",
+      "pregunta": "¿Dónde se integra territorialmente un ente inframunicipal del artículo 24 bis LRBRL?",
       "opciones": [
         "En una comunidad autónoma sin municipio",
         "En una provincia distinta",
         "En una mancomunidad obligatoriamente",
-        "En el término municipal de otro municipio"
+        "En el término municipal del municipio al que pertenece"
       ],
       "correcta": 3,
-      "justificacion": "La entidad de ámbito territorial inferior al municipio es una organización inframunicipal integrada en el término de un municipio matriz.",
-      "trampa": "No tiene término municipal propio independiente.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#53-diferencia-esencial",
-      "respuestaLiteral": "En el término municipal de otro municipio"
+      "justificacion": "El **art. 24 bis LRBRL** define una organización **desconcentrada** del municipio para administrar núcleos de población separados, no otro municipio independiente.",
+      "trampa": "Los entes del **art. 24 bis** pertenecen a un **municipio matriz** y no son municipios independientes.",
+      "referencia": "Ley 7/1985 LRBRL, art. 24bis · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a24bis",
+      "respuestaLiteral": "En el término municipal del municipio al que pertenece"
     },
     {
       "id": "DIP-T15-008",
@@ -118,8 +118,8 @@
       ],
       "correcta": 0,
       "justificacion": "La EATIM es una figura inframunicipal y no posee la posición constitucional ni el término municipal propio de un municipio.",
-      "trampa": "La gestión de intereses propios no la convierte en municipio.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#5-entidades-de-ámbito-territorial-inferior-al-municipio",
+      "trampa": "**Nuevos** entes del **art. 24 bis** carecen de personalidad, pero existen supuestos **históricos** bajo transitorias.",
+      "referencia": "Ley 7/1985 LRBRL, art. 24bis · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a24bis",
       "respuestaLiteral": "No"
     },
     {
@@ -133,8 +133,8 @@
       ],
       "correcta": 2,
       "justificacion": "El artículo **44.5 LRBRL** lo permite si lo autorizan las **normativas autonómicas afectadas**.",
-      "trampa": "No confundir mancomunidades con entes inframunicipales ni obviar condiciones de la legislación autonómica.",
-      "referencia": "LRBRL art. 44.5 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "trampa": "Mancomunidad con municipios de distintas **comunidades autónomas** solo si ambas **normativas autonómicas** lo permiten.",
+      "referencia": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44",
       "respuestaLiteral": "Sí, si lo permiten las normativas autonómicas afectadas"
     },
     {
@@ -149,7 +149,7 @@
       "correcta": 0,
       "justificacion": "La comarca no puede vaciar por completo las competencias municipales ni privar a los municipios de los servicios mínimos que deben prestar.",
       "trampa": "Entidad supramunicipal no significa sustitución integral del municipio.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#32-contenido-de-la-ley-de-creación",
+      "referencia": "Ley 7/1985 LRBRL, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a42",
       "respuestaLiteral": "La autonomía municipal y los servicios mínimos municipales"
     },
     {
@@ -164,7 +164,7 @@
       "correcta": 1,
       "justificacion": "La Ley 3/1991, de 14 de marzo, regula las entidades locales de Castilla-La Mancha dentro del marco básico estatal.",
       "trampa": "La Ley 7/1985 es la norma básica estatal; la Ley 3/1991 es la norma autonómica de Castilla-La Mancha.",
-      "referencia": "content/diputacion-toledo/tema-15/manual.md#6-ley-31991-de-entidades-locales-de-castilla-la-mancha",
+      "referencia": "Ley 3/1991 Castilla-La Mancha, art. 1 · https://www.boe.es/buscar/act.php?id=BOE-A-1991-10111#a1",
       "respuestaLiteral": "La Ley 3/1991, de 14 de marzo"
     },
     {
@@ -179,7 +179,7 @@
       "correcta": 1,
       "justificacion": "La iniciativa corresponde a la **población interesada o el Ayuntamiento**, que debe ser oído en todo caso.",
       "trampa": "No confundir mancomunidades con entes inframunicipales ni obviar condiciones de la legislación autonómica.",
-      "referencia": "LRBRL art. 24 bis.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "referencia": "Ley 7/1985 LRBRL, art. 24bis · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a24bis",
       "respuestaLiteral": "La población interesada o el Ayuntamiento correspondiente"
     },
     {
@@ -193,8 +193,8 @@
       ],
       "correcta": 0,
       "justificacion": "La elaboración corresponde a los concejales de la totalidad de municipios promotores constituidos en asamblea.",
-      "trampa": "Distinguir mancomunidades, comarcas, áreas metropolitanas y entes inframunicipales.",
-      "referencia": "LRBRL art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "trampa": "**Asamblea de todos los concejales promotores** elabora estatutos; informe Diputación; **Plenos** aprueban.",
+      "referencia": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44",
       "respuestaLiteral": "Los concejales de todos los municipios promotores reunidos en asamblea"
     },
     {
@@ -208,8 +208,8 @@
       ],
       "correcta": 0,
       "justificacion": "Los **Plenos de todos los ayuntamientos** aprueban los estatutos.",
-      "trampa": "Distinguir mancomunidades, comarcas, áreas metropolitanas y entes inframunicipales.",
-      "referencia": "LRBRL art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "trampa": "Aprueban estatutos los **Plenos de todos los ayuntamientos**; Diputación informa, no los aprueba.",
+      "referencia": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44",
       "respuestaLiteral": "Los Plenos de todos los ayuntamientos integrantes"
     },
     {
@@ -223,8 +223,8 @@
       ],
       "correcta": 2,
       "justificacion": "La **Diputación o Diputaciones provinciales interesadas** emiten informe.",
-      "trampa": "Distinguir mancomunidades, comarcas, áreas metropolitanas y entes inframunicipales.",
-      "referencia": "LRBRL art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "trampa": "Informe de **Diputación/es** no es equivalente a aprobación de estatutos, que compete a **Plenos**.",
+      "referencia": "Ley 7/1985 LRBRL, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a44",
       "respuestaLiteral": "Informe de la Diputación o Diputaciones interesadas"
     },
     {
@@ -238,8 +238,8 @@
       ],
       "correcta": 0,
       "justificacion": "La oposición expresa de **2/5 de municipios**, que representen al menos **la mitad del censo**, impide la creación.",
-      "trampa": "Distinguir mancomunidades, comarcas, áreas metropolitanas y entes inframunicipales.",
-      "referencia": "LRBRL art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "trampa": "Se exigen conjuntamente **2/5 municipios** afectados y **al menos la mitad del censo** para impedir comarca.",
+      "referencia": "Ley 7/1985 LRBRL, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a42",
       "respuestaLiteral": "Dos quintas partes de los municipios afectados que representen al menos la mitad del censo electoral"
     },
     {
@@ -253,8 +253,8 @@
       ],
       "correcta": 1,
       "justificacion": "Se requiere **informe favorable** de las **Diputaciones** de las provincias implicadas.",
-      "trampa": "Distinguir mancomunidades, comarcas, áreas metropolitanas y entes inframunicipales.",
-      "referencia": "LRBRL art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "trampa": "Comarca de más de **una provincia** precisa **informe favorable** de las Diputaciones implicadas.",
+      "referencia": "Ley 7/1985 LRBRL, art. 42 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a42",
       "respuestaLiteral": "Informe favorable de las Diputaciones Provinciales correspondientes"
     },
     {
@@ -269,12 +269,12 @@
       "correcta": 3,
       "justificacion": "La **comunidad autónoma** actúa mediante **ley**, con audiencia previa legalmente prevista.",
       "trampa": "Distinguir mancomunidades, comarcas, áreas metropolitanas y entes inframunicipales.",
-      "referencia": "LRBRL art. 43 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "referencia": "Ley 7/1985 LRBRL, art. 43 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a43",
       "respuestaLiteral": "Mediante ley autonómica, previa audiencia de Administración del Estado y entidades locales afectadas"
     },
     {
       "id": "DIP-T15-019",
-      "pregunta": "¿Qué personalidad jurídica atribuye el artículo 24 bis a los nuevos entes inframunicipales?",
+      "pregunta": "Según el art. 24 bis LRBRL, ¿tienen personalidad jurídica los nuevos entes inframunicipales regulados por ese artículo?",
       "opciones": [
         "Siempre personalidad municipal plena",
         "Personalidad provincial",
@@ -282,9 +282,9 @@
         "Carecen de personalidad jurídica"
       ],
       "correcta": 3,
-      "justificacion": "Los entes del artículo **24 bis** carecen de personalidad jurídica y constituyen organización desconcentrada del municipio.",
-      "trampa": "Distinguir mancomunidades, comarcas, áreas metropolitanas y entes inframunicipales.",
-      "referencia": "LRBRL art. 24 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "justificacion": "El **artículo 24 bis LRBRL** establece que los entes **nuevos** carecen de personalidad jurídica, con régimen distinto para los **preexistentes a Ley 27/2013** que la conservan bajo su disposición transitoria cuarta cuando cumplen requisitos.",
+      "trampa": "**Art. 24 bis**: entes nuevos sin personalidad; los históricos pueden conservarla por **DT 4 Ley 27/2013**.",
+      "referencia": "Ley 7/1985 LRBRL, art. 24bis · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a24bis",
       "respuestaLiteral": "Carecen de personalidad jurídica"
     },
     {
@@ -298,13 +298,23 @@
       ],
       "correcta": 2,
       "justificacion": "Solo se crean si resultan una opción **más eficiente** para la administración desconcentrada de núcleos separados.",
-      "trampa": "No confundir mancomunidades con entes inframunicipales ni obviar condiciones de la legislación autonómica.",
-      "referencia": "LRBRL art. 24 bis.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "trampa": "El ente inframunicipal nuevo debe ser opción **más eficiente** para gestionar núcleos separados.",
+      "referencia": "Ley 7/1985 LRBRL, art. 24bis · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a24bis",
       "respuestaLiteral": "Que resulte una opción más eficiente para gestionar núcleos separados"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_12_15_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "fuentesOficiales": true,
+    "reabrirSoloPorReformaOError": true,
+    "pruebasNavegador": "PENDIENTE_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }

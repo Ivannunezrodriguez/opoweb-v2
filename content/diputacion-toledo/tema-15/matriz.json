@@ -1,27 +1,80 @@
 {
   "tema": 15,
   "epigrafeOficial": "Otras Entidades Locales. Mancomunidades. Comarcas. Áreas Metropolitanas. Entidades de ámbito territorial inferior al municipio.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "modo": "GENERACION_DESDE_CERO",
   "fechaRevision": "2026-07-19",
   "bloques": [
-    {"id":"15.1","titulo":"Marco general de otras entidades locales","cubierto":true,"fuentes":["Ley 7/1985, art. 3"]},
-    {"id":"15.2","titulo":"Mancomunidades","cubierto":true,"fuentes":["Ley 7/1985, art. 44"]},
-    {"id":"15.3","titulo":"Comarcas","cubierto":true,"fuentes":["Ley 7/1985, art. 42"]},
-    {"id":"15.4","titulo":"Áreas metropolitanas","cubierto":true,"fuentes":["Ley 7/1985, art. 43"]},
-    {"id":"15.5","titulo":"Entidades de ámbito territorial inferior al municipio","cubierto":true,"fuentes":["Ley 7/1985, art. 24 bis","Ley 27/2013"]},
-    {"id":"15.6","titulo":"Régimen de Castilla-La Mancha","cubierto":true,"fuentes":["Ley 3/1991, de Entidades Locales de Castilla-La Mancha"]}
+    {
+      "id": "15.1",
+      "titulo": "Marco general de otras entidades locales",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 7/1985, art. 3"
+      ]
+    },
+    {
+      "id": "15.2",
+      "titulo": "Mancomunidades",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 7/1985, art. 44"
+      ]
+    },
+    {
+      "id": "15.3",
+      "titulo": "Comarcas",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 7/1985, art. 42"
+      ]
+    },
+    {
+      "id": "15.4",
+      "titulo": "Áreas metropolitanas",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 7/1985, art. 43"
+      ]
+    },
+    {
+      "id": "15.5",
+      "titulo": "Entidades de ámbito territorial inferior al municipio",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 7/1985, art. 24 bis",
+        "Ley 27/2013"
+      ]
+    },
+    {
+      "id": "15.6",
+      "titulo": "Régimen de Castilla-La Mancha",
+      "cubierto": true,
+      "fuentes": [
+        "Ley 3/1991, de Entidades Locales de Castilla-La Mancha"
+      ]
+    }
   ],
   "controlCalidad": {
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T15-001 a DIP-T15-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T15-001 a DIP-T15-020",
     "literalidadJuridicaClave": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
     "verificacionIntegridad": "2026-07-19"
+  },
+  "cierreEditorialC1_12_15_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "programa": "Diputación Toledo C1 BOP 118/2026 Anexo VII",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-12-15-2026-11-05.md",
+    "pruebaNavegador": "PENDIENTE_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }

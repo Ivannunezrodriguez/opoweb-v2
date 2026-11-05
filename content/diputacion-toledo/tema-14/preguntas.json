@@ -1,6 +1,6 @@
 {
   "tema": 14,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T14-001",
@@ -14,7 +14,7 @@
       "correcta": 1,
       "justificacion": "La provincia es una entidad local territorial determinada por la agrupación de municipios, con personalidad jurídica propia y plena capacidad para el cumplimiento de sus fines.",
       "trampa": "No debe confundirse su función como división territorial del Estado con su naturaleza de entidad local.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#1-la-provincia",
+      "referencia": "Constitución Española, art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a141",
       "respuestaLiteral": "Una entidad local determinada por la agrupación de municipios, con personalidad jurídica propia"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 2,
       "justificacion": "El artículo 141.1 de la Constitución exige una ley orgánica para alterar los límites provinciales.",
       "trampa": "No basta una ley ordinaria aunque exista acuerdo de las entidades territoriales afectadas.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#1-la-provincia",
+      "referencia": "Constitución Española, art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a141",
       "respuestaLiteral": "Ley orgánica"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 1,
       "justificacion": "La provincia garantiza los principios de solidaridad y equilibrio intermunicipales y la prestación integral y adecuada de los servicios municipales.",
       "trampa": "La Diputación asiste, coopera y coordina, pero no sustituye con carácter general al municipio.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#2-fines-y-competencias-provinciales",
+      "referencia": "Ley 7/1985 LRBRL, art. 31 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a31",
       "respuestaLiteral": "Garantizar la solidaridad y el equilibrio intermunicipales"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 3,
       "justificacion": "La Ley 7/1985 atribuye a la Diputación la prestación de servicios de administración electrónica y contratación centralizada en municipios con población inferior a 20.000 habitantes.",
       "trampa": "No debe confundirse este umbral con los previstos para otros servicios mínimos municipales.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#2-fines-y-competencias-provinciales",
+      "referencia": "Ley 7/1985 LRBRL, art. 36 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a36",
       "respuestaLiteral": "20.000 habitantes"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 2,
       "justificacion": "La Presidencia, las Vicepresidencias, la Junta de Gobierno y el Pleno son órganos necesarios de todas las Diputaciones.",
       "trampa": "Los órganos complementarios dependen de la normativa aplicable y de la potestad de autoorganización.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#3-organización-provincial",
+      "referencia": "Ley 7/1985 LRBRL, art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a32",
       "respuestaLiteral": "Junta de Gobierno"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 0,
       "justificacion": "La Junta de Gobierno se integra por la Presidencia y un número de diputados no superior a un tercio del número legal de miembros de la corporación.",
       "trampa": "El cálculo se realiza sobre el número legal de miembros, no sobre los asistentes a una sesión.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#33-junta-de-gobierno",
+      "referencia": "Ley 7/1985 LRBRL, art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a35",
       "respuestaLiteral": "Un tercio del número legal"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 2,
       "justificacion": "El Pleno de la Diputación está integrado por la Presidencia y todos los diputados provinciales.",
       "trampa": "La pertenencia al Pleno no depende de las delegaciones atribuidas ni del régimen de dedicación.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#34-pleno",
+      "referencia": "Ley 7/1985 LRBRL, art. 33 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a33",
       "respuestaLiteral": "Presidencia y todos los diputados provinciales"
     },
     {
@@ -117,9 +117,9 @@
         "27"
       ],
       "correcta": 3,
-      "justificacion": "La Corporación Provincial de Toledo constituida para la legislatura 2023-2027 está integrada por 27 diputados provinciales.",
-      "trampa": "El número de diputados provinciales depende de la población de la provincia conforme a la LOREG.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#5-la-diputación-provincial-de-toledo",
+      "justificacion": "La [**Diputación Provincial de Toledo**](https://www.diputoledo.es/prensa/nAmpliada/4482) confirma que se constituyó el **27/07/2023** con **27 diputados** para el mandato **2023–2027**, conforme a la escala del **art. 204 LOREG**.",
+      "trampa": "**27 diputados** en Toledo en **2023–2027**, según constitución oficial **27/07/2023**; otros tramos tienen 25,31,51.",
+      "referencia": "LOREG 5/1985, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672 · https://www.diputoledo.es/prensa/nAmpliada/4482",
       "respuestaLiteral": "27"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 3,
       "justificacion": "La escala legal asigna 27 diputados a las provincias con población comprendida entre 500.001 y 1.000.000 de residentes.",
       "trampa": "El tramo de hasta 500.000 residentes corresponde a 25 diputados.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#63-número-de-diputados-provinciales",
+      "referencia": "LOREG 5/1985, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "27 diputados"
     },
     {
@@ -148,8 +148,8 @@
       ],
       "correcta": 2,
       "justificacion": "La LOREG garantiza al menos un diputado provincial por cada partido judicial.",
-      "trampa": "Esta garantía mínima no elimina el reparto proporcional atendiendo a la población.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#63-número-de-diputados-provinciales",
+      "trampa": "Los **partidos judiciales** tienen al menos **un diputado** y nunca más de **3/5** de la Diputación (**LOREG 204.2**).",
+      "referencia": "LOREG 5/1985, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "Un diputado"
     },
     {
@@ -164,7 +164,7 @@
       "correcta": 1,
       "justificacion": "La elección de los diputados provinciales es indirecta y se realiza entre concejales conforme a los resultados obtenidos por cada formación política en cada partido judicial.",
       "trampa": "La ciudadanía no deposita una papeleta específica para elegir diputados provinciales.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#64-elección-de-diputados-provinciales",
+      "referencia": "LOREG 5/1985, art. 206 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "Indirectamente entre concejales, según los resultados por partido judicial"
     },
     {
@@ -178,8 +178,8 @@
       ],
       "correcta": 1,
       "justificacion": "La Presidencia es elegida por el Pleno entre sus miembros. En primera votación se requiere mayoría absoluta y, en segunda, basta mayoría simple.",
-      "trampa": "La mayoría simple opera únicamente en la segunda votación.",
-      "referencia": "content/diputacion-toledo/tema-14/manual.md#65-elección-de-la-presidencia-de-la-diputación",
+      "trampa": "**Primera votación absoluta**, **segunda simple**, para la Presidencia provincial (**LOREG 207.2**).",
+      "referencia": "LOREG 5/1985, art. 207 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "Mayoría absoluta"
     },
     {
@@ -194,7 +194,7 @@
       "correcta": 1,
       "justificacion": "El mandato de los diputados provinciales se vincula al ciclo electoral municipal, de **4 años**.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 205 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "referencia": "LOREG 5/1985, art. 205 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "Cuatro años"
     },
     {
@@ -209,7 +209,7 @@
       "correcta": 0,
       "justificacion": "La escala legal fija **25 diputados** hasta **500.000 residentes**.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 204.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "referencia": "LOREG 5/1985, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "25"
     },
     {
@@ -224,7 +224,7 @@
       "correcta": 0,
       "justificacion": "La escala atribuye **31 diputados** a provincias de **1.000.001 a 3.500.000 residentes**.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 204.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "referencia": "LOREG 5/1985, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "31"
     },
     {
@@ -239,7 +239,7 @@
       "correcta": 3,
       "justificacion": "La **Junta Electoral Provincial** distribuye los puestos entre partidos judiciales con las reglas de la ley.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LOREG art. 204.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "referencia": "LOREG 5/1985, art. 204 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "La Junta Electoral Provincial"
     },
     {
@@ -253,8 +253,8 @@
       ],
       "correcta": 3,
       "justificacion": "LOREG 207.2: mayoría simple en segunda votación.",
-      "trampa": "Atención al dato legal exacto.",
-      "referencia": "LOREG art. 207",
+      "trampa": "**Segunda votación simple** no debe confundirse con la **absoluta** en primera.",
+      "referencia": "LOREG 5/1985, art. 207 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "Simple"
     },
     {
@@ -268,8 +268,8 @@
       ],
       "correcta": 0,
       "justificacion": "LOREG 207.1: Mesa de Edad.",
-      "trampa": "Atención al dato legal exacto.",
-      "referencia": "LOREG art. 207",
+      "trampa": "La constitución provincial es presidida por **Mesa de Edad**, no por Presidente electo posteriormente.",
+      "referencia": "LOREG 5/1985, art. 207 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
       "respuestaLiteral": "Mesa de Edad"
     },
     {
@@ -284,7 +284,7 @@
       "correcta": 0,
       "justificacion": "Existen en todas las diputaciones **Presidente, vicepresidentes, Junta de Gobierno y Pleno**.",
       "trampa": "No confundir las horquillas de población, el partido judicial ni las mayorías de primera y segunda votación.",
-      "referencia": "LRBRL art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "referencia": "Ley 7/1985 LRBRL, art. 32 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a32",
       "respuestaLiteral": "Presidente, vicepresidentes, Junta de Gobierno y Pleno"
     },
     {
@@ -299,12 +299,22 @@
       "correcta": 2,
       "justificacion": "LRBRL 36.1.b: secretaría e intervención.",
       "trampa": "Atención al dato legal exacto.",
-      "referencia": "LRBRL art. 36.1.b",
+      "referencia": "Ley 7/1985 LRBRL, art. 36 · https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a36",
       "respuestaLiteral": "Secretaría e intervención"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_12_15_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "fuentesOficiales": true,
+    "reabrirSoloPorReformaOError": true,
+    "pruebasNavegador": "PENDIENTE_TRANSVERSAL",
+    "certificacionIntegral": false
   }
 }
