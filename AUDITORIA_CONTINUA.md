@@ -2317,3 +2317,39 @@ Se examinaron **los artículos 5 a 14** contra el texto BOE y se modificaron **1
 **Control técnico:** commit de integración **`91aab61b94c9a3d5bee5f328fe1d06edd6293e0f`**, `Validar OpoWeb v2` **success**, run **42006904368**. GitHub Pages para ese mismo SHA (run **42006904242**) se encontraba **in_progress** al consultarlo; no atribuirle éxito sin verificación posterior.
 
 **Alcance honesto:** es un contraste de las reglas esenciales de los **arts. 5–14 del manual**, no certificación de todo el tema ni de la práctica real en navegador, móvil, PWA y accesibilidad. No se ha modificado el banco, ya cotejado en los §§75–76. **Cobertura global histórica sin aumento por esta revisión: 51/121 bancos de referencia y 0/121 temas certificados integralmente.** Reanudar con **manual T15 arts. 54–80** y revisión transversal de la cobertura **15–24**, posteriormente **T14 certificados/eIDAS**; **T06 OAPGT** sigue bloqueado hasta Estatutos consolidados. Mantener prioridad temporal de exámenes **La Puebla 14/11** y **UC3M 21/11**.
+
+
+## 83. Diputación de Toledo C2 · Tema 15 — cotejo focal AGE artículos 54–80 y corrección material del artículo 75 (05/11/2026)
+
+**Reanudación:** se han leído `PROJECT_RULES.md`, el §82 de este documento, el estado del HEAD y GitHub Actions. Al comenzar, el commit `d0a337531057887f2f8fe02e4ddb64edd1490909` tenía **Validar OpoWeb v2 success** (run **42007093134**) y **Pages success** (run **42007092367**) para el SHA exacto. Fuente jurídica contrastada: [**Ley 40/2015 consolidada, BOE-A-2015-10566**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), última actualización publicada **02/08/2024**. La referencia del programa sigue siendo **BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759**.
+
+### Auditoría documentada y errores corregidos
+
+Se cotejaron con el BOE las **reglas principales** de los **artículos 54–80**, incluido **55 bis**, comprobando epígrafes, jerarquías, órganos competentes, especialidades y excepciones, sin atribuirse revisión literal profunda de cada inciso. Se modificaron **11 pasajes** del manual en dos commits, incluidos **dos errores materiales**:
+
+1. **Artículo 75, asunción de funciones del Subdelegado por la sede:** se retiró la aseveración heredada «En provincias donde radique la sede del Delegado, este puede asumir funciones del Subdelegado», porque **no figura en el art. 75**. La **asunción** por el **Delegado** se produce en **CCAA uniprovinciales sin Subdelegado (art. 74, párrafo 2.º)**. Distinto es el supuesto de **suplencia del Delegado (art. 72.5)**, en el que a falta de Subdelegado expresamente designado actúa el **Subdelegado de la provincia sede**. Se incorporó cuadro diferenciador **72.5 / 74 / 75** y foco de examen.
+2. **Artículo 68.1:** se corrigió «asistencia directa» por la expresión legal **«gestión directa»**, en su caso. Se completó **art. 68.3**, gestión compartida mediante **Real Decreto**, a cargo del departamento organizativo o **organismo autónomo** vinculado/dependiente, o de la **Subsecretaría ministerial** o un **organismo autónomo** ligado a ella, según la modalidad.
+
+**Otros cotejos y precisiones:** **art. 55.8** (órganos directivos de organismos públicos establecidos en **estatutos**) y **55.10** (régimen de **Ministros / Secretarios de Estado** según Ley del Gobierno y Ley 3/2015); **art. 58.2/4** (Subsecretaría y SGT obligatorias vs Secretarías facultativas; dependencia alternativa de Subdirecciones); **art. 72.5** (suplencia por Subdelegado designado, Subdelegado provincial de la sede o Secretario General uniprovincial); **art. 76.1/2** (órgano proponente para estructura, frente a propuesta conjunta en integración/desintegración); **art. 79.1/3** (asistencia exigida a titulares seleccionados y composición de comisiones autonómicas/provinciales).
+
+| Preceptos | Regla test esencial recuperada |
+|---|---|
+| **55** | Órganos directivos de **organismos públicos**, determinados por sus **estatutos** |
+| **58** | **Subsecretaría + Secretaría General Técnica obligatorias**; **Secretarías de Estado/General potestativas** |
+| **68** | **Gestión directa** y modalidades de **gestión compartida por Real Decreto** |
+| **72.5** | **Suplencia del Delegado**, orden especial |
+| **74–75** | **Asunción de competencias del Subdelegado** en comunidad **uniprovincial sin Subdelegado**; **sede** no confiere esa potestad |
+| **76** | **Real Decreto** del Consejo de Ministros; estructura con propuesta de **Ministerio organizativo**, integración con **propuesta conjunta organizativo + sectorial** |
+| **79** | Comisiones de asistencia: **pluriprovincial, uniprovincial y cada Subdelegación**, integrantes y asistencia |
+
+**Evidencias versionadas:** [manual corregido](content/diputacion-toledo-auxiliar-c2/tema-15/manual.md), [informe jurídico de los arts. 54–80](content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-manual-age-54-80-2026-11-05.md), [fuentes](content/diputacion-toledo-auxiliar-c2/tema-15/fuentes.md) y [matriz](content/diputacion-toledo-auxiliar-c2/tema-15/matriz.json). El informe contiene **matriz por artículo** y diferencia **correcciones expresas** de **reglas principales que ya estaban presentes**.
+
+### Verificación y siguiente prioridad
+
+Nueva prueba [`tests/validate-diputacion-c2-t15-age-54-80.mjs`](tests/validate-diputacion-c2-t15-age-54-80.mjs), enlazada a `npm test`: exige presencia de los artículos, proposiciones clave y **afirmación negativa explícita** que impide volver a incorporar el falso efecto de la provincia sede. Verifica enlaces BOE, estado `PENDIENTE_COTEJO_INTEGRAL` y conservación del banco de **20 preguntas / 80 opciones, claves A5/B5/C5/D5**.
+
+**Último commit técnico:** `5f5f6b2e5778999f3cb84c6e9dd18ec11d685e95`. GitHub Actions **Validar OpoWeb v2 success**, run **42009134707**, comprobado para ese SHA. El **despliegue Pages del mismo SHA**, run **42009133596**, estaba en curso en la última comprobación; verificar antes de adjudicar éxito.
+
+**Estado honesto:** banco T15 **20/80 documentado**, **manual EN_AUDITORIA**. Este cotejo **no equivale** a auditar literalmente todas las letras de las competencias ministeriales (**arts. 61–62**) y territoriales (**73–79**), ni comprueba navegador real, móvil, PWA o accesibilidad. Mantener las referencias históricas **51/121 bancos y 0/121 certificaciones integrales** sin recalcularlas por este lote.
+
+**Siguiente tarea activa:** cotejo jurídico pormenorizado de los **arts. 61–62 y 73–79**, incluidas potestades, excepciones y competencias de los órganos; después **T14 certificados electrónicos/eIDAS**. **T06 OAPGT** sigue bloqueado hasta contrastar Estatutos íntegros. Conservar prioridad de exámenes de La Puebla (**14/11/2026**) y UC3M (**21/11/2026**). No reabrir convocatorias descartadas.
