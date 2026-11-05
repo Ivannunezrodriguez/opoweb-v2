@@ -969,13 +969,29 @@ Los **Secretarios de Estado** son **órganos superiores** directamente responsab
 | **b)** | Dirigir, impulsar objetivos y proyectos, controlar cumplimiento, supervisar directivos e impartir instrucciones. | Función de dirección sobre **órganos adscritos**. |
 | **c)** | **Nombrar y separar Subdirectores Generales de la Secretaría de Estado**. | No nombrar automáticamente **Directores Generales**. |
 | **d)** | Mantener relaciones con órganos autonómicos competentes por materia. | Diferente de **convocar Conferencias sectoriales** del **Ministro (61.h)**. |
-| **e)** | Autorizar previamente determinadas **contrataciones de organismos autónomos adscritos** cuando superen la cuantía legal prevista. | La referencia literal del consolidado remite a la **DT 3.ª del RDL 3/2011**; su aplicación actual requiere contrastar la legislación de contratos vigente. **No inventar una cifra**. |
+| **e)** | Autorizar previamente determinadas **contrataciones de organismos autónomos adscritos** por encima de la cuantía aplicable. | La remisión de la **Ley 40/2015** a **DT 3.ª del RDL 3/2011** es histórica. La **Ley 9/2017, art. 324.5**, permite fijar el valor que requiere autorización; su **DT 2.ª** aplica **900.000 € de valor estimado** **hasta que se fije otra cuantía**. |
 | **f)** | Autorizar **comisiones de servicio con indemnización por cuantía exacta** para **altos cargos dependientes de la Secretaría de Estado**. | Contrastar con **Ministro (61.g)** y **Subsecretario (63.1.p)**. |
 | **g)** | Celebrar contratos de su ámbito y convenios no reservados al Ministro. | Sin perjuicio de la autorización preceptiva. |
 | **h)** | Conceder subvenciones y ayudas de sus créditos. | Con los **límites establecidos por el Ministro**. |
 | **i)** | Resolver recursos contra **órganos directivos directamente dependientes** cuando no agoten vía administrativa y resolver conflictos de atribuciones entre ellos. | Exige **dependencia directa** para los recursos del inciso. |
 | **j)** | Administrar créditos y modificar presupuestos, aprobar/comprometer gastos, reconocer obligaciones y proponer su pago. | Dentro de la **cuantía fijada, en su caso, por el Ministro** y respetando lo reservado al **Consejo de Ministros**. |
 | **k)** | Ejercer las demás competencias atribuidas por la legislación en vigor. | Cláusula residual. |
+
+### Contratación de organismos autónomos: legislación vigente de desarrollo (**62.2.e**)
+
+La letra **62.2.e de la Ley 40/2015** conserva una remisión al **Real Decreto Legislativo 3/2011**, derogado por la **Ley 9/2017, de Contratos del Sector Público (LCSP)**. Para no trasladar al examen un umbral antiguo, hay que distinguir:
+
+| Régimen | **Órgano competente** | Cuantía o condición | Fuente |
+|---|---|---|---|
+| Autorización departamental para contratos de entidades estatales que sean **poder adjudicador** y estén adscritas | **Secretario de Estado** o, en su defecto, **titular del departamento ministerial** | Puede **fijar el valor estimado** a partir del cual se exige autorización | **Art. 324.5 LCSP** |
+| Régimen transitorio **hasta que se fije esa cuantía** | El mismo órgano que autoriza según **324.5** | **900.000 € de valor estimado**, calculado conforme al **art. 101 LCSP** | **Disposición transitoria 2.ª LCSP** |
+| Autorización estatal diferenciada en los supuestos del **324.1 LCSP** | **Consejo de Ministros** | En general, **valor estimado igual o superior a 12.000.000 €**, además de otros supuestos tasados (p. ej., ciertos arrendamientos financieros) | **Art. 324.1 LCSP** |
+
+**Las cifras no son intercambiables:** los **900.000 €** constituyen un **umbral transitorio condicionado**, no una cuantía uniforme e invariable para todas las entidades; los **12.000.000 €** corresponden a la **autorización del Consejo de Ministros** en los supuestos del **art. 324.1**, con régimen distinto. Si un **Secretario de Estado o Ministro** competente ha fijado otro umbral al amparo del **324.5**, habrá que aplicar la decisión vigente de ese órgano en su ámbito.
+
+**Fuentes oficiales:** [**Ley 9/2017, art. 324.1 y 324.5**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a324); [**Ley 9/2017, disposición transitoria 2.ª**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#dt-2); [**Ley 40/2015, art. 62.2.e**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a62).
+
+> ⚠️ **¡Foco Examen!:** **900.000 € (DT 2.ª LCSP)** = regla **supletoria hasta fijación de otra cuantía** para autorización departamental (**324.5**); **12.000.000 € (324.1 LCSP)** = supuesto diferenciado de autorización del **Consejo de Ministros**. El valor de referencia es **valor estimado**, no precio final con impuestos. Evita dar una **cuantía numérica** sin identificar **órgano, supuesto y régimen jurídico**.
 
 ### Comparativa de facultades de dirección
 
@@ -990,7 +1006,7 @@ Los **Secretarios de Estado** son **órganos superiores** directamente responsab
 | **Recursos administrativos** | Según competencia, **61.ñ** | Solo contra órganos **directamente dependientes** cuyos actos no agoten vía, **62.2.i** |
 | **Separación del servicio** por falta muy grave | **61.s** | No está en la lista del **62.2** |
 
-> ⚠️ **¡Foco Examen!:** **Art. 62.2.e** contiene una referencia histórica del consolidado al **RDL 3/2011**: no memorizar una cuantía numérica inferida. Lo examinable del precepto es la **autorización previa** a la contratación de **organismos autónomos adscritos** por encima de la cuantía aplicable. Para los **recursos (62.2.i)** los órganos recurridos deben **depender directamente** del Secretario de Estado y no haber agotado la vía administrativa.
+> ⚠️ **¡Foco Examen!:** **Art. 62.2.e** remite a una norma de contratos derogada: estudia la **LCSP 9/2017, art. 324.5 y DT 2.ª**. **900.000 €** es la cuantía **supletoria hasta que la fije el órgano competente**, no el umbral de **12.000.000 €** del **Consejo de Ministros**. Para **recursos (62.2.i)** se exige dependencia **directa** del Secretario de Estado y actos que no agoten vía administrativa.
 
 ## 3. Artículo 63 · Subsecretarios
 
