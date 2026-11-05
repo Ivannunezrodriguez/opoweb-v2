@@ -1,7 +1,7 @@
 {
   "tema": 35,
   "titulo": "LibreOffice 24 I. Elaboración y uso de documentos de texto con LibreOffice 24 Writer.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Ayuda oficial de LibreOffice Writer",
@@ -9,20 +9,60 @@
     "Guía de iniciación LibreOffice 24.8"
   ],
   "bloques": [
-    {"id":"T35-B01","nombre":"Interfaz, creación, apertura y guardado","cubierto":true},
-    {"id":"T35-B02","nombre":"Selección, edición y portapapeles","cubierto":true},
-    {"id":"T35-B03","nombre":"Formato de caracteres y párrafos","cubierto":true},
-    {"id":"T35-B04","nombre":"Estilos, plantillas y páginas","cubierto":true},
-    {"id":"T35-B05","nombre":"Listas y tablas","cubierto":true},
-    {"id":"T35-B06","nombre":"Imágenes, objetos y anclaje","cubierto":true},
-    {"id":"T35-B07","nombre":"Encabezados, pies, campos y numeración","cubierto":true},
-    {"id":"T35-B08","nombre":"Búsqueda, sustitución y revisión","cubierto":true},
-    {"id":"T35-B09","nombre":"Índices y combinación de correspondencia","cubierto":true},
-    {"id":"T35-B10","nombre":"Impresión, exportación y atajos","cubierto":true}
+    {
+      "id": "T35-B01",
+      "nombre": "Interfaz, creación, apertura y guardado",
+      "cubierto": true
+    },
+    {
+      "id": "T35-B02",
+      "nombre": "Selección, edición y portapapeles",
+      "cubierto": true
+    },
+    {
+      "id": "T35-B03",
+      "nombre": "Formato de caracteres y párrafos",
+      "cubierto": true
+    },
+    {
+      "id": "T35-B04",
+      "nombre": "Estilos, plantillas y páginas",
+      "cubierto": true
+    },
+    {
+      "id": "T35-B05",
+      "nombre": "Listas y tablas",
+      "cubierto": true
+    },
+    {
+      "id": "T35-B06",
+      "nombre": "Imágenes, objetos y anclaje",
+      "cubierto": true
+    },
+    {
+      "id": "T35-B07",
+      "nombre": "Encabezados, pies, campos y numeración",
+      "cubierto": true
+    },
+    {
+      "id": "T35-B08",
+      "nombre": "Búsqueda, sustitución y revisión",
+      "cubierto": true
+    },
+    {
+      "id": "T35-B09",
+      "nombre": "Índices y combinación de correspondencia",
+      "cubierto": true
+    },
+    {
+      "id": "T35-B10",
+      "nombre": "Impresión, exportación y atajos",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "formatoNativo": "ODT",
-    "guardar": "Ctrl + S",
+    "guardar": "Ctrl + G (guía oficial 24.8 española; hay variantes de teclado)",
     "guardarComo": "Ctrl + Mayús + S",
     "buscar": "Ctrl + F",
     "reemplazar": "Ctrl + H",
@@ -30,20 +70,58 @@
     "marcasNoImprimibles": "Ctrl + F10",
     "estiloPagina": "controla orientación, márgenes, encabezados y pies",
     "sumarioAutomatico": "se genera a partir de estilos de título",
-    "exportarPDF": "crea un archivo de distribución sin sustituir necesariamente el original editable"
+    "exportarPDF": "crea un archivo de distribución sin sustituir necesariamente el original editable",
+    "formatoNegrita": "Ctrl + N, guía española 24.8",
+    "nuevoDocumento": "Ctrl + U, guía española 24.8",
+    "seleccionarTodo": "Ctrl + E, guía española 24.8"
   },
   "controlCalidad": {
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T35-001 a DIP-T35-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T35-001 a DIP-T35-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "atajosYConceptosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "verificacionIntegridad": "2026-07-19"
-  }
+    "verificacionIntegridad": "2026-11-05",
+    "referenciaAtajos": "Guía oficial de iniciación 24.8 en español, apéndice A"
+  },
+  "cierreEditorialC1_32_35_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-32-35-2026-11-05.md",
+    "certificacionIntegral": false
+  },
+  "trazabilidadIncisos": [
+    {
+      "inciso": "Edición de documentos Writer 24",
+      "fuente": "LibreOffice Guía de iniciación 24.8 española",
+      "seccionDocumental": "Crear, abrir, guardar, seleccionar, formato y atajos de idioma",
+      "manualApartados": "1–6 y 17.1",
+      "preguntasIDs": "DIP-T35 [001–003,007,009,017,020]",
+      "estado": "COTEJADO_2026_11_05"
+    },
+    {
+      "inciso": "Estilos, páginas, tablas y sumarios",
+      "fuente": "LibreOffice Help: Writer, estilos de página",
+      "seccionDocumental": "Estilos, saltos, encabezados, campos, tablas y sumario",
+      "manualApartados": "7–12,15 y 18",
+      "preguntasIDs": "DIP-T35 [004–006,008,012–016,018–019]",
+      "estado": "COTEJADO_2026_11_05"
+    },
+    {
+      "inciso": "Exportación, revisión y combinar correspondencia",
+      "fuente": "LibreOffice Writer Help",
+      "seccionDocumental": "PDF, corrección, correspondencia, índices y buscar/reemplazar",
+      "manualApartados": "13–16",
+      "preguntasIDs": "DIP-T35 [010–011]",
+      "estado": "COTEJADO_2026_11_05"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "tema": 34,
   "titulo": "Microsoft Windows 11 Pro III. Impresión y escaneado de documentos desde Microsoft Windows 11.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Microsoft Support · Agregar o instalar una impresora en Windows",
@@ -9,16 +9,56 @@
     "Microsoft Learn · Impresión y digitalización"
   ],
   "bloques": [
-    {"id":"T34-B01","nombre":"Concepto y elementos del sistema de impresión","cubierto":true},
-    {"id":"T34-B02","nombre":"Instalación y configuración de impresoras","cubierto":true},
-    {"id":"T34-B03","nombre":"Impresora predeterminada y cuadro de impresión","cubierto":true},
-    {"id":"T34-B04","nombre":"Impresión a PDF y cola de impresión","cubierto":true},
-    {"id":"T34-B05","nombre":"Resolución de problemas de impresión","cubierto":true},
-    {"id":"T34-B06","nombre":"Instalación y detección de escáneres","cubierto":true},
-    {"id":"T34-B07","nombre":"Aplicación Escáner de Windows","cubierto":true},
-    {"id":"T34-B08","nombre":"Formatos, resolución, color y fuentes","cubierto":true},
-    {"id":"T34-B09","nombre":"Impresión y escaneado en red","cubierto":true},
-    {"id":"T34-B10","nombre":"Seguridad y protección de datos","cubierto":true}
+    {
+      "id": "T34-B01",
+      "nombre": "Concepto y elementos del sistema de impresión",
+      "cubierto": true
+    },
+    {
+      "id": "T34-B02",
+      "nombre": "Instalación y configuración de impresoras",
+      "cubierto": true
+    },
+    {
+      "id": "T34-B03",
+      "nombre": "Impresora predeterminada y cuadro de impresión",
+      "cubierto": true
+    },
+    {
+      "id": "T34-B04",
+      "nombre": "Impresión a PDF y cola de impresión",
+      "cubierto": true
+    },
+    {
+      "id": "T34-B05",
+      "nombre": "Resolución de problemas de impresión",
+      "cubierto": true
+    },
+    {
+      "id": "T34-B06",
+      "nombre": "Instalación y detección de escáneres",
+      "cubierto": true
+    },
+    {
+      "id": "T34-B07",
+      "nombre": "Aplicación Escáner de Windows",
+      "cubierto": true
+    },
+    {
+      "id": "T34-B08",
+      "nombre": "Formatos, resolución, color y fuentes",
+      "cubierto": true
+    },
+    {
+      "id": "T34-B09",
+      "nombre": "Impresión y escaneado en red",
+      "cubierto": true
+    },
+    {
+      "id": "T34-B10",
+      "nombre": "Seguridad y protección de datos",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "imprimir": "Ctrl + P",
@@ -35,14 +75,48 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T34-001 a DIP-T34-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T34-001 a DIP-T34-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "atajosYConceptosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "verificacionIntegridad": "2026-07-19"
-  }
+    "verificacionIntegridad": "2026-11-05"
+  },
+  "cierreEditorialC1_32_35_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-32-35-2026-11-05.md",
+    "certificacionIntegral": false
+  },
+  "trazabilidadIncisos": [
+    {
+      "inciso": "Impresión desde Windows 11",
+      "fuente": "Microsoft Support: impresoras y cola de impresión",
+      "seccionDocumental": "Agregar, imprimir a PDF, predeterminada, Print Spooler",
+      "manualApartados": "1–7,15 y 18",
+      "preguntasIDs": "DIP-T34 [001–005,011,013,016,020]",
+      "estado": "COTEJADO_2026_11_05"
+    },
+    {
+      "inciso": "Escaneado de documentos",
+      "fuente": "Microsoft Support: instalar y usar un escáner",
+      "seccionDocumental": "Windows Scan, instalación desde Store, carpeta destino, ADF/dúplex",
+      "manualApartados": "8–12 y 18",
+      "preguntasIDs": "DIP-T34 [006–009,014,015,017–019]",
+      "estado": "COTEJADO_2026_11_05"
+    },
+    {
+      "inciso": "Recursos de red y seguridad de impresión",
+      "fuente": "Microsoft Support: impresoras compartidas y red",
+      "seccionDocumental": "Acceso a red, permisos, bandejas y confidencialidad",
+      "manualApartados": "13–14",
+      "preguntasIDs": "DIP-T34 [010,012]",
+      "estado": "COTEJADO_2026_11_05"
+    }
+  ]
 }

@@ -1,6 +1,6 @@
 {
   "tema": 35,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T35-001",
@@ -94,18 +94,18 @@
     },
     {
       "id": "DIP-T35-007",
-      "pregunta": "Para iniciar correctamente una nueva página debe utilizarse preferentemente:",
+      "pregunta": "Según la guía oficial española LibreOffice 24.8 (Windows), ¿qué combinación aplica negrita?",
       "opciones": [
-        "Varios espacios",
-        "Múltiples pulsaciones de Intro",
-        "Un salto de página",
-        "Una tabulación"
+        "Ctrl + G",
+        "Ctrl + S",
+        "Ctrl + N",
+        "Ctrl + U"
       ],
       "correcta": 2,
-      "justificacion": "Un salto de página fuerza de forma estructural el inicio del contenido en una nueva página.",
-      "trampa": "Los retornos de carro repetidos pueden desplazarse al modificar el contenido anterior y no sustituyen a un salto de página.",
-      "referencia": "content/diputacion-toledo/tema-35/manual.md#8-configuración-de-página",
-      "respuestaLiteral": "Un salto de página"
+      "justificacion": "La Guía de iniciación 24.8, Apéndice A, tabla de edición, indica **Ctrl+N** para negrita en Windows/Linux.",
+      "trampa": "Los atajos internacionales de LibreOffice pueden usar **Ctrl+B**; hay que atender a la versión e idioma del enunciado.",
+      "referencia": "LibreOffice 24.8, Guía de iniciación, apéndice A · https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html",
+      "respuestaLiteral": "Ctrl + N"
     },
     {
       "id": "DIP-T35-008",
@@ -244,18 +244,18 @@
     },
     {
       "id": "DIP-T35-017",
-      "pregunta": "¿Qué tipo de estilo controla márgenes, orientación y encabezado en Writer?",
+      "pregunta": "Según la Guía oficial LibreOffice 24.8 en español (Windows), ¿qué atajo guarda el documento?",
       "opciones": [
-        "Estilo de carácter",
-        "Estilo de lista",
-        "Estilo de página",
-        "Estilo de tabla"
+        "Ctrl + S",
+        "Ctrl + N",
+        "Ctrl + G",
+        "Ctrl + U"
       ],
       "correcta": 2,
-      "justificacion": "El **estilo de página** define márgenes, orientación, cabeceras y pies.",
-      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/guide/pagestyles.html",
-      "respuestaLiteral": "Estilo de página"
+      "justificacion": "En el apartado de documentos y ventanas de la Guía 24.8 española, **Ctrl+G** guarda, o abre Guardar como si no existía archivo previo.",
+      "trampa": "No confundir con **Ctrl+S**, asociado a subrayado en esta configuración.",
+      "referencia": "LibreOffice 24.8, Guía de iniciación, apéndice A · https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html",
+      "respuestaLiteral": "Ctrl + G"
     },
     {
       "id": "DIP-T35-018",
@@ -289,22 +289,29 @@
     },
     {
       "id": "DIP-T35-020",
-      "pregunta": "¿Cómo se diferencia un salto de página manual de insertar muchos párrafos vacíos?",
+      "pregunta": "¿Qué combinación selecciona todo el texto y objetos de una sección según la Guía española LibreOffice 24.8?",
       "opciones": [
-        "Ambas opciones mantienen igual la maquetación al editar",
-        "El salto establece un cambio estructural de página estable",
-        "Los párrafos vacíos cambian el estilo siempre",
-        "Los párrafos vacíos no cuentan en el documento"
+        "Ctrl + A",
+        "Ctrl + E",
+        "Ctrl + T",
+        "Ctrl + G"
       ],
       "correcta": 1,
-      "justificacion": "Un salto de página es un recurso estructural y evita depender de múltiples párrafos vacíos.",
-      "trampa": "Distinguir estilos, saltos de página, renglones y numeración.",
-      "referencia": "https://help.libreoffice.org/latest/es/text/swriter/guide/page_break.html",
-      "respuestaLiteral": "El salto establece un cambio estructural de página estable"
+      "justificacion": "El apéndice A de la Guía 24.8 española asigna **Ctrl+E** a selección completa, con variaciones según posición del cursor en una tabla.",
+      "trampa": "En la referencia inglesa suele ser **Ctrl+A**; no confundir con **Ctrl+T** para centrar.",
+      "referencia": "LibreOffice 24.8, Guía de iniciación, apéndice A · https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html",
+      "respuestaLiteral": "Ctrl + E"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_32_35_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 3,
+    "certificacionIntegral": false
   }
 }

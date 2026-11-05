@@ -1,23 +1,63 @@
 {
   "tema": 32,
   "titulo": "Microsoft Windows 11 Pro I. Creación, copiado y borrado de archivos y carpetas. Las unidades de discos locales y de red.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Microsoft Support · Explorador de archivos en Windows",
     "Documentación oficial de Microsoft sobre archivos, carpetas y unidades de red"
   ],
   "bloques": [
-    {"id":"T32-B01","nombre":"Explorador de archivos y estructura de la ventana","cubierto":true},
-    {"id":"T32-B02","nombre":"Archivos, carpetas, nombres y extensiones","cubierto":true},
-    {"id":"T32-B03","nombre":"Creación y selección de elementos","cubierto":true},
-    {"id":"T32-B04","nombre":"Copiado y movimiento","cubierto":true},
-    {"id":"T32-B05","nombre":"Renombrado, borrado y Papelera","cubierto":true},
-    {"id":"T32-B06","nombre":"Rutas y unidades locales","cubierto":true},
-    {"id":"T32-B07","nombre":"Unidades y recursos de red","cubierto":true},
-    {"id":"T32-B08","nombre":"Permisos y acceso","cubierto":true},
-    {"id":"T32-B09","nombre":"Búsqueda, vistas y ordenación","cubierto":true},
-    {"id":"T32-B10","nombre":"Atajos esenciales","cubierto":true}
+    {
+      "id": "T32-B01",
+      "nombre": "Explorador de archivos y estructura de la ventana",
+      "cubierto": true
+    },
+    {
+      "id": "T32-B02",
+      "nombre": "Archivos, carpetas, nombres y extensiones",
+      "cubierto": true
+    },
+    {
+      "id": "T32-B03",
+      "nombre": "Creación y selección de elementos",
+      "cubierto": true
+    },
+    {
+      "id": "T32-B04",
+      "nombre": "Copiado y movimiento",
+      "cubierto": true
+    },
+    {
+      "id": "T32-B05",
+      "nombre": "Renombrado, borrado y Papelera",
+      "cubierto": true
+    },
+    {
+      "id": "T32-B06",
+      "nombre": "Rutas y unidades locales",
+      "cubierto": true
+    },
+    {
+      "id": "T32-B07",
+      "nombre": "Unidades y recursos de red",
+      "cubierto": true
+    },
+    {
+      "id": "T32-B08",
+      "nombre": "Permisos y acceso",
+      "cubierto": true
+    },
+    {
+      "id": "T32-B09",
+      "nombre": "Búsqueda, vistas y ordenación",
+      "cubierto": true
+    },
+    {
+      "id": "T32-B10",
+      "nombre": "Atajos esenciales",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "abrirExplorador": "Windows + E",
@@ -35,14 +75,48 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T32-001 a DIP-T32-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T32-001 a DIP-T32-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "atajosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "verificacionIntegridad": "2026-07-19"
-  }
+    "verificacionIntegridad": "2026-11-05"
+  },
+  "cierreEditorialC1_32_35_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-32-35-2026-11-05.md",
+    "certificacionIntegral": false
+  },
+  "trazabilidadIncisos": [
+    {
+      "inciso": "Explorador, ubicación y carpetas",
+      "fuente": "Microsoft Windows 11: Explorador de archivos",
+      "seccionDocumental": "Apertura, Acceso rápido, nombres, extensiones y rutas",
+      "manualApartados": "1–4 y 17",
+      "preguntasIDs": "DIP-T32 [001,002,007,011,012]",
+      "estado": "COTEJADO_2026_11_05"
+    },
+    {
+      "inciso": "Operaciones de copiado, movimiento y borrado",
+      "fuente": "Microsoft Windows 11: Explorador de archivos y atajos",
+      "seccionDocumental": "Copiar/cortar/pegar, Papelera, eliminación directa",
+      "manualApartados": "5–8 y 14",
+      "preguntasIDs": "DIP-T32 [003–006,013–019]",
+      "estado": "COTEJADO_2026_11_05"
+    },
+    {
+      "inciso": "Unidades locales y de red",
+      "fuente": "Microsoft Support: uso compartido de archivos en red",
+      "seccionDocumental": "UNC, letras, asignar unidad en Este equipo, acceso/permisos",
+      "manualApartados": "9–12 y 17",
+      "preguntasIDs": "DIP-T32 [008–010,020]",
+      "estado": "COTEJADO_2026_11_05"
+    }
+  ]
 }

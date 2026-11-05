@@ -1,7 +1,7 @@
 {
   "tema": 33,
   "titulo": "Microsoft Windows 11 Pro II. Navegación por Internet con Microsoft Edge. Uso del correo electrónico con Micro Focus GroupWise 24 y posteriores.",
-  "estado": "GENERACION_DESDE_CERO",
+  "estado": "AUDITADO",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
   "fuentesPrincipales": [
     "Microsoft Support · Microsoft Edge",
@@ -9,16 +9,56 @@
     "OpenText GroupWise 24 · GroupWise Web User Guide"
   ],
   "bloques": [
-    {"id":"T33-B01","nombre":"Interfaz y navegación básica con Microsoft Edge","cubierto":true},
-    {"id":"T33-B02","nombre":"Pestañas, ventanas y atajos","cubierto":true},
-    {"id":"T33-B03","nombre":"Favoritos, historial y descargas","cubierto":true},
-    {"id":"T33-B04","nombre":"InPrivate, seguridad, permisos y privacidad","cubierto":true},
-    {"id":"T33-B05","nombre":"Búsqueda, impresión y guardado","cubierto":true},
-    {"id":"T33-B06","nombre":"Concepto e interfaz de GroupWise 24","cubierto":true},
-    {"id":"T33-B07","nombre":"Redacción, destinatarios, respuestas y adjuntos","cubierto":true},
-    {"id":"T33-B08","nombre":"Calendario, reuniones, tareas y notas","cubierto":true},
-    {"id":"T33-B09","nombre":"Contactos, carpetas, categorías y reglas","cubierto":true},
-    {"id":"T33-B10","nombre":"Papelera, purga y seguridad del correo","cubierto":true}
+    {
+      "id": "T33-B01",
+      "nombre": "Interfaz y navegación básica con Microsoft Edge",
+      "cubierto": true
+    },
+    {
+      "id": "T33-B02",
+      "nombre": "Pestañas, ventanas y atajos",
+      "cubierto": true
+    },
+    {
+      "id": "T33-B03",
+      "nombre": "Favoritos, historial y descargas",
+      "cubierto": true
+    },
+    {
+      "id": "T33-B04",
+      "nombre": "InPrivate, seguridad, permisos y privacidad",
+      "cubierto": true
+    },
+    {
+      "id": "T33-B05",
+      "nombre": "Búsqueda, impresión y guardado",
+      "cubierto": true
+    },
+    {
+      "id": "T33-B06",
+      "nombre": "Concepto e interfaz de GroupWise 24",
+      "cubierto": true
+    },
+    {
+      "id": "T33-B07",
+      "nombre": "Redacción, destinatarios, respuestas y adjuntos",
+      "cubierto": true
+    },
+    {
+      "id": "T33-B08",
+      "nombre": "Calendario, reuniones, tareas y notas",
+      "cubierto": true
+    },
+    {
+      "id": "T33-B09",
+      "nombre": "Contactos, carpetas, categorías y reglas",
+      "cubierto": true
+    },
+    {
+      "id": "T33-B10",
+      "nombre": "Papelera, purga y seguridad del correo",
+      "cubierto": true
+    }
   ],
   "datosTest": {
     "nuevaPestana": "Ctrl + T",
@@ -37,14 +77,48 @@
     "manualCompleto": true,
     "fuentesCompletas": true,
     "jsonValido": true,
-    "preguntas": 12,
-    "idsPreguntas": "DIP-T33-001 a DIP-T33-012",
+    "preguntas": 20,
+    "idsPreguntas": "DIP-T33-001 a DIP-T33-020",
     "esquemaPreguntasCompatibleWeb": true,
     "trampasYReferenciasEnPreguntas": true,
     "atajosYConceptosEnNegrita": true,
     "tablasComparativas": true,
     "focosExamen": true,
     "reutilizacion": false,
-    "verificacionIntegridad": "2026-07-19"
-  }
+    "verificacionIntegridad": "2026-11-05"
+  },
+  "cierreEditorialC1_32_35_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informe": "content/diputacion-toledo/cierre-editorial-32-35-2026-11-05.md",
+    "certificacionIntegral": false
+  },
+  "trazabilidadIncisos": [
+    {
+      "inciso": "Navegación web en Microsoft Edge",
+      "fuente": "Microsoft Support: métodos abreviados de Edge",
+      "seccionDocumental": "Pestañas, favoritos, historial y descargas",
+      "manualApartados": "1–5,8 y 21",
+      "preguntasIDs": "DIP-T33 [001–005,013,015–017]",
+      "estado": "COTEJADO_2026_11_05"
+    },
+    {
+      "inciso": "Seguridad y privacidad InPrivate",
+      "fuente": "Microsoft Support: InPrivate",
+      "seccionDocumental": "Privacidad local, descargas conservadas, administración de red",
+      "manualApartados": "6–7",
+      "preguntasIDs": "DIP-T33 [006,014]",
+      "estado": "COTEJADO_2026_11_05"
+    },
+    {
+      "inciso": "Cliente de correo GroupWise 24",
+      "fuente": "OpenText/Novell GroupWise 24 Client User Guide",
+      "seccionDocumental": "Para/CC/CCO, respuesta y reenvío, papelera y retracción",
+      "manualApartados": "9–18 y 21",
+      "preguntasIDs": "DIP-T33 [007–012,018–020]",
+      "estado": "COTEJADO_2026_11_05"
+    }
+  ]
 }

@@ -4,7 +4,7 @@
 
 **Microsoft Windows 11 Pro II. Navegación por Internet con Microsoft Edge. Uso del correo electrónico con Micro Focus GroupWise 24 y posteriores.**
 
-**Estado editorial:** `GENERACION_DESDE_CERO`
+**Estado editorial:** `AUDITADO`
 
 ## 1. Microsoft Edge: concepto y elementos básicos
 
@@ -226,6 +226,12 @@ Debe utilizarse **Responder a todos** solo cuando la respuesta sea pertinente pa
 
 > ⚠️ **¡Foco Examen!:** Reenviar crea un nuevo envío a otros destinatarios; no es una respuesta dentro del mismo intercambio.
 
+### 12.1. Responder a todos y destinatarios ocultos
+
+En el **cliente GroupWise 24**, el manual oficial explica que **Responder a todos** incluye al remitente y a los destinatarios visibles del original, pero **no reenvía automáticamente la respuesta a destinatarios en CCO (BC)**. Una respuesta puede incluir el texto original y, según la opción escogida, los adjuntos.
+
+> ⚠️ **¡Foco Examen!:** **CCO/BC** protege la identidad de esos destinatarios respecto del resto; **Responder a todos** no los incorpora automáticamente.
+
 ## 13. Adjuntos
 
 Los archivos pueden añadirse como adjuntos al mensaje. El usuario debe comprobar:
@@ -301,6 +307,20 @@ No debe confundirse:
 | Purgar o vaciar | Elimina definitivamente según configuración |
 
 > ⚠️ **¡Foco Examen!:** Eliminar y purgar no son equivalentes.
+
+### 17.1. Seguimiento y retracción de elementos enviados
+
+El cliente de **GroupWise 24** permite consultar el estado de elementos enviados en **Elementos enviados → Propiedades** si el seguimiento está disponible y habilitado. La función de **retraer** permite retirar un mensaje del buzón de otro destinatario **interno de GroupWise** si **aún no lo ha abierto**. No puede retraerse por esta vía un correo ya **abierto** ni el enviado a **sistemas de correo externos por Internet**. Los correos se pueden **reenviar con correcciones**, distinguiendo tal operación de una mera respuesta.
+
+| Operación | Resultado / requisito |
+|---|---|
+| **Responder** | Remite una contestación al remitente |
+| **Responder a todos** | Añade destinatarios visibles pertinentes, **no CCO** |
+| **Reenviar** | Envía contenido a nuevos destinatarios; no equivale necesariamente a retirar el original |
+| **Retraer** | Puede retirar mensaje **no leído** en buzón interno de GroupWise; **no** mensajes a correo externo |
+| **Eliminar / vaciar** | Actúan sobre los elementos y la Papelera, según modalidad y permisos; **no equivalen** a retraer de buzones ajenos |
+
+> ⚠️ **¡Foco Examen!:** La **retracción** no es un «deshacer envío» universal: si el mensaje ya se abrió o fue enviado a un **sistema externo**, no puede retraerse con esta función.
 
 ## 18. Seguridad en el correo
 
@@ -383,3 +403,5 @@ GROUPWISE 24
 > ⚠️ **¡Foco Examen!:** En **GroupWise 24**, **eliminar** un elemento y **vaciar Papelera** son operaciones diferentes. El vaciado automático puede estar impuesto por la administración corporativa.
 
 **Documentación técnica oficial:** [Microsoft Edge: métodos abreviados](https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge) y [GroupWise 24: vaciar la Papelera](https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/maintaining_trash_emptying.html). Banco ampliado a **20 preguntas**; pendiente revisión editorial integral y prueba funcional de OpoWeb.
+
+**Auditoría editorial por bloque:** **05/11/2026**. [Informe C1 32–35](../cierre-editorial-32-35-2026-11-05.md). Validación técnica de navegador/móvil pendiente, transversal a la web.

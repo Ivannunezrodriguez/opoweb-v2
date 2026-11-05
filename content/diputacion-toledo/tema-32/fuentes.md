@@ -1,6 +1,6 @@
 # Fuentes oficiales · Tema 32
 
-**Estado editorial:** `GENERACION_DESDE_CERO`
+**Estado editorial:** `AUDITADO`
 
 ## Programa oficial
 
@@ -28,3 +28,9 @@
 - Sin reutilización de otros temarios.
 - Los atajos y diferencias operativas susceptibles de examen se resaltan en **negrita**.
 - Verificación técnica realizada en **julio de 2026**.
+## Cotejo por lote 32–35 (**05/11/2026**)
+
+- [Explorador Windows 11](https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows): **Windows + E**, carpetas conocidas y acceso rápido en Windows 11 **22H2 o posterior**.
+- [Microsoft: uso compartido y asignación de unidades de red](https://support.microsoft.com/es-es/windows/experience/connectivity-networking/file-sharing-over-a-network-in-windows): ruta **Este equipo → Más → Asignar unidad de red**, `\\servidor\recurso`, permisos y reconexión.
+- Se corrige la confusión entre nombre visible de carpeta y **ruta física**, y entre unidad lógica y **disco físico**; se sustituye **DIP-T32-020**. Banco de **20 preguntas / 80 alternativas**.
+- [Informe de cierre del bloque](../cierre-editorial-32-35-2026-11-05.md).

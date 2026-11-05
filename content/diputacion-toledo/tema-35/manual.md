@@ -1,4 +1,12 @@
-# Tema 35. LibreOffice 24 I. Elaboración y uso de documentos de texto con LibreOffice Writer
+# Tema 35 · LibreOffice 24 Writer
+
+## Epígrafe oficial
+
+**LibreOffice 24 I. Elaboración y uso de documentos de texto con LibreOffice 24 Writer.**
+
+**Estado editorial:** `AUDITADO`
+
+> ⚠️ **¡Foco Examen!:** En esta convocatoria se pide **LibreOffice 24**, no Microsoft Word. Se toma como referencia específica la **Guía de iniciación LibreOffice 24.8 en español para Windows**; los atajos pueden variar con la configuración o idioma de la instalación.
 
 ## 1. Writer y el documento de texto
 
@@ -27,9 +35,9 @@ La barra de estado informa, entre otros datos, de página, número de palabras, 
 
 | Acción | Atajo |
 |---|---:|
-| Nuevo documento | **Ctrl + N** |
-| Abrir | **Ctrl + O** |
-| Guardar | **Ctrl + S** |
+| Nuevo documento | **Ctrl + U** |
+| Abrir | **Ctrl + A** o **Ctrl + O** |
+| Guardar | **Ctrl + G** |
 | Guardar como | **Ctrl + Mayús + S** |
 | Cerrar documento | **Ctrl + W** |
 | Imprimir | **Ctrl + P** |
@@ -48,7 +56,7 @@ Las operaciones esenciales son:
 - pegar con **Ctrl + V**;
 - deshacer con **Ctrl + Z**;
 - rehacer con **Ctrl + Y**;
-- seleccionar todo con **Ctrl + A**.
+- seleccionar todo con **Ctrl + E** (guía oficial española **24.8**).
 
 Pegar sin formato evita arrastrar estilos ajenos. Puede utilizarse desde Pegado especial.
 
@@ -73,13 +81,31 @@ Atajos frecuentes:
 
 | Formato | Atajo |
 |---|---:|
-| Negrita | **Ctrl + B** |
+| Negrita | **Ctrl + N** |
 | Cursiva | **Ctrl + I** |
-| Subrayado | **Ctrl + U** |
+| Subrayado | **Ctrl + S** |
 
 El formato directo y los estilos no son equivalentes. Los estilos permiten homogeneidad y cambios globales.
 
 > ⚠️ **¡Foco Examen!:** Un estilo modifica de forma coherente todos los elementos que lo usan; el formato directo actúa solo sobre la selección concreta.
+
+### 5.1. Atajos de la interfaz española frente a la internacional
+
+La **Guía oficial de iniciación 24.8 en español** documenta las combinaciones adaptadas al idioma. En otros perfiles y en la **ayuda web «latest»** pueden aparecer combinaciones internacionales. No es seguro memorizar indistintamente ambas tablas como una única configuración.
+
+| Acción | **Referencia LibreOffice 24.8 española (Windows/Linux)** | Otra asignación posible / contexto |
+|---|---|---|
+| Crear nuevo documento | **Ctrl + U** | En disposición internacional suele figurar **Ctrl + N** |
+| Abrir | **Ctrl + A** o **Ctrl + O** | **Ctrl + O** también recogido en guía española |
+| Guardar | **Ctrl + G** | En ayuda internacional aparece **Ctrl + S** |
+| Seleccionar todo | **Ctrl + E** | En ayuda internacional aparece **Ctrl + A** |
+| Negrita | **Ctrl + N** | En internacional **Ctrl + B** |
+| Subrayado | **Ctrl + S** | En internacional **Ctrl + U** |
+| Buscar | **Ctrl + B** | La ayuda en línea y otras configuraciones pueden presentar **Ctrl + F** |
+| Centrar | **Ctrl + T** | En disposición internacional suele aparecer **Ctrl + E** |
+| Guardar como | **Ctrl + Mayús + S** | Combinación documentada en guía **24.8** |
+
+> ⚠️ **¡Foco Examen!:** Para la **Guía española 24.8**, **Ctrl + G guarda** y **Ctrl + S subraya**. **Ctrl + N aplica negrita** y **Ctrl + U crea documento**. Una tabla genérica de atajos en inglés puede invertir varias respuestas de test.
 
 ## 6. Formato de párrafo
 
@@ -96,7 +122,7 @@ Las propiedades de párrafo comprenden:
 | Alineación | Atajo |
 |---|---:|
 | Izquierda | **Ctrl + L** |
-| Centrada | **Ctrl + E** |
+| Centrada | **Ctrl + T** |
 | Derecha | **Ctrl + R** |
 | Justificada | **Ctrl + J** |
 
@@ -187,7 +213,7 @@ Para numeración automática debe insertarse el campo **Número de página**, no
 
 ## 13. Búsqueda y sustitución
 
-- Buscar: **Ctrl + F**.
+- Buscar: **Ctrl + B** según la guía **24.8 en español** (la ayuda más reciente y otras configuraciones también documentan **Ctrl + F**).
 - Buscar y reemplazar: **Ctrl + H**.
 
 La sustitución puede aplicarse individualmente o a todas las coincidencias. También admite opciones como coincidencia de mayúsculas, palabras completas y expresiones regulares.
@@ -238,9 +264,9 @@ Exportar a PDF crea un archivo para distribución; no sustituye necesariamente a
 
 | Acción | Atajo |
 |---|---:|
-| Nuevo | **Ctrl + N** |
-| Abrir | **Ctrl + O** |
-| Guardar | **Ctrl + S** |
+| Nuevo | **Ctrl + U** |
+| Abrir | **Ctrl + A** o **Ctrl + O** |
+| Guardar | **Ctrl + G** |
 | Guardar como | **Ctrl + Mayús + S** |
 | Imprimir | **Ctrl + P** |
 | Copiar | **Ctrl + C** |
@@ -248,15 +274,21 @@ Exportar a PDF crea un archivo para distribución; no sustituye necesariamente a
 | Pegar | **Ctrl + V** |
 | Deshacer | **Ctrl + Z** |
 | Rehacer | **Ctrl + Y** |
-| Buscar | **Ctrl + F** |
+| Buscar | **Ctrl + B** según guía **24.8 en español**; **Ctrl + F** puede aparecer en otras configuraciones |
 | Reemplazar | **Ctrl + H** |
-| Negrita | **Ctrl + B** |
+| Negrita | **Ctrl + N** |
 | Cursiva | **Ctrl + I** |
-| Subrayado | **Ctrl + U** |
+| Subrayado | **Ctrl + S** |
 | Insertar tabla | **Ctrl + F12** |
 | Marcas no imprimibles | **Ctrl + F10** |
 
 > ⚠️ **¡Foco Examen!:** Las trampas más habituales son confundir formato directo con estilos, guardar con exportar, retorno de carro con salto de página y numeración escrita con campo automático.
+
+### 17.1. Control de versión del teclado (fuente 24.8)
+
+La fuente de referencia es la [**Guía oficial de iniciación 24.8, Apéndice A**](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html), publicada en español en **junio de 2025** sobre LibreOffice **24.8**. Los atajos del manual se refieren a esa **guía y distribución para Windows/Linux**; **no** se garantiza que una instalación personalizada reproduzca todas las combinaciones. Para un equipo real, comprobar **Herramientas → Personalizar → Teclado**.
+
+> ⚠️ **¡Foco Examen!:** La **versión del programa**, el **idioma** y la **personalización del teclado** son variables distintas. No atribuir a LibreOffice 24.8 español los atajos genéricos ingleses sin advertirlo.
 
 ## 18. Maquetación avanzada: saltos y estilos de página (revisión **29/10/2026**)
 
@@ -275,3 +307,5 @@ Exportar a PDF crea un archivo para distribución; no sustituye necesariamente a
 > ⚠️ **¡Foco Examen!:** Si un documento requiere una portada sin el mismo encabezado del resto, el estilo **Primera página** puede definir como **estilo siguiente** uno diferente. Un cambio de formato directo del texto no sustituye un estilo de página.
 
 **Fuentes oficiales contrastadas:** [saltos de página](https://help.libreoffice.org/latest/es/text/swriter/guide/page_break.html), [salto manual](https://help.libreoffice.org/latest/es/text/swriter/01/04010000.html), [estilos de página](https://help.libreoffice.org/latest/es/text/swriter/guide/pagestyles.html) y [orientación](https://help.libreoffice.org/latest/es/text/swriter/guide/pageorientation.html). **20 preguntas**; pendiente revisión editorial global y prueba funcional en OpoWeb.
+
+**Cierre editorial del bloque 32–35:** **05/11/2026**. [Informe de evidencia](../cierre-editorial-32-35-2026-11-05.md). No equivale a validación end-to-end en navegador real/móvil.

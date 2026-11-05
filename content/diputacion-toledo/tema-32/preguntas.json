@@ -1,6 +1,6 @@
 {
   "tema": 32,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T32-001",
@@ -289,22 +289,29 @@
     },
     {
       "id": "DIP-T32-020",
-      "pregunta": "¿Qué diferencia hay entre una ruta UNC y una unidad de red asignada?",
+      "pregunta": "Si un equipo muestra las unidades C: y D:, ¿qué puede deducirse sobre los discos físicos?",
       "opciones": [
-        "La ruta UNC siempre apunta al disco C:",
-        "La UNC identifica servidor y recurso compartido; una unidad asignada usa una letra local para ese recurso",
-        "Una unidad asignada nunca depende de una red",
-        "Una ruta UNC solo es válida en Internet"
+        "Siempre hay dos discos físicos independientes",
+        "Pueden ser dos volúmenes o particiones de un mismo disco físico",
+        "Ambas letras apuntan necesariamente a recursos compartidos de red",
+        "D: es obligatoriamente una lectora de DVD"
       ],
       "correcta": 1,
-      "justificacion": "UNC utiliza servidor y recurso compartido; mapear la unidad asocia al recurso una letra como Z:.",
-      "trampa": "Atajo o concepto de la interfaz del Explorador de Windows 11.",
-      "referencia": "Microsoft Support · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
-      "respuestaLiteral": "La UNC identifica servidor y recurso compartido; una unidad asignada usa una letra local para ese recurso"
+      "justificacion": "Las letras de unidad identifican volúmenes lógicos o dispositivos; más de una letra no acredita por sí sola que existan discos físicos diferentes.",
+      "trampa": "Volumen o unidad lógica no es sinónimo de soporte físico.",
+      "referencia": "Microsoft Windows 11: gestión de unidades y carpetas; tema 32 apartados 10 y 17 · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "respuestaLiteral": "Pueden ser dos volúmenes o particiones de un mismo disco físico"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_32_35_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 1,
+    "certificacionIntegral": false
   }
 }

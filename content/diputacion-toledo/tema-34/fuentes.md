@@ -40,7 +40,7 @@
 ## Fecha de control
 
 - Verificación técnica: **19 de julio de 2026**.
-- Estado editorial: `GENERACION_DESDE_CERO`.
+- Estado editorial: `AUDITADO`.
 
 ## Referencias específicas contrastadas — **29/10/2026**
 
@@ -50,3 +50,10 @@
 - [Microsoft Support: instalar y usar un escáner](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows): detección de escáner USB, red y equipo multifunción.
 
 **Estado de control:** banco de **20 preguntas** y cuadro técnico incorporado al manual. Pendiente revisión integral, comprobación de enlaces y prueba funcional en OpoWeb.
+
+## Cotejo técnico C1 32–35 — **05/11/2026**
+
+- [Microsoft: instalación y uso de escáner](https://support.microsoft.com/en-us/windows/hardware/printer/install-and-use-a-scanner-in-windows): **Escáner de Windows** puede requerir instalación desde **Microsoft Store**; carpeta habitual por defecto **Imágenes/Scans**; detectar una multifunción no garantiza la función de escaneado.
+- [Microsoft: servicio de cola de impresión](https://support.microsoft.com/en-us/windows/hardware/printer/fix-print-spooler-service-not-running-errors-in-windows): **Print Spooler** gestiona los trabajos impresos y puede fallar con cola bloqueada.
+- Corregidas y diversificadas **4** preguntas redundantes: servicio de cola, instalación de aplicación, carpeta de guardado y diferencia entre **ADF** y dúplex; **20 preguntas / 80 alternativas**.
+- [Informe de cierre](../cierre-editorial-32-35-2026-11-05.md).

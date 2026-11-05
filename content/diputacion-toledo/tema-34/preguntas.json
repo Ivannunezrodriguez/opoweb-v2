@@ -1,6 +1,6 @@
 {
   "tema": 34,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T34-001",
@@ -184,48 +184,48 @@
     },
     {
       "id": "DIP-T34-013",
-      "pregunta": "¿Qué permite hacer la opción «Abrir cola de impresión» en Windows 11?",
+      "pregunta": "¿Qué servicio de Windows administra los trabajos enviados a imprimir?",
       "opciones": [
-        "Convertir un escaneo en texto editable",
-        "Ver los trabajos pendientes de esa impresora",
-        "Cambiar la contraseña de red",
-        "Crear un documento nuevo"
+        "El servicio de sincronización de favoritos",
+        "El servicio Cola de impresión (Print Spooler)",
+        "El servicio de ubicación GPS",
+        "El lector óptico del escáner"
       ],
       "correcta": 1,
-      "justificacion": "Muestra los trabajos pendientes y en espera de imprimir.",
-      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
-      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/view-a-printer-s-print-queue-in-windows",
-      "respuestaLiteral": "Ver los trabajos pendientes de esa impresora"
+      "justificacion": "El servicio Print Spooler gestiona los trabajos de impresión y su cola; si falla, pueden quedar bloqueados.",
+      "trampa": "No confundir servicio de cola con controlador o impresora.",
+      "referencia": "Microsoft Support · https://support.microsoft.com/en-us/windows/hardware/printer/fix-print-spooler-service-not-running-errors-in-windows",
+      "respuestaLiteral": "El servicio Cola de impresión (Print Spooler)"
     },
     {
       "id": "DIP-T34-014",
-      "pregunta": "¿Dónde se administran habitualmente las impresoras en Windows 11?",
+      "pregunta": "Si la aplicación Escáner de Windows no aparece al buscarla, ¿qué indica Microsoft?",
       "opciones": [
-        "Personalización > Temas",
-        "Sistema > Sonido",
-        "Cuentas > Familia",
-        "Configuración > Bluetooth y dispositivos > Impresoras y escáneres"
+        "Formatear la unidad principal antes de escanear",
+        "Activar siempre Bluetooth",
+        "Deshabilitar la impresora predeterminada",
+        "Instalarla desde Microsoft Store"
       ],
       "correcta": 3,
-      "justificacion": "La ruta de configuración de impresoras es Bluetooth y dispositivos > Impresoras y escáneres.",
-      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
-      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows",
-      "respuestaLiteral": "Configuración > Bluetooth y dispositivos > Impresoras y escáneres"
+      "justificacion": "La documentación oficial aclara que la aplicación Escáner puede no estar instalada y ofrece su instalación desde Microsoft Store.",
+      "trampa": "La ausencia de la aplicación no implica ausencia del escáner ni del controlador.",
+      "referencia": "Microsoft Support · https://support.microsoft.com/en-us/windows/hardware/printer/install-and-use-a-scanner-in-windows",
+      "respuestaLiteral": "Instalarla desde Microsoft Store"
     },
     {
       "id": "DIP-T34-015",
-      "pregunta": "Si se activa «Permitir que Windows administre mi impresora predeterminada», ¿qué ocurre?",
+      "pregunta": "Cuando no se ha seleccionado una carpeta distinta, ¿dónde guarda por defecto los escaneos la aplicación Escáner de Windows?",
       "opciones": [
-        "Windows selecciona automáticamente la última impresora utilizada",
-        "Se desinstalan las demás impresoras",
-        "Imprime siempre en PDF",
-        "Deshabilita la impresión en red"
+        "En la carpeta Imágenes/Scans del perfil del usuario",
+        "En el directorio raíz de C: sin subcarpetas",
+        "Siempre en la Papelera de reciclaje",
+        "En el servidor DNS de la red"
       ],
       "correcta": 0,
-      "justificacion": "Windows puede establecer como predeterminada la última impresora utilizada.",
-      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
-      "referencia": "https://support.microsoft.com/es-es/windows/hardware/printer/set-a-default-printer-in-windows",
-      "respuestaLiteral": "Windows selecciona automáticamente la última impresora utilizada"
+      "justificacion": "Microsoft documenta la carpeta Pictures/Scans del perfil como ubicación predeterminada de la app.",
+      "trampa": "La carpeta por defecto no es un destino obligatorio: puede modificarse.",
+      "referencia": "Microsoft Support · https://support.microsoft.com/en-us/windows/hardware/printer/install-and-use-a-scanner-in-windows",
+      "respuestaLiteral": "En la carpeta Imágenes/Scans del perfil del usuario"
     },
     {
       "id": "DIP-T34-016",
@@ -274,18 +274,18 @@
     },
     {
       "id": "DIP-T34-019",
-      "pregunta": "¿Qué describe mejor la diferencia entre impresora física y Microsoft Print to PDF?",
+      "pregunta": "¿Qué afirmación es correcta sobre el alimentador automático de documentos (ADF) de un escáner?",
       "opciones": [
-        "Ambas imprimen necesariamente en papel",
-        "Print to PDF digitaliza una hoja colocada en el cristal",
-        "La física produce una salida impresa; Print to PDF genera un archivo",
-        "Print to PDF es una impresora de red obligatoria"
+        "Siempre escanea ambas caras en una pasada",
+        "Requiere introducir los documentos de uno en uno en el cristal",
+        "Permite digitalizar varias hojas, pero no garantiza digitalización a doble cara",
+        "Es una tecnología exclusiva de impresoras virtuales"
       ],
       "correcta": 2,
-      "justificacion": "Microsoft Print to PDF es una impresora virtual que genera un documento PDF.",
-      "trampa": "Distinguir instalación, configuración, envío de trabajos y digitalización.",
-      "referencia": "content/diputacion-toledo/tema-34/manual.md#5-impresion-a-pdf",
-      "respuestaLiteral": "La física produce una salida impresa; Print to PDF genera un archivo"
+      "justificacion": "Un ADF permite alimentar varias hojas; el dúplex es una capacidad adicional que no está presente en todos los dispositivos.",
+      "trampa": "No confundir ADF con dúplex automático.",
+      "referencia": "Microsoft Support · https://support.microsoft.com/en-us/windows/hardware/printer/install-and-use-a-scanner-in-windows",
+      "respuestaLiteral": "Permite digitalizar varias hojas, pero no garantiza digitalización a doble cara"
     },
     {
       "id": "DIP-T34-020",
@@ -306,5 +306,12 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_32_35_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 4,
+    "certificacionIntegral": false
   }
 }

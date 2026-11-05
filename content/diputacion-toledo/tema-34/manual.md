@@ -170,7 +170,7 @@ En un dispositivo multifunción, Windows puede mostrar funciones separadas de im
 
 ## 9. Aplicación Escáner de Windows
 
-La aplicación **Escáner de Windows** permite digitalizar documentos e imágenes.
+La aplicación **Escáner de Windows** permite digitalizar documentos e imágenes, pero **puede no venir instalada**: si no aparece, Microsoft indica que se obtenga desde **Microsoft Store**.
 
 Opciones habituales:
 
@@ -182,6 +182,8 @@ Opciones habituales:
 - ubicación de guardado;
 - vista previa;
 - digitalización final.
+
+**El alimentador automático (ADF)** no implica que el escáner tenga lectura **dúplex**: algunos alimentadores digitalizan una sola cara y requieren girar las hojas manualmente.
 
 ### Orígenes de digitalización
 
@@ -235,9 +237,9 @@ La vista previa permite:
 - verificar que el documento está recto;
 - elegir el encuadre.
 
-Después debe seleccionarse la carpeta y el nombre del archivo.
+En la aplicación **Escáner de Windows**, la digitalización se guarda automáticamente en la carpeta seleccionada. Si no se eligió destino, la ubicación predeterminada documentada por Microsoft es la carpeta **Imágenes/Scans** del perfil de usuario. El nombre y ubicación concretos pueden variar si se cambian las opciones.
 
-Una digitalización no queda garantizada hasta que el archivo se guarda correctamente.
+Es imprescindible comprobar que el archivo resultante figura en la ubicación de destino.
 
 ## 13. Impresión y escaneado en red
 
@@ -326,3 +328,25 @@ ESCANEADO
 > ⚠️ **¡Foco Examen!:** Ver una impresora multifunción en **Impresoras y escáneres** no demuestra por sí solo que Windows haya reconocido la función de **escaneado**. Hay que comprobar que figure como escáner.
 
 **Referencias oficiales de Microsoft:** [agregar impresora](https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows), [impresora predeterminada](https://support.microsoft.com/es-es/windows/hardware/printer/set-a-default-printer-in-windows), [cola de impresión](https://support.microsoft.com/es-es/windows/hardware/printer/view-a-printer-s-print-queue-in-windows) e [instalar y usar un escáner](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows). **20 preguntas**; pendiente auditoría editorial completa y prueba funcional del sitio.
+
+## 18. Cotejo específico de Windows 11 — **05/11/2026**
+
+### Servicio de cola e instalación de Escáner de Windows
+
+El servicio **Cola de impresión (Print Spooler)** administra los trabajos de impresión en Windows: si el servicio falla, pueden bloquearse trabajos en cola o fallar cuadros de impresión. No se confunde con una **impresora física** ni con **Microsoft Print to PDF**.
+
+La aplicación **Escáner de Windows** puede requerir instalación desde **Microsoft Store**. No hay que concluir que el escáner está inutilizable únicamente porque la aplicación no figure en el menú Inicio.
+
+| Elemento | Función | Trampa de examen |
+|---|---|---|
+| **Print Spooler** | Administra trabajos enviados a imprimir | No es un controlador de escáner |
+| **Cola de impresión** | Lista de trabajos pendientes, pausados y en curso | Cancelar no siempre interrumpe lo ya transmitido |
+| **Escáner de Windows** | Aplicación para digitalizar | Puede **no estar instalada** |
+| **Ubicación de escaneos** | Seleccionada por usuario; por defecto **Imágenes/Scans** | No es la bandeja de la impresora |
+| **ADF (alimentador)** | Procesa varios documentos | No garantiza escaneo **a doble cara** |
+
+> ⚠️ **¡Foco Examen!:** **Print Spooler** gestiona trabajos de impresión; la ausencia de **Escáner de Windows** no demuestra la ausencia del controlador ni de un escáner funcional.
+
+**Documentación oficial:** [Microsoft: instalar y usar un escáner](https://support.microsoft.com/en-us/windows/hardware/printer/install-and-use-a-scanner-in-windows) y [Microsoft: servicio de cola de impresión](https://support.microsoft.com/en-us/windows/hardware/printer/fix-print-spooler-service-not-running-errors-in-windows).
+
+**Cierre editorial del bloque 32–35:** **05/11/2026**. [Informe de evidencia](../cierre-editorial-32-35-2026-11-05.md). No equivale a validación end-to-end en navegador real/móvil.

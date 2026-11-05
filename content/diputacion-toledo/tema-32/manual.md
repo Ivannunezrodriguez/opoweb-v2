@@ -4,7 +4,7 @@
 
 **Microsoft Windows 11 Pro I. Creación, copiado y borrado de archivos y carpetas. Las unidades de discos locales y de red.**
 
-**Estado editorial:** `GENERACION_DESDE_CERO`
+**Estado editorial:** `AUDITADO`
 
 ## 1. Explorador de archivos
 
@@ -120,7 +120,7 @@ Puede renombrarse mediante:
 - menú contextual;
 - tecla **F2**.
 
-No debe modificarse arbitrariamente la extensión, porque puede impedir que la aplicación asociada reconozca el archivo.
+No debe modificarse arbitrariamente la extensión, porque puede impedir que la aplicación asociada reconozca el archivo. **Cambiar la extensión no convierte el formato interno del documento.**
 
 ## 7. Eliminar y Papelera de reciclaje
 
@@ -156,7 +156,7 @@ Una **ruta** identifica la localización de un archivo o carpeta.
 Ejemplo local:
 
 ```text
-C:\Usuarios\Ana\Documentos\Informe.pdf
+C:\Users\Ana\Documents\Informe.pdf
 ```
 
 Ejemplo de red UNC:
@@ -212,8 +212,8 @@ Procedimiento general:
 
 1. Abrir Explorador de archivos.
 2. Acceder a **Este equipo**.
-3. Elegir **Conectar a unidad de red**.
-4. Seleccionar una letra.
+3. En **Este equipo**, abrir **Más → Asignar unidad de red**; alternativamente, clic derecho sobre **Este equipo**, si esa opción aparece.
+4. Seleccionar una letra libre, como **Z:**.
 5. Indicar la ruta de red.
 6. Elegir, cuando proceda, reconectar al iniciar sesión.
 7. Introducir credenciales si se solicitan.
@@ -314,7 +314,7 @@ WINDOWS 11 · ARCHIVOS Y CARPETAS
 
 | Ejemplo | Significado |
 |---|---|
-| `C:\\Usuarios\\Ana\\Documentos` | Ruta de unidad **local** con letra |
+| `C:\\Users\\Ana\\Documents` | Ruta de unidad **local** con letra |
 | `\\\\servidor\\departamento\\expedientes` | Ruta de red **UNC**, identifica servidor y recurso compartido |
 | `Z:\\expedientes` | Unidad de red **asignada** a una letra, si existe su asociación |
 
@@ -325,3 +325,32 @@ La letra de una unidad **asignada** no garantiza disponibilidad: el acceso depen
 > ⚠️ **¡Foco Examen!:** **Mayús + Supr** evita el paso habitual por la Papelera. **Supr** no garantiza que un archivo de red se almacene en la Papelera: depende del tipo de ubicación y sistema de archivos.
 
 **Fuente técnica:** [Microsoft Support: métodos abreviados de Windows](https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows). Banco ampliado a **20 preguntas**; queda pendiente prueba funcional en la web.
+
+## 17. Cotejo técnico de Windows 11 — **05/11/2026**
+
+### 17.1. Rutas físicas, carpetas conocidas y acceso rápido
+
+El nombre visible **Documentos** en Windows puede ser un **nombre localizado** en el Explorador; no debe deducirse de él la ruta física. Una ruta frecuente del perfil es `C:\Users\Ana\Documents`, pero **no es universal**: puede haber otro disco de sistema, ubicación redirigida, otro usuario o sincronización con OneDrive. La variable `%USERPROFILE%` permite identificar dinámicamente la carpeta del perfil activo.
+
+| Ejemplo | Interpretación |
+|---|---|
+| `C:\Users\Ana\Documents` | Ejemplo de ruta local de perfil; **no universal** |
+| `%USERPROFILE%` | Carpeta de perfil del usuario que ha iniciado sesión |
+| `\\servidor\recurso` | Recurso **UNC** de red |
+| `Z:\` | Letra que puede haberse asignado a **unidad de red** |
+
+**Acceso rápido** presenta carpetas frecuentes o ancladas: no es un volumen físico adicional. En Windows 11 desde **22H2**, las carpetas conocidas como Documentos e Imágenes suelen figurar en Acceso rápido, no necesariamente bajo **Este equipo**.
+
+> ⚠️ **¡Foco Examen!:** No trates **Documentos** como una ruta física literal ni asumas que `C:` y `D:` representan necesariamente **dos discos físicos**.
+
+### 17.2. Asignar recursos y controlar permisos
+
+En **Windows 11**, Microsoft indica **Explorador → Este equipo → Más → Asignar unidad de red** (o clic derecho en **Este equipo**). Se elige una **letra**, se introduce `\\servidor\recurso` y, cuando proceda, se marca **Volver a conectar al iniciar sesión**.
+
+El acceso puede fallar incluso si aparece la letra mapeada: **servidor apagado**, problemas de **conectividad** o **permisos insuficientes**. Un acceso directo a un documento tampoco equivale al archivo original.
+
+> ⚠️ **¡Foco Examen!:** **Asignar una unidad** crea una vía de acceso mediante letra, **no duplica el contenido** del servidor. Una letra asignada puede quedar visible aunque el recurso sea inaccesible.
+
+**Fuentes oficiales:** [Explorador Windows 11](https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows) y [uso compartido y asignación de unidad](https://support.microsoft.com/es-es/windows/experience/connectivity-networking/file-sharing-over-a-network-in-windows).
+
+**Auditoría editorial por bloque:** **05/11/2026**. [Informe C1 32–35](../cierre-editorial-32-35-2026-11-05.md). Validación técnica de navegador/móvil pendiente, transversal a la web.

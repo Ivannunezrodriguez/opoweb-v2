@@ -39,7 +39,7 @@
 ## Fecha de control
 
 - Verificación documental: **19 de julio de 2026**.
-- Estado editorial: `GENERACION_DESDE_CERO`.
+- Estado editorial: `AUDITADO`.
 
 ## Cotejo técnico adicional — **29/10/2026**
 
@@ -49,3 +49,10 @@
 - [LibreOffice Help: cambiar orientación](https://help.libreoffice.org/latest/es/text/swriter/guide/pageorientation.html): estilos de página y cambio entre vertical y horizontal.
 
 **Control editorial:** banco ampliado a **20 preguntas** y tabla de uso de estilos/saltos. Pendientes auditoría integral y prueba funcional de la web.
+
+## Auditoría específica de atajos de LibreOffice **24.8** en español — **05/11/2026**
+
+- [**Fuente oficial prioritaria: Guía de iniciación 24.8, Apéndice A (edición española de junio de 2025)**](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html), tablas **7** y **8**: **Ctrl+U** (nuevo), **Ctrl+A o Ctrl+O** (abrir), **Ctrl+G** (guardar), **Ctrl+E** (seleccionar), **Ctrl+N** (negrita), **Ctrl+S** (subrayado), **Ctrl+B** (buscar) y **Ctrl+Mayús+S** (Guardar como).
+- [Ayuda oficial de Writer en español, atajos de formato](https://help.libreoffice.org/latest/es/text/swriter/04/01020000.html): **Ctrl+T** (centrar), **Ctrl+L** (izquierda), **Ctrl+R** (derecha), **Ctrl+J** (justificar), **Ctrl+F12** (tabla), **Ctrl+F10** (marcas de formato). La ayuda `latest` también presenta **otras combinaciones** que dependen de distribución/idioma y por eso no debe sustituir indiscriminadamente la guía versión **24.8** española.
+- **Corrección de fondo:** el antiguo manual mezclaba atajos internacionales (**Ctrl+S** guardar, **Ctrl+N** nuevo, **Ctrl+B** negrita, **Ctrl+E** centrar) con interfaz española, provocando errores en examen. **3 preguntas** redundantes reemplazadas por comprobaciones de la guía específica, manteniendo IDs y claves.
+- [Informe de cierre del bloque](../cierre-editorial-32-35-2026-11-05.md).

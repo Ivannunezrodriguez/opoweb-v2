@@ -1,6 +1,6 @@
 {
   "tema": 33,
-  "estado": "BANCO_20_PREGUNTAS_EN_AUDITORIA",
+  "estado": "AUDITADO",
   "preguntas": [
     {
       "id": "DIP-T33-001",
@@ -259,18 +259,18 @@
     },
     {
       "id": "DIP-T33-018",
-      "pregunta": "¿Qué atajo abre la búsqueda de texto dentro de la página web?",
+      "pregunta": "En GroupWise 24, ¿puede retraerse un mensaje enviado a un sistema de correo externo por Internet?",
       "opciones": [
-        "Ctrl + H",
-        "Ctrl + J",
-        "Ctrl + D",
-        "Ctrl + F"
+        "Sí, siempre que el remitente borre su copia",
+        "Sí, siempre que pasen 24 horas",
+        "Sí, sin condiciones, desde la Papelera",
+        "No; la función de retracción no retira mensajes enviados a otros sistemas de correo externos"
       ],
       "correcta": 3,
-      "justificacion": "Ctrl + F busca texto dentro de la página actual.",
-      "trampa": "Distinguir funciones semejantes y las opciones específicas del cliente.",
-      "referencia": "Microsoft Edge: atajos · https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
-      "respuestaLiteral": "Ctrl + F"
+      "justificacion": "El manual del cliente GroupWise 24 distingue la retracción de mensajes internos todavía no leídos del correo enviado a sistemas externos, que no puede retirarse por esa vía.",
+      "trampa": "Borrar el mensaje local no implica retirarlo del buzón de correo externo.",
+      "referencia": "GroupWise 24 Client User Guide, cap. 21 · https://www.novell.com/documentation/groupwise24/",
+      "respuestaLiteral": "No; la función de retracción no retira mensajes enviados a otros sistemas de correo externos"
     },
     {
       "id": "DIP-T33-019",
@@ -289,22 +289,29 @@
     },
     {
       "id": "DIP-T33-020",
-      "pregunta": "En GroupWise 24, ¿qué puede condicionar el vaciado automático de la Papelera?",
+      "pregunta": "¿Qué condición impide retraer desde GroupWise 24 un mensaje de correo recibido por un usuario interno?",
       "opciones": [
-        "El color de la carpeta",
-        "La configuración establecida por el administrador",
-        "La cantidad de contactos",
-        "El navegador predeterminado"
+        "Que el destinatario tenga más de cinco contactos",
+        "Que el destinatario ya lo haya abierto",
+        "Que el mensaje tenga una sola línea de asunto",
+        "Que la carpeta del remitente esté ordenada por fecha"
       ],
       "correcta": 1,
-      "justificacion": "El administrador puede definir el vaciado automático e impedir cambiar esa configuración.",
-      "trampa": "Distinguir funciones semejantes y las opciones específicas del cliente.",
-      "referencia": "GroupWise 24: vaciado automático · https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/maintaining_trash_emptying.html",
-      "respuestaLiteral": "La configuración establecida por el administrador"
+      "justificacion": "La retracción del correo interno procede solo sobre los destinatarios que aún no han abierto el mensaje.",
+      "trampa": "Retracción y vaciado automático de la Papelera son procesos distintos.",
+      "referencia": "GroupWise 24 Client User Guide, cap. 21 · https://www.novell.com/documentation/groupwise24/",
+      "respuestaLiteral": "Que el destinatario ya lo haya abierto"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_32_35_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 2,
+    "certificacionIntegral": false
   }
 }

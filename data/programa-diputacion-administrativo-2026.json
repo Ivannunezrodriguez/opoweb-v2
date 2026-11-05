@@ -515,38 +515,62 @@
     {
       "numero": 32,
       "titulo": "Microsoft Windows 11 Pro I. Creación, copiado y borrado de archivos y carpetas. Las unidades de discos locales y de red.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-32/manual.md",
       "fuentes": "content/diputacion-toledo/tema-32/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-32/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-32/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-32/preguntas.json",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cierre-editorial-32-35-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 33,
       "titulo": "Microsoft Windows 11 Pro II. Navegación por Internet con Microsoft Edge. Uso del correo electrónico con Micro Focus GroupWise 24 y posteriores.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-33/manual.md",
       "fuentes": "content/diputacion-toledo/tema-33/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-33/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-33/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-33/preguntas.json",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cierre-editorial-32-35-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 34,
       "titulo": "Microsoft Windows 11 Pro III. Impresión y escaneado de documentos desde Microsoft Windows 11.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-34/manual.md",
       "fuentes": "content/diputacion-toledo/tema-34/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-34/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-34/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-34/preguntas.json",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cierre-editorial-32-35-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 35,
       "titulo": "LibreOffice 24 I. Elaboración y uso de documentos de texto con LibreOffice 24 Writer.",
-      "estado": "GENERACION_DESDE_CERO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo/tema-35/manual.md",
       "fuentes": "content/diputacion-toledo/tema-35/fuentes.md",
       "matriz": "content/diputacion-toledo/tema-35/matriz.json",
-      "preguntas": "content/diputacion-toledo/tema-35/preguntas.json"
+      "preguntas": "content/diputacion-toledo/tema-35/preguntas.json",
+      "cierreEditorialBloque20261105": {
+        "fecha": "2026-11-05",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo/cierre-editorial-32-35-2026-11-05.md",
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 36,
@@ -666,6 +690,12 @@
         29,
         30,
         31
+      ],
+      [
+        32,
+        33,
+        34,
+        35
       ]
     ],
     "temasAuditados": [
@@ -698,14 +728,18 @@
       28,
       29,
       30,
-      31
+      31,
+      32,
+      33,
+      34,
+      35
     ],
-    "temasConCierreEditorialDemostrado": 30,
-    "cuentaPendientesGlobal": 91,
+    "temasConCierreEditorialDemostrado": 34,
+    "cuentaPendientesGlobal": 87,
     "ultimoBloquePreguntas": 80,
     "ultimoBloqueAlternativas": 320,
     "pendienteDocumentalT22": "ESTATUTOS_OAPGT_COMPLETOS_CONSOLIDADOS",
-    "estado": "AUDITADO_JURIDICO_PEDAGOGICO_C1_HASTA_31_EXCEPTO_22",
+    "estado": "AUDITADO_TECNICO_PEDAGOGICO_C1_HASTA_35_EXCEPTO_22",
     "cierreFuncionalNavegador": "TRANSVERSAL_PENDIENTE"
   }
 }
