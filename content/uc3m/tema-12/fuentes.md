@@ -33,3 +33,9 @@ El manual se ajusta al epígrafe oficial de la convocatoria y prioriza conceptos
 [**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
 
 > ⚠️ **¡Foco Examen!:** **Comité de Seguridad y Salud** desde **50 personas**; los **Delegados de Prevención** siguen escala del **art. 35** y la Administración Pública presenta particularidades.
+
+## Revalidación agrupada del banco UC3M T10–T12 — **05/11/2026**
+
+[**Informe de cotejo de las 36 preguntas y 144 alternativas**](../cotejo-bloque-t10-t12-2026-11-05.md), con origen legal por **precepto**, fundamento de la clave y descarte argumentado de las otras tres opciones, en el bloque de tres temas. **No equivale a certificación integral**, ni da por resuelta la fecha jurídica de corte de la convocatoria de la **UC3M**.
+
+> ⚠️ **¡Foco Examen!:** Distinguir la norma **actualmente vigente** de la **redacción exigible según las bases**, determinada por la fecha de publicación del anuncio oficial correspondiente, todavía por verificar en fuente primaria.
