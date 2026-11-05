@@ -993,7 +993,7 @@ Los servicios comunes no deben confundirse con las áreas sectoriales que consti
 | Órgano | Instrumento y propuesta |
 |---|---|
 | Subsecretario | Real Decreto del Consejo de Ministros, a propuesta del Ministro |
-| Secretario general | Real Decreto del Consejo de Ministros, a propuesta del Ministro |
+| **Secretario general** | **Real Decreto del Consejo de Ministros**, a propuesta del **titular del Ministerio o del Presidente del Gobierno** (**art. 64.3**) |
 | Secretario general técnico | Real Decreto del Consejo de Ministros, a propuesta del Ministro |
 | Director general | Real Decreto del Consejo de Ministros, a propuesta del Ministro o Presidente |
 | Subdirector general | resolución del Ministro, Secretario de Estado o Subsecretario del que dependa |
@@ -1152,7 +1152,15 @@ El Delegado puede requerir información a órganos territoriales para ejercer su
 
 ## 6. Artículo 74 · Subdelegados del Gobierno
 
-En cada provincia existe un Subdelegado bajo dependencia inmediata del Delegado.
+El **artículo 74** enuncia la existencia de **Subdelegado del Gobierno** bajo dependencia inmediata del **Delegado**. Para estudiarlo correctamente hay que leerlo junto al **artículo 69.4**: su existencia se prevé en **cada provincia de las comunidades autónomas pluriprovinciales**; en las **uniprovinciales** podrán crearse Subdelegaciones por **real decreto** si las circunstancias legales lo justifican. Cuando una comunidad uniprovincial **no tenga Subdelegado**, el **Delegado** asume las competencias atribuidas a los Subdelegados (**art. 74, párrafo segundo**).
+
+| Ámbito | Existencia y competencia |
+|---|---|
+| **Comunidad pluriprovincial** | **Subdelegado** por cada provincia (**art. 69.4**) |
+| **Comunidad uniprovincial** | Puede crearse **Subdelegación** por **real decreto**; no es general y automática |
+| **Comunidad uniprovincial sin Subdelegado** | **Delegado del Gobierno** ejerce las competencias provinciales del Subdelegado (**art. 74**) |
+
+> ⚠️ **¡Foco Examen!:** El **art. 74** debe interpretarse conjuntamente con el **art. 69.4**. **No** todas las comunidades uniprovinciales tienen Subdelegado. Tampoco debe confundirse **asumir competencias del Subdelegado** con **suplir al Delegado**, que en ausencia de Subdelegado uniprovincial corresponde al **Secretario General** (**art. 72.5**).
 
 Características:
 
