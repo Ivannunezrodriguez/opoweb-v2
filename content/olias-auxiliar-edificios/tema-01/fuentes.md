@@ -14,3 +14,8 @@
 > ⚠️ **¡Foco Examen!:** **Art. 99**: investidura con **mayoría absoluta**, segunda votación **48 horas** después por **mayoría simple**, y disolución si pasan **dos meses desde la primera votación** sin investidura.
 
 **Estado:** EN_AUDITORIA, primera revisión **04/11/2026**; validación integral pendiente.
+## Auditoría agrupada del banco — **05/11/2026**
+
+Ver [**cotejo jurídico-pedagógico del bloque general T01–T04**](../cotejo-bloque-general-01-04-2026-11-05.md), con **56 preguntas y 224 alternativas** en conjunto, fuentes BOE por artículo, distractores reformulados y focos de examen específicos. El **banco del tema 1** ha sido revisado en este lote, pero el **tema no queda certificado integralmente**: siguen pendientes comprobación funcional real, cobertura normativa exhaustiva y aprobación final.
+
+> ⚠️ **¡Foco Examen!:** Las preguntas conservan sus claves y explican el **artículo y la excepción**, no solo una definición aislada.
