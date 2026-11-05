@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 14
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial operativo (05/11/2026): EN_AUDITORIA.** El manual está disponible y el banco contiene **20 preguntas**, pero **no consta certificación jurídica individual de sus 80 alternativas ni auditoría integral del tema**. La comprobación técnica de OpoWeb tampoco acredita por sí sola la corrección de cada respuesta. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
 
 **ESTADO ACTUAL: EN_AUDITORIA — sin certificación integral.** Incorporado el **25/10/2026**; la revisión documental del **29/10/2026** y el material reutilizado de La Puebla (julio de 2026) son antecedentes históricos, no pruebas de vigencia ni de exhaustividad. Las preguntas T14 han recibido correcciones parciales en noviembre de 2026; falta el cotejo completo del manual, su matriz y la prueba funcional en navegador.
 
@@ -318,6 +318,55 @@ La Administración puede admitir distintos sistemas conforme a la Ley 39/2015, p
 - **Revocado:** su vigencia se extingue antes de la caducidad.
 
 La firma debe analizarse respecto del momento de creación y de las evidencias disponibles. Que el certificado esté hoy caducado no invalida automáticamente una firma correctamente creada y preservada cuando estaba vigente.
+
+## 11 bis. Reglas legales de vigencia, revocación, suspensión e identidad (**Ley 6/2020, artículos 4–7**)
+
+### Vigencia máxima y terminación del certificado
+
+Los certificados cualificados de **firma electrónica**, **sello electrónico** y **autenticación de sitio web** tienen un período de vigencia **no superior a 5 años** (**art. 4.2**). El prestador puede emitirlos por un tiempo menor, según características y tecnología. La vigencia se extingue por **caducidad** o por **revocación** (**art. 4.1**).
+
+| Situación | ¿Qué ocurre jurídicamente? | Fuente |
+|---|---|---|
+| **Caducidad** | Extinción al acabar el período de vigencia | **4.1** |
+| **Revocación** | Extinción anticipada por causa legal | **5.1** |
+| **Suspensión** | Paralización temporal cuando la práctica de certificación la permite; puede terminar en extinción si no se levanta en plazo | **5.2–3** |
+
+> ⚠️ **¡Foco Examen!:** **5 años** es el **máximo legal de los certificados cualificados**, no su duración obligatoria. No confundir la **caducidad** ordinaria con la **revocación** ni con la **suspensión**.
+
+### Nueve supuestos de revocación: artículo 5.1
+
+| Letra | Causa legal de revocación |
+|---|---|
+| **a)** | Solicitud del **firmante**, persona representada, tercero autorizado, creador del sello o titular de certificado web |
+| **b)** | Violación o peligro del secreto de los datos de creación, o utilización indebida por tercero |
+| **c)** | **Resolución judicial o administrativa** que ordene revocar |
+| **d)** | Fallecimiento o capacidad judicialmente modificada del firmante; extinción de persona jurídica, disolución de entidad sin personalidad o pérdida de control sobre el dominio web |
+| **e)** | Terminación de la **representación** en certificado que incluya tal atributo: **representante y representado** deben solicitar revocación al cesar o modificarse la representación |
+| **f)** | Cese de actividad del prestador, salvo transferencia de la gestión de certificados a otro prestador |
+| **g)** | Falsedad, inexactitud o alteración de datos verificados, incluido el cargo |
+| **h)** | Insuficiencia de seguridad de los mecanismos criptográficos utilizados |
+| **i)** | Cualquier otra **causa lícita** prevista en la declaración de prácticas del prestador |
+
+**Suspensión (art. 5.2):** cuando la declaración de prácticas de certificación **prevea suspensión**, se contempla para los supuestos **a), c) y h)** y, si existen **dudas**, para los **b) y g)**. Conforme al **5.3**, la notificación al titular ha de especificar **motivo, fecha y hora**; si transcurre el período de suspensión sin levantarse, se extingue la vigencia.
+
+> ⚠️ **¡Foco Examen!:** **Revocación: nueve letras a)–i)**. **Suspensión: a), c), h), y dudas sobre b) o g)**; no deducir que cualquier causa de revocación permite automáticamente suspender. **Pérdida de poder de representación = art. 5.1.e**, no solo un cambio de uso informal.
+
+### Identidad, atributos y representación (artículos 6 y 7)
+
+- En certificados cualificados de **firma** y **autenticación web** de **personas físicas**: nombre y apellidos e identificador **DNI/NIE/NIF**, o **pseudónimo señalado inequívocamente**; el código alternativo solo procede cuando legalmente se carece de todos esos identificadores (**art. 6.1.a**).
+- En certificados cualificados de **sello** y autenticación web de **personas jurídicas**: **denominación o razón social y NIF**, o código único permanente en el supuesto legal (**art. 6.1.b**).
+- Los certificados de **representación** incorporan la identidad del representado e indicación documental de las facultades, incluidos datos registrales cuando la inscripción sea obligatoria (**art. 6.2**).
+- La identificación del solicitante y la comprobación de la representación se regulan en el **art. 7**. Puede no exigirse una nueva comprobación de circunstancias permanentes ya verificadas en una relación preexistente cuando concurran las condiciones del **art. 7.6** y la identificación anterior tenga **menos de 5 años**.
+
+| Confusión de examen | Regla correcta |
+|---|---|
+| **Persona física** frente a **persona jurídica** | **Firma: persona física**; **sello: persona jurídica** |
+| **Certificado de representante** frente a **sello** | En el primero **firma una persona física** con facultades representativas |
+| **5 años de vigencia máxima** frente a **5 años desde identificación previa** | Son **dos plazos distintos**, **art. 4.2** frente a **art. 7.6** |
+
+> ⚠️ **¡Foco Examen!:** La identificación anterior realizada hace **menos de 5 años**, en el supuesto del **art. 7.6**, puede evitar repetir ciertas comprobaciones; **no prorroga** la vigencia de un certificado más allá del máximo del **art. 4.2**.
+
+**Fuente:** [**Ley 6/2020, artículos 4–7, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a4).
 
 ## 12. Tabla comparativa
 
@@ -674,7 +723,21 @@ La conservación permite prolongar la fiabilidad de firmas y sellos más allá d
 
 No equivale a guardar simplemente el archivo en una carpeta.
 
-La Ley 6/2020 exige al prestador cualificado conservar determinada información relativa a los servicios durante **quince años** desde la extinción del certificado o finalización del servicio.
+La **Ley 6/2020, art. 9.3.a**, exige conservar la información durante **15 años** desde la extinción del certificado o finalización del servicio, con las condiciones legales.
+
+### Garantías y cese de actividad de los prestadores cualificados (art. 9.3)
+
+| Obligación | Cuantía o plazo | Excepción o detalle |
+|---|---|---|
+| **Conservación de evidencias** | **15 años** | Desde extinción del certificado o fin del servicio (**9.3.a**) |
+| **Seguro de responsabilidad civil** | **1.500.000 €** como mínimo | **Prestadores del sector público exentos** de esta obligación de seguro (**9.3.b**) |
+| **Servicios cualificados adicionales** | **500.000 € más por cada tipo de servicio adicional** | Garantía posible mediante **aval bancario o seguro de caución**, con condiciones del precepto |
+| **Preaviso de cese** a **clientes y órgano supervisor** | **Al menos 2 meses** antes del cese efectivo | Medio que acredite entrega y recepción efectiva siempre que sea factible (**9.3.c**) |
+
+> ⚠️ **¡Foco Examen!:** **15 años** es el plazo de conservación; **1.500.000 € + 500.000 €** corresponde a garantía económica; **2 meses** es el preaviso de cese. **El sector público está exceptuado del seguro**, no de todas las obligaciones de confianza.
+
+**Fuente:** [**Ley 6/2020, art. 9.3, BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a9).
+
 
 ## 14. Autenticación de sitio web
 
