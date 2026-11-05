@@ -432,7 +432,7 @@ La sustitución ordinaria sigue el orden de Vicepresidente y, en su defecto, mie
 
 Tienen derecho a:
 
-- recibir convocatoria e información;
+- recibir **convocatoria y orden del día** con **al menos 2 días de antelación**; la documentación de los asuntos ha de estar disponible en ese mismo plazo (**art. 19.3.a**, órganos colegiados de la **AGE**);
 - participar en debates;
 - votar y formular voto particular;
 - formular ruegos y preguntas;
