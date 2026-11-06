@@ -68,5 +68,5 @@ assert.ok(!q14.revisionFocalizada.alcance.includes('cambia clave de B a C'));
 assert.equal(originalCount,26);assert.equal(supplementalCount,16);assert.equal(ids.size,42);
 assert.ok(guide.includes(filename),'Falta indice de la guia');
 assert.ok(status.includes(filename),'Falta evidencia en registro editorial principal');
-assert.ok(acta.toLowerCase().includes('corte normativo')&&acta.includes('PENDIENTES')&&acta.includes('NO'));
+assert.ok(acta.toLowerCase().includes('fecha de corte')&&acta.includes('PENDIENTES')&&acta.includes('NO'));
 console.log('UC3M T13/T14 CIERRE DOCUMENTAL: 12+14 historicas, 12+4 complementarias, 168 alternativas, 24 bloques, 16 enlaces legales precisos; sin aprobacion ni E2E');
