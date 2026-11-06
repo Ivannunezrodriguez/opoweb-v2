@@ -17,9 +17,16 @@
 
 > ⚠️ **¡Foco Examen!:** La reforma de **2026** no debe confundirse con la de **2024** (artículo **49**). Evitar la afirmación desactualizada de que la Constitución solo ha sufrido tres reformas.
 
-**Pendiente:** cotejo jurídico exhaustivo de los **12 distractores** del banco del tema y comprobación del despliegue. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+**Nota histórica de 02/11/2026:** entonces estaba pendiente el cotejo de distractores, completado posteriormente en **04/11/2026** mediante [informe por 12 preguntas y 48 alternativas](cotejo-integral-2026-11-04.md). **Sigue pendiente** la comprobación E2E real del despliegue y la recertificación integral de todas las capas. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
 
 ## Cotejo completo del Tema 1 — **04/11/2026**
 
 Se ha confrontado el banco entero de **12 preguntas, 48 opciones** y los **6 incisos** con la [Constitución oficial actualizada en **2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229). [**Análisis individual de claves y distractores**](cotejo-integral-2026-11-04.md). Se ha reforzado la distinción de amparo del **art. 30.2** y derecho de tutela del **53.2**. **Cierre jurídico-editorial; prueba funcional pendiente**.
 
+
+
+## Reforma constitucional 2026: vigencia frente a eficacia electoral — **06/11/2026**
+
+[**Repaso comparado de ocho casos T1–T4**](../REPASO_URGENTE_T01_T04_20261106.md), con estudio de [**art. 69.3 CE**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a69) y [**reforma BOE-A-2026-10881, disposición transitoria única**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881). La reforma está publicada desde el **20/05/2026**; la **creación de circunscripciones propias** de **Ibiza** y **Formentera** para el Senado **despliega efectos en la primera convocatoria electoral posterior**. Se ha añadido este matiz al manual sin alterar las **12 claves históricas**.
+
+> ⚠️ **¡Foco Examen!:** **Vigente desde mayo de 2026** no significa **aplicación electoral inmediata** antes de la siguiente convocatoria del **Senado**.
