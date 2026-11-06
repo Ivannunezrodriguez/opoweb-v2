@@ -25,3 +25,10 @@
 
 [**Revisión detallada de las 48 alternativas del Tema 4**](cotejo-integral-2026-11-04.md). Revisados los **7 bloques** y las **12 preguntas**, distinguiendo revisión de oficio, lesividad, rectificación, recursos y plazos conforme a Ley **39/2015, arts. 106–126** y LRBRL **52–53**. Se modificó **LP-T04-001** para precisar actos nulos firmes o que ponen fin a la vía, causas del art. 47.1 y dictamen favorable, no solo «en cualquier momento». **Cierre jurídico-editorial; prueba funcional real pendiente**.
 
+
+
+## Repaso transversal de recursos y revisión — **06/11/2026**
+
+[**Cuadro de plazos y ocho casos T1–T4**](../REPASO_URGENTE_T01_T04_20261106.md). Cotejo específico de [**LPAC arts. 106–126, BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a106): **alzada** interposición **1 mes**/resolución **3 meses**; **reposición** **1 mes / 1 mes**; **extraordinario de revisión** **4 años** por error de hecho documental, **3 meses** para restantes causas; **revisión de oficio de acto nulo** en condiciones taxativas del **106.1** y con **dictamen favorable** del órgano consultivo. Es refuerzo documental, sin sustitución de las claves ni certificación de interfaz.
+
+> ⚠️ **¡Foco Examen!:** **Artículo 122 ≠ 124**: aunque ambos recursos tienen **un mes para interponer** contra acto expreso, el plazo para **resolver alzada son tres meses**.
