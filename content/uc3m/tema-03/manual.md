@@ -230,3 +230,10 @@ El recurso se interpone **ante el órgano que dictó el acto firme**, que tambi�
 **Fuente:** [**Ley 39/2015, arts. 125–126**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
 
 > ⚠️ **¡Foco Examen!:** **4 AÑOS** únicamente para error de hecho del **125.1.a**; **3 MESES** para las otras causas de interposición; otros **3 MESES** son para resolver el recurso.
+
+
+## Repaso práctico integrado — tema 3 (06/11/2026)
+
+[**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
+
+> ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
