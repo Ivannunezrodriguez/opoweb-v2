@@ -19,7 +19,9 @@
         11,
         12
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M 2026 Normas Basicas, arts. 15–16, Ley 5/2025 CM",
+      "url20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
     },
     {
       "bloque": "Gestión presupuestaria y económico-financiera",
@@ -34,7 +36,9 @@
         15,
         16
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "LOSU arts. 53–59; Ley 5/2025 CM arts. 10,108,182",
+      "url20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217"
     },
     {
       "bloque": "Ordenación de pagos y Tesorería",
@@ -42,7 +46,9 @@
         3,
         14
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M 2026 Normas Basicas art. 15.2.1; Ley 5/2025 CM art. 182",
+      "url20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
     },
     {
       "bloque": "Documentos contables",
@@ -51,7 +57,9 @@
         13,
         16
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M 2026 Normas Basicas, art. 15.2.1: O y ADO",
+      "url20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
     },
     {
       "bloque": "Liquidación",
@@ -60,7 +68,9 @@
         18,
         19
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M 2026 presupuestos, liquidacion y resultado; Ley 5/2025 CM",
+      "url20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217"
     },
     {
       "bloque": "Cierre y cuentas anuales",
@@ -68,7 +78,9 @@
         20,
         21
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M presupuesto 2026, cuentas anuales y rendicion; LOSU 59",
+      "url20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a59"
     }
   ],
   "fuentesClave": [
@@ -150,5 +162,32 @@
     "simulacrosSinCambios": true,
     "certificacionIntegral": false,
     "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "cierreDocumentalT19_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T19_20261106.md",
+    "prueba": "tests/validate-uc3m-cierre-t19-20261106.mjs",
+    "bloquesMatriz": 6,
+    "preguntasOriginales": 12,
+    "alternativasOriginales": 48,
+    "preguntasComplementarias": 3,
+    "alternativasComplementarias": 12,
+    "ejercicios": 15,
+    "alternativas": 60,
+    "correccionConservada": "O = propuesta de pago, ADO = autorizacion compromiso y propuesta de pago segun art.15.2.1 UC3M",
+    "referencesMejoradas": 15,
+    "estudioLCSP": "198.4–6, conformidad y pago 30 dias, suspension tras 4 meses preaviso 1, resolucion tras 6",
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "navegadorE2E": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA",
+    "pendientes": [
+      "corte legislativo por resolucion primaria UC3M",
+      "prueba Node CI y navegador real",
+      "WCAG movil PWA persistencia y tests",
+      "auditoria juridica de cada frase a fecha de corte y aprobacion usuario"
+    ]
   }
 }
