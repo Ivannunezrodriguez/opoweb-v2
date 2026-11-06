@@ -1113,3 +1113,10 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 4 aprobad
 Se han cotejado el epígrafe, los **7 incisos** de la matriz, los **arts. 106–126 de Ley 39/2015** y las **12 preguntas con 48 alternativas**. La justificación de cada opción (incluidos los tres distractores) está en el [cotejo integral del Tema 4](cotejo-integral-2026-11-04.md). Se ha corregido el alcance de **art. 106.1** sobre actos nulos. **AUDITADO jurídicamente; prueba funcional real pendiente**.
 
 > ⚠️ **¡Foco Examen!:** Revisión de oficio de actos nulos (**art. 106**) exige **dictamen favorable** y presupuestos de firmeza o fin de vía; la **declaración de lesividad** del art. **107** es para **actos favorables anulables**.
+
+
+## Repaso cruzado de **06/11/2026** · Recursos y revisión de oficio
+
+[**Cuadro contrastado T1–T4**](../REPASO_URGENTE_T01_T04_20261106.md): **alzada 1 mes para interponer / 3 meses para resolver** (**122**), **reposición 1 mes / 1 mes** (**124**), recurso extraordinario de revisión por error de hecho documental **4 años**, por demás causas **3 meses** (**125**). Se conserva el banco original **12 preguntas/48 alternativas**, sin cambios de claves.
+
+> ⚠️ **¡Foco Examen!:** **Revisión de oficio de actos nulos (106.1)** requiere los supuestos legales y **dictamen favorable** del órgano consultivo cuando proceda; no equivale a recurso extraordinario de revisión contra acto firme (**125**).
