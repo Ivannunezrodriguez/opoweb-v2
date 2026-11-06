@@ -657,3 +657,10 @@ El **art. 118.5** no dice que «todo contrato menor de menos de **5.000 €** ca
 **Fuente oficial:** [**LCSP art. 118, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a1-30).
 
 > ⚠️ **¡Foco Examen!:** **5.000 €** de **UC3M caja fija** y **5.000 €** del **art. 118.5 LCSP** son reglas **diferentes**. **12.000 €** de anticipo interno **no** convierte en menor un contrato de servicio de **15.000 €** o más.
+
+
+## Repaso económico transversal T18–T20 — tema 20 (06/11/2026)
+
+[**Tabla de comparación conjunta T18–T20**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md), con las diferencias entre **presupuesto**, **pago** y **contratación**; [**12 preguntas adicionales en prácticas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección «Repasos adicionales UC3M». El **tema 20** aporta las preguntas **8–12**. No se alteran el banco original ni los simulacros.
+
+> ⚠️ **¡Foco Examen!:** Identificar siempre la **norma citada** y la **fase de gasto o contrato** antes de escoger plazo o cuantía.
