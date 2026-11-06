@@ -580,7 +580,7 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 7 aprobad
 
 ### Definición legal y métodos de valoración de riesgo
 
-El **art. 4.2 LPRL** define **riesgo laboral** como posibilidad de sufrir un daño derivado del trabajo. Para calificar su **gravedad** se valoran conjuntamente **probabilidad** y **severidad**, de acuerdo con **art. 4.2**. Ningún precepto establece literalmente la fórmula universal **«gravedad = probabilidad + severidad»**: eso sería una simplificación técnica errónea si se presenta como ley.
+El **art. 4.2 LPRL** define **riesgo laboral** como posibilidad de sufrir un daño derivado del trabajo. Para calificar su **gravedad** se valoran conjuntamente **probabilidad** y **severidad**, de acuerdo con **art. 4.2**. Ningún precepto establece literalmente la fórmula universal **«gravedad calculada por simple suma aritmética de probabilidad y severidad»**: eso sería una simplificación técnica errónea si se presenta como ley.
 
 > ⚠️ **¡Foco Examen!:** La definición de **riesgo** no es la de **daño**. La valoración conjunta **probabilidad/severidad** no equivale a la suma de ambas como fórmula jurídica.
 
