@@ -51,10 +51,12 @@ for(let n=6;n<=8;n++){
   assert.ok(q.id&&!allIds.has(q.id),'ID duplicado '+q.id);allIds.add(q.id);
   assert.equal(q.opciones.length,4);
   assert.equal(new Set(q.opciones).size,4);
-  assert.ok(Number.isInteger(q.respuestaCorrecta)&&q.respuestaCorrecta>=0&&q.respuestaCorrecta<=3);
-  assert.equal(q.opciones[q.respuestaCorrecta],q.respuestaLiteral,'Clave '+q.id);
+  const correct=q.correcta ?? q.respuestaCorrecta;
+  assert.ok(Number.isInteger(correct)&&correct>=0&&correct<=3);
+  assert.equal(q.opciones[correct],q.respuestaLiteral,'Clave '+q.id);
   assert.ok(q.justificacion.length>=30);
-  assert.ok(q.trampaExamen.length>15);
+  const trap=q.trampa ?? q.trampaExamen;
+  assert.ok(typeof trap==='string'&&trap.length>15,'Falta trampa '+q.id);
   assert.ok(q.referencia);
  }
 }
