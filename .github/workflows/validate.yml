@@ -25,7 +25,7 @@ jobs:
         run: |
           node --check assets/app.js
           node --check assets/practice.js
-      - name: Validar 126 repasos UC3M y conexión a la interfaz
+      - name: Validar 150 repasos UC3M y conexión a la interfaz
         run: node tests/validate-uc3m-extra-repasos-20261106.mjs
       - name: Verificar menú adaptable e integración OpoRadar
         run: node tests/validate-portal-navigation.mjs
