@@ -111,6 +111,41 @@ Las universidades pueden organizarse en facultades, escuelas, departamentos, ins
 - Los institutos universitarios desarrollan investigación científica, técnica, humanística o artística y pueden colaborar en programas de posgrado y doctorado.
 - Las escuelas de doctorado organizan las enseñanzas y actividades propias del doctorado.
 
+
+### 7.1. Estructuras de universidades públicas y su creación: arts. 40 y 41
+
+La **LOSU, art. 40**, admite **campus, facultades, escuelas, departamentos, institutos universitarios de investigación, escuelas de doctorado** y otras estructuras necesarias, según los **Estatutos** de cada universidad. Estas estructuras deben promover cooperación, interdisciplinariedad y gestión administrativa integrada.
+
+| Actuación | Quién la acuerda o realiza | Artículo |
+|---|---|---|
+| Crear, modificar o suprimir **facultades y escuelas** | **Comunidad Autónoma**, a iniciativa de la universidad mediante **propuesta y aprobación de su Consejo de Gobierno**. | **41.1** |
+| Crear, modificar o suprimir **departamentos, institutos universitarios de investigación, escuelas de doctorado y otras estructuras** | **Universidad**, según la LOSU, normativa de desarrollo y sus **Estatutos**. | **41.2** |
+| Proponer y organizar enseñanzas y procedimientos académicos de centros | Competencias asignadas a los **centros o estructuras** en los **Estatutos**. | **40.2** |
+| Adscribir centros docentes a una universidad pública | **Convenio previo**; **Comunidad Autónoma** aprueba la adscripción a propuesta del **Consejo de Gobierno**, tras informe del **Consejo Social**. | **42.1–2** |
+| Adscribir un centro a más de una universidad | Regla general: **una sola universidad**, con excepción dispensable legal o reglamentariamente en supuestos justificados. | **42.3** |
+
+**Ejemplo:** crear una nueva **facultad** en una universidad pública **no** es una decisión final unilateral del rector ni de su Consejo de Gobierno: el **artículo 41.1** atribuye el acuerdo a la **Comunidad Autónoma** mediante la iniciativa universitaria regulada. Para un **departamento**, el **artículo 41.2** contiene una competencia diferente.
+
+**Fuente primaria:** [**LOSU arts. 40–42, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500).
+
+> ⚠️ **¡Foco Examen!:** **Facultades y escuelas: Comunidad Autónoma**; **departamentos, institutos y escuelas de doctorado: Universidad**. En **adscripción** se exige **convenio previo** y, si es universidad pública, **informe del Consejo Social**.
+
+### 7.2. Unidades básicas obligatorias en la universidad: art. 43
+
+| Unidad o servicio | Cometido destacado en la LOSU |
+|---|---|
+| **Unidad de igualdad** | Asesora, coordina y evalúa la incorporación transversal de la igualdad entre mujeres y hombres. |
+| **Unidad de diversidad** | Coordina inclusión y antidiscriminación, con **servicio de atención a la discapacidad**. |
+| **Defensoría universitaria** | Defiende derechos y libertades del **profesorado, estudiantado y PTGAS**; actúa con **independencia, autonomía y confidencialidad**; su máximo órgano puede ser **unipersonal o colegiado**. |
+| **Inspección de servicios** | Vela por el funcionamiento de los servicios y asume las funciones de **incoación e instrucción** de expedientes disciplinarios previstas legalmente. Su dirección corresponde a personal **PTGAS** con los requisitos de titulación necesarios. |
+| **Servicios de orientación y acompañamiento** | Servicios de salud y atención psicopedagógica, bienestar emocional y orientación profesional, con prestaciones gratuitas en los términos del **art. 43.5**. |
+
+La **unidad de igualdad** y la **unidad de diversidad** pueden constituirse **conjunta o separadamente**, sin confundir sus funciones. La **defensoría** y la **inspección** son instituciones distintas.
+
+**Fuente primaria:** [**LOSU, art. 43**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a43).
+
+> ⚠️ **¡Foco Examen!:** **Unidad de diversidad = servicio de discapacidad**. La **defensoría** protege derechos con independencia y confidencialidad; la **inspección de servicios** controla el funcionamiento y cumple funciones disciplinarias. El órgano máximo de la **defensoría** puede ser **colegiado**.
+
 ## 8. Enseñanzas universitarias
 
 Las enseñanzas universitarias oficiales se estructuran en:
