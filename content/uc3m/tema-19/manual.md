@@ -388,3 +388,10 @@ El artículo **198 de la Ley 9/2017 (LCSP)** regula el pago al contratista y deb
 **Fuentes primarias:** [**LCSP art. 198.4–6, BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a1-110) y [**Normas Básicas UC3M 2026, Volumen I, arts. 15–16**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), previamente cotejadas en este tema.
 
 > ⚠️ **¡Foco Examen!:** **30 días para conformidad**, **30 para abonar desde aprobación**, **4 meses para posible suspensión + preaviso 1 mes**, **6 meses para resolución**. **Documento O = propuesta de pago interna**, no pago material.
+
+
+## Repaso económico transversal T18–T20 — tema 19 (06/11/2026)
+
+[**Tabla de comparación conjunta T18–T20**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md), con las diferencias entre **presupuesto**, **pago** y **contratación**; [**12 preguntas adicionales en prácticas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección «Repasos adicionales UC3M». El **tema 19** aporta las preguntas **5–7**. No se alteran el banco original ni los simulacros.
+
+> ⚠️ **¡Foco Examen!:** Identificar siempre la **norma citada** y la **fase de gasto o contrato** antes de escoger plazo o cuantía.
