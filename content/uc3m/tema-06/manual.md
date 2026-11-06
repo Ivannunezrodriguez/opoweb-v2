@@ -140,7 +140,7 @@ Cuando una Administración u organismo público comete una infracción, el régi
 | Fin del bloqueo | Debe procederse a **destruir los datos**, cuando haya vencido dicho plazo y no exista otro fundamento aplicable de conservación. | Finalizada la prescripción aplicable. |
 | Bloqueo técnicamente imposible/desproporcionado | Puede exigirse **copia segura con evidencia** de integridad, fecha y ausencia de manipulación, en términos del **art. 32.4**. | Según el régimen aplicable. |
 
-**Fuente:** [**LO 3/2018, artículo 32, consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a32).
+**Fuente:** [**LO 3/2018, artículo 32, consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a3-4).
 
 > ⚠️ **¡Foco Examen!:** **Supresión ≠ destrucción inmediata sin reserva** cuando procede **bloqueo**. Los datos bloqueados **no** quedan disponibles libremente para consultas administrativas ordinarias.
 
@@ -168,7 +168,7 @@ Cuando una Administración u organismo público comete una infracción, el régi
 
 No confundir el procedimiento de reclamación **DPD → interesado (2 meses)** con la remisión **autoridad → DPD (1 mes)**, ni con los plazos de respuesta a derechos ejercidos ante el **responsable**.
 
-**Fuente:** [**LOPDGDD art. 37**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a37) y [**RGPD, art. 12.3**](https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=es).
+**Fuente:** [**LOPDGDD art. 37**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a3-9) y [**RGPD, art. 12.3**](https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=es).
 
 > ⚠️ **¡Foco Examen!:** **DPD responde al afectado en 2 meses** cuando acude previamente a él; **1 mes** para responder a la autoridad cuando esta le remite reclamación; **1 + hasta 2 meses** para solicitudes de derechos ante responsable, con los requisitos RGPD.
 
