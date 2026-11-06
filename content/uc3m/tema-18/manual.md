@@ -308,7 +308,7 @@ La ejecución de ingresos está sometida a contabilidad, control interno, audito
 
 ## Cotejo integral del banco · 04/11/2026
 
-[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Se han verificado directamente los importes en el **BOCM**; normas de vinculación, transferencias e incobrados aún requieren lectura primaria del **Volumen I UC3M 2026**. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
+[**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Se han verificado directamente los importes en el **BOCM**; normas de vinculación, transferencias e incobrados fueron posteriormente contrastadas con **Volumen I UC3M 2026**, según el apartado **19** y el cotejo institucional posterior; esta antigua reserva del **04/11** se mantiene únicamente como antecedente histórico. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
 
 > ⚠️ **¡Foco Examen!:** **Presupuesto UC3M 2026 = 300.468.067,59 €**. **Capítulo IV** es principal ingreso y **concepto 640** está dentro del **único capítulo VI** de gastos.
 
@@ -459,3 +459,12 @@ La **Ley 5/2025, de Hacienda de la Comunidad de Madrid**, distingue expresamente
 [**Tabla de comparación conjunta T18–T20**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md), con las diferencias entre **presupuesto**, **pago** y **contratación**; [**12 preguntas adicionales en prácticas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección «Repasos adicionales UC3M». El **tema 18** aporta las preguntas **1–4**. No se alteran el banco original ni los simulacros.
 
 > ⚠️ **¡Foco Examen!:** Identificar siempre la **norma citada** y la **fase de gasto o contrato** antes de escoger plazo o cuantía.
+
+
+## Cierre documental contrastado del presupuesto UC3M — **06/11/2026**
+
+[**Acta del tema 18, con fuentes oficiales, tablas y reservas**](../CIERRE_DOCUMENTAL_T18_20261106.md). Cubre **8 bloques de matriz**, **12 preguntas históricas (48 alternativas)** y **8 preguntas complementarias (32 alternativas)** de dos lotes existentes; **20 preguntas/80 alternativas** vinculadas al presupuesto de **2026** y al artículo legal pertinente. Las preguntas y simulacros originales no cambian. Se documentan **20 referencias más precisas**, sin declarar aprobación del usuario ni certificación integral de normas, navegación o accesibilidad.
+
+**Contraste de fuentes:** [**Presupuesto oficial BOCM 30/12/2025**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF), [**UC3M 2026 Volumen I**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), [**Ley 5/2025 CM, arts. 10, 56, 108, 109 y 182**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217). La aprobación del presupuesto universitario y su **publicación en BOCM** son hitos distintos; el corte legal UC3M **base primera.7** permanece pendiente de prueba primaria.
+
+> ⚠️ **¡Foco Examen!:** **No integración en presupuesto general CM (art. 56.3)** no significa exención de régimen presupuestario (**art. 108**). **Hitos 30/60/90/120 días** no son cuatro vencimientos del mismo acto.
