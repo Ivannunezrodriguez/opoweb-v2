@@ -120,5 +120,40 @@
     "opcionesVerificadas": 48,
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "certificacionTecnicaGlobal": false
+  },
+  "controlFocal20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T06_T08_20261106.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T06_T08_20261106.md",
+    "prueba": "tests/validate-la-puebla-repaso-t06-t08-20261106.mjs",
+    "bloquesExistentes": 7,
+    "bancoHistoricoPreguntas": 12,
+    "bancoHistoricoAlternativas": 48,
+    "microcasosExtraMarkdown": 3,
+    "alternativasExtraMarkdown": 12,
+    "fuentes": [
+      "BOE-A-1995-24292",
+      "BOE-A-1997-1853",
+      "Anteproyecto Consejo Ministros 2026-04-28"
+    ],
+    "comprobaciones": [
+      "LPRL 21.3 24 horas autoridad laboral",
+      "36.3 15 días Delegados, excepcional tiempo imprescindible",
+      "38.2 Comité desde 50",
+      "RD 39/1997 art 14 servicio propio por tamaño más de 500",
+      "Anteproyecto del 28/04/2026 no es norma vigente"
+    ],
+    "correccion": "Se corrigen metadatos de preguntas inexistentes y reserva historica; se documenta anteproyecto",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "recertificacionIntegral": false,
+    "pruebaNavegadorReal": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pendientes": [
+      "comprobacion legislacion a fecha examen 2026-11-14",
+      "GitHub Actions run sobre ultimo commit",
+      "navegador real movil WCAG PWA",
+      "certificacion juridica integral de todo el manual"
+    ]
   }
 }
