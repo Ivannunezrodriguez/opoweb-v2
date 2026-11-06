@@ -158,3 +158,41 @@ Contra la resolución de la recusación no cabe recurso autónomo, sin perjuicio
 [Auditoría individual de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): incluye fuente, artículo, juicio de distractores y advertencias de examen. **Estado:** banco cotejado; auditoría funcional en navegador y aprobación del usuario **pendientes**. El corte de vigencia jurídica en UC3M lo fija la **base primera.7** de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), asociado a la **resolución de admitidos definitivos y anuncio del ejercicio**, cuya fecha de publicación exacta no se ha fijado todavía con documento primario.
 
 > ⚠️ **¡Foco Examen!:** La literalidad de cada precepto y sus excepciones priman sobre una regla resumida; el **banco cotejado** no equivale a una certificación de todos los recorridos funcionales de OpoWeb.
+
+
+## 16. Órganos: restricciones a la delegación y quórum — 06/11/2026
+
+### 16.1. Competencias indelegables y límites posteriores: art. 9
+
+| Pregunta jurídica | Regla del **artículo 9** |
+|---|---|
+| ¿Puede delegarse la adopción de **disposiciones de carácter general**? | **No**, materia indelegable (**9.2.b**). |
+| ¿Puede el mismo órgano que dictó el acto resolver por delegación el **recurso contra ese acto**? | **No**, lo impide el **9.2.c**. |
+| ¿Puede delegarse en un órgano **no subordinado jerárquicamente**? | **Sí**, en los términos del **9.1**, con las aprobaciones previstas especialmente para la **AGE**. |
+| ¿Deben publicarse **delegación y revocación**? | **Sí**, en el boletín oficial correspondiente (**9.3**). |
+| ¿Quién se considera autor de un acto dictado **por delegación**? | El **órgano delegante**, con indicación expresa de esa circunstancia (**9.4**). |
+| ¿Puede subdelegarse competencia recibida por delegación? | **No**, salvo **autorización expresa de una ley** (**9.5**). |
+| ¿Puede delegarse resolver tras la **emisión de dictamen o informe preceptivo** del procedimiento? | **No**, una vez emitido el dictamen o informe preceptivo correspondiente (**9.5**). |
+| ¿La delegación es irrevocable? | **No**, el delegante puede revocarla **en cualquier momento** (**9.6**). |
+
+La delegación del ejercicio no altera la **titularidad de la competencia**; tampoco es equivalente a la **delegación de firma**, la **encomienda de gestión** o la **suplencia**.
+
+**Fuente:** [**Ley 40/2015, artículo 9**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9).
+
+> ⚠️ **¡Foco Examen!:** **Delegación de competencias: publicar y citar**; **delegación de firma: no requiere publicación por ese solo hecho**. La **subdelegación** exige habilitación legal expresa. Un **informe preceptivo ya emitido** impide delegar entonces la competencia resolutoria de ese procedimiento.
+
+### 16.2. Avocación y órgano colegiado: arts. 10 y 17
+
+| Situación | Regla | Trampa |
+|---|---|---|
+| Avocación por **órgano superior** respecto de subordinado | Procede motivadamente si concurren circunstancias técnicas, económicas, sociales, jurídicas o territoriales. | No es una delegación inversa general y permanente. |
+| Competencia delegada en **órgano no dependiente jerárquicamente** | Solo el **órgano delegante** puede **avocar** el asunto. | No cualquier superior ajeno al delegante. |
+| Acuerdo de avocación | **Motivado** y notificado a interesados antes o simultáneamente a la resolución final; no cabe recurso autónomo, sin perjuicio de impugnar al recurrir la decisión final. | **Avocar ≠ revocar** delegación. |
+| Sesión ordinaria de **órgano colegiado** | Presidente, Secretario o suplentes y **al menos la mitad de sus miembros**, presencialmente o a distancia. | Existen **reglas especiales** para el art. **15.2** y segunda convocatoria si está prevista. |
+| Todos los miembros y Secretario reunidos, sin convocatoria previa | Pueden constituirse si **todos deciden** hacerlo (**17.2**). | No basta que solo lo decida la Presidencia. |
+| Asunto **fuera del orden del día** | Exige **asistencia de todos los miembros** y declaración de urgencia **por mayoría** (**17.4**). | No lo permite una mayoría sin asistencia total. |
+| Acuerdos ordinarios | **Mayoría de votos** (**17.5**), sin perjuicio de reglas especiales aplicables. | No imponer siempre mayoría absoluta del número legal de miembros. |
+
+**Fuentes:** [**Ley 40/2015, arts. 10 y 17, texto consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
+
+> ⚠️ **¡Foco Examen!:** **Quórum habitual: Presidencia + Secretaría + mitad de miembros**. Un tema **fuera del orden del día** requiere **todos presentes y urgencia por mayoría**. **Avocación** en delegación no jerárquica: solo el **delegante**.
