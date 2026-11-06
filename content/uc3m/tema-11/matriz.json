@@ -110,5 +110,36 @@
     "corteNormativo": "PENDIENTE_LEER_RESOLUCION_LISTA_DEFINITIVA_Y_ANUNCIO_EJERCICIO",
     "pruebaNavegador": "PENDIENTE",
     "certificacionIntegral": false
+  },
+  "controlLoteMasivo20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_FOCAL_SIN_CIERRE_INTEGRAL",
+    "bloquesAbordados": [
+      {
+        "bloque": "Ámbito y marco normativo",
+        "manual": "14.1",
+        "fuente": "RD 364/1995 art.1; TREBEP; Ley 53/1984",
+        "preguntasComplementarias": [
+          7,
+          8
+        ]
+      },
+      {
+        "bloque": "Convocatorias y órganos de selección",
+        "manual": "14.2",
+        "fuente": "RD 364/1995 arts. 11-12,15-16,18",
+        "preguntasComplementarias": [
+          9,
+          10
+        ]
+      }
+    ],
+    "recurso": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+    "totalPreguntasComplementarias": 4,
+    "bancoOriginalSinModificar": true,
+    "simulacrosSinModificar": true,
+    "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
+    "certificacionWeb": false,
+    "aprobacionUsuario": false
   }
 }
