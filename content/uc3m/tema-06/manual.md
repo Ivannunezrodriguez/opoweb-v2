@@ -125,3 +125,49 @@ Cuando una Administración u organismo público comete una infracción, el régi
 [Auditoría individual de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): incluye fuente, artículo, juicio de distractores y advertencias de examen. **Estado:** banco cotejado; auditoría funcional en navegador y aprobación del usuario **pendientes**. El corte de vigencia jurídica en UC3M lo fija la **base primera.7** de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), asociado a la **resolución de admitidos definitivos y anuncio del ejercicio**, cuya fecha de publicación exacta no se ha fijado todavía con documento primario.
 
 > ⚠️ **¡Foco Examen!:** La literalidad de cada precepto y sus excepciones priman sobre una regla resumida; el **banco cotejado** no equivale a una certificación de todos los recorridos funcionales de OpoWeb.
+
+
+## 13. Protección de datos: bloqueo, DPD y plazos de reclamación — 06/11/2026
+
+### 13.1. Supresión y bloqueo de los datos: art. 32 LOPDGDD
+
+**Suprimir** datos no significa necesariamente **destruir físicamente e inmediatamente todos los soportes** si procede conservar información para atender posibles responsabilidades.
+
+| Operación | Régimen del **artículo 32** | Plazo |
+|---|---|---|
+| **Rectificación o supresión** de datos | El **responsable** debe **bloquear** los datos cuando procede rectificarlos o suprimirlos. | Desde que corresponde la rectificación o supresión. |
+| **Bloqueo** | Identificación y reserva con medios técnicos y organizativos que impidan tratamiento y visualización, **salvo puesta a disposición de jueces/tribunales, Ministerio Fiscal o Administraciones competentes**, especialmente autoridades de protección de datos, para responsabilidades. | **Solo durante el plazo de prescripción** de las posibles responsabilidades. |
+| Fin del bloqueo | Debe procederse a **destruir los datos**, cuando haya vencido dicho plazo y no exista otro fundamento aplicable de conservación. | Finalizada la prescripción aplicable. |
+| Bloqueo técnicamente imposible/desproporcionado | Puede exigirse **copia segura con evidencia** de integridad, fecha y ausencia de manipulación, en términos del **art. 32.4**. | Según el régimen aplicable. |
+
+**Fuente:** [**LO 3/2018, artículo 32, consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a32).
+
+> ⚠️ **¡Foco Examen!:** **Supresión ≠ destrucción inmediata sin reserva** cuando procede **bloqueo**. Los datos bloqueados **no** quedan disponibles libremente para consultas administrativas ordinarias.
+
+### 13.2. Delegado de Protección de Datos en universidades: art. 34
+
+| Cuestión | Obligación y límites legales |
+|---|---|
+| **Universidades públicas y privadas** | Deben **designar Delegado de Protección de Datos (DPD)**, por disposición expresa del **art. 34.1.b**. |
+| Comunicación de **designaciones, nombramientos y ceses** | **Responsables y encargados** deben comunicar a la **AEPD** o autoridad autonómica competente en **10 días**; también si el DPD es voluntario. |
+| ¿DPD obligatoriamente dedicado a jornada completa? | **No**: puede ser **a tiempo completo o parcial** atendiendo al volumen, riesgo y categorías de tratamiento. |
+| Independencia | El **DPD** no puede ser sancionado por su desempeño, salvo **dolo o negligencia grave** en los términos del **art. 36.2**; deben evitarse conflictos de intereses. |
+| Acceso a procesos y datos para el ejercicio de funciones | La organización no puede oponer indiscriminadamente al **DPD** deber de confidencialidad para impedir el acceso previsto por el **art. 36.3**. |
+
+**Fuente:** [**LO 3/2018, arts. 34–36**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673).
+
+> ⚠️ **¡Foco Examen!:** **DPD obligatorio** en **universidad pública y privada**; **10 días** para comunicar **nombramiento o cese**. **10 días** no es el plazo para contestar a toda solicitud de ejercicio de derechos RGPD.
+
+### 13.3. Reclamación ante DPD y reclamación ante autoridad: art. 37 LOPDGDD
+
+| Canal de reclamación | Quién la tramita | Plazo citado en la norma |
+|---|---|---|
+| Afectado se dirige **previamente al DPD** de la entidad | **DPD** comunica al afectado decisión adoptada. | **Máximo 2 meses** desde recepción de reclamación (**37.1**). |
+| Autoridad de protección de datos **remite reclamación al DPD** | **DPD** responde a la **autoridad** en el plazo. | **1 mes** (**37.2**). |
+| Ejercicio ordinario de derechos ante **responsable** | **Responsable** debe facilitar información sobre las actuaciones realizadas. | **1 mes**, prorrogable **otros 2 meses** cuando sea necesario por complejidad/número de solicitudes (**RGPD, art. 12.3**). |
+
+No confundir el procedimiento de reclamación **DPD → interesado (2 meses)** con la remisión **autoridad → DPD (1 mes)**, ni con los plazos de respuesta a derechos ejercidos ante el **responsable**.
+
+**Fuente:** [**LOPDGDD art. 37**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a37) y [**RGPD, art. 12.3**](https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=es).
+
+> ⚠️ **¡Foco Examen!:** **DPD responde al afectado en 2 meses** cuando acude previamente a él; **1 mes** para responder a la autoridad cuando esta le remite reclamación; **1 + hasta 2 meses** para solicitudes de derechos ante responsable, con los requisitos RGPD.
