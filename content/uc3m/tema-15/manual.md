@@ -388,3 +388,10 @@ No pueden presentarse propuestas de reforma durante los tres meses anteriores a 
 ### Entrenamiento complementario — ocho casos nuevos
 
 [**Repaso de 8 preguntas y 32 alternativas sobre los artículos 157–177 de los Estatutos**](../REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md). Se conservan intactas las **21 preguntas** del banco principal; el repaso nuevo **no** se mezcla con los simulacros oficiales de entrenamiento.
+
+
+## Cierre documental contrastado del tema 15 — **06/11/2026**
+
+[**Acta de auditoría y cierre documental, con reservas**](../CIERRE_DOCUMENTAL_T15_20261106.md): **7 bloques** cotejados con **Estatutos UC3M**, reforma de **2009**, **21 preguntas históricas (84 alternativas)**, **8 complementarias (32 alternativas)** y **2 microtest solo en manual**. Se ha corregido la cita del **art. 178.3** para la toma en consideración de la reforma, precisado el alcance de las **quejas ante la Defensoría** y añadido fundamento exacto al banco. El estado sigue **EN_REVISION_USUARIO**; falta determinar el corte jurídico de la convocatoria con documento primario y completar pruebas de navegador, accesibilidad, PWA y revisión LOSU.
+
+> ⚠️ **¡Foco Examen!:** **178.3 = tomar en consideración (mayoría de presentes)**; **179.1 = comisión**; **179.3 = aprobación definitiva (mayoría de miembros totales)**. **Cierre documental** no equivale a **certificación integral**.
