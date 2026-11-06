@@ -51,6 +51,8 @@ jobs:
         run: node tests/validate.mjs
       - name: Validar maquetación editorial de La Puebla
         run: node tests/validate-la-puebla-editorial.mjs
+      - name: Validar repaso juridico urgente La Puebla T01 a T04
+        run: node tests/validate-la-puebla-repaso-t01-t04-20261106.mjs
       - name: Verificar las 144 alternativas tributarias de La Puebla T10 T11 T12
         run: node tests/validate-la-puebla-t10-t11-t12-integral.mjs
       - name: Verificar las 144 alternativas jurídicas de La Puebla T3 T5 y T6
