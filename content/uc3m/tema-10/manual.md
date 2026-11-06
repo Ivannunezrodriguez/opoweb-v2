@@ -312,3 +312,9 @@ El **artículo 91 TREBEP** no fija un plazo único general de reingreso para tod
 [**Repaso conjunto de 18 preguntas, 72 alternativas y soluciones por precepto**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md). Para este tema, consultar las preguntas **1–6**, centradas en ámbito, derechos individuales/colectivos y reingreso. Es material **complementario**, no se han reemplazado los ítems originales ni los simulacros **70+5**. Las fuentes y apartados están relacionados en [**matriz del tema**](matriz.json).
 
 > ⚠️ **¡Foco Examen!:** Antes de aplicar un plazo, porcentaje u órgano de una norma, identificar **qué Administración o colectivo** regula. **RD 364/1995 (AGE)**, **TREBEP (ámbito básico y especialidades)**, **LOSU (universidades)** y **Ley 5/2025 CM (universidades madrileñas)** no son regímenes idénticos.
+
+## Cierre documental contrastado T10/T11 — **06/11/2026**
+
+[**Acta de cierre conjunta con reservas**](../CIERRE_DOCUMENTAL_T10_T11_20261106.md). El banco histórico de este tema conserva **12 preguntas / 48 alternativas** cotejadas individualmente en [**el informe de distractores**](cotejo-integral-2026-11-04.md), y se ha comprobado su correspondencia con el manual, matriz y preguntas complementarias del lote. Se han enlazado los artículos exactos del BOE para las preguntas del refuerzo; no se altera ningún identificador ni clave histórica.
+
+> ⚠️ **¡Foco Examen!:** La fecha normativa de la **base primera.7 UC3M** es la de publicación de la **resolución definitiva de admitidos y anuncio**, pendiente de verificar en documento primario; no es automáticamente el examen **21/11/2026**. Las reglas **AGE** del **RD 364/1995** tampoco sustituyen bases particulares de **UC3M**.

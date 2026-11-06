@@ -141,5 +141,20 @@
     "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
     "certificacionWeb": false,
     "aprobacionUsuario": false
+  },
+  "cierreDocumentalT10T11_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T10_T11_20261106.md",
+    "prueba": "tests/validate-uc3m-cierres-t10-t11-20261106.mjs",
+    "preguntasOriginales": 12,
+    "alternativasOriginales": 48,
+    "preguntasComplementarias": 4,
+    "alternativasComplementarias": 16,
+    "bloquesMatriz": 12,
+    "corteNormativo": "PENDIENTE_COMPROBAR_DOCUMENTO_PRIMARIO_UC3M",
+    "certificacionWeb": "PENDIENTE_E2E",
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false
   }
 }

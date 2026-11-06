@@ -191,3 +191,7 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 **Dos temas con cierre editorial contrastado y reservas:** [**acta T9/T12**](CIERRE_DOCUMENTAL_T09_T12_20261106.md), que verifica **14 apartados de ofimática T9**, **17 apartados de prevención T12**, **24 preguntas originales (96 alternativas)** cotejadas y **24 preguntas complementarias (96 alternativas)** con soluciones y fuentes oficiales. Ambos mantienen `EN_REVISION_USUARIO` por no existir aprobación, ni verificación integral de normativa a la fecha de corte ni prueba real E2E. La [**puerta automática**](../../tests/validate-uc3m-cierres-documentales-20261106.mjs) controla su integridad en CI.
 
 > ⚠️ **¡Foco Examen!:** **Cierre documental** no equivale a **certificación integral** ni a aprobar un tema por parte del usuario. Los tests y supuestos siguen separados de simulacros **70+5**.
+
+## Cierres documentales T10 y T11 con reservas — **06/11/2026**
+
+[**Acta de cierre T10/T11**](CIERRE_DOCUMENTAL_T10_T11_20261106.md): **24 preguntas originales / 96 opciones** contrastadas individualmente, **10 complementarias / 40 opciones** ya integradas con enlace al precepto oficial y **23 bloques de matriz**. Se añade [**prueba automatizada**](../../tests/validate-uc3m-cierres-t10-t11-20261106.mjs) que comprueba sus SHA originales. Continúan pendientes la fecha primaria exacta de corte legal de la **base primera.7**, E2E, móvil, WCAG y PWA. No supone aprobación del usuario ni certificación integral.
