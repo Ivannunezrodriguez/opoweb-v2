@@ -235,3 +235,10 @@ Hay que separar **obligaciones legales**, **medidas concretas del III Plan** y *
 ## Revisión focal de cuatro lagunas de test — **06/11/2026**
 
 **Motivo:** matriz de cobertura del Tema 8 con **cero preguntas propias** para tutela (apartado 5), empleo público (8), identidad y expresión de género (10) y lenguaje/imagen (13). Se amplía el manual con **LO 3/2007 arts. 10–13, 51, 55 y 61–62**, la [resolución UC3M de **13/07/2017**](https://sede.uc3m.es/boel/anexo/534/) y [guías/medidas del **III Plan UC3M**](https://www.uc3m.es/ss/Satellite/Igualdad/es/TextoDosColumnas/1371328944507/Buenas_practicas_en_el_tratamiento_del_lenguaje_en_igualdad). Se separan texto literal, reglas de examen e información sobre su valor normativo. **No se altera el banco original de 12 preguntas** y no se declara cierre integral. La fecha de corte normativo exigible UC3M continúa pendiente de resolver mediante documento primario de listas definitivas.
+
+
+## Repaso complementario de cuatro apartados sin test propio — 06/11/2026
+
+[**Cuestionario adicional de 12 preguntas / 48 alternativas, con fuentes y trampas razonadas**](../REPASO_IGUALDAD_T08_20261106.md). Refuerza tutela jurídica, igualdad en el empleo público, identidad y expresión de género UC3M, y lenguaje e imagen inclusivos. Se mantienen **intactos los 12 ítems originales** del tema y los simulacros generales.
+
+> ⚠️ **¡Foco Examen!:** La regla probatoria del **artículo 13.1 LO 3/2007 no se aplica a procesos penales**. La **Resolución UC3M de 2017** distingue **identificación interna** y **documentación oficial externa**. No confundir las **medidas** del III Plan de Igualdad con una norma sancionadora.
