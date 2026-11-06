@@ -840,3 +840,10 @@ Antes de aprobar el tema, revisar especialmente:
 Las **12 preguntas** y los **36 distractores** de este tema se han contrastado con el [texto oficial de la Constitución consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229). **Cuatro reformas** a esta fecha, incluida la del **art. 69.3 (2026)**. El desglose de todas las respuestas está en [**cotejo integral**](cotejo-integral-2026-11-04.md). **Contenido AUDITADO**; comprobación de navegador real pendiente.
 
 > ⚠️ **¡Foco Examen!:** El **art. 53.2** incluye el **amparo** a la objeción de conciencia del **art. 30.2**, pero la tutela ordinaria preferente/sumaria sigue referida al **art. 14** y **Sección 1.ª**. No confundir.
+
+
+## Repaso cruzado de **06/11/2026** · Constitución y plazos administrativos
+
+[**Ocho casos de examen explicados sobre temas 1–4**](../REPASO_URGENTE_T01_T04_20261106.md). Complementan el banco original y documentan la eficacia transitoria de la reforma constitucional del **69.3**. Las preguntas suplementarias **no** forman parte del banco interactivo ni se cuentan como 12 ítems adicionales.
+
+> ⚠️ **¡Foco Examen!:** **Cuatro** reformas constitucionales. **20/05/2026** entra en vigor el **69.3**, pero la creación de las circunscripciones de **Ibiza y Formentera** surte efectos desde la **primera convocatoria electoral posterior**.
