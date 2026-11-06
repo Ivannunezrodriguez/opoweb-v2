@@ -661,3 +661,10 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 8 aprobad
 Cotejados los **dos incisos del epígrafe**, el desarrollo íntegro de **Ley 12/2010** y **LO 3/2007**, y las **48 alternativas** de las 12 preguntas. [**Informe por respuesta correcta y distractores**](cotejo-integral-2026-11-04.md). **AUDITADO contenido; prueba funcional real de navegador/móvil pendiente**.
 
 > ⚠️ **¡Foco Examen!:** **Art. 13.2 Ley 12/2010**: informe trienal del **Instituto de la Mujer**; **art. 34.2**: informe trienal del **Consejo Escolar**. El plazo coincide, el órgano no.
+
+
+## 121. Informes, órganos y distintivo: contraste a **06/11/2026**
+
+[**Repaso T6–T8 con tres casos específicos de igualdad**](../REPASO_FOCAL_T06_T08_20261106.md). La **Ley 12/2010** exige dos informes de periodicidad **trienal**: **Instituto de la Mujer** remite a las **Cortes regionales** informe de aplicación de la Ley (**13.2**); **Consejo Escolar CLM** informa sobre iniciativas de igualdad en enseñanza (**34.2**, modificado por **Ley 4/2021**). Para el **Distintivo de Excelencia** autonómico se requieren al menos **2 años** de medidas implantadas, y la **Presidencia de la Junta** lo concede a propuesta del **Instituto de la Mujer** (**44.1–2**). La regla **40/60** de presencia equilibrada (**LO 3/2007, DA 1.ª**) no es el umbral de **50 trabajadores** para planes empresariales (**45.2**).
+
+> ⚠️ **¡Foco Examen!:** **Informe 13.2 = Instituto**, **34.2 = Consejo Escolar**, ambos **cada 3 años**; **distintivo 44 = 2 años de implantación**. Las normas especiales para **AGE** no se extrapolan automáticamente a entidades locales.
