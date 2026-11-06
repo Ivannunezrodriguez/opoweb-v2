@@ -395,3 +395,12 @@ El artículo **198 de la Ley 9/2017 (LCSP)** regula el pago al contratista y deb
 [**Tabla de comparación conjunta T18–T20**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md), con las diferencias entre **presupuesto**, **pago** y **contratación**; [**12 preguntas adicionales en prácticas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección «Repasos adicionales UC3M». El **tema 19** aporta las preguntas **5–7**. No se alteran el banco original ni los simulacros.
 
 > ⚠️ **¡Foco Examen!:** Identificar siempre la **norma citada** y la **fase de gasto o contrato** antes de escoger plazo o cuantía.
+
+
+## Cierre documental contrastado de ejecución de gastos y pagos — **06/11/2026**
+
+[**Acta del tema 19: 6 bloques, 15 preguntas y 60 alternativas con reservas**](../CIERRE_DOCUMENTAL_T19_20261106.md). Se conservan las **12 preguntas históricas y 48 opciones** cotejadas, junto con **3 casos adicionales y 12 opciones** de pago y contratos. Sus **15 referencias** se han precisado contra normas UC3M 2026 y [**LCSP art. 198**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a198), sin alterar claves ni simulacros.
+
+**Fuente institucional:** [**Normas Básicas UC3M 2026, Vol. I**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), **art. 15.2.1**, define **O = propuesta de pago**, **ADO = autorización, compromiso y propuesta de pago**; esto no equivale a salida de Tesorería. **Art. 16.2** caja fija hasta **5.000 € sin IVA** y **art. 16.3** anticipos de hasta **12.000 €** con justificación en **1 mes**. Las salvedades legales y la fecha de corte UC3M de la **base primera.7** siguen requiriendo comprobación completa.
+
+> ⚠️ **¡Foco Examen!:** **30 días de conformidad + 30 días para pago** (LCSP **198.4**) no equivalen a un **documento O**. **4 meses** de demora con preaviso de **1 mes** permite suspender; **6 meses** permite resolver, cuando concurren los requisitos del **198.5–6**.
