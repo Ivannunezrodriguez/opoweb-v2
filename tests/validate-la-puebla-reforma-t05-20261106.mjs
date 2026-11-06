@@ -1,0 +1,38 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const read=p=>readFileSync(p,'utf8');
+const json=p=>JSON.parse(read(p));
+const dir='content/la-puebla/tema-05/';
+const manual=read(dir+'manual.md');
+const fuentes=read(dir+'fuentes.md');
+const matriz=json(dir+'matriz.json');
+const bank=json(dir+'preguntas.json');
+const cotejo=read(dir+'cotejo-integral-2026-11-04.md');
+assert.equal(matriz.estado,'APROBADO_USUARIO');
+assert.equal(bank.estado,'APROBADO_USUARIO');
+assert.equal(bank.preguntas.length,12);
+assert.equal(matriz.cobertura.length,8);
+assert.ok(manual.includes('## 107. Reforma local de **2026**'));
+assert.ok(manual.includes('**25.2.q**')&&manual.includes('**69.1**')&&manual.includes('**25.2.p**'));
+assert.ok(manual.includes('**03/10/2026**')&&manual.includes('**23/10/2026**'));
+assert.ok(!manual.includes('Preguntas trazables: no creadas todavía'));
+assert.ok(fuentes.includes('BOE-A-1985-5392'));
+assert.ok(fuentes.includes('BOE-A-2026-20528'));
+assert.ok(fuentes.includes('12 preguntas/48'));
+const section=manual.slice(manual.indexOf('## 107. Reforma local de **2026**'));
+assert.equal((section.match(/^### Microcaso [12] · /gm)||[]).length,2);
+assert.equal((section.match(/^- \*\*[ABCD]\.\*\* /gm)||[]).length,8);
+assert.deepEqual([...section.matchAll(/^\*\*Respuesta: ([ABCD])\.\*\*/gm)].map(m=>m[1]),['A','C']);
+assert.equal((section.match(/^> ⚠️ \*\*¡Foco Examen!:/gm)||[]).length,2);
+const ids=new Set();
+for(const q of bank.preguntas){
+ assert.ok(q.id&&!ids.has(q.id));ids.add(q.id);
+ assert.equal(q.opciones.length,4);
+ assert.equal(new Set(q.opciones).size,4);
+ assert.equal(q.opciones[q.respuestaCorrecta],q.respuestaLiteral);
+ assert.ok(q.justificacion.length>30&&q.trampaExamen.length>15);
+ assert.ok(cotejo.includes(q.id),'Sin cotejo historico '+q.id);
+}
+assert.equal(ids.size,12);
+assert.ok(read('AUDITORIA_CONTINUA.md').includes('validate-la-puebla-reforma-t05-20261106.mjs'));
+console.log('LA PUEBLA T05: 8 INCISOS, 12 HISTORICAS / 48 OPCIONES, 2 MICROCASOS / 8 OPCIONES; LEY 4/2026 Y ART 25.2.q VS 69.1; NO E2E');
