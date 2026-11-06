@@ -184,3 +184,10 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 > ⚠️ **¡Foco Examen!:** **Simplificado ordinario en suministros/servicios: < 140.000 €**, **abreviado < 60.000 €** y **SARA UC3M ≥ 216.000 €**. **15 días naturales** para ofertas de simplificado ordinario; **10 días hábiles** de abreviado; **15 días hábiles** de espera previa a formalización cuando cabe recurso especial. Son reglas distintas.
 
 **Estado editorial:** contrastados los artículos críticos; la prueba automática verifica estructura y enlace de los casos, pero ni CI ni el despliegue sustituyen auditoría jurídico-funcional exhaustiva. **Fecha exacta del corte legislativo UC3M base primera.7: pendiente de resolución primaria.**
+
+
+## Cierre documental de los temas 9 y 12 — 06/11/2026
+
+**Dos temas con cierre editorial contrastado y reservas:** [**acta T9/T12**](CIERRE_DOCUMENTAL_T09_T12_20261106.md), que verifica **14 apartados de ofimática T9**, **17 apartados de prevención T12**, **24 preguntas originales (96 alternativas)** cotejadas y **24 preguntas complementarias (96 alternativas)** con soluciones y fuentes oficiales. Ambos mantienen `EN_REVISION_USUARIO` por no existir aprobación, ni verificación integral de normativa a la fecha de corte ni prueba real E2E. La [**puerta automática**](../../tests/validate-uc3m-cierres-documentales-20261106.mjs) controla su integridad en CI.
+
+> ⚠️ **¡Foco Examen!:** **Cierre documental** no equivale a **certificación integral** ni a aprobar un tema por parte del usuario. Los tests y supuestos siguen separados de simulacros **70+5**.
