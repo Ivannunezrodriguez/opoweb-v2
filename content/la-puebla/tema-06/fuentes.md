@@ -17,9 +17,16 @@
 
 > ⚠️ **¡Foco Examen!:** **4 años** de programa temporal interino autonómico, **2 años** de servicio activo para promoción interna, y **3 años** para ejecutar OEP son tres cifras distintas. La errata histórica que las confundía ya fue corregida en el manual.
 
-**Pendiente:** verificar integralmente todas las causas, excepciones y respuestas. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+**Reserva histórica de 02/11/2026:** entonces faltaba el cotejo de preguntas, efectuado el **04/11/2026** en [**12 claves/48 alternativas**](cotejo-integral-2026-11-04.md). Sigue pendiente la **verificación funcional real**, la revisión de posibles cambios de última hora y la **certificación integral de todas las capas**. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
 
 ## Cotejo completo **04/11/2026**
 
 [**48 alternativas verificadas**](cotejo-integral-2026-11-04.md), con [Ley 4/2011](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752), [TREBEP](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) y [análisis BOE modificación 70.2 por Ley 2/2026](https://www.boe.es/eli/es-cm/l/2011/03/10/4). **Cierre jurídico-editorial; funcional real pendiente**.
 
+
+
+## Control de vigencia y plazos comparados — **06/11/2026**
+
+[**Repaso completo de T6–T8 y sus 9 microcasos**](../REPASO_FOCAL_T06_T08_20261106.md). Confirmadas en [**Ley 4/2011 BOE arts. 8.1.c–d, 19.3–4 y 65.2**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752) las cifras de **4 años de programas**, **6 meses en 12 por tareas**, **3 años de ejecución OEP**, **10 % adicional** y **2 años de servicio activo para promoción interna**. [**Análisis oficial**](https://www.boe.es/buscar/doc.php?id=BOE-A-2011-7752) constata modificación de **70.2** por **Ley 2/2026**. El cuerpo consolidado BOE lleva actualización integrada hasta **21/03/2024**; la fuente de reforma **2026** se mantiene **separada**.
+
+> ⚠️ **¡Foco Examen!:** **Ley 4/2011, art. 70.2** tras **Ley 2/2026** no se deduce íntegramente del **consolidado BOE de 2024**; no ignorar la norma modificativa.
