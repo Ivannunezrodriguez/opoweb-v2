@@ -183,7 +183,12 @@
     "bancoHistoricoInalterado": true,
     "simulacrosInalterados": true,
     "aprobacionUsuario": false,
-    "ciPendiente": true,
-    "e2ePendiente": true
+    "ciPendiente": false,
+    "e2ePendiente": true,
+    "ciVerificado": {
+      "resultado": "success",
+      "run": "https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42293171453",
+      "step": "Comprobar cierres documentales UC3M T09 y T12"
+    }
   }
 }
