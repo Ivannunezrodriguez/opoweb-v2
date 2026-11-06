@@ -16,7 +16,7 @@
 | Reducción de tareas propias | **Máximo 50 %** (**130**) |
 | Órgano asesor | **2 estudiantes + 2 PAS + 2 PDI** (**132.3**) |
 | Iniciativa de reforma estatutaria | **Consejo de Gobierno** o **Claustro**, a propuesta de **1/5** de sus miembros (**178**) |
-| Toma en consideración | **Mayoría absoluta de claustrales presentes** (**179.1**) |
+| Toma en consideración | **Mayoría absoluta de claustrales presentes** (**178.3**) |
 | Aprobación final | **Mayoría absoluta de miembros totales del Claustro** (**179.3**) |
 | Periodo sin propuestas de reforma | **Últimos 3 meses del mandato del Claustro** (**180**) |
 | Contratación universitaria | **Rector**, órgano de contratación (**175**) |
@@ -131,7 +131,7 @@
 
 ### UC3M-T15-009 — La toma en consideración de una iniciativa de reforma requiere:
 
-**Base jurídica:** **Estatutos art. 179.1**. **Respuesta: A**. **Literal:** Mayoría absoluta de los claustrales presentes.
+**Base jurídica:** **Estatutos art. 178.3**. **Respuesta: A**. **Literal:** Mayoría absoluta de los claustrales presentes.
 
 | Opción | Alternativa exacta | Análisis |
 |---|---|---|
