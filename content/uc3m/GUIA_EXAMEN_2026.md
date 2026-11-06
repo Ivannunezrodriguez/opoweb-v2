@@ -125,3 +125,12 @@ Los **12 ítems anteriores del T9** permanecen y el refuerzo no se incorpora sil
 [**12 preguntas complementarias/48 alternativas sobre LOSU T13**](REPASO_LOSU_T13_20261106.md), con plantilla, explicación de la clave y artículo. El [**manual**](tema-13/manual.md) desarrolla **LOSU 6–17 y 40–43**, en los cuatro apartados de la matriz que no tenían preguntas directas. El **banco principal de T13 (12 ítems)** y los simulacros **70+5** no se han modificado.
 
 > ⚠️ **¡Foco Examen!:** **Conferencia General = política y oferta de plazas**; **Consejo de Universidades = verificación académica**; **CEUNE = participación estudiantil**. **Comunidad Autónoma** acuerda creación de facultades/escuelas; **universidad** se ocupa de departamentos e institutos en los términos legales.
+
+
+## Repaso por lotes UC3M — temas 10, 11, 14 y 18 — **06/11/2026**
+
+[**18 preguntas complementarias con 72 alternativas, plantilla y soluciones razonadas**](REPASO_LOTE_T10_T11_T14_T18_20261106.md), repartidas entre **TREBEP T10 (6)**, **RD 364/1995 e incompatibilidades T11 (4)**, **LOSU PDI e igualdad T14 (4)** y **Presupuesto UC3M T18 (4)**. Los [**temas 10**](tema-10/manual.md), [**11**](tema-11/manual.md), [**14**](tema-14/manual.md) y [**18**](tema-18/manual.md) incorporan tablas comparativas y nuevos bloques, con fuentes oficiales y matrices de trazabilidad.
+
+**No se han modificado** los bancos originales ni los **3 simulacros 70+5**. La ampliación de cuatro temas no equivale a **auditoría jurídica integral** ni certificación de la interfaz desplegada.
+
+> ⚠️ **¡Foco Examen!:** No extrapolar plazos de selección de **AGE (RD 364/1995)** a la convocatoria **UC3M**; ni incluir el **8 % temporal PDI** sin sus exclusiones; ni confundir **prórroga presupuestaria** con ausencia de presupuesto.
