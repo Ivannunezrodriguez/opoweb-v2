@@ -195,3 +195,12 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 ## Cierres documentales T10 y T11 con reservas — **06/11/2026**
 
 [**Acta de cierre T10/T11**](CIERRE_DOCUMENTAL_T10_T11_20261106.md): **24 preguntas originales / 96 opciones** contrastadas individualmente, **10 complementarias / 40 opciones** ya integradas con enlace al precepto oficial y **23 bloques de matriz**. Se añade [**prueba automatizada**](../../tests/validate-uc3m-cierres-t10-t11-20261106.mjs) que comprueba sus SHA originales. Continúan pendientes la fecha primaria exacta de corte legal de la **base primera.7**, E2E, móvil, WCAG y PWA. No supone aprobación del usuario ni certificación integral.
+
+
+## Cierre documental conjunto LOSU I–II (T13 y T14) — **06/11/2026**
+
+[**Acta de cierre T13–T14**](CIERRE_DOCUMENTAL_T13_T14_20261106.md): **26 preguntas históricas / 104 alternativas**, **16 complementarias / 64 alternativas** y **24 bloques de matriz** con referencia al artículo oficial de la LOSU. Se han actualizado **16 enlaces BOE precisos** en el banco complementario y corregido el **metadato erróneo** de la clave de **T14-002**, que sigue siendo **B («El 25 %»)**. [**Prueba automática del lote**](../../tests/validate-uc3m-cierres-t13-t14-20261106.mjs).
+
+**Estado:** cierre documental **con reservas**, no certificación integral ni aprobación del usuario. **Corte legal de UC3M** sujeto a comprobación primaria de la publicación de las listas definitivas y anuncio de examen; pendientes pruebas E2E en navegador, móvil, WCAG y PWA. No se alteran los simulacros **70+5**.
+
+> ⚠️ **¡Foco Examen!:** **Claustro (25 % estudiantado) ≠ Consejo de Gobierno (10 %)**; **5 % del presupuesto universitario ≠ 1 % del PIB** y **crear universidad ≠ autorizar su inicio de actividades**.
