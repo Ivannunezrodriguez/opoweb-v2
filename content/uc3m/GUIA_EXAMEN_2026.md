@@ -118,3 +118,10 @@ Los **12 ítems anteriores del T9** permanecen y el refuerzo no se incorpora sil
 [Repaso adicional: 12 preguntas y 48 alternativas, con soluciones y fuentes legales](REPASO_PRL_T12_20261106.md). Refuerza los cuatro apartados de la matriz sin preguntas propias: **ámbito (art. 3)**, **personas especialmente sensibles (25–28)**, **consulta (33 y 36)** y **coordinación empresarial (24; RD 171/2004)**. Mantiene las preguntas históricas del tema y los simulacros sin cambios.
 
 > ⚠️ **¡Foco Examen!:** Informes de los **Delegados**: **15 días** con la salvedad legal de los riesgos inminentes. **Empresas concurrentes**, **titular** y **principal** desempeñan funciones distintas.
+
+
+## Refuerzo LOSU Tema 13 — coordinación, estructuras, docencia y cooperación — **06/11/2026**
+
+[**12 preguntas complementarias/48 alternativas sobre LOSU T13**](REPASO_LOSU_T13_20261106.md), con plantilla, explicación de la clave y artículo. El [**manual**](tema-13/manual.md) desarrolla **LOSU 6–17 y 40–43**, en los cuatro apartados de la matriz que no tenían preguntas directas. El **banco principal de T13 (12 ítems)** y los simulacros **70+5** no se han modificado.
+
+> ⚠️ **¡Foco Examen!:** **Conferencia General = política y oferta de plazas**; **Consejo de Universidades = verificación académica**; **CEUNE = participación estudiantil**. **Comunidad Autónoma** acuerda creación de facultades/escuelas; **universidad** se ocupa de departamentos e institutos en los términos legales.
