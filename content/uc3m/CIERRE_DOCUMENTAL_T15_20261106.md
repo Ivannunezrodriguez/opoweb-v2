@@ -6,7 +6,7 @@
 
 | Inciso oficial | Material | Norma y artículos clave | Test / refuerzo |
 |---|---|---|---|
-| **Defensor Universitario** | [Manual §§2–3.1](tema-15/manual.md) | **Estatutos 127–132** y [**Decreto 95/2009, anexo 53**](https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf); [**información institucional UC3M**](https://www.uc3m.es/defensoria-universitaria/consultas-quejas) | **11** preguntas históricas específicas y límites, más ampliación de quejas |
+| **Defensor Universitario** | [Manual §§2–3.1](tema-15/manual.md) | **Estatutos 127–132** y [**Decreto 95/2009, anexo 53**](https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf); [**información institucional UC3M**](https://www.uc3m.es/defensoria-universitaria/consultas-quejas) | **12** preguntas históricas específicas y límites, más ampliación de quejas |
 | **Servicios universitarios** | [Manual §§4–5](tema-15/manual.md) | **Estatutos 157–165** | **1** original + **3** complementarias |
 | **Régimen económico-financiero** | [Manual §§6–10](tema-15/manual.md) | **Estatutos 167–177**; legislación posterior aplicable según corte | **3** originales + **5** complementarias |
 | **Reforma de los Estatutos** | [Manual §§11–13](tema-15/manual.md) | **Estatutos 178.1–3, 179.1–4 y 180** | **5** preguntas originales |
