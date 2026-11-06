@@ -139,6 +139,25 @@ La presentación de una queja ante el Defensor:
 
 Su función es protectora, mediadora y de mejora institucional.
 
+
+### 3.1. Quejas ante la Defensoría: presentación, límites y vía de recursos
+
+La [**Defensoría Universitaria de la UC3M**](https://www.uc3m.es/defensoria-universitaria/consultas-quejas) distingue **consultas** (orientación) y **quejas** (posibles vulneraciones de derechos y libertades). Según las instrucciones institucionales de presentación de solicitudes, una persona integrante de la comunidad universitaria debe formular la solicitud mediante escrito razonado en el plazo máximo de **un mes desde que tuvo conocimiento de los hechos**. Se trata del **plazo propio de solicitud a la Defensoría**, no del plazo general de los recursos administrativos.
+
+| Supuesto | Efecto y límite |
+|---|---|
+| **Consulta** | Información u orientación; no equivale a recurso administrativo. |
+| **Queja presentada** | La **Defensoría** registra la queja y la tramita o rechaza mediante **escrito motivado**. **No suspende automáticamente** los plazos legales de recursos administrativos o judiciales. |
+| Queja **anónima**, de **mala fe**, carente de fundamento o que pueda lesionar derechos de terceros | La **Defensoría** la rechaza según las reglas publicadas por la **UC3M**. |
+| Vías académicas o administrativas aún **no agotadas** | La **Defensoría** no actúa mientras no estén agotadas las vías establecidas. |
+| Procedimiento judicial pendiente | No entra en su examen; si se interpone una acción judicial durante su actuación, **suspende su propia actuación**, **no** el procedimiento judicial. |
+
+**No confundir dos suspensiones**: que la **Defensoría** suspenda **su intervención** al judicializarse el asunto **no significa** que la reclamación ante la Defensoría suspenda **los plazos procesales o administrativos**. La queja no sustituye al recurso de alzada, reposición ni contencioso-administrativo.
+
+**Fuente institucional consultada:** [UC3M · Solicitudes de actuación, categorías y presentación](https://www.uc3m.es/defensoria-universitaria/consultas-quejas) y [Reglamento de Defensor Universitario citado por la UC3M](https://www.uc3m.es/conocenos/normativa/organos-universidad). **Alcance:** instrucciones institucionales consultadas el **06/11/2026**; subsisten las reservas relativas al corte legal de la convocatoria.
+
+> ⚠️ **¡Foco Examen!:** **Un mes** para presentar **la solicitud ante la Defensoría** no es un plazo universal de recurso. Una **queja** no suspende por sí sola los recursos; cuando aparece una **acción judicial**, es la **Defensoría** la que suspende **su actuación**.
+
 ## 4. Servicios universitarios
 
 Los servicios universitarios apoyan la docencia, el estudio, la investigación, la transferencia, la gestión y la vida universitaria. Su creación, modificación o supresión corresponde a los órganos competentes conforme a los Estatutos y a las normas de organización de la Universidad.
