@@ -872,3 +872,10 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 2 aprobad
 Revisados los cinco incisos, la **Ley 39/2015, arts. 1–33**, el manual y las **48 alternativas del banco**. Véase [revisión jurídica individual y descarte de distractores](cotejo-integral-2026-11-04.md). **Contenido AUDITADO; prueba funcional real pendiente**.
 
 > ⚠️ **¡Foco Examen!:** **Art. 30.4–5**: si falta día equivalente, plazo mensual concluye el último día del mes, prorrogado al primer hábil si fuera inhábil.
+
+
+## Repaso cruzado de **06/11/2026** · Plazos de Ley 39/2015
+
+[**Tabla comparativa y ocho casos T1–T4**](../REPASO_URGENTE_T01_T04_20261106.md): **art. 30.4–5** cómputo por meses y día inhábil; **art. 31** presentación en registro electrónico; **art. 32** ampliación hasta la mitad **antes del vencimiento**; **art. 33** urgencia reduce a mitad salvo **solicitudes y recursos**. Se conserva el cotejo del banco original **12 preguntas/48 alternativas**.
+
+> ⚠️ **¡Foco Examen!:** **Ampliar hasta la mitad** del plazo es distinto de **reducir a la mitad** por urgencia; no aplicar urgencia a plazos de **presentación de solicitudes o recursos**.
