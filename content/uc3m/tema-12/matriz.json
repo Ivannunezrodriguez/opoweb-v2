@@ -204,5 +204,28 @@
     "documentosPdfInspeccionadosVisualmente": false,
     "certificacionNavegador": false,
     "certificacionIntegral": false
+  },
+  "cierreDocumental20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "tipo": "EDITORIAL_ESTUDIO_NO_CERTIFICACION_INTEGRAL",
+    "seccionesBase": 17,
+    "preguntasHistoricas": 12,
+    "alternativasHistoricas": 48,
+    "preguntasComplementarias": 12,
+    "alternativasComplementarias": 48,
+    "bloquesHistoricosSinPreguntaReforzados": 4,
+    "fuentesCotejadas": [
+      "Ley 31/1995 BOE consolidada 09/04/2026",
+      "RD 39/1997 BOE",
+      "RD 171/2004 BOE"
+    ],
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T09_T12_20261106.md",
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_BASE_1_7",
+    "bancoHistoricoInalterado": true,
+    "simulacrosInalterados": true,
+    "aprobacionUsuario": false,
+    "ciPendiente": true,
+    "e2ePendiente": true
   }
 }
