@@ -137,3 +137,14 @@ Fuente institucional original accesible mediante su ID en el repositorio: [**Pre
 **Cautela normativa:** comparar siempre el ámbito de la norma antes de aplicar una cifra: **AGE** en el RD 364/1995, **universidades públicas** en LOSU y **Comunidad de Madrid** en la Ley 5/2025 de Hacienda. La fecha exacta de corte legal del examen UC3M depende de la publicación primaria de la resolución de listas definitivas que no se ha cotejado directamente; no confundir con el día del examen. La ampliación es **documental focal**, no certificación integral de legislación, interfaz o tests.
 
 > ⚠️ **¡Foco Examen!:** **Prórroga automática** hasta publicación BOCM; **Tesorería General CM excluye recursos de universidades**.
+
+
+## Revisión conectada T18–T20 — 06/11/2026
+
+**Fuente normativa primaria comprobada:** [**Ley 5/2025 CM arts. 10.1, 56.3, 108.1/4/6 y 182.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217). **Cambio focal del tema 18:** Universidad elabora/aprueba/gestiona su presupuesto; NO integración en presupuesto general autonómico (56.3); prórroga automática hasta publicación BOCM (108.4); recursos universitarios fuera de Tesorería General (182.1).
+
+**Desarrollo:** [**manual del tema 18**](manual.md), apartados **21.1–21.2** y [**tabla transversal de presupuestos, pagos y contratos**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md). **Casos interactivos:** preguntas **1–4** de [**12 preguntas nuevas / 48 alternativas**](../../../data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json), con fuentes y explicación, sin modificar bancos históricos ni simulacros.
+
+**Reserva editorial:** se ha contrastado de forma explícita el alcance de **los artículos señalados**, no todos los preceptos de cada norma ni su aplicación temporal exacta al examen de UC3M, cuya **base primera.7** exige fecha de resolución definitiva aún pendiente de comprobación primaria. No se declara certificación jurídica ni funcional integral.
+
+> ⚠️ **¡Foco Examen!:** El umbral monetario y el plazo solo son correctos si se identifica **procedimiento, órgano y unidad temporal**; el estudio de **2026** no debe suplantarse por reglas genéricas de otras Administraciones.
