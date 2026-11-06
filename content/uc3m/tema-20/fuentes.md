@@ -48,3 +48,14 @@ Se priorizan los artículos de la LCSP directamente conectados con el epígrafe 
 [**Revisión individual de 12 preguntas, 48 alternativas**](cotejo-integral-2026-11-04.md) y control de los umbrales oficiales **2026**: **contrato menor de servicios < 15.000 €**, **recurso especial > 100.000 €** y **SARA UC3M ≥ 216.000 €**. Se mantiene la distinción de competencia originaria del **Rector**. **COTEJO_BANCO_COMPLETO** no es prueba de navegación, accesibilidad, aprobación del usuario ni certificación integral del temario.
 
 > ⚠️ **¡Foco Examen!:** **Menor, recurso especial y SARA no son sinónimos**: un contrato que supera el umbral de recurso especial no tiene por qué superar el umbral **SARA**.
+
+
+## Revisión conectada T18–T20 — 06/11/2026
+
+**Fuente normativa primaria comprobada:** [**LCSP arts. 44, 118, 153–154, 159, 198 y DA 12.ª; Orden HAC/1517/2025**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902). **Cambio focal del tema 20:** Abierto simplificado <140.000 € en suministros/servicios y abreviado <60.000 € no intelectual; plazos naturales/hábiles y formalización; excepción parcial del informe para pagos por caja fija con valor estimado ≤5.000 €, distinta del límite interno UC3M.
+
+**Desarrollo:** [**manual del tema 20**](manual.md), apartados **17.8 y 30–32** y [**tabla transversal de presupuestos, pagos y contratos**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md). **Casos interactivos:** preguntas **8–12** de [**12 preguntas nuevas / 48 alternativas**](../../../data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json), con fuentes y explicación, sin modificar bancos históricos ni simulacros.
+
+**Reserva editorial:** se ha contrastado de forma explícita el alcance de **los artículos señalados**, no todos los preceptos de cada norma ni su aplicación temporal exacta al examen de UC3M, cuya **base primera.7** exige fecha de resolución definitiva aún pendiente de comprobación primaria. No se declara certificación jurídica ni funcional integral.
+
+> ⚠️ **¡Foco Examen!:** El umbral monetario y el plazo solo son correctos si se identifica **procedimiento, órgano y unidad temporal**; el estudio de **2026** no debe suplantarse por reglas genéricas de otras Administraciones.
