@@ -125,5 +125,39 @@
     "documento": "content/la-puebla/tema-08/cotejo-integral-2026-11-04.md",
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "certificacionIntegralCincoCapas": false
+  },
+  "controlFocal20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T06_T08_20261106.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T06_T08_20261106.md",
+    "prueba": "tests/validate-la-puebla-repaso-t06-t08-20261106.mjs",
+    "bloquesExistentes": 8,
+    "bancoHistoricoPreguntas": 12,
+    "bancoHistoricoAlternativas": 48,
+    "microcasosExtraMarkdown": 3,
+    "alternativasExtraMarkdown": 12,
+    "fuentes": [
+      "BOE-A-2011-2708",
+      "BOE-A-2007-6115",
+      "BOE-A-2021-18038"
+    ],
+    "comprobaciones": [
+      "Ley 12/2010 13.2 Instituto Mujer informe trienal",
+      "34.2 Consejo Escolar informe trienal tras Ley 4/2021",
+      "44.1-2 Distintivo 2 años y Presidencia Junta",
+      "LO 3/2007 DA primera regla 40/60 y art 45.2 plan desde 50"
+    ],
+    "correccion": "La norma ya estaba bien: refuerzo y levantamiento explicito de reserva editorial antigua",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "recertificacionIntegral": false,
+    "pruebaNavegadorReal": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pendientes": [
+      "comprobacion legislacion a fecha examen 2026-11-14",
+      "GitHub Actions run sobre ultimo commit",
+      "navegador real movil WCAG PWA",
+      "certificacion juridica integral de todo el manual"
+    ]
   }
 }
