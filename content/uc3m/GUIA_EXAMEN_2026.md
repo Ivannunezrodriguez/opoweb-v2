@@ -222,3 +222,14 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 **Reserva esencial:** el **TS anuló el RD 905/2025** mediante fallo publicado **23/10/2026**, pero **no** el **RD 822/2021** completo. La **base primera.7** fija la normativa del examen a la publicación de listas definitivas y anuncio del ejercicio; **falta la resolución primaria fechada** para verificar el corte. Pendientes navegador E2E, WCAG/PWA y aprobación; estado **EN_REVISION_USUARIO**.
 
 > ⚠️ **¡Foco Examen!:** **25 %** de prácticas de Grado y **25 %** del máximo reconocible de FP tienen fundamentos distintos. **90 días** por reconocimiento tardío no son los **30 días** del procedimiento especial de actividades.
+
+
+## Cierre documental UC3M tema 17 · Admisión y traslados — **06/11/2026**
+
+[**Acta T17 con reservas**](CIERRE_DOCUMENTAL_T17_20261106.md): **9 bloques de cobertura** vinculados al RD **534/2024**, RD **535/2026** y normas UC3M, **12 preguntas históricas/48 alternativas**, **6 complementarias/24 alternativas** y **4 microcasos/16 alternativas** incorporados al manual; **22 ejercicios documentales** y **88 opciones** en total, de los cuales **18** están en bancos interactivos. [**Prueba automatizada del tema**](../../tests/validate-uc3m-cierre-t17-20261106.mjs), sin atribuirle éxito de CI hasta disponer de un run validado.
+
+**Hallazgo sustantivo:** la norma de cambio de titulación se aprobó el **25/02/2010**, confirmado por el texto original institucional y el anexo 5 del BOEL, aunque el resumen de acuerdos del mismo BOEL de enero de 2026 presenta una **errata «2020»**. Contraste adicional de **B2 de idioma**, vacantes externas que pasan al cupo interno UC3M (**art. 4.4**) y **5 % adicional deportivo** limitado a supuestos legales. Revisadas las fuentes de las **18 preguntas interactivas** sin cambiar soluciones ni simulacros **70+5**.
+
+**Reservas:** fecha primaria del corte de normativa **base primera.7**, E2E/móvil/WCAG/PWA, inspección visual PDF y aprobación del usuario. **Estado de trabajo: cierre documental con reservas**, no certificación integral.
+
+> ⚠️ **¡Foco Examen!:** **6 ECTS mismo centro** vs. **30 ECTS cambio específico**; **50 % del cupo de traslados internos**, no de todas las plazas; **B2** con condiciones y excepciones; **RD 535/2026** en vigor desde **22/07/2026**.
