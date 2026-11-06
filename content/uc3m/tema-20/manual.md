@@ -664,3 +664,12 @@ El **art. 118.5** no dice que «todo contrato menor de menos de **5.000 €** ca
 [**Tabla de comparación conjunta T18–T20**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md), con las diferencias entre **presupuesto**, **pago** y **contratación**; [**12 preguntas adicionales en prácticas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección «Repasos adicionales UC3M». El **tema 20** aporta las preguntas **8–12**. No se alteran el banco original ni los simulacros.
 
 > ⚠️ **¡Foco Examen!:** Identificar siempre la **norma citada** y la **fase de gasto o contrato** antes de escoger plazo o cuantía.
+
+
+## Cierre documental de contratación pública — **06/11/2026**
+
+[**Acta T20: 10 bloques, 17 preguntas y 68 alternativas con reservas**](../CIERRE_DOCUMENTAL_T20_20261106.md). Se conservaron **12 preguntas históricas/48 opciones** y **5 complementarias/20 opciones** ya existentes; las **17 referencias** se precisaron con artículos de [**LCSP BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902) o [**Estatutos UC3M**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782), sin cambiar respuestas ni simulacros.
+
+**Precisión legal:** el **art. 118.5 LCSP** exceptúa **únicamente el informe del 118.2** en contratos menores con **VEC ≤5.000 €** pagados mediante **caja fija o sistema similar**; no es exención automática de publicidad y demás obligaciones. **No se certifica aún** el tema al **100 %**: faltan fecha primaria de corte de UC3M, controles funcionales y aprobación.
+
+> ⚠️ **¡Foco Examen!:** **Menor servicios <15.000 €**, **simplificado ordinario <140.000 €**, **abreviado <60.000 €**, **recurso especial >100.000 €**, **SARA UC3M ≥216.000 €**: importes para **efectos diferentes**, sin IVA salvo indicación legal.
