@@ -264,3 +264,23 @@ El artículo **2.2** configura las disposiciones laborales como **mínimos indis
 **Fuente:** [**Ley 31/1995, arts. 25–28, texto consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292).
 
 > ⚠️ **¡Foco Examen!:** **Menores de 18**: evaluación **antes de incorporarse**. **Embarazo: adaptar → cambiar puesto → suspender por riesgo**, condicionado a los requisitos. **Temporalidad y ETT** no justifican menor protección.
+
+
+## 20. Consulta preventiva y plazo de informes (arts. 33 y 36)
+
+La **consulta previa** de decisiones que afectan a seguridad y salud es distinta de la **emisión de informes** por los **Delegados de Prevención**.
+
+| Actuación | Órgano y plazo | Base legal |
+|---|---|---|
+| Consultar organización del trabajo, nuevas tecnologías y organización de actividad preventiva | **Empresario**, **con debida antelación**; cuando hay representación, consulta a **representantes** | **33.1.a–b y 33.2** |
+| Consultar designación del personal de emergencias y organización de formación preventiva | **Empresario**, antes de adoptar las decisiones | **33.1.c y e** |
+| Informe de **Delegados de Prevención** sobre decisiones del art. 33 | Plazo ordinario de **15 días** | **36.3** |
+| Informe sobre medidas para prevenir **riesgos inminentes** | **Tiempo imprescindible**, no automáticamente quince días | **36.3** |
+| Transcurso del plazo sin emitir informe | **Empresario puede poner en práctica** su decisión | **36.3** |
+| Rechazo a medidas preventivas propuestas por un Delegado | **Empresario debe motivar** la negativa | **36.4** |
+
+**Supuesto:** si la organización quiere introducir una nueva tecnología que modifica riesgos, debe **consultar previamente**. La regla de **15 días** corresponde específicamente al informe de **Delegados** del **artículo 36.3**, que contempla una excepción por riesgo inminente.
+
+**Fuente oficial:** [**Ley 31/1995, arts. 33 y 36 (BOE)**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292).
+
+> ⚠️ **¡Foco Examen!:** **15 días** para informar, pero en riesgo **inminente** rige el **tiempo imprescindible**. Cuando vence sin informe, el **empresario puede ejecutar** la decisión; rechazar medidas propuestas exige **motivación**.
