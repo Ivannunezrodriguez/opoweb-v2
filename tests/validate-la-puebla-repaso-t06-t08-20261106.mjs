@@ -41,11 +41,26 @@ for(let n=6;n<=8;n++){
  const bank=json(t.preguntas),manual=read(t.manual),sources=read(t.fuentes),matrix=json(t.matriz);
  assert.equal(bank.estado,'APROBADO_USUARIO');
  assert.equal(matrix.estado,'APROBADO_USUARIO');
+ const focal=matrix.controlFocal20261106;
+ assert.equal(focal?.resultado,'INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS');
+ assert.equal(focal?.bloquesExistentes,matrix.cobertura.length);
+ assert.equal(focal?.bancoHistoricoPreguntas,12);
+ assert.equal(focal?.bancoHistoricoAlternativas,48);
+ assert.equal(focal?.microcasosExtraMarkdown,3);
+ assert.equal(focal?.alternativasExtraMarkdown,12);
+ assert.equal(focal?.recertificacionIntegral,false);
+ assert.equal(focal?.pruebaNavegadorReal,false);
+ assert.equal(focal?.ejecucionGitHubActionsVerificada,false);
  assert.equal(bank.preguntas.length,12);
  assert.ok(manual.includes('REPASO_FOCAL_T06_T08_20261106.md'));
  assert.ok(sources.includes('REPASO_FOCAL_T06_T08_20261106.md'));
  assert.ok(!manual.includes('Preguntas trazables: no creadas todavía'));
  assert.ok(sources.includes('cotejo-integral-2026-11-04.md'));
+ if(n===7){
+  assert.ok(manual.includes('### 61.1. Reforma de prevención laboral anunciada'));
+  assert.ok(manual.includes('anteproyecto de ley'));
+  assert.ok(sources.includes('anteproyecto'));
+ }
  assert.ok(existsSync(normalize(join(dirname(t.manual),'../REPASO_FOCAL_T06_T08_20261106.md'))));
  for(const q of bank.preguntas){
   assert.ok(q.id&&!allIds.has(q.id),'ID duplicado '+q.id);allIds.add(q.id);
