@@ -188,3 +188,10 @@ La **inadmisión** y la **denegación de acceso** no son sinónimos: la primera 
 **Fuente:** [**Ley 10/2019 CM, arts. 43–46**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102).
 
 > ⚠️ **¡Foco Examen!:** **Acceso gratuito ≠ copias necesariamente gratuitas**. **Información publicada** puede resolverse señalando cómo acceder. Si **un tercero se opuso**, el acceso efectivo puede **esperar al desenlace de la impugnación**.
+
+
+## Repaso práctico integrado — tema 7 (06/11/2026)
+
+[**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
+
+> ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
