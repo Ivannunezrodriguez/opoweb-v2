@@ -305,3 +305,10 @@ El **artículo 91 TREBEP** no fija un plazo único general de reingreso para tod
 **Fuente:** [**TREBEP, arts. 87–91, consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719).
 
 > ⚠️ **¡Foco Examen!:** **Art. 91 = remisión reglamentaria**, no plazo universal. **Reingreso desde servicios especiales** y **desde excedencia** pueden presentar reglas distintas.
+
+
+## Repaso integrado del lote T10, T11, T14 y T18 — tema 10 (06/11/2026)
+
+[**Repaso conjunto de 18 preguntas, 72 alternativas y soluciones por precepto**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md). Para este tema, consultar las preguntas **1–6**, centradas en ámbito, derechos individuales/colectivos y reingreso. Es material **complementario**, no se han reemplazado los ítems originales ni los simulacros **70+5**. Las fuentes y apartados están relacionados en [**matriz del tema**](matriz.json).
+
+> ⚠️ **¡Foco Examen!:** Antes de aplicar un plazo, porcentaje u órgano de una norma, identificar **qué Administración o colectivo** regula. **RD 364/1995 (AGE)**, **TREBEP (ámbito básico y especialidades)**, **LOSU (universidades)** y **Ley 5/2025 CM (universidades madrileñas)** no son regímenes idénticos.
