@@ -134,3 +134,19 @@ Los **12 ítems anteriores del T9** permanecen y el refuerzo no se incorpora sil
 **No se han modificado** los bancos originales ni los **3 simulacros 70+5**. La ampliación de cuatro temas no equivale a **auditoría jurídica integral** ni certificación de la interfaz desplegada.
 
 > ⚠️ **¡Foco Examen!:** No extrapolar plazos de selección de **AGE (RD 364/1995)** a la convocatoria **UC3M**; ni incluir el **8 % temporal PDI** sin sus exclusiones; ni confundir **prórroga presupuestaria** con ausencia de presupuesto.
+
+
+## Práctica interactiva ampliada — 126 preguntas complementarias · 06/11/2026
+
+**Novedad funcional:** el apartado de [**Tests y simulacros UC3M**](../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026) incorpora una sección **«Repasos adicionales UC3M»** con **9 bloques y 126 preguntas complementarias**, cuatro opciones, corrección, justificación, trampa y referencia, usando la infraestructura ordinaria de historial local. La sección es **adicional** a los bancos originales, que permanecen intactos y mantienen su propio número de preguntas.
+
+| Recurso cargado | Preguntas | Temas |
+|---|---:|---|
+| [**7 repasos Markdown convertidos a JSON**](../../data/uc3m-repasos-complementarios-20261106.json) | **86** | **8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18** |
+| [**Repaso final anterior, JSON ya existente**](../../data/uc3m-repaso-temas-13-20-20261106.json) | **24** | **13–17 y 20** |
+| [**Casos de presupuesto UC3M, JSON ya existente**](../../data/uc3m-presupuesto-supuestos-20261106.json) | **16** | **18–19** |
+| **Total adicional** | **126** | **No sustituyen los tests ni los 3 simulacros** |
+
+Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md). Los **24 vacíos históricos** describen falta de pregunta en el banco anterior y fueron abordados por refuerzos documentales: **no** es una afirmación de que todos los apartados legales estén actualizados. La [**validación automatizada**](../../tests/validate-uc3m-extra-repasos-20261106.mjs) comprueba identificadores, estructura y enlace de código; la **prueba E2E de la web desplegada** es una verificación separada.
+
+> ⚠️ **¡Foco Examen!:** Los **repasos adicionales** son preguntas de **entrenamiento propio de OpoWeb**. No tienen el número ni la nota oficial de un examen de **70 titulares + 5 reservas**: su corrección sirve para estudiar contenidos; **no declara APTO** ni sustituye al tribunal.
