@@ -76,6 +76,9 @@ let programme = null;
 let supuestos = null;
 let simulacros = null;
 let questionMap = new Map();
+let extraRepasos = [];
+let extraRepasoErrors = [];
+
 
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -212,6 +215,69 @@ async function loadQuestionBanks() {
   return new Map(banks.flat().map(question => [question.id, question]));
 }
 
+async function loadExtraRepasos() {
+  // Recursos creados por OpoWeb, diferentes de los bancos originales y de los simulacros.
+  // Un fallo de esta carga opcional no debe impedir estudiar los tests históricos.
+  extraRepasoErrors = [];
+  if (activeCall.id !== 'uc3m-auxiliar-administrativa-c2-2026') return [];
+  const sources = [
+    { url: 'data/uc3m-repasos-complementarios-20261106.json', title: 'Repasos documentales de temas' },
+    { url: 'data/uc3m-repaso-temas-13-20-20261106.json', title: 'Repaso final de los temas 13–20' },
+    { url: 'data/uc3m-presupuesto-supuestos-20261106.json', title: 'Supuestos de presupuesto UC3M 2026' }
+  ];
+  const results = await Promise.all(sources.map(async source => {
+    try {
+      const response = await fetch(source.url, { cache: 'no-cache' });
+      if (!response.ok) throw new Error('No se ha podido leer el recurso complementario.');
+      const payload = await response.json();
+      const packs = Array.isArray(payload.paquetes)
+        ? payload.paquetes
+        : [{ id: payload.id, titulo: source.title, preguntas: payload.preguntas }];
+      if (!packs.length) throw new Error('Sin paquetes de repaso.');
+      return packs.map(pack => {
+        if (!pack.id || !Array.isArray(pack.preguntas) || !pack.preguntas.length) {
+          throw new Error('Banco complementario sin estructura válida.');
+        }
+        const preguntas = pack.preguntas.map(item =>
+          normaliseQuestion({ ...item, titulo: 'Tema ' + item.tema + ' · ' + pack.titulo })
+        );
+        if (preguntas.some(q =>
+          !q.id || !q.pregunta || !Number.isInteger(q.tema) || q.tema < 1 ||
+          q.tema > activeCall.themeCount || q.opciones.length !== 4 ||
+          !Number.isInteger(q.correcta) || q.correcta < 0 || q.correcta > 3 ||
+          !q.justificacion || !q.referencia
+        )) throw new Error('Preguntas complementarias incompletas.');
+        return { id: String(pack.id), titulo: String(pack.titulo), preguntas };
+      });
+    } catch (error) {
+      extraRepasoErrors.push(source.title);
+      return [];
+    }
+  }));
+  return results.flat();
+}
+
+function renderExtraRepasos() {
+  if (activeCall.id !== 'uc3m-auxiliar-administrativa-c2-2026') return '';
+  const total = extraRepasos.reduce((sum, pack) => sum + pack.preguntas.length, 0);
+  const cards = extraRepasos.map(pack => {
+    const temas = [...new Set(pack.preguntas.map(q => q.tema))].sort((a, b) => a - b);
+    return '<button class="practice-card" type="button" data-extra-repaso="' +
+      escapeHtml(pack.id) + '"><span class="badge">' + pack.preguntas.length +
+      ' preguntas · Tema' + (temas.length > 1 ? 's ' : ' ') + temas.join(', ') +
+      '</span><h3>' + escapeHtml(pack.titulo) +
+      '</h3><p>Práctica complementaria. Respuestas razonadas con fuentes.</p></button>';
+  }).join('');
+  const warning = extraRepasoErrors.length
+    ? '<p class="notice">Algunos repasos no han podido cargarse. Los tests ordinarios siguen disponibles.</p>'
+    : '';
+  return '<section class="panel" id="uc3m-extra-repasos"><h2>Repasos adicionales UC3M</h2>' +
+    '<p class="search-count">' + total + ' preguntas de elaboración propia en ' +
+    extraRepasos.length + ' bloques, distintas de los tests por tema y de los simulacros.' +
+    ' No son exámenes oficiales; el corte normativo de la convocatoria sigue pendiente de contraste primario.</p>' +
+    '<div class="practice-grid">' + cards + '</div>' + warning + '</section>';
+}
+
 function renderHistory(progress) {
   if (!progress.attempts.length) return '<p class="empty-state">Todavía no hay ejercicios corregidos en este dispositivo.</p>';
   return `<div class="history-summary"><div><span>Intentos</span><strong>${progress.attempts.length}</strong></div><div><span>Media</span><strong>${progress.average}%</strong></div><div><span>Mejor resultado</span><strong>${progress.best}%</strong></div></div><div class="history-list">${progress.attempts.slice(0, 8).map(item => `<article class="history-item"><div><strong>${escapeHtml(item.title)}</strong><span>${formatAttemptDate(item.completedAt)}</span></div><b>${item.notaExamen != null ? `${Number(item.notaExamen).toFixed(2).replace('.', ',')}/10` : `${item.notaDirecta != null ? `${Number(item.notaDirecta).toFixed(2).replace('.', ',')}/70 directa` : `${item.correct}/${item.total} · ${item.percentage}%`}`}</b></article>`).join('')}</div>`;
@@ -239,6 +305,7 @@ function renderHub() {
     ${examBanner}
     <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div>${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div>${renderHistory(progress)}</section>
     <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; const count = [...questionMap.values()].filter(q => q.tema === theme.numero).length; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}" ${count ? '' : 'disabled aria-disabled="true"'}><span class="badge">${count ? `${count} preguntas · ${escapeHtml(score)}` : 'Preguntas en revisión jurídica'}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
+    ${renderExtraRepasos()}
     ${supuestos.supuestos.length ? `<section class="panel"><h2>Supuestos prácticos</h2><p class="search-count">Casos transversales con solución razonada y trazabilidad.</p><div class="practice-grid">${[...testCases, ...openCases].map(item => `<button class="practice-card" type="button" data-case="${item.id}"><span class="badge">Temas ${(item.temas || []).join(', ')}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join('')}</div></section>` : ''}
     ${simulacros.simulacros.length ? `<section class="panel"><h2>Simulacros transversales</h2><div class="practice-grid">${simulacros.simulacros.map(item => `<button class="practice-card" type="button" data-sim="${item.id}"><span class="badge">${item.preguntas.length} preguntas${item.preguntasReserva?.length ? ' + 5 de reserva' : ''} · ${item.duracionMinutos ? `${item.duracionMinutos} min` : "Duración oficial pendiente"}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.instrucciones || 'Corrección al finalizar.')}</p></button>`).join('')}</div></section>` : ''}`;
 
@@ -251,6 +318,10 @@ function renderHub() {
     }
   });
   document.querySelectorAll('[data-theme-test]').forEach(button => button.addEventListener('click', () => startThemeTest(Number(button.dataset.themeTest))));
+  document.querySelectorAll('[data-extra-repaso]').forEach(button => button.addEventListener('click', () => {
+    const pack = extraRepasos.find(item => item.id === button.dataset.extraRepaso);
+    if (pack) renderExercise(pack.preguntas, pack.titulo, pack.id, 'repaso');
+  }));
   document.querySelectorAll('[data-case]').forEach(button => button.addEventListener('click', () => {
     const selected = supuestos.supuestos.find(item => item.id === button.dataset.case);
     if (Array.isArray(selected.cuestiones)) renderOpenCase(selected);
@@ -395,6 +466,7 @@ async function loadCall(id) {
     simulacrosResponse ? simulacrosResponse.json() : Promise.resolve({ simulacros: [] })
   ]);
   questionMap = banks;
+  extraRepasos = await loadExtraRepasos();
   const selectedTheme = Number(new URLSearchParams(location.search).get('tema'));
   if (selectedTheme >= 1 && selectedTheme <= activeCall.themeCount) startThemeTest(selectedTheme);
   else renderHub();
