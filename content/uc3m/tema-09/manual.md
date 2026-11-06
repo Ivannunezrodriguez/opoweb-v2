@@ -62,6 +62,34 @@ La **combinación de correspondencia** utiliza:
 4. la vista previa;
 5. la finalización para generar cartas, etiquetas, sobres o correos personalizados.
 
+### 4.1. Word 2019: combinación de correspondencia, paso a paso
+
+La **combinación de correspondencia** produce documentos personalizados a partir de un **documento principal** y un **origen de datos**. Un origen de datos contiene **registros** (destinatarios) y **campos** (nombre, dirección, municipio). Los campos se insertan en el documento para generar la salida correspondiente.
+
+| Paso o elemento | Función exacta | Trampa frecuente |
+|---|---|---|
+| **Documento principal** | Plantilla con texto y formato comunes. | No equivale a la lista de destinatarios. |
+| **Origen de datos** | Tabla o lista con registros y campos. | No crea por sí solo las cartas. |
+| **Seleccionar o editar destinatarios** | Elegir lista, ordenar, filtrar y excluir registros. | Excluir un registro no es borrar el documento principal. |
+| **Insertar campo de combinación** | Colocar el dato que cambiará según el registro. | No es escribir manualmente un nombre fijo. |
+| **Vista previa de resultados** | Examinar la personalización para cada destinatario. | No genera por sí sola la salida definitiva. |
+| **Finalizar y combinar** | Producir documentos individuales, imprimir o realizar la salida correspondiente. | No es equivalente a seleccionar destinatarios. |
+
+**Secuencia:** **Correspondencia → Iniciar combinación → Seleccionar destinatarios → Insertar campos → Vista previa de resultados → Finalizar y combinar**. La documentación oficial indica compatibilidad con **Word 2019**. Fuente: [listas](https://support.microsoft.com/es-es/word/set-up-a-new-mail-merge-list-with-word), [edición de destinatarios](https://support.microsoft.com/es-es/word/mail-merge-edit-recipients) y [vista previa](https://support.microsoft.com/es-es/word/mail-merge-preview-results).
+
+> ⚠️ **¡Foco Examen!:** **Documento principal ≠ origen de datos**. **Registro** es una fila/destinatario; **campo** es un dato individual. **Vista previa** y **Finalizar y combinar** son operaciones diferentes.
+
+### 4.2. Word 2019: comentarios, control de cambios y tabla de contenido
+
+| Instrumento | Qué realiza | No debe confundirse con |
+|---|---|---|
+| **Comentario** | Anota una observación para otras personas. | Una inserción/eliminación registrada en el texto. |
+| **Control de cambios** | Registra cambios susceptibles de **aceptación o rechazo**. | Un comentario sin cambio material. |
+| **Estilos de título** | Estructuran el documento y facilitan una **tabla de contenido automática**. | Simple texto en negrita sin nivel de título. |
+| **Nota al pie** | Explica una referencia al pie de una página. | Pie de página repetido o nota final. |
+
+> ⚠️ **¡Foco Examen!:** Aplicar **negrita** no equivale a usar un **estilo de título**. **Comentar**, **controlar cambios** y **aceptar cambios** son tres acciones distintas.
+
 ## 5. Excel 2019: libros, hojas y celdas
 
 Excel 2019 es una hoja de cálculo. Un archivo se denomina **libro** y contiene una o varias **hojas**. Cada hoja está formada por filas, columnas y celdas. La intersección entre una fila y una columna determina la referencia de una celda, por ejemplo `B4`.
@@ -114,6 +142,27 @@ Excel permite:
 
 Una tabla facilita filtros, estilos, referencias estructuradas y ampliación automática. La validación de datos limita lo que puede introducirse en una celda, pero no sustituye una protección de seguridad.
 
+### 7.1. Excel 2019: validación, formato condicional, filtros y protección
+
+| Herramienta | Qué modifica o restringe | Supuesto de examen |
+|---|---|---|
+| **Validación de datos** | Valores que pueden introducirse; puede mostrar listas desplegables. | Admitir únicamente números enteros **del 1 al 10**. |
+| **Formato condicional** | **Aspecto** de las celdas cuando cumplen una condición, no el dato subyacente. | Resaltar notas **inferiores a 5**. |
+| **Filtro** | Visibilidad de filas según condición, sin eliminarlas. | Mostrar solo empleados de Toledo. |
+| **Ordenación** | Orden de las filas. | Ordenar por apellidos sin excluir registros. |
+| **Protección de hoja** | Acciones de edición permitidas según configuración. | Bloquear fórmulas y desbloquear celdas de entrada. |
+| **Tabla de Excel** | Rango estructurado con encabezados, filtros y referencias estructuradas. | No equivale solo a colocar bordes a un rango. |
+
+**Validación en Excel 2019:** en **Datos → Validación de datos**, puede elegirse **número entero, decimal, lista, fecha u hora**. La alerta **Detener** evita continuar con un valor no válido; la alerta **Advertencia** puede permitir continuar. La validación no es una garantía de confidencialidad.
+
+**Formato condicional:** aplica estilos dependientes de reglas; si cambia el valor, puede cambiar el estilo. Un resultado coloreado de rojo **no significa** que se impidió escribirlo.
+
+**Protección:** para que la condición de una celda **bloqueada** tenga efecto sobre su edición, normalmente debe **protegerse la hoja**. Proteger una hoja **no equivale a cifrar** el libro.
+
+Fuentes Microsoft compatibles con **Excel 2019**: [validación](https://support.microsoft.com/es-ES/Excel/get-started/apply-data-validation-to-cells), [formato condicional](https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel) y [protección](https://support.microsoft.com/es-es/excel/protect-a-worksheet).
+
+> ⚠️ **¡Foco Examen!:** **Validación = entrada**; **formato condicional = apariencia**; **filtro = visibilidad**; **ordenación = posición**; **protección de hoja ≠ cifrado**. **Detener** y **Advertencia** son alertas diferentes.
+
 ## 8. Correo electrónico y Gmail
 
 Un mensaje de correo suele contener remitente, destinatarios, asunto, cuerpo, firma y, en su caso, adjuntos.
@@ -130,6 +179,22 @@ Gmail permite redactar, programar envíos, adjuntar archivos, insertar enlaces, 
 Archivar elimina el mensaje de la bandeja de entrada, pero no lo borra. Eliminar lo envía a la papelera. Spam aparta mensajes sospechosos y ayuda al filtrado.
 
 Operadores de búsqueda útiles incluyen `from:`, `to:`, `subject:`, `has:attachment`, `before:`, `after:` e `is:unread`.
+
+### 8.1. Gmail: operadores de búsqueda y filtros automáticos
+
+| Operador | Localiza | Ejemplo de búsqueda |
+|---|---|---|
+| **from:** | Remitente. | **from:secretaria@ejemplo.es** |
+| **to:** | Destinatario. | **to:alumno@ejemplo.es** |
+| **subject:** | Palabras del **asunto**. | **subject:matricula** |
+| **has:attachment** | Mensajes con **adjuntos**. | **subject:examen has:attachment** |
+| **before:** | Mensajes anteriores a una fecha. | **before:2026/10/01** |
+| **after:** | Mensajes posteriores a una fecha. | **after:2026/09/01** |
+| **is:unread** | Mensajes **no leídos**. | **is:unread subject:examen** |
+
+Los operadores pueden combinarse. **Buscar** solo devuelve resultados; los **filtros de Gmail** permiten aplicar actuaciones automatizadas a mensajes que cumplen condiciones. Fuente: [Ayuda Gmail, operadores de búsqueda](https://support.google.com/mail/answer/7190?hl=es).
+
+> ⚠️ **¡Foco Examen!:** **from: ≠ to:**; **subject:** restringe el **asunto**, no el cuerpo; **has:attachment** no busca simplemente la palabra «adjunto». **Buscar** no significa **archivar**.
 
 ## 9. Seguridad en el correo electrónico
 
@@ -183,6 +248,32 @@ Los invitados pueden aceptar, rechazar o responder provisionalmente. Los permiso
 
 Los eventos repetitivos se definen mediante una periodicidad y pueden modificarse solo en una ocurrencia, en las siguientes o en toda la serie.
 
+### 13.1. Google Calendar: permisos para compartir calendarios
+
+| Permiso | Qué permite | Lo que no concede automáticamente |
+|---|---|---|
+| **Ver solo libre/ocupado** | Ver disponibilidad en franjas horarias. | Conocer título, lugar y descripción. |
+| **Ver detalles de eventos** | Consultar información visible de los eventos. | Modificarlos. |
+| **Hacer cambios** | Editar los eventos permitidos, con restricciones para privados. | Administrar el uso compartido. |
+| **Hacer cambios y gestionar uso compartido** | Editar y conceder o retirar permisos del calendario. | Eludir restricciones de administradores de cuentas educativas. |
+
+Un evento marcado **Privado** puede mostrarse a usuarios con ciertos permisos como bloque **ocupado/libre**, sin detalle. En cuentas institucionales el administrador puede restringir compartir. Fuentes Google: [Compartir calendario](https://support.google.com/calendar/answer/37082?hl=es) y [Permisos](https://support.google.com/calendar/answer/15716974?hl=es).
+
+> ⚠️ **¡Foco Examen!:** **Ver detalles ≠ editar ≠ gestionar permisos**. Poder editar ciertos eventos no significa necesariamente ver información privada ni poder invitar nuevas personas a compartir el calendario.
+
+### 13.2. Google Sheets: filtro, vista de filtro y protección
+
+| Figura | Efecto | Particularidad colaborativa |
+|---|---|---|
+| **Filtro normal** | Oculta temporalmente filas según el criterio. | Otras personas ven el filtro aplicado. |
+| **Vista de filtro** | Presenta una selección propia de registros. | No cambia la vista activa de otras personas; un editor puede guardarla, un lector puede usar una temporal donde sea posible. |
+| **Proteger hoja o intervalo** | Advertir o limitar la **edición** de celdas. | **No asegura confidencialidad** del dato visible, que puede copiarse/exportarse según permisos. |
+| **Ocultar hoja** | Retira la pestaña de la vista habitual. | **No protege** la información frente a quien tenga acceso. |
+
+Fuente Google: [Filtros y vistas de filtro](https://support.google.com/docs/answer/9245556?hl=es) y [proteger hojas e intervalos](https://support.google.com/docs/answer/1218656?hl=es-es).
+
+> ⚠️ **¡Foco Examen!:** Una **vista de filtro** no es el **filtro normal**; **ocultar** una hoja no es **protegerla**; y **proteger** un intervalo no cifra los datos.
+
 ## 14. Interoperabilidad, accesibilidad y buenas prácticas
 
 Antes de compartir o enviar un documento deben revisarse destinatarios, permisos, datos personales, comentarios, control de cambios, historial y metadatos.
@@ -216,3 +307,8 @@ Buenas prácticas:
 [**Cotejo de 12 preguntas y 48 opciones (Word 2019, Excel 2019, Gmail, Drive, Docs, Sheets y Calendar)**](cotejo-integral-2026-11-04.md): razón de cada respuesta, distractores y trampas. **Estado: COTEJO_BANCO_COMPLETO**, no aprobación del usuario ni prueba completa del navegador. Hay bloques del programa sin pregunta directa en este banco: revisar la matriz de cobertura antes de declarar suficiencia pedagógica plena.
 
 > ⚠️ **¡Foco Examen!:** En **Drive**, el permiso **Comentador** no equivale a **Editor**. En **Gmail**, **Archivar** no es **Eliminar**. En **Excel 2019**, `$A$1` fija fila y columna, pero `$A1` y `A$1` son referencias mixtas.
+
+
+## Revisión focal de las lagunas del programa — **06/11/2026**
+
+Se han completado los apartados de **combinación de correspondencia** y **gestión de datos en Excel 2019** que carecían de preguntas específicas en el banco, además de distinciones de **Gmail**, **Google Sheets** y **Google Calendar**. Fuentes técnicas de Microsoft y Google, con enlaces concretos en cada apartado. **No se equiparan las novedades exclusivas de Microsoft 365 a Word/Excel 2019**. El estado continúa **EN_REVISION_USUARIO** hasta completar la revisión técnica, pedagógica y funcional; el banco original conserva sus **12 preguntas**.
