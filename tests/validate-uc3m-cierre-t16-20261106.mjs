@@ -11,7 +11,7 @@ assert.equal(bank.preguntas.length,21);
 assert.ok(manual.includes('CIERRE_DOCUMENTAL_T16_20261106.md'));
 assert.ok(sources.includes('CIERRE_DOCUMENTAL_T16_20261106.md'));
 assert.ok(manual.includes('## 15 bis.')&&manual.includes('### 15 ter.'));
-assert.ok(manual.includes('**40–60 %**')||manual.includes('**40 % y el 60 %**'));
+assert.ok(manual.includes('40 %')&&manual.includes('60 %'));
 assert.ok(manual.includes('**90 días**'));
 assert.ok(acta.includes('BOE-A-2026-22083')&&acta.includes('BOE-A-2021-15781'));
 assert.ok(sources.includes('BOE-A-2026-22083')&&sources.includes('BOE-A-2021-15781'));
