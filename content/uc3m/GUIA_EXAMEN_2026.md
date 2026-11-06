@@ -167,3 +167,20 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 **Advertencia:** los **150** no forman parte de la convocatoria oficial; no se han sumado a los **3 simulacros 70+5** ni sustituyen los bancos históricos. El **corte legal** sigue siendo el previsto en base **primera.7** de la UC3M, cuya fecha original de publicación de listas definitivas/anuncio está pendiente de acreditación.
 
 > ⚠️ **¡Foco Examen!:** **Notificación electrónica = 10 días naturales** para rechazo si no se abre; **LOPDGDD = 10 días** para comunicar DPD; **transparencia madrileña = 20 + 20 días** de acceso y **5 hábiles** para inadmisión. **El mismo número no significa el mismo procedimiento.**
+
+
+## Tercer lote interactivo: 162 preguntas y presupuesto/contratación T18–T20 — 06/11/2026
+
+[**Repaso jurídico-económico conjunto de temas 18, 19 y 20**](REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md): diferencia reglas de **Ley 5/2025 de Hacienda CM**, **Normas Básicas UC3M 2026** y **LCSP 9/2017**. Incluye comparación de presupuestos autonómicos/universitarios, tramitación contable, plazos de pago, tipos de procedimiento y formalización contractual.
+
+| Recurso de entrenamiento UC3M | Preguntas nuevas | Paquetes adicionales |
+|---|---:|---:|
+| Lotes anteriores (jurídico general, ofimática y universidad) | **150** | **10** |
+| [**Casos T18–T20**](../../data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json) | **12** (**4 T18, 3 T19, 5 T20**) | **1** |
+| **Total de práctica complementaria** | **162** | **11** |
+
+**Ejercicio interactivo:** [**Tests y simulacros UC3M**](../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección «Repasos adicionales UC3M» → «Presupuesto y contratación · Temas 18 a 20». **No se sustituyen ni alteran** los bancos originales o los simulacros de **70+5**.
+
+> ⚠️ **¡Foco Examen!:** **Simplificado ordinario en suministros/servicios: < 140.000 €**, **abreviado < 60.000 €** y **SARA UC3M ≥ 216.000 €**. **15 días naturales** para ofertas de simplificado ordinario; **10 días hábiles** de abreviado; **15 días hábiles** de espera previa a formalización cuando cabe recurso especial. Son reglas distintas.
+
+**Estado editorial:** contrastados los artículos críticos; la prueba automática verifica estructura y enlace de los casos, pero ni CI ni el despliegue sustituyen auditoría jurídico-funcional exhaustiva. **Fecha exacta del corte legislativo UC3M base primera.7: pendiente de resolución primaria.**
