@@ -233,3 +233,9 @@ La Universidad debe aprobar un calendario de extinción que regule convocatorias
 [**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
 
 > ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.
+
+## Repaso específico de normativa UC3M de 2026 — 06/11/2026
+
+[**12 preguntas nuevas de los temas 16 y 17, 48 alternativas y explicaciones por artículo**](../REPASO_NORMATIVA_2026_T16_T17_20261106.md). Este recurso desarrolla el [**BOEL de 22/01/2026**](https://sede.uc3m.es/boel/anexo/11307/); no se mezcla con el **banco principal de 21 preguntas** ni con los simulacros **70+5**.
+
+> ⚠️ **¡Foco Examen!:** Reconocimiento por FP: **25 %** del grado; actividades universitarias: **6 ECTS** ordinarios con excepciones hasta **10 %** del plan; plazo posterior a **15/09: 90 días** y actividades específicas **30 días**.
