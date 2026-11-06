@@ -139,5 +139,70 @@
     "corteNormativo": "PENDIENTE_LEER_RESOLUCION_LISTA_DEFINITIVA_Y_ANUNCIO_EJERCICIO",
     "pruebaNavegador": "PENDIENTE",
     "certificacionIntegral": false
+  },
+  "refuerzo20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_FOCAL_NO_CIERRE_JURIDICO_FUNCIONAL",
+    "baseLegal": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2004-1848"
+    ],
+    "bloquesSinPreguntaAnterior": [
+      "Ámbito de aplicación",
+      "Personas especialmente sensibles",
+      "Consulta de las personas trabajadoras",
+      "Coordinación de actividades empresariales"
+    ],
+    "trazabilidad": [
+      {
+        "epigrafe": "Ámbito de aplicación",
+        "manual": "18",
+        "norma": "LPRL arts. 2 y 3",
+        "preguntasNuevas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "epigrafe": "Personas especialmente sensibles",
+        "manual": "19",
+        "norma": "LPRL arts. 25–28",
+        "preguntasNuevas": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "epigrafe": "Consulta de las personas trabajadoras",
+        "manual": "20",
+        "norma": "LPRL arts. 33 y 36",
+        "preguntasNuevas": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "epigrafe": "Coordinación de actividades empresariales",
+        "manual": "21",
+        "norma": "LPRL art. 24, RD 171/2004 arts. 2,4,6–10",
+        "preguntasNuevas": [
+          10,
+          11,
+          12
+        ]
+      }
+    ],
+    "recurso": "content/uc3m/REPASO_PRL_T12_20261106.md",
+    "preguntasComplementarias": 12,
+    "alternativasComplementarias": 48,
+    "bancoOriginalPreguntas": 12,
+    "bancoOriginalNoModificado": true,
+    "fechaCorteNormativoUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_LISTAS_DEFINITIVAS",
+    "documentosPdfInspeccionadosVisualmente": false,
+    "certificacionNavegador": false,
+    "certificacionIntegral": false
   }
 }
