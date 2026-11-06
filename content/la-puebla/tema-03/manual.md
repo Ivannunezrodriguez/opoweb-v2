@@ -975,3 +975,10 @@ Contrastados los **9 bloques**, la **Ley 39/2015 arts. 53–105**, y **48 opcion
 
 > ⚠️ **¡Foco Examen!:** Las **reducciones mínimas del 20 %** del **art. 85.3** pueden acumularse, pero exigen requisitos legales; las **medidas previas** del **56.2** requieren iniciación en **15 días** y pronunciamiento expreso.
 
+
+
+## Repaso cruzado de **06/11/2026** · Tramitación simplificada del artículo 96
+
+[**Comparativa y casos T1–T4**](../REPASO_URGENTE_T01_T04_20261106.md): **96.2** oposición expresa en simplificada de oficio; **96.5** excepción para sancionadores **leves**; **96.6** resolución **30 días** salvo que reste menos en ordinaria, con **audiencia solo cuando la resolución vaya a ser desfavorable**. El banco de **12 preguntas/48 alternativas** ya existía y estaba cotejado el **04/11**; se ha eliminado una nota histórica que decía lo contrario.
+
+> ⚠️ **¡Foco Examen!:** La oposición expresa a simplificación **no siempre cabe**: excepción para infracción **leve** y demás requisitos del **96.5**.
