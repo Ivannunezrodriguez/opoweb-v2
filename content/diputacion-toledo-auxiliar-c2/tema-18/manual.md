@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 18
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Auditoría editorial 06/11/2026: AUDITADO (documental técnico-pedagógico)**. Conservada la documentación de Writer 24.2 como fuente de funcionamiento, y contrastados los **atajos del teclado español con la guía oficial 24.8**. Pendientes pruebas de aplicación real, móvil, accesibilidad y PWA. [Informe](../cierre-editorial-c2-17-20-2026-11-06.md).
 
 **ESTADO EDITORIAL: CONTENIDO COMPLETO — revisión documental Writer 24.2 de 29/10/2026.**
 
@@ -235,3 +235,34 @@ Para emitir cartas personalizadas, se prepara un **documento modelo** y una **fu
 - [Capítulo 17: campos](https://books.libreoffice.org/en/WG24/WG2417-Fields.html).
 
 **Alcance:** material de estudio completo para el enunciado oficial de utilización de documentos de texto con **Writer 24**, contrastado con la guía del fabricante y acompañado de ejercicios. La prueba funcional del navegador de OpoWeb es un control transversal separado.
+
+
+## 10. Writer 24: atajos específicos de la edición española — **06/11/2026**
+
+La convocatoria pide **LibreOffice 24**, sin precisar versión menor. La **Writer Guide 24.2** de la documentación en inglés explica operaciones, formatos y estilos; para la **distribución de teclado en español de Windows/Linux** se toma como control explícito la **Guía de iniciación 24.8 en español**. Algunos atajos cambian con idioma, perfil o personalización.
+
+| Operación | Guía **24.8 española**, Windows/Linux | Otro entorno posible |
+|---|---|---|
+| Nuevo documento | **Ctrl + U** | **Ctrl + N** internacional |
+| Guardar | **Ctrl + G** | **Ctrl + S** internacional |
+| Abrir | **Ctrl + O** o **Ctrl + A** | **Ctrl + O** internacional |
+| Negrita | **Ctrl + N** | **Ctrl + B** internacional |
+| Subrayado | **Ctrl + S** | **Ctrl + U** internacional |
+| Buscar | **Ctrl + B** | **Ctrl + F** internacional |
+| Guardar como | **Ctrl + Mayús + S** | Depende de configuración |
+| Selección de texto/sección según posición del cursor | **Ctrl + E** | **Ctrl + A** internacional |
+
+> ⚠️ **¡Foco Examen!:** Si el test especifica **LibreOffice 24.8 en español**, **Ctrl + G guarda**, **Ctrl + N pone en negrita**, **Ctrl + S subraya** y **Ctrl + U crea un archivo nuevo**. No trasladar los atajos ingleses de Word o de Writer sin comprobar el idioma.
+
+### 10.1. Guardar, Guardar como y exportar
+
+| Opción | Finalidad | Ejemplo de uso |
+|---|---|---|
+| **Guardar** | Persiste cambios en el documento actual | Modificación de un **ODT** existente |
+| **Guardar como** | Nuevo nombre, ubicación o formato editable | Crear otra versión **ODT** o convertir a formato compatible |
+| **Exportar PDF** | Generar archivo de difusión o impresión | Publicar acta sin depender del editor de texto |
+| **Actualizar índice** | Regenerar tabla de contenido automática | Tras modificar títulos con **estilos de encabezado** |
+
+> ⚠️ **¡Foco Examen!:** Exportar un **PDF** no implica eliminar el archivo **ODT**; una tabla de contenido basada en estilos de título puede requerir **actualización manual** al cambiar encabezados.
+
+**Fuente del atajo:** [Guía oficial LibreOffice 24.8, Apéndice A](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html). **Fuente de operaciones:** [Writer Guide 24.2](https://books.libreoffice.org/en/WG24/WG24.html). **Cierre:** [bloque C2 temas 17–20](../cierre-editorial-c2-17-20-2026-11-06.md).

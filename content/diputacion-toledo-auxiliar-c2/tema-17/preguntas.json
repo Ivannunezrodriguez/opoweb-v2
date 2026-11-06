@@ -1,6 +1,6 @@
 {
   "tema": 17,
-  "estado": "BANCO_20_PREGUNTAS_CON_FUENTES",
+  "estado": "AUDITADO",
   "version": "2026-10-29",
   "criterio": "20 preguntas con fuentes de Microsoft Edge y documentación GroupWise 24. Comprobación estructural de alternativas, sin prueba de interfaz.",
   "preguntas": [
@@ -146,17 +146,17 @@
     },
     {
       "id": "DT-C2-T17-011",
-      "enunciado": "¿Qué afirmación sobre InPrivate es correcta?",
+      "enunciado": "En el cliente GroupWise 24, ¿qué ocurre si alguien responde a todos a un correo que tenía destinatarios en Bc (copia oculta)?",
       "opciones": [
-        "Garantiza anonimato frente a la red",
-        "Impide toda descarga",
-        "Inhabilita todos los sitios web",
-        "No garantiza anonimato frente a sitios o redes"
+        "Todos los destinatarios Bc originales aparecen visibles en Para",
+        "Reply to All elimina el mensaje original de los buzones",
+        "La opción está deshabilitada si el correo contenía copias ocultas",
+        "Los destinatarios de Bc del original no reciben automáticamente esa respuesta"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "InPrivate limita conservación de datos de la sesión en el dispositivo, pero no garantiza anonimato.",
-      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
-      "referencia": "https://support.microsoft.com/es-es/edge/browse-inprivate-in-microsoft-edge"
+      "justificacion": "El manual de composición del cliente GroupWise 24 indica expresamente que, si se responde a todos, el destinatario de copia oculta del mensaje original no recibe la respuesta.",
+      "trampaExamen": "No confundir **Cc**, visible para destinatarios, con **Bc**, que no se redistribuye al responder a todos.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
     },
     {
       "id": "DT-C2-T17-012",
@@ -202,31 +202,31 @@
     },
     {
       "id": "DT-C2-T17-015",
-      "enunciado": "¿Qué campo de GroupWise 24 oculta sus destinatarios a los restantes?",
+      "enunciado": "¿Qué limitación de GroupWise 24 impide retirar mediante retractación un correo ya enviado?",
       "opciones": [
-        "To",
-        "Cc",
-        "Subject",
-        "Bc"
+        "El destinatario interno no lo ha abierto todavía",
+        "El mensaje incluye un solo destinatario interno",
+        "El remitente conserva una copia en Elementos enviados",
+        "El mensaje fue enviado a un sistema de correo externo por Internet"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El manual del cliente indica que los destinatarios en Bc no son visibles para otros destinatarios.",
-      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
-      "referencia": "https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html"
+      "justificacion": "GroupWise 24 Client limita la retracción a mensajes internos adecuados: no puede retirar por esta función correos ya remitidos a sistemas externos de Internet.",
+      "trampaExamen": "Borrar la copia propia no retira el correo externo. El mensaje abierto tampoco es retractable, pero es otra limitación.",
+      "referencia": "https://www.novell.com/documentation/groupwise24/"
     },
     {
       "id": "DT-C2-T17-016",
-      "enunciado": "¿Dónde se consultan normalmente los mensajes enviados en GroupWise 24?",
+      "enunciado": "En Microsoft Edge para Windows 11, ¿qué atajo reabre la última pestaña cerrada cuando se puede recuperar?",
       "opciones": [
-        "Sent Items",
-        "New Mail",
-        "Address",
-        "Spam Filter"
+        "Ctrl + Mayús + T",
+        "Ctrl + J",
+        "Ctrl + Mayús + N",
+        "Ctrl + H"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Sent Items reúne los elementos enviados conservados en esa carpeta.",
-      "trampaExamen": "Distinguir la función concreta de **Edge** o **GroupWise 24** sin aplicar reglas de otros programas.",
-      "referencia": "https://www.novell.com/documentation/groupwise24/pdfdoc/gw_guide_userwin/gw_guide_userwin.pdf"
+      "justificacion": "Microsoft Edge documenta Ctrl+Mayús+T para reabrir la última pestaña cerrada, diferenciándolo de Ctrl+J (descargas), Ctrl+H (historial) y Ctrl+Mayús+N (InPrivate).",
+      "trampaExamen": "Una **ventana InPrivate** no se abre con Ctrl+Mayús+T, sino con Ctrl+Mayús+N.",
+      "referencia": "https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge"
     },
     {
       "id": "DT-C2-T17-017",
@@ -297,5 +297,12 @@
     "articulos": "Documentación técnica Microsoft Edge y OpenText GroupWise 24",
     "resultado": "Se cotejaron ocho preguntas; se sustituyeron tres de GroupWise por tres de Edge para cubrir los dos productos del epígrafe; se precisaron Bc, Sent Items y estados de seguimiento.",
     "limitacion": "No se ha realizado prueba práctica en una instalación local de GroupWise 24 ni certificación del manual completo."
+  },
+  "cierreEditorialC2_17_20_20261106": {
+    "fecha": "2026-11-06",
+    "reformuladas": 3,
+    "preguntas": 20,
+    "alternativas": 80,
+    "certificacionIntegral": false
   }
 }

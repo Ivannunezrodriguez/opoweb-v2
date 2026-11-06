@@ -1,0 +1,55 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const txt=p=>readFileSync(p,'utf8'),json=p=>JSON.parse(txt(p));
+const prog=json('data/programa-diputacion-auxiliar-c2-2026.json');
+const audit=prog.cierreEditorialC2_20261106;
+assert.equal(prog.temas.length,20);
+assert.equal(prog.temas[5].estado,'BORRADOR');
+assert.deepEqual(audit.temas,[17,18,19,20]);
+assert.equal(audit.temasAuditados,4);
+assert.equal(audit.pendientes,16);
+assert.equal(audit.reformuladas,16);
+assert.equal(audit.certificacionIntegral,false);
+assert.equal(prog.temas.filter(t=>t.estado==='AUDITADO').length,4);
+const originals={"17":[0,1,2,3,0,1,2,3,1,2,3,0,1,2,3,0,1,2,3,0],"18":[0,1,2,3,0,1,2,3,0,1,1,2,3,0,1,2,3,0,1,2],"19":[2,3,0,1,2,3,0,1,2,3,1,2,3,0,1,2,3,0,1,2],"20":[0,1,2,3,0,1,1,2,3,0,1,2,3,0,1,2,3,0,1,2]};
+const changes={"17":3,"18":4,"19":4,"20":5};
+const report=txt('content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-17-20-2026-11-06.md');
+let count=0,alts=0;
+for(const n of [17,18,19,20]){
+ const folder='content/diputacion-toledo-auxiliar-c2/tema-'+n+'/';
+ const t=prog.temas[n-1],bank=json(folder+'preguntas.json'),matrix=json(folder+'matriz.json');
+ const manual=txt(folder+'manual.md'),sources=txt(folder+'fuentes.md');
+ assert.equal(t.numero,n);assert.equal(t.estado,'AUDITADO');
+ assert.equal(bank.estado,'AUDITADO');assert.equal(matrix.estadoEditorial,'AUDITADO');
+ assert.equal(t.cierreEditorialTecnicoC2_20261106.certificacionIntegral,false);
+ assert.equal(bank.cierreEditorialC2_17_20_20261106.reformuladas,changes[n]);
+ assert.equal(matrix.cierreEditorialC2_17_20_20261106.certificacionIntegral,false);
+ assert.match(matrix.estadoControl,/FUNCIONAL_PENDIENTE/);
+ assert.equal(matrix.epigrafeOficial,t.titulo);
+ assert.ok(matrix.cobertura.length>=5);
+ assert.equal(bank.preguntas.length,20);
+ assert.ok(manual.includes('## 1. Epígrafe oficial literal')||manual.includes('## Epígrafe oficial literal'));
+ assert.ok(manual.includes(t.titulo));
+ assert.ok(manual.includes('¡Foco Examen!')&&manual.includes('|---'));
+ assert.ok(manual.includes('cierre-editorial-c2-17-20-2026-11-06.md'));
+ assert.ok(sources.includes('cierre-editorial-c2-17-20-2026-11-06.md'));
+ for(let i=0;i<20;i++){
+  const q=bank.preguntas[i],id='DT-C2-T'+n+'-'+String(i+1).padStart(3,'0');
+  assert.equal(q.id,id);assert.equal(q.respuestaCorrecta,originals[n][i]);
+  assert.equal(q.opciones.length,4);
+  assert.equal(new Set(q.opciones.map(s=>s.toLowerCase().trim())).size,4);
+  assert.ok(q.opciones[q.respuestaCorrecta]);
+  assert.ok(q.enunciado.length>12&&q.justificacion.length>24&&q.trampaExamen.length>15&&q.referencia.length>20);
+  assert.ok(report.includes(id));count++;alts+=4;
+ }
+}
+assert.equal(count,80);assert.equal(alts,320);
+const get=(n,i)=>json('content/diputacion-toledo-auxiliar-c2/tema-'+n+'/preguntas.json').preguntas[i-1];
+const ans=(n,i)=>{const q=get(n,i);return q.opciones[q.respuestaCorrecta];};
+assert.match(ans(17,11),/Bc/);assert.match(ans(17,15),/externo/);assert.equal(ans(17,16),'Ctrl + Mayús + T');
+assert.equal(ans(18,14),'Ctrl + G');assert.equal(ans(18,15),'Ctrl + N');assert.equal(ans(18,16),'Ctrl + S');assert.equal(ans(18,20),'Ctrl + Mayús + S');
+assert.equal(ans(19,14),'=$A3+B$1');assert.equal(ans(19,16),'2');assert.equal(ans(19,18),'APTO');assert.equal(ans(19,20),'Ctrl + G');
+assert.match(ans(20,10),/RAM del sistema/);assert.match(ans(20,12),/ADF/);assert.match(ans(20,14),/ppm/);assert.match(ans(20,18),/750 W/);assert.match(ans(20,19),/480 Mb\/s/);
+assert.ok(txt('content/diputacion-toledo-auxiliar-c2/tema-18/manual.md').includes('Ctrl + G'));
+assert.ok(txt('content/diputacion-toledo-auxiliar-c2/tema-19/manual.md').includes('CONTAR.SI'));
+console.log('DIP_C2_T17_T20_80_QUESTIONS_320_ALTERNATIVES_16_REVISIONS_EDITORIAL_OK');

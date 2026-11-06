@@ -1,6 +1,6 @@
 {
   "tema": 19,
-  "estado": "BANCO_20_PREGUNTAS_DOCUMENTADAS",
+  "estado": "AUDITADO",
   "version": "2026-10-29",
   "criterio": "20 preguntas originales con referencias a documentación oficial Calc 24.2 y cuatro alternativas; comprobadas estructuralmente. Falta ejecución interactiva real.",
   "preguntas": [
@@ -188,17 +188,17 @@
     },
     {
       "id": "DT-C2-T19-014",
-      "enunciado": "¿Qué diferencia hay entre ordenar y filtrar una tabla Calc?",
+      "enunciado": "En Calc, al copiar la fórmula =$A2+B$1 desde C2 hasta C3, ¿cuál es la fórmula resultante?",
       "opciones": [
-        "Ordenar cambia la secuencia y filtrar oculta filas que no cumplen condiciones",
-        "Filtrar elimina permanentemente registros",
-        "Ordenar borra fórmulas",
-        "Son acciones idénticas"
+        "=$A3+B$1",
+        "=$A2+B$2",
+        "=$B3+C$1",
+        "=$A$2+B$1"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Ordenar reorganiza registros; filtrar cambia qué filas se muestran.",
-      "trampaExamen": "Un filtro no equivale a borrado.",
-      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
+      "justificacion": "La columna $A es absoluta y la fila 2 relativa, que pasa a 3; en B$1, la fila 1 es absoluta y no cambia si solo bajamos de fila.",
+      "trampaExamen": "En referencias mixtas, el símbolo $ fija únicamente la coordenada a la que antecede.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
     },
     {
       "id": "DT-C2-T19-015",
@@ -216,17 +216,17 @@
     },
     {
       "id": "DT-C2-T19-016",
-      "enunciado": "Si cambian los datos de origen, ¿qué puede requerir una tabla dinámica existente?",
+      "enunciado": "En Calc, A1:A4 contienen 3, 7, 9 y 5. ¿cuánto devuelve =CONTAR.SI(A1:A4;\">5\")?",
       "opciones": [
-        "Borrar el archivo ODS",
-        "Cambiar la impresora",
-        "Actualizar el resultado de la tabla dinámica",
-        "Desinstalar Calc"
+        "1",
+        "3",
+        "2",
+        "4"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Las tablas dinámicas pueden necesitar actualización para reflejar cambios en el origen.",
-      "trampaExamen": "No asumir que cada vista se recalcula siempre en el instante.",
-      "referencia": "https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html"
+      "justificacion": "La función CONTAR.SI cuenta las celdas que cumplen el criterio estricto >5: las de valor 7 y 9, pero no 5.",
+      "trampaExamen": "**>5** es estricto; **>=5** incluiría el propio 5.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
     },
     {
       "id": "DT-C2-T19-017",
@@ -244,17 +244,17 @@
     },
     {
       "id": "DT-C2-T19-018",
-      "enunciado": "En una celda con valor 0,25 formateado como porcentaje, ¿qué se muestra normalmente?",
+      "enunciado": "Si la celda A1 contiene 7, ¿qué devuelve =SI(A1>=5;\"APTO\";\"NO APTO\") en Calc?",
       "opciones": [
-        "25 %",
-        "0,25 %",
-        "250 %",
-        "2500 %"
+        "APTO",
+        "NO APTO",
+        "VERDADERO y FALSO a la vez",
+        "#N/A obligatorio"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El formato porcentual muestra 0,25 como 25 %.",
-      "trampaExamen": "Formato visible y valor numérico son diferentes.",
-      "referencia": "https://books.libreoffice.org/en/CG24/CG2402-EnteringandEditingData.html"
+      "justificacion": "SI comprueba 7>=5, condición verdadera, y devuelve el argumento de verdadero: APTO.",
+      "trampaExamen": "No confundir el criterio de comparación con el texto literal entre comillas.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
     },
     {
       "id": "DT-C2-T19-019",
@@ -272,17 +272,17 @@
     },
     {
       "id": "DT-C2-T19-020",
-      "enunciado": "¿Qué documento oficial de Calc 24.2 incluye los códigos de error?",
+      "enunciado": "Según la Guía oficial LibreOffice 24.8 en español para Windows, ¿qué atajo permite guardar la hoja de cálculo actual?",
       "opciones": [
-        "El capítulo de gráficos exclusivamente",
-        "La guía de impresoras Microsoft",
-        "El apéndice B de la guía Calc",
-        "La convocatoria de Diputación"
+        "Ctrl + S",
+        "Ctrl + N",
+        "Ctrl + G",
+        "Ctrl + E"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La Guía Calc 24.2 incluye un apéndice B de códigos de error.",
-      "trampaExamen": "No trasplantar sin comprobación los códigos de Excel.",
-      "referencia": "https://books.libreoffice.org/en/CG24/CG2418-CalcErrorCodes.html"
+      "justificacion": "La Guía 24.8 española documenta Ctrl+G para Guardar y Ctrl+S para Subrayado. Otros perfiles internacionales pueden utilizar otros atajos.",
+      "trampaExamen": "Los atajos de Calc dependen de la distribución: no aplicar automáticamente **Ctrl+S** de Excel o LibreOffice internacional.",
+      "referencia": "https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
     }
   ],
   "auditoria": {
@@ -296,5 +296,12 @@
     ],
     "resultado": "Se revisaron diez preguntas frente a la guía Calc 24.2; se sustituyó la pregunta memorística de capítulo de tablas dinámicas por la necesidad de actualización manual; se precisaron referencias, AutoFiltro y porcentajes.",
     "limitacion": "Auditoría documental del test: no equivale a ejecutar un caso real en la aplicación ni a certificar el manual completo."
+  },
+  "cierreEditorialC2_17_20_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "reformuladas": 4,
+    "certificacionIntegral": false
   }
 }

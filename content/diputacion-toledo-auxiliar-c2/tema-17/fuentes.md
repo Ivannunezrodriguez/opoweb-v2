@@ -22,3 +22,12 @@
 **Control transversal pendiente:** no se ha realizado prueba funcional de la interfaz pública de OpoWeb ni se ha ejecutado el software GroupWise en una instalación real.
 
 > ⚠️ **¡Foco Examen!:** InPrivate no garantiza anonimato; **Bc** oculta destinatarios; en GroupWise 24 **retractar** no es borrar la copia propia y está limitado cuando el destinatario abrió el mensaje o el correo salió a un sistema externo.
+
+
+## Cierre editorial técnico-pedagógico — **06/11/2026**
+
+Contraste primario de [métodos abreviados de Microsoft Edge](https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge): **Ctrl+Mayús+T** pestaña cerrada, **Ctrl+Mayús+N** InPrivate, **Ctrl+J** Descargas, **Ctrl+H** Historial.
+
+En [GroupWise 24, Composing Email](https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html), el campo **Bc** oculta destinatarios y el texto oficial especifica que **Reply to All no responde a esos destinatarios ocultos**. La [documentación GroupWise 24](https://www.novell.com/documentation/groupwise24/) distingue **retracción** interna, mensajes abiertos y correo a sistemas externos. **3 preguntas reformuladas**: DT-C2-T17-011, 015 y 016. Banco completo: **20 preguntas / 80 alternativas**, todas con explicación y fuente.
+
+**Estado:** `AUDITADO` para contenidos técnicos; pruebas de **navegador real, móvil, cliente GroupWise real y accesibilidad no realizadas**. [Informe](../cierre-editorial-c2-17-20-2026-11-06.md).

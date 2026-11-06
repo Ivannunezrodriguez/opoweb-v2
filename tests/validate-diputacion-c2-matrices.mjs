@@ -14,7 +14,13 @@ for(const n of covered){
  const map=read(file);
  assert.equal(map.epigrafeOficial,topic.titulo,'Official wording must be exact: '+n);
  assert.equal(map.tema,n);
- assert.ok(map.estadoControl?.includes('PENDIENTE_COTEJO_INTEGRAL'),'Never overclaim certification');
+ if([17,18,19,20].includes(n)){
+   assert.equal(map.estadoEditorial,'AUDITADO','Cierre documental exclusivo del bloque 17–20');
+   assert.match(map.estadoControl,/AUDITADO_TECNICO_PEDAGOGICO_20261106_FUNCIONAL_PENDIENTE/);
+   assert.equal(map.cierreEditorialC2_17_20_20261106.certificacionIntegral,false);
+  }else{
+   assert.ok(map.estadoControl?.includes('PENDIENTE_COTEJO_INTEGRAL'),'Otros temas aún no auditados');
+  }
  assert.ok(map.cobertura.length>=5,'Coverage rows missing: '+n);
  for(const part of map.cobertura){
   for(const field of ['inciso','norma','articulos','contenidoExigible']){

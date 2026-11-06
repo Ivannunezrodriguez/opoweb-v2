@@ -182,42 +182,90 @@
     {
       "numero": 17,
       "titulo": "Microsoft Windows 11 Pro II. Navegación por Internet con Microsoft Edge. Uso del correo electrónico con Microfocus GroupWise 24.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-17/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-17/fuentes.md",
       "notaEditorial": "Contenido desarrollado con fuentes oficiales Microsoft Edge y GroupWise 24; 20 preguntas documentadas. Cierre editorial 29/10/2026. Pendiente comprobación funcional de interfaz como tarea transversal.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-17/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-17/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-17/matriz.json",
+      "cierreEditorialTecnicoC2_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-17-20-2026-11-06.md",
+        "preguntas": 20,
+        "alternativas": 80,
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 18,
       "titulo": "LibreOffice 24 I. Utilización de documentos de texto con LibreOffice 24 Writer.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-18/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-18/fuentes.md",
       "notaEditorial": "Contenido técnico completo y revisión documental 29/10/2026: manual Writer 24.2, funciones, estilos, paginación, índices, tablas, correspondencia y banco de 20 preguntas. Prueba funcional interactiva pendiente como control transversal.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-18/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-18/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-18/matriz.json",
+      "cierreEditorialTecnicoC2_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-17-20-2026-11-06.md",
+        "preguntas": 20,
+        "alternativas": 80,
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 19,
       "titulo": "LibreOffice 24 II. Utilización de documentos de hoja de cálculo con LibreOffice 24 Calc.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-19/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-19/fuentes.md",
       "notaEditorial": "Auditoría editorial cerrada 29/10/2026 sobre guía oficial LibreOffice Calc 24.2: manejo de libros, celdas, funciones, referencias, análisis, tablas dinámicas, gráficos, impresión y formatos. Manual ampliado y banco de 20 preguntas. Prueba funcional en navegador no ejecutada, control transversal separado.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-19/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-19/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-19/matriz.json",
+      "cierreEditorialTecnicoC2_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-17-20-2026-11-06.md",
+        "preguntas": 20,
+        "alternativas": 80,
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 20,
       "titulo": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-20/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-20/fuentes.md",
       "notaEditorial": "AUDITORÍA EDITORIAL Y TÉCNICA CERRADA 29/10/2026. Manual desarrollado para los seis incisos del Anexo XI, fuentes técnicas de fabricantes/USB-IF/Microsoft, tablas de examen y banco de 20 preguntas con cuatro opciones. Prueba funcional real del navegador pendiente como control transversal de aplicación.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-20/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-20/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-20/matriz.json",
+      "cierreEditorialTecnicoC2_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_TECNICO_PEDAGOGICO",
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-17-20-2026-11-06.md",
+        "preguntas": 20,
+        "alternativas": 80,
+        "certificacionIntegral": false
+      }
     }
-  ]
+  ],
+  "cierreEditorialC2_20261106": {
+    "fecha": "2026-11-06",
+    "temas": [
+      17,
+      18,
+      19,
+      20
+    ],
+    "temasAuditados": 4,
+    "pendientes": 16,
+    "preguntas": 80,
+    "alternativas": 320,
+    "reformuladas": 16,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-17-20-2026-11-06.md"
+  }
 }

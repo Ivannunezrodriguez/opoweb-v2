@@ -2,8 +2,8 @@
   "tema": 17,
   "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
   "epigrafeOficial": "Microsoft Windows 11 Pro II. Navegación por Internet con Microsoft Edge. Uso del correo electrónico con Microfocus GroupWise 24.",
-  "estadoEditorial": "EN_REVISION_USUARIO",
-  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_TECNICO_PEDAGOGICO_20261106_FUNCIONAL_PENDIENTE",
   "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
   "fuentesPrimarias": [
     "https://support.microsoft.com/es-es/microsoft-edge",
@@ -49,5 +49,13 @@
   ],
   "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-17/fuentes.md",
   "manual": "content/diputacion-toledo-auxiliar-c2/tema-17/manual.md",
-  "notas": "Matriz de correspondencia temática fundada en fuentes documentales del repositorio. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral."
+  "notas": "Matriz de correspondencia temática fundada en fuentes documentales del repositorio. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral.",
+  "cierreEditorialC2_17_20_20261106": {
+    "fecha": "2026-11-06",
+    "bancoPreguntas": 20,
+    "alternativas": 80,
+    "reformuladas": 3,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-17-20-2026-11-06.md"
+  }
 }

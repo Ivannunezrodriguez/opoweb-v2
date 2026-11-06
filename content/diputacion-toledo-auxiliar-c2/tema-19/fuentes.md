@@ -26,3 +26,13 @@
 **No certificado aún:** faltan pruebas prácticas en LibreOffice con configuración española, corrección global de las rutas de menús y revisión de todas las preguntas. La auditoría sigue abierta y el tema permanece en **BORRADOR**.
 
 > ⚠️ **¡Foco Examen!:** La referencia `$A$1` fija fila y columna; **Calc 24** no se debe estudiar sustituyéndolo por Microsoft Excel.
+
+
+## Auditoría integral del banco y configuración localizada — **06/11/2026**
+
+- [**LibreOffice Calc 24.2, fórmulas y funciones**](https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html): relaciones relativas/absolutas y funciones **SI**, **CONTAR.SI**, **PROMEDIO**.
+- [**Ayuda oficial Calc en español, referencias**](https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html): **F4** y copia de referencias mixtas.
+- [**Guía española 24.8, atajos generales**](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html): **Ctrl + G** Guardar; la versión de referencia 24.2 inglesa conserva la autoridad para operaciones, no para suponer atajos de un perfil español.
+- **4 preguntas reemplazadas**: DT-C2-T19-014, 016, 018 y 020; **20 preguntas / 80 alternativas**, índices de respuesta preservados. [Informe de auditoría](../cierre-editorial-c2-17-20-2026-11-06.md).
+
+**Cierre:** `AUDITADO` documental; **sin** prueba en Calc real, navegador, móvil o PWA.

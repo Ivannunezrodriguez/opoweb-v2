@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 19
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Auditoría editorial 06/11/2026: AUDITADO (técnico-pedagógico documental)**. Revisadas 20 preguntas y 80 alternativas, con cálculos ejecutables como casos de prueba. La **Guía Calc 24.2** sigue siendo referencia técnica y los atajos españoles se contrastan con la **Guía 24.8 española**. La operación real de la web y de Calc queda sin certificar. [Informe](../cierre-editorial-c2-17-20-2026-11-06.md).
 
 **ESTADO EDITORIAL: CONTENIDO COMPLETO — AUDITORÍA DOCUMENTAL 29/10/2026. Prueba de interfaz pendiente.**
 
@@ -269,3 +269,46 @@ La protección de determinadas **celdas**, la protección de una **hoja** y la p
 - [Apéndice B: códigos de error](https://books.libreoffice.org/en/CG24/CG2418-CalcErrorCodes.html).
 
 **Cobertura editorial:** se desarrollan todos los aspectos de utilización de hojas de cálculo previstos por el epígrafe oficial del **tema 19** y se dispone de **20 preguntas** documentadas. Las rutas o etiquetas de los menús y los separadores de funciones pueden variar con idioma y personalización; para datos dependientes del equipo debe comprobarse la instalación utilizada. **La prueba de interacción real en navegador no se ha ejecutado**.
+
+
+## 11. Supuestos de Calc y atajos en español — **06/11/2026**
+
+### 11.1. Copiar fórmulas con referencias mixtas
+
+En Calc, el carácter **$** precede a la coordenada que permanece fija. Al copiar la fórmula `=$A2+B$1` desde la celda **C2** hasta **C3**, la columna **A** permanece y la fila **2** pasa a **3**; como no se ha cambiado de columna, **B$1** permanece. Resultado: `=$A3+B$1`.
+
+| Referencia | Columna al copiar | Fila al copiar | Naturaleza |
+|---|---|---|---|
+| `A2` | Relativa | Relativa | **Relativa** |
+| `$A$2` | Fija | Fija | **Absoluta** |
+| `$A2` | Fija | Relativa | **Mixta** |
+| `A$2` | Relativa | Fija | **Mixta** |
+
+> ⚠️ **¡Foco Examen!:** `$A2` no fija la fila; `A$2` no fija la columna. **F4** permite alternar tipos de referencia en el contexto de edición de fórmulas.
+
+### 11.2. Cálculos de funciones examinables
+
+| Fórmula | Datos de partida | Resultado |
+|---|---|---|
+| `=SI(A1>=5;"APTO";"NO APTO")` | **A1 = 7** | **APTO** |
+| `=CONTAR.SI(A1:A4;">5")` | **3, 7, 9 y 5** | **2** |
+| `=PROMEDIO(A1:A3)` | **10, 20, 30** | **20** |
+| `=A2*B2` | **A2 = 200**, **B2 = 10 %** | **20** |
+
+> ⚠️ **¡Foco Examen!:** **CONTAR.SI** evalúa un criterio, mientras **CONTAR** cuenta celdas numéricas. La condición **>5** excluye exactamente **5**; **>=5** la incluiría.
+
+### 11.3. Atajos específicos de guía española
+
+La [**Guía oficial de iniciación 24.8 en español**](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html) indica los siguientes atajos generales. El epígrafe exige **LibreOffice 24**, sin imponer subversión o perfil de idioma; los atajos pueden variar en instalación personalizada.
+
+| Acción | Guía española 24.8 (Windows/Linux) | Otra configuración |
+|---|---|---|
+| Guardar | **Ctrl + G** | **Ctrl + S** internacional |
+| Nuevo documento | **Ctrl + U** | **Ctrl + N** internacional |
+| Buscar | **Ctrl + B** | **Ctrl + F** internacional |
+| Alternar referencias de fórmula | **F4** | Acción específica de Calc |
+| Editar contenido de celda | **F2** | Acción específica de Calc |
+
+> ⚠️ **¡Foco Examen!:** Para la guía española de **LibreOffice 24.8**, **Ctrl + G = guardar**. En un test de **Excel** o un perfil internacional esa correspondencia no puede trasladarse sin verificarla.
+
+**Fuente fórmulas y referencias:** [Guía de Calc 24.2](https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html) y [Ayuda Calc](https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html). **Informe:** [C2 17–20](../cierre-editorial-c2-17-20-2026-11-06.md).

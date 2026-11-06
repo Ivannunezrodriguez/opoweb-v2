@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 20
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Auditoría editorial 06/11/2026: AUDITADO (documental técnico-pedagógico)**. Cotejado el epígrafe de C2, los ocho subincisos de la matriz y **20 preguntas / 80 opciones**. La certificación funcional de navegador, móvil y accesibilidad está pendiente. [Informe](../cierre-editorial-c2-17-20-2026-11-06.md).
 
 **Estado editorial: MANUAL TÉCNICO COMPLETO Y REVISADO (29/10/2026).** Adaptado al epígrafe oficial de Diputación C2. La documentación institucional de fabricantes se cita en el cierre.
 
@@ -1037,3 +1037,44 @@ La capacidad total de una memoria USB puede superar el tamaño máximo **de cada
 - **IBM:** [memoria RAM](https://www.ibm.com/think/topics/ram) y [SSD](https://www.ibm.com/think/topics/solid-state-drives).
 
 **Control de alcance:** esta bibliografía respalda los conceptos técnicos y las comparativas generales; las prestaciones particulares dependen del fabricante y modelo, por lo que no se han formulado como universales.
+
+
+## CONTROL EDITORIAL 06/11/2026 · Componentes y periféricos en supuestos de oficina
+
+### A. GPU, memoria y alimentación
+
+Los gráficos integrados pueden usar **RAM del sistema** en lugar de **VRAM dedicada**; esto **no** convierte la RAM en almacenamiento no volátil. La capacidad nominal de una fuente de **750 W** representa la potencia que puede entregar en condiciones especificadas, **no** consumo de **750 W** constante.
+
+| Concepto | Definición que debe distinguirse | Trampa habitual |
+|---|---|---|
+| **GPU integrada** | Utiliza recursos del procesador/plataforma y **RAM del sistema** | No exige memoria gráfica físicamente separada |
+| **GPU dedicada** | Dispositivo gráfico con recursos propios, habitualmente VRAM dedicada | No sustituye a toda la memoria RAM del equipo |
+| **Fuente 750 W** | Capacidad nominal de potencia eléctrica disponible | No obliga a consumir esa potencia siempre |
+| **SSD** | Almacenamiento de estado sólido **no volátil** | No es sinónimo de memoria RAM |
+
+> ⚠️ **¡Foco Examen!:** La **capacidad de 750 W** de una fuente no es gasto continuo de **750 W**; la **RAM compartida** de la GPU integrada es memoria de trabajo y no un SSD.
+
+### B. Tres funciones distintas de la impresora y el escáner
+
+| Elemento | Para qué sirve | Lo que **no** garantiza |
+|---|---|---|
+| **ADF** | Alimentar varias hojas durante el escaneo | Digitalización **dúplex** si el dispositivo no la admite |
+| **Dúplex** | Usar ambas caras, de impresión o digitalización según equipo | Que exista **OCR** |
+| **OCR** | Reconocer caracteres en imágenes escaneadas | Que el original sea texto editable por digitalización simple |
+| **ppp / dpi** | Resolución, puntos por pulgada | Páginas por minuto |
+| **ppm** | Velocidad nominal, páginas por minuto | Resolución de impresión |
+
+> ⚠️ **¡Foco Examen!:** Un **ADF** no equivale automáticamente a **escaneado dúplex**. **ppp (dpi)** mide resolución y **ppm** mide velocidad; son distractores frecuentes.
+
+### C. Soportes y conexiones: tres límites distintos
+
+| Dispositivo/tecnología | Regla verificada | Fuente |
+|---|---|---|
+| **FAT32** | Tamaño máximo por archivo **4 GiB menos 1 byte** (2³²−1 bytes) | [Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison) |
+| **USB 2.0 con cable Tipo C** | Velocidad teórica de enlace hasta **480 Mb/s** | [USB-IF](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf) |
+| **Extracción rápida** | Política sin caché de escritura de disco; retirar cuando no hay transferencias | [Microsoft Learn](https://learn.microsoft.com/en-us/windows/client-management/client-tools/change-default-removal-policy-external-storage-media) |
+| **Mejor rendimiento** | Puede utilizar caché de escritura, por lo que exige **expulsión segura** | [Microsoft Learn](https://learn.microsoft.com/en-us/windows/client-management/client-tools/change-default-removal-policy-external-storage-media) |
+
+> ⚠️ **¡Foco Examen!:** En FAT32 **4 GiB** no son **4 GB decimales** y **480 Mb/s** no son **480 MB/s**. Un conector **USB-C** no implica USB4, vídeo ni carga máxima.
+
+**Documentación de fabricantes:** [Intel, GPU integrada](https://www.intel.com/content/www/us/en/support/articles/000020962/graphics.html), [Intel, fuente de alimentación](https://www.intel.com/content/www/us/en/gaming/resources/power-supply.html), [Microsoft, escáner](https://support.microsoft.com/en-us/windows/hardware/printer/install-and-use-a-scanner-in-windows), [Microsoft, sistemas de archivos](https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison) y [USB-IF](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf). **Informe de auditoría:** [C2 17–20](../cierre-editorial-c2-17-20-2026-11-06.md).

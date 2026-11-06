@@ -1,6 +1,6 @@
 {
   "tema": 18,
-  "estado": "BANCO_20_PREGUNTAS_DOCUMENTADAS",
+  "estado": "AUDITADO",
   "version": "2026-10-29",
   "criterio": "20 preguntas originales de Writer 24.2, opciones verificadas estructuralmente y fundamentación en documentación oficial The Document Foundation. No se ejecutó navegación visual de la web.",
   "preguntas": [
@@ -188,45 +188,45 @@
     },
     {
       "id": "DT-C2-T18-014",
-      "enunciado": "¿Qué permite el campo de número de página en Writer?",
+      "enunciado": "Según la Guía oficial de iniciación LibreOffice 24.8 en español para Windows, ¿qué combinación guarda un documento de Writer?",
       "opciones": [
-        "Mostrar numeración dinámica",
-        "Insertar siempre el carácter 1",
-        "Cifrar el archivo",
-        "Crear una tabla dinámica"
+        "Ctrl + G",
+        "Ctrl + S",
+        "Ctrl + N",
+        "Ctrl + U"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El campo se actualiza según la página donde se muestra.",
-      "trampaExamen": "**Campo** no es texto fijo.",
-      "referencia": "https://books.libreoffice.org/en/WG24/WG2417-Fields.html"
+      "justificacion": "La edición oficial española de la Guía 24.8 documenta Ctrl+G para Guardar, distinto del habitual Ctrl+S en otras distribuciones internacionales.",
+      "trampaExamen": "No confundir **Ctrl+G** de la guía española con **Ctrl+S**, asignado a Subrayado en la tabla de formato.",
+      "referencia": "https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
     },
     {
       "id": "DT-C2-T18-015",
-      "enunciado": "¿Qué mecanismo contiene los registros variables de una combinación de correspondencia?",
+      "enunciado": "¿Qué atajo aplica negrita a texto seleccionado en la guía española LibreOffice 24.8 para Windows?",
       "opciones": [
-        "El diccionario ortográfico",
-        "La fuente de datos",
-        "El pie de página",
-        "Un estilo de carácter"
+        "Ctrl + G",
+        "Ctrl + N",
+        "Ctrl + U",
+        "Ctrl + T"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La fuente de datos contiene campos y registros variables para personalizar cartas.",
-      "trampaExamen": "Modelo y fuente de datos son distintos.",
-      "referencia": "https://books.libreoffice.org/en/WG24/WG2414-MailMerge.html"
+      "justificacion": "La guía oficial 24.8 en español asigna Ctrl+N al formato Negrita para Windows/Linux; es una asignación localizada.",
+      "trampaExamen": "**Ctrl+N** es negrita en esta distribución; **Ctrl+U** crea un documento nuevo.",
+      "referencia": "https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
     },
     {
       "id": "DT-C2-T18-016",
-      "enunciado": "Después de cambiar títulos de un documento, ¿qué acción puede ser necesaria en la tabla de contenido de Writer?",
+      "enunciado": "¿Qué combinación aplica subrayado en Writer según la guía española LibreOffice 24.8 para Windows?",
       "opciones": [
-        "Volver a crear toda la plantilla OTT",
-        "Cerrar todas las páginas",
-        "Actualizar índice",
-        "Convertir el archivo en CSV"
+        "Ctrl + G",
+        "Ctrl + N",
+        "Ctrl + S",
+        "Ctrl + E"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La tabla de contenido necesita actualización cuando cambian títulos o paginación.",
-      "trampaExamen": "Automático al **generar** no significa automático al **actualizar**.",
-      "referencia": "https://books.libreoffice.org/en/WG24/WG2415-TOCsIndexesBiblios.html"
+      "justificacion": "La Guía 24.8 en español, apéndice A, indica Ctrl+S para Subrayado; Ctrl+G para Guardar.",
+      "trampaExamen": "La inicial S se refiere a Subrayado en el teclado español descrito: **no** equivale al atajo de guardar en inglés.",
+      "referencia": "https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
     },
     {
       "id": "DT-C2-T18-017",
@@ -272,17 +272,17 @@
     },
     {
       "id": "DT-C2-T18-020",
-      "enunciado": "¿Cuál es una diferencia entre guardar un archivo ODT y exportar un PDF?",
+      "enunciado": "¿Qué combinación abre el cuadro Guardar como, según la guía oficial española LibreOffice 24.8 para Windows?",
       "opciones": [
-        "El PDF siempre sustituye el ODT",
-        "No hay diferencias",
-        "ODT conserva formato de edición; PDF permite difusión",
-        "Exportar PDF elimina la tabla de contenido"
+        "Ctrl + E",
+        "Ctrl + N",
+        "Ctrl + Mayús + S",
+        "Ctrl + Mayús + N"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "ODT es el formato editable nativo y PDF una salida destinada a difusión, sin borrado necesario del original.",
-      "trampaExamen": "Guardar no equivale a exportar.",
-      "referencia": "https://books.libreoffice.org/en/WG24/WG2407-PrintingAndPublishing.html"
+      "justificacion": "El apéndice A de la Guía española 24.8 asigna Ctrl+Mayús+S a Guardar como, que permite nombre, ruta y formato; Guardar se realiza con Ctrl+G.",
+      "trampaExamen": "Guardar y Guardar como son acciones distintas: el segundo permite variar nombre, ubicación o formato.",
+      "referencia": "https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
     }
   ],
   "auditoria": {
@@ -298,5 +298,12 @@
     ],
     "resultado": "Diez respuestas documentadas; dos enunciados reforzados como ejercicios de fuentes de datos y actualización manual de tabla de contenido. Justificaciones y trampas revisadas.",
     "limitacion": "Auditoría documental de las diez preguntas; no sustituye una prueba real con LibreOffice 24.2 ni la revisión total del manual."
+  },
+  "cierreEditorialC2_17_20_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "reformuladas": 4,
+    "certificacionIntegral": false
   }
 }

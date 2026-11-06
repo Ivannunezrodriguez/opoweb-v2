@@ -28,3 +28,14 @@
 **Estado editorial del contenido:** **PUBLICADO** (auditoría documental y técnica completa). No se declara comprobada la experiencia de interfaz en un navegador real.
 
 > ⚠️ **¡Foco Examen!:** **USB-C** no garantiza una velocidad determinada; **FAT32** limita cada archivo a **2³²−1 bytes**; **ADF**, **OCR** e **impresión dúplex** son prestaciones diferentes.
+
+
+## Auditoría de distinciones y banco de preguntas — **06/11/2026**
+
+- [**Intel, gráficos integrados**](https://www.intel.com/content/www/us/en/support/articles/000020962/graphics.html) y [**fuentes de alimentación**](https://www.intel.com/content/www/us/en/gaming/resources/power-supply.html): RAM compartida de la GPU y **750 W nominales** frente a demanda de potencia variable.
+- [**Microsoft, escáneres**](https://support.microsoft.com/en-us/windows/hardware/printer/install-and-use-a-scanner-in-windows): alimentador ADF y escaneado dúplex como capacidades separadas.
+- [**Microsoft Learn, FAT32**](https://learn.microsoft.com/en-us/windows/win32/fileio/filesystem-functionality-comparison): **4 GiB menos un byte** es el máximo individual exacto; se conserva el contraste con exFAT y NTFS.
+- [**USB-IF**](https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf): **480 Mb/s** para cable USB 2.0 Tipo C y diferencias entre conector/estándar. [**Microsoft, retirada de unidades externas**](https://learn.microsoft.com/en-us/windows/client-management/client-tools/change-default-removal-policy-external-storage-media): Extracción rápida y Mejor rendimiento.
+- Sustituidas **5 preguntas** por casos de componentes, escáneres, resolución de impresión, potencia y conexión USB-C: DT-C2-T20-010, 012, 014, 018 y 019. **20 preguntas / 80 alternativas**. [Informe de bloque](../cierre-editorial-c2-17-20-2026-11-06.md).
+
+**Estado editorial: AUDITADO** documental; ejecución en hardware/software real y test de navegación quedan pendientes.

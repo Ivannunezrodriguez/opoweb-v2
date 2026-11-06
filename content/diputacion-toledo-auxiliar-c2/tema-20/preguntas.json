@@ -1,6 +1,6 @@
 {
   "tema": 20,
-  "estado": "BANCO_COMPLETO_REVISADO",
+  "estado": "AUDITADO",
   "version": "2026-10-29",
   "criterio": "20 preguntas de entrenamiento que cubren todos los incisos del tema oficial. Se han revisado opciones, soluciones y justificaciones; fuentes técnicas de fabricantes y Microsoft/USB-IF. No son preguntas oficiales.",
   "preguntas": [
@@ -132,17 +132,17 @@
     },
     {
       "id": "DT-C2-T20-010",
-      "enunciado": "¿Qué elemento gestiona la ejecución de instrucciones generales en un ordenador?",
+      "enunciado": "Un ordenador dispone únicamente de gráficos integrados Intel, ¿qué memoria utiliza normalmente su GPU para los datos gráficos?",
       "opciones": [
-        "La CPU",
-        "El monitor",
-        "La bandeja del escáner",
-        "El disco óptico"
+        "Memoria RAM del sistema, compartida con otras tareas",
+        "Memoria ROM que no se puede modificar",
+        "Solo un disco HDD conectado al monitor",
+        "Una VRAM dedicada físicamente independiente obligatoria"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La **CPU** ejecuta instrucciones; la memoria y los periféricos cumplen otras funciones.",
-      "trampaExamen": "No atribuir al almacenamiento el papel del **procesador**.",
-      "referencia": "https://www.intel.com/content/www/es/es/products/docs/processors/what-is-a-cpu.html"
+      "justificacion": "Intel explica que los gráficos integrados utilizan memoria del sistema en lugar de incorporar necesariamente memoria gráfica dedicada.",
+      "trampaExamen": "**GPU integrada** no implica tarjeta independiente con VRAM exclusivamente propia.",
+      "referencia": "https://www.intel.com/content/www/us/en/support/articles/000020962/graphics.html"
     },
     {
       "id": "DT-C2-T20-011",
@@ -160,17 +160,17 @@
     },
     {
       "id": "DT-C2-T20-012",
-      "enunciado": "¿Qué función incorpora un escáner para introducir automáticamente una pila de hojas?",
+      "enunciado": "¿Qué afirmación sobre el alimentador automático ADF y la digitalización dúplex es correcta?",
       "opciones": [
-        "GPU",
-        "Fusor",
-        "ADF",
-        "Puerto HDMI"
+        "Todo ADF escanea siempre las dos caras sin configuración",
+        "El ADF convierte automáticamente archivos PDF en texto editable",
+        "El ADF facilita hojas sucesivas; el escaneado por ambas caras requiere capacidad dúplex del equipo",
+        "El ADF es una tecnología exclusiva de monitores táctiles"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El **ADF** alimenta automáticamente documentos, pero puede no digitalizar ambas caras.",
-      "trampaExamen": "**ADF** no equivale a **escaneo dúplex**.",
-      "referencia": "https://support.microsoft.com/es-es/windows"
+      "justificacion": "Un ADF alimenta hojas; la función dúplex es una prestación adicional y no se infiere por tener alimentador.",
+      "trampaExamen": "**ADF** no es sinónimo de **dúplex**; **OCR** es otra operación diferente.",
+      "referencia": "https://support.microsoft.com/en-us/windows/hardware/printer/install-and-use-a-scanner-in-windows"
     },
     {
       "id": "DT-C2-T20-013",
@@ -188,17 +188,17 @@
     },
     {
       "id": "DT-C2-T20-014",
-      "enunciado": "Una impresora dispone de función dúplex. ¿Qué permite?",
+      "enunciado": "¿Qué relación describe correctamente resolución y rendimiento de una impresora?",
       "opciones": [
-        "Imprimir por ambas caras de la hoja",
-        "Traducir automáticamente el documento",
-        "Convertir RAM en almacenamiento",
-        "Escanear necesariamente por ambas caras"
+        "ppp (dpi) expresa resolución; ppm expresa páginas por minuto",
+        "ppp indica únicamente la velocidad de red; ppm es memoria RAM",
+        "Ambas magnitudes describen exclusivamente la potencia de la fuente",
+        "ppp significa páginas por minuto; ppm significa puntos por pulgada"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La impresión **dúplex** utiliza las dos caras; puede ser automática o manual según el equipo.",
-      "trampaExamen": "No confundir **dúplex de impresión** y **dúplex de escaneo**.",
-      "referencia": "https://support.microsoft.com/es-es/windows"
+      "justificacion": "El parámetro ppp/dpi representa densidad o resolución de impresión; ppm describe un número nominal de páginas impresas por minuto.",
+      "trampaExamen": "Mayor **dpi** no significa automáticamente mayor **ppm**; las dos magnitudes no son equivalentes.",
+      "referencia": "HP Support: tecnologías y parámetros de impresión · https://support.hp.com/pl-pl/document/ish_2281139-2041471-16?fallbackLocale=us-en&validated=true"
     },
     {
       "id": "DT-C2-T20-015",
@@ -244,31 +244,31 @@
     },
     {
       "id": "DT-C2-T20-018",
-      "enunciado": "¿Qué soporte óptico está concebido como disco regrabable?",
+      "enunciado": "En un PC con una fuente de alimentación de potencia nominal 750 W, ¿qué significa esa cifra?",
       "opciones": [
-        "DVD-RW",
-        "DVD-ROM",
-        "DVD-R",
-        "CD-ROM"
+        "Capacidad de suministro nominal; no implica consumir 750 W en todo momento",
+        "Consumo obligatorio constante, incluso cuando el PC está apagado",
+        "Frecuencia de reloj del procesador expresada en MHz",
+        "Voltaje exacto de cada conector USB"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El sufijo **RW** significa regrabable; **ROM** es solo lectura y **R** grabable sin borrado ordinario.",
-      "trampaExamen": "**RW** admite nuevas grabaciones con unidad compatible.",
-      "referencia": "https://www.verbatim-europe.com/en/disc-types"
+      "justificacion": "La potencia de la fuente expresa capacidad de salida nominal; el consumo real varía con los componentes, su actividad y la eficiencia.",
+      "trampaExamen": "**750 W de capacidad nominal** no son **750 W de consumo permanente**.",
+      "referencia": "https://www.intel.com/content/www/us/en/gaming/resources/power-supply.html"
     },
     {
       "id": "DT-C2-T20-019",
-      "enunciado": "¿Qué requiere grabar información en un DVD-R vacío?",
+      "enunciado": "Si un cable con conector USB-C solo es compatible con USB 2.0, ¿cuál es su velocidad máxima teórica de datos?",
       "opciones": [
-        "Solo un lector CD-ROM",
-        "Una unidad grabadora y soporte compatible",
-        "Un escáner ADF",
-        "Un adaptador de red"
+        "480 MB/s garantizados de transferencia de archivos",
+        "480 Mb/s (megabits por segundo)",
+        "40 Gb/s de USB4, obligatoriamente",
+        "240 W como velocidad de escritura"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La grabación requiere **grabadora compatible** y disco apto; un lector solo accede al contenido.",
-      "trampaExamen": "Un lector no puede grabar por insertar un disco virgen.",
-      "referencia": "https://www.verbatim-europe.com/en/disc-types"
+      "justificacion": "Un cable USB 2.0 Type-C puede limitar la comunicación hasta 480 megabits por segundo; el conector externo no acredita USB3 ni USB4.",
+      "trampaExamen": "**Mb/s** no son **MB/s** (bytes por segundo). USB-C describe forma del conector, no velocidad.",
+      "referencia": "https://www.usb.org/sites/default/files/usb_type-c_language_product_and_packaging_guidelines_20230320.pdf"
     },
     {
       "id": "DT-C2-T20-020",
@@ -289,5 +289,12 @@
     "fecha": "2026-10-29",
     "preguntasRevisadas": 20,
     "resultado": "Coherencia técnica y cuatro opciones por pregunta revisadas; repaso de CPU/RAM/SSD, periféricos, impresoras, escáneres, USB, discos externos y CD/DVD. Pendiente prueba visual en navegador, no impide la revisión sustantiva del contenido."
+  },
+  "cierreEditorialC2_17_20_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "reformuladas": 5,
+    "certificacionIntegral": false
   }
 }

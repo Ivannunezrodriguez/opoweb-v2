@@ -1,6 +1,6 @@
 # Diputación Toledo · Auxiliar Administrativo C2 · Tema 17
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial desde 06/11/2026: AUDITADO (documental técnico-pedagógico)**. Confirmados el epígrafe, la versión de Edge/GroupWise 24, las fuentes oficiales y las 20 preguntas. **Pendientes** las pruebas de navegador real, accesibilidad y GroupWise instalado; el historial del 29/10 se conserva como hito previo. [Informe del bloque](../cierre-editorial-c2-17-20-2026-11-06.md).
 
 **ESTADO EDITORIAL: CONTENIDO COMPLETO REVISADO, 29/10/2026.**
 Fecha de consulta de documentación técnica: **25/10/2026**.
@@ -345,3 +345,39 @@ Antes de enviar documentación administrativa se comprueban destinatarios, copia
 - [GroupWise 24 Web User Guide](https://www.novell.com/documentation/groupwise24/pdfdoc/gw_guide_gwweb/gw_guide_gwweb.pdf).
 
 **Criterio editorial:** el tema está desarrollado para **Microsoft Edge** y **GroupWise 24** exclusivamente, con diferencias cliente Windows/Web expresamente señaladas. La verificación visual del portal no se ha ejecutado.
+
+
+## 10. Cotejo de trampas de examen y atajos — **06/11/2026**
+
+### 10.1. Microsoft Edge: acciones distintas
+
+| Operación | Tecla (Windows) | Diferencia que se evalúa |
+|---|---|---|
+| Abrir pestaña | **Ctrl + T** | Crea otra pestaña ordinaria |
+| Reabrir la última pestaña cerrada, si está disponible | **Ctrl + Mayús + T** | Recupera una pestaña cerrada, **no** inicia InPrivate |
+| Abrir InPrivate | **Ctrl + Mayús + N** | Nueva ventana privada; no asegura anonimato |
+| Consultar descargas | **Ctrl + J** | No equivale al historial de navegación |
+| Consultar historial | **Ctrl + H** | No borra por sí mismo los archivos descargados |
+| Guardar favorito | **Ctrl + D** | Añade vínculo, no una copia completa del sitio |
+
+**Fuente:** [Microsoft Support, teclado de Edge](https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge).
+
+> ⚠️ **¡Foco Examen!:** **Ctrl + Mayús + T** recupera una pestaña cerrada; **Ctrl + Mayús + N** abre **InPrivate**. Guardar un favorito no implica conservar el contenido íntegro de la página.
+
+### 10.2. GroupWise 24: copia oculta y retirada de mensajes
+
+El manual oficial identifica **To/Para**, **Cc (copia visible)** y **Bc (copia oculta)**. Cuando un destinatario pulsa **Reply to All / Responder a todos**, la respuesta **no se envía automáticamente a quienes estaban en Bc** en el mensaje original.
+
+| Acción | Efecto | Límite relevante |
+|---|---|---|
+| **Responder** | Contesta al remitente | No convierte el mensaje en un reenvío |
+| **Responder a todos** | Contesta a remitente y destinatarios visibles pertinentes | **No incorpora automáticamente Bc** |
+| **Reenviar / Resend** | Prepara un nuevo envío, en su caso con cambios | No garantiza la desaparición del envío anterior |
+| **Retractar** | Intenta retirar un mensaje interno enviado | No sirve para correos **ya abiertos** ni enviados a **sistemas externos** |
+| **Eliminar de Enviados** | Borra o mueve la copia local | No equivale a **retractar** de otros buzones |
+
+**Fuentes:** [composición en GroupWise 24](https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/email_sending_composing.html) y [guía del cliente GroupWise 24](https://www.novell.com/documentation/groupwise24/).
+
+> ⚠️ **¡Foco Examen!:** **Bc** es **copia oculta**, no destinatario principal. **Retractar** solo es posible bajo condiciones concretas; un mensaje **externo** o **abierto** no se retira por esa función.
+
+**Cierre de bloque:** [informe C2 17–20](../cierre-editorial-c2-17-20-2026-11-06.md). Esta revisión documental no demuestra operación en el cliente real ni accesibilidad de OpoWeb.
