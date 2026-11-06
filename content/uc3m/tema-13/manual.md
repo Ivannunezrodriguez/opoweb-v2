@@ -164,6 +164,29 @@ La docencia debe garantizar calidad, inclusión, accesibilidad, atención a la d
 
 Las metodologías y sistemas de evaluación deben ser coherentes con los resultados de aprendizaje y respetar los derechos del estudiantado. La innovación docente y la formación del profesorado forman parte de la mejora continua.
 
+
+### 9.1. Función docente: art. 6, y distinción entre títulos (arts. 7–9)
+
+La **LOSU, art. 6.1**, considera la **docencia** y la **formación** funciones fundamentales de las universidades. La docencia es un **derecho y un deber del PDI**, compatible con la organización legal de las enseñanzas y la **libertad de cátedra**.
+
+| Concepto | Regla de la LOSU | Precepto |
+|---|---|---|
+| Modalidad de docencia | **Preferentemente presencial**, pero también puede ser **virtual o híbrida**. | **6.1** |
+| Participación estudiantil | **Plena y efectiva** en elaboración, seguimiento y actualización de los **planes de estudio** y sus efectos en guías docentes. | **6.2** |
+| Innovación docente | Principio fundamental para enseñar y aprender. | **6.3** |
+| Formación del profesorado | **Universidades** desarrollarán formación **inicial y continua** para la función docente. | **6.4** |
+| Evaluación de docencia | Evaluación **permanente** de la calidad con participación **efectiva del estudiantado**. | **6.5** |
+| Títulos **oficiales** | **Grado, Máster Universitario y Doctorado**; eficacia en todo el Estado. | **6.6 y 9.1** |
+| Títulos **propios** | Formación que pueden impartir universidades sin confundir con el carácter oficial; los títulos propios deben **evitar denominaciones engañosas**. | **7.1 y 7.4** |
+| Inscripción de títulos **oficiales** | Inscripción en el **Registro de Universidades, Centros y Títulos (RUCT)** con **efectos constitutivos**. | **7.3** |
+| Enseñanzas conjuntas | Tanto los títulos oficiales como los propios pueden organizarse como **titulaciones conjuntas** entre universidades españolas o españolas y extranjeras. | **6.6** |
+
+El **artículo 8.1** atribuye al **Gobierno** la regulación por real decreto de las directrices y condiciones de obtención y expedición de títulos **oficiales**, previo informe de la **Conferencia General de Política Universitaria** y del **Consejo de Universidades**; los expide **el Rector o Rectora, en nombre del Rey**. Esto **no** convierte los títulos propios en oficiales.
+
+**Fuente primaria:** [**LOSU, arts. 6–9**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500).
+
+> ⚠️ **¡Foco Examen!:** **Preferentemente presencial ≠ exclusivamente presencial**; el **estudiantado participa** en planes y evaluación docente. La inscripción **constitutiva en RUCT** corresponde a títulos **oficiales**. Los títulos propios **no** adquieren oficialidad por su nombre o formato.
+
 ## 10. Aseguramiento de la calidad
 
 El aseguramiento de la calidad corresponde a las universidades, las agencias de evaluación y las Administraciones competentes.
