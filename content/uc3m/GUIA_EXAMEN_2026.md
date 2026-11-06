@@ -111,3 +111,10 @@ Los **12 ítems anteriores del T9** permanecen y el refuerzo no se incorpora sil
 [**Repaso adicional de 12 preguntas y 48 opciones: igualdad, tutela, identidad de género y lenguaje inclusivo**](REPASO_IGUALDAD_T08_20261106.md), con respuestas justificadas por artículos de la **LO 3/2007**, resolución institucional UC3M de **2017** y medidas del **III Plan 2025–2029**. Las **12 preguntas históricas del tema 8** y los simulacros **70+5** no se han modificado.
 
 > ⚠️ **¡Foco Examen!:** **Art. 51** fija criterios generales para **Administraciones Públicas**; **arts. 55 y 61** son previsiones expresas del capítulo para **AGE**. El material se mantiene **EN_REVISION_USUARIO**, sin declarar certificación funcional.
+
+
+## Refuerzo PRL del tema 12 — 06/11/2026
+
+[Repaso adicional: 12 preguntas y 48 alternativas, con soluciones y fuentes legales](REPASO_PRL_T12_20261106.md). Refuerza los cuatro apartados de la matriz sin preguntas propias: **ámbito (art. 3)**, **personas especialmente sensibles (25–28)**, **consulta (33 y 36)** y **coordinación empresarial (24; RD 171/2004)**. Mantiene las preguntas históricas del tema y los simulacros sin cambios.
+
+> ⚠️ **¡Foco Examen!:** Informes de los **Delegados**: **15 días** con la salvedad legal de los riesgos inminentes. **Empresas concurrentes**, **titular** y **principal** desempeñan funciones distintas.
