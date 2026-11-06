@@ -147,7 +147,7 @@ La **vista previa de resultados** permite revisar los datos combinados por regis
 
 ### Pregunta 3 — **A**
 
-Los **estilos de título** proporcionan la estructura necesaria para una **tabla de contenido automática**. **Fuente oficial:** [Microsoft / Google](https://support.microsoft.com/es-es/word/insert-a-table-of-contents).
+Los **estilos de título** proporcionan la estructura necesaria para una **tabla de contenido automática**. **Fuente oficial:** [Microsoft / Google](https://support.microsoft.com/es-es/word/add-a-heading-in-a-word-document).
 
 > ⚠️ **¡Foco Examen!:** **Negrita** visual no equivale a un **nivel de título**.
 
@@ -165,7 +165,7 @@ El **formato condicional** evalúa la condición y cambia el **formato**, sin al
 
 ### Pregunta 6 — **C**
 
-El **filtro** controla qué filas se muestran; no elimina las que no cumplen el criterio. **Fuente oficial:** [Microsoft / Google](https://support.microsoft.com/es-es/excel/filter-data-in-a-range-or-table).
+El **filtro** controla qué filas se muestran; no elimina las que no cumplen el criterio. **Fuente oficial:** [Microsoft / Google](https://support.microsoft.com/es-es/excel/get-started/filter-data-in-a-range-or-table-in-excel).
 
 > ⚠️ **¡Foco Examen!:** **Filtrar** no equivale a **eliminar** ni a **ordenar**.
 
