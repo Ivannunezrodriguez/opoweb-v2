@@ -112,5 +112,33 @@
     "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_LISTAS_DEFINITIVAS",
     "reservaFuentePrimaria": "Fecha exacta de listas definitivas UC3M"
+  },
+  "controlReformaUC3MTraslado20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_DOCUMENTAL_FOCAL_NO_CIERRE_INTEGRAL",
+    "norma": "UC3M BOEL 22/01/2026, anexo 5, modificación aprobada 11/12/2025",
+    "url": "https://sede.uc3m.es/boel/anexo/11307/",
+    "articulos": [
+      {
+        "grupo": "Art. 1",
+        "contenido": "Rector aprueba plazas anuales; reserva 50 % de plazas del cupo de traslado para estudiantes propios UC3M"
+      },
+      {
+        "grupo": "Art. 2–3",
+        "contenido": "30 créditos reconocibles, excepción solicitud alumnos internos con 30 matriculados, propuesta Centro antes día 15 siguiente mes, decide Rector"
+      },
+      {
+        "grupo": "Art. 4.1–4.2",
+        "contenido": "Cupo interno adjudicación antes 15/6; otras universidades españolas 60 ECTS pendientes en origen y resolución antes 10/6"
+      }
+    ],
+    "repaso": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md",
+    "preguntasRepaso": 6,
+    "alternativasRepaso": 24,
+    "bancoOriginalPreguntas": 12,
+    "bancoOriginalNoModificado": true,
+    "inspeccionVisualPDF": "NO_DISPONIBLE",
+    "corteNormativo": "PENDIENTE_RESOLUCION_ORIGINAL_LISTAS_DEFINITIVAS",
+    "certificacionWeb": false
   }
 }
