@@ -298,3 +298,24 @@ Refuerzo de los **cuatro apartados sin pregunta directa** identificados en la ma
 [**12 preguntas nuevas, 48 opciones, explicaciones y plantilla de respuestas, con referencia por artículo**](../REPASO_LOSU_T13_20261106.md). Se distribuyen en coordinación institucional (**arts. 14–17**), estructuras (**40–43**), docencia (**6–9**) y cooperación/ciencia abierta (**11–14**). El banco histórico de **12 preguntas** y los simulacros **70+5** permanecen sin modificaciones.
 
 > ⚠️ **¡Foco Examen!:** **Conferencia General** aprueba la oferta general de enseñanzas y plazas; **Consejo de Universidades** verifica la adecuación de los planes. **Facultades** se crean por acuerdo autonómico; **departamentos**, por la universidad conforme a su normativa.
+
+
+## 16. Precisión normativa de centros propios, adscritos y universidades privadas — **06/11/2026**
+
+En la **LOSU, artículo 41**, la creación, modificación y supresión de **facultades y escuelas** se acuerda por la **Comunidad Autónoma**, **a iniciativa de la universidad**, mediante propuesta y aprobación de su **Consejo de Gobierno**. En cambio, los **departamentos**, **institutos** y **escuelas de doctorado** corresponden a la **universidad**, con sujeción a la ley, su desarrollo y sus estatutos. La competencia autonómica del primer caso no convierte a la comunidad autónoma en órgano creador de todos los centros.
+
+El **artículo 42** diferencia la creación de un centro universitario de su **adscripción**: esta última requiere **convenio previo**; si la adscripción se realiza a una **universidad pública**, requiere aprobación de la **Comunidad Autónoma**, a propuesta del **Consejo de Gobierno** universitario, oído previamente el **Consejo Social** según la formulación legal «una vez informado». Como regla, el centro se adscribe a **una sola universidad**, pero existe **dispensa excepcional legal o reglamentaria** por características particulares (**42.3**).
+
+| Supuesto | Regla y órgano | Precepto |
+|---|---|---|
+| Facultad o escuela | **Comunidad Autónoma**, a iniciativa y con propuesta/aprobación del **Consejo de Gobierno universitario** | **41.1** |
+| Departamento, instituto o escuela de doctorado | **Universidad**, con arreglo a ley y estatutos | **41.2** |
+| Centro adscrito a universidad pública | **Convenio previo**, propuesta del **Consejo de Gobierno**, informe del **Consejo Social** y aprobación autonómica | **42.1–2** |
+| Centro adscrito a más de una universidad | **Regla general: no**; admite **dispensa excepcional** | **42.3** |
+| Universidades privadas | Estructuras conforme a sus normas; **defensoría universitaria y unidades de igualdad y diversidad** obligatorias | **97.1–2** |
+
+El listado de unidades del **artículo 43.1** se inserta en el régimen organizativo de las **universidades públicas** del título IX, mientras que para las **privadas** debe leerse expresamente el **artículo 97**. No trasladar automáticamente todas las unidades y servicios públicos a las privadas por analogía.
+
+**Fuente primaria para cotejo:** [**LOSU, artículos 41–43 y 97, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500). Última actualización publicada que presenta el BOE: **02/08/2024**. Se mantiene la reserva sobre el **corte temporal de la convocatoria UC3M** y la ausencia de prueba E2E real.
+
+> ⚠️ **¡Foco Examen!:** **Crear una facultad (41.1)** no equivale a **adscribir un centro (42)**. **Una sola universidad** admite **excepción**; y para las **privadas**, comprobar el **artículo 97**, no atribuirles sin más todas las unidades del **43**.
