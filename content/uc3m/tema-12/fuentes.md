@@ -39,3 +39,20 @@ El manual se ajusta al epígrafe oficial de la convocatoria y prioriza conceptos
 [**Informe de cotejo de las 36 preguntas y 144 alternativas**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/uc3m/cotejo-bloque-t10-t12-2026-11-05.md), con origen legal por **precepto**, fundamento de la clave y descarte argumentado de las otras tres opciones, en el bloque de tres temas. **No equivale a certificación integral**, ni da por resuelta la fecha jurídica de corte de la convocatoria de la **UC3M**.
 
 > ⚠️ **¡Foco Examen!:** Distinguir la norma **actualmente vigente** de la **redacción exigible según las bases**, determinada por la fecha de publicación del anuncio oficial correspondiente, todavía por verificar en fuente primaria.
+
+## Ampliación específica de cuatro apartados sin ítems propios — **06/11/2026**
+
+**Verificación primaria efectuada sobre textos HTML consolidados del BOE**, sin inspección de PDF: [Ley 31/1995, texto actualizado **09/04/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) y [**RD 171/2004**, coordinación de actividades empresariales](https://www.boe.es/buscar/act.php?id=BOE-A-2004-1848). La fecha de corte de la oposición **UC3M** no se presume idéntica a la última publicación del texto consolidado: debe respetarse la **base primera.7** y confirmarse la resolución original de listas definitivas.
+
+| Bloque antes sin pregunta directa | Fuente oficial y preceptos | Distinciones ahora desarrolladas |
+|---|---|---|
+| Ámbito de aplicación | **LPRL arts. 2.2 y 3.1–3** | **Funcionarios/estatutarios sí incluidos** con peculiaridades; excepciones funcionales delimitadas; derecho necesario mínimo mejorable por convenio. |
+| Personas especialmente sensibles | **LPRL arts. 25–28** | Evaluación específica; protección reproductiva y maternidad (**adaptar → cambio compatible → posible suspensión**); menores **18 años**; misma protección de temporales y ETT. |
+| Consulta preventiva | **LPRL arts. 33.1–2 y 36.1, 36.3–4** | Consulta con **debida antelación**; informe de **Delegados 15 días**, salvo riesgo inminente (**tiempo imprescindible**); decisión negativa empresarial sobre propuestas **motivada**. |
+| Coordinación de actividades | **LPRL art. 24 y RD 171/2004 arts. 2, 4, 6–10** | **Concurrencia: cooperación**; **titular: información riesgos centro**; **principal: vigilancia propia actividad en centro propio**; información **escrita** sobre riesgos graves/muy graves en los supuestos normativos. |
+
+**Documento de práctica creado:** [**Repaso T12 con 12 preguntas y 48 alternativas**](../REPASO_PRL_T12_20261106.md), con **12 soluciones** y **12 bloques de Foco Examen**, tres preguntas por cada una de las cuatro lagunas anteriores. El **banco original de 12 ítems** conserva sus claves y su cotejo de **04/11**; no se modifica el banco de simulacros.
+
+**Control de alcance:** la ampliación comprende los preceptos aquí enumerados y no equivale a auditoría completa de todos los efectos y reglamentos de prevención, ni a prueba de interfaz real, accesibilidad o PWA. Se mantienen las matrices y el estado de revisión, sin certificar nuevos temas.
+
+> ⚠️ **¡Foco Examen!:** **15 días** es plazo del **informe de Delegados** del art. **36.3**, no un período de espera aplicable indiscriminadamente a cualquier medida preventiva. El **empresario titular** y el **principal** no son sinónimos.
