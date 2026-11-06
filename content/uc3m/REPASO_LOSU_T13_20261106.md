@@ -121,3 +121,60 @@
 
 > ⚠️ **¡Foco Examen!:** Los títulos **propios** pueden inscribirse a efectos **informativos**, pero no adquieren oficialidad.
 
+### Pregunta 10 — Cooperación
+
+¿Con quién pueden colaborar las universidades según el artículo 14.2 de la LOSU?
+
+- **A.** Otras universidades, instituciones de educación superior, organismos de investigación, administraciones, empresas y sociedad civil
+- **B.** Solo universidades públicas
+- **C.** Solo ministerios
+- **D.** Exclusivamente universidades extranjeras
+
+**Respuesta: A.** La cooperación incluye **instituciones, Administraciones, empresas y agentes sociales**, mediante alianzas y redes. **Fuente:** LOSU art. 14.2.
+
+> ⚠️ **¡Foco Examen!:** La cooperación **no se limita** a las universidades.
+
+### Pregunta 11 — Cooperación
+
+¿Cuándo debe el PDI depositar la versión final aceptada y datos asociados en repositorios institucionales o temáticos?
+
+- **A.** Cinco años después
+- **B.** Simultáneamente a la fecha de publicación
+- **C.** Solo cuando lo pida el Consejo Social
+- **D.** Antes de iniciar la investigación
+
+**Respuesta: B.** El **PDI** debe depositar la **versión final aceptada** y datos asociados **de forma simultánea a la publicación**. **Fuente:** LOSU art. 12.2.
+
+> ⚠️ **¡Foco Examen!:** No confundir la **versión final aceptada** con el manuscrito inicial.
+
+### Pregunta 12 — Cooperación
+
+¿Qué permite la LOSU sobre proteger resultados antes de una publicación de ciencia abierta?
+
+- **A.** Prohíbe patentes
+- **B.** Exige divulgar todos los secretos empresariales
+- **C.** Prohíbe derechos de autor
+- **D.** Permite proteger previamente propiedad intelectual, industrial y secreto empresarial conforme a la ley
+
+**Respuesta: D.** El acceso abierto es compatible con **proteger previamente** resultados y derechos legalmente reconocidos. **Fuente:** LOSU art. 12.11.
+
+> ⚠️ **¡Foco Examen!:** **Ciencia abierta** no exige publicar **sin límites** o renunciar a patentes.
+
+## Plantilla de respuestas
+
+| N.º | Materia | Respuesta | Artículo |
+|---:|---|:---:|---|
+| **1** | Coordinación | **B** | **LOSU 15.1.e** |
+| **2** | Coordinación | **C** | **LOSU 16.1.e** |
+| **3** | Coordinación | **A** | **LOSU 17.4** |
+| **4** | Estructuras | **D** | **LOSU 41.1** |
+| **5** | Estructuras | **C** | **LOSU 41.2** |
+| **6** | Estructuras | **A** | **LOSU 43.3** |
+| **7** | Docencia | **B** | **LOSU 6.1** |
+| **8** | Docencia | **D** | **LOSU 6.2** |
+| **9** | Docencia | **C** | **LOSU 7.3** |
+| **10** | Cooperación | **A** | **LOSU 14.2** |
+| **11** | Cooperación | **B** | **LOSU 12.2** |
+| **12** | Cooperación | **D** | **LOSU 12.11** |
+
+**Alcance:** 12 preguntas nuevas, 48 alternativas, 12 explicaciones, 12 focos. [Volver al tema 13](tema-13/manual.md). El banco principal y los simulacros no se modifican. **No** se declara certificación jurídica o funcional integral.
