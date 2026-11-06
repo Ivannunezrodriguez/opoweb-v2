@@ -291,3 +291,10 @@ Debe desarrollarse con criterios de calidad, equidad y eliminación de barreras 
 ## Control de cobertura jurídico-editorial — **06/11/2026**
 
 Refuerzo de los **cuatro apartados sin pregunta directa** identificados en la matriz: coordinación institucional (**LOSU 14–17**), estructuras (**40–43**), docencia (**6–9**) y cooperación (**11–14**). El texto se ha cotejado con el [**BOE consolidado de la LOSU**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500), cuya última actualización publicada figura como **02/08/2024**. Se conserva el banco original de **12 preguntas** y no se altera ninguno de los simulacros. La ampliación es **focal**, sin certificación de interfaz, WCAG o fecha exacta de corte legislativo de la **base primera.7** UC3M.
+
+
+## Repaso específico de cuatro lagunas LOSU T13 — **06/11/2026**
+
+[**12 preguntas nuevas, 48 opciones, explicaciones y plantilla de respuestas, con referencia por artículo**](../REPASO_LOSU_T13_20261106.md). Se distribuyen en coordinación institucional (**arts. 14–17**), estructuras (**40–43**), docencia (**6–9**) y cooperación/ciencia abierta (**11–14**). El banco histórico de **12 preguntas** y los simulacros **70+5** permanecen sin modificaciones.
+
+> ⚠️ **¡Foco Examen!:** **Conferencia General** aprueba la oferta general de enseñanzas y plazas; **Consejo de Universidades** verifica la adecuación de los planes. **Facultades** se crean por acuerdo autonómico; **departamentos**, por la universidad conforme a su normativa.
