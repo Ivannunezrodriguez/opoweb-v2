@@ -68,3 +68,14 @@ El [**PDF institucional original del Presupuesto UC3M 2026, Volumen I**](https:/
 > ⚠️ **¡Foco Examen!:** En el **documento presupuestario UC3M**, **O = propuesta de pago**, no «orden de pago». Los **5.000 €** de caja fija y los **12.000 €** de anticipos están en apartados **distintos** del art. 16.
 
 [**Informe de cotejo y ejercicios originales**](../COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md). **No** se presenta esta inspección como auditoría funcional completa.
+
+
+## Revisión conectada T18–T20 — 06/11/2026
+
+**Fuente normativa primaria comprobada:** [**LCSP art. 198.4–6 y Normas Básicas UC3M 2026 arts. 15.2.1 y 16**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902). **Cambio focal del tema 19:** Conformidad 30 días y pago 30 desde conformidad; factura correcta en 30 desde entrega para intereses; suspensión por demora >4 meses con preaviso 1 mes; resolución tras >6 meses; O UC3M=propuesta de pago.
+
+**Desarrollo:** [**manual del tema 19**](manual.md), apartados **24** y [**tabla transversal de presupuestos, pagos y contratos**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md). **Casos interactivos:** preguntas **5–7** de [**12 preguntas nuevas / 48 alternativas**](../../../data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json), con fuentes y explicación, sin modificar bancos históricos ni simulacros.
+
+**Reserva editorial:** se ha contrastado de forma explícita el alcance de **los artículos señalados**, no todos los preceptos de cada norma ni su aplicación temporal exacta al examen de UC3M, cuya **base primera.7** exige fecha de resolución definitiva aún pendiente de comprobación primaria. No se declara certificación jurídica ni funcional integral.
+
+> ⚠️ **¡Foco Examen!:** El umbral monetario y el plazo solo son correctos si se identifica **procedimiento, órgano y unidad temporal**; el estudio de **2026** no debe suplantarse por reglas genéricas de otras Administraciones.
