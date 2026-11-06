@@ -39,3 +39,10 @@ Los ítems redundantes **T10-008/015/020** se reemplazaron; **no** se modificaro
 
 > ⚠️ **¡Foco Examen!:** **1 mes** respuesta a derechos o conservación de vídeo son obligaciones diferentes. **72 h entrega de vídeo ≠ 72 h notificación de brecha**. En brechas, **RGPD art.33** distingue la obligación del **art.34** de comunicación a afectados con **alto riesgo**.
 
+
+
+## Cotejo final de vigencia y cuatro relojes — **06/11/2026**
+
+- [**LOPDGDD BOE**, actualización publicada **27/12/2025**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673): **art. 7** menor **14 años**; **art. 22.3** imágenes **1 mes** desde captación y entrega especial en **72 horas** desde conocimiento de grabación; **art. 88** desconexión digital.
+- [**RGPD**, reglamento directamente aplicable](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa): **art. 12.3** respuesta a derechos **1 mes** desde solicitud, prorrogable **2 más**; **art. 33** aviso brecha a autoridad sin dilación y, de ser posible, en **72 horas** desde conocimiento, excepto improbabilidad de riesgo; **art. 34** comunicación a afectados **sin dilación indebida** cuando probable **alto riesgo**.
+- [**Guía AEPD sobre brechas**](https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion) como apoyo institucional, no sustitución de los artículos. Cotejo individual de **20 preguntas / 80 opciones** ya realizado **04/11/2026**; [informe C2 7–10](../cierre-editorial-c2-07-10-2026-11-06.md). Sin certificar experiencia de navegador.

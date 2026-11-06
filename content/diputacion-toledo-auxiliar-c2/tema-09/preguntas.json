@@ -1,6 +1,6 @@
 {
   "tema": 9,
-  "estado": "BANCO_20_PREGUNTAS_REVISADO",
+  "estado": "AUDITADO",
   "version": "2026-11-04",
   "criterio": "20 preguntas con referencias individuales a ambas leyes de igualdad y cuatro opciones; revisión de contenido de examen efectuada. Comprobación visual de la web no ejecutada. · 04/11/2026: sustituidas cuatro preguntas redundantes por LO 3/2007 arts. 7.4, 13, 45 y Ley CLM 12/2010 arts. 9 y 15, con cotejo BOE original; claves conservadas.",
   "preguntas": [
@@ -305,5 +305,12 @@
     ],
     "resultado": "Se cotejaron seis respuestas y se sustituyeron tres preguntas para incorporar contenido autonómico sustantivo y diferencias de acoso.",
     "limitacion": "Verificación del banco de seis preguntas, no auditoría íntegra del manual del tema 9."
+  },
+  "cierreEditorialC2_07_10_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
   }
 }

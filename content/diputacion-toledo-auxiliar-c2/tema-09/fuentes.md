@@ -28,3 +28,10 @@ Se sustituyeron las preguntas repetitivas **T09-011, T09-012, T09-016 y T09-018*
 
 > ⚠️ **¡Foco Examen!:** **LO 3/2007 art. 13 no rige en procesos penales**. El umbral de **50 trabajadores** no debe confundirse con composición equilibrada **40–60 %**.
 
+
+
+## Cierre jurídico-editorial — **06/11/2026**
+
+- [**Ley 12/2010, BOE consolidado hasta 30/06/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708): arts. **1–65**, especialmente **8–9** sobre transversalidad e informe de impacto de género del presupuesto de la **JCCM**.
+- [**LO 3/2007, consolidación 02/08/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115): arts. **6–13** discriminación, acoso, prueba; art. **45** planes de igualdad en empresas con **≥50** personas; DA **1.ª** equilibrio **40 %–60 %** en su ámbito.
+- Cotejadas antes las **20 preguntas / 80 opciones** del banco a **04/11/2026**, sin cambios en este lote. [Informe C2 7–10](../cierre-editorial-c2-07-10-2026-11-06.md). **AUDITADO documental** y no certificado funcional.

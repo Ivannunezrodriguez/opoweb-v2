@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 8
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial 06/11/2026: AUDITADO jurídico-documental**. Incluye derechos y obligaciones, modalidades de servicios de prevención, delegados y comité, con fuentes consolidadas y **20 preguntas / 80 alternativas** ya cotejadas. **No** certifica navegación real, WCAG, móvil ni PWA. [Informe](../cierre-editorial-c2-07-10-2026-11-06.md).
 
 **Estado editorial: CONTENIDO COMPLETO — revisión documental de 29/10/2026.**
 
@@ -543,3 +543,45 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 7 aprobad
 
 > ⚠️ **¡Foco Examen!:** El **Comité de Seguridad y Salud** es obligatorio con **50 o más trabajadores** y se reúne **trimestralmente**; los delegados emiten informe sobre consultas del art. 33 en **15 días**, salvo riesgo inminente.
 
+
+
+## Cierre normativo de riesgos laborales — **06/11/2026**
+
+[**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292): última actualización publicada el **09/04/2026**. [**Reglamento de los Servicios de Prevención, RD 39/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853): última actualización publicada el **17/10/2025**. Las normas se estudian de manera conjunta, pero no se atribuyen al **art. 14 LPRL** los umbrales del **art. 14 del RD 39/1997**.
+
+### Delegados, Comité y servicio de prevención propio
+
+| Personal y organización | Regla legal | Fuente |
+|---|---|---|
+| Empresa **hasta 30 trabajadores** | El **Delegado de Prevención** es el **Delegado de Personal** | LPRL **35.2** |
+| Empresa **31 a 49** | **Un Delegado de Prevención**, elegido por y entre **Delegados de Personal** | LPRL **35.2** |
+| Empresa **50–100** | **2 Delegados de Prevención** | LPRL **35.2** |
+| Empresa **101–500** | **3 Delegados de Prevención** | LPRL **35.2** |
+| Empresa **501–1.000** | **4 Delegados de Prevención** | LPRL **35.2** |
+| Empresa o centro **≥50** | **Comité de Seguridad y Salud**, órgano paritario, representaciones de igual número | LPRL **38.1–2** |
+| Reuniones del Comité | **Trimestralmente** y cuando lo solicite alguna representación | LPRL **38.3** |
+| Servicio de prevención propio por plantilla | **Más de 500** trabajadores; también entre **250–500** en actividades del **anexo I** | RD **39/1997 art. 14.a–b** |
+
+> ⚠️ **¡Foco Examen!:** **50** trabajadores ya obliga a **Comité de Seguridad y Salud** pero **no** determina por sí solo la exigencia de **servicio de prevención propio**; este responde a otra escala (**más de 500**, o **250–500** con actividades del anexo I, más otros supuestos reglados).
+
+### Derechos, consultas y plazos que se confunden
+
+| Obligación o derecho | Regla o plazo | Fuente |
+|---|---|---|
+| Derecho a protección eficaz | Deber correlativo del **empresario** y **Administraciones** respecto de su personal | LPRL **14** |
+| Coste de prevención | **No** recae sobre trabajadores | LPRL **14.5** |
+| Formación preventiva | **Teórica y práctica**, suficiente y adecuada; preferentemente **dentro de jornada** o compensada | LPRL **19** |
+| Vigilancia de salud | **Voluntaria**, salvo excepciones legales tasadas | LPRL **22** |
+| Consulta sobre decisiones preventivas | Con **debida antelación** | LPRL **33** |
+| Informe de delegados a la consulta | **15 días** o **tiempo imprescindible** ante medidas dirigidas a prevenir riesgos inminentes | LPRL **36.3** |
+| Riesgo grave e inminente | Interrumpir actividad y abandonar el lugar cuando sea necesario, con garantías | LPRL **21** |
+
+> ⚠️ **¡Foco Examen!:** El plazo de **15 días** del informe de **Delegados de Prevención** tiene una **excepción por riesgos inminentes**. La formación preventiva fuera de jornada debe compensarse en tiempo; la vigilancia de salud **no** es obligatoria para todo trabajador en todo supuesto.
+
+### Definición legal y métodos de valoración de riesgo
+
+El **art. 4.2 LPRL** define **riesgo laboral** como posibilidad de sufrir un daño derivado del trabajo. Para calificar su **gravedad** se valoran conjuntamente **probabilidad** y **severidad**, de acuerdo con **art. 4.2**. Ningún precepto establece literalmente la fórmula universal **«gravedad = probabilidad + severidad»**: eso sería una simplificación técnica errónea si se presenta como ley.
+
+> ⚠️ **¡Foco Examen!:** La definición de **riesgo** no es la de **daño**. La valoración conjunta **probabilidad/severidad** no equivale a la suma de ambas como fórmula jurídica.
+
+[**Informe de auditoría C2 temas 7–10**](../cierre-editorial-c2-07-10-2026-11-06.md). **20 preguntas y 80 alternativas** conservadas con informe por distractor de **04/11/2026**. La revisión documental no sustituye pruebas reales de la aplicación.

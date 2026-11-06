@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 10
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial 06/11/2026: AUDITADO jurídico-documental**. La **LOPDGDD** y **RGPD** se cotejan separadamente; bancos de **20 preguntas y 80 alternativas**, con revisión detallada anterior preservada. **Sin certificación integral** de navegador, accesibilidad, móvil ni PWA. [Informe](../cierre-editorial-c2-07-10-2026-11-06.md).
 
 **Estado editorial: CONTENIDO COMPLETO Y REVISADO (29/10/2026).** Adaptado al programa de Diputación C2 y al texto consolidado publicado el **27/12/2025**.
 
@@ -423,3 +423,38 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 9 aprobad
 
 > ⚠️ **¡Foco Examen!:** **1 mes** derechos ≠ **1 mes** conservación de imágenes: comienzan respectivamente en **solicitud** y **captación**. **72 horas de entrega de vídeo** comienzan al conocer la **grabación**; **72 horas de brecha RGPD** al conocer **violación de seguridad**, bajo sus condiciones.
 
+
+
+## Cierre de fuentes y distinción de obligaciones de datos — **06/11/2026**
+
+[**Ley Orgánica 3/2018**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), consolidada con última actualización publicada el **27/12/2025**, y [**Reglamento (UE) 2016/679 (RGPD)**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) aplicable directamente. La edad de consentimiento **14 años** de la ley española se refiere al supuesto del **art. 7**, con matices legales; no habilita todo tratamiento de menores ni reemplaza las bases legitimadoras del **RGPD**.
+
+### Derechos, imágenes de videovigilancia y brechas de seguridad
+
+| Obligación | Plazo/condición | Fuente normativa |
+|---|---|---|
+| Responder a solicitud de **derechos** del afectado | **1 mes desde recepción**; prórroga de **2 meses adicionales** si es necesario por complejidad/número, informando dentro del **primer mes** | **RGPD art. 12.3** |
+| Supresión ordinaria de **imágenes de videovigilancia** | Máximo **1 mes desde captación**, salvo conservación de supuestos legales | **LOPDGDD art. 22.3** |
+| Conservar grabación de hechos contra personas, bienes o instalaciones | Ponerla a disposición de **autoridad competente** en máximo **72 horas desde conocer la existencia de la grabación** | **LOPDGDD art. 22.3** |
+| Notificar **violación de seguridad de datos** a la **autoridad de control** | Sin dilación indebida y, si es posible, en **72 horas desde conocer la brecha**, salvo que sea **improbable que entrañe riesgo** | **RGPD art. 33.1** |
+| Comunicar brecha a **personas afectadas** | **Sin dilación indebida** cuando sea probable un **alto riesgo**; excepciones del artículo | **RGPD art. 34** |
+| Consentimiento del menor (supuesto legal) | **14 años** en régimen del **art. 7 LOPDGDD**, con limitaciones | **LOPDGDD art. 7** |
+
+> ⚠️ **¡Foco Examen!:** **72 horas de videovigilancia** comienzan al conocer la **grabación de hechos**; las **72 horas del art. 33 RGPD** comienzan al conocer la **brecha**. La comunicación a afectados por **alto riesgo (art. 34)** **no** queda sujeta automáticamente a ese plazo numérico.
+
+### Responsable, encargado, delegado y autoridad
+
+| Figura o derecho | Función o garantía | No confundir |
+|---|---|---|
+| **Responsable** | Determina fines y medios del tratamiento | No es siempre quien presta el servicio informático |
+| **Encargado** | Trata datos **por cuenta** del responsable con el régimen contractual exigible | No determina por sí mismo los fines |
+| **Delegado de Protección de Datos** | Informa, asesora y supervisa las obligaciones dentro de su ámbito | No sustituye al **responsable** ni es necesariamente la **AEPD** |
+| **Agencia Española de Protección de Datos (AEPD)** | Autoridad estatal de control, en los términos legales | No es delegado interno de cada Administración |
+| **Acceso** | Conocer si se tratan datos personales y acceder a ellos | No equivale a **portabilidad** |
+| **Rectificación** | Corregir datos inexactos | No es supresión automática |
+| **Limitación** | Restringir determinados usos en supuestos legales | No significa necesariamente borrado inmediato |
+| **Derecho a desconexión digital** | Reconocido a **trabajadores y empleados públicos**, según el art. **88** | No elimina deberes de seguridad ni registros de trabajo |
+
+> ⚠️ **¡Foco Examen!:** No afirmar que el **consentimiento es obligatorio en todos los expedientes administrativos**: se requiere **base jurídica válida** en el **RGPD art. 6**, y los poderes públicos pueden tratar datos por misión de interés público o ejercicio de potestades dentro de sus competencias legales, según las reglas aplicables.
+
+**Fuentes de detalle:** [**LOPDGDD 2018**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), [**RGPD**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) y [**AEPD sobre brechas**](https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion). [Informe de cierre 7–10](../cierre-editorial-c2-07-10-2026-11-06.md). Banco **20/80** cotejado individualmente en noviembre, con IDs y claves preservados; pendiente la prueba funcional externa.

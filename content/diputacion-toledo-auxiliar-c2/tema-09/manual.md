@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 9
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial 06/11/2026: AUDITADO jurídico-documental**. Contrastadas las dos leyes de igualdad, ámbitos institucionales, definiciones, acciones positivas, planes y las **20 preguntas / 80 alternativas**. **Sin certificación integral** de web o accesibilidad. [Informe del bloque](../cierre-editorial-c2-07-10-2026-11-06.md).
 
 **ESTADO EDITORIAL: CONTENIDO COMPLETO Y REVISADO — 29/10/2026.**
 
@@ -710,3 +710,38 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 8 aprobad
 
 > ⚠️ **¡Foco Examen!:** **40 %–60 %** es composición equilibrada de sexos, mientras **50 empleados** es umbral general de planes de igualdad empresariales. **Art. 13 LO 3/2007:** regla probatoria especial **no aplicable a procesos penales**.
 
+
+
+## Cierre de vigencia e igualdad de trato — **06/11/2026**
+
+[**Ley 12/2010 de Castilla-La Mancha**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708) mantiene consolidación publicada el **30/06/2021**; [**Ley Orgánica 3/2007**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) presenta actualización publicada el **02/08/2024**. El programa exige **ambas** normas: no sustituir las reglas autonómicas por las estatales cuando los órganos y trámites son específicos.
+
+### Discriminación y tutela: conceptos que cambian la respuesta
+
+| Concepto | Regla literal en su marco legal | Precepto |
+|---|---|---|
+| **Discriminación directa** | Trato menos favorable por razón de sexo respecto de situación comparable | **LO 3/2007, art. 6.1** |
+| **Discriminación indirecta** | Disposición, criterio o práctica **aparentemente neutros** que generan desventaja particular, salvo justificación objetiva | **LO 3/2007, art. 6.2** |
+| **Acoso sexual** | Conducta verbal o física **de naturaleza sexual** que tenga propósito o efecto de atentar contra dignidad | **LO 3/2007, art. 7.1** |
+| **Acoso por razón de sexo** | Comportamiento realizado **en función del sexo** con propósito o efecto discriminatorio | **LO 3/2007, art. 7.2** |
+| **Condicionar un derecho a tolerar acoso** | También **discriminación por razón de sexo** | **LO 3/2007, art. 7.4** |
+| **Embarazo o maternidad** | Trato desfavorable constituye **discriminación directa** | **LO 3/2007, art. 8** |
+| **Represalia por denuncia o reclamación** | Trato adverso constituye discriminación según precepto | **LO 3/2007, art. 9** |
+| **Carga de prueba** | En los procedimientos cubiertos, corresponde al **demandado** demostrar ausencia de discriminación y proporcionalidad; **excepto procesos penales** | **LO 3/2007, art. 13** |
+
+> ⚠️ **¡Foco Examen!:** **Acoso sexual** no equivale a **acoso por razón de sexo**; ambos están prohibidos. El desplazamiento de carga de prueba del **art. 13** **no** se aplica a los **procesos penales**.
+
+### Igualdad en instituciones, informes y empresas
+
+| Materia | Regla legal | Ámbito |
+|---|---|---|
+| **Transversalidad** | Integración de igualdad en todas las políticas y programas, de planificación a evaluación | **Ley 12/2010, art. 8** |
+| **Presupuesto con perspectiva de género** | Informe de impacto de género del **anteproyecto de Ley de Presupuestos de Castilla-La Mancha** antes de aprobación | **Ley 12/2010, art. 9.1** |
+| **Composición equilibrada** | Cada sexo **no supera 60 % ni baja de 40 %**, en los supuestos legalmente aplicables | **DA 1.ª LO 3/2007** |
+| **Plan de igualdad empresarial**, regla de plantilla | Empresas con **50 o más** personas trabajadoras; otros supuestos legales por convenio o decisión laboral | **LO 3/2007, art. 45** |
+| **Medidas de acción positiva** | Corregir desigualdades de hecho, en condiciones legales | **LO 3/2007, art. 11** |
+| **Órganos de políticas de igualdad en CLM** | Competencias en el marco autonómico, no de la AGE por mera semejanza de nombre | **Ley 12/2010** |
+
+> ⚠️ **¡Foco Examen!:** El **40 %–60 %** describe la composición equilibrada **en supuestos previstos**, no una regla universal de resultado idéntico. **50 o más** (plan de igualdad) incluye **50 exactos**; el **Comité de Seguridad y Salud** del tema 8 también empieza en 50, pero es una institución distinta.
+
+**Cotejo documental:** [Informe jurídico 7–10](../cierre-editorial-c2-07-10-2026-11-06.md); **20 preguntas / 80 alternativas**, cotejadas individualmente el **04/11/2026** y sin modificación de sus claves. **No** se atribuye certificación visual ni funcional a este cierre.

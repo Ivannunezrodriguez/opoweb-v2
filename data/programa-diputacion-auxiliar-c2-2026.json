@@ -123,41 +123,77 @@
     {
       "numero": 7,
       "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: El Personal al servicio de las Administraciones Públicas. Provisión de puestos de trabajo. La carrera administrativa. Promoción interna. La selección del personal y la oferta pública de Empleo.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-07/manual.md",
       "notaEditorial": "Manual sobre Ley 4/2011 y reforma de art. 70.2 por Ley 2/2026, con Ley 1/2026 identificada; 20 preguntas y fuentes. Cierre editorial documental 29/10/2026. Prueba funcional del sitio pendiente.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-07/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-07/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-07/matriz.json",
+      "cierreEditorialC2_07_10_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_DOCUMENTAL",
+        "preguntas": 20,
+        "alternativas": 80,
+        "clavesAlteradas": 0,
+        "certificacionIntegral": false,
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-07-10-2026-11-06.md"
+      }
     },
     {
       "numero": 8,
       "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos laborales: Derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-08/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-08/fuentes.md",
       "notaEditorial": "Cierre editorial documental 29/10/2026: LPRL 31/1995 y RD 39/1997, manual de derechos y obligaciones, servicios preventivos y participación, tablas de cifras y 20 preguntas. Prueba de funcionamiento del portal pendiente por separado.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-08/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-08/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-08/matriz.json",
+      "cierreEditorialC2_07_10_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_DOCUMENTAL",
+        "preguntas": 20,
+        "alternativas": 80,
+        "clavesAlteradas": 0,
+        "certificacionIntegral": false,
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-07-10-2026-11-06.md"
+      }
     },
     {
       "numero": 9,
       "titulo": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-09/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-09/fuentes.md",
       "notaEditorial": "Cierre editorial 29/10/2026: Ley 12/2010 CLM y LO 3/2007 contrastadas en BOE, manual completo y 20 preguntas fundamentadas; comprobación funcional del portal pendiente por separado.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-09/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-09/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-09/matriz.json",
+      "cierreEditorialC2_07_10_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_DOCUMENTAL",
+        "preguntas": 20,
+        "alternativas": 80,
+        "clavesAlteradas": 0,
+        "certificacionIntegral": false,
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-07-10-2026-11-06.md"
+      }
     },
     {
       "numero": 10,
       "titulo": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-10/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-10/fuentes.md",
       "notaEditorial": "Cierre editorial documental 29/10/2026: LO 3/2018 (última modificación publicada 27/12/2025) y RGPD, manual completo y 20 preguntas fundamentadas. Prueba funcional del portal pendiente separadamente.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-10/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-10/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-10/matriz.json",
+      "cierreEditorialC2_07_10_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_DOCUMENTAL",
+        "preguntas": 20,
+        "alternativas": 80,
+        "clavesAlteradas": 0,
+        "certificacionIntegral": false,
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-07-10-2026-11-06.md"
+      }
     },
     {
       "numero": 11,
@@ -330,16 +366,35 @@
       3,
       4,
       5,
+      7,
+      8,
+      9,
+      10,
       17,
       18,
       19,
       20
     ],
-    "temasAuditadosCantidad": 9,
-    "pendientes": 11,
+    "temasAuditadosCantidad": 13,
+    "pendientes": 7,
     "bloqueadoOAPGT": [
       6
     ],
     "certificacionIntegral": false
+  },
+  "cierreEditorialC2_07_10_20261106": {
+    "fecha": "2026-11-06",
+    "temas": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "temasAuditados": 4,
+    "preguntas": 80,
+    "alternativas": 320,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-07-10-2026-11-06.md"
   }
 }

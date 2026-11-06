@@ -1,6 +1,6 @@
 {
   "tema": 10,
-  "estado": "BANCO_20_PREGUNTAS_CON_REFERENCIAS",
+  "estado": "AUDITADO",
   "version": "2026-11-04",
   "criterio": "20 preguntas originales con cuatro opciones y artículo individual de LO 3/2018/RGPD; sin ejecución funcional en navegador. · 04/11/2026: reemplazadas tres preguntas repetitivas por RGPD art12.3 (1 mes derechos), art33 (72h brechas con excepción) y LO3/2018 art22.3 (72h entrega de imágenes); posiciones correctas inalteradas.",
   "preguntas": [
@@ -300,5 +300,12 @@
     ],
     "resultado": "Se revisaron seis respuestas. Dos preguntas genéricas sustituidas por tratamiento público basado en ley y desconexión digital. Justificaciones ampliadas.",
     "limitacion": "No certifica el manual completo ni la interfaz en navegador."
+  },
+  "cierreEditorialC2_07_10_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
   }
 }

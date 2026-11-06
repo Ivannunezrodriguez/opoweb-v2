@@ -1,6 +1,6 @@
 {
   "tema": 8,
-  "estado": "BANCO_20_PREGUNTAS_REVISADO",
+  "estado": "AUDITADO",
   "version": "2026-10-29",
   "criterio": "20 preguntas originales con respuesta y artículo específico Ley 31/1995 y RD 39/1997, comprobadas contra BOE consolidado.",
   "preguntas": [
@@ -315,5 +315,12 @@
       "Ley 31/1995 arts. 35.2 y 36.3"
     ],
     "estado": "COTEJO_FOCAL_NO_INTEGRAL"
+  },
+  "cierreEditorialC2_07_10_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
   }
 }

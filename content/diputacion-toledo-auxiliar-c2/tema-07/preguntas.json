@@ -1,6 +1,6 @@
 {
   "tema": 7,
-  "estado": "BANCO_20_PREGUNTAS_DOCUMENTADO",
+  "estado": "AUDITADO",
   "version": "2026-10-29",
   "criterio": "20 preguntas originales con referencias Ley 4/2011 y reforma Ley 2/2026 art.70.2.e; verificación funcional pendiente.",
   "preguntas": [
@@ -306,5 +306,12 @@
     "limitacion": "Auditoría del banco de preguntas, no de todos los apartados del manual.",
     "actualizacion": "2026-10-27",
     "nota": "Añadida T07-007 por reforma autonómica de libre designación del personal estatutario en 2026."
+  },
+  "cierreEditorialC2_07_10_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
   }
 }

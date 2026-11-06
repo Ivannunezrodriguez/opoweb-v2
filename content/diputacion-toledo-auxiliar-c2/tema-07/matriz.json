@@ -2,8 +2,8 @@
   "tema": 7,
   "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
   "epigrafeOficial": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: El Personal al servicio de las Administraciones Públicas. Provisión de puestos de trabajo. La carrera administrativa. Promoción interna. La selección del personal y la oferta pública de Empleo.",
-  "estadoEditorial": "EN_REVISION_USUARIO",
-  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE",
   "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
   "fuentesPrimarias": [
     "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
@@ -66,5 +66,19 @@
       "DOCM-q-2026-90065 Ley 1/2026 art121 y DA7"
     ],
     "anotacionVigencia": "2026 no integrado en el texto del consolidado 2024, cotejado contra norma modificadora"
+  },
+  "cierreEditorialC2_07_10_20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AUDITADO_DOCUMENTAL",
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086",
+      "https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065"
+    ],
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-07-10-2026-11-06.md"
   }
 }

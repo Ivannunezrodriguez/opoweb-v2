@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 7
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial desde 06/11/2026: AUDITADO — cierre jurídico-editorial documental.** Se revalidan los incisos oficiales, el contraste del BOE consolidado con las reformas de **2026**, las reglas competenciales y el banco de **20 preguntas / 80 alternativas**. **Sin certificación** funcional de navegador, móvil, WCAG o PWA. [Informe de cierre](../cierre-editorial-c2-07-10-2026-11-06.md).
 
 **Estado editorial: CONTENIDO COMPLETO — revisado para Diputación C2 con reformas de 2026.**
 
@@ -1251,3 +1251,35 @@ La nueva letra **70.2.e** incluye en el ámbito del personal estatutario adscrit
 [**Informe pormenorizado de 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con causa de corrección/error de cada opción, artículos de la **Ley 4/2011** y referencia expresa a **Ley 2/2026** para el nuevo supuesto del **artículo 70.2**. La reforma no figura integrada en el consolidado de 2024: se consulta directamente como disposición modificadora. El banco queda **COTEJO_BANCO_COMPLETO**, sin atribuir aprobación al manual íntegro ni pruebas de navegador o accesibilidad.
 
 > ⚠️ **¡Foco Examen!:** OEP: **3 años improrrogables** desde día siguiente a publicación (**art.19.4**). Promoción interna: **2 años** de servicio activo con situaciones asimilables (**art.65.2**). **Concurso** es la provisión ordinaria, mientras la nueva previsión de libre designación **2026** del artículo **70.2** afecta a determinados puestos estatutarios, no a todos.
+
+
+## Cierre de vigencia y trampas del programa — **06/11/2026**
+
+La [**Ley 4/2011 consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752) presenta la última actualización integrada publicada el **21/03/2024** y aviso de actualización en proceso. El contenido de **2026** se coteja separadamente con [**Ley 2/2026, de 9 de abril**](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086) (disposición final modificadora de **art. 70.2**) y [**Ley 1/2026**](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065) (**art. 121** y disposición adicional séptima): **no** se debe tratar la redacción de **2024** como texto íntegro de vigencia en noviembre de **2026**.
+
+### Personal, selección y oferta de empleo
+
+| Figura o proceso | Regla principal | Trampa de examen |
+|---|---|---|
+| **Funcionario de carrera** | Nombramiento legal y relación **estatutaria permanente**; art. **5** | No equivale a interinidad por vacante |
+| **Funcionario interino** | Causas temporales tasadas, selección conforme a principios; arts. **7–10** | No se convierte automáticamente en carrera por permanencia |
+| **Personal eventual** | **Confianza o asesoramiento especial**; art. **12** | Esta condición **no constituye mérito** para acceso o promoción |
+| **Oferta de empleo público** | Necesidades de plazas dotadas presupuestariamente; art. **19** | Oferta **no equivale** a convocatoria de todos los ejercicios |
+| **Ejecución total OEP** | **3 años improrrogables** desde **día siguiente** a la publicación, art. **19.4** | No calcular desde aprobación sin publicación |
+| **Promoción interna**, art. **65.2** | Al menos **2 años de servicio activo** en cuerpo/escala de origen, con requisitos y situaciones asimilables | No basta la antigüedad general en cualquier contrato |
+
+> ⚠️ **¡Foco Examen!:** **3 años** es el plazo de ejecución total de la **OEP**; **2 años** se exige en el supuesto de **promoción interna**. Son plazos de instituciones diferentes.
+
+### Carrera y provisión: no intercambiar sistemas
+
+| Concepto | Fundamento | Consecuencia |
+|---|---|---|
+| **Carrera horizontal** | **Art. 64** | Progresión profesional sin necesidad de cambiar de puesto |
+| **Carrera vertical** | **Arts. 62–63** | Ascenso en estructura de puestos según el sistema implantado |
+| **Concurso** | **Art. 67.2** | Procedimiento normal para provisión de puestos de funcionarios de carrera |
+| **Libre designación con convocatoria pública** | **Art. 70** y nueva previsión específica de **2026** | Apreciación discrecional de idoneidad en puestos expresamente previstos; no libre contratación sin convocatoria |
+| **Comisión de servicios** | **Art. 74** | Cobertura **temporal** en los términos legales, no acceso permanente al cuerpo |
+
+> ⚠️ **¡Foco Examen!:** La modificación **2026** del **art. 70.2** introduce un supuesto específico relativo a determinados puestos estatutarios del **SESCAM**; no deroga el principio de **concurso como provisión ordinaria** del art. **67.2**. La vigencia de esa modificación requiere leer la **norma modificadora**, porque el BOE de la Ley 4/2011 aún presenta consolidación de **2024**.
+
+**Cotejo de cierre:** [**Informe C2 temas 7–10**](../cierre-editorial-c2-07-10-2026-11-06.md). Banco de **20 cuestiones / 80 opciones** con control previo individual fechado **04/11/2026**; **IDs y claves preservados**. No supone probar OpoWeb en entorno real.

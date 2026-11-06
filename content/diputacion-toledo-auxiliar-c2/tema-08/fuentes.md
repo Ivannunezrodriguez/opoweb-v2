@@ -45,3 +45,10 @@ Fuentes: [Ley 31/1995 art. 35](https://www.boe.es/buscar/act.php?id=BOE-A-1995-2
 
 > ⚠️ **¡Foco Examen!:** La evaluación **conjunta** de **probabilidad y severidad** del **art.4.2 LPRL** no es una fórmula legal de suma; **Comité desde 50**, **Delegados 31–49 = 1**.
 
+
+
+## Cierre de normas consolidadas y banco — **06/11/2026**
+
+- [**LPRL**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), última actualización **09/04/2026**: arts. **4,14–29,30–32 bis,33–40**; prioridad de prevención colectiva, vigilancia normalmente voluntaria, Comité **≥50**, delegados escala **35.2**, informes **15 días** o tiempo imprescindible.
+- [**RD 39/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853), actualización **17/10/2025**: arts. **10–22 bis**, servicio propio por **>500 trabajadores**, o **250–500** en actividad del **anexo I**.
+- Banco de **20 preguntas / 80 respuestas** preservado con cotejo individual del **04/11/2026**, incluida corrección legal anterior de la confusión entre gravedad del riesgo y supuesta suma aritmética. [Informe de cierre 7–10](../cierre-editorial-c2-07-10-2026-11-06.md). **Sin** aprobación de usuario ni certificación funcional.
