@@ -196,3 +196,10 @@ La delegación del ejercicio no altera la **titularidad de la competencia**; tam
 **Fuentes:** [**Ley 40/2015, arts. 10 y 17, texto consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
 
 > ⚠️ **¡Foco Examen!:** **Quórum habitual: Presidencia + Secretaría + mitad de miembros**. Un tema **fuera del orden del día** requiere **todos presentes y urgencia por mayoría**. **Avocación** en delegación no jerárquica: solo el **delegante**.
+
+
+## Repaso práctico integrado — tema 4 (06/11/2026)
+
+[**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
+
+> ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
