@@ -580,3 +580,10 @@ Las exclusividades científicas o técnicas deben motivarse y acreditarse. La ur
 [**Revisión individual de 12 preguntas, 48 alternativas**](cotejo-integral-2026-11-04.md) y control de los umbrales oficiales **2026**: **contrato menor de servicios < 15.000 €**, **recurso especial > 100.000 €** y **SARA UC3M ≥ 216.000 €**. Se mantiene la distinción de competencia originaria del **Rector**. **COTEJO_BANCO_COMPLETO** no es prueba de navegación, accesibilidad, aprobación del usuario ni certificación integral del temario.
 
 > ⚠️ **¡Foco Examen!:** **Menor, recurso especial y SARA no son sinónimos**: un contrato que supera el umbral de recurso especial no tiene por qué superar el umbral **SARA**.
+
+
+## Repaso focal UC3M previo al examen — **06/11/2026**
+
+[**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
+
+> ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.

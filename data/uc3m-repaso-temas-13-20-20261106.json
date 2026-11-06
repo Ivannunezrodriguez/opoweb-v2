@@ -1,0 +1,412 @@
+{
+  "id": "UC3M_REPASO_T13_T20_20261106",
+  "fecha": "2026-11-06",
+  "origen": "Preguntas didácticas originales, distintas de examen oficial",
+  "convocatoria": "UC3M Auxiliar Administrativa C2, BOE-A-2026-14624",
+  "tipos": [
+    13,
+    14,
+    15,
+    16,
+    17,
+    20
+  ],
+  "criterioVigencia": "Pendiente fecha oficial exacta de corte según base primera.7; no resolver con la mera fecha de examen",
+  "reglas": {
+    "titulares": 70,
+    "reservas": 5,
+    "minutos": 60,
+    "acierto": 1,
+    "fallo": "-1/3",
+    "blanco": 0,
+    "minimoOficialTransformado": 35,
+    "notaDirectaMinimaTribunal": "M_PENDIENTE"
+  },
+  "certificacionIntegral": false,
+  "preguntas": [
+    {
+      "id": "UC3M-REP-20261106-001",
+      "tema": 13,
+      "pregunta": "¿Con qué disposición se crea, como regla general, una universidad pública en una comunidad autónoma?",
+      "opciones": [
+        "Mediante ley de la comunidad autónoma",
+        "Mediante orden del Rector sin intervención parlamentaria",
+        "Por contrato del Consejo Social con la Administración",
+        "Por resolución de la biblioteca universitaria"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "Mediante ley de la comunidad autónoma",
+      "justificacion": "LOSU, artículo 4.1: la creación de universidades públicas se realiza mediante ley, con los requisitos y excepciones establecidos.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a4",
+      "trampaExamen": "**Creación por ley** no equivale a **autorización posterior de funcionamiento**."
+    },
+    {
+      "id": "UC3M-REP-20261106-002",
+      "tema": 13,
+      "pregunta": "¿Qué puede elaborar una universidad en ejercicio de la autonomía reconocida por la LOSU?",
+      "opciones": [
+        "Leyes orgánicas estatales con rango de Constitución",
+        "Sus Estatutos y normas de funcionamiento dentro del ordenamiento",
+        "Normativa tributaria estatal sin habilitación",
+        "Sentencias firmes de todos los órganos judiciales"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "Sus Estatutos y normas de funcionamiento dentro del ordenamiento",
+      "justificacion": "La autonomía universitaria comprende la elaboración de los Estatutos y demás normas de régimen interno, con sujeción a la ley.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a3",
+      "trampaExamen": "La autonomía universitaria **no excluye control de legalidad ni rendición de cuentas**."
+    },
+    {
+      "id": "UC3M-REP-20261106-003",
+      "tema": 13,
+      "pregunta": "Según la LOSU, ¿qué actores comparten responsabilidad en el aseguramiento de la calidad universitaria?",
+      "opciones": [
+        "Exclusivamente el ministerio sin agencias de evaluación",
+        "Solo estudiantes mediante encuestas no supervisadas",
+        "Universidades, agencias de calidad y Administraciones competentes",
+        "Únicamente proveedores privados de software"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Universidades, agencias de calidad y Administraciones competentes",
+      "justificacion": "LOSU art. 5: calidad universitaria y evaluación son responsabilidad compartida de los sujetos previstos legalmente.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a5",
+      "trampaExamen": "No atribuir la calidad de los títulos únicamente al **Rector**."
+    },
+    {
+      "id": "UC3M-REP-20261106-004",
+      "tema": 13,
+      "pregunta": "¿Qué principio impulsa expresamente la LOSU al difundir los resultados de la investigación?",
+      "opciones": [
+        "Secreto permanente de toda investigación financiada públicamente",
+        "Prohibición de repositorios institucionales abiertos",
+        "Exclusión completa de la sociedad de la investigación",
+        "Ciencia abierta, acceso abierto y ciencia ciudadana con las garantías legales"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Ciencia abierta, acceso abierto y ciencia ciudadana con las garantías legales",
+      "justificacion": "LOSU art. 12 impulsa ciencia abierta, acceso a resultados y ciencia ciudadana, respetando las reglas de protección de derechos.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a12",
+      "trampaExamen": "Ciencia abierta no impide proteger resultados antes de su publicación conforme a ley."
+    },
+    {
+      "id": "UC3M-REP-20261106-005",
+      "tema": 14,
+      "pregunta": "¿Qué porcentaje mínimo corresponde al estudiantado dentro del Claustro según el art. 45.3 LOSU?",
+      "opciones": [
+        "El 25 %",
+        "El 10 %",
+        "El 51 %",
+        "El 5 %"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "El 25 %",
+      "justificacion": "LOSU art. 45.3: el estudiantado debe representar como mínimo una cuarta parte del Claustro.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a45",
+      "trampaExamen": "No confundir **Claustro ≥25 %** con **Consejo de Gobierno ≥10 %**."
+    },
+    {
+      "id": "UC3M-REP-20261106-006",
+      "tema": 14,
+      "pregunta": "¿Qué representación mínima debe corresponder a los estudiantes en el Consejo de Gobierno según art. 46.3 LOSU?",
+      "opciones": [
+        "El 25 %",
+        "El 10 %",
+        "El 51 %",
+        "El 33 %"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "El 10 %",
+      "justificacion": "LOSU art. 46.3 establece al menos un diez por ciento para el estudiantado en el Consejo de Gobierno.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a46",
+      "trampaExamen": "La representación mínima del **PTGAS** en ese Consejo también es del **10 %**."
+    },
+    {
+      "id": "UC3M-REP-20261106-007",
+      "tema": 14,
+      "pregunta": "La LOSU exige que el sector de PDI funcionario y permanente laboral alcance en el Claustro:",
+      "opciones": [
+        "El 10 %",
+        "El 25 %",
+        "El 51 % de la representación",
+        "El 5 %"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "El 51 % de la representación",
+      "justificacion": "El artículo 45.3 LOSU fija el 51 % para el personal docente funcionario y permanente laboral en la composición del Claustro.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a45",
+      "trampaExamen": "No trasladar el **51 %** al estudiantado ni a otro órgano."
+    },
+    {
+      "id": "UC3M-REP-20261106-008",
+      "tema": 14,
+      "pregunta": "¿Qué porcentaje mínimo de su presupuesto destina la universidad a programas propios de investigación?",
+      "opciones": [
+        "El 1 %",
+        "El 25 %",
+        "El 10 %",
+        "El 5 %"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "El 5 %",
+      "justificacion": "LOSU art. 57.7: universidades destinan porcentaje no inferior al 5 % de su presupuesto a investigación propia.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a57",
+      "trampaExamen": "El **5 %** del presupuesto universitario no es el objetivo macroeconómico del **1 % del PIB**."
+    },
+    {
+      "id": "UC3M-REP-20261106-009",
+      "tema": 15,
+      "pregunta": "¿Cómo se elige al Defensor Universitario en los Estatutos de la UC3M?",
+      "opciones": [
+        "El Rector propone y el Claustro elige con la mitad más uno de sus miembros",
+        "Lo nombra la Junta de Facultad por sorteo",
+        "Lo elige exclusivamente el Consejo Social por mayoría simple",
+        "Es designado automáticamente por el Defensor del Pueblo"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "El Rector propone y el Claustro elige con la mitad más uno de sus miembros",
+      "justificacion": "Estatutos UC3M art. 127.1: propuesta del Rector tras oír sectores de la comunidad; elección por Claustro, mitad más uno de sus miembros.",
+      "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+      "trampaExamen": "El **Rector propone**, el **Claustro elige**; mayoría sobre sus miembros."
+    },
+    {
+      "id": "UC3M-REP-20261106-010",
+      "tema": 15,
+      "pregunta": "¿Cuánto dura el mandato del Defensor Universitario de la UC3M según sus Estatutos?",
+      "opciones": [
+        "Un año prorrogable indefinidamente",
+        "Tres años con una sola reelección",
+        "Cinco años sin límite de reelecciones",
+        "Cuatro años sin posibilidad de prórroga"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "Tres años con una sola reelección",
+      "justificacion": "Estatutos UC3M, art. 128.1: mandato de tres años y posibilidad de una sola reelección.",
+      "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+      "trampaExamen": "No confundir **3 años** con periodicidad de auditoría financiera."
+    },
+    {
+      "id": "UC3M-REP-20261106-011",
+      "tema": 15,
+      "pregunta": "¿Qué mayoría necesita el Claustro para designar al Defensor Universitario Adjunto?",
+      "opciones": [
+        "Mayoría absoluta de todos los miembros",
+        "Dos tercios del Consejo Social",
+        "Mayoría simple",
+        "Unanimidad del Rectorado"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Mayoría simple",
+      "justificacion": "Estatutos UC3M, art. 128.2: el candidato propone adjunto de confianza, designado por el Claustro por mayoría simple.",
+      "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+      "trampaExamen": "**Adjunto: mayoría simple**; Defensor: **mitad más uno de miembros**."
+    },
+    {
+      "id": "UC3M-REP-20261106-012",
+      "tema": 15,
+      "pregunta": "¿Qué mayoría exige la aprobación final de una reforma de los Estatutos de la UC3M?",
+      "opciones": [
+        "Mayoría absoluta de los claustrales presentes solamente",
+        "Mayoría simple del Consejo de Gobierno",
+        "Decisión unilateral del Rector",
+        "Mayoría absoluta de todos los miembros del Claustro"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Mayoría absoluta de todos los miembros del Claustro",
+      "justificacion": "Estatutos UC3M, art. 179.3: mayoría absoluta de los miembros del Claustro; la toma en consideración del art. 178.3 usa mayoría absoluta de presentes.",
+      "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+      "trampaExamen": "**Inicio: absoluta de presentes**; **aprobación final: absoluta de miembros**."
+    },
+    {
+      "id": "UC3M-REP-20261106-013",
+      "tema": 16,
+      "pregunta": "¿Cuál es la carga ordinaria de un título oficial de Grado según el RD 822/2021, salvo excepciones normativas?",
+      "opciones": [
+        "240 ECTS",
+        "60 ECTS",
+        "90 ECTS",
+        "120 ECTS"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "240 ECTS",
+      "justificacion": "RD 822/2021 art. 14.1: Grado usual de 240 ECTS, con excepciones para planes de 300 o 360 y otras previstas legalmente.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a14",
+      "trampaExamen": "**240 ECTS** del Grado no equivalen a los **60, 90 o 120** de Máster."
+    },
+    {
+      "id": "UC3M-REP-20261106-014",
+      "tema": 16,
+      "pregunta": "¿Cuál es la distribución ordinaria de créditos por curso académico de Grado en el RD 822/2021?",
+      "opciones": [
+        "25 ECTS",
+        "60 créditos ECTS",
+        "90 ECTS",
+        "240 ECTS"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "60 créditos ECTS",
+      "justificacion": "RD 822/2021 art. 14.1 establece estructura secuencial ordinaria de 60 créditos por curso y Grado.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a14",
+      "trampaExamen": "Los **60 ECTS por curso** no son necesariamente 60 horas de clase."
+    },
+    {
+      "id": "UC3M-REP-20261106-015",
+      "tema": 16,
+      "pregunta": "Para un Grado de 240 ECTS, ¿qué límites tiene el trabajo fin de Grado según RD 822/2021?",
+      "opciones": [
+        "Mínimo 30 y máximo 60 ECTS",
+        "Solo puede valer exactamente 60 ECTS",
+        "Mínimo 6 y máximo 24 ECTS",
+        "No puede incorporarse TFG a un título oficial"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Mínimo 6 y máximo 24 ECTS",
+      "justificacion": "RD 822/2021 art. 14.6: TFG obligatorio, mínimo 6 y máximo 24 créditos para titulaciones de 240 ECTS.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a14",
+      "trampaExamen": "El máximo de **24 ECTS** corresponde a **Grados de 240**; no a todos los Grados."
+    },
+    {
+      "id": "UC3M-REP-20261106-016",
+      "tema": 16,
+      "pregunta": "¿Qué cargas de créditos están previstas para un Máster Universitario oficial según RD 822/2021?",
+      "opciones": [
+        "Solo 240 ECTS",
+        "Solo 6, 12 o 18 ECTS",
+        "Siempre 300 ECTS",
+        "60, 90 o 120 ECTS"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "60, 90 o 120 ECTS",
+      "justificacion": "RD 822/2021 art. 17.1: planes de estudios de Máster Universitario de 60, 90 o 120 ECTS.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a17",
+      "trampaExamen": "Máster **60/90/120** no equivale al volumen típico de un Grado."
+    },
+    {
+      "id": "UC3M-REP-20261106-017",
+      "tema": 17,
+      "pregunta": "Quien interrumpió sus estudios y quiere continuarlos en el mismo centro con al menos 6 ECTS superados, ¿necesita nueva admisión?",
+      "opciones": [
+        "No, con los requisitos del art. 3.5 y reglas de permanencia",
+        "Siempre debe superar una nueva prueba general de acceso",
+        "Necesita como mínimo 30 ECTS en el mismo centro",
+        "Solo puede continuar mediante traslado a otra universidad"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "No, con los requisitos del art. 3.5 y reglas de permanencia",
+      "justificacion": "RD 534/2024 art. 3.5 permite reanudar en mismo centro con al menos 6 ECTS superados, respetando permanencia.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a3",
+      "trampaExamen": "**6 ECTS en el mismo centro** no equivale a **30 ECTS** para continuación por reconocimiento."
+    },
+    {
+      "id": "UC3M-REP-20261106-018",
+      "tema": 17,
+      "pregunta": "Para acceder por continuación de estudios universitarios parciales en otro centro, ¿qué reconocimiento mínimo suele exigir el RD 534/2024?",
+      "opciones": [
+        "6 ECTS",
+        "30 créditos ECTS",
+        "10 ECTS",
+        "300 ECTS"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "30 créditos ECTS",
+      "justificacion": "Art. 7.c–d RD 534/2024: reconocimiento de al menos 30 ECTS para la vía específica de continuación de estudios parciales.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a7",
+      "trampaExamen": "**30** no es **6**: son procedimientos diferentes."
+    },
+    {
+      "id": "UC3M-REP-20261106-019",
+      "tema": 17,
+      "pregunta": "Para mejorar nota de admisión en la prueba de acceso, ¿cuántas materias adicionales se permiten y qué sucede con la segunda lengua extranjera?",
+      "opciones": [
+        "Solo 1 materia sin posibilidad de idioma",
+        "Hasta 5 materias sin límite ni requisitos",
+        "Hasta 3 materias y, además, una segunda lengua extranjera distinta",
+        "Solo materias ya examinadas en fase de acceso"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Hasta 3 materias y, además, una segunda lengua extranjera distinta",
+      "justificacion": "RD 534/2024 art. 22.1 permite hasta tres materias distintas a las de acceso y además una segunda lengua extranjera.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a22",
+      "trampaExamen": "La segunda lengua extranjera es **adicional**, no una de las **tres**."
+    },
+    {
+      "id": "UC3M-REP-20261106-020",
+      "tema": 17,
+      "pregunta": "¿Cuánto antes deben publicar las universidades públicas sus procedimientos y criterios de admisión?",
+      "opciones": [
+        "Cinco días antes de las notas de corte",
+        "Siempre después del inicio del curso",
+        "Con solo 24 horas de antelación",
+        "Con al menos un curso académico de antelación"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Con al menos un curso académico de antelación",
+      "justificacion": "RD 534/2024 art. 25.2 regula publicidad anticipada de criterios y procedimientos de admisión con un curso académico como mínimo.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a25",
+      "trampaExamen": "**Un curso académico** no equivale a **un mes**."
+    },
+    {
+      "id": "UC3M-REP-20261106-021",
+      "tema": 20,
+      "pregunta": "Un contrato de servicios de la UC3M tiene valor estimado de 15.000 euros exactos, sin IVA. ¿Es contrato menor por el art. 118 LCSP?",
+      "opciones": [
+        "No, el umbral general de servicios exige valor estimado inferior a 15.000 euros",
+        "Sí, por ser inferior o igual a 15.000",
+        "Sí, cualquier contrato universitario es menor",
+        "No, porque el mínimo legal de servicios es 40.000"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "No, el umbral general de servicios exige valor estimado inferior a 15.000 euros",
+      "justificacion": "LCSP 118.1: el contrato menor de servicios exige valor estimado estrictamente inferior a 15.000 euros, sin perjuicio de excepciones legales específicas.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a118",
+      "trampaExamen": "**15.000 exactos** no es **inferior a 15.000**."
+    },
+    {
+      "id": "UC3M-REP-20261106-022",
+      "tema": 20,
+      "pregunta": "En un contrato de servicios de 100.001 euros de valor estimado, ¿qué umbral general se supera a efectos del recurso especial LCSP?",
+      "opciones": [
+        "El umbral del contrato menor de obras de 40.000 euros como único criterio",
+        "El de 100.000 euros, para actos recurribles que cumplan los restantes requisitos",
+        "El umbral de regulación armonizada de 216.000 euros",
+        "Ningún umbral, porque el recurso empieza en 300.000 euros"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "El de 100.000 euros, para actos recurribles que cumplan los restantes requisitos",
+      "justificacion": "Art. 44.1.a LCSP: en servicios y suministros el valor estimado superior a 100.000 euros supera el umbral cuantitativo del recurso especial.",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a44",
+      "trampaExamen": "Superar el **umbral del recurso** no implica estar sometido a **regulación armonizada**."
+    },
+    {
+      "id": "UC3M-REP-20261106-023",
+      "tema": 20,
+      "pregunta": "En 2026–2027, ¿cuál es el umbral general SARA de servicios de una universidad pública como la UC3M, con las salvedades legales?",
+      "opciones": [
+        "140.000 euros para toda universidad",
+        "15.000 euros inclusive",
+        "216.000 euros de valor estimado, sin IVA",
+        "100.000 euros exactos"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "216.000 euros de valor estimado, sin IVA",
+      "justificacion": "Orden HAC/1517/2025: para poderes adjudicadores distintos de la AGE el umbral general de servicios/suministros es 216.000 euros (2026-2027); existen reglas especiales.",
+      "referencia": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605",
+      "trampaExamen": "**216.000 SARA** no es **100.000 recurso especial**."
+    },
+    {
+      "id": "UC3M-REP-20261106-024",
+      "tema": 20,
+      "pregunta": "Según los Estatutos UC3M, ¿quién es el órgano de contratación y cuál es el papel de la mesa?",
+      "opciones": [
+        "La mesa de contratación adjudica sin órgano de contratación",
+        "Solo el Consejo de Estudiantes formaliza contratos",
+        "El Rector únicamente publica actas de investigación",
+        "El Rector es órgano de contratación; la mesa asiste y formula propuesta"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "El Rector es órgano de contratación; la mesa asiste y formula propuesta",
+      "justificacion": "Estatutos UC3M art. 175 atribuye competencia originaria al Rector; la mesa es órgano asistencial y de propuesta, sin perjuicio de delegaciones.",
+      "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+      "trampaExamen": "La **mesa propone**; el **órgano competente adjudica**."
+    }
+  ]
+}

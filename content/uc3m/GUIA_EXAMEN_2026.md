@@ -69,3 +69,10 @@ La web incluye ahora **tres modelos de entrenamiento de 70 preguntas titulares y
 - [ ] Prueba de la versión desplegada de la web en navegador real y confirmación verde de GitHub Actions en el último commit.
 
 **Registro editorial único de avances y pendientes:** [AUDITORIA_CONTINUA.md](../../AUDITORIA_CONTINUA.md).
+
+
+## Nuevo recurso de entrenamiento contrastado — **06/11/2026**
+
+[**Repaso temático focal de UC3M: 24 preguntas de los temas 13–17 y 20, con soluciones y fuentes oficiales por artículo**](REPASO_FINAL_T13_T20_20261106.md). Se conserva la estructura real de examen (**70 titulares + 5 reservas**, **60 minutos**, **−1/3 por fallo**), pero este cuestionario es **entrenamiento parcial**, no un simulacro completo ni una prueba oficial.
+
+> ⚠️ **¡Foco Examen!:** Un resultado de **35 puntos directos** (por ejemplo **40 aciertos, 15 fallos, 15 blancos**) no prueba por sí solo aprobado; el **Tribunal** fija el mínimo directo **M** y la calificación se convierte según el anexo III.

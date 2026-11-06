@@ -237,3 +237,10 @@ No pueden presentarse propuestas de reforma durante los tres meses anteriores a 
 [**Informe individual de 21 preguntas y 84 alternativas literales**](cotejo-integral-2026-11-04.md): fundamentos jurídicos, descarte de cada respuesta errónea y foco de examen. **Estado del banco: COTEJO_BANCO_COMPLETO**, **no aprobación de usuario**. La fecha normativa de corte de las bases UC3M sigue pendiente de corroborar mediante publicación primaria de la resolución de listas definitivas y anuncio de prueba. Las pruebas funcionales en navegador y accesibilidad se mantienen **pendientes**.
 
 > ⚠️ **¡Foco Examen!:** **Defensor Universitario**: elección por **mitad más uno de miembros del Claustro**, Adjunto por **mayoría simple**; el cese voluntario no exige votación de cese por causa, tras reforma **2009**.
+
+
+## Repaso focal UC3M previo al examen — **06/11/2026**
+
+[**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
+
+> ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.

@@ -196,3 +196,10 @@ La Universidad debe aprobar un calendario de extinción que regule convocatorias
 [**Revisión individual de 21 preguntas y 84 alternativas**](cotejo-integral-2026-11-04.md), con respuesta literal, motivo de descarte de las demás y foco test. El banco está **cotejado**, pero esto no certifica el portal en navegador, no implica aprobación del usuario y queda pendiente fechar por documento primario la aplicación temporal de la base **primera.7** de UC3M.
 
 > ⚠️ **¡Foco Examen!:** **Prácticas de Grado: máximo general 25 %; Máster: máximo un tercio**. El **TFG de Grado 240** es **6–24 ECTS**, y el **TFM 6–30 ECTS**.
+
+
+## Repaso focal UC3M previo al examen — **06/11/2026**
+
+[**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
+
+> ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.
