@@ -24,3 +24,14 @@ Para esta convocatoria de UC3M, la **base primera.7 del BOE-A-2026-14624** estab
 [Auditoría individual de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): incluye fuente, artículo, juicio de distractores y advertencias de examen. **Estado:** banco cotejado; auditoría funcional en navegador y aprobación del usuario **pendientes**. El corte de vigencia jurídica en UC3M lo fija la **base primera.7** de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), asociado a la **resolución de admitidos definitivos y anuncio del ejercicio**, cuya fecha de publicación exacta no se ha fijado todavía con documento primario.
 
 > ⚠️ **¡Foco Examen!:** La literalidad de cada precepto y sus excepciones priman sobre una regla resumida; el **banco cotejado** no equivale a una certificación de todos los recorridos funcionales de OpoWeb.
+
+
+## Verificación jurídica conjunta de T2–T7 — tema 6 · 06/11/2026
+
+**Cotejo de fuentes primarias:** [**LO 3/2018, arts. 32, 34, 36–37, y RGPD art. 12 (BOE consolidado)**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673); última actualización publicada del texto principal: **27/12/2025**. **Manual nuevo: secciones 13.1–13.3**. Reglas contrastadas: bloqueo previo a destrucción; DPD obligatorio en universidades; comunicación en 10 días; 2 meses DPD-al-interesado y 1 mes DPD-a-autoridad.
+
+**Recurso de entrenamiento conectado a OpoWeb:** [**Repaso jurídico conjunto 24 preguntas / 96 alternativas**](../../data/uc3m-repaso-juridico-t02-t07-20261106.json), **cuatro preguntas propias de tema 6**, con artículo, justificación, respuesta y trampa. Se conserva el banco histórico de **12 preguntas** por tema y se mantienen intactos los simulacros **70+5**.
+
+**Vigencia y alcance:** la consolidación del BOE es informativa; en el examen UC3M debe aplicarse la redacción vigente conforme a la **base primera.7** de la convocatoria, cuya fecha exacta de publicación de las listas definitivas/anuncio no se ha acreditado con documento primario. Este cotejo de artículos críticos es **focal**, no certificación íntegra de todos los artículos ni del navegador/PWA.
+
+> ⚠️ **¡Foco Examen!:** El dato decisivo suele ser el **supuesto legal y su excepción**, no memorizar el número sin el órgano, el procedimiento y la unidad temporal.
