@@ -315,3 +315,9 @@ Para el primer semestre del curso **2026/2027**, con inicio de estudios el **15 
 [**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
 
 > ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.
+
+## Repaso específico de la reforma UC3M de 2026 — 06/11/2026
+
+[**Repaso conjunto: 12 preguntas nuevas (6 del tema 16 y 6 del 17)**](../REPASO_NORMATIVA_2026_T16_T17_20261106.md), respuestas justificadas y órganos competentes. No modifica el banco original de **12 preguntas** del tema ni los simulacros.
+
+> ⚠️ **¡Foco Examen!:** Cambio de estudios: **30 ECTS reconocibles**; si procede de otra universidad española, además **60 ECTS pendientes en origen**. Para internos, **50 %** de plazas del cupo de traslado, no de todas las plazas del grado.
