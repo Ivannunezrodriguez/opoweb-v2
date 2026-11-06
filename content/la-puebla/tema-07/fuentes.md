@@ -16,7 +16,7 @@
 
 > ⚠️ **¡Foco Examen!:** Distinguir el **Delegado de Prevención** (representante de los trabajadores) del **Servicio de Prevención** (actividad técnica organizada).
 
-**Pendiente:** comprobación artículo a artículo de los límites de plantilla y de los distractores. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+**Reserva histórica de 02/11/2026:** el cotejo integral de respuestas y distractores de **12 ítems/48 alternativas** se completó el **04/11/2026** y está documentado [**por ID**](cotejo-integral-2026-11-04.md). Continúan pendientes **pruebas reales de navegador/móvil, accesibilidad** y nueva certificación global; no repetir como incumplido el cotejo ya realizado. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
 
 ## Contraste focal de definiciones — 04/11/2026
 
@@ -53,3 +53,10 @@ Se cotejó la **respuesta correcta literal** y la regla que la fundamenta frente
 
 **12 preguntas, 48 alternativas** cotejadas individualmente con artículos del [BOE consolidado LPRL](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) y [RSP](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853). [**Cotejo jurídico-editorial completo**](cotejo-integral-2026-11-04.md). Corregida **LP-T07-005** para delimitar las **24 horas** a la paralización acordada por representación conforme **art. 21.3**; el ítem anterior omitía sujeto y presupuesto de esta regla especial. La matriz se marca **AUDITADO** solo para componente jurídico-editorial, pendiente control funcional real.
 
+
+
+## Contraste transversal de plazos y representantes — **06/11/2026**
+
+[**Tabla PRL y casos del repaso T6–T8**](../REPASO_FOCAL_T06_T08_20261106.md), con [**Ley 31/1995 consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292): **art. 21.3** atribuye a **autoridad laboral** ratificar/anular en **24 horas** una paralización por representantes en los supuestos legales; **36.3** da a **delegados** **15 días** para informes ordinarios (o tiempo imprescindible ante riesgo inminente); **35.2** prevé **3 delegados** de **101–500** y **4** de **501–1.000**. **38.2–3**: **Comité con 50 o más** y reunión **trimestral**; [**RD 39/1997, art. 14.a**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853): **servicio propio por plantilla con más de 500**, sin perjuicio de los demás supuestos.
+
+> ⚠️ **¡Foco Examen!:** **50 (Comité)** no es **más de 500 (servicio propio)**; **24 horas de autoridad** no son **15 días de informe de delegados**.
