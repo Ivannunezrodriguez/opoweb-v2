@@ -153,3 +153,38 @@ La Universidad mantiene un registro de solicitudes y reclamaciones, en el que se
 [**Cotejo individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): fundamentos específicos, análisis de distractores y bloques **¡Foco Examen!**. Estado **COTEJO_BANCO_COMPLETO**. **No** significa aprobación del usuario ni certifica navegación y accesibilidad de la web. La legislación exigible para UC3M se determina conforme a la **base primera.7** de su convocatoria, no automáticamente el día del examen.
 
 > ⚠️ **¡Foco Examen!:** La inadmisión de solicitudes del artículo **42.2** de Ley 10/2019 se resuelve en **5 días hábiles**, diferentes de los **20 días** de resolución ordinaria del artículo **42.1**.
+
+
+## 11. Tramitación de acceso: plazos y efectos que más se confunden — 06/11/2026
+
+### 11.1. Acceso en Madrid: solicitud ordinaria e inadmisión (art. 42)
+
+| Momento del procedimiento de acceso | Plazo o efecto | Fundamento |
+|---|---|---|
+| **Resolver y notificar** solicitud de acceso | **Máximo 20 días** desde recepción. Por regla supletoria de la Ley 39/2015, los plazos en días son **hábiles**, salvo disposición contraria. | **Ley 10/2019, 42.1; Ley 39/2015, 30.2** |
+| **Prórroga motivada** por volumen o complejidad | **Otros 20 días**, informando al solicitante. | **42.1** |
+| **Inadmisión** por causas del artículo **40.1** | Resolver y notificar cuanto antes y en todo caso **máximo 5 días hábiles** desde la recepción por el órgano competente. | **42.2** |
+| Ausencia de resolución expresa en plazo | **Desestimación por silencio administrativo**. | **42.3** |
+| Solicitud dirigida a órgano que desconoce al competente | Debe procurar identificarlo y trasladar en **5 días** si lo conoce; si no se conoce en el plazo, procede inadmisión e información al solicitante. | **41.2–3** |
+
+La **inadmisión** y la **denegación de acceso** no son sinónimos: la primera impide seguir tramitando la solicitud por causa tasada; la segunda decide el fondo, total o parcialmente, tras ponderar límites y datos personales.
+
+**Fuente:** [**Ley 10/2019 CM, arts. 40–42 (BOE)**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102).
+
+> ⚠️ **¡Foco Examen!:** **20 días** de resolución ordinaria, posible **+20 días**; **5 días hábiles** para inadmisión por causas del **art. 40.1**. **Silencio desestimatorio**, no positivo por aplicación automática del artículo 24 de la Ley 39/2015.
+
+### 11.2. Acceso, copias, gratuidad y oposición de terceros (arts. 43–46)
+
+| Supuesto | Regla literal o efecto |
+|---|---|
+| Información **ya publicada** | La resolución puede limitarse a indicar **cómo acceder** a ella (**43.6**). |
+| Concesión de acceso ante **oposición de un tercero** | El acceso efectivo se difiere hasta transcurrir el plazo de recurso contencioso-administrativo sin interposición o hasta resolución confirmatoria, en los términos del **43.5**. |
+| Forma de acceso | **Preferentemente electrónica**, salvo imposibilidad o preferencia expresa del solicitante; formato electrónico **original** cuando se facilite por esa vía (**44.1**). |
+| Modalidad solicitada | Se respeta salvo imposibilidad técnica, carga excesiva o alternativa más económica (**44.2**). |
+| Derecho a obtener copias | Deriva del reconocimiento del acceso, con limitaciones materiales justificadas; denegación de copia **motivada** (**45**). |
+| **Coste** | Acceso a información **gratuito**; **obtención de copias** puede quedar sujeta a **tasas previstas legalmente** (**46**). |
+| Resoluciones de acceso | **Ponen fin a vía administrativa** y son recurribles en sede contencioso-administrativa, sin perjuicio de reclamación potestativa en su ámbito (**43.7**). |
+
+**Fuente:** [**Ley 10/2019 CM, arts. 43–46**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102).
+
+> ⚠️ **¡Foco Examen!:** **Acceso gratuito ≠ copias necesariamente gratuitas**. **Información publicada** puede resolverse señalando cómo acceder. Si **un tercero se opuso**, el acceso efectivo puede **esperar al desenlace de la impugnación**.
