@@ -360,3 +360,54 @@ El **derecho reconocido** y el **cobro efectivo** no son sinónimos (**art. 14.1
 > ⚠️ **¡Foco Examen!:** Los **120 días** no son el plazo legal universal para reclamar toda deuda pública: corresponden al **procedimiento interno de facturas emitidas por la UC3M**. No confundir con los **30 días** de vencimiento ordinario del procedimiento descrito.
 
 **Estado:** revalidación primaria focal de **arts. 4–11, 14.1–14.2 y anexos de importes**; no prueba funcional de OpoWeb ni implica haber certificado todos los anexos del Presupuesto. [**Informe del lote 18–19**](../COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md).
+
+
+## 20. Reglas autonómicas específicas sobre prórroga, tesorería y control — **06/11/2026**
+
+### 20.1. Prórroga del presupuesto universitario: art. 108.4, Ley 5/2025 CM
+
+La [**Ley 5/2025, de 23 de diciembre, de Hacienda de la Comunidad de Madrid**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217), vigente desde **01/01/2026**, regula específicamente los presupuestos de las universidades públicas madrileñas en su **artículo 108**.
+
+| Elemento | Regla del artículo **108** | Consecuencia |
+|---|---|---|
+| Competencia para fijar reglas y procedimientos presupuestarios | **Comunidad de Madrid**, respetando legislación básica y autonomía universitaria. | **Art. 108.1** |
+| Clasificación del **presupuesto de gastos** | **Orgánica, funcional y económica**. | **Art. 108.2.a** |
+| Estado de gastos corrientes | Se acompaña de **relación de puestos de trabajo (RPT)** con costes y anexo de puestos de nuevo ingreso. | **Art. 108.2.b** |
+| **Presupuesto no aprobado** antes del **primer día** del ejercicio | **Prórroga automática del presupuesto anterior**. | **Art. 108.4** |
+| Fin de la prórroga | Hasta **publicación del nuevo presupuesto en el BOCM**. | **Art. 108.4** |
+| Modificaciones presupuestarias universitarias | Sujetos a alcance de la ley anual de presupuestos CM y normativa propia. | **Art. 108.5** |
+| Remisión de presupuestos aprobados y última liquidación | Directamente a la **Comisión de presupuestos de la Asamblea**. | **Art. 108.6** |
+
+**Caso de examen:** si una universidad no consigue aprobar a tiempo su presupuesto, no se queda sin presupuesto ni se aplica automáticamente un presupuesto «cero». Opera la **prórroga del presupuesto anterior**; el hecho que pone fin a la prórroga, según la ley, es la **publicación del nuevo presupuesto en el BOCM**, no solamente la votación universitaria.
+
+> ⚠️ **¡Foco Examen!:** La **prórroga es automática** por no aprobarse el presupuesto antes del primer día del ejercicio. Su vigencia llega a la **publicación en el BOCM**. No equiparar **aprobación** y **publicación**.
+
+### 20.2. Tesorería autonómica y tesorería universitaria: art. 182 Ley 5/2025
+
+| Concepto | Incluye o excluye | Fuente |
+|---|---|---|
+| **Tesorería General de la Comunidad de Madrid** | Recursos financieros del sector público autonómico **con excepción expresa de los recursos de universidades públicas**. | **Art. 182.1** |
+| **Tesorería Central de la Comunidad de Madrid** | Realiza tesorería de la **Administración autonómica**, organismos autónomos y entes de Derecho público de régimen especial **sin tesorería propia**. | **Art. 182.2** |
+| **Tesorería universitaria** | Recursos propios de universidad pública, **excluidos** de la definición de la Tesorería General autonómica del art. 182.1. | **Art. 182.1 y autonomía universitaria** |
+| Fondos gestionados por Tesorería Central | Sometidos a **intervención y contabilidad pública** en los términos legales. | **Art. 182.2** |
+
+**Fuente:** [**Ley 5/2025 de Hacienda CM, art. 182**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a1-94).
+
+> ⚠️ **¡Foco Examen!:** Los recursos de las **universidades públicas quedan expresamente excluidos de la Tesorería General autonómica**. La **Tesorería Central** no es la caja ordinaria de cada universidad.
+
+### 20.3. Rendición de cuentas y obligaciones de información: arts. 10 y 109
+
+| Actuación | Quién actúa y qué se exige | Artículo |
+|---|---|---|
+| Elaboración, aprobación y gestión del presupuesto universitario | **Universidades públicas**, sin perjuicio de reglas autonómicas y su propia autonomía. | **10.1** |
+| Rendición de cuentas | Ante la **Cámara de Cuentas de la Comunidad de Madrid**. | **10.2** |
+| Régimen de auditoría pública | Las universidades se someten al **régimen de auditoría pública autonómico** aplicable. | **10.3** |
+| Información económico-financiera | **Universidades públicas** remiten la información requerida para estabilidad y transparencia. | **10.4 y 109.1** |
+| Incumplimiento de remitir información exigida | Posibilidad de **retención del 10 % del libramiento mensual** de **transferencias corrientes nominativas**; competencia de la **Consejería de Hacienda**, previo informe de la competente en universidades. | **109.2** |
+| Regularización tras aportar información | **Reanudación del pago completo desde el mes siguiente a la recepción** y reintegro de lo retenido anteriormente, según art. **109.2**. | **109.2** |
+
+El **10 %** del **artículo 109.2** no es una retención automática de **todos los ingresos** de la universidad: afecta al libramiento mensual concreto previsto y exige el presupuesto de incumplimiento del deber informativo. Diferente régimen y supuestos de retención se regulan para el **plan económico-financiero** en el **artículo 11**.
+
+**Fuente primaria:** [**Ley 5/2025 CM, arts. 10, 11, 108 y 109**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217).
+
+> ⚠️ **¡Foco Examen!:** **Cámara de Cuentas** recibe la rendición; **Consejería de Hacienda** puede retener el **10 % de transferencias corrientes nominativas** por falta de información del **art. 109.2**, **no** el 10 % de cualquier partida indiscriminadamente.
