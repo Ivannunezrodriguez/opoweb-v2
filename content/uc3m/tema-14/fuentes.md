@@ -75,3 +75,18 @@ Fuente primaria: [**LOSU, artículos 45.3 y 46.3 (BOE-A-2023-7500)**](https://ww
 **Cautela normativa:** comparar siempre el ámbito de la norma antes de aplicar una cifra: **AGE** en el RD 364/1995, **universidades públicas** en LOSU y **Comunidad de Madrid** en la Ley 5/2025 de Hacienda. La fecha exacta de corte legal del examen UC3M depende de la publicación primaria de la resolución de listas definitivas que no se ha cotejado directamente; no confundir con el día del examen. La ampliación es **documental focal**, no certificación integral de legislación, interfaz o tests.
 
 > ⚠️ **¡Foco Examen!:** **8 %** de temporalidad PDI con exclusión de categorías legales; acciones positivas del **65.1** condicionadas a **igual idoneidad**.
+
+
+## Cierre documental contrastado LOSU I y II — **06/11/2026**
+
+[**Acta conjunta T13–T14, con reservas jurídicas y funcionales**](../CIERRE_DOCUMENTAL_T13_T14_20261106.md): cotejo del epígrafe oficial, **12 bloques de matriz** del tema **14**, preguntas históricas auditadas de forma individual y práctica complementaria cotejada con [**LOSU consolidada (BOE-A-2023-7500)**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500). Los enlaces de **16 preguntas complementarias** se han sustituido por el artículo correspondiente, sin alterar su clave.
+
+| Tema | Materia crítica | Artículos oficiales |
+|---|---|---|
+| **14** | Estudiantado y representación | **LOSU 31–39, 45–46** |
+| **14** | Presupuesto, investigación y financiación | **LOSU 47, 55, 57** |
+| **14** | PDI, conciliación y PTGAS | **LOSU 64–66, 75–78, 89–94** |
+
+**Reserva verificable:** la convocatoria **BOE-A-2026-14624, base primera.7**, vincula la exigibilidad legal a la **fecha de publicación** de las listas definitivas y anuncio de ejercicio; la resolución primaria fechada **no se ha obtenido** en esta auditoría. Quedan pendientes navegador real, móvil, accesibilidad y certificación integral; **no** hay aprobación del usuario.
+
+> ⚠️ **¡Foco Examen!:** Las referencias del informe del **04/11/2026** y la presente acta documentan el estudio, pero **no convierten automáticamente en exigible** una modificación posterior a la fecha de corte de UC3M.
