@@ -83,3 +83,8 @@ La web incluye ahora **tres modelos de entrenamiento de 70 preguntas titulares y
 Se ha añadido [**análisis del Volumen I institucional 2026 y 16 casos prácticos sobre temas 18–19**](COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md), con **64 alternativas**, comparativa de **importes por capítulos**, competencias para modificaciones, **30/60/90/120 días** de seguimiento de facturas, documentos **RC/A/D/O/AD/ADO**, caja fija **5.000 € sin IVA** y anticipos a justificar **12.000 €**. Se ha comprobado directamente el [**Volumen I original de 150 páginas**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view) y el [**BOCM de aprobación**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF).
 
 > ⚠️ **¡Foco Examen!:** La UC3M denomina **O a la propuesta de pago** en el **art. 15.2.1**. La caja fija (**5.000 € sin IVA**) no es lo mismo que el anticipo a justificar (**12.000 €**, justificación máxima **un mes**). Son reglas internas verificadas para **2026**; no atribuirlas a otras universidades.
+
+
+## Refuerzo adicional del tema 15 — **06/11/2026**
+
+[**Ocho preguntas nuevas de servicios universitarios, Biblioteca, patrimonio, presupuesto, auditoría y contratación UC3M**](REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md), con **32 opciones** y referencias a **arts. 157–177 de los Estatutos**. Recurso complementario separado de los **21 ítems** históricos del tema y de los **3 simulacros 70+5**. La ampliación no altera los resultados anteriores de los simulacros.
