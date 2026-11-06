@@ -36,3 +36,14 @@
 [**Cotejo individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): fundamentos específicos, análisis de distractores y bloques **¡Foco Examen!**. Estado **COTEJO_BANCO_COMPLETO**. **No** significa aprobación del usuario ni certifica navegación y accesibilidad de la web. La legislación exigible para UC3M se determina conforme a la **base primera.7** de su convocatoria, no automáticamente el día del examen.
 
 > ⚠️ **¡Foco Examen!:** La inadmisión de solicitudes del artículo **42.2** de Ley 10/2019 se resuelve en **5 días hábiles**, diferentes de los **20 días** de resolución ordinaria del artículo **42.1**.
+
+
+## Verificación jurídica conjunta de T2–T7 — tema 7 · 06/11/2026
+
+**Cotejo de fuentes primarias:** [**Ley 10/2019 CM, arts. 40–46; Ley 39/2015 art. 30 (BOE consolidado)**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102); última actualización publicada del texto principal: **27/12/2024**. **Manual nuevo: secciones 11.1–11.2**. Reglas contrastadas: 20 días y ampliación 20 por volumen/complejidad; inadmisión 5 hábiles; acceso gratuito y copias con tasas; efectos oposición tercero.
+
+**Recurso de entrenamiento conectado a OpoWeb:** [**Repaso jurídico conjunto 24 preguntas / 96 alternativas**](../../data/uc3m-repaso-juridico-t02-t07-20261106.json), **cuatro preguntas propias de tema 7**, con artículo, justificación, respuesta y trampa. Se conserva el banco histórico de **12 preguntas** por tema y se mantienen intactos los simulacros **70+5**.
+
+**Vigencia y alcance:** la consolidación del BOE es informativa; en el examen UC3M debe aplicarse la redacción vigente conforme a la **base primera.7** de la convocatoria, cuya fecha exacta de publicación de las listas definitivas/anuncio no se ha acreditado con documento primario. Este cotejo de artículos críticos es **focal**, no certificación íntegra de todos los artículos ni del navegador/PWA.
+
+> ⚠️ **¡Foco Examen!:** El dato decisivo suele ser el **supuesto legal y su excepción**, no memorizar el número sin el órgano, el procedimiento y la unidad temporal.
