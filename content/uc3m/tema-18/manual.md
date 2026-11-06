@@ -411,3 +411,10 @@ El **10 %** del **artículo 109.2** no es una retención automática de **todos 
 **Fuente primaria:** [**Ley 5/2025 CM, arts. 10, 11, 108 y 109**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217).
 
 > ⚠️ **¡Foco Examen!:** **Cámara de Cuentas** recibe la rendición; **Consejería de Hacienda** puede retener el **10 % de transferencias corrientes nominativas** por falta de información del **art. 109.2**, **no** el 10 % de cualquier partida indiscriminadamente.
+
+
+## Repaso integrado del lote T10, T11, T14 y T18 — tema 18 (06/11/2026)
+
+[**Repaso conjunto de 18 preguntas, 72 alternativas y soluciones por precepto**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md). Para este tema, consultar las preguntas **15–18**, centradas en prórroga, tesorería y control presupuestario. Es material **complementario**, no se han reemplazado los ítems originales ni los simulacros **70+5**. Las fuentes y apartados están relacionados en [**matriz del tema**](matriz.json).
+
+> ⚠️ **¡Foco Examen!:** Antes de aplicar un plazo, porcentaje u órgano de una norma, identificar **qué Administración o colectivo** regula. **RD 364/1995 (AGE)**, **TREBEP (ámbito básico y especialidades)**, **LOSU (universidades)** y **Ley 5/2025 CM (universidades madrileñas)** no son regímenes idénticos.
