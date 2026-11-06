@@ -8,6 +8,46 @@ Los Estatutos son la norma institucional básica de la Universidad Carlos III de
 
 Los Estatutos ordenan la estructura universitaria, los órganos de gobierno y representación, la comunidad universitaria, los servicios, el régimen económico-financiero y los procedimientos internos. Su autonomía no elimina los controles de legalidad, financieros, presupuestarios y de rendición de cuentas.
 
+### 1.1. Naturaleza jurídica, autonomía y potestades — artículos 1–3 de los Estatutos
+
+Los Estatutos, aprobados por **Decreto 1/2003 de la Comunidad de Madrid** y posteriormente modificados (entre otras reformas, **Decreto 95/2009**), describen a la **Universidad Carlos III de Madrid** como **entidad de Derecho público**, con **personalidad jurídica y patrimonio propio**, que ejerce **autonomía de acuerdo con la Constitución y las leyes** (**art. 1.1**). La Universidad ejerce las **potestades y prerrogativas que el ordenamiento le reconoce como Administración pública** (**art. 1.2**).
+
+| Concepto | Significado jurídico | Error frecuente |
+|---|---|---|
+| **Entidad de Derecho público** | Universidad con naturaleza pública y funciones propias. | Considerarla una simple empresa privada. |
+| **Personalidad y patrimonio propios** | Capacidad jurídica y bienes/derechos de su titularidad. | Confundirla con un departamento sin personalidad propia. |
+| **Autonomía universitaria** | Capacidad de autogobierno dentro del marco constitucional y legal. | Tratarla como soberanía fuera del control legal. |
+| **Potestades como Administración** | Las reconocidas por el ordenamiento jurídico; no potestades ilimitadas. | Atribuirle cualquier competencia de Estado o Comunidad Autónoma. |
+| **Principios de actuación** | Legalidad, eficacia, eficiencia, transparencia, calidad y servicio a la sociedad. | Interpretar autonomía como ausencia de rendición de cuentas. |
+
+**Fuente institucional consolidada:** [**UC3M — Estatutos y texto refundido**](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m). **Fuente original:** [**BOE-A-2003-17782, arts. 1–3**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782). La versión original del BOE no incorpora por sí sola todas las reformas posteriores; estudiar el texto refundido y la legislación superior aplicable.
+
+> ⚠️ **¡Foco Examen!:** **Derecho público + personalidad jurídica + patrimonio propio + autonomía legal** son datos del **artículo 1**. No confundir **autonomía** con **independencia del ordenamiento jurídico**.
+
+### 1.2. Microtest de dos preguntas sobre la naturaleza de los Estatutos
+
+**Pregunta A.** Según el **artículo 1.1** de los Estatutos UC3M, la Universidad es:
+
+- **A.** Un órgano estatal sin personalidad jurídica.
+- **B.** Una **entidad de Derecho público con personalidad jurídica y patrimonio propio**.
+- **C.** Una sociedad mercantil pública sin autonomía.
+- **D.** Una asociación privada de estudiantes.
+
+**Respuesta: B.** La formulación figura en el **artículo 1.1** de los Estatutos.
+
+> ⚠️ **¡Foco Examen!:** **Entidad de Derecho público** no equivale a simple dependencia administrativa carente de personalidad.
+
+**Pregunta B.** De acuerdo con el **artículo 1.2**, la UC3M ejerce:
+
+- **A.** Todas las potestades legislativas de la Comunidad Autónoma.
+- **B.** Competencias jurisdiccionales penales.
+- **C.** Cualquier potestad por el solo hecho de ser autónoma.
+- **D.** **Las potestades y prerrogativas reconocidas por el ordenamiento jurídico en su calidad de Administración pública**.
+
+**Respuesta: D.** El **artículo 1.2** reconoce solo las potestades que el ordenamiento le atribuye.
+
+> ⚠️ **¡Foco Examen!:** La autonomía universitaria tiene **límites legales**; no atribuye competencias legislativas o judiciales ilimitadas.
+
 ## 2. El Defensor Universitario
 
 El Defensor Universitario vela por el respeto de los derechos y libertades de todos los miembros de la comunidad universitaria y contribuye a la mejora de la calidad universitaria.
