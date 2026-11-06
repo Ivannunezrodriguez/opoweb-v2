@@ -221,6 +221,30 @@ Las universidades pueden establecer convenios, consorcios, alianzas, redes, prog
 
 La cooperación permite impulsar movilidad, uso compartido de recursos, investigación conjunta, transferencia, innovación y mejora de la calidad.
 
+
+### 12.1. Cooperación académica, internacional e investigación: arts. 11–14
+
+**Cooperación** y **coordinación** no son conceptos intercambiables. La coordinación entre **Administraciones Públicas** del sistema universitario corresponde en sus respectivos ámbitos al **Gobierno** y las **Comunidades Autónomas**, respetando la autonomía de las universidades (**art. 14.2**). La cooperación entre **universidades** se desarrolla mediante vínculos académicos e institucionales.
+
+| Ámbito o mecanismo | Ejemplo normativo | Precepto |
+|---|---|---|
+| **Cooperación interuniversitaria** | Alianzas estratégicas, **redes de colaboración** y acuerdos con universidades españolas o extranjeras. | **14.2** |
+| **Cooperación con otros sectores** | Instituciones de educación superior, organismos públicos de investigación, Administraciones, empresas, agentes sociales y organizaciones de la sociedad civil. | **14.2** |
+| **Investigación cooperativa** | Actividades de investigación conjuntas con entidades públicas, privadas y de economía social; interdisciplinariedad. | **11.4 y 11.7** |
+| **Proyectos de transferencia** | Convocatorias y programas que conectan universidades con **centros educativos, culturales y científicos** y entidades de su entorno. | **13.1.a–c** |
+| **Ciencia Abierta** | Acceso abierto a publicaciones, datos, códigos y metodologías; copia de la versión final aceptada y datos asociados en repositorios. | **12.1–3** |
+| **Principios FAIR** | Datos fáciles de encontrar, accesibles, interoperables y reutilizables; difusión en abierto **siempre que sea posible**. | **12.5** |
+| **Ciencia Ciudadana** | Colaboración entre ciudadanía y sistema universitario de investigación para generar conocimiento compartido. | **12.10** |
+| **Protección previa de resultados** | La ciencia abierta es compatible con proteger previamente derechos de **propiedad intelectual/industrial** y secreto empresarial según ley. | **12.11** |
+
+**Precisión del artículo 12.2:** el **PDI** debe depositar una **copia de la versión final aceptada para publicación** y los datos asociados en repositorios institucionales o temáticos **de forma simultánea a la fecha de publicación**. Esta obligación no implica afirmar que todos los datos, sin excepción, deban divulgarse cuando existan límites legales o derechos protegibles.
+
+**Caso práctico:** una universidad crea con otra institución extranjera una investigación conjunta. La **colaboración entre universidades** se engloba en el **artículo 14**; la **investigación conjunta** y sus estructuras se contemplan en el **artículo 11**, y la **difusión de resultados con ciencia abierta** se regula por el **artículo 12**.
+
+**Fuente oficial:** [**LOSU, arts. 11–14, texto consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500).
+
+> ⚠️ **¡Foco Examen!:** **Cooperación no exige que los socios sean solo universidades**. **Ciencia Abierta** no significa publicar todos los datos sin límites: el **art. 12.11** contempla protección previa de resultados. **Ciencia Ciudadana** incorpora participación de la ciudadanía.
+
 ## 13. Universidad y sociedad
 
 La Universidad debe contribuir al desarrollo territorial, la cultura, el pensamiento crítico, la empleabilidad, el emprendimiento, la sostenibilidad, la igualdad y la cohesión social.
@@ -262,3 +286,8 @@ Debe desarrollarse con criterios de calidad, equidad y eliminación de barreras 
 [**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
 
 > ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.
+
+
+## Control de cobertura jurídico-editorial — **06/11/2026**
+
+Refuerzo de los **cuatro apartados sin pregunta directa** identificados en la matriz: coordinación institucional (**LOSU 14–17**), estructuras (**40–43**), docencia (**6–9**) y cooperación (**11–14**). El texto se ha cotejado con el [**BOE consolidado de la LOSU**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500), cuya última actualización publicada figura como **02/08/2024**. Se conserva el banco original de **12 preguntas** y no se altera ninguno de los simulacros. La ampliación es **focal**, sin certificación de interfaz, WCAG o fecha exacta de corte legislativo de la **base primera.7** UC3M.
