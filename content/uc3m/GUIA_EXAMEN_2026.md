@@ -150,3 +150,20 @@ Los **12 ítems anteriores del T9** permanecen y el refuerzo no se incorpora sil
 Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md). Los **24 vacíos históricos** describen falta de pregunta en el banco anterior y fueron abordados por refuerzos documentales: **no** es una afirmación de que todos los apartados legales estén actualizados. La [**validación automatizada**](../../tests/validate-uc3m-extra-repasos-20261106.mjs) comprueba identificadores, estructura y enlace de código; la **prueba E2E de la web desplegada** es una verificación separada.
 
 > ⚠️ **¡Foco Examen!:** Los **repasos adicionales** son preguntas de **entrenamiento propio de OpoWeb**. No tienen el número ni la nota oficial de un examen de **70 titulares + 5 reservas**: su corrección sirve para estudiar contenidos; **no declara APTO** ni sustituye al tribunal.
+
+
+## Segundo lote interactivo: 150 preguntas UC3M y revisión T2–T7 — 06/11/2026
+
+**NUEVA FASE sobre la integración anterior de 126 preguntas:** incorporado un [**repaso jurídico conjunto de 24 preguntas y 96 alternativas**](../../data/uc3m-repaso-juridico-t02-t07-20261106.json), **cuatro por cada uno de los temas 2, 3, 4, 5, 6 y 7**, con artículos, justificaciones y focos específicos.
+
+| Material interactivo adicional | Preguntas | Estado |
+|---|---:|---|
+| Los **9 bloques ya integrados** en la primera fase | **126** | Código, JSON y CI de esa fase verificados. |
+| **Contrastes jurídicos T2–T7** (nuevo bloque único) | **24** | JSON enlazado a la aplicación y prueba de integridad ampliada; despliegue y pruebas funcionales se comprueban por separado. |
+| **Total previsto del catálogo adicional** | **150** | **10 bloques**, independientes de los bancos originales y simulacros. |
+
+**Para estudiar:** [**Ficha de repaso de los temas 2–7**](REPASO_JURIDICO_T02_T07_20261106.md), con **seis tablas comparativas** de plazos y órganos, y [**abrir entrenamiento UC3M**](../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Los [**manuales T2**](tema-02/manual.md), [**T3**](tema-03/manual.md), [**T4**](tema-04/manual.md), [**T5**](tema-05/manual.md), [**T6**](tema-06/manual.md) y [**T7**](tema-07/manual.md) han sido ampliados usando BOE vigente, con actualización de sus matrices y fuentes.
+
+**Advertencia:** los **150** no forman parte de la convocatoria oficial; no se han sumado a los **3 simulacros 70+5** ni sustituyen los bancos históricos. El **corte legal** sigue siendo el previsto en base **primera.7** de la UC3M, cuya fecha original de publicación de listas definitivas/anuncio está pendiente de acreditación.
+
+> ⚠️ **¡Foco Examen!:** **Notificación electrónica = 10 días naturales** para rechazo si no se abre; **LOPDGDD = 10 días** para comunicar DPD; **transparencia madrileña = 20 + 20 días** de acceso y **5 hábiles** para inadmisión. **El mismo número no significa el mismo procedimiento.**
