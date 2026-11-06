@@ -44,3 +44,19 @@ Referencia secundaria de consulta del dictamen: https://www.iberley.es/resolucio
 Publicación oficial examinada: **BOP Toledo n.º 284, 14/12/2011**, anuncio **I-11024**, reforma del **Pleno de 28/11/2011** de los **artículos 1, 4.a), 14.d).1**, introducción del **8 bis** y **disposición adicional**. Se ha cotejado visualmente la página única del anuncio. Véase [ficha normativa interna](./estatutos-2011-verificado.md).
 
 **Límite jurídico:** modificación parcial publicada, no texto vigente íntegro de 1996 a 2026. Siguen pendientes el estatuto original, sus demás reformas, el acuerdo laboral consolidado y la prueba web.
+
+## Localización complementaria del texto estatutario histórico — **06/11/2026**
+
+- [**Transcripción íntegra no oficial** del **BOP Toledo n.º 235 de 11/10/1996**](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/1996/10/11): reproduce el anuncio de la **aprobación definitiva por el Pleno provincial de 27/09/1996** y el texto originario de los Estatutos. **Fuente secundaria con posibles errores de transcripción**; sirve para localización y contraste, **no** para certificar por sí sola texto vigente.
+- [**Transcripción no oficial** del **BOP Toledo n.º 294 de 23/12/2004**](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/2004/12/23): reproduce una reforma extensa que incluye redacción de numerosos artículos; el anuncio identifica **aprobación inicial de 21/12/2004**. **No se ha acreditado aprobación definitiva ni fecha de entrada en vigor**. No debe mostrarse esa redacción como vigente sin más.
+- [**BOP oficial Toledo n.º 284 de 14/12/2011**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011) — modificación **aprobada por el Pleno de 28/11/2011**, que proporciona texto publicado con valor primario para los artículos modificados. Ficha íntegra ya disponible en [estatutos-2011-verificado.md](estatutos-2011-verificado.md).
+- [**BOP oficial Toledo n.º 92 de 16/05/2023**](https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023) cita en un acuerdo del **Consejo Rector** los **arts. 10, 12 y 14**, demostrando uso de sus atribuciones en **2023**. Esto **no** equivale a consolidación normativa de todo el Estatuto en **2026**.
+
+| Extremo | Fuente disponible | Grado de certeza a fecha de revisión |
+|---|---|---|
+| Aprobación definitiva original de **1996** | Referencia expresa en **BOP oficial 2023** y reproducción del boletín de **1996** | **Acreditada la existencia y fecha**; texto completo originario aún pendiente de contraste contra edición oficial de 1996. |
+| Reforma extensa de **2004** | Anuncio localizado de **aprobación inicial** | **No acreditada como definitiva**. |
+| Modificación de **2011** | **BOP oficial 284/2011** | **Texto parcial oficial publicado**, sin demostrar ausencia de reformas posteriores. |
+| Estatutos íntegros vigentes en **2026** | Requieren original oficial, aprobación de reformas y comprobación de posteriores cambios | **BLOQUEADO**; mantener tema **BORRADOR** y evitar inventar composición, quórum o competencias. |
+
+> ⚠️ **¡Foco Examen!:** **Aprobación inicial** de una modificación estatutaria **no equivale** a **publicación definitiva**; las atribuciones citadas en anuncios posteriores tampoco convalidan todos los artículos de un texto histórico.
