@@ -226,3 +226,21 @@ El artículo **35.2** regula a los **Delegados de Prevención**; los artículos 
 [**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
 
 > ⚠️ **¡Foco Examen!:** **Comité de Seguridad y Salud** desde **50 personas**; los **Delegados de Prevención** siguen escala del **art. 35** y la Administración Pública presenta particularidades.
+
+
+## 18. Alcance de la Ley 31/1995 — ámbito de aplicación (art. 3)
+
+| Supuesto | Regla |
+|---|---|
+| Personal laboral | Se aplica la Ley 31/1995 |
+| Personal **funcionario o estatutario** de **Administraciones Públicas** | Se aplica **con las peculiaridades** legalmente previstas |
+| Cooperativas con socios que prestan trabajo personal | Se aplica con sus peculiaridades específicas |
+| Policía, seguridad y resguardo aduanero | Excepción **solo** para actividades cuyas particularidades impidan la aplicación |
+| Protección civil operativa y peritaje forense | Excepción para situaciones de **grave riesgo, catástrofe y calamidad pública**, en términos del artículo |
+| Fuerzas Armadas y actividades militares de Guardia Civil | Excepción funcional; en centros militares la Ley se aplica **con peculiaridades** |
+
+El artículo **2.2** configura las disposiciones laborales como **mínimos indisponibles** que pueden mejorarse mediante convenio colectivo.
+
+**Fuente:** [**LPRL, arts. 2 y 3, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292).
+
+> ⚠️ **¡Foco Examen!:** La prevención **sí alcanza a funcionarios y personal estatutario**. No interpretar las exclusiones funcionales del **artículo 3.2** como una exclusión absoluta de cualquier trabajador de esos sectores.
