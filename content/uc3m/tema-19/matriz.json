@@ -135,5 +135,20 @@
     "refAproxCorregida": true,
     "report": "content/uc3m/COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md",
     "certificacionIntegral": false
+  },
+  "controlEconomiaLCSP20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REFUERZO_FOCAL_SIN_CIERRE",
+    "fuente": "LCSP art. 198.4–6 y Normas Básicas UC3M 2026 arts. 15.2.1 y 16",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+    "manual": "24",
+    "repaso": "content/uc3m/REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md",
+    "bancoComplementario": "data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json",
+    "preguntasComplementarias": 3,
+    "indicesDeRepaso": "5–7",
+    "bancoHistoricoSinCambios": true,
+    "simulacrosSinCambios": true,
+    "certificacionIntegral": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
   }
 }
