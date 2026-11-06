@@ -64,3 +64,14 @@ Fuente primaria: [**LOSU, artículos 45.3 y 46.3 (BOE-A-2023-7500)**](https://ww
 [**Informe individual de 14 preguntas y 56 alternativas literales**](cotejo-integral-2026-11-04.md): fundamentos jurídicos, descarte de cada respuesta errónea y foco de examen. **Estado del banco: COTEJO_BANCO_COMPLETO**, **no aprobación de usuario**. La fecha normativa de corte de las bases UC3M sigue pendiente de corroborar mediante publicación primaria de la resolución de listas definitivas y anuncio de prueba. Las pruebas funcionales en navegador y accesibilidad se mantienen **pendientes**.
 
 > ⚠️ **¡Foco Examen!:** **Claustro**: estudiantes **≥25 %** y docentes funcionarios/PPL **51 %**, ambos **art. 45.3**. La respuesta de **UC3M-T14-002** es **B (25 %)**.
+
+
+## Refuerzo masivo coordinado UC3M — tema 14 — **06/11/2026**
+
+**Fuente primaria contrastada:** [**LOSU arts. 64–66, 75–76 y 78**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500). Se han desarrollado **2 apartados** en el **manual, apartados 14.1–14.3**, con tablas comparativas, cifras, órganos y focos. **Materia:** PDI y 8 % temporal con exclusiones, movilidad, equidad en concursos, conciliación y cómputo del contrato de ayudante doctor.
+
+**Repaso transversal:** [**18 preguntas nuevas / 72 opciones / 18 soluciones y focos, de los temas 10, 11, 14 y 18**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md), de las que **4** pertenecen al tema **14**, preguntas **11–14**. No se modifica el banco original, su cotejo ni los simulacros.
+
+**Cautela normativa:** comparar siempre el ámbito de la norma antes de aplicar una cifra: **AGE** en el RD 364/1995, **universidades públicas** en LOSU y **Comunidad de Madrid** en la Ley 5/2025 de Hacienda. La fecha exacta de corte legal del examen UC3M depende de la publicación primaria de la resolución de listas definitivas que no se ha cotejado directamente; no confundir con el día del examen. La ampliación es **documental focal**, no certificación integral de legislación, interfaz o tests.
+
+> ⚠️ **¡Foco Examen!:** **8 %** de temporalidad PDI con exclusión de categorías legales; acciones positivas del **65.1** condicionadas a **igual idoneidad**.
