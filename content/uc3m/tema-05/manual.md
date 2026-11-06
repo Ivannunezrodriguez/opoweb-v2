@@ -150,3 +150,10 @@ El artículo **46 bis** menciona **territorio de la Unión Europea**, no exige i
 **Fuente:** [**Ley 40/2015, arts. 46–46 bis**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
 
 > ⚠️ **¡Foco Examen!:** **UE** es la localización exigida para los **datos enumerados del art. 46 bis**, no necesariamente España. **Alojamiento UE** y **transferencia a tercer país** son cuestiones distintas.
+
+
+## Repaso práctico integrado — tema 5 (06/11/2026)
+
+[**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
+
+> ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
