@@ -327,3 +327,48 @@ El **artículo 8** atribuye a **Secretaría General** funciones de fe pública: 
 **Refuerzo jurídico específico:** se añadió al apartado **8.3** el texto **2024–2026 del artículo 206.1 LOREG**, tras comprobar que faltaban los requisitos de **avales de un tercio**, **tres suplentes** y **listas equilibradas 40 %–60 % con alternancia**.
 
 > ⚠️ **¡Foco Examen!:** **27 diputados** para provincias de **500.001–1.000.000 residentes**; Presidencia provincial, **mayoría absoluta** en primera votación y **simple** en segunda; selección indirecta de diputados por **concejales** y no por voto provincial directo.
+
+
+## Cierre jurídico-editorial del régimen local y de Diputación de Toledo — **06/11/2026**
+
+**Normativa consolidada cotejada:** [**LRBRL (última actualización publicada 03/10/2026)**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), [**LOREG (última actualización publicada 02/07/2026)**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672) y [**Reglamento de Organización Administrativa Diputación de Toledo, BOP 14/02/2024**](https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf). Se distinguen **órganos necesarios del régimen legal**, **áreas de la organización provincial** y **delegaciones políticas variables durante la legislatura**. La [**estructura institucional**](https://www.diputoledo.es/global/27/264/4039) sirve para contextualizar servicios, no para reemplazar el reglamento.
+
+### Órganos, población y atribuciones
+
+| Entidad / órgano | Regla legal | Precepto |
+|---|---|---|
+| Municipio: elementos | **Territorio, población y organización** | **LRBRL 11.2** |
+| Órganos municipales siempre existentes | **Alcalde, Tenientes de Alcalde y Pleno**, además de **Comisión Especial de Cuentas** | **LRBRL 20.1.a y e** |
+| Junta de Gobierno Local | Obligatoria en municipios con **más de 5.000 habitantes**; posible en otros si lo prevé reglamento orgánico o lo acuerda **Pleno** | **LRBRL 20.1.b** |
+| Presidencia municipal | **Alcalde** dirige gobierno y administración | **LRBRL 21** |
+| Presupuesto municipal | Aprobación por **Pleno** | **LRBRL 22.2.e** |
+| Órganos provinciales necesarios | **Presidente, Vicepresidentes, Junta de Gobierno y Pleno** | **LRBRL 32.1** |
+| Provincia | Entidad local con personalidad jurídica propia determinada por agrupación de municipios | **CE 141.1** |
+| Asistencia provincial | Cooperación **jurídica, económica y técnica**, especialmente para municipios de **menor capacidad** | **LRBRL 36.1.b** |
+
+> ⚠️ **¡Foco Examen!:** **«Más de 5.000»** significa que un municipio con **5.000 exactos** no está obligado por esa sola regla a Junta de Gobierno Local. La **Comisión Especial de Cuentas** existe **en todos los municipios**.
+
+### Elecciones municipales y provinciales — LOREG vigente
+
+| Operación | Plazo, fracción o mayoría | Norma |
+|---|---|---|
+| Mandato concejales | **4 años** | **LOREG 194** |
+| Elección de Alcalde, régimen general | **Mayoría absoluta** de votos de concejales; en defecto, cabeza de **lista más votada** (con matices legales) | **LOREG 196** |
+| Tramo provincial de población **500.001 a 1.000.000** | **27 diputados** | **LOREG 204** |
+| Elección diputados provinciales | **Indirecta**: elegidos por **concejales** de los partidos judiciales | **LOREG 206** |
+| Convocatoria a concejales para elección provincial | **Dentro de los 5 días siguientes** a la asignación de puestos | **LOREG 206.1** |
+| Aval de listas para diputado provincial | Al menos **1/3 de los concejales** del grupo convocado | **LOREG 206.1** |
+| Candidatura de diputados provinciales | **3 suplentes**; equilibrio **40 %–60 % por sexo** y orden **alterno** | **LOREG 206.1** reformado en **2024** |
+| Presidente de Diputación | **Mayoría absoluta** en primera votación, **simple** en segunda | **LOREG 207.2** |
+
+El **art. 206.1** fue modificado por la **LO 2/2024**, con vigencia desde **22/08/2024**. Esta redacción **ya estaba vigente** en la convocatoria de octubre de 2026. La elección indirecta de diputados provinciales no equivale a elegirlos directamente en la papeleta municipal.
+
+> ⚠️ **¡Foco Examen!:** **5 días + 1/3 de avales + 3 suplentes + 40/60 con alternancia** describen la elección provincial del **206.1 LOREG**. **Presidente provincial: mayoría absoluta / simple** en votaciones sucesivas. No confundir la composición legal de Diputación con los nombres del organigrama político.
+
+### Régimen local y reglamento orgánico provincial
+
+El **Reglamento de Organización Administrativa de 2024** desarrolla **Presidencia, Vicepresidencias, delegaciones, estructura de áreas y Secretaría General**. Sus **áreas de gestión** no son órganos de gobierno necesarios adicionales a los enumerados por la **LRBRL**. El [**portal de la Diputación**](https://www.diputoledo.es/global/27/264/4039) publica estructura institucional por áreas, sujeta a decisiones de cada legislatura.
+
+> ⚠️ **¡Foco Examen!:** Una **delegación funcional de Presidencia** no crea un nuevo órgano necesario de la provincia. Las **competencias provinciales legales** se estudian por **LRBRL art. 36** y se separan de la distribución política vigente.
+
+**Documentación anterior preservada:** cotejo integral individual de **20 preguntas/80 opciones** de **04/11/2026**, sin cambiar ninguna opción ni clave. [Informe cierre C2 01–05](../cierre-editorial-c2-01-05-2026-11-06.md). No acredita funcionamiento real en navegador ni prueba completa de accesibilidad.

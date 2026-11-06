@@ -55,3 +55,11 @@
 - Este documento registra fuentes oficiales, **no** supone auditoría completa del régimen provincial, prueba funcional del portal ni aprobación final del usuario.
 
 > ⚠️ **¡Foco Examen!:** **Más de 5.000 habitantes** para la Junta de Gobierno Local obligatoria; la **Comisión Especial de Cuentas** existe en **todos**. **Elección provincial indirecta** y paridad de listas **40 %–60 %**, con alternancia, no son normas de elección directa municipal.
+
+
+## Cotejo de vigencia e instituciones — **06/11/2026**
+
+- [**LRBRL BOE, versión consolidada publicada 03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): arts. **11, 20–22, 26, 32–36, 46–47**; distinguir regla permanente de estructura actual.
+- [**LOREG, última actualización publicada 02/07/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672): **arts. 194, 196, 204–207**; en **art. 206.1** ya rige la reforma de **2024** (**5 días, aval 1/3, tres suplentes, listas 40/60 alternas**).
+- [**Reglamento Organización Administrativa Diputación Toledo BOP 14/02/2024**](https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf), arts. **1–8**, contrastado con la [**estructura institucional por áreas**](https://www.diputoledo.es/global/27/264/4039); no inferir reformas posteriores no documentadas.
+- **20 preguntas/80 alternativas** conservadas del cotejo individual de **04/11/2026**. [Informe de cierre](../cierre-editorial-c2-01-05-2026-11-06.md). **Sin** certificación completa de los cambios futuros del organigrama o experiencia de usuario.

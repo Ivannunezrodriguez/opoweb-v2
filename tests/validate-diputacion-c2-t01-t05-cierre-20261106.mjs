@@ -1,0 +1,54 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const read=p=>readFileSync(p,'utf8'),json=p=>JSON.parse(read(p));
+const prog=json('data/programa-diputacion-auxiliar-c2-2026.json');
+assert.equal(prog.temas.length,20);
+assert.deepEqual(prog.cierreEditorialC2Global20261106.temasAuditados,[1,2,3,4,5,17,18,19,20]);
+assert.equal(prog.cierreEditorialC2Global20261106.temasAuditadosCantidad,9);
+assert.equal(prog.cierreEditorialC2Global20261106.pendientes,11);
+assert.equal(prog.temas[5].estado,'BORRADOR');
+const report=read('content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-01-05-2026-11-06.md');
+let count=0,options=0;const used=new Set();
+for(let n=1;n<=5;n++){
+ const d='content/diputacion-toledo-auxiliar-c2/tema-'+String(n).padStart(2,'0')+'/';
+ const topic=prog.temas[n-1],m=json(d+'matriz.json'),b=json(d+'preguntas.json');
+ const manual=read(d+'manual.md'),src=read(d+'fuentes.md');
+ assert.equal(topic.estado,'AUDITADO');
+ assert.equal(m.estadoEditorial,'AUDITADO');
+ assert.equal(m.estadoControl,'AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE');
+ assert.equal(m.epigrafeOficial,topic.titulo);
+ assert.ok(m.cobertura.length>=5);
+ assert.equal(m.cierreEditorialC2_01_05_20261106.certificacionIntegral,false);
+ assert.equal(m.controlIntegralBanco20261104.preguntasVerificadas,20);
+ assert.equal(b.estado,'AUDITADO');
+ assert.equal(b.cierreEditorialC2_01_05_20261106.cambiosClave,0);
+ assert.equal(b.preguntas.length,20);
+ assert.ok(manual.includes('## 1. Epígrafe oficial literal'));
+ assert.ok(manual.includes(topic.titulo));
+ assert.ok(manual.includes('cierre-editorial-c2-01-05-2026-11-06.md'));
+ assert.ok(manual.includes('¡Foco Examen!'));
+ assert.ok(src.includes('cierre-editorial-c2-01-05-2026-11-06.md'));
+ for(const q of b.preguntas){
+  assert.ok(!used.has(q.id));used.add(q.id);
+  assert.equal(q.opciones.length,4);
+  assert.equal(new Set(q.opciones).size,4);
+  assert.ok(Number.isInteger(q.respuestaCorrecta));
+  assert.ok(q.respuestaCorrecta>=0&&q.respuestaCorrecta<4);
+  assert.ok(q.justificacion.length>15&&q.trampaExamen.length>10&&q.referencia.length>25);
+  assert.ok(report.includes(q.id));
+  assert.ok(report.includes(q.opciones[q.respuestaCorrecta]));
+  count++;options+=4;
+ }
+}
+assert.equal(count,100);assert.equal(options,400);
+const m1=read('content/diputacion-toledo-auxiliar-c2/tema-01/manual.md');
+const m2=read('content/diputacion-toledo-auxiliar-c2/tema-02/manual.md');
+const m3=read('content/diputacion-toledo-auxiliar-c2/tema-03/manual.md');
+const m4=read('content/diputacion-toledo-auxiliar-c2/tema-04/manual.md');
+const m5=read('content/diputacion-toledo-auxiliar-c2/tema-05/manual.md');
+assert.ok(m1.includes('**20/05/2026**')&&m1.includes('**3/5**'));
+assert.ok(m2.includes('**6 meses**')&&m2.includes('**3 meses**'));
+assert.ok(m3.includes('**Art. 96.5**')||m3.includes('**96.5**'));
+assert.ok(m4.includes('**117.3**')&&m4.includes('**1 mes**'));
+assert.ok(m5.includes('**LOREG 206.1**')&&m5.includes('**3 suplentes**'));
+console.log('DIP_C2_01_05_FIVE_DOCUMENTAL_CLOSURES_100_QUESTIONS_400_OPTIONS_OK');

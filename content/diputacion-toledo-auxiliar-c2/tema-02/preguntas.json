@@ -1,6 +1,6 @@
 {
   "tema": 2,
-  "estado": "BANCO_20_PREGUNTAS_REVISADO",
+  "estado": "AUDITADO",
   "version": "2026-10-29",
   "criterio": "20 preguntas originales, sin duplicidad de ampliación, con cuatro opciones, fundamentación y fuente legal identificable; prueba funcional web independiente.",
   "preguntas": [
@@ -302,5 +302,12 @@
     ],
     "resultado": "Ocho respuestas cotejadas; se corrigieron las ocho referencias defectuosas («undefined»); se sustituyeron dos preguntas memorísticas por reglas materiales; se precisaron excepciones y plazos.",
     "limitacion": "No acredita auditoría completa del manual del tema 2 ni pruebas en navegador."
+  },
+  "cierreEditorialC2_01_05_20261106": {
+    "fecha": "2026-11-06",
+    "verificadas": 20,
+    "alternativas": 80,
+    "cambiosClave": 0,
+    "certificacionIntegral": false
   }
 }

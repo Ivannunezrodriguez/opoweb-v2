@@ -2,8 +2,8 @@
   "tema": 1,
   "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
   "epigrafeOficial": "La Constitución española de 1978. Estructura. La reforma constitucional. Derechos y deberes fundamentales de los españoles. Garantía y suspensión.",
-  "estadoEditorial": "EN_REVISION_USUARIO",
-  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE",
   "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
   "fuentesPrimarias": [
     "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
@@ -60,5 +60,15 @@
       "BOE-A-1981-10325",
       "BOE-A-1981-12774"
     ]
+  },
+  "cierreEditorialC2_01_05_20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AUDITADO",
+    "fuenteLegalVigente": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+    "preguntas": 20,
+    "alternativas": 80,
+    "alteracionesBanco": 0,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-01-05-2026-11-06.md",
+    "certificacionIntegral": false
   }
 }

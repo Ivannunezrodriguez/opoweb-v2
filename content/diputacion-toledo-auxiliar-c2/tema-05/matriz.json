@@ -2,8 +2,8 @@
   "tema": 5,
   "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
   "epigrafeOficial": "El municipio. Organización y funcionamiento. La provincia. Organización provincial. Competencias. La Diputación Provincial de Toledo: organización, funcionamiento y competencias. El Régimen electoral de las Entidades Locales.",
-  "estadoEditorial": "EN_REVISION_USUARIO",
-  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE",
   "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
   "fuentesPrimarias": [
     "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
@@ -70,5 +70,19 @@
     "ampliaciones": [
       "LOREG art206 convocatoria 5 dias; listas aval 1/3; 3 suplentes; equilibrio 40-60 alternancia"
     ]
+  },
+  "cierreEditorialC2_01_05_20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AUDITADO",
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672",
+      "https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf"
+    ],
+    "preguntas": 20,
+    "alternativas": 80,
+    "alteracionesBanco": 0,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-01-05-2026-11-06.md",
+    "certificacionIntegral": false
   }
 }

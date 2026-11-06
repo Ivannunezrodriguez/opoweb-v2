@@ -989,3 +989,51 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 3 aprobad
 [**Informe de 20 preguntas y 80 alternativas exactas**](cotejo-integral-2026-11-04.md), con cita de artículo y razonamiento individual de cada opción incorrecta. **Estado del banco COTEJO_BANCO_COMPLETO**, pero no equivale a auditoría total del contenido, prueba funcional de móvil/navegador, accesibilidad ni aprobación del usuario.
 
 > ⚠️ **¡Foco Examen!:** **Subsanación 10 días**, **audiencia 10–15**, **prueba 10–30**, **información pública mínimo 20**, **simplificada 30**, **responsabilidad patrimonial 1 año**. No confundir **denuncia** con iniciación **de oficio** de un sancionador.
+
+
+## Cotejo jurídico-editorial del procedimiento administrativo — **06/11/2026**
+
+**Fuente:** [**Ley 39/2015 BOE, arts. 53–105**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) y versión consolidada con última actualización publicada **06/11/2024**. Se revisan **derechos del interesado, iniciación, ordenación, instrucción, terminación, ejecución, sanción, responsabilidad patrimonial y simplificación**, tal como exige el programa oficial de Diputación C2.
+
+### Plazos según la fase, no según el número memorizado
+
+| Trámite | Plazo | Precepto y condición |
+|---|---|---|
+| Subsanar solicitud incompleta | **10 días** | **Art. 68.1**, con advertencia de desistimiento tras resolución |
+| Cumplimentar trámites de interesados, si no hay otro | **10 días** | **Art. 73.1** |
+| Período ordinario de prueba | **10–30 días** | **Art. 77.2**; prueba extraordinaria con reglas propias |
+| Emitir informes, regla general | **10 días** | **Art. 80.2**, salvo norma u otros plazos |
+| Trámite de audiencia | Entre **10 y 15 días** | **Art. 82.2** |
+| Información pública | Mínimo **20 días** | **Art. 83.2** |
+| Terceros personados que solicitan continuación tras desistimiento | **10 días** | **Art. 94.4** |
+| Resolver simplificado | **30 días**, salvo menor plazo restante en ordinario | **Art. 96.6** |
+
+> ⚠️ **¡Foco Examen!:** **Audiencia 10–15 días** no equivale a **información pública ≥20 días**. La prueba dura **10–30 días**; el informe se emite normalmente en **10 días**. La cifra solo tiene sentido junto al **trámite**.
+
+### Iniciación y simplificación: dos supuestos con reglas diferentes
+
+| Situación | Regla del procedimiento | Diferencia |
+|---|---|---|
+| Iniciación general | **De oficio o a solicitud del interesado** | **Art. 54** |
+| Procedimiento de naturaleza sancionadora | Se inicia **siempre de oficio** | **Art. 63.1**, aunque haya denuncia previa |
+| Denuncia | Pone hechos en conocimiento de órgano; no convierte automáticamente al denunciante en interesado | **Art. 62** |
+| Simplificación general acordada de oficio | Si algún interesado se **opone expresamente**, tramitación **ordinaria** | **Art. 96.2** |
+| Simplificación sancionadora específica | Si hay suficientes elementos para calificar infracción como **leve** según norma sectorial, puede acordarse sin admitir la **oposición expresa del apartado 2** | **Art. 96.5** |
+| Solicitud del interesado para tramitar simplificado | Administración puede denegar dentro de **5 días** sin recurso directo contra esa decisión | **Art. 96.3** |
+
+> ⚠️ **¡Foco Examen!:** La **oposición del interesado** impide la simplificación general acordada de oficio (**96.2**), pero **no funciona igual** para el supuesto **sancionador leve del 96.5**. No deducir que toda denuncia inicia automáticamente un expediente sancionador.
+
+### Terminación y ejecución: conceptos distintos
+
+| Finalización o ejecución | Requisito y efecto | Artículo |
+|---|---|---|
+| Resolución | Decide cuestiones propuestas y derivadas, con garantías | **88** |
+| Desistimiento del solicitante | Abandona su solicitud; efectos para otros solicitantes según intervención | **94** |
+| Renuncia a derechos | Solo cuando el ordenamiento no la prohíba | **94** |
+| Terminación convencional | Pactos válidos, sin contrariar el ordenamiento ni tratar materia intransigible | **86** |
+| Ejecución material que limita derechos | Requiere previa **resolución** que la fundamente | **97** |
+| Multa coercitiva | Medio de ejecución forzosa autorizado por ley; distinta de sanción | **103** |
+
+> ⚠️ **¡Foco Examen!:** La **multa coercitiva** obliga al cumplimiento y no es idéntica a la **sanción**. El **desistimiento** de la solicitud tampoco es siempre **renuncia** al derecho material.
+
+**Registro:** banco de **20 preguntas/80 respuestas** e informe por distractor del **04/11/2026**, sin alterar claves en este lote. [Informe del bloque 01–05](../cierre-editorial-c2-01-05-2026-11-06.md). No constituye test funcional real de la aplicación.

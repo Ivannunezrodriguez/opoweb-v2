@@ -28,3 +28,10 @@
 [**Revisión de las 20 preguntas y 80 alternativas A–D**](cotejo-integral-2026-11-04.md), con fundamentos legales, descarte por distractor y trampa examinable. Las claves se conservan; **no** se ha certificado todo el manual, la navegación móvil o de escritorio ni la accesibilidad.
 
 > ⚠️ **¡Foco Examen!:** Ley **39/2015**, **audiencia 10–15 días** (**art. 82**), **prueba 10–30 días** (**art. 77**), **información pública mínimo 20 días** (**art. 83**) y **procedimiento simplificado 30 días** (**art. 96.6**).
+
+
+## Revalidación documental de procedimiento — **06/11/2026**
+
+- [**Ley 39/2015 consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565): contrastados **arts. 53–105**, especialmente **54, 62–63, 68, 73, 77, 80, 82–83, 86, 94, 96–97 y 103**.
+- Atención a la **excepción sancionadora del art. 96.5**: puede adoptarse simplificado ante infracción **leve** con los elementos de juicio suficientes, **sin oposición expresa por 96.2**. No introducir una regla genérica errónea.
+- **20 preguntas/80 alternativas** ya analizadas individualmente el **04/11/2026**, preservadas. [Cierre 01–05](../cierre-editorial-c2-01-05-2026-11-06.md), sin certificación funcional externa.

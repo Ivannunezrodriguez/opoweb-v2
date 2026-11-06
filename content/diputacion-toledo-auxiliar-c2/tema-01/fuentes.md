@@ -28,3 +28,11 @@
 [**Informe de las 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con fundamento normativo y descarte de cada opción incorrecta. **COTEJO_BANCO_COMPLETO** significa revisión individual de la prueba, **no** certificación del manual entero, prueba en navegador, accesibilidad ni aprobación del usuario. La base oficial es el **Anexo XI del BOP Toledo n.º 197, 14/10/2026**.
 
 > ⚠️ **¡Foco Examen!:** **167 CE**: referéndum a solicitud de **1/10** en **15 días**; **168 CE**: referéndum obligatorio. Reforma **69.3** vigente **20/05/2026**, eficacia electoral posterior.
+
+
+## Cierre de vigencia — **06/11/2026**
+
+- [**CE, BOE consolidado actualizado el 20/05/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) y [**texto de reforma 69.3 de 2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881): reforma vigente con disposición transitoria electoral.
+- [**LOTC, arts. 42–44**](https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709): **3 meses, 20 días, 30 días**, respectivamente, en recurso de amparo; se respeta cada supuesto.
+- [**LO 4/1981**](https://www.boe.es/buscar/act.php?id=BOE-A-1981-12774): alarma, excepción y sitio conforme a CE **116** y **55**.
+- **Cobertura:** estructura, reforma, derechos, garantías y suspensión; **20 preguntas/80 opciones** con control previo detallado de **04/11/2026**, [informe nuevo](../cierre-editorial-c2-01-05-2026-11-06.md). No se confunde cierre jurídico-editorial con certificación web.

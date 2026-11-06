@@ -1,6 +1,6 @@
 {
   "tema": 3,
-  "estado": "BANCO_20_PREGUNTAS_DOCUMENTADO",
+  "estado": "AUDITADO",
   "version": "2026-10-29",
   "criterio": "20 preguntas originales, fundamento individual en Ley 39/2015 y 4 alternativas. No equivale a prueba funcional del portal.",
   "preguntas": [
@@ -304,5 +304,12 @@
     ],
     "resultado": "Ocho preguntas contrastadas; cinco enunciados sustituidos por casos sustantivos (001, 002, 004, 006, 007), con plazos y excepciones precisados.",
     "limitacion": "No equivale a certificación del manual íntegro ni a prueba visual del sitio."
+  },
+  "cierreEditorialC2_01_05_20261106": {
+    "fecha": "2026-11-06",
+    "verificadas": 20,
+    "alternativas": 80,
+    "cambiosClave": 0,
+    "certificacionIntegral": false
   }
 }

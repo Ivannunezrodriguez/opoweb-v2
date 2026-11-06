@@ -1120,3 +1120,37 @@ La detención excepcional solo puede acordarse si es necesaria para la conservac
 [**Informe de las 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con fundamento normativo y descarte de cada opción incorrecta. **COTEJO_BANCO_COMPLETO** significa revisión individual de la prueba, **no** certificación del manual entero, prueba en navegador, accesibilidad ni aprobación del usuario. La base oficial es el **Anexo XI del BOP Toledo n.º 197, 14/10/2026**.
 
 > ⚠️ **¡Foco Examen!:** **167 CE**: referéndum a solicitud de **1/10** en **15 días**; **168 CE**: referéndum obligatorio. Reforma **69.3** vigente **20/05/2026**, eficacia electoral posterior.
+
+
+## Cierre editorial documental de 2026 · Tema 1 — **06/11/2026**
+
+**Fuente de vigencia:** [**Constitución Española consolidada en BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), última modificación publicada **20/05/2026**, y [reforma original del art. 69.3](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-10881). La reforma se refiere a la elección de representantes en el **Senado** por las circunscripciones de **Ibiza** y **Formentera**; su disposición transitoria atribuye eficacia electoral a la **primera convocatoria posterior a su entrada en vigor**. No confundir vigencia de la reforma y efecto en una elección ya convocada.
+
+### Tabla de mayorías para reforma constitucional
+
+| Precepto CE | Iniciativa o aprobación | Referéndum |
+|---|---|---|
+| **166** | Remite a iniciativa de **arts. 87.1 y 87.2**; no cabe iniciativa popular ordinaria para reforma | No es una modalidad de votación por sí misma |
+| **167.1** | Regla general: **3/5** de **Congreso y Senado** | Facultativo, a petición de **1/10** de miembros de cualquiera de las Cámaras en **15 días** (art. 167.3) |
+| **167.2** | Si no hay acuerdo y hubo **mayoría absoluta** del Senado, el **Congreso** puede aprobar por **2/3** | Régimen del **167.3** |
+| **168.1** | Revisión total, **Título Preliminar**, **sección primera, capítulo II, título I**, o **título II**: **2/3** de ambas Cámaras y disolución inmediata | Obligatorio una vez aprobada definitivamente por nuevas Cámaras |
+| **168.2** | Nuevas Cámaras ratifican decisión, estudian texto y lo aprueban por **2/3 de ambas** | **Sí**, obligatorio |
+| **169** | No puede **iniciarse** reforma durante **guerra** o estados del **art. 116** | No confundir inicio con otra fase ya iniciada |
+
+> ⚠️ **¡Foco Examen!:** El **167** admite referéndum solicitado por **1/10** en **15 días**; el **168** exige **referéndum obligatorio**. En el **167.2**, **mayoría absoluta** es del **Senado** y **2/3** es del **Congreso**.
+
+### Comparación de amparo, garantía y suspensión
+
+| Materia | Regla exacta | Norma |
+|---|---|---|
+| Amparo constitucional | **Art. 14**, **Sección 1.ª del Capítulo II del Título I** y objeción del **art. 30.2** | **CE art. 53.2** |
+| Amparo frente a acto parlamentario sin fuerza de ley | **3 meses** | **LOTC art. 42** |
+| Amparo frente a actuación administrativa, agotada vía judicial | **20 días** | **LOTC art. 43** |
+| Amparo por vulneración inmediata y directa imputable al órgano judicial | **30 días** | **LOTC art. 44** |
+| Estado de alarma | **Gobierno**, máximo inicial **15 días**; prórroga con autorización del **Congreso** | **CE art. 116.2** |
+| Estado de sitio | **Congreso**, **mayoría absoluta**, propuesta exclusiva del **Gobierno** | **CE art. 116.4** |
+| Suspensión general de derechos listados | Estados de **excepción o sitio**, no alarma en virtud del art. 55.1 | **CE art. 55.1** |
+
+> ⚠️ **¡Foco Examen!:** **3 meses / 20 días / 30 días** en amparo dependen del **origen de la vulneración**. **Alarma** no se equipara a **excepción** ni a **sitio** para suspensión del **55.1 CE**.
+
+**Revisión del banco de 20 preguntas/80 opciones:** cotejo específico previo de **04/11/2026** conservado; en este lote se verifican las claves y sus fuentes sin cambiar IDs ni opciones. [Informe consolidado 1–5](../cierre-editorial-c2-01-05-2026-11-06.md). No implica prueba en navegador real, WCAG ni certificación funcional total.

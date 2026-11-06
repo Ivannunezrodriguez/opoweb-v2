@@ -1116,3 +1116,47 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 4 aprobad
 [**Revisión pormenorizada de las 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con fundamento del **Título V de la Ley 39/2015**, descarte por opción y «¡Foco Examen!» individual. Se conservan las claves originales. Este cierre documental del **banco** no acredita revisión de cada frase del manual, navegador real, accesibilidad ni aprobación del usuario.
 
 > ⚠️ **¡Foco Examen!:** **Alzada 1 mes de interposición y 3 de resolución**; **reposición 1 y 1**; extraordinario **4 años** por error de hecho y **3 meses** por las otras causas; **lesividad local por el Pleno** y **6 meses** para caducidad del expediente.
+
+
+## Cierre jurídico-editorial de revisión y recursos — **06/11/2026**
+
+**Fuentes consolidadas:** [**Ley 39/2015, Título V arts. 106–126**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) (actualización publicada **06/11/2024**) y [**LRBRL, arts. 52–53**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) (actualización publicada **03/10/2026**). Se mantienen separadas la **revisión de oficio**, la **declaración de lesividad** y la **interposición de recursos administrativos**.
+
+### Tabla de recursos: órgano, interposición, resolución y silencio
+
+| Vía administrativa | Acto recurrido | Interponer ante / resolver por | Interposición contra acto expreso | Resolver |
+|---|---|---|---|---|
+| **Alzada**, arts. 121–122 | Acto que **no pone fin** a la vía administrativa | Se presenta ante quien dictó o ante **superior jerárquico**; resuelve **superior jerárquico** | **1 mes** | **3 meses** |
+| **Reposición potestativa**, arts. 123–124 | Acto que **pone fin** a vía administrativa | Ante el **mismo órgano** que lo dictó | **1 mes** | **1 mes** |
+| **Extraordinario de revisión**, arts. 125–126 | Acto **firme** en vía administrativa, causas tasadas | **Órgano que dictó el acto**, que también resuelve | **4 años** para error de hecho; **3 meses** para causas restantes, desde sus hitos legales | **3 meses** |
+
+En **alzada**, la regla ordinaria de desestimación por silencio tiene la excepción legal cuando se interpone alzada frente a **desestimación por silencio de una solicitud** (con las exclusiones del **art. 24.1**). En **reposición**, no cabe una segunda reposición contra la resolución de la primera.
+
+> ⚠️ **¡Foco Examen!:** **Alzada 1 mes para interponer / 3 para resolver** frente a **reposición 1/1**. El **extraordinario de revisión** solo procede por **causas tasadas**, no como segunda oportunidad general.
+
+### Revisión de oficio, lesividad y corrección de errores
+
+| Operación | Ámbito | Órgano, control y límite |
+|---|---|---|
+| Revisión de oficio (**106**) | **Actos nulos** y disposiciones nulas en supuestos del artículo | Dictamen **favorable del Consejo de Estado o consultivo autonómico equivalente**, con especialidades del precepto |
+| Inicio de oficio revisión nula | Procedimiento **art. 106** | Transcurridos **6 meses** sin resolver: **caducidad** |
+| Revisión de oficio a solicitud del interesado | Actos nulos **106.1** | **6 meses** sin resolver: solicitud **desestimada por silencio** |
+| Declaración de lesividad (**107**) | **Actos anulables favorables** | Dentro de **4 años** desde acto; expediente caduca a **6 meses**; en entidad local, **Pleno** u órgano superior colegiado si no existe |
+| Revocación (**109.1**) | Actos **desfavorables/de gravamen** | Dentro del plazo de prescripción, con límites legales |
+| Rectificación (**109.2**) | Errores **materiales, de hecho o aritméticos** | **En cualquier momento**, de oficio o a instancia de parte |
+
+> ⚠️ **¡Foco Examen!:** **Nulidad (106)** y **lesividad por anulabilidad (107)** no son procedimientos intercambiables. **Lesividad local** corresponde al **Pleno**, no automáticamente a la Presidencia.
+
+### Solicitud de suspensión durante el recurso, art. 117.3
+
+**Interponer un recurso no suspende por sí mismo la ejecución**. Si se solicita suspensión y transcurre **1 mes** desde la entrada de esa solicitud en el registro electrónico de la Administración u organismo competente **sin haberse dictado y notificado resolución expresa**, la ejecución del acto impugnado **se entiende suspendida**, conforme al art. **117.3**.
+
+| Situación | Consecuencia |
+|---|---|
+| Interponer un recurso sin más | **No** se suspende automáticamente el acto (art. **117.1**) |
+| Solicitar suspensión con causas del art. 117.2 | El órgano competente **puede acordarla**, previa ponderación motivada |
+| **1 mes** sin decisión expresa notificada sobre petición de suspensión | La ejecución **se entiende suspendida** (art. **117.3**) |
+
+> ⚠️ **¡Foco Examen!:** **Silencio sobre el recurso** y **silencio sobre la petición de suspensión** no son lo mismo. El plazo de **1 mes** del **117.3** protege la solicitud de **suspensión**, no concede automáticamente el recurso principal.
+
+**Cierre por bloque:** se conservan los **20 ítems y 80 alternativas** y el informe individual del **04/11/2026**. [Informe C2 1–5](../cierre-editorial-c2-01-05-2026-11-06.md). No implica ejecución comprobada de la web.

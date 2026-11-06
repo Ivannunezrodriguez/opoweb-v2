@@ -921,3 +921,49 @@ La aprobación histórica de **La Puebla** (**17/07/2026**) **no es una aprobaci
 [**Informe de las 20 preguntas y 80 alternativas literales**](cotejo-integral-2026-11-04.md), con fundamento normativo y descarte de cada opción incorrecta. **COTEJO_BANCO_COMPLETO** significa revisión individual de la prueba, **no** certificación del manual entero, prueba en navegador, accesibilidad ni aprobación del usuario. La base oficial es el **Anexo XI del BOP Toledo n.º 197, 14/10/2026**.
 
 > ⚠️ **¡Foco Examen!:** **3 meses** supletorios para resolver, **6 meses** límite de norma reguladora; suspensión por informe preceptivo **máximo 3 meses**; urgencia exceptúa **solicitudes y recursos**.
+
+
+## Cierre jurídico-editorial de los incisos de Ley 39/2015 — **06/11/2026**
+
+**Norma:** [**Ley 39/2015 consolidada, BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), última actualización publicada **06/11/2024**, cotejada el **06/11/2026**. Este tema incluye **disposiciones generales (1–2)**, **interesados (3–8)**, **identificación y firma (9–12)**, **actividad administrativa (13–28)** y **términos y plazos (29–33)**. No se sustituyen estas materias por los recursos administrativos que corresponden al **tema 4**.
+
+### Casos de cómputo del art. 30, sin confundir meses y días
+
+| Supuesto | Resultado legal | Matiz |
+|---|---|---|
+| Plazo de **10 días** sin mención expresa a naturales | **10 días hábiles** | Excluir **sábados, domingos y festivos** (art. 30.2) |
+| Plazo indicado expresamente en **días naturales** | Computar naturales | La norma o Derecho UE debe preverlo y expresarlo en notificación, art. 30.2 |
+| Plazo de **un mes** que inicia por notificación el **31/01/2026**, sin día equivalente en febrero | Vence el **28/02/2026**, con posible prórroga al siguiente hábil si es inhábil | Art. 30.4–5: vencimiento en mes sin día equivalente, no añadir **30 días** mecánicamente |
+| Último día de plazo **inhábil** | Prórroga al **primer día hábil siguiente** | Art. 30.5 |
+| Plazo expresado por **horas**, salvo ley especial | Horas **hábiles**; no superar **24 horas** | Si excede de 24, debe expresarse en **días** |
+| Documento en registro electrónico un día **inhábil** | Para cumplimiento de plazo por interesado, presentado a la **primera hora del día hábil siguiente**, con excepciones legales | Art. 31.2; se respeta el orden de presentación efectivo |
+
+> ⚠️ **¡Foco Examen!:** Un **mes** no equivale automáticamente a **30 días hábiles**; los **sábados** son inhábiles para plazos por días. El registro electrónico abierto **24 horas** no convierte los días inhábiles en hábiles.
+
+### Sujetos, apoderamientos y firma
+
+| Operación / concepto | Regla | Norma |
+|---|---|---|
+| Interesado titular de derecho afectado | Condición de interesado aunque no iniciara el expediente | **Art. 4** |
+| Subsanación de representación insuficiente | **10 días**, ampliable cuando proceda | **Art. 5.6** |
+| Poder inscrito electrónicamente | Vigencia máxima **5 años** desde inscripción, prorrogable en los términos legales | **Art. 6.6** |
+| Persona **jurídica** | Obligada a relación electrónica para trámites del procedimiento | **Art. 14.2.a** |
+| Persona **física** no obligada | Puede elegir canal, con excepciones por norma habilitada | **Art. 14.1** |
+| Presentación de solicitud / interposición de recurso | Requiere **firma** | **Art. 11.2** |
+
+> ⚠️ **¡Foco Examen!:** **Identificarse** no siempre exige **firmar**; el **art. 11.2** enumera actos que sí requieren firma. No generalizar la obligación digital de las **personas jurídicas** a todas las **personas físicas**.
+
+### Duración, silencio y medidas de agilización
+
+| Regla | Cuantía/plazo | Advertencia |
+|---|---|---|
+| Plazo **supletorio** para resolver si la norma calla | **3 meses** | **Art. 21.3** |
+| Máximo fijable por norma reguladora, con excepciones | **6 meses** | **Art. 21.2**, salvo ley o Derecho UE |
+| Suspensión por informe preceptivo (art. 22.1.d) | Máximo **3 meses** | No paralización ilimitada |
+| Ampliación ordinaria del art. 32.1 | Hasta **mitad** del plazo | Antes del vencimiento y sin perjuicio a terceros |
+| Tramitación **urgente** (art. 33) | Reducir plazos **a la mitad** | **No** se reducen presentación de **solicitudes y recursos** |
+| Silencio a petición del interesado | Generalmente **estimatorio** | Excepciones materiales y legales del **art. 24** |
+
+> ⚠️ **¡Foco Examen!:** **3 meses** supletorios no son **6 meses** como regla general. En **urgencia** no dividir por dos el plazo para **solicitar o recurrir**. Un silencio positivo no puede presumirse en supuestos expresamente exceptuados.
+
+**Trazabilidad:** [Ley 39/2015 arts. 1–33](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565); [informe de cierre documental de los temas 1–5](../cierre-editorial-c2-01-05-2026-11-06.md). Banco de **20 ítems/80 alternativas** conservado, ya cotejado individualmente **04/11/2026**; certificación funcional transversal no realizada.
