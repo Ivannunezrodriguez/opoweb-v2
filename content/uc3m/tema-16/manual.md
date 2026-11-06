@@ -206,6 +206,35 @@ El **art. 11** distingue las **prácticas curriculares** —parte del plan de es
 
 > ⚠️ **¡Foco Examen!:** **25 % prácticas de Grado**, **un tercio de Máster**, **TFG 6–24** para Grado 240, **TFM 6–30**. Son supuestos diferentes.
 
+
+### 15 ter. ECTS, modalidades de Grado y TFG: cifras completas del RD 822/2021
+
+El **artículo 14 del RD 822/2021** contiene varios porcentajes sobre **conceptos distintos**: **formación básica**, **prácticas curriculares**, **TFG** y **modalidad docente**. No son intercambiables.
+
+| Modalidad de Grado | Porcentaje de créditos exigido | Precepto |
+|---|---|---|
+| **Presencial** | Actividad lectiva desarrollada presencialmente conforme a la definición legal, sin convertir el dato en un porcentaje inventado. | **14.7** |
+| **Híbrida (semipresencial)** | Créditos **no presenciales entre el 40 % y el 60 %** del total. | **14.7** |
+| **Virtual (no presencial)** | **Al menos el 80 %** de créditos se imparten virtualmente. | **14.7** |
+
+| Plan oficial de **Grado** | Formación básica mínima | **TFG obligatorio** | Defensa |
+|---|---:|---:|---|
+| **240 ECTS** (regla general) | **60 ECTS**; **al menos la mitad del mismo campo de estudio** | **6 a 24 ECTS** | **Acto público** |
+| **300 ECTS** (títulos legalmente habilitados) | **75 ECTS** | **6 a 30 ECTS** | **Acto público** |
+| **360 ECTS** (títulos legalmente habilitados) | **90 ECTS** | **6 a 36 ECTS** | **Acto público** |
+
+**Otras reglas de examen:**
+- El **Grado ordinario** es de **240 ECTS**; los planes de **300 y 360 ECTS** requieren fundamento en normativa especial o Derecho de la UE (**14.1**).
+- Las **prácticas curriculares ordinarias** pueden ocupar como máximo el **25 %** de los créditos de Grado, **salvo las excepciones** del **14.5**, entre ellas los Grados con **Mención Dual**. La extensión formativa de la Mención Dual en Grado es del **20–40 %** del total.
+- La **mención académica ordinaria** (**art. 13.3**) tiene **un mínimo del 20 %** de la carga del título y requiere previsión en su memoria; **no** es automáticamente igual a la **Mención Dual** del artículo **22**.
+- El **Máster** puede tener **60, 90 o 120 ECTS**, las **prácticas externas** no exceden **un tercio** de su carga y el **TFM** obligatorio tiene **6–30 ECTS** (**art. 17**).
+
+**Control de vigencia:** el [**TS anuló el RD 905/2025 por sentencia de 06/10/2026 publicada 23/10/2026**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22083). Dicho decreto había modificado términos y reglas del RD 822/2021: **no fue anulado el RD 822/2021 en su conjunto**. La redacción aplicable al examen de UC3M debe cotejarse a la **fecha de corte de la base primera.7**, pendiente de resolución primaria; no sustituirla automáticamente por el día del examen.
+
+**Fuentes:** [**RD 822/2021, arts. 13–14 y 17 (BOE)**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781) y [**Sentencia TS publicada en BOE 23/10/2026**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22083).
+
+> ⚠️ **¡Foco Examen!:** **Híbrido = 40–60 % no presencial**; **virtual ≥ 80 %**; **TFG de 300 = máximo 30 ECTS** y **de 360 = máximo 36**, no **24** para todos. **25 % prácticas de Grado** no sustituye **un tercio de Máster**.
+
 ## 16. Extinción de planes
 
 La Universidad debe aprobar un calendario de extinción que regule convocatorias, docencia residual, adaptación y reconocimiento de créditos, preservando los derechos académicos del estudiante.
