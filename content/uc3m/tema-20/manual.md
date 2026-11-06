@@ -639,3 +639,21 @@ Las dos referencias a **30 días** no deben simplificarse en un «plazo universa
 
 > ⚠️ **¡Foco Examen!:** **30 días para conformidad + 30 días para pago**, con presupuestos legales. **> 4 meses de demora** habilita suspensión previo aviso de **1 mes**; **> 6 meses** habilita resolución e indemnización.
 
+
+
+## 32. Excepción documental de 5.000 € en contratos menores — art. 118.5
+
+La cifra **5.000 €** aparece en dos reglas distintas y la coincidencia numérica **no las convierte en una sola norma**.
+
+| Instrumento | Condición y efecto | Fuente |
+|---|---|---|
+| **Contrato menor de suministro/servicio** | **Valor estimado < 15.000 €**, sin IVA. Informe de necesidad y no fraccionamiento, aprobación de gasto, factura y publicidad según ley. | **LCSP 118.1–3 y 63.4** |
+| **Excepción documental del contrato menor pagado por caja fija** | Si el **pago** se realiza por **anticipo de caja fija u otro sistema similar para pagos menores**, y el **valor estimado no excede de 5.000 €**, queda exceptuada **solo la exigencia del informe del art. 118.2**, no todos los demás requisitos legales. | **LCSP 118.5** |
+| **Sistema asimilado a caja fija en UC3M 2026** | Gastos que **no excedan de 5.000 € sin IVA** de acuerdo con las Normas Básicas de Gestión. | **UC3M 2026, art. 16.2** |
+| **Anticipo a justificar UC3M 2026** | Hasta **12.000 €** para las compras y servicios extraordinarios que cumplan requisitos y plazos internos. | **UC3M 2026, art. 16.3** |
+
+El **art. 118.5** no dice que «todo contrato menor de menos de **5.000 €** carezca de informe»; además del importe exige **la modalidad específica de pago por caja fija o sistema equivalente**.
+
+**Fuente oficial:** [**LCSP art. 118, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a1-30).
+
+> ⚠️ **¡Foco Examen!:** **5.000 €** de **UC3M caja fija** y **5.000 €** del **art. 118.5 LCSP** son reglas **diferentes**. **12.000 €** de anticipo interno **no** convierte en menor un contrato de servicio de **15.000 €** o más.
