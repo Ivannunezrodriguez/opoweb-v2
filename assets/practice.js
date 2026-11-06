@@ -224,7 +224,8 @@ async function loadExtraRepasos() {
     { url: 'data/uc3m-repasos-complementarios-20261106.json', title: 'Repasos documentales de temas' },
     { url: 'data/uc3m-repaso-temas-13-20-20261106.json', title: 'Repaso final de los temas 13–20' },
     { url: 'data/uc3m-presupuesto-supuestos-20261106.json', title: 'Supuestos de presupuesto UC3M 2026' },
-    { url: 'data/uc3m-repaso-juridico-t02-t07-20261106.json', title: 'Contrastes jurídicos · Temas 2 a 7' }
+    { url: 'data/uc3m-repaso-juridico-t02-t07-20261106.json', title: 'Contrastes jurídicos · Temas 2 a 7' },
+    { url: 'data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json', title: 'Presupuesto y contratación · Temas 18 a 20' }
   ];
   const results = await Promise.all(sources.map(async source => {
     try {
