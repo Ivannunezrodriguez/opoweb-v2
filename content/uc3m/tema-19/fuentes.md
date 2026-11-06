@@ -79,3 +79,12 @@ El [**PDF institucional original del Presupuesto UC3M 2026, Volumen I**](https:/
 **Reserva editorial:** se ha contrastado de forma explícita el alcance de **los artículos señalados**, no todos los preceptos de cada norma ni su aplicación temporal exacta al examen de UC3M, cuya **base primera.7** exige fecha de resolución definitiva aún pendiente de comprobación primaria. No se declara certificación jurídica ni funcional integral.
 
 > ⚠️ **¡Foco Examen!:** El umbral monetario y el plazo solo son correctos si se identifica **procedimiento, órgano y unidad temporal**; el estudio de **2026** no debe suplantarse por reglas genéricas de otras Administraciones.
+
+
+## Cierre documental T19: fuentes y reservas — **06/11/2026**
+
+[**Acta del tema 19**](../CIERRE_DOCUMENTAL_T19_20261106.md): **6 bloques**, **12 preguntas originales/48 alternativas** y **3 complementarias/12 alternativas**, **15/60 en total**. [**UC3M Presupuesto 2026, Vol. I, art. 15.2.1 y 16.2–3**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view) y [**LCSP art. 198.4–6**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a198) permiten diferenciar fases, documentos, conformidad, pago, suspensión y resolución. Se precisaron **15 referencias** de los bancos sin alterar claves o simulacros.
+
+**Control pendiente:** norma exacta vigente a la fecha de corte de **base primera.7 UC3M** (aún sin resolución primaria), cotejo frase por frase, navegador E2E, pruebas móvil/WCAG/PWA, ejecución CI del commit y aprobación. La anterior revisión focal de documentos O y ADO permanece válida para su alcance; **no es certificación jurídica general**.
+
+> ⚠️ **¡Foco Examen!:** **Documento O** en la nomenclatura UC3M 2026 es **propuesta de pago**, no pago bancario; **caja fija 5.000 €** y **anticipo 12.000 €** pertenecen a reglas distintas.
