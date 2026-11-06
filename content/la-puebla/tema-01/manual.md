@@ -101,6 +101,25 @@ No debe confundirse el número de reformas con el número de artículos modifica
 
 ---
 
+### 4.5. Disposición transitoria de la reforma constitucional de **2026**: ¿cuándo se aplica la nueva circunscripción?
+
+La **Reforma del artículo 69.3 de la Constitución**, aprobada el **19 de mayo de 2026** y publicada en el **BOE el 20 de mayo de 2026**, separó **Ibiza** y **Formentera** como circunscripciones electorales insulares para el Senado. La regla del **artículo 69.3** reformado atribuye **un senador a Ibiza** y **uno a Formentera**, en vez de la agrupación anterior.
+
+**Advertencia decisiva:** la **disposición transitoria única** de la propia reforma **pospone la eficacia de la creación de ambas circunscripciones** hasta la **convocatoria de las primeras elecciones al Senado posteriores a su entrada en vigor**. Se distingue la **vigencia jurídica del texto reformado** de la **aplicación electoral del nuevo reparto**.
+
+| Hecho jurídico | Regla que debe estudiarse |
+|---|---|
+| Reforma constitucional aprobada | **19/05/2026** |
+| Texto publicado y vigente | **20/05/2026**, [**BOE-A-2026-10881**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881) |
+| Artículo afectado | **69.3 CE**, circunscripciones insulares para elección al **Senado** |
+| Reparto futuro de Ibiza y Formentera | **Un senador por cada isla**, en su propia circunscripción |
+| Inicio de eficacia de la división electoral | **Primera convocatoria electoral al Senado** posterior a la entrada en vigor de la reforma |
+| Número de reformas constitucionales hasta noviembre de **2026** | **Cuatro**: **1992, 2011, 2024 y 2026** |
+
+**Fuente primaria:** [**Constitución consolidada, artículo 69.3 y su anotación transitoria**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a69); [**reforma oficial publicada en BOE**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881).
+
+> ⚠️ **¡Foco Examen!:** **Vigencia de la reforma 20/05/2026 ≠ eficacia inmediata de la división electoral**. Si el corrector dice que Ibiza y Formentera se separaron electoralmente **sin condición transitoria**, falta el matiz de la **primera convocatoria al Senado posterior a la reforma**.
+
 ## PARTE II · REFORMA CONSTITUCIONAL, ARTÍCULOS 166 A 169
 
 ## 5. Artículo 166 · iniciativa de reforma
