@@ -19,7 +19,7 @@ assert.ok(manual.includes('### 13.4. Microcasos de examen'));
 assert.ok(manual.includes('25/02/2010')&&manual.includes('25/02/2020'));
 assert.ok(manual.includes('18/12/2025')&&manual.includes('22/01/2026'));
 assert.ok(manual.includes('**B2 de español**')&&manual.includes('**B2 de inglés o equivalente**'));
-assert.ok(manual.includes('**Art. 4.4**')&&manual.includes('**50 %**'));
+assert.ok(manual.includes('art. 4.4')&&manual.includes('**50 %**'));
 assert.ok(fuentes.includes('25/02/2010')&&fuentes.includes('25/02/2020'));
 assert.ok(fuentes.includes('e-archivo.uc3m.es')&&fuentes.includes('11194/firmado/'));
 assert.ok(fuentes.includes('CIERRE_DOCUMENTAL_T17_20261106.md'));
