@@ -163,5 +163,27 @@
     "aprobacionUsuario": false,
     "certificacionNavegador": false,
     "certificacionWCAG": false
+  },
+  "cierreDocumental20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "tipo": "EDITORIAL_ESTUDIO_NO_CERTIFICACION_INTEGRAL",
+    "seccionesBase": 14,
+    "preguntasHistoricas": 12,
+    "alternativasHistoricas": 48,
+    "preguntasComplementarias": 12,
+    "alternativasComplementarias": 48,
+    "bloquesHistoricosSinPreguntaReforzados": 2,
+    "fuentesCotejadas": [
+      "Microsoft Support Word/Excel 2019",
+      "Google Help Gmail Drive Docs Sheets Calendar"
+    ],
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T09_T12_20261106.md",
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_BASE_1_7",
+    "bancoHistoricoInalterado": true,
+    "simulacrosInalterados": true,
+    "aprobacionUsuario": false,
+    "ciPendiente": true,
+    "e2ePendiente": true
   }
 }
