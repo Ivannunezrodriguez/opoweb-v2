@@ -166,3 +166,41 @@ La [**Ley 53/1984, art. 17.2**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-
 [**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
 
 > ⚠️ **¡Foco Examen!:** **Grado personal**: **2 años continuados/3 con interrupción**; para actividad **privada**, compatibilidad previa y resolución en **2 meses**.
+
+
+## 14. Refuerzo agrupado: ámbito, convocatorias y órganos de selección — **06/11/2026**
+
+### 14.1. Ámbito del RD 364/1995 y coexistencia con otras normas
+
+El **Real Decreto 364/1995** regula especialmente el ingreso, la provisión y la promoción de **funcionarios civiles de la Administración General del Estado**. Su título no permite afirmar que todas sus reglas procedimentales sean de aplicación directa e idéntica a una universidad pública: las normas básicas del **TREBEP**, los **Estatutos UC3M** y las **bases de cada convocatoria** deben analizarse por separado.
+
+| Norma | Materia y aplicación característica | Error de examen |
+|---|---|---|
+| **RD 364/1995** | Reglamento de ingreso, provisión y promoción de **AGE** y funcionarios civiles incluidos en su ámbito. | Extender sin matices todos sus plazos a cualquier universidad o Ayuntamiento. |
+| **TREBEP, arts. 55–61** | Principios básicos de acceso y órganos selectivos para empleados públicos. | Confundir **base general** con una regla reglamentaria AGE. |
+| **Ley 53/1984** | **Incompatibilidades** del sector público en el ámbito legal definido, incluidas las universidades en los términos establecidos. | Tratar una compatibilidad privada como si fuese automáticamente libre. |
+| **Bases específicas de UC3M** | Procedimiento, llamamiento, calificación y fases de la convocatoria examinada. | Aplicar por defecto un plazo del **RD 364/1995** que las bases UC3M no establezcan. |
+
+El **artículo 1 del RD 364/1995** y el **artículo 2 TREBEP** deben leerse conjuntamente. La distinta normativa universitaria se analiza en función de su propio ámbito.
+
+**Fuentes:** [**RD 364/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729), [**TREBEP**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) y [**Ley 53/1984**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151).
+
+> ⚠️ **¡Foco Examen!:** La pregunta «según el **RD 364/1995**» se responde dentro de su régimen AGE; una pregunta «según las **bases UC3M**» exige acudir a esa convocatoria, no copiar automáticamente los plazos del Reglamento.
+
+### 14.2. Tribunales, comisiones permanentes y convocatorias: arts. 10–16 RD 364/1995
+
+| Figura / fase | Regla exacta del **RD 364/1995** | Referencia |
+|---|---|---|
+| **Tribunal** de selección ordinario | Se designa en cada convocatoria, salvo excepción justificada; **número impar de al menos 5 miembros**, con **igual número de suplentes**; funcionarios de carrera con titulación **igual o superior** a la exigida, respetando especialidad. | **Art. 11** |
+| **Comisión Permanente de Selección** | Para cuerpos/escalas en que el elevado número de personas aspirantes o la especialización lo aconseje; creada por la **orden ministerial** correspondiente. | **Art. 12.1–2** |
+| Miembros de la comisión permanente | **Número impar**, funcionarios de carrera con titulación **igual o superior** y especialidad adecuada; el **art. 12.3** no establece aquí el mínimo literal de **5** previsto para tribunales. | **Art. 12.3** |
+| Bases de la **convocatoria** | **Vinculan a Administración, órganos selectivos y participantes**; se publican con la convocatoria en **BOE** en el régimen AGE. | **Art. 15.1 y 15.4** |
+| Contenido mínimo de las bases | Plazas, requisitos, sistema selectivo, pruebas/méritos, tribunal o comisión, puntuación, programa, duración de ejercicios y restantes extremos del **art. 16**. | **Art. 16** |
+| Intervalo entre ejercicios sucesivos | Desde la **conclusión total de un ejercicio** al comienzo del siguiente: **mínimo 72 horas y máximo 45 días naturales** en el régimen del Reglamento. | **Art. 16.j** |
+| Solicitudes de ingreso ordinarias | **20 días naturales**, desde el siguiente a la publicación de la convocatoria, en el supuesto regulado por el **artículo 18.1**. | **Art. 18.1** |
+
+La **Comisión Permanente** no es una denominación alternativa del **Tribunal** creado para una convocatoria concreta. Tampoco debe confundirse el plazo **20 días naturales** del **art. 18.1** del Reglamento AGE con un plazo de solicitudes distinto que determine una convocatoria regida por otras normas.
+
+**Fuentes:** [**RD 364/1995, arts. 10–16 y 18**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729).
+
+> ⚠️ **¡Foco Examen!:** **Tribunal = impar y al menos 5, más suplentes**. **Comisión Permanente = impar**, pero no trasladar sin fundamento su mínimo. Entre ejercicios: **72 horas–45 días naturales**; solicitudes de ingreso AGE: **20 días naturales**, cifras de reglas distintas.
