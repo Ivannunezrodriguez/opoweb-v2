@@ -499,3 +499,18 @@ Se han cotejado los **7 incisos de cobertura de la matriz**, el contenido juríd
 [**Tabla y casos de PRL dentro del repaso T6–T8**](../REPASO_FOCAL_T06_T08_20261106.md). **LPRL 21.3**: **autoridad laboral** ratifica o anula paralización representativa en **24 horas**; **36.3**: informe de **Delegados de Prevención** en **15 días** o tiempo imprescindible por riesgo inminente. **Comité de Seguridad y Salud** desde **50 personas trabajadoras**, **reunión trimestral** (**38.2–3**), frente al **servicio de prevención propio** exigible por tamaño cuando hay **más de 500 trabajadores** (**RD 39/1997, 14.a**). Los casos adicionales **no** alteran las 12 claves históricas.
 
 > ⚠️ **¡Foco Examen!:** **24 horas = autoridad laboral**; **15 días = informe de Delegados**; **50 o más = Comité**; **más de 500 = servicio propio por tamaño**.
+
+
+### 61.1. Reforma de prevención laboral anunciada en **2026**: atención a su rango jurídico
+
+La [**referencia del Consejo de Ministros de 28/04/2026**](https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20260428-referencia-rueda-de-prensa-ministros.aspx) anunció la aprobación de un **anteproyecto de ley**, no la entrada en vigor de una reforma legislativa. El [**Consejo Económico y Social**](https://www.ces.es/eu/prensa-digital/-/asset_publisher/RCZfQCQnWORu/content/dictamen_10_2026/maximized) emitió posteriormente **Dictamen 11/2026** sobre ese anteproyecto, de fecha **27/07/2026**. La referencia a una futura reducción de la plantilla que exige **servicio de prevención propio** **no cambia por sí misma** el umbral vigente.
+
+| Documento | Naturaleza | Efecto para estudiar |
+|---|---|---|
+| **Ley 31/1995 y RD 39/1997 consolidados** | **Normativa vigente** según BOE y sus redacciones aplicables | Base para los artículos **21, 35–38 LPRL y 14 RSP** |
+| **Anteproyecto aprobado 28/04/2026** | Propuesta de reforma, pendiente de tramitación | **No sustituye automáticamente** los requisitos del Reglamento |
+| **Dictamen CES 11/2026** | Informe sobre el anteproyecto | **No equivale a publicación de ley nueva en BOE** |
+
+**Control con el BOE a 06/11/2026:** el [**texto consolidado de Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) identifica como última actualización publicada la de **09/04/2026**. Por tanto, los números que aquí se estudian son los de la legislación consolidada comprobada, sin incluir hipotéticos umbrales de la propuesta. **Si se publicara después una nueva ley antes del examen**, habría que volver a verificar su entrada en vigor y efectos.
+
+> ⚠️ **¡Foco Examen!:** **Anteproyecto ≠ ley vigente**. Una noticia que anuncia reducir el umbral del servicio de prevención propio **no permite reemplazar «más de 500 trabajadores»** del **art. 14.a RD 39/1997** mientras ese reglamento no sea modificado con eficacia jurídica.
