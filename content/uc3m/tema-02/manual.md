@@ -267,3 +267,10 @@ La regla de estimación en **alzada frente al doble silencio** no alcanza a los 
 **Fuente oficial:** [**Ley 39/2015, arts. 30, 31 y 43**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
 
 > ⚠️ **¡Foco Examen!:** **10 días NATURALES** para rechazo de notificación electrónica ≠ **10 días HÁBILES** para subsanar una solicitud; **24 horas** de disponibilidad de registro ≠ que un día inhábil pase a ser hábil para plazos.
+
+
+## Repaso práctico integrado — tema 2 (06/11/2026)
+
+[**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
+
+> ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
