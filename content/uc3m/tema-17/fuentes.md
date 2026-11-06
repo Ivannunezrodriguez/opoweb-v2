@@ -71,3 +71,12 @@ Se ha corregido la indeterminación del borrador respecto al cambio de universid
 **Precaución:** **50 %** no corresponde al total de plazas de acceso ordinario; **60 ECTS** es requisito del supuesto de estudiantes procedentes de **universidades españolas externas**. El contenido del PDF institucional se ha consultado como texto primario, pero **su captura visual no estuvo disponible**. No se afirma certificación funcional o visual ni resolución del corte legislativo de la base primera.7.
 
 > ⚠️ **¡Foco Examen!:** **30 reconocibles ≠ 60 pendientes**; **Rector decide admisión** y **Centro informa sobre el reconocimiento**. La excepción de los **30 matriculados** se aplica a estudiantes **de la propia UC3M** al presentar la solicitud.
+
+
+## Revisión de preceptos cuantitativos T17 — 06/11/2026
+
+**Fuentes primarias:** [**1. RD 534/2024 arts. 38–43 (texto actualizado 02/07/2026)**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858). [**Manual T17, sección 11.1**](manual.md): Reserva de **≥ 2 %** mayores de 25; **1–3 % conjunto** para mayores de 40/45; **≥ 5 %** discapacidad; **≥ 3 %** deportistas con **≥ 5 % adicional** solo determinadas enseñanzas; **1–3 %** titulados. Admisión académica de Grado distinta de reserva en empleo público.
+
+**Estado:** contraste jurídico-editorial de artículos concretos; no modifica el banco histórico, no agrega preguntas no examinadas y **no certifica íntegramente el tema**. La fecha normativa de la **base primera.7 UC3M** permanece pendiente de la resolución definitiva primaria.
+
+> ⚠️ **¡Foco Examen!:** Las cifras dependen del **régimen jurídico y supuesto**; no sumar porcentajes diferentes ni mezclar cómputos de ECTS con reservas de plazas.
