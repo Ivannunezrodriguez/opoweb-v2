@@ -184,3 +184,49 @@ El plazo es de cuatro años para el error de hecho y de tres meses para las dem�
 [Cotejo jurídico-editorial de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): contiene fuente, artículo, fundamento de cada distractor y advertencia de test. **Estado de los ítems:** revisados; aprobación del usuario y certificación funcional en navegador **pendientes**. **Fecha de corte normativo:** base primera.7 de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), pendiente de identificar con precisión por la resolución de admitidos definitivos.
 
 > ⚠️ **¡Foco Examen!:** En estas bases la legislación exigible se fija por la **publicación de listas definitivas y anuncio del ejercicio**, **no** por la fecha de celebración de la prueba.
+
+
+## 11. Contraste jurídico de subsanación, lesividad y revisión extraordinaria — 06/11/2026
+
+### 11.1. Subsanación y presentación obligatoriamente electrónica: art. 68
+
+| Situación | Plazo o efecto |
+|---|---|
+| Solicitud incompleta, falta requisito o documento preceptivo | **10 días** de subsanación; si no se atiende, se tiene por desistido **previa resolución** en los términos del **art. 21**. |
+| Dificultad especial para aportar documentación | Ampliación prudencial de **hasta 5 días**, a instancia del interesado o del órgano. |
+| Procedimiento **selectivo** o de **concurrencia competitiva** | **No procede** la ampliación de hasta **5 días** del artículo **68.2**. |
+| Persona **obligada** a presentar electrónicamente que presenta solicitud en papel | La Administración requiere presentación electrónica; se considera como **fecha de presentación la de la subsanación electrónica**, no la entrega inicial en papel. |
+
+La ampliación del artículo **68.2** no debe utilizarse para presumir que una oposición permite **15 días** en lugar de **10**. Las bases y la normativa específica pueden requerir examen adicional sobre la subsanación documental de cada convocatoria.
+
+**Fuente:** [**Ley 39/2015, artículo 68**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68).
+
+> ⚠️ **¡Foco Examen!:** **10 días** para subsanar; **hasta 5 adicionales** solo fuera de procedimientos selectivos/concurrencia competitiva y con dificultades especiales. Para el obligado electrónico, la **fecha válida de presentación es la de subsanación**.
+
+### 11.2. Revisión de nulidad frente a declaración de lesividad: arts. 106–107
+
+| Figura | Actos afectados | Órgano y procedimiento | Plazos |
+|---|---|---|---|
+| **Revisión de oficio de nulidad** | Actos nulos por **art. 47.1** en supuestos del **106**, con dictamen favorable del **Consejo de Estado u órgano consultivo autonómico equivalente**, cuando sea preceptivo. | **Administración autora del acto**, según el artículo y distribución de competencias. | Si se inicia **de oficio** y no se resuelve en **6 meses**, **caducidad**; si la inicia interesado, **silencio desestimatorio**. |
+| **Lesividad** | Actos **favorables** pero **anulables** por **art. 48**. | **Declaración de lesividad** de la Administración y posterior impugnación **contencioso-administrativa**. | Declaración imposible una vez transcurridos **4 años** desde el acto; **caducidad del procedimiento a los 6 meses** sin declaración. |
+
+La **declaración de lesividad** no supone por sí misma una anulación directa con efectos plenos: es el presupuesto para impugnar judicialmente el acto favorable anulable. La declaración **no es susceptible de recurso administrativo** específico, sin perjuicio del control judicial en los términos del artículo.
+
+**Fuente:** [**Ley 39/2015, arts. 106 y 107**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
+
+> ⚠️ **¡Foco Examen!:** **Nulidad = art. 106**; **acto favorable anulable = lesividad art. 107**. **4 años** límite para declarar lesividad ≠ **6 meses** de caducidad del procedimiento.
+
+### 11.3. Recurso extraordinario de revisión: arts. 125–126
+
+| Causa del recurso del **art. 125.1** | Plazo de interposición |
+|---|---|
+| **a)** Error de hecho que resulte de los documentos incorporados al expediente | **4 años** desde la notificación de la resolución impugnada. |
+| **b)** Aparición de documentos esenciales, incluso posteriores, que evidencian error | **3 meses** desde conocimiento de los documentos. |
+| **c)** Documentos o testimonios declarados falsos mediante **sentencia firme** | **3 meses** desde firmeza de la sentencia. |
+| **d)** Acto dictado por prevaricación, cohecho, violencia, maquinación fraudulenta u otra conducta punible, declarada mediante **sentencia firme** | **3 meses** desde firmeza de la sentencia. |
+
+El recurso se interpone **ante el órgano que dictó el acto firme**, que también lo resuelve; el **artículo 126.3** fija **3 meses** para resolución y notificación, con **silencio desestimatorio**. No debe confundirse el plazo de interposición con el de resolución.
+
+**Fuente:** [**Ley 39/2015, arts. 125–126**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
+
+> ⚠️ **¡Foco Examen!:** **4 AÑOS** únicamente para error de hecho del **125.1.a**; **3 MESES** para las otras causas de interposición; otros **3 MESES** son para resolver el recurso.
