@@ -325,3 +325,7 @@ No pueden presentarse propuestas de reforma durante los tres meses anteriores a 
 ## Ampliación oficial del bloque servicios, patrimonio y economía — **06/11/2026**
 
 **Fuente cotejada:** [**Decreto 1/2003 — Estatutos UC3M**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782), **arts. 157–165, 167–171, 174–175 y 177**. Para la vigencia del conjunto deben considerarse también las modificaciones del [**Decreto 95/2009**](https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf) y, en su caso, las normas universitarias posteriores; esta ampliación contrasta **el articulado de las materias indicadas** y **no** supone una nueva certificación integral ni altera el cotejo previo de **21 preguntas/84 alternativas**. Sigue pendiente la fecha normativa de corte del proceso UC3M acreditada por el anuncio primario de listas definitivas.
+
+### Entrenamiento complementario — ocho casos nuevos
+
+[**Repaso de 8 preguntas y 32 alternativas sobre los artículos 157–177 de los Estatutos**](../REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md). Se conservan intactas las **21 preguntas** del banco principal; el repaso nuevo **no** se mezcla con los simulacros oficiales de entrenamiento.
