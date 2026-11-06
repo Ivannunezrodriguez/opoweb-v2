@@ -115,5 +115,36 @@
     "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "fechaCorteNormativo": "PENDIENTE_DOCUMENTO_OFICIAL_LISTAS_DEFINITIVAS_UC3M",
     "observacion": "Texto estatutario 2003 más Decreto 95/2009 art127.2; banco de 21 preguntas"
+  },
+  "controlAmpliacionServicios20261106": {
+    "fecha": "2026-11-06",
+    "tipo": "AMPLIACION_JURIDICO_EDITORIAL_MANUAL_SIN_CIERRE_GLOBAL",
+    "fuentes": [
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+      "https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf"
+    ],
+    "apartados": [
+      {
+        "materia": "Servicios universitarios",
+        "articulos": "157–165",
+        "cotejado": "Rector y Consejo de Gobierno, biblioteca mínimo 8% del capítulo bienes y servicios, servicios de informática y residencias"
+      },
+      {
+        "materia": "Patrimonio, presupuesto, cuentas y auditoría",
+        "articulos": "167–171,174",
+        "cotejado": "Gerente, Rector, Consejo de Gobierno y Consejo Social; inventario anual, auditoría anual y auditor hasta 5 años"
+      },
+      {
+        "materia": "Contratación",
+        "articulos": "175–177",
+        "cotejado": "Rector órgano de contratación; acuerdo del Consejo Social en inversiones >1 año que comprometan fondos futuros"
+      }
+    ],
+    "repasoComplementario": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md",
+    "preguntasComplementarias": 8,
+    "alternativasComplementarias": 32,
+    "bancoOriginalIntacto": 21,
+    "certificacionIntegral": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
   }
 }
