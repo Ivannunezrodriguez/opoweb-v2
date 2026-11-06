@@ -366,3 +366,25 @@ La norma distingue expresamente los anticipos para compras/servicios de **viajes
 > ⚠️ **¡Foco Examen!:** **5.000 € (sin IVA)** corresponde a **caja fija**; **12.000 €** a **anticipo a justificar**. El **mes** de justificación no es una prórroga de pago ordinario, y la deducción de nómina no se produce automáticamente: se propone al **Rector**.
 
 **Cierre técnico documental acotado:** [**Informe de cotejo directo y casos de examen**](../COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md). Sigue pendiente la prueba funcional integral de web y la aplicación temporal precisa de las bases UC3M.
+
+
+## 24. Cuándo nace el derecho al pago en contratación: LCSP 198
+
+El artículo **198 de la Ley 9/2017 (LCSP)** regula el pago al contratista y debe leerse junto a las **fases del gasto** y **documentos contables internos de la UC3M 2026**.
+
+| Momento de ejecución | Actuación jurídica/contable | Plazo o efecto |
+|---|---|---|
+| Pedido o contrato adjudicado y formalizado cuando proceda | **Compromiso de gasto**, pero no confirma que ya se haya entregado lo contratado. | No debe confundirse con obligación exigible por servicio prestado. |
+| Proveedor entrega bienes o presta servicios | La **Administración** debe aprobar el documento de **conformidad** en **30 días** desde entrega/prestación en los términos del **198.4**. | Una entrega no convalidada documentalmente **no equivale** a conformidad aprobada. |
+| Aprobación de certificación o conformidad | La **Administración** abona el precio dentro de **30 días** posteriores; después nacen consecuencias de demora según condiciones legales. | **Pago y conformidad** tienen puntos iniciales distintos. |
+| Factura en el registro | El **contratista** debe presentarla correctamente en **30 días** desde entrega/prestación para cumplir la condición temporal del cómputo ordinario de intereses. | Factura tardía activa reglas especiales de cómputo de demora. |
+| Demora del pago **superior a 4 meses** | **Contratista** puede acordar suspensión del cumplimiento con **preaviso de 1 mes** a la Administración. | **Suspensión** no es resolución del contrato. |
+| Demora del pago **superior a 6 meses** | **Contratista** puede resolver y exigir reparación de perjuicios en los términos del precepto. | No es la misma potestad que suspender tras **4 meses**. |
+
+**Ejemplo de conexión con documentos internos:** el **documento O** se denomina **propuesta de pago** en las **Normas UC3M 2026, art. 15.2.1**. Emitirlo **no prueba que haya salido el dinero de Tesorería** y **no reinicia** por sí solo los plazos sustantivos del **art. 198 LCSP**.
+
+**No existe** en estos preceptos un plazo universal de «**60 días desde cualquier factura**» sin atender a fecha de **entrega, conformidad y presentación correcta**.
+
+**Fuentes primarias:** [**LCSP art. 198.4–6, BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a1-110) y [**Normas Básicas UC3M 2026, Volumen I, arts. 15–16**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), previamente cotejadas en este tema.
+
+> ⚠️ **¡Foco Examen!:** **30 días para conformidad**, **30 para abonar desde aprobación**, **4 meses para posible suspensión + preaviso 1 mes**, **6 meses para resolución**. **Documento O = propuesta de pago interna**, no pago material.
