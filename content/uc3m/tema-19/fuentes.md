@@ -34,13 +34,13 @@ Control de vigencia y revisión: **23 de julio de 2026**.
 - Para las fases de gasto **RC, A, D, O y P** y documentos acumulados como **ADO**, la fuente específica son las **Normas Básicas de Gestión del Presupuesto UC3M 2026 (Volumen I)**, recogidas en el portal [**UC3M Presupuestos**](https://www.uc3m.es/economico/presupuestos). El BOCM no desarrolla por sí solo todos los procedimientos operativos internos.
 - [**Ley 5/2025, de Hacienda de la Comunidad de Madrid**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217), con efectos desde **01/01/2026**, sustituye a Ley 9/1990 como marco autonómico del ejercicio presupuestario.
 
-> ⚠️ **¡Foco Examen!:** **Autorización A** = aprobar gasto; **disposición D** = comprometer frente a tercero; **reconocimiento O** = obligación exigible acreditada; **ordenación P** = ordenar pago, distinta de salida efectiva de fondos. **ADO** acumula fases, pero no suprime exigencia de crédito y justificación.
+> ⚠️ **¡Foco Examen!:** **Fases generales:** autorización, compromiso, reconocimiento de obligación, ordenación y pago material son actos distintos. **Código específico de UC3M 2026 (art. 15.2.1):** **A** = autorización; **D** = disposición; **O** = **propuesta de pago**; **ADO** = autorización, compromiso y propuesta de pago. No identificar automáticamente la letra O con la fase genérica de reconocimiento en preguntas sobre el documento UC3M. **ADO** acumula fases, pero no suprime exigencia de crédito y justificación.
 
 ## Cotejo integral del banco · 04/11/2026
 
 [**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. **Volumen I UC3M 2026 recuperado directamente** y comprobado visualmente: **art. 15.2.1, pág. 98**, así como **art. 16.2–3, págs. 101–102**. La denominación exacta **O = propuesta de pago** exigió corregir **T19-005/006**, manteniendo las letras B y D. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
 
-> ⚠️ **¡Foco Examen!:** **A autoriza**, **D compromete**, **O reconoce obligación**, **P ordena pago**. **ADO** no implica pago material.
+> ⚠️ **¡Foco Examen!:** **A autoriza**, **D compromete**, y en los documentos particulares de **UC3M, O = propuesta de pago**. En un ciclo genérico, **obligación reconocida, ordenación del pago y pago material** son fases distintas. **ADO** no implica pago material.
 
 ## Contraste de la fuente primaria de procedimientos UC3M 2026 — **04/11/2026**
 
@@ -57,3 +57,14 @@ Se recuperó el PDF institucional de **150 páginas**: [**Presupuesto UC3M 2026,
 **Conclusión:** se cierra la **reserva de consulta del documento original** relativa a los apartados aquí identificados, pero **NO** se certifica por ello el tema entero, la vigencia temporal de toda su normativa, el navegador ni la accesibilidad.
 
 > ⚠️ **¡Foco Examen!:** En la norma específica UC3M **O es «propuesta de pago»** y **ADO** reúne **autorización, compromiso y propuesta de pago**. Distinto de **orden de pago** o de pago material. **Caja fija 5.000 €** frente a **anticipo 12.000 €**, con justificación **1 mes**.
+
+
+## Inspección adicional de la fuente primaria — **06/11/2026**
+
+El [**PDF institucional original del Presupuesto UC3M 2026, Volumen I**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view) se ha recuperado y leído nuevamente. **Página 98/150, art. 15.2.1**: `RC` retención, `A` autorización, `D` disposición, `O` propuesta de pago; `AD` y `ADO` documentos acumulados. **Se corrige la referencia imprecisa de T19-005 y 006, que indicaba «pág. 103 aprox.»**: la localización correcta en el PDF es **pág. 98/150**. Las opciones e índices correctos no cambian.
+
+**Artículo 16.2, pág. 101/150**: sistema asimilado a caja fija para gastos **≤5.000 € sin IVA**. **Artículo 16.3, págs. 101–102/150**: anticipo a justificar **≤12.000 €**, solicitud motivada y RC; justificación **máximo un mes**; documento **ADO código 250** para actividad general, y posible propuesta al **Rector** de deducción en nómina si no se justifica. **Art. 15.2.1**: unidades encargadas por capítulos, con excepciones explícitas. La [**Ley 5/2025 art. 108**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108) sigue siendo la norma general autonómica de referencia.
+
+> ⚠️ **¡Foco Examen!:** En el **documento presupuestario UC3M**, **O = propuesta de pago**, no «orden de pago». Los **5.000 €** de caja fija y los **12.000 €** de anticipos están en apartados **distintos** del art. 16.
+
+[**Informe de cotejo y ejercicios originales**](../COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md). **No** se presenta esta inspección como auditoría funcional completa.

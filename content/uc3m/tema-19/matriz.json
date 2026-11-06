@@ -114,5 +114,26 @@
       ],
       "sinCertificacionIntegral": true
     }
+  },
+  "controlFuentePrimaria20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REVALIDACION_DOCUMENTAL_ACOTADA",
+    "fuente": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+    "articulos": [
+      "10",
+      "15.2.1",
+      "15.2.3",
+      "16.2",
+      "16.3"
+    ],
+    "paginas": [
+      80,
+      98,
+      101,
+      102
+    ],
+    "refAproxCorregida": true,
+    "report": "content/uc3m/COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md",
+    "certificacionIntegral": false
   }
 }

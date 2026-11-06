@@ -127,5 +127,33 @@
       ],
       "sinCertificacionIntegral": true
     }
+  },
+  "controlFuentePrimaria20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REVALIDACION_DOCUMENTAL_ACOTADA",
+    "fuente": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+    "boletin": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF",
+    "articulos": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "14.1",
+      "14.2"
+    ],
+    "paginas": [
+      78,
+      79,
+      80,
+      94,
+      95
+    ],
+    "anexoPresupuestario": true,
+    "report": "content/uc3m/COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md",
+    "certificacionIntegral": false
   }
 }

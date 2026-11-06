@@ -311,3 +311,52 @@ La ejecución de ingresos está sometida a contabilidad, control interno, audito
 [**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Se han verificado directamente los importes en el **BOCM**; normas de vinculación, transferencias e incobrados aún requieren lectura primaria del **Volumen I UC3M 2026**. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
 
 > ⚠️ **¡Foco Examen!:** **Presupuesto UC3M 2026 = 300.468.067,59 €**. **Capítulo IV** es principal ingreso y **concepto 640** está dentro del **único capítulo VI** de gastos.
+
+
+## Cotejo directo ampliado del Presupuesto 2026 — **06/11/2026**
+
+**Fuente institucional primaria consultada directamente:** [**UC3M, Presupuesto 2026, Volumen I (150 páginas)**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), Normas Básicas de Gestión, **arts. 4–11 y 14.1–14.2**. Los importes numéricos se han vuelto a verificar contra el [**anexo del BOCM de 30/12/2025**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF). [**Ley 5/2025 de Hacienda de la Comunidad de Madrid, art. 108**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108) determina el marco autonómico; se distinguen expresamente **norma legal** y **procedimiento interno UC3M**.
+
+### 19.1. Vinculación y disponibilidad de crédito (arts. 5 y 10)
+
+| Ámbito del gasto | Nivel de vinculación | Condición adicional |
+|---|---|---|
+| Regla general | **Concepto**, dentro de cada **centro y programa** | Crédito limitativo y vinculante |
+| **Capítulo I**: personal | **Capítulo** | Excepción a la regla general |
+| **Capítulo II**: bienes y servicios | **Capítulo** | Excepción a la regla general |
+| **Capítulo VI**: inversiones reales | **Capítulo** | Excepción a la regla general |
+| Atenciones protocolarias y representativas / subvenciones nominativas | Nivel en que aparezcan **desagregadas** | No trasladar automáticamente la excepción de otros capítulos |
+
+El **art. 10** prohíbe asumir compromisos superiores al crédito autorizado según la vinculación del **art. 5**: los actos y disposiciones contrarios son **nulos de pleno derecho**. No confundir el crédito autorizado con el simple deseo de adquirir un bien.
+
+> ⚠️ **¡Foco Examen!:** La vinculación por **capítulo** de **I, II y VI** es la excepción; el resto vincula por **concepto en centro y programa**. Comprometer gasto sin crédito suficiente según vinculación produce **nulidad de pleno derecho**.
+
+### 19.2. Transferencias, redistribuciones e incorporaciones (arts. 6–8)
+
+| Operación | Órgano o requisito específico | Diferencia |
+|---|---|---|
+| Generaciones y rectificaciones | **Rector** (con los condicionantes legales) | No son una transferencia entre conceptos |
+| Transferencias entre capítulos **corrientes** o entre capítulos **de capital** | **Rector** si importe menor que límite de menor de obras; **Consejo de Gobierno** si lo supera | El art. 6 usa referencia al **límite legal de contrato menor de obra** |
+| Transferencia **corriente → capital** | **Consejo Social** | No exige, en esta regla, autorización autonómica previa |
+| Transferencia **capital → corriente** | **Consejo Social**, **previa autorización del Gobierno de la Comunidad de Madrid** | Requisito añadido al sentido inverso |
+| Redistribución de créditos (mismo capítulo, supuestos art. 7) | **Rector**; delegación específica en **Vicerrector de Investigación y Transferencia** para determinados créditos de investigación de capítulo VI | No equivale a transferir entre capítulos |
+| Incorporación de remanentes | Requisitos legales, superávit y crédito remanente **superior a 300 €** en los supuestos previstos | No es una incorporación universal de cualquier saldo |
+
+El **art. 8** canaliza las solicitudes por la **Dirección Económico Financiera – Servicio de Presupuestos**, con propuesta razonada del centro solicitante.
+
+> ⚠️ **¡Foco Examen!:** **Capital a corriente** = **Consejo Social + autorización previa del Gobierno autonómico**; **corriente a capital** = **Consejo Social**. En **art. 7**, la **redistribución** permanece en un mismo capítulo y se aprueba por el **Rector**.
+
+### 19.3. Seguimiento de cobros (arts. 14.1 y 14.2)
+
+| Hito desde emisión de factura UC3M | Acción del procedimiento |
+|---|---|
+| **30 días** | Plazo ordinario de cobro de la factura |
+| **60 días** | Seguimiento/recordatorio al deudor según fases del art. 14.2 |
+| **90 días** | Se intensifican actuaciones sobre el impago; advertencia sobre intereses y morosidad |
+| **120 días** | Se reúne el **Grupo de Seguimiento de Incobrados** y estudia reclamación, seguimiento especial o anulación motivada |
+
+El **derecho reconocido** y el **cobro efectivo** no son sinónimos (**art. 14.1**); su imputación contable sigue el principio de **devengo** con reglas excepcionales expresas.
+
+> ⚠️ **¡Foco Examen!:** Los **120 días** no son el plazo legal universal para reclamar toda deuda pública: corresponden al **procedimiento interno de facturas emitidas por la UC3M**. No confundir con los **30 días** de vencimiento ordinario del procedimiento descrito.
+
+**Estado:** revalidación primaria focal de **arts. 4–11, 14.1–14.2 y anexos de importes**; no prueba funcional de OpoWeb ni implica haber certificado todos los anexos del Presupuesto. [**Informe del lote 18–19**](../COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md).

@@ -319,3 +319,50 @@ Deben reflejar la imagen fiel y someterse a formulación, aprobación, auditorí
 [**Análisis literal de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con razones por distractor. **Estado COTEJO_BANCO_COMPLETO con reserva primaria**. Los documentos y fases se cotejan con la estructura contable del manual; falta lectura primaria integral del **Volumen I UC3M 2026** para particularidades internas. Tampoco acredita navegador real, accesibilidad, aprobación del usuario ni fecha normativa de corte de las bases UC3M.
 
 > ⚠️ **¡Foco Examen!:** **A autoriza**, **D compromete**, y **O es propuesta de pago en el art. 15.2.1 UC3M 2026**. **ADO** tampoco es pago material.
+
+
+## Cotejo de documentos contables y límites UC3M 2026 — **06/11/2026**
+
+**Fuente primaria leída de nuevo:** [**Volumen I UC3M 2026, Normas Básicas de Gestión (150 páginas)**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), **arts. 10, 15.2.1, 15.2.3, 16.2 y 16.3** (págs. **80 y 98–102**); contraste con [**Ley de Hacienda CM 5/2025, art. 108**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108). **Importante:** las denominaciones siguientes se refieren al **documento contable interno UC3M**, no a una definición universal del ciclo presupuestario aplicable sin matices a cualquier Administración.
+
+### 23.1. Tabla de documentos contables de gasto, literal institucional (art. 15.2.1)
+
+| Documento UC3M | Significado según la norma original | Distinción de examen |
+|---|---|---|
+| **RC** | Retención de crédito | No equivale a compromiso con tercero |
+| **A** | Autorización de gasto | No es pago material |
+| **D** | Disposición o compromiso de gasto | Diferente de autorizar |
+| **O** | **Propuesta de pago** | El documento **O** se denomina así en UC3M 2026; no sustituirlo automáticamente por el rótulo general «reconocimiento de obligación» |
+| **AD** | Autorización y compromiso de gasto acumulados | Reúne dos fases, no el pago |
+| **ADO** | Autorización, compromiso de gasto y **propuesta de pago** | No incluye por sí mismo la transferencia bancaria |
+
+La **obligación reconocida** sigue siendo un concepto jurídico-presupuestario válido en general, pero en la **tabla particular del art. 15.2.1** el **documento O** se rotula **«propuesta de pago»**. La fase de **ordenación del pago** y el **pago efectivo** deben distinguirse también: no son sinónimos de emitir `ADO`.
+
+> ⚠️ **¡Foco Examen!:** Si la pregunta cita expresamente el **art. 15.2.1 de las Normas UC3M 2026**, **O = propuesta de pago**, **ADO = autorización + compromiso + propuesta de pago**. No contestar «pago material» ni asumir que las siglas se expanden idénticamente en todas las administraciones.
+
+### 23.2. Oficinas que tramitan documentación (art. 15.2.1)
+
+| Unidad | Gastos que tramita, conforme al texto original |
+|---|---|
+| **Oficinas Económicas** | Capítulos **II, IV, VI y VII**, con **excepciones** para contratos laborales de investigación y pagos a personal contratado en la Universidad |
+| **Servicios Centrales – DEF** | Capítulos **I, VII, VIII y IX**; además anticipos de nómina, ayuda social, operaciones no presupuestarias y devoluciones de ingresos |
+| **Servicio de Investigación y RR. HH.** | Becas y contratos laborales de investigación en los procedimientos propios correspondientes |
+
+El propio documento advierte que la estructura **puede variar por simplificación** decidida por la **Dirección Económico Financiera**; estudiar el organigrama de **2026** sin convertirlo en una regla perpetua.
+
+> ⚠️ **¡Foco Examen!:** Hay atribuciones del **capítulo VII** diferenciadas según naturaleza del expediente. No asumir que toda operación de un capítulo se gestiona inexorablemente por la misma oficina sin las excepciones del artículo.
+
+### 23.3. Caja fija y anticipos: cifras distintas (art. 16)
+
+| Modalidad | Cuantía máxima o límite | Procedimiento y plazo |
+|---|---|---|
+| **Sistema asimilado a caja fija** | Gastos que no excedan de **5.000 € sin IVA** | Para necesidades de escasa cuantía; pagos con periodicidad **inferior a una semana** |
+| **Anticipo a justificar** para compras/servicios extraordinarios | Máximo **12.000 €** | Solicitud motivada, factura proforma o presupuesto y documento **RC** |
+| **Justificación del anticipo** | Plazo máximo **1 mes** | Si no se justifica, reclamación; y, en su caso, propuesta al **Rector** de deducción en nómina |
+| **Justificación de anticipo para actividad general** | Documento **ADO código 250** | Endoso al habilitado e identificación de expediente RC |
+
+La norma distingue expresamente los anticipos para compras/servicios de **viajes**, que siguen regulación propia. La imposibilidad de tramitar ordinariamente debe motivarse; no basta alegar comodidad de la unidad gestora.
+
+> ⚠️ **¡Foco Examen!:** **5.000 € (sin IVA)** corresponde a **caja fija**; **12.000 €** a **anticipo a justificar**. El **mes** de justificación no es una prórroga de pago ordinario, y la deducción de nómina no se produce automáticamente: se propone al **Rector**.
+
+**Cierre técnico documental acotado:** [**Informe de cotejo directo y casos de examen**](../COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md). Sigue pendiente la prueba funcional integral de web y la aplicación temporal precisa de las bases UC3M.

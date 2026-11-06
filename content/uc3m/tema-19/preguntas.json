@@ -74,7 +74,7 @@
       "correcta": 1,
       "justificacion": "El artículo 15.2.1 de las Normas Básicas de Gestión UC3M 2026 identifica expresamente «Propuesta de pago: Documento contable O». Su denominación institucional debe prevalecer en la pregunta sobre esta norma frente a la descripción contable general de la fase de reconocimiento de obligación.",
       "trampa": "En la UC3M, el documento O se denomina expresamente «propuesta de pago» (art. 15.2.1). No confundir con la ordenación del pago ni con el desembolso material.",
-      "referencia": "UC3M, Presupuesto 2026 Volumen I, Normas Básicas de Gestión, art. 15.2.1, pág. 103 aprox. · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "referencia": "UC3M, Presupuesto 2026 Volumen I, Normas Básicas de Gestión, art. 15.2.1, pág. 98/150 (PDF institucional original, verificado 06/11/2026) · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "O"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 3,
       "justificacion": "El artículo 15.2.1 de las Normas Básicas UC3M 2026 define el documento ADO como autorización, compromiso de gasto y propuesta de pago. La terminología institucional es más precisa que atribuir literalmente a la O el reconocimiento de la obligación en esta norma.",
       "trampa": "«ADO» en las Normas UC3M 2026 significa autorización + compromiso + propuesta de pago. No equivale a desembolso de fondos ni elimina la verificación de las facturas.",
-      "referencia": "UC3M, Presupuesto 2026 Volumen I, Normas Básicas de Gestión, art. 15.2.1, pág. 103 aprox. · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "referencia": "UC3M, Presupuesto 2026 Volumen I, Normas Básicas de Gestión, art. 15.2.1, pág. 98/150 (PDF institucional original, verificado 06/11/2026) · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "Permite registrar conjuntamente autorización, compromiso de gasto y propuesta de pago"
     },
     {
@@ -186,5 +186,14 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlFuentePrimaria20261106": {
+    "fecha": "2026-11-06",
+    "idsCorregidos": [
+      "UC3M-T19-005",
+      "UC3M-T19-006"
+    ],
+    "respuestasSinCambios": true,
+    "paginaVerificada": 98
   }
 }

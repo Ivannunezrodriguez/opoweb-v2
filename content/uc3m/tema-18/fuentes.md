@@ -110,3 +110,19 @@ Fuentes contrastadas a **23 de julio de 2026**.
 La recuperación resuelve **esas tres reservas concretas** y evita depender de la transcripción de una academia. La vigencia global de cada precepto ante cambios posteriores, el corte de las bases UC3M y la validación de toda la web siguen siendo controles **distintos**.
 
 > ⚠️ **¡Foco Examen!:** En el **art. 6**, para transferir crédito de **capital a corriente**, el **Consejo Social** necesita **autorización previa del Gobierno autonómico**; no basta el Rector. **120 días** es la **reunión del grupo**, pero el **proceso de incobrados comienza a los 90**.
+
+
+## Cotejo directo adicional — **06/11/2026**
+
+Fuente institucional original accesible mediante su ID en el repositorio: [**Presupuesto UC3M 2026, Volumen I, 150 páginas**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view). Contraste de **arts. 4–11 y 14.1–14.2** del texto extraído del documento original; el [**BOCM 30/12/2025**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF) verifica **total 300.468.067,59 €**, **ingresos capítulo IV 146.834.705,33 €** y **gastos capítulo VI 61.808.477,69 €** con concepto **640 de 55.170.132,65 €**. La [**Ley 5/2025 art. 108**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108) confirma **prórroga presupuestaria** y marco autonómico desde **01/01/2026**.
+
+| Regla original | Referencia del Volumen I | Dato protegido frente a trampa |
+|---|---|---|
+| Vinculación general **concepto**, excepciones **I, II, VI** a nivel de capítulo | **Art. 5, pág. 78/150** | Centro + programa en la vinculación general |
+| Transferencias por dirección y órgano | **Art. 6, págs. 78–79/150** | **Capital → corriente = Consejo Social + autorización autonómica previa** |
+| Redistribución en mismo capítulo | **Art. 7, pág. 79/150** | **Rector**, con delegación específica de investigación |
+| Solicitud de modificación | **Art. 8, pág. 79/150** | **DEF-Servicio de Presupuestos** |
+| Compromisos por encima del crédito | **Art. 10, pág. 80/150** | **Nulidad de pleno derecho** |
+| Seguimiento de facturas impagadas | **Art. 14.2, págs. 94–95/150** | **30/60/90/120 días** según fases internas |
+
+**No** se proyectan normas de ejecución propias de la UC3M automáticamente sobre otras universidades. [**Informe y banco de casos**](../COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md).
