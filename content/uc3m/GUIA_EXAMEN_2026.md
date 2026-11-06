@@ -88,3 +88,11 @@ Se ha añadido [**análisis del Volumen I institucional 2026 y 16 casos práctic
 ## Refuerzo adicional del tema 15 — **06/11/2026**
 
 [**Ocho preguntas nuevas de servicios universitarios, Biblioteca, patrimonio, presupuesto, auditoría y contratación UC3M**](REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md), con **32 opciones** y referencias a **arts. 157–177 de los Estatutos**. Recurso complementario separado de los **21 ítems** históricos del tema y de los **3 simulacros 70+5**. La ampliación no altera los resultados anteriores de los simulacros.
+
+## Refuerzo jurídico de UC3M T16–17, BOEL enero 2026 — 06/11/2026
+
+[**Repaso específico de 12 preguntas y 48 alternativas con soluciones explicadas**](REPASO_NORMATIVA_2026_T16_T17_20261106.md), centrado en **reconocimiento de créditos (T16)** y **traslado/cambio de estudios (T17)** conforme al [**BOEL institucional de 22/01/2026, anexos 3 y 5**](https://sede.uc3m.es/boel/anexo/11307/). Los **33 ítems anteriores de T16–17** no se modifican y los **3 simulacros de 70+5** se mantienen.
+
+**Fecha de corte legal:** aún pendiente de acreditar mediante texto original de la resolución definitiva UC3M, aunque exista referencia secundaria al **01/10/2026**; no atribuir oficialidad a la fuente indirecta ni asumir una nueva fecha. **Inspección visual del PDF institucional:** no disponible; la comprobación fue textual.
+
+> ⚠️ **¡Foco Examen!:** **50 % de plazas de traslado interno**, **30 ECTS reconocibles** y **60 ECTS pendientes en universidad española de origen** son magnitudes de procedimientos distintos.
