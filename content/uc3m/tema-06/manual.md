@@ -171,3 +171,10 @@ No confundir el procedimiento de reclamación **DPD → interesado (2 meses)** c
 **Fuente:** [**LOPDGDD art. 37**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a37) y [**RGPD, art. 12.3**](https://eur-lex.europa.eu/eli/reg/2016/679/oj?locale=es).
 
 > ⚠️ **¡Foco Examen!:** **DPD responde al afectado en 2 meses** cuando acude previamente a él; **1 mes** para responder a la autoridad cuando esta le remite reclamación; **1 + hasta 2 meses** para solicitudes de derechos ante responsable, con los requisitos RGPD.
+
+
+## Repaso práctico integrado — tema 6 (06/11/2026)
+
+[**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
+
+> ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
