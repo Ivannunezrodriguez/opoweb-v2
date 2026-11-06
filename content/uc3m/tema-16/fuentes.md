@@ -108,3 +108,22 @@ Se han revisado individualmente **UC3M-T16-017 a UC3M-T16-021**, sus cuatro alte
 [**Revisión individual de 21 preguntas y 84 alternativas**](cotejo-integral-2026-11-04.md), con respuesta literal, motivo de descarte de las demás y foco test. El banco está **cotejado**, pero esto no certifica el portal en navegador, no implica aprobación del usuario y queda pendiente fechar por documento primario la aplicación temporal de la base **primera.7** de UC3M.
 
 > ⚠️ **¡Foco Examen!:** **Prácticas de Grado: máximo general 25 %; Máster: máximo un tercio**. El **TFG de Grado 240** es **6–24 ECTS**, y el **TFM 6–30 ECTS**.
+
+
+## Fuente primaria nueva: reconocimiento y transferencia de créditos UC3M — **06/11/2026**
+
+**BOEL UC3M de 22/01/2026, anexo 3, páginas 20–40:** [**normativa sobre reconocimiento y transferencia de créditos académicos aprobada por el Consejo de Gobierno el 11/12/2025**](https://sede.uc3m.es/boel/anexo/11307/). **Entrada en vigor: día siguiente a publicación** (**23/01/2026**), según su disposición final. **Deroga** la normativa anterior aprobada el **25/02/2010**. **La disposición transitoria** conserva para solicitudes en tramitación el régimen de la **fecha de su solicitud**.
+
+| Materia cotejada | Preceptos normativos | Regla específica |
+|---|---|---|
+| Formación básica del mismo campo y trabajos fin de estudios | **Art. 4.2–5** | Formación básica reconocible con máximo ligado al plan UC3M; **TFE no reconocible** salvo movilidad específica. |
+| Actividades universitarias | **Art. 14.3** | **6 ECTS optativos** ordinarios; puede ampliarse por memoria hasta **10 % del plan**. |
+| FP de grado superior | **Art. 15** | Convenios; máximo **25 %** de créditos del Grado, salvo máximo menor de la memoria. |
+| Solicitudes y plazos | **Arts. 16.3, 19.2 y 20.1** | Ventana mínima **1/7–15/9**; resolución **antes de 1/11**; posteriores **90 días**; actividades **30 días**. |
+| Órganos y recursos | **Arts. 19.1, 21** | **Decano/a o Director/a de Escuela** resuelve reconocimiento general de Grado; **alzada ante Rector/a**. |
+| Transferencia | **Art. 27** | Incorporación al expediente y suplemento de créditos previos de estudios oficiales que no condujeron a título oficial; distinta del reconocimiento. |
+| Procedimiento admisión por estudios parciales | **DA 1.ª** | Reconocimiento **de oficio** al tramitar la admisión por **RD 534/2024, art. 7.c–d**, conforme al procedimiento específico. |
+
+**Límite de cotejo:** el **texto institucional de su PDF** se ha consultado y contrastado por artículos; la captura visual de páginas del PDF **no estuvo disponible** en la herramienta de consulta. No se declara por ello inspección visual completa ni certificación jurídica integral del tema. **Base primera.7 UC3M:** fecha exacta de resolución definitiva de admitidos todavía sin acreditar mediante original.
+
+> ⚠️ **¡Foco Examen!:** La nueva norma tiene vigencia desde **23/01/2026**; no confundirla con la norma de **2010** derogada ni con la actualización de **octubre** del RD 822/2021 por anulación judicial de otra reforma.
