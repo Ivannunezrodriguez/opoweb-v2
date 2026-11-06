@@ -55,6 +55,8 @@ jobs:
         run: node tests/validate-la-puebla-repaso-t01-t04-20261106.mjs
       - name: Comprobar reforma LRBRL La Puebla tema 05 y banco
         run: node tests/validate-la-puebla-reforma-t05-20261106.mjs
+      - name: Validar repaso La Puebla T06 T07 T08 empleo PRL igualdad
+        run: node tests/validate-la-puebla-repaso-t06-t08-20261106.mjs
       - name: Verificar las 144 alternativas tributarias de La Puebla T10 T11 T12
         run: node tests/validate-la-puebla-t10-t11-t12-integral.mjs
       - name: Verificar las 144 alternativas jurídicas de La Puebla T3 T5 y T6
