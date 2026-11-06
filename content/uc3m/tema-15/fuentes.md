@@ -102,3 +102,14 @@ La redacción de **2003** no basta por sí sola para el cese. El [**Decreto 95/2
 Se añaden **dos preguntas directas con cuatro alternativas y solución motivada** en [manual T15, §1.2](manual.md#12-microtest-de-dos-preguntas-sobre-la-naturaleza-de-los-estatutos), cerrando el vacío pedagógico histórico de **«Naturaleza de los Estatutos»** en la matriz; no se ha editado el banco de **21 preguntas** ni los simulacros. **No implica certificación jurídica integral**.
 
 > ⚠️ **¡Foco Examen!:** **Autonomía** no significa **potestad legislativa**, y tener personalidad jurídica no convierte la UC3M en un órgano sin patrimonio propio.
+
+
+## Cierre documental contrastado del tema 15 — **06/11/2026**
+
+[**Acta con las reservas y las correcciones jurídicas**](../CIERRE_DOCUMENTAL_T15_20261106.md). Fuentes primarias: [**Decreto 1/2003, Estatutos UC3M, BOE**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782); [**Decreto 95/2009, modificación, BOCM**](https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf); [**Defensoría UC3M: presentación de solicitudes**](https://www.uc3m.es/defensoria-universitaria/consultas-quejas).
+
+**Rectificación jurídica comprobada:** **art. 178.3** regula **mayoría absoluta de los claustrales presentes** para tomar en consideración la reforma; **art. 179.1** corresponde a la elección de comisión; **art. 179.3** exige mayoría absoluta de la totalidad de claustrales para aprobar. Error de referencia detectado en el cotejo anterior, ya corregido; **respuesta de T15-009 permanece A**.
+
+**Refuerzo actualizado:** **21 originales (84 alternativas)**, **8 complementarias (32 alternativas)** con cita exacta de artículos, **2 microtest (8 alternativas) solo manual**. El corte temporal exigible conforme a **base primera.7 UC3M** carece aún de prueba de la resolución definitiva original, y falta E2E, móvil, accesibilidad y cotejo jurídico exhaustivo con LOSU. No existe aprobación del usuario.
+
+> ⚠️ **¡Foco Examen!:** **Queja ante Defensoría** y **recurso administrativo** son trámites distintos; la **suspensión de una actuación de la Defensoría** por judicialización no equivale a suspender el recurso.
