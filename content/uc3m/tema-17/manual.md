@@ -213,6 +213,36 @@ La adjudicación en otra universidad da lugar al traslado del expediente, que se
 
 > ⚠️ **¡Foco Examen!:** El umbral legal es **30 ECTS**. No debe redactarse como una cantidad indeterminada ni confundirse con los **6 ECTS** de reanudación en el mismo centro.
 
+### 13.1. Procedimiento específico UC3M para cambio de grado o universidad — reforma publicada en **2026**
+
+Además de los **30 ECTS** de la regla estatal del **RD 534/2024**, la **UC3M** publicó en su **BOEL de 22/01/2026**, **anexo 5, páginas 47 y siguientes**, la modificación acordada por su **Consejo de Gobierno de 11/12/2025** de la normativa interna para estudiantes que cambian de titulación o de universidad. **No es lo mismo que la preinscripción ordinaria del Distrito Único**.
+
+**Fuente primaria:** [**BOEL UC3M 22 de enero de 2026, anexo 5**](https://sede.uc3m.es/boel/anexo/11307/).
+
+| Supuesto o actuación | Regla interna comprobada | Precepto |
+|---|---|---|
+| Oferta anual de plazas por esta vía | La aprueba **Rector/Rectora**. | **Art. 1** |
+| Reserva para alumnos **de la propia UC3M** que cambian de grado o continúan estudios en otro campus | **50 % de las plazas ofertadas** para esta vía de acceso; no significa **50 % de todas las plazas ordinarias** de cada grado. | **Art. 1** |
+| Regla ordinaria para solicitar cambio | **Al menos 30 ECTS susceptibles de reconocimiento** en destino. | **Art. 2** |
+| Excepción al presentar solicitud para alumnos **de la propia UC3M** | Pueden solicitar aunque todavía no hayan superado esos **30 ECTS**, **si los tienen matriculados**; la admisión definitiva exige acreditar los reconocibles. | **Arts. 2 y 3** |
+| Documentos habituales de solicitantes externos | Identificación, expediente académico, **programas** y **carta de motivos**; la UC3M **comprueba de oficio** la documentación de su propio alumnado. | **Art. 2** |
+| Propuesta de reconocimiento de los **30 ECTS** | **Decano/a o Director/a** remite propuesta al **Rector/Rectora** **antes del día 15 del mes siguiente** a recibir el expediente. | **Art. 3** |
+| Solicitud sin **30 ECTS** reconocibles en la resolución | **Rector/Rectora** la desestima. | **Art. 3** |
+| Adjudicación por cambio interno UC3M | Con carácter general, **antes del 15 de junio**. Se valoran la nota de acceso y el expediente universitario. | **Art. 4.1** |
+| Alumnos procedentes de **otra universidad española** | Deben tener **al menos 60 ECTS pendientes de superar en origen** al solicitar el cambio; resolución general **antes del 10 de junio**. | **Art. 4.2** |
+
+> ⚠️ **¡Foco Examen!:** **30 ECTS reconocibles** es el umbral común; **60 ECTS pendientes en origen** es una **condición adicional específica** para estudiantes de **otras universidades españolas**, no para todos. El **50 %** reservado es del **cupo de plazas ofertado por traslado**, no de todo el Grado.
+
+### 13.2. Cambio interno, cambio externo y reconocimiento: tabla de procedimiento
+
+| Figura | Quién verifica o resuelve | Trampa de examen |
+|---|---|---|
+| **Admisión por cambio** | Propuesta del **Centro** sobre los créditos; decide la **Rectora o Rector** en el procedimiento de acceso. | La **admisión** no equivale a reconocer automáticamente cualquier asignatura. |
+| **Reconocimiento académico de créditos** en Grado | Como regla general, **Decano/a** o **Director/a de Escuela** conforme al **art. 19** de la nueva normativa de créditos de **2026**. | Distinguir del órgano que resuelve la **admisión** y de sus reglas especiales. |
+| **Transferencia** de créditos | Constancia académica conforme al **artículo 27** de la normativa de 2026. | No convierte por sí sola los créditos transferidos en créditos **reconocidos** para el nuevo título. |
+
+> ⚠️ **¡Foco Examen!:** **Rector decide admisión** por traslado; **Decano/Director resuelve ordinariamente reconocimientos**. Existen reglas específicas de reconocimiento **de oficio** ligadas a la admisión, y las competencias no deben mezclarse en un test.
+
 ## 14. Máster Universitario
 
 El Real Decreto 534/2024 regula específicamente el acceso y la admisión a **Grado**. El acceso a Máster se rige principalmente por el Real Decreto 822/2021 y la normativa universitaria.
