@@ -126,3 +126,14 @@ Fuente institucional original accesible mediante su ID en el repositorio: [**Pre
 | Seguimiento de facturas impagadas | **Art. 14.2, págs. 94–95/150** | **30/60/90/120 días** según fases internas |
 
 **No** se proyectan normas de ejecución propias de la UC3M automáticamente sobre otras universidades. [**Informe y banco de casos**](../COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md).
+
+
+## Refuerzo masivo coordinado UC3M — tema 18 — **06/11/2026**
+
+**Fuente primaria contrastada:** [**Ley 5/2025 CM arts. 10, 108, 109 y 182**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217). Se han desarrollado **2 apartados** en el **manual, apartados 20.1–20.3**, con tablas comparativas, cifras, órganos y focos. **Materia:** Prórroga automática hasta publicación BOCM, recursos universitarios fuera de Tesorería General CM, rendición ante Cámara de Cuentas y retención informativa condicionada del 10 %.
+
+**Repaso transversal:** [**18 preguntas nuevas / 72 opciones / 18 soluciones y focos, de los temas 10, 11, 14 y 18**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md), de las que **4** pertenecen al tema **18**, preguntas **15–18**. No se modifica el banco original, su cotejo ni los simulacros.
+
+**Cautela normativa:** comparar siempre el ámbito de la norma antes de aplicar una cifra: **AGE** en el RD 364/1995, **universidades públicas** en LOSU y **Comunidad de Madrid** en la Ley 5/2025 de Hacienda. La fecha exacta de corte legal del examen UC3M depende de la publicación primaria de la resolución de listas definitivas que no se ha cotejado directamente; no confundir con el día del examen. La ampliación es **documental focal**, no certificación integral de legislación, interfaz o tests.
+
+> ⚠️ **¡Foco Examen!:** **Prórroga automática** hasta publicación BOCM; **Tesorería General CM excluye recursos de universidades**.
