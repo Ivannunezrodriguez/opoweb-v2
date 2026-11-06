@@ -319,3 +319,10 @@ El listado de unidades del **artículo 43.1** se inserta en el régimen organiza
 **Fuente primaria para cotejo:** [**LOSU, artículos 41–43 y 97, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500). Última actualización publicada que presenta el BOE: **02/08/2024**. Se mantiene la reserva sobre el **corte temporal de la convocatoria UC3M** y la ausencia de prueba E2E real.
 
 > ⚠️ **¡Foco Examen!:** **Crear una facultad (41.1)** no equivale a **adscribir un centro (42)**. **Una sola universidad** admite **excepción**; y para las **privadas**, comprobar el **artículo 97**, no atribuirles sin más todas las unidades del **43**.
+
+
+## Cierre documental contrastado de LOSU I y II — **06/11/2026**
+
+[**Acta de cierre documental T13–T14, con reservas y trazabilidad de fuentes**](../CIERRE_DOCUMENTAL_T13_T14_20261106.md). Se han contrastado el programa, los **12 bloques de matriz** por tema y las **26 preguntas históricas con 104 alternativas** de ambos temas; los repasos complementarios reúnen otras **16 preguntas y 64 alternativas**, con los **enlaces a los artículos BOE precisos**. Este cierre acredita el circuito documental de estudio, **no** una certificación jurídica integral, navegación E2E, aprobación del usuario ni la fecha definitiva del corte normativo de las bases **UC3M primera.7**.
+
+> ⚠️ **¡Foco Examen!:** **Cierre documental con reservas** no equivale a **100 % de fiabilidad**; para responder al test aplica el **artículo concreto**, su **excepción** y el **corte normativo de la convocatoria**, no la fecha de la última revisión de OpoWeb.
