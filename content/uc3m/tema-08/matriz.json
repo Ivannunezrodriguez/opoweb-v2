@@ -102,5 +102,67 @@
     "aprobadoPorUsuario": false,
     "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "fuente": "LO 3/2007 BOE-A-2007-6115 y normativa UC3M III Plan 2025-2029"
+  },
+  "refuerzo20261106": {
+    "fecha": "2026-11-06",
+    "tipo": "AMPLIACION_FOCAL_JURIDICO_INSTITUCIONAL_NO_CIERRE",
+    "base": "BOE LO 3/2007, BOEL UC3M 13/07/2017, guías UC3M y III Plan 2025–2029",
+    "bloquesSinPreguntasAntes": [
+      "Tutela y consecuencias jurídicas",
+      "Igualdad en el empleo público",
+      "Identidad y expresión de género en la UC3M",
+      "Lenguaje e imagen inclusivos"
+    ],
+    "trazabilidad": [
+      {
+        "epigrafe": "Tutela y consecuencias jurídicas",
+        "manual": "5.1",
+        "articulos": "LO 3/2007 arts.10,12,13",
+        "preguntasNuevas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "epigrafe": "Igualdad en el empleo público",
+        "manual": "8.1",
+        "articulos": "LO 3/2007 arts.51,55,61,62",
+        "preguntasNuevas": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "epigrafe": "Identidad y expresión de género UC3M",
+        "manual": "10.1",
+        "articulos": "Resolución Rector UC3M 13/07/2017 apartados primero a cuarto",
+        "preguntasNuevas": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "epigrafe": "Lenguaje e imagen inclusivos",
+        "manual": "13.1",
+        "articulos": "LO 3/2007 art14.11; III Plan medidas 1.18–1.24; guías UC3M",
+        "preguntasNuevas": [
+          10,
+          11,
+          12
+        ]
+      }
+    ],
+    "repaso": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md",
+    "preguntasComplementarias": 12,
+    "alternativasComplementarias": 48,
+    "bancoOriginalPreguntas": 12,
+    "bancoOriginalSinModificar": true,
+    "aprobacionUsuario": false,
+    "inspeccionVisualPDF2017": "NO_DISPONIBLE",
+    "corteNormativoUC3M": "PENDIENTE_PUBLICACION_OFICIAL_LISTAS_DEFINITIVAS",
+    "certificacionFuncional": false
   }
 }
