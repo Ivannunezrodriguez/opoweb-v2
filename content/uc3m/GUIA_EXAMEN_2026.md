@@ -104,3 +104,10 @@ Se ha añadido [**análisis del Volumen I institucional 2026 y 16 casos práctic
 Los **12 ítems anteriores del T9** permanecen y el refuerzo no se incorpora silenciosamente a los **3 simulacros 70+5**. Su inclusión curricular no demuestra que se haya probado el portal en navegador o que se haya certificado el tema integralmente.
 
 > ⚠️ **¡Foco Examen!:** El programa dice **Word 2019 y Excel 2019**, no cualquier versión de Office ni funciones exclusivas de **Microsoft 365**.
+
+
+## Refuerzo del tema 8 — igualdad y normativa UC3M — 06/11/2026
+
+[**Repaso adicional de 12 preguntas y 48 opciones: igualdad, tutela, identidad de género y lenguaje inclusivo**](REPASO_IGUALDAD_T08_20261106.md), con respuestas justificadas por artículos de la **LO 3/2007**, resolución institucional UC3M de **2017** y medidas del **III Plan 2025–2029**. Las **12 preguntas históricas del tema 8** y los simulacros **70+5** no se han modificado.
+
+> ⚠️ **¡Foco Examen!:** **Art. 51** fija criterios generales para **Administraciones Públicas**; **arts. 55 y 61** son previsiones expresas del capítulo para **AGE**. El material se mantiene **EN_REVISION_USUARIO**, sin declarar certificación funcional.
