@@ -188,6 +188,30 @@ La pertenencia a un cupo debe acreditarse dentro del plazo y mediante la documen
 
 > ⚠️ **¡Foco Examen!:** Cumplir materialmente una condición no basta si no se acredita en plazo para participar por el cupo correspondiente.
 
+
+### 11.1. Reservas cuantificadas y excepciones: artículos 38 a 43 del RD 534/2024
+
+En los procedimientos de admisión a **Grado** de las **universidades públicas**, el **RD 534/2024, arts. 38–43**, obliga a reservar porcentajes sobre las plazas ofertadas **por título y centro**. Son cupos de admisión universitaria, **no** los porcentajes de discapacidad de las oposiciones de empleo público.
+
+| Colectivo y vía de admisión | Porcentaje reservado | Artículo |
+|---|---|---|
+| Mayores de **25 años** con prueba específica superada | **No inferior al 2 %** | **39** |
+| Mayores de **45 años** con prueba y mayores de **40 años** con experiencia laboral/profesional acreditada | **Conjuntamente: entre el 1 % y el 3 %** | **40** |
+| Personas con discapacidad reconocida **≥ 33 %**, y alumnado con necesidades de apoyo educativo permanentes por discapacidad en los términos legales | **Al menos el 5 %** | **41.1** |
+| Deportistas de alto nivel o alto rendimiento | **Al menos el 3 %** | **42.2** |
+| Titulaciones específicas vinculadas a la normativa deportiva del **RD 971/2007, art. 9.1** | Cupo **adicional al menos del 5 %**, con posible incremento | **42.3** |
+| Titulados universitarios oficiales o equivalentes | **Entre el 1 % y el 3 %** | **43** |
+
+**Reglas de adjudicación:**
+- El **art. 38.3** permite utilizar **más de un cupo** si se cumplen sus respectivos requisitos; dentro de cada uno la adjudicación sigue los criterios de valoración aplicables.
+- Las plazas reservadas no cubiertas revierten **por regla general al cupo general**, **con las excepciones expresas de los arts. 41 y 42** (**38.2**).
+- El **art. 41.2** prevé una regla especial para recuperar en la convocatoria extraordinaria plazas de discapacidad antes destinadas al cupo general, en las circunstancias que describe.
+- El **art. 42.4** dispone mantener los cupos deportivos en las distintas convocatorias del año.
+
+**Fuente primaria:** [**RD 534/2024, arts. 38–43, BOE consolidado (actualización 02/07/2026)**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858).
+
+> ⚠️ **¡Foco Examen!:** **2 % mayores de 25**, **1–3 % mayores de 40/45 conjuntamente**, **5 % discapacidad**, **3 % deportistas**, **1–3 % titulados**. El **5 % deportivo adicional** solo rige en las **enseñanzas específicas** del art. **42.3**, no universalmente.
+
 ## 12. Matrícula y listas de espera
 
 La persona admitida debe formalizar matrícula en el plazo establecido. La falta de matrícula puede implicar renuncia y liberación de la plaza.
