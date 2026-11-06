@@ -30,7 +30,7 @@ Para esta convocatoria de UC3M, la **base primera.7 del BOE-A-2026-14624** estab
 
 **Cotejo de fuentes primarias:** [**LO 3/2018, arts. 32, 34, 36–37, y RGPD art. 12 (BOE consolidado)**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673); última actualización publicada del texto principal: **27/12/2025**. **Manual nuevo: secciones 13.1–13.3**. Reglas contrastadas: bloqueo previo a destrucción; DPD obligatorio en universidades; comunicación en 10 días; 2 meses DPD-al-interesado y 1 mes DPD-a-autoridad.
 
-**Recurso de entrenamiento conectado a OpoWeb:** [**Repaso jurídico conjunto 24 preguntas / 96 alternativas**](../../data/uc3m-repaso-juridico-t02-t07-20261106.json), **cuatro preguntas propias de tema 6**, con artículo, justificación, respuesta y trampa. Se conserva el banco histórico de **12 preguntas** por tema y se mantienen intactos los simulacros **70+5**.
+**Recurso de entrenamiento conectado a OpoWeb:** [**Repaso jurídico conjunto 24 preguntas / 96 alternativas**](../../../data/uc3m-repaso-juridico-t02-t07-20261106.json), **cuatro preguntas propias de tema 6**, con artículo, justificación, respuesta y trampa. Se conserva el banco histórico de **12 preguntas** por tema y se mantienen intactos los simulacros **70+5**.
 
 **Vigencia y alcance:** la consolidación del BOE es informativa; en el examen UC3M debe aplicarse la redacción vigente conforme a la **base primera.7** de la convocatoria, cuya fecha exacta de publicación de las listas definitivas/anuncio no se ha acreditado con documento primario. Este cotejo de artículos críticos es **focal**, no certificación íntegra de todos los artículos ni del navegador/PWA.
 
