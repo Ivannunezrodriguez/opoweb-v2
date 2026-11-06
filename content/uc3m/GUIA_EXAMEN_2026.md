@@ -204,3 +204,12 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 **Estado:** cierre documental **con reservas**, no certificación integral ni aprobación del usuario. **Corte legal de UC3M** sujeto a comprobación primaria de la publicación de las listas definitivas y anuncio de examen; pendientes pruebas E2E en navegador, móvil, WCAG y PWA. No se alteran los simulacros **70+5**.
 
 > ⚠️ **¡Foco Examen!:** **Claustro (25 % estudiantado) ≠ Consejo de Gobierno (10 %)**; **5 % del presupuesto universitario ≠ 1 % del PIB** y **crear universidad ≠ autorizar su inicio de actividades**.
+
+
+## Cierre documental del tema 15 · Estatutos UC3M — **06/11/2026**
+
+[**Acta y evidencias T15**](CIERRE_DOCUMENTAL_T15_20261106.md): **7 bloques**, **21 preguntas originales y 84 alternativas** auditadas, **8 complementarias y 32 alternativas** con cita de artículos y **2 microtest / 8 alternativas** en manual. Corregida la referencia de **T15-009 a artículo 178.3** (antes constaba erróneamente 179.1), conservando solución **A**. Refuerzo institucional de la Defensoría sobre **solicitud en un mes**, diferencia entre quejas y recursos y suspensión de su propia intervención en asuntos judicializados. [**Prueba de regresión T15**](../../tests/validate-uc3m-cierre-t15-20261106.mjs).
+
+**Reservas:** sin fecha primaria corroborada del corte de legislación UC3M de **base primera.7**, sin navegador E2E, WCAG/PWA ni certificación jurídica integral o aprobación del usuario. No se alteran simulacros **70+5**. **Estado: cierre documental con reservas**, no tema definitivamente certificado.
+
+> ⚠️ **¡Foco Examen!:** **178.3** exige **mayoría absoluta de los presentes** para toma en consideración; **179.3** mayoría absoluta de **todos los miembros** del Claustro para aprobación final. La **queja ante Defensoría** no suspende automáticamente los recursos.
