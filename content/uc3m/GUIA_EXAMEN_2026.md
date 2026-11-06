@@ -244,3 +244,12 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 **Reservas:** resultado CI real y E2E sin comprobar, fecha del corte legal **primera.7** no acreditada mediante resolución primaria, auditoría de totalidad del manual y aprobación del usuario pendientes. **Cierre documental, no certificación integral**.
 
 > ⚠️ **¡Foco Examen!:** **Crédito → gasto → obligación → pago** y **derecho de ingreso → cobro** son fases diferentes; **no integración presupuestaria autonómica** no equivale a independencia absoluta del marco legal.
+
+
+## Cierre documental UC3M T19 · Gestión del gasto y cuentas — **06/11/2026**
+
+[**Acta T19 con reservas**](CIERRE_DOCUMENTAL_T19_20261106.md): **6 bloques**, **12 preguntas históricas/48 alternativas** y **3 complementarias/12 alternativas** (**15 ítems/60 opciones**), referencias precisadas al documento original de [**Normas UC3M 2026, Vol. I**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), y [**LCSP art. 198**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a198). El **documento O equivale a propuesta de pago interna**, no a transferencia efectiva. [**Prueba automatizada documental**](../../tests/validate-uc3m-cierre-t19-20261106.mjs) integrada en CI.
+
+**Limitaciones:** ejecución de GitHub Actions, corte normativo de la base **primera.7**, auditoría jurídica total, E2E/móvil/WCAG/PWA y aprobación del usuario **pendientes**. Mantener el tema **EN_REVISION_USUARIO** y los simulacros **70+5** inalterados.
+
+> ⚠️ **¡Foco Examen!:** **30 días conformidad y 30 días pago (LCSP 198.4)**, suspensión por demora **>4 meses con preaviso 1 mes**, resolución **>6 meses**. **Caja fija UC3M 5.000 €** distinta de **anticipos 12.000 €**.
