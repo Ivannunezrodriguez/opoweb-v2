@@ -228,3 +228,42 @@ La nulidad o anulabilidad de un acto no implica necesariamente la de los sucesiv
 [Cotejo jurídico-editorial de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): contiene fuente, artículo, fundamento de cada distractor y advertencia de test. **Estado de los ítems:** revisados; aprobación del usuario y certificación funcional en navegador **pendientes**. **Fecha de corte normativo:** base primera.7 de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), pendiente de identificar con precisión por la resolución de admitidos definitivos.
 
 > ⚠️ **¡Foco Examen!:** En estas bases la legislación exigible se fija por la **publicación de listas definitivas y anuncio del ejercicio**, **no** por la fecha de celebración de la prueba.
+
+
+## 18. Cotejo avanzado de plazos y efectos — 06/11/2026
+
+### 18.1. Silencio administrativo: estimación, desestimación y alzada (art. 24)
+
+| Supuesto | Efecto específico | Artículo |
+|---|---|---|
+| Solicitud de interesado, con carácter **general** | **Estimación**, salvo excepciones legales o del Derecho de la UE/internacional aplicable. | **24.1** |
+| Derecho de petición, dominio o servicio público, actividades potencialmente dañinas para el medio ambiente, **responsabilidad patrimonial** | **Desestimación** por silencio. | **24.1** |
+| Impugnación de actos/disposiciones y revisión de oficio **iniciada a solicitud** | Como regla, **desestimación**. | **24.1** |
+| **Alzada contra desestimación presunta** de una solicitud, sin resolución del recurso en plazo | **Estimación** del recurso, **salvo las materias excluidas** por el propio artículo. | **24.1, párrafo final** |
+| Resolución expresa posterior a un silencio **estimatorio** | Solo puede ser **confirmatoria** del acto presunto. | **24.3.a** |
+| Resolución expresa posterior a un silencio **desestimatorio** | No está vinculada al sentido negativo del silencio. | **24.3.b** |
+| Certificado acreditativo del silencio, expedido **de oficio** | **15 días** desde la expiración del plazo máximo para resolver; el interesado puede solicitarlo en cualquier momento. | **24.4** |
+
+La regla de estimación en **alzada frente al doble silencio** no alcanza a los asuntos excepcionados en el **artículo 24.1**, por lo que no debe afirmarse que todo recurso de alzada no resuelto es positivo.
+
+**Fuente oficial:** [**Ley 39/2015, artículo 24 (BOE)**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24).
+
+> ⚠️ **¡Foco Examen!:** **Silencio estimatorio = acto finalizador**; **desestimatorio = posibilita recurrir**. La resolución tardía tras estimación **solo confirma**; tras desestimación **puede decidir en otro sentido**. Certificado **15 días**, no esperar a que nazca el silencio.
+
+### 18.2. Notificación electrónica y cómputo de plazos (arts. 30, 31 y 43)
+
+| Regla | Plazo o efecto preciso |
+|---|---|
+| Plazo expresado en **horas**, salvo excepción legal | **Horas hábiles**, computadas hora a hora y minuto a minuto; máximo **24 horas** para este tipo de plazo. |
+| Plazo expresado en **días**, si la norma no dice otra cosa | **Días hábiles**, sin sábados, domingos ni festivos. |
+| Plazo en **meses o años** | Cómputo desde el día siguiente, pero vencimiento en el **día equivalente al de la notificación, publicación o silencio** del mes/año de vencimiento; si no existe, **último día del mes**. |
+| Último día **inhábil** | Se prorroga al **primer día hábil siguiente**. |
+| Registro electrónico | Admite presentación **24 horas, todos los días del año**; a efectos de plazo del interesado, la presentación en día inhábil se considera realizada a primera hora del primer hábil siguiente salvo excepción. |
+| Notificación electrónica **obligatoria o elegida** | Se entiende practicada **al acceder al contenido**; si no se accede, se considera rechazada tras **10 días naturales desde su puesta a disposición**. |
+| **Aviso** al correo o dispositivo | No equivale por sí solo a notificación practicada, ni altera la regla de puesta a disposición/acceso. |
+
+**Supuesto:** una notificación puesta a disposición de quien está obligado a relacionarse electrónicamente no es abierta; tras **10 días naturales** opera el rechazo previsto por la ley, aunque el plazo de un trámite posterior pueda computarse por **días hábiles**. Son unidades temporales distintas.
+
+**Fuente oficial:** [**Ley 39/2015, arts. 30, 31 y 43**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
+
+> ⚠️ **¡Foco Examen!:** **10 días NATURALES** para rechazo de notificación electrónica ≠ **10 días HÁBILES** para subsanar una solicitud; **24 horas** de disponibilidad de registro ≠ que un día inhábil pase a ser hábil para plazos.
