@@ -23,7 +23,31 @@ El Título I comprende los artículos 10 a 55. El artículo 10 sitúa la dignida
 
 Los derechos de los artículos 14 a 29 y la objeción de conciencia del artículo 30.2 pueden tutelarse mediante procedimiento preferente y sumario y, en su caso, recurso de amparo ante el Tribunal Constitucional.
 
+### Garantías: artículos 53 y 54
+
+| Categoría constitucional | Ubicación | Garantía exigible |
+|---|---|---|
+| **Igualdad ante la ley** | **Artículo 14**, situado fuera de la Sección 1.ª | Procedimiento **preferente y sumario** y, en su caso, **amparo constitucional** (art. **53.2**). |
+| Derechos fundamentales y libertades públicas | **Artículos 15–29**, **Sección 1.ª** del capítulo II | Protección judicial reforzada y **amparo**. Su desarrollo se reserva a **ley orgánica** cuando así resulta del artículo **81.1**. |
+| Objeción de conciencia | **Artículo 30.2** | **Amparo** expresamente reconocido por el artículo **53.2**, aunque el artículo 30 pertenece a la Sección 2.ª. |
+| Otros derechos y deberes | **Artículos 30–38**, **Sección 2.ª** | Vinculan a todos los poderes públicos; regulación por **ley** respetando su contenido esencial (art. **53.1**). No todos disfrutan de amparo. |
+| Principios rectores | **Artículos 39–52**, **capítulo III** | Informan legislación, práctica judicial y actuación de los poderes públicos; se alegan ante la jurisdicción ordinaria **de acuerdo con las leyes que los desarrollen** (art. **53.3**). |
+
+El **Defensor del Pueblo**, regulado en el artículo **54**, es **alto comisionado de las Cortes Generales** y puede supervisar la actuación de la Administración. Su regulación se reserva a **ley orgánica**.
+
+> ⚠️ **¡Foco Examen!:** El artículo **14** tiene la protección reforzada del **53.2** aunque **no está** dentro de la Sección 1.ª; la objeción de conciencia del **30.2** también accede al **amparo**. No equiparar todos los artículos **30–38** con derechos amparables.
+
 La suspensión general de determinados derechos solo cabe en los estados de excepción o sitio. La suspensión individual puede acordarse, con control judicial y parlamentario, en investigaciones relacionadas con bandas armadas o elementos terroristas.
+
+### Suspensión: supuestos cerrados del artículo 55
+
+| Modalidad | Cuándo | Derechos constitucionalmente susceptibles de suspensión |
+|---|---|---|
+| **General** — art. **55.1** | Estados de **excepción** o **sitio** | Art. **17**; **18.2–3**; **19**; **20.1.a y d y 20.5**; **21**; **28.2**; **37.2**. **Excepción:** art. **17.3** no se suspende en el **estado de excepción**. |
+| **Individual** — art. **55.2** | En los casos fijados por **ley orgánica**, con **intervención judicial** y **control parlamentario**, para investigaciones sobre bandas armadas o elementos terroristas | Solo **17.2**, **18.2** y **18.3**, respecto de personas determinadas. |
+| **Estado de alarma** | No figura en el supuesto de suspensión general del art. **55.1** | No habilita, por sí solo, la **suspensión** de derechos fundamentales conforme al artículo 55. |
+
+> ⚠️ **¡Foco Examen!:** En la suspensión **individual** no se suspende «todo el artículo 17» ni «todo el artículo 18»: únicamente **17.2, 18.2 y 18.3**. **Estado de alarma** no se debe marcar como causa de suspensión del artículo **55.1**.
 
 ## 3. Elaboración de las leyes
 
@@ -37,6 +61,32 @@ Los proyectos de ley proceden del Gobierno. Las proposiciones de ley nacen de lo
 
 El Gobierno puede dictar decretos legislativos por delegación de las Cortes y decretos-leyes en casos de extraordinaria y urgente necesidad, con límites materiales y convalidación por el Congreso en treinta días.
 
+### Iniciativa, elaboración y clases de normas con rango de ley (artículos 81–91)
+
+| Instrumento | Quién lo impulsa o aprueba | Requisito distintivo |
+|---|---|---|
+| **Proyecto de ley** (art. **88**) | Lo aprueba el **Consejo de Ministros** y lo remite al **Congreso** | Debe ir acompañado de **exposición de motivos** y antecedentes. |
+| **Proposición de ley** (arts. **87 y 89**) | Titulares distintos del **Gobierno**: iniciativa parlamentaria, autonómica y popular en los términos constitucionales | La iniciativa popular exige **al menos 500.000 firmas acreditadas**; excluye materias de **ley orgánica, tributarias, internacionales y prerrogativa de gracia**. |
+| **Ley orgánica** (art. **81**) | **Cortes Generales** | Requiere **mayoría absoluta del Congreso**, en **votación final sobre el conjunto** para aprobación, modificación o derogación. |
+| **Decreto legislativo** (arts. **82–85**) | **Gobierno** por **delegación expresa** de las **Cortes Generales** | **Ley de bases** para texto articulado; **ley ordinaria** para refundición. Delegación para **materia concreta y plazo**, sin subdelegación. |
+| **Decreto-ley** (art. **86**) | **Gobierno** ante **extraordinaria y urgente necesidad** | **Congreso** decide convalidación o derogación en los **30 días siguientes a su promulgación**; tiene límites materiales constitucionales. |
+
+La delegación legislativa **no** puede comprender materias reservadas a **ley orgánica** (art. **82.1**). El **decreto-ley** no puede afectar al ordenamiento de las instituciones básicas del Estado, a los derechos, deberes y libertades del **Título I**, al régimen de las comunidades autónomas ni al Derecho electoral general (art. **86.1**).
+
+> ⚠️ **¡Foco Examen!:** **Ley de bases → texto articulado**; **ley ordinaria de delegación → texto refundido**. **Decreto legislativo** necesita delegación; **decreto-ley** necesita extraordinaria y urgente necesidad y control del **Congreso en 30 días**.
+
+### Intervención del Senado y sanción de las leyes (artículos 90–91)
+
+| Actuación | Plazo | Mayoría o intervención |
+|---|---|---|
+| El **Senado** examina el texto remitido por el **Congreso** | **2 meses** desde su recepción | Puede formular **veto motivado** por **mayoría absoluta**, o proponer enmiendas. |
+| Tramitación urgente declarada por **Gobierno** o **Congreso** | **20 días naturales** para el **Senado** | Reduce el plazo ordinario del art. **90.3**. |
+| El **Congreso** levanta el veto del Senado | Inicialmente **mayoría absoluta**, o **mayoría simple** una vez transcurridos **2 meses desde el veto** | El veto **no es definitivo**. |
+| El **Congreso** acepta o rechaza enmiendas del Senado | Conforme a la tramitación | **Mayoría simple** (art. **90.2**). |
+| El **Rey** sanciona, promulga y ordena publicación | **15 días** | Artículo **91**. |
+
+> ⚠️ **¡Foco Examen!:** No confundir **2 meses de tramitación ordinaria del Senado**, **20 días naturales** de tramitación urgente, **2 meses para levantar el veto por mayoría simple** y **15 días** de sanción real. Son **cuatro reglas diferentes**.
+
 ## 4. Organización territorial del Estado
 
 El Estado se organiza territorialmente en municipios, provincias y comunidades autónomas. Todas estas entidades gozan de autonomía para la gestión de sus intereses.
@@ -44,6 +94,19 @@ El Estado se organiza territorialmente en municipios, provincias y comunidades a
 La Constitución garantiza la autonomía municipal. La provincia es entidad local con personalidad jurídica propia y división territorial para el cumplimiento de actividades estatales. Las comunidades autónomas acceden a la autonomía mediante los procedimientos constitucionales y se rigen por sus Estatutos.
 
 Los artículos 148 y 149 distribuyen competencias. El artículo 149 enumera materias de competencia exclusiva estatal. Las materias no atribuidas expresamente al Estado pueden corresponder a las comunidades autónomas en virtud de sus Estatutos.
+
+### Competencias y garantías territoriales (artículos 137–158)
+
+| Precepto | Regla clave | Trampa habitual |
+|---|---|---|
+| **137** | Organización en **municipios, provincias y comunidades autónomas**: autonomía para la gestión de sus intereses. | **Autonomía** no equivale a **soberanía**, que reside en el **pueblo español** (art. **1.2**). |
+| **140** | La Constitución garantiza la **autonomía de los municipios**; gobierno y administración corresponden a los **Ayuntamientos**, integrados por **Alcaldes y Concejales**. | No atribuir la autonomía **municipal** al **Gobierno central**. |
+| **141** | Provincia: entidad local con personalidad jurídica propia y división territorial; gobierno y administración autónoma a **Diputaciones** u otras corporaciones representativas. | Distinguir **provincia** de **comunidad autónoma**. |
+| **145.1** | **No se admite la federación de comunidades autónomas**. | Federar no equivale a celebrar **convenios de cooperación**, sujetos a reglas propias del art. **145.2**. |
+| **148–149** | Ámbitos de competencia autonómica y materias de competencia exclusiva del **Estado**. | Según **149.3**, las materias no atribuidas expresamente al **Estado** pueden corresponder a las **comunidades autónomas** por sus **Estatutos**; lo no asumido corresponde al Estado. |
+| **155** | Ante incumplimiento o grave atentado al interés general: **Gobierno**, previo requerimiento al **Presidente de la comunidad autónoma** no atendido y aprobación por **mayoría absoluta del Senado**, puede adoptar medidas necesarias. | Requiere **requerimiento previo** y **aprobación del Senado**; no basta decisión unilateral del Gobierno. |
+
+> ⚠️ **¡Foco Examen!:** El artículo **137** reconoce **tres** tipos de entidades territoriales; el artículo **155** exige **mayoría absoluta del Senado** y un **requerimiento previo no atendido**, no mayoría del **Congreso**.
 
 ### Circunscripciones insulares del Senado
 
@@ -95,3 +158,8 @@ Hasta julio de 2026 se han aprobado **cuatro reformas constitucionales**:
 [Cotejo jurídico-editorial de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): contiene fuente, artículo, fundamento de cada distractor y advertencia de test. **Estado de los ítems:** revisados; aprobación del usuario y certificación funcional en navegador **pendientes**. **Fecha de corte normativo:** base primera.7 de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), pendiente de identificar con precisión por la resolución de admitidos definitivos.
 
 > ⚠️ **¡Foco Examen!:** En estas bases la legislación exigible se fija por la **publicación de listas definitivas y anuncio del ejercicio**, **no** por la fecha de celebración de la prueba.
+
+
+## Revisión jurídica complementaria — 06/11/2026
+
+**Cotejo con fuente primaria:** [Constitución consolidada, BOE-A-1978-31229](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), actualización publicada **20/05/2026**, artículos **1, 53–55, 81–91, 137–155, 166–169**; [reforma oficial del art. 69.3 de 2026, BOE-A-2026-10881](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881). **Se han ampliado exclusivamente los apartados derechos/garantías, elaboración de las leyes y organización territorial**, sin modificar las **12 preguntas/48 opciones** existentes ni su cotejo histórico. **Estado:** revisión editorial complementaria, **sin certificación funcional** de la web ni cambio a aprobado. La legislación exigible en UC3M debe contrastarse además con la fecha de la resolución de listas definitivas indicada en la base **primera.7**.
