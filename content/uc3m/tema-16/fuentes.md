@@ -127,3 +127,12 @@ Se han revisado individualmente **UC3M-T16-017 a UC3M-T16-021**, sus cuatro alte
 **Límite de cotejo:** el **texto institucional de su PDF** se ha consultado y contrastado por artículos; la captura visual de páginas del PDF **no estuvo disponible** en la herramienta de consulta. No se declara por ello inspección visual completa ni certificación jurídica integral del tema. **Base primera.7 UC3M:** fecha exacta de resolución definitiva de admitidos todavía sin acreditar mediante original.
 
 > ⚠️ **¡Foco Examen!:** La nueva norma tiene vigencia desde **23/01/2026**; no confundirla con la norma de **2010** derogada ni con la actualización de **octubre** del RD 822/2021 por anulación judicial de otra reforma.
+
+
+## Revisión de preceptos cuantitativos T16 — 06/11/2026
+
+**Fuentes primarias:** [**1. RD 822/2021 arts. 13–14 y 17; nulidad del RD 905/2025, BOE-A-2026-22083**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781); [**2. RD 822/2021 arts. 13–14 y 17; nulidad del RD 905/2025, BOE-A-2026-22083**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22083). [**Manual T16, sección 15 ter**](manual.md): Modalidad híbrida **40–60 % no presencial** y virtual **al menos 80 %**; formación básica mínima **60/75/90 ECTS** en Grado de **240/300/360 ECTS**; TFG **6–24 / 6–30 / 6–36 ECTS**, defensa pública. Nulidad publicada **23/10/2026** del RD 905/2025, **no** del RD 822/2021 en su conjunto.
+
+**Estado:** contraste jurídico-editorial de artículos concretos; no modifica el banco histórico, no agrega preguntas no examinadas y **no certifica íntegramente el tema**. La fecha normativa de la **base primera.7 UC3M** permanece pendiente de la resolución definitiva primaria.
+
+> ⚠️ **¡Foco Examen!:** Las cifras dependen del **régimen jurídico y supuesto**; no sumar porcentajes diferentes ni mezclar cómputos de ECTS con reservas de plazas.
