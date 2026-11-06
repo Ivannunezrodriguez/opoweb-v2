@@ -19,7 +19,9 @@
         "UC3M-T16-003",
         "UC3M-T16-004",
         "UC3M-T16-009"
-      ]
+      ],
+      "fundamentoNormativo": "RD 822/2021 arts. 3, 13–17",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781"
     },
     {
       "epigrafe": "Planes de estudios y calidad",
@@ -32,7 +34,9 @@
         "UC3M-T16-005",
         "UC3M-T16-006",
         "UC3M-T16-007"
-      ]
+      ],
+      "fundamentoNormativo": "RD 822/2021 arts. 7–8, 25–35",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781"
     },
     {
       "epigrafe": "Matrícula y dedicación",
@@ -43,7 +47,9 @@
       "preguntas": [
         "UC3M-T16-008",
         "UC3M-T16-010"
-      ]
+      ],
+      "fundamentoNormativo": "Normativa UC3M matrícula y dedicación",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781"
     },
     {
       "epigrafe": "Permanencia UC3M",
@@ -54,7 +60,9 @@
         "UC3M-T16-011",
         "UC3M-T16-012",
         "UC3M-T16-013"
-      ]
+      ],
+      "fundamentoNormativo": "Normativa UC3M permanencia art. 1, excepciones",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781"
     },
     {
       "epigrafe": "Evaluación UC3M",
@@ -65,7 +73,9 @@
       "preguntas": [
         "UC3M-T16-014",
         "UC3M-T16-015"
-      ]
+      ],
+      "fundamentoNormativo": "Normas UC3M de evaluación y revisión",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781"
     },
     {
       "epigrafe": "Reconocimiento y transferencia",
@@ -74,7 +84,9 @@
       ],
       "preguntas": [
         "UC3M-T16-016"
-      ]
+      ],
+      "fundamentoNormativo": "UC3M BOEL 22/01/2026, normativa reconocimiento arts. 4,14–21,27",
+      "fuente": "https://sede.uc3m.es/boel/anexo/11307/"
     },
     {
       "epigrafe": "Prácticas, TFG/TFM y extinción",
@@ -88,7 +100,9 @@
         "UC3M-T16-019",
         "UC3M-T16-020",
         "UC3M-T16-021"
-      ]
+      ],
+      "fundamentoNormativo": "RD 822/2021 arts. 11,14,17 y reglas UC3M de extinción",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781"
     }
   ],
   "incidenciasCorregidas": [
@@ -176,5 +190,36 @@
     "certificacionJuridicaCompleta": false,
     "pruebasE2ENuevas": false,
     "corteNormativo": "PENDIENTE_FECHA_RESOLUCION_PRIMARIA_UC3M"
+  },
+  "cierreDocumentalT16_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T16_20261106.md",
+    "prueba": "tests/validate-uc3m-cierre-t16-20261106.mjs",
+    "bloquesMatriz": 7,
+    "preguntasOriginales": 21,
+    "alternativasOriginales": 84,
+    "preguntasComplementarias": 6,
+    "alternativasComplementarias": 24,
+    "correcciones": [
+      "seis referencias complementarias al articulo BOEL",
+      "distincion anulacion RD 905/2025 frente a vigencia RD 822/2021",
+      "corte legislativo condicionado por base primera.7"
+    ],
+    "fuentes": [
+      "BOE-A-2021-15781",
+      "BOE-A-2026-22083",
+      "https://sede.uc3m.es/boel/anexo/11307/"
+    ],
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "inspeccionVisualPDF": false,
+    "pendientes": [
+      "fecha oficial primaria listas definitivas UC3M",
+      "E2E navegador, movil, WCAG y PWA",
+      "cotejo total vigencia legal al corte",
+      "aprobacion usuario"
+    ]
   }
 }
