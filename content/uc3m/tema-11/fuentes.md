@@ -48,3 +48,14 @@ Fecha de revisión editorial: 22 de julio de 2026.
 [**Informe de cotejo de las 36 preguntas y 144 alternativas**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/uc3m/cotejo-bloque-t10-t12-2026-11-05.md), con origen legal por **precepto**, fundamento de la clave y descarte argumentado de las otras tres opciones, en el bloque de tres temas. **No equivale a certificación integral**, ni da por resuelta la fecha jurídica de corte de la convocatoria de la **UC3M**.
 
 > ⚠️ **¡Foco Examen!:** Distinguir la norma **actualmente vigente** de la **redacción exigible según las bases**, determinada por la fecha de publicación del anuncio oficial correspondiente, todavía por verificar en fuente primaria.
+
+
+## Refuerzo masivo coordinado UC3M — tema 11 — **06/11/2026**
+
+**Fuente primaria contrastada:** [**RD 364/1995 arts. 1, 11–12, 15–16, 18; TREBEP; Ley 53/1984**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729). Se han desarrollado **2 apartados** en el **manual, apartados 14.1–14.2**, con tablas comparativas, cifras, órganos y focos. **Materia:** Ámbito AGE sin extrapolar automáticamente a UC3M, composición de tribunales/comisiones, intervalo entre pruebas y bases vinculantes.
+
+**Repaso transversal:** [**18 preguntas nuevas / 72 opciones / 18 soluciones y focos, de los temas 10, 11, 14 y 18**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md), de las que **4** pertenecen al tema **11**, preguntas **7–10**. No se modifica el banco original, su cotejo ni los simulacros.
+
+**Cautela normativa:** comparar siempre el ámbito de la norma antes de aplicar una cifra: **AGE** en el RD 364/1995, **universidades públicas** en LOSU y **Comunidad de Madrid** en la Ley 5/2025 de Hacienda. La fecha exacta de corte legal del examen UC3M depende de la publicación primaria de la resolución de listas definitivas que no se ha cotejado directamente; no confundir con el día del examen. La ampliación es **documental focal**, no certificación integral de legislación, interfaz o tests.
+
+> ⚠️ **¡Foco Examen!:** **Tribunal de RD 364/1995 = número impar y al menos 5**; el mínimo no se traslada automáticamente a Comisión Permanente o UC3M.
