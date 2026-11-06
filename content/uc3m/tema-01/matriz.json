@@ -100,5 +100,33 @@
     "validacionFuncional": "PENDIENTE_NAVEGADOR_REAL",
     "corteNormativo": "base primera.7: publicación de listas definitivas y anuncio del ejercicio; fecha exacta pendiente de documento primario",
     "aprobacionUsuario": "PENDIENTE"
+  },
+  "controlAmpliacionLegal20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_MANUAL_COTEJADA_NO_CIERRE",
+    "fuentePrincipal": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+    "fechaUltimaConsolidacionBOE": "2026-05-20",
+    "apartados": [
+      {
+        "epigrafe": "Derechos y deberes fundamentales",
+        "articulos": "53–55, 81.1",
+        "cobertura": "tres niveles de garantías, amparo art. 14 y 30.2, suspensión general e individual"
+      },
+      {
+        "epigrafe": "Elaboración de las leyes",
+        "articulos": "81–91",
+        "cobertura": "proyecto/proposición, delegación, decreto-ley, ILP, Senado 2 meses o 20 días naturales, sanción real 15 días"
+      },
+      {
+        "epigrafe": "Organización territorial del Estado",
+        "articulos": "137–155",
+        "cobertura": "municipio/provincia/CCAA, distribución competencial 148–149, art. 155 requerimiento más mayoría absoluta Senado"
+      }
+    ],
+    "preguntasOriginalesPreservadas": 12,
+    "respuestasPreservadas": 48,
+    "aprobadoPorUsuario": false,
+    "certificacionFuncional": false,
+    "corteNormativoExacto": "PENDIENTE_VERIFICACION_LISTAS_DEFINITIVAS_UC3M"
   }
 }
