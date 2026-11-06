@@ -155,5 +155,36 @@
     "anexoPresupuestario": true,
     "report": "content/uc3m/COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md",
     "certificacionIntegral": false
+  },
+  "controlLoteMasivo20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_FOCAL_SIN_CIERRE_INTEGRAL",
+    "bloquesAbordados": [
+      {
+        "bloque": "Prórroga",
+        "manual": "20.1",
+        "fuente": "Ley 5/2025 CM art.108",
+        "preguntasComplementarias": [
+          15,
+          16
+        ]
+      },
+      {
+        "bloque": "Tesorería y control",
+        "manual": "20.2-20.3",
+        "fuente": "Ley 5/2025 CM arts. 10,109,182",
+        "preguntasComplementarias": [
+          17,
+          18
+        ]
+      }
+    ],
+    "recurso": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+    "totalPreguntasComplementarias": 4,
+    "bancoOriginalSinModificar": true,
+    "simulacrosSinModificar": true,
+    "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
+    "certificacionWeb": false,
+    "aprobacionUsuario": false
   }
 }
