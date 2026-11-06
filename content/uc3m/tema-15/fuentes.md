@@ -93,3 +93,12 @@ La redacción de **2003** no basta por sí sola para el cese. El [**Decreto 95/2
 **Límite:** lectura y ampliación jurídico-editorial focal de los apartados indicados. La comprobación de modificaciones posteriores, corte exacto de legislación **UC3M base primera.7**, y pruebas funcionales **no** están certificados en esta operación. Esta ficha no convierte el tema a `AUDITADO` integral ni altera el banco histórico.
 
 > ⚠️ **¡Foco Examen!:** **8 %** del capítulo de bienes y servicios, **no** del presupuesto total; **auditoría anual** frente a **nombramiento del auditor de hasta cinco años**; **Gerente inventaría**, **Secretario General registra**.
+
+
+## Naturaleza estatutaria T15: último bloque sin pregunta histórica — **06/11/2026**
+
+**Fuentes primarias:** [**Estatutos UC3M, Decreto 1/2003, arts. 1–3, publicación BOE**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782), y [**catálogo institucional UC3M con texto refundido y Decreto 95/2009**](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m). El **artículo 1** define a la UC3M como **entidad de Derecho público**, con **personalidad jurídica, patrimonio propio, autonomía bajo Constitución y leyes**, y las **potestades legalmente reconocidas como Administración pública**. El texto original debe leerse junto a las reformas y normativa posterior.
+
+Se añaden **dos preguntas directas con cuatro alternativas y solución motivada** en [manual T15, §1.2](manual.md#12-microtest-de-dos-preguntas-sobre-la-naturaleza-de-los-estatutos), cerrando el vacío pedagógico histórico de **«Naturaleza de los Estatutos»** en la matriz; no se ha editado el banco de **21 preguntas** ni los simulacros. **No implica certificación jurídica integral**.
+
+> ⚠️ **¡Foco Examen!:** **Autonomía** no significa **potestad legislativa**, y tener personalidad jurídica no convierte la UC3M en un órgano sin patrimonio propio.
