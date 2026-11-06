@@ -210,3 +210,10 @@ Para **Profesores Ayudantes Doctores** el **artículo 78** establece un contrato
 [**Repaso conjunto de 18 preguntas, 72 alternativas y soluciones por precepto**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md). Para este tema, consultar las preguntas **11–14**, centradas en PDI, igualdad y conciliación. Es material **complementario**, no se han reemplazado los ítems originales ni los simulacros **70+5**. Las fuentes y apartados están relacionados en [**matriz del tema**](matriz.json).
 
 > ⚠️ **¡Foco Examen!:** Antes de aplicar un plazo, porcentaje u órgano de una norma, identificar **qué Administración o colectivo** regula. **RD 364/1995 (AGE)**, **TREBEP (ámbito básico y especialidades)**, **LOSU (universidades)** y **Ley 5/2025 CM (universidades madrileñas)** no son regímenes idénticos.
+
+
+## Cierre documental contrastado de LOSU I y II — **06/11/2026**
+
+[**Acta de cierre documental T13–T14, con reservas y trazabilidad de fuentes**](../CIERRE_DOCUMENTAL_T13_T14_20261106.md). Se han contrastado el programa, los **12 bloques de matriz** por tema y las **26 preguntas históricas con 104 alternativas** de ambos temas; los repasos complementarios reúnen otras **16 preguntas y 64 alternativas**, con los **enlaces a los artículos BOE precisos**. Este cierre acredita el circuito documental de estudio, **no** una certificación jurídica integral, navegación E2E, aprobación del usuario ni la fecha definitiva del corte normativo de las bases **UC3M primera.7**.
+
+> ⚠️ **¡Foco Examen!:** **Cierre documental con reservas** no equivale a **100 % de fiabilidad**; para responder al test aplica el **artículo concreto**, su **excepción** y el **corte normativo de la convocatoria**, no la fecha de la última revisión de OpoWeb.
