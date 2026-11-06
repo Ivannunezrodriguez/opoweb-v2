@@ -318,3 +318,10 @@ Se han completado los apartados de **combinación de correspondencia** y **gesti
 [**12 preguntas nuevas y 48 opciones, con solución y trampa explicada por fuente técnica oficial**](../REPASO_OFIMATICA_T09_20261106.md). Cubre los apartados que no tenían pregunta propia (**Word 2019: combinación de correspondencia** y **Excel 2019: gestión de datos**) y refuerza **Gmail, Sheets y Calendar**. El banco inicial de **12 preguntas** y los simulacros permanecen sin cambios.
 
 > ⚠️ **¡Foco Examen!:** **Word 2019 y Excel 2019** son las versiones exigidas; no atribuir automáticamente funciones que dependan de **Microsoft 365**. La diferencia entre **filtro, validación y formato condicional** también es examinable.
+
+
+## Cierre documental contrastado — 06/11/2026
+
+[**Acta de cierre de contenido y banco T9/T12**](../CIERRE_DOCUMENTAL_T09_T12_20261106.md): **12 preguntas originales**, sus **48 distractores** cotejados, **12 preguntas complementarias** con sus **48 opciones**, fuentes y cobertura de las lagunas. **Estado del contenido: cierre documental con reservas**, sin certificar la interfaz ni declarar el tema `APROBADO_USUARIO`.
+
+> ⚠️ **¡Foco Examen!:** Este cierre editorial **no sustituye** verificar la fecha oficial de corte legislativo de la **base primera.7 UC3M** ni las pruebas de navegación y accesibilidad.
