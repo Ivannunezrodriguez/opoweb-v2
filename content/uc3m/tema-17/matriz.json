@@ -140,5 +140,23 @@
     "inspeccionVisualPDF": "NO_DISPONIBLE",
     "corteNormativo": "PENDIENTE_RESOLUCION_ORIGINAL_LISTAS_DEFINITIVAS",
     "certificacionWeb": false
+  },
+  "controlCifras20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REFUERZO_JURIDICO_FOCAL_NO_CIERRE",
+    "fuente": "RD 534/2024 arts 38-43",
+    "manual": "11.1",
+    "conceptosVerificados": [
+      "Mayores de 25 >=2%",
+      "Mayores de 40/45 conjuntamente 1-3%",
+      "Discapacidad >=5%",
+      "Deportistas >=3%, adicional >=5% supuestos específicos",
+      "Titulados 1-3%"
+    ],
+    "bancoHistoricoSinModificar": true,
+    "preguntasNuevas": 0,
+    "certificacionJuridicaCompleta": false,
+    "pruebasE2ENuevas": false,
+    "corteNormativo": "PENDIENTE_FECHA_RESOLUCION_PRIMARIA_UC3M"
   }
 }
