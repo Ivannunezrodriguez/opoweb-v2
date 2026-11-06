@@ -18,8 +18,15 @@
 
 > ⚠️ **¡Foco Examen!:** Una notificación de **31 de enero** con plazo de **un mes** vence, en principio, el **último día de febrero**; si es inhábil, **no vence allí**, sino el **primer día hábil siguiente**.
 
-**Pendiente:** contraste sustantivo del resto de distractores y prueba en navegador. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+**Nota histórica de 02/11/2026:** el contraste del resto de distractores se completó **04/11/2026** y figura en [informe por 48 opciones](cotejo-integral-2026-11-04.md). **Sigue pendiente** la prueba en navegador real, la auditoría funcional integral y la recertificación de vigencia de todas las capas. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
 
 ## Revisión integral jurídico-editorial — **04/11/2026**
 
 Contrastados **5 bloques**, **12 preguntas** y **48 opciones** contra [Ley 39/2015 consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) en [el informe por precepto y distractor](cotejo-integral-2026-11-04.md). **AUDITADO contenido; pendiente navegador real**.
+
+
+## Control cruzado urgente de plazos — **06/11/2026**
+
+[**Cuadro y casos de examen T1–T4**](../REPASO_URGENTE_T01_T04_20261106.md) cotejados con [**LPAC arts. 30–33 BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30): **días hábiles** por defecto; plazos mensuales con **día equivalente** y prórroga por inhábil; ampliación ordinaria **≤ mitad y antes de vencimiento**; urgencia **reduce a la mitad salvo solicitudes y recursos**. El nuevo repaso tiene **8 microcasos en total** para los cuatro temas, sin sustituir sus bancos históricos.
+
+> ⚠️ **¡Foco Examen!:** **Art. 32 = ampliación**, **art. 33 = urgencia**: efectos opuestos sobre los plazos; la urgencia **no reduce solicitudes ni recursos**.
