@@ -102,3 +102,12 @@ Se ha corregido la indeterminación del borrador respecto al cambio de universid
 **Limitaciones:** se ha contrastado texto web oficial y texto extraído del PDF; las capturas visuales del **BOEL** no estuvieron disponibles al intentar recuperarlas para comprobación, de modo que **no se certifica inspección visual de todas las páginas**. La **fecha de corte exigible por la base primera.7 UC3M** aún requiere la **resolución primaria** de listas definitivas. Tampoco se han realizado pruebas reales de navegador/móvil/WCAG/PWA ni una comprobación jurídica frase a frase de toda la web.
 
 > ⚠️ **¡Foco Examen!:** El texto original de traslados es de **2010**, aunque el resumen de acuerdos contenga una errata **2020**. **50 %** del cupo específico ≠ **50 %** de la oferta ordinaria; **B2 de español** admite las excepciones del artículo **4.3**.
+
+
+## Acta de cierre documental T17 y límites de certificación — **06/11/2026**
+
+[**Evidencia conjunta T17 (9 bloques, 22 ejercicios y 88 alternativas)**](../CIERRE_DOCUMENTAL_T17_20261106.md). Los **12 ítems originales** y **6 complementarios** tienen referencias precisas a preceptos o portales oficiales de **Grado UC3M**; los **4 microcasos** de reservas, deportistas, traslado e idiomas constan en el manual. Se preservan respuestas y simulacros.
+
+**Pendientes:** corte jurídico en la **publicación primaria de las listas definitivas UC3M**, pruebas E2E, móvil y accesibilidad, y control legal integral de cada frase. No confundir el cierre documental con `AUDITADO` completo o con aprobación del usuario.
+
+> ⚠️ **¡Foco Examen!:** **Art. 23.2** con redacción de **2026** desde **22/07**; **art. 4.3** de la norma interna: **B2 de idioma** según docencia y **excepciones**; **art. 4.4**: vacantes del cupo externo aumentan cupo UC3M interno.
