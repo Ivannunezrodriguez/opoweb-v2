@@ -312,3 +312,9 @@ Buenas prácticas:
 ## Revisión focal de las lagunas del programa — **06/11/2026**
 
 Se han completado los apartados de **combinación de correspondencia** y **gestión de datos en Excel 2019** que carecían de preguntas específicas en el banco, además de distinciones de **Gmail**, **Google Sheets** y **Google Calendar**. Fuentes técnicas de Microsoft y Google, con enlaces concretos en cada apartado. **No se equiparan las novedades exclusivas de Microsoft 365 a Word/Excel 2019**. El estado continúa **EN_REVISION_USUARIO** hasta completar la revisión técnica, pedagógica y funcional; el banco original conserva sus **12 preguntas**.
+
+## Repaso práctico adicional de ofimática — 06/11/2026
+
+[**12 preguntas nuevas y 48 opciones, con solución y trampa explicada por fuente técnica oficial**](../REPASO_OFIMATICA_T09_20261106.md). Cubre los apartados que no tenían pregunta propia (**Word 2019: combinación de correspondencia** y **Excel 2019: gestión de datos**) y refuerza **Gmail, Sheets y Calendar**. El banco inicial de **12 preguntas** y los simulacros permanecen sin cambios.
+
+> ⚠️ **¡Foco Examen!:** **Word 2019 y Excel 2019** son las versiones exigidas; no atribuir automáticamente funciones que dependan de **Microsoft 365**. La diferencia entre **filtro, validación y formato condicional** también es examinable.
