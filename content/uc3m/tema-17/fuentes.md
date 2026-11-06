@@ -80,3 +80,25 @@ Se ha corregido la indeterminación del borrador respecto al cambio de universid
 **Estado:** contraste jurídico-editorial de artículos concretos; no modifica el banco histórico, no agrega preguntas no examinadas y **no certifica íntegramente el tema**. La fecha normativa de la **base primera.7 UC3M** permanece pendiente de la resolución definitiva primaria.
 
 > ⚠️ **¡Foco Examen!:** Las cifras dependen del **régimen jurídico y supuesto**; no sumar porcentajes diferentes ni mezclar cómputos de ECTS con reservas de plazas.
+
+
+## Verificación transversal de la norma interna de traslados — **06/11/2026**
+
+**Fuente primaria con contraste doble**: [**BOEL de 18/12/2025, texto modificado**](https://sede.uc3m.es/boel/anexo/11194/firmado/) y [**BOEL de 22/01/2026, anexo 5, páginas 47–52**](https://sede.uc3m.es/boel/anexo/11307/). Aprobación original localizada en [**archivo institucional UC3M, 25/02/2010**](https://e-archivo.uc3m.es/bitstream/10016/15713/1/Acceso%20-%20otras%20titulaciones.pdf). Modificación aprobada por el **Consejo de Gobierno el 11/12/2025**.
+
+**Discrepancia dentro de una misma publicación oficial:** el resumen de acuerdos del BOEL de enero, **página 2, punto 9**, dice **25/02/2020** para la aprobación original, mientras el **encabezado normativo del anexo 5** del mismo BOEL, la versión publicada **18/12/2025** y el texto histórico de **2010** coinciden en **25/02/2010**. Para identificar la **norma** se utiliza **2010**, y se conserva constancia del error del *resumen*, sin ocultar la divergencia.
+
+| Cuestión de examen | Precepto | Fuente |
+|---|---|---|
+| Reserva **50 %** del cupo **de traslados** a estudiantes internos | **Art. 1** | **BOEL 22/01/2026, anexo 5** |
+| **30 ECTS reconocibles** y excepción para UC3M con **30 matriculados** | **Arts. 2–3** | Ídem |
+| **Decano/a o Director/a** remite propuesta antes del **día 15 del mes siguiente**; **Rector/a** resuelve admisión | **Art. 3** | Ídem |
+| Resolución interna en general **antes del 15/06**; traslado de otra universidad española **60 ECTS pendientes** y **antes del 10/06** | **Arts. 4.1–4.2** | Ídem |
+| Exigencia **B2 de español** en estudios en español o bilingües con **excepciones expresas**; **B2 de inglés** en programas íntegramente en inglés | **Art. 4.3** | Ídem |
+| Vacantes del cupo externo incrementan **cupo interno UC3M** | **Art. 4.4** | Ídem |
+
+**Contraste de norma estatal:** [**RD 534/2024, arts. 38–45**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858), incluidos porcentajes, excepciones de discapacidad/deportistas y umbral estatal **30 ECTS**. [**RD 535/2026, art. 12**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14333) modifica el **23.2** del RD 534/2024, con entrada en vigor de la nueva redacción **22/07/2026** según BOE consolidado. Las **12 respuestas históricas** se conservan; sus referencias pasan a preceptos concretos y páginas oficiales.
+
+**Limitaciones:** se ha contrastado texto web oficial y texto extraído del PDF; las capturas visuales del **BOEL** no estuvieron disponibles al intentar recuperarlas para comprobación, de modo que **no se certifica inspección visual de todas las páginas**. La **fecha de corte exigible por la base primera.7 UC3M** aún requiere la **resolución primaria** de listas definitivas. Tampoco se han realizado pruebas reales de navegador/móvil/WCAG/PWA ni una comprobación jurídica frase a frase de toda la web.
+
+> ⚠️ **¡Foco Examen!:** El texto original de traslados es de **2010**, aunque el resumen de acuerdos contenga una errata **2020**. **50 %** del cupo específico ≠ **50 %** de la oferta ordinaria; **B2 de español** admite las excepciones del artículo **4.3**.
