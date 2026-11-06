@@ -60,3 +60,10 @@ Se cotejó la **respuesta correcta literal** y la regla que la fundamenta frente
 [**Tabla PRL y casos del repaso T6–T8**](../REPASO_FOCAL_T06_T08_20261106.md), con [**Ley 31/1995 consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292): **art. 21.3** atribuye a **autoridad laboral** ratificar/anular en **24 horas** una paralización por representantes en los supuestos legales; **36.3** da a **delegados** **15 días** para informes ordinarios (o tiempo imprescindible ante riesgo inminente); **35.2** prevé **3 delegados** de **101–500** y **4** de **501–1.000**. **38.2–3**: **Comité con 50 o más** y reunión **trimestral**; [**RD 39/1997, art. 14.a**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853): **servicio propio por plantilla con más de 500**, sin perjuicio de los demás supuestos.
 
 > ⚠️ **¡Foco Examen!:** **50 (Comité)** no es **más de 500 (servicio propio)**; **24 horas de autoridad** no son **15 días de informe de delegados**.
+
+
+## Control de propuestas legislativas, no ley vigente — **06/11/2026**
+
+El [**Consejo de Ministros del 28/04/2026**](https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20260428-referencia-rueda-de-prensa-ministros.aspx) aprobó un **anteproyecto** de reforma de prevención y el **CES** lo examinó en **Dictamen 11/2026** de **27/07/2026**. Ni una aprobación de anteproyecto ni su dictamen son por sí mismos la publicación de una ley en vigor. La [**Ley 31/1995 BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) indica última actualización publicada **09/04/2026**, y el [**RD 39/1997 art. 14**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853) mantiene en el material contrastado el umbral de **más de 500** para servicio propio por tamaño, además de otras causas legales. [**Manual T7 §61.1**](manual.md).
+
+> ⚠️ **¡Foco Examen!:** Una propuesta de reducir umbrales del servicio propio **no altera automáticamente** el **art. 14 RD 39/1997**. Verificar publicación oficial y entrada en vigor antes de estudiar cifras distintas.
