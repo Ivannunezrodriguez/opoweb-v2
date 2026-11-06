@@ -103,5 +103,45 @@
     "corteNormativo": "PENDIENTE_LEER_RESOLUCION_LISTA_DEFINITIVA_Y_ANUNCIO_EJERCICIO",
     "pruebaNavegador": "PENDIENTE",
     "certificacionIntegral": false
+  },
+  "controlLoteMasivo20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_FOCAL_SIN_CIERRE_INTEGRAL",
+    "bloquesAbordados": [
+      {
+        "bloque": "Marco general y ámbito",
+        "manual": "15.1",
+        "fuente": "TREBEP 1-2",
+        "preguntasComplementarias": [
+          1,
+          2
+        ]
+      },
+      {
+        "bloque": "Derechos individuales y colectivos",
+        "manual": "15.2",
+        "fuente": "TREBEP 14-15",
+        "preguntasComplementarias": [
+          3,
+          4
+        ]
+      },
+      {
+        "bloque": "Reingreso al servicio activo",
+        "manual": "15.3",
+        "fuente": "TREBEP 87-91",
+        "preguntasComplementarias": [
+          5,
+          6
+        ]
+      }
+    ],
+    "recurso": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+    "totalPreguntasComplementarias": 6,
+    "bancoOriginalSinModificar": true,
+    "simulacrosSinModificar": true,
+    "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
+    "certificacionWeb": false,
+    "aprobacionUsuario": false
   }
 }
