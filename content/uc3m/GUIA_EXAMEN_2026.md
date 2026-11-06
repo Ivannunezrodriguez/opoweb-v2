@@ -96,3 +96,11 @@ Se ha añadido [**análisis del Volumen I institucional 2026 y 16 casos práctic
 **Fecha de corte legal:** aún pendiente de acreditar mediante texto original de la resolución definitiva UC3M, aunque exista referencia secundaria al **01/10/2026**; no atribuir oficialidad a la fuente indirecta ni asumir una nueva fecha. **Inspección visual del PDF institucional:** no disponible; la comprobación fue textual.
 
 > ⚠️ **¡Foco Examen!:** **50 % de plazas de traslado interno**, **30 ECTS reconocibles** y **60 ECTS pendientes en universidad española de origen** son magnitudes de procedimientos distintos.
+
+## Refuerzo técnico del tema 9 — Word/Excel 2019 y Google — 06/11/2026
+
+[**Repaso de 12 preguntas y 48 alternativas sobre Word 2019, Excel 2019, Gmail, Sheets y Calendar**](REPASO_OFIMATICA_T09_20261106.md). Incluye plantilla, explicaciones y fuente oficial de cada respuesta. El [**tema 9**](tema-09/manual.md) se amplía para desarrollar las parejas que más inducen a error: **combinación de correspondencia** (origen de datos/documento principal), **validación/formato condicional**, **filtro/ordenación**, **filtro/vista de filtro**, **visibilidad/edición de calendarios**.
+
+Los **12 ítems anteriores del T9** permanecen y el refuerzo no se incorpora silenciosamente a los **3 simulacros 70+5**. Su inclusión curricular no demuestra que se haya probado el portal en navegador o que se haya certificado el tema integralmente.
+
+> ⚠️ **¡Foco Examen!:** El programa dice **Word 2019 y Excel 2019**, no cualquier versión de Office ni funciones exclusivas de **Microsoft 365**.
