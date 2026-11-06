@@ -203,3 +203,10 @@ Para **Profesores Ayudantes Doctores** el **artículo 78** establece un contrato
 **Fuente:** [**LOSU art. 78, texto consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a78).
 
 > ⚠️ **¡Foco Examen!:** **6 años ordinarios**, **3 años hasta evaluación orientativa**, **180 horas lectivas**, **hasta 8 años** en situación de discapacidad prevista. La conciliación puede **interrumpir plazos** o prorrogar proporcionalmente el contrato.
+
+
+## Repaso integrado del lote T10, T11, T14 y T18 — tema 14 (06/11/2026)
+
+[**Repaso conjunto de 18 preguntas, 72 alternativas y soluciones por precepto**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md). Para este tema, consultar las preguntas **11–14**, centradas en PDI, igualdad y conciliación. Es material **complementario**, no se han reemplazado los ítems originales ni los simulacros **70+5**. Las fuentes y apartados están relacionados en [**matriz del tema**](matriz.json).
+
+> ⚠️ **¡Foco Examen!:** Antes de aplicar un plazo, porcentaje u órgano de una norma, identificar **qué Administración o colectivo** regula. **RD 364/1995 (AGE)**, **TREBEP (ámbito básico y especialidades)**, **LOSU (universidades)** y **Ley 5/2025 CM (universidades madrileñas)** no son regímenes idénticos.
