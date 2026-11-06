@@ -284,3 +284,27 @@ La **consulta previa** de decisiones que afectan a seguridad y salud es distinta
 **Fuente oficial:** [**Ley 31/1995, arts. 33 y 36 (BOE)**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292).
 
 > ⚠️ **¡Foco Examen!:** **15 días** para informar, pero en riesgo **inminente** rige el **tiempo imprescindible**. Cuando vence sin informe, el **empresario puede ejecutar** la decisión; rechazar medidas propuestas exige **motivación**.
+
+
+## 21. Coordinación de actividades empresariales: concurrentes, titular y principal
+
+El **artículo 24 de la Ley 31/1995** está desarrollado por el **Real Decreto 171/2004**, especialmente sus **artículos 2, 4 y 6–10**. La concurrencia de personal propio, empresas de limpieza o mantenimiento en un campus exige distinguir obligaciones.
+
+| Figura | Obligación característica | Referencia |
+|---|---|---|
+| **Empresas y autónomos concurrentes** | **Cooperación** incluso **sin relación contractual entre ellos**; información recíproca sobre riesgos que puedan afectar a otros. | **RD 171/2004, art. 4** |
+| Información entre empresas concurrentes | Se facilita antes del inicio, ante cambios relevantes y emergencias; **por escrito si alguna actividad genera riesgos graves o muy graves**. | **Art. 4.2** |
+| **Empresario titular** del centro | Informa a otros empresarios de **riesgos propios del centro**, medidas preventivas y de emergencia; información por escrito en riesgos **graves o muy graves**. | **Arts. 6–7** |
+| Titular **con personal propio trabajando allí** | Comunica **instrucciones** preventivas pertinentes a otras empresas; también por escrito cuando corresponda por riesgos graves o muy graves. | **Art. 8** |
+| **Empresas concurrentes** | Incorporan esa información a su evaluación, cumplen instrucciones del titular y las trasladan a sus trabajadores. | **Art. 9** |
+| **Empresario principal** | Cuando contrata o subcontrata **su propia actividad en su centro**, **vigila** contratistas y exige **acreditación escrita previa** de evaluación, planificación, información y formación. | **Art. 10** |
+
+**Ejemplo:** dos contratas de servicios que coinciden en un aula deben **cooperar** aunque no tengan contrato entre sí. La **Universidad titular** informa de riesgos del edificio. El deber adicional de vigilancia del **empresario principal** requiere los presupuestos específicos de contratación de actividad propia en su centro, no se genera por cualquier contrato en cualquier lugar.
+
+**Fuentes oficiales:** [**LPRL, art. 24**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a24) y [**RD 171/2004**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-1848), arts. **2, 4, 6–10**.
+
+> ⚠️ **¡Foco Examen!:** **Concurrencia = cooperación**; **titular = información de riesgos del centro**; **principal = vigilancia de contratistas de actividad propia en centro propio**. Si los riesgos de una actividad concurrente son **graves o muy graves**, la información correspondiente debe ser **escrita**.
+
+## Registro de ampliación focal — **06/11/2026**
+
+Se desarrollan cuatro bloques sin pregunta específica en el banco original: **ámbito (art. 3)**, **colectivos sensibles (arts. 25–28)**, **consulta (arts. 33 y 36)** y **coordinación (art. 24 y RD 171/2004)**. La fuente contrastada es el **BOE**; **no se modifican** las **12 preguntas originales** de T12 ni los simulacros. La revisión no equivale a certificación jurídico-funcional integral y no resuelve la fecha legal de corte de la convocatoria UC3M.
