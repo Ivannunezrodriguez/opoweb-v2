@@ -63,5 +63,27 @@
     "controlFuncional": "PENDIENTE_NAVEGADOR_REAL",
     "aprobacionUsuario": "PENDIENTE",
     "observaciones": "Corrección de fecha de corte normativa en fuentes.md"
+  },
+  "controlLoteJuridico20261106": {
+    "fecha": "2026-11-06",
+    "modo": "REFUERZO_FOCAL_NO_CIERRE",
+    "temasAnalizados": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "seccionesNuevasManual": "13.1–13.3",
+    "fundamento": "LOPDGDD arts 32 34 36 37; RGPD 12",
+    "preguntasNuevas": 4,
+    "alternativas": 16,
+    "ids": "UC3M-JUR-20261106-017..020",
+    "recurso": "data/uc3m-repaso-juridico-t02-t07-20261106.json",
+    "bancoOriginalSinModificar": true,
+    "certificacionLegislativaIntegral": false,
+    "certificacionNavegador": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
   }
 }
