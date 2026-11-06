@@ -418,3 +418,37 @@ El **10 %** del **artículo 109.2** no es una retención automática de **todos 
 [**Repaso conjunto de 18 preguntas, 72 alternativas y soluciones por precepto**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md). Para este tema, consultar las preguntas **15–18**, centradas en prórroga, tesorería y control presupuestario. Es material **complementario**, no se han reemplazado los ítems originales ni los simulacros **70+5**. Las fuentes y apartados están relacionados en [**matriz del tema**](matriz.json).
 
 > ⚠️ **¡Foco Examen!:** Antes de aplicar un plazo, porcentaje u órgano de una norma, identificar **qué Administración o colectivo** regula. **RD 364/1995 (AGE)**, **TREBEP (ámbito básico y especialidades)**, **LOSU (universidades)** y **Ley 5/2025 CM (universidades madrileñas)** no son regímenes idénticos.
+
+
+## 21. Universidad y presupuestos generales autonómicos: una distinción decisiva
+
+### 21.1. No integración en el presupuesto general autonómico y autonomía financiera
+
+La **Ley 5/2025, de Hacienda de la Comunidad de Madrid**, distingue expresamente **aplicación de reglas autonómicas a la gestión presupuestaria universitaria** de **integración de los presupuestos universitarios en los presupuestos generales autonómicos**.
+
+| Precepto | Hecho jurídico que debe memorizarse | No debe confundirse con |
+|---|---|---|
+| **Art. 10.1** | Corresponde a las **universidades públicas** la **elaboración, aprobación y gestión** de sus presupuestos, con aplicación de normas autonómicas y respeto a su **autonomía económica y financiera**. | Que la **Consejería de Hacienda** apruebe el presupuesto universitario ordinario. |
+| **Art. 56.3** | Los presupuestos de las **universidades públicas** y de sus **entidades dependientes** **no se integran** en los presupuestos generales de la **Comunidad de Madrid**. | Excluir a las universidades de todas las normas autonómicas. |
+| **Art. 108.1** | La **Comunidad de Madrid** establece el marco de elaboración, desarrollo y ejecución, con las peculiaridades y autonomía universitarias. | Incorporar todas las partidas universitarias al presupuesto general autonómico. |
+| **Art. 108.4** | Si el presupuesto universitario no se aprueba antes del primer día del ejercicio, **prórroga automática** hasta **publicación en BOCM** del nuevo. | Afirmar que basta aprobarlo internamente para terminar la prórroga. |
+| **Art. 108.6** | La **universidad** remite directamente los presupuestos aprobados y el último liquidado a la **Comisión de presupuestos de la Asamblea de Madrid**. | Remisión como si la universidad careciera de presupuesto propio. |
+| **Art. 182.1** | La **Tesorería General de la Comunidad de Madrid** **excluye expresamente** recursos de universidades públicas. | Decir que todas las cuentas universitarias son parte de la Tesorería General. |
+
+**Caso práctico:** si en un test se afirma que, porque la ley autonómica regula aspectos de gestión, los presupuestos de la **UC3M** «se integran en los presupuestos generales de la Comunidad de Madrid», la afirmación es **falsa según art. 56.3**, pese a que se aplique el marco del **artículo 108**.
+
+**Fuente oficial:** [**Ley 5/2025 CM, arts. 10, 56, 108 y 182, consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217).
+
+> ⚠️ **¡Foco Examen!:** **No integración presupuestaria (art. 56.3)** ≠ **no aplicación de la normativa (art. 108)**. **Tesorería General excluye fondos universitarios (182.1)**, pero eso no exime de rendir cuentas a la **Cámara de Cuentas (10.2)**.
+
+### 21.2. Mapa para enlazar los temas 18, 19 y 20
+
+| Actuación de gestión | Tema más directo | Regla esencial |
+|---|---:|---|
+| La **universidad** prepara y aprueba su presupuesto | **18** | Autonomía bajo **LOSU** y **Ley 5/2025**, art. **10** |
+| Un centro gestor propone retención de crédito **RC** | **19** | Inicio contable del gasto; **RC no crea deuda frente a tercero** |
+| El órgano de contratación aprueba el expediente o adjudica | **20** | Competencias de **Rector** y delegaciones, con límites de **LCSP** |
+| Se emite documento **O** en la nomenclatura UC3M 2026 | **19** | **Propuesta de pago** según **Normas Básicas UC3M art. 15.2.1** |
+| La prestación contratada se acredita y se paga al contratista | **19–20** | **LCSP art. 198**: conformidad y pago, con plazos propios |
+
+> ⚠️ **¡Foco Examen!:** **Crédito presupuestario disponible** no basta para adjudicar sin procedimiento ni supone que exista ya una **obligación de pago exigible**. **Presupuesto → expediente → adjudicación → conformidad → pago** son fases distintas.
