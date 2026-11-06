@@ -144,3 +144,62 @@ Los órganos de selección deben actuar con imparcialidad y procurar una composi
 [**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
 
 > ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.
+
+
+## 14. Derechos, obligaciones y equidad del PDI: artículos 64–66 y 75–76 LOSU — **06/11/2026**
+
+### 14.1. Modalidades, deberes, dedicación y retribuciones
+
+| Materia | Regla precisa | Artículo |
+|---|---|---|
+| Composición del **PDI** | Profesorado **funcionario de cuerpos docentes** y profesorado **laboral**. | **64.1** |
+| Profesorado **funcionario** en servicio activo con destino público y **PDI laboral a tiempo completo** | No pueden ser profesorado de **universidades privadas** ni centros privados adscritos, sin perjuicio de la salvedad del **art. 60.1**. | **64.2** |
+| Proporción del profesorado | El **profesorado funcionario** será **mayoritario en equivalencias a tiempo completo**, con las exclusiones de cómputo indicadas legalmente. | **64.3** |
+| Profesorado con **contrato laboral temporal** | **Máximo 8 %** en efectivos sobre la plantilla de **PDI**; **no se computan** profesorado asociado de **Ciencias de la Salud** ni **ayudante doctor**. | **64.3** |
+| Movilidad temporal del PDI | La movilidad constituye un **derecho**, con regulación de la **Ley 14/2011** y las normas y convenios aplicables. | **66.1** |
+| Adscripción temporal a otras instituciones | Puede ser a tiempo **completo o parcial**; el PDI **mantiene su adscripción a la universidad de origen**. | **66.2** |
+| Plan de dedicación anual del PDI funcionario | Refleja las **actividades académicas encomendadas**; respeta desarrollo profesional e igualdad de oportunidades. | **75.3** |
+| Retribución de funcionarios docentes universitarios | El **Gobierno** determina el régimen; pueden establecerse adicionales por **méritos docentes, investigadores y de transferencia** en los términos legales. | **76.1–2** |
+
+**Ejemplo:** el porcentaje máximo general de profesorado laboral temporal **no se calcula incluyendo automáticamente al profesorado ayudante doctor**. Y la mayoría funcionarial se evalúa en **equivalencias a tiempo completo**, no contando exclusivamente cabezas sin ajuste.
+
+**Fuente:** [**LOSU, arts. 64–66 y 75–76**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500).
+
+> ⚠️ **¡Foco Examen!:** **8 % de PDI laboral temporal** admite las **exclusiones expresas** del artículo **64.3**. **Mayoría funcionarial** se mide en **equivalentes a tiempo completo**. **Movilidad temporal** no hace perder automáticamente la adscripción de origen.
+
+### 14.2. Igualdad, conciliación y no discriminación: artículo 65 LOSU
+
+La LOSU establece obligaciones específicas para la **universidad** y la **Comunidad Autónoma**, según sus competencias; las medidas no deben confundirse con un automatismo de selección o contratación.
+
+| Medida | Sujeto / alcance legal | Precepto |
+|---|---|---|
+| Acciones positivas para acceso al **PDI** | **Se podrán** establecer reservas o preferencias a favor de personas del sexo menos representado, **en igualdad de condiciones de idoneidad**, en los términos legales. | **65.1** |
+| Cupo de discapacidad | **Universidades y Comunidades Autónomas** garantizarán el respeto al cupo de reserva del **artículo 59 TREBEP**. | **65.2** |
+| Comisiones y órganos de concursos o acreditaciones | **Composición equilibrada de mujeres y hombres** en los órganos de los **arts. 69, 71 y 86**. | **65.3** |
+| Derechos de conciliación y cuidados | **Universidades y Administraciones Públicas** favorecerán la **corresponsabilidad** y asegurarán el ejercicio de derechos de conciliación. | **65.4** |
+| Dedicación y movilidad | Criterios que garanticen igualdad real en **dedicación y acceso a movilidad**, corrigiendo desigualdades por género, edad, discapacidad y otras condiciones. | **65.4** |
+| Acreditación académica | Procedimientos con criterios que permitan **igualdad y conciliación efectivas**. | **65.4** |
+
+**Distinciones:**
+- La fórmula **«se podrán establecer»** del **artículo 65.1** no significa que todas las oposiciones o concursos reserven obligatoriamente una plaza para cada sexo.
+- La preferencia en acciones positivas requiere **igualdad de condiciones de idoneidad** y tiene por objetivo corregir infrarrepresentación.
+- La **composición equilibrada de órganos de concursos** es obligación distinta de la valoración de méritos o de una reserva en la plantilla.
+
+**Fuente:** [**LOSU, art. 65 y TREBEP art. 59**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a65).
+
+> ⚠️ **¡Foco Examen!:** **Acción positiva (65.1) potestativa y condicionada a igual idoneidad** ≠ **composición equilibrada de comisiones (65.3)**. **Conciliación** también debe incorporarse a **acreditación, movilidad y dedicación**.
+
+### 14.3. Interrupciones por conciliación: contrato de ayudante doctor (art. 78)
+
+Para **Profesores Ayudantes Doctores** el **artículo 78** establece un contrato ordinario de **seis años**, a **tiempo completo** y con límite de **180 horas lectivas por curso**; evaluación orientativa al transcurrir **tres años**. El cómputo del límite contractual y de la evaluación **se interrumpe** por las situaciones protegidas legalmente (gestación, embarazo, nacimiento, adopción, lactancia, cuidados, violencia de género, incapacidad temporal, entre otras). Si producen reducción de jornada, el contrato **se prorroga por el tiempo equivalente** al reducido. Para personas con discapacidad puede alcanzar **ocho años** en los términos del precepto.
+
+| Supuesto | Tratamiento | Confusión habitual |
+|---|---|---|
+| Ayudante doctor sin incidencia protegida | Contrato **6 años**; evaluación tras **3**; hasta **180 h lectivas/año**. | Confundir horas lectivas con jornada total. |
+| Situaciones protegidas de conciliación o IT | **Interrupción** del cómputo contractual y de evaluación. | Contar sin pausa un período protegido. |
+| Reducción de jornada por dichas situaciones | **Prórroga proporcional** al tiempo equivalente a jornada reducida. | Pensar que la reducción de jornada no afecta al cómputo. |
+| Contratación de persona con discapacidad | Duración posible **hasta 8 años**, con requisitos del art. 78. | Tratar **8 años** como plazo ordinario para todos. |
+
+**Fuente:** [**LOSU art. 78, texto consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a78).
+
+> ⚠️ **¡Foco Examen!:** **6 años ordinarios**, **3 años hasta evaluación orientativa**, **180 horas lectivas**, **hasta 8 años** en situación de discapacidad prevista. La conciliación puede **interrumpir plazos** o prorrogar proporcionalmente el contrato.
