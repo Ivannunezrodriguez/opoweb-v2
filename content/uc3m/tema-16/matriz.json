@@ -129,5 +129,35 @@
     "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_LISTAS_DEFINITIVAS",
     "reservaFuentePrimaria": "Fecha y efecto judicial RD 822/2021 vs corte de bases"
+  },
+  "controlNormativaUC3MReconocimiento20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_DOCUMENTAL_FOCAL_NO_CIERRE_INTEGRAL",
+    "norma": "UC3M BOEL 22/01/2026, anexo 3, normativa de reconocimiento aprobada 11/12/2025",
+    "url": "https://sede.uc3m.es/boel/anexo/11307/",
+    "vigencia": "2026-01-23",
+    "articulos": [
+      {
+        "grupo": "Art. 4, 14–15",
+        "contenido": "Reconocimiento formación básica mismo campo, TFE excepción movilidad, 6 ECTS/10 % actividades y 25 % FP superior"
+      },
+      {
+        "grupo": "Art. 16, 19–21",
+        "contenido": "Solicitudes 1/7–15/9, antes 1/11, posteriores 90 días; actividades 30 días; Decano/Director y alzada Rector"
+      },
+      {
+        "grupo": "Art. 27, DA1, DT, derogatoria y final",
+        "contenido": "Transferencia distinta de reconocimiento; oficio para admisión por estudios parciales; norma antigua 2010 derogada, solicitudes en curso rigen por norma al solicitar"
+      }
+    ],
+    "repaso": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md",
+    "preguntasRepaso": 6,
+    "alternativasRepaso": 24,
+    "bancoOriginalPreguntas": 21,
+    "bancoOriginalNoModificado": true,
+    "cotejo": "FUENTE_PRIMARIA_TEXTUAL_CUADRO_ARTICULOS",
+    "inspeccionVisualPDF": "NO_DISPONIBLE",
+    "corteNormativo": "PENDIENTE_RESOLUCION_ORIGINAL_LISTAS_DEFINITIVAS",
+    "certificacionWeb": false
   }
 }
