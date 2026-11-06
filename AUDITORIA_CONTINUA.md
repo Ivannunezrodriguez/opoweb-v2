@@ -2914,3 +2914,31 @@ Se sustituyó el resumen de cinco denominaciones del antiguo **apartado 16** por
 **LÍMITES/ESTADO:** tema sigue `EN_REVISION_USUARIO` (valor heredado del repositorio): ampliación **focal**, no cierre documental global ni aprobación del usuario. La **base primera.7 UC3M** sigue pendiente de la resolución primaria para fijar fecha exacta de corte normativo; no asumir automáticamente el día del examen **21/11/2026**. Conservar contadores globales precedentes **58/121 cierres documentales**, **0/121 certificados integralmente**, **Diputación C2 19/20** con **OAPGT T6 bloqueado**.
 
 **Próximo bloque sugerido:** examinar las lagunas del **UC3M T14 (LOSU II)**, especialmente PDI e igualdad, sin repetir T13 ni alterar preguntas originales.
+
+
+## 128. AUDITORÍA TRANSVERSAL UC3M + INTEGRACIÓN DE 126 REPASOS EN LA WEB (**06/11/2026**)
+
+**NECESIDAD DETECTADA POR EL USUARIO:** evitar procesar un tema aislado cada vez y dejar de producir material de repaso que solo existe en Markdown, **sin estar accesible en el motor de práctica**. Se prioriza cerrar el circuito **fuente oficial → pregunta con explicación → recurso estructurado → botón de entrenamiento → test automatizado**.
+
+### A. Diagnóstico conjunto de 20 temas UC3M
+
+Creado [**COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md**](content/uc3m/COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md), commit **d9011b459142cae029cccac30688043b0b560f73**: **20 matrices**, **183 bloques** declarados y **24 bloques en 9 temas** con `preguntas: []` en el banco histórico. Todos los **24** tienen ahora **refuerzo documentado** en manuales o repasos independientes de esta fecha. **No se han falseado las matrices históricas introduciendo IDs inexistentes**, ni esa cobertura complementaria certifica calidad jurídica completa.
+
+### B. Integración de repositorio en motor de tests UC3M
+
+1. [**Nuevo banco JSON complementario**](data/uc3m-repasos-complementarios-20261106.json) creado a partir de **7 repasos Markdown**: **86 preguntas** con **4 opciones**, respuesta correcta, respuesta literal, justificación, trampa, fuente editorial y referencia; commit **827bcef5cc62cabfff7668b545ad4b3d0f8050e0**.
+2. Reutilizados **dos bancos JSON preexistentes**: [repaso final T13–T20](data/uc3m-repaso-temas-13-20-20261106.json), **24 preguntas**, y [supuestos económicos T18–19](data/uc3m-presupuesto-supuestos-20261106.json), **16 preguntas**. **Total: 126 preguntas complementarias en 9 paquetes**. Son preguntas de elaboración propia, no modelos oficiales.
+3. [**assets/practice.js**](assets/practice.js) ahora carga los tres orígenes, valida la estructura de cada paquete, muestra sección **«Repasos adicionales UC3M»** (solo UC3M), conecta botón de cada paquete al sistema existente `renderExercise`, y registra correcciones en el historial del navegador. La carga es opcional: un error de un archivo complementario **no debe bloquear los tests históricos**. Commit **a053be4ffbf307be89fa6a109feb358976b72014**.
+4. [**practice.html**](practice.html) aumenta versión del script a `2026.11.06.2` para invalidar caché, commit **6a9c9b95508942d4e7360317b352f244d68e9c6c**.
+5. [**Prueba de integridad**](tests/validate-uc3m-extra-repasos-20261106.mjs) añadida, commit **3720a74a5d05368aa6e08f217f76777037606ebe**, e incorporada a `npm test` en [**package.json**](package.json), commit **338558eeb1b2fc86bd8f15e3fae8f31d0f749f5e**.
+6. [**GUIA_EXAMEN_2026.md**](content/uc3m/GUIA_EXAMEN_2026.md) incluye el acceso al entrenamiento adicional y diferencia **repasos** de **simulacros oficiales**, commit **b2c61221bcffe457123487ff5a6fccd432c79965**.
+
+**QA estática realmente realizada por lectura de archivos GitHub:** **9 paquetes**, distribución **12+12+12+12+18+12+8+24+16 = 126**, **126 IDs únicos**, todas las respuestas literales corresponden a una de las cuatro alternativas, cada pregunta tiene respuesta válida, justificación y referencia; `assets/practice.js`, `practice.html` y el guion `npm test` contienen las rutas y enlaces previstos. Los archivos principales `content/uc3m/tema-XX/preguntas.json` y simulacros no se modificaron en esta intervención.
+
+**Límites de certificación:** al registrar este lote, la nueva prueba automatizada estaba incorporada al flujo CI, pero **no debe darse por superada hasta obtener evidencia de resultado de GitHub Actions**. El contenido fue cargado en GitHub; su **visualización real en GitHub Pages, funcionamiento móvil, accesibilidad y PWA siguen pendientes de comprobación E2E**. El **corte normativo UC3M (base primera.7)** continúa pendiente de fecha exacta acreditada en la resolución primaria de listas definitivas/anuncio. Ni este repaso adicional ni su puntuación porcentual acreditan aprobado sobre **70+5**, que depende de la nota directa y conversión del tribunal.
+
+### C. Seguimiento global no inflado
+
+Se conservan los contadores del último registro jurídico sin recalificación automática: **58/121 cierres documentales fechados** (no garantía de vigencia ni de pruebas completas) y **0/121 con certificación integral acreditada**. La **Diputación Auxiliar C2** permanece en **19/20** con **OAPGT tema 6** bloqueado por normas originales y reformas pendientes; no presentar su banco como examen válido mientras no se corrobore.
+
+**Siguiente prioridad:** comprobar que **CI** e interfaz desplegada aceptan los **126** ejercicios, luego extender el enfoque por lotes a los temas con riesgos jurídicos **aunque ya tengan preguntas**, no volver a rellenar mecánicamente solo listas `preguntas: []`.
