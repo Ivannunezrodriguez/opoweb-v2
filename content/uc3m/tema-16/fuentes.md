@@ -136,3 +136,12 @@ Se han revisado individualmente **UC3M-T16-017 a UC3M-T16-021**, sus cuatro alte
 **Estado:** contraste jurídico-editorial de artículos concretos; no modifica el banco histórico, no agrega preguntas no examinadas y **no certifica íntegramente el tema**. La fecha normativa de la **base primera.7 UC3M** permanece pendiente de la resolución definitiva primaria.
 
 > ⚠️ **¡Foco Examen!:** Las cifras dependen del **régimen jurídico y supuesto**; no sumar porcentajes diferentes ni mezclar cómputos de ECTS con reservas de plazas.
+
+
+## Cierre documental contrastado T16 — **06/11/2026**
+
+[**Acta de cierre con reservas y comparativas**](../CIERRE_DOCUMENTAL_T16_20261106.md). Contraste de [**RD 822/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781) (arts. **11, 13, 14, 17, 22**), [**sentencia de nulidad de RD 905/2025, BOE-A-2026-22083**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22083) y [**BOEL UC3M de 22/01/2026, anexo 3**](https://sede.uc3m.es/boel/anexo/11307/) (arts. **4.5, 14.3, 15, 16.3, 19.1–2, 20.1**). Se corrigen **seis referencias por artículo** del banco complementario sin cambiar respuestas ni alternativas; permanece la auditoría de las **21 históricas/84 alternativas**.
+
+**Reserva técnica y legal:** el documento BOEL se pudo consultar como texto indexado, pero **no recuperar captura visual de las páginas**, por lo que no se declara inspección visual completa. **Sin resolución primaria fechada de listas definitivas** no puede fijarse la aplicación temporal de la sentencia de **23/10/2026**. Faltan navegación E2E/móvil, pruebas WCAG/PWA y aprobación del usuario.
+
+> ⚠️ **¡Foco Examen!:** **Arts. 14 y 17 RD 822/2021** siguen delimitando TFG/TFM, créditos y prácticas. **90 días** de solicitudes posteriores a **15/09** ≠ **30 días** de actividades específicas de reconocimiento.
