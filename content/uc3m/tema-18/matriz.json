@@ -186,5 +186,20 @@
     "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
     "certificacionWeb": false,
     "aprobacionUsuario": false
+  },
+  "controlEconomiaLCSP20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REFUERZO_FOCAL_SIN_CIERRE",
+    "fuente": "Ley 5/2025 CM arts. 10.1, 56.3, 108.1/4/6 y 182.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217",
+    "manual": "21.1–21.2",
+    "repaso": "content/uc3m/REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md",
+    "bancoComplementario": "data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json",
+    "preguntasComplementarias": 4,
+    "indicesDeRepaso": "1–4",
+    "bancoHistoricoSinCambios": true,
+    "simulacrosSinCambios": true,
+    "certificacionIntegral": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
   }
 }
