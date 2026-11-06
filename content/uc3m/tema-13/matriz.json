@@ -95,5 +95,69 @@
     "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "fechaCorteNormativo": "PENDIENTE_DOCUMENTO_OFICIAL_LISTAS_DEFINITIVAS_UC3M",
     "observacion": "LOSU 4-5 ley de creación/autorización y calidad; auditoría focal previa ampliada a 48 alternativas"
+  },
+  "refuerzo20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_FOCAL_DOCUMENTAL_NO_CIERRE",
+    "norma": "LOSU Ley Orgánica 2/2023",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+    "ultimaActualizacionBOE": "2024-08-02",
+    "bloquesSinPreguntaPrevia": [
+      "Coordinación y cooperación institucional",
+      "Estructuras universitarias",
+      "Principios de la docencia",
+      "Cooperación universitaria"
+    ],
+    "trazabilidad": [
+      {
+        "bloque": "Coordinación y cooperación institucional",
+        "manual": "5.1",
+        "preceptos": "LOSU 14-17",
+        "preguntasNuevas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "bloque": "Estructuras universitarias",
+        "manual": "7.1-7.2",
+        "preceptos": "LOSU 40-43",
+        "preguntasNuevas": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "bloque": "Principios de la docencia",
+        "manual": "9.1",
+        "preceptos": "LOSU 6-9",
+        "preguntasNuevas": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "bloque": "Cooperación universitaria",
+        "manual": "12.1",
+        "preceptos": "LOSU 11-14",
+        "preguntasNuevas": [
+          10,
+          11,
+          12
+        ]
+      }
+    ],
+    "repaso": "content/uc3m/REPASO_LOSU_T13_20261106.md",
+    "preguntasComplementarias": 12,
+    "alternativasComplementarias": 48,
+    "bancoOriginalPreguntas": 12,
+    "bancoOriginalNoModificado": true,
+    "aprobacionUsuario": false,
+    "fechaCorteNormativoUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_LISTAS_DEFINITIVAS",
+    "verificacion": "BOE_HTML_CONSOLIDADO",
+    "certificacionFuncional": false
   }
 }
