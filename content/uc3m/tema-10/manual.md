@@ -253,3 +253,55 @@ El derecho de reducción retribuida del **art. 49.e** exige circunstancias y lí
 [**Auditoría individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md) con fundamento normativo, descarte razonado de cada distractor y bloques **¡Foco Examen!**. Esta revisión **no constituye aprobación del usuario** ni acredita **prueba en navegador real**. El **corte normativo UC3M** sigue siendo la fecha de publicación de listas definitivas y anuncio de ejercicio, pendiente de cotejo del original primario.
 
 > ⚠️ **¡Foco Examen!:** **TREBEP art. 64.2**: la prohibición de aceptar renuncia cuando existe auto de procesamiento o apertura de juicio oral se refiere a **algún delito**, no solo a delitos funcionales.
+
+
+## 15. Ampliación de tres bloques TREBEP con baja cobertura — **06/11/2026**
+
+### 15.1. Ámbito y especialidades: arts. 1–5 TREBEP
+
+| Colectivo o ámbito | Regla de aplicación | Artículo |
+|---|---|---|
+| **Universidades públicas** | Están expresamente incluidas en el ámbito del TREBEP para sus **funcionarios** y, en lo procedente, personal laboral. | **2.1.e** |
+| **Personal laboral** de Administraciones | Aplicación de las normas del TREBEP que correspondan y de la legislación laboral. | **1.2 y 2.1** |
+| Personal de investigación | Pueden aprobarse **normas singulares** para adaptar el Estatuto a sus peculiaridades. | **2.2** |
+| **Personal docente** y **personal estatutario de los servicios de salud** | Legislación específica y TREBEP, con las **exclusiones expresas** de **2.3**; el personal estatutario se entiende incluido cuando el TREBEP alude a funcionarios de carrera, según **2.4**. | **2.3–4** |
+| Personal no incluido directamente en el ámbito | TREBEP aplicable **supletoriamente**. | **2.5** |
+
+La norma distingue **régimen básico** de empleo público, **especialidades sectoriales** y **normativa universitaria**; no convierte a todo trabajador de universidad en funcionario ni aplica automáticamente cada precepto al personal laboral.
+
+**Fuente:** [**TREBEP, arts. 1 y 2**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a2).
+
+> ⚠️ **¡Foco Examen!:** **Universidades públicas incluidas**, pero **personal funcionario ≠ laboral** y **PDI o sanitario estatutario** puede tener especialidades legales. **Supletoriedad** no significa aplicación directa indiscriminada.
+
+### 15.2. Derechos individuales y de ejercicio colectivo: arts. 14–15
+
+| Naturaleza | Ejemplo de derecho | Precepto |
+|---|---|---|
+| **Individual** | **Inamovilidad en la condición de funcionario de carrera** (no garantiza el mismo puesto concreto). | **14.a** |
+| **Individual** | **Desempeño efectivo** de funciones; **progresión en la carrera y promoción interna**; **retribuciones e indemnizaciones**; formación continua. | **14.b–g** |
+| **Individual** | **Intimidad, orientación sexual, identidad sexual, expresión de género, imagen y dignidad**, frente al acoso; no discriminación. | **14.h–i** |
+| **Individual** | Conciliación de vida personal, familiar y laboral; **desconexión digital** y descansos en los términos legales. | **14.j y 14.j bis** |
+| **Individual de ejercicio colectivo** | Libertad sindical, **negociación colectiva**, huelga con garantía de servicios esenciales, planteamiento de conflictos colectivos, reunión. | **15.a–e** |
+
+**Dos confusiones habituales:** **inamovilidad** corresponde a la **condición de funcionario de carrera**, no a permanecer siempre en un destino; la **negociación colectiva** es de ejercicio colectivo, aunque sus efectos puedan beneficiar individualmente al empleado.
+
+**Fuente:** [**TREBEP, arts. 14 y 15**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719).
+
+> ⚠️ **¡Foco Examen!:** **Inamovilidad de la condición**, no del **puesto**. **Huelga y negociación colectiva: art. 15**; **formación y conciliación: art. 14**.
+
+### 15.3. Reingreso al servicio activo: reglas generales y supuestos diferentes
+
+El **artículo 91 TREBEP** no fija un plazo único general de reingreso para todas las situaciones: remite a **regulación reglamentaria de plazos, procedimientos y condiciones**, respetando la **reserva de puesto** cuando proceda. Debe identificarse la **situación administrativa de origen**.
+
+| Procedencia | Regla para el reingreso | Fuente |
+|---|---|---|
+| **Servicios especiales** | Derecho, al menos, a reingresar en la **misma localidad**, en condiciones y retribuciones del nivel/categoría de carrera consolidado. | **87.3** |
+| **Servicios en otras Administraciones Públicas** | Retorno a origen con reconocimiento profesional de progresos, sujeto al procedimiento de movilidad y colaboración legalmente establecido. | **88.4–5** |
+| Finalización de causa de otra situación | El incumplimiento de la obligación de solicitar reingreso en el plazo **reglamentariamente determinado** puede implicar **excedencia voluntaria por interés particular de oficio**. | **89.2** |
+| Reglas transversales de reingreso | Plazos y procedimientos concretos se **regulan reglamentariamente**, respetando reservas de puesto legales. | **91** |
+
+**Advertencia de examen:** no debe inventarse un plazo de **15, 20 o 30 días** para **todos** los reingresos a partir del **artículo 91**, porque este no lo establece. Hay supuestos particulares con plazos propios, que deben identificarse y citarse expresamente.
+
+**Fuente:** [**TREBEP, arts. 87–91, consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719).
+
+> ⚠️ **¡Foco Examen!:** **Art. 91 = remisión reglamentaria**, no plazo universal. **Reingreso desde servicios especiales** y **desde excedencia** pueden presentar reglas distintas.
