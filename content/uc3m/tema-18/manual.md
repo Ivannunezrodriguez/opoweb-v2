@@ -452,3 +452,10 @@ La **Ley 5/2025, de Hacienda de la Comunidad de Madrid**, distingue expresamente
 | La prestación contratada se acredita y se paga al contratista | **19–20** | **LCSP art. 198**: conformidad y pago, con plazos propios |
 
 > ⚠️ **¡Foco Examen!:** **Crédito presupuestario disponible** no basta para adjudicar sin procedimiento ni supone que exista ya una **obligación de pago exigible**. **Presupuesto → expediente → adjudicación → conformidad → pago** son fases distintas.
+
+
+## Repaso económico transversal T18–T20 — tema 18 (06/11/2026)
+
+[**Tabla de comparación conjunta T18–T20**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md), con las diferencias entre **presupuesto**, **pago** y **contratación**; [**12 preguntas adicionales en prácticas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección «Repasos adicionales UC3M». El **tema 18** aporta las preguntas **1–4**. No se alteran el banco original ni los simulacros.
+
+> ⚠️ **¡Foco Examen!:** Identificar siempre la **norma citada** y la **fase de gasto o contrato** antes de escoger plazo o cuantía.
