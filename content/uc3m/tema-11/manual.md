@@ -204,3 +204,10 @@ La **Comisión Permanente** no es una denominación alternativa del **Tribunal**
 **Fuentes:** [**RD 364/1995, arts. 10–16 y 18**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729).
 
 > ⚠️ **¡Foco Examen!:** **Tribunal = impar y al menos 5, más suplentes**. **Comisión Permanente = impar**, pero no trasladar sin fundamento su mínimo. Entre ejercicios: **72 horas–45 días naturales**; solicitudes de ingreso AGE: **20 días naturales**, cifras de reglas distintas.
+
+
+## Repaso integrado del lote T10, T11, T14 y T18 — tema 11 (06/11/2026)
+
+[**Repaso conjunto de 18 preguntas, 72 alternativas y soluciones por precepto**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md). Para este tema, consultar las preguntas **7–10**, centradas en ámbito RD 364/1995, tribunales y convocatorias. Es material **complementario**, no se han reemplazado los ítems originales ni los simulacros **70+5**. Las fuentes y apartados están relacionados en [**matriz del tema**](matriz.json).
+
+> ⚠️ **¡Foco Examen!:** Antes de aplicar un plazo, porcentaje u órgano de una norma, identificar **qué Administración o colectivo** regula. **RD 364/1995 (AGE)**, **TREBEP (ámbito básico y especialidades)**, **LOSU (universidades)** y **Ley 5/2025 CM (universidades madrileñas)** no son regímenes idénticos.
