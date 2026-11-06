@@ -76,3 +76,20 @@ La redacción de **2003** no basta por sí sola para el cese. El [**Decreto 95/2
 [**Informe individual de 21 preguntas y 84 alternativas exactas**](cotejo-integral-2026-11-04.md): fundamento por **artículo**, descarte de distractores y **¡Foco Examen!**. **Estado COTEJO_BANCO_COMPLETO**, pero **NO** aprobación del usuario ni prueba visual integral. La legislación vigente se toma en la fecha definida por la **base primera.7** de UC3M, pendiente de verificar por resolución primaria.
 
 > ⚠️ **¡Foco Examen!:** Para el **Defensor** exige **mitad más uno de todos los miembros** del **Claustro**; para el **Adjunto**, **mayoría simple**. El cese a petición propia no se equipara al cese por acuerdo del Claustro tras la modificación del **artículo 127.2** por **Decreto 95/2009**.
+
+## Cotejo directo del desarrollo estatutario de servicios y hacienda — **06/11/2026**
+
+**Publicación oficial primaria:** [Decreto 1/2003, texto de los Estatutos UC3M](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782); verificar modificaciones con [Decreto 95/2009, BOCM 288 de 04/12/2009](https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf). Se han consultado los epígrafes oficiales de los siguientes artículos y **ampliado el manual**, conservando las **21 preguntas previas**:
+
+| Materia oficial | Artículos | Datos de oposición ahora explícitos en el manual |
+|---|---|---|
+| Servicios universitarios | **157–159** | **Rector** propone; **Consejo de Gobierno** crea/suprime y aprueba reglamentos; **Rector** nombra dirección y aprueba contratos/convenios. |
+| Servicios específicos | **160–165** | OTRI, Biblioteca, Informática, residencia y controles; mínimo **8 %** del **capítulo de bienes y servicios**, **no** del presupuesto total (**161.4**). |
+| Patrimonio | **167–169** | Gestión del **Consejo de Gobierno** con intervención del **Consejo Social**; inventario **anual Gerente** e inscripción **Secretario General**. |
+| Presupuesto y rendición de cuentas | **170–171** | **Gerente → Rector → Consejo de Gobierno → Consejo Social**; memoria económica anual y aprobación definitiva. |
+| Control | **174** | Auditoría externa **anual**, nombramiento del auditor **máximo cinco años**, resultados a tres órganos. |
+| Contratación | **175–177** | **Rector** contratante y acuerdo del **Consejo Social** en inversiones **superiores a un año** con fondos públicos comprometidos de ejercicios futuros. |
+
+**Límite:** lectura y ampliación jurídico-editorial focal de los apartados indicados. La comprobación de modificaciones posteriores, corte exacto de legislación **UC3M base primera.7**, y pruebas funcionales **no** están certificados en esta operación. Esta ficha no convierte el tema a `AUDITADO` integral ni altera el banco histórico.
+
+> ⚠️ **¡Foco Examen!:** **8 %** del capítulo de bienes y servicios, **no** del presupuesto total; **auditoría anual** frente a **nombramiento del auditor de hasta cinco años**; **Gerente inventaría**, **Secretario General registra**.
