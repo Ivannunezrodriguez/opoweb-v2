@@ -35,6 +35,8 @@ jobs:
         run: node tests/validate-uc3m-cierres-t13-t14-20261106.mjs
       - name: Comprobar cierre documental UC3M T15 Estatutos y 178.3
         run: node tests/validate-uc3m-cierre-t15-20261106.mjs
+      - name: Comprobar cierre documental UC3M T16 ensenanzas y BOEL 2026
+        run: node tests/validate-uc3m-cierre-t16-20261106.mjs
       - name: Verificar menú adaptable e integración OpoRadar
         run: node tests/validate-portal-navigation.mjs
       - name: Validar programa y bancos de La Puebla
