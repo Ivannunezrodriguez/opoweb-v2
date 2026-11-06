@@ -14,7 +14,7 @@
       "correcta": 2,
       "justificacion": "El presupuesto de ingresos y el de gastos ascienden a 300.468.067,59 euros.",
       "trampa": "205.969.445,65 euros corresponde al total de ingresos corrientes, no al presupuesto total.",
-      "referencia": "Manual, apartado 4",
+      "referencia": "UC3M Presupuesto 2026 (importe aprobado), BOCM 30/12/2025, anexo ingresos y gastos · https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF",
       "respuestaLiteral": "300.468.067,59 euros"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 0,
       "justificacion": "El artículo 57 de la LOSU exige que sea público, único, equilibrado y comprenda la totalidad de ingresos y gastos.",
       "trampa": "La autonomía universitaria no elimina las exigencias legales de estructura y control.",
-      "referencia": "Manual, apartado 3",
+      "referencia": "LOSU, art. 57.1 (presupuesto universitario publico, unico y equilibrado) · https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a57",
       "respuestaLiteral": "Público, único, equilibrado y comprensivo de todos los ingresos y gastos"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 3,
       "justificacion": "Los gastos se clasifican mediante estructura orgánica, funcional o por programas y económica.",
       "trampa": "Los ingresos usan estructura orgánica y económica, sin clasificación funcional.",
-      "referencia": "Manual, apartado 5",
+      "referencia": "Ley 5/2025 de Hacienda de la Comunidad de Madrid, art. 108.2.a (estructura gastos) · https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108",
       "respuestaLiteral": "Orgánica, funcional o por programas y económica"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 1,
       "justificacion": "Las transferencias corrientes ascienden a 146.834.705,33 euros, el mayor importe del estado de ingresos.",
       "trampa": "Las tasas y precios públicos son relevantes, pero su cuantía es inferior.",
-      "referencia": "Manual, apartado 7",
+      "referencia": "UC3M Presupuesto 2026, ingresos capitulo IV, BOCM 30/12/2025 · https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF",
       "respuestaLiteral": "Capítulo IV, transferencias corrientes"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 3,
       "justificacion": "Los créditos limitan la cuantía y vinculan el gasto a la finalidad y nivel autorizados.",
       "trampa": "La necesidad del gasto no permite superar automáticamente el crédito disponible.",
-      "referencia": "Manual, apartado 10",
+      "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 5 (creditos limitativos y vinculantes), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "Limitativo y vinculante"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 1,
       "justificacion": "La regla general es el nivel de concepto dentro de cada centro y programa.",
       "trampa": "Los capítulos I, II y VI son excepciones con vinculación a nivel de capítulo.",
-      "referencia": "Manual, apartado 10",
+      "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 5 (vinculacion por concepto y excepciones I, II, VI), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "Nivel de concepto dentro de cada centro y programa"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 0,
       "justificacion": "La transferencia mueve la totalidad o parte de un crédito de un concepto a otro.",
       "trampa": "La generación incrementa créditos por nuevos ingresos o financiación, pero no traslada crédito existente.",
-      "referencia": "Manual, apartado 11.3",
+      "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 6 (transferencias de credito), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "Transferencia de crédito"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 1,
       "justificacion": "Las Normas Básicas de Gestión exigen acuerdo del Consejo Social y autorización autonómica.",
       "trampa": "Es una transferencia especialmente restringida por alterar la naturaleza económica del gasto.",
-      "referencia": "Manual, apartado 11.3",
+      "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 6 (capital a corriente), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "Consejo Social y autorización del Gobierno de la Comunidad de Madrid"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 3,
       "justificacion": "Los créditos no sujetos a obligaciones reconocidas quedan anulados, aunque algunos remanentes pueden incorporarse si cumplen los requisitos.",
       "trampa": "La incorporación es una excepción, no la regla general.",
-      "referencia": "Manual, apartado 11.4",
+      "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, cierre e incorporacion de remanentes, Manual T18 apartado 11.4 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "Quedan anulados, salvo incorporaciones permitidas"
     },
     {
@@ -149,7 +149,7 @@
       "correcta": 2,
       "justificacion": "Puede reconocerse un derecho antes de que se produzca el cobro material.",
       "trampa": "Confundir devengo con tesorería es un error frecuente.",
-      "referencia": "Manual, apartados 13 y 14",
+      "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 14.1 (derechos y cobros), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "Son fases distintas de la ejecución"
     },
     {
@@ -164,7 +164,7 @@
       "correcta": 2,
       "justificacion": "Los ingresos afectados están vinculados a proyectos, subvenciones o finalidades determinadas.",
       "trampa": "La existencia de tesorería no elimina la obligación de respetar el destino finalista.",
-      "referencia": "Manual, apartado 9",
+      "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, financiacion afectada, Manual T18 apartado 9 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "Debe aplicarse a la finalidad concreta que la origina"
     },
     {
@@ -179,7 +179,7 @@
       "correcta": 0,
       "justificacion": "Las normas de 2026 prevén la reunión del grupo una vez transcurridos 120 días desde la emisión.",
       "trampa": "A los 90 días se inicia el proceso de incobrados, pero la reunión se sitúa a los 120 días.",
-      "referencia": "Manual, apartado 16",
+      "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 14.2 (30/60/90/120 dias), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
       "respuestaLiteral": "120 días"
     }
   ],
