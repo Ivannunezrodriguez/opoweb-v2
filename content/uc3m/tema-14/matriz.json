@@ -121,5 +121,36 @@
     "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "fechaCorteNormativo": "PENDIENTE_DOCUMENTO_OFICIAL_LISTAS_DEFINITIVAS_UC3M",
     "observacion": "Clave T14-002 sigue B; nota histórica B-a-C rectificada; art45.3 PDI 51%"
+  },
+  "controlLoteMasivo20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_FOCAL_SIN_CIERRE_INTEGRAL",
+    "bloquesAbordados": [
+      {
+        "bloque": "Derechos y deberes del PDI",
+        "manual": "14.1",
+        "fuente": "LOSU 64,66,75-76",
+        "preguntasComplementarias": [
+          11,
+          12
+        ]
+      },
+      {
+        "bloque": "Igualdad, conciliación y no discriminación",
+        "manual": "14.2-14.3",
+        "fuente": "LOSU 65,78",
+        "preguntasComplementarias": [
+          13,
+          14
+        ]
+      }
+    ],
+    "recurso": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+    "totalPreguntasComplementarias": 4,
+    "bancoOriginalSinModificar": true,
+    "simulacrosSinModificar": true,
+    "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
+    "certificacionWeb": false,
+    "aprobacionUsuario": false
   }
 }
