@@ -10,7 +10,9 @@
         2,
         3
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "LCSP arts. 1–3, 4–11",
+      "fuenteOficial20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     },
     {
       "bloque": "Tipos y naturaleza de contratos",
@@ -18,14 +20,18 @@
         4,
         5
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "LCSP arts. 12–18, 25–26",
+      "fuenteOficial20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     },
     {
       "bloque": "Perfección y formalización",
       "apartados": [
         6
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "LCSP arts. 36, 153–154",
+      "fuenteOficial20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     },
     {
       "bloque": "Órgano y mesa de contratación",
@@ -33,7 +39,9 @@
         7,
         8
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "Estatutos UC3M 175–176; LCSP 326",
+      "fuenteOficial20261106": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
     },
     {
       "bloque": "Objeto, lotes y magnitudes económicas",
@@ -43,7 +51,9 @@
         11,
         12
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "LCSP arts. 99–103",
+      "fuenteOficial20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     },
     {
       "bloque": "Preparación, tramitación y pliegos",
@@ -53,7 +63,9 @@
         15,
         16
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "LCSP arts. 115–124, 131–143",
+      "fuenteOficial20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     },
     {
       "bloque": "Procedimientos, umbrales y contrato menor",
@@ -62,7 +74,9 @@
         18,
         19
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "LCSP arts. 21–22, 44, 118, 159; Orden HAC/1517/2025",
+      "fuenteOficial20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     },
     {
       "bloque": "Adjudicación, ofertas y garantías",
@@ -73,14 +87,18 @@
         23,
         24
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "LCSP arts. 145–153; 106–114",
+      "fuenteOficial20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     },
     {
       "bloque": "Ejecución, modificación y resolución",
       "apartados": [
         25
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "LCSP arts. 198, 203–207, 211",
+      "fuenteOficial20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
     },
     {
       "bloque": "Contratación específica UC3M",
@@ -89,7 +107,9 @@
         27,
         28
       ],
-      "estado": "cubierto"
+      "estado": "cubierto",
+      "articulosCotejo20261106": "Estatutos UC3M 175–177; LCSP 63 y contratación electrónica",
+      "fuenteOficial20261106": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
     }
   ],
   "controlVigencia": "LCSP consolidada con última actualización publicada el 09/04/2026",
@@ -119,5 +139,41 @@
     "simulacrosSinCambios": true,
     "certificacionIntegral": false,
     "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "cierreDocumentalT20_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T20_20261106.md",
+    "test": "tests/validate-uc3m-cierre-t20-20261106.mjs",
+    "bloquesMatriz": 10,
+    "preguntasOriginales": 12,
+    "alternativasOriginales": 48,
+    "preguntasComplementarias": 5,
+    "alternativasComplementarias": 20,
+    "preguntasTotal": 17,
+    "alternativasTotal": 68,
+    "refsPrecisadas": 17,
+    "fuentes": [
+      "BOE-A-2017-12902",
+      "BOE-A-2025-26605",
+      "BOE-A-2003-17782",
+      "UC3M Presupuesto 2026 Vol. I"
+    ],
+    "temasCruciales": [
+      "umbrales: 15000, 40000, 60000, 140000, 100000, 216000",
+      "formalizacion: 15 dias habiles, oferta simplificado: 15 naturales, abreviado: 10 habiles",
+      "art 118.5 solo exime informe 118.2 con pago por caja fija y VEC <=5000"
+    ],
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "navegadorE2E": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_LISTAS_DEFINITIVAS",
+    "pendientes": [
+      "comprobacion de corte de base primera.7",
+      "ejecucion Node CI y navegador",
+      "WCAG PWA movil y persistencia",
+      "auditoria juridica integral y aprobacion"
+    ]
   }
 }
