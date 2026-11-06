@@ -1417,7 +1417,7 @@ Responder sin consultar:
 - Régimen electoral municipal: artículos 176–200 desarrollados.
 - Régimen electoral provincial: artículos 202–209 desarrollados.
 - Jurisprudencia constitucional relevante del artículo 197: incorporada.
-- Preguntas trazables: no creadas todavía.
+- Preguntas trazables: **12 preguntas con 48 alternativas y cotejo individual de 04/11/2026** en [banco temático](preguntas.json) y [control de distractores](cotejo-integral-2026-11-04.md). La nota original de julio que afirmaba que no existían preguntas estaba desactualizada.
 - Revisión del usuario: **aprobada el 17 de julio de 2026**.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
@@ -1430,3 +1430,42 @@ Comprobados el programa de **8 ámbitos**, la regulación municipal y provincial
 
 > ⚠️ **¡Foco Examen!:** Desde **23/10/2026** son vigentes los cambios de los **arts. 25.2.q y 69.1 LRBRL** sobre discapacidad, accesibilidad e información municipal.
 
+
+
+## 107. Reforma local de **2026**: dos microcasos sobre competencias e información accesible
+
+**Ley 4/2026**, publicada el **03/10/2026** y vigente en estos preceptos desde el **23/10/2026**, añadió la letra **25.2.q** y modificó el **69.1** de la [**Ley 7/1985**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392). Estos microcasos **no** se incorporan al banco original ya aprobado y auditado de **12 preguntas/48 alternativas**.
+
+| Materia | Artículo vigente | Efecto jurídico |
+|---|---|---|
+| Acciones municipales de **igualdad de oportunidades, no discriminación y accesibilidad universal** para las personas con discapacidad | **25.2.q** | Materia de **competencia propia municipal** en los términos de legislación sectorial |
+| Facilitar la más amplia **información sobre actividad local y participación ciudadana**, ofrecida en formatos accesibles conforme al diseño universal | **69.1** | Obligación de **información local accesible** |
+| Comunidades ciudadanas de energía y transición energética | **25.2.p** | Competencia incorporada por **Real Decreto-ley 7/2026** en marzo; no confundir con **q** |
+
+### Microcaso 1 · Materia de competencia municipal
+
+**Pregunta:** ¿Qué apartado de la **Ley 7/1985** menciona ahora la accesibilidad universal de las personas con discapacidad como **competencia propia municipal**?
+
+- **A.** **Art. 25.2.q**.
+- **B.** Art. 69.1.
+- **C.** Art. 26.1.a.
+- **D.** Art. 47.2.
+
+**Respuesta: A.** La letra **q** fue añadida al **art. 25.2** por **Ley 4/2026**. No sustituye las reglas sobre servicios mínimos del art. 26.
+
+> ⚠️ **¡Foco Examen!:** **25.2.q = competencia propia**. El **69.1** se refiere a la **información y participación local accesible**, no a la enumeración de competencias.
+
+### Microcaso 2 · Deber de publicidad local accesible
+
+**Pregunta:** Una corporación local publica información municipal en un formato inaccesible. ¿Qué precepto de la **LRBRL**, reformado en **2026**, obliga a que la información se facilite en **formatos accesibles**?
+
+- **A.** Art. 26.1.
+- **B.** Art. 25.2.p.
+- **C.** **Art. 69.1**.
+- **D.** Art. 36.1.
+
+**Respuesta: C.** El **69.1** incorpora reglas de formatos accesibles y diseño universal para la información local tras la reforma de **octubre de 2026**.
+
+> ⚠️ **¡Foco Examen!:** **69.1 = información accesible**, **25.2.q = competencia municipal**, **25.2.p = comunidades energéticas**; son **tres** objetos jurídicos distintos.
+
+**Fuentes oficiales:** [**Ley 7/1985, art. 25**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a25), [**art. 69**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a69), [**Ley 4/2026, disposición final tercera**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528). **E2E y recertificación integral** siguen pendientes.
