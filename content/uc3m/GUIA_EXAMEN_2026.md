@@ -253,3 +253,14 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 **Limitaciones:** ejecución de GitHub Actions, corte normativo de la base **primera.7**, auditoría jurídica total, E2E/móvil/WCAG/PWA y aprobación del usuario **pendientes**. Mantener el tema **EN_REVISION_USUARIO** y los simulacros **70+5** inalterados.
 
 > ⚠️ **¡Foco Examen!:** **30 días conformidad y 30 días pago (LCSP 198.4)**, suspensión por demora **>4 meses con preaviso 1 mes**, resolución **>6 meses**. **Caja fija UC3M 5.000 €** distinta de **anticipos 12.000 €**.
+
+
+## Cierre documental UC3M T20 · Contratación pública 2026 — **06/11/2026**
+
+[**Acta T20 con reservas**](CIERRE_DOCUMENTAL_T20_20261106.md): **10 bloques**, **12 preguntas históricas / 48 alternativas** y **5 complementarias / 20 alternativas**, **17 preguntas / 68 opciones** en total, con referencias a [**LCSP consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902), [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605) y **Estatutos UC3M 175–176**. [**Prueba documental T20**](../../tests/validate-uc3m-cierre-t20-20261106.mjs) añadida a CI. Se han precisado **17 referencias** sin alterar opciones, respuestas ni simulacros.
+
+**Examen:** contrato menor servicios **VEC <15.000 €**, abierto simplificado ordinario **<140.000 €**, abreviado **<60.000 €**, recurso especial de suministro/servicios **>100.000 €** (acto recurrible), SARA UC3M **≥216.000 €**. **15 días naturales** para ofertas simplificado versus **15 días hábiles** espera para formalizar cuando procede recurso especial; **art. 118.5** excluye solo el informe del **118.2** en caja fija equivalente **≤5.000 €**, sin dispensar todos los trámites.
+
+**Reserva:** fecha primaria del corte jurídico **base primera.7 UC3M**, CI ejecutado, E2E y accesibilidad, y aprobación del usuario siguen pendientes. No certificar integridad jurídica del **100 %**.
+
+> ⚠️ **¡Foco Examen!:** **VEC sin IVA ≠ PBL con IVA**, **Rector contrata ≠ mesa propone**, **15 naturales de ofertas ≠ 15 hábiles de espera para formalizar**.
