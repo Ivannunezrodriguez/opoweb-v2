@@ -43,6 +43,8 @@ jobs:
         run: node tests/validate-uc3m-cierre-t18-20261106.mjs
       - name: Comprobar cierre documental UC3M T19 gasto y pago
         run: node tests/validate-uc3m-cierre-t19-20261106.mjs
+      - name: Comprobar cierre documental UC3M T20 contratos LCSP
+        run: node tests/validate-uc3m-cierre-t20-20261106.mjs
       - name: Verificar menú adaptable e integración OpoRadar
         run: node tests/validate-portal-navigation.mjs
       - name: Validar programa y bancos de La Puebla
