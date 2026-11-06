@@ -104,5 +104,64 @@
     "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "fuente": "Microsoft Word/Excel 2019 y Google Workspace - fuentes oficiales de fabricantes",
     "limitacion": "No todos los bloques tienen pregunta específica; ver matriz.cobertura"
+  },
+  "refuerzoTecnico20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_TECNICA_FOCAL_NO_CERTIFICACION_INTEGRAL",
+    "motivo": "Dos bloques de Word 2019 revisión/correspondencia y Excel 2019 análisis de datos carecían de pregunta propia en banco original, además de conceptos confundibles de Gmail Sheets Calendar",
+    "desarrollo": [
+      {
+        "bloque": "Word 2019 revisión y correspondencia",
+        "manual": "4.1–4.2",
+        "fuentes": [
+          "Microsoft Word 2019 mail merge",
+          "Microsoft Word title styles"
+        ],
+        "repasoNuevas": 3
+      },
+      {
+        "bloque": "Excel 2019 validación formato filtro protección",
+        "manual": "7.1",
+        "fuentes": [
+          "Microsoft Excel 2019 validación",
+          "Microsoft Excel 2019 filtro",
+          "Microsoft Excel protección"
+        ],
+        "repasoNuevas": 4
+      },
+      {
+        "bloque": "Gmail operadores",
+        "manual": "8.1",
+        "fuentes": [
+          "Google Gmail operadores"
+        ],
+        "repasoNuevas": 1
+      },
+      {
+        "bloque": "Google Sheets vistas de filtro y protección",
+        "manual": "13.2",
+        "fuentes": [
+          "Google Sheets filtros",
+          "Google Sheets protección"
+        ],
+        "repasoNuevas": 2
+      },
+      {
+        "bloque": "Google Calendar permisos",
+        "manual": "13.1",
+        "fuentes": [
+          "Google Calendar compartir y permisos"
+        ],
+        "repasoNuevas": 2
+      }
+    ],
+    "preguntasComplementarias": 12,
+    "alternativasComplementarias": 48,
+    "recurso": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md",
+    "bancoOriginalPreguntas": 12,
+    "bancoOriginalSinCambios": true,
+    "aprobacionUsuario": false,
+    "certificacionNavegador": false,
+    "certificacionWCAG": false
   }
 }
