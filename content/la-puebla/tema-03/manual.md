@@ -962,7 +962,7 @@ Responder sin consultar:
 - Especialidades sancionadoras: integradas transversalmente.
 - Especialidades de responsabilidad patrimonial: integradas transversalmente.
 - Plazos, excepciones y efectos: incorporados.
-- Preguntas trazables: no creadas todavía.
+- Preguntas trazables: **12 preguntas con 48 alternativas**, enlazadas a la [auditoría jurídica individual de **04/11/2026**](cotejo-integral-2026-11-04.md). Esta constatación corrige una frase de la versión inicial de julio; el banco fue incorporado y cotejado posteriormente.
 - Revisión del usuario: **aprobada el 17 de julio de 2026**.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
