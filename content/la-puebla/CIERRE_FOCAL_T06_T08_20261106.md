@@ -64,3 +64,10 @@ La **Ley 2/2026** amplía el ámbito de la **libre designación** en el **70.2**
 **PENDIENTES:** revisión de eventuales modificaciones normativas posteriores al **06/11** y hasta el **14/11**, ejecución real en navegador/móvil/WCAG/PWA, CI validada y cotejo frase por frase de todas las reglas de los tres manuales. El registro global mantiene **58/121 cierres documentales históricos** y **0/121 integrales** hasta reconciliar criterios, sin duplicar esta actuación.
 
 **Resultado:** incidencias documentales delimitadas y corregidas; **no** certificación jurídico-editorial integral de los temas T6, T7 y T8 ni aprobación nueva del usuario. **Siguiente bloque prioritario: T9–T12 La Puebla**, a la espera de cerrar los riesgos específicos de cada tema.
+
+
+### Precisión adicional del tema 7: **anteproyecto** de reforma en 2026
+
+[**Anuncio del Gobierno de 28/04/2026**](https://www.lamoncloa.gob.es/consejodeministros/referencias/Paginas/2026/20260428-referencia-rueda-de-prensa-ministros.aspx) y **Dictamen CES 11/2026 de 27/07** se refieren a un **anteproyecto**, no a una modificación normativa automáticamente vigente. La [**Ley 31/1995 consolidada BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) indica actualización publicada **09/04/2026**, mientras el [**RD 39/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853) sigue siendo la fuente de umbrales aplicables. Se ha incorporado una advertencia en el [manual T7 §61.1](tema-07/manual.md) para no memorizar el contenido futuro de un proyecto como ley aprobada. El estado exige comprobación posterior si el proyecto culmina su tramitación antes del examen.
+
+> ⚠️ **¡Foco Examen!:** **Anteproyecto de 2026 ≠ nueva ley en vigor**; distinguir aprobación del Gobierno, tramitación parlamentaria, publicación oficial y entrada en vigor.
