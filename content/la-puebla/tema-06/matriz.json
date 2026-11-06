@@ -105,5 +105,39 @@
     ],
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "certificacionIntegralCincoCapas": false
+  },
+  "controlFocal20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T06_T08_20261106.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T06_T08_20261106.md",
+    "prueba": "tests/validate-la-puebla-repaso-t06-t08-20261106.mjs",
+    "bloquesExistentes": 6,
+    "bancoHistoricoPreguntas": 12,
+    "bancoHistoricoAlternativas": 48,
+    "microcasosExtraMarkdown": 3,
+    "alternativasExtraMarkdown": 12,
+    "fuentes": [
+      "BOE-A-2011-7752",
+      "DOCM-q-2026-90086"
+    ],
+    "comprobaciones": [
+      "Ley 4/2011 8.1.c 4 años programa temporal",
+      "8.1.d 6 meses en 12 por acumulacion",
+      "19.4 OEP 3 años improrrogables",
+      "65.2 promocion interna 2 años",
+      "Ley 2/2026 reforma 70.2 para ciertos puestos estatutarios"
+    ],
+    "correccion": "Se corrige metadato obsoleto de inexistencia de preguntas y reserva de fuentes ya levantada",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "recertificacionIntegral": false,
+    "pruebaNavegadorReal": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pendientes": [
+      "comprobacion legislacion a fecha examen 2026-11-14",
+      "GitHub Actions run sobre ultimo commit",
+      "navegador real movil WCAG PWA",
+      "certificacion juridica integral de todo el manual"
+    ]
   }
 }
