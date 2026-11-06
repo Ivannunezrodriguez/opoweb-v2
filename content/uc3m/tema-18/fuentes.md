@@ -148,3 +148,14 @@ Fuente institucional original accesible mediante su ID en el repositorio: [**Pre
 **Reserva editorial:** se ha contrastado de forma explícita el alcance de **los artículos señalados**, no todos los preceptos de cada norma ni su aplicación temporal exacta al examen de UC3M, cuya **base primera.7** exige fecha de resolución definitiva aún pendiente de comprobación primaria. No se declara certificación jurídica ni funcional integral.
 
 > ⚠️ **¡Foco Examen!:** El umbral monetario y el plazo solo son correctos si se identifica **procedimiento, órgano y unidad temporal**; el estudio de **2026** no debe suplantarse por reglas genéricas de otras Administraciones.
+
+
+## Cierre documental T18: fuentes, bancos y reservas — **06/11/2026**
+
+[**Acta de cierre del tema 18**](../CIERRE_DOCUMENTAL_T18_20261106.md): **8 bloques** de programa, **12 preguntas históricas/48 alternativas** y **8 complementarias/32 alternativas**, con referencias documentales de origen y control de literalidad. Las **20 preguntas de los lotes T18** conservan enunciado, respuestas y claves; se han mejorado las **12 referencias del banco original** y las **8 referencias de los complementos**.
+
+**Primarias:** [**Presupuesto UC3M 2026 publicado en BOCM**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF), [**Normas Básicas UC3M, Vol. I, arts. 5–6 y 14.1–2**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view) y [**Ley 5/2025 de Hacienda CM, arts. 10.1, 56.3, 108.2–4, 109.2 y 182.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217). 
+
+**Aclaración histórica:** el informe de **04/11** expresaba inicialmente que faltaba recuperar el **Volumen I**; el propio informe quedó ampliado posteriormente con la fuente primaria y cotejo de **T18-006**, **T18-008** y **T18-012**. No perpetuar la reserva como si la fuente siguiera inaccesible; las reservas actuales son **fecha de corte jurídico**, **E2E móvil/navegador/WCAG/PWA**, y **auditoría normativa integral**.
+
+> ⚠️ **¡Foco Examen!:** **Prórroga hasta publicación BOCM (108.4)**, **retención posible del 10 % bajo requisitos (109.2)** y **exclusión de Tesorería General (182.1)** son supuestos de artículos diferentes; no mezclar con el **art. 14.2** de las Normas UC3M (seguimiento de impagados).
