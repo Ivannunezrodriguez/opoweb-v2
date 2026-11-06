@@ -121,3 +121,10 @@ Revisados los **5 bloques** del programa con sus capítulos y **48 alternativas*
 
 > ⚠️ **¡Foco Examen!:** El IIVTNU es **potestativo**; **no sujeción por inexistencia acreditada de incremento** no equivale a **exención** por circunstancias del sujeto pasivo.
 
+
+
+## Repaso previo al ejercicio: supuestos cruzados (06/11/2026)
+
+**Material complementario nuevo:** [**20 preguntas de examen originales, temas 10–14, con soluciones razonadas, cuatro opciones y norma por artículo**](../REPASO_FINAL_T10_T14_20261106.md). Incluye tablas de diferencias entre **plazos de ingreso, recargos del 5/10/20 %, impuestos sujetos y exentos, certificado cualificado máximo de 5 años, órganos y mayorías**. No sustituye el manual ni los bancos temáticos ya aprobados históricamente; tampoco equivale a certificación funcional del portal.
+
+> ⚠️ **¡Foco Examen!:** En el primer ejercicio de La Puebla hay **50 preguntas titulares + 5 reservas**, con **60 minutos**, **+0,20** por acierto y **−0,05** por error. Un entrenamiento de 20 preguntas **no** es un simulacro completo de convocatoria.

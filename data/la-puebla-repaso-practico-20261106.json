@@ -1,0 +1,298 @@
+{
+  "id": "LP_REPASO_T10_T14_20261106",
+  "fecha": "2026-11-06",
+  "origen": "Ejercicios originales didácticos, no oficiales",
+  "programa": "BOP Toledo nº 82 de 05/05/2026, anuncio 2026-1965",
+  "formatoBases": {
+    "preguntas": 50,
+    "reserva": 5,
+    "minutos": 60,
+    "puntosAcierto": 0.2,
+    "puntosFallo": -0.05,
+    "puntosBlanco": 0,
+    "notaMinima": 5
+  },
+  "preguntas": [
+    {
+      "id": "LP-REP-NOV26-001",
+      "tema": 10,
+      "pregunta": "¿Qué principios inspiran el sistema tributario en el art. 31.1 CE?",
+      "opciones": [
+        "Igualdad y progresividad",
+        "Solo solidaridad y seguridad jurídica",
+        "Exclusivamente mérito y capacidad",
+        "Unicamente territorialidad"
+      ],
+      "correcta": 0,
+      "explicacion": "La CE fija contribución según capacidad económica y un sistema inspirado en igualdad y progresividad, sin alcance confiscatorio.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a31"
+    },
+    {
+      "id": "LP-REP-NOV26-002",
+      "tema": 10,
+      "pregunta": "Si una entidad local delega facultades tributarias en otra entidad local, ¿quién acepta la delegación?",
+      "opciones": [
+        "El alcalde sin acuerdo plenario",
+        "El Pleno de la entidad local receptora",
+        "El juzgado contencioso-administrativo",
+        "La Intervención autonómica"
+      ],
+      "correcta": 1,
+      "explicacion": "El art. 7.2 TRLRHL exige acuerdo del Pleno delegante y aceptación por Pleno de la entidad local receptora.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a7"
+    },
+    {
+      "id": "LP-REP-NOV26-003",
+      "tema": 10,
+      "pregunta": "¿Cuál es la bonificación máxima habilitada por art. 9.1 TRLRHL para domiciliación de tributos, cuando la ordenanza la contemple?",
+      "opciones": [
+        "El 10 % de la cuota",
+        "El 25 % de la cuota",
+        "El 5 % de la cuota",
+        "El 90 % de la cuota"
+      ],
+      "correcta": 2,
+      "explicacion": "El art. 9.1 fija el máximo del cinco por ciento; la previsión mediante ordenanza no es automática.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a9"
+    },
+    {
+      "id": "LP-REP-NOV26-004",
+      "tema": 10,
+      "pregunta": "Se presenta una autoliquidación 3 meses completos y 10 días tarde sin requerimiento y sin excepciones. ¿Qué recargo general procede?",
+      "opciones": [
+        "El 3 %",
+        "El 5 %",
+        "El 15 %",
+        "El 4 %"
+      ],
+      "correcta": 3,
+      "explicacion": "Art. 27.2 LGT: un punto inicial y uno por mes completo; tres meses completos generan cuatro por ciento.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a27"
+    },
+    {
+      "id": "LP-REP-NOV26-005",
+      "tema": 11,
+      "pregunta": "Una liquidación administrativa se notifica el 18 de marzo. Si el 5 de mayo es hábil, ¿qué día vence el plazo general voluntario?",
+      "opciones": [
+        "El 5 de mayo",
+        "El 20 de marzo",
+        "El 20 de abril",
+        "El 5 de abril"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 62.2.b LGT: notificación del día 16 al último del mes -> 5 del segundo mes siguiente.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62"
+    },
+    {
+      "id": "LP-REP-NOV26-006",
+      "tema": 11,
+      "pregunta": "Se notifica providencia de apremio el día 12 de marzo; el 20 de marzo es hábil. ¿Hasta qué día puede pagarse en el plazo de la providencia?",
+      "opciones": [
+        "El 20 de abril",
+        "El 20 de marzo",
+        "El 5 de abril",
+        "El 5 de mayo"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 62.5.a LGT: apremio notificado del 1 al 15 -> día 20 del mismo mes.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62"
+    },
+    {
+      "id": "LP-REP-NOV26-007",
+      "tema": 11,
+      "pregunta": "La deuda ejecutiva se paga completa antes de notificarse providencia de apremio. ¿Qué recargo corresponde?",
+      "opciones": [
+        "El reducido del 10 %",
+        "El ordinario del 20 %",
+        "El ejecutivo del 5 %",
+        "Ningún recargo"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 28.2 LGT: recargo ejecutivo 5 % cuando hay pago íntegro antes de notificarse providencia.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+    },
+    {
+      "id": "LP-REP-NOV26-008",
+      "tema": 11,
+      "pregunta": "La deuda y el recargo se ingresan dentro del plazo concedido por providencia. ¿Qué recargo corresponde?",
+      "opciones": [
+        "El ejecutivo del 5 %",
+        "El ordinario del 20 %",
+        "El de declaración extemporánea del 15 %",
+        "El reducido del 10 %"
+      ],
+      "correcta": 3,
+      "explicacion": "Art. 28.3 LGT: pago íntegro de deuda y recargo en plazo del art. 62.5 implica recargo reducido del 10 %.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28"
+    },
+    {
+      "id": "LP-REP-NOV26-009",
+      "tema": 12,
+      "pregunta": "Una vivienda está gravada con usufructo y no hay concesión ni superficie. ¿Quién realiza preferentemente el hecho imponible del IBI?",
+      "opciones": [
+        "El usufructuario",
+        "El arrendatario",
+        "El propietario en todos los casos",
+        "El administrador de fincas"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 61 TRLRHL: usufructo precede al derecho de propiedad en el orden legal.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a61"
+    },
+    {
+      "id": "LP-REP-NOV26-010",
+      "tema": 12,
+      "pregunta": "Una persona física ejerce profesión por cuenta propia. ¿Qué situación tiene en IAE?",
+      "opciones": [
+        "No sujeta",
+        "Sujeta pero exenta",
+        "Obligada siempre al pago",
+        "Exenta solo en el primer trimestre"
+      ],
+      "correcta": 1,
+      "explicacion": "Arts. 78 y 82.1.c TRLRHL: ejercicio profesional sujeto; persona física exenta.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a82"
+    },
+    {
+      "id": "LP-REP-NOV26-011",
+      "tema": 12,
+      "pregunta": "Remolque arrastrado por vehículo de motor con carga útil exacta de 750 kg. ¿Cuál es su situación en IVTM?",
+      "opciones": [
+        "Sujeto y sin exención",
+        "Sujeto con exención voluntaria",
+        "No sujeto",
+        "Exento solamente por antigüedad"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 92.3.b TRLRHL: carga útil no superior a 750 kg -> no sujeción.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a92"
+    },
+    {
+      "id": "LP-REP-NOV26-012",
+      "tema": 12,
+      "pregunta": "En una donación gravada por IIVTNU de terreno urbano, ¿quién es contribuyente?",
+      "opciones": [
+        "El donante",
+        "El notario",
+        "El ayuntamiento",
+        "El donatario"
+      ],
+      "correcta": 3,
+      "explicacion": "Art. 106.1.a TRLRHL: transmisión lucrativa -> adquirente.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a106"
+    },
+    {
+      "id": "LP-REP-NOV26-013",
+      "tema": 13,
+      "pregunta": "Una persona interpone un recurso administrativo electrónico. ¿Es necesaria en general la firma?",
+      "opciones": [
+        "Sí, el art. 11.2 exige firma para interponer recursos",
+        "No, nunca se requiere firma",
+        "Solo un sello de persona jurídica",
+        "Basta adjuntar imagen de firma sin validación"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 11.2 Ley 39/2015 exige firma en recursos, solicitudes y otros actos tasados.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a11"
+    },
+    {
+      "id": "LP-REP-NOV26-014",
+      "tema": 13,
+      "pregunta": "¿Cuál es la vigencia máxima de un certificado cualificado según Ley 6/2020?",
+      "opciones": [
+        "Dos años",
+        "Cinco años",
+        "Quince años",
+        "Sin plazo máximo"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 4.2 Ley 6/2020: período no superior a cinco años.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a4"
+    },
+    {
+      "id": "LP-REP-NOV26-015",
+      "tema": 13,
+      "pregunta": "Se comprometen los datos secretos de creación de firma. ¿Qué medida puede extinguir la vigencia del certificado?",
+      "opciones": [
+        "Simple cambio de nombre del PDF",
+        "Únicamente esperar a su vencimiento",
+        "Revocación por el prestador",
+        "Borrar la imagen de la firma"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 5.1.b Ley 6/2020 prevé revocación por vulneración o peligro del secreto.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046#a5"
+    },
+    {
+      "id": "LP-REP-NOV26-016",
+      "tema": 13,
+      "pregunta": "¿Con qué frecuencia mínima ordinaria se audita un prestador cualificado según eIDAS art. 20?",
+      "opciones": [
+        "Solo una vez en su constitución",
+        "Cada cinco años",
+        "Cada seis años",
+        "Al menos cada 24 meses"
+      ],
+      "correcta": 3,
+      "explicacion": "El art. 20.1 eIDAS exige auditoría al menos cada veinticuatro meses por organismo de conformidad.",
+      "fuente": "https://eur-lex.europa.eu/eli/reg/2014/910/oj/spa"
+    },
+    {
+      "id": "LP-REP-NOV26-017",
+      "tema": 14,
+      "pregunta": "Se delegó una competencia en órgano sin relación jerárquica con el delegante. ¿Quién puede avocar un asunto concreto?",
+      "opciones": [
+        "Solo el órgano delegante mediante acuerdo motivado",
+        "Cualquier órgano administrativo territorial",
+        "El secretario del órgano receptor",
+        "Cualquier interesado sin trámite"
+      ],
+      "correcta": 0,
+      "explicacion": "Art. 10 Ley 40/2015: en delegación a órgano no jerárquicamente dependiente, solo avoca el delegante.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a10"
+    },
+    {
+      "id": "LP-REP-NOV26-018",
+      "tema": 14,
+      "pregunta": "¿Cuál es el quórum ordinario de constitución del órgano colegiado según Ley 40/2015 art. 17.2?",
+      "opciones": [
+        "Solo la mitad de miembros sin cargos",
+        "Presidente, Secretario y al menos la mitad de sus miembros, o suplentes",
+        "Unanimidad de asistentes sin presidente",
+        "Solo el presidente y su voto de calidad"
+      ],
+      "correcta": 1,
+      "explicacion": "Art. 17.2: asistencia del Presidente y Secretario o suplentes y mitad de miembros como mínimo.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17"
+    },
+    {
+      "id": "LP-REP-NOV26-019",
+      "tema": 14,
+      "pregunta": "Para tratar un asunto no incluido en el orden del día de un órgano colegiado, ¿qué se exige?",
+      "opciones": [
+        "Solo mayoría de presentes con ausencias",
+        "Unanimidad siempre, sin presidente",
+        "Todos los miembros presentes y urgencia declarada por mayoría",
+        "Basta propuesta del secretario"
+      ],
+      "correcta": 2,
+      "explicacion": "Art. 17.4 Ley 40/2015: todos presentes y urgencia declarada por mayoría.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17"
+    },
+    {
+      "id": "LP-REP-NOV26-020",
+      "tema": 14,
+      "pregunta": "El miembro recusado niega la causa alegada. ¿Qué plazo tiene el superior para resolver tras comprobar?",
+      "opciones": [
+        "Un mes",
+        "Diez días hábiles",
+        "Quince días naturales",
+        "Tres días"
+      ],
+      "correcta": 3,
+      "explicacion": "Art. 24.4 Ley 40/2015: superior resuelve en tres días ante negación de causa.",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24"
+    }
+  ],
+  "certificacionFuncional": false
+}

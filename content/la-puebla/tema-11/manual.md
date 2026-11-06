@@ -94,3 +94,10 @@ Verificados los **7 bloques**, seis capítulos temáticos y **12 preguntas con s
 
 > ⚠️ **¡Foco Examen!:** **6 meses** es plazo para resolver devolución de ingresos indebidos; en solicitud del interesado, el silencio transcurrido ese plazo es **desestimatorio** (**RD 520/2005 art. 19.3**). La prescripción general es **4 años**, no seis meses.
 
+
+
+## Repaso previo al ejercicio: supuestos cruzados (06/11/2026)
+
+**Material complementario nuevo:** [**20 preguntas de examen originales, temas 10–14, con soluciones razonadas, cuatro opciones y norma por artículo**](../REPASO_FINAL_T10_T14_20261106.md). Incluye tablas de diferencias entre **plazos de ingreso, recargos del 5/10/20 %, impuestos sujetos y exentos, certificado cualificado máximo de 5 años, órganos y mayorías**. No sustituye el manual ni los bancos temáticos ya aprobados históricamente; tampoco equivale a certificación funcional del portal.
+
+> ⚠️ **¡Foco Examen!:** En el primer ejercicio de La Puebla hay **50 preguntas titulares + 5 reservas**, con **60 minutos**, **+0,20** por acierto y **−0,05** por error. Un entrenamiento de 20 preguntas **no** es un simulacro completo de convocatoria.

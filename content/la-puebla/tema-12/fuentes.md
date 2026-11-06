@@ -92,3 +92,12 @@ Se cotejó la **respuesta correcta literal** y la regla que la fundamenta frente
 
 > ⚠️ **¡Foco Examen!:** En IIVTNU, **lucrativo**: paga **adquirente**; **oneroso**: **transmitente**; si este último es **persona física no residente**, adquirente es **sustituto**.
 
+
+
+## Control de precisión de enlaces de fecha — **06/11/2026**
+
+El elemento **LP-T12-010** citaba una versión histórica del TRLRHL seleccionada mediante `p=20261002`, anterior a la **última actualización publicada el 07/10/2026**. El inciso y su respuesta **no cambian**, pero la referencia ahora apunta al [**artículo 104 de la versión consolidada vigente**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a104). Se conserva el historial y no se presenta la revisión de un vínculo como recertificación jurídica de la web.
+
+Se incorpora [**repaso de 20 preguntas para temas 10–14**](../REPASO_FINAL_T10_T14_20261106.md) con artículos contrastados. La fecha del primer ejercicio, si figura en documentos administrativos de seguimiento, debe comprobarse en **el anuncio correspondiente de la sede**, y no se deduce de las bases de mayo (que no la fijan).
+
+> ⚠️ **¡Foco Examen!:** El **RDL 26/2026** y la publicación de **02/10/2026** no pueden usarse como si la norma se hubiera detenido ahí: la **última actualización del TRLRHL** está publicada el **07/10/2026**.
