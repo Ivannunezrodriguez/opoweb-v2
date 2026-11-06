@@ -8,7 +8,11 @@
       "apartados": [
         1
       ],
-      "preguntas": []
+      "preguntas": [],
+      "norma": "Decreto 1/2003 + Decreto 95/2009 anexo 1",
+      "articulos": "1–3 (art. 1 modificado por Decreto 95/2009)",
+      "refuerzo": "Microtest manual 1.2 (2 preguntas, 8 alternativas)",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
     },
     {
       "bloque": "Defensor Universitario: función y límites",
@@ -19,7 +23,11 @@
       "preguntas": [
         "UC3M-T15-001",
         "UC3M-T15-002"
-      ]
+      ],
+      "norma": "Decreto 1/2003 (mod. 95/2009)",
+      "articulos": "127–132; reglamento Defensoria y quejas",
+      "refuerzo": "Manual 3.1 plazo 1 mes y limites de la actuacion",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
     },
     {
       "bloque": "Defensor Universitario: propuesta, elección, cese, mandato, reelección y Adjunto",
@@ -33,7 +41,11 @@
         "UC3M-T15-014",
         "UC3M-T15-015",
         "UC3M-T15-016"
-      ]
+      ],
+      "norma": "Decreto 1/2003 + Decreto 95/2009",
+      "articulos": "127.1–2 (127.2 modificado en anexo 53 de 95/2009);128.1–2",
+      "refuerzo": "Cese voluntario frente a acuerdo claustro",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
     },
     {
       "bloque": "Defensor Universitario: elegibilidad, medios y órgano asesor",
@@ -47,7 +59,11 @@
         "UC3M-T15-019",
         "UC3M-T15-020",
         "UC3M-T15-021"
-      ]
+      ],
+      "norma": "Decreto 1/2003",
+      "articulos": "128–132",
+      "refuerzo": "Mandato, memoria, reeleccion, adjunto, asesoria",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
     },
     {
       "bloque": "Servicios universitarios",
@@ -57,7 +73,11 @@
       ],
       "preguntas": [
         "UC3M-T15-004"
-      ]
+      ],
+      "norma": "Decreto 1/2003",
+      "articulos": "157–165",
+      "refuerzo": "3 complementarias T15-01 a 03",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
     },
     {
       "bloque": "Régimen económico-financiero",
@@ -72,7 +92,11 @@
         "UC3M-T15-005",
         "UC3M-T15-006",
         "UC3M-T15-007"
-      ]
+      ],
+      "norma": "Decreto 1/2003 y legislacion posterior aplicable",
+      "articulos": "167–177",
+      "refuerzo": "5 complementarias T15-04 a 08",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
     },
     {
       "bloque": "Reforma de los Estatutos",
@@ -87,7 +111,11 @@
         "UC3M-T15-010",
         "UC3M-T15-011",
         "UC3M-T15-012"
-      ]
+      ],
+      "norma": "Decreto 1/2003",
+      "articulos": "178.1–3;179.1–4;180",
+      "refuerzo": "Art. 178.3 toma en consideracion; 179.1 comision; 179.3 aprobacion final",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
     }
   ],
   "control": {
@@ -161,5 +189,28 @@
     "bancoOriginalPreguntas": 21,
     "bancoOriginalNoModificado": true,
     "certificacionIntegral": false
+  },
+  "cierreDocumentalT15_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T15_20261106.md",
+    "test": "tests/validate-uc3m-cierre-t15-20261106.mjs",
+    "bloquesMatriz": 7,
+    "bancoHistorico": 21,
+    "alternativasHistoricas": 84,
+    "bancoComplementario": 8,
+    "alternativasComplementarias": 32,
+    "microtestManual": 2,
+    "alternativasMicrotest": 8,
+    "reparacion": "Referencia juridica T15-009 art. 178.3 (no 179.1); banco 8 complementarias con articulo preciso",
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "pendientes": [
+      "corte legal UC3M fecha primaria de listas definitivas",
+      "navegador real y WCAG PWA movil",
+      "compatibilidad completa LOSU-estatutos",
+      "aprobacion usuario"
+    ]
   }
 }
