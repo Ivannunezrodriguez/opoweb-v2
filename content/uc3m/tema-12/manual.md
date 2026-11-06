@@ -308,3 +308,10 @@ El **artículo 24 de la Ley 31/1995** está desarrollado por el **Real Decreto 1
 ## Registro de ampliación focal — **06/11/2026**
 
 Se desarrollan cuatro bloques sin pregunta específica en el banco original: **ámbito (art. 3)**, **colectivos sensibles (arts. 25–28)**, **consulta (arts. 33 y 36)** y **coordinación (art. 24 y RD 171/2004)**. La fuente contrastada es el **BOE**; **no se modifican** las **12 preguntas originales** de T12 ni los simulacros. La revisión no equivale a certificación jurídico-funcional integral y no resuelve la fecha legal de corte de la convocatoria UC3M.
+
+
+## Repaso complementario PRL, 06/11/2026
+
+[12 preguntas nuevas, 48 alternativas y soluciones razonadas](../REPASO_PRL_T12_20261106.md) sobre ámbito (art. 3), especial sensibilidad (25–28), consulta (33, 36) y coordinación (24, RD 171/2004). Las 12 preguntas originales se conservan.
+
+> ⚠️ **¡Foco Examen!:** Informe ordinario de Delegados: **15 días**; riesgo inminente: **tiempo imprescindible**. **Titular** y **principal** son figuras diferentes.
