@@ -1190,7 +1190,7 @@ Responder sin consultar:
 - Carrera y promoción: artículos 62–66 desarrollados.
 - Provisión y movilidad: artículos 67–82 desarrollados.
 - Reforma del artículo 70.2 vigente desde el 6 de mayo de 2026: incorporada.
-- Preguntas trazables: no creadas todavía.
+- Preguntas trazables: **12 ítems y 48 alternativas** ya publicados, con [cotejo individual y de distractores el **04/11/2026**](cotejo-integral-2026-11-04.md). La indicación de julio «no creadas todavía» había quedado obsoleta.
 - Revisión del usuario: **aprobada el 17 de julio de 2026**.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
@@ -1203,3 +1203,10 @@ El programa completo, sus **6 bloques**, los artículos relevantes de la Ley **4
 
 > ⚠️ **¡Foco Examen!:** **4 años programa temporal interino** (**8.1.c**) no equivale a **3 años OEP** (**19.4**). **2 años** de servicio para promoción interna (**65**).
 
+
+
+## 78. Repaso jurídico comparado — **06/11/2026**
+
+[**Tema 6–8: tabla y 9 microcasos de examen**](../REPASO_FOCAL_T06_T08_20261106.md). Distingue **4 años** de programa temporal (**8.1.c**), **6 meses en 12** por acumulación (**8.1.d**), **3 años improrrogables** de ejecución OEP (**19.4**), **10 %** adicional para convocatoria (**19.3**) y **2 años** de servicio activo para promoción interna (**65.2**). La reforma de **Ley 2/2026** del **70.2** ya estaba incorporada al manual y sigue referenciada de forma separada al BOE consolidado de **2024**.
+
+> ⚠️ **¡Foco Examen!:** **Interinidad de programa (4 años)**, **ejecución OEP (3)**, **promoción interna (2)**: cifras de **tres procedimientos distintos**. No trasladar la ampliación de puestos sanitarios de **70.2** a todos los puestos de un ayuntamiento.
