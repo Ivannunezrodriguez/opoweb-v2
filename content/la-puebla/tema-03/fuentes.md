@@ -23,3 +23,10 @@
 
 [**Cotejo de 48 alternativas del Tema 3**](cotejo-integral-2026-11-04.md): **Ley 39/2015**, [texto BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Revisados los **9 ámbitos**, las **12 preguntas** y sus distractores. **AUDITADO contenido**; prueba navegador real pendiente.
 
+
+
+## Rectificación de estado y repaso transversal — **06/11/2026**
+
+La afirmación de una versión inicial del manual «preguntas trazables no creadas todavía» se ha sustituido por el hecho ya documentado: **12 preguntas, 48 alternativas y cotejo por distractores de 04/11/2026** en [banco de T3](preguntas.json) e [informe individual](cotejo-integral-2026-11-04.md). [**Repaso de T1–T4**](../REPASO_URGENTE_T01_T04_20261106.md) verifica [**LPAC art. 96.2, 96.5 y 96.6**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96): **oposición a simplificación de oficio**, **excepción sancionadora leve**, plazo **30 días** con excepción legal y audiencia cuando resolución **desfavorable**. No se altera la aprobación editorial histórica.
+
+> ⚠️ **¡Foco Examen!:** La oposición expresa del interesado a tramitar simplificadamente **cede** en los supuestos sancionadores **leves** del art. **96.5**.
