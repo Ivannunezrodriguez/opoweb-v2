@@ -9,28 +9,40 @@
       "manual": "apartado 1",
       "preguntas": [
         "UC3M-T14-001"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "31–39",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Participación, representación y bienestar",
       "manual": "apartado 2",
       "preguntas": [
         "UC3M-T14-002"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "45–46",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Régimen jurídico de universidades públicas",
       "manual": "apartado 3",
       "preguntas": [
         "UC3M-T14-003"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "44; 53",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Autonomía económica y suficiencia financiera",
       "manual": "apartado 4",
       "preguntas": [
         "UC3M-T14-006"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "54–55",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Presupuesto universitario y competencias orgánicas",
@@ -40,21 +52,30 @@
         "UC3M-T14-005",
         "UC3M-T14-013",
         "UC3M-T14-014"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "46–47; 57",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Programación, contabilidad y control",
       "manual": "apartado 6",
       "preguntas": [
         "UC3M-T14-007"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "57; 59",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Transparencia, patrimonio y contratación",
       "manual": "apartado 7",
       "preguntas": [
         "UC3M-T14-012"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "58–60",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Personal docente e investigador",
@@ -62,31 +83,46 @@
       "preguntas": [
         "UC3M-T14-008",
         "UC3M-T14-009"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "64; 68–78",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Derechos y deberes del PDI",
       "manual": "apartado 9",
-      "preguntas": []
+      "preguntas": [],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "65–66; 75–76",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Personal técnico, de gestión y de administración y servicios",
       "manual": "apartado 10",
       "preguntas": [
         "UC3M-T14-010"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "89–90; 93–94",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Oferta de empleo, selección y movilidad",
       "manual": "apartado 11",
       "preguntas": [
         "UC3M-T14-011"
-      ]
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "91–92",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Igualdad, conciliación y no discriminación",
       "manual": "apartado 12",
-      "preguntas": []
+      "preguntas": [],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "65; 78",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     }
   ],
   "incidenciasCorregidas": [
@@ -152,5 +188,28 @@
     "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
     "certificacionWeb": false,
     "aprobacionUsuario": false
+  },
+  "cierreDocumentalT13T14_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T13_T14_20261106.md",
+    "prueba": "tests/validate-uc3m-cierres-t13-t14-20261106.mjs",
+    "bloquesMatriz": 12,
+    "bancoOriginal": 14,
+    "bancoComplementario": 4,
+    "alternativasOriginales": 56,
+    "alternativasComplementarias": 16,
+    "bloquesReforzados": 2,
+    "fuentePrincipal": "BOE-A-2023-7500",
+    "enlacesComplementariosPorArticulo": true,
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "pendientes": [
+      "fecha oficial de publicacion de resolucion definitiva UC3M conforme base primera.7",
+      "pruebas navegador E2E, accesibilidad WCAG, movil y PWA",
+      "aprobacion expresa y cotejo juridico integral a la fecha de corte"
+    ],
+    "observacion": "Cierre del circuito documental de estudio, no acreditacion del 100 % juridico-funcional"
   }
 }
