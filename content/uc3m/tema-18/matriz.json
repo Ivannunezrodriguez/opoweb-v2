@@ -15,7 +15,9 @@
       "preguntas": [
         "UC3M-T18-001",
         "UC3M-T18-002"
-      ]
+      ],
+      "preceptosCotejo20261106": "LOSU 53–57; UC3M Presupuesto 2026 arts. 1–2",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Estructura de ingresos y gastos",
@@ -26,7 +28,9 @@
       "preguntas": [
         "UC3M-T18-003",
         "UC3M-T18-004"
-      ]
+      ],
+      "preceptosCotejo20261106": "Ley 5/2025 CM 108.2.a; UC3M Presupuesto 2026 arts. 3–4",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108"
     },
     {
       "bloque": "Financiación",
@@ -37,7 +41,9 @@
       ],
       "preguntas": [
         "UC3M-T18-011"
-      ]
+      ],
+      "preceptosCotejo20261106": "LOSU 56–57; UC3M presupuesto 2026 art. 3",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
     },
     {
       "bloque": "Créditos y vinculación",
@@ -48,7 +54,9 @@
       "preguntas": [
         "UC3M-T18-005",
         "UC3M-T18-006"
-      ]
+      ],
+      "preceptosCotejo20261106": "UC3M Presupuesto 2026 art. 5 (vinculación; excepciones I, II, VI)",
+      "fuentePrimariaCotejo20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
     },
     {
       "bloque": "Modificaciones presupuestarias",
@@ -60,7 +68,9 @@
         "UC3M-T18-007",
         "UC3M-T18-008",
         "UC3M-T18-009"
-      ]
+      ],
+      "preceptosCotejo20261106": "UC3M Presupuesto 2026 arts. 6–8 (modificaciones y competencias)",
+      "fuentePrimariaCotejo20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
     },
     {
       "bloque": "Prórroga",
@@ -69,7 +79,9 @@
         "Ley 5/2025 de Hacienda de la Comunidad de Madrid art. 108",
         "Presupuesto UC3M 2026"
       ],
-      "preguntas": []
+      "preguntas": [],
+      "preceptosCotejo20261106": "Ley 5/2025 CM art. 108.4 (hasta publicacion BOCM)",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108"
     },
     {
       "bloque": "Ejecución y reconocimiento de ingresos",
@@ -80,7 +92,9 @@
       "preguntas": [
         "UC3M-T18-010",
         "UC3M-T18-012"
-      ]
+      ],
+      "preceptosCotejo20261106": "UC3M Presupuesto 2026, Normas Basicas art. 14.1–2 (ingresos e incobrados)",
+      "fuentePrimariaCotejo20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
     },
     {
       "bloque": "Tesorería y control",
@@ -89,7 +103,9 @@
         "LOSU art. 59",
         "Información económica y contable UC3M"
       ],
-      "preguntas": []
+      "preguntas": [],
+      "preceptosCotejo20261106": "Ley 5/2025 CM arts. 10.2, 109.2, 182.1; LOSU 59",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217"
     }
   ],
   "incidenciasCorregidas": [
@@ -201,5 +217,38 @@
     "simulacrosSinCambios": true,
     "certificacionIntegral": false,
     "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "cierreDocumentalT18_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T18_20261106.md",
+    "prueba": "tests/validate-uc3m-cierre-t18-20261106.mjs",
+    "bloquesMatriz": 8,
+    "bancoOriginal": 12,
+    "alternativasOriginales": 48,
+    "bancoComplementarioLote": 4,
+    "bancoComplementarioEconomia": 4,
+    "alternativasComplementarias": 32,
+    "ejerciciosDocumentales": 20,
+    "alternativasDocumentales": 80,
+    "citasPrecisadas": 20,
+    "versionPresupuesto": "UC3M 2026 (no extrapolar a otros ejercicios)",
+    "normas": [
+      "LOSU BOE-A-2023-7500",
+      "Ley 5/2025 CM BOE-A-2026-3217",
+      "Presupuesto UC3M 2026 BOCM 30/12/2025",
+      "Normas Basicas UC3M 2026 Volumen I"
+    ],
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "navegadorE2E": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_LISTAS_DEFINITIVAS",
+    "pendientes": [
+      "fecha de corte de normativa por documento UC3M oficial",
+      "validacion real de navegador, movil, WCAG/PWA y persistencia",
+      "cotejo integral de cada afirmacion legal a fecha de corte",
+      "aprobacion de usuario"
+    ]
   }
 }
