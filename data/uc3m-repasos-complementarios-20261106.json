@@ -1,0 +1,1527 @@
+{
+  "id": "UC3M-ADICIONALES_20261106",
+  "fecha": "2026-11-06",
+  "origen": "Repasos Markdown de OpoWeb convertidos a JSON. No preguntas oficiales",
+  "notaCorte": "Base primera.7: fecha de resolución de admitidos definitiva y llamamiento pendiente de prueba primaria",
+  "certificacionIntegral": false,
+  "paquetes": [
+    {
+      "id": "UC3M-ADIC-20261106-T08",
+      "titulo": "Igualdad · T8",
+      "descripcion": "12 preguntas complementarias de OpoWeb, no oficiales",
+      "preguntas": [
+        {
+          "id": "UC3M-ADIC-20261106-T08-01",
+          "tema": 8,
+          "pregunta": "Según el artículo 10 de la LO 3/2007, ¿qué efecto producen los actos y cláusulas que causen discriminación por razón de sexo?",
+          "opciones": [
+            "Son válidos hasta que se acuerde una multa",
+            "Son nulos y sin efecto, con las responsabilidades y reparaciones procedentes",
+            "Solo se declaran anulables cuando el acto sea administrativo",
+            "Se convalidan automáticamente por acuerdo de las partes"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Son nulos y sin efecto, con las responsabilidades y reparaciones procedentes",
+          "justificacion": "El artículo 10 establece nulidad y falta de efectos, junto a reparaciones o indemnizaciones reales, efectivas y proporcionadas, y posibles sanciones. Fuente oficial (https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a10).",
+          "trampaExamen": "Nulo y sin efecto no significa solo anulable ni siempre «multa automática».",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a10",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-02",
+          "tema": 8,
+          "pregunta": "¿Puede solicitarse tutela judicial del derecho a la igualdad tras terminar la relación en que se denuncia discriminación?",
+          "opciones": [
+            "No, termina siempre con el contrato",
+            "Sí, lo permite expresamente el artículo 12.1",
+            "Solo si media el Rector de la universidad",
+            "Únicamente si el proceso es penal"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Sí, lo permite expresamente el artículo 12.1",
+          "justificacion": "El artículo 12.1 contempla la tutela judicial incluso tras la terminación de la relación en que supuestamente se produjo la discriminación. Fuente oficial (https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a12).",
+          "trampaExamen": "Terminación de la relación no extingue automáticamente la posibilidad de pedir tutela.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a12",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-03",
+          "tema": 8,
+          "pregunta": "¿A qué procedimiento NO se aplica la regla de prueba del artículo 13.1 de la LO 3/2007?",
+          "opciones": [
+            "A todos los procesos contencioso-administrativos",
+            "A los procesos civiles por discriminación",
+            "A los procesos penales",
+            "A todas las controversias laborales"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "A los procesos penales",
+          "justificacion": "El artículo 13.2 excluye expresamente los procesos penales del régimen del apartado 1. Fuente oficial (https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a13).",
+          "trampaExamen": "La ley NO establece que toda denuncia penal invierta la carga de la prueba.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a13",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-04",
+          "tema": 8,
+          "pregunta": "¿Qué artículo establece criterios generales de igualdad para las Administraciones Públicas, entre ellos formación y promoción de presencia equilibrada en órganos de selección?",
+          "opciones": [
+            "Artículo 51",
+            "Artículo 77",
+            "Artículo 13",
+            "Artículo 28"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Artículo 51",
+          "justificacion": "El artículo 51 recoge deberes de actuación de las Administraciones Públicas dentro de sus competencias. Fuente oficial (https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a51).",
+          "trampaExamen": "No confundir el artículo 51 general con el capítulo de medidas específicas para la AGE.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a51",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-05",
+          "tema": 8,
+          "pregunta": "¿En qué ámbito se sitúa expresamente la previsión de informe de impacto de género para convocatorias de empleo público del artículo 55?",
+          "opciones": [
+            "En todos los procesos de cualquier empresa privada",
+            "Solo en ayuntamientos de más de 20.000 habitantes",
+            "Administración General del Estado y organismos de su capítulo específico",
+            "En cualquier universidad, sin necesidad de otra norma"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Administración General del Estado y organismos de su capítulo específico",
+          "justificacion": "El artículo 55, incluido en capítulo III del Título V, regula una previsión específica de AGE y organismos vinculados/dependientes, con excepción por urgencia. Fuente oficial (https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a55).",
+          "trampaExamen": "No extender automáticamente el ámbito AGE a todas las Administraciones o universidades.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a55",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-06",
+          "tema": 8,
+          "pregunta": "¿Qué norma exige para el ámbito del artículo 61 que las pruebas de acceso contemplen el estudio y aplicación del principio de igualdad?",
+          "opciones": [
+            "LO 3/2007, artículo 61",
+            "Código Penal, artículo 61",
+            "Ley de Contratos, artículo 61",
+            "Estatutos UC3M, artículo 169"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "LO 3/2007, artículo 61",
+          "justificacion": "El artículo 61 señala las pruebas de acceso al empleo público de AGE y organismos vinculados o dependientes y establece formación en igualdad. Fuente oficial (https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a61).",
+          "trampaExamen": "El art. 61 no dice literalmente que todas las pruebas de cualquier organización deban seguir exactamente su redacción.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115#a61",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-07",
+          "tema": 8,
+          "pregunta": "Según la resolución UC3M de 13 de julio de 2017, ¿a quién se dirige la solicitud de trato conforme a la identidad y nombre elegidos?",
+          "opciones": [
+            "Al Consejo Social",
+            "A la Unidad de Igualdad",
+            "Al Ministerio de Hacienda",
+            "Al Defensor del Pueblo"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "A la Unidad de Igualdad",
+          "justificacion": "La resolución de 2017 identifica la Unidad de Igualdad como destinataria de la solicitud y prevé resolución posterior. Fuente oficial (https://sede.uc3m.es/boel/anexo/534/).",
+          "trampaExamen": "La Unidad de Igualdad recibe la petición; otros servicios ejecutan cambios en sus ficheros.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/534/",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-08",
+          "tema": 8,
+          "pregunta": "Según las instrucciones UC3M de 2017, ¿qué servicio gestiona los cambios de nombre de personal de administración y servicios y PDI en sus archivos?",
+          "opciones": [
+            "El Servicio de Recursos Humanos y Organización",
+            "La Junta Electoral Central",
+            "Solo Biblioteca",
+            "Exclusivamente el Consejo Social"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "El Servicio de Recursos Humanos y Organización",
+          "justificacion": "Para PAS/PDI, las instrucciones se cursan al Servicio de Recursos Humanos y Organización; los servicios académicos intervienen en las solicitudes del alumnado. Fuente oficial (https://sede.uc3m.es/boel/anexo/534/).",
+          "trampaExamen": "No confundir personal trabajador con estudiantes a efectos de servicios responsables.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/534/",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-09",
+          "tema": 8,
+          "pregunta": "¿Qué efecto NO produce por sí sola la resolución interna UC3M sobre el nombre elegido, según las instrucciones de 2017?",
+          "opciones": [
+            "Que aparezca en listas de clase en el ámbito universitario",
+            "Que se comunique el cambio a los servicios afectados",
+            "Que se reconozca el trato conforme a la identidad manifestada",
+            "Que se altere automáticamente la titularidad jurídica de derechos y obligaciones"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Que se altere automáticamente la titularidad jurídica de derechos y obligaciones",
+          "justificacion": "El apartado tercero excluye cambiar la titularidad jurídica de derechos/obligaciones por el reconocimiento universitario interno. Fuente oficial (https://sede.uc3m.es/boel/anexo/534/).",
+          "trampaExamen": "Nombre interno no equivale a modificar automáticamente el Registro Civil ni la titularidad jurídica.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/534/",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-10",
+          "tema": 8,
+          "pregunta": "¿Qué medida del III Plan de Igualdad UC3M exige revisar el lenguaje de las páginas web y documentos de centros, servicios y unidades?",
+          "opciones": [
+            "1.18",
+            "1.19",
+            "4.10",
+            "1.24"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "1.19",
+          "justificacion": "La medida 1.19 se refiere a páginas web y documentación administrativa de distintas unidades. Fuente oficial (https://www.uc3m.es/ss/Satellite/Igualdad/es/TextoDosColumnas/1371328944507/Buenas_practicas_en_el_tratamiento_del_lenguaje_en_igualdad).",
+          "trampaExamen": "1.18 = comunicación institucional; 1.19 = webs y documentación.",
+          "referencia": "https://www.uc3m.es/ss/Satellite/Igualdad/es/TextoDosColumnas/1371328944507/Buenas_practicas_en_el_tratamiento_del_lenguaje_en_igualdad",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-11",
+          "tema": 8,
+          "pregunta": "La elaboración de un procedimiento de revisión de webs y guía de lenguaje administrativo inclusivo es la medida...",
+          "opciones": [
+            "1.20",
+            "1.24",
+            "4.2",
+            "1.21"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "1.20",
+          "justificacion": "La 1.20 promueve un procedimiento e instrucciones para revisar webs y una guía de lenguaje administrativo inclusivo. Fuente oficial (https://www.uc3m.es/ss/Satellite/Igualdad/es/TextoDosColumnas/1371328944507/Buenas_practicas_en_el_tratamiento_del_lenguaje_en_igualdad).",
+          "trampaExamen": "1.21 trata de revisión previa de normas, instrucciones y resoluciones, no de elaborar la guía.",
+          "referencia": "https://www.uc3m.es/ss/Satellite/Igualdad/es/TextoDosColumnas/1371328944507/Buenas_practicas_en_el_tratamiento_del_lenguaje_en_igualdad",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T08-12",
+          "tema": 8,
+          "pregunta": "¿Cuál de estos enunciados describe mejor las guías UC3M de buenas prácticas en el tratamiento de imágenes?",
+          "opciones": [
+            "Son una norma penal con sanción automática para cada imagen",
+            "Solo recomiendan usar imágenes de hombres en carreras técnicas",
+            "Ofrecen recomendaciones para representación equilibrada y sin estereotipos",
+            "Sustituyen al III Plan de Igualdad 2025–2029"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Ofrecen recomendaciones para representación equilibrada y sin estereotipos",
+          "justificacion": "La guía ofrece recomendaciones para imágenes inclusivas, no sustituye la ley o el plan ni crea un régimen sancionador por sí sola. Fuente oficial (https://www.uc3m.es/ss/Satellite/Igualdad/es/TextoDosColumnas/1371328946865/Buenas_practicas_en_el_tratamiento_de_imagenes_en_igualdad).",
+          "trampaExamen": "Guía de recomendaciones ≠ ley sancionadora; evitar androcentrismo y estereotipos.",
+          "referencia": "https://www.uc3m.es/ss/Satellite/Igualdad/es/TextoDosColumnas/1371328946865/Buenas_practicas_en_el_tratamiento_de_imagenes_en_igualdad",
+          "fuenteEditorial": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+        }
+      ],
+      "fuente": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md"
+    },
+    {
+      "id": "UC3M-ADIC-20261106-T09",
+      "titulo": "Ofimática · T9",
+      "descripcion": "12 preguntas complementarias de OpoWeb, no oficiales",
+      "preguntas": [
+        {
+          "id": "UC3M-ADIC-20261106-T09-01",
+          "tema": 9,
+          "pregunta": "En una combinación de correspondencia, ¿qué elemento contiene los nombres y direcciones de las personas destinatarias?",
+          "opciones": [
+            "El documento principal",
+            "El origen de datos",
+            "La vista de lectura",
+            "El pie de página"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "El origen de datos",
+          "justificacion": "El origen de datos contiene registros y campos; el documento principal conserva el contenido común. Fuente oficial: Microsoft / Google (https://support.microsoft.com/es-es/word/set-up-a-new-mail-merge-list-with-word).",
+          "trampaExamen": "Origen de datos ≠ documento principal.",
+          "referencia": "https://support.microsoft.com/es-es/word/set-up-a-new-mail-merge-list-with-word",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-02",
+          "tema": 9,
+          "pregunta": "Antes de producir las cartas personalizadas, ¿qué comando permite comprobar cómo quedarán para destinatarios concretos?",
+          "opciones": [
+            "Finalizar e imprimir directamente",
+            "Cambiar el tema de Office",
+            "Vista previa de resultados",
+            "Proteger documento"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Vista previa de resultados",
+          "justificacion": "La vista previa de resultados permite revisar los datos combinados por registro, antes de finalizar. Fuente oficial: Microsoft / Google (https://support.microsoft.com/es-es/word/mail-merge-preview-results).",
+          "trampaExamen": "Vista previa no es Finalizar y combinar.",
+          "referencia": "https://support.microsoft.com/es-es/word/mail-merge-preview-results",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-03",
+          "tema": 9,
+          "pregunta": "Para generar una tabla de contenido automática basada en los títulos de un documento, ¿qué conviene aplicar?",
+          "opciones": [
+            "Estilos de título con nivel adecuado",
+            "Solo negrita en los encabezados",
+            "Una sangría francesa en cada título",
+            "Protección contra edición"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Estilos de título con nivel adecuado",
+          "justificacion": "Los estilos de título proporcionan la estructura necesaria para una tabla de contenido automática. Fuente oficial: Microsoft / Google (https://support.microsoft.com/es-es/word/add-a-heading-in-a-word-document).",
+          "trampaExamen": "Negrita visual no equivale a un nivel de título.",
+          "referencia": "https://support.microsoft.com/es-es/word/add-a-heading-in-a-word-document",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-04",
+          "tema": 9,
+          "pregunta": "¿Qué función usarías para impedir, mediante una alerta de tipo Detener, introducir notas distintas de números enteros entre 1 y 10?",
+          "opciones": [
+            "Formato condicional",
+            "Ordenar",
+            "Filtro automático",
+            "Validación de datos"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Validación de datos",
+          "justificacion": "Validación de datos restringe la entrada. Con alerta Detener, se bloquea la introducción que no cumple la regla. Fuente oficial: Microsoft / Google (https://support.microsoft.com/es-ES/Excel/get-started/apply-data-validation-to-cells).",
+          "trampaExamen": "Formato condicional solo cambia la apariencia, no impide escribir.",
+          "referencia": "https://support.microsoft.com/es-ES/Excel/get-started/apply-data-validation-to-cells",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-05",
+          "tema": 9,
+          "pregunta": "Si deseas colorear automáticamente de rojo una nota inferior a 5 sin cambiar su valor, ¿qué herramienta corresponde?",
+          "opciones": [
+            "Cifrado de libro",
+            "Formato condicional",
+            "Validación con alerta Detener",
+            "Ordenación ascendente"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Formato condicional",
+          "justificacion": "El formato condicional evalúa la condición y cambia el formato, sin alterar el contenido numérico. Fuente oficial: Microsoft / Google (https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel).",
+          "trampaExamen": "Colorear una nota no significa invalidarla.",
+          "referencia": "https://support.microsoft.com/es-es/excel/use-conditional-formatting-to-highlight-information-in-excel",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-06",
+          "tema": 9,
+          "pregunta": "Al filtrar una tabla para mostrar solo registros de Toledo, ¿qué ocurre normalmente con el resto de las filas?",
+          "opciones": [
+            "Se eliminan definitivamente",
+            "Se mueven a otro libro",
+            "Se ocultan temporalmente mientras está activo el filtro",
+            "Se convierten en comentarios"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Se ocultan temporalmente mientras está activo el filtro",
+          "justificacion": "El filtro controla qué filas se muestran; no elimina las que no cumplen el criterio. Fuente oficial: Microsoft / Google (https://support.microsoft.com/es-es/excel/get-started/filter-data-in-a-range-or-table-in-excel).",
+          "trampaExamen": "Filtrar no equivale a eliminar ni a ordenar.",
+          "referencia": "https://support.microsoft.com/es-es/excel/get-started/filter-data-in-a-range-or-table-in-excel",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-07",
+          "tema": 9,
+          "pregunta": "Si una celda está marcada como «bloqueada», ¿qué paso hace efectiva la restricción ordinaria de edición en Excel?",
+          "opciones": [
+            "Activar la protección de hoja",
+            "Aplicar una tabla con bordes",
+            "Ordenar el rango",
+            "Abrir el panel de navegación"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Activar la protección de hoja",
+          "justificacion": "El estado bloqueado actúa normalmente al proteger la hoja; esa protección no equivale a cifrar el archivo. Fuente oficial: Microsoft / Google (https://support.microsoft.com/es-es/excel/protect-a-worksheet).",
+          "trampaExamen": "Celda bloqueada sin protección de hoja no implica necesariamente que nadie pueda editarla.",
+          "referencia": "https://support.microsoft.com/es-es/excel/protect-a-worksheet",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-08",
+          "tema": 9,
+          "pregunta": "¿Qué consulta selecciona mensajes no leídos cuyo asunto contiene la palabra examen?",
+          "opciones": [
+            "from:examen",
+            "to:examen",
+            "has:attachment examen",
+            "is:unread subject:examen"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "is:unread subject:examen",
+          "justificacion": "is:unread pide mensajes no leídos; subject: limita la búsqueda a palabras del asunto. Fuente oficial: Microsoft / Google (https://support.google.com/mail/answer/7190?hl=es).",
+          "trampaExamen": "subject: y from: son filtros distintos; has:attachment no significa no leído.",
+          "referencia": "https://support.google.com/mail/answer/7190?hl=es",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-09",
+          "tema": 9,
+          "pregunta": "¿Qué ventaja ofrece una vista de filtro frente al filtro normal en una hoja compartida?",
+          "opciones": [
+            "Borra los registros que no coinciden",
+            "Permite filtrar sin cambiar la vista activa de otras personas",
+            "Impide que los editores copien datos",
+            "Convierte el archivo automáticamente a Excel"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Permite filtrar sin cambiar la vista activa de otras personas",
+          "justificacion": "La vista de filtro permite consultar un subconjunto sin modificar la vista activa para otras personas. Fuente oficial: Microsoft / Google (https://support.google.com/docs/answer/9245556?hl=es).",
+          "trampaExamen": "La vista de filtro no es una técnica de seguridad o borrado.",
+          "referencia": "https://support.google.com/docs/answer/9245556?hl=es",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-10",
+          "tema": 9,
+          "pregunta": "¿Qué implica proteger un intervalo en Google Sheets?",
+          "opciones": [
+            "Limitar o advertir sobre su edición, pero no cifrar el contenido",
+            "Volver invisibles los datos para cualquier lector",
+            "Impedir toda copia o exportación por definición",
+            "Eliminar definitivamente los valores originales"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Limitar o advertir sobre su edición, pero no cifrar el contenido",
+          "justificacion": "La protección restringe edición o muestra advertencias; Google advierte que no debe considerarse medida de seguridad. Fuente oficial: Microsoft / Google (https://support.google.com/docs/answer/1218656?hl=es-es).",
+          "trampaExamen": "Proteger edición no implica ocultar ni cifrar.",
+          "referencia": "https://support.google.com/docs/answer/1218656?hl=es-es",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-11",
+          "tema": 9,
+          "pregunta": "Una persona con permiso «Ver solo libre/ocupado» sobre un calendario, ¿qué puede consultar?",
+          "opciones": [
+            "Editar la descripción de cualquier evento",
+            "Cambiar quién comparte el calendario",
+            "La disponibilidad sin los detalles de los eventos",
+            "Todos los eventos privados con sus invitados"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "La disponibilidad sin los detalles de los eventos",
+          "justificacion": "Ese nivel informa sobre disponibilidad; no muestra los títulos ni los detalles de los eventos. Fuente oficial: Microsoft / Google (https://support.google.com/calendar/answer/37082?hl=es).",
+          "trampaExamen": "Ocupado no significa que conozca el contenido de la cita.",
+          "referencia": "https://support.google.com/calendar/answer/37082?hl=es",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T09-12",
+          "tema": 9,
+          "pregunta": "¿Qué permiso se necesita, con carácter general, para administrar quién puede compartir un calendario?",
+          "opciones": [
+            "Ver detalles de eventos",
+            "Ver solo libre/ocupado",
+            "Hacer cambios, sin más",
+            "Hacer cambios y gestionar el uso compartido"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Hacer cambios y gestionar el uso compartido",
+          "justificacion": "Hacer cambios y gestionar el uso compartido permite gestionar los permisos, sujeto a políticas institucionales. Fuente oficial: Microsoft / Google (https://support.google.com/calendar/answer/15716974?hl=es).",
+          "trampaExamen": "Hacer cambios en eventos no es lo mismo que gestionar el acceso al calendario.",
+          "referencia": "https://support.google.com/calendar/answer/15716974?hl=es",
+          "fuenteEditorial": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+        }
+      ],
+      "fuente": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md"
+    },
+    {
+      "id": "UC3M-ADIC-20261106-T12",
+      "titulo": "Prevención laboral · T12",
+      "descripcion": "12 preguntas complementarias de OpoWeb, no oficiales",
+      "preguntas": [
+        {
+          "id": "UC3M-ADIC-20261106-T12-01",
+          "tema": 12,
+          "pregunta": "¿Se aplica la Ley 31/1995 al personal con relación administrativa o estatutaria al servicio de las Administraciones Públicas?",
+          "opciones": [
+            "No, solo a personal laboral privado",
+            "Sí, con las peculiaridades previstas para el sector público",
+            "Solo mediante convenio individual",
+            "No, salvo que se trate de personal militar"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Sí, con las peculiaridades previstas para el sector público",
+          "justificacion": "La aplicación al personal administrativo o estatutario está expresamente contemplada, con sus peculiaridades. Precepto: LPRL 3.1.",
+          "trampaExamen": "Funcionario y estatutario no están excluidos de forma general.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-02",
+          "tema": 12,
+          "pregunta": "Según el artículo 3.2, ¿qué actividades de protección civil pueden acogerse a la excepción funcional prevista?",
+          "opciones": [
+            "Toda actividad de protección civil sin condiciones",
+            "Solo cursos voluntarios de primeros auxilios",
+            "Servicios operativos en casos de grave riesgo, catástrofe y calamidad pública cuando las particularidades impidan aplicar la Ley",
+            "Cualquier tarea de oficina de la administración"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Servicios operativos en casos de grave riesgo, catástrofe y calamidad pública cuando las particularidades impidan aplicar la Ley",
+          "justificacion": "La exclusión es funcional y condicionada a las circunstancias descritas y las particularidades que impiden aplicar la Ley. Precepto: LPRL 3.2.",
+          "trampaExamen": "No convertir una excepción concreta en una exclusión general de protección civil.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-03",
+          "tema": 12,
+          "pregunta": "¿Qué carácter reconoce el artículo 2.2 a las disposiciones laborales preventivas?",
+          "opciones": [
+            "Derecho necesario mínimo indisponible, mejorable por convenio colectivo",
+            "Recomendaciones voluntarias que no pueden mejorarse",
+            "Normas solo para empresas de más de 50 personas",
+            "Normas sin carácter obligatorio"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Derecho necesario mínimo indisponible, mejorable por convenio colectivo",
+          "justificacion": "Las reglas laborales preventivas son mínimos indisponibles y los convenios pueden mejorarlas. Precepto: LPRL 2.2.",
+          "trampaExamen": "Mejorar en convenio no implica poder pactar menos protección.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-04",
+          "tema": 12,
+          "pregunta": "En la protección por embarazo, ¿qué actuación precede normalmente al cambio de puesto y a la suspensión por riesgo?",
+          "opciones": [
+            "Suspensión automática por estar embarazada",
+            "Cambio de empresa",
+            "Reducción obligatoria de salario",
+            "Evaluación del riesgo y adaptación de condiciones o del tiempo de trabajo"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Evaluación del riesgo y adaptación de condiciones o del tiempo de trabajo",
+          "justificacion": "Primero se evalúa el riesgo y se intenta la adaptación; después, cuando proceda, puesto compatible, y solo si no es posible, suspensión por riesgo. Precepto: LPRL 26.1–3.",
+          "trampaExamen": "Embarazo no significa suspensión automática.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-05",
+          "tema": 12,
+          "pregunta": "Para un trabajador menor de 18 años, ¿cuándo exige la ley evaluar el puesto, entre otros momentos?",
+          "opciones": [
+            "Solo después del primer accidente",
+            "Antes de incorporarse y antes de modificaciones importantes de las condiciones",
+            "Al cumplir 25 años",
+            "Únicamente cuando el menor lo solicite"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Antes de incorporarse y antes de modificaciones importantes de las condiciones",
+          "justificacion": "Se exige evaluación antes de la incorporación y antes de modificar de manera importante sus condiciones de trabajo. Precepto: LPRL 27.1.",
+          "trampaExamen": "La evaluación no debe esperar a un accidente.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-06",
+          "tema": 12,
+          "pregunta": "¿Qué nivel de protección preventiva corresponde a trabajadores con contrato temporal o de ETT respecto del personal restante?",
+          "opciones": [
+            "Inferior si el contrato es menor de un mes",
+            "La mitad mientras no sean indefinidos",
+            "El mismo nivel de protección",
+            "El que negocien individualmente, aunque sea inferior al legal"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "El mismo nivel de protección",
+          "justificacion": "La ley exige el mismo nivel de protección, sin diferencias por temporalidad o puesta a disposición. Precepto: LPRL 28.1.",
+          "trampaExamen": "Un contrato temporal no reduce derechos preventivos.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-07",
+          "tema": 12,
+          "pregunta": "Los Delegados de Prevención emiten informes sobre decisiones del artículo 33. ¿Cuál es el plazo ordinario del artículo 36.3?",
+          "opciones": [
+            "15 días",
+            "2 meses",
+            "30 días hábiles",
+            "90 días"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "15 días",
+          "justificacion": "La ley fija 15 días de forma general para esos informes de Delegados. Precepto: LPRL 36.3.",
+          "trampaExamen": "No confundir 15 días con el régimen de informes de otros procedimientos administrativos.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-08",
+          "tema": 12,
+          "pregunta": "Para medidas dirigidas a prevenir riesgos inminentes, ¿en qué plazo deben informar los Delegados según el artículo 36.3?",
+          "opciones": [
+            "En todo caso 15 días completos",
+            "Siempre un mes",
+            "Después de ejecutar las medidas",
+            "En el tiempo imprescindible"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "En el tiempo imprescindible",
+          "justificacion": "El informe debe emitirse en el tiempo imprescindible por la inminencia del riesgo. Precepto: LPRL 36.3.",
+          "trampaExamen": "Los 15 días son regla ordinaria, no plazo que deba agotarse ante riesgo inminente.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-09",
+          "tema": 12,
+          "pregunta": "Si el empresario rechaza adoptar una medida preventiva propuesta por un Delegado de Prevención, ¿qué exige la Ley?",
+          "opciones": [
+            "No responder nunca",
+            "Motivar la decisión negativa",
+            "Rechazarla únicamente mediante referéndum",
+            "Esperar un año"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Motivar la decisión negativa",
+          "justificacion": "La decisión empresarial negativa a la propuesta preventiva del Delegado debe motivarse. Precepto: LPRL 36.4.",
+          "trampaExamen": "No confundir facultad de proponer con poder del Delegado para adoptar unilateralmente todas las decisiones.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-10",
+          "tema": 12,
+          "pregunta": "Dos empresas desarrollan actividades concurrentes en un mismo centro, sin contrato entre ellas. ¿Qué indica el RD 171/2004?",
+          "opciones": [
+            "No tienen obligaciones por falta de contrato",
+            "Solo debe cooperar la que tenga más empleados",
+            "Ambas deben cooperar y proporcionarse la información preventiva exigible",
+            "Se exige crear automáticamente un nuevo comité conjunto"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Ambas deben cooperar y proporcionarse la información preventiva exigible",
+          "justificacion": "El deber de cooperación se aplica a empresas y autónomos concurrentes aunque no tengan relación jurídica. Precepto: RD 171/2004, 4.1–2.",
+          "trampaExamen": "Concurrencia, no contrato entre empresas, fundamenta el deber de cooperación.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-11",
+          "tema": 12,
+          "pregunta": "¿Quién debe informar a las demás empresas de los riesgos propios del centro y de las medidas de emergencia?",
+          "opciones": [
+            "El empresario titular del centro",
+            "Solo la autoridad judicial",
+            "Cada visitante individualmente sin coordinación",
+            "El sindicato mayoritario exclusivamente"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "El empresario titular del centro",
+          "justificacion": "La información sobre riesgos propios del centro y emergencias corresponde al empresario titular. Precepto: RD 171/2004, 7.",
+          "trampaExamen": "El titular no se confunde con cada concurrente ni necesariamente con el principal.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T12-12",
+          "tema": 12,
+          "pregunta": "¿Cuál es una obligación específica del empresario principal cuando contrata trabajos de su propia actividad en su propio centro?",
+          "opciones": [
+            "Limitarse a comunicar su domicilio postal",
+            "Omitir toda documentación para evitar duplicidades",
+            "Vigilar exclusivamente la puntualidad de trabajadores de contratas",
+            "Vigilar el cumplimiento preventivo y exigir acreditación escrita previa de evaluación, planificación, información y formación"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Vigilar el cumplimiento preventivo y exigir acreditación escrita previa de evaluación, planificación, información y formación",
+          "justificacion": "La vigilancia y acreditación escrita previa de esas obligaciones corresponden al empresario principal cuando concurren los requisitos. Precepto: RD 171/2004, 10.",
+          "trampaExamen": "Ser titular no convierte automáticamente cualquier contrato en actividad propia a efectos de ser principal.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292",
+          "fuenteEditorial": "content/uc3m/REPASO_PRL_T12_20261106.md"
+        }
+      ],
+      "fuente": "content/uc3m/REPASO_PRL_T12_20261106.md"
+    },
+    {
+      "id": "UC3M-ADIC-20261106-T13",
+      "titulo": "LOSU · T13",
+      "descripcion": "12 preguntas complementarias de OpoWeb, no oficiales",
+      "preguntas": [
+        {
+          "id": "UC3M-ADIC-20261106-T13-01",
+          "tema": 13,
+          "pregunta": "¿Quién aprueba para cada curso la oferta general de enseñanzas y plazas de las titulaciones oficiales?",
+          "opciones": [
+            "Consejo de Estudiantes Universitario del Estado",
+            "Conferencia General de Política Universitaria",
+            "Consejo Social",
+            "Claustro"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Conferencia General de Política Universitaria",
+          "justificacion": "La Conferencia General de Política Universitaria aprueba esa oferta general. Fuente: LOSU art. 15.1.e.",
+          "trampaExamen": "Oferta general de plazas no es función del Consejo de Universidades.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-02",
+          "tema": 13,
+          "pregunta": "¿A quién corresponde verificar la adecuación de los planes de estudios de acuerdo con el art. 8?",
+          "opciones": [
+            "Conferencia de Consejos Sociales",
+            "Consejo Social",
+            "Consejo de Universidades",
+            "CEUNE"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Consejo de Universidades",
+          "justificacion": "La verificación académica compete al Consejo de Universidades. Fuente: LOSU art. 16.1.e.",
+          "trampaExamen": "Conferencia General y Consejo de Universidades son órganos distintos.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-03",
+          "tema": 13,
+          "pregunta": "¿Qué porcentaje mínimo de cada sexo exige el artículo 17.4 para el Consejo de Estudiantes Universitario del Estado?",
+          "opciones": [
+            "40 %",
+            "50 % exacto",
+            "20 %",
+            "60 %"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "40 %",
+          "justificacion": "El CEUNE ha de garantizar al menos el 40 % de cada sexo. Fuente: LOSU art. 17.4.",
+          "trampaExamen": "Al menos 40 % no exige paridad matemática del 50 %.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-04",
+          "tema": 13,
+          "pregunta": "¿Quién acuerda crear o suprimir facultades y escuelas de una universidad pública?",
+          "opciones": [
+            "Rector unilateralmente",
+            "Consejo Social",
+            "CEUNE",
+            "Comunidad Autónoma, a iniciativa de la universidad, mediante propuesta y aprobación de su Consejo de Gobierno"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Comunidad Autónoma, a iniciativa de la universidad, mediante propuesta y aprobación de su Consejo de Gobierno",
+          "justificacion": "La Comunidad Autónoma adopta el acuerdo en el procedimiento previsto. Fuente: LOSU art. 41.1.",
+          "trampaExamen": "Consejo de Gobierno propone; la Comunidad Autónoma acuerda.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-05",
+          "tema": 13,
+          "pregunta": "¿Quién crea o suprime departamentos e institutos universitarios conforme al artículo 41.2?",
+          "opciones": [
+            "El Gobierno siempre",
+            "La Conferencia General",
+            "La universidad, según su normativa y Estatutos",
+            "El CEUNE"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "La universidad, según su normativa y Estatutos",
+          "justificacion": "La competencia corresponde a la universidad, conforme a la ley y sus Estatutos. Fuente: LOSU art. 41.2.",
+          "trampaExamen": "No trasladar la regla de facultades y escuelas a los departamentos.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-06",
+          "tema": 13,
+          "pregunta": "¿Qué unidad debe contar con un servicio de atención a la discapacidad?",
+          "opciones": [
+            "Unidad de diversidad",
+            "Consejo Social",
+            "Defensoría en exclusiva",
+            "Claustro"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Unidad de diversidad",
+          "justificacion": "La unidad de diversidad debe disponer de un servicio de atención a la discapacidad. Fuente: LOSU art. 43.3.",
+          "trampaExamen": "Unidad de igualdad y unidad de diversidad pueden integrarse, pero tienen competencias distintas.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-07",
+          "tema": 13,
+          "pregunta": "¿Qué forma de docencia considera preferente el artículo 6.1, sin excluir otras modalidades?",
+          "opciones": [
+            "Solo virtual",
+            "Presencial, también pudiendo ser virtual o híbrida",
+            "Exclusivamente híbrida",
+            "Solo presencial, con prohibición de la virtual"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Presencial, también pudiendo ser virtual o híbrida",
+          "justificacion": "La ley dispone docencia preferentemente presencial y admite docencia virtual o híbrida. Fuente: LOSU art. 6.1.",
+          "trampaExamen": "Preferentemente no equivale a exclusivamente.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-08",
+          "tema": 13,
+          "pregunta": "¿En qué se exige plena y efectiva participación del estudiantado según el artículo 6.2?",
+          "opciones": [
+            "Solo en presupuestos",
+            "Solo en becas",
+            "Solo en el Claustro",
+            "Elaboración, seguimiento y actualización de planes de estudio y efectos en guías docentes"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Elaboración, seguimiento y actualización de planes de estudio y efectos en guías docentes",
+          "justificacion": "El estudiantado participa en elaboración, seguimiento y actualización de planes de estudio y guías docentes. Fuente: LOSU art. 6.2.",
+          "trampaExamen": "No limitar la participación a votar representantes.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-09",
+          "tema": 13,
+          "pregunta": "¿Qué efectos tiene inscribir un título oficial en el RUCT respecto a su creación?",
+          "opciones": [
+            "Solo publicidad estadística",
+            "Informativos para todos los títulos",
+            "Constitutivos para títulos oficiales",
+            "No produce efectos"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Constitutivos para títulos oficiales",
+          "justificacion": "La inscripción de títulos oficiales en el RUCT tiene efecto constitutivo. Fuente: LOSU art. 7.3.",
+          "trampaExamen": "Los títulos propios pueden inscribirse a efectos informativos, pero no adquieren oficialidad.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-10",
+          "tema": 13,
+          "pregunta": "¿Con quién pueden colaborar las universidades según el artículo 14.2 de la LOSU?",
+          "opciones": [
+            "Otras universidades, instituciones de educación superior, organismos de investigación, administraciones, empresas y sociedad civil",
+            "Solo universidades públicas",
+            "Solo ministerios",
+            "Exclusivamente universidades extranjeras"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Otras universidades, instituciones de educación superior, organismos de investigación, administraciones, empresas y sociedad civil",
+          "justificacion": "La cooperación incluye instituciones, Administraciones, empresas y agentes sociales, mediante alianzas y redes. Fuente: LOSU art. 14.2.",
+          "trampaExamen": "La cooperación no se limita a las universidades.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-11",
+          "tema": 13,
+          "pregunta": "¿Cuándo debe el PDI depositar la versión final aceptada y datos asociados en repositorios institucionales o temáticos?",
+          "opciones": [
+            "Cinco años después",
+            "Simultáneamente a la fecha de publicación",
+            "Solo cuando lo pida el Consejo Social",
+            "Antes de iniciar la investigación"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Simultáneamente a la fecha de publicación",
+          "justificacion": "El PDI debe depositar la versión final aceptada y datos asociados de forma simultánea a la publicación. Fuente: LOSU art. 12.2.",
+          "trampaExamen": "No confundir la versión final aceptada con el manuscrito inicial.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T13-12",
+          "tema": 13,
+          "pregunta": "¿Qué permite la LOSU sobre proteger resultados antes de una publicación de ciencia abierta?",
+          "opciones": [
+            "Prohíbe patentes",
+            "Exige divulgar todos los secretos empresariales",
+            "Prohíbe derechos de autor",
+            "Permite proteger previamente propiedad intelectual, industrial y secreto empresarial conforme a la ley"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Permite proteger previamente propiedad intelectual, industrial y secreto empresarial conforme a la ley",
+          "justificacion": "El acceso abierto es compatible con proteger previamente resultados y derechos legalmente reconocidos. Fuente: LOSU art. 12.11.",
+          "trampaExamen": "Ciencia abierta no exige publicar sin límites o renunciar a patentes.",
+          "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+          "fuenteEditorial": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+        }
+      ],
+      "fuente": "content/uc3m/REPASO_LOSU_T13_20261106.md"
+    },
+    {
+      "id": "UC3M-ADIC-20261106-LOTE",
+      "titulo": "Lote T10/11/14/18",
+      "descripcion": "18 preguntas complementarias de OpoWeb, no oficiales",
+      "preguntas": [
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-01",
+          "tema": 10,
+          "pregunta": "¿Qué apartado del TREBEP incluye expresamente a las universidades públicas en su ámbito?",
+          "opciones": [
+            "Art. 2.1.e",
+            "Art. 91",
+            "Art. 14.j",
+            "Art. 60.3"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Art. 2.1.e",
+          "justificacion": "El artículo 2.1.e menciona las universidades públicas. Referencia: TREBEP 2.1.e.",
+          "trampaExamen": "La aplicación al personal funcionario y al laboral tiene el alcance distinto previsto por la ley.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-02",
+          "tema": 10,
+          "pregunta": "El artículo 2.3 TREBEP remite a legislación específica, entre otros, para...",
+          "opciones": [
+            "únicamente los alcaldes",
+            "personal docente y estatutario de servicios de salud, con excepciones legales",
+            "todos los trabajadores privados",
+            "solo personal eventual"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "personal docente y estatutario de servicios de salud, con excepciones legales",
+          "justificacion": "El personal docente y el estatutario sanitario se rigen por legislación específica y el TREBEP con exclusiones expresas. Referencia: TREBEP 2.3.",
+          "trampaExamen": "No son colectivos totalmente excluidos del TREBEP.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-03",
+          "tema": 10,
+          "pregunta": "¿Cuál es un derecho individual del artículo 14 TREBEP?",
+          "opciones": [
+            "Negociación colectiva",
+            "Derecho de reunión sindical",
+            "Inamovilidad en la condición de funcionario de carrera",
+            "Huelga con servicios esenciales"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Inamovilidad en la condición de funcionario de carrera",
+          "justificacion": "La inamovilidad es de la condición de funcionario de carrera. Referencia: TREBEP 14.a.",
+          "trampaExamen": "No significa inmovilidad permanente en un mismo puesto.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-04",
+          "tema": 10,
+          "pregunta": "¿Cuál pertenece al artículo 15 TREBEP como derecho individual de ejercicio colectivo?",
+          "opciones": [
+            "Formación continua",
+            "Desempeño efectivo del puesto",
+            "Progresión profesional",
+            "Negociación colectiva"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Negociación colectiva",
+          "justificacion": "La negociación colectiva es un derecho individual de ejercicio colectivo. Referencia: TREBEP 15.b.",
+          "trampaExamen": "Formación continua y carrera se sitúan en el artículo 14.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-05",
+          "tema": 10,
+          "pregunta": "¿Qué fija el artículo 91 TREBEP como plazo general único para reingresar de cualquier situación?",
+          "opciones": [
+            "No fija plazo único; remite a regulación reglamentaria",
+            "15 días naturales",
+            "30 días hábiles",
+            "6 meses"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "No fija plazo único; remite a regulación reglamentaria",
+          "justificacion": "El artículo 91 remite a reglamento para plazos, procedimientos y condiciones de reingreso. Referencia: TREBEP 91.",
+          "trampaExamen": "No memorizar un plazo universal inexistente en ese artículo.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-06",
+          "tema": 10,
+          "pregunta": "¿Qué garantía mínima contempla el artículo 87.3 para reingresar desde servicios especiales?",
+          "opciones": [
+            "Siempre el mismo despacho",
+            "Reingresar en la misma localidad, con condiciones de carrera consolidadas",
+            "Reingresar sin derechos retributivos",
+            "Ser nombrado personal laboral"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Reingresar en la misma localidad, con condiciones de carrera consolidadas",
+          "justificacion": "Se garantiza, al menos, el regreso en la misma localidad con condiciones de carrera consolidadas. Referencia: TREBEP 87.3.",
+          "trampaExamen": "Misma localidad no equivale a mismo puesto concreto.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-07",
+          "tema": 11,
+          "pregunta": "¿Para qué ámbito regula específicamente el ingreso y promoción el RD 364/1995?",
+          "opciones": [
+            "Todas las empresas españolas",
+            "Cualquier universidad sin normas propias",
+            "Funcionarios civiles de la Administración General del Estado",
+            "Solo administraciones locales"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Funcionarios civiles de la Administración General del Estado",
+          "justificacion": "Su ámbito propio son los funcionarios civiles AGE definidos en el reglamento. Referencia: RD 364/1995 art. 1.",
+          "trampaExamen": "Una convocatoria UC3M tiene bases específicas que no se sustituyen por procedimientos AGE.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-08",
+          "tema": 11,
+          "pregunta": "¿Qué norma establece con carácter general el régimen de incompatibilidades de personal de Administraciones Públicas?",
+          "opciones": [
+            "Ley 53/1984",
+            "LOSU art. 7",
+            "RD 171/2004",
+            "Código Civil art. 91"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Ley 53/1984",
+          "justificacion": "La Ley 53/1984 regula las incompatibilidades del sector público en su ámbito. Referencia: Ley 53/1984 art. 1.",
+          "trampaExamen": "No confundir incompatibilidad con ingreso del RD 364/1995.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-09",
+          "tema": 11,
+          "pregunta": "¿Cómo se constituyen los tribunales del artículo 11 del RD 364/1995?",
+          "opciones": [
+            "Tres miembros elegidos siempre por sorteo",
+            "Número par y sin suplentes",
+            "Cualquier número desde dos",
+            "Número impar de al menos cinco miembros, con igual número de suplentes"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Número impar de al menos cinco miembros, con igual número de suplentes",
+          "justificacion": "Para los tribunales la regla es número impar no inferior a cinco y el mismo número de suplentes. Referencia: RD 364/1995 art. 11.",
+          "trampaExamen": "No trasladar sin más el mínimo de cinco a la Comisión Permanente del art. 12.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-10",
+          "tema": 11,
+          "pregunta": "En el RD 364/1995, ¿qué intervalo entre finalización total de un ejercicio e inicio del siguiente exige el artículo 16.j?",
+          "opciones": [
+            "Una semana exacta",
+            "Mínimo 72 horas y máximo 45 días naturales",
+            "15–90 días hábiles",
+            "No existe intervalo"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Mínimo 72 horas y máximo 45 días naturales",
+          "justificacion": "El intervalo es 72 horas como mínimo y 45 días naturales como máximo en el régimen del Reglamento. Referencia: RD 364/1995 art. 16.j.",
+          "trampaExamen": "No aplicar automáticamente este intervalo a una convocatoria que siga otras bases.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-11",
+          "tema": 14,
+          "pregunta": "¿Cuál es el techo general del profesorado con contrato laboral temporal según el artículo 64.3 LOSU?",
+          "opciones": [
+            "50 % sin excepciones",
+            "20 % con todo el PDI",
+            "8 %, con exclusiones legales de cómputo",
+            "1 % siempre"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "8 %, con exclusiones legales de cómputo",
+          "justificacion": "La LOSU limita el profesorado temporal al 8 % en efectivos, sin computar asociado de Ciencias de la Salud ni ayudante doctor. Referencia: LOSU 64.3.",
+          "trampaExamen": "No usar el 8 % incluyendo automáticamente categorías exceptuadas.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-12",
+          "tema": 14,
+          "pregunta": "En la movilidad temporal del PDI, ¿qué pasa con la adscripción a la universidad de origen según art. 66.2?",
+          "opciones": [
+            "Se mantiene a todos los efectos",
+            "Se pierde automáticamente",
+            "La universidad de destino asume permanentemente el puesto",
+            "Se suspende toda antigüedad"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Se mantiene a todos los efectos",
+          "justificacion": "El PDI mantiene su adscripción a la universidad de origen durante la vinculación temporal regulada. Referencia: LOSU 66.2.",
+          "trampaExamen": "Movilidad no significa necesariamente perder antigüedad ni adscripción.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-13",
+          "tema": 14,
+          "pregunta": "¿En qué supuesto permite art. 65.1 LOSU acciones positivas en contratación del PDI a favor del sexo menos representado?",
+          "opciones": [
+            "Siempre automáticamente y sin evaluación",
+            "Solo en concurso de personal de limpieza",
+            "Nunca, la ley lo prohíbe",
+            "En igualdad de condiciones de idoneidad y conforme a las medidas previstas"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "En igualdad de condiciones de idoneidad y conforme a las medidas previstas",
+          "justificacion": "Las reservas o preferencias se pueden establecer en igualdad de idoneidad para corregir infrarrepresentación. Referencia: LOSU 65.1.",
+          "trampaExamen": "«Se podrán establecer» no equivale a reserva obligatoria universal.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-14",
+          "tema": 14,
+          "pregunta": "¿Qué efecto puede tener la reducción de jornada por situaciones protegidas en el contrato de ayudante doctor?",
+          "opciones": [
+            "Lo extingue inmediatamente",
+            "Prórroga por el tiempo equivalente a jornada reducida",
+            "No cuenta nunca para el contrato",
+            "Obliga a rebajar categoría"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Prórroga por el tiempo equivalente a jornada reducida",
+          "justificacion": "La LOSU prevé prórroga proporcional cuando determinadas situaciones protegidas reducen la jornada del ayudante doctor. Referencia: LOSU 78.",
+          "trampaExamen": "No confundir interrupción del cómputo y prórroga proporcional.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-15",
+          "tema": 18,
+          "pregunta": "¿Qué pasa si el presupuesto de una universidad pública de Madrid no está aprobado antes del primer día del ejercicio?",
+          "opciones": [
+            "Se prorroga automáticamente el presupuesto anterior hasta publicar el nuevo en el BOCM",
+            "El presupuesto se convierte en cero",
+            "Decide automáticamente el Tribunal de Cuentas",
+            "Se aprueban cifras por silencio del Consejo Social"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Se prorroga automáticamente el presupuesto anterior hasta publicar el nuevo en el BOCM",
+          "justificacion": "El artículo 108.4 dispone prórroga automática hasta publicación de los nuevos presupuestos en BOCM. Referencia: Ley 5/2025 CM 108.4.",
+          "trampaExamen": "Aprobación y publicación no son equivalentes a efectos de final de prórroga.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-16",
+          "tema": 18,
+          "pregunta": "¿Qué clasificación debe tener el estado de gastos del presupuesto universitario según art. 108.2.a?",
+          "opciones": [
+            "Solo económica",
+            "Orgánica, funcional y económica",
+            "Exclusivamente territorial",
+            "Solo orgánica"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Orgánica, funcional y económica",
+          "justificacion": "La estructura incluye clasificación orgánica, funcional y económica. Referencia: Ley 5/2025 CM 108.2.a.",
+          "trampaExamen": "No omitir la clasificación funcional.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-17",
+          "tema": 18,
+          "pregunta": "Según el art. 182.1, la Tesorería General de la Comunidad de Madrid...",
+          "opciones": [
+            "incluye todos los recursos universitarios sin excepción",
+            "sustituye la tesorería universitaria",
+            "excluye los recursos de las universidades públicas",
+            "es un órgano docente"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "excluye los recursos de las universidades públicas",
+          "justificacion": "La ley excluye expresamente los recursos de universidades públicas de esa Tesorería General. Referencia: Ley 5/2025 CM 182.1.",
+          "trampaExamen": "La tesorería autonómica no absorbe toda la caja de una universidad.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-LOTE-18",
+          "tema": 18,
+          "pregunta": "¿Qué retención permite art. 109.2 por incumplimiento de remitir información financiera exigida?",
+          "opciones": [
+            "El 100 % de todos los ingresos",
+            "El 50 % de las matrículas",
+            "El 10 % de todos los créditos de inversión",
+            "El 10 % del libramiento mensual de transferencias corrientes nominativas"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "El 10 % del libramiento mensual de transferencias corrientes nominativas",
+          "justificacion": "Puede retenerse 10 % del libramiento mensual de transferencias corrientes nominativas con los requisitos y competencias legales. Referencia: Ley 5/2025 CM 109.2.",
+          "trampaExamen": "No es el 10 % de cualquier ingreso ni la retención se aplica sin incumplimiento.",
+          "referencia": "https://www.boe.es",
+          "fuenteEditorial": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+        }
+      ],
+      "fuente": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md"
+    },
+    {
+      "id": "UC3M-ADIC-20261106-T1617",
+      "titulo": "Normativa UC3M T16/17",
+      "descripcion": "12 preguntas complementarias de OpoWeb, no oficiales",
+      "preguntas": [
+        {
+          "id": "UC3M-ADIC-20261106-T1617-01",
+          "tema": 16,
+          "pregunta": "Con carácter general, ¿cuántos créditos optativos permite reconocer la nueva normativa UC3M por actividades culturales, deportivas, solidarias y de representación?",
+          "opciones": [
+            "Hasta 6 ECTS",
+            "Hasta 25 ECTS",
+            "Siempre 10 ECTS",
+            "No reconoce ninguno"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Hasta 6 ECTS",
+          "justificacion": "El régimen ordinario es 6 ECTS; el plan puede permitir más según su memoria, sin superar el 10 % del plan. Fuente: Norma de reconocimiento UC3M, art. 14.3.",
+          "trampaExamen": "6 ECTS ordinarios ≠ máximo absoluto 10 % en planes que lo prevean.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-02",
+          "tema": 16,
+          "pregunta": "¿Cuál es el techo general de reconocimiento por estudios de Formación Profesional de Grado Superior dentro del Grado UC3M?",
+          "opciones": [
+            "El 10 % del Grado",
+            "El 25 % del total del Grado, con el límite de la memoria",
+            "El 50 % del Grado sin convenio",
+            "El 100 % si hay experiencia laboral"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "El 25 % del total del Grado, con el límite de la memoria",
+          "justificacion": "Requiere convenio y no puede superar 25 % del título; puede aplicarse un límite inferior fijado por su memoria. Fuente: Norma de reconocimiento UC3M, art. 15.",
+          "trampaExamen": "25 % pertenece a FP superior; 10 % a ciertas actividades universitarias.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-03",
+          "tema": 16,
+          "pregunta": "Según la norma de créditos de 2026, el plazo de solicitudes de reconocimiento por estudios de Grado en otra universidad debe abarcar, al menos...",
+          "opciones": [
+            "1 de enero a 15 de febrero",
+            "Todo diciembre",
+            "1 de julio a 15 de septiembre",
+            "1 de octubre a 31 de diciembre"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "1 de julio a 15 de septiembre",
+          "justificacion": "La ventana mínima es del 1 de julio al 15 de septiembre, también aplicable a otros Grados de la UC3M. Fuente: Norma de reconocimiento UC3M, art. 16.3.",
+          "trampaExamen": "Es una ventana mínima, no necesariamente la única convocatoria posible.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-04",
+          "tema": 16,
+          "pregunta": "¿Cuándo se resuelven las solicitudes de reconocimiento de Grado presentadas tras el 15 de septiembre según el artículo 19.2?",
+          "opciones": [
+            "En 48 horas",
+            "Siempre el 1 de noviembre",
+            "En un plazo máximo de 90 días desde su solicitud",
+            "En tres cursos académicos"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "En un plazo máximo de 90 días desde su solicitud",
+          "justificacion": "Las solicitudes posteriores al período 1 julio–15 septiembre se resuelven en 90 días desde su solicitud. Fuente: Norma de reconocimiento UC3M, art. 19.2.",
+          "trampaExamen": "Las recibidas 1/7–15/9 se resuelven antes del 1 de noviembre; las posteriores siguen otra regla.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-05",
+          "tema": 16,
+          "pregunta": "Como regla general, ¿qué órgano resuelve el reconocimiento académico de créditos de Grado UC3M?",
+          "opciones": [
+            "Consejo Social",
+            "Decano/a de Facultad o Director/a de Escuela",
+            "Tribunal Constitucional",
+            "Ministerio de Hacienda"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Decano/a de Facultad o Director/a de Escuela",
+          "justificacion": "La competencia ordinaria es del Decano/a o Director/a de Escuela, sin perjuicio del procedimiento especial del art. 20. Fuente: Norma de reconocimiento UC3M, art. 19.1.",
+          "trampaExamen": "Reconocimiento no es el mismo acto que la admisión por traslado, que resuelve el Rector/a.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-06",
+          "tema": 16,
+          "pregunta": "¿Qué regla establece el artículo 4.5 de la normativa UC3M respecto a los Trabajos Fin de Estudios?",
+          "opciones": [
+            "Se reconocen siempre automáticamente",
+            "No se pueden reconocer en ningún caso, ni en movilidad",
+            "Solo se reconocen si son de menos de 6 créditos",
+            "No son reconocibles, salvo si se desarrollan específicamente en un programa de movilidad"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "No son reconocibles, salvo si se desarrollan específicamente en un programa de movilidad",
+          "justificacion": "Regla de no reconocimiento, con excepción expresa de trabajos desarrollados específicamente en movilidad. Fuente: Norma de reconocimiento UC3M, art. 4.5.",
+          "trampaExamen": "El distractor «nunca» elimina ilegalmente la excepción de movilidad.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-07",
+          "tema": 17,
+          "pregunta": "En el cupo de cambio de titulación o campus de la UC3M, ¿qué proporción de las plazas ofertadas para esa vía se reserva a estudiantes propios?",
+          "opciones": [
+            "El 10 %",
+            "El 25 %",
+            "El 50 %",
+            "El 100 %"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "El 50 %",
+          "justificacion": "50 % de las plazas ofertadas por esta vía específica para alumnado UC3M que cambia de titulación o campus. Fuente: Norma cambio estudios UC3M, art. 1.",
+          "trampaExamen": "No es 50 % de todas las plazas de primera admisión del Grado.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-08",
+          "tema": 17,
+          "pregunta": "Un estudiante procedente de otra universidad española solicita traslado a Grado UC3M. ¿Qué requisito adicional establece el artículo 4.2?",
+          "opciones": [
+            "Tener al menos 60 ECTS pendientes de superar en la universidad de origen",
+            "Haber terminado completamente el Grado de origen",
+            "Haber cursado un Máster",
+            "No necesitar créditos reconocidos"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Tener al menos 60 ECTS pendientes de superar en la universidad de origen",
+          "justificacion": "Debe tener al menos 60 ECTS pendientes de superar en su universidad de origen al solicitar. Fuente: Norma cambio estudios UC3M, art. 4.2.",
+          "trampaExamen": "60 ECTS pendientes es distinto de 30 ECTS reconocibles.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-09",
+          "tema": 17,
+          "pregunta": "¿Cuándo se adjudican, con carácter general, plazas de cambio interno de estudios UC3M según el art. 4.1?",
+          "opciones": [
+            "Antes del 10 de junio",
+            "Antes del 15 de junio",
+            "Antes del 1 de noviembre",
+            "El 31 de diciembre"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Antes del 15 de junio",
+          "justificacion": "La adjudicación del cupo interno se realiza por regla general antes del 15 de junio. Fuente: Norma cambio estudios UC3M, art. 4.1.",
+          "trampaExamen": "Para otras universidades españolas, el art. 4.2 indica antes del 10 de junio, plazo distinto.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-10",
+          "tema": 17,
+          "pregunta": "¿En qué plazo debe el Decano o Director remitir al Rector la propuesta sobre los 30 ECTS para admisión por traslado?",
+          "opciones": [
+            "En 10 días naturales desde la matrícula",
+            "Antes del día 15 del mes siguiente al de recepción del expediente",
+            "En 6 meses exactos",
+            "Antes del 1 de enero"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Antes del día 15 del mes siguiente al de recepción del expediente",
+          "justificacion": "Decano/a o Director/a remite propuesta al Rector/a antes del día 15 del mes siguiente a recibir expediente. Fuente: Norma cambio estudios UC3M, art. 3.",
+          "trampaExamen": "El Centro propone y Rector/a decide la admisión; no invertir órganos.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-11",
+          "tema": 17,
+          "pregunta": "¿Qué excepción permite solicitar cambio de estudios a alumnado de la propia UC3M aunque aún no haya superado 30 ECTS reconocibles?",
+          "opciones": [
+            "Presentar cualquier matrícula sin créditos",
+            "Tener los 30 ECTS matriculados, aunque todavía no superados",
+            "Acreditar dos años sin estudios",
+            "Haber terminado el Grado"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Tener los 30 ECTS matriculados, aunque todavía no superados",
+          "justificacion": "El estudiante interno UC3M puede presentar la solicitud si tiene esos 30 ECTS matriculados, aunque no aprobados aún; para la admisión debe alcanzarse el reconocimiento suficiente. Fuente: Norma cambio estudios UC3M, art. 2.",
+          "trampaExamen": "Es una excepción para presentar la solicitud, no exención definitiva de 30 ECTS reconocibles.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T1617-12",
+          "tema": 17,
+          "pregunta": "¿Cuándo se resuelven generalmente las solicitudes del cupo de estudiantes procedentes de otras universidades españolas?",
+          "opciones": [
+            "Antes del 10 de junio",
+            "Antes del 15 de septiembre",
+            "Después del 31 de diciembre",
+            "Siempre el mismo día"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Antes del 10 de junio",
+          "justificacion": "Se resuelven, como regla general, antes del 10 de junio del curso académico anterior al de incorporación. Fuente: Norma cambio estudios UC3M, art. 4.2.",
+          "trampaExamen": "No confundir con el 15 de junio propio del cupo interno UC3M.",
+          "referencia": "https://sede.uc3m.es/boel/anexo/11307/",
+          "fuenteEditorial": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+        }
+      ],
+      "fuente": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md"
+    },
+    {
+      "id": "UC3M-ADIC-20261106-T15",
+      "titulo": "Estatutos UC3M · T15",
+      "descripcion": "8 preguntas complementarias de OpoWeb, no oficiales",
+      "preguntas": [
+        {
+          "id": "UC3M-ADIC-20261106-T15-01",
+          "tema": 15,
+          "pregunta": "¿Qué órgano aprueba la creación y supresión de los servicios universitarios, a propuesta del Rector?",
+          "opciones": [
+            "Rector, sin intervención de otro órgano",
+            "Consejo de Gobierno",
+            "Gerente",
+            "Claustro Universitario"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Consejo de Gobierno",
+          "justificacion": "· art. 158.1 La propuesta corresponde al Rector y la aprobación al Consejo de Gobierno.",
+          "trampaExamen": "No confundir el órgano proponente con el órgano aprobador.",
+          "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+          "fuenteEditorial": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T15-02",
+          "tema": 15,
+          "pregunta": "Según el artículo 159.1, ¿quién nombra al director de un servicio universitario cuando dicho puesto exista?",
+          "opciones": [
+            "Rector",
+            "Consejo Social",
+            "Claustro",
+            "Secretario General"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Rector",
+          "justificacion": "· art. 159.1 El director, cuando exista, será nombrado por el Rector.",
+          "trampaExamen": "La norma emplea podrá haber un director; no es un puesto obligatorio en todos los servicios.",
+          "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+          "fuenteEditorial": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T15-03",
+          "tema": 15,
+          "pregunta": "¿Cuál es el mínimo estatutario para el crédito de fondo bibliográfico y documental de la Biblioteca?",
+          "opciones": [
+            "8 % del presupuesto total universitario",
+            "10 % de los gastos de personal",
+            "Al menos 8 % del capítulo de bienes y servicios o equivalente",
+            "Hasta el 8 % del capítulo de inversiones"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Al menos 8 % del capítulo de bienes y servicios o equivalente",
+          "justificacion": "· art. 161.4 El precepto fija al menos un 8 % de los gastos previstos en el capítulo bienes y servicios o equivalente.",
+          "trampaExamen": "Mínimo y base de cálculo del capítulo, no porcentaje del presupuesto completo.",
+          "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+          "fuenteEditorial": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T15-04",
+          "tema": 15,
+          "pregunta": "¿Qué funcionario elabora el inventario general universitario, que debe actualizarse anualmente?",
+          "opciones": [
+            "Secretario General",
+            "Rector",
+            "Director de la Biblioteca",
+            "Gerente"
+          ],
+          "correcta": 3,
+          "respuestaLiteral": "Gerente",
+          "justificacion": "· art. 169.1 Corresponde al Gerente elaborar el inventario, con actualización anual y depósito en la Secretaría General.",
+          "trampaExamen": "El Secretario General inscribe bienes y derechos en registros públicos (art. 169.2).",
+          "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+          "fuenteEditorial": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T15-05",
+          "tema": 15,
+          "pregunta": "¿Cuál es la secuencia estatutaria de elaboración y elevación del presupuesto de la UC3M?",
+          "opciones": [
+            "Gerente anteproyecto, Rector presenta, Consejo de Gobierno, Consejo Social",
+            "Consejo Social anteproyecto, Rector aprueba definitivamente",
+            "Claustro elabora, Gerente aprueba, Consejo Social informa",
+            "Secretario General elabora, Rector aprueba en solitario"
+          ],
+          "correcta": 0,
+          "respuestaLiteral": "Gerente anteproyecto, Rector presenta, Consejo de Gobierno, Consejo Social",
+          "justificacion": "· art. 170.2 Gerente confecciona anteproyecto; Rector lo presenta al Consejo de Gobierno y, aprobado por este, se somete al Consejo Social.",
+          "trampaExamen": "Consejo de Gobierno y Consejo Social intervienen en momentos distintos.",
+          "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+          "fuenteEditorial": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T15-06",
+          "tema": 15,
+          "pregunta": "Según el artículo 174.2, ¿qué pareja de plazos es correcta para auditoría externa y duración del nombramiento de auditor?",
+          "opciones": [
+            "Auditoría quinquenal; auditor por un año",
+            "Auditoría anual; auditor nombrado por no más de cinco años",
+            "Auditoría semestral; auditor sin límite",
+            "Auditoría mensual; nombramiento por diez años"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Auditoría anual; auditor nombrado por no más de cinco años",
+          "justificacion": "· art. 174.2 La auditoría financiera externa es anual; el auditor se nombra por un período no superior a 5 años.",
+          "trampaExamen": "No confundir periodicidad del trabajo y duración del nombramiento.",
+          "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+          "fuenteEditorial": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T15-07",
+          "tema": 15,
+          "pregunta": "El artículo 177 exige acuerdo del Consejo Social para contratos relativos a inversiones cuando...",
+          "opciones": [
+            "Su cuantía supere 5.000 euros, sin más condiciones",
+            "Sean de cualquier duración y no afecten a fondos futuros",
+            "Su duración sea superior a un año y comprometan fondos públicos de ejercicios futuros",
+            "Se refieran únicamente a material bibliográfico"
+          ],
+          "correcta": 2,
+          "respuestaLiteral": "Su duración sea superior a un año y comprometan fondos públicos de ejercicios futuros",
+          "justificacion": "· art. 177 Son requisitos acumulativos: duración superior a un año y compromiso de fondos públicos de ejercicios presupuestarios futuros.",
+          "trampaExamen": "El Rector sigue siendo el órgano de contratación según el art. 175.",
+          "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+          "fuenteEditorial": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md"
+        },
+        {
+          "id": "UC3M-ADIC-20261106-T15-08",
+          "tema": 15,
+          "pregunta": "¿Qué órgano aprueba definitivamente la memoria económica anual, tras su paso por el Consejo de Gobierno?",
+          "opciones": [
+            "Claustro Universitario",
+            "Consejo Social",
+            "Rector sin más trámites",
+            "Secretario General"
+          ],
+          "correcta": 1,
+          "respuestaLiteral": "Consejo Social",
+          "justificacion": "· art. 171.2 El Gerente elabora bajo dirección del Rector, el Consejo de Gobierno la aprueba y el Consejo Social realiza la aprobación definitiva; después se hace pública.",
+          "trampaExamen": "Memoria económica y presupuesto no son sinónimos; se tramitan como documentos distintos.",
+          "referencia": "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+          "fuenteEditorial": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md"
+        }
+      ],
+      "fuente": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md"
+    }
+  ]
+}
