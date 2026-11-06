@@ -9,21 +9,25 @@ const supplemental = load('data/uc3m-repasos-complementarios-20261106.json');
 const legacyRepaso = load('data/uc3m-repaso-temas-13-20-20261106.json');
 const budgetRepaso = load('data/uc3m-presupuesto-supuestos-20261106.json');
 const jurRepaso = load('data/uc3m-repaso-juridico-t02-t07-20261106.json');
+const compraRepaso = load('data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json');
 
 assert.equal(supplemental.paquetes.length, 7, 'Se esperan siete bancos nuevos desde Markdown');
 assert.equal(supplemental.paquetes.reduce((n, p) => n + p.preguntas.length, 0), 86);
 assert.equal(legacyRepaso.preguntas.length, 24);
 assert.equal(budgetRepaso.preguntas.length, 16);
 assert.equal(jurRepaso.preguntas.length, 24, 'Cuatro preguntas por cada tema del 2 al 7');
+assert.equal(compraRepaso.preguntas.length, 12, 'Refuerzo nuevo de presupuestos y contratación');
+for (const [tema, cantidad] of [[18,4],[19,3],[20,5]]) assert.equal(compraRepaso.preguntas.filter(q => q.tema === tema).length, cantidad);
 for (let n = 2; n <= 7; n += 1) assert.equal(jurRepaso.preguntas.filter(q => q.tema === n).length, 4);
 
 const packs = [
   ...supplemental.paquetes,
   { id: legacyRepaso.id, preguntas: legacyRepaso.preguntas },
   { id: budgetRepaso.id, preguntas: budgetRepaso.preguntas },
-  { id: jurRepaso.id, preguntas: jurRepaso.preguntas }
+  { id: jurRepaso.id, preguntas: jurRepaso.preguntas },
+  { id: compraRepaso.id, preguntas: compraRepaso.preguntas }
 ];
-assert.equal(packs.length, 10);
+assert.equal(packs.length, 11);
 const ids = new Set();
 for (const pack of packs) {
   assert.ok(pack.id, 'Cada repaso necesita identificador estable');
@@ -41,7 +45,7 @@ for (const pack of packs) {
     assert.ok(q.referencia && q.referencia.trim(), q.id);
   }
 }
-assert.equal(ids.size, 150, 'El catálogo UC3M debe mostrar 150 preguntas adicionales sin duplicados');
+assert.equal(ids.size, 162, 'El catálogo UC3M debe mostrar 162 preguntas adicionales sin duplicados');
 
 let historical = 0;
 for (let i = 1; i <= 20; i += 1) {
@@ -61,11 +65,12 @@ for (const marker of [
   'data/uc3m-repaso-temas-13-20-20261106.json',
   'data/uc3m-presupuesto-supuestos-20261106.json',
   'data/uc3m-repaso-juridico-t02-t07-20261106.json',
+  'data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json',
   "document.querySelectorAll('[data-extra-repaso]')",
   'extraRepasos = await loadExtraRepasos();',
   '${renderExtraRepasos()}'
 ]) assert.ok(practice.includes(marker), 'Falta integración práctica: ' + marker);
 
-assert.ok(content('practice.html').includes('assets/practice.js?v=2026.11.06.3'), 'Caché JS no actualizado');
+assert.ok(content('practice.html').includes('assets/practice.js?v=2026.11.06.4'), 'Caché JS no actualizado');
 assert.ok(content('content/uc3m/COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md').includes('24 bloques'));
-console.log('UC3M_COMPLEMENTARY_10_PACKS_150_QUESTIONS_JSON_AND_PRACTICE_WIRING_OK');
+console.log('UC3M_COMPLEMENTARY_11_PACKS_162_QUESTIONS_JSON_AND_PRACTICE_WIRING_OK');
