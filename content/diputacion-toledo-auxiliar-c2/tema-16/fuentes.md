@@ -40,3 +40,11 @@ Se examinó el banco de **20 preguntas y 80 alternativas** con justificación es
 > ⚠️ **¡Foco Examen!:** **ADF** alimenta hojas y **OCR** reconoce caracteres; **dúplex** de impresión no asegura escaneo dúplex. Una imagen en **PDF** no equivale por sí sola a texto reconocible.
 
 **Límite:** banco auditado, pero revisión de los **1.196 renglones del manual** y experiencia real del portal/Windows 11 todavía no certificadas.
+
+
+## Cierre de contraste técnico-vendedor — **06/11/2026**
+
+- [**Microsoft, Explorador de Windows 11**](https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows) y [**teclas rápidas**](https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows): **Windows + E**, **Ctrl + Mayús + N**, **Alt + Entrar**, copia/corte/pegado, ver/mostrar y extensiones.
+- [**Microsoft, uso compartido y asignar unidad de red**](https://support.microsoft.com/es-es/windows/experience/connectivity-networking/file-sharing-over-a-network-in-windows) y [**Microsoft Learn, UNC**](https://learn.microsoft.com/es-es/windows/win32/fileio/naming-a-file): `\\servidor\carpeta`, unidad asignada `Z:` y separación de permisos de **lectura**/**escritura**.
+- [**Microsoft, agregar impresora**](https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows) y [**escáner**](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows): **Bluetooth y dispositivos → Impresoras y escáneres**, cola, fuente alimentadora **ADF**, digitalización y **OCR** como operaciones diferentes.
+- [**Banco de 20 preguntas / 80 alternativas auditadas individualmente 05/11/2026**](cotejo-banco-completo-2026-11-05.md). No se alteran claves; [**informe de cierre 14–16**](../cierre-editorial-c2-14-16-2026-11-06.md). **Sin comprobación de interfaz de Windows, navegador o hardware real**.

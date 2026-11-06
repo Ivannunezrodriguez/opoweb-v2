@@ -2,8 +2,8 @@
   "tema": 15,
   "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
   "epigrafeOficial": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
-  "estadoEditorial": "EN_REVISION_USUARIO",
-  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE",
   "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
   "fuentesPrimarias": [
     "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
@@ -227,5 +227,19 @@
     "estadoBanco": "20 preguntas/80 opciones, sin modificaciones",
     "certificacionIntegral": false,
     "navegadorReal": "PENDIENTE"
+  },
+  "cierreEditorialC2_14_16_20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AUDITADO_DOCUMENTAL",
+    "normas": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    ],
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-14-16-2026-11-06.md"
   }
 }

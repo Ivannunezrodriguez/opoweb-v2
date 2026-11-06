@@ -1,6 +1,6 @@
 {
   "tema": 15,
-  "estado": "BANCO_20_PREGUNTAS_REVISION_JURIDICA_PARCIAL",
+  "estado": "AUDITADO",
   "version": "2026-11-05-20-preguntas-revision",
   "criterio": "20 preguntas con cotejo técnico-jurídico individual de 80 alternativas y enlaces a artículos de la Ley 40/2015 consolidada a 05/11/2026. El cotejo del banco no acredita el manual íntegro, la prueba del navegador ni la aceptación editorial global.",
   "preguntas": [
@@ -387,6 +387,13 @@
     ],
     "estadoManual": "EN_AUDITORIA_PENDIENTE_COTEJO_INTEGRAL",
     "navegadorReal": "PENDIENTE",
+    "certificacionIntegral": false
+  },
+  "cierreEditorialC2_14_16_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
     "certificacionIntegral": false
   }
 }

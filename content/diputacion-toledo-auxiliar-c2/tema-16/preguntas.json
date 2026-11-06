@@ -1,6 +1,6 @@
 {
   "tema": 16,
-  "estado": "BANCO_COMPLETO_20_PREGUNTAS",
+  "estado": "AUDITADO",
   "version": "2026-11-05-banco-20",
   "criterio": "Banco de 20 preguntas / 80 alternativas contrastado técnicamente a 05/11/2026 con documentación oficial Microsoft. Se han revisado una por una las opciones, enunciados, claves, justificaciones y trampas; contenido de manual y prueba real de la web/Windows 11 Pro pendientes de auditoría integral.",
   "preguntas": [
@@ -362,5 +362,12 @@
     "limitaCertificacionTema": true,
     "pruebaNavegadorReal": false,
     "pruebaWindows11ProReal": false
+  },
+  "cierreEditorialC2_14_16_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
   }
 }

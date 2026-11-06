@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 14
 
-> **Estado editorial operativo (05/11/2026): EN_AUDITORIA.** El **banco de 20 preguntas y 80 alternativas** dispone de [**cotejo individual de cada alternativa y fundamento**](cotejo-banco-completo-2026-11-05.md), con **A5/B5/C5/D5**. El **manual completo** y las pruebas de **navegador, móvil, PWA y accesibilidad** siguen pendientes de certificación integral. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial a 06/11/2026: AUDITADO jurídicamente en fuente documental; NO certificado funcionalmente.** Se consolidan los cotejos previos del manual, las **20 preguntas y 80 alternativas** ya auditadas, la [**Ley 6/2020**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046), eIDAS reformado y RD 203/2021. Las indicaciones anteriores de `EN_AUDITORIA` describen fases históricas; el cierre actual consta en [informe 14–16](../cierre-editorial-c2-14-16-2026-11-06.md).
 
 **ESTADO ACTUAL: EN_AUDITORIA — sin certificación integral.** Incorporado el **25/10/2026**; la revisión documental del **29/10/2026** y el material reutilizado de La Puebla (julio de 2026) son antecedentes históricos, no pruebas de vigencia ni de exhaustividad. Las **20 preguntas y 80 alternativas** tienen cotejo individual documentado del **05/11/2026**; queda pendiente el cotejo completo del **manual** y la prueba funcional en **navegador real**.
 
@@ -1211,3 +1211,50 @@ El servicio de consulta del estado de validez o revocación corresponde al **art
 
 
 > ⚠️ **¡Foco Examen!:** El límite de **24 horas** de publicación de la revocación es del **artículo 24.3 eIDAS** para prestadores cualificados emisores de certificados cualificados; el **art. 9.2 de la Ley 6/2020** regula la disponibilidad de consulta del estado de certificados.
+
+
+## Cierre documentado del certificado electrónico — **06/11/2026**
+
+**Fuentes primarias revisadas:** [**Ley 39/2015, arts. 9–12**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565), [**Ley 6/2020**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046) (última actualización publicada **09/05/2023**), [**Reglamento eIDAS 910/2014**](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa) con texto consolidado **18/10/2024**, y [**RD 203/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032) para desarrollo reglamentario administrativo. Los trabajos parciales previos del **05/11** ya incluyen cotejo de **Ley 6/2020**, reformas eIDAS y uso de certificados del personal, entornos cerrados y red de servicios.
+
+### Cuatro figuras, cuatro funciones distintas
+
+| Figura | Titular y finalidad | Norma y error de test |
+|---|---|---|
+| **Certificado cualificado de firma electrónica** | Acredita vínculo entre datos de validación y **persona física** firmante | **eIDAS arts. 3 y 28**; la firma expresa consentimiento/voluntad cuando procede |
+| **Certificado cualificado de sello electrónico** | Identifica creador del sello **persona jurídica** | **eIDAS arts. 3 y 38**; sello no equivale a firma de persona física |
+| **Certificado de autenticación de sitio web** | Vincula sitio y titular físico/jurídico bajo condiciones del certificado | **eIDAS art. 3**; HTTPS no firma por sí solo todas las resoluciones |
+| **DNI electrónico** | Soporte oficial de identificación y, cuando corresponde, firma con sus certificados | Un **soporte** no sustituye el requisito de certificado vigente y clave bajo control |
+| **Prestador de servicios de confianza** | Proporciona servicios y, cuando proceda, expide/gestiona certificados | Puede ser **cualificado** o **no cualificado**; lista de confianza según **eIDAS art. 22** |
+
+> ⚠️ **¡Foco Examen!:** **Identificar** a un usuario no equivale a **firmar** un recurso: la **Ley 39/2015 art. 11.2** exige firma en las actuaciones que enumera. **Persona física = firmante**; **persona jurídica = creadora del sello**.
+
+### Vigencia, suspensión, revocación y prestador
+
+| Regla | Dato oficial y órgano | Fuente |
+|---|---|---|
+| Vigencia máxima de certificado **cualificado** | **5 años**; puede tener menor duración real | **Ley 6/2020 art. 4.2** |
+| **Caducidad** | Extinción al alcanzar fin del período de validez | **Ley 6/2020 art. 4.1** |
+| **Revocación** | Solicitud del titular o causa tasada; incluye peligro del secreto de datos, representación extinguida, resolución judicial/administrativa | **Ley 6/2020 art. 5.1** |
+| **Suspensión** | Causas **a, c, h**, o dudas sobre **b y g** del art. 5.1, **cuando la declaración de prácticas permita suspensión** | **Ley 6/2020 art. 5.2** |
+| Consulta pública de estado de certificados expedidos | Servicio accesible al público a cargo del **prestador** | **Ley 6/2020 art. 9.2** |
+| Conservación documental por prestadores **cualificados** | **15 años** tras extinción certificado o finalización servicio, supuestos establecidos | **Ley 6/2020 art. 9.3.a** |
+| Garantía de responsabilidad civil | **1.500.000 €** mínimo, salvo prestador **del sector público**, más **500.000 €** por tipo adicional de servicio cualificado en condiciones legales | **Ley 6/2020 art. 9.3.b** |
+| Auditoría de prestadores cualificados | **Al menos cada 24 meses** por entidad de evaluación de conformidad | **eIDAS art. 20.1** |
+
+> ⚠️ **¡Foco Examen!:** **5 años** (vigencia máxima de certificado), **15 años** (conservación), **24 meses** (auditoría de prestador) son **tres plazos distintos**. Suspensión no es revocación automática; el **art. 10 de Ley 6/2020** regula responsabilidad por funciones delegadas, no la consulta de validez del **art. 9.2**.
+
+### Soportes y oficina pública: clasificación completa
+
+| Medio/entorno | Qué resuelve | Límite importante |
+|---|---|---|
+| **Archivo software (p. ej. P12/PFX)** | Alojamiento de certificado y, según configuración, clave exportable protegida | Copia posible no siempre equivale a misma seguridad que clave hardware |
+| **Tarjeta criptográfica / USB token** | Clave privada susceptible de declararse **no exportable** | Tener conector USB no convierte cualquier memoria en dispositivo criptográfico |
+| **Firma remota** | Operación criptográfica gestionada por servicio remoto con requisitos de autenticación y control | No implica guardar fichero de clave privada en ordenador local |
+| **Firma por funcionario habilitado** | Asistencia al interesado en supuestos reglamentarios; acreditación de identidad, consentimiento expreso y copia | **RD 203/2021 art. 30**; no suprime la responsabilidad de firmar válidamente |
+| **Entorno cerrado dentro de una Administración** | Condiciones fijadas por esa **Administración** | **RD 203/2021 art. 25.2** |
+| **Entorno cerrado entre Administraciones** | Condiciones por **convenio** | **RD 203/2021 art. 25.3** |
+
+> ⚠️ **¡Foco Examen!:** Un archivo con imagen manuscrita pegada en PDF no acredita por sí solo **firma electrónica válida**. En **entornos cerrados interadministrativos** la regla del **convenio** no debe extrapolarse al caso de una sola Administración.
+
+**Alcance:** consolidación jurídico-editorial de los incisos del **Tema 14**, con fuentes y cotejos previos extensos. [Informe de cierre del lote](../cierre-editorial-c2-14-16-2026-11-06.md). **Banco histórico de 20 preguntas / 80 opciones conservado**; pruebas funcionales reales siguen separadas.

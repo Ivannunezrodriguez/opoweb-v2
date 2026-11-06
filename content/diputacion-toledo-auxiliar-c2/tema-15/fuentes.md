@@ -160,3 +160,11 @@ La [**Ley 40/2015, art. 62.2.e**](https://www.boe.es/buscar/act.php?id=BOE-A-201
 > ⚠️ **¡Foco Examen!:** **900.000 €** y **12.000.000 €** no responden al mismo órgano ni al mismo supuesto legal. El **umbral departamental puede haber sido sustituido** por otro fijado conforme al **324.5**; verificarlo en el caso concreto.
 
 **Evidencia transversal:** [informe de cotejo 61–62 y 73–75 actualizado](cotejo-funciones-61-62-73-75-2026-11-05.md). No implica cierre integral del manual ni prueba de navegación.
+
+
+## Consolidación de los cotejos documentales — **06/11/2026**
+
+- [**Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) actualizada **02/08/2024**, **arts. 5–24, 54–80**: delegación, avocación, encomienda, firma, suplencia, colegiados, recusación y órganos de la AGE.
+- [**LO 2/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936): **55 bis**, equilibrio **40 %–60 %** con **disposición transitoria primera.3**.
+- [**LCSP 9/2017**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902): contraste de remisiones contractuales de art. **62.2.e** en su aplicación vigente, distinción umbral **900.000 €** transitorio y **12.000.000 €** del **Consejo de Ministros**.
+- Banco [**20 preguntas / 80 alternativas cotejadas opción por opción 05/11/2026**](cotejo-banco-completo-2026-11-05.md) e informes específicos de organización de AGE, art. 55 bis, secretarios y delegados. [Cierre 14–16](../cierre-editorial-c2-14-16-2026-11-06.md). **AUDITADO documental** sin prueba funcional real.

@@ -14,7 +14,7 @@ for(const n of covered){
  const map=read(file);
  assert.equal(map.epigrafeOficial,topic.titulo,'Official wording must be exact: '+n);
  assert.equal(map.tema,n);
- if([1,2,3,4,5,7,8,9,10,11,12,13,17,18,19,20].includes(n)){
+ if([1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20].includes(n)){
    assert.equal(map.estadoEditorial,'AUDITADO','Cierre documental exclusivo del bloque 17–20');
    if(n<=5){
      assert.match(map.estadoControl,/AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE/);
@@ -25,6 +25,10 @@ for(const n of covered){
    }else if(n>=11 && n<=13){
      assert.match(map.estadoControl,/AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE/);
      assert.equal(map.cierreEditorialC2_11_13_20261106.certificacionIntegral,false);
+   }else if(n>=14 && n<=16){
+     if(n===16)assert.match(map.estadoControl,/AUDITADO_TECNICO_PEDAGOGICO_20261106_FUNCIONAL_PENDIENTE/);
+     else assert.match(map.estadoControl,/AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE/);
+     assert.equal(map.cierreEditorialC2_14_16_20261106.certificacionIntegral,false);
    }else{
      assert.match(map.estadoControl,/AUDITADO_TECNICO_PEDAGOGICO_20261106_FUNCIONAL_PENDIENTE/);
      assert.equal(map.cierreEditorialC2_17_20_20261106.certificacionIntegral,false);

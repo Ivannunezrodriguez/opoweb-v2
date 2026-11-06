@@ -18,7 +18,7 @@
 - [ ] Eliminar referencias heredadas de la estructura de La Puebla que no correspondan al epígrafe de Diputación C2.
 - [x] Cotejar las **20 preguntas y 80 alternativas** del banco, con soluciones verificadas y justificación por opción; **supuestos prácticos y funciones de la web pendientes**.
 
-**Estado editorial actual: EN_AUDITORIA.** Banco **20/80 cotejado individualmente** en [su informe](cotejo-banco-completo-2026-11-05.md); el manual procede de una base anterior y **no se certifica como auditado integralmente**, ni se acreditan pruebas reales de uso de la web.
+**Estado histórico de 05/11/2026: EN_AUDITORIA.** Banco **20/80 cotejado individualmente** en [su informe](cotejo-banco-completo-2026-11-05.md); el manual procede de una base anterior y **no se certifica como auditado integralmente**, ni se acreditan pruebas reales de uso de la web.
 
 > ⚠️ **¡Foco Examen!:** Ante diferencias entre explicaciones de un manual y el articulado o documentación técnica oficial, prevalece el texto oficial aplicable al programa.
 
@@ -98,3 +98,11 @@ El [**cotejo individual de las veinte preguntas y sus ochenta opciones**](cotejo
 > ⚠️ **¡Foco Examen!:** **Firma del empleado ≠ autenticación de acceso a una aplicación**. **Convenio** para comunicaciones cerradas **entre Administraciones**, no necesariamente dentro de la misma. **ENS** y **ENI** tienen funciones distintas.
 
 **Estado:** cotejo focal realizado, **manual integral pendiente**, banco **20/80 sin modificaciones**, funcionamiento y navegador real **sin certificar**.
+
+
+## Cierre documental de fuentes primarias — **06/11/2026**
+
+- [**Ley 6/2020**](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046) actualizada **09/05/2023**: arts. **4–7, 9 y 10**: **5 años** vigencia máxima cualificados, causas de suspensión/revocación, conservación **15 años**, seguro **1.500.000 € + 500.000 € por clase adicional**, disponibilidad pública de estado certificación y responsabilidad por delegación.
+- [**eIDAS**](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa) consolidado **18/10/2024**: clasificación firmas/sellos y certificados, **listas de confianza (art. 22)** y auditoría de cualificados **24 meses (art. 20)**.
+- [**Ley 39/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) y [**RD 203/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032): firma frente a identificación; **firmante persona física** y **creador de sello persona jurídica**, certificación por empleado público y entornos cerrados.
+- Banco auditado individualmente **05/11/2026**: [**20 preguntas / 80 distractores**](cotejo-banco-completo-2026-11-05.md). [Informe del cierre 14–16](../cierre-editorial-c2-14-16-2026-11-06.md). Certificación de navegador y móvil **pendiente**.

@@ -1,6 +1,6 @@
 {
   "tema": 14,
-  "estado": "BANCO_20_80_COTEJADO_ARTICULOS_FUENTES_20261105_MANUAL_PENDIENTE",
+  "estado": "AUDITADO",
   "version": "2026-11-05-auditoria-completa-banco-20-80",
   "criterio": "20 preguntas cotejadas individualmente, incluidas 80 alternativas con justificación A/B/C/D y fuente exacta. No supone auditoría completa del manual, verificación funcional ni cierre del tema.",
   "preguntas": [
@@ -300,5 +300,12 @@
     "informe": "content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-banco-completo-2026-11-05.md",
     "certificacionTemaIntegral": false,
     "navegadorReal": "PENDIENTE"
+  },
+  "cierreEditorialC2_14_16_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
   }
 }

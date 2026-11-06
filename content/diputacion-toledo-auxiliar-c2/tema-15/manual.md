@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 15
 
-> **Estado editorial operativo (05/11/2026): EN_AUDITORIA.** El banco de preguntas cuenta con cotejo individual documentado (**20 preguntas y 80 alternativas**), pero el **manual íntegro**, la validación jurídico-editorial transversal y las pruebas funcionales reales **no están certificados**. Las menciones a «completo», «publicado» o «revisado» son hitos históricos, no acreditan cierre vigente. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial a 06/11/2026: AUDITADO jurídico-documental, sin certificación funcional.** Se integran los cotejos de **20 preguntas / 80 alternativas** y los trabajos de los órganos, competencias, colegiados y AGE; se verifican expresamente **Ley 40/2015**, reforma **LO 2/2024** y remisiones vigentes. Las notas antiguas `EN_AUDITORIA` son fases históricas. [Informe 14–16](../cierre-editorial-c2-14-16-2026-11-06.md).
 
 **ESTADO EDITORIAL ACTUAL: EN_AUDITORIA — pendiente de certificación integral.** La mención histórica a «contenido completo y cotejo normativo» corresponde al trabajo del **29/10/2026**, no acredita revisión exhaustiva vigente ni pruebas funcionales. Fecha de incorporación **25/10/2026**. Material de base tomado de La Puebla (revisado en julio de 2026).
 
@@ -1602,3 +1602,53 @@ Los servicios no integrados mantienen dependencia del órgano central sectorial.
 **Norma de referencia:** [Ley 40/2015 consolidada, BOE-A-2015-10566](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), artículos **5–24** y **54–80**. Última actualización del consolidado **02/08/2024**.
 
 **Control editorial:** epígrafes desarrollados artículo a artículo; cuadros comparativos y banco de **20 preguntas** añadidos. No se declara realizada una prueba funcional del navegador.
+
+
+## Cierre jurídico-documental de órganos y AGE — **06/11/2026**
+
+Norma principal: [**Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), última actualización publicada el **02/08/2024**; [**LO 2/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936) introdujo el **art. 55 bis** con régimen transitorio de aplicación. El programa oficial comprende **órganos de las Administraciones Públicas** y **Administración General del Estado**: incluye las normas comunes **arts. 5–24** y la organización estatal **arts. 54–80**. El cotejo complementario del manual de **05/11** incorporó remisiones contractuales a [**LCSP 9/2017**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902) cuando el texto de Ley 40/2015 conserva una referencia histórica a normas derogadas.
+
+### Reparto de competencias: actos diferentes, efectos distintos
+
+| Operación | Qué se traslada o decide | Condiciones de examen |
+|---|---|---|
+| **Delegación de competencias**, **art. 9** | Ejercicio de competencia en otro órgano, **sin cambiar titularidad** | Acuerdo publicado en diario oficial que corresponda; la resolución por delegación indica esa circunstancia |
+| **Avocación**, **art. 10** | Asunción de asunto concreto por órgano **superior**; si delegación en órgano no dependiente jerárquicamente, únicamente el **delegante** | **Acuerdo motivado**; no es cesión perpetua de competencia |
+| **Encomienda de gestión**, **art. 11** | Actividades de carácter **material o técnico** | **No** cede titularidad ni elementos sustantivos de competencia, y no debe sustituir un contrato cuyo objeto sea prestación contractual |
+| **Delegación de firma**, **art. 12** | Firma de actos y resoluciones de su competencia | **No altera competencia**, ni requiere publicación para su validez en los términos legales |
+| **Suplencia**, **art. 13** | Sustitución temporal por vacante, ausencia, enfermedad u otras causas legalmente previstas | **No implica alteración de competencia** |
+
+> ⚠️ **¡Foco Examen!:** **Delegación de competencias** no es **delegación de firma**; **encomienda material** no desplaza poder de resolver. Si no existe dependencia jerárquica entre delegante y delegado, la **avocación** es solo del **delegante**.
+
+### Colegiados, abstención y recusación
+
+| Situación | Regla y órgano competente | Fuente |
+|---|---|---|
+| Constitución ordinaria de órgano colegiado | **Presidente y Secretario** o sustitutos, y al menos **la mitad de los miembros** | **Ley 40/2015 art. 17.2** |
+| Asunto no incluido en orden del día | **Todos los miembros presentes** y urgencia declarada por la **mayoría** | **Art. 17.4** |
+| Abstención | Causas del **art. 23** (interés, parentesco, amistad/enemistad manifiesta, intervención profesional, etc.) | **Art. 23** |
+| Recusación, respuesta del afectado | La persona recusada se manifiesta ante superior **al día siguiente** | **Art. 24.3** |
+| Si el recusado niega la causa | El **superior** resuelve dentro de **3 días**, previos informes y comprobaciones | **Art. 24.4** |
+
+> ⚠️ **¡Foco Examen!:** El **quórum ordinario** exige **mitad + Presidente + Secretario**; para asunto **fuera del orden del día** se exige **presencia de todos** y declaración de urgencia por **mayoría**. En recusación: **al día siguiente** contesta recusado, **3 días** resuelve superior si lo niega.
+
+### Organización de la AGE, categorías y órgano decisor
+
+| Cargos | Clasificación de Ley 40/2015 | Dato preciso |
+|---|---|---|
+| **Ministros** y **Secretarios de Estado** | **Órganos superiores** de organización central | **Art. 55.3.a** |
+| **Subsecretarios**, **Secretarios generales**, **Secretarios generales técnicos**, **Directores generales**, **Subdirectores generales** | **Órganos directivos** de organización central | **Art. 55.3.b** |
+| **Subdirectores generales y asimilados** | **Órganos directivos**, **sin** condición de alto cargo | **Art. 55.6** |
+| **Secretarios generales** | Categoría de **Subsecretario** | **Art. 64.3** |
+| **Secretarios generales técnicos** | Categoría de **Director general**, bajo dependencia inmediata del **Subsecretario** | **Art. 65** |
+| **Delegados del Gobierno** | **Órgano directivo territorial**, rango de **Subsecretario** | Nombrados por **real decreto del Consejo de Ministros**, propuesta del **Presidente del Gobierno**, **arts. 55.4, 72.4** |
+| **Subdelegados del Gobierno** | **Órgano directivo territorial** con nivel de **Subdirector general** | Dependencia inmediata del **Delegado del Gobierno**, **arts. 55.4, 74** |
+| **Representación equilibrada 55 bis** | En ámbito de cada departamento ministerial **40 %–60 %** por sexo para cargos incluidos | [**LO 2/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936) y **DT primera.3**: estudiar el régimen transitorio, no dar por aplicado sin más a todas las situaciones anteriores |
+
+> ⚠️ **¡Foco Examen!:** **Ministro / Secretario de Estado = superior**. **Subsecretario / Secretario General = directivo**. **Subdirector general** es directivo **sin alto cargo**; **Delegado del Gobierno** tiene rango **Subsecretario**, **Subdelegado** nivel **Subdirector general**.
+
+**Contratación y remisiones obsoletas:** cuando el **art. 62.2.e** remite a normativa anterior, el material incorpora contraste con **LCSP arts. 324.1, 324.5 y DT 2.ª**. Los **900.000 €** de régimen transitorio y los **12.000.000 €** de autorización del Consejo de Ministros **no** significan lo mismo, ni sustituyen el umbral propio que pueda establecer el órgano ministerial competente.
+
+> ⚠️ **¡Foco Examen!:** No confundir las autorizaciones sobre contratos del **LCSP 324.5** (umbrales que puede fijar el **Secretario de Estado** o **Ministro**) con la autorización del **Consejo de Ministros** del **324.1**.
+
+[**Informe jurídico-editorial 14–16**](../cierre-editorial-c2-14-16-2026-11-06.md). **20 preguntas / 80 alternativas** previamente cotejadas en [su informe individual](cotejo-banco-completo-2026-11-05.md), sin cambios de claves ni IDs. **No** se ha certificado la interfaz real.

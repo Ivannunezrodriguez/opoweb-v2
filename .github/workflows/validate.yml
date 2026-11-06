@@ -96,6 +96,8 @@ jobs:
         run: node tests/validate-diputacion-c2-t11-t13-integral.mjs
       - name: Certificar cierre documental actualizado de Diputación C2 11-13 y sus 240 opciones
         run: node tests/validate-diputacion-c2-t11-t13-cierre-20261106.mjs
+      - name: Certificar cierre documental de Diputación C2 14-16 y sus 240 opciones
+        run: node tests/validate-diputacion-c2-t14-t16-cierre-20261106.mjs
       - name: Cotejar 240 alternativas y 7 reparaciones de Diputacion C2 temas 8-10
         run: node tests/validate-diputacion-c2-t08-t10-integral.mjs
       - name: Auditar 160 alternativas exactas y paridad LOREG 2024 de Diputación C2 temas 4-5

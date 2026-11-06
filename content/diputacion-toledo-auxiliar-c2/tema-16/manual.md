@@ -1,6 +1,6 @@
 # Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 16
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial desde 06/11/2026: AUDITADO técnico-pedagógico documental, no certificado funcionalmente.** Desarrollo de seis bloques del programa en Windows 11, contraste con **Microsoft Support/Learn** y banco de **20 preguntas / 80 opciones** cotejado individualmente el **05/11/2026**. La ejecución real con dispositivos, navegador, móvil y accesibilidad no se ha certificado. [Informe 14–16](../cierre-editorial-c2-14-16-2026-11-06.md).
 
 **ESTADO ACTUAL: EN_AUDITORIA — sin certificación integral.** Incorporado el **25/10/2026**. El desarrollo del **29/10/2026** y el material adaptado de La Puebla (julio de 2026) son antecedentes editoriales, **no una aprobación de la versión actual**. Revisión focal del banco de preguntas: **05/11/2026**; pruebas reales de Windows 11, navegador y accesibilidad pendientes.
 
@@ -1219,3 +1219,43 @@ Para instalar una impresora, utilizar **Inicio > Configuración > Bluetooth y di
 - [Microsoft: instalar y usar escáneres](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows).
 
 **Conclusión de contenido:** los cinco incisos del programa oficial están desarrollados (archivos, operaciones, discos locales/red, impresión y digitalización), con supuestos y banco de **20 preguntas**. La comprobación interactiva de la web publicada se gestiona por separado.
+
+
+## Cierre de manual Windows 11 Pro I — **06/11/2026**
+
+**Fuentes directas del fabricante:** [**Explorador Windows 11**](https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows), [**asignar unidades y compartir en red**](https://support.microsoft.com/es-es/windows/experience/connectivity-networking/file-sharing-over-a-network-in-windows), [**instalación de impresoras**](https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows), [**escáner y Windows Scan**](https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows), [**métodos abreviados Windows**](https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows) y [**rutas UNC (Microsoft Learn)**](https://learn.microsoft.com/es-es/windows/win32/fileio/naming-a-file). Las opciones pueden variar por configuración, licencia, perfil y dispositivo; se describe el comportamiento estándar sin inventar pruebas físicas.
+
+### Archivos, carpetas, acceso directo y unidades
+
+| Operación / objeto | Resultado habitual en Windows 11 | Trampa de examen |
+|---|---|---|
+| **Windows + E** | Abre **Explorador de archivos** | No abre Administrador de dispositivos |
+| **Ctrl + C / Ctrl + V** | **Copiar y pegar**, duplicando contenido del origen | No elimina el original |
+| **Ctrl + X / Ctrl + V** | **Cortar y pegar**, para **mover** el elemento | No significa imprimirlo |
+| **Ctrl + Mayús + N** | Crear **carpeta nueva** en la ubicación del Explorador | No equivale a Nueva ventana de Edge |
+| **Alt + Entrar** con elemento seleccionado | Mostrar **Propiedades** | No equivale a abrir otra aplicación |
+| **Supr** en archivo local compatible | Generalmente envía a **Papelera de reciclaje** | En medios/red/permisos concretos puede no hacerlo |
+| **Mayús + Supr** | Solicita eliminación **sin pasar por Papelera** | No garantiza borrado seguro o destrucción física |
+| Renombrar **.docx** como **.pdf** | Cambia solo nombre/extensión; **no convierte** contenido | No es exportación real |
+| Recurso de red `\\servidor\carpeta` | Ruta **UNC** a compartido | No es letra de disco físico |
+| Unidad asignada `Z:` | Letra **lógica** que puede referirse a un recurso compartido | No prueba disco local o dispositivo adicional |
+
+> ⚠️ **¡Foco Examen!:** Una unidad **Z:** puede ser una asignación de red. Para asignarla en **Windows 11**, **Explorador → Este equipo → Más → Asignar unidad de red** (o menú contextual de **Este equipo**). El recurso `\\servidor\carpeta` necesita conectividad y permisos.
+
+### Impresión, digitalización, reconocimiento y permisos
+
+| Prestación | Para qué sirve | Lo que no garantiza |
+|---|---|---|
+| **Cola de impresión** | Gestionar trabajos pendientes de una impresora | Que todos se hayan impreso físicamente |
+| **Impresora predeterminada** | Dispositivo propuesto por omisión para imprimir | Que esté conectada, lista y con consumibles |
+| **Digitalización / escáner** | Capturar imagen del original en un archivo | Reconocimiento automático del texto |
+| **ADF**, alimentador automático | Introducir hojas de un lote sucesivamente | **Escaneado dúplex** si equipo no lo admite |
+| **Dúplex de impresión** | Imprimir por las **dos caras** del papel | **Dúplex de escaneo** en un dispositivo sin esa función |
+| **OCR** | Reconocer caracteres a partir de imagen | Que todos los caracteres resulten sin errores |
+| Permiso de **lectura** en compartido | Consultar/abrir archivos | No implica **escritura** o creación de nuevos documentos |
+
+**Ruta habitual de Configuración para impresoras:** **Inicio → Configuración → Bluetooth y dispositivos → Impresoras y escáneres**. La aplicación **Digitalización de Windows** puede requerir instalación y guardar por defecto en carpeta de escaneos dentro de **Imágenes**, salvo configuración diferente. Ante impresora ausente, comprobar conexión y controladores antes de volver a imprimir; si existen trabajos en cola, no repetir envíos indiscriminadamente.
+
+> ⚠️ **¡Foco Examen!:** **ADF alimenta hojas**, **OCR reconoce texto** y **dúplex usa dos caras**; son capacidades independientes. Una imagen guardada en **PDF** no garantiza por sí sola texto seleccionable ni editable.
+
+**Estado de las 20 preguntas:** [**informe por opción 05/11/2026**](cotejo-banco-completo-2026-11-05.md), 20/20 ítems y 80/80 alternativas ya auditados y conservados. [Informe de cierre conjunto](../cierre-editorial-c2-14-16-2026-11-06.md). La prueba funcional real de Windows 11 con impresora, escáner y unidad compartida sigue pendiente.
