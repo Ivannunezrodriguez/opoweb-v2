@@ -13,7 +13,11 @@
       "fuentes": [
         "BOE-A-2024-11858",
         "BOE-A-2026-14333"
-      ]
+      ],
+      "norma": "RD 534/2024 (mod. RD 535/2026)",
+      "articulos": "1, 23.2",
+      "apartadosManuales": "1",
+      "fuentePrimaria": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858"
     },
     {
       "epigrafe": "Acceso y admisión",
@@ -25,7 +29,11 @@
       ],
       "fuentes": [
         "RD 534/2024, arts. 2 y 3"
-      ]
+      ],
+      "norma": "RD 534/2024",
+      "articulos": "2, 3.1–5",
+      "apartadosManuales": "2–3",
+      "fuentePrimaria": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858"
     },
     {
       "epigrafe": "Vías de acceso",
@@ -35,7 +43,11 @@
       ],
       "fuentes": [
         "RD 534/2024, arts. 4-8"
-      ]
+      ],
+      "norma": "RD 534/2024",
+      "articulos": "4–8, 32–35",
+      "apartadosManuales": "4",
+      "fuentePrimaria": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858"
     },
     {
       "epigrafe": "Prueba y nota de admisión",
@@ -46,7 +58,11 @@
       ],
       "fuentes": [
         "RD 534/2024, arts. 9-22"
-      ]
+      ],
+      "norma": "RD 534/2024",
+      "articulos": "9–22",
+      "apartadosManuales": "5–6",
+      "fuentePrimaria": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858"
     },
     {
       "epigrafe": "Técnico Superior y sistemas extranjeros",
@@ -56,7 +72,11 @@
       ],
       "fuentes": [
         "RD 534/2024, arts. 5, 6 y 23"
-      ]
+      ],
+      "norma": "RD 534/2024 y RD 535/2026",
+      "articulos": "5–7, 23.2",
+      "apartadosManuales": "7–8",
+      "fuentePrimaria": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858"
     },
     {
       "epigrafe": "Procedimientos y publicidad",
@@ -66,7 +86,11 @@
       ],
       "fuentes": [
         "RD 534/2024, arts. 24-26"
-      ]
+      ],
+      "norma": "RD 534/2024",
+      "articulos": "24–26, 37–43",
+      "apartadosManuales": "9, 11–11.1",
+      "fuentePrimaria": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858"
     },
     {
       "epigrafe": "Preinscripción UC3M 2026/2027",
@@ -76,7 +100,11 @@
       ],
       "fuentes": [
         "UC3M: solicitud de preinscripción 2026/2027"
-      ]
+      ],
+      "norma": "UC3M: preinscripcion 2026/27; RD 534/2024",
+      "articulos": "25, 37–43, calendario UC3M 2026/27",
+      "apartadosManuales": "10–12",
+      "fuentePrimaria": "https://www.uc3m.es/grado/admision/solicitud/preinscripcion"
     },
     {
       "epigrafe": "Cambio de universidad o estudios",
@@ -86,7 +114,11 @@
       ],
       "fuentes": [
         "RD 534/2024, arts. 7, 44 y 45"
-      ]
+      ],
+      "norma": "RD 534/2024 y normativa de cambio UC3M (original 2010, mod. 2025)",
+      "articulos": "RD 534/2024: 44–45; UC3M: 1–5",
+      "apartadosManuales": "13–13.4",
+      "fuentePrimaria": "https://sede.uc3m.es/boel/anexo/11307/"
     },
     {
       "epigrafe": "Máster y Doctorado",
@@ -99,7 +131,11 @@
         "RD 822/2021",
         "RD 99/2011",
         "UC3M Doctorado"
-      ]
+      ],
+      "norma": "RD 822/2021 y RD 99/2011",
+      "articulos": "RD 822/2021: 18; RD 99/2011: 6",
+      "apartadosManuales": "14–15",
+      "fuentePrimaria": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541"
     }
   ],
   "controlIntegralBanco20261104": {
@@ -158,5 +194,46 @@
     "certificacionJuridicaCompleta": false,
     "pruebasE2ENuevas": false,
     "corteNormativo": "PENDIENTE_FECHA_RESOLUCION_PRIMARIA_UC3M"
+  },
+  "cierreDocumentalT17_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T17_20261106.md",
+    "prueba": "tests/validate-uc3m-cierre-t17-20261106.mjs",
+    "coberturaPrograma": 9,
+    "bancoOriginal": 12,
+    "alternativasOriginales": 48,
+    "preguntasComplementarias": 6,
+    "alternativasComplementarias": 24,
+    "microcasosManual": 4,
+    "alternativasMicrocasos": 16,
+    "preguntasDocumentalesTotales": 22,
+    "alternativasDocumentalesTotales": 88,
+    "correcciones": [
+      "12 referencias originales a articulo o fuente oficial",
+      "6 referencias complementarias a articulo BOEL",
+      "norma original aprobada 25/02/2010 corroborada en texto 2010 y BOEL anexo; resumen 2020 identificado como discrepancia",
+      "procedimiento de plazas vacantes art 4.4 y B2 con excepciones art 4.3",
+      "distincion vigencia RD 535/2026 desde 22/07/2026"
+    ],
+    "fuentes": [
+      "BOE-A-2024-11858",
+      "BOE-A-2026-14333",
+      "BOE-A-2011-2541",
+      "https://sede.uc3m.es/boel/anexo/11307/",
+      "https://sede.uc3m.es/boel/anexo/11194/firmado/",
+      "https://e-archivo.uc3m.es/bitstream/10016/15713/1/Acceso%20-%20otras%20titulaciones.pdf"
+    ],
+    "estadoPrueba": "PENDIENTE_CI",
+    "certificacionIntegral": false,
+    "aprobacionUsuario": false,
+    "inspeccionVisualBOEL": false,
+    "pruebaNavegadorReal": false,
+    "pendientes": [
+      "resolucion primaria de fecha de listas definitivas UC3M (base primera.7)",
+      "cotejo juridico total frente a fecha de corte",
+      "E2E navegador, movil, accesibilidad WCAG y PWA",
+      "aprobacion de usuario"
+    ]
   }
 }
