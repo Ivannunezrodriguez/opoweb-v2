@@ -341,6 +341,24 @@ Permite desarrollar y adquirir productos, servicios u obras innovadores que no e
 
 Se utiliza principalmente para obtener planos o proyectos, especialmente en arquitectura, urbanismo, ingeniería o procesamiento de datos, mediante selección por jurado.
 
+
+### 17.8. Abierto simplificado ordinario y abreviado: cuantías y plazos (2026)
+
+En el **artículo 159 LCSP** existen dos modalidades que **no deben confundirse con los umbrales SARA**. Se calcula el **valor estimado sin IVA** y se comprueban, además, los requisitos de criterios de adjudicación y demás condiciones legales.
+
+| Modalidad del artículo **159** | Obras | Suministros/servicios | Criterios y plazo mínimo |
+|---|---:|---:|---|
+| **Abierto simplificado** (**159.1–5**) | **≤ 2.000.000 €** | **< 140.000 €** (importe actualizado de **arts. 21.1.a y 22.1.a**, usados como referencia por **159.1.a**) | Juicio de valor **0 %** o **≤ 25 %**; hasta **45 %** en prestaciones intelectuales. Ofertas: **15 días naturales**, en obras **20 días naturales**, desde el día siguiente al anuncio en perfil. |
+| **Abierto simplificado abreviado** (**159.6**) | **< 80.000 €** | **< 60.000 €** | **No** aplicable a prestaciones **intelectuales**. Criterios automáticos por fórmulas; ofertas **10 días hábiles**, o **5 días hábiles** para compras corrientes de bienes disponibles en mercado. No se exige garantía definitiva. |
+
+La **Disposición adicional duodécima LCSP** establece que los plazos fijados **por días son naturales**, excepto cuando se indica expresamente **días hábiles**. Por ello el plazo de **15/20 días** del **159.3** se estudia en **naturales**, frente a los **10/5 días hábiles** del **159.6.a**. Si el último día fuera inhábil, se prorroga al primer hábil siguiente.
+
+**La clave de 2026:** el abierto simplificado de **suministros y servicios** usa la referencia de **140.000 €** del ámbito **AGE** citado expresamente por **159.1.a**, incluso aunque el umbral **SARA ordinario de UC3M** para esos contratos sea **216.000 €**. No debe utilizarse **216.000 €** como tope para este procedimiento.
+
+**Fuentes:** [**LCSP, art. 159**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a1-71), [**Disposición adicional 12.ª**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#da-12) y [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605).
+
+> ⚠️ **¡Foco Examen!:** **Simplificado ordinario = < 140.000 €** en suministros/servicios; **SARA UC3M = ≥ 216.000 €**; **abreviado = < 60.000 €**, salvo servicios intelectuales. **15 días naturales** y **10 días hábiles** no son intercambiables.
+
 ## 18. Contratos sujetos a regulación armonizada
 
 Son contratos que, por tipo, valor estimado y entidad contratante, quedan sometidos a las reglas europeas reforzadas de publicidad y procedimiento.
@@ -587,3 +605,37 @@ Las exclusividades científicas o técnicas deben motivarse y acreditarse. La ur
 [**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
 
 > ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.
+
+
+## 30. Reglas críticas de formalización y recurso — arts. 44 y 153
+
+| Actuación | Supuesto exacto | Plazo / consecuencia |
+|---|---|---|
+| **Recurso especial** (**44.1.a**) | Obras y concesiones de valor estimado **> 3.000.000 €**, y suministros y servicios **> 100.000 €**, respecto de actos recurribles. | **No** confundir el umbral del recurso con el SARA. |
+| **Recurso especial** sobre **emergencia** | Procedimientos seguidos por tramitación de emergencia. | El **art. 44.4 excluye** este recurso. |
+| **Formalización** de contrato susceptible de recurso especial (**153.3**) | Espera previa tras remitir notificación de adjudicación. | **No antes de 15 días hábiles**; la Comunidad Autónoma puede ampliar el período hasta **un mes**. |
+| **Requerimiento al adjudicatario** después del período de espera | Cuando no se ha interpuesto recurso con suspensión o se ha levantado. | Formalización en **plazo no superior a 5 días** desde el siguiente a recibir requerimiento. |
+| **Formalización de otros contratos** | Contratos no sujetos a la espera anterior, con las excepciones específicas. | **No más tarde de 15 días hábiles** desde la notificación de adjudicación. |
+| **Falta de formalización imputable al adjudicatario** | No se formaliza en plazo por causa del adjudicatario. | Penalidad **3 % del presupuesto base de licitación**, **IVA excluido**; se pasa al siguiente licitador en las condiciones legales. |
+| **Publicidad de formalización** | Publicación en el perfil de contratante. | **Máximo 15 días desde el perfeccionamiento**; en contratos SARA hay publicidad adicional en **DOUE** (**154.1**). |
+
+**Fuente primaria:** [**LCSP arts. 44, 153 y 154**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902).
+
+> ⚠️ **¡Foco Examen!:** En un contrato sujeto a recurso especial, **15 días hábiles** es la **espera mínima antes de formalizar**; no es el plazo ordinario para pagar la factura. La penalidad por falta de formalización imputable al adjudicatario es **3 % del PBL sin IVA**, no del valor estimado.
+
+## 31. Plazos de pago y reclamaciones de contratistas — art. 198
+
+| Momento o incidencia | Norma legal y matiz |
+|---|---|
+| Conformidad de bienes o servicios | La **Administración** dispone, en principio, de **30 días** desde la entrega efectiva/prestación para aprobar certificados o documentos de conformidad. |
+| Abono del precio | La **Administración** debe pagar en **30 días** desde la aprobación de las certificaciones o documentos de conformidad, salvo peculiaridades previstas en el propio artículo. |
+| Presentación de factura por contratista | Para el cómputo de intereses de demora, debe haberse presentado en registro en **30 días desde entrega o servicio**, en tiempo y forma. Si se presenta tarde, existe regla especial para el inicio de intereses. |
+| Demora superior a **4 meses** | El **contratista** puede suspender el cumplimiento, con **preaviso de 1 mes**. |
+| Demora superior a **6 meses** | El **contratista** tiene derecho a resolver y a ser resarcido por perjuicios en términos legales. |
+
+Las dos referencias a **30 días** no deben simplificarse en un «plazo universal de **60 días**»: el inicio del cómputo y los intereses dependen de **conformidad, factura correcta y circunstancias del caso**.
+
+**Fuente:** [**LCSP, artículo 198.4–6**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a1-110).
+
+> ⚠️ **¡Foco Examen!:** **30 días para conformidad + 30 días para pago**, con presupuestos legales. **> 4 meses de demora** habilita suspensión previo aviso de **1 mes**; **> 6 meses** habilita resolución e indemnización.
+
