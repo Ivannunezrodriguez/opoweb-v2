@@ -315,3 +315,10 @@ Se desarrollan cuatro bloques sin pregunta específica en el banco original: **�
 [12 preguntas nuevas, 48 alternativas y soluciones razonadas](../REPASO_PRL_T12_20261106.md) sobre ámbito (art. 3), especial sensibilidad (25–28), consulta (33, 36) y coordinación (24, RD 171/2004). Las 12 preguntas originales se conservan.
 
 > ⚠️ **¡Foco Examen!:** Informe ordinario de Delegados: **15 días**; riesgo inminente: **tiempo imprescindible**. **Titular** y **principal** son figuras diferentes.
+
+
+## Cierre documental contrastado — 06/11/2026
+
+[**Acta de cierre de contenido y banco T9/T12**](../CIERRE_DOCUMENTAL_T09_T12_20261106.md): **12 preguntas originales**, sus **48 distractores** cotejados, **12 preguntas complementarias** con sus **48 opciones**, fuentes y cobertura de las lagunas. **Estado del contenido: cierre documental con reservas**, sin certificar la interfaz ni declarar el tema `APROBADO_USUARIO`.
+
+> ⚠️ **¡Foco Examen!:** Este cierre editorial **no sustituye** verificar la fecha oficial de corte legislativo de la **base primera.7 UC3M** ni las pruebas de navegación y accesibilidad.
