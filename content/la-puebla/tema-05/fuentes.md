@@ -48,9 +48,18 @@ La [**Ley 4/2026, de 1 de octubre**, BOE-A-2026-20528](https://www.boe.es/buscar
 | Provincia y Diputación | LRBRL **31–41**; CE **141** |
 | Elección de concejales/alcaldes y régimen local | LOREG **176–200**, con particularidades de entidades inferiores |
 
-**Pendiente:** comprobar individualmente los **12 distractores** del tema tras la modificación, especialmente si se pregunta por «todas» las competencias municipales. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+**Nota histórica de 02/11/2026:** el cotejo de preguntas y distractores entonces pendiente se realizó **04/11/2026** y figura en [informe individual de 12 preguntas/48 alternativas](cotejo-integral-2026-11-04.md). La revisión real de navegador y todas las capas funcionales **sigue pendiente**. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
 
 ## Cotejo integral del **04/11/2026**
 
 [**48 alternativas del Tema 5 verificadas**](cotejo-integral-2026-11-04.md) contra [LRBRL consolidada a octubre 2026](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), [LOREG actualizada 02/07/2026](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672) y [Ley 4/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528). **AUDITADO contenido, navegador real pendiente**.
 
+
+
+## Control adicional de **06/11/2026** · LRBRL tras Ley 4/2026
+
+[**Manual T5 §107**](manual.md) incorpora **dos microcasos resueltos, 8 alternativas**, para separar los efectos de [**art. 25.2.q**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a25), **competencia municipal en accesibilidad universal**, de [**art. 69.1**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a69), **información local accesible según diseño universal**. El **art. 25.2.p** sobre comunidades energéticas proviene de la reforma de **marzo de 2026**, distinta de la de **octubre**. **Ley 4/2026** se publicó el **03/10/2026** y estos cambios rigen desde **23/10/2026**.
+
+El banco histórico **12 preguntas/48 opciones** sigue **APROBADO_USUARIO**, con cotejo jurídico de **04/11**; los microcasos están **solo en el manual**, no se atribuyen a un banco interactivo ni se modifican simulacros.
+
+> ⚠️ **¡Foco Examen!:** **25.2.q** = competencia de **accesibilidad**; **69.1** = información en **formato accesible**; **25.2.p** = comunidades **energéticas**. No convertir el contenido de los tres artículos en una sola competencia.
