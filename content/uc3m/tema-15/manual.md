@@ -118,6 +118,35 @@ Pueden comprender, entre otros:
 
 Su funcionamiento debe inspirarse en eficacia, calidad, accesibilidad, coordinación, evaluación y atención a las personas usuarias.
 
+### 4.1. Quién crea, suprime y organiza los servicios (artículos 157–159)
+
+Los **artículos 157–159 de los Estatutos UC3M** establecen un reparto competencial preciso:
+
+| Operación | Órgano o instrumento | Artículo |
+|---|---|---|
+| Proponer creación o supresión de un servicio | **Rector** | **158.1** |
+| Aprobar creación, supresión o reglamento de organización y funcionamiento | **Consejo de Gobierno**, a propuesta del **Rector** | **158.1** |
+| Aprobar convenios o contratos para prestación o gestión indirecta | **Rector** | **157.2** |
+| Nombrar al director responsable de un servicio, cuando exista | **Rector** | **159.1** |
+| Fijar dependencia orgánica y dotación de medios | Acuerdo de creación del servicio | **158.2** |
+| Prever participación de usuarios | Reglamento de cada servicio | **158.3** |
+
+La **dirección de servicio** es *posible*, no obligatoria en todo servicio (art. **159.1**). También **podrá** constituirse un órgano de control de calidad para servicios prestados indirectamente, con representación de usuarios y sectores de la comunidad universitaria (art. **158.4**).
+
+> ⚠️ **¡Foco Examen!:** No confundir **Rector (propone y nombra)** con **Consejo de Gobierno (crea o suprime servicios y aprueba reglamentos)**. La expresión estatutaria «**podrá** haber un director» no equivale a «deberá».
+
+### 4.2. Biblioteca, Informática y servicios específicos (artículos 160–165)
+
+| Servicio o unidad | Regla estatutaria concreta |
+|---|---|
+| **Oficina de Transferencia de Resultados de la Investigación (OTRI)** | Servicio técnico-administrativo centralizado, **sin personalidad jurídica distinta** de la Universidad; depende del **Rector** o del **Vicerrector** delegado (art. **160**). |
+| **Biblioteca** | Centro de recursos para docencia, estudio, investigación y gestión; tiene **dirección única** y depende del **Rector** o **Vicerrector** delegado (art. **161.1–5**). |
+| **Fondo bibliográfico y documental** | Según el **art. 161.4**, el presupuesto anual debe consignar un crédito de **al menos el 8 %** de los gastos previstos del **capítulo de bienes y servicios o equivalente**. **No es el 8 % de todo el presupuesto universitario**. |
+| **Servicio de Informática** | Organiza sistemas automatizados y gestiona la red y el soporte informático; depende del **Rector** o **Vicerrector** delegado (art. **162**). |
+| **Residencias** | El servicio se presta mediante **convocatoria pública anual**; el **Rector** nombra los directores y el **Consejo de Gobierno** aprueba su reglamento (art. **163**). |
+
+> ⚠️ **¡Foco Examen!:** El **8 % de Biblioteca** se calcula sobre el capítulo de **bienes y servicios o equivalente**, no sobre la totalidad del presupuesto; «**al menos**» es un **mínimo**, no un máximo.
+
 ## 5. Gestión y evaluación de los servicios
 
 Los servicios pueden prestarse directamente por la Universidad o mediante cooperación, convenios o contratación, respetando la legislación pública aplicable.
@@ -153,11 +182,38 @@ Los ingresos pueden proceder de:
 - donaciones, legados y mecenazgo;
 - otras fuentes permitidas por el ordenamiento.
 
+### 7.1. Órganos del presupuesto y de la memoria económica (artículos 170–171)
+
+Los Estatutos disponen un presupuesto **anual, único, público y equilibrado**, que comprende ingresos y gastos del **año natural**.
+
+| Actuación | Órgano competente | Precepto |
+|---|---|---|
+| Confeccionar el **anteproyecto de presupuesto** | **Gerente** | **170.2** |
+| Presentar el proyecto al Consejo de Gobierno | **Rector** | **170.2** |
+| Aprobar la propuesta presupuestaria antes de su elevación | **Consejo de Gobierno** | **170.2** |
+| Aprobar definitivamente el presupuesto, dentro del régimen legal aplicable | **Consejo Social** | **170.2** y legislación universitaria |
+| Elaborar la **memoria económica anual** | **Gerente**, bajo dirección del **Rector** | **171.2** |
+| Aprobar inicialmente la memoria económica | **Consejo de Gobierno** | **171.2** |
+| Aprobar definitivamente la memoria económica | **Consejo Social**; después se hace pública | **171.2** |
+
+La **memoria económica** incluye liquidación definitiva del presupuesto, informe de situación patrimonial e informe de gestión de recursos (art. **171.3**).
+
+> ⚠️ **¡Foco Examen!:** **Gerente elabora**, **Rector presenta y dirige**, **Consejo de Gobierno aprueba** la propuesta y **Consejo Social interviene en la aprobación definitiva**. La **memoria económica** y el **presupuesto** son documentos distintos.
+
 ## 8. Patrimonio
 
 El patrimonio de la Universidad está integrado por sus bienes, derechos y obligaciones. La Universidad puede administrar y disponer de ellos dentro de los límites legales y estatutarios.
 
 Los bienes afectos al servicio público universitario tienen la protección que establezca la legislación patrimonial. La gestión patrimonial exige inventario, conservación, afectación, desafectación, autorización y documentación de las operaciones.
+
+### 8.1. Inventario, gestión y disposición de bienes (artículos 167–169)
+
+- El patrimonio incluye **bienes, derechos y acciones** de titularidad universitaria (art. **167.1**).
+- La **gestión de bienes de dominio público** y disposición de inmuebles patrimoniales corresponde al **Consejo de Gobierno**, con **autorización previa del Consejo Social** cuando así lo establece el art. **168.2**, y con sujeción a la legislación patrimonial.
+- El **Gerente** elabora el **inventario general**, que se actualiza **anualmente** y se deposita en la **Secretaría General** (art. **169.1**).
+- El **Secretario General** se encarga de la **inscripción registral** de bienes y derechos universitarios (art. **169.2**).
+
+> ⚠️ **¡Foco Examen!:** **Gerente = inventario anual**; **Secretario General = inscripciones en registros públicos**. La autorización del **Consejo Social** no convierte por sí sola a este órgano en el gestor de todos los bienes.
 
 ## 9. Cuentas, auditoría y control
 
@@ -173,11 +229,31 @@ La gestión económico-financiera está sometida a:
 
 Los Estatutos prevén una auditoría financiera externa anual realizada por profesionales independientes. Sus resultados se comunican a los órganos universitarios establecidos.
 
+### 9.1. Control interno y auditoría externa: competencias y duración (artículo 174)
+
+El art. **174** contempla control interno de ingresos y gastos conforme a los principios de legalidad, eficacia y eficiencia. Puede constituirse una **unidad administrativa de control**, dependiente directamente del **Rector** y con **autonomía funcional respecto del Gerente**.
+
+El Estatuto prevé una **auditoría financiera externa anual** por profesionales capacitados e independientes. El auditor se nombra por un período **no superior a cinco años**. Los resultados se comunican al **Consejo Social**, al **Claustro Universitario** y al **Consejo de Gobierno**, que determina la difusión a la comunidad universitaria.
+
+| Figura | Periodicidad o duración | Competencia diferenciada |
+|---|---|---|
+| **Control interno** | Actividad de control conforme a su régimen | Unidad que **podrá** constituirse, con dependencia del **Rector** y autonomía respecto del **Gerente** |
+| **Auditoría financiera externa** | **Anual** | Profesionales **independientes** |
+| **Nombramiento del auditor** | Período **máximo de 5 años** | No confundir duración del nombramiento con frecuencia de auditoría |
+
+> ⚠️ **¡Foco Examen!:** **Auditoría anual** y **nombramiento por no más de cinco años** son dos plazos distintos. Tampoco es lo mismo la autonomía funcional del control interno que depender jerárquicamente del **Gerente**.
+
 ## 10. Contratación
 
 La contratación de la UC3M se rige por la legislación de contratos del sector público. Según los Estatutos, el Rector es el órgano de contratación de la Universidad y está facultado para suscribir los contratos en nombre y representación de esta.
 
 En los procedimientos en que corresponda se constituye mesa de contratación. El Consejo Social debe intervenir en los supuestos estatutariamente previstos, especialmente cuando se comprometan fondos públicos de ejercicios futuros en determinadas inversiones plurianuales.
+
+### 10.1. Intervención del Consejo Social en la contratación (artículos 175–177)
+
+El **Rector** es el órgano de contratación, pero el art. **177** prevé intervención preceptiva del **Consejo Social** para contratos relativos a inversiones de **duración superior a un año** que comprometan fondos públicos de **ejercicios presupuestarios futuros**. Son **dos condiciones acumulativas**.
+
+> ⚠️ **¡Foco Examen!:** El art. **177** no dice que el **Consejo Social** sea el órgano de contratación; exige su **acuerdo** para determinadas inversiones plurianuales, mientras el art. **175** atribuye la contratación al **Rector**.
 
 ## 11. Reforma de los Estatutos: iniciativa
 
@@ -244,3 +320,8 @@ No pueden presentarse propuestas de reforma durante los tres meses anteriores a 
 [**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
 
 > ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.
+
+
+## Ampliación oficial del bloque servicios, patrimonio y economía — **06/11/2026**
+
+**Fuente cotejada:** [**Decreto 1/2003 — Estatutos UC3M**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782), **arts. 157–165, 167–171, 174–175 y 177**. Para la vigencia del conjunto deben considerarse también las modificaciones del [**Decreto 95/2009**](https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf) y, en su caso, las normas universitarias posteriores; esta ampliación contrasta **el articulado de las materias indicadas** y **no** supone una nueva certificación integral ni altera el cotejo previo de **21 preguntas/84 alternativas**. Sigue pendiente la fecha normativa de corte del proceso UC3M acreditada por el anuncio primario de listas definitivas.
