@@ -267,6 +267,70 @@ Además de los **30 ECTS** de la regla estatal del **RD 534/2024**, la **UC3M** 
 
 > ⚠️ **¡Foco Examen!:** **Rector decide admisión** por traslado; **Decano/Director resuelve ordinariamente reconocimientos**. Existen reglas específicas de reconocimiento **de oficio** ligadas a la admisión, y las competencias no deben mezclarse en un test.
 
+### 13.3. Precisiones documentales 2026: publicación, cupos remanentes e idiomas
+
+La norma interna de **cambio de titulación o universidad** se aprobó por **Consejo de Gobierno el 25/02/2010** y se modificó por acuerdo de **11/12/2025**. La reforma aparece en el [**BOEL de 18/12/2025**](https://sede.uc3m.es/boel/anexo/11194/firmado/) y se reproduce como **anexo 5** en el [**BOEL de 22/01/2026 (pp. 47–52)**](https://sede.uc3m.es/boel/anexo/11307/).
+
+**Advertencia de fuente:** el *resumen de acuerdos* del BOEL de enero (p. 2, punto 9) imprime **25/02/2020**; sin embargo, **el encabezado del anexo 5** de ese mismo BOEL, el BOEL de diciembre de 2025 y el [**texto original depositado en el archivo UC3M**](https://e-archivo.uc3m.es/bitstream/10016/15713/1/Acceso%20-%20otras%20titulaciones.pdf) coinciden en **25/02/2010**. Se conserva **2010** para identificar la norma y se documenta la discrepancia, **sin trasladar al test el 2020 del resumen**.
+
+| Materia específica | Regla exacta | Fundamento |
+|---|---|---|
+| Plazas **no cubiertas** por estudiantes de otras universidades | **Incrementan el cupo reservado a estudiantes de la UC3M** que desean cambiar de titulación | **Normativa UC3M, art. 4.4** |
+| Estudiantes de sistemas educativos extranjeros que solicitan cambio a enseñanza en **español o bilingüe** | Exigencia de **B2 de español**, con excepciones por nacionalidad o procedencia de enseñanza en español previstas en la norma | **Art. 4.3** |
+| Enseñanza impartida **íntegramente en inglés** | Debe acreditarse **B2 de inglés o equivalente** | **Art. 4.3** |
+| Cambio de otra **universidad española** | Además de **30 ECTS reconocibles**, al menos **60 ECTS pendientes** en origen al solicitar; resolución con carácter general **antes del 10 de junio** | **Art. 4.2** |
+| Cambio de titulación o campus **dentro de UC3M** | Reserva del **50 %** de plazas de **esta vía**, resolución general **antes del 15 de junio** | **Arts. 1 y 4.1** |
+
+Estas reglas son **universitarias y específicas del procedimiento de estudios parciales**. No sustituyen al [**RD 534/2024, art. 44**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a44) ni convierten el **50 %** en reserva de todas las plazas ordinarias de Grado.
+
+> ⚠️ **¡Foco Examen!:** **4.4 = las vacantes del cupo externo incrementan el cupo interno**; **B2 de español** y **B2 de inglés** dependen de la lengua de impartición y de las **excepciones expresas**, no son requisitos universales sin matices.
+
+### 13.4. Microcasos de examen de reservas y traslados
+
+**Microcaso A.** Según el **art. 40 del RD 534/2024**, ¿qué intervalo de plazas se reserva **en conjunto** a mayores de **40** con experiencia relacionada y mayores de **45** por prueba específica?
+
+- **A.** Entre el **1 % y el 3 %**.
+- **B.** Un **3 %** para cada colectivo por separado.
+- **C.** Un **5 %** para cada colectivo.
+- **D.** No existe reserva.
+
+**Respuesta: A.** El intervalo se aplica **conjuntamente**, no a cada colectivo por separado.
+
+> ⚠️ **¡Foco Examen!:** **1–3 % conjunto**; no sumes dos reservas independientes para mayores de **40 y 45**.
+
+**Microcaso B.** Según el **art. 42.3**, ¿dónde existe el **5 % adicional de reserva** a deportistas de alto nivel y rendimiento?
+
+- **A.** En cualquier Grado de toda universidad.
+- **B.** Solo en titulaciones y enseñanzas **específicas** a las que remite el **art. 9.1 del RD 971/2007**.
+- **C.** Únicamente para titulados universitarios.
+- **D.** Solo en enseñanzas de Doctorado.
+
+**Respuesta: B.** No generalizar ese cupo adicional a todos los Grados.
+
+> ⚠️ **¡Foco Examen!:** **3 % deportivo general** y **5 % adicional para enseñanzas específicas** son reglas distintas.
+
+**Microcaso C.** En el cupo de traslados UC3M, ¿a dónde pasan las plazas que no cubren estudiantes de otras universidades?
+
+- **A.** Se anulan necesariamente.
+- **B.** Se atribuyen al **cupo interno UC3M**.
+- **C.** Se reservan siempre a deportistas.
+- **D.** Se suman directamente a todas las plazas de preinscripción ordinaria.
+
+**Respuesta: B.** Lo dispone el **artículo 4.4** de la norma UC3M de cambio de estudios.
+
+> ⚠️ **¡Foco Examen!:** **Cupo externo sin cubrir → cupo interno**, en **esa vía específica**; no a la oferta general sin más.
+
+**Microcaso D.** En una solicitud de cambio de estudios a la UC3M, ¿qué nivel lingüístico exige el **art. 4.3** para un Grado impartido íntegramente en inglés?
+
+- **A.** C1 obligatorio en todo caso.
+- **B.** B1 como mínimo.
+- **C.** **B2 de inglés o equivalente**.
+- **D.** No existe requisito lingüístico en ningún supuesto.
+
+**Respuesta: C.** Se aplica a los estudios impartidos **íntegramente en inglés**.
+
+> ⚠️ **¡Foco Examen!:** **B2 inglés** para programa en inglés; el **B2 español** tiene las **excepciones** previstas para programas en español o bilingües.
+
 ## 14. Máster Universitario
 
 El Real Decreto 534/2024 regula específicamente el acceso y la admisión a **Grado**. El acceso a Máster se rige principalmente por el Real Decreto 822/2021 y la normativa universitaria.
