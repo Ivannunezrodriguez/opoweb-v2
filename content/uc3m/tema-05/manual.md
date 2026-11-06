@@ -117,3 +117,36 @@ También deben mantener directorios actualizados de aplicaciones disponibles par
 [Auditoría individual de las **12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): incluye fuente, artículo, juicio de distractores y advertencias de examen. **Estado:** banco cotejado; auditoría funcional en navegador y aprobación del usuario **pendientes**. El corte de vigencia jurídica en UC3M lo fija la **base primera.7** de [BOE-A-2026-14624](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14624), asociado a la **resolución de admitidos definitivos y anuncio del ejercicio**, cuya fecha de publicación exacta no se ha fijado todavía con documento primario.
 
 > ⚠️ **¡Foco Examen!:** La literalidad de cada precepto y sus excepciones priman sobre una regla resumida; el **banco cotejado** no equivale a una certificación de todos los recorridos funcionales de OpoWeb.
+
+
+## 13. Cotejo de autenticación, automatización y localización — 06/11/2026
+
+### 13.1. Identificación de la Administración, actuación automatizada y firma del empleado
+
+| Instrumento | Quién o qué acredita y cuándo se utiliza | Artículo Ley 40/2015 |
+|---|---|---|
+| **Sello electrónico de Administración, órgano u organismo** | Sistema de **identificación** institucional basado en certificado electrónico; debe reunir los requisitos exigidos por la legislación de firma electrónica. | **40** |
+| **Actuación administrativa automatizada** | Actuación hecha **íntegramente por medios electrónicos**, **sin intervención directa de empleado público**, dentro de procedimiento; exige determinar de antemano los órganos competentes para especificación, programación, mantenimiento, supervisión, calidad y, en su caso, auditoría, así como responsable de **impugnación**. | **41** |
+| **Firma de actuación automatizada** | **Sello electrónico** o **código seguro de verificación (CSV)** vinculado al órgano/Administración y que permita comprobar integridad, según sistema establecido. | **42** |
+| **Firma de empleado público o titular de órgano** | Identifica al **empleado o titular** y su actuación electrónica; puede identificar conjuntamente órgano/Administración. | **43** |
+| **Intercambio en entornos cerrados** | Autenticidad e identificación de emisores/receptores conforme a condiciones y garantías del intercambio. | **44** |
+
+La regla «**automatizada**» se refiere a que **no interviene de forma directa una persona empleada pública en esa actuación**, no a la ausencia de responsable jurídico ni a que el acto sea automáticamente irrecurrible.
+
+**Fuente:** [**Ley 40/2015, arts. 40–44**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
+
+> ⚠️ **¡Foco Examen!:** **Art. 41 = actuación automatizada; art. 42 = firma automatizada (sello/CSV); art. 43 = firma del empleado**. Acto automatizado **sí** necesita identificar órgano responsable de impugnación.
+
+### 13.2. Archivo, alojamiento en la UE y transferencia internacional: arts. 46–46 bis
+
+| Regla | Objeto preciso | No equivale a... |
+|---|---|---|
+| **Archivo electrónico** | **Todos los documentos administrativos** en soporte electrónico, salvo imposibilidad, garantizando integridad, autenticidad, confidencialidad, recuperación y conservación según régimen legal. | Un requisito genérico de que toda base de datos deba residir físicamente en España. |
+| **Art. 46 bis: ubicación UE** | Sistemas de recogida, almacenamiento, tratamiento y gestión de **censo electoral, padrones municipales, otros registros de población, datos fiscales de tributos propios o cedidos y datos de usuarios del SNS**, y sus tratamientos personales. | Obligación territorial indistinta para **cualquier** dato personal o categoría especial del RGPD. |
+| **Transferencias internacionales de esos datos** | Prohibición a terceros países u organizaciones internacionales, **salvo decisión de adecuación** de la Comisión o **obligaciones internacionales asumidas por España**. | Autorización automática por cualquier contrato privado o sin límites. |
+
+El artículo **46 bis** menciona **territorio de la Unión Europea**, no exige indiscriminadamente centros de datos en España, ni se refiere a todos los archivos electrónicos de cualquier Administración.
+
+**Fuente:** [**Ley 40/2015, arts. 46–46 bis**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
+
+> ⚠️ **¡Foco Examen!:** **UE** es la localización exigida para los **datos enumerados del art. 46 bis**, no necesariamente España. **Alojamiento UE** y **transferencia a tercer país** son cuestiones distintas.
