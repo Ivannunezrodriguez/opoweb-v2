@@ -159,5 +159,27 @@
     "fechaCorteNormativoUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_LISTAS_DEFINITIVAS",
     "verificacion": "BOE_HTML_CONSOLIDADO",
     "certificacionFuncional": false
+  },
+  "controlCentrosLOSU20261106": {
+    "fecha": "2026-11-06",
+    "tipo": "COTEJO_FOCAL_DE_EXCEPCIONES",
+    "manual": "apartado 16",
+    "articulos": [
+      "41.1",
+      "41.2",
+      "42.1",
+      "42.2",
+      "42.3",
+      "43.1",
+      "97.1",
+      "97.2"
+    ],
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+    "resultado": "AMPLIACION_VERIFICADA_NO_CIERRE_INTEGRAL",
+    "pendientes": [
+      "prueba E2E y accesibilidad",
+      "fecha normativa del corte UC3M",
+      "certificacion juridica integral y aprobacion"
+    ]
   }
 }
