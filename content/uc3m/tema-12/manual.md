@@ -244,3 +244,23 @@ El artículo **2.2** configura las disposiciones laborales como **mínimos indis
 **Fuente:** [**LPRL, arts. 2 y 3, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292).
 
 > ⚠️ **¡Foco Examen!:** La prevención **sí alcanza a funcionarios y personal estatutario**. No interpretar las exclusiones funcionales del **artículo 3.2** como una exclusión absoluta de cualquier trabajador de esos sectores.
+
+
+## 19. Colectivos especialmente sensibles y garantías específicas (arts. 25–28)
+
+| Colectivo | Obligación legal específica | Artículo |
+|---|---|---|
+| Personas especialmente sensibles por características personales, estado biológico o discapacidad | **Evaluación de riesgos adaptada** a esas características y **medidas específicas**; no asignar puesto incompatible con la seguridad propia o ajena | **25.1** |
+| Riesgos para la función reproductiva | Evaluar exposición a agentes físicos, químicos o biológicos que puedan afectar fertilidad y descendencia | **25.2** |
+| Embarazo o parto reciente | Evaluar **naturaleza, grado y duración** de exposición; primero **adaptar condiciones o tiempo de trabajo** | **26.1** |
+| Adaptación insuficiente por embarazo | Si se acreditan los requisitos: **cambio a puesto compatible**; si no resulta posible, eventual **suspensión por riesgo** | **26.2–3** |
+| Lactancia natural | Protección del **artículo 26.4** y, en los supuestos legales, posible suspensión por riesgo durante lactancia de hijos **menores de nueve meses** | **26.4** |
+| Trabajadores **menores de 18 años** | **Evaluación antes de incorporarse** y antes de modificaciones importantes de condiciones, considerando su inexperiencia y desarrollo | **27.1** |
+| Contratos temporales y trabajadores de **ETT** | **Mismo nivel de protección** que el resto; la duración del contrato no permite reducir medidas | **28.1** |
+| Personal puesto a disposición por **ETT** | **Empresa usuaria**: condiciones de ejecución del trabajo e información especificada; **ETT**: obligaciones preventivas propias | **28.5** |
+
+**Orden preventivo ante embarazo:** **evaluación y adaptación**; si no bastan, **cambio a puesto compatible** cuando proceda; finalmente, **suspensión por riesgo** solo si se cumplen los requisitos previstos. No confundir el riesgo durante el embarazo con la mera condición de estar embarazada.
+
+**Fuente:** [**Ley 31/1995, arts. 25–28, texto consolidado BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292).
+
+> ⚠️ **¡Foco Examen!:** **Menores de 18**: evaluación **antes de incorporarse**. **Embarazo: adaptar → cambiar puesto → suspender por riesgo**, condicionado a los requisitos. **Temporalidad y ETT** no justifican menor protección.
