@@ -33,7 +33,7 @@ El manual resume los preceptos relevantes para el epígrafe oficial. Para resolv
 
 **Cotejo de fuentes primarias:** [**Ley 39/2015, arts. 24, 30–31 y 43 (BOE consolidado)**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565); última actualización publicada del texto principal: **06/11/2024**. **Manual nuevo: secciones 18.1–18.2**. Reglas contrastadas: silencio ordinario y doble silencio en alzada; notificación electrónica rechazada a los 10 días naturales; certificado de silencio 15 días; plazos en horas/días/meses.
 
-**Recurso de entrenamiento conectado a OpoWeb:** [**Repaso jurídico conjunto 24 preguntas / 96 alternativas**](../../data/uc3m-repaso-juridico-t02-t07-20261106.json), **cuatro preguntas propias de tema 2**, con artículo, justificación, respuesta y trampa. Se conserva el banco histórico de **12 preguntas** por tema y se mantienen intactos los simulacros **70+5**.
+**Recurso de entrenamiento conectado a OpoWeb:** [**Repaso jurídico conjunto 24 preguntas / 96 alternativas**](../../../data/uc3m-repaso-juridico-t02-t07-20261106.json), **cuatro preguntas propias de tema 2**, con artículo, justificación, respuesta y trampa. Se conserva el banco histórico de **12 preguntas** por tema y se mantienen intactos los simulacros **70+5**.
 
 **Vigencia y alcance:** la consolidación del BOE es informativa; en el examen UC3M debe aplicarse la redacción vigente conforme a la **base primera.7** de la convocatoria, cuya fecha exacta de publicación de las listas definitivas/anuncio no se ha acreditado con documento primario. Este cotejo de artículos críticos es **focal**, no certificación íntegra de todos los artículos ni del navegador/PWA.
 
