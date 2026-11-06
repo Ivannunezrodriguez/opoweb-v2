@@ -53,3 +53,18 @@ Las materias relativas al estudiantado, régimen económico-financiero, personal
 **Cautelas:** el texto del BOE consolidado es una **herramienta informativa**; en caso de conflicto prevalece la publicación oficial. La terminología «Ministerio de Universidades» es literal de la LOSU en los preceptos comentados y **no supone verificación del nombre ministerial vigente en noviembre de 2026**. La **base primera.7 UC3M** exige comprobar la fecha de listas definitivas y anuncio del examen en la resolución primaria: aún no acreditada de manera concluyente. La ampliación documental **no** acredita revisión jurídica integral ni pruebas de navegador, WCAG o PWA.
 
 > ⚠️ **¡Foco Examen!:** **Conferencia = política universitaria/plazas**; **Consejo de Universidades = coordinación académica/planes**; **CEUNE = representación estudiantil**. **Facultades/escuelas: acuerdo de Comunidad Autónoma**; **departamentos/institutos: universidad**.
+
+
+## Cierre documental contrastado LOSU I y II — **06/11/2026**
+
+[**Acta conjunta T13–T14, con reservas jurídicas y funcionales**](../CIERRE_DOCUMENTAL_T13_T14_20261106.md): cotejo del epígrafe oficial, **12 bloques de matriz** del tema **13**, preguntas históricas auditadas de forma individual y práctica complementaria cotejada con [**LOSU consolidada (BOE-A-2023-7500)**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500). Los enlaces de **16 preguntas complementarias** se han sustituido por el artículo correspondiente, sin alterar su clave.
+
+| Tema | Materia crítica | Artículos oficiales |
+|---|---|---|
+| **13** | Creación, autorización, facultades y adscripción | **LOSU 4–5, 41–43, 96–97** |
+| **13** | Coordinación universitaria y docencia | **LOSU 6–17** |
+| **13** | Investigación abierta, transferencia e internacionalización | **LOSU 11–14, 23–30** |
+
+**Reserva verificable:** la convocatoria **BOE-A-2026-14624, base primera.7**, vincula la exigibilidad legal a la **fecha de publicación** de las listas definitivas y anuncio de ejercicio; la resolución primaria fechada **no se ha obtenido** en esta auditoría. Quedan pendientes navegador real, móvil, accesibilidad y certificación integral; **no** hay aprobación del usuario.
+
+> ⚠️ **¡Foco Examen!:** Las referencias del informe del **04/11/2026** y la presente acta documentan el estudio, pero **no convierten automáticamente en exigible** una modificación posterior a la fecha de corte de UC3M.
