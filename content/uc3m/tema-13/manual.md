@@ -52,6 +52,28 @@ La cooperación entre el Estado, las comunidades autónomas y las universidades 
 
 La Conferencia General de Política Universitaria es el órgano de concertación, coordinación y cooperación de la política universitaria general. El Consejo de Universidades desarrolla funciones de coordinación académica, cooperación, consulta y propuesta.
 
+
+### 5.1. Coordinación institucional: Conferencia, Consejo y participación estudiantil
+
+La **LOSU, arts. 14–17**, distingue la **coordinación política entre Administraciones**, la **coordinación académica entre universidades** y la representación específica del estudiantado.
+
+| Órgano | Naturaleza y composición según LOSU | Competencia más preguntable | Precepto |
+|---|---|---|---|
+| **Conferencia General de Política Universitaria** | Cooperación y coordinación de política universitaria **entre Administraciones Públicas**. Presidencia del **Ministro o Ministra de Universidades** y responsables autonómicos de educación universitaria. | **Informe preceptivo** sobre creación y reconocimiento de universidades; **aprueba para cada curso la oferta general de enseñanzas y plazas** oficiales. | **15.1.d–e y 15.2** |
+| **Consejo de Universidades** | **Coordinación académica**, consulta y propuesta; presidido por el titular del Ministerio citado por la LOSU. Lo integran **rectores/as** y **cinco miembros designados** por su presidencia. | **Verificar la adecuación de los planes de estudios** conforme al **art. 8** y coordinar modalidades docentes. | **16.1.e–f y 16.2** |
+| **Consejo de Estudiantes Universitario del Estado (CEUNE)** | **Órgano de participación, deliberación y consulta del estudiantado** ante el Ministerio. | Interlocución estudiantil, derechos y participación en criterios de becas estatales. Su composición garantiza **al menos el 40 % de cada sexo**. | **17.1–4** |
+| **Gobierno y Comunidades Autónomas** | Coordinan universidades de sus respectivos ámbitos, respetando la **autonomía universitaria**. | Coordinación territorial y planificación en sus competencias. | **14.2** |
+
+**Precisiones:**
+- La LOSU denomina al órgano **Consejo de Universidades**, no «Consejo Social». Este último es un órgano de participación de la sociedad en una universidad pública y tiene régimen distinto.
+- El **artículo 16.3** contempla una regla específica de voto en asuntos que afectan **exclusivamente a las universidades públicas**. No afirmar que todos los rectores públicos y privados votan siempre en esas cuestiones.
+- Las denominaciones ministeriales reproducen las que constan en el **texto de la LOSU**, sin presumir que ese sea necesariamente el nombre administrativo actual del departamento.
+- **Cooperación interuniversitaria** puede articularse por alianzas, redes y convenios; la **aprobación de la oferta general de plazas** del **artículo 15.1.e** no es competencia del CEUNE.
+
+**Fuente normativa oficial:** [**LOSU arts. 14–17, BOE-A-2023-7500**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500).
+
+> ⚠️ **¡Foco Examen!:** **Conferencia = política universitaria, plazas generales e informe de creación**; **Consejo de Universidades = coordinación académica y planes de estudio**; **CEUNE = voz del estudiantado**, con **40 % mínimo de cada sexo**. No confundir estos tres órganos.
+
 ## 6. Creación y reconocimiento de universidades
 
 **LOSU, artículo 4.1:** tanto la creación de universidades públicas como el reconocimiento de universidades privadas se realizan **por ley autonómica**, previo **informe preceptivo de la Conferencia General de Política Universitaria**. **Excepción:** para universidades de especiales características, pueden realizarse **por ley de las Cortes Generales**, a propuesta del Gobierno y de acuerdo con el Consejo de Gobierno autonómico, también previo informe preceptivo de dicha Conferencia. La excepción estatal **no se limita a universidades públicas**. La **autorización de inicio de actividades** corresponde al órgano autonómico competente una vez verificados los requisitos (**art. 4.2**) y no sustituye a la ley de creación o reconocimiento.
