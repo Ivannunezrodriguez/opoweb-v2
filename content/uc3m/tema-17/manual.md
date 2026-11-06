@@ -409,3 +409,12 @@ Para el primer semestre del curso **2026/2027**, con inicio de estudios el **15 
 [**Repaso conjunto: 12 preguntas nuevas (6 del tema 16 y 6 del 17)**](../REPASO_NORMATIVA_2026_T16_T17_20261106.md), respuestas justificadas y órganos competentes. No modifica el banco original de **12 preguntas** del tema ni los simulacros.
 
 > ⚠️ **¡Foco Examen!:** Cambio de estudios: **30 ECTS reconocibles**; si procede de otra universidad española, además **60 ECTS pendientes en origen**. Para internos, **50 %** de plazas del cupo de traslado, no de todas las plazas del grado.
+
+
+## Cierre documental contrastado del tema 17 — **06/11/2026**
+
+[**Acta de revisión jurídico-editorial, con reservas**](../CIERRE_DOCUMENTAL_T17_20261106.md). Cubiertos los **9 bloques de programa**, **12 preguntas originales (48 alternativas)**, **6 complementarias (24 alternativas)** y **4 microcasos de lectura (16 alternativas)**; en conjunto **22 ejercicios documentales**. Se han precisado las fuentes de **18 preguntas interactivas**, verificado el [**RD 534/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858) y documentado el **origen de 2010** de la normativa UC3M frente a la errata **2020** del resumen del BOEL.
+
+**Límite:** falta la fecha primaria del **corte jurídico UC3M** de base **primera.7**, navegación E2E, móvil, WCAG/PWA y aprobación. Estado de manifiesto **EN_REVISION_USUARIO**. No se han sustituido los bancos ni modificado los simulacros **70+5**.
+
+> ⚠️ **¡Foco Examen!:** La **reforma del art. 23.2 del RD 534/2024** está vigente en general desde **22/07/2026**, pero su aplicación en el examen exige respetar el **corte de las bases**. La fecha **2020** del resumen del BOEL no sustituye la aprobación original documentada de **2010**.
