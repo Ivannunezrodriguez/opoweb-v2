@@ -233,3 +233,14 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 **Reservas:** fecha primaria del corte de normativa **base primera.7**, E2E/móvil/WCAG/PWA, inspección visual PDF y aprobación del usuario. **Estado de trabajo: cierre documental con reservas**, no certificación integral.
 
 > ⚠️ **¡Foco Examen!:** **6 ECTS mismo centro** vs. **30 ECTS cambio específico**; **50 % del cupo de traslados internos**, no de todas las plazas; **B2** con condiciones y excepciones; **RD 535/2026** en vigor desde **22/07/2026**.
+
+
+## Cierre documental T18 · Presupuesto UC3M 2026 — **06/11/2026**
+
+[**Acta T18, con reservas**](CIERRE_DOCUMENTAL_T18_20261106.md): **8 bloques**, **12 preguntas originales / 48 alternativas** y **8 complementarias / 32 alternativas** de dos repasos existentes, **20 ejercicios / 80 alternativas** sin duplicar el banco histórico ni alterar simulacros. Las referencias se han precisado contra [**Presupuesto UC3M 2026 (BOCM)**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF), [**Normas Básicas de Gestión UC3M, Vol. I**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view) y [**Ley 5/2025 de Hacienda de Madrid**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217). [**Prueba automatizada documental**](../../tests/validate-uc3m-cierre-t18-20261106.mjs) añadida al flujo CI.
+
+**Contrastes fundamentales:** **300.468.067,59 €** presupuesto 2026, capítulo **IV** principal ingreso; vinculación general por **concepto** con excepciones para capítulos **I, II y VI**; seguimiento de facturas **30/60/90/120 días**; presupuesto universitario **no integrado** en presupuestos generales madrileños (**56.3**), prórroga hasta **publicación BOCM** (**108.4**) y fondos universitarios fuera de Tesorería General autonómica (**182.1**).
+
+**Reservas:** resultado CI real y E2E sin comprobar, fecha del corte legal **primera.7** no acreditada mediante resolución primaria, auditoría de totalidad del manual y aprobación del usuario pendientes. **Cierre documental, no certificación integral**.
+
+> ⚠️ **¡Foco Examen!:** **Crédito → gasto → obligación → pago** y **derecho de ingreso → cobro** son fases diferentes; **no integración presupuestaria autonómica** no equivale a independencia absoluta del marco legal.
