@@ -59,3 +59,12 @@ Se priorizan los artículos de la LCSP directamente conectados con el epígrafe 
 **Reserva editorial:** se ha contrastado de forma explícita el alcance de **los artículos señalados**, no todos los preceptos de cada norma ni su aplicación temporal exacta al examen de UC3M, cuya **base primera.7** exige fecha de resolución definitiva aún pendiente de comprobación primaria. No se declara certificación jurídica ni funcional integral.
 
 > ⚠️ **¡Foco Examen!:** El umbral monetario y el plazo solo son correctos si se identifica **procedimiento, órgano y unidad temporal**; el estudio de **2026** no debe suplantarse por reglas genéricas de otras Administraciones.
+
+
+## Cierre documental T20 con reservas — **06/11/2026**
+
+[**Acta de cierre T20**](../CIERRE_DOCUMENTAL_T20_20261106.md), **10 bloques**, **12 preguntas originales y 48 alternativas** más **5 ejercicios complementarios y 20 alternativas**. Fuentes: [**LCSP consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902), [**Orden HAC/1517/2025, umbrales 2026–2027**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605), [**Estatutos UC3M arts. 175–176**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782) y [**Normas Básicas UC3M art. 16.2**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view). Las **17 referencias por ítem** se han precisado, sin alterar ninguna clave.
+
+**Reservas:** exigibilidad normativa según **base primera.7 UC3M** sin resolución primaria fechada, auditoría jurídico-editorial de todos los apartados, navegador real, móvil, WCAG/PWA, simulacros y aprobación del usuario. El test documental **no sustituye** estas comprobaciones.
+
+> ⚠️ **¡Foco Examen!:** **Plazo 15 naturales de ofertas** ≠ **15 hábiles de espera para formalización**; **caja fija 5.000 € UC3M** ≠ **excepción documental LCSP 118.5** aunque coincidan importes.
