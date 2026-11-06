@@ -54,3 +54,20 @@ Se ha corregido la indeterminación del borrador respecto al cambio de universid
 [**Revisión individual de 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md), con respuesta literal, motivo de descarte de las demás y foco test. El banco está **cotejado**, pero esto no certifica el portal en navegador, no implica aprobación del usuario y queda pendiente fechar por documento primario la aplicación temporal de la base **primera.7** de UC3M.
 
 > ⚠️ **¡Foco Examen!:** **Mismo centro: 6 ECTS**; **cambio de universidad: 30 ECTS**; **hasta 3 materias de mejora y, además, segunda lengua extranjera**, según art. 22.1.
+
+
+## Reforma de cambio de titulación/universidad de UC3M — **06/11/2026**
+
+**BOEL UC3M de 22/01/2026, anexo 5, páginas 47 y siguientes:** [**normativa interna de acceso por estudios universitarios parciales**](https://sede.uc3m.es/boel/anexo/11307/), aprobada inicialmente el **25/02/2010** y modificada en sesión del **Consejo de Gobierno de 11/12/2025**. Se distingue de la norma estatal [**RD 534/2024, art. 7.c–d**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a7).
+
+| Precepto | Condición UC3M verificable |
+|---|---|
+| **Art. 1** | **Rector/a** aprueba oferta anual; **50 % de plazas ofertadas por esta vía** reservado a estudiantes UC3M que cambian de titulación o campus. |
+| **Art. 2** | **30 ECTS** susceptibles de reconocimiento; estudiantes UC3M pueden solicitar aun sin tenerlos superados si los tienen **matriculados**; documentación de internos se comprueba de oficio. |
+| **Art. 3** | **Decano/a o Director/a** informa al Rector/a sobre reconocimiento antes del **día 15 del mes siguiente** a recibir expediente; **Rector/a** desestima si no se reconocen **30 ECTS**. |
+| **Art. 4.1** | Cupo interno: resolución general **antes del 15 de junio**; valoración de nota de acceso y expediente. |
+| **Art. 4.2** | Otras universidades españolas: deben quedar **al menos 60 ECTS pendientes de superar** en universidad de origen; resolución general **antes del 10 de junio**. |
+
+**Precaución:** **50 %** no corresponde al total de plazas de acceso ordinario; **60 ECTS** es requisito del supuesto de estudiantes procedentes de **universidades españolas externas**. El contenido del PDF institucional se ha consultado como texto primario, pero **su captura visual no estuvo disponible**. No se afirma certificación funcional o visual ni resolución del corte legislativo de la base primera.7.
+
+> ⚠️ **¡Foco Examen!:** **30 reconocibles ≠ 60 pendientes**; **Rector decide admisión** y **Centro informa sobre el reconocimiento**. La excepción de los **30 matriculados** se aplica a estudiantes **de la propia UC3M** al presentar la solicitud.
