@@ -82,3 +82,42 @@
 
 > ⚠️ **¡Foco Examen!:** **Unidad de igualdad** y **unidad de diversidad** pueden integrarse, pero tienen competencias distintas.
 
+### Pregunta 7 — Docencia
+
+¿Qué forma de docencia considera preferente el artículo 6.1, sin excluir otras modalidades?
+
+- **A.** Solo virtual
+- **B.** Presencial, también pudiendo ser virtual o híbrida
+- **C.** Exclusivamente híbrida
+- **D.** Solo presencial, con prohibición de la virtual
+
+**Respuesta: B.** La ley dispone docencia **preferentemente presencial** y admite docencia **virtual o híbrida**. **Fuente:** LOSU art. 6.1.
+
+> ⚠️ **¡Foco Examen!:** **Preferentemente** no equivale a **exclusivamente**.
+
+### Pregunta 8 — Docencia
+
+¿En qué se exige plena y efectiva participación del estudiantado según el artículo 6.2?
+
+- **A.** Solo en presupuestos
+- **B.** Solo en becas
+- **C.** Solo en el Claustro
+- **D.** Elaboración, seguimiento y actualización de planes de estudio y efectos en guías docentes
+
+**Respuesta: D.** El **estudiantado** participa en elaboración, seguimiento y actualización de **planes de estudio y guías docentes**. **Fuente:** LOSU art. 6.2.
+
+> ⚠️ **¡Foco Examen!:** No limitar la participación a **votar representantes**.
+
+### Pregunta 9 — Docencia
+
+¿Qué efectos tiene inscribir un título oficial en el RUCT respecto a su creación?
+
+- **A.** Solo publicidad estadística
+- **B.** Informativos para todos los títulos
+- **C.** Constitutivos para títulos oficiales
+- **D.** No produce efectos
+
+**Respuesta: C.** La inscripción de títulos **oficiales** en el **RUCT** tiene efecto **constitutivo**. **Fuente:** LOSU art. 7.3.
+
+> ⚠️ **¡Foco Examen!:** Los títulos **propios** pueden inscribirse a efectos **informativos**, pero no adquieren oficialidad.
+
