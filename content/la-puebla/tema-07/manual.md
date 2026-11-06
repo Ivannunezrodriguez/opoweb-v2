@@ -480,7 +480,7 @@ Informar después de contratar servicio ajeno no cumple la consulta previa.
 - Servicios 30–32 bis: desarrollados.
 - Reglamento 10–22 bis: incorporado en alcance exigible.
 - Consulta y participación 33–40: desarrolladas.
-- Preguntas trazables: no creadas todavía.
+- Preguntas trazables: **12 preguntas/48 alternativas** con [cotejo jurídico y distractores de **04/11/2026**](cotejo-integral-2026-11-04.md); la frase de la versión inicial sobre preguntas no creadas ya no era válida.
 - Revisión del usuario: **aprobada el 17 de julio de 2026**.
 - Tema cerrado: **SÍ, aprobado por el usuario**.
 - Publicación como aprobado: **SÍ**.
@@ -492,3 +492,10 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 7 aprobad
 Se han cotejado los **7 incisos de cobertura de la matriz**, el contenido jurídico del manual y las **12 preguntas con 48 alternativas** a partir de [Ley 31/1995](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) y [RD 39/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853). Las exclusiones se documentan en [cotejo integral](cotejo-integral-2026-11-04.md). **Cierre jurídico-editorial**; no implica prueba real de navegador y móvil ni inmunidad a reformas posteriores.
 
 > ⚠️ **¡Foco Examen!:** **24 horas** control de paralización representativa, **15 días** informe ordinario de Delegados, **más de 500 trabajadores** servicio propio y **50 o más** Comité de Seguridad y Salud.
+
+
+## 61. Repaso de umbrales y competencias preventivas — **06/11/2026**
+
+[**Tabla y casos de PRL dentro del repaso T6–T8**](../REPASO_FOCAL_T06_T08_20261106.md). **LPRL 21.3**: **autoridad laboral** ratifica o anula paralización representativa en **24 horas**; **36.3**: informe de **Delegados de Prevención** en **15 días** o tiempo imprescindible por riesgo inminente. **Comité de Seguridad y Salud** desde **50 personas trabajadoras**, **reunión trimestral** (**38.2–3**), frente al **servicio de prevención propio** exigible por tamaño cuando hay **más de 500 trabajadores** (**RD 39/1997, 14.a**). Los casos adicionales **no** alteran las 12 claves históricas.
+
+> ⚠️ **¡Foco Examen!:** **24 horas = autoridad laboral**; **15 días = informe de Delegados**; **50 o más = Comité**; **más de 500 = servicio propio por tamaño**.
