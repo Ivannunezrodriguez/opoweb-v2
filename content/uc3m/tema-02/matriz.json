@@ -87,5 +87,27 @@
     "validacionFuncional": "PENDIENTE_NAVEGADOR_REAL",
     "corteNormativo": "base primera.7: publicación de listas definitivas y anuncio del ejercicio; fecha exacta pendiente de documento primario",
     "aprobacionUsuario": "PENDIENTE"
+  },
+  "controlLoteJuridico20261106": {
+    "fecha": "2026-11-06",
+    "modo": "REFUERZO_FOCAL_NO_CIERRE",
+    "temasAnalizados": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "seccionesNuevasManual": "18.1–18.2",
+    "fundamento": "LPAC arts 24 30 31 43",
+    "preguntasNuevas": 4,
+    "alternativas": 16,
+    "ids": "UC3M-JUR-20261106-001..004",
+    "recurso": "data/uc3m-repaso-juridico-t02-t07-20261106.json",
+    "bancoOriginalSinModificar": true,
+    "certificacionLegislativaIntegral": false,
+    "certificacionNavegador": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
   }
 }
