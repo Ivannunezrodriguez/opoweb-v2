@@ -1,6 +1,6 @@
 {
   "tema": 11,
-  "estado": "BANCO_20_PREGUNTAS_REVISADO",
+  "estado": "AUDITADO",
   "version": "2026-11-05",
   "criterio": "20 preguntas originales de cuatro opciones con fundamentación de artículo individual cotejada con LGT y TRLRHL; no se ejecutó interfaz de navegador. · 05/11/2026: tres redundancias reemplazadas por LGT 104.1 (6 meses), TRLRHL 7.2 (publicación delegación) y TRLRHL 9.1 (bonificación máxima 5%); 20 IDs y claves conservados.",
   "preguntas": [
@@ -293,5 +293,12 @@
       "LGT 35, 58 y 59"
     ],
     "resultado": "Cotejo individual de enunciado, opción correcta y artículo de referencia; manual todavía no certificado."
+  },
+  "cierreEditorialC2_11_13_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
   }
 }

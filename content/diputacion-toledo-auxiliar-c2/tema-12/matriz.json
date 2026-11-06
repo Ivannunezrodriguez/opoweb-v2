@@ -2,8 +2,8 @@
   "tema": 12,
   "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
   "epigrafeOficial": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.",
-  "estadoEditorial": "EN_REVISION_USUARIO",
-  "estadoControl": "MATRIZ_DOCUMENTAL_CREACION_20261104_PENDIENTE_COTEJO_INTEGRAL",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE",
   "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
   "fuentesPrimarias": [
     "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
@@ -74,5 +74,20 @@
       "DT-C2-T12-017"
     ],
     "respuestaCorrectaConservada": true
+  },
+  "cierreEditorialC2_11_13_20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AUDITADO_DOCUMENTAL",
+    "normas": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662"
+    ],
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-11-13-2026-11-06.md"
   }
 }

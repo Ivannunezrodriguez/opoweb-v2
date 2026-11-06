@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 11
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Auditoría jurídico-editorial 06/11/2026: AUDITADO documental.** Cotejo del programa oficial, fuentes tributarias consolidadas, plazos, obligados y **20 preguntas / 80 alternativas** del informe previo de **05/11/2026**. La revisión funcional de web/móvil/WCAG/PWA queda pendiente. [Informe de bloque](../cierre-editorial-c2-11-13-2026-11-06.md).
 
 **ESTADO EDITORIAL: CONTENIDO COMPLETO. REVISIÓN DOCUMENTAL 29/10/2026.**
 
@@ -1194,3 +1194,51 @@ Fuentes: [TRLRHL consolidado (última actualización **07/10/2026**)](https://ww
 
 > ⚠️ **¡Foco Examen!:** **LGT 104.1 seis meses** ≠ **LPAC 21.3 tres meses**. **5 %** es bonificación **máxima potestativa**, no automática; **Pleno + publicación en dos boletines** para delegar facultades fiscales.
 
+
+
+## Cierre legal por apartados y casos de examen — **06/11/2026**
+
+Fuentes primarias consultadas directamente: [**TRLRHL, RDL 2/2004**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) (**última actualización publicada el 07/10/2026**) y [**LGT, Ley 58/2003**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186) (**última actualización publicada el 21/12/2024**). Sus textos consolidados son **informativos**: prevalece la publicación normativa original. El epígrafe exige **principios, delegación, colaboración, beneficios y compensación, obligaciones, obligados, procedimientos de gestión y extinción**.
+
+### Delegación y colaboración: no son equivalentes
+
+| Operación | Quién actúa y con qué requisitos | Referencia |
+|---|---|---|
+| **Delegación tributaria** | **Pleno** de la entidad local delegante adopta acuerdo con alcance y contenido; la entidad receptora lo **acepta por su órgano de gobierno**, siempre **Pleno** si es otra entidad local | **TRLRHL art. 7.1–2** |
+| **Publicidad de la delegación aceptada** | **Boletín Oficial de la Provincia** y **Boletín Oficial de la Comunidad Autónoma**, para general conocimiento | **TRLRHL art. 7.2** |
+| Facultades delegables | **Gestión, liquidación, inspección y recaudación**, también de otros ingresos públicos en los términos del artículo | **TRLRHL art. 7.1** |
+| **Colaboración** | **Estado, comunidades autónomas y entidades locales** comparten información y asistencia tributaria según normas, sin traslación automática de titularidad de facultades | **TRLRHL art. 8** |
+| Beneficios fiscales locales | Los autorizados por **ley** o **tratado**, además de ordenanzas en casos habilitados expresamente | **TRLRHL art. 9.1** |
+| Bonificación domiciliación/anticipo/colaboración | Hasta **5 % de la cuota**, únicamente cuando la **ordenanza fiscal** establezca condiciones | **TRLRHL art. 9.1** |
+
+> ⚠️ **¡Foco Examen!:** **Delegar** implica acuerdo del **Pleno**, aceptación y **publicación en dos boletines**; la **colaboración** no exige que una Administración ceda titularidad competencial. El **5 %** es **máximo potestativo**, no rebaja automática.
+
+### Obligación tributaria, deuda y caducidad/prescripción
+
+| Figura | Qué comprende | Artículo |
+|---|---|---|
+| Obligación principal | **Pago de la cuota tributaria** | **LGT 19** |
+| Obligaciones accesorias | **Intereses de demora** y **recargos** legales | **LGT 25–28** |
+| Deuda tributaria | **Cuota**, intereses y recargos en los supuestos legalmente exigibles | **LGT 58.1–2** |
+| **Sanción tributaria** | **No integra la deuda tributaria**, aunque se recaude aplicando su normativa | **LGT 58.3** |
+| **Contribuyente** | Sujeto pasivo que **realiza el hecho imponible** | **LGT 36.2** |
+| **Sustituto** | Sujeto pasivo que por **imposición legal** cumple en lugar del contribuyente | **LGT 36.3** |
+| Extinción de deuda | **Pago, prescripción, compensación, condonación** en los supuestos legales y otros medios previstos | **LGT 59** |
+| Prescripción ordinaria | **4 años**, con inicio del cómputo distinto por derecho prescriptible y causas de interrupción | **LGT 66–68** |
+| Resolver procedimiento tributario sin plazo especial | **6 meses**, excepto **apremio** y plazos establecidos por ley o normativa de la UE | **LGT 104.1** |
+
+> ⚠️ **¡Foco Examen!:** **6 meses** es el plazo supletorio del procedimiento **tributario** (**LGT 104.1**) y **3 meses** el del procedimiento administrativo común (**Ley 39/2015 art. 21.3**). La regla **LGT 104.1 excluye el procedimiento de apremio**: no confundirlo con caducidad general.
+
+### Procedimientos de gestión tributaria
+
+| Actuación | Regla de clasificación | Fundamento |
+|---|---|---|
+| **Declaración tributaria** | Se comunican hechos relevantes; no implica necesariamente autoliquidar | **LGT art. 119** |
+| **Autoliquidación** | El obligado **cuantifica** la deuda o resultado procedente, según ley | **LGT art. 120** |
+| **Comprobación limitada** | Procedimiento de **gestión tributaria** con facultades y límites de su regulación | **LGT arts. 123 y 136–140** |
+| **Procedimiento de verificación de datos** | Supuestos tasados de comprobación administrativa | **LGT arts. 123 y 131–133** |
+| **Procedimiento de inspección** | No convertirlo en sinónimo de gestión limitada; tiene regulación y facultades propias | **LGT, título III, capítulo IV** |
+
+> ⚠️ **¡Foco Examen!:** **Declaración** no es automáticamente **autoliquidación**. **Comprobación limitada** pertenece a gestión; no atribuirle sin más todas las facultades de inspección.
+
+**Trazabilidad:** el cotejo previo por alternativa de los **20 ítems y 80 opciones** se mantiene en [cotejo 05/11](cotejo-integral-2026-11-05.md). [Cierre temático 11–13](../cierre-editorial-c2-11-13-2026-11-06.md). **No** se han cambiado IDs, enunciados, opciones ni claves.

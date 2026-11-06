@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 13
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Auditoría jurídico-editorial 06/11/2026: AUDITADO documental.** Contraste de los **cinco incisos oficiales** y de los sujetos pasivos de IBI, IAE, IVTM e IIVTNU; banco anterior de **20 preguntas / 80 alternativas** ya cotejado individualmente el **05/11/2026**. La prueba funcional integral de la web queda pendiente. [Informe](../cierre-editorial-c2-11-13-2026-11-06.md).
 
 **ESTADO EDITORIAL: CONTENIDO COMPLETO — cotejo jurídico con TRLRHL actualizado 07/10/2026.**
 
@@ -901,3 +901,50 @@ Puede quedar no sujeta cuando encaja en los supuestos del artículo 104.3.
 
 El informe acredita **cotejo individual de las 80 alternativas**, no certificación total del contenido del manual, navegador o accesibilidad; **EN_REVISION_USUARIO** para el resto.
 
+
+
+## Cierre de tributos municipales y sujetos pasivos — **06/11/2026**
+
+**Norma primaria cotejada:** [**TRLRHL, RDL 2/2004, texto consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), última actualización publicada **07/10/2026**. La revisión de los incisos oficiales se concentra en la **naturaleza, hecho imponible y sujetos pasivos**, con los artículos **15–19, 56–59, 60–64, 78–83, 92–94 y 104–106**; las referencias a tarifas o coeficientes fuera de estos apartados se presentan como complemento, no núcleo.
+
+### Tributos e imposición: distinciones básicas
+
+| Tributo municipal | Exacción | Norma y hecho típico |
+|---|---|---|
+| **IBI** | **Obligatoria** | **Tributo directo de carácter real** que grava el valor de inmuebles, **arts. 59.1, 60–61** |
+| **IAE** | **Obligatoria** | **Tributo directo de carácter real**: mero ejercicio en España de actividad empresarial, profesional o artística, **arts. 59.1, 78** |
+| **IVTM** | **Obligatoria** | **Tributo directo** sobre titularidad de vehículos aptos para circular en vías públicas, **arts. 59.1, 92** |
+| **ICIO** | **Potestativa** | Impuesto sobre construcciones, instalaciones y obras, **art. 59.2** |
+| **IIVTNU** | **Potestativa** | **Tributo directo** sobre incremento de valor de terreno urbano puesto de manifiesto al transmitir o constituir/transmitir determinados derechos reales, **arts. 59.2, 104** |
+| **Ordenanzas fiscales** | Exposición pública de acuerdos provisionales por **mínimo 30 días** | **Art. 17.1**; tras aprobación definitiva se publican conforme al artículo |
+
+> ⚠️ **¡Foco Examen!:** **IBI, IAE e IVTM** son impuestos **obligatorios**; **ICIO e IIVTNU** son **potestativos**. La potestad de establecer impuestos no convierte todo tributo en potestativo, ni convierte **tasa** y **contribución especial** en impuestos.
+
+### Sujetos y modalidades de IBI, IAE e IVTM
+
+| Impuesto | Supuesto | Regla de identificación |
+|---|---|---|
+| **IBI**, mismo inmueble y varios derechos | Orden preferente: **concesión administrativa → superficie → usufructo → propiedad** | **Art. 61.1–2**: realizado un hecho imponible, los siguientes no se realizan para ese inmueble, con especialidad para características especiales |
+| **IBI**, contribuyente | Persona o entidad titular del **derecho que realiza el hecho imponible** | **Art. 63.1**; no atribuirlo siempre al propietario si hay usufructo |
+| **IAE**, persona física con actividad | **Sujeto**, pero **exento** por art. **82.1.c** | La exención **no es no sujeción** |
+| **IAE**, entidades con cifra de negocios | Umbral **INCN inferior a 1.000.000 €** en supuestos y reglas legales, incluso grupos de control | **Art. 82.1.c**, con reglas de cómputo |
+| **IVTM**, vehículo apto | Sujeto pasivo: titular registral indicado en **permiso de circulación** | **Art. 94**; no el conductor ocasional |
+| **IVTM**, remolques y semirremolques | **No sujetos** los arrastrados por vehículos de tracción mecánica cuya **carga útil no supera 750 kg** | **Art. 92.3.b**: incluye **750 kg exactos** |
+
+> ⚠️ **¡Foco Examen!:** **Exento** de IAE no significa **no sujeto**. En el **IBI**, un **usufructo** puede desplazar la propiedad; en el **IVTM**, **750 kg exactos de carga útil** queda en la hipótesis de **no sujeción**.
+
+### IIVTNU: terreno, operación y sustituto
+
+| Acto o situación | Naturaleza del supuesto | Sujeto pasivo o efecto |
+|---|---|---|
+| Transmisión de terreno **rústico a efectos del IBI** | **No sujeción**, **104.2** | No confundir con exención de suelo urbano |
+| **Inexistencia de incremento** acreditada por procedimiento legal | **No sujeción**, **104.5** | Causa diferente del carácter rústico del suelo |
+| Transmisión **lucrativa** de terreno urbano | Herencia o donación, si sujeta | Contribuyente **adquirente / beneficiario**, **106.1.a** |
+| Transmisión **onerosa** de terreno urbano | Compraventa, si sujeta | Contribuyente **transmitente**, **106.1.b** |
+| Transmisión onerosa con transmitente **persona física no residente** | Supuesto legal de **sustitución** | **Adquirente** como **sustituto del contribuyente**, **106.2** |
+
+La [actualización del **07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) incluye cambios de la ley fuera de esta parte nuclear; deben distinguirse **fecha de publicación**, **entrada en vigor** y **efectos tributarios** cuando se estudien tipos y coeficientes del IBI/IIVTNU.
+
+> ⚠️ **¡Foco Examen!:** **Lucrativa = adquirente**; **onerosa = transmitente**, excepto sustituto del adquirente cuando el transmitente oneroso es **persona física no residente**. La **no sujeción por terreno rústico (104.2)** y por **incremento inexistente (104.5)** se prueban por fundamentos distintos.
+
+**Banco verificado antes** en [informe individual 05/11](cotejo-integral-2026-11-05.md): **20 preguntas / 80 alternativas** con claves preservadas, sin alteraciones en este lote. [Informe de cierre 11–13](../cierre-editorial-c2-11-13-2026-11-06.md). No se simula auditoría en navegador real.

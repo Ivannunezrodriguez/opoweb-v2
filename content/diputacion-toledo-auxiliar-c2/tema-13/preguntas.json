@@ -1,6 +1,6 @@
 {
   "tema": 13,
-  "estado": "BANCO_20_PREGUNTAS_TRLRHL",
+  "estado": "AUDITADO",
   "version": "2026-11-05",
   "criterio": "20 preguntas originales con referencia individual al TRLRHL consolidado 07/10/2026, sometidas a revisión editorial; banco estructuralmente validado. · 05/11/2026: 3 preguntas repetidas sustituidas por impuestos potestativos art59.2, prelación IBI art61.1–2 y terreno rústico no sujeto a IIVTNU art104.2; claves conservadas.",
   "preguntas": [
@@ -304,5 +304,12 @@
     "preguntasRevisadas": 8,
     "resultado": "Se mantienen seis preguntas contrastadas y se sustituyen dos redundantes por IBI prelación y sujeto pasivo IIVTNU; se precisa la acreditación de no incremento.",
     "limitacion": "Auditoría del banco del tema 13, no certificación integral de su manual. Rutas web de artículos deben seguirse revisando antes de examen."
+  },
+  "cierreEditorialC2_11_13_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
   }
 }

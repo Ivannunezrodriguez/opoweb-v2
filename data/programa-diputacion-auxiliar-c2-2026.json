@@ -198,32 +198,59 @@
     {
       "numero": 11,
       "titulo": "Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-11/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-11/fuentes.md",
       "notaEditorial": "Cierre documental 29/10/2026; TRLRHL actualizado 07/10/2026, LGT consolidada, manual de principios, delegación, colaboración, obligaciones, obligados, gestión y extinción con 20 preguntas. Control funcional del navegador pendiente.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-11/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-11/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-11/matriz.json",
+      "cierreEditorialC2_11_13_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_DOCUMENTAL",
+        "preguntas": 20,
+        "alternativas": 80,
+        "clavesAlteradas": 0,
+        "certificacionIntegral": false,
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-11-13-2026-11-06.md"
+      }
     },
     {
       "numero": 12,
       "titulo": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-12/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-12/fuentes.md",
       "notaEditorial": "Cierre editorial 29/10/2026: recaudación voluntaria, aplazamiento/fraccionamiento, compensación, devoluciones y apremio; LGT/TRLRHL/RGR/RD 520/2005, tablas de plazos y recargos, 20 preguntas. Prueba funcional de interfaz pendiente como control transversal.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-12/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-12/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-12/matriz.json",
+      "cierreEditorialC2_11_13_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_DOCUMENTAL",
+        "preguntas": 20,
+        "alternativas": 80,
+        "clavesAlteradas": 0,
+        "certificacionIntegral": false,
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-11-13-2026-11-06.md"
+      }
     },
     {
       "numero": 13,
       "titulo": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivo.",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/diputacion-toledo-auxiliar-c2/tema-13/manual.md",
       "fuentes": "content/diputacion-toledo-auxiliar-c2/tema-13/fuentes.md",
       "notaEditorial": "Manual completo cinco bloques sobre impuestos locales contrastado con TRLRHL última actualización publicada 07/10/2026; tablas de hecho imponible/sujetos pasivos, casos prácticos y 20 preguntas originales. Cierre editorial 29/10/2026.",
       "preguntas": "content/diputacion-toledo-auxiliar-c2/tema-13/preguntas.json",
-      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-13/matriz.json"
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-13/matriz.json",
+      "cierreEditorialC2_11_13_20261106": {
+        "fecha": "2026-11-06",
+        "estado": "AUDITADO_DOCUMENTAL",
+        "preguntas": 20,
+        "alternativas": 80,
+        "clavesAlteradas": 0,
+        "certificacionIntegral": false,
+        "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-11-13-2026-11-06.md"
+      }
     },
     {
       "numero": 14,
@@ -370,13 +397,16 @@
       8,
       9,
       10,
+      11,
+      12,
+      13,
       17,
       18,
       19,
       20
     ],
-    "temasAuditadosCantidad": 13,
-    "pendientes": 7,
+    "temasAuditadosCantidad": 16,
+    "pendientes": 4,
     "bloqueadoOAPGT": [
       6
     ],
@@ -396,5 +426,19 @@
     "clavesAlteradas": 0,
     "certificacionIntegral": false,
     "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-07-10-2026-11-06.md"
+  },
+  "cierreEditorialC2_11_13_20261106": {
+    "fecha": "2026-11-06",
+    "temas": [
+      11,
+      12,
+      13
+    ],
+    "temasAuditados": 3,
+    "preguntas": 60,
+    "alternativas": 240,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-11-13-2026-11-06.md"
   }
 }

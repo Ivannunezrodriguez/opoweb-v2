@@ -31,3 +31,10 @@
 
 > ⚠️ **¡Foco Examen!:** **LGT = seis meses** por defecto de plazo de resolución; **LPAC = tres**. La bonificación local de **hasta 5 %** del **art. 9.1** exige **ordenanza fiscal**.
 
+
+
+## Verificación final de fuente y cobertura — **06/11/2026**
+
+- [**TRLRHL, BOE consolidado 07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): **arts. 6–9**; **Pleno** de la entidad local delegante y aceptación por **Pleno** de otra entidad local, publicidad **BOP y boletín autonómico**; beneficios fiscales potestativos limitados por autorización legal, incluida bonificación máxima **5 %** del art. 9.1.
+- [**LGT, BOE consolidado 21/12/2024**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186): **arts. 17–29, 35–48, 58–76, 104 y 117–140**; deuda, sanción fuera de deuda, prescripción **4 años**, plazo supletorio **6 meses** con **excepción de apremio**.
+- **Banco previo:** [cotejo individual de **20 preguntas / 80 alternativas, 05/11/2026**](cotejo-integral-2026-11-05.md). Ninguna clave modificada en este cierre. [Informe 11–13](../cierre-editorial-c2-11-13-2026-11-06.md). **AUDITADO documental; certificación integral no acreditada**.

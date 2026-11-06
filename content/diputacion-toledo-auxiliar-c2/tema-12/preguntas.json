@@ -1,6 +1,6 @@
 {
   "tema": 12,
-  "estado": "BANCO_20_PREGUNTAS_CON_FUNDAMENTO",
+  "estado": "AUDITADO",
   "version": "2026-11-05",
   "criterio": "20 preguntas originales con respuestas, argumentos y referencias LGT; revisión documental pendiente de auditoría final integral del manual. · 05/11/2026: 4 preguntas redundantes reemplazadas por LGT 62.3 recibos periódicos, 167.3 oposición, 32.2 intereses de ingreso indebido y 72 compensación a instancia. Misma clave e IDs.",
   "preguntas": [
@@ -301,5 +301,12 @@
     "preguntasRevisadas": 8,
     "resultado": "8 cotejadas; pregunta 8 y varias justificaciones precisadas para reflejar excepción y plazos",
     "limitacion": "Auditoría del banco de preguntas, no del manual ni del reglamento de recaudación íntegros."
+  },
+  "cierreEditorialC2_11_13_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
   }
 }

@@ -38,3 +38,11 @@
 
 > ⚠️ **¡Foco Examen!:** No confundir **LGT 62.2 (liquidaciones)**, **62.3 (cobro periódico)**, y **62.5 (apremio)**. **5 % / 10 % / 20 %** tienen condiciones legales diferentes.
 
+
+
+## Cierre documental del programa — **06/11/2026**
+
+- [**TRLRHL**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), última actualización publicada **07/10/2026**; [**LGT**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186), **21/12/2024**; [**RGR**](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803), **31/01/2024**; [**RD 520/2005**](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662) sobre devolución de ingresos indebidos.
+- **Art. 62.1/2/3/5 LGT:** **autoliquidaciones** según su tributo; **liquidaciones 20 mes siguiente o 5 del segundo**; colectivos **septiembre–noviembre** con período alterable **mínimo 2 meses**; providencias **20 mismo mes / 5 siguiente**.
+- **Art. 28 LGT:** **5/10/20 %** alternativos; **art. 161.2** excepción a efecto protector de solicitud repetida tras denegación; **art. 32.2** intereses de devoluciones indebidas; **art. 167.3** oposición limitada; **art. 169** proporcionalidad del embargo.
+- Cotejo anterior de **20 preguntas / 80 alternativas** [verificado por opción 05/11/2026](cotejo-integral-2026-11-05.md); **ninguna modificación de respuestas en este cierre**. [Informe de bloque](../cierre-editorial-c2-11-13-2026-11-06.md). **Sin certificación funcional de navegación o accesibilidad**.

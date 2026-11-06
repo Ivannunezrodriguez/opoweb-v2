@@ -36,3 +36,11 @@ Se revalidaron contra el [**TRLRHL (arts. 61.5.b, 62.1.b y 82.1.c, regla 3.ª)**
 
 > ⚠️ **¡Foco Examen!:** **IIVTNU lucrativa = adquirente**, **onerosa = transmitente**, con sustitución del adquirente cuando el transmitente oneroso es **persona física no residente**, **art. 106**.
 
+
+
+## Cotejo final de programa y ley publicada — **06/11/2026**
+
+- [**TRLRHL, última actualización publicada el 07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), arts. **15–19, 56–59, 60–64, 78–83, 92–94 y 104–106**. Impuestos **IBI/IAE/IVTM obligatorios**; **ICIO/IIVTNU potestativos**.
+- **IBI**: derechos por prelación del **art. 61.1**, titular contribuyente **art. 63.1**; **IAE**: personas físicas **sujetas pero exentas**, umbral **INCN <1.000.000 €** con reglas de grupo; **IVTM**: no sujeción de remolques con **carga útil ≤750 kg**.
+- **IIVTNU**: **104.2** terreno rústico no sujeto y **104.5** ausencia de incremento; **106.1** lucrativa/adquirente y onerosa/transmitente; **106.2** sustituto del adquirente si transmitente oneroso **persona física no residente**.
+- Banco de **20 preguntas y 80 alternativas** [cotejado opción a opción el 05/11/2026](cotejo-integral-2026-11-05.md); **ningún ID, opción ni clave modificado** ahora. [Informe del bloque](../cierre-editorial-c2-11-13-2026-11-06.md). Cierre **AUDITADO documental**, pendiente certificación funcional de web.

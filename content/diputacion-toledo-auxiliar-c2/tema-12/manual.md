@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 12
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Auditoría jurídico-editorial 06/11/2026: AUDITADO documental.** Revisión del régimen de pago, aplazamiento, compensación, devoluciones y apremio; **20 preguntas / 80 alternativas** cotejadas antes el **05/11/2026** y preservadas. La certificación funcional de la aplicación sigue pendiente. [Informe de bloque](../cierre-editorial-c2-11-13-2026-11-06.md).
 
 **ESTADO EDITORIAL: CONTENIDO COMPLETO REVISADO — 29/10/2026.**
 
@@ -1286,3 +1286,46 @@ Son recargos **incompatibles entre sí**. Las **costas del procedimiento**, si p
 
 **Estado** del banco: **COTEJO_BANCO_COMPLETO**. No implica certificación de todo el manual, navegador, accesibilidad ni aprobación final del usuario.
 
+
+
+## Revalidación jurídica de recaudación y apremio — **06/11/2026**
+
+**Fuentes vigentes consultadas:** [**TRLRHL**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), actualización publicada **07/10/2026**; [**LGT**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186), actualización publicada **21/12/2024**; [**RGR, RD 939/2005**](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803), actualización publicada **31/01/2024**; y [**Reglamento de revisión tributaria, RD 520/2005**](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662). El tema oficial distingue **voluntaria**, **aplazamiento/fraccionamiento y compensación**, **devoluciones** y **ejecutiva/apremio**.
+
+### Comparativa de plazos LGT art. 62: liquidación, recibo y providencia
+
+| Supuesto | Hecho inicial | Fin del plazo general, salvo normativa especial |
+|---|---|---|
+| **Liquidación administrativa**, notificada días **1–15** | Recepción de **liquidación** | **20 del mes siguiente**, o primer hábil siguiente, **art. 62.2.a** |
+| **Liquidación administrativa**, notificada días **16–fin** | Recepción de **liquidación** | **5 del segundo mes siguiente**, o primer hábil siguiente, **art. 62.2.b** |
+| **Recibo colectivo y periódico** | Período general del tributo sin regla especial | **1 de septiembre a 20 de noviembre** (o hábil posterior); Administración puede alterar el período con duración **mínima de 2 meses**, **art. 62.3** |
+| **Providencia de apremio**, notificada días **1–15** | Recepción de **providencia** | **20 del mismo mes**, o primer hábil siguiente, **art. 62.5.a** |
+| **Providencia de apremio**, notificada días **16–fin** | Recepción de **providencia** | **5 del mes siguiente**, o primer hábil siguiente, **art. 62.5.b** |
+| **Autoliquidación** | Plazo de la normativa de **cada tributo** | No sustituir por los calendarios de liquidaciones anteriores, **art. 62.1** |
+
+> ⚠️ **¡Foco Examen!:** **20 del mes siguiente** para liquidación notificada en primera quincena no es **20 del mismo mes** para providencia. El plazo de **2 meses** es la **duración mínima** de un período alternativo de tributos periódicos, no el plazo de todas las deudas.
+
+### El recargo correcto se fija por el momento y por cuánto se ingresa
+
+| Situación desde inicio del ejecutivo | Recargo del **art. 28 LGT** | Intereses ejecutivos |
+|---|---|---|
+| Se paga toda la deuda **antes de notificar providencia** | **5 % ejecutivo** | **No** se exige el interés devengado **desde inicio ejecutivo** |
+| Se paga toda la deuda y el propio recargo **dentro de art. 62.5** | **10 % de apremio reducido** | **No** se exige el interés devengado **desde inicio ejecutivo** |
+| No concurren las condiciones anteriores | **20 % de apremio ordinario** | Compatible con **intereses de demora** |
+
+Estos tres recargos son **incompatibles entre sí**. La entrada en **período ejecutivo** se produce por ministerio de la ley conforme al **art. 161**, pero el **procedimiento de apremio** comienza con la **providencia notificada** del **art. 167**. Una solicitud de aplazamiento, fraccionamiento o compensación durante **voluntaria** impide ordinariamente el inicio del ejecutivo **durante su tramitación**, con la **excepción de nueva solicitud tras denegación previa y nuevo plazo incumplido** del **art. 161.2**.
+
+> ⚠️ **¡Foco Examen!:** **5/10/20 %** son **alternativos**, no recargos acumulables. La **providencia** no crea retrospectivamente el inicio del **período ejecutivo**; marca el procedimiento. No afirmar que cualquier solicitud reiterada impide siempre ese inicio: comprobar la excepción del **161.2**.
+
+### Devoluciones y compensación, cuatro situaciones distintas
+
+| Procedimiento | Condición o cómputo | Precepto |
+|---|---|---|
+| Devolución derivada de normativa del tributo | Por **mecánica legal del tributo** y resultado a devolver | **LGT 31** |
+| Devolución de **ingreso indebido** | Restituye importe que no debió abonarse; **interés de demora de oficio** desde pago indebido hasta orden de devolución, según régimen aplicable | **LGT 32 y 221** |
+| Compensación a instancia del obligado | Puede pedirse **en voluntaria o ejecutiva**, con crédito reconocido y requisitos procedentes | **LGT 71–72** |
+| Motivos de oposición a providencia | **Causas tasadas**: entre ellas extinción total/prescripción, aplazamiento/fraccionamiento/compensación u otra suspensión legal, falta de notificación liquidación, anulación liquidación y error u omisión que impida identificar deuda o deudor | **LGT 167.3** |
+
+> ⚠️ **¡Foco Examen!:** La **devolución indebida** y la **devolución ordinaria derivada del tributo** tienen títulos distintos. En el **art. 167.3** no se discute sin límites todo el fondo de una liquidación ya firme: solo motivos **taxativos** contra la providencia.
+
+**Cotejo anterior por opción:** [Informe 05/11/2026](cotejo-integral-2026-11-05.md) de **20 preguntas y 80 alternativas** con cuatro distractores sustituidos en esa fecha. **No** se cambian en este cierre enunciados, claves ni IDs. [Informe de cierre 11–13](../cierre-editorial-c2-11-13-2026-11-06.md). La auditoría funcional real queda separada.
