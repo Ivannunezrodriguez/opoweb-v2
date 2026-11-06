@@ -268,3 +268,10 @@ La Universidad debe aprobar un calendario de extinción que regule convocatorias
 [**12 preguntas nuevas de los temas 16 y 17, 48 alternativas y explicaciones por artículo**](../REPASO_NORMATIVA_2026_T16_T17_20261106.md). Este recurso desarrolla el [**BOEL de 22/01/2026**](https://sede.uc3m.es/boel/anexo/11307/); no se mezcla con el **banco principal de 21 preguntas** ni con los simulacros **70+5**.
 
 > ⚠️ **¡Foco Examen!:** Reconocimiento por FP: **25 %** del grado; actividades universitarias: **6 ECTS** ordinarios con excepciones hasta **10 %** del plan; plazo posterior a **15/09: 90 días** y actividades específicas **30 días**.
+
+
+## Cierre documental de enseñanzas y régimen académico — **06/11/2026**
+
+[**Acta de cierre T16 con reservas y fuentes**](../CIERRE_DOCUMENTAL_T16_20261106.md): **7 bloques** de programa, **21 preguntas históricas/84 alternativas** y **6 complementarias/24 alternativas**. Se han precisado las referencias del **BOEL UC3M de 22/01/2026** en los seis ejercicios nuevos y se distingue la **nulidad del RD 905/2025** de la continuidad del **RD 822/2021**. La fecha oficial primaria del corte de la **base primera.7** y las pruebas E2E/móvil/WCAG/PWA permanecen pendientes. No sustituye el banco anterior ni altera los simulacros **70+5**.
+
+> ⚠️ **¡Foco Examen!:** No atribuir la **nulidad íntegra del RD 822/2021** a una sentencia que anuló el **RD 905/2025**, ni aplicar al examen automáticamente un cambio posterior a la fecha oficial de corte.
