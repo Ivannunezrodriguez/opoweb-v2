@@ -155,6 +155,36 @@ La calificación de **No Presentado** se aplica, conforme a la información UC3M
 - **Reconocimiento**: los créditos aceptados computan para la obtención del nuevo título.
 - **Transferencia**: los créditos superados constan en el expediente, pero no sustituyen créditos del nuevo plan.
 
+### 14.1. Nueva normativa UC3M de reconocimiento y transferencia (BOEL **22/01/2026**)
+
+El **Consejo de Gobierno** aprobó el **11/12/2025** una nueva **Normativa sobre reconocimiento y transferencia de créditos académicos**, publicada en el **Boletín Oficial Electrónico de la UC3M de 22/01/2026**, con entrada en vigor **al día siguiente de la publicación**. **Deroga** la normativa de reconocimiento, convalidación y transferencia aprobada el **25/02/2010**. Se aplica a **Grado, Máster Universitario y Doctorado** en sus respectivos procedimientos.
+
+**Fuente institucional primaria:** [**BOEL de 22 de enero de 2026, anexo 3, páginas 20–40**](https://sede.uc3m.es/boel/anexo/11307/). Esta norma interna **complementa** el **RD 822/2021**: no lo sustituye.
+
+| Regla | Cifra, órgano o consecuencia | Artículo de la normativa UC3M |
+|---|---|---|
+| Formación básica de grados del **mismo campo de estudio** | Se reconocen los créditos superados de ese campo **hasta completar** los previstos por el plan UC3M; eventuales excedentes requieren valoración de adecuación. | **4.2–4.4** |
+| **Trabajo Fin de Estudios** | **No reconocible**, salvo aquellos desarrollados **específicamente en programas de movilidad**. | **4.5** |
+| Actividades universitarias culturales, deportivas, solidarias, de cooperación y representación | **6 ECTS optativos**, con carácter general; el plan puede prever más, **sin exceder el 10 % del total** del plan, de acuerdo con su memoria. | **14.1–14.3** |
+| Estudios de **FP de grado superior** | Reconocimiento mediante convenio; **máximo 25 %** de la carga crediticia del grado, condicionado al máximo de su memoria verificada. | **15** |
+| Solicitudes por otros grados españoles o extranjeros | Los plazos de presentación deben comprender **al menos del 1 de julio al 15 de septiembre** de cada año; también para estudios de otros grados UC3M. | **16.3** |
+| Resolución de solicitudes presentadas entre **1/7 y 15/9** | **Antes del 1 de noviembre** del año correspondiente. | **19.2** |
+| Solicitudes presentadas después de **15/9** | Resolución en **90 días** desde la solicitud. | **19.2** |
+| Reconocimiento por actividades culturales, deportivas, solidarias y de cooperación | Tramitación, con carácter general, en **máximo 30 días** desde su presentación. | **20.1** |
+| Competencia para resolver reconocimiento de **Grado** | **Decano/a de Facultad** o **Director/a de Escuela**, con la excepción procedimental del **art. 20** para actividades. | **19.1** |
+| Recurso contra resolución de reconocimiento | **Alzada ante el Rector o Rectora** conforme a **Ley 39/2015**. | **21** |
+
+> ⚠️ **¡Foco Examen!:** Distingue **6 ECTS** (actividades, regla general), **10 %** (techo excepcional de esas actividades conforme al plan) y **25 %** (máximo del reconocimiento por **FP superior**). **Antes del 1 de noviembre**, **90 días** y **30 días** son **tres plazos diferentes**, no intercambiables.
+
+### 14.2. Reconocimiento y transferencia: diferencia jurídica tras la norma de 2026
+
+- **Reconocimiento:** aceptación de créditos anteriores para cumplir créditos del título de destino; las asignaturas que se reconocen quedan determinadas por el **órgano resolutor**, y la resolución tiene consecuencias académicas sobre el plan.
+- **Transferencia:** constancia en el expediente y el **Suplemento Europeo al Título** de los créditos de enseñanzas universitarias oficiales anteriores **que no hayan conducido a un título universitario oficial** y sin atribuirles automáticamente la función del reconocimiento (**artículo 27**).
+- La **disposición adicional primera** prevé tramitación **de oficio** del reconocimiento ligado a procedimientos de admisión por estudios parciales de los **artículos 7.c y 7.d del RD 534/2024**, siguiendo la normativa específica de esos procedimientos.
+- La **disposición transitoria** mantiene para las solicitudes que estaban **en tramitación** el régimen vigente **en la fecha de su solicitud**; la nueva norma **no las convierte automáticamente** al régimen de enero de 2026.
+
+> ⚠️ **¡Foco Examen!:** **Transferencia ≠ reconocimiento**. Una solicitud anterior en curso no se rehace automáticamente al amparo de la nueva norma: rige la **disposición transitoria**. El **Trabajo Fin de Estudios** tiene una excepción de movilidad, por lo que la expresión «nunca reconocible en ningún caso» sería incorrecta.
+
 ## 15. Prácticas y trabajos fin de estudios
 
 Las prácticas pueden ser curriculares o extracurriculares. Solo las curriculares forman parte del plan de estudios y tienen asignación de créditos.
