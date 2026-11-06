@@ -213,3 +213,12 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 **Reservas:** sin fecha primaria corroborada del corte de legislación UC3M de **base primera.7**, sin navegador E2E, WCAG/PWA ni certificación jurídica integral o aprobación del usuario. No se alteran simulacros **70+5**. **Estado: cierre documental con reservas**, no tema definitivamente certificado.
 
 > ⚠️ **¡Foco Examen!:** **178.3** exige **mayoría absoluta de los presentes** para toma en consideración; **179.3** mayoría absoluta de **todos los miembros** del Claustro para aprobación final. La **queja ante Defensoría** no suspende automáticamente los recursos.
+
+
+## Cierre documental T16 · enseñanzas y régimen académico (06/11/2026)
+
+[**Acta T16**](CIERRE_DOCUMENTAL_T16_20261106.md): **7 bloques** de programa, **21 preguntas originales / 84 alternativas** cotejadas y **6 complementarias / 24 alternativas** con remisión al artículo del **BOEL de 22/01/2026**. En total **27 preguntas / 108 alternativas** de este tema, sin alterar bancos y simulacros originales. [**Prueba de cierre documental**](../../tests/validate-uc3m-cierre-t16-20261106.mjs).
+
+**Reserva esencial:** el **TS anuló el RD 905/2025** mediante fallo publicado **23/10/2026**, pero **no** el **RD 822/2021** completo. La **base primera.7** fija la normativa del examen a la publicación de listas definitivas y anuncio del ejercicio; **falta la resolución primaria fechada** para verificar el corte. Pendientes navegador E2E, WCAG/PWA y aprobación; estado **EN_REVISION_USUARIO**.
+
+> ⚠️ **¡Foco Examen!:** **25 %** de prácticas de Grado y **25 %** del máximo reconocible de FP tienen fundamentos distintos. **90 días** por reconocimiento tardío no son los **30 días** del procedimiento especial de actividades.
