@@ -14,7 +14,7 @@ for(const source of ['BOE-A-2018-16673','DOUE-L-2016-80807','BOE-A-2003-23186','
 }
 assert.ok(repaso.includes('REPASO_FINAL_T10_T14_20261106.md'));
 assert.ok(repaso.includes('**72 horas**')&&repaso.includes('**10 días**'));
-assert.ok(repaso.includes('**1 % + 1 %')&&repaso.includes('**20 %**'));
+assert.ok(repaso.includes('**1 % fijo + 1 % adicional')&&repaso.includes('**20 %**'));
 assert.ok(repaso.includes('05/11/2026')&&repaso.includes('05/10/2026'));
 assert.ok(repaso.includes('**1.000.000 € exactos**'));
 const sections=repaso.split(/^### Caso [1-8] · Tema (?:9|10|11|12)\s*$/m);
