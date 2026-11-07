@@ -17,7 +17,7 @@
 
 > ⚠️ **¡Foco Examen!:** **Delegación (art. 7)** y **colaboración (art. 8)** no son equivalentes; tampoco se puede crear una exención tributaria por ordenanza sin habilitación legal.
 
-**Pendiente:** revisión completa del banco y apartados de gestión; nueva secuencia normativa del TRLRHL ya registrada separadamente en temas **10 y 12**. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+**Nota histórica de 02/11/2026:** el banco y sus **48 alternativas** se cotejaron posteriormente el **04/11** ([informe por ID](cotejo-integral-2026-11-04.md)); la secuencia del **TRLRHL** de otoño de 2026 ya estaba documentada en T10/T12. Restan **pruebas funcionales reales y una revisión completa de vigencia al examen**; no mantener el banco como «sin revisar». [Registro editorial](../../../AUDITORIA_CONTINUA.md).
 
 ## Cotejo sustantivo del artículo 27 LGT — 02/11/2026
 
@@ -70,3 +70,10 @@ Se corrigieron `manual.md`, `preguntas.json`, explicación y fuente, conservando
 
 > ⚠️ **¡Foco Examen!:** No confundir **recargo extemporáneo art. 27** (1 % + meses) con **recargos ejecutivos art. 28** (**5 %, 10 %, 20 %**).
 
+
+
+## Fuentes de las dos escalas de recargo — **07/11/2026**
+
+[**Repaso con ocho casos T9–T12**](../REPASO_FOCAL_T09_T12_20261107.md); complementa el [**repaso T10–T14**](../REPASO_FINAL_T10_T14_20261106.md) anterior. [**LGT art. 27.2**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a27): declaración tardía sin requerimiento previo **1 % + 1 % por mes completo** hasta el régimen de **15 %** tras **12 meses**, con supuestos especiales; [**LGT art. 28**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28): recargos **5/10/20 %** en período ejecutivo con condiciones de providencia, ingreso e intereses. Se han precisado las **12 referencias oficiales** de ítems históricos conservando opciones/claves. [**TRLRHL consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) conserva la actualización publicada **07/10/2026**.
+
+> ⚠️ **¡Foco Examen!:** **Art. 27 extemporánea sin requerimiento previo ≠ art. 28 recargos ejecutivos**; no aplicar **5 %** si el supuesto pide **1 % + meses completos**.
