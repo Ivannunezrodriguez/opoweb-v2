@@ -143,5 +143,33 @@
     ],
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "certificacionIntegralCincoCapas": false
+  },
+  "controlFocal20261107": {
+    "fecha": "2026-11-07",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T09_T12_20261107.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T09_T12_20261107.md",
+    "prueba": "tests/validate-la-puebla-repaso-t09-t12-20261107.mjs",
+    "bloquesHistoricos": 7,
+    "preguntasHistoricas": 12,
+    "alternativasHistoricas": 48,
+    "referenciasPrecisadas": 12,
+    "microcasosMarkdown": 2,
+    "alternativasMicrocasos": 8,
+    "preceptosFoco": [
+      "LGT 62.2, 62.5, 65.5, 161, 167, 224 y 233",
+      "RD 520/2005 art 19"
+    ],
+    "trampa": "62.2 vs 62.5 por tipo de notificacion; 161 inicio ejecutivo vs 167 providencia",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "certificacionIntegral": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pruebaNavegadorReal": false,
+    "pendientes": [
+      "CI real en commit vigente",
+      "navegacion real movil WCAG PWA y progreso",
+      "revision legal articulo por articulo hasta examen",
+      "sin reabrir aprobacion historica del usuario"
+    ]
   }
 }
