@@ -17,7 +17,7 @@
 
 > ⚠️ **¡Foco Examen!:** El **20 del mes siguiente** es un plazo de liquidación en voluntaria, no el de providencia notificada en la primera quincena. Si el vencimiento cae inhábil, se traslada al **primer día hábil siguiente**. Las preguntas **LP-T11-002** y **LP-T11-003** ya se precisaron para no ocultar esta salvedad.
 
-**Pendiente:** cotejo completo de recargos y causas de oposición al apremio y su banco de preguntas. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+**Nota histórica de 02/11/2026:** los recargos, causas de oposición y las **12 respuestas con 48 alternativas** recibieron un cotejo de **04/11/2026**, [documentado por pregunta](cotejo-integral-2026-11-04.md). Siguen pendientes la **ejecución de pruebas reales y la certificación integral**, no el cotejo histórico del banco. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
 
 ## Cierre jurídico-editorial del **04/11/2026**
 
@@ -25,3 +25,10 @@
 
 > ⚠️ **¡Foco Examen!:** **Período ejecutivo** comienza al vencer voluntaria (**161**); **procedimiento de apremio** comienza mediante **providencia notificada** (**167**). No son la misma fecha.
 
+
+
+## Plazos comparados de notificación y procedimiento — **07/11/2026**
+
+[**Tabla visual y dos casos T11 dentro del repaso T9–T12**](../REPASO_FOCAL_T09_T12_20261107.md). El [**art. 62.2 LGT**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62) rige **liquidaciones**: **1–15 → 20 siguiente mes**, **16–fin → día 5 segundo mes posterior**; el **62.5** rige **providencias**: **1–15 → 20 mismo mes**, **16–fin → 5 mes siguiente**. Se han precisado **12 referencias oficiales del banco**, especialmente **LP-T11-002** como **62.2.a** y **LP-T11-003** como **62.5.b**, para impedir mezclarlas. **Art. 161** = inicio del período ejecutivo; **167.1** = inicio del procedimiento mediante providencia **notificada**; **65.5** permite continuar apremio durante tramitación de aplazamiento ejecutivo, con excepción de enajenaciones.
+
+> ⚠️ **¡Foco Examen!:** **Liquidación de 18/09/2026 → 05/11/2026**; **providencia de 18/09/2026 → 05/10/2026**. Si cae en día inhábil, **siguiente hábil**.
