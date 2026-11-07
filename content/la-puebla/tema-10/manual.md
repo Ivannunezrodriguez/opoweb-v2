@@ -1222,3 +1222,12 @@ El artículo 140 impide una segunda regularización del mismo objeto salvo hecho
 **Material complementario nuevo:** [**20 preguntas de examen originales, temas 10–14, con soluciones razonadas, cuatro opciones y norma por artículo**](../REPASO_FINAL_T10_T14_20261106.md). Incluye tablas de diferencias entre **plazos de ingreso, recargos del 5/10/20 %, impuestos sujetos y exentos, certificado cualificado máximo de 5 años, órganos y mayorías**. No sustituye el manual ni los bancos temáticos ya aprobados históricamente; tampoco equivale a certificación funcional del portal.
 
 > ⚠️ **¡Foco Examen!:** En el primer ejercicio de La Puebla hay **50 preguntas titulares + 5 reservas**, con **60 minutos**, **+0,20** por acierto y **−0,05** por error. Un entrenamiento de 20 preguntas **no** es un simulacro completo de convocatoria.
+
+
+## Control focal preexamen T10 — **07/11/2026**
+
+[**Repaso focal T9–T12, con casos de los arts. 27 y 28 LGT**](../REPASO_FOCAL_T09_T12_20261107.md) complementa sin duplicar el [**repaso T10–T14 ya publicado**](../REPASO_FINAL_T10_T14_20261106.md). Según la [**LGT art. 27.2**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a27), la autoliquidación extemporánea **sin requerimiento previo** genera **1 % + 1 % por mes completo** hasta 12 meses; después, **15 %**, con intereses en la fase prevista legalmente y excepciones. **Art. 28.2–5**: **5 %** ejecutivo antes de providencia, **10 %** apremio reducido si se ingresa deuda y recargo en plazo **62.5**, **20 %** apremio ordinario en demás supuestos, compatible con intereses. **No confundir declaración extemporánea y pago ejecutivo**.
+
+Se han añadido anclas oficiales a las **12 referencias de preguntas existentes** sin modificar el banco **APROBADO_USUARIO**, sus 48 alternativas ni simulacros. El contraste focal no equivale a certificación completa de toda la legislación tributaria municipal.
+
+> ⚠️ **¡Foco Examen!:** **Dos meses completos de retraso en declaración = 3 %** conforme **27.2**; **5/10/20 %** son condiciones del **28**, no una escala del 27.
