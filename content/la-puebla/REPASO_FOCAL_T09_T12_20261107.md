@@ -121,7 +121,7 @@
 
 ### Caso 5 · Tema 11
 
-**Pregunta:** Liquidación notificada el **18 de septiembre de 2026**. ¿Hasta qué día se puede pagar en voluntaria, ¿hasta cuándo puede pagarse en período voluntario?
+**Pregunta:** Liquidación notificada el **18 de septiembre de 2026**. ¿Hasta qué día puede pagarse en período voluntario según el artículo **62.2.b LGT**?
 
 - **A.** **20 de septiembre**.
 - **B.** **5 de octubre**.
@@ -134,7 +134,7 @@
 
 ### Caso 6 · Tema 11
 
-**Pregunta:** Providencia de apremio notificada el **18 de septiembre de 2026**. ¿Hasta qué día, ¿hasta qué día se puede pagar dentro del plazo del **62.5.b**?
+**Pregunta:** Providencia de apremio notificada el **18 de septiembre de 2026**. ¿Hasta qué día puede pagarse dentro del plazo del **artículo 62.5.b LGT**?
 
 - **A.** **5 de octubre**.
 - **B.** **20 de octubre**.
