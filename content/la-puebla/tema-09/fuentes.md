@@ -15,9 +15,16 @@
 
 > ⚠️ **¡Foco Examen!:** Un **delegado de protección de datos (DPD)** asesora y supervisa; **no** sustituye al responsable del tratamiento en la determinación de finalidades y medios.
 
-**Pendiente:** contraste de todas las respuestas con los textos aplicables y sus excepciones. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
+**Nota histórica de 02/11/2026:** el cotejo de preguntas pendiente entonces se completó el **04/11/2026**, con [12 preguntas y 48 alternativas revisadas](cotejo-integral-2026-11-04.md). Permanece pendiente la **prueba real de interfaz y recertificación integral**, no el cotejo ya efectuado. [Registro editorial](../../../AUDITORIA_CONTINUA.md).
 
 ## Auditoría jurídica integral **04/11/2026**
 
 [**Cotejo documentado de las 48 opciones de Tema 9**](cotejo-integral-2026-11-04.md): **LOPDGDD** y **RGPD** aplicable. Se han revisado los 8 bloques y corregido el alcance del plazo de videovigilancia **LP-T09-007**, conforme al [**art. 22.3**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a22). **AUDITADO jurídico-editorial; navegador real pendiente**.
 
+
+
+## Contraste de plazos LOPDGDD / RGPD — **07/11/2026**
+
+[**Repaso comparativo T9–T12**](../REPASO_FOCAL_T09_T12_20261107.md), con dos casos propios del T9. Fuentes: [**LOPDGDD 22.3**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a22), imágenes **máximo 1 mes** y puesta a disposición **72 horas** desde **conocimiento de grabación** en supuesto probatorio; [**LOPDGDD 34.3**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a34), designación/cese **DPD 10 días**; [**RGPD 12.3 y 33.1**](https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807), respuesta a ejercicio de derechos **1 mes** ampliable **otros 2** y **brechas notificables 72 horas** si es posible y concurre riesgo no improbable. Se han añadido citas legales a **12 referencias** del banco aprobado, sin alterar preguntas ni claves.
+
+> ⚠️ **¡Foco Examen!:** **72 horas de grabación probatoria** y **72 horas de brecha notificable** obedecen a hechos jurídicos **diferentes**; no se computan desde el mismo momento.
