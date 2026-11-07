@@ -128,3 +128,12 @@ Revisados los **5 bloques** del programa con sus capítulos y **48 alternativas*
 **Material complementario nuevo:** [**20 preguntas de examen originales, temas 10–14, con soluciones razonadas, cuatro opciones y norma por artículo**](../REPASO_FINAL_T10_T14_20261106.md). Incluye tablas de diferencias entre **plazos de ingreso, recargos del 5/10/20 %, impuestos sujetos y exentos, certificado cualificado máximo de 5 años, órganos y mayorías**. No sustituye el manual ni los bancos temáticos ya aprobados históricamente; tampoco equivale a certificación funcional del portal.
 
 > ⚠️ **¡Foco Examen!:** En el primer ejercicio de La Puebla hay **50 preguntas titulares + 5 reservas**, con **60 minutos**, **+0,20** por acierto y **−0,05** por error. Un entrenamiento de 20 preguntas **no** es un simulacro completo de convocatoria.
+
+
+## Control focal preexamen T12 — **07/11/2026**
+
+[**Cuadro de sujetos pasivos y 8 microcasos T9–T12**](../REPASO_FOCAL_T09_T12_20261107.md) complementa el material de [**20 preguntas T10–T14**](../REPASO_FINAL_T10_T14_20261106.md). [**TRLRHL consolidado 07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): **IBI art. 61** prelación concesión, superficie, usufructo, propiedad y no sujeción de vías de aprovechamiento público gratuito cuando concurren requisitos; **IAE art. 82.1.c** persona física **sujeta pero exenta**, umbral de **INCN estrictamente inferior a 1.000.000 €** (grupo conjunto cuando proceda); **IVTM art. 92.3.b** remolques **hasta 750 kg** no sujetos; **IIVTNU art. 106** adquirente contribuyente en transmisión **lucrativa**, transmitente en **onerosa** y adquirente **sustituto** si transmitente persona física no residente.
+
+Se han precisado **12 referencias por artículo** en el banco aprobado conservando sus 48 alternativas y claves. Los **RDL de otoño de 2026** tienen reglas de eficacia distintas, ya analizadas en este manual: no extrapolar tablas futuras al núcleo de naturaleza/hecho imponible/sujeto pasivo del tema.
+
+> ⚠️ **¡Foco Examen!:** **IAE exento ≠ no sujeto**; **1.000.000 exactos no es inferior**; **IIVTNU transmisión onerosa no residente** hace al adquirente **sustituto** sin convertirlo en contribuyente originario.
