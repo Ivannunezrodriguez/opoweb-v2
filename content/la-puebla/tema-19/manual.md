@@ -136,3 +136,7 @@ Un mismo equipo puede integrar funciones que antes requerían varios periférico
 [Cotejo técnico-editorial íntegro del Tema 19](cotejo-integral-2026-11-04.md): revisión individualizada de las **12 preguntas y 48 alternativas**, sus claves, distractores, fuentes, justificaciones y trampas de examen. **Estado:** auditado en lo editorial/técnico; **no** certifica pruebas funcionales completas en navegador, móvil o accesibilidad.
 
 > ⚠️ **¡Foco Examen!:** Antes de memorizar un atajo, un formato o una operación, comprueba el programa y el contexto indicados en el enunciado: las opciones incorrectas suelen intercambiar conceptos similares.
+
+## Repaso focal de examen — 07/11/2026
+
+[**Temas 17–19: comparativas y nueve casos resueltos**](../REPASO_FOCAL_T17_T19_20261107.md). Pieza didáctica adicional basada en documentación oficial de Microsoft, LibreOffice y USB-IF; conserva el banco de **12 preguntas/48 alternativas** ya cotejado el **04/11/2026**. **Ninguna prueba funcional de navegador/móvil queda certificada con este enlace.**
