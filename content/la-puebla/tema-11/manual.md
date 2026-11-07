@@ -101,3 +101,12 @@ Verificados los **7 bloques**, seis capítulos temáticos y **12 preguntas con s
 **Material complementario nuevo:** [**20 preguntas de examen originales, temas 10–14, con soluciones razonadas, cuatro opciones y norma por artículo**](../REPASO_FINAL_T10_T14_20261106.md). Incluye tablas de diferencias entre **plazos de ingreso, recargos del 5/10/20 %, impuestos sujetos y exentos, certificado cualificado máximo de 5 años, órganos y mayorías**. No sustituye el manual ni los bancos temáticos ya aprobados históricamente; tampoco equivale a certificación funcional del portal.
 
 > ⚠️ **¡Foco Examen!:** En el primer ejercicio de La Puebla hay **50 preguntas titulares + 5 reservas**, con **60 minutos**, **+0,20** por acierto y **−0,05** por error. Un entrenamiento de 20 preguntas **no** es un simulacro completo de convocatoria.
+
+
+## Control focal preexamen T11 — **07/11/2026**
+
+[**Tabla y casos T9–T12 con vencimientos concretos**](../REPASO_FOCAL_T09_T12_20261107.md) contra [**LGT 62.2 y 62.5**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a62). Para notificación en días **1–15**: **liquidación → 20 del mes siguiente**, **providencia → 20 del mismo mes**; días **16–fin**: **liquidación → 5 del segundo mes posterior**, **providencia → 5 del mes siguiente**. Los cuatro límites pasan al **hábil siguiente** si son inhábiles. Ejemplo en **2026**: notificación **18/09** da **05/11** para liquidación y **05/10** para providencia.
+
+La [**LGT 161.1.a**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a161) marca inicio del período ejecutivo al día siguiente del vencimiento voluntario de liquidaciones impagadas; el [**167.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a167) marca inicio del **procedimiento de apremio mediante providencia notificada**. El **65.5** distingue aplazamiento en período voluntario de ejecutivo. Se añaden referencias oficiales específicas a los **12 ítems históricos** sin cambiar respuestas.
+
+> ⚠️ **¡Foco Examen!:** **18/09/2026 liquidación → 05/11**; **18/09/2026 providencia → 05/10**. **Ejecutivo desde vencimiento** no significa **providencia ya notificada**.
