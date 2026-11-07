@@ -83,6 +83,8 @@ jobs:
         run: node tests/validate-sources.mjs
       - name: Validar progreso independiente y blancos de tres convocatorias
         run: node tests/validate-practice-progress-isolation-20261107.mjs
+      - name: Comprobar modalidades La Puebla 3 breves y 2 oficiales 50+5
+        run: node tests/validate-la-puebla-simulacro-metadata-20261107.mjs
       - name: Validar motor de simulacros de La Puebla
         run: node tests/validate-practice-exam.mjs
       - name: Verificar 144 alternativas legales UC3M T1 T2 T3
