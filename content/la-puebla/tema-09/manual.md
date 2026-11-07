@@ -381,3 +381,12 @@ El usuario aprobó expresamente el tema mediante la respuesta **«Tema 9 aprobad
 Auditados los **ocho bloques**, la **LOPDGDD arts. 1–97 y 53 bis**, las reglas RGPD necesarias y las **48 alternativas** del banco. [Ver el cotejo individual de las 12 claves y 36 distractores](cotejo-integral-2026-11-04.md). **AUDITADO contenido; pendiente la prueba funcional real**.
 
 > ⚠️ **¡Foco Examen!:** **Art. 22.3 LOPDGDD**: 72 horas para entrega de imágenes probatorias de **actos contra integridad**; **art. 33.1 RGPD**: 72 horas para brechas notificables. No confundir.
+
+
+## Control focal preexamen T9 — **07/11/2026**
+
+[**Repaso comparado T9–T12: 8 microcasos resueltos**](../REPASO_FOCAL_T09_T12_20261107.md), dos dedicados a **LOPDGDD y RGPD**. El [**art. 22.3 LOPDGDD**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a22) exige supresión de imágenes ordinarias en **máximo un mes desde captación**; si se conservan como prueba de actos contra integridad de personas, bienes o instalaciones, se ponen a disposición de la **autoridad competente en 72 horas desde el conocimiento de la grabación**. Por separado, el [**RGPD 33.1**](https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807) regula la notificación de **brechas** en **72 horas desde conocimiento**, si es posible y salvo riesgo improbable. **RGPD 12.3**: derechos en **1 mes** con posible ampliación **otros 2**; **LOPDGDD 34.3**: comunicar designación/cese de **DPD** en **10 días**.
+
+En este control se han **precisado las 12 referencias oficiales del banco**, sin cambiar preguntas ni claves históricas **APROBADO_USUARIO**. El control de referencias no acredita prueba E2E, WCAG/PWA ni auditoría jurídica integral nueva.
+
+> ⚠️ **¡Foco Examen!:** **Dos plazos de 72 horas con dos hechos iniciales**: existencia conocida de **grabación probatoria** vs conocimiento de **brecha notificable**. **DPD 10 días** y derechos **1 mes (+2)** son trámites diferentes.
