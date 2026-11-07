@@ -59,6 +59,8 @@ jobs:
         run: node tests/validate-la-puebla-repaso-t06-t08-20261106.mjs
       - name: Validar repaso La Puebla T09 T10 T11 T12 datos y tributos
         run: node tests/validate-la-puebla-repaso-t09-t12-20261107.mjs
+      - name: Verificar 7 repasos de La Puebla T13-T19 y 84 preguntas originales
+        run: node tests/validate-la-puebla-repasos-t13-t19-20261107.mjs
       - name: Verificar las 144 alternativas tributarias de La Puebla T10 T11 T12
         run: node tests/validate-la-puebla-t10-t11-t12-integral.mjs
       - name: Verificar las 144 alternativas jurídicas de La Puebla T3 T5 y T6
