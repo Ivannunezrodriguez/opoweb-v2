@@ -283,3 +283,7 @@ El usuario aprobó expresamente el tema mediante la frase **«Tema 16 aprobado»
 [Cotejo técnico-editorial íntegro del Tema 16](cotejo-integral-2026-11-04.md): revisión individualizada de las **12 preguntas y 48 alternativas**, sus claves, distractores, fuentes, justificaciones y trampas de examen. **Estado:** auditado en lo editorial/técnico; **no** certifica pruebas funcionales completas en navegador, móvil o accesibilidad.
 
 > ⚠️ **¡Foco Examen!:** Antes de memorizar un atajo, un formato o una operación, comprueba el programa y el contexto indicados en el enunciado: las opciones incorrectas suelen intercambiar conceptos similares.
+
+## Repaso focal previo al examen — 07/11/2026
+
+[**T13–T16: tabla comparativa y 8 microcasos con fuentes oficiales**](../REPASO_FOCAL_T13_T16_20261107.md). **Material complementario**, sin modificación de las 12 preguntas históricas del tema ni certificación de pruebas funcionales de navegador.
