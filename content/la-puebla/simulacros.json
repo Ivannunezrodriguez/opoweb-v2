@@ -1,11 +1,9 @@
 {
   "convocatoria": "La Puebla de Montalbán",
-  "version": "2026-11-02",
+  "version": "2026-11-07",
   "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
   "criterios": {
     "numeroSimulacros": 5,
-    "preguntasPorSimulacro": 30,
-    "duracionMinutos": 45,
     "respuestaUnica": true,
     "seleccion": "Preguntas trazables de los 19 bancos temáticos aprobados, con cobertura jurídica, tributaria, administrativa e informática.",
     "correccion": "Cada referencia conserva la respuesta correcta, justificación, trampa y fuente de su banco temático de origen.",
@@ -20,6 +18,12 @@
       "error": -0.05,
       "blanco": 0,
       "minimoAprobado": 5
+    },
+    "formatoRepaso": {
+      "simulacros": 3,
+      "preguntasPuntuables": 30,
+      "reserva": 0,
+      "duracionMinutos": 45
     }
   },
   "simulacros": [
