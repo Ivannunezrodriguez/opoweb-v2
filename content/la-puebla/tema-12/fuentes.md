@@ -30,7 +30,7 @@ Los **tipos, recargos y coeficientes** quedan señalados como *complemento de vi
 ## Estado y evidencia
 
 - **Control parcial realizado:** contexto TRLRHL y reglas de efecto temporal arriba descritas.
-- **Pendiente de recertificación:** revisión sustantiva artículo por artículo y cotejo del banco de **12 preguntas**.
+- **Nota histórica de 02/11/2026:** se había marcado pendiente el cotejo integral, efectuado después el **04/11/2026** ([12 preguntas / 48 alternativas y desglose por distractor](cotejo-integral-2026-11-04.md)). **Siguen pendientes** pruebas reales de navegador, control funcional y recertificación de cambios legales hasta el examen.
 - **Seguimiento principal:** [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
 
 ## Cotejo sustantivo del IBI y el IAE — 02/11/2026
@@ -101,3 +101,10 @@ El elemento **LP-T12-010** citaba una versión histórica del TRLRHL seleccionad
 Se incorpora [**repaso de 20 preguntas para temas 10–14**](../REPASO_FINAL_T10_T14_20261106.md) con artículos contrastados. La fecha del primer ejercicio, si figura en documentos administrativos de seguimiento, debe comprobarse en **el anuncio correspondiente de la sede**, y no se deduce de las bases de mayo (que no la fijan).
 
 > ⚠️ **¡Foco Examen!:** El **RDL 26/2026** y la publicación de **02/10/2026** no pueden usarse como si la norma se hubiera detenido ahí: la **última actualización del TRLRHL** está publicada el **07/10/2026**.
+
+
+## Control final focal de hecho imponible y sujetos — **07/11/2026**
+
+[**Repaso T9–T12 con dos casos propios del tema 12**](../REPASO_FOCAL_T09_T12_20261107.md), sin sustituir [**repaso T10–T14 de 20 preguntas**](../REPASO_FINAL_T10_T14_20261106.md). Fuentes: [**TRLRHL art. 61**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a61) (IBI usufructo y caminos), [**82.1.c**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a82) (IAE personas físicas exentas y sociedades con INCN **estrictamente inferior a 1.000.000 €**), [**92.3.b**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a92) (**750 kg incluidos** en no sujeción remolques) y [**106.1–2**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a106) (donación adquirente, compraventa transmitente y sustitución por **persona física no residente**). Se han precisado 12 referencias de banco. Se preserva la advertencia de **vigencia diferenciada** de las reformas TRLRHL de octubre 2026.
+
+> ⚠️ **¡Foco Examen!:** **1.000.000 € exactos no satisface «inferior»**; en **IIVTNU oneroso** el adquirente es **sustituto**, no contribuyente originario, si transmitente es **persona física no residente**.
