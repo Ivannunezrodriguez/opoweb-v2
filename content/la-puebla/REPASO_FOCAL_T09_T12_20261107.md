@@ -46,7 +46,7 @@
 
 **Regla procesal:** el **período ejecutivo** se inicia, para liquidaciones impagadas, el **día siguiente al vencimiento voluntario** (**LGT 161.1.a**); el **procedimiento de apremio** se inicia mediante **providencia de apremio notificada** (**LGT 167.1**). Una solicitud de aplazamiento/fraccionamiento en **período voluntario** impide, por regla general y con excepciones, el inicio del período ejecutivo durante su tramitación (**161.2**); en **período ejecutivo**, la solicitud **no suspende automáticamente** actuaciones recaudatorias, aunque el **65.5** suspende enajenaciones en las condiciones previstas.
 
-> ⚠️ **¡Foco Examen!:** **Liquidación el 18 de junio → 5 de agosto**; **providencia el 18 de junio → 5 de julio**, suponiendo fecha hábil. **Inicio de ejecutivo ≠ notificación de providencia**.
+> ⚠️ **¡Foco Examen!:** **Liquidación notificada el 18/09/2026 → 05/11/2026**; **providencia notificada el 18/09/2026 → 05/10/2026** (ambas fechas de vencimiento son hábiles). **Inicio de ejecutivo ≠ notificación de providencia**.
 
 ## 4. Tema 12 · Sujeción, exención y quién paga
 
@@ -121,12 +121,12 @@
 
 ### Caso 5 · Tema 11
 
-**Pregunta:** Liquidación notificada el **18 de junio**. Si el **5 de agosto** fuera hábil, ¿hasta cuándo puede pagarse en período voluntario?
+**Pregunta:** Liquidación notificada el **18 de septiembre de 2026**. ¿Hasta qué día se puede pagar en voluntaria, ¿hasta cuándo puede pagarse en período voluntario?
 
-- **A.** **20 de junio**.
-- **B.** **5 de julio**.
-- **C.** **20 de julio**.
-- **D.** **5 de agosto**.
+- **A.** **20 de septiembre**.
+- **B.** **5 de octubre**.
+- **C.** **20 de octubre**.
+- **D.** **5 de noviembre**.
 
 **Respuesta: D.** Notificación días **16–fin**, **art. 62.2.b**: **día 5 del segundo mes posterior**.
 
@@ -134,12 +134,12 @@
 
 ### Caso 6 · Tema 11
 
-**Pregunta:** Providencia de apremio notificada el **18 de junio**. Suponiendo el **5 de julio** hábil, ¿hasta qué día se puede pagar dentro del plazo del **62.5.b**?
+**Pregunta:** Providencia de apremio notificada el **18 de septiembre de 2026**. ¿Hasta qué día, ¿hasta qué día se puede pagar dentro del plazo del **62.5.b**?
 
-- **A.** **5 de julio**.
-- **B.** **20 de julio**.
-- **C.** **5 de agosto**.
-- **D.** **20 de agosto**.
+- **A.** **5 de octubre**.
+- **B.** **20 de octubre**.
+- **C.** **5 de noviembre**.
+- **D.** **20 de noviembre**.
 
 **Respuesta: A.** La **providencia** notificada en la segunda quincena vence **el 5 del mes siguiente**.
 
