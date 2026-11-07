@@ -186,5 +186,33 @@
     "enlaceArt104Actualizado": true,
     "fechaUltimaConsolidacionTRLRHL": "2026-10-07",
     "nuevoCierreIntegral": false
+  },
+  "controlFocal20261107": {
+    "fecha": "2026-11-07",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T09_T12_20261107.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T09_T12_20261107.md",
+    "prueba": "tests/validate-la-puebla-repaso-t09-t12-20261107.mjs",
+    "bloquesHistoricos": 5,
+    "preguntasHistoricas": 12,
+    "alternativasHistoricas": 48,
+    "referenciasPrecisadas": 12,
+    "microcasosMarkdown": 2,
+    "alternativasMicrocasos": 8,
+    "preceptosFoco": [
+      "TRLRHL 59, 61, 78, 82, 92, 94, 104 y 106",
+      "RDL 29/2026 efectos temporales ya documentados"
+    ],
+    "trampa": "IAE exento no es no sujeto; 1m exacto no inferior; IVTM 750 kg; IIVTNU contribuyente vs sustituto",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "certificacionIntegral": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pruebaNavegadorReal": false,
+    "pendientes": [
+      "CI real en commit vigente",
+      "navegacion real movil WCAG PWA y progreso",
+      "revision legal articulo por articulo hasta examen",
+      "sin reabrir aprobacion historica del usuario"
+    ]
   }
 }
