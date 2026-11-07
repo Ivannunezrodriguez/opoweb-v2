@@ -99,6 +99,8 @@ jobs:
         run: node tests/validate-uc3m-t10-t12-integral.mjs
       - name: Verificar 188 alternativas exactas UC3M T13-T15
         run: node tests/validate-uc3m-t13-t15-integral.mjs
+      - name: Verificar fuentes UC3M tema 16 para matricula permanencia y evaluacion
+        run: node tests/validate-uc3m-t16-source-attribution-20261107.mjs
       - name: Verificar 276 alternativas jurídicas y presupuestarias UC3M T16-T20
         run: node tests/validate-uc3m-t16-t20-integral.mjs
       - name: Verificar distribución de 260 claves UC3M
