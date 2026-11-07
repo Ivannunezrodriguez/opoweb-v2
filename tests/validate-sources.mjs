@@ -13,7 +13,7 @@ for (const theme of literaryTopics) {
   assert.match(markdown, /^#\s+/m, 'Título de fuentes del tema ' + theme.numero);
   assert.match(markdown, /BOE-A-|DOUE-L-/, 'Falta referencia normativa oficial tema ' + theme.numero);
   assert.match(markdown, /02\/11\/2026|2 de noviembre de 2026/i, 'Falta fecha de corte de fuentes tema ' + theme.numero);
-  assert.match(markdown, /Pendiente|pendiente|no.*certificad|no.*recertificad/i, 'Falta indicar alcance de revisión del tema ' + theme.numero);
+  assert.match(markdown, /Pendiente|pendiente|no.*certificad|no.*recertificad|Restan\s+\*\*pruebas funcionales/i, 'Falta indicar alcance de revisión del tema ' + theme.numero);
 }
 
 // El visor debe permitir consultar las fuentes oficiales sin abandonar el tema.
