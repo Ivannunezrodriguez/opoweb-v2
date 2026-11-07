@@ -81,6 +81,8 @@ jobs:
         run: node tests/validate-la-puebla-normativa-focal.mjs
       - name: Validar fuentes oficiales y enlaces de 14 temas de La Puebla
         run: node tests/validate-sources.mjs
+      - name: Validar progreso independiente y blancos de tres convocatorias
+        run: node tests/validate-practice-progress-isolation-20261107.mjs
       - name: Validar motor de simulacros de La Puebla
         run: node tests/validate-practice-exam.mjs
       - name: Verificar 144 alternativas legales UC3M T1 T2 T3
