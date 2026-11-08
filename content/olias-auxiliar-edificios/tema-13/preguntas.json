@@ -182,6 +182,141 @@
       "trampaExamen": "¡Foco Examen!: El epígrafe del BOP exige callejero, pero no presenta listado íntegro de vías; el directorio de servicios no acredita la exhaustividad del callejero.",
       "referencia": "BOP Toledo 204/2026, anexo II; web municipal «Situación y Callejero»",
       "respuestaLiteral": "No enumerado en el BOP; requiere cartografía municipal vigente"
+    },
+    {
+      "id": "OLIAS-T13-013",
+      "enunciado": "¿Cuál es la ubicación de Protección Civil según el directorio de Olías del Rey?",
+      "opciones": [
+        "Plaza de la Constitución, 7",
+        "Plaza de la Constitución, 1",
+        "Calle Petunia",
+        "Calle Venta de Arriba"
+      ],
+      "respuestaCorrecta": 0,
+      "referencia": "Directorio municipal de teléfonos y edificios",
+      "justificacion": "En la **Plaza de la Constitución, 7** se cita **Protección Civil**; la **Policía Local** se asocia al n.º 1.",
+      "trampaExamen": "¡Foco Examen!: En la **Plaza de la Constitución, 7** se cita **Protección Civil**; la **Policía Local** se asocia al n.º 1.",
+      "respuestaLiteral": "Plaza de la Constitución, 7"
+    },
+    {
+      "id": "OLIAS-T13-014",
+      "enunciado": "En el directorio municipal, ¿en qué vía se encuentra el consultorio del casco?",
+      "opciones": [
+        "Calle Cedro",
+        "Calle Toledo",
+        "Camino de Higares",
+        "Subida Cabañuelas"
+      ],
+      "respuestaCorrecta": 1,
+      "referencia": "Directorio municipal de teléfonos y edificios",
+      "justificacion": "El consultorio del **casco** aparece en **Calle Toledo**; **Subida Cabañuelas** corresponde al de la zona sur.",
+      "trampaExamen": "¡Foco Examen!: El consultorio del **casco** aparece en **Calle Toledo**; **Subida Cabañuelas** corresponde al de la zona sur.",
+      "respuestaLiteral": "Calle Toledo"
+    },
+    {
+      "id": "OLIAS-T13-015",
+      "enunciado": "¿Dónde se identifica el consultorio de la zona sur?",
+      "opciones": [
+        "Camino del Arenal",
+        "Calle Flor",
+        "Subida Cabañuelas",
+        "Plaza de la Constitución"
+      ],
+      "respuestaCorrecta": 2,
+      "referencia": "Directorio municipal de teléfonos y edificios",
+      "justificacion": "El consultorio de la **zona sur** se referencia por **Subida Cabañuelas**, no por Calle Toledo.",
+      "trampaExamen": "¡Foco Examen!: El consultorio de la **zona sur** se referencia por **Subida Cabañuelas**, no por Calle Toledo.",
+      "respuestaLiteral": "Subida Cabañuelas"
+    },
+    {
+      "id": "OLIAS-T13-016",
+      "enunciado": "¿Con qué zona asocia el Ayuntamiento la Calle Halcón y Calle Zorzales al listar instalaciones?",
+      "opciones": [
+        "Las Lomas",
+        "La Floresta",
+        "Los Pinos",
+        "San Francisco"
+      ],
+      "respuestaCorrecta": 2,
+      "referencia": "Ayuntamiento: página de Deportes, instalaciones por zonas",
+      "justificacion": "Los equipamientos de **Los Pinos** se citan en **Calle Halcón** y **Calle Zorzales**.",
+      "trampaExamen": "¡Foco Examen!: Los equipamientos de **Los Pinos** se citan en **Calle Halcón** y **Calle Zorzales**.",
+      "respuestaLiteral": "Los Pinos"
+    },
+    {
+      "id": "OLIAS-T13-017",
+      "enunciado": "¿A qué zona se vincula un equipamiento de la Calle Cedro?",
+      "opciones": [
+        "San Francisco",
+        "Los Olivos",
+        "La Floresta",
+        "Casco histórico"
+      ],
+      "respuestaCorrecta": 0,
+      "referencia": "Ayuntamiento: página de Deportes, instalaciones por zonas",
+      "justificacion": "**Calle Cedro** figura como ubicación de equipamiento de la zona **San Francisco**.",
+      "trampaExamen": "¡Foco Examen!: **Calle Cedro** figura como ubicación de equipamiento de la zona **San Francisco**.",
+      "respuestaLiteral": "San Francisco"
+    },
+    {
+      "id": "OLIAS-T13-018",
+      "enunciado": "¿En qué número de la Plaza de la Constitución figura el Centro de Mayores en el directorio?",
+      "opciones": [
+        "1",
+        "4",
+        "7",
+        "12"
+      ],
+      "respuestaCorrecta": 2,
+      "referencia": "Directorio municipal de teléfonos y edificios",
+      "justificacion": "El **Centro de Mayores** se relaciona con **Plaza de la Constitución, 7**; no confundir con el Ayuntamiento, n.º 1.",
+      "trampaExamen": "¡Foco Examen!: El **Centro de Mayores** se relaciona con **Plaza de la Constitución, 7**; no confundir con el Ayuntamiento, n.º 1.",
+      "respuestaLiteral": "7"
+    },
+    {
+      "id": "OLIAS-T13-019",
+      "enunciado": "Para obtener el listado de denominaciones de vías del INE, ¿qué tipo de fichero debe consultarse en primer lugar?",
+      "opciones": [
+        "UP",
+        "TRAM",
+        "VIAS",
+        "SECC"
+      ],
+      "respuestaCorrecta": 2,
+      "referencia": "INE, Callejero del Censo Electoral · https://www.ine.es/prodyser/callejero/",
+      "justificacion": "**VIAS** identifica vías y sus denominaciones; **TRAM** refiere tramos de vías y secciones; no sumarlos como calles diferentes.",
+      "trampaExamen": "¡Foco Examen!: **VIAS** identifica vías y sus denominaciones; **TRAM** refiere tramos de vías y secciones; no sumarlos como calles diferentes.",
+      "respuestaLiteral": "VIAS"
+    },
+    {
+      "id": "OLIAS-T13-020",
+      "enunciado": "¿Qué fecha de referencia corresponde a los ficheros de callejero que el INE publica en julio de 2026?",
+      "opciones": [
+        "31/12/2025",
+        "30/06/2026",
+        "01/01/2027",
+        "31/07/2025"
+      ],
+      "respuestaCorrecta": 1,
+      "referencia": "INE, Callejero del Censo Electoral · https://www.ine.es/prodyser/callejero/",
+      "justificacion": "Los ficheros publicados en **julio de 2026** tienen como fecha de referencia **30/06/2026**, según la metodología del INE.",
+      "trampaExamen": "¡Foco Examen!: Los ficheros publicados en **julio de 2026** tienen como fecha de referencia **30/06/2026**, según la metodología del INE.",
+      "respuestaLiteral": "30/06/2026"
+    },
+    {
+      "id": "OLIAS-T13-021",
+      "enunciado": "Si una web municipal indica «Calle Flor, 2» y otra «La Flor, s/n» para Cultura, ¿qué dato es prudente considerar seguro?",
+      "opciones": [
+        "El número 2 siempre",
+        "Calle de la Flor como vía contrastada",
+        "Que la Casa de la Cultura no existe",
+        "Que se sitúa en el Camino del Arenal"
+      ],
+      "respuestaCorrecta": 1,
+      "referencia": "Ayuntamiento: directorio de edificios y página Educación y Cultura",
+      "justificacion": "Se confirma **la calle de la Flor**; la **numeración difiere** según la propia web municipal, por lo que no debe inventarse una versión única.",
+      "trampaExamen": "¡Foco Examen!: Se confirma **la calle de la Flor**; la **numeración difiere** según la propia web municipal, por lo que no debe inventarse una versión única.",
+      "respuestaLiteral": "Calle de la Flor como vía contrastada"
     }
   ],
   "controlFocal20261108": {
@@ -190,5 +325,13 @@
     "clavesModificadas": 0,
     "discrepanciasPortalesIdentificadas": true,
     "callejeroIntegroAcreditado": false
+  },
+  "controlEditorial20261108": {
+    "preguntasTotal": 21,
+    "nuevas": 9,
+    "alternativas": 84,
+    "clavesConservadas": true,
+    "callejeroIntegroComprobado": false,
+    "cierreDocumental": false
   }
 }
