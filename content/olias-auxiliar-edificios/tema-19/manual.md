@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 19 · Carpintería de madera, cerraduras y persianas
 
-**Estado: EN_AUDITORIA.** Fecha **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
+**Estado: AUDITADO documental el 08/11/2026, con reservas funcionales.** Primera edición **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,13 +8,13 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Norma o referencia técnica | Desarrollo |
+| Inciso del programa | Fuente aplicable | Desarrollo exigible |
 |---|---|---|
-| Madera y elementos de carpintería | RD 1215/1997 | Conceptos, seguridad y distinciones |
-| Herramientas de carpintería | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Puertas, ventanas y herrajes | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Persianas: tipos y elementos | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Mantenimiento, adhesivos y prevención | Ley 31/1995 | Conceptos, seguridad y distinciones |
+| Madera y elementos | **Documentación técnica** de madera y tableros | Maciza, MDF, contrachapado, aglomerado y comportamiento a la humedad |
+| Herramientas de carpintería | **Documentación técnica**, **RD 1215/1997 art. 3 y anexo II** para uso seguro | Serrucho, formón, escuadra, sargentos, taladro, lijas |
+| Puertas, ventanas y herrajes | **Manuales de herrajes**; prevención de equipos según **RD 1215/1997** | Hojas, marcos, bisagras, cerraduras, bombines y límites en puertas resistentes al fuego |
+| Persianas: tipos y elementos | **Ficha del fabricante** y prevención aplicable | Lamas, eje, guías, cinta, recogedor, motor; fallos y diagnóstico |
+| Mantenimiento, adhesivos y prevención | **Ley 31/1995 arts. 15 y 17**; **RD 1215/1997 art. 3.5** | Inspección, polvo de lijado, adhesivos, retirada de herramientas defectuosas |
 
 ## 3. Madera y elementos de carpintería
 
@@ -95,11 +95,21 @@ La **Ley 31/1995** y **RD 1215/1997** imponen uso seguro de equipos, especialmen
 
 ## 8. Supuesto de repaso
 
-**Situación:** el auxiliar detecta una incidencia del área del tema. Debe **distinguir conocimientos básicos de intervención técnica**, comunicar al responsable, evitar riesgos y consultar el manual de fabricante o la norma aplicable. Solo realizará operaciones que se encuentren dentro de sus **atribuciones, formación y autorización**.
+### Supuesto 1. Persiana bloqueada con cinta deteriorada
+
+Una persiana enrollable manual se ha quedado a media altura; la cinta está deshilachada y una lama se ha desplazado. **Actuación:** impedir que usuarios tiren de la cinta o se sitúen bajo elementos inestables; comunicar la incidencia, verificar si hay riesgo de caída y encomendar la reparación a personal competente, conforme al mecanismo del fabricante. No confundir **guías** (orientan las lamas) con **recogedor** (aloja la cinta).
+
+> ⚠️ **¡Foco Examen!:** Una persiana **motorizada** incorpora componentes eléctricos: no se convierte en reparación mecánica manual por el simple hecho de contar con cinta o lamas.
+
+### Supuesto 2. Puerta de madera que roza y genera polvo
+
+Una puerta resistente al fuego roza y alguien propone rebajar la hoja con un formón y lijar en un pasillo ocupado. **Actuación:** no modificar una puerta clasificada ni generar polvo sin evaluación; comunicar al responsable para inspección de bisagras, marco y clasificación de la hoja; proteger el lugar y recurrir al personal autorizado. En otras tareas de carpintería habilitadas, escoger la herramienta adecuada, sujetar la pieza y controlar polvo y posibles vapores de adhesivos.
+
+> ⚠️ **¡Foco Examen!:** **Formón** corta o rebaja; **lija** produce abrasión y polvo; **sargento** sujeta piezas. Una puerta de seguridad no debe recortarse solo para que deje de rozar.
 
 ## Fuentes de referencia
 
 - [**RD 1215/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824) — equipos de trabajo.
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — prevención y protección.
 
-**Control editorial pendiente:** verificar aplicaciones prácticas y excepcionalidades en normativa técnica, sin confundir desarrollo pedagógico con el texto de las bases.
+**Cierre documental 08/11/2026:** cinco incisos desarrollados y corregidos, dos supuestos resueltos y diez preguntas revisadas. **Pendientes:** equipamiento específico, autorización local, navegador, CI y certificación integral.
