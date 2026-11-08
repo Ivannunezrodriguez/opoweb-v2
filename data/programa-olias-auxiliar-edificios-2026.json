@@ -133,11 +133,13 @@
       "numeroEnBloque": 1,
       "bloque": "especifica",
       "titulo": "Nociones básicas sobre seguridad en edificios, emergencia y evacuación. Especial referencia a la salud laboral y prevención de riesgos laborales. Traslados de cargas.",
-      "estado": "EN_AUDITORIA",
+      "estado": "AUDITADO",
       "manual": "content/olias-auxiliar-edificios/tema-06/manual.md",
       "fuentes": "content/olias-auxiliar-edificios/tema-06/fuentes.md",
       "matriz": "content/olias-auxiliar-edificios/tema-06/matriz.json",
-      "preguntas": "content/olias-auxiliar-edificios/tema-06/preguntas.json"
+      "preguntas": "content/olias-auxiliar-edificios/tema-06/preguntas.json",
+      "auditadoEl": "2026-11-08",
+      "reserva": "Cierre documental; plan de emergencia de cada inmueble y pruebas E2E/CI pendientes"
     },
     {
       "numero": 7,
@@ -177,11 +179,13 @@
       "numeroEnBloque": 5,
       "bloque": "especifica",
       "titulo": "El control de accesos. Apertura y cierre de edificios y locales.",
-      "estado": "EN_AUDITORIA",
+      "estado": "AUDITADO",
       "manual": "content/olias-auxiliar-edificios/tema-10/manual.md",
       "fuentes": "content/olias-auxiliar-edificios/tema-10/fuentes.md",
       "matriz": "content/olias-auxiliar-edificios/tema-10/matriz.json",
-      "preguntas": "content/olias-auxiliar-edificios/tema-10/preguntas.json"
+      "preguntas": "content/olias-auxiliar-edificios/tema-10/preguntas.json",
+      "auditadoEl": "2026-11-08",
+      "reserva": "Cierre documental; controles de acceso y protocolos municipales específicos, E2E/CI pendientes"
     },
     {
       "numero": 11,
