@@ -27,9 +27,9 @@
         "90 ECTS"
       ],
       "correcta": 0,
-      "justificacion": "La carga ordinaria de un curso completo es de 60 créditos ECTS.",
-      "trampa": "El crédito mide trabajo total del estudiante.",
-      "referencia": "RD 822/2021, art. 9 (60 ECTS por curso académico a tiempo completo) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a9",
+      "justificacion": "Con carácter general, los planes de Grado y Máster se estructuran en cursos de 60 ECTS (RD 822/2021, art. 5.2); en un Máster de 90 ECTS uno de los cursos puede ser de 30 ECTS. El RD 1125/2003, art. 4.1, recoge los 60 ECTS por curso.",
+      "trampa": "El dato de 60 ECTS se regula en el art. 5.2 del RD 822/2021, NO en su art. 9. Hay excepción para másteres de 90 ECTS.",
+      "referencia": "RD 822/2021, art. 5.2 (planes de Grado y Máster estructurados en cursos de 60 ECTS; excepción Máster de 90 ECTS) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a5 · RD 1125/2003, art. 4.1 · https://www.boe.es/eli/es/rd/2003/09/05/1125/con",
       "respuestaLiteral": "60 ECTS"
     },
     {
@@ -124,7 +124,7 @@
     },
     {
       "id": "UC3M-T16-009",
-      "pregunta": "En la información académica UC3M, un crédito ECTS equivale a:",
+      "pregunta": "Según la normativa UC3M sobre organización del Trabajo Fin de Grado, ¿qué dedicación se prevé por cada crédito ECTS del TFG?",
       "opciones": [
         "25 horas",
         "10 horas",
@@ -132,9 +132,9 @@
         "30 horas exactas en toda universidad"
       ],
       "correcta": 0,
-      "justificacion": "La UC3M informa de una equivalencia de 25 horas de trabajo por ECTS.",
-      "trampa": "Incluye trabajo total, no solo clase.",
-      "referencia": "UC3M, reglamento de TFG EPS, art. 3 (25 horas/ECTS) · https://e-archivo.uc3m.es/bitstreams/816b6e60-0ab9-414c-bd1f-0cfca804d1a3/download · RD 822/2021 art. 9 (marco general ECTS)",
+      "justificacion": "La normativa oficial de la UC3M sobre organización y evaluación del Trabajo Fin de Grado, aprobada por Consejo de Gobierno el 17/06/2010, fija para los TFG la carga del plan de 25 horas por ECTS. En la normativa estatal general, RD 1125/2003 art. 4.5, se admite un rango de 25 a 30 horas por ECTS.",
+      "trampa": "25 horas en esta normativa institucional de TFG no es una cuantía universal e invariable: el RD 1125/2003 art. 4.5 establece 25–30 horas por ECTS.",
+      "referencia": "UC3M, Normativa de organización y evaluación del TFG, Consejo de Gobierno de 17/06/2010, pág. 2 (25 h/ECTS) · https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=attachment%3B+filename%3D%22Normativa_sobre_organizaci%C3%B3n_y_evaluaci%C3%B3n_de_la_asignatura_Trabajo_Fin_de_Grado.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371553536021&ssbinary=true · RD 1125/2003 art. 4.5 https://www.boe.es/eli/es/rd/2003/09/05/1125/con",
       "respuestaLiteral": "25 horas"
     },
     {
@@ -358,5 +358,19 @@
     "cotejoJuridicoIntegral": false,
     "revisionFuncional": false,
     "corteNormativo": "PENDIENTE_DOCUMENTO_UC3M"
+  },
+  "controlCorreccionPrimaria20261108": {
+    "fecha": "2026-11-08",
+    "preguntas": [
+      "UC3M-T16-002",
+      "UC3M-T16-009"
+    ],
+    "errorFuenteT16002": "Art. 9 RD 822/2021 era referencia incorrecta para 60 ECTS; corresponde art. 5.2",
+    "errorFuenteT16009": "Enlace original e-archivo 403; sustitución por normativa pública oficial UC3M TFG 2010",
+    "enunciadoAcotadoT16009": true,
+    "clavesModificadas": false,
+    "alternativasModificadas": false,
+    "cotejoLegislativoCorte": false,
+    "certificacionIntegral": false
   }
 }
