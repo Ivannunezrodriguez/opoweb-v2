@@ -274,3 +274,28 @@ La regla de estimación en **alzada frente al doble silencio** no alcanza a los 
 [**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
 
 > ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
+
+
+## 19. Aplicación al examen de UC3M: notificación y plazos — **08/11/2026**
+
+### Supuesto 1. Correo electrónico de aviso y notificación electrónica
+
+Una persona recibe un **aviso por correo electrónico** de que tiene una notificación en sede. El aviso no acredita por sí mismo una **notificación practicada**: se aplica el régimen del **art. 43 LPAC** respecto al acceso al contenido y, cuando la notificación electrónica sea obligatoria o elegida, el rechazo por **10 días naturales** desde la puesta a disposición sin acceso, salvo imposibilidad técnica o material acreditada. Este régimen no transforma el aviso en entrega de la resolución.
+
+| Hecho | Efecto |
+|---|---|
+| Aviso por correo o móvil | Información auxiliar; **no es** notificación por sí mismo |
+| Acceso al contenido en sede | Notificación practicada al acceder |
+| Sin acceso en supuesto reglado | Rechazo tras **10 días naturales**, con excepciones |
+
+> ⚠️ **¡Foco Examen!:** **Aviso electrónico ≠ notificación**; **10 días naturales** de rechazo no son **10 días hábiles** de subsanación.
+
+### Supuesto 2. Recurso de alzada con silencio previo
+
+Una solicitud genera **silencio administrativo desestimatorio** y se interpone **alzada** contra esa desestimación presunta. Si también transcurre el plazo de resolución de la alzada sin respuesta, el **art. 24.1 LPAC** prevé **estimación de la alzada** en ese supuesto, **salvo** que el asunto pertenezca a los casos exceptuados en el propio artículo. La regla general del silencio positivo no se aplica indistintamente a cualquier procedimiento.
+
+> ⚠️ **¡Foco Examen!:** El **doble silencio de alzada** tiene una **regla especial y excepciones**; no basta responder «todo silencio de recurso es negativo».
+
+**Fuente primaria:** [Ley 39/2015, arts. 24, 30, 40–43](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
+
+**Cierre editorial de contenido:** los **cuatro incisos** del programa están desarrollados y el banco de **12 preguntas/48 alternativas** permanece intacto. **Pendientes** aprobación del usuario, pruebas funcionales y fijación documental del corte de la base primera.7.
