@@ -63,3 +63,10 @@ El manual se ha elaborado con orientación práctica de examen, diferenciando fu
 **Estado de verificación:** fuentes **oficiales de fabricantes** cotejadas para estos conceptos, sin afirmar inspección completa de interfaces en todos los dispositivos ni ejecución de pruebas E2E del portal. En UC3M la base **primera.7** regula la fecha jurídica de exigibilidad de normativa; sus efectos sobre cambios de interfaz y actualizaciones dinámicas de Google requieren interpretación prudente. El tema mantiene estado **EN_REVISION_USUARIO**.
 
 > ⚠️ **¡Foco Examen!:** **Combinación** ≠ **vista previa**; **validación** ≠ **formato condicional**; **filtrar** ≠ **ordenar**; **ver libre/ocupado** ≠ **ver detalles**. En **Sheets**, proteger **edición** no significa cifrar.
+
+
+## Desarrollo de contenido terminado — **08/11/2026**
+
+**Cobertura documental:** **13 bloques**, dos nuevos supuestos resueltos en manual y las **12 preguntas/48 alternativas originales** preservadas. [Ayuda Word](https://support.microsoft.com/es-es/word), [Excel](https://support.microsoft.com/es-es/excel) y [Google Workspace](https://support.google.com/drive/?hl=es): casos de correspondencia/filtros y permisos/comunicación.
+
+**Estado:** desarrollo completo con reserva de corte normativo **base primera.7 UC3M** y aprobación del usuario no otorgada. **No** se certifican ejecución en navegador ni exactitud de entornos instalados.
