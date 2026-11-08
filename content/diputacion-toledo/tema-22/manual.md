@@ -218,7 +218,7 @@ El **Portal de Transparencia de la Diputación de Toledo** identifica el **Acuer
 
 > ⚠️ **¡Foco Examen!:** Un **Acuerdo** precisa ratificación del **órgano de gobierno** correspondiente. La delegación de gestión o recaudación **no cambia por sí misma la titularidad** del tributo.
 
-**Referencias:** https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes ; https://transparencia.diputoledo.es/t/normativa/2250 ; https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719 ; https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392 . **20 preguntas**; auditoría específica pendiente.
+**Referencias:** https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes ; https://transparencia.diputoledo.es/t/normativa/2250 ; https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719 ; https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392 . **24 preguntas / 96 alternativas** en el banco actual; auditoría específica pendiente.
 
 ## 12. Contenido específico contrastado en boletines oficiales — **05/11/2026**
 
@@ -327,3 +327,23 @@ Un control de vigencia necesita distinguir **texto estatutario publicado** de **
 Una resolución de la **Presidencia** cita el **art. 12.2.l), 8)** para corregir las bases de una OEP. De ello puede inferirse que **ese órgano invocó esa atribución en 2024**, pero **no** cuál sea el texto completo de todo el **art. 12**, ni la composición actual del **Consejo Rector**, ni la regla de quórum. Para conocerlas debe recuperarse el **texto completo oficial y sus modificaciones**.
 
 > ⚠️ **¡Foco Examen!:** Una resolución **aplica o cita** una competencia, pero **no sustituye al Estatuto** ni demuestra por sí sola sus requisitos generales. **2019** y **2024** son pruebas de aplicación, no una consolidación normativa.
+
+
+## 15. Caso integrado de examen: órganos y agotamiento de vía — **08/11/2026**
+
+**Fuente oficial cotejada:** [**BOP Toledo n.º 284, de 14/12/2011, anuncio 11024**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011), reforma aprobada por el **Pleno de la Diputación** el **28/11/2011**. Este cotejo solo cubre los preceptos modificados, no todo el texto estatutario vigente.
+
+| Pregunta examinable | Respuesta conforme al BOP de **2011** | Precepto |
+|---|---|---|
+| ¿A quién queda adscrito el OAPGT? | Al **Presidente de la Diputación**, sin perjuicio de la posibilidad legal de delegación | **Art. 1.2** |
+| ¿Qué resoluciones ponen fin a la vía administrativa? | Las adoptadas por órganos de **gobierno, dirección y administración** del OAPGT | **Art. 8 bis** |
+| ¿Qué alcance tienen las competencias tributarias y sancionadoras? | Las materias del **art. 4.a** se ejercen cuando se confían, encomiendan o delegan según el marco aplicable | **Art. 4.a** |
+| ¿Quién identifica a los instructores sancionadores? | El **Consejo Rector** aprueba el organigrama de puestos/unidades; la **Presidencia** publica en BOP la identidad del titular instructor | **Disposición adicional** |
+
+### Supuesto resuelto: delegación y recurso
+
+Un enunciado sostiene que una resolución de un órgano competente del OAPGT nunca agota la vía administrativa cuando el procedimiento proviene de una delegación. **Es falso con carácter general según la redacción del art. 8 bis de 2011:** las resoluciones adoptadas por los órganos de gobierno, dirección y administración ponen fin a dicha vía. La existencia y alcance de la competencia específica deben comprobarse en la delegación y normativa aplicable; esta cláusula no permite identificar sin más quién resuelve cualquier expediente.
+
+> ⚠️ **¡Foco Examen!:** **Poner fin a la vía administrativa** no es lo mismo que impedir un recurso judicial. El **órgano instructor** tampoco es necesariamente el **órgano que resuelve**.
+
+**Reserva jurídica:** continúa pendiente el cotejo íntegro de los Estatutos originales de **1996**, su corrección y todas las reformas definitivas. No se declara el tema completamente auditado.
