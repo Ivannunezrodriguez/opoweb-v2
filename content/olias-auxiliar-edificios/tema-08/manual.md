@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 8: Recepción, control, vigilancia, llaves y cierre
 
-**Estado editorial:** EN_AUDITORIA · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**pp. 58–59**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
+**Estado editorial: AUDITADO documental (08/11/2026), con reservas locales y funcionales.** · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**pp. 58–59**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
 
 ## 1. Epígrafe oficial literal
 
@@ -8,13 +8,13 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Norma principal | Artículos/referencia | Contenido exigible |
-|---|---|---|---|
-| Funciones de recepción y alcance | TREBEP, principios de conducta | art. 54 | Conceptos, límites y ejemplos del apartado |
-| Entrada y salida de personas | TREBEP, principios de conducta | art. 54 | Conceptos, límites y ejemplos del apartado |
-| Custodia, entrega y devolución de llaves | TREBEP, principios de conducta | art. 54 | Conceptos, límites y ejemplos del apartado |
-| Apertura y cierre de centros | TREBEP, principios de conducta | art. 54 | Conceptos, límites y ejemplos del apartado |
-| Vigilancia organizativa y respuesta a incidencias | TREBEP, principios de conducta | art. 54 | Conceptos, límites y ejemplos del apartado |
+| Inciso del programa | Fuente aplicable | Contenido exigible |
+|---|---|---|
+| Funciones de recepción | **TREBEP art. 54.1 y 54.4** y bases del puesto | Información, orientación y comunicación de incidencias |
+| Entrada/salida de personas | **Protocolo del centro**; **RGPD art. 5.1.c/f** para registros | Horarios, zonas, credenciales y datos mínimos |
+| Custodia, entrega y devolución de llaves | **Inventario y procedimiento municipal** | Llave/local/persona autorizada; entregar, devolver, avisar de pérdidas |
+| Apertura y cierre | **RD 486/1997 anexo I.10**; **LPRL art. 20** | Verificar ocupación, mantener salidas libres y actuar según plan |
+| Vigilancia organizativa | **TREBEP arts. 52 y 54**; prevención y protección de datos | Observación, aviso y límites frente a funciones policiales |
 
 ## 3. Funciones de recepción y alcance
 
@@ -90,7 +90,17 @@ Una incidencia debe documentarse con **hechos observables**, fecha/hora y destin
 
 ## 8. Ejercicio aplicado
 
-**Supuesto:** ante una incidencia en el edificio municipal que afecte a una persona, un equipo o un procedimiento, identifica **competencia del auxiliar, comunicación al responsable, protección de datos y seguridad**, sin inventar atribuciones. La solución ha de basarse en las reglas del tema, el **procedimiento municipal autorizado** y las normas indicadas.
+### Supuesto 1. Pérdida de una llave maestra
+
+Durante el turno se advierte que una llave maestra no está en el armario de custodia. **Respuesta:** verificar el registro autorizado, **comunicar inmediatamente** al responsable, documentar último préstamo y activar el protocolo de seguridad. No fabricar duplicados ni publicar detalles de cerraduras o códigos en un parte abierto.
+
+> ⚠️ **¡Foco Examen!:** La **llave maestra** no se entrega por familiaridad ni uniforme. El régimen de custodia procede del **protocolo del centro**, no de una supuesta definición del **RD 486/1997**.
+
+### Supuesto 2. Cierre con visitantes y salida bloqueada
+
+Al cerrar, quedan asistentes en una actividad autorizada y varias cajas bloquean la salida. **Respuesta:** verificar ocupación con responsable, despejar y mantener **vías y salidas de evacuación expeditas**, coordinar la salida y el cierre, y comunicar la incidencia. No desactivar alarmas ni encerrar personas para respetar el horario.
+
+> ⚠️ **¡Foco Examen!:** **Controlar entradas** no permite **obstruir salidas**. El **RD 486/1997 anexo I.10** regula las condiciones de evacuación, mientras el **RGPD** se limita a datos personales del registro de visitas.
 
 ## Fuentes jurídicas y alcance
 
@@ -99,4 +109,4 @@ Una incidencia debe documentarse con **hechos observables**, fecha/hora y destin
 - [**RD 486/1997, lugares y evacuación**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669) — anexo I.
 - [**RGPD**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) — art. 5.
 
-**Control pendiente:** revisión integral de aplicación municipal y de distractores. La correcta estructura y los test no convierten este tema en «AUDITADO».
+**Cierre documental 08/11/2026:** incisos del programa cotejados, dos casos concretos resueltos y diez preguntas justificadas. Protocolos municipales, tarifas del operador y funcionamiento web no certificados.
