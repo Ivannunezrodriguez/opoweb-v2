@@ -3,38 +3,44 @@
   "numeroEnBloque": 14,
   "bloque": "especifica",
   "epigrafeOficial": "Carpintería de madera. Conocimiento, manejo y mantenimiento de herramientas básicas de carpintero (martillos, sierras, formones, taladro eléctrico, lijas, colas y otras herramientas y accesorios). Operaciones básicas de carpintería (ajuste de puertas y ventanas) Cerraduras y bombines. Persianas: Tipos, mantenimiento y reparación.",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "fuentePrograma": "BOP Toledo 204/2026, anuncio 4833, Anexo II, CSV 2026.00004833",
   "filas": [
     {
       "inciso": "Madera y elementos de carpintería",
-      "norma": "RD 1215/1997",
-      "articulos": "equipos de trabajo",
-      "contenidoExigible": "Manual apartado 3: conceptos, seguridad y práctica"
+      "norma": "Documentación técnica sobre madera y tableros",
+      "articulos": "Definiciones técnicas de madera maciza, contrachapado, aglomerado y MDF",
+      "contenidoExigible": "Identificar estructura y comportamiento ante humedad"
     },
     {
       "inciso": "Herramientas de carpintería",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención y protección",
-      "contenidoExigible": "Manual apartado 4: conceptos, seguridad y práctica"
+      "norma": "Documentación técnica de herramientas; RD 1215/1997",
+      "articulos": "RD 1215/1997, art. 3 y anexo II para uso seguro de equipos",
+      "contenidoExigible": "Serrucho, formón, sargento, escuadra, lija y taladro; evitar cortes y polvo"
     },
     {
       "inciso": "Puertas, ventanas y herrajes",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención y protección",
-      "contenidoExigible": "Manual apartado 5: conceptos, seguridad y práctica"
+      "norma": "Documentación de herrajes; RD 1215/1997 cuando proceda",
+      "articulos": "No atribuir definiciones de carpintería a Ley 31/1995; seguridad de equipos art. 3",
+      "contenidoExigible": "Roces, cerraduras, bombines y ajuste de puertas, incluyendo puertas resistentes al fuego"
     },
     {
       "inciso": "Persianas: tipos y elementos",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención y protección",
-      "contenidoExigible": "Manual apartado 6: conceptos, seguridad y práctica"
+      "norma": "Documentación técnica del fabricante de persianas",
+      "articulos": "Motores y mecanismos según modelo; uso seguro de equipos conforme RD 1215/1997",
+      "contenidoExigible": "Lamas, guías, eje, cinta, recogedor y motor; diagnóstico y límites de intervención"
     },
     {
       "inciso": "Mantenimiento, adhesivos y prevención",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención y protección",
-      "contenidoExigible": "Manual apartado 7: conceptos, seguridad y práctica"
+      "norma": "Ley 31/1995; RD 1215/1997; fichas técnicas y de seguridad",
+      "articulos": "LPRL arts. 15 y 17; RD art. 3.5 y anexo II",
+      "contenidoExigible": "Manipulación segura de adhesivos, polvo y equipos defectuosos"
     }
-  ]
+  ],
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVAS",
+    "incisosVerificados": 5,
+    "certificacionIntegral": false
+  }
 }
