@@ -3,39 +3,45 @@
   "numeroEnBloque": 12,
   "bloque": "especifica",
   "epigrafeOficial": "Fontanería. Conocimiento, manejo y mantenimiento de herramientas básicas de fontanero. Mantenimiento de instalaciones de fontanería (sanitarios, grifería, cisternas, sifones).",
-  "estado": "EN_AUDITORIA",
-  "fechaRevision": "2026-11-04",
+  "estado": "AUDITADO",
+  "fechaRevision": "2026-11-08",
   "fuentePrograma": "BOP Toledo nº 204, 23/10/2026, anuncio 2026/4833, CSV 2026.00004833",
   "filas": [
     {
       "inciso": "Redes de agua y saneamiento",
-      "norma": "Código Técnico de la Edificación",
-      "articulos": "DB HS 4 y HS 5 (documentos básicos), art. 8",
-      "contenidoExigible": "Conceptos, procedimientos, límites y diferencias del apartado 3"
+      "norma": "CTE DB HS 4 y DB HS 5",
+      "articulos": "RD 314/2006, exigencias HS 4 (suministro) y HS 5 (evacuación)",
+      "contenidoExigible": "Distinguir red a puntos de consumo de evacuación y evitar retornos contaminantes"
     },
     {
       "inciso": "Herramientas y elementos",
-      "norma": "RD 3/2023, calidad del agua",
-      "articulos": "instalaciones interiores y mantenimiento",
-      "contenidoExigible": "Conceptos, procedimientos, límites y diferencias del apartado 4"
+      "norma": "Documentación técnica de fontanería; RD 1215/1997 si hay equipos de trabajo",
+      "articulos": "Herramientas y accesorios son conceptos técnicos; uso seguro de equipos según art. 3",
+      "contenidoExigible": "Llave grifa/ajustable, cortatubos, juntas y precauciones sobre materiales y presión"
     },
     {
       "inciso": "Grifería, cisternas y sanitarios",
-      "norma": "RD 1215/1997",
-      "articulos": "equipos de trabajo",
-      "contenidoExigible": "Conceptos, procedimientos, límites y diferencias del apartado 5"
+      "norma": "CTE DB HS 4 y HS 5; instrucciones del fabricante",
+      "articulos": "HS 4 para suministro; HS 5 para evacuación; el mecanismo de cisterna es contenido técnico",
+      "contenidoExigible": "Aireador, llenado, descarga, llave de corte y reconocimiento de fugas"
     },
     {
       "inciso": "Sifones y desagües",
-      "norma": "RD 1215/1997",
-      "articulos": "equipos de trabajo",
-      "contenidoExigible": "Conceptos, procedimientos, límites y diferencias del apartado 6"
+      "norma": "CTE DB HS 5; documentación técnica de saneamiento",
+      "articulos": "Exigencia básica HS 5: evacuación de aguas",
+      "contenidoExigible": "Cierre hidráulico, malos olores, obstrucciones y mantenimiento seguro"
     },
     {
       "inciso": "Agua de consumo y mantenimiento",
-      "norma": "RD 1215/1997",
-      "articulos": "equipos de trabajo",
-      "contenidoExigible": "Conceptos, procedimientos, límites y diferencias del apartado 7"
+      "norma": "RD 3/2023",
+      "articulos": "Art. 40.1, 40.3 y 40.4: características y mantenimiento de instalaciones interiores",
+      "contenidoExigible": "Calidad del agua, actuación del titular del edificio, incidentes y límite de responsabilidad del auxiliar"
     }
-  ]
+  ],
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVA_FUNCIONAL",
+    "incisosVerificados": 5,
+    "fuentesReasignadas": true,
+    "certificacionIntegral": false
+  }
 }
