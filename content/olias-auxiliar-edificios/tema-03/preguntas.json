@@ -1,6 +1,6 @@
 {
   "tema": 3,
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "version": "2026-11-05-bloque-general-01-04",
   "preguntas": [
     {
@@ -15,7 +15,8 @@
       "respuestaCorrecta": 1,
       "justificacion": "El artículo 4 recoge expresamente la ocupación efectiva.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 4 ET**: ocupación efectiva es un **derecho laboral**, no garantía de inamovilidad funcionarial.",
-      "referencia": "ET, art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a4"
+      "referencia": "ET, art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a4",
+      "respuestaLiteral": "Ocupación efectiva"
     },
     {
       "id": "OLIAS-T03-002",
@@ -29,7 +30,8 @@
       "respuestaCorrecta": 3,
       "justificacion": "El Estatuto contempla buena fe y diligencia.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 5 ET**: buena fe y diligencia son **deberes básicos del trabajador**.",
-      "referencia": "ET, art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a5"
+      "referencia": "ET, art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430#a5",
+      "respuestaLiteral": "ET, art. 5"
     },
     {
       "id": "OLIAS-T03-003",
@@ -43,7 +45,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "El artículo 11 TREBEP contempla contrato de trabajo.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 11 TREBEP**: personal laboral trabaja con **contrato escrito**; funcionarios interinos tienen **nombramiento**.",
-      "referencia": "TREBEP, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a11"
+      "referencia": "TREBEP, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a11",
+      "respuestaLiteral": "Contrato de trabajo escrito"
     },
     {
       "id": "OLIAS-T03-004",
@@ -57,7 +60,8 @@
       "respuestaCorrecta": 1,
       "justificacion": "Principios expresos del TREBEP.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 11.3 TREBEP**: selección de personal laboral **pública** por **igualdad, mérito y capacidad**.",
-      "referencia": "TREBEP, art. 11.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a11"
+      "referencia": "TREBEP, art. 11.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a11",
+      "respuestaLiteral": "Igualdad, mérito y capacidad"
     },
     {
       "id": "OLIAS-T03-005",
@@ -71,7 +75,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "Derecho y deber correlativo de prevención.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 14 LPRL**: derecho a **protección eficaz** y correlativo deber empresarial de proteger.",
-      "referencia": "LPRL, art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14"
+      "referencia": "LPRL, art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14",
+      "respuestaLiteral": "Art. 14"
     },
     {
       "id": "OLIAS-T03-006",
@@ -85,7 +90,8 @@
       "respuestaCorrecta": 1,
       "justificacion": "Derechos de información y formación.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Arts. 18 y 19 LPRL**: **información** no es lo mismo que **formación preventiva**.",
-      "referencia": "LPRL, arts. 18 y 19 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a18"
+      "referencia": "LPRL, arts. 18 y 19 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a18",
+      "respuestaLiteral": "Arts. 18 y 19 LPRL"
     },
     {
       "id": "OLIAS-T03-007",
@@ -99,7 +105,8 @@
       "respuestaCorrecta": 3,
       "justificacion": "El art. 29 exige usar correctamente los equipos y no inutilizar protecciones.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 29 LPRL**: no se puede **inutilizar dispositivos de seguridad**; comunicar riesgos de inmediato.",
-      "referencia": "LPRL, art. 29 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a29"
+      "referencia": "LPRL, art. 29 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a29",
+      "respuestaLiteral": "No inutilizar dispositivos de seguridad"
     },
     {
       "id": "OLIAS-T03-008",
@@ -113,7 +120,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "Vínculo laboral no debe confundirse con el estatutario.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 11 TREBEP**: laboral **fijo** no es ni funcionario de carrera ni personal eventual.",
-      "referencia": "TREBEP, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a11"
+      "referencia": "TREBEP, art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a11",
+      "respuestaLiteral": "Quien tiene contrato laboral fijo con una Administración"
     },
     {
       "id": "OLIAS-T03-009",
@@ -127,7 +135,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "El artículo 54 contiene principios de conducta.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **TREBEP art. 54** regula principios de **conducta**; el **53** contiene principios **éticos**.",
-      "referencia": "TREBEP, art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a54"
+      "referencia": "TREBEP, art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a54",
+      "respuestaLiteral": "TREBEP, art. 54"
     },
     {
       "id": "OLIAS-T03-010",
@@ -141,7 +150,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "La acción preventiva prioriza evitar y combatir riesgos en origen.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 15 LPRL**: evitar y combatir riesgos en su origen tiene preferencia sobre limitarse a dar EPI.",
-      "referencia": "LPRL, art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a15"
+      "referencia": "LPRL, art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a15",
+      "respuestaLiteral": "Evitar riesgos en origen"
     }
   ],
   "controlLote20261105": {
@@ -156,5 +166,13 @@
     "items": 10,
     "criterio": "Un foco específico por pregunta frente a distractores jurídicos del mismo bloque",
     "cierreIntegral": false
+  },
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "tipo": "BANCO_DOCUMENTAL_COTEJADO",
+    "preguntasRevisadas": 10,
+    "alternativas": 40,
+    "respuestasPreservadas": true,
+    "certificacionIntegral": false
   }
 }
