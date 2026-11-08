@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 17 · Fontanería: grifos, sanitarios, cisternas y sifones
 
-**Estado editorial: EN_AUDITORIA.** Primera edición **04/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
+**Estado editorial: AUDITADO DOCUMENTAL (08/11/2026), con reservas funcionales.** Primera edición **04/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,13 +8,13 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Referencia | Exigencia |
+| Inciso del programa | Referencia aplicable | Contenido exigible |
 |---|---|---|
-| Redes de agua y saneamiento | Código Técnico de la Edificación | Reglas, componentes y diferencias |
-| Herramientas y elementos | RD 3/2023, calidad del agua | Reglas, componentes y diferencias |
-| Grifería, cisternas y sanitarios | RD 1215/1997 | Reglas, componentes y diferencias |
-| Sifones y desagües | RD 1215/1997 | Reglas, componentes y diferencias |
-| Agua de consumo y mantenimiento | RD 1215/1997 | Reglas, componentes y diferencias |
+| Redes de agua y saneamiento | **CTE DB HS 4 (suministro)** y **HS 5 (evacuación)** | Dos circuitos distintos, con medidas frente a retornos contaminantes |
+| Herramientas y elementos | **Documentación técnica**; **RD 1215/1997** si se utilizan equipos de trabajo | Llaves, cortatubos, juntas, uniones y seguridad de tareas |
+| Grifería, cisternas y sanitarios | **CTE HS 4 y HS 5**; instrucciones de fabricante | Aireador, mecanismo de llenado, mecanismo de descarga, llaves de corte |
+| Sifones y desagües | **CTE DB HS 5**, saneamiento | Sello hidráulico, ventilación y prevención de malos olores |
+| Agua de consumo y mantenimiento | **RD 3/2023 art. 40.1, 40.3 y 40.4** | Obligaciones de conservación del titular, riesgos sanitarios y límites del auxiliar |
 
 ## 3. Redes de agua y saneamiento
 
@@ -92,7 +92,17 @@ No atribuir al auxiliar función de **laboratorio, inspección sanitaria o empre
 
 ## 8. Ejercicio integrado
 
-**Supuesto:** durante un turno en edificio público se detecta una incidencia vinculada con el contenido del tema. La respuesta debe identificar **riesgo y competencia**, proteger a los usuarios, registrar lo imprescindible y avisar al órgano o técnico correspondiente. **No realizar intervenciones peligrosas sin atribuciones, formación y autorización.**
+### Supuesto 1. Cisterna con descarga continua
+
+En unos aseos municipales la cisterna no deja de verter agua al inodoro. **Respuesta:** comprobar visualmente si el fallo afecta a entrada, flotador o mecanismo de descarga; si está autorizado y la llave es accesible, **aislar el suministro local** para limitar el desperdicio; señalizar el sanitario e informar de la reparación necesaria. No desmontar instalaciones ni trabajar en una red presurizada sin formación y permiso.
+
+> ⚠️ **¡Foco Examen!:** **Mecanismo de llenado** regula el agua que entra; **mecanismo de descarga** libera el agua del depósito. No son sinónimos.
+
+### Supuesto 2. Mal olor, atasco y agua turbia
+
+Un lavabo evacua lentamente y desprende olor, mientras otro grifo suministra agua turbia. **Respuesta:** comunicar por separado la incidencia de **evacuación** (posible sifón o ventilación) y la de **calidad del agua de consumo**; limitar el uso de agua potencialmente afectada según protocolo y avisar al responsable sanitario. No mezclar desatascadores químicos ni asumir que el aspecto del agua determina por sí solo su potabilidad.
+
+> ⚠️ **¡Foco Examen!:** **CTE HS 5** regula la evacuación; **CTE HS 4** el suministro; **RD 3/2023 art. 40** establece obligaciones de conservación de la instalación interior y protección de la calidad. Son marcos distintos.
 
 ## Fuentes, delimitación y revisión
 
@@ -100,4 +110,4 @@ No atribuir al auxiliar función de **laboratorio, inspección sanitaria o empre
 - [**RD 3/2023, calidad del agua**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-628) — instalaciones interiores y mantenimiento.
 - [**RD 1215/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824) — equipos de trabajo.
 
-La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. Tema en auditoría editorial, no certificado jurídicamente de forma integral.
+**Cierre documental 08/11/2026:** cinco incisos cotejados y dos supuestos concretos; diez preguntas conservadas, con explicación y referencia reconstruidas. No se inventan esquemas de la instalación municipal. Pendientes pruebas funcionales y protocolos locales.
