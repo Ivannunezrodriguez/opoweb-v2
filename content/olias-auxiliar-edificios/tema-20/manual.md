@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 20 · Jardinería, riego y fitosanitarios
 
-**Estado: EN_AUDITORIA.** Fecha **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
+**Estado: AUDITADO documental el 08/11/2026, con reservas funcionales y de instalaciones municipales.** Primera edición **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -119,7 +119,37 @@ El **art. 20.2** establece una **validez de 10 años** del carné en todo el ter
 
 ## 9. Supuesto de repaso
 
-**Situación:** el auxiliar detecta una incidencia del área del tema. Debe **distinguir conocimientos básicos de intervención técnica**, comunicar al responsable, evitar riesgos y consultar el manual de fabricante o la norma aplicable. Solo realizará operaciones que se encuentren dentro de sus **atribuciones, formación y autorización**.
+### Supuesto 1. Aspersor averiado y peatones
+
+En una zona ajardinada municipal un **aspersor** moja la acera y un cuadro eléctrico próximo. **Actuación:** delimitar el área de riesgo, impedir el acceso a partes eléctricas y **avisar al responsable**. Si está autorizado en el procedimiento del centro, detener el sector desde el **programador** sin intervenir en instalaciones eléctricas ni en conducciones presurizadas. El personal competente comprobará presión, boquilla, orientación y **electroválvula**.
+
+| Elemento | Función |
+|---|---|
+| **Programador** | Ordena horarios y sectores |
+| **Electroválvula** | Abre o cierra el paso de agua del sector |
+| **Aspersor** | Distribuye agua por aspersión |
+| **Gotero** | Aporta agua localizada |
+
+> ⚠️ **¡Foco Examen!:** **Programador** no es sinónimo de **electroválvula**. Detectar riesgo eléctrico por riego obliga a **priorizar la seguridad**, no a manipular cables mojados.
+
+### Supuesto 2. Solicitud de insecticida en un jardín
+
+Se observan insectos en una zona municipal y se propone que un auxiliar rocíe un producto fitosanitario profesional sin comprobar su habilitación. **Actuación:** identificar y registrar la incidencia, informar al responsable, solicitar evaluación previa y valorar medidas de **gestión integrada de plagas**. **No aplicar** el producto hasta comprobar autorización para ese uso, **carné del nivel correspondiente**, etiqueta, condiciones ambientales, equipos de protección y procedimiento. El **art. 18 RD 1311/2012** distingue **básico** (personal auxiliar de tratamientos en los supuestos legales) y **cualificado** (responsables de tratamientos terrestres); este último **no sustituye** la capacitación específica de **fumigador** o **piloto aplicador**.
+
+| Cuestión | Regla del RD 1311/2012 |
+|---|---|
+| Obligación general de carné desde | **26 de noviembre de 2015** (art. **17**) |
+| Niveles | **4**: básico, cualificado, fumigador y piloto (art. **18**) |
+| Vigencia del carné | **10 años** salvo retirada anticipada (art. **20.2**) |
+| Resolver y notificar solicitud | **3 meses**, **salvo regulación autonómica distinta** (art. **20.1**) |
+
+> ⚠️ **¡Foco Examen!:** Tener **carné básico** no convierte al auxiliar en **responsable de cualquier tratamiento**. Una plaza C2 tampoco equivale a capacitación fitosanitaria.
+
+### Supuesto 3. Abono y calendario de labores
+
+En verano se propone aumentar indiscriminadamente la dosis de abono y regar todo el jardín cada mediodía. **Respuesta:** comprobar especies, condiciones del suelo, humedad, meteorología y la **etiqueta del fertilizante**, aplicar la dosis técnica prevista y revisar programación del riego según necesidades reales y restricciones municipales vigentes. El abonado no sustituye la reparación de emisores y el exceso de fertilizante puede provocar daños en raíces o contaminación.
+
+> ⚠️ **¡Foco Examen!:** **NPK** identifica nutrientes (**nitrógeno, fósforo y potasio**), no una dosis universal ni un calendario fijo de abonado.
 
 ## Fuentes de referencia
 
@@ -127,4 +157,4 @@ El **art. 20.2** establece una **validez de 10 años** del carné en todo el ter
 - [**RD 1215/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824) — equipos de trabajo.
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — prevención y EPIs.
 
-**Control editorial pendiente:** verificar aplicaciones prácticas y excepcionalidades en normativa técnica, sin confundir desarrollo pedagógico con el texto de las bases.
+**Cierre documental 08/11/2026:** cinco incisos de cobertura, tres supuestos concretos, revisión del RD 1311/2012 y banco de dieciséis preguntas; pendientes inventario de instalaciones, restricciones locales de riego y pruebas funcionales reales.
