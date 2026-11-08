@@ -46,7 +46,7 @@ Cuando se obtenga el texto oficial íntegro del Acuerdo Regulador y de los Estat
 - [TREBEP, artículo 38](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719): distinción de Pactos y Acuerdos, aprobación y publicación.
 - [LRBRL, artículo 106](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392): potestad tributaria y delegación.
 
-**Control de calidad:** enlaces y fichas localizados, pero textos íntegros de Acuerdo, modificaciones y Estatutos vigentes del OAPGT **no consultados aún**; prohibido atribuir cifras y cláusulas particulares como verificadas. **20 preguntas**, solo sobre extremos generales acreditables o sobre el estado de verificación.
+**Control de calidad:** enlaces y fichas localizados, pero textos íntegros de Acuerdo, modificaciones y Estatutos vigentes del OAPGT **no consultados aún**; prohibido atribuir cifras y cláusulas particulares como verificadas. **24 preguntas / 96 alternativas**, sin sustituir la auditoría estatutaria íntegra.
 
 ## Publicaciones oficiales específicas cotejadas en noviembre de 2026
 
@@ -56,7 +56,7 @@ Cuando se obtenga el texto oficial íntegro del Acuerdo Regulador y de los Estat
 - [**BOP 284/2011, modificación Estatutos OAPGT**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011): arts. 1, 4, 8 bis, 14 y disposición adicional.
 - **Pendiente únicamente para certificación integral del tema 22:** original y todas las modificaciones que permitan reconstruir los **Estatutos completos vigentes**. No se declaran quórums actuales del Consejo Rector.
 
-[**Informe del bloque C1 20–23**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md). **Cierre parcial de fuente específica; pendiente Estatutos íntegros**, con **20 preguntas, 80 alternativas**. Pruebas de navegador y accesibilidad transversales.
+[**Informe del bloque C1 20–23**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cotejo-bloque-20-23-2026-11-05.md). **Cierre parcial de fuente específica; pendiente Estatutos íntegros**, con **24 preguntas, 96 alternativas**. Pruebas de navegador y accesibilidad transversales.
 
 > ⚠️ **¡Foco Examen!:** No confundir normas estatales con las cláusulas especiales de la Diputación ni con excepciones jurídicas.
 
@@ -91,3 +91,10 @@ La [sede electrónica del OAPGT, normativa](https://sede.oapgt.es/Paginas/Normat
 - [**BOP 113, 17/06/2024, anuncio 3152**](https://bop.diputoledo.es/webEbop/DocGet?id=24065870%3B0&insert_number=3152&insert_year=2024): invoca las facultades de **Presidencia, art. 12.2.l), 8)** de los **vigentes Estatutos** para corregir bases de una convocatoria.
 
 **Fuerza probatoria delimitada:** los anuncios corroboran competencias efectivamente ejercidas **en 2019 y 2024**; ninguno proporciona la versión consolidada completa de **1996, corrección de 1996 y reformas posteriores**. Sigue **EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES** y no se inventa composición ni quórum de Consejo Rector.
+
+
+## Contraste directo de la reforma estatutaria de 2011 — **08/11/2026**
+
+Leída y cotejada la página oficial del [**BOP Toledo 284/2011, anuncio 11024**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011), reforma aprobada por el **Pleno de Diputación el 28/11/2011**. Contiene el **art. 1.2 (adscripción a Presidencia)**, **art. 8 bis (fin de vía administrativa)**, **art. 4.a (materias de delegación)**, **art. 14.d.1 (resoluciones en funciones atribuidas)** y **disposición adicional (órgano instructor, organigrama y publicación por Presidencia)**. Incorporada una tabla y un caso al manual sin modificar el banco de **24 preguntas / 96 alternativas**.
+
+**Límite:** esta publicación acredita su texto de **2011**, no el texto estatutario íntegro consolidado en **2026**. T22 sigue pendiente.
