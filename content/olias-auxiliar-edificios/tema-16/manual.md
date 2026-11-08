@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 16 · Carpintería metálica, cerraduras y bombines
 
-**Estado: EN_AUDITORIA.** Fecha **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
+**Estado: AUDITADO DOCUMENTAL (08/11/2026), con reservas funcionales.** Fecha **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,12 +8,12 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Norma o referencia técnica | Desarrollo |
+| Inciso del programa | Referencia aplicable | Contenido exigible |
 |---|---|---|
-| Materiales y elementos metálicos | RD 1215/1997 | Conceptos, seguridad y distinciones |
-| Ajuste de puertas y ventanas | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Cerraduras, bombines y llaves | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Herramientas, prevención y mantenimiento | Ley 31/1995 | Conceptos, seguridad y distinciones |
+| Materiales y elementos metálicos | **Documentación técnica** de carpintería; no atribuir definiciones a la LPRL | Marco, hoja, pernio, bisagra, cerradero, acero y aluminio |
+| Ajuste de puertas y ventanas | **Instrucciones del fabricante**, y **RD 1215/1997 art. 3 y anexo II** al usar equipos de trabajo | Reconocimiento de roces, holguras, juntas y riesgos por hojas pesadas |
+| Cerraduras, bombines y llaves | **Documentación técnica** y protocolo de llaves que apruebe el centro | Diferenciar cerradura completa, bombín, pestillo y cerradero |
+| Herramientas, prevención y mantenimiento | **RD 1215/1997 art. 3.5 y anexo II**; **LPRL arts. 15 y 17** | Retirar elementos dañados y no realizar trabajos peligrosos sin capacitación |
 
 ## 3. Materiales y elementos metálicos
 
@@ -76,11 +76,21 @@ Se comunica corrosión avanzada, holgura de anclajes o cierres de evacuación de
 
 ## 7. Supuesto de repaso
 
-**Situación:** el auxiliar detecta una incidencia del área del tema. Debe **distinguir conocimientos básicos de intervención técnica**, comunicar al responsable, evitar riesgos y consultar el manual de fabricante o la norma aplicable. Solo realizará operaciones que se encuentren dentro de sus **atribuciones, formación y autorización**.
+### Supuesto 1. Puerta cortafuegos que roza y no cierra
+
+Una hoja metálica de un itinerario de evacuación roza el suelo y el personal propone rebajarla o fijarla abierta mediante una cuña. **Respuesta:** impedir la solución improvisada, comunicar de inmediato la deficiencia del cierre al responsable y solicitar personal competente para ajustar el herraje conforme a la certificación y manual de la puerta. No retirar cierrapuertas, sellos ni alterar la hoja sin evaluación autorizada.
+
+> ⚠️ **¡Foco Examen!:** **Bisagra** y **cierrapuertas** tienen funciones distintas. Una puerta resistente al fuego no se modifica ni se calza permanentemente por comodidad.
+
+### Supuesto 2. Sustitución solicitada de bombín
+
+El responsable comunica la pérdida de una llave, pero un empleado ofrece duplicar la llave maestra y cambiar el cilindro sin registro. **Respuesta:** proteger el acceso, comunicar la incidencia por el canal aprobado, verificar autorización e inventario de llaves y encomendar la sustitución al personal habilitado. Una prueba de cierre debe respetar las salidas de emergencia y accesibilidad.
+
+> ⚠️ **¡Foco Examen!:** **Bombín** no equivale a **cerradura**. Tener una llave no acredita autorización para duplicarla; el control de llaves debe preservar la trazabilidad.
 
 ## Fuentes de referencia
 
 - [**RD 1215/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824) — equipos de trabajo.
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — prevención y EPIs.
 
-**Control editorial pendiente:** verificar aplicaciones prácticas y excepcionalidades en normativa técnica, sin confundir desarrollo pedagógico con el texto de las bases.
+**Cierre documental 08/11/2026:** cuatro incisos desarrollados, referencias técnicas separadas de las normas preventivas, dos supuestos resueltos y diez preguntas con fundamento concreto. **Sin** comprobación del herraje real del centro, permisos municipales, ejecución CI o navegador.
