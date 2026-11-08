@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 3: Estatuto de Trabajadores, EBEP y prevención
 
-**Estado editorial:** EN_AUDITORIA · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**p. 58**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
+**Estado editorial:** AUDITADO documental (08/11/2026), con reserva funcional · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**p. 58**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
 
 ## 1. Epígrafe oficial literal
 
@@ -78,10 +78,30 @@ Las medidas priorizan **evitar riesgos**, evaluarlos cuando no puedan evitarse, 
 
 **Supuesto:** ante una incidencia en el edificio municipal que afecte a una persona, un equipo o un procedimiento, identifica **competencia del auxiliar, comunicación al responsable, protección de datos y seguridad**, sin inventar atribuciones. La solución ha de basarse en las reglas del tema, el **procedimiento municipal autorizado** y las normas indicadas.
 
+## 8. Supuestos prácticos de examen
+
+### Supuesto 1. Personal laboral fijo y funcionarios
+
+Una persona accede a una plaza **laboral fija** del Ayuntamiento mediante contrato y sostiene que se convierte en funcionaria de carrera. **Respuesta:** no; conforme al **TREBEP art. 11**, el personal laboral presta servicios en virtud de **contrato de trabajo formalizado por escrito**; fijo, por tiempo indefinido o temporal según corresponda. Se aplica el **Estatuto de los Trabajadores** y el **TREBEP** con el alcance propio del personal laboral, sin atribuirle automáticamente condición funcionarial.
+
+> ⚠️ **¡Foco Examen!:** **Laboral fijo ≠ funcionario de carrera**; tampoco debe confundirse con una contratación laboral temporal.
+
+### Supuesto 2. Riesgo grave e inminente
+
+Un empleado detecta una máquina defectuosa durante una tarea de mantenimiento. **Respuesta:** comunicar el riesgo, no inutilizar protecciones y aplicar las medidas del centro. La **Administración empleadora** mantiene su deber de protección eficaz (**LPRL art. 14**) y el trabajador tiene deberes preventivos (**art. 29**); el **art. 21** regula la actuación ante **riesgo grave e inminente**.
+
+| Empleador | Persona trabajadora |
+|---|---|
+| **Evaluar riesgos y proteger** | **Usar correctamente equipos** |
+| **Informar y formar** | **Comunicar peligro** |
+| **Planificar emergencias** | **No inutilizar protecciones** |
+
+> ⚠️ **¡Foco Examen!:** La responsabilidad preventiva del empleador **no elimina** los deberes del trabajador, ni al revés.
+
 ## Fuentes jurídicas y alcance
 
 - [**Estatuto de los Trabajadores**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430) — arts. 4, 5, 17, 19, 20.
 - [**TREBEP**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) — arts. 11, 14, 15, 52-54.
 - [**Ley 31/1995, prevención de riesgos**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — arts. 14, 18-21 y 29.
 
-**Control pendiente:** revisión integral de aplicación municipal y de distractores. La correcta estructura y los test no convierten este tema en «AUDITADO».
+**Cierre documental 08/11/2026:** cuatro incisos, diez preguntas cotejadas y dos supuestos resueltos. La acreditación del convenio aplicable y las pruebas funcionales integrales quedan fuera de este cierre.
