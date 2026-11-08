@@ -32,3 +32,14 @@ Se ha localizado el [**INE · Callejero del Censo Electoral (datos abiertos)**](
 **Trabajo concreto pendiente para T13:** descargar la provincia **Toledo**, seleccionar **municipio Olías del Rey (código INE 45122)**, deduplicar las entradas de **VIAS**, conservar **tipo y nombre oficial** y cotejar los casos de denominaciones o vías sin tramo contra el municipio. Hasta completar esta extracción real y verificar el resultado **NO** se atribuye al temario un callejero exhaustivo ni se cambia el estado **EN_AUDITORIA**. Las direcciones discrepantes del directorio municipal requieren cotejo adicional del portal físico antes de orientar a un usuario.
 
 > ⚠️ **¡Foco Examen!:** **Callejero electoral INE** es una relación de vías/tramos con fecha de referencia; **directorio de servicios** solo incluye lugares seleccionados. Una relación de doce calles importantes **no** cubre por sí sola el epígrafe «callejero».
+
+
+## Control de callejero íntegro — **08/11/2026**, intento de descarga
+
+Se verificó de nuevo la [**página del callejero electoral del INE**](https://www.ine.es/prodyser/callejero/) y se constató que los ficheros **VIAS**, **PSEU**, **TRAM**, **UP** y **SECC** se publican por provincia y fecha. La publicación de **julio de 2026** tiene referencia **30/06/2026**, no **31/07/2026**. También se comprobó la existencia del municipio **45122 — Olías del Rey** en las tablas provinciales del INE.
+
+**Limitación concreta de esta sesión:** el selector dinámico de ficheros del INE no expone una URL de ZIP directamente recuperable en el navegador de consulta y el entorno de ejecución no puede resolver la dirección para descargarlo. **No se ha accedido ni leído el archivo VIAS de Toledo**, por lo que **no existe un recuento de vías completo verificable**. No se sustituye por datos de otras fechas, listados comerciales o recorridos inferidos.
+
+**Trabajo sí realizado:** tabla de servicios y vías ampliada, distinción entre portales **1/7 de Plaza Constitución**, servicios de **Arenal, Flor, Higares, Cabañuelas, Toledo** y zonas residenciales, así como **21 preguntas y 84 alternativas** centradas en datos municipales o metodología INE. El **manual, matriz y banco** mantienen **EN_AUDITORIA** mientras no exista el listado íntegro y contrastado. **0 certificaciones integrales**.
+
+> ⚠️ **¡Foco Examen!:** Un fichero **TRAM** contiene tramos y una vía puede repetirse en distintas secciones; no contar filas de TRAM como número de calles. El tipo de vía y nombre proceden de **VIAS** y deben depurarse por municipio y código.
