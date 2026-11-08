@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 12 · Máquinas auxiliares, mobiliario, locales y salas
 
-**Estado editorial: EN_AUDITORIA.** Primera edición **04/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
+**Estado editorial: AUDITADO (cierre documental con reserva funcional).** Primera edición **04/11/2026**; revisión de contenido y trazabilidad **08/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,13 +8,13 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Referencia | Exigencia |
+| Inciso del programa | Referencia jurídicamente aplicable | Contenido exigible |
 |---|---|---|
-| Máquinas auxiliares de oficina | RD 1215/1997 | Reglas, componentes y diferencias |
-| Conservación de mobiliario | RD 486/1997 | Reglas, componentes y diferencias |
-| Instalaciones y locales | Ley 31/1995 | Reglas, componentes y diferencias |
-| Preparación de salas de reuniones | Ley 31/1995 | Reglas, componentes y diferencias |
-| Cierre y devolución de equipos | Ley 31/1995 | Reglas, componentes y diferencias |
+| Máquinas auxiliares de oficina | **RD 1215/1997, art. 3 y anexo II** | Uso y mantenimiento seguro, sin suponer competencia para reparar |
+| Conservación de mobiliario | **RD 486/1997, anexos I y II**; **LPRL art. 17** | Estabilidad, orden, obstáculos y comunicación de daños |
+| Instalaciones y locales | **RD 486/1997, anexos I, II, IV y VI** | Circulación, evacuación, limpieza, iluminación y material de primeros auxilios |
+| Preparación de salas de reuniones | **RD 486/1997, anexos I y II**; instrucciones de reserva y aforo del centro | Disposición de sillas y equipos sin bloquear itinerarios ni salidas |
+| Cierre y devolución de equipos | **RD 1215/1997** y **RGPD art. 5.1.f** | Apagado seguro, devolución y custodia de objetos y documentos |
 
 ## 3. Máquinas auxiliares de oficina
 
@@ -92,7 +92,17 @@ La **documentación olvidada** se custodia y comunica por canal autorizado; se e
 
 ## 8. Ejercicio integrado
 
-**Supuesto:** durante un turno en edificio público se detecta una incidencia vinculada con el contenido del tema. La respuesta debe identificar **riesgo y competencia**, proteger a los usuarios, registrar lo imprescindible y avisar al órgano o técnico correspondiente. **No realizar intervenciones peligrosas sin atribuciones, formación y autorización.**
+### Supuesto 1. Sala de reuniones para 40 asistentes
+
+La sala admite un aforo autorizado menor que el número previsto y alguien propone colocar sillas delante de la salida de emergencia. **Actuación correcta:** no superar el **aforo autorizado aplicable**, mantener **salidas y vías de evacuación libres**, comunicar la insuficiencia de capacidad y pedir otro espacio o redistribución autorizada; verificar accesibilidad, iluminación y cables antes de permitir la entrada.
+
+> ⚠️ **¡Foco Examen!:** La disposición **en U**, **escuela** o **teatro** no modifica el aforo legal ni autoriza obstruir evacuación. No inventar una cifra universal de metros cuadrados por persona para cualquier sala municipal.
+
+### Supuesto 2. Cierre con documentación olvidada
+
+Al finalizar una reunión se detectan documentos personales junto a un proyector aún caliente y una silla con pata dañada. **Actuación correcta:** custodiar documentos y comunicar su hallazgo **sin leerlos ni divulgarlos**; respetar el ciclo de apagado previsto para el proyector; **retirar de uso** la silla y notificar reparación; comprobar puertas, llaves y materiales conforme al procedimiento del centro.
+
+> ⚠️ **¡Foco Examen!:** No son actuaciones equivalentes **custodiar**, **archivar** o **destruir** documentación: cada una requiere instrucciones y legitimación apropiadas.
 
 ## Fuentes, delimitación y revisión
 
@@ -100,4 +110,4 @@ La **documentación olvidada** se custodia y comunica por canal autorizado; se e
 - [**RD 486/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669) — anexos I y V.
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — arts. 14-19.
 
-La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. Tema en auditoría editorial, no certificado jurídicamente de forma integral.
+La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. **Cierre documental 08/11/2026:** desarrollo de todos los incisos del BOP, corrección de atribución normativa, tabla comparativa y dos situaciones concretas; **pendientes** pruebas funcionales en navegador, control integral de cambios posteriores y cotejo de protocolos municipales no públicos.
