@@ -287,3 +287,29 @@ El usuario aprobó expresamente el tema mediante la frase **«Tema 16 aprobado»
 ## Repaso focal previo al examen — 07/11/2026
 
 [**T13–T16: tabla comparativa y 8 microcasos con fuentes oficiales**](../REPASO_FOCAL_T13_T16_20261107.md). **Material complementario**, sin modificación de las 12 preguntas históricas del tema ni certificación de pruebas funcionales de navegador.
+
+
+## Casos de examen revalidados · Edge y modo IE — **08/11/2026**
+
+### Supuesto 1. Portal administrativo antiguo que exige IE
+
+Una aplicación antigua no funciona en el motor moderno de Microsoft Edge. La opción corporativa es **modo Internet Explorer en Edge**, configurado para los sitios concretos que precisen compatibilidad. No implica instalar **Internet Explorer 11 de escritorio** como navegador principal. Microsoft documenta que la aplicación IE11 terminó su soporte ordinario el **15/06/2022** en las versiones afectadas de Windows, mientras el **modo IE** permanece previsto **al menos hasta 2029**.
+
+| Tecnología | Distinguir |
+|---|---|
+| **IE11 de escritorio** | Retirado en versiones afectadas; existen excepciones según edición o sistema |
+| **Microsoft Edge** | Navegador actual de Microsoft |
+| **Modo IE de Edge** | Compatibilidad con webs heredadas, habilitada por sitio |
+| **InPrivate** | Reduce datos persistidos localmente, no vuelve anónima la navegación |
+
+> ⚠️ **¡Foco Examen!:** **Retirada de IE11** y **soporte del modo IE** son dos calendarios distintos. No extrapolar el cese ordinario a todas las ediciones especiales.
+
+### Supuesto 2. PDF descargado en InPrivate
+
+Una persona descarga un archivo PDF con **InPrivate** y después cierra todas las ventanas privadas. El documento descargado **permanece en el dispositivo**, salvo borrado independiente. Borrar el **historial de descargas** del navegador tampoco significa eliminar los archivos guardados. **HTTPS** ayuda a cifrar la comunicación y autenticar el servidor, pero **no garantiza** que el contenido o la finalidad de una web sean fiables.
+
+> ⚠️ **¡Foco Examen!:** **InPrivate no borra descargas**, **borrar historial no destruye archivos**, y **HTTPS no es garantía universal contra el fraude**.
+
+**Fuentes primarias:** [Microsoft, modo IE en Edge](https://support.microsoft.com/es-es/edge/internet-explorer-mode-in-microsoft-edge) y [Microsoft Learn, ciclo de vida IE11](https://learn.microsoft.com/en-us/lifecycle/announcements/internet-explorer-11-end-of-support).
+
+**Revalidación focal 08/11/2026:** dos casos de aplicación nuevos y **12 preguntas/48 alternativas** históricas mantenidas; no se certifican pruebas E2E ni configuración corporativa concreta.
