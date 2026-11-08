@@ -12,6 +12,13 @@
 
 > ⚠️ **¡Foco Examen!:** En técnicas manuales y ofimática, los procedimientos concretos dependen de equipo, fabricante y protocolo; no se atribuyen al BOP características técnicas no publicadas.
 
-**Estado: EN_AUDITORIA**, **04/11/2026**.
+**Estado: AUDITADO documental**, **08/11/2026**; certificación funcional integral pendiente.
 
 **Contraste BOE 04/11/2026:** [RD 1311/2012 consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2012-11605): **art. 17** exigencia desde **26/11/2015**, **art. 18** cuatro niveles y excepciones formativas, **art. 20** validez **10 años** y procedimiento autonómico (máximo **3 meses** a falta de previsión autonómica diferente). No atribuir carné al auxiliar sin acreditación.
+
+
+## Cierre documental — **08/11/2026**
+
+Se ha comprobado el [**RD 1311/2012 consolidado**](https://www.boe.es/eli/es/rd/2012/09/14/1311/con), actualización publicada **20/11/2025**, en especial **art. 17** (obligación general de carné desde **26/11/2015** y excepciones), **art. 18** (**cuatro niveles**; cualificado distinto de fumigador y piloto) y **art. 20** (resolución **3 meses** salvo norma autonómica diferente y carné **10 años**). Para operaciones ajenas a la agricultura el **art. 16.1** contempla registros de tratamientos profesionales; la mera categoría de auxiliar C2 **no habilita** a realizar tratamientos profesionales.
+
+**Cierre de contenido:** **5 incisos**, **3 supuestos resueltos** de riego, fitosanitarios y fertilización, **16 preguntas/64 alternativas** fundamentadas manteniendo las respuestas originales. **Reservas:** calendario de riego, inventario de zonas verdes, autorizaciones específicas y productos permitidos en el municipio, así como pruebas E2E/CI no verificadas.
