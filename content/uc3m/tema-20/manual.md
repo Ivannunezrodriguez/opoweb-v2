@@ -673,3 +673,39 @@ El **art. 118.5** no dice que «todo contrato menor de menos de **5.000 €** ca
 **Precisión legal:** el **art. 118.5 LCSP** exceptúa **únicamente el informe del 118.2** en contratos menores con **VEC ≤5.000 €** pagados mediante **caja fija o sistema similar**; no es exención automática de publicidad y demás obligaciones. **No se certifica aún** el tema al **100 %**: faltan fecha primaria de corte de UC3M, controles funcionales y aprobación.
 
 > ⚠️ **¡Foco Examen!:** **Menor servicios <15.000 €**, **simplificado ordinario <140.000 €**, **abreviado <60.000 €**, **recurso especial >100.000 €**, **SARA UC3M ≥216.000 €**: importes para **efectos diferentes**, sin IVA salvo indicación legal.
+
+
+## 33. Abierto simplificado: registro, requerimientos y adjudicación — 08/11/2026
+
+**Fuente primaria:** [**LCSP, artículo 159.4 (BOE consolidado)**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159). El **procedimiento abierto simplificado** no queda definido solo por la cuantía del contrato: exige comprobar los **criterios de adjudicación** y las especialidades documentales del **artículo 159**.
+
+| Trámite | Regla exacta del artículo **159.4** | Error de test |
+|---|---|---|
+| Inscripción en el **ROLECE** o registro autonómico procedente | Inscripción a la **fecha final de presentación de ofertas**, siempre que no se limite la concurrencia; también vale haber **presentado solicitud de inscripción** antes de esa fecha, con documentación preceptiva | Afirmar que una solicitud de inscripción presentada en plazo es siempre insuficiente |
+| Acreditación de la solicitud pendiente | **Acuse de recibo** de solicitud y **declaración responsable** sobre documentación aportada y ausencia de requerimiento de subsanación | Confundir solicitud simple con acreditación completa |
+| Criterios sometidos a juicio de valor | Valoración por los servicios técnicos en **máximo 7 días**, **antes** de abrir la oferta evaluable por fórmulas | Abrir primero el archivo de criterios automáticos |
+| Mejor oferta: garantía definitiva y documentación exigible | Comunicación electrónica y **7 días hábiles** desde su envío para aportar la documentación aplicable | Confundir los **7 días hábiles** con los **7 días** de valoración técnica |
+| Oferta presuntamente anormalmente baja | Justificación en **máximo 5 días hábiles** desde el envío de la comunicación, en el marco del artículo **149** | Rechazar automáticamente sin trámite contradictorio |
+| Adjudicación tras garantía y fiscalización preceptiva | En **plazo no superior a 5 días**; el artículo **159.4.f** no añade «hábiles» en ese inciso | Aplicar sin fundamento «5 días hábiles» a todos los trámites |
+
+El [**artículo 159.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159) establece, entre otras condiciones, **valor estimado inferior a 140.000 €** para suministros y servicios en **2026**, y criterios dependientes de juicio de valor **no superiores al 25 %**; excepcionalmente, para prestaciones intelectuales, **45 %**. La referencia de cuantía proviene de [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605), que entró en vigor el **01/01/2026**. Esto **no** modifica el umbral general SARA de suministros/servicios de la **UC3M: 216.000 €**.
+
+### Supuesto 1. Solicitud de inscripción en ROLECE
+
+Una empresa solicita inscribirse en **ROLECE antes de que concluya el plazo de ofertas**, aporta la documentación preceptiva y conserva el **acuse de recibo** y la **declaración responsable** exigidos. **No puede ser excluida únicamente** porque la inscripción aún esté pendiente, si concurren los restantes requisitos del **artículo 159.4.a**.
+
+> ⚠️ **¡Foco Examen!:** **Inscripción finalizada** y **solicitud previa correctamente acreditada** son dos situaciones admitidas por la LCSP bajo sus requisitos. No basta con afirmar verbalmente que se ha solicitado.
+
+### Supuesto 2. Oferta anormal en abierto simplificado
+
+La mesa detecta una proposición presuntamente anormal. La respuesta «debe excluirla automáticamente» es **incorrecta**. Debe tramitarse la justificación del **artículo 149**, con el límite específico de **5 días hábiles** previsto en **159.4.f**.
+
+> ⚠️ **¡Foco Examen!:** **5 días hábiles** para justificar una oferta anormal ≠ **7 días hábiles** para la documentación y garantía del mejor puntuado.
+
+### Supuesto 3. Confusión de cifras
+
+Un suministro universitario tiene valor estimado de **150.000 € sin IVA**. En el supuesto ordinario **no cabe abierto simplificado del 159.1**, cuyo límite de suministros es **inferior a 140.000 €**; sin embargo, para la **UC3M** tampoco alcanza todavía, por su importe, el umbral SARA general de **216.000 €**. La exclusión de un procedimiento **no** determina automáticamente la aplicación del otro.
+
+> ⚠️ **¡Foco Examen!:** **Simplificado <140.000 €**, **SARA UC3M ≥216.000 €**. Entre ambos puede haber contratos sujetos a otros procedimientos **no SARA**. Importes referidos a **valor estimado, sin IVA**.
+
+**Alcance:** refuerzo jurídico-editorial focal, no sustitución de las **12 preguntas históricas** ni de los simulacros. Queda pendiente cotejar la normativa al corte UC3M de **base primera.7** y ejecutar pruebas funcionales del sitio.
