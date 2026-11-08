@@ -82,5 +82,16 @@
     "certificacionLegislativaIntegral": false,
     "certificacionNavegador": false,
     "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "estado": "DESARROLLO_DOCUMENTAL_COMPLETO_CON_RESERVA_CORTE",
+    "bloquesCotejados": 5,
+    "supuestosNuevos": 2,
+    "bancoHistorico": 12,
+    "alternativasHistoricas": 48,
+    "aprobacionUsuario": false,
+    "fechaCortePrimariaPendiente": true,
+    "certificacionFuncional": false
   }
 }
