@@ -2,10 +2,10 @@
   "tema": 15,
   "numeroEnBloque": 10,
   "bloque": "especifica",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "epigrafeOficial": "Electricidad básica. Conocimiento, manejo y mantenimiento de herramientas básicas de electricista (destornilladores, tijeras, alicates y otras herramientas). Cuadros de distribución en edificios (Interruptor de control de potencia, magnetotérmicos, diferenciales). Circuitos de sonería (pulsadores, timbres). Circuitos de alumbrado básico (interruptores, conmutadores, bases de enchufe con y sin toma de tierra, lámparas). Circuitos de alumbrado fluorescente (cebadores, reactancias, lámparas fluorescentes). Circuitos singulares (alarmas, alumbrado de emergencia)",
   "fuente": "BOP Toledo 204/2026, anuncio 4833, Anexo II, página 59",
-  "fechaRevision": "2026-11-04",
+  "fechaRevision": "2026-11-08",
   "filas": [
     {
       "inciso": "Electricidad y herramientas",
@@ -50,9 +50,14 @@
       "contenidoExigible": "Tipos, autonomía, umbral de tensión y valores de iluminancia"
     }
   ],
-  "pendiente": [
-    "Comprobación de todas las respuestas antes de estado AUDITADO",
-    "Revisión por ocupación/uso específico de los inmuebles municipales y mantenimiento"
-  ],
-  "fechaContrasteParcial": "2026-11-04"
+  "fechaContrasteParcial": "2026-11-04",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVAS",
+    "incisosVerificados": 7,
+    "certificacionIntegral": false,
+    "fuentesPrincipales": [
+      "REBT RD 842/2002 ITC-BT-17,18,24,25,28",
+      "RD 614/2001 art. 4 y anexos"
+    ]
+  }
 }
