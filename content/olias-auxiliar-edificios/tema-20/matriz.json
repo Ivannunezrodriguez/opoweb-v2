@@ -3,7 +3,7 @@
   "numeroEnBloque": 15,
   "bloque": "especifica",
   "epigrafeOficial": "Jardinería. Conocimiento, manejo y mantenimiento de herramienta básica de jardinería (tijeras de poda, cortacésped, escarificadora, desbrozadora, cortasetos, azadas, palas, rastrillos y otras herramientas). Operaciones básicas de mantenimiento de jardines (colocación de aspersores, regulación y puesta en funcionamiento, conservación de riego, limpieza, calendario de labores de conservación de jardines) Conocimientos básicos de aplicación de productos para el jardín (abono, insecticidas, planificación de fertilización, buenas prácticas ambientales en el uso de productos fitosanitarios)",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "fuentePrograma": "BOP Toledo 204/2026, anuncio 4833, Anexo II, CSV 2026.00004833",
   "filas": [
     {
@@ -37,5 +37,13 @@
       "contenidoExigible": "Carnés básico, cualificado, fumigador, piloto; validez 10 años y requisitos"
     }
   ],
-  "fechaContrasteParcial": "2026-11-04"
+  "fechaContrasteParcial": "2026-11-04",
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVA_LOCAL",
+    "incisosVerificados": 5,
+    "supuestosConcretos": 3,
+    "preguntasRevisadas": 16,
+    "certificacionIntegral": false
+  }
 }
