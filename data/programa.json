@@ -1,6 +1,6 @@
 {
   "project": "opoweb-v2",
-  "version": "0.19.0",
+  "version": "2026-11-08",
   "updatedAt": "2026-07-18",
   "convocatoria": {
     "id": "la-puebla-auxiliar-administrativo-2026",
@@ -242,7 +242,17 @@
       "feedback": "content/la-puebla/tema-15/feedback.md",
       "preguntas": "content/la-puebla/tema-15/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-15/fuentes.md",
-      "aprobacion": "content/la-puebla/tema-15/aprobacion.md"
+      "aprobacion": "content/la-puebla/tema-15/aprobacion.md",
+      "controlVigencia20261108": {
+        "fecha": "2026-11-08",
+        "estado": "REVALIDACION_TECNICA_FOCAL",
+        "supuestosAgregados": 2,
+        "preguntasHistoricasConservadas": 12,
+        "alternativasHistoricas": 48,
+        "aprobacionHistoricaConservada": true,
+        "verificacionFuncional": false,
+        "versionesReferencia": "Windows 11 y soporte Windows 10 finalizado 14/10/2025"
+      }
     },
     {
       "numero": 16,
@@ -261,7 +271,17 @@
       "preguntas": "content/la-puebla/tema-16/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-16/fuentes.md",
       "aprobadoEl": "2026-07-18",
-      "aprobacion": "content/la-puebla/tema-16/aprobacion.md"
+      "aprobacion": "content/la-puebla/tema-16/aprobacion.md",
+      "controlVigencia20261108": {
+        "fecha": "2026-11-08",
+        "estado": "REVALIDACION_TECNICA_FOCAL",
+        "supuestosAgregados": 2,
+        "preguntasHistoricasConservadas": 12,
+        "alternativasHistoricas": 48,
+        "aprobacionHistoricaConservada": true,
+        "verificacionFuncional": false,
+        "versionesReferencia": "Edge, IE11 retirado en versiones afectadas 15/06/2022, IE mode hasta al menos 2029"
+      }
     },
     {
       "numero": 17,
