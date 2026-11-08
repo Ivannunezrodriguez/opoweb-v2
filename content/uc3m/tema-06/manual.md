@@ -178,3 +178,28 @@ No confundir el procedimiento de reclamación **DPD → interesado (2 meses)** c
 [**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
 
 > ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
+
+
+## 14. Casos de examen resueltos: derechos y Delegado de Protección de Datos — **08/11/2026**
+
+### Supuesto 1. Solicitud de acceso y reclamación previa al DPD
+
+Un estudiante solicita al **responsable del tratamiento** acceso a sus datos. Conforme al **art. 12.3 RGPD**, el responsable informa sobre actuaciones realizadas **en un mes** desde la recepción, ampliable **otros dos meses** si es necesario por complejidad o número de solicitudes, comunicando la prórroga y sus motivos en el primer mes. Si, en cambio, el afectado presenta una reclamación previa ante el **delegado de protección de datos (DPD)** de la entidad, el **art. 37.1 LOPDGDD** establece comunicación de la decisión en el plazo máximo de **dos meses**. Si la **autoridad de control** remite al DPD una reclamación para respuesta, este dispone de **un mes** (**art. 37.2**).
+
+| Trámite | Destinatario y límite |
+|---|---|
+| Ejercicio de derechos | **Responsable**: **1 mes** + posible prórroga de **2 meses** |
+| Reclamación previa al DPD | **DPD → afectado**: **2 meses** |
+| Reclamación remitida por autoridad | **DPD → autoridad**: **1 mes** |
+
+> ⚠️ **¡Foco Examen!:** Los **dos meses** del **art. 37.1** no son la prórroga ordinaria para responder derechos. Distinguir **quién presenta, quién recibe y ante quién se responde**.
+
+### Supuesto 2. Delegado de datos en una universidad y brecha
+
+Una universidad pregunta si necesita designar DPD y quién debe notificar una brecha con riesgo para derechos y libertades. La **LOPDGDD art. 34.1.b** incluye expresamente **universidades públicas y privadas** entre las obligadas a designarlo; el DPD **asesora y supervisa**, pero el **responsable del tratamiento** conserva sus obligaciones. El **art. 33 RGPD** prevé comunicar una brecha a la autoridad **sin dilación indebida y, de ser posible, a más tardar en 72 horas desde constancia**, **salvo** que sea improbable que constituya riesgo para derechos y libertades. Si la comunicación se realiza más tarde, se explican los motivos del retraso.
+
+> ⚠️ **¡Foco Examen!:** **DPD no es sinónimo de responsable**. **72 horas** no significa que toda incidencia informática se notifique siempre a la autoridad: se aplica el **umbral de riesgo** y las circunstancias del **art. 33 RGPD**.
+
+**Fuentes primarias:** [**LOPDGDD arts. 34 y 37**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673); [**RGPD arts. 12 y 33**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa).
+
+**Resultado:** revisados los **seis bloques** con dos supuestos aplicados. Banco de **12 preguntas/48 alternativas** conservado; pendientes corte normativo oficial UC3M, aprobación y prueba integral de navegador.
