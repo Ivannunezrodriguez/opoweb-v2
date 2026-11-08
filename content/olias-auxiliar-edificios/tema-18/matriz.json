@@ -3,7 +3,7 @@
   "numeroEnBloque": 13,
   "bloque": "especifica",
   "epigrafeOficial": "Calefacción. Mantenimientos de instalaciones de calefacción (circuitos, llenado y purgado del aire. Radiadores. Salas de calderas, elementos importantes.)",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "fuentePrograma": "BOP Toledo 204/2026, anuncio 4833, Anexo II, CSV 2026.00004833",
   "filas": [
     {
@@ -37,5 +37,15 @@
       "contenidoExigible": "Registro no menos de 5 años y certificado anual cuando proceda"
     }
   ],
-  "fechaContrasteParcial": "2026-11-04"
+  "fechaContrasteParcial": "2026-11-04",
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVAS",
+    "incisosVerificados": 5,
+    "certificacionIntegral": false,
+    "fuentesPrincipales": [
+      "RITE RD 1027/2007 arts. 25 a 28 y IT 3",
+      "Ley 31/1995"
+    ]
+  }
 }
