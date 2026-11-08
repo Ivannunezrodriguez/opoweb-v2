@@ -217,3 +217,28 @@ La **Comisión Permanente** no es una denominación alternativa del **Tribunal**
 [**Acta de cierre conjunta con reservas**](../CIERRE_DOCUMENTAL_T10_T11_20261106.md). El banco histórico de este tema conserva **12 preguntas / 48 alternativas** cotejadas individualmente en [**el informe de distractores**](cotejo-integral-2026-11-04.md), y se ha comprobado su correspondencia con el manual, matriz y preguntas complementarias del lote. Se han enlazado los artículos exactos del BOE para las preguntas del refuerzo; no se altera ningún identificador ni clave histórica.
 
 > ⚠️ **¡Foco Examen!:** La fecha normativa de la **base primera.7 UC3M** es la de publicación de la **resolución definitiva de admitidos y anuncio**, pendiente de verificar en documento primario; no es automáticamente el examen **21/11/2026**. Las reglas **AGE** del **RD 364/1995** tampoco sustituyen bases particulares de **UC3M**.
+
+
+## Casos prácticos añadidos — **08/11/2026**
+
+### Supuesto 1. Ingreso frente a provisión
+
+Una persona supera una oposición y otra participa en un concurso para un puesto reservado a personal funcionario existente. **Ingreso** y **provisión de puestos** son categorías distintas: la **oposición** es un sistema de ingreso; el **concurso** puede ser instrumento de provisión y también aparecer, excepcionalmente y según ley, como modalidad selectiva. La **libre designación** corresponde a provisión en los supuestos habilitados, no a ingreso general.
+
+| Ingreso | Provisión |
+|---|---|
+| **Oposición / concurso-oposición** | **Concurso de méritos** de provisión |
+| **Concurso excepcional** si la ley lo permite | **Libre designación** en puestos habilitados |
+| Adquiere relación funcionarial si completa requisitos | Cambia el puesto sin adquirir una nueva condición funcionarial |
+
+> ⚠️ **¡Foco Examen!:** «Concurso» puede aparecer en ambos ámbitos con **régimen y requisitos distintos**. **Libre designación** no sustituye la oposición para adquirir condición de funcionario.
+
+### Supuesto 2. Actividad privada sin reconocimiento previo
+
+Un funcionario universitario inicia una actividad profesional privada que no figura entre las exceptuadas y afirma que puede solicitar compatibilidad **después**. La **Ley 53/1984, art. 14**, exige **previo reconocimiento de compatibilidad** para actividades profesionales, laborales, mercantiles o industriales fuera de las Administraciones; la resolución motivada se dicta en el plazo legal de **2 meses** por el **órgano competente** según la Administración. En los supuestos legalmente exceptuados del **art. 19**, comprobar condiciones particulares.
+
+> ⚠️ **¡Foco Examen!:** **Compatibilidad previa** no es simple comunicación posterior; el **plazo de 2 meses para resolver** no concede por sí solo autorización tácita universal.
+
+**Fuentes:** [**RD 364/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729), [**Ley 53/1984, arts. 14 y 19**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151).
+
+**Control:** **12 bloques** y **12 preguntas/48 alternativas** previamente cotejados, con dos nuevos supuestos; aprobación del usuario, fecha exacta de corte legal UC3M y E2E pendientes.
