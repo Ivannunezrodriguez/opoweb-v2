@@ -1,7 +1,7 @@
 {
   "tema": 10,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T10-001",
@@ -13,9 +13,10 @@
         "Con la autorización correspondiente"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Zonas técnicas tienen control por riesgos y acceso.",
-      "trampaExamen": "Distingue elementos y límites; Zonas técnicas tienen control por riesgos y acceso.",
-      "referencia": "Tema 10, zonas"
+      "justificacion": "Una dependencia técnica requiere autorización del centro y, cuando proceda, habilitación del personal competente; no basta identificar dónde está la puerta.",
+      "trampaExamen": "¡Foco Examen!: Una dependencia técnica requiere autorización del centro y, cuando proceda, habilitación del personal competente; no basta identificar dónde está la puerta.",
+      "referencia": "Manual §3; protocolo de autorización del centro",
+      "respuestaLiteral": "Con la autorización correspondiente"
     },
     {
       "id": "OLIAS-T10-002",
@@ -27,9 +28,10 @@
         "Que toda alarma quede desactivada"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Un cierre debe preservar seguridad de ocupantes.",
-      "trampaExamen": "Distingue elementos y límites; Un cierre debe preservar seguridad de ocupantes.",
-      "referencia": "RD 486/1997"
+      "justificacion": "Antes del cierre se comprueba que no queden ocupantes encerrados y que puedan usar las rutas y salidas de evacuación necesarias.",
+      "trampaExamen": "¡Foco Examen!: Antes del cierre se comprueba que no queden ocupantes encerrados y que puedan usar las rutas y salidas de evacuación necesarias.",
+      "referencia": "Manual §5; RD 486/1997, anexo I.10",
+      "respuestaLiteral": "Que no queden ocupantes atrapados"
     },
     {
       "id": "OLIAS-T10-003",
@@ -41,9 +43,10 @@
         "Comunicar y seguir protocolo"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La seguridad y trazabilidad de incidente prevalecen.",
-      "trampaExamen": "Distingue elementos y límites; La seguridad y trazabilidad de incidente prevalecen.",
-      "referencia": "Tema 10, apertura"
+      "justificacion": "Encontrar indicios de forzamiento exige comunicar al responsable y seguir el protocolo de incidencia, sin borrar rastros o intervenir peligrosamente.",
+      "trampaExamen": "¡Foco Examen!: Encontrar indicios de forzamiento exige comunicar al responsable y seguir el protocolo de incidencia, sin borrar rastros o intervenir peligrosamente.",
+      "referencia": "Manual §4; Ley 31/1995, art. 20",
+      "respuestaLiteral": "Comunicar y seguir protocolo"
     },
     {
       "id": "OLIAS-T10-004",
@@ -55,9 +58,10 @@
         "Entrar siempre en sala técnica"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El acceso requiere permiso adecuado.",
-      "trampaExamen": "Distingue elementos y límites; El acceso requiere permiso adecuado.",
-      "referencia": "Tema 10, contratistas"
+      "justificacion": "Un uniforme no acredita orden de trabajo ni autorización; antes de franquear una zona restringida debe verificarse acceso con el responsable.",
+      "trampaExamen": "¡Foco Examen!: Un uniforme no acredita orden de trabajo ni autorización; antes de franquear una zona restringida debe verificarse acceso con el responsable.",
+      "referencia": "Manual §6, control de contratistas",
+      "respuestaLiteral": "Comprobar su autorización, no acceso automático"
     },
     {
       "id": "OLIAS-T10-005",
@@ -69,9 +73,10 @@
         "Usarse como almacén"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Obligación preventiva sobre evacuación.",
-      "trampaExamen": "Distingue elementos y límites; Obligación preventiva sobre evacuación.",
-      "referencia": "RD 486/1997, anexo I"
+      "justificacion": "Las vías y salidas de evacuación deben permanecer libres de obstáculos y permitir salida rápida y segura en situaciones de peligro.",
+      "trampaExamen": "¡Foco Examen!: Las vías y salidas de evacuación deben permanecer libres de obstáculos y permitir salida rápida y segura en situaciones de peligro.",
+      "referencia": "RD 486/1997, anexo I.10",
+      "respuestaLiteral": "Permanecer expeditas"
     },
     {
       "id": "OLIAS-T10-006",
@@ -83,9 +88,10 @@
         "Permite abrir archivos"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La autorización puede limitar zonas y horas.",
-      "trampaExamen": "Distingue elementos y límites; La autorización puede limitar zonas y horas.",
-      "referencia": "Tema 10, control de accesos"
+      "justificacion": "Una tarjeta de recepción solo prueba el acceso que se le haya autorizado: no concede acceso general a áreas técnicas o reservadas.",
+      "trampaExamen": "¡Foco Examen!: Una tarjeta de recepción solo prueba el acceso que se le haya autorizado: no concede acceso general a áreas técnicas o reservadas.",
+      "referencia": "Manual §3, zonas de acceso diferenciado",
+      "respuestaLiteral": "No garantiza por sí sola entrada a todas las zonas"
     },
     {
       "id": "OLIAS-T10-007",
@@ -97,9 +103,10 @@
         "Apagarse siempre sin excepciones"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "No deben alterarse sistemas críticos sin permiso.",
-      "trampaExamen": "Distingue elementos y límites; No deben alterarse sistemas críticos sin permiso.",
-      "referencia": "BOP 4833, funciones; tema 10"
+      "justificacion": "La climatización se gestiona conforme a instrucciones del centro y uso de las dependencias, sin apagar instalaciones necesarias por seguridad.",
+      "trampaExamen": "¡Foco Examen!: La climatización se gestiona conforme a instrucciones del centro y uso de las dependencias, sin apagar instalaciones necesarias por seguridad.",
+      "referencia": "Manual §5, operaciones de cierre",
+      "respuestaLiteral": "Ajustarse según instrucciones de operación"
     },
     {
       "id": "OLIAS-T10-008",
@@ -111,9 +118,10 @@
         "Explicar regla y derivar con respeto"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Se mantiene control y trato digno.",
-      "trampaExamen": "Distingue elementos y límites; Se mantiene control y trato digno.",
-      "referencia": "Tema 10, incidentes"
+      "justificacion": "Se informa de la restricción con claridad y respeto, se ofrece un cauce autorizado y no se permite el acceso por presión del visitante.",
+      "trampaExamen": "¡Foco Examen!: Se informa de la restricción con claridad y respeto, se ofrece un cauce autorizado y no se permite el acceso por presión del visitante.",
+      "referencia": "Manual §3 y §6, orientación respetuosa",
+      "respuestaLiteral": "Explicar regla y derivar con respeto"
     },
     {
       "id": "OLIAS-T10-009",
@@ -125,9 +133,10 @@
         "Fotografías del móvil privado"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El RGPD exige minimización.",
-      "trampaExamen": "Distingue elementos y límites; El RGPD exige minimización.",
-      "referencia": "RGPD, art. 5"
+      "justificacion": "El registro de visitas debe limitarse a información adecuada, pertinente y necesaria para su finalidad y preservar su confidencialidad.",
+      "trampaExamen": "¡Foco Examen!: El registro de visitas debe limitarse a información adecuada, pertinente y necesaria para su finalidad y preservar su confidencialidad.",
+      "referencia": "RGPD, art. 5.1.c y f; manual §6",
+      "respuestaLiteral": "Datos necesarios según finalidad"
     },
     {
       "id": "OLIAS-T10-010",
@@ -139,9 +148,17 @@
         "Sí si se pone un aviso"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La evacuación debe ser posible.",
-      "trampaExamen": "Distingue elementos y límites; La evacuación debe ser posible.",
-      "referencia": "RD 486/1997"
+      "justificacion": "Las salidas de emergencia deben poder abrirse fácil e inmediatamente cuando sean necesarias; bloquearlas contradice las condiciones de evacuación.",
+      "trampaExamen": "¡Foco Examen!: Las salidas de emergencia deben poder abrirse fácil e inmediatamente cuando sean necesarias; bloquearlas contradice las condiciones de evacuación.",
+      "referencia": "RD 486/1997, anexo I.10.5-10.8",
+      "respuestaLiteral": "No, debe poder usarse en caso de emergencia"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "revisadas": 10,
+    "alternativas": 40,
+    "clavesModificadas": 0,
+    "certificacionIntegral": false
+  }
 }
