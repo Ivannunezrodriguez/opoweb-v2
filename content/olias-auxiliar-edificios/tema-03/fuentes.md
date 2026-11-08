@@ -12,10 +12,17 @@
 
 > ⚠️ **¡Foco Examen!:** Los epígrafes del BOP son obligatorios; las instrucciones internas de **Olías del Rey** no se atribuyen sin documentarlas mediante fuente municipal vigente.
 
-**Control jurídico:** INICIADO, no terminado; **04/11/2026**.
+**Estado: AUDITADO documental (08/11/2026)**; certificación integral funcional pendiente.
 
 ## Auditoría agrupada del banco — **05/11/2026**
 
 Ver [**cotejo jurídico-pedagógico del bloque general T01–T04**](../cotejo-bloque-general-01-04-2026-11-05.md), con **56 preguntas y 224 alternativas** en conjunto, fuentes BOE por artículo, distractores reformulados y focos de examen específicos. El **banco del tema 3** ha sido revisado en este lote, pero el **tema no queda certificado integralmente**: siguen pendientes comprobación funcional real, cobertura normativa exhaustiva y aprobación final.
 
 > ⚠️ **¡Foco Examen!:** Las preguntas conservan sus claves y explican el **artículo y la excepción**, no solo una definición aislada.
+
+
+## Cierre documental del temario — **08/11/2026**
+
+Cotejados **Estatuto de los Trabajadores arts. 4, 5, 17, 19 y 20**, **TREBEP arts. 11, 14 y 52–54** y **Ley 31/1995 arts. 14, 18–21 y 29**. Distinción de **personal laboral fijo** frente a funcionario, protección eficaz del empleador y deberes de trabajadores. **4 incisos**, **2 casos**, **10 preguntas/40 alternativas**. Referencias: https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430, https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719.
+
+**Alcance del cierre:** se han desarrollado los incisos, precisado los fundamentos del banco y añadido ejercicios resueltos. No certifica la ejecución real en navegador ni los protocolos de un edificio concreto.
