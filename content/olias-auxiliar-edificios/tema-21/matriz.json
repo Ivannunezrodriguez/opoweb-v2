@@ -3,32 +3,38 @@
   "numeroEnBloque": 16,
   "bloque": "especifica",
   "epigrafeOficial": "Albañilería. Conocimiento, manejo y mantenimiento de herramienta básica de pintura. Funciones y tareas básicas a realizar en trabajos de pintura.",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "fuentePrograma": "BOP Toledo 204/2026, anuncio 4833, Anexo II, CSV 2026.00004833",
   "filas": [
     {
       "inciso": "Materiales y útiles de albañilería",
-      "norma": "RD 1215/1997",
-      "articulos": "uso de equipos de trabajo",
-      "contenidoExigible": "Manual apartado 3: conceptos, seguridad y práctica"
+      "norma": "Documentación técnica de construcción; RD 1215/1997 para uso seguro",
+      "articulos": "Definición técnica de mortero, hormigón, paleta, llana, plomada y nivel; RD art. 3 y anexo II para equipos",
+      "contenidoExigible": "Diferenciar mortero/hormigón, horizontalidad/verticalidad y detectar daños que requieren técnico"
     },
     {
       "inciso": "Preparación de superficies para pintar",
-      "norma": "RD 374/2001, agentes químicos",
-      "articulos": "exposición a sustancias",
-      "contenidoExigible": "Manual apartado 4: conceptos, seguridad y práctica"
+      "norma": "Ficha técnica de pintura y soporte; RD 374/2001 si se utilizan agentes químicos peligrosos",
+      "articulos": "RD 374/2001 art. 3: evaluación de riesgos químicos, no definición de imprimación",
+      "contenidoExigible": "Limpieza, saneado, humedad, reparación, lijado e imprimación antes del acabado"
     },
     {
       "inciso": "Herramientas y técnicas de pintura",
-      "norma": "Ley 31/1995",
-      "articulos": "riesgos y medidas preventivas",
-      "contenidoExigible": "Manual apartado 5: conceptos, seguridad y práctica"
+      "norma": "Documentación técnica del fabricante; RD 1215/1997 para equipos",
+      "articulos": "Brocha, rodillo, cinta y cubeta son conceptos técnicos; uso seguro de equipos RD art. 3 y anexo II",
+      "contenidoExigible": "Aplicación según superficie y pintura, capas y limpieza del útil compatible"
     },
     {
       "inciso": "Seguridad química y tareas en altura",
-      "norma": "Ley 31/1995",
-      "articulos": "riesgos y medidas preventivas",
-      "contenidoExigible": "Manual apartado 6: conceptos, seguridad y práctica"
+      "norma": "RD 374/2001; RD 1215/1997; Ley 31/1995",
+      "articulos": "RD 374 art. 3; RD 1215 anexo II 4.2 (escaleras); LPRL arts. 15, 17 y 19",
+      "contenidoExigible": "Ficha de seguridad, control de vapores, escalera estable, evaluación del riesgo y gestión de residuos"
     }
-  ]
+  ],
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVAS",
+    "incisosVerificados": 4,
+    "certificacionIntegral": false
+  }
 }
