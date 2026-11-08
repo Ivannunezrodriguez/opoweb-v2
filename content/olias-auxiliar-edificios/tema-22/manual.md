@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 22 · Cultura general: cálculo, gramática, geografía y ofimática
 
-**Estado: EN_AUDITORIA.** Fecha **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
+**Estado: AUDITADO documental (08/11/2026), con reservas funcionales.** Primera edición **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,14 +8,14 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Norma o referencia técnica | Desarrollo |
+| Inciso del programa | Fuente jurídicamente o técnicamente aplicable | Contenido exigible |
 |---|---|---|
-| Operaciones aritméticas y porcentajes | Constitución española | Conceptos, seguridad y distinciones |
-| Unidades, magnitudes y proporciones | Ley 39/2015 | Conceptos, seguridad y distinciones |
-| Gramática y ortografía española | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Geografía básica | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Ofimática básica: archivos y procesadores de texto | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Correo, seguridad informática y acceso | Ley 31/1995 | Conceptos, seguridad y distinciones |
+| Aritmética y porcentajes | **Aritmética básica** | Operaciones, descuentos, incrementos, fracciones y proporcionalidad |
+| Magnitudes y conversiones | **Sistema métrico/SI** | Longitud, superficie, volumen, escalas y proporciones |
+| Gramática y ortografía | **RAE, Ortografía y DPD** | Acentuación, tipos de palabras, concordancia y tildes diacríticas |
+| Geografía básica | **CE art. 137** para estructura territorial; geografía española | Municipios, provincias y CCAA; mapa, coordenadas y Castilla-La Mancha |
+| Ofimática básica | **Ayuda oficial de Microsoft y LibreOffice** | Procesadores, hojas de cálculo, referencias, formatos y exportación |
+| Correo y seguridad | **Documentación técnica**; **RGPD art. 5.1.f** para confidencialidad de datos | CC/CCO, adjuntos, phishing, sesión y documentación electrónica |
 
 ## 3. Operaciones aritméticas y porcentajes
 
@@ -111,7 +111,30 @@ En un ordenador compartido se cierra sesión, se bloquea pantalla y no se guarda
 
 ## 9. Supuesto de repaso
 
-**Situación:** el auxiliar detecta una incidencia del área del tema. Debe **distinguir conocimientos básicos de intervención técnica**, comunicar al responsable, evitar riesgos y consultar el manual de fabricante o la norma aplicable. Solo realizará operaciones que se encuentren dentro de sus **atribuciones, formación y autorización**.
+### Supuesto 1. Cálculo de material para una sala
+
+De **80 sillas**, un **15 %** precisa revisión. Se compran otras **10**, y el **20 %** de las nuevas llega defectuoso. **Cálculo:** 80 × 0,15 = **12** sillas a revisar; 10 × 0,20 = **2** nuevas defectuosas; en conjunto, **14 incidencias** en grupos distintos. No sumar porcentajes de bases diferentes como si fueran cantidades.
+
+| Concepto | Resultado |
+|---|---:|
+| 15 % de 80 | **12** |
+| 20 % de 10 | **2** |
+| Total de incidencias | **14** |
+
+> ⚠️ **¡Foco Examen!:** **15 % + 20 % no da un 35 % de 90** porque las bases son distintas. Calcular primero la cantidad correspondiente a cada grupo.
+
+### Supuesto 2. Hoja de cálculo y envío de convocatorias
+
+En una hoja se usa `=SUMA(A1:A5)` y se copia a otra ubicación una referencia `$A$1`. La primera expresión suma cinco celdas del rango y la segunda permanece **absoluta** al copiarla. Para comunicar un horario a numerosos destinatarios particulares, utilizar **CCO** cuando proceda para no revelar sus direcciones entre sí, verificar el dominio de destino y bloquear la sesión al acabar.
+
+| Elemento | Resultado correcto |
+|---|---|
+| `=SUMA(A1:A5)` | Suma del intervalo |
+| `$A$1` | Referencia de fila y columna absolutas |
+| **CCO** | Oculta direcciones a otros destinatarios, **no cifra** el mensaje |
+| **PDF** | Formato de documento, **no equivale** a registro administrativo |
+
+> ⚠️ **¡Foco Examen!:** Una fórmula relativa cambia al copiarse; **$A$1** no. **CCO** oculta destinatarios, pero no convierte por sí sola el correo en transmisión cifrada.
 
 ## Fuentes de referencia
 
@@ -119,4 +142,4 @@ En un ordenador compartido se cierra sesión, se bloquea pantalla y no se guarda
 - [**Ley 39/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) — procedimiento y documentación.
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — uso seguro de herramientas informáticas y equipos.
 
-**Control editorial pendiente:** verificar aplicaciones prácticas y excepcionalidades en normativa técnica, sin confundir desarrollo pedagógico con el texto de las bases.
+**Cierre documental 08/11/2026:** seis incisos con fuentes pertinentes, dos situaciones prácticas resueltas y banco de diez preguntas corregido editorialmente sin cambiar las claves. La cultura general es abierta; no se afirma cobertura de todos los posibles conocimientos ajenos al epígrafe.
