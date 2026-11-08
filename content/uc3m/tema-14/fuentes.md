@@ -90,3 +90,10 @@ Fuente primaria: [**LOSU, artículos 45.3 y 46.3 (BOE-A-2023-7500)**](https://ww
 **Reserva verificable:** la convocatoria **BOE-A-2026-14624, base primera.7**, vincula la exigibilidad legal a la **fecha de publicación** de las listas definitivas y anuncio de ejercicio; la resolución primaria fechada **no se ha obtenido** en esta auditoría. Quedan pendientes navegador real, móvil, accesibilidad y certificación integral; **no** hay aprobación del usuario.
 
 > ⚠️ **¡Foco Examen!:** Las referencias del informe del **04/11/2026** y la presente acta documentan el estudio, pero **no convierten automáticamente en exigible** una modificación posterior a la fecha de corte de UC3M.
+
+
+## Control de mandatos y convocatoria extraordinaria — **08/11/2026**
+
+Cotejados directamente en el [**BOE consolidado, LOSU 44.3 y 45.2.e**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500): mandato **6 años improrrogable y no renovable** de órganos unipersonales **electos**; iniciativa de elecciones extraordinarias por **1/3 del Claustro** con **30 % mínimo** del colectivo docente especificado en 45.2.e; aprobación por **2/3 del Claustro**; **disolución del Claustro**, cese del Rector **en funciones** hasta nueva toma de posesión; prohibición a quienes presentaron la iniciativa rechazada de presentar otra hasta **1 año** después de la votación. Incorporados en [manual T14](manual.md) tabla y **2 supuestos prácticos**. No cambia el banco original de **14 preguntas** ni el estado formal de aprobación.
+
+> ⚠️ **¡Foco Examen!:** **Iniciativa 1/3** frente a **aprobación 2/3**; **6 años** de mandato electivo frente a **1 año** para nueva iniciativa de los promotores cuando fracasa.
