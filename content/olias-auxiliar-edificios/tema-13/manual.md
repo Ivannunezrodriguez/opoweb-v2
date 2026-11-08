@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 13 · Término municipal, servicios y callejero de Olías del Rey
 
-**Estado editorial: AUDITADO documental con reserva de callejero exhaustivo (08/11/2026)** · **Control de fuentes municipales: 08/11/2026**. Programa del **BOP Toledo n.º 204, 23/10/2026, anuncio 2026/4833**, Anexo II, verificación **2026.00004833**.
+**Estado editorial: EN_AUDITORIA — localización de servicios revisada; callejero íntegro no acreditado (08/11/2026)** · **Control de fuentes municipales: 08/11/2026**. Programa del **BOP Toledo n.º 204, 23/10/2026, anuncio 2026/4833**, Anexo II, verificación **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -144,7 +144,49 @@ Un opositor pregunta si las doce vías citadas en este manual constituyen todo e
 
 > ⚠️ **¡Foco Examen!:** Un directorio de **servicios municipales** no es un **callejero íntegro**. El cierre del material disponible no equivale a acreditar todas las vías municipales.
 
-## 10. Referencias oficiales y actualización
+## 10. Ejercicios de localización y límites del callejero INE
+
+### 10.1. Agrupaciones de calles por uso real
+
+El objetivo de este bloque es **situar servicios y zonas de acceso utilizando únicamente asociaciones explícitas del directorio municipal**, no reconstruir distancias o rutas que no se hayan medido.
+
+| Zona o vía | Instalaciones o servicios relacionados | Distinción de examen |
+|---|---|---|
+| **Plaza de la Constitución** | Ayuntamiento y Policía Local (**n.º 1** en directorio), Centro de Mayores y Protección Civil (**n.º 7** en directorio) | **No** confundir el **n.º 1** con el **n.º 7** |
+| **Camino del Arenal** | Pabellón (**n.º 5**), Colegio Pedro Melendo (**n.º 7**), Escuela Infantil Árbol Mágico (número publicado **5/s. n.** según página) | La misma vía reúne **deporte y educación** |
+| **Calle de la Flor** | Casa de la Cultura (**2/s. n.**, fuentes divergentes) | Recordar **la vía**, no inventar portal único |
+| **Higares** | Centro de la Juventud, biblioteca (**numeraciones divergentes**) | No confundir **Camino** con **Calle** sin fuente |
+| **Calle Venta de Arriba** | Piscina municipal | Piscina **no** es pabellón |
+| **Calle Toledo** | Consultorio del casco | Diferente al consultorio de zona sur |
+| **Subida Cabañuelas** | Consultorio de la zona sur | No confundir con **Calle Toledo** |
+| **Calle Celinda / Petunia** | Instalaciones deportivas de **Las Lomas** | **Celinda** y **Petunia** son vías distintas |
+| **Calle Cañada de Magán** | Equipamiento en **La Floresta** | Zona distinta de **Las Lomas** |
+| **Calle Halcón / Zorzales** | Equipamientos de **Los Pinos** | No confundir **Los Pinos** y **Los Olivos** |
+| **Calle Cedro** | Equipamiento de **San Francisco** | No se infieren límites del barrio |
+
+> ⚠️ **¡Foco Examen!:** **Plaza de la Constitución 1** y **Plaza de la Constitución 7** designan servicios distintos. El número de portal también puede resultar contradictorio entre páginas oficiales, y entonces la respuesta debe identificar la **fuente de referencia**.
+
+### 10.2. Qué acredita el callejero electoral del INE
+
+El [**INE**](https://www.ine.es/prodyser/callejero/) publica ficheros de **vías (VIAS)**, **pseudovías (PSEU)**, **tramos (TRAM)**, **unidades poblacionales (UP)** y **secciones (SECC)**, con fecha de referencia **30/06/2026** para la edición de **julio de 2026**. El municipio se identifica mediante **código INE 45122**. El callejero electoral sirve como **fuente primaria** de denominaciones y tramos censales, pero su cobertura administrativa no tiene por qué equivaler a todas las denominaciones urbanísticas sin población.
+
+| Archivo del INE | Qué permite comprobar |
+|---|---|
+| **VIAS** | Identificación de vías por municipio, tipo y denominación |
+| **PSEU** | Pseudovías registradas |
+| **TRAM** | Tramos de vías y secciones censales |
+| **UP** | Unidades poblacionales |
+| **SECC** | Secciones censales |
+
+**Condición para cerrar el tema:** obtener y leer **el ZIP de Toledo de julio de 2026**, filtrar el **45122**, revisar **VIAS** y **PSEU**, comprobar duplicados y contrastar los nombres con la fuente municipal. **No se ha obtenido ese fichero** en esta revisión; por tanto, no se publica una cifra inventada de vías ni se afirma que esta tabla sea un callejero completo.
+
+### Supuesto 3. Callejero frente a servicios
+
+En un test se propone que la tabla de edificios municipales cubre la totalidad de las calles del término. La respuesta es **falso**: un directorio de servicios lista **destinos**, mientras el callejero **VIAS** identifica vías y puede incluir calles sin equipamientos.
+
+> ⚠️ **¡Foco Examen!:** **VIAS** y **TRAM** no son sinónimos: una misma vía puede tener **varios tramos** censales.
+
+## 11. Referencias oficiales y actualización
 
 - [**Directorio municipal de teléfonos y edificios**](https://www.ayuntamientodeoliasdelrey.com/telefonos-y-correos-de-interes/): direcciones de instalaciones.
 - [**Educación y Cultura municipal**](https://www.ayuntamientodeoliasdelrey.com/educacion-y-cultura/): centros culturales y biblioteca.
