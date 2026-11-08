@@ -3404,3 +3404,30 @@ Se han cerrado documentalmente **tres nuevos temas** de la convocatoria de **Ol�
 **Comprobación de escritura:** releídos los **12 archivos** de tres temas y manifiesto [UC3M](data/programa-uc3m-auxiliar-administrativa-2026.json) desde GitHub: **23 apartados**, **6 casos resueltos**, **36 preguntas/144 alternativas**, **36/36 claves coherentes**, las tres fuentes contienen cierre de desarrollo y ninguno tiene aprobación del usuario falsa. Queda por verificar la **fecha exacta en fuente primaria** de publicación de la resolución UC3M de listas definitivas y anuncio del ejercicio conforme **base primera.7**, además de ejecución real de CI/navegador. Se evita declarar certificación jurídica integral.
 
 **Avance en la barra editorial común: 78/121 = 64,5 %** de cierres documentales acreditados, **43 pendientes**; esta ronda suma **0 cierres documentales sin reservas** y **3 desarrollos adicionales completos con reserva**. Acumulado UC3M **T1–T6** desarrollado en este nuevo lote con corte todavía pendiente. **No elevar el numerador de 78** hasta resolver corte oficial, y no confundir pendientes con falta de manual. **0/121 certificaciones integrales**. Siguiente acción útil: recuperar la resolución oficial del corte UC3M y/o seguir completando **T7–T9**.
+
+
+## 163. UC3M T7–T9 y desglose real por convocatoria (**08/11/2026**)
+
+**Tres nuevos desarrollos completos con reserva normativa** en UC3M, sin atribuir aprobación del usuario y sin añadirlos al contador estricto de cierre jurídico vigente.
+
+**UC3M T7 — Transparencia**: [manual](content/uc3m/tema-07/manual.md), [matriz](content/uc3m/tema-07/matriz.json), [fuentes](content/uc3m/tema-07/fuentes.md), [banco](content/uc3m/tema-07/preguntas.json). **5 apartados**, **2 casos nuevos** de plazos de acceso/inadmisión y remisión al órgano competente; [**Ley 10/2019, arts. 40–43**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102): **20 días**, ampliación **otros 20**, inadmisión en **5 días hábiles** cuando proceda, silencio desestimatorio; **12 preguntas/48 alternativas** sin alterar.
+
+**UC3M T8 — Igualdad, identidad y acoso**: [manual](content/uc3m/tema-08/manual.md), [matriz](content/uc3m/tema-08/matriz.json), [fuentes](content/uc3m/tema-08/fuentes.md), [banco](content/uc3m/tema-08/preguntas.json). **13 bloques**, dos casos sobre **presencia equilibrada 40–60 %**, III Plan [**UC3M 2025–2029**](https://www.uc3m.es/igualdad/plan-igualdad) (**6 ejes, 138 medidas, vigencia 01/02/2025 a 31/01/2029**) y diferencia de acoso sexual/por razón de sexo. Corregido encabezado duplicado del manual. Banco **12/48** conservado; el repaso complementario previo permanece.
+
+**UC3M T9 — Ofimática Word/Excel 2019 y Google Workspace**: [manual](content/uc3m/tema-09/manual.md), [matriz](content/uc3m/tema-09/matriz.json), [fuentes](content/uc3m/tema-09/fuentes.md), [banco](content/uc3m/tema-09/preguntas.json). **13 bloques**, casos nuevos de combinación de correspondencia, filtros/validación/formato condicional, Drive permisos y Gmail/Calendar. El tema ya tenía **cierre documental focal de 06/11** y se amplía sin reclamar un nuevo cierre duplicado. **12/48** históricas intactas, más repaso complementario anterior.
+
+**Comprobación de archivos efectivamente recuperados tras cambios:** **12 archivos y manifiesto**, matrices **5+13+13 = 31 bloques**, **6 supuestos nuevos**, **36 preguntas/144 alternativas** originales conservadas, **36/36** claves correspondientes a texto de respuesta. UC3M ahora tiene **T1–T9 con campo DESARROLLO_COMPLETO_CON_RESERVA_CORTE** y todos los **20 temas** permanecen formalmente `EN_REVISION_USUARIO`; no se inventa aprobación.
+
+**DESGLOSE DEL AVANCE POR MANIFIESTOS, SIN DOBLE CONTAR.** Comprobados los cinco manifiestos oficiales del repositorio en esta ronda:
+| Convocatoria | Total | Estado de manifiesto | Qué acredita |
+|---|---:|---|---|
+| **La Puebla C2** | **19** | **19 APROBADO_USUARIO** (histórico julio) | Contenido previamente aprobado; **revalidación jurídica de noviembre pendiente** |
+| **Diputación C1** | **40** | **39 AUDITADO**, **T22 estatutos pendiente** | Documental auditado con reservas funcionales |
+| **Diputación C2** | **20** | **19 AUDITADO**, **T6 OAPGT BORRADOR** | Documental auditado con reservas funcionales |
+| **UC3M C2** | **20** | **20 EN_REVISION_USUARIO**, **9 desarrollo documental completado bajo reserva** | Sin aprobación usuario ni verificación primaria de fecha corte legal |
+| **Olías C2** | **22** | **20 AUDITADO**, **T5 y T13 pendientes** | Documental auditado; dos bloqueos municipales |
+
+**Barra estricta histórica:** `(39 C1 + 19 C2 + 20 Olías)=78/121 = 64,46%`, **43 fuera del contador**. **Importante**: los **19 APROBADO_USUARIO de La Puebla** NO están en ese numerador histórico porque su aprobación es de julio y la revalidación de vigencia a noviembre está pendiente. La barra mezcla así, deliberadamente y con explicación, auditados actuales contra un denominador de todas las convocatorias. **Barra complementaria «aprobados históricos o auditados»**: `78 + 19 La Puebla = 97/121 = 80,17%`; esto **NO significa 97 temas revalidados a noviembre**. Los restantes **24** son **20 UC3M + T22 C1 + T6 C2 + T5/T13 Olías**, entre los cuales **9 UC3M** tienen desarrollo terminado bajo reserva. Para distinguirlos, mostrar barras separadas y no un único porcentaje de «todo acabado».
+
+**No existe certificación integral de los 121 temas** mientras falten navegador/E2E y aprobación cuando proceda. Fecha de corte legislativo **UC3M base primera.7** pendiente de resolución primaria; en el portal [UC3M convocatoria](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) consta resolución definitiva, pero **no se ha certificado fecha de su publicación**, y no se sustituye por **21/11** (fecha de examen). **Próxima prioridad:** UC3M T10–T12 sin distraer recursos con fichas adicionales; desbloquear corte legal cuando se obtenga fuente primaria.
+
