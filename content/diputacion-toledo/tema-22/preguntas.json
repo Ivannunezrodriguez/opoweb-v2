@@ -301,6 +301,66 @@
       "trampa": "**Consejo Rector aprueba organigrama**, **Presidencia publica identidad del instructor**.",
       "referencia": "B11 art. DA · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
       "respuestaLiteral": "La identidad de los titulares de los órganos instructores en el BOP de Toledo"
+    },
+    {
+      "id": "DIP-T22-021",
+      "pregunta": "¿Qué órgano aprobó el 11 de mayo de 2023 la delegación al Director de las facultades de contratación de dos expedientes concretos?",
+      "opciones": [
+        "El Pleno del Congreso",
+        "El Consejo Rector del OAPGT",
+        "La Junta de Comunidades",
+        "El Tribunal de Cuentas"
+      ],
+      "correcta": 1,
+      "justificacion": "El **Consejo Rector del OAPGT**, en sesión de **11/05/2023**, delegó facultades de contratación para **dos contratos identificados**.",
+      "trampa": "¡Foco Examen!: Distinguir atribución estatutaria originaria, órgano delegante y contrato específico; no extrapolar la delegación de 2023.",
+      "referencia": "BOP Toledo 92, 16/05/2023, anuncio 2824 · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
+      "respuestaLiteral": "El Consejo Rector del OAPGT"
+    },
+    {
+      "id": "DIP-T22-022",
+      "pregunta": "¿A qué órgano atribuyen los Estatutos del OAPGT, según la reproducción literal del BOP de 2023, la representación originaria del organismo en actos y contratos?",
+      "opciones": [
+        "A la Presidencia del OAPGT",
+        "A cualquier trabajador",
+        "Solo al Alcalde del municipio delegante",
+        "A la Agencia Tributaria Estatal"
+      ],
+      "correcta": 0,
+      "justificacion": "El **art. 12.1 de los Estatutos**, reproducido en el anuncio **2824/2023**, atribuye a **Presidencia** la representación del organismo.",
+      "trampa": "¡Foco Examen!: Distinguir atribución estatutaria originaria, órgano delegante y contrato específico; no extrapolar la delegación de 2023.",
+      "referencia": "BOP Toledo 92, 16/05/2023, anuncio 2824 · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
+      "respuestaLiteral": "A la Presidencia del OAPGT"
+    },
+    {
+      "id": "DIP-T22-023",
+      "pregunta": "¿Qué expediente se encuentra expresamente incluido en el acuerdo de delegación de contratación del Consejo Rector de 11/05/2023?",
+      "opciones": [
+        "Todos los contratos futuros sin límite",
+        "El contrato de servicios postales 5_2023",
+        "Cualquier obra municipal",
+        "La adjudicación del contrato de transporte urbano de Toledo"
+      ],
+      "correcta": 1,
+      "justificacion": "El acuerdo delega facultades del órgano de contratación sobre el expediente de **servicios postales 5_2023** y otro identificado de infraestructura/ciberseguridad.",
+      "trampa": "¡Foco Examen!: Distinguir atribución estatutaria originaria, órgano delegante y contrato específico; no extrapolar la delegación de 2023.",
+      "referencia": "BOP Toledo 92, 16/05/2023, anuncio 2824 · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
+      "respuestaLiteral": "El contrato de servicios postales 5_2023"
+    },
+    {
+      "id": "DIP-T22-024",
+      "pregunta": "¿Cómo se consideran las resoluciones que dicta el Director por delegación de un órgano del OAPGT según el acuerdo de 2023 y la Ley 40/2015?",
+      "opciones": [
+        "Dictadas por el órgano delegante, con constancia de la delegación",
+        "Dictadas siempre por el Ministerio de Hacienda",
+        "Nulas por ser delegadas",
+        "Dictadas por el Ayuntamiento que tiene el tributo"
+      ],
+      "correcta": 0,
+      "justificacion": "La **delegación traslada el ejercicio**, pero las resoluciones **se consideran dictadas por el órgano delegante**, dejando constancia expresa de la delegación.",
+      "trampa": "¡Foco Examen!: Distinguir atribución estatutaria originaria, órgano delegante y contrato específico; no extrapolar la delegación de 2023.",
+      "referencia": "BOP Toledo 92, 16/05/2023, anuncio 2824 · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
+      "respuestaLiteral": "Dictadas por el órgano delegante, con constancia de la delegación"
     }
   ],
   "controlCalidadOpciones": {
@@ -315,5 +375,13 @@
     "pendienteEstatutosOriginales": true,
     "certificacionIntegral": false,
     "controlNavegador": "TRANSVERSAL_PENDIENTE"
+  },
+  "controlFocal20261108": {
+    "nuevasPreguntas": 4,
+    "numeroTotal": 24,
+    "alternativasTotales": 96,
+    "estatutosConsolidados": false,
+    "fuente2023Oficial": true,
+    "certificacionIntegral": false
   }
 }
