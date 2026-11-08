@@ -10,4 +10,8 @@
 
 > ⚠️ **¡Foco Examen!:** **Evitar manipulación manual de cargas cuando sea posible** precede a corregir posturas. No existe un límite legal universal de **25 kg** aplicable sin evaluar el caso.
 
-**Estado:** EN_AUDITORIA. Revisado inicialmente el **04/11/2026**; falta recertificación integral.
+**Estado:** AUDITADO documental el **08/11/2026**; queda pendiente certificar protocolos de edificios y funcionamiento integral.
+
+## Cierre de contenido — **08/11/2026**
+
+Cotejados [**RD 486/1997, anexo I.10**](https://www.boe.es/eli/es/rd/1997/04/14/486/con) (salidas expeditas), [**Ley 31/1995, arts. 14, 19, 20, 21 y 29**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) (protección, formación, emergencias, riesgo grave y deberes) y [**RD 487/1997, arts. 2–4**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8670) (manipulación, evitarla mediante medios técnicos y evaluación cuando no pueda evitarse). Ningún artículo establece **25 kg** como máximo universal. **Cierre documental:** 4 incisos, 3 casos concretos, 12 preguntas/48 alternativas con fundamentos verificados; claves intactas. Planes de autoprotección concretos y E2E/CI pendientes.
