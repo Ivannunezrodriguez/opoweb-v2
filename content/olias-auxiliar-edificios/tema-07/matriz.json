@@ -3,39 +3,45 @@
   "numeroEnBloque": 2,
   "bloque": "especifica",
   "epigrafeOficial": "Atención a la ciudadanía. La comunicación: fundamentos y niveles. Habilidades Sociales y Asertividad. Resolución de conflictos.",
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "fuentePrograma": "BOP Toledo 204/2026, anuncio 2026/4833, Anexo II, CSV 2026.00004833",
   "filas": [
     {
       "inciso": "La atención a la ciudadanía en un edificio municipal",
-      "norma": "Ley 39/2015, derechos y asistencia",
-      "articulos": "arts. 13, 14 y 53 según caso",
-      "contenidoExigible": "Regla, distinciones, límites y foco de examen del apartado 3"
+      "norma": "Ley 39/2015; TREBEP",
+      "articulos": "Ley 39/2015 art. 13 (derechos generales), art. 53 solo personas interesadas; TREBEP art. 54.1 y 54.4",
+      "contenidoExigible": "Orientación en recepción frente a registro o resolución; respeto e información debida"
     },
     {
       "inciso": "Elementos y niveles de la comunicación",
-      "norma": "TREBEP, trato a ciudadanía",
-      "articulos": "art. 54.1 y 54.4",
-      "contenidoExigible": "Regla, distinciones, límites y foco de examen del apartado 4"
+      "norma": "Teoría básica de comunicación; no hay definición normativa en Ley 39/2015",
+      "articulos": "Conceptos técnicos: emisor, receptor, canal, código, contexto y retroalimentación",
+      "contenidoExigible": "Comunicación verbal, no verbal y paraverbal; barreras y comprobación de comprensión"
     },
     {
       "inciso": "Escucha activa y habilidades sociales",
-      "norma": "Reglamento europeo de protección de datos",
-      "articulos": "arts. 5 y 6",
-      "contenidoExigible": "Regla, distinciones, límites y foco de examen del apartado 5"
+      "norma": "Técnicas de atención y comunicación; TREBEP art. 54 como deber de trato",
+      "articulos": "La escucha activa y parafraseo son técnicas, no conceptos definidos por RGPD",
+      "contenidoExigible": "Empatía, síntesis, límites, derivación sin prometer decisiones"
     },
     {
       "inciso": "Asertividad: estilos y conflictos",
-      "norma": "Reglamento europeo de protección de datos",
-      "articulos": "arts. 5 y 6",
-      "contenidoExigible": "Regla, distinciones, límites y foco de examen del apartado 6"
+      "norma": "Técnicas de comunicación; TREBEP arts. 52 y 54",
+      "articulos": "Reglas de conducta de empleados públicos, no definición jurídica de asertividad",
+      "contenidoExigible": "Estilos pasivo, agresivo, asertivo; amenazas y derivación segura"
     },
     {
       "inciso": "Datos personales y accesibilidad",
-      "norma": "Reglamento europeo de protección de datos",
-      "articulos": "arts. 5 y 6",
-      "contenidoExigible": "Regla, distinciones, límites y foco de examen del apartado 7"
+      "norma": "RGPD; Ley 39/2015",
+      "articulos": "RGPD art. 5.1.c y f; Ley 39/2015 art. 13; TREBEP art. 52",
+      "contenidoExigible": "Minimización/confidencialidad y orientación inclusiva sin revelar información ajena"
     }
-  ]
+  ],
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVAS",
+    "incisosVerificados": 5,
+    "certificacionIntegral": false
+  }
 }
