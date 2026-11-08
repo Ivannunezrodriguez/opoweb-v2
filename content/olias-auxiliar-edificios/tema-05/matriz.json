@@ -3,43 +3,53 @@
   "numeroEnBloque": 5,
   "bloque": "general",
   "epigrafeOficial": "El municipio de Olias del Rey. Organización municipal. Normativa municipal.",
-  "estado": "EN_AUDITORIA",
-  "control": "2026-11-04",
+  "estado": "AUDITADO",
+  "control": "2026-11-08",
   "fuentePrograma": "BOP Toledo 204/2026; anuncio 4833; CSV 2026.00004833",
   "filas": [
     {
       "inciso": "El municipio y el Ayuntamiento actual",
-      "norma": "Ayuntamiento, Alcaldía",
-      "articulos": "identidad oficial de Alcaldía",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 3"
+      "norma": "BOP 137/2023 + BOP 49/2025; Ayuntamiento de Olías, Alcaldía",
+      "articulos": "Fecha de Alcaldía y órganos municipales; distinguir publicación inicial de modificaciones",
+      "contenidoExigible": "Nombre y sede institucional comprobados; referencia organizativa del mandato"
     },
     {
       "inciso": "Organización municipal: órganos y funciones",
-      "norma": "Corporación Municipal",
-      "articulos": "página municipal de corporación",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 4"
+      "norma": "BOP 137/2023, BOP 99/2024 y BOP 49/2025; LRBRL arts. 19–23",
+      "articulos": "Junta de Gobierno, Tenientes de Alcalde, seis delegaciones especiales y capacidad resolutiva modificada",
+      "contenidoExigible": "Asignación nominal documentada en 2025 y distinción de los órganos del art. 20 LRBRL"
     },
     {
       "inciso": "Áreas y servicios municipales publicados",
-      "norma": "Ordenanzas Municipales",
-      "articulos": "índice público de ordenanzas",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 5"
+      "norma": "Ayuntamiento: secciones oficiales y delegaciones BOP 49/2025",
+      "articulos": "Vinculación de áreas a responsable de 2025; comprobar sitio municipal 2026",
+      "contenidoExigible": "Seis concejalías/delegaciones expresamente publicadas, no solo apartados web"
     },
     {
       "inciso": "Normativa municipal: ordenanzas",
-      "norma": "Ley 7/1985, bases de régimen local",
-      "articulos": "arts. 19-22 y 25",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 6"
+      "norma": "Índice de ordenanzas municipales; LRBRL arts. 22, 49 y 70.2",
+      "articulos": "Identificar ordenanzas, fiscal/general y necesidad de publicación para vigencia",
+      "contenidoExigible": "Índice de ordenanzas y límites de vigencia; no inventar artículo o cuantía"
     },
     {
       "inciso": "Sede electrónica, transparencia y consulta",
-      "norma": "Sede electrónica municipal",
-      "articulos": "trámites, tablón y transparencia",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 7"
+      "norma": "Sede electrónica municipal, catálogo de trámites y tablón",
+      "articulos": "Diferenciar web, sede, registro y publicidad oficial",
+      "contenidoExigible": "Portal informativo, sede electrónica y registro administrativo"
     }
   ],
   "lagunas": [
-    "Composición nominal íntegra de corporación municipal y sus delegaciones a fecha de examen",
-    "Inventario completo y georreferenciado de callejero en fuente municipal actualizada"
-  ]
+    "No se ha acreditado una consulta exhaustiva de todos los posibles cambios en BOP de 2025–2026: revisar ante nueva publicación",
+    "El callejero íntegro corresponde al Tema 13 y no forma parte de este epígrafe municipal"
+  ],
+  "cierreEditorial20261108": {
+    "estado": "AUDITADO_DOCUMENTAL_CON_RESERVA_CAMBIOS_POSTERIORES",
+    "organizacionInicial": "BOP 137/2023",
+    "modificacionCompetencias": "BOP 99/2024",
+    "delegacionesPosteriores": "BOP 49/2025",
+    "comprobacionPortal2026": true,
+    "incisos": 5,
+    "preguntas": 18,
+    "certificacionIntegral": false
+  }
 }
