@@ -476,5 +476,19 @@
         "certificacionIntegral": false
       }
     }
-  ]
+  ],
+  "controlCorteNormativo20261108": {
+    "fechaAuditoria": "2026-11-08",
+    "estado": "PENDIENTE_RESOLUCION_PRIMARIA_FECHADA",
+    "base": "BOE-A-2026-14624, primera.7",
+    "fechaIndicativaFuenteSecundaria": "2026-10-01",
+    "fuenteFechaSecundaria": "https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/",
+    "fechaOficialPublicacion": null,
+    "fuenteInstitucional": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
+    "control": "content/uc3m/CONTROL_CORTE_NORMATIVO_20261108.md",
+    "incidencia": "Sentencia TS 06/10/2026 publicada BOE 23/10/2026 sobre RD 905/2025; no presumir aplicabilidad al corte",
+    "temasDesarrolladosConReserva": 20,
+    "temasAprobadosUsuario": 0,
+    "certificacionIntegral": false
+  }
 }
