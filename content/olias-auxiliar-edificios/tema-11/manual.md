@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 11 · Fotocopiadoras, escáneres, encuadernadoras
 
-**Estado editorial: EN_AUDITORIA.** Primera edición **04/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
+**Estado editorial: AUDITADO (cierre documental con reserva funcional).** Primera edición **04/11/2026**; revisión de contenido y trazabilidad **08/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,13 +8,13 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Referencia | Exigencia |
+| Inciso del programa | Referencia jurídicamente aplicable | Contenido exigible |
 |---|---|---|
-| Máquinas de reprografía | RD 1215/1997, equipos de trabajo | Reglas, componentes y diferencias |
-| Funcionamiento básico y consumibles | Ley 31/1995 | Reglas, componentes y diferencias |
-| Atascos y seguridad de equipos | RGPD | Reglas, componentes y diferencias |
-| Encuadernadoras y acabado | RGPD | Reglas, componentes y diferencias |
-| Protección de documentos y datos | RGPD | Reglas, componentes y diferencias |
+| Máquinas de reprografía | **Manual del fabricante** y características técnicas del modelo; no existe un artículo del RGPD que defina ADF o dúplex | Identificar copia, escaneo, multifunción, ADF, dúplex y resolución sin inventar umbrales |
+| Funcionamiento básico y consumibles | **RD 1215/1997, art. 3 y anexo II** para seguridad; documentación técnica para piezas | Diferenciar tóner/tinta, tambor/fusor, preparación de trabajo |
+| Atascos y seguridad de equipos | **RD 1215/1997, art. 3.5 y anexo II 1.3, 1.4 y 1.14**; **LPRL arts. 17 y 19** | No retirar resguardos ni actuar sobre partes peligrosas; mantenimiento de riesgo por personal capacitado |
+| Encuadernadoras y acabado | **RD 1215/1997, art. 3.5 y anexo II 1.3 y 1.14** | Cortes, calor, atrapamientos y preparación de tiradas |
+| Protección de documentos y datos | **RGPD, art. 5.1.c, f y 5.2** | Minimizar copias, custodiar originales, conservar confidencialidad y eliminar por cauce autorizado |
 
 ## 3. Máquinas de reprografía
 
@@ -93,7 +93,17 @@ Destruir documentos requiere **procedimiento de eliminación** (p. ej., triturad
 
 ## 8. Ejercicio integrado
 
-**Supuesto:** durante un turno en edificio público se detecta una incidencia vinculada con el contenido del tema. La respuesta debe identificar **riesgo y competencia**, proteger a los usuarios, registrar lo imprescindible y avisar al órgano o técnico correspondiente. **No realizar intervenciones peligrosas sin atribuciones, formación y autorización.**
+### Supuesto 1. Atasco en una multifunción
+
+Se atasca papel durante la impresión de expedientes con datos personales. **Procedimiento correcto:** (1) detener el trabajo y proteger el acceso a la bandeja de salida; (2) consultar panel e instrucciones del modelo; (3) desbloquear exclusivamente el área prevista para el operador, en condiciones seguras y sin anular resguardos; (4) si se requiere acceder al fusor caliente o a mecanismos peligrosos, **retirar de uso y avisar al personal capacitado**; (5) recuperar todas las hojas y fragmentos con datos, evitando su abandono; (6) comprobar el resultado y reimprimir solo lo necesario.
+
+> ⚠️ **¡Foco Examen!:** Una incidencia de papel implica **dos planos diferentes**: seguridad del equipo (**RD 1215/1997**) y confidencialidad de expedientes (**RGPD art. 5**). No atribuir las normas de seguridad mecánica al RGPD.
+
+### Supuesto 2. Reproducción y acabado de una convocatoria
+
+Se necesitan 35 copias a doble cara y tres ejemplares encuadernados de un documento autorizado. **Secuencia razonable:** verificar versión final y permisos, seleccionar original/ADF según soporte, confirmar tamaño y orientación, configurar **dúplex** y número de ejemplares, realizar prueba corta, revisar orden y legibilidad, encuadernar comprobando margen de perforación y cubierta, retirar sobrantes y entregar por canal autorizado. Si una guillotina presenta resguardo defectuoso, **no utilizarla** y comunicar la incidencia.
+
+> ⚠️ **¡Foco Examen!:** **Dúplex** no indica necesariamente escaneo automático a doble cara en todos los modelos: hay que identificar si se refiere a impresión, copia o digitalización y comprobar la prestación.
 
 ## Fuentes, delimitación y revisión
 
@@ -101,4 +111,4 @@ Destruir documentos requiere **procedimiento de eliminación** (p. ej., triturad
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — arts. 14, 17 y 19.
 - [**RGPD**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) — art. 5.
 
-La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. Tema en auditoría editorial, no certificado jurídicamente de forma integral.
+La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. **Cierre documental 08/11/2026:** desarrollo de todos los incisos del BOP, corrección de atribución normativa, tabla comparativa y dos situaciones concretas; **pendientes** pruebas funcionales en navegador, control integral de cambios posteriores y cotejo de protocolos municipales no públicos.
