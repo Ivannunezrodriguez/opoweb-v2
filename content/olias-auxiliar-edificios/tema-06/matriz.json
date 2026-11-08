@@ -3,7 +3,7 @@
   "numeroEnBloque": 1,
   "bloque": "especifica",
   "epigrafeOficial": "Nociones básicas sobre seguridad en edificios, emergencia y evacuación. Especial referencia a la salud laboral y prevención de riesgos laborales. Traslados de cargas.",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "fuentePrograma": "BOP 204, 23/10/2026, anuncio 4833, página 58",
   "filas": [
     {
@@ -30,5 +30,13 @@
       "articulos": "Arts. 1–4 y anexo",
       "contenidoExigible": "Evitar manipulación; evaluación ergonómica"
     }
-  ]
+  ],
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVA_PLAN_LOCAL",
+    "incisosVerificados": 4,
+    "supuestosResueltos": 3,
+    "preguntasRevisadas": 12,
+    "certificacionIntegral": false
+  }
 }
