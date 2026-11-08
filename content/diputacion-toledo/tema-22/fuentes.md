@@ -83,3 +83,11 @@ La [sede electrónica del OAPGT, normativa](https://sede.oapgt.es/Paginas/Normat
 **Continuidad de la reserva documental:** el texto **definitivo de 1996** aparece únicamente como transcripción histórica no oficial en las búsquedas realizadas; existe **corrección de errores de noviembre de 1996** y **aprobación inicial de modificación de diciembre de 2004**, cuya aprobación definitiva y consolidación aún no se han recuperado de fuente oficial. No se extraen como datos vigentes composición, quórums ni umbrales de contratación del OAPGT. **Tema T22 no se declara cerrado.** Banco pasa a **24 preguntas/96 alternativas**, con cuatro nuevas sobre las competencias acreditadas.
 
 > ⚠️ **¡Foco Examen!:** **Acuerdo Regulador de personal** y **Estatutos del OAPGT** son fuentes distintas. El BOP de **2023** corrobora competencias concretas pero no reproduce todos los Estatutos vigentes.
+
+
+## Verificación de aplicación de Estatutos en 2019 y 2024 — **08/11/2026**
+
+- [**BOP 188, 03/10/2019, anuncio 5164**](https://bop.diputoledo.es/webEbop/DocGet?id=19092977%3B0&insert_number=5164&insert_year=2019): reconoce expresamente la **Disposición Adicional** de los Estatutos y documenta publicación de identidad de instructores sancionadores por la **Presidencia**, en aplicación de la reforma de **2011**.
+- [**BOP 113, 17/06/2024, anuncio 3152**](https://bop.diputoledo.es/webEbop/DocGet?id=24065870%3B0&insert_number=3152&insert_year=2024): invoca las facultades de **Presidencia, art. 12.2.l), 8)** de los **vigentes Estatutos** para corregir bases de una convocatoria.
+
+**Fuerza probatoria delimitada:** los anuncios corroboran competencias efectivamente ejercidas **en 2019 y 2024**; ninguno proporciona la versión consolidada completa de **1996, corrección de 1996 y reformas posteriores**. Sigue **EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES** y no se inventa composición ni quórum de Consejo Rector.
