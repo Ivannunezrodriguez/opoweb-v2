@@ -13,4 +13,11 @@
 
 > ⚠️ **¡Foco Examen!:** Los epígrafes del BOP son obligatorios; las instrucciones internas de **Olías del Rey** no se atribuyen sin documentarlas mediante fuente municipal vigente.
 
-**Control jurídico:** INICIADO, no terminado; **04/11/2026**.
+**Estado editorial: AUDITADO documental, 08/11/2026.** Certificación integral pendiente.
+
+
+## Cierre de contenido — **08/11/2026**
+
+Fuentes: [**TREBEP arts. 52 y 54**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) — conducta, información y respeto; [**Ley 31/1995 art. 20**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — medidas de emergencia; [**RD 486/1997 anexo I.10**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669) — evacuación; [**RGPD art. 5.1.c y f**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) — registros personales. **Control de llaves y horarios precisos** dependen de inventario y procedimiento municipal, no se presumen de los preceptos citados.
+
+**Cierre documental:** **5 incisos**, **2 supuestos concretos**, **10 preguntas/40 alternativas** con justificaciones y fuentes, sin alterar claves. Pendientes protocolos reales de custodia y prueba integral.
