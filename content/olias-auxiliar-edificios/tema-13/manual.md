@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 13 · Término municipal, servicios y callejero de Olías del Rey
 
-**Estado editorial: EN_AUDITORIA** · **Control de fuentes municipales: 04/11/2026**. Programa del **BOP Toledo n.º 204, 23/10/2026, anuncio 2026/4833**, Anexo II, verificación **2026.00004833**.
+**Estado editorial: AUDITADO documental con reserva de callejero exhaustivo (08/11/2026)** · **Control de fuentes municipales: 08/11/2026**. Programa del **BOP Toledo n.º 204, 23/10/2026, anuncio 2026/4833**, Anexo II, verificación **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -117,7 +117,34 @@ La **Plaza de la Constitución** agrupa referencias del Ayuntamiento, Policía L
 
 > ⚠️ **¡Foco Examen!:** El **código postal 45280** no identifica por sí solo la calle de un servicio. Confirmar número y municipio completos en canal oficial.
 
-## 9. Referencias oficiales y actualización
+## 9. Doble contraste del directorio municipal — **08/11/2026**
+
+Se han cotejado el [**directorio de edificios**](https://www.ayuntamientodeoliasdelrey.com/telefonos-y-correos-de-interes/), la página [**Educación y Cultura**](https://www.ayuntamientodeoliasdelrey.com/educacion-y-cultura/) y la página [**Situación y Callejero**](https://www.ayuntamientodeoliasdelrey.com/situacion-y-callejero/). Las fuentes **no siempre presentan la misma numeración**: ello obliga a memorizar **función y vía contrastadas** y a verificar la puerta exacta antes de desplazarse.
+
+| Servicio | Directorio de teléfonos/edificios | Educación y Cultura / otras páginas municipales | Criterio de estudio |
+|---|---|---|---|
+| **Ayuntamiento** | **Plaza Constitución, 1** | Sede municipal **Plaza de la Constitución, 1** | Coincidencia de número y vía |
+| **Casa de la Cultura** | **C/ Flor, 2** | **C/ La Flor, s/n** | La **vía Flor** está contrastada; **numeración discrepante** |
+| **Centro de la Juventud** | **Camino de Higares** | **C/ Higares s/n** | Higares contrastada; formulación vial variable |
+| **Biblioteca** | No se distingue como fila propia en el directorio general | Se indica tanto **C/ Higares s/n** como **Camino de Higares, 4** | **Número no uniforme** dentro de la propia página municipal |
+| **Escuela Infantil Árbol Mágico** | **Camino del Arenal, 5** | **Camino del Arenal s/n** | Vía segura; **número con versiones distintas** |
+| **Pabellón Polideportivo** | **Camino del Arenal, 5** | No se altera el dato del directorio | Referencia del directorio municipal |
+
+> ⚠️ **¡Foco Examen!:** Cuando dos páginas **del propio Ayuntamiento** discrepan en el número, **no inventar una reconciliación**. Se distingue el dato literal de cada fuente; la pregunta de test debe precisar la fuente o limitarse a la **vía**.
+
+### Supuesto 1. Orientar a una persona hacia Cultura
+
+Una persona solicita cómo llegar a la Casa de la Cultura y una ficha dice «Flor, 2», mientras otra página municipal indica «La Flor, s/n». **Respuesta:** informar de la **calle de la Flor** como dato común, citar la diferencia de numeración si fuera relevante y verificar la ubicación exacta con el servicio municipal antes de orientar sobre una puerta.
+
+> ⚠️ **¡Foco Examen!:** **Calle coincidente** no equivale a **número de portal confirmado**.
+
+### Supuesto 2. Solicitud de callejero completo
+
+Un opositor pregunta si las doce vías citadas en este manual constituyen todo el callejero oficial de Olías. **Respuesta:** no. El **Anexo II del BOP 204/2026** pide callejero, pero **no adjunta relación de calles**; la página municipal titulada «Situación y Callejero» no ofrece en el texto visible un inventario exhaustivo descargable. Debe identificarse esta **laguna real** y no sustituirla por un listado inventado.
+
+> ⚠️ **¡Foco Examen!:** Un directorio de **servicios municipales** no es un **callejero íntegro**. El cierre del material disponible no equivale a acreditar todas las vías municipales.
+
+## 10. Referencias oficiales y actualización
 
 - [**Directorio municipal de teléfonos y edificios**](https://www.ayuntamientodeoliasdelrey.com/telefonos-y-correos-de-interes/): direcciones de instalaciones.
 - [**Educación y Cultura municipal**](https://www.ayuntamientodeoliasdelrey.com/educacion-y-cultura/): centros culturales y biblioteca.
@@ -126,4 +153,4 @@ La **Plaza de la Constitución** agrupa referencias del Ayuntamiento, Policía L
 - [**Turismo de Castilla-La Mancha**](https://www.turismocastillalamancha.es/es/destinos/encanto-rural/toledo/olias-del-rey): situación territorial.
 - [**Instituto Geográfico Nacional**](https://www.ign.es/web/rcc-nomenclator-nacional): cartografía y topónimos.
 
-**Control de vigencia:** el Ayuntamiento puede modificar edificios, servicios, delegaciones y sedes. El **BOP no aporta lista exhaustiva de concejalías ni callejero integral**; donde falta prueba documental se indica como **pendiente** y no se inventan datos.
+**Control documental 08/11/2026:** directorio, Cultura y «Situación y Callejero» contrastados; discrepancias de numeración expresamente delimitadas, **2 supuestos resueltos** y banco de 12 preguntas revisado. **Reserva material:** el **callejero municipal íntegro no queda acreditado** en las fuentes recuperadas; no se presenta una lista parcial como totalidad. Pendientes actualizaciones locales y prueba funcional de la web.
