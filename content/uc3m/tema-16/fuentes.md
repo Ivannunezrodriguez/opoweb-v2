@@ -145,3 +145,10 @@ Se han revisado individualmente **UC3M-T16-017 a UC3M-T16-021**, sus cuatro alte
 **Reserva técnica y legal:** el documento BOEL se pudo consultar como texto indexado, pero **no recuperar captura visual de las páginas**, por lo que no se declara inspección visual completa. **Sin resolución primaria fechada de listas definitivas** no puede fijarse la aplicación temporal de la sentencia de **23/10/2026**. Faltan navegación E2E/móvil, pruebas WCAG/PWA y aprobación del usuario.
 
 > ⚠️ **¡Foco Examen!:** **Arts. 14 y 17 RD 822/2021** siguen delimitando TFG/TFM, créditos y prácticas. **90 días** de solicitudes posteriores a **15/09** ≠ **30 días** de actividades específicas de reconocimiento.
+
+
+## Revalidación primaria: sentencia publicada 23/10/2026
+
+Verificado el [**fallo de la Sentencia del Tribunal Supremo de 06/10/2026, BOE-A-2026-22083**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083), publicado el **23/10/2026**. Anula **RD 905/2025**, no **RD 822/2021** en bloque. El análisis del BOE señala expresamente la nulidad de la modificación del **art. 22.4 del RD 822/2021**, junto con otras referencias y normas afectadas por RD 905/2025. Tabla de discriminación y supuesto añadidos al [manual](manual.md). **Se conserva reserva de fecha de corte de UC3M, base primera.7**, ya que la web de la convocatoria muestra «resolución definitiva» sin verificar aún fecha en el PDF primario. No modificar bancos ni atribuir aprobación.
+
+> ⚠️ **¡Foco Examen!:** El día **23/10/2026** corresponde al BOE de publicación de la sentencia, **no** automáticamente al límite de normas exigibles en el ejercicio de UC3M.
