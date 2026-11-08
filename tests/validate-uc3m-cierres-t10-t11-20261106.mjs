@@ -5,7 +5,7 @@ const read=p=>readFileSync(p,'utf8'), json=p=>JSON.parse(read(p));
 const acta=read('content/uc3m/CIERRE_DOCUMENTAL_T10_T11_20261106.md');
 const lote=json('data/uc3m-repasos-complementarios-20261106.json').paquetes.find(p=>p.id==='UC3M-ADIC-20261106-LOTE');
 assert.ok(lote&&lote.preguntas.length===18);
-const expected=[{n:10,blocks:11,extra:6,sha:'88625fb9fda7b246627b4c5fb02b1319038d96e2',source:'BOE-A-2015-11719'},{n:11,blocks:12,extra:4,sha:'6cd236e0a6691248cafcb1dfeefbddf8e5160be7',source:'BOE-A-1995-8729'}];
+const expected=[{n:10,blocks:11,extra:6,sha:'12f6dae5d981e27dbb9f6e34c3a17b07e05e434c',source:'BOE-A-2015-11719'},{n:11,blocks:12,extra:4,sha:'9971fe70caddf07b797ee148468012dbbcfb4313',source:'BOE-A-1995-8729'}];
 const ids=new Set();let nOriginal=0,nExtra=0;
 for(const x of expected){
  const p='content/uc3m/tema-'+String(x.n).padStart(2,'0')+'/';
