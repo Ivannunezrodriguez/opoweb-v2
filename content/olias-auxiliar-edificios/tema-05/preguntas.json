@@ -1,7 +1,7 @@
 {
   "tema": 5,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T05-001",
@@ -15,7 +15,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "Es municipio de Toledo.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Es municipio de Toledo.",
-      "referencia": "Web municipal y BOP 204/2026"
+      "referencia": "Web municipal y BOP 204/2026",
+      "respuestaLiteral": "Toledo"
     },
     {
       "id": "OLIAS-T05-002",
@@ -29,7 +30,8 @@
       "respuestaCorrecta": 3,
       "justificacion": "La web oficial atribuye ese cargo.",
       "trampaExamen": "No sustituir prueba oficial por suposición: La web oficial atribuye ese cargo.",
-      "referencia": "Web oficial, Alcaldía"
+      "referencia": "Web oficial, Alcaldía",
+      "respuestaLiteral": "María del Rosario Navas Cabezas"
     },
     {
       "id": "OLIAS-T05-003",
@@ -43,7 +45,8 @@
       "respuestaCorrecta": 1,
       "justificacion": "Estructura del art. 19 LRBRL.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Estructura del art. 19 LRBRL.",
-      "referencia": "LRBRL, art. 19"
+      "referencia": "LRBRL, art. 19",
+      "respuestaLiteral": "Alcalde y Concejales"
     },
     {
       "id": "OLIAS-T05-004",
@@ -57,7 +60,8 @@
       "respuestaCorrecta": 3,
       "justificacion": "El artículo 22 se refiere a Pleno.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El artículo 22 se refiere a Pleno.",
-      "referencia": "LRBRL, art. 22"
+      "referencia": "LRBRL, art. 22",
+      "respuestaLiteral": "El Pleno"
     },
     {
       "id": "OLIAS-T05-005",
@@ -71,7 +75,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "El Ayuntamiento publica índice de ordenanzas.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El Ayuntamiento publica índice de ordenanzas.",
-      "referencia": "Web oficial, Ordenanzas Municipales"
+      "referencia": "Web oficial, Ordenanzas Municipales",
+      "respuestaLiteral": "Ordenanzas Municipales"
     },
     {
       "id": "OLIAS-T05-006",
@@ -85,7 +90,8 @@
       "respuestaCorrecta": 1,
       "justificacion": "La sede tiene catálogo y registro electrónico.",
       "trampaExamen": "No sustituir prueba oficial por suposición: La sede tiene catálogo y registro electrónico.",
-      "referencia": "Sede electrónica Olías"
+      "referencia": "Sede electrónica Olías",
+      "respuestaLiteral": "Presentar y gestionar trámites autorizados"
     },
     {
       "id": "OLIAS-T05-007",
@@ -99,7 +105,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "La corporación incluye concejales del Ayuntamiento.",
       "trampaExamen": "No sustituir prueba oficial por suposición: La corporación incluye concejales del Ayuntamiento.",
-      "referencia": "LRBRL; web corporación"
+      "referencia": "LRBRL; web corporación",
+      "respuestaLiteral": "No"
     },
     {
       "id": "OLIAS-T05-008",
@@ -113,7 +120,8 @@
       "respuestaCorrecta": 1,
       "justificacion": "El Alcalde representa al Ayuntamiento.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El Alcalde representa al Ayuntamiento.",
-      "referencia": "LRBRL, art. 21"
+      "referencia": "LRBRL, art. 21",
+      "respuestaLiteral": "Alcaldesa/Alcalde"
     },
     {
       "id": "OLIAS-T05-009",
@@ -127,7 +135,8 @@
       "respuestaCorrecta": 3,
       "justificacion": "El art. 20 regula organización.",
       "trampaExamen": "No sustituir prueba oficial por suposición: El art. 20 regula organización.",
-      "referencia": "LRBRL, art. 20"
+      "referencia": "LRBRL, art. 20",
+      "respuestaLiteral": "LRBRL, art. 20"
     },
     {
       "id": "OLIAS-T05-010",
@@ -141,7 +150,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "La vigencia puede depender de modificaciones.",
       "trampaExamen": "No sustituir prueba oficial por suposición: La vigencia puede depender de modificaciones.",
-      "referencia": "Web municipal; régimen local"
+      "referencia": "Web municipal; régimen local",
+      "respuestaLiteral": "Comprobar norma publicada y modificaciones"
     },
     {
       "id": "OLIAS-T05-011",
@@ -155,7 +165,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "Cabecera institucional muestra Plaza de la Constitución 1.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Cabecera institucional muestra Plaza de la Constitución 1.",
-      "referencia": "Web municipal"
+      "referencia": "Web municipal",
+      "respuestaLiteral": "Plaza de la Constitución, 1"
     },
     {
       "id": "OLIAS-T05-012",
@@ -169,7 +180,108 @@
       "respuestaCorrecta": 2,
       "justificacion": "Se requiere presentación formal.",
       "trampaExamen": "No sustituir prueba oficial por suposición: Se requiere presentación formal.",
-      "referencia": "Sede electrónica; BOP 4833"
+      "referencia": "Sede electrónica; BOP 4833",
+      "respuestaLiteral": "No, exige registro del trámite"
+    },
+    {
+      "id": "OLIAS-T05-013",
+      "enunciado": "Según el Decreto publicado en el BOP 49/2025, ¿quién ostenta las delegaciones especiales de Educación, Empleo, Promoción Económica y Transparencia?",
+      "opciones": [
+        "Elsa Arellano Martín",
+        "María Jesús Hernández García",
+        "Rosario Tordesillas Díaz",
+        "José Manuel Ferreiro Vázquez"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El decreto de **2025** atribuye expresamente estas áreas a **María Jesús Hernández García**, corroborado en 2026 por la web municipal.",
+      "trampaExamen": "¡Foco Examen!: Distinguir publicación de 2023, corrección de 2024 y redistribución de 2025; el dato se refiere a esa fecha oficial.",
+      "referencia": "BOP Toledo n.º 49, 13/03/2025, anuncio 1300",
+      "respuestaLiteral": "María Jesús Hernández García"
+    },
+    {
+      "id": "OLIAS-T05-014",
+      "enunciado": "¿Qué publicación redistribuye las delegaciones especiales del Ayuntamiento de Olías del Rey respecto a las aprobadas en 2023?",
+      "opciones": [
+        "BOP 137/2023",
+        "BOP 49/2025",
+        "BOE de 1978",
+        "BOP 284/2011"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **Decreto de Alcaldía de 04/03/2025**, publicado el **13/03/2025**, redistribuye seis áreas.",
+      "trampaExamen": "¡Foco Examen!: Distinguir publicación de 2023, corrección de 2024 y redistribución de 2025; el dato se refiere a esa fecha oficial.",
+      "referencia": "BOP 49/2025, anuncio 1300",
+      "respuestaLiteral": "BOP 49/2025"
+    },
+    {
+      "id": "OLIAS-T05-015",
+      "enunciado": "¿Qué cambio relevante introdujo el Decreto municipal publicado en el BOP 99/2024 en las delegaciones especiales?",
+      "opciones": [
+        "Suprimió todas las delegaciones",
+        "Las convirtió en leyes autonómicas",
+        "Reconoció capacidad resolutiva mediante actos administrativos que afectan a terceros",
+        "Creó un nuevo Ayuntamiento"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El decreto **2024** modificó la fórmula original de **2023** para reconocer **capacidad resolutiva** en las delegaciones especiales.",
+      "trampaExamen": "¡Foco Examen!: Distinguir publicación de 2023, corrección de 2024 y redistribución de 2025; el dato se refiere a esa fecha oficial.",
+      "referencia": "BOP 99, 24/05/2024, anuncio 2645",
+      "respuestaLiteral": "Reconoció capacidad resolutiva mediante actos administrativos que afectan a terceros"
+    },
+    {
+      "id": "OLIAS-T05-016",
+      "enunciado": "En el decreto municipal de 2025, ¿a quién corresponden Urbanismo, Asuntos Generales, Economía y Hacienda?",
+      "opciones": [
+        "José Manuel Ferreiro Vázquez",
+        "Cosme Vega Íñigo",
+        "Alejandro Hernández Rubio",
+        "Elsa Arellano Martín"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "**José Manuel Ferreiro Vázquez** asume la delegación publicada de **Urbanismo, Asuntos Generales, Economía y Hacienda**.",
+      "trampaExamen": "¡Foco Examen!: Distinguir publicación de 2023, corrección de 2024 y redistribución de 2025; el dato se refiere a esa fecha oficial.",
+      "referencia": "BOP 49/2025, anuncio 1300",
+      "respuestaLiteral": "José Manuel Ferreiro Vázquez"
+    },
+    {
+      "id": "OLIAS-T05-017",
+      "enunciado": "Según el BOP 49/2025, ¿quién es responsable de Deportes y Juventud?",
+      "opciones": [
+        "Ángel Martín de la Cuadra",
+        "Rosario Tordesillas Díaz",
+        "Cosme Vega Íñigo",
+        "María Jesús Hernández García"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "**Cosme Vega Íñigo** figura en **Deportes y Juventud** en el decreto de marzo de 2025.",
+      "trampaExamen": "¡Foco Examen!: Distinguir publicación de 2023, corrección de 2024 y redistribución de 2025; el dato se refiere a esa fecha oficial.",
+      "referencia": "BOP 49/2025, anuncio 1300",
+      "respuestaLiteral": "Cosme Vega Íñigo"
+    },
+    {
+      "id": "OLIAS-T05-018",
+      "enunciado": "¿Qué dato sobre los Tenientes de Alcalde está efectivamente acreditado por el BOP 137/2023 sin afirmar que siga invariable en 2026?",
+      "opciones": [
+        "Primer teniente: Ángel Martín de la Cuadra; segunda: Elsa Arellano Martín",
+        "Primer teniente: Cosme Vega Íñigo; segunda: Rosario Tordesillas Díaz",
+        "El BOP suprime el cargo de Teniente de Alcalde",
+        "El primer teniente es siempre el interventor"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El **03/07/2023** se designó primer teniente a **Ángel Martín de la Cuadra** y segunda teniente a **Elsa Arellano Martín**. No se presume vigencia inalterada posterior.",
+      "trampaExamen": "¡Foco Examen!: Distinguir publicación de 2023, corrección de 2024 y redistribución de 2025; el dato se refiere a esa fecha oficial.",
+      "referencia": "BOP 137/2023, Decreto 2023-0534",
+      "respuestaLiteral": "Primer teniente: Ángel Martín de la Cuadra; segunda: Elsa Arellano Martín"
     }
-  ]
+  ],
+  "control20261108": {
+    "nuevosItems": 6,
+    "total": 18,
+    "alternativas": 72,
+    "fuenteDecreto2025": "BOP 49/2025 anuncio 1300",
+    "fuente2024": "BOP 99/2024 anuncio 2645",
+    "auditoriaDocumental": true,
+    "revisionCambiosPosterioresPendiente": true,
+    "certificacionIntegral": false
+  }
 }
