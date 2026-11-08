@@ -1,7 +1,7 @@
 {
   "tema": 22,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T22-001",
@@ -13,9 +13,10 @@
         "20"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "80 × 0,25 = 20.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. 80 × 0,25 = 20.",
-      "referencia": "Aritmética"
+      "justificacion": "El 25 % de 80 es 80 × 25 / 100 = 20, sin confundir porcentaje con descuento o incremento acumulado.",
+      "trampaExamen": "¡Foco Examen!: El 25 % de 80 es 80 × 25 / 100 = 20, sin confundir porcentaje con descuento o incremento acumulado.",
+      "referencia": "Manual §3, porcentajes",
+      "respuestaLiteral": "20"
     },
     {
       "id": "OLIAS-T22-002",
@@ -27,9 +28,10 @@
         "150 minutos"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "1,5 × 60 = 90.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. 1,5 × 60 = 90.",
-      "referencia": "Unidades"
+      "justificacion": "Una hora equivale a 60 minutos; 1,5 horas = 1 × 60 + 0,5 × 60 = 90 minutos.",
+      "trampaExamen": "¡Foco Examen!: Una hora equivale a 60 minutos; 1,5 horas = 1 × 60 + 0,5 × 60 = 90 minutos.",
+      "referencia": "Manual §4, conversión de tiempo",
+      "respuestaLiteral": "90 minutos"
     },
     {
       "id": "OLIAS-T22-003",
@@ -41,9 +43,10 @@
         "10.000"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "100 cm × 100 cm = 10.000.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. 100 cm × 100 cm = 10.000.",
-      "referencia": "Superficie"
+      "justificacion": "Un metro equivale a cien centímetros, por lo que un metro cuadrado equivale a 100 × 100 = 10.000 centímetros cuadrados.",
+      "trampaExamen": "¡Foco Examen!: Un metro equivale a cien centímetros, por lo que un metro cuadrado equivale a 100 × 100 = 10.000 centímetros cuadrados.",
+      "referencia": "Manual §4, área y unidades",
+      "respuestaLiteral": "10.000"
     },
     {
       "id": "OLIAS-T22-004",
@@ -55,9 +58,10 @@
         "Aguda"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Tónica en antepenúltima sílaba.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Tónica en antepenúltima sílaba.",
-      "referencia": "Ortografía"
+      "justificacion": "Público lleva la sílaba tónica antepenúltima y es palabra esdrújula; se escribe con tilde.",
+      "trampaExamen": "¡Foco Examen!: Público lleva la sílaba tónica antepenúltima y es palabra esdrújula; se escribe con tilde.",
+      "referencia": "Manual §5, regla de acentuación",
+      "respuestaLiteral": "Esdrújula"
     },
     {
       "id": "OLIAS-T22-005",
@@ -69,9 +73,10 @@
         "El artículo"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Tú pronombre se tilda.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Tú pronombre se tilda.",
-      "referencia": "Ortografía"
+      "justificacion": "Tú es pronombre personal y lleva tilde diacrítica, a diferencia del determinante posesivo tu.",
+      "trampaExamen": "¡Foco Examen!: Tú es pronombre personal y lleva tilde diacrítica, a diferencia del determinante posesivo tu.",
+      "referencia": "Manual §5, tilde diacrítica",
+      "respuestaLiteral": "Tú"
     },
     {
       "id": "OLIAS-T22-006",
@@ -83,9 +88,10 @@
         "Talavera"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Toledo es capital autonómica.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Toledo es capital autonómica.",
-      "referencia": "Geografía"
+      "justificacion": "La capital de Castilla-La Mancha es Toledo; no debe confundirse capital autonómica con capital de otra provincia.",
+      "trampaExamen": "¡Foco Examen!: La capital de Castilla-La Mancha es Toledo; no debe confundirse capital autonómica con capital de otra provincia.",
+      "referencia": "Manual §6, geografía autonómica",
+      "respuestaLiteral": "Toledo"
     },
     {
       "id": "OLIAS-T22-007",
@@ -97,9 +103,10 @@
         "Tres"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo.",
-      "referencia": "Geografía"
+      "justificacion": "La comunidad autónoma de Castilla-La Mancha está integrada por Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo.",
+      "trampaExamen": "¡Foco Examen!: La comunidad autónoma de Castilla-La Mancha está integrada por Albacete, Ciudad Real, Cuenca, Guadalajara y Toledo.",
+      "referencia": "Manual §6, provincias de Castilla-La Mancha",
+      "respuestaLiteral": "Cinco provincias"
     },
     {
       "id": "OLIAS-T22-008",
@@ -111,9 +118,10 @@
         "Copia oculta"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Oculta direcciones a otros receptores.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Oculta direcciones a otros receptores.",
-      "referencia": "Ofimática, correo"
+      "justificacion": "CCO significa copia de carbón oculta o copia oculta y permite no exponer direcciones entre destinatarios ordinarios; no cifra el contenido.",
+      "trampaExamen": "¡Foco Examen!: CCO significa copia de carbón oculta o copia oculta y permite no exponer direcciones entre destinatarios ordinarios; no cifra el contenido.",
+      "referencia": "Manual §8, correo electrónico y RGPD art. 5.1.f",
+      "respuestaLiteral": "Copia oculta"
     },
     {
       "id": "OLIAS-T22-009",
@@ -125,9 +133,10 @@
         "Tarifa postal"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Suma celdas del intervalo.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Suma celdas del intervalo.",
-      "referencia": "Hoja de cálculo"
+      "justificacion": "SUMA(A1:A5) agrega numéricamente los valores de las celdas comprendidas entre A1 y A5, según la sintaxis de la aplicación.",
+      "trampaExamen": "¡Foco Examen!: SUMA(A1:A5) agrega numéricamente los valores de las celdas comprendidas entre A1 y A5, según la sintaxis de la aplicación.",
+      "referencia": "Manual §7, funciones de hoja de cálculo",
+      "respuestaLiteral": "Suma de ese rango"
     },
     {
       "id": "OLIAS-T22-010",
@@ -139,9 +148,16 @@
         "Sí, siempre"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El registro es un procedimiento distinto.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. El registro es un procedimiento distinto.",
-      "referencia": "Ofimática, documentos"
+      "justificacion": "Exportar a PDF genera un documento en ese formato; no supone por sí mismo presentar solicitud en el registro electrónico.",
+      "trampaExamen": "¡Foco Examen!: Exportar a PDF genera un documento en ese formato; no supone por sí mismo presentar solicitud en el registro electrónico.",
+      "referencia": "Manual §7, PDF y Ley 39/2015 sobre registro",
+      "respuestaLiteral": "No, son operaciones diferentes"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "REVISION_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
 }
