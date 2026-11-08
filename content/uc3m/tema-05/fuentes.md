@@ -38,3 +38,12 @@ El manual resume el contenido normativo con orientación de examen. En caso de m
 **Vigencia y alcance:** la consolidación del BOE es informativa; en el examen UC3M debe aplicarse la redacción vigente conforme a la **base primera.7** de la convocatoria, cuya fecha exacta de publicación de las listas definitivas/anuncio no se ha acreditado con documento primario. Este cotejo de artículos críticos es **focal**, no certificación íntegra de todos los artículos ni del navegador/PWA.
 
 > ⚠️ **¡Foco Examen!:** El dato decisivo suele ser el **supuesto legal y su excepción**, no memorizar el número sin el órgano, el procedimiento y la unidad temporal.
+
+
+## Cierre de desarrollo del temario — **08/11/2026**
+
+**Fuentes primarias verificadas:** [**Ley 40/2015, arts. 38–46 bis**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). Se desarrollaron **10 apartados**, se añadieron **2 supuestos de examen resueltos** y se preservó el banco de **12 preguntas / 48 alternativas** previamente cotejado. Casuística: Sede electrónica frente a portal; sello/CSV; alojamiento de datos enumerados del artículo 46 bis dentro de la UE.
+
+**Reserva de rigor:** `EN_REVISION_USUARIO` no significa aprobado. La **base primera.7 de UC3M** fija el corte de legislación en la publicación de la resolución de listas definitivas que anuncia el ejercicio; sigue sin acreditarse con documento primario la fecha exacta de publicación. Se declara **desarrollo documental terminado con esa reserva**, no cierre de vigencia/certificación funcional integral.
+
+> ⚠️ **¡Foco Examen!:** **Sede** no es sinónimo de **portal**; el **art. 46 bis** no obliga a alojar todos los datos personales en España.
