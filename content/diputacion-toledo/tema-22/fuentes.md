@@ -4,7 +4,7 @@
 
 `GENERACION_DESDE_CERO`
 
-> Este tema se ha redactado como **interpretación prudente** autorizada por el usuario ante la falta de acceso al texto íntegro y vigente del Acuerdo Regulador y de los Estatutos del OAPGT.
+> Se ha contrastado el **Acuerdo Regulador original de 2023 y sus modificaciones de 2026**, así como una **reforma estatutaria de 2011** y **atribuciones y delegaciones publicadas en el BOP de 2023**. **Sigue pendiente la reconstrucción íntegra y consolidada de los Estatutos del OAPGT**.
 
 ## Fuentes normativas seguras
 
@@ -74,3 +74,12 @@ Se han localizado reproducciones históricas **no oficiales** de publicaciones d
 La [sede electrónica del OAPGT, normativa](https://sede.oapgt.es/Paginas/Normativa.aspx) no ofrece en el contenido consultado una **versión íntegra consolidada de sus Estatutos**. La información disponible no permite verificar con exhaustividad **composición, quórums, mayorías y reparto de competencias actual**. Se mantiene el estado de **AUDITORÍA PENDIENTE** del tema 22, sin añadir al banco preguntas de cifras no comprobadas.
 
 > ⚠️ **¡Foco Examen!:** Una **aprobación inicial** de **2004** no acredita por sí sola la redacción final; y los Estatutos de **1996** presentan **corrección de errores del artículo 8**. No memorizar composiciones ni quórums de textos históricos sin consolidarlos frente a todas las reformas posteriores.
+
+
+## Nueva evidencia estatutaria primaria — **08/11/2026**
+
+[**BOP 92 de 16/05/2023, anuncio 2824**](https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023), sobre **representación del OAPGT** y **delegación de contratación**. Reproduce artículos de los Estatutos de **1996** y da fe del ejercicio concreto en **2023**: **Consejo Rector art. 10.k** (contratación y posibilidad de delegación), **Presidencia art. 12.1** (representación y poderes), **Dirección art. 14** (gestión y representación por delegación). El **Consejo Rector**, en sesión de **11/05/2023**, delegó facultades de contratación en el **Director** para **dos expedientes identificados**: infraestructura/ciberseguridad **16_2021, lote 1** y servicios postales **5_2023**; la **Presidencia** dictó un decreto separado de representación económica-contable. La delegación **no transfiere titularidad competencial**.
+
+**Continuidad de la reserva documental:** el texto **definitivo de 1996** aparece únicamente como transcripción histórica no oficial en las búsquedas realizadas; existe **corrección de errores de noviembre de 1996** y **aprobación inicial de modificación de diciembre de 2004**, cuya aprobación definitiva y consolidación aún no se han recuperado de fuente oficial. No se extraen como datos vigentes composición, quórums ni umbrales de contratación del OAPGT. **Tema T22 no se declara cerrado.** Banco pasa a **24 preguntas/96 alternativas**, con cuatro nuevas sobre las competencias acreditadas.
+
+> ⚠️ **¡Foco Examen!:** **Acuerdo Regulador de personal** y **Estatutos del OAPGT** son fuentes distintas. El BOP de **2023** corrobora competencias concretas pero no reproduce todos los Estatutos vigentes.
