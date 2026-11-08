@@ -1,7 +1,7 @@
 {
   "tema": 19,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T19-001",
@@ -13,9 +13,10 @@
         "Chapas cruzadas enteras"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El MDF está hecho de fibras.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. El MDF está hecho de fibras.",
-      "referencia": "Tema 19, madera"
+      "justificacion": "El MDF es un tablero de fibras de madera prensadas con adhesivos; no es contrachapado de chapas ni madera maciza.",
+      "trampaExamen": "¡Foco Examen!: El MDF es un tablero de fibras de madera prensadas con adhesivos; no es contrachapado de chapas ni madera maciza.",
+      "referencia": "Manual §3, clasificación técnica de tableros",
+      "respuestaLiteral": "Fibras de madera prensadas"
     },
     {
       "id": "OLIAS-T19-002",
@@ -27,9 +28,10 @@
         "Hormigón"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Chapas en capas.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Chapas en capas.",
-      "referencia": "Tema 19, madera"
+      "justificacion": "El contrachapado está formado por chapas encoladas en capas, con orientación alternada habitual para mejorar estabilidad.",
+      "trampaExamen": "¡Foco Examen!: El contrachapado está formado por chapas encoladas en capas, con orientación alternada habitual para mejorar estabilidad.",
+      "referencia": "Manual §3, tableros de madera",
+      "respuestaLiteral": "Chapas encoladas"
     },
     {
       "id": "OLIAS-T19-003",
@@ -41,9 +43,10 @@
         "Purgar radiador"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Herramienta de filo para madera.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Herramienta de filo para madera.",
-      "referencia": "Tema 19, herramientas"
+      "justificacion": "El formón presenta un filo para labrar, tallar o rebajar madera; no se utiliza como lija o escuadra.",
+      "trampaExamen": "¡Foco Examen!: El formón presenta un filo para labrar, tallar o rebajar madera; no se utiliza como lija o escuadra.",
+      "referencia": "Manual §4, herramientas de carpintería",
+      "respuestaLiteral": "Rebajar/tallar madera"
     },
     {
       "id": "OLIAS-T19-004",
@@ -55,9 +58,10 @@
         "Ángulos y perpendicularidad"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Es instrumento de escuadrado.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Es instrumento de escuadrado.",
-      "referencia": "Tema 19, herramientas"
+      "justificacion": "La escuadra facilita la comprobación de ángulos, especialmente perpendicularidad, y no sustituye al sargento.",
+      "trampaExamen": "¡Foco Examen!: La escuadra facilita la comprobación de ángulos, especialmente perpendicularidad, y no sustituye al sargento.",
+      "referencia": "Manual §4, escuadra",
+      "respuestaLiteral": "Ángulos y perpendicularidad"
     },
     {
       "id": "OLIAS-T19-005",
@@ -69,9 +73,10 @@
         "Drenar un sifón"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Sujetadores temporales.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Sujetadores temporales.",
-      "referencia": "Tema 19, herramientas"
+      "justificacion": "Los sargentos sujetan piezas durante corte, ensamblaje o encolado; no cortan ni miden por sí mismos.",
+      "trampaExamen": "¡Foco Examen!: Los sargentos sujetan piezas durante corte, ensamblaje o encolado; no cortan ni miden por sí mismos.",
+      "referencia": "Manual §4, gatos o sargentos",
+      "respuestaLiteral": "Sujetar piezas"
     },
     {
       "id": "OLIAS-T19-006",
@@ -83,9 +88,10 @@
         "Guías"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Las guías encauzan lamas.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Las guías encauzan lamas.",
-      "referencia": "Tema 19, persianas"
+      "justificacion": "Las guías conducen las lamas durante su recorrido; no son el eje de enrollamiento ni la cinta.",
+      "trampaExamen": "¡Foco Examen!: Las guías conducen las lamas durante su recorrido; no son el eje de enrollamiento ni la cinta.",
+      "referencia": "Manual §6, mecanismos de persiana",
+      "respuestaLiteral": "Guías"
     },
     {
       "id": "OLIAS-T19-007",
@@ -97,9 +103,10 @@
         "Bomba"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El recogedor aloja cinta.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. El recogedor aloja cinta.",
-      "referencia": "Tema 19, persianas"
+      "justificacion": "El recogedor aloja y recoge la cinta de accionamiento manual; no equivale a la caja ni al eje del paño.",
+      "trampaExamen": "¡Foco Examen!: El recogedor aloja y recoge la cinta de accionamiento manual; no equivale a la caja ni al eje del paño.",
+      "referencia": "Manual §6, mecanismos de persiana",
+      "respuestaLiteral": "Recogedor"
     },
     {
       "id": "OLIAS-T19-008",
@@ -111,9 +118,10 @@
         "Solo si es blanca"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Puede alterarse su resistencia y cierre.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Puede alterarse su resistencia y cierre.",
-      "referencia": "Tema 19, puertas"
+      "justificacion": "Rebajar una puerta cortafuegos puede afectar sus prestaciones y requiere evaluación técnica y autorización; no se realiza por iniciativa propia.",
+      "trampaExamen": "¡Foco Examen!: Rebajar una puerta cortafuegos puede afectar sus prestaciones y requiere evaluación técnica y autorización; no se realiza por iniciativa propia.",
+      "referencia": "Manual §5, puertas resistentes al fuego",
+      "respuestaLiteral": "No"
     },
     {
       "id": "OLIAS-T19-009",
@@ -125,9 +133,10 @@
         "Ninguno"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Debe evaluarse polvo respirable.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Debe evaluarse polvo respirable.",
-      "referencia": "LPRL"
+      "justificacion": "El lijado produce polvo de madera; se evalúan exposición y control mediante extracción, ventilación y protección apropiada.",
+      "trampaExamen": "¡Foco Examen!: El lijado produce polvo de madera; se evalúan exposición y control mediante extracción, ventilación y protección apropiada.",
+      "referencia": "Manual §7; LPRL arts. 15 y 17",
+      "respuestaLiteral": "Polvo"
     },
     {
       "id": "OLIAS-T19-010",
@@ -139,9 +148,16 @@
         "Cualquier producto al azar"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Compatibilidad y seguridad del producto.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Compatibilidad y seguridad del producto.",
-      "referencia": "Tema 19, adhesivos"
+      "justificacion": "La cola debe ser compatible con material y uso, y aplicarse conforme a instrucciones y ficha de seguridad; una unión inadecuada puede fallar.",
+      "trampaExamen": "¡Foco Examen!: La cola debe ser compatible con material y uso, y aplicarse conforme a instrucciones y ficha de seguridad; una unión inadecuada puede fallar.",
+      "referencia": "Manual §7, adhesivos y seguridad",
+      "respuestaLiteral": "Adhesivo compatible y condiciones de uso"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "REVISION_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
 }
