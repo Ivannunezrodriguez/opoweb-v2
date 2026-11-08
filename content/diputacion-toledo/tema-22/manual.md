@@ -309,3 +309,21 @@ Se plantea un contrato nuevo y se invoca automáticamente el acuerdo de **11/05/
 **Fuente primaria:** [**BOP Toledo 92 de 16/05/2023, anuncio 2824**](https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023). Complemento: [**BOP 284/2011, modificación estatutaria**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011).
 
 **Reserva que impide cerrar el T22 al 100 %:** queda pendiente cotejo directo del **BOP 235/1996**, **corrección de errores del BOP 253/1996**, resultado **definitivo** de la modificación inicialmente aprobada en **2004** y otras modificaciones posteriores que pudieran afectar a composición, quórums y competencias. Las reproducciones no oficiales de esos boletines se usan solo para localización, **no como prueba de vigencia consolidada**.
+
+
+## 14. Comprobaciones estatutarias posteriores — **08/11/2026**
+
+Un control de vigencia necesita distinguir **texto estatutario publicado** de **ejercicio efectivo de atribuciones** documentado posteriormente. Se han identificado estos dos anuncios oficiales complementarios:
+
+| BOP y fecha | Actuación | Artículo citado | Qué permite comprobar |
+|---|---|---|---|
+| **BOP 188, 03/10/2019** | Nombramiento de instructora de procedimientos sancionadores en tráfico | **Disposición adicional de Estatutos** | Funcionamiento efectivo del régimen de instructores añadido en **2011** y publicación de su identidad por **Presidencia** |
+| **BOP 113, 17/06/2024** | Corrección de errores de convocatoria y bases de OEP del OAPGT | **Art. 12.2.l), 8)** de los «vigentes Estatutos» | La **Presidencia** invoca atribución estatutaria concreta en **2024**, sin que esto permita reconstruir todas las letras del art. 12 |
+
+**Fuente oficial:** [**BOP 188/2019, anuncio 5164**](https://bop.diputoledo.es/webEbop/DocGet?id=19092977%3B0&insert_number=5164&insert_year=2019) y [**BOP 113/2024, anuncio 3152**](https://bop.diputoledo.es/webEbop/DocGet?id=24065870%3B0&insert_number=3152&insert_year=2024).
+
+### Supuesto. ¿Demuestra una convocatoria la redacción íntegra del Estatuto?
+
+Una resolución de la **Presidencia** cita el **art. 12.2.l), 8)** para corregir las bases de una OEP. De ello puede inferirse que **ese órgano invocó esa atribución en 2024**, pero **no** cuál sea el texto completo de todo el **art. 12**, ni la composición actual del **Consejo Rector**, ni la regla de quórum. Para conocerlas debe recuperarse el **texto completo oficial y sus modificaciones**.
+
+> ⚠️ **¡Foco Examen!:** Una resolución **aplica o cita** una competencia, pero **no sustituye al Estatuto** ni demuestra por sí sola sus requisitos generales. **2019** y **2024** son pruebas de aplicación, no una consolidación normativa.
