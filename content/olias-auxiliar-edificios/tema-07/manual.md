@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 7: Atención a ciudadanía, comunicación, asertividad y conflictos
 
-**Estado editorial:** EN_AUDITORIA · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**pp. 58–59**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
+**Estado editorial: AUDITADO documental (08/11/2026), con reservas locales y funcionales.** · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**pp. 58–59**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
 
 ## 1. Epígrafe oficial literal
 
@@ -8,13 +8,13 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Norma principal | Artículos/referencia | Contenido exigible |
-|---|---|---|---|
-| La atención a la ciudadanía en un edificio municipal | Ley 39/2015, derechos y asistencia | arts. 13, 14 y 53 según caso | Conceptos, límites y ejemplos del apartado |
-| Elementos y niveles de la comunicación | Ley 39/2015, derechos y asistencia | arts. 13, 14 y 53 según caso | Conceptos, límites y ejemplos del apartado |
-| Escucha activa y habilidades sociales | Ley 39/2015, derechos y asistencia | arts. 13, 14 y 53 según caso | Conceptos, límites y ejemplos del apartado |
-| Asertividad: estilos y conflictos | Ley 39/2015, derechos y asistencia | arts. 13, 14 y 53 según caso | Conceptos, límites y ejemplos del apartado |
-| Datos personales y accesibilidad | Ley 39/2015, derechos y asistencia | arts. 13, 14 y 53 según caso | Conceptos, límites y ejemplos del apartado |
+| Inciso del programa | Fuente aplicable | Contenido exigible |
+|---|---|---|
+| Atención a ciudadanía | **Ley 39/2015 art. 13**; **TREBEP art. 54.1 y 54.4** | Orientar sin resolver expedientes y facilitar información debida |
+| Elementos y niveles de comunicación | **Teoría de comunicación**: conceptos técnicos, no definiciones de Ley 39/2015 | Emisor, receptor, código, canal, verbal/no verbal y barreras |
+| Escucha activa y habilidades sociales | **Técnicas de atención**; deber de respeto del **TREBEP art. 54** | Parafraseo, empatía, síntesis y límites de atención |
+| Asertividad y conflictos | **Técnicas de comunicación**; **TREBEP arts. 52 y 54** | Estilos pasivo, agresivo y asertivo; actuación ante amenazas |
+| Datos personales y accesibilidad | **RGPD art. 5.1.c/f** y **Ley 39/2015 art. 13** | Minimización y confidencialidad sin perjudicar la orientación accesible |
 
 ## 3. La atención a la ciudadanía en un edificio municipal
 
@@ -90,7 +90,24 @@ En una atención complicada se anotan solo los datos imprescindibles en los cana
 
 ## 8. Ejercicio aplicado
 
-**Supuesto:** ante una incidencia en el edificio municipal que afecte a una persona, un equipo o un procedimiento, identifica **competencia del auxiliar, comunicación al responsable, protección de datos y seguridad**, sin inventar atribuciones. La solución ha de basarse en las reglas del tema, el **procedimiento municipal autorizado** y las normas indicadas.
+### Supuesto 1. Persona que reclama la resolución inmediata
+
+Una ciudadana exige al auxiliar de entrada una copia íntegra de un expediente que éste no puede consultar. **Respuesta:** escuchar, **parafrasear** la necesidad, explicar respetuosamente la competencia del servicio, orientar hacia la oficina o canal de acceso procedente y no prometer la entrega ni la resolución. La recepción no confiere facultad para acceder a expedientes ajenos.
+
+> ⚠️ **¡Foco Examen!:** **Artículo 13** de la Ley 39/2015 establece derechos de personas en relaciones con las Administraciones; el **artículo 53** reconoce derechos propios de **interesados en procedimientos**. No son categorías idénticas.
+
+### Supuesto 2. Conversación tensa con datos confidenciales
+
+En el vestíbulo una persona pide a voz alta información sobre la cita médica o expediente de un tercero y comienza a elevar el tono. **Respuesta:** mantener **estilo asertivo**, no confirmar datos de terceros, ofrecer canal autorizado y, si existe amenaza, activar la respuesta del edificio. Recoger solo datos necesarios, sin anotar información sensible en cuadernos personales.
+
+| Técnica | Respuesta adecuada |
+|---|---|
+| **Escucha activa** | Confirmar necesidad sin interrumpir |
+| **Asertividad** | Explicar límites con respeto |
+| **Minimización** | No recopilar datos irrelevantes |
+| **Confidencialidad** | No revelar información de terceros |
+
+> ⚠️ **¡Foco Examen!:** **Escucha activa no equivale a aceptar la petición**. El **RGPD art. 5** protege los datos, pero no define la técnica del parafraseo.
 
 ## Fuentes jurídicas y alcance
 
@@ -98,4 +115,4 @@ En una atención complicada se anotan solo los datos imprescindibles en los cana
 - [**TREBEP, trato a ciudadanía**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) — art. 54.1 y 54.4.
 - [**Reglamento europeo de protección de datos**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) — arts. 5 y 6.
 
-**Control pendiente:** revisión integral de aplicación municipal y de distractores. La correcta estructura y los test no convierten este tema en «AUDITADO».
+**Cierre documental 08/11/2026:** incisos del programa cotejados, dos casos concretos resueltos y diez preguntas justificadas. Protocolos municipales, tarifas del operador y funcionamiento web no certificados.
