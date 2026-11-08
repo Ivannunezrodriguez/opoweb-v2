@@ -60,3 +60,10 @@ Fecha de revisión editorial: **22 de julio de 2026**.
 **Cautela normativa:** comparar siempre el ámbito de la norma antes de aplicar una cifra: **AGE** en el RD 364/1995, **universidades públicas** en LOSU y **Comunidad de Madrid** en la Ley 5/2025 de Hacienda. La fecha exacta de corte legal del examen UC3M depende de la publicación primaria de la resolución de listas definitivas que no se ha cotejado directamente; no confundir con el día del examen. La ampliación es **documental focal**, no certificación integral de legislación, interfaz o tests.
 
 > ⚠️ **¡Foco Examen!:** El **artículo 91 TREBEP** no crea un plazo universal de reingreso.
+
+
+## Ampliación sustantiva 08/11/2026
+
+**Desarrollados dos supuestos nuevos** y contrastado el texto legal primario: [TREBEP arts. 10, 62–68 y 85–91](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719), especialmente **9 meses dentro de 18** por exceso de tareas (art. 10.1.d).
+
+**Estado:** cobertura documental de **11 apartados** con banco **12 preguntas/48 alternativas** conservado. **No** se considera aprobación del usuario ni certificación funcional; queda reserva de fecha exacta de corte legal de base primera.7 UC3M.
