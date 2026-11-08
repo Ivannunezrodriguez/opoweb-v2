@@ -258,5 +258,25 @@
     "metodo": "Inspección estructural de JSON y ampliación documental; no cotejo sustantivo íntegro",
     "corteNormativo": "PENDIENTE",
     "certificacionIntegral": false
+  },
+  "controlCorreccionECTS20261108": {
+    "fecha": "2026-11-08",
+    "preguntas": [
+      "UC3M-T16-002",
+      "UC3M-T16-009"
+    ],
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a5",
+      "https://www.boe.es/eli/es/rd/2003/09/05/1125/con",
+      "UC3M Normativa TFG 17/06/2010"
+    ],
+    "correccion": "60 ECTS se fundamenta en RD 822/2021 art 5.2, no art 9; 25-30 horas marco estatal; 25 horas contexto UC3M TFG",
+    "enunciadoT16009Acotado": true,
+    "fuenteAnteriorT16009": "403 Forbidden",
+    "alternativasModificadas": false,
+    "clavesModificadas": false,
+    "inspeccionVisualPDF": false,
+    "fechaCorteJurídicoUC3M": "PENDIENTE",
+    "certificacionIntegral": false
   }
 }
