@@ -68,3 +68,14 @@ Se priorizan los artículos de la LCSP directamente conectados con el epígrafe 
 **Reservas:** exigibilidad normativa según **base primera.7 UC3M** sin resolución primaria fechada, auditoría jurídico-editorial de todos los apartados, navegador real, móvil, WCAG/PWA, simulacros y aprobación del usuario. El test documental **no sustituye** estas comprobaciones.
 
 > ⚠️ **¡Foco Examen!:** **Plazo 15 naturales de ofertas** ≠ **15 hábiles de espera para formalización**; **caja fija 5.000 € UC3M** ≠ **excepción documental LCSP 118.5** aunque coincidan importes.
+
+
+## Contrastación del artículo 159.4 — 08/11/2026
+
+Cotejo específico con el [**art. 159.1, 159.3 y 159.4 de la LCSP**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159) y [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605) (límites aplicables desde **01/01/2026**). El procedimiento simplificado de suministros/servicios utiliza valor estimado **<140.000 €**, aunque el umbral de regulación armonizada de otros poderes adjudicadores, como la UC3M, sea **≥216.000 €**.
+
+Se documentan **cinco trampas**: (1) solicitud de inscripción en ROLECE registrada antes de finalizar ofertas, con acuse y declaración responsable (**159.4.a**); (2) valoración técnica de juicios de valor en **7 días** antes del archivo automático (**159.4.e–f**); (3) **7 días hábiles** para garantía y documentos exigibles al mejor clasificado (**159.4.f**); (4) trámite contradictorio de oferta presuntamente anormal, máximo **5 días hábiles** (**159.4.f y art. 149**); (5) adjudicación en plazo **≤5 días** una vez presentada garantía y practicada fiscalización exigible (**159.4.f**, no expresa hábiles). Añadidos **tres supuestos resueltos** al [manual](manual.md), sin tocar banco histórico ni simulacros.
+
+> ⚠️ **¡Foco Examen!:** **7 días** valoración técnica, **7 días hábiles** documentación y garantía, **5 días hábiles** explicación de oferta anormal y **5 días** para adjudicar no son el mismo plazo.
+
+**Reserva:** cierre documental focal de artículos concretos; corte de base primera.7 de UC3M, banco completo jurídico y verificación navegador/CI pendientes.
