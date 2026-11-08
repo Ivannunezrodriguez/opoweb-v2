@@ -3431,3 +3431,38 @@ Se han cerrado documentalmente **tres nuevos temas** de la convocatoria de **Ol�
 
 **No existe certificación integral de los 121 temas** mientras falten navegador/E2E y aprobación cuando proceda. Fecha de corte legislativo **UC3M base primera.7** pendiente de resolución primaria; en el portal [UC3M convocatoria](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) consta resolución definitiva, pero **no se ha certificado fecha de su publicación**, y no se sustituye por **21/11** (fecha de examen). **Próxima prioridad:** UC3M T10–T12 sin distraer recursos con fichas adicionales; desbloquear corte legal cuando se obtenga fuente primaria.
 
+
+
+## 164. Prioridad 100 % · Olías T5 cerrado, C1 T22 ampliado y fuente de callejero INE (**08/11/2026**)
+
+**Prioridad ordenada por proximidad al 100 % solicitada por el usuario:** **Diputación C1 39/40** y **Olías 20/22**. El cierre real obtenido en esta ronda es **Olías T5**, que eleva Olías a **21/22 = 95,45 %**. El C1 T22 continúa pendiente de Estatutos completos; no se declara cierre ficticio.
+
+### Olías T5 · ÚNICO NUEVO CIERRE DOCUMENTAL
+
+[Manual](content/olias-auxiliar-edificios/tema-05/manual.md), [matriz](content/olias-auxiliar-edificios/tema-05/matriz.json), [fuentes](content/olias-auxiliar-edificios/tema-05/fuentes.md) y [preguntas](content/olias-auxiliar-edificios/tema-05/preguntas.json) corregidos. Se encontró fuente oficial antes inexistente en el tema:
+
+- [**BOP 137/2023, anuncio 3918**](https://bop.diputoledo.es/webEbop/DocGet?id=23079209%3B0&insert_number=3918&insert_year=2023): composición y organización inicial, Junta, Tenientes, delegaciones.
+- [**BOP 99/2024, anuncio 2645**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=99&insert_year=2024&publication_date=24052024): rectifica la capacidad resolutiva de las delegaciones especiales que figuraba negada en la publicación de 2023.
+- [**BOP 49/2025, anuncio 1300**](https://bop.diputoledo.es/webEbop/DocGet?id=25031408%3B0&insert_number=1300&insert_year=2025): nueva distribución de **seis delegaciones especiales**, que desplaza el reparto anterior; [Ayuntamiento, Empleo](https://www.ayuntamientodeoliasdelrey.com/empleo-y-promocion-economica/) confirma en la página disponible en 2026 la cartera de **María Jesús Hernández García**.
+
+El T5 contiene ahora **cinco incisos con fuentes pertinentes, dos casos nuevos de examen, 18 preguntas/72 alternativas** (incluye **seis nuevas** sobre decretos de 2023–2025) y respuestas conservadas. Se pasó de `EN_AUDITORIA` a **`AUDITADO`** con reserva expresa de posible modificación posterior no documentada, y sin certificación de navegador. La normativa municipal que consta en el índice se distingue de la vigencia de sus preceptos particulares. El **callejero completo pertenece al T13**, no a este T5.
+
+### Diputación C1 T22 · fuente jurídica nueva, SIN CIERRE
+
+[Manual](content/diputacion-toledo/tema-22/manual.md), [matriz](content/diputacion-toledo/tema-22/matriz.json), [fuentes](content/diputacion-toledo/tema-22/fuentes.md) y [preguntas](content/diputacion-toledo/tema-22/preguntas.json) ampliados con [**BOP 92/2023 anuncio 2824**](https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023). El BOP acredita **Consejo Rector art. 10.k**, **Presidencia art. 12.1** y **Dirección art. 14** de los Estatutos en la reproducción de ese anuncio, y **delegaciones concretas** en favor de la Dirección para representación y contratación, con acuerdo del Consejo Rector de **11/05/2023**. Se añadieron **dos casos resueltos** y **cuatro preguntas**, pasando de **20/80 a 24 preguntas/96 alternativas**, conservando todas las claves. No se extrapola una delegación para expedientes concretos a contratos futuros ni se declaran como vigentes umbrales estatutarios históricos sin cotejo normativo. Siguen pendientes **texto original oficial de BOP 235/1996**, **corrección BOP 253/1996**, aprobación **definitiva** de la modificación inicialmente publicada en 2004 y demás modificaciones para estatutos íntegros; estado **EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES**.
+
+### Olías T13 · ruta a fuente primaria, SIN CIERRE
+
+Se encontró el [**INE, Callejero del Censo Electoral**](https://www.ine.es/prodyser/callejero/): publica ficheros **VIAS** y **TRAM** por provincia y semestre. Debe descargarse el fichero provincial **Toledo**, corte **30/06/2026**, filtrar código INE **45122** y cotejar vías. Se documentó en [fuentes T13](content/olias-auxiliar-edificios/tema-13/fuentes.md). **No se consiguió extraer el conjunto íntegro**, por lo que T13 no cambia de estado.
+
+### Estado del avance tras la ronda
+
+| Convocatoria | Cierre documental/auditoría | Otros estados relevantes |
+|---|---:|---|
+| La Puebla C2 | **19/19 APROBADO_USUARIO histórico** | Revalidación de noviembre pendiente |
+| Diputación C1 | **39/40** | T22 pendiente de Estatutos OAPGT |
+| Diputación C2 | **19/20** | T6 OAPGT borrador |
+| Olías | **21/22** | T13 callejero INE pendiente |
+| UC3M | **0/20 como auditados/aprobados** | **9/20** desarrollo completo con reserva, 20 en revisión usuario |
+
+**Contador estricto global histórico:** §163 **78/121 = 64,46 %** → **79/121 = 65,29 %** por **un único nuevo cierre Olías T5**, **42 temas fuera del cierre estricto**. **Incluyendo La Puebla aprobada históricamente: 98/121 = 80,99 %**, pero esos 19 no están revalidados a noviembre. **0/121 certificaciones funcionales integrales**. Comprobación posterior: recuperados de GitHub programa y archivos de T5/C1 T22; Olías **21 auditados**, T5 **18/72** con claves íntegras; C1 **39 auditados**, T22 **24/96** con claves íntegras. Prioridad siguiente: **Olías T13 vía callejero INE** para intentar el **22/22**, y **Diputación C1 T22** solo cuando los Estatutos estén reconstruidos con fuentes primarias.
