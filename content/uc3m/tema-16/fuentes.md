@@ -174,3 +174,14 @@ Se ha cotejado la estructura completa de los **bancos originales de UC3M T16–T
 **Reservas:** no se ha probado la visualización real de los enlaces en la interfaz, ni todos los formatos de navegador, ni aplicado una versión legislativa definitiva a la base primera.7. Una referencia mejorada **no significa** revisión jurisprudencial exhaustiva de todos los distractores. La [ficha de corte pendiente](../CONTROL_CORTE_NORMATIVO_20261108.md) se mantiene.
 
 > ⚠️ **¡Foco Examen!:** **25 horas/ECTS** es el cómputo institucional contrastado para el contexto de TFG EPS; el **marco estatal del ECTS** no convierte por sí solo todas las cargas universitarias en **25 horas fijas**.
+
+
+## Cotejo específico de fuentes ECTS y TFG — **08/11/2026**
+
+[**RD 822/2021, art. 5.2**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a5): planes de Grado/Máster en cursos de **60 ECTS** con excepción de **Másteres de 90 ECTS** donde uno de los cursos puede ser de **30 ECTS**. Referencia de pregunta **T16-002** que apuntaba erróneamente al **art. 9** reparada.
+
+[**RD 1125/2003, art. 4.1 y 4.5**](https://www.boe.es/eli/es/rd/2003/09/05/1125/con): **60 ECTS por curso** y carga de **25 a 30 horas por crédito**. [**Normativa oficial de TFG UC3M aprobada en Consejo de Gobierno de 17/06/2010**](https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=attachment%3B+filename%3D%22Normativa_sobre_organizaci%C3%B3n_y_evaluaci%C3%B3n_de_la_asignatura_Trabajo_Fin_de_Grado.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371553536021&ssbinary=true) recoge específicamente **25 horas/ECTS** en los TFG. **T16-009** ahora pregunta por ese contexto institucional, corrigiendo enlace e-Archivo previo que devolvía **403** y la presentación excesivamente general de las 25 horas.
+
+Se han actualizado **preguntas**, **manual** y esta ficha de fuentes sin alterar posiciones correctas ni alternativas. **No** es una confirmación de fecha de corte de la convocatoria UC3M ni una validación E2E.
+
+> ⚠️ **¡Foco Examen!:** **Art. 5.2 RD 822/2021 = cursos de 60 ECTS**; **art. 4.5 RD 1125/2003 = 25–30 h/ECTS**; **normativa TFG UC3M = 25 h/ECTS** en ese contexto.
