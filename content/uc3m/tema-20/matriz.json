@@ -175,5 +175,26 @@
       "WCAG PWA movil y persistencia",
       "auditoria juridica integral y aprobacion"
     ]
+  },
+  "controlAbiertoSimplificado20261108": {
+    "fecha": "2026-11-08",
+    "manual": "33",
+    "ley": "LCSP art. 159.1, 159.3, 159.4 y art. 149",
+    "normaUmbrales": "Orden HAC/1517/2025",
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159",
+      "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605"
+    ],
+    "plazos": [
+      "7 días valoración técnica",
+      "7 días hábiles documentación mejor oferta",
+      "5 días hábiles oferta anormal",
+      "5 días para adjudicar"
+    ],
+    "casosNuevosManual": 3,
+    "clavesBancoModificadas": false,
+    "aprobacionUsuario": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA",
+    "certificacionIntegral": false
   }
 }
