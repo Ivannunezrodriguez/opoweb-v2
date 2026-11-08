@@ -157,3 +157,29 @@ El artículo **46 bis** menciona **territorio de la Unión Europea**, no exige i
 [**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
 
 > ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
+
+
+## 14. Casos de examen resueltos: sede, firma y localización — **08/11/2026**
+
+### Supuesto 1. Trámite mediante sede, portal y actuación automatizada
+
+Una universidad publica una noticia en su **portal** y el estudiante considera que ya ha presentado una solicitud. La noticia informativa no equivale a registro de solicitud. La **sede electrónica** (**art. 38 Ley 40/2015**) tiene garantías de responsabilidad del titular sobre integridad, veracidad y actualización; el **portal** (**art. 39**) es un punto de acceso a información y, en su caso, a la sede. Si se expide un justificante mediante actuación **íntegramente automatizada**, deben determinarse previamente los órganos responsables y quién responde en caso de impugnación (**art. 41**); la firma puede producirse por **sello electrónico** o **código seguro de verificación** (**art. 42**).
+
+| Concepto | Regla |
+|---|---|
+| **Portal de internet** | Información y acceso; no equivale por sí solo a presentación |
+| **Sede electrónica** | Titular responsable de integridad, veracidad y actualización |
+| **Actuación automatizada** | Sin intervención directa de empleado público en la actuación |
+| **Sello / CSV** | Sistemas previstos para firmar actos automatizados |
+
+> ⚠️ **¡Foco Examen!:** Una **noticia del portal** no es un **justificante de registro**. El **CSV** permite comprobar integridad mediante acceso a la sede; no es un código postal.
+
+### Supuesto 2. Servidores y datos del padrón
+
+Una empresa proveedora propone alojar fuera de la **Unión Europea** los sistemas de almacenamiento de **padrones municipales**, asegurando que cualquier contrato privado basta. El **art. 46 bis Ley 40/2015** exige para los datos que enumera ubicación y prestación de sistemas **dentro de la UE**; las transferencias a terceros países u organizaciones internacionales se sujetan a las **excepciones tasadas** en el precepto, entre ellas **decisión de adecuación de la Comisión Europea** y obligaciones internacionales asumidas por España. La exigencia **no se extiende automáticamente a cualquier información tratada por toda Administración**.
+
+> ⚠️ **¡Foco Examen!:** **Unión Europea ≠ territorio español**. **Ubicación de sistemas** y **transferencia internacional de datos** son cuestiones jurídicas distintas.
+
+**Fuente primaria:** [**Ley 40/2015, arts. 38–46 bis**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
+
+**Resultado:** desarrollados **diez bloques** con dos casos resueltos y conservadas **12 preguntas/48 alternativas** del banco cotejado. Pendientes corte legislativo UC3M, aprobación de usuario y certificación funcional.
