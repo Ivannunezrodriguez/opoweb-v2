@@ -27,3 +27,13 @@ El manual resume la regulación vigente con finalidad de estudio y test. En esta
 **Vigencia y alcance:** la consolidación del BOE es informativa; en el examen UC3M debe aplicarse la redacción vigente conforme a la **base primera.7** de la convocatoria, cuya fecha exacta de publicación de las listas definitivas/anuncio no se ha acreditado con documento primario. Este cotejo de artículos críticos es **focal**, no certificación íntegra de todos los artículos ni del navegador/PWA.
 
 > ⚠️ **¡Foco Examen!:** El dato decisivo suele ser el **supuesto legal y su excepción**, no memorizar el número sin el órgano, el procedimiento y la unidad temporal.
+
+
+## Cierre de desarrollo de contenido — **08/11/2026**
+
+**Incisos del anexo oficial desarrollados y contrastados:**  9 apartados; **2 supuestos adicionales resueltos** en manual y banco histórico **12 preguntas/48 alternativas** sin cambios de respuestas.
+
+**Fuentes verificadas:** [**Ley 39/2015 consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) y [**convocatoria UC3M, base primera.7**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624). **Límite expresamente mantenido:** el calendario de la convocatoria exige como corte legislativo la **fecha de publicación de listas definitivas que anuncien el ejercicio**. El portal oficial anuncia la resolución, pero en este control **no se ha certificado su fecha de publicación primaria**, por lo que no se presenta como cierre normativo integral. La revisión material del contenido **no equivale a aprobación del usuario ni prueba de navegador**.
+
+> ⚠️ **¡Foco Examen!:** **Alzada: 3 meses para resolver**, **reposición: 1 mes**; **subsanación 10 días**, sin ampliación especial de **5 días** en procesos selectivos.
+
