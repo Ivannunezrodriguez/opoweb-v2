@@ -1,7 +1,7 @@
 {
   "tema": 11,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T11-001",
@@ -13,9 +13,10 @@
         "Anulador de doble folio"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "ADF designa el alimentador automático.",
-      "trampaExamen": "Distingue elementos y límites; ADF designa el alimentador automático.",
-      "referencia": "Reprografía, apartado 1"
+      "justificacion": "ADF es el alimentador automático de originales que evita colocar manualmente cada hoja; no equivale a la bandeja de papel de impresión.",
+      "trampaExamen": "¡Foco Examen!: ADF es el alimentador automático de originales que evita colocar manualmente cada hoja; no equivale a la bandeja de papel de impresión.",
+      "referencia": "Apartado 3; documentación técnica de multifunción (ADF)",
+      "respuestaLiteral": "Alimentador automático de documentos"
     },
     {
       "id": "OLIAS-T11-002",
@@ -27,9 +28,10 @@
         "Archivar administrativamente"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Dúplex se refiere a las dos caras.",
-      "trampaExamen": "Distingue elementos y límites; Dúplex se refiere a las dos caras.",
-      "referencia": "Reprografía, apartado 1"
+      "justificacion": "Dúplex significa operar sobre ambas caras del soporte cuando la modalidad concreta de impresión o escaneo está disponible; no implica duplicar resolución.",
+      "trampaExamen": "¡Foco Examen!: Dúplex significa operar sobre ambas caras del soporte cuando la modalidad concreta de impresión o escaneo está disponible; no implica duplicar resolución.",
+      "referencia": "Apartado 3; manual técnico del equipo (función dúplex)",
+      "respuestaLiteral": "Trabajar con ambas caras"
     },
     {
       "id": "OLIAS-T11-003",
@@ -41,9 +43,10 @@
         "Fijar el tóner"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Fija el tóner al papel.",
-      "trampaExamen": "Distingue elementos y límites; Fija el tóner al papel.",
-      "referencia": "Tema 11, consumibles"
+      "justificacion": "En la impresora electrofotográfica el fusor fija el tóner al papel mediante calor y presión, a diferencia del escáner o la guillotina.",
+      "trampaExamen": "¡Foco Examen!: En la impresora electrofotográfica el fusor fija el tóner al papel mediante calor y presión, a diferencia del escáner o la guillotina.",
+      "referencia": "Apartado 4; documentación técnica de impresión electrofotográfica",
+      "respuestaLiteral": "Fijar el tóner"
     },
     {
       "id": "OLIAS-T11-004",
@@ -55,9 +58,10 @@
         "Ruido jurídico"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El fusor puede estar caliente.",
-      "trampaExamen": "Distingue elementos y límites; El fusor puede estar caliente.",
-      "referencia": "RD 1215/1997"
+      "justificacion": "El fusor puede alcanzar temperaturas elevadas; un atasco próximo a piezas calientes exige aplicar las instrucciones y evitar el contacto con el mecanismo.",
+      "trampaExamen": "¡Foco Examen!: El fusor puede alcanzar temperaturas elevadas; un atasco próximo a piezas calientes exige aplicar las instrucciones y evitar el contacto con el mecanismo.",
+      "referencia": "Apartados 4 y 5; RD 1215/1997, anexo II, 1.3 y 1.14",
+      "respuestaLiteral": "Temperatura elevada"
     },
     {
       "id": "OLIAS-T11-005",
@@ -69,9 +73,10 @@
         "Forzar rodillos"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Se debe seguir fabricante y prevención.",
-      "trampaExamen": "Distingue elementos y límites; Se debe seguir fabricante y prevención.",
-      "referencia": "RD 1215/1997"
+      "justificacion": "No debe forzarse el equipo ni anular protecciones: seguir instrucciones de desbloqueo y reservar la intervención peligrosa al personal capacitado.",
+      "trampaExamen": "¡Foco Examen!: No debe forzarse el equipo ni anular protecciones: seguir instrucciones de desbloqueo y reservar la intervención peligrosa al personal capacitado.",
+      "referencia": "Apartado 5; RD 1215/1997, anexo II, 1.3, 1.4 y 1.14",
+      "respuestaLiteral": "Seguir instrucciones del equipo y evitar mecanismos peligrosos"
     },
     {
       "id": "OLIAS-T11-006",
@@ -83,9 +88,10 @@
         "Escáner"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La guillotina corta papel y presenta riesgo de corte.",
-      "trampaExamen": "Distingue elementos y límites; La guillotina corta papel y presenta riesgo de corte.",
-      "referencia": "Tema 11, acabado"
+      "justificacion": "La guillotina o cizalla corta varias hojas y exige resguardos; la encuadernadora une el material y la escáner digitaliza.",
+      "trampaExamen": "¡Foco Examen!: La guillotina o cizalla corta varias hojas y exige resguardos; la encuadernadora une el material y la escáner digitaliza.",
+      "referencia": "Apartado 6; RD 1215/1997, anexo II, 1.3",
+      "respuestaLiteral": "Guillotina/cizalla"
     },
     {
       "id": "OLIAS-T11-007",
@@ -97,9 +103,10 @@
         "Un nombramiento"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Digitalizar no es registrar.",
-      "trampaExamen": "Distingue elementos y límites; Digitalizar no es registrar.",
-      "referencia": "Tema 11, máquinas"
+      "justificacion": "Digitalizar convierte el contenido a un archivo electrónico, distinto de reproducirlo en papel o incorporarlo formalmente a un registro.",
+      "trampaExamen": "¡Foco Examen!: Digitalizar convierte el contenido a un archivo electrónico, distinto de reproducirlo en papel o incorporarlo formalmente a un registro.",
+      "referencia": "Apartado 3; función de escáner y digitalización",
+      "respuestaLiteral": "Archivo digital"
     },
     {
       "id": "OLIAS-T11-008",
@@ -111,9 +118,10 @@
         "Tóner"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El tóner es material de impresión.",
-      "trampaExamen": "Distingue elementos y límites; El tóner es material de impresión.",
-      "referencia": "Tema 11, consumibles"
+      "justificacion": "El tóner es el material de impresión usado en muchos equipos electrofotográficos; no confundirlo con tinta líquida ni con piezas del aparato.",
+      "trampaExamen": "¡Foco Examen!: El tóner es el material de impresión usado en muchos equipos electrofotográficos; no confundirlo con tinta líquida ni con piezas del aparato.",
+      "referencia": "Apartado 4; tóner y sistema electrofotográfico",
+      "respuestaLiteral": "Tóner"
     },
     {
       "id": "OLIAS-T11-009",
@@ -125,9 +133,10 @@
         "En bandeja común sin vigilancia"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Debe evitarse divulgación de datos.",
-      "trampaExamen": "Distingue elementos y límites; Debe evitarse divulgación de datos.",
-      "referencia": "RGPD, art. 5"
+      "justificacion": "El principio de minimización y la confidencialidad exigen impedir el acceso no autorizado y entregar la documentación solo por los cauces admitidos.",
+      "trampaExamen": "¡Foco Examen!: El principio de minimización y la confidencialidad exigen impedir el acceso no autorizado y entregar la documentación solo por los cauces admitidos.",
+      "referencia": "Apartado 7; RGPD, arts. 5.1.c y 5.1.f",
+      "respuestaLiteral": "En circuito de entrega autorizado"
     },
     {
       "id": "OLIAS-T11-010",
@@ -139,9 +148,17 @@
         "Personal capacitado"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "RD 1215 reserva mantenimiento de riesgo.",
-      "trampaExamen": "Distingue elementos y límites; RD 1215 reserva mantenimiento de riesgo.",
-      "referencia": "RD 1215/1997, art. 3"
+      "justificacion": "El artículo 3.5 reserva las operaciones de mantenimiento, reparación o transformación con riesgo específico a personal especialmente capacitado.",
+      "trampaExamen": "¡Foco Examen!: El artículo 3.5 reserva las operaciones de mantenimiento, reparación o transformación con riesgo específico a personal especialmente capacitado.",
+      "referencia": "Apartado 5; RD 1215/1997, art. 3.5",
+      "respuestaLiteral": "Personal capacitado"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "COTEJO_DE_10_PREGUNTAS_Y_40_ALTERNATIVAS",
+    "clavesModificadas": 0,
+    "revisadas": 10,
+    "certificacionIntegral": false
+  }
 }
