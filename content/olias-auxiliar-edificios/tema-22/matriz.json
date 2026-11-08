@@ -3,44 +3,50 @@
   "numeroEnBloque": 17,
   "bloque": "especifica",
   "epigrafeOficial": "Conocimientos de cultura general (cálculos aritméticos, nociones de gramática, geografía, etc.) y ofimática básica.",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "fuentePrograma": "BOP Toledo 204/2026, anuncio 4833, Anexo II, CSV 2026.00004833",
   "filas": [
     {
       "inciso": "Operaciones aritméticas y porcentajes",
-      "norma": "Constitución española",
-      "articulos": "estructura territorial básica",
-      "contenidoExigible": "Manual apartado 3: conceptos, seguridad y práctica"
+      "norma": "Aritmética básica",
+      "articulos": "No procede atribuir definiciones matemáticas a Constitución ni legislación de procedimiento",
+      "contenidoExigible": "Prioridad de operaciones, fracciones, descuentos, incrementos y regla de tres"
     },
     {
       "inciso": "Unidades, magnitudes y proporciones",
-      "norma": "Ley 39/2015",
-      "articulos": "procedimiento y documentación",
-      "contenidoExigible": "Manual apartado 4: conceptos, seguridad y práctica"
+      "norma": "Sistema Internacional de Unidades y aritmética métrica",
+      "articulos": "Equivalencias estándar, no Ley 39/2015",
+      "contenidoExigible": "Longitud, superficie y volumen; escalas, ratios y conversiones cuadráticas"
     },
     {
       "inciso": "Gramática y ortografía española",
-      "norma": "Ley 31/1995",
-      "articulos": "uso seguro de herramientas informáticas y equipos",
-      "contenidoExigible": "Manual apartado 5: conceptos, seguridad y práctica"
+      "norma": "Real Academia Española, Ortografía y Diccionario panhispánico de dudas",
+      "articulos": "Reglas lingüísticas; no Ley 31/1995",
+      "contenidoExigible": "Clases de palabras, tilde, concordancia, puntuación y diacríticos"
     },
     {
       "inciso": "Geografía básica",
-      "norma": "Ley 31/1995",
-      "articulos": "uso seguro de herramientas informáticas y equipos",
-      "contenidoExigible": "Manual apartado 6: conceptos, seguridad y práctica"
+      "norma": "Constitución española arts. 2 y 137; Estatuto de Autonomía de Castilla-La Mancha",
+      "articulos": "CE art. 137 (organización en municipios, provincias y CCAA); geografía territorial y provincias",
+      "contenidoExigible": "Puntos cardinales, coordenadas, provincias castellano-manchegas y capital"
     },
     {
       "inciso": "Ofimática básica: archivos y procesadores de texto",
-      "norma": "Ley 31/1995",
-      "articulos": "uso seguro de herramientas informáticas y equipos",
-      "contenidoExigible": "Manual apartado 7: conceptos, seguridad y práctica"
+      "norma": "Documentación técnica de Microsoft Office y LibreOffice",
+      "articulos": "No existe artículo en LPRL que defina hojas de cálculo, archivos o PDF",
+      "contenidoExigible": "Sistemas operativos y aplicaciones, formatos, edición, fórmulas, referencias"
     },
     {
       "inciso": "Correo, seguridad informática y acceso",
-      "norma": "Ley 31/1995",
-      "articulos": "uso seguro de herramientas informáticas y equipos",
-      "contenidoExigible": "Manual apartado 8: conceptos, seguridad y práctica"
+      "norma": "Documentación técnica de correo; RGPD art. 5.1.f cuando trate datos personales",
+      "articulos": "CCO y phishing son conceptos técnicos; RGPD solo cubre confidencialidad de datos",
+      "contenidoExigible": "Destinatarios CC/CCO, protección de credenciales, cierre de sesión y verificación de sedes"
     }
-  ]
+  ],
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVAS",
+    "incisosVerificados": 6,
+    "certificacionIntegral": false
+  }
 }
