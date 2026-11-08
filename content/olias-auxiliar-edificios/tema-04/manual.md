@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 4: Igualdad en el empleo público (LO 3/2007)
 
-**Estado editorial:** EN_AUDITORIA · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**p. 58**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
+**Estado editorial:** AUDITADO documental (08/11/2026), con reserva funcional · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**p. 58**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
 
 ## 1. Epígrafe oficial literal
 
@@ -144,9 +144,30 @@ Según el **art. 64**, el **Gobierno** aprueba, **al inicio de cada legislatura*
 
 **Supuesto:** ante una incidencia en el edificio municipal que afecte a una persona, un equipo o un procedimiento, identifica **competencia del auxiliar, comunicación al responsable, protección de datos y seguridad**, sin inventar atribuciones. La solución ha de basarse en las reglas del tema, el **procedimiento municipal autorizado** y las normas indicadas.
 
+## 12. Supuestos prácticos de examen
+
+### Supuesto 1. Cálculo de presencia equilibrada
+
+Un órgano de **10 miembros** se presenta con **3 mujeres y 7 hombres**. No cumple la definición general de **presencia equilibrada** de la **disposición adicional primera de la LO 3/2007**, pues ninguno de los sexos debe superar el **60 %** ni ser inferior al **40 %**. En diez integrantes, con esa definición, la distribución admisible sería **4–6, 5–5 o 6–4**, sin perjuicio de excepciones y condiciones específicas de cada precepto.
+
+> ⚠️ **¡Foco Examen!:** **40–60 %** es la regla de composición equilibrada; no atribuir automáticamente al **Pleno municipal** el ámbito específico de cada artículo de la **AGE**.
+
+### Supuesto 2. Formación y Plan de Igualdad de la AGE
+
+Una convocatoria de cursos de la **AGE** pregunta por la reserva del **art. 60.2**: **al menos el 40 %** de determinadas plazas de cursos para empleadas que reúnan requisitos. La preferencia formativa del **art. 60.1** dura **1 año** y tiene supuestos propios. Conforme al **art. 64**, el **Gobierno** aprueba el Plan de Igualdad de la **AGE** **al inicio de cada legislatura**; su cumplimiento se evalúa **anualmente por el Consejo de Ministros**.
+
+| Norma | Cifra, órgano o momento |
+|---|---|
+| **Art. 60.1** | Preferencia **1 año** |
+| **Art. 60.2** | Reserva **al menos 40 %** de plazas en cursos regulados |
+| **Art. 64** | **Gobierno**, inicio de **cada legislatura** |
+| **Art. 64** | **Consejo de Ministros**, evaluación **anual** |
+
+> ⚠️ **¡Foco Examen!:** **Un año** del art. 60.1 y **anualmente** del art. 64 son obligaciones distintas; tampoco la cuota del 60.2 se aplica indistintamente a todas las acciones formativas.
+
 ## Fuentes jurídicas y alcance
 
 - [**LO 3/2007, igualdad**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) — arts. **3, 6, 7, 51–64 y disposición adicional primera**.
 - [**TREBEP**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719) — arts. 14 y 52-54.
 
-**Control parcial BOE 04/11/2026:** añadidos y contrastados **arts. 52 y 54–64 de la LO 3/2007**. Pendiente auditoría jurídica y editorial integral del tema y banco de preguntas. La correcta estructura y los test no convierten este tema en «AUDITADO».
+**Cierre documental 08/11/2026:** seis incisos, veinticuatro preguntas del banco legal previamente cotejado y dos supuestos resueltos; el cierre no acredita navegación integral ni aplicación automática de las medidas AGE al Ayuntamiento de Olías.
