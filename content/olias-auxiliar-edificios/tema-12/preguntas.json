@@ -1,7 +1,7 @@
 {
   "tema": 12,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T12-001",
@@ -13,9 +13,10 @@
         "Diferencial"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La destructora reduce documentos según método de seguridad.",
-      "trampaExamen": "Distingue elementos y límites; La destructora reduce documentos según método de seguridad.",
-      "referencia": "Tema 12, máquinas"
+      "justificacion": "Una destructora permite fragmentar documentos y puede formar parte del procedimiento de eliminación segura; el nivel de corte depende de la clasificación documental.",
+      "trampaExamen": "¡Foco Examen!: Una destructora permite fragmentar documentos y puede formar parte del procedimiento de eliminación segura; el nivel de corte depende de la clasificación documental.",
+      "referencia": "Apartado 3; uso de destructora y RGPD, art. 5.1.f",
+      "respuestaLiteral": "Destructora"
     },
     {
       "id": "OLIAS-T12-002",
@@ -27,9 +28,10 @@
         "Todo visitante"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "RD 1215 reserva mantenimiento de riesgo.",
-      "trampaExamen": "Distingue elementos y límites; RD 1215 reserva mantenimiento de riesgo.",
-      "referencia": "RD 1215/1997"
+      "justificacion": "El mantenimiento o reparación que comporte un riesgo específico debe encomendarse a trabajadores especialmente capacitados, no a cualquier usuario.",
+      "trampaExamen": "¡Foco Examen!: El mantenimiento o reparación que comporte un riesgo específico debe encomendarse a trabajadores especialmente capacitados, no a cualquier usuario.",
+      "referencia": "Apartado 3; RD 1215/1997, art. 3.5",
+      "respuestaLiteral": "Personal especialmente capacitado"
     },
     {
       "id": "OLIAS-T12-003",
@@ -41,9 +43,10 @@
         "Favorecer interacción"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Permite participación en torno a un espacio central.",
-      "trampaExamen": "Distingue elementos y límites; Permite participación en torno a un espacio central.",
-      "referencia": "Tema 12, salas"
+      "justificacion": "La configuración en U permite que los asistentes se vean y participen; no suprime limitaciones de aforo o evacuación.",
+      "trampaExamen": "¡Foco Examen!: La configuración en U permite que los asistentes se vean y participen; no suprime limitaciones de aforo o evacuación.",
+      "referencia": "Apartado 6; distribución de sala en U",
+      "respuestaLiteral": "Favorecer interacción"
     },
     {
       "id": "OLIAS-T12-004",
@@ -55,9 +58,10 @@
         "Marca del móvil"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Aforo y necesidades condicionan montaje.",
-      "trampaExamen": "Distingue elementos y límites; Aforo y necesidades condicionan montaje.",
-      "referencia": "Tema 12, preparación"
+      "justificacion": "Antes de preparar la sala se confirma reserva y aforo aplicable para disponer mobiliario sin impedir vías de circulación y salida.",
+      "trampaExamen": "¡Foco Examen!: Antes de preparar la sala se confirma reserva y aforo aplicable para disponer mobiliario sin impedir vías de circulación y salida.",
+      "referencia": "Apartado 6; RD 486/1997, anexo I",
+      "respuestaLiteral": "Reserva y aforo"
     },
     {
       "id": "OLIAS-T12-005",
@@ -69,9 +73,10 @@
         "Riesgo de tropiezo"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Debe organizarse o protegerse.",
-      "trampaExamen": "Distingue elementos y límites; Debe organizarse o protegerse.",
-      "referencia": "RD 486/1997"
+      "justificacion": "Los cables atravesados en zonas de paso constituyen un peligro de tropiezo; deben ordenarse y protegerse sin bloquear la circulación.",
+      "trampaExamen": "¡Foco Examen!: Los cables atravesados en zonas de paso constituyen un peligro de tropiezo; deben ordenarse y protegerse sin bloquear la circulación.",
+      "referencia": "Apartado 5; RD 486/1997, anexos I y II",
+      "respuestaLiteral": "Riesgo de tropiezo"
     },
     {
       "id": "OLIAS-T12-006",
@@ -83,9 +88,10 @@
         "Sujetar con una hoja"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Es un riesgo de caída.",
-      "trampaExamen": "Distingue elementos y límites; Es un riesgo de caída.",
-      "referencia": "RD 486/1997"
+      "justificacion": "Una silla inestable puede provocar caída; debe retirarse del uso y notificarse para mantenimiento seguro.",
+      "trampaExamen": "¡Foco Examen!: Una silla inestable puede provocar caída; debe retirarse del uso y notificarse para mantenimiento seguro.",
+      "referencia": "Apartado 4; RD 486/1997, anexo I; LPRL art. 17",
+      "respuestaLiteral": "Retirar de uso y avisar"
     },
     {
       "id": "OLIAS-T12-007",
@@ -97,9 +103,10 @@
         "Ausencia total de riesgos"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Las partes móviles exigen protección.",
-      "trampaExamen": "Distingue elementos y límites; Las partes móviles exigen protección.",
-      "referencia": "RD 1215/1997"
+      "justificacion": "La destructora incorpora rodillos de corte capaces de causar atrapamientos; nunca se introducen dedos ni se retiran resguardos.",
+      "trampaExamen": "¡Foco Examen!: La destructora incorpora rodillos de corte capaces de causar atrapamientos; nunca se introducen dedos ni se retiran resguardos.",
+      "referencia": "Apartado 3; RD 1215/1997, anexo II",
+      "respuestaLiteral": "Atrapamiento"
     },
     {
       "id": "OLIAS-T12-008",
@@ -111,9 +118,10 @@
         "Desmontarse inmediatamente sin revisar"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El enfriamiento y seguridad dependen del equipo.",
-      "trampaExamen": "Distingue elementos y límites; El enfriamiento y seguridad dependen del equipo.",
-      "referencia": "Tema 12, mantenimiento"
+      "justificacion": "El apagado y la refrigeración varían según el modelo; debe respetarse su secuencia de uso y sus instrucciones, sin generalizar un tiempo fijo.",
+      "trampaExamen": "¡Foco Examen!: El apagado y la refrigeración varían según el modelo; debe respetarse su secuencia de uso y sus instrucciones, sin generalizar un tiempo fijo.",
+      "referencia": "Apartado 7; manual técnico del fabricante del proyector",
+      "respuestaLiteral": "Gestionarse conforme a instrucciones del fabricante"
     },
     {
       "id": "OLIAS-T12-009",
@@ -125,9 +133,10 @@
         "Tirarse a papelera abierta"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Evitar acceso a datos ajenos.",
-      "trampaExamen": "Distingue elementos y límites; Evitar acceso a datos ajenos.",
-      "referencia": "RGPD, art. 5"
+      "justificacion": "Los documentos encontrados se custodian y comunican por el cauce autorizado; no se difunden ni se destruyen arbitrariamente.",
+      "trampaExamen": "¡Foco Examen!: Los documentos encontrados se custodian y comunican por el cauce autorizado; no se difunden ni se destruyen arbitrariamente.",
+      "referencia": "Apartado 7; RGPD, art. 5.1.f",
+      "respuestaLiteral": "Custodiarse y comunicarse por cauce interno"
     },
     {
       "id": "OLIAS-T12-010",
@@ -139,9 +148,17 @@
         "No, evacuación debe mantenerse segura"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Se preserva ruta segura.",
-      "trampaExamen": "Distingue elementos y límites; Se preserva ruta segura.",
-      "referencia": "RD 486/1997"
+      "justificacion": "Las salidas y recorridos de evacuación deben permanecer libres; sumar sillas no legitima disminuir el ancho seguro de circulación.",
+      "trampaExamen": "¡Foco Examen!: Las salidas y recorridos de evacuación deben permanecer libres; sumar sillas no legitima disminuir el ancho seguro de circulación.",
+      "referencia": "Apartados 5 y 6; RD 486/1997, anexo I",
+      "respuestaLiteral": "No, evacuación debe mantenerse segura"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "COTEJO_DE_10_PREGUNTAS_Y_40_ALTERNATIVAS",
+    "clavesModificadas": 0,
+    "revisadas": 10,
+    "certificacionIntegral": false
+  }
 }
