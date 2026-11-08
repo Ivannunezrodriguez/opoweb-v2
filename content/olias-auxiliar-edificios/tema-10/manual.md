@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 10 · Control de accesos y apertura/cierre de edificios
 
-**Estado editorial: EN_AUDITORIA.** Primera edición **04/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
+**Estado editorial: AUDITADO documental (08/11/2026), con reserva de protocolo municipal.** Primera edición **04/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,12 +8,12 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Referencia | Exigencia |
+| Inciso del programa | Referencia pertinente | Contenido exigible |
 |---|---|---|
-| Zonas, horarios y controles | RD 486/1997, seguridad | Reglas, componentes y diferencias |
-| Apertura del edificio | Ley 31/1995 | Reglas, componentes y diferencias |
-| Cierre y seguridad de ocupantes | RGPD | Reglas, componentes y diferencias |
-| Acceso de contratistas y emergencias | RGPD | Reglas, componentes y diferencias |
+| Zonas, horarios y controles | **Procedimiento municipal**; **RGPD art. 5.1.c y f** para datos personales | Autorización de accesos, distinción público/restringido, minimización |
+| Apertura del edificio | **Procedimiento del centro**; **Ley 31/1995 art. 20** para emergencias | Comprobación visual segura, incidencias y comunicación |
+| Cierre y seguridad de ocupantes | **RD 486/1997 anexo I.10** | Verificar ocupantes, salidas expeditas, alumbrado y dispositivos de seguridad |
+| Contratistas y servicios de emergencia | **LPRL art. 20** y **RGPD art. 5** | Verificar autorizaciones y no obstaculizar emergencias; custodiar datos de visitas |
 
 ## 3. Zonas, horarios y controles
 
@@ -76,7 +76,24 @@ En emergencias, se sigue el **plan del centro** y se facilita el acceso de los s
 
 ## 7. Ejercicio integrado
 
-**Supuesto:** durante un turno en edificio público se detecta una incidencia vinculada con el contenido del tema. La respuesta debe identificar **riesgo y competencia**, proteger a los usuarios, registrar lo imprescindible y avisar al órgano o técnico correspondiente. **No realizar intervenciones peligrosas sin atribuciones, formación y autorización.**
+### Supuesto 1. Contratista ante una sala técnica
+
+Una persona con ropa de empresa solicita acceso a una sala de cuadros eléctricos y no aporta orden de trabajo. **Respuesta:** no facilitar acceso por el uniforme; verificar **identificación, autorización y responsable de intervención**, utilizar el procedimiento del centro y registrar solo los datos necesarios. Si el trabajador dice actuar por urgencia, confirmar el aviso mediante el canal interno competente sin obstaculizar una emergencia real.
+
+> ⚠️ **¡Foco Examen!:** **Llevar uniforme no acredita autorización**. El **RGPD art. 5** regula el tratamiento de datos personales del registro de visitas, no concede acceso físico a cualquier contratista.
+
+### Supuesto 2. Cierre con una reunión todavía en marcha
+
+A la hora habitual de cierre, permanece una reunión autorizada en una sala interior. **Respuesta:** comprobar la actividad y su responsable, confirmar ocupantes, mantener **vías y salidas de evacuación expeditas**, coordinar el cierre conforme al procedimiento sin dejar a nadie encerrado y no desactivar el alumbrado de emergencia. Informar al relevo o responsable de la situación extraordinaria.
+
+| Comprobación | Decisión correcta |
+|---|---|
+| **Horario de cierre** | No implica encerrar asistentes |
+| **Ruta de evacuación** | Debe estar expedita (**RD 486/1997 anexo I.10**) |
+| **Sistema de seguridad** | Mantener operativo según plan |
+| **Registro de visitas** | Datos limitados a finalidad (**RGPD art. 5.1.c**) |
+
+> ⚠️ **¡Foco Examen!:** **Cerrar para impedir entradas** y **bloquear una salida necesaria** son acciones distintas. La segunda no queda legitimada por concluir el horario al público.
 
 ## Fuentes, delimitación y revisión
 
@@ -84,4 +101,4 @@ En emergencias, se sigue el **plan del centro** y se facilita el acceso de los s
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — art. 20.
 - [**RGPD**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) — art. 5.
 
-La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. Tema en auditoría editorial, no certificado jurídicamente de forma integral.
+La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. **Cierre documental 08/11/2026:** cuatro incisos revisados, dos supuestos resueltos y banco de diez preguntas. El protocolo interno municipal, horarios y autorizaciones concretas **no constan acreditados**; la prueba funcional integral sigue pendiente.
