@@ -9,43 +9,51 @@
   "filas": [
     {
       "inciso": "El término municipal y zonas principales",
-      "norma": "Directorio municipal de teléfonos y edificios",
-      "articulos": "direcciones de instalaciones",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 3"
+      "norma": "Turismo de Castilla-La Mancha y directorio municipal",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Provincia, comarca, casco y zonas; el directorio no prueba límites cartográficos"
     },
     {
       "inciso": "Edificios municipales principales y localización",
-      "norma": "Educación y Cultura municipal",
-      "articulos": "centros culturales y biblioteca",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 4"
+      "norma": "Directorio municipal de teléfonos y edificios",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Plaza Constitución 1, Camino del Arenal 5, Venta de Arriba; números discrepantes de Casa de la Cultura"
     },
     {
       "inciso": "Instalaciones educativas, sociales y de seguridad",
-      "norma": "Deportes municipal",
-      "articulos": "instalaciones deportivas",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 5"
+      "norma": "Directorio municipal y Educación y Cultura",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Centros educativos, seguridad, juventud y biblioteca; discrepancias Higares y Árbol Mágico"
     },
     {
       "inciso": "Zonas deportivas y barrios: orientación",
-      "norma": "Urbanismo municipal",
-      "articulos": "normativa/planos de Olías",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 6"
+      "norma": "Página municipal de Deportes",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Zonas y equipamientos concretos; sin inventar inventario de barrios"
     },
     {
       "inciso": "Callejero y uso de cartografía oficial",
-      "norma": "Turismo de Castilla-La Mancha",
-      "articulos": "situación territorial",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 7"
+      "norma": "Página municipal «Situación y Callejero» e IGN",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "La página municipal no ofrece inventario legible completo de vías: pendiente callejero certificado"
     },
     {
       "inciso": "Método de estudio para localizar servicios",
-      "norma": "Instituto Geográfico Nacional",
-      "articulos": "cartografía y topónimos",
-      "contenidoExigible": "Desarrollo específico y límites de fuente del apartado 8"
+      "norma": "Directorio, Educación y Cultura y cartografía oficial",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Asociaciones entre nombre, función y vía contrastada, sin convertirlas en padrón exhaustivo"
     }
   ],
   "lagunas": [
     "Composición nominal íntegra de corporación municipal y sus delegaciones a fecha de examen",
     "Inventario completo y georreferenciado de callejero en fuente municipal actualizada"
-  ]
+  ],
+  "controlFocal20261108": {
+    "fecha": "2026-11-08",
+    "incisosContrastados": 6,
+    "discrepanciasNumeracion": true,
+    "callejeroCompleto": false,
+    "estado": "EN_AUDITORIA",
+    "motivo": "El BOP exige callejero municipal y no se ha acreditado listado exhaustivo"
+  }
 }
