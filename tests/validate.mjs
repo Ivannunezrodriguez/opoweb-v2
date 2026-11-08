@@ -18,7 +18,7 @@ const practiceRouteJs = read('assets/practice-route.js');
 const practiceReviewJs = read('assets/practice-review.js');
 const themeTestLinkJs = read('assets/theme-test-link.js');
 
-assert.equal(programme.version, '0.19.0');
+assert.match(programme.version, /^\d{4}-\d{2}-\d{2}$/, 'La versión editorial del programa debe ser una fecha ISO');
 assert.equal(packageJson.version, '0.20.6');
 assert.equal(programme.temas.length, 19);
 assert.ok(index.includes('href="practice.html"'));
