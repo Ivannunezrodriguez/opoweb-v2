@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 21 · Albañilería básica, herramientas de pintura y superficies
 
-**Estado: EN_AUDITORIA.** Fecha **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
+**Estado: AUDITADO documental (08/11/2026), con reservas funcionales.** Primera edición **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,12 +8,12 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Norma o referencia técnica | Desarrollo |
+| Inciso del programa | Fuente jurídicamente o técnicamente aplicable | Contenido exigible |
 |---|---|---|
-| Materiales y útiles de albañilería | RD 1215/1997 | Conceptos, seguridad y distinciones |
-| Preparación de superficies para pintar | RD 374/2001, agentes químicos | Conceptos, seguridad y distinciones |
-| Herramientas y técnicas de pintura | Ley 31/1995 | Conceptos, seguridad y distinciones |
-| Seguridad química y tareas en altura | Ley 31/1995 | Conceptos, seguridad y distinciones |
+| Materiales y útiles de albañilería | **Documentación técnica**; **RD 1215/1997** para seguridad de equipos | Mortero/hormigón, paleta/llana, nivel/plomada; detección de defectos |
+| Preparación de superficies | **Ficha técnica** del producto y soporte; **RD 374/2001 art. 3** si hay riesgo químico | Limpieza, humedad, lijado, imprimación y capas compatibles |
+| Herramientas y técnicas de pintura | **Documentación del fabricante**; **RD 1215/1997** para equipos | Brocha, rodillo, cinta, cubeta, dosificación y mantenimiento |
+| Seguridad química y tareas en altura | **RD 374/2001 art. 3**; **RD 1215/1997, anexo II 4.2**; **LPRL arts. 15, 17 y 19** | Fichas de seguridad, prevención de vapores, escaleras y residuos |
 
 ## 3. Materiales y útiles de albañilería
 
@@ -79,7 +79,17 @@ Los residuos y botes de producto se gestionan según su peligrosidad y normas mu
 
 ## 7. Supuesto de repaso
 
-**Situación:** el auxiliar detecta una incidencia del área del tema. Debe **distinguir conocimientos básicos de intervención técnica**, comunicar al responsable, evitar riesgos y consultar el manual de fabricante o la norma aplicable. Solo realizará operaciones que se encuentren dentro de sus **atribuciones, formación y autorización**.
+### Supuesto 1. Pared húmeda antes de pintar
+
+Se ordena pintar una sala con manchas de humedad y pintura descascarillada. **Actuación:** comprobar el alcance, proteger la zona, comunicar la posible filtración y **no cubrir humedad activa** sin resolver su causa. Tras autorización y saneamiento, preparar soporte mediante limpieza, reparación e imprimación compatible; aplicar pintura siguiendo tiempos y condiciones de la **ficha técnica**, sin inventar un plazo universal de secado.
+
+> ⚠️ **¡Foco Examen!:** **Imprimar** prepara y mejora adherencia; **pintar** aplica el acabado. Una capa nueva no repara la causa de la humedad.
+
+### Supuesto 2. Pintura de techo con escalera y disolventes
+
+Una persona propone usar una silla para alcanzar el techo y mezclar productos sobrantes en un envase sin etiqueta. **Actuación:** paralizar esa opción; consultar **etiqueta y ficha de datos de seguridad**, evaluar ventilación y riesgos químicos; seleccionar equipo de acceso adecuado y estable, siguiendo el **anexo II, apartado 4.2, del RD 1215/1997**; retirar y gestionar residuos mediante el cauce indicado, sin verter disolventes al desagüe.
+
+> ⚠️ **¡Foco Examen!:** Una silla **no es una escalera de mano**. Las escaleras se instalan en condiciones de estabilidad y se utilizan de frente, con apoyo y sujeción seguros; no se eligen solo por alcanzar la altura.
 
 ## Fuentes de referencia
 
@@ -87,4 +97,4 @@ Los residuos y botes de producto se gestionan según su peligrosidad y normas mu
 - [**RD 374/2001, agentes químicos**](https://www.boe.es/buscar/act.php?id=BOE-A-2001-8436) — exposición a sustancias.
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — riesgos y medidas preventivas.
 
-**Control editorial pendiente:** verificar aplicaciones prácticas y excepcionalidades en normativa técnica, sin confundir desarrollo pedagógico con el texto de las bases.
+**Cierre documental 08/11/2026:** cuatro incisos verificados, dos supuestos completos y diez preguntas de contenido cotejadas; **no** se inventan métodos ni plazos de pintura específicos del edificio. Pendientes control funcional web y protocolos locales.
