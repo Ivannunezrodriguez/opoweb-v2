@@ -195,3 +195,29 @@ La **inadmisión** y la **denegación de acceso** no son sinónimos: la primera 
 [**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
 
 > ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
+
+
+## 12. Supuestos resueltos de acceso a información — **08/11/2026**
+
+### Supuesto 1. Una petición compleja y otra que requiere reelaboración
+
+Una persona solicita información presupuestaria existente, pero voluminosa. El órgano competente de la **Comunidad de Madrid** dispone de **20 días** para resolver y notificar la petición, con posibilidad de ampliar **otros 20 días** si el volumen o complejidad lo justifica, informando al solicitante (**art. 42.1, Ley 10/2019**). Si la solicitud requiere **reelaboración** en los términos del **art. 40**, la inadmisión motivada se acuerda y notifica en **5 días hábiles** desde recepción por el órgano competente (**art. 42.2**). No es «reelaboración» el tratamiento informatizado de uso corriente.
+
+| Trámite | Plazo |
+|---|---|
+| Resolver y notificar acceso | **20 días** |
+| Ampliación por volumen o complejidad | **Otros 20 días**, con información al solicitante |
+| Inadmisión por causa legal del art. 40 | **5 días hábiles** |
+| Silencio | **Desestimatorio** |
+
+> ⚠️ **¡Foco Examen!:** La **inadmisión en 5 días hábiles** no es el plazo general de resolución de **20 días**. Una extracción informática corriente no equivale automáticamente a reelaboración.
+
+### Supuesto 2. Solicitud dirigida a órgano sin la información
+
+Una petición llega a un órgano que no tiene la documentación. Según el **art. 41**, si sabe cuál es el competente debe remitírsela en un plazo **no superior a 5 días**, informando al solicitante. Si desconoce al competente, debe intentar averiguarlo y dar traslado en los términos del artículo; una imposibilidad no habilita a ignorar la solicitud. La petición de acceso tampoco requiere motivación como condición general.
+
+> ⚠️ **¡Foco Examen!:** **Remitir al órgano competente (art. 41)** no equivale a **inadmitir por reelaboración (art. 40)**. La **falta de motivación del ciudadano** no justifica por sí sola la inadmisión.
+
+**Fuentes:** [**Ley 10/2019, arts. 40–43**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102) y procedimiento institucional UC3M descrito en este manual.
+
+**Alcance:** **5 epígrafes** desarrollados y **12 preguntas / 48 alternativas** conservadas; pendiente fijación del corte de la base primera.7 UC3M, aprobación del usuario y comprobación funcional.
