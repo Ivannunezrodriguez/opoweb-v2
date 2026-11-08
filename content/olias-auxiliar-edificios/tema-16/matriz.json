@@ -3,32 +3,39 @@
   "numeroEnBloque": 11,
   "bloque": "especifica",
   "epigrafeOficial": "Carpintería metálica. Operaciones básicas de cerrajería (ajuste de puertas y ventanas, cerraduras y bombines, mantenimiento de mobiliario metálico).",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "fuentePrograma": "BOP Toledo 204/2026, anuncio 4833, Anexo II, CSV 2026.00004833",
   "filas": [
     {
       "inciso": "Materiales y elementos metálicos",
-      "norma": "RD 1215/1997",
-      "articulos": "equipos de trabajo",
-      "contenidoExigible": "Manual apartado 3: conceptos, seguridad y práctica"
+      "norma": "Documentación técnica de carpintería metálica",
+      "articulos": "Definiciones técnicas: marco, hoja, bisagra/pernio, cerradero, acero y aluminio",
+      "contenidoExigible": "Identificar componentes, material, corrosión y límites de revisión visual"
     },
     {
       "inciso": "Ajuste de puertas y ventanas",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención y EPIs",
-      "contenidoExigible": "Manual apartado 4: conceptos, seguridad y práctica"
+      "norma": "Instrucciones técnicas del herraje; RD 1215/1997 cuando se emplean equipos de trabajo",
+      "articulos": "RD 1215/1997 art. 3 y anexo II para equipos; tipo de bisagra/ventana según fabricante",
+      "contenidoExigible": "Diagnóstico de roces, holguras, juntas y riesgo de caída de hojas; no alterar puertas resistentes al fuego"
     },
     {
       "inciso": "Cerraduras, bombines y llaves",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención y EPIs",
-      "contenidoExigible": "Manual apartado 5: conceptos, seguridad y práctica"
+      "norma": "Documentación técnica de cerrajería y normas internas de control de llaves",
+      "articulos": "El régimen de autorización municipal no se presume ni se atribuye a la LPRL",
+      "contenidoExigible": "Distinción entre cerradura, cilindro, resbalón y cerradero; trazabilidad y custodia"
     },
     {
       "inciso": "Herramientas, prevención y mantenimiento",
-      "norma": "Ley 31/1995",
-      "articulos": "prevención y EPIs",
-      "contenidoExigible": "Manual apartado 6: conceptos, seguridad y práctica"
+      "norma": "RD 1215/1997; Ley 31/1995",
+      "articulos": "RD 1215 art. 3.5 y anexo II; LPRL arts. 15 y 17",
+      "contenidoExigible": "Cortes, atrapamiento, hojas pesadas, retirada de equipos defectuosos y derivación técnica"
     }
-  ]
+  ],
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVA_FUNCIONAL",
+    "incisosVerificados": 4,
+    "fuentesReasignadas": true,
+    "certificacionIntegral": false
+  }
 }
