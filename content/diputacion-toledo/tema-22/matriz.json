@@ -4,7 +4,7 @@
   "estado": "EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES",
   "modalidad": "INTERPRETACION_PRUDENTE_AUTORIZADA",
   "fuentePrograma": "ANEXO VII · Administrativo · Diputación Provincial de Toledo · BOP 118 de 25/06/2026",
-  "advertencia": "No se dispone del texto íntegro y vigente del Acuerdo Regulador ni de los Estatutos del OAPGT. Se diferencia entre normativa segura, evidencia institucional e inferencia prudente.",
+  "advertencia": "Acuerdo Regulador 2023 y reformas 2026 acreditados; Estatutos OAPGT parcialmente acreditados (reforma 2011 y delegaciones BOP 2023), pero no existe reconstrucción primaria íntegra del texto inicial y de todas sus modificaciones posteriores.",
   "bloques": [
     {
       "id": "T22-B01",
@@ -89,5 +89,20 @@
     "estatutosOAPGTIntegroVerificados": false,
     "certificacionIntegral": false,
     "controlFuncionalNavegador": "TRANSVERSAL_PENDIENTE"
+  },
+  "controlFocal20261108": {
+    "fecha": "2026-11-08",
+    "nuevaFuentePrimaria": "BOP 92/2023 anuncio 2824",
+    "competenciasAcreditadas": [
+      "Art. 10.k Consejo Rector contratacion delegable para expedientes identificados",
+      "Art. 12.1 Presidencia: representacion",
+      "Art. 14 Direccion: gestion y representacion administrativa",
+      "Delegacion especifica del Consejo Rector a Direccion 11/05/2023"
+    ],
+    "bancoPreguntas": 24,
+    "alternativas": 96,
+    "estatutosIntegro1996CorregidosYConsolidados": false,
+    "estado": "EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES",
+    "certificacionIntegral": false
   }
 }
