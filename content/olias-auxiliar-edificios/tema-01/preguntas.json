@@ -1,6 +1,6 @@
 {
   "tema": 1,
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "version": "2026-11-05-revision-bloque-general-01-04",
   "preguntas": [
     {
@@ -15,7 +15,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "La Constitución lo expresa literalmente en el artículo 1.3.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 1.3 CE**: la forma política es **Monarquía parlamentaria**, no un modelo presidencial.",
-      "referencia": "CE, art. 1.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1"
+      "referencia": "CE, art. 1.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1",
+      "respuestaLiteral": "Monarquía parlamentaria"
     },
     {
       "id": "OLIAS-T01-002",
@@ -29,7 +30,8 @@
       "respuestaCorrecta": 1,
       "justificacion": "El artículo 1.2 atribuye la soberanía al pueblo español.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 1.2 CE**: la soberanía reside en **el pueblo español**, no en un órgano estatal.",
-      "referencia": "CE, art. 1.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1"
+      "referencia": "CE, art. 1.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1",
+      "respuestaLiteral": "El pueblo español"
     },
     {
       "id": "OLIAS-T01-003",
@@ -43,7 +45,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "El artículo 147.1 define el Estatuto como norma institucional básica.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 147.1 CE**: el Estatuto es la **norma institucional básica**, no cualquier ley autonómica.",
-      "referencia": "CE, art. 147.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a147"
+      "referencia": "CE, art. 147.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a147",
+      "respuestaLiteral": "Su Estatuto de Autonomía"
     },
     {
       "id": "OLIAS-T01-004",
@@ -57,7 +60,8 @@
       "respuestaCorrecta": 1,
       "justificacion": "El artículo 149 regula competencias exclusivas estatales.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 149 CE**: competencias exclusivas estatales; **art. 148** es lista de posibles competencias autonómicas.",
-      "referencia": "CE, arts. 148–149 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a149"
+      "referencia": "CE, arts. 148–149 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a149",
+      "respuestaLiteral": "El 149"
     },
     {
       "id": "OLIAS-T01-005",
@@ -71,7 +75,8 @@
       "respuestaCorrecta": 3,
       "justificacion": "El Rey es Jefe del Estado según el artículo 56.1.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 56 CE**: **Jefe del Estado** no equivale a **Presidente del Gobierno**.",
-      "referencia": "CE, art. 56.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a56"
+      "referencia": "CE, art. 56.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a56",
+      "respuestaLiteral": "El Jefe del Estado"
     },
     {
       "id": "OLIAS-T01-006",
@@ -85,7 +90,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "El artículo 64 distribuye el refrendo y establece excepciones específicas.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 64 CE**: regla de refrendo por Presidente o ministros; la **propuesta y nombramiento del Presidente** y disolución del 99 tienen refrendo del **Presidente del Congreso**.",
-      "referencia": "CE, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a64"
+      "referencia": "CE, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a64",
+      "respuestaLiteral": "El Presidente del Gobierno o ministros competentes según proceda"
     },
     {
       "id": "OLIAS-T01-007",
@@ -99,7 +105,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "Los Ministros son nombrados y separados por el Rey a propuesta del Presidente del Gobierno.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 100 CE**: el Rey **nombra y separa** ministros **a propuesta del Presidente del Gobierno**.",
-      "referencia": "CE, art. 100 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a100"
+      "referencia": "CE, art. 100 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a100",
+      "respuestaLiteral": "El Presidente del Gobierno"
     },
     {
       "id": "OLIAS-T01-008",
@@ -113,7 +120,8 @@
       "respuestaCorrecta": 2,
       "justificacion": "El artículo 99.3 exige mayoría absoluta de los miembros del Congreso.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 99.3 CE**: **primera votación: mayoría absoluta** del Congreso.",
-      "referencia": "CE, art. 99.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99"
+      "referencia": "CE, art. 99.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99",
+      "respuestaLiteral": "Mayoría absoluta"
     },
     {
       "id": "OLIAS-T01-009",
@@ -127,7 +135,8 @@
       "respuestaCorrecta": 0,
       "justificacion": "La segunda votación es a las 48 horas y basta mayoría simple.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 99.3 CE**: segunda votación **48 horas después**, ahora **mayoría simple**.",
-      "referencia": "CE, art. 99.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99"
+      "referencia": "CE, art. 99.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99",
+      "respuestaLiteral": "48 horas después y mayoría simple"
     },
     {
       "id": "OLIAS-T01-010",
@@ -141,7 +150,8 @@
       "respuestaCorrecta": 3,
       "justificacion": "El artículo 99.5 computa dos meses desde la primera votación de investidura.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 99.5 CE**: los **dos meses** para nuevas candidaturas se computan **desde la primera votación**.",
-      "referencia": "CE, art. 99.5 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99"
+      "referencia": "CE, art. 99.5 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99",
+      "respuestaLiteral": "Desde la primera votación de investidura"
     },
     {
       "id": "OLIAS-T01-011",
@@ -155,7 +165,8 @@
       "respuestaCorrecta": 1,
       "justificacion": "El artículo 108 asigna responsabilidad política solidaria ante el Congreso.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 108 CE**: responsabilidad solidaria del Gobierno **ante el Congreso**, no el Senado.",
-      "referencia": "CE, art. 108 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a108"
+      "referencia": "CE, art. 108 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a108",
+      "respuestaLiteral": "El Congreso de los Diputados"
     },
     {
       "id": "OLIAS-T01-012",
@@ -169,7 +180,8 @@
       "respuestaCorrecta": 3,
       "justificacion": "El Gobierno dirige la política y ejerce función ejecutiva y potestad reglamentaria.",
       "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 97 CE**: el Gobierno dirige política y Administración, ejerce **función ejecutiva y potestad reglamentaria**.",
-      "referencia": "CE, art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a97"
+      "referencia": "CE, art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a97",
+      "respuestaLiteral": "Función ejecutiva y potestad reglamentaria"
     }
   ],
   "controlLote20261105": {
@@ -186,5 +198,13 @@
     "items": 12,
     "criterio": "Un foco específico por pregunta frente a distractores jurídicos del mismo bloque",
     "cierreIntegral": false
+  },
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "tipo": "BANCO_DOCUMENTAL_COTEJADO",
+    "preguntasRevisadas": 12,
+    "alternativas": 48,
+    "respuestasPreservadas": true,
+    "certificacionIntegral": false
   }
 }
