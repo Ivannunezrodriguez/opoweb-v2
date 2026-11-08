@@ -1,7 +1,7 @@
 {
   "tema": 14,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T14-001",
@@ -13,9 +13,10 @@
         "Pintar"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Es una llave para alojamiento hexagonal interior.",
-      "trampaExamen": "Distingue elementos y límites; Es una llave para alojamiento hexagonal interior.",
-      "referencia": "Tema 14, herramientas"
+      "justificacion": "La llave Allen se emplea en tornillos de alojamiento hexagonal interior; no se confunde con una llave inglesa de boca ajustable.",
+      "trampaExamen": "¡Foco Examen!: La llave Allen se emplea en tornillos de alojamiento hexagonal interior; no se confunde con una llave inglesa de boca ajustable.",
+      "referencia": "Apartado 3, herramienta Allen y hexágono interior",
+      "respuestaLiteral": "Tornillos de hexágono interior"
     },
     {
       "id": "OLIAS-T14-002",
@@ -27,9 +28,10 @@
         "Remachadora"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Permite ajustar la apertura.",
-      "trampaExamen": "Distingue elementos y límites; Permite ajustar la apertura.",
-      "referencia": "Tema 14, herramientas"
+      "justificacion": "La llave inglesa dispone de boca regulable mediante mecanismo de ajuste; la llave fija tiene abertura para una medida determinada.",
+      "trampaExamen": "¡Foco Examen!: La llave inglesa dispone de boca regulable mediante mecanismo de ajuste; la llave fija tiene abertura para una medida determinada.",
+      "referencia": "Apartado 3, tipos de llaves",
+      "respuestaLiteral": "Llave inglesa"
     },
     {
       "id": "OLIAS-T14-003",
@@ -41,9 +43,10 @@
         "Solo su color"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Se deben evitar perforaciones peligrosas.",
-      "trampaExamen": "Distingue elementos y límites; Se deben evitar perforaciones peligrosas.",
-      "referencia": "RD 1215/1997"
+      "justificacion": "Perforar sin conocer instalaciones ocultas puede afectar cableado o conducciones; deben verificarse antes del uso del taladro y obtenerse autorización.",
+      "trampaExamen": "¡Foco Examen!: Perforar sin conocer instalaciones ocultas puede afectar cableado o conducciones; deben verificarse antes del uso del taladro y obtenerse autorización.",
+      "referencia": "Apartado 5, RD 1215/1997 anexo II 1.3-1.4 y prevención de riesgos",
+      "respuestaLiteral": "Posibles conducciones ocultas"
     },
     {
       "id": "OLIAS-T14-004",
@@ -55,9 +58,10 @@
         "Protección diferencial"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Es fijación roscada desmontable.",
-      "trampaExamen": "Distingue elementos y límites; Es fijación roscada desmontable.",
-      "referencia": "Tema 14, fijaciones"
+      "justificacion": "Las uniones mediante tornillo normalmente pueden desmontarse desenroscando, a diferencia de ciertos remaches que requieren destruir la unión.",
+      "trampaExamen": "¡Foco Examen!: Las uniones mediante tornillo normalmente pueden desmontarse desenroscando, a diferencia de ciertos remaches que requieren destruir la unión.",
+      "referencia": "Apartado 4, fijaciones",
+      "respuestaLiteral": "Desmontaje de unión roscada"
     },
     {
       "id": "OLIAS-T14-005",
@@ -69,9 +73,10 @@
         "Anclaje compatible con soporte y carga"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El soporte determina el sistema.",
-      "trampaExamen": "Distingue elementos y límites; El soporte determina el sistema.",
-      "referencia": "Tema 14, fijaciones"
+      "justificacion": "El anclaje correcto debe ser compatible con el material del soporte y las cargas; un taco para hormigón no se presupone válido para yeso laminado.",
+      "trampaExamen": "¡Foco Examen!: El anclaje correcto debe ser compatible con el material del soporte y las cargas; un taco para hormigón no se presupone válido para yeso laminado.",
+      "referencia": "Apartado 4, tacos y anclajes",
+      "respuestaLiteral": "Anclaje compatible con soporte y carga"
     },
     {
       "id": "OLIAS-T14-006",
@@ -83,9 +88,10 @@
         "Usar con más fuerza"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Puede soltarse y causar lesiones.",
-      "trampaExamen": "Distingue elementos y límites; Puede soltarse y causar lesiones.",
-      "referencia": "RD 1215/1997"
+      "justificacion": "El mango suelto puede desprender la cabeza del martillo durante el golpe; la herramienta deteriorada debe retirarse del servicio.",
+      "trampaExamen": "¡Foco Examen!: El mango suelto puede desprender la cabeza del martillo durante el golpe; la herramienta deteriorada debe retirarse del servicio.",
+      "referencia": "Apartado 6, RD 1215/1997, anexo II 1.4",
+      "respuestaLiteral": "Retirar de uso"
     },
     {
       "id": "OLIAS-T14-007",
@@ -97,9 +103,10 @@
         "Distribuir carga y otras funciones según tipo"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Elemento complementario de fijación.",
-      "trampaExamen": "Distingue elementos y límites; Elemento complementario de fijación.",
-      "referencia": "Tema 14, fijaciones"
+      "justificacion": "Según su diseño, una arandela distribuye esfuerzo sobre la superficie o cumple otras funciones mecánicas en un montaje.",
+      "trampaExamen": "¡Foco Examen!: Según su diseño, una arandela distribuye esfuerzo sobre la superficie o cumple otras funciones mecánicas en un montaje.",
+      "referencia": "Apartado 4, fijaciones y arandelas",
+      "respuestaLiteral": "Distribuir carga y otras funciones según tipo"
     },
     {
       "id": "OLIAS-T14-008",
@@ -111,9 +118,10 @@
         "Cualquier formato"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Compatibilidad previene daños y riesgos.",
-      "trampaExamen": "Distingue elementos y límites; Compatibilidad previene daños y riesgos.",
-      "referencia": "Tema 14, taladro"
+      "justificacion": "El tipo de broca, su diámetro y la capacidad del taladro deben adecuarse al material y a las condiciones de seguridad.",
+      "trampaExamen": "¡Foco Examen!: El tipo de broca, su diámetro y la capacidad del taladro deben adecuarse al material y a las condiciones de seguridad.",
+      "referencia": "Apartados 3 y 5, selección de brocas",
+      "respuestaLiteral": "Material, diámetro y equipo"
     },
     {
       "id": "OLIAS-T14-009",
@@ -125,9 +133,10 @@
         "Con ojos cerrados"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Seguridad básica de corte.",
-      "trampaExamen": "Distingue elementos y límites; Seguridad básica de corte.",
-      "referencia": "RD 1215/1997"
+      "justificacion": "Un trabajo seguro con sierra manual requiere sujetar la pieza, emplear hoja compatible y mantener manos fuera de la trayectoria de corte.",
+      "trampaExamen": "¡Foco Examen!: Un trabajo seguro con sierra manual requiere sujetar la pieza, emplear hoja compatible y mantener manos fuera de la trayectoria de corte.",
+      "referencia": "Apartado 5, uso de sierra manual",
+      "respuestaLiteral": "Con material sujeto y hoja apropiada"
     },
     {
       "id": "OLIAS-T14-010",
@@ -139,9 +148,16 @@
         "Prestarse a visitantes"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La integridad del equipo es requisito de seguridad.",
-      "trampaExamen": "Distingue elementos y límites; La integridad del equipo es requisito de seguridad.",
-      "referencia": "RD 1215/1997"
+      "justificacion": "No deben usarse herramientas defectuosas; se comunican para sustituirlas o reparar solo con la capacitación necesaria.",
+      "trampaExamen": "¡Foco Examen!: No deben usarse herramientas defectuosas; se comunican para sustituirlas o reparar solo con la capacitación necesaria.",
+      "referencia": "Apartado 6, RD 1215/1997, art. 3.5 y anexo II 1.4",
+      "respuestaLiteral": "Retirarse y comunicarse"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "COTEJO_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesModificadas": 0,
+    "certificacionIntegral": false
+  }
 }
