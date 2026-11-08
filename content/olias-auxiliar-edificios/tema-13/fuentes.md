@@ -15,4 +15,11 @@
 
 > ⚠️ **¡Foco Examen!:** Diferenciar **hecho municipal comprobado**, **desarrollo normativo general** y **dato aún sin acreditar**. La web debe poder corregirse cuando cambie un servicio.
 
-**Estado EN_AUDITORIA** desde **04/11/2026**.
+**Estado EN_AUDITORIA**, revisión focal **08/11/2026**; bloquea el cierre documental la falta de un callejero municipal íntegro acreditado.
+
+
+## Cotejo municipal de direcciones — **08/11/2026**
+
+La lectura directa del [**directorio de teléfonos y edificios**](https://www.ayuntamientodeoliasdelrey.com/telefonos-y-correos-de-interes/), [**Educación y Cultura**](https://www.ayuntamientodeoliasdelrey.com/educacion-y-cultura/) y [**Situación y Callejero**](https://www.ayuntamientodeoliasdelrey.com/situacion-y-callejero/) permite confirmar la **vía** de varios servicios, pero revela **diferencias de numeración dentro de la web municipal**: **Casa de la Cultura** («Flor, 2» frente a «La Flor, s/n»), **Escuela Infantil Árbol Mágico** («Arenal, 5» frente a «Arenal s/n») y **biblioteca** («Higares s/n» frente a «Camino de Higares, 4»). No resolver estas discrepancias mediante suposición. La sección municipal llamada «Situación y Callejero» no publica en el texto recuperable un inventario completo de calles. Las **12 preguntas existentes** quedan justificadas con fuentes y no preguntan por numeración contradictoria.
+
+**Trabajo material finalizado:** tabla de doble contraste, **2 casos resueltos**, **6 incisos trazados** y **12 preguntas/48 alternativas** cotejadas. **Bloqueo material que impide marcar AUDITADO:** el epígrafe exige **callejero municipal** y aún falta una **relación oficial exhaustiva de vías**; la propia convocatoria no la adjunta. No sumar el T13 a cierres documentales hasta resolverlo.
