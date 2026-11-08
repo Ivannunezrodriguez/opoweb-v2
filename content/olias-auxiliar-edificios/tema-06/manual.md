@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 6 (Específico 1) · Seguridad en edificios, emergencias y cargas
 
-**Estado editorial: EN_AUDITORIA** · **04/11/2026** · Programa oficial BOP Toledo **204/2026**, anuncio **4833**, Anexo II, p. **58**.
+**Estado editorial: AUDITADO documental** · **08/11/2026**, con reserva del plan local de autoprotección · Programa oficial BOP Toledo **204/2026**, anuncio **4833**, Anexo II, p. **58**.
 
 ## 1. Epígrafe oficial literal
 > **Específico 1. Nociones básicas sobre seguridad en edificios, emergencia y evacuación. Especial referencia a la salud laboral y prevención de riesgos laborales. Traslados de cargas.**
@@ -88,10 +88,36 @@ El RD 487/1997 **no establece un único peso máximo universal** válido para to
 ## 8. Caso de examen integrado
 En un edificio municipal aparece una **salida bloqueada por cajas** y se pide trasladarlas de inmediato al almacén. La respuesta correcta combina: **garantizar el paso de evacuación**, evaluar riesgos de la carga, usar medios mecánicos o ayuda si procede, señalizar el obstáculo y comunicarlo. No basta con levantar las cajas «con la espalda recta».
 
-## 9. Fuentes y control editorial
+## 9. Supuestos prácticos completos
+
+### Supuesto 1. Salida obstruida y transporte de cajas
+
+Se acumulan cajas junto a una salida de emergencia. El encargado pide retirarlas inmediatamente entre una sola persona y sin ayuda. **Respuesta:** comunicar y señalizar el peligro, garantizar una alternativa de salida segura mientras se despeja la vía y evaluar peso, volumen y ruta. El **RD 486/1997, anexo I.10** obliga a mantener expeditas las vías de evacuación; el **RD 487/1997, art. 3.1** obliga a **evitar la manipulación manual de cargas** mediante medidas técnicas u organizativas cuando sea posible. Se valorarán carros, redistribución y ayuda conforme a la evaluación de riesgos, no un levantamiento precipitado.
+
+| Obligación | Norma | Consecuencia |
+|---|---|---|
+| Mantener salida libre | **RD 486/1997, anexo I.10** | No utilizarla como almacén |
+| Evitar manipulación manual si es posible | **RD 487/1997, art. 3.1** | Priorizar medios auxiliares y organización |
+| Evaluar el riesgo residual | **RD 487/1997, art. 3.2** | Estudiar carga, postura, ruta y capacidades |
+
+> ⚠️ **¡Foco Examen!:** **Levantar con técnica correcta** no es la primera respuesta normativa: antes se debe **evitar la manipulación manual** en lo posible.
+
+### Supuesto 2. Alarma de incendio y visitante con movilidad reducida
+
+Durante el horario de atención se activa una alarma; una persona necesita apoyo para evacuar. **Respuesta:** activar el **procedimiento del plan de emergencia**, avisar al personal designado, mantener despejada la ruta y facilitar la asistencia prevista sin improvisar un traslado peligroso. El **art. 20 LPRL** exige medidas de **primeros auxilios, lucha contra incendios y evacuación** y personal encargado formado. No utilizar ascensor en incendio salvo procedimiento específico permitido y organizado.
+
+> ⚠️ **¡Foco Examen!:** La obligación de preparar la emergencia es de la **entidad empleadora**; el auxiliar sigue las funciones que le correspondan en el plan, **no asume automáticamente** labores de rescate.
+
+### Supuesto 3. Pregunta test sobre peso máximo
+
+Un test afirma: «El **RD 487/1997** prohíbe levantar cualquier carga superior a **25 kg**». **Respuesta: falso como regla legal universal**. El decreto exige evitar o reducir el riesgo y evaluar los factores del **anexo**; las recomendaciones técnicas de una guía no pueden transformarse sin más en un máximo legal absoluto.
+
+> ⚠️ **¡Foco Examen!:** Diferencia **valor orientativo de evaluación ergonómica** de **prohibición legal de peso**. El examen puede incluir la cifra **25 kg** como distractor.
+
+## 10. Fuentes y control editorial
 - [Ley 31/1995 LPRL](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292): arts. **4, 14–21, 29**.
 - [RD 486/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8669): anexo I, vías y salidas.
 - [RD 487/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-8670): manipulación manual.
 - [BOP Toledo, verificación CSV](https://bop.diputoledo.es/webEbop/csv.jsp): **2026.00004833**, página **58**.
 
-**Pendiente:** verificar detalles de autoprotección municipal aplicables a cada edificio; no se ha atribuido ningún plano local inexistente.
+**Cierre documental 08/11/2026:** cuatro incisos cubiertos, tres supuestos resueltos y banco de doce preguntas revisado. Se mantiene reserva sobre planes de autoprotección, planos y protocolos de cada inmueble; las verificaciones funcionales de la web siguen pendientes.
