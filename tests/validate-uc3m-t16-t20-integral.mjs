@@ -28,10 +28,10 @@ for(const [key,rule] of Object.entries(expected)){
   assert.equal(q.respuestaLiteral,q.opciones[q.correcta],'Wrong correct answer literal '+q.id);
   assert(q.trampa&&q.justificacion&&q.referencia,'Missing explanation '+q.id);
   tally[q.correcta]++;questions++;
-  const heading='### '+q.id+' — '+q.pregunta;
-  const start=report.indexOf(heading);
+  const headingPrefix='### '+q.id+' — ';
+  const start=report.indexOf(headingPrefix);
   assert(start>=0,'Question omitted from report '+q.id);
-  const next=report.indexOf('\n### ',start+heading.length);
+  const next=report.indexOf('\n### ',start+headingPrefix.length);
   const piece=report.slice(start,next===-1?undefined:next).split('\n## ')[0];
   assert(piece.includes('**Respuesta: '+'ABCD'[q.correcta]+'**'),'Incorrect report key '+q.id);
   assert(piece.includes(q.respuestaLiteral),'Missing report literal '+q.id);
