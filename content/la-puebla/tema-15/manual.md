@@ -220,3 +220,31 @@ El OCR reconoce texto dentro de una imagen. Digitalizar no garantiza por sí mis
 ## Repaso focal previo al examen — 07/11/2026
 
 [**T13–T16: tabla comparativa y 8 microcasos con fuentes oficiales**](../REPASO_FOCAL_T13_T16_20261107.md). **Material complementario**, sin modificación de las 12 preguntas históricas del tema ni certificación de pruebas funcionales de navegador.
+
+
+## Casos de examen revalidados · Windows y archivos — **08/11/2026**
+
+### Supuesto 1. Copiar o mover un expediente entre dos unidades
+
+Una carpeta compartida de red aparece mapeada con la letra **Z:**, y el operador arrastra uno de sus archivos a una carpeta local de **C:**. En el Explorador de Windows el comportamiento ordinario de arrastrar **entre distintas unidades** es **copiar**, mientras que la operación de mover exige cambiar el procedimiento (por ejemplo, **Mayús** al arrastrar). Si se modifica el nombre de la extensión de un archivo, su formato interno **no se convierte automáticamente**.
+
+| Operación | Consecuencia |
+|---|---|
+| **Copiar** | Conserva el original y crea otro ejemplar |
+| **Mover** | Cambia de ubicación después de completarse |
+| **Unidad Z: de red** | Sigue dependiendo de conexión y permisos |
+| **Cambiar .jpg por .pdf** | No transforma el contenido del fichero |
+
+> ⚠️ **¡Foco Examen!:** Una letra de unidad no demuestra que el almacenamiento sea **local**. El comportamiento de arrastre depende de **origen y destino**.
+
+### Supuesto 2. Un PDF digitalizado sin texto seleccionable
+
+Un auxiliar escanea una hoja y guarda un PDF que contiene una imagen. Aunque la extensión sea **PDF**, el texto puede **no ser seleccionable ni editable**. Hace falta un procesamiento **OCR** específico y su revisión. Por otra parte, **Microsoft Print to PDF** imprime en un archivo virtual: no convierte por sí mismo papel físico en imagen ni genera un asiento de registro administrativo.
+
+> ⚠️ **¡Foco Examen!:** **Imprimir en PDF**, **escanear** y **reconocer texto mediante OCR** son operaciones distintas.
+
+### Fecha de soporte del sistema
+
+**Windows 10** terminó su soporte ordinario el **14/10/2025**, aunque ciertos dispositivos pueden beneficiarse de **actualizaciones de seguridad extendidas**. **Windows 11** es referencia técnica válida para las tareas comunes. Fuente: [Microsoft, final de soporte Windows 10](https://support.microsoft.com/es-es/windows/deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025).
+
+**Revalidación focal 08/11/2026:** dos supuestos nuevos y **12 preguntas / 48 alternativas** históricas preservadas; esto no acredita pruebas E2E de navegador ni funcionamiento en cada configuración de Windows.
