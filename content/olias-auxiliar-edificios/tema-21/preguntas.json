@@ -1,7 +1,7 @@
 {
   "tema": 21,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T21-001",
@@ -13,9 +13,10 @@
         "Verticalidad"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La plomada indica dirección vertical.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. La plomada indica dirección vertical.",
-      "referencia": "Tema 21, útiles"
+      "justificacion": "La plomada permite comprobar la verticalidad mediante la dirección de la gravedad; el nivel se utiliza para controlar horizontalidad u otras alineaciones.",
+      "trampaExamen": "¡Foco Examen!: La plomada permite comprobar la verticalidad mediante la dirección de la gravedad; el nivel se utiliza para controlar horizontalidad u otras alineaciones.",
+      "referencia": "Manual §3, nivel y plomada",
+      "respuestaLiteral": "Verticalidad"
     },
     {
       "id": "OLIAS-T21-002",
@@ -27,9 +28,10 @@
         "Escanear papel"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Herramienta de acabado de obra.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Herramienta de acabado de obra.",
-      "referencia": "Tema 21, útiles"
+      "justificacion": "La llana permite extender y alisar mortero o revestimientos. No cumple la función de una plomada ni de una brocha.",
+      "trampaExamen": "¡Foco Examen!: La llana permite extender y alisar mortero o revestimientos. No cumple la función de una plomada ni de una brocha.",
+      "referencia": "Manual §3, llana y mortero",
+      "respuestaLiteral": "Extender/alisar mortero o revestimiento"
     },
     {
       "id": "OLIAS-T21-003",
@@ -41,9 +43,10 @@
         "Aplicarse sobre grasa"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La adherencia depende de preparación.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. La adherencia depende de preparación.",
-      "referencia": "Tema 21, preparación"
+      "justificacion": "Para garantizar adherencia y durabilidad hay que evaluar humedad, estado del soporte y limpieza antes de reparar, imprimar y pintar.",
+      "trampaExamen": "¡Foco Examen!: Para garantizar adherencia y durabilidad hay que evaluar humedad, estado del soporte y limpieza antes de reparar, imprimar y pintar.",
+      "referencia": "Manual §4; ficha técnica de pintura",
+      "respuestaLiteral": "Prepararse superficie y evaluar humedad"
     },
     {
       "id": "OLIAS-T21-004",
@@ -55,9 +58,10 @@
         "Fotocopiadora"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El rodillo es útil de pintura.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. El rodillo es útil de pintura.",
-      "referencia": "Tema 21, herramientas"
+      "justificacion": "El rodillo facilita aplicar pintura sobre superficies relativamente amplias; las brochas son útiles para recortes y detalles.",
+      "trampaExamen": "¡Foco Examen!: El rodillo facilita aplicar pintura sobre superficies relativamente amplias; las brochas son útiles para recortes y detalles.",
+      "referencia": "Manual §5, rodillo de pintura",
+      "respuestaLiteral": "Rodillo"
     },
     {
       "id": "OLIAS-T21-005",
@@ -69,9 +73,10 @@
         "Eliminar todos los riesgos por sí misma"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Es capa preparatoria cuando corresponde.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Es capa preparatoria cuando corresponde.",
-      "referencia": "Tema 21, preparación"
+      "justificacion": "La imprimación, compatible con soporte y pintura, prepara la superficie y puede mejorar su adherencia; no es automáticamente el acabado.",
+      "trampaExamen": "¡Foco Examen!: La imprimación, compatible con soporte y pintura, prepara la superficie y puede mejorar su adherencia; no es automáticamente el acabado.",
+      "referencia": "Manual §4, imprimación",
+      "respuestaLiteral": "Mejorar adherencia/compatibilidad"
     },
     {
       "id": "OLIAS-T21-006",
@@ -83,9 +88,10 @@
         "Comunicar a técnico competente"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Puede haber peligro.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Puede haber peligro.",
-      "referencia": "Tema 21, materiales"
+      "justificacion": "Una grieta que pueda comprometer elementos estructurales requiere valoración de técnico competente, no ocultarla con masilla o pintura.",
+      "trampaExamen": "¡Foco Examen!: Una grieta que pueda comprometer elementos estructurales requiere valoración de técnico competente, no ocultarla con masilla o pintura.",
+      "referencia": "Manual §3; prevención de daños estructurales",
+      "respuestaLiteral": "Comunicar a técnico competente"
     },
     {
       "id": "OLIAS-T21-007",
@@ -97,9 +103,10 @@
         "CE art. 99"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Agentes químicos en trabajo.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Agentes químicos en trabajo.",
-      "referencia": "RD 374/2001"
+      "justificacion": "El RD 374/2001 regula la protección de trabajadores frente a riesgos por agentes químicos durante el trabajo; no define los útiles de albañilería.",
+      "trampaExamen": "¡Foco Examen!: El RD 374/2001 regula la protección de trabajadores frente a riesgos por agentes químicos durante el trabajo; no define los útiles de albañilería.",
+      "referencia": "RD 374/2001, art. 3, agentes químicos",
+      "respuestaLiteral": "RD 374/2001"
     },
     {
       "id": "OLIAS-T21-008",
@@ -111,9 +118,10 @@
         "Tipo de pintura y ficha técnica"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Agua o disolvente según producto.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Agua o disolvente según producto.",
-      "referencia": "Tema 21, pintura"
+      "justificacion": "La limpieza de utensilios depende del tipo de pintura y disolvente indicado; no todas las pinturas admiten limpieza exclusivamente con agua.",
+      "trampaExamen": "¡Foco Examen!: La limpieza de utensilios depende del tipo de pintura y disolvente indicado; no todas las pinturas admiten limpieza exclusivamente con agua.",
+      "referencia": "Manual §5; ficha técnica del fabricante",
+      "respuestaLiteral": "Tipo de pintura y ficha técnica"
     },
     {
       "id": "OLIAS-T21-009",
@@ -125,9 +133,10 @@
         "Revisar escalera"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La silla no está diseñada para ese uso.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. La silla no está diseñada para ese uso.",
-      "referencia": "RD 1215/1997"
+      "justificacion": "Subirse a una silla inestable no es un método seguro de trabajo en altura; las escaleras deben cumplir estabilidad y otras condiciones de uso.",
+      "trampaExamen": "¡Foco Examen!: Subirse a una silla inestable no es un método seguro de trabajo en altura; las escaleras deben cumplir estabilidad y otras condiciones de uso.",
+      "referencia": "RD 1215/1997, anexo II apartado 4.2",
+      "respuestaLiteral": "Subirse a una silla inestable"
     },
     {
       "id": "OLIAS-T21-010",
@@ -139,9 +148,16 @@
         "Dejar abierto al público"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Puede ser residuo peligroso.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Puede ser residuo peligroso.",
-      "referencia": "RD 374/2001"
+      "justificacion": "Los disolventes usados se gestionan atendiendo a su peligrosidad, instrucciones y norma de residuos; nunca se vierten indiscriminadamente a desagües.",
+      "trampaExamen": "¡Foco Examen!: Los disolventes usados se gestionan atendiendo a su peligrosidad, instrucciones y norma de residuos; nunca se vierten indiscriminadamente a desagües.",
+      "referencia": "RD 374/2001, art. 3; gestión conforme ficha de seguridad",
+      "respuestaLiteral": "Gestionar como residuo conforme a normativa"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "REVISION_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
 }
