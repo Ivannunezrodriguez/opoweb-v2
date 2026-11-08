@@ -60,3 +60,13 @@ Contraste directo de la [**Constitución consolidada del BOE**](https://www.boe.
 Las publicaciones de [**BOE-A-2026-10881**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881) acreditan la reforma del **69.3** y su régimen transitorio: vigencia desde **20/05/2026** y eficacia electoral diferida a la primera convocatoria posterior de elecciones al Senado.
 
 **Alcance:** ampliación de cobertura jurídica del **manual**. No supone cotejo adicional de cada pregunta (ya documentado en **04/11/2026**), ni acredita fecha de listas definitivas, aprobación del usuario o pruebas funcionales.
+
+
+## Cierre de desarrollo de contenido — **08/11/2026**
+
+**Incisos del anexo oficial desarrollados y contrastados:** 5 apartados; **2 supuestos adicionales resueltos** en manual y banco histórico **12 preguntas/48 alternativas** sin cambios de respuestas.
+
+**Fuentes verificadas:** [**Constitución consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) y [**reforma art. 69.3 (20/05/2026)**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881). En la reforma hay **diferencia entre entrada en vigor y eficacia electoral** de las dos circunscripciones. **Límite expresamente mantenido:** el calendario de la convocatoria exige como corte legislativo la **fecha de publicación de listas definitivas que anuncien el ejercicio**. El portal oficial anuncia la resolución, pero en este control **no se ha certificado su fecha de publicación primaria**, por lo que no se presenta como cierre normativo integral. La revisión material del contenido **no equivale a aprobación del usuario ni prueba de navegador**.
+
+> ⚠️ **¡Foco Examen!:** **4 reformas constitucionales hasta mayo de 2026** y excepción transitoria de **Ibiza/Formentera**.
+
