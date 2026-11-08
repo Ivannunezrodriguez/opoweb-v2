@@ -23,7 +23,8 @@ for(const q of bank.preguntas){
  assert.ok(Number.isInteger(q.correcta)&&q.correcta>=0&&q.correcta<=3);
  assert.equal(q.opciones[q.correcta],q.respuestaLiteral);
  assert.ok(q.justificacion&&q.trampa&&q.referencia);
- assert.ok(report.includes('### '+q.id+' — '+q.pregunta),'Falta cotejo '+q.id);
+ assert.ok(report.includes('### '+q.id+' — '),'Falta cotejo '+q.id);
+ for(const opcion of q.opciones) assert.ok(report.includes('| '+opcion+' |'),'Falta alternativa documentada '+q.id+': '+opcion);
 }
 const qs=pack?.preguntas.filter(q=>q.tema===16);
 assert.ok(qs&&qs.length===6);
