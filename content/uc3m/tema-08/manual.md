@@ -214,7 +214,7 @@ Hay que separar **obligaciones legales**, **medidas concretas del III Plan** y *
 
 > ⚠️ **¡Foco Examen!:** **Medida 1.18 = comunicación institucional**; **1.19 = webs y documentos**; **1.20 = procedimiento y guía**; **1.21 = revisión antes de aprobar normas**. La guía de imágenes es **recomendación**; no atribuirle sin más rango de ley.
 
-## Claves de examen## Claves de examen
+## Claves de examen
 
 - Discriminación directa: trato menos favorable por razón de sexo.
 - Discriminación indirecta: medida aparentemente neutra que produce desventaja particular.
@@ -242,3 +242,29 @@ Hay que separar **obligaciones legales**, **medidas concretas del III Plan** y *
 [**Cuestionario adicional de 12 preguntas / 48 alternativas, con fuentes y trampas razonadas**](../REPASO_IGUALDAD_T08_20261106.md). Refuerza tutela jurídica, igualdad en el empleo público, identidad y expresión de género UC3M, y lenguaje e imagen inclusivos. Se mantienen **intactos los 12 ítems originales** del tema y los simulacros generales.
 
 > ⚠️ **¡Foco Examen!:** La regla probatoria del **artículo 13.1 LO 3/2007 no se aplica a procesos penales**. La **Resolución UC3M de 2017** distingue **identificación interna** y **documentación oficial externa**. No confundir las **medidas** del III Plan de Igualdad con una norma sancionadora.
+
+
+## 14. Supuestos resueltos sobre igualdad y normativa UC3M — **08/11/2026**
+
+### Supuesto 1. Cuota equilibrada y ámbito del III Plan
+
+En una comisión de **10 personas**, hay **3 mujeres y 7 hombres**. La distribución **30 % / 70 %** no encaja en la definición general de presencia equilibrada **40–60 %** de la **disposición adicional primera LO 3/2007**. El **III Plan de Igualdad UC3M** se dirige a las personas trabajadoras **PDI y PTGAS**, se organiza en **6 ejes y 138 medidas**, y tiene vigencia **01/02/2025–31/01/2029**. No se extiende automáticamente como plan laboral del estudiantado.
+
+| Concepto | Regla |
+|---|---|
+| Presencia equilibrada | Ningún sexo por debajo del **40 %** ni por encima del **60 %** |
+| III Plan UC3M | **6 ejes**, **138 medidas** |
+| Vigencia | **1 febrero 2025 – 31 enero 2029** |
+| Ámbito personal del Plan | **PDI y PTGAS** |
+
+> ⚠️ **¡Foco Examen!:** **Vigencia cuatrienal** no significa que termine el **31/12/2029**; el cierre oficial del III Plan es **31/01/2029**. Una medida del Plan no es por sí sola norma sancionadora.
+
+### Supuesto 2. Acoso sexual y acoso por razón de sexo
+
+Un superior formula insinuaciones de contenido sexual no deseadas. Otra persona sufre humillaciones persistentes relacionadas con su sexo, sin insinuaciones sexuales. Según **art. 7 LO 3/2007**, el primer supuesto puede ser **acoso sexual**, mientras el segundo puede ser **acoso por razón de sexo**; ambas conductas son discriminatorias cuando concurren sus elementos legales. Se activa el procedimiento UC3M aplicable con protección de la confidencialidad, sin prejuzgar responsabilidad ni impedir las vías legales externas.
+
+> ⚠️ **¡Foco Examen!:** **Acoso sexual** y **acoso por razón de sexo** no son sinónimos. La tramitación del **protocolo interno** no elimina la posibilidad de otras vías.
+
+**Fuentes:** [**LO 3/2007 arts. 6–7 y disposición adicional primera**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115), [**III Plan de Igualdad**](https://www.uc3m.es/igualdad/plan-igualdad), [**normativa UC3M de igualdad**](https://www.uc3m.es/ss/Satellite/UC3MInstitucional/es/ListadoNormativas/1371229470216/Igualdad).
+
+**Alcance:** **13 bloques** del programa, banco original **12/48**, repaso complementario ya existente; sin atribuir aprobación ni cumplimiento funcional.
