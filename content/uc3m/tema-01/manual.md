@@ -163,3 +163,29 @@ Hasta julio de 2026 se han aprobado **cuatro reformas constitucionales**:
 ## Revisión jurídica complementaria — 06/11/2026
 
 **Cotejo con fuente primaria:** [Constitución consolidada, BOE-A-1978-31229](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), actualización publicada **20/05/2026**, artículos **1, 53–55, 81–91, 137–155, 166–169**; [reforma oficial del art. 69.3 de 2026, BOE-A-2026-10881](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881). **Se han ampliado exclusivamente los apartados derechos/garantías, elaboración de las leyes y organización territorial**, sin modificar las **12 preguntas/48 opciones** existentes ni su cotejo histórico. **Estado:** revisión editorial complementaria, **sin certificación funcional** de la web ni cambio a aprobado. La legislación exigible en UC3M debe contrastarse además con la fecha de la resolución de listas definitivas indicada en la base **primera.7**.
+
+
+## 6. Aplicación al examen de UC3M: reformas, elaboración y garantías — **08/11/2026**
+
+### Supuesto 1. Una pregunta sobre el Senado tras la reforma de 2026
+
+Un test propone que **Ibiza y Formentera** constituyen una sola circunscripción insular y eligen conjuntamente **un senador**. Conforme a la reforma constitucional publicada el **20 de mayo de 2026**, el **artículo 69.3 CE** reconoce **una circunscripción para Ibiza y otra para Formentera, con un senador cada una**. La **disposición transitoria única** pospone la **eficacia electoral** de la separación hasta la convocatoria de las **primeras elecciones al Senado posteriores a la entrada en vigor** de la reforma. No confundir **vigencia del precepto** con **primera aplicación electoral**.
+
+| Concepto | Dato exigible |
+|---|---|
+| Reforma del art. **69.3 CE** | **19/05/2026**, publicación y vigencia **20/05/2026** |
+| Ibiza | **1 senador** por circunscripción |
+| Formentera | **1 senador** por circunscripción |
+| Eficacia de las nuevas circunscripciones | **Primeras elecciones al Senado posteriores a la reforma** |
+
+> ⚠️ **¡Foco Examen!:** La reforma entró en vigor el **20/05/2026**, pero la **eficacia electoral** de las circunscripciones de Ibiza y Formentera tiene una regla transitoria propia.
+
+### Supuesto 2. ¿Qué mayoría necesita una ley orgánica?
+
+Un proyecto de ley orgánica se aprueba en votación final de conjunto con **mayoría simple**, pero no con **mayoría absoluta del Congreso**. El **art. 81.2 CE** exige **mayoría absoluta del Congreso** en votación final sobre el conjunto del proyecto para la aprobación, modificación o derogación de las **leyes orgánicas**; la mera mayoría simple es insuficiente.
+
+> ⚠️ **¡Foco Examen!:** La **mayoría absoluta** del **art. 81.2** se predica de la **votación final sobre el conjunto** en el Congreso, no de cualquier votación ordinaria de tramitación.
+
+**Fuentes primarias:** [Constitución consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) y [reforma art. 69.3](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881).
+
+**Cierre editorial de contenido:** se cubren los **cinco incisos** del programa y se conservan las **12 preguntas/48 alternativas** ya cotejadas. **No se declara aprobación del usuario** ni certificación de funcionamiento de la web. La **base primera.7** exige verificar el corte con la resolución de listas definitivas.
