@@ -237,3 +237,34 @@ El recurso se interpone **ante el órgano que dictó el acto firme**, que tambi�
 [**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
 
 > ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
+
+
+## 12. Aplicación al examen de UC3M: plazos y procedimientos — **08/11/2026**
+
+### Supuesto 1. Subsanación en oposición
+
+En una convocatoria selectiva se requiere subsanar una solicitud en **10 días** y el aspirante pide **5 días adicionales** por dificultad de aportar documentos. El **art. 68.1 LPAC** prevé **10 días** para subsanar, mientras el **art. 68.2** permite ampliar **hasta 5 días** cuando hay dificultades especiales, **siempre que no se trate de procedimientos selectivos o de concurrencia competitiva**. Por tanto, esa ampliación específica **no procede** en un proceso selectivo.
+
+| Regla | Consecuencia |
+|---|---|
+| Subsanación general | **10 días** (art. **68.1**) |
+| Ampliación prudencial especial | **Hasta 5 días**, **no** para selectivos/concurrencia competitiva (art. **68.2**) |
+| Presentación obligatoria electrónica hecha presencial | Fecha válida: **subsanación electrónica** (art. **68.4**) |
+
+> ⚠️ **¡Foco Examen!:** La prohibición de ampliación especial del **68.2** en procedimientos selectivos **no elimina** el plazo ordinario de subsanación del **68.1**.
+
+### Supuesto 2. Recursos: alzada, reposición y extraordinario
+
+Se impugna un **acto expreso** que no agota la vía administrativa. El **recurso de alzada** se interpone normalmente en **1 mes** y se resuelve en **3 meses** (**arts. 121–122 LPAC**). Frente a acto que agota la vía, la **reposición potestativa** contra acto expreso tiene **1 mes** para interposición y **1 mes** para resolución (**arts. 123–124**). El **extraordinario de revisión** no es una segunda reposición: solo cabe por causas tasadas, entre ellas **error de hecho** dentro de **4 años**, y otras causas con **3 meses** desde conocimiento/fecha judicial correspondiente (**arts. 125–126**).
+
+| Recurso | Interposición contra acto expreso | Resolución |
+|---|---|---|
+| **Alzada** | **1 mes** | **3 meses** |
+| **Reposición potestativa** | **1 mes** | **1 mes** |
+| **Extraordinario de revisión** | **4 años** (error de hecho); **3 meses** (otras causas) | **3 meses** |
+
+> ⚠️ **¡Foco Examen!:** **Interposición y resolución** son relojes distintos. Los **4 años** solo corresponden al motivo de **error de hecho**, no a todas las causas del extraordinario.
+
+**Fuente primaria:** [Ley 39/2015, arts. 68, 121–126](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).
+
+**Cierre editorial de contenido:** cubiertos los **nueve bloques** de la matriz y banco existente de **12 preguntas/48 alternativas** preservado; quedan pendientes aprobación del usuario, certificación funcional y corte jurídico exacto.
