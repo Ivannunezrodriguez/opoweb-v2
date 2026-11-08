@@ -322,3 +322,29 @@ Se desarrollan cuatro bloques sin pregunta específica en el banco original: **�
 [**Acta de cierre de contenido y banco T9/T12**](../CIERRE_DOCUMENTAL_T09_T12_20261106.md): **12 preguntas originales**, sus **48 distractores** cotejados, **12 preguntas complementarias** con sus **48 opciones**, fuentes y cobertura de las lagunas. **Estado del contenido: cierre documental con reservas**, sin certificar la interfaz ni declarar el tema `APROBADO_USUARIO`.
 
 > ⚠️ **¡Foco Examen!:** Este cierre editorial **no sustituye** verificar la fecha oficial de corte legislativo de la **base primera.7 UC3M** ni las pruebas de navegación y accesibilidad.
+
+
+## Casos prácticos añadidos — **08/11/2026**
+
+### Supuesto 1. Comité de Seguridad y Salud: umbral exacto
+
+En un centro de trabajo hay **50 personas trabajadoras**. El **art. 38.2 LPRL** exige constituir **Comité de Seguridad y Salud** en empresas o centros con **50 o más trabajadores**, compuesto de modo **paritario** por **Delegados de Prevención** y representantes de la empresa en igual número. Según el **art. 38.3**, se reúne **trimestralmente**, y también cuando lo solicite alguna de las representaciones.
+
+| Dato | Exigencia |
+|---|---|
+| Umbral | **50 o más trabajadores** |
+| Composición | **Paritaria** |
+| Reuniones ordinarias | **Trimestrales** |
+| Reuniones adicionales | A solicitud de alguna representación |
+
+> ⚠️ **¡Foco Examen!:** **50 o más** incluye **50 exactos**; no confundir el Comité de Seguridad y Salud con el número de Delegados de Prevención.
+
+### Supuesto 2. Riesgo grave e inminente
+
+Una instalación desprende humo y existe peligro inmediato para trabajadores y visitantes. Se informa y actúa conforme al plan de emergencia. La **LPRL art. 21** regula el riesgo grave e inminente y derechos de interrupción de actividad en los términos establecidos; el **art. 20** obliga a analizar emergencias y adoptar medidas de **primeros auxilios, lucha contra incendios y evacuación**. El auxiliar no realiza intervenciones eléctricas peligrosas sin capacitación.
+
+> ⚠️ **¡Foco Examen!:** **Art. 20: planificación de emergencias**; **art. 21: riesgo grave e inminente**. Son obligaciones y facultades diferentes.
+
+**Fuente:** [**Ley 31/1995, arts. 20, 21 y 38**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292).
+
+**Control:** **17 bloques** y **12 preguntas/48 alternativas** previamente cotejadas, con dos nuevos casos; corte legal UC3M, aprobación y E2E pendientes.
