@@ -325,3 +325,29 @@ Se han completado los apartados de **combinación de correspondencia** y **gesti
 [**Acta de cierre de contenido y banco T9/T12**](../CIERRE_DOCUMENTAL_T09_T12_20261106.md): **12 preguntas originales**, sus **48 distractores** cotejados, **12 preguntas complementarias** con sus **48 opciones**, fuentes y cobertura de las lagunas. **Estado del contenido: cierre documental con reservas**, sin certificar la interfaz ni declarar el tema `APROBADO_USUARIO`.
 
 > ⚠️ **¡Foco Examen!:** Este cierre editorial **no sustituye** verificar la fecha oficial de corte legislativo de la **base primera.7 UC3M** ni las pruebas de navegación y accesibilidad.
+
+
+## 15. Supuestos resueltos de Word, Excel y Google — **08/11/2026**
+
+### Supuesto 1. Circular personalizada y hoja de cálculo
+
+Un departamento necesita enviar **100 comunicaciones**, cada una con nombre y dirección distinta. En **Word 2019**, la **combinación de correspondencia** vincula un documento principal con un **origen de datos** (por ejemplo, un libro de Excel), inserta campos y genera documentos personalizados. En **Excel 2019**, `$A$1` fija **columna y fila**, `A$1` fija solo fila y `$A1` fija solo columna. Una **validación de datos** restringe o advierte sobre entradas; el **formato condicional** modifica la presentación según reglas, y el **filtro** oculta temporalmente filas sin eliminarlas.
+
+| Herramienta | Función |
+|---|---|
+| **Combinar correspondencia** | Generar comunicaciones personalizadas desde un origen de datos |
+| **Validación de datos** | Controlar la entrada en celdas |
+| **Formato condicional** | Cambiar la apariencia según condiciones |
+| **Filtro** | Mostrar subconjunto de filas sin borrar el resto |
+
+> ⚠️ **¡Foco Examen!:** **Filtro no equivale a eliminación**; **formato condicional no impide escribir valores inválidos**. No atribuir a **Office 2019** funciones exclusivas de **Microsoft 365**.
+
+### Supuesto 2. Compartir un archivo y convocar reunión
+
+Una trabajadora quiere compartir con otros un archivo de **Drive** para revisión y proponer una reunión de **Calendar**. Antes de compartir debe confirmar **destinatarios, herencia de permisos y nivel de acceso**: **lector**, **comentador** o **editor**. La vista **libre/ocupado** del calendario no implica acceso al detalle de todos los eventos. **Archivar en Gmail** retira el mensaje de Recibidos sin borrarlo; **CCO** oculta los destinatarios entre sí, pero no cifra el mensaje.
+
+> ⚠️ **¡Foco Examen!:** **Editor** puede modificar contenido; **comentador** puede sugerir sin permiso general de edición. **Ver disponibilidad** no significa **ver detalles** de agenda.
+
+**Fuentes:** [**Microsoft Support Word**](https://support.microsoft.com/es-es/word), [**Microsoft Support Excel**](https://support.microsoft.com/es-es/excel), [**Ayuda de Google Drive**](https://support.google.com/drive/?hl=es), [**Google Calendar**](https://support.google.com/calendar/?hl=es).
+
+**Alcance:** **13 bloques** del programa cubiertos; se preservan **12/48** del banco original y las **12 preguntas adicionales** existentes. UI real de Google y compatibilidad de equipos siguen sin prueba E2E.
