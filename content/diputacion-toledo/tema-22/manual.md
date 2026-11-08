@@ -263,3 +263,49 @@ La modificación de [**BOP Toledo 34, 20/02/2026, N.º I.-821**](https://bop.dip
 **Pendiente documental acotado:** **texto íntegro y consolidado de los Estatutos de 1996 tras sus modificaciones** para verificar sin reservas composición, mayorías, quórums y todas las atribuciones actuales. No se presentan cifras reconstruidas como literales. Hasta aportar ese texto, el **tema 22 no recibe certificación jurídico-editorial integral** y no se descuenta del contador.
 
 > ⚠️ **¡Foco Examen!:** **Vigencia 2024–2027** con **prórroga automática**, **C1 grado II 1.327,80 €/año (2026)**, **nocturnidad especial 97,45 €**, **art. 8 bis = agota vía administrativa**, **Presidencia publica identidad del instructor**; nunca inventar el **quórum del Consejo Rector**.
+
+
+## 13. Competencias estatutarias documentadas directamente en el BOP de 2023 — **08/11/2026**
+
+La publicación oficial del **BOP Toledo n.º 92, de 16/05/2023, anuncio 2824**, contiene un decreto de la **Presidencia del OAPGT** y un **acuerdo del Consejo Rector de 11/05/2023**, que reproducen atribuciones concretas de los **Estatutos originarios de 1996**. Se trata de una **fuente oficial posterior** a la reforma estatutaria de **2011**, útil para comprobar el ejercicio real de competencias, aunque **no constituye el texto consolidado completo**.
+
+### 13.1. Competencias de Presidencia, Consejo Rector y Dirección
+
+| Órgano | Precepto estatutario citado expresamente en BOP 92/2023 | Alcance acreditado |
+|---|---|---|
+| **Consejo Rector** | **Art. 10.k** | Contratación de obras, suministros y servicios cuando la competencia no corresponde a otros órganos; **delegable** total o parcialmente en otros órganos del organismo |
+| **Presidencia del OAPGT** | **Art. 12.1** | Representación del organismo en actos y contratos, ante autoridades y órganos, y otorgamiento de poderes |
+| **Dirección** | **Art. 14** | Dirección, gestión y representación administrativa; ejercicio de representación por delegación de Presidencia (**art. 14.d.17**) |
+
+**Atención al valor de la fuente:** la publicación de **2023** reproduce, además, cláusulas estatutarias históricas de contratación asociadas a porcentajes del presupuesto. No se presentan como **umbrales contractuales generales vigentes en 2026**, pues debe cotejarse su vigencia y adecuación a la **Ley 9/2017** y a posteriores modificaciones estatutarias. En cambio, puede acreditarse con certeza la **delegación concreta** aprobada en **2023**, sin extenderla automáticamente a otros contratos.
+
+### 13.2. Delegaciones concretas aprobadas en 2023
+
+1. La **Presidencia del OAPGT** delegó en el **Director** la representación en determinadas actuaciones de **fiscalización económico-financiera** y de **enjuiciamiento de responsabilidad contable**, con efectos **desde el día siguiente a la publicación en BOP**, según el decreto incluido en el mismo anuncio.
+2. El **Consejo Rector**, en sesión de **11/05/2023**, delegó en el **Director** las facultades de órgano de contratación **únicamente para los expedientes que se identifican** en el acuerdo: servicios de **infraestructura y ciberseguridad 16_2021, lote 1**, y **servicios postales 5_2023**.
+3. Los actos adoptados por delegación deben **indicar esa circunstancia** y se **consideran dictados por el órgano delegante**. La publicación menciona el **art. 9 de la Ley 40/2015** y el **art. 61.2 de la Ley 9/2017**.
+
+| Confusión frecuente | Respuesta correcta |
+|---|---|
+| El **Consejo Rector** delegó toda su contratación futura | **No**: la publicación de **2023** se refiere a **dos contratos identificados** |
+| **Dirección** recibe la titularidad de las competencias del Consejo | **No**: se delega el **ejercicio**, no la titularidad |
+| **Presidencia** y **Consejo Rector** son un solo órgano | **No**: el anuncio contiene actos de órganos distintos |
+| El **art. 8 bis** de 2011 y la delegación de 2023 son equivalentes | **No**: **art. 8 bis** trata la **finalización de vía administrativa**; la delegación regula **ejercicio de competencias** |
+
+> ⚠️ **¡Foco Examen!:** El **BOP 92/2023** prueba una **delegación específica** del **Consejo Rector al Director** y otra de la **Presidencia al Director**. No convertir esa evidencia de 2023 en competencia ilimitada ni deducir quórums del Consejo.
+
+### Supuesto 1. ¿Quién puede resolver sobre los contratos postales de 2023?
+
+Un cuestionario afirma que el **Director** es el titular originario de todas las competencias de contratación del OAPGT. **Respuesta: falso.** El **Consejo Rector** aprobó una **delegación de ejercicio** en el Director para el expediente **5_2023** de servicios postales y el de ciberseguridad expresamente indicado; las resoluciones por delegación deben reflejarlo y se entienden dictadas por el **órgano delegante**.
+
+> ⚠️ **¡Foco Examen!:** **Delegación de ejercicio** no es **transmisión de titularidad** de competencia.
+
+### Supuesto 2. Contrato diferente a los incluidos en el acuerdo
+
+Se plantea un contrato nuevo y se invoca automáticamente el acuerdo de **11/05/2023** para que lo firme el Director. La publicación **no ampara esa extrapolación**. Debe determinarse el **órgano de contratación competente** según la legislación de contratos y Estatutos aplicables y comprobar si existe delegación **válida y específica** para ese expediente.
+
+> ⚠️ **¡Foco Examen!:** Un **acuerdo de delegación individualizado** no equivale a una **habilitación universal**.
+
+**Fuente primaria:** [**BOP Toledo 92 de 16/05/2023, anuncio 2824**](https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023). Complemento: [**BOP 284/2011, modificación estatutaria**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011).
+
+**Reserva que impide cerrar el T22 al 100 %:** queda pendiente cotejo directo del **BOP 235/1996**, **corrección de errores del BOP 253/1996**, resultado **definitivo** de la modificación inicialmente aprobada en **2004** y otras modificaciones posteriores que pudieran afectar a composición, quórums y competencias. Las reproducciones no oficiales de esos boletines se usan solo para localización, **no como prueba de vigencia consolidada**.
