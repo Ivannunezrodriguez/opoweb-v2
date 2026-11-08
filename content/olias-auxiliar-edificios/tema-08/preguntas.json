@@ -1,7 +1,7 @@
 {
   "tema": 8,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T08-001",
@@ -13,9 +13,10 @@
         "Orientar y aplicar protocolo de acceso"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Sus funciones se centran en atención, control organizativo y comunicación.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Sus funciones se centran en atención, control organizativo y comunicación.",
-      "referencia": "BOP 4833, base primera; tema 8"
+      "justificacion": "La recepción orienta y aplica el procedimiento de acceso del centro; no implica competencias policiales ni decisión sobre expedientes.",
+      "trampaExamen": "¡Foco Examen!: La recepción orienta y aplica el procedimiento de acceso del centro; no implica competencias policiales ni decisión sobre expedientes.",
+      "referencia": "TREBEP art. 54; manual §3",
+      "respuestaLiteral": "Orientar y aplicar protocolo de acceso"
     },
     {
       "id": "OLIAS-T08-002",
@@ -27,9 +28,10 @@
         "Etiquetarse públicamente con todas las áreas"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Las llaves deben estar controladas y trazables.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Las llaves deben estar controladas y trazables.",
-      "referencia": "Tema 8, control de llaves"
+      "justificacion": "Una llave maestra requiere custodia, inventario y entrega únicamente a personal autorizado conforme al protocolo interno.",
+      "trampaExamen": "¡Foco Examen!: Una llave maestra requiere custodia, inventario y entrega únicamente a personal autorizado conforme al protocolo interno.",
+      "referencia": "Manual §5, custodia de llaves",
+      "respuestaLiteral": "Custodiarse según protocolo y autorizaciones"
     },
     {
       "id": "OLIAS-T08-003",
@@ -41,9 +43,10 @@
         "Ocultarlo"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Una pérdida puede comprometer seguridad.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Una pérdida puede comprometer seguridad.",
-      "referencia": "Tema 8, apartado 3"
+      "justificacion": "La pérdida de una llave requiere comunicación y constancia para valorar riesgos y adoptar medidas de seguridad, nunca duplicado privado.",
+      "trampaExamen": "¡Foco Examen!: La pérdida de una llave requiere comunicación y constancia para valorar riesgos y adoptar medidas de seguridad, nunca duplicado privado.",
+      "referencia": "Manual §5, gestión de incidencias",
+      "respuestaLiteral": "Comunicar y registrar la incidencia"
     },
     {
       "id": "OLIAS-T08-004",
@@ -55,9 +58,10 @@
         "Que las luces estén siempre apagadas"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El cierre debe preservar evacuación y protocolo.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El cierre debe preservar evacuación y protocolo.",
-      "referencia": "RD 486/1997; tema 8"
+      "justificacion": "El cierre debe evitar personas encerradas y asegurar el funcionamiento de salidas y recorridos de evacuación necesarios.",
+      "trampaExamen": "¡Foco Examen!: El cierre debe evitar personas encerradas y asegurar el funcionamiento de salidas y recorridos de evacuación necesarios.",
+      "referencia": "RD 486/1997 anexo I.10; manual §6",
+      "respuestaLiteral": "Que no quede nadie atrapado y rutas de salida funcionen"
     },
     {
       "id": "OLIAS-T08-005",
@@ -69,9 +73,10 @@
         "Un tributo municipal"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Nombre y datos asociados a visitas son personales.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Nombre y datos asociados a visitas son personales.",
-      "referencia": "RGPD, art. 5"
+      "justificacion": "El listado de visitas identificadas contiene datos personales y debe tener finalidad, mínima recogida y confidencialidad.",
+      "trampaExamen": "¡Foco Examen!: El listado de visitas identificadas contiene datos personales y debe tener finalidad, mínima recogida y confidencialidad.",
+      "referencia": "RGPD art. 5.1.c/f; manual §4",
+      "respuestaLiteral": "Datos personales con protección"
     },
     {
       "id": "OLIAS-T08-006",
@@ -83,9 +88,10 @@
         "Se deniega y se remite a responsable"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El control de llaves requiere autorización.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: El control de llaves requiere autorización.",
-      "referencia": "Tema 8, apartado 3"
+      "justificacion": "Sin autorización para la zona restringida, debe denegarse préstamo de la llave y derivarse al responsable.",
+      "trampaExamen": "¡Foco Examen!: Sin autorización para la zona restringida, debe denegarse préstamo de la llave y derivarse al responsable.",
+      "referencia": "Manual §4 y §5, autorización de zonas",
+      "respuestaLiteral": "Se deniega y se remite a responsable"
     },
     {
       "id": "OLIAS-T08-007",
@@ -97,9 +103,10 @@
         "Abrirse solo con llave en emergencia"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Las salidas deben estar expeditas.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Las salidas deben estar expeditas.",
-      "referencia": "RD 486/1997, anexo I"
+      "justificacion": "Las puertas de emergencia y rutas deben permitir salida fácil y rápida cuando se necesiten, no bloquearse durante ocupación.",
+      "trampaExamen": "¡Foco Examen!: Las puertas de emergencia y rutas deben permitir salida fácil y rápida cuando se necesiten, no bloquearse durante ocupación.",
+      "referencia": "RD 486/1997 anexo I.10",
+      "respuestaLiteral": "Permitir uso rápido en emergencia"
     },
     {
       "id": "OLIAS-T08-008",
@@ -111,9 +118,10 @@
         "Dar acceso libre"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La seguridad personal y comunicación prevalecen.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: La seguridad personal y comunicación prevalecen.",
-      "referencia": "Tema 8, apartado 4"
+      "justificacion": "Los indicios de intrusión se comunican por el canal previsto sin alterar peligrosamente la escena ni ocultar la incidencia.",
+      "trampaExamen": "¡Foco Examen!: Los indicios de intrusión se comunican por el canal previsto sin alterar peligrosamente la escena ni ocultar la incidencia.",
+      "referencia": "Manual §6 y §7, apertura segura",
+      "respuestaLiteral": "Comunicar y seguir protocolo de seguridad"
     },
     {
       "id": "OLIAS-T08-009",
@@ -125,9 +133,10 @@
         "Todos los datos médicos posibles"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Rige minimización de datos.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: Rige minimización de datos.",
-      "referencia": "RGPD, art. 5"
+      "justificacion": "La información de control de visitantes debe limitarse a datos adecuados y necesarios para finalidad concreta.",
+      "trampaExamen": "¡Foco Examen!: La información de control de visitantes debe limitarse a datos adecuados y necesarios para finalidad concreta.",
+      "referencia": "RGPD art. 5.1.c; manual §4",
+      "respuestaLiteral": "Solo datos necesarios conforme al protocolo"
     },
     {
       "id": "OLIAS-T08-010",
@@ -139,9 +148,17 @@
         "Derecho a cachear visitantes"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "No supone competencias reservadas a policía o seguridad privada.",
-      "trampaExamen": "Distinguir el supuesto correcto de generalizaciones o atribuciones impropias: No supone competencias reservadas a policía o seguridad privada.",
-      "referencia": "BOP 4833, funciones; tema 8"
+      "justificacion": "La vigilancia organizativa supone observar riesgos y avisar a responsables, sin desempeñar actuaciones reservadas a policía o seguridad privada.",
+      "trampaExamen": "¡Foco Examen!: La vigilancia organizativa supone observar riesgos y avisar a responsables, sin desempeñar actuaciones reservadas a policía o seguridad privada.",
+      "referencia": "Manual §7; TREBEP art. 54",
+      "respuestaLiteral": "Observación de riesgos y comunicación"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "preguntasRevisadas": 10,
+    "alternativasRevisadas": 40,
+    "clavesModificadas": 0,
+    "certificacionIntegral": false
+  }
 }
