@@ -1,7 +1,7 @@
 {
   "tema": 6,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T06-001",
@@ -13,9 +13,10 @@
         "Solo el acceso principal"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El RD 486/1997 exige que las vías y salidas de evacuación permanezcan expeditas.",
-      "trampaExamen": "La señalización no permite obstruir rutas.",
-      "referencia": "RD 486/1997, anexo I"
+      "justificacion": "Las vías y salidas de evacuación deben estar expeditas, libres de obstáculos y permitir una salida rápida y segura.",
+      "trampaExamen": "¡Foco Examen!: Las vías y salidas de evacuación deben estar expeditas, libres de obstáculos y permitir una salida rápida y segura.",
+      "referencia": "RD 486/1997, anexo I.10.2 y 10.8",
+      "respuestaLiteral": "Las vías y salidas de evacuación"
     },
     {
       "id": "OLIAS-T06-002",
@@ -27,9 +28,10 @@
         "Solo incendios"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La ley obliga a analizar emergencias y adoptar las medidas indicadas.",
-      "trampaExamen": "No confundir seguridad laboral y labores técnicas de extinción.",
-      "referencia": "Ley 31/1995, art. 20"
+      "justificacion": "El empresario o Administración empleadora debe analizar emergencias y adoptar medidas de primeros auxilios, lucha contra incendios y evacuación, designando encargados.",
+      "trampaExamen": "¡Foco Examen!: El empresario o Administración empleadora debe analizar emergencias y adoptar medidas de primeros auxilios, lucha contra incendios y evacuación, designando encargados.",
+      "referencia": "Ley 31/1995, art. 20",
+      "respuestaLiteral": "Primeros auxilios, incendios y evacuación"
     },
     {
       "id": "OLIAS-T06-003",
@@ -41,9 +43,10 @@
         "Solo el trabajador"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La LPRL contempla el deber de protección de la entidad empleadora.",
-      "trampaExamen": "No elimina los deberes del trabajador.",
-      "referencia": "Ley 31/1995, art. 14"
+      "justificacion": "El empresario y las Administraciones respecto a su personal tienen deber correlativo al derecho a protección eficaz de los trabajadores.",
+      "trampaExamen": "¡Foco Examen!: El empresario y las Administraciones respecto a su personal tienen deber correlativo al derecho a protección eficaz de los trabajadores.",
+      "referencia": "Ley 31/1995, art. 14",
+      "respuestaLiteral": "El empresario o Administración empleadora"
     },
     {
       "id": "OLIAS-T06-004",
@@ -55,9 +58,10 @@
         "Usar correctamente equipos y comunicar riesgos"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El artículo 29 regula deberes preventivos del trabajador.",
-      "trampaExamen": "No inutilizar dispositivos de seguridad.",
-      "referencia": "Ley 31/1995, art. 29"
+      "justificacion": "Los trabajadores deben utilizar correctamente los equipos y medios de protección, comunicar riesgos y cooperar con la prevención.",
+      "trampaExamen": "¡Foco Examen!: Los trabajadores deben utilizar correctamente los equipos y medios de protección, comunicar riesgos y cooperar con la prevención.",
+      "referencia": "Ley 31/1995, art. 29",
+      "respuestaLiteral": "Usar correctamente equipos y comunicar riesgos"
     },
     {
       "id": "OLIAS-T06-005",
@@ -69,9 +73,10 @@
         "Levantar siempre a mano"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El RD 487/1997 da prioridad a evitar la manipulación manual.",
-      "trampaExamen": "25 kg no es límite legal universal.",
-      "referencia": "RD 487/1997"
+      "justificacion": "La primera medida es evitar manipulación manual de cargas mediante organización y medios mecánicos cuando sea posible; después se reduce el riesgo residual.",
+      "trampaExamen": "¡Foco Examen!: La primera medida es evitar manipulación manual de cargas mediante organización y medios mecánicos cuando sea posible; después se reduce el riesgo residual.",
+      "referencia": "RD 487/1997, art. 3.1",
+      "respuestaLiteral": "Evitarla mediante medios técnicos cuando sea posible"
     },
     {
       "id": "OLIAS-T06-006",
@@ -83,9 +88,10 @@
         "Radiación"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Un pavimento húmedo puede provocar resbalones y caídas.",
-      "trampaExamen": "Deben prevenirse y señalizarse riesgos.",
-      "referencia": "RD 486/1997"
+      "justificacion": "Los derrames y suelos húmedos aumentan el riesgo de resbalones y caídas al mismo nivel; deben corregirse o señalizarse oportunamente.",
+      "trampaExamen": "¡Foco Examen!: Los derrames y suelos húmedos aumentan el riesgo de resbalones y caídas al mismo nivel; deben corregirse o señalizarse oportunamente.",
+      "referencia": "RD 486/1997, anexo II; manual §6",
+      "respuestaLiteral": "Resbalón al mismo nivel"
     },
     {
       "id": "OLIAS-T06-007",
@@ -97,9 +103,10 @@
         "Utilizar siempre un ascensor"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La evacuación consiste en trasladarse a una zona segura conforme al plan.",
-      "trampaExamen": "Confinamiento es una estrategia diferente.",
-      "referencia": "Ley 31/1995, art. 20"
+      "justificacion": "Evacuar supone abandonar la zona siguiendo las rutas previstas; confinamiento significa permanecer en una zona segura según naturaleza del incidente.",
+      "trampaExamen": "¡Foco Examen!: Evacuar supone abandonar la zona siguiendo las rutas previstas; confinamiento significa permanecer en una zona segura según naturaleza del incidente.",
+      "referencia": "Ley 31/1995, art. 20 y plan de emergencia del centro",
+      "respuestaLiteral": "Abandonar siguiendo rutas seguras"
     },
     {
       "id": "OLIAS-T06-008",
@@ -111,9 +118,10 @@
         "Código Penal, art. 1"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La LPRL regula la actuación ante riesgo grave e inminente.",
-      "trampaExamen": "No equivale a cualquier incomodidad.",
-      "referencia": "Ley 31/1995, arts. 4.4 y 21"
+      "justificacion": "El artículo 21 contempla medidas ante riesgo grave e inminente, como informar y permitir interrupción de actividad cuando proceda.",
+      "trampaExamen": "¡Foco Examen!: El artículo 21 contempla medidas ante riesgo grave e inminente, como informar y permitir interrupción de actividad cuando proceda.",
+      "referencia": "Ley 31/1995, art. 21",
+      "respuestaLiteral": "Ley 31/1995, art. 21"
     },
     {
       "id": "OLIAS-T06-009",
@@ -125,9 +133,10 @@
         "Quedar libre y segura"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Debe mantenerse expedita y apta para evacuar.",
-      "trampaExamen": "Señalización no sustituye apertura.",
-      "referencia": "RD 486/1997, anexo I"
+      "justificacion": "Las cajas impiden usar la salida y deben retirarse conforme a medidas de seguridad, sin improvisar cargas que generen otro riesgo.",
+      "trampaExamen": "¡Foco Examen!: Las cajas impiden usar la salida y deben retirarse conforme a medidas de seguridad, sin improvisar cargas que generen otro riesgo.",
+      "referencia": "RD 486/1997, anexo I.10.8",
+      "respuestaLiteral": "Quedar libre y segura"
     },
     {
       "id": "OLIAS-T06-010",
@@ -139,9 +148,10 @@
         "Señalización correcta"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La manipulación de cargas y posturas forzadas pueden provocar daño dorsolumbar.",
-      "trampaExamen": "No confundir esfuerzo con seguridad eléctrica.",
-      "referencia": "RD 487/1997"
+      "justificacion": "El transporte de mobiliario con torsión y postura forzada puede provocar riesgo dorsolumbar, evaluable por la combinación de factores del anexo.",
+      "trampaExamen": "¡Foco Examen!: El transporte de mobiliario con torsión y postura forzada puede provocar riesgo dorsolumbar, evaluable por la combinación de factores del anexo.",
+      "referencia": "RD 487/1997, anexo; manual §7",
+      "respuestaLiteral": "Postura forzada al mover mobiliario"
     },
     {
       "id": "OLIAS-T06-011",
@@ -153,9 +163,10 @@
         "Adecuada al puesto y suficiente"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La LPRL exige formación suficiente y adecuada.",
-      "trampaExamen": "Formar no sustituye evaluación de riesgos.",
-      "referencia": "Ley 31/1995, art. 19"
+      "justificacion": "La formación preventiva debe ser teórica y práctica, suficiente y adecuada, centrada en el puesto y actualizada cuando varíen los riesgos.",
+      "trampaExamen": "¡Foco Examen!: La formación preventiva debe ser teórica y práctica, suficiente y adecuada, centrada en el puesto y actualizada cuando varíen los riesgos.",
+      "referencia": "Ley 31/1995, art. 19",
+      "respuestaLiteral": "Adecuada al puesto y suficiente"
     },
     {
       "id": "OLIAS-T06-012",
@@ -167,9 +178,16 @@
         "Realizar trabajos eléctricos sin habilitación"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Actuar según instrucciones y personal designado para emergencias.",
-      "trampaExamen": "Un auxiliar no adquiere habilitación técnica automática.",
-      "referencia": "Ley 31/1995, arts. 20 y 29"
+      "justificacion": "En emergencia se sigue el plan del centro, las indicaciones del personal designado y las comunicaciones previstas; no se improvisan rescates.",
+      "trampaExamen": "¡Foco Examen!: En emergencia se sigue el plan del centro, las indicaciones del personal designado y las comunicaciones previstas; no se improvisan rescates.",
+      "referencia": "Ley 31/1995, art. 20; manual §4",
+      "respuestaLiteral": "Seguir el plan y comunicar a responsables"
     }
-  ]
+  ],
+  "controlEditorial20261108": {
+    "revisadas": 12,
+    "alternativas": 48,
+    "clavesModificadas": 0,
+    "certificacionIntegral": false
+  }
 }
