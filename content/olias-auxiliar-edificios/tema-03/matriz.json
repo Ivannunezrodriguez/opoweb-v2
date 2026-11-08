@@ -3,7 +3,7 @@
   "numeroEnBloque": 3,
   "bloque": "general",
   "epigrafeOficial": "Derechos y deberes según el Texto Refundido del Estatuto de los Trabajadores. Texto Refundido de la Ley del Estatuto Básico del empleado público. Derechos de los trabajadores según la Ley de Prevención de Riesgos Laborales.",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "version": "2026-11-04",
   "fuentePrograma": "BOP Toledo 204/2026, anuncio 2026/4833, Anexo II, CSV 2026.00004833",
   "filas": [
@@ -43,6 +43,12 @@
     "evidencia": "content/olias-auxiliar-edificios/cotejo-bloque-general-01-04-2026-11-05.md",
     "regresion": "tests/validate-olias-general-01-04-bank.mjs",
     "navegadorReal": "PENDIENTE",
+    "certificacionIntegral": false
+  },
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "tipo": "CIERRE_DOCUMENTAL",
+    "incisosRevisados": 4,
     "certificacionIntegral": false
   }
 }
