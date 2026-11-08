@@ -1,7 +1,7 @@
 {
   "tema": 17,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T17-001",
@@ -13,9 +13,10 @@
         "Controlar potencia"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Su sello de agua evita olores de saneamiento.",
-      "trampaExamen": "Distingue elementos y límites; Su sello de agua evita olores de saneamiento.",
-      "referencia": "Fontanería, sifones"
+      "justificacion": "El sifón retiene un cierre hidráulico que limita la entrada de olores del saneamiento en el local; no regula la presión de abastecimiento.",
+      "trampaExamen": "¡Foco Examen!: El sifón retiene un cierre hidráulico que limita la entrada de olores del saneamiento en el local; no regula la presión de abastecimiento.",
+      "referencia": "Manual §6; CTE DB HS 5",
+      "respuestaLiteral": "Crear cierre hidráulico contra olores"
     },
     {
       "id": "OLIAS-T17-002",
@@ -27,9 +28,10 @@
         "Abastecimiento"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "La red de suministro abastece consumos.",
-      "trampaExamen": "Distingue elementos y límites; La red de suministro abastece consumos.",
-      "referencia": "CTE DB HS 4"
+      "justificacion": "La red de abastecimiento proporciona agua a los puntos de consumo, a diferencia de la red de evacuación de aguas usadas.",
+      "trampaExamen": "¡Foco Examen!: La red de abastecimiento proporciona agua a los puntos de consumo, a diferencia de la red de evacuación de aguas usadas.",
+      "referencia": "Manual §3; CTE DB HS 4",
+      "respuestaLiteral": "Abastecimiento"
     },
     {
       "id": "OLIAS-T17-003",
@@ -41,9 +43,10 @@
         "Abastecimiento potable"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Saneamiento evacua aguas usadas.",
-      "trampaExamen": "Distingue elementos y límites; Saneamiento evacua aguas usadas.",
-      "referencia": "CTE DB HS 5"
+      "justificacion": "La red de evacuación recoge aguas usadas y las conduce al sistema de saneamiento, que requiere pendientes y ventilación adecuadas.",
+      "trampaExamen": "¡Foco Examen!: La red de evacuación recoge aguas usadas y las conduce al sistema de saneamiento, que requiere pendientes y ventilación adecuadas.",
+      "referencia": "Manual §3; CTE DB HS 5",
+      "respuestaLiteral": "Evacuación/saneamiento"
     },
     {
       "id": "OLIAS-T17-004",
@@ -55,9 +58,10 @@
         "Controla entrada de agua"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Llenado y descarga son mecanismos distintos.",
-      "trampaExamen": "Distingue elementos y límites; Llenado y descarga son mecanismos distintos.",
-      "referencia": "Tema 17, cisternas"
+      "justificacion": "El mecanismo de llenado regula la entrada de agua a la cisterna; el mecanismo de descarga permite su vaciado al inodoro.",
+      "trampaExamen": "¡Foco Examen!: El mecanismo de llenado regula la entrada de agua a la cisterna; el mecanismo de descarga permite su vaciado al inodoro.",
+      "referencia": "Manual §5, mecanismos de cisterna",
+      "respuestaLiteral": "Controla entrada de agua"
     },
     {
       "id": "OLIAS-T17-005",
@@ -69,9 +73,10 @@
         "Fusor caliente"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Diferentes mecanismos pueden causar pérdida.",
-      "trampaExamen": "Distingue elementos y límites; Diferentes mecanismos pueden causar pérdida.",
-      "referencia": "Tema 17, cisternas"
+      "justificacion": "Una cisterna con descarga continua puede fallar por cierre defectuoso de llenado o descarga; procede inspección autorizada y aislamiento si es seguro.",
+      "trampaExamen": "¡Foco Examen!: Una cisterna con descarga continua puede fallar por cierre defectuoso de llenado o descarga; procede inspección autorizada y aislamiento si es seguro.",
+      "referencia": "Manual §5, diagnóstico de cisternas",
+      "respuestaLiteral": "Fallo de cierre en llenado/descarga"
     },
     {
       "id": "OLIAS-T17-006",
@@ -83,9 +88,10 @@
         "Regular luz fluorescente"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Aísla la conducción cuando está diseñada para ello.",
-      "trampaExamen": "Distingue elementos y límites; Aísla la conducción cuando está diseñada para ello.",
-      "referencia": "Fontanería, redes"
+      "justificacion": "La llave de corte interrumpe el caudal hacia una derivación o aparato; no es un dispositivo para tratar agua ni desatascar sifones.",
+      "trampaExamen": "¡Foco Examen!: La llave de corte interrumpe el caudal hacia una derivación o aparato; no es un dispositivo para tratar agua ni desatascar sifones.",
+      "referencia": "Manual §3–5, llaves de corte",
+      "respuestaLiteral": "Interrumpir el suministro de un tramo"
     },
     {
       "id": "OLIAS-T17-007",
@@ -97,9 +103,10 @@
         "Conmutador"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Se escoge según material y diámetro.",
-      "trampaExamen": "Distingue elementos y límites; Se escoge según material y diámetro.",
-      "referencia": "Fontanería, herramientas"
+      "justificacion": "El cortatubos permite cortar material compatible de forma controlada; el material y diámetro determinan el útil adecuado.",
+      "trampaExamen": "¡Foco Examen!: El cortatubos permite cortar material compatible de forma controlada; el material y diámetro determinan el útil adecuado.",
+      "referencia": "Manual §4, herramientas de fontanería",
+      "respuestaLiteral": "Cortatubos"
     },
     {
       "id": "OLIAS-T17-008",
@@ -111,9 +118,10 @@
         "Ley postal art. 20"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "DB HS 4 regula suministro de agua.",
-      "trampaExamen": "Distingue elementos y límites; DB HS 4 regula suministro de agua.",
-      "referencia": "CTE DB HS 4"
+      "justificacion": "El Documento Básico HS 4 del CTE regula el suministro de agua y las medidas que impiden retornos contaminantes; HS 5 trata evacuación.",
+      "trampaExamen": "¡Foco Examen!: El Documento Básico HS 4 del CTE regula el suministro de agua y las medidas que impiden retornos contaminantes; HS 5 trata evacuación.",
+      "referencia": "CTE DB HS 4; Manual §3 y §7",
+      "respuestaLiteral": "CTE DB HS 4"
     },
     {
       "id": "OLIAS-T17-009",
@@ -125,9 +133,10 @@
         "RD 3/2023"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Criterios técnico-sanitarios del agua.",
-      "trampaExamen": "Distingue elementos y límites; Criterios técnico-sanitarios del agua.",
-      "referencia": "RD 3/2023"
+      "justificacion": "El Real Decreto 3/2023 establece criterios técnico-sanitarios y reglas para instalaciones interiores de agua de consumo, especialmente el artículo 40.",
+      "trampaExamen": "¡Foco Examen!: El Real Decreto 3/2023 establece criterios técnico-sanitarios y reglas para instalaciones interiores de agua de consumo, especialmente el artículo 40.",
+      "referencia": "RD 3/2023, art. 40; Manual §7",
+      "respuestaLiteral": "RD 3/2023"
     },
     {
       "id": "OLIAS-T17-010",
@@ -139,9 +148,16 @@
         "Mezclar productos químicos"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La potabilidad no se decide a simple vista.",
-      "trampaExamen": "Distingue elementos y límites; La potabilidad no se decide a simple vista.",
-      "referencia": "RD 3/2023"
+      "justificacion": "La turbidez puede indicar una incidencia sanitaria; el auxiliar comunica y activa protocolo, sin afirmar potabilidad solo por apariencia ni actuar como laboratorio.",
+      "trampaExamen": "¡Foco Examen!: La turbidez puede indicar una incidencia sanitaria; el auxiliar comunica y activa protocolo, sin afirmar potabilidad solo por apariencia ni actuar como laboratorio.",
+      "referencia": "RD 3/2023, art. 40; Manual §7",
+      "respuestaLiteral": "Comunicar y seguir protocolo sanitario"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "REVISION_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
 }
