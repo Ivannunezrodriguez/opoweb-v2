@@ -1,7 +1,7 @@
 {
   "tema": 18,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T18-001",
@@ -13,9 +13,10 @@
         "Destruir papel"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "La circuladora impulsa el fluido.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. La circuladora impulsa el fluido.",
-      "referencia": "Tema 18, circuito"
+      "justificacion": "La bomba circuladora impulsa el fluido caloportador por las tuberías hacia los emisores; no genera calor por sí sola ni regula presión de consumo.",
+      "trampaExamen": "¡Foco Examen!: La bomba circuladora impulsa el fluido caloportador por las tuberías hacia los emisores; no genera calor por sí sola ni regula presión de consumo.",
+      "referencia": "Manual §3, circuito hidrónico",
+      "respuestaLiteral": "Mover fluido en circuito"
     },
     {
       "id": "OLIAS-T18-002",
@@ -27,9 +28,10 @@
         "Aguas residuales exclusivamente"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El sistema entrega calor a emisores.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. El sistema entrega calor a emisores.",
-      "referencia": "Tema 18, circuito"
+      "justificacion": "La impulsión lleva el fluido calentado hacia los radiadores y el retorno lo conduce hacia el generador; ambas tuberías cumplen funciones distintas.",
+      "trampaExamen": "¡Foco Examen!: La impulsión lleva el fluido calentado hacia los radiadores y el retorno lo conduce hacia el generador; ambas tuberías cumplen funciones distintas.",
+      "referencia": "Manual §3, impulsión y retorno",
+      "respuestaLiteral": "Fluido hacia emisores"
     },
     {
       "id": "OLIAS-T18-003",
@@ -41,9 +43,10 @@
         "Regular semáforos"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Absorbe dilatación del fluido.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Absorbe dilatación del fluido.",
-      "referencia": "Tema 18, circuito"
+      "justificacion": "El vaso de expansión absorbe variaciones de volumen por la temperatura y ayuda a estabilizar el circuito; no es depósito de agua potable.",
+      "trampaExamen": "¡Foco Examen!: El vaso de expansión absorbe variaciones de volumen por la temperatura y ayuda a estabilizar el circuito; no es depósito de agua potable.",
+      "referencia": "Manual §3, vaso de expansión",
+      "respuestaLiteral": "Compensar variaciones volumétricas"
     },
     {
       "id": "OLIAS-T18-004",
@@ -55,9 +58,10 @@
         "Eliminar aire del circuito"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Ayuda a evacuar aire.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Ayuda a evacuar aire.",
-      "referencia": "Tema 18, purga"
+      "justificacion": "El purgador sirve para evacuar aire acumulado del circuito cuando la instalación y el procedimiento lo permiten; purgar no equivale a vaciar.",
+      "trampaExamen": "¡Foco Examen!: El purgador sirve para evacuar aire acumulado del circuito cuando la instalación y el procedimiento lo permiten; purgar no equivale a vaciar.",
+      "referencia": "Manual §5, radiadores y purgadores",
+      "respuestaLiteral": "Eliminar aire del circuito"
     },
     {
       "id": "OLIAS-T18-005",
@@ -69,9 +73,10 @@
         "Sí, 1 bar siempre"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Depende de altura y diseño.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Depende de altura y diseño.",
-      "referencia": "Tema 18, presión"
+      "justificacion": "La presión depende de altura, diseño, temperatura y equipos; no hay una consigna única aplicable a todos los edificios.",
+      "trampaExamen": "¡Foco Examen!: La presión depende de altura, diseño, temperatura y equipos; no hay una consigna única aplicable a todos los edificios.",
+      "referencia": "Manual §4, presión de llenado",
+      "respuestaLiteral": "No, depende del sistema"
     },
     {
       "id": "OLIAS-T18-006",
@@ -83,9 +88,10 @@
         "Solo recepcionista"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Es el art. 26 RITE.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Es el art. 26 RITE.",
-      "referencia": "RITE, art. 26"
+      "justificacion": "Las operaciones reglamentarias se encomiendan a empresas mantenedoras habilitadas, con distinciones de contrato según potencia.",
+      "trampaExamen": "¡Foco Examen!: Las operaciones reglamentarias se encomiendan a empresas mantenedoras habilitadas, con distinciones de contrato según potencia.",
+      "referencia": "RITE RD 1027/2007, art. 26.1 y 26.6",
+      "respuestaLiteral": "Empresas mantenedoras habilitadas"
     },
     {
       "id": "OLIAS-T18-007",
@@ -97,9 +103,10 @@
         "Ignorar"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Se prioriza emergencia y seguridad.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Se prioriza emergencia y seguridad.",
-      "referencia": "PRL; tema 18"
+      "justificacion": "Un posible escape de gas exige seguir el protocolo, evitar chispas y maniobras eléctricas inseguras, comunicar y activar respuesta de emergencia.",
+      "trampaExamen": "¡Foco Examen!: Un posible escape de gas exige seguir el protocolo, evitar chispas y maniobras eléctricas inseguras, comunicar y activar respuesta de emergencia.",
+      "referencia": "Manual §6; Ley 31/1995, arts. 15 y 20",
+      "respuestaLiteral": "Aplicar protocolo y evitar chispas"
     },
     {
       "id": "OLIAS-T18-008",
@@ -111,9 +118,10 @@
         "Son siempre idénticas"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El agua del circuito puede ser no potable.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. El agua del circuito puede ser no potable.",
-      "referencia": "Tema 18, circuitos"
+      "justificacion": "El fluido del circuito de calefacción puede estar separado del agua de consumo, y no debe darse por potable sin comprobar el diseño.",
+      "trampaExamen": "¡Foco Examen!: El fluido del circuito de calefacción puede estar separado del agua de consumo, y no debe darse por potable sin comprobar el diseño.",
+      "referencia": "Manual §3, calefacción y agua sanitaria",
+      "respuestaLiteral": "Pueden ser redes diferentes"
     },
     {
       "id": "OLIAS-T18-009",
@@ -125,9 +133,10 @@
         "Instalaciones térmicas en edificios"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Es el reglamento técnico térmico.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Es el reglamento técnico térmico.",
-      "referencia": "RITE"
+      "justificacion": "El RITE regula requisitos de instalaciones térmicas en edificios; no es el reglamento de instalaciones eléctricas de baja tensión.",
+      "trampaExamen": "¡Foco Examen!: El RITE regula requisitos de instalaciones térmicas en edificios; no es el reglamento de instalaciones eléctricas de baja tensión.",
+      "referencia": "RITE RD 1027/2007, objeto del Reglamento",
+      "respuestaLiteral": "Instalaciones térmicas en edificios"
     },
     {
       "id": "OLIAS-T18-010",
@@ -139,9 +148,10 @@
         "Se aumenta la presión sin diagnóstico"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Puede haber riesgo de presión/temperatura.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Puede haber riesgo de presión/temperatura.",
-      "referencia": "RITE; tema 18"
+      "justificacion": "Una válvula de seguridad con fuga puede indicar incidencia de presión o de la propia válvula; se comunica a mantenimiento habilitado.",
+      "trampaExamen": "¡Foco Examen!: Una válvula de seguridad con fuga puede indicar incidencia de presión o de la propia válvula; se comunica a mantenimiento habilitado.",
+      "referencia": "Manual §4 y §6, válvula de seguridad",
+      "respuestaLiteral": "Se comunica a técnico"
     },
     {
       "id": "OLIAS-T18-011",
@@ -153,9 +163,10 @@
         "Régimen de 5.000 kW"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El límite superior del art.26.6.a incluye 70 kW.",
-      "trampaExamen": "La obligación explícita de contrato del apartado b exige más de 70 kW.",
-      "referencia": "RITE art. 26.6.a"
+      "justificacion": "La potencia de 70 kW exactos está incluida en el tramo desde 5 kW hasta 70 kW inclusive del art. 26.6.a.",
+      "trampaExamen": "¡Foco Examen!: La potencia de 70 kW exactos está incluida en el tramo desde 5 kW hasta 70 kW inclusive del art. 26.6.a.",
+      "referencia": "RITE RD 1027/2007, art. 26.6.a",
+      "respuestaLiteral": "Tramo entre 5 y 70 kW inclusive"
     },
     {
       "id": "OLIAS-T18-012",
@@ -167,9 +178,10 @@
         "Únicamente cuando existen radiadores"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Para potencias >70 kW se exige contrato con empresa mantenedora.",
-      "trampaExamen": "Contrato no equivale al mero mantenimiento por empresa de banda ≤70.",
-      "referencia": "RITE art. 26.6.b"
+      "justificacion": "Para potencia térmica nominal total de generación mayor que 70 kW se exige contrato con empresa mantenedora, sin incluir 70 exactos.",
+      "trampaExamen": "¡Foco Examen!: Para potencia térmica nominal total de generación mayor que 70 kW se exige contrato con empresa mantenedora, sin incluir 70 exactos.",
+      "referencia": "RITE RD 1027/2007, art. 26.6.b",
+      "respuestaLiteral": "Potencia térmica mayor que 70 kW"
     },
     {
       "id": "OLIAS-T18-013",
@@ -181,9 +193,10 @@
         "Cinco años desde cada operación"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Art.27 requiere no menos de 5 años desde operación.",
-      "trampaExamen": "No confundir registro con certificado de mantenimiento.",
-      "referencia": "RITE art. 27.2"
+      "justificacion": "El registro se conserva no menos de cinco años desde cada operación de mantenimiento; el cómputo no parte de una fecha única.",
+      "trampaExamen": "¡Foco Examen!: El registro se conserva no menos de cinco años desde cada operación de mantenimiento; el cómputo no parte de una fecha única.",
+      "referencia": "RITE RD 1027/2007, art. 27.2",
+      "respuestaLiteral": "Cinco años desde cada operación"
     },
     {
       "id": "OLIAS-T18-014",
@@ -195,9 +208,10 @@
         "El tribunal de oposición"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La empresa confecciona y asume anotaciones; el titular es responsable de existencia.",
-      "trampaExamen": "Distinguir titular y mantenedora.",
-      "referencia": "RITE art. 27.3"
+      "justificacion": "La empresa mantenedora confecciona el registro y responde de las anotaciones; el titular debe asegurar su existencia y disponibilidad.",
+      "trampaExamen": "¡Foco Examen!: La empresa mantenedora confecciona el registro y responde de las anotaciones; el titular debe asegurar su existencia y disponibilidad.",
+      "referencia": "RITE RD 1027/2007, art. 27.3",
+      "respuestaLiteral": "La empresa mantenedora"
     },
     {
       "id": "OLIAS-T18-015",
@@ -209,9 +223,10 @@
         "Cada vez que se abre la sala"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Se vincula a casos de contrato de mantenimiento obligatorio.",
-      "trampaExamen": "No confundir con registro obligatorio de todas las operaciones.",
-      "referencia": "RITE art. 28.1"
+      "justificacion": "El certificado anual se suscribe cuando sea obligatorio contrato de mantenimiento; es distinto del registro de operaciones conservado cinco años.",
+      "trampaExamen": "¡Foco Examen!: El certificado anual se suscribe cuando sea obligatorio contrato de mantenimiento; es distinto del registro de operaciones conservado cinco años.",
+      "referencia": "RITE RD 1027/2007, art. 28.1",
+      "respuestaLiteral": "Cuando sea obligatorio suscribir contrato de mantenimiento"
     },
     {
       "id": "OLIAS-T18-016",
@@ -223,9 +238,17 @@
         "La autorización del instalador"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El art.25 señala expresamente que el mantenimiento no puede sustituirse por la garantía.",
-      "trampaExamen": "Garantía y mantenimiento son distintos.",
-      "referencia": "RITE art. 25.1"
+      "justificacion": "La garantía comercial no sustituye las responsabilidades reglamentarias de conservación y mantenimiento de la instalación térmica.",
+      "trampaExamen": "¡Foco Examen!: La garantía comercial no sustituye las responsabilidades reglamentarias de conservación y mantenimiento de la instalación térmica.",
+      "referencia": "RITE RD 1027/2007, arts. 25 y 26",
+      "respuestaLiteral": "No sustituye las obligaciones de mantenimiento RITE"
     }
-  ]
+  ],
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVAS",
+    "preguntasRevisadas": 16,
+    "alternativasRevisadas": 64,
+    "clavesCambiadas": 0,
+    "certificacionIntegral": false
+  }
 }
