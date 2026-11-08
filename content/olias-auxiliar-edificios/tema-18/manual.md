@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 18 · Calefacción, radiadores, circuitos y salas de calderas
 
-**Estado: EN_AUDITORIA.** Fecha **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
+**Estado: AUDITADO documental (08/11/2026), con reservas funcionales.** Primera edición **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -115,7 +115,22 @@ Estas magnitudes corresponden al **ámbito y condiciones reglamentarias** y no p
 
 ## 9. Supuesto de repaso
 
-**Situación:** el auxiliar detecta una incidencia del área del tema. Debe **distinguir conocimientos básicos de intervención técnica**, comunicar al responsable, evitar riesgos y consultar el manual de fabricante o la norma aplicable. Solo realizará operaciones que se encuentren dentro de sus **atribuciones, formación y autorización**.
+### Supuesto 1. Radiador frío y presión baja
+
+Un radiador de un edificio municipal emite ruido de burbujeo y la lectura del manómetro es inferior a la consigna recogida en el **manual de la instalación**. **Respuesta razonada:** identificar la incidencia, registrar lectura y momento, avisar al responsable y evitar que usuarios manipulen purgadores o llaves sin autorización. El aire atrapado es una **hipótesis**, no diagnóstico concluyente: también puede haber una fuga o desequilibrio hidráulico. El **purgador** evacua aire; **llenar** añade agua al circuito y puede cambiar presión. Las operaciones que requieran intervención técnica se encomiendan a personal competente conforme al **RITE**.
+
+> ⚠️ **¡Foco Examen!:** **Purgar ≠ vaciar ≠ rellenar**. No existe una presión universal de **1–1,5 bar** aplicable a todas las instalaciones de calefacción.
+
+### Supuesto 2. Dos salas de calderas de distinta potencia
+
+La instalación A tiene potencia térmica total instalada de generación de **70 kW exactos**; la B, de **80 kW**. Ambas están sujetas al RITE en los términos del reglamento. Conforme al **art. 26.6**: A pertenece al tramo **de 5 a 70 kW, ambos incluidos**, con mantenimiento por **empresa mantenedora**; B supera **70 kW** y requiere **contrato de mantenimiento** suscrito por el titular con **empresa mantenedora**. El registro de operaciones se conserva **no menos de 5 años desde cada intervención** (**art. 27**). El certificado **anual** del **art. 28** se exige cuando resulte obligatorio el contrato, no universalmente por el mero hecho de existir calefacción.
+
+| Instalación | Régimen del art. 26.6 | Registro y certificado |
+|---|---|---|
+| **70 kW** | Empresa mantenedora; sin deducir de esa letra obligación general de contrato | Registro **≥ 5 años**; certificado anual **si procede por obligación de contrato** |
+| **80 kW** | Empresa mantenedora **con contrato** | Registro **≥ 5 años**; certificado **anual** |
+
+> ⚠️ **¡Foco Examen!:** El **70 exacto** no es «mayor de 70». **Libro de mantenimiento ≥ 5 años** y **certificado anual** son documentos y plazos diferentes.
 
 ## Fuentes de referencia
 
@@ -123,4 +138,4 @@ Estas magnitudes corresponden al **ámbito y condiciones reglamentarias** y no p
 - [**RD 1215/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824) — uso seguro de equipos.
 - [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — prevención.
 
-**Control editorial pendiente:** verificar aplicaciones prácticas y excepcionalidades en normativa técnica, sin confundir desarrollo pedagógico con el texto de las bases.
+**Cierre documental 08/11/2026:** cinco incisos desarrollados, revisión de umbrales y plazos del RITE y dos casos concretos resueltos. No se certifican la potencia, el manual ni el protocolo de ninguna instalación municipal concreta; pruebas de navegador y de CI pendientes.
