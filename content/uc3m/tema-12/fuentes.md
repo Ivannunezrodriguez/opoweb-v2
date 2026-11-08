@@ -56,3 +56,10 @@ El manual se ajusta al epígrafe oficial de la convocatoria y prioriza conceptos
 **Control de alcance:** la ampliación comprende los preceptos aquí enumerados y no equivale a auditoría completa de todos los efectos y reglamentos de prevención, ni a prueba de interfaz real, accesibilidad o PWA. Se mantienen las matrices y el estado de revisión, sin certificar nuevos temas.
 
 > ⚠️ **¡Foco Examen!:** **15 días** es plazo del **informe de Delegados** del art. **36.3**, no un período de espera aplicable indiscriminadamente a cualquier medida preventiva. El **empresario titular** y el **principal** no son sinónimos.
+
+
+## Ampliación sustantiva 08/11/2026
+
+**Desarrollados dos supuestos nuevos** y contrastado el texto legal primario: [Ley 31/1995 arts. 20, 21 y 38](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), Comité de Seguridad y Salud a partir de **50 personas trabajadoras**, composición **paritaria** y reuniones **trimestrales**.
+
+**Estado:** cobertura documental de **17 apartados** con banco **12 preguntas/48 alternativas** conservado. **No** se considera aprobación del usuario ni certificación funcional; queda reserva de fecha exacta de corte legal de base primera.7 UC3M.
