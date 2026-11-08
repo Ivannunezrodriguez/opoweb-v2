@@ -10,12 +10,12 @@
 
 | Inciso oficial/desarrollo | Fuente relevante | Contenido |
 |---|---|---|
-| El término municipal y zonas principales | [Directorio municipal de teléfonos y edificios](https://www.ayuntamientodeoliasdelrey.com/telefonos-y-correos-de-interes/) | Datos y límites verificables |
-| Edificios municipales principales y localización | [Educación y Cultura municipal](https://www.ayuntamientodeoliasdelrey.com/educacion-y-cultura/) | Datos y límites verificables |
-| Instalaciones educativas, sociales y de seguridad | [Deportes municipal](https://www.ayuntamientodeoliasdelrey.com/actualidad-deportiva/) | Datos y límites verificables |
-| Zonas deportivas y barrios: orientación | [Urbanismo municipal](https://www.ayuntamientodeoliasdelrey.com/urbanismo/) | Datos y límites verificables |
-| Callejero y uso de cartografía oficial | [Turismo de Castilla-La Mancha](https://www.turismocastillalamancha.es/es/destinos/encanto-rural/toledo/olias-del-rey) | Datos y límites verificables |
-| Método de estudio para localizar servicios | [Instituto Geográfico Nacional](https://www.ign.es/web/rcc-nomenclator-nacional) | Datos y límites verificables |
+| El término municipal y zonas principales | [Turismo de Castilla-La Mancha](https://www.turismocastillalamancha.es/es/destinos/encanto-rural/toledo/olias-del-rey) y [directorio municipal](https://www.ayuntamientodeoliasdelrey.com/telefonos-y-correos-de-interes/) | Comarca y zonas citadas; **no** delimitación exhaustiva de barrios |
+| Edificios municipales principales y localización | [Directorio municipal de teléfonos y edificios](https://www.ayuntamientodeoliasdelrey.com/telefonos-y-correos-de-interes/) | Vía y dirección publicada de cada servicio; contrastar numeraciones discrepantes |
+| Instalaciones educativas, sociales y de seguridad | [Educación y Cultura municipal](https://www.ayuntamientodeoliasdelrey.com/educacion-y-cultura/) y [directorio municipal](https://www.ayuntamientodeoliasdelrey.com/telefonos-y-correos-de-interes/) | Ubicaciones de centros citados; directorio **no** equivale a inventario completo |
+| Zonas deportivas y barrios: orientación | [Deportes municipal](https://www.ayuntamientodeoliasdelrey.com/actualidad-deportiva/) | Asociaciones entre zonas y equipamientos, sin inferir límites geográficos |
+| Callejero y uso de cartografía oficial | [INE: Callejero del Censo Electoral](https://www.ine.es/prodyser/callejero/) y [Situación y Callejero municipal](https://www.ayuntamientodeoliasdelrey.com/situacion-y-callejero/) | VIAS/PSEU/TRAM; extracción **45122** de **julio 2026 pendiente**; ninguna lista íntegra acreditada |
+| Método de estudio para localizar servicios | [Directorio municipal](https://www.ayuntamientodeoliasdelrey.com/telefonos-y-correos-de-interes/) y [Educación y Cultura](https://www.ayuntamientodeoliasdelrey.com/educacion-y-cultura/) | Asociar servicio, función y vía según la fuente, sin completar huecos por intuición |
 
 ## 3. El término municipal y zonas principales
 
@@ -195,4 +195,4 @@ En un test se propone que la tabla de edificios municipales cubre la totalidad d
 - [**Turismo de Castilla-La Mancha**](https://www.turismocastillalamancha.es/es/destinos/encanto-rural/toledo/olias-del-rey): situación territorial.
 - [**Instituto Geográfico Nacional**](https://www.ign.es/web/rcc-nomenclator-nacional): cartografía y topónimos.
 
-**Control documental 08/11/2026:** directorio, Cultura y «Situación y Callejero» contrastados; discrepancias de numeración expresamente delimitadas, **2 supuestos resueltos** y banco de 12 preguntas revisado. **Reserva material:** el **callejero municipal íntegro no queda acreditado** en las fuentes recuperadas; no se presenta una lista parcial como totalidad. Pendientes actualizaciones locales y prueba funcional de la web.
+**Control documental 08/11/2026 (rectificación del balance):** las fuentes municipales y el INE están diferenciadas por su alcance; **3 supuestos resueltos** y **21 preguntas / 84 alternativas** en el banco del tema. Se intentó recuperar el fichero provincial/nacional del INE para **julio de 2026**, pero el entorno no pudo resolver el dominio para descargar el ZIP. Por tanto, el inventario de vías de **Olías del Rey (45122)** continúa **sin extracción ni cotejo**. No atribuir cierre documental completo, prueba funcional ni cifra exhaustiva de calles. La matriz inicial de este manual se ha corregido para que cada inciso enlace la fuente verdaderamente pertinente.
