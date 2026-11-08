@@ -26,9 +26,9 @@ El crédito ECTS mide el trabajo total del estudiante: clases, prácticas, estud
 
 Reglas esenciales:
 
-- un curso académico a tiempo completo comprende normalmente **60 ECTS**;
-- en la información académica de la UC3M, **1 ECTS equivale a 25 horas de trabajo del estudiante**;
-- el crédito no equivale exclusivamente a horas de docencia presencial.
+- los planes de Grado y Máster se estructuran generalmente en cursos de **60 ECTS** (**RD 822/2021, art. 5.2**), con la excepción de los **Másteres de 90 ECTS**, donde uno de los cursos puede ser de **30 ECTS**;
+- la regla estatal de dedicación es de **25 a 30 horas por ECTS** (**RD 1125/2003, art. 4.5**); la **normativa UC3M del TFG aprobada el 17/06/2010**, para esos trabajos, aplica **25 horas/ECTS**;
+- el crédito incluye también estudio, prácticas, trabajos y evaluación, no solo docencia presencial.
 
 ## 3. Grado
 
@@ -242,7 +242,7 @@ La Universidad debe aprobar un calendario de extinción que regule convocatorias
 ## Claves de examen
 
 - Enseñanzas oficiales: Grado, Máster Universitario y Doctorado.
-- Curso completo: 60 ECTS; en UC3M, 1 ECTS = 25 horas de trabajo.
+- Curso general: **60 ECTS** (**RD 822/2021, art. 5.2**; excepción de Máster de 90 ECTS). Carga estatal de ECTS: **25–30 horas** (**RD 1125/2003, art. 4.5**). En la **normativa UC3M del TFG**, **25 horas/ECTS**.
 - Tiempo parcial: 30 ECTS el primer año y mínimo 18 en los siguientes.
 - Permanencia: regla general de 12 créditos el primer año y primer curso en dos años (tres en ingeniería); **excepciones expresas para tiempo parcial y Grados Abiertos** (art. 1.2.b y 1.3 UC3M).
 - Convocatorias: cuatro; seis en ingeniería.
@@ -296,3 +296,20 @@ El enunciado afirma: «Tras la sentencia publicada el **23/10/2026**, ya no se a
 > ⚠️ **¡Foco Examen!:** **Anulación de un real decreto modificador** no equivale a **anulación íntegra del reglamento modificado**. Además, **23/10/2026** es la fecha de publicación del fallo, no necesariamente la fecha de corte legislativo de la oposición.
 
 **Estado:** desarrollo documental adicional, sin certificar examen de fecha de corte, compatibilidad de todos los preceptos ni ejecución funcional de la web.
+
+
+## Rectificación de fuentes ECTS — **08/11/2026**
+
+La pregunta **UC3M-T16-002** y la explicación inicial del tema citaban el **art. 9 del RD 822/2021** para los **60 ECTS por curso**. Se ha precisado que el precepto directo es el [**art. 5.2 RD 822/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a5), concordante con el [**art. 4.1 RD 1125/2003**](https://www.boe.es/eli/es/rd/2003/09/05/1125/con).
+
+En la pregunta **UC3M-T16-009**, la fuente anterior de e-Archivo no era recuperable (**403** en comprobación). Se reemplaza por la [**Normativa UC3M sobre organización y evaluación de TFG, aprobada el 17/06/2010**](https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=attachment%3B+filename%3D%22Normativa_sobre_organizaci%C3%B3n_y_evaluaci%C3%B3n_de_la_asignatura_Trabajo_Fin_de_Grado.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371553536021&ssbinary=true), que especifica **25 horas/ECTS para la carga de TFG**. Se restringe el enunciado a ese contexto; el [**art. 4.5 RD 1125/2003**](https://www.boe.es/eli/es/rd/2003/09/05/1125/con) permite **25–30 horas por ECTS** en el marco estatal.
+
+| Dato examinable | Norma correcta | Precaución |
+|---|---|---|
+| Curso académico ordinario **60 ECTS** | **RD 822/2021, 5.2** y **RD 1125/2003, 4.1** | Máster de **90 ECTS** puede incluir curso de **30 ECTS** |
+| Dedicación ECTS general **25–30 h** | **RD 1125/2003, 4.5** | No afirmar **25 horas universales exactas** |
+| Carga TFG de referencia UC3M **25 h/ECTS** | **Normativa UC3M TFG 2010** | Regla institucional específica |
+
+> ⚠️ **¡Foco Examen!:** **60 ECTS/año** es carga curricular; **25–30 horas/ECTS** es dedicación. No confundir unidades ni atribuir al **art. 9 RD 822/2021** una regla que desarrolla directamente su **art. 5.2**.
+
+Esta reparación no implica revisión jurídica integral de las restantes respuestas, ni confirmación de la fecha de corte de la oposición, ni certificación funcional de OpoWeb.
