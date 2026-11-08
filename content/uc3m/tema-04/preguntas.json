@@ -185,5 +185,14 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "estado": "DESARROLLO_DOCUMENTAL_COMPLETO_CON_RESERVA_CORTE",
+    "preguntasCotejadas": 12,
+    "alternativasPreservadas": 48,
+    "clavesModificadas": 0,
+    "aprobacionUsuario": false,
+    "certificacionFuncional": false
   }
 }
