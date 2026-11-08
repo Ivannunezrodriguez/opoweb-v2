@@ -12,3 +12,10 @@
 > ⚠️ **¡Foco Examen!:** En técnicas manuales y ofimática, los procedimientos concretos dependen de equipo, fabricante y protocolo; no se atribuyen al BOP características técnicas no publicadas.
 
 **Estado: EN_AUDITORIA**, **04/11/2026**.
+
+
+## Cotejo de contenido — **08/11/2026**
+
+**Clasificación de madera y herramientas:** las definiciones de **MDF, contrachapado, formón, escuadra y sargento** son conceptos técnicos, no artículos de la Ley 31/1995. Para riesgos de equipos se aplica [**RD 1215/1997, arts. 3 y anexo II**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824); para prevención general [**Ley 31/1995, arts. 15 y 17**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292). Los procedimientos exactos de una persiana o puerta clasificada dependen del **manual del fabricante y autorización del centro**, no se inventan.
+
+**Cierre documental:** 5 incisos, 2 casos completos y **10 preguntas/40 opciones** fundamentadas con respuestas conservadas. Pendientes equipos específicos del centro, ejecución funcional y certificación integral.
