@@ -33,9 +33,9 @@
     },
     {
       "inciso": "Callejero y uso de cartografía oficial",
-      "norma": "Página municipal «Situación y Callejero» e IGN",
+      "norma": "Ayuntamiento «Situación y Callejero»; INE Callejero Censo Electoral (VIAS, PSEU, TRAM), edición julio 2026",
       "articulos": "Fuente territorial/administrativa; no precepto normativo",
-      "contenidoExigible": "La página municipal no ofrece inventario legible completo de vías: pendiente callejero certificado"
+      "contenidoExigible": "Identificar vías y tramos con referencia 30/06/2026; aún pendiente descargar, filtrar 45122 y contrastar listado íntegro"
     },
     {
       "inciso": "Método de estudio para localizar servicios",
@@ -54,6 +54,11 @@
     "discrepanciasNumeracion": true,
     "callejeroCompleto": false,
     "estado": "EN_AUDITORIA",
-    "motivo": "El BOP exige callejero municipal y no se ha acreditado listado exhaustivo"
+    "motivo": "El BOP exige callejero municipal y no se ha acreditado listado exhaustivo",
+    "totalPreguntas": 21,
+    "alternativas": 84,
+    "fuenteINE": "https://www.ine.es/prodyser/callejero/",
+    "falta": "Extracción del ZIP provincial para Toledo, julio 2026, tabla VIAS/PSEU para INE 45122",
+    "certificacionIntegral": false
   }
 }
