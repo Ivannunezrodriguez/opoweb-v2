@@ -1,5 +1,10 @@
 # OpoWeb v2 — Estado editorial único y cola de reanudación
 
+## Prioridad de ejecución fijada por el usuario — 08/11/2026
+
+**Orden obligatorio de auditoría y cierre:** **1.º Olías del Rey (Auxiliar de edificios C2) → 2.º Diputación de Toledo (Administrativo C1) → 3.º Universidad Carlos III de Madrid (Auxiliar C2)**. Este orden sustituye las prioridades previas que entren en conflicto. Terminar los controles posibles de una convocatoria antes de pasar a la siguiente; si falta una fuente primaria imprescindible (Olías T13 callejero INE o Diputación C1 T22 Estatutos OAPGT), conservar expresamente el bloqueo sin atribuir 100 % ni insistir indefinidamente y proseguir al siguiente destino. No adelantar La Puebla ni Diputación Auxiliar C2 sobre estas tres por inercia de planes históricos. Seguir exigiendo evidencias jurídicas, pedagógicas y funcionales y no alterar etiquetas de certificación sin pruebas.
+
+
 **Estado contrastado con los manifiestos y documentos del repositorio:** **02/11/2026**.
 **Ámbito:** contenido y fiabilidad para estudiar. No equivale al seguimiento administrativo en tiempo real de convocatorias.
 **Este es el ÚNICO documento de estado editorial operativo.** Los restantes informes fechados son **evidencia histórica**, no órdenes de reanudación ni certificados actuales. Conservar su contenido y sus commits.
