@@ -3,33 +3,39 @@
   "numeroEnBloque": 4,
   "bloque": "especifica",
   "epigrafeOficial": "Distribución de documentos, objetos y correspondencia. Servicios y tarifas postales.",
-  "estado": "EN_AUDITORIA",
-  "fechaRevision": "2026-11-04",
+  "estado": "AUDITADO",
+  "fechaRevision": "2026-11-08",
   "fuentePrograma": "BOP Toledo nº 204, 23/10/2026, anuncio 2026/4833, CSV 2026.00004833",
   "filas": [
     {
       "inciso": "Distribución interna de documentos y objetos",
-      "norma": "Ley 43/2010, servicio postal",
-      "articulos": "derechos de usuarios y servicio universal",
-      "contenidoExigible": "Conceptos, procedimientos, límites y diferencias del apartado 3"
+      "norma": "Procedimiento interno de correspondencia; RGPD",
+      "articulos": "RGPD art. 5.1.c y f si contiene datos; la Ley 43/2010 no define el reparto interno de un Ayuntamiento",
+      "contenidoExigible": "Recepción, clasificación, custodia, ruta y entrega; diferenciar de registro administrativo"
     },
     {
       "inciso": "Tipos de envío y franqueo",
-      "norma": "RD 437/2024, Reglamento postal",
-      "articulos": "arts. 14 y 17-22",
-      "contenidoExigible": "Conceptos, procedimientos, límites y diferencias del apartado 4"
+      "norma": "RD 437/2024",
+      "articulos": "Art. 14: franqueo acredita pago; arts. 17-22: entrega según modalidad",
+      "contenidoExigible": "Diferenciar ordinario y certificado; tarifas según servicio, peso y destino"
     },
     {
       "inciso": "Entrega y recepción de cartas certificadas",
-      "norma": "RGPD",
-      "articulos": "art. 5",
-      "contenidoExigible": "Conceptos, procedimientos, límites y diferencias del apartado 5"
+      "norma": "RD 437/2024",
+      "articulos": "Art. 20: firma de destinatario o autorizado, con excepciones documentadas",
+      "contenidoExigible": "Control de entrega; no presumir facultad de abrir sobres ni equivalencia con notificación"
     },
     {
       "inciso": "Servicios postales, tarifas y cambios normativos",
-      "norma": "RGPD",
-      "articulos": "art. 5",
-      "contenidoExigible": "Conceptos, procedimientos, límites y diferencias del apartado 6"
+      "norma": "Ley 43/2010; RD 437/2024; Ley 39/2015",
+      "articulos": "RD 437/2024 disposición transitoria única; Ley 39/2015 arts. 40 y siguientes",
+      "contenidoExigible": "Precios variables, régimen postal general y subsistencia transitoria parcial de reglas de notificaciones"
     }
-  ]
+  ],
+  "version": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVAS",
+    "incisosVerificados": 4,
+    "certificacionIntegral": false
+  }
 }
