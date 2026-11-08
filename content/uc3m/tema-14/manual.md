@@ -217,3 +217,32 @@ Para **Profesores Ayudantes Doctores** el **artículo 78** establece un contrato
 [**Acta de cierre documental T13–T14, con reservas y trazabilidad de fuentes**](../CIERRE_DOCUMENTAL_T13_T14_20261106.md). Se han contrastado el programa, los **12 bloques de matriz** por tema y las **26 preguntas históricas con 104 alternativas** de ambos temas; los repasos complementarios reúnen otras **16 preguntas y 64 alternativas**, con los **enlaces a los artículos BOE precisos**. Este cierre acredita el circuito documental de estudio, **no** una certificación jurídica integral, navegación E2E, aprobación del usuario ni la fecha definitiva del corte normativo de las bases **UC3M primera.7**.
 
 > ⚠️ **¡Foco Examen!:** **Cierre documental con reservas** no equivale a **100 % de fiabilidad**; para responder al test aplica el **artículo concreto**, su **excepción** y el **corte normativo de la convocatoria**, no la fecha de la última revisión de OpoWeb.
+
+
+## 15. Órganos electos y convocatoria extraordinaria de elecciones a Rector — **08/11/2026**
+
+La [**LOSU, artículos 44.3 y 45.2.e**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a44) distingue el **mandato ordinario de los órganos unipersonales electos** de la **convocatoria extraordinaria de elecciones a Rector** por iniciativa del Claustro. Son reglas diferentes y sus cifras **no son intercambiables**.
+
+| Supuesto de examen | Regla literal que debe identificarse | Precepto |
+|---|---|---|
+| Duración de los órganos unipersonales **electos** | Mandato de **6 años**, **improrrogable y no renovable** | **LOSU 44.3** |
+| Iniciativa para elecciones extraordinarias a Rector | **Un tercio de los componentes del Claustro**, que incluya **al menos un 30 %** del personal de los cuerpos docentes universitarios funcionarios y del **Profesorado Permanente Laboral** | **LOSU 45.2.e** |
+| Aprobación de la iniciativa extraordinaria | **Al menos dos tercios del Claustro** | **LOSU 45.2.e** |
+| Efecto de su aprobación | **Disolución del Claustro y cese del Rector**, que sigue **en funciones** hasta la toma de posesión del nuevo Rector o Rectora | **LOSU 45.2.e** |
+| Iniciativa rechazada | Quienes la promovieron **no podrán presentar otra** de ese carácter hasta transcurrido **1 año** desde la votación | **LOSU 45.2.e** |
+
+**Matiz esencial:** la dedicación del profesorado **a tiempo completo** es requisito para desempeñar órganos unipersonales de gobierno y **no** se puede ejercer la titularidad de **más de un cargo simultáneamente** (**LOSU 44.3**). Esta regla no debe atribuirse indistintamente a cualquier miembro electo de un órgano colegiado.
+
+### Supuesto práctico 1. Iniciativa suficiente pero votación insuficiente
+
+Un Claustro de **150 componentes** recibe una iniciativa presentada por **50**, con la participación exigida del colectivo docente que menciona el **artículo 45.2.e**. La iniciativa reúne el **tercio** necesario para plantearla. Si solo votan a favor **90 miembros**, **no** alcanza los **100 votos** equivalentes a **dos tercios de 150**. Por tanto, **no prospera la convocatoria extraordinaria**, aunque sí se cumpliera el umbral de presentación. La fracción relativa al colectivo docente debe comprobarse además conforme a la composición y los promotores reales.
+
+> ⚠️ **¡Foco Examen!:** **1/3** es la **iniciativa**; **2/3** es la **aprobación**. No se puede sustituir una mayoría por la otra.
+
+### Supuesto práctico 2. Consecuencias de la convocatoria
+
+La iniciativa extraordinaria se aprueba con la mayoría legal. Una opción afirma: «El Rector pierde inmediatamente todas sus funciones y el Claustro permanece constituido hasta el siguiente mandato». **Incorrecto**: el **Claustro se disuelve** y el **Rector cesa**, pero **permanece en funciones** hasta la toma de posesión de quien resulte elegido.
+
+> ⚠️ **¡Foco Examen!:** **Cese** del titular no significa **vacío de funciones**. Además, **6 años** es el mandato ordinario de los **órganos unipersonales electos**, no el período de inhabilitación para volver a promover una iniciativa rechazada, que es **1 año**.
+
+**Estado documental:** extensión focal contrastada con el BOE consolidado de la LOSU; no acredita por sí sola el corte legislativo de la convocatoria, la aprobación del usuario ni pruebas funcionales de la web.
