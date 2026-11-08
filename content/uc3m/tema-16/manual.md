@@ -275,3 +275,24 @@ La Universidad debe aprobar un calendario de extinción que regule convocatorias
 [**Acta de cierre T16 con reservas y fuentes**](../CIERRE_DOCUMENTAL_T16_20261106.md): **7 bloques** de programa, **21 preguntas históricas/84 alternativas** y **6 complementarias/24 alternativas**. Se han precisado las referencias del **BOEL UC3M de 22/01/2026** en los seis ejercicios nuevos y se distingue la **nulidad del RD 905/2025** de la continuidad del **RD 822/2021**. La fecha oficial primaria del corte de la **base primera.7** y las pruebas E2E/móvil/WCAG/PWA permanecen pendientes. No sustituye el banco anterior ni altera los simulacros **70+5**.
 
 > ⚠️ **¡Foco Examen!:** No atribuir la **nulidad íntegra del RD 822/2021** a una sentencia que anuló el **RD 905/2025**, ni aplicar al examen automáticamente un cambio posterior a la fecha oficial de corte.
+
+
+## Control específico de la anulación del Real Decreto 905/2025 — 08/11/2026
+
+El **Tribunal Supremo**, por **Sentencia de 6 de octubre de 2026**, publicada en el **BOE del 23 de octubre de 2026** (**BOE-A-2026-22083**), **anuló el Real Decreto 905/2025, de 7 de octubre**. Su fallo afecta a las modificaciones que esa disposición había introducido en distintas normas del ámbito universitario, entre ellas el **artículo 22.4 del Real Decreto 822/2021**. **No se anuló íntegramente el Real Decreto 822/2021.** [Sentencia y análisis del BOE](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083).
+
+| Pregunta habitual | Respuesta precisa | Fuente |
+|---|---|---|
+| ¿Qué norma fue anulada? | El **Real Decreto 905/2025** | **TS, fallo de 06/10/2026** |
+| ¿Cuándo se publicó el fallo? | **23/10/2026** | **BOE-A-2026-22083** |
+| ¿Desapareció todo el RD 822/2021? | **No**; se declara la nulidad de la modificación de su **art. 22.4** y de las referencias indicadas introducidas por el RD anulado | **Análisis oficial del BOE** |
+| ¿Qué ocurre con las reglas de créditos y TFG/TFM de otros artículos? | No pueden darse por derogadas en bloque a causa de esta sentencia; deben leerse en su versión normativa aplicable | **RD 822/2021, arts. 13, 14 y 17** |
+| ¿Qué versión puede preguntarse en esta oposición? | La que resulte de la **base primera.7** de UC3M según la **fecha oficial de publicación de las listas definitivas y anuncio del ejercicio**, que exige cotejo documental individualizado | **Convocatoria UC3M 2026** |
+
+### Supuesto práctico. Falsa derogación total
+
+El enunciado afirma: «Tras la sentencia publicada el **23/10/2026**, ya no se aplican los **artículos 13, 14 y 17 del RD 822/2021**, porque el Tribunal Supremo anuló todo el reglamento». **Respuesta: falsa.** El fallo declara la nulidad del **RD 905/2025**, no la del **RD 822/2021** en su totalidad. Para decidir la redacción exigible al ejercicio, no basta la publicación de la sentencia: hay que comprobar además el **corte temporal previsto por las bases**.
+
+> ⚠️ **¡Foco Examen!:** **Anulación de un real decreto modificador** no equivale a **anulación íntegra del reglamento modificado**. Además, **23/10/2026** es la fecha de publicación del fallo, no necesariamente la fecha de corte legislativo de la oposición.
+
+**Estado:** desarrollo documental adicional, sin certificar examen de fecha de corte, compatibilidad de todos los preceptos ni ejecución funcional de la web.
