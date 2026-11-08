@@ -1,7 +1,7 @@
 {
   "tema": 13,
   "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T13-001",
@@ -13,9 +13,10 @@
         "La Vera"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El portal autonómico lo sitúa en La Sagra.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: El portal autonómico lo sitúa en La Sagra.",
-      "referencia": "Turismo CLM, Olías del Rey"
+      "justificacion": "La información turística autonómica sitúa Olías del Rey en La Sagra, dentro de la provincia de Toledo.",
+      "trampaExamen": "¡Foco Examen!: La información turística autonómica sitúa Olías del Rey en La Sagra, dentro de la provincia de Toledo.",
+      "referencia": "Turismo de Castilla-La Mancha, ficha Olías del Rey",
+      "respuestaLiteral": "La Sagra"
     },
     {
       "id": "OLIAS-T13-002",
@@ -27,9 +28,10 @@
         "Calle Petunia"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El directorio oficial la identifica.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: El directorio oficial la identifica.",
-      "referencia": "Directorio municipal"
+      "justificacion": "El directorio municipal identifica el Ayuntamiento en Plaza Constitución, 1; la página de situación municipal confirma esa ubicación.",
+      "trampaExamen": "¡Foco Examen!: El directorio municipal identifica el Ayuntamiento en Plaza Constitución, 1; la página de situación municipal confirma esa ubicación.",
+      "referencia": "Directorio oficial municipal, sección Administración",
+      "respuestaLiteral": "Plaza de la Constitución, 1"
     },
     {
       "id": "OLIAS-T13-003",
@@ -41,9 +43,10 @@
         "Calle Toledo"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La web lo sitúa en Camino del Arenal.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: La web lo sitúa en Camino del Arenal.",
-      "referencia": "Directorio municipal"
+      "justificacion": "El Pabellón Polideportivo Cubierto figura en Camino del Arenal, 5, en el directorio del Ayuntamiento.",
+      "trampaExamen": "¡Foco Examen!: El Pabellón Polideportivo Cubierto figura en Camino del Arenal, 5, en el directorio del Ayuntamiento.",
+      "referencia": "Directorio municipal, instalaciones deportivas",
+      "respuestaLiteral": "Camino del Arenal, 5"
     },
     {
       "id": "OLIAS-T13-004",
@@ -55,9 +58,10 @@
         "Plaza de la Constitución, 7"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Así figura en directorio municipal.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: Así figura en directorio municipal.",
-      "referencia": "Directorio municipal"
+      "justificacion": "La Piscina Municipal consta en Calle Venta de Arriba en la relación de instalaciones deportivas municipal.",
+      "trampaExamen": "¡Foco Examen!: La Piscina Municipal consta en Calle Venta de Arriba en la relación de instalaciones deportivas municipal.",
+      "referencia": "Directorio municipal, instalaciones deportivas",
+      "respuestaLiteral": "Calle Venta de Arriba"
     },
     {
       "id": "OLIAS-T13-005",
@@ -69,9 +73,10 @@
         "Calle Flor"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Figura en la calle Flor.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: Figura en la calle Flor.",
-      "referencia": "Directorio municipal"
+      "justificacion": "Ambas fuentes municipales ubican Casa de la Cultura en Calle de la Flor, aunque discrepan sobre el número de portal (2 frente a s/n).",
+      "trampaExamen": "¡Foco Examen!: Ambas fuentes municipales ubican Casa de la Cultura en Calle de la Flor, aunque discrepan sobre el número de portal (2 frente a s/n).",
+      "referencia": "Directorio municipal y Educación y Cultura",
+      "respuestaLiteral": "Calle Flor"
     },
     {
       "id": "OLIAS-T13-006",
@@ -83,9 +88,10 @@
         "Calle Toledo"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La web lo identifica en Camino de Higares.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: La web lo identifica en Camino de Higares.",
-      "referencia": "Directorio municipal"
+      "justificacion": "El Centro de la Juventud consta en Higares, expresado como Camino de Higares o C/ Higares s/n en páginas municipales.",
+      "trampaExamen": "¡Foco Examen!: El Centro de la Juventud consta en Higares, expresado como Camino de Higares o C/ Higares s/n en páginas municipales.",
+      "referencia": "Directorio municipal y Educación y Cultura",
+      "respuestaLiteral": "Camino de Higares"
     },
     {
       "id": "OLIAS-T13-007",
@@ -97,9 +103,10 @@
         "Calle Flor, 2"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Referencia del directorio municipal.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: Referencia del directorio municipal.",
-      "referencia": "Directorio municipal"
+      "justificacion": "El directorio oficial sitúa el Colegio Público Pedro Melendo en Camino del Arenal, 7.",
+      "trampaExamen": "¡Foco Examen!: El directorio oficial sitúa el Colegio Público Pedro Melendo en Camino del Arenal, 7.",
+      "referencia": "Directorio municipal, instalaciones educativas",
+      "respuestaLiteral": "Camino del Arenal, 7"
     },
     {
       "id": "OLIAS-T13-008",
@@ -111,9 +118,10 @@
         "San Francisco"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El área deportiva cita pista pádel Las Lomas en Calle Petunia.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: El área deportiva cita pista pádel Las Lomas en Calle Petunia.",
-      "referencia": "Web municipal Deportes"
+      "justificacion": "La relación municipal de instalaciones vincula Calle Petunia con la zona Las Lomas, sin demostrar todo el callejero de la zona.",
+      "trampaExamen": "¡Foco Examen!: La relación municipal de instalaciones vincula Calle Petunia con la zona Las Lomas, sin demostrar todo el callejero de la zona.",
+      "referencia": "Ayuntamiento de Olías del Rey, instalaciones deportivas por zonas",
+      "respuestaLiteral": "Las Lomas"
     },
     {
       "id": "OLIAS-T13-009",
@@ -125,9 +133,10 @@
         "Zona de casco de Ayuntamiento"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "La Floresta incluye instalaciones deportivas en esa calle.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: La Floresta incluye instalaciones deportivas en esa calle.",
-      "referencia": "Web municipal Deportes"
+      "justificacion": "La referencia municipal de zona La Floresta incluye equipamiento en la Calle Cañada de Magán.",
+      "trampaExamen": "¡Foco Examen!: La referencia municipal de zona La Floresta incluye equipamiento en la Calle Cañada de Magán.",
+      "referencia": "Ayuntamiento de Olías del Rey, instalaciones deportivas por zonas",
+      "respuestaLiteral": "La Floresta"
     },
     {
       "id": "OLIAS-T13-010",
@@ -139,9 +148,10 @@
         "Ayuntamiento y Policía Local"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Se citan en la plaza.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: Se citan en la plaza.",
-      "referencia": "Directorio municipal"
+      "justificacion": "El Ayuntamiento y la Policía Local figuran en Plaza Constitución, 1; no atribuir por ello igual ubicación a cualquier otro servicio.",
+      "trampaExamen": "¡Foco Examen!: El Ayuntamiento y la Policía Local figuran en Plaza Constitución, 1; no atribuir por ello igual ubicación a cualquier otro servicio.",
+      "referencia": "Directorio oficial municipal, Administración y Cuerpos de Seguridad",
+      "respuestaLiteral": "Ayuntamiento y Policía Local"
     },
     {
       "id": "OLIAS-T13-011",
@@ -153,9 +163,10 @@
         "28901"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Figura 45280 en cabecera municipal.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: Figura 45280 en cabecera municipal.",
-      "referencia": "Web oficial Olías"
+      "justificacion": "La sede del Ayuntamiento de Olías del Rey publica el código postal 45280 junto a Plaza de la Constitución, 1.",
+      "trampaExamen": "¡Foco Examen!: La sede del Ayuntamiento de Olías del Rey publica el código postal 45280 junto a Plaza de la Constitución, 1.",
+      "referencia": "Sitio oficial municipal, dirección del Ayuntamiento",
+      "respuestaLiteral": "45280"
     },
     {
       "id": "OLIAS-T13-012",
@@ -167,9 +178,17 @@
         "No enumerado en el BOP; requiere cartografía municipal vigente"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El BOP exige materia pero no adjunta callejero completo.",
-      "trampaExamen": "No sustituir prueba oficial por suposición: El BOP exige materia pero no adjunta callejero completo.",
-      "referencia": "BOP 4833 Anexo II; Urbanismo municipal"
+      "justificacion": "El epígrafe del BOP exige callejero, pero no presenta listado íntegro de vías; el directorio de servicios no acredita la exhaustividad del callejero.",
+      "trampaExamen": "¡Foco Examen!: El epígrafe del BOP exige callejero, pero no presenta listado íntegro de vías; el directorio de servicios no acredita la exhaustividad del callejero.",
+      "referencia": "BOP Toledo 204/2026, anexo II; web municipal «Situación y Callejero»",
+      "respuestaLiteral": "No enumerado en el BOP; requiere cartografía municipal vigente"
     }
-  ]
+  ],
+  "controlFocal20261108": {
+    "revisadas": 12,
+    "alternativas": 48,
+    "clavesModificadas": 0,
+    "discrepanciasPortalesIdentificadas": true,
+    "callejeroIntegroAcreditado": false
+  }
 }
