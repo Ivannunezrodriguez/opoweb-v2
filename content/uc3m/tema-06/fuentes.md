@@ -35,3 +35,12 @@ Para esta convocatoria de UC3M, la **base primera.7 del BOE-A-2026-14624** estab
 **Vigencia y alcance:** la consolidación del BOE es informativa; en el examen UC3M debe aplicarse la redacción vigente conforme a la **base primera.7** de la convocatoria, cuya fecha exacta de publicación de las listas definitivas/anuncio no se ha acreditado con documento primario. Este cotejo de artículos críticos es **focal**, no certificación íntegra de todos los artículos ni del navegador/PWA.
 
 > ⚠️ **¡Foco Examen!:** El dato decisivo suele ser el **supuesto legal y su excepción**, no memorizar el número sin el órgano, el procedimiento y la unidad temporal.
+
+
+## Cierre de desarrollo del temario — **08/11/2026**
+
+**Fuentes primarias verificadas:** [**LOPDGDD arts. 34 y 37 y RGPD arts. 12 y 33**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) y [**RGPD**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa). Se desarrollaron **6 apartados**, se añadieron **2 supuestos de examen resueltos** y se preservó el banco de **12 preguntas / 48 alternativas** previamente cotejado. Casuística: Plazos diferenciados de responsable y DPD; notificación de brecha en condiciones del artículo 33 RGPD.
+
+**Reserva de rigor:** `EN_REVISION_USUARIO` no significa aprobado. La **base primera.7 de UC3M** fija el corte de legislación en la publicación de la resolución de listas definitivas que anuncia el ejercicio; sigue sin acreditarse con documento primario la fecha exacta de publicación. Se declara **desarrollo documental terminado con esa reserva**, no cierre de vigencia/certificación funcional integral.
+
+> ⚠️ **¡Foco Examen!:** **Responsable** y **DPD** tienen obligaciones y plazos distintos: **1 mes ampliable 2**, **2 meses** y **1 mes** respectivamente según el procedimiento.
