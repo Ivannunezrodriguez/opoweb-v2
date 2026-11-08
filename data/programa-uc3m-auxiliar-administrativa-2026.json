@@ -1,6 +1,6 @@
 {
   "id": "uc3m-auxiliar-administrativa-c2-2026",
-  "version": "2026-07-23",
+  "version": "2026-11-08",
   "estado": "HOMOGENEIZACION_FORMATO",
   "convocatoria": {
     "entidad": "Universidad Carlos III de Madrid",
@@ -72,7 +72,14 @@
       "manual": "content/uc3m/tema-01/manual.md",
       "fuentes": "content/uc3m/tema-01/fuentes.md",
       "matriz": "content/uc3m/tema-01/matriz.json",
-      "preguntas": "content/uc3m/tema-01/preguntas.json"
+      "preguntas": "content/uc3m/tema-01/preguntas.json",
+      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
+      "revisadoEl": "2026-11-08",
+      "reservas": [
+        "Fecha oficial del corte normativo de base primera.7 no verificada documentalmente",
+        "Aprobación del usuario pendiente",
+        "Ejecución funcional integral pendiente"
+      ]
     },
     {
       "numero": 2,
@@ -82,7 +89,14 @@
       "manual": "content/uc3m/tema-02/manual.md",
       "fuentes": "content/uc3m/tema-02/fuentes.md",
       "matriz": "content/uc3m/tema-02/matriz.json",
-      "preguntas": "content/uc3m/tema-02/preguntas.json"
+      "preguntas": "content/uc3m/tema-02/preguntas.json",
+      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
+      "revisadoEl": "2026-11-08",
+      "reservas": [
+        "Fecha oficial del corte normativo de base primera.7 no verificada documentalmente",
+        "Aprobación del usuario pendiente",
+        "Ejecución funcional integral pendiente"
+      ]
     },
     {
       "numero": 3,
@@ -92,7 +106,14 @@
       "manual": "content/uc3m/tema-03/manual.md",
       "fuentes": "content/uc3m/tema-03/fuentes.md",
       "matriz": "content/uc3m/tema-03/matriz.json",
-      "preguntas": "content/uc3m/tema-03/preguntas.json"
+      "preguntas": "content/uc3m/tema-03/preguntas.json",
+      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
+      "revisadoEl": "2026-11-08",
+      "reservas": [
+        "Fecha oficial del corte normativo de base primera.7 no verificada documentalmente",
+        "Aprobación del usuario pendiente",
+        "Ejecución funcional integral pendiente"
+      ]
     },
     {
       "numero": 4,
