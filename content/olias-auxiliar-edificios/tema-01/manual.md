@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 1 (General 1) · Comunidades Autónomas, Jefatura del Estado y Gobierno
 
-**Estado editorial: EN_AUDITORIA.** Edición inicial **04/11/2026**. Programa oficial **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, página **58**.
+**Estado editorial: AUDITADO documental (08/11/2026), con reserva de validación funcional.** Edición inicial **04/11/2026**. Programa oficial **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, página **58**.
 
 ## 1. Epígrafe oficial literal
 > **Tema general 1. La Constitución Española de 1978: Las Comunidades Autónomas, la Jefatura del Estado y el Gobierno de la Nación.**
@@ -96,8 +96,28 @@ Los **Ministros** son nombrados y separados por el **Rey a propuesta del Preside
 - El Congreso rechaza la primera investidura: se celebra votación pasadas **48 horas** y la mayoría exigida pasa de **absoluta** a **simple**.
 - Una Comunidad Autónoma tiene autonomía administrativa y financiera: **no posee soberanía originaria** distinta de la del pueblo español.
 
-## 9. Fuentes
+## 9. Supuestos prácticos de examen
+
+### Supuesto 1. Investidura sin mayoría absoluta
+
+El candidato a Presidente del Gobierno no obtiene la **mayoría absoluta** en la primera votación. La misma propuesta se vota **48 horas después**, y basta la **mayoría simple**. Si transcurren **2 meses desde la primera votación** sin candidato investido, el **Rey** disuelve **ambas Cámaras** y convoca elecciones con refrendo del **Presidente del Congreso** (**CE, art. 99**).
+
+| Momento | Regla |
+|---|---|
+| Primera votación | **Mayoría absoluta** |
+| Segunda votación | **48 horas después**, **mayoría simple** |
+| Bloqueo | **2 meses desde la primera votación** |
+
+> ⚠️ **¡Foco Examen!:** El plazo de **2 meses** no se computa desde la última propuesta ni desde la fecha de las elecciones.
+
+### Supuesto 2. Estatuto autonómico y ley estatal
+
+Una pregunta confunde las competencias asumibles por las Comunidades Autónomas con las exclusivas del Estado. El **art. 147 CE** define los **Estatutos** como normas institucionales básicas; el **art. 148** enumera materias asumibles por las CCAA y el **art. 149** recoge materias exclusivas del Estado. La autonomía reconocida en el **art. 2** no atribuye soberanía separada.
+
+> ⚠️ **¡Foco Examen!:** **Autonomía no es soberanía**; tampoco cabe invertir el contenido de los **arts. 148 y 149**.
+
+## 10. Fuentes
 - [**Constitución Española consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), en particular **arts. 1–2, 56–65, 97–102, 108, 137, 143–158**. Última reforma publicada el **20/05/2026**.
 - **BOP Toledo nº 204, anuncio 4833, de 23/10/2026**, epígrafe general **1**, Anexo II p. **58**, código **2026.00004833**.
 
-**Control editorial:** primera revisión **04/11/2026**; queda pendiente una comprobación jurídica de detalle de competencias y controles autonómicos antes de cambiar el estado a **AUDITADO**.
+**Cierre documental 08/11/2026:** cuatro incisos del programa, doce preguntas del banco ya contrastado y dos supuestos resueltos. Se mantiene pendiente prueba integral de navegador y CI, sin presumir que la Constitución exige conocer toda materia ajena al epígrafe.
