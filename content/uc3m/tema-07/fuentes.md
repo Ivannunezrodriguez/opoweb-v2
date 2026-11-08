@@ -47,3 +47,10 @@
 **Vigencia y alcance:** la consolidación del BOE es informativa; en el examen UC3M debe aplicarse la redacción vigente conforme a la **base primera.7** de la convocatoria, cuya fecha exacta de publicación de las listas definitivas/anuncio no se ha acreditado con documento primario. Este cotejo de artículos críticos es **focal**, no certificación íntegra de todos los artículos ni del navegador/PWA.
 
 > ⚠️ **¡Foco Examen!:** El dato decisivo suele ser el **supuesto legal y su excepción**, no memorizar el número sin el órgano, el procedimiento y la unidad temporal.
+
+
+## Desarrollo de contenido terminado — **08/11/2026**
+
+**Cobertura documental:** **5 bloques**, dos nuevos supuestos resueltos en manual y las **12 preguntas/48 alternativas originales** preservadas. [Ley 10/2019, arts. 40–43](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102): acceso **20 días**, ampliación **20 días**, inadmisión **5 días hábiles** en las causas pertinentes.
+
+**Estado:** desarrollo completo con reserva de corte normativo **base primera.7 UC3M** y aprobación del usuario no otorgada. **No** se certifican ejecución en navegador ni exactitud de entornos instalados.
