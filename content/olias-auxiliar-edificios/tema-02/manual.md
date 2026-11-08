@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 2: Administración Pública y municipio; Hacienda Pública
 
-**Estado editorial:** EN_AUDITORIA · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**p. 58**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
+**Estado editorial:** AUDITADO documental (08/11/2026), con reserva funcional · **Edición:** 04/11/2026. **Programa:** BOP de Toledo **204/2026**, anuncio **2026/4833**, Anexo II (**p. 58**). **Los detalles externos al BOP son desarrollo pedagógico/normativo, no texto de las bases.**
 
 ## 1. Epígrafe oficial literal
 
@@ -85,10 +85,31 @@ El **art. 2 del texto refundido de la Ley Reguladora de las Haciendas Locales** 
 
 **Supuesto:** ante una incidencia en el edificio municipal que afecte a una persona, un equipo o un procedimiento, identifica **competencia del auxiliar, comunicación al responsable, protección de datos y seguridad**, sin inventar atribuciones. La solución ha de basarse en las reglas del tema, el **procedimiento municipal autorizado** y las normas indicadas.
 
+## 8. Supuestos prácticos de examen
+
+### Supuesto 1. Órganos municipales y población
+
+Un municipio tiene exactamente **5.000 habitantes**. La **Junta de Gobierno Local** no resulta obligatoria por la regla poblacional del **art. 20.1.b LRBRL**, que exige población **superior a 5.000**; puede existir en municipios de menos habitantes si así lo establece el **reglamento orgánico** o lo acuerda el **Pleno**. **Alcalde, Tenientes de Alcalde y Pleno** existen en todos los Ayuntamientos conforme al art. 20.1.a.
+
+> ⚠️ **¡Foco Examen!:** **Más de 5.000** no significa **5.000 o más**. Distinguir obligación por población de posibilidad por acuerdo o reglamento.
+
+### Supuesto 2. Recaudación de tasa y precio público
+
+Una oficina municipal denomina «impuesto» a un pago por un servicio individualizado y «tasa» a cualquier precio de una actividad. **Respuesta:** identificar primero el **hecho imponible** y las condiciones legales; **impuestos, tasas y contribuciones especiales** son tributos, pero el **precio público** es una categoría distinta del tributo. La mera denominación del recibo no determina el régimen jurídico.
+
+| Categoría | Naturaleza |
+|---|---|
+| **Impuesto** | Tributo sin contraprestación individualizada |
+| **Tasa** | Tributo por hecho imponible legalmente tasado |
+| **Contribución especial** | Tributo asociado a beneficio/aumento de valor |
+| **Precio público** | Ingreso **no tributario** |
+
+> ⚠️ **¡Foco Examen!:** El **precio público** no se convierte en impuesto por cobrarse en un Ayuntamiento.
+
 ## Fuentes jurídicas y alcance
 
 - [**Ley 7/1985, régimen local**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) — arts. 1, 3, 11, 19-22, 25-26.
 - [**Constitución de 1978**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229) — arts. 103, 137, 140 y 142.
 - [**RDL 2/2004, haciendas locales**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) — arts. 2 y 59.
 
-**Control pendiente:** revisión integral de aplicación municipal y de distractores. La correcta estructura y los test no convierten este tema en «AUDITADO».
+**Cierre documental 08/11/2026:** cuatro incisos, diez preguntas contrastadas y dos supuestos resueltos; las competencias internas del Ayuntamiento concreto y la validación funcional siguen pendientes.
