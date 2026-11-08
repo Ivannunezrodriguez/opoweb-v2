@@ -3519,3 +3519,22 @@ Se siguió el orden expresamente fijado: **primero Olías T13**, después **Dipu
 - **Manifiesto**: `data/programa-uc3m-auxiliar-administrativa-2026.json` actualizado para **T13–T14** con reservas de la auditoría previa y fuente. Commit `0a2850dfd84d692077775cecbc134fff6b457c74`.
 
 **Totales sin doble contar:** UC3M **15/20 desarrollados bajo reserva (75 %)**, **0/20 aprobados/recertificados**, con cinco temas `T16–T20` sin marca de desarrollo completo en el manifiesto aunque existan avances previos; se revisarán individualmente a continuación. Global estricto `AUDITADO` contemporáneo **79/121**, sumando históricos La Puebla **98/121**, y **0/121 certificaciones integrales**. Persisten pruebas funcionales E2E, WCAG/PWA y la fecha de publicación de las listas definitivas que exige la **base primera.7 UC3M**. No se ha ejecutado CI en esta intervención.
+
+
+## 169. UC3M T16–T20 · reconciliación de desarrollo documental y caso judicial — **08/11/2026**
+
+Se recuperaron directamente de GitHub las **cinco actas de cierre documental con reservas** de **06/11/2026**, sus matrices y fuentes por tema. Los temas **16, 17, 18, 19 y 20** constaban con material disponible pero sin el campo `estadoRevisionDocumental` en el manifiesto. Se registran ahora como **DESARROLLO_COMPLETO_CON_RESERVA_CORTE**. **20/20** UC3M alcanzan **desarrollo documental con reservas**; continúan **20/20 EN_REVISION_USUARIO** y **0/20 aprobados/certificados integralmente**. Esto es conciliación de evidencias previas, no nueva auditoría jurídica de cada página. [Commit de manifiesto](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/40dbc6e96a22c156ce4882df733aea733c0eaee4).
+
+| Tema | Evidencia documental de 06/11 | Controles aún pendientes |
+|---|---|---|
+| **16** | **7 bloques**, **21 originales + 6 complementarias** | Corte normativo; RD 822/2021 y sentencia; navegador |
+| **17** | **9 bloques**, **12 originales + 6 complementarias** | Corte y normativa institucional; navegador |
+| **18** | **8 bloques**, **12 originales + 8 complementarias** | Corte y presupuesto; navegador |
+| **19** | **6 bloques**, **12 originales + 3 complementarias** | Corte y ejecución presupuestaria; navegador |
+| **20** | **10 bloques**, **12 originales + 5 complementarias** | Corte y umbrales de contratación; navegador |
+
+**Ampliación nueva real T16:** [manual](content/uc3m/tema-16/manual.md), [fuentes](content/uc3m/tema-16/fuentes.md) y [matriz](content/uc3m/tema-16/matriz.json) incorporan tabla, supuesto y fuente primaria sobre la **Sentencia TS 06/10/2026 publicada BOE 23/10/2026** [BOE-A-2026-22083](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083), que **anula RD 905/2025** y su reforma de **art. 22.4 RD 822/2021**, **no RD 822/2021 íntegro**. Commits `f1482abf8036c5eb99a24764b6d2f9eed6c1cd86`, `e5c7f662032f28f34934ffe0ea07db9b86756970`, `2278ba9e729cb0aebeb2c6e9caaab656ebad15f3`.
+
+**Fuente oficial de procedimiento consultada:** [UC3M oposición C2 2026](https://uc3m.es/empleo/en/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) muestra publicación de listas definitivas y llamamiento a ejercicio **21/11/2026**, pero la consulta no permitió verificar la fecha de publicación exacta en el PDF de la resolución definitiva. La **base primera.7** exige esa fecha para determinar la norma exigible. **No convertir fecha de examen en fecha normativa ni aplicar sin control la sentencia de 23/10**.
+
+**Barras preservadas:** Olías **21/22 AUDITADO** y T13 bloqueado; Diputación C1 **39/40 AUDITADO** y T22 bloqueado; UC3M **20/20 DESARROLLO_COMPLETO_CON_RESERVA_CORTE**, pero **0/20 AUDITADO/APROBADO**. Total documental estricto de otros programas **79/121**, suma de La Puebla histórica **98/121**; cero certificaciones integrales de todas las convocatorias. **Próximo punto:** localizar PDF primario de resolución definitiva UC3M; cotejar redacción legal al corte, verificar navegabilidad real y pruebas E2E/CI antes de hablar de 100 % fiable. No repetir edición de material ya comprobado salvo error real o reforma.
