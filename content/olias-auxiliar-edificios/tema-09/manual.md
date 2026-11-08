@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 9 · Correspondencia, distribución y servicios postales
 
-**Estado editorial: EN_AUDITORIA.** Primera edición **04/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
+**Estado editorial: AUDITADO documental (08/11/2026), con reservas locales y funcionales.** Primera edición **04/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,12 +8,12 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Referencia | Exigencia |
+| Inciso del programa | Fuente aplicable | Contenido exigible |
 |---|---|---|
-| Distribución interna de documentos y objetos | Ley 43/2010, servicio postal | Reglas, componentes y diferencias |
-| Tipos de envío y franqueo | RD 437/2024, Reglamento postal | Reglas, componentes y diferencias |
-| Entrega y recepción de cartas certificadas | RGPD | Reglas, componentes y diferencias |
-| Servicios postales, tarifas y cambios normativos | RGPD | Reglas, componentes y diferencias |
+| Distribución interna de documentos | **Procedimiento municipal**; **RGPD art. 5.1.c/f** para datos | Recepción, custodia, clasificación, entrega, diferencia con registro |
+| Tipos de envío y franqueo | **RD 437/2024 art. 14** | Franqueo como pago, servicios y precios variables |
+| Entrega de certificados | **RD 437/2024 art. 20** | Firma del destinatario o autorizado; documentación de excepciones |
+| Servicios, tarifas y normas transitorias | **Ley 43/2010**; **RD 437/2024, DT única**; **Ley 39/2015 arts. 40 y ss.** | Diferenciar envío certificado y notificación administrativa; tarifas según modalidad |
 
 ## 3. Distribución interna de documentos y objetos
 
@@ -76,7 +76,23 @@ Para una pregunta de tarifas se comprobará la **tarifa oficial del producto pos
 
 ## 7. Ejercicio integrado
 
-**Supuesto:** durante un turno en edificio público se detecta una incidencia vinculada con el contenido del tema. La respuesta debe identificar **riesgo y competencia**, proteger a los usuarios, registrar lo imprescindible y avisar al órgano o técnico correspondiente. **No realizar intervenciones peligrosas sin atribuciones, formación y autorización.**
+### Supuesto 1. Envío certificado y documento interno
+
+El conserje recibe un certificado dirigido a una unidad y una solicitud en sobre cerrado que un visitante pretende dejar en el mostrador «para que ya conste presentada». **Respuesta:** para el envío postal certificado, comprobar autorización de la persona receptora y formalizar la **firma** cuando corresponda (**RD 437/2024 art. 20**). Para la solicitud, orientar al **registro administrativo habilitado**; recibir un sobre sin esa función no genera por sí solo asiento registral. Mantener custodia y destinatario correctos.
+
+> ⚠️ **¡Foco Examen!:** **Certificado postal** no es sinónimo de **notificación administrativa** ni de **registro de entrada**. Son operaciones y regímenes distintos.
+
+### Supuesto 2. Tarifa y notificación administrativa
+
+Una unidad pregunta si una carta de distinto peso y destino cuesta siempre igual y si el **RD 1829/1999** quedó derogado íntegramente para las notificaciones de las Administraciones. **Respuesta:** el precio postal depende de **producto, peso, dimensiones, destino y servicios adicionales** y se consulta en tarifa del operador vigente. El **RD 437/2024, disposición transitoria única**, conserva **transitoriamente la sección segunda del capítulo II del título II del reglamento aprobado por RD 1829/1999** para admisión y entrega de **notificaciones de las Administraciones**, hasta que se apruebe desarrollo normativo previsto en **arts. 40 y siguientes de Ley 39/2015**.
+
+| Modalidad | Característica central |
+|---|---|
+| **Carta ordinaria** | Entrega sin constancia propia de certificado |
+| **Envío certificado** | **Firma de destinatario o autorizado**, conforme a art. 20 |
+| **Notificación administrativa** | Requiere régimen propio; subsistencia transitoria delimitada |
+
+> ⚠️ **¡Foco Examen!:** La **disposición derogatoria** del RD 437/2024 tiene una **salvedad transitoria**. No afirmar que desaparecieron todas las reglas del RD 1829/1999 sin excepción.
 
 ## Fuentes, delimitación y revisión
 
@@ -84,4 +100,4 @@ Para una pregunta de tarifas se comprobará la **tarifa oficial del producto pos
 - [**RD 437/2024, Reglamento postal**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-10010) — arts. 14 y 17-22.
 - [**RGPD**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) — art. 5.
 
-La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. Tema en auditoría editorial, no certificado jurídicamente de forma integral.
+La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. **Cierre documental 08/11/2026:** incisos del programa cotejados, dos casos concretos resueltos y diez preguntas justificadas. Protocolos municipales, tarifas del operador y funcionamiento web no certificados.
