@@ -203,3 +203,29 @@ La delegación del ejercicio no altera la **titularidad de la competencia**; tam
 [**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
 
 > ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
+
+
+## 17. Casos de examen resueltos: competencias y órganos colegiados — **08/11/2026**
+
+### Supuesto 1. Delegación, avocación y firma
+
+Un **órgano A** delega la resolución de una materia delegable en **B**. La resolución adoptada por delegación se entiende dictada por el **órgano delegante A** (**art. 9.4 Ley 40/2015**) y deberá hacer constar esta circunstancia. Si después se avoca un asunto, el acuerdo de avocación será **motivado** (**art. 10.2**). Cuando la delegación se hizo entre órganos no dependientes jerárquicamente, solo puede avocar el órgano **delegante** (**art. 10.1**). La **delegación de firma** no altera competencia ni requiere publicación para su validez (**art. 12**).
+
+| Figura | Efecto sobre la competencia | Formalidad que suele caer |
+|---|---|---|
+| **Delegación de competencias** | Transfiere ejercicio, no titularidad | **Publicación** en diario oficial |
+| **Avocación** | El superior, o delegante en supuestos legales, asume un asunto | **Acuerdo motivado** |
+| **Delegación de firma** | No altera competencia | No requiere publicación |
+| **Encomienda de gestión** | Solo actividades materiales o técnicas | No cede elementos sustantivos de potestad |
+
+> ⚠️ **¡Foco Examen!:** **La resolución delegada se considera dictada por A**, aunque materialmente la haya firmado **B**. La encomienda de gestión no puede trasladar la potestad de resolver.
+
+### Supuesto 2. Quórum y asunto fuera del orden del día
+
+Un órgano colegiado tiene **10 miembros**, además de las funciones de **Presidencia** y **Secretaría** cuando correspondan. Para sesionar válidamente debe asistir, de modo presencial o a distancia, **Presidencia y Secretaría (o suplentes)** y **al menos la mitad de sus miembros**, conforme al **art. 17.2**. Un asunto **no incluido en el orden del día** únicamente puede deliberarse si **asisten todos los miembros** y se declara su urgencia por **mayoría** (**art. 17.4**). Los acuerdos ordinarios se adoptan por **mayoría de votos** (**art. 17.5**), sin perjuicio de reglas especiales.
+
+> ⚠️ **¡Foco Examen!:** **Quórum para sesionar** no es igual a **unanimidad de asistencia para introducir un asunto no previsto**. Presencia de todos no exige voto unánime de urgencia: basta **mayoría**.
+
+**Fuente primaria:** [**Ley 40/2015, arts. 8–17 y 23–24**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566).
+
+**Resultado:** desarrollado el contenido de los **siete bloques** del programa y añadidos **dos casos resueltos**. El banco histórico de **12 preguntas/48 alternativas** permanece sin modificar claves. Se reserva la fecha de corte exigida por la **base primera.7 UC3M**, aprobación del usuario y navegación integral.
