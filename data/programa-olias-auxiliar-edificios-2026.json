@@ -1,7 +1,7 @@
 {
   "id": "olias-del-rey-auxiliar-edificios-c2-2026",
   "project": "opoweb-v2",
-  "version": "2026-11-04",
+  "version": "2026-11-08",
   "estado": "EN_AUDITORIA",
   "convocatoria": {
     "nombre": "Olías del Rey · Auxiliar de edificios e instalaciones C2",
@@ -188,22 +188,26 @@
       "numeroEnBloque": 6,
       "bloque": "especifica",
       "titulo": "Manejo de máquinas reproductoras, fotocopiadoras, encuadernadoras y otras análogas.",
-      "estado": "EN_AUDITORIA",
+      "estado": "AUDITADO",
       "manual": "content/olias-auxiliar-edificios/tema-11/manual.md",
       "fuentes": "content/olias-auxiliar-edificios/tema-11/fuentes.md",
       "matriz": "content/olias-auxiliar-edificios/tema-11/matriz.json",
-      "preguntas": "content/olias-auxiliar-edificios/tema-11/preguntas.json"
+      "preguntas": "content/olias-auxiliar-edificios/tema-11/preguntas.json",
+      "auditadoEl": "2026-11-08",
+      "reserva": "Cierre documental; prueba funcional E2E y protocolos de centro no certificados"
     },
     {
       "numero": 12,
       "numeroEnBloque": 7,
       "bloque": "especifica",
       "titulo": "Máquinas auxiliares. Uso y mantenimiento. Mobiliario, instalaciones y locales. Preparación de salas de reuniones.",
-      "estado": "EN_AUDITORIA",
+      "estado": "AUDITADO",
       "manual": "content/olias-auxiliar-edificios/tema-12/manual.md",
       "fuentes": "content/olias-auxiliar-edificios/tema-12/fuentes.md",
       "matriz": "content/olias-auxiliar-edificios/tema-12/matriz.json",
-      "preguntas": "content/olias-auxiliar-edificios/tema-12/preguntas.json"
+      "preguntas": "content/olias-auxiliar-edificios/tema-12/preguntas.json",
+      "auditadoEl": "2026-11-08",
+      "reserva": "Cierre documental; prueba funcional E2E y protocolos de centro no certificados"
     },
     {
       "numero": 13,
