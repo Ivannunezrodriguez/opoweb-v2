@@ -243,5 +243,20 @@
     "bancoOriginalModificado": false,
     "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA",
     "certificacionIntegral": false
+  },
+  "controlTrazabilidadBanco20261108": {
+    "fecha": "2026-11-08",
+    "preguntas": 21,
+    "alternativas": 84,
+    "referencesBeforeURL": 7,
+    "referencesAfterURL": 21,
+    "referenciasReparadas": 14,
+    "idsDuplicados": 0,
+    "respuestasInvalidas": 0,
+    "clavesModificadas": false,
+    "alternativasModificadas": false,
+    "metodo": "Inspección estructural de JSON y ampliación documental; no cotejo sustantivo íntegro",
+    "corteNormativo": "PENDIENTE",
+    "certificacionIntegral": false
   }
 }
