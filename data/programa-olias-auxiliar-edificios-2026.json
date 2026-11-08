@@ -303,11 +303,13 @@
       "numeroEnBloque": 15,
       "bloque": "especifica",
       "titulo": "Jardinería. Conocimiento, manejo y mantenimiento de herramienta básica de jardinería (tijeras de poda, cortacésped, escarificadora, desbrozadora, cortasetos, azadas, palas, rastrillos y otras herramientas). Operaciones básicas de mantenimiento de jardines (colocación de aspersores, regulación y puesta en funcionamiento, conservación de riego, limpieza, calendario de labores de conservación de jardines) Conocimientos básicos de aplicación de productos para el jardín (abono, insecticidas, planificación de fertilización, buenas prácticas ambientales en el uso de productos fitosanitarios)",
-      "estado": "EN_AUDITORIA",
+      "estado": "AUDITADO",
       "manual": "content/olias-auxiliar-edificios/tema-20/manual.md",
       "fuentes": "content/olias-auxiliar-edificios/tema-20/fuentes.md",
       "matriz": "content/olias-auxiliar-edificios/tema-20/matriz.json",
-      "preguntas": "content/olias-auxiliar-edificios/tema-20/preguntas.json"
+      "preguntas": "content/olias-auxiliar-edificios/tema-20/preguntas.json",
+      "auditadoEl": "2026-11-08",
+      "reserva": "Cierre documental; protocolos de uso de fitosanitarios y ubicación de riego municipal pendientes, E2E/CI no certificados"
     },
     {
       "numero": 21,
