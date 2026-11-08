@@ -318,3 +318,29 @@ El **artículo 91 TREBEP** no fija un plazo único general de reingreso para tod
 [**Acta de cierre conjunta con reservas**](../CIERRE_DOCUMENTAL_T10_T11_20261106.md). El banco histórico de este tema conserva **12 preguntas / 48 alternativas** cotejadas individualmente en [**el informe de distractores**](cotejo-integral-2026-11-04.md), y se ha comprobado su correspondencia con el manual, matriz y preguntas complementarias del lote. Se han enlazado los artículos exactos del BOE para las preguntas del refuerzo; no se altera ningún identificador ni clave histórica.
 
 > ⚠️ **¡Foco Examen!:** La fecha normativa de la **base primera.7 UC3M** es la de publicación de la **resolución definitiva de admitidos y anuncio**, pendiente de verificar en documento primario; no es automáticamente el examen **21/11/2026**. Las reglas **AGE** del **RD 364/1995** tampoco sustituyen bases particulares de **UC3M**.
+
+
+## Casos prácticos añadidos — **08/11/2026**
+
+### Supuesto 1. Interinidad por acumulación de tareas
+
+Un departamento universitario plantea nombrar a un interino por acumulación durante **9 meses** dentro de un intervalo de **18 meses**. El **TREBEP art. 10.1.d**, en su versión vigente, permite nombramientos por exceso o acumulación de tareas por un máximo de **9 meses dentro de 18**; no debe aplicarse la antigua fórmula de **6 meses en 12**, que corresponde a redacciones anteriores.
+
+| Causa de interinidad del TREBEP | Límite legal básico |
+|---|---|
+| **Vacante** | **Hasta 3 años** con particularidades del **art. 10.4** |
+| **Sustitución** | Tiempo estrictamente necesario |
+| **Programa temporal** | **3 años**, ampliables hasta **12 meses** por ley autonómica de desarrollo |
+| **Acumulación de tareas** | **9 meses dentro de 18** |
+
+> ⚠️ **¡Foco Examen!:** La redacción **6 meses en 12** es histórica. Para el TREBEP vigente a la fecha contrastada, la respuesta es **9 en 18**.
+
+### Supuesto 2. Comisión de servicios y excedencia
+
+Una persona funcionaria de carrera de una universidad solicita cambiar de puesto temporalmente. **Comisión de servicios** describe una técnica de provisión temporal; no implica, por sí misma, pérdida de la condición de funcionario. En cambio, una **excedencia voluntaria** es una **situación administrativa** y sus efectos de reserva y reingreso dependen de su modalidad y norma aplicable. No intercambiar provisión, carrera y situaciones administrativas.
+
+> ⚠️ **¡Foco Examen!:** **Provisión de puesto** no es sinónimo de **adquisición de condición funcionarial** ni de **situación administrativa**.
+
+**Fuentes:** [**TREBEP, arts. 10, 62–68 y 85–91**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719).
+
+**Control:** revisión de los **11 bloques** de la matriz y dos casos nuevos; se conserva banco previo **12 preguntas/48 alternativas**, aprobado por el usuario **no acreditado**. Corte legal primario UC3M y E2E pendientes.
