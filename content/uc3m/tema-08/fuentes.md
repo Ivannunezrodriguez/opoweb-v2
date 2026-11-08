@@ -61,3 +61,10 @@ El manual resume únicamente el contenido relacionado con el epígrafe oficial. 
 **Auditoría de ítems:** **12 nuevas preguntas/48 opciones** construidas por artículo/fuente y con distractores justificados; **12 preguntas/48 alternativas originales** con cotejo histórico de **04/11/2026** conservado. La certificación jurídica integral y las pruebas funcionales de web siguen pendientes.
 
 > ⚠️ **¡Foco Examen!:** **Artículo 51 (Administraciones Públicas)** no equivale al **55/61 (AGE)**. **Unidad de Igualdad** recibe solicitud interna de identidad de género; el cambio de nombre interno **no modifica** automáticamente documentos estatales. **Medida 1.19 = webs/documentos; 1.20 = guía/procedimiento**.
+
+
+## Desarrollo de contenido terminado — **08/11/2026**
+
+**Cobertura documental:** **13 bloques**, dos nuevos supuestos resueltos en manual y las **12 preguntas/48 alternativas originales** preservadas. [III Plan UC3M](https://www.uc3m.es/igualdad/plan-igualdad): **6 ejes**, **138 medidas**, vigencia **01/02/2025–31/01/2029**; [LO 3/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) y protocolo institucional diferenciados.
+
+**Estado:** desarrollo completo con reserva de corte normativo **base primera.7 UC3M** y aprobación del usuario no otorgada. **No** se certifican ejecución en navegador ni exactitud de entornos instalados.
