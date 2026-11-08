@@ -1,7 +1,7 @@
 {
   "tema": 20,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-04",
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
   "preguntas": [
     {
       "id": "OLIAS-T20-001",
@@ -13,9 +13,10 @@
         "Cortasetos"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Es la herramienta específica para setos.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Es la herramienta específica para setos.",
-      "referencia": "Jardinería, herramientas"
+      "justificacion": "El cortasetos está diseñado para recortar setos, mientras que el cortacésped mantiene césped y la desbrozadora trata vegetación más rústica según el equipo.",
+      "trampaExamen": "¡Foco Examen!: El cortasetos está diseñado para recortar setos, mientras que el cortacésped mantiene césped y la desbrozadora trata vegetación más rústica según el equipo.",
+      "referencia": "Manual §3, herramientas de jardinería",
+      "respuestaLiteral": "Cortasetos"
     },
     {
       "id": "OLIAS-T20-002",
@@ -27,9 +28,10 @@
         "Suelda acero"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Trabaja la capa superficial.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Trabaja la capa superficial.",
-      "referencia": "Tema 20, herramientas"
+      "justificacion": "La escarificadora elimina parte del fieltro superficial de césped y facilita aireación superficial; no equivale a una siega normal.",
+      "trampaExamen": "¡Foco Examen!: La escarificadora elimina parte del fieltro superficial de césped y facilita aireación superficial; no equivale a una siega normal.",
+      "referencia": "Manual §3, escarificación",
+      "respuestaLiteral": "Retira fieltro superficial del césped"
     },
     {
       "id": "OLIAS-T20-003",
@@ -41,9 +43,10 @@
         "Aspersión desde 30 m"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El goteo entrega agua cerca de raíces.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. El goteo entrega agua cerca de raíces.",
-      "referencia": "Tema 20, riego"
+      "justificacion": "El goteo distribuye caudales localizados cerca de la zona radicular; se distingue de aspersores y difusores que proyectan agua.",
+      "trampaExamen": "¡Foco Examen!: El goteo distribuye caudales localizados cerca de la zona radicular; se distingue de aspersores y difusores que proyectan agua.",
+      "referencia": "Manual §4, técnicas de riego",
+      "respuestaLiteral": "Goteo"
     },
     {
       "id": "OLIAS-T20-004",
@@ -55,9 +58,10 @@
         "Corta césped"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Actúa sobre un sector.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Actúa sobre un sector.",
-      "referencia": "Tema 20, riego"
+      "justificacion": "Una electroválvula abre o cierra un sector al recibir una orden del programador; programador y válvula son componentes distintos.",
+      "trampaExamen": "¡Foco Examen!: Una electroválvula abre o cierra un sector al recibir una orden del programador; programador y válvula son componentes distintos.",
+      "referencia": "Manual §4, automatización del riego",
+      "respuestaLiteral": "Abre/cierra paso de agua por orden"
     },
     {
       "id": "OLIAS-T20-005",
@@ -69,9 +73,10 @@
         "Nivel de aforo"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "Son macronutrientes.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Son macronutrientes.",
-      "referencia": "Tema 20, abonado"
+      "justificacion": "NPK son las iniciales de nitrógeno, fósforo y potasio; una formulación no implica dosis fija aplicable a cualquier planta.",
+      "trampaExamen": "¡Foco Examen!: NPK son las iniciales de nitrógeno, fósforo y potasio; una formulación no implica dosis fija aplicable a cualquier planta.",
+      "referencia": "Manual §6, nutrición vegetal",
+      "respuestaLiteral": "Nitrógeno, fósforo y potasio"
     },
     {
       "id": "OLIAS-T20-006",
@@ -83,9 +88,10 @@
         "Uso sostenible de fitosanitarios"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "Es el marco de fitosanitarios.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Es el marco de fitosanitarios.",
-      "referencia": "RD 1311/2012"
+      "justificacion": "El RD 1311/2012 establece el marco para uso sostenible de productos fitosanitarios, incluida formación y reducción de riesgos.",
+      "trampaExamen": "¡Foco Examen!: El RD 1311/2012 establece el marco para uso sostenible de productos fitosanitarios, incluida formación y reducción de riesgos.",
+      "referencia": "RD 1311/2012, art. 1 y objeto",
+      "respuestaLiteral": "Uso sostenible de fitosanitarios"
     },
     {
       "id": "OLIAS-T20-007",
@@ -97,9 +103,10 @@
         "Art. 20 Ley 7/1985"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Distingue básico y cualificado, entre otros.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Distingue básico y cualificado, entre otros.",
-      "referencia": "RD 1311/2012, art. 18"
+      "justificacion": "El artículo 18 distingue cuatro niveles de capacitación: básico, cualificado, fumigador y piloto aplicador.",
+      "trampaExamen": "¡Foco Examen!: El artículo 18 distingue cuatro niveles de capacitación: básico, cualificado, fumigador y piloto aplicador.",
+      "referencia": "RD 1311/2012, art. 18.1",
+      "respuestaLiteral": "Art. 18 RD 1311/2012"
     },
     {
       "id": "OLIAS-T20-008",
@@ -111,9 +118,10 @@
         "Sí, a partir de 16 años"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Son habilitaciones distintas.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Son habilitaciones distintas.",
-      "referencia": "RD 1311/2012"
+      "justificacion": "El permiso B de conducción no es acreditación para tratamiento fitosanitario profesional; se exige carné pertinente, con excepciones legales.",
+      "trampaExamen": "¡Foco Examen!: El permiso B de conducción no es acreditación para tratamiento fitosanitario profesional; se exige carné pertinente, con excepciones legales.",
+      "referencia": "RD 1311/2012, arts. 17, 18 y 20",
+      "respuestaLiteral": "No"
     },
     {
       "id": "OLIAS-T20-009",
@@ -125,9 +133,10 @@
         "Mejorar siempre sin límite"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "La dosis debe ajustarse.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. La dosis debe ajustarse.",
-      "referencia": "Tema 20, fertilización"
+      "justificacion": "Un exceso de fertilizante puede causar daños a raíces y contaminación por nutrientes; la aplicación debe ajustarse a suelo, especie y etiqueta.",
+      "trampaExamen": "¡Foco Examen!: Un exceso de fertilizante puede causar daños a raíces y contaminación por nutrientes; la aplicación debe ajustarse a suelo, especie y etiqueta.",
+      "referencia": "Manual §6, fertilización",
+      "respuestaLiteral": "Contaminar y dañar plantas"
     },
     {
       "id": "OLIAS-T20-010",
@@ -139,9 +148,10 @@
         "Siempre al mediodía"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "Variación estacional y biológica.",
-      "trampaExamen": "No confundir categorías, elementos o habilitación. Variación estacional y biológica.",
-      "referencia": "Tema 20, conservación"
+      "justificacion": "La fecha y intensidad de poda dependen de la especie, clima y objetivo sanitario o de formación; no hay una única época universal.",
+      "trampaExamen": "¡Foco Examen!: La fecha y intensidad de poda dependen de la especie, clima y objetivo sanitario o de formación; no hay una única época universal.",
+      "referencia": "Manual §5, mantenimiento estacional",
+      "respuestaLiteral": "Según especie, época y objetivo"
     },
     {
       "id": "OLIAS-T20-011",
@@ -153,9 +163,10 @@
         "20 de mayo de 2024"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El art.17.1 marca 26/11/2015.",
-      "trampaExamen": "No confundir fecha del Real Decreto (2012) con exigencia de carné (2015).",
-      "referencia": "RD 1311/2012, art.17.1"
+      "justificacion": "Desde el 26 de noviembre de 2015, usuarios profesionales y vendedores deben acreditar conocimientos con carné en los supuestos del artículo 17.",
+      "trampaExamen": "¡Foco Examen!: Desde el 26 de noviembre de 2015, usuarios profesionales y vendedores deben acreditar conocimientos con carné en los supuestos del artículo 17.",
+      "referencia": "RD 1311/2012, art. 17.1",
+      "respuestaLiteral": "26 de noviembre de 2015"
     },
     {
       "id": "OLIAS-T20-012",
@@ -167,9 +178,10 @@
         "Ilimitada"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "Tiene validez 10 años salvo retirada anticipada.",
-      "trampaExamen": "No es la duración del curso formativo.",
-      "referencia": "RD 1311/2012, art.20.2"
+      "justificacion": "Los carnés fitosanitarios tienen validez de diez años en todo el territorio nacional, salvo retirada anticipada conforme a norma.",
+      "trampaExamen": "¡Foco Examen!: Los carnés fitosanitarios tienen validez de diez años en todo el territorio nacional, salvo retirada anticipada conforme a norma.",
+      "referencia": "RD 1311/2012, art. 20.2",
+      "respuestaLiteral": "10 años"
     },
     {
       "id": "OLIAS-T20-013",
@@ -181,9 +193,10 @@
         "Básico"
       ],
       "respuestaCorrecta": 3,
-      "justificacion": "El art.18.1.a contempla nivel básico para auxiliar de tratamientos.",
-      "trampaExamen": "Responsables de tratamientos terrestres: nivel cualificado.",
-      "referencia": "RD 1311/2012, art.18.1.a"
+      "justificacion": "El nivel básico incluye al personal auxiliar de tratamientos terrestres o aéreos, también no agrícolas, en los supuestos legales.",
+      "trampaExamen": "¡Foco Examen!: El nivel básico incluye al personal auxiliar de tratamientos terrestres o aéreos, también no agrícolas, en los supuestos legales.",
+      "referencia": "RD 1311/2012, art. 18.1.a",
+      "respuestaLiteral": "Básico"
     },
     {
       "id": "OLIAS-T20-014",
@@ -195,9 +208,10 @@
         "Ninguno"
       ],
       "respuestaCorrecta": 0,
-      "justificacion": "El nivel cualificado se prevé para responsables de tratamientos terrestres.",
-      "trampaExamen": "El cualificado no habilita fumigación de gases/piloto automáticamente.",
-      "referencia": "RD 1311/2012, art.18.1.b"
+      "justificacion": "El nivel cualificado se dirige a responsables de tratamientos terrestres, incluidos no agrícolas, y a los supuestos de venta regulados.",
+      "trampaExamen": "¡Foco Examen!: El nivel cualificado se dirige a responsables de tratamientos terrestres, incluidos no agrícolas, y a los supuestos de venta regulados.",
+      "referencia": "RD 1311/2012, art. 18.1.b",
+      "respuestaLiteral": "Cualificado"
     },
     {
       "id": "OLIAS-T20-015",
@@ -209,9 +223,10 @@
         "Sí, si se ha abonado una tasa"
       ],
       "respuestaCorrecta": 1,
-      "justificacion": "El art.18 distingue específicamente nivel fumigador.",
-      "trampaExamen": "No equivalen nivel cualificado y fumigador.",
-      "referencia": "RD 1311/2012, art.18.1.b-c"
+      "justificacion": "El carné cualificado no habilita por sí solo para fumigación con gases clasificados peligrosos ni aplicación desde aeronaves.",
+      "trampaExamen": "¡Foco Examen!: El carné cualificado no habilita por sí solo para fumigación con gases clasificados peligrosos ni aplicación desde aeronaves.",
+      "referencia": "RD 1311/2012, art. 18.1.b–d",
+      "respuestaLiteral": "No, se necesita capacitación de fumigador en los casos correspondientes"
     },
     {
       "id": "OLIAS-T20-016",
@@ -223,9 +238,17 @@
         "Veinte días naturales"
       ],
       "respuestaCorrecta": 2,
-      "justificacion": "El art.20.1 contiene plazo supletorio de tres meses.",
-      "trampaExamen": "La CA puede establecer distinto régimen.",
-      "referencia": "RD 1311/2012, art.20.1"
+      "justificacion": "El plazo máximo para resolver y notificar es de tres meses salvo que la normativa autonómica disponga otra cosa; la solicitud se dirige a comunidad de residencia.",
+      "trampaExamen": "¡Foco Examen!: El plazo máximo para resolver y notificar es de tres meses salvo que la normativa autonómica disponga otra cosa; la solicitud se dirige a comunidad de residencia.",
+      "referencia": "RD 1311/2012, art. 20.1",
+      "respuestaLiteral": "Tres meses"
     }
-  ]
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "revisadas": 16,
+    "alternativas": 64,
+    "clavesModificadas": 0,
+    "certificacionIntegral": false
+  }
 }
