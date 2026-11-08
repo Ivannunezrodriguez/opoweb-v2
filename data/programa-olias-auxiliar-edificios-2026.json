@@ -286,11 +286,13 @@
       "numeroEnBloque": 14,
       "bloque": "especifica",
       "titulo": "Carpintería de madera. Conocimiento, manejo y mantenimiento de herramientas básicas de carpintero (martillos, sierras, formones, taladro eléctrico, lijas, colas y otras herramientas y accesorios). Operaciones básicas de carpintería (ajuste de puertas y ventanas) Cerraduras y bombines. Persianas: Tipos, mantenimiento y reparación.",
-      "estado": "EN_AUDITORIA",
+      "estado": "AUDITADO",
       "manual": "content/olias-auxiliar-edificios/tema-19/manual.md",
       "fuentes": "content/olias-auxiliar-edificios/tema-19/fuentes.md",
       "matriz": "content/olias-auxiliar-edificios/tema-19/matriz.json",
-      "preguntas": "content/olias-auxiliar-edificios/tema-19/preguntas.json"
+      "preguntas": "content/olias-auxiliar-edificios/tema-19/preguntas.json",
+      "auditadoEl": "2026-11-08",
+      "reserva": "Cierre documental, no certificación de equipos o procedimientos locales ni prueba de navegador"
     },
     {
       "numero": 20,
