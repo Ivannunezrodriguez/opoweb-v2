@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 14 · Mecánica básica y herramientas manuales
 
-**Estado editorial: EN_AUDITORIA.** Primera edición **04/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
+**Estado editorial: AUDITADO (cierre documental con reserva funcional).** Primera edición **04/11/2026**; cotejo editorial **08/11/2026**. Epígrafe obligatorio del **BOP Toledo n.º 204, 23/10/2026, anuncio 4833, Anexo II**, código de verificación **2026.00004833**.
 
 ## 1. Epígrafe oficial literal
 
@@ -8,12 +8,12 @@
 
 ## 2. Matriz de cobertura
 
-| Inciso del programa | Referencia | Exigencia |
+| Inciso del programa | Referencia aplicable | Contenido exigible |
 |---|---|---|
-| Herramientas: clasificación | RD 1215/1997, equipos | Reglas, componentes y diferencias |
-| Fijaciones y uniones | Ley 31/1995, PRL | Reglas, componentes y diferencias |
-| Taladro y sierras: prevención | Ley 31/1995, PRL | Reglas, componentes y diferencias |
-| Mantenimiento y almacenamiento de herramientas | Ley 31/1995, PRL | Reglas, componentes y diferencias |
+| Herramientas: clasificación | **Documentación técnica de herramientas**; **RD 1215/1997** para uso seguro | Martillo, destornillador, llaves y herramientas de corte/perforación |
+| Fijaciones y uniones | **Técnica de fijación**; **LPRL arts. 15 y 17** como prevención transversal | Tornillo, tuerca, perno, arandela, taco y remache; selección según soporte y carga |
+| Taladro y sierras: prevención | **RD 1215/1997, anexo II, apartados 1.3, 1.4 y 1.14** | Comprobación de instalaciones ocultas, protección y seguridad de operación |
+| Mantenimiento y almacenamiento | **RD 1215/1997, art. 3.5 y anexo II** | Retirada de herramientas dañadas y mantenimiento de riesgo solo por capacitados |
 
 ## 3. Herramientas: clasificación
 
@@ -79,11 +79,21 @@ El mantenimiento que precise intervención técnica o que implique riesgo espec�
 
 ## 7. Ejercicio integrado
 
-**Supuesto:** durante un turno en edificio público se detecta una incidencia vinculada con el contenido del tema. La respuesta debe identificar **riesgo y competencia**, proteger a los usuarios, registrar lo imprescindible y avisar al órgano o técnico correspondiente. **No realizar intervenciones peligrosas sin atribuciones, formación y autorización.**
+### Supuesto 1. Colgar una señal en pared con instalaciones ocultas
+
+Se solicita fijar un cartel en una pared del edificio, pero no se sabe si pasan conducciones eléctricas o tuberías. **Respuesta:** **no perforar** hasta disponer de autorización, identificación fiable del soporte e instalaciones ocultas y fijación adecuada a la carga. Elegir broca, taco y tornillo compatibles cuando proceda; usar taladro con protecciones y sujeción adecuada conforme a las instrucciones.
+
+> ⚠️ **¡Foco Examen!:** El hecho de disponer de **taladro** no acredita competencia ni seguridad para perforar un muro desconocido. La selección del anclaje depende del **soporte y la carga**, no solo del diámetro de la broca.
+
+### Supuesto 2. Herramienta defectuosa durante mantenimiento
+
+Antes de montar una mesa se detecta **mango de martillo suelto** y **cable de taladro dañado**. **Respuesta:** retirar ambos equipos de uso, señalizar o impedir su utilización, comunicar incidencia y utilizar material apto solo si la tarea está autorizada; no improvisar reparaciones eléctricas ni sustituir el control técnico por guantes.
+
+> ⚠️ **¡Foco Examen!:** **RD 1215/1997, art. 3.5**: el mantenimiento o reparación con **riesgo específico** corresponde a personal **especialmente capacitado**. Retirar el equipo averiado es prioritario a terminar la tarea.
 
 ## Fuentes, delimitación y revisión
 
 - [**RD 1215/1997, equipos**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824) — arts. 3-5 y anexo II.
 - [**Ley 31/1995, PRL**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — arts. 14, 15 y 17.
 
-La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. Tema en auditoría editorial, no certificado jurídicamente de forma integral.
+La normativa indicada desarrolla el epígrafe oficial; **las instrucciones internas del Ayuntamiento de Olías del Rey no se inventan**. **Cierre documental: 08/11/2026.** Se han revisado los cuatro incisos y diez preguntas originales, corregido las fuentes y sustituido el supuesto genérico por dos casos específicos. **Sin certificación integral** de navegador, CI, vigencia futura ni autorizaciones locales.
