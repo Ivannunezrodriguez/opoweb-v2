@@ -310,22 +310,26 @@
       "numeroEnBloque": 16,
       "bloque": "especifica",
       "titulo": "Albañilería. Conocimiento, manejo y mantenimiento de herramienta básica de pintura. Funciones y tareas básicas a realizar en trabajos de pintura.",
-      "estado": "EN_AUDITORIA",
+      "estado": "AUDITADO",
       "manual": "content/olias-auxiliar-edificios/tema-21/manual.md",
       "fuentes": "content/olias-auxiliar-edificios/tema-21/fuentes.md",
       "matriz": "content/olias-auxiliar-edificios/tema-21/matriz.json",
-      "preguntas": "content/olias-auxiliar-edificios/tema-21/preguntas.json"
+      "preguntas": "content/olias-auxiliar-edificios/tema-21/preguntas.json",
+      "auditadoEl": "2026-11-08",
+      "reserva": "Cierre documental con ficha técnica y protocolo del centro pendientes de verificar; E2E pendiente"
     },
     {
       "numero": 22,
       "numeroEnBloque": 17,
       "bloque": "especifica",
       "titulo": "Conocimientos de cultura general (cálculos aritméticos, nociones de gramática, geografía, etc.) y ofimática básica.",
-      "estado": "EN_AUDITORIA",
+      "estado": "AUDITADO",
       "manual": "content/olias-auxiliar-edificios/tema-22/manual.md",
       "fuentes": "content/olias-auxiliar-edificios/tema-22/fuentes.md",
       "matriz": "content/olias-auxiliar-edificios/tema-22/matriz.json",
-      "preguntas": "content/olias-auxiliar-edificios/tema-22/preguntas.json"
+      "preguntas": "content/olias-auxiliar-edificios/tema-22/preguntas.json",
+      "auditadoEl": "2026-11-08",
+      "reserva": "Cultura general abierta: cierre documental del epígrafe, no cobertura exhaustiva de todo conocimiento posible; E2E pendiente"
     }
   ]
 }
