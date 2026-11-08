@@ -59,3 +59,10 @@ Fecha de revisión editorial: 22 de julio de 2026.
 **Cautela normativa:** comparar siempre el ámbito de la norma antes de aplicar una cifra: **AGE** en el RD 364/1995, **universidades públicas** en LOSU y **Comunidad de Madrid** en la Ley 5/2025 de Hacienda. La fecha exacta de corte legal del examen UC3M depende de la publicación primaria de la resolución de listas definitivas que no se ha cotejado directamente; no confundir con el día del examen. La ampliación es **documental focal**, no certificación integral de legislación, interfaz o tests.
 
 > ⚠️ **¡Foco Examen!:** **Tribunal de RD 364/1995 = número impar y al menos 5**; el mínimo no se traslada automáticamente a Comisión Permanente o UC3M.
+
+
+## Ampliación sustantiva 08/11/2026
+
+**Desarrollados dos supuestos nuevos** y contrastado el texto legal primario: [RD 364/1995](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729) y [Ley 53/1984](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151), especialmente reconocimiento **previo** de compatibilidad para actividad privada (art. 14).
+
+**Estado:** cobertura documental de **12 apartados** con banco **12 preguntas/48 alternativas** conservado. **No** se considera aprobación del usuario ni certificación funcional; queda reserva de fecha exacta de corte legal de base primera.7 UC3M.
