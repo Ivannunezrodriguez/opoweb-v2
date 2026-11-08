@@ -2,7 +2,7 @@
   "tema": 1,
   "numeroEnBloque": 1,
   "bloque": "general",
-  "estado": "EN_AUDITORIA",
+  "estado": "AUDITADO",
   "epigrafeOficial": "La Constitución Española de 1978: Las Comunidades Autónomas, la Jefatura del Estado y el Gobierno de la Nación.",
   "fuente": "BOP Toledo 204/2026, anuncio 4833, Anexo II, página 58",
   "revision": "2026-11-04",
@@ -42,6 +42,12 @@
     "evidencia": "content/olias-auxiliar-edificios/cotejo-bloque-general-01-04-2026-11-05.md",
     "regresion": "tests/validate-olias-general-01-04-bank.mjs",
     "navegadorReal": "PENDIENTE",
+    "certificacionIntegral": false
+  },
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "tipo": "CIERRE_DOCUMENTAL",
+    "incisosRevisados": 4,
     "certificacionIntegral": false
   }
 }
