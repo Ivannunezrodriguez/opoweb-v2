@@ -1,6 +1,6 @@
 # Olías del Rey · Tema 15 · Electricidad básica (Específico 10)
 
-**EN_AUDITORIA, 04/11/2026.** Fuente: BOP Toledo **204**, anuncio **4833**, Anexo II, página **59**.
+**AUDITADO documental (08/11/2026), con reservas funcionales.** Primera edición **04/11/2026**. Fuente: BOP Toledo **204**, anuncio **4833**, Anexo II, página **59**.
 
 ## 1. Epígrafe oficial literal
 > **Tema específico 10. Electricidad básica. Conocimiento, manejo y mantenimiento de herramientas básicas de electricista (destornilladores, tijeras, alicates y otras herramientas). Cuadros de distribución en edificios (Interruptor de control de potencia, magnetotérmicos, diferenciales). Circuitos de sonería (pulsadores, timbres). Circuitos de alumbrado básico (interruptores, conmutadores, bases de enchufe con y sin toma de tierra, lámparas). Circuitos de alumbrado fluorescente (cebadores, reactancias, lámparas fluorescentes). Circuitos singulares (alarmas, alumbrado de emergencia)**
@@ -109,9 +109,29 @@ La **ITC-BT-28, apdo. 3.3.1**, exige alumbrado de seguridad, entre otros puntos,
 
 > ⚠️ **¡Foco Examen!:** **1 lux** en **eje de ruta**, **5 lux** en equipos antiincendios manuales y cuadros, **0,5 lux** ambiente/antipánico; **15 lux o 10 %** para **alto riesgo**, el mayor. La autonomía de **1 hora** es exigencia de evacuación/antipánico; **no aplicar una hora indiscriminadamente a alto riesgo**.
 
-## 11. Normativa oficial
+## 11. Supuestos resueltos de examen
+
+### Supuesto 1. Disparo repetido de diferencial
+
+En un edificio público se dispara repetidamente el **interruptor diferencial** al utilizar una toma. **Respuesta:** suspender el uso del circuito afectado, impedir maniobras improvisadas de reconexión y comunicar la incidencia al **personal competente**, siguiendo el procedimiento de emergencia del centro si hay riesgo inmediato. La repetición del disparo **no demuestra por sí sola** la avería del diferencial: puede existir una derivación o defecto de aislamiento. El auxiliar no debe puentear la protección ni intervenir en el cuadro sin capacitación.
+
+| Elemento | Función principal |
+|---|---|
+| **Diferencial** | Detectar corrientes de desequilibrio/fuga en los conductores activos |
+| **Magnetotérmico** | Protección frente a sobreintensidades, sobrecarga y cortocircuito |
+| **ICP o función equivalente del contador** | Control de la potencia contratada |
+
+> ⚠️ **¡Foco Examen!:** **Diferencial ≠ magnetotérmico**. Una protección que dispara reiteradamente no debe anularse para mantener encendidos los equipos.
+
+### Supuesto 2. Revisión visual de alumbrado de emergencia
+
+En un recorrido de evacuación fallan varias luminarias. Conforme a **ITC-BT-28**, cuando sea aplicable al local, la exigencia para el **eje de los pasos principales a nivel del suelo** es **1 lux mínimo** durante **al menos 1 hora** tras fallar la alimentación normal. En equipos manuales antiincendios y cuadros de distribución de alumbrado, la exigencia aplicable es **5 lux**; en alumbrado ambiente o antipánico, **0,5 lux**. El auxiliar comunica la incidencia y garantiza la seguridad del itinerario conforme al plan, **sin manipular cables ni equipos eléctricos energizados**.
+
+> ⚠️ **¡Foco Examen!:** Los **5 lux** no sustituyen el valor general de **1 lux** en el eje de rutas. La exigencia depende de **dónde se mide** y del tipo de alumbrado; no se inventa la clasificación del edificio municipal.
+
+## 12. Normativa oficial
 - [**RD 842/2002, REBT**](https://www.boe.es/buscar/act.php?id=BOE-A-2002-18099): **ITC-BT-17, 18, 24, 25 y 28**.
 - [**RD 614/2001**](https://www.boe.es/buscar/act.php?id=BOE-A-2001-11881): **artículo 4, anexo II**.
 - [**Ley 31/1995, PRL**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292): **arts. 14, 17, 20, 29**.
 
-**Contraste parcial BOE 04/11/2026:** alumbrado de emergencia de locales de pública concurrencia revisado con **ITC-BT-28**. **Pendiente:** verificar condiciones específicas por tipo de edificio, mantenimiento y auditoría integral del tema.
+**Cierre documental 08/11/2026:** siete incisos del programa contrastados con REBT y RD 614/2001, veinte preguntas existentes y dos casos resueltos; quedan **pendientes** la clasificación concreta de cada edificio, la prueba funcional y la certificación integral.
