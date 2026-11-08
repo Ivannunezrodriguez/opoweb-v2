@@ -152,3 +152,25 @@ Se han revisado individualmente **UC3M-T16-017 a UC3M-T16-021**, sus cuatro alte
 Verificado el [**fallo de la Sentencia del Tribunal Supremo de 06/10/2026, BOE-A-2026-22083**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083), publicado el **23/10/2026**. Anula **RD 905/2025**, no **RD 822/2021** en bloque. El análisis del BOE señala expresamente la nulidad de la modificación del **art. 22.4 del RD 822/2021**, junto con otras referencias y normas afectadas por RD 905/2025. Tabla de discriminación y supuesto añadidos al [manual](manual.md). **Se conserva reserva de fecha de corte de UC3M, base primera.7**, ya que la web de la convocatoria muestra «resolución definitiva» sin verificar aún fecha en el PDF primario. No modificar bancos ni atribuir aprobación.
 
 > ⚠️ **¡Foco Examen!:** El día **23/10/2026** corresponde al BOE de publicación de la sentencia, **no** automáticamente al límite de normas exigibles en el ejercicio de UC3M.
+
+
+## Reparación de trazabilidad de las 21 preguntas originales — **08/11/2026**
+
+Se ha cotejado la estructura completa de los **bancos originales de UC3M T16–T20**, comprobando en **69 preguntas** un total de **276 alternativas**: **21+12+12+12+12**. No se detectaron índices fuera de rango, duplicaciones de ID dentro de cada banco, opciones distintas de cuatro, discrepancias entre respuesta literal y la alternativa marcada, ni ausencias de justificación/referencia. **Es un control de estructura, no una segunda revisión jurídico-sustantiva de las 276 alternativas.**
+
+**Déficit corregido en T16:** solo **7/21 preguntas** tenían enlace URL explícito en `referencia`, frente a **12/12** en cada uno de **T17–T20**. Se han sustituido **14 referencias genéricas** del [banco T16](preguntas.json) por referencias más precisas, con indicación de artículos del [**RD 822/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781), de la [**Normativa de matrícula y permanencia UC3M actualizada en 2018**](https://e-archivo.uc3m.es/rest/api/core/bitstreams/8bca1962-a6f6-487b-9f11-e73f3f97477d/content) y de la [**referencia institucional a 25 horas/ECTS**](https://e-archivo.uc3m.es/bitstreams/816b6e60-0ab9-414c-bd1f-0cfca804d1a3/download) en TFG EPS. La referencia precisa de TFG EPS acredita ese **contexto específico**, sin atribuir una cifra fija universal de 25 horas al art. 9 del RD 822/2021.
+
+| Control de integridad T16–T20 | Resultado comprobado |
+|---|---|
+| Total ítems originales | **69** |
+| Alternativas (4/ítem) | **276** |
+| IDs duplicados en un banco | **0** |
+| Respuestas fuera del rango 0–3 | **0** |
+| `respuestaLiteral` incompatible con clave | **0** |
+| Cuestiones sin justificación o referencia | **0** |
+| Referencias del T16 con URL directa | **7/21 → 21/21** |
+| Cambios en opciones o claves | **0** |
+
+**Reservas:** no se ha probado la visualización real de los enlaces en la interfaz, ni todos los formatos de navegador, ni aplicado una versión legislativa definitiva a la base primera.7. Una referencia mejorada **no significa** revisión jurisprudencial exhaustiva de todos los distractores. La [ficha de corte pendiente](../CONTROL_CORTE_NORMATIVO_20261108.md) se mantiene.
+
+> ⚠️ **¡Foco Examen!:** **25 horas/ECTS** es el cómputo institucional contrastado para el contexto de TFG EPS; el **marco estatal del ECTS** no convierte por sí solo todas las cargas universitarias en **25 horas fijas**.
