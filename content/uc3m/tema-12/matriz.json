@@ -232,5 +232,16 @@
       "run": "https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42293171453",
       "step": "Comprobar cierres documentales UC3M T09 y T12"
     }
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "estado": "DESARROLLO_DOCUMENTAL_COMPLETO_CON_RESERVA_CORTE",
+    "apartados": 17,
+    "supuestosNuevos": 2,
+    "preguntas": 12,
+    "alternativas": 48,
+    "aprobadoUsuario": false,
+    "fechaCorteBOEConfirmada": false,
+    "certificacionE2E": false
   }
 }
