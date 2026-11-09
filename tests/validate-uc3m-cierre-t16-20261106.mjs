@@ -57,3 +57,10 @@ for(const [id,correct] of [['010','30 ECTS'],['011','12'],['012','Dos años cons
  assert.equal(q.respuestaLiteral,correct,'Dato de permanencia UC3M inconsistente: '+id);
 }
 console.log('UC3M_T16_CINCO_ENLACES_NORMA_PERMANENCIA_OFICIAL_OK');
+
+const q240=bank.preguntas.find(q=>q.id==='UC3M-T16-003');
+assert(q240.referencia.includes('art. 14.1') && !q240.referencia.includes('art. 14.2'),
+  '240 ECTS Grado debe citar art 14.1 RD 822/2021, no art 14.2');
+assert.equal(q240.respuestaLiteral,'240 ECTS');
+assert(q240.justificacion.includes('14.1')&&q240.justificacion.includes('14.2'));
+console.log('UC3M_T16_003_ART14_1_240_ECTS_OK');
