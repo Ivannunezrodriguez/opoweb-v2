@@ -853,3 +853,24 @@ El **dictamen 404/2019, de 16/10/2019, del Consejo Consultivo de Castilla-La Man
 > ⚠️ **¡Foco Examen!:** No confundir una **facultad de revisión tributaria delegada** acreditada en un expediente con una facultad general del organismo para resolver sobre cualquier materia. Los Estatutos y los acuerdos de delegación determinan el alcance.
 
 **Estado:** hallazgo incorporado al tema; continúa pendiente identificar el texto estatutario íntegro definitivamente aprobado y actualizado a **2026**.
+
+
+## Control primario visual de la reforma 2011 — 09/11/2026
+
+La [**publicación oficial BOP Toledo n.º 284 de 14/12/2011, anuncio I-11024**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011) ha sido comprobada **en texto y en la imagen de su página**. El **Pleno de Diputación** aprobó la reforma el **28/11/2011**; la publicación es de **14/12/2011**.
+
+| Precepto cotejado | Dato test acreditado |
+|---|---|
+| **Art. 1.2** | OAPGT adscrito al **Presidente de la Diputación**, con delegación de funciones en los términos legales |
+| **Art. 8 bis** | Las resoluciones de órganos de **gobierno, dirección y administración** ponen fin a la **vía administrativa** |
+| **Art. 4.a, ordinales 1–4** | Funciones tributarias y recaudatorias, **procedimiento sancionador**, **procedimientos catastrales** y **revisión administrativa** de actos dictados en ejercicio de delegaciones |
+| **Art. 14.d.1** | Actos administrativos de gestión **catastral, tributaria y recaudatoria** y resolución sancionadora en el ámbito atribuido |
+| **Disposición adicional** | El **Consejo Rector** aprueba el organigrama determinante de los instructores; la **Presidencia del OAPGT** publica su identidad en el **BOP** |
+
+### Supuesto de examen: órganos competentes
+
+Cuando preguntan quién **aprueba el organigrama** de los instructores sancionadores, la respuesta acreditada en la reforma es el **Consejo Rector**. Si preguntan quién **publica la identidad** de los titulares de los órganos instructores, es la **Presidencia del OAPGT**. No atribuir ambas funciones al mismo órgano ni confundirlas con el ejercicio de **competencias resolutorias** reguladas en el **art. 14.d.1**.
+
+> ⚠️ **¡Foco Examen!:** **Pleno de Diputación = aprobación de la reforma**; **Consejo Rector = organigrama**; **Presidencia OAPGT = publicación de instructores**; facultades de **Dirección = art. 14.d.1** en su ámbito.
+
+**Cierre sectorial acreditado:** contenidos de los **cinco ordinales modificativos del BOP 284/2011**. **Cierre integral no acreditado:** texto original del **BOP 235/1996**, corrección del **artículo 8**, eficacia definitiva de la propuesta de reforma de **2004** y consolidación hasta **2026**. El estado editorial de este tema **no cambia**.
