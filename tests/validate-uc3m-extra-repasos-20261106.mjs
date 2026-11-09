@@ -59,7 +59,7 @@ assert.ok(historical >= 200, 'Los bancos principales no deberían haber sido ree
 const practice = content('assets/practice.js');
 assert.doesNotThrow(() => new vm.Script(practice, { filename: 'assets/practice.js' }));
 for (const marker of [
-  'async function loadExtraRepasos()',
+  'async function loadExtraRepasos(call = activeCall)',
   'function renderExtraRepasos()',
   'data/uc3m-repasos-complementarios-20261106.json',
   'data/uc3m-repaso-temas-13-20-20261106.json',
@@ -67,7 +67,9 @@ for (const marker of [
   'data/uc3m-repaso-juridico-t02-t07-20261106.json',
   'data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json',
   "document.querySelectorAll('[data-extra-repaso]')",
-  'extraRepasos = await loadExtraRepasos();',
+  'const loadedRepasos = await loadExtraRepasos(call);',
+  'extraRepasos = loadedRepasos.packs;',
+  'extraRepasoErrors = loadedRepasos.errors;',
   '${renderExtraRepasos()}'
 ]) assert.ok(practice.includes(marker), 'Falta integración práctica: ' + marker);
 
