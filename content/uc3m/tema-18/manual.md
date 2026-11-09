@@ -1,5 +1,7 @@
 # Tema 18. Presupuesto de la UC3M (I)
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** Fuente primaria contrastada: [**Volumen I UC3M 2026**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), [**acta de ambos temas**](../../../audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md). Pruebas E2E, CI y accesibilidad sin certificación integral.
+
 > Epígrafe oficial: características, estructura, ingresos, gastos, créditos, financiación, modificaciones y ejecución de ingresos.
 
 **Control de vigencia:** revisado contra el Presupuesto 2026 de la Universidad Carlos III de Madrid, aprobado por el Consejo de Gobierno y por el Consejo Social el 11 de diciembre de 2025, la Ley Orgánica 2/2023 del Sistema Universitario y la Ley 5/2025, de Hacienda de la Comunidad de Madrid.
