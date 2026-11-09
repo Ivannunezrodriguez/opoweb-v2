@@ -4,7 +4,7 @@
 
 `GENERACION_DESDE_CERO`
 
-> Se ha contrastado el **Acuerdo Regulador original de 2023 y sus modificaciones de 2026**, así como una **reforma estatutaria de 2011** y **atribuciones y delegaciones publicadas en el BOP de 2023**. **Sigue pendiente la reconstrucción íntegra y consolidada de los Estatutos del OAPGT**.
+> **Actualización 09/11/2026:** contrastado el **Acuerdo Regulador de 2023** y sus modificaciones económicas de **2025–2026**. Recibido el PDF estatutario **completo de 20 páginas** hasta la cuarta reforma de **2011**, con artículos **1–30**, **8 bis**, órganos, sesiones y disposiciones. [Guía de extracción](../../diputacion-toledo-auxiliar-c2/tema-06/estatutos-oapgt-texto-integro-1996-2011.md). **No se acredita por ello que la compilación sea una edición consolidada oficial vigente en 2026:** continúa la reserva procesal de la reforma inicialmente anunciada en 2004, posibles normas posteriores y aplicación de legislación de rango superior.
 
 ## Fuentes normativas seguras
 
@@ -26,18 +26,13 @@
 
 ## Límites de la fuente
 
-No se consideran verificados, y por tanto no se afirman como literales:
+**Acreditados como texto de la compilación estatutaria aportada (hasta 2011):** composición del **Consejo Rector** (art. **9**), nombramiento y facultades de **Presidencia y Dirección** (arts. **12–14**), **Consejo Asesor** (art. **15**), sesiones y quórums (art. **19**) y reforma/disolución (arts. **29–30**). Asimismo, están acreditados el ámbito y vigencia originales del **Acuerdo Regulador 2023** y las cuantías de las reformas económicas **2025–2026**.
 
-- composición exacta del Consejo Rector;
-- sistema de nombramiento y cese de todos los órganos;
-- reparto exhaustivo de competencias;
-- mayorías y quórums estatutarios específicos;
-- vigencia temporal y articulado exacto del Acuerdo Regulador;
-- cuantías, permisos o mejoras propias no contrastadas.
+**Reservas no cerradas:** comprobar efecto definitivo de la reforma inicialmente anunciada en **2004** (incluidas transitorias); ausencia de otras reformas estatutarias hasta **2026**; armonización de atribuciones históricas de contratos y personal con la legislación vigente; y cotejo de todos los permisos y excepciones del Acuerdo. Los datos de la compilación no se presentan como certificación integral de vigencia.
 
 ## Regla de actualización
 
-Cuando se obtenga el texto oficial íntegro del Acuerdo Regulador y de los Estatutos, deberán sustituirse las inferencias por contenido literal, auditarse todas las preguntas y actualizarse la matriz de cobertura.
+**Ya se obtuvo** el texto íntegro del Acuerdo Regulador de **2023** y una **compilación estatutaria hasta 2011**. La siguiente fase es verificar las publicaciones de eficacia de 2004 y las reformas laborales restantes, contrastar cada pregunta con el precepto aplicable y actualizar estados **solo tras ese cotejo**.
 
 ## Nuevas fuentes institucionales localizadas (29/10/2026)
 
