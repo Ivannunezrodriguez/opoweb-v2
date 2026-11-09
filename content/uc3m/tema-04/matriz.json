@@ -39,7 +39,7 @@
     }
   ],
   "preguntas": 12,
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "controlIntegralJuridico20261104": {
     "estado": "COTEJO_BANCO_COMPLETO",
     "fecha": "2026-11-04",
@@ -84,5 +84,15 @@
     "aprobacionUsuario": false,
     "certificacionIntegral": false
   },
-  "version": "2026-11-08"
+  "version": "2026-11-08",
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T04_AUDITORIA_LEY40_2026-11-09.md",
+    "preguntas": 12,
+    "alternativas": 48,
+    "actualizacionBOE": "2024-08-02",
+    "certificacionIntegral": false,
+    "pruebaE2E": false
+  }
 }
