@@ -122,8 +122,8 @@ Cotejados [**Estatutos originales UC3M, Decreto 1/2003 (art. 30.1)**](https://ww
 - **Estatutos originales (2003), art. 30.1**: **50 estudiantes** (45 de primer y segundo ciclo y 5 de tercer ciclo/posgrado) entre **250 representantes** más **Rector, Secretario General y Gerente**. Esta composición histórica **no alcanza el 25 %** del estudiantado exigido por **LOSU 45.3**.
 - **LOSU art. 45.3**: mínimo **25 %** estudiantado; **51 %** para personal docente funcionario y permanente laboral del Claustro.
 - **LOSU art. 44.3**: mandato de **6 años** para órganos unipersonales electos, improrrogable/no renovable, con aplicación de las reglas transitorias pertinentes.
-- **LOSU disposición transitoria primera**: el consolidado vigente tras modificación de **2024** establece **2 años** para adaptación de Estatutos y renovación de órganos, frente a **3 años** del texto inicial de **2023**.
+- **LOSU disposición transitoria primera**: el consolidado vigente tras modificación de **2024** establece **3 años** para adaptación de Estatutos y constitución de órganos, frente a **2 años** del texto inicial de **2023**.
 
 **Esta colisión exige revisión jurídica previa:** no extrapolar porcentajes o mandatos de los Estatutos originales a respuestas vigentes de **2026**. [**Advertencia incorporada al manual**](manual.md#advertencia-de-vigencia-estatutos-de-20032009-frente-a-losu--09112026). El tema se mantiene `EN_REVISION_USUARIO`.
 
-> ⚠️ **¡Foco Examen!:** **25 % de estudiantes** en el **Claustro (LOSU)**; no confundir con **50 plazas históricas** en los Estatutos de **2003**. La disposición transitoria primera tiene redacción modificada: **2 años**, no **3**.
+> ⚠️ **¡Foco Examen!:** **25 % de estudiantes** en el **Claustro (LOSU)**; no confundir con **50 plazas históricas** en los Estatutos de **2003**. La disposición transitoria primera tiene redacción modificada: **3 años**, no **2**.
