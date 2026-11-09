@@ -1,5 +1,7 @@
 # Tema 11. Ingreso, provisión, carrera, promoción e incompatibilidades
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta individual**](../../../audit/UC3M_T11_AUDITORIA_INGRESO_PROVISION_INCOMPATIBILIDADES_2026-11-09.md). La aplicación automática del **RD 364/1995** a la **UC3M** está expresamente limitada; **CI y navegador E2E** sin certificar. No es `CERTIFICADO_INTEGRAL`.
+
 > Epígrafe oficial: Real Decreto 364/1995: ingreso, provisión de puestos, carrera profesional y promoción interna. Ley 53/1984 de incompatibilidades.
 
 ## 1. Ámbito y marco normativo
