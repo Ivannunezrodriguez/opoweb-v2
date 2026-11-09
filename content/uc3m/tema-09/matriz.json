@@ -107,7 +107,7 @@
       ]
     }
   ],
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "controlIntegralBanco20261104": {
     "estado": "COTEJO_BANCO_COMPLETO",
     "tipo": "TECNICO_EDITORIAL",
@@ -231,5 +231,17 @@
     ],
     "certificacionIntegral": false,
     "revisionUsuarioPendiente": true
+  },
+  "controlAuditoria20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_TECNICO_EDITORIAL",
+    "acta": "audit/UC3M_T09_AUDITORIA_TECNICO_EDITORIAL_2026-11-09.md",
+    "documentacionTecnicaFabricante": true,
+    "preguntasHistoricas": 12,
+    "preguntasComplementarias": 12,
+    "revisionUsuarioPendiente": true,
+    "fechaCortePrimariaPendiente": true,
+    "pruebaNavegadorE2E": false,
+    "certificacionIntegral": false
   }
 }
