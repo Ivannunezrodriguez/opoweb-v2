@@ -74,6 +74,15 @@ assert.equal(tenth.estado, 'EN_REVISION_USUARIO', 'No aprobar el TREBEP sin cote
 const manual10 = readFileSync(tenth.manual, 'utf8');
 assert.ok(manual10.includes('Ley 4/2026'));
 assert.ok(manual10.includes('100 %'));
+const equality = program.temas.find(topic => topic.numero === 8);
+assert.equal(equality.estado, 'AUDITADO');
+assert.equal(json(equality.matriz).estado, 'AUDITADO');
+assert.equal(json(equality.preguntas).preguntas.length, 12);
+for (const item of json(equality.preguntas).preguntas) {
+  assert.equal(item.respuestaLiteral, item.opciones[item.correcta], 'Clave T08 alterada: ' + item.id);
+  assert.match(item.referencia, /https:\/\/(?:www\.boe\.es|www\.uc3m\.es|uc3m\.es)\//, 'Falta fuente primaria T08: ' + item.id);
+}
+assert.ok(equality.actaAuditoria.includes('UC3M_T08_AUDITORIA_IGUALDAD'));
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
