@@ -151,6 +151,18 @@ def run(config,state,get_page=get):
         existing={s['url'] for s in sources};sources=sources+[s for s in discovered if s['url'] not in existing]
         status.append({'source':'Directorio municipal Toledo','status':'READABLE','discovered':len(discovered)})
     except Exception as e:status.append({'source':'Directorio municipal Toledo','status':'ERROR','error':str(e)[:180]})
+    # Several hamlets in the Toledo directory legitimately share the same
+    # council site and hence the same digest(URL) source id. Scan the URL once:
+    # parallel scans for the same id previously raced to overwrite state.
+    unique_sources={}
+    for source in sources:
+        prior=unique_sources.get(source['id'])
+        if prior is not None:
+            if prior['url'] != source['url']:
+                raise ValueError('SOURCE_ID_COLLISION: '+source['id'])
+            continue
+        unique_sources[source['id']]=source
+    sources=list(unique_sources.values())
     old=state.get('sources',{});updated=dict(old);entries=[]
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         futures={pool.submit(scan,s,old.get(s['id'],{}),state.get('activatedAt','2026-09-28'),get_page):s for s in sources}
