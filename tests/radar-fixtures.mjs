@@ -186,3 +186,11 @@ for(const source of directConfig.sources){
 }
 console.log('RADAR_MUNICIPAL_URL_SYNTAX_AND_HISTORICAL_IDS_OK');
 
+
+
+// Visual warning must expose incomplete direct-source coverage, not merely top-level feeds.
+const radarUI=fs.readFileSync('assets/radar.js','utf8');
+for(const needle of ['data.directSourceStatus','directReadable','directPartial','directErrors','El radar no cubre de forma completa','estado del rastreo municipal directo no está disponible']){
+ assert(radarUI.includes(needle),'Missing radar UI coverage notice: '+needle);
+}
+console.log('RADAR_UI_DIRECT_SOURCE_COVERAGE_WARNING_OK');
