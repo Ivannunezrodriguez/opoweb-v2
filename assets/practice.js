@@ -206,6 +206,10 @@ async function loadQuestionBanks(call = activeCall) {
     // T06 contiene preguntas provisionales que dependen de Estatutos OAPGT por confirmar.
     // Excluirlas de la práctica evaluable hasta concluir la verificación jurídica.
     if (call.id === 'diputacion-toledo-auxiliar-c2-2026' && tema === 6) return [];
+    // C1 T22 y Olías T13 también mantienen reservas legales/documentales:
+    // no pueden ser evaluables mientras no concluyan sus auditorías.
+    if (call.id === 'diputacion-toledo-administrativo-c1-2026' && tema === 22) return [];
+    if (call.id === 'olias-del-rey-auxiliar-edificios-c2-2026' && tema === 13) return [];
     const path = `${call.contentRoot}/tema-${String(tema).padStart(2, '0')}/preguntas.json`;
     const response = await fetch(path, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`No se pudo cargar el banco del tema ${tema}`);
