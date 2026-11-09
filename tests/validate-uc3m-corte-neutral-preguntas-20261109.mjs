@@ -28,7 +28,7 @@ for (const [n,expected] of examples) {
   assert.match(text,/LOSU art\. 45\.3/);
  }
  if(n===16){
-  assert.match(text,/modificado \*\*22\.4\*\*/);
+  assert.match(text,/modificado específicamente \*\*art\. 22\.4\*\*/);
   assert.match(text,/art\. 14\.5/);
   assert.match(text,/no necesita[n]? cambio/i);
   for(const q of bank)assert(!/campo de estudio|art[íi]culo? 22\.4/i.test(q.pregunta+' '+q.respuestaLiteral),'Clave sobre reforma anulada: '+q.id);
