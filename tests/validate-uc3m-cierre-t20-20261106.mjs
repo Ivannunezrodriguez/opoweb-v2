@@ -9,7 +9,7 @@ const acta=read('content/uc3m/CIERRE_DOCUMENTAL_T20_20261106.md');
 const extras=j('data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json').preguntas.filter(q=>q.tema===20);
 const guide=read('content/uc3m/GUIA_EXAMEN_2026.md');
 const status=read('AUDITORIA_CONTINUA.md');
-assert.equal(matrix.estado,'EN_REVISION_USUARIO');
+assert.equal(matrix.estado,'AUDITADO','T20 ya auditado editorialmente');
 assert.equal(matrix.cobertura.length,10);
 assert.equal(bank.preguntas.length,12);
 const headings=[...manual.matchAll(/^## (\d+)\. /gm)].map(m=>+m[1]).filter(n=>n<=29);
