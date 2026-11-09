@@ -15,7 +15,9 @@
       "justificacion": "El presupuesto de ingresos y el de gastos ascienden a 300.468.067,59 euros.",
       "trampa": "205.969.445,65 euros corresponde al total de ingresos corrientes, no al presupuesto total.",
       "referencia": "UC3M Presupuesto 2026 (importe aprobado), BOCM 30/12/2025, anexo ingresos y gastos · https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF",
-      "respuestaLiteral": "300.468.067,59 euros"
+      "respuestaLiteral": "300.468.067,59 euros",
+      "estadoContrasteFuente20261109": "PRIMARIA_REFERENCIADA",
+      "controlFuente20261109": "Referencia oficial: BOCM-20251230-28. El cotejo global de la respuesta requiere mantener la revisión del tema."
     },
     {
       "id": "UC3M-T18-002",
@@ -30,7 +32,9 @@
       "justificacion": "El artículo 57 de la LOSU exige que sea público, único, equilibrado y comprenda la totalidad de ingresos y gastos.",
       "trampa": "La autonomía universitaria no elimina las exigencias legales de estructura y control.",
       "referencia": "LOSU, art. 57.1 (presupuesto universitario publico, unico y equilibrado) · https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a57",
-      "respuestaLiteral": "Público, único, equilibrado y comprensivo de todos los ingresos y gastos"
+      "respuestaLiteral": "Público, único, equilibrado y comprensivo de todos los ingresos y gastos",
+      "estadoContrasteFuente20261109": "PRIMARIA_REFERENCIADA",
+      "controlFuente20261109": "Referencia oficial: BOE-A-2023-7500. El cotejo global de la respuesta requiere mantener la revisión del tema."
     },
     {
       "id": "UC3M-T18-003",
@@ -45,7 +49,9 @@
       "justificacion": "Los gastos se clasifican mediante estructura orgánica, funcional o por programas y económica.",
       "trampa": "Los ingresos usan estructura orgánica y económica, sin clasificación funcional.",
       "referencia": "Ley 5/2025 de Hacienda de la Comunidad de Madrid, art. 108.2.a (estructura gastos) · https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108",
-      "respuestaLiteral": "Orgánica, funcional o por programas y económica"
+      "respuestaLiteral": "Orgánica, funcional o por programas y económica",
+      "estadoContrasteFuente20261109": "PRIMARIA_REFERENCIADA",
+      "controlFuente20261109": "Referencia oficial: BOE-A-2026-3217. El cotejo global de la respuesta requiere mantener la revisión del tema."
     },
     {
       "id": "UC3M-T18-004",
@@ -60,7 +66,9 @@
       "justificacion": "Las transferencias corrientes ascienden a 146.834.705,33 euros, el mayor importe del estado de ingresos.",
       "trampa": "Las tasas y precios públicos son relevantes, pero su cuantía es inferior.",
       "referencia": "UC3M Presupuesto 2026, ingresos capitulo IV, BOCM 30/12/2025 · https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF",
-      "respuestaLiteral": "Capítulo IV, transferencias corrientes"
+      "respuestaLiteral": "Capítulo IV, transferencias corrientes",
+      "estadoContrasteFuente20261109": "PRIMARIA_REFERENCIADA",
+      "controlFuente20261109": "Referencia oficial: BOCM-20251230-28. El cotejo global de la respuesta requiere mantener la revisión del tema."
     },
     {
       "id": "UC3M-T18-005",
@@ -73,9 +81,11 @@
       ],
       "correcta": 3,
       "justificacion": "Los créditos limitan la cuantía y vinculan el gasto a la finalidad y nivel autorizados.",
-      "trampa": "La necesidad del gasto no permite superar automáticamente el crédito disponible.",
+      "trampa": "La necesidad del gasto no permite superar automáticamente el crédito disponible. [FUENTE PENDIENTE: contrastar literalmente con el Volumen I oficial UC3M 2026.]",
       "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 5 (creditos limitativos y vinculantes), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
-      "respuestaLiteral": "Limitativo y vinculante"
+      "respuestaLiteral": "Limitativo y vinculante",
+      "estadoContrasteFuente20261109": "SECUNDARIA_CORROBORADA_O_PENDIENTE",
+      "controlFuente20261109": "Normas Básicas de Gestión UC3M 2026: enlace a Volumen I oficial aún sin extracción/autenticación; algunas reglas corroboradas por reproducción secundaria, no certificadas con texto primario."
     },
     {
       "id": "UC3M-T18-006",
@@ -88,9 +98,11 @@
       ],
       "correcta": 1,
       "justificacion": "La regla general es el nivel de concepto dentro de cada centro y programa.",
-      "trampa": "Los capítulos I, II y VI son excepciones con vinculación a nivel de capítulo.",
+      "trampa": "Los capítulos I, II y VI son excepciones con vinculación a nivel de capítulo. [FUENTE PENDIENTE: contrastar literalmente con el Volumen I oficial UC3M 2026.]",
       "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 5 (vinculacion por concepto y excepciones I, II, VI), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
-      "respuestaLiteral": "Nivel de concepto dentro de cada centro y programa"
+      "respuestaLiteral": "Nivel de concepto dentro de cada centro y programa",
+      "estadoContrasteFuente20261109": "SECUNDARIA_CORROBORADA_O_PENDIENTE",
+      "controlFuente20261109": "Normas Básicas de Gestión UC3M 2026: enlace a Volumen I oficial aún sin extracción/autenticación; algunas reglas corroboradas por reproducción secundaria, no certificadas con texto primario."
     },
     {
       "id": "UC3M-T18-007",
@@ -103,9 +115,11 @@
       ],
       "correcta": 0,
       "justificacion": "La transferencia mueve la totalidad o parte de un crédito de un concepto a otro.",
-      "trampa": "La generación incrementa créditos por nuevos ingresos o financiación, pero no traslada crédito existente.",
+      "trampa": "La generación incrementa créditos por nuevos ingresos o financiación, pero no traslada crédito existente. [FUENTE PENDIENTE: contrastar literalmente con el Volumen I oficial UC3M 2026.]",
       "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 6 (transferencias de credito), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
-      "respuestaLiteral": "Transferencia de crédito"
+      "respuestaLiteral": "Transferencia de crédito",
+      "estadoContrasteFuente20261109": "SECUNDARIA_CORROBORADA_O_PENDIENTE",
+      "controlFuente20261109": "Normas Básicas de Gestión UC3M 2026: enlace a Volumen I oficial aún sin extracción/autenticación; algunas reglas corroboradas por reproducción secundaria, no certificadas con texto primario."
     },
     {
       "id": "UC3M-T18-008",
@@ -118,9 +132,11 @@
       ],
       "correcta": 1,
       "justificacion": "Las Normas Básicas de Gestión exigen acuerdo del Consejo Social y autorización autonómica.",
-      "trampa": "Es una transferencia especialmente restringida por alterar la naturaleza económica del gasto.",
+      "trampa": "Es una transferencia especialmente restringida por alterar la naturaleza económica del gasto. [FUENTE PENDIENTE: contrastar literalmente con el Volumen I oficial UC3M 2026.]",
       "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 6 (capital a corriente), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
-      "respuestaLiteral": "Consejo Social y autorización del Gobierno de la Comunidad de Madrid"
+      "respuestaLiteral": "Consejo Social y autorización del Gobierno de la Comunidad de Madrid",
+      "estadoContrasteFuente20261109": "SECUNDARIA_CORROBORADA_O_PENDIENTE",
+      "controlFuente20261109": "Normas Básicas de Gestión UC3M 2026: enlace a Volumen I oficial aún sin extracción/autenticación; algunas reglas corroboradas por reproducción secundaria, no certificadas con texto primario."
     },
     {
       "id": "UC3M-T18-009",
@@ -133,9 +149,11 @@
       ],
       "correcta": 3,
       "justificacion": "Los créditos no sujetos a obligaciones reconocidas quedan anulados, aunque algunos remanentes pueden incorporarse si cumplen los requisitos.",
-      "trampa": "La incorporación es una excepción, no la regla general.",
+      "trampa": "La incorporación es una excepción, no la regla general. [FUENTE PENDIENTE: contrastar literalmente con el Volumen I oficial UC3M 2026.]",
       "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, cierre e incorporacion de remanentes, Manual T18 apartado 11.4 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
-      "respuestaLiteral": "Quedan anulados, salvo incorporaciones permitidas"
+      "respuestaLiteral": "Quedan anulados, salvo incorporaciones permitidas",
+      "estadoContrasteFuente20261109": "SECUNDARIA_CORROBORADA_O_PENDIENTE",
+      "controlFuente20261109": "Normas Básicas de Gestión UC3M 2026: enlace a Volumen I oficial aún sin extracción/autenticación; algunas reglas corroboradas por reproducción secundaria, no certificadas con texto primario."
     },
     {
       "id": "UC3M-T18-010",
@@ -148,9 +166,11 @@
       ],
       "correcta": 2,
       "justificacion": "Puede reconocerse un derecho antes de que se produzca el cobro material.",
-      "trampa": "Confundir devengo con tesorería es un error frecuente.",
+      "trampa": "Confundir devengo con tesorería es un error frecuente. [FUENTE PENDIENTE: contrastar literalmente con el Volumen I oficial UC3M 2026.]",
       "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 14.1 (derechos y cobros), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
-      "respuestaLiteral": "Son fases distintas de la ejecución"
+      "respuestaLiteral": "Son fases distintas de la ejecución",
+      "estadoContrasteFuente20261109": "SECUNDARIA_CORROBORADA_O_PENDIENTE",
+      "controlFuente20261109": "Normas Básicas de Gestión UC3M 2026: enlace a Volumen I oficial aún sin extracción/autenticación; algunas reglas corroboradas por reproducción secundaria, no certificadas con texto primario."
     },
     {
       "id": "UC3M-T18-011",
@@ -163,9 +183,11 @@
       ],
       "correcta": 2,
       "justificacion": "Los ingresos afectados están vinculados a proyectos, subvenciones o finalidades determinadas.",
-      "trampa": "La existencia de tesorería no elimina la obligación de respetar el destino finalista.",
+      "trampa": "La existencia de tesorería no elimina la obligación de respetar el destino finalista. [FUENTE PENDIENTE: contrastar literalmente con el Volumen I oficial UC3M 2026.]",
       "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, financiacion afectada, Manual T18 apartado 9 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
-      "respuestaLiteral": "Debe aplicarse a la finalidad concreta que la origina"
+      "respuestaLiteral": "Debe aplicarse a la finalidad concreta que la origina",
+      "estadoContrasteFuente20261109": "SECUNDARIA_CORROBORADA_O_PENDIENTE",
+      "controlFuente20261109": "Normas Básicas de Gestión UC3M 2026: enlace a Volumen I oficial aún sin extracción/autenticación; algunas reglas corroboradas por reproducción secundaria, no certificadas con texto primario."
     },
     {
       "id": "UC3M-T18-012",
@@ -178,13 +200,26 @@
       ],
       "correcta": 0,
       "justificacion": "Las normas de 2026 prevén la reunión del grupo una vez transcurridos 120 días desde la emisión.",
-      "trampa": "A los 90 días se inicia el proceso de incobrados, pero la reunión se sitúa a los 120 días.",
+      "trampa": "A los 90 días se inicia el proceso de incobrados, pero la reunión se sitúa a los 120 días. [FUENTE PENDIENTE: contrastar literalmente con el Volumen I oficial UC3M 2026.]",
       "referencia": "UC3M Presupuesto 2026, Normas Basicas de Gestion, art. 14.2 (30/60/90/120 dias), Vol. I · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
-      "respuestaLiteral": "120 días"
+      "respuestaLiteral": "120 días",
+      "estadoContrasteFuente20261109": "SECUNDARIA_CORROBORADA_O_PENDIENTE",
+      "controlFuente20261109": "Normas Básicas de Gestión UC3M 2026: enlace a Volumen I oficial aún sin extracción/autenticación; algunas reglas corroboradas por reproducción secundaria, no certificadas con texto primario."
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlTrazabilidadFuente20261109": {
+    "fecha": "2026-11-09",
+    "tema": 18,
+    "fuentePublicaCuantias": "BOCM-20251230-28.PDF",
+    "preguntasConReferenciaPrimaria": 4,
+    "preguntasDependientesNormasGestion": 8,
+    "cotejoVolumenIPrimarioCompleto": false,
+    "fuenteSecundaria": "https://www.vence.es/auxiliar-administrativo-universidad-carlos-iii/temario/tema-18",
+    "certificacionIntegral": false,
+    "estado": "EN_REVISION_USUARIO"
   }
 }
