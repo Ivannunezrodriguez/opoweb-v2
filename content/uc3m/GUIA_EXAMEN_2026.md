@@ -360,7 +360,7 @@ Los **9 estados AUDITADO** acreditan revisión jurídico-editorial o técnico-ed
 
 **Atención al nuevo reglamento:** [**RD 855/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-21955), publicado **22/10/2026**, vigente desde **23/10/2026**, deroga RD 1791/2010. **No** trasladar automáticamente esta versión al examen UC3M sin comprobar la fecha oficial de corte de base **primera.7**.
 
-**T15** sigue **EN_REVISION_USUARIO**: el [**manual actualizado**](tema-15/manual.md) explica que los **Estatutos originales UC3M, art. 30.1**, atribuían **50 escaños estudiantiles** en un Claustro histórico de **253 miembros**, frente al mínimo del **25 %** de **LOSU 45.3**. La **disposición transitoria primera LOSU** en su redacción de **2024** prevé **2 años** para adaptación estatutaria; hay que reconciliar el texto refundido UC3M con la ley, antes de elevar la materia a AUDITADO.
+**T15** sigue **EN_REVISION_USUARIO**: el [**manual actualizado**](tema-15/manual.md) explica que los **Estatutos originales UC3M, art. 30.1**, atribuían **50 escaños estudiantiles** en un Claustro histórico de **253 miembros**, frente al mínimo del **25 %** de **LOSU 45.3**. La **disposición transitoria primera LOSU** en su redacción de **2024** prevé **3 años** para adaptación estatutaria; hay que reconciliar el texto refundido UC3M con la ley, antes de elevar la materia a AUDITADO.
 
 > ⚠️ **¡Foco Examen!:** **25 % de estudiantes en Claustro** es la regla de la **LOSU**; **50 puestos** era una composición de los Estatutos originales de **2003**. **No** responder con el reparto antiguo como si fuese el porcentaje legal vigente.
 
