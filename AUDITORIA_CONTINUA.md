@@ -3757,3 +3757,13 @@ Se ha actualizado [**tools/radar-direct.py**](tools/radar-direct.py), commit `49
 **UC3M:** [**BOE-A-2026-14624, base 1.7**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624): legislación exigible es la vigente al **publicarse la resolución de listas definitivas y convocatoria del ejercicio**, **no el día de examen**. El [**portal oficial**](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) muestra el apartado de resolución definitiva, pero no se recuperó su PDF con **fecha primaria acreditada**. Los **20 temas desarrollados** se mantienen en revisión normativa. No cambiar el dato secundario de **01/10/2026** por hecho jurídico hasta fuente primaria.
 
 Se ha creado [**CONTROL_CIERRE_TEMARIOS_2026-11-09.md**](CONTROL_CIERRE_TEMARIOS_2026-11-09.md), con criterios de aceptación por programa. **Cierre sectorial real: sí (cinco cambios publicados en BOP 2011). Certificación completa de tres temas pendientes: no. CI verde: sí para 964d44d.**
+
+## 186. Sincronización controlada de fichas editoriales Diputación C1/C2 (**09/11/2026**)
+
+**Hallazgo real:** `data/convocatorias.json` todavía mostraba etiquetas heredadas (`40_ORIGEN_GENERACION_DESDE_CERO_EN_AUDITORIA` para C1 y `19_EN_REVISION_1_BORRADOR` para C2), pese a que los manifiestos vigentes registran **39 C1 AUDITADO + 1 T22 pendiente** y **19 C2 AUDITADO + 1 T6 BORRADOR**.
+
+**Reparación publicada:** sincronización de `estadoEditorial` y `notaEstadoEditorial` en `data/convocatorias.json`, fecha de actualización **09/11/2026**, commit [`56bc0e32`](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/56bc0e32bae24342a0cbd0548ff93a08b6eb92a5). Sin alterar bancos ni promocionar ningún tema.
+
+**Regresión incorporada:** [`tests/validate-convocatorias-editorial-sync-20261109.mjs`](tests/validate-convocatorias-editorial-sync-20261109.mjs), commit `61b9f3d3`, coteja recuentos reales y estados de ambas fichas; conectado a [`validate.yml`](.github/workflows/validate.yml), commit `1cfd7e66`. **Ejecución de GitHub Actions del commit final no verificada en esta sesión**; no proclamar CI verde hasta consultar su resultado.
+
+**Cierre:** resuelta la **desincronización de metadatos** de estas dos fichas. **No** resueltos ni certificados C1 T22/C2 T6 OAPGT; permanecen sus bloqueos de fuentes primarias. Los demás recuentos del proyecto permanecen sin elevación jurídica artificial.
