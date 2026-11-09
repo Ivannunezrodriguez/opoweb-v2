@@ -1,5 +1,7 @@
 # Tema 4. Ley 40/2015 (I)
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta de cotejo y reservas**](../../../audit/UC3M_T04_AUDITORIA_LEY40_2026-11-09.md). **No es CERTIFICADO_INTEGRAL**: aprobación de usuario, pruebas de navegador/accesibilidad y CI definitivo siguen pendientes.
+
 > Epígrafe oficial: órganos de las Administraciones Públicas.
 
 ## 1. Principios generales de actuación
