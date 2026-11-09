@@ -15,7 +15,7 @@ for (const topic of audited) {
   // equivalente (p. ej. «Certificación integral: NO» o «E2E pendiente»).
   // Exigir un límite explícito en vez de dos frases literales arbitrarias.
   const limite = /(?:no\s+(?:(?:se|ha)\s+)*(?:verificad[oa]|acreditad[oa]|certificad[oa]|certifica|declara|constituyen)|sin\s+(?:certificaci[oó]n|prueba)|pendiente(?:s)?|certificaci[oó]n\s+integral\s*[:=]\s*NO|CERTIFICADO_INTEGRAL\s*[:=]\s*NO)/i;
-  const alcance = /(?:E2E|navegador|accesibilidad|certificaci[oó]n integral|CERTIFICADO_INTEGRAL|GitHub Actions|CI)/i;
+  const alcance = /(?:E2E|navegador|accesibilidad|certificaci[oó]n integral|CERTIFICADO_INTEGRAL|GitHub Actions|(?:^|\W)CI(?:\W|$))/i;
   assert.ok(limite.test(proof) && alcance.test(proof),
     'Acta sin reservas de certificación funcional explícitas: T' + topic.numero);
   assert.equal(topic.auditoriaTecnica20261109?.certificacionIntegral ?? topic.certificacionIntegral, false);
