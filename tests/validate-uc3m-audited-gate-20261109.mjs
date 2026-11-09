@@ -26,6 +26,17 @@ for (const q of firstQuestions) {
 const insular = firstQuestions.find(q => q.id === 'UC3M-T01-008');
 assert.ok(insular.pregunta.includes('eficacia electoral diferida'));
 assert.ok(insular.justificacion.includes('primera') && insular.justificacion.includes('entrada en vigor'));
+for (const [number, boe] of [[2,'BOE-A-2015-10565'],[3,'BOE-A-2015-10565'],[4,'BOE-A-2015-10566'],[5,'BOE-A-2015-10566']]) {
+  const theme = program.temas.find(t => t.numero === number);
+  assert.equal(theme.estado, 'AUDITADO', 'Estado jurídico T' + number);
+  assert.equal(json(theme.matriz).estado, 'AUDITADO', 'Matriz jurídica desactualizada T' + number);
+  const items = json(theme.preguntas).preguntas;
+  assert.equal(items.length, 12);
+  for (const q of items) {
+    assert.ok(q.referencia.includes(boe), 'Falta BOE primario en ' + q.id);
+    assert.equal(q.respuestaLiteral, q.opciones[q.correcta], 'Clave literal incoherente en ' + q.id);
+  }
+}
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
