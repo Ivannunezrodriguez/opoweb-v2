@@ -2,7 +2,7 @@
   "convocatoria": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
   "tema": 2,
   "version": "2026-11-08",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "epigrafeOficial": "Ley 39/2015 (I): disposiciones generales; interesados; actividad de las Administraciones Públicas; actos administrativos.",
   "cobertura": [
     {
@@ -124,5 +124,15 @@
     "fechaPublicacionListaDefinitivaPrimaria": "PENDIENTE_COMPROBACION",
     "aprobadoUsuario": false,
     "certificacionFuncional": false
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T02_AUDITORIA_LEY39_2026-11-09.md",
+    "ultimaActualizacionBOE": "2024-11-06",
+    "banco": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
   }
 }
