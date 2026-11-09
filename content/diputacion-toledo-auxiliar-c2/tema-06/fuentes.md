@@ -82,3 +82,12 @@ Es un **corroborador institucional de aplicación en 2021**, no una reproducció
 **Consulta transversal:** se utiliza la misma evidencia en [**Diputación C1 tema 22**](../../diputacion-toledo/tema-22/fuentes.md), sin sumar artificialmente un cierre documental.
 
 > ⚠️ **¡Foco Examen!:** **Delegación a Diputación** y **ejercicio operativo por OAPGT** son actos y niveles distintos. El convenio concreto no sustituye a los **Estatutos** ni permite inventar quórums o composición.
+
+
+## Composición del Consejo Rector acreditada históricamente en 2015
+
+La [**nota oficial de Diputación de 24/07/2015**](https://www.diputoledo.es/prensa/nAmpliada/1148) sobre constitución del Consejo Rector del OAPGT recoge **Presidencia más siete vocales**, designados por el **Pleno** entre sus diputados, y describe sus funciones de **organización y alta dirección**. Es **evidencia institucional de la composición y práctica de 2015**, no el texto normativo consolidado que acredita cuáles deben ser sus miembros en **2026**.
+
+Esta fuente se controla conjuntamente con [**C1 T22**](../../diputacion-toledo/tema-22/fuentes.md) y no autoriza a actualizar el estado **BORRADOR** del tema C2 ni a incorporar como pregunta vigente una cifra basada solo en la información de 2015.
+
+> ⚠️ **¡Foco Examen!:** **7 vocales en 2015** es un hecho documentado; **número legal de vocales en 2026** sigue pendiente de cotejar el artículo aplicable del Estatuto íntegro y sus reformas.
