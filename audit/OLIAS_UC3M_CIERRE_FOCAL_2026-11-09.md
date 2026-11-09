@@ -27,3 +27,19 @@ Se han cotejado los manifiestos públicos vigentes (no las actas históricas): *
 Se han corregido `data/convocatorias.json` para reflejar **17+3 UC3M y 21+1 Olías** (commit `d6fe3f6c`), y ampliado el test `tests/validate-convocatorias-editorial-sync-20261109.mjs` para evitar regresiones (commit `16cf5110`). El test ya estaba invocado por `.github/workflows/validate.yml`; **no se ha confirmado un resultado de GitHub Actions para el último SHA**.
 
 **Cierre verificable de esta fase:** precisión de metadatos e identificación de exactamente cuatro pendientes. **No cierre de T13, T10, T15 o T16**. Ningún estado de manifiesto se ha cambiado sin fuente.
+
+
+## Segunda intervención: mejora de estudio y control de regresión
+
+Se ha revisado de nuevo el [catálogo primario del INE](https://www.ine.es/prodyser/callejero/) y el [BOE de la convocatoria UC3M, base primera.7](https://boe.es/diario_boe/txt.php?id=BOE-A-2026-14624). La [página UC3M del proceso 2026](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) sí muestra **RESOLUCIÓN DEFINITIVA DE SOLICITUDES ADMITIDAS Y EXCLUIDAS**, pero la recuperación disponible **no incluye su documento con fecha de publicación primaria**. El dato **01/10/2026** de ADAMS sigue en calidad de indicio.
+
+| Archivo modificado | Corrección efectiva |
+|---|---|
+| [Olías T13 — manual](../content/olias-auxiliar-edificios/tema-13/manual.md) | Nueva tabla oficial de **VIAS/PSEU/TRAM/UP-SECC**, fecha **30/06/2026** y protocolo de cotejo, con distinción explícita entre selección de direcciones y listado íntegro |
+| [UC3M — guía](../content/uc3m/GUIA_EXAMEN_2026.md) | Tabla de decisión para **T10 TREBEP**, **T15 Estatutos/LOSU** y **T16 RD 822/2021 y nulidad del RD 905/2025**, con reserva de corte |
+| [Test preventivo](../tests/validate-olias-uc3m-pendientes-20261109.mjs) | Comprueba que la guía documenta los hechos sensibles y que **T13 Olías/T10-T15-T16 UC3M** no se marquen como auditados sin cierre |
+| [CI](../.github/workflows/validate.yml) | Ejecuta test preventivo para futuras modificaciones |
+
+**Commits:** Olías `a3847ec9`; guía UC3M `ae31f6e2`; test `5d17d8fd`; CI `d3f79100`.
+
+**Pendiente efectivo:** obtener el ZIP íntegro del INE para Olías **45122**, extraer y cotejar vías; obtener el documento primario de listas definitivas UC3M y resolver íntegramente normativa/bancos. **No se acredita ejecución E2E ni resultado de GitHub Actions del último SHA.** La mejora editorial no debe confundirse con un cambio de estado.
