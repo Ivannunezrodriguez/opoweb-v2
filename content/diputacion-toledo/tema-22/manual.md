@@ -1,5 +1,8 @@
 # Tema 22 · Acuerdo regulador y OAPGT
 
+> **ACTUALIZACIÓN DOCUMENTAL PRIORITARIA — 09/11/2026.** Recibida y leída una **recopilación de 20 páginas de los Estatutos del OAPGT hasta la reforma de 2011** (SHA-256 `835013e5925a6342178c744449009c431b910d3a82b42000d6dd0aa605f892fb`). El **articulado 1–30 y 8 bis**, disposiciones, composición del **Consejo Rector**, quórums, **mayorías**, competencias y plazos **ya están disponibles** en [guía completa de extracción y contraste](../../diputacion-toledo-auxiliar-c2/tema-06/estatutos-oapgt-texto-integro-1996-2011.md). Por tanto, todos los avisos inferiores que afirman «texto íntegro no localizado» son **históricos y están superados**. Aún falta acreditar **eficacia definitiva de reforma inicial 2004**, corrección 1996, ausencia de reformas posteriores y cierre de **Acuerdo Regulador 2023/2025/2026**. **El tema completo sigue en revisión**, sin certificar vigencia estatutaria integral ni E2E.
+
+
 > **Control de fuentes 05/11/2026:** incorporados el **Acuerdo Regulador original BOP 246/2023**, sus modificaciones **enero/febrero 2026** y preceptos estatutarios OAPGT publicados en **2011**. **Pendiente: Estatutos completos consolidados del OAPGT**, por lo que no se certifica composición, quórums ni articulado no acreditado.
 
 ## Epígrafe oficial
