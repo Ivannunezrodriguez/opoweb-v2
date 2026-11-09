@@ -7,8 +7,7 @@ const src = read('assets/practice.js');
 
 const blocked = [
   { id: 'diputacion-toledo-administrativo-c1-2026', tema: 22, program: 'data/programa-diputacion-administrativo-2026.json', status: 'EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES' },
-  { id: 'diputacion-toledo-auxiliar-c2-2026', tema: 6, program: 'data/programa-diputacion-auxiliar-c2-2026.json', status: 'BORRADOR' },
-  { id: 'olias-del-rey-auxiliar-edificios-c2-2026', tema: 13, program: 'data/programa-olias-auxiliar-edificios-2026.json', status: 'EN_AUDITORIA' }
+  { id: 'diputacion-toledo-auxiliar-c2-2026', tema: 6, program: 'data/programa-diputacion-auxiliar-c2-2026.json', status: 'BORRADOR' }
 ];
 for (const item of blocked) {
   const tema = json(item.program).temas.find(x => x.numero === item.tema);
@@ -41,4 +40,6 @@ for (const id of ['OLIAS-T12-003','OLIAS-T14-003','OLIAS-T12-006','OLIAS-T14-006
   assert.ok(allIds.has(id), 'Repuesto no existente: ' + id);
   assert.ok(sims.some(sim => sim.preguntas.includes(id)), 'Repuesto no utilizado: ' + id);
 }
-console.log('Tres temas bloqueados fuera de entrenamiento y simulacros Olías 50+20 consistentes.');
+assert.equal(json('data/programa-olias-auxiliar-edificios-2026.json').temas.find(t => t.numero === 13).estado, 'AUDITADO');
+assert.ok(!src.includes("if (call.id === 'olias-del-rey-auxiliar-edificios-c2-2026' && tema === 13) return [];"));
+console.log('Dos temas bloqueados OAPGT y Olías T13 desbloqueado; simulacros históricos consistentes.');
