@@ -88,3 +88,12 @@ El [**PDF institucional original del Presupuesto UC3M 2026, Volumen I**](https:/
 **Control pendiente:** norma exacta vigente a la fecha de corte de **base primera.7 UC3M** (aún sin resolución primaria), cotejo frase por frase, navegador E2E, pruebas móvil/WCAG/PWA, ejecución CI del commit y aprobación. La anterior revisión focal de documentos O y ADO permanece válida para su alcance; **no es certificación jurídica general**.
 
 > ⚠️ **¡Foco Examen!:** **Documento O** en la nomenclatura UC3M 2026 es **propuesta de pago**, no pago bancario; **caja fija 5.000 €** y **anticipo 12.000 €** pertenecen a reglas distintas.
+
+
+## Actualización de fuente primaria completa — 09/11/2026
+
+Se ha **recuperado y leído el PDF oficial completo** [**Volumen I, Presupuesto UC3M 2026**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), disponible a través de la colección presupuestaria del **Portal de Transparencia UC3M**. Archivo **PDF 3.807.877 bytes**, índice con **Normas Básicas de Gestión desde página 74**. Se cotejan los **artículos 5 (créditos), 6 (modificaciones), 14 (ingresos), 15 (documentos contables) y 16 (caja fija y anticipos)**.
+
+**Acta:** [**UC3M T18/T19, cotejo directo primario**](../../../audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md). Sustituye el aviso anterior de que no se había conseguido acceso al Volumen I; ahora está disponible y contrastado. Se conservan **12 respuestas** y **48 alternativas** del tema 19.
+
+> ⚠️ **¡Foco Examen!:** **O** es **propuesta de pago** (no el pago material) y el **artículo 16.3** distingue anticipos **máximo 12.000 €**, justificables en **1 mes**, del sistema asimilado a caja fija del **artículo 16.2** (gastos de hasta **5.000 € sin IVA**).
