@@ -11,11 +11,17 @@
 - [BOP de **27/11/2017**, sede electrónica](https://bop.diputoledo.es/webEbop/DocGet?id=17110192%3B0&insert_number=5876&insert_year=2017).
 - [Directorio público de unidad OAPGT, DIR3 LA0000580](https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580).
 
-## Estado al **29/10/2026**
+## Estado actualizado al **09/11/2026**
 
-La reforma estatutaria de **21/12/2004** consta como **aprobación inicial** en el anuncio de **23/12/2004**. No se ha localizado publicación definitiva suficiente ni texto estatutario íntegro actualizado a **2026**. Las cifras históricas de composición, quórum y mayorías **no pueden certificarse** como vigentes.
+**Fuente estatutaria ya obtenida:** el usuario ha aportado un PDF de **20 páginas**, con el texto **completo de los artículos 1–30 y 8 bis y las disposiciones** de la compilación hasta **2011**. [Guía de cotejo de Estatutos, composición y mayorías](./estatutos-oapgt-texto-integro-1996-2011.md). Por tanto, **sí se conoce literalmente** la composición del **Consejo Rector** (art. **9**), funciones de **Presidencia y Dirección** (arts. **12–14**), sesiones y quórums (art. **19**) y modificación/disolución (arts. **29–30**) en la compilación recibida.
 
-**Material disponible:** manual extenso y **29 preguntas provisionales** documentadas. El tema continúa **EN REVISIÓN**, no se etiqueta como definitivamente aprobado.
+**Fuentes laborales ya contrastadas:** [Acuerdo 2023 y reformas](https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes). Se han comprobado ámbito/firmantes/vigencia y **cuantías económicas de 2025 y 2026**, incluidas las **29 preguntas** de este banco en cuanto a **consistencia estructural**, **no** todas sus opciones distractoras desde el punto de vista jurídico.
+
+**Reserva procesal vigente:** el **BOP 294 de 23/12/2004** anuncia **aprobación inicial**; no acredita por sí solo su elevación definitiva. El art. **49.c LBRL** permite elevación legal automática cuando no hay reclamaciones ni sugerencias, **sin exigir cláusula expresa**; falta acreditar qué ocurrió en ese expediente. No se ha descartado de manera exhaustiva la existencia de posteriores reformas estatutarias.
+
+**Estado:** el **Tema 6 C2 permanece en revisión** hasta culminar el cotejo de versiones y del Acuerdo Regulador. **No** se vuelve a clasificar como pendiente de localizar «el texto íntegro hasta 2011».
+
+> ⚠️ **¡Foco Examen!:** Los **quórums y mayorías** están documentados en el PDF histórico, pero eso no prueba automáticamente la **vigencia consolidada en 2026**. **Aprobación inicial de 2004** y **aprobación definitiva** son actos diferentes.
 
 > ⚠️ **¡Foco Examen!:** El **Consejo Rector** y el **Consejo Asesor** son órganos distintos. Los anuncios concretos de delegación o aprobación de padrones no sustituyen los **Estatutos**.
 
