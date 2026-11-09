@@ -1,5 +1,7 @@
 # Tema 6. Ley Orgánica 3/2018 de protección de datos
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta de RGPD y LOPDGDD**](../../../audit/UC3M_T06_AUDITORIA_RGPD_LOPDGDD_2026-11-09.md). **No es CERTIFICADO_INTEGRAL**: CI, navegador y accesibilidad no acreditados.
+
 > Epígrafe oficial: disposiciones generales, principios, derechos, responsable, encargado y delegado de protección de datos.
 
 ## 1. Marco normativo y objeto
