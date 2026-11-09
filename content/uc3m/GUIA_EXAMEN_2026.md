@@ -298,3 +298,14 @@ Se ha [**documentado un contraste focal con la LOSU y los Estatutos**](../../aud
 **Fuentes fundamentales:** [**LOSU consolidada, arts. 64–66 y 78**](https://www.boe.es/eli/es/lo/2023/03/22/2), [**Estatutos UC3M, Decreto 1/2003, art. 1**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782) y **Decreto 95/2009**. Ningún estado `EN_REVISION_USUARIO` cambia automáticamente.
 
 > ⚠️ **¡Foco Examen!:** En el **art. 65.1 LOSU**, la preferencia por sexo menos representado se **puede establecer** en **igualdad de idoneidad**; no es una reserva automática e incondicional.
+
+
+## Estado jurídico-editorial de los 20 temas — **09/11/2026**
+
+**AUDITADO individualmente: 7 temas (T1–T6 y T9)**, con actas, BOE o documentación primaria del fabricante y trazabilidad de preguntas. **En revisión: 13 temas (T7–T8 y T10–T20)**. La [**tabla detallada de evidencias y bloqueos**](../../audit/UC3M_PLAN_CIERRE_13_TEMAS_PENDIENTES_2026-11-09.md) identifica cada fuente que falta.
+
+Se han aclarado dos trampas: **T1**, entrada en vigor de la reforma constitucional de **2026** frente a eficacia electoral posterior; **T6**, el plazo de **72 horas** para notificar una brecha cuando procede, con excepción de riesgo improbable. Los temas T2–T5 incorporan ahora referencias a los artículos de las **Leyes 39/2015 y 40/2015**.
+
+**No confundir `AUDITADO` con `CERTIFICADO_INTEGRAL`:** el **corte jurídico** de la convocatoria continúa sin documento primario de fecha de publicación verificada y la validación real de navegador, accesibilidad y GitHub Actions del último commit sigue pendiente.
+
+> ⚠️ **¡Foco Examen!:** Una pregunta con clave correcta puede contener un plazo o una excepción mal expresados; por eso cada tema auditado enlaza su acta de contraste con la **fuente primaria**.
