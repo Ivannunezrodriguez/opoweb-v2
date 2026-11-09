@@ -67,5 +67,5 @@ const map4 = read(findTheme(4).matriz).filas;
 assert.ok(map2.find(x => x.inciso.includes('Hacienda')).norma.includes('2/2004'));
 assert.ok(map3.find(x => x.inciso.includes('Prevención')).norma.includes('31/1995'));
 assert.ok(map4.every(x => x.norma === 'LO 3/2007'), 'Igualdad AGE asociada a otra norma');
-console.log('OLIAS_C2_2026_OK: 22 temas y manuales EN_AUDITORIA; 279 preguntas temáticas, 40 psicotécnicas y dos modelos; incidencias de plazo y plazas aún abiertas.');
+console.log('OLIAS_C2_2026_OK: 22 temas; T13 AUDITADO con inventario INE; 279 preguntas temáticas, 40 psicotécnicas y dos modelos; incidencias de plazo y plazas aún abiertas.');
 
