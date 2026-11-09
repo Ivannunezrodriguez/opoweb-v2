@@ -49,3 +49,27 @@ assert.equal(olM.controlINE20261109.vias,280);
 assert.equal(olM.controlINE20261109.pseudovias,0);
 assert.equal(olM.controlINE20261109.fechaReferencia,'2026-06-30');
 console.log('OAPGT_2011_VISUAL_PRIMARIO: cinco modificaciones trazadas; bloqueos OAPGT C1/C2 preservados y Olías INE resuelto');
+
+
+// Documento íntegro de 20 páginas aportado por el usuario el 09/11/2026.
+// No convertir la compilación hasta 2011 en vigencia consolidada hasta 2026.
+const guide=read('content/diputacion-toledo-auxiliar-c2/tema-06/estatutos-oapgt-texto-integro-1996-2011.md');
+for(const snippet of ['835013e5925a6342178c744449009c431b910d3a82b42000d6dd0aa605f892fb',
+  '7 capítulos','30 artículos','8 bis','5 vocales','2 vicepresidentes','10 alcaldes',
+  'Mayoría simple','mayoría absoluta','1 hora','3 meses','2004','2011']) {
+ assert(guide.toLowerCase().includes(snippet.toLowerCase()),'Falta precisión estatutaria: '+snippet);
+}
+for(const [t,preguntas] of [[t22,c1Q],[t06,c2Q]]) {
+ const ev=t.evidenciaEstatutosAportados20261109;
+ assert.equal(ev.paginas,20,'PDF OAPGT no registrado en tema '+t.numero);
+ assert.equal(ev.cierreTemaCompleto,false,'No confundir sección estatutaria con tema completo');
+ assert.equal(ev.guia,'content/diputacion-toledo-auxiliar-c2/tema-06/estatutos-oapgt-texto-integro-1996-2011.md');
+ for(const q of preguntas) {
+  const correct=q.correcta??q.respuestaCorrecta;
+  assert.equal(q.opciones.length,4,'Alternativas incompletas '+q.id);
+  assert.equal(q.opciones[correct],q.respuestaLiteral,'Solución inconsistente '+q.id);
+ }
+}
+assert.equal(c1Q.length,24);
+assert.equal(c2Q.length,29);
+console.log('ESTATUTOS_OAPGT_20_PAGINAS_53_CLAVES_OK: articulado extraído; tema completo reservado');
