@@ -33,6 +33,8 @@ jobs:
         run: node tests/validate-uc3m-t08-t10-trazabilidad-20261109.mjs
       - name: Cotejar 86 apartados y bancos UC3M en siete temas
         run: node tests/validate-uc3m-trazabilidad-7-temas-20261109.mjs
+      - name: Control de LOSU T14 y microtest de Estatutos T15
+        run: node tests/validate-uc3m-t14-t15-trazabilidad-20261109.mjs
       - name: Comprobar cierres documentales UC3M T09 y T12
         run: node tests/validate-uc3m-cierres-documentales-20261106.mjs
       - name: Comprobar cierre documental UC3M T10 y T11
