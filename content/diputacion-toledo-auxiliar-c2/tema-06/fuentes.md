@@ -91,3 +91,12 @@ La [**nota oficial de Diputación de 24/07/2015**](https://www.diputoledo.es/pre
 Esta fuente se controla conjuntamente con [**C1 T22**](../../diputacion-toledo/tema-22/fuentes.md) y no autoriza a actualizar el estado **BORRADOR** del tema C2 ni a incorporar como pregunta vigente una cifra basada solo en la información de 2015.
 
 > ⚠️ **¡Foco Examen!:** **7 vocales en 2015** es un hecho documentado; **número legal de vocales en 2026** sigue pendiente de cotejar el artículo aplicable del Estatuto íntegro y sus reformas.
+
+
+## Delegaciones específicas en BOP 92/2023 — revisión de 09/11/2026
+
+[**Ficha primaria de BOP 92/2023**](oapgt-contratacion-bop-2023.md): se han identificado por lectura de la publicación oficial **dos delegaciones distintas** (**Presidencia → Dirección** en representación y **Consejo Rector → Dirección** para **dos contratos concretos**). Los porcentajes históricos del acto de contratación (**10 %** y **5 %**) y el plazo de **cuatro años** **no quedan certificados como reglas estatutarias generales en 2026**. Además, el mismo boletín atribuye las funciones del Consejo Rector al **art. 10** en unos párrafos y al **art. 9** en otro: **discordancia de numeración sin resolver**.
+
+La captura visual del PDF no se completó. **Mantener el bloqueo documental** hasta cotejar Estatutos originales, correcciones y reformas definitivas.
+
+> ⚠️ **¡Foco Examen!:** No transformar la delegación para **dos expedientes** en atribución general de contratación a la **Dirección**, ni el **art. 9/10** contradictorio de una publicación histórica en clave de test actual.
