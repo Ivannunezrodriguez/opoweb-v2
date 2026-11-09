@@ -23,4 +23,24 @@ assert len(d.directory_sources('<table><tr><td>Yuncos</td><td>phone</td><td>emai
 # Generic route label gets the individual row text, not neighbouring notices.
 items=d.links('<table><tr><td>Convocatoria bolsa de limpieza</td><td><a href="/6">Ver</a></td></tr><tr><td>Admitidos</td><td><a href="/7">Ver</a></td></tr></table>',s['url'])
 assert d.candidate(items[0]);assert d.candidate(items[1]) is None
-print('Direct radar: baseline, new-only, exclusions, failure recovery, dates, URLs and directory OK')
+# Two hamlets may legitimately publish at the same council URL with the same
+# historical source ID. Scan only once so concurrent scans do not race to save
+# different page states under the same key.
+from copy import deepcopy
+shared=deepcopy(s);shared['name']='Otra pedanía';shared['location']='Otra pedanía (Toledo)'
+config={'directoryUrl':'https://example.org/no-directory','sources':[s,shared]}
+def municipality_page(url):
+    if '/no-directory' in url:raise ValueError('directory unavailable')
+    return '<html><body><a href="/1">Convocatoria bolsa de conserjes</a></body></html>',url
+summary,new_state=d.run(config,{},get_page=municipality_page)
+assert len(summary['sourceStatus'])==2,summary['sourceStatus'] # directory + one shared council
+assert len(new_state['sources'])==1,new_state['sources']
+assert not summary['entries'] # First read establishes the initial baseline
+different_url=deepcopy(shared);different_url['url']='https://otro.example/empleo'
+try:
+    d.run({'directoryUrl':config['directoryUrl'],'sources':[s,different_url]}, {},get_page=municipality_page)
+except ValueError as exc:
+    assert 'SOURCE_ID_COLLISION' in str(exc)
+else:
+    raise AssertionError('Different URLs with same ID must not share state')
+print('Direct radar: baseline, new-only, shared council aliases, collision guard and directory OK')
