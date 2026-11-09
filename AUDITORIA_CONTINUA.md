@@ -3780,3 +3780,13 @@ Se ha creado [**CONTROL_CIERRE_TEMARIOS_2026-11-09.md**](CONTROL_CIERRE_TEMARIOS
 
 **Dictamen:** metadatos de estas dos convocatorias corregidos, regresión añadida, **cuatro temas jurídicamente abiertos**; **sin cambio ficticio de estados** ni declaración de CI verde del último commit o certificación E2E.
 
+
+## 188. Olías T13 + UC3M T10/T15/T16 — nueva intervención correctiva (**09/11/2026**)
+
+**Contenido editado y publicado, no solo diagnóstico:** [manual Olías T13](content/olias-auxiliar-edificios/tema-13/manual.md) añade distinción operativa y tabla **VIAS/PSEU/TRAM/UP-SECC**, diseño INE desde julio 2025, referencia **30/06/2026** y protocolo de extracción del municipio **45122** (commit `a3847ec9`). [Guía UC3M](content/uc3m/GUIA_EXAMEN_2026.md) incorpora tabla comparativa sobre corte normativo de **T10/T15/T16**: **TREBEP art.49.e** reformado en octubre, **LOSU** con **3 años** de adaptación estatutaria tras Ley 1/2024, y sentencia que anuló **RD 905/2025** sin anular **RD 822/2021** (commit `ae31f6e2`).
+
+**Fuente oficial UC3M confirmada de nuevo:** [base primera.7](https://boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) establece como corte **la publicación de la resolución definitiva que anuncia el ejercicio**. El [portal oficial](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) muestra el epígrafe de definitivos, pero no se recuperó la resolución primaria fechada; el dato **01/10/2026** de [ADAMS](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/) es secundario.
+
+**Automatización correctiva:** [test preventivo](tests/validate-olias-uc3m-pendientes-20261109.mjs), commit `5d17d8fd`, comprueba simultáneamente los temas aún pendientes y los avisos críticos en ambos manuales/guías; integrado en [workflow](.github/workflows/validate.yml) commit `d3f79100`. [Acta focal ampliada](audit/OLIAS_UC3M_CIERRE_FOCAL_2026-11-09.md), commit `4ba3b04b`.
+
+**Verificación CI:** el estado combinado consultado para `4ba3b04b` no devolvió checks; **no se declara CI superado**. No se ejecutó navegador E2E y el ZIP INE íntegro no ha podido recuperarse en esta sesión. **Estados jurídicos sin alteración artificial:** Olías **21/22 AUDITADO** (T13 pendiente), UC3M **17/20 AUDITADO** (T10/T15/T16 pendientes). **Cierre de criterios de estudio y regresión: sí; cierre de cuatro temas pendientes: no**.
