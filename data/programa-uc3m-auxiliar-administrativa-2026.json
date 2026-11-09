@@ -341,18 +341,32 @@
       "numero": 11,
       "titulo": "Real Decreto 364/1995: ingreso, provisión de puestos, carrera profesional y promoción interna. Ley 53/1984 de incompatibilidades.",
       "bloque": "recursos-humanos",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/uc3m/tema-11/manual.md",
       "fuentes": "content/uc3m/tema-11/fuentes.md",
       "matriz": "content/uc3m/tema-11/matriz.json",
       "preguntas": "content/uc3m/tema-11/preguntas.json",
-      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
-      "revisadoEl": "2026-11-08",
+      "estadoRevisionDocumental": "AUDITADO_JURIDICO_EDITORIAL_CON_RESERVA_FUNCIONAL",
+      "revisadoEl": "2026-11-09",
       "reservas": [
-        "Fecha primaria de corte legal de la convocatoria aún no acreditada",
-        "Aprobación del usuario no otorgada",
-        "E2E y certificación integral pendientes"
-      ]
+        "RD 364/1995 tiene ámbito AGE; no presumir que rige íntegramente la provisión UC3M",
+        "Fecha exacta resolución definitiva UC3M no contrastada en documento primario",
+        "CI E2E y accesibilidad pendientes"
+      ],
+      "actaAuditoria": "audit/UC3M_T11_AUDITORIA_INGRESO_PROVISION_INCOMPATIBILIDADES_2026-11-09.md",
+      "certificacionIntegral": false,
+      "auditoriaJuridica20261109": {
+        "fecha": "2026-11-09",
+        "fuentes": [
+          "RD 364/1995",
+          "Ley 53/1984",
+          "TREBEP arts. 18, 61, 78, 80"
+        ],
+        "preguntas": 12,
+        "alternativas": 48,
+        "certificacionIntegral": false,
+        "pruebaNavegadorE2E": false
+      }
     },
     {
       "numero": 12,
