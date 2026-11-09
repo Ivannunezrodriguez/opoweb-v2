@@ -82,15 +82,16 @@ Se analizó [`data/radar-direct-latest.json`](../data/radar-direct-latest.json) 
 
 ### Correcciones realizadas
 
-Se sustituyeron únicamente **tres URLs iniciales**, verificadas por consulta pública de las páginas oficiales; **los ID de fuente no cambiaron** para no romper la relación con el historial `radar-direct-state.json`.
+Se sustituyeron **cuatro URLs iniciales**, verificadas por consulta pública de las páginas oficiales; **los ID de fuente no cambiaron** para no romper la relación con el historial `radar-direct-state.json`.
 
 | Fuente | URL oficial nueva | Evidencia |
 |---|---|---|
 | **Alcorcón** | [Portal de Empleo Público](https://www.ayto-alcorcon.es/es/servicios/empleo-publico) | Ayuntamiento de Alcorcón, procesos y bolsas |
 | **SERMAS** | [Bolsas de contratación temporal](https://www.comunidad.madrid/salud/bolsas-contratacion-temporal-servicio-madrileno-salud) | Comunidad de Madrid, bolsas de centros sanitarios |
 | **Madrid bolsas** | [Trámites de Bolsa de Empleo](https://sede.comunidad.madrid/bolsa-empleo) | Sede electrónica de la Comunidad de Madrid |
+| **Valdemoro** | [Ofertas de empleo público municipal](https://www.valdemoro.es/ope) | Ayuntamiento de Valdemoro, sustitución de tablón con HTTP 404 |
 
-Configuración: [`data/radar-sources.json`](../data/radar-sources.json). Prueba de regresión: [`tests/radar-fixtures.mjs`](../tests/radar-fixtures.mjs), que verifica unicidad de fuentes, **ID estables** y URL esperada. La prueba puede validar **estructura y configuración**, pero no que un servidor externo responda siempre a un robot en GitHub Actions.
+Configuración: [`data/radar-sources.json`](../data/radar-sources.json). Prueba de regresión: [`tests/radar-fixtures.mjs`](../tests/radar-fixtures.mjs), que verifica **ID estables**, URL esperada y alias municipales compartidos sin colisión. La prueba puede validar **estructura y configuración**, pero no que un servidor externo responda siempre a un robot en GitHub Actions.
 
 ### Reservas y acciones futuras
 
