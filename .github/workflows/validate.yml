@@ -89,6 +89,8 @@ jobs:
         run: node tests/validate-practice-exam.mjs
       - name: Comprobar rutas a temas sin preguntas disponibles
         run: node tests/validate-practice-empty-theme-20261109.mjs
+      - name: Probar cargas simultáneas de convocatorias sin mezcla de bancos
+        run: node tests/validate-practice-concurrent-calls-20261109.mjs
       - name: Comprobar calificación y etiqueta de primer ejercicio La Puebla
         run: node tests/validate-la-puebla-primer-ejercicio-20261109.mjs
       - name: Verificar 144 alternativas legales UC3M T1 T2 T3
