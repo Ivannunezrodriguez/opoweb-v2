@@ -1,5 +1,7 @@
 # Tema 20. Ley 9/2017 de Contratos del Sector Público
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta LCSP y contratación UC3M**](../../../audit/UC3M_T20_AUDITORIA_CONTRATACION_2026-11-09.md). No equivale a `CERTIFICADO_INTEGRAL`; pruebas CI, E2E y accesibilidad pendientes.
+
 > Epígrafe oficial: ámbito, tipos, perfección, órgano de contratación, objeto, presupuesto, valor estimado, precio, preparación y adjudicación; contratación en la UC3M.
 
 **Control de vigencia:** Ley 9/2017, de 8 de noviembre, texto consolidado del BOE con última actualización publicada el **9 de abril de 2026**.
