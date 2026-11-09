@@ -103,3 +103,23 @@ Configuración: [`data/radar-sources.json`](../data/radar-sources.json). Prueba 
 - Sin prueba de entrega real de correo ni verificación de secretos de GitHub. **No** declarar detección exhaustiva de oportunidades ni cobertura del 100 %.
 
 > ⚠️ **¡Foco Examen!:** El radar de empleo es un sistema de descubrimiento, **no una fuente jurídica de admisión**. Cada oportunidad debe contrastarse con la convocatoria y las bases oficiales.
+
+
+### Colisiones de identificadores por pedanías — 09/11/2026
+
+Una prueba inicial de unicidad de ID descubrió **205 entradas configuradas, pero solo 200 IDs distintos**. No eran necesariamente 5 fuentes maliciosas: cuatro grupos de pedanías compartían **la misma web oficial** y el ID estaba calculado como `digest(url)`:
+
+| ID compartido (prefijo) | Ámbitos que comparten la sede |
+|---|---|
+| `2971cd0e...` | Alcolea de Tajo / El Bercial |
+| `a61041d2...` | Arisgotas / Orgaz |
+| `1ec2a9a1...` | Las Hunfrías / Navaltoril / Piedraescrita |
+| `d11a16bc...` | Robledillo / Robledo del Mazo |
+
+El problema técnico real era que `run()` enviaba todas las fuentes al grupo de hilos, por lo que **la misma URL y el mismo ID podían escanearse varias veces simultáneamente** y sobrescribir el estado común. Se ha añadido deduplicación **antes del rastreo concurrente**: si un ID se repite con igual URL se consulta solo una vez; si se repite con URL distinta se detiene con `SOURCE_ID_COLLISION` en lugar de mezclar historiales. **No se alteraron los IDs históricos ni se eliminaron las entradas originales de configuración.**
+
+**Pruebas:** `tests/radar-fixtures.mjs` tolera exactamente **5 alias adicionales** cuando comparten URL y rechaza reutilizar un ID para URL distinta; `tests/radar-direct-test.py` simula sedes duplicadas y colisiones. [**GitHub Actions del commit 51a11e2**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42579595924) finalizó correctamente.
+
+**Efectos esperados, todavía no medidos en rastreo real:** menos solicitudes duplicadas y eliminación de una carrera de escritura del estado. **No** se ha demostrado que mejore el número de fuentes READABLE ni que aparezcan nuevas oportunidades. El inventario de **206 estados** corresponde a la pasada **anterior** a este cambio.
+
+> ⚠️ **¡Foco Examen!:** Un ayuntamiento con varias entidades menores puede tener una sola web institucional. **Una fuente publicada varias veces** no equivale a varias convocatorias distintas.
