@@ -19,5 +19,7 @@ const manual10 = read(t10.manual);
 assert.ok(manual10.includes('Ley 4/2026'));
 assert.ok(manual10.includes('artículo 49.e'));
 assert.ok(manual10.includes('EN_REVISION_USUARIO'));
-assert.equal(program.temas.filter(t => t.estado === 'AUDITADO').length, 10);
+const audited = program.temas.filter(t => t.estado === 'AUDITADO');
+assert.ok(audited.length >= 10, 'Se han perdido temas auditados sin motivo');
+assert.equal(audited.length + program.temas.filter(t => t.estado === 'EN_REVISION_USUARIO').length, 20);
 console.log('UC3M: T11 auditado, T10 pendiente con advertencia de reforma posterior al corte probable.');
