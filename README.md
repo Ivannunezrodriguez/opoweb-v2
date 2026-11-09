@@ -17,10 +17,10 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 | La Puebla de Montalbán C2 | **19** | **19 APROBADO_USUARIO** históricos de julio | Falta recertificación jurídica global de noviembre |
 | Diputación Toledo Administrativo C1 | **40** | **39 AUDITADO** | **T22 OAPGT** pendiente de estatutos íntegros |
 | Diputación Toledo Auxiliar C2 | **20** | **19 AUDITADO** | **T6 OAPGT**, todavía BORRADOR |
-| Olías del Rey Auxiliar de edificios C2 | **22** | **21 AUDITADO** | **T13 callejero** pendiente del inventario oficial completo INE |
-| UC3M Auxiliar Administrativa C2 | **20** | **20 desarrollados con reserva de corte**; formalmente **EN_REVISION_USUARIO** | Fecha oficial de corte normativo y auditoría final |
+| Olías del Rey Auxiliar de edificios C2 | **22** | **22 AUDITADO** | **T13 cerrado editorialmente** con 280 registros VIAS del INE (30/06/2026); E2E pendiente |
+| UC3M Auxiliar Administrativa C2 | **20** | **17 AUDITADO**, **3 EN_REVISION_USUARIO** (T10/T15/T16) | Anexo I definitivo firmado 30/09/2026; publicación de resolución pendiente |
 
-**Lectura correcta de contadores:** **79/121** temas con estado **AUDITADO** actual; **19/121** aprobados históricamente en La Puebla; **20/121** temas UC3M desarrollados pero no aprobados; **3/121** bloqueos documentales. Estas categorías **no equivalen** a certificación integral. **0/121** temas cuentan con cierre jurídico-editorial, técnico, funcional y de accesibilidad demostrado de extremo a extremo.
+**Lectura correcta de contadores (09/11/2026, tras los documentos INE y UC3M aportados):** **97/121** temas con estado **AUDITADO** actual (39 Diputación C1, 19 Diputación C2, 22 Olías y 17 UC3M); **19/121** aprobados históricamente en La Puebla; **5/121** pendientes editoriales (C1 T22, C2 T6 y UC3M T10/T15/T16). Estas categorías **no equivalen** a certificación integral. **0/121** temas cuentan con cierre jurídico-editorial, técnico, funcional y de accesibilidad demostrado de extremo a extremo.
 
 **Bancos y preparación:** UC3M conserva **260 preguntas temáticas** y **3 simulacros de 70 titulares + 5 de reserva**, con corrección de **A − E/3**, según bases. Olías cuenta con **279 preguntas temáticas**, **40 psicotécnicas** y dos simulacros de 50+20. Diputación C1 tiene **807 preguntas**, incluyendo 24 del T22 OAPGT. Los tests automatizados de integridad y coherencia no equivalen a verificar jurídicamente todos los distractores. El estado de la web debe verificarse en navegador real.
 
@@ -28,7 +28,7 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 **Puntos críticos:** Olías tiene discrepancias BOP/BOE sobre **número de plazas** y **20 días naturales/hábiles**; evitar afirmar que están resueltas. UC3M exige fecha primaria de listas definitivas (base 1.7) para fechar qué legislación entra; el **01/10/2026** sigue como dato secundario no certificado. El `sw.js` está configurado para darse de baja y borrar cachés, por lo que **no se garantiza uso sin conexión** pese a disponer de `manifest.json`.
 
-**Prioridades de la siguiente fase:** cerrar documentos oficiales OAPGT y callejero de Olías; acreditar corte legal UC3M; controles jurídicos frase a frase; pruebas manuales E2E en móvil/escritorio, WCAG y persistencia; depurar divergencias entre textos informativos y estados formales. No sustituir pruebas por más contenido de repaso.
+**Prioridades de la siguiente fase:** cerrar documentos oficiales OAPGT; acreditar publicación de resolución UC3M y corte legal T10/T15/T16; controles jurídicos frase a frase; pruebas manuales E2E en móvil/escritorio, WCAG y persistencia; depurar divergencias entre textos informativos y estados formales. No sustituir pruebas por más contenido de repaso.
 
 ## Fuente del programa
 
