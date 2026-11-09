@@ -162,3 +162,27 @@ for (const [name,id,url] of expectedOfficialSources) {
  assert.equal(new URL(matches[0].url).protocol,'https:');
 }
 console.log('RADAR_4_OFFICIAL_SOURCES_URLS_IDS_STABLE_OK');
+
+// Invalid legacy strings imported from the municipality directory must never
+// return: an URL with embedded protocol/space cannot be fetched by the crawler.
+const repairedMunicipalUrls=[
+ ['ROBLEDILLO (*)','d11a16bc69943fbee99a4086','http://valledelgevalo.es/'],
+ ['ROBLEDO DEL MAZO','d11a16bc69943fbee99a4086','http://valledelgevalo.es/'],
+ ['YÉBENES, LOS','d530665158ab6b5dfed5b9e3','https://ayuntamiento.losyebenes.es/ofertas-de-empleo'],
+ ['SANTA CRUZ DEL RETAMAR','5327167e56b049b905c6e0f4','http://santacruzdelretamar.es']
+];
+for(const [name,id,url] of repairedMunicipalUrls){
+ const src=directConfig.sources.find(x=>x.name===name);
+ assert(src,'Missing municipality '+name);
+ assert.equal(src.id,id,'Preserve source ID for '+name);
+ assert.equal(src.url,url,'Municipal URL regression: '+name);
+ assert.equal(new URL(src.url).origin,new URL(url).origin);
+}
+for(const source of directConfig.sources){
+ assert.match(source.url,/^https?:\/\//,'Bad URL scheme: '+source.name);
+ assert(!/\s/.test(source.url),'Whitespace in URL: '+source.name);
+ const parsed=new URL(source.url);
+ assert(parsed.hostname&&!parsed.hostname.includes('http:'),'Invalid URL hostname: '+source.name);
+}
+console.log('RADAR_MUNICIPAL_URL_SYNTAX_AND_HISTORICAL_IDS_OK');
+
