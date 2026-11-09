@@ -12,7 +12,7 @@ assert.equal(c2.themeCount, 20);
 assert.equal(c2.supuestosUrl, null, 'No inventar supuestos que todavía no están publicados');
 assert.equal(c2.simulacrosUrl, null, 'No inventar simulacros que todavía no están publicados');
 
-const bankCode = source.slice(source.indexOf('async function loadQuestionBanks()'), source.indexOf('function renderHistory('));
+const bankCode = source.slice(source.indexOf('async function loadQuestionBanks('), source.indexOf('function renderHistory('));
 const loadBanks = new Function('activeCall', 'fetch', 'normaliseQuestion',
   bankCode + '\nreturn loadQuestionBanks;'
 );
@@ -34,8 +34,8 @@ assert.ok([...banks.values()].every(q => Number.isInteger(q.tema) && q.tema !== 
 const loadCode = source.slice(source.indexOf('async function loadCall('), source.indexOf('\nasync function boot()'));
 const loadCall = new Function(
   'CALLS', 'localStorage', 'history', 'document', 'app', 'fetch', 'loadQuestionBanks',
-  'renderHub', 'startThemeTest', 'location',
-  'let activeCall, programme, supuestos, simulacros, questionMap;\n' +
+  'loadExtraRepasos', 'renderHub', 'startThemeTest', 'location',
+  'let latestCallLoad=0, activeCall, programme, supuestos, simulacros, questionMap, extraRepasos, extraRepasoErrors; const SELECTED_CALL_KEY="test";\n' +
   loadCode + '\nreturn async id => { await loadCall(id); return {activeCall, programme, supuestos, simulacros, questionMap}; };'
 );
 const requested = [];
@@ -46,7 +46,7 @@ const run = loadCall(calls, { setItem() {} }, { replaceState(_a, _b, url) { rout
     requested.push(path);
     return { ok: true, json: async () => ({ temas: [{ numero: 1, titulo: 'Constitución' }] }) };
   },
-  async () => banks, () => {}, () => {}, { search: '' }
+  async () => banks, async () => ({ packs: [], errors: [] }), () => {}, () => {}, { search: '' }
 );
 const loaded = await run(c2.id);
 assert.equal(loaded.activeCall.id, c2.id, 'La práctica no debe redirigir silenciosamente a La Puebla');
