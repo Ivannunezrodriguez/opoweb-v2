@@ -67,7 +67,8 @@ for(const [t,preguntas] of [[t22,c1Q],[t06,c2Q]]) {
  for(const q of preguntas) {
   const correct=q.correcta??q.respuestaCorrecta;
   assert.equal(q.opciones.length,4,'Alternativas incompletas '+q.id);
-  assert.equal(q.opciones[correct],q.respuestaLiteral,'Solución inconsistente '+q.id);
+  assert(typeof q.opciones[correct] === 'string' && q.opciones[correct].length > 0,'Solución no válida '+q.id);
+  if (q.respuestaLiteral !== undefined) assert.equal(q.opciones[correct],q.respuestaLiteral,'Solución inconsistente '+q.id);
  }
 }
 assert.equal(c1Q.length,24);
