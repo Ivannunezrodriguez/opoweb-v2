@@ -48,3 +48,10 @@ La [**UC3M enlaza oficialmente su colección de presupuestos anuales desde el Po
 **Criterio de aprobación:** ninguno de los ítems con respaldo solo secundario se eleva a **COTEJADO_FUENTE_PRIMARIA**. Los **dos temas mantienen `EN_REVISION_USUARIO`** hasta que el texto oficial completo quede disponible y contrastado.
 
 > ⚠️ **¡Foco Examen!:** El documento **O** representa **propuesta de pago** en estas Normas Básicas; no confundir **O** con el pago material efectivo. La intervención del **Consejo Social** y del **Gobierno autonómico** depende de la dirección de la transferencia de crédito.
+
+
+## Rectificación del bloqueo documental de este informe — 09/11/2026
+
+**La reserva de acceso al Volumen I que aparece en apartados anteriores de este informe ha quedado superada.** Posteriormente se recuperó directamente el [**Volumen I oficial UC3M Presupuesto 2026**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), PDF de **3.807.877 bytes**, y se cotejaron sus artículos **5, 6, 14, 15 y 16** con **24 preguntas originales**. La [**acta primaria posterior**](UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md) prevalece sobre la calificación provisional de fuente secundaria descrita arriba.
+
+**Estado vigente: T18 y T19 = AUDITADO jurídico-editorial con reserva funcional.** No significa **CERTIFICADO_INTEGRAL**.
