@@ -90,3 +90,11 @@ for(const path of [t22.manual,t06.manual]) {
  assert(text.includes('no se aplica automáticamente sin excepciones'), 'No se documenta límite de ámbito del acuerdo en '+path);
 }
 console.log('ACUERDO_2023_ARTS_1_3_OK: partes, ámbito y vigencia comprobados; reformas 2025/26 pendientes');
+
+// La cláusula de elevación automática deriva del art. 49.c LBRL, sin condición
+// adicional de que el acuerdo inicial la reproduzca expresamente.
+const est2026=read('content/diputacion-toledo-auxiliar-c2/tema-06/estatutos-oapgt-texto-integro-1996-2011.md');
+for(const key of ['49.c','30 días','no exige','elevación legal automática','70.2 LBRL']) {
+ assert(est2026.includes(key),'Falta cautela art. 49: '+key);
+}
+console.log('OAPGT_ART49_LBRL_OK: elevación automática distinguida de la prueba del expediente de 2004');
