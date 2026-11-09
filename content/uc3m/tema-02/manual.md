@@ -1,5 +1,7 @@
 # Tema 2. Ley 39/2015 (I)
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta de cotejo y reservas**](../../../audit/UC3M_T02_AUDITORIA_LEY39_2026-11-09.md). **No es CERTIFICADO_INTEGRAL**: aprobación de usuario, pruebas de navegador/accesibilidad y CI definitivo siguen pendientes.
+
 > Epígrafe oficial: disposiciones generales; interesados; actividad de las Administraciones Públicas; actos administrativos.
 
 ## 1. Objeto y ámbito de aplicación
