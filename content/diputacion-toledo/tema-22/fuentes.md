@@ -115,3 +115,18 @@ Se ha identificado la [**Hemeroteca del BOP Toledo alojada por la Diputación**]
 **Cierre coordinado:** usar **una sola matriz jurídica** para [**Diputación C1, tema 22**](manual.md) y [**Diputación Auxiliar C2, tema 6**](../../diputacion-toledo-auxiliar-c2/tema-06/manual.md). No contar dos veces la misma evidencia ni aumentar los estados editoriales hasta completar la reconstrucción oficial.
 
 > ⚠️ **¡Foco Examen!:** La propuesta de **2004** contenía el término «**Área de Hacienda**»; la modificación oficial de **2011**, en su **art. 1.2**, establece la adscripción a la **Presidencia de la Diputación**. No memorizar la primera como vigente sin comprobar el desarrollo normativo.
+
+
+## Corroboración institucional posterior: acta plenaria de 05/02/2021
+
+Se ha localizado el [**certificado oficial del Secretario General de la Diputación, acta del Pleno de 05/02/2021, archivo PDF de 65 páginas**](https://www.diputoledo.es/global/ver-pdf/30613), firmado el **08/02/2021** (CSV señalado en el propio documento: `617fhCS7Vz12P1vGWSpe`). El documento recoge la **actualización de convenios del OAPGT** y transcribe en un considerando institucional la atribución del **art. 4.1.a** de sus Estatutos: **información, asistencia, gestión, inspección y recaudación** de tributos y demás ingresos de derecho público delegados o encomendados. Esta formulación está corroborada por la reforma oficial publicada en el [**BOP 284/2011**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=284&insert_year=2011&publication_date=14122011).
+
+| Documento | Qué acredita | Qué no acredita |
+|---|---|---|
+| **BOP 284/2011**, reforma de **art. 4.a** | Redacción normativa de las **materias** de delegación en ese acto | Que no existan cambios estatutarios posteriores |
+| **Certificado del Pleno de 05/02/2021** | Aplicación **en 2021** de las competencias estatutarias en convenios con otras entidades públicas | Texto íntegro y consolidado de los Estatutos, o un nuevo régimen general de órganos |
+| **BOP 92/2023** | Uso institucional de determinados **arts. 10, 12 y 14** | Composición, quórum y mayorías completos en 2026 |
+
+**Reserva de verificación:** la consulta del PDF oficial permitió acceder a su contenido textual y metadatos, pero la herramienta de captura visual de la segunda página falló, por lo que **no se certifica inspección visual del PDF**. No se añaden cuantías, quórums ni mayorías nuevos sin su fuente legal primaria y versión aplicable.
+
+> ⚠️ **¡Foco Examen!:** **Diputación provincial** y **OAPGT** no son el mismo órgano. La entidad local **delega o encomienda funciones a la Diputación**, que las ejerce **a través del OAPGT** cuando corresponde. Un **convenio particular de 2021** no es una reforma general de los Estatutos.
