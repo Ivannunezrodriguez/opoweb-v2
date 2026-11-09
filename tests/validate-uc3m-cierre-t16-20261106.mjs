@@ -64,3 +64,22 @@ assert(q240.referencia.includes('art. 14.1') && !q240.referencia.includes('art. 
 assert.equal(q240.respuestaLiteral,'240 ECTS');
 assert(q240.justificacion.includes('14.1')&&q240.justificacion.includes('14.2'));
 console.log('UC3M_T16_003_ART14_1_240_ECTS_OK');
+
+const anclasBOE={ '017':'11', '018':'14', '019':'14', '020':'17', '021':'17' };
+for(const [id,art] of Object.entries(anclasBOE)){
+ const q=bank.preguntas.find(q=>q.id==='UC3M-T16-'+id);
+ assert(q?.referencia.includes('BOE-A-2021-15781#a'+art), 'Enlace BOE sin artículo preciso: T16-'+id);
+}
+const verificacionesNormativas=[
+ ['017','Curriculares','11.2'],
+ ['018','25 % del total, con excepciones','14.5'],
+ ['019','Entre 6 y 24 ECTS','14.6'],
+ ['020','Un tercio','17.3'],
+ ['021','Entre 6 y 30 ECTS','17.4']
+];
+for(const [id,answer,article] of verificacionesNormativas){
+ const q=bank.preguntas.find(q=>q.id==='UC3M-T16-'+id);
+ assert.equal(q.respuestaLiteral,answer,'Clave RD822 incorrecta T16-'+id);
+ assert(q.referencia.includes(article),'Precepto de pregunta mal atribuido T16-'+id);
+}
+console.log('UC3M_T16_ARTS11_14_17_CINCO_CLAVES_VINCULADAS_BOE_OK');
