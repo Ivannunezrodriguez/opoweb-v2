@@ -309,3 +309,15 @@ Se han aclarado dos trampas: **T1**, entrada en vigor de la reforma constitucion
 **No confundir `AUDITADO` con `CERTIFICADO_INTEGRAL`:** el **corte jurídico** de la convocatoria continúa sin documento primario de fecha de publicación verificada y la validación real de navegador, accesibilidad y GitHub Actions del último commit sigue pendiente.
 
 > ⚠️ **¡Foco Examen!:** Una pregunta con clave correcta puede contener un plazo o una excepción mal expresados; por eso cada tema auditado enlaza su acta de contraste con la **fuente primaria**.
+
+
+## Actualización de auditoría UC3M — **09/11/2026 (segunda fase)**
+
+El inventario del repositorio identifica ahora **9 temas `AUDITADO`**: **T1–T7, T9 y T12**; los **11 temas restantes** siguen `EN_REVISION_USUARIO`: **T8, T10, T11 y T13–T20**. Esta actualización **sustituye el recuento anterior de 7**, que se conserva en el historial documental como fotografía previa.
+
+- **Tema 7:** [**acta de transparencia**](../../audit/UC3M_T07_AUDITORIA_TRANSPARENCIA_2026-11-09.md). Ley **10/2019**, actualizada en **2024**; derecho de acceso **20 días hábiles** para resolver según **art. 42** y **Ley 39/2015 art. 30.2**; ampliar **otros 20**, con **5 días hábiles** para ciertas inadmisiones; competencia resolutoria en la UC3M: **Rector**.
+- **Tema 12:** [**acta de prevención**](../../audit/UC3M_T12_AUDITORIA_PRL_2026-11-09.md). Ley **31/1995** actualizada por **Ley 1/2026**, con cambios vigentes desde **10/04/2026**; Comité de Seguridad y Salud desde **50 trabajadores**, de carácter **paritario**.
+
+Los **9 estados AUDITADO** acreditan revisión jurídico-editorial o técnico-editorial documentada. **No** son nueve certificaciones integrales; continúan pendientes CI en verde del commit final, E2E, accesibilidad y la fecha documental exacta del corte de la base **primera.7**.
+
+> ⚠️ **¡Foco Examen!:** En transparencia, los **20 días** del art. 42 se interpretan con la regla general de **días hábiles** salvo excepción legal; **no** deben mezclarse con los **5 días hábiles** para inadmisión. En PRL, el umbral de **50** para el Comité no se altera por la reforma de **2026** en otros artículos.
