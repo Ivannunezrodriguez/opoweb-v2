@@ -99,6 +99,18 @@ for (const [number, source] of [[8,'BOE-A-2007-6115'],[13,'BOE-A-2023-7500']]) {
     }
   }
 }
+const losuII = program.temas.find(t => t.numero === 14);
+assert.equal(losuII.estado, 'AUDITADO');
+assert.equal(json(losuII.matriz).estado, 'AUDITADO');
+assert.ok(losuII.actaAuditoria && existsSync(losuII.actaAuditoria));
+const losuBank = json(losuII.preguntas).preguntas;
+assert.equal(losuBank.length, 14);
+for (const q of losuBank) {
+  assert.equal(q.respuestaLiteral, q.opciones[q.correcta], 'Clave literal T14 incoherente ' + q.id);
+  assert.ok(q.referencia.includes(q.id === 'UC3M-T14-003' ? 'BOE-A-2003-17782' : 'BOE-A-2023-7500'), 'Falta BOE en T14: ' + q.id);
+}
+const warning2026 = readFileSync(losuII.actaAuditoria, 'utf8');
+assert.ok(warning2026.includes('RD 855/2026') && warning2026.includes('22/10/2026'));
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
