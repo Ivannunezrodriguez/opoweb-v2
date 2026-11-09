@@ -344,3 +344,17 @@ Una persona funcionaria de carrera de una universidad solicita cambiar de puesto
 **Fuentes:** [**TREBEP, arts. 10, 62–68 y 85–91**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719).
 
 **Control:** revisión de los **11 bloques** de la matriz y dos casos nuevos; se conserva banco previo **12 preguntas/48 alternativas**, aprobado por el usuario **no acreditado**. Corte legal primario UC3M y E2E pendientes.
+
+
+## Reforma del TREBEP publicada el **03/10/2026** — control de vigencia
+
+La [**Ley 4/2026, de 1 de octubre, BOE-A-2026-20528**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528), modificó mediante su **disposición final undécima** el **artículo 49.e del TREBEP**. El [**TREBEP consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719&p=20261003) incorpora la actualización publicada el **03/10/2026**.
+
+| Supuesto | Regla introducida en **2026** | Condiciones |
+|---|---|---|
+| **Gran discapacidad o gran dependencia** de la persona a cargo | Excepcional prórroga de la reducción de jornada **más allá de los límites de edad** | Necesidad de cuidados **directos, continuos y permanentes**, debidamente acreditada, y mantenimiento de la convivencia |
+| **Dos progenitores, adoptantes o guardadores/acogedores permanentes** | Posibilidad excepcional de compartir simultáneamente la reducción hasta un **100 % conjunto** | Supuestos de especial intensidad asistencial, reparto proporcional al tiempo de reducción de cada uno |
+
+> ⚠️ **¡Foco Examen!:** El **100 %** es un **máximo conjunto compartido**, no un derecho a reducción del **100 % para cada progenitor**. La prórroga más allá del límite de edad requiere **gran discapacidad o gran dependencia**, cuidados acreditados y convivencia.
+
+**Reserva de la convocatoria UC3M:** la base **primera.7** exige la redacción aplicable a la **publicación de la resolución definitiva de admitidos y convocatoria del ejercicio**, cuya fecha primaria de publicación no está aún acreditada en esta auditoría. La modificación de **03/10/2026** debe ser comparada con esa fecha antes de certificar la exigibilidad del nuevo texto. El estado del tema sigue **EN_REVISION_USUARIO**.
