@@ -71,3 +71,14 @@ La reproducción [**histórica de 2004**](https://www.dateas.com/es/docs/boletin
 Las evidencias y los hitos están ordenados con el **mismo criterio para C1 tema 22 y C2 tema 6** en [**fuentes del tema 22 C1**](../../diputacion-toledo/tema-22/fuentes.md). **Estado C2 T6: BORRADOR**; sin nuevos puntos, preguntas añadidas ni cierre de quórums o composición orgánica.
 
 > ⚠️ **¡Foco Examen!:** **1996 original** + **rectificación de 1996** + **aprobación definitiva de reformas** + **2011 y cambios posteriores** deben cotejarse **en ese orden**. Una reproducción no oficial de la **aprobación inicial de 2004** no basta.
+
+
+## Corroboración de aplicación del artículo 4.a en 2021
+
+El [**certificado oficial de Secretaría General de Diputación, Pleno de 05/02/2021**](https://www.diputoledo.es/global/ver-pdf/30613), **65 páginas**, firmado el **08/02/2021**, documenta convenios mediante los que la **Diputación ejerce funciones delegadas por otras entidades a través del OAPGT**. Reproduce como fundamento el **artículo 4.1.a de los Estatutos** relativo a **información, asistencia, gestión, inspección y recaudación** de tributos y demás ingresos de derecho público.
+
+Es un **corroborador institucional de aplicación en 2021**, no una reproducción íntegra de los Estatutos consolidados ni prueba de vigencia literal de todos sus artículos en 2026. Para reconstruir la norma debe anteponerse la [**reforma oficial del BOP 284/2011**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=284&insert_year=2011&publication_date=14122011). La comprobación visual del PDF del acta no pudo completarse por un error del visor, aunque su texto recuperado permite documentar el considerando.
+
+**Consulta transversal:** se utiliza la misma evidencia en [**Diputación C1 tema 22**](../../diputacion-toledo/tema-22/fuentes.md), sin sumar artificialmente un cierre documental.
+
+> ⚠️ **¡Foco Examen!:** **Delegación a Diputación** y **ejercicio operativo por OAPGT** son actos y niveles distintos. El convenio concreto no sustituye a los **Estatutos** ni permite inventar quórums o composición.
