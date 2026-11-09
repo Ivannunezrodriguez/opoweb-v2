@@ -3660,3 +3660,19 @@ Leídos `PROJECT_RULES.md` y §176 antes de actuar. HEAD previo `453b8e66b8f7969
 **Auditoría de cobertura real del radar**, con lectura del [**último estado directo guardado**](data/radar-direct-latest.json): **206 estados de fuente**, desglosados en **42 READABLE**, **118 PARTIAL** y **46 ERROR**. `entries: []` (**0** entradas en esa instantánea), que **no permite concluir que no existan oportunidades nuevas**. [**Workflow radar**](.github/workflows/radar-empleo.yml) programado para **05:17 y 15:17 UTC**; perfil [**Toledo + sur Madrid y oportunidades nuevas**](data/radar-profile.json). La configuración de correo depende de secretos (`RADAR_EMAIL`, `RESEND_API_KEY`) cuyo estado y entrega **no se han comprobado**. Por tanto el radar está implementado, pero su cobertura externa es **parcial** y **no exhaustiva**.
 
 Se ha actualizado el [**informe general de estado**](ESTADO_GENERAL_OPOWEB_2026-11-09.md) con la medición del radar y el resultado Pages. **Pendiente prioritario añadido:** reducir errores por fuente y probar entrega de notificaciones sin fabricar oportunidades ni suponer que `PARTIAL` equivale a fuente cubierta. Los estados editoriales de las cinco convocatorias y contadores **79 AUDITADO + 19 históricos + 20 desarrollados con reserva + 3 bloqueados** permanecen sin alteración.
+
+
+## 178. OpoRadar — auditoría técnica de 46 fuentes ERROR y reparación de tres rutas (**09/11/2026**)
+
+**Actuación verificada:** lectura directa de [configuración de 205 fuentes iniciales](data/radar-sources.json), [código de rastreo](tools/radar-direct.py), [pruebas](tests/radar-fixtures.mjs) e [instantánea previa](data/radar-direct-latest.json). La última registra **206 estados**, incluyendo directorio: **42 READABLE**, **118 PARTIAL**, **46 ERROR**, **0 entradas nuevas**; no equivale a que no existan convocatorias.
+
+**Clasificación del primer error de las 46 fuentes:** **5 HTTP 403**, **6 HTTP 404**, **7 redirecciones/bucles**, **1 SSL**, **4 anti-bot**, **2 sin HTML enlazable/JavaScript**, **3 HTTP 5xx**, **18 otros**. Los recuentos reflejan el resultado de la pasada guardada, no pruebas nuevas de conectividad externa.
+
+**Reparación focal realmente editada en `main`:** tres URLs de entrada verificadas en los portales públicos oficiales:
+- **Alcorcón:** desde una antigua ruta de recursos humanos a [**empleo público municipal**](https://www.ayto-alcorcon.es/es/servicios/empleo-publico).
+- **SERMAS:** desde recursos humanos general a [**bolsas de contratación temporal**](https://www.comunidad.madrid/salud/bolsas-contratacion-temporal-servicio-madrileno-salud).
+- **Madrid bolsas:** desde página de presentación de bolsas a [**sede electrónica, búsqueda de bolsas**](https://sede.comunidad.madrid/bolsa-empleo).
+
+Se mantienen los **tres IDs históricos** y se sincroniza la procedencia. Cambios en `data/radar-sources.json` (commits `7b7d0b2b0e8e659009671e13333a0e7340628466`, `f655c732a696a606f19295a3a1592a2e83c3beb9`). [`tests/radar-fixtures.mjs`](tests/radar-fixtures.mjs) protege IDs, URLs y unicidad de fuentes (commit `34e12339f37db5bd218d625f4cfa7079504931c6`). Fuentes y reservas documentadas en [**RADAR_EMPLEO.md**](docs/RADAR_EMPLEO.md) y en [**informe general de OpoWeb**](ESTADO_GENERAL_OPOWEB_2026-11-09.md).
+
+**Puertas abiertas:** verificar las respuestas HTTP desde el runner en la **siguiente ejecución del radar**; ni la configuración ni los fixtures permiten declarar fuentes recuperadas todavía. No desactivar TLS o eludir captchas. El flujo de correo sigue sin prueba real de entrega. Sin cambios en bancos de preguntas o estados de cierre (79 AUDITADO actuales, 19 La Puebla históricos, 20 UC3M desarrollados bajo reserva, 3 bloqueos).
