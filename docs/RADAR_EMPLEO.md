@@ -160,3 +160,14 @@ Se ha incorporado una mejora al [**rastreador directo**](../tools/radar-direct.p
 Los estados `READABLE`, `PARTIAL`, `ERROR` se siguen registrando por fuente. Los nuevos campos permiten atribuir un recuento a **una pasada concreta**, sin confundir cantidad de municipios declarados con webs consultadas. El test offline [**radar-direct-test.py**](../tests/radar-direct-test.py) verifica el sello UTC y los denominadores con **dos alias de la misma sede**.
 
 **Límite explícito:** la instantánea anteriormente guardada con **42 legibles, 118 parciales y 46 errores** todavía **no** incluye estos campos ni constituye prueba de ejecución posterior a las reparaciones de URLs. La actualización documental y CI **no ejecutan una lectura real del total de webs ni prueban envío de alertas**.
+
+
+## Aviso público de cobertura incompleta en radar.html — 09/11/2026
+
+Se ha detectado una brecha de transparencia de interfaz: [**radar.html**](../radar.html) mostraba `Fuentes que respondieron` basándose únicamente en las **seis fuentes agregadas** del módulo general (`BOE`, `BOCM`, `BOP Toledo`, `DOCM`, `PAG`, `DIRECT`), pero no advertía que la lectura de las fuentes municipales y autonómicas de `DIRECT` podía ser incompleta.
+
+Se ha actualizado [**assets/radar.js**](../assets/radar.js) para mostrar un aviso de cobertura que resume directamente `data/radar.json.directSourceStatus`: **READABLE, PARTIAL, ERROR y número total de estados de fuente**. El aviso aparece cuando existen fuentes parciales/con error, o cuando el desglose de fuentes directas no está disponible; evita dar a entender que `DIRECT: ok` equivale a **todos los ayuntamientos leídos**.
+
+Se ha protegido el mensaje en [**tests/radar-fixtures.mjs**](../tests/radar-fixtures.mjs) para que no desaparezca inadvertidamente. El comportamiento se comprobará en GitHub Actions; **no es una prueba E2E real de navegador**. La última instantánea almacenada antes de un nuevo rastreo continúa reflejando **42 legibles, 118 parciales y 46 con error**; estos números proceden del archivo previo, no de una ejecución posterior a las reparaciones de URLs.
+
+> ⚠️ **¡Foco Examen!:** **Fuente principal DIRECT operativa** no es lo mismo que **todas las fuentes locales operativas**. Verificar bases y boletines oficiales sigue siendo imprescindible.
