@@ -144,3 +144,19 @@ El inventario municipal importado desde el directorio de Diputación contenía c
 **Reserva de cobertura:** URL sintácticamente válida **no implica** respuesta HTTP correcta ni extracción de anuncios. No hay una pasada del radar posterior contrastada; no modificar las cifras históricas **42 READABLE / 118 PARTIAL / 46 ERROR**.
 
 > ⚠️ **¡Foco Examen!:** Un enlace inválido de un directorio oficial es un problema técnico del dato de origen; debe repararse contrastándolo con el directorio o el ayuntamiento, **no inventando otra web**.
+
+
+## Trazabilidad temporal de cada nueva pasada — 09/11/2026
+
+Se ha incorporado una mejora al [**rastreador directo**](../tools/radar-direct.py) para que, **a partir de su próxima ejecución efectiva con red**, `data/radar-direct-latest.json` contenga:
+
+| Campo nuevo | Significado |
+|---|---|
+| `checkedAtUtc` | Hora de finalización de la pasada en **UTC**, ISO 8601 y con desplazamiento explícito `+00:00` |
+| `configuredSources` | Número de entradas originales de configuración, incluyendo pedanías que comparten URL |
+| `uniqueSources` | Número de identificadores distintos realmente enviados a la piscina concurrente |
+| `sharedSourceAliases` | Entradas que comparten ID y URL, deduplicadas antes del rastreo |
+
+Los estados `READABLE`, `PARTIAL`, `ERROR` se siguen registrando por fuente. Los nuevos campos permiten atribuir un recuento a **una pasada concreta**, sin confundir cantidad de municipios declarados con webs consultadas. El test offline [**radar-direct-test.py**](../tests/radar-direct-test.py) verifica el sello UTC y los denominadores con **dos alias de la misma sede**.
+
+**Límite explícito:** la instantánea anteriormente guardada con **42 legibles, 118 parciales y 46 errores** todavía **no** incluye estos campos ni constituye prueba de ejecución posterior a las reparaciones de URLs. La actualización documental y CI **no ejecutan una lectura real del total de webs ni prueban envío de alertas**.
