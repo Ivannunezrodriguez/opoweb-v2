@@ -98,3 +98,20 @@ La [sede electrónica del OAPGT, normativa](https://sede.oapgt.es/Paginas/Normat
 Leída y cotejada la página oficial del [**BOP Toledo 284/2011, anuncio 11024**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011), reforma aprobada por el **Pleno de Diputación el 28/11/2011**. Contiene el **art. 1.2 (adscripción a Presidencia)**, **art. 8 bis (fin de vía administrativa)**, **art. 4.a (materias de delegación)**, **art. 14.d.1 (resoluciones en funciones atribuidas)** y **disposición adicional (órgano instructor, organigrama y publicación por Presidencia)**. Incorporada una tabla y un caso al manual sin modificar el banco de **24 preguntas / 96 alternativas**.
 
 **Límite:** esta publicación acredita su texto de **2011**, no el texto estatutario íntegro consolidado en **2026**. T22 sigue pendiente.
+
+
+## Ruta oficial del archivo histórico y contraste cruzado con C2 — **09/11/2026**
+
+Se ha identificado la [**Hemeroteca del BOP Toledo alojada por la Diputación**](https://bibliotecadigital.diputoledo.es/pandora/index.vm?lang=es&view=bop), accesible también desde el [**Archivo Provincial de la Diputación**](https://www.diputoledo.es/global/4/1710/6181), como **vía primaria para recuperar los boletines históricos**, no como prueba de que se haya inspeccionado ya cada página original.
+
+| Hito por resolver | Evidencia disponible hoy | ¿Qué sigue sin acreditarse? |
+|---|---|---|
+| **27/09/1996**, aprobación definitiva; **11/10/1996**, BOP 235 | Reproducción histórica [**BOP 235/1996**](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/1996/10/11); reconocimiento expreso en [**BOP oficial de 2023**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=92&insert_year=2023&publication_date=16052023) | Lectura visual y literal de la edición original en el **archivo oficial de 1996** |
+| **04/11/1996**, corrección del artículo 8 | Reproducción histórica de [**rectificación BOP de noviembre de 1996**](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/1996/11/04) | Cotejo de la **corrección oficial** y su integración antes de enseñar órganos |
+| **21/12/2004**, aprobación inicial; **23/12/2004**, anuncio con articulado | [**Reproducción del anuncio de 2004**](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/2004/12/23), que anuncia reforma de **17 artículos** (**1, 2, 3, 6, 8, 9, 10, 11, 12, 14, 15, 16, 19, 22, 23, 29 y 30**) y disposiciones transitorias/final | **Aprobación definitiva, publicación eficaz y texto final**, y su localización en la **hemeroteca oficial**. La aprobación inicial **no** permite atribuir vigencia a esa propuesta |
+| **14/12/2011**, BOP 284 | [**Reforma oficial de 2011**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=284&insert_year=2011&publication_date=14122011), con modificación de artículos 1, 4.a, 8 bis, 14.d y disposición adicional | Revisar modificaciones posteriores que puedan haber alterado esa redacción |
+| **2019–2024**, anuncios institucionales | Referencias a artículos de Estatutos usadas en decisiones oficiales | No proporcionan el texto estatutario consolidado completo |
+
+**Cierre coordinado:** usar **una sola matriz jurídica** para [**Diputación C1, tema 22**](manual.md) y [**Diputación Auxiliar C2, tema 6**](../../diputacion-toledo-auxiliar-c2/tema-06/manual.md). No contar dos veces la misma evidencia ni aumentar los estados editoriales hasta completar la reconstrucción oficial.
+
+> ⚠️ **¡Foco Examen!:** La propuesta de **2004** contenía el término «**Área de Hacienda**»; la modificación oficial de **2011**, en su **art. 1.2**, establece la adscripción a la **Presidencia de la Diputación**. No memorizar la primera como vigente sin comprobar el desarrollo normativo.
