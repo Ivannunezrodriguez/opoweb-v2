@@ -107,6 +107,8 @@ jobs:
         run: node tests/validate-practice-exam.mjs
       - name: Comprobar rutas a temas sin preguntas disponibles
         run: node tests/validate-practice-empty-theme-20261109.mjs
+      - name: Validar enlaces profundos de práctica por tema
+        run: node tests/validate-practice-deeplink-20261109.mjs
       - name: Verificar exclusión de tres temas bloqueados y simulacros Olías
         run: node tests/validate-practice-blocked-themes-20261109.mjs
       - name: Probar cargas simultáneas de convocatorias sin mezcla de bancos
