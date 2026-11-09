@@ -129,3 +129,21 @@ console.log('OLIAS_REAL_BOE_2026 HISTORICAL',JSON.stringify(oliasStored.map(x=>(
  position:x.position, vacancies:x.vacancies,firstSeen:x.firstSeen,
  isNew:x.isNew,actionable:x.actionable,state:x.state,officialUrl:x.officialUrl
 }))));
+
+
+// Control de fuentes oficiales reparadas: preservar IDs y prevenir regresiones a URLs fallidas.
+const directConfig = JSON.parse(fs.readFileSync('data/radar-sources.json','utf8'));
+const expectedOfficialSources = [
+  ['Alcorcón', '1c3f9ae28d87abb0', 'https://www.ayto-alcorcon.es/es/servicios/empleo-publico'],
+  ['SERMAS', '1b687b37f558575f', 'https://www.comunidad.madrid/salud/bolsas-contratacion-temporal-servicio-madrileno-salud'],
+  ['Madrid bolsas', 'e89d3df4d3544dc4', 'https://sede.comunidad.madrid/bolsa-empleo'],
+];
+assert.equal(new Set(directConfig.sources.map(x => x.id)).size,directConfig.sources.length,'Duplicate direct radar source ids');
+for (const [name,id,url] of expectedOfficialSources) {
+ const matches=directConfig.sources.filter(s => s.name === name);
+ assert.equal(matches.length,1,'Expected exactly one direct source: '+name);
+ assert.equal(matches[0].id,id,'Direct source id changed; historic deduplication might break: '+name);
+ assert.equal(matches[0].url,url,'Official source URL has regressed: '+name);
+ assert.equal(new URL(matches[0].url).protocol,'https:');
+}
+console.log('RADAR_3_OFFICIAL_SOURCES_URLS_IDS_STABLE_OK');
