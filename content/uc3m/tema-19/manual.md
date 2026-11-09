@@ -1,5 +1,7 @@
 # Tema 19. Presupuesto de la UC3M (II)
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** Fuente primaria contrastada: [**Volumen I UC3M 2026**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), [**acta de ambos temas**](../../../audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md). Pruebas E2E, CI y accesibilidad sin certificación integral.
+
 > Epígrafe oficial: ejecución de gastos, gestión presupuestaria y económico-financiera, ordenación, documentos contables, liquidación y cierre.
 
 ## 1. Marco normativo y función del bloque
