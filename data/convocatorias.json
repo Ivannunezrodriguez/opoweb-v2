@@ -7,7 +7,7 @@
       "nombre": "Olías del Rey · Auxiliar de edificios e instalaciones C2",
       "estadoUsuario": "PENDIENTE_INSCRIPCION",
       "prioridad": "ALTA_POR_CERCANIA_Y_ADAPTACION_TECNICA",
-      "estadoEditorial": "21_AUDITADO_1_EN_AUDITORIA",
+      "estadoEditorial": "22_AUDITADO",
       "plazas": 4,
       "subgrupo": "C2",
       "regimen": "PERSONAL_LABORAL_FIJO",
@@ -36,8 +36,8 @@
       "programa": "data/programa-olias-auxiliar-edificios-2026.json",
       "seguimiento": "data/seguimiento-olias-auxiliar-edificios-2026.json",
       "fuenteSolicitud": "content/olias-auxiliar-edificios/GUIA_SOLICITUD_EXAMEN_2026.md",
-      "ultimaComprobacion": "04/11/2026: base completa BOP 4833 aportada por usuario; inconsistencias de plazo y número de plazas documentadas; examen sin fecha.",
-      "notaEstadoEditorial": "Manifiesto consultado 09/11/2026: 21 AUDITADO y T13 EN_AUDITORIA; falta cotejo completo INE VIAS/PSEU julio 2026 municipio 45122. No equivale a certificación integral."
+      "ultimaComprobacion": "09/11/2026: T13 callejero INE provincia 45 municipio 45122 cotejado (280 VIAS/0 PSEU/427 TRAM) y banco original 21/84 contrastado; quedan reservas de E2E y bases BOP/BOE.",
+      "notaEstadoEditorial": "22/22 temas AUDITADO documental-editorialmente a 09/11/2026. T13 cotejado contra 280 códigos VIAS del INE a 30/06/2026, 0 PSEU y acta primaria. No certificación funcional integral; discrepancia administrativa de bases en plazas/plazos permanece separada."
     },
     {
       "id": "olias-del-rey-limpiadores-ap-2026",
@@ -232,9 +232,9 @@
       },
       "fuenteSeguimiento": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
       "seguimientoVerificadoEl": "2026-11-02",
-      "ultimaComprobacion": "02/11/2026: resolución oficial de llamamiento UC3M aportada por el usuario: ejercicio único sábado 21/11/2026, 10:00 horas, campus de Getafe, llamamiento único. Aulas por determinar mediante resolución posterior. Listas definitivas de admitidos publicadas; la admisión individual no se ha comprobado.",
+      "ultimaComprobacion": "09/11/2026: recibido Anexo I de admitidos definitivos firmado 30/09/2026; se ha mejorado evidencia primaria pero falta resolución con fecha de publicación y cierre normativo de T10/T15/T16.",
       "incidenciaCorregida": "Tema 1: corregido el recuento de reformas constitucionales de tres a cuatro; incorporadas la reforma del artículo 69.3 de 2026 y la separación de las circunscripciones senatoriales de Ibiza y Formentera.",
-      "notaEstadoEditorial": "Manifiesto consultado 09/11/2026: 17 AUDITADO y 3 EN_REVISION_USUARIO (temas 10, 15, 16). Fecha primaria exacta de publicación de lista definitiva no acreditada; ninguna certificación E2E integral.",
+      "notaEstadoEditorial": "17 temas AUDITADO, 3 pendientes (T10, T15, T16). Anexo I oficial de admitidos definitivos de 36 páginas aportado; firma electrónica 30/09/2026 13:14:31, código documento E6oFKKwKp6. FIRMA no equivale a publicación: fecha oficial de corte base 1.7 sigue por acreditar.",
       "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
       "notaVigenciaSeguimiento": "Llamamiento oficial aportado 02/11/2026: fecha, hora y campus confirmados. Edificio/aula pendientes de resolución posterior; admisión personal pendiente de comprobar.",
       "siguienteHito": "21/11/2026, 10:00, campus de Getafe: ejercicio único. Comprobar aula asignada en resolución posterior e inclusión personal en lista definitiva."
