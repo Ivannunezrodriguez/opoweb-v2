@@ -171,3 +171,20 @@ Se ha actualizado [**assets/radar.js**](../assets/radar.js) para mostrar un avis
 Se ha protegido el mensaje en [**tests/radar-fixtures.mjs**](../tests/radar-fixtures.mjs) para que no desaparezca inadvertidamente. El comportamiento se comprobará en GitHub Actions; **no es una prueba E2E real de navegador**. La última instantánea almacenada antes de un nuevo rastreo continúa reflejando **42 legibles, 118 parciales y 46 con error**; estos números proceden del archivo previo, no de una ejecución posterior a las reparaciones de URLs.
 
 > ⚠️ **¡Foco Examen!:** **Fuente principal DIRECT operativa** no es lo mismo que **todas las fuentes locales operativas**. Verificar bases y boletines oficiales sigue siendo imprescindible.
+
+
+## Persistencia de la frescura de fuentes directas en radar.json — 09/11/2026
+
+**Defecto de integración detectado:** `tools/radar-direct.py` ya emitía `checkedAtUtc`, `uniqueSources`, `configuredSources` y `sharedSourceAliases`, pero `tools/radar.mjs` solo trasladaba a `data/radar.json` la matriz `directSourceStatus`, descartando la marca temporal y los denominadores. Por ello, la web podía mostrar cifras del último rastreo sin indicar su **antigüedad real**.
+
+**Corrección:** el pipeline ahora copia a `radar.json.directCrawl` los campos `available`, `checkedAtUtc`, `uniqueSources`, `configuredSources` y `sharedSourceAliases`. En caso de fallo del rastreo directo, se conserva `available: false`; no se declara éxito solo por la respuesta de otros boletines. La interfaz `assets/radar.js` muestra la **fecha de la pasada directa** y el **número de webs únicas**; si faltan datos, falla la lectura directa o pasan **más de 3 días**, muestra un aviso adicional. El aviso general de **PARTIAL/ERROR** permanece.
+
+| Elemento | Cambio funcional | Limitación |
+|---|---|---|
+| `tools/radar.mjs` | Publica `directCrawl` dentro de `radar.json` | Requiere una **pasada real posterior** para rellenar datos del nuevo esquema |
+| `assets/radar.js` | Informa de última pasada directa, número de webs y antigüedad | No se ha ejecutado E2E de navegador |
+| `tests/radar-fixtures.mjs` | Comprueba que los campos recorren el pipeline hasta la UI | Es test estático/fixture, no prueba HTTP del sitio externo |
+
+Las modificaciones fueron ejecutadas en `main`, commits `8401b94819e93197a44d21452f2fb09cc83bbdb0`, `030391629d8f98e42b06f45fc1ae6fdc42504104` y `8eb39c0b2eff1b55a072f1bc04d1dbaf2f789c43`. [**CI de los cambios funcionales**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42589209241) **success**.
+
+> ⚠️ **¡Foco Examen!:** **Generación del radar hoy** no significa que **cada sede municipal se haya consultado hoy**. Ambos momentos deben medirse por separado.
