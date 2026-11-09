@@ -410,3 +410,17 @@ La [**normativa institucional UC3M**](https://www.uc3m.es/about-uc3m/regulations
 > ⚠️ **¡Foco Examen!:** El **25 %** es el mínimo exigido al **Claustro** por la **LOSU 45.3**. **No** contestar utilizando el reparto numérico de **2003** como regla vigente sin comprobar la adaptación. **3 años** es el plazo vigente de adaptación tras la reforma de **2024**, frente a los **2 años** de la redacción original de **2023**.
 
 **Reserva de auditoría T15:** faltan el cotejo exhaustivo del texto refundido institucional y de las resoluciones de adaptación a LOSU con los **21 ítems** y las normas de jerarquía/temporalidad. Hasta completarlo, **EN_REVISION_USUARIO**; no atribuir al conjunto la condición de **AUDITADO**.
+
+## Evidencia institucional de Estatutos utilizados en 2026 — verificación de 09/11/2026
+
+El [**BOCM de 15/06/2026 (Resolución UC3M 04/06/2026)**](https://www.bocm.es/boletin/CM_Orden_BOCM/2026/06/15/BOCM-20260615-17.PDF) invoca expresamente el **Decreto 1/2003** y su modificación **Decreto 95/2009**, además de la **LOSU**, para crear escalas propias de personal. Otro [**BOCM de 08/06/2026**](https://www.bocm.es/boletin/CM_Orden_BOCM/2026/06/08/BOCM-20260608-22.PDF) identifica los mismos Estatutos junto a la LOSU en acceso docente.
+
+| Hecho probado | No prueba por sí solo |
+|---|---|
+| **UC3M sigue citando los Estatutos de 2003/2009 en disposiciones oficiales de junio de 2026** | Que **todos** los porcentajes, duración de mandatos y reglas del texto histórico prevalezcan frente a la **LOSU** |
+| La **LOSU** está citada junto a los Estatutos en actos universitarios de 2026 | Que exista una **versión estatutaria adaptada** publicada con fecha concreta |
+| El banco T15 contiene **21 preguntas** centradas en Defensor Universitario, servicios, economía y reforma estatutaria | Que sea correcto extrapolar las cifras históricas del Claustro a preguntas **nuevas** sobre participación estudiantil |
+
+**Control focal:** ninguna de las **21 preguntas originales** exige contestar con el porcentaje histórico de estudiantes en el Claustro ni con el mandato histórico del Rector; se mantienen **LOSU art. 45.3 (mínimo 25 %)**, derecho transitorio y los **3 años de adaptación** como contraste separado. No se acredita la resolución formal de adaptación que permitiría cerrar todos los casos transitorios.
+
+> ⚠️ **¡Foco Examen!:** Un **BOCM de junio de 2026** que cita los Estatutos UC3M de **2003/2009** demuestra su utilización institucional; **no** permite ignorar la jerarquía superior de la **LOSU**.
