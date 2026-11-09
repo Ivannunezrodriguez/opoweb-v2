@@ -339,6 +339,16 @@ function renderHub() {
 
 function startThemeTest(theme) {
   const questions = [...questionMap.values()].filter(question => question.tema === theme);
+  if (!questions.length) {
+    renderHub();
+    const warning = document.createElement('p');
+    warning.className = 'notice';
+    warning.setAttribute('role', 'status');
+    warning.textContent = `El test del Tema ${theme} no está disponible porque sus preguntas están pendientes de revisión. No se ha iniciado ni calificado ningún ejercicio.`;
+    const section = document.querySelector('#practice-app .panel.intro');
+    if (section) section.after(warning);
+    return;
+  }
   renderExercise(questions, `Test del Tema ${theme}`, `${activeCall.id}-TEMA-${String(theme).padStart(2, '0')}`, 'tema');
 }
 
