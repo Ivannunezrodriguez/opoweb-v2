@@ -73,6 +73,6 @@ for (const marker of [
   '${renderExtraRepasos()}'
 ]) assert.ok(practice.includes(marker), 'Falta integración práctica: ' + marker);
 
-assert.ok(content('practice.html').includes('assets/practice.js?v=2026.11.09.3'), 'Caché JS no actualizado');
+assert.ok(content('practice.html').includes('assets/practice.js?v=2026.11.09.4'), 'Caché JS no actualizado');
 assert.ok(content('content/uc3m/COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md').includes('24 bloques'));
 console.log('UC3M_COMPLEMENTARY_11_PACKS_162_QUESTIONS_JSON_AND_PRACTICE_WIRING_OK');
