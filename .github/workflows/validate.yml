@@ -160,6 +160,8 @@ jobs:
         run: node tests/validate-oapgt-contratacion-2023-20261109.mjs
       - name: Cotejar 280 códigos de vía INE y 21 preguntas de Olías T13
         run: node tests/validate-olias-t13-ine-inventory-20261109.mjs
+      - name: Comprobar 54 claves y riesgo temporal UC3M T10 T15 T16
+        run: node tests/validate-uc3m-corte-neutral-preguntas-20261109.mjs
       - name: Proteger reservas de Olías T13 y UC3M T10 T15 T16
         run: node tests/validate-olias-uc3m-pendientes-20261109.mjs
       - name: Impedir fichas editoriales de Diputación desactualizadas
