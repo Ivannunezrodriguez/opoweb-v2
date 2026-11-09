@@ -3767,3 +3767,16 @@ Se ha creado [**CONTROL_CIERRE_TEMARIOS_2026-11-09.md**](CONTROL_CIERRE_TEMARIOS
 **Regresión incorporada:** [`tests/validate-convocatorias-editorial-sync-20261109.mjs`](tests/validate-convocatorias-editorial-sync-20261109.mjs), commit `61b9f3d3`, coteja recuentos reales y estados de ambas fichas; conectado a [`validate.yml`](.github/workflows/validate.yml), commit `1cfd7e66`. **Ejecución de GitHub Actions del commit final no verificada en esta sesión**; no proclamar CI verde hasta consultar su resultado.
 
 **Cierre:** resuelta la **desincronización de metadatos** de estas dos fichas. **No** resueltos ni certificados C1 T22/C2 T6 OAPGT; permanecen sus bloqueos de fuentes primarias. Los demás recuentos del proyecto permanecen sin elevación jurídica artificial.
+
+## 187. Olías y UC3M — revisión de cuatro pendientes y sincronización (**09/11/2026**)
+
+**Inventario cotejado contra manifiestos reales:** **Olías 21 AUDITADO + T13 EN_AUDITORIA**; **UC3M 17 AUDITADO + T10/T15/T16 EN_REVISION_USUARIO**. Las actas anteriores que hablaban de 20 UC3M en revisión o 7/20 auditados son fotografías históricas superadas.
+
+**Corrección real:** `data/convocatorias.json` refleja los nuevos recuentos y enumera cada reserva (commit [`d6fe3f6c`](https://github.com/Ivannunezrodriguez/opoweb-v2/commit/d6fe3f6c7542f3ee381822e270f8559d04da8e50)). `tests/validate-convocatorias-editorial-sync-20261109.mjs` ahora protege las cuatro fichas de Diputación C1/C2, Olías y UC3M y verifica los números de temas pendientes (commit `16cf5110`). [**Acta focal de fuentes y pendientes**](audit/OLIAS_UC3M_CIERRE_FOCAL_2026-11-09.md) publicada (commit `adffd494`).
+
+**Fuente primaria UC3M:** [BOE-A-2026-14624, base primera.7](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) fija el corte legal en publicación de listas definitivas y anuncio del ejercicio. [Portal oficial](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) confirma existencia de definitivas pero no se recuperó su PDF con fecha primaria. La fecha **01/10/2026** de la [academia ADAMS](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/) es **secundaria**, no sustituye el documento oficial. Prioridad de T10: reforma TREBEP art.49.e; T15: adaptación LOSU y Estatutos; T16: nulidad de RD 905/2025 publicada **23/10/2026** frente al corte.
+
+**Fuente INE Olías:** [catálogo oficial del Callejero Electoral](https://www.ine.es/prodyser/callejero/) identifica **VIAS/PSEU/TRAM**, edición **julio 2026** referencia **30/06/2026**; descarga/lectura íntegra de municipio **45122** no demostrada, por lo que **T13 no puede cerrarse**.
+
+**Dictamen:** metadatos de estas dos convocatorias corregidos, regresión añadida, **cuatro temas jurídicamente abiertos**; **sin cambio ficticio de estados** ni declaración de CI verde del último commit o certificación E2E.
+
