@@ -74,3 +74,9 @@ for(const [t,preguntas] of [[t22,c1Q],[t06,c2Q]]) {
 assert.equal(c1Q.length,24);
 assert.equal(c2Q.length,29);
 console.log('ESTATUTOS_OAPGT_20_PAGINAS_53_CLAVES_OK: articulado extraído; tema completo reservado');
+
+const est=read('content/diputacion-toledo-auxiliar-c2/tema-06/estatutos-oapgt-texto-integro-1996-2011.md');
+for(const term of ['4 transitorias','2 disposiciones transitorias','aprobación inicial','12.2.l','29/02/2024','No memorizar']) {
+ assert(est.toLowerCase().includes(term.toLowerCase()),'No se previene discrepancia 2004: '+term);
+}
+console.log('OAPGT_REFORMA_2004: diferencia 4 vs 2 transitorias expresamente reservada; art 12 corroborado BOP 2024');
