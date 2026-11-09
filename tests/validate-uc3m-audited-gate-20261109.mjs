@@ -64,6 +64,16 @@ const transparency = json(program.temas.find(t => t.numero === 7).preguntas).pre
 assert.match(transparency.justificacion, /20 días hábiles/);
 const prevention = json(program.temas.find(t => t.numero === 12).matriz);
 assert.equal(prevention.controlAuditoriaJuridica20261109.reforma, 'Ley 1/2026');
+const eleventh = program.temas.find(topic => topic.numero === 11);
+assert.equal(eleventh.estado, 'AUDITADO');
+assert.equal(json(eleventh.matriz).estado, 'AUDITADO');
+assert.equal(json(eleventh.preguntas).preguntas.length, 12);
+assert.ok(eleventh.actaAuditoria?.includes('UC3M_T11_AUDITORIA_INGRESO_PROVISION_INCOMPATIBILIDADES'));
+const tenth = program.temas.find(topic => topic.numero === 10);
+assert.equal(tenth.estado, 'EN_REVISION_USUARIO', 'No aprobar el TREBEP sin cotejar la reforma octubre de 2026 y el corte');
+const manual10 = readFileSync(tenth.manual, 'utf8');
+assert.ok(manual10.includes('Ley 4/2026'));
+assert.ok(manual10.includes('100 %'));
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
