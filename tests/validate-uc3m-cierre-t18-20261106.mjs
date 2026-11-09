@@ -10,7 +10,7 @@ const guide=read('content/uc3m/GUIA_EXAMEN_2026.md');
 const status=read('AUDITORIA_CONTINUA.md');
 const additional=json('data/uc3m-repasos-complementarios-20261106.json').paquetes.find(p=>p.id==='UC3M-ADIC-20261106-LOTE');
 const economy=json('data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json');
-assert.equal(matrix.estado,'EN_REVISION_USUARIO');
+assert.equal(matrix.estado,'AUDITADO','T18 ya auditado editorialmente');
 assert.equal(matrix.cobertura.length,8);
 assert.equal(bank.preguntas.length,12);
 const headings=[...manual.matchAll(/^## (\d+)\. /gm)].map(m=>Number(m[1])).filter(n=>n<=18);
