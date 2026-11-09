@@ -147,7 +147,7 @@
 
 > ⚠️ **¡Foco Examen!:** No es una medida posterior a la infracción, sino preventiva.
 
-### UC3M-T06-011 — ¿En qué plazo de referencia debe notificarse una brecha a la autoridad de control?
+### UC3M-T06-011 — Si una violación de seguridad de datos personales debe notificarse a la autoridad de control conforme al RGPD, ¿cuál es el plazo de referencia?
 
 **Fundamento:** **RGPD 33.1**. **Respuesta: A**. **Literal:** 72 horas desde que se tenga constancia, si es posible.
 
