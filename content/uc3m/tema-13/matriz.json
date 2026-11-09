@@ -40,7 +40,14 @@
       "preguntas": [],
       "norma": "Ley Organica 2/2023 del Sistema Universitario",
       "articulos": "14–17",
-      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T13-01",
+        "UC3M-ADIC-20261106-T13-02",
+        "UC3M-ADIC-20261106-T13-03"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Creación y reconocimiento de universidades",
@@ -59,7 +66,14 @@
       "preguntas": [],
       "norma": "Ley Organica 2/2023 del Sistema Universitario",
       "articulos": "40–43; 95–97",
-      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T13-04",
+        "UC3M-ADIC-20261106-T13-05",
+        "UC3M-ADIC-20261106-T13-06"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Enseñanzas oficiales y formación permanente",
@@ -78,7 +92,14 @@
       "preguntas": [],
       "norma": "Ley Organica 2/2023 del Sistema Universitario",
       "articulos": "6–9",
-      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T13-07",
+        "UC3M-ADIC-20261106-T13-08",
+        "UC3M-ADIC-20261106-T13-09"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Aseguramiento de la calidad",
@@ -107,7 +128,14 @@
       "preguntas": [],
       "norma": "Ley Organica 2/2023 del Sistema Universitario",
       "articulos": "14",
-      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T13-10",
+        "UC3M-ADIC-20261106-T13-11",
+        "UC3M-ADIC-20261106-T13-12"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Internacionalización",
@@ -240,5 +268,13 @@
       "aprobacion expresa y cotejo juridico integral a la fecha de corte"
     ],
     "observacion": "Cierre del circuito documental de estudio, no acreditacion del 100 % juridico-funcional"
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 12,
+    "bloquesConPreguntasHistoricasOComplementarias": 12,
+    "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
+    "certificacionIntegral": false,
+    "observacion": "Enlace pedagógico a banco real, no certificación de vigencia ni de distractores"
   }
 }
