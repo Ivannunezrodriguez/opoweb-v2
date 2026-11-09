@@ -417,12 +417,12 @@
       "numero": 13,
       "titulo": "Ley Orgánica 2/2023 del Sistema Universitario (I): disposiciones generales, autonomía, creación de universidades, enseñanzas, investigación, cooperación, sociedad e internacionalización.",
       "bloque": "gestion-universitaria",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/uc3m/tema-13/manual.md",
       "fuentes": "content/uc3m/tema-13/fuentes.md",
       "matriz": "content/uc3m/tema-13/matriz.json",
       "preguntas": "content/uc3m/tema-13/preguntas.json",
-      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
+      "estadoRevisionDocumental": "AUDITADO_JURIDICO_EDITORIAL_CON_RESERVA_FUNCIONAL",
       "evidenciaRevision20261108": {
         "fecha": "2026-11-08",
         "base": "content/uc3m/CIERRE_DOCUMENTAL_T13_T14_20261106.md",
@@ -432,7 +432,26 @@
         "corteNormativoPrimario": "PENDIENTE",
         "pruebaNavegador": false,
         "certificacionIntegral": false
-      }
+      },
+      "revisadoEl": "2026-11-09",
+      "actaAuditoria": "audit/UC3M_T13_AUDITORIA_LOSU_I_2026-11-09.md",
+      "certificacionIntegral": false,
+      "auditoriaJuridica20261109": {
+        "fecha": "2026-11-09",
+        "norma": "LOSU LO 2/2023",
+        "ultimaActualizacionBOE": "2024-08-02",
+        "preguntas": 12,
+        "alternativas": 48,
+        "apartados": 12,
+        "fuentesPrimariasPorPregunta": true,
+        "certificacionIntegral": false,
+        "pruebaNavegadorE2E": false
+      },
+      "reservas": [
+        "Corte legal exacto de UC3M aún sin publicación primaria comprobada; última modificación LOSU es anterior al período conocido",
+        "CI y navegador E2E sin comprobación satisfactoria",
+        "Aprobación del usuario pendiente"
+      ]
     },
     {
       "numero": 14,
