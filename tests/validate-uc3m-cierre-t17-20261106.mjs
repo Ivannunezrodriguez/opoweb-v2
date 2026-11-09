@@ -10,7 +10,7 @@ const guide=read('content/uc3m/GUIA_EXAMEN_2026.md');
 const status=read('AUDITORIA_CONTINUA.md');
 const packs=j('data/uc3m-repasos-complementarios-20261106.json').paquetes;
 const pack=packs.find(p=>p.id==='UC3M-ADIC-20261106-T1617');
-assert.equal(matrix.estado,'EN_REVISION_USUARIO');
+assert.equal(matrix.estado,'AUDITADO','T17 ya auditado editorialmente');
 assert.equal(matrix.cobertura.length,9);
 assert.equal(bank.preguntas.length,12);
 assert.deepEqual([...new Set([...manual.matchAll(/^## (\d+)\. /gm)].map(m=>+m[1]).filter(n=>n<=16))],Array.from({length:16},(_,i)=>i+1));
