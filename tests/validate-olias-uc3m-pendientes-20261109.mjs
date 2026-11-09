@@ -39,7 +39,8 @@ for (const caso of casos) {
 const calles = read('content/olias-auxiliar-edificios/tema-13/manual.md');
 assert.match(calles, /VIAS\/PSEU|VIAS y PSEU/);
 assert.match(calles, /TRAM no cuenta calles distintas/);
-assert.match(calles, /no se ha descargado ni leído íntegramente/i);
+assert.match(calles, /280 entradas VIAS únicas/);
+assert.match(calles, /callejero-ine-2026-06-30\.md/);
 assert.match(calles, /30\/06\/2026/);
 
 const guia = read('content/uc3m/GUIA_EXAMEN_2026.md');
@@ -48,4 +49,8 @@ assert.match(guia, /01\/10\/2026[\s\S]{0,180}indicio secundario/);
 assert.match(guia, /RD 822\/2021 no fue anulado/);
 assert.match(guia, /adaptación de \*\*3 años\*\*/);
 
-console.log('OLIAS_UC3M_RESERVAS_Y_MATERIAL_OK; auditoría documental parcial, no certificación integral');
+const anexo = evidencia.temas.find(t => t.id === 'UC3M-T10').anexoAdmitidosDefinitivos;
+assert.equal(anexo.fechaFirma, '2026-09-30T13:14:31');
+assert.equal(anexo.codigoDocumento, 'E6oFKKwKp6');
+assert.match(anexo.sha256, /^[a-f0-9]{64}$/);
+console.log('OLIAS_T13_CERRADO_EDITORIAL_UC3M_RESERVAS_OK (no certificación integral)');
