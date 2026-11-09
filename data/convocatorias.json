@@ -7,7 +7,7 @@
       "nombre": "Olías del Rey · Auxiliar de edificios e instalaciones C2",
       "estadoUsuario": "PENDIENTE_INSCRIPCION",
       "prioridad": "ALTA_POR_CERCANIA_Y_ADAPTACION_TECNICA",
-      "estadoEditorial": "EN_AUDITORIA",
+      "estadoEditorial": "21_AUDITADO_1_EN_AUDITORIA",
       "plazas": 4,
       "subgrupo": "C2",
       "regimen": "PERSONAL_LABORAL_FIJO",
@@ -36,7 +36,8 @@
       "programa": "data/programa-olias-auxiliar-edificios-2026.json",
       "seguimiento": "data/seguimiento-olias-auxiliar-edificios-2026.json",
       "fuenteSolicitud": "content/olias-auxiliar-edificios/GUIA_SOLICITUD_EXAMEN_2026.md",
-      "ultimaComprobacion": "04/11/2026: base completa BOP 4833 aportada por usuario; inconsistencias de plazo y número de plazas documentadas; examen sin fecha."
+      "ultimaComprobacion": "04/11/2026: base completa BOP 4833 aportada por usuario; inconsistencias de plazo y número de plazas documentadas; examen sin fecha.",
+      "notaEstadoEditorial": "Manifiesto consultado 09/11/2026: 21 AUDITADO y T13 EN_AUDITORIA; falta cotejo completo INE VIAS/PSEU julio 2026 municipio 45122. No equivale a certificación integral."
     },
     {
       "id": "olias-del-rey-limpiadores-ap-2026",
@@ -210,7 +211,7 @@
       "nombre": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
       "estadoUsuario": "INSCRITO",
       "prioridad": 3,
-      "estadoEditorial": "20_EN_REVISION_USUARIO",
+      "estadoEditorial": "17_AUDITADO_3_EN_REVISION_USUARIO",
       "temas": 20,
       "temasConManualFuentesMatrizPreguntas": 20,
       "plazas": 34,
@@ -233,7 +234,7 @@
       "seguimientoVerificadoEl": "2026-11-02",
       "ultimaComprobacion": "02/11/2026: resolución oficial de llamamiento UC3M aportada por el usuario: ejercicio único sábado 21/11/2026, 10:00 horas, campus de Getafe, llamamiento único. Aulas por determinar mediante resolución posterior. Listas definitivas de admitidos publicadas; la admisión individual no se ha comprobado.",
       "incidenciaCorregida": "Tema 1: corregido el recuento de reformas constitucionales de tres a cuatro; incorporadas la reforma del artículo 69.3 de 2026 y la separación de las circunscripciones senatoriales de Ibiza y Formentera.",
-      "notaEstadoEditorial": "20 temas con estado EN_REVISION_USUARIO en manifiesto; falta recertificación jurídico-técnica.",
+      "notaEstadoEditorial": "Manifiesto consultado 09/11/2026: 17 AUDITADO y 3 EN_REVISION_USUARIO (temas 10, 15, 16). Fecha primaria exacta de publicación de lista definitiva no acreditada; ninguna certificación E2E integral.",
       "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
       "notaVigenciaSeguimiento": "Llamamiento oficial aportado 02/11/2026: fecha, hora y campus confirmados. Edificio/aula pendientes de resolución posterior; admisión personal pendiente de comprobar.",
       "siguienteHito": "21/11/2026, 10:00, campus de Getafe: ejercicio único. Comprobar aula asignada en resolución posterior e inclusión personal en lista definitiva."
