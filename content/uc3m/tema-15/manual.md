@@ -405,8 +405,8 @@ La [**normativa institucional UC3M**](https://www.uc3m.es/about-uc3m/regulations
 |---|---|---|
 | Representación estudiantil en el **Claustro** | **50 estudiantes** sobre **253 miembros** cuando se suman sus **250 representantes** a **Rector, Secretario General y Gerente**, según **art. 30.1** del texto original | Mínimo **25 %** en **art. 45.3**, prevaleciendo el marco orgánico aplicable y la necesaria adaptación estatutaria |
 | Mandatos de órganos unipersonales electos | Se describen períodos históricos de **4 años**, según cada cargo | **6 años**, **improrrogables y no renovables**, con reglas transitorias en **art. 44.3** |
-| Adaptación de Estatutos y órganos | El texto de **2003** fue aprobado bajo la legislación universitaria anterior | **Disposición transitoria primera LOSU**: **2 años** desde su entrada en vigor, según el texto modificado en **2024** |
+| Adaptación de Estatutos y órganos | El texto de **2003** fue aprobado bajo la legislación universitaria anterior | **Disposición transitoria primera LOSU**: **3 años** desde su entrada en vigor, conforme a la ampliación de **2024** |
 
-> ⚠️ **¡Foco Examen!:** El **25 %** es el mínimo exigido al **Claustro** por la **LOSU 45.3**. **No** contestar utilizando el reparto numérico de **2003** como regla vigente sin comprobar la adaptación. **2 años** es el plazo de la transitoria LOSU modificada, no el plazo de **3 años** del texto originario de 2023.
+> ⚠️ **¡Foco Examen!:** El **25 %** es el mínimo exigido al **Claustro** por la **LOSU 45.3**. **No** contestar utilizando el reparto numérico de **2003** como regla vigente sin comprobar la adaptación. **3 años** es el plazo vigente de adaptación tras la reforma de **2024**, frente a los **2 años** de la redacción original de **2023**.
 
 **Reserva de auditoría T15:** faltan el cotejo exhaustivo del texto refundido institucional y de las resoluciones de adaptación a LOSU con los **21 ítems** y las normas de jerarquía/temporalidad. Hasta completarlo, **EN_REVISION_USUARIO**; no atribuir al conjunto la condición de **AUDITADO**.
