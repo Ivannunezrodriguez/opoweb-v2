@@ -271,3 +271,12 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 El [**cotejo del portal oficial de UC3M**](../../audit/UC3M_CORTE_NORMATIVO_PORTAL_2026-11-09.md) confirma que la página anuncia la resolución definitiva, pero **no acredita por sí sola su fecha efectiva de publicación**. Se mantiene la **reserva de la base primera.7**. El llamamiento del **21/11/2026** no sustituye ese dato.
 
 > ⚠️ **¡Foco Examen!:** No confundir **publicación de la lista definitiva** (hito del corte normativo) con **fecha del examen** o fecha de firma de un documento sin prueba de publicación.
+
+
+## Seguimiento de cobertura transversal en siete temas — **09/11/2026**
+
+La [**auditoría de trazabilidad T8/T9/T10/T11/T12/T13/T18**](../../audit/UC3M_AVANCE_T08_T09_T10_Y_CORTE_2026-11-09.md) ha relacionado **86 apartados** de sus matrices con preguntas originales o complementarias existentes, sin modificar las soluciones del banco histórico. La [**prueba de los 86 apartados**](../../tests/validate-uc3m-trazabilidad-7-temas-20261109.mjs) está integrada en el flujo de validación.
+
+**Interpretación:** mejora de cobertura pedagógica **no** equivalente a revisión legal de cada distractor. Permanecen la **reserva de fecha de publicación de resolución definitiva** (base **primera.7**), la revisión de los **20 temas**, la aprobación del usuario y las pruebas E2E. Ningún tema se eleva artificialmente a `CERTIFICADO_INTEGRAL`.
+
+> ⚠️ **¡Foco Examen!:** La existencia de preguntas y fuentes **no garantiza** por sí sola que el plazo, órgano o artículo de una alternativa siga siendo correcto en el **corte jurídico de la convocatoria**.
