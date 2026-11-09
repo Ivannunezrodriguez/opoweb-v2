@@ -92,6 +92,15 @@ function render(){
  const list=all.filter(visible);
  const stale=ageDays(data.generatedAt,new Date().toISOString().slice(0,10))>3;
  const statuses=(data.sourceStatus||[]).filter(x=>x.ok===true).length;
+ // Overall feed success does not imply each municipal or regional source was read.
+ const directStatuses=Array.isArray(data.directSourceStatus)?data.directSourceStatus:[];
+ const directReadable=directStatuses.filter(x=>x.status==='READABLE').length;
+ const directPartial=directStatuses.filter(x=>x.status==='PARTIAL').length;
+ const directErrors=directStatuses.filter(x=>x.status==='ERROR').length;
+ const directHasGaps=directPartial+directErrors>0;
+ const directCoverage=directStatuses.length
+   ?'Rastreo directo: '+directReadable+' legibles, '+directPartial+' parciales y '+directErrors+' con error ('+directStatuses.length+' estados).'
+   :'El estado del rastreo municipal directo no está disponible.';
  const docsAttempted=data.enrichmentStatus?.attempted||0;
  const docsRead=data.enrichmentStatus?.read||0;
  const lowDocumentCoverage=docsAttempted>=10&&docsRead/docsAttempted<0.2;
@@ -101,6 +110,8 @@ function render(){
  '<p>Primero se muestran <strong>puestos concretos con enlace oficial</strong>. Las fichas sin puesto identificado se guardan en «Sin puesto identificable» y no provocan correos inútiles. Se muestran únicamente los requisitos y plazos que la extracción ha encontrado; el resto queda indicado como pendiente.</p>',
  stale?'<p class="notice warning">La última actualización tiene más de 3 días. Revisa los plazos en la fuente oficial.</p>':'',
  lowDocumentCoverage?'<p class="notice warning">Lectura parcial: se pudieron leer '+docsRead+' de '+docsAttempted+' documentos examinados. Los requisitos y plazos no publicados o inaccesibles siguen pendientes de verificar en la fuente oficial.</p>':'',
+ directHasGaps?'<p class="notice warning">'+esc(directCoverage)+' El radar no cubre de forma completa todas estas fuentes; contrasta también las sedes y boletines oficiales.</p>':'',
+ !directStatuses.length?'<p class="notice warning">'+esc(directCoverage)+' No se puede certificar cobertura municipal.</p>':'',
  '</div><div class="radar-stats">',
  '<div class="radar-stat"><strong>'+recent.length+'</strong><span>puestos detectados en 30 días</span></div>',
  '<div class="radar-stat"><strong>'+confirmed.length+'</strong><span>plazos con fecha publicada</span></div>',
