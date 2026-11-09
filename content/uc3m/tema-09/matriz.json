@@ -27,7 +27,14 @@
     {
       "bloque": "Word 2019: revisión, referencias y correspondencia",
       "manual": "apartado 4",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T09-01",
+        "UC3M-ADIC-20261106-T09-02",
+        "UC3M-ADIC-20261106-T09-03"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "BLOQUE_CUBIERTO_MANUAL_Y_REPASO_COMPLEMENTARIO"
     },
     {
       "bloque": "Excel 2019: libros, hojas, celdas y referencias",
@@ -46,7 +53,15 @@
     {
       "bloque": "Excel 2019: gestión y análisis de datos",
       "manual": "apartado 7",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T09-04",
+        "UC3M-ADIC-20261106-T09-05",
+        "UC3M-ADIC-20261106-T09-06",
+        "UC3M-ADIC-20261106-T09-07"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "BLOQUE_CUBIERTO_MANUAL_Y_REPASO_COMPLEMENTARIO"
     },
     {
       "bloque": "Correo electrónico y Gmail",
@@ -201,5 +216,20 @@
     "aprobacionUsuario": false,
     "fechaCortePrimariaPendiente": true,
     "certificacionFuncional": false
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "tipo": "TRAZABILIDAD_DE_COBERTURA_NO_CERTIFICACION_JURIDICO_FUNCIONAL",
+    "bancoHistoricoPreguntas": 12,
+    "bancoComplementarioPreguntas": 12,
+    "fuenteComplementaria": "data/uc3m-repasos-complementarios-20261106.json",
+    "bloques": 13,
+    "bloquesConPreguntasHistoricasOComplementarias": 13,
+    "verificacionFabricante": [
+      "https://support.microsoft.com/es-es/word/mail-merge-using-an-excel-spreadsheet",
+      "https://support.microsoft.com/es-es/excel/get-started/filter-data-in-a-range-or-table-in-excel"
+    ],
+    "certificacionIntegral": false,
+    "revisionUsuarioPendiente": true
   }
 }
