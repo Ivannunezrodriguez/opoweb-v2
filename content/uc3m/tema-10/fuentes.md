@@ -67,3 +67,10 @@ Fecha de revisión editorial: **22 de julio de 2026**.
 **Desarrollados dos supuestos nuevos** y contrastado el texto legal primario: [TREBEP arts. 10, 62–68 y 85–91](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719), especialmente **9 meses dentro de 18** por exceso de tareas (art. 10.1.d).
 
 **Estado:** cobertura documental de **11 apartados** con banco **12 preguntas/48 alternativas** conservado. **No** se considera aprobación del usuario ni certificación funcional; queda reserva de fecha exacta de corte legal de base primera.7 UC3M.
+
+
+## Advertencia de vigencia TREBEP — 09/11/2026
+
+La [**Ley 4/2026 (BOE-A-2026-20528)**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528) modificó el **art. 49.e del TREBEP**, publicada el **03/10/2026**. La modificación permite excepcionalmente prolongar reducción de jornada en supuestos de gran discapacidad o dependencia acreditadas y compartir simultáneamente hasta un **100 % conjunto** entre dos progenitores. La exigibilidad de esta reforma en la oposición depende del **corte de base primera.7**, cuya fecha primaria está pendiente. **Mantener EN_REVISION_USUARIO.**
+
+> ⚠️ **¡Foco Examen!:** **100 % conjunto**, no **100 % por persona**. La fuente es el texto de reforma **2026**, no los apuntes TREBEP anteriores.
