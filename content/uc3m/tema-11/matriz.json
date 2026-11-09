@@ -6,7 +6,13 @@
     {
       "bloque": "Ámbito y marco normativo",
       "manual": "apartado 1",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-07",
+        "UC3M-ADIC-20261106-LOTE-08"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Ingreso del personal funcionario",
@@ -19,7 +25,13 @@
     {
       "bloque": "Convocatorias y órganos de selección",
       "manual": "apartado 4",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-09",
+        "UC3M-ADIC-20261106-LOTE-10"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Concurso y libre designación",
@@ -167,5 +179,13 @@
     "aprobadoUsuario": false,
     "fechaCorteBOEConfirmada": false,
     "certificacionE2E": false
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 12,
+    "bloquesConPreguntasHistoricasOComplementarias": 12,
+    "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
+    "certificacionIntegral": false,
+    "observacion": "Enlace pedagógico a banco real, no certificación de vigencia ni de distractores"
   }
 }
