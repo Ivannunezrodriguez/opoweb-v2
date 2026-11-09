@@ -196,5 +196,28 @@
     "aprobacionUsuario": false,
     "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA",
     "certificacionIntegral": false
+  },
+  "controlUrgenciaAbreviado20261109": {
+    "fecha": "2026-11-09",
+    "estado": "COTEJO_FOCAL_NO_CIERRE",
+    "apartadoManual": "34",
+    "ley": "LCSP arts. 159.5, 159.6 y 326.1",
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a326",
+      "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605"
+    ],
+    "casosAñadidos": 3,
+    "reglas": [
+      "urgencia no reduce plazos del 119.2.b en abierto simplificado",
+      "abreviado excluye prestaciones intelectuales",
+      "mesa potestativa",
+      "sin garantia definitiva",
+      "10 dias habiles oferta o 5 para compras corrientes bienes disponibles",
+      "un archivo y formulas"
+    ],
+    "bancoOriginalModificado": false,
+    "certificacionIntegral": false,
+    "corteNormativoUC3M": "PENDIENTE_FECHA_PRIMARIA"
   }
 }
