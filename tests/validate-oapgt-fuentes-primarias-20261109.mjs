@@ -98,3 +98,30 @@ for(const key of ['49.c','30 días','no exige','elevación legal automática','7
  assert(est2026.includes(key),'Falta cautela art. 49: '+key);
 }
 console.log('OAPGT_ART49_LBRL_OK: elevación automática distinguida de la prueba del expediente de 2004');
+
+
+const datosEconomicos=[
+ ['2025', '678,12 €', '1.096,56 €', '777,96 €', '1.264,56 €', '24,64 €/hora'],
+ ['2026', '712,08 €', '1.151,40 €', '816,84 €', '1.327,80 €', '28,64 €/hora'],
+ ['vigente', '97,45 €', '292.790,00 €', '4 noches', '2 sábados', '2 domingos', '1 festivo']
+];
+for (const path of [t22.manual,t06.manual]) {
+ const body=read(path);
+ assert(body.includes('## Cierre sectorial de reformas económicas'), 'Falta cierre económico: '+path);
+ for (const [grupo,...valores] of datosEconomicos) {
+  for (const valor of valores) assert(body.includes(valor), 'Falta valor '+grupo+': '+valor+' en '+path);
+ }
+ for (const anno of ['14/01/2025','16/01/2026','20/02/2026','01/01/2025','01/01/2026']) {
+  assert(body.includes(anno), 'Falta fecha económica '+anno+' en '+path);
+ }
+ assert(body.includes('no son una quinta reforma de los Estatutos'), 'Mezcla indebidamente reformas estatutarias y laborales');
+}
+const examenC1=c1Q.find(q=>q.id==='DIP-T22-019');
+const examenC2=c2Q.find(q=>q.id==='DT-C2-T06-002');
+const noctC1=c1Q.find(q=>q.id==='DIP-T22-012');
+const noctC2=c2Q.find(q=>q.id==='DT-C2-T06-003');
+for (const [q,valor] of [[examenC1,'1.327,80'],[examenC2,'712,08'],[noctC1,'97,45'],[noctC2,'97,45']]) {
+ const k=q.correcta??q.respuestaCorrecta;
+ assert(q.opciones[k].includes(valor), 'Clave test económica distinta del BOP: '+q.id);
+}
+console.log('OAPGT_ACUERDO_2025_2026_CIERRE_ECONOMICO_OK: 4 distractores fechados y tablas C1/C2');
