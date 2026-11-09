@@ -430,3 +430,14 @@ Se ha accedido directamente al [**Volumen I oficial, Presupuesto UC3M 2026, Norm
 > ⚠️ **¡Foco Examen!:** **O** significa **propuesta de pago**, nunca «pago material». **5.000 €** es límite del sistema asimilado a caja fija; **12.000 €** es límite del anticipo a justificar, que debe justificarse en **1 mes**.
 
 El T18 y el T19 **ya no están bloqueados por falta de acceso al Volumen I**. Siguen pendientes las pruebas **CI completo, navegador E2E y accesibilidad** para una certificación integral de OpoWeb, y la fecha de publicación de las listas definitivas para resolver cuestiones controvertidas de T10 y T16.
+
+
+## Corrección prioritaria de plazo LOSU en tema 15 (09/11/2026)
+
+**Corrección del error anterior de OpoWeb:** la [**disposición transitoria primera de la LOSU, versión vigente en 2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500) establece un plazo máximo de **3 años** para adaptar Estatutos y constituir **Claustro** y **Consejo de Gobierno**. El texto original de **2023** fijaba **2 años**; la [**Ley 1/2024, disposición final cuarta**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11613) lo amplió desde **28/06/2024**. La cifra invertida que aparecía en notas anteriores **era incorrecta** y se ha corregido en manual, fuentes, acta y prueba de regresión.
+
+[**Acta de corrección de la transitoria LOSU y documentación oficial UC3M de 2026**](../../audit/UC3M_T15_CORRECCION_TRANSITORIA_LOSU_2026-11-09.md).
+
+> ⚠️ **¡Foco Examen!:** **3 años** para adaptar los **Estatutos** tras la modificación de **2024**; **2 años** era la versión original y también es un plazo de **otra transitoria distinta** sobre contabilidad analítica. **No** mezclar.
+
+**Estado actual: T15 EN_REVISION_USUARIO** hasta resolver la compatibilidad de la regulación estatutaria histórica con los mínimos de la LOSU. **T18 y T19 ya AUDITADO** por acceso al PDF primario del Presupuesto 2026.
