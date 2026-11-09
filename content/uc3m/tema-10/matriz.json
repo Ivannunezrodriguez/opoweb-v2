@@ -6,7 +6,13 @@
     {
       "bloque": "Marco general y ámbito",
       "manual": "apartado 1",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-01",
+        "UC3M-ADIC-20261106-LOTE-02"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
     },
     {
       "bloque": "Clases de personal",
@@ -20,7 +26,13 @@
     {
       "bloque": "Derechos individuales y colectivos",
       "manual": "apartados 3 y 4",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-03",
+        "UC3M-ADIC-20261106-LOTE-04"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
     },
     {
       "bloque": "Carrera y promoción interna",
@@ -76,7 +88,13 @@
     {
       "bloque": "Reingreso al servicio activo",
       "manual": "apartado 13",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-05",
+        "UC3M-ADIC-20261106-LOTE-06"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
     }
   ],
   "estado": "EN_REVISION_USUARIO",
@@ -169,5 +187,13 @@
     "aprobadoUsuario": false,
     "fechaCorteBOEConfirmada": false,
     "certificacionE2E": false
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 11,
+    "bloquesConPreguntasHistoricasOComplementarias": 11,
+    "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
+    "reserva": "Preguntas originales conservadas; rastreo de cobertura, no certificación legal ni funcional",
+    "certificacionIntegral": false
   }
 }
