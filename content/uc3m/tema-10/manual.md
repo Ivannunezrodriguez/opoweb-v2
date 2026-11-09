@@ -358,3 +358,20 @@ La [**Ley 4/2026, de 1 de octubre, BOE-A-2026-20528**](https://www.boe.es/buscar
 > ⚠️ **¡Foco Examen!:** El **100 %** es un **máximo conjunto compartido**, no un derecho a reducción del **100 % para cada progenitor**. La prórroga más allá del límite de edad requiere **gran discapacidad o gran dependencia**, cuidados acreditados y convivencia.
 
 **Reserva de la convocatoria UC3M:** la base **primera.7** exige la redacción aplicable a la **publicación de la resolución definitiva de admitidos y convocatoria del ejercicio**, cuya fecha primaria de publicación no está aún acreditada en esta auditoría. La modificación de **03/10/2026** debe ser comparada con esa fecha antes de certificar la exigibilidad del nuevo texto. El estado del tema sigue **EN_REVISION_USUARIO**.
+
+## Auditoría temporal focal — **09/11/2026**: reforma TREBEP que NO cambia las 12 claves actuales
+
+La [**Ley 4/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528) fue publicada el **03/10/2026**, pero **entró en vigor el 23/10/2026**. Su disposición final undécima reforma el **art. 49.e TREBEP**. Por tanto, **publicación de la ley** y **entrada en vigor** no son lo mismo.
+
+Se han cotejado los **12 identificadores UC3M-T10-001 a 012** con sus referencias explícitas: **arts. 9, 12, 18, 20, 54, 56, 61, 62, 64, 89 y 90 TREBEP**. **Ninguna de las 12 preguntas actuales pide el art. 49.e**. La reforma no altera directamente esas **12 claves**; tampoco acredita por sí sola que cualquier futura pregunta sobre permisos sea exigible en la fecha de corte.
+
+| Hito | Fecha | Consecuencia editorial |
+|---|---|---|
+| Firma de la resolución definitiva UC3M | **30/09/2026** | Acreditada por documento original aportado, **no** equivale a su publicación |
+| Publicación Ley 4/2026 | **03/10/2026** | **La reforma todavía no estaba en vigor** |
+| Entrada en vigor Ley 4/2026 | **23/10/2026** | Aplicación del nuevo texto art. **49.e** desde esa fecha |
+| Corte de convocatoria, base primera.7 | **Publicación efectiva de resolución definitiva** | **Sin diligencia oficial fechada**, no atribuir fecha por presunción |
+
+**Resultado cerrado:** el **riesgo de contaminación por art. 49.e en las 12 preguntas históricas queda descartado**. **Resultado no cerrado:** corte temporal exigible de **todo el temario**, especialmente supuestos nuevos sobre ese permiso; certificación de interfaz y posibles cambios legislativos independientes.
+
+> ⚠️ **¡Foco Examen!:** Una ley **publicada el 03/10** que **entra en vigor el 23/10** no puede aplicarse como vigente el **01/10**. En el banco T10 actual no se pregunta por esa reforma.
