@@ -15,5 +15,5 @@ assert.ok(src.includes("' · EN REVISIÓN jurídica'"));
 assert.ok(src.includes("Las preguntas son entrenamiento provisional") || src.includes("Sus preguntas son entrenamiento provisional"));
 assert.ok(src.includes("día del examen.</p>' + uc3mAuditNote + '<p>Fuente:"));
 assert.ok(!src.includes("día del examen.</p>${uc3mAuditNote}<p>Fuente:"));
-assert.ok(read('practice.html').includes('assets/practice.js?v=2026.11.09.3'));
+assert.ok(read('practice.html').includes('assets/practice.js?v=2026.11.09.4'));
 console.log('UC3M: temas 18/19 auditados y reservas 10/15/16 visibles, versión de caché actualizada.');
