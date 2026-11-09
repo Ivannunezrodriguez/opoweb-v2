@@ -250,18 +250,30 @@
       "numero": 7,
       "titulo": "Ley 10/2019 de Transparencia y Participación de la Comunidad de Madrid; publicidad activa; acceso a la información pública; Portal de Transparencia y procedimiento de acceso en la UC3M.",
       "bloque": "generales",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/uc3m/tema-07/manual.md",
       "fuentes": "content/uc3m/tema-07/fuentes.md",
       "matriz": "content/uc3m/tema-07/matriz.json",
       "preguntas": "content/uc3m/tema-07/preguntas.json",
-      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
-      "revisadoEl": "2026-11-08",
+      "estadoRevisionDocumental": "AUDITADO_JURIDICO_EDITORIAL_CON_RESERVA_FUNCIONAL",
+      "revisadoEl": "2026-11-09",
       "reservas": [
-        "Fecha primaria de corte legal de convocatoria no certificada",
-        "Aprobación del usuario pendiente",
-        "Certificación funcional integral pendiente"
-      ]
+        "Denominación histórica de órganos de reclamación: comprobar norma institucional antes de elaborar nuevos ítems",
+        "Fecha exacta de publicación de resolución definitiva UC3M sin documento primario",
+        "Pruebas E2E/accesibilidad y aprobación del usuario pendientes"
+      ],
+      "actaAuditoria": "audit/UC3M_T07_AUDITORIA_TRANSPARENCIA_2026-11-09.md",
+      "certificacionIntegral": false,
+      "auditoriaJuridica20261109": {
+        "fecha": "2026-11-09",
+        "ley": "10/2019 CM",
+        "ultimaActualizacionBOE": "2024-12-27",
+        "preguntas": 12,
+        "alternativas": 48,
+        "cotejoPortalSedeUC3M": true,
+        "certificacionIntegral": false,
+        "pruebaNavegadorE2E": false
+      }
     },
     {
       "numero": 8,
