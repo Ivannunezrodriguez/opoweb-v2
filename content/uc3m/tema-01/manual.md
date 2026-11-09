@@ -1,5 +1,7 @@
 # Tema 1. Constitución Española de 1978
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta de cotejo y reservas**](../../../audit/UC3M_T01_AUDITORIA_CONSTITUCIONAL_2026-11-09.md). **No es CERTIFICADO_INTEGRAL**: aprobación de usuario, pruebas de navegador/accesibilidad y CI definitivo siguen pendientes.
+
 > Epígrafe oficial: estructura y contenido; derechos y deberes fundamentales; elaboración de las leyes; organización territorial del Estado; reforma constitucional.
 
 ## 1. Estructura y contenido
