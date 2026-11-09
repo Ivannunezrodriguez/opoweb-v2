@@ -143,7 +143,7 @@
       "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     }
   ],
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "controlIntegralBanco20261104": {
     "fecha": "2026-11-04",
     "estado": "COTEJO_BANCO_COMPLETO",
@@ -279,5 +279,16 @@
     "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
     "certificacionIntegral": false,
     "observacion": "Enlace pedagógico a banco real, no certificación de vigencia ni de distractores"
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T12_AUDITORIA_PRL_2026-11-09.md",
+    "ley": "31/1995",
+    "reforma": "Ley 1/2026",
+    "apartados": 17,
+    "preguntas": 12,
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
   }
 }
