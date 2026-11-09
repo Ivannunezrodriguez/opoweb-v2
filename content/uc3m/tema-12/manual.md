@@ -1,5 +1,7 @@
 # Tema 12. Prevención de Riesgos Laborales
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta individual**](../../../audit/UC3M_T12_AUDITORIA_PRL_2026-11-09.md). No implica `CERTIFICADO_INTEGRAL`: falta comprobar el CI, navegador y accesibilidad; aprobación del usuario pendiente.
+
 > Epígrafe oficial: Ley 31/1995 de Prevención de Riesgos Laborales: objeto, ámbito, definiciones, derechos, obligaciones, servicios de prevención, consulta y participación.
 
 ## 1. Objeto y finalidad
