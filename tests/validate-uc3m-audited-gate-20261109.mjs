@@ -83,6 +83,22 @@ for (const item of json(equality.preguntas).preguntas) {
   assert.match(item.referencia, /https:\/\/(?:www\.boe\.es|www\.uc3m\.es|uc3m\.es)\//, 'Falta fuente primaria T08: ' + item.id);
 }
 assert.ok(equality.actaAuditoria.includes('UC3M_T08_AUDITORIA_IGUALDAD'));
+for (const [number, source] of [[8,'BOE-A-2007-6115'],[13,'BOE-A-2023-7500']]) {
+  const theme = program.temas.find(item => item.numero === number);
+  assert.equal(theme.estado, 'AUDITADO', 'Estado T' + number);
+  assert.equal(json(theme.matriz).estado, 'AUDITADO');
+  assert.ok(theme.actaAuditoria && existsSync(theme.actaAuditoria));
+  const q = json(theme.preguntas).preguntas;
+  assert.equal(q.length, 12);
+  for (const item of q) {
+    assert.equal(item.respuestaLiteral, item.opciones[item.correcta], 'Respuesta cambiada en ' + item.id);
+    if (number === 8 && Number(item.id.slice(-3)) >= 9) {
+      assert.match(item.referencia, /https:\/\/www\.uc3m\.es\//, 'Falta UC3M en ' + item.id);
+    } else {
+      assert.ok(item.referencia.includes(source), 'Falta BOE en ' + item.id);
+    }
+  }
+}
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
