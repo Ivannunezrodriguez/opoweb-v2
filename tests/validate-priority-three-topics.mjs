@@ -20,7 +20,7 @@ assert.match(q9.enunciado,/NO constituye una comprobación técnica/);
 assert.match(q9.respuestaLiteral,/imagen visual/);
 assert.match(t(baseP+'tema-13/manual.md'),/puede dar \*\*varias respuestas\*\*/);
 for(const id of ['UC3M-T16-014','UC3M-T16-015']){
- const q=map(b16,id);assert.match(q.pregunta,/asignatura/i);assert.match(q.referencia,/uc3m\.es\/grado/);
+ const q=map(b16,id);assert.match(q.pregunta,/asignatura/i);assert.match(q.referencia,/uc3m\.es\/(?:grado|ss\/Satellite\/Grado)/);
 }
 assert.match(map(b16,'UC3M-T16-015').pregunta,/dispone de convocatoria extraordinaria/);
 assert.match(t(baseU+'tema-16/manual.md'),/\*\*Asignatura especial\*\*/);
