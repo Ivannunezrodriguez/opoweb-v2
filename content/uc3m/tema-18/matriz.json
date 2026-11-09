@@ -81,7 +81,12 @@
       ],
       "preguntas": [],
       "preceptosCotejo20261106": "Ley 5/2025 CM art. 108.4 (hasta publicacion BOCM)",
-      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108"
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-15"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Ejecución y reconocimiento de ingresos",
@@ -105,7 +110,13 @@
       ],
       "preguntas": [],
       "preceptosCotejo20261106": "Ley 5/2025 CM arts. 10.2, 109.2, 182.1; LOSU 59",
-      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217"
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-17",
+        "UC3M-ADIC-20261106-LOTE-18"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     }
   ],
   "incidenciasCorregidas": [
@@ -250,5 +261,13 @@
       "cotejo integral de cada afirmacion legal a fecha de corte",
       "aprobacion de usuario"
     ]
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 8,
+    "bloquesConPreguntasHistoricasOComplementarias": 8,
+    "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
+    "certificacionIntegral": false,
+    "observacion": "Enlace pedagógico a banco real, no certificación de vigencia ni de distractores"
   }
 }
