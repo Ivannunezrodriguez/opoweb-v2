@@ -321,3 +321,20 @@ El inventario del repositorio identifica ahora **9 temas `AUDITADO`**: **T1–T7
 Los **9 estados AUDITADO** acreditan revisión jurídico-editorial o técnico-editorial documentada. **No** son nueve certificaciones integrales; continúan pendientes CI en verde del commit final, E2E, accesibilidad y la fecha documental exacta del corte de la base **primera.7**.
 
 > ⚠️ **¡Foco Examen!:** En transparencia, los **20 días** del art. 42 se interpretan con la regla general de **días hábiles** salvo excepción legal; **no** deben mezclarse con los **5 días hábiles** para inadmisión. En PRL, el umbral de **50** para el Comité no se altera por la reforma de **2026** en otros artículos.
+
+
+## T10/T11 — corte TREBEP y auditoría de incompatibilidades (09/11/2026)
+
+**AUDITADO documental T11:** [acta de ingreso, provisión e incompatibilidades](../../audit/UC3M_T11_AUDITORIA_INGRESO_PROVISION_INCOMPATIBILIDADES_2026-11-09.md). **T10 sigue EN_REVISION_USUARIO**, porque la [Ley 4/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528) modifica **TREBEP 49.e**, publicada **03/10/2026**.
+
+**Pista de fecha de corte no primaria:** [Adams](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/) señala publicación de listas definitivas **01/10/2026** y una [noticia de otro portal de oposiciones](https://www.emplea-te.com/noticias-oposiciones/universidad-carlos-iii-publicada-la-relacion-definitiva-de-aspirantes-admitidos-y-excluidos-en-la-convocatoria-de-gestion-a2-y-auxiliar-administrativo-c2/) informa de ellas el **02/10/2026**. **Si se acredita publicación efectiva el 01/10/2026, la reforma TREBEP publicada 03/10/2026 queda fuera del corte normativo de base primera.7.** Hasta obtener el documento UC3M con fecha de publicación, esa exclusión sigue **condicionada** y no se altera una clave del banco por inferencia.
+
+| Fecha | Tipo | Consecuencia |
+|---|---|---|
+| **01/10/2026** | Fecha de listas definitivas según calendario secundario | **No certificada en fuente primaria** |
+| **03/10/2026** | Publicación reforma **TREBEP 49.e** en BOE | Potencialmente posterior al corte, sujeto a acreditar este |
+| **21/11/2026** | Ejercicio UC3M | **No es** la fecha de corte por base primera.7 |
+
+> ⚠️ **¡Foco Examen!:** Si el corte fue **01/10/2026**, **no** se responde automáticamente con la reforma del **03/10/2026**, aunque esta ya figure en el TREBEP consolidado del día del examen.
+
+**Nuevo recuento del manifiesto:** **10/20 AUDITADO** (**T1–T7, T9, T11, T12**) y **10/20 EN_REVISION_USUARIO** (**T8, T10, T13–T20**). Los recuentos de 7 y 9 temas presentes en anotaciones históricas describen fases anteriores.
