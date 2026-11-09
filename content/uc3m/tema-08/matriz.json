@@ -36,7 +36,14 @@
     {
       "bloque": "Tutela y consecuencias jurídicas",
       "manual": "apartado 5",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T08-01",
+        "UC3M-ADIC-20261106-T08-02",
+        "UC3M-ADIC-20261106-T08-03"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
     },
     {
       "bloque": "Acciones positivas",
@@ -55,7 +62,14 @@
     {
       "bloque": "Igualdad en el empleo público",
       "manual": "apartado 8",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T08-04",
+        "UC3M-ADIC-20261106-T08-05",
+        "UC3M-ADIC-20261106-T08-06"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
     },
     {
       "bloque": "Planes de igualdad",
@@ -67,7 +81,14 @@
     {
       "bloque": "Identidad y expresión de género en la UC3M",
       "manual": "apartado 10",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T08-07",
+        "UC3M-ADIC-20261106-T08-08",
+        "UC3M-ADIC-20261106-T08-09"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
     },
     {
       "bloque": "Protocolo UC3M frente al acoso y ciberacoso",
@@ -88,7 +109,14 @@
     {
       "bloque": "Lenguaje e imagen inclusivos",
       "manual": "apartado 13",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T08-10",
+        "UC3M-ADIC-20261106-T08-11",
+        "UC3M-ADIC-20261106-T08-12"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
     }
   ],
   "estado": "EN_REVISION_USUARIO",
@@ -175,5 +203,13 @@
     "aprobacionUsuario": false,
     "fechaCortePrimariaPendiente": true,
     "certificacionFuncional": false
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 13,
+    "bloquesConPreguntasHistoricasOComplementarias": 13,
+    "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
+    "reserva": "Preguntas originales conservadas; rastreo de cobertura, no certificación legal ni funcional",
+    "certificacionIntegral": false
   }
 }
