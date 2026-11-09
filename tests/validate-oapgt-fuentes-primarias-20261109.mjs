@@ -125,3 +125,10 @@ for (const [q,valor] of [[examenC1,'1.327,80'],[examenC2,'712,08'],[noctC1,'97,4
  assert(q.opciones[k].includes(valor), 'Clave test económica distinta del BOP: '+q.id);
 }
 console.log('OAPGT_ACUERDO_2025_2026_CIERRE_ECONOMICO_OK: 4 distractores fechados y tablas C1/C2');
+
+
+const qC1GradoII=c1Q.find(q=>q.id==='DIP-T22-019');
+assert(qC1GradoII.referencia.includes('2026.00000228'),'Referencia BOP 2026 debe apuntar al anuncio correcto');
+assert(qC1GradoII.referencia.includes('www.diputoledo.es/global/ver-pdf/36759'),'URL oficial BOP incorrecta para C1 grado II');
+assert(!qC1GradoII.referencia.includes('bop=97'),'No recuperar enlace histórico inválido a número de BOP 97');
+console.log('DIP-T22-019_ENLACE_BOP_10_2026_OK');
