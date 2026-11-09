@@ -14,7 +14,7 @@
       "correcta": 3,
       "justificacion": "La LOPDGDD adapta el ordenamiento español al RGPD, completa sus previsiones y garantiza derechos digitales.",
       "trampa": "No sustituye al RGPD, sino que lo complementa en el ordenamiento español.",
-      "referencia": "Manual, apartado 1",
+      "referencia": "Manual, apartado 1 · LOPDGDD, art. 1: https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a1",
       "respuestaLiteral": "Adaptar el ordenamiento español al RGPD y garantizar derechos digitales"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 1,
       "justificacion": "La minimización obliga a limitar los datos a lo necesario para la finalidad perseguida.",
       "trampa": "La exactitud se refiere a que los datos sean correctos y estén actualizados.",
-      "referencia": "Manual, apartado 2",
+      "referencia": "Manual, apartado 2 · RGPD, art. 5: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "Minimización de datos"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 0,
       "justificacion": "La responsabilidad proactiva exige adoptar medidas y poder demostrar el cumplimiento.",
       "trampa": "No basta con cumplir materialmente; debe poder acreditarse.",
-      "referencia": "Manual, apartado 2",
+      "referencia": "Manual, apartado 2 · RGPD, art. 5: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "El responsable, conforme al principio de responsabilidad proactiva"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 2,
       "justificacion": "La LOPDGDD fija con carácter general la edad en catorce años, salvo que una ley exija asistencia.",
       "trampa": "El RGPD permite a los Estados fijar una edad entre 13 y 16 años; España eligió 14.",
-      "referencia": "Manual, apartado 4",
+      "referencia": "Manual, apartado 4 · LOPDGDD, art. 7: https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a7",
       "respuestaLiteral": "14 años"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 3,
       "justificacion": "Los datos de salud pertenecen a las categorías especiales y tienen protección reforzada.",
       "trampa": "No todo dato personal es categoría especial.",
-      "referencia": "Manual, apartado 4",
+      "referencia": "Manual, apartado 4 · RGPD, art. 9: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "Dato de salud"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 1,
       "justificacion": "El responsable debe responder en un mes, ampliable otros dos por complejidad o número de solicitudes.",
       "trampa": "La ampliación debe comunicarse dentro del primer mes.",
-      "referencia": "Manual, apartado 5",
+      "referencia": "Manual, apartado 5 · RGPD, art. 12: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "Un mes, ampliable otros dos"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 2,
       "justificacion": "La portabilidad permite recibir y transmitir determinados datos cuando concurren sus requisitos.",
       "trampa": "La portabilidad no equivale a obtener cualquier expediente administrativo.",
-      "referencia": "Manual, apartado 5",
+      "referencia": "Manual, apartado 5 · RGPD, art. 20: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "Portabilidad"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 1,
       "justificacion": "El responsable decide los fines y medios del tratamiento.",
       "trampa": "El encargado trata los datos por cuenta del responsable.",
-      "referencia": "Manual, apartado 7",
+      "referencia": "Manual, apartado 7 · RGPD, art. 4: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "El responsable"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 3,
       "justificacion": "La relación debe constar en contrato u otro acto jurídico que determine objeto, duración, finalidad, datos, interesados y obligaciones.",
       "trampa": "La existencia de instrucciones prácticas no sustituye la formalización jurídica.",
-      "referencia": "Manual, apartado 8",
+      "referencia": "Manual, apartado 8 · RGPD, art. 28: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "Mediante contrato u otro acto jurídico con contenido mínimo"
     },
     {
@@ -149,12 +149,12 @@
       "correcta": 2,
       "justificacion": "La evaluación de impacto se realiza antes de tratamientos que probablemente impliquen alto riesgo.",
       "trampa": "No es una medida posterior a la infracción, sino preventiva.",
-      "referencia": "Manual, apartado 9",
+      "referencia": "Manual, apartado 9 · RGPD, art. 35: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "Cuando el tratamiento probablemente entrañe alto riesgo"
     },
     {
       "id": "UC3M-T06-011",
-      "pregunta": "¿En qué plazo de referencia debe notificarse una brecha a la autoridad de control?",
+      "pregunta": "Si una violación de seguridad de datos personales debe notificarse a la autoridad de control conforme al RGPD, ¿cuál es el plazo de referencia?",
       "opciones": [
         "72 horas desde que se tenga constancia, si es posible",
         "24 horas",
@@ -162,9 +162,9 @@
         "Un mes"
       ],
       "correcta": 0,
-      "justificacion": "La notificación debe hacerse sin dilación indebida y, de ser posible, dentro de 72 horas.",
-      "trampa": "No todas las brechas se comunican a los afectados; eso depende del alto riesgo.",
-      "referencia": "Manual, apartado 10",
+      "justificacion": "Según el art. 33.1 RGPD, el responsable notificará sin dilación indebida y, de ser posible, en las 72 horas siguientes a tener constancia, salvo que sea improbable que la violación suponga un riesgo para derechos y libertades; si se supera el plazo, deben indicarse los motivos de la dilación.",
+      "trampa": "72 horas no es una obligación incondicional para cualquier incidencia: existe excepción cuando sea improbable el riesgo para derechos y libertades; tampoco confundir notificación a autoridad con comunicación a afectados.",
+      "referencia": "Manual, apartado 10 · RGPD, art. 33: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "72 horas desde que se tenga constancia, si es posible"
     },
     {
@@ -179,7 +179,7 @@
       "correcta": 0,
       "justificacion": "El delegado actúa con independencia, dispone de recursos y no puede recibir instrucciones sobre el desempeño de sus funciones.",
       "trampa": "Puede ser interno o externo y no sustituye al responsable ni a la autoridad de control.",
-      "referencia": "Manual, apartado 11",
+      "referencia": "Manual, apartado 11 · RGPD, art. 38: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
       "respuestaLiteral": "Actúa con independencia y no recibe instrucciones sobre sus funciones"
     }
   ],
@@ -195,5 +195,17 @@
     "clavesModificadas": 0,
     "aprobacionUsuario": false,
     "certificacionFuncional": false
+  },
+  "controlAuditoriaBOEUE20261109": {
+    "fecha": "2026-11-09",
+    "normas": [
+      "RGPD Reglamento UE 2016/679",
+      "LO 3/2018 BOE-A-2018-16673"
+    ],
+    "ultimaModificacionLOPDGDD": "2025-12-27",
+    "preguntas": 12,
+    "alternativas": 48,
+    "excepcionCorregida": "UC3M-T06-011 no notificable si riesgo improbable",
+    "certificacionIntegral": false
   }
 }
