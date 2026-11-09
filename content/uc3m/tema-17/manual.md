@@ -1,5 +1,7 @@
 # Tema 17. Acceso y admisión a estudios oficiales
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta RD 534/2024 y reforma 2026**](../../../audit/UC3M_T17_AUDITORIA_ACCESO_ADMISION_2026-11-09.md). La auditoría no equivale a `CERTIFICADO_INTEGRAL`: CI final, E2E y accesibilidad siguen pendientes.
+
 > Epígrafe oficial: Real Decreto 534/2024 sobre acceso y admisión a Grado; regulación y normativa de acceso y admisión en estudios oficiales de la UC3M.
 
 ## 1. Norma vigente y objeto
