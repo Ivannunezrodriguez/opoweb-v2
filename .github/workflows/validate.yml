@@ -124,6 +124,8 @@ jobs:
           node tests/validate-diputacion-c1-t16-t19-cierre-20261105.mjs
           node tests/validate-diputacion-c1-t20-t23-cotejo-20261105.mjs
           node tests/validate-diputacion-c1-t24-t27-cierre-20261105.mjs
+      - name: Verificar reforma OAPGT 2011 y mantener reservas de los tres temas bloqueados
+        run: node tests/validate-oapgt-fuentes-primarias-20261109.mjs
       - name: Validar estructura conjunta de 121 temas de cinco convocatorias
         run: node tests/validate-all-programmes.mjs
       - name: Cotejar 80 alternativas de empleo publico Castilla-La Mancha Diputacion C2 T7
