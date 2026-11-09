@@ -1,5 +1,7 @@
 # Tema 7. Transparencia y participación
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta individual**](../../../audit/UC3M_T07_AUDITORIA_TRANSPARENCIA_2026-11-09.md). No implica `CERTIFICADO_INTEGRAL`: falta comprobar el CI, navegador y accesibilidad; aprobación del usuario pendiente.
+
 > Epígrafe oficial: Ley 10/2019, de 10 de abril, de Transparencia y de Participación de la Comunidad de Madrid; publicidad activa; derecho de acceso a la información pública; Portal de Transparencia y procedimiento de acceso en la UC3M.
 
 ## 1. Objeto, ámbito y principios
