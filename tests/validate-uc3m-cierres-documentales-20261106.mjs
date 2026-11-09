@@ -42,7 +42,9 @@ for(const x of expectations){
     assert.equal(q.respuestaLiteral,q.opciones[q.correcta]);
     assert.ok(q.justificacion&&q.referencia);
   }
-  assert.equal(matrix.estado,'EN_REVISION_USUARIO','No fingir aprobación del usuario');
+  assert.equal(matrix.estado,'AUDITADO','Cierre editorial T9/T12 debe estar sincronizado');
+  // AUDITADO significa revisión editorial; aprobación individual del usuario sigue siendo false.
+  assert.equal(matrix.cierreDocumental20261106?.aprobacionUsuario,false,'No fingir aprobación del usuario');
   assert.equal(matrix.cierreDocumental20261106?.resultado,'CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS');
   assert.equal(matrix.cierreDocumental20261106?.bloquesHistoricosSinPreguntaReforzados,x.gaps);
   assert.equal(matrix.cierreDocumental20261106?.aprobacionUsuario,false);
