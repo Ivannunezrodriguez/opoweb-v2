@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { readFileSync, existsSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const root = resolve(import.meta.dirname, '..');
@@ -8,8 +8,27 @@ const load = p => JSON.parse(read(p));
 
 const ol = load('data/programa-olias-auxiliar-edificios-2026.json').temas;
 const uc = load('data/programa-uc3m-auxiliar-administrativa-2026.json').temas;
-assert.deepEqual(ol.filter(t => t.estado !== 'AUDITADO').map(t => t.numero), [13]);
-assert.deepEqual(uc.filter(t => t.estado !== 'AUDITADO').map(t => t.numero), [10, 15, 16]);
+const evidencia = load('audit/evidencias-cierre-olias-uc3m-2026.json');
+assert.equal(evidencia.temas.length, 4, 'Conservar cuatro puertas de cierre documentadas');
+const casos = [
+  { id: 'OLIAS-T13', numero: 13, temas: ol },
+  ...[10, 15, 16].map(numero => ({ id: 'UC3M-T' + numero, numero, temas: uc })),
+];
+for (const caso of casos) {
+  const tema = caso.temas.find(t => t.numero === caso.numero);
+  const registro = evidencia.temas.find(t => t.id === caso.id);
+  assert.ok(tema && registro, 'Falta tema o evidencia de ' + caso.id);
+  assert.ok(Array.isArray(registro.pruebasRequeridas) && registro.pruebasRequeridas.length >= 4);
+  if (tema.estado === 'AUDITADO') {
+    assert.equal(registro.estadoEvidencia, 'VERIFICADO', caso.id + ': marcado AUDITADO sin cierre verificable');
+    assert.match(registro.documentoPrimario ?? '', /^https:\/\//, caso.id + ': falta fuente primaria');
+    assert.match(registro.fechaPublicacionPrimaria ?? '', /^2026-\d{2}-\d{2}$/, caso.id + ': falta fecha primaria');
+    assert.match(registro.actaCierre ?? '', /^audit\//, caso.id + ': falta acta individual');
+    assert.ok(existsSync(resolve(root, registro.actaCierre)), caso.id + ': acta inexistente');
+  } else {
+    assert.notEqual(registro.estadoEvidencia, 'VERIFICADO', caso.id + ': fuente verificada pero tema aún no auditado');
+  }
+}
 
 const calles = read('content/olias-auxiliar-edificios/tema-13/manual.md');
 assert.match(calles, /VIAS\/PSEU|VIAS y PSEU/);
