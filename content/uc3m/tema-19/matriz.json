@@ -1,7 +1,7 @@
 {
   "tema": 19,
   "epigrafe": "Presupuesto de la UC3M (II): ejecución de gastos, gestión presupuestaria y económico-financiera, ordenación, documentos contables, liquidación y cierre.",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "controlVigencia": "2026-07-23",
   "cobertura": [
     {
@@ -189,5 +189,15 @@
       "WCAG movil PWA persistencia y tests",
       "auditoria juridica de cada frase a fecha de corte y aprobacion usuario"
     ]
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "acta": "audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md",
+    "fuente": "Presupuesto UC3M 2026 Vol. I, Normas Básicas de Gestión, PDF 3807877 bytes",
+    "bloques": 6,
+    "preguntas": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
   }
 }
