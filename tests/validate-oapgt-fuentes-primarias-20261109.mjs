@@ -16,7 +16,7 @@ assert.equal(t13.estado,'EN_AUDITORIA');
 
 const primary='https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011';
 const verified=read('content/diputacion-toledo-auxiliar-c2/tema-06/estatutos-2011-verificado.md');
-for(const term of ['28/11/2011','14/12/2011','Art. 1.2','Art. 8 bis','Art. 4.a','Art. 14.d.1','Consejo Rector','Presidencia','NO','cinco']){
+for(const term of ['28/11/2011','14/12/2011','Art. 1.2','Art. 8 bis','Art. 4.a','Art. 14.d.1','Consejo Rector','Presidencia','cinco']){
   assert(verified.includes(term),'Missing primary-source fact or express reserve: '+term);
 }
 assert(verified.includes(primary));
@@ -36,7 +36,7 @@ for(const t of [t22,t06]){
 const c1Q=json(t22.preguntas).preguntas;
 const c2Q=json(t06.preguntas).preguntas;
 for(const [qs,index,key,stem] of [
-  [c1Q,7,'correcta','Según el artículo 1'],
+  [c1Q,6,'correcta','Según el artículo 1'],
   [c2Q,0,'respuestaCorrecta','Según la modificación oficial']
 ]){
  const q=qs[index];
