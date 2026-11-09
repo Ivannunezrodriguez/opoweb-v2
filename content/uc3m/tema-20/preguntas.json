@@ -87,8 +87,8 @@
         "Con la formalización"
       ],
       "correcta": 3,
-      "justificacion": "La regla general es la perfección mediante formalización, con las excepciones legales.",
-      "trampa": "Los contratos menores y los basados en acuerdo marco tienen reglas específicas.",
+      "justificacion": "La regla general del artículo 36.1 LCSP es la perfección de los contratos mediante formalización. Existen excepciones, como los contratos menores y otros supuestos regulados; por eso el enunciado pregunta expresamente por la regla general.",
+      "trampa": "Perfección general: formalización. No atribuir esa regla sin excepciones a todos los contratos menores.",
       "referencia": "LCSP art. 36.1, perfeccion por formalizacion y excepciones · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a36",
       "respuestaLiteral": "Con la formalización"
     },
@@ -102,8 +102,8 @@
         "Precio inferior a 60.000 euros"
       ],
       "correcta": 2,
-      "justificacion": "Los contratos menores de suministros y servicios deben tener valor estimado inferior a 15.000 euros, sin IVA.",
-      "trampa": "El umbral de 40.000 euros corresponde a obras.",
+      "justificacion": "Conforme al artículo 118.1 LCSP, tienen consideración de contratos menores los de servicios y suministros de valor estimado inferior a 15.000 euros, excluido IVA (salvando las especialidades legales que puedan corresponder). El umbral de 40.000 euros se refiere a obras.",
+      "trampa": "Servicios y suministros: valor estimado inferior a 15.000 € sin IVA; obras: inferior a 40.000 €. Presupuesto base y valor estimado son magnitudes distintas.",
       "referencia": "LCSP art. 118.1, contrato menor de servicios con valor estimado inferior a 15000 euros · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a118",
       "respuestaLiteral": "Valor estimado inferior a 15.000 euros, sin IVA"
     },
@@ -177,14 +177,32 @@
         "En el Registro Civil"
       ],
       "correcta": 0,
-      "justificacion": "La UC3M tiene alojado su perfil en la Plataforma de Contratación del Sector Público desde 2016.",
+      "justificacion": "La UC3M enlaza expresamente su perfil de contratante en la Plataforma de Contratación del Sector Público (desde el 1 de noviembre de 2016). No confundir la publicación en la Plataforma con un simple tablón físico o solo el BOCM.",
       "trampa": "La licitación electrónica universitaria complementa, pero no sustituye, la publicidad oficial del perfil.",
-      "referencia": "Perfil contratante UC3M y LCSP art. 63, publicidad en Plataforma de Contratacion del Sector Publico · https://contrataciondelestado.es",
+      "referencia": "Perfil contratante UC3M y LCSP art. 63, publicidad en Plataforma de Contratacion del Sector Publico · https://contrataciondelestado.es · Perfil oficial UC3M: https://www.uc3m.es/conocenos/contratos-perfil-contratante-convenios-contratos",
       "respuestaLiteral": "En la Plataforma de Contratación del Sector Público"
     }
   ],
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "fuentes": [
+      "LCSP BOE-A-2017-12902, última actualización publicada 09/04/2026",
+      "Estatutos UC3M art.175",
+      "UC3M perfil oficial Plataforma Contratación"
+    ],
+    "preguntas": 12,
+    "alternativas": 48,
+    "clavesYDistractoresConservados": true,
+    "distinciones": [
+      "PBL incluye IVA como regla general",
+      "valor estimado excluye IVA",
+      "menor servicios inferior a 15000 euros",
+      "perfección con formalización como regla general"
+    ],
+    "certificacionIntegral": false
   }
 }
