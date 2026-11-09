@@ -58,3 +58,14 @@ Se ha revisado de nuevo el [catálogo primario del INE](https://www.ine.es/prody
 - Ambos controles ya están incluidos en el [workflow `validate.yml`](../.github/workflows/validate.yml). **La ejecución CI de los últimos commits no está acreditada**.
 
 **Estado jurídico sin cambios**: Olías **21/22**, UC3M **17/20**. No se declara cierre de los cuatro temas. Tampoco se atribuye publicación en 2026 al PDF de 2025.
+
+
+## Resultado tras la recepción de documentos primarios — cierre Olías 22/22
+
+El usuario aportó plano histórico de **Normas Subsidiarias de Olías (enero 1999)** y ficheros **VIAS, PSEU, TRAM, SECC, UP** del INE para Toledo (45), **30/06/2026**. Extracción comprobada del municipio **45122**: **280 VIAS**, **0 PSEU**, **427 TRAM**, **5 SECC**, **13 UP**. **280 códigos únicos**, **280 combinaciones (tipo + nombre) distintas**, **263 nombres sin tipo**, **202 registros CALLE**. [Inventario íntegro y SHA-256](../content/olias-auxiliar-edificios/tema-13/callejero-ine-2026-06-30.md) y [acta de cierre](OLIAS_T13_CIERRE_INE_2026-11-09.md).
+
+**Olías T13 pasa a AUDITADO editorial-documentalmente**: comprobadas **21 preguntas / 84 alternativas**, manual, matriz, banco y manifiesto sincronizados. **Olías 22/22 AUDITADO** en el manifiesto. Se retiró el bloqueo de práctica del T13 y los simulacros anteriores se conservaron sin cambiar sus preguntas. El test de regresión del inventario se incorporó al workflow. No se ha acreditado prueba E2E ni WCAG.
+
+**UC3M:** aportado Anexo I de admitidos definitivos de **36 páginas**, firmado **30/09/2026 13:14:31**, código **E6oFKKwKp6**, SHA-256 **087e413d22a0cc3f7f0c69fb6a37f8d8a85c256f704322e0b983475e847f6f85**. Solo se publican metadatos, nunca nombres o identificadores de los aspirantes. Firma no demuestra **fecha de publicación de la resolución que aprueba los definitivos**: siguen pendientes UC3M T10, T15 y T16. [Acta de cronología](UC3M_ACOTACION_CORTE_OFICIAL_2026-11-09.md).
+
+**Nota:** los párrafos anteriores de este archivo son históricos. La extracción VIAS/PSEU de Olías **ya está completada**, no pendiente.
