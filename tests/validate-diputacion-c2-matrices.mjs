@@ -4,7 +4,7 @@ const read=p=>JSON.parse(readFileSync(p,'utf8'));
 const base='content/diputacion-toledo-auxiliar-c2/tema-';
 const programme=read('data/programa-diputacion-auxiliar-c2-2026.json');
 const covered=programme.temas.filter(t=>t.matriz).map(t=>t.numero);
-assert.deepEqual(covered,[1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20],'Nineteen matrices are documentary only; T6 OAPGT remains last');
+assert.deepEqual(covered,Array.from({length:20},(_,i)=>i+1),'20 matrices must exist, but T6 remains BORRADOR');
 let checked=0;
 for(const n of covered){
  const topic=programme.temas.find(t=>t.numero===n);
@@ -14,7 +14,14 @@ for(const n of covered){
  const map=read(file);
  assert.equal(map.epigrafeOficial,topic.titulo,'Official wording must be exact: '+n);
  assert.equal(map.tema,n);
- if([1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20].includes(n)){
+ if(n===6){
+   assert.equal(map.estadoEditorial,'BORRADOR','Creating a matrix must not certify OAPGT');
+   assert.equal(topic.estado,'BORRADOR','Official T6 remains provisional');
+   assert.match(map.estadoControl,/ESTATUTOS_INTEGROS_PENDIENTES/);
+   assert.equal(map.controlFuentePrimaria20261109.cincoCambiosCotejados,true);
+   assert.equal(map.controlFuentePrimaria20261109.textoEstatutosIntegroConsolidado,false);
+   assert.equal(map.controlFuentePrimaria20261109.certificacionIntegral,false);
+ }else if([1,2,3,4,5,7,8,9,10,11,12,13,14,15,16,17,18,19,20].includes(n)){
    assert.equal(map.estadoEditorial,'AUDITADO','Cierre documental exclusivo del bloque 17–20');
    if(n<=5){
      assert.match(map.estadoControl,/AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE/);
@@ -45,5 +52,5 @@ for(const n of covered){
  }
  checked++;
 }
-assert.equal(checked,19);
-console.log('DIPUTACION_C2_19_OFFICIAL_SOURCE_MATRICES_PRESENT_AND_PENDING_LEGAL_REVIEW_OK');
+assert.equal(checked,20);
+console.log('DIPUTACION_C2_20_MATRICES_19_AUDITED_T06_BLOCKED_OK');
