@@ -1,7 +1,7 @@
 {
   "tema": 7,
   "titulo": "Transparencia y participación",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "cobertura": [
     {
       "epigrafe": "Ley 10/2019: objeto, ámbito y principios",
@@ -93,5 +93,17 @@
     "aprobacionUsuario": false,
     "fechaCortePrimariaPendiente": true,
     "certificacionFuncional": false
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "acta": "audit/UC3M_T07_AUDITORIA_TRANSPARENCIA_2026-11-09.md",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "norma": "Ley 10/2019 CM",
+    "sedeUC3M": "https://sede.uc3m.es/transparencia",
+    "plazo": "20 días hábiles",
+    "preguntas": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaE2E": false
   }
 }
