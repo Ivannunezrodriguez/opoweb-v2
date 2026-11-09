@@ -377,3 +377,16 @@ El manifiesto UC3M tiene ahora **14/20 temas AUDITADO** (**T1–T9, T11–T14 y 
 > ⚠️ **¡Foco Examen!:** **5 puntos** se aplica a Técnicos Superiores **sin nota media por equivalencia u homologación**, no a cualquier titulado superior. La sentencia publicada el **23/10/2026** anuló **RD 905/2025**, **no todo RD 822/2021**.
 
 **Certificación integral sigue pendiente:** comprobar el último CI, navegador real E2E, accesibilidad y corte normativo acreditado.
+
+
+## Revisión de contratación y estado a 09/11/2026
+
+**AUDITADO documental: 15/20 temas** (**T1–T9, T11–T14, T17 y T20**). **Pendientes: 5/20 temas** (**T10, T15, T16, T18 y T19**).
+
+- **T20 — LCSP:** [**acta jurídico-editorial**](../../audit/UC3M_T20_AUDITORIA_CONTRATACION_2026-11-09.md), **12 preguntas y 48 alternativas**. [Ley 9/2017 consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902) con actualización publicada **09/04/2026**; [perfil de contratante oficial UC3M](https://www.uc3m.es/conocenos/contratos-perfil-contratante-convenios-contratos).
+- **T17 — acceso a Grado:** [**acta de RD 534/2024**](../../audit/UC3M_T17_AUDITORIA_ACCESO_ADMISION_2026-11-09.md) y reforma **RD 535/2026**.
+- **T16 — pendiente:** [**sentencia TS de 06/10/2026**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22083), publicada **23/10/2026**, que anuló **RD 905/2025**, no **RD 822/2021** entero. Requiere reconciliar el efecto temporal con la **base primera.7** y la fecha oficial de resolución definitiva.
+
+> ⚠️ **¡Foco Examen!:** **Contrato menor de servicios: VEC inferior a 15.000 € sin IVA**, y duración **máxima de un año sin prórroga**. **VEC** y **presupuesto base de licitación** no son la misma magnitud.
+
+La condición `AUDITADO` no significa `CERTIFICADO_INTEGRAL`. Continúan pendientes CI final acreditado, E2E, accesibilidad y otras reservas documentales.
