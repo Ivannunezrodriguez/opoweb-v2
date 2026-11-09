@@ -1,7 +1,7 @@
 {
   "tema": 13,
-  "estado": "EN_AUDITORIA",
-  "version": "2026-11-08",
+  "estado": "AUDITADO",
+  "version": "2026-11-09",
   "preguntas": [
     {
       "id": "OLIAS-T13-001",
@@ -333,5 +333,13 @@
     "clavesConservadas": true,
     "callejeroIntegroComprobado": false,
     "cierreDocumental": false
+  },
+  "controlCotejoINE20261109": {
+    "fechaReferencia": "2026-06-30",
+    "preguntas": 21,
+    "alternativas": 84,
+    "clavesCoincidenRespuestaLiteral": true,
+    "acta": "audit/OLIAS_T13_CIERRE_INE_2026-11-09.md",
+    "certificacionIntegral": false
   }
 }
