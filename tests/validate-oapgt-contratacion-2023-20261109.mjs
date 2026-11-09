@@ -14,7 +14,7 @@ for (const term of [
   '16/05/2023', '2023.00002824', '11/05/2023',
   '2023-069365', '16_2021', '5_2023',
   'Consejo Rector', 'Presidencia', 'Dirección',
-  'art. 9', 'art. 10', '10 %', '5 %',
+  'artículo 9', 'art. 10', '10 %', '5 %',
   'NO', 'no pudo completarse'
 ]) {
   assert.ok(doc.includes(term), 'Falta control de fuente o reserva: ' + term);
