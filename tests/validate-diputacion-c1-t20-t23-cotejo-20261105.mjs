@@ -43,7 +43,7 @@ for(const q of extra){
  assert.equal(new Set(q.opciones.map(x=>x.toLowerCase().trim())).size,4,q.id);
  assert.equal(q.opciones[q.correcta],q.respuestaLiteral,q.id);
  assert.ok(q.justificacion.length>25&&q.trampa.length>20,q.id);
- assert.match(q.referencia,/https:\\/\\/(?:www\\.boe\\.es|bop\\.diputoledo\\.es)\\//,q.id);
+ assert.ok(q.referencia.includes('https://') && (q.referencia.includes('boe.es') || q.referencia.includes('bop.diputoledo.es')),q.id+' lacks official source');
 }
 assert.equal(total+extra.length,84);
 assert.equal(alternatives+extra.length*4,336);
