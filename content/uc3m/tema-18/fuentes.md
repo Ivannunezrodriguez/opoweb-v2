@@ -159,3 +159,12 @@ Fuente institucional original accesible mediante su ID en el repositorio: [**Pre
 **Aclaración histórica:** el informe de **04/11** expresaba inicialmente que faltaba recuperar el **Volumen I**; el propio informe quedó ampliado posteriormente con la fuente primaria y cotejo de **T18-006**, **T18-008** y **T18-012**. No perpetuar la reserva como si la fuente siguiera inaccesible; las reservas actuales son **fecha de corte jurídico**, **E2E móvil/navegador/WCAG/PWA**, y **auditoría normativa integral**.
 
 > ⚠️ **¡Foco Examen!:** **Prórroga hasta publicación BOCM (108.4)**, **retención posible del 10 % bajo requisitos (109.2)** y **exclusión de Tesorería General (182.1)** son supuestos de artículos diferentes; no mezclar con el **art. 14.2** de las Normas UC3M (seguimiento de impagados).
+
+
+## Actualización de fuente primaria completa — 09/11/2026
+
+Se ha **recuperado y leído el PDF oficial completo** [**Volumen I, Presupuesto UC3M 2026**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), disponible a través de la colección presupuestaria del **Portal de Transparencia UC3M**. Archivo **PDF 3.807.877 bytes**, índice con **Normas Básicas de Gestión desde página 74**. Se cotejan los **artículos 5 (créditos), 6 (modificaciones), 14 (ingresos), 15 (documentos contables) y 16 (caja fija y anticipos)**.
+
+**Acta:** [**UC3M T18/T19, cotejo directo primario**](../../../audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md). Sustituye el aviso anterior de que no se había conseguido acceso al Volumen I; ahora está disponible y contrastado. Se conservan **12 respuestas** y **48 alternativas** del tema 18.
+
+> ⚠️ **¡Foco Examen!:** **O** es **propuesta de pago** (no el pago material) y el **artículo 16.3** distingue anticipos **máximo 12.000 €**, justificables en **1 mes**, del sistema asimilado a caja fija del **artículo 16.2** (gastos de hasta **5.000 € sin IVA**).
