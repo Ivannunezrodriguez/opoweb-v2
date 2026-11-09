@@ -1,6 +1,18 @@
 # Olías del Rey · Tema 13 · Término municipal, servicios y callejero de Olías del Rey
 
-**Estado editorial: EN_AUDITORIA — localización de servicios revisada; callejero íntegro no acreditado (08/11/2026)** · **Control de fuentes municipales: 08/11/2026**. Programa del **BOP Toledo n.º 204, 23/10/2026, anuncio 2026/4833**, Anexo II, verificación **2026.00004833**.
+**Estado editorial: AUDITADO (09/11/2026) — cotejo documental INE y banco; certificación E2E pendiente** · **Control de fuentes municipales: 08/11/2026**. Programa del **BOP Toledo n.º 204, 23/10/2026, anuncio 2026/4833**, Anexo II, verificación **2026.00004833**.
+
+## Actualización de cierre — **09/11/2026**
+
+**Bloqueo del callejero resuelto:** los ficheros originales provinciales del **INE, referencia 30/06/2026**, proporcionados para esta auditoría, se han filtrado al municipio **45122**, con **280 entradas VIAS únicas**, **0 PSEU**, **427 tramos TRAM**, **5 secciones SECC** y **13 registros UP**. Se ofrece [**relación íntegra de las 280 entradas oficiales, con código y tipo de vía**](callejero-ine-2026-06-30.md), legible sin recurrir a otras fuentes.
+
+**Importante:** **202 registros CALLE** frente a **280 entradas VIAS de todos los tipos**. Se preservan los **tipos de vía**: no equiparar *Calle Higares* y *Camino Higares*, ni *Calle Cedro* y *Travesía Cedro*. El plano de Normas Subsidiarias aportado está fechado **enero de 1999** y se usa como apoyo histórico de orientación, no como callejero de 2026.
+
+Las expresiones anteriores de este manual indicando «VIAS/PSEU no descargado» describen **controles históricos del 08/11/2026**, superados por la extracción real del **09/11/2026**. La **fecha de referencia del INE** está acreditada; la fecha exacta de publicación no se infiere del nombre del archivo. El cotejo de las **21 claves y 84 alternativas** no arroja discrepancias internas; el directorio municipal sigue teniendo diferencias de números de portal, señaladas en este documento.
+
+[**Acta de cierre editorial T13**](../../../audit/OLIAS_T13_CIERRE_INE_2026-11-09.md).
+
+> ⚠️ **¡Foco Examen!:** **280** entradas de VIAS, **202** de tipo **CALLE** y **427** tramos TRAM son **tres magnitudes distintas**. **AUDITADO** significa cierre editorial-documental del programa a fecha fija, **no** prueba E2E o accesibilidad certificada.
 
 ## 1. Epígrafe oficial literal
 
