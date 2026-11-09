@@ -1,5 +1,7 @@
 # Tema 5. Ley 40/2015 (II)
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta de cotejo y reservas**](../../../audit/UC3M_T05_AUDITORIA_LEY40_2026-11-09.md). **No es CERTIFICADO_INTEGRAL**: aprobación de usuario, pruebas de navegador/accesibilidad y CI definitivo siguen pendientes.
+
 > Epígrafe oficial: funcionamiento electrónico del sector público.
 
 ## 1. Marco general
