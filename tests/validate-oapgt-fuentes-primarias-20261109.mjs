@@ -80,3 +80,13 @@ for(const term of ['4**','2 disposiciones transitorias','aprobación inicial','1
  assert(est.toLowerCase().includes(term.toLowerCase()),'No se previene discrepancia 2004: '+term);
 }
 console.log('OAPGT_REFORMA_2004: diferencia 4 vs 2 transitorias expresamente reservada; art 12 corroborado BOP 2024');
+
+
+for(const path of [t22.manual,t06.manual]) {
+ const text=read(path);
+ for(const fact of ['## Control específico de los artículos 1–3','21/12/2023','28/12/2023','CC.OO.','CSI-F','FSP-UGT','SAE-SAP','2.1.1','2.1.2','01/01/2024','31/12/2027','01/01/2028','regulación propia negociada']) {
+  assert(text.includes(fact),'Falta regla publicada del Acuerdo Regulador en '+path+': '+fact);
+ }
+ assert(text.includes('no se aplica automáticamente sin excepciones'), 'No se documenta límite de ámbito del acuerdo en '+path);
+}
+console.log('ACUERDO_2023_ARTS_1_3_OK: partes, ámbito y vigencia comprobados; reformas 2025/26 pendientes');
