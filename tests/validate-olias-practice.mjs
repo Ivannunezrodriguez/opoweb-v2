@@ -10,7 +10,8 @@ for(const bank of banks){for(const q of bank.preguntas){
  assert(Number.isInteger(q.respuestaCorrecta) && q.respuestaCorrecta>=0 && q.respuestaCorrecta<4,q.id);
  distribution[q.respuestaCorrecta]++;
 }}
-assert.equal(total,264);
+// 264 base + 6 adicionales T5 + 9 adicionales T13 = 279.
+assert.equal(total,279);
 for(const count of distribution)assert(count>=45&&count<=75,'Question key bias '+JSON.stringify(distribution));
 const psycho=load('content/olias-auxiliar-edificios/psicotecnicos.json').preguntas;
 assert.equal(psycho.length,40);
