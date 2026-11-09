@@ -98,7 +98,7 @@
       ]
     }
   ],
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "controlIntegralBanco20261104": {
     "fecha": "2026-11-04",
     "estado": "COTEJO_BANCO_COMPLETO",
@@ -187,5 +187,20 @@
     "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
     "certificacionIntegral": false,
     "observacion": "Enlace pedagógico a banco real, no certificación de vigencia ni de distractores"
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "acta": "audit/UC3M_T11_AUDITORIA_INGRESO_PROVISION_INCOMPATIBILIDADES_2026-11-09.md",
+    "fuentes": [
+      "RD 364/1995",
+      "Ley 53/1984",
+      "TREBEP"
+    ],
+    "bloques": 12,
+    "preguntas": 12,
+    "alternativas": 48,
+    "excepcion": "RD 364/1995 AGE, no aplicar universalmente a UC3M",
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
   }
 }
