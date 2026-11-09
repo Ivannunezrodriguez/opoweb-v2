@@ -104,5 +104,29 @@
     "estatutosIntegro1996CorregidosYConsolidados": false,
     "estado": "EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES",
     "certificacionIntegral": false
+  },
+  "controlVisualBOP201120261109": {
+    "fecha": "2026-11-09",
+    "fuente": "https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
+    "aprobacion": "28/11/2011",
+    "publicacion": "14/12/2011",
+    "textoYCapturaVisual": true,
+    "articulos": [
+      "1.1",
+      "1.2",
+      "8 bis",
+      "4.a (1-4)",
+      "14.d.1",
+      "disposición adicional"
+    ],
+    "cotejoCompartido": "content/diputacion-toledo-auxiliar-c2/tema-06/estatutos-2011-verificado.md",
+    "certificacionEstatutosIntegro": false,
+    "pendientes": [
+      "BOP 235/1996 original completo",
+      "correccion noviembre 1996",
+      "aprobacion definitiva reforma 2004",
+      "reformas posteriores y version vigente 2026"
+    ],
+    "estado": "EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES"
   }
 }
