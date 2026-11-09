@@ -1,0 +1,23 @@
+import assert from 'node:assert/strict';
+import { readFileSync } from 'node:fs';
+
+const read = p => readFileSync(p,'utf8');
+const json = p => JSON.parse(read(p));
+const program = json('data/programa-uc3m-auxiliar-administrativa-2026.json');
+const t10 = program.temas.find(t => t.numero === 10);
+const t11 = program.temas.find(t => t.numero === 11);
+assert.equal(t10.estado, 'EN_REVISION_USUARIO', 'No elevar TREBEP mientras persista duda del corte');
+assert.equal(t11.estado, 'AUDITADO', 'T11 requiere acta individual y estado de manifiesto');
+assert.equal(json(t11.matriz).estado, 'AUDITADO');
+assert.ok(t11.actaAuditoria && read(t11.actaAuditoria).includes('RD 364/1995'));
+assert.equal(json(t11.preguntas).preguntas.length, 12);
+const notes = read('content/uc3m/GUIA_EXAMEN_2026.md');
+assert.ok(notes.includes('03/10/2026'));
+assert.ok(notes.includes('01/10/2026'));
+assert.ok(notes.includes('No certificada en fuente primaria'));
+const manual10 = read(t10.manual);
+assert.ok(manual10.includes('Ley 4/2026'));
+assert.ok(manual10.includes('artículo 49.e'));
+assert.ok(manual10.includes('EN_REVISION_USUARIO'));
+assert.equal(program.temas.filter(t => t.estado === 'AUDITADO').length, 10);
+console.log('UC3M: T11 auditado, T10 pendiente con advertencia de reforma posterior al corte probable.');
