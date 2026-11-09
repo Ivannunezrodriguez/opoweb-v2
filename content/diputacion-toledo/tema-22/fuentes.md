@@ -130,3 +130,17 @@ Se ha localizado el [**certificado oficial del Secretario General de la Diputaci
 **Reserva de verificación:** la consulta del PDF oficial permitió acceder a su contenido textual y metadatos, pero la herramienta de captura visual de la segunda página falló, por lo que **no se certifica inspección visual del PDF**. No se añaden cuantías, quórums ni mayorías nuevos sin su fuente legal primaria y versión aplicable.
 
 > ⚠️ **¡Foco Examen!:** **Diputación provincial** y **OAPGT** no son el mismo órgano. La entidad local **delega o encomienda funciones a la Diputación**, que las ejerce **a través del OAPGT** cuando corresponde. Un **convenio particular de 2021** no es una reforma general de los Estatutos.
+
+
+## Composición del Consejo Rector en 2015 — fuente institucional, no consolidación 2026
+
+La [**nota oficial de prensa de la Diputación de Toledo de 24/07/2015**](https://www.diputoledo.es/prensa/nAmpliada/1148), tras la constitución del **Consejo Rector** del OAPGT, describe como composición practicada entonces **la Presidencia y siete vocales designados por el Pleno de la Diputación entre sus diputados**. El mismo documento atribuye al Consejo Rector, conforme a sus Estatutos, **organización y alta dirección** del organismo.
+
+| Dato | Evidencia | Valor para 2026 |
+|---|---|---|
+| **Presidente + siete vocales**, designación de vocales por el **Pleno** | Nota oficial institucional de **24/07/2015** | **Hecho histórico de 2015**, no prueba de que siga siendo el número exigible en 2026 |
+| **Organización y alta dirección** | Referencia institucional a funciones del **Consejo Rector** | Corroboración descriptiva, **no** sustituye el artículo íntegro de los Estatutos |
+
+**Reserva:** no introducir **«siete vocales»** como respuesta indiscutible de un test de normativa vigente mientras no se coteje el texto original **BOP 235/1996**, su corrección, la aprobación definitiva de la reforma de **2004**, la modificación de **2011** y otros eventuales cambios. La nota institucional prueba el uso en la fecha indicada, **no la vigencia jurídica posterior**.
+
+> ⚠️ **¡Foco Examen!:** Una noticia oficial sobre cómo se constituyó un órgano en **2015** **no equivale** a demostrar su **composición legal en 2026**.
