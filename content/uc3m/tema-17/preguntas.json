@@ -102,9 +102,9 @@
         "10 puntos"
       ],
       "correcta": 1,
-      "justificacion": "La redacción vigente del artículo 23.2 asigna 5 puntos cuando no existe nota media.",
+      "justificacion": "Tras el Real Decreto 535/2026 (publicado el 2 de julio de 2026 y vigente desde el 22 de julio), el artículo 23.2 del RD 534/2024 asigna 5 puntos como calificación de acceso cuando un Técnico Superior carece de nota media por homologación o equivalencia académica. No se aplica esa nota a quien sí tiene media acreditada.",
       "trampa": "La regla fue modificada en 2026 y debe estudiarse en su redacción vigente.",
-      "referencia": "RD 534/2024, art. 23.2, modificado por RD 535/2026 (efectos desde 22/07/2026) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a23",
+      "referencia": "RD 534/2024, art. 23.2, modificado por RD 535/2026 (efectos desde 22/07/2026) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a23 · Modificación primaria: https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14333",
       "respuestaLiteral": "5 puntos"
     },
     {
@@ -132,8 +132,8 @@
         "20 estudios"
       ],
       "correcta": 0,
-      "justificacion": "La UC3M informa de una única solicitud con hasta 12 estudios ordenados por preferencia.",
-      "trampa": "Las 6 universidades participantes no limitan a 6 el número de opciones.",
+      "justificacion": "La UC3M señala que la solicitud única de preinscripción de las seis universidades públicas de Madrid permite ordenar hasta 12 estudios para el curso 2026/2027, por orden de preferencia. Es una norma operativa del distrito único, no una cifra universal de toda España.",
+      "trampa": "12 estudios en distrito universitario público madrileño 2026/27, no 12 en todas las universidades del Estado.",
       "referencia": "UC3M, preinscripcion conjunta de Madrid 2026/27, hasta doce estudios · https://www.uc3m.es/grado/admision/solicitud/preinscripcion",
       "respuestaLiteral": "12 estudios"
     },
@@ -186,5 +186,16 @@
   "controlCalidadOpciones": {
     "fecha": "2026-11-04",
     "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlAuditoria20261109": {
+    "fecha": "2026-11-09",
+    "norma": "RD 534/2024",
+    "ultimaModificacion": "RD 535/2026, BOE 02/07/2026, en vigor 22/07/2026",
+    "preguntas": 12,
+    "alternativas": 48,
+    "respuestasConservadas": true,
+    "fuenteUniversitaria": "UC3M preinscripcion 2026/27, 12 opciones",
+    "notaTecnica": "Derecho de acceso no equivale a adjudicacion de plaza; normativa de Doctorado se fundamenta en RD 99/2011",
+    "certificacionIntegral": false
   }
 }
