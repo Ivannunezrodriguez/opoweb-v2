@@ -709,3 +709,43 @@ Un suministro universitario tiene valor estimado de **150.000 € sin IVA**. En 
 > ⚠️ **¡Foco Examen!:** **Simplificado <140.000 €**, **SARA UC3M ≥216.000 €**. Entre ambos puede haber contratos sujetos a otros procedimientos **no SARA**. Importes referidos a **valor estimado, sin IVA**.
 
 **Alcance:** refuerzo jurídico-editorial focal, no sustitución de las **12 preguntas históricas** ni de los simulacros. Queda pendiente cotejar la normativa al corte UC3M de **base primera.7** y ejecutar pruebas funcionales del sitio.
+
+
+## 34. Urgencia y simplificado abreviado: excepciones del artículo 159.5–6
+
+La [**LCSP, artículo 159.5 y 159.6**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159) establece reglas propias del **procedimiento abierto simplificado**. La urgencia no autoriza a reducir sus plazos conforme al régimen general del **artículo 119.2.b**: el **artículo 159.5** excluye expresamente esa reducción.
+
+| Cuestión | **Simplificado ordinario** (art. **159.1–5**) | **Simplificado abreviado** (art. **159.6**) |
+|---|---|---|
+| Obras, valor estimado | **≤ 2.000.000 €** | **< 80.000 €** |
+| Suministros y servicios, valor estimado (2026) | **< 140.000 €** | **< 60.000 €** |
+| Prestaciones intelectuales | Posibles cumpliendo condiciones; juicio de valor hasta **45 %** | **Excluidas** de esta modalidad |
+| Oferta y criterios | Uno o **dos archivos** según existan juicios de valor; máximo **25 %** de juicio de valor, salvo intelectual | **Un solo archivo**, criterios cuantificables **solo por fórmulas** |
+| Ofertas | **≥ 15 días**; en obras **≥ 20 días** | **≥ 10 días hábiles**; **5 hábiles** para compras corrientes de bienes disponibles en el mercado |
+| Mesa de contratación | Interviene conforme al art. **159.4.d** y **326** | Su constitución es **potestativa**, art. **326.1** |
+| Solvencia | Aplican acreditaciones conforme al art. **159.4** | Se **exime de acreditación** de solvencia económica, financiera, técnica o profesional |
+| Garantía definitiva | Se solicita al mejor clasificado en el trámite aplicable del art. **159.4.f** | **No se requiere** constituirla |
+| Formalización | Regla general de formalización legal | Puede efectuarse por **firma de aceptación de la resolución de adjudicación** |
+| Urgencia | **No reducción** de plazos por art. **119.2.b**, conforme a **159.5** | El régimen abreviado conserva sus **plazos específicos**; no trasladar automáticamente la reducción general del art. 119 |
+
+**Los importes son valores estimados sin IVA**, de conformidad con la [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605) y los artículos citados. El simplificado ordinario no equivale al procedimiento abierto común ni al simplificado abreviado.
+
+### Supuesto práctico 4. Urgencia
+
+La **UC3M** declara urgente un expediente de servicios que cumple las condiciones del **artículo 159.1**. El pliego pretende reducir a **8 días** el plazo de presentación de ofertas por aplicación automática del **artículo 119.2.b**. **No es correcto**: el **artículo 159.5** excluye esa reducción y el simplificado ordinario conserva el mínimo legal de **15 días**.
+
+> ⚠️ **¡Foco Examen!:** **Urgencia ≠ reducción universal**: en simplificado el **artículo 159.5** impide la reducción de plazos del **119.2.b**. **15 días de ofertas** no son los **15 días hábiles de espera para formalizar** determinados contratos.
+
+### Supuesto práctico 5. Garantía y mesa
+
+En un suministro de **45.000 € sin IVA** apto para **159.6**, se afirma que siempre debe constituirse una mesa y exigirse garantía definitiva. **Falso**: en el abreviado la **mesa es potestativa** (**326.1**) y **no se requiere garantía definitiva** (**159.6.f**). La cuantía no basta: también deben cumplirse los demás requisitos del artículo.
+
+> ⚠️ **¡Foco Examen!:** En el abreviado, **mesa potestativa**, **sin garantía definitiva**, **criterios únicamente automáticos**. No aplicar por inercia todas las exigencias del simplificado ordinario.
+
+### Supuesto práctico 6. Servicio intelectual
+
+Un contrato de **consultoría intelectual** de **45.000 €** no puede acogerse al procedimiento del **artículo 159.6** por la **exclusión legal de prestaciones de carácter intelectual**, aunque esté por debajo de los **60.000 €**. Ello no impide valorar, si cumple las demás condiciones, otras modalidades admitidas por la ley.
+
+> ⚠️ **¡Foco Examen!:** **< 60.000 €** no basta para usar el **simplificado abreviado** cuando el objeto es una **prestación intelectual**.
+
+**Control editorial:** se amplían el manual, las fuentes y la matriz; no se han modificado los **12 ítems originales**, sus claves ni los simulacros. El cierre jurídico integral y la fecha de corte UC3M **base primera.7** continúan pendientes.
