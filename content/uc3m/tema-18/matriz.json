@@ -1,7 +1,7 @@
 {
   "tema": 18,
   "epigrafe": "Presupuesto de la UC3M (I): características, estructura, ingresos, gastos, créditos, financiación, modificaciones y ejecución de ingresos.",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "controlVigencia": "2026-07-23",
   "fuenteEspecifica": "Presupuesto UC3M 2026, Volumen I, aprobado por Consejo de Gobierno y Consejo Social el 11 de diciembre de 2025",
   "cobertura": [
@@ -269,5 +269,15 @@
     "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
     "certificacionIntegral": false,
     "observacion": "Enlace pedagógico a banco real, no certificación de vigencia ni de distractores"
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "acta": "audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md",
+    "fuente": "Presupuesto UC3M 2026 Vol. I, Normas Básicas de Gestión, PDF 3807877 bytes",
+    "bloques": 8,
+    "preguntas": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
   }
 }
