@@ -87,6 +87,12 @@
 
 ## 6. Discrepancia documental concreta resuelta como reserva — reforma inicial de 2004
 
+**Precisión jurídica art. 49.c LBRL (verificada 09/11/2026):** cuando **no** se hayan presentado reclamaciones ni sugerencias durante la información pública (mínimo **30 días**), el acuerdo provisional **se entiende definitivamente adoptado por ministerio de la ley**. El artículo **49.c** **no exige** que el acuerdo de aprobación inicial haya previsto expresamente esa consecuencia. Si sí hubo alegaciones, el **Pleno** debe resolverlas y aprobar definitivamente. En ambos supuestos es necesario acreditar documentalmente qué ocurrió en la tramitación concreta de **2004**, y diferenciar la publicidad inicial del texto de su publicación con eficacia reglamentaria conforme al **art. 70.2 LBRL**.
+
+> ⚠️ **¡Foco Examen!:** **Ausencia de reclamaciones = elevación legal automática**, sin cláusula especial en el acuerdo inicial; **anuncio de aprobación inicial ≠ prueba documental de ausencia de alegaciones o aprobación definitiva**.
+
+
+
 La [publicación del **BOP Toledo 294, 23/12/2004**](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/2004/12/23) reproduce el acuerdo **inicial** del **Pleno de Diputación de 21/12/2004**, con su propuesta de nueva redacción estatutaria. No debe equipararse automáticamente a aprobación definitiva.
 
 | Punto comparado | PDF recopilado, 20 páginas | Acuerdo publicado inicialmente en **2004** |
