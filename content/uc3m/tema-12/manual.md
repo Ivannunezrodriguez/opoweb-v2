@@ -348,3 +348,20 @@ Una instalación desprende humo y existe peligro inmediato para trabajadores y v
 **Fuente:** [**Ley 31/1995, arts. 20, 21 y 38**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292).
 
 **Control:** **17 bloques** y **12 preguntas/48 alternativas** previamente cotejadas, con dos nuevos casos; corte legal UC3M, aprobación y E2E pendientes.
+
+
+## Actualización de vigencia PRL de 2026 — revisión del **09/11/2026**
+
+La [**Ley 1/2026, de 8 de abril (BOE-A-2026-7967)**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-7967) modificó la [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), con **publicación 09/04/2026** y entrada en vigor de los preceptos consolidados afectados **10/04/2026**. Entre los preceptos modificados están el **art. 7.1.a** (actuación de las Administraciones públicas competentes en materia laboral) y determinados apartados del **art. 8** (institución científico-técnica y colaboración en prevención). Esta modificación es anterior al período de listas definitivas de la convocatoria UC3M. Por tanto, **no debe usarse el texto anterior a abril de 2026 para explicar esos artículos**.
+
+| Regla de examen | Artículo | Matiz |
+|---|---|---|
+| **Protección colectiva** preferente a individual | **15.1.h** | No confundir preferencia de protección con prohibición de EPI |
+| Vigilancia de la salud **voluntaria**, con excepciones | **22.1** | Las excepciones requieren los presupuestos legales y, en los supuestos indicados, informe previo de representantes |
+| **15 días** para informe de los Delegados de Prevención | **36.3** | Ante riesgos inminentes se utiliza el tiempo imprescindible |
+| Comité de Seguridad y Salud a partir de **50 trabajadores** | **38.2** | Composición **paritaria**; reuniones **trimestrales** conforme a **38.3** |
+| Competencias públicas preventivas | **7** y **8** | Aplicar la redacción modificada en **abril de 2026** |
+
+> ⚠️ **¡Foco Examen!:** Que los artículos **7 y 8** tengan modificaciones de **2026** no significa que se haya cambiado la regla de **50 trabajadores** del **art. 38.2**. No trasladar una modificación de un precepto a todos los demás.
+
+**Estado:** revisión jurídica documental de los preceptos y banco existente; no equivale a certificación de navegador, accesibilidad ni aprobación de usuario.
