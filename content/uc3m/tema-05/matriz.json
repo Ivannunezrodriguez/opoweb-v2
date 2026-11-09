@@ -98,5 +98,16 @@
     "aprobacionUsuario": false,
     "certificacionIntegral": false
   },
-  "version": "2026-11-08"
+  "version": "2026-11-08",
+  "estado": "AUDITADO",
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T05_AUDITORIA_LEY40_2026-11-09.md",
+    "preguntas": 12,
+    "alternativas": 48,
+    "actualizacionBOE": "2024-08-02",
+    "certificacionIntegral": false,
+    "pruebaE2E": false
+  }
 }
