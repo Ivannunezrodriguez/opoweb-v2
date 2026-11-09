@@ -1,7 +1,7 @@
 {
   "tema": 17,
   "titulo": "Acceso y admisión a estudios oficiales",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "cobertura": [
     {
       "epigrafe": "RD 534/2024: objeto y vigencia",
@@ -235,5 +235,18 @@
       "E2E navegador, movil, accesibilidad WCAG y PWA",
       "aprobacion de usuario"
     ]
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "acta": "audit/UC3M_T17_AUDITORIA_ACCESO_ADMISION_2026-11-09.md",
+    "fuentes": [
+      "BOE-A-2024-11858",
+      "BOE-A-2026-14333",
+      "UC3M preinscripción Madrid 2026/27"
+    ],
+    "preguntas": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaE2E": false
   }
 }
