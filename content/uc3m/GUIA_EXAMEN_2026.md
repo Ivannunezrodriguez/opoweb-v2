@@ -471,3 +471,19 @@ Se ha leído el **Anexo I de admitidos definitivos** aportado, **36 páginas**, 
 | **Firma del llamamiento separado** | **06/10/2026** | Fecha y condiciones de ejercicio, no publicación de la resolución definitiva |
 
 > ⚠️ **¡Foco Examen!:** **Firma de anexo**, **publicación de resolución** y **fecha de examen** son hitos independientes. Nunca deducir el corte por el nombre del PDF descargado.
+
+
+## Resolución aprobatoria definitiva UC3M — fuente primaria recuperada (**09/11/2026**)
+
+Además del **Anexo I de 36 páginas**, se ha recibido la **resolución principal de Gerencia**, **1 página**, que **aprueba expresamente** los anexos de admitidos y excluidos. Firmada **30/09/2026 a las 13:14:34**, código de verificación de sede **sfLB0IXBSH**. La UC3M ordena publicarla en su web; **no se incluye la fecha real de publicación** en el documento aportado.
+
+| Hito | Fecha | Seguridad |
+|---|---|---|
+| Firma de la **resolución que aprueba definitivos** | **30/09/2026 13:14:34** | **Fuente primaria acreditada** |
+| Firma del **Anexo I** | **30/09/2026 13:14:31** | **Fuente primaria acreditada** |
+| Publicación en web de resolución aprobatoria | **No acreditada primariamente**; ADAMS propone **01/10/2026** | **Reserva pendiente** |
+| Examen | **21/11/2026** | Fecha de ejercicio, **no** corte legal |
+
+[Acta de cronología actualizada](../../audit/UC3M_ACOTACION_CORTE_OFICIAL_2026-11-09.md). Los tres temas **T10/T15/T16** siguen con revisión del corte y normas específicas: no elevarlos por analogía con la firma.
+
+> ⚠️ **¡Foco Examen!:** En la resolución los recursos de **1 mes** y **2 meses** se cuentan desde el día siguiente a la **publicación**, no a la firma.
