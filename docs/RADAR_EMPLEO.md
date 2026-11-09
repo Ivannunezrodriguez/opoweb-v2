@@ -124,3 +124,23 @@ El problema técnico real era que `run()` enviaba todas las fuentes al grupo de 
 **Efectos esperados, todavía no medidos en rastreo real:** menos solicitudes duplicadas y eliminación de una carrera de escritura del estado. **No** se ha demostrado que mejore el número de fuentes READABLE ni que aparezcan nuevas oportunidades. El inventario de **206 estados** corresponde a la pasada **anterior** a este cambio.
 
 > ⚠️ **¡Foco Examen!:** Un ayuntamiento con varias entidades menores puede tener una sola web institucional. **Una fuente publicada varias veces** no equivale a varias convocatorias distintas.
+
+
+### Saneamiento del directorio municipal y validación de URL — 09/11/2026
+
+El inventario municipal importado desde el directorio de Diputación contenía cuatro registros con sintaxis defectuosa y/o espacios alrededor de la dirección. La inspección de fuentes primarias de [**Diputación Toledo, Robledo del Mazo y Robledillo**](https://www.diputoledo.es/global/11/50/169/dir-municipios/R/45148) y del [**Ayuntamiento de Los Yébenes, apartado Empleo**](https://ayuntamiento.losyebenes.es/ofertas-de-empleo) permitió sustituirlas sin inventar fuentes.
+
+| Registro del radar | URL anterior | URL corregida |
+|---|---|---|
+| **Robledillo** | `http:// http://valledelgevalo.es/` | `http://valledelgevalo.es/` |
+| **Robledo del Mazo** | `http:// http://valledelgevalo.es/` | `http://valledelgevalo.es/` |
+| **Los Yébenes** | `http:// www.turismo.losyebenes.es` | [**Empleo del Ayuntamiento**](https://ayuntamiento.losyebenes.es/ofertas-de-empleo) |
+| **Santa Cruz del Retamar** | `http://santacruzdelretamar.es ` (espacio final) | `http://santacruzdelretamar.es` (sin espacio) |
+
+**Robledillo y Robledo del Mazo comparten la misma URL**, como recoge el directorio; la deduplicación de §Colisiones evita escanearla dos veces. Los identificadores `id` originales se han conservado para no desasociar el historial de entradas, incluso si fueron calculados a partir de una URL mal formada.
+
+**Prevención:** `tests/radar-fixtures.mjs` comprueba **las 205 fuentes configuradas**, exige `http://` o `https://`, rechaza espacios y nombres de host no válidos, y conserva los identificadores de los cuatro registros saneados. La [**ejecución GitHub Actions 42580541661**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42580541661) superó ese conjunto de pruebas en el commit `cef7a333ac7c`.
+
+**Reserva de cobertura:** URL sintácticamente válida **no implica** respuesta HTTP correcta ni extracción de anuncios. No hay una pasada del radar posterior contrastada; no modificar las cifras históricas **42 READABLE / 118 PARTIAL / 46 ERROR**.
+
+> ⚠️ **¡Foco Examen!:** Un enlace inválido de un directorio oficial es un problema técnico del dato de origen; debe repararse contrastándolo con el directorio o el ayuntamiento, **no inventando otra web**.
