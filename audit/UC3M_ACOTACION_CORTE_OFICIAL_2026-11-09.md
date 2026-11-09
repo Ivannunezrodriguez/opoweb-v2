@@ -34,3 +34,14 @@ Se ha leído el PDF original **«ANEXO I. LISTADO DEFINITIVO DE PERSONAS ASPIRAN
 **Efecto sobre T10, T15 y T16:** se reduce el bloqueo documental de «no existe original de definitivos» a «falta acreditar **fecha de publicación de la resolución que aprueba los definitivos**». Mantener reserva temporal y no elevar temas sin fijar el corte y cotejar bancos.
 
 > ⚠️ **¡Foco Examen!:** Un **anexo firmado** no equivale al **asiento de publicación** de la resolución que fija las normas examinables. Los preceptos reformados después del corte deben distinguirse de reformas con vigencia anterior.
+
+
+## Resolución principal aportada: prueba primaria, no fecha de publicación (**09/11/2026**)
+
+Se ha recibido y extraído íntegramente la **«RESOLUCIÓN DE LA UNIVERSIDAD CARLOS III DE MADRID POR LA QUE SE APRUEBAN LAS LISTAS DEFINITIVAS»**, convocatoria de **30/06/2026**, **una página**, firmada por **Alberto García Martínez, gerente por delegación**, el **30/09/2026 a las 13:14:34**. Identificador de sede **sfLB0IXBSH**, huella SHA-256 del fichero aportado: `19e8715c897138747fc9fe71ab0eba4547078a713a36827a67bfd3a4c6575f8e`.
+
+**Resuelve expresamente:** (1) aprobar **Anexo I, admitidos definitivos**; (2) aprobar **Anexo II, excluidos definitivos y causas**; (3) dar publicidad a la resolución en la web UC3M. En el pie indica el plazo de **un mes** para reposición o **dos meses** para contencioso, ambos desde el día siguiente a la **publicación**, no desde firma.
+
+**Conclusión:** ya están acreditados **resolución aprobatoria y anexo definitivos**, fechados por firma el **30/09/2026**. Pero el documento **no incorpora certificación o diligencia de publicación**. La [web pública del proceso](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) muestra el apartado de definitivos sin fechar la publicación, mientras [ADAMS](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/) atribuye **01/10/2026** como fecha (**secundario**). No se transforma en prueba primaria. La **base primera.7 del BOE-A-2026-14624** exige legislación vigente **a publicación**, y no a la fecha de firma.
+
+> ⚠️ **¡Foco Examen!:** Para preguntas sobre reformas de **octubre de 2026**, estudiar diferenciando texto anterior y posterior al corte. La resolución firmada el **30/09/2026** no autoriza por sí sola certificar que la fecha publicada fuese ese día.
