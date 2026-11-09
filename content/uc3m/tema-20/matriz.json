@@ -1,7 +1,7 @@
 {
   "tema": 20,
   "epigrafeOficial": "Ley 9/2017 de Contratos del Sector Público: ámbito, tipos, perfección, órgano de contratación, objeto, presupuesto, valor estimado, precio, preparación y adjudicación; contratación en la UC3M.",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "cobertura": [
     {
       "bloque": "Ámbito y principios",
@@ -236,5 +236,15 @@
     "preguntasHistoricasAlteradas": false,
     "corteNormativoUC3M": "PENDIENTE_DOCUMENTO_PRIMARIO",
     "certificacionIntegral": false
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "acta": "audit/UC3M_T20_AUDITORIA_CONTRATACION_2026-11-09.md",
+    "norma": "LCSP 9/2017",
+    "ultimaModificacionBOE": "2026-04-09",
+    "preguntas": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
   }
 }
