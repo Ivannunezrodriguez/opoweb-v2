@@ -96,7 +96,7 @@
 
 > ⚠️ **¡Foco Examen!:** La falta de motivación de la solicitud no permite inadmitir; una consulta informática ordinaria no es reelaboración. Inadmisión: cinco días hábiles, distintos de los veinte días generales.
 
-### UC3M-T07-007 — ¿Cuál es el plazo general para resolver una solicitud de acceso en la Comunidad de Madrid?
+### UC3M-T07-007 — Según el artículo 42.1 de la Ley 10/2019 de la Comunidad de Madrid, ¿cuál es el plazo máximo general para resolver y notificar una solicitud de acceso?
 
 **Artículo / fuente:** Ley 10/2019 art. 42.1. **Respuesta: C**. **Literal:** 20 días.
 
