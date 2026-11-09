@@ -117,9 +117,9 @@
         "Solo a los contratos privados"
       ],
       "correcta": 1,
-      "justificacion": "Los procedimientos tributarios se rigen prioritariamente por su normativa específica y la legislación administrativa común opera con carácter supletorio cuando corresponda.",
-      "trampa": "La Ley 39/2015 no desplaza con carácter general la normativa tributaria especial.",
-      "referencia": "TB art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a38",
+      "justificacion": "La disposición adicional primera.2.a de la Ley 39/2015 establece la aplicación de la normativa tributaria específica y, supletoriamente, la Ley 39/2015; el artículo 97 de la Ley 58/2003 confirma la prevalencia de las normas especiales de aplicación de los tributos y la supletoriedad del procedimiento administrativo general.",
+      "trampa": "NO confundir el artículo 38 del TREBEP (negociación colectiva) con la disposición adicional primera de la Ley 39/2015 y el artículo 97 de la Ley General Tributaria (supletoriedad procedimental).",
+      "referencia": "Ley 39/2015, disposición adicional primera.2.a (procedimientos tributarios): https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#daprimera · Ley 58/2003, artículo 97.a y b: https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a97",
       "respuestaLiteral": "Con carácter supletorio cuando proceda respecto de la normativa tributaria especial"
     },
     {
@@ -382,6 +382,18 @@
     "alternativasTotales": 96,
     "estatutosConsolidados": false,
     "fuente2023Oficial": true,
+    "certificacionIntegral": false
+  },
+  "controlCorreccionJuridica20261109": {
+    "fecha": "2026-11-09",
+    "pregunta": "DIP-T22-008",
+    "motivo": "Cita anterior TREBEP art 38 jurídicamente ajena a aplicación supletoria LPAC en materia tributaria",
+    "normasCotejadas": [
+      "LPAC Ley 39/2015 DA primera.2.a",
+      "LGT Ley 58/2003 art 97"
+    ],
+    "claveModificada": false,
+    "alternativasModificadas": false,
     "certificacionIntegral": false
   }
 }
