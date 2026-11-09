@@ -69,3 +69,13 @@ assert.ok(guide.includes('CIERRE_DOCUMENTAL_T15_20261106.md'));
 assert.ok(audit.includes('CIERRE_DOCUMENTAL_T15_20261106.md'));
 assert.equal(ids.size,29);
 console.log('CIERRE DOCUMENTAL UC3M T15: 21+8 INTERACTIVAS, 2 MICROTEST, 124 ALTERNATIVAS, 7 BLOQUES, CORRECCION ART 178.3, RESERVAS');
+
+const boeDirecto={ '001':'127','004':'157','005':'170','006':'170','007':'175','013':'127','014':'127','015':'128','016':'128' };
+for (const [id,articulo] of Object.entries(boeDirecto)) {
+ const q=bank.preguntas.find(q=>q.id==='UC3M-T15-'+id);
+ assert.ok(q,'Pregunta UC3M T15 ausente: '+id);
+ assert.ok(q.referencia.includes('BOE-A-2003-17782#a'+articulo), 'Falta ancla de artículo fuente en '+q.id);
+}
+const q2009=bank.preguntas.find(q=>q.id==='UC3M-T15-003');
+assert.ok(q2009.referencia.includes('2009/12/04') && q2009.referencia.includes('95/2009'), 'Cese defensor requiere fuente de reforma art 127.2');
+console.log('UC3M_T15_NUEVE_ENLACES_BOE_PRECISOS_Y_REFORMA_2009_OK');
