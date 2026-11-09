@@ -2,7 +2,7 @@
   "convocatoria": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
   "tema": 1,
   "version": "2026-11-08",
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "epigrafeOficial": "La Constitución Española de 1978: estructura y contenido; derechos y deberes fundamentales; elaboración de las leyes; organización territorial del Estado; reforma constitucional.",
   "cobertura": [
     {
@@ -143,5 +143,17 @@
     "fechaPublicacionListaDefinitivaPrimaria": "PENDIENTE_COMPROBACION",
     "aprobadoUsuario": false,
     "certificacionFuncional": false
+  },
+  "controlAuditoria20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T01_AUDITORIA_CONSTITUCIONAL_2026-11-09.md",
+    "apartados": 5,
+    "preguntasOriginales": 12,
+    "alternativas": 48,
+    "respuestasConservadas": true,
+    "fechaPublicacionDefinitivaNoAcreditada": true,
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
   }
 }
