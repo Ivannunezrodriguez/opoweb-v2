@@ -29,6 +29,8 @@ jobs:
         run: node tests/validate-uc3m-extra-repasos-20261106.mjs
       - name: Cotejar 13 bloques y 24 preguntas de UC3M tema 9
         run: node tests/validate-uc3m-t09-cobertura-real-20261109.mjs
+      - name: Cotejar 37 bloques y bancos UC3M T8 T9 T10
+        run: node tests/validate-uc3m-t08-t10-trazabilidad-20261109.mjs
       - name: Comprobar cierres documentales UC3M T09 y T12
         run: node tests/validate-uc3m-cierres-documentales-20261106.mjs
       - name: Comprobar cierre documental UC3M T10 y T11
