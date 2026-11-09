@@ -41,6 +41,8 @@ jobs:
         run: node tests/validate-uc3m-t14-t15-trazabilidad-20261109.mjs
       - name: Reservar T15 por vigencia estatutaria y proteger T14 auditado
         run: node tests/validate-uc3m-t14-t15-corte-losu-20261109.mjs
+      - name: Bloquear promoción del T16 y verificar RD 535/2026 en T17
+        run: node tests/validate-uc3m-t16-t17-corte-20261109.mjs
       - name: Comprobar cierres documentales UC3M T09 y T12
         run: node tests/validate-uc3m-cierres-documentales-20261106.mjs
       - name: Comprobar cierre documental UC3M T10 y T11
