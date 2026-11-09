@@ -2,7 +2,7 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 
 const source = readFileSync('assets/practice.js', 'utf8');
-const first = source.indexOf('async function loadCall(id) {');
+const first = source.search(/async function loadCall\(id(?:,\s*requestedTheme\s*=\s*null)?\)\s*\{/);
 const last = source.indexOf('\nasync function boot()', first);
 assert.ok(first > 0 && last > first, 'No se encuentra loadCall original');
 const loadCallBody = source.slice(first, last);
