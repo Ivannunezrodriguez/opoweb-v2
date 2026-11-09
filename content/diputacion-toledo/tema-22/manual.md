@@ -1,5 +1,37 @@
 # Tema 22 · Acuerdo regulador y OAPGT
 
+## Cierre sectorial de reformas económicas del Acuerdo Regulador — BOP **2025–2026**
+
+**Fuentes oficiales documentales**: [BOP Toledo **8/2025**, anuncio **223**, de **14/01/2025**](https://bop.diputoledo.es/webEbop/DocGet?0=&id=25010328&insert_number=223&insert_year=2025); [BOP **10/2026**, anuncio **228**, de **16/01/2026**](https://www.diputoledo.es/global/ver-pdf/36759); [BOP **34/2026**, anuncio **821**, de **20/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026).
+
+La publicación de **2025** documenta el acuerdo del **Pleno de 17/12/2024**, con **efectos económicos y administrativos desde el 01/01/2025**. Incrementa un **5 %** los importes anuales de carrera de los subgrupos **A1, A2, C1, C2 y AP**. En guardias presenciales de técnicos superiores, el precio pasa a **24,64 €/hora**, equivalente a **418,88 € (17 horas)** y **591,36 € (24 horas)**.
+
+La publicación de **2026** cita acuerdos del **Pleno de 19/12/2025** y fija nuevos importes con **efectos económicos y administrativos desde el 01/01/2026**. Esta es la **tabla de referencia de 2026**, no la de 2025:
+
+| Grado anual | **C1 en 2025** | **C1 en 2026** | **C2 en 2025** | **C2 en 2026** |
+|---|---:|---:|---:|---:|
+| **I** | 777,96 € | **816,84 €** | 678,12 € | **712,08 €** |
+| **II** | 1.264,56 € | **1.327,80 €** | 1.096,56 € | **1.151,40 €** |
+| **III** | 1.827,84 € | **1.919,28 €** | 1.576,92 € | **1.655,76 €** |
+| **IV** | 2.647,56 € | **2.779,92 €** | 2.340,24 € | **2.457,24 €** |
+
+**Otras reglas de 2026 que es necesario estudiar:**
+
+| Concepto | Publicación / dato verificable |
+|---|---|
+| Guardia presencial de técnicos superiores | **28,64 €/hora**, **486,88 €** por **17 h** y **687,36 €** por **24 h** (**BOP 10/2026**) |
+| Guardias de localización del subgrupo **C1** | **306,16 €** (**BOP 10/2026**) |
+| Guardias de localización del subgrupo **C2** | **212,30 €** (**BOP 10/2026**) |
+| Retribución complementaria de vacaciones para turnos de lunes a domingo, incluidas noches y festivos | Equivalente a **4 noches**, **2 sábados**, **2 domingos** y **1 festivo**, con condiciones y proporcionalidad del art. 18.III.g (**BOP 10/2026**) |
+| Turnos con sábados, domingos y festivos, sin noches | Equivalente a **2 sábados**, **2 domingos** y **1 festivo** durante vacaciones (**BOP 10/2026**) |
+| Fondo de Acción Social | **292.790,00 €** (**BOP 10/2026**) |
+| Nocturnidad especial | **97,45 €**, precisada expresamente por **BOP 34/2026**, como complemento de **BOP 10/2026** |
+
+**Alcance del cierre:** se han contrastado las **tres publicaciones** y sus **cuantías/efectos** del bloque económico. Las modificaciones de **2025 y 2026** no son una quinta reforma de los Estatutos del **OAPGT**: afectan al **Acuerdo Regulador**. No queda certificada por este cierre la aplicación a cada categoría individual ni la conciliación completa del acuerdo con toda la legislación laboral posterior.
+
+> ⚠️ **¡Foco Examen!:** **Publicación en enero** no equivale a **fecha de efectos 01/01**; **2025** fijaba **C2 grado I = 678,12 €**, pero en **2026 = 712,08 €**. La **nocturnidad especial de 97,45 €** aparece expresamente en **febrero de 2026**, y no debe confundirse con la nocturnidad ordinaria.
+
+
 ## Control específico de los artículos 1–3 del Acuerdo Regulador de 2023 — verificado el 09/11/2026
 
 El [**BOP de Toledo n.º 246, 28/12/2023, texto del Acuerdo Regulador**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=246&insert_year=2023&publication_date=28122023) acredita que el **Pleno de Diputación** lo aprobó el **21/12/2023**. La [ficha de Transparencia provincial](https://transparencia.diputoledo.es/t/normativa/2250) clasifica su tramitación como **aprobación definitiva**. Este acuerdo es **distinto de los Estatutos del OAPGT** y debe estudiarse con sus modificaciones posteriores.
