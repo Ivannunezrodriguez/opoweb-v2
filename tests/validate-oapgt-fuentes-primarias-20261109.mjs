@@ -12,7 +12,7 @@ const t06=c2.temas.find(t=>t.numero===6);
 const t13=ol.temas.find(t=>t.numero===13);
 assert.equal(t22.estado,'EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES');
 assert.equal(t06.estado,'BORRADOR');
-assert.equal(t13.estado,'EN_AUDITORIA');
+assert.equal(t13.estado,'AUDITADO','Olías T13 acreditado con datos INE a 30/06/2026');
 
 const primary='https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011';
 const verified=read('content/diputacion-toledo-auxiliar-c2/tema-06/estatutos-2011-verificado.md');
@@ -45,5 +45,7 @@ for(const [qs,index,key,stem] of [
  assert(q.referencia.includes('2011'));
 }
 const olM=json(t13.matriz);
-assert.equal(olM.controlFocal20261108.callejeroCompleto,false);
-console.log('OAPGT_2011_VISUAL_PRIMARIO: cinco modificaciones trazadas; bloqueos C1/C2/Olías preservados');
+assert.equal(olM.controlINE20261109.vias,280);
+assert.equal(olM.controlINE20261109.pseudovias,0);
+assert.equal(olM.controlINE20261109.fechaReferencia,'2026-06-30');
+console.log('OAPGT_2011_VISUAL_PRIMARIO: cinco modificaciones trazadas; bloqueos OAPGT C1/C2 preservados y Olías INE resuelto');
