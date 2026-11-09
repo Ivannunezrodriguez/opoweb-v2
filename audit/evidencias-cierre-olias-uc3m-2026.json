@@ -1,0 +1,71 @@
+{
+  "fechaRevision": "2026-11-09",
+  "descripcion": "Registro de puertas de cierre de cuatro temas. Estado PENDIENTE no certifica contenido ni cambios legislativos.",
+  "temas": [
+    {
+      "id": "OLIAS-T13",
+      "programa": "data/programa-olias-auxiliar-edificios-2026.json",
+      "numero": 13,
+      "estadoEvidencia": "PENDIENTE",
+      "pruebasRequeridas": [
+        "ZIP oficial INE julio 2026 Toledo (45) descargado y huella registrada",
+        "Extracción VIAS/PSEU municipio 45122 con diseño oficial",
+        "Listado y contraste íntegro con servicios municipales",
+        "Banco T13 cotejado con fuentes",
+        "Control funcional y acta de revisión"
+      ],
+      "fuenteIndice": "https://www.ine.es/prodyser/callejero/",
+      "documentoPrimario": null,
+      "fechaPublicacionPrimaria": null,
+      "actaCierre": null
+    },
+    {
+      "id": "UC3M-T10",
+      "programa": "data/programa-uc3m-auxiliar-administrativa-2026.json",
+      "numero": 10,
+      "estadoEvidencia": "PENDIENTE",
+      "pruebasRequeridas": [
+        "Resolución definitiva 2026 con fecha de publicación verificable",
+        "TREBEP fijado a fecha de corte incluyendo art. 49.e",
+        "12 preguntas y 48 alternativas cotejadas a ese corte",
+        "Acta individual con resultado"
+      ],
+      "fuenteIndice": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
+      "documentoPrimario": null,
+      "fechaPublicacionPrimaria": null,
+      "actaCierre": null
+    },
+    {
+      "id": "UC3M-T15",
+      "programa": "data/programa-uc3m-auxiliar-administrativa-2026.json",
+      "numero": 15,
+      "estadoEvidencia": "PENDIENTE",
+      "pruebasRequeridas": [
+        "Resolución definitiva 2026 con fecha de publicación verificable",
+        "Estatutos UC3M y aplicación transitoria LOSU cotejados",
+        "21 preguntas y 84 alternativas cotejadas",
+        "Acta individual con resultado"
+      ],
+      "fuenteIndice": "https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m",
+      "documentoPrimario": null,
+      "fechaPublicacionPrimaria": null,
+      "actaCierre": null
+    },
+    {
+      "id": "UC3M-T16",
+      "programa": "data/programa-uc3m-auxiliar-administrativa-2026.json",
+      "numero": 16,
+      "estadoEvidencia": "PENDIENTE",
+      "pruebasRequeridas": [
+        "Resolución definitiva 2026 con fecha de publicación verificable",
+        "RD 822/2021 y modificaciones cotejadas a fecha de corte",
+        "Efectos de anulación del RD 905/2025 analizados",
+        "Banco T16 y acta individual cotejados"
+      ],
+      "fuenteIndice": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083",
+      "documentoPrimario": null,
+      "fechaPublicacionPrimaria": null,
+      "actaCierre": null
+    }
+  ]
+}
