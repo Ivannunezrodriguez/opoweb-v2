@@ -395,3 +395,18 @@ No pueden presentarse propuestas de reforma durante los tres meses anteriores a 
 [**Acta de auditoría y cierre documental, con reservas**](../CIERRE_DOCUMENTAL_T15_20261106.md): **7 bloques** cotejados con **Estatutos UC3M**, reforma de **2009**, **21 preguntas históricas (84 alternativas)**, **8 complementarias (32 alternativas)** y **2 microtest solo en manual**. Se ha corregido la cita del **art. 178.3** para la toma en consideración de la reforma, precisado el alcance de las **quejas ante la Defensoría** y añadido fundamento exacto al banco. El estado sigue **EN_REVISION_USUARIO**; falta determinar el corte jurídico de la convocatoria con documento primario y completar pruebas de navegador, accesibilidad, PWA y revisión LOSU.
 
 > ⚠️ **¡Foco Examen!:** **178.3 = tomar en consideración (mayoría de presentes)**; **179.1 = comisión**; **179.3 = aprobación definitiva (mayoría de miembros totales)**. **Cierre documental** no equivale a **certificación integral**.
+
+
+## Advertencia de vigencia: Estatutos de 2003/2009 frente a LOSU — **09/11/2026**
+
+La [**normativa institucional UC3M**](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m) mantiene referencias a los **Estatutos aprobados por Decreto 1/2003** y modificados por **Decreto 95/2009**; esa referencia histórica no demuestra, por sí sola, que todos sus porcentajes, órganos y mandatos sigan siendo aplicables sin contraste con la [**LOSU de 2023**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500).
+
+| Cuestión | Estatutos históricos UC3M de **2003** | LOSU aplicable en **2026** |
+|---|---|---|
+| Representación estudiantil en el **Claustro** | **50 estudiantes** sobre **253 miembros** cuando se suman sus **250 representantes** a **Rector, Secretario General y Gerente**, según **art. 30.1** del texto original | Mínimo **25 %** en **art. 45.3**, prevaleciendo el marco orgánico aplicable y la necesaria adaptación estatutaria |
+| Mandatos de órganos unipersonales electos | Se describen períodos históricos de **4 años**, según cada cargo | **6 años**, **improrrogables y no renovables**, con reglas transitorias en **art. 44.3** |
+| Adaptación de Estatutos y órganos | El texto de **2003** fue aprobado bajo la legislación universitaria anterior | **Disposición transitoria primera LOSU**: **2 años** desde su entrada en vigor, según el texto modificado en **2024** |
+
+> ⚠️ **¡Foco Examen!:** El **25 %** es el mínimo exigido al **Claustro** por la **LOSU 45.3**. **No** contestar utilizando el reparto numérico de **2003** como regla vigente sin comprobar la adaptación. **2 años** es el plazo de la transitoria LOSU modificada, no el plazo de **3 años** del texto originario de 2023.
+
+**Reserva de auditoría T15:** faltan el cotejo exhaustivo del texto refundido institucional y de las resoluciones de adaptación a LOSU con los **21 ítems** y las normas de jerarquía/temporalidad. Hasta completarlo, **EN_REVISION_USUARIO**; no atribuir al conjunto la condición de **AUDITADO**.
