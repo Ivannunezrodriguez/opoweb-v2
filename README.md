@@ -8,21 +8,27 @@ Nueva plataforma de estudio para oposiciones administrativas, reconstruida desde
 
 Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
-## Estado editorial actual — consulta obligatoria
+## Estado editorial actual — consulta obligatoria (**09/11/2026**)
 
-**Punto único de verdad:** [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md) (última actualización **04/11/2026**). Incluye la **tarea activa exacta**, historial verificable y puertas de calidad. No empezar una nueva auditoría desde cero leyendo este README o un informe antiguo.
+**Fuente principal de trazabilidad:** [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md). Para una síntesis pormenorizada, consultar [ESTADO_GENERAL_OPOWEB_2026-11-09.md](ESTADO_GENERAL_OPOWEB_2026-11-09.md). El estado registrado en cada manifiesto tiene prioridad sobre resúmenes antiguos del README. Los cinco programas suman **121 temas**.
 
-La plataforma contiene **cinco programas activos y 121 temas registrados**: **La Puebla C2 (19)**, **Diputación Toledo Auxiliar C2 (20)**, **UC3M C2 (20)** y **Diputación Toledo Administrativo C1 (40)**. **Tema registrado no significa tema auditado.**
+| Convocatoria | Temas | Estado documental a 09/11/2026 | Reserva |
+|---|---:|---|---|
+| La Puebla de Montalbán C2 | **19** | **19 APROBADO_USUARIO** históricos de julio | Falta recertificación jurídica global de noviembre |
+| Diputación Toledo Administrativo C1 | **40** | **39 AUDITADO** | **T22 OAPGT** pendiente de estatutos íntegros |
+| Diputación Toledo Auxiliar C2 | **20** | **19 AUDITADO** | **T6 OAPGT**, todavía BORRADOR |
+| Olías del Rey Auxiliar de edificios C2 | **22** | **21 AUDITADO** | **T13 callejero** pendiente del inventario oficial completo INE |
+| UC3M Auxiliar Administrativa C2 | **20** | **20 desarrollados con reserva de corte**; formalmente **EN_REVISION_USUARIO** | Fecha oficial de corte normativo y auditoría final |
 
-- **La Puebla C2:** **19/19** temas `APROBADO_USUARIO` con cierre **histórico de fase 2** en julio de 2026; las reformas y cambios posteriores requieren controles de vigencia.
-- **Diputación Auxiliar C2:** **19 temas EN_REVISION_USUARIO** y **tema 6 BORRADOR**; el tema 6 del **OAPGT** queda **aplazado hasta el final** según decisión documentada del **29/10/2026**, sin considerarse terminado.
-- **UC3M C2:** **20 EN_REVISION_USUARIO**. **260 preguntas temáticas** y, desde el **02/11/2026**, **3 simulacros de entrenamiento de 70 titulares + 5 reservas / 60 minutos**. Muestran **puntuación directa A − E/3**, nunca un aprobado simulado sin el corte del tribunal. [Guía de examen y fuentes](content/uc3m/GUIA_EXAMEN_2026.md).
-- **Diputación Administrativo C1:** **40 con origen GENERACION_DESDE_CERO** en manifiesto heredado, **sin equivaler a APROBADO/PUBLICADO**; auditoría progresiva.
-- **Olías Auxiliar de edificios C2:** **22/22 redactados**, todos **EN_AUDITORIA**; **264 preguntas temáticas + 40 psicotécnicas** y simulacros de teoría/psicotécnicos con notas independientes. El programa está registrado pero **no** certificado jurídicamente. **Ojo:** discrepancias abiertas entre BOP/BOE sobre **4/1 plazas** y **20 días naturales/hábiles**; no afirmar plazo resuelto.
+**Lectura correcta de contadores:** **79/121** temas con estado **AUDITADO** actual; **19/121** aprobados históricamente en La Puebla; **20/121** temas UC3M desarrollados pero no aprobados; **3/121** bloqueos documentales. Estas categorías **no equivalen** a certificación integral. **0/121** temas cuentan con cierre jurídico-editorial, técnico, funcional y de accesibilidad demostrado de extremo a extremo.
 
-**No hay recertificación jurídica integral nueva de los 121 temas a 04/11/2026.** Las métricas de archivos, preguntas y validadores se deben interpretar en su **fecha/commit**, no como porcentajes de fiabilidad jurídica.
+**Bancos y preparación:** UC3M conserva **260 preguntas temáticas** y **3 simulacros de 70 titulares + 5 de reserva**, con corrección de **A − E/3**, según bases. Olías cuenta con **279 preguntas temáticas**, **40 psicotécnicas** y dos simulacros de 50+20. Diputación C1 tiene **807 preguntas**, incluyendo 24 del T22 OAPGT. Los tests automatizados de integridad y coherencia no equivalen a verificar jurídicamente todos los distractores. El estado de la web debe verificarse en navegador real.
 
-**Bloque urgente activo a 04/11/2026:** `PUEBLA-EXAM-2026-11-14` — controles por bloques de plazos, respuestas y simulacros conforme al primer examen del **14/11/2026**; después `UC3M-EXAM-2026-11-21`. El bloque `DT-C2-A` (**temas 1–5 de Diputación Auxiliar C2**) queda **conservado y temporalmente aplazado**, no reiniciado. El **tema 6 OAPGT** permanece al final del programa C2. Consultar siempre el registro principal y su marcador antes de cada ejecución. **Los avisos al usuario se reservan a incidencias significativas que requieran atención.**
+**CI:** [validación GitHub Actions completada satisfactoriamente](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42577252425) para commit `518e2326d5f2`: **67 pasos correctos** (incluidos montaje de Node, sintaxis, tests por programas y controles finales). Se han reparado tests antiguos con cifras obsoletas de Diputación C1 y Olías. **No confundir** el resultado del flujo de validación con el de despliegue de GitHub Pages: son ejecuciones distintas.
+
+**Puntos críticos:** Olías tiene discrepancias BOP/BOE sobre **número de plazas** y **20 días naturales/hábiles**; evitar afirmar que están resueltas. UC3M exige fecha primaria de listas definitivas (base 1.7) para fechar qué legislación entra; el **01/10/2026** sigue como dato secundario no certificado. El `sw.js` está configurado para darse de baja y borrar cachés, por lo que **no se garantiza uso sin conexión** pese a disponer de `manifest.json`.
+
+**Prioridades de la siguiente fase:** cerrar documentos oficiales OAPGT y callejero de Olías; acreditar corte legal UC3M; controles jurídicos frase a frase; pruebas manuales E2E en móvil/escritorio, WCAG y persistencia; depurar divergencias entre textos informativos y estados formales. No sustituir pruebas por más contenido de repaso.
 
 ## Fuente del programa
 
