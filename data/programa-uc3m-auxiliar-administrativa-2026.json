@@ -1,6 +1,6 @@
 {
   "id": "uc3m-auxiliar-administrativa-c2-2026",
-  "version": "2026-11-08",
+  "version": "2026-11-09",
   "estado": "HOMOGENEIZACION_FORMATO",
   "convocatoria": {
     "entidad": "Universidad Carlos III de Madrid",
@@ -35,7 +35,8 @@
     "BORRADOR",
     "EN_REVISION_USUARIO",
     "APROBADO_USUARIO",
-    "PUBLICADO"
+    "PUBLICADO",
+    "AUDITADO"
   ],
   "bloques": [
     {
@@ -204,18 +205,29 @@
       "numero": 9,
       "titulo": "Procesadores de texto y hojas de cálculo: Word 2019 y Excel 2019; herramientas Google: Gmail, Drive, Docs, Sheets y Calendar; correo electrónico.",
       "bloque": "generales",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/uc3m/tema-09/manual.md",
       "fuentes": "content/uc3m/tema-09/fuentes.md",
       "matriz": "content/uc3m/tema-09/matriz.json",
       "preguntas": "content/uc3m/tema-09/preguntas.json",
-      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
-      "revisadoEl": "2026-11-08",
+      "estadoRevisionDocumental": "AUDITADO_TECNICO_EDITORIAL_CON_RESERVAS",
+      "revisadoEl": "2026-11-09",
       "reservas": [
-        "Fecha primaria de corte legal de convocatoria no certificada",
-        "Aprobación del usuario pendiente",
-        "Certificación funcional integral pendiente"
-      ]
+        "Corte normativo oficial UC3M pendiente para eventuales aspectos jurídicos",
+        "Versiones e interfaces Google dinámicas: comprobación E2E pendiente",
+        "Aprobación del usuario pendiente"
+      ],
+      "auditoriaTecnica20261109": {
+        "fecha": "2026-11-09",
+        "acta": "audit/UC3M_T09_AUDITORIA_TECNICO_EDITORIAL_2026-11-09.md",
+        "coberturaApartados": "13/13",
+        "preguntasHistoricas": 12,
+        "preguntasComplementarias": 12,
+        "versionAplicacion": "Word 2019 / Excel 2019 / Google Workspace",
+        "alcance": "TECNICO_EDITORIAL_CON_DOCUMENTACION_DE_FABRICANTES",
+        "certificacionIntegral": false,
+        "pruebaNavegadorE2E": false
+      }
     },
     {
       "numero": 10,
