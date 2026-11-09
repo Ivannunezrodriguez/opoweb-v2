@@ -1,5 +1,7 @@
 # Tema 8. Igualdad, identidad, no discriminación y acoso
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-institucional.** [**Acta de LO 3/2007, III Plan y II Protocolo UC3M**](../../../audit/UC3M_T08_AUDITORIA_IGUALDAD_2026-11-09.md). La auditoría documental no equivale a `CERTIFICADO_INTEGRAL`: CI, navegación E2E y accesibilidad pendientes.
+
 > Epígrafe oficial: Ley Orgánica 3/2007 de igualdad; normativa UC3M sobre igualdad, identidad y expresión de género, no discriminación y acoso; III Plan de Igualdad de la UC3M.
 
 ## 1. Objeto y ámbito de la Ley Orgánica 3/2007
