@@ -472,12 +472,17 @@ function finishExercise(items, timerId, metadata) {
   scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-async function loadCall(id) {
+async function loadCall(id, requestedTheme = null) {
   const requestId = ++latestCallLoad;
   const call = CALLS.find(candidate => candidate.id === id) || CALLS[0];
   activeCall = call;
   localStorage.setItem(SELECTED_CALL_KEY, call.id);
-  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(call.id)}`);
+  // Conservar el tema solicitado al entrar desde un enlace directo; al cambiar
+  // de convocatoria mediante el selector, no arrastrar el tema anterior.
+  const parsedTheme = requestedTheme === null || requestedTheme === '' ? null : Number(requestedTheme);
+  const selectedTheme = Number.isInteger(parsedTheme) && parsedTheme >= 1 && parsedTheme <= call.themeCount ? parsedTheme : null;
+  const themeQuery = selectedTheme === null ? '' : `&tema=${selectedTheme}`;
+  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(call.id)}${themeQuery}`);
   document.title = `OpoWeb v2 · Práctica · ${call.shortLabel}`;
   app.innerHTML = '<section class="panel intro"><h2>Cargando entrenamiento…</h2></section>';
   const [programmeResponse, supuestosResponse, simulacrosResponse, banks] = await Promise.all([
@@ -504,8 +509,7 @@ async function loadCall(id) {
   questionMap = banks;
   extraRepasos = loadedRepasos.packs;
   extraRepasoErrors = loadedRepasos.errors;
-  const selectedTheme = Number(new URLSearchParams(location.search).get('tema'));
-  if (selectedTheme >= 1 && selectedTheme <= call.themeCount) startThemeTest(selectedTheme);
+  if (selectedTheme !== null) startThemeTest(selectedTheme);
   else renderHub();
 }
 
@@ -513,7 +517,7 @@ async function boot() {
   initTheme();
   try {
     const params = new URLSearchParams(location.search);
-    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id);
+    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id, params.get('tema'));
   } catch (error) {
     app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
   }
