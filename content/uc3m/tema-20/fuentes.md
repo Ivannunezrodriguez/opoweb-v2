@@ -97,3 +97,12 @@ Fuente normativa cotejada directamente: [**LCSP, art. 159.5 y 159.6**](https://w
 Los **tres supuestos añadidos** en el [manual T20 §34](manual.md) contrastan la urgencia, el régimen de garantía/mesa y la exclusión de prestaciones intelectuales. **No se modifican las claves ni las alternativas del banco original**. Esta comprobación es focal sobre los artículos indicados y **no** valida las restantes fuentes ni la fecha primaria de corte de la convocatoria.
 
 > ⚠️ **¡Foco Examen!:** **Mesa potestativa y ausencia de garantía** son del **159.6**; la regla de **urgencia sin reducción general** está en **159.5**. No mezclar ambas modalidades.
+
+
+## Control de mesa y exclusiones del artículo 326 — 09/11/2026
+
+Cotejado en el [**BOE, LCSP art. 326.1–6**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a3-38): composición de **Presidente, Secretario y vocales**, nombramiento por **órgano de contratación**, deber de **asesoramiento jurídico y control económico-presupuestario** en las condiciones del precepto, prohibición de **personal eventual** y **cargos representativos** tanto para pertenencia a mesa como para emitir informes de valoración, participación de **funcionarios interinos solo con acreditación de falta de funcionarios de carrera suficientemente cualificados**, y exclusión de quienes redactaron documentación técnica salvo **disposición adicional segunda**. El artículo **326.6** establece la composición mínima válida del simplificado, mientras que **326.1** permite **mesa potestativa en 159.6**.
+
+Añadidos al [**manual §35**](manual.md) tabla comparativa y **3 supuestos**. Banco de **12 preguntas originales** sin modificación. No se declara cotejo jurídico integral ni prueba E2E.
+
+> ⚠️ **¡Foco Examen!:** **Personal eventual** no es lo mismo que **funcionario interino**; en el segundo supuesto la participación excepcional requiere **justificación expresa en el expediente**. **Mesa potestativa** en **159.6**.
