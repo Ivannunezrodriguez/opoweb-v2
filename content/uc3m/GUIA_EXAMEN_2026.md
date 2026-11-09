@@ -342,7 +342,7 @@ Los **9 estados AUDITADO** acreditan revisión jurídico-editorial o técnico-ed
 
 ## Auditorías cerradas de igualdad y LOSU I — **09/11/2026**
 
-**12 temas en `AUDITADO`: T1–T9, excepto T10; T11, T12 y T13.** Para evitar ambigüedades, la lista exacta es **T1, T2, T3, T4, T5, T6, T7, T8, T9, T11, T12 y T13**. Quedan **8 en `EN_REVISION_USUARIO`: T10 y T14–T20**. Este balance **sustituye los recuentos históricos de 7, 9 y 10**, conservados en notas previas por trazabilidad.
+**12 temas en `AUDITADO`: T1–T9 y T11–T13.** Para evitar ambigüedades, la lista exacta es **T1, T2, T3, T4, T5, T6, T7, T8, T9, T11, T12 y T13**. Quedan **8 en `EN_REVISION_USUARIO`: T10 y T14–T20**. Este balance **sustituye los recuentos históricos de 7, 9 y 10**, conservados en notas previas por trazabilidad.
 
 - **T8 · Igualdad:** [**acta jurídica**](../../audit/UC3M_T08_AUDITORIA_IGUALDAD_2026-11-09.md). **LO 3/2007**, III Plan de Igualdad de **UC3M (01/02/2025–31/01/2029, 6 ejes y 138 medidas)** y II Protocolo de acoso; referencias primarias incorporadas a sus **12 preguntas**.
 - **T13 · LOSU I:** [**acta jurídica**](../../audit/UC3M_T13_AUDITORIA_LOSU_I_2026-11-09.md). **LO 2/2023**, texto con última modificación publicada **02/08/2024**; **12 preguntas** enlazadas al BOE, órganos de creación y calidad diferenciados.
