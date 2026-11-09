@@ -456,3 +456,18 @@ La [**base primera.7 (BOE-A-2026-14624)**](https://boe.es/diario_boe/txt.php?id=
 **Puerta de cierre:** guardar la resolución definitiva UC3M con **fecha primaria de publicación**, establecer versión temporal de cada norma y revisar las **12 preguntas del T10**, **21 del T15** y el banco del T16 antes de modificar estados. Ningún tema se promueve por un dato secundario.
 
 > ⚠️ **¡Foco Examen!:** Publicación de reforma, entrada en vigor y publicación de sentencia son **hechos jurídicos distintos**; el **corte oficial de las bases** decide la legislación exigible.
+
+
+## Documento nuevo de admitidos definitivos UC3M — 09/11/2026
+
+Se ha leído el **Anexo I de admitidos definitivos** aportado, **36 páginas**, con firma electrónica **30/09/2026 13:14:31** e identificador de sede **E6oFKKwKp6**. Consta la identidad documental del proceso selectivo de la **Escala Auxiliar Administrativa C2**. Este dato confirma el **anexo firmado**; la publicación oficial de la **resolución aprobatoria** sigue sin acreditarse, y **no se confunde firma con fecha de corte jurídico de base primera.7**.
+
+[Acta de cronología y firma del anexo](../../audit/UC3M_ACOTACION_CORTE_OFICIAL_2026-11-09.md). Se evita replicar nombres, documentos de identidad parcialmente ocultos o relación de personas en el repositorio público.
+
+| Hito | Fecha conocida | Qué acredita |
+|---|---|---|
+| **Firma del Anexo I de admitidos definitivos** | **30/09/2026 13:14:31** | Documento original firmado, no publicación |
+| **Publicación de la resolución definitiva** | **No acreditada** | Es la que fija el corte de la **base primera.7** |
+| **Firma del llamamiento separado** | **06/10/2026** | Fecha y condiciones de ejercicio, no publicación de la resolución definitiva |
+
+> ⚠️ **¡Foco Examen!:** **Firma de anexo**, **publicación de resolución** y **fecha de examen** son hitos independientes. Nunca deducir el corte por el nombre del PDF descargado.
