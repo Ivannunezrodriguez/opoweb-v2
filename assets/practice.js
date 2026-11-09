@@ -219,8 +219,8 @@ async function loadQuestionBanks(call = activeCall) {
 async function loadExtraRepasos(call = activeCall) {
   // Recursos creados por OpoWeb, diferentes de los bancos originales y de los simulacros.
   // Un fallo de esta carga opcional no debe impedir estudiar los tests históricos.
-  extraRepasoErrors = [];
-  if (call.id !== 'uc3m-auxiliar-administrativa-c2-2026') return [];
+  const errors = [];
+  if (call.id !== 'uc3m-auxiliar-administrativa-c2-2026') return { packs: [], errors };
   const sources = [
     { url: 'data/uc3m-repasos-complementarios-20261106.json', title: 'Repasos documentales de temas' },
     { url: 'data/uc3m-repaso-temas-13-20-20261106.json', title: 'Repaso final de los temas 13–20' },
@@ -253,11 +253,11 @@ async function loadExtraRepasos(call = activeCall) {
         return { id: String(pack.id), titulo: String(pack.titulo), preguntas };
       });
     } catch (error) {
-      extraRepasoErrors.push(source.title);
+      errors.push(source.title);
       return [];
     }
   }));
-  return results.flat();
+  return { packs: results.flat(), errors };
 }
 
 function renderExtraRepasos() {
@@ -313,7 +313,9 @@ function renderHub() {
     ${simulacros.simulacros.length ? `<section class="panel"><h2>Simulacros transversales</h2><div class="practice-grid">${simulacros.simulacros.map(item => `<button class="practice-card" type="button" data-sim="${item.id}"><span class="badge">${item.preguntas.length} preguntas${item.preguntasReserva?.length ? ' + 5 de reserva' : ''} · ${item.duracionMinutos ? `${item.duracionMinutos} min` : "Duración oficial pendiente"}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.instrucciones || 'Corrección al finalizar.')}</p></button>`).join('')}</div></section>` : ''}`;
 
   document.querySelector('#practice-call-selector')?.addEventListener('change', event => {
+    const requestId = latestCallLoad + 1;
     loadCall(event.target.value).catch(error => {
+      if (requestId !== latestCallLoad) return;
       app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
     });
   });
@@ -494,7 +496,8 @@ async function loadCall(id) {
   supuestos = loadedSupuestos;
   simulacros = loadedSimulacros;
   questionMap = banks;
-  extraRepasos = loadedRepasos;
+  extraRepasos = loadedRepasos.packs;
+  extraRepasoErrors = loadedRepasos.errors;
   const selectedTheme = Number(new URLSearchParams(location.search).get('tema'));
   if (selectedTheme >= 1 && selectedTheme <= call.themeCount) startThemeTest(selectedTheme);
   else renderHub();
