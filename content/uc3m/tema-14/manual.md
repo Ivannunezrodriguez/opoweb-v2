@@ -1,5 +1,7 @@
 # Tema 14. Ley Orgánica 2/2023 del Sistema Universitario (II)
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta individual LOSU II**](../../../audit/UC3M_T14_AUDITORIA_LOSU_II_2026-11-09.md). **No equivale a CERTIFICADO_INTEGRAL**: pendiente verificar fecha oficial de corte, CI y E2E.
+
 > Epígrafe oficial: estudiantado y régimen específico de las universidades públicas: régimen económico-financiero, PDI y PTGAS.
 
 ## 1. El estudiantado universitario
