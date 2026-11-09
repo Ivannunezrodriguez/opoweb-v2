@@ -43,3 +43,18 @@ Se ha revisado de nuevo el [catálogo primario del INE](https://www.ine.es/prody
 **Commits:** Olías `a3847ec9`; guía UC3M `ae31f6e2`; test `5d17d8fd`; CI `d3f79100`.
 
 **Pendiente efectivo:** obtener el ZIP íntegro del INE para Olías **45122**, extraer y cotejar vías; obtener el documento primario de listas definitivas UC3M y resolver íntegramente normativa/bancos. **No se acredita ejecución E2E ni resultado de GitHub Actions del último SHA.** La mejora editorial no debe confundirse con un cambio de estado.
+
+
+## Tercera intervención: impedir falsos cierres y facilitar cierre demostrable (09/11/2026)
+
+**Búsqueda primaria repetida:** el [portal UC3M para 34 plazas 2026](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) anuncia relación definitiva, pero **no deja comprobar desde el contenido público recuperado su fecha de publicación**. La búsqueda devuelve un [**PDF auténtico de resolución definitiva UC3M**](https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Resoluci%C3%B3n_Definitiva_de_Admitidos_y_Excluidos.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371617534582&ssbinary=true) **de otra convocatoria, la resolución de 02/09/2024, con listas provisionales de marzo 2025**. Se excluye expresamente como prueba del corte 2026. Continúa el dato **01/10/2026** como secundario de ADAMS.
+
+**Callejero:** [INE, Callejero Electoral](https://www.ine.es/prodyser/callejero/) confirma **VIAS, PSEU, TRAM, UP y SECC**, referencia **30/06/2026** en su edición de julio. No se recuperó el ZIP de Toledo; no se crea un inventario sin datos.
+
+**Cambio funcional de validación:**
+- [Registro machine-readable de pruebas pendientes](evidencias-cierre-olias-uc3m-2026.json), commit `a5799da9`: define para los cuatro temas fuente índice, documento primario, publicación, acta y lista de comprobaciones; campos primarios no acreditados se conservan como **null**.
+- [Gate de cierre](../tests/validate-olias-uc3m-pendientes-20261109.mjs), commit `7d5a5e42`: deja de prohibir de forma rígida cualquier ascenso. Si un tema cambia a `AUDITADO`, exige `estadoEvidencia=VERIFICADO`, fuente primaria URL, fecha primaria con formato 2026 y acta existente. Esto **no sustituye la auditoría jurídica**, pero impide promocionar un tema sin documentación.
+- [Sincronizador dinámico de fichas](../tests/validate-convocatorias-editorial-sync-20261109.mjs), commit `fd6f7ebb`: cuando se cierre Olías o UC3M con prueba, podrá comprobar el nuevo recuento y ficha sin mantener cifras obsoletas codificadas en test. Diputación C1/C2 conserva sus expectativas históricas.
+- Ambos controles ya están incluidos en el [workflow `validate.yml`](../.github/workflows/validate.yml). **La ejecución CI de los últimos commits no está acreditada**.
+
+**Estado jurídico sin cambios**: Olías **21/22**, UC3M **17/20**. No se declara cierre de los cuatro temas. Tampoco se atribuye publicación en 2026 al PDF de 2025.
