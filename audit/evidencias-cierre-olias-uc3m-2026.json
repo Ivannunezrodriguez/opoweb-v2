@@ -6,7 +6,7 @@
       "id": "OLIAS-T13",
       "programa": "data/programa-olias-auxiliar-edificios-2026.json",
       "numero": 13,
-      "estadoEvidencia": "PENDIENTE",
+      "estadoEvidencia": "VERIFICADO",
       "pruebasRequeridas": [
         "ZIP oficial INE julio 2026 Toledo (45) descargado y huella registrada",
         "Extracción VIAS/PSEU municipio 45122 con diseño oficial",
@@ -15,9 +15,23 @@
         "Control funcional y acta de revisión"
       ],
       "fuenteIndice": "https://www.ine.es/prodyser/callejero/",
-      "documentoPrimario": null,
+      "documentoPrimario": "https://www.ine.es/prodyser/callejero/",
       "fechaPublicacionPrimaria": null,
-      "actaCierre": null
+      "actaCierre": "audit/OLIAS_T13_CIERRE_INE_2026-11-09.md",
+      "fechaReferenciaPrimaria": "2026-06-30",
+      "inventarioVerificado": "content/olias-auxiliar-edificios/tema-13/callejero-ine-2026-06-30.md",
+      "pruebasCompletadas": [
+        "Ficheros provinciales INE originales aportados por usuario y huellas SHA-256",
+        "280 registros VIAS y 0 PSEU del municipio 45122",
+        "427 TRAM, 5 SECC y 13 UP comprobados",
+        "21 preguntas y 84 alternativas: 21 respuestas literales concordantes",
+        "Servicios municipales cotejados previamente; advertencias de numeración preservadas"
+      ],
+      "reservas": [
+        "Sin prueba E2E ni WCAG",
+        "Fecha exacta publicación del INE no acreditada: solo referencia 30/06/2026",
+        "Plano ordenación 1999 no se considera callejero vigente"
+      ]
     },
     {
       "id": "UC3M-T10",
