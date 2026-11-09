@@ -20,7 +20,7 @@ for (const term of [
   assert.ok(doc.includes(term), 'Falta control de fuente o reserva: ' + term);
 }
 assert.ok(doc.includes('https://bop.diputoledo.es/webEbop/DocGet?'));
-assert.ok(doc.includes('no queda') || doc.includes('no como reglas'));
+assert.ok(doc.includes('**no** como reglas de respuesta correcta'));
 for (const source of [
   'content/diputacion-toledo/tema-22/fuentes.md',
   'content/diputacion-toledo-auxiliar-c2/tema-06/fuentes.md'
