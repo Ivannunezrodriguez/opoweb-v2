@@ -1,5 +1,7 @@
 # Control de cierre jurídico-editorial de los temarios — **09/11/2026**
 
+> **ACTUALIZACIÓN DE CIERRE POSTERIOR A ESTE CORTE (09/11/2026):** El usuario aportó los cinco ficheros provinciales oficiales INE de **30/06/2026**; **Olías T13 ya AUDITADO**, con **280 entradas VIAS, 0 PSEU**, [inventario íntegro](content/olias-auxiliar-edificios/tema-13/callejero-ine-2026-06-30.md) y [acta](audit/OLIAS_T13_CIERRE_INE_2026-11-09.md). **Olías 22/22 AUDITADO documental-editorialmente**, sin E2E acreditado. **UC3M está en 17 AUDITADO y 3 pendientes (T10/T15/T16)**, no 20 pendientes: se recibió Anexo I definitivo firmado **30/09/2026**, pero **sigue sin acreditarse la fecha de publicación** de la resolución que fija el corte legal. Los recuentos antiguos que siguen debajo son la fotografía previa y no deben usarse como situación vigente.
+
 **Objetivo:** no confundir el desarrollo de archivos y la superación de pruebas automáticas con el cierre jurídico y funcional de OpoWeb. Los estados se han contrastado con los cinco manifiestos de `data/`, no con notas antiguas.
 
 ## 1. Inventario exacto
