@@ -1,5 +1,4 @@
 import fs from 'node:fs';
-import path from 'node:path';
 
 const manifestPaths = [
   'data/programa.json',
@@ -49,7 +48,7 @@ for (const manifest of manifestPaths) {
         try {
           const mat = JSON.parse(read(file));
           if (mat.tema != null && mat.tema !== n) add('ERROR', manifest, n, kind, 'Número de tema en matriz no coincide');
-          if (!mat.epigrafeOficial) add('WARN', manifest, n, kind, 'No consta epigrafeOficial');
+          if (!(mat.epigrafeOficial || mat.epigrafe || mat.titulo || mat.programaOficial)) add('WARN', manifest, n, kind, 'La matriz no incorpora título o epígrafe oficial identificable');
           const coverage = mat.filas || mat.cobertura || mat.bloques || mat.apartados || [];
           if (!Array.isArray(coverage) || coverage.length === 0) add('WARN', manifest, n, kind, 'No hay matriz de cobertura en formato de lista estándar');
         } catch (e) { add('ERROR', manifest, n, kind, 'JSON de matriz ilegible: ' + e.message); }
