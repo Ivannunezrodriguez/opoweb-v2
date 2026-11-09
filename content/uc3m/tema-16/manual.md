@@ -313,3 +313,19 @@ En la pregunta **UC3M-T16-009**, la fuente anterior de e-Archivo no era recupera
 > ⚠️ **¡Foco Examen!:** **60 ECTS/año** es carga curricular; **25–30 horas/ECTS** es dedicación. No confundir unidades ni atribuir al **art. 9 RD 822/2021** una regla que desarrolla directamente su **art. 5.2**.
 
 Esta reparación no implica revisión jurídica integral de las restantes respuestas, ni confirmación de la fecha de corte de la oposición, ni certificación funcional de OpoWeb.
+
+
+## Reserva de corte: anulación judicial del RD 905/2025 — **09/11/2026**
+
+[**RD 905/2025**](https://www.boe.es/buscar/act.php?id=BOE-A-2025-20002) (publicado **08/10/2025**, entrada en vigor **28/10/2025**) había modificado el [**RD 822/2021**](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781), en particular su **artículo 22.4**. La [**Sentencia del Tribunal Supremo de 06/10/2026, BOE-A-2026-22083**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22083), publicada el **23/10/2026**, **anuló el RD 905/2025**, incluida la modificación del **art. 22.4** del RD 822/2021.
+
+| Fecha | Hito jurídico | Cautela para el examen |
+|---|---|---|
+| **08/10/2025** | Publicación **RD 905/2025** | Su texto fue aplicado desde **28/10/2025** hasta los efectos jurídicos de la anulación, sujetos a examen |
+| **01/10/2026** | Fecha de listas definitivas **solo según referencia secundaria** | No está confirmada todavía la fecha **oficial de publicación** |
+| **06/10/2026** | **Sentencia del Tribunal Supremo** | Es posterior a la fecha secundaria; **no equivale a fecha de publicación en BOE** |
+| **23/10/2026** | Publicación del fallo de **nulidad** | No confundir nulidad del **RD 905/2025** con anulación íntegra del **RD 822/2021** |
+
+**Cuestión no resuelta:** el alcance temporal jurídico de la nulidad y la base **primera.7** de la convocatoria UC3M requieren lectura conjunta. No se pueden aplicar automáticamente ni el consolidado del **09/11/2026** ni una redacción de **01/10/2026** sin valorar los efectos de la sentencia en los artículos preguntados. **El tema permanece `EN_REVISION_USUARIO`** hasta que se cierre ese contraste.
+
+> ⚠️ **¡Foco Examen!:** Se anuló el **RD 905/2025**, **no** todo el **RD 822/2021**. La sentencia fue de **06/10/2026** y se publicó el **23/10/2026**: son fechas distintas y ninguna sustituye automáticamente el corte de la base **primera.7**.
