@@ -35,6 +35,12 @@ def municipality_page(url):
 summary,new_state=d.run(config,{},get_page=municipality_page)
 assert len(summary['sourceStatus'])==2,summary['sourceStatus'] # directory + one shared council
 assert len(new_state['sources'])==1,new_state['sources']
+assert summary['configuredSources']==2,summary
+assert summary['uniqueSources']==1,summary
+assert summary['sharedSourceAliases']==1,summary
+assert summary['checkedAtUtc'].endswith('+00:00'),summary
+assert summary['sourceStatus'][0]['source']=='Directorio municipal Toledo'
+
 assert not summary['entries'] # First read establishes the initial baseline
 different_url=deepcopy(shared);different_url['url']='https://otro.example/empleo'
 try:
@@ -43,4 +49,4 @@ except ValueError as exc:
     assert 'SOURCE_ID_COLLISION' in str(exc)
 else:
     raise AssertionError('Different URLs with same ID must not share state')
-print('Direct radar: baseline, new-only, shared council aliases, collision guard and directory OK')
+print('Direct radar: baseline, new-only, shared council aliases, UTC snapshot and collision guard OK')
