@@ -79,3 +79,12 @@ for (const [id,articulo] of Object.entries(boeDirecto)) {
 const q2009=bank.preguntas.find(q=>q.id==='UC3M-T15-003');
 assert.ok(q2009.referencia.includes('2009/12/04') && q2009.referencia.includes('95/2009'), 'Cese defensor requiere fuente de reforma art 127.2');
 console.log('UC3M_T15_NUEVE_ENLACES_BOE_PRECISOS_Y_REFORMA_2009_OK');
+
+let fuentesPrimariasEnlazadas=0;
+for (const q of bank.preguntas) {
+ assert.match(q.referencia,/https:\/\/(?:www\.boe\.es|www\.bocm\.es|www\.uc3m\.es)\//,
+   'T15 referencia sin URL primaria institucional: '+q.id);
+ fuentesPrimariasEnlazadas++;
+}
+assert.equal(fuentesPrimariasEnlazadas,21);
+console.log('UC3M_T15_21_REFERENCIAS_INSTITUCIONALES_DIRECTAS_OK: enlaces verificados estructuralmente, no respuesta jurídica global');
