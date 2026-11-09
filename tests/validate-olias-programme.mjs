@@ -41,7 +41,8 @@ for(const t of programme.temas){
  totalQuestions+=bank.preguntas.length;
 }
 assert.equal(ready,22);
-assert.equal(totalQuestions,264);
+// 264 preguntas base + 6 de T5 + 9 de T13, incorporadas tras cotejo documental.
+assert.equal(totalQuestions,279);
 const app=readFileSync('assets/app.js','utf8');
 assert.match(app,/olias-del-rey-auxiliar-edificios-c2-2026/);
 assert.match(app,/2026\.00004833/);
@@ -66,5 +67,5 @@ const map4 = read(findTheme(4).matriz).filas;
 assert.ok(map2.find(x => x.inciso.includes('Hacienda')).norma.includes('2/2004'));
 assert.ok(map3.find(x => x.inciso.includes('Prevención')).norma.includes('31/1995'));
 assert.ok(map4.every(x => x.norma === 'LO 3/2007'), 'Igualdad AGE asociada a otra norma');
-console.log('OLIAS_C2_2026_OK: 22 temas y manuales EN_AUDITORIA; 264 preguntas temáticas, 40 psicotécnicas y dos modelos; incidencias de plazo y plazas aún abiertas.');
+console.log('OLIAS_C2_2026_OK: 22 temas y manuales EN_AUDITORIA; 279 preguntas temáticas, 40 psicotécnicas y dos modelos; incidencias de plazo y plazas aún abiertas.');
 
