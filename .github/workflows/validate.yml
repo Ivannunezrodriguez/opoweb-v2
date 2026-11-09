@@ -35,6 +35,8 @@ jobs:
         run: node tests/validate-uc3m-trazabilidad-7-temas-20261109.mjs
       - name: Garantizar actas para todos los UC3M marcados AUDITADO
         run: node tests/validate-uc3m-audited-gate-20261109.mjs
+      - name: Proteger corte probable TREBEP y auditoría individual UC3M T11
+        run: node tests/validate-uc3m-t10-t11-corte-20261109.mjs
       - name: Control de LOSU T14 y microtest de Estatutos T15
         run: node tests/validate-uc3m-t14-t15-trazabilidad-20261109.mjs
       - name: Comprobar cierres documentales UC3M T09 y T12
