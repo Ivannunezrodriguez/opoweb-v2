@@ -37,6 +37,18 @@ for (const [number, boe] of [[2,'BOE-A-2015-10565'],[3,'BOE-A-2015-10565'],[4,'B
     assert.equal(q.respuestaLiteral, q.opciones[q.correcta], 'Clave literal incoherente en ' + q.id);
   }
 }
+const privacy = program.temas.find(topic => topic.numero === 6);
+assert.equal(privacy.estado, 'AUDITADO');
+assert.equal(json(privacy.matriz).estado, 'AUDITADO');
+const privateBank = json(privacy.preguntas).preguntas;
+assert.equal(privateBank.length, 12);
+for (const q of privateBank) {
+  assert.ok(q.referencia.includes('eur-lex.europa.eu') || q.referencia.includes('BOE-A-2018-16673'), 'Falta fuente normativa T06: ' + q.id);
+  assert.equal(q.respuestaLiteral, q.opciones[q.correcta], 'Respuesta modificada T06: ' + q.id);
+}
+const breach = privateBank.find(q => q.id === 'UC3M-T06-011');
+assert.ok(breach.pregunta.includes('debe notificarse'));
+assert.ok(breach.justificacion.includes('salvo que sea improbable'));
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
