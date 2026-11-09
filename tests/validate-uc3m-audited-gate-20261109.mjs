@@ -111,6 +111,18 @@ for (const q of losuBank) {
 }
 const warning2026 = readFileSync(losuII.actaAuditoria, 'utf8');
 assert.ok(warning2026.includes('RD 855/2026') && warning2026.includes('22/10/2026'));
+for (const [number, source] of [[17,'BOE-A-2024-11858'],[20,'BOE-A-2017-12902']]) {
+  const theme = program.temas.find(t => t.numero === number);
+  assert.equal(theme.estado, 'AUDITADO');
+  assert.equal(json(theme.matriz).estado, 'AUDITADO');
+  assert.ok(theme.actaAuditoria && existsSync(theme.actaAuditoria));
+  const qs = json(theme.preguntas).preguntas;
+  assert.equal(qs.length, 12);
+  for (const q of qs) {
+    assert.equal(q.respuestaLiteral, q.opciones[q.correcta], 'Respuesta incoherente: ' + q.id);
+    assert.ok(q.referencia.includes('https://'), 'Fuente ausente: ' + q.id);
+  }
+}
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
