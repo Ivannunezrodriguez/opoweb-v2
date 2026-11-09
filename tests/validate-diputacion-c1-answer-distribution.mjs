@@ -18,7 +18,14 @@ for(let topic=1;topic<=40;topic++){
  }
  assert.ok(Math.max(...counts)-Math.min(...counts)<=1,path+' has answer-key bias');
 }
-assert.equal(total,803,'Keep exact C1 bank inventory');
+// Inventory baseline 803 predates four documented OAPGT questions added 08/11/2026.
+// Guard those exact additions; do not silently accept arbitrary growth.
+const t22=JSON.parse(readFileSync('content/diputacion-toledo/tema-22/preguntas.json','utf8'));
+assert.equal(t22.preguntas.length,24,'OAPGT T22 must retain 20 original + 4 sourced questions');
+for(const id of ['DIP-T22-021','DIP-T22-022','DIP-T22-023','DIP-T22-024']){
+ assert.equal(t22.preguntas.filter(q=>q.id===id).length,1,'Missing or duplicated documented OAPGT addition '+id);
+}
+assert.equal(total,807,'Keep exact C1 inventory: historical 803 + 4 documented OAPGT questions');
 const prl=JSON.parse(readFileSync('content/diputacion-toledo/tema-23/preguntas.json','utf8'));
 const item=id=>prl.preguntas.find(q=>q.id===id);
 for(const [id,pattern] of [['DIP-T23-015',/plazo ordinario/],['DIP-T23-017',/emergencia/],['DIP-T23-018',/obligaci[oó]n del trabajador/],['DIP-T23-019',/servicio de prevenci[oó]n/],['DIP-T23-020',/prevenci[oó]n propio/]]){
