@@ -21,3 +21,16 @@
 **Dictamen:** aunque la convocatoria acredita que había admitidos definitivos al expedirse el llamamiento de **06/10/2026**, **no queda demostrado en fuente primaria que la lista se publicara el 01/10/2026**. Una resolución posterior de llamamiento no debe confundirse con la publicación de la lista definitiva requerida por las bases. Por tanto, **T10 y T16 deben seguir EN_REVISION_USUARIO** respecto a sus reformas controvertidas. El intervalo de septiembre/octubre permite comprobar qué normas estables eran anteriores al corte, pero **no resolver qué hacer con reformas de los días 03 y 06 de octubre**.
 
 > ⚠️ **¡Foco Examen!:** La **fecha de firma**, la **fecha de publicación** y el **día del examen** son tres hitos distintos; **base primera.7** vincula la normativa a la **publicación de la resolución definitiva**, no a la firma de un llamamiento separado.
+
+
+## Prueba aportada por el usuario — Anexo I de admitidos definitivos (09/11/2026)
+
+Se ha leído el PDF original **«ANEXO I. LISTADO DEFINITIVO DE PERSONAS ASPIRANTES ADMITIDAS AL PROCESO SELECTIVO · ESCALA AUXILIAR ADMINISTRATIVA (SUBGRUPO C2)»**, **36 páginas**, verificable por sede UC3M mediante identificador **E6oFKKwKp6**. La firma electrónica figura en el pie de todas las páginas con fecha **30/09/2026 13:14:31**. La huella SHA-256 del documento aportado es `087e413d22a0cc3f7f0c69fb6a37f8d8a85c256f704322e0b983475e847f6f85`.
+
+**Conclusión probatoria:** se confirma la **existencia y firma** del anexo de definitivos el **30/09/2026**. Esta firma no demuestra por sí sola la **fecha de publicación de la resolución aprobatoria** exigida por la base **primera.7** del BOE-A-2026-14624. No se transforma automáticamente en corte **30/09/2026** ni **01/10/2026**, que continúa siendo un dato no acreditado en sede de publicación. El nombre de fichero con una marca temporal tampoco sustituye un justificante oficial de publicación.
+
+**Privacidad:** las 36 páginas contienen datos de aspirantes; se registra **solo título, identificador documental, fecha de firma, páginas y huella**, sin copiar la lista de personas a GitHub.
+
+**Efecto sobre T10, T15 y T16:** se reduce el bloqueo documental de «no existe original de definitivos» a «falta acreditar **fecha de publicación de la resolución que aprueba los definitivos**». Mantener reserva temporal y no elevar temas sin fijar el corte y cotejar bancos.
+
+> ⚠️ **¡Foco Examen!:** Un **anexo firmado** no equivale al **asiento de publicación** de la resolución que fija las normas examinables. Los preceptos reformados después del corte deben distinguirse de reformas con vigencia anterior.
