@@ -78,6 +78,7 @@ let simulacros = null;
 let questionMap = new Map();
 let extraRepasos = [];
 let extraRepasoErrors = [];
+let latestCallLoad = 0;
 
 
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
@@ -199,13 +200,13 @@ function formatAttemptDate(value) {
   }).format(new Date(value));
 }
 
-async function loadQuestionBanks() {
-  const banks = await Promise.all(Array.from({ length: activeCall.themeCount }, async (_, index) => {
+async function loadQuestionBanks(call = activeCall) {
+  const banks = await Promise.all(Array.from({ length: call.themeCount }, async (_, index) => {
     const tema = index + 1;
     // T06 contiene preguntas provisionales que dependen de Estatutos OAPGT por confirmar.
     // Excluirlas de la práctica evaluable hasta concluir la verificación jurídica.
-    if (activeCall.id === 'diputacion-toledo-auxiliar-c2-2026' && tema === 6) return [];
-    const path = `${activeCall.contentRoot}/tema-${String(tema).padStart(2, '0')}/preguntas.json`;
+    if (call.id === 'diputacion-toledo-auxiliar-c2-2026' && tema === 6) return [];
+    const path = `${call.contentRoot}/tema-${String(tema).padStart(2, '0')}/preguntas.json`;
     const response = await fetch(path, { cache: 'no-cache' });
     if (!response.ok) throw new Error(`No se pudo cargar el banco del tema ${tema}`);
     const payload = await response.json();
@@ -215,11 +216,11 @@ async function loadQuestionBanks() {
   return new Map(banks.flat().map(question => [question.id, question]));
 }
 
-async function loadExtraRepasos() {
+async function loadExtraRepasos(call = activeCall) {
   // Recursos creados por OpoWeb, diferentes de los bancos originales y de los simulacros.
   // Un fallo de esta carga opcional no debe impedir estudiar los tests históricos.
   extraRepasoErrors = [];
-  if (activeCall.id !== 'uc3m-auxiliar-administrativa-c2-2026') return [];
+  if (call.id !== 'uc3m-auxiliar-administrativa-c2-2026') return [];
   const sources = [
     { url: 'data/uc3m-repasos-complementarios-20261106.json', title: 'Repasos documentales de temas' },
     { url: 'data/uc3m-repaso-temas-13-20-20261106.json', title: 'Repaso final de los temas 13–20' },
@@ -245,7 +246,7 @@ async function loadExtraRepasos() {
         );
         if (preguntas.some(q =>
           !q.id || !q.pregunta || !Number.isInteger(q.tema) || q.tema < 1 ||
-          q.tema > activeCall.themeCount || q.opciones.length !== 4 ||
+          q.tema > call.themeCount || q.opciones.length !== 4 ||
           !Number.isInteger(q.correcta) || q.correcta < 0 || q.correcta > 3 ||
           !q.justificacion || !q.referencia
         )) throw new Error('Preguntas complementarias incompletas.');
@@ -311,7 +312,11 @@ function renderHub() {
     ${supuestos.supuestos.length ? `<section class="panel"><h2>Supuestos prácticos</h2><p class="search-count">Casos transversales con solución razonada y trazabilidad.</p><div class="practice-grid">${[...testCases, ...openCases].map(item => `<button class="practice-card" type="button" data-case="${item.id}"><span class="badge">Temas ${(item.temas || []).join(', ')}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join('')}</div></section>` : ''}
     ${simulacros.simulacros.length ? `<section class="panel"><h2>Simulacros transversales</h2><div class="practice-grid">${simulacros.simulacros.map(item => `<button class="practice-card" type="button" data-sim="${item.id}"><span class="badge">${item.preguntas.length} preguntas${item.preguntasReserva?.length ? ' + 5 de reserva' : ''} · ${item.duracionMinutos ? `${item.duracionMinutos} min` : "Duración oficial pendiente"}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.instrucciones || 'Corrección al finalizar.')}</p></button>`).join('')}</div></section>` : ''}`;
 
-  document.querySelector('#practice-call-selector')?.addEventListener('change', event => loadCall(event.target.value));
+  document.querySelector('#practice-call-selector')?.addEventListener('change', event => {
+    loadCall(event.target.value).catch(error => {
+      app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
+    });
+  });
   document.querySelector('#reset-progress')?.addEventListener('click', () => {
     if (confirm('¿Borrar el historial de esta convocatoria?')) {
       localStorage.removeItem(activeCall.progressKey);
@@ -460,27 +465,38 @@ function finishExercise(items, timerId, metadata) {
 }
 
 async function loadCall(id) {
-  activeCall = CALLS.find(call => call.id === id) || CALLS[0];
-  localStorage.setItem(SELECTED_CALL_KEY, activeCall.id);
-  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(activeCall.id)}`);
-  document.title = `OpoWeb v2 · Práctica · ${activeCall.shortLabel}`;
+  const requestId = ++latestCallLoad;
+  const call = CALLS.find(candidate => candidate.id === id) || CALLS[0];
+  activeCall = call;
+  localStorage.setItem(SELECTED_CALL_KEY, call.id);
+  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(call.id)}`);
+  document.title = `OpoWeb v2 · Práctica · ${call.shortLabel}`;
   app.innerHTML = '<section class="panel intro"><h2>Cargando entrenamiento…</h2></section>';
   const [programmeResponse, supuestosResponse, simulacrosResponse, banks] = await Promise.all([
-    fetch(activeCall.programmeUrl, { cache: 'no-cache' }),
-    activeCall.supuestosUrl ? fetch(activeCall.supuestosUrl, { cache: 'no-cache' }) : Promise.resolve(null),
-    activeCall.simulacrosUrl ? fetch(activeCall.simulacrosUrl, { cache: 'no-cache' }) : Promise.resolve(null),
-    loadQuestionBanks()
+    fetch(call.programmeUrl, { cache: 'no-cache' }),
+    call.supuestosUrl ? fetch(call.supuestosUrl, { cache: 'no-cache' }) : Promise.resolve(null),
+    call.simulacrosUrl ? fetch(call.simulacrosUrl, { cache: 'no-cache' }) : Promise.resolve(null),
+    loadQuestionBanks(call)
   ]);
+  // Los resultados de una convocatoria anterior nunca deben sustituir a la
+  // selección más reciente si las solicitudes terminan fuera de orden.
+  if (requestId !== latestCallLoad) return;
   if (!programmeResponse.ok || (supuestosResponse && !supuestosResponse.ok) || (simulacrosResponse && !simulacrosResponse.ok)) throw new Error('No se pudieron cargar todos los recursos de práctica');
-  [programme, supuestos, simulacros] = await Promise.all([
+  const [loadedProgramme, loadedSupuestos, loadedSimulacros] = await Promise.all([
     programmeResponse.json(),
     supuestosResponse ? supuestosResponse.json() : Promise.resolve({ supuestos: [] }),
     simulacrosResponse ? simulacrosResponse.json() : Promise.resolve({ simulacros: [] })
   ]);
+  if (requestId !== latestCallLoad) return;
+  const loadedRepasos = await loadExtraRepasos(call);
+  if (requestId !== latestCallLoad) return;
+  programme = loadedProgramme;
+  supuestos = loadedSupuestos;
+  simulacros = loadedSimulacros;
   questionMap = banks;
-  extraRepasos = await loadExtraRepasos();
+  extraRepasos = loadedRepasos;
   const selectedTheme = Number(new URLSearchParams(location.search).get('tema'));
-  if (selectedTheme >= 1 && selectedTheme <= activeCall.themeCount) startThemeTest(selectedTheme);
+  if (selectedTheme >= 1 && selectedTheme <= call.themeCount) startThemeTest(selectedTheme);
   else renderHub();
 }
 
