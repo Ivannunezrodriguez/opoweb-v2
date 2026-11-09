@@ -22,7 +22,13 @@ for (const caso of casos) {
   if (tema.estado === 'AUDITADO') {
     assert.equal(registro.estadoEvidencia, 'VERIFICADO', caso.id + ': marcado AUDITADO sin cierre verificable');
     assert.match(registro.documentoPrimario ?? '', /^https:\/\//, caso.id + ': falta fuente primaria');
-    assert.match(registro.fechaPublicacionPrimaria ?? '', /^2026-\d{2}-\d{2}$/, caso.id + ': falta fecha primaria');
+    if (caso.id === 'OLIAS-T13') {
+      assert.equal(registro.fechaReferenciaPrimaria, '2026-06-30', 'Olías: fecha de referencia INE');
+      assert.match(registro.inventarioVerificado ?? '', /^content\//, 'Olías: inventario oficial ausente');
+      assert.ok(existsSync(resolve(root, registro.inventarioVerificado)), 'Olías: no existe inventario');
+    } else {
+      assert.match(registro.fechaPublicacionPrimaria ?? '', /^2026-\d{2}-\d{2}$/, caso.id + ': falta fecha de publicación');
+    }
     assert.match(registro.actaCierre ?? '', /^audit\//, caso.id + ': falta acta individual');
     assert.ok(existsSync(resolve(root, registro.actaCierre)), caso.id + ': acta inexistente');
   } else {
