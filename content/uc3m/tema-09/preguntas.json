@@ -14,7 +14,7 @@
       "correcta": 1,
       "justificacion": "Guardar actualiza el archivo abierto; Guardar como permite crear otra versión con diferente nombre, ubicación o formato.",
       "trampa": "No debe confundirse la creación de una copia con el guardado ordinario.",
-      "referencia": "Manual, apartado 1.1",
+      "referencia": "Manual, apartado 1.1 · Documentación del fabricante: https://support.microsoft.com/es-es/word",
       "respuestaLiteral": "Guardar conserva los cambios en el archivo actual y Guardar como permite cambiar nombre, ubicación o formato"
     },
     {
@@ -29,7 +29,7 @@
       "correcta": 1,
       "justificacion": "El salto de sección permite aplicar configuraciones distintas en partes del mismo documento.",
       "trampa": "Un salto de página no permite por sí solo cambiar la configuración de la sección.",
-      "referencia": "Manual, apartado 3",
+      "referencia": "Manual, apartado 3 · Documentación del fabricante: https://support.microsoft.com/es-es/word/insert-a-section-break",
       "respuestaLiteral": "Para cambiar dentro del documento aspectos como orientación, márgenes o encabezados"
     },
     {
@@ -44,7 +44,7 @@
       "correcta": 2,
       "justificacion": "La sangría francesa mantiene la primera línea en el margen y desplaza las restantes.",
       "trampa": "Es la operación inversa a la sangría de primera línea.",
-      "referencia": "Manual, apartado 2",
+      "referencia": "Manual, apartado 2 · Documentación del fabricante: https://support.microsoft.com/es-es/word",
       "respuestaLiteral": "Desplaza todas las líneas salvo la primera"
     },
     {
@@ -59,7 +59,7 @@
       "correcta": 3,
       "justificacion": "El signo dólar fija tanto la columna como la fila.",
       "trampa": "Las referencias mixtas fijan solo uno de los dos componentes.",
-      "referencia": "Manual, apartado 5",
+      "referencia": "Manual, apartado 5 · Documentación del fabricante: https://support.microsoft.com/es-es/excel/switch-between-relative-absolute-and-mixed-references",
       "respuestaLiteral": "$A$1"
     },
     {
@@ -74,7 +74,7 @@
       "correcta": 2,
       "justificacion": "#¡REF! aparece cuando una fórmula contiene una referencia inválida, a menudo por eliminación de celdas.",
       "trampa": "#N/A corresponde normalmente a un valor no disponible.",
-      "referencia": "Manual, apartado 6",
+      "referencia": "Manual, apartado 6 · Documentación del fabricante: https://support.microsoft.com/es-es/excel/how-to-correct-a-ref-error",
       "respuestaLiteral": "Referencia no válida o eliminada"
     },
     {
@@ -89,7 +89,7 @@
       "correcta": 1,
       "justificacion": "CCO envía copia oculta y evita que las direcciones sean visibles para los demás destinatarios.",
       "trampa": "CC mantiene visibles las direcciones.",
-      "referencia": "Manual, apartado 8",
+      "referencia": "Manual, apartado 8 · Documentación del fabricante: https://support.google.com/mail/",
       "respuestaLiteral": "CCO"
     },
     {
@@ -104,7 +104,7 @@
       "correcta": 0,
       "justificacion": "Archivar quita el mensaje de la bandeja de entrada sin borrarlo.",
       "trampa": "Eliminar lo envía a la papelera; no es lo mismo que archivar.",
-      "referencia": "Manual, apartado 8",
+      "referencia": "Manual, apartado 8 · Documentación del fabricante: https://support.google.com/mail/answer/9259770?hl=es",
       "respuestaLiteral": "Sale de la bandeja de entrada pero sigue conservado"
     },
     {
@@ -119,7 +119,7 @@
       "correcta": 3,
       "justificacion": "El editor puede modificar el contenido, sin perjuicio de las restricciones adicionales configuradas.",
       "trampa": "Comentador puede opinar, pero no editar directamente el contenido.",
-      "referencia": "Manual, apartado 10",
+      "referencia": "Manual, apartado 10 · Documentación del fabricante: https://support.google.com/drive/answer/2494822?hl=es",
       "respuestaLiteral": "Editor"
     },
     {
@@ -134,7 +134,7 @@
       "correcta": 3,
       "justificacion": "Las sugerencias no se incorporan definitivamente hasta que se aceptan.",
       "trampa": "No debe confundirse con el modo Edición.",
-      "referencia": "Manual, apartado 11",
+      "referencia": "Manual, apartado 11 · Documentación del fabricante: https://support.google.com/docs/answer/6239410?hl=es",
       "respuestaLiteral": "Propone cambios que pueden aceptarse o rechazarse"
     },
     {
@@ -149,7 +149,7 @@
       "correcta": 0,
       "justificacion": "Pueden existir diferencias de compatibilidad entre Excel y Sheets.",
       "trampa": "La colaboración no garantiza compatibilidad total de funciones y formatos.",
-      "referencia": "Manual, apartado 12",
+      "referencia": "Manual, apartado 12 · Documentación del fabricante: https://support.google.com/docs/",
       "respuestaLiteral": "Fórmulas, formatos, separadores, gráficos y compatibilidad de funciones"
     },
     {
@@ -164,7 +164,7 @@
       "correcta": 2,
       "justificacion": "La respuesta provisional permite indicar que aún no se confirma la asistencia.",
       "trampa": "Aceptar confirma la asistencia.",
-      "referencia": "Manual, apartado 13",
+      "referencia": "Manual, apartado 13 · Documentación del fabricante: https://support.google.com/calendar/",
       "respuestaLiteral": "Tal vez o provisional"
     },
     {
@@ -179,7 +179,7 @@
       "correcta": 0,
       "justificacion": "La revisión previa reduce errores de seguridad, privacidad y edición.",
       "trampa": "Un enlace público puede exponer información restringida.",
-      "referencia": "Manual, apartado 14",
+      "referencia": "Manual, apartado 14 · Documentación del fabricante: https://support.google.com/drive/answer/2494822?hl=es",
       "respuestaLiteral": "Revisar destinatarios, permisos, datos personales, comentarios y metadatos"
     }
   ],
@@ -193,5 +193,14 @@
     "alternativasPreservadas": 48,
     "clavesModificadas": 0,
     "aprobacionUsuario": false
+  },
+  "controlAuditoriaTecnica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_TECNICO_EDITORIAL",
+    "acta": "audit/UC3M_T09_AUDITORIA_TECNICO_EDITORIAL_2026-11-09.md",
+    "preguntasOriginales": 12,
+    "clavesYOpcionesConservadas": true,
+    "fuentesFabricanteEnCadaPregunta": true,
+    "certificacionIntegral": false
   }
 }
