@@ -30,7 +30,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261109-23",
       "verifiedAt": "2026-11-09",
       "firstSeen": "2026-11-09",
-      "isNew": true,
+      "isNew": false,
       "position": "técnico",
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -66,7 +66,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115093;0&insert_number=5111&insert_year=2026",
       "verifiedAt": "2026-11-09",
       "firstSeen": "2026-11-09",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -101,7 +101,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115128;0&insert_number=5145&insert_year=2026",
       "verifiedAt": "2026-11-09",
       "firstSeen": "2026-11-09",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -6916,8 +6916,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "12f33f78e4771175a1de",
@@ -7051,8 +7052,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "22ab52136f354fa1e350",
@@ -7084,8 +7086,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "d3352c9cc11da9b2b487",
@@ -7117,8 +7120,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "6e3bbd1fa1cb195b23f7",
@@ -7526,8 +7530,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "e456466d1369409678b0",
@@ -7559,8 +7564,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "f01473a78cfc7a7c55af",
@@ -7592,8 +7598,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "9cd1286f654640bfd580",
@@ -7625,8 +7632,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "bf3f670ea865b63042ea",
@@ -7658,8 +7666,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "0b62556ee0b8b9eda487",
@@ -7691,8 +7700,9 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-02",
-      "detailsStatus": "HTTP 404"
+      "detailsCheckedAt": "2026-11-09",
+      "detailsStatus": "HTTP 404",
+      "enrichmentVersion": 2
     },
     {
       "id": "ae88d9fd2c8560045801",
@@ -41057,44 +41067,43 @@
     {
       "source": "DIRECT",
       "ok": false,
-      "checkedAt": "2026-11-09T13:54:02.525Z"
+      "checkedAt": "2026-11-09T23:46:24.638Z"
     },
     {
       "source": "BOE",
       "ok": true,
-      "checkedAt": "2026-11-09T13:54:02.525Z"
+      "checkedAt": "2026-11-09T23:46:24.638Z"
     },
     {
       "source": "BOCM",
       "ok": true,
-      "checkedAt": "2026-11-09T13:54:02.525Z"
+      "checkedAt": "2026-11-09T23:46:24.638Z"
     },
     {
       "source": "BOP Toledo",
       "ok": true,
-      "checkedAt": "2026-11-09T13:54:02.525Z"
+      "checkedAt": "2026-11-09T23:46:24.638Z"
     },
     {
       "source": "DOCM",
       "ok": true,
-      "checkedAt": "2026-11-09T13:54:02.525Z"
+      "checkedAt": "2026-11-09T23:46:24.638Z"
     },
     {
       "source": "PAG",
       "ok": true,
-      "checkedAt": "2026-11-09T13:54:02.525Z"
+      "checkedAt": "2026-11-09T23:46:24.638Z"
     }
   ],
   "directSourceStatus": [],
   "enrichmentStatus": {
-    "attempted": 70,
-    "read": 4,
-    "withDetails": 3,
-    "failures": 66,
+    "attempted": 31,
+    "read": 3,
+    "withDetails": 2,
+    "failures": 28,
     "failureReasons": {
-      "PDF_NO_EXTRAIBLE": 53,
-      "OTRO": 4,
-      "HTTP 404": 9
+      "PDF_NO_EXTRAIBLE": 18,
+      "HTTP 404": 10
     },
     "asOf": "2026-11-09",
     "explanation": "Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes."
