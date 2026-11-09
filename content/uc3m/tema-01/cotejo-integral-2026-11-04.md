@@ -112,7 +112,7 @@
 
 > ⚠️ **¡Foco Examen!:** Las diputaciones son órganos de gobierno provincial, no una categoría territorial distinta de la provincia.
 
-### UC3M-T01-008 — Tras la reforma constitucional de 2026, ¿qué regla se aplica a Ibiza y Formentera en la elección de senadores?
+### UC3M-T01-008 — Según el artículo 69.3 reformado en 2026, ¿qué regla se establece para Ibiza y Formentera, con eficacia electoral diferida por la disposición transitoria única?
 
 **Fundamento:** **CE 69.3, reforma 19/05/2026 y disposición transitoria**. **Respuesta: D**. **Literal:** Cada isla constituye una circunscripción y elige un senador.
 
