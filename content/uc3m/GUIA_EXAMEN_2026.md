@@ -410,3 +410,23 @@ En los **temas 18 y 19**, cada pregunta identifica ahora su nivel de referencia:
 Los temas **T10, T15, T16, T18 y T19** permanecen `EN_REVISION_USUARIO`. En el banco se han incluido advertencias de fuente pendiente, sin alterar sus soluciones ni presentarlas como jurídicamente certificadas.
 
 > ⚠️ **¡Foco Examen!:** **Documento O** y **ADO** requieren verificar las Normas Básicas UC3M del ejercicio concreto; un manual secundario puede ser útil para estudiar, pero **no justifica afirmar certificación jurídica completa**.
+
+
+## Cierre primario de T18 y T19 — actualización **09/11/2026**
+
+**Balance ACTUAL del manifiesto: 17/20 temas `AUDITADO` y 3/20 `EN_REVISION_USUARIO` (T10, T15 y T16).** Los recuentos anteriores de 15 y menos son registros históricos de fases previas.
+
+Se ha accedido directamente al [**Volumen I oficial, Presupuesto UC3M 2026, Normas Básicas de Gestión**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view) (**PDF de 3.807.877 bytes**) y cotejado [**el banco de 24 preguntas y su acta primaria**](../../audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md).
+
+| Concepto de examen | Artículo y dato oficial |
+|---|---|
+| Vinculación de créditos | **Art. 5**: regla por **concepto dentro de centro/programa**; excepciones capítulos **I, II y VI** a nivel **capítulo** |
+| Transferencia de crédito **capital → corriente** | **Art. 6**: **Consejo Social** y autorización previa del **Gobierno de la Comunidad de Madrid** |
+| Seguimiento de facturas no cobradas | **Art. 14.2**: **30, 60, 90 y 120 días**; reunión del **Grupo de Seguimiento** a los **120 días** |
+| Documentos de gasto | **Art. 15.2.1**: **RC** retención, **A** autorización, **D** compromiso, **O** propuesta de pago y **ADO** acumulación **A+D+O** |
+| Sistema asimilado a caja fija | **Art. 16.2**: gasto **hasta 5.000 € sin IVA** |
+| Anticipos a justificar | **Art. 16.3**: **máximo 12.000 €**, justificación en **1 mes** |
+
+> ⚠️ **¡Foco Examen!:** **O** significa **propuesta de pago**, nunca «pago material». **5.000 €** es límite del sistema asimilado a caja fija; **12.000 €** es límite del anticipo a justificar, que debe justificarse en **1 mes**.
+
+El T18 y el T19 **ya no están bloqueados por falta de acceso al Volumen I**. Siguen pendientes las pruebas **CI completo, navegador E2E y accesibilidad** para una certificación integral de OpoWeb, y la fecha de publicación de las listas definitivas para resolver cuestiones controvertidas de T10 y T16.
