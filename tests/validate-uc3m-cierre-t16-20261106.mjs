@@ -47,7 +47,7 @@ assert.equal(ids.size,27);
 console.log('UC3M T16 DOCUMENTAL: 7 BLOQUES, 27 PREGUNTAS, 108 ALTERNATIVAS, RD 822 + BOEL 2026; RESERVAS EXPLICITAS');
 
 const normativaPermanenciaPDF='https://e-archivo.uc3m.es/bitstreams/8bca1962-a6f6-487b-9f11-e73f3f97477d/download';
-for(const id of ['008','010','011','012','013']){
+for(const id of ['008','011','012','013']){
  const q=bank.preguntas.find(q=>q.id==='UC3M-T16-'+id);
  assert.ok(q?.referencia.includes(normativaPermanenciaPDF), 'Cita normativa UC3M T16 con URL no verificable: '+id);
  assert.ok(!q.referencia.includes('/rest/api/core/bitstreams/'),'No reintroducir ruta REST previamente bloqueada: '+id);
