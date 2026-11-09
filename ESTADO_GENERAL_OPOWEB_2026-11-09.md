@@ -81,6 +81,26 @@ Se examinó el fallo del [workflow del commit `d9c468d`](https://github.com/Ivan
 
 **Resultado acreditado:** [**Validar OpoWeb v2**, ejecución 42577252425, commit `518e2326d5f2`](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42577252425): **success**, **67 pasos correctos, 0 fallidos**. Los pasos incluyen pruebas por convocatoria, sintaxis, integridad y controles de práctica; ese flujo **no es una certificación E2E ni legal**. Los cambios posteriores al SHA indicado deben volver a validarse.
 
+### 3.2. OpoRadar: disponibilidad y calidad de fuentes
+
+El radar de empleo dispone de [**perfil configurable**](data/radar-profile.json), [**inventario de fuentes**](data/radar-sources.json), lógica de rastreo y [**workflow programado**](.github/workflows/radar-empleo.yml) a las **05:17 y 15:17 UTC** (dos veces al día; horario de GitHub Actions sin garantía de minuto exacto). Incluye BOE, BOP Toledo, DOCM, BOCM, municipios de Toledo y sur de Madrid, universidades y bolsas. Está configurado para avisar de **nuevas oportunidades**, no hacer seguimiento de listas y resultados. La entrega de correos depende de secretos y servicios externos cuya configuración efectiva no se ha verificado en esta inspección.
+
+**Medición de la última instantánea guardada** en [**radar-direct-latest.json**](data/radar-direct-latest.json), sin atribuirle fecha de ejecución no expresada por ese archivo:
+
+| Estados de fuente | Cantidad | Interpretación |
+|---|---:|---|
+| **READABLE** | **42** | Fuente leída de forma suficiente para esta clasificación |
+| **PARTIAL** | **118** | Lectura parcial, limitaciones de rutas o enlaces |
+| **ERROR** | **46** | Error de acceso o recuperación |
+| **Total** | **206** | Estados registrados, no 206 convocatorias válidas |
+| **Entradas nuevas en ese archivo** | **0** | No demuestra ausencia de nuevas oportunidades reales |
+
+**Riesgo concreto:** **164/206** estados de fuente (**118 parciales + 46 errores**) no representan cobertura completa. Los errores incluyen fuentes municipales y bolsas; por tanto, **no se puede prometer detección exhaustiva de ofertas**. Hacen falta diagnóstico por fuente, cobertura de páginas paginadas/anuncios, medición de éxitos y verificación del envío de alertas en una ejecución real. La página radar y el workflow pueden funcionar técnicamente mientras la cobertura externa siga siendo incompleta.
+
+### 3.3. Despliegue y validador principal
+
+El commit `609ea760979d` (registro integral de auditoría) cuenta con [**GitHub Actions: validación success**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42577745317) y [**GitHub Pages: despliegue success**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42577744307). Es prueba de ejecución de los **workflows**, **no** de navegación manual completa del portal. Los commits posteriores requieren su correspondiente resultado.
+
 ## 4. Problemas y riesgos ordenados por prioridad
 
 | Prioridad | Riesgo | Impacto | Condición de cierre |
@@ -92,6 +112,7 @@ Se examinó el fallo del [workflow del commit `d9c468d`](https://github.com/Ivan
 | **P1** | Ausencia de auditoría jurídica final por distractor y epígrafe | Riesgo de errores test aun con JSON válido | Control literal de 121 bancos y todos los apartados |
 | **P1** | Sin pruebas E2E integrales en móvil y navegador | Errores de navegación, almacenamiento, renderizado | Plan de prueba real de temario, práctica y radar |
 | **P2** | Offline desactivado | Estudio sin red no garantizado | Diseñar y probar estrategia de servicio offline |
+| **P1** | OpoRadar con **46 fuentes ERROR** y **118 PARTIAL** en instantánea registrada | Pérdida de oportunidades detectables | Mejorar recuperación, medir cobertura por fuente y comprobar avisos | 
 | **P2** | README, indicadores y textos de estado potencialmente desfasados | Percepción falsa de cierre | Sincronizar paneles y documentación con manifiestos |
 
 ## 5. Siguiente secuencia recomendada
