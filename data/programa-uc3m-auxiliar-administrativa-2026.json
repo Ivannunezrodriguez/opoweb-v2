@@ -457,12 +457,12 @@
       "numero": 14,
       "titulo": "Ley Orgánica 2/2023 del Sistema Universitario (II): estudiantado y régimen específico de las universidades públicas: régimen económico-financiero, PDI y PTGAS.",
       "bloque": "gestion-universitaria",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/uc3m/tema-14/manual.md",
       "fuentes": "content/uc3m/tema-14/fuentes.md",
       "matriz": "content/uc3m/tema-14/matriz.json",
       "preguntas": "content/uc3m/tema-14/preguntas.json",
-      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
+      "estadoRevisionDocumental": "AUDITADO_JURIDICO_EDITORIAL_CON_RESERVA_FUNCIONAL",
       "evidenciaRevision20261108": {
         "fecha": "2026-11-08",
         "base": "content/uc3m/CIERRE_DOCUMENTAL_T13_T14_20261106.md",
@@ -472,7 +472,27 @@
         "corteNormativoPrimario": "PENDIENTE",
         "pruebaNavegador": false,
         "certificacionIntegral": false
-      }
+      },
+      "revisadoEl": "2026-11-09",
+      "actaAuditoria": "audit/UC3M_T14_AUDITORIA_LOSU_II_2026-11-09.md",
+      "certificacionIntegral": false,
+      "auditoriaJuridica20261109": {
+        "fecha": "2026-11-09",
+        "norma": "LOSU LO 2/2023",
+        "ultimaActualizacionBOE": "2024-08-02",
+        "preguntas": 14,
+        "alternativas": 56,
+        "apartados": 12,
+        "fuentesPrimariasPorPregunta": true,
+        "alertaRD8552026": "Publicado 22/10/2026, vigencia 23/10/2026: exigibilidad sujeta al corte UC3M",
+        "certificacionIntegral": false,
+        "pruebaNavegadorE2E": false
+      },
+      "reservas": [
+        "Fecha primaria de publicación de resolución definitiva UC3M sin acreditar",
+        "RD 855/2026 posterior al corte probable, no mezclar en las preguntas del examen",
+        "CI E2E y accesibilidad sin ejecutar/verificar"
+      ]
     },
     {
       "numero": 15,
