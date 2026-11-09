@@ -98,6 +98,10 @@ function render(){
  const directPartial=directStatuses.filter(x=>x.status==='PARTIAL').length;
  const directErrors=directStatuses.filter(x=>x.status==='ERROR').length;
  const directHasGaps=directPartial+directErrors>0;
+ const directCrawl=data.directCrawl||{};
+ const crawlDate=typeof directCrawl.checkedAtUtc==='string' ? directCrawl.checkedAtUtc.slice(0,10) : '';
+ const crawlOld=!crawlDate||ageDays(crawlDate,new Date().toISOString().slice(0,10))>3;
+ const crawlUnavailable=directCrawl.available!==true;
  const directCoverage=directStatuses.length
    ?'Rastreo directo: '+directReadable+' legibles, '+directPartial+' parciales y '+directErrors+' con error ('+directStatuses.length+' estados).'
    :'El estado del rastreo municipal directo no está disponible.';
@@ -112,12 +116,13 @@ function render(){
  lowDocumentCoverage?'<p class="notice warning">Lectura parcial: se pudieron leer '+docsRead+' de '+docsAttempted+' documentos examinados. Los requisitos y plazos no publicados o inaccesibles siguen pendientes de verificar en la fuente oficial.</p>':'',
  directHasGaps?'<p class="notice warning">'+esc(directCoverage)+' El radar no cubre de forma completa todas estas fuentes; contrasta también las sedes y boletines oficiales.</p>':'',
  !directStatuses.length?'<p class="notice warning">'+esc(directCoverage)+' No se puede certificar cobertura municipal.</p>':'',
+ (crawlOld||crawlUnavailable)?'<p class="notice warning">Rastreo local: '+esc(crawlDate?day(crawlDate):'fecha no disponible')+'. '+(crawlUnavailable?'No consta una ejecución directa válida en la última actualización. ':'')+(crawlOld?'La medición local no está fechada o tiene más de 3 días. ':'')+'Verifica anuncios y plazos en sedes oficiales.</p>':'',
  '</div><div class="radar-stats">',
  '<div class="radar-stat"><strong>'+recent.length+'</strong><span>puestos detectados en 30 días</span></div>',
  '<div class="radar-stat"><strong>'+confirmed.length+'</strong><span>plazos con fecha publicada</span></div>',
  '<div class="radar-stat"><strong>'+actionable.length+'</strong><span>fichas con puesto identificado</span></div>',
  '<div class="radar-stat"><strong>'+all.filter(x=>!x.actionable&&!x.phaseFollowup).length+'</strong><span>anuncios incompletos por investigar (no enviados por email)</span></div></div>',
- '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Documentos oficiales leídos: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
+ '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Rastreo directo: <strong>'+esc(crawlDate?day(crawlDate):'fecha no disponible')+'</strong>. Webs únicas consultadas: <strong>'+esc(directCrawl.uniqueSources??'sin verificar')+'</strong>. Documentos oficiales leídos: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
  '<section class="panel"><div class="radar-controls">',
  '<label><span>Buscar puesto, localidad u organismo</span><input id="rq" type="search" value="'+esc(filters.q)+'" placeholder="Auxiliar, administrativo, Getafe, Toledo…"></label>',
  '<label><span>Ver</span><select id="rv"><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Todos los puestos detectados</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
