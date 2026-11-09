@@ -749,3 +749,41 @@ Un contrato de **consultoría intelectual** de **45.000 €** no puede acogerse 
 > ⚠️ **¡Foco Examen!:** **< 60.000 €** no basta para usar el **simplificado abreviado** cuando el objeto es una **prestación intelectual**.
 
 **Control editorial:** se amplían el manual, las fuentes y la matriz; no se han modificado los **12 ítems originales**, sus claves ni los simulacros. El cierre jurídico integral y la fecha de corte UC3M **base primera.7** continúan pendientes.
+
+
+## 35. Mesa de contratación: composición y prohibiciones — art. 326
+
+La [**LCSP, art. 326.1–6**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a3-38) atribuye a la **mesa de contratación** funciones de **asistencia técnica** al órgano de contratación; **no adjudica el contrato** por regla general. La mesa debe diferenciarse del **órgano de contratación**, que en los **Estatutos UC3M, art. 175**, es originariamente el **Rector**, sin perjuicio de las delegaciones vigentes.
+
+| Cuestión | Regla del **artículo 326** | Confusión habitual |
+|---|---|---|
+| Composición básica | **Presidencia**, **vocales** y **Secretaría**; composición publicada en el **perfil de contratante** (**326.3**) | Considerar suficiente que exista una propuesta de mesa sin designación ni publicación |
+| Designación | Los miembros son nombrados por el **órgano de contratación** (**326.4**) | Atribuir nombramiento a la propia mesa |
+| Asesoramiento y control | Entre los vocales deben figurar perfiles de **asesoramiento jurídico** y **control económico-presupuestario**, conforme a **326.5** | Confundir a los técnicos asesores externos con miembros obligatorios |
+| Cargos públicos representativos y personal eventual | **No** pueden formar parte de la mesa **ni emitir informes de valoración de ofertas** (**326.5**) | Creer que pueden participar sin voto |
+| Personal funcionario interino | Solo puede integrar la mesa **cuando no existan funcionarios de carrera suficientemente cualificados y se acredite en el expediente** (**326.5**) | Interpretar que la interinidad impide siempre participar, o que basta con designarlo sin justificar la excepción |
+| Quien redactó documentación técnica del contrato | **No puede** formar parte de la mesa, **salvo los supuestos de la disposición adicional segunda** (**326.5**) | Confundir participación en la elaboración del pliego técnico con asesoramiento posterior permitido |
+| **Abierto simplificado ordinario** | Mesa válidamente constituida con **Presidente, Secretario, asesor jurídico y responsable de control económico-presupuestario**, bajo **326.6**, con las salvedades de la Ley | Trasladar esta composición mínima a toda contratación sin atender al procedimiento |
+| **Simplificado abreviado 159.6** | Constitución de la mesa **potestativa** (**326.1**) | Exigirla siempre porque exista procedimiento abierto |
+
+**Precisión:** el **artículo 326** regula las mesas de contratación de las **Administraciones Públicas**. La aplicación concreta a cada expediente UC3M debe encajar en su condición jurídica, sus reglas institucionales y el **procedimiento empleado**; no se extrapola sin más a un órgano distinto.
+
+### Supuesto práctico 7. Personal eventual
+
+Se propone como vocal de la mesa a una persona de **personal eventual** de la universidad. La propuesta es **contraria al artículo 326.5**; la prohibición alcanza también la **emisión de informes de valoración de ofertas**, no solamente el voto dentro de la mesa.
+
+> ⚠️ **¡Foco Examen!:** Personal **eventual** y **cargos públicos representativos**: **prohibición de integrar la mesa y de valorar ofertas**. Una función «sin voto» no elimina automáticamente la prohibición legal.
+
+### Supuesto práctico 8. Funcionario interino
+
+Un **funcionario interino** es designado para la mesa y no consta razón alguna sobre inexistencia de personal funcionario de carrera cualificado. **No basta el nombramiento**: el **artículo 326.5** exige acreditar en el expediente la circunstancia excepcional que permite esa participación.
+
+> ⚠️ **¡Foco Examen!:** El interino **puede** intervenir en la mesa, pero **solo excepcionalmente y con justificación en el expediente**. «Nunca» y «siempre» son ambos distractores.
+
+### Supuesto práctico 9. Mesa en abreviado
+
+En un procedimiento **159.6** de suministros se afirma que debe constituirse obligatoriamente mesa con **cuatro miembros mínimos** conforme al **326.6**. **Incorrecto**: el **326.1** establece que la constitución de mesa es **potestativa** en ese procedimiento. La composición del **326.6** no convierte la mesa en obligatoria.
+
+> ⚠️ **¡Foco Examen!:** **Composición válida** de una mesa y **obligatoriedad de constituirla** son reglas distintas; en el **159.6** la mesa es **potestativa**.
+
+**Alcance:** ampliación del apartado de organización de la contratación con base en **LCSP 326**. No cambia el banco principal, los simulacros ni la reserva general de fecha de corte jurídico UC3M.
