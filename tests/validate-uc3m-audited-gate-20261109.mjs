@@ -14,6 +14,18 @@ for (const topic of audited) {
   assert.ok(proof.includes('No es una certificación integral') || proof.includes('CERTIFICADO_INTEGRAL'), 'Acta sin reservas explícitas: T' + topic.numero);
   assert.equal(topic.auditoriaTecnica20261109?.certificacionIntegral ?? topic.certificacionIntegral, false);
 }
+const first = program.temas.find(topic => topic.numero === 1);
+assert.equal(first.estado, 'AUDITADO');
+assert.equal(json(first.matriz).estado, 'AUDITADO');
+const firstQuestions = json(first.preguntas).preguntas;
+assert.equal(firstQuestions.length, 12);
+for (const q of firstQuestions) {
+  assert.match(q.referencia, /https:\/\/www\.boe\.es\//, 'BOE original no enlazado en: ' + q.id);
+  assert.equal(q.respuestaLiteral, q.opciones[q.correcta], 'Clave literal incoherente: ' + q.id);
+}
+const insular = firstQuestions.find(q => q.id === 'UC3M-T01-008');
+assert.ok(insular.pregunta.includes('eficacia electoral diferida'));
+assert.ok(insular.justificacion.includes('primera') && insular.justificacion.includes('entrada en vigor'));
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
