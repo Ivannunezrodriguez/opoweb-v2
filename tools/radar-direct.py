@@ -144,7 +144,7 @@ def scan(source,old,activation,get_page=get):
     return {'entries':list({e['id']:e for e in entries}.values()),'state':{'pages':pages},'status':{'source':source['name'],'id':source['id'],'url':source['url'],'status':status,'pagesRead':read,'candidateLinks':matches,'unvisitedListingLinks':len(queue),'errors':errors,'baseline':not bool(old.get('pages'))}}
 
 def run(config,state,get_page=get):
-    sources=config['sources'];status=[]
+    sources=config['sources'];configured_count=len(sources);status=[]
     try:
         body,_=get_page(config['directoryUrl']);discovered=directory_sources(body,config['directoryUrl'])
         if not discovered:raise ValueError('No municipal websites parsed')
@@ -163,6 +163,7 @@ def run(config,state,get_page=get):
             continue
         unique_sources[source['id']]=source
     sources=list(unique_sources.values())
+    unique_count=len(sources)
     old=state.get('sources',{});updated=dict(old);entries=[]
     with concurrent.futures.ThreadPoolExecutor(max_workers=8) as pool:
         futures={pool.submit(scan,s,old.get(s['id'],{}),state.get('activatedAt','2026-09-28'),get_page):s for s in sources}
@@ -175,11 +176,17 @@ def run(config,state,get_page=get):
             if len(status)%20==0:print(f'Direct radar: {len(status)-1}/{len(sources)} sources checked',file=sys.stderr,flush=True)
     # Same official URL in two listings is one candidate.
     entries=list({e['id']:e for e in entries}.values())
-    return {'entries':entries,'sourceStatus':status}, {'schemaVersion':1,'activatedAt':state.get('activatedAt','2026-09-28'),'sources':updated}
+    # Explicit snapshot timestamp and denominators. A stale committed
+    # snapshot must never be confused with a post-fix live crawl.
+    result={'entries':entries,'sourceStatus':status,
+            'checkedAtUtc':dt.datetime.now(dt.timezone.utc).isoformat(),
+            'configuredSources':configured_count,'uniqueSources':unique_count,
+            'sharedSourceAliases':configured_count-unique_count}
+    return result, {'schemaVersion':1,'activatedAt':state.get('activatedAt','2026-09-28'),'sources':updated}
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--config',default='data/radar-sources.json');p.add_argument('--state',default='data/radar-direct-state.json');p.add_argument('--output',default='data/radar-direct-latest.json');args=p.parse_args()
     config=json.loads(Path(args.config).read_text());state=json.loads(Path(args.state).read_text()) if Path(args.state).exists() else {}
     result,state=run(config,state)
     Path(args.state).write_text(json.dumps(state,ensure_ascii=False,indent=2)+'\n');Path(args.output).write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-    print(json.dumps({'sources':len(result['sourceStatus']),'newCandidates':len(result['entries']),'readable':sum(x['status']=='READABLE' for x in result['sourceStatus']),'partial':sum(x['status']=='PARTIAL' for x in result['sourceStatus']),'errors':sum(x['status']=='ERROR' for x in result['sourceStatus'])}))
+    print(json.dumps({'checkedAtUtc':result['checkedAtUtc'],'sources':len(result['sourceStatus']),'configuredSources':result['configuredSources'],'uniqueSources':result['uniqueSources'],'sharedSourceAliases':result['sharedSourceAliases'],'newCandidates':len(result['entries']),'readable':sum(x['status']=='READABLE' for x in result['sourceStatus']),'partial':sum(x['status']=='PARTIAL' for x in result['sourceStatus']),'errors':sum(x['status']=='ERROR' for x in result['sourceStatus'])}))
