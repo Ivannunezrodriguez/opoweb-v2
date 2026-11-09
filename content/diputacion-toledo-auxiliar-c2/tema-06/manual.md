@@ -1,5 +1,8 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 6
 
+> **ACTUALIZACIÓN DOCUMENTAL PRIORITARIA — 09/11/2026.** Recibida y leída una **recopilación de 20 páginas de los Estatutos del OAPGT hasta la reforma de 2011** (SHA-256 `835013e5925a6342178c744449009c431b910d3a82b42000d6dd0aa605f892fb`). El **articulado 1–30 y 8 bis**, disposiciones, composición del **Consejo Rector**, quórums, **mayorías**, competencias y plazos **ya están disponibles** en [guía completa de extracción y contraste](estatutos-oapgt-texto-integro-1996-2011.md). Por tanto, todos los avisos inferiores que afirman «texto íntegro no localizado» son **históricos y están superados**. Aún falta acreditar **eficacia definitiva de reforma inicial 2004**, corrección 1996, ausencia de reformas posteriores y cierre de **Acuerdo Regulador 2023/2025/2026**. **El tema completo sigue en revisión**, sin certificar vigencia estatutaria integral ni E2E.
+
+
 > **Estado editorial operativo (02/11/2026): BORRADOR — APLAZADO_HASTA_EL_FINAL.** La documentación del OAPGT y el acuerdo laboral siguen **incompletos**. Decisión editorial del **29/10/2026**: abordar este tema **después de los temas 1–5 y 7–20**, sin declararlo aprobado. Estado y cola: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
 
 **Estado editorial: BORRADOR PARCIAL — DOCUMENTACIÓN OFICIAL EN LOCALIZACIÓN. NO APTO COMO TEMA COMPLETO DE EXAMEN.**
