@@ -365,3 +365,15 @@ Los **9 estados AUDITADO** acreditan revisión jurídico-editorial o técnico-ed
 > ⚠️ **¡Foco Examen!:** **25 % de estudiantes en Claustro** es la regla de la **LOSU**; **50 puestos** era una composición de los Estatutos originales de **2003**. **No** responder con el reparto antiguo como si fuese el porcentaje legal vigente.
 
 **Certificación integral:** aún pendiente de CI final satisfactoria, E2E, accesibilidad y fecha primaria del corte.
+
+
+## T16/T17 — anulación judicial y admisión, actualización **09/11/2026**
+
+El manifiesto UC3M tiene ahora **14/20 temas AUDITADO** (**T1–T9, T11–T14 y T17**) y **6/20 EN_REVISION_USUARIO** (**T10, T15, T16, T18, T19 y T20**). Los números históricos anteriores corresponden a fases previas.
+
+- **T17 — AUDITADO:** [**acta de RD 534/2024 y RD 535/2026**](../../audit/UC3M_T17_AUDITORIA_ACCESO_ADMISION_2026-11-09.md), **12 preguntas** y **48 alternativas**. El [RD 535/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14333) modificó el artículo **23.2** para asignar **5 puntos** a titulados superiores sin nota media por homologación/equivalencia (**vigente 22/07/2026**). La [UC3M](https://www.uc3m.es/grado/admision/solicitud/preinscripcion) confirma **hasta 12 estudios** en una preinscripción única de universidades públicas de Madrid, curso **2026/27**.
+- **T16 — EN_REVISION_USUARIO:** la [**sentencia TS de 06/10/2026, publicada 23/10/2026**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22083) anuló el **RD 905/2025**, que había modificado el **art. 22.4 del RD 822/2021**. La nulidad **no afecta al RD 822/2021 entero**. Se ha incorporado tabla de fechas en el [manual T16](tema-16/manual.md), pero su interpretación respecto al corte de la base **primera.7** no puede cerrarse sin prueba primaria de la fecha exacta de publicación de listas definitivas.
+
+> ⚠️ **¡Foco Examen!:** **5 puntos** se aplica a Técnicos Superiores **sin nota media por equivalencia u homologación**, no a cualquier titulado superior. La sentencia publicada el **23/10/2026** anuló **RD 905/2025**, **no todo RD 822/2021**.
+
+**Certificación integral sigue pendiente:** comprobar el último CI, navegador real E2E, accesibilidad y corte normativo acreditado.
