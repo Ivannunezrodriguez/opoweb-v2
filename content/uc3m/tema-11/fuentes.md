@@ -66,3 +66,10 @@ Fecha de revisión editorial: 22 de julio de 2026.
 **Desarrollados dos supuestos nuevos** y contrastado el texto legal primario: [RD 364/1995](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729) y [Ley 53/1984](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151), especialmente reconocimiento **previo** de compatibilidad para actividad privada (art. 14).
 
 **Estado:** cobertura documental de **12 apartados** con banco **12 preguntas/48 alternativas** conservado. **No** se considera aprobación del usuario ni certificación funcional; queda reserva de fecha exacta de corte legal de base primera.7 UC3M.
+
+
+## Acta de auditoría de ámbito y compatibilidades — 09/11/2026
+
+[**Acta jurídica del Tema 11**](../../../audit/UC3M_T11_AUDITORIA_INGRESO_PROVISION_INCOMPATIBILIDADES_2026-11-09.md). Las **12 preguntas originales** se cotejan con [**RD 364/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-8729), [**Ley 53/1984**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-151) y [**TREBEP**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719). Estado documental **AUDITADO**; la certificación funcional y E2E **no** está acreditada.
+
+> ⚠️ **¡Foco Examen!:** **Ingreso** no es **provisión**, y el reglamento AGE no sustituye automáticamente la normativa específica de la **UC3M**.
