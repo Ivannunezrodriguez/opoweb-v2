@@ -1,5 +1,7 @@
 # Tema 3. Ley 39/2015 (II)
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta de cotejo y reservas**](../../../audit/UC3M_T03_AUDITORIA_LEY39_2026-11-09.md). **No es CERTIFICADO_INTEGRAL**: aprobación de usuario, pruebas de navegador/accesibilidad y CI definitivo siguen pendientes.
+
 > Epígrafe oficial: procedimiento administrativo común y revisión de los actos en vía administrativa.
 
 ## 1. Derechos del interesado
