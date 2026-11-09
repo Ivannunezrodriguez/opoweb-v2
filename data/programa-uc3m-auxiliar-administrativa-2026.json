@@ -552,12 +552,12 @@
       "numero": 17,
       "titulo": "Real Decreto 534/2024 sobre acceso y admisión a Grado; regulación y normativa de acceso y admisión en estudios oficiales de la UC3M.",
       "bloque": "gestion-universitaria",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/uc3m/tema-17/manual.md",
       "fuentes": "content/uc3m/tema-17/fuentes.md",
       "matriz": "content/uc3m/tema-17/matriz.json",
       "preguntas": "content/uc3m/tema-17/preguntas.json",
-      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
+      "estadoRevisionDocumental": "AUDITADO_JURIDICO_EDITORIAL_CON_RESERVA_FUNCIONAL",
       "evidenciaRevision20261108": {
         "fecha": "2026-11-08",
         "acta": "content/uc3m/CIERRE_DOCUMENTAL_T17_20261106.md",
@@ -574,7 +574,26 @@
         "pruebaNavegadorE2E": false,
         "cotejoJuridicoIntegral": false,
         "certificacionIntegral": false
-      }
+      },
+      "revisadoEl": "2026-11-09",
+      "actaAuditoria": "audit/UC3M_T17_AUDITORIA_ACCESO_ADMISION_2026-11-09.md",
+      "certificacionIntegral": false,
+      "auditoriaJuridica20261109": {
+        "fecha": "2026-11-09",
+        "norma": "RD 534/2024 mod. RD 535/2026",
+        "ultimaActualizacionBOE": "2026-07-02",
+        "preguntas": 12,
+        "alternativas": 48,
+        "fuentePrimaria": "BOE-A-2024-11858",
+        "fuenteInstitucional": "UC3M preinscripcion 2026/27",
+        "certificacionIntegral": false,
+        "pruebaNavegadorE2E": false
+      },
+      "reservas": [
+        "Fecha exacta publicación resolución definitiva UC3M sin prueba primaria",
+        "El reglamento de Doctorado y la admisión propia se deben mantener separados",
+        "CI completo, E2E y accesibilidad no acreditados"
+      ]
     },
     {
       "numero": 18,
