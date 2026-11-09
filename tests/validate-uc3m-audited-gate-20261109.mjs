@@ -49,6 +49,21 @@ for (const q of privateBank) {
 const breach = privateBank.find(q => q.id === 'UC3M-T06-011');
 assert.ok(breach.pregunta.includes('debe notificarse'));
 assert.ok(breach.justificacion.includes('salvo que sea improbable'));
+for (const number of [7,12]) {
+  const theme = program.temas.find(t => t.numero === number);
+  assert.equal(theme.estado, 'AUDITADO', 'T' + number + ' sin auditoría declarada');
+  assert.equal(json(theme.matriz).estado, 'AUDITADO', 'Matriz T' + number + ' no sincronizada');
+  const bank = json(theme.preguntas).preguntas;
+  assert.equal(bank.length, 12, 'Banco histórico T' + number + ' alterado');
+  for (const item of bank) {
+    assert.equal(item.respuestaLiteral, item.opciones[item.correcta], 'Clave cambiada en T' + number + ': ' + item.id);
+    assert.ok(item.referencia.includes(number === 7 ? 'BOE-A-2019-10102' : 'BOE-A-1995-24292') || (number === 12 && item.referencia.includes('BOE-A-1995-24292')), 'Fuente primaria ausente en ' + item.id);
+  }
+}
+const transparency = json(program.temas.find(t => t.numero === 7).preguntas).preguntas.find(q => q.id === 'UC3M-T07-007');
+assert.match(transparency.justificacion, /20 días hábiles/);
+const prevention = json(program.temas.find(t => t.numero === 12).matriz);
+assert.equal(prevention.controlAuditoriaJuridica20261109.reforma, 'Ley 1/2026');
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
