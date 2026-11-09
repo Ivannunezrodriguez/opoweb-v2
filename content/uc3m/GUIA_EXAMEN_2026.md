@@ -264,3 +264,10 @@ Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGU
 **Reserva:** fecha primaria del corte jurídico **base primera.7 UC3M**, CI ejecutado, E2E y accesibilidad, y aprobación del usuario siguen pendientes. No certificar integridad jurídica del **100 %**.
 
 > ⚠️ **¡Foco Examen!:** **VEC sin IVA ≠ PBL con IVA**, **Rector contrata ≠ mesa propone**, **15 naturales de ofertas ≠ 15 hábiles de espera para formalizar**.
+
+
+## Control de fuente primaria — corte normativo (09/11/2026)
+
+El [**cotejo del portal oficial de UC3M**](../../audit/UC3M_CORTE_NORMATIVO_PORTAL_2026-11-09.md) confirma que la página anuncia la resolución definitiva, pero **no acredita por sí sola su fecha efectiva de publicación**. Se mantiene la **reserva de la base primera.7**. El llamamiento del **21/11/2026** no sustituye ese dato.
+
+> ⚠️ **¡Foco Examen!:** No confundir **publicación de la lista definitiva** (hito del corte normativo) con **fecha del examen** o fecha de firma de un documento sin prueba de publicación.
