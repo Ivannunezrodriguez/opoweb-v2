@@ -62,3 +62,44 @@ No puede garantizarse exhaustividad. Se mantiene el BOP para toda Toledo, tambi�
 - `node tests/radar-fixtures.mjs`
 - `python3 tests/radar-direct-test.py`
 - La comprobación de red no envía correos ni modifica solicitudes. Sus resultados quedarán en `data/radar-direct-latest.json` al completar una ejecución. La primera comprobación completa de red está pendiente.
+
+
+## Auditoría de fuentes y reparación focal — 09/11/2026
+
+Se analizó [`data/radar-direct-latest.json`](../data/radar-direct-latest.json) como **instantánea previa**, no como nueva ejecución tras los cambios. De **206 estados**: **42 READABLE**, **118 PARTIAL** y **46 ERROR**. Las **46 incidencias ERROR** se agrupan orientativamente por el primer error de cada fuente:
+
+| Causa registrada | Fuentes afectadas | Ejemplo |
+|---|---:|---|
+| **HTTP 403** | **5** | Alcorcón (ruta antigua) |
+| **HTTP 404** | **6** | Valdemoro, SERMAS y bolsas Madrid (rutas antiguas) |
+| **Redirecciones / bucle** | **7** | Griñón, Torrejón de la Calzada |
+| **SSL certificado** | **1** | Sede de Getafe |
+| **Bloqueo anti-bot** | **4** | UC3M empleo y bolsas |
+| **HTML sin enlaces procesables / JavaScript** | **2** | GEACAM, Escalona |
+| **HTTP 5xx** | **3** | Algunos ayuntamientos de Toledo |
+| **Otros errores** | **18** | Pinto, Bargas y otras fuentes |
+| **TOTAL** | **46** | Clasificación basada en error guardado, no diagnóstico de red completo |
+
+### Correcciones realizadas
+
+Se sustituyeron únicamente **tres URLs iniciales**, verificadas por consulta pública de las páginas oficiales; **los ID de fuente no cambiaron** para no romper la relación con el historial `radar-direct-state.json`.
+
+| Fuente | URL oficial nueva | Evidencia |
+|---|---|---|
+| **Alcorcón** | [Portal de Empleo Público](https://www.ayto-alcorcon.es/es/servicios/empleo-publico) | Ayuntamiento de Alcorcón, procesos y bolsas |
+| **SERMAS** | [Bolsas de contratación temporal](https://www.comunidad.madrid/salud/bolsas-contratacion-temporal-servicio-madrileno-salud) | Comunidad de Madrid, bolsas de centros sanitarios |
+| **Madrid bolsas** | [Trámites de Bolsa de Empleo](https://sede.comunidad.madrid/bolsa-empleo) | Sede electrónica de la Comunidad de Madrid |
+
+Configuración: [`data/radar-sources.json`](../data/radar-sources.json). Prueba de regresión: [`tests/radar-fixtures.mjs`](../tests/radar-fixtures.mjs), que verifica unicidad de fuentes, **ID estables** y URL esperada. La prueba puede validar **estructura y configuración**, pero no que un servidor externo responda siempre a un robot en GitHub Actions.
+
+### Reservas y acciones futuras
+
+- Esta corrección **no convierte automáticamente 3 fuentes ERROR en READABLE**: hace falta ejecución del rastreador, observar `pagesRead`, `errors`, `unvisitedListingLinks` y confirmar si hay enlaces de nuevas oportunidades correctamente identificados.
+- **HTTP 403 y anti-bot:** no sortear controles de acceso ni páginas con CAPTCHA; buscar canales oficiales alternativos, RSS o datos abiertos autorizados.
+- **Error de SSL de Getafe:** **no** desactivar verificación de certificados como arreglo general. Buscar portal alternativo oficial o resolver la cadena de confianza.
+- **Redirección en bucle y 404:** revisar ruta pública estable y comprobar HTTP desde el runner, sin borrar la fuente ni su historial de deduplicación.
+- **118 PARTIAL:** se asocian a páginas no recorridas, límite de rutas o fallos parciales; son cobertura incompleta, no necesariamente rotura total.
+- `entries: []` de la última instantánea **no demuestra ausencia de convocatorias**; solo indica que esa pasada no registró nuevas entradas directas.
+- Sin prueba de entrega real de correo ni verificación de secretos de GitHub. **No** declarar detección exhaustiva de oportunidades ni cobertura del 100 %.
+
+> ⚠️ **¡Foco Examen!:** El radar de empleo es un sistema de descubrimiento, **no una fuente jurídica de admisión**. Cada oportunidad debe contrastarse con la convocatoria y las bases oficiales.
