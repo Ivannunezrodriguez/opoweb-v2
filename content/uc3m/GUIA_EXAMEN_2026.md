@@ -390,3 +390,12 @@ El manifiesto UC3M tiene ahora **14/20 temas AUDITADO** (**T1–T9, T11–T14 y 
 > ⚠️ **¡Foco Examen!:** **Contrato menor de servicios: VEC inferior a 15.000 € sin IVA**, y duración **máxima de un año sin prórroga**. **VEC** y **presupuesto base de licitación** no son la misma magnitud.
 
 La condición `AUDITADO` no significa `CERTIFICADO_INTEGRAL`. Continúan pendientes CI final acreditado, E2E, accesibilidad y otras reservas documentales.
+
+
+## T18/T19 — presupuesto oficial contrastado parcialmente (09/11/2026)
+
+[Acta de cotejo del BOCM](../../audit/UC3M_T18_T19_COTEJO_BOCM_PRESUPUESTO_2026_2026-11-09.md): **300.468.067,59 €** en ingresos y gastos y **146.834.705,33 €** en el capítulo IV de ingresos (transferencias corrientes). El presupuesto fue aprobado por el **Consejo Social** en **11/12/2025** y publicado en BOCM el **30/12/2025**.
+
+Los **temas 18 y 19 continúan EN_REVISION_USUARIO**: las cifras están verificadas en el boletín, pero el texto íntegro de las **Normas Básicas de Gestión de 2026** no se ha podido consultar para contrastar plazos, fases, vinculación y documentos contables.
+
+> ⚠️ **¡Foco Examen!:** **Capítulo IV de ingresos** no es el capítulo IV de gastos; el **capítulo I de gastos (personal)** es el de mayor cuantía.
