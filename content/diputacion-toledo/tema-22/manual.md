@@ -1,5 +1,24 @@
 # Tema 22 · Acuerdo regulador y OAPGT
 
+## Control específico de los artículos 1–3 del Acuerdo Regulador de 2023 — verificado el 09/11/2026
+
+El [**BOP de Toledo n.º 246, 28/12/2023, texto del Acuerdo Regulador**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=246&insert_year=2023&publication_date=28122023) acredita que el **Pleno de Diputación** lo aprobó el **21/12/2023**. La [ficha de Transparencia provincial](https://transparencia.diputoledo.es/t/normativa/2250) clasifica su tramitación como **aprobación definitiva**. Este acuerdo es **distinto de los Estatutos del OAPGT** y debe estudiarse con sus modificaciones posteriores.
+
+| Precepto | Dato literal y distinción de examen |
+|---|---|
+| **Art. 1: partes** | **Diputación Provincial de Toledo** y centrales sindicales **CC.OO., CSI-F, FSP-UGT y SAE-SAP** |
+| **Art. 2.1.1: personal** | Personal de Diputación en **servicio activo**; también personal dependiente de organismos autónomos existentes o futuros **hasta que dispongan de regulación propia negociada**. No es aplicación incondicional a toda persona vinculada a cualquier ente provincial |
+| **Art. 2.1.2: territorio** | Centros y servicios de **Toledo y provincia** dependientes de **Diputación y sus organismos autónomos** |
+| **Art. 3: entrada en vigor** | **01/01/2024** |
+| **Art. 3: final de vigencia inicial** | **31/12/2027**; **prórroga automática** hasta aprobación de nuevo acuerdo y compromiso de negociar antes de **01/01/2028** |
+
+**Relación con los Estatutos:** su **art. 26** establece el régimen jurídico de personal funcionario y laboral del Organismo; no convierte por sí mismo el Acuerdo de 2023 en una reforma estatutaria. La aplicación del **art. 2.1.1 del Acuerdo** está condicionada por la existencia de regulación propia negociada de cada organismo y por las exclusiones y especialidades del propio Acuerdo. En examen, diferenciar **Estatutos (organización)** y **Acuerdo Regulador (condiciones de trabajo)**.
+
+**Cierre parcial verificable:** comprobados directamente **aprobación de 2023, partes, ámbito personal/territorial y vigencia originaria**, sin inferir que las modificaciones de **2025 y 2026** carezcan de efecto sobre otros artículos. **No equivale a cierre de todos los permisos, retribuciones, excepciones y reformas posteriores**.
+
+> ⚠️ **¡Foco Examen!:** El Acuerdo **no se aplica automáticamente sin excepciones a cualquier trabajador de un organismo autónomo**: el **art. 2.1.1** contempla la existencia de **regulación propia negociada**. **01/01/2024** es entrada en vigor, **31/12/2027** fin de vigencia inicial; la **prórroga** no exige una nueva firma previa.
+
+
 > **ACTUALIZACIÓN DOCUMENTAL PRIORITARIA — 09/11/2026.** Recibida y leída una **recopilación de 20 páginas de los Estatutos del OAPGT hasta la reforma de 2011** (SHA-256 `835013e5925a6342178c744449009c431b910d3a82b42000d6dd0aa605f892fb`). El **articulado 1–30 y 8 bis**, disposiciones, composición del **Consejo Rector**, quórums, **mayorías**, competencias y plazos **ya están disponibles** en [guía completa de extracción y contraste](../../diputacion-toledo-auxiliar-c2/tema-06/estatutos-oapgt-texto-integro-1996-2011.md). Por tanto, todos los avisos inferiores que afirman «texto íntegro no localizado» son **históricos y están superados**. Aún falta acreditar **eficacia definitiva de reforma inicial 2004**, corrección 1996, ausencia de reformas posteriores y cierre de **Acuerdo Regulador 2023/2025/2026**. **El tema completo sigue en revisión**, sin certificar vigencia estatutaria integral ni E2E.
 
 
