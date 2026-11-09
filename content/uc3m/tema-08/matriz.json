@@ -119,7 +119,7 @@
       "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
     }
   ],
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "controlIntegralBanco20261104": {
     "estado": "COTEJO_BANCO_COMPLETO",
     "tipo": "JURIDICO_EDITORIAL",
@@ -211,5 +211,20 @@
     "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
     "reserva": "Preguntas originales conservadas; rastreo de cobertura, no certificación legal ni funcional",
     "certificacionIntegral": false
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_INSTITUCIONAL",
+    "acta": "audit/UC3M_T08_AUDITORIA_IGUALDAD_2026-11-09.md",
+    "bloques": 13,
+    "preguntasHistoricas": 12,
+    "preguntasComplementarias": 12,
+    "fuentes": [
+      "BOE-A-2007-6115",
+      "UC3M III Plan 2025-2029",
+      "UC3M II Protocolo acoso"
+    ],
+    "certificacionIntegral": false,
+    "pruebaE2E": false
   }
 }
