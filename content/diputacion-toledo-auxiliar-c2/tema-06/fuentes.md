@@ -60,3 +60,14 @@ Publicación oficial examinada: **BOP Toledo n.º 284, 14/12/2011**, anuncio **I
 | Estatutos íntegros vigentes en **2026** | Requieren original oficial, aprobación de reformas y comprobación de posteriores cambios | **BLOQUEADO**; mantener tema **BORRADOR** y evitar inventar composición, quórum o competencias. |
 
 > ⚠️ **¡Foco Examen!:** **Aprobación inicial** de una modificación estatutaria **no equivale** a **publicación definitiva**; las atribuciones citadas en anuncios posteriores tampoco convalidan todos los artículos de un texto histórico.
+
+
+## Localización del archivo oficial histórico y trabajo compartido C1/C2 — **09/11/2026**
+
+La [**Diputación de Toledo ofrece la Hemeroteca del BOP desde 1833**](https://www.diputoledo.es/global/4/1710/6181), con [**buscador por fecha, número y texto**](https://bibliotecadigital.diputoledo.es/pandora/index.vm?lang=es&view=bop). Esta es la **vía oficial pendiente de consulta directa** para recuperar la edición original del **BOP 235 de 11/10/1996**, su **corrección de errores de 04/11/1996** y la **tramitación final** de la reforma que se publicó inicialmente el **23/12/2004**.
+
+La reproducción [**histórica de 2004**](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/2004/12/23) recoge una **propuesta inicial de reforma de 17 artículos y varias disposiciones**, **sin acreditar su aprobación definitiva**. La reforma [**2011 BOP oficial 284**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=284&insert_year=2011&publication_date=14122011) sí permite estudiar los artículos publicados en ese anuncio, **sin dar por vigentes otros fragmentos históricos no consolidados**.
+
+Las evidencias y los hitos están ordenados con el **mismo criterio para C1 tema 22 y C2 tema 6** en [**fuentes del tema 22 C1**](../../diputacion-toledo/tema-22/fuentes.md). **Estado C2 T6: BORRADOR**; sin nuevos puntos, preguntas añadidas ni cierre de quórums o composición orgánica.
+
+> ⚠️ **¡Foco Examen!:** **1996 original** + **rectificación de 1996** + **aprobación definitiva de reformas** + **2011 y cambios posteriores** deben cotejarse **en ese orden**. Una reproducción no oficial de la **aprobación inicial de 2004** no basta.
