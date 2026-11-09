@@ -17,10 +17,12 @@ for(const n of [20,21,22,23]){
  assert.equal(b.estado,state);assert.equal(x.estado,state);
  assert.equal(b.controlBloque20261105.certificacionIntegral,false);
  assert.equal(x.controlBloque20261105.certificacionIntegral,false);
- assert.equal(b.preguntas.length,20);
+ assert.equal(b.preguntas.length,n===22?24:20);
+ // El cotejo histórico del 05/11 cubre los primeros 20 ítems de cada tema;
+ // cuatro nuevas preguntas del OAPGT se validan separadamente sin debilitarlo.
  assert.match(manual,/¡Foco Examen!/);assert.match(manual,/\|---/);
  assert.match(sources,/cotejo-bloque-20-23-2026-11-05/);
- for(const q of b.preguntas){
+ for(const q of b.preguntas.slice(0,20)){
    const [id,key,literal]=expected[total++];
    assert.equal(q.id,id);assert.equal(q.correcta,key,id);assert.equal(q.opciones[key],literal,id);assert.equal(q.respuestaLiteral,literal,id);
    assert.equal(q.opciones.length,4);alternatives+=4;
@@ -31,6 +33,20 @@ for(const n of [20,21,22,23]){
  }
 }
 assert.equal(total,80);assert.equal(alternatives,320);
+// Ampliación del 08/11: cuatro ítems documentados de OAPGT.
+// Mantener la comprobación íntegra de las 80 preguntas originales y la nueva cobertura.
+const extra=json('content/diputacion-toledo/tema-22/preguntas.json').preguntas.slice(20);
+assert.deepEqual(extra.map(q=>q.id),['DIP-T22-021','DIP-T22-022','DIP-T22-023','DIP-T22-024']);
+for(const q of extra){
+ assert.ok(Number.isInteger(q.correcta)&&q.correcta>=0&&q.correcta<4,q.id);
+ assert.equal(q.opciones.length,4,q.id);
+ assert.equal(new Set(q.opciones.map(x=>x.toLowerCase().trim())).size,4,q.id);
+ assert.equal(q.opciones[q.correcta],q.respuestaLiteral,q.id);
+ assert.ok(q.justificacion.length>25&&q.trampa.length>20,q.id);
+ assert.match(q.referencia,/https:\\/\\/(?:www\\.boe\\.es|bop\\.diputoledo\\.es)\\//,q.id);
+}
+assert.equal(total+extra.length,84);
+assert.equal(alternatives+extra.length*4,336);
 const get=(n,k)=>json('content/diputacion-toledo/tema-'+n+'/preguntas.json').preguntas.find(q=>q.id==='DIP-T'+n+'-'+String(k).padStart(3,'0'));
 assert.equal(get(21,10).respuestaLiteral,'6 días naturales');
 assert.equal(get(20,13).respuestaLiteral,'Diecinueve semanas');
@@ -40,4 +56,4 @@ assert.equal(get(22,19).respuestaLiteral,'1.327,80 euros');
 assert.match(get(22,11).respuestaLiteral,/vía administrativa/);
 assert.match(read('content/diputacion-toledo/tema-22/manual.md'),/Estatutos completos/);
 assert.match(report,/PENDIENTE Estatutos íntegros consolidados/);
-console.log('C1_20_23_80Q_320A_22_CLOSED_T22_UNCERTIFIED_OK');
+console.log('C1_20_23_84Q_336A_22_CLOSED_T22_UNCERTIFIED_OK');
