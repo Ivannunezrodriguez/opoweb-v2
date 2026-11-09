@@ -36,7 +36,7 @@ const startThemeTest = () => rendered.push('theme');
 const location = { search: '' };
 const setup = new Function(
   'CALLS','localStorage','history','document','app','fetch',
-  'loadQuestionBanks','loadExtraRepasos','renderHub','startThemeTest','location',
+  'loadQuestionBanks','loadExtraRepasos','renderHub','startThemeTest','location','rendered',
   `let latestCallLoad=0, activeCall=null, programme=null, supuestos=null, simulacros=null;
    let questionMap=new Map(), extraRepasos=[], extraRepasoErrors=[];
    const SELECTED_CALL_KEY='test';
@@ -45,7 +45,7 @@ const setup = new Function(
 );
 const {loadCall, state} = setup(
   calls,localStorage,history,document,app,fetch,
-  loadQuestionBanks,loadExtraRepasos,renderHub,startThemeTest,location
+  loadQuestionBanks,loadExtraRepasos,renderHub,startThemeTest,location,rendered
 );
 const old = loadCall('a');
 const latest = loadCall('b');
