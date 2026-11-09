@@ -81,11 +81,27 @@
 - **Art. 29:** modificar Estatutos corresponde al **Pleno de Diputación** a propuesta del **Consejo Rector**, aprobada esta por **mayoría absoluta legal de sus miembros**.
 - **Art. 30:** disolución por causas legales, imposibilidad de cumplimiento o acuerdo del **Pleno**. La **Diputación** sucede universalmente al Organismo. El **Consejo Rector** se transforma en comisión liquidadora que elevará bienes, derechos y obligaciones a la Diputación en **máximo 3 meses**.
 
-**Disposiciones:** transitorias primera a cuarta (puesta en marcha y personal), adicional (instructores sancionadores) y final (comienzo de funciones previsto para **01/01/1997** con eventual prórroga por **Presidente de Diputación**; aplicación supletoria).
+**Disposiciones en el PDF aportado:** figuran **4 transitorias** (puesta en marcha y personal), adicional (instructores sancionadores) y final (comienzo de funciones previsto para **01/01/1997** con eventual prórroga por **Presidente de Diputación**; aplicación supletoria). **No memorizar las cuatro transitorias como estructura vigente sin revisar la tramitación de 2004**, descrita a continuación.
 
 > ⚠️ **¡Foco Examen!:** **Mayoría simple** para acuerdos ordinarios del **Consejo Rector**, pero **mayoría absoluta legal de sus miembros** para la **propuesta de modificación estatutaria** del art. **29**. **Pleno provincial** aprueba finalmente la reforma.
 
-## 6. Estado de certeza y límites
+## 6. Discrepancia documental concreta resuelta como reserva — reforma inicial de 2004
+
+La [publicación del **BOP Toledo 294, 23/12/2004**](https://www.dateas.com/es/docs/boletin-oficial-de-la-provincia-de-toledo/2004/12/23) reproduce el acuerdo **inicial** del **Pleno de Diputación de 21/12/2004**, con su propuesta de nueva redacción estatutaria. No debe equipararse automáticamente a aprobación definitiva.
+
+| Punto comparado | PDF recopilado, 20 páginas | Acuerdo publicado inicialmente en **2004** |
+|---|---|---|
+| **Disposiciones transitorias** | Contiene **4** | Propone **derogar la primera y segunda**; la tercera pasa a **primera**, y la cuarta reformada pasa a **segunda** |
+| **Artículos afectados** | Reproduce el articulado de **1 a 30** con **8 bis** | Enumera modificaciones de **1, 2, 3, 6, 8, 9, 10, 11, 12, 14, 15, 16, 19, 22, 23, 29 y 30** |
+| **Eficacia normativa** | La compilación acredita su texto, no las sucesivas publicaciones | El anuncio emplea expresamente **aprobación inicial**, por lo que requiere verificar tramitación final |
+
+**Hallazgo cerrado:** la divergencia entre **4** y **2 disposiciones transitorias** no se puede resolver contando las páginas de la recopilación. Se ha identificado el origen documental exacto, se marca la distinción en el temario y **se evita preguntar cuántas transitorias están vigentes** hasta acreditar el acuerdo definitivo.
+
+También hay **evidencia institucional posterior** de aplicación del texto competencial: el [**BOP de Toledo 42, de 29/02/2024, anuncio 1004**](https://bop.diputoledo.es/webEbop/DocGet?id=24023720%3B0&insert_number=1004&insert_year=2024) invoca expresamente el **artículo 12.2.l)** para la actuación de la **Presidencia** relativa a selección de personal. Esta cita **apoya la vigencia operativa de esa atribución**, pero no certifica todo el Estatuto ni demuestra la aprobación definitiva de 2004.
+
+> ⚠️ **¡Foco Examen!:** **Aprobación inicial** no significa **entrada en vigor**. La pregunta «¿cuántas disposiciones transitorias tiene actualmente?» sigue siendo **insegura** si no se acredita la tramitación definitiva. En cambio, el **art. 12.2.l)** cuenta con uso oficial posterior comprobado en el BOP de **2024**.
+
+## 7. Estado de certeza y límites
 
 **RESUELTO CON FUENTE DOCUMENTAL APORTADA:** ya no se desconocen el texto de los arts. **1–30**, **8 bis**, composición, competencias, sesiones, quórums, plazos ni disposiciones de la compilación estatutaria **hasta 2011**; se ha cotejado la reforma de 2011 con el BOP original.
 
