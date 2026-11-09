@@ -13,7 +13,14 @@
     {
       "bloque": "Ámbito de aplicación",
       "manual": "apartado 2",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T12-01",
+        "UC3M-ADIC-20261106-T12-02",
+        "UC3M-ADIC-20261106-T12-03"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Definiciones esenciales",
@@ -74,7 +81,14 @@
     {
       "bloque": "Personas especialmente sensibles",
       "manual": "apartado 11",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T12-04",
+        "UC3M-ADIC-20261106-T12-05",
+        "UC3M-ADIC-20261106-T12-06"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Obligaciones de las personas trabajadoras",
@@ -93,7 +107,14 @@
     {
       "bloque": "Consulta de las personas trabajadoras",
       "manual": "apartado 14",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T12-07",
+        "UC3M-ADIC-20261106-T12-08",
+        "UC3M-ADIC-20261106-T12-09"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     },
     {
       "bloque": "Delegados de Prevención",
@@ -112,7 +133,14 @@
     {
       "bloque": "Coordinación de actividades empresariales",
       "manual": "apartado 17",
-      "preguntas": []
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T12-10",
+        "UC3M-ADIC-20261106-T12-11",
+        "UC3M-ADIC-20261106-T12-12"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
     }
   ],
   "estado": "EN_REVISION_USUARIO",
@@ -243,5 +271,13 @@
     "aprobadoUsuario": false,
     "fechaCorteBOEConfirmada": false,
     "certificacionE2E": false
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 17,
+    "bloquesConPreguntasHistoricasOComplementarias": 17,
+    "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
+    "certificacionIntegral": false,
+    "observacion": "Enlace pedagógico a banco real, no certificación de vigencia ni de distractores"
   }
 }
