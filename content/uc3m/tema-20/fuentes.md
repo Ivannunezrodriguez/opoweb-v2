@@ -79,3 +79,21 @@ Se documentan **cinco trampas**: (1) solicitud de inscripción en ROLECE registr
 > ⚠️ **¡Foco Examen!:** **7 días** valoración técnica, **7 días hábiles** documentación y garantía, **5 días hábiles** explicación de oferta anormal y **5 días** para adjudicar no son el mismo plazo.
 
 **Reserva:** cierre documental focal de artículos concretos; corte de base primera.7 de UC3M, banco completo jurídico y verificación navegador/CI pendientes.
+
+
+## Verificación cruzada del simplificado abreviado y urgencia — 09/11/2026
+
+Fuente normativa cotejada directamente: [**LCSP, art. 159.5 y 159.6**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159), junto con [**LCSP art. 326.1 (mesa potestativa en el 159.6)**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a326) y [**Orden HAC/1517/2025, umbrales desde 01/01/2026**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605).
+
+| Regla y artículo | Literalidad jurídica relevante |
+|---|---|
+| **159.5** | En procedimiento **abierto simplificado** con declaración de urgencia **no se produce la reducción de plazos** del **119.2.b**. |
+| **159.6** | Obras de valor estimado **< 80.000 €** y suministros/servicios **< 60.000 €**, excluidas prestaciones **intelectuales**. |
+| **159.6.a** | Ofertas en **≥ 10 días hábiles**, salvo compra corriente de bienes disponibles en mercado: **5 días hábiles**. |
+| **159.6.b–c** | Exención de acreditación de **solvencia** y **archivo único** evaluable por fórmulas. |
+| **159.6.f–g** | **Sin garantía definitiva** y posibilidad de formalización mediante **aceptación firmada** de la resolución. |
+| **326.1** | **Mesa potestativa** en procedimientos del **159.6**. |
+
+Los **tres supuestos añadidos** en el [manual T20 §34](manual.md) contrastan la urgencia, el régimen de garantía/mesa y la exclusión de prestaciones intelectuales. **No se modifican las claves ni las alternativas del banco original**. Esta comprobación es focal sobre los artículos indicados y **no** valida las restantes fuentes ni la fecha primaria de corte de la convocatoria.
+
+> ⚠️ **¡Foco Examen!:** **Mesa potestativa y ausencia de garantía** son del **159.6**; la regla de **urgencia sin reducción general** está en **159.5**. No mezclar ambas modalidades.
