@@ -399,3 +399,14 @@ La condición `AUDITADO` no significa `CERTIFICADO_INTEGRAL`. Continúan pendien
 Los **temas 18 y 19 continúan EN_REVISION_USUARIO**: las cifras están verificadas en el boletín, pero el texto íntegro de las **Normas Básicas de Gestión de 2026** no se ha podido consultar para contrastar plazos, fases, vinculación y documentos contables.
 
 > ⚠️ **¡Foco Examen!:** **Capítulo IV de ingresos** no es el capítulo IV de gastos; el **capítulo I de gastos (personal)** es el de mayor cuantía.
+
+
+## Evidencias de corte y nivel de fuente presupuestaria — **09/11/2026**
+
+Una [**resolución UC3M de llamamiento, firmada el 06/10/2026**](https://uc3m.es/ss/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Resoluci%C3%B3n_llamamiento_ejercicio_%C3%BAnico.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371631360869&ssbinary=true) acredita **fecha, hora y lugar del ejercicio**, pero **no** la fecha exacta de publicación de la lista definitiva que selecciona el corte legal de la **base primera.7**. El análisis y su cronología se documentan en [**acta de corte**](../../audit/UC3M_ACOTACION_CORTE_OFICIAL_2026-11-09.md).
+
+En los **temas 18 y 19**, cada pregunta identifica ahora su nivel de referencia: **4/12 preguntas de T18** y **3/12 de T19** contienen enlace directo a una norma o boletín público; las restantes **8 + 9** dependen de reglas de gestión interna cuyo **Volumen I no ha sido autenticado íntegramente** en esta revisión. Tener enlace a una norma no certifica por sí solo la corrección de todos sus distractores. Existe una [**reproducción secundaria de T18**](https://www.vence.es/auxiliar-administrativo-universidad-carlos-iii/temario/tema-18) y otra de [**T19**](https://www.vence.es/auxiliar-administrativo-universidad-carlos-iii/temario/tema-19), que **no sustituyen** la fuente primaria.
+
+Los temas **T10, T15, T16, T18 y T19** permanecen `EN_REVISION_USUARIO`. En el banco se han incluido advertencias de fuente pendiente, sin alterar sus soluciones ni presentarlas como jurídicamente certificadas.
+
+> ⚠️ **¡Foco Examen!:** **Documento O** y **ADO** requieren verificar las Normas Básicas UC3M del ejercicio concreto; un manual secundario puede ser útil para estudiar, pero **no justifica afirmar certificación jurídica completa**.
