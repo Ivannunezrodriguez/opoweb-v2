@@ -1,5 +1,5 @@
 {
-  "actualizadoEl": "2026-11-04",
+  "actualizadoEl": "2026-11-09",
   "criterio": "Ficha de convocatorias y seguimiento administrativo (fechas verificadas por ficha). El estado editorial fiable y la tarea siguiente solo constan en AUDITORIA_CONTINUA.md. No confundir publicación de manual con revisión completa ni comprobación histórica de plazo con disponibilidad actual.",
   "convocatorias": [
     {
@@ -124,7 +124,7 @@
       "nombre": "Diputación Provincial de Toledo · Auxiliar Administrativo C2",
       "estadoUsuario": "SOLICITUD_REGISTRADA_PENDIENTE_ADMISION",
       "prioridad": 1,
-      "estadoEditorial": "19_EN_REVISION_1_BORRADOR",
+      "estadoEditorial": "19_AUDITADO_1_BORRADOR",
       "temas": 20,
       "plazas": 4,
       "plazasTurnoLibre": 3,
@@ -145,7 +145,7 @@
       "carpetaContenido": "content/diputacion-toledo-auxiliar-c2",
       "seguimientoVerificadoEl": "2026-10-25",
       "ultimaComprobacion": "Solicitud registrada; 20 manuales en borrador. Tema 6 requiere cierre de fuentes estatutarias OAPGT. Consultar el archivo de seguimiento específico para detalles y cautelas.",
-      "notaEstadoEditorial": "19 temas en revisión y tema 6 BORRADOR; tema 6 OAPGT aplazado hasta el final por decisión de 29/10/2026; siguiente tema 1.",
+      "notaEstadoEditorial": "Manifiesto cotejado 09/11/2026: 19 temas AUDITADO y T6 BORRADOR por Estatutos OAPGT incompletos; AUDITADO no equivale a certificación integral de bancos y E2E.",
       "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
       "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-10-25. No presenta comprobación oficial nueva a 02/11/2026."
     },
@@ -154,7 +154,7 @@
       "nombre": "Diputación Provincial de Toledo · Administrativo C1",
       "estadoUsuario": "ADMITIDO_PROVISIONALMENTE",
       "prioridad": 2,
-      "estadoEditorial": "40_ORIGEN_GENERACION_DESDE_CERO_EN_AUDITORIA",
+      "estadoEditorial": "39_AUDITADO_1_EN_AUDITORIA_ESTATUTOS",
       "temas": 40,
       "plazasTurnoLibre": 2,
       "sistema": "OPOSICION_LIBRE",
@@ -190,7 +190,7 @@
       "seguimientoVerificadoEl": "2026-11-02",
       "ultimaComprobacion": "02/11/2026: verificado en portal oficial de Empleo Público Diputación anuncio de lista DEFINITIVA y composición del Tribunal para 2 plazas Administrativo C1; publicación BOP Toledo 29/09/2026 (referencia 4390-2026). No se ha localizado llamamiento del primer ejercicio para ESTAS dos plazas. Admisión personal solo verificada en lista provisional, no cotejada definitiva.",
       "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22",
-      "notaEstadoEditorial": "Origen editorial GENERACION_DESDE_CERO en el manifiesto antiguo no significa aprobado; auditoría parcial de temas 3,4,5.",
+      "notaEstadoEditorial": "Manifiesto cotejado 09/11/2026: 39 temas AUDITADO y T22 EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES. El histórico de generación desde cero no representa el estado actual; falta cierre OAPGT.",
       "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
       "notaVigenciaSeguimiento": "Última consulta a la fuente oficial: 02/11/2026. Lista definitiva y tribunal anunciados; fecha de examen y admisión personal definitiva por verificar.",
       "listaDefinitiva": {
