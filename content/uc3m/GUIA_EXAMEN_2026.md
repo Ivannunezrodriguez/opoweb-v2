@@ -338,3 +338,15 @@ Los **9 estados AUDITADO** acreditan revisión jurídico-editorial o técnico-ed
 > ⚠️ **¡Foco Examen!:** Si el corte fue **01/10/2026**, **no** se responde automáticamente con la reforma del **03/10/2026**, aunque esta ya figure en el TREBEP consolidado del día del examen.
 
 **Nuevo recuento del manifiesto:** **10/20 AUDITADO** (**T1–T7, T9, T11, T12**) y **10/20 EN_REVISION_USUARIO** (**T8, T10, T13–T20**). Los recuentos de 7 y 9 temas presentes en anotaciones históricas describen fases anteriores.
+
+
+## Auditorías cerradas de igualdad y LOSU I — **09/11/2026**
+
+**12 temas en `AUDITADO`: T1–T9, excepto T10; T11, T12 y T13.** Para evitar ambigüedades, la lista exacta es **T1, T2, T3, T4, T5, T6, T7, T8, T9, T11, T12 y T13**. Quedan **8 en `EN_REVISION_USUARIO`: T10 y T14–T20**. Este balance **sustituye los recuentos históricos de 7, 9 y 10**, conservados en notas previas por trazabilidad.
+
+- **T8 · Igualdad:** [**acta jurídica**](../../audit/UC3M_T08_AUDITORIA_IGUALDAD_2026-11-09.md). **LO 3/2007**, III Plan de Igualdad de **UC3M (01/02/2025–31/01/2029, 6 ejes y 138 medidas)** y II Protocolo de acoso; referencias primarias incorporadas a sus **12 preguntas**.
+- **T13 · LOSU I:** [**acta jurídica**](../../audit/UC3M_T13_AUDITORIA_LOSU_I_2026-11-09.md). **LO 2/2023**, texto con última modificación publicada **02/08/2024**; **12 preguntas** enlazadas al BOE, órganos de creación y calidad diferenciados.
+
+**Sigue pendiente para la certificación integral:** acreditar la publicación exacta de las listas definitivas de UC3M (base **primera.7**), verificar CI del commit final, ejecutar E2E en navegadores y comprobar accesibilidad. Ninguno de los 12 temas está todavía marcado `CERTIFICADO_INTEGRAL`.
+
+> ⚠️ **¡Foco Examen!:** La **Comisión de Seguimiento** del III Plan tiene **8 representantes de la Universidad y 8 de los trabajadores**. La **Conferencia General de Política Universitaria** interviene mediante informe en la creación/reconocimiento de universidades; no debe confundirse con el **Consejo de Universidades**.
