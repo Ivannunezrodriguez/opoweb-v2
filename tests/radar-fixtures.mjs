@@ -138,7 +138,21 @@ const expectedOfficialSources = [
   ['SERMAS', '1b687b37f558575f', 'https://www.comunidad.madrid/salud/bolsas-contratacion-temporal-servicio-madrileno-salud'],
   ['Madrid bolsas', 'e89d3df4d3544dc4', 'https://sede.comunidad.madrid/bolsa-empleo'],
 ];
-assert.equal(new Set(directConfig.sources.map(x => x.id)).size,directConfig.sources.length,'Duplicate direct radar source ids');
+// Pedanías distintas pueden compartir exactamente la misma web municipal.
+// Los alias con el mismo id deben tener la MISMA URL para evitar colisiones reales.
+const sourceUrlsById=new Map();
+let sharedCouncilAliases=0;
+for(const src of directConfig.sources){
+ const existing=sourceUrlsById.get(src.id);
+ if(existing){
+  assert.equal(src.url,existing,'Different URLs sharing direct-radar source ID: '+src.id);
+  sharedCouncilAliases++;
+ }else{
+  sourceUrlsById.set(src.id,src.url);
+ }
+}
+assert.equal(sharedCouncilAliases,5,'Changes in shared-council aliases must be reviewed');
+
 for (const [name,id,url] of expectedOfficialSources) {
  const matches=directConfig.sources.filter(s => s.name === name);
  assert.equal(matches.length,1,'Expected exactly one direct source: '+name);
