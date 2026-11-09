@@ -280,3 +280,12 @@ La [**auditoría de trazabilidad T8/T9/T10/T11/T12/T13/T18**](../../audit/UC3M_A
 **Interpretación:** mejora de cobertura pedagógica **no** equivalente a revisión legal de cada distractor. Permanecen la **reserva de fecha de publicación de resolución definitiva** (base **primera.7**), la revisión de los **20 temas**, la aprobación del usuario y las pruebas E2E. Ningún tema se eleva artificialmente a `CERTIFICADO_INTEGRAL`.
 
 > ⚠️ **¡Foco Examen!:** La existencia de preguntas y fuentes **no garantiza** por sí sola que el plazo, órgano o artículo de una alternativa siga siendo correcto en el **corte jurídico de la convocatoria**.
+
+
+## Nota de identificación normativa — Estatutos UC3M (09/11/2026)
+
+El preámbulo de la [**convocatoria BOE-A-2026-14624**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) menciona **«Decreto 05/2009»** al identificar la reforma de los Estatutos. Sin embargo, el [**catálogo normativo oficial de la UC3M**](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m) identifica el **Decreto 95/2009, de 12 de noviembre**, y este número aparece también en [**otras resoluciones oficiales UC3M de 2026**](https://boe.es/diario_boe/txt.php?id=BOE-A-2026-3848&lang=es). Se trata de una **discordancia en la referencia de la convocatoria**, no de fundamento para sustituir el texto normativo por un supuesto «Decreto 05/2009».
+
+**Criterio de estudio:** conservar la cita literal al describir la convocatoria y citar como norma de reforma de Estatutos el **Decreto 95/2009**, indicando por separado el posible error tipográfico del BOE de la convocatoria.
+
+> ⚠️ **¡Foco Examen!:** **Decreto 1/2003** aprueba los Estatutos; **Decreto 95/2009** modifica sus preceptos. **«05/2009»** aparece en el preámbulo del anuncio BOE de la oposición y no debe transformarse en referencia legal de respuesta sin contrastar el decreto original.
