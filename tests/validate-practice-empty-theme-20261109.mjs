@@ -8,7 +8,7 @@ const blocked = c2.temas.find(theme => theme.numero === 6);
 // Guard against making the provisional OAPGT T6 bank available merely
 // because its JSON file exists.
 assert.equal(blocked.estado, 'BORRADOR');
-assert.match(src, /activeCall\.id === 'diputacion-toledo-auxiliar-c2-2026' && tema === 6\) return \[\]/);
+assert.match(src, /call\.id === 'diputacion-toledo-auxiliar-c2-2026' && tema === 6\) return \[\]/);
 
 // Direct links to a blocked theme still invoke startThemeTest, so it must
 // exit before renderExercise is called with a zero-length question set.
