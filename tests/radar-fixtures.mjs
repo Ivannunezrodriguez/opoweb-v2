@@ -194,3 +194,14 @@ for(const needle of ['data.directSourceStatus','directReadable','directPartial',
  assert(radarUI.includes(needle),'Missing radar UI coverage notice: '+needle);
 }
 console.log('RADAR_UI_DIRECT_SOURCE_COVERAGE_WARNING_OK');
+
+
+// Pipeline contract: direct crawl date and source denominators reach public radar.json.
+const radarPipeline=fs.readFileSync('tools/radar.mjs','utf8');
+for(const needle of ['direct.checkedAtUtc','direct.configuredSources','direct.uniqueSources','direct.sharedSourceAliases','directSourceStatus:directStatus,directCrawl']){
+ assert(radarPipeline.includes(needle),'Missing direct crawl output metadata: '+needle);
+}
+for(const needle of ['data.directCrawl','directCrawl.checkedAtUtc','crawlOld','crawlUnavailable','Webs únicas consultadas','fecha no disponible']){
+ assert(radarUI.includes(needle),'Missing radar direct-crawl freshness check: '+needle);
+}
+console.log('RADAR_DIRECT_CRAWL_METADATA_TO_UI_OK');
