@@ -113,3 +113,17 @@ Se añaden **dos preguntas directas con cuatro alternativas y solución motivada
 **Refuerzo actualizado:** **21 originales (84 alternativas)**, **8 complementarias (32 alternativas)** con cita exacta de artículos, **2 microtest (8 alternativas) solo manual**. El corte temporal exigible conforme a **base primera.7 UC3M** carece aún de prueba de la resolución definitiva original, y falta E2E, móvil, accesibilidad y cotejo jurídico exhaustivo con LOSU. No existe aprobación del usuario.
 
 > ⚠️ **¡Foco Examen!:** **Queja ante Defensoría** y **recurso administrativo** son trámites distintos; la **suspensión de una actuación de la Defensoría** por judicialización no equivale a suspender el recurso.
+
+
+## Reserva de compatibilidad con la LOSU — **09/11/2026**
+
+Cotejados [**Estatutos originales UC3M, Decreto 1/2003 (art. 30.1)**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782) y [**LOSU consolidada, arts. 44.3, 45.3 y disposición transitoria primera**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500).
+
+- **Estatutos originales (2003), art. 30.1**: **50 estudiantes** (45 de primer y segundo ciclo y 5 de tercer ciclo/posgrado) entre **250 representantes** más **Rector, Secretario General y Gerente**. Esta composición histórica **no alcanza el 25 %** del estudiantado exigido por **LOSU 45.3**.
+- **LOSU art. 45.3**: mínimo **25 %** estudiantado; **51 %** para personal docente funcionario y permanente laboral del Claustro.
+- **LOSU art. 44.3**: mandato de **6 años** para órganos unipersonales electos, improrrogable/no renovable, con aplicación de las reglas transitorias pertinentes.
+- **LOSU disposición transitoria primera**: el consolidado vigente tras modificación de **2024** establece **2 años** para adaptación de Estatutos y renovación de órganos, frente a **3 años** del texto inicial de **2023**.
+
+**Esta colisión exige revisión jurídica previa:** no extrapolar porcentajes o mandatos de los Estatutos originales a respuestas vigentes de **2026**. [**Advertencia incorporada al manual**](manual.md#advertencia-de-vigencia-estatutos-de-20032009-frente-a-losu--09112026). El tema se mantiene `EN_REVISION_USUARIO`.
+
+> ⚠️ **¡Foco Examen!:** **25 % de estudiantes** en el **Claustro (LOSU)**; no confundir con **50 plazas históricas** en los Estatutos de **2003**. La disposición transitoria primera tiene redacción modificada: **2 años**, no **3**.
