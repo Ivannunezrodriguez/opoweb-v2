@@ -70,3 +70,12 @@ El manual se ha elaborado con orientación práctica de examen, diferenciando fu
 **Cobertura documental:** **13 bloques**, dos nuevos supuestos resueltos en manual y las **12 preguntas/48 alternativas originales** preservadas. [Ayuda Word](https://support.microsoft.com/es-es/word), [Excel](https://support.microsoft.com/es-es/excel) y [Google Workspace](https://support.google.com/drive/?hl=es): casos de correspondencia/filtros y permisos/comunicación.
 
 **Estado:** desarrollo completo con reserva de corte normativo **base primera.7 UC3M** y aprobación del usuario no otorgada. **No** se certifican ejecución en navegador ni exactitud de entornos instalados.
+
+
+## Resultado de auditoría técnico-editorial — **09/11/2026**
+
+**Estado del tema: `AUDITADO` en su alcance técnico-editorial**, respaldado por [**acta de fuentes, cotejo y cobertura**](../../../audit/UC3M_T09_AUDITORIA_TECNICO_EDITORIAL_2026-11-09.md). Se distinguen los **12 ítems históricos** del paquete de **12 ítems complementarios** de ofimática y se conservan las alternativas originales.
+
+**No certificado integralmente:** ejecución en navegador, accesibilidad, actualización de interfaces de productos Google y, para cualesquiera materias jurídicas, fecha aplicable de corte de la **base primera.7**.
+
+> ⚠️ **¡Foco Examen!:** **AUDITADO técnico** verifica documentación y consistencia editorial; **CERTIFICADO_INTEGRAL** exige además pruebas de funcionamiento reales.
