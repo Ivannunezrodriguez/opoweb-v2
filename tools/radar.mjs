@@ -14,11 +14,16 @@ async function get(url,accept){
  return response;
 }
 let directStatus=[];
+let directCrawl={available:false,checkedAtUtc:null,configuredSources:null,uniqueSources:null,sharedSourceAliases:null};
 const results=await Promise.allSettled([
  (async()=>{
   await promisify(execFile)('python3',['tools/radar-direct.py'],{timeout:2400000,maxBuffer:1024*1024});
   const direct=JSON.parse(await fs.readFile('data/radar-direct-latest.json','utf8'));
   directStatus=direct.sourceStatus;
+  directCrawl={available:true,checkedAtUtc:direct.checkedAtUtc??null,
+    configuredSources:direct.configuredSources??null,
+    uniqueSources:direct.uniqueSources??null,
+    sharedSourceAliases:direct.sharedSourceAliases??null};
   return direct.entries;
  })(),
  (async()=>{
@@ -101,7 +106,7 @@ if(!entries.length)throw new Error('Las fuentes respondieron sin anuncios; se co
 const merged=merge(previous,entries,date);
 const enriched=await enrichRadar(merged,date,{limit:70});
 const opportunities=enriched.opportunities;
-await fs.writeFile(out,JSON.stringify({...previous,generatedAt:date,sourceStatus,directSourceStatus:directStatus,enrichmentStatus:enriched.summary,opportunities},null,2)+'\n');
+await fs.writeFile(out,JSON.stringify({...previous,generatedAt:date,sourceStatus,directSourceStatus:directStatus,directCrawl,enrichmentStatus:enriched.summary,opportunities},null,2)+'\n');
 console.log('Radar: '+entries.length+' anuncios consultados; '+opportunities.length+
   ' candidatos; '+opportunities.filter(x=>x.isNew).length+' nuevos. Lecturas de bases: '+
   enriched.summary.read+'/'+enriched.summary.attempted+'.');
