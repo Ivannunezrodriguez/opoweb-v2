@@ -1,5 +1,7 @@
 # Tema 13. Ley Orgánica 2/2023 del Sistema Universitario (I)
 
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta de auditoría LOSU I**](../../../audit/UC3M_T13_AUDITORIA_LOSU_I_2026-11-09.md). **No es CERTIFICADO_INTEGRAL**: pendientes de confirmar CI, navegación E2E y accesibilidad.
+
 > Epígrafe oficial: disposiciones generales, autonomía, creación de universidades, enseñanzas, investigación, cooperación, sociedad e internacionalización.
 
 ## 1. Objeto y ámbito de la LOSU
