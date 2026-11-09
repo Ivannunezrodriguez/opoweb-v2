@@ -599,12 +599,12 @@
       "numero": 18,
       "titulo": "Presupuesto de la UC3M (I): características, estructura, ingresos, gastos, créditos, financiación, modificaciones y ejecución de ingresos.",
       "bloque": "economico-financiera",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/uc3m/tema-18/manual.md",
       "fuentes": "content/uc3m/tema-18/fuentes.md",
       "matriz": "content/uc3m/tema-18/matriz.json",
       "preguntas": "content/uc3m/tema-18/preguntas.json",
-      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
+      "estadoRevisionDocumental": "AUDITADO_JURIDICO_EDITORIAL_CON_RESERVA_FUNCIONAL",
       "evidenciaRevision20261108": {
         "fecha": "2026-11-08",
         "acta": "content/uc3m/CIERRE_DOCUMENTAL_T18_20261106.md",
@@ -621,18 +621,37 @@
         "pruebaNavegadorE2E": false,
         "cotejoJuridicoIntegral": false,
         "certificacionIntegral": false
-      }
+      },
+      "revisadoEl": "2026-11-09",
+      "actaAuditoria": "audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md",
+      "certificacionIntegral": false,
+      "auditoriaJuridica20261109": {
+        "fecha": "2026-11-09",
+        "fuentePrimaria": "UC3M Presupuesto 2026 Volumen I, Normas Básicas de Gestión",
+        "fileId": "1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn",
+        "archivoVerificado": "application/pdf 3807877 bytes",
+        "preguntas": 12,
+        "alternativas": 48,
+        "incidenciaResuelta": "Texto completo artículos 5, 6, 14, 15, 16 leído",
+        "certificacionIntegral": false,
+        "pruebaE2E": false
+      },
+      "reservas": [
+        "Auditoría documental no es verificación E2E o de accesibilidad",
+        "CI GitHub Actions último commit no verificado",
+        "Aprobación del usuario pendiente"
+      ]
     },
     {
       "numero": 19,
       "titulo": "Presupuesto de la UC3M (II): ejecución de gastos, gestión presupuestaria y económico-financiera, ordenación, documentos contables, liquidación y cierre.",
       "bloque": "economico-financiera",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/uc3m/tema-19/manual.md",
       "fuentes": "content/uc3m/tema-19/fuentes.md",
       "matriz": "content/uc3m/tema-19/matriz.json",
       "preguntas": "content/uc3m/tema-19/preguntas.json",
-      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
+      "estadoRevisionDocumental": "AUDITADO_JURIDICO_EDITORIAL_CON_RESERVA_FUNCIONAL",
       "evidenciaRevision20261108": {
         "fecha": "2026-11-08",
         "acta": "content/uc3m/CIERRE_DOCUMENTAL_T19_20261106.md",
@@ -649,7 +668,26 @@
         "pruebaNavegadorE2E": false,
         "cotejoJuridicoIntegral": false,
         "certificacionIntegral": false
-      }
+      },
+      "revisadoEl": "2026-11-09",
+      "actaAuditoria": "audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md",
+      "certificacionIntegral": false,
+      "auditoriaJuridica20261109": {
+        "fecha": "2026-11-09",
+        "fuentePrimaria": "UC3M Presupuesto 2026 Volumen I, Normas Básicas de Gestión",
+        "fileId": "1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn",
+        "archivoVerificado": "application/pdf 3807877 bytes",
+        "preguntas": 12,
+        "alternativas": 48,
+        "incidenciaResuelta": "Texto completo artículos 5, 6, 14, 15, 16 leído",
+        "certificacionIntegral": false,
+        "pruebaE2E": false
+      },
+      "reservas": [
+        "Auditoría documental no es verificación E2E o de accesibilidad",
+        "CI GitHub Actions último commit no verificado",
+        "Aprobación del usuario pendiente"
+      ]
     },
     {
       "numero": 20,
