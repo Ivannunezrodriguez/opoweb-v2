@@ -347,3 +347,25 @@ Un enunciado sostiene que una resolución de un órgano competente del OAPGT nun
 > ⚠️ **¡Foco Examen!:** **Poner fin a la vía administrativa** no es lo mismo que impedir un recurso judicial. El **órgano instructor** tampoco es necesariamente el **órgano que resuelve**.
 
 **Reserva jurídica:** continúa pendiente el cotejo íntegro de los Estatutos originales de **1996**, su corrección y todas las reformas definitivas. No se declara el tema completamente auditado.
+
+
+## 16. Cotejo literal de la reforma estatutaria de 2011 — **09/11/2026**
+
+**Documento oficial examinado (texto y página reproducida):** [**BOP de Toledo n.º 284, de 14/12/2011, anuncio 11024**](https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011). El **Pleno de la Diputación** aprobó la modificación el **28/11/2011**. El cuadro siguiente se limita a los **preceptos reproducidos íntegramente en dicha publicación** y no presupone que todo el articulado de 1996 haya sido consolidado.
+
+| Apartado publicado | Regla exacta que debe estudiarse | Trampa del test |
+|---|---|---|
+| **Art. 1.2** | El **OAPGT** queda **adscrito al Presidente de la Diputación**, con posibilidad de delegación conforme al **art. 34.2 LRBRL** | Confundir adscripción institucional con órganos operativos de un reglamento provincial distinto |
+| **Art. 8 bis** | Las resoluciones de los **órganos de gobierno, dirección y administración** ponen **fin a la vía administrativa** | Confundir fin de vía con imposibilidad de impugnación judicial o régimen especial de revisión tributaria |
+| **Art. 4.a.1** | **Información, asistencia, gestión, inspección y recaudación** de tributos y demás ingresos de derecho público, cuando las funciones son confiadas, encomendadas o delegadas en los términos del precepto | Afirmar que toda competencia se adquiere automáticamente, sin atribución o delegación |
+| **Art. 4.a.2–4** | Incluye **procedimiento sancionador**, **procedimientos catastrales** y **revisión en vía administrativa** de resoluciones en el marco de facultades delegadas | Creer que el organismo puede revisar cualquier acto administrativo de la Diputación |
+| **Art. 14.d.1** | Facultad de dictar los **actos administrativos** atribuidos en funciones de **información, gestión catastral, tributaria y recaudatoria**, además de resoluciones sancionadoras en procedimientos tramitados por delegación o colaboración | Confundir competencia del **Director** con las funciones de instrucción |
+| **Disposición adicional** | El **Consejo Rector** aprueba el organigrama que determina las unidades/puestos instructores; la **Presidencia** publica su identidad en el **BOP de Toledo** | Confundir **órgano instructor** y **órgano resolutor**, o atribuir publicación al Consejo Rector |
+
+### Caso resuelto: ¿la Ley 39/2015 desplaza a la ley tributaria?
+
+No. Para los procedimientos tributarios rige la norma específica y la [**disposición adicional primera.2.a de la Ley 39/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#daprimera) prevé aplicación **supletoria** de la ley general cuando proceda. También lo indica el [**art. 97 de la Ley 58/2003, General Tributaria**](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a97). La pregunta **DIP-T22-008** citaba erróneamente el **art. 38 TREBEP** (negociación colectiva) como fundamento de esta respuesta: **referencia reparada en el banco sin cambiar la solución correcta**.
+
+> ⚠️ **¡Foco Examen!:** **TREBEP art. 38**: pactos y acuerdos de empleo público. **Ley 39/2015, DA primera** y **LGT art. 97**: aplicación específica y supletoria del procedimiento tributario. No confundir fuentes.
+
+**Alcance del cierre parcial:** **seis bloques de artículos de la reforma de 2011 contrastados con publicación primaria**, con reservas expresas respecto a modificaciones posteriores. **No** se considera acreditado el texto íntegro de los Estatutos originales publicados en **1996**, su rectificación y la eventual aprobación definitiva de reformas posteriores. Por ello el **tema 22 permanece EN_AUDITORIA**, sin certificar al 100 %.
