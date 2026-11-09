@@ -289,3 +289,12 @@ El preámbulo de la [**convocatoria BOE-A-2026-14624**](https://www.boe.es/diari
 **Criterio de estudio:** conservar la cita literal al describir la convocatoria y citar como norma de reforma de Estatutos el **Decreto 95/2009**, indicando por separado el posible error tipográfico del BOE de la convocatoria.
 
 > ⚠️ **¡Foco Examen!:** **Decreto 1/2003** aprueba los Estatutos; **Decreto 95/2009** modifica sus preceptos. **«05/2009»** aparece en el preámbulo del anuncio BOE de la oposición y no debe transformarse en referencia legal de respuesta sin contrastar el decreto original.
+
+
+## Revisión de LOSU y Estatutos — T14/T15 (09/11/2026)
+
+Se ha [**documentado un contraste focal con la LOSU y los Estatutos**](../../audit/UC3M_T14_T15_Y_MATRICES_RESTANTES_2026-11-09.md). En **T14**, los **12 bloques** de matriz tienen ya referencia a preguntas reales, incluidas las de movilidad, igualdad y conciliación. En **T15**, el bloque «Naturaleza de los Estatutos» contiene **2 preguntas de microtest en el manual** pero no en el banco JSON; la matriz identifica expresamente esta diferencia.
+
+**Fuentes fundamentales:** [**LOSU consolidada, arts. 64–66 y 78**](https://www.boe.es/eli/es/lo/2023/03/22/2), [**Estatutos UC3M, Decreto 1/2003, art. 1**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782) y **Decreto 95/2009**. Ningún estado `EN_REVISION_USUARIO` cambia automáticamente.
+
+> ⚠️ **¡Foco Examen!:** En el **art. 65.1 LOSU**, la preferencia por sexo menos representado se **puede establecer** en **igualdad de idoneidad**; no es una reserva automática e incondicional.
