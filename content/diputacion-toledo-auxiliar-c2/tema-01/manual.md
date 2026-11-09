@@ -1,6 +1,6 @@
 # Diputación de Toledo · Auxiliar Administrativo C2 · Tema 1
 
-> **Estado editorial operativo (02/11/2026): EN_REVISION_USUARIO.** El manual está disponible, pero la auditoría jurídica, las preguntas y las pruebas de la versión actual de la web **no están certificadas en su totalidad**. Las menciones siguientes a «completo», «publicado» o «revisado» describen **hitos documentales anteriores**, no el cierre actual. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
+> **Estado editorial operativo (09/11/2026): AUDITADO documental, conforme al manifiesto de Diputación C2.** El manual y el banco están disponibles y cuentan con revisiones editoriales previas; **la certificación jurídica y funcional integral sigue pendiente**, así como la ejecución E2E en navegador. La palabra «AUDITADO» **no equivale a CERTIFICADO_INTEGRAL**. Estado y tarea activa: [AUDITORIA_CONTINUA.md](../../../AUDITORIA_CONTINUA.md).
 
 **Estado editorial:** CONTENIDO COMPLETO Y PUBLICADO — revisión normativa documental **29/10/2026**. La prueba funcional en navegador es un control transversal separado.
 
