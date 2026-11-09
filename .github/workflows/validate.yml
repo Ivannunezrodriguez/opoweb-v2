@@ -158,6 +158,8 @@ jobs:
         run: node tests/validate-oapgt-fuentes-primarias-20261109.mjs
       - name: Verificar OAPGT BOP 2023 y prevenir certificación sin estatutos
         run: node tests/validate-oapgt-contratacion-2023-20261109.mjs
+      - name: Proteger reservas de Olías T13 y UC3M T10 T15 T16
+        run: node tests/validate-olias-uc3m-pendientes-20261109.mjs
       - name: Impedir fichas editoriales de Diputación desactualizadas
         run: node tests/validate-convocatorias-editorial-sync-20261109.mjs
       - name: Validar estructura conjunta de 121 temas de cinco convocatorias
