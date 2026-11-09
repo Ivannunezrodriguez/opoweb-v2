@@ -17,7 +17,12 @@ for (const topic of audited) {
 const ninth = program.temas.find(topic => topic.numero === 9);
 assert.equal(ninth.estado, 'AUDITADO', 'El tema técnico debe mantener su revisión demostrada');
 assert.equal(json(ninth.matriz).estado, 'AUDITADO');
-assert.equal(json(ninth.preguntas).preguntas.length, 12);
+const auditBank = json(ninth.preguntas).preguntas;
+assert.equal(auditBank.length, 12);
+for (const item of auditBank) {
+  assert.match(item.referencia, /https:\/\/(?:support\.microsoft\.com|support\.google\.com)\//, 'Referencia de fabricante ausente: ' + item.id);
+  assert.equal(item.respuestaLiteral, item.opciones[item.correcta], 'Respuesta histórica modificada: ' + item.id);
+}
 const package9 = json('data/uc3m-repasos-complementarios-20261106.json').paquetes.find(p => p.id === 'UC3M-ADIC-20261106-T09');
 assert.equal(package9.preguntas.length, 12);
 assert.ok(audited.length >= 1);
