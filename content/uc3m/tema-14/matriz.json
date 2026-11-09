@@ -94,7 +94,17 @@
       "preguntas": [],
       "norma": "Ley Organica 2/2023 del Sistema Universitario",
       "articulos": "65–66; 75–76",
-      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-12",
+        "UC3M-ADIC-20261106-LOTE-14"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "controlCobertura20261109": {
+        "tipo": "TRAZABILIDAD_COMPLEMENTARIA_SIN_CERTIFICACION",
+        "cotejo": "BOE-A-2023-7500",
+        "alcance": "LOSU, arts. 66.2 y 78 (derechos de movilidad y conciliación)"
+      }
     },
     {
       "bloque": "Personal técnico, de gestión y de administración y servicios",
@@ -122,7 +132,17 @@
       "preguntas": [],
       "norma": "Ley Organica 2/2023 del Sistema Universitario",
       "articulos": "65; 78",
-      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-13",
+        "UC3M-ADIC-20261106-LOTE-14"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "controlCobertura20261109": {
+        "tipo": "TRAZABILIDAD_COMPLEMENTARIA_SIN_CERTIFICACION",
+        "cotejo": "BOE-A-2023-7500",
+        "alcance": "LOSU, art. 65.1 y criterios de conciliación"
+      }
     }
   ],
   "incidenciasCorregidas": [
@@ -230,6 +250,13 @@
     ],
     "bancoOriginalModificado": false,
     "fechaCorteUC3M": "PENDIENTE_FUENTE_PRIMARIA",
+    "certificacionIntegral": false
+  },
+  "controlTrazabilidad20261109": {
+    "fecha": "2026-11-09",
+    "secciones": 12,
+    "seccionesConPreguntas": 12,
+    "fuenteLegal": "https://www.boe.es/eli/es/lo/2023/03/22/2",
     "certificacionIntegral": false
   }
 }
