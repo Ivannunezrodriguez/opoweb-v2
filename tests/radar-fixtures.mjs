@@ -137,6 +137,7 @@ const expectedOfficialSources = [
   ['Alcorcón', '1c3f9ae28d87abb0', 'https://www.ayto-alcorcon.es/es/servicios/empleo-publico'],
   ['SERMAS', '1b687b37f558575f', 'https://www.comunidad.madrid/salud/bolsas-contratacion-temporal-servicio-madrileno-salud'],
   ['Madrid bolsas', 'e89d3df4d3544dc4', 'https://sede.comunidad.madrid/bolsa-empleo'],
+  ['Valdemoro', '6a6895a33405fc78', 'https://www.valdemoro.es/ope'],
 ];
 // Pedanías distintas pueden compartir exactamente la misma web municipal.
 // Los alias con el mismo id deben tener la MISMA URL para evitar colisiones reales.
@@ -160,4 +161,4 @@ for (const [name,id,url] of expectedOfficialSources) {
  assert.equal(matches[0].url,url,'Official source URL has regressed: '+name);
  assert.equal(new URL(matches[0].url).protocol,'https:');
 }
-console.log('RADAR_3_OFFICIAL_SOURCES_URLS_IDS_STABLE_OK');
+console.log('RADAR_4_OFFICIAL_SOURCES_URLS_IDS_STABLE_OK');
