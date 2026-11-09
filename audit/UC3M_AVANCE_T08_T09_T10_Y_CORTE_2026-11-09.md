@@ -44,3 +44,21 @@ Se han reconsultado fichas oficiales de **Microsoft Support** aplicables a Word/
 - La ejecución satisfactoria del **CI asociado al último commit** todavía no se ha confirmado en esta auditoría.
 
 **Dictamen:** avance verificable de trazabilidad y cobertura de ejercicios, **no cierre integral de la convocatoria**.
+
+
+## 5. Ampliación efectiva a otros cuatro temas — 09/11/2026
+
+El cotejo de matrices ha localizado apartados con `preguntas: []` en los temas **T11, T12, T13 y T18**; en todos esos casos se encontraron preguntas correspondientes en el catálogo complementario ya publicado, por lo que se han enlazado **por ID real**, sin cambiar sus respuestas ni inventar preguntas.
+
+| Tema | Cobertura final de matriz | Apartados antes sin ID de pregunta que ahora enlazan a repaso existente |
+|---|---:|---|
+| **T11 · Acceso, provisión, incompatibilidades** | **12/12** | Marco/ámbito, convocatorias y selección |
+| **T12 · Prevención de riesgos laborales** | **17/17** | Ámbito, especial sensibilidad, consulta, coordinación empresarial |
+| **T13 · LOSU** | **12/12** | Cooperación institucional, estructuras, docencia, cooperación universitaria |
+| **T18 · Presupuestos universitarios** | **8/8** | Prórroga; tesorería y control |
+
+**Consolidado de esta sesión en UC3M:** **7 temas (T8, T9, T10, T11, T12, T13 y T18), 86 apartados trazados a preguntas existentes**, **84 preguntas históricas preservadas** y **56 referencias complementarias asignadas a bloques** (puede haber reutilización de un mismo ID en más de un apartado). La [prueba transversal reproducible](../tests/validate-uc3m-trazabilidad-7-temas-20261109.mjs) se añadió a `validate.yml`.
+
+**No se han auditado íntegramente los distractores ni levantado las reservas sobre fecha de corte legal.** Los **20 temas de UC3M** conservan formalmente `EN_REVISION_USUARIO`; esta mejora evidencia **trazabilidad pedagógica**, no `CERTIFICADO_INTEGRAL`.
+
+> ⚠️ **¡Foco Examen!:** **Cobertura 86/86 de referencias a test** no significa **86/86 bloques jurídicamente certificados**: las versiones de **TREBEP**, **LOSU** y **normativa UC3M** deben cotejarse con el corte normativo oficial.
