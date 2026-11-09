@@ -43,3 +43,11 @@ Se verificó de nuevo la [**página del callejero electoral del INE**](https://w
 **Trabajo sí realizado:** tabla de servicios y vías ampliada, distinción entre portales **1/7 de Plaza Constitución**, servicios de **Arenal, Flor, Higares, Cabañuelas, Toledo** y zonas residenciales, así como **21 preguntas y 84 alternativas** centradas en datos municipales o metodología INE. El **manual, matriz y banco** mantienen **EN_AUDITORIA** mientras no exista el listado íntegro y contrastado. **0 certificaciones integrales**.
 
 > ⚠️ **¡Foco Examen!:** Un fichero **TRAM** contiene tramos y una vía puede repetirse en distintas secciones; no contar filas de TRAM como número de calles. El tipo de vía y nombre proceden de **VIAS** y deben depurarse por municipio y código.
+
+## Cierre de fuente primaria INE — 09/11/2026
+
+Se han leído los ficheros originales **VIAS, PSEU, TRAM, SECC y UP** para provincia **45**, municipio **45122**, referencia **30/06/2026**. Resultado: **280 VIAS** con códigos y parejas tipo+denominación únicos, **0 PSEU**, **427 TRAM**, **5 SECC**, **13 UP**. **202** entradas de tipo CALLE. [Inventario íntegro y huellas SHA-256](callejero-ine-2026-06-30.md); [acta de auditoría](../../../audit/OLIAS_T13_CIERRE_INE_2026-11-09.md).
+
+**El bloqueo histórico de descarga del 08/11/2026 queda superado.** Los servicios municipales se atribuyen a directorios contrastados previamente; el INE verifica vías, no números de portales actuales. El plano municipal de ordenación aportado, fechado **1999**, es histórico y no sustituye al callejero electoral de 2026. **Estado editorial AUDITADO**; E2E y WCAG pendientes.
+
+> ⚠️ **¡Foco Examen!:** **427 TRAM** ≠ **280 VIAS** ≠ **202 CALLE**.
