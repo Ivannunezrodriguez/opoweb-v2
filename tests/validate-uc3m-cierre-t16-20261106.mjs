@@ -83,3 +83,17 @@ for(const [id,answer,article] of verificacionesNormativas){
  assert(q.referencia.includes(article),'Precepto de pregunta mal atribuido T16-'+id);
 }
 console.log('UC3M_T16_ARTS11_14_17_CINCO_CLAVES_VINCULADAS_BOE_OK');
+
+const qParcial=bank.preguntas.find(q=>q.id==='UC3M-T16-010');
+assert(qParcial.referencia.includes('1371214034625/Evaluacion_continua'),'T16-010: fuente correcta de 30 ECTS primer año');
+assert.equal(qParcial.respuestaLiteral,'30 ECTS');
+for(const [id,answer] of [['014','40 %'],['015','100 %']]) {
+ const q=bank.preguntas.find(q=>q.id==='UC3M-T16-'+id);
+ assert.equal(q.respuestaLiteral,answer);
+ assert(q.referencia.includes('1371215097947/'),'Fuente específica de normas evaluación: '+q.id);
+}
+assert(manual.includes('BOEL UC3M el 20/05/2025')&&manual.includes('extinción del curso correspondiente'));
+assert(manual.includes('Dirección del centro')&&manual.includes('Se computan'));
+assert(sources.includes('sede.uc3m.es/boel/anexo/10196/'));
+assert(sources.includes('Matrícula parcial = 30 ECTS'));
+console.log('UC3M_T16_MATRICULA_EVALUACION_TRANSICION_2025: fuentes y excepciones protegidas');
