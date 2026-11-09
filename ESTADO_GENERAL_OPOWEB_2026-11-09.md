@@ -101,6 +101,13 @@ El radar de empleo dispone de [**perfil configurable**](data/radar-profile.json)
 
 El commit `609ea760979d` (registro integral de auditoría) cuenta con [**GitHub Actions: validación success**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42577745317) y [**GitHub Pages: despliegue success**](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42577744307). Es prueba de ejecución de los **workflows**, **no** de navegación manual completa del portal. Los commits posteriores requieren su correspondiente resultado.
 
+
+### 3.4. Reparaciones focales de OpoRadar
+
+Tras la medición **42 READABLE / 118 PARTIAL / 46 ERROR**, se inspeccionaron causas del primer error de las **46** fuentes: **5 HTTP 403**, **6 HTTP 404**, **7 redirecciones**, **1 SSL**, **4 bloqueos anti-bot**, **2 HTML sin enlaces/JS**, **3 HTTP 5xx**, **18 otros**. Se repararon **tres rutas iniciales** hacia páginas oficiales de **Alcorcón**, **SERMAS** y **bolsas de la Comunidad de Madrid**, preservando ID e historial. Se añadió una aserción de regresión a `tests/radar-fixtures.mjs` y se documentó el alcance en [**docs/RADAR_EMPLEO.md**](docs/RADAR_EMPLEO.md).
+
+**Importante:** el estado **42/118/46** sigue siendo la **última instantánea previa a las correcciones**. Sin nueva ejecución de rastreo con red, no se puede afirmar reducción de errores ni detección de anuncios nuevos. El control de URLs no prueba conectividad HTTP posterior. Mantener SSL verificado y no sortear medidas anti-bot.
+
 ## 4. Problemas y riesgos ordenados por prioridad
 
 | Prioridad | Riesgo | Impacto | Condición de cierre |
