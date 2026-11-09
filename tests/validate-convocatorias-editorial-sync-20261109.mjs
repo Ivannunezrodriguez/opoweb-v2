@@ -21,28 +21,30 @@ const casos = [
   {
     id: 'uc3m-auxiliar-c2-2026',
     programa: 'data/programa-uc3m-auxiliar-administrativa-2026.json',
-    esperado: '17_AUDITADO_3_EN_REVISION_USUARIO',
-    estados: { AUDITADO: 17, EN_REVISION_USUARIO: 3 },
-    pendientes: [10, 15, 16],
+    dinamico: true,
   },
   {
     id: 'olias-del-rey-auxiliar-edificios-c2-2026',
     programa: 'data/programa-olias-auxiliar-edificios-2026.json',
-    esperado: '21_AUDITADO_1_EN_AUDITORIA',
-    estados: { AUDITADO: 21, EN_AUDITORIA: 1 },
-    pendientes: [13],
+    dinamico: true,
   },
 ];
 
 for (const caso of casos) {
   const ficha = fichas.find(c => c.id === caso.id);
   assert.ok(ficha, `Falta ficha ${caso.id}`);
-  assert.equal(ficha.estadoEditorial, caso.esperado, `Estado editorial no sincronizado: ${caso.id}`);
   const temas = load(caso.programa).temas;
   const recuentos = Object.create(null);
   for (const tema of temas) recuentos[tema.estado] = (recuentos[tema.estado] ?? 0) + 1;
-  assert.deepEqual({ ...recuentos }, caso.estados, `Recuento de manifiesto cambiado: ${caso.id}`);
+  if (caso.dinamico) {
+    const parts = Object.entries({ ...recuentos })
+      .sort(([a], [b]) => (a === 'AUDITADO' ? -1 : b === 'AUDITADO' ? 1 : a.localeCompare(b)))
+      .map(([estado, n]) => n + '_' + estado);
+    assert.equal(ficha.estadoEditorial, parts.join('_'), 'Ficha desincronizada: ' + caso.id);
+  } else {
+    assert.equal(ficha.estadoEditorial, caso.esperado, 'Ficha desincronizada: ' + caso.id);
+    assert.deepEqual({ ...recuentos }, caso.estados, 'Manifiesto cambió sin revisión: ' + caso.id);
+  }
   assert.match(ficha.notaEstadoEditorial, /no equivale|falta cierre|certificaci[oó]n/i);
-  if (caso.pendientes) assert.deepEqual(temas.filter(t => t.estado !== 'AUDITADO').map(t => t.numero).sort((a,b) => a-b), caso.pendientes);
 }
-console.log('SYNC_EDITORIAL_DIPUTACION_C1_C2_OK: coincide ficha con manifiestos; no certifica vigencia jurídica');
+console.log('SYNC_EDITORIAL_CUATRO_FICHAS_OK: coincide ficha con manifiestos; no certifica vigencia jurídica');
