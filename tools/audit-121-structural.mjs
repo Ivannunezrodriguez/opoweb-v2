@@ -38,6 +38,8 @@ for (const manifest of manifestPaths) {
         data.manuals++;
         const text = read(file);
         if (text.length < 400) add('WARN', manifest, n, kind, 'Manual con menos de 400 caracteres');
+        const operative = text.slice(0, 2500).match(/Estado editorial operativo[^:]*:\s*([A-Z_]+)/i);
+        if (operative && operative[1] !== theme.estado) add('WARN', manifest, n, kind, 'Estado operativo del manual ' + operative[1] + ' distinto al manifiesto ' + theme.estado);
         if (!/¡Foco Examen!|Foco Examen/i.test(text)) add('WARN', manifest, n, kind, 'Sin marcador de Foco Examen');
         if (!/\|[^\n|]+\|/.test(text)) add('WARN', manifest, n, kind, 'Sin tabla Markdown detectable');
         if (!/^#{1,4}\s+\S/m.test(text)) add('WARN', manifest, n, kind, 'Sin encabezados Markdown');
