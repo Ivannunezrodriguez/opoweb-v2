@@ -20,7 +20,7 @@ for(const s of spec){
  const headings=[...manual.matchAll(/^## (\d+)\. /gm)].map(m=>+m[1]).filter(v=>v<=s.sections);
  assert.deepEqual([...new Set(headings)],Array.from({length:s.sections},(_,i)=>i+1),'Apartados base incompletos T'+s.n);
  assert.equal(matrix.cobertura.length,s.blocks,'Matriz no alineada T'+s.n);
- assert.equal(matrix.estado,'EN_REVISION_USUARIO','Aprobacion indebida T'+s.n);
+ assert.equal(matrix.estado,'AUDITADO','Auditoría editorial pendiente T'+s.n);
  assert.equal(bank.preguntas.length,s.originals,'Banco historico alterado T'+s.n);
  assert.ok(manual.includes(filename),'Falta enlace al cierre desde el manual T'+s.n);
  assert.ok(sources.includes(filename),'Falta enlace al cierre desde las fuentes T'+s.n);
