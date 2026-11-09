@@ -196,3 +196,19 @@ En un test se propone que la tabla de edificios municipales cubre la totalidad d
 - [**Instituto Geográfico Nacional**](https://www.ign.es/web/rcc-nomenclator-nacional): cartografía y topónimos.
 
 **Control documental 08/11/2026 (rectificación del balance):** las fuentes municipales y el INE están diferenciadas por su alcance; **3 supuestos resueltos** y **21 preguntas / 84 alternativas** en el banco del tema. Se intentó recuperar el fichero provincial/nacional del INE para **julio de 2026**, pero el entorno no pudo resolver el dominio para descargar el ZIP. Por tanto, el inventario de vías de **Olías del Rey (45122)** continúa **sin extracción ni cotejo**. No atribuir cierre documental completo, prueba funcional ni cifra exhaustiva de calles. La matriz inicial de este manual se ha corregido para que cada inciso enlace la fuente verdaderamente pertinente.
+
+
+## Control INE de cobertura del callejero — **09/11/2026**
+
+El [**INE, Callejero del Censo Electoral**](https://www.ine.es/prodyser/callejero/) declara expresamente que su entrega es un conjunto de ficheros **ASCII comprimidos en ZIP** e independientes por provincia. Para la edición de **julio de 2026**, la **fecha de referencia es 30/06/2026**; el diseño de registro aplicable es el acordado por el **Consejo de Empadronamiento el 11/11/2009**, vigente para publicaciones desde **julio de 2025**.
+
+| Fichero oficial | Qué permite comprobar | Error de examen que hay que evitar |
+|---|---|---|
+| **VIAS** | Identificación de vías del municipio mediante códigos y denominaciones | Confundir un nombre repetido por distintas unidades o secciones con vías distintas |
+| **PSEU** | Pseudovías cuando las direcciones no se estructuran como vías convencionales | Considerarlas todas calles ordinarias |
+| **TRAM** | Tramos de vías en secciones censales, con numeración y código postal | Contar cada tramo como una calle nueva |
+| **UP / SECC** | Contexto poblacional y de sección | Atribuir al municipio registros de otro código |
+
+**Protocolo de cierre no ejecutado:** descargar la **edición oficial de julio de 2026**, filtrar la provincia **45 (Toledo)** y el municipio **45122 (Olías del Rey)**, interpretar **VIAS y PSEU** según su diseño, normalizar denominaciones sin borrar diferencias legítimas, documentar total y relación resultante, y cotejar los servicios del directorio municipal. **No se ha descargado ni leído íntegramente ese fichero de 2026 en esta revisión**. Por ello, esta sección sirve para distinguir qué prueba falta, **no** para afirmar que las calles de las tablas anteriores sean un listado completo.
+
+> ⚠️ **¡Foco Examen!:** Una calle puede atravesar **varios tramos censales**; **TRAM no cuenta calles distintas**. No memorizar una selección de direcciones de equipamientos como si fuese el **callejero municipal completo**.
