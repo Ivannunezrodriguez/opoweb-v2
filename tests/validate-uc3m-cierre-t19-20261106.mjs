@@ -7,7 +7,7 @@ const matrix=json(dir+'matriz.json'),bank=json(dir+'preguntas.json');
 const report=read(dir+'cotejo-integral-2026-11-04.md');
 const acta=read('content/uc3m/CIERRE_DOCUMENTAL_T19_20261106.md');
 const extra=json('data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json').preguntas.filter(q=>q.tema===19);
-assert.equal(matrix.estado,'EN_REVISION_USUARIO');
+assert.equal(matrix.estado,'AUDITADO','T19 ya auditado editorialmente');
 assert.equal(matrix.cobertura.length,6);
 assert.equal(bank.preguntas.length,12);
 const heads=[...manual.matchAll(/^## (\d+)\. /gm)].map(x=>Number(x[1])).filter(x=>x<=22);
