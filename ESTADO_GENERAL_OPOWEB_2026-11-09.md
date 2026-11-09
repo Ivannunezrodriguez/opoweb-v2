@@ -1,5 +1,7 @@
 # OpoWeb v2 — Estado general y auditoría pormenorizada
 
+> **Actualización del mismo 09/11/2026 — versión posterior al inventario inicial:** tras recibir ficheros **VIAS/PSEU/TRAM/SECC/UP del INE** con referencia **30/06/2026**, se publicó el [**callejero íntegro de Olías**](content/olias-auxiliar-edificios/tema-13/callejero-ine-2026-06-30.md), se auditó T13 y el manifiesto de Olías pasó a **22/22 AUDITADO**. En UC3M el manifiesto está en **17/20 AUDITADO**, con **T10/T15/T16 pendientes**; se recibió el **Anexo I definitivo firmado 30/09/2026** sin acreditar fecha de publicación de la resolución. **Cifras vigentes tras esta revisión: 97 AUDITADO, 19 La Puebla APROBADO_USUARIO históricos, 5 pendientes, 121 temas.** Los recuentos de 79, 20 UC3M pendientes y 3 bloqueos en las secciones inferiores pertenecen a una instantánea anterior. **No** confundir AUDITADO editorial con E2E/WCAG certificado.
+
 **Fecha de corte del presente informe:** 09/11/2026. **Repositorio:** [Ivannunezrodriguez/opoweb-v2](https://github.com/Ivannunezrodriguez/opoweb-v2). **Portal:** [OpoWeb](https://ivannunezrodriguez.github.io/opoweb-v2/).
 
 **Metodología:** recuperación de manifiestos de los cinco programas y del árbol GitHub; inspección de `README.md`, `package.json`, `index.html`, `practice.html`, `radar.html`, `manifest.json`, `sw.js`; lectura de los logs del flujo `Validar OpoWeb v2` y corrección de aserciones desactualizadas en tres ficheros de tests (en un cuarto cambio se ajustan dos claves históricas del validador, no las del banco).
