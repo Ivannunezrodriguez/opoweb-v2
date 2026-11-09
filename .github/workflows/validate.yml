@@ -87,6 +87,8 @@ jobs:
         run: node tests/validate-la-puebla-simulacro-metadata-20261107.mjs
       - name: Validar motor de simulacros de La Puebla
         run: node tests/validate-practice-exam.mjs
+      - name: Comprobar calificación y etiqueta de primer ejercicio La Puebla
+        run: node tests/validate-la-puebla-primer-ejercicio-20261109.mjs
       - name: Verificar 144 alternativas legales UC3M T1 T2 T3
         run: node tests/validate-uc3m-t01-t03-integral.mjs
       - name: Comprobar UC3M T5 artículo 46bis y T6 fecha de corte
