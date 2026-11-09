@@ -45,3 +45,15 @@ assert.ok(read(root+'GUIA_EXAMEN_2026.md').includes('CIERRE_DOCUMENTAL_T16_20261
 assert.ok(read('AUDITORIA_CONTINUA.md').includes('CIERRE_DOCUMENTAL_T16_20261106.md'));
 assert.equal(ids.size,27);
 console.log('UC3M T16 DOCUMENTAL: 7 BLOQUES, 27 PREGUNTAS, 108 ALTERNATIVAS, RD 822 + BOEL 2026; RESERVAS EXPLICITAS');
+
+const normativaPermanenciaPDF='https://e-archivo.uc3m.es/bitstreams/8bca1962-a6f6-487b-9f11-e73f3f97477d/download';
+for(const id of ['008','010','011','012','013']){
+ const q=bank.preguntas.find(q=>q.id==='UC3M-T16-'+id);
+ assert.ok(q?.referencia.includes(normativaPermanenciaPDF), 'Cita normativa UC3M T16 con URL no verificable: '+id);
+ assert.ok(!q.referencia.includes('/rest/api/core/bitstreams/'),'No reintroducir ruta REST previamente bloqueada: '+id);
+}
+for(const [id,correct] of [['010','30 ECTS'],['011','12'],['012','Dos años consecutivos'],['013','Cuatro']]){
+ const q=bank.preguntas.find(q=>q.id==='UC3M-T16-'+id);
+ assert.equal(q.respuestaLiteral,correct,'Dato de permanencia UC3M inconsistente: '+id);
+}
+console.log('UC3M_T16_CINCO_ENLACES_NORMA_PERMANENCIA_OFICIAL_OK');
