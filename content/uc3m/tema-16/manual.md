@@ -343,3 +343,18 @@ La [**sentencia del Tribunal Supremo publicada el 23/10/2026**](https://www.boe.
 **Cierre específico:** se han cotejado las **21 preguntas** respecto a la reforma anulada: **ninguna exige el texto del art. 22.4 introducido por RD 905/2025 ni la locución anulada «campo de estudio»** como respuesta. Sus claves no necesitan cambio **por esta sentencia**. Ello **no valida automáticamente la vigencia de toda normativa académica UC3M** ni resuelve la fecha primaria de corte del examen.
 
 > ⚠️ **¡Foco Examen!:** El **25 %** de prácticas curriculares en **Grado** se fundamenta en **art. 14.5 RD 822/2021**, mientras que el **art. 22** regula la **Mención Dual**. La anulación del **art. 22.4 redactado por RD 905/2025** no convierte en incorrecto el porcentaje de prácticas de **T16-018**.
+
+## Régimen especial de transición al extinguir planes de estudio — corrección oficial de **20/05/2025**
+
+La [**corrección de errores publicada en el BOEL UC3M el 20/05/2025**](https://sede.uc3m.es/boel/anexo/10196/) rectifica la Instrucción de **23/04/2025** de implantación/extinción de planes conforme al **RD 822/2021**. Regula un **régimen de transición para asignaturas del plan extinguido**, diferente de las convocatorias ordinarias generales del alumnado.
+
+| Cuestión | Regla publicada tras la corrección de **2025** |
+|---|---|
+| Plan de estudios sustituido, régimen general de transición | **4 convocatorias** durante los **2 cursos académicos siguientes a la extinción del curso correspondiente** |
+| Transición de titulaciones de ingeniería | Podrán concederse **6 convocatorias** durante los **3 cursos académicos siguientes a la extinción**, **solo si así lo establece la Dirección del centro** |
+| Convocatorias ya consumidas | **Se computan** las anteriores, tanto en la asignatura original como en la declarada **equivalente** del plan de transición |
+| Régimen paralelo de permanencia | Las convocatorias de transición siguen sujetas a las **normas de permanencia de UC3M** |
+
+**Punto jurídico corregido:** la publicación inicial hablaba de cursos siguientes a la **implantación** del nuevo plan; el texto rectificado dice **extinción del curso académico correspondiente**. No anticipar el comienzo del plazo.
+
+> ⚠️ **¡Foco Examen!:** **4 convocatorias/2 cursos** del régimen de transición **no son 4 nuevas convocatorias garantizadas además de las consumidas**. En ingeniería, **6 convocatorias/3 cursos** depende de decisión de **Dirección del centro**. No confundir con el régimen ordinario T16-013.
