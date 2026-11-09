@@ -144,3 +144,12 @@ La [**nota oficial de prensa de la Diputación de Toledo de 24/07/2015**](https:
 **Reserva:** no introducir **«siete vocales»** como respuesta indiscutible de un test de normativa vigente mientras no se coteje el texto original **BOP 235/1996**, su corrección, la aprobación definitiva de la reforma de **2004**, la modificación de **2011** y otros eventuales cambios. La nota institucional prueba el uso en la fecha indicada, **no la vigencia jurídica posterior**.
 
 > ⚠️ **¡Foco Examen!:** Una noticia oficial sobre cómo se constituyó un órgano en **2015** **no equivale** a demostrar su **composición legal en 2026**.
+
+
+## Delegaciones específicas en BOP 92/2023 — revisión de 09/11/2026
+
+[**Ficha compartida de BOP 92/2023**](../../diputacion-toledo-auxiliar-c2/tema-06/oapgt-contratacion-bop-2023.md): se han identificado por lectura de la publicación oficial **dos delegaciones distintas** (**Presidencia → Dirección** en representación y **Consejo Rector → Dirección** para **dos contratos concretos**). Los porcentajes históricos del acto de contratación (**10 %** y **5 %**) y el plazo de **cuatro años** **no quedan certificados como reglas estatutarias generales en 2026**. Además, el mismo boletín atribuye las funciones del Consejo Rector al **art. 10** en unos párrafos y al **art. 9** en otro: **discordancia de numeración sin resolver**.
+
+La captura visual del PDF no se completó. **Mantener el bloqueo documental** hasta cotejar Estatutos originales, correcciones y reformas definitivas.
+
+> ⚠️ **¡Foco Examen!:** No transformar la delegación para **dos expedientes** en atribución general de contratación a la **Dirección**, ni el **art. 9/10** contradictorio de una publicación histórica en clave de test actual.
