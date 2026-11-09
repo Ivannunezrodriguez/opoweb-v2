@@ -30,7 +30,7 @@ for(const x of expected){
   assert.ok(/^https:\/\/www\.boe\.es\/buscar\/act\.php\?id=BOE-A-[0-9-]+#a/.test(q.referencia),'Referencia precisa '+q.id);nExtra++;
  }
  const closure=matrix.cierreDocumentalT10T11_20261106;
- assert.equal(matrix.estado,'EN_REVISION_USUARIO');
+ assert.equal(matrix.estado, x.n === 10 ? 'EN_REVISION_USUARIO' : 'AUDITADO', 'Estado editorial actualizado T'+x.n);
  assert.equal(closure?.resultado,'CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS');
  assert.equal(closure?.bloquesMatriz,x.blocks);assert.equal(closure?.preguntasComplementarias,x.extra);
  assert.equal(closure?.aprobacionUsuario,false);assert.equal(closure?.certificacionIntegral,false);
