@@ -441,3 +441,18 @@ El T18 y el T19 **ya no están bloqueados por falta de acceso al Volumen I**. Si
 > ⚠️ **¡Foco Examen!:** **3 años** para adaptar los **Estatutos** tras la modificación de **2024**; **2 años** era la versión original y también es un plazo de **otra transitoria distinta** sobre contabilidad analítica. **No** mezclar.
 
 **Estado actual: T15 EN_REVISION_USUARIO** hasta resolver la compatibilidad de la regulación estatutaria histórica con los mínimos de la LOSU. **T18 y T19 ya AUDITADO** por acceso al PDF primario del Presupuesto 2026.
+
+
+## Tabla de decisión normativa T10, T15 y T16 — control de **09/11/2026**
+
+La [**base primera.7 (BOE-A-2026-14624)**](https://boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) establece como referencia temporal **la publicación de la resolución que aprueba las listas definitivas y anuncia el ejercicio**. El [**portal de empleo UC3M**](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) contiene el epígrafe de resolución definitiva, pero **no se dispone aquí del documento original con fecha de publicación verificable**. El **01/10/2026**, difundido por [ADAMS](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/), es **indicio secundario**.
+
+| Tema | Situación que exige distinción | Regla de estudio hasta certificar fecha primaria |
+|---|---|---|
+| **T10 TREBEP** | Reforma del **art. 49.e** publicada **03/10/2026**, con entrada en vigor posterior | Separar publicación, vigencia y corte del examen; mantener identificadas las redacciones |
+| **T15 Estatutos y LOSU** | Estatutos **2003/2009** frente a LOSU y derecho transitorio; adaptación de **3 años** tras Ley 1/2024 | No trasladar sin prueba cifras históricas de Claustro a 2026 |
+| **T16 enseñanzas** | Sentencia del TS publicada **23/10/2026** anuló **RD 905/2025**, modificador del **RD 822/2021** | **RD 822/2021 no fue anulado**; determinar redacción al corte y efectos de nulidad |
+
+**Puerta de cierre:** guardar la resolución definitiva UC3M con **fecha primaria de publicación**, establecer versión temporal de cada norma y revisar las **12 preguntas del T10**, **21 del T15** y el banco del T16 antes de modificar estados. Ningún tema se promueve por un dato secundario.
+
+> ⚠️ **¡Foco Examen!:** Publicación de reforma, entrada en vigor y publicación de sentencia son **hechos jurídicos distintos**; el **corte oficial de las bases** decide la legislación exigible.
