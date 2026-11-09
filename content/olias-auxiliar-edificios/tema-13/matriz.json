@@ -3,8 +3,8 @@
   "numeroEnBloque": 8,
   "bloque": "especifica",
   "epigrafeOficial": "El término municipal de Olías del Rey y localización de los distintos servicios municipales. Callejero municipal.",
-  "estado": "EN_AUDITORIA",
-  "control": "2026-11-04",
+  "estado": "AUDITADO",
+  "control": "2026-11-09",
   "fuentePrograma": "BOP Toledo 204/2026; anuncio 4833; CSV 2026.00004833",
   "filas": [
     {
@@ -35,7 +35,7 @@
       "inciso": "Callejero y uso de cartografía oficial",
       "norma": "Ayuntamiento «Situación y Callejero»; INE Callejero Censo Electoral (VIAS, PSEU, TRAM), edición julio 2026",
       "articulos": "Fuente territorial/administrativa; no precepto normativo",
-      "contenidoExigible": "Identificar vías y tramos con referencia 30/06/2026; aún pendiente descargar, filtrar 45122 y contrastar listado íntegro"
+      "contenidoExigible": "Inventario oficial íntegro VIAS/PSEU a 30/06/2026; 280 vías tipadas, 0 pseudovías, 427 tramos; directorio de servicios cotejado por separado"
     },
     {
       "inciso": "Método de estudio para localizar servicios",
@@ -59,6 +59,24 @@
     "alternativas": 84,
     "fuenteINE": "https://www.ine.es/prodyser/callejero/",
     "falta": "Extracción del ZIP provincial para Toledo, julio 2026, tabla VIAS/PSEU para INE 45122",
+    "certificacionIntegral": false
+  },
+  "controlINE20261109": {
+    "estado": "COTEJADO_PRIMARIO",
+    "municipioINE": "45122",
+    "fechaReferencia": "2026-06-30",
+    "vias": 280,
+    "paresTipoNombreUnicos": 280,
+    "nombresSinTipo": 263,
+    "pseudovias": 0,
+    "tramos": 427,
+    "secciones": 5,
+    "unidadesPoblacionales": 13,
+    "callesTipoCALLE": 202,
+    "fuente": "content/olias-auxiliar-edificios/tema-13/callejero-ine-2026-06-30.md",
+    "acta": "audit/OLIAS_T13_CIERRE_INE_2026-11-09.md",
+    "preguntasVerificadas": 21,
+    "alternativas": 84,
     "certificacionIntegral": false
   }
 }
