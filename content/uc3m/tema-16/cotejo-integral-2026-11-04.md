@@ -127,7 +127,7 @@
 
 > ⚠️ **¡Foco Examen!:** Matricularse no implica superar.
 
-### UC3M-T16-009 — En la información académica UC3M, un crédito ECTS equivale a:
+### UC3M-T16-009 — Según la normativa UC3M sobre organización del Trabajo Fin de Grado, ¿qué dedicación se prevé por cada crédito ECTS del TFG?
 
 **Fuente:** **Información académica UC3M: ECTS**. **Respuesta: A**. **Literal:** 25 horas.
 
