@@ -138,6 +138,15 @@ jobs:
         run: node tests/validate-oapgt-contratacion-2023-20261109.mjs
       - name: Validar estructura conjunta de 121 temas de cinco convocatorias
         run: node tests/validate-all-programmes.mjs
+      - name: Auditar los 121 manuales, matrices y bancos de preguntas
+        run: node tools/audit-121-structural.mjs
+      - name: Conservar informe estructural 121 temas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-121-structural
+          path: audit/generated/audit-121-structural.json
+          if-no-files-found: warn
       - name: Cotejar 80 alternativas de empleo publico Castilla-La Mancha Diputacion C2 T7
         run: node tests/validate-diputacion-c2-t7-integral.mjs
       - name: Cotejar 240 alternativas y 10 mejoras tributarias de Diputacion C2 temas 11-13
