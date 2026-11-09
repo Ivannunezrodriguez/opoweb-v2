@@ -59,7 +59,7 @@ const review = readFileSync('assets/practice-review.js', 'utf8');
 assert.match(review, /'diputacion-toledo-auxiliar-c2-2026':\s*\{\s*progressKey: 'opoweb-diputacion-auxiliar-c2-practice-progress-v1'/,
   'El seguimiento de errores del C2 debe tener su propia clave');
 const page = readFileSync('practice.html', 'utf8');
-assert.match(page, /assets\/practice\.js\?v=2026\.11\.09\.1/,
+assert.match(page, /assets\/practice\.js\?v=2026\.11\.09\.2/,
   'Bump de versión obligatorio para no mostrar el JS antiguo en caché');
 assert.match(source, /Preguntas en revisión jurídica/,
   'Los temas sin preguntas auditadas deben mostrarse deshabilitados');
