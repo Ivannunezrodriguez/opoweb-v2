@@ -279,18 +279,32 @@
       "numero": 8,
       "titulo": "Ley Orgánica 3/2007 de igualdad; normativa UC3M sobre igualdad, identidad y expresión de género, no discriminación y acoso; III Plan de Igualdad de la UC3M.",
       "bloque": "generales",
-      "estado": "EN_REVISION_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/uc3m/tema-08/manual.md",
       "fuentes": "content/uc3m/tema-08/fuentes.md",
       "matriz": "content/uc3m/tema-08/matriz.json",
       "preguntas": "content/uc3m/tema-08/preguntas.json",
-      "estadoRevisionDocumental": "DESARROLLO_COMPLETO_CON_RESERVA_CORTE",
-      "revisadoEl": "2026-11-08",
+      "estadoRevisionDocumental": "AUDITADO_JURIDICO_INSTITUCIONAL_CON_RESERVA_FUNCIONAL",
+      "revisadoEl": "2026-11-09",
       "reservas": [
-        "Fecha primaria de corte legal de convocatoria no certificada",
-        "Aprobación del usuario pendiente",
-        "Certificación funcional integral pendiente"
-      ]
+        "Fecha de publicación de resolución definitiva de UC3M pendiente de prueba primaria",
+        "No se han verificado todavía navegación real y accesibilidad",
+        "Aprobación del usuario pendiente"
+      ],
+      "actaAuditoria": "audit/UC3M_T08_AUDITORIA_IGUALDAD_2026-11-09.md",
+      "certificacionIntegral": false,
+      "auditoriaJuridica20261109": {
+        "fecha": "2026-11-09",
+        "norma": "LO 3/2007",
+        "plan": "III Plan Igualdad UC3M 2025-2029",
+        "protocolo": "II Protocolo acoso UC3M",
+        "preguntas": 12,
+        "alternativas": 48,
+        "bloques": 13,
+        "fuentesPrimariasPorPregunta": true,
+        "pruebaNavegadorE2E": false,
+        "certificacionIntegral": false
+      }
     },
     {
       "numero": 9,
