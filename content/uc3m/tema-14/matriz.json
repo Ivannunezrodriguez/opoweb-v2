@@ -150,7 +150,7 @@
     "El borrador omitía la reserva mínima del 5 % del presupuesto para programas propios de investigación.",
     "Se precisa que el objetivo del 1 % del PIB se encuadra en el plan de incremento del gasto público para 2030."
   ],
-  "estado": "EN_REVISION_USUARIO",
+  "estado": "AUDITADO",
   "revisionFocalizada20261103": {
     "fecha": "2026-11-03",
     "articulos": "LOSU 45.3 y 46.3",
@@ -258,5 +258,17 @@
     "seccionesConPreguntas": 12,
     "fuenteLegal": "https://www.boe.es/eli/es/lo/2023/03/22/2",
     "certificacionIntegral": false
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T14_AUDITORIA_LOSU_II_2026-11-09.md",
+    "fuente": "BOE-A-2023-7500",
+    "bloques": 12,
+    "preguntasOriginales": 14,
+    "alternativas": 56,
+    "alertaVigenciaPosterior": "RD 855/2026 publicado 22/10/2026",
+    "certificacionIntegral": false,
+    "pruebaE2E": false
   }
 }
