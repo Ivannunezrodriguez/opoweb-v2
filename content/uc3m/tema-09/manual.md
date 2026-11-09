@@ -1,5 +1,7 @@
 # Tema 9. Ofimática y herramientas Google
 
+> **Estado vigente 09/11/2026: AUDITADO técnico-editorial.** [**Acta de cotejo y reservas**](../../../audit/UC3M_T09_AUDITORIA_TECNICO_EDITORIAL_2026-11-09.md). **No es CERTIFICADO_INTEGRAL**: aprobación de usuario, pruebas de navegador/accesibilidad y CI definitivo siguen pendientes.
+
 > Epígrafe oficial: procesadores de texto y hojas de cálculo: Word 2019 y Excel 2019; herramientas Google: Gmail, Drive, Docs, Sheets y Calendar; correo electrónico.
 
 ## 1. Word 2019: entorno y documentos
