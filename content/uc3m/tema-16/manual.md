@@ -329,3 +329,17 @@ Esta reparación no implica revisión jurídica integral de las restantes respue
 **Cuestión no resuelta:** el alcance temporal jurídico de la nulidad y la base **primera.7** de la convocatoria UC3M requieren lectura conjunta. No se pueden aplicar automáticamente ni el consolidado del **09/11/2026** ni una redacción de **01/10/2026** sin valorar los efectos de la sentencia en los artículos preguntados. **El tema permanece `EN_REVISION_USUARIO`** hasta que se cierre ese contraste.
 
 > ⚠️ **¡Foco Examen!:** Se anuló el **RD 905/2025**, **no** todo el **RD 822/2021**. La sentencia fue de **06/10/2026** y se publicó el **23/10/2026**: son fechas distintas y ninguna sustituye automáticamente el corte de la base **primera.7**.
+
+## Cierre de incidencia de anulación del RD 905/2025 en el banco T16 — **09/11/2026**
+
+La [**sentencia del Tribunal Supremo publicada el 23/10/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083) anuló el **RD 905/2025**, no el **RD 822/2021**. El [**artículo cuarto del RD 905/2025**](https://www.boe.es/buscar/act.php?id=BOE-A-2025-20002) había modificado específicamente **art. 22.4** y reemplazado expresiones **«ámbito de conocimiento» por «campo de estudio»** en varios preceptos del RD 822/2021.
+
+| Banco T16 | Preceptos de las preguntas | ¿Afecta directamente la reforma anulada? |
+|---|---|---|
+| **T16-001 a T16-008** | Estructura de títulos, ECTS, acceso, memoria, reconocimiento y acreditación | **No se pregunta por el cambio terminológico** de los preceptos modificados |
+| **T16-009 a T16-015** | Normas académicas **UC3M**, permanencia y evaluación | **No** depende de la modificación del **art. 22.4** |
+| **T16-016 a T16-021** | Reconocimiento, prácticas, TFG/TFM y créditos | La **T16-018** utiliza **art. 14.5** para máximo del **25 %** de prácticas en Grado; la referencia al **art. 22** es por **Mención Dual**, **no** por el modificado **22.4** |
+
+**Cierre específico:** se han cotejado las **21 preguntas** respecto a la reforma anulada: **ninguna exige el texto del art. 22.4 introducido por RD 905/2025 ni la locución anulada «campo de estudio»** como respuesta. Sus claves no necesitan cambio **por esta sentencia**. Ello **no valida automáticamente la vigencia de toda normativa académica UC3M** ni resuelve la fecha primaria de corte del examen.
+
+> ⚠️ **¡Foco Examen!:** El **25 %** de prácticas curriculares en **Grado** se fundamenta en **art. 14.5 RD 822/2021**, mientras que el **art. 22** regula la **Mención Dual**. La anulación del **art. 22.4 redactado por RD 905/2025** no convierte en incorrecto el porcentaje de prácticas de **T16-018**.
