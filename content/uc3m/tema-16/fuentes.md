@@ -185,3 +185,12 @@ Se ha cotejado la estructura completa de los **bancos originales de UC3M T16–T
 Se han actualizado **preguntas**, **manual** y esta ficha de fuentes sin alterar posiciones correctas ni alternativas. **No** es una confirmación de fecha de corte de la convocatoria UC3M ni una validación E2E.
 
 > ⚠️ **¡Foco Examen!:** **Art. 5.2 RD 822/2021 = cursos de 60 ECTS**; **art. 4.5 RD 1125/2003 = 25–30 h/ECTS**; **normativa TFG UC3M = 25 h/ECTS** en ese contexto.
+
+
+## Fuentes primarias adicionales verificadas — **09/11/2026**
+
+- [**UC3M: Evaluación continua, apartado «Estudiantes que trabajan»**](https://www.uc3m.es/ss/Satellite/Grado/es/TextoMixta/1371214034625/Evaluacion_continua): primera matrícula a tiempo parcial **30 ECTS** y siguientes **mínimo 18 ECTS**. Corregida la referencia de la **T16-010**, que antes atribuía esa cifra al texto general de permanencia, sin evidencia específica del inciso.
+- [**UC3M: Normas de evaluación de Grado**](https://www.uc3m.es/ss/Satellite/Grado/es/TextoMixta/1371215097947/): **40 %** mínimo de evaluación continua, examen final ordinario del **60 %** para quien no siguió evaluación continua, y extraordinario del **100 %** en los supuestos ordinarios con convocatoria extraordinaria. Actualizadas las **T16-014 y T16-015**.
+- [**BOEL UC3M 20/05/2025: corrección de errores de Instrucción de 23/04/2025 sobre implantación y extinción de planes**](https://sede.uc3m.es/boel/anexo/10196/): transición del plan extinguido, **4 convocatorias en 2 cursos académicos** siguientes a la **extinción del curso**, y excepcionalmente **6 en 3 cursos** en ingeniería si lo establece **Dirección del centro**; se descuentan las convocatorias previas consumidas. Es un bloque adicional del manual, no modifica sin más la respuesta de **T16-013** sobre régimen ordinario.
+
+> ⚠️ **¡Foco Examen!:** **Matrícula parcial = 30 ECTS el primer año**; **permanencia** es una exigencia distinta; y el régimen de **transición de planes extinguidos** comienza tras la **extinción** del curso correspondiente, no tras la implantación del plan nuevo.
