@@ -14,7 +14,7 @@ for (const topic of audited) {
   // Las actas preexistentes expresan una reserva de certificación con terminología
   // equivalente (p. ej. «Certificación integral: NO» o «E2E pendiente»).
   // Exigir un límite explícito en vez de dos frases literales arbitrarias.
-  const limite = /(?:no (?:se )?(?:ha )?(?:verificad[oa]|acreditad[oa]|certificad[oa]|declara)|sin (?:certificaci[oó]n|prueba)|pendiente(?:s)?|certificaci[oó]n integral\\s*[:=]\\s*NO|CERTIFICADO_INTEGRAL\\s*[:=]\\s*NO)/i;
+  const limite = /(?:no\s+(?:(?:se|ha)\s+)*(?:verificad[oa]|acreditad[oa]|certificad[oa]|certifica|declara|constituyen)|sin\s+(?:certificaci[oó]n|prueba)|pendiente(?:s)?|certificaci[oó]n\s+integral\s*[:=]\s*NO|CERTIFICADO_INTEGRAL\s*[:=]\s*NO)/i;
   const alcance = /(?:E2E|navegador|accesibilidad|certificaci[oó]n integral|CERTIFICADO_INTEGRAL|GitHub Actions|CI)/i;
   assert.ok(limite.test(proof) && alcance.test(proof),
     'Acta sin reservas de certificación funcional explícitas: T' + topic.numero);
