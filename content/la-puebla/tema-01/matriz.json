@@ -1,7 +1,7 @@
 {
   "tema": 1,
   "epigrafeOficial": "La Constitución española de 1978. Estructura. La reforma constitucional. Derechos y deberes fundamentales de los españoles. Garantía y suspensión.",
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "aprobadoEl": "2026-07-17",
   "fechaRevisionNormativa": "2026-11-04",
   "vigencia": {
@@ -67,5 +67,12 @@
     ],
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "certificacionCincoCapas": false
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "revisionAdicional": "../CIERRE_FOCAL_T01_T04_20261106.md",
+    "aprobadoHistoricamente": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
