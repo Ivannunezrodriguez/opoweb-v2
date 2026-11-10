@@ -84,3 +84,10 @@ La [**Ley 4/2026 (BOE-A-2026-20528)**](https://www.boe.es/buscar/doc.php?id=BOE-
 La fecha **01/10** sigue siendo **secundaria**; la firma electrónica de **30/09** también **no acredita publicación**. La reserva para certificación integral es exclusivamente esa fecha primaria y el cotejo jurídico global restante, **no** una supuesta igualdad entre publicación y vigencia.
 
 > ⚠️ **¡Foco Examen!:** **03/10 publicación de ley ≠ 23/10 entrada en vigor**. Si las listas ya estaban publicadas el **07/10**, la reforma no estaba vigente a su corte.
+
+
+## Control transversal de corte UC3M — 10/11/2026
+
+Consultar [**dossier jurídico compartido T10/T15/T16**](../CONTROL_CORTE_T10_T15_T16_20261110.md): diferencia fecha de firma, publicación y examen, documenta reforma TREBEP **03/10/2026** (vigente **23/10/2026**), fricción de Estatutos **2003/2009** con **LOSU** y distinción entre **ECTS estatal e institucional**. **Fecha exacta de publicación de definitivos sin diligencia primaria**: el **01/10/2026** es secundario. No implica cierre integral ni cambio de clave/estado.
+
+> ⚠️ **¡Foco Examen!:** La **base primera.7** fija **publicación de listas definitivas** como corte, no el examen del **21/11/2026**.
