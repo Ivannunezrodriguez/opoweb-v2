@@ -1,6 +1,6 @@
 {
   "tema": 9,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "epigrafeOficial": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
   "fechaRevisionNormativa": "2026-11-04",
   "trazabilidadArticuloPorArticulo": "content/la-puebla/tema-09/articulos.md",
@@ -159,5 +159,11 @@
       "revision legal articulo por articulo hasta examen",
       "sin reabrir aprobacion historica del usuario"
     ]
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "aprobacionHistorica": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
