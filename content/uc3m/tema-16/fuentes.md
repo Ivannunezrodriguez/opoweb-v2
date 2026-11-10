@@ -194,3 +194,10 @@ Se han actualizado **preguntas**, **manual** y esta ficha de fuentes sin alterar
 - [**BOEL UC3M 20/05/2025: corrección de errores de Instrucción de 23/04/2025 sobre implantación y extinción de planes**](https://sede.uc3m.es/boel/anexo/10196/): transición del plan extinguido, **4 convocatorias en 2 cursos académicos** siguientes a la **extinción del curso**, y excepcionalmente **6 en 3 cursos** en ingeniería si lo establece **Dirección del centro**; se descuentan las convocatorias previas consumidas. Es un bloque adicional del manual, no modifica sin más la respuesta de **T16-013** sobre régimen ordinario.
 
 > ⚠️ **¡Foco Examen!:** **Matrícula parcial = 30 ECTS el primer año**; **permanencia** es una exigencia distinta; y el régimen de **transición de planes extinguidos** comienza tras la **extinción** del curso correspondiente, no tras la implantación del plan nuevo.
+
+
+## Control transversal de corte UC3M — 10/11/2026
+
+Consultar [**dossier jurídico compartido T10/T15/T16**](../CONTROL_CORTE_T10_T15_T16_20261110.md): diferencia fecha de firma, publicación y examen, documenta reforma TREBEP **03/10/2026** (vigente **23/10/2026**), fricción de Estatutos **2003/2009** con **LOSU** y distinción entre **ECTS estatal e institucional**. **Fecha exacta de publicación de definitivos sin diligencia primaria**: el **01/10/2026** es secundario. No implica cierre integral ni cambio de clave/estado.
+
+> ⚠️ **¡Foco Examen!:** La **base primera.7** fija **publicación de listas definitivas** como corte, no el examen del **21/11/2026**.
