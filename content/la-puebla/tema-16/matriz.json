@@ -1,6 +1,6 @@
 {
   "tema": 16,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "epigrafeOficial": "Microsoft Windows II. Navegación por Internet con Microsoft Internet Explorer y Microsoft Edge.",
   "fechaRevisionTecnica": "2026-07-18",
   "referenciaPrincipal": "Microsoft Edge",
@@ -229,5 +229,12 @@
     "informe": "content/la-puebla/tema-16/cotejo-integral-2026-11-04.md",
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "tipo": "revisión individualizada de alternativas, no certificación exhaustiva del portal"
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "ambito": "TECNICO_EDITORIAL",
+    "aprobacionHistorica": "2026-07-18",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
