@@ -30,7 +30,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261110-88",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -66,7 +66,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261110-89",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -102,7 +102,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261110-90",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -138,7 +138,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115080;0&insert_number=5094&insert_year=2026",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -173,7 +173,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115123;0&insert_number=5140&insert_year=2026",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -208,7 +208,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115124;0&insert_number=5141&insert_year=2026",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -243,7 +243,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115125;0&insert_number=5142&insert_year=2026",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -278,7 +278,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115126;0&insert_number=5143&insert_year=2026",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -313,7 +313,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115073;0&insert_number=5090&insert_year=2026",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Oferta de empleo (sin convocatoria)",
@@ -348,7 +348,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115143;0&insert_number=5159&insert_year=2026",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": "técnico de biblioteca",
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -383,7 +383,7 @@
       "officialUrl": "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2026/11/10/html/2026_7984.html&tipo=rutaDocm",
       "verifiedAt": "2026-11-10",
       "firstSeen": "2026-11-10",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -395,8 +395,7 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-10",
       "enrichmentVersion": 2,
-      "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "7a08e9bc8e055b818521",
@@ -41462,46 +41461,43 @@
     {
       "source": "DIRECT",
       "ok": false,
-      "checkedAt": "2026-11-10T13:28:05.858Z"
+      "checkedAt": "2026-11-10T21:17:50.756Z"
     },
     {
       "source": "BOE",
       "ok": true,
-      "checkedAt": "2026-11-10T13:28:05.858Z"
+      "checkedAt": "2026-11-10T21:17:50.756Z"
     },
     {
       "source": "BOCM",
-      "ok": true,
-      "checkedAt": "2026-11-10T13:28:05.858Z"
+      "ok": false,
+      "checkedAt": "2026-11-10T21:17:50.756Z"
     },
     {
       "source": "BOP Toledo",
       "ok": true,
-      "checkedAt": "2026-11-10T13:28:05.858Z"
+      "checkedAt": "2026-11-10T21:17:50.756Z"
     },
     {
       "source": "DOCM",
       "ok": true,
-      "checkedAt": "2026-11-10T13:28:05.858Z"
+      "checkedAt": "2026-11-10T21:17:50.756Z"
     },
     {
       "source": "PAG",
       "ok": true,
-      "checkedAt": "2026-11-10T13:28:05.858Z"
+      "checkedAt": "2026-11-10T21:17:50.756Z"
     }
   ],
   "directSourceStatus": [],
   "enrichmentStatus": {
-    "attempted": 63,
-    "read": 8,
-    "withDetails": 5,
-    "failures": 55,
+    "attempted": 25,
+    "read": 1,
+    "withDetails": 0,
+    "failures": 24,
     "failureReasons": {
-      "PDF_NO_EXTRAIBLE": 31,
-      "TIMEOUT": 2,
-      "OTRO": 10,
-      "HTTP 404": 11,
-      "TEXTO_INSUFICIENTE": 1
+      "PDF_NO_EXTRAIBLE": 23,
+      "OTRO": 1
     },
     "asOf": "2026-11-10",
     "explanation": "Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes."
