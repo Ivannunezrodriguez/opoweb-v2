@@ -25,14 +25,14 @@
 
 | Convocatoria | Temas | `AUDITADO` | `APROBADO_USUARIO` histórico | Pendiente editorial | Progreso de estado registrado |
 |---|---:|---:|---:|---:|---:|
-| **La Puebla de Montalbán · Auxiliar C2** | **19** | **4** | **15** | **0** | **19/19 = 100 %**, **4** auditorías documentales y **15** aprobaciones históricas |
+| **La Puebla de Montalbán · Auxiliar C2** | **19** | **8** | **11** | **0** | **19/19 = 100 %**, **8** auditorías documentales y **11** aprobaciones históricas |
 | **Olías del Rey · Auxiliar edificios C2** | **22** | **22** | **0** | **0** | **22/22 = 100 %**, auditoría editorial; E2E pendiente |
 | **Diputación Toledo · Administrativo C1** | **40** | **39** | **0** | **1** (T22 OAPGT) | **39/40 = 97,5 %** |
 | **Diputación Toledo · Auxiliar C2** | **20** | **19** | **0** | **1** (T6 OAPGT) | **19/20 = 95 %** |
 | **UC3M · Auxiliar C2** | **20** | **17** | **0** | **3** (T10/T15/T16) | **17/20 = 85 %** |
-| **TOTAL** | **121** | **101** | **15** | **5** | **116/121 = 95,9 % editorial mixto** |
+| **TOTAL** | **121** | **105** | **11** | **5** | **116/121 = 95,9 % editorial mixto** |
 
-**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 101 AUDITADO + 15 APROBADO_USUARIO históricos + 5 pendientes`.
+**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 105 AUDITADO + 11 APROBADO_USUARIO históricos + 5 pendientes`.
 
 **Certificación integral acreditada: 0/121 (0 %)**. Implica legislación y versiones vigentes, cotejo exhaustivo de todas las preguntas y alternativas, E2E real en navegador y móvil, accesibilidad y evidencia/aceptación; **no** equivale a que haya 121 contenidos incorrectos. El porcentaje **95,9 %** tampoco puede interpretarse como exactitud jurídica verificada.
 
@@ -49,7 +49,7 @@
 
 | Archivo / fuente | Lectura correcta | Acción para evitar errores |
 |---|---|---|
-| `data/programa.json` | **T01–T04 AUDITADO**, **T05–T19 APROBADO_USUARIO**; se conservan aprobaciones del **17/07/2026** | Migración documental acreditada **10/11/2026**, sin certificación E2E |
+| `data/programa.json` | **T01–T08 AUDITADO**, **T09–T19 APROBADO_USUARIO**; se conservan aprobaciones del **17/07/2026** | Migración documental acreditada **10/11/2026**, sin certificación E2E |
 | `audit/PHASE2_CLOSURE.md`, `TRANSVERSAL_REVIEW.md` | Cierre verificable de **fase 2 en julio** sobre un commit, no garantía perpetua | Conservar como **histórico**, remitir aquí |
 | `audit/phase2-ci-result.md` | Resultado de una **ejecución/commit determinado**, no de todos los commits siguientes | Conservar evidencia; no usar como prueba CI actual |
 | `data/programa-diputacion-auxiliar-c2-2026.json` | El valor anterior `PUBLICADO` no estaba respaldado por una verificación completa; tema 6 sigue incompleto | Normalizar estados a **EN_REVISION_USUARIO** (19) y **BORRADOR** (tema 6) |
@@ -3872,3 +3872,19 @@ Se ha creado [**CONTROL_CIERRE_TEMARIOS_2026-11-09.md**](CONTROL_CIERRE_TEMARIOS
 **Nuevo contador:** **101 AUDITADO + 15 APROBADO_USUARIO histórico + 5 pendientes = 121**. **0/121 certificaciones integrales**. `npm test` / GitHub Actions sobre este commit **aún pendientes de ejecutar o verificar**, no atribuir éxito a CI histórica.
 
 **Siguiente cola:** **La Puebla T05–T08**, cotejo de vigencia, matriz, bancos de distractores y adaptación de la web antes de migración. Evitar cambiar por lote solo por existir informes de años anteriores.
+
+
+## Migración La Puebla T05–T08 → AUDITADO documental — **10/11/2026**
+
+Cotejos de **04/11/2026** revisados como soporte previo, cruzados con fuentes BOE y epígrafes del **BOP Toledo 82/2026, anuncio 2026-1965**. La auditoría anterior detalla **12 preguntas y 48 alternativas por tema**, sin modificar las claves. **La migración aprovecha evidencia anterior: no se afirma nueva lectura exhaustiva alternativa por alternativa en esta intervención.**
+
+| Tema | Fuente normativa oficial y prueba preservada | Cautela |
+|---|---|---|
+| **5. Municipio, provincia y régimen electoral** | [Cotejo 48 alternativas](content/la-puebla/tema-05/cotejo-integral-2026-11-04.md); [LRBRL](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) actualizada **03/10/2026**; [LOREG](https://www.boe.es/buscar/act.php?id=BOE-A-1985-11672) actualizada **02/07/2026** | Reforma LRBRL de **2026** y efectos concretos; E2E pendiente |
+| **6. Empleo público CLM** | [Cotejo 48 alternativas](content/la-puebla/tema-06/cotejo-integral-2026-11-04.md), [Ley 4/2011](https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752), [Ley 2/2026 de 09/04 — DOCM 16/04/2026](https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086) | Reforma **art. 70.2** vigente desde **06/05/2026**, fuente autonómica posterior al último consolidado BOE **2024**, E2E pendiente |
+| **7. PRL** | [Cotejo 48 alternativas](content/la-puebla/tema-07/cotejo-integral-2026-11-04.md), [LPRL consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292), actualización **09/04/2026**; [RD 39/1997](https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853) | **Servicio propio** distinto de **Comité**, cifras dependen de regulación propia; E2E pendiente |
+| **8. Igualdad** | [Cotejo 48 alternativas](content/la-puebla/tema-08/cotejo-integral-2026-11-04.md), [Ley 12/2010 CLM](https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708), [LO 3/2007](https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115) | **40/60** no se extiende indiscriminadamente a cualquier órgano; E2E pendiente |
+
+**Cambios:** manifiesto `data/programa.json` y matrices **T05–T08** en **AUDITADO**, preservado `aprobadoEl` y bancos históricos. `tests/validate.mjs` comprueba los **19 bancos** y espera **T01–T08 AUDITADO**. **105 AUDITADO + 11 históricos + 5 pendientes = 121; 0/121 certificación integral.**
+
+**Control técnico abierto:** no se ha podido confirmar resultado SUCCESS de GitHub Actions del commit último. No atribuir a pruebas históricas garantía del HEAD. **Próximo lote La Puebla T09–T12**, con versiones normativas tributarias y protección de datos.
