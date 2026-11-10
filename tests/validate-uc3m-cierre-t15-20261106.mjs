@@ -88,3 +88,20 @@ for (const q of bank.preguntas) {
 }
 assert.equal(fuentesPrimariasEnlazadas,21);
 console.log('UC3M_T15_21_REFERENCIAS_INSTITUCIONALES_DIRECTAS_OK: enlaces verificados estructuralmente, no respuesta jurídica global');
+
+const organosT15=[
+ ['157.2','Rector'],
+ ['158.1','Consejo de Gobierno'],
+ ['159.1','Rector'],
+ ['170.1','anual, único, público y equilibrado'],
+ ['170.2','Gerente'],
+ ['170.2','Consejo Social'],
+ ['175','Rector']
+];
+for(const [art,needle] of organosT15) {
+ assert(manual.includes('**Art. '+art+'**') || manual.includes('**Art. '+art+'**,'),
+   'Falta artículo en cuadro de competencias UC3M T15: '+art);
+ assert(manual.includes(needle), 'Falta órgano o regla de UC3M T15: '+needle);
+}
+assert(manual.includes('Consejo de Gobierno crea servicios') && manual.includes('Consejo Social aprueba el presupuesto'));
+console.log('UC3M_T15_SERVICIOS_PRESUPUESTO_ARTS_157_159_170_175_COTEJADOS');
