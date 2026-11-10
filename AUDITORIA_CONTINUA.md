@@ -25,14 +25,14 @@
 
 | Convocatoria | Temas | `AUDITADO` | `APROBADO_USUARIO` histórico | Pendiente editorial | Progreso de estado registrado |
 |---|---:|---:|---:|---:|---:|
-| **La Puebla de Montalbán · Auxiliar C2** | **19** | **8** | **11** | **0** | **19/19 = 100 %**, **8** auditorías documentales y **11** aprobaciones históricas |
+| **La Puebla de Montalbán · Auxiliar C2** | **19** | **12** | **7** | **0** | **19/19 = 100 %**, **12** auditorías documentales y **7** aprobaciones históricas |
 | **Olías del Rey · Auxiliar edificios C2** | **22** | **22** | **0** | **0** | **22/22 = 100 %**, auditoría editorial; E2E pendiente |
 | **Diputación Toledo · Administrativo C1** | **40** | **39** | **0** | **1** (T22 OAPGT) | **39/40 = 97,5 %** |
 | **Diputación Toledo · Auxiliar C2** | **20** | **19** | **0** | **1** (T6 OAPGT) | **19/20 = 95 %** |
 | **UC3M · Auxiliar C2** | **20** | **17** | **0** | **3** (T10/T15/T16) | **17/20 = 85 %** |
-| **TOTAL** | **121** | **105** | **11** | **5** | **116/121 = 95,9 % editorial mixto** |
+| **TOTAL** | **121** | **109** | **7** | **5** | **116/121 = 95,9 % editorial mixto** |
 
-**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 105 AUDITADO + 11 APROBADO_USUARIO históricos + 5 pendientes`.
+**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 109 AUDITADO + 7 APROBADO_USUARIO históricos + 5 pendientes`.
 
 **Certificación integral acreditada: 0/121 (0 %)**. Implica legislación y versiones vigentes, cotejo exhaustivo de todas las preguntas y alternativas, E2E real en navegador y móvil, accesibilidad y evidencia/aceptación; **no** equivale a que haya 121 contenidos incorrectos. El porcentaje **95,9 %** tampoco puede interpretarse como exactitud jurídica verificada.
 
@@ -49,7 +49,7 @@
 
 | Archivo / fuente | Lectura correcta | Acción para evitar errores |
 |---|---|---|
-| `data/programa.json` | **T01–T08 AUDITADO**, **T09–T19 APROBADO_USUARIO**; se conservan aprobaciones del **17/07/2026** | Migración documental acreditada **10/11/2026**, sin certificación E2E |
+| `data/programa.json` | **T01–T12 AUDITADO**, **T13–T19 APROBADO_USUARIO**; se conservan aprobaciones del **17/07/2026** | Migración documental acreditada **10/11/2026**, sin certificación E2E |
 | `audit/PHASE2_CLOSURE.md`, `TRANSVERSAL_REVIEW.md` | Cierre verificable de **fase 2 en julio** sobre un commit, no garantía perpetua | Conservar como **histórico**, remitir aquí |
 | `audit/phase2-ci-result.md` | Resultado de una **ejecución/commit determinado**, no de todos los commits siguientes | Conservar evidencia; no usar como prueba CI actual |
 | `data/programa-diputacion-auxiliar-c2-2026.json` | El valor anterior `PUBLICADO` no estaba respaldado por una verificación completa; tema 6 sigue incompleto | Normalizar estados a **EN_REVISION_USUARIO** (19) y **BORRADOR** (tema 6) |
@@ -3888,3 +3888,21 @@ Cotejos de **04/11/2026** revisados como soporte previo, cruzados con fuentes BO
 **Cambios:** manifiesto `data/programa.json` y matrices **T05–T08** en **AUDITADO**, preservado `aprobadoEl` y bancos históricos. `tests/validate.mjs` comprueba los **19 bancos** y espera **T01–T08 AUDITADO**. **105 AUDITADO + 11 históricos + 5 pendientes = 121; 0/121 certificación integral.**
 
 **Control técnico abierto:** no se ha podido confirmar resultado SUCCESS de GitHub Actions del commit último. No atribuir a pruebas históricas garantía del HEAD. **Próximo lote La Puebla T09–T12**, con versiones normativas tributarias y protección de datos.
+
+
+## La Puebla T09–T12: aprobación histórica → AUDITADO documental — **10/11/2026**
+
+**Base de promoción:** informes individuales del **04/11/2026**, con **12 preguntas y 48 alternativas** motivadas por cada tema, y control de las últimas publicaciones consolidadas visibles en **BOE**. La promoción **no** representa un nuevo cotejo manual de 192 distractores esta mañana ni certificación E2E.
+
+| Tema | Evidencia | Control de vigencia y reserva |
+|---|---|---|
+| **T9 Protección de datos** | [Cotejo 48 alternativas](content/la-puebla/tema-09/cotejo-integral-2026-11-04.md) | [LOPDGDD](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), última actualización publicada **27/12/2025**; [RGPD](https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807) como marco europeo. Derechos y videovigilancia no son plazos idénticos. |
+| **T10 Gestión tributaria** | [Cotejo 48 alternativas](content/la-puebla/tema-10/cotejo-integral-2026-11-04.md) | [LGT](https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186) última actualización **21/12/2024**; [TRLRHL](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214) última **07/10/2026**; delimitar materias de cambios 2026 |
+| **T11 Recaudación** | [Cotejo 48 alternativas](content/la-puebla/tema-11/cotejo-integral-2026-11-04.md) | LGT, [RD 939/2005](https://www.boe.es/buscar/act.php?id=BOE-A-2005-14803) y [RD 520/2005](https://www.boe.es/buscar/act.php?id=BOE-A-2005-8662). Diferenciar pago voluntario, ejecutivo y apremio; verificación funcional pendiente |
+| **T12 Tributos locales** | [Cotejo 48 alternativas](content/la-puebla/tema-12/cotejo-integral-2026-11-04.md) | [TRLRHL 07/10/2026](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), sin extrapolar reformas de tipos/coeficientes a hecho imponible y sujetos pasivos; vigencia y convalidación temporal documentadas en [fuentes](content/la-puebla/tema-12/fuentes.md). |
+
+**Cambios persistidos:** `data/programa.json` y matrices T09–T12 se convierten a **AUDITADO**, con aprobación histórica de julio conservada como metadato. **Bancos originales sin cambios**; `tests/validate.mjs` exige T01–T12 auditados y sigue validando los 19 bancos. README conciliado.
+
+**Estado global nuevo:** **109 AUDITADO + 7 APROBADO_USUARIO históricos + 5 pendientes = 121**. **Certificación integral de navegador/móvil/accesibilidad: 0/121 acreditada**. **CI del HEAD:** sin comprobación SUCCESS realizada en esta intervención.
+
+**Siguiente lote:** La Puebla **T13–T16**: firma electrónica, organización estatal y aplicaciones de Windows; cerrar sin confundir auditoría técnica documentada con prueba real del comportamiento del sistema operativo/navegador.
