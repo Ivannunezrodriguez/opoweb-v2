@@ -289,7 +289,7 @@
     {
       "numero": 13,
       "titulo": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "aprobadoEl": "2026-07-18",
       "manual": "content/la-puebla/tema-13/manual.md",
       "capitulos": [
@@ -304,12 +304,20 @@
       "aprobacion": "content/la-puebla/tema-13/aprobacion.md",
       "preguntas": "content/la-puebla/tema-13/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-13/articulos.md",
-      "fuentes": "content/la-puebla/tema-13/fuentes.md"
+      "fuentes": "content/la-puebla/tema-13/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-13/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 14,
       "titulo": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/la-puebla/tema-14/manual.md",
       "capitulos": [
         "content/la-puebla/tema-14/bloque-01-organos-competencia.md",
@@ -324,12 +332,20 @@
       "trazabilidad": "content/la-puebla/tema-14/articulos.md",
       "aprobadoEl": "2026-07-18",
       "aprobacion": "content/la-puebla/tema-14/aprobacion.md",
-      "fuentes": "content/la-puebla/tema-14/fuentes.md"
+      "fuentes": "content/la-puebla/tema-14/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-14/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 15,
       "titulo": "Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "aprobadoEl": "2026-07-18",
       "manual": "content/la-puebla/tema-15/manual.md",
       "capitulos": [
@@ -353,12 +369,20 @@
         "aprobacionHistoricaConservada": true,
         "verificacionFuncional": false,
         "versionesReferencia": "Windows 11 y soporte Windows 10 finalizado 14/10/2025"
+      },
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-15/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
       }
     },
     {
       "numero": 16,
       "titulo": "Microsoft Windows II. Navegación por Internet con Microsoft Internet Explorer y Microsoft Edge.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/la-puebla/tema-16/manual.md",
       "capitulos": [
         "content/la-puebla/tema-16/bloque-01-conceptos-navegacion.md",
@@ -382,6 +406,14 @@
         "aprobacionHistoricaConservada": true,
         "verificacionFuncional": false,
         "versionesReferencia": "Edge, IE11 retirado en versiones afectadas 15/06/2022, IE mode hasta al menos 2029"
+      },
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-16/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
       }
     },
     {
