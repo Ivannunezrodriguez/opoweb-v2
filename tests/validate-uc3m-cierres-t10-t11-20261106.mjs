@@ -39,3 +39,15 @@ for(const x of expected){
 assert.equal(nOriginal,24);assert.equal(nExtra,10);assert.equal(ids.size,34);
 assert.ok(read('content/uc3m/GUIA_EXAMEN_2026.md').includes('CIERRE_DOCUMENTAL_T10_T11_20261106.md'));
 console.log('CIERRE DOCUMENTAL UC3M T10/T11: 24 preguntas historicas, 10 complementarias, 23 bloques, claves y SHA preservados; E2E y corte legal pendientes');
+
+const fuentesTREBEP=read('content/uc3m/tema-10/fuentes.md');
+assert(fuentesTREBEP.includes('03/10/2026') && fuentesTREBEP.includes('23/10/2026'),
+  'Distinguir publicación y entrada en vigor Ley 4/2026');
+assert(fuentesTREBEP.includes('20 días') && fuentesTREBEP.includes('art. 49.e'),
+  'La reforma T10 exige precisión de vacatio y artículo');
+const t10Bank=json('content/uc3m/tema-10/preguntas.json').preguntas;
+const renuncia=t10Bank.find(q=>q.id==='UC3M-T10-010');
+assert.equal(renuncia.respuestaLiteral,'Debe ser aceptada expresamente');
+assert(renuncia.referencia.includes('BOE-A-2015-11719#a64'));
+assert(read('content/uc3m/tema-10/manual.md').includes('auto de procesamiento o de apertura de juicio oral'));
+console.log('UC3M_T10_FUENTES_2026_ENTRADA_VIGOR_Y_TREBEP_64_OK');
