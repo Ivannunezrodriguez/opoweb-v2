@@ -928,3 +928,12 @@ Cuando preguntan quién **aprueba el organigrama** de los instructores sancionad
 > ⚠️ **¡Foco Examen!:** **Pleno de Diputación = aprobación de la reforma**; **Consejo Rector = organigrama**; **Presidencia OAPGT = publicación de instructores**; facultades de **Dirección = art. 14.d.1** en su ámbito.
 
 **Cierre sectorial acreditado:** contenidos de los **cinco ordinales modificativos del BOP 284/2011**. **Cierre integral no acreditado:** texto original del **BOP 235/1996**, corrección del **artículo 8**, eficacia definitiva de la propuesta de reforma de **2004** y consolidación hasta **2026**. El estado editorial de este tema **no cambia**.
+
+
+## Matriz única de vigencia OAPGT — 10/11/2026
+
+Ver [**matriz normativa compartida C1 T22 / C2 T6**](../../diputacion-toledo/OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md), cotejada con las publicaciones oficiales del **BOP 284/2011**, **225/2017** y **188/2019**, distinguiendo la **aprobación inicial de 2004** de la reforma efectiva y evitando duplicidad de redacción.
+
+> ⚠️ **¡Foco Examen!:** **Acuerdo inicial de 21/12/2004** ≠ **aprobación definitiva acreditada**. No usar las composiciones y quórums de ese texto como vigente sin la cadena documental; la modificación expresa de **2011** sí respalda la distribución entre **Consejo Rector**, **Presidencia** y **Dirección** descrita en la ficha.
+
+**Estado editorial inalterado:** no se ha acreditado el consolidado estatutario completo ni una revisión integral del régimen de personal y todas las reformas posteriores.
