@@ -25,8 +25,15 @@ assert.ok(dossier.includes('RD 905/2025'), 'Falta sentencia que afecta RD 822/20
 assert.ok(dossier.includes('fecha oficial exacta de publicación sigue sin certificarse'));
 
 
+const t15Matrix = json('content/uc3m/tema-15/matriz.json');
+assert.equal(t15Matrix.controlDefensoriaRefundidoLOSU20261110?.certificacionIntegral, false);
+assert.equal(t15Matrix.controlDefensoriaRefundidoLOSU20261110?.articuloLOSU, '43.4');
 const t15Manual = read('content/uc3m/tema-15/manual.md');
 const t15Sources = read('content/uc3m/tema-15/fuentes.md');
+assert.ok(t15Manual.includes('Defensoría universitaria: lectura conjunta de Estatutos refundidos y LOSU'));
+assert.ok(t15Manual.includes('mitad más uno'));
+assert.ok(t15Manual.includes('mayoría simple'));
+assert.ok(t15Manual.includes('art. 44.3 LOSU'));
 for (const content of [t15Manual, t15Sources]) {
   assert.ok(content.includes('BOCM-20260615-17'), 'Falta fuente oficial de creación de escalas UC3M 2026');
   assert.ok(content.includes('Escala Auxiliar de Servicios e Información'), 'Falta distinción de escala C2 distinta');
