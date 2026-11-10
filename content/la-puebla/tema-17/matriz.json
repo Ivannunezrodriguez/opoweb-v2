@@ -1,6 +1,6 @@
 {
   "tema": 17,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "epigrafeOficial": "LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.",
   "fechaRevisionTecnica": "2026-07-29",
   "referenciasPrincipales": [
@@ -216,5 +216,12 @@
     "informe": "content/la-puebla/tema-17/cotejo-integral-2026-11-04.md",
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "tipo": "revisión individualizada de alternativas, no certificación exhaustiva del portal"
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "ambito": "TECNICO_EDITORIAL",
+    "aprobacionHistorica": "2026-07-18",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
