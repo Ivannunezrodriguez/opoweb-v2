@@ -1,6 +1,6 @@
 {
   "tema": 5,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "aprobadoEl": "2026-07-17",
   "epigrafeOficial": "El municipio. Organización y funcionamiento. La Provincia. Organización provincial. Competencias. El Régimen electoral de las Entidades Locales.",
   "fechaRevisionNormativa": "2026-11-04",
@@ -170,5 +170,11 @@
     ],
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "certificacionIntegralCincoCapas": false
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "aprobadoHistoricamente": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
