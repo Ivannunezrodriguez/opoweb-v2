@@ -74,3 +74,13 @@ Fecha de revisión editorial: **22 de julio de 2026**.
 La [**Ley 4/2026 (BOE-A-2026-20528)**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528) modificó el **art. 49.e del TREBEP**: se **publicó el 03/10/2026**, pero su **entrada en vigor fue el 23/10/2026**, **20 días** después de la publicación conforme a su disposición final de vigencia. La modificación permite excepcionalmente prolongar reducción de jornada en supuestos de gran discapacidad o dependencia acreditadas y compartir simultáneamente hasta un **100 % conjunto** entre dos progenitores. La exigibilidad de esta reforma en la oposición depende del **corte de base primera.7**, cuya fecha primaria está pendiente. **Mantener EN_REVISION_USUARIO.**
 
 > ⚠️ **¡Foco Examen!:** **100 % conjunto**, no **100 % por persona**. La fuente es el texto de reforma **2026**, no los apuntes TREBEP anteriores.
+
+## Cierre temporal del artículo 49.e para este proceso — **10/11/2026**
+
+[**ADAMS, noticia publicada el 07/10/2026**](https://www.adams.es/noticias/oposiciones/examenes/examen-auxiliar-universidad-carlos-iii-madrid/) ya da por publicadas las listas definitivas UC3M; su calendario sitúa esa publicación en **01/10/2026**, todavía **sin diligencia oficial de fecha**. La [**base primera.7 BOE-A-2026-14624**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) exige la legislación vigente a la **publicación** de las listas.
+
+**Consecuencia segura condicionada a la exactitud de la noticia:** la reforma del **art. 49.e TREBEP**, aunque publicada el **03/10/2026**, entró en vigor el **23/10/2026**, **después** de que las listas fueran comunicadas públicamente como definitivas. **No estudiar ese cambio como si fuera exigible en la convocatoria por estar publicado**, y no atribuirle efectos retroactivos sin fundamento normativo.
+
+La fecha **01/10** sigue siendo **secundaria**; la firma electrónica de **30/09** también **no acredita publicación**. La reserva para certificación integral es exclusivamente esa fecha primaria y el cotejo jurídico global restante, **no** una supuesta igualdad entre publicación y vigencia.
+
+> ⚠️ **¡Foco Examen!:** **03/10 publicación de ley ≠ 23/10 entrada en vigor**. Si las listas ya estaban publicadas el **07/10**, la reforma no estaba vigente a su corte.
