@@ -1,6 +1,6 @@
 {
   "tema": 12,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "aprobadoEl": "2026-07-18",
   "epigrafeOficial": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.",
   "fechaRevisionNormativa": "2026-11-04",
@@ -214,5 +214,11 @@
       "revision legal articulo por articulo hasta examen",
       "sin reabrir aprobacion historica del usuario"
     ]
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "aprobacionHistorica": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
