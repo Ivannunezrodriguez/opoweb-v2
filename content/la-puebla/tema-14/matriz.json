@@ -1,6 +1,6 @@
 {
   "tema": 14,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "epigrafeOficial": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
   "fechaRevisionNormativa": "2026-11-04",
   "manual": "content/la-puebla/tema-14/manual.md",
@@ -178,5 +178,12 @@
     "norma": "Ley 40/2015 arts. 5–24 y 54–80",
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "certificacionIntegralCincoCapas": false
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "ambito": "JURIDICO_EDITORIAL",
+    "aprobacionHistorica": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
