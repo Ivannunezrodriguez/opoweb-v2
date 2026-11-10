@@ -47,3 +47,27 @@ Esta ficha sirve **a ambos temas**, sin duplicar afirmaciones en sus manuales. *
 **Pendiente:** localizar y acreditar anuncio oficial de eficacia definitiva de reforma **2004/2005**, corrección de artículo **8** del texto **1996**, comprobar reformas ulteriores y reconstruir íntegramente artículos orgánicos (**órganos, composición, quórums, votaciones, régimen de personal**) y convenio/acuerdo laboral según el epígrafe C1/C2. El PDF histórico hasta **2011** ya fue aportado; el problema es su **consolidación definitiva y vigencia**, no ausencia total del texto. No crear preguntas sobre «número actual de vocales» o «mayoría estatutaria» hasta completar esta cadena.
 
 **Resultado:** C1 **T22 EN_AUDITORIA** y C2 **T6 BORRADOR** sin cambio de etiqueta. Este documento reduce la duplicación, aporta fuentes oficiales adicionales y delimita lo que se puede estudiar con certeza documentada.
+
+## 6. Segunda pasada de fuentes: canal institucional actual y convenio primario de 2021 (10/11/2026)
+
+La **web institucional del OAPGT**, renovada en **octubre de 2026**, muestra en su navegación la sección **«Estatutos»**, pero **su texto no ha resultado recuperable en esta auditoría**. **No** debe proclamarse que se dispone del consolidado por la sola presencia de un enlace en el menú. Fuente: [portal oficial OAPGT](https://oapgt.es/).
+
+Fuente oficial adicional: [**BOP Toledo 119, 25/06/2021, anuncio 2021.00003151**](https://bop.diputoledo.es/webEbop/DocGet?id=21065035%3B0&insert_number=3151&insert_year=2021), acuerdo del **Pleno del Consorcio de Servicios Públicos Medioambientales** del **14/06/2021** para convenio de colaboración con **Diputación de Toledo** a través del OAPGT. Se ha cotejado el texto accesible de la publicación; la captura visual del PDF no se completó, de modo que **no se afirma validación visual de la página**.
+
+| Precepto / circunstancia | Evidencia específica de 2021 | Alcance y reserva |
+|---|---|---|
+| **Estatutos OAPGT art. 4.a.1** | El convenio cita recaudación de ingresos de derecho público **delegados o encomendados** y la intervención de **Diputación** a través del OAPGT | Confirma interpretación funcional de **2021**, no sustituye el texto consolidado |
+| **Competencia del Consorcio** | **Pleno del Consorcio**, acuerdo **14/06/2021**, autoriza nuevo convenio | **Pleno del Consorcio** no es **Pleno de Diputación** ni **Consejo Rector OAPGT** |
+| **Antecedente de colaboración** | Se cita convenio firmado el **17/07/2017**, sustituido por otro instrumento | Fecha de convenio **no equivale** a reforma de Estatutos |
+| **Sede institucional 2026** | Aparece navegación «**Estatutos**» en [oapgt.es](https://oapgt.es/) | **Contenido y versión no recuperados**; petición al **OAPGT/Archivo Provincial** o inspección directa del enlace |
+
+### Comprobaciones pendientes que desbloquearían ambos manuales
+
+1. Obtener **texto íntegro definitivo** del acuerdo inicial de **21/12/2004** y diligencia de aprobación definitiva/publicación o constancia de no alegaciones, según el expediente.
+2. Contrastar reforma **2011**, eventuales cambios posteriores y régimen de órganos/composición.
+3. Localizar en el **OAPGT** el documento enlazado en «Estatutos» y cotejar **fecha, emisor, carácter de versión y referencia BOP**. La navegación institucional, por sí sola, **no es un texto jurídico con autenticidad acreditada**.
+4. Separar convenio y acuerdo regulador de personal de los Estatutos. No son fuentes intercambiables.
+
+> ⚠️ **¡Foco Examen!:** **Pleno del Consorcio**, **Pleno de la Diputación**, **Consejo Rector del OAPGT** y **Dirección del OAPGT** son órganos diferentes. El acuerdo de colaboración del **14/06/2021** no confiere, por sí mismo, potestad estatutaria general a todos ellos.
+
+**Conclusión de esta pasada:** hay **nuevo soporte oficial de aplicación en 2021** y una ruta institucional actual identificada, pero sigue sin aparecer prueba primaria de **eficacia definitiva de la reforma inicial de 2004**. Estados C1 T22 y C2 T6 **sin promoción**.
