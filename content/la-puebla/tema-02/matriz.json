@@ -1,6 +1,6 @@
 {
   "tema": 2,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "aprobadoEl": "2026-07-17",
   "epigrafeOficial": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Los interesados en el procedimiento. Actividad de las Administraciones Públicas: Normas generales de actuación. Términos y plazos.",
   "fechaRevisionNormativa": "2026-11-04",
@@ -92,5 +92,12 @@
     "norma": "Ley 39/2015 arts. 1–33",
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "certificacionIntegralCincoCapas": false
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "revisionAdicional": "../CIERRE_FOCAL_T01_T04_20261106.md",
+    "aprobadoHistoricamente": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
