@@ -1,6 +1,6 @@
 {
   "tema": 19,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "epigrafeOficial": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
   "fechaRevisionTecnica": "2026-07-29",
   "criterioAdaptacionTecnica": "La matriz reglamentaria inciso → norma → artículos se adapta a inciso → norma técnica o documentación oficial → secciones → contenido exigible, porque el epígrafe es tecnológico y no remite a una ley.",
@@ -201,5 +201,12 @@
     "informe": "content/la-puebla/tema-19/cotejo-integral-2026-11-04.md",
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "tipo": "revisión individualizada de alternativas, no certificación exhaustiva del portal"
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "ambito": "TECNICO_EDITORIAL",
+    "aprobacionHistorica": "2026-07-18",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
