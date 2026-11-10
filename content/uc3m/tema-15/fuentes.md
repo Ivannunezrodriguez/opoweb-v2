@@ -134,3 +134,18 @@ Cotejados [**Estatutos originales UC3M, Decreto 1/2003 (art. 30.1)**](https://ww
 Consultar [**dossier jurídico compartido T10/T15/T16**](../CONTROL_CORTE_T10_T15_T16_20261110.md): diferencia fecha de firma, publicación y examen, documenta reforma TREBEP **03/10/2026** (vigente **23/10/2026**), fricción de Estatutos **2003/2009** con **LOSU** y distinción entre **ECTS estatal e institucional**. **Fecha exacta de publicación de definitivos sin diligencia primaria**: el **01/10/2026** es secundario. No implica cierre integral ni cambio de clave/estado.
 
 > ⚠️ **¡Foco Examen!:** La **base primera.7** fija **publicación de listas definitivas** como corte, no el examen del **21/11/2026**.
+
+
+## Diferencia entre las dos escalas C2 de la UC3M — fuente BOCM de junio de 2026
+
+La [**Resolución de 4 de junio de 2026, publicada en el BOCM de 15/06/2026 (BOCM-20260615-17)**](https://www.bocm.es/boletin/CM_Orden_BOCM/2026/06/15/BOCM-20260615-17.PDF) ejecuta el acuerdo del **Consejo Social de 29/04/2026**, a propuesta del **Consejo de Gobierno de 28/04/2026**, y crea, entre otras, la **Escala Auxiliar de Servicios e Información, subgrupo C2**. El propio anuncio indica que las escalas nuevas tienen funciones diferenciadas de las existentes.
+
+| Figura | Documento oficial | Qué no se puede concluir |
+|---|---|---|
+| **Escala Auxiliar de Servicios e Información (C2)** | **BOCM 15/06/2026**, creación de escala propia, título general **ESO o equivalente** | **No** son las **34 plazas** de la convocatoria de Escala Auxiliar Administrativa |
+| **Escala Auxiliar Administrativa (C2)** | [**BOE-A-2026-14624, 06/07/2026**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624), **34 plazas**, **2 reservadas** | **No** fue una escala de nueva creación por aquel acuerdo de abril |
+| **Competencias institucionales en la creación de escalas** | **Consejo de Gobierno propone** y **Consejo Social acuerda** en el expediente concreto de **2026** | No convertir ese hecho en una competencia exclusiva universal sin comprobar los Estatutos y la LOSU |
+
+**Límite probatorio:** el BOCM acredita la creación y denominación de otra escala, pero **no contiene diligencia de publicación de listas definitivas** del proceso selectivo Auxiliar Administrativa de **34 plazas**. Además, citar los **Decretos 1/2003 y 95/2009** en el preámbulo **no certifica que todas sus cláusulas históricas prevalezcan** sobre la legislación universitaria posterior.
+
+> ⚠️ **¡Foco Examen!:** **Mismo subgrupo C2 no equivale a misma escala.** Una pregunta sobre **Escala Auxiliar Administrativa** no se contesta tomando automáticamente los requisitos, funciones o plazas de la **Escala Auxiliar de Servicios e Información**.
