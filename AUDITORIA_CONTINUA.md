@@ -3969,3 +3969,14 @@ Cotejos de **04/11/2026** revisados como soporte previo, cruzados con fuentes BO
 [**Banco T16**](content/uc3m/tema-16/preguntas.json): sustituida la referencia de **cinco preguntas** (008, 010, 011, 012, 013) por este documento institucional primario y artículos concretos. **0 respuestas correctas cambiadas**. [**Fuentes T16**](content/uc3m/tema-16/fuentes.md) ahora incluyen tabla de preceptos, distinciones y reserva temporal. [**Test de control UC3M**](tests/validate-uc3m-corte-t10-t15-t16-20261110.mjs) reforzado para validar 21 preguntas y cinco referencias exactas, integrado en npm test desde intervención anterior.
 
 **Estados no promovidos:** UC3M T10/T15/T16 siguen EN_REVISION_USUARIO, hasta prueba de publicación y control exhaustivo de vigencia; los **116 AUDITADO + 5 pendientes** y **0/121 integral** permanecen. No se ha confirmado resultado de CI para este HEAD.
+
+
+## UC3M T15 — diferenciación de escalas y nueva prueba documental, 10/11/2026
+
+**Nuevo cotejo oficial:** [BOCM-20260615-17, de 15/06/2026](https://www.bocm.es/boletin/CM_Orden_BOCM/2026/06/15/BOCM-20260615-17.PDF), que publica **Resolución UC3M 04/06/2026** y el acuerdo del **Consejo Social 29/04/2026** a propuesta del **Consejo de Gobierno 28/04/2026**. El acuerdo crea, entre otras, la **Escala Auxiliar de Servicios e Información C2**, con funciones separadas de las escalas anteriores. **No** es la **Escala Auxiliar Administrativa C2 de 34 plazas** de [BOE-A-2026-14624](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624). No reutilizar requisitos específicos de una escala como los de la otra.
+
+**Cambios sustantivos:** [manual T15](content/uc3m/tema-15/manual.md) y [fuentes T15](content/uc3m/tema-15/fuentes.md) incorporan comparación por documento, competencias del expediente y Foco Examen. [Validador de corte T10/T15/T16](tests/validate-uc3m-corte-t10-t15-t16-20261110.mjs) ampliado para exigir denominación distinta de las dos escalas y URL del BOCM.
+
+**Búsqueda renovada de corte:** en [portal oficial 2026](https://uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) sigue sin aparecer fecha/hora primaria de publicación de las definitivas; búsqueda en BOEL/BOCM no aporta diligencia correspondiente. Documento de otra oposición **A2 Informática** y página de **Auxiliar C2 de 2022** se excluyen expresamente: identificadores similares no prueban el evento de las **34 plazas de 2026**. El texto de la convocatoria [BOE-A-2026-14624, base primera.7](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) sigue fijando fecha de publicación, no la firma del expediente ni el llamamiento.
+
+**Estado operativo conservado:** UC3M T10, T15, T16 **EN_REVISION_USUARIO**; global **116 AUDITADO, 5 pendientes, 0/121 certificados integrales**. No se ha comprobado SUCCESS de GitHub Actions en el último commit.
