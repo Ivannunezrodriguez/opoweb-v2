@@ -19,18 +19,29 @@
 
 **No sumes estos porcentajes:** son fases distintas. **100 % de archivos disponibles NO significa 100 % fiable**. La etiqueta `PUBLICADO` del código legado llegó a usarse como «contenido visible», sin implicar las fases 3–5. El estado jurídico posterior a la fecha de una validación histórica vuelve a requerir control.
 
-## 2. Resumen por convocatoria (99 temas activos)
+## 2. Estado global verificado contra cinco manifiestos — **10/11/2026**
 
-| Prioridad de revisión **a 02/11/2026** | Convocatoria | Programa | Estado efectivo | Certificación integral a esta fecha |
-|---|---|---:|---|---|
-| **1 · examen 14/11** | **La Puebla de Montalbán C2** | **19** | **19** temas con aprobación editorial histórica; **228 preguntas**, **20 supuestos** y **5 simulacros** actuales (**3 breves + 2 oficiales 50+5**). En revisión urgente de vigencia y test. | **NO RECERTIFICADA** |
-| **2 · examen 21/11** | **UC3M Auxiliar C2** | **20** | **20 EN_REVISION_USUARIO**, con manuales, matrices, fuentes y **250 preguntas**. | **NO CERTIFICADO** |
-| **3 · sin examen anunciado** | **Diputación Toledo Auxiliar C2** | **20** | **19 EN_REVISION_USUARIO**, **1 BORRADOR** (tema 6 OAPGT incompleto, al final); **409 preguntas**. Bloque DT-C2-A conservado sin reiniciar. | **NO CERTIFICADO** |
-| **4 · sin examen anunciado** | **Diputación Toledo Administrativo C1** | **40** | **40** contenidos de origen GENERACION_DESDE_CERO (no es aprobación); **803 preguntas**, auditoría parcial. | **NO CERTIFICADO** |
+**Fuente de verdad del contador:** `data/programa.json` (**La Puebla**), `data/programa-olias-auxiliar-edificios-2026.json`, `data/programa-diputacion-administrativo-2026.json`, `data/programa-diputacion-auxiliar-c2-2026.json` y `data/programa-uc3m-auxiliar-administrativa-2026.json`. **No** extrapolar estados de los informes de 02/11/2026 a la rama actual.
 
-**Total: 99 temas registrados.** **19/99 (19,2 %)** tienen aprobación editorial *histórica declarada* en el manifiesto de La Puebla; **0/99** se han recertificado integralmente **en esta auditoría de noviembre** (no significa que todos sean incorrectos). No se calcula un porcentaje de exactitud jurídica sin contar criterios auditados por tema.
+| Convocatoria | Temas | `AUDITADO` | `APROBADO_USUARIO` histórico | Pendiente editorial | Progreso de estado registrado |
+|---|---:|---:|---:|---:|---:|
+| **La Puebla de Montalbán · Auxiliar C2** | **19** | **0** | **19** | **0** | **19/19 = 100 %**, aprobación **histórica**, sin recertificación jurídica de noviembre |
+| **Olías del Rey · Auxiliar edificios C2** | **22** | **22** | **0** | **0** | **22/22 = 100 %**, auditoría editorial; E2E pendiente |
+| **Diputación Toledo · Administrativo C1** | **40** | **39** | **0** | **1** (T22 OAPGT) | **39/40 = 97,5 %** |
+| **Diputación Toledo · Auxiliar C2** | **20** | **19** | **0** | **1** (T6 OAPGT) | **19/20 = 95 %** |
+| **UC3M · Auxiliar C2** | **20** | **17** | **0** | **3** (T10/T15/T16) | **17/20 = 85 %** |
+| **TOTAL** | **121** | **97** | **19** | **5** | **116/121 = 95,9 % editorial mixto** |
 
-**Fuera del alcance editorial activo:** Las Ventas (descartada), Carranque (no reabrir), CPEIS (seguimiento, sin temario activo en esta cola). No reabrir una convocatoria descartada por aparecer en un archivo histórico.
+**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 97 AUDITADO + 19 APROBADO_USUARIO históricos + 5 pendientes`.
+
+**Certificación integral acreditada: 0/121 (0 %)**. Implica legislación y versiones vigentes, cotejo exhaustivo de todas las preguntas y alternativas, E2E real en navegador y móvil, accesibilidad y evidencia/aceptación; **no** equivale a que haya 121 contenidos incorrectos. El porcentaje **95,9 %** tampoco puede interpretarse como exactitud jurídica verificada.
+
+**Cola de cinco temas:** **UC3M T10** (fecha primaria de publicación de listas y cierre jurídico/funcional), **UC3M T15** (Estatutos adaptados a LOSU, corte y cotejo completo), **UC3M T16** (corte y normas académicas, controles E2E), **Diputación C1 T22** y **C2 T6** (Estatutos OAPGT y Acuerdo Regulador, aprobación definitiva de reforma inicialmente anunciada en 2004, vigencia y resto del cotejo). El PDF estatutario completo **hasta 2011 ya se recibió**: **no** describirlo como fuente íntegra todavía inexistente.
+
+**Estado tecnológico de referencia:** el commit `47fe9db7` superó **90/90 pasos de Validar OpoWeb v2** y **GitHub Pages**. Esa validación técnica no equivale a inspección real E2E, accesibilidad ni a certificación legal.
+
+**Prioridad temporal:** examen **La Puebla 14/11/2026**; examen **UC3M 21/11/2026**. Mantener las reservas y priorizar correcciones con impacto directo en sus pruebas.
+
 
 ## 3. Cambios de estado y contradicciones relevantes
 
