@@ -28,7 +28,7 @@ assert.ok(runtimeEnhancementsJs.includes("'./theme-test-link.js'"));
 
 const approved = programme.temas.filter(theme => ['APROBADO_USUARIO', 'AUDITADO'].includes(theme.estado));
 assert.deepEqual(approved.map(theme => theme.numero), Array.from({ length: 19 }, (_, index) => index + 1));
-assert.deepEqual(programme.temas.filter(theme => theme.estado === 'AUDITADO').map(theme => theme.numero), [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]);
+assert.deepEqual(programme.temas.filter(theme => theme.estado === 'AUDITADO').map(theme => theme.numero), Array.from({ length: 19 }, (_, index) => index + 1));
 
 const markdownLinkRegex = /\[[^\]]+\]\(([^)]+)\)/g;
 const externalOrAnchor = target => /^(https?:|mailto:|#)/i.test(target);
