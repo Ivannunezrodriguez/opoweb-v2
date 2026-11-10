@@ -424,3 +424,25 @@ El [**BOCM de 15/06/2026 (Resolución UC3M 04/06/2026)**](https://www.bocm.es/bo
 **Control focal:** ninguna de las **21 preguntas originales** exige contestar con el porcentaje histórico de estudiantes en el Claustro ni con el mandato histórico del Rector; se mantienen **LOSU art. 45.3 (mínimo 25 %)**, derecho transitorio y los **3 años de adaptación** como contraste separado. No se acredita la resolución formal de adaptación que permitiría cerrar todos los casos transitorios.
 
 > ⚠️ **¡Foco Examen!:** Un **BOCM de junio de 2026** que cita los Estatutos UC3M de **2003/2009** demuestra su utilización institucional; **no** permite ignorar la jerarquía superior de la **LOSU**.
+
+## Contraste de órganos de servicios, presupuestos y contratación — Estatutos UC3M, arts. **157–159**, **170** y **175** (**10/11/2026**)
+
+El [**texto original publicado de los Estatutos**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782) asigna competencias diferentes a **Consejo de Gobierno**, **Rector**, **Gerente** y **Consejo Social**. No debe deducirse que el órgano que dirige la Universidad aprueba por sí mismo todos los actos.
+
+| Actuación estatutaria | Órgano competente | Fundamento |
+|---|---|---|
+| Organizar servicios necesarios para docencia, estudio, investigación y colaboración con la sociedad, según disponibilidad presupuestaria | **Universidad**, mediante sus órganos competentes | **Art. 157.1** |
+| Aprobar convenios o contratos para prestación/gestión indirecta de servicios universitarios | **Rector** | **Art. 157.2** |
+| Crear y suprimir servicios; aprobar sus reglamentos de organización y funcionamiento | **Consejo de Gobierno**, a propuesta del **Rector** | **Art. 158.1** |
+| Nombrar a la persona que dirige cada servicio, cuando exista | **Rector** | **Art. 159.1** |
+| Elaborar el anteproyecto de presupuesto | **Gerente** | **Art. 170.2** |
+| Presentar el presupuesto ante el **Consejo de Gobierno** | **Rector** | **Art. 170.2** |
+| Aprobar el proyecto presupuestario para someterlo al **Consejo Social** | **Consejo de Gobierno** | **Art. 170.2** |
+| Aprobar finalmente el presupuesto universitario | **Consejo Social** | **Art. 170.2**, en relación con la legislación universitaria |
+| Actuar como órgano de contratación de la Universidad | **Rector** | **Art. 175** |
+
+**Dato literal clave del art. 170.1:** el presupuesto es **anual, único, público y equilibrado** y comprende la **totalidad de ingresos y gastos durante el año natural**. El **Consejo Social** también interviene en la aprobación definitiva de la memoria económica anual del **art. 171.2**, después de su elaboración por **Gerente**, bajo dirección del **Rector**, y aprobación por el **Consejo de Gobierno**.
+
+Este cuadro se apoya en los **Estatutos UC3M originales publicados**. Para casos sobre jerarquía o competencias alteradas por normas posteriores, prevalece la norma vigente aplicable al corte de la convocatoria; no se presume certificado el texto consolidado a 2026 ni su adaptación íntegra a la **LOSU**.
+
+> ⚠️ **¡Foco Examen!:** **Consejo de Gobierno crea servicios**; **Rector nombra directores y contrata**; **Gerente elabora anteproyecto**; **Consejo Social aprueba el presupuesto**. No confundir **propuesta**, **aprobación previa** y **aprobación final**.
