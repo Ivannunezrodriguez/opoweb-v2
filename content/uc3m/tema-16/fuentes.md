@@ -201,3 +201,20 @@ Se han actualizado **preguntas**, **manual** y esta ficha de fuentes sin alterar
 Consultar [**dossier jurídico compartido T10/T15/T16**](../CONTROL_CORTE_T10_T15_T16_20261110.md): diferencia fecha de firma, publicación y examen, documenta reforma TREBEP **03/10/2026** (vigente **23/10/2026**), fricción de Estatutos **2003/2009** con **LOSU** y distinción entre **ECTS estatal e institucional**. **Fecha exacta de publicación de definitivos sin diligencia primaria**: el **01/10/2026** es secundario. No implica cierre integral ni cambio de clave/estado.
 
 > ⚠️ **¡Foco Examen!:** La **base primera.7** fija **publicación de listas definitivas** como corte, no el examen del **21/11/2026**.
+
+
+## Auditoría directa de fuente institucional de permanencia/matrícula — 10/11/2026
+
+Se recuperó el [**PDF primario UC3M: Normativa de permanencia, dispensa de convocatoria y matrícula, aprobada 07/02/2008, modificada 30/06/2016 y 12/04/2018**](https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Enrollment_and_permanence_rules.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371586017358&ssbinary=true), cuyo texto permite atribuir artículos precisos a **cinco preguntas** y evitar la dependencia del enlace anterior a **e-Archivo**. La extracción textual primaria fue posible; **la captura visual del PDF no se completó** por fallo de acceso a la imagen, por lo que esta intervención no afirma cotejo visual de páginas.
+
+| Pregunta original | Precepto UC3M 2018 | Datos contrastados y distinciones |
+|---|---|---|
+| **T16-008** | **Arts. 5–7** | Universidad fija **plazos y formas** de matrícula; la matrícula incorpora convocatorias y modalidad. La pregunta es conceptual, no pregunta por un cómputo específico |
+| **T16-010** | **Art. 7.2–3** | Primera matrícula parcial **30 ECTS**; sucesivas **mínimo 18 ECTS**. La cifra **12** de permanencia es otra regla |
+| **T16-011** | **Art. 1.1, 1.3** | Primer año: **12 ECTS** en régimen general; tiempo parcial requiere **al menos una asignatura** |
+| **T16-012** | **Art. 1.2.a–b** | Primero completo en **2 años** generalmente, **3** en Ingeniería; **Grados Abiertos** tienen regla específica de **90 ECTS** |
+| **T16-013** | **Art. 2** | **4 convocatorias** generales; **6** en Ingeniería. Distinguir de **4 convocatorias en 2 cursos** de extinción de planes reguladas en otra instrucción |
+
+**Cambios en el banco T16:** se sustituyeron exclusivamente las **cinco referencias** por este documento UC3M fechado, manteniendo las **21 preguntas/84 alternativas y todas las claves**, y se introdujo un control estructurado de procedencia en `preguntas.json`. Esta fuente acredita **el texto institucional de 2018**; no es una certificación de inexistencia de modificaciones académicas posteriores **hasta el corte de listas definitivas de 2026**, cuya fecha efectiva oficial continúa sin diligencia recuperada.
+
+> ⚠️ **¡Foco Examen!:** **12 ECTS aprobados** (permanencia general) no son **30 ECTS matriculados** (primera matrícula parcial), ni los **18 ECTS mínimos** de matrículas posteriores. **4/6 convocatorias** generales no deben confundirse con el régimen transitorio de **extinción de planes**.
