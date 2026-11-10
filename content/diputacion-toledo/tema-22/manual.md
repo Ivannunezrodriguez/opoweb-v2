@@ -444,3 +444,20 @@ Cuando preguntan quién **aprueba el organigrama** de los instructores sancionad
 > ⚠️ **¡Foco Examen!:** **Pleno de Diputación = aprobación de la reforma**; **Consejo Rector = organigrama**; **Presidencia OAPGT = publicación de instructores**; facultades de **Dirección = art. 14.d.1** en su ámbito.
 
 **Cierre sectorial acreditado:** contenidos de los **cinco ordinales modificativos del BOP 284/2011**. **Cierre integral no acreditado:** texto original del **BOP 235/1996**, corrección del **artículo 8**, eficacia definitiva de la propuesta de reforma de **2004** y consolidación hasta **2026**. El estado editorial de este tema **no cambia**.
+
+
+## Contratación OAPGT: órganos y umbrales citados en acuerdo de **2023**
+
+El [**BOP Toledo 92, de 16/05/2023**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=92&insert_year=2023&publication_date=16052023) documenta la propuesta del **Consejo Rector de 11/05/2023**. Cita expresamente competencias estatutarias de **Consejo Rector (art. 10.k)**, **Presidencia (art. 12)** y **Dirección (art. 14.d.6)**:
+
+| Órgano | Contratación atribuida en el documento oficial de **2023** |
+|---|---|
+| **Consejo Rector** | Competencia residual no atribuida a otros órganos; en el supuesto expuesto, contratos de **más del 10 %** de recursos ordinarios o **más de 4 años** |
+| **Presidencia** | Hasta **10 %** de recursos ordinarios, incluso plurianuales de **hasta 4 años** dentro del límite total |
+| **Dirección** | Hasta **5 %** de recursos ordinarios y facultades contractuales expresamente **delegadas por la Presidencia** |
+
+La fuente también indica que el **Consejo Rector** puede delegar el ejercicio de determinadas funciones. En el mismo anuncio se produce una **incongruencia al citar art. 10.k y después art. 9** para la delegación. La explicación completa se conserva en la [**matriz normativa única OAPGT**](../OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md).
+
+**Límite de vigencia:** no convertir automáticamente los porcentajes estatutarios que cita un acuerdo de **2023** en el régimen general actual de contratación pública. Deben contrastarse con la **Ley 9/2017, de Contratos del Sector Público**, delegaciones posteriores y el texto estatutario definitivamente aplicable en **2026**.
+
+> ⚠️ **¡Foco Examen!:** **5 % Dirección**, **10 % Presidencia** y **más del 10 % / más de 4 años Consejo Rector** son las cifras del **acuerdo oficial de 2023**; no equiparar atribución **propia**, **delegación** y competencia del **órgano de contratación** bajo legislación posterior.
