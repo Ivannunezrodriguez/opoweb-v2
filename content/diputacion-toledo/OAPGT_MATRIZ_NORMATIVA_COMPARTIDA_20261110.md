@@ -71,3 +71,23 @@ Fuente oficial adicional: [**BOP Toledo 119, 25/06/2021, anuncio 2021.00003151**
 > ⚠️ **¡Foco Examen!:** **Pleno del Consorcio**, **Pleno de la Diputación**, **Consejo Rector del OAPGT** y **Dirección del OAPGT** son órganos diferentes. El acuerdo de colaboración del **14/06/2021** no confiere, por sí mismo, potestad estatutaria general a todos ellos.
 
 **Conclusión de esta pasada:** hay **nuevo soporte oficial de aplicación en 2021** y una ruta institucional actual identificada, pero sigue sin aparecer prueba primaria de **eficacia definitiva de la reforma inicial de 2004**. Estados C1 T22 y C2 T6 **sin promoción**.
+
+
+## 7. Competencia de contratación: BOP 92/2023, arts. 10.k, 12 y 14.d.6
+
+**Fuente primaria de aplicación y transcripción:** [BOP Toledo n.º 92, de 16/05/2023, págs. 50–52](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=92&insert_year=2023&publication_date=16052023), certificación del **Consejo Rector de 11/05/2023**. El documento se remite expresamente a los Estatutos aprobados por el **Pleno de la Diputación de 27/09/1996** y publicados en el **BOP n.º 235, de 11/10/1996**. **Es una evidencia oficial del criterio aplicado en 2023, no texto refundido y autentificado de los Estatutos vigentes en noviembre de 2026.**
+
+| Órgano y referencia que cita el BOP | Competencia y umbral citados en 2023 | Excepción y cautela |
+|---|---|---|
+| **Consejo Rector — art. 10.k** | Contratación no atribuida a otro órgano; ejercicio **delegable total o parcialmente** | La regla de contratación no presupone que todas las materias del Consejo sean delegables |
+| **Presidente del OAPGT — art. 12** | Contratación **hasta el 10 %** de recursos ordinarios presupuestarios, incluyendo plurianuales de **hasta 4 años** y suma de anualidades dentro de ese límite | Referencia al **primer ejercicio** para el cómputo plurianual; comprobar adaptación posterior a **LCSP** |
+| **Director del OAPGT — art. 14.d.6** | Contratación **hasta el 5 %** de recursos ordinarios; además, la que le delegue el **Presidente** | **Delegación expresa** y atribución propia no son lo mismo |
+| **Consejo Rector**, supuestos que cita la propuesta | Contratos que superen el **10 %** de recursos ordinarios o duración superior a **4 años** | **Aplicación reflejada en acuerdo de 2023**; no formular como límite universal actual sin consolidación y ajuste a **Ley 9/2017** |
+
+**Caso real primario:** en el mismo acuerdo se menciona el servicio postal, cuyo valor estimado era **2.198.913,76 € sin IVA**, con **Consejo Rector** como órgano de contratación. Ese importe **no** es una cuantía general o un umbral normativo.
+
+**Advertencia de transcripción:** la motivación del acuerdo cita inicialmente **art. 10.k**, pero más adelante menciona **art. 9** para la delegación. La divergencia interna del propio BOP debe anotarse como **referencia incongruente**, no resolverse silenciosamente cambiando la numeración. El anuncio acredita la práctica de **2023**, pero la versión consolidada, reformas de **2004/2005** y posibles adaptaciones de contratación requieren prueba independiente.
+
+> ⚠️ **¡Foco Examen!:** En el **BOP de 2023**, **Consejo Rector >10 % / >4 años**, **Presidencia hasta 10 %**, **Dirección hasta 5 %**. Son **umbrales citados históricamente por ese acuerdo**, no una afirmación sin reservas sobre los límites actuales de la **LCSP**. **Art. 10.k** y **art. 9** aparecen en el mismo expediente y no deben confundirse sin comprobar el Estatuto.
+
+**Control técnico:** el contenido procede de lectura textual de BOP oficial. La función de **captura visual de PDF** no devolvió la página y, por ello, **no se afirma inspección visual**.
