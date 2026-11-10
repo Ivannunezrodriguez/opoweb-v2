@@ -25,14 +25,14 @@
 
 | Convocatoria | Temas | `AUDITADO` | `APROBADO_USUARIO` histórico | Pendiente editorial | Progreso de estado registrado |
 |---|---:|---:|---:|---:|---:|
-| **La Puebla de Montalbán · Auxiliar C2** | **19** | **16** | **3** | **0** | **19/19 = 100 %**, **16** auditorías documentales y **3** aprobaciones históricas |
+| **La Puebla de Montalbán · Auxiliar C2** | **19** | **19** | **0** | **0** | **19/19 = 100 %**, auditoría documental, sin certificación integral |
 | **Olías del Rey · Auxiliar edificios C2** | **22** | **22** | **0** | **0** | **22/22 = 100 %**, auditoría editorial; E2E pendiente |
 | **Diputación Toledo · Administrativo C1** | **40** | **39** | **0** | **1** (T22 OAPGT) | **39/40 = 97,5 %** |
 | **Diputación Toledo · Auxiliar C2** | **20** | **19** | **0** | **1** (T6 OAPGT) | **19/20 = 95 %** |
 | **UC3M · Auxiliar C2** | **20** | **17** | **0** | **3** (T10/T15/T16) | **17/20 = 85 %** |
-| **TOTAL** | **121** | **113** | **3** | **5** | **116/121 = 95,9 % editorial mixto** |
+| **TOTAL** | **121** | **116** | **0** | **5** | **116/121 = 95,9 % editorial AUDITADO** |
 
-**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 113 AUDITADO + 3 APROBADO_USUARIO históricos + 5 pendientes`.
+**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 116 AUDITADO + 0 APROBADO_USUARIO históricos + 5 pendientes`.
 
 **Certificación integral acreditada: 0/121 (0 %)**. Implica legislación y versiones vigentes, cotejo exhaustivo de todas las preguntas y alternativas, E2E real en navegador y móvil, accesibilidad y evidencia/aceptación; **no** equivale a que haya 121 contenidos incorrectos. El porcentaje **95,9 %** tampoco puede interpretarse como exactitud jurídica verificada.
 
@@ -49,7 +49,7 @@
 
 | Archivo / fuente | Lectura correcta | Acción para evitar errores |
 |---|---|---|
-| `data/programa.json` | **T01–T16 AUDITADO**, **T17–T19 APROBADO_USUARIO**; se conservan aprobaciones del **17/07/2026** | Migración documental acreditada **10/11/2026**, sin certificación E2E |
+| `data/programa.json` | **T01–T19 AUDITADO**, **0 APROBADO_USUARIO**; se conservan aprobaciones del **17/07/2026** | Migración documental acreditada **10/11/2026**, sin certificación E2E |
 | `audit/PHASE2_CLOSURE.md`, `TRANSVERSAL_REVIEW.md` | Cierre verificable de **fase 2 en julio** sobre un commit, no garantía perpetua | Conservar como **histórico**, remitir aquí |
 | `audit/phase2-ci-result.md` | Resultado de una **ejecución/commit determinado**, no de todos los commits siguientes | Conservar evidencia; no usar como prueba CI actual |
 | `data/programa-diputacion-auxiliar-c2-2026.json` | El valor anterior `PUBLICADO` no estaba respaldado por una verificación completa; tema 6 sigue incompleto | Normalizar estados a **EN_REVISION_USUARIO** (19) y **BORRADOR** (tema 6) |
@@ -3924,3 +3924,20 @@ Cotejos de **04/11/2026** revisados como soporte previo, cruzados con fuentes BO
 **Recuento:** **113 AUDITADO + 3 APROBADO_USUARIO + 5 pendientes = 121**. Certificaciones integrales **0**. El resultado CI para el último commit todavía no está confirmado.
 
 **Siguiente lote:** **La Puebla T17–T19**. Evitar declarar 19/19 AUDITADO antes de contrastar sus documentos y fuentes Microsoft.
+
+
+## La Puebla T17–T19 y cierre de migración histórica — **10/11/2026**
+
+**Evidencia revisada:** los informes de **04/11/2026** sobre Microsoft Word/LibreOffice Writer, Excel/LibreOffice Calc y hardware acreditan **12 preguntas/48 alternativas cotejadas individualmente por tema**. Las matrices originales ya indicaban **AUDITADO_TECNICO_EDITORIAL** con E2E pendiente, y se alinean ahora con el estado operativo único **AUDITADO**.
+
+| Tema | Evidencia detallada | Límite |
+|---|---|---|
+| **17. Word / Writer** | [Cotejo 48 alternativas](content/la-puebla/tema-17/cotejo-integral-2026-11-04.md), fuentes Microsoft y [ayuda LibreOffice Writer](https://help.libreoffice.org/latest/es/text/swriter/04/01020000.html) | Verificar comportamiento en instalaciones concretas y accesibilidad |
+| **18. Excel / Calc** | [Cotejo 48 alternativas](content/la-puebla/tema-18/cotejo-integral-2026-11-04.md), [ayuda LibreOffice Calc CSV](https://help.libreoffice.org/latest/es/text/scalc/guide/csv_files.html) y documentación Microsoft | Las versiones y configuración regional pueden alterar etiquetas, separadores y presentación |
+| **19. Hardware y periféricos** | [Cotejo 48 alternativas](content/la-puebla/tema-19/cotejo-integral-2026-11-04.md), documentación fabricantes y Microsoft | El protocolo de extracción y compatibilidad depende de sistema y dispositivo |
+
+**Migración aplicada a toda La Puebla:** **19/19 AUDITADO** en manifiesto y matrices, manteniendo `aprobadoEl` y fichas de aprobación de julio, sin modificar claves de bancos. `tests/validate.mjs` exige **19/19 AUDITADO**, conserva control de los **228 ítems/912 alternativas**. README sincronizado.
+
+**Estado global:** **116 AUDITADO, 0 APROBADO_USUARIO operativo, 5 pendientes**. **Certificaciones integrales: 0/121** porque faltan distintos controles de navegación real, móvil, accesibilidad y validación/aceptación. **CI del último commit no verificado**: no atribuir SUCCESS hasta conseguir evidencia de ejecución.
+
+**Próximo trabajo editorial:** cerrar los **5** pendientes de Diputación C1 T22, Diputación C2 T6 y UC3M T10/T15/T16 sobre fuentes primarias y fecha de corte, sin promover por conveniencia. Después, realizar E2E sobre temas auditados.
