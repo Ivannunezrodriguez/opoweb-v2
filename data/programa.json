@@ -182,31 +182,47 @@
     {
       "numero": 9,
       "titulo": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-09/manual.md",
       "matriz": "content/la-puebla/tema-09/matriz.json",
       "aprobacion": "content/la-puebla/tema-09/aprobacion.md",
       "preguntas": "content/la-puebla/tema-09/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-09/articulos.md",
-      "fuentes": "content/la-puebla/tema-09/fuentes.md"
+      "fuentes": "content/la-puebla/tema-09/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-09/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 10,
       "titulo": "Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/la-puebla/tema-10/manual.md",
       "matriz": "content/la-puebla/tema-10/matriz.json",
       "preguntas": "content/la-puebla/tema-10/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-10/articulos.md",
       "aprobadoEl": "2026-07-17",
       "aprobacion": "content/la-puebla/tema-10/aprobacion.md",
-      "fuentes": "content/la-puebla/tema-10/fuentes.md"
+      "fuentes": "content/la-puebla/tema-10/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-10/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 11,
       "titulo": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-11/manual.md",
       "capitulos": [
@@ -227,12 +243,20 @@
         "content/la-puebla/tema-11/articulos-rgr-deuda.md",
         "content/la-puebla/tema-11/articulos-rgr-apremio.md"
       ],
-      "fuentes": "content/la-puebla/tema-11/fuentes.md"
+      "fuentes": "content/la-puebla/tema-11/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-11/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 12,
       "titulo": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "aprobadoEl": "2026-07-18",
       "manual": "content/la-puebla/tema-12/manual.md",
       "capitulos": [
@@ -252,7 +276,15 @@
       "aprobacion": "content/la-puebla/tema-12/aprobacion.md",
       "preguntas": "content/la-puebla/tema-12/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-12/articulos.md",
-      "fuentes": "content/la-puebla/tema-12/fuentes.md"
+      "fuentes": "content/la-puebla/tema-12/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-12/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 13,
