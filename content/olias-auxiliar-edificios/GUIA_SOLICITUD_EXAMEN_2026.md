@@ -1,6 +1,6 @@
 # Olías del Rey 2026 · Guía oficial de solicitud y examen
 
-**Estado editorial:** EN_AUDITORIA · **Fuente principal:** **BOP Toledo 204, de 23/10/2026, anuncio 2026/4833, código de verificación 2026.00004833**, páginas **54–59**. **Fuente de apertura:** [BOE-A-2026-22826, de 31/10/2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826).
+**Estado de esta guía administrativa:** EN_AUDITORIA por discrepancias de bases; **el temario tiene 22/22 temas AUDITADO a nivel documental, sin certificación funcional E2E**. · **Fuente principal:** **BOP Toledo 204, de 23/10/2026, anuncio 2026/4833, código de verificación 2026.00004833**, páginas **54–59**. **Fuentes de apertura y corroboración:** [BOE-A-2026-22826, de 31/10/2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826) y [DOCM n.º 212, 05/11/2026, anuncio 2026/7843](https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2026%2F11%2F05%2Fhtml%2F2026_7843.html&tipo=rutaDocm).
 
 ## Inscripción: dónde y con qué documentación
 
@@ -23,15 +23,16 @@ La tasa debe pagarse **telemáticamente mediante web municipal o presencialmente
 | Publicación oficial | Redacción literal | Fecha de cierre deducida, pendiente de confirmación |
 |---|---|---|
 | **BOP Toledo 204, 23/10/2026, base 3.ª Auxiliar**, p. 55 | **20 días naturales** desde el día siguiente al extracto BOE | **20/11/2026** |
-| **BOE 271, 31/10/2026**, BOE-A-2026-22826 | **20 días hábiles** desde el día siguiente de la publicación | **30/11/2026**, cómputo orientativo teniendo en cuenta festivo de **02/11** |
+| **BOE 271, 31/10/2026**, BOE-A-2026-22826 | **20 días hábiles** desde el día siguiente de la publicación | **30/11/2026**, cómputo orientativo sujeto al calendario aplicable y aclaración oficial |
+| **DOCM 212, 05/11/2026**, anuncio 2026/7843, firmado el **27/10/2026** | **20 días hábiles** desde el día siguiente al anuncio en el **BOE** | Reafirma la regla del **BOE**; **no abre** un nuevo plazo desde el DOCM |
 
-**No está resuelta** la diferencia. La fecha de **20/11/2026** se utiliza **solo como límite prudente de actuación**, no como resolución jurídica. Solicitar al **Ayuntamiento de Olías del Rey** aclaración por escrito de la vigencia del plazo.
+**Nueva evidencia primaria de 05/11/2026:** el **DOCM** reproduce expresamente **20 días hábiles**, lo que coincide con el **BOE** y contradice la mención de **20 días naturales** de la base tercera del **BOP**. **No es una rectificación expresa de esa base**, ni permite borrar la divergencia. La fecha de **20/11/2026** se mantiene **solo como límite prudente de actuación**, no como cierre legal confirmado. Solicitar aclaración por escrito al **Ayuntamiento de Olías del Rey** y conservar justificante de registro. No utilizar calendarios de webs privadas para certificar un día de cierre.
 
 > ⚠️ **¡Foco Examen!:** No presentar el 30/11 como una fecha formalmente certificada mientras exista contradicción literal entre bases y extracto. Lo prudente es **registrar antes del 20/11**.
 
 ## Número de plazas: discrepancia textual
 
-**BOE de 31/10/2026** y **encabezado del BOP p. 54**: **CUATRO plazas** de Auxiliar de edificios. En cambio, **base 1.1** y título del **Anexo I** mencionan **una plaza**. La cifra de seguimiento **4** procede del BOE y de la oferta pública de empleo, con discrepancia expresamente documentada. El Ayuntamiento puede aclararla o rectificarla.
+**BOE de 31/10/2026**, **DOCM de 05/11/2026** y **encabezado del BOP p. 54**: **CUATRO plazas** de Auxiliar de edificios. En cambio, **base 1.1** y título del **Anexo I** mencionan **una plaza**. La cifra de seguimiento **4** procede del BOE y de la oferta pública de empleo, con discrepancia expresamente documentada. El Ayuntamiento puede aclararla o rectificarla.
 
 ## Ejercicios y valoración
 
@@ -60,3 +61,15 @@ Las bases prevén una **bolsa temporal para quienes superen el proceso y no obte
 El programa **C2** está transcrito literalmente en [data/programa-olias-auxiliar-edificios-2026.json](../../data/programa-olias-auxiliar-edificios-2026.json): **5 temas generales** y **17 específicos**, numerados del 1 al 22 para navegación de OpoWeb. El BOP los numera del 1 al 5 (generales) y vuelve al 1 para los 17 específicos: se conserva el número de bloque en los metadatos.
 
 **Fuente y localización:** BOP Toledo 204/2026, anuncio 4833, páginas **54–59**, sobre todo **58–59**, [verificación oficial CSV](https://bop.diputoledo.es/webEbop/csv.jsp) código **2026.00004833**.
+
+## Acta de contraste adicional — 10/11/2026
+
+| Punto controlado | Fuente primaria nueva | Resultado y reserva |
+|---|---|---|
+| **Número de plazas** | [DOCM 2026/7843, 05/11](https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2026%2F11%2F05%2Fhtml%2F2026_7843.html&tipo=rutaDocm) | Confirma **4** auxiliares de edificios y **3** limpiadores; subsiste el **1** que figura en una base y en el modelo del BOP |
+| **Plazo de solicitudes** | [DOCM 2026/7843](https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2026%2F11%2F05%2Fhtml%2F2026_7843.html&tipo=rutaDocm) y [BOE-A-2026-22826](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826) | Ambas publicaciones disponen **20 días hábiles desde BOE**; BOP contiene **20 naturales**. Divergencia **sin fe de erratas expresa localizada en este contraste** |
+| **Inicio del cómputo** | Ambos anuncios oficiales | La referencia es **31/10/2026 (BOE)**, **no** 05/11/2026 (DOCM) |
+
+> ⚠️ **¡Foco Examen!:** **Dos anuncios oficiales coincidentes** no equivalen a una **rectificación expresa de las bases**. Distinguir **fecha de publicación DOCM (05/11)** del **dies a quo asociado al BOE (31/10)**. No certificar el último día administrativo sin corroboración del calendario y del Ayuntamiento.
+
+**Alcance del cierre:** se añade fuente oficial posterior y se corrige la trazabilidad administrativa. **No** se altera el estado de los **22 temas**, ni se declara resuelto el conflicto de las bases o superado el control E2E.
