@@ -1,6 +1,6 @@
 {
   "tema": 10,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "epigrafeOficial": "Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.",
   "fechaRevisionNormativa": "2026-11-04",
   "trazabilidadArticuloPorArticulo": "content/la-puebla/tema-10/articulos.md",
@@ -201,5 +201,11 @@
       "revision legal articulo por articulo hasta examen",
       "sin reabrir aprobacion historica del usuario"
     ]
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "aprobacionHistorica": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
