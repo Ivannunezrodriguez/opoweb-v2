@@ -105,47 +105,79 @@
     {
       "numero": 5,
       "titulo": "El municipio. Organización y funcionamiento. La Provincia. Organización provincial. Competencias. El Régimen electoral de las Entidades Locales.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-05/manual.md",
       "matriz": "content/la-puebla/tema-05/matriz.json",
       "aprobacion": "content/la-puebla/tema-05/aprobacion.md",
       "preguntas": "content/la-puebla/tema-05/preguntas.json",
-      "fuentes": "content/la-puebla/tema-05/fuentes.md"
+      "fuentes": "content/la-puebla/tema-05/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-05/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 6,
       "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: El Personal al servicio de las Administraciones Públicas. Provisión de puestos de trabajo. La carrera administrativa. Promoción interna. La selección del personal y la oferta pública de Empleo.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-06/manual.md",
       "matriz": "content/la-puebla/tema-06/matriz.json",
       "aprobacion": "content/la-puebla/tema-06/aprobacion.md",
       "preguntas": "content/la-puebla/tema-06/preguntas.json",
-      "fuentes": "content/la-puebla/tema-06/fuentes.md"
+      "fuentes": "content/la-puebla/tema-06/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-06/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 7,
       "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos laborales: Derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-07/manual.md",
       "matriz": "content/la-puebla/tema-07/matriz.json",
       "aprobacion": "content/la-puebla/tema-07/aprobacion.md",
       "preguntas": "content/la-puebla/tema-07/preguntas.json",
-      "fuentes": "content/la-puebla/tema-07/fuentes.md"
+      "fuentes": "content/la-puebla/tema-07/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-07/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 8,
       "titulo": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "aprobadoEl": "2026-07-17",
       "manual": "content/la-puebla/tema-08/manual.md",
       "matriz": "content/la-puebla/tema-08/matriz.json",
       "aprobacion": "content/la-puebla/tema-08/aprobacion.md",
       "preguntas": "content/la-puebla/tema-08/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-08/articulos.md",
-      "fuentes": "content/la-puebla/tema-08/fuentes.md"
+      "fuentes": "content/la-puebla/tema-08/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-08/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 9,
