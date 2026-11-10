@@ -148,3 +148,12 @@ La [**nota oficial de prensa de la Diputación de Toledo de 24/07/2015**](https:
 La captura visual del PDF no se completó. **Mantener el bloqueo documental** hasta cotejar Estatutos originales, correcciones y reformas definitivas.
 
 > ⚠️ **¡Foco Examen!:** No transformar la delegación para **dos expedientes** en atribución general de contratación a la **Dirección**, ni el **art. 9/10** contradictorio de una publicación histórica en clave de test actual.
+
+
+## Matriz única de vigencia OAPGT — 10/11/2026
+
+Ver [**matriz normativa compartida C1 T22 / C2 T6**](../../diputacion-toledo/OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md), cotejada con las publicaciones oficiales del **BOP 284/2011**, **225/2017** y **188/2019**, distinguiendo la **aprobación inicial de 2004** de la reforma efectiva y evitando duplicidad de redacción.
+
+> ⚠️ **¡Foco Examen!:** **Acuerdo inicial de 21/12/2004** ≠ **aprobación definitiva acreditada**. No usar las composiciones y quórums de ese texto como vigente sin la cadena documental; la modificación expresa de **2011** sí respalda la distribución entre **Consejo Rector**, **Presidencia** y **Dirección** descrita en la ficha.
+
+**Estado editorial inalterado:** no se ha acreditado el consolidado estatutario completo ni una revisión integral del régimen de personal y todas las reformas posteriores.
