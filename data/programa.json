@@ -419,7 +419,7 @@
     {
       "numero": 17,
       "titulo": "LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/la-puebla/tema-17/manual.md",
       "capitulos": [
         "content/la-puebla/tema-17/bloque-01-entorno-formatos.md",
@@ -433,12 +433,20 @@
       "preguntas": "content/la-puebla/tema-17/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-17/fuentes.md",
       "aprobadoEl": "2026-07-18",
-      "aprobacion": "content/la-puebla/tema-17/aprobacion.md"
+      "aprobacion": "content/la-puebla/tema-17/aprobacion.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-17/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 18,
       "titulo": "LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/la-puebla/tema-18/manual.md",
       "capitulos": [
         "content/la-puebla/tema-18/bloque-01-entorno-datos-formatos.md",
@@ -452,12 +460,20 @@
       "preguntas": "content/la-puebla/tema-18/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-18/fuentes.md",
       "aprobadoEl": "2026-07-18",
-      "aprobacion": "content/la-puebla/tema-18/aprobacion.md"
+      "aprobacion": "content/la-puebla/tema-18/aprobacion.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-18/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     },
     {
       "numero": 19,
       "titulo": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
-      "estado": "APROBADO_USUARIO",
+      "estado": "AUDITADO",
       "manual": "content/la-puebla/tema-19/manual.md",
       "capitulos": [
         "content/la-puebla/tema-19/bloque-01-ordenador-componentes.md",
@@ -471,7 +487,15 @@
       "preguntas": "content/la-puebla/tema-19/preguntas.json",
       "trazabilidad": "content/la-puebla/tema-19/fuentes.md",
       "aprobadoEl": "2026-07-18",
-      "aprobacion": "content/la-puebla/tema-19/aprobacion.md"
+      "aprobacion": "content/la-puebla/tema-19/aprobacion.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-19/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
     }
   ]
 }
