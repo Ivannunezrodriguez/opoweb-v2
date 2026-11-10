@@ -99,7 +99,7 @@ const organosT15=[
  ['175','Rector']
 ];
 for(const [art,needle] of organosT15) {
- assert(manual.includes('**Art. '+art+'**') || manual.includes('**Art. '+art+'**,'),
+ assert(new RegExp('(?:\\*\\*Art\\. |art\\. )'+art.replace('.', '\\.')+'(?:\\*\\*|\\b)', 'i').test(manual),
    'Falta artículo en cuadro de competencias UC3M T15: '+art);
  assert(manual.includes(needle), 'Falta órgano o regla de UC3M T15: '+needle);
 }
