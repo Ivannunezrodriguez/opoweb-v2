@@ -25,14 +25,14 @@
 
 | Convocatoria | Temas | `AUDITADO` | `APROBADO_USUARIO` histórico | Pendiente editorial | Progreso de estado registrado |
 |---|---:|---:|---:|---:|---:|
-| **La Puebla de Montalbán · Auxiliar C2** | **19** | **0** | **19** | **0** | **19/19 = 100 %**, aprobación **histórica**, sin recertificación jurídica de noviembre |
+| **La Puebla de Montalbán · Auxiliar C2** | **19** | **4** | **15** | **0** | **19/19 = 100 %**, **4** auditorías documentales y **15** aprobaciones históricas |
 | **Olías del Rey · Auxiliar edificios C2** | **22** | **22** | **0** | **0** | **22/22 = 100 %**, auditoría editorial; E2E pendiente |
 | **Diputación Toledo · Administrativo C1** | **40** | **39** | **0** | **1** (T22 OAPGT) | **39/40 = 97,5 %** |
 | **Diputación Toledo · Auxiliar C2** | **20** | **19** | **0** | **1** (T6 OAPGT) | **19/20 = 95 %** |
 | **UC3M · Auxiliar C2** | **20** | **17** | **0** | **3** (T10/T15/T16) | **17/20 = 85 %** |
-| **TOTAL** | **121** | **97** | **19** | **5** | **116/121 = 95,9 % editorial mixto** |
+| **TOTAL** | **121** | **101** | **15** | **5** | **116/121 = 95,9 % editorial mixto** |
 
-**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 97 AUDITADO + 19 APROBADO_USUARIO históricos + 5 pendientes`.
+**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 101 AUDITADO + 15 APROBADO_USUARIO históricos + 5 pendientes`.
 
 **Certificación integral acreditada: 0/121 (0 %)**. Implica legislación y versiones vigentes, cotejo exhaustivo de todas las preguntas y alternativas, E2E real en navegador y móvil, accesibilidad y evidencia/aceptación; **no** equivale a que haya 121 contenidos incorrectos. El porcentaje **95,9 %** tampoco puede interpretarse como exactitud jurídica verificada.
 
@@ -49,7 +49,7 @@
 
 | Archivo / fuente | Lectura correcta | Acción para evitar errores |
 |---|---|---|
-| `data/programa.json` | **19 APROBADO_USUARIO**, aprobación editorial histórica de La Puebla | Mantener hito; **no** presentar como verificación legal de noviembre |
+| `data/programa.json` | **T01–T04 AUDITADO**, **T05–T19 APROBADO_USUARIO**; se conservan aprobaciones del **17/07/2026** | Migración documental acreditada **10/11/2026**, sin certificación E2E |
 | `audit/PHASE2_CLOSURE.md`, `TRANSVERSAL_REVIEW.md` | Cierre verificable de **fase 2 en julio** sobre un commit, no garantía perpetua | Conservar como **histórico**, remitir aquí |
 | `audit/phase2-ci-result.md` | Resultado de una **ejecución/commit determinado**, no de todos los commits siguientes | Conservar evidencia; no usar como prueba CI actual |
 | `data/programa-diputacion-auxiliar-c2-2026.json` | El valor anterior `PUBLICADO` no estaba respaldado por una verificación completa; tema 6 sigue incompleto | Normalizar estados a **EN_REVISION_USUARIO** (19) y **BORRADOR** (tema 6) |
@@ -3852,3 +3852,23 @@ Se ha creado [**CONTROL_CIERRE_TEMARIOS_2026-11-09.md**](CONTROL_CIERRE_TEMARIOS
 **UC3M:** persiste falta de fecha primaria de publicación de resolución de admitidos definitivos. [BOE-A-2026-14624](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) base **1.7** ordena corte al **día de publicación**; [portal UC3M](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) acredita existencia de definitivos en vista indexada; [ADAMS 07/10/2026](https://www.adams.es/noticias/oposiciones/examenes/examen-auxiliar-universidad-carlos-iii-madrid/) confirma conocimiento público antes de esa fecha. **No confundir universidad UC3M con UCLM** ni fecha de firma con publicación. T10/T15/T16 continúan en revisión, sin alteración de bancos o etiquetas.
 
 **Cierre de esta pasada:** una modificación de matriz jurídica compartida y presente registro; ninguna certificación integral ni ejecución E2E/CI acreditada. **97 AUDITADO, 19 históricos, 5 pendientes**.
+
+
+## Migración de La Puebla aprobaciones históricas → AUDITADO — **10/11/2026**
+
+**Objeto:** revisar sin borrar la aprobación del usuario de **17/07/2026**, promover solo cuatro temas ya cotejados documentalmente, y mantener la distinción con una certificación integral funcional.
+
+| Tema | Evidencia jurídico-editorial | Alcance auditado | Bloqueo todavía abierto |
+|---|---|---|---|
+| **T1 Constitución** | [12 preguntas/48 alternativas](content/la-puebla/tema-01/cotejo-integral-2026-11-04.md), [control reforma 2026](content/la-puebla/CIERRE_FOCAL_T01_T04_20261106.md), [BOE-A-2026-10881](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881) | Art. **69.3** reformado, transitoria electoral, estructura, derechos, garantías, reforma | E2E y eventual novedad antes del examen |
+| **T2 Ley 39/2015** | [12 preguntas/48 alternativas](content/la-puebla/tema-02/cotejo-integral-2026-11-04.md), [control plazos](content/la-puebla/CIERRE_FOCAL_T01_T04_20261106.md) | **Arts. 1–33**, representación, derechos, registro y plazos | E2E |
+| **T3 Procedimiento** | [12 preguntas/48 alternativas](content/la-puebla/tema-03/cotejo-integral-2026-11-04.md) y [art. 96](content/la-puebla/CIERRE_FOCAL_T01_T04_20261106.md) | **Arts. 53–105**, trámite simplificado y excepciones | E2E |
+| **T4 Recursos y revisión** | [12 preguntas/48 alternativas](content/la-puebla/tema-04/cotejo-integral-2026-11-04.md), [comparativa plazos](content/la-puebla/CIERRE_FOCAL_T01_T04_20261106.md) | **Arts. 106–126 LPAC** y **52–53 LRBRL**, revisión de oficio, lesividad, recursos | E2E |
+
+**Revalidación externa de esta intervención:** texto BOE consolidado de [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) señala última actualización **06/11/2024**, y [reforma CE 2026](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-10881) confirma publicación y entrada en vigor **20/05/2026** y eficacia electoral aplazada. No se afirman relectura nueva exhaustiva de todas las **192** alternativas: se utiliza el **cotejo individual existente del 04/11**, reforzado por controles del **06/11**.
+
+**Cambios operativos:** `data/programa.json` y matrices T01–T04 `AUDITADO`; valor `aprobadoEl` conservado; `tests/validate.mjs` mantiene validación estructural de los **19 bancos**, incluyendo los auditados; `assets/app.js` reconoce `AUDITADO` como contenido visible. **No** se modifica el estado `APROBADO_USUARIO` de los bancos originales ni se reetiquetan los **15** restantes sin auditoría documental y prueba de coherencia.
+
+**Nuevo contador:** **101 AUDITADO + 15 APROBADO_USUARIO histórico + 5 pendientes = 121**. **0/121 certificaciones integrales**. `npm test` / GitHub Actions sobre este commit **aún pendientes de ejecutar o verificar**, no atribuir éxito a CI histórica.
+
+**Siguiente cola:** **La Puebla T05–T08**, cotejo de vigencia, matriz, bancos de distractores y adaptación de la web antes de migración. Evitar cambiar por lote solo por existir informes de años anteriores.
