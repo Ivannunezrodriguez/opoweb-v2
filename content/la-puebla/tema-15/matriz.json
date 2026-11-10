@@ -1,6 +1,6 @@
 {
   "tema": 15,
-  "estado": "APROBADO_USUARIO",
+  "estado": "AUDITADO",
   "aprobadoEl": "2026-07-18",
   "epigrafeOficial": "Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
   "fechaRevisionTecnica": "2026-07-18",
@@ -190,5 +190,12 @@
     "informe": "content/la-puebla/tema-15/cotejo-integral-2026-11-04.md",
     "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
     "tipo": "revisión individualizada de alternativas, no certificación exhaustiva del portal"
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "ambito": "TECNICO_EDITORIAL",
+    "aprobacionHistorica": "2026-07-18",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
   }
 }
