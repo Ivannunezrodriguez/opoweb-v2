@@ -58,3 +58,53 @@ Los informes [T16 fuentes](tema-16/fuentes.md) documentan la corrección previa 
 - **Sin prueba primaria nueva de día exacto:** el **01/10/2026** sigue siendo fecha secundaria.
 - **Sin cierre integral:** pendiente cotejar adaptación LOSU, cambios de normas UC3M anteriores al corte, todos los distractores y navegación E2E.
 - **Estados conservados:** **T10/T15/T16 EN_REVISION_USUARIO**. **No** promover a AUDITADO sin las pruebas anteriores.
+
+
+## 6. Auditoría primaria adicional del corte normativo — 10/11/2026
+
+La [**base primera.7, BOE-A-2026-14624**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) es inequívoca: se exige la legislación **vigente cuando se publica** la resolución que aprueba las listas definitivas y anuncia el ejercicio. La [**web oficial UC3M**](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) permite identificar la **resolución definitiva**, pero su vista pública consultada **no indica fecha/hora de publicación mediante diligencia verificable**. La [**página general de listados de Secretaría Virtual**](https://www.uc3m.es/ss/Satellite/SecretariaVirtual/es/TextoMixta/1371226562528/) pertenece a **otro proceso estudiantil**; no usarla como prueba de esta oposición.
+
+| Hito | Soporte | Calificación probatoria |
+|---|---|---|
+| **25/09/2026**, cierre subsanación | [Portal UC3M](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) | **Fecha oficial de subsanación**, NO de publicación definitiva |
+| **30/09/2026**, firma de resolución | Archivo primario mencionado en investigación previa, sin diligencia pública de publicación recuperada aquí | **Firma ≠ publicación** |
+| **01/10/2026**, definitivas | [Calendario ADAMS](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/) | **Indicio secundario**, no fecha certificada |
+| **07/10/2026**, listas ya publicadas | [Noticia ADAMS](https://www.adams.es/noticias/oposiciones/examenes/examen-auxiliar-universidad-carlos-iii-madrid/) | Evidencia secundaria de conocimiento público anterior al **23/10** |
+| **21/11/2026**, ejercicio | [Portal oficial UC3M](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) | Fecha de examen; **no corte legal** |
+
+**Conclusión:** la **fecha oficial exacta de publicación sigue sin certificarse**. No elevar a estado auditado integral por el solo hecho de encontrar la resolución; exigir **diligencia oficial de publicación o certificación de fecha por el órgano convocante**.
+
+### T10 — TREBEP art. 49.e: cambio posterior al momento acreditado
+
+El [**BOE del TREBEP, referencias de modificaciones**](https://www.boe.es/eli/es/rdlg/2015/10/30/5) identifica la **disposición final undécima de la Ley 4/2026** como modificación del **artículo 49.e**. La Ley se **publicó el 03/10/2026** y **entró en vigor el 23/10/2026**. También constan modificaciones anteriores por **RDL 9/2025**: no confundir el texto anterior a Ley 4/2026 con la versión original del TREBEP de 2015.
+
+| Referencia | Fecha | Uso en tema 10 |
+|---|---|---|
+| Reforma publicada | **03/10/2026** | Publicación **no** implica entrada en vigor |
+| Reforma vigente | **23/10/2026** | No incluir automáticamente en examen UC3M, cuyas listas ya constaban publicadas en noticia del **07/10** |
+| Resto de preceptos TREBEP | Vigencia individual | Requiere artículos y transitorias de cada modificación |
+
+> ⚠️ **¡Foco Examen!:** **03/10 publicación** no es **23/10 vigencia**. El cambio del **art. 49.e TREBEP** no debe tratarse como exigible a la fecha probable **01/10**.
+
+### T15 — Estatutos de 2003/2009 y LOSU: fuente oficial de 2026
+
+La [**UC3M mantiene en su catálogo oficial los Estatutos de 2003 y la reforma de 2009, más un texto refundido**](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m). Además, el [**BOCM de 08/06/2026, convocatoria de profesorado de la UC3M**](https://www.bocm.es/boletin/CM_Orden_BOCM/2026/06/08/BOCM-20260608-22.PDF) cita expresamente ambos decretos junto a la **LOSU**: acredita **uso institucional en 2026**, **no** compatibilidad automática de cada precepto estatutario.
+
+La [**LOSU arts. 44 y 45**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500) dispone **mandato de 6 años** en los casos legalmente previstos, **mínimo 25 % estudiantado** y **51 % profesorado funcionario/permanente laboral** del Claustro. La [**Ley 1/2024, disposición final cuarta**](https://www.boe.es/eli/es/l/2024/06/07/1/con), modifica la transitoria primera de LOSU a **3 años desde la entrada en vigor de LOSU** para adaptar Estatutos y constituir nuevos órganos. Una fuente institucional que todavía cita Estatutos antiguos **no acredita por sí sola adaptación material de todos los artículos**.
+
+> ⚠️ **¡Foco Examen!:** **50 estudiantes de los Estatutos 2003** frente a **mínimo LOSU 25 %**: no memorizar una composición histórica como regla actual sin comprobar compatibilidad y transitorio.
+
+### T16 — RD 905/2025 anulado: efectos delimitados
+
+El [**BOE-A-2026-22083, sentencia TS de 06/10/2026, publicada el 23/10/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083) **anula el RD 905/2025 completo**. El análisis BOE declara nula, entre otras, **la modificación del artículo 22.4 RD 822/2021** que aquel decreto introducía. **NO anuló íntegramente el RD 822/2021**. El [**BOE histórico del RD 905/2025**](https://www.boe.es/buscar/act.php?id=BOE-A-2025-20002&p=20261023&tn=2) acredita vigencia inicial desde **28/10/2025** y anotación de nulidad **23/10/2026**.
+
+| Distinción | Regla verificable |
+|---|---|
+| Disposición anulada | **RD 905/2025**, no todo el **RD 822/2021** |
+| Precepto del RD 822/2021 afectado | Modificación del **artículo 22.4** |
+| Sentencia / publicación de fallo | **06/10/2026 / 23/10/2026** |
+| Versión histórica del reglamento en corte UC3M | Exige estudio de los **efectos de la nulidad** y de la **fecha oficial de corte**, no un automatismo que copie el consolidado de hoy |
+
+> ⚠️ **¡Foco Examen!:** **Nulidad de la norma modificadora** ≠ **anulación del RD 822/2021 íntegro**. Fecha de sentencia ≠ fecha de publicación del fallo.
+
+**Resultado del cotejo adicional:** exclusión temporal razonablemente fundada de la reforma del **49.e TREBEP** vigente **23/10**, prueba primaria adicional del **uso de Estatutos UC3M 2003/2009 en junio 2026** y delimitación del **RD 905/2025**. Permanecen sin cierre integral **T10, T15 y T16**, por faltar diligencia de publicación definitiva y examen jurídico exhaustivo de todos los conflictos intertemporales, además de E2E.
