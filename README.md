@@ -8,27 +8,26 @@ Nueva plataforma de estudio para oposiciones administrativas, reconstruida desde
 
 Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
-## Estado editorial actual — consulta obligatoria (**09/11/2026**)
+## Estado editorial actual — **10/11/2026**, cinco manifiestos
 
-**Fuente principal de trazabilidad:** [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md). Para una síntesis pormenorizada, consultar [ESTADO_GENERAL_OPOWEB_2026-11-09.md](ESTADO_GENERAL_OPOWEB_2026-11-09.md). El estado registrado en cada manifiesto tiene prioridad sobre resúmenes antiguos del README. Los cinco programas suman **121 temas**.
+**Registro principal y limitaciones de certificación:** [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md). Los informes históricos no sustituyen los estados del manifiesto actual. **Total: 121 temas**.
 
-| Convocatoria | Temas | Estado documental a 09/11/2026 | Reserva |
-|---|---:|---|---|
-| La Puebla de Montalbán C2 | **19** | **19 APROBADO_USUARIO** históricos de julio | Falta recertificación jurídica global de noviembre |
-| Diputación Toledo Administrativo C1 | **40** | **39 AUDITADO** | **T22 OAPGT** pendiente de estatutos íntegros |
-| Diputación Toledo Auxiliar C2 | **20** | **19 AUDITADO** | **T6 OAPGT**, todavía BORRADOR |
-| Olías del Rey Auxiliar de edificios C2 | **22** | **22 AUDITADO** | **T13 cerrado editorialmente** con 280 registros VIAS del INE (30/06/2026); E2E pendiente |
-| UC3M Auxiliar Administrativa C2 | **20** | **17 AUDITADO**, **3 EN_REVISION_USUARIO** (T10/T15/T16) | Anexo I definitivo firmado 30/09/2026; publicación de resolución pendiente |
+| Convocatoria | Temas | `AUDITADO` | `APROBADO_USUARIO` histórico | Aún pendientes | Progreso editorial declarado |
+|---|---:|---:|---:|---:|---:|
+| La Puebla de Montalbán C2 | **19** | **0** | **19** | **0** | **100 %** (aprobación histórica) |
+| Olías del Rey Auxiliar edificios C2 | **22** | **22** | **0** | **0** | **100 %** |
+| Diputación Toledo Administrativo C1 | **40** | **39** | **0** | **1** (T22 OAPGT) | **97,5 %** |
+| Diputación Toledo Auxiliar C2 | **20** | **19** | **0** | **1** (T6 OAPGT) | **95 %** |
+| UC3M Auxiliar Administrativa C2 | **20** | **17** | **0** | **3** (T10/T15/T16) | **85 %** |
+| **TOTAL** | **121** | **97** | **19** | **5** | **116/121 = 95,9 % de estados editoriales combinados** |
 
-**Lectura correcta de contadores (09/11/2026, tras los documentos INE y UC3M aportados):** **97/121** temas con estado **AUDITADO** actual (39 Diputación C1, 19 Diputación C2, 22 Olías y 17 UC3M); **19/121** aprobados históricamente en La Puebla; **5/121** pendientes editoriales (C1 T22, C2 T6 y UC3M T10/T15/T16). Estas categorías **no equivalen** a certificación integral. **0/121** temas cuentan con cierre jurídico-editorial, técnico, funcional y de accesibilidad demostrado de extremo a extremo.
+**Interpretación:** la barra de **95,9 %** **no es fiabilidad jurídica ni certificación integral**. El total desagregado es **97/121 (80,2 %) en estado AUDITADO**, **19/121 (15,7 %) con aprobación histórica de La Puebla**, **5/121 (4,1 %) en revisión/borrador**. El proyecto **no acredita certificación integral de extremo a extremo de ninguno de los 121 temas (0/121)**: faltan en distinto grado contraste actualizado, pruebas reales de navegador, móvil, accesibilidad y aceptación exigida por sus reglas.
 
-**Bancos y preparación:** UC3M conserva **260 preguntas temáticas** y **3 simulacros de 70 titulares + 5 de reserva**, con corrección de **A − E/3**, según bases. Olías cuenta con **279 preguntas temáticas**, **40 psicotécnicas** y dos simulacros de 50+20. Diputación C1 tiene **807 preguntas**, incluyendo 24 del T22 OAPGT. Los tests automatizados de integridad y coherencia no equivalen a verificar jurídicamente todos los distractores. El estado de la web debe verificarse en navegador real.
+**Bloqueos editoriales exactos:** **UC3M T10/T15/T16** siguen a la espera de la acreditación primaria de fecha de publicación de definitivos y cotejos jurídicos/transitorios integrales; **Diputación C1 T22 y C2 T6** requieren prueba de eficacia definitiva de reforma OAPGT anunciada inicialmente en **2004**, posibles normas posteriores y acabar régimen laboral. **El PDF estatutario íntegro hasta 2011 YA ha sido aportado y trabajado**: no presentarlo como ausente. **Olías T13** tiene inventario INE de **280 entradas VIAS** verificado documentalmente, sin prueba completa E2E.
 
-**CI:** [validación GitHub Actions completada satisfactoriamente](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42577252425) para commit `518e2326d5f2`: **67 pasos correctos** (incluidos montaje de Node, sintaxis, tests por programas y controles finales). Se han reparado tests antiguos con cifras obsoletas de Diputación C1 y Olías. **No confundir** el resultado del flujo de validación con el de despliegue de GitHub Pages: son ejecuciones distintas.
+**CI verificado:** [GitHub Actions del commit `47fe9db7`](https://github.com/Ivannunezrodriguez/opoweb-v2/actions/runs/42772686384) con **90/90 pasos satisfactorios** y despliegue GitHub Pages de ese commit finalizado con éxito. **No** equivale a validación jurídica/funcional completa de todo lo expuesto.
 
-**Puntos críticos:** Olías tiene discrepancias BOP/BOE sobre **número de plazas** y **20 días naturales/hábiles**; evitar afirmar que están resueltas. UC3M exige fecha primaria de listas definitivas (base 1.7) para fechar qué legislación entra; el **01/10/2026** sigue como dato secundario no certificado. El `sw.js` está configurado para darse de baja y borrar cachés, por lo que **no se garantiza uso sin conexión** pese a disponer de `manifest.json`.
-
-**Prioridades de la siguiente fase:** cerrar documentos oficiales OAPGT; acreditar publicación de resolución UC3M y corte legal T10/T15/T16; controles jurídicos frase a frase; pruebas manuales E2E en móvil/escritorio, WCAG y persistencia; depurar divergencias entre textos informativos y estados formales. No sustituir pruebas por más contenido de repaso.
+**Riesgos conocidos adicionales:** discrepancia **BOP/BOE** sobre plazas y días de solicitud en Olías; día primario preciso de publicación de definitivos UC3M sin diligencia localizada (dato **01/10/2026** secundario, evidencia de existencia antes de **07/10/2026**); y `sw.js` configurado para baja/caché, sin garantía de estudio **offline**. Mantener priorizados los exámenes de **La Puebla 14/11/2026** y **UC3M 21/11/2026**.
 
 ## Fuente del programa
 
