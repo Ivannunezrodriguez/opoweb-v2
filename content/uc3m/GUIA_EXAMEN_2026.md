@@ -487,3 +487,21 @@ Además del **Anexo I de 36 páginas**, se ha recibido la **resolución principa
 [Acta de cronología actualizada](../../audit/UC3M_ACOTACION_CORTE_OFICIAL_2026-11-09.md). Los tres temas **T10/T15/T16** siguen con revisión del corte y normas específicas: no elevarlos por analogía con la firma.
 
 > ⚠️ **¡Foco Examen!:** En la resolución los recursos de **1 mes** y **2 meses** se cuentan desde el día siguiente a la **publicación**, no a la firma.
+
+## Corte UC3M: intervalo temporal documentado — contraste de **10/11/2026**
+
+La [convocatoria oficial (BOE-A-2026-14624), base primera.7](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) fija como fecha jurídica de referencia la **publicación** de la resolución de listas definitivas y anuncio de ejercicio, no su firma. El documento original de **Gerencia** aportado al proyecto consta firmado el **30/09/2026 a las 13:14:34**. El [portal oficial de UC3M](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) acredita que la resolución definitiva está disponible, pero no explicita la fecha histórica exacta de publicación.
+
+La noticia contemporánea [ADAMS, **07/10/2026**](https://www.adams.es/noticias/oposiciones/examenes/examen-auxiliar-universidad-carlos-iii-madrid/) ya da por publicadas las listas definitivas. Su calendario sitúa la publicación en el **01/10/2026** (dato **secundario**, pendiente de diligencia UC3M). De ello resulta un **intervalo documental inferido del 30/09 al 07/10**, **no una fecha oficial certificada**.
+
+| Hito | Evidencia | Uso en el examen |
+|---|---|---|
+| Resolución firmada | **30/09/2026** — documento primario | **No sustituye la fecha de publicación** |
+| Publicación de listas | **01/10/2026**, según calendario ADAMS | Fecha secundaria, **sin acreditación primaria** |
+| Listas ya publicadas | Noticia de **07/10/2026** | Indicio contemporáneo que sitúa el corte **antes del 23/10/2026** |
+| Reforma del **art. 49.e TREBEP** | Ley publicada **03/10/2026**, con vigencia desde **23/10/2026** | **No incorporarla** como derecho vigente al corte inferido del examen |
+| Sentencia anulatoria del **RD 905/2025** | Publicada **23/10/2026** | **Posterior al corte inferido**, sin prejuzgar efectos jurídicos propios de la nulidad |
+
+**Cierre operativo del riesgo temporal:** la resolución definitiva ya se describía como publicada el **07/10/2026**, por lo que la reforma del TREBEP que **entró en vigor el 23/10** no era legislación vigente para ese corte, si la noticia contemporánea es exacta. La sentencia de nulidad del **RD 905/2025**, también publicada el **23/10**, requiere análisis separado de sus efectos, no una simple sustitución retrospectiva del temario. **Pendiente:** la **constancia oficial de publicación efectiva**, que sigue siendo imprescindible para una certificación integral de **T10, T15 y T16**.
+
+> ⚠️ **¡Foco Examen!:** **Firma 30/09** no es necesariamente **publicación 01/10**. Una información secundaria del **07/10** permite acotar el corte, pero no inventar diligencia oficial. **Publicación BOE 03/10** no equivale a **vigencia TREBEP 23/10**.
