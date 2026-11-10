@@ -127,3 +127,10 @@ Cotejados [**Estatutos originales UC3M, Decreto 1/2003 (art. 30.1)**](https://ww
 **Esta colisión exige revisión jurídica previa:** no extrapolar porcentajes o mandatos de los Estatutos originales a respuestas vigentes de **2026**. [**Advertencia incorporada al manual**](manual.md#advertencia-de-vigencia-estatutos-de-20032009-frente-a-losu--09112026). El tema se mantiene `EN_REVISION_USUARIO`.
 
 > ⚠️ **¡Foco Examen!:** **25 % de estudiantes** en el **Claustro (LOSU)**; no confundir con **50 plazas históricas** en los Estatutos de **2003**. La disposición transitoria primera tiene redacción modificada: **3 años**, no **2**.
+
+
+## Control transversal de corte UC3M — 10/11/2026
+
+Consultar [**dossier jurídico compartido T10/T15/T16**](../CONTROL_CORTE_T10_T15_T16_20261110.md): diferencia fecha de firma, publicación y examen, documenta reforma TREBEP **03/10/2026** (vigente **23/10/2026**), fricción de Estatutos **2003/2009** con **LOSU** y distinción entre **ECTS estatal e institucional**. **Fecha exacta de publicación de definitivos sin diligencia primaria**: el **01/10/2026** es secundario. No implica cierre integral ni cambio de clave/estado.
+
+> ⚠️ **¡Foco Examen!:** La **base primera.7** fija **publicación de listas definitivas** como corte, no el examen del **21/11/2026**.
