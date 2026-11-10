@@ -228,7 +228,7 @@ function isThemeAvailable(theme) {
 function themeStatus(theme) {
   if (!isThemeAvailable(theme)) return 'PENDIENTE';
   // Los estados heredados o desconocidos NO prueban aprobación editorial.
-  if (theme.estado === 'PUBLICADO' || theme.estado === 'APROBADO_USUARIO') return 'PUBLICADO';
+  if (theme.estado === 'PUBLICADO' || theme.estado === 'APROBADO_USUARIO' || theme.estado === 'AUDITADO') return 'PUBLICADO';
   return 'BORRADOR';
 }
 
