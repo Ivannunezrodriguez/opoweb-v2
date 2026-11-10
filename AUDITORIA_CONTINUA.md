@@ -3941,3 +3941,20 @@ Cotejos de **04/11/2026** revisados como soporte previo, cruzados con fuentes BO
 **Estado global:** **116 AUDITADO, 0 APROBADO_USUARIO operativo, 5 pendientes**. **Certificaciones integrales: 0/121** porque faltan distintos controles de navegación real, móvil, accesibilidad y validación/aceptación. **CI del último commit no verificado**: no atribuir SUCCESS hasta conseguir evidencia de ejecución.
 
 **Próximo trabajo editorial:** cerrar los **5** pendientes de Diputación C1 T22, Diputación C2 T6 y UC3M T10/T15/T16 sobre fuentes primarias y fecha de corte, sin promover por conveniencia. Después, realizar E2E sobre temas auditados.
+
+
+## UC3M T10/T15/T16: cotejo temporal y fuentes primarias reforzadas — **10/11/2026**
+
+**Regla oficialmente acreditada:** [**BOE-A-2026-14624, base 1.7**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624): versión vigente a la **publicación de resolución de admitidos definitivos y anuncio del ejercicio**. [**Portal oficial UC3M**](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) muestra la sección definitiva, pero en su vista pública **no aparece día/hora certificado de publicación**. ADAMS indica **01/10/2026** como referencia **secundaria**, y su noticia de **07/10** confirma que las listas ya se conocían públicamente; no convertir en dato primario el calendario del preparador. **30/09/2026 firma ≠ publicación**.
+
+**Control T10:** [**BOE del TREBEP**](https://www.boe.es/eli/es/rdlg/2015/10/30/5) registra modificación **art. 49.e por Ley 4/2026**, **publicada 03/10/2026**, **vigente 23/10/2026**. Noticia de listas anteriores a vigencia: exclusión de esa reforma posterior para el corte indicado; no ignorar reformas previas del RDL **9/2025**.
+
+**Control T15:** [**BOCM de 08/06/2026 sobre profesorado UC3M**](https://www.bocm.es/boletin/CM_Orden_BOCM/2026/06/08/BOCM-20260608-22.PDF) cita Estatutos por **Decretos 1/2003 y 95/2009** conjuntamente con LOSU. Su continuidad de uso institucional en **2026** no acredita vigencia material íntegra de cifras históricas contrarias a **LOSU arts. 44–45**. [**Ley 1/2024 DF4**](https://www.boe.es/eli/es/l/2024/06/07/1/con) fija **3 años** en DT1 LOSU.
+
+**Control T16:** [**BOE-A-2026-22083, sentencia 06/10/2026, publicada 23/10/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083) declara nulo **RD 905/2025** y, entre otras, su modificación de **art. 22.4 RD 822/2021**, **sin anular íntegro RD 822/2021**. La fecha de sentencia no es la fecha de publicación ni solventa automáticamente efectos jurídicos retroactivos.
+
+[**Dossier actualizado con fuentes primarias y matriz de fechas**](content/uc3m/CONTROL_CORTE_T10_T15_T16_20261110.md). Matrices de temas **10/15/16** contienen nuevo control temporal explícito, sin promoción ficticia. **Nuevo test técnico** [validate-uc3m-corte-t10-t15-t16-20261110.mjs](tests/validate-uc3m-corte-t10-t15-t16-20261110.mjs) conectado a **npm test**: rechaza automáticamente que cambien sus estados a auditado mientras siga fecha primaria no acreditada y comprueba documentos de referencia.
+
+**Resultado:** cierre **sectorial** de la exclusión de reforma posterior del art. 49.e y delimitación del alcance del litigio RD 905/2025; **NO cierre jurídico integral de T10/T15/T16 ni fecha exacta primaria**. Pendiente obtener **diligencia oficial de publicación** de los listados definitivos de la escala **C2, 34 plazas, convocatoria BOE 06/07/2026**, y cotejar divergencias LOSU/Estatutos y efectos anulatorios al corte, junto con E2E. La [**página RRHH UC3M**](https://uc3m.es/empleo/pas) indica **selecpas@pa.uc3m.es** como canal para preguntas no procedimentales (no recursos ni subsanaciones), incluyendo los datos de la convocatoria en asunto.
+
+**Contador inalterado: 116 AUDITADO + 5 pendientes; 0/121 certificaciones integrales.** No consta resultado SUCCESS verificado del CI para este HEAD.
