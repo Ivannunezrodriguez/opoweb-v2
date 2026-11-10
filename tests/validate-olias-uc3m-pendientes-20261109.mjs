@@ -68,7 +68,7 @@ for(const path of ['content/uc3m/GUIA_EXAMEN_2026.md','content/uc3m/tema-10/fuen
  assert(editorial.includes('23/10/2026'),'Falta vigencia/corte posterior 23 octubre: '+path);
  assert(/secundari|diligencia oficial/i.test(editorial),'No se identifica jerarquía de la evidencia: '+path);
 }
-const admiss=json('audit/evidencias-cierre-olias-uc3m-2026.json').temas.find(x=>x.id==='UC3M-T10');
+const admiss=load('audit/evidencias-cierre-olias-uc3m-2026.json').temas.find(x=>x.id==='UC3M-T10');
 assert.equal(admiss.resolucionDefinitiva.publicacionAcreditada,false,'La noticia secundaria no acredita la fecha por documento primario');
 assert.equal(admiss.fechaPublicacionPrimaria,null,'No inventar fecha UC3M en matriz');
 console.log('UC3M_CORTE_ACOTADO_07_10_SIN_FALSA_FECHA_PRIMARIA_OK');
