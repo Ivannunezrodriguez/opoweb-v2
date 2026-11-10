@@ -14,14 +14,14 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 | Convocatoria | Temas | `AUDITADO` | `APROBADO_USUARIO` histórico | Aún pendientes | Progreso editorial declarado |
 |---|---:|---:|---:|---:|---:|
-| La Puebla de Montalbán C2 | **19** | **12** | **7** | **0** | **100 %** (12 auditados, 7 históricos) |
+| La Puebla de Montalbán C2 | **19** | **16** | **3** | **0** | **100 %** (16 auditados, 3 históricos) |
 | Olías del Rey Auxiliar edificios C2 | **22** | **22** | **0** | **0** | **100 %** |
 | Diputación Toledo Administrativo C1 | **40** | **39** | **0** | **1** (T22 OAPGT) | **97,5 %** |
 | Diputación Toledo Auxiliar C2 | **20** | **19** | **0** | **1** (T6 OAPGT) | **95 %** |
 | UC3M Auxiliar Administrativa C2 | **20** | **17** | **0** | **3** (T10/T15/T16) | **85 %** |
-| **TOTAL** | **121** | **109** | **7** | **5** | **116/121 = 95,9 % de estados editoriales combinados** |
+| **TOTAL** | **121** | **113** | **3** | **5** | **116/121 = 95,9 % de estados editoriales combinados** |
 
-**Interpretación:** la barra de **95,9 %** **no es fiabilidad jurídica ni certificación integral**. El total desagregado es **109/121 (90,1 %) en estado AUDITADO**, **7/121 (5,8 %) con aprobación histórica de La Puebla**, **5/121 (4,1 %) en revisión/borrador**. El proyecto **no acredita certificación integral de extremo a extremo de ninguno de los 121 temas (0/121)**: faltan en distinto grado contraste actualizado, pruebas reales de navegador, móvil, accesibilidad y aceptación exigida por sus reglas.
+**Interpretación:** la barra de **95,9 %** **no es fiabilidad jurídica ni certificación integral**. El total desagregado es **113/121 (93,4 %) en estado AUDITADO**, **3/121 (2,5 %) con aprobación histórica de La Puebla**, **5/121 (4,1 %) en revisión/borrador**. El proyecto **no acredita certificación integral de extremo a extremo de ninguno de los 121 temas (0/121)**: faltan en distinto grado contraste actualizado, pruebas reales de navegador, móvil, accesibilidad y aceptación exigida por sus reglas.
 
 **Bloqueos editoriales exactos:** **UC3M T10/T15/T16** siguen a la espera de la acreditación primaria de fecha de publicación de definitivos y cotejos jurídicos/transitorios integrales; **Diputación C1 T22 y C2 T6** requieren prueba de eficacia definitiva de reforma OAPGT anunciada inicialmente en **2004**, posibles normas posteriores y acabar régimen laboral. **El PDF estatutario íntegro hasta 2011 YA ha sido aportado y trabajado**: no presentarlo como ausente. **Olías T13** tiene inventario INE de **280 entradas VIAS** verificado documentalmente, sin prueba completa E2E.
 
@@ -29,7 +29,7 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 **Riesgos conocidos adicionales:** discrepancia **BOP/BOE** sobre plazas y días de solicitud en Olías; día primario preciso de publicación de definitivos UC3M sin diligencia localizada (dato **01/10/2026** secundario, evidencia de existencia antes de **07/10/2026**); y `sw.js` configurado para baja/caché, sin garantía de estudio **offline**. Mantener priorizados los exámenes de **La Puebla 14/11/2026** y **UC3M 21/11/2026**.
 
-**Migración documental del 10/11/2026:** La Puebla **T01–T12** pasan a `AUDITADO` sobre los cotejos individuales de **04/11** y controles posteriores; quedan **7** aprobaciones históricas. Se conservan las aprobaciones originales del usuario de julio y sigue sin acreditarse certificación integral E2E. [Registro de evidencia](AUDITORIA_CONTINUA.md).
+**Migración documental del 10/11/2026:** La Puebla **T01–T16** pasan a `AUDITADO` sobre los cotejos individuales de **04/11** y controles posteriores; quedan **3** aprobaciones históricas. Se conservan las aprobaciones originales del usuario de julio y sigue sin acreditarse certificación integral E2E. [Registro de evidencia](AUDITORIA_CONTINUA.md).
 
 ## Fuente del programa
 
