@@ -358,3 +358,13 @@ La [**corrección de errores publicada en el BOEL UC3M el 20/05/2025**](https://
 **Punto jurídico corregido:** la publicación inicial hablaba de cursos siguientes a la **implantación** del nuevo plan; el texto rectificado dice **extinción del curso académico correspondiente**. No anticipar el comienzo del plazo.
 
 > ⚠️ **¡Foco Examen!:** **4 convocatorias/2 cursos** del régimen de transición **no son 4 nuevas convocatorias garantizadas además de las consumidas**. En ingeniería, **6 convocatorias/3 cursos** depende de decisión de **Dirección del centro**. No confundir con el régimen ordinario T16-013.
+
+## Fecha de corte y nulidad judicial: decisión práctica UC3M — **10/11/2026**
+
+La [**base primera.7 de la convocatoria**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) elige la **publicación de la lista definitiva** como corte. La [**noticia contemporánea de ADAMS de 07/10/2026**](https://www.adams.es/noticias/oposiciones/examenes/examen-auxiliar-universidad-carlos-iii-madrid/) ya constata su publicación, situándola en el calendario en **01/10/2026**. La fecha exacta sigue sin diligencia oficial UC3M: **información secundaria, no certificación administrativa**.
+
+La [**sentencia publicada el 23/10/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083) anuló el **RD 905/2025**, pero **no anuló todo el RD 822/2021**. La publicación del fallo es **posterior a las listas ya comunicadas como publicadas el 07/10**, y el efecto de nulidad **no debe tratarse automáticamente como si fuera una reforma legislativa ordinaria**: el régimen de actos firmes y la eficacia temporal requieren análisis diferenciado.
+
+**Cierre sobre las 21 preguntas existentes:** ninguna exige escoger entre «ámbito de conocimiento» y «campo de estudio» ni resolver el art. **22.4** reformado y anulado. La incertidumbre judicial **no obliga a cambiar sus claves** por ese solo motivo. Queda pendiente de certificación integral la fecha primaria de publicación y la vigencia de la normativa académica en su conjunto.
+
+> ⚠️ **¡Foco Examen!:** **RD 905/2025 anulado ≠ RD 822/2021 anulado**. La noticia del **07/10** es una cota documental de publicación, no una diligencia UC3M.
