@@ -461,3 +461,23 @@ La [**Resolución de 4 de junio de 2026, publicada en el BOCM de 15/06/2026 (BOC
 **Límite probatorio:** el BOCM acredita la creación y denominación de otra escala, pero **no contiene diligencia de publicación de listas definitivas** del proceso selectivo Auxiliar Administrativa de **34 plazas**. Además, citar los **Decretos 1/2003 y 95/2009** en el preámbulo **no certifica que todas sus cláusulas históricas prevalezcan** sobre la legislación universitaria posterior.
 
 > ⚠️ **¡Foco Examen!:** **Mismo subgrupo C2 no equivale a misma escala.** Una pregunta sobre **Escala Auxiliar Administrativa** no se contesta tomando automáticamente los requisitos, funciones o plazas de la **Escala Auxiliar de Servicios e Información**.
+
+
+## Defensoría universitaria: lectura conjunta de Estatutos refundidos y LOSU
+
+**Fuente UC3M:** [texto refundido institucional de Estatutos (artículos **127–132**)](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m). Se trata de una consolidación publicada por la propia Universidad de sus Estatutos históricos, **no de unos nuevos Estatutos plenamente adaptados a la LOSU**. **Fuente de rango legal superior:** [**LOSU artículo 43.4**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a43).
+
+| Materia | **Estatutos UC3M refundidos 2003/2009** | **LOSU, artículo 43.4** |
+|---|---|---|
+| **Elección** | El **Rector** propone candidato, tras oír a representantes de los sectores; elige el **Claustro** por **mitad más uno de sus miembros** (**art. 127.1**) | La elección compete al **Claustro Universitario** conforme al procedimiento establecido en los Estatutos |
+| **Cese** | A petición propia o por acuerdo del **Claustro**, con **igual mayoría**, por causas tasadas (**art. 127.2**) | La LOSU no sustituye en su art. **43.4** esas causas concretas |
+| **Mandato** | **3 años** con **una reelección** (**art. 128.1**) | La regla de **6 años** del **art. 44.3 LOSU** se refiere a **órganos unipersonales electos**; no trasladarla automáticamente al Defensor sin estudio de su encaje jurídico y transitorio |
+| **Adjunto** | Lo propone el candidato y lo designa el **Claustro por mayoría simple** (**art. 128.2**) | La LOSU permite estructurar la defensoría mediante sus Estatutos |
+| **Régimen de actuación** | **Defensor Universitario**, arts. **127–132** | Derechos y libertades de profesorado, estudiantes y **personal técnico, de gestión y de administración y servicios**; **mediación, conciliación y buenos oficios**, con independencia, autonomía y confidencialidad |
+| **Órgano asesor** | **2 estudiantes + 2 PAS + 2 PDI** (**art. 132.3**) | Debe respetar la estructura y el régimen de funcionamiento estatutariamente previstos |
+
+**Conclusión editorial:** las preguntas sobre **artículos 127 y 128** pueden explicar literalmente la redacción del texto refundido histórico, pero **no** deben presentarla como nueva regulación adaptada a la LOSU. Sobre todo, no reemplazar mecánicamente el mandato de **3 años** de Defensor por el de **6 años** de los órganos unipersonales electos sin analizar la relación de **art. 43.4 / 44.3 LOSU**. Tampoco equiparar la **mitad más uno del número legal de miembros** con la mayoría simple de los asistentes.
+
+> ⚠️ **¡Foco Examen!:** **Elección del Defensor: mitad más uno del Claustro (Estatutos)**; **Adjunto: mayoría simple**; **mandato estatutario de 3 años y una reelección**, distinto del régimen general de **6 años** para órganos unipersonales electos de LOSU. No afirmar automáticamente que uno deroga al otro sin acreditar la adaptación y su aplicación transitoria.
+
+**Control de procedencia:** cotejo realizado sobre el texto recuperado del PDF refundido y el BOE de LOSU. La herramienta de captura visual de PDF dio error; **no** se afirma inspección visual del documento original. El tema permanece **EN_REVISION_USUARIO** hasta resolver la coexistencia normativa al corte de la convocatoria.
