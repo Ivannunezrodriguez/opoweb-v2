@@ -25,14 +25,14 @@
 
 | Convocatoria | Temas | `AUDITADO` | `APROBADO_USUARIO` histórico | Pendiente editorial | Progreso de estado registrado |
 |---|---:|---:|---:|---:|---:|
-| **La Puebla de Montalbán · Auxiliar C2** | **19** | **12** | **7** | **0** | **19/19 = 100 %**, **12** auditorías documentales y **7** aprobaciones históricas |
+| **La Puebla de Montalbán · Auxiliar C2** | **19** | **16** | **3** | **0** | **19/19 = 100 %**, **16** auditorías documentales y **3** aprobaciones históricas |
 | **Olías del Rey · Auxiliar edificios C2** | **22** | **22** | **0** | **0** | **22/22 = 100 %**, auditoría editorial; E2E pendiente |
 | **Diputación Toledo · Administrativo C1** | **40** | **39** | **0** | **1** (T22 OAPGT) | **39/40 = 97,5 %** |
 | **Diputación Toledo · Auxiliar C2** | **20** | **19** | **0** | **1** (T6 OAPGT) | **19/20 = 95 %** |
 | **UC3M · Auxiliar C2** | **20** | **17** | **0** | **3** (T10/T15/T16) | **17/20 = 85 %** |
-| **TOTAL** | **121** | **109** | **7** | **5** | **116/121 = 95,9 % editorial mixto** |
+| **TOTAL** | **121** | **113** | **3** | **5** | **116/121 = 95,9 % editorial mixto** |
 
-**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 109 AUDITADO + 7 APROBADO_USUARIO históricos + 5 pendientes`.
+**Barra general (etiquetas editoriales, no calidad certificada):** `[████████████████░░░░] 113 AUDITADO + 3 APROBADO_USUARIO históricos + 5 pendientes`.
 
 **Certificación integral acreditada: 0/121 (0 %)**. Implica legislación y versiones vigentes, cotejo exhaustivo de todas las preguntas y alternativas, E2E real en navegador y móvil, accesibilidad y evidencia/aceptación; **no** equivale a que haya 121 contenidos incorrectos. El porcentaje **95,9 %** tampoco puede interpretarse como exactitud jurídica verificada.
 
@@ -49,7 +49,7 @@
 
 | Archivo / fuente | Lectura correcta | Acción para evitar errores |
 |---|---|---|
-| `data/programa.json` | **T01–T12 AUDITADO**, **T13–T19 APROBADO_USUARIO**; se conservan aprobaciones del **17/07/2026** | Migración documental acreditada **10/11/2026**, sin certificación E2E |
+| `data/programa.json` | **T01–T16 AUDITADO**, **T17–T19 APROBADO_USUARIO**; se conservan aprobaciones del **17/07/2026** | Migración documental acreditada **10/11/2026**, sin certificación E2E |
 | `audit/PHASE2_CLOSURE.md`, `TRANSVERSAL_REVIEW.md` | Cierre verificable de **fase 2 en julio** sobre un commit, no garantía perpetua | Conservar como **histórico**, remitir aquí |
 | `audit/phase2-ci-result.md` | Resultado de una **ejecución/commit determinado**, no de todos los commits siguientes | Conservar evidencia; no usar como prueba CI actual |
 | `data/programa-diputacion-auxiliar-c2-2026.json` | El valor anterior `PUBLICADO` no estaba respaldado por una verificación completa; tema 6 sigue incompleto | Normalizar estados a **EN_REVISION_USUARIO** (19) y **BORRADOR** (tema 6) |
@@ -3906,3 +3906,21 @@ Cotejos de **04/11/2026** revisados como soporte previo, cruzados con fuentes BO
 **Estado global nuevo:** **109 AUDITADO + 7 APROBADO_USUARIO históricos + 5 pendientes = 121**. **Certificación integral de navegador/móvil/accesibilidad: 0/121 acreditada**. **CI del HEAD:** sin comprobación SUCCESS realizada en esta intervención.
 
 **Siguiente lote:** La Puebla **T13–T16**: firma electrónica, organización estatal y aplicaciones de Windows; cerrar sin confundir auditoría técnica documentada con prueba real del comportamiento del sistema operativo/navegador.
+
+
+## La Puebla T13–T16: cierre jurídico y técnico-editorial — **10/11/2026**
+
+**Reutilización auditada:** los cuatro informes originales del **04/11/2026** cotejan **12 preguntas y 48 alternativas** por tema, cobertura de epígrafes y capítulos. El cambio actual **no** es un nuevo test real en Windows/Edge, ni certificación de las capas de navegador, accesibilidad y móvil.
+
+| Tema | Fuente primaria contrastada | Evidencia individual | Reserva |
+|---|---|---|---|
+| **T13. Certificado electrónico** | [eIDAS 910/2014 consolidado 18/10/2024](https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa); [Ley 6/2020](https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046); LPAC, LRJSP y RD 203/2021 | [12 preguntas/48 alternativas](content/la-puebla/tema-13/cotejo-integral-2026-11-04.md) | Cierre **jurídico-editorial**, sin ensayo E2E |
+| **T14. Órganos y AGE** | [Ley 40/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) consolidado **02/08/2024** | [12 preguntas/48 alternativas](content/la-puebla/tema-14/cotejo-integral-2026-11-04.md) | Competencia, avocación y firma, E2E pendiente |
+| **T15. Windows I** | [Microsoft soporte Windows](https://support.microsoft.com/es-es/windows/deployment/updates-lifecycle/windows-10-support-has-ended-on-october-14-2025), soporte ordinario Windows 10 finalizó **14/10/2025**; ESU separado | [12 preguntas/48 alternativas](content/la-puebla/tema-15/cotejo-integral-2026-11-04.md) | Auditoría **técnico-editorial** no sustituye ejecutar operaciones en distintas versiones Windows |
+| **T16. Windows II** | [Microsoft ciclo IE/Edge](https://learn.microsoft.com/es-es/lifecycle/faq/internet-explorer-microsoft-edge); IE11 escritorio retirado en ciertas versiones, modo IE de Edge al menos hasta **2029** | [12 preguntas/48 alternativas](content/la-puebla/tema-16/cotejo-integral-2026-11-04.md) | Auditoría **técnico-editorial**, no ensayo UI |
+
+**Cambios:** manifiesto y matrices **T13–T16 AUDITADO** con antecedentes `aprobadoEl` conservados, `tests/validate.mjs` ahora exige 16 auditados y conserva validación de los 19 bancos originales. Estados de fuentes históricos no equivalen a un segundo manifiesto operativo.
+
+**Recuento:** **113 AUDITADO + 3 APROBADO_USUARIO + 5 pendientes = 121**. Certificaciones integrales **0**. El resultado CI para el último commit todavía no está confirmado.
+
+**Siguiente lote:** **La Puebla T17–T19**. Evitar declarar 19/19 AUDITADO antes de contrastar sus documentos y fuentes Microsoft.
