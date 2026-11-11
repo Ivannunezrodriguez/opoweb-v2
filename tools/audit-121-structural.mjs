@@ -13,6 +13,7 @@ const issues = [];
 const totals = [];
 const add = (level, programme, number, kind, message) => issues.push({ level, programme, number, kind, message });
 const allPaths = new Set();
+const allQuestionIds = new Map();
 
 for (const manifest of manifestPaths) {
   const document = JSON.parse(read(manifest));
@@ -68,10 +69,16 @@ for (const manifest of manifestPaths) {
             const qid = q.id || '(sin id)';
             if (!q.id || ids.has(q.id)) add('ERROR', manifest, n, kind, 'Identificador vacío/duplicado ' + qid);
             ids.add(q.id);
+            if (q.id) {
+              const firstPath = allQuestionIds.get(q.id);
+              if (firstPath) add('ERROR', manifest, n, kind, 'ID repetido entre bancos: ' + q.id + ' (primero en ' + firstPath + ')');
+              else allQuestionIds.set(q.id, file);
+            }
             const options = q.opciones;
             data.options += Array.isArray(options) ? options.length : 0;
             if (!Array.isArray(options) || options.length !== 4 || options.some(x => typeof x !== 'string' || !x.trim())) add('ERROR', manifest, n, kind, 'Opciones incorrectas en ' + qid);
-            const correct = Number(q.correcta ?? q.respuestaCorrecta);
+            else if (new Set(options.map(x => x.trim())).size !== 4) add('ERROR', manifest, n, kind, 'Alternativas idénticas o duplicadas en ' + qid);
+            const correct = q.correcta ?? q.respuestaCorrecta;
             if (!Number.isInteger(correct) || correct < 0 || correct > 3) add('ERROR', manifest, n, kind, 'Índice correcto incorrecto en ' + qid);
             if (!(q.pregunta || q.enunciado)?.trim()) add('ERROR', manifest, n, kind, 'Enunciado vacío en ' + qid);
             if (!q.justificacion?.trim()) add('ERROR', manifest, n, kind, 'Justificación ausente en ' + qid);
@@ -96,7 +103,7 @@ const report = {
   generatedAt: new Date().toISOString(),
   scope: 'Auditoría ESTRUCTURAL de rutas, JSON, preguntas y maquetación detectable (no cotejo BOE/BOP ni navegador E2E)',
   totals,
-  summary: { themes: count, questions: totals.reduce((s,p)=>s+p.questions,0), options: totals.reduce((s,p)=>s+p.options,0), errors: issues.filter(x=>x.level==='ERROR').length, warnings: issues.filter(x=>x.level==='WARN').length },
+  summary: { themes: count, questions: totals.reduce((s,p)=>s+p.questions,0), options: totals.reduce((s,p)=>s+p.options,0), uniqueQuestionIds: allQuestionIds.size, errors: issues.filter(x=>x.level==='ERROR').length, warnings: issues.filter(x=>x.level==='WARN').length },
   issues
 };
 fs.mkdirSync('audit/generated', { recursive: true });
