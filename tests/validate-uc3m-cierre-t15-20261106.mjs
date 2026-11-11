@@ -36,7 +36,22 @@ for(const q of bank.preguntas){
  assert.ok(Number.isInteger(q.correcta)&&q.correcta>=0&&q.correcta<=3);
  assert.equal(q.respuestaLiteral,q.opciones[q.correcta]);
  assert.ok(q.justificacion&&q.trampa&&q.referencia);
- assert.ok(report.includes('### '+q.id+' — '+q.pregunta),'Missing cotejo '+q.id);
+ // El cotejo del 04/11 es una fotografía histórica; los enunciados T15-013..016
+ // se precisaron el 11/11 para distinguir los Estatutos refundidos de la LOSU.
+ const historicalHeading='### '+q.id+' — ';
+ const exactHistoricalText=report.includes(historicalHeading+q.pregunta);
+ if(!exactHistoricalText) {
+   const controlled=bank.controlPrecaucionLOSU20261111;
+   assert.ok(controlled?.itemsAclarados?.includes(q.id),
+      'Cambio no documentado respecto al cotejo histórico: '+q.id);
+   assert.ok(report.split('\\n').some(line=>line.startsWith(historicalHeading)),
+      'Falta ID en el cotejo histórico: '+q.id);
+   assert.ok(q.pregunta.includes('Estatutos UC3M refundidos de 2003/2009'),
+      'Falta delimitación de norma histórica tras la revisión: '+q.id);
+   assert.equal(controlled.cambiosClave,0,'Cambio de clave sin auditoría: '+q.id);
+   assert.equal(controlled.cambiosAlternativas,0,'Cambio de opciones sin auditoría: '+q.id);
+ }
+
  const id=q.id.match(/-(\d{3})$/);
  if(id&&expected[id[1]])assert.ok(q.referencia.includes('art. '+expected[id[1]]),'Wrong reference '+q.id);
 }
