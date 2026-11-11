@@ -25,6 +25,12 @@ jobs:
         run: |
           node --check assets/app.js
           node --check assets/practice.js
+      - name: Exigir evidencia y estructura de los cinco temas pendientes
+        run: |
+          node tests/validate-cierre-pendientes-20261111.mjs
+          node tests/validate-cinco-bancos-pendientes-20261111.mjs
+          node tests/validate-oapgt-bop92-2023-20261110.mjs
+          node tests/validate-uc3m-corte-t10-t15-t16-20261110.mjs
       - name: Validar 162 repasos UC3M y conexión a la interfaz
         run: node tests/validate-uc3m-extra-repasos-20261106.mjs
       - name: Cotejar 13 bloques y 24 preguntas de UC3M tema 9
