@@ -461,3 +461,18 @@ La fuente también indica que el **Consejo Rector** puede delegar el ejercicio d
 **Límite de vigencia:** no convertir automáticamente los porcentajes estatutarios que cita un acuerdo de **2023** en el régimen general actual de contratación pública. Deben contrastarse con la **Ley 9/2017, de Contratos del Sector Público**, delegaciones posteriores y el texto estatutario definitivamente aplicable en **2026**.
 
 > ⚠️ **¡Foco Examen!:** **5 % Dirección**, **10 % Presidencia** y **más del 10 % / más de 4 años Consejo Rector** son las cifras del **acuerdo oficial de 2023**; no equiparar atribución **propia**, **delegación** y competencia del **órgano de contratación** bajo legislación posterior.
+
+
+## Expediente OAPGT **2025**: quién propone y quién aprueba la convocatoria
+
+El [**BOP Toledo n.º 65, de 04/04/2025, anuncio 1773**](https://bop.diputoledo.es/webEbop/DocGet?id=25041890%3B0&insert_number=1773&insert_year=2025) publica la actuación de la **Presidencia del OAPGT** y cita expresamente el **art. 12.2.l.8 de sus Estatutos** como título de competencia. Se documentan tres hitos distintos:
+
+| Actuación | Órgano / fecha | Clave de examen |
+|---|---|---|
+| **OEP 2025** | Decreto de **Presidencia, 14/02/2025** (publicación **17/02**) | Oferta de empleo |
+| **Propuesta de bases** | **Dirección del OAPGT, 31/03/2025** | Proponer no es aprobar |
+| **Aprobación de convocatoria y bases** | Decreto de **Presidencia 01/04/2025**, publicación BOP **04/04/2025** | La autoridad aprobatoria es la **Presidencia** |
+
+**Precaución de vigencia:** el acto acredita uso de la **competencia estatutaria art. 12.2.l.8 en 2025**; no certifica por sí solo un texto refundido completo a **2026**. [Matriz compartida con secuencia de reformas y reservas](../OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md).
+
+> ⚠️ **¡Foco Examen!:** **Dirección propone / Presidencia aprueba**. **OEP 14/02**, **decreto de bases 01/04** y **publicación 04/04** no son el mismo acto.
