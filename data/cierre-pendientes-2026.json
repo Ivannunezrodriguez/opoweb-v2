@@ -27,6 +27,14 @@
         "OAPGT_ESTADOS_CONSOLIDADOS": null,
         "OAPGT_ACUERDO_REGULADOR": null,
         "BANCO_INTEGRAL": null
+      },
+      "usoExamen20261111": {
+        "estado": "BANCO_DISPONIBLE_EN_PRODUCCION_CON_RESERVAS",
+        "preguntas": 24,
+        "alternativas": 96,
+        "clavesMecanicasValidas": true,
+        "cierreIntegral": false,
+        "nota": "No se bloquea el estudio ni el banco por falta de certificación jurídica total. No usar este control como autorización para cambiar el estado editorial a AUDITADO."
       }
     },
     {
@@ -44,6 +52,14 @@
         "OAPGT_ESTADOS_CONSOLIDADOS": null,
         "OAPGT_ACUERDO_REGULADOR": null,
         "BANCO_INTEGRAL": null
+      },
+      "usoExamen20261111": {
+        "estado": "BANCO_DISPONIBLE_EN_PRODUCCION_CON_RESERVAS",
+        "preguntas": 29,
+        "alternativas": 116,
+        "clavesMecanicasValidas": true,
+        "cierreIntegral": false,
+        "nota": "No se bloquea el estudio ni el banco por falta de certificación jurídica total. No usar este control como autorización para cambiar el estado editorial a AUDITADO."
       }
     },
     {
@@ -61,6 +77,14 @@
         "UC3M_FECHA_PUBLICACION_DEFINITIVOS": null,
         "COTEJO_LEGISLACION_CORTE": null,
         "BANCO_INTEGRAL": null
+      },
+      "usoExamen20261111": {
+        "estado": "BANCO_DISPONIBLE_EN_PRODUCCION_CON_RESERVAS",
+        "preguntas": 12,
+        "alternativas": 48,
+        "clavesMecanicasValidas": true,
+        "cierreIntegral": false,
+        "nota": "No se bloquea el estudio ni el banco por falta de certificación jurídica total. No usar este control como autorización para cambiar el estado editorial a AUDITADO."
       }
     },
     {
@@ -78,6 +102,14 @@
         "UC3M_FECHA_PUBLICACION_DEFINITIVOS": null,
         "UC3M_ESTATUTOS_LOSU": null,
         "BANCO_INTEGRAL": null
+      },
+      "usoExamen20261111": {
+        "estado": "BANCO_DISPONIBLE_EN_PRODUCCION_CON_RESERVAS",
+        "preguntas": 21,
+        "alternativas": 84,
+        "clavesMecanicasValidas": true,
+        "cierreIntegral": false,
+        "nota": "No se bloquea el estudio ni el banco por falta de certificación jurídica total. No usar este control como autorización para cambiar el estado editorial a AUDITADO."
       }
     },
     {
@@ -95,11 +127,50 @@
         "UC3M_FECHA_PUBLICACION_DEFINITIVOS": null,
         "UC3M_RD822_EFECTOS": null,
         "BANCO_INTEGRAL": null
+      },
+      "usoExamen20261111": {
+        "estado": "BANCO_DISPONIBLE_EN_PRODUCCION_CON_RESERVAS",
+        "preguntas": 21,
+        "alternativas": 84,
+        "clavesMecanicasValidas": true,
+        "cierreIntegral": false,
+        "nota": "No se bloquea el estudio ni el banco por falta de certificación jurídica total. No usar este control como autorización para cambiar el estado editorial a AUDITADO."
       }
     }
   ],
   "certificacionE2E": {
     "estado": "PENDIENTE_GLOBAL",
     "nota": "No confundir auditoría documental con prueba de navegador, accesibilidad o móvil."
+  },
+  "controlOperativo20261111": {
+    "fecha": "2026-11-11",
+    "alcance": "CIERRE_OPERATIVO_DE_BANCOS_PUBLICADOS_NO_CERTIFICACION_JURIDICA_INTEGRAL",
+    "preguntasPublicadas": 107,
+    "alternativasPublicadas": 428,
+    "modoUso": "ESTUDIO_Y_TEST_CON_ADVERTENCIA_EDITORIAL",
+    "fuentes": [
+      "content/diputacion-toledo/tema-22/preguntas.json",
+      "content/diputacion-toledo-auxiliar-c2/tema-06/preguntas.json",
+      "content/uc3m/tema-10/cotejo-integral-2026-11-04.md",
+      "content/uc3m/tema-15/cotejo-integral-2026-11-04.md",
+      "content/uc3m/tema-16/cotejo-integral-2026-11-04.md",
+      "content/uc3m/CONTROL_CORTE_T10_T15_T16_20261110.md",
+      "content/diputacion-toledo/OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md"
+    ],
+    "conclusion": "Los cinco bancos tienen preguntas y respuestas publicadas y auditables. No se han identificado fallos mecánicos en 107 claves/428 alternativas. Los cotejos jurídicos son focales y los estados de tema siguen reservados; no fingir certificación normativa absoluta.",
+    "UC3M": {
+      "fechaFirmaResolucion": "2026-09-30",
+      "fechaReferenciaProvisional": "2026-10-01",
+      "fechaPublicacionOficialCertificada": null,
+      "nota": "Documento original de resolución firmado el 30/09 aportado por aspirante; 01/10 es fecha probable corroborada por fuentes secundarias, no fecha probada por diligencia de tablón."
+    },
+    "OAPGT": {
+      "reformaInicial": "2004-12-21",
+      "bopInicial": "BOP Toledo 294/2004",
+      "bopModificacion": "BOP Toledo 284/2011",
+      "fechaEficaciaDefinitivaReforma2004": null,
+      "nota": "Bancos remiten principalmente a disposiciones/actos comprobables; falta prueba definitiva de vigencia de artículos históricos."
+    },
+    "e2e": "NO_CERTIFICADO"
   }
 }
