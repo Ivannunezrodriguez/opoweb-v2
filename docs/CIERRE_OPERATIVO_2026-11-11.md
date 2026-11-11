@@ -64,3 +64,14 @@ Cada bloqueo del [registro JSON](../data/cierre-pendientes-2026.json) se marca c
 - **Recursos Humanos UC3M:** «Certificación de la **fecha efectiva y medio de publicación web** de la resolución de listas definitivas de la **Escala Auxiliar Administrativa C2, 34 plazas, BOE-A-2026-14624**, con constancia archivada y URL; no se solicitan datos personales».
 
 **Estado:** los **5** expedientes quedan documentalmente abiertos, no cerrados en falso.
+
+
+## 6. Verificación adicional de todos los bancos todavía abiertos
+
+La inspección de los cinco JSON aporta **107 preguntas / 428 alternativas**: **C1 T22 24/96**, **C2 T6 29/116**, **UC3M T10 12/48**, **UC3M T15 21/84**, **UC3M T16 21/84**. Se cotejaron mecánicamente identificadores no repetidos, enunciados, **cuatro alternativas**, índice de respuesta en rango, justificación y referencia. Resultado estructural **sin incidencias de esos campos**.
+
+**Precaución de esquemas:** el banco **Diputación C2 T6** utiliza la clave **respuestaCorrecta**, mientras los otros cuatro utilizan **correcta**. No confundir la diferencia de esquema con **29 respuestas ausentes**. [**Test estructural específico**](../tests/validate-cinco-bancos-pendientes-20261111.mjs) añadido a npm test.
+
+Este resultado **no cierra** el requisito de cotejo de las **428 opciones respecto de los textos legales temporalmente aplicables**. Además, los archivos Markdown y JSON pueden contener citas secundarias históricas: para elevar un estado se necesitará el cotejo primario oficial y la constancia de la corrección efectiva, no solo una URL.
+
+**Deuda técnica no resuelta aquí:** el registro AUDITORIA_CONTINUA supera los **750.000 caracteres** y al menos **56 archivos** remiten a él, incluidos controles automáticos. **No compactarlo o sustituirlo sin estudiar las dependencias:** de momento se proporciona este índice de entrada y se conserva el historial intacto. Las pruebas E2E/browser, WCAG, PWA y CI del HEAD siguen sin acreditarse.
