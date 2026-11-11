@@ -441,5 +441,36 @@
     ],
     "observacion": "Añadidas T06-028 y T06-029 con BOP 31/2024 y ficha DIR3; se distingue adscripción estatutaria 2011, encuadramiento organizativo 2024, sede operativa y oficina de registro.",
     "preguntasRevisadas": 29
+  },
+  "auditoriaBancoFocal20261111": {
+    "fecha": "2026-11-11",
+    "tipo": "COTEJO_FOCAL_BANCO_NO_CERTIFICACION_TEMA",
+    "preguntasRevisadas": 29,
+    "alternativasEstructuralesRevisadas": 116,
+    "clavesFueraDeRango": 0,
+    "preguntasSinReferencia": 0,
+    "clavesCorregidas": 0,
+    "fuentesPrimariasVerificadas": [
+      "BOP Toledo 284/2011 anuncio 11024: artículos 1.2, 8 bis y disposición adicional",
+      "BOP Toledo 92/2023 anuncio 2824: Consejo Rector y delegación de contratación",
+      "Sede oficial OAPGT: acuerdo de sede y resolución 182/2017",
+      "DIR3 LA0000580: domicilio OAPGT en calle Real 4 y registro asociado en calle Real 14"
+    ],
+    "idsBOP2011": [
+      "DT-C2-T06-001",
+      "DT-C2-T06-006",
+      "DT-C2-T06-025"
+    ],
+    "idsSede": [
+      "DT-C2-T06-004",
+      "DT-C2-T06-005"
+    ],
+    "idDIR3": "DT-C2-T06-029",
+    "conclusion": "Banco estructuralmente válido; documentos primarios sustentan los ítems focales indicados. El resto conserva fuentes citadas pero no se certifica exhaustivamente distractor por distractor ni vigencia completa del articulado estatutario.",
+    "bloqueos": [
+      "Aprobación definitiva y eficacia de reforma inicialmente aprobada 2004",
+      "Cadena estatutaria íntegra vigente 2026",
+      "Cotejo jurídico individual de las 116 alternativas"
+    ]
   }
 }
