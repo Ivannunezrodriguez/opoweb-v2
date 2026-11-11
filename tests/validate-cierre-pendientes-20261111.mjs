@@ -25,6 +25,12 @@ for (const item of registry.pendientes) {
       assert.ok(typeof evidence.ruta === 'string' && evidence.ruta.length > 3, 'Falta ruta: '+key);
       assert.ok(fs.existsSync(evidence.ruta), 'No existe archivo de evidencia '+evidence.ruta);
       assert.ok(typeof evidence.fecha === 'string' && /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(evidence.fecha), 'Fecha no documentada: '+key);
+      assert.ok(typeof evidence.fuenteOficial === 'string' && /^https:\/\//.test(evidence.fuenteOficial), 'Falta fuente administrativa/normativa: '+key);
+      assert.ok(typeof evidence.revision === 'string' && evidence.revision.length > 20, 'Falta motivación del cotejo y sus efectos: '+key);
+      if (key === 'BANCO_INTEGRAL') {
+        assert.ok(Number.isInteger(evidence.preguntasVerificadas) && evidence.preguntasVerificadas > 0, 'Falta número de preguntas');
+        assert.equal(evidence.alternativasVerificadas, evidence.preguntasVerificadas * 4, 'Falta cotejo de cuatro alternativas por pregunta: '+item.id);
+      }
       const body = fs.readFileSync(evidence.ruta, 'utf8');
       assert.ok(body.trim().length > 80, 'Evidencia vacía: '+evidence.ruta);
     }
