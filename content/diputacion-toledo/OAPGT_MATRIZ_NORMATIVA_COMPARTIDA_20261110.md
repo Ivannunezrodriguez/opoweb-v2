@@ -140,7 +140,7 @@ Fuente oficial adicional: [**BOP Toledo 119, 25/06/2021, anuncio 2021.00003151**
 
 ### Incidencia literal del BOP n.º 34
 
-El encabezamiento del BOP de **20/02/2026** dice **«decreto núm. 2025-003964, de 17 de febrero»** para la convocatoria de la **OEP 2026**. El mismo texto remite correctamente al **Decreto 2026-001575** de la OEP y a propuesta de **17/02/2026**. Es una **discordancia aparente en la numeración publicada**; la **rectificación oficial del BOP 37/2026** acredita que la referencia correcta es **2026-003964**. Si el examen preguntase por la referencia exacta, citar **tal como figura en el BOP** y advertir de la incidencia.
+El encabezamiento del BOP de **20/02/2026** dice **«decreto núm. 2025-003964, de 17 de febrero»** para la convocatoria de la **OEP 2026**. El mismo texto remite correctamente al **Decreto 2026-001575** de la OEP y a propuesta de **17/02/2026**. Es una **discordancia aparente en la numeración publicada**; la **rectificación oficial del BOP 37/2026** acredita que la referencia correcta es **2026-003964**. Si el examen preguntase por la referencia exacta, citar la **numeración oficial rectificada 2026-003964**, del **BOP 37/2026**; el dato inicial queda solo como antecedente de la errata.
 
 > ⚠️ **¡Foco Examen!:** **Presidencia = aprueba OEP y bases**, **Dirección General = propone** en estos actos de **2026**. **28/01** (decreto OEP), **02/02** (publicación OEP), **17/02** (propuesta de bases), **20/02** (publicación bases). El número **2025-003964** figuró en el anuncio original, pero fue **rectificado a 2026-003964 por BOP 37/2026**.
 
