@@ -145,3 +145,18 @@ El encabezamiento del BOP de **20/02/2026** dice **«decreto núm. 2025-003964, 
 > ⚠️ **¡Foco Examen!:** **Presidencia = aprueba OEP y bases**, **Dirección General = propone** en estos actos de **2026**. **28/01** (decreto OEP), **02/02** (publicación OEP), **17/02** (propuesta de bases), **20/02** (publicación bases). El número **2025-003964** figuró en el anuncio original, pero fue **rectificado a 2026-003964 por BOP 37/2026**.
 
 **Alcance de la prueba:** dos publicaciones oficiales de **2026** **reafirman la aplicación administrativa del artículo 12.2.l.8**, aportando mayor proximidad temporal que los actos de 2024/2025. **No son un texto refundido estatutario** ni acreditan la aprobación definitiva de la reforma inicial de **2004**, su eventual eficacia, correcciones y cadena exhaustiva de modificaciones. La promoción a **AUDITADO** de C1 T22 o C2 T6 sigue condicionada a esos documentos y a los bancos completos.
+
+
+## 10. Contraste de referencias estatutarias 2022 frente a 2026 — **11/11/2026**
+
+**Hallazgo que impide fabricar un consolidado:** [**BOP Toledo 196, 13/10/2022, anuncio 5131**](https://bop.diputoledo.es/webEbop/DocGet?id=22103505%3B0&insert_number=5131&insert_year=2022) invoca las facultades conferidas a la **Presidencia** por el **artículo 12.1.8 de los «vigentes Estatutos»** en materia de empleo y estabilización. En cambio, [**BOP 20/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=20&insert_year=2026&publication_date=02022026) y [**BOP 34/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=34&insert_year=2026&publication_date=20022026) invocan el **artículo 12.2.l.8** para aprobación de OEP y convocatoria/bases.
+
+| Publicación primaria | Referencia que aparece **literalmente** | Actuación |
+|---|---|---|
+| **13/10/2022** | **Art. 12.1.8** | Presidencia, actuación vinculada a oferta/estabilización |
+| **02/02/2026** | **Art. 12.2.l.8** | Presidencia, **OEP 2026** |
+| **20/02/2026**, rectificado **25/02** | **Art. 12.2.l.8** | Presidencia, convocatoria y bases, Decreto **2026-003964** |
+
+**No existe fundamento suficiente** para declarar que hubo necesariamente una **renumeración legal entre 2022 y 2026**: las citas también podrían responder a diferencias de técnica de numeración, una errata del acto o una reforma que falta recuperar. Hasta disponer de texto íntegro formalmente vigente y cadena de modificaciones, **no atribuir las dos referencias al mismo inciso ni declarar una de ellas incorrecta por intuición**. La fe de erratas del **25/02/2026** solo acredita la corrección del **número de decreto** (2025-003964 → **2026-003964**), **no** una corrección de la numeración estatutaria.
+
+> ⚠️ **¡Foco Examen!:** **Art. 12.1.8 (BOP 2022)** y **12.2.l.8 (BOP 2026)** son citas de actos distintos. No convertirlas en equivalentes sin el texto de Estatutos vigente. **Rectificación del decreto** no es **modificación de los Estatutos**.
