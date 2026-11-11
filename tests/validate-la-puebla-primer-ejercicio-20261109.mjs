@@ -27,6 +27,10 @@ assert.ok(ui.includes('La Puebla · primer ejercicio (simulacro)'));
 assert.ok(ui.includes('MÍNIMO DEL TEST SUPERADO'));
 assert.ok(ui.includes('MÍNIMO DEL TEST NO SUPERADO'));
 assert.ok(ui.includes('no supone superar la oposición completa ni obtener plaza'));
+assert.ok(ui.includes('Umbral real: aciertos − 0,25 × errores ≥ 25'), 'La ficha debe expresar el umbral exacto');
+assert.ok(ui.includes('25 aciertos y 25 blancos = 5,00'), 'Ejemplo sin penalización por blancos');
+assert.ok(ui.includes('30 aciertos y 20 errores = 5,00'), 'Ejemplo con penalización de errores');
+assert.ok(ui.includes('aprobar solo el test puede dar acceso a la bolsa'), 'Distinguir acceso a bolsa de superación del proceso');
 assert.ok(guide.includes('al menos el primer ejercicio'));
 assert.ok(guide.includes('Grado en Derecho o Arquitectura'));
 
@@ -37,4 +41,14 @@ assert.equal(score(30, 20), 5);
 assert.equal(score(24, 0), 4.8);
 assert.equal(score(0, 50), 0);
 assert.equal(score(30, 0), 6); // 20 blancos no penalizan
+assert.equal(score(29, 21), 4.75); // 29 aciertos con 21 fallos: suspenso
+assert.equal(score(26, 4), 5); // 26 aciertos y 4 fallos: aprobado, 20 blancos
+assert.equal(score(0, 0), 0); // Sin respuestas
+// El umbral debe equivaler a 4*aciertos - errores >= 100, sin reservas.
+for (let hits = 0; hits <= 50; hits++) {
+  for (let misses = 0; misses <= 50 - hits; misses++) {
+    assert.equal(score(hits, misses) >= 5, 4 * hits - misses >= 100,
+      `Umbral inconsistente: ${hits} aciertos, ${misses} errores`);
+  }
+}
 console.log('La Puebla: nota, reservas y etiqueta del primer ejercicio verificadas');
