@@ -997,3 +997,18 @@ El anuncio del BOP **34/2026** encabeza el decreto de bases como **«2025-003964
 > ⚠️ **¡Foco Examen!:** **Artículo 12.2.l.8 = competencia invocada por Presidencia** en los actos oficiales de **2026**. **Aprobar la OEP** no es **aprobar convocatoria y bases**, y **propuesta de Dirección** no es resolución. La cifra **2025-003964** fue **rectificada oficialmente a 2026-003964** en el BOP 37/2026.
 
 **Reserva:** se acredita aplicación del precepto en **2026**, **no** se obtiene por ello la versión estatutaria íntegra y consolidada. [**Cadena documental única del OAPGT**](../../diputacion-toledo/OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md).
+
+
+## Advertencia de numeración estatutaria OAPGT: **2022 / 2026**
+
+El [**BOP de Toledo 196, de 13/10/2022, anuncio 5131**](https://bop.diputoledo.es/webEbop/DocGet?id=22103505%3B0&insert_number=5131&insert_year=2022) invoca **art. 12.1.8 de los Estatutos vigentes** al aprobar bases generales para estabilización de empleo. Los [**BOP 20 de 02/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=20&insert_year=2026&publication_date=02022026) y [**34 de 20/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=34&insert_year=2026&publication_date=20022026) invocan **art. 12.2.l.8** para otras actuaciones de Presidencia.
+
+| Fecha de publicación | Precepto literalmente citado | Alcance conocido |
+|---|---|---|
+| **13/10/2022** | **12.1.8** | Bases de estabilización vinculadas a OEP **2019/2022** |
+| **02/02/2026** | **12.2.l.8** | Aprobación OEP **2026** |
+| **20/02/2026** | **12.2.l.8** | Aprobación convocatoria y bases OEP **2026** |
+
+**Reserva:** esta diferencia de numeración **no acredita por sí sola una reforma**: pueden existir especialidades funcionales, error de cita o modificaciones intermedias. El [**BOP de 25/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=37&insert_year=2026&publication_date=25022026) **solo corrigió el número del decreto de convocatoria a 2026-003964**, no la numeración estatutaria.
+
+> ⚠️ **¡Foco Examen!:** **Art. 12.1.8 de 2022 no debe equipararse automáticamente al 12.2.l.8 de 2026.** El decreto **2026-003964** sí está rectificado oficialmente. No confundir la **rectificación de un decreto** con una **reforma estatutaria**.
