@@ -481,3 +481,19 @@ La [**Resolución de 4 de junio de 2026, publicada en el BOCM de 15/06/2026 (BOC
 > ⚠️ **¡Foco Examen!:** **Elección del Defensor: mitad más uno del Claustro (Estatutos)**; **Adjunto: mayoría simple**; **mandato estatutario de 3 años y una reelección**, distinto del régimen general de **6 años** para órganos unipersonales electos de LOSU. No afirmar automáticamente que uno deroga al otro sin acreditar la adaptación y su aplicación transitoria.
 
 **Control de procedencia:** cotejo realizado sobre el texto recuperado del PDF refundido y el BOE de LOSU. La herramienta de captura visual de PDF dio error; **no** se afirma inspección visual del documento original. El tema permanece **EN_REVISION_USUARIO** hasta resolver la coexistencia normativa al corte de la convocatoria.
+
+
+## Plazo de adaptación estatutaria a la LOSU: fecha de vencimiento — **11/11/2026**
+
+La [**LO 2/2023, BOE-A-2023-7500**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500) entró en vigor el **12/04/2023**. Su **disposición transitoria primera, apartado 1**, después de la modificación introducida por la [**Ley 1/2024**](https://www.boe.es/eli/es/l/2024/06/07/1/con), establece **3 años desde la entrada en vigor** para que las universidades públicas **aprueben los nuevos Estatutos** y **constituyan nuevo Claustro y Consejo de Gobierno**. **Cómputo del vencimiento: 12/04/2026** (tercer aniversario de entrada en vigor).
+
+| Hito | Fecha o exigencia | Qué demuestra |
+|---|---|---|
+| Entrada en vigor LOSU | **12/04/2023** | Inicio del plazo **legal** |
+| Reforma transitoria por **Ley 1/2024** | Amplía de **2 a 3 años** | No aplicar texto inicial de 2023 |
+| Fin de los **3 años** | **12/04/2026** | **Fin del plazo legal de adaptación**, no acreditación de que UC3M adaptase los Estatutos |
+| Textos institucionales UC3M de **2003/2009** invocados en disposiciones de **2026** | Citas oficiales posteriores al plazo | No implican automáticamente que exista adaptación, que se haya incumplido o que se deroguen en bloque todas las reglas históricas |
+
+**Advertencia jurídica:** vencido el plazo legal, no puede concluirse únicamente a partir de esas fechas que una versión estatutaria nueva haya sido aprobada, que la anterior desaparezca íntegramente o qué artículos concretos hayan quedado desplazados. Requiere buscar **aprobación por la Comunidad de Madrid y publicación oficial** de nuevos Estatutos y cotejar la norma superior aplicable. El corte probable **01/10/2026** de la oposición UC3M es posterior al vencimiento, pero la **fecha exacta de publicación definitiva** continúa no acreditada mediante diligencia.
+
+> ⚠️ **¡Foco Examen!:** **12/04/2026 = vencimiento del plazo de adaptar Estatutos**, **no fecha certificada de aprobación de nuevos Estatutos**. **3 años** de la disposición transitoria modificada no son **6 años** de mandatos electos de la LOSU.
