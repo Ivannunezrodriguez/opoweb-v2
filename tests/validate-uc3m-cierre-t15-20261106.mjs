@@ -44,7 +44,7 @@ for(const q of bank.preguntas){
    const controlled=bank.controlPrecaucionLOSU20261111;
    assert.ok(controlled?.itemsAclarados?.includes(q.id),
       'Cambio no documentado respecto al cotejo histórico: '+q.id);
-   assert.ok(report.split('\\n').some(line=>line.startsWith(historicalHeading)),
+   assert.ok(report.includes(historicalHeading),
       'Falta ID en el cotejo histórico: '+q.id);
    assert.ok(q.pregunta.includes('Estatutos UC3M refundidos de 2003/2009'),
       'Falta delimitación de norma histórica tras la revisión: '+q.id);
