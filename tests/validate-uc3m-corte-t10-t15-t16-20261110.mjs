@@ -34,6 +34,9 @@ assert.ok(t15Manual.includes('Defensoría universitaria: lectura conjunta de Est
 assert.ok(t15Manual.includes('mitad más uno'));
 assert.ok(t15Manual.includes('mayoría simple'));
 assert.ok(t15Manual.includes('art. 44.3 LOSU'));
+assert.ok(t15Manual.includes('12/04/2026'), 'Falta vencimiento de los 3 años LOSU');
+assert.ok(t15Sources.includes('12/04/2026'), 'Falta prueba de fecha transitoria en fuentes');
+assert.ok(t15Manual.includes('no puede concluirse únicamente'), 'Falta reserva: vencimiento no es adaptación');
 for (const content of [t15Manual, t15Sources]) {
   assert.ok(content.includes('BOCM-20260615-17'), 'Falta fuente oficial de creación de escalas UC3M 2026');
   assert.ok(content.includes('Escala Auxiliar de Servicios e Información'), 'Falta distinción de escala C2 distinta');
