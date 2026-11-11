@@ -4006,3 +4006,20 @@ Cotejos de **04/11/2026** revisados como soporte previo, cruzados con fuentes BO
 **Estado:** **116 AUDITADO + 5 no auditados = 121**, 0 certificaciones integrales verificadas. Se han modificado manuales de **OAPGT C1 T22 / C2 T6** y **UC3M T15**, matrices compartidas y validadores, sin promoción de estado. **Validación npm test / Actions del último HEAD no ejecutada ni certificada**.
 
 **Falta decisiva antes de promover:** (1) anuncio definitivo de reforma OAPGT 2004/2005 y cadena completa hasta 2026; (2) nuevo texto UC3M LOSU aprobado/publicado, si existe, y diligencia fechada de listas definitivas para corte legal; (3) revisión sistemática de las claves y distractores completos contra la versión temporalmente exigible.
+
+
+## Hallazgo decisivo BOP OAPGT + control de bancos UC3M — **11/11/2026**
+
+**OAPGT C1 T22 / C2 T6 — cadena oficial de 2026 ampliada:**
+
+1. [**BOP Toledo 20, 02/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=20&insert_year=2026&publication_date=02022026): **Presidencia** dicta **Decreto 2026-001575 de 28/01/2026**, aprueba **OEP 2026** invocando **art. 12.2.l.8 de los Estatutos vigentes**; propuesta de **Dirección General** y negociación **26/01/2026**.
+2. [**BOP Toledo 34, 20/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=34&insert_year=2026&publication_date=20022026): **Presidencia aprueba la convocatoria y bases** con propuesta de Dirección **17/02/2026**, citando de nuevo **art. 12.2.l.8**; esta primera publicación presentaba erróneamente el identificador **2025-003964**.
+3. **RECTIFICACIÓN ENCONTRADA Y COTEJADA:** [**BOP Toledo 37, 25/02/2026, anuncio 882**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=37&insert_year=2026&publication_date=25022026) dispone expresamente que donde dice **2025-003964** debe decir **2026-003964**. **RESUELVE la discordancia**, anteriormente anotada como pendiente en esta misma auditoría. El identificador válido de convocatoria es **2026-003964**.
+
+**Archivos realmente corregidos:** [matriz única OAPGT](content/diputacion-toledo/OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md), [manual C1 T22](content/diputacion-toledo/tema-22/manual.md), [manual C2 T6](content/diputacion-toledo-auxiliar-c2/tema-06/manual.md) y sus matrices de trazabilidad: triple publicación, órganos, fechas, identificadores y nota de fe de erratas. El [test OAPGT](tests/validate-oapgt-bop92-2023-20261110.mjs) ahora exige **decreto oficialmente rectificado 2026-003964** y la fuente BOP 37.
+
+**UC3M T10/T16 — examen de exposición del banco al litigio temporal:** inspeccionados **12/12 enunciados y referencias** de T10 y **21/21** de T16: **ningún ítem cita ni pregunta directamente** el **art. 49.e TREBEP** ni el **art. 22.4 RD 822/2021**, respectivamente. No equivale a afirmar ausencia de riesgos indirectos ni a auditoría integral. Consta el alcance en [dossier temporal](content/uc3m/CONTROL_CORTE_T10_T15_T16_20261110.md). [Validador UC3M](tests/validate-uc3m-corte-t10-t15-t16-20261110.mjs) exige reabrir auditoría si se introduce referencia directa a estos preceptos.
+
+**UC3M T15 — defecto editorial real corregido:** [preguntas 013, 014, 015, 016](content/uc3m/tema-15/preguntas.json) delimitan ahora sus enunciados expresamente a la literalidad de los **Estatutos refundidos 2003/2009**, distinguiéndolos de [LOSU art. 43.4](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a43) y **DT1**, con mandato histórico de **3 años** y dudas de adaptación; **sin cambiar respuestas ni alternativas**. [Matriz T15](content/uc3m/tema-15/matriz.json) registra la corrección.
+
+**Reservas no resueltas:** no se dispone del **anuncio oficial definitivo OAPGT 2004/2005 y cadena exhaustiva de reformas hasta 2026**, ni de la **diligencia institucional fechada de publicación de listas definitivas UC3M**. Ninguno de los cinco temas se promociona por haber cerrado solo un error de numeración. **116 AUDITADO, 5 pendientes; 0/121 certificaciones integrales.** Los cambios se han persistido en GitHub, pero el **CI de este HEAD no está confirmado**.
