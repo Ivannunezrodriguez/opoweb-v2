@@ -24,7 +24,7 @@ for (const item of registry.pendientes) {
       assert.ok(typeof evidence === 'object', 'Evidencia debe ser un objeto: '+item.id+' '+key);
       assert.ok(typeof evidence.ruta === 'string' && evidence.ruta.length > 3, 'Falta ruta: '+key);
       assert.ok(fs.existsSync(evidence.ruta), 'No existe archivo de evidencia '+evidence.ruta);
-      assert.ok(typeof evidence.fecha === 'string' && /^20\\d{2}-\\d{2}-\\d{2}$/.test(evidence.fecha), 'Fecha no documentada: '+key);
+      assert.ok(typeof evidence.fecha === 'string' && /^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(evidence.fecha), 'Fecha no documentada: '+key);
       const body = fs.readFileSync(evidence.ruta, 'utf8');
       assert.ok(body.trim().length > 80, 'Evidencia vacía: '+evidence.ruta);
     }
