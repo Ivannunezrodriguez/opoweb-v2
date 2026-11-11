@@ -145,3 +145,24 @@ El nuevo RD prevé plazos de **6 meses** para protocolos especificados en su **D
 > ⚠️ **¡Foco Examen!:** **22/10 publicación, 23/10 vigencia y derogación RD 1791/2010**, distinto de **23/10 publicación de sentencia sobre RD 905/2025**. Son dos hechos jurídicos separados que afectan a normas diferentes.
 
 **Impacto documental:** manual y fuentes de **T16** y fuentes de **T15** contienen la cronología y las precauciones. T10/T15/T16 continúan **EN_REVISION_USUARIO** hasta diligencia del corte y revisión global de jerarquía temporal. No confundir ausencia de impacto directo en los bancos con auditoría integral.
+
+
+## 9. Cotejo independiente del primer conocimiento público de definitivos — **11/11/2026**
+
+**Hallazgo adicional comprobable:** además del calendario de [**ADAMS** que sitúa la publicación el **01/10/2026**](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/), existe la [**noticia de Empléate de **02/10/2026** sobre las listas definitivas de **Gestión A2** y **Auxiliar C2** de la UC3M**](https://www.emplea-te.com/noticias-oposiciones/universidad-carlos-iii-publicada-la-relacion-definitiva-de-aspirantes-admitidos-y-excluidos-en-la-convocatoria-de-gestion-a2-y-auxiliar-administrativo-c2/). La [**web institucional UC3M**](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) incluye efectivamente el apartado de resolución definitiva, pero **no expone en la vista textual recuperada una diligencia pública de inserción fechada**.
+
+| Punto probado | Resultado y alcance |
+|---|---|
+| **Regla oficial** | La **base primera.7, BOE-A-2026-14624** exige legislación vigente en la **publicación de las listas definitivas/anuncio del ejercicio**; el día del examen no desplaza ese corte. |
+| **01/10/2026** | Fecha publicada por un **calendario secundario (ADAMS)**; **NO** sustituye el registro UC3M. |
+| **02/10/2026** | Una **segunda fuente secundaria independiente (Empléate)** ya informa de la publicación de las listas definitivas para C2; proporciona una **acotación de conocimiento público hasta esa fecha**, no certificación de día y hora en tablón. |
+| **03/10/2026** | Publicación en BOE de **Ley 4/2026**, modificadora del **art. 49.e TREBEP**; no confundir publicación con entrada en vigor posterior. |
+| **22–23/10/2026** | Publicación y entrada en vigor de **RD 855/2026** y publicación del fallo sobre **RD 905/2025**: hechos **posteriores a ambas noticias de definitivos**, salvo revisión judicial singular de efectos. |
+
+**Consecuencia editorial defensiva:** mientras no se identifique un acto oficial que contradiga el calendario y la noticia citados, **no incorporar automáticamente** la reforma del **art. 49.e TREBEP** ni el **RD 855/2026** como legislación exigible del examen C2. La sentencia sobre **RD 905/2025** plantea un problema **distinto de efectos de nulidad**; no inferir su régimen intertemporal solo por la fecha del fallo.
+
+**Documento exacto que falta:** **certificación/diligencia del Servicio de Recursos Humanos y Organización de la UC3M** con fecha efectiva de publicación de la **resolución definitiva de admitidos/excluidos del proceso de 34 plazas de Escala Auxiliar Administrativa C2 (BOE-A-2026-14624)** y anuncio de ejercicio en el medio previsto en las bases. **Una resolución fechada o firmada el 30/09 no basta por sí sola.**
+
+> ⚠️ **¡Foco Examen!:** **01/10** (fecha secundaria probable), **02/10** (noticia secundaria independiente), **03/10** (publicación de Ley 4/2026) y **23/10** (entrada en vigor de reformas universitarias y de permisos) **NO son intercambiables**. El corte definitivo sigue pendiente de acreditación **institucional primaria**.
+
+**Estado:** acotación temporal independiente mejorada, **sin cerrar ni promocionar** **UC3M-T10, T15 o T16** a `AUDITADO`. No se ha alterado ninguna clave de test.
