@@ -91,3 +91,21 @@ Fuente oficial adicional: [**BOP Toledo 119, 25/06/2021, anuncio 2021.00003151**
 > ⚠️ **¡Foco Examen!:** En el **BOP de 2023**, **Consejo Rector >10 % / >4 años**, **Presidencia hasta 10 %**, **Dirección hasta 5 %**. Son **umbrales citados históricamente por ese acuerdo**, no una afirmación sin reservas sobre los límites actuales de la **LCSP**. **Art. 10.k** y **art. 9** aparecen en el mismo expediente y no deben confundirse sin comprobar el Estatuto.
 
 **Control técnico:** el contenido procede de lectura textual de BOP oficial. La función de **captura visual de PDF** no devolvió la página y, por ello, **no se afirma inspección visual**.
+
+
+## 8. Prueba administrativa de aplicación **2025**: art. 12.2.l.8 del OAPGT — **11/11/2026**
+
+**Nueva fuente oficial de aplicación posterior a 2023:** [**BOP de Toledo n.º 65, de 04/04/2025, anuncio 1773**](https://bop.diputoledo.es/webEbop/DocGet?id=25041890%3B0&insert_number=1773&insert_year=2025). Publica el **Decreto de Presidencia OAPGT 2025-008022, de 01/04/2025**, que **aprueba la convocatoria y las bases de plazas de OEP 2025**. En su motivación cita expresamente el **artículo 12.2.l.8 de los Estatutos del OAPGT** como fundamento de las facultades de la **Presidencia**. Menciona la **OEP aprobada por decreto de 14/02/2025**, publicada el **17/02/2025**, el acuerdo negociador de **31/03/2025** y la **propuesta del Director**.
+
+| Actuación documentada | Órgano y fecha del acto | Distinción jurídicamente útil |
+|---|---|---|
+| **Aprobar OEP 2025** | **Presidencia**, decreto de **14/02/2025** | Aprobación de oferta, no adjudicación de plazas |
+| **Proponer convocatoria/bases** | **Dirección** del OAPGT, propuesta de **31/03/2025** | **Proponer ≠ resolver** |
+| **Aprobar convocatoria y bases** | **Presidencia**, decreto **01/04/2025**, art. **12.2.l.8** | Competencia ejercida en este acto, no órgano calificador |
+| **Publicación de convocatoria** | **BOP 04/04/2025** | Publicación oficial distinta de fecha de decreto |
+
+**Relevancia para reconstrucción estatutaria:** confirma que, en un acto oficial de **2025**, el OAPGT seguía invocando el art. **12.2.l.8** como fundamento competencial. Complementa los actos de **2011**, **2017**, **2019** y **2023**. **No demuestra** la inexistencia de reformas en **2026**, ni que el anuncio inicial de **2004** tuviera eficacia definitiva, ni reproduce el texto íntegro del precepto.
+
+> ⚠️ **¡Foco Examen!:** **Dirección propone las bases** y **Presidencia las aprueba** en el expediente oficial de **2025**. **14/02** (OEP), **01/04** (convocatoria) y **04/04** (publicación) son tres fechas distintas; ninguna debe usarse como fecha de entrada en vigor de todos los Estatutos.
+
+**Método de control:** cotejado con el contenido textual del **BOP oficial**. La situación de las reformas estatutarias **2004/2005** y su eventual publicación definitiva sigue **no acreditada**.
