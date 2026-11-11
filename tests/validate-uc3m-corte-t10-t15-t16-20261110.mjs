@@ -94,4 +94,22 @@ assert.ok(t15.controlPrecaucionLOSU20261111);
 assert.equal(t15.controlPrecaucionLOSU20261111.cambiosClave, 0);
 assert.ok(dossier.includes('Riesgo temporal a nivel de pregunta'), 'Falta matriz de impacto T10/T16');
 
+const t16Manual = read('content/uc3m/tema-16/manual.md');
+for (const file of ['content/uc3m/tema-15/fuentes.md', 'content/uc3m/tema-16/fuentes.md']) {
+  const contents = read(file);
+  assert.ok(contents.includes('Real Decreto 855/2026'), 'Falta nueva derogación del Estatuto de estudiantes en '+file);
+  assert.ok(contents.includes('23/10/2026'), 'Falta entrada en vigor del nuevo Estatuto en '+file);
+  assert.ok(contents.includes('RD 1791/2010'), 'Falta reglamento derogado en '+file);
+}
+assert.ok(t16Manual.includes('Cambio normativo posterior al corte probable: Estatuto del Estudiantado'));
+assert.ok(dossier.includes('Nueva norma estatal posterior al corte probable: RD 855/2026'));
+for (const bank of [t15,t16Bank]) {
+  for(const q of bank.preguntas) {
+    const directText=((q.pregunta||'')+' '+(q.referencia||'')).toLowerCase();
+    assert.ok(!directText.includes('1791/2010') && !directText.includes('855/2026'),
+      'Nueva referencia a estatuto de estudiantes requiere corte temporal expreso: '+q.id);
+  }
+}
+
+
 console.log('UC3M T10/T15/T16: corte no acreditado, banco T16 de permanencia trazado a fuente primaria UC3M.');
