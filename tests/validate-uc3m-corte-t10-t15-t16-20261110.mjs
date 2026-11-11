@@ -73,13 +73,14 @@ const t15 = json('content/uc3m/tema-15/preguntas.json');
 assert.equal(t10.preguntas.length, 12);
 assert.equal(t15.preguntas.length, 21);
 assert.equal(t16Bank.preguntas.length, 21);
-for (const [bank, forbidden, label] of [
-  [t10, /(?:art(?:ículo)?\\.?\\s*49\\.?e|49\\.e)/i, 'T10 TREBEP 49.e'],
-  [t16Bank, /(?:art(?:ículo)?\\.?\\s*22\\.4|RD\\s*905\\/2025)/i, 'T16 RD 822/2021 art. 22.4']
+for (const [bank, forbiddenTerms, label] of [
+  [t10, ['art. 49.e', 'artículo 49.e', '49.e)'], 'T10 TREBEP 49.e'],
+  [t16Bank, ['art. 22.4', 'artículo 22.4', 'RD 905/2025'], 'T16 RD 822/2021 art. 22.4']
 ]) {
   for (const q of bank.preguntas) {
-    assert.ok(!forbidden.test((q.pregunta || '') + ' ' + (q.referencia || '')),
-      'Nuevo supuesto temporal requiere auditoría específica: '+label+', '+q.id);
+    const statement = ((q.pregunta || '') + ' ' + (q.referencia || '')).toLowerCase();
+    assert.ok(!forbiddenTerms.some(term => statement.includes(term.toLowerCase())),
+      'Nuevo supuesto temporal requiere auditoría específica: ' + label + ', ' + q.id);
   }
 }
 for (const suffix of ['013','014','015','016']) {
