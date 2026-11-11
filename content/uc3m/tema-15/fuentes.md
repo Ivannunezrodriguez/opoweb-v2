@@ -165,3 +165,21 @@ La [**LO 2/2023, BOE-A-2023-7500**](https://www.boe.es/buscar/act.php?id=BOE-A-2
 **Advertencia jurídica:** vencido el plazo legal, no puede concluirse únicamente a partir de esas fechas que una versión estatutaria nueva haya sido aprobada, que la anterior desaparezca íntegramente o qué artículos concretos hayan quedado desplazados. Requiere buscar **aprobación por la Comunidad de Madrid y publicación oficial** de nuevos Estatutos y cotejar la norma superior aplicable. El corte probable **01/10/2026** de la oposición UC3M es posterior al vencimiento, pero la **fecha exacta de publicación definitiva** continúa no acreditada mediante diligencia.
 
 > ⚠️ **¡Foco Examen!:** **12/04/2026 = vencimiento del plazo de adaptar Estatutos**, **no fecha certificada de aprobación de nuevos Estatutos**. **3 años** de la disposición transitoria modificada no son **6 años** de mandatos electos de la LOSU.
+
+
+## Control de vigencia: nuevo Estatuto del Estudiantado Universitario — **11/11/2026**
+
+**Fuente primaria:** [**Real Decreto 855/2026, de 21/10/2026, BOE-A-2026-21955**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-21955). El **BOE de 22/10/2026** publica el nuevo Estatuto del Estudiantado Universitario; su **disposición final cuarta** fija entrada en vigor el **23/10/2026** y su **disposición derogatoria única, apartado 1**, **deroga expresamente el Real Decreto 1791/2010**, de 30 de diciembre.
+
+| Hito normativo | Fecha | Regla |
+|---|---|---|
+| Texto anterior, **RD 1791/2010** | Hasta la derogación | No tratarlo como norma general vigente después de **23/10/2026** |
+| Publicación del **RD 855/2026** | **22/10/2026** | **Publicación no equivale a entrada en vigor** |
+| Entrada en vigor **RD 855/2026** y derogación expresa **RD 1791/2010** | **23/10/2026** | Marco estatal general posterior a esa fecha |
+| **Corte UC3M de esta oposición, base primera.7** | Publicación de definitivos, **día exacto no acreditado** | El **01/10/2026** es un indicio secundario, no diligencia oficial |
+
+**Criterio editorial de examen:** Si se confirma una publicación de definitivos anterior al **23/10/2026**, el **RD 855/2026 no estaba vigente** en el corte y no procede sustituir por él todas las respuestas del banco; si la diligencia oficial desmintiera esa secuencia, deberá recalcularse el corte. Las nuevas disposiciones transitorias de **6 meses para ciertos protocolos** y **12 meses para adaptación de normas universitarias** se refieren al período **posterior a la entrada en vigor del nuevo RD**, **no** al plazo **LOSU de 3 años para nuevos Estatutos** que vencía el **12/04/2026**.
+
+> ⚠️ **¡Foco Examen!:** **22/10 publicación; 23/10 entrada en vigor y derogación del RD 1791/2010**. La **base primera.7** impide aplicar por defecto la regulación de **noviembre de 2026** a un examen cuya fecha de corte sea anterior. **6/12 meses** del nuevo RD no son **3 años** de la **DT1 LOSU**.
+
+**Reserva:** este control es específico del nuevo Estatuto del Estudiantado; **no certifica** que todas las normas internas UC3M y opciones de examen hayan sido adaptadas, ni soluciona la falta de diligencia oficial de publicación de las listas.
