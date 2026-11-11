@@ -55,5 +55,11 @@ for(const file of ['content/diputacion-toledo/tema-22/manual.md','content/diputa
   assert.ok(manual.includes('2025-003964'), 'Falta historia de errata 2025/2026: '+file);
   assert.ok(manual.includes('2026-003964'), 'Falta fe de erratas del decreto '+file);
 }
+
+assert.ok(matrix.includes('Contraste de referencias estatutarias 2022 frente a 2026'), 'Falta investigación referencias art.12');
+assert.ok(matrix.includes('12.1.8'), 'Falta referencia literal de BOP 2022');
+assert.ok(matrix.includes('12.2.l.8'), 'Falta referencia literal de BOP 2026');
+assert.ok(matrix.includes('no atribuir las dos referencias al mismo inciso'), 'Falta reserva contra equiparación');
+
 console.log('OAPGT: BOP 2023/2025/2026 acreditados documentalmente; consolidado estatutario pendiente.');
 
