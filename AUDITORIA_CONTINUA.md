@@ -1,3 +1,5 @@
+> **PUNTO DE ENTRADA OPERATIVO (11/11/2026):** [**Cierre operativo, contradicciones, evidencias pendientes y próximos actos**](docs/CIERRE_OPERATIVO_2026-11-11.md) · [**Registro de bloqueos verificables por tema**](data/cierre-pendientes-2026.json). Esta bitácora se conserva como historial jurídico-editorial; los marcadores de reanudación antiguos **no** sustituyen las cinco puertas de cierre del registro. **116/121 AUDITADO documental, 5 pendientes, 0/121 certificaciones integrales**.
+
 # OpoWeb v2 — Estado editorial único y cola de reanudación
 
 ## Prioridad de ejecución fijada por el usuario — 08/11/2026
