@@ -126,3 +126,22 @@ Se han inspeccionado directamente **todos los enunciados y referencias normativa
 > ⚠️ **¡Foco Examen!:** **Un artículo reformado que no se pregunta directamente** no debe provocar cambio automático de las **respuestas de otro artículo**. Tampoco significa que la **auditoría integral** de la convocatoria esté cerrada.
 
 **Bloqueo que sigue:** obtener **diligencia primaria de publicación de listas definitivas** del proceso **C2 de 34 plazas** y acreditar la versión jurídico-estatutaria efectivamente aplicable al corte; se mantienen estados **EN_REVISION_USUARIO**.
+
+
+## 8. Nueva norma estatal posterior al corte probable: RD 855/2026 — **11/11/2026**
+
+El [**BOE-A-2026-21955, de 22/10/2026**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-21955) publicó el **Real Decreto 855/2026, de 21 de octubre, Estatuto del Estudiantado Universitario**. Por **disposición final cuarta**, **entró en vigor el 23/10/2026**; la **disposición derogatoria única.1** derogó expresamente el **Real Decreto 1791/2010**. El [análisis oficial BOE/ELI](https://www.boe.es/eli/es/rd/2026/10/21/855) ratifica ambas fechas.
+
+| Hipótesis de corte UC3M | Consecuencia para el estudio universitario |
+|---|---|
+| Publicación de listas definitivas **antes del 23/10/2026** (coherente con noticia pública de **07/10**, pero falta diligencia oficial) | **RD 855/2026 aún no vigente**. No usarlo como sustituto automático del **RD 1791/2010** en respuestas del examen |
+| Publicación de listas definitivas **el 23/10 o después** (hipótesis contraria a la evidencia secundaria previa) | Estudiar **RD 855/2026** como Estatuto general, con derogación del **RD 1791/2010** |
+| Situación a **11/11/2026** | **RD 855/2026 vigente**, pero la norma vigente hoy **no fija por sí misma** el corte de esta convocatoria |
+
+El nuevo RD prevé plazos de **6 meses** para protocolos especificados en su **DT1** y **12 meses** para adaptación de normativas/unidades en su **DT2**: **no confundir** con el plazo de **3 años** para nuevos Estatutos universitarios fijado por la **DT1 LOSU**, que venció el **12/04/2026**.
+
+**Cotejo mecánico completo de los bancos afectados por este cambio específico:** se inspeccionaron los **21 enunciados y referencias del T15** y los **21 del T16**: **ninguno cita directamente RD 1791/2010 ni RD 855/2026**. **No se modifican claves** ni respuestas por una derogación que no figura directamente en esos enunciados/referencias; los impactos indirectos y la legislación interna necesitan cotejo sustantivo.
+
+> ⚠️ **¡Foco Examen!:** **22/10 publicación, 23/10 vigencia y derogación RD 1791/2010**, distinto de **23/10 publicación de sentencia sobre RD 905/2025**. Son dos hechos jurídicos separados que afectan a normas diferentes.
+
+**Impacto documental:** manual y fuentes de **T16** y fuentes de **T15** contienen la cronología y las precauciones. T10/T15/T16 continúan **EN_REVISION_USUARIO** hasta diligencia del corte y revisión global de jerarquía temporal. No confundir ausencia de impacto directo en los bancos con auditoría integral.
