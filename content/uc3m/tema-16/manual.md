@@ -368,3 +368,22 @@ La [**sentencia publicada el 23/10/2026**](https://www.boe.es/buscar/doc.php?id=
 **Cierre sobre las 21 preguntas existentes:** ninguna exige escoger entre «ámbito de conocimiento» y «campo de estudio» ni resolver el art. **22.4** reformado y anulado. La incertidumbre judicial **no obliga a cambiar sus claves** por ese solo motivo. Queda pendiente de certificación integral la fecha primaria de publicación y la vigencia de la normativa académica en su conjunto.
 
 > ⚠️ **¡Foco Examen!:** **RD 905/2025 anulado ≠ RD 822/2021 anulado**. La noticia del **07/10** es una cota documental de publicación, no una diligencia UC3M.
+
+
+## Cambio normativo posterior al corte probable: Estatuto del Estudiantado — **11/11/2026**
+
+El [**Real Decreto 855/2026 (BOE-A-2026-21955)**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-21955), publicado el **22/10/2026**, entró en vigor **23/10/2026** y **derogó el RD 1791/2010**. Esta modificación se refiere al **Estatuto general del Estudiantado Universitario**, no constituye la derogación ni modificación completa del **RD 822/2021**, norma básica de organización de enseñanzas.
+
+| Pregunta de estudio | Antes de **23/10/2026** | Desde **23/10/2026** |
+|---|---|---|
+| **Estatuto general de derechos y deberes estudiantiles** | **RD 1791/2010** | **RD 855/2026**, derogación expresa del anterior |
+| **Reglas estructurales de Grado y Máster** | **RD 822/2021**, artículo aplicable al corte | Continúa **RD 822/2021**, con cautelas sobre modificaciones y nulidades individuales |
+| **Normativa interna UC3M de matrícula y permanencia** | Reglamento universitario correspondiente | Debe comprobarse compatibilidad con legislación superior y disposiciones transitorias del nuevo Estatuto |
+
+El **RD 855/2026** prevé adaptación institucional posterior en **6 meses** para determinados protocolos y **12 meses** para otras normas/unidades, según sus disposiciones transitorias. Es un calendario **diferente** del plazo **LOSU de 3 años** para Estatutos universitarios, vencido **12/04/2026**.
+
+**Impacto en banco T16:** verificados los **21 enunciados y referencias**; ninguno se fundamenta de manera directa en **RD 1791/2010** ni **RD 855/2026**. **No procede sustituir las claves existentes** en ausencia de un cambio material de las reglas citadas. Este control de referencias **no es prueba exhaustiva de todas las opciones ni de toda la normativa interna**.
+
+> ⚠️ **¡Foco Examen!:** **RD 855/2026** derogó **RD 1791/2010**, **no** RD 822/2021. Si el corte UC3M fue anterior a **23/10/2026**, no responder con el nuevo Estatuto por el simple hecho de estar vigente el día **21/11/2026**.
+
+**Reserva jurídica:** fecha oficial de publicación de las listas definitivas sin diligencia primaria recuperada; la referencia **01/10/2026** sigue siendo secundaria.
