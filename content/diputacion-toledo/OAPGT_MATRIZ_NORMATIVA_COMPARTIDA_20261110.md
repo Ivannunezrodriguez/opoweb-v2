@@ -160,3 +160,18 @@ El encabezamiento del BOP de **20/02/2026** dice **«decreto núm. 2025-003964, 
 **No existe fundamento suficiente** para declarar que hubo necesariamente una **renumeración legal entre 2022 y 2026**: las citas también podrían responder a diferencias de técnica de numeración, una errata del acto o una reforma que falta recuperar. Hasta disponer de texto íntegro formalmente vigente y cadena de modificaciones, **no atribuir las dos referencias al mismo inciso ni declarar una de ellas incorrecta por intuición**. La fe de erratas del **25/02/2026** solo acredita la corrección del **número de decreto** (2025-003964 → **2026-003964**), **no** una corrección de la numeración estatutaria.
 
 > ⚠️ **¡Foco Examen!:** **Art. 12.1.8 (BOP 2022)** y **12.2.l.8 (BOP 2026)** son citas de actos distintos. No convertirlas en equivalentes sin el texto de Estatutos vigente. **Rectificación del decreto** no es **modificación de los Estatutos**.
+
+
+## Contraste institucional independiente: **Tribunal de Cuentas**, informe aprobado **27/10/2022**
+
+El [**Informe de fiscalización de la gestión recaudatoria de las entidades locales, n.º 1491, aprobado por el Pleno del Tribunal de Cuentas el 27/10/2022, página 29**](https://www.congreso.es/entradap/l15p/e0/e_0001423_n_000_25136.pdf) describe expresamente la estructura del **OAPGT** observada en su fiscalización: **Consejo Rector**, **Presidencia**, **dos Vicepresidencias** y **Consejo Asesor** consultivo. Precisa que el **Consejo Rector** se compone de **Presidencia, Vicepresidencias y cinco vocales diputados**; el **Consejo Asesor** incorpora a esos integrantes y **diez alcaldes** designados por el **Pleno de la Diputación**. Este documento público, producido por un órgano fiscalizador externo al OAPGT, coincide en esos extremos con la recopilación de Estatutos disponible en el repositorio.
+
+| Elemento | Confirmación externa | Límite probatorio |
+|---|---|---|
+| **Consejo Rector** | Presidencia, **2 Vicepresidencias** y **5 vocales** diputados | El informe fiscaliza organización pretérita; **no** sustituye Estatutos publicados ni confirma todos los nombramientos de **2026** |
+| **Consejo Asesor** | Consejo Rector más **10 alcaldes**; órgano **consultivo** | Sus atribuciones no pueden extenderse a competencias decisorias generales |
+| **Referencia temporal** | **Pleno del Tribunal de Cuentas, 27/10/2022**; datos organizativos analizados para la fiscalización | No acredita por sí solo eficacia definitiva de la aprobación **inicial de 21/12/2004** |
+
+**Mejora concreta respecto de informes externos recibidos:** no reducir el OAPGT a **Presidencia + Consejo Rector + Dirección** omitiendo el **Consejo Asesor** y las **Vicepresidencias**. Al mismo tiempo, no inventar un órgano denominado **Comisión Ejecutiva**. Esta evidencia cierra el **contraste institucional de composición** en la fecha fiscalizada, pero **NO** la cadena completa de aprobación/publicación estatutaria ni la vigencia de todos los artículos en **2026**.
+
+> ⚠️ **¡Foco Examen!:** **Consejo Rector = órgano decisor**; **Consejo Asesor = órgano consultivo sin facultades ejecutivas generales**. **Dos Vicepresidencias + cinco vocales** no son «siete vicepresidencias». La prueba del Tribunal de Cuentas no sustituye el texto normativo publicado en el **BOP**.
