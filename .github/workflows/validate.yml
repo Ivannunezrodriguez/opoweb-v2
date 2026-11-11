@@ -25,6 +25,8 @@ jobs:
         run: |
           node --check assets/app.js
           node --check assets/practice.js
+      - name: Ejecutar batería completa de npm test (incluidos cierres no cubiertos por pasos individuales)
+        run: npm test
       - name: Exigir evidencia y estructura de los cinco temas pendientes
         run: |
           node tests/validate-cierre-pendientes-20261111.mjs
