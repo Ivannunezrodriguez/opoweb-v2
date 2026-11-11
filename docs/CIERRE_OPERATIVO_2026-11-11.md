@@ -75,3 +75,26 @@ La inspección de los cinco JSON aporta **107 preguntas / 428 alternativas**: **
 Este resultado **no cierra** el requisito de cotejo de las **428 opciones respecto de los textos legales temporalmente aplicables**. Además, los archivos Markdown y JSON pueden contener citas secundarias históricas: para elevar un estado se necesitará el cotejo primario oficial y la constancia de la corrección efectiva, no solo una URL.
 
 **Deuda técnica no resuelta aquí:** el registro AUDITORIA_CONTINUA supera los **750.000 caracteres** y al menos **56 archivos** remiten a él, incluidos controles automáticos. **No compactarlo o sustituirlo sin estudiar las dependencias:** de momento se proporciona este índice de entrada y se conserva el historial intacto. Las pruebas E2E/browser, WCAG, PWA y CI del HEAD siguen sin acreditarse.
+
+
+## 7. Incidente real de CI y correcciones del 11/11/2026
+
+Los avisos de **GitHub Actions** y los registros de los jobs fallidos permitieron detectar fallos **de sincronización entre pruebas y revisión editorial**, no nuevas declaraciones legales incorrectas:
+
+| Incidencia detectada en log oficial de CI | Reparación publicada |
+|---|---|
+| `validate-uc3m-cierre-t15-20261106.mjs`: `Missing cotejo UC3M-T15-013` y después encabezado histórico no reconocido por un separador `\\n` mal escapado | Aceptar solo las **cuatro preguntas T15-013/016** cuyo enunciado cambió justificadamente, manteniendo claves y alternativas; buscar ID directamente en cotejo histórico |
+| `validate-uc3m-t13-t15-integral.mjs`: cotejo de enunciados de **T15** contra versión histórica | Conservar **188 alternativas**, permitir solo cuatro enunciados recontextualizados con marcador de control |
+| `validate-uc3m-cierre-t16-20261106.mjs`: esperaba URL antigua de **e-Archivo** en preguntas **008, 010, 011, 012, 013** | Comprobar nueva **fuente institucional UC3M de 2018**, con identificador y artículos, sin cambiar claves |
+| Validadores de repaso La Puebla **T05–T19** | Actualizar estado **matrices AUDITADO**; mantener bancos `APROBADO_USUARIO` |
+| `validate-convocatorias-editorial-sync-20261109.mjs` | Corregir contador a **116 AUDITADO / 0 histórico operativo / 5 pendientes** |
+| `validate-oapgt-bop92-2023-20261110.mjs` | Sustituir exigencia frágil de palabra inexistente `incongruencia` por comprobación de **arts. 9/10.k** y reserva `referencia incongruente` |
+
+**Incidencia de configuración de mayor alcance:** el workflow [**Validar OpoWeb v2**](../.github/workflows/validate.yml) ejecutaba pruebas sueltas y **no lanzaba `npm test`**, por lo que los **cuatro validadores recientes** del cierre estaban registrados en `package.json` pero fuera de Actions. Se ha añadido un paso específico temprano que ejecuta:
+
+- `tests/validate-cierre-pendientes-20261111.mjs`
+- `tests/validate-cinco-bancos-pendientes-20261111.mjs`
+- `tests/validate-oapgt-bop92-2023-20261110.mjs`
+- `tests/validate-uc3m-corte-t10-t15-t16-20261110.mjs`
+
+**Comprobación realmente realizada en esta intervención:** presencia de los cuatro comandos en workflow publicado, consistencia documental de sus principales condiciones, integridad estructural de **107 preguntas / 428 alternativas**, coherencia de los cinco estados y presencia de prueba jurídica de OAPGT/UC3M. **No se dispone de un job completo con conclusión SUCCESS verificada para el último commit**. Por tanto **CI pendiente de acreditación**, sin confundir ausencia de nuevo email de fallo con éxito probado. El estado de los cinco temas jurídicamente pendientes no cambia.
