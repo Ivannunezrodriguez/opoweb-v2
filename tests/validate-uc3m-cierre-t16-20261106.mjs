@@ -46,10 +46,21 @@ assert.ok(read('AUDITORIA_CONTINUA.md').includes('CIERRE_DOCUMENTAL_T16_20261106
 assert.equal(ids.size,27);
 console.log('UC3M T16 DOCUMENTAL: 7 BLOQUES, 27 PREGUNTAS, 108 ALTERNATIVAS, RD 822 + BOEL 2026; RESERVAS EXPLICITAS');
 
-const normativaPermanenciaPDF='https://e-archivo.uc3m.es/bitstreams/8bca1962-a6f6-487b-9f11-e73f3f97477d/download';
-for(const id of ['008','011','012','013']){
+// El cotejo de noviembre sustituyó la ruta histórica de e-Archivo por un
+// PDF institucional UC3M y sus artículos concretos. El cambio está registrado
+// en el banco, sin modificación de las claves ni de las alternativas.
+const primary2018=bank.controlFuentePrimariaPermanencia20261110;
+const expected2018={ '008':'arts. 5–7','010':'art. 7.2–3','011':'arts. 1.1 y 1.3','012':'art. 1.2.a–b','013':'art. 2' };
+assert.ok(primary2018,'Falta control de la actualización de fuentes de permanencia');
+assert.equal(primary2018.respuestasModificadas,0);
+assert.equal(primary2018.corteOficialPrimario,'NO_ACREDITADO');
+for(const [id,articulo] of Object.entries(expected2018)){
  const q=bank.preguntas.find(q=>q.id==='UC3M-T16-'+id);
- assert.ok(q?.referencia.includes(normativaPermanenciaPDF), 'Cita normativa UC3M T16 con URL no verificable: '+id);
+ assert.ok(q && primary2018.items.includes(q.id),'Pregunta sin control de actualización de fuente: '+id);
+ assert.ok(q.referencia.includes('www.uc3m.es/ss/Satellite') &&
+           q.referencia.includes('1371586017358') &&
+           q.referencia.includes(articulo),
+           'Referencia UC3M 2018 sin documento o artículo preciso: '+id);
  assert.ok(!q.referencia.includes('/rest/api/core/bitstreams/'),'No reintroducir ruta REST previamente bloqueada: '+id);
 }
 for(const [id,correct] of [['010','30 ECTS'],['011','12'],['012','Dos años consecutivos'],['013','Cuatro']]){
@@ -85,7 +96,9 @@ for(const [id,answer,article] of verificacionesNormativas){
 console.log('UC3M_T16_ARTS11_14_17_CINCO_CLAVES_VINCULADAS_BOE_OK');
 
 const qParcial=bank.preguntas.find(q=>q.id==='UC3M-T16-010');
-assert(qParcial.referencia.includes('1371214034625/Evaluacion_continua'),'T16-010: fuente correcta de 30 ECTS primer año');
+assert(qParcial.referencia.includes('art. 7.2–3') &&
+       qParcial.referencia.includes('1371586017358'),
+       'T16-010: 30 ECTS debe enlazar el art. 7.2 de la norma UC3M de 2018');
 assert.equal(qParcial.respuestaLiteral,'30 ECTS');
 for(const [id,answer] of [['014','40 %'],['015','100 %']]) {
  const q=bank.preguntas.find(q=>q.id==='UC3M-T16-'+id);
