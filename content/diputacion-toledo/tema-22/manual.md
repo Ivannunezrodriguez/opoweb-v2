@@ -1,5 +1,17 @@
 # Tema 22 · Acuerdo regulador y OAPGT
 
+## Corrección oficial de la convocatoria OAPGT 2026 — **BOP 37, 25/02/2026**
+
+La [**rectificación oficial BOP Toledo n.º 37, de 25/02/2026, anuncio 882**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=37&insert_year=2026&publication_date=25022026) **corrigió expresamente** el número de decreto de convocatoria de la OEP 2026 publicado en el BOP n.º 34 de **20/02/2026**: donde figuraba **2025-003964** debe leerse **2026-003964, de 17/02/2026**. Esta fe de erratas **RESUELVE** la discordancia que en revisiones previas se trataba como pendiente. No mantener el número erróneo como referencia de examen.
+
+| Acto | Número correcto | Fecha del acto | Publicación |
+|---|---|---|---|
+| **Aprobación de OEP 2026** | **2026-001575** | **28/01/2026** | **02/02/2026**, BOP **20** |
+| **Aprobación de convocatoria/bases 2026** | **2026-003964** | **17/02/2026** | **20/02/2026**, BOP **34**, **rectificado 25/02**, BOP **37** |
+
+> ⚠️ **¡Foco Examen!:** **Decreto 2026-003964** es la numeración rectificada y aplicable. **2025-003964** fue una errata publicada y **CORREGIDA oficialmente** el **25/02/2026**. Distinguir **OEP**, **convocatoria** y **rectificación**.
+
+
 ## Cierre sectorial de reformas económicas del Acuerdo Regulador — BOP **2025–2026**
 
 **Fuentes oficiales documentales**: [BOP Toledo **8/2025**, anuncio **223**, de **14/01/2025**](https://bop.diputoledo.es/webEbop/DocGet?0=&id=25010328&insert_number=223&insert_year=2025); [BOP **10/2026**, anuncio **228**, de **16/01/2026**](https://www.diputoledo.es/global/ver-pdf/36759); [BOP **34/2026**, anuncio **821**, de **20/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026).
@@ -487,8 +499,8 @@ Dos publicaciones **oficiales de 2026** confirman que la **Presidencia** invoca 
 | **28/01/2026** | Decreto **2026-001575**, **OEP 2026**, publicado [BOP Toledo n.º 20, **02/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=20&insert_year=2026&publication_date=02022026) | **Dirección General propone** y **Presidencia aprueba**, tras negociación **26/01** |
 | **17/02/2026** | Propuesta de convocatoria y bases, publicada en [BOP Toledo n.º 34, **20/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=34&insert_year=2026&publication_date=20022026) | **Dirección General propone** y **Presidencia aprueba**, tras negociación **05/02** |
 
-El anuncio del BOP **34/2026** encabeza el decreto de bases como **«2025-003964, de 17 de febrero»**, aunque corresponde a la OEP **2026**. Se conserva esta **discordancia aparente del texto publicado**: no cambiar su numeración sin fe de erratas o rectificación oficial. La convocatoria propia del **OAPGT 2026** incluye **2 plazas C1 de Gestor Tributario** y **10 C2 de Agente Tributario** en acceso libre; **no son** las plazas de los procesos generales de la **Diputación** cuyos temarios se revisan aquí.
+El anuncio del BOP **34/2026** encabeza el decreto de bases como **«2025-003964, de 17 de febrero»**, aunque corresponde a la OEP **2026**. La **fe de erratas del BOP n.º 37, de 25/02/2026** la **corrige a 2026-003964**; no memorizar la cifra original. La convocatoria propia del **OAPGT 2026** incluye **2 plazas C1 de Gestor Tributario** y **10 C2 de Agente Tributario** en acceso libre; **no son** las plazas de los procesos generales de la **Diputación** cuyos temarios se revisan aquí.
 
-> ⚠️ **¡Foco Examen!:** **Artículo 12.2.l.8 = competencia invocada por Presidencia** en los actos oficiales de **2026**. **Aprobar la OEP** no es **aprobar convocatoria y bases**, y **propuesta de Dirección** no es resolución. La cifra **2025-003964** figura en el BOP 34/2026 y requiere cautela.
+> ⚠️ **¡Foco Examen!:** **Artículo 12.2.l.8 = competencia invocada por Presidencia** en los actos oficiales de **2026**. **Aprobar la OEP** no es **aprobar convocatoria y bases**, y **propuesta de Dirección** no es resolución. La cifra **2025-003964** fue **rectificada oficialmente a 2026-003964** en el BOP 37/2026.
 
 **Reserva:** se acredita aplicación del precepto en **2026**, **no** se obtiene por ello la versión estatutaria íntegra y consolidada. [**Cadena documental única del OAPGT**](../OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md).
