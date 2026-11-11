@@ -395,5 +395,39 @@
     "claveModificada": false,
     "alternativasModificadas": false,
     "certificacionIntegral": false
+  },
+  "auditoriaBancoFocal20261111": {
+    "fecha": "2026-11-11",
+    "tipo": "COTEJO_FOCAL_BANCO_NO_CERTIFICACION_TEMA",
+    "preguntasRevisadas": 24,
+    "alternativasEstructuralesRevisadas": 96,
+    "clavesFueraDeRango": 0,
+    "preguntasSinReferencia": 0,
+    "clavesCorregidas": 0,
+    "fuentesPrimariasVerificadas": [
+      "BOP Toledo 284/2011 anuncio 11024: arts. 1, 4.a, 8 bis, 14.d.1 y disposición adicional",
+      "BOP Toledo 92/2023 anuncio 2824: delegación y atribuciones concretas de órganos OAPGT",
+      "RDL 5/2015 art. 38: pacto y acuerdo",
+      "RDL 2/2004 art. 164: presupuesto local"
+    ],
+    "idsBOP2011": [
+      "DIP-T22-002",
+      "DIP-T22-004",
+      "DIP-T22-007",
+      "DIP-T22-011",
+      "DIP-T22-020"
+    ],
+    "idsBOP2023": [
+      "DIP-T22-021",
+      "DIP-T22-022",
+      "DIP-T22-023",
+      "DIP-T22-024"
+    ],
+    "conclusion": "No se observan errores demostrados en las claves cotejadas; no es prueba de todas las opciones sustantivas ni del articulado estatutario íntegro vigente.",
+    "bloqueos": [
+      "Eficacia definitiva y entrada en vigor de reforma aprobada inicialmente 2004",
+      "Cadena completa de modificaciones y cotejo estatutario artículo por artículo",
+      "Certificación jurídica de todos los distractores"
+    ]
   }
 }
