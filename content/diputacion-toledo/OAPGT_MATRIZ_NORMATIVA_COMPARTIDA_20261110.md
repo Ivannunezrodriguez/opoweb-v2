@@ -109,3 +109,27 @@ Fuente oficial adicional: [**BOP Toledo 119, 25/06/2021, anuncio 2021.00003151**
 > ⚠️ **¡Foco Examen!:** **Dirección propone las bases** y **Presidencia las aprueba** en el expediente oficial de **2025**. **14/02** (OEP), **01/04** (convocatoria) y **04/04** (publicación) son tres fechas distintas; ninguna debe usarse como fecha de entrada en vigor de todos los Estatutos.
 
 **Método de control:** cotejado con el contenido textual del **BOP oficial**. La situación de las reformas estatutarias **2004/2005** y su eventual publicación definitiva sigue **no acreditada**.
+
+
+## 9. Aplicación del artículo 12.2.l.8 en **2026**: prueba primaria doble — **11/11/2026**
+
+**Fuente A:** [**BOP Toledo n.º 20, 02/02/2026, anuncio I-465, pág. 1–2**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=20&insert_year=2026&publication_date=02022026). Publica **Decreto de la Presidencia n.º 2026-001575, de 28/01/2026**, que aprueba la **OEP 2026** del OAPGT tras **Mesa Negociadora Única 26/01/2026** y propuesta de la **Dirección General**. El texto invoca literalmente las facultades del **artículo 12.2.l.8 de los «vigentes Estatutos»**.
+
+**Fuente B:** [**BOP Toledo n.º 34, 20/02/2026, págs. 1–2**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=34&insert_year=2026&publication_date=20022026). Publica la convocatoria y bases de la **OEP 2026**: **Mesa 05/02/2026**, propuesta de **Dirección General 17/02/2026** y **Presidencia** que aprueba las bases, invocando de nuevo el **artículo 12.2.l.8**. La primera página se ha comprobado también **visualmente** en el PDF del BOP.
+
+| Acto oficial | Fecha | Órgano y dato de examen |
+|---|---|---|
+| Negociación preparatoria de la **OEP 2026** | **26/01/2026** | **Mesa General Negociadora Única** |
+| Aprobación de la **OEP 2026** | **28/01/2026** | **Presidencia OAPGT**, Decreto **2026-001575**, publicado **02/02/2026** |
+| Negociación preparatoria de las bases | **05/02/2026** | **Mesa General Negociadora Única** |
+| Propuesta de convocatoria y bases | **17/02/2026** | **Dirección General OAPGT** |
+| Publicación de convocatoria y bases | **20/02/2026** | **BOP Toledo 34/2026**; aprueba **Presidencia** |
+| Plazas de esta **OEP OAPGT 2026** | **2 C1** Gestor Tributario + **10 C2** Agente Tributario, turno libre | **No confundir** con las plazas y bases de la convocatoria general de **Diputación** que contiene estos temas |
+
+### Incidencia literal del BOP n.º 34
+
+El encabezamiento del BOP de **20/02/2026** dice **«decreto núm. 2025-003964, de 17 de febrero»** para la convocatoria de la **OEP 2026**. El mismo texto remite correctamente al **Decreto 2026-001575** de la OEP y a propuesta de **17/02/2026**. Es una **discordancia aparente en la numeración publicada**; no se sustituye unilateralmente «2025» por «2026» sin corrección de errores oficial. Si el examen preguntase por la referencia exacta, citar **tal como figura en el BOP** y advertir de la incidencia.
+
+> ⚠️ **¡Foco Examen!:** **Presidencia = aprueba OEP y bases**, **Dirección General = propone** en estos actos de **2026**. **28/01** (decreto OEP), **02/02** (publicación OEP), **17/02** (propuesta de bases), **20/02** (publicación bases). El número **2025-003964** aparece así en el **BOP de 2026**: no «corregirlo» de memoria.
+
+**Alcance de la prueba:** dos publicaciones oficiales de **2026** **reafirman la aplicación administrativa del artículo 12.2.l.8**, aportando mayor proximidad temporal que los actos de 2024/2025. **No son un texto refundido estatutario** ni acreditan la aprobación definitiva de la reforma inicial de **2004**, su eventual eficacia, correcciones y cadena exhaustiva de modificaciones. La promoción a **AUDITADO** de C1 T22 o C2 T6 sigue condicionada a esos documentos y a los bancos completos.
