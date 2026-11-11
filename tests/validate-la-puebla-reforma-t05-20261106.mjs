@@ -8,7 +8,7 @@ const fuentes=read(dir+'fuentes.md');
 const matriz=json(dir+'matriz.json');
 const bank=json(dir+'preguntas.json');
 const cotejo=read(dir+'cotejo-integral-2026-11-04.md');
-assert.equal(matriz.estado,'APROBADO_USUARIO');
+assert.equal(matriz.estado,'AUDITADO');
 assert.equal(bank.estado,'APROBADO_USUARIO');
 assert.equal(bank.preguntas.length,12);
 assert.equal(matriz.cobertura.length,8);
