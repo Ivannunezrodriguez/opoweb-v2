@@ -67,12 +67,12 @@ for(const [path,total,estados] of resumenFiles) {
  temasTotales+=total;temasAuditados+=reales.AUDITADO??0;temasHistoricos+=reales.APROBADO_USUARIO??0;
  temasPendientes+=total-(reales.AUDITADO??0)-(reales.APROBADO_USUARIO??0);
 }
-assert.deepEqual([temasTotales,temasAuditados,temasHistoricos,temasPendientes],[121,97,19,5]);
+assert.deepEqual([temasTotales,temasAuditados,temasHistoricos,temasPendientes],[121,116,0,5]);
 for(const path of ['README.md','AUDITORIA_CONTINUA.md']) {
  const content=readFileSync(resolve(root,path),'utf8');
- for(const token of ['121','97','19','5','95,9 %','0/121']) {
+ for(const token of ['121','116','5','95,9 %','0/121']) {
    assert(content.includes(token),'Falta cifra documentada '+token+' en '+path);
  }
  assert(!content.includes('## 2. Resumen por convocatoria (99 temas activos)'),'Tabla histórica 99 temas mal rotulada como vigente en '+path);
 }
-console.log('OPOWEB_STATUS_121_TEMAS_CINCO_CONVOCATORIAS_OK: 97 auditados, 19 historicos, 5 pendientes; cero certificados integrales');
+console.log('OPOWEB_STATUS_121_TEMAS_CINCO_CONVOCATORIAS_OK: 116 auditados, 0 historicos operativos, 5 pendientes; cero certificados integrales');
