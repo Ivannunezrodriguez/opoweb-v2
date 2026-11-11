@@ -112,4 +112,17 @@ for (const bank of [t15,t16Bank]) {
 }
 
 
+
+for (const n of [15,16]) {
+ const m=json('content/uc3m/tema-'+n+'/matriz.json');
+ const statute=m.controlEstatutoEstudiantado20261111;
+ assert.ok(statute, 'Falta nueva norma universitaria en T'+n);
+ assert.equal(statute.norma,'RD 855/2026');
+ assert.equal(statute.entradaEnVigor,'2026-10-23');
+ assert.equal(statute.derogacionExpresa,'RD 1791/2010');
+ assert.equal(statute.corteUC3MPrimario,'NO_ACREDITADO');
+ assert.equal(statute.preguntasDirectasSobreRD855o1791,0);
+ assert.equal(statute.certificacionIntegral,false);
+}
+
 console.log('UC3M T10/T15/T16: corte no acreditado, banco T16 de permanencia trazado a fuente primaria UC3M.');
