@@ -108,3 +108,21 @@ El [**BOE-A-2026-22083, sentencia TS de 06/10/2026, publicada el 23/10/2026**](h
 > ⚠️ **¡Foco Examen!:** **Nulidad de la norma modificadora** ≠ **anulación del RD 822/2021 íntegro**. Fecha de sentencia ≠ fecha de publicación del fallo.
 
 **Resultado del cotejo adicional:** exclusión temporal razonablemente fundada de la reforma del **49.e TREBEP** vigente **23/10**, prueba primaria adicional del **uso de Estatutos UC3M 2003/2009 en junio 2026** y delimitación del **RD 905/2025**. Permanecen sin cierre integral **T10, T15 y T16**, por faltar diligencia de publicación definitiva y examen jurídico exhaustivo de todos los conflictos intertemporales, además de E2E.
+
+
+## 7. Riesgo temporal a nivel de pregunta: cotejo exhaustivo de referencias de bancos T10/T16 — **11/11/2026**
+
+Se han inspeccionado directamente **todos los enunciados y referencias normativas** de los bancos JSON publicados, sin alterar claves ni distractores:
+
+| Banco | Preguntas inspeccionadas | Precepto objeto de controversia temporal | Ítems que lo preguntan **directamente** |
+|---|---:|---|---:|
+| **T10** | **12/12** | **TREBEP art. 49.e**, modificado por **Ley 4/2026**, vigente **23/10/2026** | **0** |
+| **T16** | **21/21** | **RD 822/2021 art. 22.4**, modificado por **RD 905/2025** posteriormente **anulado por STS 06/10/2026** (BOE **23/10/2026**) | **0** |
+
+**Alcance exacto:** la ausencia de esos dos artículos en el texto literal de los **enunciados y referencias** de los bancos permite afirmar que **ninguna pregunta está fundamentada directamente en ellos**. **No** implica que todos los contenidos de manuales, otras referencias del banco o supuestos implícitos sean independientes de todas las reformas 2025/2026. No se certifican respuestas completas al corte por búsqueda de cadenas.
+
+**T15 Defensoría:** se han aclarado en el JSON cuatro preguntas, **T15-013/014/015/016**, con el inciso explícito **«Según el artículo ... de los Estatutos UC3M refundidos de 2003/2009»** y recordatorio **LOSU art. 43.4 y DT1**. Así se evalúa **literalidad del Estatuto histórico** sin fingir que un régimen de **2003/2009** esté ya plenamente adaptado en **2026**. **0 claves ni alternativas cambiadas**.
+
+> ⚠️ **¡Foco Examen!:** **Un artículo reformado que no se pregunta directamente** no debe provocar cambio automático de las **respuestas de otro artículo**. Tampoco significa que la **auditoría integral** de la convocatoria esté cerrada.
+
+**Bloqueo que sigue:** obtener **diligencia primaria de publicación de listas definitivas** del proceso **C2 de 34 plazas** y acreditar la versión jurídico-estatutaria efectivamente aplicable al corte; se mantienen estados **EN_REVISION_USUARIO**.
