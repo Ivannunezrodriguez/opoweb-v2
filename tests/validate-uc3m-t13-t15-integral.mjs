@@ -28,9 +28,22 @@ for(const [key,exp] of Object.entries(expected)){
   assert.equal(q.respuestaLiteral,q.opciones[q.correcta],'Answer/literal mismatch '+q.id);
   assert(q.referencia&&q.justificacion&&q.trampa,'Explanation gap '+q.id);
   distribution[q.correcta]++;questionTotal++;
-  const head='### '+q.id+' — '+q.pregunta;
-  const from=report.indexOf(head);
-  assert(from>=0,'Missing audited stem '+q.id);
+  const originalHeading='### '+q.id+' — ';
+  const head=originalHeading+q.pregunta;
+  let from=report.indexOf(head);
+  if(from<0) {
+   // El informe de 04/11 es inmutable; cuatro enunciados T15 fueron
+   // contextualizados a Estatutos 2003/2009 frente a LOSU el 11/11.
+   const changes=JSON.parse(read('preguntas.json')).controlPrecaucionLOSU20261111;
+   assert.equal(n,15,'Cambio de enunciado sin cotejo T'+n+': '+q.id);
+   assert(changes?.itemsAclarados?.includes(q.id),'Cambio sin trazabilidad: '+q.id);
+   assert.equal(changes.cambiosClave,0);
+   assert.equal(changes.cambiosAlternativas,0);
+   assert(q.pregunta.includes('Estatutos UC3M refundidos de 2003/2009'),
+      'No se explicita marco histórico: '+q.id);
+   from=report.indexOf(originalHeading);
+  }
+  assert(from>=0,'Missing audited stem or historical ID '+q.id);
   const to=report.indexOf('\n### ',from+head.length);
   const block=report.slice(from,to<0?undefined:to).split('\n## ')[0];
   assert(block.includes('**Respuesta: '+'ABCD'[q.correcta]+'**'),'Wrong report key '+q.id);
