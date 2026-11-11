@@ -10,6 +10,8 @@ Las reglas completas están en [`PROJECT_RULES.md`](PROJECT_RULES.md).
 
 ## Estado editorial actual — **10/11/2026**, cinco manifiestos
 
+**Cierre operativo de los cinco expedientes:** [docs/CIERRE_OPERATIVO_2026-11-11.md](docs/CIERRE_OPERATIVO_2026-11-11.md) · [registro estructurado de evidencias](data/cierre-pendientes-2026.json). **No** equiparar una publicación inicial del OAPGT con aprobación definitiva ni exigir BOCM para listas UC3M si las bases designan publicación en web.
+
 **Registro principal y limitaciones de certificación:** [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md). Los informes históricos no sustituyen los estados del manifiesto actual. **Total: 121 temas**.
 
 | Convocatoria | Temas | `AUDITADO` | `APROBADO_USUARIO` histórico | Aún pendientes | Progreso editorial declarado |
