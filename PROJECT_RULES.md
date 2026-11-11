@@ -36,3 +36,12 @@ OpoWeb es la **fuente editorial única** de estudio. La web debe permitir prepar
 - `REQUIERE_ACTUALIZACION`
 
 Cada cambio de estado debe quedar documentado. Los **valores heredados de los manifiestos** (como `APROBADO_USUARIO`, `EN_REVISION_USUARIO`, `BORRADOR` o `GENERACION_DESDE_CERO`) no son intercambiables con este flujo de auditoría. `GENERACION_DESDE_CERO` describe el método de elaboración, **no** un tema aprobado; la disponibilidad en la web no prueba validación jurídico-editorial. Un cierre de fase anterior se preserva como hito fechado y **no** acredita automáticamente la vigencia de noviembre de 2026. La reanudación siempre toma la **TAREA ACTIVA** del registro principal.
+
+## Cierre de pendientes por evidencia — actualización **11/11/2026**
+
+- **Estado operativo:** [AUDITORIA_CONTINUA.md](AUDITORIA_CONTINUA.md) y [docs/CIERRE_OPERATIVO_2026-11-11.md](docs/CIERRE_OPERATIVO_2026-11-11.md).
+- **Registro por tema:** [data/cierre-pendientes-2026.json](data/cierre-pendientes-2026.json). No sustituir fecha o fuente por una inferencia.
+- **Puerta automatizada:** [tests/validate-cierre-pendientes-20261111.mjs](tests/validate-cierre-pendientes-20261111.mjs). La futura promoción a AUDITADO exige todas las evidencias, fecha, fuente oficial, revisión motivada y cotejo de alternativas. No congelar para siempre la etiqueta EN_REVISION_USUARIO por un test.
+- **UC3M:** verificar publicación en el medio señalado en las bases (**web UC3M**), conforme al **art. 45.1.b de Ley 39/2015**. No exigir publicación de listas en **BOCM** cuando las bases designan la web.
+- **OAPGT:** aprobación inicial de **2004** no equivale a eficacia definitiva; tampoco suprime por sí sola los Estatutos **1996** y modificación **2011**. Cierre exige cadena de vigencia hasta **2026**, o certificado del resultado de la tramitación.
+- **No confundir** AUDITADO documental con pruebas E2E, WCAG, PWA y certificación jurídico-funcional integral.
