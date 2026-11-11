@@ -32,7 +32,9 @@ for(const file of ['content/diputacion-toledo/tema-22/manual.md','content/diputa
 }
 
 assert.ok(matrix.includes('Aplicación del artículo 12.2.l.8 en **2026**'), 'Falta prueba 2026 en matriz');
-assert.ok(matrix.includes('2025-003964'), 'No se conserva discordancia literal BOP 34/2026');
+assert.ok(matrix.includes('2025-003964'), 'Falta historia de errata BOP 34/2026');
+assert.ok(matrix.includes('Corrección oficial de la convocatoria OAPGT 2026'), 'Falta fe de erratas BOP 37/2026');
+assert.ok(matrix.includes('2026-003964'), 'Falta número corregido del decreto');
 for(const [file, key] of [
   ['content/diputacion-toledo/tema-22/matriz.json', 'estado'],
   ['content/diputacion-toledo-auxiliar-c2/tema-06/matriz.json', 'estadoEditorial']
@@ -42,12 +44,16 @@ for(const [file, key] of [
   assert.equal(block.articuloInvocado, '12.2.l.8');
   assert.equal(block.oepDecreto, '2026-001575');
   assert.equal(block.decretoConvocatoriaLiteralBop, '2025-003964');
+  assert.equal(block.decretoConvocatoriaOficialRectificado, '2026-003964');
+  assert.equal(block.rectificacionFecha, '2026-02-25');
+  assert.ok(block.rectificacionBOP.includes('bop=37'));
   assert.equal(block.certificacionIntegral, false);
 }
 for(const file of ['content/diputacion-toledo/tema-22/manual.md','content/diputacion-toledo-auxiliar-c2/tema-06/manual.md']) {
   const manual = read(file);
   assert.ok(manual.includes('prueba contemporánea de la competencia de Presidencia en **2026**'), 'Falta prueba 2026: '+file);
-  assert.ok(manual.includes('2025-003964'), 'Falta discordancia 2025/2026: '+file);
+  assert.ok(manual.includes('2025-003964'), 'Falta historia de errata 2025/2026: '+file);
+  assert.ok(manual.includes('2026-003964'), 'Falta fe de erratas del decreto '+file);
 }
 console.log('OAPGT: BOP 2023/2025/2026 acreditados documentalmente; consolidado estatutario pendiente.');
 
