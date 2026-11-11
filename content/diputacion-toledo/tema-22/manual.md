@@ -476,3 +476,19 @@ El [**BOP Toledo n.º 65, de 04/04/2025, anuncio 1773**](https://bop.diputoledo.
 **Precaución de vigencia:** el acto acredita uso de la **competencia estatutaria art. 12.2.l.8 en 2025**; no certifica por sí solo un texto refundido completo a **2026**. [Matriz compartida con secuencia de reformas y reservas](../OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md).
 
 > ⚠️ **¡Foco Examen!:** **Dirección propone / Presidencia aprueba**. **OEP 14/02**, **decreto de bases 01/04** y **publicación 04/04** no son el mismo acto.
+
+
+## OAPGT: prueba contemporánea de la competencia de Presidencia en **2026**
+
+Dos publicaciones **oficiales de 2026** confirman que la **Presidencia** invoca el **artículo 12.2.l.8 de los Estatutos vigentes del OAPGT**, tanto para la **OEP** como para la **convocatoria y bases**:
+
+| Fecha | Publicación y acto | Quién propone y quién aprueba |
+|---|---|---|
+| **28/01/2026** | Decreto **2026-001575**, **OEP 2026**, publicado [BOP Toledo n.º 20, **02/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=20&insert_year=2026&publication_date=02022026) | **Dirección General propone** y **Presidencia aprueba**, tras negociación **26/01** |
+| **17/02/2026** | Propuesta de convocatoria y bases, publicada en [BOP Toledo n.º 34, **20/02/2026**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=34&insert_year=2026&publication_date=20022026) | **Dirección General propone** y **Presidencia aprueba**, tras negociación **05/02** |
+
+El anuncio del BOP **34/2026** encabeza el decreto de bases como **«2025-003964, de 17 de febrero»**, aunque corresponde a la OEP **2026**. Se conserva esta **discordancia aparente del texto publicado**: no cambiar su numeración sin fe de erratas o rectificación oficial. La convocatoria propia del **OAPGT 2026** incluye **2 plazas C1 de Gestor Tributario** y **10 C2 de Agente Tributario** en acceso libre; **no son** las plazas de los procesos generales de la **Diputación** cuyos temarios se revisan aquí.
+
+> ⚠️ **¡Foco Examen!:** **Artículo 12.2.l.8 = competencia invocada por Presidencia** en los actos oficiales de **2026**. **Aprobar la OEP** no es **aprobar convocatoria y bases**, y **propuesta de Dirección** no es resolución. La cifra **2025-003964** figura en el BOP 34/2026 y requiere cautela.
+
+**Reserva:** se acredita aplicación del precepto en **2026**, **no** se obtiene por ello la versión estatutaria íntegra y consolidada. [**Cadena documental única del OAPGT**](../OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md).
