@@ -66,4 +66,31 @@ for (const [suffix, article] of Object.entries(expectedArticles)) {
 const historicalSources = read('content/uc3m/tema-16/fuentes.md');
 assert.ok(historicalSources.includes('Auditoría directa de fuente institucional de permanencia/matrícula'), 'Falta contraste académico T16');
 
+
+// Blindaje focal: el banco no puede incorporar sin nueva auditoría las normas posteriores al corte probable.
+const t10 = json('content/uc3m/tema-10/preguntas.json');
+const t15 = json('content/uc3m/tema-15/preguntas.json');
+assert.equal(t10.preguntas.length, 12);
+assert.equal(t15.preguntas.length, 21);
+assert.equal(t16Bank.preguntas.length, 21);
+for (const [bank, forbidden, label] of [
+  [t10, /(?:art(?:ículo)?\\.?\\s*49\\.?e|49\\.e)/i, 'T10 TREBEP 49.e'],
+  [t16Bank, /(?:art(?:ículo)?\\.?\\s*22\\.4|RD\\s*905\\/2025)/i, 'T16 RD 822/2021 art. 22.4']
+]) {
+  for (const q of bank.preguntas) {
+    assert.ok(!forbidden.test((q.pregunta || '') + ' ' + (q.referencia || '')),
+      'Nuevo supuesto temporal requiere auditoría específica: '+label+', '+q.id);
+  }
+}
+for (const suffix of ['013','014','015','016']) {
+  const q = t15.preguntas.find(item => item.id === 'UC3M-T15-' + suffix);
+  assert.ok(q, 'Falta pregunta de Defensor '+suffix);
+  assert.ok(q.pregunta.includes('Estatutos UC3M refundidos de 2003/2009'),
+    'Debe explicitarse la versión estatutaria histórica '+suffix);
+  assert.ok(q.referencia.includes('LOSU art. 43.4'), 'Falta reserva LOSU '+suffix);
+}
+assert.ok(t15.controlPrecaucionLOSU20261111);
+assert.equal(t15.controlPrecaucionLOSU20261111.cambiosClave, 0);
+assert.ok(dossier.includes('Riesgo temporal a nivel de pregunta'), 'Falta matriz de impacto T10/T16');
+
 console.log('UC3M T10/T15/T16: corte no acreditado, banco T16 de permanencia trazado a fuente primaria UC3M.');
