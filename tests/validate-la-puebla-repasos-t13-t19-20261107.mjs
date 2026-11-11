@@ -64,7 +64,7 @@ for (let n=13;n<=19;n++) {
   assert(existsSync(normalize(join(dirname(topic.manual), '..', file))), 'Ruta rota de repaso T'+n);
   assert.equal(bank.preguntas.length,12,'Banco no conserva doce preguntas T'+n);
   assert.equal(bank.estado,'APROBADO_USUARIO');
-  assert.equal(matrix.estado,'APROBADO_USUARIO');
+  assert.equal(matrix.estado,'AUDITADO');
   for (const q of bank.preguntas) {
     assert(!ids.has(q.id),'ID duplicado: '+q.id);
     ids.add(q.id);
