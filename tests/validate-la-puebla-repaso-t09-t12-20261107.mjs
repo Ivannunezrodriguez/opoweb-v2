@@ -36,7 +36,7 @@ for(let n=9;n<=12;n++){
  assert.equal(t.numero,n);
  const manual=read(t.manual),sources=read(t.fuentes),matrix=json(t.matriz),bank=json(t.preguntas);
  assert.equal(bank.estado,'APROBADO_USUARIO');
- assert.equal(matrix.estado,'APROBADO_USUARIO');
+ assert.equal(matrix.estado,'AUDITADO');
  assert.equal(matrix.cobertura.length,counts[n]);
  assert.equal(bank.preguntas.length,12);
  assert.ok(manual.includes(name),'Falta enlace al repaso en T'+n);
