@@ -4,7 +4,7 @@ const read = file => fs.readFileSync(file,'utf8');
 const json = file => JSON.parse(read(file));
 const matrix = read('content/diputacion-toledo/OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md');
 assert.ok(matrix.includes('Competencia de contratación: BOP 92/2023'), 'Falta acta contratación BOP 2023');
-assert.ok(matrix.includes('incongruencia'), 'Falta discrepancia artículo 9/10');
+assert.ok(matrix.includes('art. 10.k') && matrix.includes('art. 9') && matrix.includes('referencia incongruente'), 'Falta reserva jurídica sobre la discrepancia de artículos 9 y 10.k');
 for(const [file, key] of [
  ['content/diputacion-toledo/tema-22/matriz.json','estado'],
  ['content/diputacion-toledo-auxiliar-c2/tema-06/matriz.json','estadoEditorial']
