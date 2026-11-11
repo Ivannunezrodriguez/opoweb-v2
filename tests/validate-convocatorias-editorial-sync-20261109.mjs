@@ -51,7 +51,7 @@ console.log('SYNC_EDITORIAL_CUATRO_FICHAS_OK: coincide ficha con manifiestos; no
 
 
 const resumenFiles=[
- ['data/programa.json',19,{APROBADO_USUARIO:19}],
+ ['data/programa.json',19,{AUDITADO:19}],
  ['data/programa-olias-auxiliar-edificios-2026.json',22,{AUDITADO:22}],
  ['data/programa-diputacion-administrativo-2026.json',40,{AUDITADO:39,EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES:1}],
  ['data/programa-diputacion-auxiliar-c2-2026.json',20,{AUDITADO:19,BORRADOR:1}],
