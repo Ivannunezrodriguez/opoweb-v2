@@ -61,5 +61,25 @@ assert.ok(matrix.includes('12.1.8'), 'Falta referencia literal de BOP 2022');
 assert.ok(matrix.includes('12.2.l.8'), 'Falta referencia literal de BOP 2026');
 assert.ok(matrix.includes('no atribuir las dos referencias al mismo inciso'), 'Falta reserva contra equiparación');
 
+
+for (const [file, key] of [
+ ['content/diputacion-toledo/tema-22/matriz.json','estado'],
+ ['content/diputacion-toledo-auxiliar-c2/tema-06/matriz.json','estadoEditorial']
+]) {
+ const data=json(file);
+ const citation=data.controlDiferenciaCitaArt12OAPGT20261111;
+ assert.ok(citation, 'Falta contraste de numeración estatutaria 2022/2026: '+file);
+ assert.equal(citation.cita2022,'12.1.8');
+ assert.equal(citation.cita2026,'12.2.l.8');
+ assert.equal(citation.causaDiferencia,'NO_DETERMINADA');
+ assert.equal(citation.certificacionIntegral,false);
+ assert.notEqual(data[key],'AUDITADO');
+}
+for (const file of ['content/diputacion-toledo/tema-22/manual.md','content/diputacion-toledo-auxiliar-c2/tema-06/manual.md']) {
+ const body=read(file);
+ assert.ok(body.includes('Advertencia de numeración estatutaria OAPGT'), 'Falta advertencia de numeración: '+file);
+ assert.ok(body.includes('12.1.8') && body.includes('12.2.l.8'), 'Faltan ambas citas BOP: '+file);
+}
+
 console.log('OAPGT: BOP 2023/2025/2026 acreditados documentalmente; consolidado estatutario pendiente.');
 
