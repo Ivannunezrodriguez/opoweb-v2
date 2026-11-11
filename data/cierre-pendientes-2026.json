@@ -1,0 +1,105 @@
+{
+  "version": "2026-11-11",
+  "tipo": "REGISTRO_BLOQUEOS_VERIFICABLES",
+  "nota": "La ausencia de prueba se expresa con null. No rellenar rutas sin archivo comprobable. AUDITADO documental requiere todos los bloqueos cerrados; certificación E2E se controla por separado.",
+  "criterios": {
+    "OAPGT_ESTADOS_CONSOLIDADOS": "Documento oficial de Estatutos y cadena de aprobación definitiva, modificación, publicación y cotejo por artículos hasta la fecha de examen pertinente. Resolución de incidencia 2004/2005 y citas distintas 2022/2026; si la reforma nunca adquirió eficacia, prueba oficial de esa circunstancia y texto previo aplicable.",
+    "OAPGT_ACUERDO_REGULADOR": "Acuerdo regulador original y todas las modificaciones aplicables en 2026 con BOP e identificación de vigencia y órganos.",
+    "UC3M_FECHA_PUBLICACION_DEFINITIVOS": "Diligencia/certificación institucional de fecha efectiva de publicación de la resolución definitiva en el medio señalado por las bases UC3M, no mera firma ni cronología del preparador.",
+    "UC3M_ESTATUTOS_LOSU": "Certificación de aprobación/publicación de Estatutos adaptados o constancia oficial de su inexistencia a corte y examen artículo por artículo de disposiciones transitorias LOSU.",
+    "UC3M_RD822_EFECTOS": "Análisis motivado del alcance y efectos temporales de STS sobre RD905/2025/RD822/2021 frente a fecha de corte, y normas de matrícula y permanencia aplicables.",
+    "COTEJO_LEGISLACION_CORTE": "Listado de modificaciones TREBEP y texto vigente en fecha acreditada de corte, artículo por artículo.",
+    "BANCO_INTEGRAL": "Acta del cotejo de todas las alternativas, epígrafes, manual y fuentes a la versión aplicable con incidencia y respuesta definitiva."
+  },
+  "pendientes": [
+    {
+      "id": "DIP-C1-T22",
+      "programa": "data/programa-diputacion-administrativo-2026.json",
+      "tema": 22,
+      "estadoActual": "EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES",
+      "matriz": "content/diputacion-toledo/tema-22/matriz.json",
+      "bloqueos": [
+        "OAPGT_ESTADOS_CONSOLIDADOS",
+        "OAPGT_ACUERDO_REGULADOR",
+        "BANCO_INTEGRAL"
+      ],
+      "evidenciaCierre": {
+        "OAPGT_ESTADOS_CONSOLIDADOS": null,
+        "OAPGT_ACUERDO_REGULADOR": null,
+        "BANCO_INTEGRAL": null
+      }
+    },
+    {
+      "id": "DIP-C2-T06",
+      "programa": "data/programa-diputacion-auxiliar-c2-2026.json",
+      "tema": 6,
+      "estadoActual": "BORRADOR",
+      "matriz": "content/diputacion-toledo-auxiliar-c2/tema-06/matriz.json",
+      "bloqueos": [
+        "OAPGT_ESTADOS_CONSOLIDADOS",
+        "OAPGT_ACUERDO_REGULADOR",
+        "BANCO_INTEGRAL"
+      ],
+      "evidenciaCierre": {
+        "OAPGT_ESTADOS_CONSOLIDADOS": null,
+        "OAPGT_ACUERDO_REGULADOR": null,
+        "BANCO_INTEGRAL": null
+      }
+    },
+    {
+      "id": "UC3M-T10",
+      "programa": "data/programa-uc3m-auxiliar-administrativa-2026.json",
+      "tema": 10,
+      "estadoActual": "EN_REVISION_USUARIO",
+      "matriz": "content/uc3m/tema-10/matriz.json",
+      "bloqueos": [
+        "UC3M_FECHA_PUBLICACION_DEFINITIVOS",
+        "COTEJO_LEGISLACION_CORTE",
+        "BANCO_INTEGRAL"
+      ],
+      "evidenciaCierre": {
+        "UC3M_FECHA_PUBLICACION_DEFINITIVOS": null,
+        "COTEJO_LEGISLACION_CORTE": null,
+        "BANCO_INTEGRAL": null
+      }
+    },
+    {
+      "id": "UC3M-T15",
+      "programa": "data/programa-uc3m-auxiliar-administrativa-2026.json",
+      "tema": 15,
+      "estadoActual": "EN_REVISION_USUARIO",
+      "matriz": "content/uc3m/tema-15/matriz.json",
+      "bloqueos": [
+        "UC3M_FECHA_PUBLICACION_DEFINITIVOS",
+        "UC3M_ESTATUTOS_LOSU",
+        "BANCO_INTEGRAL"
+      ],
+      "evidenciaCierre": {
+        "UC3M_FECHA_PUBLICACION_DEFINITIVOS": null,
+        "UC3M_ESTATUTOS_LOSU": null,
+        "BANCO_INTEGRAL": null
+      }
+    },
+    {
+      "id": "UC3M-T16",
+      "programa": "data/programa-uc3m-auxiliar-administrativa-2026.json",
+      "tema": 16,
+      "estadoActual": "EN_REVISION_USUARIO",
+      "matriz": "content/uc3m/tema-16/matriz.json",
+      "bloqueos": [
+        "UC3M_FECHA_PUBLICACION_DEFINITIVOS",
+        "UC3M_RD822_EFECTOS",
+        "BANCO_INTEGRAL"
+      ],
+      "evidenciaCierre": {
+        "UC3M_FECHA_PUBLICACION_DEFINITIVOS": null,
+        "UC3M_RD822_EFECTOS": null,
+        "BANCO_INTEGRAL": null
+      }
+    }
+  ],
+  "certificacionE2E": {
+    "estado": "PENDIENTE_GLOBAL",
+    "nota": "No confundir auditoría documental con prueba de navegador, accesibilidad o móvil."
+  }
+}
