@@ -40,7 +40,7 @@ for(let n=6;n<=8;n++){
  assert.equal(t.numero,n);
  const bank=json(t.preguntas),manual=read(t.manual),sources=read(t.fuentes),matrix=json(t.matriz);
  assert.equal(bank.estado,'APROBADO_USUARIO');
- assert.equal(matrix.estado,'APROBADO_USUARIO');
+ assert.equal(matrix.estado,'AUDITADO');
  const focal=matrix.controlFocal20261106;
  assert.equal(focal?.resultado,'INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS');
  assert.equal(focal?.bloquesExistentes,matrix.cobertura.length);
