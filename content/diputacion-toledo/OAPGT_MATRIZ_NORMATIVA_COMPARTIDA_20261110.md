@@ -1,5 +1,17 @@
 # OAPGT Toledo — matriz normativa común C1 tema 22 / C2 tema 6 (10/11/2026)
 
+## Corrección oficial de la convocatoria OAPGT 2026 — **BOP 37, 25/02/2026**
+
+La [**rectificación oficial BOP Toledo n.º 37, de 25/02/2026, anuncio 882**](https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=37&insert_year=2026&publication_date=25022026) **corrigió expresamente** el número de decreto de convocatoria de la OEP 2026 publicado en el BOP n.º 34 de **20/02/2026**: donde figuraba **2025-003964** debe leerse **2026-003964, de 17/02/2026**. Esta fe de erratas **RESUELVE** la discordancia que en revisiones previas se trataba como pendiente. No mantener el número erróneo como referencia de examen.
+
+| Acto | Número correcto | Fecha del acto | Publicación |
+|---|---|---|---|
+| **Aprobación de OEP 2026** | **2026-001575** | **28/01/2026** | **02/02/2026**, BOP **20** |
+| **Aprobación de convocatoria/bases 2026** | **2026-003964** | **17/02/2026** | **20/02/2026**, BOP **34**, **rectificado 25/02**, BOP **37** |
+
+> ⚠️ **¡Foco Examen!:** **Decreto 2026-003964** es la numeración rectificada y aplicable. **2025-003964** fue una errata publicada y **CORREGIDA oficialmente** el **25/02/2026**. Distinguir **OEP**, **convocatoria** y **rectificación**.
+
+
 ## 1. Alcance y estado
 
 Esta ficha sirve **a ambos temas**, sin duplicar afirmaciones en sus manuales. **NO constituye texto refundido oficial ni certificación de vigencia completa en 2026.** Distinguir publicación de un proyecto de reforma, aprobación definitiva y actos posteriores de aplicación.
@@ -128,8 +140,8 @@ Fuente oficial adicional: [**BOP Toledo 119, 25/06/2021, anuncio 2021.00003151**
 
 ### Incidencia literal del BOP n.º 34
 
-El encabezamiento del BOP de **20/02/2026** dice **«decreto núm. 2025-003964, de 17 de febrero»** para la convocatoria de la **OEP 2026**. El mismo texto remite correctamente al **Decreto 2026-001575** de la OEP y a propuesta de **17/02/2026**. Es una **discordancia aparente en la numeración publicada**; no se sustituye unilateralmente «2025» por «2026» sin corrección de errores oficial. Si el examen preguntase por la referencia exacta, citar **tal como figura en el BOP** y advertir de la incidencia.
+El encabezamiento del BOP de **20/02/2026** dice **«decreto núm. 2025-003964, de 17 de febrero»** para la convocatoria de la **OEP 2026**. El mismo texto remite correctamente al **Decreto 2026-001575** de la OEP y a propuesta de **17/02/2026**. Es una **discordancia aparente en la numeración publicada**; la **rectificación oficial del BOP 37/2026** acredita que la referencia correcta es **2026-003964**. Si el examen preguntase por la referencia exacta, citar **tal como figura en el BOP** y advertir de la incidencia.
 
-> ⚠️ **¡Foco Examen!:** **Presidencia = aprueba OEP y bases**, **Dirección General = propone** en estos actos de **2026**. **28/01** (decreto OEP), **02/02** (publicación OEP), **17/02** (propuesta de bases), **20/02** (publicación bases). El número **2025-003964** aparece así en el **BOP de 2026**: no «corregirlo» de memoria.
+> ⚠️ **¡Foco Examen!:** **Presidencia = aprueba OEP y bases**, **Dirección General = propone** en estos actos de **2026**. **28/01** (decreto OEP), **02/02** (publicación OEP), **17/02** (propuesta de bases), **20/02** (publicación bases). El número **2025-003964** figuró en el anuncio original, pero fue **rectificado a 2026-003964 por BOP 37/2026**.
 
 **Alcance de la prueba:** dos publicaciones oficiales de **2026** **reafirman la aplicación administrativa del artículo 12.2.l.8**, aportando mayor proximidad temporal que los actos de 2024/2025. **No son un texto refundido estatutario** ni acreditan la aprobación definitiva de la reforma inicial de **2004**, su eventual eficacia, correcciones y cadena exhaustiva de modificaciones. La promoción a **AUDITADO** de C1 T22 o C2 T6 sigue condicionada a esos documentos y a los bancos completos.
