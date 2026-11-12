@@ -8,15 +8,14 @@ const data=JSON.parse(await fs.readFile('data/radar.json','utf8'));
 // Anuncios sin puesto, actas, listas y ofertas de grupo A1/A2 no deben generar emails.
 const fresh=(data.opportunities||[])
   .filter(x=>x.isNew)
-  .map(x=>normalizeOpportunity(x,data.generatedAt||new Date().toISOString().slice(0,10)))
+  .map(x=>normalizeOpportunity(x,new Date().toLocaleDateString('en-CA',{timeZone:'Europe/Madrid'})))
   .filter(x=>x.actionable && x.state!=='CERRADA' && !x.phaseFollowup)
-  // Evitar emails que solo dicen localidad y «consultar bases» en todas las filas.
-  // Se exige un puesto reconocible y al menos un dato adicional contrastable.
-  .filter(x=>Boolean(x.position) && (
-    Number.isInteger(x.vacancies) || x.group!=='REVISAR' ||
-    Boolean(x.qualification) || Boolean(x.deadlineIso) ||
-    Boolean(x.access) || x.detailsStatus==='LEIDO'
-  ))
+  // Enviar solo fichas útiles y comprobables: no basta con identificar un puesto.
+  // Una OEP sin plazo puede seguir en Radar, pero no debe generar correo de inscripción.
+  .filter(x=>x.state==='PLAZO_ABIERTO' &&
+    Boolean(x.position) && Boolean(x.deadlineIso) &&
+    Boolean(x.qualification) && x.group!=='REVISAR' &&
+    x.detailsStatus==='LEIDO')
   .slice(0,30);
 if(!fresh.length){console.log('Sin novedades para notificar');process.exit(0)}
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -51,7 +50,7 @@ const cards=fresh.map(x=>{
  return `<div style="margin:0 0 18px;padding:16px;border:1px solid #dbe2ea;border-radius:10px;background:#ffffff"><table role="table" style="width:100%;border-collapse:collapse;font-size:15px;line-height:1.45">${rows}<tr><th scope="row" style="text-align:left;vertical-align:top;padding:7px 10px 7px 0;color:#475569">Enlace</th><td style="padding:7px 0">${url?`<a href="${esc(url)}">Abrir anuncio oficial</a>`:'No consta'}</td></tr></table></div>`;
 }).join('');
 const plain=fresh.map(x=>[...fields(x).map(([label,value])=>`${label}: ${value}`),`Enlace: ${/^https?:\/\//i.test(x.officialUrl||'')?x.officialUrl:'No consta'}`].join('\n')).join('\n\n');
-const body={from:process.env.RADAR_FROM||'OpoWeb Radar <onboarding@resend.dev>',to:[to],subject:`OpoWeb Radar: ${fresh.length} nuevo(s) anuncio(s) por revisar`,text:plain,html:`<div lang="es" style="max-width:620px;margin:auto;font-family:Arial,sans-serif;color:#182230"><h1 style="font-size:22px">Novedades de empleo público</h1>${cards}<p style="font-size:13px;color:#475569">La detección es automática. Comprueba requisitos y plazos en la fuente oficial. «Sin fecha confirmada» no es una estimación.</p></div>`};
+const body={from:process.env.RADAR_FROM||'OpoWeb Radar <onboarding@resend.dev>',to:[to],subject:`OpoWeb Radar: ${fresh.length} convocatoria(s) nueva(s) con plazo verificado`,text:plain,html:`<div lang="es" style="max-width:620px;margin:auto;font-family:Arial,sans-serif;color:#182230"><h1 style="font-size:22px">Novedades de empleo público</h1>${cards}<p style="font-size:13px;color:#475569">La detección es automática. Comprueba requisitos y plazos en la fuente oficial. «Sin fecha confirmada» no es una estimación.</p></div>`};
 const r=await fetch('https://api.resend.com/emails',{method:'POST',headers:{Authorization:`Bearer ${apiKey}`,'Content-Type':'application/json'},body:JSON.stringify(body)});
 if(!r.ok)throw new Error(`Email HTTP ${r.status}: ${await r.text()}`);
 console.log('Notificación enviada:',fresh.length);
