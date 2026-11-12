@@ -24,6 +24,19 @@ const formatDate=value=>{
  const match=raw.match(/^(\d{4})-(\d{2})-(\d{2})(?:T|$)/);
  return match?`${match[3]}/${match[2]}/${match[1]}`:raw;
 };
+const sourceDetails=x=>{
+ const source=String(x.source||'').trim();
+ const labels={BOE:'BOE · Boletín Oficial del Estado',DIRECT:'Sede o portal institucional (rastreo directo)',PAG:'Punto de Acceso General (PAG)', 'BOP Toledo':'BOP · Boletín Oficial de la Provincia de Toledo',DOCM:'DOCM · Diario Oficial de Castilla-La Mancha',BOCM:'BOCM · Boletín Oficial de la Comunidad de Madrid'};
+ const url=String(x.officialUrl||'');
+ const isBoe=source==='BOE' || /^https?:\\/\\/(?:www\\.)?boe\\.es\\//i.test(url);
+ const name=isBoe?labels.BOE:(labels[source]||source||'Origen no identificado');
+ const warning=isBoe
+   ?'Publicación estatal oficial. Comprueba el plazo establecido y las bases: un anuncio del BOE puede abrir el plazo cuando así lo disponga la convocatoria.'
+   :source==='BOP Toledo'
+   ?'Publicación provincial oficial. La publicación de bases en el BOP no implica necesariamente que el plazo de inscripción esté abierto; en muchos procesos comienza tras el anuncio del BOE.'
+   :'Fuente institucional u oficial indicada. La apertura y el fin del plazo dependen de las bases y del anuncio que active la inscripción.';
+ return {name,warning};
+};
 const fields=x=>{
  const title=String(x.title||'');
  const place=title.match(/Ayuntamiento de ([^,.(]+)(?:\s*\(([^)]+)\))?/i);
@@ -31,8 +44,11 @@ const fields=x=>{
  const role=title.match(/plazas? de\s+(.+?)(?=\s+a tiempo|\s+de la plantilla|\s+por el sistema|\s*—|\s*\[|[.;]|$)/i);
  const labor=/personal laboral fijo/i.test(title)?'Personal laboral fijo':/personal laboral/i.test(title)?'Personal laboral':null;
  const group=x.group&&x.group!=='REVISAR'?x.group:null;
+ const origin=sourceDetails(x);
  const states={PREVISTA:'OEP publicada; convocatoria aún pendiente',REVISAR:'Anuncio de puesto; plazo pendiente de verificar',PLAZO_ABIERTO:'Plazo con fecha límite identificada: verificar bases',CERRADA:'Plazo vencido'};
  return [
+ ['Fuente de la publicación',origin.name],
+ ['Qué acredita la fuente',origin.warning],
  ['Fecha',x.publishedAt?formatDate(x.publishedAt):x.firstSeen?`${formatDate(x.firstSeen)} (detección; publicación no confirmada)`:'No consta'],
  ['Lugar',place?`${place[1].trim()}${place[2]?' ('+place[2]+')':''}`:town?town[1].trim():x.location||'No consta'],
  ['Puesto',x.position||role?.[1]?.trim()||'Pendiente de identificar'],
@@ -50,7 +66,7 @@ const cards=fresh.map(x=>{
  return `<div style="margin:0 0 18px;padding:16px;border:1px solid #dbe2ea;border-radius:10px;background:#ffffff"><table role="table" style="width:100%;border-collapse:collapse;font-size:15px;line-height:1.45">${rows}<tr><th scope="row" style="text-align:left;vertical-align:top;padding:7px 10px 7px 0;color:#475569">Enlace</th><td style="padding:7px 0">${url?`<a href="${esc(url)}">Abrir anuncio oficial</a>`:'No consta'}</td></tr></table></div>`;
 }).join('');
 const plain=fresh.map(x=>[...fields(x).map(([label,value])=>`${label}: ${value}`),`Enlace: ${/^https?:\/\//i.test(x.officialUrl||'')?x.officialUrl:'No consta'}`].join('\n')).join('\n\n');
-const body={from:process.env.RADAR_FROM||'OpoWeb Radar <onboarding@resend.dev>',to:[to],subject:`OpoWeb Radar: ${fresh.length} convocatoria(s) nueva(s) con plazo verificado`,text:plain,html:`<div lang="es" style="max-width:620px;margin:auto;font-family:Arial,sans-serif;color:#182230"><h1 style="font-size:22px">Novedades de empleo público</h1>${cards}<p style="font-size:13px;color:#475569">La detección es automática. Comprueba requisitos y plazos en la fuente oficial. «Sin fecha confirmada» no es una estimación.</p></div>`};
+const body={from:process.env.RADAR_FROM||'OpoWeb Radar <onboarding@resend.dev>',to:[to],subject:`OpoWeb Radar: ${fresh.length} convocatoria(s) nueva(s) con plazo identificado · ${fresh.some(x=>sourceDetails(x).name.startsWith('BOE'))?'incluye BOE':'fuentes oficiales'}`,text:plain,html:`<div lang="es" style="max-width:620px;margin:auto;font-family:Arial,sans-serif;color:#182230"><h1 style="font-size:22px">Novedades de empleo público</h1>${cards}<p style="font-size:13px;color:#475569">La detección es automática. Comprueba requisitos y plazos en la fuente oficial. «Sin fecha confirmada» no es una estimación.</p></div>`};
 const r=await fetch('https://api.resend.com/emails',{method:'POST',headers:{Authorization:`Bearer ${apiKey}`,'Content-Type':'application/json'},body:JSON.stringify(body)});
 if(!r.ok)throw new Error(`Email HTTP ${r.status}: ${await r.text()}`);
 console.log('Notificación enviada:',fresh.length);
