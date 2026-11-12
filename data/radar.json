@@ -30,7 +30,7 @@
       "officialUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23703",
       "verifiedAt": "2026-11-12",
       "firstSeen": "2026-11-12",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -66,7 +66,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115151;0&insert_number=5167&insert_year=2026",
       "verifiedAt": "2026-11-12",
       "firstSeen": "2026-11-12",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -101,7 +101,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115233;0&insert_number=5250&insert_year=2026",
       "verifiedAt": "2026-11-12",
       "firstSeen": "2026-11-12",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -136,7 +136,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115166;0&insert_number=5190&insert_year=2026",
       "verifiedAt": "2026-11-12",
       "firstSeen": "2026-11-12",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Bolsa",
@@ -171,7 +171,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115137;0&insert_number=5153&insert_year=2026",
       "verifiedAt": "2026-11-12",
       "firstSeen": "2026-11-12",
-      "isNew": true,
+      "isNew": false,
       "position": "AUXILIAR ADMINISTRATIVO EN RÉGIMEN",
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -206,7 +206,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115165;0&insert_number=5181&insert_year=2026",
       "verifiedAt": "2026-11-12",
       "firstSeen": "2026-11-12",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -241,7 +241,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115153;0&insert_number=5169&insert_year=2026",
       "verifiedAt": "2026-11-12",
       "firstSeen": "2026-11-12",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -276,7 +276,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115222;0&insert_number=5233&insert_year=2026",
       "verifiedAt": "2026-11-12",
       "firstSeen": "2026-11-12",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -42132,44 +42132,42 @@
     {
       "source": "DIRECT",
       "ok": false,
-      "checkedAt": "2026-11-12T13:46:16.987Z"
+      "checkedAt": "2026-11-12T21:50:27.890Z"
     },
     {
       "source": "BOE",
       "ok": true,
-      "checkedAt": "2026-11-12T13:46:16.987Z"
+      "checkedAt": "2026-11-12T21:50:27.890Z"
     },
     {
       "source": "BOCM",
       "ok": true,
-      "checkedAt": "2026-11-12T13:46:16.987Z"
+      "checkedAt": "2026-11-12T21:50:27.890Z"
     },
     {
       "source": "BOP Toledo",
       "ok": true,
-      "checkedAt": "2026-11-12T13:46:16.987Z"
+      "checkedAt": "2026-11-12T21:50:27.890Z"
     },
     {
       "source": "DOCM",
       "ok": true,
-      "checkedAt": "2026-11-12T13:46:16.987Z"
+      "checkedAt": "2026-11-12T21:50:27.890Z"
     },
     {
       "source": "PAG",
       "ok": true,
-      "checkedAt": "2026-11-12T13:46:16.987Z"
+      "checkedAt": "2026-11-12T21:50:27.890Z"
     }
   ],
   "directSourceStatus": [],
   "enrichmentStatus": {
-    "attempted": 53,
-    "read": 7,
+    "attempted": 30,
+    "read": 2,
     "withDetails": 2,
-    "failures": 46,
+    "failures": 28,
     "failureReasons": {
-      "PDF_NO_EXTRAIBLE": 29,
-      "OTRO": 1,
-      "HTTP 404": 16
+      "PDF_NO_EXTRAIBLE": 28
     },
     "asOf": "2026-11-12",
     "explanation": "Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes."
