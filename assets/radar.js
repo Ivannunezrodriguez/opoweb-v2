@@ -15,7 +15,7 @@ setTheme(localStorage.getItem(THEME_KEY)||(matchMedia('(prefers-color-scheme: da
 document.querySelector('#theme-toggle')?.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
 
 let data={opportunities:[]}, entries=[];
-let filters={q:'',view:'RECIENTES',state:'TODAS',zone:'TODAS',kind:'TODAS'};
+let filters={q:'',view:'OPORTUNIDADES',state:'TODAS',zone:'TODAS',kind:'TODAS'};
 let shown=40;
 const missing='Sin verificar en las bases';
 function day(v){
@@ -32,7 +32,7 @@ function stateLabel(v){
  return {PLAZO_ABIERTO:'Plazo con fecha publicada',REVISAR:'Plazo sin comprobar',PREVISTA:'OEP, aún sin convocatoria',CERRADA:'Plazo vencido',SEGUIMIENTO:'Seguimiento / no es nueva oferta'}[v]||'Estado pendiente';
 }
 function matchView(o){
- const asOf=data.generatedAt||new Date().toISOString().slice(0,10);
+ const asOf=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'});
  if(filters.view==='RECIENTES')return o.actionable&&o.state!=='CERRADA'&&ageDays(o.firstSeen,asOf)<=30;
  if(filters.view==='OPORTUNIDADES')return o.actionable&&o.state!=='CERRADA';
  if(filters.view==='INCOMPLETAS')return !o.actionable&&!o.phaseFollowup;
@@ -84,7 +84,7 @@ function card(o){
 }
 function render(){
  const all=entries;
- const asOf=data.generatedAt||new Date().toISOString().slice(0,10);
+ const asOf=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'});
  const recent=all.filter(x=>x.actionable&&x.state!=='CERRADA'&&ageDays(x.firstSeen,asOf)<=30);
  const actionable=all.filter(x=>x.actionable&&!x.phaseFollowup);
  const confirmed=actionable.filter(x=>x.state==='PLAZO_ABIERTO');
@@ -111,7 +111,7 @@ function render(){
  const cards=list.length?list.slice(0,shown).map(card).join(''):'<div class="panel radar-empty">No hay fichas que cumplan los filtros. Prueba «Todos los puestos detectados» o cambia la zona.</div>';
  app.innerHTML=[
  '<section class="panel radar-hero"><div><p class="eyebrow">Detección automatizada · no equivale a solicitud abierta</p><h2>Radar de empleo público</h2>',
- '<p>Primero se muestran <strong>puestos concretos con enlace oficial</strong>. Las fichas sin puesto identificado se guardan en «Sin puesto identificable» y no provocan correos inútiles. Se muestran únicamente los requisitos y plazos que la extracción ha encontrado; el resto queda indicado como pendiente.</p>',
+ '<p>Por defecto se ocultan los plazos de inscripción vencidos; el histórico se mantiene en «Todos los registros». Primero se muestran <strong>puestos concretos con enlace oficial</strong>. Las fichas sin puesto identificado se guardan en «Sin puesto identificable» y no provocan correos inútiles. Se muestran únicamente los requisitos y plazos que la extracción ha encontrado; el resto queda indicado como pendiente.</p>',
  stale?'<p class="notice warning">La última actualización tiene más de 3 días. Revisa los plazos en la fuente oficial.</p>':'',
  lowDocumentCoverage?'<p class="notice warning">Lectura parcial: se pudieron leer '+docsRead+' de '+docsAttempted+' documentos examinados. Los requisitos y plazos no publicados o inaccesibles siguen pendientes de verificar en la fuente oficial.</p>':'',
  directHasGaps?'<p class="notice warning">'+esc(directCoverage)+' El radar no cubre de forma completa todas estas fuentes; contrasta también las sedes y boletines oficiales.</p>':'',
@@ -125,7 +125,7 @@ function render(){
  '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Rastreo directo: <strong>'+esc(crawlDate?day(crawlDate):'fecha no disponible')+'</strong>. Webs únicas consultadas: <strong>'+esc(directCrawl.uniqueSources??'sin verificar')+'</strong>. Documentos oficiales leídos: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
  '<section class="panel"><div class="radar-controls">',
  '<label><span>Buscar puesto, localidad u organismo</span><input id="rq" type="search" value="'+esc(filters.q)+'" placeholder="Auxiliar, administrativo, Getafe, Toledo…"></label>',
- '<label><span>Ver</span><select id="rv"><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Todos los puestos detectados</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
+ '<label><span>Ver</span><select id="rv"><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Oportunidades sin plazo vencido</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
  '<label><span>Plazo / estado</span><select id="rs"><option value="TODAS">Todos</option><option value="PLAZO_ABIERTO">Plazo con fecha publicada</option><option value="REVISAR">Plazo sin verificar</option><option value="PREVISTA">OEP sin convocatoria</option><option value="CERRADA">Plazo vencido</option></select></label>',
  '<label><span>Zona</span><select id="rz"><option value="TODAS">Todas</option><option value="TOLEDO">Provincia de Toledo</option><option value="MADRID_SUR">Sur de Madrid</option></select></label>',
  '<label><span>Tipo</span><select id="rk"><option value="TODAS">Cualquiera</option><option value="Oposición / proceso selectivo">Oposición / proceso selectivo</option><option value="Bolsa">Bolsas de empleo</option><option value="Temporal">Temporal / sustitución</option><option value="Oferta de empleo (sin convocatoria)">OEP sin convocatoria</option></select></label>',
@@ -150,7 +150,7 @@ try{
  const r=await fetch('data/radar.json',{cache:'no-cache'});
  if(!r.ok)throw new Error('HTTP '+r.status);
  data=await r.json();
- entries=classifyRadarEntries(data.opportunities||[],data.generatedAt||new Date().toISOString().slice(0,10));
+ entries=classifyRadarEntries(data.opportunities||[],new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}));
  render();
 }catch(e){
  app.innerHTML='<section class="panel"><h2>Radar temporalmente no disponible</h2><p>'+esc(e.message)+'</p></section>';
