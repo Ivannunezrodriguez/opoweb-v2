@@ -28,7 +28,7 @@ const sourceDetails=x=>{
  const source=String(x.source||'').trim();
  const labels={BOE:'BOE · Boletín Oficial del Estado',DIRECT:'Sede o portal institucional (rastreo directo)',PAG:'Punto de Acceso General (PAG)', 'BOP Toledo':'BOP · Boletín Oficial de la Provincia de Toledo',DOCM:'DOCM · Diario Oficial de Castilla-La Mancha',BOCM:'BOCM · Boletín Oficial de la Comunidad de Madrid'};
  const url=String(x.officialUrl||'');
- const isBoe=source==='BOE' || /^https?:\\/\\/(?:www\\.)?boe\\.es\\//i.test(url);
+ const isBoe=source==='BOE' || /^https?:\/\/(?:www\.)?boe\.es\//i.test(url);
  const name=isBoe?labels.BOE:(labels[source]||source||'Origen no identificado');
  const warning=isBoe
    ?'Publicación estatal oficial. Comprueba el plazo establecido y las bases: un anuncio del BOE puede abrir el plazo cuando así lo disponga la convocatoria.'
