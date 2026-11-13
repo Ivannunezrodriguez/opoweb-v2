@@ -59,8 +59,11 @@ const review = readFileSync('assets/practice-review.js', 'utf8');
 assert.match(review, /'diputacion-toledo-auxiliar-c2-2026':\s*\{\s*progressKey: 'opoweb-diputacion-auxiliar-c2-practice-progress-v1'/,
   'El seguimiento de errores del C2 debe tener su propia clave');
 const page = readFileSync('practice.html', 'utf8');
-assert.match(page, /assets\/practice\.js\?v=2026\.11\.09\.2/,
-  'Bump de versión obligatorio para no mostrar el JS antiguo en caché');
+const practiceVersion = page.match(/assets\/practice\.js\?v=(\d{4})\.(\d{2})\.(\d{2})\.(\d+)/);
+assert.ok(practiceVersion, 'La práctica debe usar una URL versionada para invalidar caché');
+const practiceVersionNumber = Number(practiceVersion.slice(1).join(''));
+assert.ok(practiceVersionNumber >= 2026110902,
+  'La versión de practice.js no puede retroceder por debajo de la corrección de ruta C2');
 assert.match(source, /Preguntas en revisión jurídica/,
   'Los temas sin preguntas auditadas deben mostrarse deshabilitados');
 console.log('DIPUTACION_AUXILIAR_C2_ENTRENAMIENTO_RUTA_Y_BORRADOR_BLOQUEADO_OK');

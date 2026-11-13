@@ -4044,3 +4044,12 @@ La [**publicación primaria BOE-A-2026-21955, 22/10/2026**](https://www.boe.es/b
 **UC3M T10:** sin modificación del banco; se mantiene cotejo de **49.e TREBEP** y corte no certificado. **Todos los cinco estados operativos permanecen sin promoción**.
 
 **Saldo de esta pasada:** **116/121 AUDITADO documental**, **5 pendientes**, **0 certificaciones integrales acreditadas**. Se publicaron cambios jurídicamente delimitados y nuevas verificaciones automáticas, **sin evidencia aún de CI SUCCESS ni E2E**. Fuente faltante crítica: **OAPGT texto definitivo y cadena de modificaciones**, **UC3M diligencia primaria de publicación definitiva y adaptación institucional a LOSU**.
+
+
+## Corrección CI — ruta práctica Diputación C2, 13/11/2026
+
+- **Hallazgo reproducido:** Actions `43173160550` (SHA `cfc7d5fecad088c7c72c07d801ca73a6c3d87809`) falla en `tests/validate-diputacion-c2-practice-route.mjs:62`: la prueba exige `practice.js?v=2026.11.09.2` pese a que `practice.html` ya carga `2026.11.09.4`. El resto de comprobaciones previas de La Puebla (dos simulacros 50+5, 60 minutos, claves y distribución) pasó hasta ese punto; no se considera aprobada la batería completa.
+- **Cambio:** la aserción ahora exige una URL versionada y una versión numérica **no inferior a `2026.11.09.2`**, sin bloquear incrementos posteriores. Se conservan los controles de selección de Diputación C2, carga de 19 bancos y exclusión del borrador OAPGT T6. **No se alteran bancos, manuales, claves ni artículos.**
+- **Estado revalidado de los cinco manifiestos:** La Puebla 19 AUDITADO; UC3M 17 AUDITADO y 3 EN_REVISION_USUARIO; Olías 22 AUDITADO; Diputación C1 39 AUDITADO y 1 pendiente; Diputación C2 19 AUDITADO y 1 BORRADOR. Total **116/121** editorial documental; **0/121** integralmente certificados. No hay nuevas preguntas cotejadas jurídicamente en este lote técnico.
+- **HEAD de partida:** `f759b2aef5a2878a6af0a283d2e750269483542c` (Radar); Pages `43314218098` SUCCESS, sin CI general de ese SHA. **Validación local no disponible**: el contenedor no resuelve github.com para clonar. La comprobación definitiva requiere CI del nuevo SHA y lectura del primer fallo siguiente si lo hay.
+- **Siguiente lote:** resolver cualquier fallo real restante de `npm test`; antes del 14/11, comprobar uso efectivo y corrección de los simulacros de La Puebla; después cotejar UC3M T10/T15/T16 con diligencia de publicación y sede oficiales. No elevar certificaciones por el resultado de un test.
