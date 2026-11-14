@@ -1,6 +1,6 @@
 {
   "convocatoria": "La Puebla de Montalbán",
-  "version": "2026-11-07",
+  "version": "2026-11-14",
   "estado": "GENERADO_PENDIENTE_REVISION_USUARIO",
   "criterios": {
     "numeroSimulacros": 5,
@@ -24,6 +24,14 @@
       "preguntasPuntuables": 30,
       "reserva": 0,
       "duracionMinutos": 45
+    },
+    "segundoEjercicio": {
+      "modelosDeEntrenamiento": 3,
+      "cuestionesPorModelo": 5,
+      "formato": "Desarrollo escrito (formato de entrenamiento, no formato oficial confirmado)",
+      "tiempo": "Tiempo de trabajo orientativo en cada simulacro; el tribunal fijará el oficial",
+      "calificacion": "Autoevaluación mediante soluciones razonadas; el mínimo oficial del segundo ejercicio es 5/10, pero OpoWeb no asigna nota objetiva a respuestas libres",
+      "fuente": "BOP Toledo n.º 82 de 05/05/2026, base undécima, anuncio I-1965"
     }
   },
   "simulacros": [
@@ -276,6 +284,189 @@
         "LP-T19-011"
       ],
       "nota": "Las 5 reservas no computan en la nota normal. Preguntas nuevas respecto a los tres simulacros breves anteriores, aunque pertenecen a bancos temáticos ya existentes."
+    }
+  ],
+  "simulacrosPracticos": [
+    {
+      "id": "LP-PRACT-2026-01",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 1 · Solicitud, subsanación y notificación",
+      "temas": [
+        3,
+        4,
+        9,
+        13
+      ],
+      "tiempoSugeridoMinutos": 35,
+      "enunciado": "En una oficina municipal se recibe por registro electrónico la solicitud de una persona física que ha elegido voluntariamente este canal. El expediente requiere un documento obligatorio que no se adjuntó. Tras el requerimiento de subsanación, el Ayuntamiento practica una notificación electrónica. Finalmente, se dicta una resolución de Alcaldía que pone fin a la vía administrativa. Razona los pasos de tramitación y el régimen jurídico aplicable.",
+      "cuestiones": [
+        {
+          "pregunta": "Redacta el contenido esencial del requerimiento de subsanación e indica el plazo general y la consecuencia de no atenderlo.",
+          "respuesta": "Se indicará el documento omitido y se concederán diez días para aportarlo. Se advertirá de que, si no se subsana, se le tendrá por desistido de su petición, previa resolución expresa que debe dictarse conforme al artículo 21. No se produce un desistimiento automático sin resolución.",
+          "trampa": "No confundir subsanación con inadmisión automática; se exige resolución de desistimiento.",
+          "referencias": [
+            "Ley 39/2015, artículos 68.1 y 21",
+            "OpoWeb: tema 3, procedimiento administrativo"
+          ]
+        },
+        {
+          "pregunta": "Explica cómo se cuentan esos diez días si el requerimiento no indica que sean naturales.",
+          "respuesta": "Cuando la ley señala días sin especificar que son naturales, se entienden hábiles: se excluyen sábados, domingos y festivos. El plazo empieza el día siguiente al de la notificación y, si el último día es inhábil, se prorroga al primer día hábil siguiente.",
+          "trampa": "Los diez días de subsanación no son, por regla general, diez días naturales; no calcular un vencimiento sin conocer el calendario de festivos.",
+          "referencias": [
+            "Ley 39/2015, artículos 30.2, 30.3 y 30.5",
+            "OpoWeb: tema 3, cómputo de plazos"
+          ]
+        },
+        {
+          "pregunta": "La notificación electrónica queda puesta a disposición y no se abre. ¿Cuándo se entiende rechazada en este caso?",
+          "respuesta": "Al tratarse de una notificación electrónica elegida expresamente por la persona interesada, se entenderá rechazada una vez transcurridos diez días naturales desde su puesta a disposición sin acceder a su contenido, salvo que se compruebe imposibilidad técnica o material de acceso.",
+          "trampa": "Distinguir los diez días naturales de rechazo de notificación electrónica de los diez días hábiles de subsanación.",
+          "referencias": [
+            "Ley 39/2015, artículo 43.2",
+            "OpoWeb: tema 4, notificaciones"
+          ]
+        },
+        {
+          "pregunta": "¿Qué información del expediente puede pedir la persona interesada mientras se tramita?",
+          "respuesta": "Puede conocer en cualquier momento el estado de tramitación del procedimiento en el que tenga la condición de interesada, el sentido del silencio que corresponda, el órgano competente y los actos de trámite dictados, y acceder y obtener copia de los documentos del procedimiento, con los límites legales aplicables.",
+          "trampa": "El derecho de acceso al expediente de quien es interesado no equivale a un derecho indiscriminado de cualquier tercero a datos personales.",
+          "referencias": [
+            "Ley 39/2015, artículo 53.1.a",
+            "OpoWeb: temas 3 y 9"
+          ]
+        },
+        {
+          "pregunta": "Una vez notificada la resolución de Alcaldía que pone fin a la vía administrativa, ¿qué recursos administrativos ordinarios caben?",
+          "respuesta": "Cabe interponer recurso potestativo de reposición ante el mismo órgano que dictó el acto, o acudir directamente a la jurisdicción contencioso-administrativa. Para un acto expreso, el plazo de reposición es un mes desde el día siguiente a la notificación; si se interpone reposición no puede acudirse al contencioso hasta su resolución expresa o desestimación presunta.",
+          "trampa": "No indicar recurso de alzada cuando el supuesto establece expresamente que el acto pone fin a la vía administrativa.",
+          "referencias": [
+            "Ley 39/2015, artículos 123 y 124",
+            "OpoWeb: tema 3, recursos administrativos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LP-PRACT-2026-02",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 2 · Tributos y recaudación municipal",
+      "temas": [
+        10,
+        11,
+        12
+      ],
+      "tiempoSugeridoMinutos": 40,
+      "enunciado": "Una oficina de gestión tributaria municipal atiende diversas consultas. Una vivienda está gravada con un usufructo; se ha notificado una liquidación el día 9 de un mes; y el contribuyente solicita aclaración sobre los recargos aplicables a una deuda no ingresada en voluntaria. Responde separando cada supuesto y justificando sus consecuencias.",
+      "cuestiones": [
+        {
+          "pregunta": "La vivienda tiene un propietario y otra persona es titular del usufructo. ¿A quién corresponde, con carácter general, ser contribuyente del IBI?",
+          "respuesta": "Al titular del usufructo, porque este derecho tiene preferencia respecto de la propiedad en el orden legal de derechos que realizan el hecho imponible del IBI. Debe distinguirse el contribuyente de quien sea titular registral de la propiedad.",
+          "trampa": "La propiedad no prevalece automáticamente frente al usufructo para determinar el sujeto pasivo del IBI.",
+          "referencias": [
+            "Real Decreto Legislativo 2/2004, artículos 61 y 63",
+            "OpoWeb: tema 12, IBI"
+          ]
+        },
+        {
+          "pregunta": "Una liquidación tributaria se notifica individualmente el día 9. ¿Cuál es el plazo general de ingreso voluntario?",
+          "respuesta": "Al haberse notificado entre los días 1 y 15 del mes, el ingreso puede realizarse hasta el día 20 del mes siguiente o el inmediato hábil posterior cuando ese día sea inhábil. No puede concretarse una fecha final de calendario sin conocer el mes y sus festivos.",
+          "trampa": "No aplicar el plazo de pago de una providencia de apremio a una liquidación inicial.",
+          "referencias": [
+            "Ley 58/2003, artículo 62.2.a",
+            "OpoWeb: tema 11, recaudación"
+          ]
+        },
+        {
+          "pregunta": "Si vence el plazo voluntario de una deuda liquidada por la Administración y no se paga, ¿cuándo comienza el período ejecutivo?",
+          "respuesta": "Comienza el día siguiente al vencimiento del plazo de ingreso en período voluntario fijado en el artículo 62 de la Ley General Tributaria. El período ejecutivo puede iniciarse antes de notificarse la providencia de apremio.",
+          "trampa": "El inicio del período ejecutivo no es lo mismo que el inicio del procedimiento de apremio.",
+          "referencias": [
+            "Ley 58/2003, artículos 161.1.a y 167.1",
+            "OpoWeb: tema 11, recaudación ejecutiva"
+          ]
+        },
+        {
+          "pregunta": "La deuda se ingresa íntegramente una vez iniciado el período ejecutivo, pero antes de notificarse la providencia de apremio. ¿Qué recargo corresponde?",
+          "respuesta": "Corresponde el recargo ejecutivo del 5 %, si se satisface la totalidad de la deuda no ingresada en período voluntario antes de la notificación de la providencia de apremio. Es incompatible con los otros recargos del período ejecutivo.",
+          "trampa": "No aplicar el recargo reducido del 10 % cuando todavía no se ha notificado la providencia de apremio.",
+          "referencias": [
+            "Ley 58/2003, artículo 28.2",
+            "OpoWeb: tema 11, recargos"
+          ]
+        },
+        {
+          "pregunta": "Si ya se notificó la providencia de apremio y se paga toda la deuda y el propio recargo dentro del plazo legal del artículo 62.5, ¿qué recargo se aplica?",
+          "respuesta": "Se aplica el recargo de apremio reducido del 10 %. En este supuesto, conforme al artículo 28.5, no se exigen los intereses de demora devengados desde el inicio del período ejecutivo.",
+          "trampa": "No sumar 5 % y 10 %: los recargos ejecutivo, de apremio reducido y de apremio ordinario son incompatibles entre sí.",
+          "referencias": [
+            "Ley 58/2003, artículos 28.3, 28.5 y 62.5",
+            "OpoWeb: tema 11, recargos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LP-PRACT-2026-03",
+      "modalidad": "SIMULACRO_SEGUNDO_EJERCICIO",
+      "titulo": "Práctico 3 · Expediente digital y ofimática",
+      "temas": [
+        9,
+        13,
+        15,
+        17,
+        18,
+        19
+      ],
+      "tiempoSugeridoMinutos": 35,
+      "enunciado": "El personal auxiliar debe preparar un expediente municipal en formato electrónico: ordenar sus pasos en Word, elaborar una hoja de cálculo, tratar datos personales, imprimir documentación y conservar una copia de seguridad. Explica cómo actuarías y por qué.",
+      "cuestiones": [
+        {
+          "pregunta": "Se necesita dibujar en Word el flujo de registro, subsanación, resolución y notificación. ¿Qué herramienta utilizarías y dónde se encuentra?",
+          "respuesta": "Utilizaría Insertar > SmartArt y escogería un diseño de la categoría Proceso. SmartArt representa visualmente procesos, jerarquías o relaciones; un marcador o referencia cruzada no sustituye esta función.",
+          "trampa": "Diferenciar gráficos SmartArt de gráficos estadísticos, WordArt y marcadores.",
+          "referencias": [
+            "Microsoft Word, ficha de uso de SmartArt",
+            "OpoWeb: tema 17, procesador de textos"
+          ]
+        },
+        {
+          "pregunta": "En Excel los importes están en B2:B100 y el tipo de IVA, usado solo como ejemplo de cálculo, se encuentra en F1. Escribe la fórmula de C2 para copiarla hacia abajo sin desplazar F1.",
+          "respuesta": "En C2 escribiría =B2*$F$1 y arrastraría hacia abajo. La referencia B2 es relativa y cambia en cada fila; $F$1 es absoluta y permanece fija. El tipo y su aplicación fiscal deben corresponder al supuesto real.",
+          "trampa": "No escribir =B2*F1 si al copiar hacia abajo debe mantenerse la misma celda del tipo.",
+          "referencias": [
+            "Microsoft Excel, referencias relativas y absolutas",
+            "OpoWeb: tema 18, hojas de cálculo"
+          ]
+        },
+        {
+          "pregunta": "Varios documentos contienen datos personales. ¿Qué precauciones básicas tomarías antes de remitirlos a otro servicio municipal?",
+          "respuesta": "Comprobaría la competencia y la necesidad del acceso, limitaría los datos a los imprescindibles para la finalidad, usaría el canal corporativo autorizado con medidas de seguridad adecuadas y verificaría los destinatarios. No enviaría listados completos indiscriminadamente.",
+          "trampa": "La finalidad administrativa no elimina la obligación de minimización y seguridad de los datos personales.",
+          "referencias": [
+            "Reglamento (UE) 2016/679, artículos 5.1.c y 32",
+            "OpoWeb: tema 9, protección de datos"
+          ]
+        },
+        {
+          "pregunta": "Una impresora láser presenta problemas. Distingue la función del rodillo de carga primario y del fusor.",
+          "respuesta": "El rodillo de carga primario prepara eléctricamente el tambor fotosensible con una carga uniforme. El fusor aplica calor y presión para fijar el tóner al papel después de su transferencia. Son etapas distintas del proceso de impresión.",
+          "trampa": "No confundir el rodillo de carga, el de transferencia y el fusor.",
+          "referencias": [
+            "Funcionamiento general de impresoras láser",
+            "OpoWeb: tema 19, periféricos e impresión"
+          ]
+        },
+        {
+          "pregunta": "Tras escanear un expediente, solo queda una copia en una memoria USB. ¿Es una copia de seguridad suficiente? Propón una mejora.",
+          "respuesta": "No: trasladar el único ejemplar al USB no crea redundancia. Debe conservarse otra copia independiente en un repositorio corporativo aprobado, con controles de acceso, cifrado cuando proceda, política de retención y pruebas de restauración. El procedimiento institucional de custodia documental prevalece.",
+          "trampa": "Digitalización, OCR y soporte externo no equivalen por sí solos a respaldo ni garantizan autenticidad documental.",
+          "referencias": [
+            "OpoWeb: tema 19, almacenamiento y seguridad",
+            "Buenas prácticas de copias de seguridad y conservación documental"
+          ]
+        }
+      ]
     }
   ]
 }

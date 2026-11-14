@@ -106,3 +106,27 @@ assert.match(visible.innerHTML, /<span>R5<\/span>/, 'No aparece la última reser
 assert.match(clockText, /60:00/, 'La cuenta atrás debe empezar en 60 minutos');
 
 console.log('SIMULACROS_PUEBLA_50_MAS_5_NOTA_Y_BLANCOS_OK');
+
+
+const practical = JSON.parse(readFileSync('content/la-puebla/simulacros.json', 'utf8'));
+assert.equal(practical.simulacrosPracticos.length, 3, 'Deben existir tres modelos distintos del segundo ejercicio');
+const practicalIds = new Set();
+for (const model of practical.simulacrosPracticos) {
+  assert.equal(model.modalidad, 'SIMULACRO_SEGUNDO_EJERCICIO');
+  assert.ok(!practicalIds.has(model.id), 'Identificador práctico repetido: ' + model.id);
+  practicalIds.add(model.id);
+  assert.equal(model.cuestiones.length, 5, 'Cada modelo debe tener cinco apartados');
+  assert.ok(model.enunciado.length > 100 && model.titulo.length > 15);
+  assert.ok(Number.isInteger(model.tiempoSugeridoMinutos));
+  for (const issue of model.cuestiones) {
+    assert.ok(issue.pregunta.length > 40);
+    assert.ok(issue.respuesta.length > 100, 'Solución de desarrollo insuficiente');
+    assert.ok(issue.trampa.length > 30);
+    assert.ok(Array.isArray(issue.referencias) && issue.referencias.length >= 2);
+  }
+}
+assert.match(src, /data-practical-sim/, 'Los modelos prácticos deben estar visibles en el centro de entrenamiento');
+assert.match(src, /renderOpenCase\(model\)/, 'El botón debe abrir el modelo de respuesta libre');
+assert.match(src, /no asigna una nota automática/, 'No debe inventarse una nota para desarrollo escrito');
+assert.match(src, /Formato y duración definitivos pendientes del Tribunal/, 'Debe distinguirse práctica de formato oficial');
+console.log('PUEBLA_SEGUNDO_EJERCICIO_3_MODELOS_15_CUESTIONES_VISIBLES_OK');
