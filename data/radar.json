@@ -30,7 +30,7 @@
       "officialUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23854",
       "verifiedAt": "2026-11-14",
       "firstSeen": "2026-11-14",
-      "isNew": true,
+      "isNew": false,
       "position": "Auxiliares de Apoyo Global",
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -16099,7 +16099,7 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-07",
+      "detailsCheckedAt": "2026-11-14",
       "enrichmentVersion": 2,
       "detailsStatus": "HTTP 404"
     },
@@ -16235,7 +16235,7 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-07",
+      "detailsCheckedAt": "2026-11-14",
       "enrichmentVersion": 2,
       "detailsStatus": "HTTP 404"
     },
@@ -16269,7 +16269,7 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-07",
+      "detailsCheckedAt": "2026-11-14",
       "enrichmentVersion": 2,
       "detailsStatus": "HTTP 404"
     },
@@ -16303,7 +16303,7 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-07",
+      "detailsCheckedAt": "2026-11-14",
       "enrichmentVersion": 2,
       "detailsStatus": "HTTP 404"
     },
@@ -42486,43 +42486,43 @@
     {
       "source": "DIRECT",
       "ok": false,
-      "checkedAt": "2026-11-14T12:11:31.332Z"
+      "checkedAt": "2026-11-14T19:55:59.200Z"
     },
     {
       "source": "BOE",
       "ok": true,
-      "checkedAt": "2026-11-14T12:11:31.332Z"
+      "checkedAt": "2026-11-14T19:55:59.200Z"
     },
     {
       "source": "BOCM",
       "ok": true,
-      "checkedAt": "2026-11-14T12:11:31.332Z"
+      "checkedAt": "2026-11-14T19:55:59.200Z"
     },
     {
       "source": "BOP Toledo",
       "ok": true,
-      "checkedAt": "2026-11-14T12:11:31.332Z"
+      "checkedAt": "2026-11-14T19:55:59.200Z"
     },
     {
       "source": "DOCM",
       "ok": true,
-      "checkedAt": "2026-11-14T12:11:31.332Z"
+      "checkedAt": "2026-11-14T19:55:59.200Z"
     },
     {
       "source": "PAG",
       "ok": true,
-      "checkedAt": "2026-11-14T12:11:31.332Z"
+      "checkedAt": "2026-11-14T19:55:59.200Z"
     }
   ],
   "directSourceStatus": [],
   "enrichmentStatus": {
-    "attempted": 70,
+    "attempted": 35,
     "read": 4,
     "withDetails": 4,
-    "failures": 66,
+    "failures": 31,
     "failureReasons": {
       "PDF_NO_EXTRAIBLE": 27,
-      "HTTP 404": 39
+      "HTTP 404": 4
     },
     "asOf": "2026-11-14",
     "explanation": "Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes."
