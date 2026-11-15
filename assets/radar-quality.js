@@ -87,10 +87,30 @@ export function normalizeOpportunity(o,asOf){
   officialUrl
  };
 }
+// Prefer verified vacancy counts and grounded locality, never invent distances.
+const nearToledo=new Set(['toledo','olias del rey','bargas','cobisa','argas','nambroca','burguillos de toledo','mocejon','magán','magan','layos','guadamur','polan','polán']);
+function localityTier(o){
+ const location=clean(o.location).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
+ if(!location || /por comprobar|sin verificar|provincia de|sur de madrid/.test(location))return 0;
+ if(location==='toledo'||/^toledo[, (]/.test(location))return 4;
+ for(const place of nearToledo)if(location===place||location.startsWith(place+',')||location.startsWith(place+' ('))return 3;
+ // Named destination in province: geographic closeness cannot be inferred from the province alone.
+ return o.zone==='TOLEDO'?2:o.zone==='MADRID_SUR'?1:0;
+}
+function priorityScore(o){
+ const vacancyScore=o.vacancies==null?0:Math.min(40,40*Math.log1p(o.vacancies)/Math.log(35));
+ const locationScore=localityTier(o)*7.5;
+ // Only official-source-confirmed C2/AP and named administrative/technical roles receive a fit signal.
+ const fitScore=o.group==='C2'?12:o.group==='AP'?9:o.group==='C1'?10:0;
+ const roleScore=/auxiliar|administrativ|informat|electr[oó]nic|mantenimiento/i.test(o.position||'')?8:0;
+ const urgency=o.state==='PLAZO_ABIERTO'?10:o.state==='REVISAR'?5:0;
+ return vacancyScore+locationScore+fitScore+roleScore+urgency;
+}
 export function classifyRadarEntries(items,asOf){
  return items.map(x=>normalizeOpportunity(x,asOf)).sort((a,b)=>{
   const pri=x=>x.state==='PLAZO_ABIERTO'?3:x.state==='REVISAR'?2:x.state==='PREVISTA'?1:0;
-  return Number(b.actionable)-Number(a.actionable)||pri(b)-pri(a)||b.completeness-a.completeness||
-  String(b.firstSeen||'').localeCompare(String(a.firstSeen||''));
+  return Number(b.actionable)-Number(a.actionable)||pri(b)-pri(a)||
+    priorityScore(b)-priorityScore(a)||b.completeness-a.completeness||
+    String(b.firstSeen||'').localeCompare(String(a.firstSeen||''));
  });
 }
