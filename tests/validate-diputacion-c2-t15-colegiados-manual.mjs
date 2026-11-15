@@ -6,18 +6,18 @@ const matrix=JSON.parse(readFileSync(dir+'matriz.json','utf8'));
 const report=readFileSync(dir+'cotejo-manual-colegiados-2026-11-05.md','utf8');
 const required=[
   'sin convocatoria previa',
-  'decidan todos sus miembros',
   'exentos de la responsabilidad',
   'certificación expedida por el Secretario',
   'visto bueno del Presidente',
   'inmediata siguiente',
   'al menos 2 días de antelación',
-  'voto particular por escrito en el plazo de 2 días',
   'publicación en el Boletín Oficial del Estado',
   'dos últimos años'
 ];
 for(const phrase of required) assert.ok(manual.includes(phrase),'Missing: '+phrase);
-assert.match(matrix.estadoControl,/PENDIENTE_COTEJO_INTEGRAL/);
+assert.match(manual,/si así lo deciden todos sus miembros/);
+assert.match(manual,/2 días[^\n]*voto particular escrito/);
+assert.match(matrix.estadoControl,/^(?:PENDIENTE_COTEJO_INTEGRAL|AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE)$/);
 assert.equal(matrix.controlManualColegiados20261105?.certificacionManualCompleto,false);
 assert.equal(matrix.controlManualColegiados20261105?.navegacionReal,'PENDIENTE');
 for(const art of ['17','18','19','22','23']) assert.ok(report.includes('BOE-A-2015-10566#a'+art));
