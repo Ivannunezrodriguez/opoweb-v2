@@ -19,7 +19,8 @@ assert.deepEqual(qs.reduce((n,q)=>(n[q.respuestaCorrecta]++,n),[0,0,0,0]),[5,5,5
 assert.equal(new Set([...firstIds,...secondIds]).size,20,'Audited groups must be disjoint');
 assert.equal(matrix.controlBancoCompleto20261105?.alternativas,80);
 assert.equal(matrix.controlBancoCompleto20261105?.aprobacionIntegral,false);
-assert.match(matrix.estadoControl,/PENDIENTE_COTEJO_INTEGRAL/,'Manual must remain pending');
+assert.match(matrix.estadoControl,/^(?:PENDIENTE_COTEJO_INTEGRAL|AUDITADO_DOCUMENTAL_\d{8}_FUNCIONAL_PENDIENTE)$/,'La matriz debe conservar una reserva explícita de cierre integral o funcional');
+assert.notEqual(matrix.controlManualAge54a80_20261105?.certificacionIntegral,true,'El cotejo documental no certifica el manual integralmente');
 assert.equal(bank.auditoriaBancoCompleto20261105?.certificacionIntegral,false);
 assert.equal(bank.auditoriaBancoCompleto20261105?.estadoManual,'EN_AUDITORIA_PENDIENTE_COTEJO_INTEGRAL');
 assert.equal(bank.auditoriaBancoCompleto20261105?.loteActual.length,12);
