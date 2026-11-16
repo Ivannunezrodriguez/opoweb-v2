@@ -30,7 +30,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115258;0&insert_number=5274&insert_year=2026",
       "verifiedAt": "2026-11-16",
       "firstSeen": "2026-11-16",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -65,7 +65,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115224;0&insert_number=5241&insert_year=2026",
       "verifiedAt": "2026-11-16",
       "firstSeen": "2026-11-16",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -100,7 +100,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115243;0&insert_number=5262&insert_year=2026",
       "verifiedAt": "2026-11-16",
       "firstSeen": "2026-11-16",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -135,7 +135,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115232;0&insert_number=5249&insert_year=2026",
       "verifiedAt": "2026-11-16",
       "firstSeen": "2026-11-16",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -148,6 +148,42 @@
       "detailsCheckedAt": "2026-11-16",
       "enrichmentVersion": 2,
       "detailsStatus": "PDF_NO_EXTRAIBLE_EN_EL_ENTORNO"
+    },
+    {
+      "id": "ddc534dc2593bfda0ce1",
+      "title": "Notificaciones. Notificación de 09/11/2026 , de la Delegación Provincial de Desarrollo Sostenible de Toledo, por la que se procede a la publicación de la resolución del deslinde del monte de utilidad pública denominado Valdegracia, Colonias, Plaza de Ver, Valtravieso y otros, número 83 de los del catálogo de la provincia de Ciudad Real, sito en el término municipal de Anchuras. [NID 2026/8122]",
+      "organism": "Castilla-La Mancha",
+      "location": "Provincia de Toledo (destino por comprobar)",
+      "publishedAt": null,
+      "zone": "TOLEDO",
+      "group": "REVISAR",
+      "state": "REVISAR",
+      "compatibility": "REVISAR",
+      "reason": "Coincidencia en un anuncio oficial. Comprueba destino, acceso, titulación y plazo en las bases.",
+      "category": "Empleo público",
+      "vacancies": null,
+      "deadline": null,
+      "applicationTerm": null,
+      "access": null,
+      "qualification": null,
+      "source": "DOCM",
+      "officialUrl": "https://docm.jccm.es/docm/verArchivoHtml.do?ruta=2026/11/17/html/2026_8122.html&tipo=rutaDocm",
+      "verifiedAt": "2026-11-16",
+      "firstSeen": "2026-11-16",
+      "isNew": true,
+      "position": null,
+      "deadlineIso": null,
+      "kind": "Oposición / proceso selectivo",
+      "phaseFollowup": false,
+      "notAccessible": false,
+      "actionable": false,
+      "knownQualification": false,
+      "completeness": 0,
+      "informationPending": true,
+      "detailsCheckedAt": "2026-11-16",
+      "enrichmentVersion": 2,
+      "detailSource": "Lectura automática HTML",
+      "detailsStatus": "LEIDO"
     },
     {
       "id": "95d76d14cadcf126c14f",
@@ -8429,8 +8465,8 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
-      "detailsStatus": "HTTP 404",
+      "detailsCheckedAt": "2026-11-16",
+      "detailsStatus": "fetch failed",
       "enrichmentVersion": 2
     },
     {
@@ -8463,8 +8499,8 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
-      "detailsStatus": "HTTP 404",
+      "detailsCheckedAt": "2026-11-16",
+      "detailsStatus": "fetch failed",
       "enrichmentVersion": 2
     },
     {
@@ -8599,7 +8635,7 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
+      "detailsCheckedAt": "2026-11-16",
       "detailsStatus": "HTTP 404",
       "enrichmentVersion": 2
     },
@@ -8633,8 +8669,8 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
-      "detailsStatus": "HTTP 404",
+      "detailsCheckedAt": "2026-11-16",
+      "detailsStatus": "fetch failed",
       "enrichmentVersion": 2
     },
     {
@@ -8667,7 +8703,7 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
+      "detailsCheckedAt": "2026-11-16",
       "detailsStatus": "HTTP 404",
       "enrichmentVersion": 2
     },
@@ -9077,8 +9113,8 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
-      "detailsStatus": "HTTP 404",
+      "detailsCheckedAt": "2026-11-16",
+      "detailsStatus": "fetch failed",
       "enrichmentVersion": 2
     },
     {
@@ -9111,8 +9147,8 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
-      "detailsStatus": "HTTP 404",
+      "detailsCheckedAt": "2026-11-16",
+      "detailsStatus": "fetch failed",
       "enrichmentVersion": 2
     },
     {
@@ -9145,8 +9181,8 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
-      "detailsStatus": "HTTP 404",
+      "detailsCheckedAt": "2026-11-16",
+      "detailsStatus": "fetch failed",
       "enrichmentVersion": 2
     },
     {
@@ -9179,8 +9215,8 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
-      "detailsStatus": "HTTP 404",
+      "detailsCheckedAt": "2026-11-16",
+      "detailsStatus": "fetch failed",
       "enrichmentVersion": 2
     },
     {
@@ -9213,8 +9249,8 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
-      "detailsStatus": "HTTP 404",
+      "detailsCheckedAt": "2026-11-16",
+      "detailsStatus": "fetch failed",
       "enrichmentVersion": 2
     },
     {
@@ -9247,8 +9283,8 @@
       "knownQualification": false,
       "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-09",
-      "detailsStatus": "HTTP 404",
+      "detailsCheckedAt": "2026-11-16",
+      "detailsStatus": "fetch failed",
       "enrichmentVersion": 2
     },
     {
@@ -42626,43 +42662,44 @@
     {
       "source": "DIRECT",
       "ok": false,
-      "checkedAt": "2026-11-16T13:38:55.245Z"
+      "checkedAt": "2026-11-16T23:44:44.923Z"
     },
     {
       "source": "BOE",
       "ok": true,
-      "checkedAt": "2026-11-16T13:38:55.245Z"
+      "checkedAt": "2026-11-16T23:44:44.923Z"
     },
     {
       "source": "BOCM",
       "ok": true,
-      "checkedAt": "2026-11-16T13:38:55.245Z"
+      "checkedAt": "2026-11-16T23:44:44.923Z"
     },
     {
       "source": "BOP Toledo",
       "ok": true,
-      "checkedAt": "2026-11-16T13:38:55.245Z"
+      "checkedAt": "2026-11-16T23:44:44.923Z"
     },
     {
       "source": "DOCM",
       "ok": true,
-      "checkedAt": "2026-11-16T13:38:55.245Z"
+      "checkedAt": "2026-11-16T23:44:44.923Z"
     },
     {
       "source": "PAG",
       "ok": true,
-      "checkedAt": "2026-11-16T13:38:55.245Z"
+      "checkedAt": "2026-11-16T23:44:44.923Z"
     }
   ],
   "directSourceStatus": [],
   "enrichmentStatus": {
-    "attempted": 70,
-    "read": 4,
+    "attempted": 45,
+    "read": 5,
     "withDetails": 4,
-    "failures": 66,
+    "failures": 40,
     "failureReasons": {
-      "PDF_NO_EXTRAIBLE": 58,
-      "HTTP 404": 8
+      "PDF_NO_EXTRAIBLE": 29,
+      "OTRO": 9,
+      "HTTP 404": 2
     },
     "asOf": "2026-11-16",
     "explanation": "Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes."
