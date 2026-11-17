@@ -30,7 +30,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261117-63",
       "verifiedAt": "2026-11-17",
       "firstSeen": "2026-11-17",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -66,7 +66,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261117-82",
       "verifiedAt": "2026-11-17",
       "firstSeen": "2026-11-17",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -78,8 +78,7 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-17",
       "enrichmentVersion": 2,
-      "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "The operation was aborted due to timeout"
     },
     {
       "id": "e55a5ecf99c2fe9127a9",
@@ -102,7 +101,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261117-87",
       "verifiedAt": "2026-11-17",
       "firstSeen": "2026-11-17",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -137,7 +136,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261117-106",
       "verifiedAt": "2026-11-17",
       "firstSeen": "2026-11-17",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -173,7 +172,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261117-107",
       "verifiedAt": "2026-11-17",
       "firstSeen": "2026-11-17",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -185,8 +184,7 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-17",
       "enrichmentVersion": 2,
-      "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "9edbe43d5c4049a589d7",
@@ -209,7 +207,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115260;0&insert_number=5277&insert_year=2026",
       "verifiedAt": "2026-11-17",
       "firstSeen": "2026-11-17",
-      "isNew": true,
+      "isNew": false,
       "position": "trabajo permanente de operarios de servicios múltiples",
       "deadlineIso": null,
       "kind": "Bolsa",
@@ -244,7 +242,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115279;0&insert_number=5292&insert_year=2026",
       "verifiedAt": "2026-11-17",
       "firstSeen": "2026-11-17",
-      "isNew": true,
+      "isNew": false,
       "position": "Trabajo Técnico/a Medioambiente",
       "deadlineIso": null,
       "kind": "Bolsa",
@@ -42918,46 +42916,44 @@
     {
       "source": "DIRECT",
       "ok": false,
-      "checkedAt": "2026-11-17T14:24:11.209Z"
+      "checkedAt": "2026-11-17T22:52:25.192Z"
     },
     {
       "source": "BOE",
       "ok": true,
-      "checkedAt": "2026-11-17T14:24:11.209Z"
+      "checkedAt": "2026-11-17T22:52:25.192Z"
     },
     {
       "source": "BOCM",
       "ok": true,
-      "checkedAt": "2026-11-17T14:24:11.209Z"
+      "checkedAt": "2026-11-17T22:52:25.192Z"
     },
     {
       "source": "BOP Toledo",
       "ok": true,
-      "checkedAt": "2026-11-17T14:24:11.209Z"
+      "checkedAt": "2026-11-17T22:52:25.192Z"
     },
     {
       "source": "DOCM",
       "ok": true,
-      "checkedAt": "2026-11-17T14:24:11.209Z"
+      "checkedAt": "2026-11-17T22:52:25.192Z"
     },
     {
       "source": "PAG",
       "ok": true,
-      "checkedAt": "2026-11-17T14:24:11.209Z"
+      "checkedAt": "2026-11-17T22:52:25.192Z"
     }
   ],
   "directSourceStatus": [],
   "enrichmentStatus": {
-    "attempted": 70,
-    "read": 13,
-    "withDetails": 9,
-    "failures": 57,
+    "attempted": 34,
+    "read": 7,
+    "withDetails": 5,
+    "failures": 27,
     "failureReasons": {
-      "OTRO": 9,
-      "PDF_NO_EXTRAIBLE": 35,
-      "TIMEOUT": 1,
-      "HTTP 404": 11,
-      "TEXTO_INSUFICIENTE": 1
+      "PDF_NO_EXTRAIBLE": 24,
+      "OTRO": 2,
+      "TIMEOUT": 1
     },
     "asOf": "2026-11-17",
     "explanation": "Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes."
