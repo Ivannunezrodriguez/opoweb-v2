@@ -52,13 +52,15 @@ function card(o){
  const detail=o.title===heading?'':o.title;
  const originBadge=o.detailsStatus==='LEIDO'?'Documento leído automáticamente':'Datos solo del título';
  const confirmation=o.deadlineIso
-   ? 'Fecha límite declarada por la fuente; revisa posibles rectificaciones oficiales.'
-   : 'No consta fecha límite verificable. Consulta las bases o el anuncio oficial antes de solicitar.';
+   ? 'Fecha límite extraída del documento; comprueba posibles rectificaciones oficiales.'
+   : o.applicationTerm
+     ? 'Hay una regla de plazo publicada, pero no una fecha de cierre acreditada. Se debe comprobar la publicación de inicio y el calendario aplicable.'
+     : 'No se ha podido extraer ni una fecha de cierre ni una regla de plazo. Consulta las bases oficiales antes de solicitar.';
  const tags=[
   '<span class="radar-tag '+(o.state==='PLAZO_ABIERTO'?'ok':'review')+'">'+esc(stateLabel(o.state))+'</span>',
   '<span class="radar-tag">'+esc(o.kind)+'</span>',
   o.isNew?'<span class="radar-tag new">NUEVA EN RADAR</span>':'',
-  o.informationPending?'<span class="radar-tag">Ficha parcial</span>':''
+  o.informationPending?'<span class="radar-tag">Datos pendientes</span>':''
  ].join('');
  const official=o.officialUrl?'<a class="btn" href="'+esc(o.officialUrl)+'" target="_blank" rel="noopener noreferrer">Ver anuncio oficial ↗</a>':'<span class="radar-note">Sin enlace oficial utilizable</span>';
  return '<article class="radar-card" data-quality="'+esc(o.actionable?'PUESTO':'SIN_PUESTO')+'">'+
@@ -69,13 +71,13 @@ function card(o){
    meta('Localidad / destino',o.location)+meta('Tipo',o.kind)+
    (o.vacancies?meta('Plazas',o.vacancies):'')+
    (o.group&&o.group!=='REVISAR'?meta('Grupo',o.group):'')+
-   (o.deadline?meta('Plazo de solicitudes',day(o.deadline)):'')+
-   (o.applicationTerm?meta('Regla publicada',o.applicationTerm):'')+
+   (o.deadline?meta('Fecha límite de solicitudes',day(o.deadline)):'')+
+   (o.applicationTerm?meta('Cómputo publicado',o.applicationTerm):'')+
    (o.access?meta('Forma de acceso',o.access):'')+
    (o.qualification?meta('Titulación requerida',o.qualification):'')+
-   meta('Detectado por Radar',day(o.firstSeen))+
+   (o.publishedAt?meta('Publicación de origen',day(o.publishedAt)):'')+meta('Detectado por Radar',day(o.firstSeen))+
   '</div>'+ 
-  '<p class="radar-note">'+esc([!o.deadline?'Plazo sin confirmar':null,!o.qualification?'Titulación sin verificar':null,o.group==='REVISAR'?'Grupo sin verificar':null].filter(Boolean).join(' · ')||'Datos esenciales encontrados; comprobar requisitos y rectificaciones en la fuente oficial.')+'</p>'+
+  '<p class="radar-note">'+esc([!o.deadline?'Fecha límite sin acreditar':null,!o.qualification?'Titulación pendiente':null,o.group==='REVISAR'?'Grupo pendiente':null].filter(Boolean).join(' · ')||'Datos principales extraídos; revisar posibles rectificaciones oficiales.')+'</p>'+
   '<p class="radar-note">'+esc(confirmation)+'</p>'+
   '<div class="radar-actions">'+official+'</div>'+
   '<div class="radar-source">Origen: '+esc(o.source||'Por identificar')+' · '+esc(originBadge)+
