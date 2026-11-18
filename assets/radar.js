@@ -40,6 +40,12 @@ function saveLocalTracking(id,state){
 }
 let filters={q:'',view:'OPORTUNIDADES',state:'TODAS',zone:'TODAS',kind:'TODAS',vacancies:'TODAS',sort:'RELEVANCIA'};
 let shown=40;
+let searchTimer=null;
+const searchCache=new WeakMap();
+const searchableText=o=>{
+ if(!searchCache.has(o))searchCache.set(o,norm([o.title,o.position,o.organism,o.location,o.group,o.kind].join(' ')));
+ return searchCache.get(o);
+};
 const missing='Sin verificar en las bases';
 function day(v){
  const s=String(v||'');
@@ -74,13 +80,13 @@ function matchesVacancies(o){
  const minimum=Number(filters.vacancies);
  return Number.isInteger(minimum)&&count>=minimum;
 }
-function visible(o){
+function visible(o,query){
  return matchView(o)&&
   (filters.state==='TODAS'||o.state===filters.state)&&
   (filters.zone==='TODAS'||o.zone===filters.zone)&&
   (filters.kind==='TODAS'||o.kind===filters.kind)&&
   matchesVacancies(o)&&
-  norm([o.title,o.position,o.organism,o.location,o.group,o.kind].join(' ')).includes(norm(filters.q));
+  (!query||searchableText(o).includes(query));
 }
 function meta(label,value){return '<div><span>'+esc(label)+'</span><strong>'+esc(value??missing)+'</strong></div>';}
 function card(o){
@@ -141,7 +147,8 @@ function render(){
  const confirmed=actionable.filter(x=>x.state==='PLAZO_ABIERTO');
  const discarded=all.filter(x=>x.phaseFollowup);
  const tracked=all.filter(x=>x.trackedCall);
- const list=orderRadar(all.filter(visible),filters.sort);
+ const query=norm(filters.q.trim());
+ const list=orderRadar(all.filter(o=>visible(o,query)),filters.sort);
  const stale=ageDays(data.generatedAt,new Date().toISOString().slice(0,10))>3;
  const statuses=(data.sourceStatus||[]).filter(x=>x.ok===true).length;
  // Overall feed success does not imply each municipal or regional source was read.
@@ -195,9 +202,18 @@ function render(){
   select.addEventListener('change',e=>{filters[key]=e.target.value;shown=40;render()});
  }
  document.querySelector('#rq')?.addEventListener('input',e=>{
-  filters.q=e.target.value;shown=40;render();
-  const input=document.querySelector('#rq');
-  input?.focus();input?.setSelectionRange?.(input.value.length,input.value.length);
+  filters.q=e.target.value;
+  shown=40;
+  // El DOM se reemplaza al renderizar; no hacerlo en cada pulsación.
+  // Un temporizador único evita ordenar más de mil fichas repetidamente.
+  if(searchTimer!==null)clearTimeout(searchTimer);
+  searchTimer=setTimeout(()=>{
+    searchTimer=null;
+    render();
+    const input=document.querySelector('#rq');
+    input?.focus({preventScroll:true});
+    input?.setSelectionRange?.(input.value.length,input.value.length);
+  },180);
  });
  document.querySelector('#radar-more')?.addEventListener('click',()=>{shown+=40;render()});
  document.querySelectorAll('[data-radar-track]').forEach(select=>select.addEventListener('change',event=>{
