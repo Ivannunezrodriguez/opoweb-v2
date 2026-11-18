@@ -1,4 +1,5 @@
 import {classifyRadarEntries} from './radar-quality.js?v=2';
+import {matchTrackedCall,trackingState} from './radar-tracking.js?v=1';
 
 const app=document.querySelector('#radar-app');
 const THEME_KEY='opoweb-theme';
@@ -14,7 +15,7 @@ function setTheme(theme){
 setTheme(localStorage.getItem(THEME_KEY)||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'));
 document.querySelector('#theme-toggle')?.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
 
-let data={opportunities:[]}, entries=[];
+let data={opportunities:[]}, entries=[], trackedCalls=[];
 let filters={q:'',view:'OPORTUNIDADES',state:'TODAS',zone:'TODAS',kind:'TODAS'};
 let shown=40;
 const missing='Sin verificar en las bases';
@@ -33,6 +34,7 @@ function stateLabel(v){
 }
 function matchView(o){
  const asOf=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'});
+ if(filters.view==='MIS_PROCESOS')return !!o.trackedCall;
  if(filters.view==='RECIENTES')return o.actionable&&o.state!=='CERRADA'&&ageDays(o.firstSeen,asOf)<=30;
  if(filters.view==='OPORTUNIDADES')return o.actionable&&o.state!=='CERRADA';
  if(filters.view==='INCOMPLETAS')return !o.actionable&&!o.phaseFollowup;
@@ -50,6 +52,8 @@ function meta(label,value){return '<div><span>'+esc(label)+'</span><strong>'+esc
 function card(o){
  const heading=o.position||'Puesto no identificado en el anuncio';
  const detail=o.title===heading?'':o.title;
+ const tracked=o.trackedCall?trackingState(o.trackedCall):null;
+ const trackingTag=tracked?'<span class="radar-tag radar-tracking '+esc(tracked.className)+'">'+esc(tracked.label)+'</span>':'';
  const originBadge=o.detailsStatus==='LEIDO'?'Documento leído automáticamente':'Datos solo del título';
  const confirmation=o.deadlineIso
    ? 'Fecha límite extraída del documento; comprueba posibles rectificaciones oficiales.'
@@ -57,6 +61,7 @@ function card(o){
      ? 'Hay una regla de plazo publicada, pero no una fecha de cierre acreditada. Se debe comprobar la publicación de inicio y el calendario aplicable.'
      : 'No se ha podido extraer ni una fecha de cierre ni una regla de plazo. Consulta las bases oficiales antes de solicitar.';
  const tags=[
+  trackingTag,
   '<span class="radar-tag '+(o.state==='PLAZO_ABIERTO'?'ok':'review')+'">'+esc(stateLabel(o.state))+'</span>',
   '<span class="radar-tag">'+esc(o.kind)+'</span>',
   o.isNew?'<span class="radar-tag new">NUEVA EN RADAR</span>':'',
@@ -91,6 +96,7 @@ function render(){
  const actionable=all.filter(x=>x.actionable&&!x.phaseFollowup);
  const confirmed=actionable.filter(x=>x.state==='PLAZO_ABIERTO');
  const discarded=all.filter(x=>x.phaseFollowup);
+ const tracked=all.filter(x=>x.trackedCall);
  const list=all.filter(visible);
  const stale=ageDays(data.generatedAt,new Date().toISOString().slice(0,10))>3;
  const statuses=(data.sourceStatus||[]).filter(x=>x.ok===true).length;
@@ -123,11 +129,12 @@ function render(){
  '<div class="radar-stat"><strong>'+recent.length+'</strong><span>puestos detectados en 30 días</span></div>',
  '<div class="radar-stat"><strong>'+confirmed.length+'</strong><span>plazos con fecha publicada</span></div>',
  '<div class="radar-stat"><strong>'+actionable.length+'</strong><span>fichas con puesto identificado</span></div>',
+ '<div class="radar-stat"><strong>'+tracked.length+'</strong><span>coincidencias con convocatorias seguidas</span></div>',
  '<div class="radar-stat"><strong>'+all.filter(x=>!x.actionable&&!x.phaseFollowup).length+'</strong><span>anuncios incompletos por investigar (no enviados por email)</span></div></div>',
  '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Rastreo directo: <strong>'+esc(crawlDate?day(crawlDate):'fecha no disponible')+'</strong>. Webs únicas consultadas: <strong>'+esc(directCrawl.uniqueSources??'sin verificar')+'</strong>. Documentos oficiales leídos: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
  '<section class="panel"><div class="radar-controls">',
  '<label><span>Buscar puesto, localidad u organismo</span><input id="rq" type="search" value="'+esc(filters.q)+'" placeholder="Auxiliar, administrativo, Getafe, Toledo…"></label>',
- '<label><span>Ver</span><select id="rv"><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Oportunidades sin plazo vencido</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
+ '<label><span>Ver</span><select id="rv"><option value="MIS_PROCESOS">Mis procesos (inscrito, pendiente o en seguimiento)</option><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Oportunidades sin plazo vencido</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
  '<label><span>Plazo / estado</span><select id="rs"><option value="TODAS">Todos</option><option value="PLAZO_ABIERTO">Plazo con fecha publicada</option><option value="REVISAR">Plazo sin verificar</option><option value="PREVISTA">OEP sin convocatoria</option><option value="CERRADA">Plazo vencido</option></select></label>',
  '<label><span>Zona</span><select id="rz"><option value="TODAS">Todas</option><option value="TOLEDO">Provincia de Toledo</option><option value="MADRID_SUR">Sur de Madrid</option></select></label>',
  '<label><span>Tipo</span><select id="rk"><option value="TODAS">Cualquiera</option><option value="Oposición / proceso selectivo">Oposición / proceso selectivo</option><option value="Bolsa">Bolsas de empleo</option><option value="Temporal">Temporal / sustitución</option><option value="Oferta de empleo (sin convocatoria)">OEP sin convocatoria</option></select></label>',
@@ -152,7 +159,12 @@ try{
  const r=await fetch('data/radar.json',{cache:'no-cache'});
  if(!r.ok)throw new Error('HTTP '+r.status);
  data=await r.json();
- entries=classifyRadarEntries(data.opportunities||[],new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}));
+ try {
+   const t=await fetch('data/convocatorias.json',{cache:'no-cache'});
+   if(t.ok){const body=await t.json();trackedCalls=Array.isArray(body.convocatorias)?body.convocatorias:[];}
+ }catch(e){console.warn('Seguimiento no disponible',e);}
+ entries=classifyRadarEntries(data.opportunities||[],new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}))
+   .map(o=>({...o,trackedCall:matchTrackedCall(o,trackedCalls)}));
  render();
 }catch(e){
  app.innerHTML='<section class="panel"><h2>Radar temporalmente no disponible</h2><p>'+esc(e.message)+'</p></section>';
