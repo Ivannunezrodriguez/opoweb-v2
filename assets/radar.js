@@ -174,6 +174,10 @@ function render(){
  const directCoverage=directStatuses.length
    ?'Rastreo directo: '+directReadable+' legibles, '+directPartial+' parciales y '+directErrors+' con error ('+directStatuses.length+' estados).'
    :'El estado del rastreo municipal directo no está disponible.';
+ const sourceScopes=(data.sourceStatus||[])
+  .filter(x=>x&&typeof x.scope==='string')
+  .map(x=>'<li><strong>'+esc(x.source)+'</strong> · '+(x.ok?'Disponible':'No disponible')+
+   ': '+esc(x.scope)+'</li>').join('');
  const docsAttempted=data.enrichmentStatus?.attempted||0;
  const docsRead=data.enrichmentStatus?.read||0;
  const lowDocumentCoverage=docsAttempted>=10&&docsRead/docsAttempted<0.2;
@@ -193,6 +197,7 @@ function render(){
  '<div class="radar-stat"><strong>'+tracked.length+'</strong><span>procesos marcados en este navegador</span></div>',
  '<div class="radar-stat"><strong>'+all.filter(x=>!x.actionable&&!x.phaseFollowup).length+'</strong><span>anuncios incompletos por investigar (no enviados por email)</span></div></div>',
  '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Rastreo directo: <strong>'+esc(crawlDate?day(crawlDate):'fecha no disponible')+'</strong>. Webs únicas consultadas: <strong>'+esc(directCrawl.uniqueSources??'sin verificar')+'</strong>. Documentos oficiales leídos: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
+ sourceScopes?'<details class="panel"><summary><strong>Qué cubre realmente cada fuente oficial</strong> · ver límites del rastreo</summary><p>Una fuente que responde no garantiza que se haya consultado todo su histórico ni todas las sedes municipales.</p><ul>'+sourceScopes+'</ul></details>':'',
  '<section class="panel"><div class="radar-controls">',
  '<label><span>Buscar puesto, localidad u organismo</span><input id="rq" type="search" value="'+esc(filters.q)+'" placeholder="Auxiliar, administrativo, Getafe, Toledo…"></label>',
  '<label><span>Ver</span><select id="rv"><option value="MIS_PROCESOS">Mis procesos (inscrito, pendiente o en seguimiento)</option><option value="CADUCADAS">Plazos cerrados / por revisar</option><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Oportunidades sin plazo vencido</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
