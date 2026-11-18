@@ -36,8 +36,8 @@ function matchView(o){
  const asOf=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'});
  if(filters.view==='MIS_PROCESOS')return !!o.trackedCall;
  if(filters.view==='CADUCADAS')return o.state==='CERRADA'||o.state==='CIERRE_PROBABLE';
- if(filters.view==='RECIENTES')return o.actionable&&o.state!=='CERRADA'&&ageDays(o.firstSeen,asOf)<=30;
- if(filters.view==='OPORTUNIDADES')return o.actionable&&(o.state!=='CERRADA'||!!o.trackedCall)&&o.state!=='CIERRE_PROBABLE' || (!!o.trackedCall&&o.state==='CIERRE_PROBABLE');
+ if(filters.view==='RECIENTES')return o.actionable&&o.state!=='CERRADA'&&o.state!=='CIERRE_PROBABLE'&&ageDays(o.firstSeen,asOf)<=30;
+ if(filters.view==='OPORTUNIDADES')return (o.actionable&&o.state!=='CERRADA'&&o.state!=='CIERRE_PROBABLE') || (!!o.trackedCall&&(o.state==='CERRADA'||o.state==='CIERRE_PROBABLE'));
  if(filters.view==='INCOMPLETAS')return !o.actionable&&!o.phaseFollowup;
  if(filters.view==='SEGUIMIENTO')return o.phaseFollowup;
  return true;
@@ -54,7 +54,7 @@ function card(o){
  const heading=o.position||'Puesto no identificado en el anuncio';
  const detail=o.title===heading?'':o.title;
  const tracked=o.trackedCall?trackingState(o.trackedCall):null;
- const publicationDay=/^\\d{4}-\\d{2}-\\d{2}$/.test(o.publishedAt||'')?o.publishedAt:null;
+ const publicationDay=/^\d{4}-\d{2}-\d{2}$/.test(o.publishedAt||'')?o.publishedAt:null;
  const oldUnconfirmed=!o.deadlineIso&&publicationDay&&ageDays(publicationDay,new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}))>30;
  const trackingTag=tracked?'<span class="radar-tag radar-tracking '+esc(tracked.className)+'">'+esc(tracked.label)+'</span>':'';
  const oldTag=oldUnconfirmed?'<span class="radar-tag review">Más de 30 días · revisar cierre</span>':'';
@@ -62,14 +62,14 @@ function card(o){
  const confirmation=o.deadlineDisputed
    ? 'Discrepancia entre BOP y BOE: no se confirma la fecha exacta de cierre hasta aclaración oficial.'
    : o.deadlineIso
-   ? 'Fecha límite extraída del documento; comprueba posibles rectificaciones oficiales.'
+   ? 'Fecha límite asentada en el anuncio o la ficha de convocatoria; comprueba posibles rectificaciones oficiales.'
    : o.applicationTerm
      ? 'Hay una regla de plazo publicada, pero no una fecha de cierre acreditada. Se debe comprobar la publicación de inicio y el calendario aplicable.'
      : 'No se ha podido extraer ni una fecha de cierre ni una regla de plazo. Consulta las bases oficiales antes de solicitar.';
  const tags=[
   trackingTag,
   oldTag,
-  '<span class="radar-tag '+(o.state==='PLAZO_ABIERTO'?'ok':'review')+'">'+esc(stateLabel(o.state))+'</span>',
+  '<span class="radar-tag '+(o.state==='PLAZO_ABIERTO'?'ok':o.state==='CERRADA'?'closed':'review')+'">'+esc(stateLabel(o.state))+'</span>',
   '<span class="radar-tag">'+esc(o.kind)+'</span>',
   o.isNew?'<span class="radar-tag new">NUEVA EN RADAR</span>':'',
   o.informationPending?'<span class="radar-tag">Datos pendientes</span>':''
