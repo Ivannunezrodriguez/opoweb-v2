@@ -1,0 +1,225 @@
+# Tema 7. Transparencia y participación
+
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta individual**](../../../audit/UC3M_T07_AUDITORIA_TRANSPARENCIA_2026-11-09.md). No implica `CERTIFICADO_INTEGRAL`: falta comprobar el CI, navegador y accesibilidad; aprobación del usuario pendiente.
+
+> Epígrafe oficial: Ley 10/2019, de 10 de abril, de Transparencia y de Participación de la Comunidad de Madrid; publicidad activa; derecho de acceso a la información pública; Portal de Transparencia y procedimiento de acceso en la UC3M.
+
+## 1. Objeto, ámbito y principios
+
+La Ley 10/2019 tiene por objeto garantizar la transparencia de la actividad pública, regular el derecho de acceso a la información pública y fomentar la participación ciudadana en la Comunidad de Madrid.
+
+Se aplica, entre otros sujetos, a la Administración de la Comunidad de Madrid, sus organismos y entidades, las entidades locales madrileñas y las universidades públicas de la Comunidad de Madrid, por lo que alcanza a la Universidad Carlos III de Madrid.
+
+La transparencia se articula mediante dos vías diferentes:
+
+- **Publicidad activa**: publicación de oficio, sin necesidad de solicitud previa.
+- **Derecho de acceso**: obtención de información pública a petición de una persona.
+
+La información debe presentarse de manera clara, estructurada, comprensible, accesible, reutilizable y actualizada.
+
+## 2. Publicidad activa
+
+Los sujetos obligados deben publicar periódicamente información relevante para controlar su organización, funcionamiento y actividad pública.
+
+Entre los principales bloques de publicidad activa se encuentran:
+
+- información institucional, organizativa y de planificación;
+- normativa e información de relevancia jurídica;
+- estructura, organigrama y responsables;
+- empleo público, relaciones de puestos, retribuciones y compatibilidades;
+- contratos, convenios, encomiendas de gestión y subvenciones;
+- información presupuestaria, económico-financiera y estadística;
+- patrimonio, cuentas y resultados de control;
+- planes, programas y evaluación de su cumplimiento.
+
+La publicación debe respetar los límites del derecho de acceso y la normativa de protección de datos personales. Cuando sea necesario, se aplicará disociación, anonimización o acceso parcial.
+
+## 3. Información pública y derecho de acceso
+
+Todas las personas tienen derecho a acceder a la información pública, sin necesidad de acreditar un interés especial.
+
+Es información pública todo contenido o documento, cualquiera que sea su formato o soporte, que obre en poder de un sujeto obligado y haya sido elaborado, adquirido o conservado en el ejercicio de sus funciones.
+
+La solicitud debe identificar suficientemente la información pedida y una dirección de contacto. Puede indicar la forma o formato preferido para recibirla. La motivación es voluntaria: no motivar la solicitud no permite inadmitirla.
+
+## 4. Límites del derecho de acceso
+
+El derecho de acceso no es absoluto. Puede limitarse cuando el acceso cause un perjuicio concreto a bienes protegidos como:
+
+- seguridad pública;
+- prevención, investigación o sanción de ilícitos;
+- igualdad de las partes y tutela judicial efectiva;
+- funciones administrativas de vigilancia, inspección y control;
+- intereses económicos y comerciales;
+- secreto profesional y propiedad intelectual o industrial;
+- confidencialidad necesaria en procesos de decisión;
+- protección del medio ambiente;
+- protección de datos personales.
+
+Los límites deben aplicarse de forma justificada, proporcionada y atendiendo a las circunstancias del caso. No basta con invocar un límite de forma genérica.
+
+Cuando solo una parte de la información resulte afectada, debe concederse **acceso parcial**, ocultando únicamente el contenido protegido, salvo que la información restante resulte incomprensible o carente de sentido.
+
+## 5. Protección de datos personales
+
+El acceso a información con datos personales exige ponderar transparencia y privacidad.
+
+Los datos meramente identificativos relacionados con la organización, funcionamiento o actividad pública suelen admitir el acceso, salvo que prevalezcan circunstancias concretas de protección.
+
+Cuando existan categorías especialmente protegidas o datos de especial sensibilidad, el acceso requiere una habilitación jurídica suficiente y una valoración reforzada. Siempre que sea posible, debe preferirse la anonimización o disociación antes que la denegación total.
+
+## 6. Causas de inadmisión
+
+La solicitud puede inadmitirse, mediante resolución motivada, cuando se refiera a:
+
+- información en curso de elaboración o de publicación general;
+- información auxiliar o de apoyo, como notas, borradores u opiniones internas sin relevancia pública autónoma;
+- información cuya obtención exija una verdadera reelaboración;
+- información que no obre en poder del órgano destinatario y se desconozca el competente;
+- solicitudes manifiestamente repetitivas o abusivas no justificadas por la finalidad de transparencia.
+
+No existe reelaboración por el mero hecho de tener que realizar una búsqueda, selección sencilla, anonimización o tratamiento básico de la información disponible.
+
+## 7. Tramitación, terceros y resolución
+
+Cuando la información solicitada pueda afectar a derechos o intereses de terceros identificados, se les concede un trámite para formular alegaciones. Durante ese trámite puede suspenderse el cómputo del plazo para resolver.
+
+La resolución debe ser motivada cuando:
+
+- deniegue total o parcialmente el acceso;
+- conceda el acceso por una modalidad diferente a la solicitada;
+- aplique límites;
+- afecte a derechos o intereses de terceros;
+- inadmite la solicitud.
+
+En la Comunidad de Madrid, el plazo general para resolver y notificar es de **veinte días**, ampliable por otros veinte cuando el volumen o la complejidad de la información lo justifiquen. El silencio administrativo es desestimatorio.
+
+El acceso se facilita preferentemente por vía electrónica y con carácter gratuito. Solo pueden exigirse cantidades por copias o por la transposición a formatos distintos cuando proceda conforme a la normativa aplicable.
+
+### Plazos especiales que no deben confundirse con el plazo general
+
+Según el **artículo 42.2 de la Ley 10/2019**, cuando concurra una causa de inadmisión del artículo 40.1, la **resolución motivada de inadmisión debe adoptarse y notificarse lo antes posible y, en todo caso, en cinco días hábiles** desde su recepción por el órgano competente para resolver. No se trata de una denegación de fondo ni del plazo general de **veinte días** del artículo 42.1.
+
+El **artículo 41** regula una situación distinta: si la información no obra en poder del órgano receptor, este debe **remitir la solicitud al competente en un plazo no superior a cinco días**, informando al solicitante. Si desconoce el órgano competente, debe intentar averiguarlo; si lo identifica, lo remite en **cinco días**, y si transcurren **cinco días** sin identificarlo, inadmite e informa. Estos **cinco días de remisión** no deben calificarse automáticamente de **hábiles** por analogía con el artículo 42.2 sin examinar las reglas generales de cómputo.
+
+> ⚠️ **¡Foco Examen!:** **20 días** para resolver el acceso (**42.1**), **otros 20** posibles por volumen o complejidad (**42.1**), **5 días hábiles** para notificar la inadmisión (**42.2**) y **5 días** para remitir al órgano competente (**41**). No son plazos intercambiables.
+
+## 8. Reclamación
+
+Frente a una resolución expresa o presunta puede interponerse reclamación potestativa ante el órgano de garantía de transparencia competente, con carácter previo a la vía contencioso-administrativa.
+
+El plazo general para reclamar es de **un mes** desde el día siguiente a la notificación de la resolución expresa o desde que se produzcan los efectos del silencio.
+
+## 9. Portal de Transparencia de la UC3M
+
+La UC3M concentra su publicidad activa en su Portal de Transparencia. Entre sus bloques principales figuran:
+
+- información institucional, organizativa y de planificación;
+- información jurídica;
+- información sobre recursos humanos;
+- información económico-financiera, presupuestaria y estadística;
+- integridad institucional;
+- contratación y perfil del contratante;
+- procedimiento de acceso a información pública.
+
+El Portal permite consultar información ya publicada y enlaza con el procedimiento específico para solicitar información que no se encuentre disponible.
+
+## 10. Procedimiento de acceso en la UC3M
+
+La solicitud puede presentarse:
+
+- telemáticamente, mediante la Sede Electrónica de la Universidad;
+- presencialmente, en una oficina de Registro.
+
+La tramitación corresponde al Servicio Jurídico y a la unidad u órgano responsable de la información. La competencia para resolver corresponde al **Rector**.
+
+El plazo indicado por la UC3M es de **veinte días**, ampliable por otros veinte cuando el volumen o la complejidad lo justifiquen. La resolución se notifica electrónicamente en la carpeta del interesado cuando la tramitación se realiza por sede.
+
+Frente a la resolución puede interponerse reclamación potestativa en el plazo de un mes o recurso contencioso-administrativo en el plazo legal correspondiente.
+
+La Universidad mantiene un registro de solicitudes y reclamaciones, en el que se anotan datos como la fecha, la descripción de la información, la forma de acceso, el tiempo de respuesta y el tipo de resolución.
+
+## Claves de examen
+
+- Publicidad activa: publicación de oficio.
+- Derecho de acceso: petición individual.
+- No es obligatorio motivar la solicitud.
+- Plazo general en Madrid y en la UC3M: veinte días, ampliables otros veinte.
+- Silencio: desestimatorio.
+- Órgano competente en la UC3M: Rector.
+- Reclamación potestativa: un mes.
+- Antes de denegar totalmente debe valorarse el acceso parcial.
+
+## Auditoría del banco · 04/11/2026
+
+[**Cotejo individual de las 12 preguntas y 48 alternativas**](cotejo-integral-2026-11-04.md): fundamentos específicos, análisis de distractores y bloques **¡Foco Examen!**. Estado **COTEJO_BANCO_COMPLETO**. **No** significa aprobación del usuario ni certifica navegación y accesibilidad de la web. La legislación exigible para UC3M se determina conforme a la **base primera.7** de su convocatoria, no automáticamente el día del examen.
+
+> ⚠️ **¡Foco Examen!:** La inadmisión de solicitudes del artículo **42.2** de Ley 10/2019 se resuelve en **5 días hábiles**, diferentes de los **20 días** de resolución ordinaria del artículo **42.1**.
+
+
+## 11. Tramitación de acceso: plazos y efectos que más se confunden — 06/11/2026
+
+### 11.1. Acceso en Madrid: solicitud ordinaria e inadmisión (art. 42)
+
+| Momento del procedimiento de acceso | Plazo o efecto | Fundamento |
+|---|---|---|
+| **Resolver y notificar** solicitud de acceso | **Máximo 20 días** desde recepción. Por regla supletoria de la Ley 39/2015, los plazos en días son **hábiles**, salvo disposición contraria. | **Ley 10/2019, 42.1; Ley 39/2015, 30.2** |
+| **Prórroga motivada** por volumen o complejidad | **Otros 20 días**, informando al solicitante. | **42.1** |
+| **Inadmisión** por causas del artículo **40.1** | Resolver y notificar cuanto antes y en todo caso **máximo 5 días hábiles** desde la recepción por el órgano competente. | **42.2** |
+| Ausencia de resolución expresa en plazo | **Desestimación por silencio administrativo**. | **42.3** |
+| Solicitud dirigida a órgano que desconoce al competente | Debe procurar identificarlo y trasladar en **5 días** si lo conoce; si no se conoce en el plazo, procede inadmisión e información al solicitante. | **41.2–3** |
+
+La **inadmisión** y la **denegación de acceso** no son sinónimos: la primera impide seguir tramitando la solicitud por causa tasada; la segunda decide el fondo, total o parcialmente, tras ponderar límites y datos personales.
+
+**Fuente:** [**Ley 10/2019 CM, arts. 40–42 (BOE)**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102).
+
+> ⚠️ **¡Foco Examen!:** **20 días** de resolución ordinaria, posible **+20 días**; **5 días hábiles** para inadmisión por causas del **art. 40.1**. **Silencio desestimatorio**, no positivo por aplicación automática del artículo 24 de la Ley 39/2015.
+
+### 11.2. Acceso, copias, gratuidad y oposición de terceros (arts. 43–46)
+
+| Supuesto | Regla literal o efecto |
+|---|---|
+| Información **ya publicada** | La resolución puede limitarse a indicar **cómo acceder** a ella (**43.6**). |
+| Concesión de acceso ante **oposición de un tercero** | El acceso efectivo se difiere hasta transcurrir el plazo de recurso contencioso-administrativo sin interposición o hasta resolución confirmatoria, en los términos del **43.5**. |
+| Forma de acceso | **Preferentemente electrónica**, salvo imposibilidad o preferencia expresa del solicitante; formato electrónico **original** cuando se facilite por esa vía (**44.1**). |
+| Modalidad solicitada | Se respeta salvo imposibilidad técnica, carga excesiva o alternativa más económica (**44.2**). |
+| Derecho a obtener copias | Deriva del reconocimiento del acceso, con limitaciones materiales justificadas; denegación de copia **motivada** (**45**). |
+| **Coste** | Acceso a información **gratuito**; **obtención de copias** puede quedar sujeta a **tasas previstas legalmente** (**46**). |
+| Resoluciones de acceso | **Ponen fin a vía administrativa** y son recurribles en sede contencioso-administrativa, sin perjuicio de reclamación potestativa en su ámbito (**43.7**). |
+
+**Fuente:** [**Ley 10/2019 CM, arts. 43–46**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102).
+
+> ⚠️ **¡Foco Examen!:** **Acceso gratuito ≠ copias necesariamente gratuitas**. **Información publicada** puede resolverse señalando cómo acceder. Si **un tercero se opuso**, el acceso efectivo puede **esperar al desenlace de la impugnación**.
+
+
+## Repaso práctico integrado — tema 7 (06/11/2026)
+
+[**Ficha comparativa T2–T7 con artículos, excepciones y plazos**](../REPASO_JURIDICO_T02_T07_20261106.md). [**Entrenamiento interactivo: 24 preguntas / 96 alternativas entre seis temas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Este tema aporta **4 preguntas nuevas**; el banco original de **12 preguntas** y los simulacros no se modifican.
+
+> ⚠️ **¡Foco Examen!:** El nuevo material es una **revisión focal de trampas jurídicas**, no la certificación completa del contenido ni de la versión desplegada.
+
+
+## 12. Supuestos resueltos de acceso a información — **08/11/2026**
+
+### Supuesto 1. Una petición compleja y otra que requiere reelaboración
+
+Una persona solicita información presupuestaria existente, pero voluminosa. El órgano competente de la **Comunidad de Madrid** dispone de **20 días** para resolver y notificar la petición, con posibilidad de ampliar **otros 20 días** si el volumen o complejidad lo justifica, informando al solicitante (**art. 42.1, Ley 10/2019**). Si la solicitud requiere **reelaboración** en los términos del **art. 40**, la inadmisión motivada se acuerda y notifica en **5 días hábiles** desde recepción por el órgano competente (**art. 42.2**). No es «reelaboración» el tratamiento informatizado de uso corriente.
+
+| Trámite | Plazo |
+|---|---|
+| Resolver y notificar acceso | **20 días** |
+| Ampliación por volumen o complejidad | **Otros 20 días**, con información al solicitante |
+| Inadmisión por causa legal del art. 40 | **5 días hábiles** |
+| Silencio | **Desestimatorio** |
+
+> ⚠️ **¡Foco Examen!:** La **inadmisión en 5 días hábiles** no es el plazo general de resolución de **20 días**. Una extracción informática corriente no equivale automáticamente a reelaboración.
+
+### Supuesto 2. Solicitud dirigida a órgano sin la información
+
+Una petición llega a un órgano que no tiene la documentación. Según el **art. 41**, si sabe cuál es el competente debe remitírsela en un plazo **no superior a 5 días**, informando al solicitante. Si desconoce al competente, debe intentar averiguarlo y dar traslado en los términos del artículo; una imposibilidad no habilita a ignorar la solicitud. La petición de acceso tampoco requiere motivación como condición general.
+
+> ⚠️ **¡Foco Examen!:** **Remitir al órgano competente (art. 41)** no equivale a **inadmitir por reelaboración (art. 40)**. La **falta de motivación del ciudadano** no justifica por sí sola la inadmisión.
+
+**Fuentes:** [**Ley 10/2019, arts. 40–43**](https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102) y procedimiento institucional UC3M descrito en este manual.
+
+**Alcance:** **5 epígrafes** desarrollados y **12 preguntas / 48 alternativas** conservadas; pendiente fijación del corte de la base primera.7 UC3M, aprobación del usuario y comprobación funcional.

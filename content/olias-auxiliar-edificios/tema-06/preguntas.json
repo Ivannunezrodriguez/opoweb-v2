@@ -1,0 +1,193 @@
+{
+  "tema": 6,
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
+  "preguntas": [
+    {
+      "id": "OLIAS-T06-001",
+      "enunciado": "¿Qué debe permanecer libre de obstáculos en un edificio de trabajo?",
+      "opciones": [
+        "Solo los almacenes",
+        "Las vías y salidas de evacuación",
+        "Las oficinas exclusivamente",
+        "Solo el acceso principal"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Las vías y salidas de evacuación deben estar expeditas, libres de obstáculos y permitir una salida rápida y segura.",
+      "trampaExamen": "¡Foco Examen!: Las vías y salidas de evacuación deben estar expeditas, libres de obstáculos y permitir una salida rápida y segura.",
+      "referencia": "RD 486/1997, anexo I.10.2 y 10.8",
+      "respuestaLiteral": "Las vías y salidas de evacuación"
+    },
+    {
+      "id": "OLIAS-T06-002",
+      "enunciado": "El artículo 20 LPRL exige preparar medidas en:",
+      "opciones": [
+        "Primeros auxilios, incendios y evacuación",
+        "Solo limpieza",
+        "Solo protección de datos",
+        "Solo incendios"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El empresario o Administración empleadora debe analizar emergencias y adoptar medidas de primeros auxilios, lucha contra incendios y evacuación, designando encargados.",
+      "trampaExamen": "¡Foco Examen!: El empresario o Administración empleadora debe analizar emergencias y adoptar medidas de primeros auxilios, lucha contra incendios y evacuación, designando encargados.",
+      "referencia": "Ley 31/1995, art. 20",
+      "respuestaLiteral": "Primeros auxilios, incendios y evacuación"
+    },
+    {
+      "id": "OLIAS-T06-003",
+      "enunciado": "¿Quién tiene deber principal de protección de los trabajadores?",
+      "opciones": [
+        "El servicio postal",
+        "El empresario o Administración empleadora",
+        "Solo sus compañeros",
+        "Solo el trabajador"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El empresario y las Administraciones respecto a su personal tienen deber correlativo al derecho a protección eficaz de los trabajadores.",
+      "trampaExamen": "¡Foco Examen!: El empresario y las Administraciones respecto a su personal tienen deber correlativo al derecho a protección eficaz de los trabajadores.",
+      "referencia": "Ley 31/1995, art. 14",
+      "respuestaLiteral": "El empresario o Administración empleadora"
+    },
+    {
+      "id": "OLIAS-T06-004",
+      "enunciado": "El trabajador debe, según la LPRL:",
+      "opciones": [
+        "Anular protecciones si molestan",
+        "Reparar siempre por sí mismo",
+        "Ignorar peligros",
+        "Usar correctamente equipos y comunicar riesgos"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Los trabajadores deben utilizar correctamente los equipos y medios de protección, comunicar riesgos y cooperar con la prevención.",
+      "trampaExamen": "¡Foco Examen!: Los trabajadores deben utilizar correctamente los equipos y medios de protección, comunicar riesgos y cooperar con la prevención.",
+      "referencia": "Ley 31/1995, art. 29",
+      "respuestaLiteral": "Usar correctamente equipos y comunicar riesgos"
+    },
+    {
+      "id": "OLIAS-T06-005",
+      "enunciado": "¿Qué medida tiene preferencia en la manipulación manual de cargas?",
+      "opciones": [
+        "Evitarla mediante medios técnicos cuando sea posible",
+        "Pedir que todos los bultos pesen 25 kg",
+        "No evaluar el recorrido",
+        "Levantar siempre a mano"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La primera medida es evitar manipulación manual de cargas mediante organización y medios mecánicos cuando sea posible; después se reduce el riesgo residual.",
+      "trampaExamen": "¡Foco Examen!: La primera medida es evitar manipulación manual de cargas mediante organización y medios mecánicos cuando sea posible; después se reduce el riesgo residual.",
+      "referencia": "RD 487/1997, art. 3.1",
+      "respuestaLiteral": "Evitarla mediante medios técnicos cuando sea posible"
+    },
+    {
+      "id": "OLIAS-T06-006",
+      "enunciado": "La caída provocada por un suelo mojado es principalmente un riesgo de:",
+      "opciones": [
+        "Ruido",
+        "Incendio",
+        "Resbalón al mismo nivel",
+        "Radiación"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los derrames y suelos húmedos aumentan el riesgo de resbalones y caídas al mismo nivel; deben corregirse o señalizarse oportunamente.",
+      "trampaExamen": "¡Foco Examen!: Los derrames y suelos húmedos aumentan el riesgo de resbalones y caídas al mismo nivel; deben corregirse o señalizarse oportunamente.",
+      "referencia": "RD 486/1997, anexo II; manual §6",
+      "respuestaLiteral": "Resbalón al mismo nivel"
+    },
+    {
+      "id": "OLIAS-T06-007",
+      "enunciado": "En un edificio, evacuación significa:",
+      "opciones": [
+        "Permanecer siempre en el puesto",
+        "Cerrar puertas con candado",
+        "Abandonar siguiendo rutas seguras",
+        "Utilizar siempre un ascensor"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Evacuar supone abandonar la zona siguiendo las rutas previstas; confinamiento significa permanecer en una zona segura según naturaleza del incidente.",
+      "trampaExamen": "¡Foco Examen!: Evacuar supone abandonar la zona siguiendo las rutas previstas; confinamiento significa permanecer en una zona segura según naturaleza del incidente.",
+      "referencia": "Ley 31/1995, art. 20 y plan de emergencia del centro",
+      "respuestaLiteral": "Abandonar siguiendo rutas seguras"
+    },
+    {
+      "id": "OLIAS-T06-008",
+      "enunciado": "Respecto al riesgo grave e inminente, ¿qué artículo contiene medidas de protección?",
+      "opciones": [
+        "Ley 31/1995, art. 21",
+        "Ley 39/2015, art. 1",
+        "Ley de tráfico",
+        "Código Penal, art. 1"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 21 contempla medidas ante riesgo grave e inminente, como informar y permitir interrupción de actividad cuando proceda.",
+      "trampaExamen": "¡Foco Examen!: El artículo 21 contempla medidas ante riesgo grave e inminente, como informar y permitir interrupción de actividad cuando proceda.",
+      "referencia": "Ley 31/1995, art. 21",
+      "respuestaLiteral": "Ley 31/1995, art. 21"
+    },
+    {
+      "id": "OLIAS-T06-009",
+      "enunciado": "Una salida de evacuación con cajas debe:",
+      "opciones": [
+        "Cerrarse con llave",
+        "Permanecer así si hay cartel",
+        "Dejarse bloqueada temporalmente",
+        "Quedar libre y segura"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Las cajas impiden usar la salida y deben retirarse conforme a medidas de seguridad, sin improvisar cargas que generen otro riesgo.",
+      "trampaExamen": "¡Foco Examen!: Las cajas impiden usar la salida y deben retirarse conforme a medidas de seguridad, sin improvisar cargas que generen otro riesgo.",
+      "referencia": "RD 486/1997, anexo I.10.8",
+      "respuestaLiteral": "Quedar libre y segura"
+    },
+    {
+      "id": "OLIAS-T06-010",
+      "enunciado": "¿Cuál es un ejemplo de riesgo ergonómico?",
+      "opciones": [
+        "Golpe de calor",
+        "Postura forzada al mover mobiliario",
+        "Correo electrónico",
+        "Señalización correcta"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El transporte de mobiliario con torsión y postura forzada puede provocar riesgo dorsolumbar, evaluable por la combinación de factores del anexo.",
+      "trampaExamen": "¡Foco Examen!: El transporte de mobiliario con torsión y postura forzada puede provocar riesgo dorsolumbar, evaluable por la combinación de factores del anexo.",
+      "referencia": "RD 487/1997, anexo; manual §7",
+      "respuestaLiteral": "Postura forzada al mover mobiliario"
+    },
+    {
+      "id": "OLIAS-T06-011",
+      "enunciado": "Una formación preventiva debe ser:",
+      "opciones": [
+        "Opcional solo tras accidentes",
+        "Impartida solo al jefe",
+        "Genérica siempre y sin actualización",
+        "Adecuada al puesto y suficiente"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La formación preventiva debe ser teórica y práctica, suficiente y adecuada, centrada en el puesto y actualizada cuando varíen los riesgos.",
+      "trampaExamen": "¡Foco Examen!: La formación preventiva debe ser teórica y práctica, suficiente y adecuada, centrada en el puesto y actualizada cuando varíen los riesgos.",
+      "referencia": "Ley 31/1995, art. 19",
+      "respuestaLiteral": "Adecuada al puesto y suficiente"
+    },
+    {
+      "id": "OLIAS-T06-012",
+      "enunciado": "En una emergencia el auxiliar debería:",
+      "opciones": [
+        "Bloquear accesos de salida",
+        "Ignorar el protocolo",
+        "Seguir el plan y comunicar a responsables",
+        "Realizar trabajos eléctricos sin habilitación"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "En emergencia se sigue el plan del centro, las indicaciones del personal designado y las comunicaciones previstas; no se improvisan rescates.",
+      "trampaExamen": "¡Foco Examen!: En emergencia se sigue el plan del centro, las indicaciones del personal designado y las comunicaciones previstas; no se improvisan rescates.",
+      "referencia": "Ley 31/1995, art. 20; manual §4",
+      "respuestaLiteral": "Seguir el plan y comunicar a responsables"
+    }
+  ],
+  "controlEditorial20261108": {
+    "revisadas": 12,
+    "alternativas": 48,
+    "clavesModificadas": 0,
+    "certificacionIntegral": false
+  }
+}

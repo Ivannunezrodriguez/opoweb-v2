@@ -1,0 +1,165 @@
+{
+  "tema": 7,
+  "estado": "AUDITADO",
+  "aprobadoEl": "2026-07-17",
+  "epigrafeOficial": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos laborales: Derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
+  "fechaRevisionNormativa": "2026-11-04",
+  "normas": [
+    {
+      "titulo": "Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos Laborales",
+      "referencia": "BOE-A-1995-24292",
+      "textoConsolidadoConsultado": "Última actualización publicada el 09/04/2026"
+    },
+    {
+      "titulo": "Real Decreto 39/1997, de 17 de enero, Reglamento de los Servicios de Prevención",
+      "referencia": "BOE-A-1997-1853",
+      "textoConsolidadoConsultado": "Última actualización publicada el 17/10/2025"
+    }
+  ],
+  "cobertura": [
+    {
+      "inciso": "Contexto necesario",
+      "articulos": "Ley 31/1995, artículos 1-4",
+      "contenidoExigible": [
+        "normativa preventiva",
+        "objeto y mínimos indisponibles",
+        "aplicación al personal público",
+        "definiciones de riesgo, daño, condición y EPI"
+      ]
+    },
+    {
+      "inciso": "Derechos y obligaciones",
+      "articulos": "Ley 31/1995, artículos 14-29",
+      "contenidoExigible": [
+        "derecho de protección y deber del empleador",
+        "principios de acción preventiva",
+        "plan, evaluación y planificación",
+        "información, formación y emergencias",
+        "riesgo grave e inminente",
+        "vigilancia de la salud y documentación",
+        "coordinación y protecciones especiales",
+        "obligaciones de trabajadores"
+      ]
+    },
+    {
+      "inciso": "Servicios de prevención en la Ley",
+      "articulos": "Ley 31/1995, artículos 30-32 bis",
+      "contenidoExigible": [
+        "trabajadores designados",
+        "servicios propios y ajenos",
+        "funciones del servicio",
+        "mutuas",
+        "recursos preventivos"
+      ]
+    },
+    {
+      "inciso": "Modalidades reglamentarias",
+      "articulos": "Real Decreto 39/1997, artículos 10-22 bis",
+      "contenidoExigible": [
+        "asunción personal",
+        "trabajadores designados",
+        "servicio propio obligatorio",
+        "servicio ajeno y concierto",
+        "servicio mancomunado",
+        "presencia de recursos preventivos"
+      ]
+    },
+    {
+      "inciso": "Consulta",
+      "articulos": "Ley 31/1995, artículos 18.2 y 33",
+      "contenidoExigible": [
+        "consulta previa",
+        "decisiones sujetas a consulta",
+        "información suficiente",
+        "propuestas de mejora"
+      ]
+    },
+    {
+      "inciso": "Participación y Delegados",
+      "articulos": "Ley 31/1995, artículos 34-37",
+      "contenidoExigible": [
+        "representación especializada",
+        "escala de Delegados",
+        "competencias y facultades",
+        "plazo de quince días",
+        "garantías, formación y sigilo"
+      ]
+    },
+    {
+      "inciso": "Comité y colaboración inspectora",
+      "articulos": "Ley 31/1995, artículos 38-40",
+      "contenidoExigible": [
+        "Comité desde cincuenta trabajadores",
+        "composición paritaria",
+        "reunión trimestral",
+        "competencias del Comité",
+        "acompañamiento a la Inspección"
+      ]
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "política institucional completa de los artículos 5-13",
+    "responsabilidades, infracciones y sanciones de los artículos 42-54",
+    "desarrollo íntegro del Real Decreto 171/2004",
+    "normativa técnica sectorial completa",
+    "auditorías y acreditación reglamentarias en toda su extensión"
+  ],
+  "criterioDeCierre": "Aprobado expresamente por el usuario el 17 de julio de 2026. Vigencia reconfirmada el 30 de julio de 2026 contra el texto consolidado oficial.",
+  "controlDefinicionRiesgo20261104": {
+    "fecha": "2026-11-04",
+    "norma": "Ley 31/1995, artículo 4.2 y 4.4",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a4",
+    "correccion": "Sustituida suma no prevista en ley por valoración conjunta de probabilidad y severidad",
+    "estado": "REVISION_PARCIAL_SIN_CERTIFICACION_INTEGRAL"
+  },
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "Siete bloques de programa, manual, doce claves y 48 opciones con cotejo artículo por artículo",
+    "documento": "content/la-puebla/tema-07/cotejo-integral-2026-11-04.md",
+    "opcionesVerificadas": 48,
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionTecnicaGlobal": false
+  },
+  "controlFocal20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T06_T08_20261106.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T06_T08_20261106.md",
+    "prueba": "tests/validate-la-puebla-repaso-t06-t08-20261106.mjs",
+    "bloquesExistentes": 7,
+    "bancoHistoricoPreguntas": 12,
+    "bancoHistoricoAlternativas": 48,
+    "microcasosExtraMarkdown": 3,
+    "alternativasExtraMarkdown": 12,
+    "fuentes": [
+      "BOE-A-1995-24292",
+      "BOE-A-1997-1853",
+      "Anteproyecto Consejo Ministros 2026-04-28"
+    ],
+    "comprobaciones": [
+      "LPRL 21.3 24 horas autoridad laboral",
+      "36.3 15 días Delegados, excepcional tiempo imprescindible",
+      "38.2 Comité desde 50",
+      "RD 39/1997 art 14 servicio propio por tamaño más de 500",
+      "Anteproyecto del 28/04/2026 no es norma vigente"
+    ],
+    "correccion": "Se corrigen metadatos de preguntas inexistentes y reserva historica; se documenta anteproyecto",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "recertificacionIntegral": false,
+    "pruebaNavegadorReal": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pendientes": [
+      "comprobacion legislacion a fecha examen 2026-11-14",
+      "GitHub Actions run sobre ultimo commit",
+      "navegador real movil WCAG PWA",
+      "certificacion juridica integral de todo el manual"
+    ]
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "aprobadoHistoricamente": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "tema": 7,
+  "estado": "AUDITADO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales con referencias Ley 4/2011 y reforma Ley 2/2026 art.70.2.e; verificación funcional pendiente.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T07-001",
+      "enunciado": "Según el artículo 4.2 de la Ley 4/2011, ¿cuál es una clase de personal empleado público?",
+      "opciones": [
+        "Concesionario de servicio",
+        "Voluntario sin retribución",
+        "Personal funcionario interino",
+        "Contratista mercantil externo siempre"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 4.2 distingue personal funcionario de carrera, funcionario interino, laboral (fijo, indefinido o temporal) y eventual.",
+      "trampaExamen": "El personal eventual también es empleado público, pero un contratista externo o voluntario no adquiere esa condición por ese solo hecho.",
+      "referencia": "Ley 4/2011 art. 4.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-002",
+      "enunciado": "¿Qué antigüedad mínima exige, como regla general, el artículo 65.2 de la Ley 4/2011 para participar en procesos de promoción interna?",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Tres años",
+        "Dos años de servicio activo en el cuerpo o escala de procedencia"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 65.2 exige al personal funcionario de carrera los requisitos de acceso al cuerpo o escala de destino y una antigüedad de al menos **dos años de servicio activo** en el de procedencia; la norma contempla períodos computables y particularidades para funcionarios procedentes de otras Administraciones.",
+      "trampaExamen": "**Promoción interna: dos años**, con períodos asimilados y reglas específicas; no equivale a la provisión de puestos mediante concurso.",
+      "referencia": "Ley 4/2011, art. 65.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-003",
+      "enunciado": "¿A qué funciones se destina el personal eventual según el artículo 12.1?",
+      "opciones": [
+        "Confianza o asesoramiento especial",
+        "Inspección judicial obligatoria",
+        "Funciones de voluntariado",
+        "Toda tarea eventual de obra"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Según el artículo 12.1, el personal eventual tiene nombramiento no permanente y realiza exclusivamente funciones calificadas de confianza o asesoramiento especial, con retribución presupuestada.",
+      "trampaExamen": "**Personal eventual** no es lo mismo que **funcionario interino** ni que un trabajador laboral temporal.",
+      "referencia": "Ley 4/2011 art. 12.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-004",
+      "enunciado": "¿Constituye mérito la condición de personal eventual para acceder al empleo público o promocionar internamente?",
+      "opciones": [
+        "Sólo en diputaciones",
+        "No",
+        "Sólo durante un año",
+        "Sí, siempre"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 12.5 señala que la condición de personal eventual **no constituye mérito** para acceder al empleo público ni para promoción interna. El nombramiento y cese son libres según el apartado 4.",
+      "trampaExamen": "La experiencia que deriva exclusivamente de la condición de eventual no se convierte en mérito por haber prestado funciones de confianza.",
+      "referencia": "Ley 4/2011 art. 12.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-005",
+      "enunciado": "Según el artículo 19.4 de la Ley 4/2011, ¿en qué plazo debe desarrollarse la ejecución total de una oferta de empleo público?",
+      "opciones": [
+        "Un año desde la aprobación",
+        "Dos años desde la convocatoria",
+        "Tres años improrrogables contados desde el día siguiente a su publicación",
+        "Cinco años desde la toma de posesión"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 19.4 establece un plazo **improrrogable de tres años** para la ejecución total de la oferta de empleo público, computado **desde el día siguiente al de su publicación**.",
+      "trampaExamen": "**Tres años** desde el **día siguiente a la publicación de la OEP**; no desde que se publiquen las bases o se convoque el examen.",
+      "referencia": "Ley 4/2011, art. 19.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-006",
+      "enunciado": "¿Cuál es el procedimiento normal de provisión de puestos de funcionario de carrera según el artículo 67.2?",
+      "opciones": [
+        "Sorteo público",
+        "Subasta",
+        "Nombramiento libre sin convocatoria",
+        "Concurso"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 67.2 configura el **concurso** como procedimiento **normal** para proveer puestos de funcionarios de carrera, junto a la **libre designación con convocatoria pública**. El artículo 70.2 ha sido modificado por la **Ley 2/2026**, de modo que las categorías de puestos de libre designación deben leerse en su versión vigente.",
+      "trampaExamen": "**Concurso** es procedimiento normal de provisión; **libre designación** exige convocatoria pública y no debe confundirse con selección inicial de personal.",
+      "referencia": "Ley 4/2011 art. 67.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-007",
+      "enunciado": "¿Qué supuesto añadió la Ley 2/2026 al artículo 70.2 de la Ley 4/2011 de Castilla-La Mancha sobre libre designación?",
+      "opciones": [
+        "Estableció la libre designación obligatoria para todos los puestos de personal auxiliar administrativo",
+        "Suprimió el concurso como procedimiento normal de provisión",
+        "Incluyó determinados puestos del personal estatutario del SESCAM previstos por la Ley 55/2003 y su normativa de desarrollo",
+        "Derogó los requisitos de publicación de la convocatoria"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La disposición final tercera de la **Ley 2/2026, de 9 de abril**, añadió la **letra e) al artículo 70.2 de la Ley 4/2011**, relativa a determinados puestos del **personal estatutario adscrito al Servicio de Salud de Castilla-La Mancha**, conforme a la **Ley 55/2003** y su normativa de desarrollo. El **concurso** sigue siendo el procedimiento normal del **art. 67.2**.",
+      "trampaExamen": "**Libre designación** no equivale a libre elección de cualquier puesto. La reforma de **2026** se refiere a determinados puestos estatutarios del SESCAM, **no a todos**.",
+      "referencia": "Ley 2/2026, disposición final 3.ª, art. 70.2.e Ley 4/2011 · https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086"
+    },
+    {
+      "id": "DT-C2-T07-008",
+      "enunciado": "¿Qué modalidad es personal eventual?",
+      "opciones": [
+        "Personal laboral fijo",
+        "Personal que desempeña funciones de confianza o asesoramiento especial",
+        "Funcionario de carrera siempre",
+        "Personal de contrata"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley 4/2011 regula esta figura en el precepto indicado, con los requisitos y especialidades legales.",
+      "trampaExamen": "Distinguir modalidades y condiciones legales de acceso, carrera o provisión.",
+      "referencia": "Ley 4/2011 art. 12 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-009",
+      "enunciado": "¿Qué principio rige el acceso al empleo público?",
+      "opciones": [
+        "Libre designación discrecional siempre",
+        "Solo antigüedad",
+        "Igualdad, mérito y capacidad",
+        "Sorteo como regla"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Ley 4/2011 regula esta figura en el precepto indicado, con los requisitos y especialidades legales.",
+      "trampaExamen": "Distinguir modalidades y condiciones legales de acceso, carrera o provisión.",
+      "referencia": "Ley 4/2011 art. 37 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-010",
+      "enunciado": "¿Qué órgano no puede formar parte del órgano de selección en los términos de la ley?",
+      "opciones": [
+        "Personal funcionario de carrera capacitado",
+        "Especialistas técnicos",
+        "Vocales con cualificación",
+        "Personal eventual"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La Ley 4/2011 regula esta figura en el precepto indicado, con los requisitos y especialidades legales.",
+      "trampaExamen": "Distinguir modalidades y condiciones legales de acceso, carrera o provisión.",
+      "referencia": "Ley 4/2011 art. 49 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-011",
+      "enunciado": "¿Cuál es el sistema ordinario para proveer puestos de personal funcionario de carrera?",
+      "opciones": [
+        "Concurso",
+        "Subasta",
+        "Oposición de nuevo ingreso obligatoria",
+        "Sorteo"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La Ley 4/2011 regula esta figura en el precepto indicado, con los requisitos y especialidades legales.",
+      "trampaExamen": "Distinguir modalidades y condiciones legales de acceso, carrera o provisión.",
+      "referencia": "Ley 4/2011 art. 67.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-012",
+      "enunciado": "¿Qué caracteriza la carrera horizontal?",
+      "opciones": [
+        "Obliga a cambiar de cuerpo",
+        "Progresión sin necesidad de cambiar de puesto de trabajo",
+        "Exige siempre cambiar de localidad",
+        "Supone cese automático"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Ley 4/2011 regula esta figura en el precepto indicado, con los requisitos y especialidades legales.",
+      "trampaExamen": "Distinguir modalidades y condiciones legales de acceso, carrera o provisión.",
+      "referencia": "Ley 4/2011 art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-013",
+      "enunciado": "¿Qué figura permite desempeñar temporalmente un puesto por necesidades del servicio?",
+      "opciones": [
+        "Subasta pública",
+        "Nombramiento como alcalde",
+        "Comisión de servicios",
+        "Expropiación"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Ley 4/2011 regula esta figura en el precepto indicado, con los requisitos y especialidades legales.",
+      "trampaExamen": "Distinguir modalidades y condiciones legales de acceso, carrera o provisión.",
+      "referencia": "Ley 4/2011 art. 74 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-014",
+      "enunciado": "¿Cuál es una modalidad de carrera profesional?",
+      "opciones": [
+        "Condena disciplinaria",
+        "Contratación menor",
+        "Licencia municipal",
+        "Carrera vertical"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La Ley 4/2011 regula esta figura en el precepto indicado, con los requisitos y especialidades legales.",
+      "trampaExamen": "Distinguir modalidades y condiciones legales de acceso, carrera o provisión.",
+      "referencia": "Ley 4/2011 arts. 62–63 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-015",
+      "enunciado": "¿Qué se entiende por personal funcionario de carrera?",
+      "opciones": [
+        "Contratado mercantil",
+        "Interino para proyecto",
+        "Nombrado legalmente con relación estatutaria permanente",
+        "Voluntario"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-016",
+      "enunciado": "¿Cuál es el destino de las funciones que impliquen participación en potestades públicas?",
+      "opciones": [
+        "Siempre personal eventual",
+        "Siempre cualquier contratista",
+        "Exclusivamente autónomos",
+        "Personal funcionario conforme a la reserva legal"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 6 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-017",
+      "enunciado": "¿Qué característica tiene una oferta de empleo público?",
+      "opciones": [
+        "Contiene necesidades de recursos humanos con asignación presupuestaria que deban proveerse mediante nuevo ingreso",
+        "Es una relación de vacaciones",
+        "Es un contrato ya firmado",
+        "Sustituye automáticamente las convocatorias"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 19 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-018",
+      "enunciado": "¿Qué plazo general fija la ley para ejecutar totalmente la OEP?",
+      "opciones": [
+        "Un año",
+        "Tres años improrrogables desde el día siguiente a publicación",
+        "Diez años",
+        "No hay plazo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 19.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-019",
+      "enunciado": "¿Cómo se adquiere la condición de funcionario de carrera?",
+      "opciones": [
+        "Solo aprobando un examen",
+        "Solo con título",
+        "Cumpliendo sucesivamente requisitos legales de selección, nombramiento, acatamiento y toma de posesión",
+        "Por prestación voluntaria"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 art. 55 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    },
+    {
+      "id": "DT-C2-T07-020",
+      "enunciado": "¿Cuál es una diferencia entre concurso y libre designación?",
+      "opciones": [
+        "Ambos son discrecionales sin convocatoria",
+        "El concurso es excepcional y la libre designación regla",
+        "Ninguno exige requisitos",
+        "El concurso es sistema normal; la libre designación se reserva a puestos previstos y requiere convocatoria pública"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La regla se encuentra en la Ley 4/2011 de empleo público de Castilla-La Mancha, con los requisitos recogidos en el artículo citado.",
+      "trampaExamen": "Distinguir acceso, nombramiento, OEP y provisión de puestos.",
+      "referencia": "Ley 4/2011 arts. 67 y 70 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752"
+    }
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 7,
+    "fuenteBase": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+    "otrasFuentes": [
+      "https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90065",
+      "https://www.boe.es/buscar/doc.php?id=DOCM-q-2026-90086"
+    ],
+    "articulos": [
+      "4.2",
+      "12.1",
+      "12.4–12.5",
+      "19.4",
+      "65.2",
+      "67.2"
+    ],
+    "resultado": "Se verificaron seis respuestas y se sustituyeron dos por promoción interna de dos años y ejecución total de OEP en tres años.",
+    "alertaVigencia": "El consolidado del BOE muestra integración hasta 21/03/2024, pero sus referencias posteriores registran reformas de 2026 de los artículos 121, DA7 y 70.2. Las seis preguntas no dependen del tenor reformado del 70.2; no certificar el manual íntegro con solo la consolidación antigua.",
+    "limitacion": "Auditoría del banco de preguntas, no de todos los apartados del manual.",
+    "actualizacion": "2026-10-27",
+    "nota": "Añadida T07-007 por reforma autonómica de libre designación del personal estatutario en 2026."
+  },
+  "cierreEditorialC2_07_10_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
+}

@@ -1,0 +1,311 @@
+# Tema 7 · El acto administrativo
+
+> **Epígrafe oficial:** El acto administrativo: concepto, clases y elementos. Requisitos. Eficacia. Nulidad y anulabilidad.
+
+## 1. Concepto de acto administrativo
+
+El acto administrativo es una declaración unilateral de voluntad, juicio, conocimiento o deseo realizada por una Administración Pública en ejercicio de una potestad administrativa distinta de la potestad reglamentaria, destinada a producir efectos jurídicos concretos.
+
+### Caracteres esenciales
+
+- procede de una Administración Pública o de un órgano que ejerce potestades administrativas;
+- se dicta en ejercicio de una potestad administrativa;
+- produce efectos jurídicos individualizados;
+- está sometido al Derecho administrativo;
+- goza, con carácter general, de presunción de validez y ejecutividad.
+
+> ⚠️ **¡Foco Examen!:** el reglamento no es un acto administrativo. El reglamento tiene carácter normativo y general; el acto administrativo aplica el ordenamiento a un supuesto concreto.
+
+## 2. Clases de actos administrativos
+
+| Criterio | Clases |
+|---|---|
+| Por sus destinatarios | Singulares y generales |
+| Por sus efectos | Favorables y de gravamen |
+| Por el margen de decisión | Reglados y discrecionales |
+| Por su posición en el procedimiento | De trámite y definitivos |
+| Por su impugnabilidad | Firmes y no firmes |
+| Por su manifestación | Expresos y presuntos |
+| Por el órgano que interviene | Simples y complejos |
+
+### Actos de trámite cualificados
+
+Aunque no ponen fin al procedimiento, pueden recurrirse separadamente cuando:
+
+- deciden directa o indirectamente el fondo;
+- determinan la imposibilidad de continuar;
+- producen indefensión;
+- ocasionan perjuicio irreparable a derechos o intereses legítimos.
+
+> ⚠️ **¡Foco Examen!:** no todo acto de trámite es recurrible de forma autónoma. Solo lo son los actos de trámite cualificados.
+
+## 3. Elementos del acto administrativo
+
+### 3.1. Elemento subjetivo
+
+Comprende el órgano que dicta el acto. Debe reunir:
+
+- competencia material, territorial y jerárquica;
+- titularidad válida;
+- ausencia de causas de abstención cuando proceda.
+
+La incompetencia manifiesta por razón de la materia o del territorio determina nulidad de pleno derecho.
+
+### 3.2. Elemento objetivo
+
+El contenido del acto debe ser:
+
+- posible;
+- lícito;
+- determinado o determinable;
+- adecuado a la finalidad de la potestad ejercida.
+
+Los actos con contenido imposible son nulos de pleno derecho.
+
+### 3.3. Elemento causal y finalista
+
+La causa es el presupuesto de hecho y de Derecho que justifica el acto. La finalidad debe coincidir con el interés público previsto por la norma habilitante.
+
+La desviación de poder constituye causa de anulabilidad.
+
+### 3.4. Elemento formal
+
+Los actos se producirán por escrito a través de medios electrónicos, salvo que su naturaleza exija o permita otra forma más adecuada de expresión y constancia.
+
+## 4. Requisitos de los actos administrativos
+
+### 4.1. Producción y contenido
+
+Los actos administrativos deben dictarse:
+
+- por el órgano competente;
+- ajustándose al procedimiento establecido;
+- con contenido conforme al ordenamiento jurídico;
+- adecuado a los fines que justifican su adopción.
+
+### 4.2. Motivación
+
+Deben motivarse, con sucinta referencia de hechos y fundamentos de Derecho, entre otros:
+
+- los actos que limiten derechos subjetivos o intereses legítimos;
+- los que resuelvan revisión de oficio, recursos o arbitrajes;
+- los que se separen del criterio seguido en actuaciones precedentes o de dictámenes consultivos;
+- los que acuerden suspensión de actos;
+- los que apliquen tramitación de urgencia o amplíen plazos;
+- los que rechacen pruebas;
+- los que terminen procedimientos por imposibilidad material sobrevenida;
+- las propuestas y resoluciones sancionadoras;
+- los actos dictados en ejercicio de potestades discrecionales.
+
+> ⚠️ **¡Foco Examen!:** motivar no equivale a extenderse. La Ley exige una referencia sucinta a hechos y fundamentos de Derecho, pero suficiente para conocer la razón de la decisión.
+
+### 4.3. Forma
+
+Como regla general, los actos se producirán por escrito mediante medios electrónicos.
+
+Cuando varios actos de la misma naturaleza deban dictarse conjuntamente, pueden refundirse en un único acto, siempre que se individualicen sus efectos para cada interesado.
+
+## 5. Eficacia de los actos administrativos
+
+### 5.1. Presunción de validez
+
+Los actos administrativos se presumen válidos y producen efectos desde la fecha en que se dicten, salvo que en ellos se disponga otra cosa.
+
+La eficacia puede quedar demorada cuando:
+
+- lo exija el contenido del acto;
+- esté supeditada a notificación, publicación o aprobación superior.
+
+### 5.2. Retroactividad
+
+Excepcionalmente podrá otorgarse eficacia retroactiva:
+
+- cuando el acto se dicte en sustitución de otro anulado;
+- cuando produzca efectos favorables al interesado, siempre que los presupuestos de hecho existieran en la fecha a la que se retrotrae la eficacia y no se lesionen derechos o intereses legítimos de terceros.
+
+> ⚠️ **¡Foco Examen!:** la retroactividad favorable no es automática: exige que los hechos necesarios ya existieran y que no se perjudiquen derechos de otras personas.
+
+### 5.3. Ejecutividad
+
+Los actos sujetos al Derecho administrativo son inmediatamente ejecutivos, salvo:
+
+- suspensión de la ejecución;
+- resolución sancionadora contra la que quepa recurso administrativo ordinario;
+- disposición en contrario;
+- necesidad de aprobación o autorización superior.
+
+## 6. Notificación y publicación
+
+La notificación debe contener:
+
+- texto íntegro de la resolución;
+- indicación de si pone fin o no a la vía administrativa;
+- recursos procedentes;
+- órgano ante el que interponerlos;
+- plazo para recurrir.
+
+Toda notificación debe cursarse dentro de **10 días** desde que el acto haya sido dictado.
+
+La publicación sustituirá a la notificación cuando:
+
+- el acto tenga por destinataria una pluralidad indeterminada de personas;
+- se trate de actos integrantes de procedimientos selectivos o de concurrencia competitiva, **mediante publicación en el medio indicado por la convocatoria**, cuyo anuncio vincula a los participantes (**art. 45.1.b**);
+- así lo establezca la normativa reguladora.
+
+> ⚠️ **¡Foco Examen!:** el plazo de **10 días** es para cursar la notificación, no para que el interesado interponga recurso.
+
+## 7. Nulidad de pleno derecho
+
+Son nulos de pleno derecho los actos que:
+
+1. lesionen derechos y libertades susceptibles de amparo constitucional;
+2. sean dictados por órgano manifiestamente incompetente por razón de la materia o del territorio;
+3. tengan contenido imposible;
+4. sean constitutivos de infracción penal o se dicten como consecuencia de esta;
+5. se dicten prescindiendo total y absolutamente del procedimiento legalmente establecido o de las reglas esenciales para formar la voluntad de órganos colegiados;
+6. otorguen facultades o derechos careciendo de requisitos esenciales para adquirirlos;
+7. incurran en cualquier otro supuesto previsto expresamente por una ley.
+
+También son nulas las disposiciones administrativas que:
+
+- vulneren la Constitución, las leyes u otras disposiciones de rango superior;
+- regulen materias reservadas a la ley;
+- establezcan retroactividad de disposiciones sancionadoras no favorables o restrictivas de derechos individuales.
+
+## 8. Anulabilidad
+
+Son anulables los actos que incurran en cualquier infracción del ordenamiento jurídico, incluida la desviación de poder.
+
+El defecto de forma solo determina anulabilidad cuando:
+
+- el acto carezca de los requisitos formales indispensables para alcanzar su fin;
+- produzca indefensión.
+
+La realización de actuaciones fuera de plazo solo implica anulabilidad cuando así lo imponga la naturaleza del término o plazo.
+
+## 9. Diferencias entre nulidad y anulabilidad
+
+| Aspecto | Nulidad de pleno derecho | Anulabilidad |
+|---|---|---|
+| Gravedad | Máxima | Menor |
+| Causas | Tasadas | Cualquier infracción del ordenamiento |
+| Efectos | El acto carece de validez desde su origen | Produce efectos mientras no sea anulado |
+| Subsanación | No cabe convalidación | Puede convalidarse |
+| Alegación | Puede invocarse en cualquier momento dentro de los cauces legales | Sujeta a los plazos de impugnación |
+
+> ⚠️ **¡Foco Examen!:** la incompetencia jerárquica no produce por sí sola nulidad de pleno derecho; la nulidad exige incompetencia manifiesta por razón de la materia o del territorio.
+
+## 10. Límites, conversión y convalidación
+
+### 10.1. Límites a la extensión
+
+La nulidad o anulabilidad de un acto no implica la de los actos sucesivos independientes del primero.
+
+La nulidad o anulabilidad parcial no afecta a las partes independientes, salvo que la parte viciada sea esencial.
+
+### 10.2. Conversión
+
+Los actos nulos o anulables que contengan los elementos constitutivos de otro acto distinto producirán los efectos de este.
+
+### 10.3. Conservación
+
+El órgano que declare la nulidad o anule actuaciones conservará aquellos actos y trámites cuyo contenido hubiera permanecido igual de no haberse cometido la infracción.
+
+### 10.4. Convalidación
+
+La Administración puede convalidar los actos anulables subsanando sus vicios.
+
+- si el vicio consiste en incompetencia no determinante de nulidad, puede convalidar el órgano competente superior jerárquico;
+- si falta una autorización, puede convalidarse mediante su otorgamiento posterior.
+
+La convalidación produce efectos desde su fecha, sin perjuicio de los supuestos de retroactividad legalmente admitidos.
+
+## 11. Esquema final
+
+```text
+ACTO ADMINISTRATIVO
+├── Concepto y clases
+├── Elementos
+│   ├── Sujeto
+│   ├── Objeto
+│   ├── Causa y finalidad
+│   └── Forma
+├── Requisitos
+│   ├── Competencia
+│   ├── Procedimiento
+│   ├── Contenido lícito
+│   └── Motivación
+├── Eficacia
+│   ├── Presunción de validez
+│   ├── Demora
+│   ├── Retroactividad excepcional
+│   └── Ejecutividad
+└── Invalidez
+    ├── Nulidad de pleno derecho
+    ├── Anulabilidad
+    ├── Conversión
+    ├── Conservación
+    └── Convalidación
+```
+
+> ⚠️ **¡Foco Examen!:** nulidad y anulabilidad no se confunden con ineficacia. Un acto puede ser válido pero todavía ineficaz por falta de notificación, publicación o aprobación superior.
+
+
+## 12. Control de notificaciones e invalidez — **29/10/2026**
+
+| Supuesto | Regla | Precepto |
+|---|---|---|
+| Notificación del acto | Debe cursarse dentro de **10 días** desde la fecha del acto | **Ley 39/2015, 40.2** |
+| Notificación electrónica obligatoria sin acceso | Se entiende rechazada tras **10 días naturales** desde puesta a disposición | **43.2** |
+| Notificación infructuosa | Anuncio en el **BOE**; otros medios son complementarios | **44** |
+| Procedimientos selectivos | Publicación en el medio indicado en la **convocatoria** | **45.1.b** |
+| Acto de contenido imposible | **Nulidad de pleno derecho** | **47.1.c** |
+| Desviación de poder | **Anulabilidad** | **48.1** |
+| Acto anulable con vicio subsanable | Posible **convalidación** | **52** |
+
+> ⚠️ **¡Foco Examen!:** Los **10 días** para cursar una notificación (art. **40.2**) no son los **10 días naturales** para el rechazo por falta de acceso a una notificación electrónica obligatoria (art. **43.2**).
+
+**Fuente primaria:** [Ley 39/2015, arts. 34–52, BOE consolidado (última actualización publicada **06/11/2024**)](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco ampliado a **20 preguntas**. Pendiente auditoría integral y comprobación funcional del sitio antes de dar por definitivamente certificado el tema.
+
+
+## 13. Auditoría focalizada de notificación e invalidez — **30/10/2026**
+
+| Supuesto | Regla | Ley 39/2015 |
+|---|---|---|
+| Contenido de notificación | Texto íntegro, indicación de si pone fin a la vía administrativa y **recursos, órgano y plazo** | **40.2** |
+| Segundo intento domiciliario | **Una sola vez** más, en hora diferente y dentro de **3 días**; diferencia mínima de **3 horas**, alternando antes/después de **15:00** | **42.2** |
+| Notificación electrónica obligatoria sin acceso | Se entiende rechazada tras **10 días naturales** desde su puesta a disposición | **43.2** |
+| Notificación infructuosa | Anuncio en el **Boletín Oficial del Estado**; otros medios son complementarios | **44** |
+| Incompetencia manifiesta por materia o territorio | **Nulidad de pleno derecho** | **47.1.b** |
+| Defecto formal | **Anulabilidad** si faltan requisitos formales indispensables o hay **indefensión** | **48.2** |
+| Conservación | Se conservan actuaciones cuyo contenido no habría variado sin la infracción | **51** |
+| Convalidación por incompetencia no invalidante de pleno derecho | Puede realizarla el **órgano competente** cuando sea superior jerárquico | **52.3** |
+
+> ⚠️ **¡Foco Examen!:** El segundo intento domiciliario no es necesariamente al día siguiente: debe realizarse dentro de **3 días**, en franja horaria distinta y con **3 horas** de separación mínima.
+
+> ⚠️ **¡Foco Examen!:** La **incompetencia manifiesta por materia o territorio** provoca nulidad; una incompetencia **no determinante de nulidad** puede ser convalidable en los términos del artículo **52.3**.
+
+Fuente: [Ley 39/2015 consolidada en el BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Revisión parcial: queda pendiente auditoría jurídica integral y prueba funcional.
+
+
+## Cierre jurídico del bloque 4–7: eficacia, notificaciones e invalidez (**05/11/2026**)
+
+### Cómputos de notificación que no deben confundirse
+
+| Institución | Plazo y condición | Precepto |
+|---|---|---|
+| **Cursar** una notificación después de dictar un acto | **10 días** desde la fecha del acto | **Art. 40.2** |
+| **Segundo intento** en domicilio si nadie recibe el primero | **Una sola vez más**, dentro de los **3 días siguientes**, en franja opuesta a **15:00** y **al menos 3 horas** de diferencia | **Art. 42.2** |
+| Notificación electrónica **obligatoria** o elegida expresamente **sin acceder** | Rechazo por transcurso de **10 días naturales** desde puesta a disposición | **Art. 43.2** |
+| Notificación infructuosa | Anuncio en el **Boletín Oficial del Estado**; otros medios, complementarios | **Art. 44** |
+| Procedimientos selectivos / concurrencia competitiva | Publicación en el **medio indicado en la convocatoria**, sin validez de un medio distinto como sustituto automático | **Art. 45.1.b** |
+
+### Nulidad, anulabilidad y efecto de los actos posteriores
+
+La **nulidad de pleno derecho** por incompetencia exige que sea **manifiesta por razón de materia o territorio** (**47.1.b**). Los demás vicios son **anulables** cuando concurran los requisitos del **art. 48**, incluidos defectos de forma que impidan alcanzar el fin del acto o causen indefensión. La **convalidación** solo alcanza **actos anulables** (**art. 52**).
+
+La invalidez de un acto **no se propaga automáticamente** a los actos posteriores **independientes** de él (**art. 49.1**). Si se anulan actuaciones, deben conservarse los actos y trámites cuyo contenido hubiera sido igual (**art. 51**).
+
+> ⚠️ **¡Foco Examen!:** **10 días** para cursar notificación ≠ **10 días naturales** para entender rechazada la electrónica. **Nulidad de un acto** ≠ nulidad automática de todo acto posterior: importa que sea **independiente**.
+
+**Fuente normativa:** [**Ley 39/2015, arts. 34–52 y 112.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).

@@ -1,0 +1,317 @@
+{
+  "tema": 33,
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T33-001",
+      "pregunta": "¿Qué atajo abre una nueva pestaña en Microsoft Edge?",
+      "opciones": [
+        "Ctrl + T",
+        "Ctrl + N",
+        "Ctrl + W",
+        "Ctrl + H"
+      ],
+      "correcta": 0,
+      "justificacion": "La combinación Ctrl + T abre una nueva pestaña dentro de la ventana actual de Microsoft Edge.",
+      "trampa": "Ctrl + N abre una nueva ventana, no una nueva pestaña.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#2-navegación-mediante-pestañas",
+      "respuestaLiteral": "Ctrl + T"
+    },
+    {
+      "id": "DIP-T33-002",
+      "pregunta": "¿Qué atajo reabre la última pestaña cerrada?",
+      "opciones": [
+        "Ctrl + Mayús + N",
+        "Ctrl + Mayús + T",
+        "Ctrl + D",
+        "Ctrl + J"
+      ],
+      "correcta": 1,
+      "justificacion": "La combinación Ctrl + Mayús + T reabre la última pestaña cerrada en Microsoft Edge.",
+      "trampa": "Ctrl + Mayús + N abre una ventana InPrivate.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#2-navegación-mediante-pestañas",
+      "respuestaLiteral": "Ctrl + Mayús + T"
+    },
+    {
+      "id": "DIP-T33-003",
+      "pregunta": "Guardar una página en favoritos supone, con carácter general:",
+      "opciones": [
+        "Guardar su dirección para acceder después",
+        "Guardar una copia completa sin conexión",
+        "Eliminarla del historial",
+        "Descargar todos sus archivos"
+      ],
+      "correcta": 0,
+      "justificacion": "Los favoritos conservan principalmente la dirección web de una página para facilitar su acceso posterior.",
+      "trampa": "Guardar una página como favorita no equivale a guardar una copia local ni a descargar su contenido.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#3-favoritos",
+      "respuestaLiteral": "Guardar su dirección para acceder después"
+    },
+    {
+      "id": "DIP-T33-004",
+      "pregunta": "¿Qué atajo abre el historial de Microsoft Edge?",
+      "opciones": [
+        "Ctrl + J",
+        "Ctrl + D",
+        "Ctrl + F",
+        "Ctrl + H"
+      ],
+      "correcta": 3,
+      "justificacion": "La combinación Ctrl + H abre el historial de navegación de Microsoft Edge.",
+      "trampa": "Ctrl + J abre el panel de descargas, no el historial.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#4-historial",
+      "respuestaLiteral": "Ctrl + H"
+    },
+    {
+      "id": "DIP-T33-005",
+      "pregunta": "Eliminar una entrada de la lista de descargas de Edge:",
+      "opciones": [
+        "Borra siempre el archivo del disco",
+        "Vacía la Papelera de Windows",
+        "No implica necesariamente borrar el archivo descargado",
+        "Desinstala Edge"
+      ],
+      "correcta": 2,
+      "justificacion": "La entrada mostrada en el historial o panel de descargas y el archivo almacenado físicamente en el disco son elementos distintos.",
+      "trampa": "Eliminar la entrada de la lista no implica necesariamente eliminar el archivo descargado del equipo.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#5-descargas",
+      "respuestaLiteral": "No implica necesariamente borrar el archivo descargado"
+    },
+    {
+      "id": "DIP-T33-006",
+      "pregunta": "La navegación InPrivate:",
+      "opciones": [
+        "Elimina normalmente ciertos datos locales al cerrar todas las ventanas InPrivate",
+        "Garantiza anonimato total",
+        "Impide toda supervisión de red",
+        "Borra automáticamente todos los archivos descargados"
+      ],
+      "correcta": 0,
+      "justificacion": "La navegación InPrivate reduce la conservación local de determinados datos de la sesión al cerrar todas sus ventanas, pero no garantiza anonimato total.",
+      "trampa": "Los archivos descargados y los favoritos creados durante la sesión pueden permanecer después de cerrarla.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#6-navegación-inprivate",
+      "respuestaLiteral": "Elimina normalmente ciertos datos locales al cerrar todas las ventanas InPrivate"
+    },
+    {
+      "id": "DIP-T33-007",
+      "pregunta": "En GroupWise, el campo CCO sirve para:",
+      "opciones": [
+        "Enviar una copia visible",
+        "Clasificar el mensaje",
+        "Ocultar esos destinatarios a los demás receptores",
+        "Añadir un adjunto"
+      ],
+      "correcta": 2,
+      "justificacion": "Los destinatarios incluidos en el campo CCO reciben el mensaje, pero no son visibles para los demás receptores.",
+      "trampa": "El campo CC muestra sus destinatarios; el campo CCO los oculta a los demás receptores.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#11-redacción-y-envío-de-mensajes",
+      "respuestaLiteral": "Ocultar esos destinatarios a los demás receptores"
+    },
+    {
+      "id": "DIP-T33-008",
+      "pregunta": "¿Qué diferencia esencial existe entre responder y reenviar?",
+      "opciones": [
+        "No existe diferencia",
+        "Reenviar elimina el mensaje original",
+        "Responder crea siempre una reunión",
+        "Responder contesta al remitente; reenviar envía el contenido a nuevos destinatarios"
+      ],
+      "correcta": 3,
+      "justificacion": "Responder continúa el intercambio con el remitente, mientras que reenviar crea un nuevo envío del contenido a otros destinatarios.",
+      "trampa": "Responder a todos amplía el grupo de destinatarios, pero sigue siendo una respuesta y no un reenvío.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#12-responder-responder-a-todos-y-reenviar",
+      "respuestaLiteral": "Responder contesta al remitente; reenviar envía el contenido a nuevos destinatarios"
+    },
+    {
+      "id": "DIP-T33-009",
+      "pregunta": "Una cita personal en GroupWise:",
+      "opciones": [
+        "Solo afecta al calendario propio",
+        "Invita automáticamente a toda la libreta de direcciones",
+        "Es siempre una tarea",
+        "No puede tener fecha"
+      ],
+      "correcta": 0,
+      "justificacion": "Una cita personal se registra únicamente en el calendario del propio usuario y no invita automáticamente a otros asistentes.",
+      "trampa": "Una reunión sí se distribuye a otros asistentes; una cita personal no.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#14-calendario-citas-y-reuniones",
+      "respuestaLiteral": "Solo afecta al calendario propio"
+    },
+    {
+      "id": "DIP-T33-010",
+      "pregunta": "Una carpeta compartida de GroupWise:",
+      "opciones": [
+        "Requiere permisos de acceso",
+        "Es visible para cualquiera sin permisos",
+        "Es idéntica a una carpeta personal",
+        "Solo puede contener contactos"
+      ],
+      "correcta": 0,
+      "justificacion": "El acceso a una carpeta compartida de GroupWise depende de los permisos concedidos a los demás usuarios.",
+      "trampa": "Crear una carpeta personal no la convierte automáticamente en una carpeta compartida.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#16-carpetas-categorías-y-organización",
+      "respuestaLiteral": "Requiere permisos de acceso"
+    },
+    {
+      "id": "DIP-T33-011",
+      "pregunta": "En GroupWise, purgar un elemento significa:",
+      "opciones": [
+        "Moverlo a otra carpeta",
+        "Marcarlo como leído",
+        "Responder al remitente",
+        "Eliminarlo definitivamente según configuración"
+      ],
+      "correcta": 3,
+      "justificacion": "Purgar o vaciar elimina definitivamente el elemento conforme a la configuración del sistema.",
+      "trampa": "Eliminar suele trasladar primero el elemento a la Papelera; purgar implica su eliminación definitiva según la configuración.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#17-eliminación-papelera-y-purga",
+      "respuestaLiteral": "Eliminarlo definitivamente según configuración"
+    },
+    {
+      "id": "DIP-T33-012",
+      "pregunta": "¿Cuál es una práctica correcta de seguridad en el correo?",
+      "opciones": [
+        "Abrir cualquier adjunto de un contacto conocido",
+        "Verificar remitente, enlaces, adjuntos y destinatarios antes de actuar",
+        "Reutilizar siempre la contraseña",
+        "Responder con credenciales si el mensaje parece urgente"
+      ],
+      "correcta": 1,
+      "justificacion": "Verificar el remitente, los enlaces, los adjuntos y los destinatarios antes de actuar reduce el riesgo de phishing, malware y envíos erróneos.",
+      "trampa": "Que el remitente parezca conocido no garantiza que el mensaje sea auténtico o seguro.",
+      "referencia": "content/diputacion-toledo/tema-33/manual.md#18-seguridad-en-el-correo",
+      "respuestaLiteral": "Verificar remitente, enlaces, adjuntos y destinatarios antes de actuar"
+    },
+    {
+      "id": "DIP-T33-013",
+      "pregunta": "¿Qué atajo abre las descargas de Microsoft Edge?",
+      "opciones": [
+        "Ctrl + D",
+        "Ctrl + H",
+        "Ctrl + F",
+        "Ctrl + J"
+      ],
+      "correcta": 3,
+      "justificacion": "Ctrl + J abre el panel de descargas.",
+      "trampa": "Distinguir funciones semejantes y las opciones específicas del cliente.",
+      "referencia": "Microsoft Edge: atajos · https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "respuestaLiteral": "Ctrl + J"
+    },
+    {
+      "id": "DIP-T33-014",
+      "pregunta": "¿Qué combinación abre una ventana InPrivate en Microsoft Edge?",
+      "opciones": [
+        "Ctrl + Mayús + T",
+        "Ctrl + N",
+        "Ctrl + Mayús + N",
+        "Ctrl + Mayús + O"
+      ],
+      "correcta": 2,
+      "justificacion": "Ctrl + Mayús + N abre una ventana InPrivate.",
+      "trampa": "Distinguir funciones semejantes y las opciones específicas del cliente.",
+      "referencia": "Microsoft Edge: atajos · https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "respuestaLiteral": "Ctrl + Mayús + N"
+    },
+    {
+      "id": "DIP-T33-015",
+      "pregunta": "¿Qué atajo muestra u oculta la barra de favoritos en Edge?",
+      "opciones": [
+        "Ctrl + B",
+        "Ctrl + Mayús + B",
+        "Ctrl + Mayús + O",
+        "Alt + B"
+      ],
+      "correcta": 1,
+      "justificacion": "Ctrl + Mayús + B alterna la barra de favoritos.",
+      "trampa": "Distinguir funciones semejantes y las opciones específicas del cliente.",
+      "referencia": "Microsoft Edge: atajos · https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "respuestaLiteral": "Ctrl + Mayús + B"
+    },
+    {
+      "id": "DIP-T33-016",
+      "pregunta": "¿Cómo se restablece el zoom de una página al 100 % en Edge?",
+      "opciones": [
+        "Ctrl + 1",
+        "Ctrl + 0",
+        "Ctrl + signo +",
+        "Ctrl + signo -"
+      ],
+      "correcta": 1,
+      "justificacion": "Ctrl + 0 restablece el nivel de zoom.",
+      "trampa": "Distinguir funciones semejantes y las opciones específicas del cliente.",
+      "referencia": "Microsoft Edge: atajos · https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "respuestaLiteral": "Ctrl + 0"
+    },
+    {
+      "id": "DIP-T33-017",
+      "pregunta": "¿Qué combinación abre las opciones de borrar los datos de navegación en Edge?",
+      "opciones": [
+        "Ctrl + Supr",
+        "Mayús + F10",
+        "Ctrl + Mayús + Supr",
+        "Alt + F4"
+      ],
+      "correcta": 2,
+      "justificacion": "Ctrl + Mayús + Supr abre las opciones para borrar datos de exploración.",
+      "trampa": "Distinguir funciones semejantes y las opciones específicas del cliente.",
+      "referencia": "Microsoft Edge: atajos · https://support.microsoft.com/es-es/edge/keyboard-shortcuts-in-microsoft-edge",
+      "respuestaLiteral": "Ctrl + Mayús + Supr"
+    },
+    {
+      "id": "DIP-T33-018",
+      "pregunta": "En GroupWise 24, ¿puede retraerse un mensaje enviado a un sistema de correo externo por Internet?",
+      "opciones": [
+        "Sí, siempre que el remitente borre su copia",
+        "Sí, siempre que pasen 24 horas",
+        "Sí, sin condiciones, desde la Papelera",
+        "No; la función de retracción no retira mensajes enviados a otros sistemas de correo externos"
+      ],
+      "correcta": 3,
+      "justificacion": "El manual del cliente GroupWise 24 distingue la retracción de mensajes internos todavía no leídos del correo enviado a sistemas externos, que no puede retirarse por esa vía.",
+      "trampa": "Borrar el mensaje local no implica retirarlo del buzón de correo externo.",
+      "referencia": "GroupWise 24 Client User Guide, cap. 21 · https://www.novell.com/documentation/groupwise24/",
+      "respuestaLiteral": "No; la función de retracción no retira mensajes enviados a otros sistemas de correo externos"
+    },
+    {
+      "id": "DIP-T33-019",
+      "pregunta": "En GroupWise 24, ¿qué acción elimina definitivamente los elementos de la Papelera?",
+      "opciones": [
+        "Moverlos a una carpeta",
+        "Marcar como leído",
+        "Vaciar la Papelera",
+        "Guardar un borrador"
+      ],
+      "correcta": 2,
+      "justificacion": "Vaciar la Papelera elimina los elementos contenidos; se distingue del simple traslado a la Papelera.",
+      "trampa": "Distinguir funciones semejantes y las opciones específicas del cliente.",
+      "referencia": "GroupWise 24: vaciar Papelera · https://www.novell.com/documentation/groupwise24/gw_guide_userwin/data/maintaining_trash_emptying.html",
+      "respuestaLiteral": "Vaciar la Papelera"
+    },
+    {
+      "id": "DIP-T33-020",
+      "pregunta": "¿Qué condición impide retraer desde GroupWise 24 un mensaje de correo recibido por un usuario interno?",
+      "opciones": [
+        "Que el destinatario tenga más de cinco contactos",
+        "Que el destinatario ya lo haya abierto",
+        "Que el mensaje tenga una sola línea de asunto",
+        "Que la carpeta del remitente esté ordenada por fecha"
+      ],
+      "correcta": 1,
+      "justificacion": "La retracción del correo interno procede solo sobre los destinatarios que aún no han abierto el mensaje.",
+      "trampa": "Retracción y vaciado automático de la Papelera son procesos distintos.",
+      "referencia": "GroupWise 24 Client User Guide, cap. 21 · https://www.novell.com/documentation/groupwise24/",
+      "respuestaLiteral": "Que el destinatario ya lo haya abierto"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_32_35_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 2,
+    "certificacionIntegral": false
+  }
+}

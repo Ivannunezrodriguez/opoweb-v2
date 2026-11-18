@@ -1,0 +1,249 @@
+# Tema 15 · Otras entidades locales
+
+> **Epígrafe oficial:** Otras Entidades Locales. Mancomunidades. Comarcas. Áreas Metropolitanas. Entidades de ámbito territorial inferior al municipio.
+
+## 1. Otras entidades locales: marco general
+
+La **Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local** distingue entre:
+
+- Entidades locales territoriales: **municipio, provincia e isla**.
+- Otras entidades locales del **artículo 3.2 LRBRL**: **comarcas**, **áreas metropolitanas** y **mancomunidades de municipios**. Los nuevos **entes de ámbito territorial inferior al municipio** se regulan por el **artículo 24 bis** y **carecen de personalidad jurídica**, sin perjuicio del régimen transitorio de entidades anteriores.
+
+Estas entidades no ocupan todas la misma posición jurídica. La provincia y el municipio tienen reconocimiento constitucional directo; las demás dependen de la legislación estatal básica y del desarrollo autonómico.
+
+| Figura | Forma de creación | Finalidad principal | Naturaleza |
+|---|---|---|---|
+| Mancomunidad | Acuerdo voluntario de municipios y aprobación de estatutos | Ejecutar en común obras o servicios determinados | Entidad local asociativa |
+| Comarca | **Ley de la comunidad autónoma** | Gestión de intereses comunes de municipios de una zona | Entidad local supramunicipal |
+| Área metropolitana | **Ley de la comunidad autónoma** | Planificación y coordinación de grandes aglomeraciones urbanas | Entidad local supramunicipal |
+| EATIM | Legislación autonómica y acuerdo/procedimiento correspondiente | Administración descentralizada de núcleos separados | Organización territorial inframunicipal |
+
+> ⚠️ **¡Foco Examen!:** La mancomunidad nace de la **voluntariedad municipal**; la comarca y el área metropolitana exigen **ley autonómica**.
+
+## 2. Mancomunidades de municipios
+
+Los municipios tienen derecho a asociarse en **mancomunidades** para la ejecución en común de obras y servicios de su competencia.
+
+### 2.1. Caracteres
+
+- Tienen personalidad y capacidad jurídicas para el cumplimiento de sus fines.
+- No pueden asumir la totalidad de las competencias municipales.
+- Su ámbito puede comprender municipios de una o varias provincias, siempre dentro de los límites legalmente admitidos.
+- Se rigen por sus **estatutos**.
+
+### 2.2. Estatutos
+
+Los estatutos deben regular, al menos:
+
+- municipios integrantes;
+- objeto y competencias;
+- órganos de gobierno y representación;
+- recursos económicos;
+- plazo de duración;
+- causas y procedimiento de incorporación, separación y disolución.
+
+La elaboración y aprobación se ajusta a la legislación autonómica, garantizando la participación de los ayuntamientos interesados.
+
+### 2.3. Diferencias con otras fórmulas cooperativas
+
+| Figura | Personalidad jurídica | Base | Finalidad |
+|---|---|---|---|
+| Mancomunidad | Sí | Asociación de municipios | Obras y servicios comunes |
+| Convenio | No necesariamente crea nueva entidad | Acuerdo entre administraciones | Colaboración concreta |
+| Consorcio | Sí | Participación de varias administraciones o entidades | Gestión conjunta institucionalizada |
+
+> ⚠️ **¡Foco Examen!:** Una mancomunidad no puede convertirse en un “supermunicipio” ni absorber todas las competencias de los municipios asociados.
+
+## 3. Comarcas
+
+Las comunidades autónomas pueden crear **comarcas** u otras entidades que agrupen varios municipios cuyos intereses presenten características comunes o hagan necesaria una gestión propia.
+
+### 3.1. Creación
+
+La creación requiere **ley de la comunidad autónoma**.
+
+La iniciativa puede provenir de los municipios interesados y queda sometida a los límites establecidos por la legislación básica y autonómica.
+
+No puede crearse una comarca cuando se opongan expresamente las mayorías municipales legalmente previstas en el artículo 42 de la Ley 7/1985.
+
+### 3.2. Contenido de la ley de creación
+
+La ley debe determinar:
+
+- ámbito territorial;
+- composición y funcionamiento de sus órganos;
+- competencias;
+- recursos económicos;
+- relaciones con municipios, diputaciones y comunidad autónoma.
+
+La creación de una comarca no puede vaciar por completo las competencias municipales ni privar a los municipios de los servicios mínimos que deben prestar.
+
+> ⚠️ **¡Foco Examen!:** La comarca no nace por simple convenio municipal: requiere **ley autonómica** y debe respetar la autonomía municipal.
+
+## 4. Áreas metropolitanas
+
+Las **áreas metropolitanas** son entidades locales integradas por municipios de grandes aglomeraciones urbanas entre cuyos núcleos existen vinculaciones económicas y sociales que hacen necesaria la planificación conjunta y la coordinación de determinados servicios y obras.
+
+### 4.1. Creación y regulación
+
+Se crean por **ley de la comunidad autónoma**, previa audiencia de:
+
+- la Administración del Estado;
+- los ayuntamientos afectados;
+- las diputaciones provinciales afectadas.
+
+La ley determina:
+
+- órganos de gobierno y administración;
+- representación de los municipios;
+- régimen económico;
+- servicios y obras metropolitanos;
+- procedimiento de funcionamiento y adopción de acuerdos.
+
+### 4.2. Finalidad
+
+Su objeto típico es coordinar materias como:
+
+- transporte;
+- urbanismo;
+- abastecimiento y saneamiento;
+- residuos;
+- infraestructuras supramunicipales;
+- servicios comunes de una conurbación.
+
+| Comarca | Área metropolitana |
+|---|---|
+| Agrupa municipios con intereses comunes territoriales | Agrupa municipios de una gran aglomeración urbana |
+| Puede responder a factores históricos, geográficos o funcionales | Responde a intensas relaciones urbanas, económicas y sociales |
+| Creación por ley autonómica | Creación por ley autonómica |
+
+> ⚠️ **¡Foco Examen!:** El rasgo definitorio del área metropolitana es la existencia de una **gran aglomeración urbana** con fuertes vínculos económicos y sociales.
+
+## 5. Entidades de ámbito territorial inferior al municipio
+
+La legislación básica vigente permite que las leyes autonómicas regulen entes de ámbito territorial inferior al municipio como forma de organización desconcentrada o descentralizada para administrar núcleos de población separados.
+
+Tras la reforma operada por la Ley 27/2013, la regla básica es que estas entidades no tienen automáticamente la condición de entidad local con personalidad jurídica propia, salvo los regímenes transitorios y las previsiones autonómicas compatibles con la legislación básica.
+
+### 5.1. Finalidad
+
+- representar los intereses peculiares de un núcleo separado;
+- gestionar bienes o servicios propios del núcleo;
+- facilitar la participación vecinal;
+- acercar la gestión municipal al territorio.
+
+### 5.2. Organización
+
+La legislación autonómica determina:
+
+- denominación;
+- órganos de gobierno;
+- competencias;
+- recursos;
+- relaciones con el ayuntamiento matriz;
+- procedimiento de creación, modificación y supresión.
+
+En Castilla-La Mancha, estas entidades se identifican habitualmente como **EATIM**.
+
+### 5.3. Diferencia esencial
+
+| Municipio | EATIM |
+|---|---|
+| Entidad local territorial constitucionalmente garantizada | Ente inframunicipal dependiente del marco legal autonómico |
+| Tiene término municipal propio | Se integra en el término de otro municipio |
+| Ostenta competencias municipales generales | Ejerce competencias específicas o delegadas |
+
+> ⚠️ **¡Foco Examen!:** Una EATIM no es un municipio y carece de término municipal propio independiente.
+
+## 6. Ley 3/1991, de Entidades Locales de Castilla-La Mancha
+
+La **Ley 3/1991, de 14 de marzo**, desarrolla en Castilla-La Mancha el régimen de entidades locales y regula las fórmulas de cooperación y organización supramunicipal e inframunicipal dentro del marco estatal básico.
+
+Debe interpretarse conforme a las modificaciones posteriores de la Ley 7/1985, especialmente en materia de entidades de ámbito territorial inferior al municipio.
+
+### 6.1. Principios de aplicación
+
+- autonomía local;
+- cooperación interadministrativa;
+- eficiencia en la prestación de servicios;
+- respeto a las competencias municipales;
+- adecuación a la legislación básica estatal.
+
+> ⚠️ **¡Foco Examen!:** La ley autonómica no puede contradecir la legislación básica estatal; en caso de reforma básica posterior, debe aplicarse una interpretación conforme al marco estatal vigente.
+
+## 7. Esquema final
+
+```text
+OTRAS ENTIDADES LOCALES
+├── MANCOMUNIDADES
+│   ├── Asociación voluntaria de municipios
+│   ├── Obras o servicios comunes
+│   └── Estatutos
+├── COMARCAS
+│   ├── Intereses comunes territoriales
+│   └── Ley autonómica
+├── ÁREAS METROPOLITANAS
+│   ├── Gran aglomeración urbana
+│   ├── Coordinación de servicios
+│   └── Ley autonómica
+└── EATIM
+    ├── Núcleo separado dentro de un municipio
+    ├── Organización inframunicipal
+    └── Legislación autonómica
+```
+
+## 8. Tabla maestra de trampas
+
+| Pregunta típica | Respuesta correcta |
+|---|---|
+| ¿Qué entidad nace de la asociación voluntaria de municipios? | La **mancomunidad** |
+| ¿Qué figuras requieren ley autonómica? | **Comarcas** y **áreas metropolitanas** |
+| ¿Puede una mancomunidad asumir todas las competencias municipales? | **No** |
+| ¿Tiene una EATIM término municipal propio? | **No** |
+| ¿Es el área metropolitana una simple agrupación rural? | **No**, exige una gran aglomeración urbana |
+
+
+## 9. Auditoría de creación y personalidad — **29/10/2026**
+
+| Figura | Creación y requisito | Norma |
+|---|---|---|
+| **Mancomunidad** | Estatutos elaborados en **asamblea de concejales de todos los municipios promotores**, informe de **Diputación** y aprobación por **Plenos de todos los ayuntamientos** | **LRBRL 44.3** |
+| **Comarca** | La oposición de **2/5 de municipios** representativos de al menos **la mitad del censo electoral** impide su creación; para varias provincias, informe favorable de sus **Diputaciones** | **LRBRL 42.2** |
+| **Área metropolitana** | Creación, modificación y supresión por **ley autonómica**, previa audiencia de **Estado, ayuntamientos y diputaciones afectados** | **LRBRL 43.1** |
+| **Nuevo ente inframunicipal** | Organización desconcentrada del municipio **sin personalidad jurídica**; régimen transitorio de entidades anteriores debe distinguirse | **LRBRL 24 bis** y disposiciones transitorias de **Ley 27/2013** |
+
+> ⚠️ **¡Foco Examen!:** Una **mancomunidad** tiene **personalidad jurídica propia** y estatutos; los **nuevos entes inframunicipales** del artículo **24 bis** carecen de personalidad jurídica. No confundirlos con entidades históricas amparadas por régimen transitorio.
+
+**Fuente primaria comprobada:** [LRBRL consolidada, versión publicada **03/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392). Banco ampliado a **20 preguntas**. Pendientes la auditoría jurídica integral y la prueba de navegación web antes de certificar el tema.
+
+
+## 10. Contraste de personalidad jurídica y creación — **02/11/2026**
+
+| Entidad | Creación y organización | Personalidad jurídica |
+|---|---|---|
+| **Mancomunidad** | Asociación municipal voluntaria para **obras y servicios determinados**; estatutos aprobados por los **Plenos de todos los ayuntamientos**; informe de la **Diputación** | **Sí**, para sus fines específicos (**art. 44 LRBRL**) |
+| **Comarca** | Creada mediante **ley autonómica**; oposición cualificada de municipios puede impedirla | Entidad local conforme a legislación autonómica (**arts. 3.2 y 42**) |
+| **Área metropolitana** | Creada, modificada o suprimida mediante **ley autonómica**, previa audiencia a las administraciones afectadas | Entidad local conforme al **art. 43** |
+| **Nuevo ente inframunicipal** | Organización desconcentrada para núcleos separados; iniciativa de la **población interesada** o del **Ayuntamiento** y exigencia de **mayor eficiencia** | **Sin personalidad jurídica** (**art. 24 bis**) |
+
+> ⚠️ **¡Foco Examen!:** Una **mancomunidad** puede incorporar municipios de distintas comunidades autónomas, pero **solo si lo permiten las normas de las comunidades afectadas** (**art. 44.5**).
+
+> ⚠️ **¡Foco Examen!:** Los **nuevos entes inframunicipales** carecen de personalidad jurídica; no extrapoles esta regla automáticamente a entidades preexistentes, sujetas a régimen transitorio.
+
+Fuente: [Ley 7/1985, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), actualización publicada el **03/10/2026**. Revisión **focalizada**, pendiente auditoría integral y pruebas funcionales.
+
+## Cierre jurídico-pedagógico · Bloque C1 12–15 · **05/11/2026**
+
+### Otras entidades locales: personalidad jurídica, creación y mayorías
+
+| Entidad | Creación / procedimiento | Personalidad jurídica |
+|---|---|---|
+| **Mancomunidad** | **Asamblea de concejales** promotores elabora estatutos; **Diputación/es** informan; aprueban **Plenos de todos los ayuntamientos** (**LRBRL 44.3**) | **Sí**, para sus fines específicos (**44.2**); interautonómica solo si permiten ambas normativas (**44.5**) |
+| **Comarca** | **Ley autonómica**; oposición expresa de **2/5 municipios** que representen **al menos la mitad del censo electoral** impide crearla; si abarca más de una provincia, informes favorables de **Diputaciones** (**42.2**) | Entidad local conforme al régimen autonómico |
+| **Área metropolitana** | **Ley autonómica**, audiencia previa de **Administración del Estado, ayuntamientos y diputaciones afectados** (**43**) | Entidad local de aglomeración urbana |
+| **Nuevo ente inframunicipal (24 bis)** | Iniciativa de **población o Ayuntamiento**, oído siempre este último; ha de ser opción **más eficiente** | **No**, gestión desconcentrada del municipio matriz |
+| **Entidad inframunicipal preexistente a Ley 27/2013** | Régimen de la **disposición transitoria 4.ª Ley 27/2013** | Puede **mantener personalidad** si cumple condiciones del régimen transitorio: no extrapolar sin matices el 24 bis |
+
+Las particularidades de [**Ley 3/1991, de Castilla-La Mancha**](https://www.boe.es/buscar/act.php?id=BOE-A-1991-10111) deben interpretarse conforme a la legislación básica posterior.
+
+> ⚠️ **¡Foco Examen!:** **Mancomunidad sí tiene personalidad**; **nuevo ente 24 bis no**; históricos pueden conservarla. Para impedir comarca deben concurrir **2/5 municipios** **Y** **mitad del censo**, no una condición aislada.

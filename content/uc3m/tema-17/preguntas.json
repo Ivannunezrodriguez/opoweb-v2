@@ -1,0 +1,201 @@
+{
+  "tema": 17,
+  "titulo": "Acceso y admisión a estudios oficiales",
+  "preguntas": [
+    {
+      "id": "UC3M-T17-001",
+      "pregunta": "¿Qué diferencia existe entre acceso y admisión?",
+      "opciones": [
+        "Son términos equivalentes",
+        "La admisión precede siempre al acceso",
+        "El acceso solo se aplica a Máster",
+        "El acceso acredita requisitos y la admisión adjudica plaza"
+      ],
+      "correcta": 3,
+      "justificacion": "El acceso consiste en cumplir los requisitos previos; la admisión adjudica una plaza concreta.",
+      "trampa": "Cumplir los requisitos de acceso no garantiza plaza.",
+      "referencia": "RD 534/2024, art. 2 (acceso y admision) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a2",
+      "respuestaLiteral": "El acceso acredita requisitos y la admisión adjudica plaza"
+    },
+    {
+      "id": "UC3M-T17-002",
+      "pregunta": "¿Qué principios rigen el acceso y la admisión a Grado?",
+      "opciones": [
+        "Antigüedad, discrecionalidad y libre designación",
+        "Solo capacidad económica",
+        "Exclusivamente orden de solicitud",
+        "Igualdad, mérito y capacidad"
+      ],
+      "correcta": 3,
+      "justificacion": "El artículo 3 del RD 534/2024 exige igualdad, mérito y capacidad.",
+      "trampa": "La autonomía universitaria no elimina estos principios básicos.",
+      "referencia": "RD 534/2024, art. 3.1 (igualdad, merito y capacidad) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a3",
+      "respuestaLiteral": "Igualdad, mérito y capacidad"
+    },
+    {
+      "id": "UC3M-T17-003",
+      "pregunta": "Un estudiante que abandonó temporalmente estudios en el mismo centro puede reanudarlos sin nuevo procedimiento de admisión si tiene superados al menos:",
+      "opciones": [
+        "12 ECTS",
+        "6 ECTS",
+        "30 ECTS",
+        "60 ECTS"
+      ],
+      "correcta": 1,
+      "justificacion": "El umbral previsto para reanudar en el mismo centro es de 6 ECTS.",
+      "trampa": "No debe confundirse con los 30 ECTS del cambio de universidad o estudios.",
+      "referencia": "RD 534/2024, art. 3.5 (reanudar estudios) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a3",
+      "respuestaLiteral": "6 ECTS"
+    },
+    {
+      "id": "UC3M-T17-004",
+      "pregunta": "¿Cuál de estas vías de acceso exige experiencia laboral o profesional relacionada?",
+      "opciones": [
+        "Mayores de 25 años",
+        "Mayores de 45 años",
+        "Mayores de 40 años",
+        "Titulados universitarios"
+      ],
+      "correcta": 2,
+      "justificacion": "La vía de mayores de 40 años exige acreditar experiencia relacionada con la enseñanza solicitada.",
+      "trampa": "Las vías de 25 y 45 años se articulan mediante prueba específica.",
+      "referencia": "RD 534/2024, art. 32.1 (experiencia profesional mayores de 40) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a32",
+      "respuestaLiteral": "Mayores de 40 años"
+    },
+    {
+      "id": "UC3M-T17-005",
+      "pregunta": "Para mejorar la nota de admisión, el alumnado puede examinarse en la misma convocatoria de hasta:",
+      "opciones": [
+        "3 materias",
+        "2 materias",
+        "4 materias",
+        "5 materias"
+      ],
+      "correcta": 0,
+      "justificacion": "El RD 534/2024 permite examinarse de hasta 3 materias adicionales, además de una segunda lengua extranjera distinta.",
+      "trampa": "La universidad debe ponderar al menos 2 materias, pero el máximo de examen adicional es 3.",
+      "referencia": "RD 534/2024, art. 22.1 (tres materias y segunda lengua adicional) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a22",
+      "respuestaLiteral": "3 materias"
+    },
+    {
+      "id": "UC3M-T17-006",
+      "pregunta": "La nota de corte es:",
+      "opciones": [
+        "Una nota fijada legalmente antes de la preinscripción",
+        "Siempre 5 puntos",
+        "La nota de la última persona admitida en un proceso concreto",
+        "La nota media de Bachillerato"
+      ],
+      "correcta": 2,
+      "justificacion": "La nota de corte resulta de la última adjudicación y varía según oferta y demanda.",
+      "trampa": "No es un requisito previo invariable.",
+      "referencia": "UC3M, notas de corte por adjudicacion y curso · https://www.uc3m.es/grado/admision/solicitud/requisitos-notas",
+      "respuestaLiteral": "La nota de la última persona admitida en un proceso concreto"
+    },
+    {
+      "id": "UC3M-T17-007",
+      "pregunta": "¿Qué calificación de acceso se asigna a un titulado de Técnico Superior sin nota media por homologación o equivalencia?",
+      "opciones": [
+        "0 puntos",
+        "5 puntos",
+        "7 puntos",
+        "10 puntos"
+      ],
+      "correcta": 1,
+      "justificacion": "Tras el Real Decreto 535/2026 (publicado el 2 de julio de 2026 y vigente desde el 22 de julio), el artículo 23.2 del RD 534/2024 asigna 5 puntos como calificación de acceso cuando un Técnico Superior carece de nota media por homologación o equivalencia académica. No se aplica esa nota a quien sí tiene media acreditada.",
+      "trampa": "La regla fue modificada en 2026 y debe estudiarse en su redacción vigente.",
+      "referencia": "RD 534/2024, art. 23.2, modificado por RD 535/2026 (efectos desde 22/07/2026) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a23 · Modificación primaria: https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14333",
+      "respuestaLiteral": "5 puntos"
+    },
+    {
+      "id": "UC3M-T17-008",
+      "pregunta": "Los criterios y procedimientos de admisión de las universidades públicas deben publicarse con al menos:",
+      "opciones": [
+        "15 días de antelación",
+        "1 curso académico de antelación",
+        "1 mes de antelación",
+        "2 cursos académicos de antelación"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 25 exige publicidad con al menos un curso académico de antelación.",
+      "trampa": "No se trata de un mero plazo administrativo de días.",
+      "referencia": "RD 534/2024, art. 25.2 (publicidad con un curso de antelacion) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a25",
+      "respuestaLiteral": "1 curso académico de antelación"
+    },
+    {
+      "id": "UC3M-T17-009",
+      "pregunta": "En la preinscripción conjunta de las universidades públicas madrileñas para 2026/2027 pueden ordenarse hasta:",
+      "opciones": [
+        "12 estudios",
+        "6 estudios",
+        "10 estudios",
+        "20 estudios"
+      ],
+      "correcta": 0,
+      "justificacion": "La UC3M señala que la solicitud única de preinscripción de las seis universidades públicas de Madrid permite ordenar hasta 12 estudios para el curso 2026/2027, por orden de preferencia. Es una norma operativa del distrito único, no una cifra universal de toda España.",
+      "trampa": "12 estudios en distrito universitario público madrileño 2026/27, no 12 en todas las universidades del Estado.",
+      "referencia": "UC3M, preinscripcion conjunta de Madrid 2026/27, hasta doce estudios · https://www.uc3m.es/grado/admision/solicitud/preinscripcion",
+      "respuestaLiteral": "12 estudios"
+    },
+    {
+      "id": "UC3M-T17-010",
+      "pregunta": "Para solicitar cambio de universidad o estudios por la vía específica deben reconocerse al menos:",
+      "opciones": [
+        "6 ECTS",
+        "18 ECTS",
+        "60 ECTS",
+        "30 ECTS"
+      ],
+      "correcta": 3,
+      "justificacion": "El umbral legal para el procedimiento específico es de 30 ECTS reconocidos.",
+      "trampa": "Con menos de 30 ECTS debe acudirse al procedimiento general de admisión.",
+      "referencia": "RD 534/2024, art. 44.1-2 (reconocimiento de 30 ECTS) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a44",
+      "respuestaLiteral": "30 ECTS"
+    },
+    {
+      "id": "UC3M-T17-011",
+      "pregunta": "El Real Decreto 534/2024 regula específicamente el acceso y admisión a:",
+      "opciones": [
+        "Grado",
+        "Máster únicamente",
+        "Doctorado únicamente",
+        "Todos los títulos propios"
+      ],
+      "correcta": 0,
+      "justificacion": "Su objeto se centra en las enseñanzas universitarias oficiales de Grado.",
+      "trampa": "Máster y Doctorado se rigen por otras normas principales.",
+      "referencia": "RD 534/2024, art. 1 (objeto: Grado) · https://www.boe.es/buscar/act.php?id=BOE-A-2024-11858#a1",
+      "respuestaLiteral": "Grado"
+    },
+    {
+      "id": "UC3M-T17-012",
+      "pregunta": "Con carácter general, el acceso a Doctorado exige haber superado en conjunto Grado y Máster al menos:",
+      "opciones": [
+        "180 ECTS",
+        "240 ECTS",
+        "300 ECTS",
+        "360 ECTS"
+      ],
+      "correcta": 2,
+      "justificacion": "La regla general exige 300 ECTS en el conjunto de Grado y Máster o una titulación equivalente de nivel 3 MECES.",
+      "trampa": "Los 300 ECTS no corresponden solo al Máster.",
+      "referencia": "RD 99/2011, art. 6.1 (300 ECTS para Doctorado, excepciones legales) · https://www.boe.es/buscar/act.php?id=BOE-A-2011-2541#a6",
+      "respuestaLiteral": "300 ECTS"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlAuditoria20261109": {
+    "fecha": "2026-11-09",
+    "norma": "RD 534/2024",
+    "ultimaModificacion": "RD 535/2026, BOE 02/07/2026, en vigor 22/07/2026",
+    "preguntas": 12,
+    "alternativas": 48,
+    "respuestasConservadas": true,
+    "fuenteUniversitaria": "UC3M preinscripcion 2026/27, 12 opciones",
+    "notaTecnica": "Derecho de acceso no equivale a adjudicacion de plaza; normativa de Doctorado se fundamenta en RD 99/2011",
+    "certificacionIntegral": false
+  }
+}

@@ -1,0 +1,442 @@
+{
+  "id": "UC3M_REPASO_JURIDICO_T02_T07_20261106",
+  "fecha": "2026-11-06",
+  "titulo": "Contrastes jurídicos de examen · Temas 2 a 7",
+  "origen": "Preguntas de elaboración editorial contrastadas con textos oficiales consolidados del BOE. No oficiales",
+  "legislacionCorte": "Pendiente de fijar la fecha original de publicación de listas definitivas UC3M, base primera.7",
+  "certificacionIntegral": false,
+  "preguntas": [
+    {
+      "id": "UC3M-JUR-20261106-001",
+      "tema": 2,
+      "bloque": "Notificaciones",
+      "pregunta": "Una notificación electrónica obligatoria permanece a disposición, sin acceder al contenido. ¿Cuándo se entiende rechazada conforme al artículo 43.2?",
+      "opciones": [
+        "Tras 10 días hábiles",
+        "Tras 10 días naturales",
+        "En el mismo instante del aviso por correo",
+        "Cuando transcurran 30 días naturales"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "Tras 10 días naturales",
+      "justificacion": "Si era obligatoria o elegida y no se accede, se entiende rechazada transcurridos 10 días naturales desde su puesta a disposición.",
+      "trampaExamen": "10 días NATURALES de rechazo no equivalen a 10 días HÁBILES para subsanar.",
+      "fundamento": "Ley 39/2015, art. 43.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "UC3M-JUR-20261106-002",
+      "tema": 2,
+      "bloque": "Silencio",
+      "pregunta": "Si una alzada se interpone contra la desestimación por silencio de una solicitud y tampoco se resuelve la alzada en plazo, ¿qué regla recoge el artículo 24.1?",
+      "opciones": [
+        "Desestimación sin excepciones en cualquier materia",
+        "Caducidad automática de la alzada",
+        "Estimación, salvo materias excepcionadas expresamente",
+        "Prohibición de recurso judicial"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Estimación, salvo materias excepcionadas expresamente",
+      "justificacion": "La regla especial de doble silencio estima la alzada, salvo materias excluidas por el precepto.",
+      "trampaExamen": "Alzada contra SILENCIO DE SOLICITUD no significa estimación universal: hay materias excepcionadas.",
+      "fundamento": "Ley 39/2015, art. 24.1",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "UC3M-JUR-20261106-003",
+      "tema": 2,
+      "bloque": "Silencio",
+      "pregunta": "Tras producirse un silencio estimatorio, ¿qué sentido puede tener la resolución expresa posterior?",
+      "opciones": [
+        "Solo confirmatorio de la estimación",
+        "Siempre desestimatorio",
+        "La Administración está dispensada de resolver",
+        "Solo sancionador"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "Solo confirmatorio de la estimación",
+      "justificacion": "La resolución expresa posterior al silencio positivo solo puede confirmar el acto presunto estimatorio.",
+      "trampaExamen": "Silencio positivo vincula resolución posterior; silencio negativo no vincula igual.",
+      "fundamento": "Ley 39/2015, art. 24.3.a",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "UC3M-JUR-20261106-004",
+      "tema": 2,
+      "bloque": "Silencio",
+      "pregunta": "¿En qué plazo se expide de oficio el certificado acreditativo de silencio administrativo?",
+      "opciones": [
+        "5 días hábiles desde la solicitud",
+        "Un mes natural desde que nació el silencio",
+        "30 días hábiles desde el recurso",
+        "15 días desde el fin del plazo máximo para resolver"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "15 días desde el fin del plazo máximo para resolver",
+      "justificacion": "El órgano competente expide de oficio el certificado en 15 días desde el vencimiento del plazo máximo; el interesado puede pedirlo en cualquier momento.",
+      "trampaExamen": "El certificado no crea el silencio: este opera desde el vencimiento del plazo.",
+      "fundamento": "Ley 39/2015, art. 24.4",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "UC3M-JUR-20261106-005",
+      "tema": 3,
+      "bloque": "Subsanación",
+      "pregunta": "En el artículo 68.2, la posible ampliación de hasta cinco días para subsanar dificultades especiales...",
+      "opciones": [
+        "Se aplica obligatoriamente a todas las oposiciones",
+        "No procede en procedimientos selectivos o de concurrencia competitiva",
+        "Exige que el plazo ordinario sea de 30 días",
+        "Se concede sin ninguna dificultad especial"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "No procede en procedimientos selectivos o de concurrencia competitiva",
+      "justificacion": "El plazo ordinario es 10 días, con ampliación prudencial de hasta 5 fuera de procedimientos selectivos o concurrencia competitiva.",
+      "trampaExamen": "La ampliación de 5 días no se aplica a cualquier proceso selectivo.",
+      "fundamento": "Ley 39/2015, art. 68.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "UC3M-JUR-20261106-006",
+      "tema": 3,
+      "bloque": "Subsanación",
+      "pregunta": "Un sujeto obligado a presentar electrónicamente entrega en papel una solicitud. Si se le requiere subsanación electrónica, ¿qué fecha cuenta como presentación?",
+      "opciones": [
+        "Fecha del primer borrador",
+        "Fecha del aviso SMS",
+        "Fecha de la subsanación electrónica",
+        "Fecha del cierre del procedimiento"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Fecha de la subsanación electrónica",
+      "justificacion": "Para los sujetos de los arts. 14.2 y 14.3 que presentaron en papel, se toma la fecha de la subsanación electrónica.",
+      "trampaExamen": "Presentación en papel por obligado electrónico no conserva su fecha a estos efectos.",
+      "fundamento": "Ley 39/2015, art. 68.4",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "UC3M-JUR-20261106-007",
+      "tema": 3,
+      "bloque": "Revisión",
+      "pregunta": "En la declaración de lesividad de un acto favorable anulable, ¿cuál es la diferencia entre plazos del artículo 107?",
+      "opciones": [
+        "4 años para declarar lesividad; 6 meses para caducidad del procedimiento",
+        "4 meses para ambas cuestiones",
+        "15 días para declarar lesividad y 4 años para resolver",
+        "6 años desde el acto y 3 años para caducidad"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "4 años para declarar lesividad; 6 meses para caducidad del procedimiento",
+      "justificacion": "La declaración no puede adoptarse pasados cuatro años desde el acto y el procedimiento caduca a los seis meses si no se declara.",
+      "trampaExamen": "4 AÑOS desde el acto no es lo mismo que 6 MESES desde iniciar el procedimiento.",
+      "fundamento": "Ley 39/2015, art. 107.2-3",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "UC3M-JUR-20261106-008",
+      "tema": 3,
+      "bloque": "Recursos",
+      "pregunta": "¿Qué plazo corresponde al recurso extraordinario de revisión por error de hecho del artículo 125.1.a?",
+      "opciones": [
+        "Tres meses desde firmeza de cualquier sentencia",
+        "Un mes desde el acto",
+        "No tiene plazo",
+        "Cuatro años desde la notificación de la resolución"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Cuatro años desde la notificación de la resolución",
+      "justificacion": "El error de hecho que resulte del propio expediente se impugna dentro de los cuatro años siguientes a la notificación; las demás causas tienen tres meses desde su hito legal.",
+      "trampaExamen": "4 años SOLO causa a); las causas b), c), d) siguen la regla de 3 meses.",
+      "fundamento": "Ley 39/2015, art. 125.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+    },
+    {
+      "id": "UC3M-JUR-20261106-009",
+      "tema": 4,
+      "bloque": "Delegación",
+      "pregunta": "¿Qué competencia NO puede delegarse conforme al artículo 9.2 de la Ley 40/2015?",
+      "opciones": [
+        "Actuaciones de gestión autorizadas",
+        "La adopción de disposiciones de carácter general",
+        "La preparación de documentos internos",
+        "Las actuaciones técnicas encomendadas"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "La adopción de disposiciones de carácter general",
+      "justificacion": "La adopción de disposiciones de carácter general es indelegable en los términos del art. 9.2.",
+      "trampaExamen": "La delegación del ejercicio no es una habilitación ilimitada para aprobar normas.",
+      "fundamento": "Ley 40/2015, art. 9.2.b",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "UC3M-JUR-20261106-010",
+      "tema": 4,
+      "bloque": "Delegación",
+      "pregunta": "Una resolución dictada por delegación, ¿qué debe indicar y a quién se atribuye?",
+      "opciones": [
+        "No debe mencionar la delegación y se atribuye al secretario",
+        "Se atribuye al órgano delegado por titularidad",
+        "Indica expresamente la delegación y se considera dictada por el órgano delegante",
+        "Siempre debe publicarse como ley autonómica"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Indica expresamente la delegación y se considera dictada por el órgano delegante",
+      "justificacion": "El acto indica la delegación y se considera dictado por el órgano delegante, aunque lo emita el delegado.",
+      "trampaExamen": "Delegación del ejercicio no cambia la titularidad ni la atribución del acto.",
+      "fundamento": "Ley 40/2015, art. 9.4",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "UC3M-JUR-20261106-011",
+      "tema": 4,
+      "bloque": "Órganos colegiados",
+      "pregunta": "¿Qué se exige para deliberar y acordar un asunto no incluido en el orden del día?",
+      "opciones": [
+        "Que asistan todos los miembros y declaren la urgencia por mayoría",
+        "Solo mayoría de los asistentes",
+        "Solo aprobación escrita del secretario",
+        "Que hayan pasado diez días hábiles"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "Que asistan todos los miembros y declaren la urgencia por mayoría",
+      "justificacion": "El artículo 17.4 exige asistencia de todos los miembros y urgencia declarada por mayoría.",
+      "trampaExamen": "La mayoría sola no sustituye la presencia de todos los miembros.",
+      "fundamento": "Ley 40/2015, art. 17.4",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "UC3M-JUR-20261106-012",
+      "tema": 4,
+      "bloque": "Avocación",
+      "pregunta": "Cuando se delegó competencia en órgano no dependiente jerárquicamente, ¿quién puede avocar un asunto de esa competencia?",
+      "opciones": [
+        "El secretario del colegiado",
+        "Cualquier órgano superior del delegado",
+        "El Consejo de Ministros siempre",
+        "Solo el órgano delegante"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Solo el órgano delegante",
+      "justificacion": "La avocación en supuestos de delegación no jerárquica corresponde únicamente al órgano delegante.",
+      "trampaExamen": "Avocación y revocación de delegación no son lo mismo.",
+      "fundamento": "Ley 40/2015, art. 10.1",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "UC3M-JUR-20261106-013",
+      "tema": 5,
+      "bloque": "Automatización",
+      "pregunta": "¿Qué describe una actuación administrativa automatizada según la Ley 40/2015?",
+      "opciones": [
+        "Una decisión manual firmada a lápiz",
+        "Una videoconferencia de un órgano colegiado",
+        "Una actuación íntegramente electrónica sin intervención directa de empleado público",
+        "Un acto exento de todo recurso"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Una actuación íntegramente electrónica sin intervención directa de empleado público",
+      "justificacion": "Se trata de actuación realizada íntegramente por medios electrónicos sin intervención directa de empleado público en esa actuación.",
+      "trampaExamen": "Automatización no elimina órgano responsable de impugnación.",
+      "fundamento": "Ley 40/2015, art. 41.1",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "UC3M-JUR-20261106-014",
+      "tema": 5,
+      "bloque": "Firma",
+      "pregunta": "¿Qué pareja de medios puede utilizarse para firmar actuaciones administrativas automatizadas?",
+      "opciones": [
+        "Sello electrónico o código seguro de verificación (CSV)",
+        "Firma manuscrita y una contraseña en papel",
+        "Correo personal y contraseña de usuario",
+        "Solo firma de un empleado concreto"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "Sello electrónico o código seguro de verificación (CSV)",
+      "justificacion": "El artículo 42 recoge sello electrónico y CSV como sistemas posibles para actuación automatizada.",
+      "trampaExamen": "Firma automatizada art. 42 no equivale a firma de empleado art. 43.",
+      "fundamento": "Ley 40/2015, art. 42",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "UC3M-JUR-20261106-015",
+      "tema": 5,
+      "bloque": "Datos y sistemas",
+      "pregunta": "¿Qué ámbito territorial exige el artículo 46 bis para ubicar los sistemas de determinados padrones, registros de población, datos fiscales y usuarios del SNS?",
+      "opciones": [
+        "Exclusivamente la ciudad de Madrid",
+        "Territorio de la Unión Europea",
+        "Cualquier lugar del mundo sin condición",
+        "Siempre y exclusivamente España"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "Territorio de la Unión Europea",
+      "justificacion": "La exigencia para las categorías enumeradas es que se ubiquen y presten dentro del territorio de la Unión Europea.",
+      "trampaExamen": "46 bis no exige localización en España ni cubre indiscriminadamente todos los datos personales.",
+      "fundamento": "Ley 40/2015, art. 46 bis",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "UC3M-JUR-20261106-016",
+      "tema": 5,
+      "bloque": "Transferencias",
+      "pregunta": "¿Qué excepción recoge el artículo 46 bis para transferir esos datos a un tercer país?",
+      "opciones": [
+        "La sola petición de un proveedor privado",
+        "Cualquier consentimiento oral de un empleado",
+        "La simple existencia de servidor seguro",
+        "Decisión de adecuación o cumplimiento de obligaciones internacionales asumidas por España"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Decisión de adecuación o cumplimiento de obligaciones internacionales asumidas por España",
+      "justificacion": "Prevé excepciones por decisión de adecuación de la Comisión o por obligaciones internacionales asumidas por España.",
+      "trampaExamen": "Localización UE y transferencia a tercer país son obligaciones relacionadas, pero distintas.",
+      "fundamento": "Ley 40/2015, art. 46 bis",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+    },
+    {
+      "id": "UC3M-JUR-20261106-017",
+      "tema": 6,
+      "bloque": "Delegado de datos",
+      "pregunta": "¿Qué entidades deben designar DPD por previsión expresa del artículo 34.1.b LOPDGDD?",
+      "opciones": [
+        "Universidades públicas y privadas",
+        "Solo universidades públicas de más de 10.000 alumnos",
+        "Únicamente agencias privadas de publicidad",
+        "Solo universidades con hospitales propios"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "Universidades públicas y privadas",
+      "justificacion": "La obligación incluye expresamente universidades públicas y privadas.",
+      "trampaExamen": "No depende de un umbral de alumnos en esta previsión.",
+      "fundamento": "LOPDGDD, art. 34.1.b",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "UC3M-JUR-20261106-018",
+      "tema": 6,
+      "bloque": "Delegado de datos",
+      "pregunta": "¿Cuál es el plazo legal para comunicar a la autoridad de control designación, nombramiento y cese de DPD?",
+      "opciones": [
+        "Un año",
+        "30 días hábiles",
+        "10 días",
+        "72 horas"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "10 días",
+      "justificacion": "La comunicación de nombramientos y ceses a la autoridad competente debe realizarse en diez días.",
+      "trampaExamen": "10 días es para comunicar DPD; 72 horas se refiere a ciertas brechas de seguridad en RGPD.",
+      "fundamento": "LOPDGDD, art. 34.3",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "UC3M-JUR-20261106-019",
+      "tema": 6,
+      "bloque": "Reclamaciones",
+      "pregunta": "Una reclamación se presenta directamente al DPD antes de acudir a la autoridad. ¿Qué plazo tiene el DPD para comunicar al afectado la decisión?",
+      "opciones": [
+        "10 días naturales",
+        "72 horas",
+        "6 meses",
+        "Máximo 2 meses desde la recepción"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Máximo 2 meses desde la recepción",
+      "justificacion": "Si el afectado acude previamente al DPD, éste debe comunicar la decisión dentro de dos meses.",
+      "trampaExamen": "Si la autoridad remite reclamación al DPD, el plazo específico es 1 mes.",
+      "fundamento": "LOPDGDD, art. 37.1",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "UC3M-JUR-20261106-020",
+      "tema": 6,
+      "bloque": "Bloqueo de datos",
+      "pregunta": "Cuando procede bloquear datos tras rectificación/supresión, ¿durante qué plazo se reservan para posibles responsabilidades?",
+      "opciones": [
+        "Siempre de modo indefinido",
+        "Durante el plazo de prescripción de posibles responsabilidades",
+        "Exactamente 72 horas",
+        "Siempre un mes y nunca más"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "Durante el plazo de prescripción de posibles responsabilidades",
+      "justificacion": "El bloqueo permite conservarlos solo a disposición legalmente prevista hasta prescribir responsabilidades; luego se destruyen en términos legales.",
+      "trampaExamen": "Supresión no equivale a destrucción inmediata cuando corresponde bloqueo.",
+      "fundamento": "LOPDGDD, art. 32.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "UC3M-JUR-20261106-021",
+      "tema": 7,
+      "bloque": "Acceso",
+      "pregunta": "Según la Ley 10/2019 de Madrid, ¿cuál es el plazo general de resolución de acceso y posible ampliación por volumen o complejidad?",
+      "opciones": [
+        "20 días y posible ampliación de otros 20",
+        "Un mes y siempre otros seis meses",
+        "10 días sin ampliación",
+        "90 días naturales"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "20 días y posible ampliación de otros 20",
+      "justificacion": "Las resoluciones se adoptan y notifican en veinte días, ampliables por otros veinte si lo justifica el volumen/complejidad y se informa.",
+      "trampaExamen": "Los 20 días del régimen madrileño no son el mes del régimen general estatal.",
+      "fundamento": "Ley 10/2019 CM, art. 42.1",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102"
+    },
+    {
+      "id": "UC3M-JUR-20261106-022",
+      "tema": 7,
+      "bloque": "Inadmisión",
+      "pregunta": "Para inadmisión por causas del art. 40.1, ¿cuál es el plazo máximo de notificación de la inadmisión?",
+      "opciones": [
+        "20 días naturales",
+        "Un mes",
+        "5 días hábiles",
+        "90 días"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "5 días hábiles",
+      "justificacion": "Debe resolverse y notificarse cuanto antes, con máximo de cinco días hábiles desde recepción por el órgano competente.",
+      "trampaExamen": "5 días HÁBILES de inadmisión no son los 20 días de resolución ordinaria.",
+      "fundamento": "Ley 10/2019 CM, art. 42.2",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102"
+    },
+    {
+      "id": "UC3M-JUR-20261106-023",
+      "tema": 7,
+      "bloque": "Costes",
+      "pregunta": "¿Cuál es la regla sobre gratuidad y copias en acceso a la información pública en Madrid?",
+      "opciones": [
+        "Todo acceso exige tasa fija",
+        "Acceso gratuito; copias sujetas a tasas legalmente previstas cuando proceda",
+        "Copias siempre gratuitas sin excepción",
+        "El acceso se paga solo si se deniega"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "Acceso gratuito; copias sujetas a tasas legalmente previstas cuando proceda",
+      "justificacion": "El acceso es gratuito, pero la obtención de copias puede someterse a tasas establecidas por su regulación.",
+      "trampaExamen": "Acceso GRATUITO no implica que toda copia sea gratuita.",
+      "fundamento": "Ley 10/2019 CM, art. 46",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102"
+    },
+    {
+      "id": "UC3M-JUR-20261106-024",
+      "tema": 7,
+      "bloque": "Terceros",
+      "pregunta": "Si un tercero se opone al acceso concedido, ¿qué regla contempla el artículo 43.5 sobre cuándo efectuarlo?",
+      "opciones": [
+        "Debe entregarse de inmediato siempre",
+        "Queda denegado definitivamente de oficio",
+        "Debe hacerse exclusivamente por correo postal",
+        "Se difiere en los términos del plazo/resultado de la impugnación contenciosa"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Se difiere en los términos del plazo/resultado de la impugnación contenciosa",
+      "justificacion": "La resolución informa que el acceso solo tendrá lugar cuando transcurra el plazo contencioso sin recurso o este se resuelva confirmando el acceso.",
+      "trampaExamen": "La concesión no significa entrega inmediata cuando hubo oposición del tercero.",
+      "fundamento": "Ley 10/2019 CM, art. 43.5",
+      "referencia": "https://www.boe.es/buscar/act.php?id=BOE-A-2019-10102"
+    }
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "tema": 18,
+  "titulo": "Presupuesto de la UC3M (I)",
+  "preguntas": [
+    {
+      "id": "UC3M-T18-001",
+      "pregunta": "¿Cuál es el importe total del Presupuesto UC3M 2026?",
+      "opciones": [
+        "275.021.875,63 euros",
+        "205.969.445,65 euros",
+        "300.468.067,59 euros",
+        "258.585.445,65 euros"
+      ],
+      "correcta": 2,
+      "justificacion": "El presupuesto de ingresos y el de gastos ascienden a 300.468.067,59 euros.",
+      "trampa": "205.969.445,65 euros corresponde al total de ingresos corrientes, no al presupuesto total.",
+      "referencia": "UC3M Presupuesto 2026 (importe aprobado), BOCM 30/12/2025, anexo ingresos y gastos · https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF",
+      "respuestaLiteral": "300.468.067,59 euros",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "BOCM/BOE enlazado, cotejo anterior"
+    },
+    {
+      "id": "UC3M-T18-002",
+      "pregunta": "Según la LOSU, el presupuesto universitario debe ser:",
+      "opciones": [
+        "Público, único, equilibrado y comprensivo de todos los ingresos y gastos",
+        "Secreto, plurianual y deficitario",
+        "Exclusivamente estimativo",
+        "Aprobado únicamente por el Rector"
+      ],
+      "correcta": 0,
+      "justificacion": "El artículo 57 de la LOSU exige que sea público, único, equilibrado y comprenda la totalidad de ingresos y gastos.",
+      "trampa": "La autonomía universitaria no elimina las exigencias legales de estructura y control.",
+      "referencia": "LOSU, art. 57.1 (presupuesto universitario publico, unico y equilibrado) · https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a57",
+      "respuestaLiteral": "Público, único, equilibrado y comprensivo de todos los ingresos y gastos",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "BOCM/BOE enlazado, cotejo anterior"
+    },
+    {
+      "id": "UC3M-T18-003",
+      "pregunta": "La estructura de los créditos de gasto de la UC3M es:",
+      "opciones": [
+        "Solo económica",
+        "Orgánica y económica",
+        "Territorial y temporal",
+        "Orgánica, funcional o por programas y económica"
+      ],
+      "correcta": 3,
+      "justificacion": "Los gastos se clasifican mediante estructura orgánica, funcional o por programas y económica.",
+      "trampa": "Los ingresos usan estructura orgánica y económica, sin clasificación funcional.",
+      "referencia": "Ley 5/2025 de Hacienda de la Comunidad de Madrid, art. 108.2.a (estructura gastos) · https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108",
+      "respuestaLiteral": "Orgánica, funcional o por programas y económica",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "BOCM/BOE enlazado, cotejo anterior"
+    },
+    {
+      "id": "UC3M-T18-004",
+      "pregunta": "¿Qué capítulo constituye la principal fuente de ingresos del Presupuesto UC3M 2026?",
+      "opciones": [
+        "Capítulo III, tasas y otros ingresos",
+        "Capítulo IV, transferencias corrientes",
+        "Capítulo V, ingresos patrimoniales",
+        "Capítulo VIII, activos financieros"
+      ],
+      "correcta": 1,
+      "justificacion": "Las transferencias corrientes ascienden a 146.834.705,33 euros, el mayor importe del estado de ingresos.",
+      "trampa": "Las tasas y precios públicos son relevantes, pero su cuantía es inferior.",
+      "referencia": "UC3M Presupuesto 2026, ingresos capitulo IV, BOCM 30/12/2025 · https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF",
+      "respuestaLiteral": "Capítulo IV, transferencias corrientes",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "BOCM/BOE enlazado, cotejo anterior"
+    },
+    {
+      "id": "UC3M-T18-005",
+      "pregunta": "Los créditos presupuestarios para gastos tienen carácter:",
+      "opciones": [
+        "Meramente orientativo",
+        "Ilimitado si existe necesidad",
+        "Disponible sin finalidad concreta",
+        "Limitativo y vinculante"
+      ],
+      "correcta": 3,
+      "justificacion": "Los créditos limitan la cuantía y vinculan el gasto a la finalidad y nivel autorizados.",
+      "trampa": "La necesidad del gasto no permite superar automáticamente el crédito disponible.",
+      "referencia": "UC3M, Presupuesto 2026, Volumen I, Normas Básicas de Gestión, art. 5, p. 77 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "respuestaLiteral": "Limitativo y vinculante",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "Texto extraído del PDF UC3M Volumen I 2026, art. 5, p. 77"
+    },
+    {
+      "id": "UC3M-T18-006",
+      "pregunta": "En el Presupuesto UC3M 2026, la regla general de vinculación de los créditos es:",
+      "opciones": [
+        "Nivel de capítulo en todos los casos",
+        "Nivel de concepto dentro de cada centro y programa",
+        "Nivel de subconcepto",
+        "Nivel de artículo sin excepciones"
+      ],
+      "correcta": 1,
+      "justificacion": "La regla general es el nivel de concepto dentro de cada centro y programa.",
+      "trampa": "Los capítulos I, II y VI son excepciones con vinculación a nivel de capítulo.",
+      "referencia": "UC3M, Presupuesto 2026, Volumen I, Normas Básicas de Gestión, art. 5, p. 77 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "respuestaLiteral": "Nivel de concepto dentro de cada centro y programa",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "Texto extraído del PDF UC3M Volumen I 2026, art. 5, p. 77"
+    },
+    {
+      "id": "UC3M-T18-007",
+      "pregunta": "¿Qué modificación presupuestaria traslada crédito entre conceptos del estado de gastos?",
+      "opciones": [
+        "Transferencia de crédito",
+        "Generación de crédito",
+        "Reconocimiento de derecho",
+        "Devolución de ingresos"
+      ],
+      "correcta": 0,
+      "justificacion": "La transferencia mueve la totalidad o parte de un crédito de un concepto a otro.",
+      "trampa": "La generación incrementa créditos por nuevos ingresos o financiación, pero no traslada crédito existente.",
+      "referencia": "UC3M, Presupuesto 2026, Volumen I, Normas Básicas de Gestión, art. 6, pp. 78-79 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "respuestaLiteral": "Transferencia de crédito",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "Texto extraído del PDF UC3M Volumen I 2026, art. 6, pp. 78-79"
+    },
+    {
+      "id": "UC3M-T18-008",
+      "pregunta": "Una transferencia de crédito desde gastos de capital a gastos corrientes requiere:",
+      "opciones": [
+        "Solo autorización del centro gestor",
+        "Consejo Social y autorización del Gobierno de la Comunidad de Madrid",
+        "Aprobación del Rector sin más trámite",
+        "Aprobación exclusiva de la Dirección Económico Financiera"
+      ],
+      "correcta": 1,
+      "justificacion": "Las Normas Básicas de Gestión exigen acuerdo del Consejo Social y autorización autonómica.",
+      "trampa": "Es una transferencia especialmente restringida por alterar la naturaleza económica del gasto.",
+      "referencia": "UC3M, Presupuesto 2026, Volumen I, Normas Básicas de Gestión, art. 6, p. 79 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "respuestaLiteral": "Consejo Social y autorización del Gobierno de la Comunidad de Madrid",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "Texto extraído del PDF UC3M Volumen I 2026, art. 6, p. 79"
+    },
+    {
+      "id": "UC3M-T18-009",
+      "pregunta": "Como regla general, los créditos no comprometidos al cierre del ejercicio:",
+      "opciones": [
+        "Se incorporan siempre automáticamente",
+        "Se convierten en ingresos",
+        "Pasan al capítulo VIII",
+        "Quedan anulados, salvo incorporaciones permitidas"
+      ],
+      "correcta": 3,
+      "justificacion": "Los créditos no sujetos a obligaciones reconocidas quedan anulados, aunque algunos remanentes pueden incorporarse si cumplen los requisitos.",
+      "trampa": "La incorporación es una excepción, no la regla general.",
+      "referencia": "UC3M, Presupuesto 2026, Volumen I, Normas Básicas de Gestión, art. 6, p. 79 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "respuestaLiteral": "Quedan anulados, salvo incorporaciones permitidas",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "Texto extraído del PDF UC3M Volumen I 2026, art. 6, p. 79"
+    },
+    {
+      "id": "UC3M-T18-010",
+      "pregunta": "El reconocimiento de un derecho de ingreso y su cobro:",
+      "opciones": [
+        "Son siempre simultáneos",
+        "Solo existen para precios públicos",
+        "Son fases distintas de la ejecución",
+        "No se registran contablemente"
+      ],
+      "correcta": 2,
+      "justificacion": "Puede reconocerse un derecho antes de que se produzca el cobro material.",
+      "trampa": "Confundir devengo con tesorería es un error frecuente.",
+      "referencia": "UC3M, Presupuesto 2026, Volumen I, Normas Básicas de Gestión, art. 14.1, p. 93 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "respuestaLiteral": "Son fases distintas de la ejecución",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "Texto extraído del PDF UC3M Volumen I 2026, art. 14.1, p. 93"
+    },
+    {
+      "id": "UC3M-T18-011",
+      "pregunta": "La financiación afectada:",
+      "opciones": [
+        "Puede destinarse libremente a cualquier gasto",
+        "Solo existe en gastos de personal",
+        "Debe aplicarse a la finalidad concreta que la origina",
+        "No genera remanentes"
+      ],
+      "correcta": 2,
+      "justificacion": "Los ingresos afectados están vinculados a proyectos, subvenciones o finalidades determinadas.",
+      "trampa": "La existencia de tesorería no elimina la obligación de respetar el destino finalista.",
+      "referencia": "UC3M, Presupuesto 2026, Volumen I, Normas Básicas de Gestión, art. 6 y títulos de financiación específica, pp. 78-79 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "respuestaLiteral": "Debe aplicarse a la finalidad concreta que la origina",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "Texto extraído del PDF UC3M Volumen I 2026, art. 6 y títulos de financiación específica, pp. 78-79"
+    },
+    {
+      "id": "UC3M-T18-012",
+      "pregunta": "En el procedimiento de seguimiento de facturas pendientes, el grupo de seguimiento de incobrados interviene, con carácter general, a los:",
+      "opciones": [
+        "120 días",
+        "30 días",
+        "60 días",
+        "90 días"
+      ],
+      "correcta": 0,
+      "justificacion": "Las normas de 2026 prevén la reunión del grupo una vez transcurridos 120 días desde la emisión.",
+      "trampa": "A los 90 días se inicia el proceso de incobrados, pero la reunión se sitúa a los 120 días.",
+      "referencia": "UC3M, Presupuesto 2026, Volumen I, Normas Básicas de Gestión, art. 14.2, pp. 93-94 · https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "respuestaLiteral": "120 días",
+      "estadoContrasteFuente20261109": "PRIMARIA_CONTRASTADA",
+      "controlFuente20261109": "Texto extraído del PDF UC3M Volumen I 2026, art. 14.2, pp. 93-94"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlTrazabilidadFuente20261109": {
+    "fecha": "2026-11-09",
+    "tema": 18,
+    "preguntasConReferenciaPrimaria": 12,
+    "preguntasDependientesNormasGestion": 8,
+    "cotejoVolumenIPrimarioCompleto": true,
+    "archivoPrimario": "Volumen I UC3M Presupuesto 2026 PDF, 3.807.877 bytes",
+    "idDocumento": "1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn",
+    "certificacionIntegral": false,
+    "estado": "AUDITADO"
+  }
+}

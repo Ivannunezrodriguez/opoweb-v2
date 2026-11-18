@@ -1,0 +1,335 @@
+{
+  "tema": 4,
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T04-001",
+      "pregunta": "¿Cuál de las siguientes materias regula principalmente la Ley 40/2015?",
+      "opciones": [
+        "El procedimiento administrativo común",
+        "La jurisdicción contencioso-administrativa",
+        "El régimen jurídico del sector público",
+        "La contratación pública"
+      ],
+      "correcta": 2,
+      "justificacion": "La Ley 40/2015 regula las bases del régimen jurídico de las Administraciones Públicas, la organización del sector público y las relaciones interadministrativas.",
+      "trampa": "No confundirla con la Ley 39/2015, centrada en el procedimiento administrativo común.",
+      "referencia": "Ley 40/2015, artículo 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a1",
+      "respuestaLiteral": "El régimen jurídico del sector público"
+    },
+    {
+      "id": "DIP-T04-002",
+      "pregunta": "La competencia administrativa es, como regla general:",
+      "opciones": [
+        "Renunciable",
+        "Irrenunciable",
+        "Delegable en su titularidad",
+        "Disponible por acuerdo entre órganos"
+      ],
+      "correcta": 1,
+      "justificacion": "La competencia es irrenunciable y debe ejercerse por el órgano que la tenga atribuida, salvo los supuestos legales de delegación o avocación.",
+      "trampa": "Que pueda desplazarse su ejercicio no significa que la competencia deje de ser irrenunciable.",
+      "referencia": "Ley 40/2015, artículo 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8",
+      "respuestaLiteral": "Irrenunciable"
+    },
+    {
+      "id": "DIP-T04-003",
+      "pregunta": "¿Cuál de estas técnicas puede alterar la titularidad y el ejercicio de la competencia?",
+      "opciones": [
+        "Delegación de firma",
+        "Suplencia",
+        "Encomienda de gestión",
+        "Desconcentración"
+      ],
+      "correcta": 3,
+      "justificacion": "La desconcentración puede trasladar titularidad y ejercicio a órganos jerárquicamente dependientes conforme a la norma de atribución.",
+      "trampa": "Delegación, encomienda, firma y suplencia no alteran la titularidad.",
+      "referencia": "Ley 40/2015, artículo 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a8",
+      "respuestaLiteral": "Desconcentración"
+    },
+    {
+      "id": "DIP-T04-004",
+      "pregunta": "¿Cuál de las siguientes materias no puede ser objeto de delegación?",
+      "opciones": [
+        "La firma de actos de trámite",
+        "La instrucción de expedientes",
+        "La adopción de disposiciones de carácter general",
+        "La gestión material de archivos"
+      ],
+      "correcta": 2,
+      "justificacion": "La Ley 40/2015 excluye de la delegación, entre otras materias, la adopción de disposiciones de carácter general.",
+      "trampa": "La prohibición afecta a dictar disposiciones generales, no a cualquier actuación administrativa de carácter general.",
+      "referencia": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
+      "respuestaLiteral": "La adopción de disposiciones de carácter general"
+    },
+    {
+      "id": "DIP-T04-005",
+      "pregunta": "La avocación debe formalizarse mediante:",
+      "opciones": [
+        "Orden verbal",
+        "Convenio",
+        "Encomienda de gestión",
+        "Acuerdo motivado"
+      ],
+      "correcta": 3,
+      "justificacion": "La avocación requiere acuerdo motivado y notificación a los interesados antes o simultáneamente a la resolución final.",
+      "trampa": "No cabe recurso autónomo contra la avocación, pero puede cuestionarse al impugnar la resolución final.",
+      "referencia": "Ley 40/2015, artículo 10 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a10",
+      "respuestaLiteral": "Acuerdo motivado"
+    },
+    {
+      "id": "DIP-T04-006",
+      "pregunta": "La encomienda de gestión puede tener por objeto:",
+      "opciones": [
+        "La titularidad de una competencia",
+        "La aprobación de reglamentos",
+        "La resolución de recursos administrativos",
+        "Actividades materiales o técnicas"
+      ],
+      "correcta": 3,
+      "justificacion": "La encomienda se limita a actividades materiales o técnicas por razones de eficacia o falta de medios idóneos.",
+      "trampa": "No cede la titularidad ni los elementos sustantivos del ejercicio de la competencia.",
+      "referencia": "Ley 40/2015, artículo 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a11",
+      "respuestaLiteral": "Actividades materiales o técnicas"
+    },
+    {
+      "id": "DIP-T04-007",
+      "pregunta": "La delegación de firma:",
+      "opciones": [
+        "Altera la competencia",
+        "Altera la titularidad",
+        "No altera la competencia",
+        "Solo cabe entre Administraciones distintas"
+      ],
+      "correcta": 2,
+      "justificacion": "La delegación de firma permite que otro titular firme actos o resoluciones sin alterar la competencia del órgano delegante.",
+      "trampa": "Delegar la firma no equivale a delegar la competencia.",
+      "referencia": "Ley 40/2015, artículo 12 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a12",
+      "respuestaLiteral": "No altera la competencia"
+    },
+    {
+      "id": "DIP-T04-008",
+      "pregunta": "¿Cuál es un supuesto típico de suplencia?",
+      "opciones": [
+        "Vacante, ausencia o enfermedad",
+        "Discrepancia jurídica",
+        "Delegación normativa",
+        "Cambio de personalidad jurídica"
+      ],
+      "correcta": 0,
+      "justificacion": "La suplencia opera temporalmente en casos de vacante, ausencia, enfermedad, abstención o recusación.",
+      "trampa": "La suplencia sustituye temporalmente al titular, pero no modifica la competencia.",
+      "referencia": "Ley 40/2015, artículo 13 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a13",
+      "respuestaLiteral": "Vacante, ausencia o enfermedad"
+    },
+    {
+      "id": "DIP-T04-009",
+      "pregunta": "Para la válida constitución ordinaria de un órgano colegiado se requiere:",
+      "opciones": [
+        "Solo la mitad de sus miembros",
+        "Todos sus miembros",
+        "Presidente, secretario y al menos la mitad de sus miembros",
+        "Dos tercios de sus miembros"
+      ],
+      "correcta": 2,
+      "justificacion": "La constitución válida exige la presencia del presidente y secretario, o quienes les suplan, y al menos la mitad de los miembros.",
+      "trampa": "La mitad de miembros no basta sin presidente y secretario o sus suplentes.",
+      "referencia": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
+      "respuestaLiteral": "Presidente, secretario y al menos la mitad de sus miembros"
+    },
+    {
+      "id": "DIP-T04-010",
+      "pregunta": "Si la persona recusada niega la causa alegada, ¿en qué plazo debe resolver el superior inmediato?",
+      "opciones": [
+        "Dos días",
+        "Cinco días",
+        "Diez días",
+        "Tres días"
+      ],
+      "correcta": 3,
+      "justificacion": "Según el artículo 24.4 de la Ley 40/2015, si el recusado niega la causa, el superior resolverá en el plazo de tres días, previos los informes y comprobaciones oportunos.",
+      "trampa": "Los tres días solo aplican si se niega la causa; el recusado manifiesta su posición al día siguiente (art. 24.3).",
+      "referencia": "Ley 40/2015, artículo 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24",
+      "respuestaLiteral": "Tres días"
+    },
+    {
+      "id": "DIP-T04-011",
+      "pregunta": "La cooperación interadministrativa se caracteriza principalmente por ser:",
+      "opciones": [
+        "Voluntaria y acordada",
+        "Jerárquica",
+        "Sancionadora",
+        "Una transferencia de titularidad"
+      ],
+      "correcta": 0,
+      "justificacion": "La cooperación implica una actuación voluntaria y acordada entre Administraciones para alcanzar objetivos comunes.",
+      "trampa": "No confundir cooperación con coordinación, que puede responder a una competencia específica de integración.",
+      "referencia": "Ley 40/2015, artículo 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a143",
+      "respuestaLiteral": "Voluntaria y acordada"
+    },
+    {
+      "id": "DIP-T04-012",
+      "pregunta": "¿Cuál de los siguientes es un órgano de cooperación?",
+      "opciones": [
+        "La conferencia sectorial",
+        "La mesa de contratación",
+        "El tribunal calificador",
+        "La junta de personal"
+      ],
+      "correcta": 0,
+      "justificacion": "Las conferencias sectoriales son órganos de cooperación multilateral entre Administraciones Públicas.",
+      "trampa": "No todo órgano colegiado es un órgano de cooperación interadministrativa.",
+      "referencia": "Ley 40/2015, artículo 147 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a147",
+      "respuestaLiteral": "La conferencia sectorial"
+    },
+    {
+      "id": "DIP-T04-013",
+      "pregunta": "¿Puede un órgano colegiado deliberar sobre un asunto no incluido en el orden del día?",
+      "opciones": [
+        "Sí, por decisión unilateral de la Presidencia",
+        "Sí, si asisten todos los miembros y la mayoría declara la urgencia",
+        "Sí, con la presencia de la mitad de sus miembros",
+        "Nunca, ni siquiera por unanimidad"
+      ],
+      "correcta": 1,
+      "justificacion": "El **artículo 17.4 Ley 40/2015** permite tratar asuntos no incluidos en el orden del día solo si **asisten todos sus miembros** y la **mayoría** declara la urgencia.",
+      "trampa": "No basta el quórum ordinario; para alterar el orden del día se exige **asistencia de todos** y declaración de urgencia por **mayoría**.",
+      "referencia": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
+      "respuestaLiteral": "Sí, si asisten todos los miembros y la mayoría declara la urgencia"
+    },
+    {
+      "id": "DIP-T04-014",
+      "pregunta": "¿Puede delegarse la resolución de recursos en el órgano que dictó el acto recurrido?",
+      "opciones": [
+        "No",
+        "Sí, siempre",
+        "Sí, si acepta el recurrente",
+        "Sí, sin necesidad de habilitación"
+      ],
+      "correcta": 0,
+      "justificacion": "Ley 40/2015, artículo 9: No.",
+      "trampa": "**Art. 9.2.c**: la resolución del recurso no puede delegarse en quien dictó el acto recurrido; no basta el acuerdo del recurrente ni una autorización informal.",
+      "referencia": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
+      "respuestaLiteral": "No"
+    },
+    {
+      "id": "DIP-T04-015",
+      "pregunta": "¿Dónde se publica una delegación de competencias?",
+      "opciones": [
+        "Únicamente en el tablón del órgano",
+        "En el diario oficial correspondiente",
+        "Solo en una nota de prensa",
+        "Exclusivamente en la intranet"
+      ],
+      "correcta": 1,
+      "justificacion": "Ley 40/2015, artículo 9: En el diario oficial correspondiente.",
+      "trampa": "**Art. 9.3**: delegación y revocación se publican en el **BOE**, diario autonómico o **BOP** según Administración y ámbito.",
+      "referencia": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
+      "respuestaLiteral": "En el diario oficial correspondiente"
+    },
+    {
+      "id": "DIP-T04-016",
+      "pregunta": "¿Cuándo puede constituirse un órgano colegiado sin convocatoria previa conforme al artículo 17.2 de la Ley 40/2015?",
+      "opciones": [
+        "Cuando lo autorice cualquier vocal",
+        "Cuando asistan la Presidencia y un tercio de sus miembros",
+        "Siempre que exista urgencia declarada por la Presidencia",
+        "Cuando estén reunidos el secretario y todos los miembros (o suplentes) y así lo decidan todos"
+      ],
+      "correcta": 3,
+      "justificacion": "Puede constituirse sin convocatoria previa cuando estén reunidos **el secretario y todos los miembros o sus suplentes**, presencialmente o a distancia, **y todos lo decidan**; la previsión legal debe leerse con sus restantes reglas de funcionamiento.",
+      "trampa": "No confundir la **ausencia de convocatoria previa** con el quórum ordinario de **la mitad** de miembros.",
+      "referencia": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
+      "respuestaLiteral": "Cuando estén reunidos el secretario y todos los miembros (o suplentes) y así lo decidan todos"
+    },
+    {
+      "id": "DIP-T04-017",
+      "pregunta": "¿Cómo se adoptan con carácter general los acuerdos de los órganos colegiados regulados en el artículo 17 Ley 40/2015?",
+      "opciones": [
+        "Por unanimidad de los miembros",
+        "Por mayoría de votos",
+        "Por tres quintos del total",
+        "Por mayoría absoluta de los miembros designados, necesariamente"
+      ],
+      "correcta": 1,
+      "justificacion": "El **artículo 17.5 Ley 40/2015** establece que los acuerdos se adoptan por **mayoría de votos**.",
+      "trampa": "La ley dice **mayoría de votos**, no unanimidad ni mayoría cualificada como regla general.",
+      "referencia": "Ley 40/2015, artículo 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a17",
+      "respuestaLiteral": "Por mayoría de votos"
+    },
+    {
+      "id": "DIP-T04-018",
+      "pregunta": "Si concurre causa legal de abstención, ¿qué hace el empleado público?",
+      "opciones": [
+        "Continuar y resolver con normalidad",
+        "Resolver unilateralmente su recusación",
+        "Se abstiene y comunica la causa al superior inmediato",
+        "Delegar siempre la titularidad"
+      ],
+      "correcta": 2,
+      "justificacion": "Ley 40/2015, artículo 23: Se abstiene y comunica la causa al superior inmediato.",
+      "trampa": "**Art. 23**: si existe causa de abstención, se comunica al **superior inmediato**; la abstención no depende de que lo pida el ciudadano.",
+      "referencia": "Ley 40/2015, artículo 23 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a23",
+      "respuestaLiteral": "Se abstiene y comunica la causa al superior inmediato"
+    },
+    {
+      "id": "DIP-T04-019",
+      "pregunta": "¿Cuándo debe manifestar el recusado a su superior si concurre la causa?",
+      "opciones": [
+        "Al día siguiente",
+        "En diez días",
+        "En tres días",
+        "En un mes"
+      ],
+      "correcta": 0,
+      "justificacion": "Ley 40/2015, artículo 24: Al día siguiente.",
+      "trampa": "**Art. 24.3**: el recusado comunica su posición **al día siguiente**; los **3 días** del superior se aplican si aquel niega la causa.",
+      "referencia": "Ley 40/2015, artículo 24 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a24",
+      "respuestaLiteral": "Al día siguiente"
+    },
+    {
+      "id": "DIP-T04-020",
+      "pregunta": "¿Qué caracteriza a la cooperación entre Administraciones?",
+      "opciones": [
+        "Impone una relación jerárquica",
+        "Compromisos voluntarios para una acción común",
+        "Se basa en sanciones entre órganos",
+        "Solo puede producirse entre municipios"
+      ],
+      "correcta": 1,
+      "justificacion": "Ley 40/2015, artículo 143: Compromisos voluntarios para una acción común.",
+      "trampa": "**Cooperación** compromisos **voluntarios**, distinta de la **coordinación** cuando hay competencia habilitante.",
+      "referencia": "Ley 40/2015, artículo 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a143",
+      "respuestaLiteral": "Compromisos voluntarios para una acción común"
+    },
+    {
+      "id": "DIP-T04-021",
+      "pregunta": "Según el artículo 9.5 de la Ley 40/2015, ¿puede delegarse la competencia para resolver un procedimiento después de haberse emitido en él un informe preceptivo?",
+      "opciones": [
+        "No, una vez emitido ese informe preceptivo no podrá delegarse la competencia para resolver",
+        "Sí, porque todo informe preceptivo permite la delegación posterior",
+        "Sí, sin necesidad de acuerdo ni publicación",
+        "Solo si el interesado presta su consentimiento"
+      ],
+      "correcta": 0,
+      "justificacion": "El **artículo 9.5 Ley 40/2015** permite delegar aunque la norma contemple un informe o dictamen preceptivo, pero impide delegar la competencia para resolver **una vez emitido** el informe o dictamen en el procedimiento.",
+      "trampa": "**Art. 9.5**: un **dictamen preceptivo** no impide delegación si aún no se emitió, pero una vez **emitido** no cabe delegar la competencia para resolver.",
+      "referencia": "Ley 40/2015, artículo 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a9",
+      "respuestaLiteral": "No, una vez emitido ese informe preceptivo no podrá delegarse la competencia para resolver"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "tipo": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 21,
+    "alternativas": 84,
+    "preceptosBOE": true,
+    "rehacerSoloPorErrorONuevaNorma": true,
+    "pruebaTecnicaNavegador": "CONTROL_TRANSVERSAL_PENDIENTE",
+    "certificacionIntegral": false
+  }
+}

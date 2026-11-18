@@ -1,0 +1,210 @@
+{
+  "tema": 1,
+  "estado": "AUDITADO",
+  "version": "2026-11-05-revision-bloque-general-01-04",
+  "preguntas": [
+    {
+      "id": "OLIAS-T01-001",
+      "enunciado": "La forma política del Estado español es:",
+      "opciones": [
+        "Monarquía presidencial",
+        "República parlamentaria",
+        "Monarquía parlamentaria",
+        "Monarquía absoluta"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Constitución lo expresa literalmente en el artículo 1.3.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 1.3 CE**: la forma política es **Monarquía parlamentaria**, no un modelo presidencial.",
+      "referencia": "CE, art. 1.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1",
+      "respuestaLiteral": "Monarquía parlamentaria"
+    },
+    {
+      "id": "OLIAS-T01-002",
+      "enunciado": "La soberanía nacional reside en:",
+      "opciones": [
+        "Las Cortes Generales",
+        "El pueblo español",
+        "La Corona",
+        "El Consejo de Ministros"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 1.2 atribuye la soberanía al pueblo español.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 1.2 CE**: la soberanía reside en **el pueblo español**, no en un órgano estatal.",
+      "referencia": "CE, art. 1.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a1",
+      "respuestaLiteral": "El pueblo español"
+    },
+    {
+      "id": "OLIAS-T01-003",
+      "enunciado": "La norma institucional básica de cada Comunidad Autónoma es:",
+      "opciones": [
+        "Su Estatuto de Autonomía",
+        "Una ley ordinaria de la Asamblea autonómica",
+        "Una disposición reglamentaria del Gobierno autonómico",
+        "La ley anual de presupuestos autonómicos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 147.1 define el Estatuto como norma institucional básica.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 147.1 CE**: el Estatuto es la **norma institucional básica**, no cualquier ley autonómica.",
+      "referencia": "CE, art. 147.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a147",
+      "respuestaLiteral": "Su Estatuto de Autonomía"
+    },
+    {
+      "id": "OLIAS-T01-004",
+      "enunciado": "¿Qué artículo enumera materias de competencia exclusiva del Estado?",
+      "opciones": [
+        "El artículo 148",
+        "El 149",
+        "El artículo 147",
+        "El artículo 143"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 149 regula competencias exclusivas estatales.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 149 CE**: competencias exclusivas estatales; **art. 148** es lista de posibles competencias autonómicas.",
+      "referencia": "CE, arts. 148–149 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a149",
+      "respuestaLiteral": "El 149"
+    },
+    {
+      "id": "OLIAS-T01-005",
+      "enunciado": "Según la Constitución, el Rey es:",
+      "opciones": [
+        "El Presidente del Gobierno",
+        "El presidente de las Cortes Generales",
+        "El titular del Consejo General del Poder Judicial",
+        "El Jefe del Estado"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El Rey es Jefe del Estado según el artículo 56.1.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 56 CE**: **Jefe del Estado** no equivale a **Presidente del Gobierno**.",
+      "referencia": "CE, art. 56.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a56",
+      "respuestaLiteral": "El Jefe del Estado"
+    },
+    {
+      "id": "OLIAS-T01-006",
+      "enunciado": "¿Quiénes refrendan, como regla, los actos del Rey?",
+      "opciones": [
+        "El Presidente del Gobierno o ministros competentes según proceda",
+        "El Presidente del Congreso de los Diputados en todos los casos",
+        "Los Presidentes de las Comunidades Autónomas",
+        "El Presidente del Tribunal Supremo como regla general"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 64 distribuye el refrendo y establece excepciones específicas.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 64 CE**: regla de refrendo por Presidente o ministros; la **propuesta y nombramiento del Presidente** y disolución del 99 tienen refrendo del **Presidente del Congreso**.",
+      "referencia": "CE, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a64",
+      "respuestaLiteral": "El Presidente del Gobierno o ministros competentes según proceda"
+    },
+    {
+      "id": "OLIAS-T01-007",
+      "enunciado": "¿Quién propone al Rey el nombramiento y cese de los Ministros?",
+      "opciones": [
+        "El Presidente del Congreso de los Diputados",
+        "El Congreso por mayoría simple",
+        "El Presidente del Gobierno",
+        "El Rey, sin propuesta de otro órgano"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los Ministros son nombrados y separados por el Rey a propuesta del Presidente del Gobierno.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 100 CE**: el Rey **nombra y separa** ministros **a propuesta del Presidente del Gobierno**.",
+      "referencia": "CE, art. 100 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a100",
+      "respuestaLiteral": "El Presidente del Gobierno"
+    },
+    {
+      "id": "OLIAS-T01-008",
+      "enunciado": "En primera votación de investidura del Presidente se requiere:",
+      "opciones": [
+        "Mayoría simple",
+        "Tres quintos de la Cámara",
+        "Mayoría absoluta",
+        "Dos tercios de la Cámara"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 99.3 exige mayoría absoluta de los miembros del Congreso.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 99.3 CE**: **primera votación: mayoría absoluta** del Congreso.",
+      "referencia": "CE, art. 99.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99",
+      "respuestaLiteral": "Mayoría absoluta"
+    },
+    {
+      "id": "OLIAS-T01-009",
+      "enunciado": "Si no se alcanza mayoría absoluta, la siguiente votación de investidura será:",
+      "opciones": [
+        "48 horas después y mayoría simple",
+        "24 horas después y mayoría simple",
+        "48 horas después y mayoría absoluta",
+        "72 horas después y mayoría de tres quintos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La segunda votación es a las 48 horas y basta mayoría simple.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 99.3 CE**: segunda votación **48 horas después**, ahora **mayoría simple**.",
+      "referencia": "CE, art. 99.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99",
+      "respuestaLiteral": "48 horas después y mayoría simple"
+    },
+    {
+      "id": "OLIAS-T01-010",
+      "enunciado": "Si no hay Presidente investido, ¿desde cuándo se cuentan los dos meses para disolver las Cámaras?",
+      "opciones": [
+        "Desde la propuesta del primer candidato",
+        "Desde la constitución del Congreso",
+        "Desde la primera ronda de consultas del Rey",
+        "Desde la primera votación de investidura"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 99.5 computa dos meses desde la primera votación de investidura.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 99.5 CE**: los **dos meses** para nuevas candidaturas se computan **desde la primera votación**.",
+      "referencia": "CE, art. 99.5 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a99",
+      "respuestaLiteral": "Desde la primera votación de investidura"
+    },
+    {
+      "id": "OLIAS-T01-011",
+      "enunciado": "El Gobierno responde solidariamente en su gestión política ante:",
+      "opciones": [
+        "El Senado",
+        "El Congreso de los Diputados",
+        "Las Cortes Generales en sesión conjunta",
+        "El Rey"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 108 asigna responsabilidad política solidaria ante el Congreso.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 108 CE**: responsabilidad solidaria del Gobierno **ante el Congreso**, no el Senado.",
+      "referencia": "CE, art. 108 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a108",
+      "respuestaLiteral": "El Congreso de los Diputados"
+    },
+    {
+      "id": "OLIAS-T01-012",
+      "enunciado": "Según el artículo 97 CE, el Gobierno ejerce:",
+      "opciones": [
+        "La potestad legislativa exclusiva",
+        "La jurisdicción ordinaria",
+        "La aprobación definitiva de todas las leyes sin las Cortes",
+        "Función ejecutiva y potestad reglamentaria"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El Gobierno dirige la política y ejerce función ejecutiva y potestad reglamentaria.",
+      "trampaExamen": "⚠️ **¡Foco Examen!:** **Art. 97 CE**: el Gobierno dirige política y Administración, ejerce **función ejecutiva y potestad reglamentaria**.",
+      "referencia": "CE, art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a97",
+      "respuestaLiteral": "Función ejecutiva y potestad reglamentaria"
+    }
+  ],
+  "controlLote20261105": {
+    "fecha": "2026-11-05",
+    "estado": "BANCO_REVISADO_CONTRASTE_POR_NORMA_PENDIENTE_CERTIFICACION_INTEGRAL",
+    "preguntas": 12,
+    "alternativas": 48,
+    "intervencion": "Se sustituyeron distractores banales por alternativas jurídicas plausibles, preservando en cada pregunta la respuesta correcta, el enunciado y su justificación. Se añadieron enlaces oficiales al precepto base.",
+    "fuentePrograma": "BOP Toledo 204/2026, anuncio 2026/4833, Anexo II",
+    "certificacionIntegral": false
+  },
+  "controlFocos20261105": {
+    "fecha": "2026-11-05",
+    "items": 12,
+    "criterio": "Un foco específico por pregunta frente a distractores jurídicos del mismo bloque",
+    "cierreIntegral": false
+  },
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "tipo": "BANCO_DOCUMENTAL_COTEJADO",
+    "preguntasRevisadas": 12,
+    "alternativas": 48,
+    "respuestasPreservadas": true,
+    "certificacionIntegral": false
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "tema": 6,
+  "estado": "AUDITADO",
+  "aprobadoEl": "2026-07-17",
+  "epigrafeOficial": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: El Personal al servicio de las Administraciones Públicas. Provisión de puestos de trabajo. La carrera administrativa. Promoción interna. La selección del personal y la oferta pública de Empleo.",
+  "fechaRevisionNormativa": "2026-11-04",
+  "advertenciaVigencia": "El texto consolidado del BOE integra modificaciones hasta 21/03/2024. El manual incorpora además la modificación vigente del artículo 70.2 efectuada por la Ley 2/2026, de 9 de abril, con entrada en vigor el 06/05/2026.",
+  "contratoFrontendVerificado": "2026-07-30: assets/app.js normaliza pregunta/enunciado, correcta/respuestaCorrecta y trampa/trampaExamen.",
+  "normas": [
+    {
+      "titulo": "Ley 4/2011, de 10 de marzo, del Empleo Público de Castilla-La Mancha",
+      "referencia": "BOE-A-2011-7752",
+      "textoConsolidadoConsultado": "Última actualización integrada publicada el 21/03/2024; actualizaciones posteriores en proceso"
+    },
+    {
+      "titulo": "Ley 2/2026, de 9 de abril",
+      "referencia": "DOCM-q-2026-90086",
+      "alcance": "Modificación del artículo 70.2 vigente desde el 06/05/2026"
+    }
+  ],
+  "cobertura": [
+    {
+      "inciso": "El personal al servicio de las Administraciones Públicas",
+      "articulos": "Ley 4/2011, artículos 4-15; contexto de los artículos 1-3",
+      "contenidoExigible": [
+        "clases de personal empleado público",
+        "funcionarios de carrera e interinos",
+        "personal laboral y eventual",
+        "funciones reservadas a funcionarios",
+        "personal directivo profesional"
+      ]
+    },
+    {
+      "inciso": "Oferta pública de empleo",
+      "articulos": "Ley 4/2011, artículo 19; contexto de los artículos 16-18",
+      "contenidoExigible": [
+        "plazas vacantes y dotadas",
+        "diferencia entre plantilla, RPT, OEP y convocatoria",
+        "ejecución en tres años",
+        "hasta diez por ciento adicional",
+        "publicación y contenido mínimo"
+      ]
+    },
+    {
+      "inciso": "Selección del personal",
+      "articulos": "Ley 4/2011, artículos 37-55",
+      "contenidoExigible": [
+        "principios y requisitos",
+        "discapacidad y adaptaciones",
+        "sistemas selectivos",
+        "órganos y convocatorias",
+        "pruebas, aprobados, prácticas y adquisición de la condición"
+      ]
+    },
+    {
+      "inciso": "Carrera administrativa",
+      "articulos": "Ley 4/2011, artículos 62-64 y 66",
+      "contenidoExigible": [
+        "carrera vertical y horizontal",
+        "tramos y evaluación",
+        "evaluación del desempeño",
+        "efectos sobre provisión, formación e incentivos"
+      ]
+    },
+    {
+      "inciso": "Promoción interna",
+      "articulos": "Ley 4/2011, artículos 62 y 65",
+      "contenidoExigible": [
+        "promoción vertical y horizontal",
+        "dos años de servicio activo",
+        "concurso-oposición",
+        "méritos y adjudicación de destino"
+      ]
+    },
+    {
+      "inciso": "Provisión de puestos de trabajo",
+      "articulos": "Ley 4/2011, artículos 67-82; artículo 70.2 en redacción vigente tras Ley 2/2026",
+      "contenidoExigible": [
+        "concurso y libre designación",
+        "remoción, toma de posesión y supresión",
+        "redistribución, comisión y adscripción provisional",
+        "movilidad por salud y violencia de género",
+        "permuta, misiones, funciones temporales y movilidad interadministrativa"
+      ]
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "ordenación completa de puestos, cuerpos y escalas de los artículos 20-36",
+    "pérdida de la relación de servicio de los artículos 56-61",
+    "retribuciones, derechos, deberes, permisos, situaciones y régimen disciplinario",
+    "negociación colectiva y representación",
+    "desarrollo reglamentario completo de cada Administración"
+  ],
+  "criterioDeCierre": "Aprobado expresamente por el usuario el 17 de julio de 2026; no por longitud o cantidad de artículos.",
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "Seis ámbitos de programa, manual y 12 preguntas con sus 48 opciones",
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-06/cotejo-integral-2026-11-04.md",
+    "fuentesOficiales": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "https://www.boe.es/eli/es-cm/l/2011/03/10/4"
+    ],
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionIntegralCincoCapas": false
+  },
+  "controlFocal20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T06_T08_20261106.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T06_T08_20261106.md",
+    "prueba": "tests/validate-la-puebla-repaso-t06-t08-20261106.mjs",
+    "bloquesExistentes": 6,
+    "bancoHistoricoPreguntas": 12,
+    "bancoHistoricoAlternativas": 48,
+    "microcasosExtraMarkdown": 3,
+    "alternativasExtraMarkdown": 12,
+    "fuentes": [
+      "BOE-A-2011-7752",
+      "DOCM-q-2026-90086"
+    ],
+    "comprobaciones": [
+      "Ley 4/2011 8.1.c 4 años programa temporal",
+      "8.1.d 6 meses en 12 por acumulacion",
+      "19.4 OEP 3 años improrrogables",
+      "65.2 promocion interna 2 años",
+      "Ley 2/2026 reforma 70.2 para ciertos puestos estatutarios"
+    ],
+    "correccion": "Se corrige metadato obsoleto de inexistencia de preguntas y reserva de fuentes ya levantada",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "recertificacionIntegral": false,
+    "pruebaNavegadorReal": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pendientes": [
+      "comprobacion legislacion a fecha examen 2026-11-14",
+      "GitHub Actions run sobre ultimo commit",
+      "navegador real movil WCAG PWA",
+      "certificacion juridica integral de todo el manual"
+    ]
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "aprobadoHistoricamente": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
+  }
+}

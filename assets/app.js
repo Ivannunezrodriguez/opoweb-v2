@@ -1,0 +1,640 @@
+const app = document.querySelector('#app');
+const THEME_KEY = 'opoweb-theme';
+const SELECTED_CALL_KEY = 'opoweb-selected-convocatoria';
+const REQUEST_TIMEOUT_MS = 12000;
+
+const CALLS = [
+  {
+    id: 'la-puebla-auxiliar-administrativo-2026',
+    label: 'La Puebla de Montalbán · Auxiliar Administrativo C2',
+    shortLabel: 'La Puebla · C2',
+    programmeUrl: 'data/programa.json',
+    trackingUrl: 'data/seguimiento-la-puebla.json',
+    contentRoot: 'content/la-puebla',
+    availableThemes: 19,
+    practiceUrl: 'practice.html'
+  },
+  {
+    id: 'diputacion-toledo-administrativo-c1-2026',
+    label: 'Diputación Provincial de Toledo · Administrativo C1',
+    shortLabel: 'Diputación de Toledo · C1',
+    programmeUrl: 'data/programa-diputacion-administrativo-2026.json',
+    trackingUrl: 'data/seguimiento-diputacion-c1.json',
+    contentRoot: 'content/diputacion-toledo',
+    availableThemes: 40,
+    practiceUrl: 'practice.html'
+  },
+  {
+    id: 'diputacion-toledo-auxiliar-c2-2026',
+    label: 'Diputación Provincial de Toledo · Auxiliar Administrativo C2 (2026)',
+    shortLabel: 'Diputación de Toledo · Auxiliar C2',
+    programmeUrl: 'data/programa-diputacion-auxiliar-c2-2026.json',
+    trackingUrl: 'data/seguimiento-diputacion-auxiliar-c2-2026.json',
+    contentRoot: 'content/diputacion-toledo-auxiliar-c2',
+    availableThemes: 20,
+    practiceUrl: 'practice.html'
+  },
+  {
+    id: 'uc3m-auxiliar-administrativa-c2-2026',
+    label: 'Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2',
+    shortLabel: 'UC3M · Auxiliar C2',
+    programmeUrl: 'data/programa-uc3m-auxiliar-administrativa-2026.json',
+    trackingUrl: 'data/seguimiento-uc3m.json',
+    contentRoot: 'content/uc3m',
+    availableThemes: 20,
+    practiceUrl: 'practice.html'
+  }
+  ,
+  {
+    id: 'olias-del-rey-auxiliar-edificios-c2-2026',
+    label: 'Olías del Rey · Auxiliar de edificios e instalaciones C2',
+    shortLabel: 'Olías del Rey · Auxiliar edificios C2',
+    programmeUrl: 'data/programa-olias-auxiliar-edificios-2026.json',
+    trackingUrl: 'data/seguimiento-olias-auxiliar-edificios-2026.json',
+    contentRoot: 'content/olias-auxiliar-edificios',
+    availableThemes: 0,
+    practiceUrl: 'practice.html'
+  }
+];
+
+let activeCall = null;
+let activeProgramme = null;
+let activeTracking = null;
+let activeSearchQuery = '';
+let searchBuildToken = 0;
+const searchIndex = new Map();
+
+const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, char => ({
+  '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+}[char]));
+
+function inlineMarkdown(value) {
+  // Analizar enlaces en el texto original y escapar cada fragmento antes de
+  // generar HTML. No ejecutar etiquetas incluidas en manuales o preguntas.
+  const text = String(value ?? '');
+  const formatText = segment => escapeHtml(segment)
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/\x60([^\x60]+)\x60/g, '<code>$1</code>');
+  const linkPattern = /\[([^\]\n]+)\]\((https:\/\/[^\s)]+|[A-Za-z0-9][A-Za-z0-9._-]*\.md(?:#[A-Za-z0-9_-]+)?)\)|(https:\/\/[^\s<)]+)/g;
+  const output = [];
+  let last = 0;
+  let match;
+  while ((match = linkPattern.exec(text)) !== null) {
+    output.push(formatText(text.slice(last, match.index)));
+    const label = match[1] || match[3];
+    const url = match[2] || match[3];
+    if (url.startsWith('https://')) {
+      output.push('<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' +
+        formatText(label) + '</a>');
+    } else {
+      // Enlace a un archivo Markdown del mismo tema: se abre dentro del visor,
+      // no como texto sin formato ni como una URL no comprobada.
+      output.push('<a href="#" data-manual-file="' + escapeHtml(url) + '">' +
+        formatText(label) + '</a>');
+    }
+    last = linkPattern.lastIndex;
+  }
+  output.push(formatText(text.slice(last)));
+  return output.join('');
+}
+
+function isTableSeparator(line) {
+  return /^\|?\s*:?-{3,}/.test(line) && line.includes('|');
+}
+
+function tableCells(line) {
+  return line.trim().replace(/^\|/, '').replace(/\|$/, '').split('|').map(cell => cell.trim());
+}
+
+function renderMarkdown(markdown) {
+  const lines = markdown.replace(/\r/g, '').split('\n');
+  const html = [];
+  let index = 0;
+  let inCode = false;
+  let code = [];
+
+  while (index < lines.length) {
+    const line = lines[index];
+    if (line.startsWith('```')) {
+      if (inCode) { html.push(`<pre>${escapeHtml(code.join('\n'))}</pre>`); code = []; }
+      inCode = !inCode;
+      index += 1;
+      continue;
+    }
+    if (inCode) { code.push(line); index += 1; continue; }
+    if (!line.trim()) { index += 1; continue; }
+    if (/^---+$/.test(line.trim())) { html.push('<hr>'); index += 1; continue; }
+
+    const heading = line.match(/^(#{1,5})\s+(.+)$/);
+    if (heading) {
+      const level = Math.min(6, heading[1].length + 1);
+      html.push(`<h${level}>${inlineMarkdown(heading[2])}</h${level}>`);
+      index += 1;
+      continue;
+    }
+    if (line.startsWith('> ')) {
+      html.push(`<blockquote>${inlineMarkdown(line.slice(2))}</blockquote>`);
+      index += 1;
+      continue;
+    }
+    if (line.trim().startsWith('|') && index + 1 < lines.length && isTableSeparator(lines[index + 1])) {
+      const head = tableCells(line);
+      index += 2;
+      const rows = [];
+      while (index < lines.length && lines[index].trim().startsWith('|')) {
+        rows.push(tableCells(lines[index]));
+        index += 1;
+      }
+      html.push(`<div class="table-wrap" role="region" aria-label="Tabla del temario, desplazamiento horizontal disponible" tabindex="0"><table><thead><tr>${head.map(cell => `<th>${inlineMarkdown(cell)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${inlineMarkdown(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
+      continue;
+    }
+    if (/^\s*-\s+/.test(line)) {
+      const items = [];
+      while (index < lines.length && /^\s*-\s+/.test(lines[index])) {
+        items.push(lines[index].replace(/^\s*-\s+/, ''));
+        index += 1;
+      }
+      html.push(`<ul>${items.map(item => `<li>${inlineMarkdown(item)}</li>`).join('')}</ul>`);
+      continue;
+    }
+    if (/^\s*\d+\.\s+/.test(line)) {
+      const items = [];
+      while (index < lines.length && /^\s*\d+\.\s+/.test(lines[index])) {
+        items.push(lines[index].replace(/^\s*\d+\.\s+/, ''));
+        index += 1;
+      }
+      html.push(`<ol>${items.map(item => `<li>${inlineMarkdown(item)}</li>`).join('')}</ol>`);
+      continue;
+    }
+
+    const paragraph = [line.trim()];
+    index += 1;
+    while (index < lines.length && lines[index].trim() &&
+      !/^(#{1,5})\s+/.test(lines[index]) &&
+      !/^---+$/.test(lines[index].trim()) &&
+      !/^\s*-\s+/.test(lines[index]) &&
+      !/^\s*\d+\.\s+/.test(lines[index]) &&
+      !lines[index].startsWith('> ') &&
+      !lines[index].startsWith('```') &&
+      !(lines[index].trim().startsWith('|') && index + 1 < lines.length && isTableSeparator(lines[index + 1]))) {
+      paragraph.push(lines[index].trim());
+      index += 1;
+    }
+    html.push(`<p>${inlineMarkdown(paragraph.join(' '))}</p>`);
+  }
+  return html.join('\n');
+}
+
+function normalise(value) {
+  return String(value ?? '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
+}
+
+async function fetchWithTimeout(url, options = {}, timeout = REQUEST_TIMEOUT_MS) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), timeout);
+  try {
+    return await fetch(url, { ...options, signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+function setTheme(theme) {
+  document.documentElement.dataset.theme = theme;
+  localStorage.setItem(THEME_KEY, theme);
+  const button = document.querySelector('#theme-toggle');
+  if (button) button.textContent = theme === 'dark' ? '☀️ Claro' : '🌙 Oscuro';
+}
+
+function initTheme() {
+  const saved = localStorage.getItem(THEME_KEY);
+  const preferred = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  setTheme(saved || preferred);
+  document.querySelector('#theme-toggle')?.addEventListener('click', () => {
+    setTheme(document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark');
+  });
+}
+
+function themePath(theme, kind) {
+  if (theme[kind]) return theme[kind];
+  const folder = `tema-${String(theme.numero).padStart(2, '0')}`;
+  return `${activeCall.contentRoot}/${folder}/${kind}.json`.replace('/manual.json', '/manual.md');
+}
+
+function isThemeAvailable(theme) {
+  return Boolean(theme.manual) || theme.numero <= activeCall.availableThemes;
+}
+
+function themeStatus(theme) {
+  if (!isThemeAvailable(theme)) return 'PENDIENTE';
+  // Los estados heredados o desconocidos NO prueban aprobación editorial.
+  if (theme.estado === 'PUBLICADO' || theme.estado === 'APROBADO_USUARIO' || theme.estado === 'AUDITADO') return 'PUBLICADO';
+  return 'BORRADOR';
+}
+
+function badge(theme) {
+  const status = themeStatus(theme);
+  if (status === 'BORRADOR') return '<span class="badge pending">Borrador · revisión pendiente</span>';
+  const published = status === 'PUBLICADO';
+  return `<span class="badge ${published ? 'approved' : 'pending'}">${published ? 'Contenido disponible' : 'Pendiente de desarrollo'}</span>`;
+}
+
+function updateHeader() {
+  const title = document.querySelector('.site-header h1');
+  const subtitle = document.querySelector('.site-header .subtitle');
+  const practice = document.querySelector('.site-header a[href="practice.html"]');
+  if (title) title.textContent = activeCall.label;
+  if (subtitle) subtitle.textContent = 'Temarios en revisión jurídica continua. Consulta las fuentes y las fechas de control.';
+  document.title = `OpoWeb v2 · ${activeCall.shortLabel}`;
+  if (practice) practice.hidden = !activeCall.practiceUrl;
+}
+
+function initialiseSearchIndex(programme) {
+  searchIndex.clear();
+  programme.temas.forEach(theme => searchIndex.set(theme.numero, normalise(theme.titulo)));
+}
+
+async function buildSearchIndexInBackground(programme) {
+  const token = ++searchBuildToken;
+  const available = programme.temas.filter(isThemeAvailable);
+  const concurrency = 3;
+  let cursor = 0;
+
+  async function worker() {
+    while (cursor < available.length && token === searchBuildToken) {
+      const theme = available[cursor++];
+      try {
+        const response = await fetchWithTimeout(themePath(theme, 'manual'), { cache: 'force-cache' }, 8000);
+        if (response.ok && token === searchBuildToken) {
+          const manualText = await response.text();
+          searchIndex.set(theme.numero, normalise(`${theme.titulo}\n${manualText}`));
+        }
+      } catch (_) {}
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(concurrency, available.length) }, worker));
+}
+
+function sourceText(programme) {
+  const c = programme.convocatoria || {};
+  if (c.fuentePrograma) return `${c.fuentePrograma.publicacion} · CSV ${c.fuentePrograma.codigoVerificacion}`;
+  return `${c.bop || 'Programa oficial'} · CSV ${c.codigoVerificacion || 'no indicado'}`;
+}
+
+function callSelector() {
+  return `<label class="search-box convocatoria-selector"><span>Convocatoria</span><select id="call-selector">${CALLS.map(call => `<option value="${call.id}" ${call.id === activeCall.id ? 'selected' : ''}>${escapeHtml(call.label)}</option>`).join('')}</select></label>`;
+}
+
+function humanizeApplicationStatus(value) {
+  const known = {
+    SOLICITUD_REGISTRADA_PENDIENTE_ADMISION: 'Solicitud registrada · pendiente de lista de admisión',
+    SOLICITUD_PRESENTADA: 'Solicitud presentada',
+    ADMITIDO_PROVISIONAL: 'Admitido provisionalmente',
+    ADMITIDO_DEFINITIVO: 'Admitido definitivamente',
+    EXCLUIDO_PROVISIONAL: 'Excluido provisionalmente',
+    EXCLUIDO_DEFINITIVO: 'Excluido definitivamente'
+  };
+  const raw = String(value ?? '').trim();
+  if (!raw) return 'Estado de inscripción sin actualizar';
+  return known[raw] || raw.replaceAll('_', ' ').toLowerCase().replace(/^./, char => char.toUpperCase());
+}
+
+function renderTracking() {
+  if (!activeTracking?.situacionPersonal) return '';
+  const personal = activeTracking.situacionPersonal;
+  const convocatoria = personal.convocatoria || activeCall.label;
+  const siguienteHito = activeTracking.siguienteHito ? `<div><span>Siguiente hito</span><strong>${escapeHtml(activeTracking.siguienteHito)}</strong></div>` : '';
+  return `<section class="panel tracking-panel" data-tracking-call="${escapeHtml(activeCall.id)}"><div class="section-heading"><div><p class="eyebrow section-eyebrow">Seguimiento personal</p><h2>Plazos y estado de la OPE</h2></div><span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Solicitud registrada' : 'Inscripción no confirmada'}</span></div><div class="personal-status"><div><span>Estado</span><strong>${escapeHtml(humanizeApplicationStatus(personal.estado))}</strong></div><div><span>Convocatoria</span><strong>${escapeHtml(convocatoria)}</strong></div>${siguienteHito}</div><p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad || 'Los datos personales no se publican en el repositorio.')}</p></section>`;
+}
+
+// OpoRadar comparte el mismo GitHub Pages; su resumen se carga sin bloquear el temario.
+let radarPreviewPromise = null;
+let radarPreviewHtml = null;
+
+function renderStudyAndWorkHub() {
+  return `<section class="panel portal-panel" aria-labelledby="portal-title">
+    <div class="section-heading"><div><p class="eyebrow section-eyebrow">Herramientas de OpoWeb</p><h2 id="portal-title">Estudia y busca empleo público</h2>
+    <p>Accede a los temarios, prepara los exámenes y consulta las oportunidades que detecta OpoRadar.</p></div></div>
+    <div class="portal-grid">
+      <div class="portal-card portal-card-radar">
+        <h3>🔎 OpoRadar · Empleo público</h3>
+        <p>Ofertas de empleo, bolsas y sustituciones de Toledo y del sur de Madrid. Los datos incompletos se identifican como pendientes, nunca como plazos confirmados.</p>
+        <div id="radar-preview" class="portal-preview" aria-live="polite">Consultando el último registro del Radar…</div>
+        <a class="btn" href="radar.html">Abrir OpoRadar</a>
+      </div>
+      <div class="portal-card">
+        <h3>📝 Tests y simulacros</h3>
+        <p>Entrena por convocatoria, realiza exámenes de práctica y consulta tus resultados guardados en este dispositivo.</p>
+        <a class="btn secondary" href="practice.html">Ir a los simulacros</a>
+      </div>
+    </div>
+  </section>`;
+}
+
+function hydrateRadarPreview() {
+  const slot = document.querySelector('#radar-preview');
+  if (!slot) return;
+  if (radarPreviewHtml !== null) {
+    slot.innerHTML = radarPreviewHtml;
+    return;
+  }
+  if (!radarPreviewPromise) {
+    radarPreviewPromise = fetchWithTimeout('data/radar.json', { cache: 'no-cache' }, 7500)
+      .then(response => {
+        if (!response.ok) throw new Error('HTTP ' + response.status);
+        return response.json();
+      })
+      .then(data => {
+        const all = Array.isArray(data.opportunities) ? data.opportunities : [];
+        const identified = all.filter(item =>
+          item.position && item.officialUrl && !item.phaseFollowup &&
+          item.state !== 'CERRADA' && item.state !== 'NO_ACCESIBLE'
+        );
+        const stamp = /^\d{4}-\d{2}-\d{2}/.test(String(data.generatedAt || ''))
+          ? String(data.generatedAt).slice(8, 10) + '/' +
+            String(data.generatedAt).slice(5, 7) + '/' + String(data.generatedAt).slice(0, 4)
+          : 'no confirmada';
+        return '<p><strong>Última recopilación:</strong> ' + escapeHtml(stamp) + '. <strong>' +
+          identified.length + '</strong> registros con puesto identificado (no significa que el plazo esté abierto).</p>';
+      })
+      .catch(() => '<p>No se puede consultar ahora el resumen. Puedes abrir OpoRadar y comprobar allí las fuentes.</p>')
+      .then(html => { radarPreviewHtml = html; return html; });
+  }
+  radarPreviewPromise.then(html => {
+    const target = document.querySelector('#radar-preview');
+    if (target) target.innerHTML = html;
+  });
+}
+
+function renderProgramme(query = activeSearchQuery) {
+  activeSearchQuery = query;
+  const themes = activeProgramme.temas;
+  const available = themes.filter(isThemeAvailable).length;
+  const missing = themes.length - available;
+  const underReview = themes.filter(theme => isThemeAvailable(theme) && themeStatus(theme) === 'BORRADOR').length;
+  const term = normalise(query.trim());
+  const visible = term
+    ? themes.filter(theme => normalise(theme.titulo).includes(term) || searchIndex.get(theme.numero)?.includes(term))
+    : themes;
+
+  const oliaNotice = activeCall.id === 'olias-del-rey-auxiliar-edificios-c2-2026'
+    ? '<section class="panel"><h2>Olías C2 · Inscripción y convocatoria</h2><p><strong>4 plazas de personal laboral fijo · Oposición libre · Tasa 10 €.</strong> <strong>Atención:</strong> las bases del BOP indican 20 días naturales y el anuncio del BOE 20 días hábiles. No hay plazo final unificado oficialmente aclarado: <strong>presenta antes del 20/11/2026 por prudencia</strong>.</p><p>Utiliza el <strong>Anexo I de Auxiliar de edificios del BOP (página 58)</strong>, con DNI, título, carné B, certificado negativo de delitos sexuales y justificante de tasa. <a href="https://bop.diputoledo.es/webEbop/csv.jsp" target="_blank" rel="noopener noreferrer">Verificar BOP código 2026.00004833</a> · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826" target="_blank" rel="noopener noreferrer">BOE oficial</a> · <a href="https://oliasdelrey.sedelectronica.es/" target="_blank" rel="noopener noreferrer">Sede electrónica municipal</a>.</p><p><strong>Examen:</strong> 50 preguntas de temario y 20 psicotécnicas, dos pruebas eliminatorias con mínimo 25/50 cada una. Los 22 temas cuentan con manuales en auditoría, no equivalentes aún a una certificación editorial definitiva.</p></section>'
+    : '';
+  app.innerHTML = `${oliaNotice}<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>Programa oficial de <strong>${themes.length} temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>temas oficiales</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${underReview}</strong><span>en revisión editorial</span></div><div class="summary-card"><strong>${missing}</strong><span>sin contenido</span></div></div></section>${renderStudyAndWorkHub()}${renderTracking()}<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca por el título del tema. El manual se carga solo al abrirlo.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
+
+  hydrateRadarPreview();
+
+  document.querySelector('#call-selector')?.addEventListener('change', event => {
+    activeSearchQuery = '';
+    history.pushState({ view: 'programme', callId: event.target.value }, '', location.pathname);
+    loadCall(event.target.value);
+  });
+  document.querySelector('#theme-search')?.addEventListener('input', event => renderProgramme(event.target.value));
+  document.querySelectorAll('[data-theme]').forEach(button => {
+    button.addEventListener('click', () => {
+      const theme = activeProgramme.temas.find(item => item.numero === Number(button.dataset.theme));
+      if (theme && isThemeAvailable(theme)) openTheme(theme);
+    });
+  });
+}
+
+function normaliseQuestions(payload) {
+  const raw = Array.isArray(payload) ? payload : payload.preguntas || [];
+  return raw.map(item => ({
+    id: item.id,
+    text: item.pregunta || item.enunciado,
+    options: item.opciones || [],
+    correct: Number(item.correcta ?? item.respuestaCorrecta),
+    explanation: item.justificacion || '',
+    trap: item.trampa ?? item.trampaExamen ?? '',
+    reference: item.referencia || ''
+  }));
+}
+
+function renderTest(theme, questions) {
+  return `<section id="theme-test" class="panel"><h2>Test del Tema ${theme.numero}</h2><p class="search-count">${questions.length} preguntas. Responde y corrige al final.</p><form id="test-form">${questions.map((question, qIndex) => `<fieldset class="question-card"><legend><strong>${qIndex + 1}. ${escapeHtml(question.text)}</strong></legend>${question.options.map((option, oIndex) => `<label class="answer-option"><input type="radio" name="q-${qIndex}" value="${oIndex}"><span>${escapeHtml(option)}</span></label>`).join('')}<div class="answer-feedback" id="feedback-${qIndex}" hidden></div></fieldset>`).join('')}<button class="btn" type="submit">Corregir test</button></form></section>`;
+}
+
+function activateTest(questions) {
+  document.querySelector('#test-form')?.addEventListener('submit', event => {
+    event.preventDefault();
+    const answers = new FormData(event.currentTarget);
+    let correctCount = 0;
+    let wrongCount = 0;
+    let blankCount = 0;
+    questions.forEach((question, index) => {
+      const raw = answers.get(`q-${index}`);
+      // FormData.get devuelve null en blanco: Number(null) === 0 NO es una respuesta.
+      const hasAnswer = raw !== null && raw !== '';
+      const selected = hasAnswer ? Number(raw) : -1;
+      const correct = hasAnswer && selected === question.correct;
+      if (correct) correctCount += 1;
+      else if (hasAnswer) wrongCount += 1;
+      else blankCount += 1;
+      const feedback = document.querySelector(`#feedback-${index}`);
+      feedback.hidden = false;
+      feedback.className = `answer-feedback ${correct ? 'correct' : hasAnswer ? 'incorrect' : ''}`;
+      const verdict = !hasAnswer ? 'Sin contestar' : correct ? 'Correcta' : 'Incorrecta';
+      const correctOption = question.options[question.correct];
+      const answerDetail = !correct && correctOption !== undefined
+        ? `<p><strong>Respuesta correcta: ${escapeHtml(correctOption)}</strong></p>` : '';
+      feedback.innerHTML = `<strong>${verdict}.</strong>${answerDetail} ${inlineMarkdown(question.explanation)}${question.trap ? `<br><em>Trampa: ${inlineMarkdown(question.trap)}</em>` : ''}${question.reference ? `<br><small>Referencia: ${inlineMarkdown(question.reference)}</small>` : ''}`;
+    });
+    // Convocatoria C2 Diputación: 50 preguntas, +0,20 por acierto y -0,05 por error.
+    // Los minitests se convierten a escala sobre diez preservando esa proporción.
+    const score10 = Math.max(0, (correctCount - wrongCount * 0.25) * 10 / questions.length);
+    const result = event.currentTarget.querySelector('.test-result') || document.createElement('div');
+    result.className = 'notice test-result';
+    result.setAttribute('role', 'status');
+    result.innerHTML = `<strong>Resultado: ${correctCount} aciertos, ${wrongCount} errores y ${blankCount} en blanco</strong> · Puntuación equivalente: ${score10.toFixed(2).replace('.', ',')}/10 (sin contestar: 0; error: -0,25 aciertos)`;
+    event.currentTarget.prepend(result);
+    result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+}
+
+async function loadManualDocument(theme, rawFile) {
+  const manual = document.querySelector('#manual');
+  if (!manual) return;
+  const file = String(rawFile ?? '').split('#')[0];
+  // Los enlaces internos solo permiten nombres .md del directorio del tema.
+  // Impide rutas ascendentes, esquemas y URLs externas no intencionadas.
+  if (!/^[A-Za-z0-9][A-Za-z0-9._-]*\.md$/.test(file) || file === 'manual.md') return;
+  const back = '<div class="toolbar"><button type="button" class="btn secondary" data-back-manual>← Volver al manual completo</button></div>';
+  manual.innerHTML = back + '<p>Cargando apartado…</p>';
+  try {
+    const folder = themePath(theme, 'manual').replace(/[^/]+$/, '');
+    const response = await fetchWithTimeout(folder + file, { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    manual.innerHTML = back + renderMarkdown(await response.text());
+  } catch (error) {
+    const message = error.name === 'AbortError'
+      ? 'La carga ha tardado demasiado.'
+      : `No se ha podido cargar el apartado: ${error.message}.`;
+    manual.innerHTML = back + '<p class="notice warning">' + escapeHtml(message) + '</p>';
+  }
+}
+
+async function loadManual(theme) {
+  const manual = document.querySelector('#manual');
+  if (!manual) return;
+  manual.innerHTML = '<p>Cargando manual…</p>';
+  try {
+    const response = await fetchWithTimeout(themePath(theme, 'manual'), { cache: 'no-cache' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    manual.innerHTML = renderMarkdown(await response.text());
+  } catch (error) {
+    const message = error.name === 'AbortError' ? 'La carga ha tardado demasiado.' : `No se ha podido cargar el manual: ${error.message}.`;
+    manual.innerHTML = `<p class="notice warning">${escapeHtml(message)}</p><button id="retry-manual" class="btn secondary" type="button">Reintentar manual</button>`;
+    document.querySelector('#retry-manual')?.addEventListener('click', () => loadManual(theme));
+  }
+}
+
+async function loadSources(theme) {
+  const slot = document.querySelector('#sources-slot');
+  if (!slot || !theme.fuentes) return;
+  slot.hidden = false;
+  slot.innerHTML = '<details><summary><strong>Fuentes oficiales, artículos y control de vigencia</strong></summary><p>Cargando referencias…</p></details>';
+  try {
+    const response = await fetchWithTimeout(theme.fuentes, { cache: 'no-cache' });
+    if (!response.ok) throw new Error('HTTP ' + response.status);
+    const sources = await response.text();
+    slot.innerHTML = '<details><summary><strong>Fuentes oficiales, artículos y control de vigencia</strong></summary>'
+      + '<p class="notice">Consulta la fecha y los límites de cada revisión. Un enlace normativo no equivale a auditoría jurídica completa.</p>'
+      + renderMarkdown(sources) + '</details>';
+  } catch (error) {
+    slot.innerHTML = '<details><summary><strong>Fuentes oficiales (error de carga)</strong></summary>'
+      + '<p class="notice warning">' + escapeHtml(error.message || 'No se pudieron consultar las fuentes.') + '</p></details>';
+  }
+}
+
+async function loadQuestions(theme) {
+  const slot = document.querySelector('#test-slot');
+  if (!slot) return;
+  slot.innerHTML = '<section class="panel"><p>Cargando test…</p></section>';
+  try {
+    const response = await fetchWithTimeout(themePath(theme, 'preguntas'), { cache: 'no-cache' });
+    if (!response.ok) {
+      if (response.status === 404) { slot.innerHTML = ''; return; }
+      throw new Error(`HTTP ${response.status}`);
+    }
+    const questions = normaliseQuestions(await response.json());
+    if (!questions.length) { slot.innerHTML = ''; return; }
+    slot.innerHTML = renderTest(theme, questions);
+    activateTest(questions);
+  } catch (error) {
+    const message = error.name === 'AbortError' ? 'El test está tardando demasiado.' : `No se ha podido cargar el test: ${error.message}.`;
+    slot.innerHTML = `<section class="panel"><p class="notice warning">${escapeHtml(message)}</p><button id="retry-test" class="btn secondary" type="button">Reintentar test</button></section>`;
+    document.querySelector('#retry-test')?.addEventListener('click', () => loadQuestions(theme));
+  }
+}
+
+function openTheme(theme, { push = true } = {}) {
+  const url = `#${activeCall.id}/tema-${theme.numero}`;
+  if (push) history.pushState({ view: 'theme', callId: activeCall.id, theme: theme.numero }, '', url);
+  app.innerHTML = `<div class="toolbar sticky-toolbar"><button id="back" class="btn secondary" type="button">← Programa</button><button id="top" class="btn secondary" type="button">↑ Inicio</button></div><section class="panel">${badge(theme)}<h2>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h2><p class="notice">Contenido conectado a la convocatoria ${escapeHtml(activeCall.shortLabel)}.</p></section><article id="manual" class="panel manual"><p>Cargando manual…</p></article><section id="sources-slot" class="panel manual" hidden></section><section id="test-slot"></section>`;
+  document.querySelector('#back')?.addEventListener('click', () => {
+    history.pushState({ view: 'programme', callId: activeCall.id }, '', location.pathname);
+    renderProgramme(activeSearchQuery);
+    scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  document.querySelector('#top')?.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
+  document.querySelector('#manual')?.addEventListener('click', event => {
+    const back = event.target.closest('[data-back-manual]');
+    if (back) { loadManual(theme); return; }
+    const link = event.target.closest('a[data-manual-file]');
+    if (!link) return;
+    event.preventDefault();
+    const file = link.getAttribute('data-manual-file') || '';
+    if (file.split('#')[0] === 'manual.md') loadManual(theme);
+    else loadManualDocument(theme, file);
+  });
+  loadManual(theme);
+  loadSources(theme);
+  loadQuestions(theme);
+}
+
+async function loadTracking() {
+  activeTracking = null;
+  if (!activeCall.trackingUrl) return;
+  try {
+    const response = await fetchWithTimeout(activeCall.trackingUrl, { cache: 'no-cache' }, 6000);
+    if (response.ok) {
+      activeTracking = await response.json();
+      if (!location.hash.includes('/tema-')) renderProgramme(activeSearchQuery);
+    }
+  } catch (_) {}
+}
+
+async function loadCall(id, selectedTheme = null, { preserveHistory = false } = {}) {
+  activeCall = CALLS.find(call => call.id === id) || CALLS[0];
+  localStorage.setItem(SELECTED_CALL_KEY, activeCall.id);
+  updateHeader();
+  app.innerHTML = '<section class="panel"><h2>Cargando convocatoria…</h2></section>';
+
+  const programmeResponse = await fetchWithTimeout(activeCall.programmeUrl, { cache: 'no-cache' });
+  if (!programmeResponse.ok) throw new Error(`Programa: HTTP ${programmeResponse.status}`);
+  activeProgramme = await programmeResponse.json();
+  initialiseSearchIndex(activeProgramme);
+
+  if (!preserveHistory && !selectedTheme) {
+    history.replaceState({ view: 'programme', callId: activeCall.id }, '', location.pathname);
+  }
+
+  renderProgramme();
+  loadTracking();
+  // Índice completo desactivado al arrancar: evita cargar todos los manuales y bloquear el scroll.
+  if (selectedTheme) {
+    const theme = activeProgramme.temas.find(item => item.numero === selectedTheme);
+    if (theme && isThemeAvailable(theme)) openTheme(theme, { push: false });
+  }
+}
+
+async function restoreFromHistory(state) {
+  try {
+    const route = location.hash.match(/^#([^/]+)\/tema-(\d+)$/);
+    const callId = state?.callId || route?.[1] || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id;
+    const themeNumber = state?.view === 'theme' ? state.theme : (route ? Number(route[2]) : null);
+
+    if (!activeCall || activeCall.id !== callId || !activeProgramme) {
+      await loadCall(callId, themeNumber, { preserveHistory: true });
+      return;
+    }
+
+    if (themeNumber) {
+      const theme = activeProgramme.temas.find(item => item.numero === Number(themeNumber));
+      if (theme && isThemeAvailable(theme)) openTheme(theme, { push: false });
+    } else {
+      renderProgramme(activeSearchQuery);
+      scrollTo({ top: 0 });
+    }
+  } catch (error) {
+    app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
+  }
+}
+
+async function boot() {
+  initTheme();
+  try {
+    const route = location.hash.match(/^#([^/]+)\/tema-(\d+)$/);
+    const saved = localStorage.getItem(SELECTED_CALL_KEY);
+    const callId = route?.[1] || saved || CALLS[0].id;
+
+    if (route) {
+      // Conservar el enlace compartido: no borrar el hash ni añadir
+      // una nueva entrada artificial al historial al abrirlo.
+      history.replaceState({ view: 'theme', callId, theme: Number(route[2]) }, '', location.href);
+      await loadCall(callId, Number(route[2]), { preserveHistory: true });
+    } else {
+      history.replaceState({ view: 'programme', callId }, '', location.pathname);
+      await loadCall(callId, null, { preserveHistory: true });
+    }
+
+    window.addEventListener('popstate', event => restoreFromHistory(event.state));
+    // Service worker desactivado: la aplicación usa peticiones directas para evitar bloqueos.
+  } catch (error) {
+    app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p><button class="btn secondary" type="button" onclick="location.reload()">Reintentar</button></section>`;
+  }
+}
+
+boot();

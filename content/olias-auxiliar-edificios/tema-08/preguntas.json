@@ -1,0 +1,164 @@
+{
+  "tema": 8,
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
+  "preguntas": [
+    {
+      "id": "OLIAS-T08-001",
+      "enunciado": "El auxiliar de edificios en recepción debe principalmente:",
+      "opciones": [
+        "Revisar teléfonos personales",
+        "Interrogar a cualquier visitante sin motivo",
+        "Retener objetos por decisión propia",
+        "Orientar y aplicar protocolo de acceso"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La recepción orienta y aplica el procedimiento de acceso del centro; no implica competencias policiales ni decisión sobre expedientes.",
+      "trampaExamen": "¡Foco Examen!: La recepción orienta y aplica el procedimiento de acceso del centro; no implica competencias policiales ni decisión sobre expedientes.",
+      "referencia": "TREBEP art. 54; manual §3",
+      "respuestaLiteral": "Orientar y aplicar protocolo de acceso"
+    },
+    {
+      "id": "OLIAS-T08-002",
+      "enunciado": "Una llave maestra debe:",
+      "opciones": [
+        "Entregarse a cualquier usuario",
+        "Duplicarse para uso personal",
+        "Custodiarse según protocolo y autorizaciones",
+        "Etiquetarse públicamente con todas las áreas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Una llave maestra requiere custodia, inventario y entrega únicamente a personal autorizado conforme al protocolo interno.",
+      "trampaExamen": "¡Foco Examen!: Una llave maestra requiere custodia, inventario y entrega únicamente a personal autorizado conforme al protocolo interno.",
+      "referencia": "Manual §5, custodia de llaves",
+      "respuestaLiteral": "Custodiarse según protocolo y autorizaciones"
+    },
+    {
+      "id": "OLIAS-T08-003",
+      "enunciado": "Si se extravía una llave importante:",
+      "opciones": [
+        "Cambiar cerraduras por cuenta propia",
+        "Comunicar y registrar la incidencia",
+        "Entregar otra sin constancia",
+        "Ocultarlo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La pérdida de una llave requiere comunicación y constancia para valorar riesgos y adoptar medidas de seguridad, nunca duplicado privado.",
+      "trampaExamen": "¡Foco Examen!: La pérdida de una llave requiere comunicación y constancia para valorar riesgos y adoptar medidas de seguridad, nunca duplicado privado.",
+      "referencia": "Manual §5, gestión de incidencias",
+      "respuestaLiteral": "Comunicar y registrar la incidencia"
+    },
+    {
+      "id": "OLIAS-T08-004",
+      "enunciado": "Para cerrar un edificio se debe primero asegurar:",
+      "opciones": [
+        "Que no quede nadie atrapado y rutas de salida funcionen",
+        "Que no haya documentación corporativa",
+        "Que las salidas se bloqueen con ocupantes",
+        "Que las luces estén siempre apagadas"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El cierre debe evitar personas encerradas y asegurar el funcionamiento de salidas y recorridos de evacuación necesarios.",
+      "trampaExamen": "¡Foco Examen!: El cierre debe evitar personas encerradas y asegurar el funcionamiento de salidas y recorridos de evacuación necesarios.",
+      "referencia": "RD 486/1997 anexo I.10; manual §6",
+      "respuestaLiteral": "Que no quede nadie atrapado y rutas de salida funcionen"
+    },
+    {
+      "id": "OLIAS-T08-005",
+      "enunciado": "Un listado de visitas con nombres constituye:",
+      "opciones": [
+        "Información siempre pública",
+        "Datos personales con protección",
+        "Documento que debe difundirse",
+        "Un tributo municipal"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El listado de visitas identificadas contiene datos personales y debe tener finalidad, mínima recogida y confidencialidad.",
+      "trampaExamen": "¡Foco Examen!: El listado de visitas identificadas contiene datos personales y debe tener finalidad, mínima recogida y confidencialidad.",
+      "referencia": "RGPD art. 5.1.c/f; manual §4",
+      "respuestaLiteral": "Datos personales con protección"
+    },
+    {
+      "id": "OLIAS-T08-006",
+      "enunciado": "Un visitante pide llave de zona restringida sin autorización:",
+      "opciones": [
+        "Se duplica para él",
+        "Se oculta en sala de espera",
+        "Se entrega por cortesía",
+        "Se deniega y se remite a responsable"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Sin autorización para la zona restringida, debe denegarse préstamo de la llave y derivarse al responsable.",
+      "trampaExamen": "¡Foco Examen!: Sin autorización para la zona restringida, debe denegarse préstamo de la llave y derivarse al responsable.",
+      "referencia": "Manual §4 y §5, autorización de zonas",
+      "respuestaLiteral": "Se deniega y se remite a responsable"
+    },
+    {
+      "id": "OLIAS-T08-007",
+      "enunciado": "Una puerta de evacuación debe:",
+      "opciones": [
+        "Permitir uso rápido en emergencia",
+        "Taparse con muebles",
+        "Bloquearse durante todo horario",
+        "Abrirse solo con llave en emergencia"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las puertas de emergencia y rutas deben permitir salida fácil y rápida cuando se necesiten, no bloquearse durante ocupación.",
+      "trampaExamen": "¡Foco Examen!: Las puertas de emergencia y rutas deben permitir salida fácil y rápida cuando se necesiten, no bloquearse durante ocupación.",
+      "referencia": "RD 486/1997 anexo I.10",
+      "respuestaLiteral": "Permitir uso rápido en emergencia"
+    },
+    {
+      "id": "OLIAS-T08-008",
+      "enunciado": "Al detectar signos de forzamiento antes de apertura:",
+      "opciones": [
+        "Entrar sin valorar riesgos",
+        "Limpiar todas las huellas",
+        "Comunicar y seguir protocolo de seguridad",
+        "Dar acceso libre"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los indicios de intrusión se comunican por el canal previsto sin alterar peligrosamente la escena ni ocultar la incidencia.",
+      "trampaExamen": "¡Foco Examen!: Los indicios de intrusión se comunican por el canal previsto sin alterar peligrosamente la escena ni ocultar la incidencia.",
+      "referencia": "Manual §6 y §7, apertura segura",
+      "respuestaLiteral": "Comunicar y seguir protocolo de seguridad"
+    },
+    {
+      "id": "OLIAS-T08-009",
+      "enunciado": "El registro de acceso debe recoger:",
+      "opciones": [
+        "Fotos privadas por costumbre",
+        "Contraseñas de usuarios",
+        "Solo datos necesarios conforme al protocolo",
+        "Todos los datos médicos posibles"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La información de control de visitantes debe limitarse a datos adecuados y necesarios para finalidad concreta.",
+      "trampaExamen": "¡Foco Examen!: La información de control de visitantes debe limitarse a datos adecuados y necesarios para finalidad concreta.",
+      "referencia": "RGPD art. 5.1.c; manual §4",
+      "respuestaLiteral": "Solo datos necesarios conforme al protocolo"
+    },
+    {
+      "id": "OLIAS-T08-010",
+      "enunciado": "La vigilancia organizativa del auxiliar es:",
+      "opciones": [
+        "Observación de riesgos y comunicación",
+        "Poder de imponer sanciones",
+        "Potestad policial general",
+        "Derecho a cachear visitantes"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La vigilancia organizativa supone observar riesgos y avisar a responsables, sin desempeñar actuaciones reservadas a policía o seguridad privada.",
+      "trampaExamen": "¡Foco Examen!: La vigilancia organizativa supone observar riesgos y avisar a responsables, sin desempeñar actuaciones reservadas a policía o seguridad privada.",
+      "referencia": "Manual §7; TREBEP art. 54",
+      "respuestaLiteral": "Observación de riesgos y comunicación"
+    }
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "preguntasRevisadas": 10,
+    "alternativasRevisadas": 40,
+    "clavesModificadas": 0,
+    "certificacionIntegral": false
+  }
+}

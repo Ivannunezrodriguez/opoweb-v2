@@ -1,0 +1,328 @@
+# Tema 8 · Revisión de los actos administrativos en vía administrativa
+
+> **Epígrafe oficial:** Revisión de los actos administrativos en vía administrativa. Los recursos administrativos. La revisión de oficio.
+
+## 1. Marco general
+
+La revisión en vía administrativa permite a la Administración controlar la legalidad de sus propios actos antes o al margen del proceso contencioso-administrativo.
+
+Comprende dos grandes bloques:
+
+- la **revisión de oficio**;
+- los **recursos administrativos**.
+
+La regulación básica se contiene en el **Título V de la Ley 39/2015**, artículos **106 a 126**.
+
+> ⚠️ **¡Foco Examen!:** revisión de oficio y recursos administrativos no son sinónimos. La revisión de oficio responde al control extraordinario de actos inválidos; los recursos son medios ordinarios o extraordinarios de impugnación promovidos por los interesados.
+
+## 2. Revisión de oficio de disposiciones y actos nulos
+
+Las Administraciones Públicas podrán declarar de oficio la nulidad:
+
+- de actos que hayan puesto fin a la vía administrativa;
+- de actos que no hayan sido recurridos en plazo;
+- de disposiciones administrativas nulas.
+
+Requisitos principales:
+
+- causa de nulidad del artículo **47**;
+- iniciativa propia o solicitud de interesado, según el caso;
+- dictamen **favorable** del **Consejo de Estado** u órgano consultivo autonómico equivalente.
+
+La revisión de actos nulos puede iniciarse **en cualquier momento**.
+
+La Administración puede inadmitir motivadamente la solicitud sin recabar dictamen cuando:
+
+- no se funde en una causa de nulidad;
+- carezca manifiestamente de fundamento;
+- ya se hayan desestimado en cuanto al fondo solicitudes sustancialmente iguales.
+
+### Plazo de resolución
+
+Cuando el procedimiento se inicia de oficio, el transcurso de **6 meses** sin resolución produce la caducidad.
+
+Cuando se inicia a solicitud del interesado, transcurridos **6 meses** podrá entenderse desestimada por silencio administrativo.
+
+> ⚠️ **¡Foco Examen!:** la revisión de oficio de actos nulos no está sujeta a plazo de iniciación, pero el procedimiento sí tiene un plazo máximo de **6 meses**.
+
+## 3. Declaración de lesividad de actos anulables
+
+Las Administraciones pueden impugnar ante la jurisdicción contencioso-administrativa los actos favorables para los interesados que sean anulables, previa declaración de lesividad para el interés público.
+
+Características:
+
+- solo afecta a actos **favorables** y **anulables**;
+- no permite a la Administración anularlos directamente;
+- exige declaración previa de lesividad;
+- la impugnación corresponde después a la jurisdicción contencioso-administrativa.
+
+La declaración de lesividad no podrá adoptarse una vez transcurridos **4 años** desde que se dictó el acto.
+
+El procedimiento caduca si no se resuelve en **6 meses** desde su iniciación.
+
+Debe darse audiencia a los interesados.
+
+> ⚠️ **¡Foco Examen!:** acto nulo = revisión de oficio. Acto anulable favorable = declaración de lesividad y posterior recurso contencioso-administrativo.
+
+## 4. Suspensión en procedimientos de revisión
+
+Iniciado el procedimiento de revisión de oficio o de lesividad, el órgano competente podrá suspender la ejecución cuando esta pudiera causar perjuicios de imposible o difícil reparación.
+
+La suspensión no es automática: debe acordarse de forma motivada.
+
+## 5. Revocación y rectificación de errores
+
+### 5.1 Revocación
+
+Las Administraciones podrán revocar, mientras no haya transcurrido el plazo de prescripción, sus actos de gravamen o desfavorables, siempre que:
+
+- no constituya dispensa o exención no permitida por las leyes;
+- no sea contraria al principio de igualdad;
+- no sea contraria al interés público;
+- no sea contraria al ordenamiento jurídico.
+
+### 5.2 Rectificación de errores
+
+Las Administraciones podrán rectificar **en cualquier momento**, de oficio o a instancia de los interesados, los errores:
+
+- materiales;
+- de hecho;
+- aritméticos.
+
+La rectificación no puede alterar el sentido jurídico esencial del acto.
+
+> ⚠️ **¡Foco Examen!:** el error de Derecho no se corrige mediante rectificación del artículo 109.2; exige el cauce jurídico de revisión que corresponda.
+
+## 6. Límites de las facultades de revisión
+
+Las facultades de revisión no podrán ejercerse cuando, por prescripción de acciones, tiempo transcurrido u otras circunstancias, resulte contrario a:
+
+- la equidad;
+- la buena fe;
+- el derecho de los particulares;
+- las leyes.
+
+## 7. Recursos administrativos: concepto y clases
+
+Los recursos administrativos permiten impugnar actos y resoluciones administrativas ante la propia Administración.
+
+### Clases
+
+| Recurso | Naturaleza | Actos impugnables |
+|---|---|---|
+| Alzada | Ordinario | Actos que no ponen fin a la vía administrativa |
+| Reposición | Ordinario y potestativo | Actos que ponen fin a la vía administrativa |
+| Extraordinario de revisión | Extraordinario | Actos firmes, solo por causas tasadas |
+
+También son recurribles determinados actos de trámite cuando:
+
+- decidan directa o indirectamente el fondo;
+- determinen la imposibilidad de continuar;
+- produzcan indefensión;
+- causen perjuicio irreparable a derechos o intereses legítimos.
+
+> ⚠️ **¡Foco Examen!:** los actos de trámite simples no se recurren de forma autónoma; sus defectos se alegan al impugnar la resolución final.
+
+## 8. Reglas generales de los recursos
+
+### 8.1 Interposición
+
+El escrito debe expresar:
+
+- nombre y apellidos del recurrente;
+- acto recurrido y razón de la impugnación;
+- lugar, fecha, firma y medio de identificación;
+- órgano al que se dirige;
+- demás requisitos específicos.
+
+El error en la calificación del recurso no impedirá su tramitación si se deduce su verdadero carácter.
+
+### 8.2 Causas de inadmisión
+
+Procede la inadmisión cuando:
+
+- el órgano sea incompetente y el competente pertenezca a otra Administración;
+- el recurrente carezca de legitimación;
+- el acto no sea susceptible de recurso;
+- haya transcurrido el plazo;
+- el recurso carezca manifiestamente de fundamento.
+
+### 8.3 Suspensión de la ejecución
+
+La interposición del recurso no suspende por sí sola la ejecución del acto.
+
+El órgano competente podrá suspenderla cuando:
+
+- la ejecución pueda causar perjuicios de imposible o difícil reparación;
+- la impugnación se funde en alguna causa de nulidad de pleno derecho.
+
+Si transcurre **un mes desde que la solicitud de suspensión entra en el registro electrónico de la Administración u organismo competente para resolverla** sin dictarse **y notificarse** resolución expresa, la ejecución se entenderá suspendida (**art. 117.3 Ley 39/2015**).
+
+### 8.4 Audiencia
+
+Cuando deban tenerse en cuenta hechos o documentos nuevos, se dará audiencia por un plazo no inferior a **10 días** ni superior a **15 días**.
+
+### 8.5 Resolución
+
+La resolución:
+
+- estimará total o parcialmente;
+- desestimará;
+- declarará la inadmisión.
+
+Debe resolver todas las cuestiones planteadas, sin agravar la situación inicial del recurrente.
+
+> ⚠️ **¡Foco Examen!:** rige la prohibición de *reformatio in peius*: al resolver un recurso no puede empeorarse la situación jurídica inicial del recurrente.
+
+## 9. Recurso de alzada
+
+Procede contra actos que **no ponen fin a la vía administrativa**.
+
+Se interpone ante:
+
+- el órgano que dictó el acto; o
+- el órgano competente para resolver.
+
+Resuelve el superior jerárquico.
+
+### Plazos
+
+| Supuesto | Plazo para interponer |
+|---|---:|
+| Acto expreso | **1 mes** |
+| Acto presunto | En cualquier momento desde que se produzcan los efectos del silencio |
+
+El plazo máximo para resolver y notificar es de **3 meses**.
+
+Transcurrido dicho plazo sin resolución, el recurso se entiende desestimado, salvo la excepción legal del doble silencio positivo.
+
+Contra la resolución de alzada no cabe otro recurso administrativo ordinario.
+
+> ⚠️ **¡Foco Examen!:** el recurso de alzada no es potestativo cuando se pretende agotar la vía administrativa frente a un acto que no la pone fin.
+
+## 10. Recurso potestativo de reposición
+
+Procede contra actos que **ponen fin a la vía administrativa**.
+
+Se interpone ante el mismo órgano que dictó el acto.
+
+Es potestativo: el interesado puede elegir entre:
+
+- interponer reposición; o
+- acudir directamente a la jurisdicción contencioso-administrativa.
+
+### Plazos
+
+| Supuesto | Plazo para interponer |
+|---|---:|
+| Acto expreso | **1 mes** |
+| Acto presunto | En cualquier momento desde el día siguiente a aquel en que se produzca el acto presunto |
+
+El plazo máximo para resolver y notificar es de **1 mes**.
+
+No puede interponerse de nuevo reposición contra su resolución.
+
+Mientras no se resuelva expresamente o se produzca la desestimación presunta, no podrá interponerse recurso contencioso-administrativo.
+
+> ⚠️ **¡Foco Examen!:** la reposición es potestativa, pero una vez interpuesta debe esperarse a su resolución expresa o presunta antes de acudir a la vía contenciosa.
+
+## 11. Recurso extraordinario de revisión
+
+Procede contra actos firmes en vía administrativa únicamente cuando concurra alguna causa tasada.
+
+### Causas y plazos
+
+| Causa | Plazo |
+|---|---:|
+| Error de hecho que resulte de los documentos del expediente | **4 años** desde la notificación |
+| Aparición de documentos esenciales | **3 meses** desde su conocimiento |
+| Documentos o testimonios declarados falsos por sentencia firme | **3 meses** desde que la sentencia quedó firme |
+| Resolución dictada como consecuencia de prevaricación, cohecho, violencia, maquinación fraudulenta u otra conducta punible declarada por sentencia firme | **3 meses** desde que la sentencia quedó firme |
+
+El órgano competente puede inadmitir motivadamente sin dictamen consultivo cuando el recurso no se funde en causa legal o ya se hayan desestimado recursos sustancialmente iguales.
+
+El plazo máximo para resolver es de **3 meses**. Transcurrido sin resolución, se entiende desestimado.
+
+> ⚠️ **¡Foco Examen!:** el recurso extraordinario de revisión solo cabe contra actos firmes y por causas tasadas; no es una segunda alzada ni una reposición tardía.
+
+## 12. Tabla comparativa final
+
+| Aspecto | Alzada | Reposición | Extraordinario de revisión |
+|---|---|---|---|
+| Acto | No agota vía | Agota vía | Firme |
+| Órgano resolutor | Superior jerárquico | Mismo órgano | Órgano que dictó el acto |
+| Plazo acto expreso | **1 mes** | **1 mes** | **4 años** o **3 meses** según causa |
+| Resolución | **3 meses** | **1 mes** | **3 meses** |
+| Carácter | Ordinario | Potestativo | Extraordinario |
+
+## 13. Esquema de memoria
+
+```text
+REVISIÓN ADMINISTRATIVA
+├─ REVISIÓN DE OFICIO
+│  ├─ Nulos: cualquier momento + dictamen favorable
+│  ├─ Anulables favorables: lesividad
+│  ├─ Revocación: actos desfavorables
+│  └─ Rectificación: errores materiales, de hecho o aritméticos
+└─ RECURSOS
+   ├─ Alzada: no agota vía · 1 mes · resuelve en 3 meses
+   ├─ Reposición: agota vía · 1 mes · resuelve en 1 mes
+   └─ Extraordinario: acto firme · causas tasadas
+```
+
+> ⚠️ **¡Foco Examen!:** memoriza la secuencia **1-3-1-3**: alzada se interpone en **1 mes** y se resuelve en **3 meses**; reposición se interpone en **1 mes** y se resuelve en **1 mes**; extraordinario se resuelve en **3 meses**.
+
+
+## 14. Auditoría de recursos y plazos — **29/10/2026**
+
+| Institución | Interposición o declaración | Resolución | Norma |
+|---|---|---|---|
+| **Alzada contra acto expreso** | **1 mes** | **3 meses** | **121–122** |
+| **Reposición contra acto expreso** | **1 mes** | **1 mes** | **123–124** |
+| **Revisión extraordinaria por error de hecho** | **4 años** desde notificación | **3 meses** | **125–126** |
+| **Revisión extraordinaria por otras causas** | **3 meses** desde conocimiento del documento o firmeza de sentencia | **3 meses** | **125–126** |
+| **Lesividad del acto favorable anulable** | Dentro de **4 años** desde que se dictó | **6 meses** para declarar lesividad | **107** |
+| **Revisión de oficio de acto nulo** | **En cualquier momento** | **6 meses**, con efectos según iniciación | **106** |
+
+> ⚠️ **¡Foco Examen!:** En alzada, **1 mes** para interponer contra acto expreso y **3 meses** para resolver; en reposición, ambos plazos son de **1 mes**. El recurso extraordinario por **error de hecho** tiene **4 años** de interposición, no **4 meses**.
+
+**Fuente contrastada:** [Ley 39/2015, Título V, BOE consolidado](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Banco de **20 preguntas**, pendiente evaluación integral de calidad y prueba funcional del portal.
+
+
+## 15. Auditoría de la declaración de lesividad — **31/10/2026**
+
+| Aspecto | Regla de examen | Ley 39/2015 |
+|---|---|---|
+| Objeto | Actos **favorables** para interesados que sean **anulables** | **107.1** |
+| Límite para declarar lesividad | Dentro de los **4 años** siguientes a dictarse el acto | **107.2** |
+| Audiencia | Audiencia previa a **todos los interesados**, conforme al artículo 82: **10–15 días** | **107.2 y 82.2** |
+| Duración del procedimiento | **6 meses** desde el inicio; transcurridos sin declaración, **caducidad** | **107.3** |
+| Órgano competente en entidades locales | **Pleno de la Corporación** o, en su defecto, **órgano colegiado superior** | **107.5** |
+| Impugnación de la declaración | La propia declaración no admite recurso administrativo, sin perjuicio de su examen judicial | **107.2** |
+
+> ⚠️ **¡Foco Examen!:** Los **4 años** limitan desde cuándo puede declararse lesivo un acto; los **6 meses** limitan la duración del procedimiento de lesividad y su superación produce **caducidad**.
+
+> ⚠️ **¡Foco Examen!:** En una **Diputación Provincial** el órgano de la declaración de lesividad es el **Pleno**, no el presidente por la mera condición de órgano ejecutivo.
+
+Fuente: [Ley 39/2015, artículo 107, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). Comprobación focalizada; no sustituye la auditoría completa del tema.
+
+
+## Cierre de auditoría jurídica y pedagógica · Bloque C1 8–11 · **05/11/2026**
+
+### Revisar actos nulos, lesividad y recursos sin confundir el reloj
+
+| Vía | Legitimación y objeto | Plazo de inicio/interposición | Plazo y efecto de resolución |
+|---|---|---|---|
+| **Revisión de oficio** | **Administración**, por iniciativa propia o a instancia de interesado, **actos nulos** del **art. 47.1**, y revisión de disposiciones nulas con régimen propio; requiere dictamen **favorable** de órgano consultivo | **En cualquier momento**, sujeto a límites del **art. 110** | **6 meses**: **caducidad** si inició de oficio; **silencio desestimatorio** si a solicitud (**art. 106.5**) |
+| **Lesividad** | **Administración** respecto de actos **favorables anulables**; seguida de impugnación judicial; en Administración local decide **Pleno** u órgano colegiado superior | **4 años** desde dictarse el acto | **6 meses** sin declaración: **caducidad** (**art. 107**) |
+| **Alzada** | Actos que **no ponen fin** a la vía administrativa | **1 mes** frente a acto expreso; contra presunto, en cualquier momento desde efectos del silencio | **3 meses**, silencio **desestimatorio**, salvo excepción del **art. 24.1** |
+| **Reposición potestativa** | Acto que **pone fin** a la vía administrativa, ante el **mismo órgano** | **1 mes** frente a acto expreso; contra presunto, en cualquier momento | **1 mes**; desestimación presunta |
+| **Extraordinario de revisión** | Acto **firme** y causa tasada de **art. 125** | Error de hecho: **4 años**; otras causas: **3 meses** | **3 meses**, silencio **desestimatorio** |
+
+### Suspensión solicitada al recurrir: **art. 117.3**
+
+La ejecución del acto recurrido se entiende **suspendida** si pasa **un mes desde la entrada de la solicitud de suspensión en el registro electrónico de la Administración u organismo competente para decidirla**, sin que se dicte **y notifique** resolución expresa. **No basta** contar desde el mero envío a cualquier destinatario, ni la interposición del recurso suspende siempre la ejecución.
+
+> ⚠️ **¡Foco Examen!:** **4 años de lesividad** no es **6 meses de tramitación**. En el **art. 117.3**, el mes empieza en **el registro electrónico de la Administración competente**; no en la fecha que el interesado desee. La revisión de oficio de actos nulos exige distinguir **actos** de **disposiciones**.
+
+**Fuentes primarias:** [**Ley 39/2015, arts. 106–126**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565). No se reabre el tema por controles técnicos del sitio.

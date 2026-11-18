@@ -1,0 +1,304 @@
+{
+  "tema": 16,
+  "titulo": "Organización de enseñanzas y normativa académica UC3M",
+  "estado": "EN_REVISION_USUARIO",
+  "controlVigencia": "2026-07-23",
+  "cobertura": [
+    {
+      "epigrafe": "Enseñanzas oficiales y ECTS",
+      "manual": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "preguntas": [
+        "UC3M-T16-001",
+        "UC3M-T16-002",
+        "UC3M-T16-003",
+        "UC3M-T16-004",
+        "UC3M-T16-009"
+      ],
+      "fundamentoNormativo": "RD 822/2021 arts. 3, 13–17",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781"
+    },
+    {
+      "epigrafe": "Planes de estudios y calidad",
+      "manual": [
+        6,
+        7,
+        8
+      ],
+      "preguntas": [
+        "UC3M-T16-005",
+        "UC3M-T16-006",
+        "UC3M-T16-007"
+      ],
+      "fundamentoNormativo": "RD 822/2021 arts. 7–8, 25–35",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781"
+    },
+    {
+      "epigrafe": "Matrícula y dedicación",
+      "manual": [
+        9,
+        10
+      ],
+      "preguntas": [
+        "UC3M-T16-008",
+        "UC3M-T16-010"
+      ],
+      "fundamentoNormativo": "Normativa UC3M matrícula y dedicación",
+      "fuente": "https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/ListadoNormativas/1371206706530/Estudios_de_Grado"
+    },
+    {
+      "epigrafe": "Permanencia UC3M",
+      "manual": [
+        11
+      ],
+      "preguntas": [
+        "UC3M-T16-011",
+        "UC3M-T16-012",
+        "UC3M-T16-013"
+      ],
+      "fundamentoNormativo": "Normativa UC3M permanencia art. 1, excepciones",
+      "fuente": "https://www.uc3m.es/ss/Satellite/UC3MInstitucional/en/ListadoNormativas/1371206706530/Estudios_de_Grado"
+    },
+    {
+      "epigrafe": "Evaluación UC3M",
+      "manual": [
+        12,
+        13
+      ],
+      "preguntas": [
+        "UC3M-T16-014",
+        "UC3M-T16-015"
+      ],
+      "fundamentoNormativo": "Normas UC3M de evaluación y revisión",
+      "fuente": "https://www.uc3m.es/grado/informacion-practica/normativa-academica/normas-evaluacion"
+    },
+    {
+      "epigrafe": "Reconocimiento y transferencia",
+      "manual": [
+        14
+      ],
+      "preguntas": [
+        "UC3M-T16-016"
+      ],
+      "fundamentoNormativo": "UC3M BOEL 22/01/2026, normativa reconocimiento arts. 4,14–21,27",
+      "fuente": "https://sede.uc3m.es/boel/anexo/11307/"
+    },
+    {
+      "epigrafe": "Prácticas, TFG/TFM y extinción",
+      "manual": [
+        15,
+        16
+      ],
+      "preguntas": [
+        "UC3M-T16-017",
+        "UC3M-T16-018",
+        "UC3M-T16-019",
+        "UC3M-T16-020",
+        "UC3M-T16-021"
+      ],
+      "fundamentoNormativo": "RD 822/2021 arts. 11,14,17 y reglas UC3M de extinción",
+      "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781"
+    }
+  ],
+  "incidenciasCorregidas": [
+    "El borrador describía matrícula, permanencia y evaluación de forma genérica sin incorporar los umbrales concretos publicados por la UC3M.",
+    "Se incorporan 25 horas por ECTS, cargas de tiempo parcial, mínimos de permanencia, número de convocatorias y porcentajes de evaluación continua y examen final.",
+    "El banco pasa de 12 a 16 preguntas y queda alineado con las reglas específicas del manual."
+  ],
+  "controlJudicial2026": {
+    "fechaVerificacion": "2026-11-02",
+    "clase": "INCIDENCIA_NORMATIVA_TEMPORAL_NO_RESUELTA_A_FALTA_DE_RESOLUCION_UC3M",
+    "norma": "RD 822/2021, artículo 22.4",
+    "reformaAnulada": "RD 905/2025 (BOE 08/10/2025)",
+    "sentencia": "STS 06/10/2026, publicación BOE-A-2026-22083 23/10/2026",
+    "alcanceConfirmado": "BOE declara la nulidad del RD 905/2025 y la modificación que introdujo en el artículo 22.4 del RD 822/2021.",
+    "fechaCorteExamen": "Fecha de publicación de resolución de listas definitivas y anuncio del ejercicio (base primera.7 BOE-A-2026-14624); pendiente acceder a original",
+    "indicioSecundario": "ADAMS refiere listas definitivas publicadas 01/10/2026; no acredita por sí mismo la fecha legal del anuncio ni los efectos de la sentencia posterior",
+    "acciones": "No cambiar respuestas ni citar la versión consolidada 23/10/2026 como automáticamente exigible; verificar fecha primaria del corte y alcance exacto de anulación judicial",
+    "fuentes": [
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781",
+      "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624"
+    ],
+    "estado": "INCIDENCIA_DOCUMENTADA_PENDIENTE_INTERPRETACION_EXIGIBILIDAD"
+  },
+  "controlParcial2026": {
+    "fecha": "2026-11-04",
+    "articulos": "RD 822/2021, 11, 14.5-6, 17.3-4",
+    "nuevasPreguntas": 5,
+    "estado": "EN_REVISION_USUARIO; pendiente corte normativo"
+  },
+  "controlIntegralBanco20261104": {
+    "fecha": "2026-11-04",
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "preguntasVerificadas": 21,
+    "alternativasVerificadas": 84,
+    "informe": "content/uc3m/tema-16/cotejo-integral-2026-11-04.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_LISTAS_DEFINITIVAS",
+    "reservaFuentePrimaria": "Fecha y efecto judicial RD 822/2021 vs corte de bases"
+  },
+  "controlNormativaUC3MReconocimiento20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_DOCUMENTAL_FOCAL_NO_CIERRE_INTEGRAL",
+    "norma": "UC3M BOEL 22/01/2026, anexo 3, normativa de reconocimiento aprobada 11/12/2025",
+    "url": "https://sede.uc3m.es/boel/anexo/11307/",
+    "vigencia": "2026-01-23",
+    "articulos": [
+      {
+        "grupo": "Art. 4, 14–15",
+        "contenido": "Reconocimiento formación básica mismo campo, TFE excepción movilidad, 6 ECTS/10 % actividades y 25 % FP superior"
+      },
+      {
+        "grupo": "Art. 16, 19–21",
+        "contenido": "Solicitudes 1/7–15/9, antes 1/11, posteriores 90 días; actividades 30 días; Decano/Director y alzada Rector"
+      },
+      {
+        "grupo": "Art. 27, DA1, DT, derogatoria y final",
+        "contenido": "Transferencia distinta de reconocimiento; oficio para admisión por estudios parciales; norma antigua 2010 derogada, solicitudes en curso rigen por norma al solicitar"
+      }
+    ],
+    "repaso": "content/uc3m/REPASO_NORMATIVA_2026_T16_T17_20261106.md",
+    "preguntasRepaso": 6,
+    "alternativasRepaso": 24,
+    "bancoOriginalPreguntas": 21,
+    "bancoOriginalNoModificado": true,
+    "cotejo": "FUENTE_PRIMARIA_TEXTUAL_CUADRO_ARTICULOS",
+    "inspeccionVisualPDF": "NO_DISPONIBLE",
+    "corteNormativo": "PENDIENTE_RESOLUCION_ORIGINAL_LISTAS_DEFINITIVAS",
+    "certificacionWeb": false
+  },
+  "controlCifras20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REFUERZO_JURIDICO_FOCAL_NO_CIERRE",
+    "fuente": "RD 822/2021 arts 13-14,17; sentencia TS BOE-A-2026-22083",
+    "manual": "15 ter",
+    "conceptosVerificados": [
+      "Híbrida 40-60% créditos no presenciales",
+      "Virtual >=80%",
+      "TFG 240/300/360: max 24/30/36 ECTS",
+      "Anulación RD905/2025 distinta de nulidad RD822/2021"
+    ],
+    "bancoHistoricoSinModificar": true,
+    "preguntasNuevas": 0,
+    "certificacionJuridicaCompleta": false,
+    "pruebasE2ENuevas": false,
+    "corteNormativo": "PENDIENTE_FECHA_RESOLUCION_PRIMARIA_UC3M"
+  },
+  "cierreDocumentalT16_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T16_20261106.md",
+    "prueba": "tests/validate-uc3m-cierre-t16-20261106.mjs",
+    "bloquesMatriz": 7,
+    "preguntasOriginales": 21,
+    "alternativasOriginales": 84,
+    "preguntasComplementarias": 6,
+    "alternativasComplementarias": 24,
+    "correcciones": [
+      "seis referencias complementarias al articulo BOEL",
+      "distincion anulacion RD 905/2025 frente a vigencia RD 822/2021",
+      "corte legislativo condicionado por base primera.7"
+    ],
+    "fuentes": [
+      "BOE-A-2021-15781",
+      "BOE-A-2026-22083",
+      "https://sede.uc3m.es/boel/anexo/11307/"
+    ],
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "inspeccionVisualPDF": false,
+    "pendientes": [
+      "fecha oficial primaria listas definitivas UC3M",
+      "E2E navegador, movil, WCAG y PWA",
+      "cotejo total vigencia legal al corte",
+      "aprobacion usuario"
+    ]
+  },
+  "controlFocal20261107": {
+    "tipo": "CORRECCION_DE_TRAZABILIDAD_INSTITUCIONAL",
+    "incisosCorregidos": 3,
+    "fuentePrimaria": "Portal oficial de normativa de Grado UC3M y Normas de evaluación",
+    "cambiaClaves": false,
+    "corteLegislativoConfirmado": false,
+    "certificacionIntegral": false
+  },
+  "controlSentencia20261108": {
+    "fecha": "2026-11-08",
+    "fallo": "2026-10-06",
+    "publicacion": "2026-10-23",
+    "fuente": "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083",
+    "anulado": "RD 905/2025",
+    "noAnuladoEnBloque": "RD 822/2021",
+    "preceptoEspecial": "RD 822/2021, art. 22.4, entre otros",
+    "manual": "Control específico de la anulación del Real Decreto 905/2025",
+    "supuestosNuevos": 1,
+    "bancoOriginalModificado": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA",
+    "certificacionIntegral": false
+  },
+  "controlTrazabilidadBanco20261108": {
+    "fecha": "2026-11-08",
+    "preguntas": 21,
+    "alternativas": 84,
+    "referencesBeforeURL": 7,
+    "referencesAfterURL": 21,
+    "referenciasReparadas": 14,
+    "idsDuplicados": 0,
+    "respuestasInvalidas": 0,
+    "clavesModificadas": false,
+    "alternativasModificadas": false,
+    "metodo": "Inspección estructural de JSON y ampliación documental; no cotejo sustantivo íntegro",
+    "corteNormativo": "PENDIENTE",
+    "certificacionIntegral": false
+  },
+  "controlCorreccionECTS20261108": {
+    "fecha": "2026-11-08",
+    "preguntas": [
+      "UC3M-T16-002",
+      "UC3M-T16-009"
+    ],
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a5",
+      "https://www.boe.es/eli/es/rd/2003/09/05/1125/con",
+      "UC3M Normativa TFG 17/06/2010"
+    ],
+    "correccion": "60 ECTS se fundamenta en RD 822/2021 art 5.2, no art 9; 25-30 horas marco estatal; 25 horas contexto UC3M TFG",
+    "enunciadoT16009Acotado": true,
+    "fuenteAnteriorT16009": "403 Forbidden",
+    "alternativasModificadas": false,
+    "clavesModificadas": false,
+    "inspeccionVisualPDF": false,
+    "fechaCorteJurídicoUC3M": "PENDIENTE",
+    "certificacionIntegral": false
+  },
+  "controlCorteNormativo20261110": {
+    "fecha": "2026-11-10",
+    "fuenteRegla": "BOE-A-2026-14624 base primera.7",
+    "fuenteInstitucional": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
+    "fechaFirmaReferida": "2026-09-30",
+    "fechaPublicacionSecundaria": "2026-10-01",
+    "fechaPublicacionPrimaria": "NO_ACREDITADA",
+    "documentoCotejo": "content/uc3m/CONTROL_CORTE_T10_T15_T16_20261110.md",
+    "reservaTema": "Sentencia TS 06/10/2026 anula RD905/2025; no anula RD822/2021; efectos temporales a resolver",
+    "aprobadoPorUsuario": false,
+    "certificacionIntegral": false
+  },
+  "controlEstatutoEstudiantado20261111": {
+    "norma": "RD 855/2026",
+    "publicacion": "2026-10-22",
+    "entradaEnVigor": "2026-10-23",
+    "derogacionExpresa": "RD 1791/2010",
+    "fuente": "https://www.boe.es/eli/es/rd/2026/10/21/855",
+    "corteUC3MPrimario": "NO_ACREDITADO",
+    "preguntasDirectasSobreRD855o1791": 0,
+    "certificacionIntegral": false
+  }
+}

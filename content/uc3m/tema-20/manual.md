@@ -1,0 +1,791 @@
+# Tema 20. Ley 9/2017 de Contratos del Sector Público
+
+> **Estado vigente 09/11/2026: AUDITADO jurídico-editorial.** [**Acta LCSP y contratación UC3M**](../../../audit/UC3M_T20_AUDITORIA_CONTRATACION_2026-11-09.md). No equivale a `CERTIFICADO_INTEGRAL`; pruebas CI, E2E y accesibilidad pendientes.
+
+> Epígrafe oficial: ámbito, tipos, perfección, órgano de contratación, objeto, presupuesto, valor estimado, precio, preparación y adjudicación; contratación en la UC3M.
+
+**Control de vigencia:** Ley 9/2017, de 8 de noviembre, texto consolidado del BOE con última actualización publicada el **9 de abril de 2026**.
+
+## 1. Finalidad y principios de la contratación pública
+
+La Ley 9/2017, de Contratos del Sector Público (LCSP), regula la contratación de las entidades del sector público y persigue:
+
+- libertad de acceso a las licitaciones;
+- publicidad y transparencia;
+- igualdad de trato y no discriminación;
+- integridad y prevención de la corrupción;
+- estabilidad presupuestaria y control del gasto;
+- utilización eficiente de los fondos públicos;
+- definición previa de las necesidades;
+- salvaguardia de la libre competencia;
+- selección de la oferta con mejor relación calidad-precio;
+- incorporación transversal de criterios sociales y medioambientales vinculados al objeto.
+
+La contratación pública no es solo una técnica de compra. Es un procedimiento jurídico para satisfacer necesidades públicas mediante competencia, control presupuestario y rendición de cuentas.
+
+## 2. Ámbito subjetivo: posición de la UC3M
+
+La Universidad Carlos III de Madrid es una universidad pública y forma parte del sector público institucional. A efectos de la LCSP actúa como **Administración Pública** y sus contratos típicos tienen, con carácter general, naturaleza administrativa, salvo los contratos privados y negocios excluidos que la propia ley identifica.
+
+En la contratación universitaria deben aplicarse conjuntamente:
+
+- LCSP y normativa reglamentaria de desarrollo;
+- Ley Orgánica 2/2023, del Sistema Universitario;
+- Estatutos de la UC3M;
+- Presupuesto y Normas Básicas de Gestión de cada ejercicio;
+- resoluciones de delegación de competencias;
+- normativa presupuestaria, de transparencia, factura electrónica, protección de datos y control financiero.
+
+## 3. Ámbito objetivo y negocios excluidos
+
+La LCSP se aplica a los contratos onerosos celebrados por entidades del sector público. Existe onerosidad cuando el contratista obtiene algún beneficio económico, directo o indirecto.
+
+No todo negocio jurídico de una universidad es un contrato público. Entre los negocios excluidos pueden encontrarse, si cumplen sus requisitos legales:
+
+- relaciones funcionariales y laborales;
+- determinados convenios entre entidades públicas o con sujetos privados;
+- encargos a medios propios personificados;
+- negocios patrimoniales sobre inmuebles, valores y propiedades incorporales;
+- arbitraje y conciliación;
+- servicios financieros específicos;
+- determinadas actividades de investigación, desarrollo e innovación;
+- convenios y subvenciones sin contraprestación contractual.
+
+La exclusión depende de la verdadera naturaleza de la relación, no de la denominación elegida. Un convenio que encubra una prestación onerosa propia del mercado puede ser realmente un contrato.
+
+## 4. Tipos contractuales
+
+### 4.1. Contrato de obras
+
+Tiene por objeto:
+
+- ejecutar una obra;
+- ejecutar conjuntamente proyecto y obra;
+- realizar trabajos que produzcan un resultado que cumpla por sí mismo una función económica o técnica.
+
+La obra afecta normalmente a un inmueble y debe responder a un proyecto o documentación técnica suficiente.
+
+### 4.2. Concesión de obras
+
+El concesionario ejecuta o explota una obra y recibe como contraprestación el derecho a explotarla, solo o acompañado de un precio. Debe asumir **riesgo operacional**.
+
+### 4.3. Concesión de servicios
+
+Se encomienda la gestión de un servicio a un operador, cuya contraprestación consiste en el derecho de explotación, solo o acompañado de precio. La nota distintiva es también la transferencia del riesgo operacional.
+
+### 4.4. Contrato de suministro
+
+Comprende, entre otros:
+
+- adquisición de bienes muebles;
+- arrendamiento financiero;
+- arrendamiento, con o sin opción de compra;
+- suministros sucesivos por precio unitario;
+- adquisición de energía;
+- determinados equipos y programas informáticos.
+
+### 4.5. Contrato de servicios
+
+Su objeto son prestaciones de hacer dirigidas a obtener un resultado distinto de una obra o suministro. No pueden atribuir al contratista el ejercicio de autoridad inherente a los poderes públicos.
+
+### 4.6. Contrato mixto
+
+Contiene prestaciones correspondientes a contratos de distinta clase. Su régimen se determina mediante las reglas de la prestación principal y las especialidades de la LCSP. No puede mezclarse artificialmente prestaciones para eludir el régimen jurídico aplicable.
+
+## 5. Contratos administrativos y contratos privados
+
+Son administrativos, con carácter general, los contratos de obras, concesiones, suministros y servicios celebrados por una Administración Pública, salvo excepciones legales.
+
+Los contratos administrativos se rigen por Derecho administrativo en preparación, adjudicación, efectos, modificación y extinción.
+
+Los contratos privados se someten:
+
+- a la LCSP en preparación y adjudicación;
+- al Derecho privado en efectos y extinción, sin perjuicio de las especialidades legales y de la competencia jurisdiccional correspondiente.
+
+## 6. Perfección y formalización
+
+Como regla general, los contratos celebrados por una Administración Pública se perfeccionan con su **formalización**.
+
+Excepciones relevantes:
+
+- los contratos menores se perfeccionan con la aprobación del gasto y la incorporación de la factura o documento equivalente;
+- los contratos basados en acuerdo marco y los específicos de un sistema dinámico se perfeccionan con su adjudicación.
+
+La formalización se realiza en documento administrativo dentro del plazo legal. El contratista puede pedir escritura pública, a su costa.
+
+No puede iniciarse normalmente la ejecución antes de la formalización. Se exceptúan, entre otros, los supuestos de emergencia y aquellos expresamente previstos por la ley.
+
+En contratos susceptibles de recurso especial debe respetarse el plazo de espera antes de formalizar.
+
+## 7. Órgano de contratación en la UC3M
+
+El artículo 175 de los Estatutos de la UC3M establece expresamente:
+
+> El Rector es el órgano de contratación de la Universidad y está facultado para suscribir en su nombre y representación los contratos en que intervenga la Universidad.
+
+Por tanto, la competencia originaria corresponde al **Rector**.
+
+La Resolución de 31 de mayo de 2022 delega determinadas facultades en materia de contratación administrativa, retención de crédito, autorización y disposición del gasto. La delegación no altera la titularidad de la competencia y los actos deben indicar que se dictan por delegación.
+
+El órgano de contratación:
+
+- define y aprueba la necesidad;
+- aprueba expediente, pliegos y gasto;
+- selecciona el procedimiento;
+- adjudica;
+- formaliza;
+- nombra responsable del contrato cuando proceda;
+- acuerda modificaciones, penalidades, prórrogas y resolución dentro de su competencia.
+
+## 8. Mesa de contratación
+
+La mesa es un órgano de asistencia técnica especializada. No sustituye al órgano de contratación.
+
+Funciones habituales:
+
+- calificar documentación administrativa;
+- admitir o excluir licitadores;
+- abrir ofertas;
+- valorar criterios automáticos;
+- solicitar informes técnicos para criterios sujetos a juicio de valor;
+- identificar ofertas anormalmente bajas;
+- formular propuesta de adjudicación.
+
+La propuesta de la mesa no crea derecho a favor del licitador propuesto. El órgano de contratación puede apartarse de ella mediante motivación suficiente.
+
+Los Estatutos de la UC3M exigen que, cuando se constituya mesa, exista al menos un representante de los departamentos, centros o servicios afectados.
+
+## 9. Objeto del contrato y lotes
+
+El objeto debe ser determinado y responder a una necesidad real, concreta y justificada.
+
+No puede fraccionarse un contrato para:
+
+- disminuir su cuantía;
+- evitar publicidad;
+- eludir el procedimiento o requisitos aplicables.
+
+La LCSP favorece la división en lotes para facilitar la participación de pequeñas y medianas empresas. La decisión de no dividir debe justificarse en el expediente cuando legalmente proceda.
+
+Las prescripciones técnicas deben formularse de forma neutral y funcional. Las referencias a marcas, patentes o procedencias solo son admisibles con justificación y acompañadas, en general, de la expresión «o equivalente».
+
+## 10. Presupuesto base de licitación
+
+Es el **límite máximo de gasto** que puede comprometer el órgano de contratación en virtud del contrato, incluido el IVA salvo disposición en contrario.
+
+Debe:
+
+- ser adecuado a precios de mercado;
+- desglosar costes directos e indirectos;
+- incluir otros gastos eventuales calculados;
+- desglosar costes salariales estimados cuando el coste de los salarios forme parte del precio total.
+
+No debe confundirse con el crédito presupuestario, aunque ambos deben ser compatibles.
+
+## 11. Valor estimado del contrato
+
+Se calcula **sin IVA** e incluye el importe total pagadero según las estimaciones del órgano de contratación.
+
+Deben incluirse, cuando proceda:
+
+- prórrogas;
+- opciones;
+- modificaciones previstas;
+- primas o pagos a licitadores;
+- suministros puestos a disposición del contratista;
+- costes laborales en los supuestos legalmente previstos;
+- cualquier otra forma de remuneración.
+
+El valor estimado determina, entre otras cuestiones:
+
+- sujeción a regulación armonizada;
+- publicidad;
+- procedimiento;
+- solvencia;
+- posible recurso especial;
+- reglas de adjudicación.
+
+### Diferencia básica
+
+| Concepto | IVA | Función principal |
+|---|---:|---|
+| Presupuesto base de licitación | Incluido, como regla | Límite máximo de gasto |
+| Valor estimado | Excluido | Determina régimen jurídico y umbrales |
+| Precio | Según régimen tributario | Contraprestación efectiva al contratista |
+
+## 12. Precio y revisión
+
+El precio debe ser cierto y expresarse normalmente en euros. Puede fijarse:
+
+- a tanto alzado;
+- por precios unitarios;
+- mediante tarifas;
+- combinando modalidades;
+- mediante precio provisional en los casos permitidos.
+
+El precio debe ser adecuado para el efectivo cumplimiento del contrato.
+
+La revisión periódica y predeterminada de precios solo procede en los supuestos y condiciones legales. No existe un derecho general del contratista a revisar el precio por cualquier aumento de costes.
+
+## 13. Preparación del contrato
+
+El expediente debe justificar, al menos:
+
+- necesidad e idoneidad;
+- relación con los fines institucionales;
+- objeto y código CPV;
+- división o no en lotes;
+- presupuesto base;
+- valor estimado;
+- duración y posibles prórrogas;
+- procedimiento y tramitación;
+- criterios de solvencia;
+- criterios de adjudicación;
+- condiciones especiales de ejecución;
+- insuficiencia de medios en contratos de servicios, cuando proceda;
+- crédito adecuado y suficiente;
+- ausencia de fraccionamiento.
+
+Forman parte habitual del expediente:
+
+- memoria justificativa;
+- certificado o retención de crédito;
+- pliego de cláusulas administrativas particulares;
+- pliego de prescripciones técnicas;
+- informe jurídico cuando sea exigible;
+- fiscalización o control previo;
+- aprobación del gasto;
+- resolución de aprobación del expediente.
+
+## 14. Tramitación ordinaria, urgente y de emergencia
+
+### Ordinaria
+
+Es la regla general y respeta íntegramente los plazos legales.
+
+### Urgente
+
+Exige declaración motivada cuando el contrato responda a una necesidad inaplazable o deba acelerarse por razones de interés público. Produce reducción de determinados plazos, pero no elimina competencia, publicidad ni control.
+
+### Emergencia
+
+Procede ante acontecimientos catastróficos, situaciones de grave peligro o necesidades que afecten a la defensa nacional. Permite ordenar la ejecución inmediata de lo necesario sin tramitar previamente el expediente ordinario. Debe limitarse estrictamente a afrontar la emergencia y quedar documentada y sometida a rendición de cuentas.
+
+Urgencia y emergencia no son equivalentes.
+
+## 15. Pliegos
+
+### Pliego de cláusulas administrativas particulares
+
+Regula:
+
+- derechos y obligaciones;
+- capacidad y solvencia;
+- procedimiento;
+- criterios de adjudicación;
+- garantías;
+- duración y prórrogas;
+- condiciones de ejecución;
+- penalidades;
+- modificación;
+- pago;
+- causas de resolución.
+
+### Pliego de prescripciones técnicas
+
+Define las características técnicas, funcionales, de calidad, rendimiento, accesibilidad y sostenibilidad de la prestación.
+
+Los pliegos vinculan al órgano de contratación, licitadores y adjudicatario. Una modificación sustancial después de publicar la licitación exige normalmente retroacción o nueva licitación.
+
+## 16. Aptitud para contratar
+
+El empresario debe reunir:
+
+- personalidad y capacidad de obrar;
+- habilitación empresarial o profesional cuando sea necesaria;
+- ausencia de prohibiciones de contratar;
+- solvencia económica y financiera;
+- solvencia técnica o profesional;
+- clasificación cuando sea legalmente exigible.
+
+Los requisitos de solvencia deben estar vinculados al objeto y ser proporcionales. No pueden utilizarse para restringir injustificadamente la competencia.
+
+## 17. Procedimientos de adjudicación
+
+### 17.1. Abierto
+
+Todo empresario interesado puede presentar oferta. No existe negociación. Es el procedimiento ordinario de referencia.
+
+### 17.2. Abierto simplificado
+
+Reduce trámites y plazos cuando se cumplen los requisitos legales de valor estimado y criterios de adjudicación.
+
+Existe una modalidad abreviada para contratos de menor cuantía dentro de los límites legales.
+
+### 17.3. Restringido
+
+Cualquier empresario puede solicitar participar, pero solo los seleccionados por su solvencia presentan oferta. No existe negociación.
+
+### 17.4. Procedimientos con negociación
+
+La negociación solo es posible en los supuestos tasados por la ley. Deben preservarse igualdad, confidencialidad y trazabilidad.
+
+### 17.5. Diálogo competitivo
+
+Se utiliza para contratos especialmente complejos cuando el órgano no puede definir por sí solo los medios técnicos o la estructura jurídica o financiera adecuada.
+
+### 17.6. Asociación para la innovación
+
+Permite desarrollar y adquirir productos, servicios u obras innovadores que no existen todavía en el mercado con el nivel requerido.
+
+### 17.7. Concurso de proyectos
+
+Se utiliza principalmente para obtener planos o proyectos, especialmente en arquitectura, urbanismo, ingeniería o procesamiento de datos, mediante selección por jurado.
+
+
+### 17.8. Abierto simplificado ordinario y abreviado: cuantías y plazos (2026)
+
+En el **artículo 159 LCSP** existen dos modalidades que **no deben confundirse con los umbrales SARA**. Se calcula el **valor estimado sin IVA** y se comprueban, además, los requisitos de criterios de adjudicación y demás condiciones legales.
+
+| Modalidad del artículo **159** | Obras | Suministros/servicios | Criterios y plazo mínimo |
+|---|---:|---:|---|
+| **Abierto simplificado** (**159.1–5**) | **≤ 2.000.000 €** | **< 140.000 €** (importe actualizado de **arts. 21.1.a y 22.1.a**, usados como referencia por **159.1.a**) | Juicio de valor **0 %** o **≤ 25 %**; hasta **45 %** en prestaciones intelectuales. Ofertas: **15 días naturales**, en obras **20 días naturales**, desde el día siguiente al anuncio en perfil. |
+| **Abierto simplificado abreviado** (**159.6**) | **< 80.000 €** | **< 60.000 €** | **No** aplicable a prestaciones **intelectuales**. Criterios automáticos por fórmulas; ofertas **10 días hábiles**, o **5 días hábiles** para compras corrientes de bienes disponibles en mercado. No se exige garantía definitiva. |
+
+La **Disposición adicional duodécima LCSP** establece que los plazos fijados **por días son naturales**, excepto cuando se indica expresamente **días hábiles**. Por ello el plazo de **15/20 días** del **159.3** se estudia en **naturales**, frente a los **10/5 días hábiles** del **159.6.a**. Si el último día fuera inhábil, se prorroga al primer hábil siguiente.
+
+**La clave de 2026:** el abierto simplificado de **suministros y servicios** usa la referencia de **140.000 €** del ámbito **AGE** citado expresamente por **159.1.a**, incluso aunque el umbral **SARA ordinario de UC3M** para esos contratos sea **216.000 €**. No debe utilizarse **216.000 €** como tope para este procedimiento.
+
+**Fuentes:** [**LCSP, art. 159**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a1-71), [**Disposición adicional 12.ª**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#da-12) y [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605).
+
+> ⚠️ **¡Foco Examen!:** **Simplificado ordinario = < 140.000 €** en suministros/servicios; **SARA UC3M = ≥ 216.000 €**; **abreviado = < 60.000 €**, salvo servicios intelectuales. **15 días naturales** y **10 días hábiles** no son intercambiables.
+
+## 18. Contratos sujetos a regulación armonizada
+
+Son contratos que, por tipo, valor estimado y entidad contratante, quedan sometidos a las reglas europeas reforzadas de publicidad y procedimiento.
+
+Los umbrales se actualizan periódicamente. Desde el **1 de enero de 2026** rige la [**Orden HAC/1517/2025, de 18 de diciembre**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605), publicada en el **BOE el 26/12/2025**.
+
+### Tabla de umbrales de regulación armonizada aplicables en 2026–2027
+
+| Contrato y ámbito subjetivo | Valor estimado **sin IVA** | Ley **9/2017** |
+|---|---:|---|
+| **Obras**, concesiones de obras o de servicios, umbral general | **≥ 5.404.000 €** | Arts. **20.1** y **23.1.a** |
+| **Suministros y servicios** de **AGE**, organismos autónomos o entidades gestoras/servicios comunes de **Seguridad Social** | **≥ 140.000 €** | Arts. **21.1.a** y **22.1.a** |
+| **Suministros y servicios** de otros poderes adjudicadores, como la **UC3M** | **≥ 216.000 €** | Arts. **21.1.b** y **22.1.b** |
+| Servicios sociales y otros servicios específicos del **anexo IV** | **≥ 750.000 €** | Art. **22.1.c** |
+
+Estos umbrales son diferentes de los del **recurso especial en materia de contratación**, que según el **artículo 44.1.a** es posible respecto de obras con valor estimado **superior a 3.000.000 €** y suministros/servicios **superiores a 100.000 €**, para los actos y contratos comprendidos legalmente.
+
+| Régimen distinto | Obras | Suministros y servicios |
+|---|---:|---:|
+| **Contrato menor** (**art. 118.1**) | **< 40.000 €** | **< 15.000 €** |
+| **Recurso especial** (**art. 44.1.a**) | **> 3.000.000 €** | **> 100.000 €** |
+| **SARA UC3M**, umbral general (**arts. 20–22**) | **≥ 5.404.000 €** | **≥ 216.000 €** |
+
+> ⚠️ **¡Foco Examen!:** La **UC3M** aplica **216.000 €** como umbral general **SARA** para suministros y servicios, no **140.000 €** de ciertos contratos de la **AGE**. El recurso especial por suministros/servicios de valor estimado **superior a 100.000 €** es **otra institución**. Contrato menor de servicios: valor estimado **inferior a 15.000 €**, nunca igual a esa cifra. Todos se expresan **sin IVA**.
+
+En examen debe distinguirse:
+
+- umbral de contrato menor;
+- umbral de procedimiento simplificado;
+- umbral de regulación armonizada;
+- umbral de recurso especial.
+
+No son conceptos equivalentes.
+
+## 19. Contrato menor
+
+Tienen la consideración de menores los contratos con valor estimado inferior a:
+
+- **40.000 euros** en obras;
+- **15.000 euros** en suministros o servicios.
+
+Las cuantías se calculan sin IVA.
+
+Características esenciales:
+
+- duración máxima de un año;
+- no pueden ser objeto de prórroga;
+- deben responder a una necesidad concreta;
+- requieren aprobación del gasto;
+- deben incorporar factura o documento equivalente;
+- en obras se añade presupuesto y, cuando proceda, proyecto e informe de supervisión;
+- debe justificarse que no se altera el objeto para evitar procedimientos ordinarios;
+- están sujetos a publicidad periódica en el perfil de contratante, con las excepciones legales.
+
+La UC3M advierte de que una necesidad cuyo valor estimado sea **igual o superior a 15.000 €**, **sin IVA**, en suministros o servicios (o una prestación recurrente que no pueda justificarse como necesidad menor) debe tramitarse por el procedimiento que legalmente corresponda: **el límite del artículo 118.1 es estrictamente inferior**, no «hasta 15.000 € inclusive». El contrato menor no puede utilizarse para fraccionar necesidades recurrentes.
+
+## 20. Criterios de adjudicación
+
+La adjudicación se realiza utilizando una pluralidad de criterios sobre la base de la mejor relación calidad-precio, salvo supuestos justificados de criterio único.
+
+Pueden utilizarse:
+
+- precio o coste;
+- calidad técnica;
+- organización y cualificación del personal adscrito;
+- accesibilidad;
+- características sociales;
+- características medioambientales;
+- servicio posventa;
+- plazo de entrega;
+- coste del ciclo de vida.
+
+Los criterios deben:
+
+- estar vinculados al objeto;
+- figurar en los pliegos;
+- permitir comparación objetiva;
+- respetar igualdad y competencia;
+- incluir reglas claras de ponderación.
+
+Los criterios evaluables mediante fórmulas se diferencian de los sujetos a juicio de valor. Cuando estos últimos tienen una ponderación relevante pueden requerir comité de expertos u organismo técnico especializado.
+
+## 21. Ofertas anormalmente bajas
+
+Los pliegos deben fijar parámetros objetivos para identificar ofertas presuntamente anormales.
+
+Antes de excluir debe darse audiencia al licitador para que justifique:
+
+- ahorro en el procedimiento;
+- soluciones técnicas;
+- condiciones excepcionalmente favorables;
+- innovación;
+- respeto de obligaciones sociales, laborales y ambientales;
+- posible ayuda de Estado.
+
+La exclusión exige motivación. No puede aceptarse una oferta cuya baja derive del incumplimiento de obligaciones legales.
+
+## 22. Clasificación, requerimiento y adjudicación
+
+Tras valorar las ofertas:
+
+1. la mesa o el órgano clasifica las proposiciones;
+2. se requiere al licitador mejor clasificado la documentación necesaria;
+3. se comprueban capacidad, solvencia, ausencia de prohibiciones y garantía definitiva cuando proceda;
+4. el órgano adjudica mediante resolución motivada;
+5. la adjudicación se notifica y publica;
+6. se formaliza dentro del plazo legal.
+
+La adjudicación debe explicar las razones de aceptación y rechazo y permitir a los licitadores comprender la decisión.
+
+## 23. Garantías
+
+La garantía provisional es excepcional.
+
+La garantía definitiva se exige, como regla general, al licitador propuesto y suele consistir en un porcentaje del precio final ofertado sin IVA, sin perjuicio de excepciones, garantías complementarias y regímenes especiales.
+
+Responde de:
+
+- correcta ejecución;
+- penalidades;
+- daños;
+- incautación en casos de resolución culpable;
+- inexistencia de vicios durante el plazo de garantía.
+
+## 24. Recurso especial en materia de contratación
+
+Es un recurso administrativo especial, potestativo y gratuito para determinados actos y contratos que superan los umbrales legales.
+
+Puede afectar, entre otros, a:
+
+- anuncios;
+- pliegos;
+- actos de trámite cualificados;
+- exclusiones;
+- adjudicación;
+- determinadas modificaciones y encargos.
+
+Su interposición frente a la adjudicación produce los efectos suspensivos previstos por la ley. No debe confundirse con los recursos administrativos ordinarios.
+
+## 25. Ejecución, modificación y resolución
+
+El contratista ejecuta a riesgo y ventura y bajo dirección, inspección y control de la Administración.
+
+Debe existir responsable del contrato para supervisar la ejecución y adoptar instrucciones dentro de sus facultades.
+
+Las modificaciones solo son posibles:
+
+- cuando estén previstas de forma clara, precisa e inequívoca en los pliegos;
+- o cuando concurra una causa legal no prevista, dentro de sus límites.
+
+No pueden alterar la naturaleza global ni utilizarse para sustituir una nueva licitación.
+
+La resolución puede producirse por incumplimiento, demora, insolvencia, imposibilidad de ejecución, mutuo acuerdo en condiciones legales y demás causas tasadas.
+
+## 26. Transparencia y contratación electrónica en la UC3M
+
+La UC3M publica su perfil de contratante en la Plataforma de Contratación del Sector Público desde el 1 de noviembre de 2016.
+
+La información institucional incluye:
+
+- perfil de contratante;
+- licitación electrónica;
+- planificación anual;
+- expedientes de contratación menor;
+- periodo medio de pago;
+- estadísticas sobre contratos adjudicados.
+
+La contratación se tramita electrónicamente. Las empresas deben relacionarse por medios electrónicos y utilizar los sistemas de licitación habilitados.
+
+## 27. Organización práctica de la contratación UC3M
+
+La Dirección Económico Financiera coordina la contratación de bienes, servicios, suministros y obras.
+
+La gestión se distribuye entre:
+
+- área de Contratación y Patrimonio, para procedimientos abiertos;
+- oficinas económicas de campus, para otros procedimientos y contratos con centrales de suministro;
+- servicios que tengan competencia para contratación menor;
+- unidades promotoras, que definen la necesidad y verifican la prestación;
+- asesoría jurídica, control interno, presupuesto y tesorería.
+
+### Flujo básico
+
+1. La unidad promotora identifica la necesidad.
+2. Comprueba si existe contrato centralizado, acuerdo marco o recurso interno.
+3. Define objeto, lotes, duración y estimación económica.
+4. Tramita memoria y retención de crédito.
+5. Se elaboran pliegos.
+6. Se efectúan informes y control.
+7. El órgano competente aprueba expediente y gasto.
+8. Se publica y reciben ofertas electrónicas.
+9. La mesa valora y propone.
+10. El órgano adjudica y formaliza.
+11. El responsable controla ejecución y conformidad.
+12. Se registra factura y se tramita el pago.
+
+## 28. Contratación vinculada a investigación
+
+La financiación por proyectos no excluye la LCSP. Deben respetarse:
+
+- elegibilidad del gasto;
+- periodo de ejecución;
+- condiciones de la entidad financiadora;
+- publicidad y competencia;
+- prohibición de fraccionamiento;
+- trazabilidad documental;
+- prevención del conflicto de intereses;
+- plan antifraude cuando resulte aplicable.
+
+Las exclusividades científicas o técnicas deben motivarse y acreditarse. La urgencia derivada de una mala planificación no justifica por sí sola un procedimiento excepcional.
+
+## 29. Errores frecuentes de examen
+
+- Confundir presupuesto base con valor estimado.
+- Pensar que el contrato se perfecciona siempre con la adjudicación.
+- Afirmar que la mesa adjudica.
+- Calcular el contrato menor con IVA.
+- Considerar que todo contrato privado queda fuera de la LCSP.
+- Utilizar urgencia y emergencia como sinónimos.
+- Creer que la oferta más barata es necesariamente la mejor.
+- Admitir el fraccionamiento de necesidades repetitivas.
+- Olvidar que la competencia originaria de contratación de la UC3M corresponde al Rector.
+
+## Claves de examen
+
+- La UC3M es Administración Pública a efectos contractuales.
+- El Rector es el órgano de contratación de la Universidad.
+- La mesa asiste y propone; el órgano competente adjudica.
+- Presupuesto base: normalmente con IVA. Valor estimado: sin IVA.
+- Contrato menor: menos de 40.000 euros en obras y menos de 15.000 euros en suministros o servicios, sin IVA.
+- Los contratos menores duran como máximo un año y no admiten prórroga.
+- La mejor relación calidad-precio no equivale necesariamente al precio más bajo.
+- La LCSP consolidada utilizada está actualizada a 9 de abril de 2026.
+
+## Cotejo integral del banco · 04/11/2026
+
+[**Revisión individual de 12 preguntas, 48 alternativas**](cotejo-integral-2026-11-04.md) y control de los umbrales oficiales **2026**: **contrato menor de servicios < 15.000 €**, **recurso especial > 100.000 €** y **SARA UC3M ≥ 216.000 €**. Se mantiene la distinción de competencia originaria del **Rector**. **COTEJO_BANCO_COMPLETO** no es prueba de navegación, accesibilidad, aprobación del usuario ni certificación integral del temario.
+
+> ⚠️ **¡Foco Examen!:** **Menor, recurso especial y SARA no son sinónimos**: un contrato que supera el umbral de recurso especial no tiene por qué superar el umbral **SARA**.
+
+
+## Repaso focal UC3M previo al examen — **06/11/2026**
+
+[**Repaso de 24 preguntas originales de los temas 13–17 y 20, con respuesta razonada por artículo**](../REPASO_FINAL_T13_T20_20261106.md). Son preguntas de entrenamiento y no sustituyen el banco original ni un examen oficial.
+
+> ⚠️ **¡Foco Examen!:** En UC3M, la puntuación directa es **A − E/3**; el mínimo para obtener la calificación transformada de **35** depende del umbral **M** fijado por el **Tribunal**. No presupongas que bastan 35 aciertos.
+
+
+## 30. Reglas críticas de formalización y recurso — arts. 44 y 153
+
+| Actuación | Supuesto exacto | Plazo / consecuencia |
+|---|---|---|
+| **Recurso especial** (**44.1.a**) | Obras y concesiones de valor estimado **> 3.000.000 €**, y suministros y servicios **> 100.000 €**, respecto de actos recurribles. | **No** confundir el umbral del recurso con el SARA. |
+| **Recurso especial** sobre **emergencia** | Procedimientos seguidos por tramitación de emergencia. | El **art. 44.4 excluye** este recurso. |
+| **Formalización** de contrato susceptible de recurso especial (**153.3**) | Espera previa tras remitir notificación de adjudicación. | **No antes de 15 días hábiles**; la Comunidad Autónoma puede ampliar el período hasta **un mes**. |
+| **Requerimiento al adjudicatario** después del período de espera | Cuando no se ha interpuesto recurso con suspensión o se ha levantado. | Formalización en **plazo no superior a 5 días** desde el siguiente a recibir requerimiento. |
+| **Formalización de otros contratos** | Contratos no sujetos a la espera anterior, con las excepciones específicas. | **No más tarde de 15 días hábiles** desde la notificación de adjudicación. |
+| **Falta de formalización imputable al adjudicatario** | No se formaliza en plazo por causa del adjudicatario. | Penalidad **3 % del presupuesto base de licitación**, **IVA excluido**; se pasa al siguiente licitador en las condiciones legales. |
+| **Publicidad de formalización** | Publicación en el perfil de contratante. | **Máximo 15 días desde el perfeccionamiento**; en contratos SARA hay publicidad adicional en **DOUE** (**154.1**). |
+
+**Fuente primaria:** [**LCSP arts. 44, 153 y 154**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902).
+
+> ⚠️ **¡Foco Examen!:** En un contrato sujeto a recurso especial, **15 días hábiles** es la **espera mínima antes de formalizar**; no es el plazo ordinario para pagar la factura. La penalidad por falta de formalización imputable al adjudicatario es **3 % del PBL sin IVA**, no del valor estimado.
+
+## 31. Plazos de pago y reclamaciones de contratistas — art. 198
+
+| Momento o incidencia | Norma legal y matiz |
+|---|---|
+| Conformidad de bienes o servicios | La **Administración** dispone, en principio, de **30 días** desde la entrega efectiva/prestación para aprobar certificados o documentos de conformidad. |
+| Abono del precio | La **Administración** debe pagar en **30 días** desde la aprobación de las certificaciones o documentos de conformidad, salvo peculiaridades previstas en el propio artículo. |
+| Presentación de factura por contratista | Para el cómputo de intereses de demora, debe haberse presentado en registro en **30 días desde entrega o servicio**, en tiempo y forma. Si se presenta tarde, existe regla especial para el inicio de intereses. |
+| Demora superior a **4 meses** | El **contratista** puede suspender el cumplimiento, con **preaviso de 1 mes**. |
+| Demora superior a **6 meses** | El **contratista** tiene derecho a resolver y a ser resarcido por perjuicios en términos legales. |
+
+Las dos referencias a **30 días** no deben simplificarse en un «plazo universal de **60 días**»: el inicio del cómputo y los intereses dependen de **conformidad, factura correcta y circunstancias del caso**.
+
+**Fuente:** [**LCSP, artículo 198.4–6**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a1-110).
+
+> ⚠️ **¡Foco Examen!:** **30 días para conformidad + 30 días para pago**, con presupuestos legales. **> 4 meses de demora** habilita suspensión previo aviso de **1 mes**; **> 6 meses** habilita resolución e indemnización.
+
+
+
+## 32. Excepción documental de 5.000 € en contratos menores — art. 118.5
+
+La cifra **5.000 €** aparece en dos reglas distintas y la coincidencia numérica **no las convierte en una sola norma**.
+
+| Instrumento | Condición y efecto | Fuente |
+|---|---|---|
+| **Contrato menor de suministro/servicio** | **Valor estimado < 15.000 €**, sin IVA. Informe de necesidad y no fraccionamiento, aprobación de gasto, factura y publicidad según ley. | **LCSP 118.1–3 y 63.4** |
+| **Excepción documental del contrato menor pagado por caja fija** | Si el **pago** se realiza por **anticipo de caja fija u otro sistema similar para pagos menores**, y el **valor estimado no excede de 5.000 €**, queda exceptuada **solo la exigencia del informe del art. 118.2**, no todos los demás requisitos legales. | **LCSP 118.5** |
+| **Sistema asimilado a caja fija en UC3M 2026** | Gastos que **no excedan de 5.000 € sin IVA** de acuerdo con las Normas Básicas de Gestión. | **UC3M 2026, art. 16.2** |
+| **Anticipo a justificar UC3M 2026** | Hasta **12.000 €** para las compras y servicios extraordinarios que cumplan requisitos y plazos internos. | **UC3M 2026, art. 16.3** |
+
+El **art. 118.5** no dice que «todo contrato menor de menos de **5.000 €** carezca de informe»; además del importe exige **la modalidad específica de pago por caja fija o sistema equivalente**.
+
+**Fuente oficial:** [**LCSP art. 118, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a1-30).
+
+> ⚠️ **¡Foco Examen!:** **5.000 €** de **UC3M caja fija** y **5.000 €** del **art. 118.5 LCSP** son reglas **diferentes**. **12.000 €** de anticipo interno **no** convierte en menor un contrato de servicio de **15.000 €** o más.
+
+
+## Repaso económico transversal T18–T20 — tema 20 (06/11/2026)
+
+[**Tabla de comparación conjunta T18–T20**](../REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md), con las diferencias entre **presupuesto**, **pago** y **contratación**; [**12 preguntas adicionales en prácticas**](../../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección «Repasos adicionales UC3M». El **tema 20** aporta las preguntas **8–12**. No se alteran el banco original ni los simulacros.
+
+> ⚠️ **¡Foco Examen!:** Identificar siempre la **norma citada** y la **fase de gasto o contrato** antes de escoger plazo o cuantía.
+
+
+## Cierre documental de contratación pública — **06/11/2026**
+
+[**Acta T20: 10 bloques, 17 preguntas y 68 alternativas con reservas**](../CIERRE_DOCUMENTAL_T20_20261106.md). Se conservaron **12 preguntas históricas/48 opciones** y **5 complementarias/20 opciones** ya existentes; las **17 referencias** se precisaron con artículos de [**LCSP BOE**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902) o [**Estatutos UC3M**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782), sin cambiar respuestas ni simulacros.
+
+**Precisión legal:** el **art. 118.5 LCSP** exceptúa **únicamente el informe del 118.2** en contratos menores con **VEC ≤5.000 €** pagados mediante **caja fija o sistema similar**; no es exención automática de publicidad y demás obligaciones. **No se certifica aún** el tema al **100 %**: faltan fecha primaria de corte de UC3M, controles funcionales y aprobación.
+
+> ⚠️ **¡Foco Examen!:** **Menor servicios <15.000 €**, **simplificado ordinario <140.000 €**, **abreviado <60.000 €**, **recurso especial >100.000 €**, **SARA UC3M ≥216.000 €**: importes para **efectos diferentes**, sin IVA salvo indicación legal.
+
+
+## 33. Abierto simplificado: registro, requerimientos y adjudicación — 08/11/2026
+
+**Fuente primaria:** [**LCSP, artículo 159.4 (BOE consolidado)**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159). El **procedimiento abierto simplificado** no queda definido solo por la cuantía del contrato: exige comprobar los **criterios de adjudicación** y las especialidades documentales del **artículo 159**.
+
+| Trámite | Regla exacta del artículo **159.4** | Error de test |
+|---|---|---|
+| Inscripción en el **ROLECE** o registro autonómico procedente | Inscripción a la **fecha final de presentación de ofertas**, siempre que no se limite la concurrencia; también vale haber **presentado solicitud de inscripción** antes de esa fecha, con documentación preceptiva | Afirmar que una solicitud de inscripción presentada en plazo es siempre insuficiente |
+| Acreditación de la solicitud pendiente | **Acuse de recibo** de solicitud y **declaración responsable** sobre documentación aportada y ausencia de requerimiento de subsanación | Confundir solicitud simple con acreditación completa |
+| Criterios sometidos a juicio de valor | Valoración por los servicios técnicos en **máximo 7 días**, **antes** de abrir la oferta evaluable por fórmulas | Abrir primero el archivo de criterios automáticos |
+| Mejor oferta: garantía definitiva y documentación exigible | Comunicación electrónica y **7 días hábiles** desde su envío para aportar la documentación aplicable | Confundir los **7 días hábiles** con los **7 días** de valoración técnica |
+| Oferta presuntamente anormalmente baja | Justificación en **máximo 5 días hábiles** desde el envío de la comunicación, en el marco del artículo **149** | Rechazar automáticamente sin trámite contradictorio |
+| Adjudicación tras garantía y fiscalización preceptiva | En **plazo no superior a 5 días**; el artículo **159.4.f** no añade «hábiles» en ese inciso | Aplicar sin fundamento «5 días hábiles» a todos los trámites |
+
+El [**artículo 159.1**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159) establece, entre otras condiciones, **valor estimado inferior a 140.000 €** para suministros y servicios en **2026**, y criterios dependientes de juicio de valor **no superiores al 25 %**; excepcionalmente, para prestaciones intelectuales, **45 %**. La referencia de cuantía proviene de [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605), que entró en vigor el **01/01/2026**. Esto **no** modifica el umbral general SARA de suministros/servicios de la **UC3M: 216.000 €**.
+
+### Supuesto 1. Solicitud de inscripción en ROLECE
+
+Una empresa solicita inscribirse en **ROLECE antes de que concluya el plazo de ofertas**, aporta la documentación preceptiva y conserva el **acuse de recibo** y la **declaración responsable** exigidos. **No puede ser excluida únicamente** porque la inscripción aún esté pendiente, si concurren los restantes requisitos del **artículo 159.4.a**.
+
+> ⚠️ **¡Foco Examen!:** **Inscripción finalizada** y **solicitud previa correctamente acreditada** son dos situaciones admitidas por la LCSP bajo sus requisitos. No basta con afirmar verbalmente que se ha solicitado.
+
+### Supuesto 2. Oferta anormal en abierto simplificado
+
+La mesa detecta una proposición presuntamente anormal. La respuesta «debe excluirla automáticamente» es **incorrecta**. Debe tramitarse la justificación del **artículo 149**, con el límite específico de **5 días hábiles** previsto en **159.4.f**.
+
+> ⚠️ **¡Foco Examen!:** **5 días hábiles** para justificar una oferta anormal ≠ **7 días hábiles** para la documentación y garantía del mejor puntuado.
+
+### Supuesto 3. Confusión de cifras
+
+Un suministro universitario tiene valor estimado de **150.000 € sin IVA**. En el supuesto ordinario **no cabe abierto simplificado del 159.1**, cuyo límite de suministros es **inferior a 140.000 €**; sin embargo, para la **UC3M** tampoco alcanza todavía, por su importe, el umbral SARA general de **216.000 €**. La exclusión de un procedimiento **no** determina automáticamente la aplicación del otro.
+
+> ⚠️ **¡Foco Examen!:** **Simplificado <140.000 €**, **SARA UC3M ≥216.000 €**. Entre ambos puede haber contratos sujetos a otros procedimientos **no SARA**. Importes referidos a **valor estimado, sin IVA**.
+
+**Alcance:** refuerzo jurídico-editorial focal, no sustitución de las **12 preguntas históricas** ni de los simulacros. Queda pendiente cotejar la normativa al corte UC3M de **base primera.7** y ejecutar pruebas funcionales del sitio.
+
+
+## 34. Urgencia y simplificado abreviado: excepciones del artículo 159.5–6
+
+La [**LCSP, artículo 159.5 y 159.6**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a159) establece reglas propias del **procedimiento abierto simplificado**. La urgencia no autoriza a reducir sus plazos conforme al régimen general del **artículo 119.2.b**: el **artículo 159.5** excluye expresamente esa reducción.
+
+| Cuestión | **Simplificado ordinario** (art. **159.1–5**) | **Simplificado abreviado** (art. **159.6**) |
+|---|---|---|
+| Obras, valor estimado | **≤ 2.000.000 €** | **< 80.000 €** |
+| Suministros y servicios, valor estimado (2026) | **< 140.000 €** | **< 60.000 €** |
+| Prestaciones intelectuales | Posibles cumpliendo condiciones; juicio de valor hasta **45 %** | **Excluidas** de esta modalidad |
+| Oferta y criterios | Uno o **dos archivos** según existan juicios de valor; máximo **25 %** de juicio de valor, salvo intelectual | **Un solo archivo**, criterios cuantificables **solo por fórmulas** |
+| Ofertas | **≥ 15 días**; en obras **≥ 20 días** | **≥ 10 días hábiles**; **5 hábiles** para compras corrientes de bienes disponibles en el mercado |
+| Mesa de contratación | Interviene conforme al art. **159.4.d** y **326** | Su constitución es **potestativa**, art. **326.1** |
+| Solvencia | Aplican acreditaciones conforme al art. **159.4** | Se **exime de acreditación** de solvencia económica, financiera, técnica o profesional |
+| Garantía definitiva | Se solicita al mejor clasificado en el trámite aplicable del art. **159.4.f** | **No se requiere** constituirla |
+| Formalización | Regla general de formalización legal | Puede efectuarse por **firma de aceptación de la resolución de adjudicación** |
+| Urgencia | **No reducción** de plazos por art. **119.2.b**, conforme a **159.5** | El régimen abreviado conserva sus **plazos específicos**; no trasladar automáticamente la reducción general del art. 119 |
+
+**Los importes son valores estimados sin IVA**, de conformidad con la [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605) y los artículos citados. El simplificado ordinario no equivale al procedimiento abierto común ni al simplificado abreviado.
+
+### Supuesto práctico 4. Urgencia
+
+La **UC3M** declara urgente un expediente de servicios que cumple las condiciones del **artículo 159.1**. El pliego pretende reducir a **8 días** el plazo de presentación de ofertas por aplicación automática del **artículo 119.2.b**. **No es correcto**: el **artículo 159.5** excluye esa reducción y el simplificado ordinario conserva el mínimo legal de **15 días**.
+
+> ⚠️ **¡Foco Examen!:** **Urgencia ≠ reducción universal**: en simplificado el **artículo 159.5** impide la reducción de plazos del **119.2.b**. **15 días de ofertas** no son los **15 días hábiles de espera para formalizar** determinados contratos.
+
+### Supuesto práctico 5. Garantía y mesa
+
+En un suministro de **45.000 € sin IVA** apto para **159.6**, se afirma que siempre debe constituirse una mesa y exigirse garantía definitiva. **Falso**: en el abreviado la **mesa es potestativa** (**326.1**) y **no se requiere garantía definitiva** (**159.6.f**). La cuantía no basta: también deben cumplirse los demás requisitos del artículo.
+
+> ⚠️ **¡Foco Examen!:** En el abreviado, **mesa potestativa**, **sin garantía definitiva**, **criterios únicamente automáticos**. No aplicar por inercia todas las exigencias del simplificado ordinario.
+
+### Supuesto práctico 6. Servicio intelectual
+
+Un contrato de **consultoría intelectual** de **45.000 €** no puede acogerse al procedimiento del **artículo 159.6** por la **exclusión legal de prestaciones de carácter intelectual**, aunque esté por debajo de los **60.000 €**. Ello no impide valorar, si cumple las demás condiciones, otras modalidades admitidas por la ley.
+
+> ⚠️ **¡Foco Examen!:** **< 60.000 €** no basta para usar el **simplificado abreviado** cuando el objeto es una **prestación intelectual**.
+
+**Control editorial:** se amplían el manual, las fuentes y la matriz; no se han modificado los **12 ítems originales**, sus claves ni los simulacros. El cierre jurídico integral y la fecha de corte UC3M **base primera.7** continúan pendientes.
+
+
+## 35. Mesa de contratación: composición y prohibiciones — art. 326
+
+La [**LCSP, art. 326.1–6**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a3-38) atribuye a la **mesa de contratación** funciones de **asistencia técnica** al órgano de contratación; **no adjudica el contrato** por regla general. La mesa debe diferenciarse del **órgano de contratación**, que en los **Estatutos UC3M, art. 175**, es originariamente el **Rector**, sin perjuicio de las delegaciones vigentes.
+
+| Cuestión | Regla del **artículo 326** | Confusión habitual |
+|---|---|---|
+| Composición básica | **Presidencia**, **vocales** y **Secretaría**; composición publicada en el **perfil de contratante** (**326.3**) | Considerar suficiente que exista una propuesta de mesa sin designación ni publicación |
+| Designación | Los miembros son nombrados por el **órgano de contratación** (**326.4**) | Atribuir nombramiento a la propia mesa |
+| Asesoramiento y control | Entre los vocales deben figurar perfiles de **asesoramiento jurídico** y **control económico-presupuestario**, conforme a **326.5** | Confundir a los técnicos asesores externos con miembros obligatorios |
+| Cargos públicos representativos y personal eventual | **No** pueden formar parte de la mesa **ni emitir informes de valoración de ofertas** (**326.5**) | Creer que pueden participar sin voto |
+| Personal funcionario interino | Solo puede integrar la mesa **cuando no existan funcionarios de carrera suficientemente cualificados y se acredite en el expediente** (**326.5**) | Interpretar que la interinidad impide siempre participar, o que basta con designarlo sin justificar la excepción |
+| Quien redactó documentación técnica del contrato | **No puede** formar parte de la mesa, **salvo los supuestos de la disposición adicional segunda** (**326.5**) | Confundir participación en la elaboración del pliego técnico con asesoramiento posterior permitido |
+| **Abierto simplificado ordinario** | Mesa válidamente constituida con **Presidente, Secretario, asesor jurídico y responsable de control económico-presupuestario**, bajo **326.6**, con las salvedades de la Ley | Trasladar esta composición mínima a toda contratación sin atender al procedimiento |
+| **Simplificado abreviado 159.6** | Constitución de la mesa **potestativa** (**326.1**) | Exigirla siempre porque exista procedimiento abierto |
+
+**Precisión:** el **artículo 326** regula las mesas de contratación de las **Administraciones Públicas**. La aplicación concreta a cada expediente UC3M debe encajar en su condición jurídica, sus reglas institucionales y el **procedimiento empleado**; no se extrapola sin más a un órgano distinto.
+
+### Supuesto práctico 7. Personal eventual
+
+Se propone como vocal de la mesa a una persona de **personal eventual** de la universidad. La propuesta es **contraria al artículo 326.5**; la prohibición alcanza también la **emisión de informes de valoración de ofertas**, no solamente el voto dentro de la mesa.
+
+> ⚠️ **¡Foco Examen!:** Personal **eventual** y **cargos públicos representativos**: **prohibición de integrar la mesa y de valorar ofertas**. Una función «sin voto» no elimina automáticamente la prohibición legal.
+
+### Supuesto práctico 8. Funcionario interino
+
+Un **funcionario interino** es designado para la mesa y no consta razón alguna sobre inexistencia de personal funcionario de carrera cualificado. **No basta el nombramiento**: el **artículo 326.5** exige acreditar en el expediente la circunstancia excepcional que permite esa participación.
+
+> ⚠️ **¡Foco Examen!:** El interino **puede** intervenir en la mesa, pero **solo excepcionalmente y con justificación en el expediente**. «Nunca» y «siempre» son ambos distractores.
+
+### Supuesto práctico 9. Mesa en abreviado
+
+En un procedimiento **159.6** de suministros se afirma que debe constituirse obligatoriamente mesa con **cuatro miembros mínimos** conforme al **326.6**. **Incorrecto**: el **326.1** establece que la constitución de mesa es **potestativa** en ese procedimiento. La composición del **326.6** no convierte la mesa en obligatoria.
+
+> ⚠️ **¡Foco Examen!:** **Composición válida** de una mesa y **obligatoriedad de constituirla** son reglas distintas; en el **159.6** la mesa es **potestativa**.
+
+**Alcance:** ampliación del apartado de organización de la contratación con base en **LCSP 326**. No cambia el banco principal, los simulacros ni la reserva general de fecha de corte jurídico UC3M.

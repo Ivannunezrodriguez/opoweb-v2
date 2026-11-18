@@ -1,0 +1,58 @@
+.radar-layout{max-width:1180px;margin:0 auto;padding:1rem;display:grid;gap:1rem}
+.radar-hero{display:grid;gap:1rem}.radar-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.75rem}
+.radar-stat{padding:1rem;border:1px solid var(--border-soft);border-radius:14px;background:var(--surface-soft);color:var(--text)}
+.radar-stat strong{display:block;font-size:1.6rem}.radar-stat span{opacity:.75}
+.radar-controls{display:grid;grid-template-columns:2fr repeat(3,minmax(130px,1fr));gap:.7rem;align-items:end}
+.radar-controls label{display:grid;gap:.3rem;font-size:.85rem}.radar-controls input,.radar-controls select{width:100%;min-height:44px;padding:.7rem;border:1px solid var(--border);border-radius:10px;background:var(--surface-soft);color:var(--text)}
+.radar-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1rem}
+.radar-card{border:1px solid var(--border-soft);border-radius:16px;padding:1rem;background:var(--surface);color:var(--text);display:grid;gap:.75rem}
+.radar-card h3{margin:0}.radar-meta{display:grid;grid-template-columns:1fr 1fr;gap:.55rem;font-size:.92rem}.radar-meta div{display:grid;gap:.1rem}.radar-meta span{opacity:.68;font-size:.78rem}
+.radar-tags{display:flex;flex-wrap:wrap;gap:.4rem}.radar-tag{padding:.28rem .55rem;border-radius:999px;background:rgba(100,116,139,.12);font-size:.78rem;font-weight:700}
+.radar-tag.ok{background:rgba(34,197,94,.14)}.radar-tag.review{background:rgba(245,158,11,.16)}.radar-tag.new{background:rgba(59,130,246,.15)}
+.radar-actions{display:flex;gap:.5rem;flex-wrap:wrap}.radar-empty{text-align:center;padding:2rem}
+.radar-note{font-size:.88rem;opacity:.78}.radar-source{font-size:.8rem;opacity:.68}
+@media(max-width:760px){.radar-controls{grid-template-columns:1fr 1fr}.radar-controls label:first-child{grid-column:1/-1}.radar-meta{grid-template-columns:1fr}}
+@media(max-width:480px){.radar-controls{grid-template-columns:1fr}.radar-controls label:first-child{grid-column:auto}}
+/* Fichas legibles y filtros de oportunidades: no confundir anuncios con solicitudes abiertas. */
+.radar-controls{grid-template-columns:minmax(220px,2fr) repeat(4,minmax(135px,1fr));align-items:end}
+.radar-card{align-content:start;min-width:0}
+.radar-card h3{font-size:1.13rem;line-height:1.4}
+.radar-org{font-weight:650;margin:.35rem 0}
+.radar-excerpt{font-size:.9rem;line-height:1.5;color:var(--muted);margin:.4rem 0 0;overflow-wrap:anywhere}
+.radar-results-summary{font-size:.95rem;padding:.2rem .4rem;opacity:.85}
+.radar-more{display:flex;justify-content:center;margin:.75rem 0 1.5rem}
+.radar-card .radar-meta{gap:.75rem}
+.radar-card .radar-meta strong{overflow-wrap:anywhere;line-height:1.35}
+.radar-card .radar-meta strong:not(:empty){font-weight:650}
+.radar-card .radar-source{border-top:1px solid var(--border);padding-top:.65rem}
+.radar-card[data-quality="SIN_PUESTO"]{opacity:.82}
+@media(max-width:1080px){.radar-controls{grid-template-columns:repeat(3,minmax(140px,1fr))}.radar-controls label:first-child{grid-column:1/-1}}
+@media(max-width:760px){.radar-controls{grid-template-columns:repeat(2,minmax(140px,1fr))}.radar-controls label:first-child{grid-column:1/-1}}
+@media(max-width:480px){.radar-controls{grid-template-columns:1fr}.radar-controls label:first-child{grid-column:auto}}
+
+/* Contraste coherente en ambos temas: las superficies y sus textos comparten variables. */
+.radar-stat strong,.radar-card h3,.radar-card .radar-meta strong{color:var(--text)}
+.radar-stat span,.radar-card .radar-meta span,.radar-note,.radar-source{color:var(--muted);opacity:1}
+.radar-controls input::placeholder{color:var(--muted);opacity:1}
+.radar-controls input:focus-visible,.radar-controls select:focus-visible{outline:3px solid color-mix(in srgb,var(--primary) 25%,transparent);outline-offset:1px;border-color:var(--primary)}
+:root[data-theme="dark"] .radar-layout .btn:not(.secondary){color:#08111f}
+
+/* Estados de convocatorias enlazadas: color reservado al dato personal de seguimiento. */
+.radar-tag.radar-tracking{border:1px solid currentColor;font-weight:750}
+.radar-tracking.admitted{color:#047857;background:rgba(16,185,129,.15)}
+.radar-tracking.registered{color:#1d4ed8;background:rgba(59,130,246,.16)}
+.radar-tracking.pending{color:#92400e;background:rgba(245,158,11,.17)}
+.radar-tracking.excluded{color:var(--muted);background:rgba(100,116,139,.12)}
+:root[data-theme="dark"] .radar-tracking.admitted{color:#6ee7b7}
+:root[data-theme="dark"] .radar-tracking.registered{color:#93c5fd}
+:root[data-theme="dark"] .radar-tracking.pending{color:#fcd34d}
+
+.radar-tag.closed{background:rgba(100,116,139,.23);color:var(--text);border:1px solid var(--border-soft)}
+
+/* Alerta de fecha de cierre registrada en los próximos siete días. */
+.radar-tag.urgent{background:rgba(239,68,68,.13);border:1px solid rgba(239,68,68,.5);color:#b91c1c}
+:root[data-theme="dark"] .radar-tag.urgent{color:#fca5a5}
+
+/* Mi situación personal: estado persistido solo en localStorage del navegador. */
+.radar-local-control{display:grid;gap:.4rem;padding:.7rem;border:1px solid var(--border-soft);border-radius:10px;background:var(--surface-soft);font-size:.88rem;font-weight:650}
+.radar-local-control select{padding:.55rem;border-radius:8px;border:1px solid var(--border);background:var(--surface);color:var(--text);width:100%}

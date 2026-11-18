@@ -1,0 +1,476 @@
+{
+  "tema": 6,
+  "estado": "BORRADOR_PARCIAL_NO_APTO_PARA_CERTIFICACION",
+  "version": "2026-10-28",
+  "criterio": "29 preguntas provisionales sobre Acuerdo, TREBEP y organización OAPGT; últimas dos documentan estructura provincial de 2024 y directorio DIR3. No se certifican los Estatutos consolidados.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T06-001",
+      "enunciado": "Según la modificación oficial de los Estatutos del OAPGT publicada en el BOP de Toledo de 14/12/2011, ¿a quién quedó adscrito el organismo por su artículo 1.2?",
+      "opciones": [
+        "Al Ministerio de Hacienda",
+        "Al Consejo de Gobierno de Castilla-La Mancha",
+        "Al Presidente de la Diputación de Toledo",
+        "A cada ayuntamiento delegante"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El **artículo 1.2**, en la redacción publicada en el **BOP n.º 284 de 14/12/2011**, establece la adscripción del OAPGT al **Presidente de la Diputación** y contempla la posible delegación de funciones de este en otro órgano de la organización provincial. Debe comprobarse si hay reformas posteriores.",
+      "trampaExamen": "La adscripción de **2004 al Área de Hacienda** fue sustituida en la publicación de **2011** por la adscripción al **Presidente de la Diputación**. No estudiar ambas como simultáneamente vigentes.",
+      "referencia": "BOP Toledo 284/2011, art. 1.2 modificado · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
+    },
+    {
+      "id": "DT-C2-T06-002",
+      "enunciado": "Según la modificación del Acuerdo Regulador publicada el 16/01/2026, ¿qué importe ANUAL corresponde al grado I del subgrupo C2 en la disposición adicional primera?",
+      "opciones": [
+        "1.151,40 €",
+        "712,08 €",
+        "1.655,76 €",
+        "2.457,24 €"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La disposición adicional primera modificada por el BOP Toledo **n.º 10, 16/01/2026**, fija para **C2** las cuantías anuales **grado I: 712,08 €; II: 1.151,40 €; III: 1.655,76 €; IV: 2.457,24 €**, con efectos declarados desde el **01/01/2026**.",
+      "trampaExamen": "Preguntan **importe anual del grado**, no salario mensual. No confundir los grados **I, II, III y IV** ni la fecha de publicación con la de efectos.",
+      "referencia": "BOP Toledo n.º 10 de 16/01/2026, disposición adicional primera · https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026"
+    },
+    {
+      "id": "DT-C2-T06-003",
+      "enunciado": "¿Qué importe de nocturnidad ESPECIAL incorpora el BOP de Toledo n.º 34, de 20/02/2026, como complemento a la modificación de enero del Acuerdo Regulador?",
+      "opciones": [
+        "29,30 €",
+        "30,47 €",
+        "97,45 €",
+        "212,30 €"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El BOP Toledo **n.º 34 de 20/02/2026**, anuncio **821**, completa el apartado segundo a) de la publicación de enero con el importe de **nocturnidad especial: 97,45 €**. Debe distinguirse de **nocturnidad ordinaria**.",
+      "trampaExamen": "**97,45 €** es nocturnidad **especial**; **29,30 €** es la cuantía del concepto ordinario para **C2/AP** en el anuncio de enero. **212,30 €** corresponde a guardia de localización del subgrupo C2.",
+      "referencia": "BOP Toledo 34/2026, anuncio 821 · https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026"
+    },
+    {
+      "id": "DT-C2-T06-004",
+      "enunciado": "¿Qué órgano del OAPGT aprobó el acuerdo de creación de su sede electrónica, según su relación institucional de normativa?",
+      "opciones": [
+        "El Defensor del Pueblo",
+        "El Tribunal Constitucional",
+        "El Consejo Rector",
+        "El Banco de España"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La propia sede del OAPGT relaciona un Acuerdo del Consejo Rector por el que se crea la sede electrónica. Esto no fija por sí solo todas las competencias actuales de dicho órgano.",
+      "trampaExamen": "El acuerdo de creación de la sede no sustituye a los Estatutos íntegros vigentes.",
+      "referencia": "Fuente institucional: https://sede.oapgt.es/Paginas/Normativa.aspx"
+    },
+    {
+      "id": "DT-C2-T06-005",
+      "enunciado": "¿Qué resolución consta en la normativa de sede del OAPGT como creadora y reguladora de su Registro Electrónico?",
+      "opciones": [
+        "La Resolución 182/2017",
+        "La Resolución 14/2026",
+        "La Resolución 39/2015",
+        "La Resolución 7/1985"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La sede identifica la Resolución n.º 182/2017 como disposición que crea y regula el Registro Electrónico del OAPGT. Es un dato documental, no el texto completo de la resolución.",
+      "trampaExamen": "**Sede electrónica** y **Registro Electrónico** están regulados por instrumentos diferentes.",
+      "referencia": "Fuente institucional: https://sede.oapgt.es/Paginas/Normativa.aspx"
+    },
+    {
+      "id": "DT-C2-T06-006",
+      "enunciado": "¿Qué establece el artículo 8 bis incorporado a los Estatutos del OAPGT por la modificación publicada el 14/12/2011?",
+      "opciones": [
+        "Que toda resolución del OAPGT se remite al Pleno del Congreso",
+        "Que las resoluciones de sus órganos de gobierno, dirección y administración ponen fin a la vía administrativa",
+        "Que solo el órgano sancionador puede resolver expedientes",
+        "Que los procedimientos administrativos siempre se resuelven por silencio positivo"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El nuevo **artículo 8 bis**, publicado en el **BOP Toledo 284/2011**, declara que las resoluciones de los órganos de gobierno, dirección y administración **ponen fin a la vía administrativa**. Antes de afirmarlo como estado completo en 2026, comprobar modificaciones posteriores.",
+      "trampaExamen": "**Poner fin a la vía administrativa** no significa que desaparezca automáticamente todo recurso administrativo o judicial. No trasladar esta previsión a órganos ajenos al OAPGT.",
+      "referencia": "BOP Toledo 284/2011, art. 8 bis · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
+    },
+    {
+      "id": "DT-C2-T06-007",
+      "enunciado": "¿Cuál es la jornada general prevista en el artículo 14.1 del Acuerdo Regulador de Diputación de Toledo publicado en 2023?",
+      "opciones": [
+        "Un máximo de 30 horas semanales sin excepción",
+        "No inferior a 35 horas semanales de trabajo efectivo de promedio en cómputo anual",
+        "Un mínimo de 40 horas de presencia fija sin flexibilidad",
+        "Exactamente 35 horas diarias"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 14.1 de la publicación inicial de 2023 utiliza la expresión **no podrá ser inferior a 35 horas semanales de trabajo efectivo de promedio en cómputo anual**. No debe sustituirse la expresión «no inferior» por «no superior».",
+      "trampaExamen": "**35 horas de promedio anual**; el texto dice **no inferior**, y no 35 horas de presencia fija.",
+      "referencia": "BOP Toledo 246/2023, art. 14.1, p. 5 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-008",
+      "enunciado": "Según el artículo 14.1.a del Acuerdo Regulador de 2023, ¿qué franja constituye la presencia fija para empleados de las dependencias administrativas del Palacio Provincial y OAPGT Toledo?",
+      "opciones": [
+        "De 8:00 a 15:00",
+        "De 7:30 a 18:30, sin interrupción",
+        "De 9:00 a 14:00",
+        "De 10:00 a 16:00"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 14.1.a establece presencia fija de **9:00 a 14:00** y un tramo flexible de **7:30 a 9:00** y de **14:00 a 18:30** para completar la jornada mensual.",
+      "trampaExamen": "**9:00–14:00** es tramo **fijo**, no toda la jornada ni un horario común a turnos asistenciales.",
+      "referencia": "BOP Toledo 246/2023, art. 14.1.a, p. 5 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-009",
+      "enunciado": "Según el artículo 19 del Acuerdo Regulador publicado en 2023, ¿cuántos días hábiles de vacaciones anuales corresponden, como regla general, por año completo de servicios?",
+      "opciones": [
+        "22",
+        "30",
+        "26",
+        "15"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 19 reconoce **22 días hábiles** por año completo o proporcional. Por antigüedad se alcanzan **23, 24, 25 y 26 días totales** a los **15, 20, 25 y 30 años** de servicio, respectivamente.",
+      "trampaExamen": "**22 días hábiles** de base; los valores **23–26** por antigüedad son **totales**, no incrementos que sumar a 22.",
+      "referencia": "BOP Toledo 246/2023, art. 19, p. 10 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-010",
+      "enunciado": "Según el artículo 19 del Acuerdo Regulador de 2023, ¿con qué antelación mínima debe el trabajador conocer sus fechas de vacaciones?",
+      "opciones": [
+        "Quince días",
+        "Un mes",
+        "Tres meses",
+        "Dos meses"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 19.f del Acuerdo inicial de 2023 establece comunicación al empleado **al menos dos meses antes** del inicio. El calendario debe elaborarse antes del **1 de mayo** según el apartado e.",
+      "trampaExamen": "**Dos meses** para conocer las fechas; **antes del 1 de mayo** para elaborar el calendario: plazos distintos.",
+      "referencia": "BOP Toledo 246/2023, art. 19.e-f, p. 11 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-011",
+      "enunciado": "Según el artículo 20 del Acuerdo Regulador de 2023, ¿cuántos días generales por asuntos particulares se prevén al año?",
+      "opciones": [
+        "Tres días naturales",
+        "Seis días laborables",
+        "Veintidós días hábiles",
+        "Quince días naturales"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 20 prevé **6 días laborables anuales** o proporcionales, acumulables a vacaciones, con límite ordinario de disfrute hasta **31 de enero** y condicionado a necesidades del servicio.",
+      "trampaExamen": "**6 días laborables** de asuntos particulares no son **22 días hábiles** de vacaciones; el límite ordinario es **31 de enero**.",
+      "referencia": "BOP Toledo 246/2023, art. 20, p. 13 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-012",
+      "enunciado": "Según el artículo 3 del Acuerdo Regulador de 2023, ¿cuál es el final de su vigencia inicial, sin perjuicio de la prórroga automática?",
+      "opciones": [
+        "31 de diciembre de 2023",
+        "31 de enero de 2026",
+        "31 de diciembre de 2027",
+        "1 de enero de 2024"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El art. 3 establece entrada en vigor el **01/01/2024** y fin de vigencia el **31/12/2027**, con **prórroga automática** hasta aprobar nuevo acuerdo.",
+      "trampaExamen": "No confundir **fecha de publicación 28/12/2023** con **vigencia desde 01/01/2024** ni con el **fin 31/12/2027**.",
+      "referencia": "BOP Toledo 246/2023, art. 3, p. 2 · https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf"
+    },
+    {
+      "id": "DT-C2-T06-013",
+      "enunciado": "Según el artículo 48.a del TREBEP en su redacción vigente en octubre de 2026, ¿cuánto dura el permiso por hospitalización de un familiar de segundo grado?",
+      "opciones": [
+        "Dos días naturales",
+        "Cuatro días hábiles",
+        "Cinco días naturales",
+        "Tres días hábiles"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **artículo 48.a TREBEP** establece **4 días hábiles** para accidente o enfermedad graves, hospitalización o intervención quirúrgica sin hospitalización que precise reposo domiciliario de familiar de **segundo grado**. Para cónyuge, pareja, primer grado y conviviente que necesite cuidado efectivo, **5 días hábiles**.",
+      "trampaExamen": "**Hospitalización: 5/4 días hábiles**, según vínculo. No mezclar con **fallecimiento: 3/5 o 2/4 días** según parentesco y localidad.",
+      "referencia": "TREBEP art. 48.a, BOE consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-014",
+      "enunciado": "Un funcionario necesita permiso por fallecimiento de un familiar de segundo grado en distinta localidad. ¿Cuántos días hábiles le atribuye el artículo 48.a del TREBEP?",
+      "opciones": [
+        "Dos",
+        "Tres",
+        "Cuatro",
+        "Cinco"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Por **fallecimiento de familiar de segundo grado**, el art. **48.a TREBEP** distingue **2 días hábiles** en la misma localidad y **4 días hábiles** en distinta localidad.",
+      "trampaExamen": "En **fallecimiento**, importa la **localidad**; en **hospitalización**, el art. 48.a no establece esas duraciones por lugar del hecho causante.",
+      "referencia": "TREBEP art. 48.a, BOE consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-015",
+      "enunciado": "¿Qué duración general establece el artículo 49.a TREBEP actualizado para el permiso por nacimiento de la madre biológica?",
+      "opciones": [
+        "Diecinueve semanas",
+        "Dieciséis semanas",
+        "Doce semanas",
+        "Treinta y dos semanas en todos los casos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El **art. 49.a TREBEP** reconoce **19 semanas** en régimen general y **32 semanas** si existe **una única persona progenitora**. El texto autonómico antiguo de **16 semanas**, todavía visible en la consolidación BOE de la Ley 4/2011, **no sirve como respuesta general vigente en 2026**. Considerar transitoriedad para hechos causantes anteriores.",
+      "trampaExamen": "**19 semanas generales**, **32 monoparentalidad**. **16 semanas** pertenece a textos anteriores y no es la regla general actual.",
+      "referencia": "TREBEP art. 49.a, BOE consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-016",
+      "enunciado": "De acuerdo con el artículo 48.f TREBEP, el permiso por lactancia de menor de doce meses es...",
+      "opciones": [
+        "Exclusivo de la madre y transferible al padre",
+        "Un derecho que solo puede acumularse si no existe pareja",
+        "Un permiso limitado a quince días naturales",
+        "Un derecho individual no transferible, con una hora de ausencia que puede dividirse en dos fracciones"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El **art. 48.f TREBEP** reconoce **una hora** de ausencia por lactancia de menor de **12 meses**, divisible en **dos fracciones**, configurándolo como derecho **individual y no transferible**. Previene reducción de jornada o acumulación según sus condiciones.",
+      "trampaExamen": "La redacción antigua de **Ley 4/2011 CLM art. 107.g** incluye criterios ligados a la madre; en el **TREBEP vigente** es un **derecho individual no transferible**.",
+      "referencia": "TREBEP art. 48.f, BOE consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-017",
+      "enunciado": "¿Qué derecho modifica expresamente la disposición final undécima de la Ley 4/2026, de 1 de octubre, mediante dos nuevos párrafos del artículo 49.e TREBEP?",
+      "opciones": [
+        "El permiso parental general de hasta ocho semanas del artículo 49.g",
+        "El permiso por asuntos particulares del artículo 48.k",
+        "La reducción de jornada por cuidado de hijo o persona acogida con cáncer u otra enfermedad grave",
+        "El permiso de matrimonio del artículo 48.l"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La **Ley 4/2026, disposición final undécima**, añade dos párrafos al **art. 49.e TREBEP**, que regula la **reducción de jornada** por cuidado de hijo o persona acogida con **cáncer u otra enfermedad grave**. El permiso parental de hasta **8 semanas** corresponde al **art. 49.g**.",
+      "trampaExamen": "**49.e**: cuidado de menor con enfermedad grave y reducción de jornada. **49.g**: permiso parental de **hasta 8 semanas**. La **Ley 4/2026 no reformó el 49.g**.",
+      "referencia": "Ley 4/2026, disposición final 11.ª, BOE 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528"
+    },
+    {
+      "id": "DT-C2-T06-018",
+      "enunciado": "Tras la reforma del artículo 49.e TREBEP de octubre de 2026, ¿qué permite excepcionalmente mantener la reducción de jornada más allá de los límites de edad?",
+      "opciones": [
+        "Cualquier enfermedad común sin más requisitos",
+        "Gran discapacidad o gran dependencia, necesidad acreditada de cuidados directos, continuos y permanentes y mantenimiento de convivencia",
+        "Una solicitud informal sin necesidad de acreditar el cuidado",
+        "La existencia de cualquier hijo mayor de edad, sin convivir"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El nuevo párrafo del **art. 49.e** admite la prórroga excepcional cuando existe **gran discapacidad o gran dependencia**, necesidad de cuidados **directos, continuos y permanentes**, debidamente acreditada, y se mantiene la **convivencia**.",
+      "trampaExamen": "La excepción **no elimina todas las condiciones** ni se aplica automáticamente a cualquier discapacidad o dependencia.",
+      "referencia": "Ley 4/2026, disposición final 11.ª · https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528"
+    },
+    {
+      "id": "DT-C2-T06-019",
+      "enunciado": "En los supuestos excepcionales del nuevo artículo 49.e TREBEP, ¿cuál es el máximo porcentaje de reducción de jornada que pueden compartir simultáneamente ambos progenitores entre los dos?",
+      "opciones": [
+        "100 % conjunto",
+        "100 % para cada uno, sin ningún límite conjunto",
+        "25 % conjunto",
+        "No pueden compartir reducción simultánea en ningún caso"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El nuevo párrafo sexto del **art. 49.e** permite excepcionalmente compartir el porcentaje de reducción de jornada de forma simultánea y proporcional, con un máximo **del 100 % entre los dos progenitores**, cuando se cumplen las condiciones de especial intensidad asistencial.",
+      "trampaExamen": "El **100 % es conjunto**, no **100 % para cada progenitor**; además **no garantiza doble percepción de retribuciones íntegras**.",
+      "referencia": "Ley 4/2026, disposición final 11.ª · https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528"
+    },
+    {
+      "id": "DT-C2-T06-020",
+      "enunciado": "Según el artículo 49.g TREBEP vigente en octubre de 2026, ¿qué duración y carácter retributivo tiene el permiso parental para cuidar a un menor hasta los ocho años?",
+      "opciones": [
+        "19 semanas retribuidas",
+        "32 semanas en todos los casos",
+        "Dos semanas retribuidas en todos los supuestos",
+        "Hasta ocho semanas sin carácter retribuido"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El **art. 49.g TREBEP**, modificado por el **RDL 9/2025**, establece un permiso parental de duración **no superior a 8 semanas**, **sin carácter retribuido**, para cuidado de hijo, hija o menor acogido por tiempo superior a un año, hasta que cumpla **8 años**. Es un derecho **individual y no transferible**.",
+      "trampaExamen": "**Ocho semanas no retribuidas (49.g)** no son las **dos semanas adicionales** del permiso por nacimiento del **49.a–c**, ni la reducción de jornada **49.e**.",
+      "referencia": "TREBEP art. 49.g, texto consolidado 03/10/2026 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719"
+    },
+    {
+      "id": "DT-C2-T06-021",
+      "enunciado": "En el acuerdo del Consejo Rector publicado en el BOP Toledo 92/2023, ¿qué artículo estatutario se invoca para la contratación de obras y servicios cuando la competencia no esté atribuida a otros órganos?",
+      "opciones": [
+        "Artículo 8 bis",
+        "Artículo 14.d.1",
+        "Artículo 10.k",
+        "Artículo 1.2"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El acuerdo del **Consejo Rector de 11/05/2023**, publicado en el **BOP n.º 92 de 16/05/2023**, reproduce la función de contratación atribuida al **Consejo Rector** por el **art. 10.k** de los Estatutos cuando no corresponda a otros órganos; admite delegación del ejercicio, total o parcial.",
+      "trampaExamen": "Distinguir contratación del **Consejo Rector** frente a las facultades de **Presidencia** y **Dirección**; el anuncio es evidencia de esa atribución concreta, no una tabla completa y consolidada.",
+      "referencia": "BOP Toledo 92/2023, acuerdo Consejo Rector sobre contratación · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023"
+    },
+    {
+      "id": "DT-C2-T06-022",
+      "enunciado": "Según el decreto de representación publicado en el BOP Toledo 92/2023, ¿cómo se consideran los actos dictados por el Director del OAPGT en ejercicio de competencias delegadas?",
+      "opciones": [
+        "Dictados por el órgano delegante, indicando expresamente la delegación y sus datos de publicación",
+        "Dictados exclusivamente por el órgano delegado sin mencionar la delegación",
+        "Nulos de pleno derecho aunque exista delegación",
+        "Convertidos automáticamente en actos del Pleno de la Diputación"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El decreto publicado en **BOP 92/2023** delega en la **Dirección** actuaciones de representación relacionadas con fiscalización económico-financiera y responsabilidad contable; exige mencionar la **delegación, fecha y publicación**, y considera los actos dictados por el **órgano delegante**.",
+      "trampaExamen": "**Delegación del ejercicio** no significa transferencia de titularidad; el acto se entiende dictado por el **delegante**.",
+      "referencia": "BOP Toledo 92/2023, decreto de delegación de representación · https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023"
+    },
+    {
+      "id": "DT-C2-T06-023",
+      "enunciado": "En la propuesta relativa a Tembleque publicada en el BOP Toledo 46/2026, ¿qué órgano aparece como competente para aceptar delegaciones de entidades locales y a propuesta de quién?",
+      "opciones": [
+        "La Dirección General, por iniciativa exclusiva del Ayuntamiento",
+        "El Pleno del Congreso, a propuesta del Gobierno",
+        "La Intervención provincial, a propuesta de la Tesorería",
+        "El Consejo Rector, a propuesta de la Presidencia del OAPGT"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El informe del OAPGT reproducido en el anuncio municipal del **BOP 46/2026** atribuye la aceptación de delegaciones al **Consejo Rector**, **a propuesta de la Presidencia**. Cita el **art. 12.2.m**: su numeración requiere cotejo con el Estatuto íntegro antes de construir una tabla general.",
+      "trampaExamen": "**La propuesta corresponde a Presidencia**; la **aceptación, al Consejo Rector** en ese expediente. No atribuir al Director la decisión de aceptación.",
+      "referencia": "BOP Toledo 46/2026, anuncio Ayuntamiento Tembleque · https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026"
+    },
+    {
+      "id": "DT-C2-T06-024",
+      "enunciado": "Según el acuerdo del Consejo Rector del OAPGT publicado en el BOP Toledo n.º 225 de 27/11/2017, ¿a quién corresponde la gestión TECNOLÓGICA de su sede electrónica?",
+      "opciones": [
+        "A cada Ayuntamiento que delega sus tributos",
+        "A la unidad administrativa responsable de los sistemas de información y comunicación del OAPGT",
+        "Exclusivamente al Presidente de la Diputación",
+        "Al Tribunal de Cuentas"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El apartado **quinto** del acuerdo publicado en el **BOP Toledo 225/2017** encarga la **gestión tecnológica** a la **unidad administrativa responsable de sistemas de información y comunicación**. El **cuarto** asigna la gestión de la sede a los **órganos competentes** según Estatutos.",
+      "trampaExamen": "**Gestión tecnológica** no equivale a **gestión de los servicios**: sistemas de información frente a órganos con competencia administrativa.",
+      "referencia": "BOP Toledo 225/2017, acuerdo Consejo Rector sobre sede, apartados cuarto y quinto · https://bop.diputoledo.es/webEbop/DocGet?id=17110192%3B0&insert_number=5876&insert_year=2017"
+    },
+    {
+      "id": "DT-C2-T06-025",
+      "enunciado": "¿Qué órgano aprueba el organigrama que determina qué puestos o unidades instruyen procedimientos sancionadores del OAPGT, conforme a la disposición adicional incorporada en diciembre de 2011?",
+      "opciones": [
+        "La Fiscalía Provincial",
+        "El Consejo Rector",
+        "Cada ayuntamiento por decreto propio para cualquier caso",
+        "El Tribunal Constitucional"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La disposición adicional añadida por el ordinal **quinto** del **BOP Toledo 284/2011** dispone que la tramitación instructora corresponda a los titulares de puestos o unidades conforme al **organigrama aprobado por el Consejo Rector**. La **Presidencia** publica en el BOP la identidad del titular del órgano instructor. Un anuncio de **2019** la atribuye erróneamente a 1996; el anuncio modificativo de **2011** acredita su adición.",
+      "trampaExamen": "**Consejo Rector**: organigrama. **Presidencia del OAPGT**: publicación de identidad. No confundir publicación modificativa de **2011** con cita histórica errónea de **2019**.",
+      "referencia": "BOP Toledo 284/2011, modificación ordinal quinto · https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011"
+    },
+    {
+      "id": "DT-C2-T06-026",
+      "enunciado": "Según la Resolución 3902/2026 publicada en el BOP Toledo n.º 36, de 24/02/2026, ¿qué órgano del OAPGT aprobó los padrones del IVTM de 2026 invocando el artículo 14 de los Estatutos?",
+      "opciones": [
+        "El Pleno de todos los Ayuntamientos afectados",
+        "El Tribunal Económico-Administrativo Central",
+        "El Consejo de Gobierno de Castilla-La Mancha",
+        "El Director General del OAPGT"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La **Resolución 3902/2026, de 17/02/2026**, publicada en el **BOP Toledo n.º 36 de 24/02/2026, página 3**, identifica al **Director General del OAPGT** como órgano que aprueba los padrones del **IVTM 2026**, invocando el **artículo 14 de sus Estatutos**. Es evidencia oficial de esa competencia concreta en 2026, no del catálogo estatutario íntegro.",
+      "trampaExamen": "La **Dirección General** aprueba este padrón; no atribuirlo al **Consejo Rector**. **Artículo 14 de los Estatutos** no es el artículo 14.2 de la **Ley de Haciendas Locales**, que regula el recurso de reposición.",
+      "referencia": "BOP Toledo n.º 36, 24/02/2026, página 3, Resolución 3902/2026 · https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026"
+    },
+    {
+      "id": "DT-C2-T06-027",
+      "enunciado": "En el anuncio del padrón del IVTM 2026 publicado por el OAPGT el 24/02/2026, ¿cuándo comienza el plazo de un mes para interponer recurso de reposición?",
+      "opciones": [
+        "Desde el día siguiente a la finalización de los 30 días hábiles de exposición de los padrones",
+        "Desde el mismo día de publicación del BOP, sin exposición",
+        "Cuando termina el plazo voluntario de pago, siempre",
+        "Treinta días naturales después de la firma del Director General"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El **BOP 36/2026, página 3**, fija **30 días hábiles de exposición pública de los padrones**. El plazo para el recurso de reposición es **un mes contado desde el día siguiente a la finalización** de dicha exposición, según el anuncio y el **artículo 14.2 del TRLRHL**.",
+      "trampaExamen": "**30 días hábiles** = exposición; **1 mes** = recurso desde fin de exposición. No confundir estos plazos ni trasladarlos a los quórums del Consejo Rector.",
+      "referencia": "BOP Toledo n.º 36, 24/02/2026, página 3, apartado primero del anexo · https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026"
+    },
+    {
+      "id": "DT-C2-T06-028",
+      "enunciado": "¿En qué área de la organización de la Diputación de Toledo encuadra al OAPGT la exposición de motivos del Reglamento de Organización Administrativa publicado el 14/02/2024?",
+      "opciones": [
+        "Área de Economía, Hacienda y Presupuestos",
+        "Área de Cultura y Deportes",
+        "Área de Cooperación en Infraestructuras",
+        "Área de Empleo y TIC"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El Reglamento de Organización Administrativa provincial, cuya aprobación definitiva se publica en el **BOP 31/2024**, sitúa al **OAPGT** en el **Área de Economía, Hacienda y Presupuestos**, como entidad de la que la **Diputación** ejerce la tutela. Es una regla de **estructura provincial**, no una modificación expresa del **art. 1.2 estatutario de 2011**, que establece adscripción al **Presidente de la Diputación**.",
+      "trampaExamen": "**Reglamento organizativo de 2024 → Área de Economía, Hacienda y Presupuestos**; **Estatutos de 2011 → adscrito a la Presidencia**. Preguntar siempre por la norma.",
+      "referencia": "BOP Toledo n.º 31 de 14/02/2024, exposición de motivos p. 26, CSV 2024.00000777 · https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf"
+    },
+    {
+      "id": "DT-C2-T06-029",
+      "enunciado": "Según la ficha DIR3 LA0000580 del Punto de Acceso General consultada para el OAPGT, ¿qué dirección corresponde al organismo y cuál a su oficina de registro asociada?",
+      "opciones": [
+        "Organismo en Plaza de la Merced 4; registro en Paseo de la Vega 10",
+        "Organismo y registro en Calle Real 4, necesariamente",
+        "Organismo en Calle Real 14; registro en Calle Real 4",
+        "Organismo en Calle Real 4; oficina de registro asociada en Calle Real 14"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La ficha institucional **DIR3 LA0000580** identifica al **OAPGT en Calle Real 4, Toledo**, y la **oficina de registro general asociada en Calle Real 14, Toledo**. Es un dato del **directorio administrativo**, no la publicación de un artículo estatutario definitivo sobre domicilio.",
+      "trampaExamen": "**Calle Real 4 (OAPGT)** ≠ **Calle Real 14 (registro asociado)**. No afirmar que la diferencia confirma una reforma estatutaria de 2004.",
+      "referencia": "Punto de Acceso General, DIR3 LA0000580 · https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580"
+    }
+  ],
+  "auditoria": {
+    "fecha": "2026-10-28",
+    "estado": "PARCIAL",
+    "fuentes": [
+      "https://transparencia.diputoledo.es/p/2221-convenios-colectivos-y-acuerdos-laborales-vigentes",
+      "https://sede.oapgt.es/Paginas/Normativa.aspx",
+      "https://sedeelectronica.oapgt.es/",
+      "https://www.diputoledo.es/noticias_ampliada/1148",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=11121715%3B0&insert_number=11024&insert_year=2011",
+      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=10&insert_year=2026&publication_date=16012026",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=26020790%3B0&insert_number=821&insert_year=2026",
+      "https://www.diputoledo.es/archivos/transparencia/pdf/61586-acuerdo-marco-2023.pdf",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20528",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=23058163%3B0&insert_number=2824&insert_year=2023",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=26030965%3B0&insert_number=999&insert_year=2026",
+      "https://bop.diputoledo.es/webEbop/DocGet?id=17110192%3B0&insert_number=5876&insert_year=2017",
+      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=188&insert_year=2019&publication_date=03102019",
+      "https://bop.diputoledo.es/webEbop/DocGet?anexo=0&bop=36&insert_year=2026&publication_date=24022026",
+      "https://www.diputoledo.es/archivos/transparencia/pdf/4e469-06-anuncio-bop-14-02-2024.pdf",
+      "https://administracion.gob.es/espanaadmon/quienesquien/ficha-unidad-organica?selectorServicio=organigramasEstructurasDirectorios&selectorget=LA0000580"
+    ],
+    "vinculacion": "Fuentes institucionales: portal de transparencia, sede electrónica y noticia oficial Diputación 2015.",
+    "pendiente": [
+      "Conseguir Estatutos íntegros vigentes y modificaciones oficiales",
+      "Consolidar acuerdo regulador 2023 con modificaciones 2025 y 2026",
+      "Sustituir las preguntas históricas por competencias estatutarias vigentes tras verificar los artículos"
+    ],
+    "observacion": "Añadidas T06-028 y T06-029 con BOP 31/2024 y ficha DIR3; se distingue adscripción estatutaria 2011, encuadramiento organizativo 2024, sede operativa y oficina de registro.",
+    "preguntasRevisadas": 29
+  },
+  "auditoriaBancoFocal20261111": {
+    "fecha": "2026-11-11",
+    "tipo": "COTEJO_FOCAL_BANCO_NO_CERTIFICACION_TEMA",
+    "preguntasRevisadas": 29,
+    "alternativasEstructuralesRevisadas": 116,
+    "clavesFueraDeRango": 0,
+    "preguntasSinReferencia": 0,
+    "clavesCorregidas": 0,
+    "fuentesPrimariasVerificadas": [
+      "BOP Toledo 284/2011 anuncio 11024: artículos 1.2, 8 bis y disposición adicional",
+      "BOP Toledo 92/2023 anuncio 2824: Consejo Rector y delegación de contratación",
+      "Sede oficial OAPGT: acuerdo de sede y resolución 182/2017",
+      "DIR3 LA0000580: domicilio OAPGT en calle Real 4 y registro asociado en calle Real 14"
+    ],
+    "idsBOP2011": [
+      "DT-C2-T06-001",
+      "DT-C2-T06-006",
+      "DT-C2-T06-025"
+    ],
+    "idsSede": [
+      "DT-C2-T06-004",
+      "DT-C2-T06-005"
+    ],
+    "idDIR3": "DT-C2-T06-029",
+    "conclusion": "Banco estructuralmente válido; documentos primarios sustentan los ítems focales indicados. El resto conserva fuentes citadas pero no se certifica exhaustivamente distractor por distractor ni vigencia completa del articulado estatutario.",
+    "bloqueos": [
+      "Aprobación definitiva y eficacia de reforma inicialmente aprobada 2004",
+      "Cadena estatutaria íntegra vigente 2026",
+      "Cotejo jurídico individual de las 116 alternativas"
+    ]
+  }
+}

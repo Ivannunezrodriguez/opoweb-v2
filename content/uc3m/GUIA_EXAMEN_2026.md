@@ -1,0 +1,507 @@
+# UC3M · Escala Auxiliar Administrativa C2 · Guía de examen 2026
+
+**Fecha de verificación de las bases:** **2 de noviembre de 2026**.  
+**Fuente primaria:** [Resolución de **30 de junio de 2026**, BOE de **6 de julio de 2026**, núm. 163, referencia BOE-A-2026-14624](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624), **base primera** y **anexos II y III**.  
+**Organismo convocante:** **Universidad Carlos III de Madrid (UC3M)**. **34 plazas** (de ellas **2** reservadas a discapacidad).  
+**Llamamiento de ejercicio único confirmado:** **sábado 21 de noviembre de 2026, a las 10:00 horas, en el Campus de Getafe**, **llamamiento único**, según resolución oficial de la **UC3M** aportada el **02/11/2026** y [portal oficial del proceso](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026). La propia resolución indica que las **aulas concretas se determinarán mediante resolución posterior**. No atribuir un edificio o aula sin el nuevo anuncio.
+
+## 1. Qué exige la fase de oposición
+
+| Concepto | Base oficial |
+|---|---|
+| Tipo | **Único ejercicio tipo test obligatorio y eliminatorio** |
+| Temas | **20**, desglosados en el **anexo I** |
+| Preguntas puntuables | **70** |
+| Reserva | **5 preguntas adicionales** para sustituir las anuladas |
+| Alternativas | **4**, una correcta |
+| Duración máxima | **60 minutos** |
+| Acierto | **+1 punto directo** |
+| Error | **−1/3 de punto directo** |
+| Blanco o más de una respuesta | **0 puntos** |
+| Puntuación directa | **A − E/3**, donde **A** son aciertos y **E** errores |
+| Fase de oposición | Máximo **70 puntos transformados**, eliminatoria con mínimo **35 puntos transformados** |
+| Fase de concurso | Hasta **30 puntos**, solo para quienes superen la oposición |
+
+**El Tribunal Calificador determina la puntuación directa mínima (`M`) para alcanzar la calificación transformada de 35 puntos** tras evaluar la dificultad del ejercicio y el nivel de conocimientos. La transformación se rige por el **anexo III**.
+
+**Por ello, 35 puntos directos NO equivalen necesariamente a 35 puntos transformados**, ni el simulador puede asegurar el aprobado con un mínimo directo de 35. Solo muestra la **puntuación directa** calculable antes del corte.
+
+> ⚠️ **¡Foco Examen!:** No confundas los **35 puntos transformados** necesarios para superar la fase con **35 aciertos** o **35 puntos directos**. El corte directo depende del **Tribunal Calificador**.
+
+## 2. Fecha de referencia para la legislación
+
+La **base primera.7** fija una regla específica: la legislación aplicable y exigible es la vigente **en la fecha de publicación de la resolución que apruebe las listas definitivas de admitidos y excluidos y anuncie la celebración del ejercicio**; las normas derogadas se sustituyen por las que rijan en esa fecha.
+
+No tomar automáticamente como corte normativo el **21/11/2026**, ni tampoco el **06/07/2026** de la convocatoria. Para comprobar artículos reformados entre ambas fechas hay que identificar el día exacto de la publicación oficial de dicha resolución y sus eventuales correcciones.
+
+> ⚠️ **¡Foco Examen!:** La fecha del examen **no** es, por sí sola, la fecha de actualización de la normativa exigible en esta oposición.
+
+### Actualización judicial que no debe confundirse con una reforma examinable
+
+Una comprobación posterior de fuentes oficiales ha encontrado la [**Sentencia del Tribunal Supremo de 6/10/2026 (BOE-A-2026-22083)**](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-22083), publicada el **23/10/2026**, que **anula íntegramente el Real Decreto 905/2025**. Ese real decreto había modificado el **artículo 22.4 del Real Decreto 822/2021** y otras disposiciones universitarias. El [BOE consolidado del RD 822/2021](https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781) registra por ello una actualización el **23/10/2026**.
+
+**No implica que el RD 822/2021 se haya derogado**, ni obliga a revisar automáticamente todas las respuestas de los temas universitarios. La **base primera.7** limita la legislación exigible a la fecha de publicación de las **listas definitivas y anuncio de la prueba**. La [página oficial UC3M](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) confirma que existen esas resoluciones, pero **no se ha podido leer el original para fecharlo exactamente**.
+
+Como **indicio secundario, pendiente de verificación primaria**, la página de preparación [ADAMS](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/) fecha la publicación de listas definitivas en **01/10/2026**, anterior al fallo del **23/10/2026**. **No usar esa fuente indirecta para decidir sin más los efectos temporales jurídicos de una nulidad**, ni para afirmar que el órgano seleccionador haya adoptado una interpretación determinada.
+
+> ⚠️ **¡Foco Examen!:** **23/10/2026** no identifica una reforma sustantiva general del sistema de créditos: identifica la **publicación de una anulación judicial**. Distinguir **RD 905/2025 anulado**, **RD 822/2021 vigente** y fecha jurídica de corte **UC3M**.
+
+## 3. Simulacros de OpoWeb
+
+La web incluye ahora **tres modelos de entrenamiento de 70 preguntas titulares y 5 de reserva**, con **60 minutos** y **225 identificadores diferentes**, seleccionados de los bancos ya existentes de los **20 temas**.
+
+- **Puntuación:** muestra `aciertos − errores/3`, con **0** para respuestas en blanco. Las **5 reservas** se corrigen separadamente.
+- **Aprobado:** el simulador **no** atribuye `APTO` ni calcula una puntuación transformada sin `M` oficial.
+- **Naturaleza de las preguntas:** son preguntas de entrenamiento preparadas para OpoWeb; **no** proceden de un examen oficial real. La existencia técnica y unicidad no certifican por sí solas la corrección jurídica de todas las respuestas.
+
+> ⚠️ **¡Foco Examen!:** Una puntuación directa alta es una señal útil de preparación, pero no constituye calificación oficial. Estudia las explicaciones y fuentes, no solo la letra de la respuesta.
+
+## 4. Pendiente de verificación y seguimiento
+
+- [x] Tipo de prueba, duración, preguntas, penalización y regla de calificación contrastados con **BOE-A-2026-14624**.
+- [x] **3 modelos** de práctica y **225 IDs** diferentes comprobados contra los bancos del repositorio.
+- [x] Pruebas ejecutables de puntuación directa y separación de reservas añadidas.
+- [ ] **Nota de corte directa**: no conocida hasta decisión del **Tribunal Calificador**.
+- [ ] Comprobación personalizada de admisión definitiva; la inscripción por sí sola no la acredita.
+- [x] **Fecha, hora y campus:** confirmados por la resolución oficial de llamamiento aportada (**21/11/2026, 10:00, campus de Getafe**).
+- [ ] **Aula/edificio:** pendiente de resolución posterior de la **UC3M**.
+- [ ] Auditoría jurídica integral de los **250 ítems** existentes.
+- [ ] Prueba de la versión desplegada de la web en navegador real y confirmación verde de GitHub Actions en el último commit.
+
+**Registro editorial único de avances y pendientes:** [AUDITORIA_CONTINUA.md](../../AUDITORIA_CONTINUA.md).
+
+
+## Nuevo recurso de entrenamiento contrastado — **06/11/2026**
+
+[**Repaso temático focal de UC3M: 24 preguntas de los temas 13–17 y 20, con soluciones y fuentes oficiales por artículo**](REPASO_FINAL_T13_T20_20261106.md). Se conserva la estructura real de examen (**70 titulares + 5 reservas**, **60 minutos**, **−1/3 por fallo**), pero este cuestionario es **entrenamiento parcial**, no un simulacro completo ni una prueba oficial.
+
+> ⚠️ **¡Foco Examen!:** Un resultado de **35 puntos directos** (por ejemplo **40 aciertos, 15 fallos, 15 blancos**) no prueba por sí solo aprobado; el **Tribunal** fija el mínimo directo **M** y la calificación se convierte según el anexo III.
+
+
+## Cotejo directo de Presupuesto UC3M 2026 — **06/11/2026**
+
+Se ha añadido [**análisis del Volumen I institucional 2026 y 16 casos prácticos sobre temas 18–19**](COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md), con **64 alternativas**, comparativa de **importes por capítulos**, competencias para modificaciones, **30/60/90/120 días** de seguimiento de facturas, documentos **RC/A/D/O/AD/ADO**, caja fija **5.000 € sin IVA** y anticipos a justificar **12.000 €**. Se ha comprobado directamente el [**Volumen I original de 150 páginas**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view) y el [**BOCM de aprobación**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF).
+
+> ⚠️ **¡Foco Examen!:** La UC3M denomina **O a la propuesta de pago** en el **art. 15.2.1**. La caja fija (**5.000 € sin IVA**) no es lo mismo que el anticipo a justificar (**12.000 €**, justificación máxima **un mes**). Son reglas internas verificadas para **2026**; no atribuirlas a otras universidades.
+
+
+## Refuerzo adicional del tema 15 — **06/11/2026**
+
+[**Ocho preguntas nuevas de servicios universitarios, Biblioteca, patrimonio, presupuesto, auditoría y contratación UC3M**](REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md), con **32 opciones** y referencias a **arts. 157–177 de los Estatutos**. Recurso complementario separado de los **21 ítems** históricos del tema y de los **3 simulacros 70+5**. La ampliación no altera los resultados anteriores de los simulacros.
+
+## Refuerzo jurídico de UC3M T16–17, BOEL enero 2026 — 06/11/2026
+
+[**Repaso específico de 12 preguntas y 48 alternativas con soluciones explicadas**](REPASO_NORMATIVA_2026_T16_T17_20261106.md), centrado en **reconocimiento de créditos (T16)** y **traslado/cambio de estudios (T17)** conforme al [**BOEL institucional de 22/01/2026, anexos 3 y 5**](https://sede.uc3m.es/boel/anexo/11307/). Los **33 ítems anteriores de T16–17** no se modifican y los **3 simulacros de 70+5** se mantienen.
+
+**Fecha de corte legal:** aún pendiente de acreditar mediante texto original de la resolución definitiva UC3M, aunque exista referencia secundaria al **01/10/2026**; no atribuir oficialidad a la fuente indirecta ni asumir una nueva fecha. **Inspección visual del PDF institucional:** no disponible; la comprobación fue textual.
+
+> ⚠️ **¡Foco Examen!:** **50 % de plazas de traslado interno**, **30 ECTS reconocibles** y **60 ECTS pendientes en universidad española de origen** son magnitudes de procedimientos distintos.
+
+## Refuerzo técnico del tema 9 — Word/Excel 2019 y Google — 06/11/2026
+
+[**Repaso de 12 preguntas y 48 alternativas sobre Word 2019, Excel 2019, Gmail, Sheets y Calendar**](REPASO_OFIMATICA_T09_20261106.md). Incluye plantilla, explicaciones y fuente oficial de cada respuesta. El [**tema 9**](tema-09/manual.md) se amplía para desarrollar las parejas que más inducen a error: **combinación de correspondencia** (origen de datos/documento principal), **validación/formato condicional**, **filtro/ordenación**, **filtro/vista de filtro**, **visibilidad/edición de calendarios**.
+
+Los **12 ítems anteriores del T9** permanecen y el refuerzo no se incorpora silenciosamente a los **3 simulacros 70+5**. Su inclusión curricular no demuestra que se haya probado el portal en navegador o que se haya certificado el tema integralmente.
+
+> ⚠️ **¡Foco Examen!:** El programa dice **Word 2019 y Excel 2019**, no cualquier versión de Office ni funciones exclusivas de **Microsoft 365**.
+
+
+## Refuerzo del tema 8 — igualdad y normativa UC3M — 06/11/2026
+
+[**Repaso adicional de 12 preguntas y 48 opciones: igualdad, tutela, identidad de género y lenguaje inclusivo**](REPASO_IGUALDAD_T08_20261106.md), con respuestas justificadas por artículos de la **LO 3/2007**, resolución institucional UC3M de **2017** y medidas del **III Plan 2025–2029**. Las **12 preguntas históricas del tema 8** y los simulacros **70+5** no se han modificado.
+
+> ⚠️ **¡Foco Examen!:** **Art. 51** fija criterios generales para **Administraciones Públicas**; **arts. 55 y 61** son previsiones expresas del capítulo para **AGE**. El material se mantiene **EN_REVISION_USUARIO**, sin declarar certificación funcional.
+
+
+## Refuerzo PRL del tema 12 — 06/11/2026
+
+[Repaso adicional: 12 preguntas y 48 alternativas, con soluciones y fuentes legales](REPASO_PRL_T12_20261106.md). Refuerza los cuatro apartados de la matriz sin preguntas propias: **ámbito (art. 3)**, **personas especialmente sensibles (25–28)**, **consulta (33 y 36)** y **coordinación empresarial (24; RD 171/2004)**. Mantiene las preguntas históricas del tema y los simulacros sin cambios.
+
+> ⚠️ **¡Foco Examen!:** Informes de los **Delegados**: **15 días** con la salvedad legal de los riesgos inminentes. **Empresas concurrentes**, **titular** y **principal** desempeñan funciones distintas.
+
+
+## Refuerzo LOSU Tema 13 — coordinación, estructuras, docencia y cooperación — **06/11/2026**
+
+[**12 preguntas complementarias/48 alternativas sobre LOSU T13**](REPASO_LOSU_T13_20261106.md), con plantilla, explicación de la clave y artículo. El [**manual**](tema-13/manual.md) desarrolla **LOSU 6–17 y 40–43**, en los cuatro apartados de la matriz que no tenían preguntas directas. El **banco principal de T13 (12 ítems)** y los simulacros **70+5** no se han modificado.
+
+> ⚠️ **¡Foco Examen!:** **Conferencia General = política y oferta de plazas**; **Consejo de Universidades = verificación académica**; **CEUNE = participación estudiantil**. **Comunidad Autónoma** acuerda creación de facultades/escuelas; **universidad** se ocupa de departamentos e institutos en los términos legales.
+
+
+## Repaso por lotes UC3M — temas 10, 11, 14 y 18 — **06/11/2026**
+
+[**18 preguntas complementarias con 72 alternativas, plantilla y soluciones razonadas**](REPASO_LOTE_T10_T11_T14_T18_20261106.md), repartidas entre **TREBEP T10 (6)**, **RD 364/1995 e incompatibilidades T11 (4)**, **LOSU PDI e igualdad T14 (4)** y **Presupuesto UC3M T18 (4)**. Los [**temas 10**](tema-10/manual.md), [**11**](tema-11/manual.md), [**14**](tema-14/manual.md) y [**18**](tema-18/manual.md) incorporan tablas comparativas y nuevos bloques, con fuentes oficiales y matrices de trazabilidad.
+
+**No se han modificado** los bancos originales ni los **3 simulacros 70+5**. La ampliación de cuatro temas no equivale a **auditoría jurídica integral** ni certificación de la interfaz desplegada.
+
+> ⚠️ **¡Foco Examen!:** No extrapolar plazos de selección de **AGE (RD 364/1995)** a la convocatoria **UC3M**; ni incluir el **8 % temporal PDI** sin sus exclusiones; ni confundir **prórroga presupuestaria** con ausencia de presupuesto.
+
+
+## Práctica interactiva ampliada — 126 preguntas complementarias · 06/11/2026
+
+**Novedad funcional:** el apartado de [**Tests y simulacros UC3M**](../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026) incorpora una sección **«Repasos adicionales UC3M»** con **9 bloques y 126 preguntas complementarias**, cuatro opciones, corrección, justificación, trampa y referencia, usando la infraestructura ordinaria de historial local. La sección es **adicional** a los bancos originales, que permanecen intactos y mantienen su propio número de preguntas.
+
+| Recurso cargado | Preguntas | Temas |
+|---|---:|---|
+| [**7 repasos Markdown convertidos a JSON**](../../data/uc3m-repasos-complementarios-20261106.json) | **86** | **8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18** |
+| [**Repaso final anterior, JSON ya existente**](../../data/uc3m-repaso-temas-13-20-20261106.json) | **24** | **13–17 y 20** |
+| [**Casos de presupuesto UC3M, JSON ya existente**](../../data/uc3m-presupuesto-supuestos-20261106.json) | **16** | **18–19** |
+| **Total adicional** | **126** | **No sustituyen los tests ni los 3 simulacros** |
+
+Se conserva el [**informe de 20 matrices / 24 vacíos históricos**](COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md). Los **24 vacíos históricos** describen falta de pregunta en el banco anterior y fueron abordados por refuerzos documentales: **no** es una afirmación de que todos los apartados legales estén actualizados. La [**validación automatizada**](../../tests/validate-uc3m-extra-repasos-20261106.mjs) comprueba identificadores, estructura y enlace de código; la **prueba E2E de la web desplegada** es una verificación separada.
+
+> ⚠️ **¡Foco Examen!:** Los **repasos adicionales** son preguntas de **entrenamiento propio de OpoWeb**. No tienen el número ni la nota oficial de un examen de **70 titulares + 5 reservas**: su corrección sirve para estudiar contenidos; **no declara APTO** ni sustituye al tribunal.
+
+
+## Segundo lote interactivo: 150 preguntas UC3M y revisión T2–T7 — 06/11/2026
+
+**NUEVA FASE sobre la integración anterior de 126 preguntas:** incorporado un [**repaso jurídico conjunto de 24 preguntas y 96 alternativas**](../../data/uc3m-repaso-juridico-t02-t07-20261106.json), **cuatro por cada uno de los temas 2, 3, 4, 5, 6 y 7**, con artículos, justificaciones y focos específicos.
+
+| Material interactivo adicional | Preguntas | Estado |
+|---|---:|---|
+| Los **9 bloques ya integrados** en la primera fase | **126** | Código, JSON y CI de esa fase verificados. |
+| **Contrastes jurídicos T2–T7** (nuevo bloque único) | **24** | JSON enlazado a la aplicación y prueba de integridad ampliada; despliegue y pruebas funcionales se comprueban por separado. |
+| **Total previsto del catálogo adicional** | **150** | **10 bloques**, independientes de los bancos originales y simulacros. |
+
+**Para estudiar:** [**Ficha de repaso de los temas 2–7**](REPASO_JURIDICO_T02_T07_20261106.md), con **seis tablas comparativas** de plazos y órganos, y [**abrir entrenamiento UC3M**](../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección **«Repasos adicionales UC3M»**. Los [**manuales T2**](tema-02/manual.md), [**T3**](tema-03/manual.md), [**T4**](tema-04/manual.md), [**T5**](tema-05/manual.md), [**T6**](tema-06/manual.md) y [**T7**](tema-07/manual.md) han sido ampliados usando BOE vigente, con actualización de sus matrices y fuentes.
+
+**Advertencia:** los **150** no forman parte de la convocatoria oficial; no se han sumado a los **3 simulacros 70+5** ni sustituyen los bancos históricos. El **corte legal** sigue siendo el previsto en base **primera.7** de la UC3M, cuya fecha original de publicación de listas definitivas/anuncio está pendiente de acreditación.
+
+> ⚠️ **¡Foco Examen!:** **Notificación electrónica = 10 días naturales** para rechazo si no se abre; **LOPDGDD = 10 días** para comunicar DPD; **transparencia madrileña = 20 + 20 días** de acceso y **5 hábiles** para inadmisión. **El mismo número no significa el mismo procedimiento.**
+
+
+## Tercer lote interactivo: 162 preguntas y presupuesto/contratación T18–T20 — 06/11/2026
+
+[**Repaso jurídico-económico conjunto de temas 18, 19 y 20**](REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md): diferencia reglas de **Ley 5/2025 de Hacienda CM**, **Normas Básicas UC3M 2026** y **LCSP 9/2017**. Incluye comparación de presupuestos autonómicos/universitarios, tramitación contable, plazos de pago, tipos de procedimiento y formalización contractual.
+
+| Recurso de entrenamiento UC3M | Preguntas nuevas | Paquetes adicionales |
+|---|---:|---:|
+| Lotes anteriores (jurídico general, ofimática y universidad) | **150** | **10** |
+| [**Casos T18–T20**](../../data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json) | **12** (**4 T18, 3 T19, 5 T20**) | **1** |
+| **Total de práctica complementaria** | **162** | **11** |
+
+**Ejercicio interactivo:** [**Tests y simulacros UC3M**](../../practice.html?convocatoria=uc3m-auxiliar-administrativa-c2-2026), sección «Repasos adicionales UC3M» → «Presupuesto y contratación · Temas 18 a 20». **No se sustituyen ni alteran** los bancos originales o los simulacros de **70+5**.
+
+> ⚠️ **¡Foco Examen!:** **Simplificado ordinario en suministros/servicios: < 140.000 €**, **abreviado < 60.000 €** y **SARA UC3M ≥ 216.000 €**. **15 días naturales** para ofertas de simplificado ordinario; **10 días hábiles** de abreviado; **15 días hábiles** de espera previa a formalización cuando cabe recurso especial. Son reglas distintas.
+
+**Estado editorial:** contrastados los artículos críticos; la prueba automática verifica estructura y enlace de los casos, pero ni CI ni el despliegue sustituyen auditoría jurídico-funcional exhaustiva. **Fecha exacta del corte legislativo UC3M base primera.7: pendiente de resolución primaria.**
+
+
+## Cierre documental de los temas 9 y 12 — 06/11/2026
+
+**Dos temas con cierre editorial contrastado y reservas:** [**acta T9/T12**](CIERRE_DOCUMENTAL_T09_T12_20261106.md), que verifica **14 apartados de ofimática T9**, **17 apartados de prevención T12**, **24 preguntas originales (96 alternativas)** cotejadas y **24 preguntas complementarias (96 alternativas)** con soluciones y fuentes oficiales. Ambos mantienen `EN_REVISION_USUARIO` por no existir aprobación, ni verificación integral de normativa a la fecha de corte ni prueba real E2E. La [**puerta automática**](../../tests/validate-uc3m-cierres-documentales-20261106.mjs) controla su integridad en CI.
+
+> ⚠️ **¡Foco Examen!:** **Cierre documental** no equivale a **certificación integral** ni a aprobar un tema por parte del usuario. Los tests y supuestos siguen separados de simulacros **70+5**.
+
+## Cierres documentales T10 y T11 con reservas — **06/11/2026**
+
+[**Acta de cierre T10/T11**](CIERRE_DOCUMENTAL_T10_T11_20261106.md): **24 preguntas originales / 96 opciones** contrastadas individualmente, **10 complementarias / 40 opciones** ya integradas con enlace al precepto oficial y **23 bloques de matriz**. Se añade [**prueba automatizada**](../../tests/validate-uc3m-cierres-t10-t11-20261106.mjs) que comprueba sus SHA originales. Continúan pendientes la fecha primaria exacta de corte legal de la **base primera.7**, E2E, móvil, WCAG y PWA. No supone aprobación del usuario ni certificación integral.
+
+
+## Cierre documental conjunto LOSU I–II (T13 y T14) — **06/11/2026**
+
+[**Acta de cierre T13–T14**](CIERRE_DOCUMENTAL_T13_T14_20261106.md): **26 preguntas históricas / 104 alternativas**, **16 complementarias / 64 alternativas** y **24 bloques de matriz** con referencia al artículo oficial de la LOSU. Se han actualizado **16 enlaces BOE precisos** en el banco complementario y corregido el **metadato erróneo** de la clave de **T14-002**, que sigue siendo **B («El 25 %»)**. [**Prueba automática del lote**](../../tests/validate-uc3m-cierres-t13-t14-20261106.mjs).
+
+**Estado:** cierre documental **con reservas**, no certificación integral ni aprobación del usuario. **Corte legal de UC3M** sujeto a comprobación primaria de la publicación de las listas definitivas y anuncio de examen; pendientes pruebas E2E en navegador, móvil, WCAG y PWA. No se alteran los simulacros **70+5**.
+
+> ⚠️ **¡Foco Examen!:** **Claustro (25 % estudiantado) ≠ Consejo de Gobierno (10 %)**; **5 % del presupuesto universitario ≠ 1 % del PIB** y **crear universidad ≠ autorizar su inicio de actividades**.
+
+
+## Cierre documental del tema 15 · Estatutos UC3M — **06/11/2026**
+
+[**Acta y evidencias T15**](CIERRE_DOCUMENTAL_T15_20261106.md): **7 bloques**, **21 preguntas originales y 84 alternativas** auditadas, **8 complementarias y 32 alternativas** con cita de artículos y **2 microtest / 8 alternativas** en manual. Corregida la referencia de **T15-009 a artículo 178.3** (antes constaba erróneamente 179.1), conservando solución **A**. Refuerzo institucional de la Defensoría sobre **solicitud en un mes**, diferencia entre quejas y recursos y suspensión de su propia intervención en asuntos judicializados. [**Prueba de regresión T15**](../../tests/validate-uc3m-cierre-t15-20261106.mjs).
+
+**Reservas:** sin fecha primaria corroborada del corte de legislación UC3M de **base primera.7**, sin navegador E2E, WCAG/PWA ni certificación jurídica integral o aprobación del usuario. No se alteran simulacros **70+5**. **Estado: cierre documental con reservas**, no tema definitivamente certificado.
+
+> ⚠️ **¡Foco Examen!:** **178.3** exige **mayoría absoluta de los presentes** para toma en consideración; **179.3** mayoría absoluta de **todos los miembros** del Claustro para aprobación final. La **queja ante Defensoría** no suspende automáticamente los recursos.
+
+
+## Cierre documental T16 · enseñanzas y régimen académico (06/11/2026)
+
+[**Acta T16**](CIERRE_DOCUMENTAL_T16_20261106.md): **7 bloques** de programa, **21 preguntas originales / 84 alternativas** cotejadas y **6 complementarias / 24 alternativas** con remisión al artículo del **BOEL de 22/01/2026**. En total **27 preguntas / 108 alternativas** de este tema, sin alterar bancos y simulacros originales. [**Prueba de cierre documental**](../../tests/validate-uc3m-cierre-t16-20261106.mjs).
+
+**Reserva esencial:** el **TS anuló el RD 905/2025** mediante fallo publicado **23/10/2026**, pero **no** el **RD 822/2021** completo. La **base primera.7** fija la normativa del examen a la publicación de listas definitivas y anuncio del ejercicio; **falta la resolución primaria fechada** para verificar el corte. Pendientes navegador E2E, WCAG/PWA y aprobación; estado **EN_REVISION_USUARIO**.
+
+> ⚠️ **¡Foco Examen!:** **25 %** de prácticas de Grado y **25 %** del máximo reconocible de FP tienen fundamentos distintos. **90 días** por reconocimiento tardío no son los **30 días** del procedimiento especial de actividades.
+
+
+## Cierre documental UC3M tema 17 · Admisión y traslados — **06/11/2026**
+
+[**Acta T17 con reservas**](CIERRE_DOCUMENTAL_T17_20261106.md): **9 bloques de cobertura** vinculados al RD **534/2024**, RD **535/2026** y normas UC3M, **12 preguntas históricas/48 alternativas**, **6 complementarias/24 alternativas** y **4 microcasos/16 alternativas** incorporados al manual; **22 ejercicios documentales** y **88 opciones** en total, de los cuales **18** están en bancos interactivos. [**Prueba automatizada del tema**](../../tests/validate-uc3m-cierre-t17-20261106.mjs), sin atribuirle éxito de CI hasta disponer de un run validado.
+
+**Hallazgo sustantivo:** la norma de cambio de titulación se aprobó el **25/02/2010**, confirmado por el texto original institucional y el anexo 5 del BOEL, aunque el resumen de acuerdos del mismo BOEL de enero de 2026 presenta una **errata «2020»**. Contraste adicional de **B2 de idioma**, vacantes externas que pasan al cupo interno UC3M (**art. 4.4**) y **5 % adicional deportivo** limitado a supuestos legales. Revisadas las fuentes de las **18 preguntas interactivas** sin cambiar soluciones ni simulacros **70+5**.
+
+**Reservas:** fecha primaria del corte de normativa **base primera.7**, E2E/móvil/WCAG/PWA, inspección visual PDF y aprobación del usuario. **Estado de trabajo: cierre documental con reservas**, no certificación integral.
+
+> ⚠️ **¡Foco Examen!:** **6 ECTS mismo centro** vs. **30 ECTS cambio específico**; **50 % del cupo de traslados internos**, no de todas las plazas; **B2** con condiciones y excepciones; **RD 535/2026** en vigor desde **22/07/2026**.
+
+
+## Cierre documental T18 · Presupuesto UC3M 2026 — **06/11/2026**
+
+[**Acta T18, con reservas**](CIERRE_DOCUMENTAL_T18_20261106.md): **8 bloques**, **12 preguntas originales / 48 alternativas** y **8 complementarias / 32 alternativas** de dos repasos existentes, **20 ejercicios / 80 alternativas** sin duplicar el banco histórico ni alterar simulacros. Las referencias se han precisado contra [**Presupuesto UC3M 2026 (BOCM)**](https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF), [**Normas Básicas de Gestión UC3M, Vol. I**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view) y [**Ley 5/2025 de Hacienda de Madrid**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217). [**Prueba automatizada documental**](../../tests/validate-uc3m-cierre-t18-20261106.mjs) añadida al flujo CI.
+
+**Contrastes fundamentales:** **300.468.067,59 €** presupuesto 2026, capítulo **IV** principal ingreso; vinculación general por **concepto** con excepciones para capítulos **I, II y VI**; seguimiento de facturas **30/60/90/120 días**; presupuesto universitario **no integrado** en presupuestos generales madrileños (**56.3**), prórroga hasta **publicación BOCM** (**108.4**) y fondos universitarios fuera de Tesorería General autonómica (**182.1**).
+
+**Reservas:** resultado CI real y E2E sin comprobar, fecha del corte legal **primera.7** no acreditada mediante resolución primaria, auditoría de totalidad del manual y aprobación del usuario pendientes. **Cierre documental, no certificación integral**.
+
+> ⚠️ **¡Foco Examen!:** **Crédito → gasto → obligación → pago** y **derecho de ingreso → cobro** son fases diferentes; **no integración presupuestaria autonómica** no equivale a independencia absoluta del marco legal.
+
+
+## Cierre documental UC3M T19 · Gestión del gasto y cuentas — **06/11/2026**
+
+[**Acta T19 con reservas**](CIERRE_DOCUMENTAL_T19_20261106.md): **6 bloques**, **12 preguntas históricas/48 alternativas** y **3 complementarias/12 alternativas** (**15 ítems/60 opciones**), referencias precisadas al documento original de [**Normas UC3M 2026, Vol. I**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view), y [**LCSP art. 198**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a198). El **documento O equivale a propuesta de pago interna**, no a transferencia efectiva. [**Prueba automatizada documental**](../../tests/validate-uc3m-cierre-t19-20261106.mjs) integrada en CI.
+
+**Limitaciones:** ejecución de GitHub Actions, corte normativo de la base **primera.7**, auditoría jurídica total, E2E/móvil/WCAG/PWA y aprobación del usuario **pendientes**. Mantener el tema **EN_REVISION_USUARIO** y los simulacros **70+5** inalterados.
+
+> ⚠️ **¡Foco Examen!:** **30 días conformidad y 30 días pago (LCSP 198.4)**, suspensión por demora **>4 meses con preaviso 1 mes**, resolución **>6 meses**. **Caja fija UC3M 5.000 €** distinta de **anticipos 12.000 €**.
+
+
+## Cierre documental UC3M T20 · Contratación pública 2026 — **06/11/2026**
+
+[**Acta T20 con reservas**](CIERRE_DOCUMENTAL_T20_20261106.md): **10 bloques**, **12 preguntas históricas / 48 alternativas** y **5 complementarias / 20 alternativas**, **17 preguntas / 68 opciones** en total, con referencias a [**LCSP consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902), [**Orden HAC/1517/2025**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2025-26605) y **Estatutos UC3M 175–176**. [**Prueba documental T20**](../../tests/validate-uc3m-cierre-t20-20261106.mjs) añadida a CI. Se han precisado **17 referencias** sin alterar opciones, respuestas ni simulacros.
+
+**Examen:** contrato menor servicios **VEC <15.000 €**, abierto simplificado ordinario **<140.000 €**, abreviado **<60.000 €**, recurso especial de suministro/servicios **>100.000 €** (acto recurrible), SARA UC3M **≥216.000 €**. **15 días naturales** para ofertas simplificado versus **15 días hábiles** espera para formalizar cuando procede recurso especial; **art. 118.5** excluye solo el informe del **118.2** en caja fija equivalente **≤5.000 €**, sin dispensar todos los trámites.
+
+**Reserva:** fecha primaria del corte jurídico **base primera.7 UC3M**, CI ejecutado, E2E y accesibilidad, y aprobación del usuario siguen pendientes. No certificar integridad jurídica del **100 %**.
+
+> ⚠️ **¡Foco Examen!:** **VEC sin IVA ≠ PBL con IVA**, **Rector contrata ≠ mesa propone**, **15 naturales de ofertas ≠ 15 hábiles de espera para formalizar**.
+
+
+## Control de fuente primaria — corte normativo (09/11/2026)
+
+El [**cotejo del portal oficial de UC3M**](../../audit/UC3M_CORTE_NORMATIVO_PORTAL_2026-11-09.md) confirma que la página anuncia la resolución definitiva, pero **no acredita por sí sola su fecha efectiva de publicación**. Se mantiene la **reserva de la base primera.7**. El llamamiento del **21/11/2026** no sustituye ese dato.
+
+> ⚠️ **¡Foco Examen!:** No confundir **publicación de la lista definitiva** (hito del corte normativo) con **fecha del examen** o fecha de firma de un documento sin prueba de publicación.
+
+
+## Seguimiento de cobertura transversal en siete temas — **09/11/2026**
+
+La [**auditoría de trazabilidad T8/T9/T10/T11/T12/T13/T18**](../../audit/UC3M_AVANCE_T08_T09_T10_Y_CORTE_2026-11-09.md) ha relacionado **86 apartados** de sus matrices con preguntas originales o complementarias existentes, sin modificar las soluciones del banco histórico. La [**prueba de los 86 apartados**](../../tests/validate-uc3m-trazabilidad-7-temas-20261109.mjs) está integrada en el flujo de validación.
+
+**Interpretación:** mejora de cobertura pedagógica **no** equivalente a revisión legal de cada distractor. Permanecen la **reserva de fecha de publicación de resolución definitiva** (base **primera.7**), la revisión de los **20 temas**, la aprobación del usuario y las pruebas E2E. Ningún tema se eleva artificialmente a `CERTIFICADO_INTEGRAL`.
+
+> ⚠️ **¡Foco Examen!:** La existencia de preguntas y fuentes **no garantiza** por sí sola que el plazo, órgano o artículo de una alternativa siga siendo correcto en el **corte jurídico de la convocatoria**.
+
+
+## Nota de identificación normativa — Estatutos UC3M (09/11/2026)
+
+El preámbulo de la [**convocatoria BOE-A-2026-14624**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) menciona **«Decreto 05/2009»** al identificar la reforma de los Estatutos. Sin embargo, el [**catálogo normativo oficial de la UC3M**](https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m) identifica el **Decreto 95/2009, de 12 de noviembre**, y este número aparece también en [**otras resoluciones oficiales UC3M de 2026**](https://boe.es/diario_boe/txt.php?id=BOE-A-2026-3848&lang=es). Se trata de una **discordancia en la referencia de la convocatoria**, no de fundamento para sustituir el texto normativo por un supuesto «Decreto 05/2009».
+
+**Criterio de estudio:** conservar la cita literal al describir la convocatoria y citar como norma de reforma de Estatutos el **Decreto 95/2009**, indicando por separado el posible error tipográfico del BOE de la convocatoria.
+
+> ⚠️ **¡Foco Examen!:** **Decreto 1/2003** aprueba los Estatutos; **Decreto 95/2009** modifica sus preceptos. **«05/2009»** aparece en el preámbulo del anuncio BOE de la oposición y no debe transformarse en referencia legal de respuesta sin contrastar el decreto original.
+
+
+## Revisión de LOSU y Estatutos — T14/T15 (09/11/2026)
+
+Se ha [**documentado un contraste focal con la LOSU y los Estatutos**](../../audit/UC3M_T14_T15_Y_MATRICES_RESTANTES_2026-11-09.md). En **T14**, los **12 bloques** de matriz tienen ya referencia a preguntas reales, incluidas las de movilidad, igualdad y conciliación. En **T15**, el bloque «Naturaleza de los Estatutos» contiene **2 preguntas de microtest en el manual** pero no en el banco JSON; la matriz identifica expresamente esta diferencia.
+
+**Fuentes fundamentales:** [**LOSU consolidada, arts. 64–66 y 78**](https://www.boe.es/eli/es/lo/2023/03/22/2), [**Estatutos UC3M, Decreto 1/2003, art. 1**](https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782) y **Decreto 95/2009**. Ningún estado `EN_REVISION_USUARIO` cambia automáticamente.
+
+> ⚠️ **¡Foco Examen!:** En el **art. 65.1 LOSU**, la preferencia por sexo menos representado se **puede establecer** en **igualdad de idoneidad**; no es una reserva automática e incondicional.
+
+
+## Estado jurídico-editorial de los 20 temas — **09/11/2026**
+
+**AUDITADO individualmente: 7 temas (T1–T6 y T9)**, con actas, BOE o documentación primaria del fabricante y trazabilidad de preguntas. **En revisión: 13 temas (T7–T8 y T10–T20)**. La [**tabla detallada de evidencias y bloqueos**](../../audit/UC3M_PLAN_CIERRE_13_TEMAS_PENDIENTES_2026-11-09.md) identifica cada fuente que falta.
+
+Se han aclarado dos trampas: **T1**, entrada en vigor de la reforma constitucional de **2026** frente a eficacia electoral posterior; **T6**, el plazo de **72 horas** para notificar una brecha cuando procede, con excepción de riesgo improbable. Los temas T2–T5 incorporan ahora referencias a los artículos de las **Leyes 39/2015 y 40/2015**.
+
+**No confundir `AUDITADO` con `CERTIFICADO_INTEGRAL`:** el **corte jurídico** de la convocatoria continúa sin documento primario de fecha de publicación verificada y la validación real de navegador, accesibilidad y GitHub Actions del último commit sigue pendiente.
+
+> ⚠️ **¡Foco Examen!:** Una pregunta con clave correcta puede contener un plazo o una excepción mal expresados; por eso cada tema auditado enlaza su acta de contraste con la **fuente primaria**.
+
+
+## Actualización de auditoría UC3M — **09/11/2026 (segunda fase)**
+
+El inventario del repositorio identifica ahora **9 temas `AUDITADO`**: **T1–T7, T9 y T12**; los **11 temas restantes** siguen `EN_REVISION_USUARIO`: **T8, T10, T11 y T13–T20**. Esta actualización **sustituye el recuento anterior de 7**, que se conserva en el historial documental como fotografía previa.
+
+- **Tema 7:** [**acta de transparencia**](../../audit/UC3M_T07_AUDITORIA_TRANSPARENCIA_2026-11-09.md). Ley **10/2019**, actualizada en **2024**; derecho de acceso **20 días hábiles** para resolver según **art. 42** y **Ley 39/2015 art. 30.2**; ampliar **otros 20**, con **5 días hábiles** para ciertas inadmisiones; competencia resolutoria en la UC3M: **Rector**.
+- **Tema 12:** [**acta de prevención**](../../audit/UC3M_T12_AUDITORIA_PRL_2026-11-09.md). Ley **31/1995** actualizada por **Ley 1/2026**, con cambios vigentes desde **10/04/2026**; Comité de Seguridad y Salud desde **50 trabajadores**, de carácter **paritario**.
+
+Los **9 estados AUDITADO** acreditan revisión jurídico-editorial o técnico-editorial documentada. **No** son nueve certificaciones integrales; continúan pendientes CI en verde del commit final, E2E, accesibilidad y la fecha documental exacta del corte de la base **primera.7**.
+
+> ⚠️ **¡Foco Examen!:** En transparencia, los **20 días** del art. 42 se interpretan con la regla general de **días hábiles** salvo excepción legal; **no** deben mezclarse con los **5 días hábiles** para inadmisión. En PRL, el umbral de **50** para el Comité no se altera por la reforma de **2026** en otros artículos.
+
+
+## T10/T11 — corte TREBEP y auditoría de incompatibilidades (09/11/2026)
+
+**AUDITADO documental T11:** [acta de ingreso, provisión e incompatibilidades](../../audit/UC3M_T11_AUDITORIA_INGRESO_PROVISION_INCOMPATIBILIDADES_2026-11-09.md). **T10 sigue EN_REVISION_USUARIO**, porque la [Ley 4/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20528) modifica **TREBEP 49.e**, publicada **03/10/2026**.
+
+**Pista de fecha de corte no primaria:** [Adams](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/) señala publicación de listas definitivas **01/10/2026** y una [noticia de otro portal de oposiciones](https://www.emplea-te.com/noticias-oposiciones/universidad-carlos-iii-publicada-la-relacion-definitiva-de-aspirantes-admitidos-y-excluidos-en-la-convocatoria-de-gestion-a2-y-auxiliar-administrativo-c2/) informa de ellas el **02/10/2026**. **Si se acredita publicación efectiva el 01/10/2026, la reforma TREBEP publicada 03/10/2026 queda fuera del corte normativo de base primera.7.** Hasta obtener el documento UC3M con fecha de publicación, esa exclusión sigue **condicionada** y no se altera una clave del banco por inferencia.
+
+| Fecha | Tipo | Consecuencia |
+|---|---|---|
+| **01/10/2026** | Fecha de listas definitivas según calendario secundario | **No certificada en fuente primaria** |
+| **03/10/2026** | Publicación reforma **TREBEP 49.e** en BOE | Potencialmente posterior al corte, sujeto a acreditar este |
+| **21/11/2026** | Ejercicio UC3M | **No es** la fecha de corte por base primera.7 |
+
+> ⚠️ **¡Foco Examen!:** Si el corte fue **01/10/2026**, **no** se responde automáticamente con la reforma del **03/10/2026**, aunque esta ya figure en el TREBEP consolidado del día del examen.
+
+**Nuevo recuento del manifiesto:** **10/20 AUDITADO** (**T1–T7, T9, T11, T12**) y **10/20 EN_REVISION_USUARIO** (**T8, T10, T13–T20**). Los recuentos de 7 y 9 temas presentes en anotaciones históricas describen fases anteriores.
+
+
+## Auditorías cerradas de igualdad y LOSU I — **09/11/2026**
+
+**12 temas en `AUDITADO`: T1–T9 y T11–T13.** Para evitar ambigüedades, la lista exacta es **T1, T2, T3, T4, T5, T6, T7, T8, T9, T11, T12 y T13**. Quedan **8 en `EN_REVISION_USUARIO`: T10 y T14–T20**. Este balance **sustituye los recuentos históricos de 7, 9 y 10**, conservados en notas previas por trazabilidad.
+
+- **T8 · Igualdad:** [**acta jurídica**](../../audit/UC3M_T08_AUDITORIA_IGUALDAD_2026-11-09.md). **LO 3/2007**, III Plan de Igualdad de **UC3M (01/02/2025–31/01/2029, 6 ejes y 138 medidas)** y II Protocolo de acoso; referencias primarias incorporadas a sus **12 preguntas**.
+- **T13 · LOSU I:** [**acta jurídica**](../../audit/UC3M_T13_AUDITORIA_LOSU_I_2026-11-09.md). **LO 2/2023**, texto con última modificación publicada **02/08/2024**; **12 preguntas** enlazadas al BOE, órganos de creación y calidad diferenciados.
+
+**Sigue pendiente para la certificación integral:** acreditar la publicación exacta de las listas definitivas de UC3M (base **primera.7**), verificar CI del commit final, ejecutar E2E en navegadores y comprobar accesibilidad. Ninguno de los 12 temas está todavía marcado `CERTIFICADO_INTEGRAL`.
+
+> ⚠️ **¡Foco Examen!:** La **Comisión de Seguimiento** del III Plan tiene **8 representantes de la Universidad y 8 de los trabajadores**. La **Conferencia General de Política Universitaria** interviene mediante informe en la creación/reconocimiento de universidades; no debe confundirse con el **Consejo de Universidades**.
+
+
+## Auditoría LOSU II y reserva estatutaria — **09/11/2026**
+
+**Estado actual del manifiesto: 13 temas `AUDITADO` y 7 `EN_REVISION_USUARIO`.** Se incorpora **T14 (LOSU II)** a los auditados, con [**acta de 14 preguntas y 56 alternativas**](../../audit/UC3M_T14_AUDITORIA_LOSU_II_2026-11-09.md). Los pendientes son **T10 y T15–T20**. Los recuentos anteriores se mantienen como históricos, no como el estado vigente.
+
+**T14** (fuente [LOSU 2/2023](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500)): mínimo **25 % de estudiantes en Claustro** (**art. 45.3**) frente al **10 % en Consejo de Gobierno** (**46.3**); el **Consejo de Gobierno** propone y el **Consejo Social** aprueba el presupuesto; mínimo **5 %** para programas propios de investigación (**57.7**).
+
+**Atención al nuevo reglamento:** [**RD 855/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2026-21955), publicado **22/10/2026**, vigente desde **23/10/2026**, deroga RD 1791/2010. **No** trasladar automáticamente esta versión al examen UC3M sin comprobar la fecha oficial de corte de base **primera.7**.
+
+**T15** sigue **EN_REVISION_USUARIO**: el [**manual actualizado**](tema-15/manual.md) explica que los **Estatutos originales UC3M, art. 30.1**, atribuían **50 escaños estudiantiles** en un Claustro histórico de **253 miembros**, frente al mínimo del **25 %** de **LOSU 45.3**. La **disposición transitoria primera LOSU** en su redacción de **2024** prevé **3 años** para adaptación estatutaria; hay que reconciliar el texto refundido UC3M con la ley, antes de elevar la materia a AUDITADO.
+
+> ⚠️ **¡Foco Examen!:** **25 % de estudiantes en Claustro** es la regla de la **LOSU**; **50 puestos** era una composición de los Estatutos originales de **2003**. **No** responder con el reparto antiguo como si fuese el porcentaje legal vigente.
+
+**Certificación integral:** aún pendiente de CI final satisfactoria, E2E, accesibilidad y fecha primaria del corte.
+
+
+## T16/T17 — anulación judicial y admisión, actualización **09/11/2026**
+
+El manifiesto UC3M tiene ahora **14/20 temas AUDITADO** (**T1–T9, T11–T14 y T17**) y **6/20 EN_REVISION_USUARIO** (**T10, T15, T16, T18, T19 y T20**). Los números históricos anteriores corresponden a fases previas.
+
+- **T17 — AUDITADO:** [**acta de RD 534/2024 y RD 535/2026**](../../audit/UC3M_T17_AUDITORIA_ACCESO_ADMISION_2026-11-09.md), **12 preguntas** y **48 alternativas**. El [RD 535/2026](https://www.boe.es/buscar/doc.php?id=BOE-A-2026-14333) modificó el artículo **23.2** para asignar **5 puntos** a titulados superiores sin nota media por homologación/equivalencia (**vigente 22/07/2026**). La [UC3M](https://www.uc3m.es/grado/admision/solicitud/preinscripcion) confirma **hasta 12 estudios** en una preinscripción única de universidades públicas de Madrid, curso **2026/27**.
+- **T16 — EN_REVISION_USUARIO:** la [**sentencia TS de 06/10/2026, publicada 23/10/2026**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22083) anuló el **RD 905/2025**, que había modificado el **art. 22.4 del RD 822/2021**. La nulidad **no afecta al RD 822/2021 entero**. Se ha incorporado tabla de fechas en el [manual T16](tema-16/manual.md), pero su interpretación respecto al corte de la base **primera.7** no puede cerrarse sin prueba primaria de la fecha exacta de publicación de listas definitivas.
+
+> ⚠️ **¡Foco Examen!:** **5 puntos** se aplica a Técnicos Superiores **sin nota media por equivalencia u homologación**, no a cualquier titulado superior. La sentencia publicada el **23/10/2026** anuló **RD 905/2025**, **no todo RD 822/2021**.
+
+**Certificación integral sigue pendiente:** comprobar el último CI, navegador real E2E, accesibilidad y corte normativo acreditado.
+
+
+## Revisión de contratación y estado a 09/11/2026
+
+**AUDITADO documental: 15/20 temas** (**T1–T9, T11–T14, T17 y T20**). **Pendientes: 5/20 temas** (**T10, T15, T16, T18 y T19**).
+
+- **T20 — LCSP:** [**acta jurídico-editorial**](../../audit/UC3M_T20_AUDITORIA_CONTRATACION_2026-11-09.md), **12 preguntas y 48 alternativas**. [Ley 9/2017 consolidada](https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902) con actualización publicada **09/04/2026**; [perfil de contratante oficial UC3M](https://www.uc3m.es/conocenos/contratos-perfil-contratante-convenios-contratos).
+- **T17 — acceso a Grado:** [**acta de RD 534/2024**](../../audit/UC3M_T17_AUDITORIA_ACCESO_ADMISION_2026-11-09.md) y reforma **RD 535/2026**.
+- **T16 — pendiente:** [**sentencia TS de 06/10/2026**](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22083), publicada **23/10/2026**, que anuló **RD 905/2025**, no **RD 822/2021** entero. Requiere reconciliar el efecto temporal con la **base primera.7** y la fecha oficial de resolución definitiva.
+
+> ⚠️ **¡Foco Examen!:** **Contrato menor de servicios: VEC inferior a 15.000 € sin IVA**, y duración **máxima de un año sin prórroga**. **VEC** y **presupuesto base de licitación** no son la misma magnitud.
+
+La condición `AUDITADO` no significa `CERTIFICADO_INTEGRAL`. Continúan pendientes CI final acreditado, E2E, accesibilidad y otras reservas documentales.
+
+
+## T18/T19 — presupuesto oficial contrastado parcialmente (09/11/2026)
+
+[Acta de cotejo del BOCM](../../audit/UC3M_T18_T19_COTEJO_BOCM_PRESUPUESTO_2026_2026-11-09.md): **300.468.067,59 €** en ingresos y gastos y **146.834.705,33 €** en el capítulo IV de ingresos (transferencias corrientes). El presupuesto fue aprobado por el **Consejo Social** en **11/12/2025** y publicado en BOCM el **30/12/2025**.
+
+Los **temas 18 y 19 continúan EN_REVISION_USUARIO**: las cifras están verificadas en el boletín, pero el texto íntegro de las **Normas Básicas de Gestión de 2026** no se ha podido consultar para contrastar plazos, fases, vinculación y documentos contables.
+
+> ⚠️ **¡Foco Examen!:** **Capítulo IV de ingresos** no es el capítulo IV de gastos; el **capítulo I de gastos (personal)** es el de mayor cuantía.
+
+
+## Evidencias de corte y nivel de fuente presupuestaria — **09/11/2026**
+
+Una [**resolución UC3M de llamamiento, firmada el 06/10/2026**](https://uc3m.es/ss/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Resoluci%C3%B3n_llamamiento_ejercicio_%C3%BAnico.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371631360869&ssbinary=true) acredita **fecha, hora y lugar del ejercicio**, pero **no** la fecha exacta de publicación de la lista definitiva que selecciona el corte legal de la **base primera.7**. El análisis y su cronología se documentan en [**acta de corte**](../../audit/UC3M_ACOTACION_CORTE_OFICIAL_2026-11-09.md).
+
+En los **temas 18 y 19**, cada pregunta identifica ahora su nivel de referencia: **4/12 preguntas de T18** y **3/12 de T19** contienen enlace directo a una norma o boletín público; las restantes **8 + 9** dependen de reglas de gestión interna cuyo **Volumen I no ha sido autenticado íntegramente** en esta revisión. Tener enlace a una norma no certifica por sí solo la corrección de todos sus distractores. Existe una [**reproducción secundaria de T18**](https://www.vence.es/auxiliar-administrativo-universidad-carlos-iii/temario/tema-18) y otra de [**T19**](https://www.vence.es/auxiliar-administrativo-universidad-carlos-iii/temario/tema-19), que **no sustituyen** la fuente primaria.
+
+Los temas **T10, T15, T16, T18 y T19** permanecen `EN_REVISION_USUARIO`. En el banco se han incluido advertencias de fuente pendiente, sin alterar sus soluciones ni presentarlas como jurídicamente certificadas.
+
+> ⚠️ **¡Foco Examen!:** **Documento O** y **ADO** requieren verificar las Normas Básicas UC3M del ejercicio concreto; un manual secundario puede ser útil para estudiar, pero **no justifica afirmar certificación jurídica completa**.
+
+
+## Cierre primario de T18 y T19 — actualización **09/11/2026**
+
+**Balance ACTUAL del manifiesto: 17/20 temas `AUDITADO` y 3/20 `EN_REVISION_USUARIO` (T10, T15 y T16).** Los recuentos anteriores de 15 y menos son registros históricos de fases previas.
+
+Se ha accedido directamente al [**Volumen I oficial, Presupuesto UC3M 2026, Normas Básicas de Gestión**](https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view) (**PDF de 3.807.877 bytes**) y cotejado [**el banco de 24 preguntas y su acta primaria**](../../audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md).
+
+| Concepto de examen | Artículo y dato oficial |
+|---|---|
+| Vinculación de créditos | **Art. 5**: regla por **concepto dentro de centro/programa**; excepciones capítulos **I, II y VI** a nivel **capítulo** |
+| Transferencia de crédito **capital → corriente** | **Art. 6**: **Consejo Social** y autorización previa del **Gobierno de la Comunidad de Madrid** |
+| Seguimiento de facturas no cobradas | **Art. 14.2**: **30, 60, 90 y 120 días**; reunión del **Grupo de Seguimiento** a los **120 días** |
+| Documentos de gasto | **Art. 15.2.1**: **RC** retención, **A** autorización, **D** compromiso, **O** propuesta de pago y **ADO** acumulación **A+D+O** |
+| Sistema asimilado a caja fija | **Art. 16.2**: gasto **hasta 5.000 € sin IVA** |
+| Anticipos a justificar | **Art. 16.3**: **máximo 12.000 €**, justificación en **1 mes** |
+
+> ⚠️ **¡Foco Examen!:** **O** significa **propuesta de pago**, nunca «pago material». **5.000 €** es límite del sistema asimilado a caja fija; **12.000 €** es límite del anticipo a justificar, que debe justificarse en **1 mes**.
+
+El T18 y el T19 **ya no están bloqueados por falta de acceso al Volumen I**. Siguen pendientes las pruebas **CI completo, navegador E2E y accesibilidad** para una certificación integral de OpoWeb, y la fecha de publicación de las listas definitivas para resolver cuestiones controvertidas de T10 y T16.
+
+
+## Corrección prioritaria de plazo LOSU en tema 15 (09/11/2026)
+
+**Corrección del error anterior de OpoWeb:** la [**disposición transitoria primera de la LOSU, versión vigente en 2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500) establece un plazo máximo de **3 años** para adaptar Estatutos y constituir **Claustro** y **Consejo de Gobierno**. El texto original de **2023** fijaba **2 años**; la [**Ley 1/2024, disposición final cuarta**](https://www.boe.es/buscar/act.php?id=BOE-A-2024-11613) lo amplió desde **28/06/2024**. La cifra invertida que aparecía en notas anteriores **era incorrecta** y se ha corregido en manual, fuentes, acta y prueba de regresión.
+
+[**Acta de corrección de la transitoria LOSU y documentación oficial UC3M de 2026**](../../audit/UC3M_T15_CORRECCION_TRANSITORIA_LOSU_2026-11-09.md).
+
+> ⚠️ **¡Foco Examen!:** **3 años** para adaptar los **Estatutos** tras la modificación de **2024**; **2 años** era la versión original y también es un plazo de **otra transitoria distinta** sobre contabilidad analítica. **No** mezclar.
+
+**Estado actual: T15 EN_REVISION_USUARIO** hasta resolver la compatibilidad de la regulación estatutaria histórica con los mínimos de la LOSU. **T18 y T19 ya AUDITADO** por acceso al PDF primario del Presupuesto 2026.
+
+
+## Tabla de decisión normativa T10, T15 y T16 — control de **09/11/2026**
+
+La [**base primera.7 (BOE-A-2026-14624)**](https://boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) establece como referencia temporal **la publicación de la resolución que aprueba las listas definitivas y anuncia el ejercicio**. El [**portal de empleo UC3M**](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) contiene el epígrafe de resolución definitiva, pero **no se dispone aquí del documento original con fecha de publicación verificable**. El **01/10/2026**, difundido por [ADAMS](https://www.adams.es/producto/oposiciones/universidad-carlos-iii-de-madrid/auxiliares-administrativos-universidad-carlos-iii-de-madrid-1219/), es **indicio secundario**.
+
+| Tema | Situación que exige distinción | Regla de estudio hasta certificar fecha primaria |
+|---|---|---|
+| **T10 TREBEP** | Reforma del **art. 49.e** publicada **03/10/2026**, con entrada en vigor posterior | Separar publicación, vigencia y corte del examen; mantener identificadas las redacciones |
+| **T15 Estatutos y LOSU** | Estatutos **2003/2009** frente a LOSU y derecho transitorio; adaptación de **3 años** tras Ley 1/2024 | No trasladar sin prueba cifras históricas de Claustro a 2026 |
+| **T16 enseñanzas** | Sentencia del TS publicada **23/10/2026** anuló **RD 905/2025**, modificador del **RD 822/2021** | **RD 822/2021 no fue anulado**; determinar redacción al corte y efectos de nulidad |
+
+**Puerta de cierre:** guardar la resolución definitiva UC3M con **fecha primaria de publicación**, establecer versión temporal de cada norma y revisar las **12 preguntas del T10**, **21 del T15** y el banco del T16 antes de modificar estados. Ningún tema se promueve por un dato secundario.
+
+> ⚠️ **¡Foco Examen!:** Publicación de reforma, entrada en vigor y publicación de sentencia son **hechos jurídicos distintos**; el **corte oficial de las bases** decide la legislación exigible.
+
+
+## Documento nuevo de admitidos definitivos UC3M — 09/11/2026
+
+Se ha leído el **Anexo I de admitidos definitivos** aportado, **36 páginas**, con firma electrónica **30/09/2026 13:14:31** e identificador de sede **E6oFKKwKp6**. Consta la identidad documental del proceso selectivo de la **Escala Auxiliar Administrativa C2**. Este dato confirma el **anexo firmado**; la publicación oficial de la **resolución aprobatoria** sigue sin acreditarse, y **no se confunde firma con fecha de corte jurídico de base primera.7**.
+
+[Acta de cronología y firma del anexo](../../audit/UC3M_ACOTACION_CORTE_OFICIAL_2026-11-09.md). Se evita replicar nombres, documentos de identidad parcialmente ocultos o relación de personas en el repositorio público.
+
+| Hito | Fecha conocida | Qué acredita |
+|---|---|---|
+| **Firma del Anexo I de admitidos definitivos** | **30/09/2026 13:14:31** | Documento original firmado, no publicación |
+| **Publicación de la resolución definitiva** | **No acreditada** | Es la que fija el corte de la **base primera.7** |
+| **Firma del llamamiento separado** | **06/10/2026** | Fecha y condiciones de ejercicio, no publicación de la resolución definitiva |
+
+> ⚠️ **¡Foco Examen!:** **Firma de anexo**, **publicación de resolución** y **fecha de examen** son hitos independientes. Nunca deducir el corte por el nombre del PDF descargado.
+
+
+## Resolución aprobatoria definitiva UC3M — fuente primaria recuperada (**09/11/2026**)
+
+Además del **Anexo I de 36 páginas**, se ha recibido la **resolución principal de Gerencia**, **1 página**, que **aprueba expresamente** los anexos de admitidos y excluidos. Firmada **30/09/2026 a las 13:14:34**, código de verificación de sede **sfLB0IXBSH**. La UC3M ordena publicarla en su web; **no se incluye la fecha real de publicación** en el documento aportado.
+
+| Hito | Fecha | Seguridad |
+|---|---|---|
+| Firma de la **resolución que aprueba definitivos** | **30/09/2026 13:14:34** | **Fuente primaria acreditada** |
+| Firma del **Anexo I** | **30/09/2026 13:14:31** | **Fuente primaria acreditada** |
+| Publicación en web de resolución aprobatoria | **No acreditada primariamente**; ADAMS propone **01/10/2026** | **Reserva pendiente** |
+| Examen | **21/11/2026** | Fecha de ejercicio, **no** corte legal |
+
+[Acta de cronología actualizada](../../audit/UC3M_ACOTACION_CORTE_OFICIAL_2026-11-09.md). Los tres temas **T10/T15/T16** siguen con revisión del corte y normas específicas: no elevarlos por analogía con la firma.
+
+> ⚠️ **¡Foco Examen!:** En la resolución los recursos de **1 mes** y **2 meses** se cuentan desde el día siguiente a la **publicación**, no a la firma.
+
+## Corte UC3M: intervalo temporal documentado — contraste de **10/11/2026**
+
+La [convocatoria oficial (BOE-A-2026-14624), base primera.7](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-14624) fija como fecha jurídica de referencia la **publicación** de la resolución de listas definitivas y anuncio de ejercicio, no su firma. El documento original de **Gerencia** aportado al proyecto consta firmado el **30/09/2026 a las 13:14:34**. El [portal oficial de UC3M](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026) acredita que la resolución definitiva está disponible, pero no explicita la fecha histórica exacta de publicación.
+
+La noticia contemporánea [ADAMS, **07/10/2026**](https://www.adams.es/noticias/oposiciones/examenes/examen-auxiliar-universidad-carlos-iii-madrid/) ya da por publicadas las listas definitivas. Su calendario sitúa la publicación en el **01/10/2026** (dato **secundario**, pendiente de diligencia UC3M). De ello resulta un **intervalo documental inferido del 30/09 al 07/10**, **no una fecha oficial certificada**.
+
+| Hito | Evidencia | Uso en el examen |
+|---|---|---|
+| Resolución firmada | **30/09/2026** — documento primario | **No sustituye la fecha de publicación** |
+| Publicación de listas | **01/10/2026**, según calendario ADAMS | Fecha secundaria, **sin acreditación primaria** |
+| Listas ya publicadas | Noticia de **07/10/2026** | Indicio contemporáneo que sitúa el corte **antes del 23/10/2026** |
+| Reforma del **art. 49.e TREBEP** | Ley publicada **03/10/2026**, con vigencia desde **23/10/2026** | **No incorporarla** como derecho vigente al corte inferido del examen |
+| Sentencia anulatoria del **RD 905/2025** | Publicada **23/10/2026** | **Posterior al corte inferido**, sin prejuzgar efectos jurídicos propios de la nulidad |
+
+**Cierre operativo del riesgo temporal:** la resolución definitiva ya se describía como publicada el **07/10/2026**, por lo que la reforma del TREBEP que **entró en vigor el 23/10** no era legislación vigente para ese corte, si la noticia contemporánea es exacta. La sentencia de nulidad del **RD 905/2025**, también publicada el **23/10**, requiere análisis separado de sus efectos, no una simple sustitución retrospectiva del temario. **Pendiente:** la **constancia oficial de publicación efectiva**, que sigue siendo imprescindible para una certificación integral de **T10, T15 y T16**.
+
+> ⚠️ **¡Foco Examen!:** **Firma 30/09** no es necesariamente **publicación 01/10**. Una información secundaria del **07/10** permite acotar el corte, pero no inventar diligencia oficial. **Publicación BOE 03/10** no equivale a **vigencia TREBEP 23/10**.

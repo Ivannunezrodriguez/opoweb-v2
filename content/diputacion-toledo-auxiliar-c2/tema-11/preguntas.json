@@ -1,0 +1,304 @@
+{
+  "tema": 11,
+  "estado": "AUDITADO",
+  "version": "2026-11-05",
+  "criterio": "20 preguntas originales de cuatro opciones con fundamentación de artículo individual cotejada con LGT y TRLRHL; no se ejecutó interfaz de navegador. · 05/11/2026: tres redundancias reemplazadas por LGT 104.1 (6 meses), TRLRHL 7.2 (publicación delegación) y TRLRHL 9.1 (bonificación máxima 5%); 20 IDs y claves conservados.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T11-001",
+      "enunciado": "¿Qué facultades tributarias pueden delegar las entidades locales conforme al artículo 7 del TRLRHL?",
+      "opciones": [
+        "Exclusivamente el empadronamiento",
+        "Solo las funciones jurisdiccionales",
+        "Gestión, liquidación, inspección y recaudación",
+        "Únicamente la aprobación de leyes"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 7 permite delegar facultades de gestión, liquidación, inspección y recaudación tributarias en los términos legales.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T11-002",
+      "enunciado": "¿En qué Administraciones pueden delegarse las facultades del artículo 7 TRLRHL?",
+      "opciones": [
+        "Solo en sociedades privadas",
+        "En cualquier juzgado",
+        "Solo en el Estado",
+        "En la comunidad autónoma o en otras entidades locales en cuyo territorio estén integradas"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 7.1 identifica comunidad autónoma y otras entidades locales territorialmente vinculadas.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 7.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T11-003",
+      "enunciado": "¿Qué Administraciones colaboran en materia de gestión, liquidación, inspección y recaudación de tributos locales?",
+      "opciones": [
+        "Estado, comunidades autónomas y entidades locales",
+        "Únicamente diputaciones",
+        "Solo Administración General del Estado y juzgados",
+        "Solo municipios entre sí"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 8.1 TRLRHL establece colaboración de las Administraciones tributarias del Estado, autonómicas y locales.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 8.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T11-004",
+      "enunciado": "¿Qué principio rige el reconocimiento de beneficios fiscales en tributos locales?",
+      "opciones": [
+        "Pueden crearse libremente por un funcionario",
+        "Se admiten los previstos en normas con rango de ley o derivados de tratados internacionales, con las previsiones legales para ordenanzas",
+        "Todos los tributos quedan exentos por acuerdo verbal",
+        "Siempre se prohíbe cualquier beneficio"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 9 TRLRHL limita beneficios fiscales a los legalmente contemplados y contempla los casos autorizados para ordenanzas fiscales.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 9.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T11-005",
+      "enunciado": "Según el artículo 35 de la LGT, ¿quién puede ser obligado tributario?",
+      "opciones": [
+        "Solo los residentes en una capital",
+        "Solo el contribuyente que paga en efectivo",
+        "Personas físicas, jurídicas y entidades a quienes la normativa impone obligaciones tributarias",
+        "Solo las empresas públicas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 35.1 define a los obligados tributarios y su apartado 2 incluye distintas categorías.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-006",
+      "enunciado": "¿Forman parte las sanciones tributarias de la deuda tributaria según el artículo 58 LGT?",
+      "opciones": [
+        "Solo si el contribuyente es empresa",
+        "Únicamente cuando la sanción sea firme judicialmente",
+        "Sí, siempre como cuota",
+        "No, aunque se apliquen reglas de recaudación para exigirlas"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 58.3 excluye las sanciones de la composición de la deuda tributaria, aunque remite a reglas de recaudación.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 58.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-007",
+      "enunciado": "¿Cuál de los siguientes es un medio de extinción de la deuda tributaria?",
+      "opciones": [
+        "La compensación en los términos legales",
+        "La mera presentación de una consulta tributaria",
+        "El cambio de domicilio fiscal por sí solo",
+        "La solicitud informal de cita previa"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 59.1 LGT incluye pago, prescripción, compensación y condonación, entre otros medios legales.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 59.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-008",
+      "enunciado": "¿Qué puede constituir la deuda tributaria, además de la cuota o cantidad a ingresar, cuando proceda?",
+      "opciones": [
+        "Nunca ningún importe adicional",
+        "Intereses de demora y recargos previstos legalmente",
+        "Solo multas de tráfico",
+        "Exclusivamente indemnizaciones laborales"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 58.2 LGT incorpora, en su caso, intereses de demora y distintos recargos.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "LGT art. 58.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-009",
+      "enunciado": "¿Quién aprueba el acuerdo de delegación de facultades tributarias locales?",
+      "opciones": [
+        "El alcalde exclusivamente",
+        "El Pleno de la corporación",
+        "Un juzgado",
+        "El secretario autonómico"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El **Pleno** adopta el acuerdo de delegación, que fija alcance y contenido y debe publicarse según el **artículo 7.2 TRLRHL**.",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "TRLRHL art. 7.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T11-010",
+      "enunciado": "¿Qué principio establece el art. 18 LGT sobre el crédito tributario?",
+      "opciones": [
+        "Libre renuncia",
+        "Disponibilidad por pacto",
+        "Indisponibilidad salvo previsión legal",
+        "Extinción automática"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El **crédito tributario** es indisponible salvo que la ley establezca otra cosa (**artículo 18 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 18 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-011",
+      "enunciado": "¿Qué es la obligación tributaria principal?",
+      "opciones": [
+        "El deber de informar",
+        "La entrega de documentos",
+        "La imposición de sanciones",
+        "El pago de la cuota tributaria"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La **obligación tributaria principal** tiene por objeto el pago de la cuota (**artículo 19 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 19 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-012",
+      "enunciado": "¿Quién es contribuyente?",
+      "opciones": [
+        "El sujeto pasivo que realiza el hecho imponible",
+        "Cualquier empleado público",
+        "Cualquier gestor",
+        "Solo una empresa"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El contribuyente es el **sujeto pasivo que realiza el hecho imponible** (**artículo 36.2 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 36.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-013",
+      "enunciado": "¿Qué es un sustituto del contribuyente?",
+      "opciones": [
+        "Un responsable por convenio",
+        "Un sujeto pasivo que por imposición legal cumple en lugar del contribuyente",
+        "Un recaudador",
+        "Cualquier heredero"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El sustituto es el sujeto pasivo que **por imposición legal** y en lugar del contribuyente debe cumplir la obligación principal y obligaciones formales inherentes (**artículo 36.3 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 36.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-014",
+      "enunciado": "¿Cuál es el plazo general de prescripción tributaria?",
+      "opciones": [
+        "Un año",
+        "Tres años",
+        "Cuatro años",
+        "Diez años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La LGT establece **cuatro años** como período general de prescripción de derechos enumerados, cuyos comienzos de cómputo se regulan separadamente (**artículos 66 y 67**).",
+      "trampaExamen": "**Cuatro años** no implica un mismo dies a quo para cada derecho.",
+      "referencia": "LGT art. 66 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-015",
+      "enunciado": "Según el artículo 104.1 LGT, ¿cuál es el plazo máximo supletorio de notificación de resolución de un procedimiento tributario cuando su normativa no establece otro?",
+      "opciones": [
+        "Tres meses en todos los casos",
+        "Un año sin excepciones",
+        "No existe un plazo máximo aplicable",
+        "Seis meses, con las especialidades y excepciones establecidas legalmente"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 104.1 LGT establece un plazo máximo ordinario de seis meses, salvo norma con rango legal o de la UE que permita otro; cuando la norma procedimental no lo fija, el plazo supletorio es seis meses. El procedimiento de apremio queda exceptuado conforme al mismo precepto.",
+      "trampaExamen": "**LGT art.104.1: seis meses supletorios**; no confundir con **tres meses** de Ley 39/2015 art.21.3. **Apremio** es excepción específica al límite del art.104.1.",
+      "referencia": "LGT art. 104.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a104"
+    },
+    {
+      "id": "DT-C2-T11-016",
+      "enunciado": "¿Cuál es un procedimiento de gestión tributaria?",
+      "opciones": [
+        "Comprobación limitada",
+        "Proceso penal",
+        "Juicio civil",
+        "Procedimiento electoral"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La **comprobación limitada** figura entre los procedimientos de gestión tributaria (**artículo 123.1.e LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 123 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-017",
+      "enunciado": "¿Cómo puede iniciarse la gestión tributaria?",
+      "opciones": [
+        "Solo por denuncia judicial",
+        "Por declaración, autoliquidación, comunicación, solicitud o de oficio",
+        "Solo por sentencia firme",
+        "Únicamente por subasta"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La gestión se inicia por **autoliquidación, declaración, comunicación de datos u otra solicitud tributaria**, y también **de oficio**, conforme al artículo 118 LGT.",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 118 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-018",
+      "enunciado": "¿Qué diferencia una autoliquidación de una declaración ordinaria?",
+      "opciones": [
+        "Requiere siempre notario",
+        "Debe ir siempre sin cuota",
+        "El obligado cuantifica la deuda o devolución por sí mismo",
+        "No puede presentarse electrónicamente"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La autoliquidación incorpora operaciones de calificación y cuantificación efectuadas **por el propio obligado** (**artículo 120.1 LGT**).",
+      "trampaExamen": "No confundir la definición legal con figuras de nombre o efecto parecido.",
+      "referencia": "LGT art. 120 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    },
+    {
+      "id": "DT-C2-T11-019",
+      "enunciado": "Conforme al artículo 7.2 TRLRHL, ¿dónde se publica el acuerdo municipal de delegación de facultades tributarias una vez aceptado por el órgano competente?",
+      "opciones": [
+        "Solo en la página comercial del recaudador",
+        "Únicamente mediante correo privado a los contribuyentes",
+        "Exclusivamente en el tablón del Ayuntamiento",
+        "En los boletines oficiales de la provincia y de la comunidad autónoma"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El Pleno municipal adopta el acuerdo de delegación; una vez aceptada por el órgano correspondiente, debe publicarse en los Boletines Oficiales de la Provincia y de la Comunidad Autónoma, art. 7.2 TRLRHL. Distinguir aprobación, aceptación y publicación.",
+      "trampaExamen": "**Delegación tributaria local: Pleno aprueba, ente receptor acepta y publicación en BOP + boletín oficial autonómico**. No confundir la delegación con la colaboración del art.8.",
+      "referencia": "TRLRHL art. 7.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a7"
+    },
+    {
+      "id": "DT-C2-T11-020",
+      "enunciado": "Según el artículo 9.1 TRLRHL, ¿cuál es la bonificación máxima que puede prever una ordenanza fiscal por domiciliación de deudas periódicas, pago anticipado o colaboración en la recaudación, en las condiciones legales?",
+      "opciones": [
+        "Hasta el cinco por ciento de la cuota",
+        "El cien por cien de toda deuda municipal sin habilitación",
+        "Una bonificación obligatoria del cincuenta por ciento",
+        "Un descuento del treinta por ciento fijado verbalmente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El art. 9.1 TRLRHL autoriza que ordenanzas fiscales establezcan, en condiciones previstas por las propias ordenanzas, bonificación de hasta el 5 % para domiciliación de deudas periódicas, anticipación de pagos y otros actos de colaboración recaudatoria. Es potestativa, no automática.",
+      "trampaExamen": "**Hasta 5 % de la cuota**, no bonificación obligatoria. Precisa **ordenanza fiscal** y casos autorizados por **art.9.1 TRLRHL**.",
+      "referencia": "TRLRHL art. 9.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a9"
+    }
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 8,
+    "normas": [
+      "TRLRHL 7, 8 y 9",
+      "LGT 35, 58 y 59"
+    ],
+    "resultado": "Cotejo individual de enunciado, opción correcta y artículo de referencia; manual todavía no certificado."
+  },
+  "cierreEditorialC2_11_13_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
+}

@@ -1,0 +1,47 @@
+# Fuentes oficiales · Tema 4 Diputación
+
+## Fuente principal
+
+- **Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público**.
+  - BOE núm. **236**, de **2 de octubre de 2015**.
+  - Referencia: **BOE-A-2015-10566**.
+  - Entrada en vigor general: **2 de octubre de 2016**.
+  - Texto consolidado consultado para la auditoría editorial.
+  - Última actualización publicada que figura en el BOE consolidado consultado: **2 de agosto de 2024**.
+
+## Bloques utilizados
+
+- Título preliminar, capítulo I: disposiciones generales y principios de actuación.
+- Título preliminar, capítulo II: órganos de las Administraciones Públicas.
+- Artículos relativos a:
+  - órganos administrativos;
+  - instrucciones y órdenes de servicio;
+  - órganos consultivos;
+  - competencia;
+  - delegación;
+  - avocación;
+  - encomienda de gestión;
+  - delegación de firma;
+  - suplencia;
+  - órganos colegiados;
+  - abstención y recusación.
+- Título III: relaciones interadministrativas.
+
+## Criterio editorial
+
+Este tema se ha redactado **desde cero**. No se ha reutilizado contenido de La Puebla ni de otras convocatorias. La legislación consolidada se utiliza como herramienta de trabajo y debe contrastarse con la publicación oficial en caso de discrepancia.
+
+
+## Auditoría focalizada — **30/10/2026**
+
+- [Ley 40/2015, texto consolidado del BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566), **artículos 15 a 17**: publicidad de órganos colegiados, sesiones a distancia, constitución ordinaria y sin convocatoria previa, orden del día y mayorías para los acuerdos.
+- Se han sustituido tres preguntas redundantes (**DIP-T04-013, DIP-T04-016 y DIP-T04-017**) por preguntas sobre **quórum, convocatoria y votación**.
+
+**Alcance:** control jurídico parcial, no certificación integral de la Ley 40/2015 ni de su aplicación específica en la Administración local.
+
+## Cierre editorial agrupado · **05/11/2026**
+
+**AUDITADO jurídica y pedagógicamente.** Cotejo íntegro del epígrafe y banco del **tema 4** (**21 preguntas, 84 alternativas**), con referencias por artículo a [**Ley 40/2015**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). [**Informe único del bloque 4–7**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-04-07-2026-11-05.md). No reabrir sin **error verificado** o **modificación normativa**. **Navegador real y accesibilidad** son controles técnicos transversales distintos del cierre del contenido.
+
+> ⚠️ **¡Foco Examen!:** Estudia los **presupuestos del artículo**, el **órgano** y el **plazo**, no solo el número: los detalles corregidos están incluidos en el manual y en las justificaciones del banco.
+

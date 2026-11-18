@@ -1,0 +1,315 @@
+{
+  "tema": 13,
+  "estado": "AUDITADO",
+  "version": "2026-11-05",
+  "criterio": "20 preguntas originales con referencia individual al TRLRHL consolidado 07/10/2026, sometidas a revisión editorial; banco estructuralmente validado. · 05/11/2026: 3 preguntas repetidas sustituidas por impuestos potestativos art59.2, prelación IBI art61.1–2 y terreno rústico no sujeto a IIVTNU art104.2; claves conservadas.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T13-001",
+      "enunciado": "¿Cuál de estos impuestos es de exacción obligatoria por los ayuntamientos, según el artículo 59.1 TRLRHL?",
+      "opciones": [
+        "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+        "Ambos anteriores, ICIO e IIVTNU",
+        "Impuesto sobre Bienes Inmuebles",
+        "Impuesto sobre Construcciones, Instalaciones y Obras"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 59.1 incluye IBI, IAE e IVTM entre los impuestos que exigirán los ayuntamientos.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 59.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-002",
+      "enunciado": "¿Cuál es la naturaleza del IBI según el artículo 60 TRLRHL?",
+      "opciones": [
+        "Tasa de expedición de certificados",
+        "Precio público voluntario",
+        "Impuesto indirecto sobre el consumo",
+        "Tributo directo de carácter real que grava el valor de inmuebles"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 60 define el IBI como tributo directo de carácter real sobre el valor de los bienes inmuebles.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 60 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-003",
+      "enunciado": "¿Qué hecho imponible caracteriza al Impuesto sobre Actividades Económicas?",
+      "opciones": [
+        "El mero ejercicio en territorio nacional de actividades empresariales, profesionales o artísticas",
+        "La venta de cualquier vivienda usada",
+        "El nacimiento de personas físicas",
+        "Únicamente la tenencia de un automóvil"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 78.1 TRLRHL se refiere al mero ejercicio de actividades empresariales, profesionales o artísticas.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 78.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-004",
+      "enunciado": "¿Qué grava el Impuesto sobre Vehículos de Tracción Mecánica?",
+      "opciones": [
+        "Solo el estacionamiento regulado",
+        "La titularidad de vehículos aptos para circular por vías públicas",
+        "Cada repostaje en una gasolinera",
+        "Toda compraventa de un vehículo usado"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 92.1 TRLRHL grava la titularidad de vehículos aptos para circular por las vías públicas.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 92.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-005",
+      "enunciado": "¿Qué impuesto grava el incremento de valor de terrenos urbanos manifestado al transmitirlos o constituir o transmitir determinados derechos reales?",
+      "opciones": [
+        "Impuesto sobre Actividades Económicas",
+        "Impuesto sobre Vehículos",
+        "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+        "Impuesto sobre Bienes Inmuebles"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 104.1 TRLRHL define el hecho imponible del IIVTNU.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 104.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-006",
+      "enunciado": "Según el artículo 61.1 TRLRHL, ¿qué derecho tiene preferencia en el hecho imponible del IBI sobre el derecho de propiedad, cuando concurre sobre el mismo inmueble?",
+      "opciones": [
+        "El derecho de propiedad siempre prevalece",
+        "Un contrato privado de arrendamiento",
+        "Una concesión administrativa sobre el inmueble o los servicios públicos a que esté afecto",
+        "Una autorización verbal de uso"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 61.1 TRLRHL establece este orden: concesión administrativa, derecho real de superficie, usufructo y propiedad. Con las especialidades legales para inmuebles de características especiales, la realización del hecho imponible preferente excluye las modalidades posteriores (art. 61.2).",
+      "trampaExamen": "**Concesión > superficie > usufructo > propiedad**. En IBI no es siempre el propietario quien realiza el hecho imponible; revisar la excepción legal de inmuebles de características especiales.",
+      "referencia": "TRLRHL art. 61.1 y 61.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-007",
+      "enunciado": "¿Cuál de las siguientes afirmaciones sobre el IIVTNU es correcta?",
+      "opciones": [
+        "La transmisión de terrenos urbanos puede integrarlo, pero la inexistencia de incremento acreditada está contemplada como no sujeción",
+        "Grava el mero uso de cualquier vehículo",
+        "Sustituye al IBI cada año",
+        "Siempre se exige aunque no exista incremento de valor"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El art. 104.5 TRLRHL establece no sujeción si se constata inexistencia de incremento entre adquisición y transmisión; para acreditarla, hay que declarar la transmisión y aportar los títulos correspondientes conforme a las reglas de valoración del artículo.",
+      "trampaExamen": "Identificar el precepto, la condición legal y la diferencia con conceptos próximos; no generalizar excepciones.",
+      "referencia": "TRLRHL art. 104.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-008",
+      "enunciado": "En una compraventa de terreno urbano entre residentes, ¿quién es el contribuyente del IIVTNU según el artículo 106.1.b TRLRHL?",
+      "opciones": [
+        "El adquirente en todo caso",
+        "El Ayuntamiento",
+        "El notario",
+        "El transmitente del terreno"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 106.1.b TRLRHL establece que en transmisiones a título oneroso el contribuyente es quien transmite el terreno. En las lucrativas, el artículo 106.1.a atribuye la condición a quien adquiere. Si el contribuyente oneroso es una persona física no residente en España, procede atender a la regla del sustituto del art. 106.2.",
+      "trampaExamen": "Distinguir **transmisión onerosa (transmitente)** y **gratuita (adquirente)**, y la figura del **sustituto** cuando procede.",
+      "referencia": "TRLRHL art. 106.1.a, 106.1.b y 106.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-009",
+      "enunciado": "Conforme al artículo 59.2 TRLRHL, ¿qué impuestos municipales son de exacción potestativa mediante acuerdo de imposición y ordenanza fiscal?",
+      "opciones": [
+        "IBI e IVTM, exclusivamente",
+        "ICIO e IIVTNU",
+        "IBI, IAE e IVTM",
+        "Todos los impuestos locales sin distinción"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El artículo 59.1 impone IBI, IAE, IVTM; el 59.2 permite a los municipios establecer ICIO e IIVTNU, conforme a los presupuestos y normas legalmente fijados. Se necesita acuerdo y ordenanza en estos potestativos.",
+      "trampaExamen": "**Obligatorios = IBI / IAE / IVTM (59.1)**; **potestativos = ICIO / IIVTNU (59.2)**. Exacción no equivale a exención de personas.",
+      "referencia": "TRLRHL art. 59.1–2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a59"
+    },
+    {
+      "id": "DT-C2-T13-010",
+      "enunciado": "Según el artículo 61.1 TRLRHL, ¿cuál es el orden de preferencia de los derechos constitutivos del hecho imponible del IBI sobre un mismo inmueble?",
+      "opciones": [
+        "Propiedad, usufructo, superficie y concesión, en ese orden",
+        "Siempre propiedad, aunque haya una concesión",
+        "Concesión administrativa, derecho real de superficie, derecho real de usufructo y propiedad",
+        "Usufructo, propiedad, arrendamiento privado y mera ocupación"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El art. 61.1 enumera los derechos constitutivos del hecho imponible IBI, por orden: concesión administrativa, derecho real de superficie, derecho real de usufructo y propiedad; la realización de uno determina la no sujeción a modalidades siguientes del mismo inmueble ordinario, con especialidad de inmuebles de características especiales art.61.2.",
+      "trampaExamen": "**IBI: concesión → superficie → usufructo → propiedad**. No empezar por la propiedad; **art. 61.2** fija prelación y excepciones para bienes de características especiales.",
+      "referencia": "TRLRHL arts. 61.1–2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a61"
+    },
+    {
+      "id": "DT-C2-T13-011",
+      "enunciado": "¿Qué persona es sujeto pasivo del IBI a título de contribuyente?",
+      "opciones": [
+        "Siempre el ocupante de hecho",
+        "Siempre el arrendatario",
+        "La entidad bancaria que domicilia recibo",
+        "Quien ostente la titularidad del derecho constitutivo del hecho imponible"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Art. 63.1: sujetos pasivos son personas naturales o jurídicas y entidades del art. 35.4 LGT que ostenten el derecho constitutivo.",
+      "trampaExamen": "No siempre tributa el **propietario**; pueden prevalecer concesión, superficie o usufructo.",
+      "referencia": "TRLRHL, art. 63.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-012",
+      "enunciado": "¿Cuál de los siguientes supuestos constituye una exención general del IAE?",
+      "opciones": [
+        "Las personas físicas",
+        "Todas las sociedades mercantiles sin excepción",
+        "Todas las entidades que facturen más de 1 millón de euros",
+        "Cualquier actividad artística desarrollada en España"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 82.1.c TRLRHL: las personas físicas están exentas del IAE.",
+      "trampaExamen": "Estar **exento** del IAE no implica que no exista **hecho imponible**.",
+      "referencia": "TRLRHL, art. 82.1.c · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-013",
+      "enunciado": "¿Cuál es el umbral de importe neto de la cifra de negocios que, con requisitos legales, permite exención del IAE a ciertas entidades?",
+      "opciones": [
+        "500.000 €",
+        "Inferior a 1.000.000 €",
+        "Inferior a 5.000.000 €",
+        "Cualquier importe"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 82.1.c: determinadas entidades están exentas cuando su cifra de negocios sea **inferior a 1.000.000 €** conforme a las reglas legales.",
+      "trampaExamen": "El umbral es **inferior a 1.000.000 €**, no igual o inferior.",
+      "referencia": "TRLRHL, art. 82.1.c · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-014",
+      "enunciado": "¿A quién corresponde el sujeto pasivo contribuyente del IVTM?",
+      "opciones": [
+        "Al conductor habitual",
+        "Al comprador de cualquier vehículo no matriculado",
+        "A la persona o entidad a cuyo nombre conste el vehículo en el permiso de circulación",
+        "A la aseguradora"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 94 TRLRHL: contribuyente es la persona o entidad a cuyo nombre conste el vehículo en el permiso de circulación.",
+      "trampaExamen": "El **titular del permiso de circulación** no equivale necesariamente al conductor habitual.",
+      "referencia": "TRLRHL, art. 94 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-015",
+      "enunciado": "¿Qué vehículos no están sujetos al IVTM conforme al art. 92.3?",
+      "opciones": [
+        "Todos los vehículos eléctricos",
+        "Todos los vehículos de empresa",
+        "Todos los tractores agrícolas",
+        "Vehículos dados de baja por antigüedad que sean autorizados excepcionalmente para circular en exhibiciones, certámenes o carreras limitadas a los de esta naturaleza"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El art. 92.3 recoge este supuesto específico de no sujeción, junto a remolques de carga útil no superior a 750 kg.",
+      "trampaExamen": "**No sujeción** no equivale a **exención**.",
+      "referencia": "TRLRHL, art. 92.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-016",
+      "enunciado": "¿Quién es contribuyente del IIVTNU en una transmisión lucrativa de terreno urbano?",
+      "opciones": [
+        "El adquirente o beneficiario",
+        "El transmitente siempre",
+        "El notario",
+        "La oficina del Catastro"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 106.1.a: en transmisiones lucrativas, es sujeto pasivo quien adquiere el terreno o en cuyo favor se constituye o transmite el derecho real.",
+      "trampaExamen": "En **donación/herencia**, el sujeto pasivo es el **adquirente**; en venta normalmente **transmitente**.",
+      "referencia": "TRLRHL, art. 106.1.a · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-017",
+      "enunciado": "¿Cuál es el sujeto pasivo en una transmisión onerosa de terreno urbano cuando el transmitente es persona física no residente en España?",
+      "opciones": [
+        "El transmitente en todo caso como único obligado",
+        "El adquirente como sustituto del contribuyente",
+        "El banco que financia",
+        "La diputación provincial obligatoriamente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 106.2: en supuestos del apartado 1.b con contribuyente persona física no residente en España, tiene consideración de sustituto el adquirente.",
+      "trampaExamen": "La sustitución se prevé para el **transmitente persona física no residente**.",
+      "referencia": "TRLRHL, art. 106.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-018",
+      "enunciado": "Según el artículo 104.2 TRLRHL, ¿qué sucede en el IIVTNU con los incrementos de valor de terrenos que son rústicos a efectos del IBI?",
+      "opciones": [
+        "Tributan como si fueran urbanos por una regla universal",
+        "Solo están exentos si el terreno tiene una construcción nueva",
+        "No están sujetos al IIVTNU por la naturaleza rústica del terreno a efectos del IBI",
+        "Tributan siempre al mismo tipo que un inmueble urbano"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 104.2 excluye de sujeción el incremento de valor de terrenos rústicos a efectos del IBI. El tratamiento de terrenos urbanos y de características especiales es diferente. No confundir con el art.104.5, otra causa de no sujeción por inexistencia acreditada del incremento.",
+      "trampaExamen": "**IIVTNU art.104.2: suelo rústico a efectos de IBI = NO SUJETO**. **Art.104.5: ausencia acreditada de incremento = otro supuesto de NO SUJECIÓN**, aunque sea urbano.",
+      "referencia": "TRLRHL art. 104.2 y 104.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a104"
+    },
+    {
+      "id": "DT-C2-T13-019",
+      "enunciado": "¿Qué plazo de exposición pública mínima establece el art. 17.1 TRLRHL para acuerdos provisionales de ordenanzas fiscales?",
+      "opciones": [
+        "10 días",
+        "15 días",
+        "20 días",
+        "30 días"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El acuerdo provisional se expondrá durante **30 días como mínimo** para examen y reclamaciones por interesados.",
+      "trampaExamen": "Plazo mínimo de **30 días**; no son **30 días hábiles** expresamente en el precepto.",
+      "referencia": "TRLRHL, art. 17.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "id": "DT-C2-T13-020",
+      "enunciado": "¿Qué recurso ordinario procede contra las ordenanzas fiscales una vez publicadas conforme al art. 19 TRLRHL?",
+      "opciones": [
+        "Recurso contencioso-administrativo ante la jurisdicción competente",
+        "Reposición administrativa obligatoria contra ordenanza",
+        "Recurso de alzada ante diputación",
+        "Revisión por la Junta Electoral"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 19.1: contra las ordenanzas fiscales cabe recurso contencioso-administrativo a partir de su publicación.",
+      "trampaExamen": "Distinguir impugnación de **ordenanza fiscal** e impugnación de **acto de aplicación**.",
+      "referencia": "TRLRHL, art. 19.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    }
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "norma": "RDL 2/2004, TRLRHL, texto consolidado con última actualización publicada el 07/10/2026",
+    "articulosVerificados": [
+      "59.1",
+      "59.2",
+      "60",
+      "61.1",
+      "61.2",
+      "78.1",
+      "92.1",
+      "104.1",
+      "104.5",
+      "106.1",
+      "106.2"
+    ],
+    "preguntasRevisadas": 8,
+    "resultado": "Se mantienen seis preguntas contrastadas y se sustituyen dos redundantes por IBI prelación y sujeto pasivo IIVTNU; se precisa la acreditación de no incremento.",
+    "limitacion": "Auditoría del banco del tema 13, no certificación integral de su manual. Rutas web de artículos deben seguirse revisando antes de examen."
+  },
+  "cierreEditorialC2_11_13_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
+}

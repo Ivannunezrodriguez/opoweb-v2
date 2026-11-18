@@ -1,0 +1,224 @@
+{
+  "tema": 12,
+  "estado": "AUDITADO",
+  "aprobadoEl": "2026-07-18",
+  "epigrafeOficial": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.",
+  "fechaRevisionNormativa": "2026-11-04",
+  "norma": {
+    "titulo": "Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales",
+    "referencia": "BOE-A-2004-4214",
+    "textoConsolidadoConsultado": "Última actualización publicada el 03/06/2026"
+  },
+  "manual": "content/la-puebla/tema-12/manual.md",
+  "capitulos": [
+    "content/la-puebla/tema-12/bloque-01-normas-generales.md",
+    "content/la-puebla/tema-12/bloque-02-ibi.md",
+    "content/la-puebla/tema-12/bloque-03-iae.md",
+    "content/la-puebla/tema-12/bloque-04-ivtm.md",
+    "content/la-puebla/tema-12/bloque-05-iivtnu.md"
+  ],
+  "subcapitulos": [
+    "content/la-puebla/tema-12/bloque-04a-ivtm-hecho.md",
+    "content/la-puebla/tema-12/bloque-04b-ivtm-sujeto.md",
+    "content/la-puebla/tema-12/bloque-05a-iivtnu-hecho.md",
+    "content/la-puebla/tema-12/bloque-05b-iivtnu-sujetos.md"
+  ],
+  "trazabilidad": "content/la-puebla/tema-12/articulos.md",
+  "cobertura": [
+    {
+      "inciso": "Tributos locales y normas generales",
+      "articulos": "TRLRHL 15-19 y 56-59",
+      "contenidoExigible": [
+        "tasas, contribuciones especiales e impuestos",
+        "impuestos obligatorios y potestativos",
+        "imposición y ordenanzas fiscales",
+        "contenido, exposición, reclamaciones y publicación",
+        "recurso contencioso-administrativo"
+      ]
+    },
+    {
+      "inciso": "Impuesto sobre Bienes Inmuebles",
+      "articulos": "TRLRHL 60-64",
+      "contenidoExigible": [
+        "naturaleza directa y real",
+        "prelación concesión-superficie-usufructo-propiedad",
+        "clases de inmuebles",
+        "supuestos de no sujeción",
+        "titular del derecho como contribuyente"
+      ]
+    },
+    {
+      "inciso": "Impuesto sobre Actividades Económicas",
+      "articulos": "TRLRHL 78-83",
+      "contenidoExigible": [
+        "mero ejercicio de actividad",
+        "ordenación por cuenta propia",
+        "actividades excluidas",
+        "no sujeción y exenciones esenciales",
+        "quien realiza la actividad como sujeto pasivo"
+      ]
+    },
+    {
+      "inciso": "Impuesto sobre Vehículos de Tracción Mecánica",
+      "articulos": "TRLRHL 92-94",
+      "contenidoExigible": [
+        "titularidad de vehículo apto",
+        "matriculación, permisos temporales y baja",
+        "remolques hasta 750 kilogramos",
+        "exenciones esenciales",
+        "titular del permiso de circulación"
+      ]
+    },
+    {
+      "inciso": "Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+      "articulos": "TRLRHL 104-106",
+      "contenidoExigible": [
+        "carácter potestativo",
+        "incremento de terreno urbano manifestado por transmisión o derecho real",
+        "terrenos rústicos y operaciones no sujetas",
+        "inexistencia de incremento y prueba",
+        "adquirente en lucrativas y transmitente en onerosas",
+        "sustituto en transmisión onerosa por persona física no residente"
+      ]
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "bases imponibles y liquidables completas",
+    "tipos, cuotas y bonificaciones completas",
+    "devengo y periodo impositivo salvo referencias necesarias",
+    "gestión catastral y censal completa",
+    "coeficientes anuales del IIVTNU",
+    "recaudación e inspección ya tratadas en los temas 10 y 11"
+  ],
+  "criterioDeCierre": "Aprobado expresamente por el usuario mediante la frase Tema 12 aprobado el 18 de julio de 2026.",
+  "controlVigenciaComplementario": {
+    "fecha": "2026-11-02",
+    "alcance": "Únicamente cambios del TRLRHL con efectos octubre-diciembre 2026 en el contexto de este tema. No recertifica todos los artículos del manual.",
+    "fuentes": [
+      {
+        "titulo": "TRLRHL consolidado; última actualización publicada 07/10/2026",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+      },
+      {
+        "titulo": "RDL 29/2026, artículos 8 y 10",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-20823"
+      }
+    ],
+    "diferencias": [
+      {
+        "articulo": "TRLRHL 72",
+        "regla": "Regulación de tipos diferenciados y recargos IBI; RDL 29/2026, art. 8",
+        "vigencia": "Períodos impositivos iniciados desde 08/10/2026; el IBI anual de 2026 se inició 01/01/2026, por lo que el primer período anual ordinario afectado es 2027",
+        "clasificacion": "complemento fuera del núcleo naturaleza-hecho imponible-sujetos pasivos"
+      },
+      {
+        "articulo": "TRLRHL 107.4",
+        "regla": "Coeficientes máximos del IIVTNU; RDL 29/2026, art. 10",
+        "vigencia": "01/12/2026 (posterior al primer examen del 14/11/2026)",
+        "clasificacion": "fuera del núcleo delimitado de coeficientes"
+      }
+    ],
+    "estado": "VERIFICACION_PARCIAL_NO_CIERRE_INTEGRAL",
+    "secuenciaNormativaSeptiembreOctubre2026": {
+      "modificacionPrimera": "RDL 26/2026 de 29/09, BOE-A-2026-20266, arts. 72 y 107.4",
+      "sinEfecto": "Resolución 02/10/2026, BOE-A-2026-20526, dejó sin efecto esas modificaciones",
+      "regulacionPosterior": "RDL 29/2026 de 06/10, BOE-A-2026-20823, nuevo régimen con reglas temporales específicas",
+      "fuentes": [
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20266",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20526",
+        "https://www.boe.es/buscar/doc.php?id=BOE-A-2026-20823"
+      ],
+      "nota": "No se suman ni se presentan como vigentes simultáneamente ambas reformas; no afecta al núcleo de hecho imponible/sujetos pasivos del epígrafe."
+    }
+  },
+  "controlSustantivo20261102": {
+    "fecha": "2026-11-02",
+    "norma": "Real Decreto Legislativo 2/2004, artículos 61.5, 62.1.b y 82.1.c",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+    "comprobaciones": [
+      "IBI: no sujeción de ciertos bienes patrimoniales municipales sin requisito de cesión gratuita a otra Administración; excepción por cesión onerosa a terceros",
+      "IBI: diferenciar exención expresa de bienes comunales y montes vecinales en mano común, art. 62.1.b",
+      "IAE: exención requiere INCN estrictamente inferior a 1.000.000 €",
+      "IAE: grupo de control computa INCN conjunto del grupo"
+    ],
+    "preguntas": [
+      "LP-T12-003",
+      "LP-T12-006"
+    ],
+    "correccionTransversal": "content/diputacion-toledo-auxiliar-c2/tema-13/manual.md",
+    "estado": "REVISION_JURIDICA_PARCIAL; no certificar la totalidad de artículos"
+  },
+  "controlSustantivo20261104IIVTNU": {
+    "fecha": "2026-11-04",
+    "norma": "TRLRHL (RDL 2/2004), artículos 104.3, 104.4, 104.5, 105.1.c y 106.1–2",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a104",
+    "alcance": "Cotejo focal de no sujeción, no devengo, exención, prueba y sustitución. No es revisión integral de todo el tema.",
+    "hallazgos": [
+      "Art. 104.3: el supuesto especial introducido por LO 2/2022 no ampara toda donación familiar; concretados causa y beneficiarios",
+      "Art. 104.4: condiciones SAREB y participación de al menos 50 %, sin reinicio del periodo en posterior transmisión legal",
+      "Art. 104.5: prueba documental, valor mayor y reglas de periodo de generación en transmisión posterior con salvedades",
+      "Art. 105.1.c: empadronamiento de vivienda habitual al menos 2 años o desde adquisición posterior",
+      "Art. 106.2: sustituto adquirente solo en onerosa con contribuyente persona física no residente"
+    ],
+    "preguntasConservadas": 12,
+    "estado": "REVISION_JURIDICA_PARCIAL_NO_RECERTIFICACION"
+  },
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "5 ámbitos del programa, banco de 12 preguntas, 48 alternativas documentadas",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-12/cotejo-integral-2026-11-04.md",
+    "fuentesOficiales": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "https://www.boe.es/eli/es/rdl/2021/11/08/26",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214&p=20261002&tn=1"
+    ],
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionIntegralCincoCapas": false
+  },
+  "controlTransversalPreExamen20261106": {
+    "fecha": "2026-11-06",
+    "tipo": "REPASO_COMPLEMENTARIO",
+    "cuestionario": "data/la-puebla-repaso-practico-20261106.json",
+    "manual": "content/la-puebla/REPASO_FINAL_T10_T14_20261106.md",
+    "enlaceArt104Actualizado": true,
+    "fechaUltimaConsolidacionTRLRHL": "2026-10-07",
+    "nuevoCierreIntegral": false
+  },
+  "controlFocal20261107": {
+    "fecha": "2026-11-07",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T09_T12_20261107.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T09_T12_20261107.md",
+    "prueba": "tests/validate-la-puebla-repaso-t09-t12-20261107.mjs",
+    "bloquesHistoricos": 5,
+    "preguntasHistoricas": 12,
+    "alternativasHistoricas": 48,
+    "referenciasPrecisadas": 12,
+    "microcasosMarkdown": 2,
+    "alternativasMicrocasos": 8,
+    "preceptosFoco": [
+      "TRLRHL 59, 61, 78, 82, 92, 94, 104 y 106",
+      "RDL 29/2026 efectos temporales ya documentados"
+    ],
+    "trampa": "IAE exento no es no sujeto; 1m exacto no inferior; IVTM 750 kg; IIVTNU contribuyente vs sustituto",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "certificacionIntegral": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pruebaNavegadorReal": false,
+    "pendientes": [
+      "CI real en commit vigente",
+      "navegacion real movil WCAG PWA y progreso",
+      "revision legal articulo por articulo hasta examen",
+      "sin reabrir aprobacion historica del usuario"
+    ]
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "aprobacionHistorica": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
+  }
+}

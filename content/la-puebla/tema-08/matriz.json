@@ -1,0 +1,169 @@
+{
+  "tema": 8,
+  "estado": "AUDITADO",
+  "epigrafeOficial": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+  "aprobadoEl": "2026-07-17",
+  "fechaRevisionNormativa": "2026-11-04",
+  "normas": [
+    {
+      "referencia": "BOE-A-2011-2708",
+      "titulo": "Ley 12/2010 de Castilla-La Mancha",
+      "textoConsolidadoConsultado": "Última actualización publicada el 30/06/2021",
+      "urlOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2011-2708"
+    },
+    {
+      "referencia": "BOE-A-2007-6115",
+      "titulo": "Ley Orgánica 3/2007",
+      "textoConsolidadoConsultado": "Texto consolidado con reformas hasta 2024, BOE",
+      "urlOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2007-6115"
+    }
+  ],
+  "incisosOficiales": [
+    "Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha",
+    "Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Ley 12/2010 de Castilla-La Mancha — alcance y principios",
+      "norma": "Ley 12/2010 (BOE-A-2011-2708)",
+      "articulos": "1–12",
+      "contenidoExigible": [
+        "objeto y fines",
+        "ámbito Junta, entidades locales y universidades",
+        "presencia equilibrada y medidas de participación",
+        "estadísticas, impacto de género y transversalidad",
+        "estrategia y coordinación"
+      ]
+    },
+    {
+      "inciso": "Ley 12/2010 — órganos institucionales y colectivos",
+      "norma": "Ley 12/2010",
+      "articulos": "13–30",
+      "contenidoExigible": [
+        "Instituto de la Mujer: informe cada tres años, art. 13",
+        "Unidades y Comisión de Igualdad",
+        "derecho al empleo y corresponsabilidad",
+        "protección a colectivos y lucha contra violencia de género"
+      ]
+    },
+    {
+      "inciso": "Ley 12/2010 — educación e igualdad laboral",
+      "norma": "Ley 12/2010",
+      "articulos": "31–44",
+      "contenidoExigible": [
+        "enseñanza coeducativa y Consejo Escolar: informe trienal art. 34",
+        "igualdad en empleo público y contratación",
+        "conciliación y protección maternidad",
+        "Distintivo Excelencia: dos años implantación art. 44"
+      ]
+    },
+    {
+      "inciso": "Ley 12/2010 — salud, medios y garantías",
+      "norma": "Ley 12/2010",
+      "articulos": "45–65",
+      "contenidoExigible": [
+        "perspectiva de género en salud",
+        "medios, publicidad y acoso",
+        "retribución, buenas prácticas y garantías administrativas",
+        "participación de asociaciones y colegios profesionales"
+      ]
+    },
+    {
+      "inciso": "Ley Orgánica 3/2007 — definiciones, discriminación y tutela",
+      "norma": "LO 3/2007 (BOE-A-2007-6115)",
+      "articulos": "1–13 y disposición adicional primera",
+      "contenidoExigible": [
+        "igualdad de trato",
+        "directa/indirecta, embarazo directo",
+        "acoso sexual y por razón de sexo",
+        "represalias y nulidad de conductas discriminatorias",
+        "presencia equilibrada 40–60"
+      ]
+    },
+    {
+      "inciso": "Ley Orgánica 3/2007 — políticas públicas",
+      "norma": "LO 3/2007",
+      "articulos": "14–35",
+      "contenidoExigible": [
+        "transversalidad y nombramientos",
+        "informes y estadísticas",
+        "cooperación y educación",
+        "universidad, salud, mundo rural y comunicación"
+      ]
+    },
+    {
+      "inciso": "Ley Orgánica 3/2007 — empresas y empleo",
+      "norma": "LO 3/2007",
+      "articulos": "36–50",
+      "contenidoExigible": [
+        "igualdad laboral",
+        "empresas de 50 o más: plan igualdad art. 45",
+        "diagnóstico con auditoría salarial art. 46",
+        "distintivos y pactos colectivos"
+      ]
+    },
+    {
+      "inciso": "Ley Orgánica 3/2007 — sector público y AGE",
+      "norma": "LO 3/2007",
+      "articulos": "51–78",
+      "contenidoExigible": [
+        "deber general de Administraciones art. 51",
+        "AGE: presencia equilibrada 52–54",
+        "formación empleadas AGE: reserva 40% cursos específicos art. 60",
+        "órganos de igualdad y colaboración"
+      ]
+    }
+  ],
+  "manual": "content/la-puebla/tema-08/manual.md",
+  "preguntas": "content/la-puebla/tema-08/preguntas.json",
+  "fuentes": "content/la-puebla/tema-08/fuentes.md",
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "Dos leyes citadas en el epígrafe, ocho subáreas editoriales, artículos autonómicos 1–65 y estatales 1–78, 12 claves y 48 alternativas",
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-08/cotejo-integral-2026-11-04.md",
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionIntegralCincoCapas": false
+  },
+  "controlFocal20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T06_T08_20261106.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T06_T08_20261106.md",
+    "prueba": "tests/validate-la-puebla-repaso-t06-t08-20261106.mjs",
+    "bloquesExistentes": 8,
+    "bancoHistoricoPreguntas": 12,
+    "bancoHistoricoAlternativas": 48,
+    "microcasosExtraMarkdown": 3,
+    "alternativasExtraMarkdown": 12,
+    "fuentes": [
+      "BOE-A-2011-2708",
+      "BOE-A-2007-6115",
+      "BOE-A-2021-18038"
+    ],
+    "comprobaciones": [
+      "Ley 12/2010 13.2 Instituto Mujer informe trienal",
+      "34.2 Consejo Escolar informe trienal tras Ley 4/2021",
+      "44.1-2 Distintivo 2 años y Presidencia Junta",
+      "LO 3/2007 DA primera regla 40/60 y art 45.2 plan desde 50"
+    ],
+    "correccion": "La norma ya estaba bien: refuerzo y levantamiento explicito de reserva editorial antigua",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "recertificacionIntegral": false,
+    "pruebaNavegadorReal": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pendientes": [
+      "comprobacion legislacion a fecha examen 2026-11-14",
+      "GitHub Actions run sobre ultimo commit",
+      "navegador real movil WCAG PWA",
+      "certificacion juridica integral de todo el manual"
+    ]
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "aprobadoHistoricamente": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "tema": 6,
+  "titulo": "Ley Orgánica 3/2018 de protección de datos",
+  "preguntas": [
+    {
+      "id": "UC3M-T06-001",
+      "pregunta": "¿Cuál es una finalidad principal de la Ley Orgánica 3/2018?",
+      "opciones": [
+        "Sustituir íntegramente al RGPD",
+        "Regular únicamente archivos en papel",
+        "Crear exclusivamente la AEPD",
+        "Adaptar el ordenamiento español al RGPD y garantizar derechos digitales"
+      ],
+      "correcta": 3,
+      "justificacion": "La LOPDGDD adapta el ordenamiento español al RGPD, completa sus previsiones y garantiza derechos digitales.",
+      "trampa": "No sustituye al RGPD, sino que lo complementa en el ordenamiento español.",
+      "referencia": "Manual, apartado 1 · LOPDGDD, art. 1: https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a1",
+      "respuestaLiteral": "Adaptar el ordenamiento español al RGPD y garantizar derechos digitales"
+    },
+    {
+      "id": "UC3M-T06-002",
+      "pregunta": "¿Qué principio exige tratar solo los datos adecuados, pertinentes y necesarios?",
+      "opciones": [
+        "Exactitud",
+        "Minimización de datos",
+        "Portabilidad",
+        "Publicidad"
+      ],
+      "correcta": 1,
+      "justificacion": "La minimización obliga a limitar los datos a lo necesario para la finalidad perseguida.",
+      "trampa": "La exactitud se refiere a que los datos sean correctos y estén actualizados.",
+      "referencia": "Manual, apartado 2 · RGPD, art. 5: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Minimización de datos"
+    },
+    {
+      "id": "UC3M-T06-003",
+      "pregunta": "¿Quién debe demostrar que cumple la normativa de protección de datos?",
+      "opciones": [
+        "El responsable, conforme al principio de responsabilidad proactiva",
+        "Solo la persona interesada",
+        "Únicamente la autoridad de control",
+        "El proveedor de internet"
+      ],
+      "correcta": 0,
+      "justificacion": "La responsabilidad proactiva exige adoptar medidas y poder demostrar el cumplimiento.",
+      "trampa": "No basta con cumplir materialmente; debe poder acreditarse.",
+      "referencia": "Manual, apartado 2 · RGPD, art. 5: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "El responsable, conforme al principio de responsabilidad proactiva"
+    },
+    {
+      "id": "UC3M-T06-004",
+      "pregunta": "En España, con carácter general, ¿desde qué edad puede un menor consentir por sí mismo el tratamiento de sus datos?",
+      "opciones": [
+        "12 años",
+        "13 años",
+        "14 años",
+        "16 años"
+      ],
+      "correcta": 2,
+      "justificacion": "La LOPDGDD fija con carácter general la edad en catorce años, salvo que una ley exija asistencia.",
+      "trampa": "El RGPD permite a los Estados fijar una edad entre 13 y 16 años; España eligió 14.",
+      "referencia": "Manual, apartado 4 · LOPDGDD, art. 7: https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a7",
+      "respuestaLiteral": "14 años"
+    },
+    {
+      "id": "UC3M-T06-005",
+      "pregunta": "¿Cuál de los siguientes es un dato de categoría especial?",
+      "opciones": [
+        "Código postal",
+        "Número de expediente",
+        "Horario de atención",
+        "Dato de salud"
+      ],
+      "correcta": 3,
+      "justificacion": "Los datos de salud pertenecen a las categorías especiales y tienen protección reforzada.",
+      "trampa": "No todo dato personal es categoría especial.",
+      "referencia": "Manual, apartado 4 · RGPD, art. 9: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Dato de salud"
+    },
+    {
+      "id": "UC3M-T06-006",
+      "pregunta": "¿Cuál es el plazo general para responder al ejercicio de derechos?",
+      "opciones": [
+        "10 días",
+        "Un mes, ampliable otros dos",
+        "15 días",
+        "Tres meses sin posibilidad de ampliación"
+      ],
+      "correcta": 1,
+      "justificacion": "El responsable debe responder en un mes, ampliable otros dos por complejidad o número de solicitudes.",
+      "trampa": "La ampliación debe comunicarse dentro del primer mes.",
+      "referencia": "Manual, apartado 5 · RGPD, art. 12: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Un mes, ampliable otros dos"
+    },
+    {
+      "id": "UC3M-T06-007",
+      "pregunta": "¿Qué derecho permite recibir los datos en formato estructurado y transmitirlos a otro responsable?",
+      "opciones": [
+        "Supresión",
+        "Oposición",
+        "Portabilidad",
+        "Limitación"
+      ],
+      "correcta": 2,
+      "justificacion": "La portabilidad permite recibir y transmitir determinados datos cuando concurren sus requisitos.",
+      "trampa": "La portabilidad no equivale a obtener cualquier expediente administrativo.",
+      "referencia": "Manual, apartado 5 · RGPD, art. 20: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Portabilidad"
+    },
+    {
+      "id": "UC3M-T06-008",
+      "pregunta": "¿Quién determina los fines y medios del tratamiento?",
+      "opciones": [
+        "El encargado",
+        "El responsable",
+        "El delegado de protección de datos",
+        "La persona interesada"
+      ],
+      "correcta": 1,
+      "justificacion": "El responsable decide los fines y medios del tratamiento.",
+      "trampa": "El encargado trata los datos por cuenta del responsable.",
+      "referencia": "Manual, apartado 7 · RGPD, art. 4: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "El responsable"
+    },
+    {
+      "id": "UC3M-T06-009",
+      "pregunta": "¿Cómo debe formalizarse la relación entre responsable y encargado?",
+      "opciones": [
+        "Solo mediante acuerdo verbal",
+        "Por correo informal sin condiciones",
+        "No necesita formalización",
+        "Mediante contrato u otro acto jurídico con contenido mínimo"
+      ],
+      "correcta": 3,
+      "justificacion": "La relación debe constar en contrato u otro acto jurídico que determine objeto, duración, finalidad, datos, interesados y obligaciones.",
+      "trampa": "La existencia de instrucciones prácticas no sustituye la formalización jurídica.",
+      "referencia": "Manual, apartado 8 · RGPD, art. 28: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Mediante contrato u otro acto jurídico con contenido mínimo"
+    },
+    {
+      "id": "UC3M-T06-010",
+      "pregunta": "¿Cuándo es necesaria una evaluación de impacto?",
+      "opciones": [
+        "Siempre que exista un dato personal",
+        "Solo cuando lo pida un interesado",
+        "Cuando el tratamiento probablemente entrañe alto riesgo",
+        "Únicamente después de una sanción"
+      ],
+      "correcta": 2,
+      "justificacion": "La evaluación de impacto se realiza antes de tratamientos que probablemente impliquen alto riesgo.",
+      "trampa": "No es una medida posterior a la infracción, sino preventiva.",
+      "referencia": "Manual, apartado 9 · RGPD, art. 35: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Cuando el tratamiento probablemente entrañe alto riesgo"
+    },
+    {
+      "id": "UC3M-T06-011",
+      "pregunta": "Si una violación de seguridad de datos personales debe notificarse a la autoridad de control conforme al RGPD, ¿cuál es el plazo de referencia?",
+      "opciones": [
+        "72 horas desde que se tenga constancia, si es posible",
+        "24 horas",
+        "48 horas",
+        "Un mes"
+      ],
+      "correcta": 0,
+      "justificacion": "Según el art. 33.1 RGPD, el responsable notificará sin dilación indebida y, de ser posible, en las 72 horas siguientes a tener constancia, salvo que sea improbable que la violación suponga un riesgo para derechos y libertades; si se supera el plazo, deben indicarse los motivos de la dilación.",
+      "trampa": "72 horas no es una obligación incondicional para cualquier incidencia: existe excepción cuando sea improbable el riesgo para derechos y libertades; tampoco confundir notificación a autoridad con comunicación a afectados.",
+      "referencia": "Manual, apartado 10 · RGPD, art. 33: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "72 horas desde que se tenga constancia, si es posible"
+    },
+    {
+      "id": "UC3M-T06-012",
+      "pregunta": "¿Qué caracteriza al delegado de protección de datos?",
+      "opciones": [
+        "Actúa con independencia y no recibe instrucciones sobre sus funciones",
+        "Decide siempre los fines del tratamiento",
+        "Sustituye a la autoridad de control",
+        "Solo puede ser personal externo"
+      ],
+      "correcta": 0,
+      "justificacion": "El delegado actúa con independencia, dispone de recursos y no puede recibir instrucciones sobre el desempeño de sus funciones.",
+      "trampa": "Puede ser interno o externo y no sustituye al responsable ni a la autoridad de control.",
+      "referencia": "Manual, apartado 11 · RGPD, art. 38: https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Actúa con independencia y no recibe instrucciones sobre sus funciones"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "estado": "DESARROLLO_DOCUMENTAL_COMPLETO_CON_RESERVA_CORTE",
+    "preguntasCotejadas": 12,
+    "alternativasPreservadas": 48,
+    "clavesModificadas": 0,
+    "aprobacionUsuario": false,
+    "certificacionFuncional": false
+  },
+  "controlAuditoriaBOEUE20261109": {
+    "fecha": "2026-11-09",
+    "normas": [
+      "RGPD Reglamento UE 2016/679",
+      "LO 3/2018 BOE-A-2018-16673"
+    ],
+    "ultimaModificacionLOPDGDD": "2025-12-27",
+    "preguntas": 12,
+    "alternativas": 48,
+    "excepcionCorregida": "UC3M-T06-011 no notificable si riesgo improbable",
+    "certificacionIntegral": false
+  }
+}

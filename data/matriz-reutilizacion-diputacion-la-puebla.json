@@ -1,0 +1,32 @@
+{
+  "version": "2026-07-18",
+  "convocatoria": "diputacion-toledo-administrativo-c1-2026",
+  "politicaEditorial": "GENERACION_INTEGRA_DESDE_CERO",
+  "decisionUsuario": "No reutilizar ni adaptar temarios de otras convocatorias para evitar inconsistencias de alcance, nivel, estructura o versión normativa.",
+  "criterios": {
+    "GENERACION_DESDE_CERO": "El tema se redacta íntegramente a partir de su epígrafe oficial y de fuentes oficiales vigentes, sin copiar ni adaptar manuales de La Puebla, Carranque u otras oposiciones.",
+    "BLOQUEADO_POR_FUENTE_OFICIAL": "El tema no se redacta ni se publica hasta disponer de la fuente oficial específica, íntegra y vigente exigida por el programa."
+  },
+  "resumen": {
+    "temas": 40,
+    "generacionDesdeCero": 39,
+    "bloqueadosPorFuenteOficial": 1,
+    "temasReutilizados": 0
+  },
+  "ordenProduccion": {
+    "metodo": "secuencial",
+    "temas": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,22],
+    "nota": "El tema 22 se cierra al final cuando estén incorporados el Acuerdo Regulador y los Estatutos oficiales vigentes del OAPGT."
+  },
+  "reglasObligatorias": [
+    "Extraer literalmente el epígrafe oficial antes de redactar.",
+    "Diseñar un índice propio que cubra todos los términos del epígrafe y ninguno ajeno.",
+    "Consultar únicamente legislación, diarios oficiales y documentación institucional primaria vigente a julio de 2026.",
+    "Resaltar en negrita plazos, fechas, mayorías, cuantías y órganos competentes.",
+    "Añadir tablas comparativas y bloques exactos de ¡Foco Examen!.",
+    "Generar banco propio de preguntas y trazabilidad independiente para cada tema.",
+    "No usar el contenido de La Puebla como fuente editorial; solo podrá emplearse después como control externo para detectar contradicciones.",
+    "No declarar ningún tema aprobado sin revisión expresa del usuario."
+  ],
+  "estado": "POLITICA_APROBADA_POR_USUARIO"
+}

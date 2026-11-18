@@ -1,0 +1,322 @@
+{
+  "tema": 10,
+  "titulo": "Responsabilidad patrimonial de la Administración",
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T10-001",
+      "pregunta": "Según el artículo 106.2 de la Constitución, ¿qué circunstancia excluye expresamente la indemnización?",
+      "opciones": [
+        "El caso fortuito",
+        "La fuerza mayor",
+        "El funcionamiento normal",
+        "La ausencia de culpa"
+      ],
+      "correcta": 1,
+      "justificacion": "La Constitución excluye expresamente los casos de fuerza mayor.",
+      "trampa": "No confundir fuerza mayor con caso fortuito.",
+      "referencia": "Constitución Española, art. 106.2 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a106",
+      "respuestaLiteral": "La fuerza mayor"
+    },
+    {
+      "id": "DIP-T10-002",
+      "pregunta": "El daño indemnizable debe ser:",
+      "opciones": [
+        "Hipotético, general y futuro",
+        "Culpable, directo y contractual",
+        "Exclusivamente material",
+        "Efectivo, evaluable económicamente e individualizado"
+      ],
+      "correcta": 3,
+      "justificacion": "El daño indemnizable debe ser efectivo, evaluable económicamente e individualizado con relación a una persona o grupo de personas.",
+      "trampa": "La lesión también debe ser antijurídica, pero ello no sustituye estos tres requisitos.",
+      "referencia": "Ley 40/2015, art. 32.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32",
+      "respuestaLiteral": "Efectivo, evaluable económicamente e individualizado"
+    },
+    {
+      "id": "DIP-T10-003",
+      "pregunta": "La responsabilidad patrimonial puede derivar de un funcionamiento:",
+      "opciones": [
+        "Solo anormal",
+        "Normal o anormal",
+        "Solo normal",
+        "Únicamente ilícito"
+      ],
+      "correcta": 1,
+      "justificacion": "La Ley 40/2015 contempla el funcionamiento normal o anormal de los servicios públicos.",
+      "trampa": "La responsabilidad objetiva no exige necesariamente un funcionamiento ilícito.",
+      "referencia": "Ley 40/2015, art. 32.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32",
+      "respuestaLiteral": "Normal o anormal"
+    },
+    {
+      "id": "DIP-T10-004",
+      "pregunta": "Con carácter general, el derecho a reclamar prescribe al:",
+      "opciones": [
+        "Mes",
+        "Dos años",
+        "Año",
+        "Cuatro años"
+      ],
+      "correcta": 2,
+      "justificacion": "El plazo general de prescripción del derecho a reclamar es de un año.",
+      "trampa": "No confundir este plazo con los cuatro años de la declaración de lesividad.",
+      "referencia": "Ley 39/2015, art. 67.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a67",
+      "respuestaLiteral": "Año"
+    },
+    {
+      "id": "DIP-T10-005",
+      "pregunta": "En daños físicos o psíquicos, el plazo para reclamar comienza:",
+      "opciones": [
+        "Desde la curación o determinación del alcance de las secuelas",
+        "Siempre el día del accidente",
+        "Al presentar el alta laboral",
+        "Desde el primer informe médico"
+      ],
+      "correcta": 0,
+      "justificacion": "En daños físicos o psíquicos, el plazo comienza desde la curación o desde la determinación del alcance de las secuelas.",
+      "trampa": "El inicio del cómputo no coincide necesariamente con la fecha del hecho causante.",
+      "referencia": "Ley 39/2015, art. 67.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a67",
+      "respuestaLiteral": "Desde la curación o determinación del alcance de las secuelas"
+    },
+    {
+      "id": "DIP-T10-006",
+      "pregunta": "El informe del servicio cuyo funcionamiento causó la lesión debe emitirse, como máximo, en:",
+      "opciones": [
+        "5 días",
+        "10 días",
+        "15 días",
+        "1 mes"
+      ],
+      "correcta": 1,
+      "justificacion": "El informe del servicio debe emitirse en un plazo máximo de diez días.",
+      "trampa": "No confundir este plazo con el correspondiente al trámite de audiencia.",
+      "referencia": "Ley 39/2015, art. 81.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a81",
+      "respuestaLiteral": "10 días"
+    },
+    {
+      "id": "DIP-T10-007",
+      "pregunta": "En la normativa estatal, el dictamen consultivo es preceptivo cuando la indemnización reclamada sea igual o superior a:",
+      "opciones": [
+        "30.000 euros",
+        "100.000 euros",
+        "50.000 euros",
+        "No existe umbral"
+      ],
+      "correcta": 2,
+      "justificacion": "En la normativa estatal, el dictamen es preceptivo cuando la cuantía reclamada sea igual o superior a 50.000 euros, sin perjuicio de la cuantía autonómica aplicable.",
+      "trampa": "La legislación autonómica puede establecer un umbral diferente.",
+      "referencia": "Ley 39/2015, art. 81.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a81",
+      "respuestaLiteral": "50.000 euros"
+    },
+    {
+      "id": "DIP-T10-008",
+      "pregunta": "Transcurridos seis meses sin resolver una reclamación de responsabilidad patrimonial, esta se entiende:",
+      "opciones": [
+        "Desestimada",
+        "Estimada",
+        "Caducada",
+        "Suspendida"
+      ],
+      "correcta": 0,
+      "justificacion": "Transcurridos seis meses sin resolución expresa, la reclamación puede entenderse desestimada.",
+      "trampa": "En responsabilidad patrimonial el silencio no es estimatorio.",
+      "referencia": "Ley 39/2015, art. 91.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a91",
+      "respuestaLiteral": "Desestimada"
+    },
+    {
+      "id": "DIP-T10-009",
+      "pregunta": "El procedimiento simplificado de responsabilidad patrimonial debe resolverse en:",
+      "opciones": [
+        "15 días",
+        "20 días",
+        "30 días",
+        "3 meses"
+      ],
+      "correcta": 2,
+      "justificacion": "La tramitación simplificada debe resolverse en treinta días.",
+      "trampa": "No confundir este plazo con el plazo general de seis meses.",
+      "referencia": "Ley 39/2015, art. 96.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
+      "respuestaLiteral": "30 días"
+    },
+    {
+      "id": "DIP-T10-010",
+      "pregunta": "El particular perjudicado por la actuación de un empleado público debe reclamar directamente:",
+      "opciones": [
+        "Al empleado",
+        "Al superior jerárquico",
+        "Al Ministerio Fiscal",
+        "A la Administración correspondiente"
+      ],
+      "correcta": 3,
+      "justificacion": "El particular debe dirigir su reclamación directamente contra la Administración correspondiente.",
+      "trampa": "La eventual acción contra el empleado público es interna y posterior.",
+      "referencia": "Ley 40/2015, art. 36.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36",
+      "respuestaLiteral": "A la Administración correspondiente"
+    },
+    {
+      "id": "DIP-T10-011",
+      "pregunta": "La Administración ejercerá acción de regreso contra su autoridad o empleado cuando concurra:",
+      "opciones": [
+        "Cualquier error",
+        "Solo dolo",
+        "Dolo, culpa grave o negligencia grave",
+        "Culpa leve"
+      ],
+      "correcta": 2,
+      "justificacion": "La acción de regreso exige dolo, culpa grave o negligencia grave.",
+      "trampa": "La culpa leve no basta para exigir responsabilidad por esta vía.",
+      "referencia": "Ley 40/2015, art. 36.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36",
+      "respuestaLiteral": "Dolo, culpa grave o negligencia grave"
+    },
+    {
+      "id": "DIP-T10-012",
+      "pregunta": "Cuando varias Administraciones actúan conjuntamente mediante fórmulas colegiadas, la responsabilidad frente al particular será, como regla general:",
+      "opciones": [
+        "Solidaria",
+        "Mancomunada",
+        "Subsidiaria",
+        "Inexistente"
+      ],
+      "correcta": 0,
+      "justificacion": "Cuando varias Administraciones actúan conjuntamente, la responsabilidad frente al particular es solidaria como regla general.",
+      "trampa": "La distribución interna de responsabilidades entre Administraciones no puede perjudicar al particular.",
+      "referencia": "Ley 40/2015, art. 33.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a33",
+      "respuestaLiteral": "Solidaria"
+    },
+    {
+      "id": "DIP-T10-013",
+      "pregunta": "Según el artículo 32.1 de la Ley 40/2015, ¿la anulación administrativa o judicial de un acto presupone por sí sola derecho a indemnización?",
+      "opciones": [
+        "Sí, siempre que el acto resulte anulado",
+        "No: deben concurrir los requisitos de responsabilidad patrimonial y lesión indemnizable",
+        "Sí, si se interpuso un recurso administrativo",
+        "Sí, con independencia de la existencia de daño"
+      ],
+      "correcta": 1,
+      "justificacion": "El **art. 32.1 Ley 40/2015** señala expresamente que la anulación administrativa o contencioso-administrativa de actos o disposiciones **no presupone por sí misma** derecho a indemnización; deben concurrir lesión **antijurídica, efectiva, evaluable e individualizada**, nexo causal y demás requisitos legales.",
+      "trampa": "La **mera anulación** administrativa o judicial no reconoce por sí sola indemnización: exigen daño **antijurídico, efectivo, evaluable, individualizado y causalidad** (**32.1**).",
+      "referencia": "Ley 40/2015, art. 32.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32",
+      "respuestaLiteral": "No: deben concurrir los requisitos de responsabilidad patrimonial y lesión indemnizable"
+    },
+    {
+      "id": "DIP-T10-014",
+      "pregunta": "¿Quién debe ser indemnizado en un daño antijurídico por funcionamiento del servicio público?",
+      "opciones": [
+        "Solo funcionarios",
+        "Solo empresas",
+        "El particular lesionado si reúne los requisitos legales",
+        "Cualquier solicitante sin acreditar perjuicio"
+      ],
+      "correcta": 2,
+      "justificacion": "La lesión debe ser **efectiva**, **evaluable económicamente** e **individualizada**, sin deber jurídico de soportarla.",
+      "trampa": "La lesión ha de ser **efectiva, evaluable, individualizada** y el particular no tener **deber jurídico de soportarla**.",
+      "referencia": "Ley 40/2015, art. 32.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a32",
+      "respuestaLiteral": "El particular lesionado si reúne los requisitos legales"
+    },
+    {
+      "id": "DIP-T10-015",
+      "pregunta": "¿Cuántos días tienen las demás Administraciones implicadas para contestar la consulta prevista en el artículo 33.4?",
+      "opciones": [
+        "5",
+        "10",
+        "30",
+        "15"
+      ],
+      "correcta": 3,
+      "justificacion": "Artículo 33.4 Ley 40/2015: **15 días**.",
+      "trampa": "**Art. 33.4**: las otras Administraciones cuentan con **15 días** para manifestar lo procedente; no es plazo de audiencia a empleado.",
+      "referencia": "Ley 40/2015, art. 33.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a33",
+      "respuestaLiteral": "15"
+    },
+    {
+      "id": "DIP-T10-016",
+      "pregunta": "¿Cuánto dura el trámite de alegaciones en la acción de regreso contra el personal público?",
+      "opciones": [
+        "5 días",
+        "10 días",
+        "20 días",
+        "15 días"
+      ],
+      "correcta": 3,
+      "justificacion": "Artículo 36.4.a Ley 40/2015: **15 días**.",
+      "trampa": "**Regreso art. 36.4.a**: **15 días de alegaciones**; distinto de **10 días de audiencia** y de **5 días** de propuesta/resolución.",
+      "referencia": "Ley 40/2015, art. 36.4.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36",
+      "respuestaLiteral": "15 días"
+    },
+    {
+      "id": "DIP-T10-017",
+      "pregunta": "¿Cuánto dura el trámite de audiencia en el procedimiento del artículo 36.4?",
+      "opciones": [
+        "5 días",
+        "15 días",
+        "20 días",
+        "10 días"
+      ],
+      "correcta": 3,
+      "justificacion": "Artículo 36.4.c Ley 40/2015: **10 días**.",
+      "trampa": "**Art. 36.4.c**: audiencia en la acción de regreso **10 días**, no los 15 de alegaciones y prueba.",
+      "referencia": "Ley 40/2015, art. 36.4.c · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36",
+      "respuestaLiteral": "10 días"
+    },
+    {
+      "id": "DIP-T10-018",
+      "pregunta": "¿Cuánto tiempo tiene el órgano para formular la propuesta de resolución tras la audiencia en el procedimiento del artículo 36.4?",
+      "opciones": [
+        "5 días",
+        "10 días",
+        "15 días",
+        "20 días"
+      ],
+      "correcta": 0,
+      "justificacion": "Artículo 36.4.d Ley 40/2015: **5 días**.",
+      "trampa": "**Art. 36.4.d**: propuesta en **5 días** desde fin de audiencia; resolución en **otros 5 días** (**e**).",
+      "referencia": "Ley 40/2015, art. 36.4.d · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36",
+      "respuestaLiteral": "5 días"
+    },
+    {
+      "id": "DIP-T10-019",
+      "pregunta": "¿Qué efecto tiene la resolución declaratoria de responsabilidad del empleado público?",
+      "opciones": [
+        "Pone fin a la vía administrativa",
+        "No pone fin a la vía administrativa",
+        "No puede impugnarse",
+        "Es una norma general"
+      ],
+      "correcta": 0,
+      "justificacion": "Artículo 36.5 Ley 40/2015: pone fin a la vía administrativa.",
+      "trampa": "La resolución **pone fin a la vía administrativa** (**art. 36.5**), pero puede ser impugnada; no es irrecurrible.",
+      "referencia": "Ley 40/2015, art. 36.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a36",
+      "respuestaLiteral": "Pone fin a la vía administrativa"
+    },
+    {
+      "id": "DIP-T10-020",
+      "pregunta": "¿Qué ocurre cuando el procedimiento simplificado de responsabilidad patrimonial requiere trámites adicionales?",
+      "opciones": [
+        "Se extingue el derecho",
+        "Se tramita por procedimiento ordinario",
+        "Se concede indemnización automáticamente",
+        "Se archiva necesariamente"
+      ],
+      "correcta": 1,
+      "justificacion": "Si fuera necesario realizar un trámite no previsto para la simplificación, debe tramitarse por la vía **ordinaria**.",
+      "trampa": "Si precisa trámite que no cabe en la **simplificada**, se tramita por la **ordinaria** (**96.7**); no se pierde el derecho ni se estima por silencio.",
+      "referencia": "Ley 39/2015, art. 96.7 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a96",
+      "respuestaLiteral": "Se tramita por procedimiento ordinario"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "DIP_C1_T08_T11",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "fuentesBOEPorPregunta": true,
+    "soloReabrirPorErrorONorma": true,
+    "funcionalNavegador": "PENDIENTE_CONTROL_TRANSVERSAL",
+    "certificacionIntegral": false
+  }
+}

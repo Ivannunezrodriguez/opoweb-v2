@@ -1,0 +1,110 @@
+{
+  "tema": 6,
+  "epigrafeOficial": "Ley Orgánica 3/2018 de protección de datos: disposiciones generales, principios, derechos, responsable, encargado y delegado de protección de datos.",
+  "cobertura": [
+    {
+      "bloque": "Disposiciones generales",
+      "apartados": [
+        "1"
+      ],
+      "estado": "CUBIERTO"
+    },
+    {
+      "bloque": "Principios y licitud",
+      "apartados": [
+        "2",
+        "3",
+        "4"
+      ],
+      "estado": "CUBIERTO"
+    },
+    {
+      "bloque": "Derechos e información",
+      "apartados": [
+        "5",
+        "6"
+      ],
+      "estado": "CUBIERTO"
+    },
+    {
+      "bloque": "Responsable y encargado",
+      "apartados": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ],
+      "estado": "CUBIERTO"
+    },
+    {
+      "bloque": "Delegado de protección de datos",
+      "apartados": [
+        "11"
+      ],
+      "estado": "CUBIERTO"
+    },
+    {
+      "bloque": "Autoridades de control y sector público",
+      "apartados": [
+        "12"
+      ],
+      "estado": "CUBIERTO"
+    }
+  ],
+  "preguntas": 12,
+  "estado": "AUDITADO",
+  "controlIntegralJuridico20261104": {
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "fecha": "2026-11-04",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "fuenteOficial": "BOE-A-2026-14624; BOE-A-2015-10566 o BOE-A-2018-16673/RGPD según tema",
+    "informe": "content/uc3m/tema-06/cotejo-integral-2026-11-04.md",
+    "controlFuncional": "PENDIENTE_NAVEGADOR_REAL",
+    "aprobacionUsuario": "PENDIENTE",
+    "observaciones": "Corrección de fecha de corte normativa en fuentes.md"
+  },
+  "controlLoteJuridico20261106": {
+    "fecha": "2026-11-06",
+    "modo": "REFUERZO_FOCAL_NO_CIERRE",
+    "temasAnalizados": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "seccionesNuevasManual": "13.1–13.3",
+    "fundamento": "LOPDGDD arts 32 34 36 37; RGPD 12",
+    "preguntasNuevas": 4,
+    "alternativas": 16,
+    "ids": "UC3M-JUR-20261106-017..020",
+    "recurso": "data/uc3m-repaso-juridico-t02-t07-20261106.json",
+    "bancoOriginalSinModificar": true,
+    "certificacionLegislativaIntegral": false,
+    "certificacionNavegador": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "estado": "DESARROLLO_DOCUMENTAL_COMPLETO_CON_RESERVA_CORTE",
+    "apartadosCubiertos": 6,
+    "supuestosResueltosAgregados": 2,
+    "bancoHistoricoPreguntas": 12,
+    "bancoHistoricoAlternativas": 48,
+    "fechaCorteNormativoExacta": "PENDIENTE_RESOLUCION_PRIMARIA",
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false
+  },
+  "version": "2026-11-08",
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T06_AUDITORIA_RGPD_LOPDGDD_2026-11-09.md",
+    "preguntas": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaE2E": false
+  }
+}

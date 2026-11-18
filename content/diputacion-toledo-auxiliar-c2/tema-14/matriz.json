@@ -1,0 +1,178 @@
+{
+  "tema": 14,
+  "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
+  "epigrafeOficial": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE",
+  "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
+  "fuentesPrimarias": [
+    "https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Usos del certificado electrónico",
+      "norma": "Ley 39/2015",
+      "articulos": "9–12",
+      "contenidoExigible": "Identificación, firma y asistencia por medios electrónicos"
+    },
+    {
+      "inciso": "Clases de certificado",
+      "norma": "Reglamento eIDAS 910/2014",
+      "articulos": "3; 28; 38",
+      "contenidoExigible": "Certificados de firma de personas físicas, de sello de personas jurídicas y cualificados"
+    },
+    {
+      "inciso": "Tipos de firma y sello",
+      "norma": "Reglamento eIDAS 910/2014",
+      "articulos": "25–26; 35–36",
+      "contenidoExigible": "Firma simple/avanzada/cualificada, sellos avanzados/cualificados y efectos"
+    },
+    {
+      "inciso": "Soportes y dispositivos",
+      "norma": "Reglamento eIDAS 910/2014",
+      "articulos": "29–31; 39",
+      "contenidoExigible": "Soporte software, tarjeta y remoto; requisitos de dispositivo cualificado"
+    },
+    {
+      "inciso": "Prestadores y autoridades certificadoras",
+      "norma": "Reglamento eIDAS 910/2014 y Ley 6/2020",
+      "articulos": "20–24 eIDAS; 9–12 Ley 6/2020",
+      "contenidoExigible": "Cualificación, listas de confianza, auditoría, estado de certificados, custodia y comunicación"
+    },
+    {
+      "inciso": "Caducidad, suspensión y revocación",
+      "norma": "Ley 6/2020",
+      "articulos": "4–6",
+      "contenidoExigible": "Vigencia máxima, revocación y suspensión de certificados"
+    }
+  ],
+  "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-14/fuentes.md",
+  "manual": "content/diputacion-toledo-auxiliar-c2/tema-14/manual.md",
+  "notas": "Banco T14 con 20 preguntas y 80 alternativas cotejadas individualmente el 05/11/2026; fuentes, matriz y manual indican EN_AUDITORIA. Pendientes manual jurídico integral y pruebas funcionales reales, móvil/PWA/accesibilidad.",
+  "controlLey6_2020_20261105": {
+    "fecha": "2026-11-05",
+    "alcance": "ARTS_4_5_6_7_9_LEY6_2020",
+    "estado": "COTEJO_FOCAL_PENDIENTE_INTEGRAL",
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-legal-ley6-2020-2026-11-05.md",
+    "revocacionNueveCausas": true,
+    "suspension": "a,c,h; dudas b,g (si prevista)",
+    "vigenciaMaximaAnios": 5,
+    "conservacionEvidenciasAnios": 15,
+    "seguroMinimoEuros": 1500000,
+    "incrementoSeguroEuros": 500000,
+    "preavisoCeseMeses": 2,
+    "banco": "20 preguntas, no cotejadas individualmente en esta intervención",
+    "certificacionIntegral": false,
+    "navegadorReal": "PENDIENTE"
+  },
+  "controlBancoCompleto20261105": {
+    "fecha": "2026-11-05",
+    "tipo": "COTEJO_JURIDICO_PEDAGOGICO_ALTERNATIVA_POR_ALTERNATIVA",
+    "preguntas": 20,
+    "alternativas": 80,
+    "claves": {
+      "A": 5,
+      "B": 5,
+      "C": 5,
+      "D": 5
+    },
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-banco-completo-2026-11-05.md",
+    "fuentes": [
+      "Ley 39/2015",
+      "Ley 6/2020",
+      "Reglamento UE 910/2014 consolidado 2024-10-18",
+      "FNMT FAQ 1213"
+    ],
+    "certificacionManualIntegral": false,
+    "navegadorReal": "PENDIENTE"
+  },
+  "controlEidasReformado20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_FOCAL_2024_1183_PENDIENTE_COTEJO_INTEGRAL",
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-eidas-reformado-2026-11-05.md",
+    "articulos": [
+      "5 bis",
+      "5 quater",
+      "24 bis",
+      "29",
+      "29 bis",
+      "39 bis",
+      "45 ter–nonies",
+      "45 decies–undecies",
+      "45 duodecies–terdecies"
+    ],
+    "fuentes": [
+      "Reglamento UE 910/2014 consolidado 2024-10-18",
+      "Reglamento UE 2024/1183"
+    ],
+    "plazoCartera": "24 meses después de entrada en vigor de actos de ejecución 5 bis.23 y 5 quater.6",
+    "gratuitaPersonaFisica": "expedicion, uso y revocacion",
+    "maxCertificacionCarteraAnios": 5,
+    "evaluacionVulnerabilidadesCadaAnios": 2,
+    "certificacionManualIntegral": false,
+    "comprobacionNavegador": "PENDIENTE",
+    "banco": "20 preguntas/80 alternativas cotejadas en otro lote, sin modificaciones"
+  },
+  "controlRd203Administraciones20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_FOCAL_OCHO_APARTADOS_PENDIENTE_COTEJO_INTEGRAL",
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-rd203-administraciones-2026-11-05.md",
+    "fuentes": [
+      "Ley 39/2015 arts 9–12",
+      "RD 203/2021 arts 16–23, 26–30, consolidado 02/04/2025",
+      "Ley 40/2015 arts 38–43"
+    ],
+    "subapartadosCorregidos": 8,
+    "reglasEspeciales": {
+      "csvVerificacionAniosMinimoAGE": 5,
+      "certificadoCualificadoVigenciaAniosMaximo": 5,
+      "funcionarioHabilitado": "consentimiento expreso escrito y copia",
+      "sedeAGE": "certificado cualificado autenticacion web, dominio .gob.es",
+      "plataforma": "SGAD y adhesion, gratuita para sector publico",
+      "empleadoProfesional": "certificado cualificado, uso restringido por anonimato justificado"
+    },
+    "banco": "20/80 no modificado",
+    "certificacionIntegral": false,
+    "navegadorReal": "PENDIENTE"
+  },
+  "controlRd203PersonalEntornos20261105": {
+    "fecha": "2026-11-05",
+    "alcance": "FIRMA_EMPLEADO_Y_ENTORNOS_CERRADOS_RD203_ARTS_22_24_25",
+    "estado": "COTEJO_FOCAL_PENDIENTE_COTEJO_INTEGRAL",
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-14/cotejo-rd203-personal-entornos-2026-11-05.md",
+    "fuentes": [
+      "RD 203/2021 arts. 22, 24, 25 (consolidado 02/04/2025)",
+      "Ley 40/2015 arts. 43, 44 (consolidado 02/08/2024)"
+    ],
+    "reglas": {
+      "certificadoEmpleadoPublico": "CUALIFICADO conforme a art 22.3",
+      "identificacionAGE": "Ley 39/2015 y ENS conforme al nivel de seguridad",
+      "firmaAGE": "certificados cualificados específicos; relaciones con otras AAPP cuando los admitan",
+      "repositoriosPersonal": "identificación para servicios y aplicaciones, no firma por sí misma",
+      "entornoMismaAdministracion": "condiciones de la Administración",
+      "entornoDiferentesAdministraciones": "convenio",
+      "condicionesEstatales": "Secretaría General de Administración Digital",
+      "seguridadEntorno": "Esquema Nacional de Seguridad"
+    },
+    "banco": "20 preguntas/80 alternativas sin modificación",
+    "certificacionIntegral": false,
+    "navegadorReal": "PENDIENTE"
+  },
+  "cierreEditorialC2_14_16_20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AUDITADO_DOCUMENTAL",
+    "normas": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-14046",
+      "https://eur-lex.europa.eu/eli/reg/2014/910/2024-10-18/spa",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2021-5032"
+    ],
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-14-16-2026-11-06.md"
+  }
+}

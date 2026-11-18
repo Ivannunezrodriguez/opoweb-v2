@@ -1,0 +1,203 @@
+{
+  "tema": 19,
+  "epigrafe": "Presupuesto de la UC3M (II): ejecución de gastos, gestión presupuestaria y económico-financiera, ordenación, documentos contables, liquidación y cierre.",
+  "estado": "AUDITADO",
+  "controlVigencia": "2026-07-23",
+  "cobertura": [
+    {
+      "bloque": "Ejecución de gastos",
+      "apartados": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M 2026 Normas Basicas, arts. 15–16, Ley 5/2025 CM",
+      "url20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
+    },
+    {
+      "bloque": "Gestión presupuestaria y económico-financiera",
+      "apartados": [
+        1,
+        2,
+        5,
+        6,
+        8,
+        9,
+        12,
+        15,
+        16
+      ],
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "LOSU arts. 53–59; Ley 5/2025 CM arts. 10,108,182",
+      "url20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217"
+    },
+    {
+      "bloque": "Ordenación de pagos y Tesorería",
+      "apartados": [
+        3,
+        14
+      ],
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M 2026 Normas Basicas art. 15.2.1; Ley 5/2025 CM art. 182",
+      "url20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
+    },
+    {
+      "bloque": "Documentos contables",
+      "apartados": [
+        4,
+        13,
+        16
+      ],
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M 2026 Normas Basicas, art. 15.2.1: O y ADO",
+      "url20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
+    },
+    {
+      "bloque": "Liquidación",
+      "apartados": [
+        17,
+        18,
+        19
+      ],
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M 2026 presupuestos, liquidacion y resultado; Ley 5/2025 CM",
+      "url20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217"
+    },
+    {
+      "bloque": "Cierre y cuentas anuales",
+      "apartados": [
+        20,
+        21
+      ],
+      "estado": "cubierto",
+      "fundamentoPrimario20261106": "UC3M presupuesto 2026, cuentas anuales y rendicion; LOSU 59",
+      "url20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a59"
+    }
+  ],
+  "fuentesClave": [
+    "Presupuesto UC3M 2026, Volumen I y Normas Básicas de Gestión",
+    "Ley Orgánica 2/2023, del Sistema Universitario",
+    "Ley 5/2025, de 23 de diciembre, de Hacienda de la Comunidad de Madrid",
+    "Estatutos de la Universidad Carlos III de Madrid",
+    "Plan General de Contabilidad Pública aplicable"
+  ],
+  "riesgosEditorialesCorregidos": [
+    "El borrador utilizaba categorías genéricas sin identificar documentos contables habituales.",
+    "No distinguía suficientemente autorización, compromiso, obligación, ordenación y pago material.",
+    "No desarrollaba resultado presupuestario, remanente de tesorería ni operaciones no presupuestarias.",
+    "No vinculaba la gestión con el Presupuesto UC3M 2026 y sus Normas Básicas de Gestión.",
+    "La matriz y las fuentes citaban como vigente la Ley 9/1990, derogada desde el 1 de enero de 2026; se sustituye por la Ley 5/2025."
+  ],
+  "controlIntegralBanco20261104": {
+    "fecha": "2026-11-04",
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "preguntasVerificadas": 12,
+    "alternativasVerificadas": 48,
+    "informe": "content/uc3m/tema-19/cotejo-integral-2026-11-04.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "reservaFuentePrimaria": "RESUELTA PARA NOMENCLATURA Y PROCEDIMIENTOS INSPECCIONADOS: original Volumen I UC3M 2026 arts 15.2.1 p98 y 16.2-3 pp101-102; auditoría del resto del documento aún no certificada",
+    "certificacionIntegral": "PENDIENTE",
+    "controlFuentePrimaria20261104": {
+      "estado": "VERIFICADO_EN_PDF_INSTITUCIONAL_ORIGINAL",
+      "documento": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "paginas": [
+        98,
+        101,
+        102
+      ],
+      "articulos": [
+        "15.2.1",
+        "16.2",
+        "16.3"
+      ],
+      "cuestiones": [
+        "UC3M-T19-005",
+        "UC3M-T19-006"
+      ],
+      "sinCertificacionIntegral": true
+    }
+  },
+  "controlFuentePrimaria20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REVALIDACION_DOCUMENTAL_ACOTADA",
+    "fuente": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+    "articulos": [
+      "10",
+      "15.2.1",
+      "15.2.3",
+      "16.2",
+      "16.3"
+    ],
+    "paginas": [
+      80,
+      98,
+      101,
+      102
+    ],
+    "refAproxCorregida": true,
+    "report": "content/uc3m/COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md",
+    "certificacionIntegral": false
+  },
+  "controlEconomiaLCSP20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REFUERZO_FOCAL_SIN_CIERRE",
+    "fuente": "LCSP art. 198.4–6 y Normas Básicas UC3M 2026 arts. 15.2.1 y 16",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902",
+    "manual": "24",
+    "repaso": "content/uc3m/REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md",
+    "bancoComplementario": "data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json",
+    "preguntasComplementarias": 3,
+    "indicesDeRepaso": "5–7",
+    "bancoHistoricoSinCambios": true,
+    "simulacrosSinCambios": true,
+    "certificacionIntegral": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "cierreDocumentalT19_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T19_20261106.md",
+    "prueba": "tests/validate-uc3m-cierre-t19-20261106.mjs",
+    "bloquesMatriz": 6,
+    "preguntasOriginales": 12,
+    "alternativasOriginales": 48,
+    "preguntasComplementarias": 3,
+    "alternativasComplementarias": 12,
+    "ejercicios": 15,
+    "alternativas": 60,
+    "correccionConservada": "O = propuesta de pago, ADO = autorizacion compromiso y propuesta de pago segun art.15.2.1 UC3M",
+    "referencesMejoradas": 15,
+    "estudioLCSP": "198.4–6, conformidad y pago 30 dias, suspension tras 4 meses preaviso 1, resolucion tras 6",
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "navegadorE2E": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA",
+    "pendientes": [
+      "corte legislativo por resolucion primaria UC3M",
+      "prueba Node CI y navegador real",
+      "WCAG movil PWA persistencia y tests",
+      "auditoria juridica de cada frase a fecha de corte y aprobacion usuario"
+    ]
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "acta": "audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md",
+    "fuente": "Presupuesto UC3M 2026 Vol. I, Normas Básicas de Gestión, PDF 3807877 bytes",
+    "bloques": 6,
+    "preguntas": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
+  }
+}

@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0f172a">
+  <meta name="description" content="OpoWeb: temarios, tests y seguimiento de oposiciones de Administración Pública y universidades.">
+  <title>OpoWeb v2 · Oposiciones</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/styles.css?v=0.27.34">
+  <link rel="stylesheet" href="assets/study-progress.css">
+  <link rel="stylesheet" href="assets/test-history.css">
+  <link rel="stylesheet" href="assets/error-review.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <p class="eyebrow">OpoWeb v2</p>
+      <h1>Oposiciones de Administración Pública</h1>
+      <p class="subtitle">Temarios oficiales desarrollados y en revisión jurídica continua. Consulta las fuentes y su fecha de control.</p>
+    </div>
+    <div class="header-actions">
+      <button id="theme-toggle" class="btn secondary" type="button" aria-label="Cambiar tema visual">🌙 Oscuro</button>
+      <span class="version" title="Versión editorial de la aplicación">v0.27.34</span>
+    </div>
+  </header>
+  <nav class="site-nav" aria-label="Secciones de OpoWeb">
+    <a href="index.html" aria-current="page">📚 <span class="nav-full">Temarios y convocatorias</span><span class="nav-short">Temarios</span></a>
+    <a href="practice.html">📝 <span class="nav-full">Tests y simulacros</span><span class="nav-short">Practicar</span></a>
+    <a href="radar.html">🔎 <span class="nav-full">OpoRadar · Empleo público</span><span class="nav-short">Radar</span></a>
+  </nav>
+  <main id="app" class="layout" aria-live="polite">
+    <section class="panel intro"><h2>Cargando convocatorias…</h2></section>
+  </main>
+  <footer>
+    <p>Los contenidos se corrigen contra fuentes oficiales y cada cambio queda registrado en Git.</p>
+  </footer>
+  <script type="module">
+    async function removeLegacyOfflineLayer() {
+      if ('serviceWorker' in navigator) {
+        const registrations = await navigator.serviceWorker.getRegistrations();
+        await Promise.allSettled(registrations.map(registration => registration.unregister()));
+      }
+      if ('caches' in window) {
+        const keys = await caches.keys();
+        await Promise.allSettled(keys.map(key => caches.delete(key)));
+      }
+    }
+
+    try {
+      await removeLegacyOfflineLayer();
+    } catch (_) {
+      // La aplicación debe arrancar aunque el navegador no permita limpiar cachés.
+    }
+
+    await import('./assets/app.js?v=0.27.36');
+    import('./assets/runtime-enhancements.js?v=0.27.34').catch(() => {});
+  </script>
+</body>
+</html>

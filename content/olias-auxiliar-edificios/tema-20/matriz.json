@@ -1,0 +1,49 @@
+{
+  "tema": 20,
+  "numeroEnBloque": 15,
+  "bloque": "especifica",
+  "epigrafeOficial": "Jardinería. Conocimiento, manejo y mantenimiento de herramienta básica de jardinería (tijeras de poda, cortacésped, escarificadora, desbrozadora, cortasetos, azadas, palas, rastrillos y otras herramientas). Operaciones básicas de mantenimiento de jardines (colocación de aspersores, regulación y puesta en funcionamiento, conservación de riego, limpieza, calendario de labores de conservación de jardines) Conocimientos básicos de aplicación de productos para el jardín (abono, insecticidas, planificación de fertilización, buenas prácticas ambientales en el uso de productos fitosanitarios)",
+  "estado": "AUDITADO",
+  "fuentePrograma": "BOP Toledo 204/2026, anuncio 4833, Anexo II, CSV 2026.00004833",
+  "filas": [
+    {
+      "inciso": "Herramientas de jardinería",
+      "norma": "RD 1215/1997 y LPRL",
+      "articulos": "RD 1215/1997 arts. 3 y 5; LPRL arts. 14-17",
+      "contenidoExigible": "Máquinas, uso y seguridad"
+    },
+    {
+      "inciso": "Riego y aspersores",
+      "norma": "Tecnología básica de riego",
+      "articulos": "Componentes según instalación",
+      "contenidoExigible": "Programador, electroválvulas y emisores"
+    },
+    {
+      "inciso": "Operaciones de mantenimiento",
+      "norma": "Buenas prácticas agronómicas",
+      "articulos": "Según especies y plan ambiental",
+      "contenidoExigible": "Calendario, poda y limpieza"
+    },
+    {
+      "inciso": "Abonos y planificación",
+      "norma": "Buenas prácticas agronómicas",
+      "articulos": "Etiqueta y ficha de producto",
+      "contenidoExigible": "NPK, dosificación y prevención"
+    },
+    {
+      "inciso": "Productos fitosanitarios profesionales",
+      "norma": "RD 1311/2012",
+      "articulos": "arts. 17, 18 y 20",
+      "contenidoExigible": "Carnés básico, cualificado, fumigador, piloto; validez 10 años y requisitos"
+    }
+  ],
+  "fechaContrasteParcial": "2026-11-04",
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVA_LOCAL",
+    "incisosVerificados": 5,
+    "supuestosConcretos": 3,
+    "preguntasRevisadas": 16,
+    "certificacionIntegral": false
+  }
+}

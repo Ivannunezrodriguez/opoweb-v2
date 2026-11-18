@@ -1,0 +1,46 @@
+# Fuentes oficiales · Tema 9
+
+## Normativa principal
+
+1. **Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas**.
+   - Especialmente artículos **9 a 12**, **13**, **14**, **16**, **17**, **26**, **27**, **41**, **43**, **53** y **70**.
+   - Referencia BOE: **BOE-A-2015-10565**.
+   - Texto consolidado consultado con última actualización publicada el **6 de noviembre de 2024**.
+
+2. **Ley 40/2015, de 1 de octubre, de Régimen Jurídico del Sector Público**.
+   - Especialmente artículos **38 a 46** sobre sede electrónica, portal de internet, identificación de las Administraciones, firma y actuación automatizada.
+   - Referencia BOE: **BOE-A-2015-10566**.
+
+3. **Real Decreto 203/2021, de 30 de marzo**, por el que se aprueba el Reglamento de actuación y funcionamiento del sector público por medios electrónicos.
+   - Referencia BOE: **BOE-A-2021-5032**.
+   - Texto consolidado consultado con última actualización publicada el **2 de abril de 2025**.
+
+## Normativa complementaria
+
+4. **Real Decreto 311/2022, de 3 de mayo**, por el que se regula el Esquema Nacional de Seguridad.
+
+5. **Real Decreto 4/2010, de 8 de enero**, por el que se regula el Esquema Nacional de Interoperabilidad.
+
+6. **Reglamento (UE) 2016/679** y **Ley Orgánica 3/2018**, en materia de protección de datos personales.
+
+## Criterio editorial
+
+- Redacción íntegra desde cero.
+- No se reutiliza contenido de La Puebla ni de otras convocatorias.
+- Se mantiene la literalidad de conceptos jurídicos esenciales.
+- Los datos temporales y obligaciones se resaltan en **negrita**.
+
+
+## Auditoría jurídica focalizada — **31/10/2026**
+
+- [Ley 39/2015, artículo 68.4, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565): fecha de presentación de solicitudes subsanadas electrónicamente por sujetos obligados.
+- [Ley 40/2015, artículos 41 y 42, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566): actuación administrativa automatizada, órganos responsables, sello electrónico y **CSV**.
+- [RD 4/2010, BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2010-1331): **Esquema Nacional de Interoperabilidad**.
+
+**Cambios:** preguntas **DIP-T09-015 a 018** revisadas; tabla de contraste añadida al manual. Quedan pendientes revisión integral de todas las materias y pruebas funcionales.
+
+## Cierre jurídico-pedagógico del bloque 8–11 · **05/11/2026**
+
+**Tema 9 auditado** dentro del lote de cuatro temas: **20 preguntas y 80 alternativas**, bibliografía oficial y [**cotejo conjunto del bloque**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-08-11-2026-11-05.md). Se mantiene cerrado salvo **error acreditado** o **reforma normativa**. La prueba de navegador es **control técnico transversal** y no obliga a repetir este temario.
+
+> ⚠️ **¡Foco Examen!:** La referencia y el supuesto específico de cada pregunta se explican en el manual y en el banco, sin extrapolar órganos, plazos o mayorías de otros procedimientos.

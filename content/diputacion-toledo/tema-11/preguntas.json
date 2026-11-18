@@ -1,0 +1,322 @@
+{
+  "tema": 11,
+  "titulo": "Especialidades del procedimiento administrativo local, registro, presentación, comunicaciones y notificaciones",
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T11-001",
+      "pregunta": "¿Cuál es la norma básica general aplicable al procedimiento administrativo de las entidades locales?",
+      "opciones": [
+        "La Ley 39/2015",
+        "Exclusivamente el ROF de 1986",
+        "La Ley de Enjuiciamiento Civil",
+        "El Código de Comercio"
+      ],
+      "correcta": 0,
+      "justificacion": "El procedimiento administrativo local se rige con carácter básico por la Ley 39/2015, sin perjuicio de las especialidades establecidas por la normativa de régimen local.",
+      "trampa": "El ROF contiene especialidades locales, pero no sustituye a la Ley 39/2015.",
+      "referencia": "Ley 39/2015, art. 2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a2",
+      "respuestaLiteral": "La Ley 39/2015"
+    },
+    {
+      "id": "DIP-T11-002",
+      "pregunta": "El registro electrónico general permite presentar documentos:",
+      "opciones": [
+        "Las 24 horas de todos los días del año",
+        "Solo en horario de oficina",
+        "Solo en días hábiles",
+        "Hasta las 15:00 horas"
+      ],
+      "correcta": 0,
+      "justificacion": "El registro electrónico permite la presentación de documentos durante las 24 horas de todos los días del año.",
+      "trampa": "La disponibilidad permanente no convierte todos los días en hábiles a efectos de cómputo.",
+      "referencia": "Ley 39/2015, art. 31.2.a · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31",
+      "respuestaLiteral": "Las 24 horas de todos los días del año"
+    },
+    {
+      "id": "DIP-T11-003",
+      "pregunta": "Para cumplir un plazo fijado en días hábiles, ¿cómo se computa una presentación de la persona interesada en un día inhábil mediante registro electrónico?",
+      "opciones": [
+        "El mismo día",
+        "En la primera hora del primer día hábil siguiente",
+        "El día hábil anterior",
+        "Cuando la revise un funcionario"
+      ],
+      "correcta": 1,
+      "justificacion": "El **art. 31.2.b Ley 39/2015** reputa presentada la documentación **en la primera hora del primer día hábil siguiente** para plazos en **días hábiles**, salvo norma que expresamente permita recepción en inhábil.",
+      "trampa": "El sistema recibe el documento, pero su efecto temporal se traslada al primer día hábil siguiente.",
+      "referencia": "Ley 39/2015, art. 31.2.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31",
+      "respuestaLiteral": "En la primera hora del primer día hábil siguiente"
+    },
+    {
+      "id": "DIP-T11-004",
+      "pregunta": "El plazo ordinario para subsanar una solicitud incompleta es de:",
+      "opciones": [
+        "5 días",
+        "15 días",
+        "10 días",
+        "1 mes"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 68 de la Ley 39/2015 establece un plazo ordinario de 10 días para subsanar la falta o aportar los documentos preceptivos.",
+      "trampa": "Los 5 días corresponden a una posible ampliación excepcional, no al plazo inicial.",
+      "referencia": "Ley 39/2015, art. 68.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
+      "respuestaLiteral": "10 días"
+    },
+    {
+      "id": "DIP-T11-005",
+      "pregunta": "Cuando un sujeto obligado a relacionarse electrónicamente presenta presencialmente una solicitud, la fecha válida de presentación será:",
+      "opciones": [
+        "La de la subsanación electrónica",
+        "La de la presentación presencial",
+        "La del requerimiento",
+        "La de la resolución"
+      ],
+      "correcta": 0,
+      "justificacion": "La solicitud se considera presentada en la fecha en que el sujeto obligado realiza la subsanación por medios electrónicos.",
+      "trampa": "La fecha inicial de presentación en papel no se conserva como fecha válida.",
+      "referencia": "Ley 39/2015, art. 68.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a68",
+      "respuestaLiteral": "La de la subsanación electrónica"
+    },
+    {
+      "id": "DIP-T11-006",
+      "pregunta": "Toda notificación debe cursarse dentro del plazo de:",
+      "opciones": [
+        "5 días desde la iniciación",
+        "15 días desde la firma",
+        "1 mes desde la resolución",
+        "10 días desde que el acto fue dictado"
+      ],
+      "correcta": 3,
+      "justificacion": "El artículo 40.2 de la Ley 39/2015 establece que toda notificación debe cursarse dentro de los 10 días siguientes a la fecha en que el acto haya sido dictado.",
+      "trampa": "Este plazo no es el mismo que el de rechazo de una notificación electrónica.",
+      "referencia": "Ley 39/2015, art. 40.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a40",
+      "respuestaLiteral": "10 días desde que el acto fue dictado"
+    },
+    {
+      "id": "DIP-T11-007",
+      "pregunta": "Si la notificación electrónica es obligatoria o se eligió expresamente y no se accede a su contenido, ¿cuándo se entiende rechazada?",
+      "opciones": [
+        "5 días hábiles",
+        "10 días naturales",
+        "10 días hábiles",
+        "15 días naturales"
+      ],
+      "correcta": 1,
+      "justificacion": "El **art. 43.2 Ley 39/2015** exige que la notificación sea **obligatoria** o **elegida expresamente**. En tal caso se rechaza tras **10 días naturales** desde su puesta a disposición sin acceder, sin confundirlo con el aviso informativo del **art. 41.6**.",
+      "trampa": "La Ley establece días naturales, no días hábiles.",
+      "referencia": "Ley 39/2015, art. 43.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a43",
+      "respuestaLiteral": "10 días naturales"
+    },
+    {
+      "id": "DIP-T11-008",
+      "pregunta": "En una notificación en papel en el domicilio, puede hacerse cargo otra persona que se encuentre allí si es mayor de:",
+      "opciones": [
+        "12 años",
+        "14 años",
+        "16 años",
+        "18 años"
+      ],
+      "correcta": 1,
+      "justificacion": "Puede hacerse cargo de la notificación cualquier persona mayor de 14 años que se encuentre en el domicilio y haga constar su identidad.",
+      "trampa": "No se exige que la persona receptora sea mayor de edad.",
+      "referencia": "Ley 39/2015, art. 42.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a42",
+      "respuestaLiteral": "14 años"
+    },
+    {
+      "id": "DIP-T11-009",
+      "pregunta": "Si el primer intento de notificación en papel resulta fallido, el segundo intento debe realizarse:",
+      "opciones": [
+        "Dentro de los 10 días siguientes",
+        "Al mes siguiente",
+        "No procede un segundo intento",
+        "Dentro de los 3 días siguientes"
+      ],
+      "correcta": 3,
+      "justificacion": "La notificación debe repetirse por una sola vez y en una hora distinta dentro de los 3 días siguientes.",
+      "trampa": "No son 10 días; ese plazo corresponde a otras reglas de notificación.",
+      "referencia": "Ley 39/2015, art. 42.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a42",
+      "respuestaLiteral": "Dentro de los 3 días siguientes"
+    },
+    {
+      "id": "DIP-T11-010",
+      "pregunta": "Cuando se desconoce a los interesados o no puede practicarse la notificación, el anuncio obligatorio se publica en:",
+      "opciones": [
+        "El tablón municipal exclusivamente",
+        "El boletín provincial exclusivamente",
+        "Un periódico local",
+        "El Boletín Oficial del Estado"
+      ],
+      "correcta": 3,
+      "justificacion": "La notificación infructuosa se practica mediante un anuncio publicado en el Boletín Oficial del Estado.",
+      "trampa": "Otros medios pueden ser complementarios, pero no sustituyen al anuncio en el BOE.",
+      "referencia": "Ley 39/2015, art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a44",
+      "respuestaLiteral": "El Boletín Oficial del Estado"
+    },
+    {
+      "id": "DIP-T11-011",
+      "pregunta": "La ausencia del aviso enviado al correo electrónico o dispositivo móvil sobre una notificación electrónica:",
+      "opciones": [
+        "No invalida la notificación",
+        "Invalida siempre la notificación",
+        "Suspende automáticamente el plazo",
+        "Convierte la notificación en papel"
+      ],
+      "correcta": 0,
+      "justificacion": "El aviso es accesorio y su falta no afecta a la validez de la notificación puesta a disposición.",
+      "trampa": "No confundir el aviso complementario con la notificación propiamente dicha.",
+      "referencia": "Ley 39/2015, art. 41.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a41",
+      "respuestaLiteral": "No invalida la notificación"
+    },
+    {
+      "id": "DIP-T11-012",
+      "pregunta": "Las copias auténticas expedidas por una Administración pública:",
+      "opciones": [
+        "Tienen la misma validez y eficacia que los originales",
+        "Carecen de valor fuera del órgano que las expide",
+        "Solo sirven durante 10 días",
+        "Deben compulsarse de nuevo"
+      ],
+      "correcta": 0,
+      "justificacion": "Las copias auténticas realizadas por una Administración pública tienen la misma validez y eficacia que los documentos originales.",
+      "trampa": "No deben confundirse con simples fotocopias sin autenticación.",
+      "referencia": "Ley 39/2015, art. 27 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a27",
+      "respuestaLiteral": "Tienen la misma validez y eficacia que los originales"
+    },
+    {
+      "id": "DIP-T11-013",
+      "pregunta": "En un procedimiento selectivo, ¿en qué medio debe realizarse la publicación sustitutiva de la notificación conforme al artículo 45.1.b de la Ley 39/2015?",
+      "opciones": [
+        "En cualquier red social del tribunal",
+        "Siempre exclusivamente en el BOE",
+        "En el medio indicado por la propia convocatoria",
+        "Únicamente en el domicilio de cada aspirante"
+      ],
+      "correcta": 2,
+      "justificacion": "El **art. 45.1.b Ley 39/2015** establece que la convocatoria del procedimiento debe indicar el **medio** donde se efectuarán las sucesivas publicaciones, careciendo de validez las que se lleven a cabo en **lugares distintos**.",
+      "trampa": "**Art. 45.1.b**: la publicación en selectivos se efectúa en **el medio que indiquen las bases**; el BOE no sustituye automáticamente esa sede.",
+      "referencia": "Ley 39/2015, art. 45.1.b · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a45",
+      "respuestaLiteral": "En el medio indicado por la propia convocatoria"
+    },
+    {
+      "id": "DIP-T11-014",
+      "pregunta": "¿En cuál de estos lugares puede presentar documentos un ciudadano conforme a la Ley 39/2015?",
+      "opciones": [
+        "Únicamente en la sede de la Diputación",
+        "Solo en el Ayuntamiento de residencia",
+        "En las oficinas de Correos en la forma reglamentaria",
+        "Solo en el organismo competente"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 16.4 admite la presentación en oficinas de Correos en la forma que se establezca reglamentariamente.",
+      "trampa": "**Correos** admite documentos conforme a la forma reglamentaria (**art. 16.4.b**); no se limita a oficinas municipales.",
+      "referencia": "Ley 39/2015, art. 16.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a16",
+      "respuestaLiteral": "En las oficinas de Correos en la forma reglamentaria"
+    },
+    {
+      "id": "DIP-T11-015",
+      "pregunta": "¿Qué debe hacer la oficina de asistencia en materia de registros con documentos presentados en papel, como regla general?",
+      "opciones": [
+        "Destruirlos",
+        "Archivarlos sin digitalización",
+        "Rechazarlos en todos los casos",
+        "Digitalizarlos para incorporarlos al expediente administrativo electrónico y devolver los originales salvo excepciones"
+      ],
+      "correcta": 3,
+      "justificacion": "La documentación presentada presencialmente debe digitalizarse para incorporar una copia electrónica, salvo supuestos excepcionales.",
+      "trampa": "La **oficina de asistencia** digitaliza los documentos y devuelve los originales **salvo excepciones**; no procede destruirlos indiscriminadamente.",
+      "referencia": "Ley 39/2015, art. 16.5 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a16",
+      "respuestaLiteral": "Digitalizarlos para incorporarlos al expediente administrativo electrónico y devolver los originales salvo excepciones"
+    },
+    {
+      "id": "DIP-T11-016",
+      "pregunta": "Según el artículo 151.1 del ROF, ¿qué debe constar en el Registro General de una entidad local?",
+      "opciones": [
+        "Solo las solicitudes de los vecinos",
+        "Únicamente las facturas",
+        "La entrada de documentos recibidos y la salida de los despachados definitivamente",
+        "Solo los acuerdos del Pleno"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo **151.1 ROF** exige reflejar tanto las **entradas** como las **salidas** de documentos.",
+      "trampa": "**Art. 151.1 ROF**: registro comprende **entradas y salidas**, no solo solicitudes ni acuerdos del Pleno.",
+      "referencia": "ROF, RD 2568/1986, art. 151.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252#a151",
+      "respuestaLiteral": "La entrada de documentos recibidos y la salida de los despachados definitivamente"
+    },
+    {
+      "id": "DIP-T11-017",
+      "pregunta": "¿Puede un Registro General local organizarse de forma desconcentrada?",
+      "opciones": [
+        "No, en ningún caso",
+        "Sí, según las características de los servicios de la entidad",
+        "Solo por orden ministerial",
+        "Solo en municipios de más de 50.000 habitantes"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo **151.3 ROF** admite la **organización desconcentrada** del Registro General.",
+      "trampa": "**Art. 151.3 ROF**: registro admite **organización desconcentrada**; no está reservado a municipio de población mínima.",
+      "referencia": "ROF, RD 2568/1986, art. 151.3 · https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252#a151",
+      "respuestaLiteral": "Sí, según las características de los servicios de la entidad"
+    },
+    {
+      "id": "DIP-T11-018",
+      "pregunta": "¿Qué dato debe figurar en un asiento de entrada conforme al artículo 153.1 del ROF?",
+      "opciones": [
+        "El resultado de la siguiente convocatoria electoral",
+        "El código de la contraseña del firmante",
+        "El número de orden correlativo y la fecha de ingreso",
+        "El número de miembros del Pleno"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo **153.1 ROF** enumera, entre otros, **número correlativo** y **fecha de ingreso**.",
+      "trampa": "**Art. 153.1 ROF** incluye **número correlativo** y **fecha**; no solicita contraseñas ni datos electorales.",
+      "referencia": "ROF, RD 2568/1986, art. 153.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1986-33252#a153",
+      "respuestaLiteral": "El número de orden correlativo y la fecha de ingreso"
+    },
+    {
+      "id": "DIP-T11-019",
+      "pregunta": "Conforme al artículo 16.4 de la Ley 39/2015, ¿dónde pueden presentarse documentos dirigidos a las Administraciones?",
+      "opciones": [
+        "Solo en el órgano destinatario",
+        "Exclusivamente en la sede electrónica estatal",
+        "Únicamente en las oficinas municipales",
+        "En las representaciones diplomáticas u oficinas consulares españolas en el extranjero"
+      ],
+      "correcta": 3,
+      "justificacion": "El artículo **16.4.c Ley 39/2015** incluye las **representaciones diplomáticas u oficinas consulares**.",
+      "trampa": "El **art. 16.4.c** permite presentar en **representaciones diplomáticas u oficinas consulares**, no exclusivamente en sede estatal.",
+      "referencia": "Ley 39/2015, art. 16.4.c · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a16",
+      "respuestaLiteral": "En las representaciones diplomáticas u oficinas consulares españolas en el extranjero"
+    },
+    {
+      "id": "DIP-T11-020",
+      "pregunta": "¿Qué exige el artículo 16.3 de la Ley 39/2015 respecto del justificante de presentación en registro electrónico?",
+      "opciones": [
+        "Solo un mensaje sin datos de registro",
+        "Un recibo automático con copia autenticada, fecha, hora y número de entrada",
+        "Una copia manuscrita firmada por alcalde",
+        "Una certificación judicial obligatoria"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo **16.3 Ley 39/2015** exige **recibo automático** con los datos de presentación e identificación del asiento.",
+      "trampa": "**Art. 16.3** exige **recibo automático** con copia autenticada, fecha, hora, número de entrada y anexos; no simple email informal.",
+      "referencia": "Ley 39/2015, art. 16.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a16",
+      "respuestaLiteral": "Un recibo automático con copia autenticada, fecha, hora y número de entrada"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "DIP_C1_T08_T11",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "fuentesBOEPorPregunta": true,
+    "soloReabrirPorErrorONorma": true,
+    "funcionalNavegador": "PENDIENTE_CONTROL_TRANSVERSAL",
+    "certificacionIntegral": false
+  }
+}

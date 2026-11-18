@@ -1,0 +1,82 @@
+{
+  "tema": 13,
+  "numeroEnBloque": 8,
+  "bloque": "especifica",
+  "epigrafeOficial": "El término municipal de Olías del Rey y localización de los distintos servicios municipales. Callejero municipal.",
+  "estado": "AUDITADO",
+  "control": "2026-11-09",
+  "fuentePrograma": "BOP Toledo 204/2026; anuncio 4833; CSV 2026.00004833",
+  "filas": [
+    {
+      "inciso": "El término municipal y zonas principales",
+      "norma": "Turismo de Castilla-La Mancha y directorio municipal",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Provincia, comarca, casco y zonas; el directorio no prueba límites cartográficos"
+    },
+    {
+      "inciso": "Edificios municipales principales y localización",
+      "norma": "Directorio municipal de teléfonos y edificios",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Plaza Constitución 1, Camino del Arenal 5, Venta de Arriba; números discrepantes de Casa de la Cultura"
+    },
+    {
+      "inciso": "Instalaciones educativas, sociales y de seguridad",
+      "norma": "Directorio municipal y Educación y Cultura",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Centros educativos, seguridad, juventud y biblioteca; discrepancias Higares y Árbol Mágico"
+    },
+    {
+      "inciso": "Zonas deportivas y barrios: orientación",
+      "norma": "Página municipal de Deportes",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Zonas y equipamientos concretos; sin inventar inventario de barrios"
+    },
+    {
+      "inciso": "Callejero y uso de cartografía oficial",
+      "norma": "Ayuntamiento «Situación y Callejero»; INE Callejero Censo Electoral (VIAS, PSEU, TRAM), edición julio 2026",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Inventario oficial íntegro VIAS/PSEU a 30/06/2026; 280 vías tipadas, 0 pseudovías, 427 tramos; directorio de servicios cotejado por separado"
+    },
+    {
+      "inciso": "Método de estudio para localizar servicios",
+      "norma": "Directorio, Educación y Cultura y cartografía oficial",
+      "articulos": "Fuente territorial/administrativa; no precepto normativo",
+      "contenidoExigible": "Asociaciones entre nombre, función y vía contrastada, sin convertirlas en padrón exhaustivo"
+    }
+  ],
+  "lagunas": [
+    "Composición nominal íntegra de corporación municipal y sus delegaciones a fecha de examen",
+    "Inventario completo y georreferenciado de callejero en fuente municipal actualizada"
+  ],
+  "controlFocal20261108": {
+    "fecha": "2026-11-08",
+    "incisosContrastados": 6,
+    "discrepanciasNumeracion": true,
+    "callejeroCompleto": false,
+    "estado": "EN_AUDITORIA",
+    "motivo": "El BOP exige callejero municipal y no se ha acreditado listado exhaustivo",
+    "totalPreguntas": 21,
+    "alternativas": 84,
+    "fuenteINE": "https://www.ine.es/prodyser/callejero/",
+    "falta": "Extracción del ZIP provincial para Toledo, julio 2026, tabla VIAS/PSEU para INE 45122",
+    "certificacionIntegral": false
+  },
+  "controlINE20261109": {
+    "estado": "COTEJADO_PRIMARIO",
+    "municipioINE": "45122",
+    "fechaReferencia": "2026-06-30",
+    "vias": 280,
+    "paresTipoNombreUnicos": 280,
+    "nombresSinTipo": 263,
+    "pseudovias": 0,
+    "tramos": 427,
+    "secciones": 5,
+    "unidadesPoblacionales": 13,
+    "callesTipoCALLE": 202,
+    "fuente": "content/olias-auxiliar-edificios/tema-13/callejero-ine-2026-06-30.md",
+    "acta": "audit/OLIAS_T13_CIERRE_INE_2026-11-09.md",
+    "preguntasVerificadas": 21,
+    "alternativas": 84,
+    "certificacionIntegral": false
+  }
+}

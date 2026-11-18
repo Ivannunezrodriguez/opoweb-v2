@@ -1,0 +1,88 @@
+{
+  "tema": 10,
+  "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
+  "epigrafeOficial": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE",
+  "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
+  "fuentesPrimarias": [
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+    "https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Disposiciones generales y principios",
+      "norma": "LO 3/2018",
+      "articulos": "1–10",
+      "contenidoExigible": "Ámbito, principios, consentimiento y datos de categorías especiales"
+    },
+    {
+      "inciso": "Transparencia y derechos",
+      "norma": "LO 3/2018; Reglamento (UE) 2016/679",
+      "articulos": "11–18 LOPDGDD; 12–22 RGPD",
+      "contenidoExigible": "Información, acceso, rectificación, supresión, oposición y limitación"
+    },
+    {
+      "inciso": "Tratamientos específicos",
+      "norma": "LO 3/2018",
+      "articulos": "19–27",
+      "contenidoExigible": "Reglas legales especiales de tratamiento"
+    },
+    {
+      "inciso": "Responsables y delegados de protección de datos",
+      "norma": "LO 3/2018; RGPD",
+      "articulos": "28–39 LOPDGDD; 24–39 RGPD",
+      "contenidoExigible": "Responsabilidad proactiva, encargado y DPD"
+    },
+    {
+      "inciso": "Autoridades y procedimientos",
+      "norma": "LO 3/2018",
+      "articulos": "40–69",
+      "contenidoExigible": "Transferencias, autoridades, potestades y procedimientos"
+    },
+    {
+      "inciso": "Infracciones, sanciones y derechos digitales",
+      "norma": "LO 3/2018",
+      "articulos": "70–97",
+      "contenidoExigible": "Régimen sancionador y garantías de derechos digitales"
+    }
+  ],
+  "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-10/fuentes.md",
+  "manual": "content/diputacion-toledo-auxiliar-c2/tema-10/manual.md",
+  "notas": "Correspondencia documental preliminar con el epígrafe oficial y fuentes citadas en el tema; pendiente contraste integral de texto consolidado, distractores, excepciones y pruebas visuales. No constituye certificación jurídica.",
+  "controlIntegralBanco20261104": {
+    "fecha": "2026-11-04",
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "preguntasVerificadas": 20,
+    "alternativasVerificadas": 80,
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-10/cotejo-integral-2026-11-04.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionLegalGlobal": "PENDIENTE_MANUAL_COMPLETO",
+    "fuentesPrimarias": [
+      "BOE-A-2018-16673 (consolidado 27/12/2025)",
+      "DOUE-L-2016-80807 (RGPD arts 12.3 y 33.1)",
+      "AEPD doctrina oficial sobre derechos y brechas"
+    ],
+    "preguntasReemplazadasPorRedundancia": [
+      "DT-C2-T10-008",
+      "DT-C2-T10-015",
+      "DT-C2-T10-020"
+    ],
+    "respuestaCorrectaConservada": true
+  },
+  "cierreEditorialC2_07_10_20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AUDITADO_DOCUMENTAL",
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+      "https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion"
+    ],
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-07-10-2026-11-06.md"
+  }
+}

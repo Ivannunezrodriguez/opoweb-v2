@@ -1,0 +1,99 @@
+# Fuentes oficiales · Tema 14
+
+## Norma principal
+
+- **Ley Orgánica 2/2023, de 22 de marzo, del Sistema Universitario**.
+- BOE núm. 70, de 23 de marzo de 2023.
+- Referencia: `BOE-A-2023-7500`.
+- Entrada en vigor: 12 de abril de 2023.
+- Texto consolidado oficial comprobado a **23 de julio de 2026**.
+
+## Bloques utilizados
+
+- Título VIII: estudiantado en el sistema universitario.
+- Título IX: régimen específico de las universidades públicas.
+- Capítulo III: régimen económico y financiero.
+- Capítulo IV: personal docente e investigador.
+- Capítulo V: personal técnico, de gestión y de administración y servicios.
+
+## Referencias de examen
+
+- Artículos 46 y 47: propuesta del presupuesto por el Consejo de Gobierno y aprobación por el Consejo Social.
+- Artículo 53: marco normativo económico-financiero.
+- Artículo 54: autonomía económica y financiera.
+- Artículo 55: suficiencia financiera y objetivo mínimo del **1 % del PIB** dentro del marco de incremento del gasto público para 2030.
+- Artículo 57: presupuesto universitario, informes de impacto y dedicación mínima del **5 %** a programas propios de investigación.
+- Artículo 59: transparencia y rendición de cuentas.
+
+## Control editorial
+
+La revisión transversal de julio de 2026 ha corregido dos omisiones relevantes del borrador:
+
+- la distribución de competencias entre Consejo de Gobierno y Consejo Social respecto del presupuesto y las cuentas;
+- la obligación de destinar al menos el **5 %** del presupuesto universitario a programas propios de investigación.
+
+> Para la preparación se utiliza el texto consolidado del BOE y se verifica cada dato susceptible de pregunta con la redacción vigente.
+
+## Control de porcentajes de representación — **03/11/2026**
+
+Fuente primaria: [**LOSU, artículos 45.3 y 46.3 (BOE-A-2023-7500)**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500). La consolidación del BOE muestra última actualización publicada **02/08/2024**, pero sigue pendiente comprobar la fecha exacta de publicación de las **listas definitivas UC3M**, que determina el corte exigible según las bases de este proceso.
+
+| Materia | Cuota legal |
+|---|---|
+| **Claustro**: estudiantado | **Mínimo 25 %** (**art. 45.3**) |
+| **Claustro**: PDI de cuerpos funcionarios y profesorado permanente laboral | **51 %** (**art. 45.3**) |
+| **Consejo de Gobierno**: estudiantado | **Mínimo 10 %** (**art. 46.3**) |
+| **Consejo de Gobierno**: PTGAS | **Mínimo 10 %** (**art. 46.3**) |
+| **Consejo de Gobierno**: miembros elegidos por el Rector | **Un tercio**, incluidos miembros natos (**art. 46.3**) |
+
+> ⚠️ **¡Foco Examen!:** El **25 %** corresponde al estudiantado del **Claustro**, no del **Consejo de Gobierno**, donde la LOSU establece **10 % mínimo**. La regla del **51 %** se refiere a docentes del Claustro, no al alumnado.
+
+**Cambio editorial:** ampliado el apartado 2 del manual UC3M tema 14 y sustituida la antigua pregunta general **UC3M-T14-002** por una pregunta verificable sobre el **25 % mínimo del Claustro**. La clave correcta **es B** (**«El 25 %»**, posición segunda) en el **banco publicado**. Una anotación previa afirmaba por error que la clave había pasado de **B a C**: esa afirmación no coincide con `preguntas.json` y se rectifica expresamente, **sin tocar la pregunta ni cambiar su clave correcta**. **No equivale a certificar todo el tema ni fija la fecha de corte normativo del ejercicio**.
+
+## Contraste jurídico y coherencia banco/manual · **04/11/2026**
+
+- [**LOSU art. 45.3, BOE consolidado**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a45): **estudiantado ≥25 % en Claustro**, **51 % de docentes funcionarios y permanentes laborales**. Los **dos porcentajes** pertenecen al **artículo 45.3**; una anotación del manual atribuía erróneamente el 51 % al art. 45.2.
+- [**LOSU art. 46.3**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a46): **≥10 % alumnado y ≥10 % PTGAS en Consejo de Gobierno**; **un tercio** de sus miembros elegido por Rector, contando miembros natos.
+- [**LOSU art. 57.7**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a57): **≥5 % del presupuesto** a programas propios de investigación. A diferencia del objetivo plurianual del **1 % del PIB** de art. 55, es una reserva presupuestaria individual de las universidades.
+- **Control de respuestas:** **UC3M-T14-002** muestra **opción B: «El 25 %»**, con `correcta: 1`; el dato se mantiene y se rectifica exclusivamente la anotación histórica de esta página que decía **C**.
+
+> ⚠️ **¡Foco Examen!:** **Art. 45.3** establece **25 % mínimo de estudiantado en Claustro** y **51 % de PDI funcionario y permanente laboral**. **Art. 46.3** establece **10 % mínimo de estudiantes y PTGAS en Consejo de Gobierno**. No atribuir el **51 %** al art. **45.2**.
+
+## Cotejo exhaustivo del banco · 04/11/2026
+
+[**Informe individual de 14 preguntas y 56 alternativas literales**](cotejo-integral-2026-11-04.md): fundamentos jurídicos, descarte de cada respuesta errónea y foco de examen. **Estado del banco: COTEJO_BANCO_COMPLETO**, **no aprobación de usuario**. La fecha normativa de corte de las bases UC3M sigue pendiente de corroborar mediante publicación primaria de la resolución de listas definitivas y anuncio de prueba. Las pruebas funcionales en navegador y accesibilidad se mantienen **pendientes**.
+
+> ⚠️ **¡Foco Examen!:** **Claustro**: estudiantes **≥25 %** y docentes funcionarios/PPL **51 %**, ambos **art. 45.3**. La respuesta de **UC3M-T14-002** es **B (25 %)**.
+
+
+## Refuerzo masivo coordinado UC3M — tema 14 — **06/11/2026**
+
+**Fuente primaria contrastada:** [**LOSU arts. 64–66, 75–76 y 78**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500). Se han desarrollado **2 apartados** en el **manual, apartados 14.1–14.3**, con tablas comparativas, cifras, órganos y focos. **Materia:** PDI y 8 % temporal con exclusiones, movilidad, equidad en concursos, conciliación y cómputo del contrato de ayudante doctor.
+
+**Repaso transversal:** [**18 preguntas nuevas / 72 opciones / 18 soluciones y focos, de los temas 10, 11, 14 y 18**](../REPASO_LOTE_T10_T11_T14_T18_20261106.md), de las que **4** pertenecen al tema **14**, preguntas **11–14**. No se modifica el banco original, su cotejo ni los simulacros.
+
+**Cautela normativa:** comparar siempre el ámbito de la norma antes de aplicar una cifra: **AGE** en el RD 364/1995, **universidades públicas** en LOSU y **Comunidad de Madrid** en la Ley 5/2025 de Hacienda. La fecha exacta de corte legal del examen UC3M depende de la publicación primaria de la resolución de listas definitivas que no se ha cotejado directamente; no confundir con el día del examen. La ampliación es **documental focal**, no certificación integral de legislación, interfaz o tests.
+
+> ⚠️ **¡Foco Examen!:** **8 %** de temporalidad PDI con exclusión de categorías legales; acciones positivas del **65.1** condicionadas a **igual idoneidad**.
+
+
+## Cierre documental contrastado LOSU I y II — **06/11/2026**
+
+[**Acta conjunta T13–T14, con reservas jurídicas y funcionales**](../CIERRE_DOCUMENTAL_T13_T14_20261106.md): cotejo del epígrafe oficial, **12 bloques de matriz** del tema **14**, preguntas históricas auditadas de forma individual y práctica complementaria cotejada con [**LOSU consolidada (BOE-A-2023-7500)**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500). Los enlaces de **16 preguntas complementarias** se han sustituido por el artículo correspondiente, sin alterar su clave.
+
+| Tema | Materia crítica | Artículos oficiales |
+|---|---|---|
+| **14** | Estudiantado y representación | **LOSU 31–39, 45–46** |
+| **14** | Presupuesto, investigación y financiación | **LOSU 47, 55, 57** |
+| **14** | PDI, conciliación y PTGAS | **LOSU 64–66, 75–78, 89–94** |
+
+**Reserva verificable:** la convocatoria **BOE-A-2026-14624, base primera.7**, vincula la exigibilidad legal a la **fecha de publicación** de las listas definitivas y anuncio de ejercicio; la resolución primaria fechada **no se ha obtenido** en esta auditoría. Quedan pendientes navegador real, móvil, accesibilidad y certificación integral; **no** hay aprobación del usuario.
+
+> ⚠️ **¡Foco Examen!:** Las referencias del informe del **04/11/2026** y la presente acta documentan el estudio, pero **no convierten automáticamente en exigible** una modificación posterior a la fecha de corte de UC3M.
+
+
+## Control de mandatos y convocatoria extraordinaria — **08/11/2026**
+
+Cotejados directamente en el [**BOE consolidado, LOSU 44.3 y 45.2.e**](https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500): mandato **6 años improrrogable y no renovable** de órganos unipersonales **electos**; iniciativa de elecciones extraordinarias por **1/3 del Claustro** con **30 % mínimo** del colectivo docente especificado en 45.2.e; aprobación por **2/3 del Claustro**; **disolución del Claustro**, cese del Rector **en funciones** hasta nueva toma de posesión; prohibición a quienes presentaron la iniciativa rechazada de presentar otra hasta **1 año** después de la votación. Incorporados en [manual T14](manual.md) tabla y **2 supuestos prácticos**. No cambia el banco original de **14 preguntas** ni el estado formal de aprobación.
+
+> ⚠️ **¡Foco Examen!:** **Iniciativa 1/3** frente a **aprobación 2/3**; **6 años** de mandato electivo frente a **1 año** para nueva iniciativa de los promotores cuando fracasa.

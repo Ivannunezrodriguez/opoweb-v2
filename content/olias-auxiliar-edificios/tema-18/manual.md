@@ -1,0 +1,141 @@
+# Olías del Rey · Tema 18 · Calefacción, radiadores, circuitos y salas de calderas
+
+**Estado: AUDITADO documental (08/11/2026), con reservas funcionales.** Primera edición **04/11/2026**. Fuente del programa **BOP Toledo 204/2026**, anuncio **4833**, Anexo II, p. **59**, CSV **2026.00004833**.
+
+## 1. Epígrafe oficial literal
+
+> **Materia específica 13. Calefacción. Mantenimientos de instalaciones de calefacción (circuitos, llenado y purgado del aire. Radiadores. Salas de calderas, elementos importantes.)**
+
+## 2. Matriz de cobertura
+
+| Inciso del programa | Norma o referencia técnica | Desarrollo |
+|---|---|---|
+| Circuito de calefacción y radiadores | RITE: **IT 3** y documentación de la instalación | Componentes y funcionamiento |
+| Llenado, presión y purga | RITE: manual de uso y mantenimiento (**art. 25**) | Observación, riesgo y límites de intervención |
+| Sala de calderas | LPRL y RITE | Control de accesos y seguridad |
+| Titular y mantenedora | RITE **arts. 25–26** | Responsabilidades y umbrales |
+| Documentación y certificado | RITE **arts. 27–28** | Registro **≥ 5 años**, certificado anual cuando proceda |
+
+## 3. Esquema de calefacción por agua
+
+Un circuito de calefacción hidrónica habitual dispone de **generador de calor, impulsión, retorno, bomba circuladora, emisores/radiadores, válvulas, vaso de expansión y elementos de seguridad**. El agua **circula por un circuito cerrado** en muchas instalaciones; no es idéntica al agua sanitaria destinada a consumo.
+
+La **impulsión** transporta agua calentada hacia emisores y el **retorno** la conduce de vuelta; se comprueba siempre el esquema real del edificio.
+
+| Elemento | Función |
+|---|---|
+| Caldera/generador | Aportar calor |
+| Circuladora | Mover fluido |
+| Radiador | Ceder calor al ambiente |
+| Vaso de expansión | Absorber variaciones volumétricas |
+| Válvula de seguridad | Aliviar condiciones previstas |
+
+> ⚠️ **¡Foco Examen!:** **Impulsión y retorno** son conducciones diferentes; **vaso de expansión** no es depósito general de agua potable.
+
+## 4. Llenado y presión: límites de actuación
+
+El sistema necesita **presión** y **volumen de agua** según diseño y fabricante. Un valor de presión **no es universal para todos los edificios**: depende de altura, equipo, temperatura y circuito. **Rellenar continuamente** puede indicar fuga u otro problema y no es un sustituto de reparación.
+
+El auxiliar puede **leer indicadores** y comunicar desviaciones; no debe abrir válvulas, introducir agua o manipular seguridades sin protocolo y formación.
+
+| Señal | Posible interpretación |
+|---|---|
+| Presión anormalmente baja | Pérdida, aire o fallo de control |
+| Subida excesiva | Vaso de expansión o sistema de presión |
+| Goteo de válvula | Incidencia de seguridad |
+| Bomba ruidosa | Aire u otra anomalía |
+
+> ⚠️ **¡Foco Examen!:** No memorizar como **norma universal** una presión de **1-1,5 bar**: la consigna depende de la instalación.
+
+## 5. Aire en radiadores y purga
+
+Los **ruidos de burbujeo** o zonas frías pueden indicar aire en determinadas redes. El **purgador** permite evacuar aire cuando el circuito y el procedimiento lo admiten, pero debe tenerse en cuenta **temperatura, presión, válvulas y seguridad**, ya que puede salir agua muy caliente.
+
+La purga general, intervención en circuitos presurizados o elementos de caldera se reservan al personal y procedimiento habilitado.
+
+| Concepto | Función |
+|---|---|
+| Purgador | Salida controlada de aire |
+| Detentor | Regulación/equilibrado en radiadores adecuados |
+| Llave termostática | Modulación del paso por temperatura ambiente |
+| Aislamiento | Reducir pérdidas térmicas |
+
+> ⚠️ **¡Foco Examen!:** **Purgar** no es **vaciar la instalación**; su finalidad es eliminar aire y requiere procedimiento seguro.
+
+## 6. Sala de calderas y riesgos
+
+Una sala de calderas puede albergar **equipos de combustión, gas, bombas, colectores, ventilación, chimenea, electricidad, presión y control**. Tiene peligros de **temperatura, combustible, gases de combustión, presión y electricidad**. El acceso se limita al personal autorizado según el sistema real.
+
+Ante olor a gas, signos de combustión anómala o alarma: **alejar, comunicar, no manipular interruptores ni producir chispas y activar emergencia** de acuerdo con el protocolo.
+
+| Riesgo | Respuesta general |
+|---|---|
+| Olor a gas | Protocolo de emergencia |
+| Superficie caliente | No tocar, señalizar |
+| Fuga de agua caliente | Aislar zona y avisar |
+| Alarma técnica | Comunicar a mantenimiento |
+
+> ⚠️ **¡Foco Examen!:** **No entrar a reparar una caldera por iniciativa propia**. La sala es un espacio técnico con riesgos específicos.
+
+## 7. RITE: titulares, mantenimiento y empresas habilitadas
+
+El **RITE (RD 1027/2007)**, **arts. 25-26**, exige que el titular use la instalación conforme al **Manual de Uso y Mantenimiento**, ponga en conocimiento del responsable las anomalías y garantice mantenimiento en términos reglamentarios. El **mantenimiento de instalaciones sometidas al RITE se realiza por empresas mantenedoras habilitadas**.
+
+Las **inspecciones reglamentarias** y documentación de mantenimiento son distintas de la observación diaria del auxiliar.
+
+| Auxiliar de edificio | Empresa mantenedora habilitada |
+|---|---|
+| Detectar y comunicar anomalías | Ejecutar mantenimiento técnico reglamentario |
+| Actuar según instrucciones ordinarias | Intervenir en generadores y seguridad |
+| Controlar accesos a sala | Cumplir programas y documentación |
+
+> ⚠️ **¡Foco Examen!:** El **RITE** distingue **observación y comunicación** de **mantenimiento por empresa habilitada**. No usar el puesto de auxiliar como sustitución de esa habilitación.
+
+## 8. RITE: potencias, contrato y documentación del mantenimiento
+
+La **regulación del mantenimiento térmico** se encuentra en el **RITE, RD 1027/2007**, especialmente **arts. 25–28**. Debe conocerse tanto la distribución de responsabilidad como las cifras que distinguen instalaciones.
+
+- **Art. 25**: el **titular o usuario** debe utilizar correctamente la instalación, comunicar anomalías y garantizar mantenimiento, inspecciones y documentación. La **garantía comercial** no sustituye el mantenimiento.
+- **Art. 26.1**: las operaciones de mantenimiento sujetas al RITE las llevan a cabo **empresas mantenedoras habilitadas**.
+- **Art. 26.6.a**: instalaciones con potencia térmica nominal total instalada en generación de calor o frío **igual o superior a 5 kW e inferior o igual a 70 kW**: mantenimiento por **empresa mantenedora**, según manual.
+- **Art. 26.6.b**: instalaciones con potencia **mayor de 70 kW**: mantenimiento por **empresa mantenedora con contrato de mantenimiento** suscrito por el titular.
+- **Art. 27**: el registro de operaciones y reparaciones forma parte del **Libro del Edificio** y debe conservarse durante **no menos de cinco años**, contados desde cada operación. La **empresa mantenedora** confecciona el registro y responde de sus anotaciones; el **titular** responde de su existencia.
+- **Art. 28**: el **certificado anual de mantenimiento** se contempla en aquellos casos en que **sea obligatorio suscribir contrato de mantenimiento**; se distingue del registro ordinario de operaciones.
+
+| Umbral o frecuencia | Exigencia / concepto | Error habitual |
+|---|---|---|
+| **5 kW ≤ P ≤ 70 kW** | Mantenimiento por empresa en supuestos del **art. 26.6.a** | Confundir con contrato obligatorio de la letra b |
+| **P > 70 kW** | Empresa mantenedora **con contrato** | Tratar **70 kW exactos** como «mayor de 70» |
+| **5 años como mínimo** | Conservación de registro de cada operación (**art. 27**) | Confundir con un solo año |
+| **Anualmente** cuando contrato sea obligatorio | Certificado de mantenimiento (**art. 28**) | Afirmar obligación idéntica para toda potencia |
+
+Estas magnitudes corresponden al **ámbito y condiciones reglamentarias** y no permiten diagnosticar la instalación de Olías del Rey sin su **inventario técnico**.
+
+> ⚠️ **¡Foco Examen!:** **70 kW exactos** pertenece a la banda **≤ 70 kW**; la obligación explícita de contrato de **art. 26.6.b** empieza al superar **70 kW**. **Registro ≥ 5 años** no es el **certificado anual condicionado al contrato**.
+
+## 9. Supuesto de repaso
+
+### Supuesto 1. Radiador frío y presión baja
+
+Un radiador de un edificio municipal emite ruido de burbujeo y la lectura del manómetro es inferior a la consigna recogida en el **manual de la instalación**. **Respuesta razonada:** identificar la incidencia, registrar lectura y momento, avisar al responsable y evitar que usuarios manipulen purgadores o llaves sin autorización. El aire atrapado es una **hipótesis**, no diagnóstico concluyente: también puede haber una fuga o desequilibrio hidráulico. El **purgador** evacua aire; **llenar** añade agua al circuito y puede cambiar presión. Las operaciones que requieran intervención técnica se encomiendan a personal competente conforme al **RITE**.
+
+> ⚠️ **¡Foco Examen!:** **Purgar ≠ vaciar ≠ rellenar**. No existe una presión universal de **1–1,5 bar** aplicable a todas las instalaciones de calefacción.
+
+### Supuesto 2. Dos salas de calderas de distinta potencia
+
+La instalación A tiene potencia térmica total instalada de generación de **70 kW exactos**; la B, de **80 kW**. Ambas están sujetas al RITE en los términos del reglamento. Conforme al **art. 26.6**: A pertenece al tramo **de 5 a 70 kW, ambos incluidos**, con mantenimiento por **empresa mantenedora**; B supera **70 kW** y requiere **contrato de mantenimiento** suscrito por el titular con **empresa mantenedora**. El registro de operaciones se conserva **no menos de 5 años desde cada intervención** (**art. 27**). El certificado **anual** del **art. 28** se exige cuando resulte obligatorio el contrato, no universalmente por el mero hecho de existir calefacción.
+
+| Instalación | Régimen del art. 26.6 | Registro y certificado |
+|---|---|---|
+| **70 kW** | Empresa mantenedora; sin deducir de esa letra obligación general de contrato | Registro **≥ 5 años**; certificado anual **si procede por obligación de contrato** |
+| **80 kW** | Empresa mantenedora **con contrato** | Registro **≥ 5 años**; certificado **anual** |
+
+> ⚠️ **¡Foco Examen!:** El **70 exacto** no es «mayor de 70». **Libro de mantenimiento ≥ 5 años** y **certificado anual** son documentos y plazos diferentes.
+
+## Fuentes de referencia
+
+- [**RITE, RD 1027/2007**](https://www.boe.es/buscar/act.php?id=BOE-A-2007-15820) — arts. **25 a 28** e IT 3.
+- [**RD 1215/1997**](https://www.boe.es/buscar/act.php?id=BOE-A-1997-17824) — uso seguro de equipos.
+- [**Ley 31/1995**](https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292) — prevención.
+
+**Cierre documental 08/11/2026:** cinco incisos desarrollados, revisión de umbrales y plazos del RITE y dos casos concretos resueltos. No se certifican la potencia, el manual ni el protocolo de ninguna instalación municipal concreta; pruebas de navegador y de CI pendientes.

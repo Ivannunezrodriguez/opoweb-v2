@@ -1,0 +1,163 @@
+{
+  "tema": 21,
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
+  "preguntas": [
+    {
+      "id": "OLIAS-T21-001",
+      "enunciado": "La plomada comprueba principalmente:",
+      "opciones": [
+        "Potencia eléctrica",
+        "Tarifas postales",
+        "Dosis fitosanitaria",
+        "Verticalidad"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La plomada permite comprobar la verticalidad mediante la dirección de la gravedad; el nivel se utiliza para controlar horizontalidad u otras alineaciones.",
+      "trampaExamen": "¡Foco Examen!: La plomada permite comprobar la verticalidad mediante la dirección de la gravedad; el nivel se utiliza para controlar horizontalidad u otras alineaciones.",
+      "referencia": "Manual §3, nivel y plomada",
+      "respuestaLiteral": "Verticalidad"
+    },
+    {
+      "id": "OLIAS-T21-002",
+      "enunciado": "La llana se utiliza para:",
+      "opciones": [
+        "Extender/alisar mortero o revestimiento",
+        "Purgar radiador",
+        "Enviar carta",
+        "Escanear papel"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La llana permite extender y alisar mortero o revestimientos. No cumple la función de una plomada ni de una brocha.",
+      "trampaExamen": "¡Foco Examen!: La llana permite extender y alisar mortero o revestimientos. No cumple la función de una plomada ni de una brocha.",
+      "referencia": "Manual §3, llana y mortero",
+      "respuestaLiteral": "Extender/alisar mortero o revestimiento"
+    },
+    {
+      "id": "OLIAS-T21-003",
+      "enunciado": "Antes de pintar debe:",
+      "opciones": [
+        "Desconectarse toda alarma",
+        "Ignorarse estado de base",
+        "Prepararse superficie y evaluar humedad",
+        "Aplicarse sobre grasa"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Para garantizar adherencia y durabilidad hay que evaluar humedad, estado del soporte y limpieza antes de reparar, imprimar y pintar.",
+      "trampaExamen": "¡Foco Examen!: Para garantizar adherencia y durabilidad hay que evaluar humedad, estado del soporte y limpieza antes de reparar, imprimar y pintar.",
+      "referencia": "Manual §4; ficha técnica de pintura",
+      "respuestaLiteral": "Prepararse superficie y evaluar humedad"
+    },
+    {
+      "id": "OLIAS-T21-004",
+      "enunciado": "¿Qué se usa normalmente en superficies amplias?",
+      "opciones": [
+        "Formón",
+        "Cortatubos",
+        "Rodillo",
+        "Fotocopiadora"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El rodillo facilita aplicar pintura sobre superficies relativamente amplias; las brochas son útiles para recortes y detalles.",
+      "trampaExamen": "¡Foco Examen!: El rodillo facilita aplicar pintura sobre superficies relativamente amplias; las brochas son útiles para recortes y detalles.",
+      "referencia": "Manual §5, rodillo de pintura",
+      "respuestaLiteral": "Rodillo"
+    },
+    {
+      "id": "OLIAS-T21-005",
+      "enunciado": "La imprimación busca principalmente:",
+      "opciones": [
+        "Mejorar adherencia/compatibilidad",
+        "Sustituir puerta",
+        "Fijar sueldo",
+        "Eliminar todos los riesgos por sí misma"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La imprimación, compatible con soporte y pintura, prepara la superficie y puede mejorar su adherencia; no es automáticamente el acabado.",
+      "trampaExamen": "¡Foco Examen!: La imprimación, compatible con soporte y pintura, prepara la superficie y puede mejorar su adherencia; no es automáticamente el acabado.",
+      "referencia": "Manual §4, imprimación",
+      "respuestaLiteral": "Mejorar adherencia/compatibilidad"
+    },
+    {
+      "id": "OLIAS-T21-006",
+      "enunciado": "Una grieta con posible causa estructural se debe:",
+      "opciones": [
+        "Ocultar",
+        "Tapar sin evaluar",
+        "Golpear con martillo",
+        "Comunicar a técnico competente"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Una grieta que pueda comprometer elementos estructurales requiere valoración de técnico competente, no ocultarla con masilla o pintura.",
+      "trampaExamen": "¡Foco Examen!: Una grieta que pueda comprometer elementos estructurales requiere valoración de técnico competente, no ocultarla con masilla o pintura.",
+      "referencia": "Manual §3; prevención de daños estructurales",
+      "respuestaLiteral": "Comunicar a técnico competente"
+    },
+    {
+      "id": "OLIAS-T21-007",
+      "enunciado": "La norma de riesgos por agentes químicos es:",
+      "opciones": [
+        "RD 437/2024",
+        "RD 374/2001",
+        "Ley 43/2010",
+        "CE art. 99"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El RD 374/2001 regula la protección de trabajadores frente a riesgos por agentes químicos durante el trabajo; no define los útiles de albañilería.",
+      "trampaExamen": "¡Foco Examen!: El RD 374/2001 regula la protección de trabajadores frente a riesgos por agentes químicos durante el trabajo; no define los útiles de albañilería.",
+      "referencia": "RD 374/2001, art. 3, agentes químicos",
+      "respuestaLiteral": "RD 374/2001"
+    },
+    {
+      "id": "OLIAS-T21-008",
+      "enunciado": "La limpieza de útiles depende de:",
+      "opciones": [
+        "Tipo de correo",
+        "Código postal",
+        "Color del edificio únicamente",
+        "Tipo de pintura y ficha técnica"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La limpieza de utensilios depende del tipo de pintura y disolvente indicado; no todas las pinturas admiten limpieza exclusivamente con agua.",
+      "trampaExamen": "¡Foco Examen!: La limpieza de utensilios depende del tipo de pintura y disolvente indicado; no todas las pinturas admiten limpieza exclusivamente con agua.",
+      "referencia": "Manual §5; ficha técnica del fabricante",
+      "respuestaLiteral": "Tipo de pintura y ficha técnica"
+    },
+    {
+      "id": "OLIAS-T21-009",
+      "enunciado": "¿Cuál NO es acceso seguro habitual para pintar en altura?",
+      "opciones": [
+        "Seguir evaluación",
+        "Usar equipo adecuado",
+        "Subirse a una silla inestable",
+        "Revisar escalera"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Subirse a una silla inestable no es un método seguro de trabajo en altura; las escaleras deben cumplir estabilidad y otras condiciones de uso.",
+      "trampaExamen": "¡Foco Examen!: Subirse a una silla inestable no es un método seguro de trabajo en altura; las escaleras deben cumplir estabilidad y otras condiciones de uso.",
+      "referencia": "RD 1215/1997, anexo II apartado 4.2",
+      "respuestaLiteral": "Subirse a una silla inestable"
+    },
+    {
+      "id": "OLIAS-T21-010",
+      "enunciado": "El disolvente usado se debe:",
+      "opciones": [
+        "Verter al desagüe siempre",
+        "Gestionar como residuo conforme a normativa",
+        "Mezclar con agua potable",
+        "Dejar abierto al público"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los disolventes usados se gestionan atendiendo a su peligrosidad, instrucciones y norma de residuos; nunca se vierten indiscriminadamente a desagües.",
+      "trampaExamen": "¡Foco Examen!: Los disolventes usados se gestionan atendiendo a su peligrosidad, instrucciones y norma de residuos; nunca se vierten indiscriminadamente a desagües.",
+      "referencia": "RD 374/2001, art. 3; gestión conforme ficha de seguridad",
+      "respuestaLiteral": "Gestionar como residuo conforme a normativa"
+    }
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "REVISION_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
+}

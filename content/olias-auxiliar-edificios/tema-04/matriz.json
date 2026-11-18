@@ -1,0 +1,66 @@
+{
+  "tema": 4,
+  "numeroEnBloque": 4,
+  "bloque": "general",
+  "epigrafeOficial": "Medidas de igualdad en el empleo para la Administración General del Estado, según la Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+  "estado": "AUDITADO",
+  "version": "2026-11-04",
+  "fuentePrograma": "BOP Toledo 204/2026, anuncio 2026/4833, Anexo II, CSV 2026.00004833",
+  "filas": [
+    {
+      "inciso": "Igualdad de trato, no discriminación y acoso",
+      "norma": "LO 3/2007",
+      "articulos": "arts. 3, 6 y 7",
+      "contenidoExigible": "Distinción directa/indirecta y acoso"
+    },
+    {
+      "inciso": "Criterios generales de las Administraciones Públicas",
+      "norma": "LO 3/2007",
+      "articulos": "art. 51",
+      "contenidoExigible": "Empleo, carrera, conciliación, formación y prevención"
+    },
+    {
+      "inciso": "Presencia equilibrada en la AGE",
+      "norma": "LO 3/2007",
+      "articulos": "arts. 52-54; disposición adicional 1.ª",
+      "contenidoExigible": "Directivos, tribunales, representantes; composición 40-60 %"
+    },
+    {
+      "inciso": "Medidas específicas de empleo público AGE",
+      "norma": "LO 3/2007",
+      "articulos": "arts. 55-59",
+      "contenidoExigible": "Informe impacto, permisos, concursos, riesgo, vacaciones"
+    },
+    {
+      "inciso": "Acciones positivas y formación",
+      "norma": "LO 3/2007",
+      "articulos": "arts. 60-61",
+      "contenidoExigible": "1 año de preferencia; al menos 40% de cursos; todas las pruebas AGE"
+    },
+    {
+      "inciso": "Protocolos, evaluación y Plan de Igualdad",
+      "norma": "LO 3/2007",
+      "articulos": "arts. 62-64",
+      "contenidoExigible": "Protocolo; información al menos anual; plan inicio legislatura; evaluación anual"
+    }
+  ],
+  "fechaContrasteParcial": "2026-11-04",
+  "control": "Contrastado texto BOE consolidado arts. 51-64 y DA 1.ª; auditoría integral pendiente",
+  "controlBloqueGeneral20261105": {
+    "fecha": "2026-11-05",
+    "lote": "OLIAS_GENERAL_01_04",
+    "estado": "BANCO_COTEJADO_PENDIENTE_CERTIFICACION_INTEGRAL",
+    "preguntas": 24,
+    "alternativas": 96,
+    "evidencia": "content/olias-auxiliar-edificios/cotejo-bloque-general-01-04-2026-11-05.md",
+    "regresion": "tests/validate-olias-general-01-04-bank.mjs",
+    "navegadorReal": "PENDIENTE",
+    "certificacionIntegral": false
+  },
+  "fechaRevision": "2026-11-08",
+  "controlEditorial20261108": {
+    "tipo": "CIERRE_DOCUMENTAL",
+    "incisosRevisados": 6,
+    "certificacionIntegral": false
+  }
+}

@@ -1,0 +1,460 @@
+# Diputación Provincial de Toledo · Auxiliar Administrativo C2 · Tema 10
+
+> **Estado editorial 06/11/2026: AUDITADO jurídico-documental**. La **LOPDGDD** y **RGPD** se cotejan separadamente; bancos de **20 preguntas y 80 alternativas**, con revisión detallada anterior preservada. **Sin certificación integral** de navegador, accesibilidad, móvil ni PWA. [Informe](../cierre-editorial-c2-07-10-2026-11-06.md).
+
+**Estado editorial: CONTENIDO COMPLETO Y REVISADO (29/10/2026).** Adaptado al programa de Diputación C2 y al texto consolidado publicado el **27/12/2025**.
+
+## Epígrafe oficial literal
+
+> **Tema 10. La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.**
+
+Fuente: BOP de Toledo **n.º 197, 14/10/2026**, **Anexo XI**, pág. 102, CSV **2026.00004759**.
+
+El manual contiene explicaciones editoriales y no sustituye la literalidad de la legislación vigente. La fuente consolidada debe volver a comprobarse antes del examen.
+
+## 1. Normas y vigencia
+
+- Ley Orgánica 3/2018, referencia `BOE-A-2018-16673`.
+- Texto consolidado consultado: última actualización publicada el **27 de diciembre de 2025**.
+- Reglamento (UE) 2016/679 —RGPD—, directamente aplicable.
+
+La Ley Orgánica adapta el Derecho español al RGPD, completa sus previsiones y reconoce derechos digitales. No sustituye al Reglamento europeo.
+
+## 2. Mapa del tema
+
+| Bloque | Artículos |
+|---|---:|
+| Disposiciones generales | 1–3 |
+| Principios | 4–10 |
+| Derechos | 11–18 |
+| Tratamientos concretos | 19–27 |
+| Responsable, encargado y DPD | 28–39 |
+| Transferencias internacionales | 40–43 |
+| AEPD y autoridades autonómicas | 44–62 |
+| Procedimientos | 63–69 |
+| Infracciones y sanciones | 70–78 |
+| Derechos digitales | 79–97 |
+
+**Mapa de artículos del tema:** el cuadro anterior identifica los bloques normativos; **no existe un fichero `articulos.md` en esta carpeta**. La comprobación artículo por artículo del manual completo sigue **pendiente** y no se declara como acreditada.
+
+---
+
+## PARTE I · DISPOSICIONES GENERALES Y PRINCIPIOS
+
+## 3. Artículos 1–3
+
+**Artículo 1.** Doble objeto: adaptar el ordenamiento al RGPD y garantizar derechos digitales. El fundamento constitucional es el artículo 18.4 CE.
+
+**Artículo 2.** Se aplica a tratamientos automatizados y a los no automatizados incluidos o destinados a incluirse en un fichero. Quedan fuera, entre otros, el ámbito doméstico, materias clasificadas y tratamientos sometidos a normativa penal específica.
+
+**Artículo 3.** Familiares, personas vinculadas de hecho, herederos y personas designadas pueden ejercer acceso, rectificación o supresión sobre datos de fallecidos, salvo prohibición del fallecido o de la ley.
+
+## 4. Artículos 4–10
+
+**Exactitud.** Los datos deben ser correctos y actualizarse. El responsable debe rectificar o suprimir sin dilación cuando detecte inexactitudes.
+
+**Confidencialidad.** Obliga a responsables, encargados y cualquier persona que intervenga. Continúa después de terminar la relación.
+
+**Consentimiento.** Debe ser libre, específico, informado e inequívoco, mediante declaración o acción afirmativa clara. No existe consentimiento tácito. Las finalidades distintas necesitan consentimiento diferenciado cuando esa sea la base jurídica.
+
+**Menores.** Pueden consentir por sí mismos desde los **14 años**, salvo supuestos sometidos por ley a asistencia de titulares de patria potestad o tutela.
+
+**Obligación legal y poderes públicos.** Para un Ayuntamiento, muchos tratamientos se basan en obligación legal o misión de interés público: padrón, tributos, personal, contratación, subvenciones y procedimientos. No debe pedirse consentimiento cuando la base correcta es una competencia legal.
+
+**Categorías especiales.** Ideología, afiliación sindical, religión, creencias, origen racial o étnico, salud, biometría, genética y vida u orientación sexual tienen protección reforzada. El consentimiento no legitima por sí solo listas cuya finalidad principal sea identificar determinadas categorías ideológicas o similares.
+
+**Datos penales.** Solo se tratan con cobertura normativa y por sujetos legalmente habilitados.
+
+---
+
+## PARTE II · INFORMACIÓN Y DERECHOS
+
+## 5. Artículo 11 · información por capas
+
+Puede ofrecerse una primera capa con:
+
+- identidad del responsable;
+- finalidad;
+- posibilidad de ejercer derechos;
+- elaboración de perfiles, cuando proceda.
+
+Debe facilitarse acceso sencillo a la información completa. Si los datos no se obtuvieron del interesado, se añaden categorías y procedencia.
+
+## 6. Artículos 12–18 · derechos
+
+El ejercicio es gratuito, salvo solicitudes manifiestamente infundadas o excesivas.
+
+- **Acceso:** saber si se tratan datos, obtener copia e información del tratamiento.
+- **Rectificación:** corregir datos inexactos.
+- **Supresión:** eliminar cuando concurre causa legal; no es un derecho absoluto.
+- **Limitación:** conservar los datos, pero restringir su uso.
+- **Portabilidad:** recibir o transmitir datos cuando el tratamiento automatizado se base en consentimiento o contrato. No suele operar frente al ejercicio de potestades públicas.
+- **Oposición:** detener tratamientos basados en interés público o interés legítimo cuando prevalezca la situación particular; en marketing directo es especialmente intensa.
+
+Plazo general RGPD: **un mes**, ampliable otros dos por complejidad o número de solicitudes, informando dentro del primer mes.
+
+---
+
+## PARTE III · TRATAMIENTOS CONCRETOS
+
+## 7. Artículos 19–21
+
+- Datos profesionales de contacto: pueden tratarse cuando se limitan a localización profesional y relación con la entidad.
+- Sistemas de información crediticia: exigen deuda cierta, vencida, exigible e impagada, además de información previa y límites temporales.
+- Operaciones de crédito y financiación: se someten a garantías específicas.
+
+## 8. Artículo 22 · videovigilancia
+
+Puede utilizarse para seguridad de personas, bienes e instalaciones.
+
+Reglas esenciales:
+
+- vía pública solo en la medida imprescindible;
+- conservación ordinaria máxima: **un mes**;
+- entrega a autoridad de imágenes relacionadas con delito o infracción: máximo **72 horas** desde que se conoce la grabación;
+- cartel visible e información disponible;
+- prohibición en vestuarios, aseos, comedores y zonas de descanso laboral.
+
+## 9. Artículos 23–27
+
+- Exclusión publicitaria: deben consultarse sistemas de exclusión cuando no exista consentimiento.
+- Sistemas internos de información: acceso limitado, confidencialidad y conservación en el sistema durante el tiempo imprescindible, con máximo general de **tres meses** para decidir si se investiga.
+- Función estadística pública y archivo: requieren garantías específicas.
+- Infracciones administrativas: solo por órgano competente, con base legal y datos necesarios.
+
+---
+
+## PARTE IV · RESPONSABLE, ENCARGADO Y DPD
+
+## 10. Artículos 28–32
+
+El responsable debe aplicar responsabilidad proactiva: analizar riesgos, adoptar medidas técnicas y organizativas, documentar decisiones y revisar eficacia.
+
+**Responsable:** decide fines y medios.  
+**Encargado:** trata por cuenta del responsable mediante contrato o acto jurídico. Si usa datos para fines propios, pasa a ser responsable.
+
+**Bloqueo:** tras rectificación o supresión, ciertos datos se conservan fuera del uso ordinario solo para atender posibles responsabilidades y después se destruyen.
+
+## 11. Artículos 34–39 · Delegado de Protección de Datos
+
+Las Administraciones públicas deben designar DPD.
+
+Funciones:
+
+- informar y asesorar;
+- supervisar cumplimiento;
+- cooperar con la autoridad;
+- actuar como punto de contacto;
+- participar en evaluaciones de impacto.
+
+La designación o cese se comunica a la autoridad en **diez días**.
+
+Debe actuar con independencia, recursos y acceso suficiente. No recibe instrucciones sobre sus funciones ni puede ser sancionado por ejercerlas.
+
+Cuando el afectado se dirige previamente al DPD, este responde en máximo de **dos meses**. Si la AEPD le remite la reclamación, el plazo es de **un mes**.
+
+---
+
+## PARTE V · TRANSFERENCIAS, AEPD Y PROCEDIMIENTOS
+
+## 12. Artículos 40–43 · transferencias internacionales
+
+Se rigen por el RGPD: decisiones de adecuación, garantías adecuadas, normas corporativas vinculantes y excepciones tasadas. Una cesión entre Administraciones españolas no es por sí misma transferencia internacional.
+
+## 13. Artículos 44–62 · autoridades
+
+La AEPD es autoridad administrativa independiente. Investiga, inspecciona, corrige y sanciona.
+
+Puede requerir información, acceder a datos, equipos y locales dentro de la ley y ordenar medidas correctoras.
+
+El artículo **53 bis** incorpora actuaciones de investigación mediante sistemas digitales y otras técnicas legalmente previstas.
+
+Las autoridades autonómicas actúan solo dentro de competencias estatutarias y normativa propia. Para un Ayuntamiento de Castilla-La Mancha, la referencia ordinaria es la AEPD.
+
+## 14. Artículos 63–69 · procedimiento
+
+La AEPD puede actuar por reclamación o de oficio.
+
+Fases y actuaciones relevantes:
+
+- admisión o inadmisión;
+- investigación previa;
+- procedimiento por infracción;
+- procedimiento por vulneración de derechos;
+- medidas provisionales;
+- resolución y publicación.
+
+Puede inadmitirse una reclamación ajena a protección de datos, manifiestamente infundada, abusiva o sin indicios racionales.
+
+---
+
+## PARTE VI · INFRACCIONES Y SANCIONES
+
+## 15. Artículos 70–78
+
+Pueden responder responsables, encargados, representantes, entidades de certificación y organismos de supervisión de códigos. El DPD no es sujeto sancionable por el mero ejercicio de sus funciones.
+
+Las infracciones se clasifican en:
+
+- muy graves;
+- graves;
+- leves.
+
+Ejemplos muy graves:
+
+- tratar sin base jurídica;
+- vulnerar principios esenciales;
+- tratar categorías especiales sin habilitación;
+- impedir reiteradamente derechos;
+- transferir datos sin garantías.
+
+Ejemplos graves:
+
+- no informar adecuadamente;
+- no atender derechos;
+- medidas de seguridad insuficientes;
+- relación irregular con encargados;
+- no designar DPD cuando es obligatorio;
+- incumplir notificación de brechas.
+
+En Administraciones públicas, la regla del artículo 77 no es la multa ordinaria: la autoridad declara la infracción, ordena medidas correctoras, puede proponer actuaciones disciplinarias y publica la resolución.
+
+**Trampa:** ausencia de multa ordinaria no significa ausencia de responsabilidad.
+
+---
+
+## PARTE VII · DERECHOS DIGITALES
+
+## 16. Artículos 79–86
+
+- Plena aplicación de derechos constitucionales en Internet.
+- Neutralidad de Internet.
+- Acceso universal, asequible, de calidad y no discriminatorio.
+- Seguridad digital.
+- Educación digital y uso crítico.
+- Protección de menores.
+- Rectificación en Internet.
+- Actualización visible de informaciones digitales.
+
+## 17. Artículos 87–91 · ámbito laboral
+
+**Dispositivos digitales.** El empleador puede controlar obligaciones y preservar dispositivos respetando intimidad. Debe fijar criterios de uso con participación de representantes e informar.
+
+**Desconexión digital.** Fuera del tiempo de trabajo deben respetarse descanso, permisos y vacaciones. Requiere política interna y formación.
+
+**Videovigilancia laboral.** Información previa, clara y concisa. Prohibida en vestuarios, aseos, comedores y zonas de descanso.
+
+**Geolocalización.** Información expresa, clara e inequívoca sobre existencia, características y derechos.
+
+**Negociación colectiva.** Puede establecer garantías adicionales.
+
+## 18. Artículos 92–97
+
+- Protección reforzada de menores en Internet.
+- Derecho al olvido en buscadores.
+- Derecho al olvido en redes sociales.
+- Portabilidad en redes sociales.
+- Testamento digital.
+- Políticas públicas para derechos digitales, inclusión, igualdad y capacitación.
+
+---
+
+## PARTE VIII · RGPD IMPRESCINDIBLE
+
+## 19. Conceptos
+
+- **Dato personal:** información sobre persona identificada o identificable.
+- **Tratamiento:** cualquier operación sobre datos.
+- **Responsable:** decide fines y medios.
+- **Encargado:** actúa por cuenta del responsable.
+- **Seudonimización:** reduce atribución directa, pero sigue siendo dato personal.
+- **Anonimización irreversible:** deja de ser dato personal.
+
+## 20. Principios RGPD
+
+1. licitud, lealtad y transparencia;
+2. limitación de finalidad;
+3. minimización;
+4. exactitud;
+5. limitación del plazo de conservación;
+6. integridad y confidencialidad;
+7. responsabilidad proactiva.
+
+## 21. Bases jurídicas
+
+- consentimiento;
+- contrato;
+- obligación legal;
+- intereses vitales;
+- misión de interés público o poderes públicos;
+- interés legítimo.
+
+Las autoridades públicas no usan interés legítimo para tratamientos realizados en ejercicio de sus funciones.
+
+## 22. Seguridad, brechas y evaluación de impacto
+
+Debe aplicarse seguridad adecuada al riesgo.
+
+Una brecha se notifica a la autoridad, cuando proceda, sin dilación indebida y, de ser posible, en **72 horas** desde que se tiene constancia. Si entraña alto riesgo, se comunica también al afectado, salvo excepciones.
+
+La evaluación de impacto es obligatoria cuando el tratamiento puede generar alto riesgo, especialmente por vigilancia sistemática, perfiles, categorías especiales a gran escala o nuevas tecnologías.
+
+---
+
+## PARTE IX · MEMORIZACIÓN Y SUPUESTOS
+
+## 23. Cifras esenciales
+
+| Materia | Cifra |
+|---|---:|
+| Consentimiento autónomo del menor | 14 años |
+| Respuesta a derechos | 1 mes, ampliable 2 |
+| Videovigilancia | 1 mes |
+| Entrega de imágenes | 72 horas |
+| Canal interno | máximo general 3 meses |
+| Comunicación del DPD | 10 días |
+| Respuesta del DPD | 2 meses |
+| Respuesta si remite AEPD | 1 mes |
+| Notificación de brecha | 72 horas cuando proceda |
+
+## 24. Supuestos
+
+**Padrón.** No necesita consentimiento: la base es obligación legal y poder público.
+
+**Lista de aspirantes.** No deben publicarse DNI completo, domicilio u otros datos excesivos. Se aplica minimización y la regla de identificación administrativa.
+
+**Proveedor informático.** Normalmente es encargado y necesita contrato con instrucciones, confidencialidad, seguridad, subencargados y destino final de los datos.
+
+**Correo a destinatario erróneo.** Puede ser brecha; debe registrarse y evaluarse si procede notificación y comunicación.
+
+**Acceso por curiosidad.** El permiso técnico no legitima consultar expedientes sin necesidad funcional.
+
+**Solicitud de acceso.** No requiere motivación. Debe verificarse identidad de forma proporcionada y responderse en un mes.
+
+## 25. Errores frecuentes
+
+1. Creer que todo tratamiento exige consentimiento.
+2. Pedir consentimiento cuando existe obligación legal.
+3. Confundir responsable, encargado y DPD.
+4. Creer que seudonimizar elimina la normativa.
+5. Publicar datos excesivos.
+6. Conservar videovigilancia indefinidamente.
+7. Confundir supresión y bloqueo.
+8. Olvidar el plazo de un mes.
+9. Olvidar las 72 horas de brechas.
+10. Creer que las Administraciones nunca responden.
+11. Usar interés legítimo para potestades públicas.
+12. Tratar datos sensibles solo porque existe consentimiento.
+13. Instalar cámaras en zonas de descanso.
+14. Confundir derecho al olvido con borrado absoluto.
+15. Omitir información sobre geolocalización y desconexión.
+
+---
+
+## PARTE X · FUENTES Y CIERRE
+
+## 26. Fuentes oficiales
+
+- Ley Orgánica 3/2018, BOE 294 de 6 de diciembre de 2018, `BOE-A-2018-16673`.
+- Texto consolidado: última actualización publicada el 27 de diciembre de 2025.
+- Reglamento (UE) 2016/679, de 27 de abril de 2016.
+
+## 27. Control editorial y cierre del contenido
+
+- Epígrafe literal: comprobado.
+- Artículos 1–97 y 53 bis: cubiertos por bloques y trazabilidad.
+- Complemento RGPD imprescindible: incorporado.
+- Aplicación municipal: explicada.
+- Preguntas trazables: no creadas todavía.
+- Revisión del usuario: **aprobada el 17 de julio de 2026**.
+- Tema cerrado: **SÍ, aprobado por el usuario**.
+- Publicación como aprobado: **SÍ**.
+
+El usuario aprobó expresamente el tema mediante la respuesta **«Tema 9 aprobado»** el 17 de julio de 2026.
+
+
+## ANEXO FINAL · Plazos, responsables y casos que confunde el tribunal
+
+| Materia | Regla | Referencia |
+|---|---|---|
+| Consentimiento de menores | Umbral general de **14 años**, con salvedades legales | **LO 3/2018, art. 7** |
+| Comunicación de brechas a autoridad de control | Como regla, dentro de **72 horas** desde conocimiento, salvo improbabilidad de riesgo para derechos y libertades | **RGPD, art. 33.1** |
+| Respuesta a ejercicio de derechos | **Un mes** desde recepción; ampliación de **dos meses** en supuestos complejos o numerosas solicitudes con información al interesado | **RGPD, art. 12.3** |
+| Conservación de videovigilancia | Supresión en **plazo máximo de un mes**, salvo excepciones; para acreditar actos contra personas, bienes o instalaciones, a disposición de autoridad competente en **72 horas** desde conocimiento de su existencia | **LO 3/2018, art. 22.3** |
+| Autoridad estatal | **Agencia Española de Protección de Datos (AEPD)** | **LO 3/2018, art. 44** |
+| Protección de datos en ámbito público | Régimen especial de **apercibimiento y medidas correctoras** para entidades del art. 77 | **LO 3/2018, art. 77** |
+
+> ⚠️ **¡Foco Examen!:** **72 horas** en notificación de brechas del RGPD no es el **mes** máximo ordinario de conservación de imágenes. El plazo para responder a derechos es **un mes**, ampliable en casos legales.
+
+### Derechos fundamentales y obligaciones de la Administración
+
+- **Información (art. 11 LOPDGDD):** es posible la información por **capas**, no omitir el resto.
+- **Acceso (art. 13):** conocer tratamiento y acceder a los datos en las condiciones del RGPD.
+- **Rectificación (art. 14):** corregir datos inexactos.
+- **Supresión (art. 15):** eliminar cuando concurre causa legal, con excepciones.
+- **Limitación (art. 16):** restringir determinados tratamientos sin equivaler necesariamente a borrar.
+- **Portabilidad (art. 17):** solo en condiciones del **RGPD art. 20**; no procede por el mero hecho de que el responsable sea una Administración.
+- **Oposición (art. 18):** puede ejercerse en los supuestos previstos por **RGPD art. 21**.
+
+| Figura | Pregunta de test | Respuesta |
+|---|---|---|
+| **Responsable** | ¿Quién determina fines y medios del tratamiento? | Quien decide esos fines y medios, en los términos del RGPD |
+| **Encargado** | ¿Quién trata datos por cuenta del responsable? | El encargado, siguiendo instrucciones documentadas aplicables |
+| **DPD** | ¿Quién informa, asesora, supervisa y coopera con autoridad? | El delegado de protección de datos |
+| **AEPD** | ¿Quién es autoridad independiente estatal? | **Agencia Española de Protección de Datos** |
+
+> ⚠️ **¡Foco Examen!:** **DPD** no es sinónimo de **responsable** ni de **encargado** del tratamiento. El **consentimiento** no es obligatorio en todos los tratamientos administrativos: caben otras bases jurídicas legales.
+
+**Fuentes:** [LO 3/2018 consolidada a **27/12/2025**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673); [RGPD, Reglamento (UE) 2016/679](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa). **20 preguntas de examen** con fundamentos normativos en `preguntas.json`.
+
+## Cotejo individual del banco, plazos y brechas · 04/11/2026
+
+[**Informe de las 20 preguntas y 80 alternativas exactas, con fundamento para cada distractor**](cotejo-integral-2026-11-04.md). Se han sustituido **T10-008/015/020**, antes duplicadas, por plazos de ejercicio de derechos, entrega de grabaciones y brechas; sin modificar claves ni número de preguntas.
+
+| Obligación | Cómputo legal exacto |
+|---|---|
+| **Derechos de acceso/rectificación/etc.**, **RGPD art. 12.3** | Respuesta en **1 mes** desde **recibir solicitud**, prorrogable excepcionalmente **2 meses adicionales** con aviso dentro del primero |
+| **Videovigilancia**, **LOPDGDD art. 22.3** | Supresión general en **1 mes desde captación**, con excepciones |
+| **Imágenes retenidas por hechos contra personas/bienes/instalaciones**, **art. 22.3** | Puesta a disposición de **autoridad competente en 72 horas** desde conocer existencia de grabación |
+| **Brecha de seguridad**, **RGPD art. 33.1** | Aviso a **autoridad de control** sin dilación y, de ser posible, dentro de **72 horas desde constancia** cuando exista riesgo y no sea improbable; justificar demora |
+| **Información a personas afectadas**, **RGPD art. 34** | **Sin dilación indebida** cuando sea probable **alto riesgo**, sin aplicar automáticamente las 72 horas |
+
+**Fuente adicional institucional:** [**AEPD sobre respuestas a derechos**](https://www.aepd.es/preguntas-frecuentes/1-tus-derechos/2-tus-derechos-de-proteccion-de-datos) y [**AEPD sobre notificación de brechas**](https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion).
+
+> ⚠️ **¡Foco Examen!:** **1 mes** derechos ≠ **1 mes** conservación de imágenes: comienzan respectivamente en **solicitud** y **captación**. **72 horas de entrega de vídeo** comienzan al conocer la **grabación**; **72 horas de brecha RGPD** al conocer **violación de seguridad**, bajo sus condiciones.
+
+
+
+## Cierre de fuentes y distinción de obligaciones de datos — **06/11/2026**
+
+[**Ley Orgánica 3/2018**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), consolidada con última actualización publicada el **27/12/2025**, y [**Reglamento (UE) 2016/679 (RGPD)**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) aplicable directamente. La edad de consentimiento **14 años** de la ley española se refiere al supuesto del **art. 7**, con matices legales; no habilita todo tratamiento de menores ni reemplaza las bases legitimadoras del **RGPD**.
+
+### Derechos, imágenes de videovigilancia y brechas de seguridad
+
+| Obligación | Plazo/condición | Fuente normativa |
+|---|---|---|
+| Responder a solicitud de **derechos** del afectado | **1 mes desde recepción**; prórroga de **2 meses adicionales** si es necesario por complejidad/número, informando dentro del **primer mes** | **RGPD art. 12.3** |
+| Supresión ordinaria de **imágenes de videovigilancia** | Máximo **1 mes desde captación**, salvo conservación de supuestos legales | **LOPDGDD art. 22.3** |
+| Conservar grabación de hechos contra personas, bienes o instalaciones | Ponerla a disposición de **autoridad competente** en máximo **72 horas desde conocer la existencia de la grabación** | **LOPDGDD art. 22.3** |
+| Notificar **violación de seguridad de datos** a la **autoridad de control** | Sin dilación indebida y, si es posible, en **72 horas desde conocer la brecha**, salvo que sea **improbable que entrañe riesgo** | **RGPD art. 33.1** |
+| Comunicar brecha a **personas afectadas** | **Sin dilación indebida** cuando sea probable un **alto riesgo**; excepciones del artículo | **RGPD art. 34** |
+| Consentimiento del menor (supuesto legal) | **14 años** en régimen del **art. 7 LOPDGDD**, con limitaciones | **LOPDGDD art. 7** |
+
+> ⚠️ **¡Foco Examen!:** **72 horas de videovigilancia** comienzan al conocer la **grabación de hechos**; las **72 horas del art. 33 RGPD** comienzan al conocer la **brecha**. La comunicación a afectados por **alto riesgo (art. 34)** **no** queda sujeta automáticamente a ese plazo numérico.
+
+### Responsable, encargado, delegado y autoridad
+
+| Figura o derecho | Función o garantía | No confundir |
+|---|---|---|
+| **Responsable** | Determina fines y medios del tratamiento | No es siempre quien presta el servicio informático |
+| **Encargado** | Trata datos **por cuenta** del responsable con el régimen contractual exigible | No determina por sí mismo los fines |
+| **Delegado de Protección de Datos** | Informa, asesora y supervisa las obligaciones dentro de su ámbito | No sustituye al **responsable** ni es necesariamente la **AEPD** |
+| **Agencia Española de Protección de Datos (AEPD)** | Autoridad estatal de control, en los términos legales | No es delegado interno de cada Administración |
+| **Acceso** | Conocer si se tratan datos personales y acceder a ellos | No equivale a **portabilidad** |
+| **Rectificación** | Corregir datos inexactos | No es supresión automática |
+| **Limitación** | Restringir determinados usos en supuestos legales | No significa necesariamente borrado inmediato |
+| **Derecho a desconexión digital** | Reconocido a **trabajadores y empleados públicos**, según el art. **88** | No elimina deberes de seguridad ni registros de trabajo |
+
+> ⚠️ **¡Foco Examen!:** No afirmar que el **consentimiento es obligatorio en todos los expedientes administrativos**: se requiere **base jurídica válida** en el **RGPD art. 6**, y los poderes públicos pueden tratar datos por misión de interés público o ejercicio de potestades dentro de sus competencias legales, según las reglas aplicables.
+
+**Fuentes de detalle:** [**LOPDGDD 2018**](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673), [**RGPD**](https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa) y [**AEPD sobre brechas**](https://www.aepd.es/derechos-y-deberes/cumple-tus-deberes/medidas-de-cumplimiento/brechas-de-datos-personales-notificacion). [Informe de cierre 7–10](../cierre-editorial-c2-07-10-2026-11-06.md). Banco **20/80** cotejado individualmente en noviembre, con IDs y claves preservados; pendiente la prueba funcional externa.

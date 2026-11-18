@@ -1,0 +1,245 @@
+{
+  "tema": 15,
+  "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
+  "epigrafeOficial": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE",
+  "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
+  "fuentesPrimarias": [
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Órganos de las Administraciones Públicas",
+      "norma": "Ley 40/2015",
+      "articulos": "5–7",
+      "contenidoExigible": "Órganos, instrucciones y órganos consultivos"
+    },
+    {
+      "inciso": "Ejercicio de competencia y relaciones entre órganos",
+      "norma": "Ley 40/2015",
+      "articulos": "8–14",
+      "contenidoExigible": "Irrenunciabilidad, delegación, avocación, encomienda, delegación de firma y suplencia"
+    },
+    {
+      "inciso": "Órganos colegiados",
+      "norma": "Ley 40/2015",
+      "articulos": "15–22",
+      "contenidoExigible": "Constitución, sesiones, acuerdos y régimen de órganos colegiados"
+    },
+    {
+      "inciso": "Abstención y recusación",
+      "norma": "Ley 40/2015",
+      "articulos": "23–24",
+      "contenidoExigible": "Causas, órganos intervinientes y procedimiento"
+    },
+    {
+      "inciso": "Administración General del Estado, organización central",
+      "norma": "Ley 40/2015",
+      "articulos": "54–68",
+      "contenidoExigible": "Ministerios, órganos superiores y directivos, estructura y niveles"
+    },
+    {
+      "inciso": "Administración periférica y exterior",
+      "norma": "Ley 40/2015",
+      "articulos": "69–80",
+      "contenidoExigible": "Delegados, Subdelegados, Directores insulares, organización exterior y funciones"
+    }
+  ],
+  "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-15/fuentes.md",
+  "manual": "content/diputacion-toledo-auxiliar-c2/tema-15/manual.md",
+  "notas": "Matriz de correspondencia temática fundada en fuentes documentales del repositorio. No acredita exactitud de rutas ni pruebas de uso real, ausencia de lagunas o calidad legal integral.",
+  "controlFocalBanco20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 8,
+    "alternativas": 32,
+    "estado": "AUDITORIA_PARCIAL_NO_CIERRE_INTEGRAL",
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-focal-2026-11-05.md",
+    "reforma": "LO 2/2024, DT 1.3: art 55 bis 40-60, nombramientos desde 22/08/2024, garantía global en 5 años",
+    "navegadorReal": "PENDIENTE",
+    "manualCompleto": "PENDIENTE"
+  },
+  "controlBancoCompleto20261105": {
+    "fecha": "2026-11-05",
+    "tipo": "COTEJO_JURIDICO_INDIVIDUAL_BANCO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "informePrimero": "content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-focal-2026-11-05.md",
+    "informeSegundo": "content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-segundo-lote-2026-11-05.md",
+    "norma": "Ley 40/2015 BOE-A-2015-10566 consolidación 02/08/2024; LO 2/2024 art. 55 bis",
+    "estado": "BANCO_COTEJADO_MANUAL_PENDIENTE_COTEJO_INTEGRAL",
+    "navegador": "PENDIENTE",
+    "aprobacionIntegral": false
+  },
+  "controlManualColegiados20261105": {
+    "fecha": "2026-11-05",
+    "estado": "REVISION_FOCAL_MANUAL_ARTS_17_19_22_23_PENDIENTE_COTEJO_INTEGRAL",
+    "articulos": [
+      "17.2–3",
+      "17.5–6",
+      "18.1–2",
+      "19.3.a",
+      "19.5",
+      "22.1–3",
+      "23.2.e"
+    ],
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-manual-colegiados-2026-11-05.md",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+    "campos": [
+      "constitucion sin convocatoria",
+      "exencion por voto contrario",
+      "grabacion certificada",
+      "aprobacion actas",
+      "convocatoria AGE dos dias",
+      "voto particular",
+      "creacion formal BOE",
+      "abstencion dos años"
+    ],
+    "certificacionManualCompleto": false,
+    "navegacionReal": "PENDIENTE",
+    "validacionJuridicaTotal": false
+  },
+  "controlManualCompetenciasAge20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_FOCAL_ARTS_9_63_64_73_PENDIENTE_COTEJO_INTEGRAL",
+    "preceptos": [
+      "9.1",
+      "9.3",
+      "63.3",
+      "64.3",
+      "73.1.b",
+      "73.1.d",
+      "73.2",
+      "73.3",
+      "73.4"
+    ],
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-manual-competencias-age-2026-11-05.md",
+    "fuentesNormativas": [
+      "BOE-A-2015-10566",
+      "BOE-A-2023-25758, disposición final 3.1"
+    ],
+    "hallazgos": [
+      "Autorizaciones previas delegacion AGE",
+      "Subsecretarios incluyen A1 jubilados desde 2023",
+      "Nombramiento Secretario General propuesta Ministro o Presidente",
+      "Delegados informe anual, recursos previo informe ministerial, seguridad y potestad expropiatoria"
+    ],
+    "bancoPreguntas": "20/80, no modificado",
+    "manualCertificado": false,
+    "navegadorReal": "PENDIENTE"
+  },
+  "controlManualOrganosCompetencia20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_FOCAL_ARTS_5_14_PENDIENTE_COTEJO_INTEGRAL",
+    "articulos": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "pasajesModificados": 12,
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-manual-organos-competencias-2026-11-05.md",
+    "fuente": "BOE-A-2015-10566, consolidado actualización 02/08/2024",
+    "correccionesPrincipales": [
+      "instrucciones Ley 19/2013",
+      "dictamen e informe preceptivo emitido",
+      "encomiendas mismas o distintas Administraciones",
+      "designación suplente AGE",
+      "interesados que sean parte procedimiento"
+    ],
+    "estadoBanco": "20/80 cotejado anteriormente, sin modificaciones",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
+  },
+  "controlManualAge54a80_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_FOCAL_ORGANIZACION_AGE_54_80_PENDIENTE_COTEJO_INTEGRAL",
+    "articulosRango": "54–80 y 55 bis",
+    "pasajesModificados": 11,
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-manual-age-54-80-2026-11-05.md",
+    "erroresMaterialesRetirados": [
+      "art 75 asuncion de funciones de Subdelegado por mera sede de Delegacion",
+      "art 68 asistencia directa en lugar de gestion directa"
+    ],
+    "correccionesComplementarias": [
+      "55.8",
+      "55.10",
+      "58.2",
+      "58.4",
+      "68.3",
+      "72.5",
+      "76.1–2",
+      "79.1–3"
+    ],
+    "pendienteRevisarEnProfundidad": [
+      "61–62",
+      "73–79"
+    ],
+    "banco": "20/80 cotejado, no modificado",
+    "certificacionIntegral": false,
+    "navegadorReal": "PENDIENTE"
+  },
+  "controlManualFunciones61627375_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_JURIDICO_FOCAL_COMPETENCIAS_PENDIENTE_COTEJO_INTEGRAL",
+    "preceptos": [
+      "61 a–t, incluida ñ",
+      "62.1–2 a–k",
+      "73.1 a–e y 73.2–4",
+      "75 a–f"
+    ],
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-15/cotejo-funciones-61-62-73-75-2026-11-05.md",
+    "resultados": [
+      "Ministros, 21 letras incluidas",
+      "Secretarios de Estado, 11 letras incluidas",
+      "Cooperacion e informacion de Delegado detalladas",
+      "Cooperacion del Subdelegado 75.a.1/2 y sanciones frente a expropiacion"
+    ],
+    "bloqueo": "REMISION_ANTIGUA_ART_62_2_E_CONCILIADA_CON_LCSP_324_5_DT2_900000_SUPLETORIO; APLICACION_CONCRETA_DEPENDE_DE_CUANTIA_DEPARTAMENTAL",
+    "banco": "20 preguntas/80 alternativas, no modificado",
+    "certificacionIntegral": false,
+    "navegadorReal": "PENDIENTE"
+  },
+  "controlRemisionContratosArt62e20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_NORMATIVO_COMPLEMENTARIO_LCSP_PENDIENTE_COTEJO_INTEGRAL",
+    "preceptos": [
+      "Ley 40/2015 art 62.2.e",
+      "Ley 9/2017 art 324.1 y 324.5",
+      "Ley 9/2017 DT 2",
+      "Ley 9/2017 art 101"
+    ],
+    "fuentes": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566#a62",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a324",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#dt-2"
+    ],
+    "cuantiaSupletoriaEuro": 900000,
+    "cuantiaAutorizacionConsejoMinistrosEuro": 12000000,
+    "condicionCuantiaSupletoria": "Hasta que el Secretario de Estado o titular ministerial competente fije otra cuantia en art 324.5",
+    "valorDeReferencia": "valor estimado conforme art 101 LCSP",
+    "estadoBanco": "20 preguntas/80 opciones, sin modificaciones",
+    "certificacionIntegral": false,
+    "navegadorReal": "PENDIENTE"
+  },
+  "cierreEditorialC2_14_16_20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AUDITADO_DOCUMENTAL",
+    "normas": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902"
+    ],
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-14-16-2026-11-06.md"
+  }
+}

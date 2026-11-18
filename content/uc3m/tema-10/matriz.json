@@ -1,0 +1,211 @@
+{
+  "tema": 10,
+  "titulo": "TREBEP: personal, derechos, deberes, adquisición, pérdida y situaciones",
+  "epigrafeOficial": "Personal al servicio de las Administraciones Públicas; derechos, deberes y código de conducta; adquisición y pérdida de la relación de servicio; situaciones administrativas.",
+  "cobertura": [
+    {
+      "bloque": "Marco general y ámbito",
+      "manual": "apartado 1",
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-01",
+        "UC3M-ADIC-20261106-LOTE-02"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
+    },
+    {
+      "bloque": "Clases de personal",
+      "manual": "apartado 2",
+      "preguntas": [
+        "UC3M-T10-001",
+        "UC3M-T10-002",
+        "UC3M-T10-003"
+      ]
+    },
+    {
+      "bloque": "Derechos individuales y colectivos",
+      "manual": "apartados 3 y 4",
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-03",
+        "UC3M-ADIC-20261106-LOTE-04"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
+    },
+    {
+      "bloque": "Carrera y promoción interna",
+      "manual": "apartado 5",
+      "preguntas": [
+        "UC3M-T10-004"
+      ]
+    },
+    {
+      "bloque": "Evaluación del desempeño",
+      "manual": "apartado 6",
+      "preguntas": [
+        "UC3M-T10-005"
+      ]
+    },
+    {
+      "bloque": "Deberes y código de conducta",
+      "manual": "apartado 7",
+      "preguntas": [
+        "UC3M-T10-006"
+      ]
+    },
+    {
+      "bloque": "Acceso al empleo público",
+      "manual": "apartado 8",
+      "preguntas": [
+        "UC3M-T10-007",
+        "UC3M-T10-008"
+      ]
+    },
+    {
+      "bloque": "Adquisición de la condición de funcionario",
+      "manual": "apartado 9",
+      "preguntas": [
+        "UC3M-T10-009"
+      ]
+    },
+    {
+      "bloque": "Pérdida de la condición y jubilación",
+      "manual": "apartados 10 y 11",
+      "preguntas": [
+        "UC3M-T10-010"
+      ]
+    },
+    {
+      "bloque": "Situaciones administrativas",
+      "manual": "apartado 12",
+      "preguntas": [
+        "UC3M-T10-011",
+        "UC3M-T10-012"
+      ]
+    },
+    {
+      "bloque": "Reingreso al servicio activo",
+      "manual": "apartado 13",
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-05",
+        "UC3M-ADIC-20261106-LOTE-06"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
+    }
+  ],
+  "estado": "EN_REVISION_USUARIO",
+  "controlIntegralBanco20261104": {
+    "fecha": "2026-11-04",
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "preguntasVerificadas": 12,
+    "alternativasVerificadas": 48,
+    "informe": "content/uc3m/tema-10/cotejo-integral-2026-11-04.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "fechaCorteNormativo": "Pendiente lectura primaria definitiva de la resolución UC3M; base primera.7",
+    "observacion": "Art 64.2 renuncia ampliado y plazos de interinos/excedencia/puestos"
+  },
+  "controlRevalidacionBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "UC3M_T10_T12",
+    "estado": "REVALIDACION_LEGAL_PEDAGOGICA_BANCO_COTEJADO_MANUAL_NO_CERTIFICADO_INTEGRAL",
+    "claveConservada": 12,
+    "alternativasConRazonamiento": 48,
+    "fuentesPorArticulo": true,
+    "informe": "content/uc3m/cotejo-bloque-t10-t12-2026-11-05.md",
+    "prueba": "tests/validate-uc3m-t10-t12-revalidacion-20261105.mjs",
+    "corteNormativo": "PENDIENTE_LEER_RESOLUCION_LISTA_DEFINITIVA_Y_ANUNCIO_EJERCICIO",
+    "pruebaNavegador": "PENDIENTE",
+    "certificacionIntegral": false
+  },
+  "controlLoteMasivo20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_FOCAL_SIN_CIERRE_INTEGRAL",
+    "bloquesAbordados": [
+      {
+        "bloque": "Marco general y ámbito",
+        "manual": "15.1",
+        "fuente": "TREBEP 1-2",
+        "preguntasComplementarias": [
+          1,
+          2
+        ]
+      },
+      {
+        "bloque": "Derechos individuales y colectivos",
+        "manual": "15.2",
+        "fuente": "TREBEP 14-15",
+        "preguntasComplementarias": [
+          3,
+          4
+        ]
+      },
+      {
+        "bloque": "Reingreso al servicio activo",
+        "manual": "15.3",
+        "fuente": "TREBEP 87-91",
+        "preguntasComplementarias": [
+          5,
+          6
+        ]
+      }
+    ],
+    "recurso": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+    "totalPreguntasComplementarias": 6,
+    "bancoOriginalSinModificar": true,
+    "simulacrosSinModificar": true,
+    "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
+    "certificacionWeb": false,
+    "aprobacionUsuario": false
+  },
+  "cierreDocumentalT10T11_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T10_T11_20261106.md",
+    "prueba": "tests/validate-uc3m-cierres-t10-t11-20261106.mjs",
+    "preguntasOriginales": 12,
+    "alternativasOriginales": 48,
+    "preguntasComplementarias": 6,
+    "alternativasComplementarias": 24,
+    "bloquesMatriz": 11,
+    "corteNormativo": "PENDIENTE_COMPROBAR_DOCUMENTO_PRIMARIO_UC3M",
+    "certificacionWeb": "PENDIENTE_E2E",
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "estado": "DESARROLLO_DOCUMENTAL_COMPLETO_CON_RESERVA_CORTE",
+    "apartados": 11,
+    "supuestosNuevos": 2,
+    "preguntas": 12,
+    "alternativas": 48,
+    "aprobadoUsuario": false,
+    "fechaCorteBOEConfirmada": false,
+    "certificacionE2E": false
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 11,
+    "bloquesConPreguntasHistoricasOComplementarias": 11,
+    "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
+    "reserva": "Preguntas originales conservadas; rastreo de cobertura, no certificación legal ni funcional",
+    "certificacionIntegral": false
+  },
+  "controlCorteNormativo20261110": {
+    "fecha": "2026-11-10",
+    "fuenteRegla": "BOE-A-2026-14624 base primera.7",
+    "fuenteInstitucional": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
+    "fechaFirmaReferida": "2026-09-30",
+    "fechaPublicacionSecundaria": "2026-10-01",
+    "fechaPublicacionPrimaria": "NO_ACREDITADA",
+    "documentoCotejo": "content/uc3m/CONTROL_CORTE_T10_T15_T16_20261110.md",
+    "reservaTema": "TREBEP art.49.e modificado en vigor 23/10, fecha de listas anterior conocida secundariamente",
+    "aprobadoPorUsuario": false,
+    "certificacionIntegral": false
+  }
+}

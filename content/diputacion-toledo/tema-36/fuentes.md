@@ -1,0 +1,38 @@
+# Fuentes oficiales · Tema 36
+
+## Programa oficial
+
+- Diputación Provincial de Toledo, **ANEXO VII · Administrativo**, BOP de Toledo número **118**, de **25 de junio de 2026**.
+
+## LibreOffice Calc
+
+- Ayuda oficial de LibreOffice Calc: funcionalidades, fórmulas, referencias, funciones, filtros, gráficos y atajos.
+  - https://help.libreoffice.org/latest/es/text/scalc/main0000.html
+  - https://help.libreoffice.org/latest/es/text/scalc/main0503.html
+  - https://help.libreoffice.org/latest/es/text/scalc/guide/formulas.html
+  - https://help.libreoffice.org/latest/es/text/scalc/guide/main.html
+  - https://help.libreoffice.org/latest/es/text/scalc/01/04060100.html
+- Documentación oficial de LibreOffice Calc:
+  - https://documentation.libreoffice.org/en/english-documentation/calc/
+
+## Criterio editorial
+
+El tema se ha elaborado para **LibreOffice 24 y posteriores**, priorizando funcionalidades estables y documentadas oficialmente. Los nombres concretos de menús o iconos pueden variar ligeramente según la versión, el sistema operativo o la personalización de la interfaz.
+
+> ⚠️ **¡Foco Examen!:** En preguntas sobre Calc debe prevalecer la función del comando y no una posición de icono que pueda cambiar entre interfaces.
+
+## Revisión técnica adicional — **29/10/2026**
+
+- [Ayuda oficial de Calc: referencias relativas, absolutas y mixtas](https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html). Incluye ciclo de **F4**: `A1` → `$A$1` → `A$1` → `$A1` → `A1`.
+- [Ayuda oficial de Calc: conteo de valores](https://help.libreoffice.org/latest/es/text/scalc/02/08080000.html). Diferencia **CONTAR** (numéricos) de **CONTARA** (valores no vacíos).
+- [Ayuda oficial de Calc: SUMA](https://help.libreoffice.org/latest/es/text/scalc/01/func_sum.html). Sintaxis y ejemplos en idioma español.
+- [Ayuda oficial de Calc: SI.ERROR](https://help.libreoffice.org/latest/es/text/scalc/01/04060104.html). Control de errores en fórmulas.
+
+**Estado de control:** banco ampliado a **20 preguntas**; manual enriquecido con tabla de referencias y funciones. Pendientes revisión integral de todas las secciones y prueba funcional en OpoWeb.
+
+## Cotejo técnico de C1 36–39 — **05/11/2026**
+
+- [**Guía LibreOffice 24.8 española**](https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html): **Ctrl + G** guardar, **Ctrl + B** buscar y **Ctrl + U** documento nuevo; se distinguen las combinaciones internacionales.
+- [F4 y referencias relativas/mixtas](https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html): copia de `=$A2+B$1` desde **C2** a **C3**.
+- [Funciones de Calc](https://help.libreoffice.org/latest/es/text/scalc/01/04060100.html): **SI** y **CONTAR.SI**; reemplazadas **4 preguntas** redundantes por casos y configuración española.
+- **20 preguntas / 80 alternativas**; [informe de cierre](../cierre-editorial-36-39-2026-11-05.md).

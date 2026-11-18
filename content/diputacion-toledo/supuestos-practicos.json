@@ -1,0 +1,143 @@
+{
+  "convocatoria": "Diputación Provincial de Toledo · Administrativo C1",
+  "estado": "GENERACION_DESDE_CERO",
+  "version": "2026-07-20",
+  "supuestos": [
+    {
+      "id": "DIP-SP-001",
+      "titulo": "Registro electrónico, cómputo de plazos y subsanación",
+      "temas": [3, 4, 5, 7],
+      "enunciado": "Una persona presenta por registro electrónico una solicitud dirigida a la Diputación un sábado a las 23:40. El procedimiento exige aportar un documento acreditativo que no se adjunta. El órgano competente detecta la omisión y debe requerir la subsanación.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-001-Q1",
+          "pregunta": "¿En qué momento se entiende presentada la solicitud a efectos del registro electrónico?",
+          "respuesta": "La presentación es válida en la fecha y hora en que se realiza, pero si se efectúa en un día inhábil se entiende realizada, a efectos del cómputo de plazos, en la primera hora del primer día hábil siguiente, salvo que una norma permita expresamente la recepción en día inhábil con otros efectos.",
+          "trampa": "No debe confundirse la disponibilidad del registro durante las veinticuatro horas con que todos los efectos administrativos se produzcan en un día inhábil.",
+          "referencias": [
+            "content/diputacion-toledo/tema-05/manual.md#registro-electrónico",
+            "content/diputacion-toledo/tema-04/manual.md#cómputo-de-plazos"
+          ]
+        },
+        {
+          "id": "DIP-SP-001-Q2",
+          "pregunta": "¿Qué debe hacer la Administración ante la falta del documento y qué plazo general debe conceder?",
+          "respuesta": "Debe requerir a la persona interesada para que subsane la falta o acompañe el documento preceptivo en el plazo general de diez días, con advertencia de que, si no lo hace, se le tendrá por desistida de su petición mediante resolución expresa.",
+          "trampa": "El desistimiento no se produce automáticamente por el mero transcurso del plazo: requiere resolución expresa.",
+          "referencias": [
+            "content/diputacion-toledo/tema-03/manual.md#subsanación-y-mejora-de-la-solicitud"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-002",
+      "titulo": "Contrato menor y prohibición de fraccionamiento",
+      "temas": [15, 16],
+      "enunciado": "Un servicio gestor necesita adquirir material informático homogéneo para varias dependencias durante el mismo ejercicio. Se propone tramitar varios contratos menores sucesivos con el mismo objeto para evitar acudir a un procedimiento abierto.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-002-Q1",
+          "pregunta": "¿Es correcta la división propuesta?",
+          "respuesta": "No, si las prestaciones forman una unidad funcional o responden a una necesidad previsible y homogénea. La división artificiosa para eludir las reglas de publicidad, concurrencia o procedimiento constituye fraccionamiento indebido del objeto contractual.",
+          "trampa": "No toda división en lotes es fraccionamiento ilícito; lo prohibido es fragmentar artificialmente una unidad contractual para rebajar su cuantía o eludir el procedimiento aplicable.",
+          "referencias": [
+            "content/diputacion-toledo/tema-15/manual.md#objeto-del-contrato-y-fraccionamiento",
+            "content/diputacion-toledo/tema-16/manual.md#contratos-menores"
+          ]
+        },
+        {
+          "id": "DIP-SP-002-Q2",
+          "pregunta": "¿Qué criterio debe seguirse para determinar el procedimiento de adjudicación?",
+          "respuesta": "Debe atenderse al valor estimado total de la necesidad contractual, calculado sin IVA y considerando las prestaciones homogéneas, opciones y eventuales prórrogas que procedan. Sobre esa cuantía se selecciona el procedimiento legalmente aplicable.",
+          "trampa": "La referencia decisiva no es el importe aislado de cada factura ni el presupuesto base con IVA, sino el valor estimado del conjunto contractual.",
+          "referencias": [
+            "content/diputacion-toledo/tema-15/manual.md#valor-estimado-y-presupuesto-base-de-licitación"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-003",
+      "titulo": "Acceso a la información pública y protección de datos",
+      "temas": [10, 28],
+      "enunciado": "Una persona solicita copia íntegra de un expediente de subvención que contiene datos identificativos, bancarios y de salud de terceras personas. La unidad tramitadora debe resolver la solicitud de acceso.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-003-Q1",
+          "pregunta": "¿Debe denegarse necesariamente todo el acceso?",
+          "respuesta": "No. Debe ponderarse el derecho de acceso con la protección de datos personales y aplicarse, cuando sea posible, acceso parcial mediante disociación, anonimización u ocultación de los datos no necesarios.",
+          "trampa": "La presencia de datos personales no convierte automáticamente todo el expediente en inaccesible.",
+          "referencias": [
+            "content/diputacion-toledo/tema-10/manual.md#acceso-parcial",
+            "content/diputacion-toledo/tema-28/manual.md#principios-del-tratamiento"
+          ]
+        },
+        {
+          "id": "DIP-SP-003-Q2",
+          "pregunta": "¿Qué tratamiento merecen los datos de salud?",
+          "respuesta": "Son categorías especiales de datos y requieren una protección reforzada. Su divulgación solo puede producirse si existe una base jurídica suficiente y resulta necesaria y proporcionada; en otro caso deben excluirse de la copia facilitada.",
+          "trampa": "El hecho de que el expediente sea administrativo no elimina el régimen reforzado aplicable a las categorías especiales de datos.",
+          "referencias": [
+            "content/diputacion-toledo/tema-28/manual.md#categorías-especiales-de-datos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-004",
+      "titulo": "Fases del gasto y control presupuestario",
+      "temas": [29, 30],
+      "enunciado": "Un servicio propone adquirir equipamiento por importe superior al crédito disponible. La factura llega antes de que se haya aprobado formalmente el gasto y se pretende abonarla de inmediato.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-004-Q1",
+          "pregunta": "¿Puede asumirse válidamente el gasto sin crédito adecuado y suficiente?",
+          "respuesta": "No. La existencia de crédito adecuado y suficiente es presupuesto básico para autorizar el gasto. Los compromisos de gasto por cuantía superior al crédito disponible vulneran la disciplina presupuestaria y pueden ser nulos en los términos previstos por la normativa aplicable.",
+          "trampa": "La mera necesidad material del suministro no convalida la falta de crédito ni sustituye la tramitación presupuestaria.",
+          "referencias": [
+            "content/diputacion-toledo/tema-29/manual.md#créditos-presupuestarios",
+            "content/diputacion-toledo/tema-30/manual.md#limitación-cualitativa-cuantitativa-y-temporal"
+          ]
+        },
+        {
+          "id": "DIP-SP-004-Q2",
+          "pregunta": "¿Cuál es la secuencia ordinaria de las fases de ejecución del gasto?",
+          "respuesta": "La secuencia ordinaria es autorización del gasto, disposición o compromiso, reconocimiento de la obligación y ordenación del pago, sin perjuicio de que determinadas fases puedan acumularse cuando la normativa lo permita.",
+          "trampa": "Pagar una factura no sustituye las fases previas ni convierte por sí solo en regular un gasto incorrectamente contraído.",
+          "referencias": [
+            "content/diputacion-toledo/tema-30/manual.md#fases-de-ejecución-del-gasto"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "DIP-SP-005",
+      "titulo": "Phishing, GroupWise y respuesta ante incidentes",
+      "temas": [32, 33, 34, 39, 40],
+      "enunciado": "Una empleada recibe en GroupWise un mensaje que aparenta proceder del servicio informático. El correo incluye un enlace para renovar la contraseña y un archivo comprimido. Tras abrir el enlace, introduce sus credenciales y observa actividad anómala en su buzón.",
+      "cuestiones": [
+        {
+          "id": "DIP-SP-005-Q1",
+          "pregunta": "¿Qué indicios permiten identificar un posible phishing?",
+          "respuesta": "Son indicios habituales la urgencia injustificada, la solicitud de credenciales, el dominio o remitente anómalo, los enlaces cuya dirección real no coincide con el texto visible, los adjuntos inesperados y los errores de redacción o formato.",
+          "trampa": "El nombre mostrado del remitente no acredita por sí solo su identidad; debe comprobarse la dirección real y el destino del enlace.",
+          "referencias": [
+            "content/diputacion-toledo/tema-34/manual.md#phishing-y-suplantación",
+            "content/diputacion-toledo/tema-33/manual.md#gestión-del-correo-en-groupwise"
+          ]
+        },
+        {
+          "id": "DIP-SP-005-Q2",
+          "pregunta": "¿Qué actuaciones inmediatas debe realizar la empleada?",
+          "respuesta": "Debe comunicar el incidente al servicio competente, cambiar la contraseña desde un equipo seguro, cerrar sesiones activas, no seguir interactuando con el mensaje, conservar las evidencias necesarias y seguir las instrucciones de respuesta al incidente. Si existe riesgo para datos personales, debe activarse además el procedimiento interno de gestión de brechas.",
+          "trampa": "Borrar el mensaje sin comunicarlo puede destruir evidencias y no revoca las credenciales comprometidas.",
+          "referencias": [
+            "content/diputacion-toledo/tema-34/manual.md#respuesta-ante-incidentes",
+            "content/diputacion-toledo/tema-28/manual.md#brechas-de-seguridad"
+          ]
+        }
+      ]
+    }
+  ]
+}

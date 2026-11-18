@@ -1,0 +1,309 @@
+# Tema 10 · La responsabilidad patrimonial de la Administración Pública
+
+> **Epígrafe oficial:** La responsabilidad patrimonial de la Administración Pública. Responsabilidad de las autoridades y funcionarios al servicio de las administraciones públicas.
+
+## 1. Fundamento constitucional
+
+El artículo 106.2 de la Constitución reconoce el derecho de los particulares a ser indemnizados por toda lesión que sufran en cualquiera de sus bienes y derechos, salvo en los casos de fuerza mayor, siempre que la lesión sea consecuencia del funcionamiento de los servicios públicos.
+
+La regulación básica se encuentra en:
+
+- **Ley 40/2015**, artículos **32 a 37**.
+- **Ley 39/2015**, especialmente artículos **65, 67, 81, 82, 86, 91 y 96**.
+
+> ⚠️ **¡Foco Examen!:** La Constitución excluye expresamente los daños debidos a **fuerza mayor**, no los derivados de caso fortuito.
+
+## 2. Caracteres del sistema
+
+La responsabilidad patrimonial administrativa es:
+
+- **directa**, porque el perjudicado reclama a la Administración;
+- **objetiva**, pues no exige probar culpa del servicio;
+- **general**, al abarcar el funcionamiento normal o anormal;
+- **unitaria**, cualquiera que sea la naturaleza pública o privada de la actuación;
+- **integral**, porque pretende la reparación completa del daño indemnizable.
+
+La responsabilidad objetiva no convierte a la Administración en aseguradora universal. Deben concurrir todos los requisitos legales.
+
+## 3. Requisitos de la responsabilidad patrimonial
+
+### 3.1. Lesión antijurídica
+
+El daño debe ser antijurídico: el perjudicado no tiene el deber jurídico de soportarlo conforme a la ley.
+
+No serán indemnizables los daños derivados de hechos o circunstancias que no hubieran podido preverse o evitarse según el estado de los conocimientos de la ciencia o de la técnica existente cuando se produjeron, sin perjuicio de las prestaciones asistenciales o económicas que las leyes puedan establecer.
+
+### 3.2. Daño efectivo, evaluable e individualizado
+
+El daño ha de ser:
+
+- **efectivo**, no meramente hipotético;
+- **evaluable económicamente**;
+- **individualizado** respecto de una persona o grupo de personas.
+
+### 3.3. Relación de causalidad
+
+Debe existir un nexo causal entre el funcionamiento del servicio público y el daño. La intervención de la víctima o de un tercero puede excluir o reducir la responsabilidad cuando rompe o modifica ese nexo.
+
+### 3.4. Funcionamiento normal o anormal
+
+La indemnización puede proceder tanto por funcionamiento **normal** como **anormal** de los servicios públicos.
+
+### 3.5. Ausencia de fuerza mayor
+
+La fuerza mayor excluye la responsabilidad patrimonial.
+
+| Requisito | Regla de examen |
+|---|---|
+| Daño | **Efectivo, evaluable e individualizado** |
+| Antijuridicidad | El perjudicado no debe tener obligación jurídica de soportarlo |
+| Causalidad | Nexo entre servicio público y lesión |
+| Funcionamiento | Puede ser **normal o anormal** |
+| Exclusión | **Fuerza mayor** |
+
+> ⚠️ **¡Foco Examen!:** No basta con que exista un daño. Debe ser además **antijurídico**.
+
+## 4. Responsabilidad del Estado legislador
+
+Puede haber indemnización por lesiones derivadas de actos legislativos de naturaleza no expropiatoria cuando así se establezca en los propios actos legislativos y en sus términos.
+
+También puede surgir responsabilidad cuando el daño derive de:
+
+- una norma con rango de ley declarada inconstitucional;
+- una norma contraria al Derecho de la Unión Europea.
+
+En ambos supuestos se exigen los requisitos específicos de la Ley 40/2015, incluida la obtención de sentencia firme desestimatoria del recurso contra la actuación administrativa causante del daño y la alegación de la inconstitucionalidad o infracción europea posteriormente declarada.
+
+Los daños indemnizables se limitan, con carácter general, a los producidos en los **cinco años anteriores** a la publicación de la sentencia que declare la inconstitucionalidad o la contradicción con el Derecho de la Unión Europea, salvo que la sentencia disponga otra cosa.
+
+> ⚠️ **¡Foco Examen!:** La declaración de inconstitucionalidad de una ley no genera automáticamente indemnización para todos los afectados.
+
+## 5. Responsabilidad por funcionamiento de la Administración de Justicia
+
+La responsabilidad patrimonial por error judicial y por funcionamiento anormal de la Administración de Justicia se rige por la **Ley Orgánica del Poder Judicial**.
+
+## 6. Responsabilidad concurrente de varias Administraciones
+
+Cuando varias **Administraciones** actúan conjuntamente, la responsabilidad **frente al particular es solidaria en todo caso** (**art. 33.1 Ley 40/2015**). El instrumento conjunto puede establecer **reparto interno**, pero no elimina la solidaridad externa.
+
+En otros casos de concurrencia, la responsabilidad se fijará atendiendo a competencia, interés público tutelado e intensidad de la intervención. Si no es posible determinarla, será solidaria.
+
+## 7. Indemnización
+
+### 7.1. Cálculo
+
+La indemnización se calcula con referencia al día en que la lesión se produjo, sin perjuicio de su actualización a la fecha de finalización del procedimiento y de los intereses que procedan.
+
+Para daños corporales pueden tomarse como referencia los baremos de la normativa de seguros obligatorios y Seguridad Social.
+
+### 7.2. Formas de pago
+
+La indemnización puede:
+
+- abonarse en dinero;
+- sustituirse por compensación en especie;
+- satisfacerse mediante pagos periódicos.
+
+La compensación en especie o los pagos periódicos requieren que sean adecuados para reparar el daño, convengan al interés público y exista acuerdo con el interesado.
+
+## 8. Procedimiento de responsabilidad patrimonial
+
+### 8.1. Iniciación
+
+Puede iniciarse:
+
+- **de oficio**;
+- por **reclamación del interesado**.
+
+El derecho a reclamar prescribe al **año** desde el hecho o acto que motive la indemnización o desde que se manifieste su efecto lesivo.
+
+En daños físicos o psíquicos, el plazo comienza desde la curación o desde la determinación del alcance de las secuelas.
+
+En casos de anulación administrativa o judicial de un acto o disposición, el derecho prescribe al **año** desde la notificación de la resolución administrativa o sentencia definitiva.
+
+### 8.2. Contenido de la reclamación
+
+Además de los requisitos generales, debe especificar:
+
+- lesiones producidas;
+- relación de causalidad;
+- evaluación económica, si es posible;
+- momento en que la lesión se produjo;
+- alegaciones, documentos e información pertinentes;
+- proposición de prueba.
+
+### 8.3. Informe del servicio
+
+Es preceptivo solicitar informe al servicio cuyo funcionamiento haya causado la lesión, que deberá emitirse en un plazo máximo de **diez días**.
+
+### 8.4. Dictamen consultivo
+
+Cuando la indemnización reclamada sea igual o superior a **50.000 euros**, o a la cuantía que establezca la legislación autonómica, es preceptivo solicitar dictamen del Consejo de Estado u órgano consultivo autonómico equivalente.
+
+El dictamen debe emitirse en **dos meses**.
+
+### 8.5. Audiencia y terminación convencional
+
+Se aplica el trámite de audiencia. También cabe acuerdo indemnizatorio mediante terminación convencional, siempre que respete los requisitos legales.
+
+### 8.6. Resolución y silencio
+
+La resolución debe pronunciarse sobre:
+
+- existencia o no de relación de causalidad;
+- valoración del daño;
+- cuantía y modo de indemnización.
+
+Transcurridos **seis meses** sin resolución expresa, la reclamación se entiende **desestimada**.
+
+| Actuación | Plazo o regla |
+|---|---:|
+| Prescripción de la reclamación | **1 año** |
+| Informe del servicio | **10 días** |
+| Dictamen consultivo | **2 meses** |
+| Umbral estatal del dictamen | **50.000 €** |
+| Silencio | **Desestimatorio** tras **6 meses** |
+
+> ⚠️ **¡Foco Examen!:** El silencio en responsabilidad patrimonial es **negativo**, no positivo.
+
+## 9. Procedimiento simplificado
+
+Cuando sean inequívocas la relación de causalidad, la valoración del daño y la cuantía de la indemnización, puede acordarse la tramitación simplificada.
+
+Debe resolverse en **treinta días**, salvo que reste menos para terminar el procedimiento ordinario.
+
+## 10. Responsabilidad de autoridades y personal
+
+### 10.1. Reclamación del perjudicado
+
+Los particulares exigen la indemnización **directamente a la Administración**, aunque el daño haya sido causado materialmente por una autoridad o empleado público.
+
+No deben dirigir la reclamación patrimonial directamente contra el empleado.
+
+### 10.2. Acción de regreso
+
+Cuando la Administración haya indemnizado al perjudicado, exigirá **de oficio** responsabilidad a la autoridad o empleado que hubiera actuado con:
+
+- **dolo**;
+- **culpa grave**;
+- **negligencia grave**.
+
+Para determinarla y cuantificarla se ponderan, entre otros:
+
+- resultado dañoso;
+- grado de culpabilidad;
+- responsabilidad profesional;
+- relación con la producción del daño.
+
+### 10.3. Daños a bienes de la Administración
+
+La Administración también instruirá procedimiento cuando sus autoridades o empleados causen daños a sus propios bienes o derechos con dolo, culpa o negligencia graves.
+
+### 10.4. Responsabilidad penal
+
+La responsabilidad penal del personal y la civil derivada del delito se exigen conforme a la legislación correspondiente. El proceso penal no suspende necesariamente el procedimiento patrimonial, salvo que la fijación de los hechos penales sea necesaria para resolver.
+
+| Sujeto reclamante | Destinatario de la reclamación |
+|---|---|
+| Particular perjudicado | **Administración correspondiente** |
+| Administración que ya indemnizó | Autoridad o empleado mediante **acción de regreso** |
+
+> ⚠️ **¡Foco Examen!:** La acción de regreso no procede por cualquier error: exige **dolo, culpa grave o negligencia grave**.
+
+## 11. Responsabilidad de Derecho privado
+
+Cuando la Administración actúe directamente o mediante una entidad de derecho privado, su responsabilidad se exigirá conforme a los artículos **32 y siguientes de la Ley 40/2015**, incluso si concurre con sujetos privados.
+
+## 12. Esquema final
+
+```text
+DAÑO
+ ├─ efectivo
+ ├─ evaluable económicamente
+ ├─ individualizado
+ ├─ antijurídico
+ └─ causalmente ligado al servicio
+        ↓
+FUNCIONAMIENTO NORMAL O ANORMAL
+        ↓
+SIN FUERZA MAYOR
+        ↓
+RECLAMACIÓN A LA ADMINISTRACIÓN
+ ├─ plazo: 1 año
+ ├─ informe servicio: 10 días
+ ├─ dictamen: ≥ 50.000 €
+ └─ silencio: desestimatorio a los 6 meses
+        ↓
+SI HUBO DOLO O CULPA/NEGLIGENCIA GRAVE
+        ↓
+ACCIÓN DE REGRESO CONTRA AUTORIDAD O EMPLEADO
+```
+
+
+## 13. Auditoría de plazos y competencias — **29/10/2026**
+
+| Materia | Regla esencial | Artículo |
+|---|---|---|
+| Prescripción general de reclamación | **1 año** desde hecho o manifestación del efecto lesivo; daños físicos y psíquicos desde **curación o determinación de secuelas** | **Ley 39/2015, 67.1** |
+| Informe del servicio causante | Máximo **10 días** | **Ley 39/2015, 81.1** |
+| Dictamen consultivo obligatorio | Reclamación igual o superior a **50.000 €** o umbral de legislación autonómica, sin perjuicio de otros supuestos | **Ley 39/2015, 81.2** |
+| Resolución reclamación patrimonial | **6 meses**; falta de resolución permite entender **desestimada** la reclamación | **Ley 39/2015, 91.3** |
+| Procedimiento simplificado | Máximo general **30 días**, con especialidades legales | **Ley 39/2015, 96** |
+| Acción de regreso frente a personal | Exige **dolo o culpa o negligencia graves**, previa tramitación del procedimiento | **Ley 40/2015, 36.2** |
+| Actuación conjunta de varias Administraciones | Responsabilidad **solidaria** frente al particular, según condiciones legales | **Ley 40/2015, 33.1** |
+
+> ⚠️ **¡Foco Examen!:** El **informe del servicio** se emite en **10 días**; el **plazo general de resolución** de responsabilidad patrimonial es **6 meses**. No confundir con la **prescripción de 1 año** para reclamar.
+
+**Fuentes primarias contrastadas:** [Ley 39/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565) y [Ley 40/2015](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566). Banco ampliado de **12 a 20 preguntas**. Pendientes la auditoría íntegra de precisión jurídica y comprobación funcional de la web antes del cierre definitivo.
+
+
+## 14. Auditoría focalizada del procedimiento de regreso — **31/10/2026**
+
+| Fase o supuesto | Plazo o efecto | Norma |
+|---|---|---|
+| Consulta a otras Administraciones implicadas por responsabilidad concurrente | **15 días** | **Art. 33.4, Ley 40/2015** |
+| Alegaciones en procedimiento contra autoridades o empleados | **15 días** | **Art. 36.4.a** |
+| Pruebas admitidas y otras procedentes | **15 días** | **Art. 36.4.b** |
+| Audiencia | **10 días** | **Art. 36.4.c** |
+| Propuesta de resolución tras audiencia | **5 días** | **Art. 36.4.d** |
+| Resolución por órgano competente | **5 días** | **Art. 36.4.e** |
+| Resolución declaratoria de responsabilidad | **Pone fin a la vía administrativa** | **Art. 36.5** |
+
+> ⚠️ **¡Foco Examen!:** La persona perjudicada reclama directamente a la **Administración**; la posterior acción de regreso contra la autoridad o empleado exige **dolo, culpa o negligencia graves**. No equivale a demandar directamente al funcionario.
+
+> ⚠️ **¡Foco Examen!:** Memoriza la secuencia del artículo **36.4**: **15 + 15 + 10 + 5 + 5 días**. No confundir con los **15 días** concedidos para consultar a otras Administraciones en el artículo **33.4**.
+
+Fuente oficial: [Ley 40/2015, artículos 33 y 36](https://www.boe.es/eli/es/l/2015/10/01/40/con). Auditoría focalizada; pendiente comprobación integral y pruebas funcionales.
+
+
+## Cierre de auditoría jurídica y pedagógica · Bloque C1 8–11 · **05/11/2026**
+
+### Antijuridicidad y anulación de un acto: **art. 32.1 Ley 40/2015**
+
+La responsabilidad de la **Administración** exige daño **efectivo**, **evaluable económicamente**, **individualizado**, antijurídico y causalmente ligado al funcionamiento normal o anormal de los servicios públicos, fuera de **fuerza mayor**. La mera **anulación administrativa o judicial** de un acto o disposición **no presupone por sí misma** derecho a indemnización: hace falta acreditar la lesión y los demás requisitos legales.
+
+### Distinción entre solidaridad frente al particular y reparto interno (**art. 33**)
+
+| Modalidad de actuación | Responsabilidad frente al particular | Distribución interna |
+|---|---|---|
+| Gestión conjunta de **varias Administraciones** | **Solidaria en todo caso** (**art. 33.1**) | El instrumento conjunto puede distribuir internamente responsabilidad |
+| Concurrencia **no conjunta** | Según competencia, interés público e intensidad de intervención; **solidaria cuando no pueda determinarse** (**art. 33.2**) | Determinación en procedimiento con criterios legales |
+| Consulta a Administraciones implicadas (**33.4**) | La Administración competente consulta a las demás | **15 días** para exponer lo que estimen procedente |
+
+### Secuencia de regreso contra autoridad o empleado (**art. 36**)
+
+Los particulares reclaman **directamente a la Administración**. Si esta indemnizó y hubo **dolo o culpa/negligencia graves**, exigirá de oficio la responsabilidad a la autoridad o personal causante, tras procedimiento.
+
+| Trámite art. 36.4 | Duración |
+|---|---|
+| **Alegaciones** | **15 días** |
+| **Pruebas** | **15 días** |
+| **Audiencia** | **10 días** |
+| **Propuesta** | **5 días** desde finalizar audiencia |
+| **Resolución** | **5 días** |
+
+La **resolución declaratoria** pone fin a la **vía administrativa**, pero puede ser impugnada por los cauces procedentes. No hay acción de regreso automática por un **error leve**.
+
+> ⚠️ **¡Foco Examen!:** **Anular un acto no genera indemnización automática.** La **solidaridad por actuación conjunta** protege al particular, sin confundirse con distribución interna. **Art. 36.4 = 15–15–10–5–5 días**.
+
+**Fuentes primarias:** [**CE art. 106.2**](https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229), [**Ley 40/2015, arts. 32–37**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10566) y [**Ley 39/2015, arts. 67, 81, 91, 96**](https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565).

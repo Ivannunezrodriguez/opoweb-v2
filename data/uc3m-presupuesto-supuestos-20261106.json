@@ -1,0 +1,271 @@
+{
+  "id": "UC3M_PRESUPUESTO_18_19_20261106",
+  "fecha": "2026-11-06",
+  "descripcion": "Ejercicios prácticos originales a partir del Presupuesto oficial UC3M 2026 Volumen I y anexo BOCM, no oficiales",
+  "fuentes": [
+    "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+    "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217"
+  ],
+  "preguntas": [
+    {
+      "id": "UC3M-PRES-20261106-001",
+      "tema": 18,
+      "pregunta": "Según el art. 5 de las Normas UC3M 2026, ¿qué nivel vincula con carácter general a los créditos de gasto?",
+      "opciones": [
+        "Concepto dentro de cada centro y programa",
+        "Capítulo para todos los gastos sin excepción",
+        "Sección estatal sin tener en cuenta el centro",
+        "Proyecto únicamente, sin clasificación económica"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "Concepto dentro de cada centro y programa",
+      "justificacion": "Art. 5 del Volumen I, pág. 78: general a nivel de concepto en cada centro/programa.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=78",
+      "trampaExamen": "Concepto general; no olvidar I, II y VI."
+    },
+    {
+      "id": "UC3M-PRES-20261106-002",
+      "tema": 18,
+      "pregunta": "¿Qué tres capítulos tienen vinculación por capítulo como excepción en el art. 5 UC3M 2026?",
+      "opciones": [
+        "I, III y IX",
+        "I, II y VI",
+        "III, IV y VII",
+        "II, V y VIII"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "I, II y VI",
+      "justificacion": "Art. 5: personal, bienes y servicios e inversiones reales vinculan por capítulo.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=78",
+      "trampaExamen": "Las excepciones son I, II y VI, no todos los capítulos."
+    },
+    {
+      "id": "UC3M-PRES-20261106-003",
+      "tema": 18,
+      "pregunta": "Para transferir crédito de operaciones de capital a gastos corrientes según art. 6 UC3M 2026, ¿qué se exige?",
+      "opciones": [
+        "Rector sin intervención de otro órgano",
+        "Solo Comisión de Investigación sin autorización",
+        "Consejo Social y autorización previa del Gobierno de la Comunidad de Madrid",
+        "Consejo de Estudiantes por mayoría absoluta"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Consejo Social y autorización previa del Gobierno de la Comunidad de Madrid",
+      "justificacion": "Art. 6 págs. 78–79: capital a corriente exige Consejo Social y autorización previa autonómica.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=79",
+      "trampaExamen": "En sentido corriente a capital también actúa Consejo Social, pero sin esa autorización específica indicada."
+    },
+    {
+      "id": "UC3M-PRES-20261106-004",
+      "tema": 18,
+      "pregunta": "¿Quién aprueba las redistribuciones de créditos contempladas en el art. 7 de las Normas UC3M 2026?",
+      "opciones": [
+        "El Ministerio de Hacienda para todos los casos",
+        "El gerente del banco pagador",
+        "El Defensor Universitario",
+        "El Rector, con delegación específica para determinados créditos de investigación"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "El Rector, con delegación específica para determinados créditos de investigación",
+      "justificacion": "Art. 7 pág. 79: redistribuciones del mismo capítulo por Rector y delegación de investigación identificada.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=79",
+      "trampaExamen": "Redistribución dentro del capítulo no equivale a transferencia entre capítulos."
+    },
+    {
+      "id": "UC3M-PRES-20261106-005",
+      "tema": 18,
+      "pregunta": "En el art. 6 UC3M 2026, ¿cuándo pueden incorporarse determinados remanentes de crédito al ejercicio siguiente?",
+      "opciones": [
+        "Cuando se cumplen las condiciones legales, existe superávit y el remanente previsto supera 300 euros",
+        "Siempre, aunque no haya superávit ni compromiso",
+        "Únicamente si el remanente es exactamente cero",
+        "Solo cuando la factura llegue diez años después"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "Cuando se cumplen las condiciones legales, existe superávit y el remanente previsto supera 300 euros",
+      "justificacion": "Art. 6 pág. 79 condiciona la incorporación al superávit, límites legales y remanentes >300 € en supuestos definidos.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=79",
+      "trampaExamen": "Un saldo de 300 € exactos no es superior a 300 €."
+    },
+    {
+      "id": "UC3M-PRES-20261106-006",
+      "tema": 18,
+      "pregunta": "¿Cuál es el capítulo de ingresos más elevado en el Presupuesto UC3M 2026 según el BOCM?",
+      "opciones": [
+        "Capítulo III, 300.468.067,59 euros",
+        "Capítulo IV, transferencias corrientes: 146.834.705,33 euros",
+        "Capítulo V, 146.834.705,33 euros",
+        "Capítulo IX, ingresos de personal 161.190.785,21 euros"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "Capítulo IV, transferencias corrientes: 146.834.705,33 euros",
+      "justificacion": "Anexo BOCM pág. 111: capítulo IV 146.834.705,33 € y total global 300.468.067,59 €.",
+      "referencia": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF#page=3",
+      "trampaExamen": "El capítulo IV es principal ingreso, pero no equivale al total del presupuesto."
+    },
+    {
+      "id": "UC3M-PRES-20261106-007",
+      "tema": 18,
+      "pregunta": "¿Qué plazo marca la reunión del Grupo de Seguimiento de Incobrados en el art. 14.2 UC3M 2026?",
+      "opciones": [
+        "A los 15 días desde cualquier gasto",
+        "Al cumplirse 30 años del reconocimiento",
+        "Una vez transcurridos 120 días desde la emisión de la factura",
+        "Inmediatamente al emitir la factura, sin plazo"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Una vez transcurridos 120 días desde la emisión de la factura",
+      "justificacion": "Art. 14.2 pág. 94: tras 120 días reunión para estudiar reclamación, seguimiento especial o anulación motivada.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=94",
+      "trampaExamen": "No generalizar el plazo interno de facturas UC3M a cualquier deuda tributaria."
+    },
+    {
+      "id": "UC3M-PRES-20261106-008",
+      "tema": 18,
+      "pregunta": "¿Qué calificación tienen los actos que comprometen gasto por encima de los créditos autorizados según art. 10 UC3M 2026?",
+      "opciones": [
+        "Anulables solo cuando el interesado lo solicite",
+        "Válidos por el mero transcurso de treinta días",
+        "Exentos automáticamente de control contable",
+        "Nulos de pleno derecho"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Nulos de pleno derecho",
+      "justificacion": "Art. 10 pág. 80: son nulos de pleno derecho los actos y disposiciones que vulneran la limitación de créditos.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=80",
+      "trampaExamen": "El crédito presupuestario es límite vinculante, no recomendación."
+    },
+    {
+      "id": "UC3M-PRES-20261106-009",
+      "tema": 19,
+      "pregunta": "En la tabla de documentos contables del art. 15.2.1 UC3M 2026, ¿qué significa RC?",
+      "opciones": [
+        "Retención de crédito",
+        "Reconocimiento de cobro",
+        "Recurso de contratación",
+        "Revisión de capítulo"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "Retención de crédito",
+      "justificacion": "Art. 15.2.1 pág. 98: RC = retención de crédito.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=98",
+      "trampaExamen": "RC no es una autorización definitiva de gasto."
+    },
+    {
+      "id": "UC3M-PRES-20261106-010",
+      "tema": 19,
+      "pregunta": "En el art. 15.2.1 UC3M 2026, ¿qué se denomina documento contable O?",
+      "opciones": [
+        "Orden bancaria material ejecutada",
+        "Propuesta de pago",
+        "Oferta de contrato menor",
+        "Opinión del Rectorado"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "Propuesta de pago",
+      "justificacion": "Art. 15.2.1 pág. 98: denomina O como propuesta de pago, distinto de la descripción del ciclo presupuestario general.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=98",
+      "trampaExamen": "No confundir letra O del formulario UC3M con transferencia material."
+    },
+    {
+      "id": "UC3M-PRES-20261106-011",
+      "tema": 19,
+      "pregunta": "¿Qué operaciones reúne el documento contable AD en las Normas Básicas de Gestión 2026?",
+      "opciones": [
+        "Autorización, compromiso y pago material",
+        "Auditoría y devolución de ingresos",
+        "Autorización y compromiso de gasto",
+        "Adjudicación y declaración de incompatibilidad"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Autorización y compromiso de gasto",
+      "justificacion": "Art. 15.2.1 pág. 98: AD agrega las fases A y D, sin propuesta de pago.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=98",
+      "trampaExamen": "AD no es lo mismo que ADO."
+    },
+    {
+      "id": "UC3M-PRES-20261106-012",
+      "tema": 19,
+      "pregunta": "Según el art. 15.2.1 UC3M 2026, ¿qué trámites canalizan los Servicios Centrales-DEF?",
+      "opciones": [
+        "Únicamente compras de papelería del capítulo II",
+        "Solo solicitudes de acceso a estudios",
+        "Exclusivamente la publicación del BOE",
+        "Capítulos I, VII, VIII y IX, junto con anticipos de nómina, ayuda social y otras operaciones previstas"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "Capítulos I, VII, VIII y IX, junto con anticipos de nómina, ayuda social y otras operaciones previstas",
+      "justificacion": "Art. 15.2.1 pág. 98: Servicios Centrales–DEF se ocupan de I, VII, VIII y IX y otros supuestos tasados.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=98",
+      "trampaExamen": "El capítulo VII aparece también en atribuciones a Oficinas Económicas con excepciones."
+    },
+    {
+      "id": "UC3M-PRES-20261106-013",
+      "tema": 19,
+      "pregunta": "¿Cuál es el límite de gasto del sistema asimilado a caja fija de la UC3M 2026 según art. 16.2?",
+      "opciones": [
+        "No exceder de 5.000 euros sin IVA",
+        "No exceder de 12.000 euros con IVA",
+        "Siempre inferior a 50.000 euros con IVA",
+        "Un máximo de 500.000 euros por factura"
+      ],
+      "correcta": 0,
+      "respuestaLiteral": "No exceder de 5.000 euros sin IVA",
+      "justificacion": "Art. 16.2 pág. 101: caja fija para gastos hasta 5.000 € sin IVA.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=101",
+      "trampaExamen": "No mezclar 5.000 de caja fija y 12.000 de anticipos."
+    },
+    {
+      "id": "UC3M-PRES-20261106-014",
+      "tema": 19,
+      "pregunta": "¿Cuál es el importe máximo de los anticipos a justificar para compras o servicios extraordinarios en UC3M 2026?",
+      "opciones": [
+        "5.000 euros sin IVA en todo caso",
+        "12.000 euros",
+        "1.000 euros por trimestre",
+        "30.000 euros por semana"
+      ],
+      "correcta": 1,
+      "respuestaLiteral": "12.000 euros",
+      "justificacion": "Art. 16.3 pág. 101: anticipo a justificar hasta 12.000 €, con solicitud motivada.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=101",
+      "trampaExamen": "El anticipo del art. 16.3 excluye viajes, sujetos a normativa distinta."
+    },
+    {
+      "id": "UC3M-PRES-20261106-015",
+      "tema": 19,
+      "pregunta": "¿Cuál es el plazo máximo de justificación de esos anticipos UC3M, según art. 16.3?",
+      "opciones": [
+        "Seis meses",
+        "Veinte días naturales",
+        "Un mes",
+        "Dos años"
+      ],
+      "correcta": 2,
+      "respuestaLiteral": "Un mes",
+      "justificacion": "Art. 16.3 pág. 102: máximo un mes; después se reclama y cabe propuesta de deducción a Rector.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=102",
+      "trampaExamen": "Un mes de justificación no es plazo de 30 días fijado para las facturas del art. 14.2."
+    },
+    {
+      "id": "UC3M-PRES-20261106-016",
+      "tema": 19,
+      "pregunta": "¿Qué documento contable se genera para justificar anticipos de actividad general UC3M en el art. 16.3?",
+      "opciones": [
+        "Documento contable Z sin expediente",
+        "Factura sin documento ni referencia RC",
+        "Solo un recurso de reposición contra la nómina",
+        "ADO, código 250, endosado al habilitado"
+      ],
+      "correcta": 3,
+      "respuestaLiteral": "ADO, código 250, endosado al habilitado",
+      "justificacion": "Art. 16.3 pág. 101: ADO (código 250), endosado al habilitado con número de expediente de RC.",
+      "referencia": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view#page=101",
+      "trampaExamen": "ADO no implica que haya finalizado la transferencia bancaria."
+    }
+  ],
+  "analisisPresupuesto2026": true,
+  "cotejoPrimarioAcotado": true,
+  "certificacionIntegral": false
+}

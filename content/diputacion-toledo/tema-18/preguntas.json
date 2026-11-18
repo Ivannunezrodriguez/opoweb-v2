@@ -1,0 +1,319 @@
+{
+  "tema": 18,
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T18-001",
+      "pregunta": "¿Cuál es el procedimiento normal de provisión de puestos de trabajo del personal funcionario de carrera?",
+      "opciones": [
+        "La libre designación",
+        "La comisión de servicios",
+        "La adscripción provisional",
+        "El concurso"
+      ],
+      "correcta": 3,
+      "justificacion": "El artículo 67 de la Ley 4/2011 establece que el concurso es el procedimiento normal de provisión de puestos de trabajo del personal funcionario de carrera.",
+      "trampa": "La libre designación también es una forma ordinaria de provisión, pero el procedimiento normal es el concurso.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a67",
+      "respuestaLiteral": "El concurso"
+    },
+    {
+      "id": "DIP-T18-002",
+      "pregunta": "La carrera horizontal consiste en:",
+      "opciones": [
+        "Ascender a un subgrupo superior",
+        "Acceder a otro cuerpo del mismo subgrupo",
+        "Progresar de tramo sin cambiar de puesto",
+        "Obtener un puesto por libre designación"
+      ],
+      "correcta": 2,
+      "justificacion": "La carrera horizontal permite progresar de tramo sin necesidad de cambiar de puesto de trabajo.",
+      "trampa": "No debe confundirse con la promoción interna horizontal, que permite acceder a otro cuerpo o escala del mismo subgrupo o grupo.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 62 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a62",
+      "respuestaLiteral": "Progresar de tramo sin cambiar de puesto"
+    },
+    {
+      "id": "DIP-T18-003",
+      "pregunta": "¿Qué principios rigen la provisión de puestos reservados a personal funcionario de carrera?",
+      "opciones": [
+        "Jerarquía, confianza y antigüedad",
+        "Igualdad, mérito, capacidad y publicidad",
+        "Eficacia, economía y descentralización",
+        "Antigüedad y libre apreciación"
+      ],
+      "correcta": 1,
+      "justificacion": "La provisión de puestos reservados a personal funcionario de carrera debe respetar los principios de igualdad, mérito, capacidad y publicidad.",
+      "trampa": "La antigüedad puede valorarse como mérito, pero no sustituye los principios legales de provisión.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a67",
+      "respuestaLiteral": "Igualdad, mérito, capacidad y publicidad"
+    },
+    {
+      "id": "DIP-T18-004",
+      "pregunta": "La libre designación:",
+      "opciones": [
+        "No requiere convocatoria",
+        "Solo puede utilizarse para personal laboral",
+        "Es siempre temporal",
+        "Exige convocatoria pública"
+      ],
+      "correcta": 3,
+      "justificacion": "La libre designación exige convocatoria pública, cumplimiento de los requisitos del puesto y resolución por el órgano competente.",
+      "trampa": "La expresión libre designación no elimina la publicidad ni los requisitos del procedimiento.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 70 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a70",
+      "respuestaLiteral": "Exige convocatoria pública"
+    },
+    {
+      "id": "DIP-T18-005",
+      "pregunta": "¿Cuál de las siguientes figuras tiene carácter típicamente temporal?",
+      "opciones": [
+        "Concurso",
+        "Carrera horizontal",
+        "Promoción interna vertical",
+        "Comisión de servicios"
+      ],
+      "correcta": 3,
+      "justificacion": "La comisión de servicios es una forma temporal de provisión utilizada para cubrir provisionalmente un puesto por necesidades del servicio.",
+      "trampa": "La adscripción provisional también carece de carácter definitivo, pero la comisión de servicios es la figura temporal más directa entre las opciones.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 67 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a67",
+      "respuestaLiteral": "Comisión de servicios"
+    },
+    {
+      "id": "DIP-T18-006",
+      "pregunta": "La evaluación del desempeño puede producir efectos en:",
+      "opciones": [
+        "Solo el régimen disciplinario",
+        "Únicamente la antigüedad",
+        "Carrera, formación, provisión y determinadas retribuciones",
+        "Solo la jornada"
+      ],
+      "correcta": 2,
+      "justificacion": "La evaluación del desempeño puede producir efectos en la carrera horizontal, la formación, la provisión de puestos y determinadas retribuciones complementarias.",
+      "trampa": "La evaluación del desempeño no es una sanción disciplinaria.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 66 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a66",
+      "respuestaLiteral": "Carrera, formación, provisión y determinadas retribuciones"
+    },
+    {
+      "id": "DIP-T18-007",
+      "pregunta": "¿Cuál de los siguientes es un derecho de ejercicio colectivo?",
+      "opciones": [
+        "La negociación colectiva",
+        "La formación continua",
+        "La defensa jurídica",
+        "La protección de la salud"
+      ],
+      "correcta": 0,
+      "justificacion": "La negociación colectiva es un derecho individual ejercido colectivamente por el personal empleado público.",
+      "trampa": "La formación continua, la defensa jurídica y la protección de la salud son derechos individuales.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 97 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a97",
+      "respuestaLiteral": "La negociación colectiva"
+    },
+    {
+      "id": "DIP-T18-008",
+      "pregunta": "Ante una orden manifiestamente contraria al ordenamiento jurídico, el personal empleado público:",
+      "opciones": [
+        "Debe obedecerla siempre",
+        "Debe obedecerla si es verbal",
+        "Solo puede negarse con autorización judicial",
+        "No tiene deber de obedecerla"
+      ],
+      "correcta": 3,
+      "justificacion": "El deber de obediencia alcanza las instrucciones y órdenes profesionales legítimas, pero no las manifiestamente contrarias al ordenamiento jurídico.",
+      "trampa": "El principio de jerarquía no ampara el cumplimiento de una orden manifiestamente ilegal.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 100 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a100",
+      "respuestaLiteral": "No tiene deber de obedecerla"
+    },
+    {
+      "id": "DIP-T18-009",
+      "pregunta": "¿Qué situación corresponde al desempeño efectivo de un puesto en otra Administración pública?",
+      "opciones": [
+        "Servicios especiales",
+        "Servicio en otras Administraciones públicas",
+        "Excedencia voluntaria",
+        "Suspensión provisional"
+      ],
+      "correcta": 1,
+      "justificacion": "La situación administrativa específica para el desempeño efectivo de un puesto en otra Administración es la de servicio en otras Administraciones públicas.",
+      "trampa": "Los servicios especiales se reservan para cargos y funciones públicas expresamente enumerados por la ley.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 116 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a116",
+      "respuestaLiteral": "Servicio en otras Administraciones públicas"
+    },
+    {
+      "id": "DIP-T18-010",
+      "pregunta": "La suspensión provisional de funciones tiene naturaleza:",
+      "opciones": [
+        "Retributiva",
+        "Premial",
+        "Cautelar",
+        "Definitiva"
+      ],
+      "correcta": 2,
+      "justificacion": "La suspensión provisional es una medida cautelar que puede adoptarse durante la tramitación de un procedimiento penal o disciplinario.",
+      "trampa": "La suspensión firme deriva de una sentencia penal o de una sanción disciplinaria, mientras que la provisional es cautelar.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 125 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a125",
+      "respuestaLiteral": "Cautelar"
+    },
+    {
+      "id": "DIP-T18-011",
+      "pregunta": "La movilidad por violencia de género debe garantizar especialmente:",
+      "opciones": [
+        "La publicidad del nuevo destino",
+        "La libre designación del puesto",
+        "La intimidad y los datos personales de la víctima",
+        "La pérdida de antigüedad"
+      ],
+      "correcta": 2,
+      "justificacion": "La movilidad por violencia de género debe garantizar especialmente la protección de la intimidad y de los datos personales de la víctima.",
+      "trampa": "La protección de la víctima exige confidencialidad, no publicidad de su nuevo destino.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 77 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a77",
+      "respuestaLiteral": "La intimidad y los datos personales de la víctima"
+    },
+    {
+      "id": "DIP-T18-012",
+      "pregunta": "El reingreso al servicio activo puede producirse, cuando legalmente proceda, mediante:",
+      "opciones": [
+        "Adscripción provisional",
+        "Nombramiento eventual",
+        "Contrato menor",
+        "Delegación de firma"
+      ],
+      "correcta": 0,
+      "justificacion": "El reingreso al servicio activo puede producirse mediante participación en convocatorias de provisión o mediante adscripción provisional cuando legalmente proceda.",
+      "trampa": "La adscripción provisional es una técnica de provisión; las demás opciones son figuras ajenas al reingreso del personal funcionario.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 126 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a126",
+      "respuestaLiteral": "Adscripción provisional"
+    },
+    {
+      "id": "DIP-T18-013",
+      "pregunta": "¿Cuál es el periodo mínimo general en el tramo anterior para ascender a otro tramo de carrera horizontal?",
+      "opciones": [
+        "Cuatro años",
+        "Dos años",
+        "Cinco años",
+        "Seis años"
+      ],
+      "correcta": 0,
+      "justificacion": "El artículo 64.4 exige un mínimo de **4 años** en el tramo inmediatamente inferior, salvo excepciones expresas.",
+      "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a64",
+      "respuestaLiteral": "Cuatro años"
+    },
+    {
+      "id": "DIP-T18-014",
+      "pregunta": "¿Cuántos tramos comprende la carrera horizontal, incluido el inicial?",
+      "opciones": [
+        "De dos a cuatro",
+        "Exactamente seis",
+        "Hasta diez",
+        "Entre tres y cinco"
+      ],
+      "correcta": 3,
+      "justificacion": "El artículo 64.4 contempla **entre 3 y 5 tramos** incluido el inicial.",
+      "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a64",
+      "respuestaLiteral": "Entre tres y cinco"
+    },
+    {
+      "id": "DIP-T18-015",
+      "pregunta": "¿Qué carácter tiene el tramo inicial de carrera horizontal?",
+      "opciones": [
+        "Retribuido y automático para todos",
+        "No retribuido",
+        "Voluntario y retribuido al doble",
+        "Disponible solo por concurso"
+      ],
+      "correcta": 1,
+      "justificacion": "El tramo inicial **no es retribuido** conforme al art. 64.4.",
+      "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a64",
+      "respuestaLiteral": "No retribuido"
+    },
+    {
+      "id": "DIP-T18-016",
+      "pregunta": "¿Qué condición previa requiere la implantación de carrera horizontal?",
+      "opciones": [
+        "Un referéndum entre todo el personal",
+        "Una autorización del Tribunal Supremo",
+        "La aprobación de sistemas objetivos de evaluación del desempeño",
+        "La elección de un nuevo Pleno"
+      ],
+      "correcta": 2,
+      "justificacion": "El art. 64.2 exige sistemas **objetivos de evaluación del desempeño** previamente aprobados.",
+      "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a64",
+      "respuestaLiteral": "La aprobación de sistemas objetivos de evaluación del desempeño"
+    },
+    {
+      "id": "DIP-T18-017",
+      "pregunta": "Según el artículo 64.6 de la Ley 4/2011, ¿qué elemento no puede valorarse por sí solo para reconocer tramos de carrera horizontal?",
+      "opciones": [
+        "La calidad de los trabajos",
+        "La antigüedad, sin perjuicio de valorar experiencia o tiempo de adquisición de méritos",
+        "El resultado de la evaluación del desempeño",
+        "Los conocimientos acreditados"
+      ],
+      "correcta": 1,
+      "justificacion": "El **art. 64.6 Ley 4/2011** prohíbe valorar **antigüedad** en la carrera horizontal, aunque permite la **experiencia o tiempo para adquirir méritos**.",
+      "trampa": "**Antigüedad** no se valora, pero la **experiencia** puede tener relevancia en la evaluación de méritos.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a64",
+      "respuestaLiteral": "La antigüedad, sin perjuicio de valorar experiencia o tiempo de adquisición de méritos"
+    },
+    {
+      "id": "DIP-T18-018",
+      "pregunta": "¿Qué requiere la remoción por rendimiento insuficiente de un puesto obtenido por concurso?",
+      "opciones": [
+        "Audiencia previa de la persona interesada y resolución motivada",
+        "Únicamente un correo de la jefatura",
+        "Una orden verbal",
+        "Acuerdo sindical unánime"
+      ],
+      "correcta": 0,
+      "justificacion": "La remoción por evaluación de rendimiento insuficiente exige **audiencia previa y resolución motivada**.",
+      "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 69 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a69",
+      "respuestaLiteral": "Audiencia previa de la persona interesada y resolución motivada"
+    },
+    {
+      "id": "DIP-T18-019",
+      "pregunta": "Si una redistribución de efectivos implica cambiar de provincia, ¿qué se requiere?",
+      "opciones": [
+        "Que el empleado tenga un año de antigüedad",
+        "La conformidad del funcionario titular",
+        "Que la nueva provincia sea limítrofe",
+        "Que lo autorice una mesa electoral"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 73.4 exige la **conformidad** del titular si se cambia de provincia.",
+      "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 73 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a73",
+      "respuestaLiteral": "La conformidad del funcionario titular"
+    },
+    {
+      "id": "DIP-T18-020",
+      "pregunta": "¿Cuál de las siguientes es una situación administrativa expresamente prevista en el art. 113?",
+      "opciones": [
+        "La expectativa de destino",
+        "La sustitución temporal informal",
+        "La baja en padrón",
+        "La admisión provisional a un proceso selectivo"
+      ],
+      "correcta": 0,
+      "justificacion": "El artículo 113 enumera **expectativa de destino** entre las situaciones administrativas.",
+      "trampa": "Distinguir la previsión legal de la implantación efectiva y el carácter temporal o definitivo de la provisión.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 113 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a113",
+      "respuestaLiteral": "La expectativa de destino"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_16_19_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "reabrirSoloErrorONuevaNorma": true,
+    "certificacionIntegral": false,
+    "pruebaNavegador": "TRANSVERSAL_PENDIENTE"
+  }
+}

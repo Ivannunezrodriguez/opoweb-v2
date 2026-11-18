@@ -1,0 +1,96 @@
+{
+  "tema": 4,
+  "convocatoria": "diputacion-toledo-auxiliar-c2-2026",
+  "epigrafeOficial": "Revisión de los actos administrativos en vía administrativa. Los recursos administrativos. La revisión de oficio.",
+  "estadoEditorial": "AUDITADO",
+  "estadoControl": "AUDITADO_DOCUMENTAL_20261106_FUNCIONAL_PENDIENTE",
+  "origenPrograma": "BOP Toledo 197, 14/10/2026, Anexo XI, CSV 2026.00004759",
+  "fuentesPrimarias": [
+    "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+    "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392"
+  ],
+  "cobertura": [
+    {
+      "inciso": "Revisión de oficio",
+      "norma": "Ley 39/2015",
+      "articulos": "106",
+      "contenidoExigible": "Revisión de actos y disposiciones nulos"
+    },
+    {
+      "inciso": "Lesividad",
+      "norma": "Ley 39/2015",
+      "articulos": "107",
+      "contenidoExigible": "Declaración de lesividad de actos favorables anulables"
+    },
+    {
+      "inciso": "Suspensión, revocación y rectificación",
+      "norma": "Ley 39/2015",
+      "articulos": "108–109",
+      "contenidoExigible": "Efectos y límites de revisión; errores materiales"
+    },
+    {
+      "inciso": "Límites y competencia",
+      "norma": "Ley 39/2015",
+      "articulos": "110–111",
+      "contenidoExigible": "Límites a revisión y órgano competente"
+    },
+    {
+      "inciso": "Reglas comunes de recursos",
+      "norma": "Ley 39/2015",
+      "articulos": "112–120",
+      "contenidoExigible": "Actos recurribles, suspensión, alegaciones y resolución"
+    },
+    {
+      "inciso": "Recurso de alzada",
+      "norma": "Ley 39/2015",
+      "articulos": "121–122",
+      "contenidoExigible": "Órgano, plazos y resolución"
+    },
+    {
+      "inciso": "Reposición potestativa",
+      "norma": "Ley 39/2015",
+      "articulos": "123–124",
+      "contenidoExigible": "Procedencia, órgano y plazos"
+    },
+    {
+      "inciso": "Recurso extraordinario de revisión",
+      "norma": "Ley 39/2015",
+      "articulos": "125–126",
+      "contenidoExigible": "Motivos tasados, plazos y resolución"
+    },
+    {
+      "inciso": "Especialidades de régimen local",
+      "norma": "Ley 7/1985",
+      "articulos": "52–53",
+      "contenidoExigible": "Fin de la vía administrativa y revisión de actos de entidades locales"
+    }
+  ],
+  "fuentesDocumentales": "content/diputacion-toledo-auxiliar-c2/tema-04/fuentes.md",
+  "manual": "content/diputacion-toledo-auxiliar-c2/tema-04/manual.md",
+  "notas": "Matriz de correspondencia literal y artículos fundada en las fuentes documentales ya existentes. No acredita vigencia exhaustiva, ausencia de lagunas ni calidad integral de preguntas.",
+  "controlIntegralBanco20261104": {
+    "fecha": "2026-11-04",
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "preguntasVerificadas": 20,
+    "alternativasVerificadas": 80,
+    "informe": "content/diputacion-toledo-auxiliar-c2/tema-04/cotejo-integral-2026-11-04.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionLegalGlobal": "PENDIENTE_MANUAL_COMPLETO",
+    "fuentesPrimarias": [
+      "BOE-A-2015-10565, arts 106-126",
+      "BOE-A-1985-5392, arts 52-53"
+    ],
+    "ampliaciones": []
+  },
+  "cierreEditorialC2_01_05_20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AUDITADO",
+    "fuenteLegalVigente": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565",
+    "preguntas": 20,
+    "alternativas": 80,
+    "alteracionesBanco": 0,
+    "informe": "content/diputacion-toledo-auxiliar-c2/cierre-editorial-c2-01-05-2026-11-06.md",
+    "certificacionIntegral": false
+  }
+}

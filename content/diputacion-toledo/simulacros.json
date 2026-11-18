@@ -1,0 +1,388 @@
+{
+  "convocatoria": "Diputación Provincial de Toledo · Administrativo C1",
+  "estado": "GENERACION_DESDE_CERO",
+  "version": "2026-07-20",
+  "simulacros": [
+    {
+      "id": "DIP-SIM-001",
+      "titulo": "Simulacro transversal 1 · Procedimiento, contratación y ofimática",
+      "duracionMinutos": 18,
+      "preguntas": [
+        {
+          "id": "DIP-SIM-001-Q01",
+          "tema": 3,
+          "pregunta": "Cuando una solicitud no reúne los requisitos exigidos, el plazo general de subsanación es de:",
+          "opciones": ["Cinco días", "Diez días", "Quince días", "Un mes"],
+          "correcta": 1,
+          "justificacion": "La Administración debe requerir a la persona interesada para que subsane la falta o acompañe los documentos preceptivos en el plazo general de diez días.",
+          "trampa": "El desistimiento no se produce automáticamente: debe declararse mediante resolución expresa.",
+          "referencia": "content/diputacion-toledo/tema-03/manual.md#subsanación-y-mejora-de-la-solicitud"
+        },
+        {
+          "id": "DIP-SIM-001-Q02",
+          "tema": 4,
+          "pregunta": "Si un plazo se señala por días y no se indica otra cosa, se entiende referido a:",
+          "opciones": ["Días naturales", "Días hábiles", "Días laborables del órgano", "Días de apertura del registro"],
+          "correcta": 1,
+          "justificacion": "Con carácter general, cuando los plazos se señalan por días se entiende que son hábiles, excluyéndose sábados, domingos y festivos.",
+          "trampa": "Día hábil no equivale necesariamente a día de apertura física de una oficina.",
+          "referencia": "content/diputacion-toledo/tema-04/manual.md#cómputo-de-plazos"
+        },
+        {
+          "id": "DIP-SIM-001-Q03",
+          "tema": 5,
+          "pregunta": "Una presentación realizada en registro electrónico un sábado se entiende efectuada, a efectos del cómputo de plazos, en:",
+          "opciones": ["La misma hora del sábado", "La primera hora del primer día hábil siguiente", "Las 00:00 del domingo", "El siguiente día natural"],
+          "correcta": 1,
+          "justificacion": "La presentación en día inhábil se entiende realizada, a efectos del cómputo de plazos, en la primera hora del primer día hábil siguiente.",
+          "trampa": "Que el registro esté disponible las veinticuatro horas no convierte un día inhábil en hábil.",
+          "referencia": "content/diputacion-toledo/tema-05/manual.md#registro-electrónico"
+        },
+        {
+          "id": "DIP-SIM-001-Q04",
+          "tema": 10,
+          "pregunta": "Cuando un expediente contiene información accesible y datos personales no necesarios, la solución preferente es:",
+          "opciones": ["Denegar siempre todo el expediente", "Conceder acceso íntegro", "Facilitar acceso parcial previa disociación", "Destruir los datos personales"],
+          "correcta": 2,
+          "justificacion": "Debe aplicarse, cuando sea posible, el acceso parcial mediante disociación u ocultación de la información afectada por límites.",
+          "trampa": "La existencia de datos personales no impide automáticamente todo acceso.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md#acceso-parcial"
+        },
+        {
+          "id": "DIP-SIM-001-Q05",
+          "tema": 15,
+          "pregunta": "Para determinar el procedimiento de adjudicación debe atenderse principalmente al:",
+          "opciones": ["Importe de cada factura con IVA", "Valor estimado total sin IVA", "Crédito disponible al cierre", "Importe abonado el año anterior"],
+          "correcta": 1,
+          "justificacion": "El valor estimado del contrato se calcula sin IVA e incluye las prestaciones homogéneas, opciones y prórrogas que correspondan.",
+          "trampa": "No debe fragmentarse una necesidad homogénea tomando como referencia facturas aisladas.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md#valor-estimado-y-presupuesto-base-de-licitación"
+        },
+        {
+          "id": "DIP-SIM-001-Q06",
+          "tema": 16,
+          "pregunta": "La división artificiosa de una necesidad contractual homogénea para tramitar varios contratos menores constituye:",
+          "opciones": ["Una división obligatoria en lotes", "Un fraccionamiento indebido", "Una modificación contractual", "Una contratación de emergencia"],
+          "correcta": 1,
+          "justificacion": "Existe fraccionamiento indebido cuando se divide artificialmente una unidad contractual para eludir publicidad, concurrencia o el procedimiento legalmente aplicable.",
+          "trampa": "La división legítima en lotes no es sinónimo de fraccionamiento ilícito.",
+          "referencia": "content/diputacion-toledo/tema-16/manual.md#contratos-menores"
+        },
+        {
+          "id": "DIP-SIM-001-Q07",
+          "tema": 28,
+          "pregunta": "Los datos relativos a la salud son:",
+          "opciones": ["Datos de libre difusión", "Categorías especiales de datos", "Datos meramente identificativos", "Datos anónimos por definición"],
+          "correcta": 1,
+          "justificacion": "Los datos de salud forman parte de las categorías especiales de datos y están sujetos a protección reforzada.",
+          "trampa": "Que figuren en un expediente administrativo no elimina su protección reforzada.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md#categorías-especiales-de-datos"
+        },
+        {
+          "id": "DIP-SIM-001-Q08",
+          "tema": 30,
+          "pregunta": "La secuencia ordinaria de ejecución del gasto es:",
+          "opciones": ["Pago, obligación, disposición y autorización", "Autorización, disposición, reconocimiento de obligación y ordenación del pago", "Disposición, pago, autorización y obligación", "Obligación, autorización, pago y disposición"],
+          "correcta": 1,
+          "justificacion": "Las fases ordinarias son autorización, disposición o compromiso, reconocimiento de la obligación y ordenación del pago.",
+          "trampa": "Que determinadas fases puedan acumularse no altera su orden lógico y jurídico.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md#fases-de-ejecución-del-gasto"
+        },
+        {
+          "id": "DIP-SIM-001-Q09",
+          "tema": 35,
+          "pregunta": "El formato nativo de LibreOffice Writer es:",
+          "opciones": ["ODS", "ODT", "ODP", "DOCX"],
+          "correcta": 1,
+          "justificacion": "Writer utiliza ODT como formato nativo de documento de texto.",
+          "trampa": "DOCX es compatible, pero no es el formato nativo de Writer.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md#formatos-de-archivo"
+        },
+        {
+          "id": "DIP-SIM-001-Q10",
+          "tema": 36,
+          "pregunta": "En una fórmula de Calc, la referencia absoluta a la celda A1 se escribe:",
+          "opciones": ["A1", "$A1", "A$1", "$A$1"],
+          "correcta": 3,
+          "justificacion": "La referencia $A$1 fija tanto la columna como la fila al copiar la fórmula.",
+          "trampa": "$A1 y A$1 son referencias mixtas.",
+          "referencia": "content/diputacion-toledo/tema-36/manual.md#referencias-relativas-absolutas-y-mixtas"
+        },
+        {
+          "id": "DIP-SIM-001-Q11",
+          "tema": 37,
+          "pregunta": "En una relación uno a muchos, la clave ajena se sitúa normalmente en:",
+          "opciones": ["La tabla del lado uno", "La tabla del lado muchos", "Las dos tablas como clave primaria", "Ninguna tabla"],
+          "correcta": 1,
+          "justificacion": "La tabla del lado muchos contiene normalmente la clave ajena que referencia a la clave primaria de la tabla principal.",
+          "trampa": "La clave primaria permanece en la tabla referenciada.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md#8-relaciones-entre-tablas"
+        },
+        {
+          "id": "DIP-SIM-001-Q12",
+          "tema": 38,
+          "pregunta": "¿Qué combinación inicia una presentación de Impress desde la diapositiva actual?",
+          "opciones": ["F5", "Mayús + F5", "Ctrl + M", "Ctrl + F5"],
+          "correcta": 1,
+          "justificacion": "Mayús + F5 inicia el pase desde la diapositiva actual.",
+          "trampa": "F5 inicia la presentación desde la primera diapositiva.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md#10-presentación-de-diapositivas"
+        }
+      ]
+    },
+    {
+      "id": "DIP-SIM-002",
+      "titulo": "Simulacro transversal 2 · Presupuesto, seguridad y sistemas",
+      "duracionMinutos": 18,
+      "preguntas": [
+        {
+          "id": "DIP-SIM-002-Q01",
+          "tema": 29,
+          "pregunta": "Para autorizar un gasto debe existir previamente:",
+          "opciones": ["Una factura conformada", "Crédito adecuado y suficiente", "Una transferencia bancaria", "Un informe del proveedor"],
+          "correcta": 1,
+          "justificacion": "La existencia de crédito adecuado y suficiente es presupuesto básico para autorizar válidamente un gasto.",
+          "trampa": "La necesidad material del gasto no sustituye la cobertura presupuestaria.",
+          "referencia": "content/diputacion-toledo/tema-29/manual.md#créditos-presupuestarios"
+        },
+        {
+          "id": "DIP-SIM-002-Q02",
+          "tema": 30,
+          "pregunta": "La limitación cuantitativa del crédito significa que:",
+          "opciones": ["Puede gastarse sin límite si el fin es público", "No puede comprometerse gasto por encima del crédito disponible", "Solo limita los pagos en efectivo", "Se aplica únicamente a contratos"],
+          "correcta": 1,
+          "justificacion": "No pueden adquirirse compromisos de gasto por cuantía superior al importe de los créditos autorizados.",
+          "trampa": "La insuficiencia de crédito no se corrige con la mera recepción de la factura.",
+          "referencia": "content/diputacion-toledo/tema-30/manual.md#limitación-cualitativa-cuantitativa-y-temporal"
+        },
+        {
+          "id": "DIP-SIM-002-Q03",
+          "tema": 31,
+          "pregunta": "Una firma electrónica cualificada se basa en:",
+          "opciones": ["Un certificado cualificado y un dispositivo cualificado de creación de firma", "Una contraseña simple", "Un correo electrónico ordinario", "Una imagen escaneada de la firma"],
+          "correcta": 0,
+          "justificacion": "La firma electrónica cualificada requiere un certificado cualificado y un dispositivo cualificado de creación de firma.",
+          "trampa": "Una firma digitalizada o una contraseña no equivalen a firma electrónica cualificada.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md#firma-electrónica-cualificada"
+        },
+        {
+          "id": "DIP-SIM-002-Q04",
+          "tema": 32,
+          "pregunta": "En Windows 11, el Explorador de archivos se utiliza principalmente para:",
+          "opciones": ["Gestionar archivos y carpetas", "Editar el registro civil", "Crear bases de datos relacionales", "Administrar exclusivamente impresoras"],
+          "correcta": 0,
+          "justificacion": "El Explorador de archivos permite navegar, organizar, copiar, mover, renombrar y eliminar archivos y carpetas.",
+          "trampa": "No debe confundirse con el navegador web.",
+          "referencia": "content/diputacion-toledo/tema-32/manual.md#explorador-de-archivos"
+        },
+        {
+          "id": "DIP-SIM-002-Q05",
+          "tema": 33,
+          "pregunta": "En GroupWise, archivar un mensaje significa normalmente:",
+          "opciones": ["Eliminarlo definitivamente", "Conservarlo fuera del buzón operativo según la política de archivo", "Marcarlo como correo no deseado", "Reenviarlo automáticamente"],
+          "correcta": 1,
+          "justificacion": "El archivo permite conservar mensajes fuera del buzón operativo, de acuerdo con la configuración y política del sistema.",
+          "trampa": "Archivar no equivale a borrar definitivamente.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md#archivo-y-conservación-de-mensajes"
+        },
+        {
+          "id": "DIP-SIM-002-Q06",
+          "tema": 34,
+          "pregunta": "Ante un correo sospechoso que solicita credenciales, la actuación correcta es:",
+          "opciones": ["Responder con la contraseña", "Abrir el enlace para comprobarlo", "No interactuar y comunicar el incidente", "Reenviarlo a toda la organización"],
+          "correcta": 2,
+          "justificacion": "Debe evitarse la interacción, comprobarse el remitente y comunicarse el posible incidente al servicio competente.",
+          "trampa": "El nombre visible del remitente no acredita su identidad real.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md#phishing-y-suplantación"
+        },
+        {
+          "id": "DIP-SIM-002-Q07",
+          "tema": 36,
+          "pregunta": "La función CONTARA de Calc cuenta:",
+          "opciones": ["Solo celdas numéricas", "Celdas no vacías", "Solo fórmulas", "Solo textos"],
+          "correcta": 1,
+          "justificacion": "CONTARA cuenta las celdas no vacías, con independencia de que contengan números, texto u otros valores.",
+          "trampa": "CONTAR se limita normalmente a celdas con valores numéricos.",
+          "referencia": "content/diputacion-toledo/tema-36/manual.md#funciones-básicas"
+        },
+        {
+          "id": "DIP-SIM-002-Q08",
+          "tema": 37,
+          "pregunta": "Una consulta de selección en Base, por regla general:",
+          "opciones": ["Modifica siempre las tablas", "Muestra datos según criterios sin alterar el origen", "Elimina los registros no mostrados", "Borra la estructura"],
+          "correcta": 1,
+          "justificacion": "Una consulta de selección recupera datos que cumplen criterios sin modificar por sí sola los registros de origen.",
+          "trampa": "No debe confundirse SELECT con sentencias de actualización o eliminación.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md#101-consulta-de-selección"
+        },
+        {
+          "id": "DIP-SIM-002-Q09",
+          "tema": 38,
+          "pregunta": "La transición en Impress se aplica a:",
+          "opciones": ["Un carácter", "El cambio entre diapositivas", "Una celda", "Una nota"],
+          "correcta": 1,
+          "justificacion": "La transición regula el paso de una diapositiva a otra.",
+          "trampa": "La animación se aplica a objetos dentro de una diapositiva.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md#9-transiciones-y-animaciones"
+        },
+        {
+          "id": "DIP-SIM-002-Q10",
+          "tema": 39,
+          "pregunta": "M.2 y NVMe son, respectivamente:",
+          "opciones": ["Un protocolo y un conector", "Un formato físico y un protocolo", "Dos sistemas de archivos", "Dos tipos de memoria RAM"],
+          "correcta": 1,
+          "justificacion": "M.2 describe un formato físico, mientras que NVMe es un protocolo de almacenamiento optimizado para PCI Express.",
+          "trampa": "No todo dispositivo M.2 utiliza NVMe.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md#63-interfaces-y-formatos"
+        },
+        {
+          "id": "DIP-SIM-002-Q11",
+          "tema": 39,
+          "pregunta": "La memoria virtual utiliza:",
+          "opciones": ["La caché L1 para sustituir al SSD", "Espacio de almacenamiento como apoyo a la RAM", "La GPU como disco", "La BIOS como memoria principal"],
+          "correcta": 1,
+          "justificacion": "La memoria virtual utiliza espacio de almacenamiento para complementar la RAM disponible.",
+          "trampa": "Es más lenta que la RAM y no equivale a ampliar físicamente la memoria.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md#53-memoria-virtual"
+        },
+        {
+          "id": "DIP-SIM-002-Q12",
+          "tema": 40,
+          "pregunta": "El límite clásico de FAT32 para un archivo individual es:",
+          "opciones": ["2 GB", "4 GB", "8 GB", "16 GB"],
+          "correcta": 1,
+          "justificacion": "FAT32 no admite archivos individuales que alcancen o superen 4 GB.",
+          "trampa": "El límite se refiere al tamaño de cada archivo, no a la capacidad total de la unidad.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md#discos-duros-externos"
+        }
+      ]
+    },
+    {
+      "id": "DIP-SIM-003",
+      "titulo": "Simulacro transversal 3 · Repaso mixto de alta frecuencia",
+      "duracionMinutos": 18,
+      "preguntas": [
+        {
+          "id": "DIP-SIM-003-Q01",
+          "tema": 10,
+          "pregunta": "El acceso parcial a información pública procede cuando:",
+          "opciones": ["Todo el documento está afectado por un límite", "Puede separarse la información accesible de la restringida", "La persona solicitante no se identifica", "La Administración quiere evitar resolver"],
+          "correcta": 1,
+          "justificacion": "Debe facilitarse acceso parcial cuando sea posible separar la información afectada por límites de la restante.",
+          "trampa": "La denegación total debe ser la última opción cuando la información pueda disociarse.",
+          "referencia": "content/diputacion-toledo/tema-10/manual.md#acceso-parcial"
+        },
+        {
+          "id": "DIP-SIM-003-Q02",
+          "tema": 15,
+          "pregunta": "El presupuesto base de licitación se diferencia del valor estimado en que el primero:",
+          "opciones": ["Nunca incluye IVA", "Incluye normalmente IVA", "Solo se calcula en contratos menores", "No tiene límite máximo"],
+          "correcta": 1,
+          "justificacion": "El presupuesto base de licitación expresa el límite máximo de gasto e incluye normalmente el IVA, mientras que el valor estimado se calcula sin IVA.",
+          "trampa": "Valor estimado y presupuesto base de licitación no son magnitudes intercambiables.",
+          "referencia": "content/diputacion-toledo/tema-15/manual.md#valor-estimado-y-presupuesto-base-de-licitación"
+        },
+        {
+          "id": "DIP-SIM-003-Q03",
+          "tema": 28,
+          "pregunta": "Ante una posible brecha de datos personales, la primera obligación interna es:",
+          "opciones": ["Ocultarla", "Comunicarla por el canal establecido y activar la gestión del incidente", "Publicarla en redes sociales", "Borrar todos los equipos"],
+          "correcta": 1,
+          "justificacion": "Debe activarse el procedimiento interno de gestión de brechas para evaluar el riesgo, contener el incidente y decidir las notificaciones procedentes.",
+          "trampa": "Eliminar evidencias puede dificultar la investigación y la correcta notificación.",
+          "referencia": "content/diputacion-toledo/tema-28/manual.md#brechas-de-seguridad"
+        },
+        {
+          "id": "DIP-SIM-003-Q04",
+          "tema": 31,
+          "pregunta": "Un sello electrónico se utiliza principalmente para:",
+          "opciones": ["Identificar a una persona física en todo caso", "Garantizar origen e integridad de datos emitidos por una persona jurídica", "Sustituir cualquier firma manuscrita", "Cifrar exclusivamente discos duros"],
+          "correcta": 1,
+          "justificacion": "El sello electrónico permite acreditar el origen y la integridad de datos o documentos vinculados a una persona jurídica.",
+          "trampa": "Firma electrónica y sello electrónico cumplen funciones relacionadas, pero no idénticas.",
+          "referencia": "content/diputacion-toledo/tema-31/manual.md#sello-electrónico"
+        },
+        {
+          "id": "DIP-SIM-003-Q05",
+          "tema": 33,
+          "pregunta": "La opción Responder a todos debe utilizarse cuando:",
+          "opciones": ["Solo debe contestarse al remitente", "La respuesta resulta pertinente para todas las personas destinatarias", "Se desea ocultar destinatarios", "Se quiere archivar el mensaje"],
+          "correcta": 1,
+          "justificacion": "Responder a todos envía la contestación al remitente y a las demás personas incluidas, por lo que debe usarse solo cuando sea necesario.",
+          "trampa": "Un uso indiscriminado genera exposición innecesaria y sobrecarga de correo.",
+          "referencia": "content/diputacion-toledo/tema-33/manual.md#gestión-del-correo-en-groupwise"
+        },
+        {
+          "id": "DIP-SIM-003-Q06",
+          "tema": 34,
+          "pregunta": "Tras introducir credenciales en una web de phishing, debe hacerse inmediatamente:",
+          "opciones": ["Esperar a comprobar si ocurre algo", "Cambiar la contraseña desde un equipo seguro y comunicar el incidente", "Borrar el historial y no informar", "Reutilizar la misma contraseña"],
+          "correcta": 1,
+          "justificacion": "Deben revocarse cuanto antes las credenciales comprometidas, cerrarse sesiones y comunicarse el incidente al servicio competente.",
+          "trampa": "Borrar el mensaje no invalida las credenciales ya entregadas.",
+          "referencia": "content/diputacion-toledo/tema-34/manual.md#respuesta-ante-incidentes"
+        },
+        {
+          "id": "DIP-SIM-003-Q07",
+          "tema": 35,
+          "pregunta": "La combinación de correspondencia permite:",
+          "opciones": ["Generar documentos personalizados a partir de una fuente de datos", "Convertir una tabla en una imagen", "Crear una base de datos sin campos", "Eliminar estilos"],
+          "correcta": 0,
+          "justificacion": "La combinación de correspondencia genera documentos personalizados usando un documento principal y una fuente de datos.",
+          "trampa": "No es lo mismo que copiar y pegar manualmente los datos de cada destinatario.",
+          "referencia": "content/diputacion-toledo/tema-35/manual.md#combinación-de-correspondencia"
+        },
+        {
+          "id": "DIP-SIM-003-Q08",
+          "tema": 36,
+          "pregunta": "El error #DIV/0! aparece normalmente cuando:",
+          "opciones": ["Se divide entre cero o una celda vacía equivalente", "La hoja está protegida", "Se usa texto en negrita", "Se aplica un filtro"],
+          "correcta": 0,
+          "justificacion": "Calc muestra #DIV/0! cuando una fórmula intenta dividir entre cero o entre una referencia cuyo valor es cero.",
+          "trampa": "El problema está en el denominador, no en el formato de la celda.",
+          "referencia": "content/diputacion-toledo/tema-36/manual.md#errores-frecuentes"
+        },
+        {
+          "id": "DIP-SIM-003-Q09",
+          "tema": 37,
+          "pregunta": "La finalidad principal de un informe en Base es:",
+          "opciones": ["Editar ordinariamente registros", "Presentar datos para lectura o impresión", "Definir claves primarias", "Crear controladores JDBC"],
+          "correcta": 1,
+          "justificacion": "Los informes organizan y presentan datos con formato, agrupaciones y totales para consulta o impresión.",
+          "trampa": "El formulario está orientado a la introducción y edición; el informe, a la presentación.",
+          "referencia": "content/diputacion-toledo/tema-37/manual.md#13-informes"
+        },
+        {
+          "id": "DIP-SIM-003-Q10",
+          "tema": 38,
+          "pregunta": "Ocultar una diapositiva implica que:",
+          "opciones": ["Se elimina definitivamente", "Se conserva pero no se muestra en el pase ordinario", "Se convierte en nota", "Se bloquea el archivo"],
+          "correcta": 1,
+          "justificacion": "La diapositiva permanece en el archivo, pero queda excluida de la presentación ordinaria.",
+          "trampa": "Ocultar no equivale a eliminar.",
+          "referencia": "content/diputacion-toledo/tema-38/manual.md#4-diapositivas-y-diseños"
+        },
+        {
+          "id": "DIP-SIM-003-Q11",
+          "tema": 39,
+          "pregunta": "USB-C identifica principalmente:",
+          "opciones": ["Una velocidad garantizada", "La forma física del conector", "Un sistema operativo", "Un tipo de disco"],
+          "correcta": 1,
+          "justificacion": "USB-C describe el formato físico del conector; las prestaciones dependen del puerto, cable y protocolo implementado.",
+          "trampa": "No garantiza por sí solo USB4, carga rápida o salida de vídeo.",
+          "referencia": "content/diputacion-toledo/tema-39/manual.md#101-usb"
+        },
+        {
+          "id": "DIP-SIM-003-Q12",
+          "tema": 40,
+          "pregunta": "La extracción segura de una memoria USB sirve para:",
+          "opciones": ["Aumentar su capacidad", "Completar operaciones pendientes antes de desconectarla", "Convertir FAT32 en NTFS", "Cifrar automáticamente todos los archivos"],
+          "correcta": 1,
+          "justificacion": "La extracción segura permite que el sistema termine las escrituras pendientes y reduce el riesgo de corrupción de datos.",
+          "trampa": "Ocultar archivos o desconectar durante la escritura no protege la integridad de la unidad.",
+          "referencia": "content/diputacion-toledo/tema-40/manual.md#seguridad-y-conservación"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "qualification": {
+    "level": "TECNICO_SUPERIOR",
+    "title": "Desarrollo de Aplicaciones Multiplataforma (DAM)",
+    "additionalTitle": "Técnico en Equipos Electrónicos de Consumo"
+  },
+  "targetGroups": [
+    "B",
+    "C1",
+    "C2",
+    "AP"
+  ],
+  "include": [
+    "FUNCIONARIO_CARRERA",
+    "FUNCIONARIO_INTERINO",
+    "PERSONAL_LABORAL",
+    "BOLSA",
+    "PERSONAL_LABORAL_TEMPORAL",
+    "OFERTA_EMPLEO_PUBLICO",
+    "SUSTITUCION",
+    "SUPLENCIA",
+    "CONTRATO_RELEVO",
+    "PLAN_EMPLEO"
+  ],
+  "exclude": [
+    "PROMOCION_INTERNA_EXCLUSIVA",
+    "PROVISION_PUESTOS"
+  ],
+  "zones": {
+    "toledo": {
+      "mode": "PROVINCIA_COMPLETA"
+    },
+    "madridSur": {
+      "municipalities": [
+        "Getafe",
+        "Leganés",
+        "Fuenlabrada",
+        "Móstoles",
+        "Alcorcón",
+        "Parla",
+        "Pinto",
+        "Valdemoro",
+        "Aranjuez",
+        "Humanes de Madrid",
+        "Griñón",
+        "Torrejón de la Calzada",
+        "Torrejón de Velasco",
+        "Ciempozuelos",
+        "Navalcarnero",
+        "San Martín de la Vega",
+        "Moraleja de Enmedio",
+        "Cubas de la Sagra",
+        "Casarrubuelos",
+        "Serranillos del Valle",
+        "Batres",
+        "El Álamo",
+        "Arroyomolinos"
+      ]
+    }
+  },
+  "roleTerms": [
+    "auxiliar administrativo",
+    "administrativo",
+    "gestión",
+    "informática",
+    "sistemas",
+    "desarrollo",
+    "programación",
+    "soporte",
+    "técnico auxiliar",
+    "técnico superior",
+    "auxiliar ayuda a domicilio",
+    "jardinería",
+    "peón",
+    "conserje",
+    "ordenanza",
+    "subalterno",
+    "otros puestos accesibles con la titulación"
+  ],
+  "compatibilityPolicy": "No marcar CUMPLE únicamente por el grupo. CUMPLE exige que la titulación publicada sea compatible; si no se han leído las bases, usar REVISAR.",
+  "rolePolicy": "CUALQUIER_PUESTO_POTENCIALMENTE_ACCESIBLE",
+  "notificationPolicy": {
+    "newOnly": true,
+    "trackExistingProcesses": false,
+    "unknownRequirements": "AVISAR_PARA_REVISAR"
+  }
+}

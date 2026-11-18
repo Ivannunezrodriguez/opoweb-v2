@@ -1,0 +1,274 @@
+{
+  "tema": 14,
+  "titulo": "LOSU II: estudiantado, régimen económico, PDI y PTGAS",
+  "epigrafeOficial": "Ley Orgánica 2/2023 del Sistema Universitario (II): estudiantado y régimen específico de las universidades públicas: régimen económico-financiero, PDI y PTGAS.",
+  "controlVigencia": "2026-07-23",
+  "cobertura": [
+    {
+      "bloque": "Derechos y deberes del estudiantado",
+      "manual": "apartado 1",
+      "preguntas": [
+        "UC3M-T14-001"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "31–39",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Participación, representación y bienestar",
+      "manual": "apartado 2",
+      "preguntas": [
+        "UC3M-T14-002"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "45–46",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Régimen jurídico de universidades públicas",
+      "manual": "apartado 3",
+      "preguntas": [
+        "UC3M-T14-003"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "44; 53",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Autonomía económica y suficiencia financiera",
+      "manual": "apartado 4",
+      "preguntas": [
+        "UC3M-T14-006"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "54–55",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Presupuesto universitario y competencias orgánicas",
+      "manual": "apartado 5",
+      "preguntas": [
+        "UC3M-T14-004",
+        "UC3M-T14-005",
+        "UC3M-T14-013",
+        "UC3M-T14-014"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "46–47; 57",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Programación, contabilidad y control",
+      "manual": "apartado 6",
+      "preguntas": [
+        "UC3M-T14-007"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "57; 59",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Transparencia, patrimonio y contratación",
+      "manual": "apartado 7",
+      "preguntas": [
+        "UC3M-T14-012"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "58–60",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Personal docente e investigador",
+      "manual": "apartado 8",
+      "preguntas": [
+        "UC3M-T14-008",
+        "UC3M-T14-009"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "64; 68–78",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Derechos y deberes del PDI",
+      "manual": "apartado 9",
+      "preguntas": [],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "65–66; 75–76",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-12",
+        "UC3M-ADIC-20261106-LOTE-14"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "controlCobertura20261109": {
+        "tipo": "TRAZABILIDAD_COMPLEMENTARIA_SIN_CERTIFICACION",
+        "cotejo": "BOE-A-2023-7500",
+        "alcance": "LOSU, arts. 66.2 y 78 (derechos de movilidad y conciliación)"
+      }
+    },
+    {
+      "bloque": "Personal técnico, de gestión y de administración y servicios",
+      "manual": "apartado 10",
+      "preguntas": [
+        "UC3M-T14-010"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "89–90; 93–94",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Oferta de empleo, selección y movilidad",
+      "manual": "apartado 11",
+      "preguntas": [
+        "UC3M-T14-011"
+      ],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "91–92",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Igualdad, conciliación y no discriminación",
+      "manual": "apartado 12",
+      "preguntas": [],
+      "norma": "Ley Organica 2/2023 del Sistema Universitario",
+      "articulos": "65; 78",
+      "fuenteOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-13",
+        "UC3M-ADIC-20261106-LOTE-14"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "controlCobertura20261109": {
+        "tipo": "TRAZABILIDAD_COMPLEMENTARIA_SIN_CERTIFICACION",
+        "cotejo": "BOE-A-2023-7500",
+        "alcance": "LOSU, art. 65.1 y criterios de conciliación"
+      }
+    }
+  ],
+  "incidenciasCorregidas": [
+    "El borrador no explicitaba que el Consejo de Gobierno propone el presupuesto y las cuentas y que el Consejo Social los aprueba.",
+    "El borrador omitía la reserva mínima del 5 % del presupuesto para programas propios de investigación.",
+    "Se precisa que el objetivo del 1 % del PIB se encuadra en el plan de incremento del gasto público para 2030."
+  ],
+  "estado": "AUDITADO",
+  "revisionFocalizada20261103": {
+    "fecha": "2026-11-03",
+    "articulos": "LOSU 45.3 y 46.3",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+    "comprobaciones": [
+      "Claustro: estudiantado mínimo 25 %",
+      "Claustro: PDI cuerpos funcionarios y profesorado permanente laboral 51 %",
+      "Consejo de Gobierno: estudiantado mínimo 10 %",
+      "Consejo de Gobierno: PTGAS mínimo 10 %",
+      "Consejo de Gobierno: un tercio elegido por Rector, incluyendo miembros natos"
+    ],
+    "preguntas": [
+      "UC3M-T14-002"
+    ],
+    "nota": "La pregunta sustituida cambia respuesta correcta B por C intencionadamente. Corte normativo de UC3M sujeto a comprobar fecha de publicación de resolución definitiva."
+  },
+  "controlIntegralBanco20261104": {
+    "fecha": "2026-11-04",
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "preguntasVerificadas": 14,
+    "alternativasVerificadas": 56,
+    "informe": "content/uc3m/tema-14/cotejo-integral-2026-11-04.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "fechaCorteNormativo": "PENDIENTE_DOCUMENTO_OFICIAL_LISTAS_DEFINITIVAS_UC3M",
+    "observacion": "Clave T14-002 sigue B; nota histórica B-a-C rectificada; art45.3 PDI 51%"
+  },
+  "controlLoteMasivo20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_FOCAL_SIN_CIERRE_INTEGRAL",
+    "bloquesAbordados": [
+      {
+        "bloque": "Derechos y deberes del PDI",
+        "manual": "14.1",
+        "fuente": "LOSU 64,66,75-76",
+        "preguntasComplementarias": [
+          11,
+          12
+        ]
+      },
+      {
+        "bloque": "Igualdad, conciliación y no discriminación",
+        "manual": "14.2-14.3",
+        "fuente": "LOSU 65,78",
+        "preguntasComplementarias": [
+          13,
+          14
+        ]
+      }
+    ],
+    "recurso": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+    "totalPreguntasComplementarias": 4,
+    "bancoOriginalSinModificar": true,
+    "simulacrosSinModificar": true,
+    "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
+    "certificacionWeb": false,
+    "aprobacionUsuario": false
+  },
+  "cierreDocumentalT13T14_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T13_T14_20261106.md",
+    "prueba": "tests/validate-uc3m-cierres-t13-t14-20261106.mjs",
+    "bloquesMatriz": 12,
+    "bancoOriginal": 14,
+    "bancoComplementario": 4,
+    "alternativasOriginales": 56,
+    "alternativasComplementarias": 16,
+    "bloquesReforzados": 2,
+    "fuentePrincipal": "BOE-A-2023-7500",
+    "enlacesComplementariosPorArticulo": true,
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "pendientes": [
+      "fecha oficial de publicacion de resolucion definitiva UC3M conforme base primera.7",
+      "pruebas navegador E2E, accesibilidad WCAG, movil y PWA",
+      "aprobacion expresa y cotejo juridico integral a la fecha de corte"
+    ],
+    "observacion": "Cierre del circuito documental de estudio, no acreditacion del 100 % juridico-funcional"
+  },
+  "controlEleccionesClaustro20261108": {
+    "fecha": "2026-11-08",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500",
+    "articulos": [
+      "44.3",
+      "45.2.e"
+    ],
+    "manual": "apartado 15",
+    "casosNuevos": 2,
+    "reglas": [
+      "6 años órganos unipersonales electos",
+      "iniciativa 1/3 Claustro con 30% colectivo docente específico",
+      "aprobación 2/3 Claustro",
+      "cese Rector continúa en funciones",
+      "un año promotores si iniciativa rechazada"
+    ],
+    "bancoOriginalModificado": false,
+    "fechaCorteUC3M": "PENDIENTE_FUENTE_PRIMARIA",
+    "certificacionIntegral": false
+  },
+  "controlTrazabilidad20261109": {
+    "fecha": "2026-11-09",
+    "secciones": 12,
+    "seccionesConPreguntas": 12,
+    "fuenteLegal": "https://www.boe.es/eli/es/lo/2023/03/22/2",
+    "certificacionIntegral": false
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T14_AUDITORIA_LOSU_II_2026-11-09.md",
+    "fuente": "BOE-A-2023-7500",
+    "bloques": 12,
+    "preguntasOriginales": 14,
+    "alternativas": 56,
+    "alertaVigenciaPosterior": "RD 855/2026 publicado 22/10/2026",
+    "certificacionIntegral": false,
+    "pruebaE2E": false
+  }
+}

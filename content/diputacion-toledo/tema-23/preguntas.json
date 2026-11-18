@@ -1,0 +1,334 @@
+{
+  "tema": 23,
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T23-001",
+      "pregunta": "Según la Ley 31/1995, ¿quién debe soportar el coste de las medidas de seguridad y salud en el trabajo?",
+      "opciones": [
+        "La empresa o Administración empleadora",
+        "El trabajador",
+        "La mutua exclusivamente",
+        "La representación sindical"
+      ],
+      "correcta": 0,
+      "justificacion": "El coste de las medidas relativas a la seguridad y salud en el trabajo no puede recaer sobre las personas trabajadoras; corresponde al empresario o, en el ámbito público, a la Administración empleadora.",
+      "trampa": "El deber de protección no puede trasladarse económicamente a la persona trabajadora.",
+      "referencia": "PR art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14",
+      "respuestaLiteral": "La empresa o Administración empleadora"
+    },
+    {
+      "id": "DIP-T23-002",
+      "pregunta": "¿Qué principio preventivo tiene prioridad?",
+      "opciones": [
+        "La protección individual sobre la colectiva",
+        "La reparación sobre la prevención",
+        "La protección colectiva sobre la individual",
+        "La sanción sobre la formación"
+      ],
+      "correcta": 2,
+      "justificacion": "La acción preventiva debe anteponer la protección colectiva a la protección individual.",
+      "trampa": "Los equipos de protección individual no sustituyen una medida colectiva técnicamente posible.",
+      "referencia": "PR art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a15",
+      "respuestaLiteral": "La protección colectiva sobre la individual"
+    },
+    {
+      "id": "DIP-T23-003",
+      "pregunta": "La formación preventiva debe ser:",
+      "opciones": [
+        "Teórica y práctica, suficiente y adecuada",
+        "Solo teórica",
+        "Solo inicial",
+        "Voluntaria para el empresario"
+      ],
+      "correcta": 0,
+      "justificacion": "La formación preventiva debe ser teórica y práctica, suficiente y adecuada, centrada en el puesto y actualizada cuando sea necesario.",
+      "trampa": "No basta con una formación inicial genérica ni exclusivamente teórica.",
+      "referencia": "PR art. 19 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a19",
+      "respuestaLiteral": "Teórica y práctica, suficiente y adecuada"
+    },
+    {
+      "id": "DIP-T23-004",
+      "pregunta": "Ante un riesgo grave e inminente, la persona trabajadora puede:",
+      "opciones": [
+        "Abandonar el lugar únicamente con autorización judicial",
+        "Continuar siempre hasta recibir orden escrita",
+        "Solicitar exclusivamente una indemnización",
+        "Interrumpir su actividad y abandonar el lugar"
+      ],
+      "correcta": 3,
+      "justificacion": "La Ley reconoce a la persona trabajadora la posibilidad de interrumpir su actividad y abandonar el lugar de trabajo cuando considere que existe un riesgo grave e inminente para su vida o salud.",
+      "trampa": "No se exige autorización judicial previa para proteger la vida o la salud.",
+      "referencia": "PR art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a21",
+      "respuestaLiteral": "Interrumpir su actividad y abandonar el lugar"
+    },
+    {
+      "id": "DIP-T23-005",
+      "pregunta": "La autoridad laboral debe ratificar o anular una paralización acordada por los representantes en el plazo de:",
+      "opciones": [
+        "12 horas",
+        "48 horas",
+        "24 horas",
+        "3 días hábiles"
+      ],
+      "correcta": 2,
+      "justificacion": "La autoridad laboral debe ratificar o anular el acuerdo de paralización en el plazo de 24 horas.",
+      "trampa": "Es un plazo de horas, no de días hábiles.",
+      "referencia": "PR art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a21",
+      "respuestaLiteral": "24 horas"
+    },
+    {
+      "id": "DIP-T23-006",
+      "pregunta": "Como regla general, la vigilancia de la salud:",
+      "opciones": [
+        "Es siempre obligatoria",
+        "La decide el delegado de prevención",
+        "Requiere consentimiento de la persona trabajadora",
+        "Está prohibida"
+      ],
+      "correcta": 2,
+      "justificacion": "La vigilancia de la salud requiere, como regla general, el consentimiento de la persona trabajadora, sin perjuicio de las excepciones legalmente previstas.",
+      "trampa": "Las excepciones no convierten la vigilancia de la salud en obligatoria con carácter general.",
+      "referencia": "PR art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a22",
+      "respuestaLiteral": "Requiere consentimiento de la persona trabajadora"
+    },
+    {
+      "id": "DIP-T23-007",
+      "pregunta": "En la protección durante el embarazo, la primera medida debe ser:",
+      "opciones": [
+        "Suspender el contrato",
+        "Extinguir el contrato",
+        "Imponer vacaciones",
+        "Adaptar las condiciones o el tiempo de trabajo"
+      ],
+      "correcta": 3,
+      "justificacion": "La primera medida es adaptar las condiciones o el tiempo de trabajo; después procede, si resulta necesario, el cambio de puesto y, solo en último término, la suspensión.",
+      "trampa": "La suspensión es la última medida de la secuencia protectora.",
+      "referencia": "PR art. 26 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a26",
+      "respuestaLiteral": "Adaptar las condiciones o el tiempo de trabajo"
+    },
+    {
+      "id": "DIP-T23-008",
+      "pregunta": "¿Cuál de las siguientes es una modalidad de organización preventiva?",
+      "opciones": [
+        "Jurado preventivo provincial",
+        "Comisión judicial de seguridad",
+        "Servicio de prevención ajeno",
+        "Delegación ministerial obligatoria"
+      ],
+      "correcta": 2,
+      "justificacion": "La normativa prevé, entre otras modalidades, la asunción personal, los trabajadores designados y los servicios de prevención propios, ajenos o mancomunados.",
+      "trampa": "No deben confundirse los órganos de participación con las modalidades de organización preventiva.",
+      "referencia": "RSP art. 10 · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853#a10",
+      "respuestaLiteral": "Servicio de prevención ajeno"
+    },
+    {
+      "id": "DIP-T23-009",
+      "pregunta": "En una empresa de 31 a 49 trabajadores, el número de delegados de prevención es:",
+      "opciones": [
+        "Ninguno",
+        "1",
+        "2",
+        "3"
+      ],
+      "correcta": 1,
+      "justificacion": "En las empresas de 31 a 49 trabajadores existe un delegado de prevención, elegido por y entre los delegados de personal.",
+      "trampa": "En empresas de hasta 30 trabajadores coincide con el delegado de personal; entre 31 y 49 hay uno elegido entre los delegados de personal.",
+      "referencia": "PR art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35",
+      "respuestaLiteral": "1"
+    },
+    {
+      "id": "DIP-T23-010",
+      "pregunta": "¿A partir de qué plantilla se constituye el Comité de Seguridad y Salud?",
+      "opciones": [
+        "25 trabajadores",
+        "50 trabajadores",
+        "30 trabajadores",
+        "100 trabajadores"
+      ],
+      "correcta": 1,
+      "justificacion": "El Comité de Seguridad y Salud se constituye en empresas o centros de trabajo con 50 o más trabajadores.",
+      "trampa": "El umbral es 50 trabajadores, no 49 ni 100.",
+      "referencia": "PR art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38",
+      "respuestaLiteral": "50 trabajadores"
+    },
+    {
+      "id": "DIP-T23-011",
+      "pregunta": "El Comité de Seguridad y Salud se reúne ordinariamente:",
+      "opciones": [
+        "Trimestralmente",
+        "Cada mes",
+        "Cada dos meses",
+        "Anualmente"
+      ],
+      "correcta": 0,
+      "justificacion": "El Comité de Seguridad y Salud se reúne trimestralmente y también cuando lo solicite alguna de sus representaciones.",
+      "trampa": "La periodicidad ordinaria es trimestral, pero puede reunirse además a petición de cualquiera de sus representaciones.",
+      "referencia": "PR art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38",
+      "respuestaLiteral": "Trimestralmente"
+    },
+    {
+      "id": "DIP-T23-012",
+      "pregunta": "Los datos médicos derivados de la vigilancia de la salud:",
+      "opciones": [
+        "Son públicos",
+        "Pueden comunicarse íntegramente al empresario",
+        "Deben remitirse al comité de empresa",
+        "Tienen carácter confidencial"
+      ],
+      "correcta": 3,
+      "justificacion": "Los datos médicos personales tienen carácter confidencial; el empresario solo recibe las conclusiones sobre aptitud o necesidad de medidas preventivas.",
+      "trampa": "El empresario no recibe el historial clínico completo.",
+      "referencia": "PR art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a22",
+      "respuestaLiteral": "Tienen carácter confidencial"
+    },
+    {
+      "id": "DIP-T23-013",
+      "pregunta": "¿Cuántos delegados de prevención corresponden a una plantilla de entre 50 y 100 personas trabajadoras?",
+      "opciones": [
+        "Uno",
+        "Dos",
+        "Tres",
+        "Cuatro"
+      ],
+      "correcta": 1,
+      "justificacion": "La escala del artículo 35.2 fija **2 delegados** entre **50 y 100 trabajadores**.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "PR art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35",
+      "respuestaLiteral": "Dos"
+    },
+    {
+      "id": "DIP-T23-014",
+      "pregunta": "¿Cuántos delegados de prevención corresponden a una plantilla de 101 a 500 personas?",
+      "opciones": [
+        "Tres",
+        "Dos",
+        "Cuatro",
+        "Cinco"
+      ],
+      "correcta": 0,
+      "justificacion": "Para plantillas entre **101 y 500** corresponden **3 delegados de prevención**.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "PR art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35",
+      "respuestaLiteral": "Tres"
+    },
+    {
+      "id": "DIP-T23-015",
+      "pregunta": "¿Cuál es el plazo ordinario para que los Delegados de Prevención emitan el informe relativo a la consulta del art. 33 LPRL?",
+      "opciones": [
+        "15 días o el tiempo imprescindible ante riesgos inminentes",
+        "30 días naturales en cualquier caso",
+        "72 horas sin excepciones",
+        "Dos meses desde la solicitud"
+      ],
+      "correcta": 0,
+      "justificacion": "El art. 36.3 LPRL establece 15 días o el tiempo imprescindible cuando se adopten medidas dirigidas a prevenir riesgos inminentes.",
+      "trampa": "15 días es la regla general, pero ante riesgo inminente no existe un plazo fijo alternativo de 24 horas.",
+      "referencia": "PR art. 36 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a36",
+      "respuestaLiteral": "15 días o el tiempo imprescindible ante riesgos inminentes"
+    },
+    {
+      "id": "DIP-T23-016",
+      "pregunta": "¿Qué carácter tiene el Comité de Seguridad y Salud?",
+      "opciones": [
+        "Órgano judicial de inspección",
+        "Órgano paritario y colegiado de participación",
+        "Mesa de negociación exclusivamente salarial",
+        "Órgano empresarial sin representación laboral"
+      ],
+      "correcta": 1,
+      "justificacion": "Es un órgano **paritario y colegiado** de participación destinado a consulta regular y periódica.",
+      "trampa": "Distinguir umbrales, número de delegados, plazos de actuación y órganos.",
+      "referencia": "PR art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38",
+      "respuestaLiteral": "Órgano paritario y colegiado de participación"
+    },
+    {
+      "id": "DIP-T23-017",
+      "pregunta": "¿Qué actuaciones deben contemplarse expresamente en las medidas de emergencia del artículo 20 LPRL?",
+      "opciones": [
+        "Identificación fiscal, inventario y contabilidad",
+        "Solo planes de formación y permisos laborales",
+        "Únicamente apertura y cierre de oficinas",
+        "Primeros auxilios, lucha contra incendios y evacuación"
+      ],
+      "correcta": 3,
+      "justificacion": "El art. 20 LPRL exige analizar emergencias y adoptar medidas necesarias en primeros auxilios, lucha contra incendios y evacuación.",
+      "trampa": "El artículo enumera tres ámbitos y exige designación de personal encargado y comprobación periódica del funcionamiento.",
+      "referencia": "PR art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a20",
+      "respuestaLiteral": "Primeros auxilios, lucha contra incendios y evacuación"
+    },
+    {
+      "id": "DIP-T23-018",
+      "pregunta": "¿Cuál es una obligación del trabajador en materia preventiva conforme al art. 29.2 LPRL?",
+      "opciones": [
+        "Permitir usar equipos sin protección aunque exista riesgo",
+        "Asumir personalmente el coste de la protección",
+        "Desconectar la señalización para facilitar el trabajo",
+        "No poner fuera de funcionamiento los dispositivos de seguridad existentes"
+      ],
+      "correcta": 3,
+      "justificacion": "El art. 29.2.3.º LPRL exige no poner fuera de funcionamiento y utilizar correctamente los dispositivos de seguridad.",
+      "trampa": "Las obligaciones preventivas del trabajador no permiten anular protecciones ni trasladan al empleado el coste legal de la prevención.",
+      "referencia": "PR art. 29 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a29",
+      "respuestaLiteral": "No poner fuera de funcionamiento los dispositivos de seguridad existentes"
+    },
+    {
+      "id": "DIP-T23-019",
+      "pregunta": "¿Cómo define el art. 31.2 LPRL un servicio de prevención?",
+      "opciones": [
+        "El número de trabajadores que elige a los Delegados de Prevención",
+        "Un órgano judicial para resolver sanciones",
+        "El conjunto de medios humanos y materiales necesarios para las actividades preventivas",
+        "Una comisión sindical sin medios técnicos"
+      ],
+      "correcta": 2,
+      "justificacion": "La Ley 31/1995 art. 31.2 define el servicio de prevención como conjunto de medios humanos y materiales necesarios para las actividades preventivas, destinado a garantizar protección y asesoramiento.",
+      "trampa": "El servicio de prevención es una organización de recursos; no se confunde con los Delegados ni con el Comité de Seguridad y Salud.",
+      "referencia": "PR art. 31 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a31",
+      "respuestaLiteral": "El conjunto de medios humanos y materiales necesarios para las actividades preventivas"
+    },
+    {
+      "id": "DIP-T23-020",
+      "pregunta": "¿Cuándo es obligatorio constituir un servicio de prevención propio por tamaño de plantilla, con independencia de la actividad?",
+      "opciones": [
+        "Desde 50 trabajadores en todos los casos",
+        "Con más de 500 trabajadores",
+        "Desde 250 trabajadores sin más requisitos",
+        "Solo con más de 1.000 trabajadores"
+      ],
+      "correcta": 1,
+      "justificacion": "El art. 14.a del RD 39/1997 exige servicio de prevención propio en empresas con más de 500 personas. El apartado b añade el supuesto de 250 a 500 con actividades del anexo I.",
+      "trampa": "No confundir el umbral de más de 500 para servicio propio con 50 para Comité de Seguridad y Salud, ni omitir la condición del anexo I para plantillas de 250–500.",
+      "referencia": "RSP art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-1997-1853#a14",
+      "respuestaLiteral": "Con más de 500 trabajadores"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "auditoriaRedundancias20261104": {
+    "fecha": "2026-11-04",
+    "reemplazadas": [
+      "DIP-T23-015",
+      "DIP-T23-017",
+      "DIP-T23-018",
+      "DIP-T23-019",
+      "DIP-T23-020"
+    ],
+    "alcance": "Cinco preguntas repetían conceptos y plazos ya cubiertos por otras del mismo banco. Sustituidas por cinco nuevos conocimientos directos LPRL/RSP, conservando IDs, posiciones de respuesta y distribución por letras. Referencias y justificaciones actualizadas; no es auditoría jurídica integral del tema.",
+    "normas": [
+      "Ley 31/1995 arts. 20,29,31,36",
+      "RD 39/1997 art.14"
+    ]
+  },
+  "controlBloque20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "estado": "AUDITADO",
+    "pendienteEstatutosOriginales": false,
+    "certificacionIntegral": false,
+    "controlNavegador": "TRANSVERSAL_PENDIENTE"
+  }
+}

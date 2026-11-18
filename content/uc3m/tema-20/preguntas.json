@@ -1,0 +1,208 @@
+{
+  "tema": 20,
+  "titulo": "Ley 9/2017 de Contratos del Sector Público y contratación en la UC3M",
+  "preguntas": [
+    {
+      "id": "UC3M-T20-001",
+      "pregunta": "¿Quién es el órgano de contratación originario de la UC3M según sus Estatutos?",
+      "opciones": [
+        "El Consejo Social",
+        "El Rector",
+        "La Gerencia",
+        "La mesa de contratación"
+      ],
+      "correcta": 1,
+      "justificacion": "El artículo 175 de los Estatutos atribuye al Rector la condición de órgano de contratación de la Universidad.",
+      "trampa": "La Gerencia puede ejercer facultades delegadas, pero la titularidad originaria corresponde al Rector.",
+      "referencia": "Estatutos UC3M art. 175, Rector organo de contratacion · https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782",
+      "respuestaLiteral": "El Rector"
+    },
+    {
+      "id": "UC3M-T20-002",
+      "pregunta": "¿Qué función desempeña la mesa de contratación?",
+      "opciones": [
+        "Adjudica siempre el contrato",
+        "Aprueba el presupuesto de la Universidad",
+        "Sustituye al órgano de contratación",
+        "Asiste técnicamente y formula propuesta de adjudicación"
+      ],
+      "correcta": 3,
+      "justificacion": "La mesa califica, valora y propone; la adjudicación corresponde al órgano de contratación.",
+      "trampa": "La propuesta de la mesa no crea derecho a favor del licitador.",
+      "referencia": "Estatutos UC3M art. 176 y LCSP art. 326, mesa de contratacion · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a326",
+      "respuestaLiteral": "Asiste técnicamente y formula propuesta de adjudicación"
+    },
+    {
+      "id": "UC3M-T20-003",
+      "pregunta": "El presupuesto base de licitación se caracteriza por: ",
+      "opciones": [
+        "Calcularse siempre sin IVA",
+        "Ser el límite máximo de gasto e incluir normalmente el IVA",
+        "Coincidir siempre con el valor estimado",
+        "Excluir los costes salariales"
+      ],
+      "correcta": 1,
+      "justificacion": "El presupuesto base es el límite máximo de gasto que puede comprometerse y, como regla, incluye IVA.",
+      "trampa": "El valor estimado se calcula sin IVA.",
+      "referencia": "LCSP art. 100, presupuesto base licitacion · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a100",
+      "respuestaLiteral": "Ser el límite máximo de gasto e incluir normalmente el IVA"
+    },
+    {
+      "id": "UC3M-T20-004",
+      "pregunta": "¿Cuál de estos conceptos se calcula sin IVA?",
+      "opciones": [
+        "Presupuesto base de licitación, siempre",
+        "Valor estimado del contrato",
+        "Factura pagada al contratista",
+        "Precio total con impuestos"
+      ],
+      "correcta": 1,
+      "justificacion": "El valor estimado se determina sin IVA e incluye prórrogas, opciones y modificaciones previstas cuando proceda.",
+      "trampa": "Presupuesto base y valor estimado no son equivalentes.",
+      "referencia": "LCSP art. 101, valor estimado excluye IVA · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a101",
+      "respuestaLiteral": "Valor estimado del contrato"
+    },
+    {
+      "id": "UC3M-T20-005",
+      "pregunta": "¿Puede fraccionarse el objeto para evitar publicidad o un procedimiento más exigente?",
+      "opciones": [
+        "No, está prohibido",
+        "Sí, si lo autoriza la unidad promotora",
+        "Sí, cuando existe crédito",
+        "Solo en contratos de servicios"
+      ],
+      "correcta": 0,
+      "justificacion": "La LCSP prohíbe fraccionar el objeto para disminuir cuantía y eludir publicidad o procedimiento.",
+      "trampa": "La división en lotes legítima no equivale a fraccionamiento fraudulento.",
+      "referencia": "LCSP art. 99.2, prohibicion de fraccionamiento elusivo · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a99",
+      "respuestaLiteral": "No, está prohibido"
+    },
+    {
+      "id": "UC3M-T20-006",
+      "pregunta": "¿Cuándo se perfeccionan, como regla general, los contratos administrativos?",
+      "opciones": [
+        "Con la publicación del anuncio",
+        "Con la propuesta de la mesa",
+        "Con la apertura de ofertas",
+        "Con la formalización"
+      ],
+      "correcta": 3,
+      "justificacion": "La regla general del artículo 36.1 LCSP es la perfección de los contratos mediante formalización. Existen excepciones, como los contratos menores y otros supuestos regulados; por eso el enunciado pregunta expresamente por la regla general.",
+      "trampa": "Perfección general: formalización. No atribuir esa regla sin excepciones a todos los contratos menores.",
+      "referencia": "LCSP art. 36.1, perfeccion por formalizacion y excepciones · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a36",
+      "respuestaLiteral": "Con la formalización"
+    },
+    {
+      "id": "UC3M-T20-007",
+      "pregunta": "¿Cuál es el umbral de contrato menor de servicios?",
+      "opciones": [
+        "Presupuesto de 15.000 euros, IVA incluido",
+        "Valor estimado inferior a 40.000 euros",
+        "Valor estimado inferior a 15.000 euros, sin IVA",
+        "Precio inferior a 60.000 euros"
+      ],
+      "correcta": 2,
+      "justificacion": "Conforme al artículo 118.1 LCSP, tienen consideración de contratos menores los de servicios y suministros de valor estimado inferior a 15.000 euros, excluido IVA (salvando las especialidades legales que puedan corresponder). El umbral de 40.000 euros se refiere a obras.",
+      "trampa": "Servicios y suministros: valor estimado inferior a 15.000 € sin IVA; obras: inferior a 40.000 €. Presupuesto base y valor estimado son magnitudes distintas.",
+      "referencia": "LCSP art. 118.1, contrato menor de servicios con valor estimado inferior a 15000 euros · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a118",
+      "respuestaLiteral": "Valor estimado inferior a 15.000 euros, sin IVA"
+    },
+    {
+      "id": "UC3M-T20-008",
+      "pregunta": "La duración máxima ordinaria de un contrato menor es: ",
+      "opciones": [
+        "Seis meses prorrogables",
+        "Dos años",
+        "Un año y no admite prórroga",
+        "Cuatro años con prórrogas"
+      ],
+      "correcta": 2,
+      "justificacion": "El contrato menor no puede durar más de un año ni ser objeto de prórroga.",
+      "trampa": "Una necesidad repetitiva superior al año debe planificarse mediante otro procedimiento.",
+      "referencia": "LCSP art. 29.8, contrato menor duracion maxima un año y sin prorroga · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a29",
+      "respuestaLiteral": "Un año y no admite prórroga"
+    },
+    {
+      "id": "UC3M-T20-009",
+      "pregunta": "¿Qué distingue a una concesión de servicios de un contrato de servicios?",
+      "opciones": [
+        "La existencia de IVA",
+        "La obligación de dividir en lotes",
+        "La ausencia de contraprestación",
+        "La transferencia de riesgo operacional al concesionario"
+      ],
+      "correcta": 3,
+      "justificacion": "La concesión transfiere al operador el riesgo operacional de explotación.",
+      "trampa": "No basta con llamar concesión al contrato; debe existir transferencia real del riesgo.",
+      "referencia": "LCSP art. 15, transferencia del riesgo operacional en concesion de servicios · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a15",
+      "respuestaLiteral": "La transferencia de riesgo operacional al concesionario"
+    },
+    {
+      "id": "UC3M-T20-010",
+      "pregunta": "La adjudicación basada en mejor relación calidad-precio significa que: ",
+      "opciones": [
+        "Pueden combinarse criterios económicos y cualitativos vinculados al objeto",
+        "Siempre gana la oferta de menor precio",
+        "El precio no puede valorarse",
+        "La mesa decide libremente sin fórmulas"
+      ],
+      "correcta": 0,
+      "justificacion": "La mejor relación calidad-precio puede integrar precio, calidad, criterios sociales, ambientales y otros criterios objetivos.",
+      "trampa": "La oferta más barata no es necesariamente la mejor valorada.",
+      "referencia": "LCSP art. 145, mejor relacion calidad precio · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a145",
+      "respuestaLiteral": "Pueden combinarse criterios económicos y cualitativos vinculados al objeto"
+    },
+    {
+      "id": "UC3M-T20-011",
+      "pregunta": "Antes de excluir una oferta presuntamente anormalmente baja debe: ",
+      "opciones": [
+        "Excluirse automáticamente",
+        "Formalizarse el contrato",
+        "Darse audiencia al licitador para justificarla",
+        "Solicitarse autorización al Consejo Social"
+      ],
+      "correcta": 2,
+      "justificacion": "La LCSP exige un procedimiento contradictorio para que el licitador explique la viabilidad de su oferta.",
+      "trampa": "La identificación de anormalidad no equivale a exclusión automática.",
+      "referencia": "LCSP art. 149, justificacion de ofertas anormalmente bajas · https://www.boe.es/buscar/act.php?id=BOE-A-2017-12902#a149",
+      "respuestaLiteral": "Darse audiencia al licitador para justificarla"
+    },
+    {
+      "id": "UC3M-T20-012",
+      "pregunta": "¿Dónde publica la UC3M su perfil de contratante?",
+      "opciones": [
+        "En la Plataforma de Contratación del Sector Público",
+        "Solo en el tablón físico",
+        "Únicamente en el BOCM",
+        "En el Registro Civil"
+      ],
+      "correcta": 0,
+      "justificacion": "La UC3M enlaza expresamente su perfil de contratante en la Plataforma de Contratación del Sector Público (desde el 1 de noviembre de 2016). No confundir la publicación en la Plataforma con un simple tablón físico o solo el BOCM.",
+      "trampa": "La licitación electrónica universitaria complementa, pero no sustituye, la publicidad oficial del perfil.",
+      "referencia": "Perfil contratante UC3M y LCSP art. 63, publicidad en Plataforma de Contratacion del Sector Publico · https://contrataciondelestado.es · Perfil oficial UC3M: https://www.uc3m.es/conocenos/contratos-perfil-contratante-convenios-contratos",
+      "respuestaLiteral": "En la Plataforma de Contratación del Sector Público"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "fuentes": [
+      "LCSP BOE-A-2017-12902, última actualización publicada 09/04/2026",
+      "Estatutos UC3M art.175",
+      "UC3M perfil oficial Plataforma Contratación"
+    ],
+    "preguntas": 12,
+    "alternativas": 48,
+    "clavesYDistractoresConservados": true,
+    "distinciones": [
+      "PBL incluye IVA como regla general",
+      "valor estimado excluye IVA",
+      "menor servicios inferior a 15000 euros",
+      "perfección con formalización como regla general"
+    ],
+    "certificacionIntegral": false
+  }
+}

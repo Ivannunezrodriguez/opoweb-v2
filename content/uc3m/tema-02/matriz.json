@@ -1,0 +1,138 @@
+{
+  "convocatoria": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
+  "tema": 2,
+  "version": "2026-11-08",
+  "estado": "AUDITADO",
+  "epigrafeOficial": "Ley 39/2015 (I): disposiciones generales; interesados; actividad de las Administraciones Públicas; actos administrativos.",
+  "cobertura": [
+    {
+      "apartado": "Disposiciones generales",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "objeto",
+        "ámbito subjetivo",
+        "sector público institucional",
+        "especialidades procedimentales"
+      ]
+    },
+    {
+      "apartado": "Interesados",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "capacidad de obrar",
+        "concepto de interesado",
+        "representación",
+        "apoderamientos",
+        "identificación",
+        "firma"
+      ]
+    },
+    {
+      "apartado": "Actividad de las Administraciones Públicas",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "derechos de las personas",
+        "relación electrónica",
+        "lengua",
+        "registros",
+        "archivo",
+        "comparecencia",
+        "obligación de resolver",
+        "silencio",
+        "términos y plazos"
+      ]
+    },
+    {
+      "apartado": "Actos administrativos",
+      "estado": "CUBIERTO",
+      "contenido": [
+        "requisitos",
+        "forma",
+        "motivación",
+        "eficacia",
+        "notificación",
+        "publicación",
+        "nulidad",
+        "anulabilidad",
+        "conservación",
+        "convalidación"
+      ]
+    }
+  ],
+  "controlesTest": [
+    "Concepto de interesado",
+    "Actos que requieren acreditación de representación",
+    "Validez de los poderes inscritos",
+    "Actuaciones que requieren firma",
+    "Sujetos obligados a relacionarse electrónicamente",
+    "Presentación en registro durante día inhábil",
+    "Plazo supletorio para resolver",
+    "Regla general y excepciones del silencio",
+    "Caducidad en procedimientos sancionadores",
+    "Cómputo de días hábiles",
+    "Nulidad y anulabilidad"
+  ],
+  "fuentes": [
+    "BOE-A-2026-14624",
+    "BOE-A-2015-10565"
+  ],
+  "aprobadoPorUsuario": false,
+  "controlIntegralJuridico20261104": {
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "fecha": "2026-11-04",
+    "programa": "BOE-A-2026-14624 Anexo I",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "informe": "content/uc3m/tema-02/cotejo-integral-2026-11-04.md",
+    "validacionFuncional": "PENDIENTE_NAVEGADOR_REAL",
+    "corteNormativo": "base primera.7: publicación de listas definitivas y anuncio del ejercicio; fecha exacta pendiente de documento primario",
+    "aprobacionUsuario": "PENDIENTE"
+  },
+  "controlLoteJuridico20261106": {
+    "fecha": "2026-11-06",
+    "modo": "REFUERZO_FOCAL_NO_CIERRE",
+    "temasAnalizados": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "seccionesNuevasManual": "18.1–18.2",
+    "fundamento": "LPAC arts 24 30 31 43",
+    "preguntasNuevas": 4,
+    "alternativas": 16,
+    "ids": "UC3M-JUR-20261106-001..004",
+    "recurso": "data/uc3m-repaso-juridico-t02-t07-20261106.json",
+    "bancoOriginalSinModificar": true,
+    "certificacionLegislativaIntegral": false,
+    "certificacionNavegador": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "controlCierreContenido20261108": {
+    "fecha": "2026-11-08",
+    "estado": "DESARROLLO_DOCUMENTAL_COMPLETO_CON_RESERVA_CORTE_UC3M",
+    "epigrafesVerificados": 4,
+    "preguntasHistoricasConservadas": 12,
+    "alternativasHistoricasConservadas": 48,
+    "casosResueltosNuevos": 2,
+    "fuentes": [
+      "BOE-A-2015-10565",
+      "BOE-A-2026-14624, base primera.7"
+    ],
+    "fechaPublicacionListaDefinitivaPrimaria": "PENDIENTE_COMPROBACION",
+    "aprobadoUsuario": false,
+    "certificacionFuncional": false
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T02_AUDITORIA_LEY39_2026-11-09.md",
+    "ultimaActualizacionBOE": "2024-11-06",
+    "banco": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
+  }
+}

@@ -1,0 +1,282 @@
+{
+  "tema": 15,
+  "epigrafe": "Estatutos de la Universidad Carlos III de Madrid: Defensor Universitario, servicios universitarios, régimen económico-financiero y reforma de los Estatutos.",
+  "estado": "EN_REVISION_USUARIO",
+  "cobertura": [
+    {
+      "bloque": "Naturaleza de los Estatutos",
+      "apartados": [
+        1
+      ],
+      "preguntas": [],
+      "norma": "Decreto 1/2003 + Decreto 95/2009 anexo 1",
+      "articulos": "1–3 (art. 1 modificado por Decreto 95/2009)",
+      "refuerzo": "Microtest manual 1.2 (2 preguntas, 8 alternativas)",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782",
+      "microtestManual": {
+        "ruta": "content/uc3m/tema-15/manual.md",
+        "apartado": "1.2. Microtest de dos preguntas sobre la naturaleza de los Estatutos",
+        "cantidad": 2,
+        "preguntas": [
+          "Pregunta A · artículo 1.1",
+          "Pregunta B · artículo 1.2"
+        ],
+        "enBancoJson": false,
+        "basePrimaria": "Decreto 1/2003, Estatutos UC3M, art. 1, con comprobación posterior de reformas"
+      }
+    },
+    {
+      "bloque": "Defensor Universitario: función y límites",
+      "apartados": [
+        2,
+        3
+      ],
+      "preguntas": [
+        "UC3M-T15-001",
+        "UC3M-T15-002"
+      ],
+      "norma": "Decreto 1/2003 (mod. 95/2009)",
+      "articulos": "127–132; reglamento Defensoria y quejas",
+      "refuerzo": "Manual 3.1 plazo 1 mes y limites de la actuacion",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
+    },
+    {
+      "bloque": "Defensor Universitario: propuesta, elección, cese, mandato, reelección y Adjunto",
+      "apartados": [
+        "2.1",
+        "2.2"
+      ],
+      "preguntas": [
+        "UC3M-T15-003",
+        "UC3M-T15-013",
+        "UC3M-T15-014",
+        "UC3M-T15-015",
+        "UC3M-T15-016"
+      ],
+      "norma": "Decreto 1/2003 + Decreto 95/2009",
+      "articulos": "127.1–2 (127.2 modificado en anexo 53 de 95/2009);128.1–2",
+      "refuerzo": "Cese voluntario frente a acuerdo claustro",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
+    },
+    {
+      "bloque": "Defensor Universitario: elegibilidad, medios y órgano asesor",
+      "apartados": [
+        "2.2",
+        "2.3"
+      ],
+      "preguntas": [
+        "UC3M-T15-017",
+        "UC3M-T15-018",
+        "UC3M-T15-019",
+        "UC3M-T15-020",
+        "UC3M-T15-021"
+      ],
+      "norma": "Decreto 1/2003",
+      "articulos": "128–132",
+      "refuerzo": "Mandato, memoria, reeleccion, adjunto, asesoria",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
+    },
+    {
+      "bloque": "Servicios universitarios",
+      "apartados": [
+        4,
+        5
+      ],
+      "preguntas": [
+        "UC3M-T15-004"
+      ],
+      "norma": "Decreto 1/2003",
+      "articulos": "157–165",
+      "refuerzo": "3 complementarias T15-01 a 03",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
+    },
+    {
+      "bloque": "Régimen económico-financiero",
+      "apartados": [
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "preguntas": [
+        "UC3M-T15-005",
+        "UC3M-T15-006",
+        "UC3M-T15-007"
+      ],
+      "norma": "Decreto 1/2003 y legislacion posterior aplicable",
+      "articulos": "167–177",
+      "refuerzo": "5 complementarias T15-04 a 08",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
+    },
+    {
+      "bloque": "Reforma de los Estatutos",
+      "apartados": [
+        11,
+        12,
+        13
+      ],
+      "preguntas": [
+        "UC3M-T15-008",
+        "UC3M-T15-009",
+        "UC3M-T15-010",
+        "UC3M-T15-011",
+        "UC3M-T15-012"
+      ],
+      "norma": "Decreto 1/2003",
+      "articulos": "178.1–3;179.1–4;180",
+      "refuerzo": "Art. 178.3 toma en consideracion; 179.1 comision; 179.3 aprobacion final",
+      "fuenteOficial": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2003-17782"
+    }
+  ],
+  "control": {
+    "epigrafeCubierto": true,
+    "preguntasTotales": 21,
+    "fuentesOficiales": true,
+    "pendienteRevisionUsuario": true,
+    "incidenciaTransversalCorregida": "El borrador explicaba la función general del Defensor, pero omitía las reglas estatutarias de propuesta, elección, mayoría, mandato, reelección, Adjunto, memoria anual y órgano asesor.",
+    "contrasteParcial2026": "2026-11-04, arts.127–132, cinco preguntas más, estado no certificado",
+    "correccionArt1272009": {
+      "fecha": "2026-11-04",
+      "norma": "Decreto 95/2009 BOCM 288/2009, art. 127.2",
+      "pregunta": "UC3M-T15-003",
+      "distincion": "Renuncia a petición propia vs acuerdo del Claustro por incumplimiento o lesión",
+      "estado": "REVISION_FOCAL_PENDIENTE_REVISION_GLOBAL"
+    }
+  },
+  "controlIntegralBanco20261104": {
+    "fecha": "2026-11-04",
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "preguntasVerificadas": 21,
+    "alternativasVerificadas": 84,
+    "informe": "content/uc3m/tema-15/cotejo-integral-2026-11-04.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "fechaCorteNormativo": "PENDIENTE_DOCUMENTO_OFICIAL_LISTAS_DEFINITIVAS_UC3M",
+    "observacion": "Texto estatutario 2003 más Decreto 95/2009 art127.2; banco de 21 preguntas"
+  },
+  "controlAmpliacionServicios20261106": {
+    "fecha": "2026-11-06",
+    "tipo": "AMPLIACION_JURIDICO_EDITORIAL_MANUAL_SIN_CIERRE_GLOBAL",
+    "fuentes": [
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+      "https://www.bocm.es/boletin/CM_Orden_BOCM/2009/12/04/2009-12-04_02122009_0045.pdf"
+    ],
+    "apartados": [
+      {
+        "materia": "Servicios universitarios",
+        "articulos": "157–165",
+        "cotejado": "Rector y Consejo de Gobierno, biblioteca mínimo 8% del capítulo bienes y servicios, servicios de informática y residencias"
+      },
+      {
+        "materia": "Patrimonio, presupuesto, cuentas y auditoría",
+        "articulos": "167–171,174",
+        "cotejado": "Gerente, Rector, Consejo de Gobierno y Consejo Social; inventario anual, auditoría anual y auditor hasta 5 años"
+      },
+      {
+        "materia": "Contratación",
+        "articulos": "175–177",
+        "cotejado": "Rector órgano de contratación; acuerdo del Consejo Social en inversiones >1 año que comprometan fondos futuros"
+      }
+    ],
+    "repasoComplementario": "content/uc3m/REPASO_T15_SERVICIOS_Y_ECONOMIA_20261106.md",
+    "preguntasComplementarias": 8,
+    "alternativasComplementarias": 32,
+    "bancoOriginalIntacto": 21,
+    "certificacionIntegral": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "controlNaturaleza20261106": {
+    "fecha": "2026-11-06",
+    "bloque": "Naturaleza de los Estatutos",
+    "manual": "1.1–1.2",
+    "fuentes": [
+      "https://www.boe.es/buscar/doc.php?id=BOE-A-2003-17782",
+      "https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m"
+    ],
+    "preceptos": "Estatutos UC3M arts. 1–3",
+    "preguntasComplementariasEnManual": 2,
+    "alternativas": 8,
+    "bancoOriginalPreguntas": 21,
+    "bancoOriginalNoModificado": true,
+    "certificacionIntegral": false
+  },
+  "cierreDocumentalT15_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T15_20261106.md",
+    "test": "tests/validate-uc3m-cierre-t15-20261106.mjs",
+    "bloquesMatriz": 7,
+    "bancoHistorico": 21,
+    "alternativasHistoricas": 84,
+    "bancoComplementario": 8,
+    "alternativasComplementarias": 32,
+    "microtestManual": 2,
+    "alternativasMicrotest": 8,
+    "reparacion": "Referencia juridica T15-009 art. 178.3 (no 179.1); banco 8 complementarias con articulo preciso",
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "pendientes": [
+      "corte legal UC3M fecha primaria de listas definitivas",
+      "navegador real y WCAG PWA movil",
+      "compatibilidad completa LOSU-estatutos",
+      "aprobacion usuario"
+    ]
+  },
+  "controlTrazabilidad20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 7,
+    "bloquesConPreguntasBanco": 6,
+    "bloquesConMicrotestManual": 1,
+    "nota": "No contar el microtest Markdown como pregunta evaluable del banco JSON ni declarar certificación",
+    "certificacionIntegral": false
+  },
+  "controlCorteNormativo20261110": {
+    "fecha": "2026-11-10",
+    "fuenteRegla": "BOE-A-2026-14624 base primera.7",
+    "fuenteInstitucional": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
+    "fechaFirmaReferida": "2026-09-30",
+    "fechaPublicacionSecundaria": "2026-10-01",
+    "fechaPublicacionPrimaria": "NO_ACREDITADA",
+    "documentoCotejo": "content/uc3m/CONTROL_CORTE_T10_T15_T16_20261110.md",
+    "reservaTema": "Estatutos 2003/2009 citados en BOCM 08/06/2026; compatibilidad con LOSU sin concluir",
+    "aprobadoPorUsuario": false,
+    "certificacionIntegral": false
+  },
+  "controlDefensoriaRefundidoLOSU20261110": {
+    "fuenteEstatutos": "https://www.uc3m.es/about-uc3m/regulations/statutes-uc3m",
+    "fuenteLOSU": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a43",
+    "articulosEstatutos": "127-132",
+    "articuloLOSU": "43.4",
+    "evidencia": "content/uc3m/tema-15/manual.md",
+    "mayoriaDefensor": "mitad mas uno del Claustro",
+    "mayoriaAdjunto": "simple del Claustro",
+    "mandatoHistorico": "3 anos y una reeleccion",
+    "reserva": "No resolver automatica aplicacion LOSU art44.3 a Defensoria; fecha corte pendiente",
+    "certificacionIntegral": false
+  },
+  "controlPreguntasDefensoriaLOSU20261111": {
+    "fecha": "2026-11-11",
+    "preguntas": [
+      "UC3M-T15-013",
+      "UC3M-T15-014",
+      "UC3M-T15-015",
+      "UC3M-T15-016"
+    ],
+    "cambios": "Enunciados precisados como literalidad de Estatutos UC3M refundidos 2003/2009; referencia a LOSU 43.4 y DT1",
+    "respuestasYClavesModificadas": 0,
+    "reserva": "La fecha formal de publicación definitiva del proceso y la eventual adaptación completa de Estatutos a LOSU no están acreditadas",
+    "certificacionIntegral": false
+  },
+  "controlEstatutoEstudiantado20261111": {
+    "norma": "RD 855/2026",
+    "publicacion": "2026-10-22",
+    "entradaEnVigor": "2026-10-23",
+    "derogacionExpresa": "RD 1791/2010",
+    "fuente": "https://www.boe.es/eli/es/rd/2026/10/21/855",
+    "corteUC3MPrimario": "NO_ACREDITADO",
+    "preguntasDirectasSobreRD855o1791": 0,
+    "certificacionIntegral": false
+  }
+}

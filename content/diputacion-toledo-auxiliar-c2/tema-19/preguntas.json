@@ -1,0 +1,307 @@
+{
+  "tema": 19,
+  "estado": "AUDITADO",
+  "version": "2026-10-29",
+  "criterio": "20 preguntas originales con referencias a documentación oficial Calc 24.2 y cuatro alternativas; comprobadas estructuralmente. Falta ejecución interactiva real.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T19-001",
+      "enunciado": "¿Qué tipo de referencia es $B$3 en Calc?",
+      "opciones": [
+        "Mixta con solo columna fija",
+        "Relativa",
+        "Absoluta en fila y columna",
+        "Mixta con solo fila fija"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La referencia $B$3 es absoluta: el símbolo $ anterior a B fija la columna y el símbolo $ anterior a 3 fija la fila al copiar la fórmula.",
+      "trampaExamen": "**$B$3** fija fila y columna; **$B3** fija columna; **B$3** fija fila; **B3** es totalmente relativa.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-002",
+      "enunciado": "Al copiar la fórmula =A1+B1 desde C1 a C2, ¿cuál es la fórmula resultante en Calc?",
+      "opciones": [
+        "=$A$1+$B$1",
+        "=A1+B2",
+        "=A1+B1",
+        "=A2+B2"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Las referencias A1 y B1 son relativas; al copiar la fórmula una fila hacia abajo, de C1 a C2, se convierten en A2 y B2.",
+      "trampaExamen": "Copiar una fila abajo modifica **ambas filas relativas**; para mantenerlas fijas haría falta un símbolo **$**.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-003",
+      "enunciado": "¿Qué referencia mantiene fija la columna A, pero permite variar la fila?",
+      "opciones": [
+        "$A1",
+        "$A$1",
+        "A1",
+        "A$1"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La referencia **$A1** fija la columna A, pero permite que la fila 1 varíe al copiar verticalmente.",
+      "trampaExamen": "El símbolo **$** fija exclusivamente la coordenada que le sigue; **A$1** fija fila, no columna.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-004",
+      "enunciado": "¿Qué tecla permite alternar los tipos de referencia seleccionada en una fórmula de Calc 24.2?",
+      "opciones": [
+        "F1",
+        "F4",
+        "F7",
+        "F12"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La Guía Calc 24.2 indica que **F4** permite alternar los tipos de referencias (relativa, absoluta y dos mixtas) cuando se selecciona una referencia en la edición de una fórmula.",
+      "trampaExamen": "**F4** cambia el tipo de referencia en fórmulas; **F1** abre ayuda.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-005",
+      "enunciado": "¿Qué intervalo de celdas representa A2:B4?",
+      "opciones": [
+        "Dos celdas",
+        "Cuatro celdas",
+        "Seis celdas",
+        "Ocho celdas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El rango inclusivo A2:B4 contiene dos columnas (A, B) y tres filas (2, 3, 4): **2 × 3 = 6 celdas**.",
+      "trampaExamen": "Los límites de un rango de Calc son **inclusivos**.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-006",
+      "enunciado": "¿Qué hace un AutoFiltro de Calc al aplicar criterios a una lista?",
+      "opciones": [
+        "Convierte el archivo en un documento Writer",
+        "Recalcula todos los números como texto",
+        "Elimina definitivamente todas las filas que no cumplen el criterio",
+        "Muestra solo las filas que cumplen el criterio y oculta las demás"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El AutoFiltro **oculta temporalmente las filas** que no cumplen las condiciones seleccionadas y deja visibles las que sí las cumplen; no elimina los datos descartados.",
+      "trampaExamen": "**Filtrar no es borrar**. Para recuperar la lista, quitar o restablecer el filtro.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
+    },
+    {
+      "id": "DT-C2-T19-007",
+      "enunciado": "¿Qué comando permite activar un AutoFiltro desde la barra de menús de Calc 24.2?",
+      "opciones": [
+        "Datos > AutoFiltro",
+        "Archivo > Exportar",
+        "Insertar > Nota",
+        "Formato > Página"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La Guía Calc 24.2 documenta **Datos > AutoFiltro** para activarlo o desactivarlo, así como el atajo **Ctrl + Mayús + L**.",
+      "trampaExamen": "**Datos > AutoFiltro** y **Ctrl + Mayús + L** alternan el AutoFiltro; no confundir con ordenar.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
+    },
+    {
+      "id": "DT-C2-T19-008",
+      "enunciado": "¿Cuál es la diferencia básica entre ordenar y filtrar en Calc?",
+      "opciones": [
+        "Filtrar convierte celdas en fórmulas",
+        "Ordenar reorganiza registros; filtrar cambia cuáles se muestran",
+        "Ambos eliminan necesariamente los registros descartados",
+        "Ordenar solo actúa sobre imágenes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "**Ordenar** modifica la secuencia de los registros según criterios; **filtrar** determina los registros que se muestran sin borrarlos.",
+      "trampaExamen": "Ordenar afecta al **orden**; filtrar afecta a la **visibilidad**.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
+    },
+    {
+      "id": "DT-C2-T19-009",
+      "enunciado": "En LibreOffice Calc 24.2, se modifican datos de origen de una tabla dinámica ya creada. ¿Qué es necesario para que la tabla dinámica refleje los nuevos valores?",
+      "opciones": [
+        "Cambiar el formato de las celdas de origen a texto",
+        "Guardar como CSV para que se sincronice",
+        "Actualizar manualmente la tabla dinámica mediante Datos > Tabla dinámica > Actualizar o su menú contextual",
+        "Eliminar todos los datos y crear un libro nuevo"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Según la Guía Calc 24.2, capítulo 9, los cambios en los datos de origen **no actualizan automáticamente** una tabla dinámica. Hay que usar **Datos > Tabla dinámica > Actualizar** o **Actualizar** en su menú contextual. Si cambia el rango de origen por nuevas filas, puede ser necesario modificarlo o recrear la tabla.",
+      "trampaExamen": "Una tabla dinámica **no se actualiza sola** al cambiar sus datos de origen. **Actualizar** no equivale a recalcular una fórmula corriente.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html"
+    },
+    {
+      "id": "DT-C2-T19-010",
+      "enunciado": "Si A2 vale 200 y B2 contiene el valor numérico 10 %, ¿qué resultado da =A2*B2?",
+      "opciones": [
+        "2000",
+        "2",
+        "10",
+        "20"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La celda B2 almacena el valor numérico **10 % = 0,10**, por tanto **200 × 0,10 = 20**.",
+      "trampaExamen": "Un **porcentaje** es un valor numérico: **10 % = 0,10**, no 10 al multiplicar.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-011",
+      "enunciado": "¿Qué función cuenta solo celdas que contienen valores numéricos?",
+      "opciones": [
+        "CONTARA",
+        "CONTAR",
+        "SI",
+        "HOY"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "CONTAR cuenta valores numéricos; CONTARA cuenta celdas no vacías.",
+      "trampaExamen": "CONTAR no es CONTARA.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-012",
+      "enunciado": "Si A1=10, A2=20 y A3=30, ¿cuál es el resultado de =PROMEDIO(A1:A3)?",
+      "opciones": [
+        "10",
+        "30",
+        "20",
+        "60"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La media aritmética es (10+20+30)/3=20.",
+      "trampaExamen": "PROMEDIO no equivale a SUMA.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-013",
+      "enunciado": "Al copiar =A2*$F$1 una fila hacia abajo, ¿qué fórmula resulta?",
+      "opciones": [
+        "=A2*$F$2",
+        "=$A$2*F2",
+        "=A3*F2",
+        "=A3*$F$1"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "A2 cambia a A3; $F$1 permanece fija por ser absoluta.",
+      "trampaExamen": "El símbolo $ fija coordenadas.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-014",
+      "enunciado": "En Calc, al copiar la fórmula =$A2+B$1 desde C2 hasta C3, ¿cuál es la fórmula resultante?",
+      "opciones": [
+        "=$A3+B$1",
+        "=$A2+B$2",
+        "=$B3+C$1",
+        "=$A$2+B$1"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La columna $A es absoluta y la fila 2 relativa, que pasa a 3; en B$1, la fila 1 es absoluta y no cambia si solo bajamos de fila.",
+      "trampaExamen": "En referencias mixtas, el símbolo $ fija únicamente la coordenada a la que antecede.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/scalc/guide/relativ_absolut_ref.html"
+    },
+    {
+      "id": "DT-C2-T19-015",
+      "enunciado": "¿Para qué sirven las tablas dinámicas en Calc?",
+      "opciones": [
+        "Para cifrar obligatoriamente el libro",
+        "Para agrupar y resumir registros por campos",
+        "Para reemplazar el sistema operativo",
+        "Solo para añadir bordes"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Una tabla dinámica permite resumir datos por dimensiones y agregados.",
+      "trampaExamen": "No confundir tabla dinámica y formato de tabla.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html"
+    },
+    {
+      "id": "DT-C2-T19-016",
+      "enunciado": "En Calc, A1:A4 contienen 3, 7, 9 y 5. ¿cuánto devuelve =CONTAR.SI(A1:A4;\">5\")?",
+      "opciones": [
+        "1",
+        "3",
+        "2",
+        "4"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La función CONTAR.SI cuenta las celdas que cumplen el criterio estricto >5: las de valor 7 y 9, pero no 5.",
+      "trampaExamen": "**>5** es estricto; **>=5** incluiría el propio 5.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-017",
+      "enunciado": "¿Qué formato conserva mejor la estructura completa y editable de un libro Calc?",
+      "opciones": [
+        "CSV",
+        "TXT",
+        "PDF",
+        "ODS"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "ODS es el formato nativo editable de hojas de cálculo OpenDocument.",
+      "trampaExamen": "CSV no guarda múltiples hojas, formatos y gráficos como un libro ODS.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG24.html"
+    },
+    {
+      "id": "DT-C2-T19-018",
+      "enunciado": "Si la celda A1 contiene 7, ¿qué devuelve =SI(A1>=5;\"APTO\";\"NO APTO\") en Calc?",
+      "opciones": [
+        "APTO",
+        "NO APTO",
+        "VERDADERO y FALSO a la vez",
+        "#N/A obligatorio"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "SI comprueba 7>=5, condición verdadera, y devuelve el argumento de verdadero: APTO.",
+      "trampaExamen": "No confundir el criterio de comparación con el texto literal entre comillas.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html"
+    },
+    {
+      "id": "DT-C2-T19-019",
+      "enunciado": "¿Qué función permite definir criterios de entrada admitidos para ciertas celdas?",
+      "opciones": [
+        "Filtro automático",
+        "Validación de datos",
+        "Formato de página",
+        "Guardar como PDF"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La validación de datos limita entradas según reglas configuradas.",
+      "trampaExamen": "Validación y formato condicional tienen finalidades distintas.",
+      "referencia": "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html"
+    },
+    {
+      "id": "DT-C2-T19-020",
+      "enunciado": "Según la Guía oficial LibreOffice 24.8 en español para Windows, ¿qué atajo permite guardar la hoja de cálculo actual?",
+      "opciones": [
+        "Ctrl + S",
+        "Ctrl + N",
+        "Ctrl + G",
+        "Ctrl + E"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La Guía 24.8 española documenta Ctrl+G para Guardar y Ctrl+S para Subrayado. Otros perfiles internacionales pueden utilizar otros atajos.",
+      "trampaExamen": "Los atajos de Calc dependen de la distribución: no aplicar automáticamente **Ctrl+S** de Excel o LibreOffice internacional.",
+      "referencia": "https://books.libreoffice.org/es/GS248/GS24814-AtajosDeTeclado.html"
+    }
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 10,
+    "producto": "LibreOffice Calc 24.2",
+    "fuentes": [
+      "https://books.libreoffice.org/en/CG24/CG2408-FormulasAndFunctions.html",
+      "https://books.libreoffice.org/en/CG24/CG2414-CalcAsADatabase.html",
+      "https://books.libreoffice.org/en/CG24/CG2409-PivotTables.html"
+    ],
+    "resultado": "Se revisaron diez preguntas frente a la guía Calc 24.2; se sustituyó la pregunta memorística de capítulo de tablas dinámicas por la necesidad de actualización manual; se precisaron referencias, AutoFiltro y porcentajes.",
+    "limitacion": "Auditoría documental del test: no equivale a ejecutar un caso real en la aplicación ni a certificar el manual completo."
+  },
+  "cierreEditorialC2_17_20_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "reformuladas": 4,
+    "certificacionIntegral": false
+  }
+}

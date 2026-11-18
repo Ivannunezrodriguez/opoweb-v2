@@ -1,0 +1,113 @@
+{
+  "tema": 5,
+  "epigrafeOficial": "Ley 40/2015 (II): funcionamiento electrónico del sector público.",
+  "cobertura": [
+    {
+      "apartado": "Sede electrónica",
+      "articulos": "38",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Portal de internet",
+      "articulos": "39",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Identificación de las Administraciones",
+      "articulos": "40",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Actuación administrativa automatizada",
+      "articulos": "41-42",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Firma del personal público",
+      "articulos": "43",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Intercambio en entornos cerrados",
+      "articulos": "44",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Interoperabilidad de la firma",
+      "articulos": "45",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Archivo electrónico",
+      "articulos": "46",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Ubicación de sistemas y datos",
+      "articulos": "46 bis",
+      "estado": "CUBIERTO"
+    },
+    {
+      "apartado": "Relaciones electrónicas, reutilización y transferencia de tecnología",
+      "articulos": "155-158",
+      "estado": "CUBIERTO"
+    }
+  ],
+  "resultado": "COBERTURA_COMPLETA",
+  "controlIntegralJuridico20261104": {
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "fecha": "2026-11-04",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "fuenteOficial": "BOE-A-2026-14624; BOE-A-2015-10566 o BOE-A-2018-16673/RGPD según tema",
+    "informe": "content/uc3m/tema-05/cotejo-integral-2026-11-04.md",
+    "controlFuncional": "PENDIENTE_NAVEGADOR_REAL",
+    "aprobacionUsuario": "PENDIENTE",
+    "observaciones": "Corregida premisa demasiado amplia de UC3M-T05-010; artículo 46 bis localizado a categorías tasadas"
+  },
+  "controlLoteJuridico20261106": {
+    "fecha": "2026-11-06",
+    "modo": "REFUERZO_FOCAL_NO_CIERRE",
+    "temasAnalizados": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "seccionesNuevasManual": "13.1–13.2",
+    "fundamento": "LRJSP arts 40-46bis",
+    "preguntasNuevas": 4,
+    "alternativas": 16,
+    "ids": "UC3M-JUR-20261106-013..016",
+    "recurso": "data/uc3m-repaso-juridico-t02-t07-20261106.json",
+    "bancoOriginalSinModificar": true,
+    "certificacionLegislativaIntegral": false,
+    "certificacionNavegador": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "estado": "DESARROLLO_DOCUMENTAL_COMPLETO_CON_RESERVA_CORTE",
+    "apartadosCubiertos": 10,
+    "supuestosResueltosAgregados": 2,
+    "bancoHistoricoPreguntas": 12,
+    "bancoHistoricoAlternativas": 48,
+    "fechaCorteNormativoExacta": "PENDIENTE_RESOLUCION_PRIMARIA",
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false
+  },
+  "version": "2026-11-08",
+  "estado": "AUDITADO",
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "acta": "audit/UC3M_T05_AUDITORIA_LEY40_2026-11-09.md",
+    "preguntas": 12,
+    "alternativas": 48,
+    "actualizacionBOE": "2024-08-02",
+    "certificacionIntegral": false,
+    "pruebaE2E": false
+  }
+}

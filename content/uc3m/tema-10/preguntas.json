@@ -1,0 +1,207 @@
+{
+  "tema": 10,
+  "titulo": "TREBEP: personal, derechos, deberes, adquisición, pérdida y situaciones",
+  "preguntas": [
+    {
+      "id": "UC3M-T10-001",
+      "pregunta": "¿Cuál de las siguientes clases de personal está vinculada por una relación estatutaria de carácter permanente?",
+      "opciones": [
+        "Personal eventual",
+        "Funcionario de carrera",
+        "Personal laboral temporal",
+        "Funcionario interino"
+      ],
+      "correcta": 1,
+      "justificacion": "El funcionario de carrera mantiene una relación estatutaria regulada por Derecho administrativo para servicios profesionales permanentes. **Descarte de las alternativas:** El eventual realiza asesoramiento especial; el laboral temporal tiene contrato; el interino tiene nombramiento temporal. Solo el funcionario de carrera posee relación estatutaria permanente.",
+      "trampa": "El interino también es funcionario, pero su nombramiento es temporal.",
+      "referencia": "TREBEP, art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a9",
+      "respuestaLiteral": "Funcionario de carrera"
+    },
+    {
+      "id": "UC3M-T10-002",
+      "pregunta": "¿Qué funciones corresponden al personal eventual?",
+      "opciones": [
+        "Funciones de confianza o asesoramiento especial",
+        "Funciones reservadas a funcionarios de carrera",
+        "Cualquier función administrativa permanente",
+        "Funciones técnicas obtenidas por oposición"
+      ],
+      "correcta": 0,
+      "justificacion": "El personal eventual solo realiza funciones expresamente calificadas de confianza o asesoramiento especial. **Descarte de las alternativas:** Las funciones permanentes, reservadas a funcionarios o técnicas por oposición no son, por ese solo hecho, funciones de personal eventual. Su rasgo es la confianza o el asesoramiento especial.",
+      "trampa": "Su nombramiento libre no amplía el tipo de funciones que puede desempeñar.",
+      "referencia": "TREBEP, art. 12 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a12",
+      "respuestaLiteral": "Funciones de confianza o asesoramiento especial"
+    },
+    {
+      "id": "UC3M-T10-003",
+      "pregunta": "¿El desempeño como personal eventual constituye mérito para acceder a la función pública?",
+      "opciones": [
+        "No",
+        "Sí, siempre",
+        "Sí, si dura más de dos años",
+        "Solo para promoción interna"
+      ],
+      "correcta": 0,
+      "justificacion": "El TREBEP establece que el desempeño como eventual no constituye mérito para el acceso ni para la promoción interna. **Descarte de las alternativas:** No existe un período de dos años ni una vía de promoción que convierta automáticamente el trabajo eventual en mérito; la prohibición del artículo 12.4 alcanza acceso y promoción.",
+      "trampa": "La experiencia real no equivale necesariamente a mérito legalmente computable.",
+      "referencia": "TREBEP, art. 12 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a12",
+      "respuestaLiteral": "No"
+    },
+    {
+      "id": "UC3M-T10-004",
+      "pregunta": "¿Cuál es la antigüedad mínima general exigida para la promoción interna desde un subgrupo inferior?",
+      "opciones": [
+        "Seis meses",
+        "Un año",
+        "Cinco años",
+        "Dos años"
+      ],
+      "correcta": 3,
+      "justificacion": "Como regla general se exigen dos años de servicio activo en el subgrupo inferior. **Descarte de las alternativas:** Ni seis meses ni uno ni cinco años representan la regla básica. El artículo 18.2 exige dos años de servicio activo en el subgrupo inferior, además de los requisitos y pruebas.",
+      "trampa": "No debe confundirse con períodos de prueba o consolidación de grado.",
+      "referencia": "TREBEP, art. 18 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a18",
+      "respuestaLiteral": "Dos años"
+    },
+    {
+      "id": "UC3M-T10-005",
+      "pregunta": "¿Qué principio NO figura entre los que deben regir la evaluación del desempeño?",
+      "opciones": [
+        "Objetividad",
+        "Libre arbitrariedad",
+        "Imparcialidad",
+        "No discriminación"
+      ],
+      "correcta": 1,
+      "justificacion": "La evaluación debe ser transparente, objetiva, imparcial y no discriminatoria. **Descarte de las alternativas:** Objetividad, imparcialidad y no discriminación son garantías de evaluación; la arbitrariedad libre es incompatible con todas ellas.",
+      "trampa": "La discrecionalidad técnica no permite arbitrariedad.",
+      "referencia": "TREBEP, art. 20 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a20",
+      "respuestaLiteral": "Libre arbitrariedad"
+    },
+    {
+      "id": "UC3M-T10-006",
+      "pregunta": "Ante una instrucción profesional que constituya una infracción manifiesta del ordenamiento, el empleado público debe:",
+      "opciones": [
+        "Ponerla en conocimiento de los órganos de inspección",
+        "Cumplirla siempre",
+        "Ignorarla sin comunicar nada",
+        "Publicarla en redes sociales"
+      ],
+      "correcta": 0,
+      "justificacion": "El deber de obediencia no alcanza órdenes manifiestamente ilegales, que deben comunicarse a los órganos de inspección. **Descarte de las alternativas:** No debe obedecerse una infracción manifiesta ni ocultarse: se comunica a los órganos de inspección, sin convertir la denuncia pública en redes sociales en el cauce legal.",
+      "trampa": "No basta con desobedecer; debe activarse el cauce interno correspondiente.",
+      "referencia": "TREBEP, art. 54 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a54",
+      "respuestaLiteral": "Ponerla en conocimiento de los órganos de inspección"
+    },
+    {
+      "id": "UC3M-T10-007",
+      "pregunta": "¿Cuál es la edad mínima general para acceder al empleo público?",
+      "opciones": [
+        "14 años",
+        "18 años",
+        "16 años",
+        "21 años"
+      ],
+      "correcta": 2,
+      "justificacion": "El requisito general es tener cumplidos dieciséis años y no exceder la edad máxima de jubilación forzosa. **Descarte de las alternativas:** Los 18 años son mayoría de edad civil, pero el acceso general al empleo público se abre a los 16; no son reglas equivalentes.",
+      "trampa": "La mayoría de edad civil no es la edad mínima general del TREBEP.",
+      "referencia": "TREBEP, art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a56",
+      "respuestaLiteral": "16 años"
+    },
+    {
+      "id": "UC3M-T10-008",
+      "pregunta": "¿Qué sistema selectivo puede utilizarse para funcionarios de carrera solo cuando una ley lo autorice excepcionalmente?",
+      "opciones": [
+        "Oposición",
+        "Concurso-oposición",
+        "Entrevista libre",
+        "Concurso"
+      ],
+      "correcta": 3,
+      "justificacion": "El concurso puro es excepcional para funcionarios de carrera y requiere habilitación legal. **Descarte de las alternativas:** Oposición y concurso-oposición son sistemas ordinarios de acceso; el concurso solo funciona excepcionalmente con habilitación por ley. La entrevista aislada no lo sustituye.",
+      "trampa": "El concurso-oposición sí es un sistema ordinario.",
+      "referencia": "TREBEP, art. 61 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a61",
+      "respuestaLiteral": "Concurso"
+    },
+    {
+      "id": "UC3M-T10-009",
+      "pregunta": "¿Cuál es el orden correcto para adquirir la condición de funcionario de carrera?",
+      "opciones": [
+        "Toma de posesión, oposición, nombramiento y acatamiento",
+        "Nombramiento, proceso selectivo, toma de posesión y acatamiento",
+        "Acatamiento, nombramiento, proceso selectivo y toma de posesión",
+        "Proceso selectivo, nombramiento, acatamiento y toma de posesión"
+      ],
+      "correcta": 3,
+      "justificacion": "La adquisición exige superar el proceso, ser nombrado y publicado, acatar el ordenamiento y tomar posesión en plazo. **Descarte de las alternativas:** La secuencia no empieza con la toma de posesión, ni permite nombrar antes de seleccionar; entre nombramiento y toma de posesión hay acto de acatamiento.",
+      "trampa": "Superar el proceso por sí solo no completa la adquisición.",
+      "referencia": "TREBEP, art. 62 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a62",
+      "respuestaLiteral": "Proceso selectivo, nombramiento, acatamiento y toma de posesión"
+    },
+    {
+      "id": "UC3M-T10-010",
+      "pregunta": "¿Qué requisito tiene la renuncia a la condición de funcionario?",
+      "opciones": [
+        "Es automática al presentarse",
+        "Solo puede hacerse al jubilarse",
+        "Debe ser aceptada expresamente",
+        "Impide para siempre volver a ingresar"
+      ],
+      "correcta": 2,
+      "justificacion": "La renuncia debe formularse por escrito y ser aceptada expresamente. **Descarte de las alternativas:** La renuncia no opera automáticamente, no depende de jubilación y no impide por sí misma un nuevo ingreso mediante otro proceso selectivo.",
+      "trampa": "La renuncia no inhabilita para un nuevo ingreso posterior.",
+      "referencia": "TREBEP, art. 64 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a64",
+      "respuestaLiteral": "Debe ser aceptada expresamente"
+    },
+    {
+      "id": "UC3M-T10-011",
+      "pregunta": "En la excedencia voluntaria por interés particular, con carácter general:",
+      "opciones": [
+        "Se perciben todas las retribuciones",
+        "El tiempo computa siempre para trienios",
+        "No se devengan retribuciones ni computa para carrera y trienios",
+        "Existe reserva indefinida del mismo puesto"
+      ],
+      "correcta": 2,
+      "justificacion": "Esta excedencia no genera retribuciones ni computa, con carácter general, a efectos de ascensos, trienios o Seguridad Social. **Descarte de las alternativas:** La excedencia por interés particular no comporta sueldo, cómputo de trienios ni reserva indefinida del mismo puesto; no debe confundirse con servicios especiales.",
+      "trampa": "No debe confundirse con excedencias protegidas por cuidado o violencia.",
+      "referencia": "TREBEP, art. 89 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a89",
+      "respuestaLiteral": "No se devengan retribuciones ni computa para carrera y trienios"
+    },
+    {
+      "id": "UC3M-T10-012",
+      "pregunta": "¿Qué efecto produce una suspensión firme superior a seis meses?",
+      "opciones": [
+        "Pérdida automática de la condición de funcionario",
+        "Pérdida del puesto de trabajo",
+        "Jubilación forzosa",
+        "Conversión en personal laboral"
+      ],
+      "correcta": 1,
+      "justificacion": "La suspensión firme superior a seis meses determina la pérdida del puesto, no necesariamente de la condición funcionarial. **Descarte de las alternativas:** La suspensión de más de seis meses implica pérdida del puesto, no separación automática del servicio, jubilación ni conversión en laboral.",
+      "trampa": "Pérdida del puesto y pérdida de la condición de funcionario son conceptos distintos.",
+      "referencia": "TREBEP, art. 90 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-11719#a90",
+      "respuestaLiteral": "Pérdida del puesto de trabajo"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlRevalidacionBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "UC3M_T10_T12",
+    "alcance": "12 claves conservadas; 48 opciones diferenciadas; referencia primaria exacta TREBEP; jurisprudencia no analizada",
+    "corte": "PENDIENTE_VERIFICACION_FECHA_LISTA_DEFINITIVA",
+    "consolidacionTREBEP": "publicada_2026-10-03",
+    "aplicacionDeReforma49e": "NO_ASEGURADA_PARA_EXAMEN",
+    "certificacionIntegral": false
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "preguntas": 12,
+    "alternativas": 48,
+    "clavesAlteradas": 0,
+    "aprobadoUsuario": false,
+    "certificacionE2E": false
+  }
+}

@@ -1,0 +1,163 @@
+{
+  "tema": 16,
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
+  "preguntas": [
+    {
+      "id": "OLIAS-T16-001",
+      "enunciado": "La bisagra o pernio sirve para:",
+      "opciones": [
+        "Franquear carta",
+        "Permitir el giro de hoja",
+        "Almacenar tóner",
+        "Medir presión de agua"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El pernio o bisagra permite el giro de la hoja sobre su marco; el cerradero recibe el mecanismo de cierre.",
+      "trampaExamen": "¡Foco Examen!: El pernio o bisagra permite el giro de la hoja sobre su marco; el cerradero recibe el mecanismo de cierre.",
+      "referencia": "Manual §3, elementos metálicos",
+      "respuestaLiteral": "Permitir el giro de hoja"
+    },
+    {
+      "id": "OLIAS-T16-002",
+      "enunciado": "La parte móvil de una puerta es:",
+      "opciones": [
+        "Tapajuntas fijo",
+        "Marco",
+        "Cerradero",
+        "Hoja"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La hoja es la parte que se desplaza y abre; el marco se fija al hueco y proporciona apoyo y contorno.",
+      "trampaExamen": "¡Foco Examen!: La hoja es la parte que se desplaza y abre; el marco se fija al hueco y proporciona apoyo y contorno.",
+      "referencia": "Manual §3, estructura de puerta",
+      "respuestaLiteral": "Hoja"
+    },
+    {
+      "id": "OLIAS-T16-003",
+      "enunciado": "El bombín es normalmente:",
+      "opciones": [
+        "Cilindro de accionamiento de cerradura",
+        "Puerta completa",
+        "Bisagra",
+        "Marco metálico"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El bombín o cilindro acciona la cerradura mediante llave en diseños compatibles, sin ser la cerradura entera.",
+      "trampaExamen": "¡Foco Examen!: El bombín o cilindro acciona la cerradura mediante llave en diseños compatibles, sin ser la cerradura entera.",
+      "referencia": "Manual §5, cerraduras y bombines",
+      "respuestaLiteral": "Cilindro de accionamiento de cerradura"
+    },
+    {
+      "id": "OLIAS-T16-004",
+      "enunciado": "Una puerta cortafuegos se debe:",
+      "opciones": [
+        "Perforar para instalar cualquier accesorio",
+        "Anular cierrapuertas",
+        "Mantener operativa sin modificaciones no autorizadas",
+        "Bloquear abierta con cuñas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La puerta resistente al fuego debe mantener el funcionamiento y cierre previstos; modificarla sin autorización puede afectar a sus prestaciones.",
+      "trampaExamen": "¡Foco Examen!: La puerta resistente al fuego debe mantener el funcionamiento y cierre previstos; modificarla sin autorización puede afectar a sus prestaciones.",
+      "referencia": "Manual §4; herrajes de puertas resistentes al fuego",
+      "respuestaLiteral": "Mantener operativa sin modificaciones no autorizadas"
+    },
+    {
+      "id": "OLIAS-T16-005",
+      "enunciado": "El cerradero recibe normalmente:",
+      "opciones": [
+        "Toma de tierra",
+        "Agua de cisterna",
+        "Pestillo o elemento de cierre",
+        "Papel de impresora"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El cerradero es la pieza del marco que recibe pestillo o cerrojo de la cerradura, no la bisagra de giro.",
+      "trampaExamen": "¡Foco Examen!: El cerradero es la pieza del marco que recibe pestillo o cerrojo de la cerradura, no la bisagra de giro.",
+      "referencia": "Manual §3 y §5, piezas de cierre",
+      "respuestaLiteral": "Pestillo o elemento de cierre"
+    },
+    {
+      "id": "OLIAS-T16-006",
+      "enunciado": "Corrosión grave en marco debe:",
+      "opciones": [
+        "Comunicarse al mantenimiento competente",
+        "Ignorarse",
+        "Taparse sin comprobar",
+        "Pulirse con cualquier ácido"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La corrosión grave puede comprometer materiales y anclajes; se comunica para valoración por personal competente.",
+      "trampaExamen": "¡Foco Examen!: La corrosión grave puede comprometer materiales y anclajes; se comunica para valoración por personal competente.",
+      "referencia": "Manual §3 y §6, mantenimiento de elementos metálicos",
+      "respuestaLiteral": "Comunicarse al mantenimiento competente"
+    },
+    {
+      "id": "OLIAS-T16-007",
+      "enunciado": "Puerta metálica que roza puede tener:",
+      "opciones": [
+        "Fuga de gas obligatoria",
+        "Error de impresora",
+        "Siempre falta de franqueo",
+        "Desajuste de bisagra/marco"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Una puerta que roza puede indicar bisagra desajustada, caída de la hoja o desplazamiento del marco; el diagnóstico evita forzar el cierre.",
+      "trampaExamen": "¡Foco Examen!: Una puerta que roza puede indicar bisagra desajustada, caída de la hoja o desplazamiento del marco; el diagnóstico evita forzar el cierre.",
+      "referencia": "Manual §4, ajuste de puertas y ventanas",
+      "respuestaLiteral": "Desajuste de bisagra/marco"
+    },
+    {
+      "id": "OLIAS-T16-008",
+      "enunciado": "¿Debe duplicarse llave maestra por iniciativa propia?",
+      "opciones": [
+        "No hay control",
+        "No, solo con autorización y trazabilidad",
+        "Sí siempre",
+        "Sí si está barata"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Una llave maestra da acceso a dependencias y su duplicado requiere autorización y trazabilidad; su custodia no depende de la iniciativa del trabajador.",
+      "trampaExamen": "¡Foco Examen!: Una llave maestra da acceso a dependencias y su duplicado requiere autorización y trazabilidad; su custodia no depende de la iniciativa del trabajador.",
+      "referencia": "Manual §5, control de llaves del centro",
+      "respuestaLiteral": "No, solo con autorización y trazabilidad"
+    },
+    {
+      "id": "OLIAS-T16-009",
+      "enunciado": "¿Qué operación de soldadura puede asumir automáticamente cualquier auxiliar?",
+      "opciones": [
+        "Toda estructura",
+        "Cualquier acero",
+        "Cualquier aluminio",
+        "Ninguna sin competencia, formación y autorización"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La soldadura y operaciones peligrosas requieren formación y autorización según la tarea y evaluación del riesgo; no quedan automáticamente incluidas en el puesto auxiliar.",
+      "trampaExamen": "¡Foco Examen!: La soldadura y operaciones peligrosas requieren formación y autorización según la tarea y evaluación del riesgo; no quedan automáticamente incluidas en el puesto auxiliar.",
+      "referencia": "Manual §6; RD 1215/1997, art. 3.5",
+      "respuestaLiteral": "Ninguna sin competencia, formación y autorización"
+    },
+    {
+      "id": "OLIAS-T16-010",
+      "enunciado": "Al manipular hoja pesada hay riesgo de:",
+      "opciones": [
+        "Solo correo erróneo",
+        "Ninguno",
+        "Caída/atrapamiento",
+        "Únicamente fatiga visual"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Las hojas metálicas pesadas pueden caer o provocar atrapamiento de manos durante manipulación; debe garantizarse su sujeción segura.",
+      "trampaExamen": "¡Foco Examen!: Las hojas metálicas pesadas pueden caer o provocar atrapamiento de manos durante manipulación; debe garantizarse su sujeción segura.",
+      "referencia": "Manual §6, riesgo por carga y atrapamiento",
+      "respuestaLiteral": "Caída/atrapamiento"
+    }
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "REVISION_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
+}

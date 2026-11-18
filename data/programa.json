@@ -1,0 +1,501 @@
+{
+  "project": "opoweb-v2",
+  "version": "2026-11-10",
+  "updatedAt": "2026-11-10",
+  "convocatoria": {
+    "id": "la-puebla-auxiliar-administrativo-2026",
+    "nombre": "La Puebla de Montalbán · Auxiliar Administrativo",
+    "plazas": 4,
+    "subgrupo": "C2",
+    "sistema": "concurso-oposición libre",
+    "fuentePrograma": {
+      "publicacion": "BOP de Toledo número 82, de 5 de mayo de 2026",
+      "codigoVerificacion": "2026.00001965"
+    }
+  },
+  "estadosPermitidos": [
+    "PENDIENTE_RECONSTRUCCION",
+    "BORRADOR",
+    "EN_REVISION_USUARIO",
+    "APROBADO_USUARIO",
+    "PUBLICADO",
+    "AUDITADO"
+  ],
+  "temas": [
+    {
+      "numero": 1,
+      "titulo": "La Constitución española de 1978. Estructura. La reforma constitucional. Derechos y deberes fundamentales de los españoles. Garantía y suspensión.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-01/manual.md",
+      "matriz": "content/la-puebla/tema-01/matriz.json",
+      "aprobacion": "content/la-puebla/tema-01/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-01/preguntas.json",
+      "fuentes": "content/la-puebla/tema-01/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-01/cotejo-integral-2026-11-04.md",
+        "controlAdicional": "content/la-puebla/CIERRE_FOCAL_T01_T04_20261106.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 2,
+      "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas: Disposiciones Generales. Los interesados en el procedimiento. Actividad de las Administraciones Públicas: Normas generales de actuación. Términos y plazos.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-02/manual.md",
+      "matriz": "content/la-puebla/tema-02/matriz.json",
+      "aprobacion": "content/la-puebla/tema-02/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-02/preguntas.json",
+      "fuentes": "content/la-puebla/tema-02/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-02/cotejo-integral-2026-11-04.md",
+        "controlAdicional": "content/la-puebla/CIERRE_FOCAL_T01_T04_20261106.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 3,
+      "titulo": "Ley 39/2015, de 1 de octubre, del Procedimiento Administrativo Común de las Administraciones Públicas. El procedimiento administrativo común: Derechos del interesado; Iniciación; Ordenación; Instrucción; Finalización y Ejecución. Especialidades en los procedimientos de naturaleza sancionadora y de responsabilidad patrimonial. Tramitación simplificada del procedimiento administrativo común.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-03/manual.md",
+      "matriz": "content/la-puebla/tema-03/matriz.json",
+      "aprobacion": "content/la-puebla/tema-03/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-03/preguntas.json",
+      "fuentes": "content/la-puebla/tema-03/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-03/cotejo-integral-2026-11-04.md",
+        "controlAdicional": "content/la-puebla/CIERRE_FOCAL_T01_T04_20261106.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 4,
+      "titulo": "Revisión de los actos administrativos en vía administrativa. Los recursos administrativos. La revisión de oficio.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-04/manual.md",
+      "matriz": "content/la-puebla/tema-04/matriz.json",
+      "aprobacion": "content/la-puebla/tema-04/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-04/preguntas.json",
+      "fuentes": "content/la-puebla/tema-04/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-04/cotejo-integral-2026-11-04.md",
+        "controlAdicional": "content/la-puebla/CIERRE_FOCAL_T01_T04_20261106.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 5,
+      "titulo": "El municipio. Organización y funcionamiento. La Provincia. Organización provincial. Competencias. El Régimen electoral de las Entidades Locales.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-05/manual.md",
+      "matriz": "content/la-puebla/tema-05/matriz.json",
+      "aprobacion": "content/la-puebla/tema-05/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-05/preguntas.json",
+      "fuentes": "content/la-puebla/tema-05/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-05/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 6,
+      "titulo": "Ley 4/2011, de 10 de marzo, de empleo público de Castilla-La Mancha: El Personal al servicio de las Administraciones Públicas. Provisión de puestos de trabajo. La carrera administrativa. Promoción interna. La selección del personal y la oferta pública de Empleo.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-06/manual.md",
+      "matriz": "content/la-puebla/tema-06/matriz.json",
+      "aprobacion": "content/la-puebla/tema-06/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-06/preguntas.json",
+      "fuentes": "content/la-puebla/tema-06/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-06/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 7,
+      "titulo": "La Ley 31/1995, de 8 de noviembre, de Prevención de Riesgos laborales: Derechos y obligaciones. Servicios de Prevención. Consulta y participación de los trabajadores.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-07/manual.md",
+      "matriz": "content/la-puebla/tema-07/matriz.json",
+      "aprobacion": "content/la-puebla/tema-07/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-07/preguntas.json",
+      "fuentes": "content/la-puebla/tema-07/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-07/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 8,
+      "titulo": "La Ley 12/2010, de 18 de noviembre, de Igualdad entre Mujeres y Hombres de Castilla-La Mancha. La Ley Orgánica 3/2007, de 22 de marzo, para la igualdad efectiva de mujeres y hombres.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-08/manual.md",
+      "matriz": "content/la-puebla/tema-08/matriz.json",
+      "aprobacion": "content/la-puebla/tema-08/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-08/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-08/articulos.md",
+      "fuentes": "content/la-puebla/tema-08/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-08/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 9,
+      "titulo": "La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-09/manual.md",
+      "matriz": "content/la-puebla/tema-09/matriz.json",
+      "aprobacion": "content/la-puebla/tema-09/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-09/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-09/articulos.md",
+      "fuentes": "content/la-puebla/tema-09/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-09/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 10,
+      "titulo": "Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.",
+      "estado": "AUDITADO",
+      "manual": "content/la-puebla/tema-10/manual.md",
+      "matriz": "content/la-puebla/tema-10/matriz.json",
+      "preguntas": "content/la-puebla/tema-10/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-10/articulos.md",
+      "aprobadoEl": "2026-07-17",
+      "aprobacion": "content/la-puebla/tema-10/aprobacion.md",
+      "fuentes": "content/la-puebla/tema-10/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-10/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 11,
+      "titulo": "La recaudación de los tributos locales. La recaudación en periodo voluntario. El aplazamiento, fraccionamiento y compensación de las deudas tributarias. La devolución de ingresos. La recaudación ejecutiva: el procedimiento de apremio.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-17",
+      "manual": "content/la-puebla/tema-11/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-11/bloque-01-voluntaria.md",
+        "content/la-puebla/tema-11/bloque-02-aplazamiento-compensacion.md",
+        "content/la-puebla/tema-11/bloque-03a-devoluciones-regimen.md",
+        "content/la-puebla/tema-11/bloque-03b-devoluciones-procedimiento.md",
+        "content/la-puebla/tema-11/bloque-04a-ejecutiva-providencia.md",
+        "content/la-puebla/tema-11/bloque-05-embargo.md"
+      ],
+      "matriz": "content/la-puebla/tema-11/matriz.json",
+      "aprobacion": "content/la-puebla/tema-11/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-11/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-11/articulos.md",
+      "trazabilidadDetallada": [
+        "content/la-puebla/tema-11/articulos-lgt.md",
+        "content/la-puebla/tema-11/articulos-rgr.md",
+        "content/la-puebla/tema-11/articulos-rgr-deuda.md",
+        "content/la-puebla/tema-11/articulos-rgr-apremio.md"
+      ],
+      "fuentes": "content/la-puebla/tema-11/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-11/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-17",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 12,
+      "titulo": "Los tributos locales. Normas generales. El Impuesto sobre Bienes Inmuebles, el Impuesto sobre Actividades Económicas, el Impuesto sobre vehículos de tracción mecánica, el Impuesto sobre el Incremento del valor de los terrenos de naturaleza urbana: naturaleza, hecho imponible y sujetos pasivos.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-18",
+      "manual": "content/la-puebla/tema-12/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-12/bloque-01-normas-generales.md",
+        "content/la-puebla/tema-12/bloque-02-ibi.md",
+        "content/la-puebla/tema-12/bloque-03-iae.md",
+        "content/la-puebla/tema-12/bloque-04-ivtm.md",
+        "content/la-puebla/tema-12/bloque-05-iivtnu.md"
+      ],
+      "subcapitulos": [
+        "content/la-puebla/tema-12/bloque-04a-ivtm-hecho.md",
+        "content/la-puebla/tema-12/bloque-04b-ivtm-sujeto.md",
+        "content/la-puebla/tema-12/bloque-05a-iivtnu-hecho.md",
+        "content/la-puebla/tema-12/bloque-05b-iivtnu-sujetos.md"
+      ],
+      "matriz": "content/la-puebla/tema-12/matriz.json",
+      "aprobacion": "content/la-puebla/tema-12/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-12/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-12/articulos.md",
+      "fuentes": "content/la-puebla/tema-12/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-12/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 13,
+      "titulo": "Administración electrónica I. Usos del Certificado electrónico en la administración electrónica. Tipos y soportes del certificado electrónico. Autoridades certificadoras y servicios que prestan.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-18",
+      "manual": "content/la-puebla/tema-13/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-13/bloque-01-conceptos-usos.md",
+        "content/la-puebla/tema-13/bloque-02-tipos-certificados.md",
+        "content/la-puebla/tema-13/bloque-03-soportes.md",
+        "content/la-puebla/tema-13/bloque-04-prestadores-servicios.md",
+        "content/la-puebla/tema-13/bloque-05-administraciones.md"
+      ],
+      "matriz": "content/la-puebla/tema-13/matriz.json",
+      "feedback": "content/la-puebla/tema-13/feedback.md",
+      "aprobacion": "content/la-puebla/tema-13/aprobacion.md",
+      "preguntas": "content/la-puebla/tema-13/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-13/articulos.md",
+      "fuentes": "content/la-puebla/tema-13/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-13/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 14,
+      "titulo": "Ley 40/2015, de 1 de octubre, del Régimen Jurídico del Sector Público: Los órganos de las Administraciones Públicas. Administración General del Estado.",
+      "estado": "AUDITADO",
+      "manual": "content/la-puebla/tema-14/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-14/bloque-01-organos-competencia.md",
+        "content/la-puebla/tema-14/bloque-02-colegiados-abstencion.md",
+        "content/la-puebla/tema-14/bloque-03-age-estructura-ministerios.md",
+        "content/la-puebla/tema-14/bloque-04-age-organos-ministeriales.md",
+        "content/la-puebla/tema-14/bloque-05-age-territorial-exterior.md"
+      ],
+      "matriz": "content/la-puebla/tema-14/matriz.json",
+      "feedback": "content/la-puebla/tema-14/feedback.md",
+      "preguntas": "content/la-puebla/tema-14/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-14/articulos.md",
+      "aprobadoEl": "2026-07-18",
+      "aprobacion": "content/la-puebla/tema-14/aprobacion.md",
+      "fuentes": "content/la-puebla/tema-14/fuentes.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "JURIDICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-14/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 15,
+      "titulo": "Microsoft Windows I. Creación, copiado y borrado de archivos y carpetas. Las unidades de disco locales y de red. Impresión y digitalización de documentos.",
+      "estado": "AUDITADO",
+      "aprobadoEl": "2026-07-18",
+      "manual": "content/la-puebla/tema-15/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-15/bloque-01-explorador-rutas.md",
+        "content/la-puebla/tema-15/bloque-02-operaciones-archivos.md",
+        "content/la-puebla/tema-15/bloque-03-unidades-locales-red.md",
+        "content/la-puebla/tema-15/bloque-04-impresion.md",
+        "content/la-puebla/tema-15/bloque-05-digitalizacion.md"
+      ],
+      "matriz": "content/la-puebla/tema-15/matriz.json",
+      "feedback": "content/la-puebla/tema-15/feedback.md",
+      "preguntas": "content/la-puebla/tema-15/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-15/fuentes.md",
+      "aprobacion": "content/la-puebla/tema-15/aprobacion.md",
+      "controlVigencia20261108": {
+        "fecha": "2026-11-08",
+        "estado": "REVALIDACION_TECNICA_FOCAL",
+        "supuestosAgregados": 2,
+        "preguntasHistoricasConservadas": 12,
+        "alternativasHistoricas": 48,
+        "aprobacionHistoricaConservada": true,
+        "verificacionFuncional": false,
+        "versionesReferencia": "Windows 11 y soporte Windows 10 finalizado 14/10/2025"
+      },
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-15/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 16,
+      "titulo": "Microsoft Windows II. Navegación por Internet con Microsoft Internet Explorer y Microsoft Edge.",
+      "estado": "AUDITADO",
+      "manual": "content/la-puebla/tema-16/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-16/bloque-01-conceptos-navegacion.md",
+        "content/la-puebla/tema-16/bloque-02-pestanas-favoritos-historial-descargas.md",
+        "content/la-puebla/tema-16/bloque-03-privacidad-seguridad.md",
+        "content/la-puebla/tema-16/bloque-04-edge-configuracion-herramientas.md",
+        "content/la-puebla/tema-16/bloque-05-ie-modo-ie.md"
+      ],
+      "matriz": "content/la-puebla/tema-16/matriz.json",
+      "feedback": "content/la-puebla/tema-16/feedback.md",
+      "preguntas": "content/la-puebla/tema-16/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-16/fuentes.md",
+      "aprobadoEl": "2026-07-18",
+      "aprobacion": "content/la-puebla/tema-16/aprobacion.md",
+      "controlVigencia20261108": {
+        "fecha": "2026-11-08",
+        "estado": "REVALIDACION_TECNICA_FOCAL",
+        "supuestosAgregados": 2,
+        "preguntasHistoricasConservadas": 12,
+        "alternativasHistoricas": 48,
+        "aprobacionHistoricaConservada": true,
+        "verificacionFuncional": false,
+        "versionesReferencia": "Edge, IE11 retirado en versiones afectadas 15/06/2022, IE mode hasta al menos 2029"
+      },
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-16/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 17,
+      "titulo": "LibreOffice y Microsoft Office I. Procesamiento de texto con procesadores de texto Microsoft Word y LibreOffice.",
+      "estado": "AUDITADO",
+      "manual": "content/la-puebla/tema-17/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-17/bloque-01-entorno-formatos.md",
+        "content/la-puebla/tema-17/bloque-02-edicion-busqueda.md",
+        "content/la-puebla/tema-17/bloque-03-formato-estilos.md",
+        "content/la-puebla/tema-17/bloque-04-paginas-objetos.md",
+        "content/la-puebla/tema-17/bloque-05-revision-salida.md"
+      ],
+      "matriz": "content/la-puebla/tema-17/matriz.json",
+      "feedback": "content/la-puebla/tema-17/feedback.md",
+      "preguntas": "content/la-puebla/tema-17/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-17/fuentes.md",
+      "aprobadoEl": "2026-07-18",
+      "aprobacion": "content/la-puebla/tema-17/aprobacion.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-17/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 18,
+      "titulo": "LibreOffice y Microsoft Office II. Elaboración y uso de hojas de cálculo con Microsoft Excel y LibreOffice Calc.",
+      "estado": "AUDITADO",
+      "manual": "content/la-puebla/tema-18/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-18/bloque-01-entorno-datos-formatos.md",
+        "content/la-puebla/tema-18/bloque-02-formulas-funciones.md",
+        "content/la-puebla/tema-18/bloque-03-formato-validacion.md",
+        "content/la-puebla/tema-18/bloque-04-datos-analisis.md",
+        "content/la-puebla/tema-18/bloque-05-graficos-salida.md"
+      ],
+      "matriz": "content/la-puebla/tema-18/matriz.json",
+      "feedback": "content/la-puebla/tema-18/feedback.md",
+      "preguntas": "content/la-puebla/tema-18/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-18/fuentes.md",
+      "aprobadoEl": "2026-07-18",
+      "aprobacion": "content/la-puebla/tema-18/aprobacion.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-18/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    },
+    {
+      "numero": 19,
+      "titulo": "Conceptos Generales del ordenador personal. El ordenador personal y sus componentes más comunes. Periféricos del ordenador personal. Impresoras, escáneres, discos duros externos, lectores y grabadores de CD y DVD, y memorias USB.",
+      "estado": "AUDITADO",
+      "manual": "content/la-puebla/tema-19/manual.md",
+      "capitulos": [
+        "content/la-puebla/tema-19/bloque-01-ordenador-componentes.md",
+        "content/la-puebla/tema-19/bloque-02-perifericos-impresoras.md",
+        "content/la-puebla/tema-19/bloque-03-escaneres.md",
+        "content/la-puebla/tema-19/bloque-04-almacenamiento-externo-usb.md",
+        "content/la-puebla/tema-19/bloque-05-opticos.md"
+      ],
+      "matriz": "content/la-puebla/tema-19/matriz.json",
+      "feedback": "content/la-puebla/tema-19/feedback.md",
+      "preguntas": "content/la-puebla/tema-19/preguntas.json",
+      "trazabilidad": "content/la-puebla/tema-19/fuentes.md",
+      "aprobadoEl": "2026-07-18",
+      "aprobacion": "content/la-puebla/tema-19/aprobacion.md",
+      "auditoria": {
+        "fecha": "2026-11-10",
+        "ambito": "TECNICO_EDITORIAL_DOCUMENTAL",
+        "evidencia": "content/la-puebla/tema-19/cotejo-integral-2026-11-04.md",
+        "aprobacionHistoricaConservada": "2026-07-18",
+        "certificacionIntegral": false,
+        "pruebaNavegador": "PENDIENTE"
+      }
+    }
+  ]
+}

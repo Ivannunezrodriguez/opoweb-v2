@@ -1,0 +1,283 @@
+{
+  "tema": 18,
+  "epigrafe": "Presupuesto de la UC3M (I): características, estructura, ingresos, gastos, créditos, financiación, modificaciones y ejecución de ingresos.",
+  "estado": "AUDITADO",
+  "controlVigencia": "2026-07-23",
+  "fuenteEspecifica": "Presupuesto UC3M 2026, Volumen I, aprobado por Consejo de Gobierno y Consejo Social el 11 de diciembre de 2025",
+  "cobertura": [
+    {
+      "bloque": "Características y concepto",
+      "manual": "1-4",
+      "fuentes": [
+        "LOSU arts. 53-57",
+        "Presupuesto UC3M 2026 arts. 1-2"
+      ],
+      "preguntas": [
+        "UC3M-T18-001",
+        "UC3M-T18-002"
+      ],
+      "preceptosCotejo20261106": "LOSU 53–57; UC3M Presupuesto 2026 arts. 1–2",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Estructura de ingresos y gastos",
+      "manual": "5-7",
+      "fuentes": [
+        "Presupuesto UC3M 2026, distribución por capítulos y art. 4"
+      ],
+      "preguntas": [
+        "UC3M-T18-003",
+        "UC3M-T18-004"
+      ],
+      "preceptosCotejo20261106": "Ley 5/2025 CM 108.2.a; UC3M Presupuesto 2026 arts. 3–4",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108"
+    },
+    {
+      "bloque": "Financiación",
+      "manual": "8-9",
+      "fuentes": [
+        "LOSU arts. 56-57",
+        "Presupuesto UC3M 2026 art. 3"
+      ],
+      "preguntas": [
+        "UC3M-T18-011"
+      ],
+      "preceptosCotejo20261106": "LOSU 56–57; UC3M presupuesto 2026 art. 3",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"
+    },
+    {
+      "bloque": "Créditos y vinculación",
+      "manual": "10",
+      "fuentes": [
+        "Presupuesto UC3M 2026 art. 5"
+      ],
+      "preguntas": [
+        "UC3M-T18-005",
+        "UC3M-T18-006"
+      ],
+      "preceptosCotejo20261106": "UC3M Presupuesto 2026 art. 5 (vinculación; excepciones I, II, VI)",
+      "fuentePrimariaCotejo20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
+    },
+    {
+      "bloque": "Modificaciones presupuestarias",
+      "manual": "11",
+      "fuentes": [
+        "Presupuesto UC3M 2026 arts. 6-8"
+      ],
+      "preguntas": [
+        "UC3M-T18-007",
+        "UC3M-T18-008",
+        "UC3M-T18-009"
+      ],
+      "preceptosCotejo20261106": "UC3M Presupuesto 2026 arts. 6–8 (modificaciones y competencias)",
+      "fuentePrimariaCotejo20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
+    },
+    {
+      "bloque": "Prórroga",
+      "manual": "12",
+      "fuentes": [
+        "Ley 5/2025 de Hacienda de la Comunidad de Madrid art. 108",
+        "Presupuesto UC3M 2026"
+      ],
+      "preguntas": [],
+      "preceptosCotejo20261106": "Ley 5/2025 CM art. 108.4 (hasta publicacion BOCM)",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217#a108",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-15"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
+    },
+    {
+      "bloque": "Ejecución y reconocimiento de ingresos",
+      "manual": "13-16",
+      "fuentes": [
+        "Presupuesto UC3M 2026, Título IV, arts. 14.1-14.3"
+      ],
+      "preguntas": [
+        "UC3M-T18-010",
+        "UC3M-T18-012"
+      ],
+      "preceptosCotejo20261106": "UC3M Presupuesto 2026, Normas Basicas art. 14.1–2 (ingresos e incobrados)",
+      "fuentePrimariaCotejo20261106": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view"
+    },
+    {
+      "bloque": "Tesorería y control",
+      "manual": "17",
+      "fuentes": [
+        "LOSU art. 59",
+        "Información económica y contable UC3M"
+      ],
+      "preguntas": [],
+      "preceptosCotejo20261106": "Ley 5/2025 CM arts. 10.2, 109.2, 182.1; LOSU 59",
+      "fuentePrimariaCotejo20261106": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217",
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-LOTE-17",
+        "UC3M-ADIC-20261106-LOTE-18"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "TRAZABILIDAD_COMPLEMENTARIA_CON_RESERVA_LEGAL"
+    }
+  ],
+  "incidenciasCorregidas": [
+    "El borrador presentaba capítulos de ingresos genéricos que no coincidían con la estructura real del Presupuesto UC3M 2026.",
+    "Se incorporan importes oficiales, niveles de vinculación y distribución de competencias para modificaciones presupuestarias.",
+    "Se sustituye una descripción genérica de ejecución de ingresos por las reglas específicas del Título IV de las Normas Básicas de Gestión 2026."
+  ],
+  "controlIntegralBanco20261104": {
+    "fecha": "2026-11-04",
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "preguntasVerificadas": 12,
+    "alternativasVerificadas": 48,
+    "informe": "content/uc3m/tema-18/cotejo-integral-2026-11-04.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "reservaFuentePrimaria": "RESUELTA: Volumen I UC3M 2026 leído directamente para preguntas 006 (art5 p78), 008 (art6 p79) y 012 (art14.2 p94)",
+    "certificacionIntegral": "PENDIENTE",
+    "controlFuentePrimaria20261104": {
+      "estado": "VERIFICADO_EN_PDF_INSTITUCIONAL_ORIGINAL",
+      "documento": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+      "paginas": [
+        78,
+        79,
+        94
+      ],
+      "articulos": [
+        "5",
+        "6",
+        "14.2"
+      ],
+      "cuestiones": [
+        "UC3M-T18-006",
+        "UC3M-T18-008",
+        "UC3M-T18-012"
+      ],
+      "sinCertificacionIntegral": true
+    }
+  },
+  "controlFuentePrimaria20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REVALIDACION_DOCUMENTAL_ACOTADA",
+    "fuente": "https://drive.google.com/file/d/1UyjFlTqC5F-nRQ1nQPi4wobB0GdyolPn/view",
+    "boletin": "https://www.bocm.es/boletin/CM_Orden_BOCM/2025/12/30/BOCM-20251230-28.PDF",
+    "articulos": [
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "14.1",
+      "14.2"
+    ],
+    "paginas": [
+      78,
+      79,
+      80,
+      94,
+      95
+    ],
+    "anexoPresupuestario": true,
+    "report": "content/uc3m/COTEJO_FUENTE_PRIMARIA_PRESUPUESTO_20261106.md",
+    "certificacionIntegral": false
+  },
+  "controlLoteMasivo20261106": {
+    "fecha": "2026-11-06",
+    "estado": "AMPLIACION_FOCAL_SIN_CIERRE_INTEGRAL",
+    "bloquesAbordados": [
+      {
+        "bloque": "Prórroga",
+        "manual": "20.1",
+        "fuente": "Ley 5/2025 CM art.108",
+        "preguntasComplementarias": [
+          15,
+          16
+        ]
+      },
+      {
+        "bloque": "Tesorería y control",
+        "manual": "20.2-20.3",
+        "fuente": "Ley 5/2025 CM arts. 10,109,182",
+        "preguntasComplementarias": [
+          17,
+          18
+        ]
+      }
+    ],
+    "recurso": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+    "totalPreguntasComplementarias": 4,
+    "bancoOriginalSinModificar": true,
+    "simulacrosSinModificar": true,
+    "corteUC3M": "PENDIENTE_LISTAS_DEFINITIVAS_RESOLUCION_ORIGINAL",
+    "certificacionWeb": false,
+    "aprobacionUsuario": false
+  },
+  "controlEconomiaLCSP20261106": {
+    "fecha": "2026-11-06",
+    "estado": "REFUERZO_FOCAL_SIN_CIERRE",
+    "fuente": "Ley 5/2025 CM arts. 10.1, 56.3, 108.1/4/6 y 182.1",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2026-3217",
+    "manual": "21.1–21.2",
+    "repaso": "content/uc3m/REPASO_ECONOMIA_CONTRATACION_T18_T20_20261106.md",
+    "bancoComplementario": "data/uc3m-repaso-presupuesto-contratacion-t18-t20-20261106.json",
+    "preguntasComplementarias": 4,
+    "indicesDeRepaso": "1–4",
+    "bancoHistoricoSinCambios": true,
+    "simulacrosSinCambios": true,
+    "certificacionIntegral": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA"
+  },
+  "cierreDocumentalT18_20261106": {
+    "fecha": "2026-11-06",
+    "resultado": "CIERRE_DOCUMENTAL_REGISTRADO_CON_RESERVAS",
+    "acta": "content/uc3m/CIERRE_DOCUMENTAL_T18_20261106.md",
+    "prueba": "tests/validate-uc3m-cierre-t18-20261106.mjs",
+    "bloquesMatriz": 8,
+    "bancoOriginal": 12,
+    "alternativasOriginales": 48,
+    "bancoComplementarioLote": 4,
+    "bancoComplementarioEconomia": 4,
+    "alternativasComplementarias": 32,
+    "ejerciciosDocumentales": 20,
+    "alternativasDocumentales": 80,
+    "citasPrecisadas": 20,
+    "versionPresupuesto": "UC3M 2026 (no extrapolar a otros ejercicios)",
+    "normas": [
+      "LOSU BOE-A-2023-7500",
+      "Ley 5/2025 CM BOE-A-2026-3217",
+      "Presupuesto UC3M 2026 BOCM 30/12/2025",
+      "Normas Basicas UC3M 2026 Volumen I"
+    ],
+    "aprobacionUsuario": false,
+    "certificacionIntegral": false,
+    "ciPendiente": true,
+    "navegadorE2E": false,
+    "fechaCorteUC3M": "PENDIENTE_RESOLUCION_PRIMARIA_LISTAS_DEFINITIVAS",
+    "pendientes": [
+      "fecha de corte de normativa por documento UC3M oficial",
+      "validacion real de navegador, movil, WCAG/PWA y persistencia",
+      "cotejo integral de cada afirmacion legal a fecha de corte",
+      "aprobacion de usuario"
+    ]
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 8,
+    "bloquesConPreguntasHistoricasOComplementarias": 8,
+    "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
+    "certificacionIntegral": false,
+    "observacion": "Enlace pedagógico a banco real, no certificación de vigencia ni de distractores"
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "acta": "audit/UC3M_T18_T19_AUDITORIA_PRIMARIA_VOLUMEN_I_2026-11-09.md",
+    "fuente": "Presupuesto UC3M 2026 Vol. I, Normas Básicas de Gestión, PDF 3807877 bytes",
+    "bloques": 8,
+    "preguntas": 12,
+    "alternativas": 48,
+    "certificacionIntegral": false,
+    "pruebaNavegadorE2E": false
+  }
+}

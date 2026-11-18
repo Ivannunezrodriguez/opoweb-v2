@@ -1,0 +1,210 @@
+{
+  "convocatoria": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
+  "tema": 2,
+  "version": "2026-07-22",
+  "estado": "EN_REVISION_USUARIO",
+  "preguntas": [
+    {
+      "id": "UC3M-T02-001",
+      "pregunta": "¿Cuál de las siguientes materias regula expresamente la Ley 39/2015?",
+      "opciones": [
+        "La organización interna del Poder Judicial",
+        "El régimen electoral general",
+        "Los requisitos de validez y eficacia de los actos administrativos",
+        "La financiación autonómica"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 1 incluye los requisitos de validez y eficacia de los actos administrativos y el procedimiento administrativo común.",
+      "trampa": "No confundir la Ley 39/2015 con la Ley 40/2015, centrada en el régimen jurídico del sector público.",
+      "referencia": "content/uc3m/tema-02/manual.md#1-objeto-y-ámbito-de-aplicación · Ley 39/2015, art. 1: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a1",
+      "respuestaLiteral": "Los requisitos de validez y eficacia de los actos administrativos"
+    },
+    {
+      "id": "UC3M-T02-002",
+      "pregunta": "¿Quién puede ser interesado en un procedimiento sin haberlo iniciado?",
+      "opciones": [
+        "Quien tenga derechos que puedan resultar afectados por la decisión",
+        "Solo quien tenga un derecho subjetivo ya reconocido",
+        "Cualquier ciudadano, aunque carezca de relación con el asunto",
+        "Únicamente una persona jurídica"
+      ],
+      "correcta": 0,
+      "justificacion": "El artículo 4 reconoce como interesado a quien, sin iniciar el procedimiento, tenga derechos que puedan resultar afectados por la decisión.",
+      "trampa": "El interés legítimo también puede dar la condición de interesado, pero exige comparecer antes de la resolución definitiva.",
+      "referencia": "content/uc3m/tema-02/manual.md#2-capacidad-de-obrar-y-concepto-de-interesado · Ley 39/2015, art. 4: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a4",
+      "respuestaLiteral": "Quien tenga derechos que puedan resultar afectados por la decisión"
+    },
+    {
+      "id": "UC3M-T02-003",
+      "pregunta": "¿Para cuál de estas actuaciones debe acreditarse la representación?",
+      "opciones": [
+        "Consultar el estado de un expediente",
+        "Recoger información general",
+        "Interponer un recurso administrativo",
+        "Realizar una gestión de mero trámite"
+      ],
+      "correcta": 2,
+      "justificacion": "La representación debe acreditarse para formular solicitudes, presentar declaraciones responsables o comunicaciones, interponer recursos, desistir y renunciar.",
+      "trampa": "En los actos de mero trámite la representación se presume.",
+      "referencia": "content/uc3m/tema-02/manual.md#3-representación · Ley 39/2015, art. 5: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a5",
+      "respuestaLiteral": "Interponer un recurso administrativo"
+    },
+    {
+      "id": "UC3M-T02-004",
+      "pregunta": "¿Cuál es la validez máxima de un poder inscrito en un registro electrónico de apoderamientos?",
+      "opciones": [
+        "Cinco años",
+        "Dos años",
+        "Tres años",
+        "Diez años"
+      ],
+      "correcta": 0,
+      "justificacion": "Los poderes inscritos tienen una validez máxima de cinco años, prorrogables por períodos máximos de cinco años.",
+      "trampa": "La prórroga no convierte el poder en indefinido.",
+      "referencia": "content/uc3m/tema-02/manual.md#4-registros-electrónicos-de-apoderamientos · Ley 39/2015, art. 6: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a6",
+      "respuestaLiteral": "Cinco años"
+    },
+    {
+      "id": "UC3M-T02-005",
+      "pregunta": "¿En cuál de estos casos exige la Ley 39/2015 la firma del interesado?",
+      "opciones": [
+        "Presentar una declaración responsable",
+        "Solicitar información general",
+        "Consultar un expediente",
+        "Acceder a una notificación"
+      ],
+      "correcta": 0,
+      "justificacion": "El artículo 11 exige firma, entre otros casos, para presentar declaraciones responsables o comunicaciones.",
+      "trampa": "Con carácter general basta la identificación; la firma se reserva a actuaciones expresamente enumeradas.",
+      "referencia": "content/uc3m/tema-02/manual.md#5-identificación-y-firma · Ley 39/2015, art. 11: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a11",
+      "respuestaLiteral": "Presentar una declaración responsable"
+    },
+    {
+      "id": "UC3M-T02-006",
+      "pregunta": "¿Cuál de los siguientes sujetos está obligado a relacionarse electrónicamente con las Administraciones Públicas?",
+      "opciones": [
+        "Toda persona física mayor de edad",
+        "Una sociedad mercantil",
+        "Cualquier jubilado",
+        "Todo menor emancipado"
+      ],
+      "correcta": 1,
+      "justificacion": "Las personas jurídicas están obligadas a relacionarse electrónicamente con las Administraciones Públicas.",
+      "trampa": "Las personas físicas, con carácter general, pueden elegir el medio salvo que una norma les imponga la obligación.",
+      "referencia": "content/uc3m/tema-02/manual.md#7-derecho-y-obligación-de-relacionarse-electrónicamente · Ley 39/2015, art. 14: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a14",
+      "respuestaLiteral": "Una sociedad mercantil"
+    },
+    {
+      "id": "UC3M-T02-007",
+      "pregunta": "Si un documento se presenta en un registro electrónico un día inhábil, ¿cuándo se entiende presentado a efectos de cómputo de plazos?",
+      "opciones": [
+        "En el mismo instante, siempre",
+        "En la primera hora del primer día hábil siguiente",
+        "En la última hora del día hábil anterior",
+        "Al mediodía del siguiente día natural"
+      ],
+      "correcta": 1,
+      "justificacion": "La presentación en día inhábil se entiende realizada en la primera hora del primer día hábil siguiente, salvo previsión expresa distinta.",
+      "trampa": "El registro está abierto 24/7, pero eso no convierte todos los días en hábiles.",
+      "referencia": "content/uc3m/tema-02/manual.md#9-registros-y-archivo-de-documentos · Ley 39/2015, art. 31: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a31",
+      "respuestaLiteral": "En la primera hora del primer día hábil siguiente"
+    },
+    {
+      "id": "UC3M-T02-008",
+      "pregunta": "Si la norma reguladora no fija plazo máximo para resolver, ¿cuál se aplica?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Seis meses",
+        "Un año"
+      ],
+      "correcta": 1,
+      "justificacion": "Cuando la norma reguladora no fija plazo, el plazo máximo para resolver es de tres meses.",
+      "trampa": "Seis meses es el límite general del plazo fijado reglamentariamente, salvo norma con rango de ley o Derecho de la Unión Europea.",
+      "referencia": "content/uc3m/tema-02/manual.md#11-obligación-de-resolver · Ley 39/2015, art. 21: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a21",
+      "respuestaLiteral": "Tres meses"
+    },
+    {
+      "id": "UC3M-T02-009",
+      "pregunta": "¿Qué efecto produce, con carácter general, el silencio en un procedimiento iniciado a solicitud del interesado?",
+      "opciones": [
+        "Caducidad",
+        "Desestimación",
+        "Estimación",
+        "Suspensión automática"
+      ],
+      "correcta": 2,
+      "justificacion": "La regla general es el silencio estimatorio, sin perjuicio de las excepciones legales.",
+      "trampa": "Responsabilidad patrimonial, derecho de petición e impugnación de actos son ejemplos de silencio desestimatorio.",
+      "referencia": "content/uc3m/tema-02/manual.md#12-silencio-administrativo · Ley 39/2015, art. 24: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a24",
+      "respuestaLiteral": "Estimación"
+    },
+    {
+      "id": "UC3M-T02-010",
+      "pregunta": "En un procedimiento sancionador iniciado de oficio, la falta de resolución en plazo produce, con carácter general:",
+      "opciones": [
+        "Silencio estimatorio",
+        "Silencio desestimatorio",
+        "Nulidad automática de todas las actuaciones",
+        "Caducidad"
+      ],
+      "correcta": 3,
+      "justificacion": "En procedimientos sancionadores o de intervención susceptibles de producir efectos desfavorables, el vencimiento del plazo produce la caducidad.",
+      "trampa": "La Administración sigue obligada a resolver aunque haya vencido el plazo.",
+      "referencia": "content/uc3m/tema-02/manual.md#12-silencio-administrativo · Ley 39/2015, art. 25: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a25",
+      "respuestaLiteral": "Caducidad"
+    },
+    {
+      "id": "UC3M-T02-011",
+      "pregunta": "¿Qué días se excluyen del cómputo cuando un plazo se expresa en días hábiles?",
+      "opciones": [
+        "Solo domingos y festivos",
+        "Solo sábados y domingos",
+        "Todos los días de agosto",
+        "Sábados, domingos y festivos"
+      ],
+      "correcta": 3,
+      "justificacion": "En el cómputo administrativo de días hábiles se excluyen sábados, domingos y festivos.",
+      "trampa": "El sábado es inhábil aunque no sea festivo.",
+      "referencia": "content/uc3m/tema-02/manual.md#13-términos-y-plazos · Ley 39/2015, art. 30: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a30",
+      "respuestaLiteral": "Sábados, domingos y festivos"
+    },
+    {
+      "id": "UC3M-T02-012",
+      "pregunta": "¿En cuál de estos casos existe nulidad de pleno derecho?",
+      "opciones": [
+        "Cualquier defecto formal",
+        "Una actuación realizada fuera de plazo",
+        "Una motivación demasiado breve",
+        "Un acto dictado por órgano manifiestamente incompetente por razón de la materia"
+      ],
+      "correcta": 3,
+      "justificacion": "La incompetencia manifiesta por razón de la materia o del territorio es causa de nulidad de pleno derecho.",
+      "trampa": "La incompetencia jerárquica suele determinar anulabilidad, no nulidad de pleno derecho.",
+      "referencia": "content/uc3m/tema-02/manual.md#17-nulidad-y-anulabilidad · Ley 39/2015, art. 47: https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a47",
+      "respuestaLiteral": "Un acto dictado por órgano manifiestamente incompetente por razón de la materia"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlCierreContenido20261108": {
+    "fecha": "2026-11-08",
+    "estado": "12_PREGUNTAS_48_ALTERNATIVAS_COTEJADAS_DOCUMENTALMENTE",
+    "alternativasConservadas": 48,
+    "clavesModificadas": 0,
+    "aprobacionUsuario": false,
+    "certificacionE2E": false
+  },
+  "controlBOECotejo20261109": {
+    "fecha": "2026-11-09",
+    "norma": "Ley 39/2015",
+    "texto": "BOE-A-2015-10565",
+    "actualizacionConsolidada": "2024-11-06",
+    "preguntas": 12,
+    "alternativas": 48,
+    "clavesYOpcionesPreservadas": true,
+    "certificacionIntegral": false
+  }
+}

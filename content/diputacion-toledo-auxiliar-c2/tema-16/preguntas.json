@@ -1,0 +1,373 @@
+{
+  "tema": 16,
+  "estado": "AUDITADO",
+  "version": "2026-11-05-banco-20",
+  "criterio": "Banco de 20 preguntas / 80 alternativas contrastado técnicamente a 05/11/2026 con documentación oficial Microsoft. Se han revisado una por una las opciones, enunciados, claves, justificaciones y trampas; contenido de manual y prueba real de la web/Windows 11 Pro pendientes de auditoría integral.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T16-001",
+      "enunciado": "¿Qué combinación de teclas abre el Explorador de archivos de Windows 11 desde cualquier aplicación?",
+      "opciones": [
+        "Windows + R",
+        "Windows + I",
+        "Windows + E",
+        "Windows + D"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "**Windows + E** abre el **Explorador de archivos**. **Windows+R** muestra Ejecutar, **Windows+I** abre Configuración y **Windows+D** muestra u oculta el escritorio. Son cuatro accesos reales, pero solo uno abre el Explorador.",
+      "trampaExamen": "**E** de Explorador: **Windows+E**. No confundas el acceso a **Ejecutar (Windows+R)** con el Explorador.",
+      "referencia": "Microsoft, atajos de teclado de Windows · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-002",
+      "enunciado": "Un auxiliar selecciona un archivo en el Explorador, pulsa Ctrl + X, entra en otra carpeta y pulsa Ctrl + V. Si la operación se completa, ¿cuál es su efecto habitual?",
+      "opciones": [
+        "Crea solo un acceso directo en destino, dejando el archivo de origen.",
+        "Crea una segunda copia independiente y conserva siempre la de origen.",
+        "Cambia únicamente la ruta mostrada sin trasladar datos ni archivo.",
+        "Mueve el archivo a la carpeta de destino y deja de estar en su ubicación original."
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "**Cortar (Ctrl+X) y pegar (Ctrl+V)** traslada un archivo al destino; a diferencia de **copiar (Ctrl+C)**, no conserva normalmente un segundo original. Si el traslado es entre volúmenes, el sistema puede realizar técnicamente copia y eliminación del origen. Un acceso directo no se crea por cortar y pegar.",
+      "trampaExamen": "**Cortar+pegar = mover**; **copiar+pegar = duplicar**. Los mecanismos internos entre unidades no cambian el efecto final esperado.",
+      "referencia": "Microsoft, Explorador de archivos en Windows · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-003",
+      "enunciado": "Al seleccionar un archivo local en el Explorador, ¿qué diferencia a Mayús + Supr del uso ordinario de Supr?",
+      "opciones": [
+        "Elimina el elemento sin enviarlo a la Papelera de reciclaje.",
+        "Mueve el elemento a la Papelera, como Supr, pero pide confirmación adicional.",
+        "Vacía por completo la Papelera de reciclaje, incluidos los demás archivos.",
+        "Corta el archivo para que pueda pegarse en otra carpeta."
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "**Mayús+Supr** permite eliminar el elemento seleccionado **sin pasar por la Papelera**. **Supr** puede enviarlo a la Papelera en ubicaciones compatibles; la combinación no vacía automáticamente toda la Papelera ni equivale a cortar.",
+      "trampaExamen": "**Mayús+Supr** evita la Papelera, pero no garantiza destruir copias, instantáneas o respaldos. La recuperación posterior no se realiza con «Restaurar» de Papelera.",
+      "referencia": "Microsoft, atajos del Explorador · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-004",
+      "enunciado": "¿Qué comando del Explorador de Windows 11 permite cambiar entre iconos grandes, lista y detalles sin modificar los archivos?",
+      "opciones": [
+        "Ordenar",
+        "Ver",
+        "Mostrar",
+        "Propiedades"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El comando **Ver** del Explorador reúne los modos de presentación **iconos, lista y detalles**. **Ordenar** modifica el orden; **Mostrar elementos ocultos** cambia visibilidad; **Propiedades** muestra metadatos. Ninguno de esos tres sustituye la selección del modo de vista.",
+      "trampaExamen": "**Ver ≠ Ordenar**. Los dos aparecen en la interfaz y modifican la presentación, pero solo **Ver** elige **Detalles/Lista/Iconos**.",
+      "referencia": "Microsoft, Explorador de archivos en Windows · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-005",
+      "enunciado": "En Windows 11, ¿qué representa una ruta UNC como «\\\\servidor\\carpeta»?",
+      "opciones": [
+        "Una ruta local absoluta con letra de volumen, como C:\\Datos.",
+        "Solo la letra que asigna el usuario a una unidad, como Z:, sin identificar el recurso compartido.",
+        "La dirección de un recurso compartido de red identificando servidor y carpeta compartida.",
+        "Una dirección web HTTP/HTTPS que se abre necesariamente en el navegador."
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La convención **UNC** identifica recursos mediante el patrón **dos barras inversas + servidor + recurso compartido**, por ejemplo `\\\\servidor\\carpeta`. **C:\\Datos** es una ruta local y **Z:** una letra que puede mapearse a un recurso de red, pero no muestra por sí misma el servidor.",
+      "trampaExamen": "**UNC = \\\\servidor\\recurso**; **Z:** es una letra asignada y **C:\\** una ruta con volumen. No basta con que una unidad se use en red para que su letra sea la ruta UNC.",
+      "referencia": "Microsoft Learn, nombres y rutas UNC · https://learn.microsoft.com/es-es/windows/win32/fileio/naming-a-file"
+    },
+    {
+      "id": "DT-C2-T16-006",
+      "enunciado": "Una solicitud solo existe en papel y se necesita capturar su contenido como archivo digital. ¿Qué operación es imprescindible para obtener la imagen electrónica del original?",
+      "opciones": [
+        "Imprimir a PDF un documento digital distinto que ya estaba guardado.",
+        "Fotocopiar el papel sin usar ningún dispositivo de captura digital.",
+        "Cambiar la extensión de un archivo vacío para que aparezca como .pdf.",
+        "Escanear el original y guardar la digitalización en un archivo."
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Un **escáner** convierte un original físico en una imagen digital. La impresora virtual PDF actúa sobre un documento **ya digital**; fotocopiar en papel no crea archivo y renombrar un archivo vacío no captura contenido. Una imagen escaneada no es automáticamente **copia auténtica** administrativa.",
+      "trampaExamen": "**Escanear papel ≠ imprimir a PDF**. Además, una digitalización corriente no acredita por sí sola la condición de **copia auténtica**.",
+      "referencia": "Microsoft, instalación y uso de escáner en Windows · https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-007",
+      "enunciado": "En Windows 11, se cambia el nombre «informe.docx» a «informe.pdf» desde el Explorador, sin utilizar ninguna conversión de documentos. ¿Qué sucede?",
+      "opciones": [
+        "Windows convierte el contenido al formato PDF al cambiar la extensión.",
+        "La extensión no se puede modificar desde el Explorador de archivos.",
+        "Solo cambia el nombre o extensión; el contenido no se transforma automáticamente en PDF.",
+        "Se crean automáticamente dos archivos válidos: el DOCX y el PDF."
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Microsoft indica que cambiar una extensión modifica el nombre del archivo, pero **no convierte su contenido** a otro formato. Si el documento sigue siendo un DOCX internamente, renombrarlo como PDF no lo convierte en un PDF legible. Referencia técnica: https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+      "trampaExamen": "**Cambiar .docx por .pdf ≠ convertir a PDF.** La extensión afecta a la asociación y a cómo Windows intenta abrirlo; no cambia su estructura interna.",
+      "referencia": "Microsoft, extensiones de archivos (Windows 11) · https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-008",
+      "enunciado": "¿Qué combinación crea una carpeta nueva en la ubicación actual del Explorador de archivos de Windows 11?",
+      "opciones": [
+        "Ctrl + Mayús + N",
+        "Ctrl + N",
+        "F2",
+        "Alt + Entrar"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "En el Explorador de archivos, **Ctrl + Mayús + N** crea una carpeta nueva. **Ctrl + N** abre otra ventana; **F2** cambia el nombre del elemento seleccionado; **Alt + Entrar** muestra sus propiedades. Referencia: métodos abreviados oficiales de Microsoft.",
+      "trampaExamen": "No confundir **Ctrl+Mayús+N (nueva carpeta)** con **Ctrl+N (nueva ventana)**, **F2 (renombrar)** ni **Alt+Entrar (propiedades)**.",
+      "referencia": "Microsoft, métodos abreviados del Explorador · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-009",
+      "enunciado": "En el Explorador de Windows 11 se muestra la unidad Z: y el administrador confirma que está asignada a una carpeta compartida del servidor. ¿Qué significa?",
+      "opciones": [
+        "Z: es necesariamente una partición física nueva del disco interno.",
+        "Z: funciona como una letra de acceso a un recurso de red, sin convertirlo en almacenamiento local.",
+        "Windows ha duplicado automáticamente en el disco local todos los archivos del servidor.",
+        "La asignación elimina la necesidad de disponer de conexión y permisos para acceder a ese recurso."
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Asignar una **unidad de red** crea un acceso mediante **letra disponible** a una carpeta compartida. No convierte el servidor en disco local ni replica automáticamente su contenido. Para usarlo siguen importando **red, credenciales y permisos**.",
+      "trampaExamen": "**Asignar Z: ≠ copiar datos**. Si la red se desconecta o el usuario carece de acceso, la letra puede permanecer visible y no abrir el recurso.",
+      "referencia": "Microsoft, uso compartido y asignación de unidades de red · https://support.microsoft.com/es-es/windows/experience/connectivity-networking/file-sharing-over-a-network-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-010",
+      "enunciado": "En el Explorador de archivos de Windows 11, ¿qué hace Alt + Entrar cuando hay un archivo seleccionado?",
+      "opciones": [
+        "Cambia su nombre, como hace F2.",
+        "Abre una segunda ventana del Explorador, como hace Ctrl + N.",
+        "Muestra las propiedades del elemento seleccionado.",
+        "Crea una carpeta nueva, como hace Ctrl + Mayús + N."
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Según la tabla oficial de atajos de Microsoft, **Alt + Entrar** muestra las propiedades del elemento seleccionado. El atajo **F2** cambia el nombre, **Ctrl + N** abre una ventana y **Ctrl + Mayús + N** crea una carpeta.",
+      "trampaExamen": "**Alt + Entrar = Propiedades**; **F2 = Cambiar nombre**. Ambos operan sobre la selección, pero no realizan la misma acción.",
+      "referencia": "Microsoft, métodos abreviados del Explorador · https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-011",
+      "enunciado": "En Windows 11 se activa Explorador > Ver > Mostrar > Elementos ocultos. ¿Cuál es el efecto de esa acción?",
+      "opciones": [
+        "Quita automáticamente el atributo oculto de cada archivo afectado.",
+        "Permite modificar todos los archivos protegidos del sistema sin permisos especiales.",
+        "Convierte los archivos ocultos en accesos directos para no mostrar su ubicación real.",
+        "Muestra los elementos configurados como ocultos, sin cambiar por ello sus atributos o permisos."
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "**Ver > Mostrar > Elementos ocultos** cambia qué elementos enseña el Explorador. No modifica automáticamente el **atributo oculto**, ni concede privilegios de administrador ni convierte archivos en accesos directos.",
+      "trampaExamen": "**Mostrar ocultos** es una opción de **visualización**, no una orden de **desproteger** ni de **dar permisos**.",
+      "referencia": "Microsoft, Explorador de archivos (mostrar elementos ocultos) · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-012",
+      "enunciado": "Un usuario elimina con Supr un archivo de una unidad local compatible con Papelera. ¿Dónde suele poder restaurarlo si todavía no se ha vaciado?",
+      "opciones": [
+        "En la Papelera de reciclaje, mediante la opción Restaurar.",
+        "En Acceso rápido, que conserva una segunda copia de todos los archivos abiertos.",
+        "En el panel Detalles, que guarda automáticamente el contenido anterior de los archivos.",
+        "En el menú de vistas del Explorador, porque la eliminación solo los oculta temporalmente."
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La **Papelera de reciclaje** conserva elementos eliminados de **ubicaciones compatibles** y permite **Restaurar** antes del vaciado. **Acceso rápido** muestra accesos y elementos recientes; **Detalles** presenta metadatos; cambiar la vista no recupera contenidos borrados.",
+      "trampaExamen": "**Supr** puede enviar a **Papelera** en discos locales; **Mayús+Supr** la evita. No generalizar a unidades de red o ubicaciones que no usen la Papelera.",
+      "referencia": "Microsoft, Explorador y eliminación de archivos · https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-013",
+      "enunciado": "¿Cuál es la diferencia correcta entre imprimir en una impresora física y digitalizar un documento mediante escáner?",
+      "opciones": [
+        "Ambas tareas convierten necesariamente documentos en imágenes PDF buscables.",
+        "La impresora física produce una salida en papel; el escáner captura el contenido de un original en un archivo digital.",
+        "La digitalización solo crea copias en papel mientras que la impresión siempre guarda un archivo.",
+        "La impresora física incorpora OCR automáticamente y el escáner no genera archivos."
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Una **impresora física** transforma contenido digital en una **salida sobre papel**, mientras que un **escáner** captura un original físico y genera una **imagen digital**. La impresora virtual **Microsoft Print to PDF** no produce papel, y el **OCR** es un proceso independiente del simple escaneo.",
+      "trampaExamen": "La palabra **impresora física** es esencial: **imprimir a PDF** es una salida digital y **no digitaliza papel**. **Escanear** no implica aplicar OCR.",
+      "referencia": "Microsoft, escáner en Windows · https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-014",
+      "enunciado": "En Windows 11, ¿en qué apartado de Configuración se busca y agrega una impresora o un escáner?",
+      "opciones": [
+        "Sistema > Almacenamiento > Sensor de almacenamiento",
+        "Cuentas > Opciones de inicio de sesión",
+        "Bluetooth y dispositivos > Impresoras y escáneres",
+        "Red e Internet > Configuración de proxy"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Microsoft sitúa la instalación y administración de impresoras y escáneres en **Inicio > Configuración > Bluetooth y dispositivos > Impresoras y escáneres**; las otras rutas administran almacenamiento, autenticación y proxy.",
+      "trampaExamen": "Las impresoras de red **no se agregan desde el apartado Proxy**: también se administran en **Impresoras y escáneres**.",
+      "referencia": "Microsoft, instalación de impresoras/escáneres Windows 11 · https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-015",
+      "enunciado": "En Windows 11, una impresora compatible no aparece en la búsqueda automática de «Impresoras y escáneres». ¿Cuál es la actuación adecuada?",
+      "opciones": [
+        "Cambiar la impresora predeterminada, lo que fuerza a detectar cualquier impresora ausente.",
+        "Vaciar la cola de impresión, porque instala automáticamente los controladores de dispositivos no detectados.",
+        "Activar la detección de redes, que garantiza por sí sola el alta de cualquier impresora USB o de red.",
+        "Utilizar la opción de agregar manualmente, comprobando conexión, dirección o puerto y controlador compatible."
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La detección automática no es requisito indispensable: Windows 11 permite agregar manualmente impresoras que no aparecen en la lista. Según el tipo de conexión, se comprueban el cable o la red, la dirección o el puerto y la disponibilidad de un controlador adecuado. Cambiar la predeterminada o vaciar una cola existente no instala un dispositivo no detectado; habilitar detección de redes tampoco garantiza su incorporación.",
+      "trampaExamen": "**No detectada ≠ imposible de instalar.** Distinguir detección, instalación manual, controlador y administración de trabajos ya enviados.",
+      "referencia": "Microsoft, agregar o instalar una impresora en Windows · https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-016",
+      "enunciado": "Una impresora tiene varios documentos pendientes de imprimir. ¿Qué muestra su cola de impresión en Windows 11?",
+      "opciones": [
+        "Los trabajos de impresión pendientes asociados a esa impresora, que pueden consultarse y gestionarse.",
+        "Solo la lista de impresoras instaladas, aunque ninguna tenga trabajos enviados.",
+        "Exclusivamente los últimos archivos escaneados por el equipo multifunción.",
+        "La ubicación predeterminada de los PDF guardados por Microsoft Print to PDF."
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La **cola de impresión** muestra los **trabajos pendientes** de una impresora. Se accede desde **Configuración > Bluetooth y dispositivos > Impresoras y escáneres > impresora > Abrir cola de impresión**; no es el inventario de dispositivos ni un historial de escaneos.",
+      "trampaExamen": "**Cola de impresión = trabajos pendientes** de una **impresora concreta**; no confundir con lista de impresoras instaladas ni carpeta de archivos.",
+      "referencia": "Microsoft, ver cola de impresión en Windows · https://support.microsoft.com/es-es/windows/hardware/printer/view-a-printer-s-print-queue-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-017",
+      "enunciado": "En el cuadro de impresión de Word para Windows, ¿qué describe la opción de impresión dúplex?",
+      "opciones": [
+        "Imprimir dos copias de cada página en hojas diferentes.",
+        "Imprimir en ambas caras de una misma hoja, automáticamente o mediante giro manual cuando proceda.",
+        "Escanear las dos caras del original para crear un PDF.",
+        "Colocar dos páginas reducidas en la misma cara de una hoja, sin utilizar el reverso."
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La **impresión dúplex** utiliza **las dos caras** de la hoja. Microsoft distingue **dúplex automático**, si lo soporta la impresora, y **manual**, cuando el usuario reintroduce el papel. **Dos páginas por hoja** y **dos copias** son opciones distintas; escanear dúplex requiere otra prestación.",
+      "trampaExamen": "**Dúplex = dos caras**; no equivale a **2 páginas por cara** ni a **escaneo a doble cara**. Automático y manual dependen de las opciones de impresión.",
+      "referencia": "Microsoft, imprimir en ambas caras del papel · https://support.microsoft.com/es-es/word/print-on-both-sides-of-the-paper-duplex-printing-in-word"
+    },
+    {
+      "id": "DT-C2-T16-018",
+      "enunciado": "Un escáner debe capturar un lote de 30 hojas sin colocarlas una a una sobre el cristal. ¿Qué componente facilita alimentar automáticamente las páginas?",
+      "opciones": [
+        "Cristal plano del escáner",
+        "Función OCR del software de captura",
+        "Alimentador automático de documentos (ADF)",
+        "Microsoft Print to PDF"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El **ADF (alimentador automático de documentos)** permite incorporar sucesivamente las hojas al escáner. Un cristal plano exige cambios manuales; **OCR** reconoce texto y **Microsoft Print to PDF** produce un archivo desde datos digitales, sin alimentar papel.",
+      "trampaExamen": "**ADF = alimentación de hojas**; **OCR = reconocimiento de texto**. Que un escáner tenga ADF no significa que también admita **dúplex**.",
+      "referencia": "Microsoft, instalar y utilizar un escáner · https://support.microsoft.com/es-es/windows/hardware/printer/install-and-use-a-scanner-in-windows"
+    },
+    {
+      "id": "DT-C2-T16-019",
+      "enunciado": "Un archivo escaneado contiene una imagen de texto, pero no permite seleccionar palabras. ¿Qué tecnología reconoce los caracteres de la imagen para convertirlos en texto utilizable?",
+      "opciones": [
+        "ADF",
+        "Guardar como PDF de imagen",
+        "Impresión dúplex",
+        "Reconocimiento óptico de caracteres (OCR)"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El **OCR** analiza imágenes y **reconoce caracteres** para obtener texto utilizable. Microsoft denomina **OCR** a las acciones de texto de la herramienta **Recortes**. Un PDF que solo contiene imágenes no es automáticamente buscable; **ADF** y **dúplex** realizan operaciones físicas diferentes.",
+      "trampaExamen": "**PDF no es sinónimo de OCR**. Un PDF escaneado puede contener exclusivamente imágenes; hay que realizar reconocimiento de texto si se necesita seleccionarlo o buscarlo.",
+      "referencia": "Microsoft, OCR y acciones de texto en Recortes · https://support.microsoft.com/es-es/windows/apps/use-snipping-tool-to-capture-screenshots"
+    },
+    {
+      "id": "DT-C2-T16-020",
+      "enunciado": "Un usuario puede abrir y leer archivos en una carpeta compartida de red, pero no tiene permisos de escritura. ¿Qué ocurre normalmente si intenta guardar allí un archivo nuevo?",
+      "opciones": [
+        "La escritura puede ser denegada porque leer el recurso no implica permiso para crear archivos.",
+        "Actualizar el Explorador con F5 concede automáticamente permisos de escritura.",
+        "Usar la ruta UNC en lugar de la unidad Z: evita las restricciones de acceso del servidor.",
+        "La unidad de red se transforma en una carpeta local con escritura libre al intentar guardar."
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Los **permisos efectivos** condicionan las acciones de **lectura, creación y modificación** en recursos compartidos. Acceder para leer no implica permiso de escritura. Ni refrescar con **F5** ni cambiar de la letra asignada a la **ruta UNC** omite las restricciones.",
+      "trampaExamen": "**Leer ≠ escribir**. Tanto **\\\\servidor\\recurso** como su letra asignada, por ejemplo **Z:**, requieren permisos adecuados en el servidor.",
+      "referencia": "Microsoft, uso compartido de archivos en red · https://support.microsoft.com/es-es/windows/experience/connectivity-networking/file-sharing-over-a-network-in-windows"
+    }
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 6,
+    "fuentes": [
+      "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "https://support.microsoft.com/es-es/windows/experience/fileexplorer/file-explorer-in-windows",
+      "https://learn.microsoft.com/es-es/windows/win32/fileio/naming-a-file"
+    ],
+    "resultado": "Se revisaron seis preguntas; sustituidas dos por eliminación con Mayús+Supr y digitalización de papel; matices de rutas UNC y operaciones copiar/mover.",
+    "limitacion": "No se ha probado el banco mediante interfaz real de Windows 11 Pro."
+  },
+  "auditoria20261105": {
+    "fecha": "2026-11-05",
+    "estado": "REVISION_FOCALIZADA_NO_COTEJO_INTEGRAL",
+    "preguntasModificadas": [
+      "DT-C2-T16-007",
+      "DT-C2-T16-008",
+      "DT-C2-T16-010",
+      "DT-C2-T16-014"
+    ],
+    "totalPreguntas": 20,
+    "alternativas": 80,
+    "cambios": [
+      "T16-007: pregunta duplicada de copiar/mover reemplazada por renombrar extensión y diferencia con conversión real",
+      "T16-008: duplicado de ruta UNC reemplazado por creación de carpeta y discriminación de atajos",
+      "T16-010: duplicado de vista Detalles reemplazado por propiedades con Alt+Entrar frente a F2 y Ctrl+N",
+      "T16-014: se conservó pregunta y clave pero se sustituyeron distractores absurdos por rutas reales alternativas de Configuración"
+    ],
+    "fuentes": [
+      "https://support.microsoft.com/es-es/windows/experience/storage-filemanagement/common-file-name-extensions-in-windows",
+      "https://support.microsoft.com/es-es/accessibility/windows/keyboard-shortcuts-in-windows",
+      "https://support.microsoft.com/es-es/windows/hardware/printer/add-or-install-a-printer-in-windows"
+    ],
+    "versionManual": "EN_AUDITORIA",
+    "ejercicioRealProbado": false,
+    "certificacionIntegral": false
+  },
+  "auditoriaBancoCompleto20261105": {
+    "fecha": "2026-11-05",
+    "estado": "COTEJO_TECNICO_BANCO_20_80_NO_CERTIFICACION_TEMA",
+    "preguntas": 20,
+    "alternativas": 80,
+    "idsReescritos": [
+      "DT-C2-T16-001",
+      "DT-C2-T16-002",
+      "DT-C2-T16-003",
+      "DT-C2-T16-004",
+      "DT-C2-T16-005",
+      "DT-C2-T16-006",
+      "DT-C2-T16-009",
+      "DT-C2-T16-011",
+      "DT-C2-T16-012",
+      "DT-C2-T16-013",
+      "DT-C2-T16-016",
+      "DT-C2-T16-017",
+      "DT-C2-T16-018",
+      "DT-C2-T16-019",
+      "DT-C2-T16-020"
+    ],
+    "idsRevisadosSinReescritura": [
+      "DT-C2-T16-007",
+      "DT-C2-T16-008",
+      "DT-C2-T16-010",
+      "DT-C2-T16-014",
+      "DT-C2-T16-015"
+    ],
+    "fuente": "Documentación técnica oficial Microsoft Support y Microsoft Learn",
+    "revisionesAnteriores": "T16-007,008,010,014 y 015; actualizadas justificaciones y alternativas donde procedía",
+    "posicionesCorrectas": [
+      5,
+      4,
+      6,
+      5
+    ],
+    "limitaCertificacionTema": true,
+    "pruebaNavegadorReal": false,
+    "pruebaWindows11ProReal": false
+  },
+  "cierreEditorialC2_14_16_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
+}

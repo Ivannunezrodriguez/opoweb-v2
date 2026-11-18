@@ -1,0 +1,163 @@
+{
+  "tema": 17,
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
+  "preguntas": [
+    {
+      "id": "OLIAS-T17-001",
+      "enunciado": "¿Qué función principal cumple un sifón?",
+      "opciones": [
+        "Crear cierre hidráulico contra olores",
+        "Cambiar presión automáticamente",
+        "Aumentar tensión eléctrica",
+        "Controlar potencia"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El sifón retiene un cierre hidráulico que limita la entrada de olores del saneamiento en el local; no regula la presión de abastecimiento.",
+      "trampaExamen": "¡Foco Examen!: El sifón retiene un cierre hidráulico que limita la entrada de olores del saneamiento en el local; no regula la presión de abastecimiento.",
+      "referencia": "Manual §6; CTE DB HS 5",
+      "respuestaLiteral": "Crear cierre hidráulico contra olores"
+    },
+    {
+      "id": "OLIAS-T17-002",
+      "enunciado": "¿Qué sistema trae agua a los puntos de consumo?",
+      "opciones": [
+        "Saneamiento",
+        "Alarma",
+        "Riego únicamente",
+        "Abastecimiento"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La red de abastecimiento proporciona agua a los puntos de consumo, a diferencia de la red de evacuación de aguas usadas.",
+      "trampaExamen": "¡Foco Examen!: La red de abastecimiento proporciona agua a los puntos de consumo, a diferencia de la red de evacuación de aguas usadas.",
+      "referencia": "Manual §3; CTE DB HS 4",
+      "respuestaLiteral": "Abastecimiento"
+    },
+    {
+      "id": "OLIAS-T17-003",
+      "enunciado": "¿Qué red recoge aguas residuales?",
+      "opciones": [
+        "Iluminación",
+        "Evacuación/saneamiento",
+        "Sonería",
+        "Abastecimiento potable"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La red de evacuación recoge aguas usadas y las conduce al sistema de saneamiento, que requiere pendientes y ventilación adecuadas.",
+      "trampaExamen": "¡Foco Examen!: La red de evacuación recoge aguas usadas y las conduce al sistema de saneamiento, que requiere pendientes y ventilación adecuadas.",
+      "referencia": "Manual §3; CTE DB HS 5",
+      "respuestaLiteral": "Evacuación/saneamiento"
+    },
+    {
+      "id": "OLIAS-T17-004",
+      "enunciado": "En una cisterna, el llenado:",
+      "opciones": [
+        "Es lo mismo que descargar",
+        "Abre la puerta",
+        "Produce electricidad",
+        "Controla entrada de agua"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El mecanismo de llenado regula la entrada de agua a la cisterna; el mecanismo de descarga permite su vaciado al inodoro.",
+      "trampaExamen": "¡Foco Examen!: El mecanismo de llenado regula la entrada de agua a la cisterna; el mecanismo de descarga permite su vaciado al inodoro.",
+      "referencia": "Manual §5, mecanismos de cisterna",
+      "respuestaLiteral": "Controla entrada de agua"
+    },
+    {
+      "id": "OLIAS-T17-005",
+      "enunciado": "Un goteo continuo de cisterna puede indicar:",
+      "opciones": [
+        "Toma de tierra rota siempre",
+        "Alarma postal",
+        "Fallo de cierre en llenado/descarga",
+        "Fusor caliente"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Una cisterna con descarga continua puede fallar por cierre defectuoso de llenado o descarga; procede inspección autorizada y aislamiento si es seguro.",
+      "trampaExamen": "¡Foco Examen!: Una cisterna con descarga continua puede fallar por cierre defectuoso de llenado o descarga; procede inspección autorizada y aislamiento si es seguro.",
+      "referencia": "Manual §5, diagnóstico de cisternas",
+      "respuestaLiteral": "Fallo de cierre en llenado/descarga"
+    },
+    {
+      "id": "OLIAS-T17-006",
+      "enunciado": "Una llave de corte permite:",
+      "opciones": [
+        "Abrir una salida de emergencia",
+        "Interrumpir el suministro de un tramo",
+        "Destruir papel",
+        "Regular luz fluorescente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La llave de corte interrumpe el caudal hacia una derivación o aparato; no es un dispositivo para tratar agua ni desatascar sifones.",
+      "trampaExamen": "¡Foco Examen!: La llave de corte interrumpe el caudal hacia una derivación o aparato; no es un dispositivo para tratar agua ni desatascar sifones.",
+      "referencia": "Manual §3–5, llaves de corte",
+      "respuestaLiteral": "Interrumpir el suministro de un tramo"
+    },
+    {
+      "id": "OLIAS-T17-007",
+      "enunciado": "¿Qué herramienta se usa para cortar tubería compatible?",
+      "opciones": [
+        "Cortatubos",
+        "Fotocopiadora",
+        "Cebador",
+        "Conmutador"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El cortatubos permite cortar material compatible de forma controlada; el material y diámetro determinan el útil adecuado.",
+      "trampaExamen": "¡Foco Examen!: El cortatubos permite cortar material compatible de forma controlada; el material y diámetro determinan el útil adecuado.",
+      "referencia": "Manual §4, herramientas de fontanería",
+      "respuestaLiteral": "Cortatubos"
+    },
+    {
+      "id": "OLIAS-T17-008",
+      "enunciado": "¿Qué documento técnico trata suministro de agua en edificios?",
+      "opciones": [
+        "REBT ITC-BT 25",
+        "CTE DB HS 4",
+        "LO 3/2007 art. 64",
+        "Ley postal art. 20"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El Documento Básico HS 4 del CTE regula el suministro de agua y las medidas que impiden retornos contaminantes; HS 5 trata evacuación.",
+      "trampaExamen": "¡Foco Examen!: El Documento Básico HS 4 del CTE regula el suministro de agua y las medidas que impiden retornos contaminantes; HS 5 trata evacuación.",
+      "referencia": "CTE DB HS 4; Manual §3 y §7",
+      "respuestaLiteral": "CTE DB HS 4"
+    },
+    {
+      "id": "OLIAS-T17-009",
+      "enunciado": "¿Qué norma trata calidad sanitaria de agua de consumo?",
+      "opciones": [
+        "RD 842/2002",
+        "RD 614/2001",
+        "RD 437/2024",
+        "RD 3/2023"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El Real Decreto 3/2023 establece criterios técnico-sanitarios y reglas para instalaciones interiores de agua de consumo, especialmente el artículo 40.",
+      "trampaExamen": "¡Foco Examen!: El Real Decreto 3/2023 establece criterios técnico-sanitarios y reglas para instalaciones interiores de agua de consumo, especialmente el artículo 40.",
+      "referencia": "RD 3/2023, art. 40; Manual §7",
+      "respuestaLiteral": "RD 3/2023"
+    },
+    {
+      "id": "OLIAS-T17-010",
+      "enunciado": "Ante agua turbia en edificio municipal, el auxiliar debe:",
+      "opciones": [
+        "Comunicar y seguir protocolo sanitario",
+        "Ocultar aviso",
+        "Afirmar que es potable",
+        "Mezclar productos químicos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La turbidez puede indicar una incidencia sanitaria; el auxiliar comunica y activa protocolo, sin afirmar potabilidad solo por apariencia ni actuar como laboratorio.",
+      "trampaExamen": "¡Foco Examen!: La turbidez puede indicar una incidencia sanitaria; el auxiliar comunica y activa protocolo, sin afirmar potabilidad solo por apariencia ni actuar como laboratorio.",
+      "referencia": "RD 3/2023, art. 40; Manual §7",
+      "respuestaLiteral": "Comunicar y seguir protocolo sanitario"
+    }
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "REVISION_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
+}

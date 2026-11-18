@@ -1,0 +1,32 @@
+# Fuentes oficiales · Tema 12
+
+## Normativa principal
+
+- Constitución Española de 1978, especialmente artículos **137, 140, 141 y 142**.
+- Ley **7/1985, de 2 de abril**, Reguladora de las Bases del Régimen Local. Texto consolidado del BOE con última actualización publicada el **3 de junio de 2026**.
+- Real Decreto Legislativo **781/1986, de 18 de abril**, por el que se aprueba el texto refundido de las disposiciones legales vigentes en materia de Régimen Local.
+- Real Decreto **2568/1986, de 28 de noviembre**, por el que se aprueba el Reglamento de Organización, Funcionamiento y Régimen Jurídico de las Entidades Locales.
+- Real Decreto Legislativo **2/2004, de 5 de marzo**, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales.
+- Ley Orgánica **5/1985, de 19 de junio**, del Régimen Electoral General.
+- Carta Europea de Autonomía Local, hecha en Estrasburgo el **15 de octubre de 1985**.
+
+## Criterio editorial
+
+- Redacción autónoma desde fuentes oficiales.
+- La Ley 7/1985 se utiliza como norma básica principal.
+- El Real Decreto Legislativo 781/1986 y el ROF se aplican únicamente en cuanto sean compatibles con la legislación básica posterior.
+- Fecha de auditoría: **julio de 2026**.
+
+
+## Auditoría focalizada — **02/11/2026**
+
+- [Ley 7/1985, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392), artículos **2, 7, 8, 10 y 27**: intervención local, competencias propias y delegadas, **informes previos y vinculantes**, gestión ordinaria de servicios autonómicos, coordinación y duración mínima de **5 años** en delegaciones municipales.
+- Se han revisado las preguntas **DIP-T12-016** a **DIP-T12-020**, sustituyendo redundancias por competencias y controles del régimen local.
+
+**Estado:** auditoría jurídica parcial; pendientes revisión integral y pruebas funcionales de OpoWeb.
+
+## Cierre por bloque jurídico-pedagógico — **05/11/2026**
+
+Cotejo del **tema 12**, **20 preguntas y 80 alternativas**, según **BOP Toledo 118/2026 Anexo VII**, con fuentes oficiales por precepto y [**único informe de C1 12–15**](https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/content/diputacion-toledo/cierre-editorial-12-15-2026-11-05.md). La [**LRBRL consolidada**](https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392) se actualizó el **03/10/2026**. Estado **AUDITADO jurídico-pedagógico**; las pruebas de navegador, accesibilidad y PWA son controles técnicos transversales. Solo reabrir ante **error demostrado** o **nueva norma**.
+
+> ⚠️ **¡Foco Examen!:** Los **plazos, mayorías, órganos y excepciones** de los artículos citados no son intercambiables.

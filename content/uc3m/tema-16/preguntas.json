@@ -1,0 +1,391 @@
+{
+  "tema": 16,
+  "titulo": "Organización de enseñanzas y normativa académica UC3M",
+  "preguntas": [
+    {
+      "id": "UC3M-T16-001",
+      "pregunta": "¿Cuáles son las enseñanzas universitarias oficiales?",
+      "opciones": [
+        "Grado, Especialista y Doctorado",
+        "Diplomatura, Licenciatura y Doctorado",
+        "Solo Grado y Máster",
+        "Grado, Máster Universitario y Doctorado"
+      ],
+      "correcta": 3,
+      "justificacion": "El Real Decreto 822/2021 estructura las enseñanzas oficiales en Grado, Máster Universitario y Doctorado.",
+      "trampa": "Los títulos propios no forman parte de esta clasificación oficial.",
+      "referencia": "RD 822/2021, art. 3 (títulos oficiales: Grado, Máster y Doctorado) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a3",
+      "respuestaLiteral": "Grado, Máster Universitario y Doctorado"
+    },
+    {
+      "id": "UC3M-T16-002",
+      "pregunta": "Con carácter general, un curso académico a tiempo completo equivale a:",
+      "opciones": [
+        "60 ECTS",
+        "30 ECTS",
+        "45 ECTS",
+        "90 ECTS"
+      ],
+      "correcta": 0,
+      "justificacion": "Con carácter general, los planes de Grado y Máster se estructuran en cursos de 60 ECTS (RD 822/2021, art. 5.2); en un Máster de 90 ECTS uno de los cursos puede ser de 30 ECTS. El RD 1125/2003, art. 4.1, recoge los 60 ECTS por curso.",
+      "trampa": "El dato de 60 ECTS se regula en el art. 5.2 del RD 822/2021, NO en su art. 9. Hay excepción para másteres de 90 ECTS.",
+      "referencia": "RD 822/2021, art. 5.2 (planes de Grado y Máster estructurados en cursos de 60 ECTS; excepción Máster de 90 ECTS) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a5 · RD 1125/2003, art. 4.1 · https://www.boe.es/eli/es/rd/2003/09/05/1125/con",
+      "respuestaLiteral": "60 ECTS"
+    },
+    {
+      "id": "UC3M-T16-003",
+      "pregunta": "¿Cuál es la duración general de un título de Grado?",
+      "opciones": [
+        "120 ECTS",
+        "240 ECTS",
+        "180 ECTS",
+        "300 ECTS en todos los casos"
+      ],
+      "correcta": 1,
+      "justificacion": "El art. 14.1 del RD 822/2021 establece 240 ECTS como carga ordinaria de Grado, con excepciones de 300 o 360 créditos por legislación específica o Derecho de la Unión Europea y salvedades para titulaciones conjuntas internacionales. No debe citarse el art. 14.2 para justificar la cifra: este apartado regula el diseño de la formación teórica y práctica.",
+      "trampa": "Algunas titulaciones pueden tener más créditos.",
+      "referencia": "RD 822/2021, art. 14.1 (240 ECTS de Grado, con excepciones legalmente previstas) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a14",
+      "respuestaLiteral": "240 ECTS"
+    },
+    {
+      "id": "UC3M-T16-004",
+      "pregunta": "El acceso a un Máster Universitario:",
+      "opciones": [
+        "Equivale automáticamente a la admisión",
+        "No exige titulación universitaria",
+        "Permite solicitar plaza, pero no garantiza ser admitido",
+        "Solo depende del orden de matrícula"
+      ],
+      "correcta": 2,
+      "justificacion": "Acceso y admisión son conceptos distintos.",
+      "trampa": "Cumplir el acceso no garantiza plaza.",
+      "referencia": "RD 822/2021, art. 18 (acceso y admisión a Máster) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a18",
+      "respuestaLiteral": "Permite solicitar plaza, pero no garantiza ser admitido"
+    },
+    {
+      "id": "UC3M-T16-005",
+      "pregunta": "¿Qué documento fija los elementos esenciales de un título oficial?",
+      "opciones": [
+        "El acta de calificaciones",
+        "La memoria verificada",
+        "El calendario académico",
+        "La carta de servicios"
+      ],
+      "correcta": 1,
+      "justificacion": "La memoria verificada constituye la referencia académica del título.",
+      "trampa": "La guía docente concreta asignaturas.",
+      "referencia": "RD 822/2021, art. 5.3 y anexo II (memoria de plan de estudios) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a5",
+      "respuestaLiteral": "La memoria verificada"
+    },
+    {
+      "id": "UC3M-T16-006",
+      "pregunta": "Verificación, autorización, oficialidad e inscripción:",
+      "opciones": [
+        "Son el mismo trámite",
+        "Solo se aplican al Doctorado",
+        "Son actuaciones diferenciadas",
+        "Pueden omitirse a decisión del centro"
+      ],
+      "correcta": 2,
+      "justificacion": "La implantación de un título comprende actuaciones distintas.",
+      "trampa": "Un trámite no sustituye automáticamente a los demás.",
+      "referencia": "RD 822/2021, arts. 7 y 26–27 (implantación, verificación y oficialidad) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a26",
+      "respuestaLiteral": "Son actuaciones diferenciadas"
+    },
+    {
+      "id": "UC3M-T16-007",
+      "pregunta": "La renovación de la acreditación sirve para:",
+      "opciones": [
+        "Aprobar el calendario de exámenes",
+        "Asignar grupos de matrícula",
+        "Conceder becas",
+        "Comprobar que el título mantiene los estándares de calidad"
+      ],
+      "correcta": 3,
+      "justificacion": "Comprueba periódicamente el mantenimiento de los estándares.",
+      "trampa": "No es un trámite ordinario de matrícula.",
+      "referencia": "RD 822/2021, art. 34 (renovación de acreditación en centros no acreditados institucionalmente) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a34",
+      "respuestaLiteral": "Comprobar que el título mantiene los estándares de calidad"
+    },
+    {
+      "id": "UC3M-T16-008",
+      "pregunta": "La matrícula universitaria:",
+      "opciones": [
+        "Formaliza la vinculación académica",
+        "Garantiza aprobar las asignaturas",
+        "Elimina los requisitos del plan",
+        "Siempre es gratuita"
+      ],
+      "correcta": 0,
+      "justificacion": "La matrícula formaliza la incorporación académica y genera obligaciones.",
+      "trampa": "Matricularse no implica superar.",
+      "referencia": "Normativa UC3M permanencia, dispensa y matrícula, aprobada 07/02/2008 y modificada 30/06/2016 y 12/04/2018, arts. 5–7 (matriculación y dedicación). Documento institucional PDF: https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Enrollment_and_permanence_rules.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371586017358&ssbinary=true",
+      "respuestaLiteral": "Formaliza la vinculación académica"
+    },
+    {
+      "id": "UC3M-T16-009",
+      "pregunta": "Según la normativa UC3M sobre organización del Trabajo Fin de Grado, ¿qué dedicación se prevé por cada crédito ECTS del TFG?",
+      "opciones": [
+        "25 horas",
+        "10 horas",
+        "20 horas",
+        "30 horas exactas en toda universidad"
+      ],
+      "correcta": 0,
+      "justificacion": "La normativa oficial de la UC3M sobre organización y evaluación del Trabajo Fin de Grado, aprobada por Consejo de Gobierno el 17/06/2010, fija para los TFG la carga del plan de 25 horas por ECTS. En la normativa estatal general, RD 1125/2003 art. 4.5, se admite un rango de 25 a 30 horas por ECTS.",
+      "trampa": "25 horas en esta normativa institucional de TFG no es una cuantía universal e invariable: el RD 1125/2003 art. 4.5 establece 25–30 horas por ECTS.",
+      "referencia": "UC3M, Normativa de organización y evaluación del TFG, Consejo de Gobierno de 17/06/2010, pág. 2 (25 h/ECTS) · https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=attachment%3B+filename%3D%22Normativa_sobre_organizaci%C3%B3n_y_evaluaci%C3%B3n_de_la_asignatura_Trabajo_Fin_de_Grado.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371553536021&ssbinary=true · RD 1125/2003 art. 4.5 https://www.boe.es/eli/es/rd/2003/09/05/1125/con",
+      "respuestaLiteral": "25 horas"
+    },
+    {
+      "id": "UC3M-T16-010",
+      "pregunta": "Un estudiante de Grado a tiempo parcial debe matricularse el primer año de:",
+      "opciones": [
+        "12 ECTS",
+        "18 ECTS",
+        "60 ECTS",
+        "30 ECTS"
+      ],
+      "correcta": 3,
+      "justificacion": "La UC3M indica expresamente que quien estudia a tiempo parcial debe matricularse de 30 créditos el primer año y de un mínimo de 18 créditos en los años siguientes. No confundir créditos matriculados (30) con el requisito de permanencia de superar 12 ECTS en el primer año para estudiantes a tiempo completo, con excepciones para dedicación parcial.",
+      "trampa": "El mínimo de 18 ECTS se aplica a años posteriores.",
+      "referencia": "Normativa UC3M permanencia, dispensa y matrícula, modificación 12/04/2018, art. 7.2–3 (30 ECTS primera matrícula parcial; mínimo 18 ECTS siguientes), complementaria a página UC3M de Grado. Documento institucional PDF: https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Enrollment_and_permanence_rules.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371586017358&ssbinary=true",
+      "respuestaLiteral": "30 ECTS"
+    },
+    {
+      "id": "UC3M-T16-011",
+      "pregunta": "Según la regla general de permanencia UC3M para estudiantes a tiempo completo (sin las excepciones de dedicación parcial ni Grados Abiertos), ¿cuántos créditos del primer curso deben superar en su primer año?",
+      "opciones": [
+        "6",
+        "18",
+        "12",
+        "30"
+      ],
+      "correcta": 2,
+      "justificacion": "Art. 1.1 de la normativa UC3M de permanencia: mínimo 12 créditos del primer curso en el primer año para el supuesto general. El art. 1.3 establece para dedicación parcial al menos una asignatura y cómputo de medio curso; el art. 1.2.b prevé reglas propias para Grados Abiertos.",
+      "trampa": "No aplicar automáticamente los 12 ECTS al régimen parcial: exige al menos una asignatura. Los Grados Abiertos tienen condiciones específicas de 90 ECTS.",
+      "referencia": "Normativa UC3M permanencia, dispensa y matrícula, modificación 12/04/2018, arts. 1.1 y 1.3 (12 ECTS régimen general, una asignatura en parcial), documento institucional PDF: https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Enrollment_and_permanence_rules.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371586017358&ssbinary=true",
+      "respuestaLiteral": "12"
+    },
+    {
+      "id": "UC3M-T16-012",
+      "pregunta": "El primer curso completo debe superarse, con carácter general, en:",
+      "opciones": [
+        "Un año",
+        "Tres años en todos los casos",
+        "Dos años consecutivos",
+        "Cuatro años"
+      ],
+      "correcta": 2,
+      "justificacion": "La regla general es dos años académicos consecutivos; en ingeniería, tres.",
+      "trampa": "Ingeniería tiene una excepción.",
+      "referencia": "Normativa UC3M permanencia, dispensa y matrícula, modificación 12/04/2018, art. 1.2.a–b (2 cursos consecutivos general, 3 ingeniería; régimen Grados Abiertos), documento institucional PDF: https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Enrollment_and_permanence_rules.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371586017358&ssbinary=true",
+      "respuestaLiteral": "Dos años consecutivos"
+    },
+    {
+      "id": "UC3M-T16-013",
+      "pregunta": "¿Cuántas convocatorias dispone, con carácter general, un estudiante UC3M por asignatura?",
+      "opciones": [
+        "Dos",
+        "Tres",
+        "Seis en todos los casos",
+        "Cuatro"
+      ],
+      "correcta": 3,
+      "justificacion": "La regla general es cuatro convocatorias; en ingeniería son seis.",
+      "trampa": "No generalizar la excepción de ingeniería.",
+      "referencia": "Normativa UC3M permanencia, dispensa y matrícula, modificación 12/04/2018, art. 2 (4 convocatorias general, 6 ingeniería), documento institucional PDF: https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Enrollment_and_permanence_rules.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371586017358&ssbinary=true",
+      "respuestaLiteral": "Cuatro"
+    },
+    {
+      "id": "UC3M-T16-014",
+      "pregunta": "En las asignaturas ordinarias de Grado UC3M sujetas al régimen general de evaluación, ¿cuál es el valor mínimo de la evaluación continua en la calificación final?",
+      "opciones": [
+        "20 %",
+        "40 %",
+        "30 %",
+        "60 %"
+      ],
+      "correcta": 1,
+      "justificacion": "La UC3M fija, en las normas generales de evaluación de Grado, un mínimo del 40 % para la evaluación continua; el profesorado coordinador puede aumentar ese peso, no reducirlo. Se distingue de asignaturas especiales que pueden exigir evaluación continua obligatoria y carecer de examen final.",
+      "trampa": "El 40 % es mínimo general, no un porcentaje fijo de toda asignatura ni la nota del examen final. Las asignaturas especiales pueden tener un régimen propio.",
+      "referencia": "UC3M, Normas de evaluación de Grado: evaluación continua mínima del 40 % · https://www.uc3m.es/ss/Satellite/Grado/es/TextoMixta/1371215097947/",
+      "respuestaLiteral": "40 %"
+    },
+    {
+      "id": "UC3M-T16-015",
+      "pregunta": "En una asignatura ordinaria de Grado UC3M que dispone de convocatoria extraordinaria, si el estudiante no siguió evaluación continua, ¿qué valor tiene el examen extraordinario según la regla general?",
+      "opciones": [
+        "100 %",
+        "40 %",
+        "60 %",
+        "80 %"
+      ],
+      "correcta": 0,
+      "justificacion": "Las normas generales de evaluación UC3M reconocen a quien no ha seguido evaluación continua derecho a un examen extraordinario con valor del 100 % de la calificación. La universidad indica también que algunas asignaturas especiales no disponen de convocatoria extraordinaria, por lo que no debe formularse la regla con alcance universal.",
+      "trampa": "El 100 % corresponde a convocatoria extraordinaria sin evaluación continua y CON examen extraordinario aplicable; no extrapolar a asignaturas especiales sin convocatoria.",
+      "referencia": "UC3M, Normas de evaluación de Grado: examen extraordinario del 100 % cuando no se siguió evaluación continua, con las excepciones del régimen de asignaturas especiales · https://www.uc3m.es/ss/Satellite/Grado/es/TextoMixta/1371215097947/",
+      "respuestaLiteral": "100 %"
+    },
+    {
+      "id": "UC3M-T16-016",
+      "pregunta": "Los créditos reconocidos:",
+      "opciones": [
+        "Solo aparecen en el expediente",
+        "Computan para obtener el nuevo título",
+        "Desaparecen del expediente",
+        "Obligan a repetir la asignatura"
+      ],
+      "correcta": 1,
+      "justificacion": "El reconocimiento permite que computen en el nuevo plan.",
+      "trampa": "La transferencia tiene otro efecto.",
+      "referencia": "RD 822/2021, art. 10 (reconocimiento y transferencia de créditos) · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a10",
+      "respuestaLiteral": "Computan para obtener el nuevo título"
+    },
+    {
+      "id": "UC3M-T16-017",
+      "pregunta": "¿Qué modalidad de prácticas integra el plan de estudios oficial?",
+      "opciones": [
+        "Curriculares",
+        "Extracurriculares por definición",
+        "Solo remuneradas",
+        "Solo prácticas laborales"
+      ],
+      "correcta": 0,
+      "justificacion": "La modalidad curricular forma parte del plan de estudios y del proyecto formativo; la extracurricular no se integra en el plan por esa sola condición. Las otras tres alternativas son falsas: no exige remuneración ni contrato laboral.",
+      "trampa": "Comprobar la categoría y las excepciones legales: Las prácticas no sustituyen la prestación laboral.",
+      "referencia": "RD 822/2021, art. 11.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a11",
+      "respuestaLiteral": "Curriculares"
+    },
+    {
+      "id": "UC3M-T16-018",
+      "pregunta": "Las prácticas curriculares en Grado tienen como máximo general:",
+      "opciones": [
+        "25 % del total, con excepciones",
+        "Un tercio del título",
+        "50 % del total sin salvedades",
+        "Una asignatura de 6 ECTS"
+      ],
+      "correcta": 0,
+      "justificacion": "El máximo ordinario de prácticas externas curriculares de Grado es el 25 %; quedan exceptuados los Grados con porcentajes exigidos por normas de la UE y los de Mención Dual (20–40 %). Un tercio es la regla de prácticas de Máster del art. 17.3; ni el 50 % universal ni 6 ECTS obligatorios aparecen como límite general.",
+      "trampa": "Comprobar la categoría y las excepciones legales: No aplicar el tercio propio de Máster.",
+      "referencia": "RD 822/2021, art. 14.5 y art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a14",
+      "respuestaLiteral": "25 % del total, con excepciones"
+    },
+    {
+      "id": "UC3M-T16-019",
+      "pregunta": "En un Grado de 240 ECTS, el TFG debe tener:",
+      "opciones": [
+        "Entre 12 y 30 ECTS",
+        "Entre 6 y 24 ECTS",
+        "Entre 6 y 30 ECTS",
+        "Exactamente 24 ECTS"
+      ],
+      "correcta": 1,
+      "justificacion": "En Grados de 240 ECTS el TFG obligatorio tiene entre 6 y 24 ECTS; para Grados de 300 y 360 el máximo es, respectivamente, 30 y 36. El rango 6–30 no corresponde al Grado de 240 y 24 no es cantidad fija.",
+      "trampa": "Comprobar la categoría y las excepciones legales: El TFM tiene un máximo distinto.",
+      "referencia": "RD 822/2021, art. 14.6 · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a14",
+      "respuestaLiteral": "Entre 6 y 24 ECTS"
+    },
+    {
+      "id": "UC3M-T16-020",
+      "pregunta": "¿Qué fracción máxima del Máster Universitario pueden ocupar sus prácticas externas?",
+      "opciones": [
+        "La mitad",
+        "Una cuarta parte necesariamente",
+        "Dos tercios",
+        "Un tercio"
+      ],
+      "correcta": 3,
+      "justificacion": "Las prácticas externas de Máster, si existen, no superan un tercio del plan. El 25 % ordinario pertenece a Grado (art. 14.5); mitad y dos tercios no son máximos de este precepto.",
+      "trampa": "Comprobar la categoría y las excepciones legales: No confundir el porcentaje general de las prácticas curriculares de Grado.",
+      "referencia": "RD 822/2021, art. 17.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a17",
+      "respuestaLiteral": "Un tercio"
+    },
+    {
+      "id": "UC3M-T16-021",
+      "pregunta": "El Trabajo Fin de Máster (TFM) es obligatorio y tiene:",
+      "opciones": [
+        "Entre 6 y 24 ECTS",
+        "Exactamente 15 ECTS",
+        "Entre 6 y 30 ECTS",
+        "Entre 30 y 60 ECTS"
+      ],
+      "correcta": 2,
+      "justificacion": "El TFM es obligatorio y tiene un mínimo de 6 y un máximo de 30 ECTS, con defensa en acto público. 6–24 corresponde al TFG de Grado de 240; 15 no es cifra única y 30–60 excede el máximo.",
+      "trampa": "Comprobar la categoría y las excepciones legales: El TFG de 240 no puede superar 24.",
+      "referencia": "RD 822/2021, art. 17.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781#a17",
+      "respuestaLiteral": "Entre 6 y 30 ECTS"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlRegimenEvaluacion20261104": {
+    "fecha": "2026-11-04",
+    "preguntas": [
+      "UC3M-T16-014",
+      "UC3M-T16-015"
+    ],
+    "fuente": "https://www.uc3m.es/grado/informacion-practica/normativa-academica/normas-evaluacion?idioma=es&site=Grado",
+    "precaucion": "Asignaturas especiales pueden carecer de examen final o convocatoria extraordinaria",
+    "certificadoIntegral": false
+  },
+  "controlArticulosRD82220261104": {
+    "fecha": "2026-11-04",
+    "preguntas": [
+      "UC3M-T16-017",
+      "UC3M-T16-018",
+      "UC3M-T16-019",
+      "UC3M-T16-020",
+      "UC3M-T16-021"
+    ],
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-15781",
+    "alcance": "Cotejo focal de cinco claves y sus distractores con arts. 11.2, 14.5–6, 17.3–4; no auditoría integral",
+    "certificadoIntegral": false
+  },
+  "controlFuentes20261108": {
+    "fecha": "2026-11-08",
+    "preguntasConReferenciasAmpliadas": 14,
+    "documentos": [
+      "RD 822/2021 BOE-A-2021-15781",
+      "UC3M normativa permanencia 2018",
+      "UC3M reglamento TFG EPS"
+    ],
+    "alternativasModificadas": 0,
+    "clavesModificadas": 0,
+    "cotejoJuridicoIntegral": false,
+    "revisionFuncional": false,
+    "corteNormativo": "PENDIENTE_DOCUMENTO_UC3M"
+  },
+  "controlCorreccionPrimaria20261108": {
+    "fecha": "2026-11-08",
+    "preguntas": [
+      "UC3M-T16-002",
+      "UC3M-T16-009"
+    ],
+    "errorFuenteT16002": "Art. 9 RD 822/2021 era referencia incorrecta para 60 ECTS; corresponde art. 5.2",
+    "errorFuenteT16009": "Enlace original e-archivo 403; sustitución por normativa pública oficial UC3M TFG 2010",
+    "enunciadoAcotadoT16009": true,
+    "clavesModificadas": false,
+    "alternativasModificadas": false,
+    "cotejoLegislativoCorte": false,
+    "certificacionIntegral": false
+  },
+  "controlFuentePrimariaPermanencia20261110": {
+    "fecha": "2026-11-10",
+    "fuenteInstitucional": "https://www.uc3m.es/ss/Satellite?blobcol=urldata&blobheader=application%2Fpdf&blobheadername1=Content-Disposition&blobheadername2=Cache-Control&blobheadervalue1=inline%3B+filename%3D%22Enrollment_and_permanence_rules.pdf%22&blobheadervalue2=private&blobkey=id&blobtable=MungoBlobs&blobwhere=1371586017358&ssbinary=true",
+    "versionDocumento": "Modificada el 12/04/2018 (texto institucional UC3M)",
+    "items": [
+      "UC3M-T16-008",
+      "UC3M-T16-010",
+      "UC3M-T16-011",
+      "UC3M-T16-012",
+      "UC3M-T16-013"
+    ],
+    "respuestasModificadas": 0,
+    "precaucion": "Sin acreditación de que esta sea la última modificación de normativa UC3M al corte de listas 2026; inspección visual del PDF no disponible en herramienta web; texto primario accesible sí.",
+    "corteOficialPrimario": "NO_ACREDITADO"
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "tema": 17,
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T17-001",
+      "pregunta": "¿Cuál es la edad mínima general para participar en un proceso selectivo conforme a la Ley 4/2011?",
+      "opciones": [
+        "16 años",
+        "14 años",
+        "18 años",
+        "21 años"
+      ],
+      "correcta": 0,
+      "justificacion": "El requisito general es tener cumplidos 16 años y no exceder de la edad de jubilación forzosa, salvo previsión legal distinta.",
+      "trampa": "No debe confundirse la mayoría de edad con la edad mínima general de acceso al empleo público.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a38",
+      "respuestaLiteral": "16 años"
+    },
+    {
+      "id": "DIP-T17-002",
+      "pregunta": "¿Qué principios deben regir el acceso al empleo público?",
+      "opciones": [
+        "Antigüedad, confianza y libre designación",
+        "Jerarquía, oportunidad y discrecionalidad",
+        "Exclusivamente mérito y antigüedad",
+        "Igualdad, mérito, capacidad y publicidad"
+      ],
+      "correcta": 3,
+      "justificacion": "La selección debe respetar los principios de igualdad, mérito, capacidad y publicidad, junto con las demás garantías legales de transparencia, imparcialidad y objetividad.",
+      "trampa": "No puede eliminarse la publicidad ni sustituirse la capacidad por la antigüedad.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 37 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a37",
+      "respuestaLiteral": "Igualdad, mérito, capacidad y publicidad"
+    },
+    {
+      "id": "DIP-T17-003",
+      "pregunta": "¿Cuáles son los sistemas ordinarios de selección del personal funcionario?",
+      "opciones": [
+        "Oposición y concurso-oposición",
+        "Concurso y libre designación",
+        "Solo oposición",
+        "Concurso y entrevista"
+      ],
+      "correcta": 0,
+      "justificacion": "Los sistemas ordinarios de selección del personal funcionario son la oposición y el concurso-oposición.",
+      "trampa": "El concurso puro solo procede de forma excepcional cuando una ley lo autoriza.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a47",
+      "respuestaLiteral": "Oposición y concurso-oposición"
+    },
+    {
+      "id": "DIP-T17-004",
+      "pregunta": "¿Cuándo deben poseerse los requisitos de participación?",
+      "opciones": [
+        "El día del examen",
+        "Al publicarse la lista definitiva",
+        "Solo en la toma de posesión",
+        "Al finalizar el plazo de solicitudes y mantenerse hasta la toma de posesión o contrato"
+      ],
+      "correcta": 3,
+      "justificacion": "Los requisitos deben poseerse al finalizar el plazo de presentación de solicitudes y mantenerse hasta la toma de posesión o la formalización del contrato.",
+      "trampa": "No basta con reunirlos al final del proceso; también deben poseerse al cerrar el plazo de solicitudes.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a38",
+      "respuestaLiteral": "Al finalizar el plazo de solicitudes y mantenerse hasta la toma de posesión o contrato"
+    },
+    {
+      "id": "DIP-T17-005",
+      "pregunta": "¿Puede el personal eventual realizar funciones administrativas ordinarias y permanentes?",
+      "opciones": [
+        "Sí, siempre",
+        "Sí, si lo autoriza el Pleno",
+        "Solo durante seis meses",
+        "No, sus funciones son de confianza o asesoramiento especial"
+      ],
+      "correcta": 3,
+      "justificacion": "El personal eventual solo puede realizar funciones expresamente calificadas de confianza o asesoramiento especial.",
+      "trampa": "El libre nombramiento y cese no permiten atribuirle funciones ordinarias o permanentes.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 9 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a9",
+      "respuestaLiteral": "No, sus funciones son de confianza o asesoramiento especial"
+    },
+    {
+      "id": "DIP-T17-006",
+      "pregunta": "¿Qué efecto tiene aprobar el proceso selectivo?",
+      "opciones": [
+        "Solo una expectativa hasta completar nombramiento, acatamiento y toma de posesión",
+        "Adquisición automática de la condición funcionarial",
+        "Contrato laboral automático",
+        "Ingreso en prácticas indefinido"
+      ],
+      "correcta": 0,
+      "justificacion": "La condición de personal funcionario de carrera exige superar el proceso, ser nombrado, realizar el acto de acatamiento y tomar posesión dentro del plazo establecido.",
+      "trampa": "Aprobar el proceso selectivo no equivale por sí solo a adquirir la condición funcionarial plena.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 55 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a55",
+      "respuestaLiteral": "Solo una expectativa hasta completar nombramiento, acatamiento y toma de posesión"
+    },
+    {
+      "id": "DIP-T17-007",
+      "pregunta": "¿Cuál de las siguientes NO es causa de pérdida de la condición de personal funcionario de carrera?",
+      "opciones": [
+        "Cambio de puesto por concurso",
+        "Renuncia",
+        "Jubilación total",
+        "Separación firme del servicio"
+      ],
+      "correcta": 0,
+      "justificacion": "El cambio de puesto mediante concurso constituye una forma de provisión y movilidad, pero no extingue la relación de servicio.",
+      "trampa": "No debe confundirse la movilidad profesional con la pérdida de la condición funcionarial.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a56",
+      "respuestaLiteral": "Cambio de puesto por concurso"
+    },
+    {
+      "id": "DIP-T17-008",
+      "pregunta": "La separación del servicio produce pérdida de la condición funcionarial cuando...",
+      "opciones": [
+        "Se propone por el instructor",
+        "Es firme en vía administrativa",
+        "Se publica la apertura del expediente",
+        "La acuerda provisionalmente el superior"
+      ],
+      "correcta": 1,
+      "justificacion": "La sanción disciplinaria de separación del servicio debe ser firme en vía administrativa para producir la pérdida de la condición funcionarial.",
+      "trampa": "Una propuesta o una resolución no firme no produce todavía la pérdida efectiva de la condición.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a56",
+      "respuestaLiteral": "Es firme en vía administrativa"
+    },
+    {
+      "id": "DIP-T17-009",
+      "pregunta": "¿Qué efecto tiene la inhabilitación absoluta firme?",
+      "opciones": [
+        "Pérdida solo del puesto ocupado",
+        "Pérdida respecto de todos los empleos o cargos públicos",
+        "Suspensión de un mes",
+        "Traslado forzoso"
+      ],
+      "correcta": 1,
+      "justificacion": "La pena firme de inhabilitación absoluta produce la pérdida respecto de todos los empleos o cargos públicos.",
+      "trampa": "No debe confundirse con la inhabilitación especial, limitada a los empleos o cargos especificados en la sentencia.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 59 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a59",
+      "respuestaLiteral": "Pérdida respecto de todos los empleos o cargos públicos"
+    },
+    {
+      "id": "DIP-T17-010",
+      "pregunta": "¿Impide la renuncia volver a ingresar en la Administración?",
+      "opciones": [
+        "Sí, de por vida",
+        "Sí, durante diez años",
+        "Solo impide ingresar en la misma Administración",
+        "No, puede ingresarse de nuevo superando el proceso selectivo correspondiente"
+      ],
+      "correcta": 3,
+      "justificacion": "La renuncia a la condición funcionarial no inhabilita para ingresar de nuevo en la Administración mediante el correspondiente proceso selectivo.",
+      "trampa": "La renuncia no debe equipararse a una separación disciplinaria del servicio.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 57 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a57",
+      "respuestaLiteral": "No, puede ingresarse de nuevo superando el proceso selectivo correspondiente"
+    },
+    {
+      "id": "DIP-T17-011",
+      "pregunta": "¿Puede una persona nacional de otro Estado miembro de la UE acceder a cualquier puesto funcionario?",
+      "opciones": [
+        "No, quedan exceptuados determinados empleos vinculados al ejercicio del poder público o salvaguarda de intereses generales",
+        "Sí, sin excepción",
+        "Solo puede ser laboral temporal",
+        "Solo con cinco años de residencia"
+      ],
+      "correcta": 0,
+      "justificacion": "Las personas nacionales de otros Estados miembros de la Unión Europea pueden acceder en igualdad de condiciones, salvo a empleos que impliquen participación en el ejercicio del poder público o salvaguarda de intereses generales.",
+      "trampa": "La regla no es una autorización absoluta ni una prohibición general.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 39 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a39",
+      "respuestaLiteral": "No, quedan exceptuados determinados empleos vinculados al ejercicio del poder público o salvaguarda de intereses generales"
+    },
+    {
+      "id": "DIP-T17-012",
+      "pregunta": "¿Cuál es la regla sobre el concurso puro para seleccionar personal funcionario?",
+      "opciones": [
+        "Es el sistema ordinario preferente",
+        "Es excepcional y requiere previsión legal",
+        "Está prohibido siempre",
+        "Se usa libremente en entidades locales"
+      ],
+      "correcta": 1,
+      "justificacion": "Para seleccionar personal funcionario, el concurso puro solo puede utilizarse excepcionalmente cuando una ley lo autoriza.",
+      "trampa": "No debe confundirse con el concurso utilizado para la provisión de puestos de trabajo.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 47 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a47",
+      "respuestaLiteral": "Es excepcional y requiere previsión legal"
+    },
+    {
+      "id": "DIP-T17-013",
+      "pregunta": "Si se pierde la nacionalidad que sirvió de base al nombramiento, ¿qué excepción impide la pérdida de la condición de funcionario?",
+      "opciones": [
+        "Conservar padrón municipal",
+        "Estar trabajando en comisión de servicios",
+        "Adquirir simultáneamente otra nacionalidad legalmente habilitante",
+        "Percibir un trienio"
+      ],
+      "correcta": 2,
+      "justificacion": "El **art. 58 Ley 4/2011** impide la pérdida de condición cuando se adquiere **simultáneamente** otra nacionalidad que habilita para el cargo.",
+      "trampa": "**Adquisición simultánea** de otra nacionalidad válida; no basta la residencia o empadronamiento.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 58 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a58",
+      "respuestaLiteral": "Adquirir simultáneamente otra nacionalidad legalmente habilitante"
+    },
+    {
+      "id": "DIP-T17-014",
+      "pregunta": "¿Qué diferencia existe entre la separación del servicio y la pena de inhabilitación?",
+      "opciones": [
+        "Ambas requieren siempre sentencia judicial",
+        "La separación nunca implica perder condición funcionarial",
+        "La separación es sanción disciplinaria y la inhabilitación deriva de resolución judicial firme",
+        "La inhabilitación siempre es una decisión del órgano de selección"
+      ],
+      "correcta": 2,
+      "justificacion": "La separación del servicio debe ser **firme en vía administrativa** y la inhabilitación deriva de una **sentencia firme**.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a56",
+      "respuestaLiteral": "La separación es sanción disciplinaria y la inhabilitación deriva de resolución judicial firme"
+    },
+    {
+      "id": "DIP-T17-015",
+      "pregunta": "¿Cuándo no puede aceptarse la renuncia voluntaria de un funcionario según el artículo 57.2 Ley 4/2011?",
+      "opciones": [
+        "Por haber disfrutado vacaciones",
+        "Por cambio de puesto mediante concurso",
+        "Por llevar dos años de servicio",
+        "Mientras exista expediente disciplinario o auto de procesamiento o apertura de juicio oral por delito"
+      ],
+      "correcta": 3,
+      "justificacion": "**Art. 57.2 Ley 4/2011**: no se acepta renuncia durante **expediente disciplinario** o si se ha dictado **auto de procesamiento o apertura de juicio oral** por delito.",
+      "trampa": "La **renuncia escrita** necesita **aceptación expresa**, pero puede estar **legalmente impedida**.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 57 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a57",
+      "respuestaLiteral": "Mientras exista expediente disciplinario o auto de procesamiento o apertura de juicio oral por delito"
+    },
+    {
+      "id": "DIP-T17-016",
+      "pregunta": "¿Cuál es la forma exigida para manifestar la renuncia voluntaria?",
+      "opciones": [
+        "Por teléfono",
+        "Por escrito y con aceptación expresa de la Administración",
+        "Tácitamente por ausencia",
+        "Mediante comunicación verbal al superior"
+      ],
+      "correcta": 1,
+      "justificacion": "La renuncia se manifiesta **por escrito** y requiere aceptación expresa, salvo prohibiciones legales de aceptación.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 57 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a57",
+      "respuestaLiteral": "Por escrito y con aceptación expresa de la Administración"
+    },
+    {
+      "id": "DIP-T17-017",
+      "pregunta": "¿Cuál de estas circunstancias constituye causa de pérdida de la condición funcionarial?",
+      "opciones": [
+        "La excedencia voluntaria",
+        "La jubilación total",
+        "Una comisión de servicios",
+        "Un permiso de asuntos propios"
+      ],
+      "correcta": 1,
+      "justificacion": "La **jubilación total** es causa de pérdida de la condición de funcionario de carrera.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 56 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a56",
+      "respuestaLiteral": "La jubilación total"
+    },
+    {
+      "id": "DIP-T17-018",
+      "pregunta": "¿Qué efectos tiene una inhabilitación especial firme?",
+      "opciones": [
+        "Extingue todos los empleos en cualquier ámbito",
+        "Solo afecta a retribuciones complementarias",
+        "Produce pérdida de condición respecto de empleos o cargos especificados en la sentencia",
+        "No afecta a la condición de funcionario"
+      ],
+      "correcta": 2,
+      "justificacion": "La **inhabilitación especial firme** afecta a los empleos o cargos especificados en sentencia.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 59 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a59",
+      "respuestaLiteral": "Produce pérdida de condición respecto de empleos o cargos especificados en la sentencia"
+    },
+    {
+      "id": "DIP-T17-019",
+      "pregunta": "¿En qué supuesto la rehabilitación funcionarial se concede al desaparecer la causa objetiva?",
+      "opciones": [
+        "En todos los casos de separación disciplinaria",
+        "En todos los supuestos de inhabilitación penal",
+        "Por pérdida de nacionalidad o jubilación por incapacidad permanente para el servicio",
+        "Por renuncia sin nuevo proceso selectivo"
+      ],
+      "correcta": 2,
+      "justificacion": "La rehabilitación por pérdida de nacionalidad o jubilación por incapacidad se concede una vez desaparecida su causa objetiva, previa solicitud.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 61 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a61",
+      "respuestaLiteral": "Por pérdida de nacionalidad o jubilación por incapacidad permanente para el servicio"
+    },
+    {
+      "id": "DIP-T17-020",
+      "pregunta": "¿Qué carácter tiene la rehabilitación tras inhabilitación penal conforme a la Ley 4/2011?",
+      "opciones": [
+        "Obligatoria e inmediata",
+        "Automática al pasar un mes",
+        "Excepcional y sujeta a valoración de las circunstancias y entidad del delito",
+        "Imposible en todo caso"
+      ],
+      "correcta": 2,
+      "justificacion": "La rehabilitación tras inhabilitación puede concederse **excepcionalmente** por los órganos de gobierno, valorando las circunstancias y entidad del delito.",
+      "trampa": "Distinguir adquisición, pérdida y rehabilitación de la condición funcionarial.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 61 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a61",
+      "respuestaLiteral": "Excepcional y sujeta a valoración de las circunstancias y entidad del delito"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_16_19_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "reabrirSoloErrorONuevaNorma": true,
+    "certificacionIntegral": false,
+    "pruebaNavegador": "TRANSVERSAL_PENDIENTE"
+  }
+}

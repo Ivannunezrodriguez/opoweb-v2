@@ -1,0 +1,315 @@
+{
+  "tema": 28,
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T28-001",
+      "pregunta": "¿Qué se considera dato personal?",
+      "opciones": [
+        "Solo el nombre y apellidos",
+        "Únicamente los datos sanitarios",
+        "Solo los datos incluidos en un fichero automatizado",
+        "Toda información sobre una persona física identificada o identificable"
+      ],
+      "correcta": 3,
+      "justificacion": "El RGPD considera dato personal toda información sobre una persona física identificada o identificable.",
+      "trampa": "El concepto no se limita al nombre y apellidos ni a los tratamientos automatizados.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#21-dato-personal",
+      "respuestaLiteral": "Toda información sobre una persona física identificada o identificable"
+    },
+    {
+      "id": "DIP-T28-002",
+      "pregunta": "¿Cuál de los siguientes es un principio de protección de datos?",
+      "opciones": [
+        "Acumulación ilimitada",
+        "Conservación indefinida",
+        "Minimización de datos",
+        "Cesión libre entre Administraciones"
+      ],
+      "correcta": 2,
+      "justificacion": "El principio de minimización exige que los datos sean adecuados, pertinentes y limitados a lo necesario para los fines del tratamiento.",
+      "trampa": "La responsabilidad proactiva no autoriza a conservar o comunicar datos sin límite.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#3-principios-de-protección-de-datos",
+      "respuestaLiteral": "Minimización de datos"
+    },
+    {
+      "id": "DIP-T28-003",
+      "pregunta": "En España, el menor puede prestar por sí mismo el consentimiento para el tratamiento de sus datos, con carácter general, desde los:",
+      "opciones": [
+        "12 años",
+        "13 años",
+        "14 años",
+        "16 años"
+      ],
+      "correcta": 2,
+      "justificacion": "La Ley Orgánica 3/2018 fija, con carácter general, en 14 años la edad a partir de la cual el menor puede consentir por sí mismo el tratamiento de sus datos.",
+      "trampa": "No debe trasladarse automáticamente la referencia de 16 años prevista por el RGPD como límite máximo para los Estados miembros.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#consentimiento-de-menores",
+      "respuestaLiteral": "14 años"
+    },
+    {
+      "id": "DIP-T28-004",
+      "pregunta": "El plazo ordinario para responder al ejercicio de derechos de protección de datos es de:",
+      "opciones": [
+        "10 días",
+        "15 días",
+        "3 meses",
+        "1 mes"
+      ],
+      "correcta": 3,
+      "justificacion": "El responsable debe responder sin dilación indebida y, como máximo, en 1 mes desde la recepción de la solicitud.",
+      "trampa": "La ampliación posible es de 2 meses adicionales; no convierte el plazo ordinario en 3 meses.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#6-derechos-de-las-personas",
+      "respuestaLiteral": "1 mes"
+    },
+    {
+      "id": "DIP-T28-005",
+      "pregunta": "Cuando una brecha de datos deba notificarse a la autoridad de control, el plazo de referencia es de:",
+      "opciones": [
+        "72 horas",
+        "24 horas",
+        "48 horas",
+        "1 mes"
+      ],
+      "correcta": 0,
+      "justificacion": "La notificación debe realizarse sin dilación indebida y, de ser posible, dentro de las 72 horas desde que el responsable tenga constancia de la brecha.",
+      "trampa": "El plazo no opera de forma automática: la obligación depende de que la brecha pueda entrañar riesgo para los derechos y libertades.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#8-seguridad-y-violaciones-de-datos",
+      "respuestaLiteral": "72 horas"
+    },
+    {
+      "id": "DIP-T28-006",
+      "pregunta": "La Agencia Española de Protección de Datos es:",
+      "opciones": [
+        "Una dirección general ministerial",
+        "Un órgano judicial",
+        "Una entidad privada de certificación",
+        "Una autoridad administrativa independiente"
+      ],
+      "correcta": 3,
+      "justificacion": "La Agencia Española de Protección de Datos es una autoridad administrativa independiente con personalidad jurídica propia y plena capacidad pública y privada.",
+      "trampa": "No depende jerárquicamente de un ministerio en el ejercicio de sus funciones.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#9-agencia-española-de-protección-de-datos",
+      "respuestaLiteral": "Una autoridad administrativa independiente"
+    },
+    {
+      "id": "DIP-T28-007",
+      "pregunta": "¿Cuál de las siguientes es una función de la AEPD?",
+      "opciones": [
+        "Investigar infracciones y adoptar medidas correctivas",
+        "Aprobar leyes orgánicas",
+        "Resolver recursos contencioso-administrativos",
+        "Gestionar el padrón municipal"
+      ],
+      "correcta": 0,
+      "justificacion": "La AEPD supervisa la normativa de protección de datos, atiende reclamaciones, investiga posibles infracciones y puede adoptar medidas correctivas y sancionadoras.",
+      "trampa": "Sus potestades son administrativas, no legislativas ni jurisdiccionales.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#funciones-y-potestades",
+      "respuestaLiteral": "Investigar infracciones y adoptar medidas correctivas"
+    },
+    {
+      "id": "DIP-T28-008",
+      "pregunta": "La publicidad activa consiste en:",
+      "opciones": [
+        "Responder exclusivamente a solicitudes individuales",
+        "Remitir toda la información al juzgado",
+        "Publicar información sin necesidad de solicitud previa",
+        "Publicar únicamente normas con rango de ley"
+      ],
+      "correcta": 2,
+      "justificacion": "La publicidad activa obliga a publicar de forma periódica y actualizada información relevante sin necesidad de que exista una solicitud previa.",
+      "trampa": "No debe confundirse con el derecho de acceso, que se ejerce a petición de una persona.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#11-publicidad-activa",
+      "respuestaLiteral": "Publicar información sin necesidad de solicitud previa"
+    },
+    {
+      "id": "DIP-T28-009",
+      "pregunta": "Quienes prestan servicios públicos o ejercen potestades administrativas deben suministrar información para cumplir la Ley 19/2013:",
+      "opciones": [
+        "Siempre de oficio a cualquier ciudadano",
+        "Previo requerimiento de la Administración u organismo vinculado",
+        "Solo mediante sentencia",
+        "Únicamente cuando sean empleados públicos"
+      ],
+      "correcta": 1,
+      "justificacion": "La obligación de suministro opera previo requerimiento de la Administración, organismo o entidad pública a la que estén vinculados.",
+      "trampa": "Suministrar información al sujeto público obligado no equivale necesariamente a publicarla directamente.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#12-obligación-de-suministrar-información",
+      "respuestaLiteral": "Previo requerimiento de la Administración u organismo vinculado"
+    },
+    {
+      "id": "DIP-T28-010",
+      "pregunta": "La resolución de una solicitud de acceso a información pública debe notificarse, con carácter general, en:",
+      "opciones": [
+        "10 días",
+        "1 mes",
+        "15 días",
+        "3 meses"
+      ],
+      "correcta": 1,
+      "justificacion": "La Ley 19/2013 fija un plazo máximo de 1 mes desde la recepción por el órgano competente, ampliable por otro mes cuando el volumen o la complejidad lo justifiquen.",
+      "trampa": "No debe confundirse con el plazo de 1 mes ampliable por otros 2 meses previsto para los derechos del RGPD.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#procedimiento",
+      "respuestaLiteral": "1 mes"
+    },
+    {
+      "id": "DIP-T28-011",
+      "pregunta": "El silencio en el procedimiento estatal de acceso a la información pública es:",
+      "opciones": [
+        "Desestimatorio",
+        "Estimatorio",
+        "Inexistente",
+        "Suspensivo"
+      ],
+      "correcta": 0,
+      "justificacion": "Transcurrido el plazo máximo sin resolución expresa, la solicitud de acceso a la información pública se entiende desestimada.",
+      "trampa": "No debe aplicarse por analogía la regla general de silencio positivo de otros procedimientos.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#procedimiento",
+      "respuestaLiteral": "Desestimatorio"
+    },
+    {
+      "id": "DIP-T28-012",
+      "pregunta": "¿Cuál de las siguientes conductas responde a los principios de buen gobierno?",
+      "opciones": [
+        "Comunicar conflictos de intereses y actuar con imparcialidad",
+        "Aceptar regalos que excedan los usos sociales",
+        "Usar el cargo para obtener ventajas personales",
+        "Ocultar información pública relevante"
+      ],
+      "correcta": 0,
+      "justificacion": "El buen gobierno exige actuar con imparcialidad, prevenir y comunicar conflictos de intereses, ejercer el cargo con integridad y gestionar adecuadamente los recursos públicos.",
+      "trampa": "El buen gobierno no se limita al cumplimiento de las obligaciones de publicidad activa.",
+      "referencia": "content/diputacion-toledo/tema-28/manual.md#15-buen-gobierno",
+      "respuestaLiteral": "Comunicar conflictos de intereses y actuar con imparcialidad"
+    },
+    {
+      "id": "DIP-T28-013",
+      "pregunta": "¿En qué supuesto concurre el derecho a la portabilidad de los datos según el artículo 20 RGPD?",
+      "opciones": [
+        "Cualquier expediente administrativo en papel",
+        "Tratamiento realizado exclusivamente en ejercicio de potestades públicas",
+        "Tratamiento automatizado basado en consentimiento o contrato",
+        "Todo tratamiento de datos personales sin excepción"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 20.1 RGPD exige consentimiento o contrato y medios automatizados; el art. 20.3 excluye misión pública y potestades públicas.",
+      "trampa": "Acceso de datos y portabilidad no son iguales.",
+      "referencia": "RGPD art. 20.1 y 20.3 · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Tratamiento automatizado basado en consentimiento o contrato"
+    },
+    {
+      "id": "DIP-T28-014",
+      "pregunta": "Ante una brecha que suponga alto riesgo, ¿en qué plazo debe comunicarse al interesado conforme al artículo 34 RGPD?",
+      "opciones": [
+        "En 72 horas exactas, siempre",
+        "Sin dilación indebida, salvo excepciones legales",
+        "En el plazo obligatorio de un año",
+        "Solo al concluir una investigación judicial"
+      ],
+      "correcta": 1,
+      "justificacion": "El art. 34 RGPD ordena comunicación sin dilación indebida ante alto riesgo, salvo excepciones legales.",
+      "trampa": "Las 72 horas pertenecen a comunicación a la autoridad, no al afectado.",
+      "referencia": "RGPD arts. 33 y 34 · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Sin dilación indebida, salvo excepciones legales"
+    },
+    {
+      "id": "DIP-T28-015",
+      "pregunta": "Si la solicitud de transparencia afecta a derechos de terceros identificados, ¿qué plazo de alegaciones reciben?",
+      "opciones": [
+        "15 días",
+        "5 días naturales",
+        "3 meses",
+        "Un año"
+      ],
+      "correcta": 0,
+      "justificacion": "La Ley 19/2013 art. 19.3 concede quince días a terceros y suspende el plazo para resolver.",
+      "trampa": "No confundir los quince días de alegaciones con el mes de resolución.",
+      "referencia": "Ley 19/2013 art. 19.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "respuestaLiteral": "15 días"
+    },
+    {
+      "id": "DIP-T28-016",
+      "pregunta": "Si la solicitud de información pública no concreta suficientemente la información solicitada, ¿qué trámite procede?",
+      "opciones": [
+        "Denegar sin requerimiento en todo caso",
+        "Pedir concreción en diez días, suspendiendo el plazo para resolver",
+        "Ampliar el plazo de oficio en un año",
+        "Exigir que el solicitante interponga alzada"
+      ],
+      "correcta": 1,
+      "justificacion": "El art. 19.2 Ley 19/2013 fija diez días, suspensión de plazo y advertencia de desistimiento.",
+      "trampa": "Distinguir diez días para aclarar de quince para alegaciones de terceros.",
+      "referencia": "Ley 19/2013 art. 19.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "respuestaLiteral": "Pedir concreción en diez días, suspendiendo el plazo para resolver"
+    },
+    {
+      "id": "DIP-T28-017",
+      "pregunta": "¿Qué plazo se establece para reclamar potestativamente ante el órgano de garantía de transparencia contra una resolución expresa?",
+      "opciones": [
+        "Tres meses",
+        "10 días naturales",
+        "Cuatro años",
+        "Un mes desde la notificación"
+      ],
+      "correcta": 3,
+      "justificacion": "El plazo es **un mes** desde el día siguiente a la notificación para resolución expresa, conforme al régimen aplicable.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "Ley 19/2013 art. 24.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "respuestaLiteral": "Un mes desde la notificación"
+    },
+    {
+      "id": "DIP-T28-018",
+      "pregunta": "¿Qué resoluciones de acceso a información pública deben motivarse según Ley 19/2013?",
+      "opciones": [
+        "Solo las que conceden íntegramente sin oposición",
+        "Ninguna resolución de información pública",
+        "Únicamente las posteriores a tres años",
+        "Denegación, acceso parcial, modalidad distinta o acceso con oposición de tercero"
+      ],
+      "correcta": 3,
+      "justificacion": "El art. 20.2 de la Ley 19/2013 exige motivación en las cuatro situaciones.",
+      "trampa": "Una concesión puede necesitar motivación si un tercero se opone.",
+      "referencia": "Ley 19/2013 art. 20.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "respuestaLiteral": "Denegación, acceso parcial, modalidad distinta o acceso con oposición de tercero"
+    },
+    {
+      "id": "DIP-T28-019",
+      "pregunta": "¿Cuándo debe designarse delegado de protección de datos por el artículo 37.1.a RGPD?",
+      "opciones": [
+        "Solo cuando haya sanciones",
+        "Cuando el tratamiento lo lleve a cabo una autoridad u organismo público, salvo tribunales en función judicial",
+        "Solo en empresas de más de 500 trabajadores",
+        "Siempre en los tratamientos domésticos"
+      ],
+      "correcta": 1,
+      "justificacion": "Autoridades y organismos públicos designan **delegado de protección de datos**, con excepción de tribunales en función judicial.",
+      "trampa": "Diferenciar plazo, vía de acceso, autoridad competente y las excepciones.",
+      "referencia": "RGPD art. 37.1.a · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa",
+      "respuestaLiteral": "Cuando el tratamiento lo lleve a cabo una autoridad u organismo público, salvo tribunales en función judicial"
+    },
+    {
+      "id": "DIP-T28-020",
+      "pregunta": "¿Cuál es el plazo máximo para resolver y notificar la reclamación de transparencia del artículo 24.4?",
+      "opciones": [
+        "Un año con silencio estimatorio",
+        "Quince días con silencio positivo",
+        "Tres meses, con silencio desestimatorio",
+        "Cinco días hábiles"
+      ],
+      "correcta": 2,
+      "justificacion": "El art. 24.4 fija tres meses y efecto desestimatorio del silencio.",
+      "trampa": "No confundir la reclamación con la petición original de acceso, que se resuelve en un mes.",
+      "referencia": "Ley 19/2013 art. 24.4 · https://www.boe.es/buscar/act.php?id=BOE-A-2013-12887",
+      "respuestaLiteral": "Tres meses, con silencio desestimatorio"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_28_31_20261105": {
+    "fecha": "2026-11-05",
+    "duplicadosSustituidos": 6,
+    "certificacionIntegral": false
+  }
+}

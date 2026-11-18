@@ -1,0 +1,319 @@
+{
+  "tema": 19,
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T19-001",
+      "pregunta": "¿Cómo se clasifican las faltas disciplinarias en la Ley 4/2011?",
+      "opciones": [
+        "Gravísimas, graves y leves",
+        "Muy graves y leves",
+        "Muy graves, graves y leves",
+        "Mayores y menores"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 133 de la Ley 4/2011 clasifica las faltas disciplinarias en muy graves, graves y leves.",
+      "trampa": "La ley no utiliza la categoría gravísima.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 133 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a133",
+      "respuestaLiteral": "Muy graves, graves y leves"
+    },
+    {
+      "id": "DIP-T19-002",
+      "pregunta": "¿Qué triple identidad exige el principio non bis in idem?",
+      "opciones": [
+        "Órgano, procedimiento y sanción",
+        "Autor, resultado y culpa",
+        "Tiempo, lugar y modo",
+        "Sujeto, hecho y fundamento"
+      ],
+      "correcta": 3,
+      "justificacion": "No cabe una doble sanción penal o administrativa cuando coinciden sujeto, hecho y fundamento.",
+      "trampa": "No basta con que coincidan únicamente el sujeto y el hecho; también debe existir identidad de fundamento.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 132 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a132",
+      "respuestaLiteral": "Sujeto, hecho y fundamento"
+    },
+    {
+      "id": "DIP-T19-003",
+      "pregunta": "¿Cuándo prescribe una falta muy grave?",
+      "opciones": [
+        "A los 2 años",
+        "A los 3 años",
+        "Al año",
+        "A los 6 meses"
+      ],
+      "correcta": 1,
+      "justificacion": "Las faltas muy graves prescriben a los 3 años.",
+      "trampa": "No debe confundirse con el plazo de 2 años aplicable a las faltas graves.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141",
+      "respuestaLiteral": "A los 3 años"
+    },
+    {
+      "id": "DIP-T19-004",
+      "pregunta": "¿Cuándo prescribe una falta leve?",
+      "opciones": [
+        "Al año",
+        "A los 2 años",
+        "A los 6 meses",
+        "A los 3 meses"
+      ],
+      "correcta": 2,
+      "justificacion": "Las faltas leves prescriben a los 6 meses.",
+      "trampa": "La sanción impuesta por una falta leve prescribe al año, pero la propia falta prescribe a los 6 meses.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141",
+      "respuestaLiteral": "A los 6 meses"
+    },
+    {
+      "id": "DIP-T19-005",
+      "pregunta": "¿Cuándo prescribe una sanción impuesta por falta leve?",
+      "opciones": [
+        "Al año",
+        "A los 6 meses",
+        "A los 2 años",
+        "A los 3 años"
+      ],
+      "correcta": 0,
+      "justificacion": "Las sanciones impuestas por faltas leves prescriben al año desde la firmeza en vía administrativa de la resolución sancionadora.",
+      "trampa": "No debe confundirse el plazo de prescripción de la sanción con el de la propia falta leve.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141",
+      "respuestaLiteral": "Al año"
+    },
+    {
+      "id": "DIP-T19-006",
+      "pregunta": "¿Qué sucede si el expediente disciplinario permanece paralizado más de un mes por causa no imputable a la persona investigada?",
+      "opciones": [
+        "Se archiva automáticamente",
+        "Se reanuda el plazo de prescripción",
+        "La falta se convierte en leve",
+        "La sanción queda anulada"
+      ],
+      "correcta": 1,
+      "justificacion": "La prescripción, interrumpida por la iniciación del procedimiento conocida por la persona interesada, se reanuda si el expediente permanece paralizado durante más de un mes por causa no imputable a la persona presuntamente responsable.",
+      "trampa": "La paralización no produce el archivo automático del expediente.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141",
+      "respuestaLiteral": "Se reanuda el plazo de prescripción"
+    },
+    {
+      "id": "DIP-T19-007",
+      "pregunta": "¿Cuál es el plazo de cancelación de una sanción por falta grave?",
+      "opciones": [
+        "2 años",
+        "1 año",
+        "3 años",
+        "6 meses"
+      ],
+      "correcta": 0,
+      "justificacion": "La anotación de una sanción por falta grave puede cancelarse a los 2 años desde su cumplimiento, siempre que no se haya impuesto una nueva sanción.",
+      "trampa": "Los plazos ordinarios de cancelación son 1 año para leves, 2 años para graves y 3 años para muy graves.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a142",
+      "respuestaLiteral": "2 años"
+    },
+    {
+      "id": "DIP-T19-008",
+      "pregunta": "¿Puede cancelarse la anotación de una sanción de separación del servicio?",
+      "opciones": [
+        "No",
+        "Sí, a los 3 años",
+        "Sí, a los 5 años",
+        "Sí, cuando lo solicite la persona interesada"
+      ],
+      "correcta": 0,
+      "justificacion": "La anotación de la sanción de separación del servicio no es cancelable.",
+      "trampa": "La separación del servicio constituye la excepción a la regla general de cancelación de anotaciones disciplinarias.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a142",
+      "respuestaLiteral": "No"
+    },
+    {
+      "id": "DIP-T19-009",
+      "pregunta": "¿Cuál es la duración máxima del procedimiento disciplinario por falta grave o muy grave?",
+      "opciones": [
+        "6 meses",
+        "12 meses",
+        "18 meses",
+        "24 meses"
+      ],
+      "correcta": 1,
+      "justificacion": "La Ley 4/2011 fija una duración máxima de 12 meses para los procedimientos disciplinarios por faltas graves o muy graves.",
+      "trampa": "No debe aplicarse automáticamente el plazo general de 6 meses previsto para otros procedimientos administrativos.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a143",
+      "respuestaLiteral": "12 meses"
+    },
+    {
+      "id": "DIP-T19-010",
+      "pregunta": "¿Qué sanción solo puede imponerse por falta muy grave?",
+      "opciones": [
+        "Apercibimiento",
+        "Demérito",
+        "Traslado provisional",
+        "Separación del servicio"
+      ],
+      "correcta": 3,
+      "justificacion": "La separación del servicio del personal funcionario de carrera solo puede imponerse por la comisión de una falta muy grave.",
+      "trampa": "El apercibimiento es una sanción de menor intensidad y no se reserva a las faltas muy graves.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 138 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a138",
+      "respuestaLiteral": "Separación del servicio"
+    },
+    {
+      "id": "DIP-T19-011",
+      "pregunta": "¿Pueden aplicarse por analogía las normas que definen faltas disciplinarias?",
+      "opciones": [
+        "Sí, siempre",
+        "Solo para faltas leves",
+        "Solo con autorización judicial",
+        "No"
+      ],
+      "correcta": 3,
+      "justificacion": "El principio de legalidad y tipicidad impide aplicar por analogía las normas que definen faltas y sanciones disciplinarias.",
+      "trampa": "La analogía no puede utilizarse para ampliar las conductas sancionables.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 128 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a128",
+      "respuestaLiteral": "No"
+    },
+    {
+      "id": "DIP-T19-012",
+      "pregunta": "¿Qué efecto tienen los hechos declarados probados por una sentencia penal firme?",
+      "opciones": [
+        "Vinculan a la Administración en el procedimiento disciplinario",
+        "Carecen de efectos",
+        "Solo sirven como indicio",
+        "Obligan siempre a imponer la misma sanción"
+      ],
+      "correcta": 0,
+      "justificacion": "Los hechos declarados probados por una resolución judicial penal firme vinculan a la Administración en el procedimiento disciplinario.",
+      "trampa": "La vinculación afecta a los hechos probados, pero no obliga necesariamente a imponer una sanción disciplinaria idéntica a la penal.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 145 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a145",
+      "respuestaLiteral": "Vinculan a la Administración en el procedimiento disciplinario"
+    },
+    {
+      "id": "DIP-T19-013",
+      "pregunta": "¿Cuándo empiezan a prescribir las faltas disciplinarias continuadas?",
+      "opciones": [
+        "Desde el nombramiento",
+        "Desde el cese de su comisión",
+        "Desde el comienzo de la investigación",
+        "Desde la publicación de la sanción"
+      ],
+      "correcta": 1,
+      "justificacion": "El cómputo de la falta continuada empieza **desde el cese de su comisión**.",
+      "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141",
+      "respuestaLiteral": "Desde el cese de su comisión"
+    },
+    {
+      "id": "DIP-T19-014",
+      "pregunta": "¿Cuándo comienza a correr la prescripción de una sanción disciplinaria?",
+      "opciones": [
+        "En la fecha de la denuncia",
+        "En el día de la infracción",
+        "Desde la incoación del expediente",
+        "Desde la firmeza administrativa de la resolución sancionadora"
+      ],
+      "correcta": 3,
+      "justificacion": "La prescripción de la sanción se cuenta desde la **firmeza en vía administrativa** de la resolución.",
+      "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 141 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a141",
+      "respuestaLiteral": "Desde la firmeza administrativa de la resolución sancionadora"
+    },
+    {
+      "id": "DIP-T19-015",
+      "pregunta": "¿Qué procedimiento se aplica a las sanciones por faltas leves según el artículo 143.3 de la Ley 4/2011?",
+      "opciones": [
+        "Expediente penal siempre obligatorio",
+        "Procedimiento sumario y simplificado, con audiencia de la persona interesada",
+        "Sin audiencia por ser leve",
+        "El mismo proceso máximo de 12 meses de faltas muy graves"
+      ],
+      "correcta": 1,
+      "justificacion": "**Art. 143.3 Ley 4/2011**: faltas leves, procedimiento **sumario y simplificado con audiencia**.",
+      "trampa": "**Leve** no significa sanción sin **audiencia**. El máximo **12 meses** se refiere a faltas graves/muy graves.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a143",
+      "respuestaLiteral": "Procedimiento sumario y simplificado, con audiencia de la persona interesada"
+    },
+    {
+      "id": "DIP-T19-016",
+      "pregunta": "¿Qué efecto tiene la reincidencia durante el plazo ordinario de cancelación?",
+      "opciones": [
+        "Se anula la primera sanción",
+        "Se cancela inmediatamente la anotación",
+        "Se duplica el plazo de cancelación",
+        "Se impone separación obligatoria"
+      ],
+      "correcta": 2,
+      "justificacion": "En reiteración o reincidencia los plazos de cancelación pasan al **doble**.",
+      "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 142 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a142",
+      "respuestaLiteral": "Se duplica el plazo de cancelación"
+    },
+    {
+      "id": "DIP-T19-017",
+      "pregunta": "¿Qué separación organizativa requiere el procedimiento disciplinario?",
+      "opciones": [
+        "Que todo lo tramite la misma persona",
+        "Que resuelva el sindicato",
+        "Que el tribunal penal instruya siempre",
+        "Que instrucción y sanción correspondan a órganos diferentes"
+      ],
+      "correcta": 3,
+      "justificacion": "La **fase instructora** y la **sancionadora** se encomiendan a **órganos distintos**.",
+      "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a143",
+      "respuestaLiteral": "Que instrucción y sanción correspondan a órganos diferentes"
+    },
+    {
+      "id": "DIP-T19-018",
+      "pregunta": "¿Cuándo son ejecutivas las resoluciones de procedimientos disciplinarios?",
+      "opciones": [
+        "Cuando sean firmes en vía administrativa",
+        "Al emitirse una propuesta",
+        "Desde su incoación",
+        "Solo tras sentencia penal"
+      ],
+      "correcta": 0,
+      "justificacion": "Son ejecutivas cuando alcanzan **firmeza en vía administrativa**.",
+      "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 143 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a143",
+      "respuestaLiteral": "Cuando sean firmes en vía administrativa"
+    },
+    {
+      "id": "DIP-T19-019",
+      "pregunta": "¿Cuál es el límite general de suspensión provisional como medida cautelar en expediente disciplinario?",
+      "opciones": [
+        "Un mes",
+        "Tres meses",
+        "Seis meses",
+        "Doce meses"
+      ],
+      "correcta": 2,
+      "justificacion": "La suspensión provisional **no puede exceder de 6 meses**, salvo paralización imputable al interesado y otros supuestos judiciales legalmente previstos.",
+      "trampa": "Separar prescripción, cancelación y duración del procedimiento; atender al dies a quo.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 144 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a144",
+      "respuestaLiteral": "Seis meses"
+    },
+    {
+      "id": "DIP-T19-020",
+      "pregunta": "¿Qué impide la sentencia penal condenatoria cuando existe identidad de sujeto, hecho y fundamento con una falta disciplinaria?",
+      "opciones": [
+        "Siempre sanción penal y disciplinaria acumuladas",
+        "Solo si el empleado lo reconoce",
+        "Imponer una segunda sanción disciplinaria por los mismos hechos y fundamento",
+        "La revisión por el tribunal de oposiciones"
+      ],
+      "correcta": 2,
+      "justificacion": "El **art. 145.3 Ley 4/2011** impide sanción disciplinaria en caso de condena penal e identidad de **sujeto, hecho y fundamento**.",
+      "trampa": "**Non bis in idem** exige triple identidad; el carácter penal de la resolución no autoriza sanción duplicada.",
+      "referencia": "Ley 4/2011 Empleo Público CLM · art. 145 · https://www.boe.es/buscar/act.php?id=BOE-A-2011-7752#a145",
+      "respuestaLiteral": "Imponer una segunda sanción disciplinaria por los mismos hechos y fundamento"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_16_19_20261105": {
+    "fecha": "2026-11-05",
+    "estado": "AUDITADO_JURIDICO_PEDAGOGICO",
+    "preguntas": 20,
+    "alternativas": 80,
+    "reabrirSoloErrorONuevaNorma": true,
+    "certificacionIntegral": false,
+    "pruebaNavegador": "TRANSVERSAL_PENDIENTE"
+  }
+}

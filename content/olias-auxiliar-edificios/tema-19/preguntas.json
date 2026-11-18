@@ -1,0 +1,163 @@
+{
+  "tema": 19,
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
+  "preguntas": [
+    {
+      "id": "OLIAS-T19-001",
+      "enunciado": "El MDF se fabrica principalmente con:",
+      "opciones": [
+        "Ladrillos",
+        "Metal fundido",
+        "Fibras de madera prensadas",
+        "Chapas cruzadas enteras"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El MDF es un tablero de fibras de madera prensadas con adhesivos; no es contrachapado de chapas ni madera maciza.",
+      "trampaExamen": "¡Foco Examen!: El MDF es un tablero de fibras de madera prensadas con adhesivos; no es contrachapado de chapas ni madera maciza.",
+      "referencia": "Manual §3, clasificación técnica de tableros",
+      "respuestaLiteral": "Fibras de madera prensadas"
+    },
+    {
+      "id": "OLIAS-T19-002",
+      "enunciado": "El contrachapado se forma con:",
+      "opciones": [
+        "Vidrio templado",
+        "Solo fibras sueltas",
+        "Chapas encoladas",
+        "Hormigón"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El contrachapado está formado por chapas encoladas en capas, con orientación alternada habitual para mejorar estabilidad.",
+      "trampaExamen": "¡Foco Examen!: El contrachapado está formado por chapas encoladas en capas, con orientación alternada habitual para mejorar estabilidad.",
+      "referencia": "Manual §3, tableros de madera",
+      "respuestaLiteral": "Chapas encoladas"
+    },
+    {
+      "id": "OLIAS-T19-003",
+      "enunciado": "El formón sirve para:",
+      "opciones": [
+        "Rebajar/tallar madera",
+        "Medir voltaje",
+        "Franquear cartas",
+        "Purgar radiador"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El formón presenta un filo para labrar, tallar o rebajar madera; no se utiliza como lija o escuadra.",
+      "trampaExamen": "¡Foco Examen!: El formón presenta un filo para labrar, tallar o rebajar madera; no se utiliza como lija o escuadra.",
+      "referencia": "Manual §4, herramientas de carpintería",
+      "respuestaLiteral": "Rebajar/tallar madera"
+    },
+    {
+      "id": "OLIAS-T19-004",
+      "enunciado": "Una escuadra ayuda a comprobar:",
+      "opciones": [
+        "Tarifa postal",
+        "Potencia contratada",
+        "Temperatura del agua",
+        "Ángulos y perpendicularidad"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La escuadra facilita la comprobación de ángulos, especialmente perpendicularidad, y no sustituye al sargento.",
+      "trampaExamen": "¡Foco Examen!: La escuadra facilita la comprobación de ángulos, especialmente perpendicularidad, y no sustituye al sargento.",
+      "referencia": "Manual §4, escuadra",
+      "respuestaLiteral": "Ángulos y perpendicularidad"
+    },
+    {
+      "id": "OLIAS-T19-005",
+      "enunciado": "Los sargentos de carpintería se usan para:",
+      "opciones": [
+        "Regular calefacción",
+        "Sujetar piezas",
+        "Encender un fluorescente",
+        "Drenar un sifón"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Los sargentos sujetan piezas durante corte, ensamblaje o encolado; no cortan ni miden por sí mismos.",
+      "trampaExamen": "¡Foco Examen!: Los sargentos sujetan piezas durante corte, ensamblaje o encolado; no cortan ni miden por sí mismos.",
+      "referencia": "Manual §4, gatos o sargentos",
+      "respuestaLiteral": "Sujetar piezas"
+    },
+    {
+      "id": "OLIAS-T19-006",
+      "enunciado": "¿Qué parte de persiana orienta lamas?",
+      "opciones": [
+        "Fusor",
+        "Purgador",
+        "Cebador",
+        "Guías"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Las guías conducen las lamas durante su recorrido; no son el eje de enrollamiento ni la cinta.",
+      "trampaExamen": "¡Foco Examen!: Las guías conducen las lamas durante su recorrido; no son el eje de enrollamiento ni la cinta.",
+      "referencia": "Manual §6, mecanismos de persiana",
+      "respuestaLiteral": "Guías"
+    },
+    {
+      "id": "OLIAS-T19-007",
+      "enunciado": "¿Qué elemento acumula la cinta de persiana?",
+      "opciones": [
+        "Válvula",
+        "Cortatubos",
+        "Recogedor",
+        "Bomba"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El recogedor aloja y recoge la cinta de accionamiento manual; no equivale a la caja ni al eje del paño.",
+      "trampaExamen": "¡Foco Examen!: El recogedor aloja y recoge la cinta de accionamiento manual; no equivale a la caja ni al eje del paño.",
+      "referencia": "Manual §6, mecanismos de persiana",
+      "respuestaLiteral": "Recogedor"
+    },
+    {
+      "id": "OLIAS-T19-008",
+      "enunciado": "¿Debe rebajarse una puerta cortafuegos sin autorización?",
+      "opciones": [
+        "Es obligación del auxiliar",
+        "No",
+        "Sí en todo caso",
+        "Solo si es blanca"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Rebajar una puerta cortafuegos puede afectar sus prestaciones y requiere evaluación técnica y autorización; no se realiza por iniciativa propia.",
+      "trampaExamen": "¡Foco Examen!: Rebajar una puerta cortafuegos puede afectar sus prestaciones y requiere evaluación técnica y autorización; no se realiza por iniciativa propia.",
+      "referencia": "Manual §5, puertas resistentes al fuego",
+      "respuestaLiteral": "No"
+    },
+    {
+      "id": "OLIAS-T19-009",
+      "enunciado": "En lijado de madera aparece riesgo de:",
+      "opciones": [
+        "Polvo",
+        "Solo agua potable",
+        "Tarifa comercial",
+        "Ninguno"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El lijado produce polvo de madera; se evalúan exposición y control mediante extracción, ventilación y protección apropiada.",
+      "trampaExamen": "¡Foco Examen!: El lijado produce polvo de madera; se evalúan exposición y control mediante extracción, ventilación y protección apropiada.",
+      "referencia": "Manual §7; LPRL arts. 15 y 17",
+      "respuestaLiteral": "Polvo"
+    },
+    {
+      "id": "OLIAS-T19-010",
+      "enunciado": "La unión encolada requiere:",
+      "opciones": [
+        "Quemar la madera",
+        "Adhesivo compatible y condiciones de uso",
+        "Ignorar ventilación",
+        "Cualquier producto al azar"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La cola debe ser compatible con material y uso, y aplicarse conforme a instrucciones y ficha de seguridad; una unión inadecuada puede fallar.",
+      "trampaExamen": "¡Foco Examen!: La cola debe ser compatible con material y uso, y aplicarse conforme a instrucciones y ficha de seguridad; una unión inadecuada puede fallar.",
+      "referencia": "Manual §7, adhesivos y seguridad",
+      "respuestaLiteral": "Adhesivo compatible y condiciones de uso"
+    }
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "REVISION_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
+}

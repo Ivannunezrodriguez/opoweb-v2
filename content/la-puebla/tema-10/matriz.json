@@ -1,0 +1,211 @@
+{
+  "tema": 10,
+  "estado": "AUDITADO",
+  "epigrafeOficial": "Principios de tributación local. Delegación. Colaboración. Beneficios fiscales y compensación. Las obligaciones tributarias. Los obligados tributarios. Los procedimientos de gestión tributaria. La extinción de la deuda.",
+  "fechaRevisionNormativa": "2026-11-04",
+  "trazabilidadArticuloPorArticulo": "content/la-puebla/tema-10/articulos.md",
+  "normas": [
+    {
+      "titulo": "Constitución española",
+      "articulos": "31.1 y 133"
+    },
+    {
+      "titulo": "Real Decreto Legislativo 2/2004, de 5 de marzo, texto refundido de la Ley Reguladora de las Haciendas Locales",
+      "referencia": "BOE-A-2004-4214",
+      "textoConsolidadoConsultado": "Última actualización publicada el 03/06/2026",
+      "urlOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214"
+    },
+    {
+      "titulo": "Ley 58/2003, de 17 de diciembre, General Tributaria",
+      "referencia": "BOE-A-2003-23186",
+      "textoConsolidadoConsultado": "Última actualización publicada el 21/12/2024",
+      "urlOficial": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    }
+  ],
+  "cobertura": [
+    {
+      "inciso": "Principios de tributación local",
+      "articulos": "CE 31.1 y 133; LGT 3; TRLRHL 6",
+      "contenidoExigible": [
+        "capacidad económica, igualdad, progresividad y no confiscatoriedad",
+        "potestad tributaria local dentro de la ley",
+        "límites territoriales",
+        "libre circulación"
+      ]
+    },
+    {
+      "inciso": "Delegación",
+      "articulos": "TRLRHL 7",
+      "contenidoExigible": [
+        "entidades destinatarias",
+        "facultades delegables",
+        "acuerdo plenario",
+        "aceptación y publicación",
+        "régimen de ejercicio e impugnación"
+      ]
+    },
+    {
+      "inciso": "Colaboración",
+      "articulos": "TRLRHL 8",
+      "contenidoExigible": [
+        "intercambio de información",
+        "asistencia recíproca",
+        "planes coordinados",
+        "actuaciones fuera del territorio",
+        "diferencia respecto de la delegación"
+      ]
+    },
+    {
+      "inciso": "Beneficios fiscales y compensación",
+      "articulos": "TRLRHL 9-12",
+      "contenidoExigible": [
+        "reserva legal",
+        "beneficios obligatorios y potestativos",
+        "bonificación máxima del cinco por ciento",
+        "compensación estatal",
+        "aplicación local de la LGT"
+      ]
+    },
+    {
+      "inciso": "Obligaciones tributarias",
+      "articulos": "LGT 17-34",
+      "contenidoExigible": [
+        "relación jurídico-tributaria",
+        "obligación principal, a cuenta, entre particulares y accesorias",
+        "interés y recargos",
+        "obligaciones formales",
+        "obligaciones de la Administración",
+        "derechos y garantías"
+      ]
+    },
+    {
+      "inciso": "Obligados tributarios",
+      "articulos": "LGT 35-48",
+      "contenidoExigible": [
+        "contribuyente y sustituto",
+        "pagos a cuenta",
+        "sucesores",
+        "responsables solidarios y subsidiarios",
+        "capacidad y representación",
+        "domicilio fiscal"
+      ]
+    },
+    {
+      "inciso": "Extinción de la deuda",
+      "articulos": "LGT 58-76",
+      "contenidoExigible": [
+        "composición de la deuda",
+        "pago",
+        "prescripción",
+        "compensación",
+        "condonación",
+        "baja provisional por insolvencia"
+      ]
+    },
+    {
+      "inciso": "Procedimientos de gestión tributaria",
+      "articulos": "LGT 117-140",
+      "contenidoExigible": [
+        "funciones y formas de inicio",
+        "declaración, autoliquidación y comunicación",
+        "devolución",
+        "procedimiento iniciado por declaración",
+        "verificación de datos",
+        "comprobación de valores",
+        "comprobación limitada"
+      ]
+    }
+  ],
+  "exclusionesDelNucleo": [
+    "recaudación voluntaria y ejecutiva desarrollada en profundidad",
+    "procedimiento de apremio",
+    "inspección tributaria completa",
+    "procedimiento sancionador",
+    "revisión tributaria",
+    "aprobación de ordenanzas fiscales",
+    "estructura sustantiva completa de cada impuesto local"
+  ],
+  "criterioDeCierre": "Requiere revisión humana y la expresión Tema 10 aprobado. La longitud, la trazabilidad y la validación automática no acreditan por sí solas suficiencia pedagógica.",
+  "aprobadoEl": "2026-07-17",
+  "controlFocalizado20261102": {
+    "fecha": "2026-11-02",
+    "norma": "Ley 58/2003, artículo 27.2–5",
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186",
+    "incisos": [
+      "obligaciones tributarias accesorias",
+      "recargos por declaración extemporánea"
+    ],
+    "comprobaciones": [
+      "1 % inicial más 1 % por mes completo antes de cumplirse 12 meses",
+      "15 % desde que transcurren 12 meses e intereses posteriores",
+      "excepción por regularización de otros períodos bajo requisitos acumulados",
+      "posible concurrencia con recargos de período ejecutivo si no se ingresa",
+      "reducción condicionada de 25 % del importe del recargo"
+    ],
+    "preguntas": [
+      "LP-T10-007"
+    ],
+    "estado": "REVISION_JURIDICA_PARCIAL; aprobación histórica no recertificada"
+  },
+  "controlFocalizado20261104Cobro": {
+    "fecha": "2026-11-04",
+    "ley": "Ley 58/2003",
+    "articulos": "62.1–7, 65.1–5, 161.2",
+    "puntos": [
+      "Liquidación voluntaria vs providencia apremio plazos día 20/5",
+      "Notificación colectiva 1/9–20/11 y margen para modificar mínimo dos meses",
+      "Siete categorías de deudas inaplazables",
+      "Pedir aplazamiento voluntario no excluye devengo de intereses"
+    ],
+    "grado": "REVISION_PARCIAL_SIN_RECERTIFICACION"
+  },
+  "controlIntegralEditorial20261104": {
+    "fecha": "2026-11-04",
+    "estado": "AUDITADO",
+    "ambito": "8 ámbitos del programa, banco de 12 preguntas, 48 alternativas documentadas",
+    "preguntasVerificadas": 12,
+    "opcionesVerificadas": 48,
+    "documento": "content/la-puebla/tema-10/cotejo-integral-2026-11-04.md",
+    "fuentesOficiales": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214",
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186"
+    ],
+    "controlFuncionalWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "certificacionIntegralCincoCapas": false
+  },
+  "controlFocal20261107": {
+    "fecha": "2026-11-07",
+    "resultado": "INCIDENCIAS_DOCUMENTALES_FOCALES_CORREGIDAS_CON_RESERVAS",
+    "acta": "content/la-puebla/CIERRE_FOCAL_T09_T12_20261107.md",
+    "repaso": "content/la-puebla/REPASO_FOCAL_T09_T12_20261107.md",
+    "prueba": "tests/validate-la-puebla-repaso-t09-t12-20261107.mjs",
+    "bloquesHistoricos": 8,
+    "preguntasHistoricas": 12,
+    "alternativasHistoricas": 48,
+    "referenciasPrecisadas": 12,
+    "microcasosMarkdown": 2,
+    "alternativasMicrocasos": 8,
+    "preceptosFoco": [
+      "LGT 21, 27, 28, 41, 58, 66 y 120",
+      "TRLRHL 7–9 y CE 31.1"
+    ],
+    "trampa": "LGT 27: 1% mas meses completos; art 28: recargos 5/10/20; no duplicar repaso T10–T14",
+    "aprobacionUsuarioHistoricaPreservada": true,
+    "certificacionIntegral": false,
+    "ejecucionGitHubActionsVerificada": false,
+    "pruebaNavegadorReal": false,
+    "pendientes": [
+      "CI real en commit vigente",
+      "navegacion real movil WCAG PWA y progreso",
+      "revision legal articulo por articulo hasta examen",
+      "sin reabrir aprobacion historica del usuario"
+    ]
+  },
+  "auditoriaPromocion20261110": {
+    "evidencia": "cotejo-integral-2026-11-04.md",
+    "aprobacionHistorica": "2026-07-17",
+    "certificacionIntegral": false,
+    "pruebaNavegador": "PENDIENTE"
+  }
+}

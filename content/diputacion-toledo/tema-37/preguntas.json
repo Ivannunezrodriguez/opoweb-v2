@@ -1,0 +1,317 @@
+{
+  "tema": 37,
+  "estado": "AUDITADO",
+  "preguntas": [
+    {
+      "id": "DIP-T37-001",
+      "pregunta": "¿Cuál es el formato nativo de un archivo de LibreOffice Base?",
+      "opciones": [
+        "ODS",
+        "ODB",
+        "ODT",
+        "ODP"
+      ],
+      "correcta": 1,
+      "justificacion": "LibreOffice Base utiliza ODB como formato nativo de sus documentos de base de datos.",
+      "trampa": "ODS corresponde a Calc, ODT a Writer y ODP a Impress.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#2-el-archivo-de-base",
+      "respuestaLiteral": "ODB"
+    },
+    {
+      "id": "DIP-T37-002",
+      "pregunta": "En una tabla de base de datos, un campo equivale a:",
+      "opciones": [
+        "Una columna",
+        "Una fila",
+        "Una consulta",
+        "Un informe"
+      ],
+      "correcta": 0,
+      "justificacion": "Los campos corresponden a las columnas de una tabla y describen los atributos de cada registro.",
+      "trampa": "El registro corresponde a la fila completa, no a la columna.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#4-tablas-campos-y-registros",
+      "respuestaLiteral": "Una columna"
+    },
+    {
+      "id": "DIP-T37-003",
+      "pregunta": "La función principal de una clave primaria es:",
+      "opciones": [
+        "Identificar de forma única cada registro",
+        "Ordenar alfabéticamente",
+        "Crear automáticamente informes",
+        "Ocultar campos"
+      ],
+      "correcta": 0,
+      "justificacion": "La clave primaria identifica de forma única cada registro de la tabla y no admite duplicados ni valores nulos.",
+      "trampa": "Un índice puede mejorar búsquedas u ordenaciones, pero no equivale necesariamente a una clave primaria.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#6-clave-primaria",
+      "respuestaLiteral": "Identificar de forma única cada registro"
+    },
+    {
+      "id": "DIP-T37-004",
+      "pregunta": "En una relación uno a muchos, la clave ajena suele situarse en:",
+      "opciones": [
+        "La tabla del lado uno",
+        "Ambas tablas obligatoriamente",
+        "La tabla del lado muchos",
+        "Ninguna tabla"
+      ],
+      "correcta": 2,
+      "justificacion": "En una relación uno a muchos, la tabla del lado muchos contiene normalmente la clave ajena que referencia a la clave primaria de la tabla principal.",
+      "trampa": "La clave primaria permanece en la tabla referenciada; la clave ajena puede repetirse en los registros relacionados del lado muchos.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#8-relaciones-entre-tablas",
+      "respuestaLiteral": "La tabla del lado muchos"
+    },
+    {
+      "id": "DIP-T37-005",
+      "pregunta": "¿Qué objeto de Base está orientado principalmente a seleccionar, filtrar y combinar datos?",
+      "opciones": [
+        "Tabla",
+        "Consulta",
+        "Formulario",
+        "Informe"
+      ],
+      "correcta": 1,
+      "justificacion": "Las consultas permiten seleccionar, combinar, filtrar, calcular u ordenar datos según los campos, criterios y relaciones definidos.",
+      "trampa": "La tabla almacena los datos, el formulario facilita su edición y el informe los presenta.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#3-objetos-principales-de-base",
+      "respuestaLiteral": "Consulta"
+    },
+    {
+      "id": "DIP-T37-006",
+      "pregunta": "Una consulta de selección, por regla general:",
+      "opciones": [
+        "Muestra datos según criterios sin alterar el origen",
+        "Elimina los registros no mostrados",
+        "Modifica siempre las tablas",
+        "Borra la estructura de la tabla"
+      ],
+      "correcta": 0,
+      "justificacion": "Una consulta de selección devuelve los registros que cumplen los criterios sin modificar por sí sola los datos de las tablas de origen.",
+      "trampa": "No debe confundirse una consulta SELECT con consultas o sentencias de actualización, inserción o eliminación.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#101-consulta-de-selección",
+      "respuestaLiteral": "Muestra datos según criterios sin alterar el origen"
+    },
+    {
+      "id": "DIP-T37-007",
+      "pregunta": "¿Qué objeto está especialmente pensado para introducir y editar datos mediante controles?",
+      "opciones": [
+        "Informe",
+        "Relación",
+        "Formulario",
+        "Índice"
+      ],
+      "correcta": 2,
+      "justificacion": "Los formularios proporcionan controles vinculados a tablas, consultas o instrucciones SQL para introducir, revisar o modificar registros.",
+      "trampa": "El informe está orientado principalmente a presentar e imprimir datos, no a su edición ordinaria.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#12-formularios",
+      "respuestaLiteral": "Formulario"
+    },
+    {
+      "id": "DIP-T37-008",
+      "pregunta": "La finalidad principal de un informe es:",
+      "opciones": [
+        "Definir claves primarias",
+        "Crear relaciones",
+        "Ejecutar copias de seguridad",
+        "Presentar y preparar datos para lectura o impresión"
+      ],
+      "correcta": 3,
+      "justificacion": "Los informes organizan y presentan datos mediante encabezados, agrupaciones, totales y formato apto para lectura o impresión.",
+      "trampa": "Un informe suele basarse en una tabla o consulta, pero no almacena los datos originales.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#13-informes",
+      "respuestaLiteral": "Presentar y preparar datos para lectura o impresión"
+    },
+    {
+      "id": "DIP-T37-009",
+      "pregunta": "Aplicar un filtro en una tabla:",
+      "opciones": [
+        "Elimina definitivamente los registros excluidos",
+        "Cambia la clave primaria",
+        "Convierte la tabla en informe",
+        "Oculta temporalmente los registros que no cumplen el criterio"
+      ],
+      "correcta": 3,
+      "justificacion": "Aplicar un filtro limita temporalmente los registros visibles a los que cumplen el criterio, sin eliminar los restantes.",
+      "trampa": "Filtrar y eliminar son operaciones distintas: los registros excluidos siguen almacenados.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#14-ordenación-búsqueda-y-filtrado",
+      "respuestaLiteral": "Oculta temporalmente los registros que no cumplen el criterio"
+    },
+    {
+      "id": "DIP-T37-010",
+      "pregunta": "¿Qué afirmación es correcta sobre un archivo ODB conectado a una base externa?",
+      "opciones": [
+        "Copia necesariamente todos los datos externos dentro del ODB",
+        "Elimina la base externa al cerrarse",
+        "Solo puede abrirse sin red",
+        "Puede contener la conexión y objetos mientras los datos permanecen en el servidor"
+      ],
+      "correcta": 3,
+      "justificacion": "En una conexión externa, el archivo ODB puede guardar la configuración de conexión, consultas, formularios e informes, mientras los datos permanecen en el servidor o fuente externa.",
+      "trampa": "No debe confundirse el contenedor de conexión con una copia completa de la base de datos externa.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#2-el-archivo-de-base",
+      "respuestaLiteral": "Puede contener la conexión y objetos mientras los datos permanecen en el servidor"
+    },
+    {
+      "id": "DIP-T37-011",
+      "pregunta": "¿Qué diferencia básica existe entre JDBC y ODBC?",
+      "opciones": [
+        "JDBC solo crea informes y ODBC formularios",
+        "ODBC es un formato de archivo y JDBC una tabla",
+        "No existe diferencia",
+        "JDBC usa controladores Java y ODBC la infraestructura de conectividad del sistema"
+      ],
+      "correcta": 3,
+      "justificacion": "JDBC utiliza controladores Java, mientras que ODBC emplea la infraestructura de conectividad de bases de datos disponible en el sistema operativo.",
+      "trampa": "JDBC y ODBC son tecnologías de conexión, no objetos internos de Base como tablas, formularios o informes.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#15-importación-y-conexión-a-fuentes-externas",
+      "respuestaLiteral": "JDBC usa controladores Java y ODBC la infraestructura de conectividad del sistema"
+    },
+    {
+      "id": "DIP-T37-012",
+      "pregunta": "¿Qué sentencia SQL se utiliza para consultar datos?",
+      "opciones": [
+        "SELECT",
+        "DELETE",
+        "UPDATE",
+        "DROP TABLE"
+      ],
+      "correcta": 0,
+      "justificacion": "La sentencia SELECT recupera datos de una o varias tablas conforme a los campos, relaciones y criterios indicados.",
+      "trampa": "DELETE elimina registros, UPDATE modifica datos y DROP TABLE elimina la tabla completa si el motor lo permite.",
+      "referencia": "content/diputacion-toledo/tema-37/manual.md#11-sql-y-vista-de-diseño",
+      "respuestaLiteral": "SELECT"
+    },
+    {
+      "id": "DIP-T37-013",
+      "pregunta": "¿Qué menú abre el diseño de relaciones entre tablas en LibreOffice Base?",
+      "opciones": [
+        "Archivo > Exportar",
+        "Herramientas > Relaciones",
+        "Ver > Zoom",
+        "Formato > Párrafo"
+      ],
+      "correcta": 1,
+      "justificacion": "El comando **Herramientas > Relaciones** abre el diseño de relaciones.",
+      "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html",
+      "respuestaLiteral": "Herramientas > Relaciones"
+    },
+    {
+      "id": "DIP-T37-014",
+      "pregunta": "¿Qué requisito tiene la opción de crear relaciones mediante la interfaz de Base?",
+      "opciones": [
+        "Una hoja Calc vinculada",
+        "Una base de datos relacional que admita relaciones",
+        "Un documento PDF",
+        "Un gráfico ya insertado"
+      ],
+      "correcta": 1,
+      "justificacion": "Las relaciones están disponibles cuando la base subyacente admite relaciones.",
+      "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/sdatabase/05020000.html",
+      "respuestaLiteral": "Una base de datos relacional que admita relaciones"
+    },
+    {
+      "id": "DIP-T37-015",
+      "pregunta": "En una consulta SQL de Base, ¿qué diferencia existe entre COUNT(*) y COUNT(campo)?",
+      "opciones": [
+        "COUNT(*) cuenta filas; COUNT(campo) excluye los valores NULL del campo",
+        "Ambas funciones solo cuentan valores numéricos",
+        "COUNT(*) cuenta exclusivamente las claves primarias",
+        "COUNT(campo) devuelve siempre cero"
+      ],
+      "correcta": 0,
+      "justificacion": "La ayuda oficial del diseñador de consultas de Base especifica que COUNT(*) incluye todos los registros, mientras COUNT(columna) no cuenta aquellos con valor NULL.",
+      "trampa": "No confundir el recuento de filas con el de valores no nulos de una columna.",
+      "referencia": "LibreOffice Base, diseño de consulta, recuento · https://help.libreoffice.org/latest/es/text/sdatabase/02010100.html",
+      "respuestaLiteral": "COUNT(*) cuenta filas; COUNT(campo) excluye los valores NULL del campo"
+    },
+    {
+      "id": "DIP-T37-016",
+      "pregunta": "¿Qué puede ocurrir al activar eliminación en cascada en una relación?",
+      "opciones": [
+        "Solo cambia el orden visual",
+        "Se deshabilitan los formularios",
+        "Se eliminan también registros relacionados en la tabla dependiente",
+        "Se crea automáticamente un informe"
+      ],
+      "correcta": 2,
+      "justificacion": "La eliminación en cascada puede borrar registros dependientes: requiere precaución.",
+      "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/sdatabase/05020100.html",
+      "respuestaLiteral": "Se eliminan también registros relacionados en la tabla dependiente"
+    },
+    {
+      "id": "DIP-T37-017",
+      "pregunta": "¿Qué opción de relación actualiza las claves foráneas cuando cambia la clave primaria referenciada?",
+      "opciones": [
+        "Eliminar informe",
+        "Actualización en cascada",
+        "Vista preliminar",
+        "Solo lectura"
+      ],
+      "correcta": 1,
+      "justificacion": "**Actualización en cascada** propaga el cambio de clave a las referencias asociadas.",
+      "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/sdatabase/05020100.html",
+      "respuestaLiteral": "Actualización en cascada"
+    },
+    {
+      "id": "DIP-T37-018",
+      "pregunta": "En LibreOffice Base, ¿cómo se representa normalmente un parámetro de consulta que se solicita al ejecutar?",
+      "opciones": [
+        "Con un prefijo obligatorio de dos signos de interrogación",
+        "Con el signo dólar seguido de una referencia de celda",
+        "Sin nombre, usando únicamente la palabra SELECT",
+        "Con dos puntos delante del nombre, por ejemplo :Departamento"
+      ],
+      "correcta": 3,
+      "justificacion": "Los nombres de parámetro se escriben con : en la vista Diseño y SQL; al ejecutar, Base solicita al usuario el valor.",
+      "trampa": "Los parámetros no se sustituyen por referencias relativas de Calc.",
+      "referencia": "LibreOffice Base, consulta con parámetros · https://help.libreoffice.org/latest/es/text/sdatabase/02010100.html",
+      "respuestaLiteral": "Con dos puntos delante del nombre, por ejemplo :Departamento"
+    },
+    {
+      "id": "DIP-T37-019",
+      "pregunta": "¿Para qué sirve un subformulario de LibreOffice Base vinculado a un formulario principal?",
+      "opciones": [
+        "Para generar automáticamente la impresión de toda la base",
+        "Para sustituir la clave primaria en todas las tablas",
+        "Para mostrar o editar registros relacionados con el registro del formulario principal",
+        "Para desinstalar una conexión de datos externa"
+      ],
+      "correcta": 2,
+      "justificacion": "Un subformulario puede relacionar datos de tabla o consulta secundaria con el registro actual del formulario principal.",
+      "trampa": "Un subformulario no es un informe ni una consulta independiente de la relación principal.",
+      "referencia": "LibreOffice Base, formularios y subformularios · https://help.libreoffice.org/latest/es/text/sdatabase/04000000.html",
+      "respuestaLiteral": "Para mostrar o editar registros relacionados con el registro del formulario principal"
+    },
+    {
+      "id": "DIP-T37-020",
+      "pregunta": "¿Qué atajo muestra los orígenes de datos registrados desde Writer o Calc en Windows?",
+      "opciones": [
+        "Ctrl + F4",
+        "F4",
+        "Ctrl + Mayús + F4",
+        "Ctrl + Alt + F4"
+      ],
+      "correcta": 2,
+      "justificacion": "**Ctrl + Mayús + F4** abre la vista de orígenes de datos.",
+      "trampa": "Distinguir claves, objetos y operaciones admitidas por el motor de la base de datos.",
+      "referencia": "https://help.libreoffice.org/latest/es/text/shared/guide/database_main.html",
+      "respuestaLiteral": "Ctrl + Mayús + F4"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Distribución de posiciones y verificación literal; no acredita auditoría jurídica completa"
+  },
+  "cierreEditorialC1_36_39_20261105": {
+    "fecha": "2026-11-05",
+    "preguntas": 20,
+    "alternativas": 80,
+    "sustituidas": 3,
+    "certificacionIntegral": false
+  }
+}

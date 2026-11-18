@@ -1,0 +1,201 @@
+{
+  "tema": 13,
+  "titulo": "Ley Orgánica 2/2023 del Sistema Universitario (I)",
+  "preguntas": [
+    {
+      "id": "UC3M-T13-001",
+      "pregunta": "¿Cuál es una función esencial de la Universidad según la LOSU?",
+      "opciones": [
+        "Únicamente expedir títulos",
+        "Docencia, investigación y transferencia del conocimiento",
+        "Solo gestionar becas",
+        "Sustituir a las Administraciones educativas"
+      ],
+      "correcta": 1,
+      "justificacion": "La LOSU configura la docencia, la investigación y la transferencia e intercambio del conocimiento como funciones esenciales.",
+      "trampa": "La expedición de títulos es una consecuencia de la actividad universitaria, no su única función.",
+      "referencia": "Manual, apartados 1 y 2 · LOSU art. 2: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a2",
+      "respuestaLiteral": "Docencia, investigación y transferencia del conocimiento"
+    },
+    {
+      "id": "UC3M-T13-002",
+      "pregunta": "La libertad académica comprende principalmente:",
+      "opciones": [
+        "Libertades de cátedra, investigación y estudio",
+        "Libertad de empresa, contratación y asociación",
+        "Libertad presupuestaria absoluta",
+        "Libertad para incumplir planes de estudio"
+      ],
+      "correcta": 0,
+      "justificacion": "La libertad académica comprende las libertades de cátedra, investigación y estudio.",
+      "trampa": "La autonomía y la libertad académica se ejercen dentro del ordenamiento jurídico.",
+      "referencia": "Manual, apartado 3 · LOSU art. 3: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a3",
+      "respuestaLiteral": "Libertades de cátedra, investigación y estudio"
+    },
+    {
+      "id": "UC3M-T13-003",
+      "pregunta": "¿Cuál de estas facultades forma parte de la autonomía universitaria?",
+      "opciones": [
+        "Aprobar leyes autonómicas",
+        "Ejercer jurisdicción penal",
+        "Fijar impuestos estatales",
+        "Elaborar Estatutos y normas internas"
+      ],
+      "correcta": 3,
+      "justificacion": "La elaboración de Estatutos y normas internas es una manifestación básica de la autonomía universitaria.",
+      "trampa": "Autonomía universitaria no equivale a soberanía legislativa.",
+      "referencia": "Manual, apartado 4 · LOSU art. 3: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a3",
+      "respuestaLiteral": "Elaborar Estatutos y normas internas"
+    },
+    {
+      "id": "UC3M-T13-004",
+      "pregunta": "La autonomía universitaria:",
+      "opciones": [
+        "Excluye todo control financiero",
+        "Convive con legalidad, evaluación y rendición de cuentas",
+        "Elimina la obligación de transparencia",
+        "Permite ignorar la normativa estatal y autonómica"
+      ],
+      "correcta": 1,
+      "justificacion": "La autonomía se ejerce dentro de la ley y está sujeta a evaluación, transparencia, control y rendición de cuentas.",
+      "trampa": "Autonomía no significa ausencia de control.",
+      "referencia": "Manual, apartado 4 · LOSU art. 3: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a3",
+      "respuestaLiteral": "Convive con legalidad, evaluación y rendición de cuentas"
+    },
+    {
+      "id": "UC3M-T13-005",
+      "pregunta": "Conforme al artículo 4.1 LOSU, ¿qué instrumento jurídico crea una universidad pública española?",
+      "opciones": [
+        "Por decreto rectoral",
+        "Por convenio entre facultades",
+        "Por ley",
+        "Por acuerdo del Consejo Social exclusivamente"
+      ],
+      "correcta": 2,
+      "justificacion": "Artículo 4.1 LOSU: por ley de la asamblea legislativa autonómica, previo informe preceptivo de la Conferencia General de Política Universitaria; para universidades de especiales características, por ley de Cortes Generales a propuesta del Gobierno, de acuerdo con el Gobierno autonómico y previo informe de la Conferencia.",
+      "trampa": "Universidad pública ordinaria: ley autonómica e informe preceptivo de Conferencia General de Política Universitaria. Universidad de especiales características: posible ley estatal, con requisitos del art. 4.1.b.",
+      "referencia": "LOSU, art. 4.1.a-b y 4.2 (BOE-A-2023-7500) · LOSU art. 4: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a4",
+      "respuestaLiteral": "Por ley"
+    },
+    {
+      "id": "UC3M-T13-006",
+      "pregunta": "Como regla general del artículo 4.1.a LOSU, ¿cómo se reconoce una universidad privada ubicada en una comunidad autónoma?",
+      "opciones": [
+        "Por resolución del rector",
+        "Por acuerdo de una agencia de calidad",
+        "Por inscripción automática",
+        "Por ley de la comunidad autónoma"
+      ],
+      "correcta": 3,
+      "justificacion": "Artículo 4.1.a LOSU: por ley de la asamblea legislativa autonómica, previo informe preceptivo de la Conferencia General de Política Universitaria. El art. 4.1.b contempla además la vía excepcional de ley estatal para universidades de especiales características, sin limitarla a las públicas.",
+      "trampa": "Reconocimiento de universidad privada ordinaria: ley autonómica, salvo supuesto excepcional de universidades de especiales características en art. 4.1.b.",
+      "referencia": "LOSU, art. 4.1.a-b y 4.2 (BOE-A-2023-7500) · LOSU art. 4: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a4",
+      "respuestaLiteral": "Por ley de la comunidad autónoma"
+    },
+    {
+      "id": "UC3M-T13-007",
+      "pregunta": "¿Cuál de las siguientes es una enseñanza universitaria oficial?",
+      "opciones": [
+        "Curso de extensión universitaria",
+        "Máster Universitario",
+        "Certificado interno de formación",
+        "Título propio de experto"
+      ],
+      "correcta": 1,
+      "justificacion": "Las enseñanzas oficiales se estructuran en Grado, Máster Universitario y Doctorado.",
+      "trampa": "Los títulos propios y la formación permanente no son títulos oficiales.",
+      "referencia": "Manual, apartado 8 · LOSU art. 7: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a7",
+      "respuestaLiteral": "Máster Universitario"
+    },
+    {
+      "id": "UC3M-T13-008",
+      "pregunta": "¿Qué debe ocurrir con los planes de estudio oficiales?",
+      "opciones": [
+        "Solo aprobarlos internamente",
+        "Mantenerse sin evaluación",
+        "Ser aprobados únicamente por el estudiantado",
+        "Verificarse, implantarse, seguirse y renovar su acreditación"
+      ],
+      "correcta": 3,
+      "justificacion": "Los planes oficiales están sujetos a verificación, autorización, implantación, seguimiento y renovación de la acreditación.",
+      "trampa": "La aprobación interna no agota el aseguramiento externo de la calidad.",
+      "referencia": "Manual, apartado 8 · LOSU art. 7: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a7",
+      "respuestaLiteral": "Verificarse, implantarse, seguirse y renovar su acreditación"
+    },
+    {
+      "id": "UC3M-T13-009",
+      "pregunta": "La investigación universitaria debe promover, entre otros principios:",
+      "opciones": [
+        "Secreto absoluto de los resultados",
+        "Exclusión de la cooperación interdisciplinar",
+        "Ciencia abierta e integridad científica",
+        "Ausencia de control ético"
+      ],
+      "correcta": 2,
+      "justificacion": "La LOSU impulsa ciencia abierta, integridad científica, interdisciplinariedad, transferencia e innovación.",
+      "trampa": "La apertura científica debe respetar protección de datos y propiedad intelectual.",
+      "referencia": "Manual, apartado 11 · LOSU art. 12: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a12",
+      "respuestaLiteral": "Ciencia abierta e integridad científica"
+    },
+    {
+      "id": "UC3M-T13-010",
+      "pregunta": "La transferencia del conocimiento universitario:",
+      "opciones": [
+        "Incluye divulgación, innovación social y asesoramiento",
+        "Se limita a vender patentes",
+        "Solo puede hacerse a empresas privadas",
+        "Es ajena a la función universitaria"
+      ],
+      "correcta": 0,
+      "justificacion": "La transferencia comprende también divulgación, innovación social, cultura y colaboración con instituciones y ciudadanía.",
+      "trampa": "No se reduce a resultados comerciales.",
+      "referencia": "Manual, apartado 13 · LOSU art. 13: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a13",
+      "respuestaLiteral": "Incluye divulgación, innovación social y asesoramiento"
+    },
+    {
+      "id": "UC3M-T13-011",
+      "pregunta": "¿Cuál es una manifestación de la internacionalización universitaria?",
+      "opciones": [
+        "Programas conjuntos y atracción de talento",
+        "Eliminar la movilidad",
+        "Prohibir el reconocimiento de estudios",
+        "Limitar el aprendizaje de lenguas"
+      ],
+      "correcta": 0,
+      "justificacion": "La movilidad, los programas conjuntos, el reconocimiento académico y la atracción de talento son instrumentos de internacionalización.",
+      "trampa": "La internacionalización debe reducir barreras, no crearlas.",
+      "referencia": "Manual, apartado 14 · LOSU art. 23: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a23",
+      "respuestaLiteral": "Programas conjuntos y atracción de talento"
+    },
+    {
+      "id": "UC3M-T13-012",
+      "pregunta": "El aseguramiento de la calidad universitaria corresponde:",
+      "opciones": [
+        "Solo al rector",
+        "Solo al Ministerio",
+        "A universidades, agencias de evaluación y Administraciones competentes",
+        "Exclusivamente al Consejo Social"
+      ],
+      "correcta": 2,
+      "justificacion": "El artículo 5.2 LOSU atribuye la promoción y el aseguramiento de la calidad de forma compartida a universidades, agencias de evaluación y Administraciones Públicas competentes; el art. 5.3 exige sistemas internos de garantía de calidad en los centros.",
+      "trampa": "Ningún actor actúa de forma aislada.",
+      "referencia": "LOSU, art. 5.2-4 (BOE-A-2023-7500) · LOSU art. 5: https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500#a5",
+      "respuestaLiteral": "A universidades, agencias de evaluación y Administraciones competentes"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlAuditoria20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_EDITORIAL",
+    "norma": "LO 2/2023 LOSU, BOE-A-2023-7500",
+    "ultimaActualizacionPublicada": "2024-08-02",
+    "preguntas": 12,
+    "alternativas": 48,
+    "opcionesYClavesConservadas": true,
+    "enlacePrimarioEnCadaPregunta": true,
+    "certificacionIntegral": false
+  }
+}

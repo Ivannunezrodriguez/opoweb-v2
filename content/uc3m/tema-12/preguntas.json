@@ -1,0 +1,205 @@
+{
+  "tema": 12,
+  "titulo": "Prevención de Riesgos Laborales",
+  "preguntas": [
+    {
+      "id": "UC3M-T12-001",
+      "pregunta": "¿Cuál es el objeto principal de la Ley 31/1995?",
+      "opciones": [
+        "Regular únicamente accidentes ya producidos",
+        "Sustituir la negociación colectiva",
+        "Promover la seguridad y la salud mediante la prevención de riesgos",
+        "Regular exclusivamente mutuas de accidentes"
+      ],
+      "correcta": 2,
+      "justificacion": "La ley promueve la seguridad y salud mediante medidas y actividades preventivas frente a los riesgos derivados del trabajo. **Descarte de alternativas:** El objeto es preventivo, no solo reparador de accidentes; tampoco sustituye negociación colectiva ni se limita a mutuas.",
+      "trampa": "La prevención actúa antes del daño y no se limita a reparar accidentes.",
+      "referencia": "Ley 31/1995, art. 2 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a2",
+      "respuestaLiteral": "Promover la seguridad y la salud mediante la prevención de riesgos"
+    },
+    {
+      "id": "UC3M-T12-002",
+      "pregunta": "¿Qué es un riesgo laboral?",
+      "opciones": [
+        "Todo daño ya producido",
+        "Solo un accidente con baja",
+        "La posibilidad de sufrir un daño derivado del trabajo",
+        "Cualquier incumplimiento horario"
+      ],
+      "correcta": 2,
+      "justificacion": "Riesgo laboral es la posibilidad de que una persona trabajadora sufra un determinado daño derivado del trabajo. **Descarte de alternativas:** El riesgo es posibilidad de daño futuro; una lesión producida es un daño, y ni el horario ni la existencia de baja definen por sí solos el riesgo.",
+      "trampa": "Riesgo y daño no son sinónimos: el riesgo es posibilidad; el daño es la lesión o patología.",
+      "referencia": "Ley 31/1995, art. 4 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a4",
+      "respuestaLiteral": "La posibilidad de sufrir un daño derivado del trabajo"
+    },
+    {
+      "id": "UC3M-T12-003",
+      "pregunta": "¿Cuál de estos principios tiene prioridad?",
+      "opciones": [
+        "Protección individual sobre colectiva",
+        "Compensación económica sobre prevención",
+        "Reparación sobre eliminación del riesgo",
+        "Protección colectiva sobre individual"
+      ],
+      "correcta": 3,
+      "justificacion": "La acción preventiva debe anteponer la protección colectiva a la individual. **Descarte de alternativas:** La Ley antepone las medidas colectivas a las individuales; pagar compensaciones o reparar daños una vez ocurridos no sustituye evitar el riesgo.",
+      "trampa": "Los EPI son subsidiarios cuando el riesgo no puede controlarse suficientemente por otros medios.",
+      "referencia": "Ley 31/1995, art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a15",
+      "respuestaLiteral": "Protección colectiva sobre individual"
+    },
+    {
+      "id": "UC3M-T12-004",
+      "pregunta": "Según el artículo 14.5 de la Ley 31/1995, ¿quién debe soportar el coste de las medidas preventivas?",
+      "opciones": [
+        "Puede descontarse de la nómina",
+        "Debe repartirse entre plantilla y organización",
+        "Nunca puede recaer sobre la persona trabajadora",
+        "Solo es gratuito en el sector privado"
+      ],
+      "correcta": 2,
+      "justificacion": "El coste de la seguridad y salud nunca puede recaer sobre las personas trabajadoras. **Descarte de alternativas:** El empresario asume el coste preventivo sin trasladarlo a salarios ni a la plantilla; la regla también se aplica al ámbito público.",
+      "trampa": "La regla también se aplica en el sector público.",
+      "referencia": "Ley 31/1995, art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a14",
+      "respuestaLiteral": "Nunca puede recaer sobre la persona trabajadora"
+    },
+    {
+      "id": "UC3M-T12-005",
+      "pregunta": "¿Cuándo debe revisarse la evaluación de riesgos?",
+      "opciones": [
+        "Cuando cambien condiciones o se produzcan daños, entre otros supuestos",
+        "Nunca, si ya existe una inicial",
+        "Solo cada diez años",
+        "Únicamente si lo pide un trabajador"
+      ],
+      "correcta": 0,
+      "justificacion": "Debe revisarse ante cambios relevantes, nuevos equipos o tecnologías, daños o indicios de insuficiencia preventiva. **Descarte de alternativas:** Una evaluación inicial no queda vigente sin cambios: deben revisarse riesgos ante modificaciones y daños; el control no consiste en un plazo general de diez años.",
+      "trampa": "La evaluación es dinámica y no un documento inmutable.",
+      "referencia": "Ley 31/1995, art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a16",
+      "respuestaLiteral": "Cuando cambien condiciones o se produzcan daños, entre otros supuestos"
+    },
+    {
+      "id": "UC3M-T12-006",
+      "pregunta": "Según el artículo 19 de la Ley 31/1995, ¿cómo debe ser la formación preventiva del trabajador?",
+      "opciones": [
+        "Suficiente, adecuada, teórica y práctica",
+        "Solo teórica y voluntaria",
+        "Siempre fuera de jornada y a cargo del trabajador",
+        "Genérica y no vinculada al puesto"
+      ],
+      "correcta": 0,
+      "justificacion": "La formación debe ser suficiente, adecuada, teórica y práctica y centrada en el puesto. **Descarte de alternativas:** El art. 19 exige formación teórica y práctica, adecuada, vinculada al puesto y sin coste; no bastan charlas genéricas ni impartirla por sistema fuera de jornada.",
+      "trampa": "No puede trasladarse su coste a la persona trabajadora.",
+      "referencia": "Ley 31/1995, art. 19 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a19",
+      "respuestaLiteral": "Suficiente, adecuada, teórica y práctica"
+    },
+    {
+      "id": "UC3M-T12-007",
+      "pregunta": "Ante un riesgo grave e inminente, ¿qué derecho reconoce el artículo 21 de la Ley 31/1995?",
+      "opciones": [
+        "Continuar siempre hasta recibir una orden escrita",
+        "Interrumpir la actividad y abandonar el lugar si es necesario",
+        "Destruir los equipos",
+        "Sancionar a sus superiores"
+      ],
+      "correcta": 1,
+      "justificacion": "Puede interrumpir su actividad y abandonar el lugar cuando exista riesgo grave e inminente. **Descarte de alternativas:** La persona trabajadora puede interrumpir la actividad y abandonar el lugar si existe riesgo grave e inminente; la ley no exige aguardar siempre orden escrita.",
+      "trampa": "El derecho no ampara actuaciones de mala fe o negligencia grave.",
+      "referencia": "Ley 31/1995, art. 21 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a21",
+      "respuestaLiteral": "Interrumpir la actividad y abandonar el lugar si es necesario"
+    },
+    {
+      "id": "UC3M-T12-008",
+      "pregunta": "Según el artículo 22 de la Ley 31/1995, ¿cuál es la regla general de la vigilancia de la salud?",
+      "opciones": [
+        "Obligatoria sin excepciones",
+        "Voluntaria, salvo excepciones legales",
+        "Pública para toda la plantilla",
+        "Ajena a los riesgos del puesto"
+      ],
+      "correcta": 1,
+      "justificacion": "Con carácter general requiere consentimiento, aunque existen excepciones legalmente previstas. **Descarte de alternativas:** La vigilancia es en principio voluntaria; las excepciones exigen justificación legal y garantías. Ni la publicación de datos médicos ni la obligación general sin límites son admisibles.",
+      "trampa": "La organización no recibe el historial médico detallado, sino conclusiones preventivas o de aptitud.",
+      "referencia": "Ley 31/1995, art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a22",
+      "respuestaLiteral": "Voluntaria, salvo excepciones legales"
+    },
+    {
+      "id": "UC3M-T12-009",
+      "pregunta": "¿Cuál de estas es una obligación de la persona trabajadora?",
+      "opciones": [
+        "Usar correctamente equipos y protecciones",
+        "Inutilizar dispositivos de seguridad",
+        "Ocultar riesgos detectados",
+        "Elegir libremente qué medidas cumplir"
+      ],
+      "correcta": 0,
+      "justificacion": "Debe utilizar correctamente equipos y medios de protección y cooperar con la prevención. **Descarte de alternativas:** El art. 29 exige usar medios y protección correctamente, informar riesgos y colaborar; no permite inutilizar medidas de seguridad.",
+      "trampa": "La obligación individual no elimina el deber principal de protección de la organización.",
+      "referencia": "Ley 31/1995, art. 29 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a29",
+      "respuestaLiteral": "Usar correctamente equipos y protecciones"
+    },
+    {
+      "id": "UC3M-T12-010",
+      "pregunta": "¿Cuál de estas NO es una modalidad de organización preventiva?",
+      "opciones": [
+        "Servicio de prevención propio",
+        "Servicio de prevención ajeno",
+        "Designación de trabajadores",
+        "Comité disciplinario preventivo"
+      ],
+      "correcta": 3,
+      "justificacion": "Las modalidades incluyen asunción personal en ciertos casos, designación de trabajadores y servicios propio o ajeno. **Descarte de alternativas:** Designación de personas, servicio propio y ajeno, y asunción por el empresario en supuestos legales son modalidades; no lo es un supuesto comité disciplinario preventivo.",
+      "trampa": "El Comité de Seguridad y Salud es un órgano de participación, no una modalidad preventiva.",
+      "referencia": "Ley 31/1995, art. 30 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a30",
+      "respuestaLiteral": "Comité disciplinario preventivo"
+    },
+    {
+      "id": "UC3M-T12-011",
+      "pregunta": "Según el artículo 35 de la Ley 31/1995, ¿qué son los Delegados de Prevención?",
+      "opciones": [
+        "Técnicos externos obligatorios",
+        "Miembros del servicio médico",
+        "Inspectores de trabajo",
+        "Representantes de los trabajadores con funciones específicas preventivas"
+      ],
+      "correcta": 3,
+      "justificacion": "Son representantes de las personas trabajadoras con competencias específicas en prevención. **Descarte de alternativas:** El delegado es un representante de las personas trabajadoras, no un inspector ni un facultativo obligatorio de empresa; su escala está en el art. 35.",
+      "trampa": "No sustituyen a la Inspección de Trabajo ni al servicio de prevención.",
+      "referencia": "Ley 31/1995, art. 35 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a35",
+      "respuestaLiteral": "Representantes de los trabajadores con funciones específicas preventivas"
+    },
+    {
+      "id": "UC3M-T12-012",
+      "pregunta": "¿Cuándo debe constituirse, con carácter general, el Comité de Seguridad y Salud?",
+      "opciones": [
+        "Desde 10 trabajadores",
+        "Desde 50 trabajadores",
+        "Desde 25 trabajadores",
+        "Solo desde 100 trabajadores"
+      ],
+      "correcta": 1,
+      "justificacion": "Se constituye en empresas o centros de trabajo con 50 o más personas trabajadoras. **Descarte de alternativas:** El Comité se constituye, con carácter general, desde **50** trabajadores; no desde 10, 25 ni 100. Tiene particularidades en Administraciones públicas.",
+      "trampa": "No debe confundirse con las escalas de representación general.",
+      "referencia": "Ley 31/1995, art. 38 · https://www.boe.es/buscar/act.php?id=BOE-A-1995-24292#a38",
+      "respuestaLiteral": "Desde 50 trabajadores"
+    }
+  ],
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "tipo": "Distribución equilibrada de las posiciones de las soluciones conservando texto literal; NO auditoría jurídica integral"
+  },
+  "controlRevalidacionBloque20261105": {
+    "fecha": "2026-11-05",
+    "lote": "UC3M_T10_T12",
+    "alcance": "12 claves, 48 alternativas, referencia oficial LPRL y descarte de distractores",
+    "leyPrevencionUltimaActualizacion": "2026-04-09",
+    "certificacionIntegral": false
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "preguntas": 12,
+    "alternativas": 48,
+    "clavesAlteradas": 0,
+    "aprobadoUsuario": false,
+    "certificacionE2E": false
+  }
+}

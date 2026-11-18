@@ -1,0 +1,311 @@
+{
+  "tema": 10,
+  "estado": "AUDITADO",
+  "version": "2026-11-04",
+  "criterio": "20 preguntas originales con cuatro opciones y artículo individual de LO 3/2018/RGPD; sin ejecución funcional en navegador. · 04/11/2026: reemplazadas tres preguntas repetitivas por RGPD art12.3 (1 mes derechos), art33 (72h brechas con excepción) y LO3/2018 art22.3 (72h entrega de imágenes); posiciones correctas inalteradas.",
+  "preguntas": [
+    {
+      "id": "DT-C2-T10-001",
+      "enunciado": "¿Cuál es la edad general desde la que un menor puede consentir el tratamiento de datos personales por sí mismo en la LO 3/2018?",
+      "opciones": [
+        "14 años",
+        "16 años",
+        "18 años",
+        "12 años"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 7 fija el umbral general de consentimiento autónomo del menor en **14 años**, con excepciones si el acto o negocio jurídico exige asistencia de los titulares de la patria potestad o tutela. Para menores de catorce el consentimiento corresponde a esos titulares.",
+      "trampaExamen": "No confundir **14 años** con mayoría de edad o con cualquier tratamiento fundado en una obligación legal.",
+      "referencia": "LO 3/2018 art. 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-002",
+      "enunciado": "Según el artículo 8.2 de la LO 3/2018, ¿en qué debe basarse el tratamiento de datos por una Administración cuando invoca una misión de interés público o el ejercicio de poderes públicos?",
+      "opciones": [
+        "En la simple preferencia de quien tramita el expediente",
+        "En una competencia atribuida por una norma con rango de ley",
+        "Siempre en el consentimiento expreso de todos los afectados",
+        "Únicamente en una circular interna sin respaldo legal"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Según el artículo 8.2, ese tratamiento debe derivar de una **competencia atribuida por una norma con rango de ley**. El consentimiento no es la única base jurídica para tratar datos en la Administración.",
+      "trampaExamen": "**Consentimiento** y **misión de interés público o poderes públicos** son bases jurídicas distintas.",
+      "referencia": "LO 3/2018, art. 8.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-003",
+      "enunciado": "¿A quién reconoce el artículo 88.1 de la LO 3/2018 el derecho a la desconexión digital, entre otros?",
+      "opciones": [
+        "Solo a trabajadores autónomos",
+        "Únicamente a directivos",
+        "A trabajadores y empleados públicos",
+        "Exclusivamente a personal de empresas tecnológicas"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El artículo 88.1 reconoce el derecho a la desconexión digital de **trabajadores y empleados públicos** para respetar descanso, permisos, vacaciones e intimidad. El artículo 88.3 prevé una política interna tras audiencia de representantes.",
+      "trampaExamen": "La desconexión digital también se reconoce a los **empleados públicos**.",
+      "referencia": "LO 3/2018, art. 88.1–88.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-004",
+      "enunciado": "¿Qué obligación de confidencialidad establece la LO 3/2018 para quienes intervienen en un tratamiento?",
+      "opciones": [
+        "Solo aplica al responsable político",
+        "Se limita al correo electrónico",
+        "Termina automáticamente al cesar la relación",
+        "Se mantiene incluso tras finalizar la relación con el responsable o encargado"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El deber de confidencialidad afecta a responsables, encargados y a todas las personas que intervienen en cualquier fase del tratamiento. **Se mantiene tras finalizar** la relación con el responsable o encargado (artículo 5.3).",
+      "trampaExamen": "La confidencialidad no termina al cesar en el puesto.",
+      "referencia": "LO 3/2018 art. 5 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-005",
+      "enunciado": "¿Qué derecho permite saber si el responsable trata datos personales del interesado y acceder a ellos?",
+      "opciones": [
+        "Acceso",
+        "Portabilidad laboral",
+        "Recaudación ejecutiva",
+        "Alzada"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 13 desarrolla el derecho de acceso y remite al artículo 15 del RGPD. Su apartado 3 contempla el acceso repetitivo **en más de una ocasión durante seis meses**, salvo causa legítima.",
+      "trampaExamen": "**Acceso**: conocer datos. **Rectificación**: corregirlos. Reiteración superior a una vez en seis meses puede considerarse repetitiva, salvo causa legítima.",
+      "referencia": "LO 3/2018 art. 13 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-006",
+      "enunciado": "¿Qué derecho permite solicitar corregir datos personales inexactos?",
+      "opciones": [
+        "Oposición",
+        "Rectificación",
+        "Supresión del padrón en todos los casos",
+        "Recurso contencioso automático"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Según el artículo 14, el afectado debe precisar qué datos rectificar y la corrección pretendida, acompañando documentación justificativa cuando sea preciso.",
+      "trampaExamen": "**Rectificación** no equivale a supresión.",
+      "referencia": "LO 3/2018 art. 14 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-007",
+      "enunciado": "¿Qué dispone el art. 11 LOPDGDD sobre informar al afectado?",
+      "opciones": [
+        "Solo se informa al final",
+        "Es posible información básica en primera capa y acceso a información restante",
+        "Nunca se facilita identidad del responsable",
+        "El deber de información solo se aplica a empresas"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El art. 11 permite información por capas, aportando información básica y medio de acceder al resto.",
+      "trampaExamen": "La **información por capas** no elimina la obligación de informar.",
+      "referencia": "LO 3/2018 art. 11 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-008",
+      "enunciado": "Conforme al artículo 12.3 del RGPD, ¿cuál es el plazo general para responder a una solicitud de ejercicio de derechos de protección de datos?",
+      "opciones": [
+        "Tres meses sin necesidad de explicación",
+        "Setenta y dos horas en todos los casos",
+        "Un mes desde recepción, prorrogable dos meses más si es necesario y se informa en plazo",
+        "Un año contado desde la primera inscripción en el fichero"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El art. 12.3 RGPD exige responder sin dilación indebida, en cualquier caso en un mes desde la recepción; admite prórroga de dos meses adicionales por complejidad/número de solicitudes informando en el primer mes del retraso y sus motivos.",
+      "trampaExamen": "**Derechos RGPD: 1 mes**, prórroga de **2 meses adicionales** si procede y se comunica dentro del **primer mes**. No confundir con notificación de brechas (**72 h**).",
+      "referencia": "RGPD (UE) 2016/679, art. 12.3 · https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807"
+    },
+    {
+      "id": "DT-C2-T10-009",
+      "enunciado": "¿Qué entidad es la autoridad de control estatal de protección de datos?",
+      "opciones": [
+        "Consejo General del Poder Judicial",
+        "Ministerio de Hacienda siempre",
+        "Diputación Provincial",
+        "Agencia Española de Protección de Datos"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La **AEPD** es autoridad administrativa independiente de ámbito estatal en los términos de la ley.",
+      "trampaExamen": "**AEPD** no es la autoridad certificadora de DNIe.",
+      "referencia": "LO 3/2018 art. 44 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-010",
+      "enunciado": "¿Qué obliga a distinguir el art. 22 en videovigilancia?",
+      "opciones": [
+        "Deber de informar mediante dispositivo informativo visible y puesta a disposición del resto de información",
+        "Prohibición absoluta de todas las cámaras",
+        "Publicación del vídeo completo a cualquier solicitante",
+        "Grabación de sonido obligatoria"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El art. 22 exige información mediante dispositivo visible y disponibilidad de la información restante.",
+      "trampaExamen": "Las cámaras requieren **información al afectado**; no equivale a consentimiento general.",
+      "referencia": "LO 3/2018 art. 22 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-011",
+      "enunciado": "¿Qué plazo general de conservación de imágenes de videovigilancia fija la LOPDGDD?",
+      "opciones": [
+        "Seis meses",
+        "Un mes máximo, salvo excepciones legales",
+        "Tres años",
+        "Una semana sin excepciones"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 22.3: imágenes suprimidas en **plazo máximo de un mes** desde su captación, salvo conservación para acreditar actos contra integridad de personas, bienes o instalaciones.",
+      "trampaExamen": "**Un mes máximo**; no confundir con la comunicación a autoridad en caso de hechos relevantes.",
+      "referencia": "LO 3/2018 art. 22.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-012",
+      "enunciado": "¿Qué derecho permite que dejen de tratarse datos en los supuestos legales sin exigir necesariamente su borrado inmediato?",
+      "opciones": [
+        "Portabilidad en toda ocasión",
+        "Publicación en BOE",
+        "Limitación del tratamiento",
+        "Acceso a otros expedientes"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 16 LOPDGDD conecta con art. 18 RGPD para **limitación** del tratamiento.",
+      "trampaExamen": "**Limitación** y **supresión** no son sinónimos.",
+      "referencia": "LO 3/2018 art. 16 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-013",
+      "enunciado": "¿Qué exige el art. 34 LOPDGDD a organismos públicos incluidos en su ámbito?",
+      "opciones": [
+        "Sustituir al responsable por proveedor privado",
+        "Eliminar el registro de actividades",
+        "Pedir consentimiento para toda gestión",
+        "Designar delegado de protección de datos en los supuestos previstos"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El art. 34 detalla entidades que deben designar **DPD**; administraciones y organismos públicos incluidos tienen obligación conforme a RGPD art. 37.",
+      "trampaExamen": "**DPD** asesora y supervisa, no es siempre el responsable del tratamiento.",
+      "referencia": "LO 3/2018 art. 34 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-014",
+      "enunciado": "¿Qué régimen se aplica a sanciones por infracciones de protección de datos cometidas por las Administraciones Públicas del art. 77?",
+      "opciones": [
+        "Apercibimiento y medidas correctoras en los términos del art. 77",
+        "Siempre multa personal al ciudadano afectado",
+        "No existe control de datos públicos",
+        "Cierre de la Administración por decisión privada"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El art. 77 establece régimen específico de infracciones de Administraciones y entes públicos.",
+      "trampaExamen": "No trasladar mecánicamente a entes públicos las **multas** del régimen privado.",
+      "referencia": "LO 3/2018 art. 77 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-015",
+      "enunciado": "Cuando la videovigilancia capta hechos que justifican conservar imágenes para acreditar actos contra personas, bienes o instalaciones, ¿cuándo deben ponerse a disposición de la autoridad competente según el artículo 22.3 de la LOPDGDD?",
+      "opciones": [
+        "Solo después del transcurso de un mes sin excepciones",
+        "En un máximo de 72 horas desde que se tuvo conocimiento de la existencia de la grabación",
+        "En seis meses desde la instalación de la cámara",
+        "Solo cuando lo autorice todo el personal grabado"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 22.3 LO 3/2018: regla de supresión de imágenes en un mes máximo desde captación; en la excepción de conservación para acreditar actos contra integridad de personas, bienes o instalaciones, se ponen a disposición de autoridad competente en 72 horas desde conocimiento de existencia de grabación.",
+      "trampaExamen": "**Videovigilancia:** supresión general **1 mes desde captación**; entrega excepcional a autoridad **72 h desde conocimiento de la grabación**. No es el plazo de notificación de brecha RGPD.",
+      "referencia": "LO 3/2018, art. 22.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a22"
+    },
+    {
+      "id": "DT-C2-T10-016",
+      "enunciado": "¿Qué principio exige que los datos personales tratados sean adecuados, pertinentes y limitados a lo necesario?",
+      "opciones": [
+        "Exactitud histórica indefinida",
+        "Exclusión de transparencia",
+        "Minimización de datos",
+        "Publicidad de expedientes"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El art. 5.1.c RGPD establece **minimización**; la LO 3/2018 complementa ese marco.",
+      "trampaExamen": "**Minimización** no equivale a **limitación de conservación**.",
+      "referencia": "RGPD art. 5.1.c · https://eur-lex.europa.eu/eli/reg/2016/679/oj/spa"
+    },
+    {
+      "id": "DT-C2-T10-017",
+      "enunciado": "¿Qué base de legitimación no es obligatoria de forma universal para toda actuación de la Administración?",
+      "opciones": [
+        "Cumplimiento de obligación legal cuando proceda",
+        "Misión de interés público si hay habilitación",
+        "Ejercicio de poderes públicos cuando proceda",
+        "Consentimiento del interesado en todos los procedimientos"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Los arts. 6 RGPD y 8 LOPDGDD permiten otras bases, especialmente obligación legal e interés público habilitado.",
+      "trampaExamen": "El consentimiento no es siempre el fundamento correcto del tratamiento administrativo.",
+      "referencia": "LO 3/2018 art. 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-018",
+      "enunciado": "¿Qué acción corresponde al ejercicio del derecho de supresión conforme a las condiciones legales?",
+      "opciones": [
+        "Solicitar eliminación de datos personales cuando concurre una causa legal",
+        "Exigir que todo registro público se borre incondicionalmente",
+        "Pedir solo cambio de apellidos",
+        "Convertir datos en PDF"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Art. 15 LOPDGDD se remite a las condiciones del art. 17 RGPD.",
+      "trampaExamen": "La **supresión** tiene excepciones: obligación legal, interés público y otras.",
+      "referencia": "LO 3/2018 art. 15 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-019",
+      "enunciado": "¿Qué derecho se ejerce para recibir determinados datos aportados en formato estructurado y de lectura mecánica cuando concurren requisitos?",
+      "opciones": [
+        "Derecho de oposición sin requisitos",
+        "Portabilidad",
+        "Derecho a que no haya control de acceso",
+        "Derecho a duplicar sanciones"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Art. 17 LOPDGDD y art. 20 RGPD contemplan portabilidad bajo requisitos, entre ellos tratamiento automatizado y base adecuada.",
+      "trampaExamen": "Portabilidad no es universal para todas las bases jurídicas.",
+      "referencia": "LO 3/2018 art. 17 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673"
+    },
+    {
+      "id": "DT-C2-T10-020",
+      "enunciado": "Según el artículo 33.1 del RGPD, ¿cuál es la regla sobre notificación de una brecha de datos personales a la autoridad de control competente?",
+      "opciones": [
+        "Debe notificarse siempre al día siguiente aunque sea improbable cualquier riesgo",
+        "Solo se comunica a autoridad de control cuando lo pida una empresa competidora",
+        "Sin dilación indebida y, de ser posible, a más tardar en 72 horas desde conocerla, salvo que sea improbable un riesgo para derechos y libertades",
+        "Debe notificarse únicamente una vez transcurridos 30 días desde su detección"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Art. 33.1 RGPD: responsable notifica a autoridad competente sin dilación indebida y, de ser posible, dentro de 72 horas desde tener constancia, salvo improbabilidad de riesgo para derechos y libertades. Si fuera del plazo, justifica demora. En cambio comunicación a afectados de alto riesgo es art. 34 RGPD.",
+      "trampaExamen": "**Brecha RGPD: 72 horas** a la **autoridad de control**, salvo si es improbable el riesgo; **art. 34** distingue comunicación a interesados cuando exista **alto riesgo**, sin plazo fijo de 72 horas. No confundir con entrega de vídeo del **art. 22.3 LOPDGDD**.",
+      "referencia": "RGPD (UE) 2016/679, arts. 33.1 y 34 · https://www.boe.es/buscar/doc.php?id=DOUE-L-2016-80807"
+    }
+  ],
+  "auditoria": {
+    "fecha": "2026-10-26",
+    "preguntasRevisadas": 6,
+    "fuente": "https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673",
+    "ultimaActualizacionBOE": "27/12/2025",
+    "articulos": [
+      "5",
+      "7",
+      "8.2",
+      "13",
+      "14",
+      "88"
+    ],
+    "resultado": "Se revisaron seis respuestas. Dos preguntas genéricas sustituidas por tratamiento público basado en ley y desconexión digital. Justificaciones ampliadas.",
+    "limitacion": "No certifica el manual completo ni la interfaz en navegador."
+  },
+  "cierreEditorialC2_07_10_20261106": {
+    "fecha": "2026-11-06",
+    "preguntas": 20,
+    "alternativas": 80,
+    "clavesAlteradas": 0,
+    "certificacionIntegral": false
+  }
+}

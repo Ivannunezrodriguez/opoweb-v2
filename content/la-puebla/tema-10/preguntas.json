@@ -1,0 +1,223 @@
+{
+  "tema": 10,
+  "estado": "APROBADO_USUARIO",
+  "version": "2026-11-04",
+  "criterios": {
+    "numeroPreguntas": 12,
+    "opcionesPorPregunta": 4,
+    "unaRespuestaCorrecta": true,
+    "incluyeJustificacion": true,
+    "incluyeTrampa": true,
+    "incluyeReferencia": true
+  },
+  "preguntas": [
+    {
+      "id": "LP-T10-001",
+      "enunciado": "Según la literalidad del artículo 31.1 de la Constitución española, ¿qué afirmación es correcta?",
+      "opciones": [
+        "El sistema tributario se inspirará exclusivamente en la proporcionalidad, eficacia, jerarquía y descentralización",
+        "Todos contribuirán de acuerdo con su capacidad económica, mediante un sistema inspirado en igualdad y progresividad, que no tendrá alcance confiscatorio",
+        "La potestad tributaria depende únicamente de la publicidad, celeridad y economía administrativa",
+        "El artículo 31.1 exige que cada impuesto individual tenga un tipo progresivo y prohíbe todas las exenciones"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Literal del art. 31.1 CE: todos contribuirán según su capacidad económica; el sistema tributario justo se inspirará en igualdad y progresividad y en ningún caso tendrá alcance confiscatorio. La Constitución no exige que cada tributo aislado sea progresivo: la referencia es al sistema. La anterior formulación agrupaba capacidad económica como principio «inspirador» sin respetar la distinción verbal del precepto.",
+      "trampaExamen": "Capacidad económica = criterio de contribución; igualdad/progresividad = inspiración del sistema; no confiscatoriedad = prohibición explícita, no porcentaje.",
+      "referencia": "Constitución española, art. 31.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229 · Fuente oficial: CE 31.1 · https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229#a31",
+      "respuestaLiteral": "Todos contribuirán de acuerdo con su capacidad económica, mediante un sistema inspirado en igualdad y progresividad, que no tendrá alcance confiscatorio"
+    },
+    {
+      "id": "LP-T10-002",
+      "enunciado": "Una entidad local delega en otra entidad local las facultades de gestión y recaudación de sus tributos. ¿Qué órgano acuerda la delegación?",
+      "opciones": [
+        "El Pleno de la corporación",
+        "El Alcalde",
+        "La Junta de Gobierno Local",
+        "La Intervención municipal"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El artículo 7.2 TRLRHL exige acuerdo del Pleno de la corporación delegante, que fija alcance y contenido. La aceptación por la entidad local delegada corresponde a su propio Pleno. Tras aceptarse, el acuerdo se publica en los boletines oficiales de la provincia y de la comunidad autónoma.",
+      "trampaExamen": "No confundir el Pleno de la entidad delegante (acuerda) con el Pleno de la entidad local delegada (acepta). La publicación exigida es doble: BOP y boletín autonómico.",
+      "referencia": "TRLRHL art. 7.2: acuerdo Pleno delegante, aceptación Pleno local delegado y publicación BOP/DOCM · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a7 · Fuente oficial: TRLRHL 7.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a7",
+      "respuestaLiteral": "El Pleno de la corporación"
+    },
+    {
+      "id": "LP-T10-003",
+      "enunciado": "La colaboración entre Administraciones en materia tributaria local se diferencia de la delegación en que:",
+      "opciones": [
+        "Cada Administración conserva sus facultades y coopera mediante asistencia o intercambio de información",
+        "Transfiere la titularidad del tributo",
+        "Solo puede recaer sobre sanciones",
+        "No puede incluir actuaciones de inspección"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "En la colaboración cada Administración mantiene sus competencias y coopera técnica, material o informativamente; en la delegación otra entidad ejerce facultades concretas de la entidad local.",
+      "trampaExamen": "Ni la colaboración ni la delegación cambian la titularidad local del ingreso.",
+      "referencia": "manual.md · apartado 7 · Artículo 8 TRLRHL · Fuente oficial: TRLRHL 8 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a8",
+      "respuestaLiteral": "Cada Administración conserva sus facultades y coopera mediante asistencia o intercambio de información"
+    },
+    {
+      "id": "LP-T10-004",
+      "enunciado": "Una ordenanza fiscal local puede reconocer una exención no prevista en ninguna ley cuando exista interés social suficiente:",
+      "opciones": [
+        "Sí, por acuerdo del Pleno",
+        "Sí, si la cuantía no supera el 5 %",
+        "Sí, si se aplica solo durante un ejercicio",
+        "No, salvo habilitación legal expresa o tratado internacional"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El artículo 9 TRLRHL impide crear beneficios fiscales sin cobertura legal. La ordenanza solo puede establecerlos cuando una ley lo autoriza expresamente y dentro de sus límites.",
+      "trampaExamen": "La autonomía local no elimina la reserva de ley en materia de beneficios fiscales.",
+      "referencia": "manual.md · apartado 8 · Artículo 9 TRLRHL · Fuente oficial: TRLRHL 9.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a9",
+      "respuestaLiteral": "No, salvo habilitación legal expresa o tratado internacional"
+    },
+    {
+      "id": "LP-T10-005",
+      "enunciado": "La bonificación por domiciliación, anticipación de pagos o colaboración recaudatoria puede alcanzar como máximo:",
+      "opciones": [
+        "El 2 % de la deuda",
+        "El 5 % de la cuota",
+        "El 10 % de la cuota",
+        "El 15 % de la deuda"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "**Art. 9.1 TRLRHL:** las ordenanzas fiscales podrán reconocer **hasta el 5 % de la cuota** por domiciliación de deudas de vencimiento periódico en entidad financiera, anticipación de pagos o colaboración recaudatoria, cuando exista previsión en la ordenanza. No es un beneficio creado libremente sin cobertura legal.",
+      "trampaExamen": "El máximo se refiere a la cuota y exige previsión expresa en ordenanza.",
+      "referencia": "TRLRHL art. 9.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a9 · Fuente oficial: TRLRHL 9.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a9",
+      "respuestaLiteral": "El 5 % de la cuota"
+    },
+    {
+      "id": "LP-T10-006",
+      "enunciado": "¿Cuál es la diferencia correcta entre devengo y exigibilidad?",
+      "opciones": [
+        "El devengo determina cuándo nace la obligación y la exigibilidad cuándo puede reclamarse el pago",
+        "El devengo extingue la deuda y la exigibilidad la liquida",
+        "Son siempre el mismo momento",
+        "La exigibilidad precede necesariamente al hecho imponible"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El devengo es el momento en que se entiende realizado el hecho imponible y nace la obligación principal; la exigibilidad indica desde cuándo puede reclamarse el pago y ambos momentos pueden no coincidir.",
+      "trampaExamen": "No debe identificarse automáticamente nacimiento de la obligación con inicio del plazo de pago.",
+      "referencia": "manual.md · apartado 15 · Artículo 21 LGT · Fuente oficial: LGT 21.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a21",
+      "respuestaLiteral": "El devengo determina cuándo nace la obligación y la exigibilidad cuándo puede reclamarse el pago"
+    },
+    {
+      "id": "LP-T10-007",
+      "enunciado": "Como regla general, en una declaración o autoliquidación extemporánea presentada sin requerimiento previo, antes de que transcurran doce meses de retraso y sin aplicar excepciones del artículo 27 LGT, el recargo se calcula mediante:",
+      "opciones": [
+        "Un recargo fijo del 20 %",
+        "Una sanción mínima del 50 %",
+        "Un 1 % más otro 1 % por cada mes completo de retraso",
+        "Interés de demora sin recargo"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La regla general del artículo 27.2 LGT es 1 % más otro 1 % adicional por cada mes completo de retraso. Una vez transcurridos 12 meses, el recargo es del 15 %, con intereses solo desde el día posterior a esos doce meses. El artículo 27 contiene excepciones y una reducción condicionada del 25 % del importe del recargo (art. 27.5).",
+      "trampaExamen": "No generalizar: el artículo 27.2 prevé una excepción de regularización de otros períodos bajo requisitos estrictos; el artículo 27.3 permite recargos ejecutivos adicionales si no hay ingreso ni solicitud procedente, y el 27.5 contempla reducir el recargo un 25 % si se cumplen sus condiciones.",
+      "referencia": "manual.md · apartado 18 · LGT, artículos 27.2–5 · Fuente oficial: LGT 27.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a27",
+      "respuestaLiteral": "Un 1 % más otro 1 % por cada mes completo de retraso"
+    },
+    {
+      "id": "LP-T10-008",
+      "enunciado": "¿Cuál de los siguientes recargos del período ejecutivo es compatible con intereses de demora?",
+      "opciones": [
+        "El recargo ejecutivo del 5 %",
+        "El recargo de apremio reducido del 10 %",
+        "Ninguno de ellos",
+        "El recargo de apremio ordinario del 20 %"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El recargo de apremio ordinario del 20 % es compatible con intereses de demora. El ejecutivo del 5 % y el reducido del 10 % no lo son.",
+      "trampaExamen": "Los recargos ejecutivo, reducido y ordinario no se acumulan entre sí.",
+      "referencia": "manual.md · apartado 18 · Artículo 28 LGT · Fuente oficial: LGT 28.4-5 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a28",
+      "respuestaLiteral": "El recargo de apremio ordinario del 20 %"
+    },
+    {
+      "id": "LP-T10-009",
+      "enunciado": "La responsabilidad tributaria es, con carácter general:",
+      "opciones": [
+        "Solidaria",
+        "Mancomunada",
+        "Personalísima e intransmisible",
+        "Subsidiaria, salvo que la ley la declare solidaria"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La LGT establece como regla la responsabilidad subsidiaria, salvo que una norma con rango legal declare expresamente la responsabilidad solidaria.",
+      "trampaExamen": "El responsable solidario puede ser exigido sin previa declaración de fallido del deudor principal; el subsidiario normalmente no.",
+      "referencia": "manual.md · apartado 27 · Artículos 41 a 43 LGT · Fuente oficial: LGT 41.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a41",
+      "respuestaLiteral": "Subsidiaria, salvo que la ley la declare solidaria"
+    },
+    {
+      "id": "LP-T10-010",
+      "enunciado": "¿Cuál de los siguientes conceptos no forma parte de la deuda tributaria?",
+      "opciones": [
+        "La cuota",
+        "El interés de demora",
+        "La sanción tributaria",
+        "El recargo ejecutivo"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La deuda tributaria incluye cuota, intereses y recargos legalmente exigibles, pero las sanciones quedan expresamente fuera de su composición.",
+      "trampaExamen": "Que la sanción pueda exigirse junto con la deuda no significa que forme parte de ella.",
+      "referencia": "manual.md · apartado 30 · Artículo 58 LGT · Fuente oficial: LGT 58.3 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a58",
+      "respuestaLiteral": "La sanción tributaria"
+    },
+    {
+      "id": "LP-T10-011",
+      "enunciado": "El plazo general de prescripción tributaria es de:",
+      "opciones": [
+        "Dos años",
+        "Tres años",
+        "Cuatro años",
+        "Cinco años"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La LGT fija en cuatro años el plazo general para determinar la deuda, exigir el pago y ejercer los derechos de devolución en los términos legales.",
+      "trampaExamen": "Una actuación interruptiva reinicia el cómputo del plazo, con las especialidades previstas legalmente.",
+      "referencia": "manual.md · apartado 33 · Artículos 66 a 70 LGT · Fuente oficial: LGT 66 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a66",
+      "respuestaLiteral": "Cuatro años"
+    },
+    {
+      "id": "LP-T10-012",
+      "enunciado": "En una autoliquidación, el obligado tributario:",
+      "opciones": [
+        "Solo comunica hechos y espera siempre una liquidación administrativa",
+        "Comunica datos, los califica jurídicamente y determina la cantidad a ingresar, devolver o compensar",
+        "Solicita exclusivamente una devolución",
+        "Reconoce de forma irrevocable la procedencia de la obligación"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La autoliquidación combina comunicación de datos, calificación jurídica y cuantificación por el propio obligado. No equivale a una mera declaración ni impide su rectificación cuando proceda.",
+      "trampaExamen": "En la declaración el obligado comunica hechos; en la autoliquidación además calcula el resultado.",
+      "referencia": "manual.md · apartado 38 · Artículos 119 a 122 LGT · Fuente oficial: LGT 120.1 · https://www.boe.es/buscar/act.php?id=BOE-A-2003-23186#a120",
+      "respuestaLiteral": "Comunica datos, los califica jurídicamente y determina la cantidad a ingresar, devolver o compensar"
+    }
+  ],
+  "revisionFocalizada": {
+    "fecha": "2026-11-02",
+    "preguntas": [
+      "LP-T10-007"
+    ],
+    "normativa": "Ley 58/2003, artículo 27.2–5",
+    "alcance": "Precisa el ámbito del 1 % mensual, excepciones y reducción condicionada; no modifica respuestas ni constituye recertificación total."
+  },
+  "controlCalidadOpciones": {
+    "fecha": "2026-11-04",
+    "alcance": "Reubicación equilibrada de posiciones A-D sin modificar enunciado, alternativas, respuesta verdadera, justificación ni referencia; no constituye recertificación legal",
+    "objetivo": "3 correctas por cada posición en banco de 12"
+  },
+  "revisionFocalizada20261104": {
+    "fecha": "2026-11-04",
+    "preguntas": [
+      "LP-T10-002"
+    ],
+    "normativa": "TRLRHL, art. 7.2, BOE-A-2004-4214",
+    "alcance": "Cotejo de órgano delegante, aceptación por Pleno local delegado y doble publicación; distractores conservados y revisados para el supuesto específico; no recertificación integral."
+  },
+  "controlLiteralidadCe20261104": {
+    "fecha": "2026-11-04",
+    "pregunta": "LP-T10-001",
+    "correccion": "Contribución según capacidad económica vs inspiración del sistema en igualdad/progresividad vs prohibición de confiscación",
+    "norma": "Constitución española 31.1",
+    "certificadoIntegral": false
+  }
+}

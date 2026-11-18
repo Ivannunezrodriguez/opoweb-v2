@@ -1,0 +1,164 @@
+{
+  "tema": 9,
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
+  "preguntas": [
+    {
+      "id": "OLIAS-T09-001",
+      "enunciado": "¿Qué acredita el franqueo postal?",
+      "opciones": [
+        "La nacionalidad del destinatario",
+        "El registro administrativo",
+        "La identidad del alcalde",
+        "El pago del servicio"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El franqueo acredita el pago del servicio postal mediante signos o efectos admitidos; no equivale a una firma de recepción.",
+      "trampaExamen": "¡Foco Examen!: El franqueo acredita el pago del servicio postal mediante signos o efectos admitidos; no equivale a una firma de recepción.",
+      "referencia": "RD 437/2024 art. 14",
+      "respuestaLiteral": "El pago del servicio"
+    },
+    {
+      "id": "OLIAS-T09-002",
+      "enunciado": "El envío certificado se entrega en general:",
+      "opciones": [
+        "Previa firma del destinatario o autorizado",
+        "Solo al vecino del destinatario",
+        "Solo en domicilio del cartero",
+        "Sin identificación ni firma siempre"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La entrega de envíos certificados se efectúa previa firma a destinatario o persona autorizada, con reglas para quien no pueda firmar.",
+      "trampaExamen": "¡Foco Examen!: La entrega de envíos certificados se efectúa previa firma a destinatario o persona autorizada, con reglas para quien no pueda firmar.",
+      "referencia": "RD 437/2024 art. 20",
+      "respuestaLiteral": "Previa firma del destinatario o autorizado"
+    },
+    {
+      "id": "OLIAS-T09-003",
+      "enunciado": "Una carta recibida en conserjería es:",
+      "opciones": [
+        "Un acto de notificación pública",
+        "Automáticamente asiento registral",
+        "Correspondencia que debe canalizarse",
+        "Resolución administrativa"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Una carta recibida en conserjería sigue el procedimiento de clasificación y reparto, no equivale automáticamente a asiento en registro administrativo.",
+      "trampaExamen": "¡Foco Examen!: Una carta recibida en conserjería sigue el procedimiento de clasificación y reparto, no equivale automáticamente a asiento en registro administrativo.",
+      "referencia": "Manual §3, circuito interno de documentación",
+      "respuestaLiteral": "Correspondencia que debe canalizarse"
+    },
+    {
+      "id": "OLIAS-T09-004",
+      "enunciado": "El precio de una carta depende entre otros de:",
+      "opciones": [
+        "Nombre del alcalde",
+        "Grupo del auxiliar",
+        "Tipo de servicio, peso y destino",
+        "Color del sobre únicamente"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Los precios dependen de producto postal, peso, dimensiones, destino y servicios complementarios; no hay una cifra fija universal.",
+      "trampaExamen": "¡Foco Examen!: Los precios dependen de producto postal, peso, dimensiones, destino y servicios complementarios; no hay una cifra fija universal.",
+      "referencia": "Manual §4, características de tarifa",
+      "respuestaLiteral": "Tipo de servicio, peso y destino"
+    },
+    {
+      "id": "OLIAS-T09-005",
+      "enunciado": "El reglamento postal general aprobado en 2024 es:",
+      "opciones": [
+        "RD 437/2024",
+        "RD 614/2001",
+        "RD 842/2002",
+        "RD 486/1997"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El RD 437/2024 aprobó el Reglamento de los servicios postales y entró en vigor el 18 de agosto de 2024.",
+      "trampaExamen": "¡Foco Examen!: El RD 437/2024 aprobó el Reglamento de los servicios postales y entró en vigor el 18 de agosto de 2024.",
+      "referencia": "RD 437/2024, título y entrada en vigor",
+      "respuestaLiteral": "RD 437/2024"
+    },
+    {
+      "id": "OLIAS-T09-006",
+      "enunciado": "¿Qué Ley es la del servicio postal universal?",
+      "opciones": [
+        "Ley 39/2025",
+        "Ley 7/1985",
+        "Ley 31/1995",
+        "Ley 43/2010"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La Ley 43/2010 regula el servicio postal universal, los derechos de usuarios y el mercado postal.",
+      "trampaExamen": "¡Foco Examen!: La Ley 43/2010 regula el servicio postal universal, los derechos de usuarios y el mercado postal.",
+      "referencia": "Ley 43/2010, título",
+      "respuestaLiteral": "Ley 43/2010"
+    },
+    {
+      "id": "OLIAS-T09-007",
+      "enunciado": "Una notificación administrativa es:",
+      "opciones": [
+        "Cualquier paquete con franqueo",
+        "Acto regulado además por normas específicas",
+        "Una carta ordinaria sin más",
+        "Un albarán comercial"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Una notificación administrativa exige normativa específica; persisten transitoriamente reglas delimitadas del RD 1829/1999.",
+      "trampaExamen": "¡Foco Examen!: Una notificación administrativa exige normativa específica; persisten transitoriamente reglas delimitadas del RD 1829/1999.",
+      "referencia": "RD 437/2024 disposición transitoria única; Ley 39/2015 arts. 40 y ss.",
+      "respuestaLiteral": "Acto regulado además por normas específicas"
+    },
+    {
+      "id": "OLIAS-T09-008",
+      "enunciado": "Al distribuir sobres con datos personales se debe:",
+      "opciones": [
+        "Fotografiarlos en teléfono privado",
+        "Dejarlos en zona pública",
+        "Abrirlos por curiosidad",
+        "Mantener confidencialidad y ruta autorizada"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "La correspondencia con datos personales se custodia con confidencialidad y se entrega solo por circuito autorizado.",
+      "trampaExamen": "¡Foco Examen!: La correspondencia con datos personales se custodia con confidencialidad y se entrega solo por circuito autorizado.",
+      "referencia": "RGPD art. 5.1.f; manual §3",
+      "respuestaLiteral": "Mantener confidencialidad y ruta autorizada"
+    },
+    {
+      "id": "OLIAS-T09-009",
+      "enunciado": "Un registro de entrega interna sirve para:",
+      "opciones": [
+        "Sustituir autorización judicial",
+        "Justificar abrir documentos ajenos",
+        "Trazabilidad según protocolo",
+        "Convertir conserjería en registro oficial"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El control de entrega permite seguir quién recibió la documentación y cuándo, si el procedimiento municipal lo exige.",
+      "trampaExamen": "¡Foco Examen!: El control de entrega permite seguir quién recibió la documentación y cuándo, si el procedimiento municipal lo exige.",
+      "referencia": "Manual §3, procedimiento de correspondencia interna",
+      "respuestaLiteral": "Trazabilidad según protocolo"
+    },
+    {
+      "id": "OLIAS-T09-010",
+      "enunciado": "¿Puede confundirse certificado y notificación administrativa?",
+      "opciones": [
+        "Siempre son exactamente lo mismo",
+        "No; tienen requisitos y finalidades diferentes",
+        "Solo las tarifas los distinguen",
+        "Nunca requieren identidad"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El certificado acredita un servicio postal con firma; la notificación administrativa requiere sus propias garantías procedimentales.",
+      "trampaExamen": "¡Foco Examen!: El certificado acredita un servicio postal con firma; la notificación administrativa requiere sus propias garantías procedimentales.",
+      "referencia": "RD 437/2024 art. 20 y disposición transitoria única",
+      "respuestaLiteral": "No; tienen requisitos y finalidades diferentes"
+    }
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "preguntasRevisadas": 10,
+    "alternativasRevisadas": 40,
+    "clavesModificadas": 0,
+    "certificacionIntegral": false
+  }
+}

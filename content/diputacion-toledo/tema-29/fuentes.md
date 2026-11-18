@@ -1,0 +1,57 @@
+# Fuentes oficiales · Tema 29
+
+**Estado editorial:** `GENERACION_DESDE_CERO`
+
+## Programa oficial
+
+- **ANEXO VII · Administrativo/a C1 · Diputación Provincial de Toledo**.
+- **BOP de Toledo número 118, de 25 de junio de 2026**.
+- Código de verificación: **2026.00002934**.
+
+## Normativa principal
+
+1. **Real Decreto Legislativo 2/2004, de 5 de marzo**, por el que se aprueba el texto refundido de la Ley Reguladora de las Haciendas Locales.
+   - Referencia: `BOE-A-2004-4214`.
+   - Texto consolidado consultado con última actualización publicada el **3 de junio de 2026**.
+   - IBI: artículos **60 a 77**.
+   - IAE: artículos **78 a 91**.
+   - URL oficial: https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214
+
+2. **Real Decreto Legislativo 1175/1990, de 28 de septiembre**, por el que se aprueban las tarifas y la instrucción del Impuesto sobre Actividades Económicas.
+   - Referencia: `BOE-A-1990-23930`.
+   - Texto consolidado consultado con última actualización publicada el **21 de marzo de 2026**.
+   - URL oficial: https://www.boe.es/buscar/act.php?id=BOE-A-1990-23930
+
+3. **Real Decreto 243/1995, de 17 de febrero**, por el que se dictan normas para la gestión del Impuesto sobre Actividades Económicas y se regula la delegación de competencias en materia de gestión censal.
+   - Referencia: `BOE-A-1995-5917`.
+   - Texto consolidado consultado con última actualización publicada el **5 de septiembre de 2003**.
+   - URL oficial: https://www.boe.es/buscar/act.php?id=BOE-A-1995-5917
+
+4. **Real Decreto Legislativo 1/2004, de 5 de marzo**, por el que se aprueba el texto refundido de la Ley del Catastro Inmobiliario.
+   - Fuente complementaria para clasificación y valor catastral de los inmuebles.
+   - Referencia: `BOE-A-2004-4163`.
+   - URL oficial: https://www.boe.es/buscar/act.php?id=BOE-A-2004-4163
+
+## Criterio editorial
+
+- Redacción autónoma y específica para la convocatoria de Diputación.
+- Sin reutilización de otros temarios.
+- Definiciones esenciales conservadas con máxima fidelidad normativa.
+- Plazos, porcentajes, cuantías y órganos destacados en **negrita**.
+- Verificación normativa efectuada en **julio de 2026**.
+
+## Actualización de fuente normativa — **29/10/2026**
+
+- [TRLRHL, texto consolidado BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): última actualización publicada el **07/10/2026**, posterior a la edición de **03/06/2026** utilizada en la versión original.
+- Artículos comprobados en esta actualización parcial: **61, 65, 72, 75, 78, 82 y 87**, para prelación IBI, valor catastral, tipos, devengo y características del IAE.
+- Banco ampliado a **20 preguntas**. Se mantiene pendiente la auditoría integral del manual y la prueba funcional de los contenidos.
+
+> ⚠️ **¡Foco Examen!:** Separar el **tipo de gravamen del IBI** del **coeficiente de situación del IAE**; tienen naturaleza y unidades diferentes.
+
+## Auditoría compartida IBI–IAE C1/C2 — **04/11/2026**
+
+[**TRLRHL consolidado, arts. 61.5.b, 62.1.b y 82.1.c (regla 3.ª)**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214): **no sujeción** de determinados bienes patrimoniales propios del municipio que no estén cedidos a terceros mediante contraprestación; **exención** de bienes comunales y montes vecinales; INCN del IAE **inferior a 1.000.000 €** y cómputo **de grupo del art. 42 del Código de Comercio** cuando existe control, aunque no haya obligación de consolidar. **DIP-T29-018** sustituye pregunta repetitiva sobre el umbral por un caso de grupo, manteniendo **20 preguntas**. Se conserva el estado de auditoría parcial.
+
+## Auditoría de bloque C1 28–31 — **05/11/2026**
+
+Cotejados el [**TRLRHL consolidado 07/10/2026**](https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214), arts. **61.5.b, 62.1.b, 72.4 bis, 72.4 ter, 74.4 y 86** y la [Instrucción del IAE](https://www.boe.es/buscar/act.php?id=BOE-A-1990-23930). La reforma de **octubre de 2026** incorpora recargo opcional hasta **150 %** en alojamientos turísticos en zona tensionada y condiciones legales, y la bonificación de **familia numerosa hasta 90 %** sigue siendo potestativa. Se sustituyeron **5** duplicados de un banco de **20 preguntas / 80 opciones**. [Informe del lote](../cierre-editorial-28-31-2026-11-05.md).

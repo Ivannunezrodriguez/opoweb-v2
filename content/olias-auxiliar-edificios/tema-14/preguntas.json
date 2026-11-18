@@ -1,0 +1,163 @@
+{
+  "tema": 14,
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
+  "preguntas": [
+    {
+      "id": "OLIAS-T14-001",
+      "enunciado": "¿Para qué se usa una llave Allen?",
+      "opciones": [
+        "Tornillos de hexágono interior",
+        "Medir voltaje",
+        "Tuercas gigantes exclusivamente",
+        "Pintar"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "La llave Allen se emplea en tornillos de alojamiento hexagonal interior; no se confunde con una llave inglesa de boca ajustable.",
+      "trampaExamen": "¡Foco Examen!: La llave Allen se emplea en tornillos de alojamiento hexagonal interior; no se confunde con una llave inglesa de boca ajustable.",
+      "referencia": "Apartado 3, herramienta Allen y hexágono interior",
+      "respuestaLiteral": "Tornillos de hexágono interior"
+    },
+    {
+      "id": "OLIAS-T14-002",
+      "enunciado": "¿Cuál tiene boca ajustable?",
+      "opciones": [
+        "Llave Allen",
+        "Llave fija",
+        "Llave inglesa",
+        "Remachadora"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La llave inglesa dispone de boca regulable mediante mecanismo de ajuste; la llave fija tiene abertura para una medida determinada.",
+      "trampaExamen": "¡Foco Examen!: La llave inglesa dispone de boca regulable mediante mecanismo de ajuste; la llave fija tiene abertura para una medida determinada.",
+      "referencia": "Apartado 3, tipos de llaves",
+      "respuestaLiteral": "Llave inglesa"
+    },
+    {
+      "id": "OLIAS-T14-003",
+      "enunciado": "Antes de taladrar un muro debe comprobarse:",
+      "opciones": [
+        "Solo hora del día",
+        "Nada",
+        "Posibles conducciones ocultas",
+        "Solo su color"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "Perforar sin conocer instalaciones ocultas puede afectar cableado o conducciones; deben verificarse antes del uso del taladro y obtenerse autorización.",
+      "trampaExamen": "¡Foco Examen!: Perforar sin conocer instalaciones ocultas puede afectar cableado o conducciones; deben verificarse antes del uso del taladro y obtenerse autorización.",
+      "referencia": "Apartado 5, RD 1215/1997 anexo II 1.3-1.4 y prevención de riesgos",
+      "respuestaLiteral": "Posibles conducciones ocultas"
+    },
+    {
+      "id": "OLIAS-T14-004",
+      "enunciado": "Un tornillo suele permitir:",
+      "opciones": [
+        "Desmontaje de unión roscada",
+        "Desinfección",
+        "Unión soldada automática",
+        "Protección diferencial"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Las uniones mediante tornillo normalmente pueden desmontarse desenroscando, a diferencia de ciertos remaches que requieren destruir la unión.",
+      "trampaExamen": "¡Foco Examen!: Las uniones mediante tornillo normalmente pueden desmontarse desenroscando, a diferencia de ciertos remaches que requieren destruir la unión.",
+      "referencia": "Apartado 4, fijaciones",
+      "respuestaLiteral": "Desmontaje de unión roscada"
+    },
+    {
+      "id": "OLIAS-T14-005",
+      "enunciado": "Para fijar en placa de yeso se necesita:",
+      "opciones": [
+        "Cualquier taco sin valorar",
+        "Siempre clavar a mano",
+        "Un cebador",
+        "Anclaje compatible con soporte y carga"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El anclaje correcto debe ser compatible con el material del soporte y las cargas; un taco para hormigón no se presupone válido para yeso laminado.",
+      "trampaExamen": "¡Foco Examen!: El anclaje correcto debe ser compatible con el material del soporte y las cargas; un taco para hormigón no se presupone válido para yeso laminado.",
+      "referencia": "Apartado 4, tacos y anclajes",
+      "respuestaLiteral": "Anclaje compatible con soporte y carga"
+    },
+    {
+      "id": "OLIAS-T14-006",
+      "enunciado": "Mango de martillo suelto:",
+      "opciones": [
+        "Mojarlo",
+        "Retirar de uso",
+        "Taparlo con una hoja",
+        "Usar con más fuerza"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El mango suelto puede desprender la cabeza del martillo durante el golpe; la herramienta deteriorada debe retirarse del servicio.",
+      "trampaExamen": "¡Foco Examen!: El mango suelto puede desprender la cabeza del martillo durante el golpe; la herramienta deteriorada debe retirarse del servicio.",
+      "referencia": "Apartado 6, RD 1215/1997, anexo II 1.4",
+      "respuestaLiteral": "Retirar de uso"
+    },
+    {
+      "id": "OLIAS-T14-007",
+      "enunciado": "Una arandela puede servir para:",
+      "opciones": [
+        "Medir intensidad",
+        "Encender una luz",
+        "Desconectar el diferencial",
+        "Distribuir carga y otras funciones según tipo"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Según su diseño, una arandela distribuye esfuerzo sobre la superficie o cumple otras funciones mecánicas en un montaje.",
+      "trampaExamen": "¡Foco Examen!: Según su diseño, una arandela distribuye esfuerzo sobre la superficie o cumple otras funciones mecánicas en un montaje.",
+      "referencia": "Apartado 4, fijaciones y arandelas",
+      "respuestaLiteral": "Distribuir carga y otras funciones según tipo"
+    },
+    {
+      "id": "OLIAS-T14-008",
+      "enunciado": "La selección de broca depende de:",
+      "opciones": [
+        "Solo el color",
+        "Solo el nombre del edificio",
+        "Material, diámetro y equipo",
+        "Cualquier formato"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El tipo de broca, su diámetro y la capacidad del taladro deben adecuarse al material y a las condiciones de seguridad.",
+      "trampaExamen": "¡Foco Examen!: El tipo de broca, su diámetro y la capacidad del taladro deben adecuarse al material y a las condiciones de seguridad.",
+      "referencia": "Apartados 3 y 5, selección de brocas",
+      "respuestaLiteral": "Material, diámetro y equipo"
+    },
+    {
+      "id": "OLIAS-T14-009",
+      "enunciado": "Una sierra manual debe usarse:",
+      "opciones": [
+        "Con pieza suelta",
+        "Con material sujeto y hoja apropiada",
+        "Sin atender estado de hoja",
+        "Con ojos cerrados"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "Un trabajo seguro con sierra manual requiere sujetar la pieza, emplear hoja compatible y mantener manos fuera de la trayectoria de corte.",
+      "trampaExamen": "¡Foco Examen!: Un trabajo seguro con sierra manual requiere sujetar la pieza, emplear hoja compatible y mantener manos fuera de la trayectoria de corte.",
+      "referencia": "Apartado 5, uso de sierra manual",
+      "respuestaLiteral": "Con material sujeto y hoja apropiada"
+    },
+    {
+      "id": "OLIAS-T14-010",
+      "enunciado": "Las herramientas deterioradas deben:",
+      "opciones": [
+        "Retirarse y comunicarse",
+        "Seguir utilizándose",
+        "Dejarse en recepción",
+        "Prestarse a visitantes"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "No deben usarse herramientas defectuosas; se comunican para sustituirlas o reparar solo con la capacitación necesaria.",
+      "trampaExamen": "¡Foco Examen!: No deben usarse herramientas defectuosas; se comunican para sustituirlas o reparar solo con la capacitación necesaria.",
+      "referencia": "Apartado 6, RD 1215/1997, art. 3.5 y anexo II 1.4",
+      "respuestaLiteral": "Retirarse y comunicarse"
+    }
+  ],
+  "controlEditorial": {
+    "fecha": "2026-11-08",
+    "tipo": "COTEJO_10_PREGUNTAS_40_ALTERNATIVAS",
+    "clavesModificadas": 0,
+    "certificacionIntegral": false
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "tema": 15,
+  "estado": "AUDITADO",
+  "version": "2026-11-08",
+  "preguntas": [
+    {
+      "id": "OLIAS-T15-001",
+      "enunciado": "¿Qué protege principalmente un interruptor diferencial?",
+      "opciones": [
+        "Sobrecargas",
+        "Fugas de corriente",
+        "Potencia contratada",
+        "La lámpara fluorescente"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El interruptor diferencial detecta desequilibrios entre corrientes activas, asociados a fugas, y contribuye a la protección según el diseño. No sustituye al magnetotérmico.",
+      "trampaExamen": "¡Foco Examen!: El interruptor diferencial detecta desequilibrios entre corrientes activas, asociados a fugas, y contribuye a la protección según el diseño. No sustituye al magnetotérmico.",
+      "referencia": "REBT ITC-BT-24; manual §5",
+      "respuestaLiteral": "Fugas de corriente"
+    },
+    {
+      "id": "OLIAS-T15-002",
+      "enunciado": "¿Qué protege un magnetotérmico?",
+      "opciones": [
+        "Solo contra sobretensiones atmosféricas",
+        "Potencia contratada exclusivamente",
+        "Solo fugas a tierra",
+        "Sobrecargas y cortocircuitos"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El interruptor magnetotérmico combina protección frente a sobrecargas y cortocircuitos; un diferencial controla desequilibrio por fugas, por lo que sus funciones son distintas.",
+      "trampaExamen": "¡Foco Examen!: El interruptor magnetotérmico combina protección frente a sobrecargas y cortocircuitos; un diferencial controla desequilibrio por fugas, por lo que sus funciones son distintas.",
+      "referencia": "REBT ITC-BT-17; manual §5",
+      "respuestaLiteral": "Sobrecargas y cortocircuitos"
+    },
+    {
+      "id": "OLIAS-T15-003",
+      "enunciado": "¿Qué controla normalmente el ICP o su función en el contador?",
+      "opciones": [
+        "El timbre",
+        "La señalización",
+        "La potencia contratada",
+        "La toma de tierra"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El ICP o la función equivalente del contador controla el límite de potencia contratada; no se confunde con el IGA de protección general.",
+      "trampaExamen": "¡Foco Examen!: El ICP o la función equivalente del contador controla el límite de potencia contratada; no se confunde con el IGA de protección general.",
+      "referencia": "REBT ITC-BT-17; manual §5",
+      "respuestaLiteral": "La potencia contratada"
+    },
+    {
+      "id": "OLIAS-T15-004",
+      "enunciado": "Primera etapa al suprimir la tensión según RD 614/2001:",
+      "opciones": [
+        "Puesta a tierra",
+        "Desconectar",
+        "Delimitar",
+        "Rearmar"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "El procedimiento para dejar sin tensión una instalación comienza desconectando; impedir realimentación y comprobar ausencia de tensión vienen después.",
+      "trampaExamen": "¡Foco Examen!: El procedimiento para dejar sin tensión una instalación comienza desconectando; impedir realimentación y comprobar ausencia de tensión vienen después.",
+      "referencia": "RD 614/2001, anexo II, apartado A.1",
+      "respuestaLiteral": "Desconectar"
+    },
+    {
+      "id": "OLIAS-T15-005",
+      "enunciado": "Tras impedir la realimentación debe:",
+      "opciones": [
+        "Verificarse la ausencia de tensión",
+        "Quitarse la toma de tierra",
+        "Aumentarse la potencia",
+        "Encenderse una lámpara"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "Tras desconectar y prevenir realimentaciones se verifica ausencia de tensión con el medio y procedimiento apropiados, antes de las protecciones posteriores.",
+      "trampaExamen": "¡Foco Examen!: Tras desconectar y prevenir realimentaciones se verifica ausencia de tensión con el medio y procedimiento apropiados, antes de las protecciones posteriores.",
+      "referencia": "RD 614/2001, anexo II, apartado A",
+      "respuestaLiteral": "Verificarse la ausencia de tensión"
+    },
+    {
+      "id": "OLIAS-T15-006",
+      "enunciado": "¿Qué mide el kWh?",
+      "opciones": [
+        "Intensidad",
+        "Energía",
+        "Resistencia",
+        "Tensión"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "kWh expresa energía acumulada: potencia en kW multiplicada por tiempo en horas; kW por sí solo indica potencia.",
+      "trampaExamen": "¡Foco Examen!: kWh expresa energía acumulada: potencia en kW multiplicada por tiempo en horas; kW por sí solo indica potencia.",
+      "referencia": "Manual §2, magnitudes eléctricas",
+      "respuestaLiteral": "Energía"
+    },
+    {
+      "id": "OLIAS-T15-007",
+      "enunciado": "¿Qué componente hace sonar un timbre mientras se mantiene pulsado?",
+      "opciones": [
+        "Conmutador de cruce",
+        "Diferencial",
+        "Reactancia",
+        "Pulsador normalmente abierto"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Un pulsador normalmente abierto cierra temporalmente el circuito del timbre mientras se mantiene accionado, a diferencia de un interruptor mantenido.",
+      "trampaExamen": "¡Foco Examen!: Un pulsador normalmente abierto cierra temporalmente el circuito del timbre mientras se mantiene accionado, a diferencia de un interruptor mantenido.",
+      "referencia": "Manual §6, circuito de sonería",
+      "respuestaLiteral": "Pulsador normalmente abierto"
+    },
+    {
+      "id": "OLIAS-T15-008",
+      "enunciado": "Para controlar una luz desde dos lugares habitualmente se emplean:",
+      "opciones": [
+        "Dos conmutadores",
+        "Dos transformadores",
+        "Dos timbres",
+        "Dos diferenciales"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El gobierno habitual desde dos ubicaciones utiliza dos conmutadores; para más puntos se pueden incorporar mecanismos de cruce.",
+      "trampaExamen": "¡Foco Examen!: El gobierno habitual desde dos ubicaciones utiliza dos conmutadores; para más puntos se pueden incorporar mecanismos de cruce.",
+      "referencia": "Manual §7, conmutación de alumbrado",
+      "respuestaLiteral": "Dos conmutadores"
+    },
+    {
+      "id": "OLIAS-T15-009",
+      "enunciado": "Color típico armonizado del conductor de protección:",
+      "opciones": [
+        "Negro",
+        "Azul",
+        "Verde-amarillo",
+        "Marrón"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El verde-amarillo identifica el conductor de protección en instalaciones armonizadas. El color no autoriza prescindir de verificar ausencia de tensión.",
+      "trampaExamen": "¡Foco Examen!: El verde-amarillo identifica el conductor de protección en instalaciones armonizadas. El color no autoriza prescindir de verificar ausencia de tensión.",
+      "referencia": "REBT ITC-BT-19 y manual §4",
+      "respuestaLiteral": "Verde-amarillo"
+    },
+    {
+      "id": "OLIAS-T15-010",
+      "enunciado": "Función de la reactancia de fluorescente tradicional:",
+      "opciones": [
+        "Producir señal de emergencia",
+        "Sustituir una toma de tierra",
+        "Limitar corriente",
+        "Activar alarma"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "La reactancia o balasto limita la corriente de descarga de la lámpara fluorescente; el cebador ayuda al arranque en determinados circuitos clásicos.",
+      "trampaExamen": "¡Foco Examen!: La reactancia o balasto limita la corriente de descarga de la lámpara fluorescente; el cebador ayuda al arranque en determinados circuitos clásicos.",
+      "referencia": "Manual §8, fluorescentes tradicionales",
+      "respuestaLiteral": "Limitar corriente"
+    },
+    {
+      "id": "OLIAS-T15-011",
+      "enunciado": "¿Para qué sirve el alumbrado de emergencia?",
+      "opciones": [
+        "Iluminación de seguridad/evacuación ante fallo del normal",
+        "Detectar cortocircuitos",
+        "Abrir una válvula",
+        "Control de potencia"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El alumbrado de emergencia permite iluminar rutas o espacios de seguridad cuando falla el alumbrado normal; una alarma sonora no cumple esa función.",
+      "trampaExamen": "¡Foco Examen!: El alumbrado de emergencia permite iluminar rutas o espacios de seguridad cuando falla el alumbrado normal; una alarma sonora no cumple esa función.",
+      "referencia": "REBT ITC-BT-28, apartado 3",
+      "respuestaLiteral": "Iluminación de seguridad/evacuación ante fallo del normal"
+    },
+    {
+      "id": "OLIAS-T15-012",
+      "enunciado": "Si dispara repetidamente un diferencial, la actuación segura del auxiliar no habilitado es:",
+      "opciones": [
+        "Quitar la tierra",
+        "Puentearlo",
+        "Rearmarlo sin límite",
+        "Señalizar incidencia y avisar al servicio competente"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "Los disparos repetidos pueden revelar un defecto; el auxiliar no habilitado debe impedir maniobras peligrosas, señalizar y avisar al personal competente.",
+      "trampaExamen": "¡Foco Examen!: Los disparos repetidos pueden revelar un defecto; el auxiliar no habilitado debe impedir maniobras peligrosas, señalizar y avisar al personal competente.",
+      "referencia": "RD 614/2001, art. 4 y anexo II",
+      "respuestaLiteral": "Señalizar incidencia y avisar al servicio competente"
+    },
+    {
+      "id": "OLIAS-T15-013",
+      "enunciado": "Según ITC-BT-28, el alumbrado de evacuación en el eje de pasos principales debe ofrecer como mínimo:",
+      "opciones": [
+        "0,1 lux",
+        "1 lux",
+        "10 lux",
+        "50 lux"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "La iluminancia horizontal mínima del alumbrado de evacuación es de 1 lux, a nivel de suelo y eje de pasos principales, en el ámbito regulado.",
+      "trampaExamen": "¡Foco Examen!: La iluminancia horizontal mínima del alumbrado de evacuación es de 1 lux, a nivel de suelo y eje de pasos principales, en el ámbito regulado.",
+      "referencia": "REBT ITC-BT-28, apartado 3.1.1",
+      "respuestaLiteral": "1 lux"
+    },
+    {
+      "id": "OLIAS-T15-014",
+      "enunciado": "En puntos de equipos manuales de protección contra incendios y cuadros de alumbrado se exige:",
+      "opciones": [
+        "0,5 lux",
+        "1 lux",
+        "5 lux",
+        "15 lux"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "En puntos de uso de equipos manuales contra incendios y cuadros de alumbrado, la iluminancia mínima exigida es de 5 lux.",
+      "trampaExamen": "¡Foco Examen!: En puntos de uso de equipos manuales contra incendios y cuadros de alumbrado, la iluminancia mínima exigida es de 5 lux.",
+      "referencia": "REBT ITC-BT-28, apartados 3.1.1 y 3.3.1",
+      "respuestaLiteral": "5 lux"
+    },
+    {
+      "id": "OLIAS-T15-015",
+      "enunciado": "Iluminancia horizontal mínima del alumbrado ambiente o antipánico:",
+      "opciones": [
+        "1 lux",
+        "5 lux",
+        "15 lux",
+        "0,5 lux"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "El alumbrado de ambiente o antipánico exige una iluminancia horizontal mínima de 0,5 lux en el espacio y altura reglamentarios.",
+      "trampaExamen": "¡Foco Examen!: El alumbrado de ambiente o antipánico exige una iluminancia horizontal mínima de 0,5 lux en el espacio y altura reglamentarios.",
+      "referencia": "REBT ITC-BT-28, apartado 3.1.2",
+      "respuestaLiteral": "0,5 lux"
+    },
+    {
+      "id": "OLIAS-T15-016",
+      "enunciado": "Duración mínima de alumbrado de evacuación tras fallo de alimentación normal:",
+      "opciones": [
+        "1 hora",
+        "10 minutos",
+        "4 horas",
+        "15 minutos"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El alumbrado de evacuación debe mantener la iluminancia prevista al menos una hora tras el fallo del suministro normal.",
+      "trampaExamen": "¡Foco Examen!: El alumbrado de evacuación debe mantener la iluminancia prevista al menos una hora tras el fallo del suministro normal.",
+      "referencia": "REBT ITC-BT-28, apartados 3.1.1 y 3.1.2",
+      "respuestaLiteral": "1 hora"
+    },
+    {
+      "id": "OLIAS-T15-017",
+      "enunciado": "En zonas de alto riesgo, ¿qué iluminancia mínima se toma?",
+      "opciones": [
+        "Siempre 0,5 lux",
+        "15 lux o 10 % de la normal, lo que sea mayor",
+        "Siempre 1 lux",
+        "Solo 5 lux"
+      ],
+      "respuestaCorrecta": 1,
+      "justificacion": "En zonas de alto riesgo se exige una iluminancia mínima de 15 lux o del 10 % de la normal, aplicando el valor mayor.",
+      "trampaExamen": "¡Foco Examen!: En zonas de alto riesgo se exige una iluminancia mínima de 15 lux o del 10 % de la normal, aplicando el valor mayor.",
+      "referencia": "REBT ITC-BT-28, apartado 3.1.3",
+      "respuestaLiteral": "15 lux o 10 % de la normal, lo que sea mayor"
+    },
+    {
+      "id": "OLIAS-T15-018",
+      "enunciado": "El alumbrado de seguridad entra automáticamente cuando la tensión del normal es inferior al:",
+      "opciones": [
+        "30 %",
+        "50 %",
+        "70 % del nominal",
+        "90 %"
+      ],
+      "respuestaCorrecta": 2,
+      "justificacion": "El alumbrado de seguridad debe funcionar automáticamente por fallo general o cuando la tensión del alumbrado normal cae por debajo del 70 % nominal.",
+      "trampaExamen": "¡Foco Examen!: El alumbrado de seguridad debe funcionar automáticamente por fallo general o cuando la tensión del alumbrado normal cae por debajo del 70 % nominal.",
+      "referencia": "REBT ITC-BT-28, apartado 3.1",
+      "respuestaLiteral": "70 % del nominal"
+    },
+    {
+      "id": "OLIAS-T15-019",
+      "enunciado": "La ITC-BT-28 define «cerca» de diversos elementos de seguridad como distancia horizontal inferior a:",
+      "opciones": [
+        "0,5 metros",
+        "1 metro",
+        "5 metros",
+        "2 metros"
+      ],
+      "respuestaCorrecta": 3,
+      "justificacion": "En los emplazamientos identificados con la nota de la ITC, cerca equivale a distancia horizontal inferior a dos metros.",
+      "trampaExamen": "¡Foco Examen!: En los emplazamientos identificados con la nota de la ITC, cerca equivale a distancia horizontal inferior a dos metros.",
+      "referencia": "REBT ITC-BT-28, apartado 3.3.1, nota (1)",
+      "respuestaLiteral": "2 metros"
+    },
+    {
+      "id": "OLIAS-T15-020",
+      "enunciado": "¿Cuál es alumbrado de emergencia que permite continuidad de actividades normales?",
+      "opciones": [
+        "De reemplazamiento",
+        "De evacuación exclusivamente",
+        "De señalización vial",
+        "Antipánico únicamente"
+      ],
+      "respuestaCorrecta": 0,
+      "justificacion": "El alumbrado de reemplazamiento permite continuidad de actividad normal o terminarla de forma segura, distinto de evacuación y antipánico.",
+      "trampaExamen": "¡Foco Examen!: El alumbrado de reemplazamiento permite continuidad de actividad normal o terminarla de forma segura, distinto de evacuación y antipánico.",
+      "referencia": "REBT ITC-BT-28, apartado 3.2",
+      "respuestaLiteral": "De reemplazamiento"
+    }
+  ],
+  "controlEditorial20261108": {
+    "resultado": "AUDITADO_DOCUMENTAL_CON_RESERVAS",
+    "preguntasRevisadas": 20,
+    "alternativasRevisadas": 80,
+    "clavesCambiadas": 0,
+    "certificacionIntegral": false
+  }
+}

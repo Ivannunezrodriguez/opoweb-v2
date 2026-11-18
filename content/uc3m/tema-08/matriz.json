@@ -1,0 +1,230 @@
+{
+  "tema": 8,
+  "titulo": "Igualdad, identidad, no discriminación y acoso",
+  "epigrafeOficial": "Ley Orgánica 3/2007 de igualdad; normativa UC3M sobre igualdad, identidad y expresión de género, no discriminación y acoso; III Plan de Igualdad de la UC3M.",
+  "cobertura": [
+    {
+      "bloque": "Objeto y ámbito de la Ley Orgánica 3/2007",
+      "manual": "apartado 1",
+      "preguntas": [
+        "UC3M-T08-001"
+      ]
+    },
+    {
+      "bloque": "Discriminación directa e indirecta",
+      "manual": "apartado 2",
+      "preguntas": [
+        "UC3M-T08-001",
+        "UC3M-T08-002"
+      ]
+    },
+    {
+      "bloque": "Acoso sexual y por razón de sexo",
+      "manual": "apartado 3",
+      "preguntas": [
+        "UC3M-T08-004"
+      ]
+    },
+    {
+      "bloque": "Embarazo, maternidad y represalias",
+      "manual": "apartado 4",
+      "preguntas": [
+        "UC3M-T08-003",
+        "UC3M-T08-005"
+      ]
+    },
+    {
+      "bloque": "Tutela y consecuencias jurídicas",
+      "manual": "apartado 5",
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T08-01",
+        "UC3M-ADIC-20261106-T08-02",
+        "UC3M-ADIC-20261106-T08-03"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
+    },
+    {
+      "bloque": "Acciones positivas",
+      "manual": "apartado 6",
+      "preguntas": [
+        "UC3M-T08-006"
+      ]
+    },
+    {
+      "bloque": "Transversalidad y actuación pública",
+      "manual": "apartado 7",
+      "preguntas": [
+        "UC3M-T08-007"
+      ]
+    },
+    {
+      "bloque": "Igualdad en el empleo público",
+      "manual": "apartado 8",
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T08-04",
+        "UC3M-ADIC-20261106-T08-05",
+        "UC3M-ADIC-20261106-T08-06"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
+    },
+    {
+      "bloque": "Planes de igualdad",
+      "manual": "apartado 9",
+      "preguntas": [
+        "UC3M-T08-008"
+      ]
+    },
+    {
+      "bloque": "Identidad y expresión de género en la UC3M",
+      "manual": "apartado 10",
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T08-07",
+        "UC3M-ADIC-20261106-T08-08",
+        "UC3M-ADIC-20261106-T08-09"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
+    },
+    {
+      "bloque": "Protocolo UC3M frente al acoso y ciberacoso",
+      "manual": "apartado 11",
+      "preguntas": [
+        "UC3M-T08-010",
+        "UC3M-T08-011"
+      ]
+    },
+    {
+      "bloque": "III Plan de Igualdad UC3M 2025-2029",
+      "manual": "apartado 12",
+      "preguntas": [
+        "UC3M-T08-009",
+        "UC3M-T08-012"
+      ]
+    },
+    {
+      "bloque": "Lenguaje e imagen inclusivos",
+      "manual": "apartado 13",
+      "preguntas": [],
+      "preguntasComplementarias": [
+        "UC3M-ADIC-20261106-T08-10",
+        "UC3M-ADIC-20261106-T08-11",
+        "UC3M-ADIC-20261106-T08-12"
+      ],
+      "fuentePreguntasComplementarias": "data/uc3m-repasos-complementarios-20261106.json",
+      "estadoControl": "CUBIERTO_MANUAL_Y_REPASO_EXISTENTE"
+    }
+  ],
+  "estado": "AUDITADO",
+  "controlIntegralBanco20261104": {
+    "estado": "COTEJO_BANCO_COMPLETO",
+    "tipo": "JURIDICO_EDITORIAL",
+    "fecha": "2026-11-04",
+    "preguntasVerificadas": 12,
+    "alternativasVerificadas": 48,
+    "informe": "content/uc3m/tema-08/cotejo-integral-2026-11-04.md",
+    "aprobadoPorUsuario": false,
+    "certificacionWeb": "PENDIENTE_PRUEBA_NAVEGADOR_REAL",
+    "fuente": "LO 3/2007 BOE-A-2007-6115 y normativa UC3M III Plan 2025-2029"
+  },
+  "refuerzo20261106": {
+    "fecha": "2026-11-06",
+    "tipo": "AMPLIACION_FOCAL_JURIDICO_INSTITUCIONAL_NO_CIERRE",
+    "base": "BOE LO 3/2007, BOEL UC3M 13/07/2017, guías UC3M y III Plan 2025–2029",
+    "bloquesSinPreguntasAntes": [
+      "Tutela y consecuencias jurídicas",
+      "Igualdad en el empleo público",
+      "Identidad y expresión de género en la UC3M",
+      "Lenguaje e imagen inclusivos"
+    ],
+    "trazabilidad": [
+      {
+        "epigrafe": "Tutela y consecuencias jurídicas",
+        "manual": "5.1",
+        "articulos": "LO 3/2007 arts.10,12,13",
+        "preguntasNuevas": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "epigrafe": "Igualdad en el empleo público",
+        "manual": "8.1",
+        "articulos": "LO 3/2007 arts.51,55,61,62",
+        "preguntasNuevas": [
+          4,
+          5,
+          6
+        ]
+      },
+      {
+        "epigrafe": "Identidad y expresión de género UC3M",
+        "manual": "10.1",
+        "articulos": "Resolución Rector UC3M 13/07/2017 apartados primero a cuarto",
+        "preguntasNuevas": [
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "epigrafe": "Lenguaje e imagen inclusivos",
+        "manual": "13.1",
+        "articulos": "LO 3/2007 art14.11; III Plan medidas 1.18–1.24; guías UC3M",
+        "preguntasNuevas": [
+          10,
+          11,
+          12
+        ]
+      }
+    ],
+    "repaso": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md",
+    "preguntasComplementarias": 12,
+    "alternativasComplementarias": 48,
+    "bancoOriginalPreguntas": 12,
+    "bancoOriginalSinModificar": true,
+    "aprobacionUsuario": false,
+    "inspeccionVisualPDF2017": "NO_DISPONIBLE",
+    "corteNormativoUC3M": "PENDIENTE_PUBLICACION_OFICIAL_LISTAS_DEFINITIVAS",
+    "certificacionFuncional": false
+  },
+  "controlDesarrollo20261108": {
+    "fecha": "2026-11-08",
+    "estado": "DESARROLLO_DOCUMENTAL_COMPLETO_CON_RESERVA_CORTE",
+    "bloquesCotejados": 13,
+    "supuestosNuevos": 2,
+    "bancoHistorico": 12,
+    "alternativasHistoricas": 48,
+    "aprobacionUsuario": false,
+    "fechaCortePrimariaPendiente": true,
+    "certificacionFuncional": false
+  },
+  "controlTrazabilidadExamen20261109": {
+    "fecha": "2026-11-09",
+    "bloques": 13,
+    "bloquesConPreguntasHistoricasOComplementarias": 13,
+    "origenComplementario": "data/uc3m-repasos-complementarios-20261106.json",
+    "reserva": "Preguntas originales conservadas; rastreo de cobertura, no certificación legal ni funcional",
+    "certificacionIntegral": false
+  },
+  "controlAuditoriaJuridica20261109": {
+    "fecha": "2026-11-09",
+    "estado": "AUDITADO_JURIDICO_INSTITUCIONAL",
+    "acta": "audit/UC3M_T08_AUDITORIA_IGUALDAD_2026-11-09.md",
+    "bloques": 13,
+    "preguntasHistoricas": 12,
+    "preguntasComplementarias": 12,
+    "fuentes": [
+      "BOE-A-2007-6115",
+      "UC3M III Plan 2025-2029",
+      "UC3M II Protocolo acoso"
+    ],
+    "certificacionIntegral": false,
+    "pruebaE2E": false
+  }
+}
