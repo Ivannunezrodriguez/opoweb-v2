@@ -174,10 +174,18 @@ function render(){
  const directCoverage=directStatuses.length
    ?'Rastreo directo: '+directReadable+' legibles, '+directPartial+' parciales y '+directErrors+' con error ('+directStatuses.length+' estados).'
    :'El estado del rastreo municipal directo no está disponible.';
+ const scopeFallback={
+  'DIRECT':'Sedes configuradas y directorio municipal; cobertura desigual',
+  'BOE':'Sumarios de los últimos siete días',
+  'BOCM':'Último boletín disponible por RSS; no es histórico completo',
+  'BOP Toledo':'Sumarios de los últimos siete días',
+  'DOCM':'Sumario de portada, no es histórico completo',
+  'PAG':'Exportación de convocatorias con plazo incluido en la fuente'
+ };
  const sourceScopes=(data.sourceStatus||[])
-  .filter(x=>x&&typeof x.scope==='string')
+  .filter(x=>x&&typeof x.source==='string')
   .map(x=>'<li><strong>'+esc(x.source)+'</strong> · '+(x.ok?'Disponible':'No disponible')+
-   ': '+esc(x.scope)+'</li>').join('');
+   ': '+esc(x.scope||scopeFallback[x.source]||'Alcance no identificado')+'</li>').join('');
  const docsAttempted=data.enrichmentStatus?.attempted||0;
  const docsRead=data.enrichmentStatus?.read||0;
  const lowDocumentCoverage=docsAttempted>=10&&docsRead/docsAttempted<0.2;
