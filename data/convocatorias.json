@@ -1,314 +1,208 @@
 {
-  "actualizadoEl": "2026-11-09",
-  "criterio": "Ficha de convocatorias y seguimiento administrativo (fechas verificadas por ficha). El estado editorial fiable y la tarea siguiente solo constan en AUDITORIA_CONTINUA.md. No confundir publicación de manual con revisión completa ni comprobación histórica de plazo con disponibilidad actual.",
+  "tipo": "PUBLICO_SIN_ESTADOS_PERSONALES",
   "convocatorias": [
     {
       "id": "olias-del-rey-auxiliar-edificios-c2-2026",
       "nombre": "Olías del Rey · Auxiliar de edificios e instalaciones C2",
-      "estadoUsuario": "SOLICITUD_PRESENTADA_PENDIENTE_ADMISION",
-      "prioridad": "ALTA_POR_CERCANIA_Y_ADAPTACION_TECNICA",
-      "estadoEditorial": "22_AUDITADO",
       "plazas": 4,
+      "plazasTurnoLibre": null,
       "subgrupo": "C2",
       "regimen": "PERSONAL_LABORAL_FIJO",
       "sistema": "OPOSICION_LIBRE",
-      "publicacionBOP": {
-        "numero": 204,
-        "fecha": "2026-10-23",
-        "anuncio": "2026/4833",
-        "csv": "2026.00004833",
-        "paginas": "54–59"
-      },
       "publicacionBOE": {
-        "fecha": "2026-10-31",
         "referencia": "BOE-A-2026-22826",
+        "fecha": "2026-10-31",
         "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
       },
+      "publicacionBOP": {
+        "fecha": "2026-10-23",
+        "numero": 204,
+        "anuncio": "2026/4833"
+      },
       "plazoSolicitudes": {
-        "estado": "ABIERTO_DISCREPANCIA_NATURALES_HABILES",
-        "bop": "20 días naturales",
-        "boe": "20 días hábiles",
+        "hasta": null,
+        "fechaConfirmada": null,
         "fechaPrudente": "2026-11-20",
         "fechaTeoricaBOE": "2026-11-30",
-        "fechaConfirmada": null
-      },
-      "tasa": 10,
-      "programa": "data/programa-olias-auxiliar-edificios-2026.json",
-      "seguimiento": "data/seguimiento-olias-auxiliar-edificios-2026.json",
-      "fuenteSolicitud": "content/olias-auxiliar-edificios/GUIA_SOLICITUD_EXAMEN_2026.md",
-      "ultimaComprobacion": "09/11/2026: T13 callejero INE provincia 45 municipio 45122 cotejado (280 VIAS/0 PSEU/427 TRAM) y banco original 21/84 contrastado; quedan reservas de E2E y bases BOP/BOE.",
-      "notaEstadoEditorial": "22/22 temas AUDITADO documental-editorialmente a 09/11/2026. T13 cotejado contra 280 códigos VIAS del INE a 30/06/2026, 0 PSEU y acta primaria. No certificación funcional integral; discrepancia administrativa de bases en plazas/plazos permanece separada.",
-      "inscripcion": {
-        "fechaSolicitud": "2026-11-17",
-        "medio": "PRESENCIAL_AYUNTAMIENTO",
-        "fuente": "Declaración del usuario 18/11/2026; justificante no cotejado",
-        "justificanteVerificado": false
-      },
-      "notaSeguimiento": "Solicitud presencial declarada el 17/11/2026. No afirmar admisión hasta comprobar listas oficiales."
+        "bop": "20 días naturales",
+        "boe": "20 días hábiles"
+      }
     },
     {
       "id": "olias-del-rey-limpiadores-ap-2026",
       "nombre": "Olías del Rey · Limpiador/a AP (3 plazas)",
-      "estadoUsuario": "SIN_DECISION",
-      "prioridad": "SECUNDARIA",
-      "estadoEditorial": "SOLO_SEGUIMIENTO",
       "plazas": 3,
+      "plazasTurnoLibre": null,
       "subgrupo": "AP",
       "regimen": "PERSONAL_LABORAL_FIJO",
       "sistema": "OPOSICION_LIBRE",
-      "publicacionBOP": {
-        "numero": 204,
-        "fecha": "2026-10-23",
-        "anuncio": "2026/4833",
-        "csv": "2026.00004833",
-        "paginas": "49–53"
-      },
       "publicacionBOE": {
         "referencia": "BOE-A-2026-22826",
         "fecha": "2026-10-31",
         "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
       },
-      "plazoSolicitudes": {
-        "estado": "ABIERTO",
-        "descripcion": "20 días hábiles desde BOE",
-        "fechaTeorica": "2026-11-30"
+      "publicacionBOP": {
+        "fecha": "2026-10-23",
+        "numero": 204,
+        "anuncio": "2026/4833"
       },
-      "tasa": 7,
-      "examen": "50 preguntas + 5 reservas; 2 puntos por acierto; -0,50 por error; mínimo 50/100",
-      "nota": "Categoría AP diferenciada de Auxiliar edificios C2. No iniciar temario hasta priorizar C2 y exámenes urgentes."
+      "plazoSolicitudes": {
+        "hasta": null,
+        "fechaConfirmada": null,
+        "fechaPrudente": null,
+        "fechaTeoricaBOE": null,
+        "bop": null,
+        "boe": null
+      }
     },
     {
       "id": "la-puebla-auxiliar-2026",
       "nombre": "La Puebla de Montalbán · Auxiliar Administrativo C2",
-      "estadoUsuario": "INCLUIDO_EN_LISTADO_OFICIAL_ADMITIDOS_2026_09_02",
-      "prioridad": 1,
-      "estadoEditorial": "CERRADO_FASE_2_HISTORICO_REVALIDACION_PENDIENTE",
-      "temas": 19,
-      "ruta": "./",
       "plazas": 4,
+      "plazasTurnoLibre": null,
+      "subgrupo": null,
+      "regimen": null,
       "sistema": "CONCURSO_OPOSICION_LIBRE",
-      "inscripcion": {
-        "fechaSolicitud": "2026-05-28",
-        "tasaEuros": 7,
-        "fechaPago": "2026-05-27",
-        "justificantePrivadoVerificado": true
-      },
-      "listaProvisional": {
-        "decreto": "2026-1051",
-        "fecha": "2026-07-30",
-        "admitidos": 169,
-        "excluidos": 21,
-        "solicitudesTotales": 190,
-        "aspirantesAdmitidosPorPlaza": 42.25,
-        "situacionUsuario": "ADMITIDO",
-        "requiereSubsanacion": false
-      },
-      "seguimientoVerificadoEl": "2026-11-02",
-      "ultimaComprobacion": "02/11/2026: captura de anuncio oficial firmado por Tribunal confirma PRIMER EJERCICIO sábado 14/11/2026 a las 09:30, IES Universidad Laboral de Toledo (Avenida de Europa 28), 50 preguntas + 5 reserva en 60 minutos y DNI. Otra captura, página 5/7 del decreto fechado 02/09/2026, demuestra inclusión del aspirante en ADMITIDOS. Portada decreto no visible: su clase formal definitiva queda por verificar.",
-      "incidenciaCorregida": "Auditoría transversal cerrada para los 19 temas; mantenimiento posterior sujeto a reformas normativas o nuevas publicaciones oficiales.",
-      "notaEstadoEditorial": "Cierre documental fase 2 de julio de 2026 conservado; auditoría de vigencia a noviembre pendiente.",
-      "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
-      "notaVigenciaSeguimiento": "Calendario de primer ejercicio comprobado 02/11/2026 contra imagen de anuncio oficial; vigilar cambios posteriores. Inclusión en lista de admitidos acreditada en captura oficial.",
-      "seguimientoConsultadoEl": "2026-11-02",
-      "listaDefinitiva": {
-        "estado": "INCLUSION_ACREDITADA_EN_LISTADO_DE_ADMITIDOS",
-        "fechaDocumento": "2026-09-02",
-        "nota": "Captura oficial de página 5 de 7 de relación ADMITIDOS, proporcionada por aspirante. Portada y literal definitivo no visibles; no afirmar estado formal definitivo."
-      },
-      "fechaExamen": {
-        "fecha": "2026-11-14",
-        "hora": "09:30",
-        "lugar": "IES Universidad Laboral de Toledo, Avenida de Europa 28, 45003 Toledo",
-        "ejercicio": 1,
-        "preguntas": 50,
-        "reserva": 5,
-        "duracionMinutos": 60,
-        "estado": "LLAMAMIENTO_OFICIAL_ACREDITADO",
-        "fuente": "Anuncio oficial del Tribunal en sede electrónica, captura aportada 02/11/2026"
+      "publicacionBOE": null,
+      "publicacionBOP": null,
+      "plazoSolicitudes": {
+        "hasta": null,
+        "fechaConfirmada": null,
+        "fechaPrudente": null,
+        "fechaTeoricaBOE": null,
+        "bop": null,
+        "boe": null
       }
     },
     {
       "id": "diputacion-toledo-auxiliar-c2-2026",
       "nombre": "Diputación Provincial de Toledo · Auxiliar Administrativo C2",
-      "estadoUsuario": "SOLICITUD_REGISTRADA_PENDIENTE_ADMISION",
-      "prioridad": 1,
-      "estadoEditorial": "19_AUDITADO_1_BORRADOR",
-      "temas": 20,
       "plazas": 4,
       "plazasTurnoLibre": 3,
-      "plazasReservaDiscapacidad": 1,
+      "subgrupo": null,
+      "regimen": null,
       "sistema": "OPOSICION_LIBRE",
-      "fuentePrincipal": "BOP Toledo n.º 197, 14/10/2026, Anexo XI, código 2026.00004759",
       "publicacionBOE": {
         "referencia": "BOE-A-2026-21908",
-        "fecha": "2026-10-21"
+        "fecha": "2026-10-21",
+        "url": null
       },
+      "publicacionBOP": null,
       "plazoSolicitudes": {
-        "desde": "2026-10-22",
         "hasta": "2026-11-19",
-        "estado": "ABIERTO"
-      },
-      "programa": "data/programa-diputacion-auxiliar-c2-2026.json",
-      "seguimiento": "data/seguimiento-diputacion-auxiliar-c2-2026.json",
-      "carpetaContenido": "content/diputacion-toledo-auxiliar-c2",
-      "seguimientoVerificadoEl": "2026-10-25",
-      "ultimaComprobacion": "Solicitud registrada; 20 manuales en borrador. Tema 6 requiere cierre de fuentes estatutarias OAPGT. Consultar el archivo de seguimiento específico para detalles y cautelas.",
-      "notaEstadoEditorial": "Manifiesto cotejado 09/11/2026: 19 temas AUDITADO y T6 BORRADOR por Estatutos OAPGT incompletos; AUDITADO no equivale a certificación integral de bancos y E2E.",
-      "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
-      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-10-25. No presenta comprobación oficial nueva a 02/11/2026."
+        "fechaConfirmada": null,
+        "fechaPrudente": null,
+        "fechaTeoricaBOE": null,
+        "bop": null,
+        "boe": null
+      }
     },
     {
       "id": "diputacion-toledo-administrativo-c1-2026",
       "nombre": "Diputación Provincial de Toledo · Administrativo C1",
-      "estadoUsuario": "ADMITIDO_PROVISIONALMENTE",
-      "prioridad": 2,
-      "estadoEditorial": "39_AUDITADO_1_EN_AUDITORIA_ESTATUTOS",
-      "temas": 40,
+      "plazas": null,
       "plazasTurnoLibre": 2,
+      "subgrupo": null,
+      "regimen": null,
       "sistema": "OPOSICION_LIBRE",
-      "fuentePrincipal": "BOP de Toledo número 118, de 25 de junio de 2026, código 2026.00002934",
       "publicacionBOE": {
         "referencia": "BOE-A-2026-14527",
-        "numero": 162,
-        "fecha": "2026-07-04"
+        "fecha": "2026-07-04",
+        "url": null
       },
+      "publicacionBOP": null,
       "plazoSolicitudes": {
-        "desde": "2026-07-06",
         "hasta": "2026-07-31",
-        "estado": "CERRADO"
-      },
-      "listaProvisional": {
-        "decreto": "1434/2026",
-        "fechaDecreto": "2026-08-11",
-        "fechaPublicacion": "2026-08-14",
-        "bopNumero": 154,
-        "codigoVerificacion": "2026.00003722",
-        "admitidos": 260,
-        "excluidos": 39,
-        "solicitudesTotales": 299,
-        "aspirantesAdmitidosPorPlaza": 130,
-        "maximoPorPlazaSiSubsanaranTodos": 149.5,
-        "situacionUsuario": "ADMITIDO",
-        "numeroOrdenUsuario": 185,
-        "requiereSubsanacion": false,
-        "plazoSubsanacionDiasHabiles": 10,
-        "fechaFinSubsanacionEstimada": "2026-08-28"
-      },
-      "fuenteSeguimiento": "https://www.diputoledo.es/global/50/1964/7099/opcion",
-      "seguimientoVerificadoEl": "2026-11-02",
-      "ultimaComprobacion": "02/11/2026: verificado en portal oficial de Empleo Público Diputación anuncio de lista DEFINITIVA y composición del Tribunal para 2 plazas Administrativo C1; publicación BOP Toledo 29/09/2026 (referencia 4390-2026). No se ha localizado llamamiento del primer ejercicio para ESTAS dos plazas. Admisión personal solo verificada en lista provisional, no cotejada definitiva.",
-      "bloquePendienteCritico": "Texto íntegro y vigente de los Estatutos del OAPGT dentro del tema 22",
-      "notaEstadoEditorial": "Manifiesto cotejado 09/11/2026: 39 temas AUDITADO y T22 EN_AUDITORIA_ESTATUTOS_COMPLETOS_PENDIENTES. El histórico de generación desde cero no representa el estado actual; falta cierre OAPGT.",
-      "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
-      "notaVigenciaSeguimiento": "Última consulta a la fuente oficial: 02/11/2026. Lista definitiva y tribunal anunciados; fecha de examen y admisión personal definitiva por verificar.",
-      "listaDefinitiva": {
-        "estado": "PUBLICADA",
-        "fechaPublicacion": "2026-09-29",
-        "descripcion": "Listado definitivo de admitidos/as y excluidos/as y composición del Tribunal 2 plazas Administrativo/a C1",
-        "urlOficial": "https://www.diputoledo.es/global/50/1964/7099/opcion",
-        "estadoAdmisiónUsuario": "NO_COMPROBADA_EN_LISTA_DEFINITIVA"
-      },
-      "fechaExamen": {
-        "fecha": null,
-        "estado": "SIN_LLAMAMIENTO_ESPECIFICO_LOCALIZADO_A_2026_11_02"
+        "fechaConfirmada": null,
+        "fechaPrudente": null,
+        "fechaTeoricaBOE": null,
+        "bop": null,
+        "boe": null
       }
     },
     {
       "id": "uc3m-auxiliar-c2-2026",
       "nombre": "Universidad Carlos III de Madrid · Escala Auxiliar Administrativa C2",
-      "estadoUsuario": "INSCRITO",
-      "prioridad": 3,
-      "estadoEditorial": "17_AUDITADO_3_EN_REVISION_USUARIO",
-      "temas": 20,
-      "temasConManualFuentesMatrizPreguntas": 20,
       "plazas": 34,
-      "plazasReservaDiscapacidad": 2,
+      "plazasTurnoLibre": null,
+      "subgrupo": null,
+      "regimen": null,
       "sistema": "CONCURSO_OPOSICION_LIBRE",
-      "fuentePrincipal": "Resolución de 30 de junio de 2026; BOE-A-2026-14624 y anuncio en BOCM de 8 de julio de 2026",
+      "publicacionBOE": null,
+      "publicacionBOP": null,
       "plazoSolicitudes": {
-        "desde": "2026-07-09",
         "hasta": "2026-08-05",
-        "estado": "CERRADO",
-        "nota": "El plazo histórico indicado terminó según las fechas registradas. No se ha verificado hoy una eventual reapertura."
-      },
-      "fechaPrevisibleEjercicio": {
-        "fecha": "2026-11-21",
-        "hora": "10:00",
-        "campus": "Getafe",
-        "caracter": "LLAMAMIENTO_OFICIAL_CONFIRMADO_AULA_PENDIENTE"
-      },
-      "fuenteSeguimiento": "https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026",
-      "seguimientoVerificadoEl": "2026-11-02",
-      "ultimaComprobacion": "09/11/2026: recibido Anexo I de admitidos definitivos firmado 30/09/2026; se ha mejorado evidencia primaria pero falta resolución con fecha de publicación y cierre normativo de T10/T15/T16.",
-      "incidenciaCorregida": "Tema 1: corregido el recuento de reformas constitucionales de tres a cuatro; incorporadas la reforma del artículo 69.3 de 2026 y la separación de las circunscripciones senatoriales de Ibiza y Formentera.",
-      "notaEstadoEditorial": "17 temas AUDITADO, 3 pendientes (T10, T15, T16). Anexo I oficial de admitidos definitivos de 36 páginas aportado; firma electrónica 30/09/2026 13:14:31, código documento E6oFKKwKp6. FIRMA no equivale a publicación: fecha oficial de corte base 1.7 sigue por acreditar.",
-      "registroEditorialCanonico": "AUDITORIA_CONTINUA.md",
-      "notaVigenciaSeguimiento": "Llamamiento oficial aportado 02/11/2026: fecha, hora y campus confirmados. Edificio/aula pendientes de resolución posterior; admisión personal pendiente de comprobar.",
-      "siguienteHito": "21/11/2026, 10:00, campus de Getafe: ejercicio único. Comprobar aula asignada en resolución posterior e inclusión personal en lista definitiva."
+        "fechaConfirmada": null,
+        "fechaPrudente": null,
+        "fechaTeoricaBOE": null,
+        "bop": null,
+        "boe": null
+      }
     },
     {
       "id": "carranque-auxiliar-2026",
       "nombre": "Carranque · Auxiliar Administrativo C2",
-      "estadoUsuario": "INSCRITO",
-      "prioridad": 4,
-      "estadoEditorial": "MANTENIMIENTO",
       "plazas": 1,
+      "plazasTurnoLibre": null,
+      "subgrupo": null,
+      "regimen": null,
       "sistema": "CONCURSO_OPOSICION_LIBRE",
       "publicacionBOE": {
         "referencia": "BOE-A-2026-1136",
-        "numero": 16,
-        "fecha": "2026-01-19"
+        "fecha": "2026-01-19",
+        "url": null
       },
+      "publicacionBOP": null,
       "plazoSolicitudes": {
-        "desde": "2026-01-20",
         "hasta": "2026-02-16",
-        "estado": "CERRADO"
-      },
-      "seguimientoVerificadoEl": "2026-07-31",
-      "ultimaComprobacion": "Sin publicación posterior oficial verificada.",
-      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-07-31. No presenta comprobación oficial nueva a 02/11/2026."
+        "fechaConfirmada": null,
+        "fechaPrudente": null,
+        "fechaTeoricaBOE": null,
+        "bop": null,
+        "boe": null
+      }
     },
     {
       "id": "cpeis-toledo-auxiliar-administrativo-2026",
       "nombre": "CPEIS Toledo · Auxiliar Administrativo C2 y Administrativo C1",
-      "estadoUsuario": "PENDIENTE_DECISION",
-      "prioridad": null,
-      "estadoEditorial": "SOLO_SEGUIMIENTO",
-      "plazasTurnoLibre": {
-        "tecnicoAdministracionGeneralA1": 2,
-        "administrativoC1": 1,
-        "auxiliarAdministrativoC2": 4
-      },
+      "plazas": null,
+      "plazasTurnoLibre": null,
+      "subgrupo": null,
+      "regimen": null,
+      "sistema": null,
+      "publicacionBOE": null,
+      "publicacionBOP": null,
       "plazoSolicitudes": {
-        "desde": "2026-07-10",
         "hasta": "2026-08-06",
-        "estado": "CERRADO",
-        "nota": "El plazo histórico indicado terminó según las fechas registradas. No se ha verificado hoy una eventual reapertura."
-      },
-      "fuenteSeguimiento": "https://cpeistoledo.es/empleo-formacion/",
-      "seguimientoVerificadoEl": "2026-07-31",
-      "ultimaComprobacion": "Fotografía oficial registrada el 31/07/2026: plazo publicado hasta el 06/08/2026, ya vencido por fecha a 02/11/2026. No se ha vuelto a verificar aquí la existencia de lista provisional ni nuevas publicaciones.",
-      "notaVigenciaSeguimiento": "Última verificación oficial registrada: 2026-07-31. No presenta comprobación oficial nueva a 02/11/2026."
+        "fechaConfirmada": null,
+        "fechaPrudente": null,
+        "fechaTeoricaBOE": null,
+        "bop": null,
+        "boe": null
+      }
     },
     {
       "id": "las-ventas-auxiliar-2026",
       "nombre": "Las Ventas con Peña Aguilera · Auxiliar Administrativo C2",
-      "estadoUsuario": "DESCARTADO",
-      "prioridad": null,
-      "estadoEditorial": "ARCHIVADA_SIN_DESARROLLO",
       "plazas": 1,
+      "plazasTurnoLibre": null,
+      "subgrupo": null,
+      "regimen": null,
       "sistema": "CONCURSO_OPOSICION_LIBRE",
       "publicacionBOE": {
         "referencia": "BOE-A-2026-14274",
-        "numero": 159,
-        "fecha": "2026-07-01"
+        "fecha": "2026-07-01",
+        "url": null
       },
+      "publicacionBOP": null,
       "plazoSolicitudes": {
-        "desde": "2026-07-02",
         "hasta": "2026-07-21",
-        "estado": "CERRADO"
-      },
-      "motivo": "El usuario ha confirmado que no se presentará"
+        "fechaConfirmada": null,
+        "fechaPrudente": null,
+        "fechaTeoricaBOE": null,
+        "bop": null,
+        "boe": null
+      }
     }
   ]
 }

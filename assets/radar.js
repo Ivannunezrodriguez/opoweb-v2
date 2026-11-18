@@ -17,6 +17,27 @@ setTheme(localStorage.getItem(THEME_KEY)||(matchMedia('(prefers-color-scheme: da
 document.querySelector('#theme-toggle')?.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
 
 let data={opportunities:[]}, entries=[], trackedCalls=[];
+const PERSONAL_KEY='opoweb-radar-local-tracking-v1';
+const TRACKING_OPTIONS=[
+ ['','Sin indicar'],['SOLICITUD_REGISTRADA_PENDIENTE_ADMISION','Solicitud presentada'],
+ ['ADMITIDO_PROVISIONALMENTE','Admitido provisionalmente'],
+ ['ADMITIDO_DEFINITIVAMENTE','Admitido definitivamente'],
+ ['PENDIENTE_INSCRIPCION','Inscripción pendiente'],
+ ['DESCARTADO','Descartada']
+];
+function readLocalTracking(){
+ try{
+  const raw=JSON.parse(localStorage.getItem(PERSONAL_KEY)||'{}');
+  return raw && typeof raw==='object' && !Array.isArray(raw)?raw:{};
+ }catch{return {};}
+}
+let localTracking=readLocalTracking();
+function saveLocalTracking(id,state){
+ if(!id || !TRACKING_OPTIONS.some(x=>x[0]===state))return;
+ if(state)localTracking[id]=state;
+ else delete localTracking[id];
+ localStorage.setItem(PERSONAL_KEY,JSON.stringify(localTracking));
+}
 let filters={q:'',view:'OPORTUNIDADES',state:'TODAS',zone:'TODAS',kind:'TODAS',vacancies:'TODAS',sort:'RELEVANCIA'};
 let shown=40;
 const missing='Sin verificar en las bases';
@@ -69,6 +90,7 @@ function card(o){
  const publicationDay=/^\d{4}-\d{2}-\d{2}$/.test(o.publishedAt||'')?o.publishedAt:null;
  const oldUnconfirmed=!o.deadlineIso&&publicationDay&&ageDays(publicationDay,new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}))>30;
  const trackingTag=tracked?'<span class="radar-tag radar-tracking '+esc(tracked.className)+'">'+esc(tracked.label)+'</span>':'';
+ const trackControl=o.matchedCallId?'<label class="radar-local-control">Mi estado en esta convocatoria <select data-radar-track="'+esc(o.matchedCallId)+'" aria-label="Estado personal en '+esc(o.organism)+'">'+TRACKING_OPTIONS.map(([value,label])=>'<option value="'+esc(value)+'"'+(localTracking[o.matchedCallId]===value?' selected':'')+'>'+esc(label)+'</option>').join('')+'</select></label>':'';
  const oldTag=oldUnconfirmed?'<span class="radar-tag review">Más de 30 días · revisar cierre</span>':'';
  const originBadge=o.detailsStatus==='LEIDO'?'Documento leído automáticamente':'Datos solo del título';
  const confirmation=o.deadlineDisputed
@@ -105,6 +127,7 @@ function card(o){
   '</div>'+ 
   '<p class="radar-note">'+esc([!o.deadline?'Fecha límite sin acreditar':null,!o.qualification?'Titulación pendiente':null,o.group==='REVISAR'?'Grupo pendiente':null].filter(Boolean).join(' · ')||'Datos principales extraídos; revisar posibles rectificaciones oficiales.')+'</p>'+
   '<p class="radar-note">'+esc(confirmation)+'</p>'+
+  trackControl+
   '<div class="radar-actions">'+official+'</div>'+
   '<div class="radar-source">Origen: '+esc(o.source||'Por identificar')+' · '+esc(originBadge)+
   (o.detailsStatus==='LEIDO'?' · Documento oficial leído automáticamente; comprueba el texto original.':' · Datos extraídos del título; las bases pueden contener requisitos adicionales.')+'</div>'+
@@ -150,7 +173,7 @@ function render(){
  '<div class="radar-stat"><strong>'+recent.length+'</strong><span>puestos detectados en 30 días</span></div>',
  '<div class="radar-stat"><strong>'+confirmed.length+'</strong><span>plazos con fecha publicada</span></div>',
  '<div class="radar-stat"><strong>'+actionable.length+'</strong><span>fichas con puesto identificado</span></div>',
- '<div class="radar-stat"><strong>'+tracked.length+'</strong><span>coincidencias con convocatorias seguidas</span></div>',
+ '<div class="radar-stat"><strong>'+tracked.length+'</strong><span>procesos marcados en este navegador</span></div>',
  '<div class="radar-stat"><strong>'+all.filter(x=>!x.actionable&&!x.phaseFollowup).length+'</strong><span>anuncios incompletos por investigar (no enviados por email)</span></div></div>',
  '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Rastreo directo: <strong>'+esc(crawlDate?day(crawlDate):'fecha no disponible')+'</strong>. Webs únicas consultadas: <strong>'+esc(directCrawl.uniqueSources??'sin verificar')+'</strong>. Documentos oficiales leídos: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
  '<section class="panel"><div class="radar-controls">',
@@ -161,7 +184,7 @@ function render(){
  '<label><span>Tipo</span><select id="rk"><option value="TODAS">Cualquiera</option><option value="Oposición / proceso selectivo">Oposición / proceso selectivo</option><option value="Bolsa">Bolsas de empleo</option><option value="Temporal">Temporal / sustitución</option><option value="Oferta de empleo (sin convocatoria)">OEP sin convocatoria</option></select></label>',
  '<label><span>Número de plazas</span><select id="rp"><option value="TODAS">Todas las cantidades</option><option value="UNA">Exactamente 1 plaza</option><option value="2">2 o más plazas</option><option value="3">3 o más plazas</option><option value="5">5 o más plazas</option><option value="10">10 o más plazas</option><option value="SIN_DATO">Plazas sin verificar</option></select></label>',
  '<label><span>Ordenar por</span><select id="ro"><option value="RELEVANCIA">Relevancia para el opositor</option><option value="CIERRE">Fecha de cierre más próxima</option><option value="PLAZAS">Mayor número de plazas</option><option value="PUBLICACION">Publicación oficial más reciente</option><option value="DETECCION">Última detección</option></select></label>',
- '</div><p class="radar-note">Si faltan el plazo, grupo o titulación, Radar <strong>no los ha comprobado</strong>. No se confirma compatibilidad con DAM sin leer los requisitos.</p></section>',
+ '</div><p class="radar-note">Los estados de «Mis procesos» se guardan <strong>solo en este navegador</strong>; no se sincronizan entre dispositivos. Si faltan el plazo, grupo o titulación, Radar <strong>no los ha comprobado</strong>. No se confirma compatibilidad con DAM sin leer los requisitos.</p></section>',
  '<div class="radar-results-summary"><strong>'+list.length+'</strong> registros coinciden; se muestran '+Math.min(shown,list.length)+'.</div>',
  '<section class="radar-grid">'+cards+'</section>',
  shown<list.length?'<div class="radar-more"><button id="radar-more" class="btn secondary" type="button">Mostrar 40 fichas más</button></div>':''
@@ -177,6 +200,12 @@ function render(){
   input?.focus();input?.setSelectionRange?.(input.value.length,input.value.length);
  });
  document.querySelector('#radar-more')?.addEventListener('click',()=>{shown+=40;render()});
+ document.querySelectorAll('[data-radar-track]').forEach(select=>select.addEventListener('change',event=>{
+    const id=event.target.dataset.radarTrack;
+    saveLocalTracking(id,event.target.value);
+    entries=entries.map(o=>o.matchedCallId===id?{...o,trackedCall:event.target.value?{...(o.trackedCall||trackedCalls.find(c=>c.id===o.matchedCallId)),estadoUsuario:event.target.value}:null}:o);
+    render();
+ }));
 }
 try{
  const r=await fetch('data/radar.json',{cache:'no-cache'});
@@ -187,7 +216,12 @@ try{
    if(t.ok){const body=await t.json();trackedCalls=Array.isArray(body.convocatorias)?body.convocatorias:[];}
  }catch(e){console.warn('Seguimiento no disponible',e);}
  entries=classifyRadarEntries(data.opportunities||[],new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}))
-   .map(o=>decorateTracking(o,matchTrackedCall(o,trackedCalls),new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'})));
+   .map(o=>{
+     const match=matchTrackedCall(o,trackedCalls);
+     const personalStatus=match?localTracking[match.id]:null;
+     const decorated=decorateTracking(o,match?{...match,estadoUsuario:personalStatus||''}:null,new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}));
+     return {...decorated,matchedCallId:match?.id||null,trackedCall:personalStatus?{...match,estadoUsuario:personalStatus}:null};
+   });
  render();
 }catch(e){
  app.innerHTML='<section class="panel"><h2>Radar temporalmente no disponible</h2><p>'+esc(e.message)+'</p></section>';
