@@ -46,3 +46,5 @@
 :root[data-theme="dark"] .radar-tracking.admitted{color:#6ee7b7}
 :root[data-theme="dark"] .radar-tracking.registered{color:#93c5fd}
 :root[data-theme="dark"] .radar-tracking.pending{color:#fcd34d}
+
+.radar-tag.closed{background:rgba(100,116,139,.23);color:var(--text);border:1px solid var(--border-soft)}
