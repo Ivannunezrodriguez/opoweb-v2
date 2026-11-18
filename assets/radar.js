@@ -1,4 +1,5 @@
 import {classifyRadarEntries} from './radar-quality.js?v=2';
+import {assessOpportunityEvidence} from './radar-provenance.js';
 import {matchTrackedCall,trackingState,decorateTracking} from './radar-tracking.js?v=2';
 import {orderRadar,deadlineAlert} from './radar-sort.js?v=1';
 
@@ -98,7 +99,14 @@ function card(o){
  const trackingTag=tracked?'<span class="radar-tag radar-tracking '+esc(tracked.className)+'">'+esc(tracked.label)+'</span>':'';
  const trackControl=o.matchedCallId?'<label class="radar-local-control">Mi estado en esta convocatoria <select data-radar-track="'+esc(o.matchedCallId)+'" aria-label="Estado personal en '+esc(o.organism)+'">'+TRACKING_OPTIONS.map(([value,label])=>'<option value="'+esc(value)+'"'+(localTracking[o.matchedCallId]===value?' selected':'')+'>'+esc(label)+'</option>').join('')+'</select></label>':'';
  const oldTag=oldUnconfirmed?'<span class="radar-tag review">Más de 30 días · revisar cierre</span>':'';
- const originBadge=o.detailsStatus==='LEIDO'?'Documento leído automáticamente':'Datos solo del título';
+ const evidence=assessOpportunityEvidence(o);
+ const originBadge=evidence.label;
+ const sourceLinks=evidence.references.map(ref=>
+   '<a href="'+esc(ref.url)+'" target="_blank" rel="noopener noreferrer">'+esc(ref.label)+'</a>'
+ ).join(' · ');
+ const missingEvidence=evidence.requirementsMissing.length
+   ?' · Pendiente: '+evidence.requirementsMissing.join(', ')
+   :' · Datos principales encontrados, sin revisión jurídica integral';
  const confirmation=o.deadlineDisputed
    ? 'Discrepancia entre BOP y BOE: no se confirma la fecha exacta de cierre hasta aclaración oficial.'
    : o.deadlineIso
@@ -135,8 +143,10 @@ function card(o){
   '<p class="radar-note">'+esc(confirmation)+'</p>'+
   trackControl+
   '<div class="radar-actions">'+official+'</div>'+
-  '<div class="radar-source">Origen: '+esc(o.source||'Por identificar')+' · '+esc(originBadge)+
-  (o.detailsStatus==='LEIDO'?' · Documento oficial leído automáticamente; comprueba el texto original.':' · Datos extraídos del título; las bases pueden contener requisitos adicionales.')+'</div>'+
+  '<div class="radar-source"><strong>Información disponible: '+esc(originBadge)+'</strong>'+esc(missingEvidence)+'</div>'+
+  '<div class="radar-source">Procedencia: '+esc(evidence.sourceDescription)+'</div>'+
+  '<div class="radar-source">Fuentes consultables: '+(sourceLinks||'Enlace oficial pendiente de recuperar')+'</div>'+
+  '<div class="radar-source">'+esc(evidence.caution)+'</div>'+
   '</article>';
 }
 function render(){
