@@ -28,7 +28,7 @@ Este documento es el punto de control de **OpoRadar**. El estado editorial de lo
 | ID | Prioridad | Tarea | Estado | Cierre verificable |
 |---|---|---|---|---|
 | P01 | Crítica | **Privacidad y publicación GitHub Free**: respaldo; crear repositorio privado de desarrollo y uno público solo para Pages; migrar el desarrollo y publicar únicamente artefactos despersonalizados | Pendiente de pasos del propietario | Página accesible, repo fuente privado y fichero público sin datos personales |
-| P02 | Crítica | Extraer literalmente plazo, unidad de cómputo y evento de inicio, y detectar conflicto de fuentes | En curso | Tests con ejemplos de bases, plazos relativos y contradicciones |
+| P02 | Crítica | Extraer literalmente plazo, unidad de cómputo y evento de inicio, y detectar conflicto de fuentes | PARCIAL: lector implementado con tests; falta detección cruzada de discrepancias | Tests con ejemplos de bases, plazos relativos y contradicciones |
 | P03 | Crítica | Cotejar publicación BOE/BOP/DOCM y calendario de festivos para **fecha exacta**; no inventar cierre | Pendiente | Fuente y fecha verificadas o campo «por comprobar» |
 | P04 | Alta | Alertas por cambio de fase: inscripción, subsanación, listas y examen, sin duplicados | Pendiente; avisos actuales solo de nuevas ofertas | Ensayos que demuestren que no se sigue pidiendo inscribirse a quien ya lo hizo |
 | P05 | Alta | Panel de seguimiento protegido «Mis oposiciones» | Parcial, actualmente usando manifiesto en repo público | Estados actualizables sin publicar datos privados |
@@ -45,3 +45,8 @@ Este documento es el punto de control de **OpoRadar**. El estado editorial de lo
 ## Registro de acuerdos
 - 18/11/2026: se solicita persistir sugerencias, avances y pendientes para evitar reiteraciones.
 - 18/11/2026: el propietario confirma **GitHub Free**. Arquitectura objetivo: **fuente privada + web pública mínima despersonalizada**; pendiente ejecución y verificación.
+
+## Avance de la siguiente fase (18/11/2026)
+- Nuevo módulo `tools/radar-deadline-rule.mjs` extrae días, naturales/hábiles y boletín de inicio de la regla del anuncio; conserva `deadlineVerified:false`.
+- Integrado en `tools/radar-enrich.mjs` y ampliado `tests/radar-enrich.mjs` con ejemplos BOE/BOP. **No calcula todavía fechas finales ni resuelve contradicciones oficiales.**
+- Siguiente tarea P03: conectar la fecha real de publicación y calendario de festivos, conservar explicación y fuente; luego pruebas sobre Olías y Diputación. No presentar el extractor como auditoría jurídica final.
