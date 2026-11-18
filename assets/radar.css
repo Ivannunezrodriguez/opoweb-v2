@@ -36,3 +36,13 @@
 .radar-controls input::placeholder{color:var(--muted);opacity:1}
 .radar-controls input:focus-visible,.radar-controls select:focus-visible{outline:3px solid color-mix(in srgb,var(--primary) 25%,transparent);outline-offset:1px;border-color:var(--primary)}
 :root[data-theme="dark"] .radar-layout .btn:not(.secondary){color:#08111f}
+
+/* Estados de convocatorias enlazadas: color reservado al dato personal de seguimiento. */
+.radar-tag.radar-tracking{border:1px solid currentColor;font-weight:750}
+.radar-tracking.admitted{color:#047857;background:rgba(16,185,129,.15)}
+.radar-tracking.registered{color:#1d4ed8;background:rgba(59,130,246,.16)}
+.radar-tracking.pending{color:#92400e;background:rgba(245,158,11,.17)}
+.radar-tracking.excluded{color:var(--muted);background:rgba(100,116,139,.12)}
+:root[data-theme="dark"] .radar-tracking.admitted{color:#6ee7b7}
+:root[data-theme="dark"] .radar-tracking.registered{color:#93c5fd}
+:root[data-theme="dark"] .radar-tracking.pending{color:#fcd34d}
