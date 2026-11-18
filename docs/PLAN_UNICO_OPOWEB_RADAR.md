@@ -57,3 +57,8 @@ Este documento es el punto de control de **OpoRadar**. El estado editorial de lo
 - Arquitectura propuesta: renombrar `opoweb` a `opoweb-dev` y establecer visibilidad **privada**, conservando histórico antiguo temporalmente; luego reemplazar su rama de trabajo con copia verificada de v2. `opoweb-v2` conserva nombre, ruta Pages y visibilidad pública; contendrá solo artefactos estáticos despersonalizados tras preparar sincronización.
 - **Pendiente de acción del propietario:** renombrar y cambiar visibilidad del repo antiguo desde Settings; no borrar archivos ni modificar `opoweb-v2` antes del backup. GitHub Free requiere repo Pages público. No presentar la migración como realizada.
 - Riesgos: contenido privado no puede ser consumido directamente mediante fetch desde Pages. Datos de inscripción ya expuestos en el historial de `opoweb-v2` siguen accesibles como versiones antiguas aunque se deje de publicar el archivo actual. Revisar estrategia de historia/limpieza con backup antes de activar nueva publicación.
+
+## Verificación de repositorios — 18/11/2026
+- GitHub API confirma `Ivannunezrodriguez/opoweb-dev`: **private**, rama `main`, permiso admin.
+- GitHub API confirma `Ivannunezrodriguez/opoweb-v2`: **public**, rama `main`, permiso admin.
+- P01 **parcialmente completada**: renombrado y privatización del repositorio antiguo realizados. **No** se ha migrado aún el código v2, ni separado el artefacto público, ni reconfigurado GitHub Pages/Actions. Mantener intacta la web actual mientras se preparan y prueban.
