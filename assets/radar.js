@@ -1,5 +1,5 @@
 import {classifyRadarEntries} from './radar-quality.js?v=2';
-import {matchTrackedCall,trackingState} from './radar-tracking.js?v=1';
+import {matchTrackedCall,trackingState,decorateTracking} from './radar-tracking.js?v=2';
 
 const app=document.querySelector('#radar-app');
 const THEME_KEY='opoweb-theme';
@@ -30,13 +30,14 @@ function ageDays(iso,asOf){
  return Number.isFinite(n)?Math.floor(n):Infinity;
 }
 function stateLabel(v){
- return {PLAZO_ABIERTO:'Plazo con fecha publicada',REVISAR:'Plazo sin comprobar',PREVISTA:'OEP, aún sin convocatoria',CERRADA:'Plazo vencido',SEGUIMIENTO:'Seguimiento / no es nueva oferta'}[v]||'Estado pendiente';
+ return {PLAZO_ABIERTO:'Plazo con fecha publicada',REVISAR:'Plazo sin comprobar',PREVISTA:'OEP, aún sin convocatoria',CERRADA:'Plazo cerrado',CIERRE_PROBABLE:'Cierre probable · comprobar',SEGUIMIENTO:'Seguimiento / no es nueva oferta'}[v]||'Estado pendiente';
 }
 function matchView(o){
  const asOf=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'});
  if(filters.view==='MIS_PROCESOS')return !!o.trackedCall;
+ if(filters.view==='CADUCADAS')return o.state==='CERRADA'||o.state==='CIERRE_PROBABLE';
  if(filters.view==='RECIENTES')return o.actionable&&o.state!=='CERRADA'&&ageDays(o.firstSeen,asOf)<=30;
- if(filters.view==='OPORTUNIDADES')return o.actionable&&o.state!=='CERRADA';
+ if(filters.view==='OPORTUNIDADES')return o.actionable&&(o.state!=='CERRADA'||!!o.trackedCall)&&o.state!=='CIERRE_PROBABLE' || (!!o.trackedCall&&o.state==='CIERRE_PROBABLE');
  if(filters.view==='INCOMPLETAS')return !o.actionable&&!o.phaseFollowup;
  if(filters.view==='SEGUIMIENTO')return o.phaseFollowup;
  return true;
@@ -53,15 +54,21 @@ function card(o){
  const heading=o.position||'Puesto no identificado en el anuncio';
  const detail=o.title===heading?'':o.title;
  const tracked=o.trackedCall?trackingState(o.trackedCall):null;
+ const publicationDay=/^\\d{4}-\\d{2}-\\d{2}$/.test(o.publishedAt||'')?o.publishedAt:null;
+ const oldUnconfirmed=!o.deadlineIso&&publicationDay&&ageDays(publicationDay,new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}))>30;
  const trackingTag=tracked?'<span class="radar-tag radar-tracking '+esc(tracked.className)+'">'+esc(tracked.label)+'</span>':'';
+ const oldTag=oldUnconfirmed?'<span class="radar-tag review">Más de 30 días · revisar cierre</span>':'';
  const originBadge=o.detailsStatus==='LEIDO'?'Documento leído automáticamente':'Datos solo del título';
- const confirmation=o.deadlineIso
+ const confirmation=o.deadlineDisputed
+   ? 'Discrepancia entre BOP y BOE: no se confirma la fecha exacta de cierre hasta aclaración oficial.'
+   : o.deadlineIso
    ? 'Fecha límite extraída del documento; comprueba posibles rectificaciones oficiales.'
    : o.applicationTerm
      ? 'Hay una regla de plazo publicada, pero no una fecha de cierre acreditada. Se debe comprobar la publicación de inicio y el calendario aplicable.'
      : 'No se ha podido extraer ni una fecha de cierre ni una regla de plazo. Consulta las bases oficiales antes de solicitar.';
  const tags=[
   trackingTag,
+  oldTag,
   '<span class="radar-tag '+(o.state==='PLAZO_ABIERTO'?'ok':'review')+'">'+esc(stateLabel(o.state))+'</span>',
   '<span class="radar-tag">'+esc(o.kind)+'</span>',
   o.isNew?'<span class="radar-tag new">NUEVA EN RADAR</span>':'',
@@ -76,7 +83,7 @@ function card(o){
    meta('Localidad / destino',o.location)+meta('Tipo',o.kind)+
    (o.vacancies?meta('Plazas',o.vacancies):'')+
    (o.group&&o.group!=='REVISAR'?meta('Grupo',o.group):'')+
-   (o.deadline?meta('Fecha límite de solicitudes',day(o.deadline)):'')+
+   (o.deadline?meta('Fecha límite de solicitudes',day(o.deadline)):o.trackingDeadline?.disputed?meta('Límite prudente / teórico','20/11/2026 · 30/11/2026 (discrepancia oficial)'):'')+
    (o.applicationTerm?meta('Cómputo publicado',o.applicationTerm):'')+
    (o.access?meta('Forma de acceso',o.access):'')+
    (o.qualification?meta('Titulación requerida',o.qualification):'')+
@@ -134,8 +141,8 @@ function render(){
  '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Rastreo directo: <strong>'+esc(crawlDate?day(crawlDate):'fecha no disponible')+'</strong>. Webs únicas consultadas: <strong>'+esc(directCrawl.uniqueSources??'sin verificar')+'</strong>. Documentos oficiales leídos: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
  '<section class="panel"><div class="radar-controls">',
  '<label><span>Buscar puesto, localidad u organismo</span><input id="rq" type="search" value="'+esc(filters.q)+'" placeholder="Auxiliar, administrativo, Getafe, Toledo…"></label>',
- '<label><span>Ver</span><select id="rv"><option value="MIS_PROCESOS">Mis procesos (inscrito, pendiente o en seguimiento)</option><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Oportunidades sin plazo vencido</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
- '<label><span>Plazo / estado</span><select id="rs"><option value="TODAS">Todos</option><option value="PLAZO_ABIERTO">Plazo con fecha publicada</option><option value="REVISAR">Plazo sin verificar</option><option value="PREVISTA">OEP sin convocatoria</option><option value="CERRADA">Plazo vencido</option></select></label>',
+ '<label><span>Ver</span><select id="rv"><option value="MIS_PROCESOS">Mis procesos (inscrito, pendiente o en seguimiento)</option><option value="CADUCADAS">Plazos cerrados / por revisar</option><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Oportunidades sin plazo vencido</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
+ '<label><span>Plazo / estado</span><select id="rs"><option value="TODAS">Todos</option><option value="PLAZO_ABIERTO">Plazo con fecha publicada</option><option value="REVISAR">Plazo sin verificar</option><option value="PREVISTA">OEP sin convocatoria</option><option value="CERRADA">Plazo cerrado</option><option value="CIERRE_PROBABLE">Cierre probable (discrepancia)</option></select></label>',
  '<label><span>Zona</span><select id="rz"><option value="TODAS">Todas</option><option value="TOLEDO">Provincia de Toledo</option><option value="MADRID_SUR">Sur de Madrid</option></select></label>',
  '<label><span>Tipo</span><select id="rk"><option value="TODAS">Cualquiera</option><option value="Oposición / proceso selectivo">Oposición / proceso selectivo</option><option value="Bolsa">Bolsas de empleo</option><option value="Temporal">Temporal / sustitución</option><option value="Oferta de empleo (sin convocatoria)">OEP sin convocatoria</option></select></label>',
  '</div><p class="radar-note">Si faltan el plazo, grupo o titulación, Radar <strong>no los ha comprobado</strong>. No se confirma compatibilidad con DAM sin leer los requisitos.</p></section>',
@@ -164,7 +171,7 @@ try{
    if(t.ok){const body=await t.json();trackedCalls=Array.isArray(body.convocatorias)?body.convocatorias:[];}
  }catch(e){console.warn('Seguimiento no disponible',e);}
  entries=classifyRadarEntries(data.opportunities||[],new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}))
-   .map(o=>({...o,trackedCall:matchTrackedCall(o,trackedCalls)}));
+   .map(o=>decorateTracking(o,matchTrackedCall(o,trackedCalls),new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'})));
  render();
 }catch(e){
  app.innerHTML='<section class="panel"><h2>Radar temporalmente no disponible</h2><p>'+esc(e.message)+'</p></section>';
