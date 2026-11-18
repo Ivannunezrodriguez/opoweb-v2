@@ -30,7 +30,7 @@
       "officialUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24150",
       "verifiedAt": "2026-11-18",
       "firstSeen": "2026-11-18",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -42,6 +42,13 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
       "enrichmentVersion": 2,
+      "applicationRule": {
+        "days": 20,
+        "unit": "HABILES",
+        "trigger": "SIN_IDENTIFICAR",
+        "text": "plazo de presentación de solicitudes será de veinte días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «boletín oficial del estado»",
+        "deadlineVerified": false
+      },
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
     },
@@ -66,7 +73,7 @@
       "officialUrl": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24154",
       "verifiedAt": "2026-11-18",
       "firstSeen": "2026-11-18",
-      "isNew": true,
+      "isNew": false,
       "position": "Técnico/a Informático/a",
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -78,6 +85,13 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
       "enrichmentVersion": 2,
+      "applicationRule": {
+        "days": 20,
+        "unit": "HABILES",
+        "trigger": "SIN_IDENTIFICAR",
+        "text": "plazo de presentación de solicitudes será de veinte días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «boletín oficial del estado»",
+        "deadlineVerified": false
+      },
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
     },
@@ -102,7 +116,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261118-41",
       "verifiedAt": "2026-11-18",
       "firstSeen": "2026-11-18",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -114,6 +128,7 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
       "enrichmentVersion": 2,
+      "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
     },
@@ -138,7 +153,7 @@
       "officialUrl": "https://www.bocm.es/bocm-20261118-73",
       "verifiedAt": "2026-11-18",
       "firstSeen": "2026-11-18",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -150,6 +165,13 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
       "enrichmentVersion": 2,
+      "applicationRule": {
+        "days": 20,
+        "unit": "HABILES",
+        "trigger": "SIN_IDENTIFICAR",
+        "text": "plazo de presentación de solicitudes: veinte días hábiles, contados a partir del siguiente a la publicación de la convocatoria en el “boletín oficial del estado”",
+        "deadlineVerified": false
+      },
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
     },
@@ -174,7 +196,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115316;0&insert_number=5332&insert_year=2026",
       "verifiedAt": "2026-11-18",
       "firstSeen": "2026-11-18",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Bolsa",
@@ -209,7 +231,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115282;0&insert_number=5297&insert_year=2026",
       "verifiedAt": "2026-11-18",
       "firstSeen": "2026-11-18",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Por determinar",
@@ -244,7 +266,7 @@
       "officialUrl": "https://bop.diputoledo.es/webEbop/DocGet?id=26115287;0&insert_number=5303&insert_year=2026",
       "verifiedAt": "2026-11-18",
       "firstSeen": "2026-11-18",
-      "isNew": true,
+      "isNew": false,
       "position": null,
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
@@ -714,6 +736,13 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
       "enrichmentVersion": 2,
+      "applicationRule": {
+        "days": 20,
+        "unit": "NATURALES",
+        "trigger": "SIN_IDENTIFICAR",
+        "text": "plazo de presentación de solicitudes será de veinte días naturales a contar desde el siguiente al de la publicación de esta resolución en el «boletín oficial del estado»",
+        "deadlineVerified": false
+      },
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
     },
@@ -750,6 +779,13 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
       "enrichmentVersion": 2,
+      "applicationRule": {
+        "days": 20,
+        "unit": "NATURALES",
+        "trigger": "SIN_IDENTIFICAR",
+        "text": "plazo de presentación de solicitudes será de veinte días naturales a contar desde el siguiente al de la publicación de esta resolución en el «boletín oficial del estado»",
+        "deadlineVerified": false
+      },
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
     },
@@ -1068,6 +1104,13 @@
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
       "enrichmentVersion": 2,
+      "applicationRule": {
+        "days": 20,
+        "unit": "HABILES",
+        "trigger": "SIN_IDENTIFICAR",
+        "text": "plazo de presentación de solicitudes será de veinte días hábiles a contar desde el siguiente al de la publicación de esta resolución en el «boletín oficial del estado»",
+        "deadlineVerified": false
+      },
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
     },
@@ -43165,43 +43208,42 @@
     {
       "source": "DIRECT",
       "ok": false,
-      "checkedAt": "2026-11-18T13:58:09.392Z"
+      "checkedAt": "2026-11-18T18:41:57.775Z"
     },
     {
       "source": "BOE",
       "ok": true,
-      "checkedAt": "2026-11-18T13:58:09.392Z"
+      "checkedAt": "2026-11-18T18:41:57.775Z"
     },
     {
       "source": "BOCM",
       "ok": true,
-      "checkedAt": "2026-11-18T13:58:09.392Z"
+      "checkedAt": "2026-11-18T18:41:57.775Z"
     },
     {
       "source": "BOP Toledo",
       "ok": true,
-      "checkedAt": "2026-11-18T13:58:09.392Z"
+      "checkedAt": "2026-11-18T18:41:57.775Z"
     },
     {
       "source": "DOCM",
       "ok": true,
-      "checkedAt": "2026-11-18T13:58:09.392Z"
+      "checkedAt": "2026-11-18T18:41:57.775Z"
     },
     {
       "source": "PAG",
       "ok": true,
-      "checkedAt": "2026-11-18T13:58:09.392Z"
+      "checkedAt": "2026-11-18T18:41:57.775Z"
     }
   ],
   "directSourceStatus": [],
   "enrichmentStatus": {
-    "attempted": 48,
+    "attempted": 28,
     "read": 7,
     "withDetails": 6,
-    "failures": 41,
+    "failures": 21,
     "failureReasons": {
-      "PDF_NO_EXTRAIBLE": 32,
-      "HTTP 404": 9
+      "PDF_NO_EXTRAIBLE": 21
     },
     "asOf": "2026-11-18",
     "explanation": "Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes."
