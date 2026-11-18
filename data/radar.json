@@ -50,7 +50,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOE",
+          "label": "Boletín Oficial del Estado (BOE)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24150"
+        }
+      ]
     },
     {
       "id": "b65823e7c39f54f41313",
@@ -93,7 +100,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOE",
+          "label": "Boletín Oficial del Estado (BOE)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24154"
+        }
+      ]
     },
     {
       "id": "f21668c83e34a5b15bb2",
@@ -130,7 +144,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOCM",
+          "label": "Boletín Oficial de la Comunidad de Madrid (BOCM)",
+          "url": "https://www.bocm.es/bocm-20261118-41"
+        }
+      ]
     },
     {
       "id": "20081a44a9452336934d",
@@ -173,7 +194,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOCM",
+          "label": "Boletín Oficial de la Comunidad de Madrid (BOCM)",
+          "url": "https://www.bocm.es/bocm-20261118-73"
+        }
+      ]
     },
     {
       "id": "60f9084bcbe26c0f8356",
@@ -216,7 +244,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115316;0&insert_number=5332&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "639ffb5e757d055cb65f",
@@ -253,7 +288,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115282;0&insert_number=5297&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "f1caac333631ccdf0a5a",
@@ -290,7 +332,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115287;0&insert_number=5303&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "adb24753406824984770",
@@ -1832,7 +1881,7 @@
       "completeness": 0,
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
-      "enrichmentVersion": 2,
+      "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
@@ -1869,7 +1918,7 @@
       "completeness": 0,
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
-      "enrichmentVersion": 2,
+      "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
@@ -1906,7 +1955,7 @@
       "completeness": 0,
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
-      "enrichmentVersion": 2,
+      "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
@@ -1943,7 +1992,7 @@
       "completeness": 0,
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
-      "enrichmentVersion": 2,
+      "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
@@ -1980,7 +2029,7 @@
       "completeness": 0,
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
-      "enrichmentVersion": 2,
+      "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
@@ -2017,7 +2066,7 @@
       "completeness": 0,
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
-      "enrichmentVersion": 2,
+      "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
@@ -2054,7 +2103,7 @@
       "completeness": 0,
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
-      "enrichmentVersion": 2,
+      "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
@@ -2091,7 +2140,7 @@
       "completeness": 0,
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
-      "enrichmentVersion": 2,
+      "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
@@ -2128,7 +2177,7 @@
       "completeness": 0,
       "informationPending": true,
       "detailsCheckedAt": "2026-11-18",
-      "enrichmentVersion": 2,
+      "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática HTML",
       "detailsStatus": "LEIDO"
@@ -2155,7 +2204,7 @@
       "officialUrl": "https://elvisodesanjuan.org/pdf/oferta-empleo-publico/2026/13-BOP-218-del-13-11-2026-Publicacion-Bases-Plaza-Auxiliar-Administrativo.pdf",
       "verifiedAt": "2026-11-18",
       "firstSeen": "2026-11-18",
-      "isNew": true,
+      "isNew": false,
       "deadlineIso": null,
       "kind": "Oposición / proceso selectivo",
       "phaseFollowup": false,
@@ -2207,10 +2256,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-17",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "7031e304d622d4fc9436",
@@ -2243,9 +2293,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-17",
-      "enrichmentVersion": 2,
-      "detailsStatus": "The operation was aborted due to timeout"
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
+      "detailsStatus": "LEIDO",
+      "applicationRule": null,
+      "detailSource": "Lectura automática HTML"
     },
     {
       "id": "e55a5ecf99c2fe9127a9",
@@ -2259,7 +2311,7 @@
       "compatibility": "REVISAR",
       "reason": "Coincidencia en un anuncio oficial. Comprueba destino, acceso, titulación y plazo en las bases.",
       "category": "Empleo público",
-      "vacancies": null,
+      "vacancies": 9,
       "deadline": null,
       "applicationTerm": null,
       "access": null,
@@ -2269,18 +2321,20 @@
       "verifiedAt": "2026-11-17",
       "firstSeen": "2026-11-17",
       "isNew": false,
-      "position": null,
+      "position": "auxiliar administrativo",
       "deadlineIso": null,
       "kind": "Por determinar",
       "phaseFollowup": false,
       "notAccessible": false,
-      "actionable": false,
+      "actionable": true,
       "knownQualification": false,
-      "completeness": 0,
+      "completeness": 2,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-17",
-      "enrichmentVersion": 2,
-      "detailsStatus": "fetch failed"
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
+      "detailsStatus": "LEIDO",
+      "applicationRule": null,
+      "detailSource": "Lectura automática HTML"
     },
     {
       "id": "72513d82697f09bd9f4c",
@@ -2313,10 +2367,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-17",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "0d830847b3cad1e45eb3",
@@ -2349,9 +2404,9 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-17",
-      "enrichmentVersion": 2,
-      "detailsStatus": "fetch failed"
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
+      "detailsStatus": "The operation was aborted due to timeout"
     },
     {
       "id": "9edbe43d5c4049a589d7",
@@ -2394,7 +2449,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115260;0&insert_number=5277&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "c06208619b06ad6f4f85",
@@ -2437,7 +2499,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115279;0&insert_number=5292&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "b4b31098b78fb591389d",
@@ -2474,7 +2543,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115258;0&insert_number=5274&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "8069a26d32d4c4bb5aff",
@@ -2511,7 +2587,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115224;0&insert_number=5241&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "c53ed7bea443849f3f29",
@@ -2548,7 +2631,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115243;0&insert_number=5262&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "fa866692ce0285a4b240",
@@ -2585,7 +2675,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115232;0&insert_number=5249&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "ddc534dc2593bfda0ce1",
@@ -2665,7 +2762,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOE",
+          "label": "Boletín Oficial del Estado (BOE)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23854"
+        }
+      ]
     },
     {
       "id": "e068970c6e59cc476758",
@@ -2708,7 +2812,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOE",
+          "label": "Boletín Oficial del Estado (BOE)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23800"
+        }
+      ]
     },
     {
       "id": "44f4cb3540c5dffa26bf",
@@ -2741,9 +2852,9 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-13",
-      "enrichmentVersion": 2,
-      "detailsStatus": "fetch failed"
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
+      "detailsStatus": "The operation was aborted due to timeout"
     },
     {
       "id": "7bcabb4f2c6e5221fd7b",
@@ -2812,10 +2923,10 @@
       "knownQualification": false,
       "completeness": 1,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-13",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "26321fc6cd9570ec51f3",
@@ -2858,7 +2969,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115231;0&insert_number=5248&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "0af9dd00ca5359e8a0eb",
@@ -2895,7 +3013,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115228;0&insert_number=5245&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "050df3c747e648eef940",
@@ -2932,7 +3057,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115202;0&insert_number=5219&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "7d6f25def60ea77eac2b",
@@ -2969,7 +3101,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115215;0&insert_number=5235&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "d9dc47155ce47fd79465",
@@ -3006,7 +3145,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115208;0&insert_number=5226&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "447dab6fd17f310e8d82",
@@ -3049,7 +3195,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOE",
+          "label": "Boletín Oficial del Estado (BOE)",
+          "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-23703"
+        }
+      ]
     },
     {
       "id": "16bcb079a9bd1eab5606",
@@ -3086,7 +3239,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115151;0&insert_number=5167&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "ddd70a668c3981abc115",
@@ -3129,7 +3289,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115233;0&insert_number=5250&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "bdf4640cff2d3f9b718a",
@@ -3172,7 +3339,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115166;0&insert_number=5190&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "fe38beb036d328bde82a",
@@ -3215,7 +3389,14 @@
         "deadlineVerified": false
       },
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115137;0&insert_number=5153&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "9340e8e732d8ca479c11",
@@ -3252,7 +3433,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115165;0&insert_number=5181&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "931f50beaae0502f79a4",
@@ -3289,7 +3477,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115153;0&insert_number=5169&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "c0f59add8dc92bb60178",
@@ -3326,7 +3521,14 @@
       "enrichmentVersion": 3,
       "applicationRule": null,
       "detailSource": "Lectura automática PDF",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "sourceReferences": [
+        {
+          "source": "BOP Toledo",
+          "label": "Boletín Oficial de la Provincia de Toledo (BOP)",
+          "url": "https://bop.diputoledo.es/webEbop/DocGet?id=26115222;0&insert_number=5233&insert_year=2026"
+        }
+      ]
     },
     {
       "id": "6553af8909da244307e9",
@@ -3459,10 +3661,10 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-11",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "5898e33f25d69e46e552",
@@ -3755,10 +3957,10 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-10",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "c4cfcff88c3939ca6511",
@@ -3791,10 +3993,10 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-10",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "92a14eab35b7c5fc3396",
@@ -3827,10 +4029,10 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-10",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "06b2681211cd2f85680d",
@@ -4419,10 +4621,11 @@
       "knownQualification": false,
       "completeness": 1,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-06",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "d3f6811200a1fe5ccc83",
@@ -4455,10 +4658,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-06",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "94b11d13625c173e5d34",
@@ -4527,10 +4731,11 @@
       "knownQualification": false,
       "completeness": 1,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-06",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "bebe9ff052f5c0d84505",
@@ -4563,10 +4768,10 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-06",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "e973f679d59b4f482f20",
@@ -4599,10 +4804,10 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-06",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "feb8d440d45f12281b12",
@@ -4863,10 +5068,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-06",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "e6b706edfd32f5701138",
@@ -4935,10 +5141,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-06",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "fa0a53784b06e1a1904d",
@@ -4971,10 +5178,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-05",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "c5bef2c0c18ff9527f12",
@@ -4990,7 +5198,7 @@
       "category": "Empleo público",
       "vacancies": null,
       "deadline": null,
-      "applicationTerm": null,
+      "applicationTerm": "Plazo presentación de solicitudes desde el 13/11/2026 hasta el 14/12/2026 Titulo : BASES ESPECIFICAS DILIGENCIADAS Tamaño : 2 MB Tipo : pdf Descripción : Publicado en EMPLEO PÚBLICO &laquo",
       "access": null,
       "qualification": null,
       "source": "DIRECT",
@@ -5007,10 +5215,17 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-05",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": {
+        "days": null,
+        "unit": null,
+        "trigger": "SIN_IDENTIFICAR",
+        "text": "plazo presentación de solicitudes desde el 13/11/2026 hasta el 14/12/2026 titulo : bases especificas diligenciadas tamaño : 2 mb tipo : pdf descripción : publicado en empleo público &laquo",
+        "deadlineVerified": false
+      }
     },
     {
       "id": "4876ba738cffc4067584",
@@ -5305,10 +5520,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-05",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "0a36ba4a95816200b226",
@@ -5341,10 +5557,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-05",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "dfa691dcd1c3fb891c09",
@@ -5420,10 +5637,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "47cd48ccd5f72da69879",
@@ -5456,10 +5674,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "eedb09a2fd45783856e1",
@@ -5492,10 +5711,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "5164694f7a34aac6745d",
@@ -5528,10 +5748,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "fc6a44474ba585704867",
@@ -5564,10 +5785,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "7d63baee42f5fdeb490a",
@@ -5671,10 +5893,11 @@
       "knownQualification": false,
       "completeness": 1,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "1c1950bbf7a7939d772a",
@@ -5817,10 +6040,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "f11deedfce2ae53d45b8",
@@ -5853,10 +6077,10 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "64868425220809545b4c",
@@ -6484,10 +6708,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "60f61c1f8350ddc49d56",
@@ -6520,10 +6745,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "53590cd1e29751bd8a51",
@@ -6556,10 +6782,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "8308e73ad326fe2881cb",
@@ -6628,10 +6855,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "c222c4df305f552a6ff6",
@@ -6664,10 +6892,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-04",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "360c07a20cfdd4d9c468",
@@ -6872,10 +7101,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "040b05ade9c9119bebd7",
@@ -6908,9 +7138,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-17",
-      "enrichmentVersion": 2,
-      "detailsStatus": "PDF_NO_EXTRAIBLE_EN_EL_ENTORNO"
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
+      "detailsStatus": "LEIDO",
+      "applicationRule": null,
+      "detailSource": "Lectura automática PDF"
     },
     {
       "id": "a9d249b65fb5a1b09eea",
@@ -6943,9 +7175,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-17",
-      "enrichmentVersion": 2,
-      "detailsStatus": "PDF_NO_EXTRAIBLE_EN_EL_ENTORNO"
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
+      "detailsStatus": "LEIDO",
+      "applicationRule": null,
+      "detailSource": "Lectura automática PDF"
     },
     {
       "id": "bdfa364da178e960c750",
@@ -7046,10 +7280,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "7018f2f181fe3cd75545",
@@ -7082,10 +7317,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "6decd9883b5fd955efc3",
@@ -7444,11 +7680,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": "plazo de presentación de solicitudes se publicará en el “Boletín Oficial del Estado”",
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "5f0dc1c98d4d34cd3f98",
@@ -7744,11 +7980,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "b4e6278bae7e8b2f96b8",
@@ -7842,11 +8079,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "422015596cd44bdf1b11",
@@ -8106,11 +8344,11 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "fetch failed"
     },
     {
       "id": "636692396dff47b40084",
@@ -8142,11 +8380,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "14e898d39187ed0b53fe",
@@ -8178,11 +8417,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "9f78f02bef4c2ee480c8",
@@ -8214,11 +8454,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "ccbf64adf45b239797bf",
@@ -8250,11 +8491,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "56e123ad930ee4fc639d",
@@ -8286,11 +8528,12 @@
       "knownQualification": false,
       "completeness": 1,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "cd872060ab48d9075b1e",
@@ -8394,11 +8637,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "499bf07746a80d0f7c94",
@@ -8541,11 +8785,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "0ef88d2411ae5029d42f",
@@ -8577,11 +8822,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "1300d85b4bad27f4cffd",
@@ -8613,11 +8859,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "f0dac644597c50ca6269",
@@ -8721,11 +8968,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "08015100b19380c7e864",
@@ -8757,11 +9005,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "0faf0d38b4fa65cf9771",
@@ -8793,11 +9042,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "d4adf6e0f9dd286e44db",
@@ -8829,11 +9079,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "11e7b2feb5b268417f33",
@@ -8865,11 +9116,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "9b1a6f575d84474983c8",
@@ -8901,11 +9153,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "aeff03e1848d1a1fe9d4",
@@ -8968,11 +9221,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "5a15898be5af9e1902a9",
@@ -9066,11 +9320,12 @@
       "knownQualification": false,
       "completeness": 0,
       "informationPending": true,
-      "detailsCheckedAt": "2026-11-03",
-      "enrichmentVersion": 2,
+      "detailsCheckedAt": "2026-11-18",
+      "enrichmentVersion": 3,
       "applicationTerm": null,
       "detailSource": "Lectura automática HTML",
-      "detailsStatus": "LEIDO"
+      "detailsStatus": "LEIDO",
+      "applicationRule": null
     },
     {
       "id": "3529d7637318fd16cd73",
@@ -45441,32 +45696,32 @@
     {
       "source": "DIRECT",
       "ok": true,
-      "checkedAt": "2026-11-18T20:41:20.645Z"
+      "checkedAt": "2026-11-18T21:37:38.981Z"
     },
     {
       "source": "BOE",
       "ok": true,
-      "checkedAt": "2026-11-18T20:41:20.645Z"
+      "checkedAt": "2026-11-18T21:37:38.981Z"
     },
     {
       "source": "BOCM",
       "ok": true,
-      "checkedAt": "2026-11-18T20:41:20.645Z"
+      "checkedAt": "2026-11-18T21:37:38.981Z"
     },
     {
       "source": "BOP Toledo",
       "ok": true,
-      "checkedAt": "2026-11-18T20:41:20.645Z"
+      "checkedAt": "2026-11-18T21:37:38.981Z"
     },
     {
       "source": "DOCM",
       "ok": true,
-      "checkedAt": "2026-11-18T20:41:20.645Z"
+      "checkedAt": "2026-11-18T21:37:38.981Z"
     },
     {
       "source": "PAG",
       "ok": true,
-      "checkedAt": "2026-11-18T20:41:20.645Z"
+      "checkedAt": "2026-11-18T21:37:38.981Z"
     }
   ],
   "directSourceStatus": [
@@ -45474,6 +45729,22 @@
       "source": "Directorio municipal Toledo",
       "status": "READABLE",
       "discovered": 161
+    },
+    {
+      "source": "Alcorcón",
+      "id": "1c3f9ae28d87abb0",
+      "url": "https://www.ayto-alcorcon.es/es/servicios/empleo-publico",
+      "status": "ERROR",
+      "pagesRead": 0,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://www.ayto-alcorcon.es/es/servicios/empleo-publico",
+          "error": "HTTP Error 403: Forbidden"
+        }
+      ],
+      "baseline": false
     },
     {
       "source": "Getafe",
@@ -45503,19 +45774,14 @@
       "baseline": false
     },
     {
-      "source": "Alcorcón",
-      "id": "1c3f9ae28d87abb0",
-      "url": "https://www.ayto-alcorcon.es/es/servicios/empleo-publico",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://www.ayto-alcorcon.es/es/servicios/empleo-publico",
-          "error": "HTTP Error 403: Forbidden"
-        }
-      ],
+      "source": "Valdemoro",
+      "id": "6a6895a33405fc78",
+      "url": "https://www.valdemoro.es/ope",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 27,
+      "unvisitedListingLinks": 2,
+      "errors": [],
       "baseline": false
     },
     {
@@ -45526,17 +45792,6 @@
       "pagesRead": 2,
       "candidateLinks": 12,
       "unvisitedListingLinks": 0,
-      "errors": [],
-      "baseline": false
-    },
-    {
-      "source": "Diputación de Toledo",
-      "id": "3a69691b4200f33b",
-      "url": "https://www.diputoledo.es/global/50/304/6699/destacados-rrhh",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 50,
-      "unvisitedListingLinks": 2,
       "errors": [],
       "baseline": false
     },
@@ -45552,12 +45807,12 @@
       "baseline": false
     },
     {
-      "source": "Valdemoro",
-      "id": "6a6895a33405fc78",
-      "url": "https://www.valdemoro.es/ope",
+      "source": "Diputación de Toledo",
+      "id": "3a69691b4200f33b",
+      "url": "https://www.diputoledo.es/global/50/304/6699/destacados-rrhh",
       "status": "PARTIAL",
       "pagesRead": 5,
-      "candidateLinks": 27,
+      "candidateLinks": 50,
       "unvisitedListingLinks": 2,
       "errors": [],
       "baseline": false
@@ -45601,17 +45856,6 @@
       "baseline": false
     },
     {
-      "source": "Humanes",
-      "id": "4560040eb2e2094c",
-      "url": "https://ayto-humanesdemadrid.es/menu-concejalias/empleo-formacion-concejalia/",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 20,
-      "unvisitedListingLinks": 15,
-      "errors": [],
-      "baseline": false
-    },
-    {
       "source": "Ciempozuelos tablón",
       "id": "d81eab38678fab6e",
       "url": "https://sede.ayto-ciempozuelos.org/eAdmin/Tablon.do?action=inicioTablon",
@@ -45623,16 +45867,27 @@
       "baseline": false
     },
     {
-      "source": "Griñón",
-      "id": "4a67f86554c9e29f",
-      "url": "https://grinon.sedelectronica.es/info.0",
+      "source": "Humanes",
+      "id": "4560040eb2e2094c",
+      "url": "https://ayto-humanesdemadrid.es/menu-concejalias/empleo-formacion-concejalia/",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 20,
+      "unvisitedListingLinks": 15,
+      "errors": [],
+      "baseline": false
+    },
+    {
+      "source": "Torrejón de la Calzada",
+      "id": "f770406bb92dfd01",
+      "url": "https://aytotorrejoncalzada.sedelectronica.es/info.0",
       "status": "ERROR",
       "pagesRead": 0,
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://grinon.sedelectronica.es/info.0",
+          "url": "https://aytotorrejoncalzada.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -45655,20 +45910,31 @@
       "baseline": true
     },
     {
-      "source": "Torrejón de la Calzada",
-      "id": "f770406bb92dfd01",
-      "url": "https://aytotorrejoncalzada.sedelectronica.es/info.0",
+      "source": "Griñón",
+      "id": "4a67f86554c9e29f",
+      "url": "https://grinon.sedelectronica.es/info.0",
       "status": "ERROR",
       "pagesRead": 0,
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://aytotorrejoncalzada.sedelectronica.es/info.0",
+          "url": "https://grinon.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "baseline": true
+    },
+    {
+      "source": "SESCAM extraordinarias",
+      "id": "63110f68fb2bb436",
+      "url": "https://sanidad.castillalamancha.es/profesionales/atencion-al-profesional/bolsas-constituidas",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 15,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "baseline": false
     },
     {
       "source": "Madrid bolsas abiertas",
@@ -45719,12 +45985,12 @@
       "baseline": true
     },
     {
-      "source": "SESCAM extraordinarias",
-      "id": "63110f68fb2bb436",
-      "url": "https://sanidad.castillalamancha.es/profesionales/atencion-al-profesional/bolsas-constituidas",
+      "source": "UC3M empleo",
+      "id": "70e85698cf5cb23d",
+      "url": "https://www.uc3m.es/empleo/pas",
       "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 15,
+      "pagesRead": 2,
+      "candidateLinks": 3,
       "unvisitedListingLinks": 0,
       "errors": [],
       "baseline": false
@@ -45746,23 +46012,23 @@
       "baseline": true
     },
     {
-      "source": "UC3M empleo",
-      "id": "70e85698cf5cb23d",
-      "url": "https://www.uc3m.es/empleo/pas",
-      "status": "READABLE",
-      "pagesRead": 2,
-      "candidateLinks": 3,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "baseline": true
-    },
-    {
       "source": "Ciempozuelos",
       "id": "fe6eaee1d362165a",
       "url": "https://ayto-ciempozuelos.org/index.php/convocatorias-de-empleo-publico/",
       "status": "READABLE",
       "pagesRead": 5,
       "candidateLinks": 40,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "baseline": false
+    },
+    {
+      "source": "UCLM bolsas",
+      "id": "283e9b483d86183e",
+      "url": "https://convocatorias.rrhh.uclm.es/bolsas_trabajo.aspx",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 5,
       "unvisitedListingLinks": 0,
       "errors": [],
       "baseline": false
@@ -45775,17 +46041,6 @@
       "pagesRead": 5,
       "candidateLinks": 33,
       "unvisitedListingLinks": 6,
-      "errors": [],
-      "baseline": true
-    },
-    {
-      "source": "UCLM bolsas",
-      "id": "283e9b483d86183e",
-      "url": "https://convocatorias.rrhh.uclm.es/bolsas_trabajo.aspx",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 5,
-      "unvisitedListingLinks": 0,
       "errors": [],
       "baseline": false
     },
@@ -45839,6 +46094,17 @@
       "baseline": false
     },
     {
+      "source": "URJC empleo",
+      "id": "5dd2fb375be58f24",
+      "url": "https://www.urjc.es/empleo-publico",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 732,
+      "unvisitedListingLinks": 3,
+      "errors": [],
+      "baseline": false
+    },
+    {
       "source": "Navalcarnero",
       "id": "7796db379399c6a2",
       "url": "https://navalcarnero.es/navalcarnero/tablondeanuncios/ofertas-de-empleo-publico/",
@@ -45852,17 +46118,6 @@
           "error": "NON_HTML"
         }
       ],
-      "baseline": false
-    },
-    {
-      "source": "URJC empleo",
-      "id": "5dd2fb375be58f24",
-      "url": "https://www.urjc.es/empleo-publico",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 732,
-      "unvisitedListingLinks": 3,
-      "errors": [],
       "baseline": false
     },
     {
@@ -45941,6 +46196,30 @@
       "baseline": true
     },
     {
+      "source": "GICAMAN",
+      "id": "c5cbb3c84f5e5e86",
+      "url": "https://gicaman.es/",
+      "status": "PARTIAL",
+      "pagesRead": 2,
+      "candidateLinks": 10,
+      "unvisitedListingLinks": 1,
+      "errors": [
+        {
+          "url": "https://gicaman.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        },
+        {
+          "url": "https://gicaman.es/download/4667",
+          "error": "NON_HTML"
+        },
+        {
+          "url": "https://gicaman.es/download/4771/?tmstv=1739809191",
+          "error": "NON_HTML"
+        }
+      ],
+      "baseline": false
+    },
+    {
       "source": "ALCAUDETE DE LA JARA",
       "id": "03a66f33607d299d04994179",
       "url": "http://alcaudetedelajara.es",
@@ -45972,30 +46251,6 @@
         {
           "url": "https://alcanizo.sedelectronica.es/",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
-      "source": "GICAMAN",
-      "id": "c5cbb3c84f5e5e86",
-      "url": "https://gicaman.es/",
-      "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 10,
-      "unvisitedListingLinks": 1,
-      "errors": [
-        {
-          "url": "https://gicaman.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://gicaman.es/download/4667",
-          "error": "NON_HTML"
-        },
-        {
-          "url": "https://gicaman.es/download/4771/?tmstv=1739809191",
-          "error": "NON_HTML"
         }
       ],
       "baseline": false
@@ -46157,6 +46412,22 @@
       "baseline": false
     },
     {
+      "source": "BURUJÓN",
+      "id": "3ab85b990c2ba7a944e13525",
+      "url": "http://burujon.es",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 2,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "http://burujon.sedelectronica.es",
+          "error": "HTTP Error 503: Service Temporarily Unavailable"
+        }
+      ],
+      "baseline": false
+    },
+    {
       "source": "ARCICÓLLAR",
       "id": "6bb1654fb64e5097a6830a68",
       "url": "http://aytoarcicollar.es",
@@ -46200,22 +46471,6 @@
       "baseline": false
     },
     {
-      "source": "BURGUILLOS DE TOLEDO",
-      "id": "75817968efde77c9d0f936a5",
-      "url": "http://burguillosdetoledo.org",
-      "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 9,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://burguillosdetoledo.sedelectronica.es/info.1",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
       "source": "CALERA Y CHOZAS",
       "id": "5c2c09257c9d9745076202ac",
       "url": "http://caleraychozas.com",
@@ -46232,48 +46487,16 @@
       "baseline": false
     },
     {
-      "source": "CABAÑAS DE LA SAGRA",
-      "id": "9a542f513bf6bc441acdb7aa",
-      "url": "http://cabanasdelasagra.com",
-      "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://cabanasdelasagra.sedelectronica.es",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
-      "source": "BURUJÓN",
-      "id": "3ab85b990c2ba7a944e13525",
-      "url": "http://burujon.es",
+      "source": "BURGUILLOS DE TOLEDO",
+      "id": "75817968efde77c9d0f936a5",
+      "url": "http://burguillosdetoledo.org",
       "status": "PARTIAL",
       "pagesRead": 1,
-      "candidateLinks": 2,
+      "candidateLinks": 9,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "http://burujon.sedelectronica.es",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
-      "source": "BUENAVENTURA",
-      "id": "3662212cdc596fd1c2c6f45d",
-      "url": "http://aytobuenaventura.es",
-      "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 13,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "http://buenaventura.sedelectronica.es/info.0",
+          "url": "https://burguillosdetoledo.sedelectronica.es/info.1",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -46304,14 +46527,35 @@
       "baseline": false
     },
     {
-      "source": "CARPIO DE TAJO, EL",
-      "id": "079e3a4300d1cc094ed14b42",
-      "url": "http://elcarpiodetajo.es",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 3,
+      "source": "CABAÑAS DE LA SAGRA",
+      "id": "9a542f513bf6bc441acdb7aa",
+      "url": "http://cabanasdelasagra.com",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 0,
       "unvisitedListingLinks": 0,
-      "errors": [],
+      "errors": [
+        {
+          "url": "https://cabanasdelasagra.sedelectronica.es",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
+    },
+    {
+      "source": "BUENAVENTURA",
+      "id": "3662212cdc596fd1c2c6f45d",
+      "url": "http://aytobuenaventura.es",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 13,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "http://buenaventura.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
       "baseline": false
     },
     {
@@ -46326,13 +46570,13 @@
       "baseline": false
     },
     {
-      "source": "CARRANQUE",
-      "id": "8587a45efb55564a8af40d15",
-      "url": "http://carranque.es",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 5,
-      "unvisitedListingLinks": 3,
+      "source": "CARPIO DE TAJO, EL",
+      "id": "079e3a4300d1cc094ed14b42",
+      "url": "http://elcarpiodetajo.es",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 3,
+      "unvisitedListingLinks": 0,
       "errors": [],
       "baseline": false
     },
@@ -46353,51 +46597,30 @@
       "baseline": false
     },
     {
-      "source": "CASAR DE ESCALONA, EL",
-      "id": "4ebe36124607d0d66d32bd32",
-      "url": "http://casarescalona.es",
-      "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "http://elcasardeescalona.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
-      "source": "CASARRUBIOS DEL MONTE",
-      "id": "a6f59d425fca3d95877aa606",
-      "url": "http://casarrubiosdelmonte.es",
+      "source": "CAMUÑAS",
+      "id": "9d4833448fc340f9a3639b43",
+      "url": "http://camunas.es",
       "status": "PARTIAL",
       "pagesRead": 4,
-      "candidateLinks": 8,
-      "unvisitedListingLinks": 2,
+      "candidateLinks": 17,
+      "unvisitedListingLinks": 1,
       "errors": [
         {
-          "url": "https://casarrubiosdelmonte.sedelectronica.es/info.0",
+          "url": "https://camunas.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "baseline": false
     },
     {
-      "source": "CAZALEGAS",
-      "id": "cf6a1f3251a710af0c373bc2",
-      "url": "http://cazalegas.es",
+      "source": "CARRANQUE",
+      "id": "8587a45efb55564a8af40d15",
+      "url": "http://carranque.es",
       "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://cazalegas.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
+      "pagesRead": 5,
+      "candidateLinks": 5,
+      "unvisitedListingLinks": 3,
+      "errors": [],
       "baseline": false
     },
     {
@@ -46422,6 +46645,70 @@
       "errors": [
         {
           "url": "https://ayuntamientodecebolla.sedelectronica.es/",
+          "error": "HTTP Error 503: Service Temporarily Unavailable"
+        }
+      ],
+      "baseline": false
+    },
+    {
+      "source": "CAZALEGAS",
+      "id": "cf6a1f3251a710af0c373bc2",
+      "url": "http://cazalegas.es",
+      "status": "PARTIAL",
+      "pagesRead": 2,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://cazalegas.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
+    },
+    {
+      "source": "CASARRUBIOS DEL MONTE",
+      "id": "a6f59d425fca3d95877aa606",
+      "url": "http://casarrubiosdelmonte.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 8,
+      "unvisitedListingLinks": 2,
+      "errors": [
+        {
+          "url": "https://casarrubiosdelmonte.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
+    },
+    {
+      "source": "CEDILLO DEL CONDADO",
+      "id": "5d758be60ea2f4ccfb3c6c90",
+      "url": "http://cedillodelcondado.es",
+      "status": "PARTIAL",
+      "pagesRead": 2,
+      "candidateLinks": 1,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://cedillodelcondado.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
+    },
+    {
+      "source": "CASAR DE ESCALONA, EL",
+      "id": "4ebe36124607d0d66d32bd32",
+      "url": "http://casarescalona.es",
+      "status": "PARTIAL",
+      "pagesRead": 2,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "http://elcasardeescalona.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -46463,38 +46750,6 @@
       "baseline": false
     },
     {
-      "source": "CAMUÑAS",
-      "id": "9d4833448fc340f9a3639b43",
-      "url": "http://camunas.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 17,
-      "unvisitedListingLinks": 1,
-      "errors": [
-        {
-          "url": "https://camunas.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
-      "source": "CEDILLO DEL CONDADO",
-      "id": "5d758be60ea2f4ccfb3c6c90",
-      "url": "http://cedillodelcondado.es",
-      "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 1,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://cedillodelcondado.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
       "source": "CORRAL DE ALMAGUER",
       "id": "afd5bb2fd4b40e589590a10d",
       "url": "http://corraldealmaguer.es",
@@ -46522,32 +46777,12 @@
       "baseline": true
     },
     {
-      "source": "CAMARENA",
-      "id": "a843f3d6756b17d54fd4fb46",
-      "url": "http://ayto-camarena.com",
-      "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 7,
-      "unvisitedListingLinks": 1,
-      "errors": [
-        {
-          "url": "https://camarena.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://camarena.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
       "source": "CIRUELOS",
       "id": "11f1e524138526ac9f082b7e",
       "url": "http://ciruelos.es",
       "status": "READABLE",
       "pagesRead": 1,
-      "candidateLinks": 3,
+      "candidateLinks": 6,
       "unvisitedListingLinks": 0,
       "errors": [],
       "baseline": false
@@ -46585,6 +46820,26 @@
       "baseline": false
     },
     {
+      "source": "CAMARENA",
+      "id": "a843f3d6756b17d54fd4fb46",
+      "url": "http://ayto-camarena.com",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 7,
+      "unvisitedListingLinks": 1,
+      "errors": [
+        {
+          "url": "https://camarena.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        },
+        {
+          "url": "https://camarena.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
+    },
+    {
       "source": "GAMONAL (*)",
       "id": "fdef6b8b028c3b3e9a7f6ed4",
       "url": "http://ayuntamientogamonal.org",
@@ -46612,23 +46867,23 @@
       "baseline": false
     },
     {
-      "source": "GÁLVEZ",
-      "id": "fda2a3f706408fe0f845eac1",
-      "url": "http://ayto-galvez.es",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 9,
-      "unvisitedListingLinks": 1,
-      "errors": [],
-      "baseline": false
-    },
-    {
       "source": "GARCIOTUM",
       "id": "3bf76bfe1b147b80ee8d9943",
       "url": "http://www.garciotum.com",
       "status": "PARTIAL",
       "pagesRead": 5,
       "candidateLinks": 3,
+      "unvisitedListingLinks": 1,
+      "errors": [],
+      "baseline": false
+    },
+    {
+      "source": "GÁLVEZ",
+      "id": "fda2a3f706408fe0f845eac1",
+      "url": "http://ayto-galvez.es",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 9,
       "unvisitedListingLinks": 1,
       "errors": [],
       "baseline": false
@@ -46697,17 +46952,6 @@
       "baseline": false
     },
     {
-      "source": "HONTANAR",
-      "id": "f400aba056d8fb516d11f18d",
-      "url": "http://hontanar.es",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "baseline": false
-    },
-    {
       "source": "GUADAMUR",
       "id": "3a615e45d78ade1a6f7b47d3",
       "url": "http://guadamur.es",
@@ -46721,6 +46965,17 @@
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
+      "baseline": false
+    },
+    {
+      "source": "HONTANAR",
+      "id": "f400aba056d8fb516d11f18d",
+      "url": "http://hontanar.es",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
       "baseline": false
     },
     {
@@ -46766,22 +47021,26 @@
       "errors": [
         {
           "url": "https://cuerva.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+          "error": "HTTP Error 503: Service Temporarily Unavailable"
         }
       ],
       "baseline": false
     },
     {
-      "source": "HINOJOSA DE SAN VICENTE",
-      "id": "620510b46ab9aa779bbdf5d8",
-      "url": "http://hinojosadesanvicente.com",
+      "source": "COBEJA",
+      "id": "911247a32e543441327a6b34",
+      "url": "http://aytocobeja.es",
       "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
+      "pagesRead": 3,
+      "candidateLinks": 25,
+      "unvisitedListingLinks": 1,
       "errors": [
         {
-          "url": "https://hinojosadesanvicente.sedelectronica.es",
+          "url": "https://cobeja.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        },
+        {
+          "url": "https://cobeja.sedelectronica.es",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -46804,20 +47063,16 @@
       "baseline": false
     },
     {
-      "source": "COBEJA",
-      "id": "911247a32e543441327a6b34",
-      "url": "http://aytocobeja.es",
+      "source": "HINOJOSA DE SAN VICENTE",
+      "id": "620510b46ab9aa779bbdf5d8",
+      "url": "http://hinojosadesanvicente.com",
       "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 25,
-      "unvisitedListingLinks": 1,
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://cobeja.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://cobeja.sedelectronica.es",
+          "url": "https://hinojosadesanvicente.sedelectronica.es",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -46946,6 +47201,17 @@
       "baseline": false
     },
     {
+      "source": "MASCARAQUE",
+      "id": "7e996f2f318526462d35611a",
+      "url": "http://mascaraque.es",
+      "status": "READABLE",
+      "pagesRead": 3,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "baseline": false
+    },
+    {
       "source": "HUECAS",
       "id": "598faab2541e82a9c92fa74a",
       "url": "http://huecas.es",
@@ -46991,17 +47257,6 @@
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
-      "baseline": false
-    },
-    {
-      "source": "MASCARAQUE",
-      "id": "7e996f2f318526462d35611a",
-      "url": "http://mascaraque.es",
-      "status": "READABLE",
-      "pagesRead": 3,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
       "baseline": false
     },
     {
@@ -47070,22 +47325,6 @@
       "baseline": false
     },
     {
-      "source": "MÉNTRIDA",
-      "id": "0cee887bfe07ec80c9532399",
-      "url": "http://www.mentrida.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 11,
-      "unvisitedListingLinks": 6,
-      "errors": [
-        {
-          "url": "https://mentrida.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
       "source": "MIGUEL ESTEBAN",
       "id": "30e4aee33d5afd4ec4e5210c",
       "url": "http://miguelesteban.es",
@@ -47096,6 +47335,22 @@
       "errors": [
         {
           "url": "https://miguelesteban.es/component/banners/click/2.html",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
+    },
+    {
+      "source": "MÉNTRIDA",
+      "id": "0cee887bfe07ec80c9532399",
+      "url": "http://www.mentrida.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 11,
+      "unvisitedListingLinks": 6,
+      "errors": [
+        {
+          "url": "https://mentrida.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -47151,7 +47406,7 @@
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
-      "baseline": true
+      "baseline": false
     },
     {
       "source": "NAVALUCILLOS, LOS",
@@ -47165,6 +47420,22 @@
         {
           "url": "https://losnavalucillos.sedelectronica.es/board/9753e838-f59b-11de-b600-00237da12c6a/",
           "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
+        }
+      ],
+      "baseline": false
+    },
+    {
+      "source": "NOVÉS",
+      "id": "7562cba5f5273a82132079da",
+      "url": "http://noves.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 2,
+      "unvisitedListingLinks": 1,
+      "errors": [
+        {
+          "url": "https://noves.sedelectronica.es/info.2",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "baseline": false
@@ -47186,19 +47457,14 @@
       "baseline": true
     },
     {
-      "source": "NOVÉS",
-      "id": "7562cba5f5273a82132079da",
-      "url": "http://noves.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 2,
-      "unvisitedListingLinks": 1,
-      "errors": [
-        {
-          "url": "https://noves.sedelectronica.es/info.2",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
+      "source": "NOMBELA",
+      "id": "c43eacdc08274a0b293928e0",
+      "url": "http://nombela.es",
+      "status": "READABLE",
+      "pagesRead": 3,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
       "baseline": false
     },
     {
@@ -47218,17 +47484,6 @@
       "baseline": false
     },
     {
-      "source": "NOMBELA",
-      "id": "c43eacdc08274a0b293928e0",
-      "url": "http://nombela.es",
-      "status": "READABLE",
-      "pagesRead": 3,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "baseline": false
-    },
-    {
       "source": "NAVALMORALES, LOS",
       "id": "c97f6ee21a8798b5a902e979",
       "url": "http://www.losnavalmorales.es",
@@ -47243,22 +47498,6 @@
         }
       ],
       "baseline": false
-    },
-    {
-      "source": "PALOMEQUE",
-      "id": "9a368e42ecae34391f180af2",
-      "url": "http://www.ayuntamientopalomeque.es",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "http://www.ayuntamientopalomeque.es",
-          "error": "<urlopen error [Errno -2] Name or service not known>"
-        }
-      ],
-      "baseline": true
     },
     {
       "source": "NOBLEJAS",
@@ -47281,9 +47520,25 @@
       "baseline": false
     },
     {
-      "source": "PAREDES DE ESCALONA",
-      "id": "49f7d1211d6d3f14066b5c60",
-      "url": "http://www.paredesdeescalona.es",
+      "source": "PALOMEQUE",
+      "id": "9a368e42ecae34391f180af2",
+      "url": "http://www.ayuntamientopalomeque.es",
+      "status": "ERROR",
+      "pagesRead": 0,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "http://www.ayuntamientopalomeque.es",
+          "error": "<urlopen error [Errno -2] Name or service not known>"
+        }
+      ],
+      "baseline": true
+    },
+    {
+      "source": "PARRILLAS",
+      "id": "8e47aa2ece8deacca5af2734",
+      "url": "http://ayuntamientoparrillas.es",
       "status": "READABLE",
       "pagesRead": 1,
       "candidateLinks": 0,
@@ -47292,9 +47547,9 @@
       "baseline": false
     },
     {
-      "source": "PARRILLAS",
-      "id": "8e47aa2ece8deacca5af2734",
-      "url": "http://ayuntamientoparrillas.es",
+      "source": "PAREDES DE ESCALONA",
+      "id": "49f7d1211d6d3f14066b5c60",
+      "url": "http://www.paredesdeescalona.es",
       "status": "READABLE",
       "pagesRead": 1,
       "candidateLinks": 0,
@@ -47330,6 +47585,22 @@
       "baseline": false
     },
     {
+      "source": "OLÍAS DEL REY",
+      "id": "f2342e6bc6635e0465cac01f",
+      "url": "http://oliasdelrey.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 70,
+      "unvisitedListingLinks": 3,
+      "errors": [
+        {
+          "url": "https://oliasdelrey.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
+    },
+    {
       "source": "POLÁN",
       "id": "83e005384c9cd7746bb8048f",
       "url": "http://aytopolan.es",
@@ -47346,17 +47617,21 @@
       "baseline": false
     },
     {
-      "source": "OLÍAS DEL REY",
-      "id": "f2342e6bc6635e0465cac01f",
-      "url": "http://oliasdelrey.es",
+      "source": "ONTÍGOLA",
+      "id": "10ed6e39cb8a3b127c4dd299",
+      "url": "http://ontigola.es",
       "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 70,
-      "unvisitedListingLinks": 3,
+      "pagesRead": 2,
+      "candidateLinks": 14,
+      "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://oliasdelrey.sedelectronica.es/info.0",
+          "url": "http://ontigola.sedelectronica.es",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        },
+        {
+          "url": "https://www.ontigola.es/mi-ayuntamiento/bolsas-de-trabajo/",
+          "error": "HTTP Error 404: Not Found"
         }
       ],
       "baseline": false
@@ -47386,23 +47661,14 @@
       "baseline": false
     },
     {
-      "source": "ONTÍGOLA",
-      "id": "10ed6e39cb8a3b127c4dd299",
-      "url": "http://ontigola.es",
-      "status": "PARTIAL",
+      "source": "PUEBLA DE MONTALBÁN, LA",
+      "id": "151ed9f6271e491277dfe32c",
+      "url": "http://pueblademontalban.com",
+      "status": "READABLE",
       "pagesRead": 2,
-      "candidateLinks": 14,
+      "candidateLinks": 3,
       "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "http://ontigola.sedelectronica.es",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        },
-        {
-          "url": "https://www.ontigola.es/mi-ayuntamiento/bolsas-de-trabajo/",
-          "error": "HTTP Error 404: Not Found"
-        }
-      ],
+      "errors": [],
       "baseline": false
     },
     {
@@ -47419,17 +47685,6 @@
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
-      "baseline": false
-    },
-    {
-      "source": "PUEBLA DE MONTALBÁN, LA",
-      "id": "151ed9f6271e491277dfe32c",
-      "url": "http://pueblademontalban.com",
-      "status": "READABLE",
-      "pagesRead": 2,
-      "candidateLinks": 3,
-      "unvisitedListingLinks": 0,
-      "errors": [],
       "baseline": false
     },
     {
@@ -47503,6 +47758,22 @@
       "baseline": false
     },
     {
+      "source": "PUEBLANUEVA, LA",
+      "id": "c16688d6929ebe6e1700d6c9",
+      "url": "http://www.aytopueblanueva.com",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "http://lapueblanueva.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
+    },
+    {
       "source": "QUINTANAR DE LA ORDEN",
       "id": "b56bae584956c6f732369765",
       "url": "http://quintanardelaorden.es",
@@ -47519,6 +47790,17 @@
       "baseline": false
     },
     {
+      "source": "QUERO",
+      "id": "977abedc521729e2742cf246",
+      "url": "http://www.quero.es",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 7,
+      "unvisitedListingLinks": 2,
+      "errors": [],
+      "baseline": false
+    },
+    {
       "source": "SAN MARTÍN DE PUSA",
       "id": "bccd3758ff16b07da56ad1c8",
       "url": "http://sanmartindepusa.com",
@@ -47527,22 +47809,6 @@
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [],
-      "baseline": false
-    },
-    {
-      "source": "SAN BARTOLOMÉ DE LAS ABIERTAS",
-      "id": "45fee7c06451123ab6b180ee",
-      "url": "http://ayun-sanbartolomedelasabiertas.com",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "http://ayun-sanbartolomedelasabiertas.com",
-          "error": "HTTP Error 503: Service Temporarily Unavailable"
-        }
-      ],
       "baseline": false
     },
     {
@@ -47556,22 +47822,6 @@
       "errors": [
         {
           "url": "http://rielves.sedeelectronica.es",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
-      "source": "PUEBLANUEVA, LA",
-      "id": "c16688d6929ebe6e1700d6c9",
-      "url": "http://www.aytopueblanueva.com",
-      "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "http://lapueblanueva.sedelectronica.es/",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -47594,14 +47844,30 @@
       "baseline": true
     },
     {
-      "source": "QUERO",
-      "id": "977abedc521729e2742cf246",
-      "url": "http://www.quero.es",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 7,
-      "unvisitedListingLinks": 2,
+      "source": "SAN MARTÍN DE MONTALBÁN",
+      "id": "b9a3c3614c5897b10c95e7a0",
+      "url": "http://sanmartindemontalban.com",
+      "status": "READABLE",
+      "pagesRead": 2,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
       "errors": [],
+      "baseline": false
+    },
+    {
+      "source": "SAN BARTOLOMÉ DE LAS ABIERTAS",
+      "id": "45fee7c06451123ab6b180ee",
+      "url": "http://ayun-sanbartolomedelasabiertas.com",
+      "status": "ERROR",
+      "pagesRead": 0,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "http://ayun-sanbartolomedelasabiertas.com",
+          "error": "HTTP Error 503: Service Temporarily Unavailable"
+        }
+      ],
       "baseline": false
     },
     {
@@ -47625,17 +47891,6 @@
       "baseline": false
     },
     {
-      "source": "SAN MARTÍN DE MONTALBÁN",
-      "id": "b9a3c3614c5897b10c95e7a0",
-      "url": "http://sanmartindemontalban.com",
-      "status": "READABLE",
-      "pagesRead": 2,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "baseline": true
-    },
-    {
       "source": "SESEÑA",
       "id": "b454aa173fc3a1bcfa1bc0fe",
       "url": "http://ayto-sesena.org",
@@ -47644,6 +47899,22 @@
       "candidateLinks": 2,
       "unvisitedListingLinks": 0,
       "errors": [],
+      "baseline": false
+    },
+    {
+      "source": "SAN PABLO DE LOS MONTES",
+      "id": "c72cf5963118d232e4d0185d",
+      "url": "http://aytosanpablodelosmontes.es",
+      "status": "PARTIAL",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://sanpablodelosmontes.sedelectronica.es",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
       "baseline": false
     },
     {
@@ -47663,16 +47934,16 @@
       "baseline": false
     },
     {
-      "source": "SAN PABLO DE LOS MONTES",
-      "id": "c72cf5963118d232e4d0185d",
-      "url": "http://aytosanpablodelosmontes.es",
+      "source": "SANTA CRUZ DEL RETAMAR",
+      "id": "5327167e56b049b905c6e0f4",
+      "url": "http://santacruzdelretamar.es",
       "status": "PARTIAL",
-      "pagesRead": 1,
-      "candidateLinks": 0,
+      "pagesRead": 2,
+      "candidateLinks": 20,
       "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://sanpablodelosmontes.sedelectronica.es",
+          "url": "https://santacruzdelretamar.sedelectronica.es/info.0",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -47706,16 +47977,16 @@
       "baseline": false
     },
     {
-      "source": "SANTA CRUZ DEL RETAMAR",
-      "id": "5327167e56b049b905c6e0f4",
-      "url": "http://santacruzdelretamar.es",
+      "source": "SANTA OLALLA",
+      "id": "630c828a63dc4f6b41655899",
+      "url": "http://santaolalla.es",
       "status": "PARTIAL",
-      "pagesRead": 2,
-      "candidateLinks": 20,
-      "unvisitedListingLinks": 0,
+      "pagesRead": 4,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 1,
       "errors": [
         {
-          "url": "https://santacruzdelretamar.sedelectronica.es/info.0",
+          "url": "https://santaolalla.sedelectronica.es/",
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
@@ -47730,22 +48001,6 @@
       "candidateLinks": 0,
       "unvisitedListingLinks": 0,
       "errors": [],
-      "baseline": false
-    },
-    {
-      "source": "SANTA OLALLA",
-      "id": "630c828a63dc4f6b41655899",
-      "url": "http://santaolalla.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 1,
-      "errors": [
-        {
-          "url": "https://santaolalla.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
       "baseline": false
     },
     {
@@ -47792,17 +48047,6 @@
       "baseline": false
     },
     {
-      "source": "TURLEQUE",
-      "id": "8b04dee1876825a68a88c39a",
-      "url": "http://ayuntamiento.es/turleque",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "baseline": false
-    },
-    {
       "source": "TORRIJOS",
       "id": "489cd1deac3c3121adbbdf05",
       "url": "http://torrijos.es",
@@ -47823,6 +48067,17 @@
       "baseline": false
     },
     {
+      "source": "TURLEQUE",
+      "id": "8b04dee1876825a68a88c39a",
+      "url": "http://ayuntamiento.es/turleque",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "baseline": false
+    },
+    {
       "source": "PEPINO",
       "id": "f86692d57dbddaaa9c265ca8",
       "url": "http://ayto-pepino.com",
@@ -47839,17 +48094,17 @@
       "baseline": false
     },
     {
-      "source": "UGENA",
-      "id": "002231eb229ec367b3db9811",
-      "url": "http://ugena.es",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
+      "source": "TOBOSO, EL",
+      "id": "d15d4ddefb50863a43015eb6",
+      "url": "http://eltoboso.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 61,
+      "unvisitedListingLinks": 1,
       "errors": [
         {
-          "url": "http://ugena.es",
-          "error": "HTTP Error 403: Forbidden"
+          "url": "https://eltoboso.sedelectronica.es/",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
       "baseline": false
@@ -47871,17 +48126,17 @@
       "baseline": false
     },
     {
-      "source": "TOBOSO, EL",
-      "id": "d15d4ddefb50863a43015eb6",
-      "url": "http://eltoboso.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 61,
-      "unvisitedListingLinks": 1,
+      "source": "UGENA",
+      "id": "002231eb229ec367b3db9811",
+      "url": "http://ugena.es",
+      "status": "ERROR",
+      "pagesRead": 0,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
       "errors": [
         {
-          "url": "https://eltoboso.sedelectronica.es/",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+          "url": "http://ugena.es",
+          "error": "HTTP Error 403: Forbidden"
         }
       ],
       "baseline": false
@@ -47923,6 +48178,22 @@
       "baseline": false
     },
     {
+      "source": "VILLACAÑAS",
+      "id": "b32cc9fec38da5c32cb867a4",
+      "url": "http://aytovillacanas.com",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 21,
+      "unvisitedListingLinks": 2,
+      "errors": [
+        {
+          "url": "https://sedevillacanas.absiscloud.com/",
+          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
+        }
+      ],
+      "baseline": false
+    },
+    {
       "source": "VALMOJADO",
       "id": "7908d12ee90f9786cd83eb32",
       "url": "http://valmojado.com",
@@ -47947,22 +48218,6 @@
       "candidateLinks": 5,
       "unvisitedListingLinks": 0,
       "errors": [],
-      "baseline": false
-    },
-    {
-      "source": "VILLACAÑAS",
-      "id": "b32cc9fec38da5c32cb867a4",
-      "url": "http://aytovillacanas.com",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 21,
-      "unvisitedListingLinks": 2,
-      "errors": [
-        {
-          "url": "https://sedevillacanas.absiscloud.com/",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
       "baseline": false
     },
     {
@@ -48050,6 +48305,17 @@
       "baseline": false
     },
     {
+      "source": "VILLATOBAS",
+      "id": "2e63125dda90b94f98650bb8",
+      "url": "http://villatobas.es",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [],
+      "baseline": false
+    },
+    {
       "source": "VILLAMINAYA",
       "id": "2f5bf971d79b88e01a18caf4",
       "url": "http://villaminaya.es",
@@ -48063,17 +48329,6 @@
           "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
         }
       ],
-      "baseline": false
-    },
-    {
-      "source": "VILLATOBAS",
-      "id": "2e63125dda90b94f98650bb8",
-      "url": "http://villatobas.es",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
       "baseline": false
     },
     {
@@ -48093,6 +48348,22 @@
       "baseline": false
     },
     {
+      "source": "VILLANUEVA DE ALCARDETE",
+      "id": "1d6c2896d85d4f71562afb6c",
+      "url": "http://villanuevadealcardete.es",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 31,
+      "unvisitedListingLinks": 4,
+      "errors": [
+        {
+          "url": "http://villanuevadealcardete.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
+    },
+    {
       "source": "VILLASEQUILLA",
       "id": "351c100a93d85083b66c606f",
       "url": "http://villasequilla.com",
@@ -48100,6 +48371,17 @@
       "pagesRead": 5,
       "candidateLinks": 10,
       "unvisitedListingLinks": 1,
+      "errors": [],
+      "baseline": false
+    },
+    {
+      "source": "YELES",
+      "id": "bbca515428231c11dfb0c4fd",
+      "url": "http://www.yeles.es",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
       "errors": [],
       "baseline": false
     },
@@ -48117,17 +48399,6 @@
           "error": "HTTP Error 403: Forbidden"
         }
       ],
-      "baseline": false
-    },
-    {
-      "source": "YELES",
-      "id": "bbca515428231c11dfb0c4fd",
-      "url": "http://www.yeles.es",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [],
       "baseline": false
     },
     {
@@ -48187,22 +48458,6 @@
       "baseline": false
     },
     {
-      "source": "VILLANUEVA DE ALCARDETE",
-      "id": "1d6c2896d85d4f71562afb6c",
-      "url": "http://villanuevadealcardete.es",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 31,
-      "unvisitedListingLinks": 4,
-      "errors": [
-        {
-          "url": "http://villanuevadealcardete.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
-    },
-    {
       "source": "Correos",
       "id": "a4d44477d6d2ab92",
       "url": "https://www.correos.com/personas-y-talento/",
@@ -48232,22 +48487,6 @@
         },
         {
           "url": "https://tributos.oapgt.es",
-          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
-        }
-      ],
-      "baseline": false
-    },
-    {
-      "source": "Adif",
-      "id": "1ff3b2f4b8783c1a",
-      "url": "https://www.adif.es/empleo/oferta-empleo-publico",
-      "status": "PARTIAL",
-      "pagesRead": 4,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://sede.adif.gob.es/",
           "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
         }
       ],
@@ -48297,6 +48536,22 @@
       "baseline": false
     },
     {
+      "source": "Adif",
+      "id": "1ff3b2f4b8783c1a",
+      "url": "https://www.adif.es/empleo/oferta-empleo-publico",
+      "status": "PARTIAL",
+      "pagesRead": 4,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://sede.adif.gob.es/",
+          "error": "NO_READABLE_LINKS_OR_JAVASCRIPT"
+        }
+      ],
+      "baseline": false
+    },
+    {
       "source": "Batres",
       "id": "94b2d348727497a7",
       "url": "https://batres.sedelectronica.es/info.0",
@@ -48313,20 +48568,15 @@
       "baseline": true
     },
     {
-      "source": "Cubas de la Sagra",
-      "id": "fdd2d58dab8d58c6",
-      "url": "https://cubasdelasagra.sedelectronica.es/info.0",
-      "status": "ERROR",
-      "pagesRead": 0,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://cubasdelasagra.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": true
+      "source": "Tragsa temporal",
+      "id": "89975b0ec48601ec",
+      "url": "https://www.tragsa.es/es/equipo-humano/unete-a-nuestro-equipo/ofertas-empleo-temporal/Paginas/ofertas-especificas.aspx",
+      "status": "PARTIAL",
+      "pagesRead": 5,
+      "candidateLinks": 4,
+      "unvisitedListingLinks": 19,
+      "errors": [],
+      "baseline": false
     },
     {
       "source": "ROBLEDILLO (*)",
@@ -48345,19 +48595,19 @@
       "baseline": true
     },
     {
-      "source": "Tragsa temporal",
-      "id": "89975b0ec48601ec",
-      "url": "https://www.tragsa.es/es/equipo-humano/unete-a-nuestro-equipo/ofertas-empleo-temporal/Paginas/ofertas-especificas.aspx",
-      "status": "PARTIAL",
-      "pagesRead": 5,
-      "candidateLinks": 4,
-      "unvisitedListingLinks": 19,
+      "source": "El Álamo",
+      "id": "c40bb7c0ffdd47d6",
+      "url": "https://ayuntamientoelalamo.org/tablon-anuncios/",
+      "status": "READABLE",
+      "pagesRead": 1,
+      "candidateLinks": 96,
+      "unvisitedListingLinks": 0,
       "errors": [],
       "baseline": false
     },
     {
       "source": "YÉBENES, LOS",
-      "id": "3c984d2a3ef6950166cd585f",
+      "id": "019c607c06e83d72d5232c45",
       "url": "http:// www.turismo.losyebenes.es",
       "status": "ERROR",
       "pagesRead": 0,
@@ -48372,17 +48622,6 @@
       "baseline": true
     },
     {
-      "source": "El Álamo",
-      "id": "c40bb7c0ffdd47d6",
-      "url": "https://ayuntamientoelalamo.org/tablon-anuncios/",
-      "status": "READABLE",
-      "pagesRead": 1,
-      "candidateLinks": 96,
-      "unvisitedListingLinks": 0,
-      "errors": [],
-      "baseline": false
-    },
-    {
       "source": "Serranillos del Valle",
       "id": "62f183f67e0c2fb3",
       "url": "https://sede.serranillosdelvalle.es/eAdmin/InfoSede.do",
@@ -48392,6 +48631,22 @@
       "unvisitedListingLinks": 0,
       "errors": [],
       "baseline": false
+    },
+    {
+      "source": "Cubas de la Sagra",
+      "id": "fdd2d58dab8d58c6",
+      "url": "https://cubasdelasagra.sedelectronica.es/info.0",
+      "status": "ERROR",
+      "pagesRead": 0,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://cubasdelasagra.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": true
     },
     {
       "source": "Arroyomolinos",
@@ -48406,7 +48661,7 @@
     },
     {
       "source": "SANTA CRUZ DEL RETAMAR",
-      "id": "7dc1d641ba0819b34fa48e48",
+      "id": "0977ca7f59c74de52a6d9a4f",
       "url": "http://santacruzdelretamar.es ",
       "status": "PARTIAL",
       "pagesRead": 2,
@@ -48419,22 +48674,6 @@
         }
       ],
       "baseline": true
-    },
-    {
-      "source": "Moraleja de Enmedio",
-      "id": "112f0cce73dd2caf",
-      "url": "https://ayto-moraleja.es/",
-      "status": "PARTIAL",
-      "pagesRead": 3,
-      "candidateLinks": 0,
-      "unvisitedListingLinks": 0,
-      "errors": [
-        {
-          "url": "https://ayto-moraleja.sedelectronica.es/info.0",
-          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
-        }
-      ],
-      "baseline": false
     },
     {
       "source": "YUNCOS",
@@ -48467,24 +48706,48 @@
         }
       ],
       "baseline": false
+    },
+    {
+      "source": "Moraleja de Enmedio",
+      "id": "112f0cce73dd2caf",
+      "url": "https://ayto-moraleja.es/",
+      "status": "PARTIAL",
+      "pagesRead": 3,
+      "candidateLinks": 0,
+      "unvisitedListingLinks": 0,
+      "errors": [
+        {
+          "url": "https://ayto-moraleja.sedelectronica.es/info.0",
+          "error": "HTTP Error 302: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nFound"
+        }
+      ],
+      "baseline": false
     }
   ],
   "enrichmentStatus": {
     "attempted": 70,
-    "read": 68,
-    "withDetails": 18,
-    "failures": 2,
+    "read": 58,
+    "withDetails": 7,
+    "failures": 12,
     "failureReasons": {
-      "HTTP 404": 2
+      "TIMEOUT": 2,
+      "OTRO": 10
     },
     "asOf": "2026-11-18",
     "explanation": "Extracción automática orientativa: sólo el anuncio original y las bases son vinculantes."
   },
   "directCrawl": {
     "available": true,
-    "checkedAtUtc": "2026-11-18T20:44:17.692767+00:00",
+    "checkedAtUtc": "2026-11-18T21:40:26.630277+00:00",
     "configuredSources": 205,
     "uniqueSources": 202,
     "sharedSourceAliases": 3
+  },
+  "sourceHealth": {
+    "ok": true,
+    "successful": 6,
+    "expected": 6,
+    "failures": [],
+    "reason": null
   }
 }
