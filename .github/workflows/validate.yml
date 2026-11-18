@@ -212,6 +212,8 @@ jobs:
       - name: Validar Radar de empleo (sin consultar la red)
         run: |
           node --check assets/radar.js
+          node --check assets/radar-sort.js
+          node tests/radar-sort.mjs
           node --check tools/radar-enrich.mjs
           node --check tools/radar.mjs
           node --check tools/radar-notify.mjs
