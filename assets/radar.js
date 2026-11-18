@@ -1,5 +1,6 @@
 import {classifyRadarEntries} from './radar-quality.js?v=2';
 import {matchTrackedCall,trackingState,decorateTracking} from './radar-tracking.js?v=2';
+import {orderRadar,deadlineAlert} from './radar-sort.js?v=1';
 
 const app=document.querySelector('#radar-app');
 const THEME_KEY='opoweb-theme';
@@ -16,7 +17,7 @@ setTheme(localStorage.getItem(THEME_KEY)||(matchMedia('(prefers-color-scheme: da
 document.querySelector('#theme-toggle')?.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
 
 let data={opportunities:[]}, entries=[], trackedCalls=[];
-let filters={q:'',view:'OPORTUNIDADES',state:'TODAS',zone:'TODAS',kind:'TODAS',vacancies:'TODAS'};
+let filters={q:'',view:'OPORTUNIDADES',state:'TODAS',zone:'TODAS',kind:'TODAS',vacancies:'TODAS',sort:'RELEVANCIA'};
 let shown=40;
 const missing='Sin verificar en las bases';
 function day(v){
@@ -77,8 +78,10 @@ function card(o){
    : o.applicationTerm
      ? 'Hay una regla de plazo publicada, pero no una fecha de cierre acreditada. Se debe comprobar la publicación de inicio y el calendario aplicable.'
      : 'No se ha podido extraer ni una fecha de cierre ni una regla de plazo. Consulta las bases oficiales antes de solicitar.';
+ const alert=deadlineAlert(o,new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'}));
  const tags=[
   trackingTag,
+  alert?'<span class="radar-tag urgent">'+esc(alert)+'</span>':'',
   oldTag,
   '<span class="radar-tag '+(o.state==='PLAZO_ABIERTO'?'ok':o.state==='CERRADA'?'closed':'review')+'">'+esc(stateLabel(o.state))+'</span>',
   '<span class="radar-tag">'+esc(o.kind)+'</span>',
@@ -115,7 +118,7 @@ function render(){
  const confirmed=actionable.filter(x=>x.state==='PLAZO_ABIERTO');
  const discarded=all.filter(x=>x.phaseFollowup);
  const tracked=all.filter(x=>x.trackedCall);
- const list=all.filter(visible);
+ const list=orderRadar(all.filter(visible),filters.sort);
  const stale=ageDays(data.generatedAt,new Date().toISOString().slice(0,10))>3;
  const statuses=(data.sourceStatus||[]).filter(x=>x.ok===true).length;
  // Overall feed success does not imply each municipal or regional source was read.
@@ -137,7 +140,7 @@ function render(){
  const cards=list.length?list.slice(0,shown).map(card).join(''):'<div class="panel radar-empty">No hay fichas que cumplan los filtros. Prueba «Todos los puestos detectados» o cambia la zona.</div>';
  app.innerHTML=[
  '<section class="panel radar-hero"><div><p class="eyebrow">Detección automatizada · no equivale a solicitud abierta</p><h2>Radar de empleo público</h2>',
- '<p>Por defecto se ocultan los plazos de inscripción vencidos; el histórico se mantiene en «Todos los registros». Primero se muestran <strong>puestos concretos con enlace oficial</strong>, priorizados por número de plazas, localidad conocida cercana a Toledo y adecuación orientativa del puesto. Si no se conoce el destino exacto, no se supone que esté cerca. Las fichas sin puesto identificado se guardan en «Sin puesto identificable» y no provocan correos inútiles. Se muestran únicamente los requisitos y plazos que la extracción ha encontrado; el resto queda indicado como pendiente.</p>',
+ '<p>Por defecto se ocultan los plazos vencidos que no forman parte de tus procesos seguidos; puedes consultar el histórico en «Plazos cerrados» o «Todos los registros». Primero se muestran <strong>puestos concretos con enlace oficial</strong>, priorizados por relevancia; puedes cambiar la ordenación para destacar plazas, fechas de cierre y publicaciones. Si no se conoce el destino exacto, no se supone que esté cerca. Las fichas sin puesto identificado se guardan en «Sin puesto identificable» y no provocan correos inútiles. Se muestran únicamente los requisitos y plazos que la extracción ha encontrado; el resto queda indicado como pendiente.</p>',
  stale?'<p class="notice warning">La última actualización tiene más de 3 días. Revisa los plazos en la fuente oficial.</p>':'',
  lowDocumentCoverage?'<p class="notice warning">Lectura parcial: se pudieron leer '+docsRead+' de '+docsAttempted+' documentos examinados. Los requisitos y plazos no publicados o inaccesibles siguen pendientes de verificar en la fuente oficial.</p>':'',
  directHasGaps?'<p class="notice warning">'+esc(directCoverage)+' El radar no cubre de forma completa todas estas fuentes; contrasta también las sedes y boletines oficiales.</p>':'',
@@ -157,12 +160,13 @@ function render(){
  '<label><span>Zona</span><select id="rz"><option value="TODAS">Todas</option><option value="TOLEDO">Provincia de Toledo</option><option value="MADRID_SUR">Sur de Madrid</option></select></label>',
  '<label><span>Tipo</span><select id="rk"><option value="TODAS">Cualquiera</option><option value="Oposición / proceso selectivo">Oposición / proceso selectivo</option><option value="Bolsa">Bolsas de empleo</option><option value="Temporal">Temporal / sustitución</option><option value="Oferta de empleo (sin convocatoria)">OEP sin convocatoria</option></select></label>',
  '<label><span>Número de plazas</span><select id="rp"><option value="TODAS">Todas las cantidades</option><option value="UNA">Exactamente 1 plaza</option><option value="2">2 o más plazas</option><option value="3">3 o más plazas</option><option value="5">5 o más plazas</option><option value="10">10 o más plazas</option><option value="SIN_DATO">Plazas sin verificar</option></select></label>',
+ '<label><span>Ordenar por</span><select id="ro"><option value="RELEVANCIA">Relevancia para el opositor</option><option value="CIERRE">Fecha de cierre más próxima</option><option value="PLAZAS">Mayor número de plazas</option><option value="PUBLICACION">Publicación oficial más reciente</option><option value="DETECCION">Última detección</option></select></label>',
  '</div><p class="radar-note">Si faltan el plazo, grupo o titulación, Radar <strong>no los ha comprobado</strong>. No se confirma compatibilidad con DAM sin leer los requisitos.</p></section>',
  '<div class="radar-results-summary"><strong>'+list.length+'</strong> registros coinciden; se muestran '+Math.min(shown,list.length)+'.</div>',
  '<section class="radar-grid">'+cards+'</section>',
  shown<list.length?'<div class="radar-more"><button id="radar-more" class="btn secondary" type="button">Mostrar 40 fichas más</button></div>':''
  ].join('');
- for(const [id,key] of [['rv','view'],['rs','state'],['rz','zone'],['rk','kind'],['rp','vacancies']]){
+ for(const [id,key] of [['rv','view'],['rs','state'],['rz','zone'],['rk','kind'],['rp','vacancies'],['ro','sort']]){
   const select=document.querySelector('#'+id);if(!select)continue;
   select.value=filters[key];
   select.addEventListener('change',e=>{filters[key]=e.target.value;shown=40;render()});
