@@ -41,9 +41,37 @@ export function matchTrackedCall(o,calls){
 export function trackingState(call){
  const s=String(call?.estadoUsuario||'');
  if(/ADMITIDO|LISTADO_OFICIAL_ADMITIDOS/.test(s))return {label:/PROVISIONAL/.test(s)?'Admitido provisionalmente':'Admisión registrada en seguimiento',className:'admitted'};
- if(/INSCRITO|SOLICITUD_REGISTRADA/.test(s))return {label:/PENDIENTE_ADMISION/.test(s)?'Solicitud registrada · admisión pendiente':'Inscripción registrada',className:'registered'};
+ if(/INSCRITO|SOLICITUD_REGISTRADA|SOLICITUD_PRESENTADA/.test(s))return {label:/PENDIENTE_ADMISION/.test(s)?'Solicitud registrada · admisión pendiente':'Inscripción registrada',className:'registered'};
  if(/PENDIENTE_INSCRIPCION/.test(s))return {label:'Inscripción pendiente',className:'pending'};
  if(/DESCARTADO/.test(s))return {label:'Descartada en seguimiento',className:'excluded'};
  if(/PENDIENTE_DECISION/.test(s))return {label:'Decisión pendiente',className:'pending'};
  return {label:'En seguimiento · sin inscripción acreditada',className:'pending'};
+}
+
+export function trackedDeadline(call){
+ const p=call?.plazoSolicitudes||{};
+ // Solo plazos concretos asentados en la ficha. Nunca convertir un margen de seguimiento en plazo legal.
+ if(p.fechaConfirmada && /^\d{4}-\d{2}-\d{2}$/.test(p.fechaConfirmada))return {iso:p.fechaConfirmada,verified:true};
+ if(p.hasta && /^\d{4}-\d{2}-\d{2}$/.test(p.hasta))return {iso:p.hasta,verified:true};
+ // Las bases de Olías contienen una contradicción; la fecha teórica BOE no es confirmación de cierre.
+ if(p.fechaTeoricaBOE && /^\d{4}-\d{2}-\d{2}$/.test(p.fechaTeoricaBOE))return {iso:p.fechaTeoricaBOE,verified:false,disputed:true};
+ return null;
+}
+export function decorateTracking(o,call,asOf){
+ if(!call)return {...o,trackedCall:null};
+ const deadline=trackedDeadline(call);
+ const out={...o,trackedCall:call,trackingDeadline:deadline};
+ if(deadline?.verified){
+   out.deadline=out.deadline||deadline.iso;
+   out.deadlineIso=out.deadlineIso||deadline.iso;
+   if(deadline.iso<asOf)out.state='CERRADA';
+   else if(out.state!=='NO_ACCESIBLE')out.state='PLAZO_ABIERTO';
+ }
+ if(deadline?.disputed && !out.deadlineIso){
+   out.applicationTerm=out.applicationTerm||'BOE: 20 días hábiles; BOP: 20 días naturales. Fecha final pendiente de aclaración.';
+   out.deadlineDisputed=true;
+   // Transcurridas ambas fechas posibles, señalar el cierre probable sin atribuir confirmación oficial.
+   if(deadline.iso<asOf)out.state='CIERRE_PROBABLE';
+ }
+ return out;
 }
