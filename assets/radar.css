@@ -48,3 +48,7 @@
 :root[data-theme="dark"] .radar-tracking.pending{color:#fcd34d}
 
 .radar-tag.closed{background:rgba(100,116,139,.23);color:var(--text);border:1px solid var(--border-soft)}
+
+/* Alerta de fecha de cierre registrada en los próximos siete días. */
+.radar-tag.urgent{background:rgba(239,68,68,.13);border:1px solid rgba(239,68,68,.5);color:#b91c1c}
+:root[data-theme="dark"] .radar-tag.urgent{color:#fca5a5}
