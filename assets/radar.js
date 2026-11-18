@@ -16,7 +16,7 @@ setTheme(localStorage.getItem(THEME_KEY)||(matchMedia('(prefers-color-scheme: da
 document.querySelector('#theme-toggle')?.addEventListener('click',()=>setTheme(document.documentElement.dataset.theme==='dark'?'light':'dark'));
 
 let data={opportunities:[]}, entries=[], trackedCalls=[];
-let filters={q:'',view:'OPORTUNIDADES',state:'TODAS',zone:'TODAS',kind:'TODAS'};
+let filters={q:'',view:'OPORTUNIDADES',state:'TODAS',zone:'TODAS',kind:'TODAS',vacancies:'TODAS'};
 let shown=40;
 const missing='Sin verificar en las bases';
 function day(v){
@@ -42,11 +42,22 @@ function matchView(o){
  if(filters.view==='SEGUIMIENTO')return o.phaseFollowup;
  return true;
 }
+function matchesVacancies(o){
+ const count=Number(o.vacancies);
+ const valid=Number.isInteger(count)&&count>0;
+ if(filters.vacancies==='TODAS')return true;
+ if(filters.vacancies==='SIN_DATO')return !valid;
+ if(!valid)return false;
+ if(filters.vacancies==='UNA')return count===1;
+ const minimum=Number(filters.vacancies);
+ return Number.isInteger(minimum)&&count>=minimum;
+}
 function visible(o){
  return matchView(o)&&
   (filters.state==='TODAS'||o.state===filters.state)&&
   (filters.zone==='TODAS'||o.zone===filters.zone)&&
   (filters.kind==='TODAS'||o.kind===filters.kind)&&
+  matchesVacancies(o)&&
   norm([o.title,o.position,o.organism,o.location,o.group,o.kind].join(' ')).includes(norm(filters.q));
 }
 function meta(label,value){return '<div><span>'+esc(label)+'</span><strong>'+esc(value??missing)+'</strong></div>';}
@@ -145,12 +156,13 @@ function render(){
  '<label><span>Plazo / estado</span><select id="rs"><option value="TODAS">Todos</option><option value="PLAZO_ABIERTO">Plazo con fecha publicada</option><option value="REVISAR">Plazo sin verificar</option><option value="PREVISTA">OEP sin convocatoria</option><option value="CERRADA">Plazo cerrado</option><option value="CIERRE_PROBABLE">Cierre probable (discrepancia)</option></select></label>',
  '<label><span>Zona</span><select id="rz"><option value="TODAS">Todas</option><option value="TOLEDO">Provincia de Toledo</option><option value="MADRID_SUR">Sur de Madrid</option></select></label>',
  '<label><span>Tipo</span><select id="rk"><option value="TODAS">Cualquiera</option><option value="Oposición / proceso selectivo">Oposición / proceso selectivo</option><option value="Bolsa">Bolsas de empleo</option><option value="Temporal">Temporal / sustitución</option><option value="Oferta de empleo (sin convocatoria)">OEP sin convocatoria</option></select></label>',
+ '<label><span>Número de plazas</span><select id="rp"><option value="TODAS">Todas las cantidades</option><option value="UNA">Exactamente 1 plaza</option><option value="2">2 o más plazas</option><option value="3">3 o más plazas</option><option value="5">5 o más plazas</option><option value="10">10 o más plazas</option><option value="SIN_DATO">Plazas sin verificar</option></select></label>',
  '</div><p class="radar-note">Si faltan el plazo, grupo o titulación, Radar <strong>no los ha comprobado</strong>. No se confirma compatibilidad con DAM sin leer los requisitos.</p></section>',
  '<div class="radar-results-summary"><strong>'+list.length+'</strong> registros coinciden; se muestran '+Math.min(shown,list.length)+'.</div>',
  '<section class="radar-grid">'+cards+'</section>',
  shown<list.length?'<div class="radar-more"><button id="radar-more" class="btn secondary" type="button">Mostrar 40 fichas más</button></div>':''
  ].join('');
- for(const [id,key] of [['rv','view'],['rs','state'],['rz','zone'],['rk','kind']]){
+ for(const [id,key] of [['rv','view'],['rs','state'],['rz','zone'],['rk','kind'],['rp','vacancies']]){
   const select=document.querySelector('#'+id);if(!select)continue;
   select.value=filters[key];
   select.addEventListener('change',e=>{filters[key]=e.target.value;shown=40;render()});
