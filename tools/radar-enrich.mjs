@@ -1,5 +1,6 @@
 import {spawnSync} from 'node:child_process';
 import {normalizeOpportunity} from '../assets/radar-quality.js';
+import {extractApplicationRule} from './radar-deadline-rule.mjs';
 
 // Extraction of observable facts, not an eligibility ruling. Only public HTTPS documents.
 const months={enero:1,febrero:2,marzo:3,abril:4,mayo:5,junio:6,julio:7,agosto:8,septiembre:9,setiembre:9,octubre:10,noviembre:11,diciembre:12};
@@ -35,6 +36,8 @@ export function extractFacts(text,old={}){
  // Retain relative terms literally. Do not invent a calendar calculation for Spanish business days.
  const term=body.match(/(?:plazo\s+(?:para\s+la\s+)?(?:de\s+)?presentaci[oó]n\s+de\s+solicitudes|presentaci[oó]n\s+de\s+instancias)[^.;]{0,250}/i);
  if(term)evidence.applicationTerm=clean(term[0]).slice(0,235);
+ const rule=extractApplicationRule(body);
+ if(rule)evidence.applicationRule=rule;
  const absolute=term?.[0]?.match(/(?:hasta|finalizar[aá]\s+el|concluir[aá]\s+el|fecha\s+l[ií]mite\s+del)\s+(?:d[ií]a\s+)?(\d{1,2})\s*(?:\/|-|\s+de\s+)(\d{1,2}|enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|setiembre|octubre|noviembre|diciembre)\s*(?:\/|-|\s+de\s+)(20\d{2})/i);
  if(absolute){
   const key=absolute[2].toLowerCase();
@@ -104,7 +107,7 @@ export async function enrichRadar(opportunities,date,{limit=25,fetchDocument=doc
     const doc=await fetchDocument(x.officialUrl);
     if(clean(doc.text).length<150)throw new Error('TEXTO_INSUFICIENTE');
     const facts=extractFacts(doc.text,x);
-    updated={...updated,position:x.position||facts.position||null,vacancies:x.vacancies||facts.vacancies||null,applicationTerm:facts.applicationTerm||x.applicationTerm||null,
+    updated={...updated,position:x.position||facts.position||null,vacancies:x.vacancies||facts.vacancies||null,applicationTerm:facts.applicationTerm||x.applicationTerm||null,applicationRule:facts.applicationRule||x.applicationRule||null,
      group:x.group!=='REVISAR'?x.group:facts.group||x.group,
      qualification:x.knownQualification?x.qualification:facts.qualification||x.qualification||null,
      access:x.access||facts.access||null,
