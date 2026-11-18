@@ -5,7 +5,7 @@
     {
       "id": "olias-del-rey-auxiliar-edificios-c2-2026",
       "nombre": "Olías del Rey · Auxiliar de edificios e instalaciones C2",
-      "estadoUsuario": "PENDIENTE_INSCRIPCION",
+      "estadoUsuario": "SOLICITUD_PRESENTADA_PENDIENTE_ADMISION",
       "prioridad": "ALTA_POR_CERCANIA_Y_ADAPTACION_TECNICA",
       "estadoEditorial": "22_AUDITADO",
       "plazas": 4,
@@ -37,7 +37,14 @@
       "seguimiento": "data/seguimiento-olias-auxiliar-edificios-2026.json",
       "fuenteSolicitud": "content/olias-auxiliar-edificios/GUIA_SOLICITUD_EXAMEN_2026.md",
       "ultimaComprobacion": "09/11/2026: T13 callejero INE provincia 45 municipio 45122 cotejado (280 VIAS/0 PSEU/427 TRAM) y banco original 21/84 contrastado; quedan reservas de E2E y bases BOP/BOE.",
-      "notaEstadoEditorial": "22/22 temas AUDITADO documental-editorialmente a 09/11/2026. T13 cotejado contra 280 códigos VIAS del INE a 30/06/2026, 0 PSEU y acta primaria. No certificación funcional integral; discrepancia administrativa de bases en plazas/plazos permanece separada."
+      "notaEstadoEditorial": "22/22 temas AUDITADO documental-editorialmente a 09/11/2026. T13 cotejado contra 280 códigos VIAS del INE a 30/06/2026, 0 PSEU y acta primaria. No certificación funcional integral; discrepancia administrativa de bases en plazas/plazos permanece separada.",
+      "inscripcion": {
+        "fechaSolicitud": "2026-11-17",
+        "medio": "PRESENCIAL_AYUNTAMIENTO",
+        "fuente": "Declaración del usuario 18/11/2026; justificante no cotejado",
+        "justificanteVerificado": false
+      },
+      "notaSeguimiento": "Solicitud presencial declarada el 17/11/2026. No afirmar admisión hasta comprobar listas oficiales."
     },
     {
       "id": "olias-del-rey-limpiadores-ap-2026",
