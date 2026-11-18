@@ -33,6 +33,15 @@ assert.equal(expandedRadar.opportunities[0].deadline,null,'No inferir una fecha 
 
 const relative=extractFacts('El plazo de presentación de solicitudes será de veinte días hábiles a contar desde el día siguiente al de la publicación en el BOE.');
 assert.match(relative.applicationTerm,/veinte días hábiles/);
+assert.equal(relative.applicationRule.days,20);
+assert.equal(relative.applicationRule.unit,'HABILES');
+assert.equal(relative.applicationRule.trigger,'BOE');
+assert.equal(relative.applicationRule.deadlineVerified,false);
+const natural=extractFacts('El plazo de presentación de solicitudes será de 20 días naturales desde su publicación en el BOP.');
+assert.equal(natural.applicationRule.days,20);
+assert.equal(natural.applicationRule.unit,'NATURALES');
+assert.equal(natural.applicationRule.trigger,'BOP');
+assert.equal(natural.deadline,undefined);
 assert.equal(relative.deadline,undefined,'No calcular un plazo sin fecha y calendario oficial');
 
 const multi=extractFacts('Para Técnico Superior grupo B y Auxiliar Administrativo grupo C2 se convocan plazas.');
