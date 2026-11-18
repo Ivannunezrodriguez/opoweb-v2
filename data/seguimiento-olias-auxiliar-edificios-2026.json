@@ -2,7 +2,7 @@
   "id": "olias-del-rey-auxiliar-edificios-c2-2026",
   "actualizadoEl": "2026-11-04",
   "estadoEditorial": "EN_AUDITORIA",
-  "estadoUsuario": "PENDIENTE_INSCRIPCION",
+  "estadoUsuario": "SOLICITUD_PRESENTADA_PENDIENTE_ADMISION",
   "organismo": "Ayuntamiento de Olías del Rey (Toledo)",
   "denominacion": "Auxiliar de edificios e instalaciones",
   "plazas": 4,
@@ -106,5 +106,13 @@
       "detalle": "BOP cita Ley 39/2025 donde corresponde Ley 39/2015; no reproducir como norma válida"
     }
   ],
-  "siguienteHito": "Presentar instancia con documentos antes del 20/11 como fecha prudente, previa aclaración municipal del plazo; consultar calendario de exámenes en web del Ayuntamiento."
+  "siguienteHito": "Esperar publicación de lista provisional de admitidos y excluidos y comprobar inclusión. Conservar justificante presencial privado; vigilar aclaración de discrepancia de plazos BOP/BOE.",
+  "situacionPersonal": {
+    "inscrito": true,
+    "fechaPresentacion": "2026-11-17",
+    "medio": "PRESENCIAL_AYUNTAMIENTO",
+    "estado": "Solicitud presentada según declaración del interesado; admisión pendiente de publicación",
+    "evidencia": "Declaración del usuario el 18/11/2026; no se ha cotejado justificante",
+    "admitido": false
+  }
 }
