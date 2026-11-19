@@ -284,9 +284,28 @@ function renderExtraRepasos() {
     '<div class="practice-grid">' + cards + '</div>' + warning + '</section>';
 }
 
+function buildUC3MQuickReview() {
+  // Repaso breve a partir de preguntas YA publicadas: no crea ni aumenta bancos.
+  // 19 temas (T2–T20) con una pregunta de cada uno; el resto refuerza plazos,
+  // órganos, ofimática, universidades y presupuestos sin duplicar IDs.
+  const all = extraRepasos.flatMap(pack => pack.preguntas);
+  const unique = [...new Map(all.map(q => [q.id, q])).values()];
+  const chosen = [];
+  const selected = new Set();
+  const addTheme = tema => {
+    const next = unique.find(q => q.tema === tema && !selected.has(q.id));
+    if (!next) return;
+    selected.add(next.id);
+    chosen.push(next);
+  };
+  for (let tema = 2; tema <= 20; tema += 1) addTheme(tema);
+  for (const tema of [2,3,4,8,9,10,12,13,14,15,16]) addTheme(tema);
+  return chosen;
+}
+
 function renderHistory(progress) {
   if (!progress.attempts.length) return '<p class="empty-state">Todavía no hay ejercicios corregidos en este dispositivo.</p>';
-  return `<div class="history-summary"><div><span>Intentos</span><strong>${progress.attempts.length}</strong></div><div><span>Media</span><strong>${progress.average}%</strong></div><div><span>Mejor resultado</span><strong>${progress.best}%</strong></div></div><div class="history-list">${progress.attempts.slice(0, 8).map(item => `<article class="history-item"><div><strong>${escapeHtml(item.title)}</strong><span>${formatAttemptDate(item.completedAt)}</span></div><b>${item.notaExamen != null ? `${Number(item.notaExamen).toFixed(2).replace('.', ',')}/10` : `${item.notaDirecta != null ? `${Number(item.notaDirecta).toFixed(2).replace('.', ',')}/70 directa` : `${item.correct}/${item.total} · ${item.percentage}%`}`}</b></article>`).join('')}</div>`;
+  return `<div class="history-summary"><div><span>Intentos</span><strong>${progress.attempts.length}</strong></div><div><span>Media</span><strong>${progress.average}%</strong></div><div><span>Mejor resultado</span><strong>${progress.best}%</strong></div></div><div class="history-list">${progress.attempts.slice(0, 8).map(item => `<article class="history-item"><div><strong>${escapeHtml(item.title)}</strong><span>${formatAttemptDate(item.completedAt)}</span></div><b>${item.notaExamen != null ? `${Number(item.notaExamen).toFixed(2).replace('.', ',')}/10` : `${item.notaDirecta != null ? `${Number(item.notaDirecta).toFixed(2).replace('.', ',')}/${item.total} directa` : `${item.correct}/${item.total} · ${item.percentage}%`}`}</b></article>`).join('')}</div>`;
 }
 
 function callSelector() {
@@ -294,12 +313,14 @@ function callSelector() {
 }
 
 function renderHub() {
+  // Al volver al centro de entrenamiento, retirar parámetros de ejercicio obsoletos.
+  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(activeCall.id)}`);
   const progress = progressSummary();
   const uc3mPending = activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026'
     ? programme.temas.filter(theme => theme.estado !== 'AUDITADO').map(theme => theme.numero)
     : [];
   const uc3mAuditNote = uc3mPending.length
-    ? `<p><strong>Estado editorial UC3M: ${programme.temas.length - uc3mPending.length}/${programme.temas.length} temas AUDITADO.</strong> En revisión: ${uc3mPending.join(', ')}. Sus preguntas son entrenamiento provisional, no respuestas jurídicas certificadas. Los temas que figuran en revisión requieren comprobar las reservas documentales indicadas en sus fichas; la fecha exacta de publicación de admitidos definitivos sigue sin acreditarse.</p>`
+    ? `<p><strong>Estado editorial UC3M: ${programme.temas.length - uc3mPending.length}/${programme.temas.length} temas AUDITADO.</strong> Temas con reservas editoriales: ${uc3mPending.join(', ')}. Puedes practicar sus preguntas, pero no tomes las referencias dudosas como actualización legal definitiva. Esto no bloquea el entrenamiento previo al examen.</p>`
     : '';
   const examBanner = activeCall.id === 'la-puebla-auxiliar-administrativo-2026'
     ? '<section class="panel"><h2>La Puebla · primer ejercicio, sábado 14/11/2026</h2><p><strong>9:30 h · IES Universidad Laboral de Toledo, Avenida de Europa 28.</strong> Acude con DNI o identificación equivalente.</p><p><strong>50 preguntas titulares + 5 de reserva · 60 minutos · 4 opciones.</strong> Acierto +0,20; error −0,05; blanco 0; se exige un mínimo de 5 sobre 10. <strong>Umbral real: aciertos − 0,25 × errores ≥ 25</strong> (por ejemplo, 25 aciertos y 25 blancos = 5,00; 30 aciertos y 20 errores = 5,00). El segundo ejercicio es práctico; aprobar solo el test puede dar acceso a la bolsa, pero no significa haber superado toda la oposición.</p><p>Los simulacros de 50+5 muestran y permiten responder las reservas, pero su nota normal se calcula solo con las 50 titulares. Fuente: bases publicadas en BOP Toledo n.º 82, de 05/05/2026, base undécima, y anuncio del tribunal aportado el 02/11/2026.</p></section>'
@@ -308,7 +329,7 @@ function renderHub() {
       : activeCall.id === 'diputacion-toledo-auxiliar-c2-2026'
       ? '<section class="panel"><h2>Diputación de Toledo · Auxiliar Administrativo C2</h2><p><strong>Entrenamiento por temas del Anexo XI (20 temas).</strong> Son preguntas de preparación, no modelos de examen oficial. El tema 6 (Acuerdo Regulador y Estatutos OAPGT) permanece bloqueado en los tests porque su consolidación normativa está pendiente.</p><p><strong>Sin simulacros oficiales ni supuestos prácticos propios publicados en esta sección todavía.</strong> La convocatoria prevé dos ejercicios eliminatorios; la información sobre el examen y las bases oficiales está en la ficha de la convocatoria.</p></section>'
     : activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026'
-      ? '<section class="panel"><h2>UC3M C2 · Ejercicio único 21/11/2026</h2><p><strong>70 preguntas + 5 reservas, 60 minutos, cuatro respuestas.</strong> Puntuación directa = aciertos − errores/3; en blanco 0.</p><p><strong>La nota de corte directa la establece el tribunal.</strong> La puntuación transformada sobre 70 y la condición de aprobado no pueden deducirse de un simulacro. Los tres modelos son entrenamiento creado a partir de preguntas de OpoWeb, no exámenes oficiales. La legislación exigible es la vigente en la fecha de publicación de la resolución de admitidos definitivos y anuncio del ejercicio (base primera.7), no necesariamente el día del examen.</p>' + uc3mAuditNote + '<p>Fuente: convocatoria de 34 plazas, BOE-A-2026-14624, anexos II y III. Llamamiento oficial: <strong>sábado 21/11/2026, a las 10:00 h, Campus de Getafe</strong>. El aula y el edificio concretos se anunciarán posteriormente; comprueba tu admisión definitiva en la web UC3M.</p></section>'
+      ? '<section class="panel"><h2>UC3M C2 · Ejercicio único 21/11/2026</h2><p><strong>70 preguntas + 5 reservas, 60 minutos, cuatro respuestas.</strong> Puntuación directa = aciertos − errores/3; en blanco 0.</p><p><strong>La nota de corte directa la establece el tribunal.</strong> La puntuación transformada sobre 70 y la condición de aprobado no pueden deducirse de un simulacro. Los tres modelos son entrenamiento creado a partir de preguntas de OpoWeb, no exámenes oficiales. La legislación exigible es la vigente en la fecha de publicación de la resolución de admitidos definitivos y anuncio del ejercicio (base primera.7), no necesariamente el día del examen.</p>' + uc3mAuditNote + '<p>Fuente: convocatoria de 34 plazas, BOE-A-2026-14624, anexos II y III. Llamamiento oficial: <strong>sábado 21/11/2026, a las 10:00 h, Campus de Getafe</strong>. Consulta la resolución actualizada de distribución de aulas en el portal de empleo UC3M y confirma tu admisión y aula antes del desplazamiento.</p></section>'
       : activeCall.id === 'olias-del-rey-auxiliar-edificios-c2-2026'
         ? '<section class="panel"><h2>Olías C2 · Dos pruebas eliminatorias</h2><p><strong>Primera: 50 preguntas del temario, máximo 50 puntos, mínimo 25.</strong> <strong>Segunda: 20 preguntas psicotécnicas, máximo 50 puntos, mínimo 25.</strong> Cada error penaliza un tercio del acierto. Las dos pruebas se realizan consecutivamente el mismo día; el tribunal fijará su duración.</p><p><strong>Reserva editorial:</strong> el tema 13 (callejero municipal) continúa en revisión de la fuente primaria INE; por ello no se ofrece su banco como test ni se utiliza en los simulacros de 50+20.</p><p>Los simulacros de 50+20 son <strong>entrenamiento propio de OpoWeb, no exámenes oficiales</strong>. Se califican las dos pruebas por separado, con mínimo 25/50 en cada una. Fuente: BOP Toledo n.º 204 de 23/10/2026, anuncio 4833, bases y anexo II.</p></section>'
         : '';
@@ -320,6 +341,8 @@ function renderHub() {
     ${examBanner}
     <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div>${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div>${renderHistory(progress)}</section>
     <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; const count = [...questionMap.values()].filter(q => q.tema === theme.numero).length; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}" ${count ? '' : 'disabled aria-disabled="true"'}><span class="badge">${count ? `${count} preguntas · ${escapeHtml(score)}${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? (theme.estado === 'AUDITADO' ? ' · AUDITADO documental' : ' · EN REVISIÓN jurídica') : ''}` : 'Preguntas en revisión jurídica'}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
+    ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Itinerario específico · 24 apartados de repaso</h2><p>Mapa de los apartados que no tenían preguntas históricas en sus matrices. Reutiliza bancos complementarios sin duplicar los ítems ni contarlos como oficiales.</p><a class="btn secondary" href="uc3m-24-bloques.html">Abrir los 24 apartados y sus repasos</a></section>' : ''}
+    ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Repaso exprés · antes del examen</h2><p><strong>30 preguntas en 30 minutos</strong>, desde los temas 2 a 20, con penalización de <strong>−1/3</strong> por error. Es un entrenamiento original que reutiliza bancos existentes, no un examen oficial ni una predicción de nota de corte.</p><button type="button" class="btn" id="uc3m-quick-review">Empezar repaso exprés (30 min)</button></section>' : ''}
     ${renderExtraRepasos()}
     ${supuestos.supuestos.length ? `<section class="panel"><h2>Supuestos prácticos</h2><p class="search-count">Casos transversales con solución razonada y trazabilidad.</p><div class="practice-grid">${[...testCases, ...openCases].map(item => `<button class="practice-card" type="button" data-case="${item.id}"><span class="badge">Temas ${(item.temas || []).join(', ')}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join('')}</div></section>` : ''}
     ${practicalModels.length ? `<section class="panel" id="simulacros-practicos"><h2>Simulacros prácticos · segundo ejercicio</h2><p class="search-count">Casos originales de desarrollo con soluciones orientativas. Formato y duración definitivos pendientes del Tribunal. Sin nota automática para respuestas abiertas.</p><div class="practice-grid">${practicalModels.map(item => `<button class="practice-card" type="button" data-practical-sim="${escapeHtml(item.id)}"><span class="badge">${item.cuestiones.length} apartados · ${item.tiempoSugeridoMinutos} min sugeridos (no oficiales)</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join("")}</div></section>` : ""}
@@ -340,9 +363,24 @@ function renderHub() {
     }
   });
   document.querySelectorAll('[data-theme-test]').forEach(button => button.addEventListener('click', () => startThemeTest(Number(button.dataset.themeTest))));
+  document.querySelector('#uc3m-quick-review')?.addEventListener('click', () => {
+    const questions = buildUC3MQuickReview();
+    if (questions.length !== 30) {
+      const message = document.createElement('p');
+      message.className = 'notice';
+      message.setAttribute('role', 'status');
+      message.textContent = 'El repaso exprés necesita los 30 ítems previstos; usa mientras tanto los repasos complementarios o los simulacros.';
+      document.querySelector('#uc3m-quick-review')?.after(message);
+      return;
+    }
+    renderExercise(questions, 'UC3M · Repaso exprés 30 preguntas / 30 minutos', 'UC3M-REPASO-EXPRES-30', 'repaso-final-uc3m', 30);
+  });
   document.querySelectorAll('[data-extra-repaso]').forEach(button => button.addEventListener('click', () => {
     const pack = extraRepasos.find(item => item.id === button.dataset.extraRepaso);
-    if (pack) renderExercise(pack.preguntas, pack.titulo, pack.id, 'repaso');
+    if (pack) {
+      history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(activeCall.id)}&repaso=${encodeURIComponent(pack.id)}`);
+      renderExercise(pack.preguntas, pack.titulo, pack.id, 'repaso');
+    }
   }));
   document.querySelectorAll('[data-case]').forEach(button => button.addEventListener('click', () => {
     const selected = supuestos.supuestos.find(item => item.id === button.dataset.case);
@@ -457,6 +495,7 @@ function finishExercise(items, timerId, metadata) {
     : null;
   const officialExam = examFormat === 'EXAMEN_LA_PUEBLA_2026';
   const uc3mExam = examFormat === 'EXAMEN_UC3M_2026';
+  const uc3mQuick = metadata.type === 'repaso-final-uc3m';
   const oliaExam = examFormat === 'EXAMEN_OLIAS_2026' && primaryCount === 70 && items.length === 70;
   const oliaPart = (from, to, weight) => {
     const subset = results.slice(from, to);
@@ -471,19 +510,19 @@ function finishExercise(items, timerId, metadata) {
   // Solo modelo La Puebla: +0,20/acierto, -0,05/error, 0/en blanco; reservas fuera de la nota.
   const examGrade = officialExam ? Number(Math.max(0, correct * 0.2 - errors * 0.05).toFixed(2)) : null;
   // UC3M: nota DIRECTA A-E/3; no declarar APTO ni inferir transformación, su corte lo fija el tribunal.
-  const directScore = uc3mExam ? Number((correct - errors / 3).toFixed(2)) : null;
+  const directScore = (uc3mExam || uc3mQuick) ? Number((correct - errors / 3).toFixed(2)) : null;
   const completedAt = new Date().toISOString();
   saveAttempt({ id: metadata.exerciseId, type: metadata.type, title: metadata.title, correct, answered, total: primaryCount, percentage, notaExamen: examGrade, notaDirecta: directScore, notaOliasTeoria: theory?.score, notaOliasPsico: psych?.score, completedAt }, results);
   const result = document.createElement('section');
   result.className = 'panel result-panel';
-  result.innerHTML = `<h2>${officialExam ? `La Puebla · primer ejercicio (simulacro): ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'MÍNIMO DEL TEST SUPERADO' : 'MÍNIMO DEL TEST NO SUPERADO'}` : uc3mExam ? `Puntuación directa UC3M: ${directScore.toFixed(2).replace('.', ',')}/70 · corte pendiente del tribunal` : oliaExam ? `Olías C2: teoría ${theory.score.toFixed(2).replace('.', ',')}/50 · psicotécnico ${psych.score.toFixed(2).replace('.', ',')}/50 · ${oliaPass ? 'SUPERADOS ambos mínimos de entrenamiento' : 'NO superados ambos mínimos de entrenamiento'}` : `Resultado: ${correct}/${primaryCount} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota. Esta calificación no supone superar la oposición completa ni obtener plaza; la bolsa exige aprobar al menos el primer ejercicio.' : uc3mExam ? ' UC3M: puntuación directa = aciertos − errores/3. La calificación transformada y la superación dependen del corte que determine el tribunal; este simulacro NO declara APTO. Las reservas no puntúan salvo anulaciones oficiales.' : oliaExam ? ` Olías: teoría ${theory.hits} aciertos, ${theory.misses} errores y ${theory.blank} en blanco; psicotécnico ${psych.hits} aciertos, ${psych.misses} errores y ${psych.blank} en blanco. Aciertos menos un tercio por error, cada parte sobre 50 puntos; entrenamiento no determina el aprobado oficial.` : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
+  result.innerHTML = `<h2>${officialExam ? `La Puebla · primer ejercicio (simulacro): ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'MÍNIMO DEL TEST SUPERADO' : 'MÍNIMO DEL TEST NO SUPERADO'}` : uc3mExam ? `Puntuación directa UC3M: ${directScore.toFixed(2).replace('.', ',')}/70 · corte pendiente del tribunal` : uc3mQuick ? `Repaso exprés UC3M: ${directScore.toFixed(2).replace('.', ',')}/${primaryCount} puntos directos · entrenamiento` : oliaExam ? `Olías C2: teoría ${theory.score.toFixed(2).replace('.', ',')}/50 · psicotécnico ${psych.score.toFixed(2).replace('.', ',')}/50 · ${oliaPass ? 'SUPERADOS ambos mínimos de entrenamiento' : 'NO superados ambos mínimos de entrenamiento'}` : `Resultado: ${correct}/${primaryCount} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota. Esta calificación no supone superar la oposición completa ni obtener plaza; la bolsa exige aprobar al menos el primer ejercicio.' : uc3mExam ? ' UC3M: puntuación directa = aciertos − errores/3. La calificación transformada y la superación dependen del corte que determine el tribunal; este simulacro NO declara APTO. Las reservas no puntúan salvo anulaciones oficiales.' : uc3mQuick ? ' Repaso exprés: aciertos − errores/3. Resultado solo orientativo, sin corte de aprobado ni certificación jurídica integral.' : oliaExam ? ` Olías: teoría ${theory.hits} aciertos, ${theory.misses} errores y ${theory.blank} en blanco; psicotécnico ${psych.hits} aciertos, ${psych.misses} errores y ${psych.blank} en blanco. Aciertos menos un tercio por error, cada parte sobre 50 puntos; entrenamiento no determina el aprobado oficial.` : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
   document.querySelector('#exercise-form').prepend(result);
   document.querySelector('#finish').disabled = true;
   document.querySelector('#finish').textContent = 'Corregido';
   scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-async function loadCall(id, requestedTheme = null) {
+async function loadCall(id, requestedTheme = null, requestedRepaso = null, requestedRepasoTema = null) {
   const requestId = ++latestCallLoad;
   const call = CALLS.find(candidate => candidate.id === id) || CALLS[0];
   activeCall = call;
@@ -493,7 +532,11 @@ async function loadCall(id, requestedTheme = null) {
   const parsedTheme = requestedTheme === null || requestedTheme === '' ? null : Number(requestedTheme);
   const selectedTheme = Number.isInteger(parsedTheme) && parsedTheme >= 1 && parsedTheme <= call.themeCount ? parsedTheme : null;
   const themeQuery = selectedTheme === null ? '' : `&tema=${selectedTheme}`;
-  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(call.id)}${themeQuery}`);
+  // Conservar la URL de un repaso profundo al refrescar o compartir el enlace.
+  const repasoQuery = selectedTheme === null && call.id === 'uc3m-auxiliar-administrativa-c2-2026' && requestedRepaso
+    ? `&repaso=${encodeURIComponent(requestedRepaso)}${requestedRepasoTema ? `&temaRepaso=${encodeURIComponent(requestedRepasoTema)}` : ''}`
+    : '';
+  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(call.id)}${themeQuery}${repasoQuery}`);
   document.title = `OpoWeb v2 · Práctica · ${call.shortLabel}`;
   app.innerHTML = '<section class="panel intro"><h2>Cargando entrenamiento…</h2></section>';
   const [programmeResponse, supuestosResponse, simulacrosResponse, banks] = await Promise.all([
@@ -521,14 +564,37 @@ async function loadCall(id, requestedTheme = null) {
   extraRepasos = loadedRepasos.packs;
   extraRepasoErrors = loadedRepasos.errors;
   if (selectedTheme !== null) startThemeTest(selectedTheme);
-  else renderHub();
+  else if (requestedRepaso !== null) {
+    const requestedPack = extraRepasos.find(pack => pack.id === requestedRepaso);
+    if (requestedPack) {
+      const filterTema = requestedRepasoTema === null || requestedRepasoTema === '' ? null : Number(requestedRepasoTema);
+      const validFilter = Number.isInteger(filterTema) && filterTema >= 1 && filterTema <= call.themeCount;
+      const selectedQuestions = validFilter
+        ? requestedPack.preguntas.filter(question => question.tema === filterTema)
+        : requestedPack.preguntas;
+      if (selectedQuestions.length) {
+        renderExercise(
+          selectedQuestions,
+          validFilter ? requestedPack.titulo + ' · Tema ' + filterTema : requestedPack.titulo,
+          validFilter ? requestedPack.id + '-T' + String(filterTema).padStart(2, '0') : requestedPack.id,
+          'repaso'
+        );
+      } else {
+        renderHub();
+        const warning = document.createElement('p');
+        warning.className = 'notice';
+        warning.textContent = 'Este paquete no contiene preguntas del tema solicitado; puedes usar el repaso completo desde el centro de entrenamiento.';
+        app.querySelector('.panel.intro')?.after(warning);
+      }
+    } else renderHub();
+  } else renderHub();
 }
 
 async function boot() {
   initTheme();
   try {
     const params = new URLSearchParams(location.search);
-    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id, params.get('tema'));
+    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id, params.get('tema'), params.get('repaso'), params.get('temaRepaso'));
   } catch (error) {
     app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
   }
