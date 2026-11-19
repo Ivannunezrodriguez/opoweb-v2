@@ -321,9 +321,9 @@
         },
         {
           "id": "QA-03",
-          "title": "CI HEAD verificado para publicación y plan; regresiones completas de puntuación aún pendientes",
-          "state": "PARCIAL",
-          "acceptance": "Verificar Actions del HEAD; comprobar +0,20/-0,05, reservas, cambios de convocatoria, persistencia, y esquemas correcta/respuestaCorrecta con casos de borde.",
+          "title": "Corrección real e integridad CI: UC3M, La Puebla, Olías, reservas e historial",
+          "state": "HECHO",
+          "acceptance": "CI SUCCESS en HEAD con 11 escenarios de corrección real de UC3M/exprés, La Puebla y Olías; penalizaciones, blancos, reservas, mínimos, historial aislado, claves correcta/respuestaCorrecta, sin duplicar intentos; pruebas de exportación públicas y privadas. E2E navegador independiente QA-02 y OPS-04.",
           "evidencePaths": [
             "plan.html"
           ],
@@ -331,12 +331,15 @@
             "Añadida prueba automática estructural y de rutas para itinerario UC3M",
             "Workflow exportación 44541961393: completed/success en commit 5a5241adce49e85cd994a95c82b901036c87a9e0",
             "Workflow publicación 44541961098: completed/success, build y sincronización site/main correctos",
-            "Validador incorporado: estados, premisas, rutas de evidencia y carpetas; CI ejecutado y superado"
+            "Validador incorporado: estados, premisas, rutas de evidencia y carpetas; CI ejecutado y superado",
+            "11 escenarios del corrector REAL publicados en tests/validate-practice-scoring-20261119.mjs, incluidas notas negativas, reservas, blancos, mínimos y doble corrección.",
+            "Normalización real de preguntas: correcta=0 prevalece sobre respuestaCorrecta y ambos esquemas conservan su clave.",
+            "Regresiones existentes de La Puebla, Olías e historial por convocatoria activas en CI de validación y publicación.",
+            "Workflow 44554107001 completed/success y publicación 44554106609 completed/success sobre b29d5862c370c04cb40abe34a44bcd095409c023.",
+            "Informe CI como artefacto, no commit automático; corregida carrera de git push detectada en run 44553594907 y confirmada corrección en run 44553799642."
           ],
-          "remainingSubsteps": [
-            "Completar pruebas de puntuación para todas las convocatorias, incluidas reservas y errores",
-            "Pruebas E2E en navegador móvil/escritorio, progreso e interacción real"
-          ]
+          "remainingSubsteps": [],
+          "note": "HECHO solo test automatizado CI de cálculo e historial. QA-02 aún exige interacción móvil/escritorio en navegador; no confundir ejecución con E2E."
         },
         {
           "id": "QA-04",
@@ -429,7 +432,8 @@
             "plan.html y uc3m-24-bloques.html y JSON público verificados mediante API de GitHub",
             "Proyección del plan elimina privateInventory y reporta publicReadOnly=true",
             "Publicado exitosamente commit 5a5241adce49e85cd994a95c82b901036c87a9e0 en Actions 44541961098",
-            "Nueva prueba de exportación completada SUCCESS en Actions 44541961393"
+            "Nueva prueba de exportación completada SUCCESS en Actions 44541961393",
+            "Validación y publicación 44554107001/44554106609 completadas con success. Sin escrituras de informes a main."
           ],
           "remainingSubsteps": [
             "Probar navegador real: tablero y repaso UC3M con respuestas, resultados e historial en desktop/móvil",
@@ -616,23 +620,46 @@
     ],
     "latestVerifiedCI": {
       "date": "2026-11-19",
-      "sourceCommit": "5a5241adce49e85cd994a95c82b901036c87a9e0",
+      "sourceCommit": "b29d5862c370c04cb40abe34a44bcd095409c023",
       "publish": {
-        "runId": 44541961098,
+        "runId": 44554106609,
         "status": "completed",
         "conclusion": "success"
       },
       "validation": {
-        "runId": 44541961393,
+        "runId": 44554107001,
         "status": "completed",
         "conclusion": "success"
       },
-      "scope": "Validación de código, construcción de salida, exportación y rutas documentales. No equivale a E2E de navegador ni revisión jurídica integral."
+      "scope": "Puntuación de simulacros, reserva, historial y esquema de respuestas comprobados en CI; E2E real pendiente."
     },
     "lastQualityImprovement": {
       "id": "PLAN-EVIDENCE-DIRECTORY",
       "result": "Corregidos enlaces GitHub para directorios y añadido test de integridad y premisas del plan",
       "commit": "5a5241adce49e85cd994a95c82b901036c87a9e0"
+    },
+    "scoringAudit": {
+      "date": "2026-11-19",
+      "sourceCommit": "b29d5862c370c04cb40abe34a44bcd095409c023",
+      "checks": [
+        "UC3M 70+5 notas y reserva, sin APTO automático",
+        "UC3M 30 exprés notas negativas y penalización A−E/3",
+        "La Puebla 50+5, +0.20/-0.05 y mínimo 5",
+        "Olías teoría y psicotécnico independientes",
+        "Pruebas en blanco, reserva, resultado duplicado y localStorage aislado",
+        "normaliseQuestion correcta/respuestaCorrecta"
+      ],
+      "validationRun": 44554107001,
+      "publishRun": 44554106609,
+      "conclusion": "success",
+      "scope": "Tests automatizados sobre función real sin navegador; E2E QA-02 pendiente"
+    },
+    "ciRaceFix": {
+      "date": "2026-11-19",
+      "failedRun": 44553594907,
+      "rootCause": "push concurrente del reporte de validación desde varias Actions, después de tests satisfactorios",
+      "fix": "workflow validate-public-export ahora usa permisos contents:read, no hace git push y sube ops/public-export-validation.json como artifact",
+      "successRun": 44553799642
     }
   },
   "completedMilestones": [
