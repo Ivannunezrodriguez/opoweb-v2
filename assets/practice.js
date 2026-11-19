@@ -320,6 +320,7 @@ function renderHub() {
     ${examBanner}
     <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div>${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div>${renderHistory(progress)}</section>
     <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; const count = [...questionMap.values()].filter(q => q.tema === theme.numero).length; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}" ${count ? '' : 'disabled aria-disabled="true"'}><span class="badge">${count ? `${count} preguntas · ${escapeHtml(score)}${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? (theme.estado === 'AUDITADO' ? ' · AUDITADO documental' : ' · EN REVISIÓN jurídica') : ''}` : 'Preguntas en revisión jurídica'}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
+    ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Itinerario específico · 24 apartados de repaso</h2><p>Mapa de los apartados que no tenían preguntas históricas en sus matrices. Reutiliza bancos complementarios sin duplicar los ítems ni contarlos como oficiales.</p><a class="btn secondary" href="uc3m-24-bloques.html">Abrir los 24 apartados y sus repasos</a></section>' : ''}
     ${renderExtraRepasos()}
     ${supuestos.supuestos.length ? `<section class="panel"><h2>Supuestos prácticos</h2><p class="search-count">Casos transversales con solución razonada y trazabilidad.</p><div class="practice-grid">${[...testCases, ...openCases].map(item => `<button class="practice-card" type="button" data-case="${item.id}"><span class="badge">Temas ${(item.temas || []).join(', ')}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join('')}</div></section>` : ''}
     ${practicalModels.length ? `<section class="panel" id="simulacros-practicos"><h2>Simulacros prácticos · segundo ejercicio</h2><p class="search-count">Casos originales de desarrollo con soluciones orientativas. Formato y duración definitivos pendientes del Tribunal. Sin nota automática para respuestas abiertas.</p><div class="practice-grid">${practicalModels.map(item => `<button class="practice-card" type="button" data-practical-sim="${escapeHtml(item.id)}"><span class="badge">${item.cuestiones.length} apartados · ${item.tiempoSugeridoMinutos} min sugeridos (no oficiales)</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join("")}</div></section>` : ""}
@@ -483,7 +484,7 @@ function finishExercise(items, timerId, metadata) {
   scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-async function loadCall(id, requestedTheme = null) {
+async function loadCall(id, requestedTheme = null, requestedRepaso = null) {
   const requestId = ++latestCallLoad;
   const call = CALLS.find(candidate => candidate.id === id) || CALLS[0];
   activeCall = call;
@@ -521,14 +522,18 @@ async function loadCall(id, requestedTheme = null) {
   extraRepasos = loadedRepasos.packs;
   extraRepasoErrors = loadedRepasos.errors;
   if (selectedTheme !== null) startThemeTest(selectedTheme);
-  else renderHub();
+  else if (requestedRepaso !== null) {
+    const requestedPack = extraRepasos.find(pack => pack.id === requestedRepaso);
+    if (requestedPack) renderExercise(requestedPack.preguntas, requestedPack.titulo, requestedPack.id, 'repaso');
+    else renderHub();
+  } else renderHub();
 }
 
 async function boot() {
   initTheme();
   try {
     const params = new URLSearchParams(location.search);
-    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id, params.get('tema'));
+    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id, params.get('tema'), params.get('repaso'));
   } catch (error) {
     app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
   }
