@@ -76,18 +76,25 @@
       "nombre": "La Puebla de Montalbán · Auxiliar Administrativo C2",
       "plazas": 4,
       "plazasTurnoLibre": null,
-      "subgrupo": null,
-      "regimen": null,
+      "subgrupo": "C2",
+      "regimen": "FUNCIONARIO_CARRERA",
       "sistema": "CONCURSO_OPOSICION_LIBRE",
       "expediente": null,
-      "titulacion": null,
+      "titulacion": "Graduado en Educación Secundaria Obligatoria",
       "permisoConducir": null,
-      "tasa": null,
-      "ponderacion": null,
+      "tasa": 7,
+      "ponderacion": {
+        "oposicion": "80 %",
+        "concurso": "20 %"
+      },
       "publicacionBOE": null,
-      "publicacionBOP": null,
+      "publicacionBOP": {
+        "fecha": "2026-05-05",
+        "numero": 82,
+        "anuncio": "2026/1965"
+      },
       "plazoSolicitudes": {
-        "estado": null,
+        "estado": "CERRADO",
         "regla": null,
         "advertencia": null,
         "hasta": null,
@@ -96,6 +103,18 @@
         "fechaTeoricaBOE": null,
         "bop": null,
         "boe": null
+      },
+      "seguimientoExamen": {
+        "estado": "PRIMER_EJERCICIO_REALIZADO",
+        "plantillaOficial": "PENDIENTE_DE_VERIFICACION",
+        "alegaciones": "5 días hábiles desde el siguiente a la publicación de la plantilla provisional, no desde el examen",
+        "examenRealUrl": "content/la-puebla/examen-real-2026.html",
+        "incidencias": [
+          {
+            "pregunta": 26,
+            "motivo": "Opciones A y C amparadas por artículo 21.1 g) y q) de Ley 7/1985; posible impugnación"
+          }
+        ]
       }
     },
     {
