@@ -284,9 +284,28 @@ function renderExtraRepasos() {
     '<div class="practice-grid">' + cards + '</div>' + warning + '</section>';
 }
 
+function buildUC3MQuickReview() {
+  // Repaso breve a partir de preguntas YA publicadas: no crea ni aumenta bancos.
+  // 19 temas (T2–T20) con una pregunta de cada uno; el resto refuerza plazos,
+  // órganos, ofimática, universidades y presupuestos sin duplicar IDs.
+  const all = extraRepasos.flatMap(pack => pack.preguntas);
+  const unique = [...new Map(all.map(q => [q.id, q])).values()];
+  const chosen = [];
+  const selected = new Set();
+  const addTheme = tema => {
+    const next = unique.find(q => q.tema === tema && !selected.has(q.id));
+    if (!next) return;
+    selected.add(next.id);
+    chosen.push(next);
+  };
+  for (let tema = 2; tema <= 20; tema += 1) addTheme(tema);
+  for (const tema of [2,3,4,8,9,10,12,13,14,15,16]) addTheme(tema);
+  return chosen;
+}
+
 function renderHistory(progress) {
   if (!progress.attempts.length) return '<p class="empty-state">Todavía no hay ejercicios corregidos en este dispositivo.</p>';
-  return `<div class="history-summary"><div><span>Intentos</span><strong>${progress.attempts.length}</strong></div><div><span>Media</span><strong>${progress.average}%</strong></div><div><span>Mejor resultado</span><strong>${progress.best}%</strong></div></div><div class="history-list">${progress.attempts.slice(0, 8).map(item => `<article class="history-item"><div><strong>${escapeHtml(item.title)}</strong><span>${formatAttemptDate(item.completedAt)}</span></div><b>${item.notaExamen != null ? `${Number(item.notaExamen).toFixed(2).replace('.', ',')}/10` : `${item.notaDirecta != null ? `${Number(item.notaDirecta).toFixed(2).replace('.', ',')}/70 directa` : `${item.correct}/${item.total} · ${item.percentage}%`}`}</b></article>`).join('')}</div>`;
+  return `<div class="history-summary"><div><span>Intentos</span><strong>${progress.attempts.length}</strong></div><div><span>Media</span><strong>${progress.average}%</strong></div><div><span>Mejor resultado</span><strong>${progress.best}%</strong></div></div><div class="history-list">${progress.attempts.slice(0, 8).map(item => `<article class="history-item"><div><strong>${escapeHtml(item.title)}</strong><span>${formatAttemptDate(item.completedAt)}</span></div><b>${item.notaExamen != null ? `${Number(item.notaExamen).toFixed(2).replace('.', ',')}/10` : `${item.notaDirecta != null ? `${Number(item.notaDirecta).toFixed(2).replace('.', ',')}/${item.total} directa` : `${item.correct}/${item.total} · ${item.percentage}%`}`}</b></article>`).join('')}</div>`;
 }
 
 function callSelector() {
@@ -323,6 +342,7 @@ function renderHub() {
     <section class="panel"><div class="section-heading"><div><h2>Mi progreso</h2><p class="search-count">Se guarda únicamente en este navegador y por convocatoria.</p></div>${progress.attempts.length ? '<button id="reset-progress" class="btn secondary" type="button">Borrar historial</button>' : ''}</div>${renderHistory(progress)}</section>
     <section class="panel"><h2>Test por tema</h2><p class="search-count">Preguntas disponibles por tema de los ${activeCall.themeCount} temas.</p><div class="practice-grid">${programme.temas.map(theme => { const stat = progress.themeStats[String(theme.numero)]; const score = stat?.answered ? `${Math.round((stat.correct / stat.answered) * 100)}% acumulado` : 'Sin intentos'; const count = [...questionMap.values()].filter(q => q.tema === theme.numero).length; return `<button class="practice-card" type="button" data-theme-test="${theme.numero}" ${count ? '' : 'disabled aria-disabled="true"'}><span class="badge">${count ? `${count} preguntas · ${escapeHtml(score)}${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? (theme.estado === 'AUDITADO' ? ' · AUDITADO documental' : ' · EN REVISIÓN jurídica') : ''}` : 'Preguntas en revisión jurídica'}</span><h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`; }).join('')}</div></section>
     ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Itinerario específico · 24 apartados de repaso</h2><p>Mapa de los apartados que no tenían preguntas históricas en sus matrices. Reutiliza bancos complementarios sin duplicar los ítems ni contarlos como oficiales.</p><a class="btn secondary" href="uc3m-24-bloques.html">Abrir los 24 apartados y sus repasos</a></section>' : ''}
+    ${activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026' ? '<section class="panel"><h2>Repaso exprés · antes del examen</h2><p><strong>30 preguntas en 30 minutos</strong>, desde los temas 2 a 20, con penalización de <strong>−1/3</strong> por error. Es un entrenamiento original que reutiliza bancos existentes, no un examen oficial ni una predicción de nota de corte.</p><button type="button" class="btn" id="uc3m-quick-review">Empezar repaso exprés (30 min)</button></section>' : ''}
     ${renderExtraRepasos()}
     ${supuestos.supuestos.length ? `<section class="panel"><h2>Supuestos prácticos</h2><p class="search-count">Casos transversales con solución razonada y trazabilidad.</p><div class="practice-grid">${[...testCases, ...openCases].map(item => `<button class="practice-card" type="button" data-case="${item.id}"><span class="badge">Temas ${(item.temas || []).join(', ')}</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join('')}</div></section>` : ''}
     ${practicalModels.length ? `<section class="panel" id="simulacros-practicos"><h2>Simulacros prácticos · segundo ejercicio</h2><p class="search-count">Casos originales de desarrollo con soluciones orientativas. Formato y duración definitivos pendientes del Tribunal. Sin nota automática para respuestas abiertas.</p><div class="practice-grid">${practicalModels.map(item => `<button class="practice-card" type="button" data-practical-sim="${escapeHtml(item.id)}"><span class="badge">${item.cuestiones.length} apartados · ${item.tiempoSugeridoMinutos} min sugeridos (no oficiales)</span><h3>${escapeHtml(item.titulo)}</h3><p>${escapeHtml(item.enunciado)}</p></button>`).join("")}</div></section>` : ""}
@@ -343,6 +363,18 @@ function renderHub() {
     }
   });
   document.querySelectorAll('[data-theme-test]').forEach(button => button.addEventListener('click', () => startThemeTest(Number(button.dataset.themeTest))));
+  document.querySelector('#uc3m-quick-review')?.addEventListener('click', () => {
+    const questions = buildUC3MQuickReview();
+    if (questions.length !== 30) {
+      const message = document.createElement('p');
+      message.className = 'notice';
+      message.setAttribute('role', 'status');
+      message.textContent = 'El repaso exprés necesita los 30 ítems previstos; usa mientras tanto los repasos complementarios o los simulacros.';
+      document.querySelector('#uc3m-quick-review')?.after(message);
+      return;
+    }
+    renderExercise(questions, 'UC3M · Repaso exprés 30 preguntas / 30 minutos', 'UC3M-REPASO-EXPRES-30', 'repaso-final-uc3m', 30);
+  });
   document.querySelectorAll('[data-extra-repaso]').forEach(button => button.addEventListener('click', () => {
     const pack = extraRepasos.find(item => item.id === button.dataset.extraRepaso);
     if (pack) {
@@ -463,6 +495,7 @@ function finishExercise(items, timerId, metadata) {
     : null;
   const officialExam = examFormat === 'EXAMEN_LA_PUEBLA_2026';
   const uc3mExam = examFormat === 'EXAMEN_UC3M_2026';
+  const uc3mQuick = metadata.type === 'repaso-final-uc3m';
   const oliaExam = examFormat === 'EXAMEN_OLIAS_2026' && primaryCount === 70 && items.length === 70;
   const oliaPart = (from, to, weight) => {
     const subset = results.slice(from, to);
@@ -477,12 +510,12 @@ function finishExercise(items, timerId, metadata) {
   // Solo modelo La Puebla: +0,20/acierto, -0,05/error, 0/en blanco; reservas fuera de la nota.
   const examGrade = officialExam ? Number(Math.max(0, correct * 0.2 - errors * 0.05).toFixed(2)) : null;
   // UC3M: nota DIRECTA A-E/3; no declarar APTO ni inferir transformación, su corte lo fija el tribunal.
-  const directScore = uc3mExam ? Number((correct - errors / 3).toFixed(2)) : null;
+  const directScore = (uc3mExam || uc3mQuick) ? Number((correct - errors / 3).toFixed(2)) : null;
   const completedAt = new Date().toISOString();
   saveAttempt({ id: metadata.exerciseId, type: metadata.type, title: metadata.title, correct, answered, total: primaryCount, percentage, notaExamen: examGrade, notaDirecta: directScore, notaOliasTeoria: theory?.score, notaOliasPsico: psych?.score, completedAt }, results);
   const result = document.createElement('section');
   result.className = 'panel result-panel';
-  result.innerHTML = `<h2>${officialExam ? `La Puebla · primer ejercicio (simulacro): ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'MÍNIMO DEL TEST SUPERADO' : 'MÍNIMO DEL TEST NO SUPERADO'}` : uc3mExam ? `Puntuación directa UC3M: ${directScore.toFixed(2).replace('.', ',')}/70 · corte pendiente del tribunal` : oliaExam ? `Olías C2: teoría ${theory.score.toFixed(2).replace('.', ',')}/50 · psicotécnico ${psych.score.toFixed(2).replace('.', ',')}/50 · ${oliaPass ? 'SUPERADOS ambos mínimos de entrenamiento' : 'NO superados ambos mínimos de entrenamiento'}` : `Resultado: ${correct}/${primaryCount} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota. Esta calificación no supone superar la oposición completa ni obtener plaza; la bolsa exige aprobar al menos el primer ejercicio.' : uc3mExam ? ' UC3M: puntuación directa = aciertos − errores/3. La calificación transformada y la superación dependen del corte que determine el tribunal; este simulacro NO declara APTO. Las reservas no puntúan salvo anulaciones oficiales.' : oliaExam ? ` Olías: teoría ${theory.hits} aciertos, ${theory.misses} errores y ${theory.blank} en blanco; psicotécnico ${psych.hits} aciertos, ${psych.misses} errores y ${psych.blank} en blanco. Aciertos menos un tercio por error, cada parte sobre 50 puntos; entrenamiento no determina el aprobado oficial.` : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
+  result.innerHTML = `<h2>${officialExam ? `La Puebla · primer ejercicio (simulacro): ${examGrade.toFixed(2).replace('.', ',')}/10 · ${examGrade >= 5 ? 'MÍNIMO DEL TEST SUPERADO' : 'MÍNIMO DEL TEST NO SUPERADO'}` : uc3mExam ? `Puntuación directa UC3M: ${directScore.toFixed(2).replace('.', ',')}/70 · corte pendiente del tribunal` : uc3mQuick ? `Repaso exprés UC3M: ${directScore.toFixed(2).replace('.', ',')}/${primaryCount} puntos directos · entrenamiento` : oliaExam ? `Olías C2: teoría ${theory.score.toFixed(2).replace('.', ',')}/50 · psicotécnico ${psych.score.toFixed(2).replace('.', ',')}/50 · ${oliaPass ? 'SUPERADOS ambos mínimos de entrenamiento' : 'NO superados ambos mínimos de entrenamiento'}` : `Resultado: ${correct}/${primaryCount} · ${percentage}%`}</h2><p>Aciertos: ${correct}. Errores: ${errors}. En blanco: ${primaryCount - answered}.${officialExam ? ' Criterio: +0,20 por acierto, -0,05 por error, 0 en blanco. Las 5 reservas están excluidas de esta nota. Esta calificación no supone superar la oposición completa ni obtener plaza; la bolsa exige aprobar al menos el primer ejercicio.' : uc3mExam ? ' UC3M: puntuación directa = aciertos − errores/3. La calificación transformada y la superación dependen del corte que determine el tribunal; este simulacro NO declara APTO. Las reservas no puntúan salvo anulaciones oficiales.' : uc3mQuick ? ' Repaso exprés: aciertos − errores/3. Resultado solo orientativo, sin corte de aprobado ni certificación jurídica integral.' : oliaExam ? ` Olías: teoría ${theory.hits} aciertos, ${theory.misses} errores y ${theory.blank} en blanco; psicotécnico ${psych.hits} aciertos, ${psych.misses} errores y ${psych.blank} en blanco. Aciertos menos un tercio por error, cada parte sobre 50 puntos; entrenamiento no determina el aprobado oficial.` : ''}${items.length > primaryCount ? ` Reservas respondidas: ${reserveAnswered}/${items.length - primaryCount}; reservas acertadas: ${reserveCorrect}/${items.length - primaryCount}.` : ''} Resultado guardado en este dispositivo.</p><div class="score-bar" aria-label="Porcentaje de aciertos"><span style="width:${percentage}%"></span></div>`;
   document.querySelector('#exercise-form').prepend(result);
   document.querySelector('#finish').disabled = true;
   document.querySelector('#finish').textContent = 'Corregido';
