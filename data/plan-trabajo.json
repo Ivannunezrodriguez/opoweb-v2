@@ -372,28 +372,53 @@
         },
         {
           "id": "OPS-02",
-          "title": "Migrar cambios public-only al origen privado y evitar su borrado al publicar",
-          "state": "EN_CURSO",
-          "acceptance": "Importar visor/itinerario UC3M/plan, motor JS y navegación, ampliar allowlist y validadores; publicar con controles de privacidad y confirmar site/main.",
-          "evidencePaths": [],
-          "blocker": "La rama pública lleva 9 rutas exclusivas y 6 divergentes; una exportación privada sin reconciliar las eliminaría."
+          "title": "Recuperar cambios public-only al origen privado y protegerlos en publicación filtrada",
+          "state": "HECHO",
+          "acceptance": "Los recursos funcionales (plan, visor examen, 24 apartados, script, guía, navegación) se han restaurado desde commit d5dcee..., incorporado al privado y exportador allowlist actualizado. Ambas ramas públicas main/site contienen los mismos blobs en la verificación del 19/11.",
+          "evidencePaths": [
+            "plan.html",
+            "uc3m-24-bloques.html",
+            "content/la-puebla/examen-real-2026.html"
+          ],
+          "blocker": null,
+          "completedSubsteps": [
+            "Rescatados diez recursos desde commit histórico d5dcee246d1f092937cbb02fe478a200750f12da",
+            "Integrados archivos públicos divergentes en opoweb-dev/main",
+            "Exportador privado permite plan.html y uc3m-24-bloques.html y publica plan filtrado",
+            "Verificada igualdad completa de archivos públicos main/site por SHA"
+          ]
         },
         {
           "id": "OPS-03",
-          "title": "Mantener un único registro fuente y publicar proyección sin datos privados",
-          "state": "EN_CURSO",
-          "acceptance": "Plan maestro en privado y UI cargando copia sanitizada de origen; documentos previos solo históricos; estados y recuentos coherentes tras exportación.",
+          "title": "Plan de tareas único editable en el origen privado y proyección pública filtrada",
+          "state": "HECHO",
+          "acceptance": "Un solo archivo editable opoweb-dev/data/plan-trabajo.json, estados HECHO/PARCIAL/EN_CURSO/PENDIENTE/BLOQUEADA, 34 IDs únicos, inventario SHA, hitos y criterios; exportación elimina inventario interno, tablero público lee proyección; documentos históricos rotulados como archivo.",
           "evidencePaths": [
             "data/plan-trabajo.json",
             "plan.html"
+          ],
+          "completedSubsteps": [
+            "Plan maestro único privado",
+            "Proyección pública de solo lectura sin privateInventory",
+            "Tablero muestra PARCIAL, recuentos e hitos históricos",
+            "README, PROJECT_RULES y plan histórico OpoRadar remiten al maestro"
           ]
         },
         {
           "id": "OPS-04",
-          "title": "Verificar despliegue y ejecución real de Actions desde el origen privado",
-          "state": "PENDIENTE",
-          "acceptance": "Obtener run SUCCESS de exportación y despliegue, comparar árboles site/main, comprobar Pages y rutas 24 apartados y repaso exprés.",
-          "evidencePaths": []
+          "title": "Validar sincronización de ramas y despliegue público más navegación E2E",
+          "state": "PARCIAL",
+          "acceptance": "Comparar árbol completo site/main, verificar artefactos, obtener resultado Actions y hacer visita E2E real al tablero/repaso/visor desde Pages en móvil y escritorio.",
+          "evidencePaths": [],
+          "completedSubsteps": [
+            "Árboles main y site con 821 blobs cada uno e idénticos por SHA",
+            "plan.html y uc3m-24-bloques.html y JSON público verificados mediante API de GitHub",
+            "Proyección del plan elimina privateInventory y reporta publicReadOnly=true"
+          ],
+          "remainingSubsteps": [
+            "Verificar ejecución de workflow por página de Actions (conclusión exacta)",
+            "Comprobar navegador real Pages: cargar y corregir el repaso exprés, historial y móvil"
+          ]
         },
         {
           "id": "OPS-05",
@@ -436,11 +461,44 @@
       "identical": 809,
       "divergent": 6,
       "onlyPublic": 9,
-      "onlyPrivate": 266
+      "onlyPrivate": 266,
+      "note": "Fotografía Git tomada antes de la recuperación y nueva exportación privada: 824/1081. No usar estos recuentos como números vivos de la última sincronización; ver verifiedPublication. El inventario por contenido fue solo de rutas/SHA."
     },
     "privateIsSource": true,
     "publicIsFilteredDeployment": true,
-    "noCertificationClaim": "116/121 temas con etiqueta AUDITADO documental según manifiestos; 5 siguen pendientes (DIP-C1-T22, DIP-C2-T06, UC3M-T10/T15/T16); 0/121 tienen certificación E2E jurídica integral acreditada."
+    "noCertificationClaim": "116/121 temas con etiqueta AUDITADO documental según manifiestos; 5 siguen pendientes (DIP-C1-T22, DIP-C2-T06, UC3M-T10/T15/T16); 0/121 tienen certificación E2E jurídica integral acreditada.",
+    "legacyTaskMappings": {
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#P01": "OPS-01",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#P02": "RAD-06",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#P03": "RAD-02, RAD-06",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#P04": "RAD-07",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#P05": "RAD-08",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#P06": "RAD-09",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#P07": "RAD-10",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#P08": "RAD-13",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#P09": "OPS-04, QA-02",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#R01": "RAD-04, RAD-11",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#R02": "RAD-12",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#R03": "RAD-05",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#R04": "RAD-08",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#R05": "RAD-13",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#R06": "RAD-13",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#R07": "RAD-07",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#R08": "NO_PUBLICAR_ESTADO_PERSONAL",
+      "docs/PLAN_UNICO_OPOWEB_RADAR.md#R09": "OPS-04"
+    },
+    "verifiedPublication": {
+      "fecha": "2026-11-19",
+      "mode": "GITHUB_API_GIT_TREE_AND_BLOB",
+      "mainTree": "a77b68208a7f83419334843f066c2584cad95447",
+      "siteTree": "5a853663a545971a0f425463c9ba3488e35d35c3",
+      "mainAndSiteSameBlobs": true,
+      "publicBlobs": 821,
+      "publicPlanSanitized": true,
+      "publicPagesRestored": true,
+      "browserE2eVerified": false,
+      "actionsConclusionVerified": false
+    }
   },
   "completedMilestones": [
     {
