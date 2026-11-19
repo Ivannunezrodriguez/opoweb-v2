@@ -5,6 +5,24 @@
 **Organismo convocante:** **Universidad Carlos III de Madrid (UC3M)**. **34 plazas** (de ellas **2** reservadas a discapacidad).  
 **Llamamiento de ejercicio único confirmado:** **sábado 21 de noviembre de 2026, a las 10:00 horas, en el Campus de Getafe**, **llamamiento único**, según resolución oficial de la **UC3M** aportada el **02/11/2026** y [portal oficial del proceso](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026). La propia resolución indica que las **aulas concretas se determinarán mediante resolución posterior**. No atribuir un edificio o aula sin el nuevo anuncio.
 
+
+## Actualización focal para el ejercicio del 21/11/2026 · 19/11/2026
+
+**Llamamiento ratificado en la resolución oficial UC3M**: **sábado 21/11/2026**, **10:00 h**, **Campus de Getafe**, ejercicio único y llamamiento único. Las **aulas** ya figuran anunciadas en la sección «Publicaciones» del [portal institucional del proceso](https://www.uc3m.es/empleo/concurso_oposicion_escala_auxiliar_administrativa_C2_2026); consultar la resolución individual antes de acudir, sin deducir edificio/aula por la fecha. [Resolución oficial de llamamiento](https://uc3m.es/ss/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadervalue1=inline%3B%20filename%3D%22Resoluci%C3%B3n_llamamiento_ejercicio_%C3%BAnico.pdf%22&blobkey=id&blobtable=MungoBlobs&blobwhere=1371631360869&ssbinary=true).
+
+**Corte jurídico base 1.7**: el [cronograma institucional firmado **06/10/2026**](https://uc3m.es/ss/Satellite?blobcol=urldata&blobheadername1=Content-Disposition&blobheadervalue1=inline%3B%20filename%3D%22Cronograma_Orientativo_proceso_selectivo.pdf%22&blobkey=id&blobtable=MungoBlobs&blobwhere=1371631361161&ssbinary=true) indica como fecha **prevista** de listas definitivas el **01/10/2026**; se trata de un **cronograma orientativo** y no aporta por sí solo diligencia de publicación. El portal oficial enlaza la resolución definitiva, pero la fecha efectiva de subida/publicación no se ha acreditado en esta revisión. No cerrar T10/T15/T16 ni cambiar la fecha de corte en el banco por esa previsión.
+
+| Evento distinto | Fecha | Uso correcto |
+|---|---|---|
+| Firma de resolución de definitivos (según expediente histórico) | **30/09/2026** | Firma no demuestra publicación |
+| Fecha prevista de publicación de definitivos según cronograma | **01/10/2026** | Hipótesis documental, no diligencia de publicación |
+| Llamamiento firmado | **06/10/2026** | Acredita hora y campus de examen |
+| Examen | **21/11/2026, 10:00 h** | No es el corte automático de normas |
+
+> ⚠️ **¡Foco Examen!:** No introducir leyes de **23/10/2026** o posteriores como exigibles de forma automática: el corte depende de la **publicación efectiva** de definitivos y del anuncio, no del día de examen. Tampoco excluir una norma sin comprobar su eficacia temporal y posibles efectos jurídicos pertinentes.
+
+**Itinerario de 24 apartados:** [acceso específico a lectura y práctica](../../uc3m-24-bloques.html). Son **24 bloques históricos sin pregunta enlazada** en matrices de **9 temas**; hoy apuntan a material y a paquetes de práctica **ya disponibles**, sin nuevas preguntas atribuidas uno a uno ni incremento de los bancos originales. El módulo conserva el carácter **no oficial** y las reservas jurídicas pendientes de T10/T15/T16.
+
 ## 1. Qué exige la fase de oposición
 
 | Concepto | Base oficial |
