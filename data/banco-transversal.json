@@ -1,0 +1,633 @@
+{
+  "version": "2026-11-19",
+  "titulo": "Banco transversal · Auxiliares Administrativos",
+  "descripcion": "Cuestiones reutilizables con filtros de ámbito. No son reproducción del examen oficial de La Puebla de Montalbán.",
+  "criterios": {
+    "origenExamenSoloSi": "ENUNCIADO_LEGIBLE_Y_PLANTILLA_OFICIAL_COTEJADA",
+    "noInferirExamenDeRespuestas": true,
+    "categorias": {
+      "COMUN": "Común a distintas administraciones",
+      "LOCAL": "Ayuntamientos",
+      "DIPUTACION": "Diputaciones",
+      "AUTONOMICA": "Junta de Comunidades / Administración autonómica",
+      "SANITARIA": "SESCAM / Servicios de salud",
+      "UNIVERSIDAD": "Universidades públicas",
+      "ESTADO": "Administración General del Estado"
+    }
+  },
+  "fuentesPendientes": [
+    {
+      "id": "LA-PUEBLA-C2-2026",
+      "nombre": "La Puebla de Montalbán, primer ejercicio de 14/11/2026",
+      "estado": "PENDIENTE_ENUNCIADOS_COMPLETOS_Y_COTEJO_PLANTILLA_OFICIAL",
+      "preguntasExamenPublicadas": 0,
+      "nota": "No utilizar respuestas recordadas o correcciones personales como plantilla oficial; requieren cotejo de enunciados, opciones y plantilla definitiva."
+    }
+  ],
+  "preguntas": [
+    {
+      "id": "BT-LP-T01-001",
+      "tema": 1,
+      "materia": "CONSTITUCION",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "¿En qué fecha fue ratificada en referéndum la Constitución española de 1978?",
+      "opciones": [
+        "6 de diciembre de 1978",
+        "31 de octubre de 1978",
+        "27 de diciembre de 1978",
+        "29 de diciembre de 1978"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "La Constitución fue aprobada por las Cortes el 31 de octubre, ratificada en referéndum el 6 de diciembre, sancionada por el Rey el 27 de diciembre y publicada y entrada en vigor el 29 de diciembre de 1978.",
+      "trampa": "No confundir aprobación parlamentaria, referéndum, sanción real y publicación/entrada en vigor.",
+      "referencia": "manual.md · apartado 3 · Naturaleza y vigencia",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T01-001",
+        "archivo": "content/la-puebla/tema-01/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T01-002",
+      "tema": 1,
+      "materia": "CONSTITUCION",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "¿Cuál de las siguientes afirmaciones describe correctamente la estructura formal de la Constitución?",
+      "opciones": [
+        "Preámbulo, once títulos numerados y 170 artículos",
+        "Preámbulo, Título Preliminar, diez títulos numerados y 169 artículos",
+        "Título Preliminar, nueve títulos numerados y 169 artículos",
+        "Preámbulo, Título Preliminar, diez títulos numerados y 168 artículos"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La Constitución contiene un Preámbulo, un Título Preliminar, diez títulos numerados del I al X y 169 artículos, además de disposiciones adicionales, transitorias, derogatoria y final.",
+      "trampa": "El Título Preliminar no se cuenta entre los diez títulos numerados.",
+      "referencia": "manual.md · apartado 4 · Estructura formal completa",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T01-002",
+        "archivo": "content/la-puebla/tema-01/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T02-001",
+      "tema": 2,
+      "materia": "PROCEDIMIENTO",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "Según el artículo 1 de la Ley 39/2015, los trámites adicionales o distintos de los previstos en dicha Ley solo pueden establecerse:",
+      "opciones": [
+        "Mediante reglamento aprobado por el Consejo de Ministros",
+        "Mediante orden ministerial motivada",
+        "Mediante ley, de forma motivada y cuando resulten eficaces, proporcionados y necesarios",
+        "Mediante resolución del órgano competente para tramitar"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Los trámites adicionales o distintos quedan reservados a una norma con rango de ley y deben justificarse por su eficacia, proporcionalidad y necesidad, además de motivarse.",
+      "trampa": "Un reglamento puede introducir especialidades procedimentales, pero no crear libremente nuevos trámites.",
+      "referencia": "manual.md · apartado 3 · Artículo 1",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T02-001",
+        "archivo": "content/la-puebla/tema-02/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T02-002",
+      "tema": 2,
+      "materia": "PROCEDIMIENTO",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "¿Cuál de los siguientes sujetos forma parte del sector público institucional pero no tiene por ello automáticamente la condición de Administración Pública?",
+      "opciones": [
+        "Una entidad de derecho privado vinculada o dependiente de una Administración",
+        "La Administración General del Estado",
+        "Una entidad que integra la Administración local",
+        "Un organismo público de derecho público"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "Las entidades de derecho privado vinculadas o dependientes integran el sector público institucional, pero no se convierten por esa sola razón en Administración Pública.",
+      "trampa": "No todo sujeto incluido en el sector público es una Administración Pública a efectos de la Ley 39/2015.",
+      "referencia": "manual.md · apartado 4 · Artículo 2",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T02-002",
+        "archivo": "content/la-puebla/tema-02/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T03-001",
+      "tema": 3,
+      "materia": "PROCEDIMIENTO",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "¿Cuál de los siguientes derechos corresponde específicamente al interesado en un procedimiento conforme al artículo 53 de la Ley 39/2015?",
+      "opciones": [
+        "Conocer en cualquier momento el estado de la tramitación",
+        "Exigir siempre que el procedimiento sea presencial",
+        "Obtener una resolución favorable",
+        "Elegir libremente el órgano competente"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "El artículo 53 reconoce al interesado el derecho a conocer el estado de la tramitación, el sentido del silencio, los actos de trámite y el órgano competente, entre otros.",
+      "trampa": "El artículo 53 reconoce derechos procedimentales, no garantiza un resultado favorable.",
+      "referencia": "manual.md · apartado 3 · Artículo 53",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T03-001",
+        "archivo": "content/la-puebla/tema-03/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T03-002",
+      "tema": 3,
+      "materia": "PROCEDIMIENTO",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "Según el artículo 56.2 de la Ley 39/2015, las medidas provisionales adoptadas antes de iniciar el procedimiento deben confirmarse, modificarse o levantarse en el acuerdo de iniciación dictado dentro de:",
+      "opciones": [
+        "Cinco días",
+        "Diez días",
+        "Un mes",
+        "Quince días"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "El acuerdo de iniciación ha de dictarse dentro de **15 días** desde adoptar las medidas provisionales previas y contener pronunciamiento **expreso** sobre ellas. Si no se inicia en plazo o no se pronuncia, quedan sin efecto.",
+      "trampa": "Si no se inicia el procedimiento en ese plazo o el acuerdo no se pronuncia expresamente, las medidas quedan sin efecto.",
+      "referencia": "Ley 39/2015 art. 56.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a56",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T03-002",
+        "archivo": "content/la-puebla/tema-03/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T04-001",
+      "tema": 4,
+      "materia": "PROCEDIMIENTO",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "De acuerdo con el artículo 106.1 de la Ley 39/2015, ¿cómo puede iniciarse la revisión de oficio de un acto NULO de pleno derecho que ha puesto fin a la vía administrativa o no fue recurrido en plazo?",
+      "opciones": [
+        "Solo de oficio y dentro de cuatro años",
+        "De oficio o a solicitud del interesado, en cualquier momento",
+        "Solo a solicitud del interesado y dentro de un mes",
+        "Únicamente por orden judicial"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El art. 106.1 permite que la Administración declare la nulidad en cualquier momento, por iniciativa propia o a solicitud de interesado, SOLO respecto de actos que hayan puesto fin a la vía administrativa o no se hayan recurrido en plazo, por las causas tasadas del art. 47.1 y previo dictamen favorable del Consejo de Estado u órgano consultivo autonómico equivalente.",
+      "trampa": "«En cualquier momento» NO habilita a revisar indiscriminadamente actos fuera del art. 106.1; exigir nulidad tasada, fin de vía o no recurso en plazo y dictamen consultivo favorable.",
+      "referencia": "Ley 39/2015 arts. 47.1, 106.1 y 110 · https://www.boe.es/buscar/act.php?id=BOE-A-2015-10565#a106",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T04-001",
+        "archivo": "content/la-puebla/tema-04/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T04-002",
+      "tema": 4,
+      "materia": "PROCEDIMIENTO",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "En un procedimiento de revisión de oficio iniciado de oficio, el transcurso de seis meses sin resolución produce:",
+      "opciones": [
+        "Estimación por silencio",
+        "Desestimación por silencio",
+        "Caducidad",
+        "Suspensión automática"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Cuando la revisión de oficio se inicia de oficio, el plazo máximo es de seis meses y su incumplimiento produce caducidad. Si se inició a solicitud, el silencio es desestimatorio.",
+      "trampa": "El efecto depende de quién inicia el procedimiento, aunque el plazo sea el mismo.",
+      "referencia": "manual.md · apartado 7.5 · Artículo 106",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T04-002",
+        "archivo": "content/la-puebla/tema-04/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T05-001",
+      "tema": 5,
+      "materia": "REGIMEN_LOCAL",
+      "ambitos": [
+        "LOCAL",
+        "DIPUTACION"
+      ],
+      "enunciado": "Según el artículo 11 de la Ley 7/1985, ¿cuáles son los elementos del municipio?",
+      "opciones": [
+        "Alcalde, Pleno y Junta de Gobierno Local",
+        "Territorio, población y organización",
+        "Término municipal, padrón y presupuesto",
+        "Vecinos, servicios y competencias"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El municipio es la entidad local básica y sus tres elementos legales son el territorio, la población y la organización.",
+      "trampa": "Los órganos municipales no deben confundirse con los elementos constitutivos del municipio.",
+      "referencia": "manual.md · apartado 8 · Artículo 11 LRBRL",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T05-001",
+        "archivo": "content/la-puebla/tema-05/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T05-002",
+      "tema": 5,
+      "materia": "REGIMEN_LOCAL",
+      "ambitos": [
+        "LOCAL",
+        "DIPUTACION"
+      ],
+      "enunciado": "La alteración de los límites provinciales debe aprobarse mediante:",
+      "opciones": [
+        "Ley orgánica de las Cortes Generales",
+        "Ley ordinaria de la comunidad autónoma",
+        "Real decreto del Consejo de Ministros",
+        "Acuerdo de las Diputaciones afectadas"
+      ],
+      "respuestaCorrecta": 0,
+      "explicacion": "El artículo 141 de la Constitución exige ley orgánica de las Cortes Generales para cualquier alteración de los límites provinciales.",
+      "trampa": "La legislación autonómica regula alteraciones municipales, pero no puede modificar por sí misma límites provinciales.",
+      "referencia": "manual.md · apartado 6 · Artículo 141 CE",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T05-002",
+        "archivo": "content/la-puebla/tema-05/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T07-001",
+      "tema": 7,
+      "materia": "PREVENCION",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "Según el artículo 14 de la Ley 31/1995, el coste de las medidas relativas a la seguridad y salud en el trabajo:",
+      "opciones": [
+        "Puede repercutirse parcialmente al trabajador",
+        "No debe recaer en modo alguno sobre el trabajador",
+        "Puede descontarse de la nómina si lo prevé el convenio",
+        "Solo puede repercutirse cuando se trate de equipos de protección individual"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El deber de protección corresponde al empresario o Administración empleadora, y el coste de las medidas preventivas nunca puede recaer sobre el trabajador.",
+      "trampa": "La participación del trabajador en prevención no implica asumir económicamente EPI, formación o medidas de seguridad.",
+      "referencia": "manual.md · apartado 8 · Artículo 14",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T07-001",
+        "archivo": "content/la-puebla/tema-07/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T07-002",
+      "tema": 7,
+      "materia": "PREVENCION",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "¿Qué principio preventivo debe aplicarse con preferencia cuando sea posible?",
+      "opciones": [
+        "Anteponer la protección individual a la colectiva",
+        "Anteponer la protección colectiva a la individual",
+        "Sustituir la evaluación por instrucciones generales",
+        "Priorizar siempre la reparación del daño"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "El artículo 15 establece que debe anteponerse la protección colectiva a la individual, junto con evitar riesgos, combatirlos en origen y adaptar el trabajo a la persona.",
+      "trampa": "El EPI es una última barrera, no la primera opción preventiva cuando existen medidas colectivas eficaces.",
+      "referencia": "manual.md · apartado 9 · Artículo 15",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T07-002",
+        "archivo": "content/la-puebla/tema-07/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T09-001",
+      "tema": 9,
+      "materia": "DATOS_PERSONALES",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "La Ley Orgánica 3/2018 tiene por objeto principal:",
+      "opciones": [
+        "Sustituir íntegramente al RGPD en España",
+        "Adaptar el ordenamiento español al RGPD y garantizar los derechos digitales",
+        "Regular únicamente los tratamientos realizados por Administraciones públicas",
+        "Regular exclusivamente la videovigilancia y las comunicaciones electrónicas"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La Ley Orgánica 3/2018 adapta el Derecho español al Reglamento General de Protección de Datos, completa sus previsiones y garantiza los derechos digitales. El RGPD continúa siendo directamente aplicable.",
+      "trampa": "La Ley Orgánica no sustituye al RGPD ni limita su ámbito a las Administraciones públicas.",
+      "referencia": "manual.md · apartado 3 · Artículos 1–3 · Fuente oficial: LOPDGDD 1 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a1",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T09-001",
+        "archivo": "content/la-puebla/tema-09/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T09-002",
+      "tema": 9,
+      "materia": "DATOS_PERSONALES",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "Con carácter general, un menor puede prestar por sí mismo consentimiento para el tratamiento de sus datos personales desde los:",
+      "opciones": [
+        "12 años",
+        "14 años",
+        "13 años",
+        "16 años"
+      ],
+      "respuestaCorrecta": 1,
+      "explicacion": "La Ley Orgánica 3/2018 fija en catorce años la edad general para que el menor pueda consentir por sí mismo, salvo supuestos en que una ley exija asistencia de quienes ejercen patria potestad o tutela.",
+      "trampa": "El RGPD permite a los Estados fijar la edad entre 13 y 16 años; España la establece en 14.",
+      "referencia": "manual.md · apartado 4 · Artículos 4–10 · Fuente oficial: LOPDGDD 7 · https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673#a7",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T09-002",
+        "archivo": "content/la-puebla/tema-09/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T12-001",
+      "tema": 12,
+      "materia": "HACIENDA_LOCAL",
+      "ambitos": [
+        "LOCAL",
+        "DIPUTACION"
+      ],
+      "enunciado": "¿Cuál de los siguientes impuestos municipales tiene carácter potestativo?",
+      "opciones": [
+        "El Impuesto sobre Bienes Inmuebles",
+        "El Impuesto sobre Actividades Económicas",
+        "El Impuesto sobre el Incremento de Valor de los Terrenos de Naturaleza Urbana",
+        "El Impuesto sobre Vehículos de Tracción Mecánica"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El IBI, el IAE y el IVTM son impuestos municipales de exacción obligatoria. El IIVTNU es potestativo y solo puede exigirse cuando el Ayuntamiento acuerda su imposición y aprueba la ordenanza fiscal correspondiente.",
+      "trampa": "No confundir impuesto municipal con impuesto obligatorio: el IIVTNU es municipal, pero potestativo.",
+      "referencia": "manual.md · apartado Impuesto obligatorio y potestativo · Fuente oficial: TRLRHL 59.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a59",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T12-001",
+        "archivo": "content/la-puebla/tema-12/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T12-002",
+      "tema": 12,
+      "materia": "HACIENDA_LOCAL",
+      "ambitos": [
+        "LOCAL",
+        "DIPUTACION"
+      ],
+      "enunciado": "En el IBI, si sobre una vivienda existe un derecho real de usufructo, ¿quién realiza con carácter preferente el hecho imponible?",
+      "opciones": [
+        "El propietario",
+        "El arrendatario",
+        "El usufructuario",
+        "El ocupante efectivo"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "El artículo 61 establece un orden de prelación: concesión administrativa, superficie, usufructo y propiedad. Existiendo usufructo, su titular realiza el hecho imponible antes que el propietario.",
+      "trampa": "En el IBI no tributa siempre el propietario; debe respetarse el orden legal de derechos.",
+      "referencia": "bloque-02-ibi.md · artículo 61.1 y orden de prelación · Fuente oficial: TRLRHL 61.2 · https://www.boe.es/buscar/act.php?id=BOE-A-2004-4214#a61",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T12-002",
+        "archivo": "content/la-puebla/tema-12/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T15-001",
+      "tema": 15,
+      "materia": "INFORMATICA",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "¿Qué efecto produce normalmente la operación Copiar y pegar sobre un archivo en Windows?",
+      "opciones": [
+        "Traslada el archivo y elimina el original",
+        "Crea únicamente un acceso directo",
+        "Cambia la extensión del archivo",
+        "Crea otro ejemplar y conserva el original"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Copiar y pegar duplica el elemento en la ubicación de destino y mantiene intacto el archivo original.",
+      "trampa": "Copiar no equivale a mover ni a crear un acceso directo; son operaciones diferentes.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartados 6 y 8",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T15-001",
+        "archivo": "content/la-puebla/tema-15/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T15-002",
+      "tema": 15,
+      "materia": "INFORMATICA",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "¿Qué hace normalmente el atajo Ctrl + Mayús + N en el Explorador de archivos?",
+      "opciones": [
+        "Abre las propiedades del elemento",
+        "Elimina sin pasar por la Papelera",
+        "Crea una carpeta nueva",
+        "Selecciona todos los archivos"
+      ],
+      "respuestaCorrecta": 2,
+      "explicacion": "Ctrl + Mayús + N crea una carpeta nueva en la ubicación activa del Explorador de archivos.",
+      "trampa": "No debe confundirse con Ctrl + N de algunas aplicaciones ni con Mayús + Supr.",
+      "referencia": "content/la-puebla/tema-15/manual.md · apartado 7",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T15-002",
+        "archivo": "content/la-puebla/tema-15/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T17-001",
+      "tema": 17,
+      "materia": "OFIMATICA",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "¿Cuál es el formato nativo habitual de LibreOffice Writer?",
+      "opciones": [
+        ".docx",
+        ".dotx",
+        ".ott",
+        ".odt"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "LibreOffice Writer utiliza habitualmente el formato OpenDocument Text, cuya extensión es .odt; Word emplea normalmente .docx.",
+      "trampa": "No debe confundirse el formato de documento .odt con la plantilla de Writer, cuya extensión habitual es .ott.",
+      "referencia": "manual.md, apartado 5 · Diferencias esenciales",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T17-001",
+        "archivo": "content/la-puebla/tema-17/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    },
+    {
+      "id": "BT-LP-T17-002",
+      "tema": 17,
+      "materia": "OFIMATICA",
+      "ambitos": [
+        "COMUN",
+        "ESTADO",
+        "AUTONOMICA",
+        "LOCAL",
+        "SANITARIA",
+        "UNIVERSIDAD"
+      ],
+      "enunciado": "En Microsoft Word, ¿qué recurso permite aplicar de forma uniforme formato y estructura a títulos y párrafos?",
+      "opciones": [
+        "El Portapapeles",
+        "La vista preliminar",
+        "Las marcas no imprimibles",
+        "Los estilos"
+      ],
+      "respuestaCorrecta": 3,
+      "explicacion": "Los estilos agrupan propiedades de formato y estructura, permiten mantener uniformidad y facilitan la navegación y las tablas de contenido.",
+      "trampa": "El formato directo puede cambiar la apariencia, pero no aporta la misma coherencia estructural que los estilos.",
+      "referencia": "manual.md, apartados 2 y 7 · Estructura documental y calidad",
+      "procedencia": {
+        "tipo": "BANCO_OPOWEB",
+        "origenId": "LP-T17-002",
+        "archivo": "content/la-puebla/tema-17/preguntas.json",
+        "estado": "REVISION_EDITORIAL_INTERNA",
+        "examenOficial": false
+      }
+    }
+  ]
+}
