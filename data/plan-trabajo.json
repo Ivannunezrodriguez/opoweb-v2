@@ -107,20 +107,43 @@
         },
         {
           "id": "UC3M-02",
-          "title": "Integrar 24 bloques complementarios UC3M sin inflar el banco",
-          "state": "PENDIENTE",
-          "acceptance": "Inventario de 24 bloques en 9 temas; material Markdown convertido a preguntas compatibles solo cuando sean trazables y comprobadas; navegación y tests efectivos.",
+          "title": "24 apartados UC3M: índice y práctica temática ya integrados; E2E pendiente",
+          "state": "EN_CURSO",
+          "acceptance": "24 apartados y 9 temas identificados con materiales originales y enlaces a paquetes existentes sin duplicar los bancos; 162 preguntas complementarias validadas estructuralmente. Cierre final condicionado a prueba real de navegación, carga y corrección en navegador.",
           "evidencePaths": [
-            "https://github.com/Ivannunezrodriguez/opoweb-dev/blob/main/content/uc3m/COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md"
+            "data/uc3m-24-bloques-20261119.json",
+            "uc3m-24-bloques.html",
+            "assets/practice.js",
+            "content/uc3m/GUIA_EXAMEN_2026.md"
+          ],
+          "completedSubsteps": [
+            "Mapa 24/24 apartados y 9/9 temas",
+            "11 paquetes existentes con 162 preguntas, identificadores únicos y cuatro opciones válidas",
+            "Enlaces directos a la práctica sin copiar ni aumentar las preguntas originales"
+          ],
+          "remainingSubsteps": [
+            "Comprobar navegador real, móvil y resultado de corrección",
+            "Cotejo jurídico completo condicionado por corte normativo"
           ]
         },
         {
           "id": "UC3M-03",
-          "title": "Repaso focal UC3M y fecha de examen del 21/11",
-          "state": "PENDIENTE",
-          "acceptance": "Confirmar fecha y alcance en comunicación oficial; repasar materia ya validada, sin atribuir al temario normas posteriores a corte no acreditado.",
+          "title": "UC3M examen 21/11: llamamiento oficial confirmado; repaso y corte en curso",
+          "state": "EN_CURSO",
+          "acceptance": "Llamamiento único del sábado 21/11/2026 a las 10:00 h en Campus de Getafe confirmado en resolución; acceso a aulas oficiales; guía de examen y normativa temporal actualizadas. La fecha efectiva de publicación de listas definitivas requiere prueba primaria separada.",
           "evidencePaths": [
-            "https://github.com/Ivannunezrodriguez/opoweb-dev/blob/main/content/uc3m/GUIA_EXAMEN_2026.md"
+            "content/uc3m/GUIA_EXAMEN_2026.md",
+            "uc3m-24-bloques.html"
+          ],
+          "completedSubsteps": [
+            "Confirmado 21/11/2026 10:00 Campus de Getafe por resolución del 06/10",
+            "Portal UC3M anuncia resolución de aulas; no se asigna aula sin consultar publicación",
+            "Cronograma del 06/10 indica como estimación el 01/10 para listas definitivas"
+          ],
+          "remainingSubsteps": [
+            "Recuperar diligencia o metadatos primarios de publicación efectiva",
+            "Confirmar aula individual en portal oficial; estudiar repaso focal",
+            "No fijar corte por cronograma orientativo"
           ]
         }
       ]
@@ -250,6 +273,8 @@
       "editorialPending": 5,
       "integralCertificationProven": 0
     },
-    "rule": "OpoWeb-v2 es fuente operativa de tareas; opoweb-dev es fuente histórica. No reiniciar auditorías documentales concluidas salvo nueva incidencia."
+    "rule": "OpoWeb-v2 es fuente operativa de tareas; opoweb-dev es fuente histórica. No reiniciar auditorías documentales concluidas salvo nueva incidencia.",
+    "lastUC3MReview": "2026-11-19",
+    "uc3mDateStatus": "LLAMAMIENTO_CONFIRMADO_21_11_2026_10H_GETAFE_CORTE_PRIMARIO_PENDIENTE"
   }
 }
