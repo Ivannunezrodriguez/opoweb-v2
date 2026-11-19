@@ -316,7 +316,8 @@
           "acceptance": "Abrir 24 apartados UC3M y repaso exprés, responder, agotar tiempo, corregir A−E/3 y guardar historial en navegador real; verificar móvil, accesibilidad, enlaces y carga. CI y controles documentales no sustituyen E2E.",
           "evidencePaths": [
             "uc3m-24-bloques.html",
-            "assets/practice.js"
+            "assets/practice.js",
+            "assets/styles.css"
           ],
           "completedSubsteps": [
             "Chromium E2E REAL (Actions #44581330433, SUCCESS): 30 preguntas, temporizador, contestar/corregir, nota A-E/3, un solo intento, historial persistente y regreso al hub",
@@ -325,12 +326,13 @@
             "E2E ampliado con simulacro UC3M 70 titulares + 5 reservas, teclado para iniciar y 2 intentos en historial; Actions #44597130836 SUCCESS (19/11/2026).",
             "Se verificó que responder reserva R1 no modifica 0,00/70 y que las 5 reservas se informan por separado; prueba en Chromium real.",
             "Tras fallos iniciales de sintaxis/lectura de test se añadió node --check y se corrigieron selectores y regex; último run SUCCESS.",
-            "E2E real Chromium extendido a La Puebla 50+5 y Olías 50+20; historial por convocatoria y reservas/denominadores verificados. Run #44598010547 completed/success, commit fda488ac62baa15939a142c9bd411ca65b7cd94d."
+            "E2E real Chromium extendido a La Puebla 50+5 y Olías 50+20; historial por convocatoria y reservas/denominadores verificados. Run #44598010547 completed/success, commit fda488ac62baa15939a142c9bd411ca65b7cd94d.",
+            "Accesibilidad básica Chromium: foco visible de radios, aria-describedby en cada pregunta, temporizador aria-live=off y foco programático al resultado; run 44603345112 completed/success en 9a8b358f6aa42dc389d2ba13407353bc3573c700."
           ],
           "remainingSubsteps": [
-            "Accesibilidad: navegación teclado y lector de pantalla/axe o controles WCAG verificables",
             "PWA/offline y compatibilidad en un dispositivo móvil físico, y otros navegadores",
-            "Ampliar E2E a simulacros restantes no cubiertos y a Diputación C1 si hay modelos evaluables; La Puebla 1, Olías 1 y UC3M 1 ya probados"
+            "Ampliar E2E a simulacros restantes no cubiertos y a Diputación C1 si hay modelos evaluables; La Puebla 1, Olías 1 y UC3M 1 ya probados",
+            "Accesibilidad restante: auditoría axe/ARIA de todo el sitio, navegación completa solo con teclado y prueba con lector de pantalla real"
           ]
         },
         {
@@ -679,26 +681,33 @@
     },
     "latestBrowserE2E": {
       "date": "2026-11-19",
-      "runId": 44598010547,
-      "sourceCommit": "fda488ac62baa15939a142c9bd411ca65b7cd94d",
+      "runId": 44603345112,
+      "sourceCommit": "9a8b358f6aa42dc389d2ba13407353bc3573c700",
       "status": "completed",
       "conclusion": "success",
-      "browser": "Chromium con Playwright v1.58.2 en Ubuntu Noble",
+      "browser": "Chromium Playwright (Ubuntu Noble)",
       "verified": [
-        "UC3M 30 preguntas y 70+5 con reservas fuera de nota",
-        "La Puebla 50+5 con reserva excluida de nota y denominador",
-        "Olías 50+20 con teoría y psicotécnico separados y mínimos independientes",
-        "Historial local separado por convocatoria y preservado al cambiar",
-        "Navegación de 24 enlaces temáticos UC3M en viewport móvil"
+        "Foco visible de opción de respuesta",
+        "Grupo de respuestas asociado al enunciado por aria-describedby",
+        "Temporizador sin anuncios cada segundo",
+        "Foco del resultado de corrección",
+        "UC3M 30 y 70+5; La Puebla 50+5; Olías 50+20, historiales separados",
+        "24 enlaces y recarga en móvil emulado"
       ],
       "stillPending": [
+        "Lector de pantalla físico",
+        "Auditoría axe/WCAG integral",
         "Firefox/Safari",
-        "Dispositivos móviles físicos",
-        "Accesibilidad lector de pantalla",
+        "Móvil físico",
         "PWA offline",
-        "Comprobación contra dominio público desplegado",
-        "Todos los modelos restantes"
+        "E2E dominio final Pages"
       ]
+    },
+    "latestAccessibilityFix": {
+      "commit": "c198afb55fc188f249d1417c3752c09cf1f23eb5",
+      "testCommit": "9a8b358f6aa42dc389d2ba13407353bc3573c700",
+      "runId": 44603345112,
+      "note": "No se ha cambiado ningún algoritmo de puntuación; la prueba ejecuta los flujos ya validados."
     }
   },
   "completedMilestones": [
