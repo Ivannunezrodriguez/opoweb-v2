@@ -1,0 +1,30 @@
+name: Validar itinerario UC3M
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/practice.js'
+      - 'practice.html'
+      - 'uc3m-24-bloques.html'
+      - 'data/uc3m-24-bloques-20261119.json'
+      - 'data/uc3m-*.json'
+      - 'tests/validate-uc3m-itinerary.mjs'
+      - '.github/workflows/validate-uc3m-itinerary.yml'
+  pull_request:
+    paths:
+      - 'assets/practice.js'
+      - 'practice.html'
+      - 'uc3m-24-bloques.html'
+      - 'data/uc3m-24-bloques-20261119.json'
+      - 'data/uc3m-*.json'
+      - 'tests/validate-uc3m-itinerary.mjs'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Comprobar inventario, preguntas y rutas
+        run: node tests/validate-uc3m-itinerary.mjs
