@@ -538,19 +538,74 @@
       "docs/FORMATO_SIMETRICO_CONVOCATORIAS.md": "Guía de diseño con estado histórico cuatro programas, ahora cinco; no ejecutar cola julio"
     },
     "cleanup": {
-      "stage": "PREPARADO",
+      "stage": "LIMPIEZA_SELECTIVA_EJECUTADA_Y_COTEJADA",
       "date": "2026-11-19",
       "principle": "Eliminar únicamente obsoletos verificablemente no consumidos; conservar evidencia histórica vinculada y documentación funcional.",
-      "deleted": [],
-      "preserved": [
-        "AUDITORIA_CONTINUA.md por dependencias históricas y validadores",
-        "data/cierre-pendientes-2026.json como soporte legal",
-        "data/programa*.json como estados por tema",
-        "docs/PLAN_UNICO_OPOWEB_RADAR.md como evidencia técnica histórica de radar/privacidad hasta cotejo de dependencias",
-        "PROJECT_RULES.md y EDITORIAL_GUIDE.md mientras haya referencias no trasladadas"
+      "deleted": [
+        {
+          "path": "AUDIT_STATUS.md",
+          "sha": "5156bb13bfb5de12ce6751ebe65594ae510b4e4d",
+          "commit": "b5c699624b7d4dc73829225f508a9af7770a62c6",
+          "why": "Redirección de estado antigua que apuntaba a la bitácora histórica, sustituida por el plan maestro.",
+          "precheck": "Referencias inspeccionadas en 36 archivos raíz/docs/workflows y seis validadores focales; las dos menciones en AUDITORIA_CONTINUA.md son históricas en texto, y la referencia de PROJECT_RULES.md fue corregida.",
+          "restore": "git show b5c699624b7d4dc73829225f508a9af7770a62c6^:AUDIT_STATUS.md"
+        },
+        {
+          "path": "MIGRACION_PRIVADA.md",
+          "sha": "ff91e7ed3b5bdb4c259a7322a274796e0265b84d",
+          "commit": "a4138f14ae662e7eaf05bd35b5a7b58397daa345",
+          "why": "Nota de migración inicial ya superada por arquitectura privada/publicación filtrada actual, sin reglas/ejecutables ni datos que no consten en el maestro y workflows.",
+          "precheck": "No apareció como dependencia en documentación operativa inspeccionada, workflows y seis tests focales; el contenido y su SHA se guardan en el historial.",
+          "restore": "git show a4138f14ae662e7eaf05bd35b5a7b58397daa345^:MIGRACION_PRIVADA.md"
+        }
       ],
-      "tests": "Pendiente verificar dependencias concretas de candidatos y comparar publicación antes de borrar."
-    }
+      "preserved": [
+        {
+          "path": "AUDITORIA_CONTINUA.md",
+          "reason": "760.373 caracteres de evidencia legal/editorial, menciones históricas a documentos, enlaces y dependencias; no borrar ni reescribir en masa."
+        },
+        {
+          "path": "docs/PLAN_UNICO_OPOWEB_RADAR.md",
+          "reason": "Bitácora histórica de integraciones Radar, privacidad, fallos, pruebas, workflows y fuente de evidencias; ya desactivada como lista ejecutable."
+        },
+        {
+          "path": "PROJECT_RULES.md",
+          "reason": "Guía estable con referencias existentes y principios, pero projectPremises del maestro prevalece para estado y prioridades."
+        },
+        {
+          "path": "EDITORIAL_GUIDE.md",
+          "reason": "Referencia editorial histórica útil para comparar diseños y pruebas; no es estado activo."
+        },
+        {
+          "path": "data/cierre-pendientes-2026.json",
+          "reason": "Evidencia jurídica por tema y checks automatizados; quitarla rompería cierres verificables."
+        },
+        {
+          "path": "data/programa*.json",
+          "reason": "Manifiestos temáticos operativos; no duplican el tablero de ejecución."
+        },
+        {
+          "path": "docs/CIERRE_OPERATIVO_2026-11-11.md",
+          "reason": "Expedientes y fuentes de los cinco bloqueos legales; cronología histórico-jurídica."
+        },
+        {
+          "path": "audit/**/*.md y informes fechados",
+          "reason": "Actas históricas que acreditan por qué se cerraron o pospusieron tareas; se conservan bajo acceso histórico, sin estados ejecutables."
+        },
+        {
+          "path": "ops/workflows-inactivos/",
+          "reason": "Copia de respaldo técnico sin ejecución, todavía no acreditado borrado seguro de todas las dependencias y scripts."
+        }
+      ],
+      "tests": "Pendiente verificar dependencias concretas de candidatos y comparar publicación antes de borrar.",
+      "deletionPolicy": "Solo eliminar cuando referencias operativas y evidencia única se hayan cotejado; el historial Git y SHA permiten recuperación. Si el fichero está enlazado por auditorías masivas o tests, se conserva.",
+      "impact": "No se tocaron manuales, bancos, manifiestos, herramientas de producción, fuentes oficiales, páginas HTML, datos de Radar, workflows activos ni configuración de exportación. No inferir E2E o CI de una inspección estática.",
+      "verifiedBy": "Fetch de árbol Git y documentos raíz/workflows/actas, inspección de contenidos y borrado mediante GitHub API; CI y navegador pendientes de comprobación en run reciente."
+    },
+    "legacyRemovedPointers": [
+      "AUDIT_STATUS.md",
+      "MIGRACION_PRIVADA.md"
+    ]
   },
   "completedMilestones": [
     {
@@ -658,7 +713,7 @@
     "process": {
       "lifecycle": "Solo estados HECHO, PARCIAL, EN_CURSO, PENDIENTE, BLOQUEADA; fase HECHO solo si todas sus tareas HECHO. Tarea exige ID estable, criterio de aceptación, evidencia verificable y responsables/bloqueos si proceden.",
       "noRegression": "Antes de cambiar código o contenido: consultar este archivo, comprobar hitos, datos ya publicados, historial de commits, documentos oficiales asociados, dependencias, compatibilidad entre privado y público y último resultado real de Actions. No deshacer cambios terminados o tareas pospuestas.",
-      "deletion": "Borrado solo tras inspeccionar contenido y buscar dependencias (imports, enlaces, workflows, validadores, docs, exportador, publicación). Conservar evidencia única e histórica referenciada. Registrar ruta, motivo, verificación, SHA recuperable y efecto sobre CI. Si no puede verificarse, mantener.",
+      "deletion": "Comprobar imports, enlaces, test y workflows antes de eliminar; en el maestro anotar path, SHA, commit y restauración. Fuentes jurídicas y evidencias técnicas no son redundancia de estado: conservar si sustentan calidad.",
       "delivery": "Trabajar con commits sustantivos, no microcommits ni informes repetitivos; verificar fuentes GitHub antes de informar HECHO. Distinguir sintaxis/JSON/CI de pruebas reales E2E navegador, accesibilidad, móvil, PWA y validez jurídica.",
       "priorities": [
         "Examen inmediato UC3M C2 21/11/2026: preparación funcional y repaso ya implementados; no reabrir sin incidencia",
