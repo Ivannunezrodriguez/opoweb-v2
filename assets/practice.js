@@ -484,7 +484,7 @@ function finishExercise(items, timerId, metadata) {
   scrollTo({ top: 0, behavior: 'smooth' });
 }
 
-async function loadCall(id, requestedTheme = null, requestedRepaso = null) {
+async function loadCall(id, requestedTheme = null, requestedRepaso = null, requestedRepasoTema = null) {
   const requestId = ++latestCallLoad;
   const call = CALLS.find(candidate => candidate.id === id) || CALLS[0];
   activeCall = call;
@@ -524,8 +524,27 @@ async function loadCall(id, requestedTheme = null, requestedRepaso = null) {
   if (selectedTheme !== null) startThemeTest(selectedTheme);
   else if (requestedRepaso !== null) {
     const requestedPack = extraRepasos.find(pack => pack.id === requestedRepaso);
-    if (requestedPack) renderExercise(requestedPack.preguntas, requestedPack.titulo, requestedPack.id, 'repaso');
-    else renderHub();
+    if (requestedPack) {
+      const filterTema = requestedRepasoTema === null || requestedRepasoTema === '' ? null : Number(requestedRepasoTema);
+      const validFilter = Number.isInteger(filterTema) && filterTema >= 1 && filterTema <= call.themeCount;
+      const selectedQuestions = validFilter
+        ? requestedPack.preguntas.filter(question => question.tema === filterTema)
+        : requestedPack.preguntas;
+      if (selectedQuestions.length) {
+        renderExercise(
+          selectedQuestions,
+          validFilter ? requestedPack.titulo + ' · Tema ' + filterTema : requestedPack.titulo,
+          validFilter ? requestedPack.id + '-T' + String(filterTema).padStart(2, '0') : requestedPack.id,
+          'repaso'
+        );
+      } else {
+        renderHub();
+        const warning = document.createElement('p');
+        warning.className = 'notice';
+        warning.textContent = 'Este paquete no contiene preguntas del tema solicitado; puedes usar el repaso completo desde el centro de entrenamiento.';
+        app.querySelector('.panel.intro')?.after(warning);
+      }
+    } else renderHub();
   } else renderHub();
 }
 
@@ -533,7 +552,7 @@ async function boot() {
   initTheme();
   try {
     const params = new URLSearchParams(location.search);
-    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id, params.get('tema'), params.get('repaso'));
+    await loadCall(params.get('convocatoria') || localStorage.getItem(SELECTED_CALL_KEY) || CALLS[0].id, params.get('tema'), params.get('repaso'), params.get('temaRepaso'));
   } catch (error) {
     app.innerHTML = `<section class="panel"><h2>Error de carga</h2><p>${escapeHtml(error.message)}</p></section>`;
   }
