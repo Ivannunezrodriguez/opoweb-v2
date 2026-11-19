@@ -109,7 +109,7 @@
           "id": "UC3M-02",
           "title": "24 apartados UC3M: índice y práctica temática ya integrados; E2E pendiente",
           "state": "EN_CURSO",
-          "acceptance": "24 apartados y 9 temas identificados con materiales originales y enlaces a paquetes existentes sin duplicar los bancos; 162 preguntas complementarias validadas estructuralmente. Cierre final condicionado a prueba real de navegación, carga y corrección en navegador.",
+          "acceptance": "24 apartados y 9 temas enlazados; 162 preguntas de 11 paquetes existentes con IDs y estructura válidos; filtro por tema probado mediante cotejo de datos (9/9 temas no vacíos), sin duplicar bancos. Cierre condicionado a prueba E2E y correspondencia pregunta-subapartado.",
           "evidencePaths": [
             "data/uc3m-24-bloques-20261119.json",
             "uc3m-24-bloques.html",
@@ -119,11 +119,14 @@
           "completedSubsteps": [
             "Mapa 24/24 apartados y 9/9 temas",
             "11 paquetes existentes con 162 preguntas, identificadores únicos y cuatro opciones válidas",
-            "Enlaces directos a la práctica sin copiar ni aumentar las preguntas originales"
+            "Enlaces directos a la práctica sin copiar ni aumentar las preguntas originales",
+            "Enlaces del índice filtran por tema: 24/24 apartados con preguntas disponibles; 9/9 temas cubiertos",
+            "Revisión cruzada de 24 enlaces, sin paquetes vacíos, y versión de JS actualizada"
           ],
           "remainingSubsteps": [
-            "Comprobar navegador real, móvil y resultado de corrección",
-            "Cotejo jurídico completo condicionado por corte normativo"
+            "Verificar en navegador real apertura, corrección, historial y vistas móviles",
+            "Completar correspondencia pregunta-subapartado, no acreditada por el filtro temático",
+            "Cotejo jurídico de preguntas sujeto al corte normativo"
           ]
         },
         {
