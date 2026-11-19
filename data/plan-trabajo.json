@@ -324,12 +324,13 @@
             "Sin pageerror JavaScript en ambos recorridos; control ejecutado con imagen mcr.microsoft.com/playwright:v1.58.2-noble",
             "E2E ampliado con simulacro UC3M 70 titulares + 5 reservas, teclado para iniciar y 2 intentos en historial; Actions #44597130836 SUCCESS (19/11/2026).",
             "Se verificó que responder reserva R1 no modifica 0,00/70 y que las 5 reservas se informan por separado; prueba en Chromium real.",
-            "Tras fallos iniciales de sintaxis/lectura de test se añadió node --check y se corrigieron selectores y regex; último run SUCCESS."
+            "Tras fallos iniciales de sintaxis/lectura de test se añadió node --check y se corrigieron selectores y regex; último run SUCCESS.",
+            "E2E real Chromium extendido a La Puebla 50+5 y Olías 50+20; historial por convocatoria y reservas/denominadores verificados. Run #44598010547 completed/success, commit fda488ac62baa15939a142c9bd411ca65b7cd94d."
           ],
           "remainingSubsteps": [
             "Accesibilidad: navegación teclado y lector de pantalla/axe o controles WCAG verificables",
             "PWA/offline y compatibilidad en un dispositivo móvil físico, y otros navegadores",
-            "Extender E2E de reservas y resultados a los otros simulacros/convocatorias restantes; UC3M modelo 1 ya verificado"
+            "Ampliar E2E a simulacros restantes no cubiertos y a Diputación C1 si hay modelos evaluables; La Puebla 1, Olías 1 y UC3M 1 ya probados"
           ]
         },
         {
@@ -678,27 +679,25 @@
     },
     "latestBrowserE2E": {
       "date": "2026-11-19",
-      "runId": 44597130836,
-      "sourceCommit": "baf505d274556db1d5171627b2c2e43fac6191d1",
+      "runId": 44598010547,
+      "sourceCommit": "fda488ac62baa15939a142c9bd411ca65b7cd94d",
       "status": "completed",
       "conclusion": "success",
-      "browser": "Chromium Playwright Ubuntu Noble",
-      "desktop": true,
-      "mobileEmulation": true,
-      "checks": [
-        "Repaso UC3M 30 preguntas y temporizador",
-        "Nota A-E/3 e historial persistente",
-        "Simulacro UC3M 70+5: 75 tarjetas, 5 reservas fuera de puntuación, etiquetado R1, temporizador 60 min, acceso por teclado",
-        "Dos intentos sin duplicados",
-        "24 deep links con recarga en viewport móvil"
+      "browser": "Chromium con Playwright v1.58.2 en Ubuntu Noble",
+      "verified": [
+        "UC3M 30 preguntas y 70+5 con reservas fuera de nota",
+        "La Puebla 50+5 con reserva excluida de nota y denominador",
+        "Olías 50+20 con teoría y psicotécnico separados y mínimos independientes",
+        "Historial local separado por convocatoria y preservado al cambiar",
+        "Navegación de 24 enlaces temáticos UC3M en viewport móvil"
       ],
-      "notProven": [
-        "MÓVIL FÍSICO",
-        "DOMINIO FINAL PAGES",
-        "ACCESIBILIDAD INTEGRAL",
-        "PWA OFFLINE",
-        "NAVEGADORES NO CHROMIUM",
-        "RESTO CONVOCATORIAS"
+      "stillPending": [
+        "Firefox/Safari",
+        "Dispositivos móviles físicos",
+        "Accesibilidad lector de pantalla",
+        "PWA offline",
+        "Comprobación contra dominio público desplegado",
+        "Todos los modelos restantes"
       ]
     }
   },
