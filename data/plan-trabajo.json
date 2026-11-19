@@ -11,7 +11,9 @@
     ],
     "rule": "Una tarea sólo pasa a HECHO si tiene evidencePaths no vacíos y criterio de aceptación efectivamente cumplido; evitar microcommits y auditorías sin cambios sustantivos.",
     "deduplication": "Usar id estable; buscar tarea existente antes de crear otra. Nuevos hallazgos se agregan como tareas sólo si tienen entregable y criterio de cierre.",
-    "closePhases": "Una fase se considera completada únicamente cuando TODAS sus tareas están HECHO; los bloqueos pendientes impiden el cierre."
+    "closePhases": "Una fase se considera completada únicamente cuando TODAS sus tareas están HECHO; los bloqueos pendientes impiden el cierre.",
+    "sourceOfTruth": "Solo data/plan-trabajo.json para tareas, data/cierre-pendientes-2026.json para bloqueos legales y manifiestos para estados por tema. Archivos históricos son evidencia, no órdenes.",
+    "priorities": "UC3M 21/11 (fecha histórica por confirmar), Diputación C1 15/12, incidencias La Puebla, Radar y QA. Respetar posposición C2 T06 OAPGT."
   },
   "phases": [
     {
@@ -77,7 +79,7 @@
           "id": "DIP-C2-01",
           "title": "Cerrar auditoría documental de T06 C2 (OAPGT)",
           "state": "BLOQUEADA",
-          "blocker": "OAPGT_ESTADOS_CONSOLIDADOS y OAPGT_ACUERDO_REGULADOR, registrados en data/cierre-pendientes-2026.json",
+          "blocker": "Falta cadena de eficacia del proyecto de reforma OAPGT 2004/2005 y acuerdo laboral consolidado; Estatutos 1996/2011 existentes. Tema 6 pospuesto expresamente al último bloque C2.",
           "acceptance": "Cadena normativa y cotejo de banco completos",
           "evidencePaths": [
             "data/cierre-pendientes-2026.json"
@@ -87,7 +89,7 @@
           "id": "DIP-C1-02",
           "title": "Cerrar auditoría documental T22 C1 (OAPGT)",
           "state": "BLOQUEADA",
-          "blocker": "Fuentes normativas de OAPGT todavía no acreditadas en registro existente",
+          "blocker": "Falta confirmar eficacia definitiva OAPGT y artículos vigentes: 12.1.8 (2022) versus 12.2.l.8 (2026), más cotejo de las 96 opciones.",
           "acceptance": "Cadena de eficacia y banco integral cotejados",
           "evidencePaths": [
             "data/cierre-pendientes-2026.json"
@@ -97,10 +99,28 @@
           "id": "UC3M-01",
           "title": "Resolver bloqueos normativos UC3M T10/T15/T16",
           "state": "BLOQUEADA",
-          "blocker": "Fecha de publicación y normas aplicables aún no certificadas; ver registro anterior",
-          "acceptance": "Fuentes primarias y corte normativo comprobados artículo por artículo",
+          "blocker": "Ver registro jurídico: falta fecha primaria de publicación de definitivos UC3M y cierre temporal de T10/T15/T16; no exigir BOCM si bases designan web.",
+          "acceptance": "Fecha y medio de publicación primarios acreditados, versión legal al corte y 48+84+84 alternativas cotejadas. No afirmar que RD 855/2026 se exige sin corte.",
           "evidencePaths": [
             "data/cierre-pendientes-2026.json"
+          ]
+        },
+        {
+          "id": "UC3M-02",
+          "title": "Integrar 24 bloques complementarios UC3M sin inflar el banco",
+          "state": "PENDIENTE",
+          "acceptance": "Inventario de 24 bloques en 9 temas; material Markdown convertido a preguntas compatibles solo cuando sean trazables y comprobadas; navegación y tests efectivos.",
+          "evidencePaths": [
+            "https://github.com/Ivannunezrodriguez/opoweb-dev/blob/main/content/uc3m/COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md"
+          ]
+        },
+        {
+          "id": "UC3M-03",
+          "title": "Repaso focal UC3M y fecha de examen del 21/11",
+          "state": "PENDIENTE",
+          "acceptance": "Confirmar fecha y alcance en comunicación oficial; repasar materia ya validada, sin atribuir al temario normas posteriores a corte no acreditado.",
+          "evidencePaths": [
+            "https://github.com/Ivannunezrodriguez/opoweb-dev/blob/main/content/uc3m/GUIA_EXAMEN_2026.md"
           ]
         }
       ]
@@ -122,9 +142,9 @@
         },
         {
           "id": "RAD-02",
-          "title": "Verificar plazos y cambios de El Viso y Olías con boletines propios",
+          "title": "Resolver discrepancias de Olías y verificar BOE propio de El Viso",
           "state": "PENDIENTE",
-          "acceptance": "No afirmar plazo abierto sin publicación de inicio y vencimiento contrastados",
+          "acceptance": "Contrastar en publicaciones oficiales 1/4 plazas y días naturales/hábiles de Olías; verificar BOE propio de El Viso exp. 2860/2026 sin confundir exp. 1589/2026; no inventar cierre.",
           "evidencePaths": [
             "content/el-viso-auxiliar-c2-2026/index.html",
             "data/convocatorias.json"
@@ -143,6 +163,16 @@
           "state": "PENDIENTE",
           "acceptance": "Muestra de resultados con fuente, fecha de lectura y comprobación de estado; no prometer cobertura completa.",
           "evidencePaths": []
+        },
+        {
+          "id": "RAD-05",
+          "title": "Separar notificaciones de nuevas ofertas del seguimiento personal",
+          "state": "PENDIENTE",
+          "acceptance": "Probar filtro newOnly y seguimiento con casos reales; no enviar listas de admitidos como convocatoria nueva; respetar compatibilidad real de titulación.",
+          "evidencePaths": [
+            "data/radar-profile.json",
+            "assets/radar.js"
+          ]
         }
       ]
     },
@@ -163,19 +193,63 @@
         },
         {
           "id": "QA-02",
-          "title": "Verificar recorridos reales en escritorio y móvil",
+          "title": "E2E real: escritorio, móvil, accesibilidad, PWA, enlaces y rutas de carga",
           "state": "PENDIENTE",
-          "acceptance": "Navegación, carga de datos, accesibilidad y resultados comprobados en navegador; registro de errores reproducibles.",
+          "acceptance": "Pruebas reales con navegador y móvil (incluido offline de verdad), registro de fallos y correcciones; no usar CI como certificación E2E.",
           "evidencePaths": []
         },
         {
           "id": "QA-03",
-          "title": "Proteger frente a regresiones en simulacros y puntuación",
+          "title": "CI HEAD y regresiones de práctica y puntuación",
           "state": "PENDIENTE",
-          "acceptance": "Pruebas automáticas para penalización, preguntas de reserva y resultados, con casos de borde.",
+          "acceptance": "Verificar Actions del HEAD; comprobar +0,20/-0,05, reservas, cambios de convocatoria, persistencia, y esquemas correcta/respuestaCorrecta con casos de borde.",
           "evidencePaths": []
+        },
+        {
+          "id": "QA-04",
+          "title": "Conciliar documentación de opoweb-dev y opoweb-v2 sin borrar historia",
+          "state": "HECHO",
+          "acceptance": "Índice único fuente/autoridad, cinco manifiestos contrastados y rutas de evidencias antiguas diferenciadas; no copiar auditoría de 760k como lista operativa.",
+          "evidencePaths": [
+            "docs/ESTADO_UNIFICADO_OPOWEB_OPORADAR_20261119.md",
+            "data/plan-trabajo.json"
+          ]
+        },
+        {
+          "id": "QA-05",
+          "title": "Depurar referencias de estado obsoletas sin romper enlaces ni validadores",
+          "state": "PENDIENTE",
+          "acceptance": "Listar enlaces dependientes y corregir únicamente textos vigentes que aún proclamen 4 programas o 79/97 auditados; conservar bitácora histórica e historial Git.",
+          "evidencePaths": [
+            "https://github.com/Ivannunezrodriguez/opoweb-dev/blob/main/docs/CIERRE_OPERATIVO_2026-11-11.md"
+          ]
+        },
+        {
+          "id": "QA-06",
+          "title": "Consolidar reglas editoriales de referencia entre repositorios",
+          "state": "PENDIENTE",
+          "acceptance": "Reglas editorialmente compatibles en ruta accesible del repositorio público, sin contradictorias fuentes múltiples; preservar originales y verificar enlaces.",
+          "evidencePaths": [
+            "https://github.com/Ivannunezrodriguez/opoweb-dev/blob/main/PROJECT_RULES.md"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "consolidation": {
+    "sourceRepos": [
+      "Ivannunezrodriguez/opoweb-v2",
+      "Ivannunezrodriguez/opoweb-dev"
+    ],
+    "summary": "docs/ESTADO_UNIFICADO_OPOWEB_OPORADAR_20261119.md",
+    "historicalAudit": "https://github.com/Ivannunezrodriguez/opoweb-dev/blob/main/AUDITORIA_CONTINUA.md",
+    "legalClosureRegister": "data/cierre-pendientes-2026.json",
+    "manifestSnapshot": {
+      "auditado": 116,
+      "total": 121,
+      "editorialPending": 5,
+      "integralCertificationProven": 0
+    },
+    "rule": "OpoWeb-v2 es fuente operativa de tareas; opoweb-dev es fuente histórica. No reiniciar auditorías documentales concluidas salvo nueva incidencia."
+  }
 }
