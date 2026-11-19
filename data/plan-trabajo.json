@@ -321,17 +321,21 @@
         },
         {
           "id": "QA-03",
-          "title": "Verificar CI HEAD y regresiones de práctica y puntuación",
-          "state": "PENDIENTE",
+          "title": "CI HEAD verificado para publicación y plan; regresiones completas de puntuación aún pendientes",
+          "state": "PARCIAL",
           "acceptance": "Verificar Actions del HEAD; comprobar +0,20/-0,05, reservas, cambios de convocatoria, persistencia, y esquemas correcta/respuestaCorrecta con casos de borde.",
-          "evidencePaths": [],
+          "evidencePaths": [
+            "plan.html"
+          ],
           "completedSubsteps": [
-            "Añadida prueba automática estructural y de rutas para itinerario UC3M"
+            "Añadida prueba automática estructural y de rutas para itinerario UC3M",
+            "Workflow exportación 44541961393: completed/success en commit 5a5241adce49e85cd994a95c82b901036c87a9e0",
+            "Workflow publicación 44541961098: completed/success, build y sincronización site/main correctos",
+            "Validador incorporado: estados, premisas, rutas de evidencia y carpetas; CI ejecutado y superado"
           ],
           "remainingSubsteps": [
-            "Obtener resultado verificado SUCCESS del workflow actual",
-            "Pruebas automáticas adicionales de puntuación y reservas",
-            "E2E navegador y móvil"
+            "Completar pruebas de puntuación para todas las convocatorias, incluidas reservas y errores",
+            "Pruebas E2E en navegador móvil/escritorio, progreso e interacción real"
           ]
         },
         {
@@ -350,10 +354,12 @@
           "acceptance": "Listar enlaces dependientes y corregir únicamente textos vigentes que aún proclamen 4 programas o 79/97 auditados; conservar bitácora histórica e historial Git.",
           "evidencePaths": [],
           "completedSubsteps": [
-            "README, PROJECT_RULES y plan histórico Radar remiten al archivo maestro único"
+            "README, PROJECT_RULES y plan histórico Radar remiten al archivo maestro único",
+            "Se corrigió enlace de evidencia directorio Diputación C1 para que use GitHub tree/main",
+            "Prueba CI comprueba evidencias internas del plan maestro exportado sin rutas rotas"
           ],
           "remainingSubsteps": [
-            "Revisar referencias obsoletas en interfaces publicadas y validadores sin romper dependencias"
+            "Cotejar referencias históricas fuera del tablero y evitar referencias obsoletas en los otros documentos sin perder auditorías"
           ]
         },
         {
@@ -421,11 +427,13 @@
           "completedSubsteps": [
             "Árboles main y site con 821 blobs cada uno e idénticos por SHA",
             "plan.html y uc3m-24-bloques.html y JSON público verificados mediante API de GitHub",
-            "Proyección del plan elimina privateInventory y reporta publicReadOnly=true"
+            "Proyección del plan elimina privateInventory y reporta publicReadOnly=true",
+            "Publicado exitosamente commit 5a5241adce49e85cd994a95c82b901036c87a9e0 en Actions 44541961098",
+            "Nueva prueba de exportación completada SUCCESS en Actions 44541961393"
           ],
           "remainingSubsteps": [
-            "Verificar ejecución de workflow por página de Actions (conclusión exacta)",
-            "Comprobar navegador real Pages: cargar y corregir el repaso exprés, historial y móvil"
+            "Probar navegador real: tablero y repaso UC3M con respuestas, resultados e historial en desktop/móvil",
+            "Confirmar accesibilidad básica/lectores de pantalla y estado offline"
           ]
         },
         {
@@ -605,7 +613,27 @@
     "legacyRemovedPointers": [
       "AUDIT_STATUS.md",
       "MIGRACION_PRIVADA.md"
-    ]
+    ],
+    "latestVerifiedCI": {
+      "date": "2026-11-19",
+      "sourceCommit": "5a5241adce49e85cd994a95c82b901036c87a9e0",
+      "publish": {
+        "runId": 44541961098,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      "validation": {
+        "runId": 44541961393,
+        "status": "completed",
+        "conclusion": "success"
+      },
+      "scope": "Validación de código, construcción de salida, exportación y rutas documentales. No equivale a E2E de navegador ni revisión jurídica integral."
+    },
+    "lastQualityImprovement": {
+      "id": "PLAN-EVIDENCE-DIRECTORY",
+      "result": "Corregidos enlaces GitHub para directorios y añadido test de integridad y premisas del plan",
+      "commit": "5a5241adce49e85cd994a95c82b901036c87a9e0"
+    }
   },
   "completedMilestones": [
     {
