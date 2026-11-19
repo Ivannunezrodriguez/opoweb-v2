@@ -311,12 +311,22 @@
         },
         {
           "id": "QA-02",
-          "title": "E2E real: escritorio, móvil, accesibilidad, PWA, enlaces y corrección UC3M",
-          "state": "PENDIENTE",
+          "title": "Pruebas E2E Chromium UC3M escritorio y vista móvil; accesibilidad/PWA restantes",
+          "state": "PARCIAL",
           "acceptance": "Abrir 24 apartados UC3M y repaso exprés, responder, agotar tiempo, corregir A−E/3 y guardar historial en navegador real; verificar móvil, accesibilidad, enlaces y carga. CI y controles documentales no sustituyen E2E.",
           "evidencePaths": [
             "uc3m-24-bloques.html",
             "assets/practice.js"
+          ],
+          "completedSubsteps": [
+            "Chromium E2E REAL (Actions #44581330433, SUCCESS): 30 preguntas, temporizador, contestar/corregir, nota A-E/3, un solo intento, historial persistente y regreso al hub",
+            "Chromium móvil simulado 390×844: 24 enlaces de itinerario, repaso temático profundo y recarga conservando filtro",
+            "Sin pageerror JavaScript en ambos recorridos; control ejecutado con imagen mcr.microsoft.com/playwright:v1.58.2-noble"
+          ],
+          "remainingSubsteps": [
+            "Accesibilidad: navegación teclado y lector de pantalla/axe o controles WCAG verificables",
+            "PWA/offline y compatibilidad en un dispositivo móvil físico, y otros navegadores",
+            "Ampliar E2E a todos los simulacros y convocatorias, incluyendo reservas 70+5 en interfaz"
           ]
         },
         {
@@ -433,11 +443,13 @@
             "Proyección del plan elimina privateInventory y reporta publicReadOnly=true",
             "Publicado exitosamente commit 5a5241adce49e85cd994a95c82b901036c87a9e0 en Actions 44541961098",
             "Nueva prueba de exportación completada SUCCESS en Actions 44541961393",
-            "Validación y publicación 44554107001/44554106609 completadas con success. Sin escrituras de informes a main."
+            "Validación y publicación 44554107001/44554106609 completadas con success. Sin escrituras de informes a main.",
+            "Prueba UC3M Chromium publicada y ejecutada SUCCESS en Actions #44581330433"
           ],
           "remainingSubsteps": [
-            "Probar navegador real: tablero y repaso UC3M con respuestas, resultados e historial en desktop/móvil",
-            "Confirmar accesibilidad básica/lectores de pantalla y estado offline"
+            "Probar Pages con navegador real servido desde dominio final (E2E actual se ejecutó en servidor local del runner)",
+            "Confirmar accesibilidad básica y estado offline/PWA",
+            "Verificar flujo de publicación si cambian rutas o manifest público"
           ]
         },
         {
@@ -660,6 +672,31 @@
       "rootCause": "push concurrente del reporte de validación desde varias Actions, después de tests satisfactorios",
       "fix": "workflow validate-public-export ahora usa permisos contents:read, no hace git push y sube ops/public-export-validation.json como artifact",
       "successRun": 44553799642
+    },
+    "latestBrowserE2E": {
+      "date": "2026-11-19",
+      "runId": 44581330433,
+      "sourceCommit": "4287dbe45fe4cb08767d6607a298ce103c8f3c65",
+      "status": "completed",
+      "conclusion": "success",
+      "browser": "Chromium oficial Playwright 1.58.2 (contenedor ubuntu noble)",
+      "desktop": true,
+      "mobileEmulation": true,
+      "checks": [
+        "30 preguntas y temporizador",
+        "Corrección y nota directa A-E/3",
+        "Una entrada historial y regreso al centro",
+        "24 enlaces temáticos",
+        "Repaso filtrado y recarga URL",
+        "Sin JS pageerrors"
+      ],
+      "notProven": [
+        "DOMINIO_PAGES",
+        "MÓVIL_FÍSICO",
+        "LECTOR_PANTALLA",
+        "PWA_OFFLINE",
+        "NAVEGADORES_ADICIONALES"
+      ]
     }
   },
   "completedMilestones": [
