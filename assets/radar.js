@@ -177,15 +177,34 @@ function render(){
  const scopeFallback={
   'DIRECT':'Sedes configuradas y directorio municipal; cobertura desigual',
   'BOE':'Sumarios de los últimos siete días',
-  'BOCM':'Último boletín disponible por RSS; no es histórico completo',
+  'BOCM':'Sumarios XML de siete días localizados mediante el RSS oficial',
   'BOP Toledo':'Sumarios de los últimos siete días',
-  'DOCM':'Sumario de portada, no es histórico completo',
+  'DOCM':'Sumarios fechados de los últimos siete días',
   'PAG':'Exportación de convocatorias con plazo incluido en la fuente'
+ };
+ const coverageDescription=x=>{
+  const c=x.coverage;
+  if(!c)return '';
+  if(x.source==='BOCM'){
+   const fail=(c.failedIssues||[]).map(e=>e.date).join(', ');
+   return ' · Números leídos: '+Number(c.issuesRead||0)+' de '+Number(c.issuesIdentified||0)+
+    (fail?' · Número no accesible: '+fail:'')+
+    (Number(c.issuesIdentified||0)<7?' · Los días sin número no se contabilizan como boletines.':'');
+  }
+  if(x.source==='DOCM'){
+   const fail=(c.failedDates||[]).map(e=>e.date).join(', ');
+   return ' · Días con sumario leído: '+(c.readDates||[]).length+
+    ' · Sin número localizado: '+(c.emptyDates||[]).length+
+    (fail?' · Sin consultar: '+fail:'');
+  }
+  return '';
  };
  const sourceScopes=(data.sourceStatus||[])
   .filter(x=>x&&typeof x.source==='string')
-  .map(x=>'<li><strong>'+esc(x.source)+'</strong> · '+(x.ok?'Disponible':'No disponible')+
-   ': '+esc(x.scope||scopeFallback[x.source]||'Alcance no identificado')+'</li>').join('');
+  .map(x=>'<li><strong>'+esc(x.source)+'</strong> · '+
+   (x.ok?(x.coverage?.partial?'Cobertura parcial':'Disponible'):'No disponible')+
+   ': '+esc(x.scope||scopeFallback[x.source]||'Alcance no identificado')+
+   esc(coverageDescription(x))+'</li>').join('');
  const docsAttempted=data.enrichmentStatus?.attempted||0;
  const docsRead=data.enrichmentStatus?.read||0;
  const lowDocumentCoverage=docsAttempted>=10&&docsRead/docsAttempted<0.2;
