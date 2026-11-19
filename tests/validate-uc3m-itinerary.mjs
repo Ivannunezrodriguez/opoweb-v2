@@ -49,4 +49,26 @@ assert.match(js, /params\.get\('temaRepaso'\)/, 'Falta lectura del tema en la UR
 assert.match(js, /repasoQuery/, 'No se conserva el enlace profundo.');
 assert.match(page, /temaRepaso=/, 'No se incluye el filtro en el enlace.');
 assert.match(practice, /practice\.js\?v=/, 'Sin versión de caché para el motor.');
-console.log('OK: 24 apartados, 9 temas, ' + packs.length + ' paquetes, ' + questionIds.size + ' preguntas existentes y enlaces temáticos válidos.');
+// El repaso exprés debe reutilizar, sin duplicar IDs, 30 preguntas de 19 temas.
+const all = packs.flatMap(pack => pack.preguntas);
+const unique = [...new Map(all.map(question => [question.id, question])).values()];
+const chosen = [];
+const seen = new Set();
+const addTheme = tema => {
+  const item = unique.find(q => q.tema === tema && !seen.has(q.id));
+  if (item) { seen.add(item.id); chosen.push(item); }
+};
+for (let tema = 2; tema <= 20; tema += 1) addTheme(tema);
+for (const tema of [2,3,4,8,9,10,12,13,14,15,16]) addTheme(tema);
+assert.equal(chosen.length, 30, 'Repaso exprés debe contener 30 ítems.');
+assert.equal(new Set(chosen.map(q => q.tema)).size, 19, 'El repaso exprés debe cubrir los temas 2 a 20.');
+assert.equal(seen.size, 30, 'No deben repetirse preguntas.');
+assert.match(js, /function buildUC3MQuickReview\(/, 'Falta el constructor del repaso exprés.');
+assert.match(js, /repaso-final-uc3m/, 'Falta corrección independiente del repaso exprés.');
+assert.match(js, /uc3mQuick\) \? Number\(\(correct - errors \/ 3\)/, 'Falta penalización de un tercio del error.');
+const score = (hits, misses) => Number((hits - misses / 3).toFixed(2));
+assert.equal(score(20, 6), 18);
+assert.equal(score(30, 0), 30);
+assert.equal(score(0, 30), -10);
+
+console.log('OK: 24 apartados, 9 temas, ' + packs.length + ' paquetes, ' + questionIds.size + ' preguntas existentes y enlaces temáticos válidos y repaso exprés 30/30.');
