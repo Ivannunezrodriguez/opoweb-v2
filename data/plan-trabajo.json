@@ -526,7 +526,15 @@
       ]
     },
     "remainingReviewScope": "El inventario de rutas/SHA cubre ambos repositorios y los 37 informes audit/*.md se han leído; los restantes scripts, tests, manuales y archivos JSON de los 266 exclusivos privados NO han sido examinados línea a línea. OPS-05 sigue PARCIAL. No afirmar auditoría semántica total.",
-    "legacyAuditFilesCount": 37
+    "legacyAuditFilesCount": 37,
+    "reviewNotes": {
+      "ops/public-export-validation.json": "PASSED para commit histórico; no equivale a E2E del último HEAD",
+      "ops/regional-coverage-latest.json": "Ventana semanal 19/11 BOCM 6/6, DOCM cinco ediciones; cierre puntual, no cobertura permanente",
+      "ops/radar-document-diagnostics.json": "Diagnósticos acumulados no equivalen a errores del último rastreo, no reabrir incidencias históricas como nuevas",
+      "ops/backup-public-main-diagnostic.json": "Intento histórico de backup con fallo; el preflight posterior READY y snapshot exigen cotejo antes de cualquier restauración",
+      "ops/radar-source-alternatives-probe.json": "Sondas históricas fallidas Getafe y Madrid; evitar generar tareas duplicadas sin repetir verificación",
+      "docs/FORMATO_SIMETRICO_CONVOCATORIAS.md": "Guía de diseño con estado histórico cuatro programas, ahora cinco; no ejecutar cola julio"
+    }
   },
   "completedMilestones": [
     {
