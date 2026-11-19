@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0f172a">
+<title>Banco transversal de Auxiliar Administrativo · OpoWeb</title>
+<meta name="description" content="Tests de materias comunes a administraciones públicas, con procedencia y revisión editorial identificadas.">
+<link rel="stylesheet" href="assets/styles.css?v=0.27.34">
+<link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+</head>
+<body>
+<header class="site-header"><div><p class="eyebrow">OpoWeb · práctica reutilizable</p><h1>Banco transversal de Auxiliar Administrativo</h1>
+<p class="subtitle">Ayuntamientos · Diputaciones · JCCM · SESCAM · Universidades · Estado</p></div></header>
+<nav class="site-nav" aria-label="Secciones de OpoWeb">
+<a href="index.html">📚 Temarios</a><a href="practice.html">📝 Tests por convocatoria</a><a href="banco-transversal.html" aria-current="page">🗂 Banco transversal</a><a href="radar.html">🔎 OpoRadar</a>
+</nav>
+<main class="layout" id="transversal-app" aria-live="polite">
+<section class="panel">
+<h2>Selecciona el tipo de test</h2>
+<div class="radar-controls" style="display:flex;gap:1rem;flex-wrap:wrap">
+<label>Materia <select id="f-materia" aria-label="Seleccionar materia"><option>Cargando materias…</option></select></label>
+<label>Administración <select id="f-ambito" aria-label="Seleccionar ámbito"><option>Cargando ámbitos…</option></select></label>
+<label>Procedencia <select id="f-origen" aria-label="Seleccionar origen"><option>Cargando orígenes…</option></select></label>
+</div>
+</section>
+<div id="question-area"><section class="panel"><p>Cargando preguntas…</p></section></div>
+<section class="panel"><h2>Procedencia y control de calidad</h2>
+<p>Una pregunta solo se etiquetará como procedente de un <strong>examen oficial</strong> cuando se disponga de su enunciado y cuatro opciones fieles, el número de pregunta, el documento del tribunal que respalda la respuesta y una revisión de vigencia normativa.</p>
+<p>Las cuestiones de elaboración propia y las reconstrucciones orientativas tienen categorías distintas y nunca se presentarán como transcripciones de examen.</p>
+<p>La clasificación por administraciones orienta sobre la materia, no garantiza que figure en cada programa concreto.</p>
+</section>
+</main>
+<footer><p>OpoWeb · Las respuestas e intentos personales se guardan únicamente en el navegador.</p></footer>
+<script type="module" src="assets/banco-transversal.js?v=2026.11.19.01"></script>
+</body></html>
