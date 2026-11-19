@@ -114,19 +114,24 @@
             "data/uc3m-24-bloques-20261119.json",
             "uc3m-24-bloques.html",
             "assets/practice.js",
-            "content/uc3m/GUIA_EXAMEN_2026.md"
+            "content/uc3m/GUIA_EXAMEN_2026.md",
+            "tests/validate-uc3m-itinerary.mjs",
+            ".github/workflows/validate-uc3m-itinerary.yml"
           ],
           "completedSubsteps": [
             "Mapa 24/24 apartados y 9/9 temas",
             "11 paquetes existentes con 162 preguntas, identificadores únicos y cuatro opciones válidas",
             "Enlaces directos a la práctica sin copiar ni aumentar las preguntas originales",
             "Enlaces del índice filtran por tema: 24/24 apartados con preguntas disponibles; 9/9 temas cubiertos",
-            "Revisión cruzada de 24 enlaces, sin paquetes vacíos, y versión de JS actualizada"
+            "Revisión cruzada de 24 enlaces, sin paquetes vacíos, y versión de JS actualizada",
+            "Reparación verificada en código: enlace de repaso se conserva tras recargar, y al volver se retiran parámetros antiguos",
+            "Control exhaustivo de archivos UC3M: 24 enlaces, 9 temas, 11 paquetes, 162 preguntas únicas, materiales y claves con estructura correcta",
+            "Publicado test independiente y workflow GitHub Actions para detectar regresiones"
           ],
           "remainingSubsteps": [
-            "Verificar en navegador real apertura, corrección, historial y vistas móviles",
-            "Completar correspondencia pregunta-subapartado, no acreditada por el filtro temático",
-            "Cotejo jurídico de preguntas sujeto al corte normativo"
+            "Acreditar ejecución SUCCESS del nuevo workflow en HEAD",
+            "Prueba E2E real: enlace, respuesta, corrección, historial, móvil",
+            "Correspondencia didáctica subapartado-pregunta individual (no inferida de tema)"
           ]
         },
         {
@@ -226,10 +231,21 @@
         },
         {
           "id": "QA-03",
-          "title": "CI HEAD y regresiones de práctica y puntuación",
+          "title": "Verificar CI HEAD y regresiones de práctica y puntuación",
           "state": "PENDIENTE",
           "acceptance": "Verificar Actions del HEAD; comprobar +0,20/-0,05, reservas, cambios de convocatoria, persistencia, y esquemas correcta/respuestaCorrecta con casos de borde.",
-          "evidencePaths": []
+          "evidencePaths": [
+            "tests/validate-uc3m-itinerary.mjs",
+            ".github/workflows/validate-uc3m-itinerary.yml"
+          ],
+          "completedSubsteps": [
+            "Añadida prueba automática estructural y de rutas para itinerario UC3M"
+          ],
+          "remainingSubsteps": [
+            "Obtener resultado verificado SUCCESS del workflow actual",
+            "Pruebas automáticas adicionales de puntuación y reservas",
+            "E2E navegador y móvil"
+          ]
         },
         {
           "id": "QA-04",
