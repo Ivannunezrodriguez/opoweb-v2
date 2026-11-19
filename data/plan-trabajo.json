@@ -330,9 +330,10 @@
             "Accesibilidad básica Chromium: foco visible de radios, aria-describedby en cada pregunta, temporizador aria-live=off y foco programático al resultado; run 44603345112 completed/success en 9a8b358f6aa42dc389d2ba13407353bc3573c700."
           ],
           "remainingSubsteps": [
-            "PWA/offline y compatibilidad en un dispositivo móvil físico, y otros navegadores",
             "Ampliar E2E a simulacros restantes no cubiertos y a Diputación C1 si hay modelos evaluables; La Puebla 1, Olías 1 y UC3M 1 ya probados",
-            "Accesibilidad restante: auditoría axe/ARIA de todo el sitio, navegación completa solo con teclado y prueba con lector de pantalla real"
+            "Accesibilidad restante: auditoría axe/ARIA de todo el sitio, navegación completa solo con teclado y prueba con lector de pantalla real",
+            "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
+            "Compatibilidad en móvil físico y navegadores distintos de Chromium"
           ]
         },
         {
@@ -450,7 +451,8 @@
             "Publicado exitosamente commit 5a5241adce49e85cd994a95c82b901036c87a9e0 en Actions 44541961098",
             "Nueva prueba de exportación completada SUCCESS en Actions 44541961393",
             "Validación y publicación 44554107001/44554106609 completadas con success. Sin escrituras de informes a main.",
-            "Prueba UC3M Chromium publicada y ejecutada SUCCESS en Actions #44581330433"
+            "Prueba UC3M Chromium publicada y ejecutada SUCCESS en Actions #44581330433",
+            "Se confirmó que la retirada offline es intencionada; exportación comprueba que sw.js no intercepta recursos ni conserva cachés antiguos."
           ],
           "remainingSubsteps": [
             "Probar Pages con navegador real servido desde dominio final (E2E actual se ejecutó en servidor local del runner)",
@@ -708,6 +710,13 @@
       "testCommit": "9a8b358f6aa42dc389d2ba13407353bc3573c700",
       "runId": 44603345112,
       "note": "No se ha cambiado ningún algoritmo de puntuación; la prueba ejecuta los flujos ya validados."
+    },
+    "offlinePolicy": {
+      "date": "2026-11-19",
+      "status": "DESACTIVADO_DE_FORMA_DELIBERADA",
+      "reason": "sw.js no intercepta fetch, elimina CacheStorage y se desregistra; index.html también elimina trabajadores y cachés heredados. Reactivar offline sin política de versiones normativas puede servir temarios y respuestas jurídicamente obsoletos.",
+      "verification": "tests/validate-public-export.mjs comprueba worker de retirada, ausencia de fetch interceptado y limpieza en portada. El workflow exportación #44606390362 concluyó SUCCESS.",
+      "remaining": "Diseñar caducidad/versionado por convocatoria y prueba E2E explícita antes de ofrecer estudio offline. No presentar instalación en pantalla de inicio como equivalente a acceso offline."
     }
   },
   "completedMilestones": [
