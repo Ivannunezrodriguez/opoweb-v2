@@ -317,7 +317,8 @@
           "evidencePaths": [
             "uc3m-24-bloques.html",
             "assets/practice.js",
-            "assets/styles.css"
+            "assets/styles.css",
+            "assets/radar.css"
           ],
           "completedSubsteps": [
             "Chromium E2E REAL (Actions #44581330433, SUCCESS): 30 preguntas, temporizador, contestar/corregir, nota A-E/3, un solo intento, historial persistente y regreso al hub",
@@ -327,13 +328,17 @@
             "Se verificó que responder reserva R1 no modifica 0,00/70 y que las 5 reservas se informan por separado; prueba en Chromium real.",
             "Tras fallos iniciales de sintaxis/lectura de test se añadió node --check y se corrigieron selectores y regex; último run SUCCESS.",
             "E2E real Chromium extendido a La Puebla 50+5 y Olías 50+20; historial por convocatoria y reservas/denominadores verificados. Run #44598010547 completed/success, commit fda488ac62baa15939a142c9bd411ca65b7cd94d.",
-            "Accesibilidad básica Chromium: foco visible de radios, aria-describedby en cada pregunta, temporizador aria-live=off y foco programático al resultado; run 44603345112 completed/success en 9a8b358f6aa42dc389d2ba13407353bc3573c700."
+            "Accesibilidad básica Chromium: foco visible de radios, aria-describedby en cada pregunta, temporizador aria-live=off y foco programático al resultado; run 44603345112 completed/success en 9a8b358f6aa42dc389d2ba13407353bc3573c700.",
+            "axe-core WCAG 2.0/2.1 A/AA sin infracciones automáticas en práctica UC3M (centro y preguntas), itinerario de 24 apartados en móvil simulado, portada, OpoRadar y tablero con datos realmente cargados; Chromium Actions #44607297702 SUCCESS.",
+            "Contraste de etiqueta OpoRadar corregido en assets/radar.css; primer axe detectó color-contrast, nueva prueba completa pasó.",
+            "La política offline queda protegida con tests de exportación: sw.js se desregistra y no intercepta fetch. No se afirma que la PWA funcione sin red."
           ],
           "remainingSubsteps": [
             "Ampliar E2E a simulacros restantes no cubiertos y a Diputación C1 si hay modelos evaluables; La Puebla 1, Olías 1 y UC3M 1 ya probados",
-            "Accesibilidad restante: auditoría axe/ARIA de todo el sitio, navegación completa solo con teclado y prueba con lector de pantalla real",
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
-            "Compatibilidad en móvil físico y navegadores distintos de Chromium"
+            "Compatibilidad en móvil físico y navegadores distintos de Chromium",
+            "Accesibilidad pendiente: pruebas con lector de pantalla real y navegación exhaustiva por teclado; axe automatizado solo cubre reglas detectables.",
+            "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios."
           ]
         },
         {
@@ -452,7 +457,8 @@
             "Nueva prueba de exportación completada SUCCESS en Actions 44541961393",
             "Validación y publicación 44554107001/44554106609 completadas con success. Sin escrituras de informes a main.",
             "Prueba UC3M Chromium publicada y ejecutada SUCCESS en Actions #44581330433",
-            "Se confirmó que la retirada offline es intencionada; exportación comprueba que sw.js no intercepta recursos ni conserva cachés antiguos."
+            "Se confirmó que la retirada offline es intencionada; exportación comprueba que sw.js no intercepta recursos ni conserva cachés antiguos.",
+            "axe-core + Chromium en datos cargados de OpoWeb/OpoRadar/tablero: Actions #44607297702 completed/success"
           ],
           "remainingSubsteps": [
             "Probar Pages con navegador real servido desde dominio final (E2E actual se ejecutó en servidor local del runner)",
@@ -715,8 +721,34 @@
       "date": "2026-11-19",
       "status": "DESACTIVADO_DE_FORMA_DELIBERADA",
       "reason": "sw.js no intercepta fetch, elimina CacheStorage y se desregistra; index.html también elimina trabajadores y cachés heredados. Reactivar offline sin política de versiones normativas puede servir temarios y respuestas jurídicamente obsoletos.",
-      "verification": "tests/validate-public-export.mjs comprueba worker de retirada, ausencia de fetch interceptado y limpieza en portada. El workflow exportación #44606390362 concluyó SUCCESS.",
+      "verification": "Exportación CI success #44606390362: sw.js de retirada sin fetch interceptado, index.html elimina trabajadores y cachés antiguos. No existe estudio offline funcional.",
       "remaining": "Diseñar caducidad/versionado por convocatoria y prueba E2E explícita antes de ofrecer estudio offline. No presentar instalación en pantalla de inicio como equivalente a acceso offline."
+    },
+    "latestAccessibilityAudit": {
+      "date": "2026-11-19",
+      "commit": "6ddf311341db66eee2f68d1a4291c8b58de51728",
+      "runId": 44607297702,
+      "status": "completed",
+      "conclusion": "success",
+      "tool": "axe-core 4.10.3 en Chromium Playwright 1.58.2",
+      "rules": "wcag2a,wcag2aa,wcag21a,wcag21aa",
+      "checked": [
+        "UC3M centro de prácticas",
+        "UC3M formulario del repaso",
+        "UC3M 24 apartados móvil emulado",
+        "Portada tras carga de contenidos",
+        "OpoRadar tras carga de oportunidades",
+        "Tablero de tareas tras carga de 34 tareas"
+      ],
+      "resolved": [
+        "color-contrast .radar-hero .eyebrow en superficie clara"
+      ],
+      "limitations": [
+        "No test de lector de pantalla real",
+        "No auditoría manual integral ni de todas las rutas de la web",
+        "No acceso offline; PWA deliberadamente desactivada",
+        "No navegador Firefox ni Safari"
+      ]
     }
   },
   "completedMilestones": [
