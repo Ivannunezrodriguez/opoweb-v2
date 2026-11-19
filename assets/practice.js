@@ -294,6 +294,8 @@ function callSelector() {
 }
 
 function renderHub() {
+  // Al volver al centro de entrenamiento, retirar parámetros de ejercicio obsoletos.
+  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(activeCall.id)}`);
   const progress = progressSummary();
   const uc3mPending = activeCall.id === 'uc3m-auxiliar-administrativa-c2-2026'
     ? programme.temas.filter(theme => theme.estado !== 'AUDITADO').map(theme => theme.numero)
@@ -343,7 +345,10 @@ function renderHub() {
   document.querySelectorAll('[data-theme-test]').forEach(button => button.addEventListener('click', () => startThemeTest(Number(button.dataset.themeTest))));
   document.querySelectorAll('[data-extra-repaso]').forEach(button => button.addEventListener('click', () => {
     const pack = extraRepasos.find(item => item.id === button.dataset.extraRepaso);
-    if (pack) renderExercise(pack.preguntas, pack.titulo, pack.id, 'repaso');
+    if (pack) {
+      history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(activeCall.id)}&repaso=${encodeURIComponent(pack.id)}`);
+      renderExercise(pack.preguntas, pack.titulo, pack.id, 'repaso');
+    }
   }));
   document.querySelectorAll('[data-case]').forEach(button => button.addEventListener('click', () => {
     const selected = supuestos.supuestos.find(item => item.id === button.dataset.case);
@@ -494,7 +499,11 @@ async function loadCall(id, requestedTheme = null, requestedRepaso = null, reque
   const parsedTheme = requestedTheme === null || requestedTheme === '' ? null : Number(requestedTheme);
   const selectedTheme = Number.isInteger(parsedTheme) && parsedTheme >= 1 && parsedTheme <= call.themeCount ? parsedTheme : null;
   const themeQuery = selectedTheme === null ? '' : `&tema=${selectedTheme}`;
-  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(call.id)}${themeQuery}`);
+  // Conservar la URL de un repaso profundo al refrescar o compartir el enlace.
+  const repasoQuery = selectedTheme === null && call.id === 'uc3m-auxiliar-administrativa-c2-2026' && requestedRepaso
+    ? `&repaso=${encodeURIComponent(requestedRepaso)}${requestedRepasoTema ? `&temaRepaso=${encodeURIComponent(requestedRepasoTema)}` : ''}`
+    : '';
+  history.replaceState(null, '', `practice.html?convocatoria=${encodeURIComponent(call.id)}${themeQuery}${repasoQuery}`);
   document.title = `OpoWeb v2 · Práctica · ${call.shortLabel}`;
   app.innerHTML = '<section class="panel intro"><h2>Cargando entrenamiento…</h2></section>';
   const [programmeResponse, supuestosResponse, simulacrosResponse, banks] = await Promise.all([
