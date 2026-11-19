@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-19",
+  "policy": {
+    "purpose": "Registro único de ejecución de OpoWeb y OpoRadar; no sustituye data/cierre-pendientes-2026.json para bloqueos normativos.",
+    "states": [
+      "HECHO",
+      "EN_CURSO",
+      "PENDIENTE",
+      "BLOQUEADA"
+    ],
+    "rule": "Una tarea sólo pasa a HECHO si tiene evidencePaths no vacíos y criterio de aceptación efectivamente cumplido; evitar microcommits y auditorías sin cambios sustantivos.",
+    "deduplication": "Usar id estable; buscar tarea existente antes de crear otra. Nuevos hallazgos se agregan como tareas sólo si tienen entregable y criterio de cierre.",
+    "closePhases": "Una fase se considera completada únicamente cuando TODAS sus tareas están HECHO; los bloqueos pendientes impiden el cierre."
+  },
+  "phases": [
+    {
+      "id": "P1",
+      "title": "Examen real La Puebla",
+      "status": "EN_CURSO",
+      "tasks": [
+        {
+          "id": "LP-EX-01",
+          "title": "Publicar visor y calculadora de respuestas con cautela jurídica",
+          "state": "HECHO",
+          "acceptance": "Visor público trazable en GitHub y enlazado desde practicar; notas orientativas no se presentan como oficiales.",
+          "evidencePaths": [
+            "content/la-puebla/examen-real-2026.html",
+            "practice.html"
+          ]
+        },
+        {
+          "id": "LP-EX-02",
+          "title": "Recuperar preguntas ordinarias 5 a 9 y cotejar todas las claves",
+          "state": "BLOQUEADA",
+          "blocker": "No hay imagen de preguntas 5–9 en las fotografías recibidas; falta plantilla oficial cotejada.",
+          "acceptance": "50/50 enunciados legibles, claves revisadas y correspondencia con plantilla definitiva; referencias para dudas.",
+          "evidencePaths": []
+        },
+        {
+          "id": "LP-EX-03",
+          "title": "Resolver incidencia de pregunta 26 sin afirmar anulación",
+          "state": "EN_CURSO",
+          "acceptance": "Dictamen contrastado con artículo 21 de la Ley 7/1985, plantilla provisional y definitiva; solo Tribunal decide anulación.",
+          "evidencePaths": [
+            "content/la-puebla/examen-real-2026.html"
+          ]
+        },
+        {
+          "id": "LP-EX-04",
+          "title": "Generar simulacro oficial histórico reutilizable",
+          "state": "PENDIENTE",
+          "dependsOn": [
+            "LP-EX-02",
+            "LP-EX-03"
+          ],
+          "acceptance": "50 preguntas evaluables, reservas separadas y sustitución por anulaciones documentada; test real desde practice.",
+          "evidencePaths": []
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "title": "Preparación jurídica y práctica prioritaria",
+      "status": "EN_CURSO",
+      "tasks": [
+        {
+          "id": "DIP-C1-01",
+          "title": "Mantener preparación de Administrativo C1 Diputación (15/12/2026)",
+          "state": "EN_CURSO",
+          "acceptance": "Repaso final con simulacros verificables y priorización por fecha; sin fingir cobertura completa.",
+          "evidencePaths": [
+            "content/diputacion-toledo"
+          ]
+        },
+        {
+          "id": "DIP-C2-01",
+          "title": "Cerrar auditoría documental de T06 C2 (OAPGT)",
+          "state": "BLOQUEADA",
+          "blocker": "OAPGT_ESTADOS_CONSOLIDADOS y OAPGT_ACUERDO_REGULADOR, registrados en data/cierre-pendientes-2026.json",
+          "acceptance": "Cadena normativa y cotejo de banco completos",
+          "evidencePaths": [
+            "data/cierre-pendientes-2026.json"
+          ]
+        },
+        {
+          "id": "DIP-C1-02",
+          "title": "Cerrar auditoría documental T22 C1 (OAPGT)",
+          "state": "BLOQUEADA",
+          "blocker": "Fuentes normativas de OAPGT todavía no acreditadas en registro existente",
+          "acceptance": "Cadena de eficacia y banco integral cotejados",
+          "evidencePaths": [
+            "data/cierre-pendientes-2026.json"
+          ]
+        },
+        {
+          "id": "UC3M-01",
+          "title": "Resolver bloqueos normativos UC3M T10/T15/T16",
+          "state": "BLOQUEADA",
+          "blocker": "Fecha de publicación y normas aplicables aún no certificadas; ver registro anterior",
+          "acceptance": "Fuentes primarias y corte normativo comprobados artículo por artículo",
+          "evidencePaths": [
+            "data/cierre-pendientes-2026.json"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "title": "OpoRadar: oportunidades reales sin ruido",
+      "status": "EN_CURSO",
+      "tasks": [
+        {
+          "id": "RAD-01",
+          "title": "Mantener La Puebla como seguimiento y no como convocatoria nueva",
+          "state": "HECHO",
+          "acceptance": "Enlace al examen y aviso de plazo provisional sin promoverlo como plaza nueva.",
+          "evidencePaths": [
+            "radar.html",
+            "data/convocatorias.json"
+          ]
+        },
+        {
+          "id": "RAD-02",
+          "title": "Verificar plazos y cambios de El Viso y Olías con boletines propios",
+          "state": "PENDIENTE",
+          "acceptance": "No afirmar plazo abierto sin publicación de inicio y vencimiento contrastados",
+          "evidencePaths": [
+            "content/el-viso-auxiliar-c2-2026/index.html",
+            "data/convocatorias.json"
+          ]
+        },
+        {
+          "id": "RAD-03",
+          "title": "Mejorar cobertura de bolsas, interinidades y sustituciones Toledo/sur de Madrid",
+          "state": "PENDIENTE",
+          "acceptance": "Fuentes específicas auditables; entradas duplicadas colapsadas; anuncios históricos no presentados como nuevas oportunidades.",
+          "evidencePaths": []
+        },
+        {
+          "id": "RAD-04",
+          "title": "Auditar frescura, errores de extracción y falsos positivos del feed",
+          "state": "PENDIENTE",
+          "acceptance": "Muestra de resultados con fuente, fecha de lectura y comprobación de estado; no prometer cobertura completa.",
+          "evidencePaths": []
+        }
+      ]
+    },
+    {
+      "id": "P4",
+      "title": "Calidad de producto y trazabilidad",
+      "status": "EN_CURSO",
+      "tasks": [
+        {
+          "id": "QA-01",
+          "title": "Crear tablero persistente de fases y tareas con enlaces a evidencias",
+          "state": "HECHO",
+          "acceptance": "JSON canónico y página legible con estados, filtros y vínculo al registro de bloqueos",
+          "evidencePaths": [
+            "data/plan-trabajo.json",
+            "plan.html"
+          ]
+        },
+        {
+          "id": "QA-02",
+          "title": "Verificar recorridos reales en escritorio y móvil",
+          "state": "PENDIENTE",
+          "acceptance": "Navegación, carga de datos, accesibilidad y resultados comprobados en navegador; registro de errores reproducibles.",
+          "evidencePaths": []
+        },
+        {
+          "id": "QA-03",
+          "title": "Proteger frente a regresiones en simulacros y puntuación",
+          "state": "PENDIENTE",
+          "acceptance": "Pruebas automáticas para penalización, preguntas de reserva y resultados, con casos de borde.",
+          "evidencePaths": []
+        }
+      ]
+    }
+  ]
+}
