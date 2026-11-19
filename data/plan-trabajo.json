@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "updatedAt": "2026-11-19",
   "policy": {
     "purpose": "Registro MAESTRO único, editable solo en repositorio privado opoweb-dev. opoweb-v2/data/plan-trabajo.json es copia filtrada y derivada para plan.html, nunca se edita directamente.",
@@ -18,7 +18,9 @@
     "evidenceStandard": "HECHO acredita estrictamente la entrega definida, PARCIAL ejecución incompleta con hito verificable, EN_CURSO trabajo activo, BLOQUEADA dependencia objetiva, PENDIENTE sin entregar. Un archivo existente no prueba revisión jurídica, E2E o CI.",
     "syncRule": "NUNCA editar opoweb-v2/main ni site como repositorio fuente; toda corrección pasa por privado, filtro de privacidad, pruebas y publicación que sincroniza ambas ramas públicas.",
     "notGoingBackward": "Antes de iniciar tarea comprobar clave estable, hitos completados, variantes de archivos por SHA, notas históricas ya cerradas, resultado de última CI y si la tarea fue implementada en herramientas privadas.",
-    "archivePolicy": "Los informes fechados y la bitácora de 760k se conservan sin ejecutarlos como plan; no borrar ni compactar sin análisis de enlaces/validadores.",
+    "archivePolicy": "Guardar solo fuentes o evidencia necesarias y referencias técnicas; eliminar redirecciones y planes antiguos exclusivamente tras comprobar que no son dependencias. Git conserva el historial recuperable.",
+    "projectPremisesLocation": "projectPremises (obligatorio antes de cualquier trabajo o cierre)",
+    "singleStatusContract": "Solo este fichero gobierna estado, prioridades, hitos, tareas, motivos de cierre y decisiones; fuentes y pruebas técnicas no son listas alternativas de trabajo.",
     "publicReadOnly": true
   },
   "phases": [
@@ -534,6 +536,20 @@
       "ops/backup-public-main-diagnostic.json": "Intento histórico de backup con fallo; el preflight posterior READY y snapshot exigen cotejo antes de cualquier restauración",
       "ops/radar-source-alternatives-probe.json": "Sondas históricas fallidas Getafe y Madrid; evitar generar tareas duplicadas sin repetir verificación",
       "docs/FORMATO_SIMETRICO_CONVOCATORIAS.md": "Guía de diseño con estado histórico cuatro programas, ahora cinco; no ejecutar cola julio"
+    },
+    "cleanup": {
+      "stage": "PREPARADO",
+      "date": "2026-11-19",
+      "principle": "Eliminar únicamente obsoletos verificablemente no consumidos; conservar evidencia histórica vinculada y documentación funcional.",
+      "deleted": [],
+      "preserved": [
+        "AUDITORIA_CONTINUA.md por dependencias históricas y validadores",
+        "data/cierre-pendientes-2026.json como soporte legal",
+        "data/programa*.json como estados por tema",
+        "docs/PLAN_UNICO_OPOWEB_RADAR.md como evidencia técnica histórica de radar/privacidad hasta cotejo de dependencias",
+        "PROJECT_RULES.md y EDITORIAL_GUIDE.md mientras haya referencias no trasladadas"
+      ],
+      "tests": "Pendiente verificar dependencias concretas de candidatos y comparar publicación antes de borrar."
     }
   },
   "completedMilestones": [
@@ -607,5 +623,60 @@
       "evidence": "opoweb-dev/content/diputacion-toledo/OAPGT_MATRIZ_NORMATIVA_COMPARTIDA_20261110.md",
       "scope": "CADENA_EFICACIA_ESTATUTOS_PENDIENTE"
     }
-  ]
+  ],
+  "projectPremises": {
+    "version": "2026-11-19",
+    "authority": "PROPÓSITO_Y_CRITERIOS_VINCULANTES",
+    "scope": "OpoWeb v2 + OpoRadar, cinco convocatorias; una sola cola activa de trabajo.",
+    "mission": "OpoWeb debe ser fuente editorial única de estudio para las convocatorias cubiertas, completa y útil para estudiar desde móvil y ordenador, con trazabilidad a fuentes oficiales; OpoRadar debe detectar oportunidades reales de empleo público accesibles en Toledo y sur de Madrid sin perder novedades.",
+    "repositories": {
+      "source": "Ivannunezrodriguez/opoweb-dev (privado, main): código, auditoría, pruebas, secretos solo en GitHub Actions, y ESTE registro maestro",
+      "public": "Ivannunezrodriguez/opoweb-v2 (público): salida filtrada, ramas main y site sincronizadas; GitHub Pages en site",
+      "onlyStatusFile": "data/plan-trabajo.json en opoweb-dev",
+      "publicProjection": "data/plan-trabajo.json del sitio es copia de solo lectura despersonalizada; nunca origen de cambios",
+      "publish": "Modificar solo el privado y publicar mediante build-public-site + workflow publish-public-site. No restaurar / reescribir a ciegas archivos públicos."
+    },
+    "editorial": {
+      "officialProgram": "Leer PDF oficial exacto de la convocatoria, reproducir orden de temas, epígrafes, apartados y subapartados; distinguir exigible, complemento y contenido ajeno.",
+      "sources": "Contrastar hechos jurídico-test (plazos, órganos, mayorías, cuantías, excepciones) contra BOE/BOP/DOCM/BOCM y boletines oficiales consolidados aplicables. Fecha de corte normativa específica por convocatoria cuando la base la fija. No inventar reforma, entrada en vigor ni fecha de publicación.",
+      "fidelity": "Mantener literalidad de definiciones normativas esenciales sin copiar legislación ajena ilimitadamente. Explicar reglas, excepciones, efectos y supuestos de examen.",
+      "markup": "Markdown limpio, títulos ##/###, párrafos cortos y viñetas, negrita en plazos, fechas, cuantías, mayorías y órganos; tablas comparativas para conceptos confundibles; cierre de subapartado clave mediante cita exacta > ⚠️ **¡Foco Examen!:** solo con trampa real.",
+      "coverage": "Para cada tema: programa literal, resumen, manual por bloques, matrices inciso→norma→artículo→contenido, tablas, esquema final, preguntas, respuestas justificadas, supuestos/simulacros pertinentes y referencias.",
+      "questions": "Una única respuesta inequívoca por pregunta, cuatro opciones cuando lo exija convocatoria, clave y fundamento trazable; distractores plausibles sin otra respuesta defendible. No atribuir preguntas propias a exámenes oficiales. Nunca duplicar bancos ni contar repetidas como nueva cobertura.",
+      "status": "AUDITADO es etiqueta documental; no significa certificación E2E, vigencia jurídica integral ni apto. Mantener estados de cada tema en manifiestos y el resumen de trabajo solo aquí.",
+      "prioritization": "Priorización pragmática por fecha de examen. Dudas de corte legal se señalan y tratan de forma proporcional sin impedir estudiar, salvo respuestas materialmente dudosas."
+    },
+    "radar": {
+      "geography": "Toda la provincia de Toledo y sur de Madrid; incluir ofertas de instituciones estatales, autonómicas, provinciales, municipales y entidades públicas con destino relevante.",
+      "opportunities": "Plazas libres, bolsas, personal funcionario interino, sustituciones, contratos laborales temporales, relevos, suplencias y convocatorias extraordinarias. No restringir a auxiliar administrativo si titulación/requisitos permiten participar.",
+      "eligibility": "No afirmar CUMPLE por subgrupo o título del puesto. Verificar bases y requisitos reales (titulación, experiencia, habilitaciones, permiso de conducir, turno, tasas, ámbito y fecha) o marcar REVISAR/NO_CUMPLE.",
+      "alerts": "Solo NOVEDADES comprobables a petición del usuario, sin reutilizar archivo histórico ni confundir cambio de fase con nueva convocatoria. Estado de seguimiento de procesos ya detectados no genera correo salvo autorización expresa. Deduplicación prudente por expediente, fuente, URL y fechas verificadas.",
+      "dates": "Distinguir fecha detectada, fecha de publicación, apertura, plazo oficial, día natural/hábil, festivos y correcciones. Nunca cerrar plazo por regla general de 20 días ni calcular sin fecha inicial comprobada.",
+      "quality": "Declarar cobertura REAL por fuente, fallos/lecturas parciales y falsos positivos. Un boletín leído no implica todas las bases contrastadas; no confundir número de anuncios con oportunidades aptas.",
+      "privacy": "No publicar estados personales, justificantes, DNI, correos, datos familiares o secretos. Desarrollo privado, exportación con lista blanca y escaneo de datos personales. Nunca registrar identificadores privados en el plan público."
+    },
+    "process": {
+      "lifecycle": "Solo estados HECHO, PARCIAL, EN_CURSO, PENDIENTE, BLOQUEADA; fase HECHO solo si todas sus tareas HECHO. Tarea exige ID estable, criterio de aceptación, evidencia verificable y responsables/bloqueos si proceden.",
+      "noRegression": "Antes de cambiar código o contenido: consultar este archivo, comprobar hitos, datos ya publicados, historial de commits, documentos oficiales asociados, dependencias, compatibilidad entre privado y público y último resultado real de Actions. No deshacer cambios terminados o tareas pospuestas.",
+      "deletion": "Borrado solo tras inspeccionar contenido y buscar dependencias (imports, enlaces, workflows, validadores, docs, exportador, publicación). Conservar evidencia única e histórica referenciada. Registrar ruta, motivo, verificación, SHA recuperable y efecto sobre CI. Si no puede verificarse, mantener.",
+      "delivery": "Trabajar con commits sustantivos, no microcommits ni informes repetitivos; verificar fuentes GitHub antes de informar HECHO. Distinguir sintaxis/JSON/CI de pruebas reales E2E navegador, accesibilidad, móvil, PWA y validez jurídica.",
+      "priorities": [
+        "Examen inmediato UC3M C2 21/11/2026: preparación funcional y repaso ya implementados; no reabrir sin incidencia",
+        "Diputación Toledo Administrativo C1: examen 15/12/2026; prioridad siguiente",
+        "La Puebla: preguntas oficiales/plantilla completa y Q26 discutida cuando haya originales",
+        "Diputación C2 T06 OAPGT expresamente pospuesto",
+        "OpoRadar: nuevas ofertas Toledo/sur Madrid, plazos verificables, deduplicación y privacidad",
+        "QA de publicación, monitor y E2E cuando aporte evidencia"
+      ],
+      "reviewScope": "Un árbol por SHA y un informe histórico leído no equivalen a auditoría completa del contenido de cada archivo. No inflar cobertura."
+    },
+    "sourcesOfData": {
+      "canonicalTaskState": "Este mismo JSON",
+      "themeStatus": "data/programa*.json (5 programas, manifiestos)",
+      "legalEvidence": "data/cierre-pendientes-2026.json y fuentes oficiales, únicamente para evidencia, nunca otra lista activa",
+      "questions": "content/**/preguntas.json y paquetes extra",
+      "notifications": "tools/radar*.mjs, datos rastreo en privado y JSON público filtrado",
+      "archive": "Historial Git y documentos técnicos necesarios; no se consultan para decidir siguiente tarea cuando contradigan este plan."
+    }
+  }
 }
