@@ -344,9 +344,15 @@
         {
           "id": "QA-05",
           "title": "Depurar referencias de estado obsoletas sin romper enlaces ni validadores",
-          "state": "PENDIENTE",
+          "state": "PARCIAL",
           "acceptance": "Listar enlaces dependientes y corregir únicamente textos vigentes que aún proclamen 4 programas o 79/97 auditados; conservar bitácora histórica e historial Git.",
-          "evidencePaths": []
+          "evidencePaths": [],
+          "completedSubsteps": [
+            "README, PROJECT_RULES y plan histórico Radar remiten al archivo maestro único"
+          ],
+          "remainingSubsteps": [
+            "Revisar referencias obsoletas en interfaces publicadas y validadores sin romper dependencias"
+          ]
         },
         {
           "id": "QA-06",
@@ -428,7 +434,15 @@
           "evidencePaths": [
             "data/plan-trabajo.json"
           ],
-          "note": "Se ha completado inventario de metadatos y lectura de fuentes de planificación principales; no se afirma lectura textual de cada uno de los 1.905 blobs."
+          "note": "Se ha completado inventario de metadatos y lectura de fuentes de planificación principales; no se afirma lectura textual de cada uno de los 1.905 blobs.",
+          "completedSubsteps": [
+            "37/37 informes históricos audit/*.md leídos y reconciliados con los manifiestos y planes",
+            "Comparación de SHA/rutas para 824 públicos y 1081 privados en snapshot inicial"
+          ],
+          "remainingSubsteps": [
+            "Revisar por riesgo los scripts y pruebas exclusivos del privado, no solo nombres y SHA",
+            "Cerrar dependencias nuevas detectadas sin reiniciar temas ya auditados"
+          ]
         }
       ]
     }
@@ -498,7 +512,21 @@
       "publicPagesRestored": true,
       "browserE2eVerified": false,
       "actionsConclusionVerified": false
-    }
+    },
+    "historicalAuditReview": {
+      "date": "2026-11-19",
+      "historicalAuditDocuments": 37,
+      "mode": "Leídos individualmente el cuerpo y anotaciones de los 37 informes audit/*.md; se contrastó su naturaleza histórica con manifiestos actuales y cierre 11/11.",
+      "findings": [
+        "No reabrir 13 pendientes UC3M citados en informe 09/11: hoy solo T10/T15/T16",
+        "No reabrir Olías T13 por la ausencia histórica de INE: aportación posterior cerró documentalmente el inventario",
+        "No repetir reparación de rutas de temas sin preguntas ni aislamiento asíncrono; ya reflejados en assets/practice.js",
+        "No confundir auditoría de 484 archivos /121 temas con comprobación semántica jurídico-integral o E2E",
+        "Los trabajos de UC3M T18/19 y T14 ya figuran auditados en cinco manifiestos; informes de 09/11 no son nueva cola"
+      ]
+    },
+    "remainingReviewScope": "El inventario de rutas/SHA cubre ambos repositorios y los 37 informes audit/*.md se han leído; los restantes scripts, tests, manuales y archivos JSON de los 266 exclusivos privados NO han sido examinados línea a línea. OPS-05 sigue PARCIAL. No afirmar auditoría semántica total.",
+    "legacyAuditFilesCount": 37
   },
   "completedMilestones": [
     {
