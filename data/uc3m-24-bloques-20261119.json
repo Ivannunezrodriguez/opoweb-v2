@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "fecha": "2026-11-19",
+  "fuenteInventario": "https://github.com/Ivannunezrodriguez/opoweb-dev/blob/main/content/uc3m/COTEJO_LAGUNAS_MATRICES_20_TEMAS_20261106.md",
+  "nombre": "24 apartados sin pregunta histórica en las matrices de 9 temas",
+  "tipo": "INDICE_REUTILIZACION_SIN_DUPLICACION",
+  "temas": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    18
+  ],
+  "total": 24,
+  "criterio": "Los 24 apartados tienen material de repaso en Markdown y acceso a paquetes de preguntas complementarias ya existentes. No se garantiza correspondencia 1:1 subapartado-pregunta ni cierre legal integral. No se incrementan los bancos originales.",
+  "blocks": [
+    {
+      "id": "UC3M-24-01",
+      "tema": 8,
+      "titulo": "Tutela y consecuencias de la discriminación",
+      "material": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T08",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-02",
+      "tema": 8,
+      "titulo": "Igualdad en el empleo público",
+      "material": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T08",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-03",
+      "tema": 8,
+      "titulo": "Identidad y expresión de género",
+      "material": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T08",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-04",
+      "tema": 8,
+      "titulo": "Lenguaje e imagen inclusivos",
+      "material": "content/uc3m/REPASO_IGUALDAD_T08_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T08",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-05",
+      "tema": 9,
+      "titulo": "Word 2019: revisión y correspondencia",
+      "material": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T09",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-06",
+      "tema": 9,
+      "titulo": "Excel 2019: gestión de datos",
+      "material": "content/uc3m/REPASO_OFIMATICA_T09_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T09",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-07",
+      "tema": 10,
+      "titulo": "Marco y ámbito del TREBEP",
+      "material": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-LOTE",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-08",
+      "tema": 10,
+      "titulo": "Derechos individuales y colectivos",
+      "material": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-LOTE",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-09",
+      "tema": 10,
+      "titulo": "Reingreso al servicio activo",
+      "material": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-LOTE",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-10",
+      "tema": 11,
+      "titulo": "Ámbito de aplicación del RD 364/1995",
+      "material": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-LOTE",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-11",
+      "tema": 11,
+      "titulo": "Convocatorias y órganos de selección",
+      "material": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-LOTE",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-12",
+      "tema": 12,
+      "titulo": "Ámbito de aplicación de PRL",
+      "material": "content/uc3m/REPASO_PRL_T12_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T12",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-13",
+      "tema": 12,
+      "titulo": "Protección de personas especialmente sensibles",
+      "material": "content/uc3m/REPASO_PRL_T12_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T12",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-14",
+      "tema": 12,
+      "titulo": "Consulta preventiva",
+      "material": "content/uc3m/REPASO_PRL_T12_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T12",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-15",
+      "tema": 12,
+      "titulo": "Coordinación de actividades empresariales",
+      "material": "content/uc3m/REPASO_PRL_T12_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T12",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-16",
+      "tema": 13,
+      "titulo": "Coordinación de la LOSU",
+      "material": "content/uc3m/REPASO_LOSU_T13_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T13",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-17",
+      "tema": 13,
+      "titulo": "Estructuras universitarias",
+      "material": "content/uc3m/REPASO_LOSU_T13_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T13",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-18",
+      "tema": 13,
+      "titulo": "Docencia universitaria",
+      "material": "content/uc3m/REPASO_LOSU_T13_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T13",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-19",
+      "tema": 13,
+      "titulo": "Cooperación universitaria",
+      "material": "content/uc3m/REPASO_LOSU_T13_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T13",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-20",
+      "tema": 14,
+      "titulo": "Derechos y deberes del PDI",
+      "material": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-LOTE",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-21",
+      "tema": 14,
+      "titulo": "Igualdad y conciliación en PDI",
+      "material": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-LOTE",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-22",
+      "tema": 15,
+      "titulo": "Naturaleza de los Estatutos UC3M",
+      "material": "content/uc3m/tema-15/manual.md",
+      "practicaPackId": "UC3M-ADIC-20261106-T15",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-23",
+      "tema": 18,
+      "titulo": "Prórroga presupuestaria",
+      "material": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-LOTE",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    },
+    {
+      "id": "UC3M-24-24",
+      "tema": 18,
+      "titulo": "Tesorería y control",
+      "material": "content/uc3m/REPASO_LOTE_T10_T11_T14_T18_20261106.md",
+      "practicaPackId": "UC3M-ADIC-20261106-LOTE",
+      "estado": "MATERIAL_Y_PRACTICA_TEMATICA_DISPONIBLES_SIN_CORRESPONDENCIA_ITEM_A_ITEM",
+      "nota": "El paquete enlazado agrupa preguntas del tema o de varios temas. No se acredita que cada pregunta corresponda exclusivamente a este subapartado."
+    }
+  ]
+}
