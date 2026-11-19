@@ -321,12 +321,15 @@
           "completedSubsteps": [
             "Chromium E2E REAL (Actions #44581330433, SUCCESS): 30 preguntas, temporizador, contestar/corregir, nota A-E/3, un solo intento, historial persistente y regreso al hub",
             "Chromium móvil simulado 390×844: 24 enlaces de itinerario, repaso temático profundo y recarga conservando filtro",
-            "Sin pageerror JavaScript en ambos recorridos; control ejecutado con imagen mcr.microsoft.com/playwright:v1.58.2-noble"
+            "Sin pageerror JavaScript en ambos recorridos; control ejecutado con imagen mcr.microsoft.com/playwright:v1.58.2-noble",
+            "E2E ampliado con simulacro UC3M 70 titulares + 5 reservas, teclado para iniciar y 2 intentos en historial; Actions #44597130836 SUCCESS (19/11/2026).",
+            "Se verificó que responder reserva R1 no modifica 0,00/70 y que las 5 reservas se informan por separado; prueba en Chromium real.",
+            "Tras fallos iniciales de sintaxis/lectura de test se añadió node --check y se corrigieron selectores y regex; último run SUCCESS."
           ],
           "remainingSubsteps": [
             "Accesibilidad: navegación teclado y lector de pantalla/axe o controles WCAG verificables",
             "PWA/offline y compatibilidad en un dispositivo móvil físico, y otros navegadores",
-            "Ampliar E2E a todos los simulacros y convocatorias, incluyendo reservas 70+5 en interfaz"
+            "Extender E2E de reservas y resultados a los otros simulacros/convocatorias restantes; UC3M modelo 1 ya verificado"
           ]
         },
         {
@@ -675,27 +678,27 @@
     },
     "latestBrowserE2E": {
       "date": "2026-11-19",
-      "runId": 44581330433,
-      "sourceCommit": "4287dbe45fe4cb08767d6607a298ce103c8f3c65",
+      "runId": 44597130836,
+      "sourceCommit": "baf505d274556db1d5171627b2c2e43fac6191d1",
       "status": "completed",
       "conclusion": "success",
-      "browser": "Chromium oficial Playwright 1.58.2 (contenedor ubuntu noble)",
+      "browser": "Chromium Playwright Ubuntu Noble",
       "desktop": true,
       "mobileEmulation": true,
       "checks": [
-        "30 preguntas y temporizador",
-        "Corrección y nota directa A-E/3",
-        "Una entrada historial y regreso al centro",
-        "24 enlaces temáticos",
-        "Repaso filtrado y recarga URL",
-        "Sin JS pageerrors"
+        "Repaso UC3M 30 preguntas y temporizador",
+        "Nota A-E/3 e historial persistente",
+        "Simulacro UC3M 70+5: 75 tarjetas, 5 reservas fuera de puntuación, etiquetado R1, temporizador 60 min, acceso por teclado",
+        "Dos intentos sin duplicados",
+        "24 deep links con recarga en viewport móvil"
       ],
       "notProven": [
-        "DOMINIO_PAGES",
-        "MÓVIL_FÍSICO",
-        "LECTOR_PANTALLA",
-        "PWA_OFFLINE",
-        "NAVEGADORES_ADICIONALES"
+        "MÓVIL FÍSICO",
+        "DOMINIO FINAL PAGES",
+        "ACCESIBILIDAD INTEGRAL",
+        "PWA OFFLINE",
+        "NAVEGADORES NO CHROMIUM",
+        "RESTO CONVOCATORIAS"
       ]
     }
   },
