@@ -1,5 +1,7 @@
 .radar-layout{max-width:1180px;margin:0 auto;padding:1rem;display:grid;gap:1rem}
-.radar-hero{display:grid;gap:1rem}.radar-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.75rem}
+.radar-hero{display:grid;gap:1rem}
+/* La etiqueta de Radar aparece en superficie clara, no sobre la cabecera oscura. */
+.radar-hero .eyebrow{color:var(--primary)}.radar-stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:.75rem}
 .radar-stat{padding:1rem;border:1px solid var(--border-soft);border-radius:14px;background:var(--surface-soft);color:var(--text)}
 .radar-stat strong{display:block;font-size:1.6rem}.radar-stat span{opacity:.75}
 .radar-controls{display:grid;grid-template-columns:2fr repeat(3,minmax(130px,1fr));gap:.7rem;align-items:end}
