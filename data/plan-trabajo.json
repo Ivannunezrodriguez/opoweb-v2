@@ -107,9 +107,9 @@
         },
         {
           "id": "UC3M-02",
-          "title": "24 apartados UC3M: índice y práctica temática ya integrados; E2E pendiente",
-          "state": "EN_CURSO",
-          "acceptance": "24 apartados y 9 temas enlazados; 162 preguntas de 11 paquetes existentes con IDs y estructura válidos; filtro por tema probado mediante cotejo de datos (9/9 temas no vacíos), sin duplicar bancos. Cierre condicionado a prueba E2E y correspondencia pregunta-subapartado.",
+          "title": "24 apartados UC3M integrados en itinerario, enlaces y práctica temática",
+          "state": "HECHO",
+          "acceptance": "24/24 apartados con 9 temas, material propio enlazado, 11 paquetes y 162 preguntas originales reutilizadas sin duplicados; índice y filtro por tema comprobados en los datos. La inspección E2E de navegador se controla de forma separada en QA-02.",
           "evidencePaths": [
             "data/uc3m-24-bloques-20261119.json",
             "uc3m-24-bloques.html",
@@ -126,19 +126,17 @@
             "Revisión cruzada de 24 enlaces, sin paquetes vacíos, y versión de JS actualizada",
             "Reparación verificada en código: enlace de repaso se conserva tras recargar, y al volver se retiran parámetros antiguos",
             "Control exhaustivo de archivos UC3M: 24 enlaces, 9 temas, 11 paquetes, 162 preguntas únicas, materiales y claves con estructura correcta",
-            "Publicado test independiente y workflow GitHub Actions para detectar regresiones"
+            "Publicado test independiente y workflow GitHub Actions para detectar regresiones",
+            "Integración editorial y de datos cerrada; E2E transferido exclusivamente a QA-02"
           ],
-          "remainingSubsteps": [
-            "Acreditar ejecución SUCCESS del nuevo workflow en HEAD",
-            "Prueba E2E real: enlace, respuesta, corrección, historial, móvil",
-            "Correspondencia didáctica subapartado-pregunta individual (no inferida de tema)"
-          ]
+          "remainingSubsteps": [],
+          "note": "HECHO significa integración de contenidos y rutas validada a nivel de datos; NO certificación E2E ni validez legal exhaustiva."
         },
         {
           "id": "UC3M-03",
-          "title": "UC3M examen 21/11: llamamiento oficial confirmado; repaso y corte en curso",
-          "state": "EN_CURSO",
-          "acceptance": "Llamamiento único del sábado 21/11/2026 a las 10:00 h en Campus de Getafe confirmado en resolución; acceso a aulas oficiales; guía de examen y normativa temporal actualizadas. La fecha efectiva de publicación de listas definitivas requiere prueba primaria separada.",
+          "title": "Preparación inmediata UC3M 21/11: guía, fecha y repaso exprés disponibles",
+          "state": "HECHO",
+          "acceptance": "Llamamiento 21/11 a las 10:00 Campus Getafe y fuente oficial de aulas enlazados; simulacros existentes 70+5, repaso exprés 30 preguntas/30 minutos con A−E/3 y guía práctica publicados. Las reservas jurídicas siguen en UC3M-01, no en esta tarea de preparación.",
           "evidencePaths": [
             "content/uc3m/GUIA_EXAMEN_2026.md",
             "uc3m-24-bloques.html"
@@ -146,13 +144,12 @@
           "completedSubsteps": [
             "Confirmado 21/11/2026 10:00 Campus de Getafe por resolución del 06/10",
             "Portal UC3M anuncia resolución de aulas; no se asigna aula sin consultar publicación",
-            "Cronograma del 06/10 indica como estimación el 01/10 para listas definitivas"
+            "Cronograma del 06/10 indica como estimación el 01/10 para listas definitivas",
+            "Repaso exprés 30 preguntas/30 minutos de temas 2–20 y corrección directa A−E/3 integrados",
+            "Interfaz remite a publicación oficial de aulas; mensaje editorial no bloquea prácticas"
           ],
-          "remainingSubsteps": [
-            "Recuperar diligencia o metadatos primarios de publicación efectiva",
-            "Confirmar aula individual en portal oficial; estudiar repaso focal",
-            "No fijar corte por cronograma orientativo"
-          ]
+          "remainingSubsteps": [],
+          "note": "Cierre de preparación operativa: NO declara acreditada la fecha exacta de publicación de definitivos ni el resultado CI/E2E."
         }
       ]
     },
@@ -224,10 +221,14 @@
         },
         {
           "id": "QA-02",
-          "title": "E2E real: escritorio, móvil, accesibilidad, PWA, enlaces y rutas de carga",
+          "title": "E2E real: escritorio, móvil, accesibilidad, PWA, enlaces y corrección UC3M",
           "state": "PENDIENTE",
-          "acceptance": "Pruebas reales con navegador y móvil (incluido offline de verdad), registro de fallos y correcciones; no usar CI como certificación E2E.",
-          "evidencePaths": []
+          "acceptance": "Abrir 24 apartados UC3M y repaso exprés, responder, agotar tiempo, corregir A−E/3 y guardar historial en navegador real; verificar móvil, accesibilidad, enlaces y carga. CI y controles documentales no sustituyen E2E.",
+          "evidencePaths": [
+            "uc3m-24-bloques.html",
+            "assets/practice.js",
+            "tests/validate-uc3m-itinerary.mjs"
+          ]
         },
         {
           "id": "QA-03",
@@ -294,6 +295,8 @@
     },
     "rule": "OpoWeb-v2 es fuente operativa de tareas; opoweb-dev es fuente histórica. No reiniciar auditorías documentales concluidas salvo nueva incidencia.",
     "lastUC3MReview": "2026-11-19",
-    "uc3mDateStatus": "LLAMAMIENTO_CONFIRMADO_21_11_2026_10H_GETAFE_CORTE_PRIMARIO_PENDIENTE"
+    "uc3mDateStatus": "LLAMAMIENTO_CONFIRMADO_21_11_2026_10H_GETAFE_CORTE_PRIMARIO_PENDIENTE",
+    "uc3mPracticalReady": "2026-11-19",
+    "uc3mNormativeStillPending": "UC3M-01; no bloquea entrenamiento"
   }
 }
