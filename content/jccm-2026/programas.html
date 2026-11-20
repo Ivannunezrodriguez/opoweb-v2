@@ -12,18 +12,34 @@
 <script type="module">
 const root=document.querySelector('#results'),count=document.querySelector('#count'),search=document.querySelector('#search');
 const files={c2:'../../data/programa-jccm-auxiliar-c2-2025-2026.json',c1:'../../data/programa-jccm-informatica-c1-2025-2026.json'};
+const matrixFiles={c2:'../../data/matriz-jccm-auxiliar-c2-2025-2026.json',c1:'../../data/matriz-jccm-informatica-c1-2025-2026.json'};
 const escapeHtml=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const cache={};let current='c2';
 async function show(){
 const kind=current;
 count.textContent='Cargando…';
 try{
- if(!cache[kind]){const r=await fetch(files[kind],{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);cache[kind]=await r.json();}
+ if(!cache[kind]){
+  const [programaResp,matrizResp]=await Promise.all([fetch(files[kind],{cache:'no-cache'}),fetch(matrixFiles[kind],{cache:'no-cache'})]);
+  if(!programaResp.ok||!matrizResp.ok)throw Error('HTTP programa/matriz '+programaResp.status+'/'+matrizResp.status);
+  const [programa,matriz]=await Promise.all([programaResp.json(),matrizResp.json()]);
+  if(programa.id!==matriz.programaId||programa.temas.length!==matriz.temas.length)throw Error('Matriz no coincide con programa');
+  cache[kind]={...programa,matriz};
+ }
  if(kind!==current)return;
  const data=cache[kind],q=search.value.trim().toLocaleLowerCase('es'),items=data.temas.filter(t=>(t.titulo+' '+t.bloque).toLocaleLowerCase('es').includes(q));
- count.textContent=items.length+' de '+data.temas.length+' temas · Programa '+(kind==='c2'?'Auxiliar C2':'Informática C1');
+ const byNumber=new Map(data.matriz.temas.map(t=>[t.numero,t]));
+ const candidates=data.matriz.temas.filter(t=>Array.isArray(t.manualesCandidatos)&&t.manualesCandidatos.length).length;
+ count.textContent=items.length+' de '+data.temas.length+' temas · '+candidates+' con manuales candidatos SIN auditar · 0 temas completos acreditados';
  const sections=[...new Set(items.map(t=>t.bloque))];
- root.innerHTML=sections.map(section=>'<section class="panel"><h2>'+escapeHtml(section)+'</h2>'+items.filter(t=>t.bloque===section).map(t=>'<article class="item"><h3>Tema '+escapeHtml(t.numeroEnBloque)+': '+escapeHtml(t.titulo)+'</h3><small class="state">Epígrafe oficial · Desarrollo pendiente de cotejo editorial</small></article>').join('')+'</section>').join('')||( '<section class="panel"><p>No hay temas que coincidan con la búsqueda.</p></section>');
+ root.innerHTML=sections.map(section=>'<section class="panel"><h2>'+escapeHtml(section)+'</h2>'+
+  items.filter(t=>t.bloque===section).map(t=>{
+   const m=byNumber.get(t.numero),manuals=m?.manualesCandidatos||[];
+   const links=manuals.length?'<p><strong>Manuales relacionados (sin cotejar):</strong> '+
+     manuals.map(path=>'<a href="https://github.com/Ivannunezrodriguez/opoweb-v2/blob/main/'+encodeURI(path)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(path.split('/').slice(-3,-1).join(' · '))+'</a>').join(' · ')+'</p>':'<p class="muted">Sin manual candidato identificado en OpoWeb.</p>';
+   return '<article class="item"><h3>Tema '+escapeHtml(t.numeroEnBloque)+': '+escapeHtml(t.titulo)+'</h3>'+
+     links+'<small class="state">Cobertura acreditada: NO · Faltan cotejo legal por incisos, desarrollo y preguntas verificadas</small></article>';
+  }).join('')+'</section>').join('')||'<section class="panel"><p>No hay temas que coincidan con la búsqueda.</p></section>';
 }catch(e){count.textContent='No se pudo cargar el programa';root.innerHTML='<section class="panel"><p>Error de carga. Vuelve a intentarlo más tarde.</p></section>';}
 }
 for(const button of document.querySelectorAll('[data-kind]'))button.addEventListener('click',()=>{current=button.dataset.kind;for(const b of document.querySelectorAll('[data-kind]'))b.setAttribute('aria-pressed',String(b===button));show()});
