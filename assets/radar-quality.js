@@ -65,22 +65,26 @@ export function normalizeOpportunity(o,asOf){
  const knownRole=!!role && roleNames.test(role);
  const officialUrl=/^https:\/\//i.test(o.officialUrl||'')?o.officialUrl:null;
  const iso=dateISO(o.deadline);
- const closed=iso && iso<asOf;
- const status=closed?'CERRADA':iso && iso>=asOf?'PLAZO_ABIERTO':o.state==='PREVISTA'?'PREVISTA':(phaseFollowup?'SEGUIMIENTO':'REVISAR');
+ // Una OEP anuncia plazas futuras: no abre solicitudes. Ni una fecha importada,
+ // ni un estado heredado del feed pueden convertirla en plazo abierto.
+ const isOffer=/\bOEP\b|oferta\s+de\s+empleo\s+p[uú]blico/i.test(title) ||
+   o.tipoPublicacion==='OFERTA_EMPLEO_PUBLICO_NO_CONVOCATORIA';
+ const closed=!!iso && iso<asOf;
+ const status=isOffer?'PREVISTA':phaseFollowup?'SEGUIMIENTO':closed?'CERRADA':iso?'PLAZO_ABIERTO':'REVISAR';
  const vacancies=(Number.isInteger(o.vacancies)&&o.vacancies>0)?o.vacancies:countVacancies(title);
  const qualification=clean(o.qualification);
  const knownQualification=qualification&&!qualificationDefault.test(qualification);
  const group=/^(?:AP|B|C1|C2|A1|A2)$/.test(o.group||'')?o.group:(clean(o.organism).match(/(?:^|[·|,;])\s*(A1|A2|B|C1|C2|AP)(?=\s*(?:[·|,;]|$))/i)?.[1]||'REVISAR');
  const ineligible=universityRequirement.test(group)||universityRequirement.test(qualification);
  const access=clean(o.access);
- const kind=/\b(?:bolsa|lista\s+de\s+espera)\b/i.test(title)?'Bolsa':/sustituci[oó]n|interin|contrataci[oó]n\s+temporal/i.test(title)?'Temporal':/\b(?:OEP|oferta\s+de\s+empleo\s+p[uú]blico)\b/i.test(title)?'Oferta de empleo (sin convocatoria)':/plazas?|convocatoria|bases/i.test(title)?'Oposición / proceso selectivo':'Por determinar';
- const actionable=!phaseFollowup && !ineligible && knownRole && !!officialUrl;
+ const kind=isOffer?'Oferta de empleo (sin convocatoria)':/\b(?:bolsa|lista\s+de\s+espera)\b/i.test(title)?'Bolsa':/sustituci[oó]n|interin|contrataci[oó]n\s+temporal/i.test(title)?'Temporal':/plazas?|convocatoria|bases/i.test(title)?'Oposición / proceso selectivo':'Por determinar';
+ const actionable=!isOffer && !phaseFollowup && !ineligible && knownRole && !!officialUrl;
  return {
   ...o,title,position:knownRole?role:null,organism:institution(o),
-  location:municipality(o),vacancies,deadline:iso?o.deadline:null,
-  deadlineIso:iso,group,qualification:knownQualification?qualification:null,
+  location:municipality(o),vacancies,deadline:isOffer?null:(iso?o.deadline:null),
+  deadlineIso:isOffer?null:iso,group,qualification:knownQualification?qualification:null,
   access:access&&!qualificationDefault.test(access)?access:null,
-  kind,state:ineligible?'NO_ACCESIBLE':status,phaseFollowup,notAccessible:!!ineligible,actionable,knownQualification:!!knownQualification,
+  kind,state:ineligible?'NO_ACCESIBLE':status,phaseFollowup,offerWithoutCall:isOffer,notAccessible:!!ineligible,actionable,knownQualification:!!knownQualification,
   completeness:(knownRole?1:0)+(vacancies!=null?1:0)+(iso?1:0)+(knownQualification?1:0)+(group!=='REVISAR'?1:0),
   informationPending:!knownRole||!iso||!knownQualification,
   compatibility:o.compatibility==='CUMPLE' && knownQualification?'CUMPLE':'REVISAR',
