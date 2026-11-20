@@ -238,10 +238,12 @@
           "acceptance": "Fuentes específicas auditables; entradas duplicadas colapsadas; anuncios históricos no presentados como nuevas oportunidades.",
           "evidencePaths": [],
           "completedSubsteps": [
-            "20/11/2026: mitigada duplicación de alertas por mismo documento y puesto llegado por varias fuentes (solo en correo, no deduplicación total del feed)."
+            "20/11/2026: mitigada duplicación de alertas por mismo documento y puesto llegado por varias fuentes (solo en correo, no deduplicación total del feed).",
+            "20/11/2026: filtradas en radar-core las diligencias de activación, relaciones de integrantes, estados de bolsa y órdenes de llamamiento sin convocatoria nueva; las aperturas efectivas se conservan. Añadidas pruebas en radar-fixtures."
           ],
           "remainingSubsteps": [
-            "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados."
+            "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados.",
+            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo."
           ]
         },
         {
@@ -251,13 +253,18 @@
           "acceptance": "Muestra de resultados con fuente, fecha de lectura y comprobación de estado; no prometer cobertura completa.",
           "evidencePaths": [
             "assets/radar.js",
-            "assets/radar-quality.js"
+            "assets/radar-quality.js",
+            "radar.html"
           ],
           "completedSubsteps": [
-            "20/11/2026: auditoría del snapshot 18/11, 70 intentos, 68 con texto, 18 con detalles y 2 fallos; el panel ahora muestra estas magnitudes separadas, sin afirmar cobertura total."
+            "20/11/2026: auditoría del snapshot 18/11, 70 intentos, 68 con texto, 18 con detalles y 2 fallos; el panel ahora muestra estas magnitudes separadas, sin afirmar cobertura total.",
+            "20/11/2026: nueva métrica adicional withCoreDetails exige puesto, titulación y plazo o regla extraídos del mismo documento; snapshots antiguos muestran «sin medir», sin inventar históricos.",
+            "20/11/2026: invalidación explícita de caché de assets/radar.js y radar-quality.js; nuevo test de versión, métricas strict y legado sin medir incorporado a CI. Despliegue público pendiente de confirmación."
           ],
           "remainingSubsteps": [
-            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos."
+            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
+            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
+            "Comprobar que publicación Actions sincroniza los cambios 20/11 y que la interfaz renovada carga en Pages; no marcar publicado hasta confirmación."
           ]
         },
         {
@@ -338,18 +345,23 @@
           "acceptance": "Registrar documentos fallidos del último ciclo, evidencias oficiales y tasa de lectura por fuente; excluir candidaturas sin bases contrastadas.",
           "evidencePaths": [
             "assets/radar.js",
-            "assets/radar-quality.js"
+            "assets/radar-quality.js",
+            "radar.html"
           ],
           "completedSubsteps": [
             "Lector PDF restaurado en runner",
             "Fuentes Bargas/UC3M recuperadas",
             "Detección de falsas coincidencias afinada",
-            "20/11/2026: corregido indicador: distinguir textos PDF leídos, documentos con datos estructurados y fallos técnicos; advertir cuando menos del 50 % de intentos produce información útil."
+            "20/11/2026: corregido indicador: distinguir textos PDF leídos, documentos con datos estructurados y fallos técnicos; advertir cuando menos del 50 % de intentos produce información útil.",
+            "20/11/2026: extracción enriquecida separa documentos con algún dato de documentos con información nuclear y conecta pruebas radar-enrich al workflow de publicación.",
+            "20/11/2026: invalidación explícita de caché de assets/radar.js y radar-quality.js; nuevo test de versión, métricas strict y legado sin medir incorporado a CI. Despliegue público pendiente de confirmación."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
             "Evitar anunciar oportunidades no inscribibles",
-            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos."
+            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
+            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
+            "Comprobar que publicación Actions sincroniza los cambios 20/11 y que la interfaz renovada carga en Pages; no marcar publicado hasta confirmación."
           ]
         },
         {
@@ -366,11 +378,13 @@
             "Política newOnly registrada",
             "20/11/2026: nueva vista OEP futuras y exclusión de OEP en oportunidades inscribibles, con mensaje inequívoco en ficha.",
             "20/11/2026: pruebas de correo privado para anuncios de bolsa, fases y OEP sin notificación falsa y duplicados de fuente.",
-            "20/11/2026: diligencias de activación, estado de bolsa, relación de integrantes y llamamientos ya no se clasifican como nuevas inscripciones; test automatizado."
+            "20/11/2026: diligencias de activación, estado de bolsa, relación de integrantes y llamamientos ya no se clasifican como nuevas inscripciones; test automatizado.",
+            "20/11/2026: excluido del feed inicial seguimiento de bolsas constituidas sin nueva convocatoria, evitando nuevas detecciones falsas."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados",
-            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos."
+            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
+            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo."
           ]
         },
         {
