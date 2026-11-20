@@ -65,9 +65,10 @@ function matchView(o){
  const asOf=new Date().toLocaleDateString('sv-SE',{timeZone:'Europe/Madrid'});
  if(filters.view==='MIS_PROCESOS')return !!o.trackedCall;
  if(filters.view==='CADUCADAS')return o.state==='CERRADA'||o.state==='CIERRE_PROBABLE';
+ if(filters.view==='OEP_FUTURAS')return o.offerWithoutCall===true;
  if(filters.view==='RECIENTES')return o.actionable&&o.state!=='CERRADA'&&o.state!=='CIERRE_PROBABLE'&&ageDays(o.firstSeen,asOf)<=30;
  if(filters.view==='OPORTUNIDADES')return (o.actionable&&o.state!=='CERRADA'&&o.state!=='CIERRE_PROBABLE') || (!!o.trackedCall&&(o.state==='CERRADA'||o.state==='CIERRE_PROBABLE'));
- if(filters.view==='INCOMPLETAS')return !o.actionable&&!o.phaseFollowup;
+ if(filters.view==='INCOMPLETAS')return !o.actionable&&!o.phaseFollowup&&!o.offerWithoutCall;
  if(filters.view==='SEGUIMIENTO')return o.phaseFollowup;
  return true;
 }
@@ -107,7 +108,9 @@ function card(o){
  const missingEvidence=evidence.requirementsMissing.length
    ?' · Pendiente: '+evidence.requirementsMissing.join(', ')
    :' · Datos principales encontrados, sin revisión jurídica integral';
- const confirmation=o.deadlineDisputed
+ const confirmation=o.offerWithoutCall
+   ? 'Oferta de empleo público: todavía no acredita convocatoria ni plazo de solicitudes. Consulta la resolución de convocatoria posterior.'
+   : o.deadlineDisputed
    ? 'Discrepancia entre BOP y BOE: no se confirma la fecha exacta de cierre hasta aclaración oficial.'
    : o.deadlineIso
    ? 'Fecha límite asentada en el anuncio o la ficha de convocatoria; comprueba posibles rectificaciones oficiales.'
@@ -227,7 +230,7 @@ function render(){
  sourceScopes?'<details class="panel"><summary><strong>Qué cubre realmente cada fuente oficial</strong> · ver límites del rastreo</summary><p>Una fuente que responde no garantiza que se haya consultado todo su histórico ni todas las sedes municipales.</p><ul>'+sourceScopes+'</ul></details>':'',
  '<section class="panel"><div class="radar-controls">',
  '<label><span>Buscar puesto, localidad u organismo</span><input id="rq" type="search" value="'+esc(filters.q)+'" placeholder="Auxiliar, administrativo, Getafe, Toledo…"></label>',
- '<label><span>Ver</span><select id="rv"><option value="MIS_PROCESOS">Mis procesos (inscrito, pendiente o en seguimiento)</option><option value="CADUCADAS">Plazos cerrados / por revisar</option><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Oportunidades sin plazo vencido</option><option value="INCOMPLETAS">Sin puesto identificable</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
+ '<label><span>Ver</span><select id="rv"><option value="MIS_PROCESOS">Mis procesos (inscrito, pendiente o en seguimiento)</option><option value="CADUCADAS">Plazos cerrados / por revisar</option><option value="RECIENTES">Puestos recientes (30 días)</option><option value="OPORTUNIDADES">Oportunidades sin plazo vencido</option><option value="OEP_FUTURAS">OEP futuras · sin inscripción</option><option value="INCOMPLETAS">Anuncios pendientes de verificar</option><option value="SEGUIMIENTO">Actas y listas (ocultas)</option><option value="TODAS">Todos los registros</option></select></label>',
  '<label><span>Plazo / estado</span><select id="rs"><option value="TODAS">Todos</option><option value="PLAZO_ABIERTO">Plazo con fecha publicada</option><option value="REVISAR">Plazo sin verificar</option><option value="PREVISTA">OEP sin convocatoria</option><option value="CERRADA">Plazo cerrado</option><option value="CIERRE_PROBABLE">Cierre probable (discrepancia)</option></select></label>',
  '<label><span>Zona</span><select id="rz"><option value="TODAS">Todas</option><option value="TOLEDO">Provincia de Toledo</option><option value="MADRID_SUR">Sur de Madrid</option></select></label>',
  '<label><span>Tipo</span><select id="rk"><option value="TODAS">Cualquiera</option><option value="Oposición / proceso selectivo">Oposición / proceso selectivo</option><option value="Bolsa">Bolsas de empleo</option><option value="Temporal">Temporal / sustitución</option><option value="Oferta de empleo (sin convocatoria)">OEP sin convocatoria</option></select></label>',
