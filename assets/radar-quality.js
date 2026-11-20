@@ -35,7 +35,10 @@ function countVacancies(title){
 }
 function dateISO(value){
  const raw=clean(value);
- if(/^\d{4}-\d{2}-\d{2}$/.test(raw))return raw;
+ if(/^\d{4}-\d{2}-\d{2}$/.test(raw)){
+  const d=new Date(raw+'T12:00:00Z');
+  return Number.isNaN(d.getTime())||d.toISOString().slice(0,10)!==raw?null:raw;
+ }
  const m=raw.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
  if(!m)return null;
  const iso=m[3]+'-'+m[2].padStart(2,'0')+'-'+m[1].padStart(2,'0');
