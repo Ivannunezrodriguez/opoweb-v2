@@ -254,7 +254,8 @@
           "completedSubsteps": [
             "20/11/2026: mitigada duplicación de alertas por mismo documento y puesto llegado por varias fuentes (solo en correo, no deduplicación total del feed).",
             "20/11/2026: filtradas en radar-core las diligencias de activación, relaciones de integrantes, estados de bolsa y órdenes de llamamiento sin convocatoria nueva; las aperturas efectivas se conservan. Añadidas pruebas en radar-fixtures.",
-            "20/11/2026: evitada pérdida de bolsas/ofertas diferentes cuando la sede reutiliza una URL de índice o un PDF con varios puestos; solo fusionar URL específica y títulos equivalentes. Añadidos casos de regresión a tests/radar-fixtures.mjs."
+            "20/11/2026: evitada pérdida de bolsas/ofertas diferentes cuando la sede reutiliza una URL de índice o un PDF con varios puestos; solo fusionar URL específica y títulos equivalentes. Añadidos casos de regresión a tests/radar-fixtures.mjs.",
+            "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS."
           ],
           "remainingSubsteps": [
             "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados.",
@@ -277,13 +278,13 @@
             "20/11/2026: nueva métrica adicional withCoreDetails exige puesto, titulación y plazo o regla extraídos del mismo documento; snapshots antiguos muestran «sin medir», sin inventar históricos.",
             "20/11/2026: invalidación explícita de caché de assets/radar.js y radar-quality.js; nuevo test de versión, métricas strict y legado sin medir incorporado a CI. Despliegue público pendiente de confirmación.",
             "20/11/2026: corregida aserción obsoleta de la prueba del panel; comprobado después en el repositorio público que radar.html usa v=2026.11.20.2 y assets/radar.js contiene el indicador de información nuclear.",
-            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público."
+            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
+            "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
-            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
-            "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
-            "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente."
+            "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente.",
+            "Cotejar 10 entradas nuevas de la captura 20/11 con bases, plazos y acceso; medir y corregir falsos positivos."
           ]
         },
         {
@@ -300,7 +301,8 @@
             "20/11/2026: separadas OEP sin convocatoria, plazas con fecha y seguimiento mediante estado derivado; nuevos casos automatizados para OEP, bolsas, temporal, listas y convocatorias que citan su OEP.",
             "20/11/2026: deduplicación de correo interfuente por misma URL normalizada, puesto, plazas y subgrupo, además de clave histórica por ID; no colapsa por simple título. Pruebas con casos duplicados, otros puestos/documentos, OEP y ledger histórico; integradas en workflow privado radar-empleo y publicación.",
             "20/11/2026: correo privado ya no descarta oportunida­des con requisitos incompletos si las bases fueron leídas y hay fecha; etiqueta REVISAR y test de política.",
-            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público."
+            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público.",
+            "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS."
           ],
           "remainingSubsteps": [
             "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E.",
@@ -369,7 +371,10 @@
           "state": "HECHO",
           "acceptance": "Snapshot oficial 19/11 con BOCM 6/6 ediciones, DOCM 5 fechas con boletín, cero errores, y registro regional público; monitor posterior por separado.",
           "evidencePaths": [],
-          "note": "HECHO solo para implementación y snapshot del 19/11. La cobertura futura sigue siendo tarea RAD-04."
+          "note": "HECHO solo para implementación y snapshot del 19/11. La cobertura futura sigue siendo tarea RAD-04.",
+          "completedSubsteps": [
+            "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS."
+          ]
         },
         {
           "id": "RAD-12",
@@ -388,14 +393,16 @@
             "20/11/2026: corregido indicador: distinguir textos PDF leídos, documentos con datos estructurados y fallos técnicos; advertir cuando menos del 50 % de intentos produce información útil.",
             "20/11/2026: extracción enriquecida separa documentos con algún dato de documentos con información nuclear y conecta pruebas radar-enrich al workflow de publicación.",
             "20/11/2026: invalidación explícita de caché de assets/radar.js y radar-quality.js; nuevo test de versión, métricas strict y legado sin medir incorporado a CI. Despliegue público pendiente de confirmación.",
-            "20/11/2026: corregida aserción obsoleta de la prueba del panel; comprobado después en el repositorio público que radar.html usa v=2026.11.20.2 y assets/radar.js contiene el indicador de información nuclear."
+            "20/11/2026: corregida aserción obsoleta de la prueba del panel; comprobado después en el repositorio público que radar.html usa v=2026.11.20.2 y assets/radar.js contiene el indicador de información nuclear.",
+            "20/11/2026 noche: rastreo íntegro Actions #44808416229 SUCCESS (1.372 anuncios consultados, 1.387 candidatos, 12 nuevos; 11/11 lecturas). Publicación #44808973268 SUCCESS y auditoría regional #44808977307 SUCCESS; datos radar público/privado con SHA idéntico. Monitor reforzado con última ejecución real, checkout ref main y frecuencia 07:43/17:43 UTC; #44809177424 SUCCESS."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
             "Evitar anunciar oportunidades no inscribibles",
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
-            "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E."
+            "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
+            "Auditar documentos fallidos/parciales en el snapshot nuevo, con tasa con datos nucleares y motivos por fuente; 11/11 leídos NO acredita cobertura de 1.387 candidatos."
           ]
         },
         {
