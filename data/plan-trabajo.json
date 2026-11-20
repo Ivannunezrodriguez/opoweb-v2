@@ -175,16 +175,19 @@
           "state": "EN_CURSO",
           "acceptance": "Fichas OEP verificadas publicadas, contenidos troncales reutilizados sin duplicar, programa definitivo no atribuido hasta convocatoria, simulacros y E2E por itinerario",
           "evidencePaths": [
-            "data/convocatorias.json"
+            "data/convocatorias.json",
+            "content/jccm-2026/index.html",
+            "index.html"
           ],
           "completedSubsteps": [
             "Acuerdo DOCM 20/11/2026 cotejado: 143 C2 (118 general), 54 C1 administrativo (48 general), 25 C1 informática (23 general)",
-            "Objetivos y fases OEP pendientes de convocatoria añadidos al registro canónico privado"
+            "Objetivos y fases OEP pendientes de convocatoria añadidos al registro canónico privado",
+            "Guía HTML pública candidata creada en el repositorio privado con desglose OEP y ruta transversal; enlace desde portada (20/11/2026). No equivale a programa definitivo ni confirma Pages."
           ],
           "remainingSubsteps": [
             "Cotejar temarios anteriores con futuro anuncio oficial sin presentarlos como exigencias de 2026",
-            "Crear rutas de estudio y navegación sobre materiales verificados; probar CI/E2E",
-            "Desplegar versión pública filtrada y verificar Pages"
+            "Completar itinerarios por epígrafe cuando existan las bases; crear simulacros trazables y ejecutar CI/E2E",
+            "Desplegar versión pública filtrada y verificar Pages, incluida la nueva ruta JCCM"
           ]
         }
       ]
