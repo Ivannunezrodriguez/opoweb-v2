@@ -292,18 +292,22 @@
         "oposicion": "75 %",
         "concurso": "25 %"
       },
-      "publicacionBOE": null,
+      "publicacionBOE": {
+        "referencia": "BOE-A-2026-24345",
+        "fecha": "2026-11-20",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24345"
+      },
       "publicacionBOP": {
         "fecha": "2026-11-13",
         "numero": 218,
         "anuncio": null
       },
       "plazoSolicitudes": {
-        "estado": "PENDIENTE_BOE_PROPIO",
-        "regla": "20 días hábiles desde el día siguiente al anuncio correspondiente en BOE",
-        "advertencia": "No utilizar BOE-A-2026-20416 del 01/10/2026: remite a bases BOP 181 de 22/09/2026 (exp. 1589/2026), distintas de estas bases BOP 218/2026.",
+        "estado": "BOE_PUBLICADO_PLAZO_RELATIVO",
+        "regla": "20 días hábiles desde el siguiente al BOE-A-2026-24345 de 20/11/2026",
+        "advertencia": "BOE-A-2026-24345 corresponde a bases BOP Toledo 218 de 13/11/2026 (exp. 2860/2026). El BOE-A-2026-20416 de 01/10/2026 corresponde a bases BOP 181 de 22/09/2026 (exp. 1589/2026). No mezclar ni inferir cierre sin calendario de inhábiles.",
         "hasta": null,
-        "fechaConfirmada": null,
+        "fechaConfirmada": "2026-11-20",
         "fechaPrudente": null,
         "fechaTeoricaBOE": null,
         "bop": null,

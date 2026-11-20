@@ -227,11 +227,21 @@
         {
           "id": "RAD-02",
           "title": "Resolver discrepancias de Olías y verificar BOE propio de El Viso",
-          "state": "PENDIENTE",
+          "state": "PARCIAL",
           "acceptance": "Contrastar en publicaciones oficiales 1/4 plazas y días naturales/hábiles de Olías; verificar BOE propio de El Viso exp. 2860/2026 sin confundir exp. 1589/2026; no inventar cierre.",
           "evidencePaths": [
             "content/el-viso-auxiliar-c2-2026/index.html",
-            "data/convocatorias.json"
+            "data/convocatorias.json",
+            "radar.html",
+            "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-24345",
+            "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
+          ],
+          "completedSubsteps": [
+            "20/11/2026: confirmado BOE-A-2026-24345 de El Viso, distinto del BOE-A-2026-20416; ficha, banner Radar y catálogo actualizados a plazo relativo de 20 días hábiles sin calcular fin. BOE-A-2026-22826 de Olías confirma 3 limpieza y 4 auxiliar edificios y 20 días hábiles; falta resolver discrepancia de bases entre naturales y hábiles."
+          ],
+          "remainingSubsteps": [
+            "Cotejar directamente las bases BOP Toledo 204 de 23/10/2026 de Olías y rectificaciones del ayuntamiento para resolver días naturales vs hábiles y plazo prudente por proceso; no dar cierre único sin comprobar.",
+            "Cotejar calendario de días inhábiles y posibles rectificaciones para calcular, por separado, fin de solicitudes de El Viso BOE 24345."
           ]
         },
         {
@@ -285,7 +295,8 @@
           ],
           "completedSubsteps": [
             "20/11/2026: separadas OEP sin convocatoria, plazas con fecha y seguimiento mediante estado derivado; nuevos casos automatizados para OEP, bolsas, temporal, listas y convocatorias que citan su OEP.",
-            "20/11/2026: deduplicación de correo interfuente por misma URL normalizada, puesto, plazas y subgrupo, además de clave histórica por ID; no colapsa por simple título. Pruebas con casos duplicados, otros puestos/documentos, OEP y ledger histórico; integradas en workflow privado radar-empleo y publicación."
+            "20/11/2026: deduplicación de correo interfuente por misma URL normalizada, puesto, plazas y subgrupo, además de clave histórica por ID; no colapsa por simple título. Pruebas con casos duplicados, otros puestos/documentos, OEP y ledger histórico; integradas en workflow privado radar-empleo y publicación.",
+            "20/11/2026: correo privado ya no descarta oportunida­des con requisitos incompletos si las bases fueron leídas y hay fecha; etiqueta REVISAR y test de política."
           ],
           "remainingSubsteps": [
             "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E.",
@@ -297,13 +308,20 @@
           "title": "Plazos y eventos de inicio: detectar conflictos BOE/BOP, hábiles/naturales",
           "state": "PARCIAL",
           "acceptance": "Casos reales y test con referencia de boletín, fecha inicial, cómputo y contradicciones; sin inventar fechas de cierre.",
-          "evidencePaths": [],
+          "evidencePaths": [
+            "assets/radar-quality.js",
+            "assets/radar.js"
+          ],
           "completedSubsteps": [
-            "Extractor temporal por texto implementado en origen privado"
+            "Extractor temporal por texto implementado en origen privado",
+            "20/11/2026: se rechazan fechas ISO imposibles en la normalización de estados; pruebas de febrero, noviembre y bisiesto.",
+            "20/11/2026: implementado bloqueo conservador de fecha ante reglas incompatibles de días hábiles/naturales o publicación activadora, con preservación de ambas reglas y aviso visible. Prueba de conflicto en tests/radar-enrich.mjs; validación en ejecución real pendiente."
           ],
           "remainingSubsteps": [
             "Calendario y publicación oficial cotejados",
-            "Contradicciones entre fuentes"
+            "Contradicciones entre fuentes",
+            "Cotejar manualmente publicación BOE y bases BOP para resolver conflictos concretos, sin atribuir al algoritmo potestad interpretativa.",
+            "Comprobar resultado de CI, publicación de assets y caso real de discrepancia Olías con documentación oficial."
           ]
         },
         {
@@ -323,10 +341,14 @@
         {
           "id": "RAD-09",
           "title": "Compatibilidad por requisito publicado: titulación, carné, experiencia y demás",
-          "state": "PENDIENTE",
+          "state": "PARCIAL",
           "acceptance": "Distinguir CUMPLE/REVISAR/NO CUMPLE con cita literal a bases y requisito; no inferir solo del grupo.",
           "evidencePaths": [
-            "data/radar-profile.json"
+            "data/radar-profile.json",
+            "assets/radar-quality.js"
+          ],
+          "completedSubsteps": [
+            "20/11/2026: aviso de compatibilidad en email: requisitos incompletos marcados REVISAR, sin certificar CUMPLE; evaluación integral de requisitos aún pendiente."
           ]
         },
         {

@@ -1,4 +1,4 @@
-import {classifyRadarEntries} from './radar-quality.js?v=2026.11.20.2';
+import {classifyRadarEntries} from './radar-quality.js?v=2026.11.20.3';
 import {assessOpportunityEvidence} from './radar-provenance.js';
 import {matchTrackedCall,trackingState,decorateTracking} from './radar-tracking.js?v=2';
 import {orderRadar,deadlineAlert} from './radar-sort.js?v=1';
@@ -108,7 +108,9 @@ function card(o){
  const missingEvidence=evidence.requirementsMissing.length
    ?' · Pendiente: '+evidence.requirementsMissing.join(', ')
    :' · Datos principales encontrados, sin revisión jurídica integral';
- const confirmation=o.offerWithoutCall
+ const confirmation=o.applicationRuleConflict
+   ? 'ALERTA DE DISCREPANCIA: las reglas de plazo extraídas de fuentes del mismo expediente no coinciden (días hábiles/naturales o publicación de inicio). Sin fecha de cierre confirmada hasta cotejo oficial.'
+   : o.offerWithoutCall
    ? 'Oferta de empleo público: todavía no acredita convocatoria ni plazo de solicitudes. Consulta la resolución de convocatoria posterior.'
    : o.deadlineDisputed
    ? 'Discrepancia entre BOP y BOE: no se confirma la fecha exacta de cierre hasta aclaración oficial.'

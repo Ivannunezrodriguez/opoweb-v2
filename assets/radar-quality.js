@@ -69,7 +69,8 @@ export function normalizeOpportunity(o,asOf){
  const role=clean(o.position)||rawRole(title);
  const knownRole=!!role && roleNames.test(role);
  const officialUrl=/^https:\/\//i.test(o.officialUrl||'')?o.officialUrl:null;
- const iso=dateISO(o.deadline);
+ // Discrepancias entre reglas documentadas bloquean la fecha automática hasta cotejo oficial.
+ const iso=o.applicationRuleConflict?null:dateISO(o.deadline);
  // Una OEP anuncia plazas futuras: no abre solicitudes. Ni una fecha importada,
  // ni un estado heredado del feed pueden convertirla en plazo abierto.
  const offersMention=/\bOEP\b|oferta\s+de\s+empleo\s+p[uú]blico/i.test(title);
