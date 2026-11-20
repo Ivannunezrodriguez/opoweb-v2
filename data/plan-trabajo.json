@@ -194,14 +194,17 @@
             "20/11/2026: Localizadas fichas oficiales 2025-2026 para Auxiliar JCCM (423 plazas) e Informática C1 (29); PDFs individualizados aportados por el usuario: 24 temas C2 y 37 C1; localizado temario histórico SESCAM OEP 2023/24 fechado 29/04/2025 y añadidas referencias a guía web.",
             "Integrados los 61 epígrafes literalizados desde PDFs individuales aportados: 24 Auxiliar JCCM C2 (12 organización + 12 ofimática) y 37 Informática C1 (10 comunes + 27 específicos). Creados manifiestos independientes y visor HTML de consulta con buscador y bloques, 20/11/2026.",
             "Test de integridad editorial incorporado al workflow de publicación; pendiente de verificar resultado completo CI/E2E. Ningún tema se presenta como auditado por la mera extracción.",
-            "Matrices de control creadas para los 61 epígrafes: 9 temas con manuales candidatos identificados, 52 sin candidato; cobertura acreditada 0 hasta cotejo por incisos. No implica auditoría ni manuales nuevos."
+            "Matrices de control creadas para los 61 epígrafes: 9 temas con manuales candidatos identificados, 52 sin candidato; cobertura acreditada 0 hasta cotejo por incisos. No implica auditoría ni manuales nuevos.",
+            "20/11/2026: visor público JCCM enlazado con matrices de 24 y 37 epígrafes; muestra manuales candidatos, cifra de cobertura auditada y ausencia de cotejo por tema. Test de integridad y correspondencia incorporado al workflow."
           ],
           "remainingSubsteps": [
             "Obtener y cotejar temario aplicable a futura OEP SESCAM 2025-2026, sin confundir el individualizado histórico 2023/24",
             "Verificar resoluciones de convocatoria y plazos de solicitudes de las fichas JCCM 2025-2026, evitando equiparar «Abierto» con inscripción",
             "Completar itinerarios por epígrafe cuando existan las bases; crear simulacros trazables y ejecutar CI/E2E",
             "Desplegar versión pública filtrada y verificar Pages, incluida la nueva ruta JCCM",
-            "Completar matrices con desglose exhaustivo de incisos, normas y artículos verificados; desarrollar y auditar manuales y preguntas de todos los temas."
+            "Completar matrices con desglose exhaustivo de incisos, normas y artículos verificados; desarrollar y auditar manuales y preguntas de todos los temas.",
+            "Cotejar e implementar desarrollo de contenido jurídico y técnico por incisos; ningún tema queda auditado por enlazar un manual candidato.",
+            "Validar CI completo de visor matriz y el rastreo privado en ejecución real."
           ]
         }
       ]
@@ -239,11 +242,13 @@
           "evidencePaths": [],
           "completedSubsteps": [
             "20/11/2026: mitigada duplicación de alertas por mismo documento y puesto llegado por varias fuentes (solo en correo, no deduplicación total del feed).",
-            "20/11/2026: filtradas en radar-core las diligencias de activación, relaciones de integrantes, estados de bolsa y órdenes de llamamiento sin convocatoria nueva; las aperturas efectivas se conservan. Añadidas pruebas en radar-fixtures."
+            "20/11/2026: filtradas en radar-core las diligencias de activación, relaciones de integrantes, estados de bolsa y órdenes de llamamiento sin convocatoria nueva; las aperturas efectivas se conservan. Añadidas pruebas en radar-fixtures.",
+            "20/11/2026: evitada pérdida de bolsas/ofertas diferentes cuando la sede reutiliza una URL de índice o un PDF con varios puestos; solo fusionar URL específica y títulos equivalentes. Añadidos casos de regresión a tests/radar-fixtures.mjs."
           ],
           "remainingSubsteps": [
             "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados.",
-            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo."
+            "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
+            "Auditar un muestreo real de documentos municipales que comparten URL y comprobar resultado de tests del rastreo antes de cerrar la tarea."
           ]
         },
         {
