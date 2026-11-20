@@ -248,11 +248,18 @@
         {
           "id": "RAD-05",
           "title": "Separar notificaciones de nuevas ofertas del seguimiento personal",
-          "state": "PENDIENTE",
+          "state": "PARCIAL",
           "acceptance": "Probar filtro newOnly y seguimiento con casos reales; no enviar listas de admitidos como convocatoria nueva; respetar compatibilidad real de titulación.",
           "evidencePaths": [
             "data/radar-profile.json",
-            "assets/radar.js"
+            "assets/radar.js",
+            "assets/radar-quality.js"
+          ],
+          "completedSubsteps": [
+            "20/11/2026: separadas OEP sin convocatoria, plazas con fecha y seguimiento mediante estado derivado; nuevos casos automatizados para OEP, bolsas, temporal, listas y convocatorias que citan su OEP."
+          ],
+          "remainingSubsteps": [
+            "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E."
           ]
         },
         {
@@ -329,11 +336,13 @@
           "state": "PARCIAL",
           "acceptance": "Separar bolsa/interinidades/sustituciones/fijo, deduplicación por expediente y no alertar antiguos procesos como nuevas convocatorias.",
           "evidencePaths": [
-            "assets/radar.js"
+            "assets/radar.js",
+            "assets/radar-quality.js"
           ],
           "completedSubsteps": [
             "Filtros implementados",
-            "Política newOnly registrada"
+            "Política newOnly registrada",
+            "20/11/2026: nueva vista OEP futuras y exclusión de OEP en oportunidades inscribibles, con mensaje inequívoco en ficha."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados"
@@ -346,11 +355,13 @@
           "acceptance": "OpoRadar diferencia OEP sin plazo de convocatorias inscribibles, evita duplicados y avisa cada 14 días de novedades con fuente oficial; sin exposición de preferencias privadas",
           "evidencePaths": [
             "data/radar-profile.json",
-            "data/convocatorias.json"
+            "data/convocatorias.json",
+            "assets/radar-quality.js"
           ],
           "completedSubsteps": [
             "Perfil privado registra tres objetivos y vigilancia quincenal",
-            "Automatización existente ampliada con comprobación alterna desde 04/12/2026"
+            "Automatización existente ampliada con comprobación alterna desde 04/12/2026",
+            "20/11/2026: estado OEP diferenciado técnicamente de inscripción, incluso ante fecha importada; visualización pública filtrada como OEP futura."
           ],
           "remainingSubsteps": [
             "Probar exportación pública y distinción entre OEP y convocatoria",
