@@ -247,9 +247,18 @@
         {
           "id": "RAD-04",
           "title": "Auditar frescura, errores de extracción y falsos positivos del feed",
-          "state": "PENDIENTE",
+          "state": "PARCIAL",
           "acceptance": "Muestra de resultados con fuente, fecha de lectura y comprobación de estado; no prometer cobertura completa.",
-          "evidencePaths": []
+          "evidencePaths": [
+            "assets/radar.js",
+            "assets/radar-quality.js"
+          ],
+          "completedSubsteps": [
+            "20/11/2026: auditoría del snapshot 18/11, 70 intentos, 68 con texto, 18 con detalles y 2 fallos; el panel ahora muestra estas magnitudes separadas, sin afirmar cobertura total."
+          ],
+          "remainingSubsteps": [
+            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos."
+          ]
         },
         {
           "id": "RAD-05",
@@ -327,15 +336,20 @@
           "title": "Reducir falsos positivos y lecturas parciales de PDF/HTML; medir cobertura real",
           "state": "PARCIAL",
           "acceptance": "Registrar documentos fallidos del último ciclo, evidencias oficiales y tasa de lectura por fuente; excluir candidaturas sin bases contrastadas.",
-          "evidencePaths": [],
+          "evidencePaths": [
+            "assets/radar.js",
+            "assets/radar-quality.js"
+          ],
           "completedSubsteps": [
             "Lector PDF restaurado en runner",
             "Fuentes Bargas/UC3M recuperadas",
-            "Detección de falsas coincidencias afinada"
+            "Detección de falsas coincidencias afinada",
+            "20/11/2026: corregido indicador: distinguir textos PDF leídos, documentos con datos estructurados y fallos técnicos; advertir cuando menos del 50 % de intentos produce información útil."
           ],
           "remainingSubsteps": [
             "Cotejar 10 fichas nuevas del último rastreo y 12 lecturas parciales",
-            "Evitar anunciar oportunidades no inscribibles"
+            "Evitar anunciar oportunidades no inscribibles",
+            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos."
           ]
         },
         {
@@ -351,10 +365,12 @@
             "Filtros implementados",
             "Política newOnly registrada",
             "20/11/2026: nueva vista OEP futuras y exclusión de OEP en oportunidades inscribibles, con mensaje inequívoco en ficha.",
-            "20/11/2026: pruebas de correo privado para anuncios de bolsa, fases y OEP sin notificación falsa y duplicados de fuente."
+            "20/11/2026: pruebas de correo privado para anuncios de bolsa, fases y OEP sin notificación falsa y duplicados de fuente.",
+            "20/11/2026: diligencias de activación, estado de bolsa, relación de integrantes y llamamientos ya no se clasifican como nuevas inscripciones; test automatizado."
           ],
           "remainingSubsteps": [
-            "Pruebas transversales y carga de estados"
+            "Pruebas transversales y carga de estados",
+            "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos."
           ]
         },
         {
