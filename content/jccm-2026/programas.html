@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Programas individualizados JCCM 2025-2026 · OpoWeb</title><link rel="stylesheet" href="../../assets/styles.css">
+<style>main{width:min(1050px,calc(100% - 2rem));margin:1.3rem auto 3rem}.switches{display:flex;gap:.5rem;flex-wrap:wrap}.switches button{padding:.8rem;border:1px solid var(--border);border-radius:.7rem;background:var(--surface);color:var(--text);cursor:pointer}.switches button[aria-pressed=true]{background:var(--primary);color:white}.item{padding:.9rem 0;border-bottom:1px solid var(--border-soft)}.item h3{margin:.15rem 0;font-size:1rem}.item p{margin:.2rem 0}.muted{color:var(--muted)}.item small{color:var(--muted)}input{padding:.75rem;width:100%;max-width:450px;border:1px solid var(--border);border-radius:10px;background:var(--surface);color:var(--text)}.panel{margin-top:1rem}.state{font-weight:600}</style></head>
+<body><header class="site-header"><div><p class="eyebrow">OpoWeb · Programas oficiales</p><h1>JCCM 2025-2026: temarios individualizados</h1><p class="subtitle">61 epígrafes transcritos · Contenido de estudio en cotejo editorial</p></div></header>
+<nav class="site-nav" aria-label="Navegación"><a href="../../index.html">Temarios</a><a href="index.html">Tres vías seleccionadas</a><a href="../../radar.html">OpoRadar</a></nav>
+<main><section class="panel"><h2>Selecciona un programa</h2><div class="switches" role="group" aria-label="Programa"><button type="button" data-kind="c2" aria-pressed="true">Auxiliar JCCM C2 · 24 temas</button><button type="button" data-kind="c1" aria-pressed="false">Informática JCCM C1 · 37 temas</button></div>
+<p>Fuente: PDFs «C2 C Auxiliar» y «C1 Escala administrativa Informática» del portal JCCM, publicados el <strong>20/11/2026</strong>. Resoluciones de <strong>20/11/2024</strong> y <strong>26/10/2026</strong>. La publicación de un epígrafe no certifica su desarrollo jurídico ni abre la inscripción.</p>
+<label for="search">Buscar dentro de los temas</label><p><input id="search" type="search" placeholder="Ej.: SQL, Ley 39/2015, Windows, redes"></p><p id="count" class="muted" aria-live="polite">Cargando temas…</p></section>
+<div id="results" aria-live="polite"></div>
+<section class="panel"><h2>Cómo se utilizarán estos epígrafes</h2><p>Para cada tema se creará una matriz <strong>inciso → fuente vigente → artículos → manual → preguntas</strong>. No se marcará como AUDITADO hasta comprobar su alcance y vigencia. El programa del SESCAM se incorporará por separado tras confirmar el aplicable a su convocatoria.</p><p><a href="index.html">Volver a la planificación de los tres itinerarios</a></p></section></main>
+<script type="module">
+const root=document.querySelector('#results'),count=document.querySelector('#count'),search=document.querySelector('#search');
+const files={c2:'../../data/programa-jccm-auxiliar-c2-2025-2026.json',c1:'../../data/programa-jccm-informatica-c1-2025-2026.json'};
+const escapeHtml=x=>String(x).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const cache={};let current='c2';
+async function show(){
+const kind=current;
+count.textContent='Cargando…';
+try{
+ if(!cache[kind]){const r=await fetch(files[kind],{cache:'no-cache'});if(!r.ok)throw Error('HTTP '+r.status);cache[kind]=await r.json();}
+ if(kind!==current)return;
+ const data=cache[kind],q=search.value.trim().toLocaleLowerCase('es'),items=data.temas.filter(t=>(t.titulo+' '+t.bloque).toLocaleLowerCase('es').includes(q));
+ count.textContent=items.length+' de '+data.temas.length+' temas · Programa '+(kind==='c2'?'Auxiliar C2':'Informática C1');
+ const sections=[...new Set(items.map(t=>t.bloque))];
+ root.innerHTML=sections.map(section=>'<section class="panel"><h2>'+escapeHtml(section)+'</h2>'+items.filter(t=>t.bloque===section).map(t=>'<article class="item"><h3>Tema '+escapeHtml(t.numeroEnBloque)+': '+escapeHtml(t.titulo)+'</h3><small class="state">Epígrafe oficial · Desarrollo pendiente de cotejo editorial</small></article>').join('')+'</section>').join('')||( '<section class="panel"><p>No hay temas que coincidan con la búsqueda.</p></section>');
+}catch(e){count.textContent='No se pudo cargar el programa';root.innerHTML='<section class="panel"><p>Error de carga. Vuelve a intentarlo más tarde.</p></section>';}
+}
+for(const button of document.querySelectorAll('[data-kind]'))button.addEventListener('click',()=>{current=button.dataset.kind;for(const b of document.querySelectorAll('[data-kind]'))b.setAttribute('aria-pressed',String(b===button));show()});
+search.addEventListener('input',show);show();
+</script></body></html>
