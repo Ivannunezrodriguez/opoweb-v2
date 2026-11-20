@@ -181,7 +181,9 @@
             "data/radar-profile.json",
             "data/programa-jccm-auxiliar-c2-2025-2026.json",
             "data/programa-jccm-informatica-c1-2025-2026.json",
-            "content/jccm-2026/programas.html"
+            "content/jccm-2026/programas.html",
+            "data/matriz-jccm-auxiliar-c2-2025-2026.json",
+            "data/matriz-jccm-informatica-c1-2025-2026.json"
           ],
           "completedSubsteps": [
             "Acuerdo DOCM 20/11/2026 cotejado para los tres objetivos elegidos: Auxiliar JCCM C2 143 (118 general), Auxiliar SESCAM C2 138 (125 general), Informática JCCM C1 25 (23 general)",
@@ -191,14 +193,15 @@
             "Corregida fuente SESCAM: 125 general + 9 discapacidad general + 4 intelectual = 138; régimen estatutario, anexo I pág. 9 y convocatoria antes del 30/11/2028; C1 Administrativo general despriorizado. Añadido test de regresión y puerta de publicación el 20/11/2026.",
             "20/11/2026: Localizadas fichas oficiales 2025-2026 para Auxiliar JCCM (423 plazas) e Informática C1 (29); PDFs individualizados aportados por el usuario: 24 temas C2 y 37 C1; localizado temario histórico SESCAM OEP 2023/24 fechado 29/04/2025 y añadidas referencias a guía web.",
             "Integrados los 61 epígrafes literalizados desde PDFs individuales aportados: 24 Auxiliar JCCM C2 (12 organización + 12 ofimática) y 37 Informática C1 (10 comunes + 27 específicos). Creados manifiestos independientes y visor HTML de consulta con buscador y bloques, 20/11/2026.",
-            "Test de integridad editorial incorporado al workflow de publicación; pendiente de verificar resultado completo CI/E2E. Ningún tema se presenta como auditado por la mera extracción."
+            "Test de integridad editorial incorporado al workflow de publicación; pendiente de verificar resultado completo CI/E2E. Ningún tema se presenta como auditado por la mera extracción.",
+            "Matrices de control creadas para los 61 epígrafes: 9 temas con manuales candidatos identificados, 52 sin candidato; cobertura acreditada 0 hasta cotejo por incisos. No implica auditoría ni manuales nuevos."
           ],
           "remainingSubsteps": [
             "Obtener y cotejar temario aplicable a futura OEP SESCAM 2025-2026, sin confundir el individualizado histórico 2023/24",
             "Verificar resoluciones de convocatoria y plazos de solicitudes de las fichas JCCM 2025-2026, evitando equiparar «Abierto» con inscripción",
             "Completar itinerarios por epígrafe cuando existan las bases; crear simulacros trazables y ejecutar CI/E2E",
             "Desplegar versión pública filtrada y verificar Pages, incluida la nueva ruta JCCM",
-            "Crear matriz inciso→norma→manual para los 61 epígrafes, iniciando las unidades troncales y específicas prioritarias, con auditoría normativa antes de marcar cobertura."
+            "Completar matrices con desglose exhaustivo de incisos, normas y artículos verificados; desarrollar y auditar manuales y preguntas de todos los temas."
           ]
         }
       ]
