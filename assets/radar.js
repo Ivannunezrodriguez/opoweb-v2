@@ -208,15 +208,17 @@ function render(){
    (x.ok?(x.coverage?.partial?'Cobertura parcial':'Disponible'):'No disponible')+
    ': '+esc(x.scope||scopeFallback[x.source]||'Alcance no identificado')+
    esc(coverageDescription(x))+'</li>').join('');
- const docsAttempted=data.enrichmentStatus?.attempted||0;
- const docsRead=data.enrichmentStatus?.read||0;
- const lowDocumentCoverage=docsAttempted>=10&&docsRead/docsAttempted<0.2;
+ const docsAttempted=Number(data.enrichmentStatus?.attempted)||0;
+ const docsRead=Number(data.enrichmentStatus?.read)||0;
+ const docsWithDetails=Number(data.enrichmentStatus?.withDetails)||0;
+ const docsFailed=Number(data.enrichmentStatus?.failures)||0;
+ const lowDocumentCoverage=docsAttempted>=10 && docsWithDetails/docsAttempted<0.5;
  const cards=list.length?list.slice(0,shown).map(card).join(''):'<div class="panel radar-empty">No hay fichas que cumplan los filtros. Prueba «Todos los puestos detectados» o cambia la zona.</div>';
  app.innerHTML=[
  '<section class="panel radar-hero"><div><p class="eyebrow">Detección automatizada · no equivale a solicitud abierta</p><h2>Radar de empleo público</h2>',
  '<p>Por defecto se ocultan los plazos vencidos que no forman parte de tus procesos seguidos; puedes consultar el histórico en «Plazos cerrados» o «Todos los registros». Primero se muestran <strong>puestos concretos con enlace oficial</strong>, priorizados por relevancia; puedes cambiar la ordenación para destacar plazas, fechas de cierre y publicaciones. Si no se conoce el destino exacto, no se supone que esté cerca. Las fichas sin puesto identificado se guardan en «Sin puesto identificable» y no provocan correos inútiles. Se muestran únicamente los requisitos y plazos que la extracción ha encontrado; el resto queda indicado como pendiente.</p>',
  stale?'<p class="notice warning">La última actualización tiene más de 3 días. Revisa los plazos en la fuente oficial.</p>':'',
- lowDocumentCoverage?'<p class="notice warning">Lectura parcial: se pudieron leer '+docsRead+' de '+docsAttempted+' documentos examinados. Los requisitos y plazos no publicados o inaccesibles siguen pendientes de verificar en la fuente oficial.</p>':'',
+ lowDocumentCoverage?'<p class="notice warning">Extracción documental limitada: se obtuvo texto de '+docsRead+' de '+docsAttempted+' documentos, pero solo '+docsWithDetails+' aportaron datos estructurados útiles. Lectura técnica no equivale a requisitos y plazos comprobados; consulta las bases oficiales.</p>':'',
  directHasGaps?'<p class="notice warning">'+esc(directCoverage)+' El radar no cubre de forma completa todas estas fuentes; contrasta también las sedes y boletines oficiales.</p>':'',
  !directStatuses.length?'<p class="notice warning">'+esc(directCoverage)+' No se puede certificar cobertura municipal.</p>':'',
  (crawlOld||crawlUnavailable)?'<p class="notice warning">Rastreo local: '+esc(crawlDate?day(crawlDate):'fecha no disponible')+'. '+(crawlUnavailable?'No consta una ejecución directa válida en la última actualización. ':'')+(crawlOld?'La medición local no está fechada o tiene más de 3 días. ':'')+'Verifica anuncios y plazos en sedes oficiales.</p>':'',
@@ -226,7 +228,7 @@ function render(){
  '<div class="radar-stat"><strong>'+actionable.length+'</strong><span>fichas con puesto identificado</span></div>',
  '<div class="radar-stat"><strong>'+tracked.length+'</strong><span>procesos marcados en este navegador</span></div>',
  '<div class="radar-stat"><strong>'+all.filter(x=>!x.actionable&&!x.phaseFollowup).length+'</strong><span>anuncios incompletos por investigar (no enviados por email)</span></div></div>',
- '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Rastreo directo: <strong>'+esc(crawlDate?day(crawlDate):'fecha no disponible')+'</strong>. Webs únicas consultadas: <strong>'+esc(directCrawl.uniqueSources??'sin verificar')+'</strong>. Documentos oficiales leídos: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
+ '<p class="radar-source">Datos generados: <strong>'+esc(day(data.generatedAt))+'</strong>. Fuentes que respondieron: <strong>'+statuses+'/'+(data.sourceStatus||[]).length+'</strong>. Rastreo directo: <strong>'+esc(crawlDate?day(crawlDate):'fecha no disponible')+'</strong>. Webs únicas consultadas: <strong>'+esc(directCrawl.uniqueSources??'sin verificar')+'</strong>. Documentos con texto: <strong>'+docsRead+'/'+docsAttempted+'</strong>. Con datos extraídos: <strong>'+docsWithDetails+'/'+docsAttempted+'</strong>. Fallos técnicos: <strong>'+docsFailed+'</strong>. Son registros detectados, no plazas abiertas ni solicitudes.</p></section>',
  sourceScopes?'<details class="panel"><summary><strong>Qué cubre realmente cada fuente oficial</strong> · ver límites del rastreo</summary><p>Una fuente que responde no garantiza que se haya consultado todo su histórico ni todas las sedes municipales.</p><ul>'+sourceScopes+'</ul></details>':'',
  '<section class="panel"><div class="radar-controls">',
  '<label><span>Buscar puesto, localidad u organismo</span><input id="rq" type="search" value="'+esc(filters.q)+'" placeholder="Auxiliar, administrativo, Getafe, Toledo…"></label>',
