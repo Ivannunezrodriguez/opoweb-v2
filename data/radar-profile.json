@@ -84,5 +84,37 @@
     "newOnly": true,
     "trackExistingProcesses": false,
     "unknownRequirements": "AVISAR_PARA_REVISAR"
+  },
+  "priorityTargets": {
+    "updatedAt": "2026-11-20",
+    "source": "DOCM 223 de 20/11/2026, acuerdo 2026/8357",
+    "targets": [
+      {
+        "id": "jccm-ope-2026-cuerpo-auxiliar-c2",
+        "priority": 1,
+        "phase": "OEP_SIN_CONVOCATORIA"
+      },
+      {
+        "id": "jccm-ope-2026-cuerpo-ejecutivo-administrativo-c1",
+        "priority": 2,
+        "phase": "OEP_SIN_CONVOCATORIA"
+      },
+      {
+        "id": "jccm-ope-2026-escala-administrativa-informatica-c1",
+        "priority": 3,
+        "phase": "OEP_SIN_CONVOCATORIA"
+      }
+    ],
+    "watchFor": [
+      "CONVOCATORIA_PUBLICADA",
+      "APERTURA_SOLICITUDES",
+      "PLAZO_INSCRIPCION",
+      "TEMARIO_DEFINITIVO",
+      "FECHA_EXAMEN",
+      "DISTRIBUCION_DESTINOS"
+    ],
+    "reviewEveryDays": 14,
+    "startDate": "2026-12-04",
+    "note": "Estas prioridades editoriales no excluyen búsquedas generales de empleo público."
   }
 }

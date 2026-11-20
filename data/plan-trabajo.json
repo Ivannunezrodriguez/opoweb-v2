@@ -168,6 +168,24 @@
           ],
           "remainingSubsteps": [],
           "note": "Cierre de preparación operativa: NO declara acreditada la fecha exacta de publicación de definitivos ni el resultado CI/E2E."
+        },
+        {
+          "id": "JCCM-2026-01",
+          "title": "Incorporar tres itinerarios JCCM 2026: Auxiliar C2, Administrativo C1 e Informática C1",
+          "state": "EN_CURSO",
+          "acceptance": "Fichas OEP verificadas publicadas, contenidos troncales reutilizados sin duplicar, programa definitivo no atribuido hasta convocatoria, simulacros y E2E por itinerario",
+          "evidencePaths": [
+            "data/convocatorias.json"
+          ],
+          "completedSubsteps": [
+            "Acuerdo DOCM 20/11/2026 cotejado: 143 C2 (118 general), 54 C1 administrativo (48 general), 25 C1 informática (23 general)",
+            "Objetivos y fases OEP pendientes de convocatoria añadidos al registro canónico privado"
+          ],
+          "remainingSubsteps": [
+            "Cotejar temarios anteriores con futuro anuncio oficial sin presentarlos como exigencias de 2026",
+            "Crear rutas de estudio y navegación sobre materiales verificados; probar CI/E2E",
+            "Desplegar versión pública filtrada y verificar Pages"
+          ]
         }
       ]
     },
@@ -302,6 +320,24 @@
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados"
+          ]
+        },
+        {
+          "id": "RAD-JCCM-2026",
+          "title": "Vigilar publicación de convocatorias de tres cuerpos JCCM 2026",
+          "state": "EN_CURSO",
+          "acceptance": "OpoRadar diferencia OEP sin plazo de convocatorias inscribibles, evita duplicados y avisa cada 14 días de novedades con fuente oficial; sin exposición de preferencias privadas",
+          "evidencePaths": [
+            "data/radar-profile.json",
+            "data/convocatorias.json"
+          ],
+          "completedSubsteps": [
+            "Perfil privado registra tres objetivos y vigilancia quincenal",
+            "Automatización existente ampliada con comprobación alterna desde 04/12/2026"
+          ],
+          "remainingSubsteps": [
+            "Probar exportación pública y distinción entre OEP y convocatoria",
+            "Confirmar notificaciones y cambios reales desde fuentes oficiales"
           ]
         }
       ]
