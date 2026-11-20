@@ -1,0 +1,402 @@
+{
+  "id": "jccm-2025-2026-informatica-c1",
+  "version": "2026-11-20",
+  "tipo": "PROGRAMA_OFICIAL_INDIVIDUALIZADO",
+  "estadoEditorial": "EPIGRAFES_EXTRAIDOS_PENDIENTES_DESARROLLO",
+  "convocatoria": {
+    "nombre": "JCCM · Escala Administrativa de Informática C1 · turno libre 2025-2026",
+    "fuentePrograma": {
+      "publicacion": "Portal de Empleo Público de Castilla-La Mancha, temario individualizado publicado 20/11/2026",
+      "resolucionesAplicables": [
+        "Resolución 20/11/2024 (DOCM 28/11/2024, 2024/9545)",
+        "Resolución 26/10/2026 (DOCM 30/10/2026, 2026/7825)"
+      ],
+      "verificacion": "Pendiente de cotejo jurídico de cada inciso con resoluciones y bases de convocatoria"
+    },
+    "nota": "El temario individualizado no abre por sí mismo el plazo de solicitudes."
+  },
+  "bloques": [
+    {
+      "id": "bloque-1",
+      "titulo": "Parte común del Subgrupo C1",
+      "temas": 10
+    },
+    {
+      "id": "bloque-2",
+      "titulo": "Parte específica",
+      "temas": 27
+    }
+  ],
+  "temas": [
+    {
+      "numero": 1,
+      "numeroEnBloque": 1,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "La Unión Europea: las instituciones comunitarias y las libertades básicas del sistema comunitario. Las fuentes del derecho comunitario europeo: especial consideración a las Directivas.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 2,
+      "numeroEnBloque": 2,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "La Constitución Española de 1978.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 3,
+      "numeroEnBloque": 3,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "El Estatuto de Autonomía de Castilla-La Mancha. El Gobierno y la Administración Regional: estructura, organización y régimen jurídico.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 4,
+      "numeroEnBloque": 4,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "Los actos administrativos: requisitos y eficacia. Nulidad y anulabilidad. Los recursos administrativos. El procedimiento administrativo común y sus fases.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 5,
+      "numeroEnBloque": 5,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "Los contratos del Sector público: clases y régimen jurídico. Sus elementos. Preparación, adjudicación, efectos, cumplimiento y extinción.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 6,
+      "numeroEnBloque": 6,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "El personal al servicio de la Administración de la Junta de Comunidades de Castilla-La Mancha: clases y régimen jurídico.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 7,
+      "numeroEnBloque": 7,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "El presupuesto de la Junta de Comunidades de Castilla-La Mancha: elaboración, aprobación y ejecución. El control de la actividad financiera en la Administración Regional.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 8,
+      "numeroEnBloque": 8,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "La igualdad efectiva de mujeres y hombres. Políticas públicas de igualdad.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 9,
+      "numeroEnBloque": 9,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "La transparencia en la Administración de la Junta de Comunidades de Castilla- La Mancha: publicidad activa y derecho de acceso a la información pública. Ley de Participación de Castilla-La Mancha: Disposiciones Generales.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 10,
+      "numeroEnBloque": 10,
+      "bloque": "Parte común del Subgrupo C1",
+      "titulo": "Conceptos básicos de Seguridad de la Información. La protección de datos: principios y derechos de los ciudadanos.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 11,
+      "numeroEnBloque": 1,
+      "bloque": "Parte específica",
+      "titulo": "Informática básica. Concepto de datos e información. Concepto de sistemas de información. Elementos constitutivos de un sistema. Características y funciones.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 12,
+      "numeroEnBloque": 2,
+      "bloque": "Parte específica",
+      "titulo": "Arquitectura de ordenadores. Elementos básicos. Funciones. La unidad central de proceso. La memoria principal. Memorias: tipos, características y modos de funcionamiento. Buses y conexiones de E/S.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 13,
+      "numeroEnBloque": 3,
+      "bloque": "Parte específica",
+      "titulo": "Periféricos. Conectividad. Elementos de impresión. Elementos de almacenamiento. Elementos de visualización y digitalización. Tipos, características y modos de funcionamiento.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 14,
+      "numeroEnBloque": 4,
+      "bloque": "Parte específica",
+      "titulo": "Ordenadores Personales. Administración y soporte de dispositivos PC. Instalación y configuración software. Instalación y configuración hardware.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 15,
+      "numeroEnBloque": 5,
+      "bloque": "Parte específica",
+      "titulo": "Conceptos básicos sobre organización de la información. Estructuras de datos. Campos, registros, ficheros, bibliotecas y bases de datos. Organizaciones de ficheros. Algoritmos. Formatos de información y ficheros.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 16,
+      "numeroEnBloque": 6,
+      "bloque": "Parte específica",
+      "titulo": "Sistemas operativos. Conceptos y funciones principales. Sistemas Windows. Sistemas Unix y Linux. Sistemas Operativos para Dispositivos Móviles. Virtualización de servidores. Infraestructura basada en contenedores.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 17,
+      "numeroEnBloque": 7,
+      "bloque": "Parte específica",
+      "titulo": "Programación. Conceptos fundamentales. Principales estructuras de control y flujo de información. Programación estructurada, orientada a objetos, orientada a eventos y orientada a aspectos. Modularidad y reutilización de componentes.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 18,
+      "numeroEnBloque": 8,
+      "bloque": "Parte específica",
+      "titulo": "Aplicaciones Web. Tecnologías de programación: HTML, XML, JavaScript, applets, servlets, framework Angular y PHP.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 19,
+      "numeroEnBloque": 9,
+      "bloque": "Parte específica",
+      "titulo": "Aplicaciones Móviles Multiplataforma. HTML5 (Mobile profile), CSS (mobile Profile), JavaScript para móviles, JQueryMobile.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 20,
+      "numeroEnBloque": 10,
+      "bloque": "Parte específica",
+      "titulo": "Arquitectura cliente/servidor. Arquitecturas Cloud y Microservicios. Componentes y operación.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 21,
+      "numeroEnBloque": 11,
+      "bloque": "Parte específica",
+      "titulo": "Lenguajes de programación: Java, .NET, Python y PL/SQL. Principales frameworks: Spring Boot y Spring Cloud.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 22,
+      "numeroEnBloque": 12,
+      "bloque": "Parte específica",
+      "titulo": "Accesibilidad, diseño universal y usabilidad. Acceso y usabilidad de las tecnologías, productos y servicios relacionados con la sociedad de la información. Confidencialidad y disponibilidad de la información en puestos de usuario final.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 23,
+      "numeroEnBloque": 13,
+      "bloque": "Parte específica",
+      "titulo": "Desarrollo ágil de aplicaciones. Modelo de integración continua. DevOps. Técnicas de programación. Pseudocódigo. Diagramas de flujo, tablas de decisión. Metodologías ágiles: SCRUM, KANBAN, otras.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 24,
+      "numeroEnBloque": 14,
+      "bloque": "Parte específica",
+      "titulo": "Desarrollo de API’s REST. Testing en desarrollo y principales frameworks: JUnit, JMeter y Selenium.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 25,
+      "numeroEnBloque": 15,
+      "bloque": "Parte específica",
+      "titulo": "Técnicas de diseño de bases de datos relacionales y no relacionales. Diagramas de entidad-relación. Normalización. Modos y técnicas de acceso a datos. Análisis y diseño de sistemas de información orientación estructurada y orientación a objetos.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 26,
+      "numeroEnBloque": 16,
+      "bloque": "Parte específica",
+      "titulo": "Administración de bases de datos, funciones y responsabilidades. Sistemas de gestión de bases de datos. Tipos, características y elementos. Integridad, control de concurrencia, bloqueos, gestión de autorizaciones y recuperación de errores. El modelo relacional: Definición, arquitectura y objetos.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 27,
+      "numeroEnBloque": 17,
+      "bloque": "Parte específica",
+      "titulo": "Sistemas de gestión de bases de datos relacionales: Oracle, SQL Server y MySQL. Lenguajes de interrogación de bases de datos. Estándar ANSI SQL.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 28,
+      "numeroEnBloque": 18,
+      "bloque": "Parte específica",
+      "titulo": "Interacción con sistemas de gestión de bases de datos. Interconexión entre sistemas de gestión de bases de datos: ODBC, JDBC y otros. Acceso a datos a través de navegadores.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 29,
+      "numeroEnBloque": 19,
+      "bloque": "Parte específica",
+      "titulo": "Seguridad física y lógica en la explotación de los sistemas de información. Herramientas para su control. Gestión del registro de incidencias. Plan de contingencias. Interrupción del servicio. Mantenimientos programados y no programados. Caída del sistema. Medidas preventivas y de recuperación.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 30,
+      "numeroEnBloque": 20,
+      "bloque": "Parte específica",
+      "titulo": "Políticas de salvaguardia. Herramientas de copias de seguridad de la información. Gestión de soportes. Herramientas y técnicas de seguridad en redes conectadas a Internet. Firma electrónica.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 31,
+      "numeroEnBloque": 21,
+      "bloque": "Parte específica",
+      "titulo": "Conceptos básicos de redes y transmisión de información entre ordenadores. Administración de redes de área local. Gestión de usuarios y dispositivos. Principales topologías y estándares. Cableado estructurado. Elementos físicos y lógicos de conexión de ordenadores y redes.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 32,
+      "numeroEnBloque": 22,
+      "bloque": "Parte específica",
+      "titulo": "Comunicaciones. Medios de transmisión. Modos de comunicación. Equipos terminales y equipos de interconexión y conmutación. Comunicaciones móviles e inalámbricas.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 33,
+      "numeroEnBloque": 23,
+      "bloque": "Parte específica",
+      "titulo": "Administración de redes de área local. Gestión de usuarios. Gestión de dispositivos. Monitorización y control de tráfico.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 34,
+      "numeroEnBloque": 24,
+      "bloque": "Parte específica",
+      "titulo": "Seguridad y protección en redes de comunicaciones. Seguridad perimetral. Acceso remoto seguro a redes. Redes privadas virtuales (VPN). Seguridad en el puesto del usuario. Control remoto.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 35,
+      "numeroEnBloque": 25,
+      "bloque": "Parte específica",
+      "titulo": "El modelo de referencia de interconexión de sistemas abiertos (OSI) de ISO. Protocolos TCP/IP.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 36,
+      "numeroEnBloque": 26,
+      "bloque": "Parte específica",
+      "titulo": "Internet. Concepto y evolución histórica. Principales servicios basados en internet. Correo electrónico, www, FTP, Telnet. Protocolos HTTP, HTTPS y SSL/TLS. Programación en Internet. Accesibilidad y usabilidad.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    },
+    {
+      "numero": 37,
+      "numeroEnBloque": 27,
+      "bloque": "Parte específica",
+      "titulo": "Normativa sobre seguridad de la información. Normativa de protección de datos personales. El Esquema Nacional de Seguridad. Niveles de seguridad de la información y de los sistemas. Principales normativas y procedimientos. El documento de seguridad. Legislación sobre el uso de internet. El delito informático.",
+      "estado": "PENDIENTE_COTEJO_EDITORIAL",
+      "manual": null,
+      "matriz": null,
+      "preguntas": null
+    }
+  ]
+}
