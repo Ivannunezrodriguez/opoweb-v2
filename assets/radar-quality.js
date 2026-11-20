@@ -67,8 +67,9 @@ export function normalizeOpportunity(o,asOf){
  const iso=dateISO(o.deadline);
  // Una OEP anuncia plazas futuras: no abre solicitudes. Ni una fecha importada,
  // ni un estado heredado del feed pueden convertirla en plazo abierto.
- const isOffer=/\bOEP\b|oferta\s+de\s+empleo\s+p[uú]blico/i.test(title) ||
-   o.tipoPublicacion==='OFERTA_EMPLEO_PUBLICO_NO_CONVOCATORIA';
+ const offersMention=/\bOEP\b|oferta\s+de\s+empleo\s+p[uú]blico/i.test(title);
+ const explicitCall=/\bconvocatori[ao]s?\s+(?:para\s+proveer|de\s+plazas|de\s+proceso|del\s+proceso)|\bse\s+convoca(?:n)?\b|\bconvocatoria\s+de\s+acceso\b/i.test(title);
+ const isOffer=o.tipoPublicacion==='OFERTA_EMPLEO_PUBLICO_NO_CONVOCATORIA' || (offersMention&&!explicitCall);
  const closed=!!iso && iso<asOf;
  const status=isOffer?'PREVISTA':phaseFollowup?'SEGUIMIENTO':closed?'CERRADA':iso?'PLAZO_ABIERTO':'REVISAR';
  const vacancies=(Number.isInteger(o.vacancies)&&o.vacancies>0)?o.vacancies:countVacancies(title);
