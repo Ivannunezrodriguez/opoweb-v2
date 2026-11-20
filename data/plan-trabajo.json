@@ -234,9 +234,15 @@
         {
           "id": "RAD-03",
           "title": "Mejorar cobertura de bolsas, interinidades y sustituciones Toledo/sur de Madrid",
-          "state": "PENDIENTE",
+          "state": "PARCIAL",
           "acceptance": "Fuentes específicas auditables; entradas duplicadas colapsadas; anuncios históricos no presentados como nuevas oportunidades.",
-          "evidencePaths": []
+          "evidencePaths": [],
+          "completedSubsteps": [
+            "20/11/2026: mitigada duplicación de alertas por mismo documento y puesto llegado por varias fuentes (solo en correo, no deduplicación total del feed)."
+          ],
+          "remainingSubsteps": [
+            "Ampliar cobertura verificada de fuentes de bolsas, interinidades y sustituciones locales; deduplicación prudente también en feed y casos documentados."
+          ]
         },
         {
           "id": "RAD-04",
@@ -256,10 +262,12 @@
             "assets/radar-quality.js"
           ],
           "completedSubsteps": [
-            "20/11/2026: separadas OEP sin convocatoria, plazas con fecha y seguimiento mediante estado derivado; nuevos casos automatizados para OEP, bolsas, temporal, listas y convocatorias que citan su OEP."
+            "20/11/2026: separadas OEP sin convocatoria, plazas con fecha y seguimiento mediante estado derivado; nuevos casos automatizados para OEP, bolsas, temporal, listas y convocatorias que citan su OEP.",
+            "20/11/2026: deduplicación de correo interfuente por misma URL normalizada, puesto, plazas y subgrupo, además de clave histórica por ID; no colapsa por simple título. Pruebas con casos duplicados, otros puestos/documentos, OEP y ledger histórico; integradas en workflow privado radar-empleo y publicación."
           ],
           "remainingSubsteps": [
-            "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E."
+            "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E.",
+            "Confirmar ejecución CI completa y pruebas de notificación sin envío real; revisar ventana y calidad de fuentes."
           ]
         },
         {
@@ -342,7 +350,8 @@
           "completedSubsteps": [
             "Filtros implementados",
             "Política newOnly registrada",
-            "20/11/2026: nueva vista OEP futuras y exclusión de OEP en oportunidades inscribibles, con mensaje inequívoco en ficha."
+            "20/11/2026: nueva vista OEP futuras y exclusión de OEP en oportunidades inscribibles, con mensaje inequívoco en ficha.",
+            "20/11/2026: pruebas de correo privado para anuncios de bolsa, fases y OEP sin notificación falsa y duplicados de fuente."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados"
