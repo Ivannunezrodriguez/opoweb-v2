@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-19",
+  "updatedAt": "2026-11-20",
   "policy": {
     "purpose": "Registro MAESTRO único, editable solo en repositorio privado opoweb-dev. opoweb-v2/data/plan-trabajo.json es copia filtrada y derivada para plan.html, nunca se edita directamente.",
     "states": [
@@ -80,7 +80,19 @@
           "state": "EN_CURSO",
           "acceptance": "Repaso final con simulacros verificables y priorización por fecha; sin fingir cobertura completa.",
           "evidencePaths": [
-            "content/diputacion-toledo"
+            "content/diputacion-toledo",
+            "content/diputacion-toledo/simulacros.json"
+          ],
+          "completedSubsteps": [
+            "Los 3 modelos ya publicados (36 preguntas) revisados contra Anexo VII de 40 temas: 11 etiquetas temáticas corregidas y todas las referencias redirigidas al manual del tema, sin inventar anclas; solo cubren 14 temas, 20/11/2026.",
+            "Control automatizado de estructura, clasificación y existencia de manuales incorporado al workflow de publicación; Actions #44691823410 SUCCESS.",
+            "Advertencia de alcance 14/40 y formato 12 preguntas/18 minutos publicada en centro de entrenamiento; cache actualizado.",
+            "Chromium E2E del primer modelo C1 de 12 preguntas, 18 minutos e historial independiente: Actions #44692289280 SUCCESS."
+          ],
+          "remainingSubsteps": [
+            "Completar repaso transversal del resto de temas C1 sin reutilizar preguntas erróneas ni presentar los modelos de 12 como simulacro oficial completo",
+            "Cotejar jurídicamente respuestas y justificaciones con fuentes oficiales, aparte de este cierre de etiquetas",
+            "Mantener el T22 OAPGT en tarea bloqueada independiente DIP-C1-02"
           ]
         },
         {
@@ -331,14 +343,15 @@
             "Accesibilidad básica Chromium: foco visible de radios, aria-describedby en cada pregunta, temporizador aria-live=off y foco programático al resultado; run 44603345112 completed/success en 9a8b358f6aa42dc389d2ba13407353bc3573c700.",
             "axe-core WCAG 2.0/2.1 A/AA sin infracciones automáticas en práctica UC3M (centro y preguntas), itinerario de 24 apartados en móvil simulado, portada, OpoRadar y tablero con datos realmente cargados; Chromium Actions #44607297702 SUCCESS.",
             "Contraste de etiqueta OpoRadar corregido en assets/radar.css; primer axe detectó color-contrast, nueva prueba completa pasó.",
-            "La política offline queda protegida con tests de exportación: sw.js se desregistra y no intercepta fetch. No se afirma que la PWA funcione sin red."
+            "La política offline queda protegida con tests de exportación: sw.js se desregistra y no intercepta fetch. No se afirma que la PWA funcione sin red.",
+            "Diputación Toledo C1, modelo 1 de 12 preguntas/18 min, historial aislado y aviso de cobertura 14/40 verificados en Chromium #44692289280 SUCCESS."
           ],
           "remainingSubsteps": [
-            "Ampliar E2E a simulacros restantes no cubiertos y a Diputación C1 si hay modelos evaluables; La Puebla 1, Olías 1 y UC3M 1 ya probados",
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
             "Compatibilidad en móvil físico y navegadores distintos de Chromium",
             "Accesibilidad pendiente: pruebas con lector de pantalla real y navegación exhaustiva por teclado; axe automatizado solo cubre reglas detectables.",
-            "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios."
+            "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
+            "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
           ]
         },
         {
@@ -749,6 +762,21 @@
         "No acceso offline; PWA deliberadamente desactivada",
         "No navegador Firefox ni Safari"
       ]
+    },
+    "latestDipC1Review": {
+      "date": "2026-11-20",
+      "testRun": 44692289280,
+      "testConclusion": "success",
+      "source": "data/programa-diputacion-administrativo-2026.json",
+      "questionBank": "content/diputacion-toledo/simulacros.json",
+      "questions": 36,
+      "models": 3,
+      "topicsCovered": 14,
+      "officialTopics": 40,
+      "retagged": 11,
+      "referenceFixes": 36,
+      "remaining": "Banco de simulacros propio de cobertura parcial; T22 pendiente OAPGT; falta cotejar fondo legal de cada respuesta.",
+      "note": "No atribuir a cuestionario oficial ni afirmar cobertura integral del programa C1."
     }
   },
   "completedMilestones": [
