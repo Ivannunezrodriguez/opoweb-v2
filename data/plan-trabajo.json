@@ -237,7 +237,8 @@
             "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826"
           ],
           "completedSubsteps": [
-            "20/11/2026: confirmado BOE-A-2026-24345 de El Viso, distinto del BOE-A-2026-20416; ficha, banner Radar y catálogo actualizados a plazo relativo de 20 días hábiles sin calcular fin. BOE-A-2026-22826 de Olías confirma 3 limpieza y 4 auxiliar edificios y 20 días hábiles; falta resolver discrepancia de bases entre naturales y hábiles."
+            "20/11/2026: confirmado BOE-A-2026-24345 de El Viso, distinto del BOE-A-2026-20416; ficha, banner Radar y catálogo actualizados a plazo relativo de 20 días hábiles sin calcular fin. BOE-A-2026-22826 de Olías confirma 3 limpieza y 4 auxiliar edificios y 20 días hábiles; falta resolver discrepancia de bases entre naturales y hábiles.",
+            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público."
           ],
           "remainingSubsteps": [
             "Cotejar directamente las bases BOP Toledo 204 de 23/10/2026 de Olías y rectificaciones del ayuntamiento para resolver días naturales vs hábiles y plazo prudente por proceso; no dar cierre único sin comprobar.",
@@ -275,12 +276,14 @@
             "20/11/2026: auditoría del snapshot 18/11, 70 intentos, 68 con texto, 18 con detalles y 2 fallos; el panel ahora muestra estas magnitudes separadas, sin afirmar cobertura total.",
             "20/11/2026: nueva métrica adicional withCoreDetails exige puesto, titulación y plazo o regla extraídos del mismo documento; snapshots antiguos muestran «sin medir», sin inventar históricos.",
             "20/11/2026: invalidación explícita de caché de assets/radar.js y radar-quality.js; nuevo test de versión, métricas strict y legado sin medir incorporado a CI. Despliegue público pendiente de confirmación.",
-            "20/11/2026: corregida aserción obsoleta de la prueba del panel; comprobado después en el repositorio público que radar.html usa v=2026.11.20.2 y assets/radar.js contiene el indicador de información nuclear."
+            "20/11/2026: corregida aserción obsoleta de la prueba del panel; comprobado después en el repositorio público que radar.html usa v=2026.11.20.2 y assets/radar.js contiene el indicador de información nuclear.",
+            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público."
           ],
           "remainingSubsteps": [
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Confirmar ejecución satisfactoria de los nuevos tests CI y medir mejora sobre un rastreo posterior al cambio, no sobre el snapshot antiguo.",
-            "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E."
+            "Validar por separado el resultado completo de los jobs CI, el árbol de Pages/site y la carga real de la interfaz; la comprobación de ficheros públicos no es prueba E2E.",
+            "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente."
           ]
         },
         {
@@ -296,7 +299,8 @@
           "completedSubsteps": [
             "20/11/2026: separadas OEP sin convocatoria, plazas con fecha y seguimiento mediante estado derivado; nuevos casos automatizados para OEP, bolsas, temporal, listas y convocatorias que citan su OEP.",
             "20/11/2026: deduplicación de correo interfuente por misma URL normalizada, puesto, plazas y subgrupo, además de clave histórica por ID; no colapsa por simple título. Pruebas con casos duplicados, otros puestos/documentos, OEP y ledger histórico; integradas en workflow privado radar-empleo y publicación.",
-            "20/11/2026: correo privado ya no descarta oportunida­des con requisitos incompletos si las bases fueron leídas y hay fecha; etiqueta REVISAR y test de política."
+            "20/11/2026: correo privado ya no descarta oportunida­des con requisitos incompletos si las bases fueron leídas y hay fecha; etiqueta REVISAR y test de política.",
+            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público."
           ],
           "remainingSubsteps": [
             "Validar notificaciones reales newOnly y compatibilidad de requisitos sobre una muestra del feed; confirmar CI y E2E.",
@@ -315,7 +319,8 @@
           "completedSubsteps": [
             "Extractor temporal por texto implementado en origen privado",
             "20/11/2026: se rechazan fechas ISO imposibles en la normalización de estados; pruebas de febrero, noviembre y bisiesto.",
-            "20/11/2026: implementado bloqueo conservador de fecha ante reglas incompatibles de días hábiles/naturales o publicación activadora, con preservación de ambas reglas y aviso visible. Prueba de conflicto en tests/radar-enrich.mjs; validación en ejecución real pendiente."
+            "20/11/2026: implementado bloqueo conservador de fecha ante reglas incompatibles de días hábiles/naturales o publicación activadora, con preservación de ambas reglas y aviso visible. Prueba de conflicto en tests/radar-enrich.mjs; validación en ejecución real pendiente.",
+            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público."
           ],
           "remainingSubsteps": [
             "Calendario y publicación oficial cotejados",
@@ -408,7 +413,8 @@
             "20/11/2026: nueva vista OEP futuras y exclusión de OEP en oportunidades inscribibles, con mensaje inequívoco en ficha.",
             "20/11/2026: pruebas de correo privado para anuncios de bolsa, fases y OEP sin notificación falsa y duplicados de fuente.",
             "20/11/2026: diligencias de activación, estado de bolsa, relación de integrantes y llamamientos ya no se clasifican como nuevas inscripciones; test automatizado.",
-            "20/11/2026: excluido del feed inicial seguimiento de bolsas constituidas sin nueva convocatoria, evitando nuevas detecciones falsas."
+            "20/11/2026: excluido del feed inicial seguimiento de bolsas constituidas sin nueva convocatoria, evitando nuevas detecciones falsas.",
+            "20/11/2026: bloqueo real identificado en Actions run 44762807640 (ledger); ejecuciones 44766951467 y 44767119356 satisfactorias, con pruebas y sincronización site/main. El Viso BOE-A-2026-24345 comprobado en público."
           ],
           "remainingSubsteps": [
             "Pruebas transversales y carga de estados",
