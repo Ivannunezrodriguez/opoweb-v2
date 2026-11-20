@@ -1,6 +1,8 @@
 // Shared, deterministic presentation rules for the public-employment radar.
 // No title/location/group/deadline/eligibility is considered verified unless present in an official source.
 const followup = /\b(?:acta(?:s)?(?:\s+(?:final|de|del))?|lista(?:do)?s?\s+(?:provisional(?:es)?|definitiv[ao]s?|de\s+(?:personas?\s+)?admitid[oa]s?|de\s+(?:personas?\s+)?excluid[oa]s?)|resoluci[oó]n\s+de\s+aprobados|calificacion(?:es)?|resultado(?:s)?|propuesta\s+de\s+adjudicaci[oó]n|adjudicaci[oó]n|nombramiento(?:s)?|toma\s+de\s+posesi[oó]n|plantilla\s+(?:correctora|de respuestas)|correcci[oó]n\s+de\s+errores|subsanaci[oó]n|tribunal\s+calificador|fecha\s+de\s+examen|aviso\s+de\s+celebraci[oó]n\s+de\s+pruebas)\b/i;
+// Una actualización de funcionamiento de bolsa ya constituida no es una nueva inscripción.
+const existingBagStatus=/\b(?:estado\s+(?:actual\s+)?de\s+(?:la\s+)?bolsa|diligencia\s+(?:de\s+)?activaci[oó]n\s+(?:de\s+)?(?:la\s+)?bolsa|relaci[oó]n\s+de\s+integrantes\s+de\s+(?:la\s+)?bolsa|bolsa\s+(?:ya\s+)?constituida|orden\s+de\s+llamamiento\s+(?:de\s+)?(?:la\s+)?bolsa)\b/i;
 const qualificationDefault=/^(?:revisar bases|por revisar|pendiente|no consta|—)$/i;
 const amendNotice=/\b(?:acumulaci[oó]n\s+de\s+(?:una\s+)?plaza|ampliaci[oó]n\s+del\s+plazo|modificaci[oó]n\s+de\s+(?:bases|convocatoria)|rectificaci[oó]n\s+de\s+(?:bases|convocatoria)|ampliaci[oó]n\s+de\s+bolsa)\b/i;
 const universityRequirement=/\b(?:A1|A2)\b|\b(?:t[ií]tulo\s+de\s+grado\s+universitario|licenciatura|diplomatura|doctorado)\b/i;
@@ -60,7 +62,7 @@ function institution(o){
  return org||'Organismo por identificar';
 }
 export function normalizeOpportunity(o,asOf){
- const title=clean(o.title), phaseFollowup=followup.test(title)||amendNotice.test(title);
+ const title=clean(o.title), phaseFollowup=followup.test(title)||amendNotice.test(title)||existingBagStatus.test(title);
  const role=clean(o.position)||rawRole(title);
  const knownRole=!!role && roleNames.test(role);
  const officialUrl=/^https:\/\//i.test(o.officialUrl||'')?o.officialUrl:null;
