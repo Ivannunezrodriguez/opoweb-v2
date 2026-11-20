@@ -171,18 +171,20 @@
         },
         {
           "id": "JCCM-2026-01",
-          "title": "Incorporar tres itinerarios JCCM 2026: Auxiliar C2, Administrativo C1 e Informática C1",
+          "title": "Incorporar tres itinerarios 2026: Auxiliar JCCM C2, Auxiliar SESCAM C2 e Informática JCCM C1",
           "state": "EN_CURSO",
           "acceptance": "Fichas OEP verificadas publicadas, contenidos troncales reutilizados sin duplicar, programa definitivo no atribuido hasta convocatoria, simulacros y E2E por itinerario",
           "evidencePaths": [
             "data/convocatorias.json",
             "content/jccm-2026/index.html",
-            "index.html"
+            "index.html",
+            "data/radar-profile.json"
           ],
           "completedSubsteps": [
             "Acuerdo DOCM 20/11/2026 cotejado: 143 C2 (118 general), 54 C1 administrativo (48 general), 25 C1 informática (23 general)",
             "Objetivos y fases OEP pendientes de convocatoria añadidos al registro canónico privado",
-            "Guía HTML pública candidata creada en el repositorio privado con desglose OEP y ruta transversal; enlace desde portada (20/11/2026). No equivale a programa definitivo ni confirma Pages."
+            "Guía HTML pública candidata creada en el repositorio privado con desglose OEP y ruta transversal; enlace desde portada (20/11/2026). No equivale a programa definitivo ni confirma Pages.",
+            "Corrección expresa del usuario: Administrativo C1 de Administración General NO elegido. Sustituido por Grupo Auxiliar de la Función Administrativa C2 SESCAM (138 plazas, 125 cupo general) en fichas y rutas."
           ],
           "remainingSubsteps": [
             "Cotejar temarios anteriores con futuro anuncio oficial sin presentarlos como exigencias de 2026",
