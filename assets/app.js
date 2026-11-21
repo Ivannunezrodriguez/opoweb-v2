@@ -456,6 +456,33 @@ async function loadManualDocument(theme, rawFile) {
   }
 }
 
+async function renderVerifiedQuickFicha(theme, recap) {
+  if (!theme.fichaRapida || !recap) return;
+  try {
+    const response=await fetchWithTimeout(theme.fichaRapida,{cache:'no-cache'},8000);
+    if (!response.ok) throw new Error('HTTP '+response.status);
+    const ficha=await response.json();
+    // No mezclar una ficha asincrónica con otro tema abierto mientras cargaba.
+    if (!recap.isConnected || document.querySelector('#quick-recap')!==recap) return;
+    if (ficha.schemaVersion!==1 || ficha.kind!=='FICHA_COTEJO_FOCAL' ||
+      !Array.isArray(ficha.cards) || !ficha.cards.length ||
+      !/^https:\/\/www\.boe\.es\//.test(ficha.source?.url||'')) throw new Error('Esquema de ficha no cotejable');
+    const cards=ficha.cards.filter(c=>c.title&&c.articles&&c.fact&&c.trap);
+    if (cards.length!==ficha.cards.length) throw new Error('Ficha incompleta');
+    recap.innerHTML='<h3>Ficha rápida · conceptos que caen en test</h3>'+
+      '<p><strong>Cotejo focal:</strong> '+escapeHtml(ficha.asOf||'fecha no indicada')+
+      '. No equivale a certificación integral del tema.</p>'+
+      '<ol>'+cards.map(c=>'<li><strong>'+escapeHtml(c.title)+' · '+escapeHtml(c.articles)+'</strong>'+
+      '<p>'+escapeHtml(c.fact)+'</p><p>⚠️ <strong>¡Foco Examen!:</strong> '+escapeHtml(c.trap)+'</p></li>').join('')+'</ol>'+
+      '<p><a href="'+escapeHtml(ficha.source.url)+'" target="_blank" rel="noopener noreferrer">Contrastar artículos en BOE · Constitución consolidada</a></p>'+
+      '<p>'+escapeHtml(ficha.editorialNote||'Revisar manual íntegro')+'</p>';
+  } catch (_) {
+    // El resumen extractivo anterior permanece disponible y declara su carácter provisional.
+    if (recap.isConnected) recap.insertAdjacentHTML('beforeend',
+      '<p class="notice warning">La ficha contrastada no está disponible. Se mantiene el extracto orientativo del manual.</p>');
+  }
+}
+
 async function loadManual(theme) {
   const manual = document.querySelector('#manual');
   if (!manual) return;
@@ -472,6 +499,7 @@ async function loadManual(theme) {
         (items.length?'<ol>'+items.map(item=>'<li><strong>'+escapeHtml(item.title)+'</strong>'+escapeHtml(item.summary)+'</li>').join('')+'</ol>':
         '<p>El manual no contiene suficientes apartados con texto extraíble para generar un resumen fiable. Consulta el contenido íntegro.</p>')+
         '<p>Extracto orientativo del manual de este tema; no sustituye su lectura completa ni la consulta de fuentes oficiales.</p>';
+      if(theme.fichaRapida) await renderVerifiedQuickFicha(theme,recap);
     }
   } catch (error) {
     const message = error.name === 'AbortError' ? 'La carga ha tardado demasiado.' : `No se ha podido cargar el manual: ${error.message}.`;
