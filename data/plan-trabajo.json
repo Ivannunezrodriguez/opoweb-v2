@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-20",
+  "updatedAt": "2026-11-21",
   "policy": {
     "purpose": "Registro MAESTRO único, editable solo en repositorio privado opoweb-dev. opoweb-v2/data/plan-trabajo.json es copia filtrada y derivada para plan.html, nunca se edita directamente.",
     "states": [
@@ -21,6 +21,10 @@
     "archivePolicy": "Guardar solo fuentes o evidencia necesarias y referencias técnicas; eliminar redirecciones y planes antiguos exclusivamente tras comprobar que no son dependencias. Git conserva el historial recuperable.",
     "projectPremisesLocation": "projectPremises (obligatorio antes de cualquier trabajo o cierre)",
     "singleStatusContract": "Solo este fichero gobierna estado, prioridades, hitos, tareas, motivos de cierre y decisiones; fuentes y pruebas técnicas no son listas alternativas de trabajo.",
+    "bitacora": "Cada actuación sustantiva lleva evento con id inmutable, fecha, taskIds existentes, resultado, evidencia pública y alcance. Los nuevos eventos se añaden, no se reescribe el pasado; una corrección posterior se registra con otro ID y relación supersedes.",
+    "nextAction": "Cada tarea abierta puede declarar nextAction y blockers: una sola acción siguiente concreta, sin duplicar el trabajo ya registrado en completedSubsteps.",
+    "decisionRule": "Las decisiones del selector, fuentes, privacidad y estados se conservan en decisions con clave estable. Cambiar una decisión exige evento posterior que indique motivo y referencia previa.",
+    "priorityRule": "Priorizar trabajo con evidencia legal y utilidad de estudio; no cerrar tareas por publicación de UI o prueba parcial. No equiparar OEP a convocatoria ni manual relacionado a tema auditado.",
     "publicReadOnly": true
   },
   "phases": [
@@ -195,7 +199,8 @@
             "Integrados los 61 epígrafes literalizados desde PDFs individuales aportados: 24 Auxiliar JCCM C2 (12 organización + 12 ofimática) y 37 Informática C1 (10 comunes + 27 específicos). Creados manifiestos independientes y visor HTML de consulta con buscador y bloques, 20/11/2026.",
             "Test de integridad editorial incorporado al workflow de publicación; pendiente de verificar resultado completo CI/E2E. Ningún tema se presenta como auditado por la mera extracción.",
             "Matrices de control creadas para los 61 epígrafes: 9 temas con manuales candidatos identificados, 52 sin candidato; cobertura acreditada 0 hasta cotejo por incisos. No implica auditoría ni manuales nuevos.",
-            "20/11/2026: visor público JCCM enlazado con matrices de 24 y 37 epígrafes; muestra manuales candidatos, cifra de cobertura auditada y ausencia de cotejo por tema. Test de integridad y correspondencia incorporado al workflow."
+            "20/11/2026: visor público JCCM enlazado con matrices de 24 y 37 epígrafes; muestra manuales candidatos, cifra de cobertura auditada y ausencia de cotejo por tema. Test de integridad y correspondencia incorporado al workflow.",
+            "21/11/2026: selector de OpoWeb actualizado con Auxiliar JCCM C2 (24 epígrafes de referencia), SESCAM Auxiliar C2 (sin atribuir temario 2026 no acreditado) e Informática JCCM C1 (37 epígrafes). El Viso retirado del selector; continúa como oportunidad Radar. Publicación y E2E Chromium del selector comprobadas."
           ],
           "remainingSubsteps": [
             "Obtener y cotejar temario aplicable a futura OEP SESCAM 2025-2026, sin confundir el individualizado histórico 2023/24",
@@ -205,7 +210,66 @@
             "Completar matrices con desglose exhaustivo de incisos, normas y artículos verificados; desarrollar y auditar manuales y preguntas de todos los temas.",
             "Cotejar e implementar desarrollo de contenido jurídico y técnico por incisos; ningún tema queda auditado por enlazar un manual candidato.",
             "Validar CI completo de visor matriz y el rastreo privado en ejecución real."
-          ]
+          ],
+          "nextAction": "Cotejar los 61 epígrafes de referencia y obtener programa SESCAM 2026 cuando exista convocatoria; reutilizar contenidos troncales con trazabilidad sin inventar equivalencias.",
+          "priority": "ALTA"
+        },
+        {
+          "id": "STUDY-RECAP-01",
+          "title": "Fichas de repaso rápido por tema derivadas y luego cotejadas",
+          "state": "PARCIAL",
+          "acceptance": "Cada tema disponible ofrece ficha breve con conceptos, artículos, plazos, excepciones y Foco Examen con referencias verificadas; resumen legible en móvil y cotejado frente al manual oficial.",
+          "evidencePaths": [
+            "assets/study-quick-recap.js",
+            "assets/app.js",
+            "assets/styles.css"
+          ],
+          "completedSubsteps": [
+            "21/11/2026: componente extractivo de hasta siete conceptos del manual real incorporado a la vista de tema, validado en test y navegador; NO resume de forma completa artículos, plazos y trampas."
+          ],
+          "remainingSubsteps": [
+            "Definir ficha estructurada por tema enlazada a normas y fuentes; completar definiciones, plazos, mayorías, excepciones y trampas con cotejo jurídico.",
+            "Medir y corregir resúmenes demasiado genéricos, truncados o basados solo en primera frase de cada sección."
+          ],
+          "nextAction": "Crear formato de ficha verificable de un tema piloto y cotejarla con manual + fuentes antes de expandir.",
+          "priority": "ALTA"
+        },
+        {
+          "id": "STUDY-TEST-01",
+          "title": "Tests inteligentes por tema y repetición de errores",
+          "state": "PENDIENTE",
+          "acceptance": "Elegir paquetes 10/20/50 según preguntas realmente disponibles, reintentar errores persistidos de forma local, respetar puntuación por convocatoria y cotejar respuestas; pruebas E2E escritorio/móvil.",
+          "evidencePaths": [
+            "assets/practice.js"
+          ],
+          "completedSubsteps": [
+            "21/11/2026: motor previo de simulacros, corrección y almacenamiento local existe; opciones A-D en columna ya verificadas. No equivale a modo inteligente implantado."
+          ],
+          "remainingSubsteps": [
+            "Diseñar selección sin repetición ni preguntas inventadas para tamaños superiores al banco existente.",
+            "Implementar reintento de errores, filtros por tema y estadísticas por convocatoria; probar que no se mezclan historiales."
+          ],
+          "nextAction": "Auditar los bancos existentes por tema y número de preguntas; diseñar botón de repetir falladas sin duplicar lógica de scoring.",
+          "priority": "ALTA"
+        },
+        {
+          "id": "STUDY-PROGRESS-01",
+          "title": "Panel de progreso de estudio por convocatoria",
+          "state": "PENDIENTE",
+          "acceptance": "Mostrar temas abiertos, resultados históricos, aciertos y errores por convocatoria con almacenamiento privado local, sin atribuir progreso no registrado ni exponerlo en exportación pública.",
+          "evidencePaths": [
+            "assets/practice-progress.css",
+            "assets/practice.js"
+          ],
+          "completedSubsteps": [
+            "21/11/2026: el historial de intentos por convocatoria existe; un panel global de estudio todavía no está entregado."
+          ],
+          "remainingSubsteps": [
+            "Unificar estadísticas desde historiales locales sin migraciones destructivas.",
+            "Añadir exportación o respaldo local opcional y comprobación de privacidad, escritorio/móvil."
+          ],
+          "nextAction": "Inventariar claves localStorage existentes y diseñar una vista de lectura sin cambiar el formato de los intentos.",
+          "priority": "MEDIA"
         }
       ]
     },
@@ -285,7 +349,9 @@
             "Verificar último ciclo efectivo y ejecución CI/E2E; muestrear fichas antiguas, parciales y con bases nuevas; medir falsos positivos sin inferir plazos.",
             "Auditar rastreo posterior a cambios: documentos intentados, datos parciales y nucleares, y contraste de 10 anuncios con fecha y fuente.",
             "Cotejar 10 entradas nuevas de la captura 20/11 con bases, plazos y acceso; medir y corregir falsos positivos."
-          ]
+          ],
+          "nextAction": "Cotejar 10 novedades de captura con sus documentos oficiales y medir falsos positivos, incluidos empleos temporales.",
+          "priority": "ALTA"
         },
         {
           "id": "RAD-05",
@@ -336,7 +402,9 @@
           "title": "Avisar cambios de fase sin duplicados: inscripción, subsanación, listas, examen",
           "state": "PENDIENTE",
           "acceptance": "Avisos de fase validados para procesos seguidos, sin repetir solicitud ya presentada y sin exponer datos personales.",
-          "evidencePaths": []
+          "evidencePaths": [],
+          "nextAction": "Crear calendario de fases y fechas verificadas, sin computar plazos contradictorios; separar alertas de seguimiento de novedades.",
+          "priority": "MEDIA"
         },
         {
           "id": "RAD-08",
@@ -356,7 +424,9 @@
           ],
           "completedSubsteps": [
             "20/11/2026: aviso de compatibilidad en email: requisitos incompletos marcados REVISAR, sin certificar CUMPLE; evaluación integral de requisitos aún pendiente."
-          ]
+          ],
+          "nextAction": "Verificar requisitos literales de una muestra de 10 anuncios del último rastreo; etiquetar CUMPLE/REVISAR/NO CUMPLE solo con evidencia.",
+          "priority": "ALTA"
         },
         {
           "id": "RAD-10",
@@ -489,7 +559,8 @@
             "axe-core WCAG 2.0/2.1 A/AA sin infracciones automáticas en práctica UC3M (centro y preguntas), itinerario de 24 apartados en móvil simulado, portada, OpoRadar y tablero con datos realmente cargados; Chromium Actions #44607297702 SUCCESS.",
             "Contraste de etiqueta OpoRadar corregido en assets/radar.css; primer axe detectó color-contrast, nueva prueba completa pasó.",
             "La política offline queda protegida con tests de exportación: sw.js se desregistra y no intercepta fetch. No se afirma que la PWA funcione sin red.",
-            "Diputación Toledo C1, modelo 1 de 12 preguntas/18 min, historial aislado y aviso de cobertura 14/40 verificados en Chromium #44692289280 SUCCESS."
+            "Diputación Toledo C1, modelo 1 de 12 preguntas/18 min, historial aislado y aviso de cobertura 14/40 verificados en Chromium #44692289280 SUCCESS.",
+            "21/11/2026: Playwright Chromium + axe del selector de estudio, repaso por tema y opciones verticales superado en el flujo E2E; no acredita móvil físico ni Firefox/Safari."
           ],
           "remainingSubsteps": [
             "Offline/PWA: desactivado deliberadamente por riesgo de cachés legales obsoletos; diseñar versionado, caducidad y test real antes de reactivar",
@@ -497,7 +568,9 @@
             "Accesibilidad pendiente: pruebas con lector de pantalla real y navegación exhaustiva por teclado; axe automatizado solo cubre reglas detectables.",
             "Contraste y WCAG de páginas/estados no cubiertos: ampliar muestreo de temas, errores de carga y formularios.",
             "Ampliar controles E2E al segundo y tercer modelo C1 y otros modelos sin verificación; E2E modelo C1-001 ya superado"
-          ]
+          ],
+          "nextAction": "Pasar comprobación real de Pages en móvil y teclado/lector de pantalla; mantener offline desactivado.",
+          "priority": "ALTA"
         },
         {
           "id": "QA-03",
@@ -539,11 +612,14 @@
           "completedSubsteps": [
             "README, PROJECT_RULES y plan histórico Radar remiten al archivo maestro único",
             "Se corrigió enlace de evidencia directorio Diputación C1 para que use GitHub tree/main",
-            "Prueba CI comprueba evidencias internas del plan maestro exportado sin rutas rotas"
+            "Prueba CI comprueba evidencias internas del plan maestro exportado sin rutas rotas",
+            "21/11/2026: eliminadas tarjetas duplicadas de herramientas y franja JCCM en inicio y aviso fijo El Viso en Radar. La navegación superior sigue siendo entrada única; test regresión del portal y publicación validados."
           ],
           "remainingSubsteps": [
             "Cotejar referencias históricas fuera del tablero y evitar referencias obsoletas en los otros documentos sin perder auditorías"
-          ]
+          ],
+          "nextAction": "Buscar otros avisos estáticos obsoletos y enlaces dependientes; retirar únicamente después de comprobar uso y pruebas.",
+          "priority": "MEDIA"
         },
         {
           "id": "QA-06",
@@ -616,13 +692,16 @@
             "Validación y publicación 44554107001/44554106609 completadas con success. Sin escrituras de informes a main.",
             "Prueba UC3M Chromium publicada y ejecutada SUCCESS en Actions #44581330433",
             "Se confirmó que la retirada offline es intencionada; exportación comprueba que sw.js no intercepta recursos ni conserva cachés antiguos.",
-            "axe-core + Chromium en datos cargados de OpoWeb/OpoRadar/tablero: Actions #44607297702 completed/success"
+            "axe-core + Chromium en datos cargados de OpoWeb/OpoRadar/tablero: Actions #44607297702 completed/success",
+            "21/11/2026: el selector JCCM/SESCAM, la eliminación de El Viso, el resumen y los tests de opciones verticales se publicaron con pipeline success y Playwright Chromium success local; falta E2E desde dominio final."
           ],
           "remainingSubsteps": [
             "Probar Pages con navegador real servido desde dominio final (E2E actual se ejecutó en servidor local del runner)",
             "Confirmar accesibilidad básica y estado offline/PWA",
             "Verificar flujo de publicación si cambian rutas o manifest público"
-          ]
+          ],
+          "nextAction": "Ejecutar prueba de navegador sobre GitHub Pages final, no solo servidor local, y documentar resultado.",
+          "priority": "ALTA"
         },
         {
           "id": "OPS-05",
@@ -659,7 +738,7 @@
       "editorialPending": 5,
       "integralCertificationProven": 0
     },
-    "rule": "OpoWeb-v2 es fuente operativa de tareas; opoweb-dev es fuente histórica. No reiniciar auditorías documentales concluidas salvo nueva incidencia.",
+    "rule": "La fuente editable y operativa única es opoweb-dev/main/data/plan-trabajo.json. opoweb-v2 publica una proyección filtrada y de solo lectura. Archivos históricos no determinan el estado actual.",
     "lastUC3MReview": "2026-11-19",
     "uc3mDateStatus": "LLAMAMIENTO_CONFIRMADO_21_11_2026_10H_GETAFE_CORTE_PRIMARIO_PENDIENTE",
     "uc3mPracticalReady": "2026-11-19",
@@ -999,7 +1078,7 @@
   "projectPremises": {
     "version": "2026-11-19",
     "authority": "PROPÓSITO_Y_CRITERIOS_VINCULANTES",
-    "scope": "OpoWeb v2 + OpoRadar, cinco convocatorias; una sola cola activa de trabajo.",
+    "scope": "OpoWeb + OpoRadar: cinco convocatorias de preparación históricas y tres itinerarios JCCM/SESCAM añadidos al selector; Radar abarca oportunidades adicionales sin convertirlas automáticamente en preparación elegida.",
     "mission": "OpoWeb debe ser fuente editorial única de estudio para las convocatorias cubiertas, completa y útil para estudiar desde móvil y ordenador, con trazabilidad a fuentes oficiales; OpoRadar debe detectar oportunidades reales de empleo público accesibles en Toledo y sur de Madrid sin perder novedades.",
     "repositories": {
       "source": "Ivannunezrodriguez/opoweb-dev (privado, main): código, auditoría, pruebas, secretos solo en GitHub Actions, y ESTE registro maestro",
@@ -1040,7 +1119,8 @@
         "OpoRadar: nuevas ofertas Toledo/sur Madrid, plazos verificables, deduplicación y privacidad",
         "QA de publicación, monitor y E2E cuando aporte evidencia"
       ],
-      "reviewScope": "Un árbol por SHA y un informe histórico leído no equivalen a auditoría completa del contenido de cada archivo. No inflar cobertura."
+      "reviewScope": "Un árbol por SHA y un informe histórico leído no equivalen a auditoría completa del contenido de cada archivo. No inflar cobertura.",
+      "bitacora": "Antes de cada tanda: consultar IDs, bitácora, decisiones y último CI; actualizar la misma tarea y añadir solo un evento verificable; no duplicar tareas ni informes. Una fase HECHO requiere todas sus tareas HECHO."
     },
     "sourcesOfData": {
       "canonicalTaskState": "Este mismo JSON",
@@ -1050,5 +1130,177 @@
       "notifications": "tools/radar*.mjs, datos rastreo en privado y JSON público filtrado",
       "archive": "Historial Git y documentos técnicos necesarios; no se consultan para decidir siguiente tarea cuando contradigan este plan."
     }
-  }
+  },
+  "bitacora": [
+    {
+      "id": "LOG-20261120-RADAR-PIPELINE",
+      "at": "2026-11-20",
+      "taskIds": [
+        "RAD-04",
+        "RAD-11",
+        "OPS-04"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Rastreo general de 1.387 candidatos y 12 novedades; ejecución completa SUCCESS, sincronización pública y monitor independiente SUCCESS.",
+      "evidence": [
+        "radar.html",
+        "assets/radar.js"
+      ],
+      "limit": "No demuestra cobertura integral de 1.387 bases ni que 12 novedades sean solicitudes abiertas."
+    },
+    {
+      "id": "LOG-20261120-RADAR-PLAZOS",
+      "at": "2026-11-20",
+      "taskIds": [
+        "RAD-02",
+        "RAD-06"
+      ],
+      "kind": "PARCIAL",
+      "summary": "El Viso exp. 2860/2026 cotejado con BOE-A-2026-24345; reglas de plazo contradictorias bloquean fecha automática; Olías aún requiere interpretación oficial.",
+      "evidence": [
+        "data/convocatorias.json",
+        "assets/radar-quality.js"
+      ],
+      "limit": "Fin concreto de El Viso y contradicción de Olías sin cierre jurídico definitivo."
+    },
+    {
+      "id": "LOG-20261120-RADAR-AVISOS",
+      "at": "2026-11-20",
+      "taskIds": [
+        "RAD-03",
+        "RAD-05",
+        "RAD-13"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Diferenciadas bolsas antiguas y nuevas, duplicados de portadas municipales y avisos con requisitos desconocidos como REVISAR.",
+      "evidence": [
+        "assets/radar.js",
+        "assets/radar-quality.js"
+      ],
+      "limit": "Falta muestra real de correos y auditoría de compatibilidad por requisito."
+    },
+    {
+      "id": "LOG-20261121-UI-VERTICAL",
+      "at": "2026-11-21",
+      "taskIds": [
+        "QA-02",
+        "STUDY-TEST-01"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Opciones de test en una columna con foco y estados visibles, comprobadas en navegador Chromium y publicadas.",
+      "evidence": [
+        "assets/styles.css",
+        "assets/practice.js"
+      ],
+      "limit": "El modo de tests inteligentes 10/20/50 y repeticiones de fallos NO está entregado."
+    },
+    {
+      "id": "LOG-20261121-UI-REPASO",
+      "at": "2026-11-21",
+      "taskIds": [
+        "STUDY-RECAP-01"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Bloque 'Conceptos clave' creado por extracción del manual real y cargado al abrir un tema.",
+      "evidence": [
+        "assets/study-quick-recap.js",
+        "assets/app.js"
+      ],
+      "limit": "Extractivo, no ficha jurídica verificada ni sustituto del manual."
+    },
+    {
+      "id": "LOG-20261121-UI-NAVEGACION",
+      "at": "2026-11-21",
+      "taskIds": [
+        "QA-05",
+        "OPS-04"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Eliminadas tarjetas de herramientas duplicadas y avisos fijos JCCM/El Viso de portada/Radar; navegación superior conservada.",
+      "evidence": [
+        "index.html",
+        "radar.html",
+        "assets/app.js"
+      ],
+      "limit": "No implica que se hayan revisado todos los avisos antiguos del sitio."
+    },
+    {
+      "id": "LOG-20261121-SELECTOR",
+      "at": "2026-11-21",
+      "taskIds": [
+        "JCCM-2026-01",
+        "QA-02"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Selector de estudio: JCCM Auxiliar C2, SESCAM Auxiliar C2 e Informática JCCM C1 añadidos; El Viso excluido del selector sin borrar su ficha Radar.",
+      "evidence": [
+        "assets/app.js",
+        "data/programa-jccm-auxiliar-c2-2025-2026.json",
+        "data/programa-sescam-auxiliar-c2-2026.json",
+        "data/programa-jccm-informatica-c1-2025-2026.json"
+      ],
+      "limit": "La OEP no abre inscripción; la ficha SESCAM 2026 aún no contiene temario definitivo."
+    }
+  ],
+  "decisions": [
+    {
+      "id": "DEC-SINGLE-SOURCE",
+      "taskIds": [
+        "OPS-03"
+      ],
+      "decision": "La bitácora y la cola de tareas se editan solo en data/plan-trabajo.json del repositorio privado. El sitio muestra proyección filtrada; documentos históricos no vuelven a ser un plan paralelo.",
+      "state": "VIGENTE"
+    },
+    {
+      "id": "DEC-SELECTOR-VS-RADAR",
+      "taskIds": [
+        "JCCM-2026-01",
+        "RAD-03"
+      ],
+      "decision": "El selector contiene preparaciones elegidas; OpoRadar detecta cualquier empleo público potencialmente relevante. Detectar El Viso no implica decidir prepararlo.",
+      "state": "VIGENTE"
+    },
+    {
+      "id": "DEC-OEP-NOT-CALL",
+      "taskIds": [
+        "JCCM-2026-01",
+        "RAD-JCCM-2026"
+      ],
+      "decision": "Una OEP aprobada no abre inscripción. JCCM 24/37 son epígrafes de referencia pendientes de cotejo; SESCAM 2026 no recibe temario definitivo ficticio.",
+      "state": "VIGENTE"
+    },
+    {
+      "id": "DEC-NO-DUPLICATE-NAV",
+      "taskIds": [
+        "QA-05"
+      ],
+      "decision": "La navegación superior es suficiente; no reincorporar tarjeta 'Herramientas de OpoWeb' ni avisos fijos no solicitados sin nueva necesidad documentada.",
+      "state": "VIGENTE"
+    },
+    {
+      "id": "DEC-LEGAL-UNKNOWN",
+      "taskIds": [
+        "RAD-06",
+        "RAD-09"
+      ],
+      "decision": "No inventar cierres ni admitir compatibilidad sin requisitos: plazo contradictorio y documentación incompleta permanecen REVISAR.",
+      "state": "VIGENTE"
+    },
+    {
+      "id": "DEC-RECAP-EXTRACTIVE",
+      "taskIds": [
+        "STUDY-RECAP-01"
+      ],
+      "decision": "El resumen automático actual es extractivo y se identifica como tal. Las fichas jurídicas completas requieren cotejo por artículo, fuente, fecha y pregunta.",
+      "state": "VIGENTE"
+    },
+    {
+      "id": "DEC-OFFLINE-DISABLED",
+      "taskIds": [
+        "QA-02"
+      ],
+      "decision": "No reactivar offline/PWA sin control de caducidad legal y prueba de navegador; evitar manuales antiguos servidos desde caché.",
+      "state": "VIGENTE"
+    }
+  ]
 }
