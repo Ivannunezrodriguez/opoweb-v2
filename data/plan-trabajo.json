@@ -25,6 +25,7 @@
     "nextAction": "Cada tarea abierta puede declarar nextAction y blockers: una sola acción siguiente concreta, sin duplicar el trabajo ya registrado en completedSubsteps.",
     "decisionRule": "Las decisiones del selector, fuentes, privacidad y estados se conservan en decisions con clave estable. Cambiar una decisión exige evento posterior que indique motivo y referencia previa.",
     "priorityRule": "Priorizar trabajo con evidencia legal y utilidad de estudio; no cerrar tareas por publicación de UI o prueba parcial. No equiparar OEP a convocatoria ni manual relacionado a tema auditado.",
+    "executionOrder": "CIERRE_PRIMERO: no crear nuevas tareas ni ampliar fichas de temas mientras haya cierres alcanzables en la cola actual. Reabrir un tema AUDITADO solo por incidencia jurídica concreta; tareas BLOQUEADA permanecen con evidencia exigida. Excepciones: cambios legales oficiales urgentes, privacidad o fallo crítico.",
     "publicReadOnly": true
   },
   "phases": [
@@ -1381,6 +1382,23 @@
         "data/convocatorias.json"
       ],
       "limit": "No sincroniza entre dispositivos; el estado local es organizativo y no equivale a inscripción oficial."
+    },
+    {
+      "id": "LOG-20261121-CIERRE-TRES-TAREAS",
+      "at": "2026-11-21",
+      "taskIds": [
+        "QA-05",
+        "QA-06",
+        "RAD-08"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Tres cierres de tareas existentes sin crear tareas nuevas: referencias obsoletas, reglas editoriales unificadas y seguimiento privado local; pruebas de exportación y Chromium superadas.",
+      "evidence": [
+        "plan.html",
+        "content/metodologia-editorial.html",
+        "assets/radar.js"
+      ],
+      "limit": "Cierres de tareas de calidad y privacidad, no de los cinco temas jurídicos bloqueados ni de una fase completa."
     }
   ],
   "decisions": [
@@ -1441,6 +1459,17 @@
         "QA-02"
       ],
       "decision": "No reactivar offline/PWA sin control de caducidad legal y prueba de navegador; evitar manuales antiguos servidos desde caché.",
+      "state": "VIGENTE"
+    },
+    {
+      "id": "DEC-CIERRE-PRIMERO",
+      "taskIds": [
+        "OPS-03",
+        "QA-05",
+        "QA-06",
+        "RAD-08"
+      ],
+      "decision": "Priorizar cierres verificables del inventario actual; no abrir tareas por inercia, informes redundantes ni fichas nuevas a costa de problemas sin resolver. Solo ampliar por necesidad real documentada o urgencia legal/técnica.",
       "state": "VIGENTE"
     }
   ]
