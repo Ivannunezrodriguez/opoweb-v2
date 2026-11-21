@@ -55,10 +55,17 @@
         {
           "id": "LP-EX-03",
           "title": "Resolver incidencia de pregunta 26 sin afirmar anulación",
-          "state": "EN_CURSO",
+          "state": "BLOQUEADA",
           "acceptance": "Dictamen contrastado con artículo 21 de la Ley 7/1985, plantilla provisional y definitiva; solo Tribunal decide anulación.",
           "evidencePaths": [
-            "content/la-puebla/examen-real-2026.html"
+            "content/la-puebla/examen-real-2026.html",
+            "https://lapueblademontalban.sedelectronica.es/info.0",
+            "https://www.boe.es/buscar/act.php?id=BOE-A-1985-5392#a21"
+          ],
+          "blocker": "La sede municipal lista un anuncio de plantilla provisional fechado 16/11/2026, pero su PDF y las claves de la pregunta 26 no han podido verificarse. No consta resolución definitiva. Para cerrar se requiere archivo auténtico de plantilla provisional/definitiva y decisión del Tribunal, sin confundir el análisis jurídico de A/C con anulación.",
+          "nextAction": "Obtener de la sede electrónica municipal el anuncio íntegro de plantilla provisional del 16/11/2026 y la definitiva cuando se publique; cotejar pregunta 26 (alternativas A/C) y reclamaciones según artículo 21 de la Ley 7/1985; actualizar clave solo tras fuente oficial.",
+          "completedSubsteps": [
+            "21/11/2026: comprobada en sede municipal referencia a '2º ANUNCIO PLANTILLA PROVISIONAL FIRMADO' fechado 16/11/2026; cotejado plazo literal de cinco días hábiles de BOP Toledo 82/2026, anuncio 1965, y art. 21.1.g/q LRBRL con BOE consolidado. Página de examen actualizada; fecha 23/11 presentada exclusivamente como cómputo condicionado sin calendario municipal ni fecha efectiva del PDF confirmados."
           ]
         },
         {
@@ -1416,6 +1423,20 @@
         "plan.html"
       ],
       "limit": "Chromium simulado, no pruebas de dispositivo físico ni de Firefox/Safari, que siguen pendientes en QA-02."
+    },
+    {
+      "id": "LOG-20261121-PUEBLA-PLANTILLA-PROVISIONAL",
+      "at": "2026-11-21",
+      "taskIds": [
+        "LP-EX-03"
+      ],
+      "kind": "PARCIAL",
+      "summary": "La Puebla: sede lista anuncio de plantilla provisional 16/11; recurso de examen actualizado con plazo de cinco días hábiles, cálculo meramente condicionado y cautela estricta sobre pregunta 26.",
+      "evidence": [
+        "content/la-puebla/examen-real-2026.html",
+        "data/plan-trabajo.json"
+      ],
+      "limit": "No se obtuvo el PDF íntegro ni la plantilla definitiva; no se ha confirmado clave, anulación ni respuesta a reclamaciones. La tarea LP-EX-03 queda BLOQUEADA."
     }
   ],
   "decisions": [
