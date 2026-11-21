@@ -222,16 +222,19 @@
           "evidencePaths": [
             "assets/study-quick-recap.js",
             "assets/app.js",
-            "assets/styles.css"
+            "assets/styles.css",
+            "content/olias-auxiliar-edificios/tema-01/ficha-rapida.json",
+            "data/programa-olias-auxiliar-edificios-2026.json"
           ],
           "completedSubsteps": [
-            "21/11/2026: componente extractivo de hasta siete conceptos del manual real incorporado a la vista de tema, validado en test y navegador; NO resume de forma completa artículos, plazos y trampas."
+            "21/11/2026: componente extractivo de hasta siete conceptos del manual real incorporado a la vista de tema, validado en test y navegador; NO resume de forma completa artículos, plazos y trampas.",
+            "21/11/2026: ficha piloto estructurada Olías Tema 1 con 6 conceptos, artículos constitucionales, distinciones de examen y fuente BOE consolidada 20/05/2026, anclada al manual existente. El resto sigue en resumen extractivo. Validación automatizada y E2E añadidos a workflows; confirmar ejecución y publicación antes de cerrar piloto."
           ],
           "remainingSubsteps": [
             "Definir ficha estructurada por tema enlazada a normas y fuentes; completar definiciones, plazos, mayorías, excepciones y trampas con cotejo jurídico.",
             "Medir y corregir resúmenes demasiado genéricos, truncados o basados solo en primera frase de cada sección."
           ],
-          "nextAction": "Crear formato de ficha verificable de un tema piloto y cotejarla con manual + fuentes antes de expandir.",
+          "nextAction": "Verificar resultado de publicación/Chromium del piloto y ampliar el formato a temas más prioritarios, sin generar trampas o plazos no cotejados.",
           "priority": "ALTA"
         },
         {
@@ -1279,6 +1282,22 @@
         "assets/app.js"
       ],
       "limit": "Se cierran entregas concretas, no fases completas ni auditorías legales pendientes. Las pruebas de publicación se comprueban separadamente."
+    },
+    {
+      "id": "LOG-20261121-FICHA-PILOTO-OLIAS-01",
+      "at": "2026-11-21",
+      "taskIds": [
+        "STUDY-RECAP-01",
+        "QA-02"
+      ],
+      "kind": "PARCIAL",
+      "summary": "Ficha de examen piloto del Tema 1 de Olías del Rey: seis reglas y trampas vinculadas a los artículos de la Constitución y BOE; el resto de temas mantiene el resumen extractivo.",
+      "evidence": [
+        "content/olias-auxiliar-edificios/tema-01/ficha-rapida.json",
+        "data/programa-olias-auxiliar-edificios-2026.json",
+        "assets/app.js"
+      ],
+      "limit": "Cotejo focal y una única ficha; falta auditoría integral de los temas restantes, pruebas Chromium y publicación de este commit."
     }
   ],
   "decisions": [
