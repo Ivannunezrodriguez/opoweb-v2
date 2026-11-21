@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "kind": "FICHA_COTEJO_FOCAL",
+  "title": "Diputación de Toledo · Administrativo C1 · Tema 1 · Constitución, Tribunal Constitucional y reforma",
+  "asOf": "2026-11-21",
+  "status": "COTEJO_FOCAL_ARTICULOS_BOE_NO_CERTIFICACION_INTEGRAL",
+  "manual": "content/diputacion-toledo/tema-01/manual.md",
+  "source": {
+    "label": "Constitución Española, consolidada 20/05/2026",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229&p=20260520"
+  },
+  "additionalSources": [
+    {
+      "label": "Ley Orgánica 2/1979 del Tribunal Constitucional, texto consolidado",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1979-23709&p=20240802"
+    }
+  ],
+  "cards": [
+    {
+      "title": "Valores superiores, soberanía y forma política",
+      "articles": "CE arts. 1.1, 1.2 y 1.3",
+      "fact": "Valores superiores: libertad, justicia, igualdad y pluralismo político. La soberanía reside en el pueblo español y la forma política es la Monarquía parlamentaria.",
+      "trap": "La seguridad jurídica del art. 9.3 CE no es uno de los cuatro valores superiores del art. 1.1."
+    },
+    {
+      "title": "Estructura de la Constitución",
+      "articles": "CE Títulos Preliminar e I–X; 169 artículos",
+      "fact": "La Constitución contiene un Título Preliminar, diez títulos numerados, 169 artículos, cuatro disposiciones adicionales, nueve transitorias, una derogatoria y una final.",
+      "trap": "El Tribunal Constitucional figura en el Título IX (arts. 159–165) y la reforma en el Título X (arts. 166–169)."
+    },
+    {
+      "title": "Valor normativo",
+      "articles": "CE arts. 9.1 y 10.2",
+      "fact": "Ciudadanos y poderes públicos están sujetos a la Constitución y al resto del ordenamiento jurídico. Los derechos fundamentales se interpretan conforme a la Declaración Universal y a los tratados ratificados por España.",
+      "trap": "El art. 10.2 no convierte automáticamente cualquier tratado de derechos humanos en una reforma de la Constitución."
+    },
+    {
+      "title": "Magistrados del Tribunal Constitucional",
+      "articles": "CE art. 159.1–3",
+      "fact": "El TC tiene 12 miembros nombrados por el Rey: 4 a propuesta del Congreso por 3/5, 4 del Senado por 3/5, 2 del Gobierno y 2 del CGPJ. Mandato de 9 años; renovación por tercios cada 3 años; juristas de reconocida competencia con más de 15 años de ejercicio.",
+      "trap": "No confundir mandato de magistrados (9 años) con renovación parcial (3 años), ni el TC con el Poder Judicial."
+    },
+    {
+      "title": "Presidencia del Tribunal Constitucional",
+      "articles": "CE art. 160; LOTC art. 9",
+      "fact": "El presidente es nombrado por el Rey a propuesta del Pleno del Tribunal, por 3 años. La LOTC permite una sola reelección.",
+      "trap": "El presidente no recibe un mandato de 9 años como presidente: los 9 años corresponden al mandato de magistrado."
+    },
+    {
+      "title": "Iniciativa de reforma constitucional",
+      "articles": "CE arts. 166 y 87.1–2",
+      "fact": "La iniciativa remite exclusivamente a los apartados 1 y 2 del art. 87: Gobierno, Congreso, Senado y asambleas autonómicas en los términos establecidos.",
+      "trap": "La iniciativa legislativa popular del art. 87.3 no se incluye en la iniciativa de reforma constitucional."
+    },
+    {
+      "title": "Reforma ordinaria",
+      "articles": "CE art. 167",
+      "fact": "Regla: 3/5 de cada Cámara. Si no prospera el procedimiento previsto y el Senado aprueba por mayoría absoluta, el Congreso puede aprobar por 2/3. Referéndum solo si lo pide 1/10 de una Cámara dentro de 15 días.",
+      "trap": "El referéndum del art. 167 es facultativo y condicionado: no es obligatorio en todas las reformas."
+    },
+    {
+      "title": "Reforma agravada y límites temporales",
+      "articles": "CE arts. 168 y 169",
+      "fact": "Revisión total o reforma parcial de Título Preliminar, sección 1.ª del capítulo II del Título I o Título II: 2/3 de ambas Cámaras, disolución, ratificación de nuevas Cámaras, aprobación por 2/3 y referéndum obligatorio. No se inicia reforma durante guerra ni vigencia de estados del art. 116.",
+      "trap": "Art. 168 exige disolución y referéndum obligatorio; art. 167 no. El art. 169 prohíbe iniciar la reforma en esos supuestos, no afirma que toda reforma esté prohibida para siempre."
+    }
+  ],
+  "editorialNote": "El manual del tema consta como AUDITADO en 05/11/2026. Esta ficha coteja de forma focal los preceptos indicados y no sustituye la revisión integral de preguntas, reformas o supuestos especiales."
+}
