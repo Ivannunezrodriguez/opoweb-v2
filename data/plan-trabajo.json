@@ -228,13 +228,14 @@
           ],
           "completedSubsteps": [
             "21/11/2026: componente extractivo de hasta siete conceptos del manual real incorporado a la vista de tema, validado en test y navegador; NO resume de forma completa artículos, plazos y trampas.",
-            "21/11/2026: ficha piloto estructurada Olías Tema 1 con 6 conceptos, artículos constitucionales, distinciones de examen y fuente BOE consolidada 20/05/2026, anclada al manual existente. El resto sigue en resumen extractivo. Validación automatizada y E2E añadidos a workflows; confirmar ejecución y publicación antes de cerrar piloto."
+            "21/11/2026: ficha piloto estructurada Olías Tema 1 con 6 conceptos, artículos constitucionales, distinciones de examen y fuente BOE consolidada 20/05/2026, anclada al manual existente. El resto sigue en resumen extractivo. Validación automatizada y E2E añadidos a workflows; confirmar ejecución y publicación antes de cerrar piloto.",
+            "21/11/2026: piloto Olías T01 verificado en GitHub Actions: E2E Chromium 44904721690 SUCCESS; publicación filtrada 44904755823 SUCCESS y seis fichas de conceptos visibles en JSON público. Queda abierto extender y cotejar el resto de materias."
           ],
           "remainingSubsteps": [
             "Definir ficha estructurada por tema enlazada a normas y fuentes; completar definiciones, plazos, mayorías, excepciones y trampas con cotejo jurídico.",
             "Medir y corregir resúmenes demasiado genéricos, truncados o basados solo en primera frase de cada sección."
           ],
-          "nextAction": "Verificar resultado de publicación/Chromium del piloto y ampliar el formato a temas más prioritarios, sin generar trampas o plazos no cotejados.",
+          "nextAction": "Tomar el siguiente tema prioritario de convocatoria seleccionada, cotejar cada artículo con fuente y banco, publicar una ficha de examen estructurada y medir el grado de cobertura por tema.",
           "priority": "ALTA"
         },
         {
@@ -1290,14 +1291,14 @@
         "STUDY-RECAP-01",
         "QA-02"
       ],
-      "kind": "PARCIAL",
+      "kind": "VERIFICADO",
       "summary": "Ficha de examen piloto del Tema 1 de Olías del Rey: seis reglas y trampas vinculadas a los artículos de la Constitución y BOE; el resto de temas mantiene el resumen extractivo.",
       "evidence": [
         "content/olias-auxiliar-edificios/tema-01/ficha-rapida.json",
         "data/programa-olias-auxiliar-edificios-2026.json",
         "assets/app.js"
       ],
-      "limit": "Cotejo focal y una única ficha; falta auditoría integral de los temas restantes, pruebas Chromium y publicación de este commit."
+      "limit": "Verificado solo el piloto de Olías T01 (6 conceptos); el resto continúa extractivo, no hay certificación integral ni fichas cotejadas en todos los temas."
     }
   ],
   "decisions": [
