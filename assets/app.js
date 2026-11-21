@@ -1,3 +1,4 @@
+import {extractQuickConcepts} from './study-quick-recap.js?v=2026.11.21.1';
 const app = document.querySelector('#app');
 const THEME_KEY = 'opoweb-theme';
 const SELECTED_CALL_KEY = 'opoweb-selected-convocatoria';
@@ -45,6 +46,16 @@ const CALLS = [
     practiceUrl: 'practice.html'
   }
   ,
+  {
+    id: 'el-viso-san-juan-auxiliar-administrativo-c2-exp-2860-2026',
+    label: 'El Viso de San Juan · Auxiliar Administrativo C2 (exp. 2860/2026)',
+    shortLabel: 'El Viso de San Juan · Auxiliar C2',
+    programmeUrl: 'data/programa-el-viso-auxiliar-c2-2026.json',
+    infoUrl: 'content/el-viso-auxiliar-c2-2026/index.html',
+    contentRoot: 'content/el-viso-auxiliar-c2-2026',
+    availableThemes: 0,
+    practiceUrl: null
+  },
   {
     id: 'olias-del-rey-auxiliar-edificios-c2-2026',
     label: 'Olías del Rey · Auxiliar de edificios e instalaciones C2',
@@ -308,65 +319,6 @@ function renderTracking() {
   return `<section class="panel tracking-panel" data-tracking-call="${escapeHtml(activeCall.id)}"><div class="section-heading"><div><p class="eyebrow section-eyebrow">Seguimiento personal</p><h2>Plazos y estado de la OPE</h2></div><span class="status-pill ${personal.inscrito ? 'status-ok' : 'status-warning'}">${personal.inscrito ? '✓ Solicitud registrada' : 'Inscripción no confirmada'}</span></div><div class="personal-status"><div><span>Estado</span><strong>${escapeHtml(humanizeApplicationStatus(personal.estado))}</strong></div><div><span>Convocatoria</span><strong>${escapeHtml(convocatoria)}</strong></div>${siguienteHito}</div><p class="privacy-note">🔒 ${escapeHtml(personal.notaPrivacidad || 'Los datos personales no se publican en el repositorio.')}</p></section>`;
 }
 
-// OpoRadar comparte el mismo GitHub Pages; su resumen se carga sin bloquear el temario.
-let radarPreviewPromise = null;
-let radarPreviewHtml = null;
-
-function renderStudyAndWorkHub() {
-  return `<section class="panel portal-panel" aria-labelledby="portal-title">
-    <div class="section-heading"><div><p class="eyebrow section-eyebrow">Herramientas de OpoWeb</p><h2 id="portal-title">Estudia y busca empleo público</h2>
-    <p>Accede a los temarios, prepara los exámenes y consulta las oportunidades que detecta OpoRadar.</p></div></div>
-    <div class="portal-grid">
-      <div class="portal-card portal-card-radar">
-        <h3>🔎 OpoRadar · Empleo público</h3>
-        <p>Ofertas de empleo, bolsas y sustituciones de Toledo y del sur de Madrid. Los datos incompletos se identifican como pendientes, nunca como plazos confirmados.</p>
-        <div id="radar-preview" class="portal-preview" aria-live="polite">Consultando el último registro del Radar…</div>
-        <a class="btn" href="radar.html">Abrir OpoRadar</a>
-      </div>
-      <div class="portal-card">
-        <h3>📝 Tests y simulacros</h3>
-        <p>Entrena por convocatoria, realiza exámenes de práctica y consulta tus resultados guardados en este dispositivo.</p>
-        <a class="btn secondary" href="practice.html">Ir a los simulacros</a>
-      </div>
-    </div>
-  </section>`;
-}
-
-function hydrateRadarPreview() {
-  const slot = document.querySelector('#radar-preview');
-  if (!slot) return;
-  if (radarPreviewHtml !== null) {
-    slot.innerHTML = radarPreviewHtml;
-    return;
-  }
-  if (!radarPreviewPromise) {
-    radarPreviewPromise = fetchWithTimeout('data/radar.json', { cache: 'no-cache' }, 7500)
-      .then(response => {
-        if (!response.ok) throw new Error('HTTP ' + response.status);
-        return response.json();
-      })
-      .then(data => {
-        const all = Array.isArray(data.opportunities) ? data.opportunities : [];
-        const identified = all.filter(item =>
-          item.position && item.officialUrl && !item.phaseFollowup &&
-          item.state !== 'CERRADA' && item.state !== 'NO_ACCESIBLE'
-        );
-        const stamp = /^\d{4}-\d{2}-\d{2}/.test(String(data.generatedAt || ''))
-          ? String(data.generatedAt).slice(8, 10) + '/' +
-            String(data.generatedAt).slice(5, 7) + '/' + String(data.generatedAt).slice(0, 4)
-          : 'no confirmada';
-        return '<p><strong>Última recopilación:</strong> ' + escapeHtml(stamp) + '. <strong>' +
-          identified.length + '</strong> registros con puesto identificado (no significa que el plazo esté abierto).</p>';
-      })
-      .catch(() => '<p>No se puede consultar ahora el resumen. Puedes abrir OpoRadar y comprobar allí las fuentes.</p>')
-      .then(html => { radarPreviewHtml = html; return html; });
-  }
-  radarPreviewPromise.then(html => {
-    const target = document.querySelector('#radar-preview');
-    if (target) target.innerHTML = html;
-  });
-}
-
 function renderProgramme(query = activeSearchQuery) {
   activeSearchQuery = query;
   const themes = activeProgramme.temas;
@@ -381,9 +333,11 @@ function renderProgramme(query = activeSearchQuery) {
   const oliaNotice = activeCall.id === 'olias-del-rey-auxiliar-edificios-c2-2026'
     ? '<section class="panel"><h2>Olías C2 · Inscripción y convocatoria</h2><p><strong>4 plazas de personal laboral fijo · Oposición libre · Tasa 10 €.</strong> <strong>Atención:</strong> las bases del BOP indican 20 días naturales y el anuncio del BOE 20 días hábiles. No hay plazo final unificado oficialmente aclarado: <strong>presenta antes del 20/11/2026 por prudencia</strong>.</p><p>Utiliza el <strong>Anexo I de Auxiliar de edificios del BOP (página 58)</strong>, con DNI, título, carné B, certificado negativo de delitos sexuales y justificante de tasa. <a href="https://bop.diputoledo.es/webEbop/csv.jsp" target="_blank" rel="noopener noreferrer">Verificar BOP código 2026.00004833</a> · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826" target="_blank" rel="noopener noreferrer">BOE oficial</a> · <a href="https://oliasdelrey.sedelectronica.es/" target="_blank" rel="noopener noreferrer">Sede electrónica municipal</a>.</p><p><strong>Examen:</strong> 50 preguntas de temario y 20 psicotécnicas, dos pruebas eliminatorias con mínimo 25/50 cada una. Los 22 temas cuentan con manuales en auditoría, no equivalentes aún a una certificación editorial definitiva.</p></section>'
     : '';
-  app.innerHTML = `${oliaNotice}<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>Programa oficial de <strong>${themes.length} temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>temas oficiales</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${underReview}</strong><span>en revisión editorial</span></div><div class="summary-card"><strong>${missing}</strong><span>sin contenido</span></div></div></section>${renderStudyAndWorkHub()}${renderTracking()}<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca por el título del tema. El manual se carga solo al abrirlo.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
+  const infoOnly=activeCall.infoUrl
+    ? '<section class="panel"><h2>Ficha de la convocatoria y bases oficiales</h2><p>Esta convocatoria está registrada, pero su programa todavía no se ha cotejado apartado por apartado para OpoWeb. No se muestran temas inventados ni se afirma que su temario esté completo.</p><a class="btn" href="'+escapeHtml(activeCall.infoUrl)+'">Abrir ficha de El Viso y fuentes oficiales</a></section>'
+    : '';
+  app.innerHTML = `${oliaNotice}<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>${activeCall.infoUrl ? 'Ficha registrada; programa pendiente de cotejo editorial.' : 'Programa oficial de <strong>'+themes.length+' temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.'}</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>temas oficiales</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${underReview}</strong><span>en revisión editorial</span></div><div class="summary-card"><strong>${missing}</strong><span>sin contenido</span></div></div></section>${infoOnly}${renderTracking()}${activeCall.infoUrl ? '' : '<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2>'}<p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca por el título del tema. El manual se carga solo al abrirlo.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>'}`;
 
-  hydrateRadarPreview();
 
   document.querySelector('#call-selector')?.addEventListener('change', event => {
     activeSearchQuery = '';
@@ -482,7 +436,16 @@ async function loadManual(theme) {
   try {
     const response = await fetchWithTimeout(themePath(theme, 'manual'), { cache: 'no-cache' });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    manual.innerHTML = renderMarkdown(await response.text());
+    const content = await response.text();
+    manual.innerHTML = renderMarkdown(content);
+    const recap=document.querySelector('#quick-recap');
+    if(recap){
+      const items=extractQuickConcepts(content);
+      recap.innerHTML='<h3>Conceptos clave · repaso rápido</h3>'+
+        (items.length?'<ol>'+items.map(item=>'<li><strong>'+escapeHtml(item.title)+'</strong>'+escapeHtml(item.summary)+'</li>').join('')+'</ol>':
+        '<p>El manual no contiene suficientes apartados con texto extraíble para generar un resumen fiable. Consulta el contenido íntegro.</p>')+
+        '<p>Extracto orientativo del manual de este tema; no sustituye su lectura completa ni la consulta de fuentes oficiales.</p>';
+    }
   } catch (error) {
     const message = error.name === 'AbortError' ? 'La carga ha tardado demasiado.' : `No se ha podido cargar el manual: ${error.message}.`;
     manual.innerHTML = `<p class="notice warning">${escapeHtml(message)}</p><button id="retry-manual" class="btn secondary" type="button">Reintentar manual</button>`;
@@ -532,7 +495,7 @@ async function loadQuestions(theme) {
 function openTheme(theme, { push = true } = {}) {
   const url = `#${activeCall.id}/tema-${theme.numero}`;
   if (push) history.pushState({ view: 'theme', callId: activeCall.id, theme: theme.numero }, '', url);
-  app.innerHTML = `<div class="toolbar sticky-toolbar"><button id="back" class="btn secondary" type="button">← Programa</button><button id="top" class="btn secondary" type="button">↑ Inicio</button></div><section class="panel">${badge(theme)}<h2>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h2><p class="notice">Contenido conectado a la convocatoria ${escapeHtml(activeCall.shortLabel)}.</p></section><article id="manual" class="panel manual"><p>Cargando manual…</p></article><section id="sources-slot" class="panel manual" hidden></section><section id="test-slot"></section>`;
+  app.innerHTML = `<div class="toolbar sticky-toolbar"><button id="back" class="btn secondary" type="button">← Programa</button><button id="top" class="btn secondary" type="button">↑ Inicio</button></div><section class="panel">${badge(theme)}<h2>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h2><p class="notice">Contenido conectado a la convocatoria ${escapeHtml(activeCall.shortLabel)}.</p></section><section class="panel quick-recap" id="quick-recap" aria-label="Resumen rápido del tema"><h3>Conceptos clave · repaso rápido</h3><p>Cargando resumen del manual…</p></section><article id="manual" class="panel manual"><p>Cargando manual…</p></article><section id="sources-slot" class="panel manual" hidden></section><section id="test-slot"></section>`;
   document.querySelector('#back')?.addEventListener('click', () => {
     history.pushState({ view: 'programme', callId: activeCall.id }, '', location.pathname);
     renderProgramme(activeSearchQuery);
