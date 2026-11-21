@@ -469,12 +469,16 @@ async function renderVerifiedQuickFicha(theme, recap) {
       !/^https:\/\/www\.boe\.es\//.test(ficha.source?.url||'')) throw new Error('Esquema de ficha no cotejable');
     const cards=ficha.cards.filter(c=>c.title&&c.articles&&c.fact&&c.trap);
     if (cards.length!==ficha.cards.length) throw new Error('Ficha incompleta');
+    const extra=Array.isArray(ficha.additionalSources)?ficha.additionalSources:[];
+    if(extra.some(src=>!/^https:\/\/www\.boe\.es\//.test(src?.url||'')||!src?.label))
+      throw new Error('Fuente complementaria no permitida');
+    const sources=[ficha.source,...extra];
     recap.innerHTML='<h3>Ficha rápida · conceptos que caen en test</h3>'+
       '<p><strong>Cotejo focal:</strong> '+escapeHtml(ficha.asOf||'fecha no indicada')+
       '. No equivale a certificación integral del tema.</p>'+
       '<ol>'+cards.map(c=>'<li><strong>'+escapeHtml(c.title)+' · '+escapeHtml(c.articles)+'</strong>'+
       '<p>'+escapeHtml(c.fact)+'</p><p>⚠️ <strong>¡Foco Examen!:</strong> '+escapeHtml(c.trap)+'</p></li>').join('')+'</ol>'+
-      '<p><a href="'+escapeHtml(ficha.source.url)+'" target="_blank" rel="noopener noreferrer">Contrastar artículos en BOE · Constitución consolidada</a></p>'+
+      '<p><strong>Normativa cotejada:</strong> '+sources.map(src=>'<a href="'+escapeHtml(src.url)+'" target="_blank" rel="noopener noreferrer">'+escapeHtml(src.label||'Texto oficial BOE')+'</a>').join(' · ')+'</p>'+
       '<p>'+escapeHtml(ficha.editorialNote||'Revisar manual íntegro')+'</p>';
   } catch (_) {
     // El resumen extractivo anterior permanece disponible y declara su carácter provisional.
