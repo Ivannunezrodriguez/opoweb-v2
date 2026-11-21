@@ -47,12 +47,35 @@ const CALLS = [
   }
   ,
   {
-    id: 'el-viso-san-juan-auxiliar-administrativo-c2-exp-2860-2026',
-    label: 'El Viso de San Juan · Auxiliar Administrativo C2 (exp. 2860/2026)',
-    shortLabel: 'El Viso de San Juan · Auxiliar C2',
-    programmeUrl: 'data/programa-el-viso-auxiliar-c2-2026.json',
-    infoUrl: 'content/el-viso-auxiliar-c2-2026/index.html',
-    contentRoot: 'content/el-viso-auxiliar-c2-2026',
+    id: 'jccm-2025-2026-auxiliar-c2',
+    label: 'JCCM · Cuerpo Auxiliar C2 · OEP 2026 / referencia 2025-2026',
+    shortLabel: 'JCCM · Auxiliar C2',
+    programmeUrl: 'data/programa-jccm-auxiliar-c2-2025-2026.json',
+    infoUrl: 'content/jccm-2026/index.html',
+    programmePending: true,
+    contentRoot: 'content/jccm-2026',
+    availableThemes: 0,
+    practiceUrl: null
+  },
+  {
+    id: 'sescam-2026-auxiliar-administrativo-c2',
+    label: 'SESCAM · Grupo Auxiliar de la Función Administrativa C2 · OEP 2026',
+    shortLabel: 'SESCAM · Auxiliar C2',
+    programmeUrl: 'data/programa-sescam-auxiliar-c2-2026.json',
+    infoUrl: 'content/jccm-2026/index.html',
+    programmePending: true,
+    contentRoot: 'content/jccm-2026',
+    availableThemes: 0,
+    practiceUrl: null
+  },
+  {
+    id: 'jccm-2025-2026-informatica-c1',
+    label: 'JCCM · Escala Administrativa de Informática C1 · OEP 2026 / referencia 2025-2026',
+    shortLabel: 'JCCM · Informática C1',
+    programmeUrl: 'data/programa-jccm-informatica-c1-2025-2026.json',
+    infoUrl: 'content/jccm-2026/index.html',
+    programmePending: true,
+    contentRoot: 'content/jccm-2026',
     availableThemes: 0,
     practiceUrl: null
   },
@@ -334,13 +357,13 @@ function renderProgramme(query = activeSearchQuery) {
     ? '<section class="panel"><h2>Olías C2 · Inscripción y convocatoria</h2><p><strong>4 plazas de personal laboral fijo · Oposición libre · Tasa 10 €.</strong> <strong>Atención:</strong> las bases del BOP indican 20 días naturales y el anuncio del BOE 20 días hábiles. No hay plazo final unificado oficialmente aclarado: <strong>presenta antes del 20/11/2026 por prudencia</strong>.</p><p>Utiliza el <strong>Anexo I de Auxiliar de edificios del BOP (página 58)</strong>, con DNI, título, carné B, certificado negativo de delitos sexuales y justificante de tasa. <a href="https://bop.diputoledo.es/webEbop/csv.jsp" target="_blank" rel="noopener noreferrer">Verificar BOP código 2026.00004833</a> · <a href="https://www.boe.es/diario_boe/txt.php?id=BOE-A-2026-22826" target="_blank" rel="noopener noreferrer">BOE oficial</a> · <a href="https://oliasdelrey.sedelectronica.es/" target="_blank" rel="noopener noreferrer">Sede electrónica municipal</a>.</p><p><strong>Examen:</strong> 50 preguntas de temario y 20 psicotécnicas, dos pruebas eliminatorias con mínimo 25/50 cada una. Los 22 temas cuentan con manuales en auditoría, no equivalentes aún a una certificación editorial definitiva.</p></section>'
     : '';
   const infoOnly=activeCall.infoUrl
-    ? '<section class="panel"><h2>Ficha de la convocatoria y bases oficiales</h2><p>Esta convocatoria está registrada, pero su programa todavía no se ha cotejado apartado por apartado para OpoWeb. No se muestran temas inventados ni se afirma que su temario esté completo.</p><a class="btn" href="'+escapeHtml(activeCall.infoUrl)+'">Abrir ficha de El Viso y fuentes oficiales</a></section>'
+    ? '<section class="panel"><h2>Situación de la OEP y fuentes de los programas</h2><p>La OEP 2026 no abre el plazo de inscripción. Los epígrafes de JCCM se muestran como referencia, pendientes de cotejo editorial; en SESCAM no se atribuye un temario definitivo que no se haya verificado.</p><a class="btn secondary" href="'+escapeHtml(activeCall.infoUrl)+'">Ver plazas, situación de inscripción y fuentes JCCM / SESCAM</a></section>'
     : '';
-  const programmePanel=activeCall.infoUrl ? '' : `<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Fuente: ${escapeHtml(sourceText(activeProgramme))}.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca por el título del tema. El manual se carga solo al abrirlo.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
+  const programmePanel=activeCall.infoUrl && !themes.length ? '' : `<section class="panel"><div class="section-heading"><div><h2>Programa oficial</h2><p class="notice">Referencia: ${escapeHtml(sourceText(activeProgramme))}. No equivale a desarrollo auditado.</p></div><label class="search-box"><span>Buscar</span><input id="theme-search" type="search" placeholder="Plazos, recursos, contratos, Windows…" value="${escapeHtml(query)}" autocomplete="off"></label></div><p class="search-count">${term ? `${visible.length} resultado(s)` : 'Busca por el título del tema. El manual se carga solo al abrirlo.'}</p><div class="theme-grid">${visible.map(theme => `<button class="theme-card" type="button" data-theme="${theme.numero}" ${isThemeAvailable(theme) ? '' : 'aria-disabled="true"'}>${badge(theme)}<h3>Tema ${theme.numero}. ${escapeHtml(theme.titulo)}</h3></button>`).join('')}</div></section>`;
   const introDescription=activeCall.infoUrl
-    ? 'Convocatoria incorporada al selector. Programa pendiente de cotejo: no se atribuyen temas oficiales sin revisión.'
+    ? 'Itinerario seleccionado: OEP 2026; convocatoria y plazo de inscripción pendientes. Programa en revisión editorial.'
     : 'Programa oficial de <strong>'+themes.length+' temas</strong>. Los temas disponibles se cargan directamente desde el repositorio.';
-  const statLabel=activeCall.infoUrl?'temas incorporados y verificados':'temas oficiales';
+  const statLabel=activeCall.programmePending?'epígrafes de referencia':'temas oficiales';
   app.innerHTML = `${oliaNotice}<section class="panel intro"><div class="intro-row"><div><h2>${escapeHtml(activeCall.shortLabel)}</h2><p>${introDescription}</p></div>${callSelector()}</div><div class="summary-grid"><div class="summary-card"><strong>${themes.length}</strong><span>${statLabel}</span></div><div class="summary-card"><strong>${available}</strong><span>con contenido</span></div><div class="summary-card"><strong>${underReview}</strong><span>en revisión editorial</span></div><div class="summary-card"><strong>${missing}</strong><span>sin contenido</span></div></div></section>${infoOnly}${renderTracking()}${programmePanel}`;
 
   document.querySelector('#call-selector')?.addEventListener('change', event => {
