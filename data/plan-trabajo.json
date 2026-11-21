@@ -416,9 +416,18 @@
         {
           "id": "RAD-08",
           "title": "Panel privado de seguimiento de oposiciones sin estados personales en web pública",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "acceptance": "Datos de participación solo en privado o cliente; ninguna situación personal en exportación pública; prueba de ida y vuelta.",
-          "evidencePaths": []
+          "evidencePaths": [
+            "assets/radar.js",
+            "assets/radar-tracking.js"
+          ],
+          "closedAt": "2026-11-21",
+          "completedSubsteps": [
+            "21/11/2026: seguimiento personal en localStorage con selección por convocatoria; E2E Playwright Chromium Actions #44908504400 SUCCESS: estado persiste tras recarga, no se hereda entre contextos, no se emite ninguna petición no-GET al cambiarlo y exportación pública no incluye campos de estado personal ni ficheros privados."
+          ],
+          "remainingSubsteps": [],
+          "closeLimit": "Seguimiento local al navegador, no sincronizado entre dispositivos; no representa inscripción oficial ni almacena resguardos personales en el servidor."
         },
         {
           "id": "RAD-09",
@@ -1357,6 +1366,21 @@
         "content/metodologia-editorial.html"
       ],
       "limit": "Consolidación de reglas, no revisión jurídica integral de temas. Código exportador y pruebas en repositorio privado."
+    },
+    {
+      "id": "LOG-20261121-CIERRE-RAD08",
+      "at": "2026-11-21",
+      "taskIds": [
+        "RAD-08"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "RAD-08 cerrado: seguimiento personal aislado en localStorage y exportación pública despersonalizada, con ida y vuelta E2E Chromium verificada.",
+      "evidence": [
+        "assets/radar.js",
+        "assets/radar-tracking.js",
+        "data/convocatorias.json"
+      ],
+      "limit": "No sincroniza entre dispositivos; el estado local es organizativo y no equivale a inscripción oficial."
     }
   ],
   "decisions": [
