@@ -727,9 +727,12 @@
         {
           "id": "OPS-04",
           "title": "Validar sincronización de ramas y despliegue público más navegación E2E",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "acceptance": "Comparar árbol completo site/main, verificar artefactos, obtener resultado Actions y hacer visita E2E real al tablero/repaso/visor desde Pages en móvil y escritorio.",
-          "evidencePaths": [],
+          "evidencePaths": [
+            "sw.js",
+            "plan.html"
+          ],
           "completedSubsteps": [
             "Árboles main y site con 821 blobs cada uno e idénticos por SHA",
             "plan.html y uc3m-24-bloques.html y JSON público verificados mediante API de GitHub",
@@ -740,15 +743,13 @@
             "Prueba UC3M Chromium publicada y ejecutada SUCCESS en Actions #44581330433",
             "Se confirmó que la retirada offline es intencionada; exportación comprueba que sw.js no intercepta recursos ni conserva cachés antiguos.",
             "axe-core + Chromium en datos cargados de OpoWeb/OpoRadar/tablero: Actions #44607297702 completed/success",
-            "21/11/2026: el selector JCCM/SESCAM, la eliminación de El Viso, el resumen y los tests de opciones verticales se publicaron con pipeline success y Playwright Chromium success local; falta E2E desde dominio final."
+            "21/11/2026: el selector JCCM/SESCAM, la eliminación de El Viso, el resumen y los tests de opciones verticales se publicaron con pipeline success y Playwright Chromium success local; falta E2E desde dominio final.",
+            "21/11/2026: GitHub Actions 44915328773 SUCCESS: suite Playwright ejecutada DOS VECES con OPOWEB_BROWSER_E2E_OK, en servidor local y dominio final https://ivannunezrodriguez.github.io/opoweb-v2; desktop 1366x900 y móvil Chromium simulado 390x844, repaso UC3M, simulacros, OpoRadar, plan, WCAG axe; test privacidad local también OK. Publicación filtrada site/main y retirada de SW previamente validadas."
           ],
-          "remainingSubsteps": [
-            "Probar Pages con navegador real servido desde dominio final (E2E actual se ejecutó en servidor local del runner)",
-            "Confirmar accesibilidad básica y estado offline/PWA",
-            "Verificar flujo de publicación si cambian rutas o manifest público"
-          ],
-          "nextAction": "Ejecutar prueba de navegador sobre GitHub Pages final, no solo servidor local, y documentar resultado.",
-          "priority": "ALTA"
+          "remainingSubsteps": [],
+          "priority": "ALTA",
+          "closedAt": "2026-11-21",
+          "closeLimit": "Entrega cerrada para sincronización site/main y pruebas Chromium reales contra dominio publicado, con viewport móvil simulado. No acredita Safari, Firefox, móviles físicos ni funcionamiento offline; esas pruebas permanecen QA-02."
         },
         {
           "id": "OPS-05",
@@ -1399,6 +1400,22 @@
         "assets/radar.js"
       ],
       "limit": "Cierres de tareas de calidad y privacidad, no de los cinco temas jurídicos bloqueados ni de una fase completa."
+    },
+    {
+      "id": "LOG-20261121-CIERRE-OPS04",
+      "at": "2026-11-21",
+      "taskIds": [
+        "OPS-04"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "OPS-04 cerrado: suite E2E Chromium completa superada tanto en sitio local como en GitHub Pages real, escritorio y viewport móvil; sincronización de site/main verificada.",
+      "evidence": [
+        "index.html",
+        "practice.html",
+        "radar.html",
+        "plan.html"
+      ],
+      "limit": "Chromium simulado, no pruebas de dispositivo físico ni de Firefox/Safari, que siguen pendientes en QA-02."
     }
   ],
   "decisions": [
