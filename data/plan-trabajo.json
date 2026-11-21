@@ -84,7 +84,6 @@
           "state": "EN_CURSO",
           "acceptance": "Repaso final con simulacros verificables y priorización por fecha; sin fingir cobertura completa.",
           "evidencePaths": [
-            "content/diputacion-toledo",
             "content/diputacion-toledo/simulacros.json"
           ],
           "completedSubsteps": [
@@ -614,27 +613,37 @@
         {
           "id": "QA-05",
           "title": "Depurar referencias de estado obsoletas sin romper enlaces ni validadores",
-          "state": "PARCIAL",
+          "state": "HECHO",
           "acceptance": "Listar enlaces dependientes y corregir únicamente textos vigentes que aún proclamen 4 programas o 79/97 auditados; conservar bitácora histórica e historial Git.",
-          "evidencePaths": [],
+          "evidencePaths": [
+            "plan.html"
+          ],
           "completedSubsteps": [
             "README, PROJECT_RULES y plan histórico Radar remiten al archivo maestro único",
             "Se corrigió enlace de evidencia directorio Diputación C1 para que use GitHub tree/main",
             "Prueba CI comprueba evidencias internas del plan maestro exportado sin rutas rotas",
-            "21/11/2026: eliminadas tarjetas duplicadas de herramientas y franja JCCM en inicio y aviso fijo El Viso en Radar. La navegación superior sigue siendo entrada única; test regresión del portal y publicación validados."
+            "21/11/2026: eliminadas tarjetas duplicadas de herramientas y franja JCCM en inicio y aviso fijo El Viso en Radar. La navegación superior sigue siendo entrada única; test regresión del portal y publicación validados.",
+            "21/11/2026: revisión de seis páginas raíz y tres scripts activos sin «cuatro programas», «79/97 auditados» ni estado obsoleto de El Viso; docs/FORMATO_SIMETRICO_CONVOCATORIAS.md rectificado conservando su naturaleza histórica. Test de regresión y publicación Actions 44907690502 SUCCESS."
           ],
-          "remainingSubsteps": [
-            "Cotejar referencias históricas fuera del tablero y evitar referencias obsoletas en los otros documentos sin perder auditorías"
-          ],
-          "nextAction": "Buscar otros avisos estáticos obsoletos y enlaces dependientes; retirar únicamente después de comprobar uso y pruebas.",
-          "priority": "MEDIA"
+          "remainingSubsteps": [],
+          "priority": "MEDIA",
+          "closedAt": "2026-11-21",
+          "closeLimit": "Cierre del alcance de referencias conocidas; no es búsqueda semántica exhaustiva de cualquier frase histórica en todos los manuales."
         },
         {
           "id": "QA-06",
           "title": "Consolidar reglas editoriales de referencia entre repositorios",
-          "state": "PENDIENTE",
+          "state": "HECHO",
           "acceptance": "Reglas editorialmente compatibles en ruta accesible del repositorio público, sin contradictorias fuentes múltiples; preservar originales y verificar enlaces.",
-          "evidencePaths": []
+          "evidencePaths": [
+            "plan.html"
+          ],
+          "closedAt": "2026-11-21",
+          "completedSubsteps": [
+            "21/11/2026: página pública content/metodologia-editorial.html generada desde las catorce reglas de PROJECT_RULES.md del repositorio privado, enlazada en Plan; sin segunda lista mantenida a mano. Test compara literalmente las catorce reglas y valida la publicación, Actions 44907690502 SUCCESS."
+          ],
+          "remainingSubsteps": [],
+          "closeLimit": "Reglas rectoras consolidadas; no certifica contenido legal de todos los temas, que tiene tareas de auditoría específicas."
         },
         {
           "id": "QA-UI-01",
@@ -692,7 +701,7 @@
           "id": "OPS-03",
           "title": "Plan de tareas único editable en el origen privado y proyección pública filtrada",
           "state": "HECHO",
-          "acceptance": "Un solo archivo editable opoweb-dev/data/plan-trabajo.json, estados HECHO/PARCIAL/EN_CURSO/PENDIENTE/BLOQUEADA, 34 IDs únicos, inventario SHA, hitos y criterios; exportación elimina inventario interno, tablero público lee proyección; documentos históricos rotulados como archivo.",
+          "acceptance": "Un solo archivo editable opoweb-dev/data/plan-trabajo.json, IDs únicos con integridad probada, estados, criterios de cierre, bitácora y decisiones; proyección pública filtra datos internos, y archivos históricos no forman una segunda cola.",
           "evidencePaths": [
             "data/plan-trabajo.json",
             "plan.html"
@@ -1319,6 +1328,35 @@
         "assets/app.js"
       ],
       "limit": "Ficha focal publicada y probada en Chromium (8 bloques, dos normas BOE). No equivale a auditoría integral de los 40 temas ni a certificación de todos los bancos."
+    },
+    {
+      "id": "LOG-20261121-CIERRE-QA05",
+      "at": "2026-11-21",
+      "taskIds": [
+        "QA-05"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Cierre QA-05: referencias operativas antiguas limpiadas; documento simétrico preservado como archivo histórico. Validación automática contra nueve recursos activos y CI SUCCESS.",
+      "evidence": [
+        "plan.html",
+        "assets/app.js",
+        "radar.html"
+      ],
+      "limit": "No se reescriben las métricas fechadas en archivos históricos ni se infiere revisión de todos los manuales."
+    },
+    {
+      "id": "LOG-20261121-CIERRE-QA06",
+      "at": "2026-11-21",
+      "taskIds": [
+        "QA-06"
+      ],
+      "kind": "VERIFICADO",
+      "summary": "Cierre QA-06: metodología editorial publicada como proyección automática exacta de las catorce reglas del documento rector privado, sin mantener otra norma paralela.",
+      "evidence": [
+        "plan.html",
+        "content/metodologia-editorial.html"
+      ],
+      "limit": "Consolidación de reglas, no revisión jurídica integral de temas. Código exportador y pruebas en repositorio privado."
     }
   ],
   "decisions": [
