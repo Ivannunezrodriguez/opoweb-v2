@@ -232,13 +232,14 @@
             "21/11/2026: componente extractivo de hasta siete conceptos del manual real incorporado a la vista de tema, validado en test y navegador; NO resume de forma completa artículos, plazos y trampas.",
             "21/11/2026: ficha piloto estructurada Olías Tema 1 con 6 conceptos, artículos constitucionales, distinciones de examen y fuente BOE consolidada 20/05/2026, anclada al manual existente. El resto sigue en resumen extractivo. Validación automatizada y E2E añadidos a workflows; confirmar ejecución y publicación antes de cerrar piloto.",
             "21/11/2026: piloto Olías T01 verificado en GitHub Actions: E2E Chromium 44904721690 SUCCESS; publicación filtrada 44904755823 SUCCESS y seis fichas de conceptos visibles en JSON público. Queda abierto extender y cotejar el resto de materias.",
-            "21/11/2026: segunda ficha estructurada para Diputación de Toledo C1 T01, 8 bloques (TC, art. 159, LOTC art. 9, reforma CE arts. 166-169), con dos fuentes BOE y test de esquema + prueba E2E navegador incorporados. No reabrir el cierre jurídico del manual sin incidencia."
+            "21/11/2026: segunda ficha estructurada para Diputación de Toledo C1 T01, 8 bloques (TC, art. 159, LOTC art. 9, reforma CE arts. 166-169), con dos fuentes BOE y test de esquema + prueba E2E navegador incorporados. No reabrir el cierre jurídico del manual sin incidencia.",
+            "21/11/2026: Diputación C1 T01: publicación SUCCESS run 44905357380 y E2E Chromium SUCCESS run 44905302260, ficha de 8 tarjetas con dos fuentes BOE."
           ],
           "remainingSubsteps": [
             "Definir ficha estructurada por tema enlazada a normas y fuentes; completar definiciones, plazos, mayorías, excepciones y trampas con cotejo jurídico.",
             "Medir y corregir resúmenes demasiado genéricos, truncados o basados solo en primera frase de cada sección."
           ],
-          "nextAction": "Confirmar CI Chromium de la segunda ficha; continuar con un tema ya auditado de Diputación C1 y ampliar medición de fichas verificadas, sin modificar manuales cerrados.",
+          "nextAction": "Priorizar fichas de temas 2 y 3 de Diputación C1 sobre manuales auditados y medir cobertura real: 2 pilotos (Olías T01 + Diputación C1 T01), sin atribuir fichas a 40 temas.",
           "priority": "ALTA"
         },
         {
@@ -1310,14 +1311,14 @@
         "STUDY-RECAP-01",
         "DIP-C1-01"
       ],
-      "kind": "PARCIAL",
+      "kind": "VERIFICADO",
       "summary": "Ficha de repaso de Diputación Administrativo C1 T01 incorporada con 8 distinciones de examen sobre Constitución, Tribunal Constitucional, LOTC y reforma, con enlaces a dos fuentes BOE.",
       "evidence": [
         "content/diputacion-toledo/tema-01/ficha-rapida.json",
         "data/programa-diputacion-administrativo-2026.json",
         "assets/app.js"
       ],
-      "limit": "Ficha focal de un tema, no revisión completa de 40 temas ni de todos los bancos. Verificación automatizada y E2E pendiente de cotejar al cierre del run actual."
+      "limit": "Ficha focal publicada y probada en Chromium (8 bloques, dos normas BOE). No equivale a auditoría integral de los 40 temas ni a certificación de todos los bancos."
     }
   ],
   "decisions": [
